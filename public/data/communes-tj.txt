@@ -1,0 +1,2657 @@
+0;70.7833,38.4667;TJ-01;Gorno-Badakhshan;Darvāz
+0;68.0296,37.2102;TJ-02;Khatlon Province;Arabkhana
+0;68.3167,38.4000;TJ;;Umar
+0;68.3442,38.2597;TJ-RR;Republican Subordination;Navbod
+0;68.7667,39.6667;TJ;;Imeni Kalinina
+0;68.1127,37.0527;TJ-02;Khatlon Province;Shoh
+0;71.7186,37.5674;TJ-01;Gorno-Badakhshan;Barsem
+0;69.8105,38.4962;TJ-02;Khatlon Province;Boghi Zoghon
+0;72.2454,37.3379;TJ-01;Gorno-Badakhshan;Zyrbot
+0;70.4455,38.1054;TJ-01;Gorno-Badakhshan;Zigar
+0;69.7172,38.8051;TJ-RR;Republican Subordination;Zuriyon
+0;72.6238,37.0344;TJ-01;Gorno-Badakhshan;Zong
+0;68.9570,38.8606;TJ-RR;Republican Subordination;Zuman
+0;69.9833,37.8333;TJ;;Zulum-Abad
+0;67.8167,39.5000;TJ-03;Sughd;Zul’fan
+0;69.8667,38.4333;TJ-02;Khatlon Province;Zuchako
+0;74.7016,37.7380;TJ-01;Gorno-Badakhshan;Zorchal
+0;68.1975,38.5521;TJ-RR;Republican Subordination;Ziyara-Tut
+0;69.8392,38.0047;TJ-02;Khatlon Province;Zirakí
+0;68.5860,39.4337;TJ-03;Sughd;Zindikan
+0;68.0510,39.2902;TJ-03;Sughd;Zimput
+0;68.7500,38.7667;TJ-RR;Republican Subordination;Zimchurud
+0;68.6283,39.1725;TJ-03;Sughd;Zarafshon
+0;71.3833,38.3333;TJ-01;Gorno-Badakhshan;Zelmobod
+0;67.5667,39.3833;TJ-03;Sughd;Zebon
+0;71.6392,38.2876;TJ-01;Gorno-Badakhshan;Zaych
+0;67.9190,39.3784;TJ-03;Sughd;Zavron
+0;68.6189,39.3901;TJ-03;Sughd;Zosun
+0;68.4178,37.8813;TJ-02;Khatlon Province;Zaryn-Bulak
+0;68.2676,38.4783;TJ-RR;Republican Subordination;Zarkamar
+0;68.6412,37.7970;TJ-02;Khatlon Province;Zargar
+0;70.2889,38.2105;TJ-02;Khatlon Province;Zarbuz Bolo
+0;70.5610,39.0806;TJ-RR;Republican Subordination;Zarangak
+0;71.9277,37.1943;TJ-01;Gorno-Badakhshan;Zanudzh
+0;71.7472,37.3204;TJ-01;Gorno-Badakhshan;Zanins
+0;69.6500,38.1000;TJ-02;Khatlon Province;Zangi-Baba
+0;68.6451,38.7054;TJ-RR;Republican Subordination;Zandkhur
+0;68.8010,38.7735;TJ-RR;Republican Subordination;Zamchurud
+0;68.5338,38.7625;TJ-RR;Republican Subordination;Zachau
+0;68.6727,38.6272;TJ-RR;Republican Subordination;Yunuskhodzha
+0;68.5333,37.4500;TJ;;Yunachi
+0;71.8333,38.0667;TJ-01;Gorno-Badakhshan;Yukht-Dakht
+0;69.0765,37.2906;TJ-02;Khatlon Province;Yuqori Temez
+0;72.1833,37.2500;TJ-01;Gorno-Badakhshan;Yuben’
+0;70.4224,38.7252;TJ-RR;Republican Subordination;Ezgand
+0;67.8698,39.5048;TJ-03;Sughd;Yorí
+0;71.6685,38.0062;TJ-01;Gorno-Badakhshan;Ems
+0;70.6135,38.3507;TJ-01;Gorno-Badakhshan;Eged
+0;68.7000,38.6833;TJ-RR;Republican Subordination;Yeabzak
+0;71.8272,38.5838;TJ-01;Gorno-Badakhshan;Yazgo
+0;72.3408,38.2942;TJ-01;Gorno-Badakhshan;Yapshorv
+0;69.2143,38.6806;TJ-RR;Republican Subordination;Yavroz
+0;68.8667,37.9167;TJ-02;Khatlon Province;Yavanabad
+17471;69.0378,38.3141;TJ-02;Khatlon Province;Yovon
+0;68.6424,37.6147;TJ-02;Khatlon Province;Lenin Qit’a
+0;68.6120,38.0773;TJ-02;Khatlon Province;Yashkandy
+0;68.4707,38.3423;TJ-RR;Republican Subordination;Jarteppa
+0;71.2300,39.2897;TJ-RR;Republican Subordination;Yar-Mazar
+0;70.8333,39.2500;TJ-RR;Republican Subordination;Yarkhych-Bele
+0;68.9466,38.5464;TJ-RR;Republican Subordination;Yangikurgon
+0;69.1667,37.9333;TJ;;Yantagly
+0;68.2037,37.2411;TJ-02;Khatlon Province;Yangiyul
+0;68.8024,39.8033;TJ-03;Sughd;Yangiqŭrghon
+0;68.3049,38.3587;TJ-RR;Republican Subordination;Yangi-Kishlak
+0;72.2728,36.9638;TJ-01;Gorno-Badakhshan;Yamchin
+0;69.7253,38.2552;TJ-02;Khatlon Province;Yaman-Kishlak
+0;68.7481,37.9334;TJ-02;Khatlon Province;Jomí
+0;68.7434,37.7632;TJ-02;Khatlon Province;Yakkatut
+0;68.3668,38.0595;TJ-RR;Republican Subordination;Yakka-Psta
+0;69.9444,38.8407;TJ-RR;Republican Subordination;Yakhch
+0;70.0329,38.8468;TJ-RR;Republican Subordination;Yakhak
+0;68.2833,38.6500;TJ-RR;Republican Subordination;Yagdon
+0;70.1833,38.8319;TJ-RR;Republican Subordination;Yafuch
+0;68.1444,39.4477;TJ-03;Sughd;Yovon
+0;71.5667,38.2000;TJ-01;Gorno-Badakhshan;Vzvudek
+0;71.5237,38.2267;TJ-01;Gorno-Badakhshan;Vishkharv
+0;71.3000,38.6667;TJ-RR;Republican Subordination;Vyrzga
+0;71.7656,37.3047;TJ-01;Gorno-Badakhshan;Vidoj
+0;71.4083,38.3350;TJ-01;Gorno-Badakhshan;Bichkharv
+0;68.2000,37.1667;TJ-02;Khatlon Province;Vtoroy Zorbador
+0;71.2500,38.3167;TJ-01;Gorno-Badakhshan;Vravz
+0;72.3730,37.0044;TJ-01;Gorno-Badakhshan;Vrang
+0;71.2750,37.9612;TJ-01;Gorno-Badakhshan;Voznavd
+21736;69.6452,37.8054;TJ-02;Khatlon Province;Hulbuk
+3836;70.5801,39.8513;TJ-03;Sughd;Vorukh
+0;67.9886,39.2343;TJ-03;Sughd;Voru
+0;68.6500,37.4833;TJ;;Voroshilovabad
+0;71.5192,37.6064;TJ-01;Gorno-Badakhshan;Vozm
+0;71.4443,37.1185;TJ-01;Gorno-Badakhshan;Vozg
+0;71.9538,37.7185;TJ-01;Gorno-Badakhshan;Vuzh
+0;69.2802,38.8987;TJ-RR;Republican Subordination;Viston
+0;71.0961,38.5502;TJ-01;Gorno-Badakhshan;Viskharv
+0;70.9914,38.4917;TJ-01;Gorno-Badakhshan;Vishkharv
+0;68.3374,39.4466;TJ-03;Sughd;Veshkand
+0;72.0808,37.7374;TJ-01;Gorno-Badakhshan;Vir
+0;69.7352,38.5748;TJ-02;Khatlon Province;Vion
+0;67.9921,39.4745;TJ-03;Sughd;Veshist
+0;68.9373,39.4135;TJ-03;Sughd;Veshab
+0;67.4128,39.2493;TJ-03;Sughd;Mŭsobozor
+0;68.0266,39.3001;TJ-03;Sughd;Ven
+0;70.2038,38.9671;TJ-RR;Republican Subordination;Vaydara
+0;70.1667,37.6000;TJ;;Vash-Pusht
+0;68.2731,39.4062;TJ-03;Sughd;Vashan
+0;68.7833,38.6167;TJ-04;Dushanbe;Varzobskaya
+0;68.8161,38.7664;TJ-RR;Republican Subordination;Varzobkala
+2154;68.8178,38.7737;TJ-RR;Republican Subordination;Varzob
+0;72.3542,37.6974;TJ-01;Gorno-Badakhshan;Varshidz
+0;68.9671,38.8364;TJ-RR;Republican Subordination;Varmanik
+0;68.5349,38.7317;TJ-RR;Republican Subordination;Vargandok
+0;71.9332,38.6458;TJ-01;Gorno-Badakhshan;Vanvan Bolo
+0;71.9103,38.6368;TJ-01;Gorno-Badakhshan;Vanvan Poyon
+0;72.2798,37.7189;TJ-01;Gorno-Badakhshan;Vanqal’a
+2636;71.4547,38.3708;TJ-01;Gorno-Badakhshan;Vanj
+0;68.6088,37.3853;TJ-02;Khatlon Province;Vakhsh
+15215;68.8346,37.7148;TJ-02;Khatlon Province;Vakhsh
+0;72.6225,37.0358;TJ-01;Gorno-Badakhshan;Vakhan
+0;70.2469,38.1310;TJ-02;Khatlon Province;Vaglel’
+0;67.7918,39.3008;TJ-03;Sughd;Vagashton
+0;70.1555,39.4625;TJ-03;Sughd;Vodif
+0;68.4091,38.5606;TJ-RR;Republican Subordination;Uzun
+0;68.6113,37.6555;TJ-01;Gorno-Badakhshan;Uzun
+0;71.2571,38.3283;TJ-01;Gorno-Badakhshan;Uzbay
+0;68.6987,37.9822;TJ-02;Khatlon Province;Uyalí
+0;68.7156,39.8429;TJ-03;Sughd;Uvoq
+0;68.9229,39.4053;TJ-03;Sughd;Utogar
+0;70.7333,39.1833;TJ-RR;Republican Subordination;Utal
+0;69.2203,39.3021;TJ-03;Sughd;Ustung
+0;68.9966,39.4027;TJ-03;Sughd;Ustanak
+0;71.4255,38.3573;TJ-01;Gorno-Badakhshan;Uskrogh
+0;68.6582,38.5976;TJ-RR;Republican Subordination;Uchkul’
+0;71.7500,38.5500;TJ-01;Gorno-Badakhshan;Ushkhorvak
+0;69.7500,37.8833;TJ;;Ushablok
+0;68.9012,38.2030;TJ-02;Khatlon Province;Urtaqaynar
+0;67.5285,39.4862;TJ-03;Sughd;Urtaqishloq
+0;69.7333,37.9833;TJ;;Urta
+273500;69.0033,39.9142;TJ-03;Sughd;Istaravshan
+0;68.2589,39.4417;TJ-03;Sughd;Urmetan
+0;68.9747,39.9734;TJ-03;Sughd;Rugund
+0;68.7603,38.2672;TJ-02;Khatlon Province;Urazboy
+0;68.4629,38.4786;TJ-RR;Republican Subordination;Umakay
+0;69.5833,37.9333;TJ;;Ul'bek
+0;71.8500,38.4500;TJ-01;Gorno-Badakhshan;Uist-Dakht
+0;70.8000,38.5500;TJ-01;Gorno-Badakhshan;Ugor
+0;71.7109,38.5396;TJ-01;Gorno-Badakhshan;Udob
+0;68.8000,37.9833;TJ-02;Khatlon Province;Uchkun
+0;73.7333,37.6667;TJ-01;Gorno-Badakhshan;Uchqŭl
+0;71.0718,38.5327;TJ-01;Gorno-Badakhshan;Ubagan
+0;71.8644,38.3843;TJ-01;Gorno-Badakhshan;Ubagn
+0;68.1333,39.4167;TJ-03;Sughd;Uata
+0;68.7865,38.2552;TJ-02;Khatlon Province;Tyuyachiabad
+0;69.5500,37.7667;TJ;;Tysh-Tepe
+0;74.2333,38.5667;TJ-01;Gorno-Badakhshan;Tuz-Buzaygyr
+0;69.2833,38.1833;TJ-02;Khatlon Province;Tuyatosh
+0;69.8833,37.9833;TJ;;Tutti
+0;69.2833,38.3000;TJ-02;Khatlon Province;Tutkaul
+0;68.5961,38.3963;TJ-RR;Republican Subordination;Tut-Bulak
+0;68.9500,38.3833;TJ;;Tut-Bulak
+0;69.7821,37.6860;TJ-02;Khatlon Province;Tuz-Bulak
+0;68.8359,37.9856;TJ-02;Khatlon Province;Tut
+0;71.6623,37.3703;TJ-01;Gorno-Badakhshan;Tusen
+0;68.8667,37.8333;TJ-02;Khatlon Province;Turmysh
+0;69.9439,37.8856;TJ-02;Khatlon Province;Turkoni
+0;68.1600,38.4247;TJ-RR;Republican Subordination;Turk-Kishlak
+0;68.4055,38.2233;TJ-RR;Republican Subordination;Turgak
+0;68.6192,38.5228;TJ-RR;Republican Subordination;Turdybobo
+0;69.2443,38.3997;TJ-02;Khatlon Province;Tugmazor
+0;69.1722,37.1781;TJ-02;Khatlon Province;Tugul
+0;69.6716,37.8001;TJ-02;Khatlon Province;Tŭgarak
+0;68.7719,37.7321;TJ-02;Khatlon Province;Kŭybishev
+0;69.1280,37.2076;TJ-02;Khatlon Province;Tŭgalang
+0;68.0628,38.5731;TJ;;Tuda-Chinar
+0;68.4772,38.5789;TJ-RR;Republican Subordination;Tuda
+0;68.7127,38.4070;TJ-RR;Republican Subordination;Tubek
+0;71.8391,37.2146;TJ-01;Gorno-Badakhshan;Sorj
+0;72.0167,37.2000;TJ-01;Gorno-Badakhshan;Tsenets
+0;70.1167,39.4833;TJ-03;Sughd;Tro
+0;68.7269,38.6369;TJ-RR;Republican Subordination;Toykara
+6071;70.4842,38.6953;TJ-RR;Republican Subordination;Tavildara
+0;69.5869,37.9255;TJ-02;Khatlon Province;Tosqal’a
+0;71.6954,38.5330;TJ-01;Gorno-Badakhshan;Torsher
+0;74.6489,37.8299;TJ-01;Gorno-Badakhshan;Toktamush
+0;69.6667,37.6333;TJ;;Togul
+0;71.0385,38.4420;TJ-01;Gorno-Badakhshan;Togmay
+0;68.5667,38.1667;TJ;;Tobi-Shar
+0;68.5857,38.1701;TJ;;Tobi-In
+0;68.6582,38.3973;TJ-RR;Republican Subordination;Tila-Abad
+0;69.8474,37.9170;TJ-02;Khatlon Province;Tebolay
+0;68.2320,37.1276;TJ-02;Khatlon Province;Teshiktosh
+0;67.7573,39.5016;TJ-03;Sughd;Qumsoí
+0;68.9373,38.4218;TJ-RR;Republican Subordination;Tersagar
+0;72.4167,37.7333;TJ-01;Gorno-Badakhshan;Terboy
+0;68.8945,38.5905;TJ-RR;Republican Subordination;Teppaisamarkandi
+0;68.6706,37.3778;TJ-02;Khatlon Province;Uchastok Imeni Tel’mana
+0;71.6911,38.5268;TJ-01;Gorno-Badakhshan;Tekharv
+0;68.6702,38.3661;TJ-RR;Republican Subordination;Taylenobad
+0;69.8273,38.7219;TJ-RR;Republican Subordination;Tagikamar
+0;71.6608,37.3940;TJ-01;Gorno-Badakhshan;Tavdem
+0;68.6167,39.3833;TJ-03;Sughd;Taumen
+0;68.8287,38.6622;TJ-RR;Republican Subordination;Dashtimiron
+0;68.3823,38.5542;TJ-RR;Republican Subordination;Toshteppa
+0;68.6470,37.7474;TJ-02;Khatlon Province;Tash-Tepe
+0;67.5694,39.4807;TJ-03;Sughd;Toshmunor
+0;68.2989,38.7141;TJ-RR;Republican Subordination;Tashkutanstroy
+0;68.1868,38.5445;TJ-RR;Republican Subordination;Toshkalon
+0;69.2749,37.9013;TJ-02;Khatlon Province;Toshguzar
+0;68.5000,38.4500;TJ-RR;Republican Subordination;Tash-Bulak
+0;69.7034,38.1364;TJ-02;Khatlon Province;Tash-Bulak
+0;69.4035,37.8848;TJ-02;Khatlon Province;Toshbuloq
+0;69.8828,37.7979;TJ-02;Khatlon Province;Toshbuloq
+0;68.6167,38.7333;TJ-RR;Republican Subordination;Tash-Bul
+0;68.3746,38.3828;TJ-RR;Republican Subordination;Toshokhŭr
+0;69.1590,38.1146;TJ-02;Khatlon Province;Tashakhur
+0;68.1671,38.5339;TJ-RR;Republican Subordination;Toshobod
+2342;68.1335,37.5822;TJ-02;Khatlon Province;Tartiki
+0;68.3986,38.1510;TJ-RR;Republican Subordination;Tarikpoya
+0;70.8843,39.0871;TJ-RR;Republican Subordination;Tarbulak
+0;68.9530,39.8870;TJ-03;Sughd;Tapkok
+0;72.1089,37.7405;TJ-01;Gorno-Badakhshan;Tangiv
+0;69.0644,38.5954;TJ-RR;Republican Subordination;Tangan
+0;69.5788,37.9837;TJ-02;Khatlon Province;Tanobchí
+0;71.2158,39.4071;TJ-RR;Republican Subordination;Tamdykul’
+0;68.9328,38.4978;TJ-RR;Republican Subordination;Tomchi
+0;69.4833,37.9000;TJ;;Tamchi
+0;68.5396,38.3355;TJ-RR;Republican Subordination;Talik
+0;70.3645,38.5947;TJ-02;Khatlon Province;Tal’bar
+2565;68.8985,38.8383;TJ-RR;Republican Subordination;Tagob
+0;68.4833,39.2333;TJ-03;Sughd;Takh
+0;68.6243,39.2069;TJ-03;Sughd;Takfon
+0;68.9163,38.3216;TJ-02;Khatlon Province;Taka-Sakyrdy
+0;71.7343,37.5968;TJ-01;Gorno-Badakhshan;Tang
+0;69.6597,38.5590;TJ;;Tagobikala
+0;68.6544,38.7227;TJ-RR;Republican Subordination;Taftakhta
+0;70.8401,39.1240;TJ-RR;Republican Subordination;Tajikobod
+0;68.3397,38.2758;TJ-RR;Republican Subordination;Tabu-Bulak
+0;72.1563,37.2365;TJ-01;Gorno-Badakhshan;Tabarsim
+0;71.8246,38.5981;TJ-01;Gorno-Badakhshan;Starg
+0;71.2245,38.8040;TJ-RR;Republican Subordination;Sikat
+0;69.4667,37.5667;TJ;;Suzhany
+0;69.9229,38.6006;TJ-02;Khatlon Province;Surkhdara
+0;68.4815,38.6347;TJ-RR;Republican Subordination;Surkhakchashma
+0;71.9236,38.6316;TJ-01;Gorno-Badakhshan;Sumgad
+0;68.6240,38.4487;TJ-RR;Republican Subordination;Sumbula
+0;68.2146,38.5738;TJ-RR;Republican Subordination;Sulyukh
+0;69.9333,38.6833;TJ-02;Khatlon Province;Sulun
+0;70.0734,38.4742;TJ-02;Khatlon Province;Mazori Hazrati Sulmon
+0;68.9484,38.4452;TJ-RR;Republican Subordination;Sultonobod
+0;67.6993,39.4883;TJ-03;Sughd;Qashqa
+0;68.5087,38.7641;TJ-RR;Republican Subordination;Suffa
+0;67.7260,39.4879;TJ-03;Sughd;Sujina
+0;69.9554,37.9185;TJ-02;Khatlon Province;Suchiyon
+0;71.6285,37.5319;TJ-01;Gorno-Badakhshan;Suchan
+0;74.1206,38.1978;TJ-01;Gorno-Badakhshan;Su-Bashi
+8695;69.5882,38.0467;TJ-02;Khatlon Province;Sovet
+0;69.8333,38.1667;TJ-02;Khatlon Province;Soriya-Bulak
+0;69.5833,38.8686;TJ-RR;Republican Subordination;Sorbogi-Dagana
+0;69.4858,38.8167;TJ-RR;Republican Subordination;Sarvo
+0;69.5667,38.8833;TJ-RR;Republican Subordination;Sorbagi-Dogana
+0;67.6510,39.2720;TJ-03;Sughd;Sor
+0;68.8333,38.6667;TJ-RR;Republican Subordination;Sokur
+0;71.5536,37.7208;TJ-01;Gorno-Badakhshan;Sokhcharv
+0;69.5659,38.5665;TJ-RR;Republican Subordination;Sogli
+0;71.4525,37.1793;TJ-01;Gorno-Badakhshan;Siz
+0;70.0948,39.0930;TJ-RR;Republican Subordination;Siyëkhdarai-Poyën
+0;70.2218,38.4790;TJ-02;Khatlon Province;Siyakopa
+0;72.2500,38.5167;TJ-01;Gorno-Badakhshan;Siyafark
+0;71.5227,37.2093;TJ-01;Gorno-Badakhshan;Qoqobod
+0;70.0167,38.2333;TJ-02;Khatlon Province;Sindzhe-Dara
+0;69.8756,37.7716;TJ-02;Khatlon Province;Sumchakon
+0;71.7754,37.6516;TJ-01;Gorno-Badakhshan;Sizhd
+0;69.8024,38.7301;TJ-RR;Republican Subordination;Sicharog
+0;69.9000,38.8667;TJ-RR;Republican Subordination;Sia-Tulak
+0;68.2167,38.5833;TJ-RR;Republican Subordination;Shur-Ob
+0;68.6180,38.5460;TJ-RR;Republican Subordination;Shurobiagon
+0;70.0486,37.8414;TJ-02;Khatlon Province;Shŭrobod
+0;69.6667,37.7167;TJ;;Shur-Kishlak
+0;68.3318,38.6856;TJ-RR;Republican Subordination;Shurkhok
+0;68.4663,38.1049;TJ-RR;Republican Subordination;Shuryonbosh
+0;67.5999,39.4406;TJ-03;Sughd;Shŭrcha
+0;68.8827,38.2516;TJ-02;Khatlon Province;Shŭrcha
+0;68.7500,38.1500;TJ-02;Khatlon Province;Shurcha
+0;68.2781,38.3451;TJ-RR;Republican Subordination;Shulum
+0;68.4083,38.7425;TJ-RR;Republican Subordination;Shuluk
+0;68.3863,38.5860;TJ-RR;Republican Subordination;Shul’mak
+0;70.2866,38.5748;TJ-02;Khatlon Province;Shughnov
+0;71.5833,37.5000;TJ-01;Gorno-Badakhshan;Shughnon
+0;71.6034,37.4230;TJ-01;Gorno-Badakhshan;Shuvjev
+0;71.6329,37.9721;TJ-01;Gorno-Badakhshan;Shujand
+0;72.0239,37.7394;TJ-01;Gorno-Badakhshan;Shitam
+0;70.0748,38.9519;TJ-RR;Republican Subordination;Shouli
+0;72.2757,37.3471;TJ-01;Gorno-Badakhshan;Shoshbuvad
+0;68.5271,38.6525;TJ-RR;Republican Subordination;Shokhon
+0;69.1718,38.1466;TJ-02;Khatlon Province;Shivansay
+0;72.0765,36.8522;TJ-01;Gorno-Badakhshan;Shitkharv
+0;68.6591,38.4442;TJ-RR;Republican Subordination;Shirkhany
+0;69.1178,38.3783;TJ-02;Khatlon Province;Shirinbuloq
+0;71.7556,38.5632;TJ-01;Gorno-Badakhshan;Shirgovad
+0;72.5212,37.0090;TJ-01;Gorno-Badakhshan;Shirgin
+0;68.7152,38.8009;TJ-RR;Republican Subordination;Shir-Atala
+0;71.3341,38.1083;TJ-01;Gorno-Badakhshan;Shipad
+0;70.1867,39.1596;TJ-RR;Republican Subordination;Shinglich
+0;67.8066,39.2817;TJ-03;Sughd;Shing
+0;67.6357,39.5365;TJ-03;Sughd;Shingak
+0;74.7699,37.6318;TJ-01;Gorno-Badakhshan;Shindy
+0;67.5000,39.2333;TJ-03;Sughd;Shin’cha
+0;69.8072,37.8501;TJ-02;Khatlon Province;Shululu
+0;69.9667,38.5000;TJ-02;Khatlon Province;Shikhon
+0;68.8167,38.6333;TJ-RR;Republican Subordination;Shikhok
+0;68.2059,38.4786;TJ-RR;Republican Subordination;Shikh-Muzafar
+0;70.1500,37.6333;TJ;;Shigay
+0;71.3108,37.9240;TJ-01;Gorno-Badakhshan;Shidz
+0;68.9035,38.6261;TJ-RR;Republican Subordination;Shaíkhak
+0;67.4667,39.4500;TJ-03;Sughd;Shernova
+0;68.2221,38.6353;TJ-RR;Republican Subordination;Shirkent
+0;68.8000,38.6333;TJ-04;Dushanbe;Shekhak
+0;68.3500,38.5500;TJ-RR;Republican Subordination;Shaytan
+0;69.1667,37.9167;TJ;;Shaytan
+0;74.8256,37.5372;TJ-01;Gorno-Badakhshan;Shaymak
+0;70.9500,39.3000;TJ-RR;Republican Subordination;Shavr
+0;71.8649,37.1878;TJ-01;Gorno-Badakhshan;Shavoz
+0;68.8637,39.3993;TJ-03;Sughd;Shavadki Poyon
+0;68.8908,39.4013;TJ-03;Sughd;Shavadki Bolo
+0;71.4744,38.2054;TJ-01;Gorno-Badakhshan;Shaud
+0;70.0167,37.6667;TJ;;Shatrak
+0;68.8227,38.6933;TJ-RR;Republican Subordination;Sharshara
+0;68.6954,38.1860;TJ-02;Khatlon Province;Sharshar
+0;69.7561,38.0855;TJ-02;Khatlon Province;Sharshar
+0;68.5383,38.0508;TJ-RR;Republican Subordination;Sharituz
+0;68.8016,38.4106;TJ-RR;Republican Subordination;Shar-Bulak
+0;70.0646,38.2752;TJ-02;Khatlon Province;Shahrak
+0;68.3500,37.5167;TJ-02;Khatlon Province;Shaptaly-Bag
+0;69.2833,38.5667;TJ-RR;Republican Subordination;Shaodeli
+0;71.6825,38.5173;TJ-01;Gorno-Badakhshan;Shavru
+0;71.4470,37.0961;TJ-01;Gorno-Badakhshan;Shanbede
+0;69.4833,38.4000;TJ-02;Khatlon Province;Shali-Paya
+0;70.3205,38.8105;TJ-RR;Republican Subordination;Shakhob
+0;69.5098,38.4651;TJ-RR;Republican Subordination;Shakhtut
+5385;68.3350,38.5709;TJ-RR;Republican Subordination;Shahrinav
+22903;68.8093,39.7745;TJ-03;Sughd;Shahriston
+0;69.8704,38.9261;TJ-RR;Republican Subordination;Shodmoní
+0;71.0285,38.4657;TJ-01;Gorno-Badakhshan;Shodaki Bolo
+0;69.6945,37.8380;TJ-02;Khatlon Province;Shobika
+13042;68.1385,37.2621;TJ-02;Khatlon Province;Shahritus
+0;72.0833,37.2500;TJ-01;Gorno-Badakhshan;Seydzh
+0;70.0533,37.8178;TJ-02;Khatlon Province;Sebdarai Kalon
+0;68.2455,38.5361;TJ-RR;Republican Subordination;Seshambe
+0;69.9929,37.6501;TJ-02;Khatlon Province;Sebandi
+0;71.5167,37.0333;TJ-01;Gorno-Badakhshan;Serendi
+0;71.9661,37.1813;TJ-01;Gorno-Badakhshan;Sindev
+0;69.1721,37.2135;TJ-02;Khatlon Province;Selga
+0;69.5667,37.8667;TJ;;Sel'burg
+0;70.6442,38.7763;TJ-02;Khatlon Province;Sayod
+0;68.1494,37.2109;TJ-02;Khatlon Province;Sayyod
+0;69.5333,37.6000;TJ;;Sayat
+0;68.3906,38.6949;TJ-RR;Republican Subordination;Savurgon
+0;72.4085,38.3169;TJ-01;Gorno-Badakhshan;Savnob
+0;68.1831,38.5768;TJ-RR;Republican Subordination;Savli
+0;70.7167,38.7667;TJ-01;Gorno-Badakhshan;Sauzy-Khara
+0;70.0000,37.6333;TJ;;Sauzaln
+0;69.7464,38.3235;TJ-02;Khatlon Province;Satalmush
+0;73.1959,37.6841;TJ-01;Gorno-Badakhshan;Sasiqkul
+0;68.8362,39.8106;TJ-03;Sughd;Sary-Ube
+0;68.3169,39.0508;TJ-03;Sughd;Saritag
+0;68.9797,39.7109;TJ-03;Sughd;Sarymsakly
+0;69.7698,38.1207;TJ-02;Khatlon Province;Sarym-Sagli
+0;70.2176,37.7986;TJ-02;Khatlon Province;Sarymakzor
+0;68.6950,38.6882;TJ-RR;Republican Subordination;Sary-Kutal’
+0;69.7411,37.6787;TJ-02;Khatlon Province;Sarkokŭl
+5894;69.8308,38.5385;TJ-02;Khatlon Province;Sarikhosor
+0;68.4862,37.9387;TJ-RR;Republican Subordination;Sary-Khalka
+0;70.2024,37.6534;TJ-02;Khatlon Province;Sarkokul
+0;68.7833,38.6167;TJ-04;Dushanbe;Sary-Assiya
+0;69.8833,37.6500;TJ;;Sary-Assiya
+0;68.7500,38.6667;TJ-RR;Republican Subordination;Sary-Assiabak
+0;69.6733,37.9709;TJ-02;Khatlon Province;Khojasartez
+0;69.9549,38.0879;TJ-02;Khatlon Province;Sarsibuloq
+0;69.1127,37.2757;TJ-02;Khatlon Province;Sarmantay
+0;69.1306,37.2623;TJ-02;Khatlon Province;Sarmantay
+0;68.6741,38.4538;TJ-RR;Republican Subordination;Sarikishty
+0;68.2086,38.5134;TJ-RR;Republican Subordination;Sarkor
+0;69.5833,38.9167;TJ-RR;Republican Subordination;Sarivaroz
+0;69.2820,39.3041;TJ-03;Sughd;Saripul
+0;70.1333,38.4167;TJ-02;Khatlon Province;Saripul’
+0;71.6926,39.4016;TJ-RR;Republican Subordination;Sargay
+0;69.8409,37.7549;TJ-02;Khatlon Province;Sarichashma
+0;68.4007,38.4440;TJ-RR;Republican Subordination;Sara-Kamysh
+0;68.8835,38.5366;TJ-RR;Republican Subordination;Sangtŭda
+0;71.2152,38.7788;TJ-RR;Republican Subordination;Sangvor
+0;69.0741,38.0426;TJ-02;Khatlon Province;Sangtŭda
+0;67.9869,37.2331;TJ-02;Khatlon Province;Sangoba
+0;70.2224,37.9757;TJ-02;Khatlon Province;Sangi Ŭghur
+0;68.4024,38.6221;TJ-RR;Republican Subordination;Sang-Milya
+0;68.6010,39.3942;TJ-03;Sughd;Sangiston
+0;68.4108,38.6010;TJ-RR;Republican Subordination;Sangichou
+0;70.5793,38.2752;TJ-01;Gorno-Badakhshan;Sangovy
+0;69.4146,37.6519;TJ-02;Khatlon Province;Somonchí
+0;68.1249,37.5572;TJ-02;Khatlon Province;Soltik
+0;68.9750,39.8818;TJ-03;Sughd;Saksiyon
+0;70.6686,38.6393;TJ-01;Gorno-Badakhshan;Sagirdasht
+0;69.2333,38.6667;TJ-RR;Republican Subordination;Safid-Dara
+0;70.1097,37.8618;TJ-02;Khatlon Province;Safedori Bolo
+0;70.7667,38.7167;TJ-01;Gorno-Badakhshan;Safet-Sang-Bolo
+0;71.6547,38.5006;TJ-01;Gorno-Badakhshan;Sadvadg
+0;69.8175,39.4669;TJ-03;Sughd;Sabakh
+0;70.2343,38.0628;TJ-02;Khatlon Province;Ruykash Bolo
+0;68.8833,38.4000;TJ-RR;Republican Subordination;Rustakov
+4031;71.5575,37.9449;TJ-01;Gorno-Badakhshan;Rŭshon
+0;72.4922,38.3585;TJ-01;Gorno-Badakhshan;Rukhch
+0;69.4295,39.1425;TJ-RR;Republican Subordination;Rufigar
+0;72.3042,37.3549;TJ-01;Gorno-Badakhshan;Rubot
+0;71.8858,38.0639;TJ-01;Gorno-Badakhshan;Ravied
+0;71.8443,38.5945;TJ-01;Gorno-Badakhshan;Rovand
+0;71.3323,38.0252;TJ-01;Gorno-Badakhshan;Roharv
+0;71.8259,37.2583;TJ-01;Gorno-Badakhshan;Roshtqal’a
+0;72.3247,38.3177;TJ-01;Gorno-Badakhshan;Roshorv
+0;68.6659,39.2238;TJ-03;Sughd;Remon
+0;71.9084,36.7384;TJ-01;Gorno-Badakhshan;Ramanit
+0;68.8355,37.9501;TJ-02;Khatlon Province;Rokhi Sotsializm
+0;68.9318,38.6013;TJ-RR;Republican Subordination;Rokhaty
+0;67.7417,39.1504;TJ-03;Sughd;Rogij
+7731;69.8708,38.7826;TJ-RR;Republican Subordination;Roghun
+0;71.3248,38.8524;TJ-RR;Republican Subordination;Roga
+0;70.0112,39.4316;TJ-03;Sughd;Rog
+0;67.7014,39.5354;TJ-03;Sughd;Roj
+0;68.1910,39.3865;TJ-03;Sughd;Revad
+0;71.7953,37.6418;TJ-01;Gorno-Badakhshan;Rivak
+0;71.7349,37.9219;TJ-01;Gorno-Badakhshan;Ruddevlokh
+0;71.7296,37.9710;TJ-01;Gorno-Badakhshan;Rid
+0;68.4436,38.7390;TJ-RR;Republican Subordination;Reki
+0;68.2350,38.5042;TJ-RR;Republican Subordination;Regor
+0;71.9452,38.1501;TJ-01;Gorno-Badakhshan;Razuj
+0;71.9681,37.9688;TJ-01;Gorno-Badakhshan;Ravmed
+0;71.7163,38.5312;TJ-01;Gorno-Badakhshan;Ravgada
+0;68.5825,39.1861;TJ-03;Sughd;Rabot
+0;67.8640,39.2983;TJ-03;Sughd;Rovadin
+0;72.5464,38.3019;TJ-01;Gorno-Badakhshan;Raun
+0;71.5792,38.4406;TJ-01;Gorno-Badakhshan;Rau
+0;69.2843,39.6281;TJ-03;Sughd;Rosrovut
+0;68.7473,39.3819;TJ-03;Sughd;Rarz
+0;68.8289,38.3704;TJ-RR;Republican Subordination;Rangok
+0;74.3813,38.4856;TJ-01;Gorno-Badakhshan;Rangkŭl
+0;71.6167,36.7167;TJ-01;Gorno-Badakhshan;Rang
+0;69.3202,38.7238;TJ-RR;Republican Subordination;Romit
+0;69.8833,37.7333;TJ;;Rafak
+0;72.7894,37.2186;TJ-01;Gorno-Badakhshan;Rachiv
+0;70.7894,38.5590;TJ-01;Gorno-Badakhshan;Rubot
+0;68.1821,38.6192;TJ-RR;Republican Subordination;Rabot
+110800;68.7776,37.8365;TJ-02;Khatlon Province;Bokhtar
+0;68.7705,39.0529;TJ-RR;Republican Subordination;Panjhok
+8019;69.0991,37.2363;TJ-02;Khatlon Province;Panj
+0;72.2218,36.9408;TJ-01;Gorno-Badakhshan;Ptul
+0;67.8167,37.1500;TJ;;Pustin-Dara
+0;68.3697,38.6846;TJ-RR;Republican Subordination;Pushtimiyona
+0;69.7683,38.0167;TJ-02;Khatlon Province;Pushiyoni Poyën
+0;69.7936,38.0385;TJ-02;Khatlon Province;Pushiyon
+0;69.4407,38.1863;TJ-02;Khatlon Province;Pushing
+0;68.9232,38.8863;TJ-RR;Republican Subordination;Purud
+0;68.5787,39.1557;TJ-03;Sughd;Pormin
+0;71.7667,38.5667;TJ-01;Gorno-Badakhshan;Puli-Dangal’
+0;68.8479,38.8523;TJ-RR;Republican Subordination;Pugus
+0;71.2337,38.4053;TJ-01;Gorno-Badakhshan;Pshikharv
+0;74.1553,38.6031;TJ-01;Gorno-Badakhshan;Priiski
+0;71.9717,38.6538;TJ-01;Gorno-Badakhshan;Poimazor
+0;71.6092,38.4674;TJ-01;Gorno-Badakhshan;Potov
+0;68.1882,38.7794;TJ-RR;Republican Subordination;Poshmikuna
+0;71.1528,38.3969;TJ-01;Gorno-Badakhshan;Poshkharv
+0;68.9243,38.8781;TJ-RR;Republican Subordination;Poshum
+0;68.8342,37.6642;TJ-02;Khatlon Province;Internatsional
+0;68.0444,39.3059;TJ-03;Sughd;Parven
+0;68.4097,38.7045;TJ-RR;Republican Subordination;Poruk-Tash
+0;72.6500,38.4167;TJ-01;Gorno-Badakhshan;Polne
+0;68.4579,39.3181;TJ-03;Sughd;Poimazor
+0;71.3000,39.3333;TJ-RR;Republican Subordination;Pitaukul’-Balkh
+0;71.0833,38.8167;TJ-RR;Republican Subordination;Pisoda
+71;69.1833,39.1667;TJ-03;Sughd;Pskan
+0;69.9405,38.6072;TJ-02;Khatlon Province;Pishtovo
+0;71.4948,37.3756;TJ-01;Gorno-Badakhshan;Pish
+0;68.7000,37.2833;TJ;;Pionersk
+0;68.5003,39.2194;TJ-03;Sughd;Pinyon
+0;69.5500,37.7833;TJ;;Pingon
+0;71.0667,39.1667;TJ-RR;Republican Subordination;Pil’doni-Poyën
+0;69.3861,39.0440;TJ-RR;Republican Subordination;Pichef
+0;68.5465,39.2495;TJ-03;Sughd;Pete
+0;68.1441,37.4986;TJ-02;Khatlon Province;Yak May Qit’a
+0;68.7513,37.3428;TJ-02;Khatlon Province;Pervomayskiy
+35085;67.6093,39.4952;TJ-03;Sughd;Panjakent
+0;68.9553,38.8810;TJ-RR;Republican Subordination;Pichandor
+0;68.8565,38.3018;TJ-02;Khatlon Province;Pattalik
+0;68.4090,38.6836;TJ-RR;Republican Subordination;Patru
+0;68.0234,39.3255;TJ-03;Sughd;Pagna
+0;69.1682,39.4213;TJ-03;Sughd;Pastigav
+0;69.9333,38.2333;TJ-02;Khatlon Province;Pastezas
+0;69.1321,38.2943;TJ-02;Khatlon Province;Pastakon
+0;68.4966,37.4553;TJ-02;Khatlon Province;Pasariq
+0;68.4500,39.2239;TJ-03;Sughd;Pasrud
+0;72.5995,38.4051;TJ-01;Gorno-Badakhshan;Pasor
+0;71.4667,38.8667;TJ-RR;Republican Subordination;Pashimgar
+0;68.8742,39.8223;TJ-03;Sughd;Pashchi
+0;71.7194,37.5101;TJ-01;Gorno-Badakhshan;Parzhir
+0;70.2175,37.7374;TJ-02;Khatlon Province;Parvar
+0;68.5495,37.5361;TJ-02;Khatlon Province;Pakhtakor-Surkh
+0;71.6416,37.4003;TJ-01;Gorno-Badakhshan;Parshed
+21736;69.4036,37.4922;TJ-02;Khatlon Province;Farkhor
+0;72.1514,37.7470;TJ-01;Gorno-Badakhshan;Parinishian
+0;69.2000,38.2333;TJ-02;Khatlon Province;Parchasay
+0;67.8438,39.1533;TJ-03;Sughd;Pani
+0;70.1524,38.3022;TJ-02;Khatlon Province;Pam-Dara
+0;69.9621,39.4177;TJ-03;Sughd;Poldorak
+0;69.7462,37.9809;TJ-02;Khatlon Province;Pakhtakor
+0;68.1369,38.4634;TJ-RR;Republican Subordination;Pakhtaobod
+0;70.4283,38.6628;TJ-RR;Republican Subordination;Pagulya
+0;71.7692,38.0023;TJ-01;Gorno-Badakhshan;Padrud
+0;67.8357,39.1707;TJ-03;Sughd;Padrud
+0;70.6727,38.3955;TJ-01;Gorno-Badakhshan;Patkunob
+0;68.4276,38.7503;TJ-RR;Republican Subordination;Oy-Barik
+0;69.7589,37.9981;TJ-02;Khatlon Province;Osmanbika
+0;70.7000,39.1667;TJ-RR;Republican Subordination;Osiob-Dara
+5988;68.8195,37.5582;TJ-02;Khatlon Province;Orzu
+45693;69.0135,38.5563;TJ-RR;Republican Subordination;Vahdat
+0;68.3625,38.5463;TJ-RR;Republican Subordination;Omada
+0;68.3250,38.5276;TJ-RR;Republican Subordination;Oktabrsk
+0;68.8013,37.7663;TJ-02;Khatlon Province;Ismoili Somoní
+0;70.4987,39.9438;TJ-03;Sughd;Oktyabr
+0;67.6728,39.3833;TJ-03;Sughd;Oqkŭtal
+0;67.9485,39.4368;TJ-03;Sughd;Varzikanda
+0;68.8973,38.7772;TJ-RR;Republican Subordination;Odzhuk
+0;71.4999,38.4007;TJ-01;Gorno-Badakhshan;Odesht
+0;69.0930,39.4030;TJ-03;Sughd;Dashti Obburdon
+0;69.0282,38.2092;TJ-02;Khatlon Province;Obimŭkí
+0;68.6660,38.1603;TJ-02;Khatlon Province;Obikiik
+7400;69.7088,38.7173;TJ-RR;Republican Subordination;Obigarm
+0;71.6344,38.4866;TJ-01;Gorno-Badakhshan;Obgo
+0;71.6000,36.7167;TJ-01;Gorno-Badakhshan;Nyut
+0;70.2058,38.8000;TJ-RR;Republican Subordination;Nurung
+0;70.5618,38.2642;TJ-01;Gorno-Badakhshan;Nul’vand
+0;72.2333,38.2333;TJ-01;Gorno-Badakhshan;Nukbist
+0;68.7936,38.6864;TJ-RR;Republican Subordination;Novobod
+0;70.0833,38.4833;TJ-02;Khatlon Province;Novobad
+0;68.6833,37.6833;TJ-02;Khatlon Province;Ŭrtabuz
+0;69.2667,38.8833;TJ-RR;Republican Subordination;Novakipoyën
+0;68.9492,39.7182;TJ-03;Sughd;Navobod
+0;68.5833,38.5000;TJ-RR;Republican Subordination;Novabad
+21;69.0833,39.2000;TJ-03;Sughd;Nomitkon
+18122;69.3227,38.3892;TJ-02;Khatlon Province;Norak
+0;69.7693,37.6836;TJ-02;Khatlon Province;Nagay
+0;67.8333,39.1833;TJ-03;Sughd;Nofin
+5303;68.5772,37.1944;TJ-02;Khatlon Province;Panji Poyon
+0;68.1333,37.3833;TJ-02;Khatlon Province;Nizhniy Khokak
+0;69.0114,39.8302;TJ-03;Sughd;Dalyon
+0;72.4002,38.2972;TJ-01;Gorno-Badakhshan;Nisur
+0;70.2275,38.1286;TJ-02;Khatlon Province;Nishorak
+0;72.4667,37.0167;TJ-01;Gorno-Badakhshan;Nishgar
+0;71.2500,38.7167;TJ-RR;Republican Subordination;Nisay
+0;72.2167,38.2667;TJ-01;Gorno-Badakhshan;Nimshus
+0;70.6736,39.1005;TJ-RR;Republican Subordination;Nimichi-Poyën
+0;68.9201,38.6009;TJ-RR;Republican Subordination;Nil’kon
+10350;68.9242,39.9594;TJ-03;Sughd;Nijoní
+0;68.5280,38.6740;TJ-RR;Republican Subordination;Nilu
+0;72.0393,37.7209;TJ-01;Gorno-Badakhshan;Nimogh
+0;72.2233,37.3205;TJ-01;Gorno-Badakhshan;Nimos
+0;68.0147,39.3560;TJ-03;Sughd;Negnot
+0;70.6292,39.3786;TJ-RR;Republican Subordination;Nazaraylok
+0;69.1682,38.1043;TJ-02;Khatlon Province;Nayza-Bulak
+0;68.5040,37.8777;TJ-RR;Republican Subordination;Nayzabuloq
+0;71.2000,38.7333;TJ-RR;Republican Subordination;Naygufdorgoza
+0;70.2116,38.9813;TJ-RR;Republican Subordination;Navdonek
+5352;70.1508,39.0108;TJ-RR;Republican Subordination;Novobod
+0;70.1909,37.7236;TJ-02;Khatlon Province;Nauchun
+0;72.2333,38.2667;TJ-01;Gorno-Badakhshan;Nau
+0;68.8519,39.0493;TJ-RR;Republican Subordination;Nasrut
+0;70.0656,39.2448;TJ-RR;Republican Subordination;Nasrud
+0;68.4128,39.1177;TJ-03;Sughd;Narvad
+0;68.3667,39.4667;TJ-03;Sughd;Narge-Say
+0;71.7772,36.6796;TJ-01;Gorno-Badakhshan;Namadguti Bolo
+0;68.3167,38.6500;TJ-RR;Republican Subordination;Nakhal’bek
+0;71.5256,37.4712;TJ-01;Gorno-Badakhshan;Nagodak
+0;68.9906,39.8304;TJ-03;Sughd;Nafaroch
+0;68.4667,38.6333;TJ-RR;Republican Subordination;Nadzhi
+0;73.5135,38.7192;TJ-01;Gorno-Badakhshan;Muzkol
+0;69.5636,38.6708;TJ-RR;Republican Subordination;Muskinabad
+0;68.3500,38.6333;TJ-RR;Republican Subordination;Musa-Bazari
+0;68.8238,38.2727;TJ-02;Khatlon Province;Mirzoqulobod
+10815;73.9667,38.1702;TJ-01;Gorno-Badakhshan;Murghob
+0;71.8662,38.6206;TJ-01;Gorno-Badakhshan;Murgudga
+0;69.9218,37.8940;TJ-02;Khatlon Province;Momirak
+0;71.5240,36.8920;TJ-01;Gorno-Badakhshan;Mavlodzh
+0;69.8043,37.9568;TJ-02;Khatlon Province;Mullosulton
+0;69.8167,37.8667;TJ;;Mulla-Kazagi
+0;68.9384,38.5281;TJ-RR;Republican Subordination;Mullodavot
+0;71.5655,39.1501;TJ;;Muk
+0;68.7035,38.6554;TJ-RR;Republican Subordination;Muguloni-Poyën
+27835;69.1822,39.8815;TJ-03;Sughd;Muchun
+0;69.8809,38.8634;TJ-RR;Republican Subordination;Mujikharf
+0;68.9529,38.5617;TJ-RR;Republican Subordination;Moinkadzh-Poyën
+0;69.6285,37.6610;TJ-02;Khatlon Province;Moskva
+0;72.4167,37.7500;TJ-01;Gorno-Badakhshan;Morkhona
+0;72.4513,37.6985;TJ-01;Gorno-Badakhshan;Morj
+0;68.3545,38.6487;TJ-RR;Republican Subordination;Monming-Abad
+0;68.8167,38.0167;TJ-02;Khatlon Province;Molotovabad
+0;68.3500,38.5333;TJ-RR;Republican Subordination;Moloshady
+0;67.6833,39.5000;TJ-03;Sughd;Mogul
+0;69.1383,37.2882;TJ-02;Khatlon Province;Somon
+0;72.2511,37.7225;TJ-01;Gorno-Badakhshan;Miyonshahr
+0;68.1167,37.2833;TJ-02;Khatlon Province;Misyr-Abad
+0;70.8796,38.8285;TJ-RR;Republican Subordination;Miyonadu
+0;69.7667,37.9667;TJ;;Min'-Tut
+0;68.2304,38.4689;TJ-RR;Republican Subordination;Ming-Tut
+0;68.4167,38.2667;TJ-RR;Republican Subordination;Ming-Botman
+0;68.5261,38.2990;TJ-RR;Republican Subordination;Mingichar
+0;67.9527,39.4828;TJ-03;Sughd;Mindona
+0;71.5167,39.2167;TJ-RR;Republican Subordination;Minbulak
+0;71.5240,39.1885;TJ-RR;Republican Subordination;Minbulak
+0;70.1811,37.9778;TJ-02;Khatlon Province;Minatuk
+0;70.1974,37.7154;TJ-02;Khatlon Province;Mil’ou
+0;68.2500,38.4667;TJ-RR;Republican Subordination;Meynet-Kash
+0;71.8292,37.2218;TJ-01;Gorno-Badakhshan;Midenved
+0;71.7123,37.3487;TJ-01;Gorno-Badakhshan;Medenshor
+0;68.9697,38.5755;TJ-RR;Republican Subordination;Machiton
+0;71.7667,38.5833;TJ-01;Gorno-Badakhshan;Mdykhara
+0;67.8510,39.3905;TJ-03;Sughd;Mazor
+0;70.6167,39.3167;TJ-RR;Republican Subordination;Mazar
+0;71.5667,38.2833;TJ-01;Gorno-Badakhshan;Mazar
+0;67.7677,39.5203;TJ-03;Sughd;Moykatta
+0;69.9333,37.8000;TJ;;Maydon
+0;71.4418,38.1871;TJ-01;Gorno-Badakhshan;Motravn
+0;69.6673,39.4490;TJ-03;Sughd;Madrushkat
+0;69.7834,37.6440;TJ-02;Khatlon Province;Maslyk
+0;68.7355,39.1711;TJ-03;Sughd;Marzich
+0;72.1686,38.0567;TJ-01;Gorno-Badakhshan;Marsor
+0;69.5833,37.8333;TJ;;Maroz
+0;68.4302,39.2349;TJ-03;Sughd;Margzor
+0;67.8486,39.1306;TJ-03;Sughd;Marguzor
+0;69.7851,37.7082;TJ-02;Khatlon Province;Margobi
+0;68.8875,39.1750;TJ-03;Sughd;Margheb
+0;69.1667,38.2667;TJ-02;Khatlon Province;Mansev
+0;68.4812,39.1253;TJ-03;Sughd;Makhshevad
+0;68.7021,38.5026;TJ-RR;Republican Subordination;Mahmadsho
+0;67.6608,39.2496;TJ-03;Sughd;Mogiyon
+0;68.6789,38.8422;TJ-RR;Republican Subordination;Magaitu
+0;68.3353,39.4175;TJ-03;Sughd;Madm
+0;68.0784,37.0437;TJ-02;Khatlon Province;Lublikor
+0;70.9311,38.8920;TJ-RR;Republican Subordination;Layron
+0;68.1853,37.2933;TJ-02;Khatlon Province;Laklakuya
+0;68.7017,38.3800;TJ-RR;Republican Subordination;Lohur
+0;68.5333,38.3833;TJ-RR;Republican Subordination;Lyatoban
+0;70.0816,39.4617;TJ-03;Sughd;Langlif
+0;70.0033,37.9844;TJ-02;Khatlon Province;Langar
+0;71.0500,38.9000;TJ-RR;Republican Subordination;Lyangar
+0;69.3667,38.7667;TJ-RR;Republican Subordination;Lyangar
+0;70.6667,38.7000;TJ-01;Gorno-Badakhshan;Lyangar
+0;71.8325,38.5867;TJ-01;Gorno-Badakhshan;Lyangar
+0;70.2396,38.1241;TJ-02;Khatlon Province;Langar
+0;72.7167,37.8667;TJ-01;Gorno-Badakhshan;Lyangar
+0;72.6717,37.0524;TJ-01;Gorno-Badakhshan;Langar
+0;71.2715,38.3234;TJ-01;Gorno-Badakhshan;Lakhsh
+0;68.3489,38.7371;TJ-RR;Republican Subordination;Lyabi-Dzhoy
+0;68.6814,38.7048;TJ-RR;Republican Subordination;Luchob
+0;70.0500,38.4000;TJ-02;Khatlon Province;Loyeva
+0;69.3282,38.6732;TJ-RR;Republican Subordination;Loshkharf
+0;71.1075,38.8621;TJ-RR;Republican Subordination;Lojirk
+0;71.9833,38.1000;TJ-01;Gorno-Badakhshan;Lodzhirk
+0;69.7294,38.7533;TJ-RR;Republican Subordination;Lijak
+0;68.5158,38.3736;TJ-RR;Republican Subordination;Leprozoriy
+0;68.1250,37.1506;TJ-02;Khatlon Province;Leninyuli
+0;68.7746,38.4417;TJ-RR;Republican Subordination;Somoniyon
+11955;70.0321,38.1071;TJ-02;Khatlon Province;Mŭ’minobod
+0;68.7533,37.9585;TJ-02;Khatlon Province;Yakkatut
+0;68.6500,38.4500;TJ-RR;Republican Subordination;Layka
+0;68.5670,38.6195;TJ-RR;Republican Subordination;Lattakhorak
+0;69.9667,38.3500;TJ-02;Khatlon Province;Lakhuti
+0;69.8969,38.2948;TJ-02;Khatlon Province;Lakhuti
+0;68.3667,38.3500;TJ-RR;Republican Subordination;Lakhat-Bul
+0;69.0754,38.5116;TJ-RR;Republican Subordination;Laqaybegí
+0;68.6248,37.6387;TJ-02;Khatlon Province;Ghishtmazor
+0;68.5500,38.3833;TJ-RR;Republican Subordination;Kyzyl-Tabobu
+0;74.8053,37.4722;TJ-01;Gorno-Badakhshan;Qizilrabot
+0;68.6603,37.8942;TJ-02;Khatlon Province;Qizilqal’a
+0;68.3667,38.6833;TJ-RR;Republican Subordination;Kyzyl-Bulak
+0;68.3833,38.6745;TJ-RR;Republican Subordination;Kyzyl-Alma
+0;70.1691,37.9316;TJ-02;Khatlon Province;Kisht
+0;69.9667,37.7833;TJ;;Kyshkasangou
+0;68.8250,38.4047;TJ-RR;Republican Subordination;Kirma
+0;67.4968,39.4198;TJ-03;Sughd;Kyrk-Archa
+0;69.0597,37.3116;TJ-02;Khatlon Province;Kŭynatemez
+7900;68.7297,37.8818;TJ-02;Khatlon Province;Bokhtariyon
+9943;68.8088,37.9464;TJ-02;Khatlon Province;Abdurahmoni Jomí
+0;67.7500,39.3167;TJ-03;Sughd;Kushkutan
+0;69.6407,37.9857;TJ-02;Khatlon Province;Kuyikushkiya
+0;68.1876,37.3478;TJ-02;Khatlon Province;Qŭshachinor
+0;68.8667,38.3167;TJ-02;Khatlon Province;Kus-Abad
+0;68.6717,38.8463;TJ-RR;Republican Subordination;Kuruk
+0;68.8625,38.6422;TJ-RR;Republican Subordination;Kurpay
+0;68.7504,38.3089;TJ-02;Khatlon Province;Kur-Kuduk
+0;71.1113,38.4213;TJ-01;Gorno-Badakhshan;Kurgovad
+0;68.8304,38.2961;TJ-02;Khatlon Province;Kurdyk-Say
+0;69.5549,37.7788;TJ-02;Khatlon Province;Mehrobod
+0;68.1584,38.4422;TJ-RR;Republican Subordination;Kŭrbonkŭsa
+0;70.1833,38.8000;TJ-RR;Republican Subordination;Kuranch
+0;68.9475,39.7487;TJ-03;Sughd;Kunzhak
+0;69.6000,37.7667;TJ;;Kun-Tyube
+0;70.2760,38.2296;TJ-02;Khatlon Province;Kungara
+0;68.5823,38.4556;TJ-RR;Republican Subordination;Kunchi
+0;69.0112,37.3391;TJ-02;Khatlon Province;Kumsoí
+0;68.5852,39.3666;TJ-03;Sughd;Kumarg
+0;68.3928,39.4126;TJ-03;Sughd;Kum
+0;68.0375,39.3593;TJ-03;Sughd;Kul’yali
+0;70.0500,38.1333;TJ-02;Khatlon Province;Kululu
+0;68.8061,38.6498;TJ-RR;Republican Subordination;Gulpista
+0;68.0500,39.4000;TJ-03;Sughd;Kuloli
+0;69.9833,37.9667;TJ;;Kul'-Odzhar-Bek
+214700;69.7845,37.9146;TJ-02;Khatlon Province;Kŭlob
+0;68.5865,38.5147;TJ-RR;Republican Subordination;Kulmunda
+0;69.4031,38.2920;TJ-02;Khatlon Province;Kŭlisŭfiyon
+0;72.6502,38.0220;TJ-01;Gorno-Badakhshan;Kulin
+0;68.7306,39.7556;TJ-03;Sughd;Kuliqutan
+0;69.8000,38.4167;TJ-02;Khatlon Province;Kulegtel’
+0;69.8891,37.9776;TJ-02;Khatlon Province;Kul’diman
+0;69.0677,37.2811;TJ-02;Khatlon Province;Kul’deman
+0;70.0246,38.1531;TJ-02;Khatlon Province;Kul’chashma
+0;68.7705,38.3919;TJ-RR;Republican Subordination;Kul’-Bulak
+0;69.9833,37.9667;TJ;;Kul'-Ayud-Bek
+0;69.2211,38.6245;TJ-RR;Republican Subordination;Kul
+0;68.7174,38.4342;TJ-RR;Republican Subordination;Kul’
+0;69.0168,38.1295;TJ-02;Khatlon Province;Kul’
+0;68.5182,38.6346;TJ-RR;Republican Subordination;Kukhon
+0;71.4663,37.1870;TJ-01;Gorno-Badakhshan;Kŭhila’l
+0;69.3496,37.9136;TJ-02;Khatlon Province;Bulyoni Poyon
+0;69.1099,37.3086;TJ-02;Khatlon Province;Quduklí
+0;68.0833,38.6167;TJ;;Kuduk
+0;68.6248,38.1823;TJ-02;Khatlon Province;Kuduk
+0;72.6778,38.4092;TJ-01;Gorno-Badakhshan;Kudara
+0;68.2780,38.4160;TJ-RR;Republican Subordination;Kuchkan
+0;69.5033,38.1426;TJ-02;Khatlon Province;Kŭshkak
+0;70.0980,38.3256;TJ-02;Khatlon Province;Kshindara Poyën
+0;68.5587,39.4230;TJ-03;Sughd;Krut
+0;70.0667,37.7667;TJ;;Krichol
+0;68.6116,38.4108;TJ-RR;Republican Subordination;Krchi-Kul’
+0;70.0257,38.5335;TJ-02;Khatlon Province;Kozychuzak
+0;67.6304,39.4644;TJ-03;Sughd;Qŭshteppa
+0;68.8131,39.8312;TJ-03;Sughd;Kushqurgon
+0;68.0718,39.4468;TJ-03;Sughd;Koshona
+0;67.7641,39.3905;TJ-03;Sughd;Kosatarosh
+0;69.5000,38.4333;TJ-RR;Republican Subordination;Kosatarosh
+1115;69.9664,38.8678;TJ-RR;Republican Subordination;Darband
+0;68.6148,37.7022;TJ-02;Khatlon Province;Komsomol
+0;68.9693,38.5501;TJ-RR;Republican Subordination;Kamongaroni-Bolo
+0;67.6167,39.4833;TJ-03;Sughd;Kolkhozchion
+0;71.7305,37.5714;TJ-01;Gorno-Badakhshan;Kolkhozobod
+18476;68.6589,37.5882;TJ-02;Khatlon Province;Kolkhozobod
+0;70.7615,39.0917;TJ-RR;Republican Subordination;Kolem-Boki
+0;68.3430,38.3112;TJ-RR;Republican Subordination;Kulbuloq
+0;69.1500,37.9667;TJ;;Kol-Bulak
+0;68.9000,39.0500;TJ-RR;Republican Subordination;Kůkteppa
+0;67.6355,39.4927;TJ-03;Sughd;Koktash
+0;68.5864,38.2800;TJ-02;Khatlon Province;Chagam-Kukabulok
+0;69.1086,38.5996;TJ-RR;Republican Subordination;Kofarnihon
+0;69.8833,37.7167;TJ;;Kodara
+0;68.4248,38.4687;TJ-RR;Republican Subordination;Kizyl-Bulak
+0;68.9167,38.4500;TJ-RR;Republican Subordination;Kizil
+0;68.1205,39.4741;TJ-03;Sughd;Kishtudak
+0;70.1333,37.9333;TJ;;Kishtibolo
+0;68.5628,38.4104;TJ-RR;Republican Subordination;Kizilqishloq
+0;68.6677,38.6833;TJ-RR;Republican Subordination;Kisatorosh
+0;67.7035,39.3693;TJ-03;Sughd;Khirskhona
+7696;68.8590,37.8191;TJ-02;Khatlon Province;Kirov
+0;69.6910,38.1362;TJ-02;Khatlon Province;Kirma Bolo
+0;69.9313,38.0303;TJ-02;Khatlon Province;Qipchoq
+0;68.2167,38.6000;TJ-RR;Republican Subordination;Qipchoq
+0;68.6863,38.1253;TJ-02;Khatlon Province;Kiikmazor
+0;68.8362,38.6238;TJ-RR;Republican Subordination;Qiblaí
+0;69.7170,37.6967;TJ-02;Khatlon Province;Kanchashma Poyon
+0;68.5589,38.5901;TJ-RR;Republican Subordination;Khirmanak
+0;68.9833,39.9667;TJ-03;Sughd;Khuzya
+0;70.3167,38.9833;TJ-RR;Republican Subordination;Khuyum
+0;67.5833,39.5167;TJ-03;Sughd;Khurmi
+0;68.7167,38.2667;TJ-02;Khatlon Province;Khuraz
+0;70.1320,38.8981;TJ-RR;Republican Subordination;Khumdon
+0;71.6535,37.8410;TJ-01;Gorno-Badakhshan;Khuf
+0;68.2040,38.4396;TJ-RR;Republican Subordination;Khudzhay-Nakhsheron
+0;70.0233,39.4495;TJ-03;Sughd;Khudgif
+48;68.9007,39.2240;TJ-03;Sughd;Khishortow
+0;69.9753,38.3419;TJ-02;Khatlon Province;Khovaling
+0;70.5130,38.1859;TJ-01;Gorno-Badakhshan;Khostav
+0;70.8339,38.5456;TJ-01;Gorno-Badakhshan;Khost
+0;71.2575,39.1871;TJ-RR;Republican Subordination;Khoshol’
+0;69.9167,38.6667;TJ-02;Khatlon Province;Khosh-Ob
+0;68.0930,37.1075;TJ-02;Khatlon Province;Hoshadí
+30500;71.5534,37.4904;TJ-01;Gorno-Badakhshan;Khorugh
+0;68.8350,39.8366;TJ-03;Sughd;Kholdorqiggchoq
+0;69.2667,38.8333;TJ-RR;Republican Subordination;Khokhu
+0;68.1667,37.4167;TJ-02;Khatlon Province;Khokak
+0;68.7982,38.8960;TJ-RR;Republican Subordination;Khoja Obigarm
+0;69.3167,38.5667;TJ-RR;Republican Subordination;Khodzhimard
+0;70.0667,37.8372;TJ-02;Khatlon Province;Khojaghalton
+0;68.9847,38.5250;TJ-RR;Republican Subordination;Khodzhabaykul
+0;69.2808,38.2482;TJ-02;Khatlon Province;Sebiston
+0;68.5833,38.5000;TJ-RR;Republican Subordination;Khodzhamuso
+0;68.7689,38.6358;TJ-04;Dushanbe;Khodzhambio-Bolo
+9781;68.6270,38.7446;TJ-RR;Republican Subordination;Khodzha-Maston
+0;68.9718,38.5882;TJ-RR;Republican Subordination;Khodzhikatagan
+0;68.8297,38.0111;TJ-02;Khatlon Province;Khodzhakala
+0;69.8167,37.6667;TJ;;Khodzha-Isan
+0;68.9667,39.7167;TJ-03;Sughd;Khodzha-Isaf
+0;68.3190,38.0223;TJ-RR;Republican Subordination;Khojabulbulon
+0;69.9667,37.9833;TJ;;Khodzha-Ali-Sha
+0;69.2321,39.4186;TJ-03;Sughd;Khodishar
+0;68.4651,38.6186;TJ-RR;Republican Subordination;Khochil’diyori Bolo
+0;69.8382,38.1349;TJ-02;Khatlon Province;Halqayor
+0;70.2167,37.7833;TJ-02;Khatlon Province;Khnuk
+0;71.4667,38.2333;TJ;;Khneuk
+0;68.5118,39.4183;TJ-03;Sughd;Khushikat
+0;68.8547,38.5053;TJ-RR;Republican Subordination;Khirgatarosh
+0;71.3754,38.2499;TJ-01;Gorno-Badakhshan;Khikhik
+0;71.8324,38.0024;TJ-01;Gorno-Badakhshan;Khijez
+0;71.6000,37.2000;TJ-01;Gorno-Badakhshan;Hevj
+0;70.1674,37.8911;TJ-02;Khatlon Province;Khirmanjo
+0;70.2994,38.2810;TJ-02;Khatlon Province;Khazrati-Imom
+0;68.5554,37.9910;TJ-RR;Republican Subordination;Khazara
+0;69.5167,39.4167;TJ-03;Sughd;Khayrabad
+0;68.8927,38.1352;TJ-02;Khatlon Province;Hayotinav
+0;69.4500,37.6333;TJ;;Khatchi
+0;71.4899,37.2615;TJ-01;Gorno-Badakhshan;Khaskhorugh
+0;71.6712,38.5044;TJ-01;Gorno-Badakhshan;Khaspo
+0;70.0587,37.8555;TJ-02;Khatlon Province;Khayrkoron
+0;73.1234,37.3808;TJ-01;Gorno-Badakhshan;Khargŭsh
+0;69.9314,38.5551;TJ-02;Khatlon Province;Kharanoni
+0;68.8647,38.6756;TJ-RR;Republican Subordination;Kharangony
+0;68.8637,38.6788;TJ-RR;Republican Subordination;Kharrangoni Bolo
+0;68.5487,38.5359;TJ-RR;Republican Subordination;Khanka
+0;69.5833,38.9167;TJ-RR;Republican Subordination;Khanako
+0;68.6043,38.7139;TJ-RR;Republican Subordination;Khonanokh
+0;68.5333,38.5000;TJ;;Khanaka
+0;69.8758,38.1189;TJ-02;Khatlon Province;Khonobod
+0;70.3416,38.7329;TJ-RR;Republican Subordination;Khamdora
+0;69.2398,37.1061;TJ;;Khalkayar
+0;68.6333,38.1333;TJ-02;Khatlon Province;Khalila-Bulak
+0;68.6364,37.7743;TJ-02;Khatlon Province;Komsomol
+0;68.3572,38.7963;TJ-RR;Republican Subordination;Hakimi
+0;70.8815,39.1794;TJ-RR;Republican Subordination;Khait
+0;68.3937,39.4463;TJ-03;Sughd;Khairavat
+0;68.5384,38.2410;TJ-RR;Republican Subordination;Khochaboí
+0;72.3613,37.7134;TJ-01;Gorno-Badakhshan;Khadgut
+0;71.6006,37.4621;TJ-01;Gorno-Badakhshan;Khabost
+0;70.8905,38.4690;TJ-01;Gorno-Badakhshan;Kevron
+0;68.8804,39.7199;TJ-03;Sughd;Kengkul
+0;70.2627,39.0108;TJ-RR;Republican Subordination;Kaznok
+0;71.4653,37.0103;TJ-01;Gorno-Badakhshan;Qozide
+0;68.7333,37.8167;TJ-02;Khatlon Province;Kayragach
+0;69.8000,37.8833;TJ;;Kaynar
+0;70.0064,37.6797;TJ-02;Khatlon Province;Kavok
+0;69.3165,37.9878;TJ-02;Khatlon Province;Kavraklí
+0;68.6667,37.8500;TJ-02;Khatlon Province;Kaun-Tyube Pervoye
+0;68.7333,37.8667;TJ-02;Khatlon Province;Kaun-Tyube
+0;67.5583,39.5141;TJ-03;Sughd;Katta-Kishlak
+0;68.3000,38.4833;TJ-RR;Republican Subordination;Katta-Buyni
+0;68.4901,38.6451;TJ-RR;Republican Subordination;Katta
+0;72.7167,37.1333;TJ-01;Gorno-Badakhshan;Kasvir
+0;70.2019,39.1417;TJ-RR;Republican Subordination;Kashimbog
+0;68.5151,38.1500;TJ-RR;Republican Subordination;Kosabuloq
+0;68.9167,39.7167;TJ-03;Sughd;Karmysh
+0;69.7833,37.8333;TJ;;Kariz-Poyën
+0;69.9518,37.7693;TJ-02;Khatlon Province;Korgaron
+0;69.8833,37.7000;TJ;;Kargandzha
+0;68.7833,37.8000;TJ-02;Khatlon Province;Karcha
+0;68.5000,38.5167;TJ-RR;Republican Subordination;Kara-Yagach
+0;68.4283,38.4523;TJ-RR;Republican Subordination;Qayragoch
+0;68.3833,38.7333;TJ-RR;Republican Subordination;Karatikon
+0;68.3309,38.6159;TJ-RR;Republican Subordination;Qaratog
+0;68.9386,38.5070;TJ-RR;Republican Subordination;Qarasu
+0;73.9380,38.0144;TJ-01;Gorno-Badakhshan;Qarasu
+0;68.9661,39.8240;TJ-03;Sughd;Karasakol
+0;68.7850,39.7912;TJ-03;Sughd;Karapchí
+0;68.1071,38.6005;TJ-RR;Republican Subordination;Karoni
+0;68.0982,38.6279;TJ;;Karani
+0;68.5117,38.5175;TJ-RR;Republican Subordination;Karamkul
+0;68.7007,38.2978;TJ-02;Khatlon Province;Qaromandí
+0;68.3768,38.2773;TJ-RR;Republican Subordination;Karakuz
+0;70.1667,38.7167;TJ-RR;Republican Subordination;Karakutan
+0;73.5577,39.0130;TJ-01;Gorno-Badakhshan;Qarokŭl
+2899;71.5241,39.2358;TJ-RR;Republican Subordination;Karakenja
+0;69.3935,37.6531;TJ-02;Khatlon Province;Karakhchi
+0;68.8000,38.3000;TJ-02;Khatlon Province;Karagach
+0;73.7489,38.1486;TJ-01;Gorno-Badakhshan;Kara-Dzhilga
+0;68.5719,38.2343;TJ-RR;Republican Subordination;Kara-Bulak
+0;68.3830,38.0944;TJ-RR;Republican Subordination;Qarabolchik
+0;68.6167,38.5500;TJ-RR;Republican Subordination;Kara-Avgan
+0;73.5933,39.0575;TJ-01;Gorno-Badakhshan;Ayloqi Qaroart
+0;68.4750,38.2340;TJ-RR;Republican Subordination;Kara-Agach
+0;69.6741,37.7281;TJ-02;Khatlon Province;Qayraghoj
+0;70.2083,37.9797;TJ-02;Khatlon Province;Kaporel’
+0;71.0653,39.1470;TJ-RR;Republican Subordination;Kanyshbek
+0;69.7033,38.9757;TJ-RR;Republican Subordination;Kanyaz
+0;68.5006,39.2323;TJ-03;Sughd;Kante
+0;69.4687,38.2586;TJ-02;Khatlon Province;Kangurtut
+0;69.5249,38.2453;TJ-02;Khatlon Province;Kangurt
+0;68.9833,38.2167;TJ-02;Khatlon Province;Kangur-Dzhar
+0;70.1500,37.9833;TJ;;Kandou
+0;68.9447,38.6547;TJ-RR;Republican Subordination;Kandi
+0;71.6562,39.1324;TJ-RR;Republican Subordination;Kandav
+0;74.0558,38.1772;TJ-01;Gorno-Badakhshan;Gozho Berdibaev
+0;68.2667,38.6333;TJ-RR;Republican Subordination;Kambar
+0;68.2667,38.6167;TJ-RR;Republican Subordination;Kambar
+0;68.2750,38.6043;TJ-RR;Republican Subordination;Kambar-Past
+0;67.5009,39.3863;TJ-03;Sughd;Kamar-Tash
+0;70.3212,39.1634;TJ-RR;Republican Subordination;Kamarou
+0;67.5022,39.4850;TJ-03;Sughd;Kamar
+0;68.8192,39.0421;TJ-RR;Republican Subordination;Kamadon
+0;69.2643,38.7023;TJ-RR;Republican Subordination;Kaltuch
+0;69.1571,39.7451;TJ-03;Sughd;Qal’ai Mirzoboy
+0;68.9223,37.8714;TJ-02;Khatlon Province;Levakant
+0;69.0022,38.1598;TJ-02;Khatlon Province;Kalfisobod
+0;69.6414,38.7017;TJ-RR;Republican Subordination;Qal’ai Nav
+0;70.6481,38.7225;TJ-01;Gorno-Badakhshan;Qal’ai Husayn
+0;70.2688,38.5604;TJ-02;Khatlon Province;Kalay-Khodzha
+0;70.5054,39.0861;TJ-RR;Republican Subordination;Kalanak
+0;69.4653,37.5331;TJ-02;Khatlon Province;Puchqoq
+1611;70.7890,38.4537;TJ-01;Gorno-Badakhshan;Qalaikhumb
+0;69.4983,38.6272;TJ-RR;Republican Subordination;Kalaidasht
+0;69.9333,39.2833;TJ-RR;Republican Subordination;Kalacha
+0;68.8493,39.7883;TJ-03;Sughd;Qairma
+0;69.9833,37.9167;TJ;;Kaftor
+0;69.7223,37.9137;TJ-02;Khatlon Province;Kaftarkhona
+0;68.8920,38.3114;TJ-02;Khatlon Province;Kadyr-Berdy
+0;68.3167,38.5667;TJ-RR;Republican Subordination;Kady-Dzhabar
+0;69.6302,37.8933;TJ-02;Khatlon Province;Kaduchí
+0;69.7494,37.8981;TJ-02;Khatlon Province;Lagmon
+0;69.3500,38.6833;TJ-RR;Republican Subordination;Kadi-Ob
+0;70.2887,38.9838;TJ-RR;Republican Subordination;Kadara
+0;68.8000,38.9833;TJ-RR;Republican Subordination;Kabuty
+0;70.0394,38.9166;TJ-RR;Republican Subordination;Kabutchiyon
+0;68.1864,37.4097;TJ-02;Khatlon Province;Qubodiyon
+0;68.1500,37.5000;TJ-02;Khatlon Province;Kabla
+0;71.6333,38.1833;TJ-01;Gorno-Badakhshan;Izhog
+0;69.1458,39.8696;TJ-03;Sughd;Itorchí
+0;68.9606,38.5350;TJ-RR;Republican Subordination;Itok
+0;74.3833,37.7333;TJ-01;Gorno-Badakhshan;Istyk
+0;68.6982,39.4005;TJ-03;Sughd;Ispan
+0;68.4829,39.4516;TJ-03;Sughd;Iskodar
+0;68.6167,37.6833;TJ-02;Khatlon Province;Iski-Lyagman
+0;69.0504,38.5125;TJ-RR;Republican Subordination;Iski-Guzar
+0;69.0167,39.3167;TJ-03;Sughd;Iski-Darkh
+0;68.5572,38.6887;TJ-RR;Republican Subordination;Iskin
+0;68.9791,39.8246;TJ-03;Sughd;Dahyak
+0;69.4597,39.4287;TJ-03;Sughd;Ėsiz
+0;70.7895,38.8436;TJ-RR;Republican Subordination;Ishtiyën
+0;70.1333,37.6500;TJ;;Ishtel'
+0;68.7333,38.2000;TJ-02;Khatlon Province;Ishma Tret’ya
+0;68.8236,38.1639;TJ-02;Khatlon Province;Ėshma Pervaya
+0;68.8007,39.7016;TJ-03;Sughd;Ishkli
+26000;71.6133,36.7248;TJ-01;Gorno-Badakhshan;Ishqoshim
+0;68.2943,37.9494;TJ-RR;Republican Subordination;Ishkabad
+0;69.3667,37.6000;TJ;;Ishan
+0;68.3774,38.0817;TJ-RR;Republican Subordination;Ėsanboy
+0;69.6620,38.6140;TJ-RR;Republican Subordination;Ionakhsh
+0;70.1891,37.7604;TJ-02;Khatlon Province;Yol
+0;68.7139,38.3494;TJ-RR;Republican Subordination;Ingichka
+0;69.8667,37.8833;TJ;;Indukul'
+0;68.5292,37.4842;TJ-02;Khatlon Province;Vos’moye Marta
+0;68.6667,37.5333;TJ-02;Khatlon Province;Imeni Voroshilova
+0;68.5597,37.4176;TJ-02;Khatlon Province;Yakkadin
+0;68.2333,37.1167;TJ-02;Khatlon Province;Imeni Voroshilova
+0;68.6711,37.9578;TJ-02;Khatlon Province;Halqajar
+0;68.7833,37.7167;TJ-02;Khatlon Province;Imeni Stalina
+0;67.6167,39.4833;TJ-03;Sughd;Imeni Rudaki
+0;69.3500,37.5000;TJ;;Imeni Kirova
+0;68.6090,37.5545;TJ-02;Khatlon Province;Karl Marks
+0;74.3000,37.6833;TJ-01;Gorno-Badakhshan;Imeni Kalinina
+0;68.6531,37.5361;TJ-02;Khatlon Province;Yangiturmush
+0;68.6121,37.4630;TJ-02;Khatlon Province;Uchastok Imeni Engel’sa
+0;68.8660,37.9066;TJ-02;Khatlon Province;Chapaev
+0;69.7207,37.9313;TJ-02;Khatlon Province;Imamtarifi
+0;69.6190,37.8580;TJ-02;Khatlon Province;Imomalí
+0;68.4253,38.5864;TJ-RR;Republican Subordination;Ėlok
+0;68.8000,37.8000;TJ-02;Khatlon Province;Il’ty
+0;70.3112,38.3013;TJ-02;Khatlon Province;Ėligovora
+0;69.0561,37.2699;TJ-02;Khatlon Province;Echki
+0;71.3000,37.9167;TJ;;Iark
+0;70.0167,37.9500;TJ;;Gyzaryta
+0;68.4167,37.9833;TJ-RR;Republican Subordination;Gyul’kha-Bulak
+0;70.0678,38.1936;TJ-02;Khatlon Province;Ghesh
+0;68.7018,39.3895;TJ-03;Sughd;Guzaribad
+0;69.3517,39.0059;TJ-RR;Republican Subordination;Guskef
+0;71.4673,38.3689;TJ-01;Gorno-Badakhshan;Gŭshkhun
+0;68.8308,38.8925;TJ-RR;Republican Subordination;Gushari
+0;67.8481,39.4614;TJ-03;Sughd;Ghŭsar
+0;68.5297,38.5798;TJ-RR;Republican Subordination;Guriyot
+0;69.6070,37.9425;TJ-02;Khatlon Province;Guruldí
+0;68.9667,38.3167;TJ-02;Khatlon Province;Gurlyuk-Say
+0;69.6667,38.2833;TJ-02;Khatlon Province;Gurdora
+0;68.0668,39.2907;TJ-03;Sughd;Guytan
+0;70.8167,38.7667;TJ;;Gun-Dara-Bolo
+0;70.1833,37.6333;TJ;;Gun-Dara
+0;73.7983,38.1369;TJ-01;Gorno-Badakhshan;Gumbezkol
+0;71.5148,38.3953;TJ-01;Gorno-Badakhshan;Ghumayak
+0;69.6752,38.3810;TJ-02;Khatlon Province;Gulyuk
+0;68.8625,38.3830;TJ-RR;Republican Subordination;Gulizoar
+0;71.7568,38.5508;TJ-01;Gorno-Badakhshan;Gidzhovast
+0;74.7500,37.6667;TJ-01;Gorno-Badakhshan;Gudar
+0;71.0167,38.4833;TJ-01;Gorno-Badakhshan;Gucha
+0;70.2781,38.1905;TJ-02;Khatlon Province;Gring
+0;70.6000,39.0833;TJ-RR;Republican Subordination;Gozri
+0;70.9500,38.8833;TJ-RR;Republican Subordination;Gou-Gavdi-Pao
+0;68.3000,38.7167;TJ-RR;Republican Subordination;Gornaya
+0;70.0333,39.2833;TJ-RR;Republican Subordination;Gorif
+0;71.4934,37.4044;TJ-01;Gorno-Badakhshan;Gozhak
+0;68.6680,38.8575;TJ-RR;Republican Subordination;Gofil’abad
+0;71.0541,38.4501;TJ-01;Gorno-Badakhshan;Goch
+0;69.9667,37.9833;TJ;;Glomovod
+0;67.8466,39.2998;TJ-03;Sughd;Ghizhdarva
+0;67.7236,39.2847;TJ-03;Sughd;Ghezani Bolo
+23978;68.5512,38.5250;TJ-RR;Republican Subordination;Hisor
+0;68.9331,38.0800;TJ-02;Khatlon Province;Gissar
+0;70.8777,38.6471;TJ-01;Gorno-Badakhshan;Gishun
+0;69.7232,37.9490;TJ-02;Khatlon Province;Ghelot
+0;67.7125,39.2772;TJ-03;Sughd;Ghezani-Poyon
+0;69.1728,38.4448;TJ-02;Khatlon Province;Geshí
+0;69.9167,38.6167;TJ-02;Khatlon Province;Gech-Lara
+0;68.8727,39.0455;TJ-RR;Republican Subordination;Hazara
+0;68.0438,39.2263;TJ-03;Sughd;Ghaznich
+0;68.8157,38.8250;TJ-RR;Republican Subordination;Gazhim
+0;68.0402,39.2513;TJ-03;Sughd;Ghazza
+0;69.6263,38.5980;TJ-RR;Republican Subordination;Gashion
+0;68.9635,38.8696;TJ-RR;Republican Subordination;Garob
+0;71.6000,38.4833;TJ-01;Gorno-Badakhshan;Garnavat
+0;69.7864,37.6159;TJ-02;Khatlon Province;Gharab
+0;71.8585,38.6074;TJ-01;Gorno-Badakhshan;Garmchashma
+10771;70.3745,39.0287;TJ-RR;Republican Subordination;Rasht
+0;69.0167,37.3167;TJ;;Garm
+0;67.6012,39.5217;TJ-03;Sughd;Gharibak
+0;69.4418,38.1379;TJ-02;Khatlon Province;Gharghara
+0;69.1667,38.1667;TJ-02;Khatlon Province;Gardana
+0;68.9458,38.3874;TJ;;Ghorbuloq
+8474;68.4467,37.5670;TJ-02;Khatlon Province;Gharavŭtí
+0;69.6325,37.8228;TJ-02;Khatlon Province;Garavchak
+0;68.9840,38.3149;TJ-02;Khatlon Province;Gharav
+0;69.7964,37.8005;TJ-02;Khatlon Province;Garab-Dara
+0;68.1167,38.5667;TJ-RR;Republican Subordination;Garab
+0;68.5585,37.9651;TJ-RR;Republican Subordination;Gandzhina
+0;69.1297,39.9624;TJ-03;Sughd;Ghonchí
+0;70.2000,37.6333;TJ;;Gami-Dara
+0;68.6706,38.3207;TJ-02;Khatlon Province;Galya-Kuduk
+0;68.9573,38.4352;TJ-RR;Republican Subordination;Galabuloq
+0;69.7667,37.7500;TJ;;Gala-Gutan
+0;69.0006,38.5955;TJ-RR;Republican Subordination;Farishti
+0;67.7603,39.3821;TJ-03;Sughd;Filmandor
+0;68.9667,37.3333;TJ;;Fayzabadkala
+0;69.3198,38.5473;TJ-RR;Republican Subordination;Fayzobod
+0;69.3249,38.5190;TJ-RR;Republican Subordination;Fayzobodi Bolo
+0;68.6874,39.3908;TJ-03;Sughd;Fatmev
+0;67.4724,39.2405;TJ-03;Sughd;Farob
+0;68.8343,39.3700;TJ-03;Sughd;Fatmovut
+0;68.7192,38.3134;TJ-02;Khatlon Province;Fakhrobod
+0;68.6167,37.4167;TJ;;Engels
+0;68.8909,39.9076;TJ-03;Sughd;Dzhyuylyangar
+0;70.7167,38.8000;TJ-01;Gorno-Badakhshan;Dzhur
+0;71.5333,37.2167;TJ-01;Gorno-Badakhshan;Jund
+0;69.5167,37.9833;TJ;;Dzhul'mabad
+0;68.7166,38.6108;TJ-RR;Republican Subordination;Jayrabuloq
+0;71.6277,38.4701;TJ-01;Gorno-Badakhshan;Zhovid
+0;68.5685,38.4635;TJ-RR;Republican Subordination;Dzhorusay
+0;69.9833,38.4000;TJ-02;Khatlon Province;Dzhonbakhti Poyën
+0;68.4283,39.1306;TJ-03;Sughd;Dijik
+0;68.6278,38.6483;TJ-RR;Republican Subordination;Dzhirginak
+6400;71.1916,39.2197;TJ-RR;Republican Subordination;Vahdat
+0;70.1990,39.0961;TJ-RR;Republican Subordination;Dzhingun
+0;73.2750,38.8683;TJ-01;Gorno-Badakhshan;Chingazhir
+0;72.5916,37.5748;TJ-01;Gorno-Badakhshan;Jelondi
+5434;68.5311,37.4917;TJ-02;Khatlon Province;Jilikŭl
+0;69.8587,37.6625;TJ-02;Khatlon Province;Jilga
+0;67.7167,39.3667;TJ-03;Sughd;Dzhilas
+0;69.3524,37.5712;TJ-02;Khatlon Province;Jida
+0;69.8342,37.8250;TJ-02;Khatlon Province;Dzhidobulok
+0;68.4425,38.3136;TJ-RR;Republican Subordination;Jetikir
+0;69.5876,37.9646;TJ-02;Khatlon Province;Jayralí
+0;68.2616,38.5451;TJ-RR;Republican Subordination;Dzhayre-Tepe
+0;71.5314,39.3043;TJ-RR;Republican Subordination;Dzhailgan
+0;72.4443,37.3588;TJ-01;Gorno-Badakhshan;Dzhavshangoz
+0;68.1500,38.4333;TJ-RR;Republican Subordination;Dzhavrat
+0;73.5667,37.8000;TJ-01;Gorno-Badakhshan;Dzharty-Rabat
+0;74.1559,37.5594;TJ-01;Gorno-Badakhshan;Dzharty-Gumbez
+0;69.3601,38.0152;TJ-02;Khatlon Province;Jarteppa
+0;68.4167,38.4000;TJ-RR;Republican Subordination;Dzhar-Mechet’
+0;68.2122,37.2034;TJ-02;Khatlon Province;Jarqŭrghon
+0;70.9617,38.4785;TJ-01;Gorno-Badakhshan;Jorf
+0;68.3939,38.4802;TJ-RR;Republican Subordination;Jarbuloq
+0;69.4813,37.9656;TJ-02;Khatlon Province;Batan
+0;68.7852,38.6820;TJ-RR;Republican Subordination;Dzhangalda
+0;71.5251,38.4110;TJ-01;Gorno-Badakhshan;Jangal
+0;67.6894,39.3690;TJ-03;Sughd;Dzhanbulak
+0;68.4833,38.5000;TJ-RR;Republican Subordination;Dzhana-Kishlak
+0;72.2109,37.2520;TJ-01;Gorno-Badakhshan;Jarajand
+0;69.5000,38.2833;TJ-02;Khatlon Province;Dzhamogulion
+0;71.5705,38.2728;TJ-01;Gorno-Badakhshan;Jamag
+0;68.9471,38.4198;TJ-RR;Republican Subordination;Dzhayrabulok
+0;68.6333,38.3667;TJ-RR;Republican Subordination;Dzhaltyrtepe
+0;69.8500,37.7000;TJ;;Dzhalavli
+0;69.4830,37.5699;TJ-02;Khatlon Province;Jayralí
+0;71.5256,39.3042;TJ-RR;Republican Subordination;Jayilgan
+0;70.5364,38.2308;TJ-01;Gorno-Badakhshan;Zhag
+0;71.6837,38.3079;TJ-01;Gorno-Badakhshan;Dzhafak
+0;68.4248,38.6903;TJ-RR;Republican Subordination;Dyushana
+0;68.6355,38.5284;TJ-RR;Republican Subordination;Durbat
+0;68.5000,38.0833;TJ-RR;Republican Subordination;Dyurak
+0;72.3991,37.7002;TJ-01;Gorno-Badakhshan;Duzakh-Dara
+0;71.5667,39.3500;TJ-RR;Republican Subordination;Duvana
+8700;68.6640,37.3481;TJ-02;Khatlon Province;Dŭstí
+0;68.6000,37.7333;TJ-02;Khatlon Province;Dusman-Tyube
+679400;68.7790,38.5358;TJ-04;Dushanbe;Dushanbe
+0;70.4333,38.8833;TJ-RR;Republican Subordination;Dushakhokogak
+0;70.6916,38.4196;TJ-01;Gorno-Badakhshan;Drobak
+0;71.7910,38.5809;TJ-01;Gorno-Badakhshan;Dursher
+0;67.4506,39.5094;TJ-03;Sughd;Durman
+0;68.1693,38.4552;TJ-RR;Republican Subordination;Durman
+0;68.2548,38.5284;TJ-RR;Republican Subordination;Durbent
+0;70.6333,39.1833;TJ-RR;Republican Subordination;Du-Oba
+0;68.5625,38.5765;TJ-RR;Republican Subordination;Duchinora
+0;70.2831,39.2931;TJ-RR;Republican Subordination;Dubursa
+0;69.3745,38.5726;TJ-RR;Republican Subordination;Dubeda
+0;69.9786,37.8026;TJ-02;Khatlon Province;Devdor
+0;68.9258,38.6186;TJ-RR;Republican Subordination;Dubova
+0;68.8282,38.4363;TJ-RR;Republican Subordination;Donguz-Ul’dy
+0;69.3516,37.5569;TJ-02;Khatlon Province;Dong
+0;71.3803,39.2723;TJ-RR;Republican Subordination;Dombrachi
+0;71.8333,38.0333;TJ-01;Gorno-Badakhshan;Dokhashi
+0;70.8500,38.7833;TJ-02;Khatlon Province;Divlyakh
+0;70.7667,39.3167;TJ-RR;Republican Subordination;Diuchy
+0;70.2226,39.4428;TJ-03;Sughd;Dehisor
+0;69.7333,38.3667;TJ-02;Khatlon Province;Difat
+0;70.1956,39.2300;TJ-RR;Republican Subordination;Didengi-Poyën
+0;71.7000,38.5500;TJ-01;Gorno-Badakhshan;Dich
+0;69.9026,37.8188;TJ-02;Khatlon Province;Dedorazak
+0;69.6667,37.9000;TJ;;Deyli
+0;69.9460,37.7349;TJ-02;Khatlon Province;Deydzhi
+0;71.6012,39.1428;TJ;;Devsiar
+0;69.5667,38.2000;TJ-02;Khatlon Province;Devona
+0;68.2229,38.5979;TJ-RR;Republican Subordination;Devak
+0;70.7948,38.5049;TJ-01;Gorno-Badakhshan;Deu
+0;69.8868,39.4360;TJ-03;Sughd;Dimnora
+0;69.3708,37.5953;TJ-02;Khatlon Province;Dehqonobod
+0;71.3182,38.0630;TJ-01;Gorno-Badakhshan;Deh
+0;69.8340,38.9303;TJ-RR;Republican Subordination;Dek-Donak
+0;69.7906,38.2220;TJ-02;Khatlon Province;Dektur
+0;69.9835,38.2344;TJ-02;Khatlon Province;Degrez
+0;70.4500,38.8833;TJ-RR;Republican Subordination;Degi-Mulla
+0;69.6500,38.3833;TJ-02;Khatlon Province;Degi-Kham
+0;71.8486,37.6828;TJ-01;Gorno-Badakhshan;Vibist
+0;68.9667,38.6500;TJ-RR;Republican Subordination;De-Balyand
+4;69.1667,39.2000;TJ-03;Sughd;Dehbaland
+0;68.9130,38.8500;TJ-RR;Republican Subordination;Dekhamalik
+0;68.9908,39.8184;TJ-03;Sughd;Dahyak
+0;71.5956,37.8593;TJ-01;Gorno-Badakhshan;Pastkhuf
+0;68.2500,39.4500;TJ-03;Sughd;Dashty-Bet
+0;69.9833,38.5500;TJ-02;Khatlon Province;Dashtiyeri
+0;69.4093,38.3080;TJ-02;Khatlon Province;Dashti-Raz
+0;69.3301,38.9648;TJ-RR;Republican Subordination;Dashtimazor
+0;68.0565,39.4598;TJ-03;Sughd;Dashtiqozy
+0;70.4667,39.2000;TJ-RR;Republican Subordination;Dashti-Khirsan
+0;69.7636,38.4136;TJ-02;Khatlon Province;Dashtigulo
+0;69.7667,38.4833;TJ-02;Khatlon Province;Dashtigul’kho
+0;70.2141,38.0157;TJ-02;Khatlon Province;Dashtijum
+0;70.0667,38.6833;TJ-02;Khatlon Province;Dashti-Angara
+0;71.7232,37.3278;TJ-01;Gorno-Badakhshan;Dashtak
+0;71.5360,37.7664;TJ-01;Gorno-Badakhshan;Dasht
+0;71.6667,38.3167;TJ-01;Gorno-Badakhshan;Dash
+0;71.9414,38.1265;TJ-01;Gorno-Badakhshan;Darjomch
+0;72.0019,36.7990;TJ-01;Gorno-Badakhshan;Dershay
+0;68.4455,39.4396;TJ-03;Sughd;Dardar
+0;70.0209,37.9204;TJ-02;Khatlon Province;Darai Imom
+0;69.8667,38.4167;TJ-02;Khatlon Province;Daray-Chokor
+0;70.0130,38.4180;TJ-02;Khatlon Province;Dara-Khurdak
+0;70.0184,37.8634;TJ-02;Khatlon Province;Daraiob
+0;69.5056,38.6468;TJ-RR;Republican Subordination;Darai Gŭsfondok
+0;69.0119,38.6876;TJ-RR;Republican Subordination;Dara
+22824;69.3400,38.0958;TJ-02;Khatlon Province;Danghara
+0;69.3667,37.8167;TJ;;Dangara
+0;71.9333,37.9833;TJ-01;Gorno-Badakhshan;Dana
+0;70.3500,38.9833;TJ-RR;Republican Subordination;Dambu
+23670;68.9957,39.7490;TJ-03;Sughd;Dalyoni Bolo
+0;72.1535,38.6265;TJ-01;Gorno-Badakhshan;Dal’neye
+0;68.3352,38.4371;TJ-RR;Republican Subordination;Juqurdolon
+0;68.1884,37.3261;TJ-02;Khatlon Province;Dokki
+0;69.2542,39.7081;TJ-03;Sughd;Dahkat
+0;68.6486,38.1968;TJ-02;Khatlon Province;Dahanakiik
+0;69.8674,38.0588;TJ-02;Khatlon Province;Dahana
+0;68.7880,38.7002;TJ-RR;Republican Subordination;Dagana
+0;69.2910,38.3925;TJ-02;Khatlon Province;Dahana
+0;68.9859,38.3364;TJ-02;Khatlon Province;Dahana
+0;69.7866,37.5987;TJ-02;Khatlon Province;Dahani Chinor
+0;68.4166,38.5603;TJ-RR;Republican Subordination;Chuzii-Bolo
+0;68.3175,38.6586;TJ-RR;Republican Subordination;Chuyanchi
+0;68.1352,37.1758;TJ-02;Khatlon Province;Chŭyanchí
+0;68.4479,38.4059;TJ-RR;Republican Subordination;Churk-Kishlak
+0;68.1369,38.4459;TJ-RR;Republican Subordination;Chukur
+0;70.6167,38.7500;TJ-02;Khatlon Province;Chugorak
+19563;69.7053,37.6145;TJ-02;Khatlon Province;Chubek
+0;70.2310,37.8216;TJ-02;Khatlon Province;Chosk
+0;69.8500,37.9667;TJ;;Chorsay
+0;67.8327,39.1345;TJ-03;Sughd;Chorroha
+0;69.1754,38.4237;TJ-02;Khatlon Province;Chormaghzak
+0;68.7402,38.6892;TJ-RR;Republican Subordination;Chormargzakon
+0;69.6720,38.6939;TJ-RR;Republican Subordination;Chormagz
+0;68.5089,39.3045;TJ-03;Sughd;Chore
+6357;67.7602,39.4262;TJ-03;Sughd;Chorbogh
+0;68.7586,38.6617;TJ-RR;Republican Subordination;Chorbog
+4237;68.1282,37.5203;TJ-02;Khatlon Province;Boshchorbogh
+0;68.1325,37.2905;TJ-02;Khatlon Province;Chinar
+0;69.6653,37.9535;TJ-02;Khatlon Province;Cholsartez
+0;68.1994,37.2202;TJ-02;Khatlon Province;Chiriq
+0;68.8945,39.7067;TJ-03;Sughd;Chiray
+0;69.0833,38.3667;TJ-02;Khatlon Province;Chirakon
+0;68.8989,38.6672;TJ-RR;Republican Subordination;Chonar
+0;68.6000,38.2333;TJ-02;Khatlon Province;Chinartu
+0;68.4833,38.3667;TJ-RR;Republican Subordination;Chinara-Sukhta
+0;68.1572,38.5611;TJ-RR;Republican Subordination;Chinarak
+0;67.6610,39.4055;TJ-03;Sughd;Chinar
+0;68.2716,38.5434;TJ-RR;Republican Subordination;Chinar
+0;69.6667,38.2000;TJ-02;Khatlon Province;Chimul’dy
+0;68.7300,38.4661;TJ-RR;Republican Subordination;Chimteppa
+0;67.5137,39.4970;TJ-03;Sughd;Chimkurgan
+0;68.6765,38.2370;TJ-02;Khatlon Province;Chimbulok
+0;70.1167,37.8167;TJ;;Chilishtak
+0;70.3042,38.7831;TJ-RR;Republican Subordination;Childara
+0;71.6944,38.5205;TJ-01;Gorno-Badakhshan;Chikhokh
+0;69.4353,37.9972;TJ-02;Khatlon Province;Chagam
+0;68.2333,38.4869;TJ-RR;Republican Subordination;Chirishteppa
+0;68.9388,38.5156;TJ-RR;Republican Subordination;Chukmazor
+0;69.2000,37.1500;TJ-02;Khatlon Province;Chechka
+0;73.6500,37.8500;TJ-01;Gorno-Badakhshan;Chatyr-Tash
+0;68.5475,38.7311;TJ-RR;Republican Subordination;Chashmi-Sang
+0;70.0000,37.6833;TJ;;Chashma-i-Dara
+0;68.4333,39.4500;TJ-03;Sughd;Chashma
+0;72.1632,37.7164;TJ-01;Gorno-Badakhshan;Charsem
+0;68.1423,38.5191;TJ-RR;Republican Subordination;Chirtak
+0;68.1833,37.3333;TJ-02;Khatlon Province;Charshma
+0;68.1270,37.3136;TJ-02;Khatlon Province;Chorshanbe
+0;68.9758,38.2398;TJ-02;Khatlon Province;Chorgul
+0;68.1667,37.4667;TJ-02;Khatlon Province;Chapary
+0;68.5746,38.6456;TJ-RR;Republican Subordination;Changob
+0;70.1539,38.6314;TJ-02;Khatlon Province;Changon
+0;67.5148,39.5212;TJ-03;Sughd;Jangal
+0;69.1529,37.9260;TJ-02;Khatlon Province;Choltov
+0;69.3301,38.4954;TJ-RR;Republican Subordination;Chikali
+0;68.8385,38.4089;TJ-RR;Republican Subordination;Chagen
+0;69.8794,37.8316;TJ-02;Khatlon Province;Chagami Bolo
+0;68.5833,38.2833;TJ-RR;Republican Subordination;Chagam
+0;72.2014,38.1243;TJ-01;Gorno-Badakhshan;Chadud
+0;72.0423,38.1171;TJ-01;Gorno-Badakhshan;Chadigiv
+0;68.7252,39.7023;TJ-03;Sughd;Buragen
+0;68.2333,38.5667;TJ-RR;Republican Subordination;Buzuk
+0;69.5833,38.1167;TJ-02;Khatlon Province;Buzbeli
+0;69.7206,37.7140;TJ-02;Khatlon Province;Bŭzakhona
+0;68.6841,38.4950;TJ-RR;Republican Subordination;Buryobof
+0;68.3500,38.5167;TJ-RR;Republican Subordination;Buynak-Manir
+0;71.5156,37.5810;TJ-01;Gorno-Badakhshan;Buved
+4900;68.8312,37.8478;TJ-02;Khatlon Province;Bŭstonqal’a
+0;68.6833,38.8500;TJ-RR;Republican Subordination;Burma
+0;68.9214,38.4588;TJ-RR;Republican Subordination;Burma
+0;68.3964,38.3729;TJ-RR;Republican Subordination;Bure-Tishik
+0;71.2758,38.3154;TJ-01;Gorno-Badakhshan;Buniga
+0;71.5530,38.4285;TJ-01;Gorno-Badakhshan;Bunay
+0;68.6107,38.6503;TJ-RR;Republican Subordination;Bulokisaidon
+0;71.7853,38.3610;TJ-01;Gorno-Badakhshan;Buguz
+0;68.1583,38.4545;TJ-RR;Republican Subordination;Bugolyak
+0;71.4877,38.2188;TJ-01;Gorno-Badakhshan;Budun
+0;69.9667,38.1833;TJ-02;Khatlon Province;Bubanan-Dasht
+0;71.0468,38.4951;TJ-01;Gorno-Badakhshan;Brovg
+0;71.4667,38.3833;TJ-01;Gorno-Badakhshan;Boud
+23696;68.8053,38.4661;TJ-04;Dushanbe;Boshkengash
+0;71.3667,38.6833;TJ-RR;Republican Subordination;Borshi
+0;71.3079,38.3114;TJ-01;Gorno-Badakhshan;Baravni Tor
+0;68.6448,37.3962;TJ-02;Khatlon Province;Bol’shevik
+0;68.2251,37.1667;TJ-02;Khatlon Province;Bolshevik
+0;68.8667,39.8333;TJ-03;Sughd;Bolgali
+0;68.9026,38.5108;TJ-RR;Republican Subordination;Boldirgon
+0;71.6674,37.5339;TJ-01;Gorno-Badakhshan;Bogev
+0;69.8626,38.1827;TJ-02;Khatlon Province;Bogdayën
+0;68.5544,38.5098;TJ-RR;Republican Subordination;Bagalok
+0;68.5410,38.1801;TJ-RR;Republican Subordination;Bogak
+0;69.9500,37.5833;TJ;;Bog
+0;71.4203,38.3539;TJ-01;Gorno-Badakhshan;Bodaud
+0;68.6251,38.6652;TJ-RR;Republican Subordination;Bobosurkhon
+0;68.5500,38.5167;TJ-RR;Republican Subordination;Blagodarnyy
+0;68.3746,38.3192;TJ-RR;Republican Subordination;Bish-Bulak
+0;71.8676,38.0388;TJ-01;Gorno-Badakhshan;Bisav
+0;68.8257,38.7952;TJ-RR;Republican Subordination;Begar
+0;71.9909,38.1880;TJ-01;Gorno-Badakhshan;Bichrav
+0;68.5683,38.2231;TJ-RR;Republican Subordination;Bibi-Khurum
+0;69.8486,38.7518;TJ-RR;Republican Subordination;Beydikho
+0;68.1566,37.3430;TJ-02;Khatlon Province;Beshtemir
+0;68.7833,38.5333;TJ;;Besh-Tepa
+0;69.7389,37.8485;TJ-02;Khatlon Province;Beshtegirmon
+0;69.2023,37.4349;TJ-02;Khatlon Province;Beshquduq
+0;69.8333,37.8833;TJ;;Besh-Khabib
+0;68.9403,38.2391;TJ-02;Khatlon Province;Beshkappa
+0;68.3921,38.1193;TJ-RR;Republican Subordination;Beshkapai Poyon
+0;68.7083,37.8352;TJ-02;Khatlon Province;Beshkappa
+0;68.0212,37.2329;TJ-02;Khatlon Province;Beshkappa
+0;68.9667,38.3833;TJ-02;Khatlon Province;Berencha
+0;71.5454,37.6938;TJ-01;Gorno-Badakhshan;Buní
+0;68.3834,38.7407;TJ-RR;Republican Subordination;Bedgun
+0;67.7136,39.4086;TJ-03;Sughd;Bedak
+0;71.7667,38.4167;TJ-01;Gorno-Badakhshan;Bdavn
+0;68.8993,38.3641;TJ-02;Khatlon Province;Bay-Kuchkar
+0;68.5333,37.9667;TJ-RR;Republican Subordination;Batrak
+0;68.3063,38.5720;TJ-RR;Republican Subordination;Batosh
+0;69.1539,39.6913;TJ-03;Sughd;Basmanda
+0;72.1593,38.1092;TJ-01;Gorno-Badakhshan;Basid
+0;68.8466,38.2068;TJ-02;Khatlon Province;Boshqaynar
+30689;68.1695,37.4647;TJ-02;Khatlon Province;Zarhalol
+0;68.5500,37.5667;TJ-02;Khatlon Province;Bash-Gunash
+0;73.5429,37.7729;TJ-01;Gorno-Badakhshan;Boshgumbez
+0;71.4550,37.9367;TJ-01;Gorno-Badakhshan;Bakhrushon
+0;71.8750,38.0633;TJ-01;Gorno-Badakhshan;Bartang
+0;71.9360,38.4109;TJ-01;Gorno-Badakhshan;Barnavad
+0;71.8167,38.0167;TJ-01;Gorno-Badakhshan;Barfunt
+0;72.2932,38.1112;TJ-01;Gorno-Badakhshan;Bardara
+0;72.4768,38.3107;TJ-01;Gorno-Badakhshan;Barchadiv
+0;71.6470,38.4865;TJ-01;Gorno-Badakhshan;Baravn
+0;71.7801,37.3064;TJ-01;Gorno-Badakhshan;Baroj
+0;68.7500,37.7667;TJ-02;Khatlon Province;Balga-Boskan Vtoroy
+0;69.6767,38.3084;TJ-02;Khatlon Province;Baljuvon
+0;68.1398,38.4979;TJ-RR;Republican Subordination;Baqoy
+0;68.8000,38.6667;TJ-RR;Republican Subordination;Bakaul
+0;71.6368,37.7494;TJ-01;Gorno-Badakhshan;Barchuv
+0;71.6000,37.8667;TJ-01;Gorno-Badakhshan;Badzhu-Pavdiv
+0;72.1667,38.1667;TJ-01;Gorno-Badakhshan;Badurt
+0;71.8396,37.1273;TJ-01;Gorno-Badakhshan;Bodomdara
+0;69.9432,37.8263;TJ-02;Khatlon Province;Bodomtut
+0;72.5403,37.7389;TJ-01;Gorno-Badakhshan;Bachchor
+0;69.6340,37.9805;TJ-02;Khatlon Province;Bachamazor
+0;69.8167,38.9167;TJ-RR;Republican Subordination;Babagabib
+0;68.4833,38.4333;TJ-RR;Republican Subordination;Azikeng
+0;68.0374,36.9851;TJ-02;Khatlon Province;Ayvaj
+2128;68.5377,39.3941;TJ-03;Sughd;Ayní
+0;68.5522,38.0754;TJ-02;Khatlon Province;Ay-Botkan
+0;68.5702,38.0476;TJ-RR;Republican Subordination;Avzali
+0;69.8258,37.9801;TJ-02;Khatlon Province;Aftoluk
+0;71.4925,36.9267;TJ-01;Gorno-Badakhshan;Avdzh
+0;69.0806,39.5904;TJ-03;Sughd;Ovchí
+0;69.5000,37.7667;TJ;;Atchanar
+0;70.8333,38.5500;TJ-01;Gorno-Badakhshan;Ataugor
+0;68.2267,38.5853;TJ-RR;Republican Subordination;Asbob
+0;68.9833,38.5667;TJ-RR;Republican Subordination;Askerabad
+0;71.3500,38.8667;TJ-RR;Republican Subordination;Arzing
+0;69.8666,38.3667;TJ-02;Khatlon Province;Arzanion
+0;68.1083,39.3325;TJ-03;Sughd;Artuch
+0;68.3696,38.6596;TJ-RR;Republican Subordination;Arshi
+0;68.8833,38.4667;TJ-RR;Republican Subordination;Arpa-Bulak
+0;69.5882,37.7749;TJ-02;Khatlon Province;Arpatuguldí
+0;69.2667,39.0167;TJ-RR;Republican Subordination;Arkhu
+0;70.8957,38.8644;TJ-RR;Republican Subordination;Argankul
+0;68.5816,38.7562;TJ-RR;Republican Subordination;Ardzhanak
+0;71.5917,38.4430;TJ-01;Gorno-Badakhshan;Ardobag
+0;68.5667,38.6167;TJ-RR;Republican Subordination;Arbobi
+0;69.5912,37.8940;TJ-02;Khatlon Province;Zarkamar
+0;69.8419,37.7370;TJ-02;Khatlon Province;Arabo
+0;68.1884,37.3855;TJ-02;Khatlon Province;Arabkhonai Kalon
+0;68.8168,39.1607;TJ-03;Sughd;Anzob
+0;70.1833,37.8333;TJ;;Anzhirou-Poyën
+0;70.1934,37.8244;TJ-02;Khatlon Province;Anjirobi Bolo
+0;68.7500,38.4000;TJ-RR;Republican Subordination;Annakul-Rovat
+0;68.1046,38.5685;TJ-RR;Republican Subordination;Aknakhodzha
+0;68.4505,38.2113;TJ-RR;Republican Subordination;Angurli
+0;69.0562,38.5657;TJ-RR;Republican Subordination;Andigon
+0;72.5833,37.7667;TJ-01;Gorno-Badakhshan;Anderavdzh
+0;71.4825,37.2358;TJ-01;Gorno-Badakhshan;Andarob
+0;71.5442,38.2323;TJ-01;Gorno-Badakhshan;Andarbog
+0;70.0167,38.0500;TJ-02;Khatlon Province;Anatrosh
+0;70.2500,37.7333;TJ-02;Khatlon Province;Amring
+0;69.1084,38.6105;TJ-RR;Republican Subordination;Amonshaykhi
+13380;67.8108,39.5144;TJ-03;Sughd;Amondara
+0;71.5691,36.7880;TJ-01;Gorno-Badakhshan;Amaler
+0;68.8437,38.3309;TJ-02;Khatlon Province;Almyshabad
+0;68.6076,38.6862;TJ-RR;Republican Subordination;Almasi
+0;68.9167,39.9167;TJ-03;Sughd;Almaly
+0;69.5102,38.1905;TJ-02;Khatlon Province;Al’mabulak
+0;69.4814,38.0578;TJ-02;Khatlon Province;Al’ma-Bulak
+0;68.7294,38.3791;TJ-RR;Republican Subordination;Alobaytal
+0;68.7033,38.7278;TJ-RR;Republican Subordination;Alkhuch
+0;71.0113,38.9088;TJ-RR;Republican Subordination;Alisurkhon
+0;69.1462,37.2608;TJ-02;Khatlon Province;Alipderdí
+0;73.2660,37.7514;TJ-01;Gorno-Badakhshan;Alichur
+0;68.5657,38.6283;TJ-RR;Republican Subordination;Alibegí
+0;68.8000,37.7667;TJ;;Alchin
+0;67.5167,39.4500;TJ-03;Sughd;Alakdzhar
+0;68.6000,38.4667;TJ-RR;Republican Subordination;Akuyli
+0;68.5500,37.4667;TJ;;Akteri
+0;72.5167,37.6667;TJ-01;Gorno-Badakhshan;Ak-Taylyak
+0;74.8000,37.6333;TJ-01;Gorno-Badakhshan;Ak-Tash
+0;68.8667,38.6167;TJ-RR;Republican Subordination;Ak-Tak
+0;69.2974,38.1553;TJ-02;Khatlon Province;Oqsu
+0;68.5799,38.1208;TJ-02;Khatlon Province;Ak-Su
+0;69.5500,37.8500;TJ;;Akshivan
+0;71.6000,39.3833;TJ-RR;Republican Subordination;Aksay
+0;68.8064,38.2894;TJ-02;Khatlon Province;Aksa-Rovat
+0;68.1775,38.4753;TJ-RR;Republican Subordination;Oqmachit
+0;68.3534,38.0604;TJ-RR;Republican Subordination;Oqmajid
+0;69.6534,37.6681;TJ-02;Khatlon Province;Oqmazor
+0;68.8667,37.9833;TJ-02;Khatlon Province;Akmazar
+0;72.1957,37.6957;TJ-01;Gorno-Badakhshan;Ak-Mamad
+0;68.7500,38.4667;TJ-04;Dushanbe;Ak-Kurgan
+0;68.6817,38.0621;TJ-02;Khatlon Province;Oykamar
+0;70.0251,38.4028;TJ-02;Khatlon Province;Akhteraki Bolo
+0;71.6026,37.9375;TJ-01;Gorno-Badakhshan;Akzev
+0;68.9500,39.8667;TJ-03;Sughd;Ak-Guaz-Kaaz
+0;68.2667,38.6000;TJ-RR;Republican Subordination;Ak-Dzhar
+0;73.1476,37.7251;TJ-01;Gorno-Badakhshan;Oq Jar
+0;68.5706,37.6647;TJ-02;Khatlon Province;Akdzhar
+0;68.6351,38.3986;TJ-RR;Republican Subordination;Ak-Buryu
+0;68.7945,38.3922;TJ-RR;Republican Subordination;Ak-Bulak
+0;68.5111,38.2606;TJ-RR;Republican Subordination;Oqbuloq
+0;73.8783,38.4894;TJ-01;Gorno-Badakhshan;Akbaytal
+0;68.4833,38.5167;TJ-RR;Republican Subordination;Akalchin
+0;68.5667,37.9833;TJ-RR;Republican Subordination;Agaravak
+0;69.3667,37.4667;TJ;;Afgan-Kishlak
+0;69.8486,37.7251;TJ-02;Khatlon Province;Odinaboy
+0;67.5062,39.4285;TJ-03;Sughd;Abdusamat
+0;68.5667,38.3167;TJ-RR;Republican Subordination;Abdulay
+0;68.3687,38.7154;TJ-RR;Republican Subordination;Abdu
+0;68.9333,38.4667;TJ-RR;Republican Subordination;Abdan
+0;70.5696,39.9754;TJ-03;Sughd;Chorkŭh
+0;68.9477,38.3049;TJ-02;Khatlon Province;Naryn
+37000;68.2316,38.5127;TJ-RR;Republican Subordination;Tursunzoda
+0;68.8367,38.0665;TJ-02;Khatlon Province;Dŭstí
+0;68.9644,38.1359;TJ-02;Khatlon Province;Rŭdakí
+0;68.2748,38.5670;TJ-RR;Republican Subordination;Surkh
+0;68.1346,38.6179;TJ-RR;Republican Subordination;Gulkhos
+0;68.2660,38.4661;TJ-RR;Republican Subordination;Dolonsoy
+0;68.1744,38.4717;TJ-RR;Republican Subordination;Garav
+0;68.1515,38.4082;TJ-RR;Republican Subordination;Pakhtaboy
+0;68.1115,38.4143;TJ-RR;Republican Subordination;Chapaevskiy
+0;68.5945,38.4846;TJ-RR;Republican Subordination;Hisor
+0;68.6667,38.6806;TJ-RR;Republican Subordination;Kosataroshi Bolo
+0;68.9353,38.5692;TJ-RR;Republican Subordination;Moinkaj
+0;68.5106,38.5020;TJ-RR;Republican Subordination;Umakai-Poyën
+0;68.5254,38.5103;TJ-RR;Republican Subordination;Kakhramon
+0;68.5357,38.5063;TJ-RR;Republican Subordination;Gachak
+0;68.5753,38.5042;TJ-RR;Republican Subordination;Kombinat Slepykh
+0;68.5935,38.5202;TJ-RR;Republican Subordination;Bulokchinor
+0;68.6289,38.5083;TJ-RR;Republican Subordination;Khodzhasiddik
+0;68.6421,38.5163;TJ-RR;Republican Subordination;Andreyev
+0;68.6558,38.5201;TJ-RR;Republican Subordination;Shaynak
+0;68.6840,38.5055;TJ-RR;Republican Subordination;Ayni
+0;68.6688,38.5251;TJ-RR;Republican Subordination;Navabad
+0;68.6756,38.5293;TJ-RR;Republican Subordination;Ochamayli
+0;68.6191,38.5388;TJ-RR;Republican Subordination;Shŭroby
+0;68.5878,38.5308;TJ-RR;Republican Subordination;Kirpichnyy
+0;68.5837,38.5427;TJ-RR;Republican Subordination;Sodiki
+0;68.5923,38.5440;TJ-RR;Republican Subordination;Chamanistan
+0;68.5994,38.5436;TJ-RR;Republican Subordination;Shurobi-Iskandar
+0;68.5730,38.5412;TJ-RR;Republican Subordination;Dekhkonabad
+0;68.5534,38.5387;TJ-RR;Republican Subordination;Pakhtaabad
+0;68.5264,38.5346;TJ-RR;Republican Subordination;Kirov
+0;68.5298,38.5244;TJ-RR;Republican Subordination;Komsomol
+0;68.5256,38.5316;TJ-RR;Republican Subordination;Yangiabad
+0;68.5082,38.5303;TJ-RR;Republican Subordination;Pravda
+0;68.5119,38.5414;TJ-RR;Republican Subordination;Askari
+0;68.5278,38.5406;TJ-RR;Republican Subordination;Galamysh
+0;68.5018,38.5390;TJ-RR;Republican Subordination;Chukuraki-Bolo
+0;68.5017,38.5568;TJ-RR;Republican Subordination;Nadzh
+0;68.5176,38.5515;TJ-RR;Republican Subordination;Chukurak
+0;68.5189,38.5566;TJ-RR;Republican Subordination;Shopur
+0;68.5383,38.5448;TJ-RR;Republican Subordination;Oybosh
+0;68.5500,38.5464;TJ-RR;Republican Subordination;Dzhugiabad
+0;68.5367,38.5613;TJ-RR;Republican Subordination;Davlatmanka
+0;68.5678,38.5511;TJ-RR;Republican Subordination;Langar-Poyën
+0;68.5683,38.5577;TJ-RR;Republican Subordination;Langar
+0;68.5912,38.5547;TJ-RR;Republican Subordination;Morteppa
+0;68.6433,38.5569;TJ-RR;Republican Subordination;Uchkul’
+0;68.5469,38.5668;TJ-RR;Republican Subordination;Zhudzhum
+0;68.5513,38.5630;TJ-RR;Republican Subordination;Mavlondzhar
+0;68.5542,38.5737;TJ-RR;Republican Subordination;Mavlondzhari-Bolo
+0;68.6269,38.5765;TJ-RR;Republican Subordination;Tula
+0;68.6558,38.5754;TJ-RR;Republican Subordination;Uchkul’
+0;68.6735,38.5613;TJ-04;Dushanbe;Mirzochul’
+0;68.6609,38.5723;TJ-RR;Republican Subordination;Botanicheskiy
+0;68.6777,38.5955;TJ-RR;Republican Subordination;Kelitosh
+0;68.5975,38.5903;TJ-RR;Republican Subordination;Beshbulok
+0;68.6103,38.6101;TJ-RR;Republican Subordination;Shaambari
+0;68.5894,38.5937;TJ-RR;Republican Subordination;Beshbulok-Bolo
+0;68.5606,38.6033;TJ-RR;Republican Subordination;Chepturai-Bolo
+0;68.5511,38.5967;TJ-RR;Republican Subordination;Lolagí
+0;68.5670,38.6305;TJ-RR;Republican Subordination;Zhelisoy
+0;68.5718,38.6373;TJ-RR;Republican Subordination;Chindara
+0;68.6123,38.6194;TJ-RR;Republican Subordination;Chagatoy
+0;68.6158,38.6281;TJ-RR;Republican Subordination;Dadozí
+0;68.6636,38.6420;TJ-RR;Republican Subordination;Kurpai
+0;68.6898,38.6254;TJ-RR;Republican Subordination;Marifati
+0;68.7443,38.6252;TJ-04;Dushanbe;Murshikor
+0;68.7243,38.6576;TJ-RR;Republican Subordination;Kulibedak
+0;68.6525,38.6501;TJ-RR;Republican Subordination;Loyob
+0;68.5850,38.6614;TJ-RR;Republican Subordination;Tutaka
+0;68.5414,38.6439;TJ-RR;Republican Subordination;Chashmaiborozi
+0;68.5351,38.6517;TJ-RR;Republican Subordination;Kavshdŭzon
+0;68.5398,38.6618;TJ-RR;Republican Subordination;Takht
+0;68.5098,38.5772;TJ-RR;Republican Subordination;Choltosh
+0;68.5080,38.5642;TJ-RR;Republican Subordination;Navabad
+0;68.7786,38.5299;TJ;;Yakkatut
+0;68.7493,38.5975;TJ-04;Dushanbe;Mehrobod
+0;68.7604,38.6399;TJ-RR;Republican Subordination;Shodob (Chagatoy)
+0;68.7625,38.6503;TJ-04;Dushanbe;Gurakha
+0;68.8058,38.6687;TJ-RR;Republican Subordination;Alkhitoy
+0;68.8602,38.5322;TJ-04;Dushanbe;Sabzikor
+0;68.8334,38.6550;TJ-RR;Republican Subordination;Kul’makmidi
+0;68.8283,38.6452;TJ-RR;Republican Subordination;Dzhalandar
+0;68.8541,38.6638;TJ-RR;Republican Subordination;Tashbulok
+0;68.8728,38.6609;TJ-RR;Republican Subordination;Agurty
+0;68.8508,38.6431;TJ-RR;Republican Subordination;Khayronak
+0;68.8534,38.6278;TJ-RR;Republican Subordination;Kamchin
+0;68.8774,38.6063;TJ-RR;Republican Subordination;Loyob
+0;68.8622,38.5896;TJ-RR;Republican Subordination;Oktok
+0;68.8742,38.5590;TJ-04;Dushanbe;Boloshahr
+0;68.8858,38.5458;TJ-RR;Republican Subordination;Zarteppa
+0;68.8715,38.5350;TJ-RR;Republican Subordination;Mugulon
+0;68.8593,38.5125;TJ-RR;Republican Subordination;Bolo-Nazar
+0;68.9585,38.4985;TJ-RR;Republican Subordination;Tojikobod
+0;68.9103,38.5015;TJ-RR;Republican Subordination;Paskitomchi
+0;68.9224,38.5061;TJ-RR;Republican Subordination;Pasaryk
+0;68.9025,38.5100;TJ-RR;Republican Subordination;Valdirgon
+0;68.9161,38.5227;TJ-RR;Republican Subordination;Gul’mazor
+0;68.8978,38.5253;TJ-RR;Republican Subordination;Iski-Baldirgon
+0;68.9116,38.5296;TJ-RR;Republican Subordination;Ishtimoyut
+0;68.9049,38.5379;TJ-RR;Republican Subordination;Dayrabot
+0;68.9005,38.5475;TJ-RR;Republican Subordination;Kayrogochi-Bolo
+0;68.9182,38.5448;TJ-RR;Republican Subordination;Tezgari-Bolo
+0;68.9062,38.5497;TJ-RR;Republican Subordination;Tezgar
+0;68.9190,38.5877;TJ-RR;Republican Subordination;Okchakman
+0;68.9082,38.6051;TJ-RR;Republican Subordination;Mekhtari Novyy
+0;68.8989,38.6205;TJ-RR;Republican Subordination;Mekhtari
+0;68.9349,38.6367;TJ-RR;Republican Subordination;Navabad
+0;68.9167,38.6256;TJ-RR;Republican Subordination;Khokali
+0;68.9457,38.6572;TJ-RR;Republican Subordination;Magmurud
+0;68.9521,38.6307;TJ-RR;Republican Subordination;Katanbulok
+0;68.9581,38.6261;TJ-RR;Republican Subordination;Gulbog
+0;68.9780,38.5989;TJ-RR;Republican Subordination;Zafarabad
+0;68.9774,38.5602;TJ-RR;Republican Subordination;Pistamazor
+0;68.9466,38.5214;TJ-RR;Republican Subordination;Navabad
+0;68.9587,38.5194;TJ-RR;Republican Subordination;Surkh
+0;68.9684,38.5203;TJ-RR;Republican Subordination;Turturabot
+0;68.9556,38.5117;TJ-RR;Republican Subordination;Tadzhikabad
+0;68.9722,38.5105;TJ-RR;Republican Subordination;Dzharteppa
+0;68.9916,38.5020;TJ-RR;Republican Subordination;Buzbit
+0;68.9814,38.5092;TJ-RR;Republican Subordination;Dashtishur
+0;68.9926,38.5173;TJ-RR;Republican Subordination;Shomako
+0;68.9902,38.5287;TJ-RR;Republican Subordination;Khodzhabaykul-Bolo
+0;68.9858,38.5401;TJ-RR;Republican Subordination;Dzharboshi
+0;68.9982,38.5441;TJ-RR;Republican Subordination;Sitorai surkh
+0;68.9940,38.5524;TJ-RR;Republican Subordination;Bakhor
+0;68.9898,38.5719;TJ-RR;Republican Subordination;Lolazor
+0;68.9878,38.5936;TJ-RR;Republican Subordination;Sarichinori-Bolo
+0;68.9877,38.6007;TJ-RR;Republican Subordination;Kalacha
+0;68.9964,38.6136;TJ-RR;Republican Subordination;Khaytali
+0;68.9205,38.5305;TJ-RR;Republican Subordination;Dzhangalabad
+0;68.4496,38.0314;TJ-RR;Republican Subordination;Tulkibuloq
+0;68.4870,38.2104;TJ-RR;Republican Subordination;Shurmanka
+0;68.4329,38.2921;TJ-RR;Republican Subordination;Khojigirdob
+0;68.6553,38.3496;TJ-RR;Republican Subordination;Oqbulok
+0;68.3391,38.3629;TJ-RR;Republican Subordination;Chingirov
+0;68.4800,38.3660;TJ-RR;Republican Subordination;Chinor
+0;68.6398,38.3635;TJ-RR;Republican Subordination;Kosimobod
+0;69.2331,38.1008;TJ-02;Khatlon Province;Beshkappa
+0;69.0782,38.0214;TJ-02;Khatlon Province;Guliston
+0;69.2875,38.0600;TJ-02;Khatlon Province;Sargazon
+0;68.7334,38.4301;TJ-RR;Republican Subordination;Yangikurulish
+0;69.0133,38.1739;TJ-02;Khatlon Province;Qoshkaroha
+0;69.0279,38.1911;TJ-02;Khatlon Province;Qirgochak
+0;69.0197,38.2214;TJ-02;Khatlon Province;Dashtobod
+0;69.2349,38.1506;TJ-02;Khatlon Province;Qushbuloq
+0;69.2360,38.1852;TJ-02;Khatlon Province;Sharshar
+0;69.2701,38.0631;TJ-02;Khatlon Province;Sargazoni Bolo
+0;68.5400,38.4005;TJ-RR;Republican Subordination;Lattaban
+0;68.1123,38.4212;TJ-RR;Republican Subordination;Novasoy
+0;68.1800,38.4294;TJ-RR;Republican Subordination;Zargar
+0;68.4069,38.4387;TJ-RR;Republican Subordination;Durmonbuloq
+0;68.5887,38.4455;TJ-RR;Republican Subordination;Zarya Vostoka
+0;68.1603,38.4658;TJ-RR;Republican Subordination;Ėfironos
+0;69.3128,38.2296;TJ-02;Khatlon Province;Igron
+0;68.5808,38.4666;TJ-RR;Republican Subordination;Konchy
+0;69.3381,38.1301;TJ-02;Khatlon Province;Tutkŭl
+0;68.5647,38.4857;TJ-RR;Republican Subordination;Ittifoq
+0;69.2575,38.2572;TJ-02;Khatlon Province;Kalkot
+0;69.2637,38.2718;TJ-02;Khatlon Province;Tushqovul
+0;69.0417,38.2622;TJ-02;Khatlon Province;Parchasoy
+0;69.3521,38.1786;TJ-02;Khatlon Province;Parkamchí
+0;68.1197,38.4900;TJ-RR;Republican Subordination;Kuzibacha
+0;68.3139,38.4980;TJ-RR;Republican Subordination;Turbokala
+0;69.4213,38.2358;TJ-02;Khatlon Province;Gulizindon
+0;69.3740,38.1718;TJ-02;Khatlon Province;Ghijovak
+0;68.4847,38.5112;TJ-RR;Republican Subordination;Oktyabr
+0;69.3558,38.2617;TJ-02;Khatlon Province;Bobotŭpkhona
+0;69.2072,38.0329;TJ-02;Khatlon Province;Guyunchí
+0;68.5841,38.4950;TJ-RR;Republican Subordination;Khayoti Nav
+0;69.1732,38.0328;TJ-02;Khatlon Province;Lohur
+0;69.3942,38.1702;TJ-02;Khatlon Province;Alijon
+0;68.5934,38.4408;TJ-RR;Republican Subordination;Qŭkhnaboy
+0;68.7255,38.4938;TJ-RR;Republican Subordination;Pakhtakor
+0;69.5948,38.0915;TJ-02;Khatlon Province;Shibonaí
+0;69.4360,38.0540;TJ-02;Khatlon Province;Bulyoni Bolo
+0;69.3677,38.1140;TJ-02;Khatlon Province;Boshbuloq
+0;69.4589,38.1322;TJ-02;Khatlon Province;Huseynshaykh
+0;68.6693,38.5322;TJ-RR;Republican Subordination;Kampirkala
+0;69.4991,38.0884;TJ-02;Khatlon Province;Toyabugon
+0;69.4669,38.2109;TJ-02;Khatlon Province;Sharshar
+0;69.4508,38.0813;TJ-02;Khatlon Province;Qizilsoy
+0;69.5489,38.1810;TJ-02;Khatlon Province;Chigla
+0;69.5039,38.2119;TJ-02;Khatlon Province;Falkhabad
+0;69.5237,38.2327;TJ-02;Khatlon Province;Qaroqamish
+0;69.5754,38.2038;TJ-02;Khatlon Province;Yakkasada
+0;69.5763,38.1802;TJ-02;Khatlon Province;Davotkhalqyor
+0;69.5798,38.1592;TJ-02;Khatlon Province;Jantoqlí
+0;69.5812,38.1424;TJ-02;Khatlon Province;Taboshar
+0;69.5985,38.0281;TJ-02;Khatlon Province;Qiblaí
+0;69.6559,38.2510;TJ-02;Khatlon Province;Seroba
+0;69.6436,38.2717;TJ-02;Khatlon Province;Khanabad
+0;69.6569,38.2282;TJ-02;Khatlon Province;Bobokhonshaid
+0;69.6556,38.0338;TJ-02;Khatlon Province;Qurbontaybuloqi Poyon
+0;69.6976,38.0588;TJ-02;Khatlon Province;Kartaypak
+0;68.1728,38.5125;TJ-RR;Republican Subordination;Zarbdor
+0;68.3389,38.5858;TJ-RR;Republican Subordination;Sakhron
+0;69.7879,38.1641;TJ-02;Khatlon Province;Choltosh
+0;69.7800,38.2364;TJ-02;Khatlon Province;Cholon
+0;69.8487,38.1082;TJ-02;Khatlon Province;Devona-Khoja
+0;68.2306,38.5725;TJ-RR;Republican Subordination;Yakhshiobod
+0;69.8405,38.0181;TJ-02;Khatlon Province;Jorbogh
+0;69.7560,38.1166;TJ-02;Khatlon Province;Gulisoy Vtoroy
+0;68.4869,38.5549;TJ-RR;Republican Subordination;Surkhakchasma
+0;69.8434,38.0887;TJ-02;Khatlon Province;Fayzobod
+0;69.8490,38.2129;TJ-02;Khatlon Province;Shaghmoni Poyon
+0;69.8724,38.0875;TJ-02;Khatlon Province;Navobod
+0;69.8965,38.1863;TJ-02;Khatlon Province;Khalkaër
+0;69.9729,38.0524;TJ-02;Khatlon Province;Firuzoba
+0;69.9651,38.0178;TJ-02;Khatlon Province;Sangdarai Ubara
+0;69.9950,38.1594;TJ-02;Khatlon Province;Martakí
+0;70.0059,38.1608;TJ-02;Khatlon Province;Sadbaregokh
+0;70.0132,38.1462;TJ-02;Khatlon Province;Ghofilobod
+0;70.0336,38.1227;TJ-02;Khatlon Province;Delolo
+0;70.0105,38.0917;TJ-02;Khatlon Province;Dushanbe
+0;70.0198,38.0750;TJ-02;Khatlon Province;Khonatarosh
+0;70.1283,38.2557;TJ-02;Khatlon Province;Javzodara
+0;68.4842,38.5690;TJ-RR;Republican Subordination;Khojildiyor
+0;68.3286,38.6606;TJ-RR;Republican Subordination;Norobod
+0;68.8009,38.4350;TJ-RR;Republican Subordination;Yangiobod
+0;68.9177,38.4267;TJ-RR;Republican Subordination;Boshbuloq
+0;68.7973,38.4589;TJ-RR;Republican Subordination;Oliy-Sovet
+0;69.4337,38.0908;TJ-02;Khatlon Province;Tuyabuyun
+0;69.4094,38.0658;TJ-02;Khatlon Province;Qizilguzar
+0;69.6926,38.0846;TJ-02;Khatlon Province;Tabatosh
+0;69.9075,38.1415;TJ-02;Khatlon Province;Sangi Ghur
+0;69.9614,38.0662;TJ-02;Khatlon Province;Boggaí
+0;68.2222,38.6714;TJ-RR;Republican Subordination;Qirkhizqishloq
+0;70.0723,38.1532;TJ-02;Khatlon Province;Momandiyon
+0;70.0745,38.1340;TJ-02;Khatlon Province;Chargi-Poën
+0;68.6050,38.6810;TJ-RR;Republican Subordination;Guruyon
+0;68.6071,38.7057;TJ-RR;Republican Subordination;Shol
+0;68.6177,38.7599;TJ-RR;Republican Subordination;Shamal
+0;71.8612,38.0372;TJ-01;Gorno-Badakhshan;Savsipushdasht
+0;68.6917,38.6751;TJ-RR;Republican Subordination;Sholikungurot
+0;68.6412,38.6875;TJ-RR;Republican Subordination;Navrŭzbuloq
+0;68.8037,38.6972;TJ-RR;Republican Subordination;Firŭzoobod
+0;68.6298,38.7126;TJ-RR;Republican Subordination;Toshbuloq
+0;68.7694,38.6750;TJ-RR;Republican Subordination;Alakchin
+0;68.6336,38.7186;TJ-RR;Republican Subordination;Kushkak
+0;68.8101,38.7197;TJ-RR;Republican Subordination;Fanfarok
+0;68.6546,38.7405;TJ-RR;Republican Subordination;Sarinay
+0;68.7919,38.7414;TJ-RR;Republican Subordination;Guskharf
+0;68.8240,38.8106;TJ-RR;Republican Subordination;Kondara
+0;71.4485,38.3588;TJ-01;Gorno-Badakhshan;Langar
+0;71.2566,38.3147;TJ-01;Gorno-Badakhshan;Dashtak
+0;71.4211,38.3378;TJ-01;Gorno-Badakhshan;Rog
+0;68.8071,38.0109;TJ-02;Khatlon Province;Navdí
+0;68.8563,38.0002;TJ-02;Khatlon Province;Ozodii Sharq
+0;68.8337,38.0142;TJ-02;Khatlon Province;Lenin Yuly
+0;68.7253,38.0325;TJ-02;Khatlon Province;Yangiyor
+0;68.7916,38.0455;TJ-02;Khatlon Province;Bŭston
+0;68.9198,38.0495;TJ-02;Khatlon Province;Sargah
+0;68.8089,38.0702;TJ-02;Khatlon Province;Ghalaba
+0;68.6161,38.0898;TJ-02;Khatlon Province;Yangiobod
+0;68.6879,38.0909;TJ-02;Khatlon Province;Mehnat
+0;68.8565,38.1013;TJ-02;Khatlon Province;Sa’dii Sherozí
+0;68.9357,38.0986;TJ-02;Khatlon Province;Furqat
+0;68.9425,38.1113;TJ-02;Khatlon Province;Firdavsí
+0;68.8364,38.1243;TJ-02;Khatlon Province;Furqat
+0;68.8610,38.1420;TJ-02;Khatlon Province;Sharsharasoy
+0;68.9700,38.1437;TJ-02;Khatlon Province;Zafarobod
+0;68.6702,38.1782;TJ-02;Khatlon Province;Ghallaobod
+0;68.7431,38.1900;TJ-02;Khatlon Province;Èshma
+0;68.9561,38.1686;TJ-02;Khatlon Province;Mehnatobod
+0;68.9681,38.2076;TJ-02;Khatlon Province;Taghoyobod
+0;70.7641,38.4467;TJ-01;Gorno-Badakhshan;Umarak
+0;70.7095,38.4162;TJ-01;Gorno-Badakhshan;Sangevnidaroz
+0;70.7775,38.4567;TJ-01;Gorno-Badakhshan;Dashtak
+0;68.6282,38.2738;TJ-02;Khatlon Province;Kharkhara
+0;70.5723,38.2744;TJ-01;Gorno-Badakhshan;Ushkharv
+0;68.9897,38.2744;TJ-02;Khatlon Province;Qulobod
+0;68.9400,38.3635;TJ-02;Khatlon Province;Chuchu
+0;68.8274,38.0074;TJ-02;Khatlon Province;Aral
+0;68.9081,38.0149;TJ-02;Khatlon Province;Rokhi-Lenin
+0;68.7741,38.0035;TJ-02;Khatlon Province;Sverdlov
+0;70.0837,38.2389;TJ-02;Khatlon Province;Khirazmoní
+0;70.0721,38.2892;TJ-02;Khatlon Province;Kundashar
+0;70.0296,38.3073;TJ-02;Khatlon Province;Navobod
+0;69.9145,38.2782;TJ-02;Khatlon Province;Safedshahrak
+0;69.9348,38.3080;TJ-02;Khatlon Province;Sari Osiyob
+0;70.0705,38.3247;TJ-02;Khatlon Province;Buydoqobod
+0;70.1346,38.2899;TJ-02;Khatlon Province;Childukhtaron
+0;69.9320,38.3280;TJ-02;Khatlon Province;Dorobí
+0;69.9487,38.3579;TJ-02;Khatlon Province;Pushiyon
+0;69.9693,38.3748;TJ-02;Khatlon Province;Dehishur
+0;69.9970,38.3892;TJ-02;Khatlon Province;Chuqurak
+0;69.8800,38.4148;TJ-02;Khatlon Province;Shaydon
+0;70.0120,38.3702;TJ-02;Khatlon Province;Navobod
+0;70.0842,38.3501;TJ-02;Khatlon Province;Sinjí
+0;70.0883,38.3628;TJ-02;Khatlon Province;Panjoriyon
+0;70.0357,38.3861;TJ-02;Khatlon Province;Zardaki Poyon
+0;70.1126,38.3403;TJ-02;Khatlon Province;Tikon
+0;70.1427,38.3724;TJ-02;Khatlon Province;Tabaraylon
+0;70.1316,38.3807;TJ-02;Khatlon Province;Rŭyob-Sandara
+0;70.1588,38.4265;TJ-02;Khatlon Province;Zelolak
+0;69.9818,38.2620;TJ-02;Khatlon Province;Oktosh
+0;69.8669,38.2882;TJ-02;Khatlon Province;Khonakokh
+0;69.8389,38.3227;TJ-02;Khatlon Province;Zargar
+0;69.7349,38.3367;TJ-02;Khatlon Province;Chorbogh
+0;69.7550,38.3555;TJ-02;Khatlon Province;Boldoy
+0;69.8259,38.2577;TJ-02;Khatlon Province;Shaghmon
+0;69.8943,38.2454;TJ-02;Khatlon Province;Khojakhalil
+0;69.7794,38.4111;TJ-02;Khatlon Province;Kayrubak
+0;69.7078,38.2812;TJ-02;Khatlon Province;Oqbuloq
+0;69.7660,38.4712;TJ-02;Khatlon Province;Pasivaram
+0;69.9169,38.4973;TJ-02;Khatlon Province;Sanchaloni
+0;68.9420,38.2996;TJ-02;Khatlon Province;Pioner
+0;69.7168,38.2997;TJ-02;Khatlon Province;Beshtentak
+0;68.7525,38.4306;TJ-RR;Republican Subordination;Kirpichnyy
+0;69.5444,38.3046;TJ-02;Khatlon Province;Chavroq
+0;69.5602,38.3124;TJ-02;Khatlon Province;Savda
+0;69.2731,38.2891;TJ-02;Khatlon Province;Keriok
+0;69.6003,38.3462;TJ-02;Khatlon Province;Daraishoyon
+0;69.2738,38.3824;TJ-02;Khatlon Province;Qibil
+0;69.3950,38.2786;TJ-02;Khatlon Province;Tal’khob
+0;68.7354,38.4425;TJ-RR;Republican Subordination;Kirov
+0;69.3988,38.4044;TJ-02;Khatlon Province;Chinor
+0;69.2812,38.4453;TJ-02;Khatlon Province;Mahrazi
+0;69.3235,38.4286;TJ-02;Khatlon Province;Khayrobod
+0;69.3495,38.4099;TJ-02;Khatlon Province;Peho
+0;69.4803,38.4426;TJ-RR;Republican Subordination;Noling
+0;69.4290,38.4638;TJ-RR;Republican Subordination;Safeddaro
+0;69.4491,38.4800;TJ-RR;Republican Subordination;Khoshdara
+0;69.3070,38.4939;TJ-RR;Republican Subordination;Tiyon
+0;69.5694,38.4827;TJ;;Turghuling
+0;69.4973,38.4876;TJ-RR;Republican Subordination;Demiya
+0;69.3508,38.4655;TJ-RR;Republican Subordination;Khuvan
+0;69.2703,38.5187;TJ-RR;Republican Subordination;Kabkrez
+0;69.2231,38.4434;TJ-02;Khatlon Province;Gulisurkh
+0;69.2680,38.4969;TJ-RR;Republican Subordination;Rishgirakh
+0;69.0844,38.3408;TJ-02;Khatlon Province;Beshbuloq
+0;69.0425,38.2831;TJ-02;Khatlon Province;Navkoram
+0;69.1959,38.3528;TJ-02;Khatlon Province;Daldakhuron
+0;69.0025,38.4032;TJ-02;Khatlon Province;Shamanbuloq
+0;69.0974,38.3827;TJ-02;Khatlon Province;Hasaní
+0;69.1111,38.4043;TJ-02;Khatlon Province;Kŭymot
+0;69.2419,38.3878;TJ;;Qarotosh
+0;69.3646,38.3417;TJ-02;Khatlon Province;Sarikamar
+0;69.1467,38.3144;TJ-02;Khatlon Province;Ghofilobod
+0;69.0478,38.3667;TJ-02;Khatlon Province;Dastgirak
+0;69.0692,38.3454;TJ-02;Khatlon Province;Ozodi
+0;69.2076,38.3762;TJ-02;Khatlon Province;Jal Jal
+0;69.1673,38.4170;TJ-02;Khatlon Province;Utagan
+0;69.0061,38.4466;TJ-RR;Republican Subordination;Anjír
+0;69.0246,38.4554;TJ-RR;Republican Subordination;Tulkí
+0;69.0972,38.4864;TJ-RR;Republican Subordination;Sangpar
+0;69.0272,38.5214;TJ-RR;Republican Subordination;Torbuloq
+0;69.0471,38.4847;TJ-RR;Republican Subordination;Isroilobod
+0;69.0254,38.4875;TJ-RR;Republican Subordination;Shuribolo
+0;69.0835,38.4241;TJ-02;Khatlon Province;Alchagy
+0;68.8297,38.5169;TJ;;Komsomol
+0;68.8397,38.4981;TJ-RR;Republican Subordination;Mikoyan
+0;68.8187,38.4703;TJ-RR;Republican Subordination;I’ich
+0;69.1716,38.5178;TJ-RR;Republican Subordination;Khaymokhmady
+0;68.7837,38.4752;TJ-RR;Republican Subordination;Partizani-Surkh
+0;69.2313,38.5175;TJ-RR;Republican Subordination;Taknazari
+0;69.2041,38.5256;TJ-RR;Republican Subordination;Gumbuloq
+0;69.1661,38.5382;TJ-RR;Republican Subordination;Qarabuloq
+0;69.0704,38.4556;TJ-RR;Republican Subordination;Yalanchinor
+0;69.1254,38.4499;TJ-02;Khatlon Province;Chepsoli
+0;69.3994,38.3724;TJ-02;Khatlon Province;Maulak
+0;69.3336,38.4387;TJ-02;Khatlon Province;Navdeh
+0;69.2236,38.5645;TJ-RR;Republican Subordination;Qal’aishody
+0;69.0773,38.5644;TJ-RR;Republican Subordination;Chillamazor
+0;69.1454,38.5593;TJ-RR;Republican Subordination;Chalchit
+0;69.3245,38.5638;TJ-RR;Republican Subordination;Sarichinor
+0;69.3710,38.5801;TJ-RR;Republican Subordination;Karsang
+0;69.3091,38.5292;TJ-RR;Republican Subordination;Jonvarsŭz
+0;69.2145,38.5836;TJ-RR;Republican Subordination;Yakkabed
+0;69.1669,38.6022;TJ-RR;Republican Subordination;Ėlovar
+0;69.1430,38.6073;TJ-RR;Republican Subordination;Dashtibedi Kalon
+0;69.0947,38.6149;TJ-RR;Republican Subordination;Bongura
+0;69.0207,38.5850;TJ-RR;Republican Subordination;Qipchoq
+0;69.0708,38.5818;TJ-RR;Republican Subordination;Kŭprŭkboshy
+0;69.1567,38.6373;TJ-RR;Republican Subordination;Chinor
+0;69.1371,38.6290;TJ-RR;Republican Subordination;Lijak
+0;69.0309,38.6201;TJ-RR;Republican Subordination;Bakoron
+0;69.0103,38.6534;TJ-RR;Republican Subordination;Simiganj
+0;69.1313,38.6490;TJ-RR;Republican Subordination;Shorazm
+0;69.1259,38.6321;TJ-RR;Republican Subordination;Khordarai
+0;69.2579,38.6923;TJ-RR;Republican Subordination;Tunikharv
+0;69.1063,38.6851;TJ-RR;Republican Subordination;Magov
+0;68.9394,38.8911;TJ-RR;Republican Subordination;Pshambe
+0;69.2901,38.6711;TJ-RR;Republican Subordination;Obinuqra
+0;68.8300,39.0427;TJ-RR;Republican Subordination;Kalon
+0;69.3740,38.6910;TJ-RR;Republican Subordination;Khilmagz
+0;69.3765,38.5346;TJ-RR;Republican Subordination;Chuqurak
+0;68.8450,39.0494;TJ-RR;Republican Subordination;Namozgoh
+0;68.2003,38.5061;TJ-RR;Republican Subordination;Novyy Sarkor
+0;68.2431,38.4913;TJ-RR;Republican Subordination;Frunze
+0;68.3362,38.5430;TJ-RR;Republican Subordination;Oim
+0;68.3250,38.3997;TJ-RR;Republican Subordination;Umbar
+0;68.2337,38.5781;TJ-RR;Republican Subordination;Maksim Gor’kiy
+0;68.3372,39.0457;TJ-03;Sughd;Kanchoch
+0;68.4649,39.1431;TJ-03;Sughd;Hayronbed
+0;68.0016,39.1802;TJ-03;Sughd;Khumorigung
+0;69.4720,38.6214;TJ-RR;Republican Subordination;Bungakiyon
+0;69.4816,38.6207;TJ-RR;Republican Subordination;Takhtapalif
+0;68.1104,39.3191;TJ-03;Sughd;Yakkakhona
+0;69.6335,38.5370;TJ;;Shohtuto
+0;68.1082,39.3245;TJ-03;Sughd;Madovra
+0;68.0569,39.3491;TJ-03;Sughd;Panjrŭd
+0;68.0409,39.3651;TJ-03;Sughd;Husanobod
+0;68.0498,39.3924;TJ-03;Sughd;Shashqat
+0;69.5534,38.6472;TJ-RR;Republican Subordination;Dashti-Mirzo
+0;69.5192,38.6631;TJ-RR;Republican Subordination;Gulkhori
+0;69.4407,38.5910;TJ-RR;Republican Subordination;Shoradzhab
+0;69.5990,38.6659;TJ-RR;Republican Subordination;Komsomolabad
+0;69.5532,38.6881;TJ-RR;Republican Subordination;Pionerobod
+0;69.5807,38.6893;TJ-RR;Republican Subordination;Qulobod
+0;69.6006,38.6942;TJ-RR;Republican Subordination;Saroy
+0;69.6289,38.7103;TJ-RR;Republican Subordination;Chashmaikulo
+0;69.6444,38.7439;TJ-RR;Republican Subordination;Javoní
+0;69.6794,38.7545;TJ-RR;Republican Subordination;Kukabuloq
+0;69.7369,38.6933;TJ-RR;Republican Subordination;Roghun
+0;69.4397,38.7496;TJ-RR;Republican Subordination;Tavish-Bolo
+0;69.6618,38.6840;TJ-RR;Republican Subordination;Foru
+0;69.6571,38.6723;TJ-RR;Republican Subordination;Farrukh
+0;68.8056,39.3779;TJ-03;Sughd;Pokhut
+0;69.8017,38.7070;TJ-RR;Republican Subordination;Talkhakchashma
+0;69.7908,38.6984;TJ-RR;Republican Subordination;Tanagva
+0;68.9817,39.3474;TJ-03;Sughd;Dargh
+0;68.7159,39.3511;TJ-03;Sughd;Mazorirarz
+0;69.8423,38.5368;TJ-02;Khatlon Province;Afandí
+0;68.6374,39.2375;TJ-03;Sughd;Pishanza
+0;68.5924,39.0215;TJ-RR;Republican Subordination;Maykhura
+0;68.5756,39.1430;TJ-03;Sughd;Shŭrpast
+0;68.4665,39.2245;TJ-03;Sughd;Shurmashk
+0;68.0183,39.4684;TJ-03;Sughd;Shŭrcha
+0;68.0459,39.4859;TJ-03;Sughd;Ruziobnak
+0;68.2970,39.2674;TJ-03;Sughd;Sar
+0;70.2549,38.5133;TJ-02;Khatlon Province;Siyofark
+0;70.2070,38.4717;TJ-02;Khatlon Province;Sirko
+0;70.2438,38.5025;TJ-02;Khatlon Province;Tigavun
+0;70.6775,38.6543;TJ-01;Gorno-Badakhshan;Kamchak
+0;70.7298,38.6767;TJ-01;Gorno-Badakhshan;Safedoron
+0;70.7237,38.6961;TJ-01;Gorno-Badakhshan;Farkingi
+0;70.6891,38.6703;TJ-01;Gorno-Badakhshan;Lukhch
+0;70.6622,38.6624;TJ-01;Gorno-Badakhshan;Ogilgaron
+0;70.7811,38.4776;TJ-01;Gorno-Badakhshan;Anjirak
+0;70.6565,38.6472;TJ-01;Gorno-Badakhshan;Saydon
+0;70.6505,38.7171;TJ-01;Gorno-Badakhshan;Inkŭh
+0;70.6332,38.6382;TJ-01;Gorno-Badakhshan;Kulumbai-Bolo
+0;70.5052,38.6714;TJ-RR;Republican Subordination;Saridasht
+0;70.5122,38.7054;TJ-RR;Republican Subordination;Sharak
+0;68.7806,39.7523;TJ-03;Sughd;Jarkutan
+0;68.8256,39.7197;TJ-03;Sughd;Mukur
+0;68.6617,39.8295;TJ-03;Sughd;Tavoqbuloq
+0;68.9972,39.8669;TJ-03;Sughd;Objuvoz
+0;68.9886,39.8892;TJ-03;Sughd;Bogi Kalon
+0;68.9815,39.9072;TJ-03;Sughd;Bobotago
+0;68.9909,39.9473;TJ-03;Sughd;Vogat
+0;68.9704,39.8329;TJ-03;Sughd;Obkarchagay
+0;71.0443,38.5173;TJ-01;Gorno-Badakhshan;Khurk
+0;71.6046,38.4496;TJ-01;Gorno-Badakhshan;Sitvarg
+0;71.8105,38.5780;TJ-01;Gorno-Badakhshan;Gumas
+0;70.9158,38.8672;TJ-RR;Republican Subordination;Juri Bolo
+0;68.4516,39.4301;TJ-03;Sughd;Zerobod
+0;70.8714,38.8235;TJ-RR;Republican Subordination;Darai Khayron
+0;70.7798,38.8403;TJ-RR;Republican Subordination;Shpilion
+0;70.8264,38.8291;TJ-RR;Republican Subordination;Khirs
+0;70.7081,38.8022;TJ-02;Khatlon Province;Sabzikharv
+0;70.5845,38.7439;TJ-02;Khatlon Province;Hur
+0;70.5079,38.7124;TJ-RR;Republican Subordination;Langa
+0;70.5364,38.7207;TJ-RR;Republican Subordination;Gurkham
+0;70.3272,38.7745;TJ-RR;Republican Subordination;Shŭri Poyon
+0;70.2197,38.8014;TJ-RR;Republican Subordination;Dashtigurk
+0;70.1541,38.8396;TJ-RR;Republican Subordination;Kaftarguzar
+0;70.0700,38.8484;TJ-RR;Republican Subordination;Yust
+0;69.9412,38.8149;TJ-RR;Republican Subordination;Ayní-Khojayní
+0;69.9281,38.8157;TJ-RR;Republican Subordination;Miyondara
+0;69.8436,38.7973;TJ-RR;Republican Subordination;Obiborik
+0;69.8394,38.7576;TJ-RR;Republican Subordination;Alígalabon
+0;69.8003,38.8150;TJ-RR;Republican Subordination;Khakimí
+0;69.8324,38.8354;TJ-RR;Republican Subordination;Khasandara
+0;69.8176,38.8413;TJ-RR;Republican Subordination;Layron
+0;69.8118,38.8623;TJ-RR;Republican Subordination;Tagikamar
+0;69.7721,38.8563;TJ-RR;Republican Subordination;Kaskon
+0;69.5392,38.8424;TJ-RR;Republican Subordination;Varv
+0;69.5820,38.8704;TJ-RR;Republican Subordination;Sorbukh
+0;69.4424,38.8257;TJ-RR;Republican Subordination;Soni
+0;69.4326,38.7854;TJ-RR;Republican Subordination;Depir
+0;69.3622,38.7477;TJ-RR;Republican Subordination;Yafrak
+0;69.3928,38.7672;TJ-RR;Republican Subordination;Tavish
+0;69.5976,38.9102;TJ-RR;Republican Subordination;Dehikung
+0;69.2810,38.7713;TJ-RR;Republican Subordination;Khushon
+0;69.8380,38.9225;TJ-RR;Republican Subordination;Voydora
+0;69.8704,38.9026;TJ-RR;Republican Subordination;Khulozy
+0;69.9268,38.8944;TJ-RR;Republican Subordination;Degai
+0;69.8829,38.8898;TJ-RR;Republican Subordination;Novobod
+0;69.8724,38.8853;TJ-RR;Republican Subordination;Dehai Baland
+0;69.9894,38.8968;TJ-RR;Republican Subordination;Tegirmí
+0;69.9390,38.8867;TJ-RR;Republican Subordination;Sebak
+0;69.9860,38.8702;TJ-RR;Republican Subordination;Dangar
+0;69.8770,38.9063;TJ-RR;Republican Subordination;Ravshani
+0;70.0431,38.9219;TJ-RR;Republican Subordination;Sherbegiyon
+0;70.1422,38.9195;TJ-RR;Republican Subordination;Tukhchi
+0;70.1286,38.8843;TJ-RR;Republican Subordination;Nodirobod
+0;70.0506,38.8864;TJ-RR;Republican Subordination;Sari Dasht
+0;70.0633,38.9108;TJ-RR;Republican Subordination;Ulfatobod
+0;70.1365,38.9066;TJ-RR;Republican Subordination;Obilurd
+0;69.5172,38.2601;TJ-02;Khatlon Province;Davlatshoyon
+0;69.1442,38.3036;TJ-02;Khatlon Province;Girdob
+0;68.5575,38.4354;TJ-RR;Republican Subordination;Bulbulchashma
+0;68.8573,38.1650;TJ-02;Khatlon Province;Ėshma
+0;68.6551,38.0427;TJ-02;Khatlon Province;Pakhtaobod
+0;68.5082,38.3721;TJ-RR;Republican Subordination;Murutak
+0;74.3513,37.7256;TJ-01;Gorno-Badakhshan;Cheshtebe
+0;74.3794,38.0686;TJ-01;Gorno-Badakhshan;Toktomushbek
+0;74.4053,38.4640;TJ-01;Gorno-Badakhshan;Quroghon
+0;69.8842,38.8415;TJ-RR;Republican Subordination;Zoron
+0;73.3456,39.2969;TJ-01;Gorno-Badakhshan;Markansu
+0;72.9449,37.7043;TJ-01;Gorno-Badakhshan;Bulunqŭl
+0;72.9556,37.5463;TJ-01;Gorno-Badakhshan;Tagarkaki
+0;73.8615,38.5007;TJ-01;Gorno-Badakhshan;Rabotakbaytal
+0;74.0120,38.3379;TJ-01;Gorno-Badakhshan;Chechektí
+0;69.1953,37.1850;TJ-02;Khatlon Province;Shakardasht
+0;69.1436,37.2257;TJ-02;Khatlon Province;Burka
+0;69.1044,37.2539;TJ-02;Khatlon Province;Yuqori Polvon
+0;69.0753,37.2625;TJ-02;Khatlon Province;Khojaqŭchqor
+0;69.0462,37.2921;TJ-02;Khatlon Province;Arab
+0;69.0451,37.3306;TJ-02;Khatlon Province;Peshqadam
+0;69.1639,37.1811;TJ-02;Khatlon Province;Novabad
+0;69.1589,37.1914;TJ-02;Khatlon Province;Gulistan
+0;69.1431,37.1981;TJ-02;Khatlon Province;Kuyu-Burka
+0;69.1497,37.2037;TJ-02;Khatlon Province;Yuqori Burka
+0;69.1513,37.2175;TJ-02;Khatlon Province;Kirgiz
+0;69.1107,37.2256;TJ-02;Khatlon Province;Shakhmat
+0;69.1625,37.2437;TJ-02;Khatlon Province;Kazakh
+0;69.0681,37.2592;TJ-02;Khatlon Province;Utabulak
+0;69.0853,37.2711;TJ-02;Khatlon Province;Yukary-Khodzha
+0;69.1258,37.2747;TJ-02;Khatlon Province;Turdyshekh
+0;69.0596,37.2886;TJ-02;Khatlon Province;Andizhan
+0;69.0501,37.2750;TJ-02;Khatlon Province;Novabad
+0;69.0455,37.2820;TJ-02;Khatlon Province;Bedanibedak
+0;69.0310,37.2975;TJ-02;Khatlon Province;Novabad
+0;69.1235,37.3054;TJ-02;Khatlon Province;Kochkiya
+0;69.0291,37.3186;TJ-02;Khatlon Province;Galaba
+0;69.0806,37.3220;TJ-02;Khatlon Province;Zarbdor
+0;69.3760,37.4868;TJ-02;Khatlon Province;Yulduz
+0;69.3666,37.4646;TJ-02;Khatlon Province;Alovuddin
+0;69.3105,37.4470;TJ-02;Khatlon Province;Surkhob
+0;69.3559,37.4508;TJ-02;Khatlon Province;Marguzor
+0;69.3410,37.4327;TJ-02;Khatlon Province;Komsomol
+0;69.3521,37.4203;TJ-02;Khatlon Province;Pobeda
+0;69.3583,37.4011;TJ-02;Khatlon Province;Sarhad
+0;69.3419,37.3923;TJ-02;Khatlon Province;Hisar Sovkhoz Ferma Nomer Du
+0;69.3714,37.4734;TJ-02;Khatlon Province;Finskiy
+0;69.3470,37.4826;TJ-02;Khatlon Province;Pervoye Maya
+0;69.3476,37.4968;TJ-02;Khatlon Province;Arabo
+0;69.4203,37.4984;TJ-02;Khatlon Province;Darkat
+0;68.4793,37.5091;TJ-02;Khatlon Province;Yangiobod
+0;68.6272,37.5030;TJ-02;Khatlon Province;Frunze
+0;68.6658,37.5075;TJ-02;Khatlon Province;Rohi Lenin
+0;68.6366,37.4853;TJ-02;Khatlon Province;Kalinin
+0;68.6278,37.4854;TJ-02;Khatlon Province;Maksim Gorkiy
+0;68.6479,37.4677;TJ-02;Khatlon Province;Qumsangir
+0;68.6286,37.4479;TJ-02;Khatlon Province;Udarnik
+0;68.5953,37.4204;TJ-02;Khatlon Province;Pobeda
+0;68.6415,37.4201;TJ-02;Khatlon Province;Askari Surkh
+0;68.6906,37.4050;TJ-02;Khatlon Province;Navobod
+0;68.5308,37.4481;TJ-02;Khatlon Province;Tojikobod
+0;68.5070,37.4436;TJ-02;Khatlon Province;Karl Marks
+0;68.5656,37.3980;TJ-02;Khatlon Province;Frunze
+0;68.5869,37.3661;TJ-02;Khatlon Province;Turkmeni
+0;68.6563,37.3795;TJ-02;Khatlon Province;Pakhtakor
+0;68.6807,37.3489;TJ-02;Khatlon Province;Krasnoostrovskiy
+0;68.7427,37.3564;TJ-02;Khatlon Province;Yangiobod
+0;68.8878,37.5037;TJ-02;Khatlon Province;Navobod
+0;68.6675,37.3447;TJ-02;Khatlon Province;Pionerskiy
+0;68.7144,37.3359;TJ-02;Khatlon Province;Pervoye Maya
+0;68.5155,37.4313;TJ-02;Khatlon Province;Namuna
+0;68.5183,37.4578;TJ-02;Khatlon Province;Komsomol
+0;68.5355,37.4577;TJ-02;Khatlon Province;Zhdanov
+0;68.5677,37.4229;TJ-02;Khatlon Province;Maksim Gor’kiy
+0;68.5669,37.4296;TJ-02;Khatlon Province;Kirov
+0;68.5534,37.4334;TJ-02;Khatlon Province;Sverdlov
+0;68.5517,37.4465;TJ-02;Khatlon Province;Turkmenabad
+0;68.5996,37.4250;TJ-02;Khatlon Province;Kalinin
+0;68.6177,37.4104;TJ-02;Khatlon Province;Tel’man
+0;68.6452,37.4078;TJ-02;Khatlon Province;Pervoye Maya
+0;68.6128,37.4280;TJ-02;Khatlon Province;Sotsializm
+0;68.5279,37.4731;TJ-02;Khatlon Province;Leninabad
+0;68.5474,37.4747;TJ-02;Khatlon Province;Gulistan
+0;68.5401,37.4706;TJ-02;Khatlon Province;Kalinin
+0;68.5720,37.4916;TJ-02;Khatlon Province;Kaytmas
+0;68.6600,37.3871;TJ-02;Khatlon Province;Kyzyl-Tadzhikistan
+0;68.6830,37.4123;TJ-02;Khatlon Province;Kumsangir
+0;69.0459,37.4241;TJ-02;Khatlon Province;Birbuloq
+0;69.1066,37.4082;TJ-02;Khatlon Province;Qamishaglí
+0;69.1461,37.4031;TJ-02;Khatlon Province;Alkamazhar
+0;69.2019,37.4018;TJ-02;Khatlon Province;Kyrkuduk
+0;68.6822,37.3235;TJ-02;Khatlon Province;Panji Bolo
+0;68.7087,37.3259;TJ-02;Khatlon Province;Oktyabr
+0;68.7193,37.3175;TJ-02;Khatlon Province;Khlopkovyy
+0;68.6558,37.2972;TJ-02;Khatlon Province;Dobrovolcheskiy
+0;68.5622,37.4802;TJ-02;Khatlon Province;Kabadian
+0;68.6399,37.4365;TJ-02;Khatlon Province;Kyzylnishon
+0;68.6508,37.4516;TJ-02;Khatlon Province;Madaniyat
+0;67.9794,37.3081;TJ-02;Khatlon Province;Beshkent
+0;67.9702,37.3481;TJ-02;Khatlon Province;Murattepa
+0;67.9945,37.4019;TJ-02;Khatlon Province;Bahorí
+0;68.0596,37.0043;TJ-02;Khatlon Province;Urtanobod
+0;68.0862,37.0866;TJ-02;Khatlon Province;Tojikobod
+0;68.1030,37.1192;TJ-02;Khatlon Province;Jam’iyati Dehqon
+0;68.0344,37.2237;TJ-02;Khatlon Province;Qit’a Komsomol
+0;68.1988,37.2805;TJ-02;Khatlon Province;Qizilkuch
+0;68.1171,37.0821;TJ-02;Khatlon Province;Novabad
+0;68.1204,37.1629;TJ-02;Khatlon Province;Toshtepa
+0;68.1464,37.1928;TJ-02;Khatlon Province;Kyzyl-Askar
+0;68.1845,37.1864;TJ-02;Khatlon Province;Kŭrjalol
+0;68.2206,37.1871;TJ-02;Khatlon Province;Uchastok Imeni Kalinina
+0;68.1656,37.2499;TJ-02;Khatlon Province;Kurot
+0;68.1632,37.2761;TJ-02;Khatlon Province;Havaskor
+0;68.1358,37.2329;TJ-02;Khatlon Province;Traktor
+0;68.1312,37.2779;TJ-02;Khatlon Province;Kakhramon
+0;68.1520,37.2970;TJ-02;Khatlon Province;Uchastok Imeni Akhunbabayeva
+0;68.1164,37.2603;TJ-02;Khatlon Province;Kommunai Parizh
+0;68.0055,37.3056;TJ-02;Khatlon Province;Staryy Tulkhar
+0;68.1245,37.3469;TJ-02;Khatlon Province;Karl Marks
+0;68.1850,37.3610;TJ-02;Khatlon Province;Shahob
+0;68.1266,37.3823;TJ-02;Khatlon Province;Qizilobod Qit’a
+0;68.1371,37.4133;TJ-02;Khatlon Province;Parts’ezd Qit’a
+0;68.0593,37.4866;TJ-02;Khatlon Province;Bishkent
+0;68.2400,37.4724;TJ-02;Khatlon Province;Sovetobod
+0;68.1750,37.4245;TJ-02;Khatlon Province;Pakhtakor
+0;68.1699,37.4008;TJ-02;Khatlon Province;Akcha
+0;68.1303,37.3941;TJ-02;Khatlon Province;Uchastok Beshkappa
+0;69.6385,37.6236;TJ-02;Khatlon Province;Chubek Sovkhoz
+0;69.5943,37.6417;TJ-02;Khatlon Province;Davlatobod
+0;69.6865,37.6273;TJ-02;Khatlon Province;Navobod
+0;69.6821,37.6411;TJ-02;Khatlon Province;Tudaboyen
+0;69.5733,37.6812;TJ-02;Khatlon Province;Islomobod
+0;69.5841,37.6817;TJ-02;Khatlon Province;Daraikalot
+0;69.6026,37.6938;TJ-02;Khatlon Province;Taginamak
+0;69.6055,37.7826;TJ-02;Khatlon Province;Komsomolobod
+0;69.6348,37.8350;TJ-02;Khatlon Province;Beshariq
+0;69.7136,37.8262;TJ-02;Khatlon Province;Navobod
+0;69.6125,37.6752;TJ-02;Khatlon Province;Sadbargo
+0;69.6797,37.8194;TJ-02;Khatlon Province;Larkhobi
+0;69.6576,37.9977;TJ-02;Khatlon Province;Boshkushkiya
+0;69.7259,37.8627;TJ-02;Khatlon Province;Dekhkanabad
+0;69.7392,37.8837;TJ-02;Khatlon Province;Pyandzhsola
+0;69.6958,37.8916;TJ-02;Khatlon Province;Lenin Sovkhoz
+0;69.7427,37.9379;TJ-02;Khatlon Province;Rakhmanberdy
+0;69.7318,37.9604;TJ-02;Khatlon Province;Darnaychi
+0;69.6478,37.9928;TJ-02;Khatlon Province;Urtakushkiya
+0;69.9737,37.9959;TJ-02;Khatlon Province;Sangdara
+0;69.9067,37.9845;TJ-02;Khatlon Province;Jarcheb
+0;69.9960,37.9543;TJ-02;Khatlon Province;Shahribarbar
+0;69.9047,37.8646;TJ-02;Khatlon Province;Balkhobí
+0;69.7535,37.8662;TJ-02;Khatlon Province;Lŭlikŭtal
+0;69.8011,37.9307;TJ-02;Khatlon Province;Hiloli Ahmar
+0;69.7526,37.9690;TJ-02;Khatlon Province;Chinor
+0;69.7555,37.9633;TJ-02;Khatlon Province;Mogol
+0;69.7908,37.9637;TJ-02;Khatlon Province;Chokhtemir
+0;69.7638,37.9174;TJ-02;Khatlon Province;Batyrkhan
+0;69.7678,37.9214;TJ-02;Khatlon Province;Chorbog
+0;69.7792,37.9284;TJ-02;Khatlon Province;Shakarkhan
+0;69.8254,37.9159;TJ-02;Khatlon Province;Tudakovsh
+0;69.7587,37.8814;TJ-02;Khatlon Province;Sarysiob
+0;69.7739,37.8737;TJ-02;Khatlon Province;Fayzabad
+0;69.9740,37.9884;TJ-02;Khatlon Province;Daraikhavash
+0;70.0109,37.9402;TJ-02;Khatlon Province;Uchkŭl
+0;70.0179,37.9100;TJ-02;Khatlon Province;Doghiston
+0;70.2246,37.9523;TJ-02;Khatlon Province;Shaghoni Bolo
+0;70.0155,37.9372;TJ-02;Khatlon Province;Shahkamoní
+0;70.0615,37.8204;TJ-02;Khatlon Province;Sebdara-Rubandi
+0;70.2251,37.7753;TJ-02;Khatlon Province;Sarinamak
+0;69.8521,37.7149;TJ-02;Khatlon Province;Pistamazor
+0;69.8512,37.6921;TJ-02;Khatlon Province;Mishkoron
+0;69.9392,37.7654;TJ-02;Khatlon Province;Hojabogh
+0;69.9591,37.7810;TJ-02;Khatlon Province;Ursikho
+0;69.9169,37.7827;TJ-02;Khatlon Province;Sangakchashma
+0;69.9952,37.8209;TJ-02;Khatlon Province;Komsomolobod
+0;69.8842,37.8109;TJ-02;Khatlon Province;Navbuloq
+0;69.7873,37.8201;TJ-02;Khatlon Province;Loyluku
+0;69.7701,37.7523;TJ-02;Khatlon Province;Cherdara
+0;69.7721,37.7484;TJ-02;Khatlon Province;Kurzhumtosh
+0;69.9833,37.7636;TJ-02;Khatlon Province;Zardalavak
+0;69.9852,37.7780;TJ-02;Khatlon Province;Tudani
+0;69.9537,37.7498;TJ-02;Khatlon Province;Qaragoch
+0;69.9476,37.7551;TJ-02;Khatlon Province;Obitera
+0;69.9421,37.7835;TJ-02;Khatlon Province;Urgaylak
+0;69.9149,37.8239;TJ-02;Khatlon Province;Nazarboy
+0;69.1196,37.5704;TJ-02;Khatlon Province;Tojikqishloq
+0;69.1890,37.5161;TJ-02;Khatlon Province;Ferma Pyataya Sovkhoza Dzhangara
+0;69.0719,37.6912;TJ-02;Khatlon Province;Beshbuloq
+0;69.0451,37.7389;TJ-02;Khatlon Province;Mash’al
+0;69.0397,37.8064;TJ-02;Khatlon Province;Koklimri
+0;69.1142,37.8088;TJ-02;Khatlon Province;Qazoqmazor
+0;69.0913,37.8369;TJ-02;Khatlon Province;Uchbuloq
+0;69.1602,37.7720;TJ-02;Khatlon Province;Qizilbuloq
+0;69.1571,37.7321;TJ-02;Khatlon Province;Juzak
+0;69.1566,37.7089;TJ-02;Khatlon Province;Qŭchqorbuloq
+0;69.0422,37.9801;TJ-02;Khatlon Province;Qazonguzar
+0;69.1196,37.9100;TJ-02;Khatlon Province;Tomchí
+0;69.0572,37.8901;TJ-02;Khatlon Province;Kaltashŭr
+0;69.1177,37.8550;TJ-02;Khatlon Province;Qarobodom
+0;69.1849,37.9397;TJ-02;Khatlon Province;Torbuloq
+0;69.2169,37.9888;TJ-02;Khatlon Province;Beshchelak
+0;69.2721,37.8450;TJ-02;Khatlon Province;Khojaguzar
+10373;69.2772,37.8033;TJ-02;Khatlon Province;Avzikent
+0;69.0909,37.9752;TJ-02;Khatlon Province;Ishma
+0;69.0789,37.9902;TJ-02;Khatlon Province;Novabad
+0;69.0330,37.9693;TJ-02;Khatlon Province;Balagdash
+0;69.0981,37.9546;TJ-02;Khatlon Province;Pod”yëm
+0;69.0634,37.9189;TJ-02;Khatlon Province;Yulduzkak
+0;69.4912,37.9779;TJ-02;Khatlon Province;Byrdangal
+0;69.4771,37.9473;TJ-02;Khatlon Province;Davot
+0;69.3908,37.9674;TJ-02;Khatlon Province;Bulyon
+0;69.4582,37.9102;TJ-02;Khatlon Province;Uchqul
+0;69.3518,37.8880;TJ-02;Khatlon Province;Atochibulok
+0;69.3592,37.8708;TJ-02;Khatlon Province;Dzharbulok
+0;69.3692,37.8612;TJ-02;Khatlon Province;Shohbur
+0;69.3500,37.8192;TJ-02;Khatlon Province;Jarbuloq
+0;69.3872,37.7819;TJ-02;Khatlon Province;Olimtoy
+0;69.3867,37.7326;TJ-02;Khatlon Province;Jalbuzí
+0;69.4958,37.7787;TJ-02;Khatlon Province;Navobod
+0;69.4599,37.7266;TJ-02;Khatlon Province;Samonchí
+0;69.5162,37.7228;TJ-02;Khatlon Province;Gulobod
+0;69.4982,37.7097;TJ-02;Khatlon Province;Pakhtaobod
+0;69.4959,37.7032;TJ-02;Khatlon Province;Dashtigulho
+0;69.4894,37.6895;TJ-02;Khatlon Province;Pakhtakhor
+0;69.4971,37.6654;TJ-02;Khatlon Province;Fayzobod
+0;69.4916,37.6559;TJ-02;Khatlon Province;Tagnob
+0;69.3392,37.6616;TJ-02;Khatlon Province;Toirsu
+0;69.3250,37.7015;TJ-02;Khatlon Province;Navobod
+0;69.3674,37.5200;TJ-02;Khatlon Province;Shaftobuloq
+0;69.4543,37.5206;TJ-02;Khatlon Province;Muhojirobod
+0;69.3215,37.5290;TJ-02;Khatlon Province;Maydapatta
+0;69.3827,37.5478;TJ-02;Khatlon Province;Saksanokhur
+0;69.4297,37.5747;TJ-02;Khatlon Province;Gulshan
+0;69.4028,37.6153;TJ-02;Khatlon Province;Bobosafoli Poyon
+0;69.3810,37.6369;TJ-02;Khatlon Province;Navobodi Bolo
+0;69.4914,37.6118;TJ-02;Khatlon Province;Davlatobod
+0;69.3389,37.5281;TJ-02;Khatlon Province;Dashtak
+0;69.3863,37.5309;TJ-02;Khatlon Province;Sebo-Surkh
+0;69.4712,37.5515;TJ-02;Khatlon Province;Butson
+0;69.4606,37.5533;TJ-02;Khatlon Province;Navobod
+0;69.3716,37.5643;TJ-02;Khatlon Province;Safarmat
+0;69.3681,37.5532;TJ-02;Khatlon Province;Shahrteppa
+0;69.3588,37.5431;TJ-02;Khatlon Province;Khavzako
+0;69.3409,37.5428;TJ-02;Khatlon Province;Qizilsu
+0;69.3782,37.5749;TJ-02;Khatlon Province;Namozjoy
+0;69.3418,37.6158;TJ-02;Khatlon Province;Tojikiston
+0;69.3598,37.6284;TJ-02;Khatlon Province;Navobodi Poyon
+0;69.4058,37.6380;TJ-02;Khatlon Province;Chorgul
+0;69.4460,37.6387;TJ-02;Khatlon Province;Saksanokhur
+0;69.4227,37.6126;TJ-02;Khatlon Province;Bobosafol
+0;69.4548,37.6407;TJ-02;Khatlon Province;Guliston
+0;69.4897,37.6271;TJ-02;Khatlon Province;Shurkŭl
+0;69.5606,37.6129;TJ-02;Khatlon Province;Metintŭqay
+0;69.6003,37.6197;TJ-02;Khatlon Province;Beshkappa
+0;69.5210,37.6596;TJ-02;Khatlon Province;Anjikron
+0;69.5971,37.6643;TJ-02;Khatlon Province;Marghob
+0;69.6044,37.6743;TJ-02;Khatlon Province;Pakhtakhor
+0;69.5640,37.6968;TJ-02;Khatlon Province;Guliston
+0;69.6019,37.6928;TJ-02;Khatlon Province;Taginomak
+0;69.5293,37.7154;TJ-02;Khatlon Province;Navobod
+0;69.5833,37.7413;TJ-02;Khatlon Province;Dŭstí
+0;69.5041,37.7454;TJ-02;Khatlon Province;Guliston
+0;69.5488,37.7261;TJ-02;Khatlon Province;Mehnatobod
+0;69.5730,37.7298;TJ-02;Khatlon Province;Guliston
+0;69.5569,37.7390;TJ-02;Khatlon Province;Arpatuguldy
+0;69.4844,37.7497;TJ-02;Khatlon Province;Chorvodoron
+0;69.5159,37.7936;TJ-02;Khatlon Province;Zafarabad
+0;69.5268,37.8213;TJ-02;Khatlon Province;Kaykidasht
+0;69.5512,37.8110;TJ-02;Khatlon Province;Fayzobod
+0;69.6046,37.8010;TJ-02;Khatlon Province;Vose’obod
+0;69.6268,37.8015;TJ-02;Khatlon Province;Mitin-Tugay
+0;69.5962,37.8077;TJ-02;Khatlon Province;Vose’obodi Kalon
+0;69.5982,37.8220;TJ-02;Khatlon Province;Gulobod
+0;69.5299,37.9914;TJ-02;Khatlon Province;Buloqdasht
+0;69.6078,37.9400;TJ-02;Khatlon Province;Guruldy
+0;69.5708,37.9540;TJ-02;Khatlon Province;Gurdara
+0;69.5613,37.8478;TJ-02;Khatlon Province;Oqjar
+0;69.5683,37.8708;TJ-02;Khatlon Province;Chukurak
+0;69.5695,37.8826;TJ-02;Khatlon Province;Kulbek
+0;69.5714,37.8919;TJ-02;Khatlon Province;Zardolubogh
+0;69.5199,37.8498;TJ-02;Khatlon Province;Gulobod
+0;69.5785,37.8470;TJ-02;Khatlon Province;Sariosiyë
+0;70.8327,38.4547;TJ-01;Gorno-Badakhshan;Ruzvay
+0;68.9899,37.3388;TJ-02;Khatlon Province;Gallabor
+0;68.4614,37.4008;TJ-02;Khatlon Province;Uchastok Vakhsh
+0;68.4891,37.4399;TJ-02;Khatlon Province;Brigada Vtoraya Uchastka Karla Marksa
+0;68.5771,37.4577;TJ-02;Khatlon Province;Besharyk
+0;68.6436,37.4110;TJ-02;Khatlon Province;Komsomol
+0;68.7253,37.3588;TJ-02;Khatlon Province;Mekhnat-Rokhat
+0;68.6007,37.4991;TJ-02;Khatlon Province;Novabad
+0;68.5729,37.4843;TJ-02;Khatlon Province;Pervoye Maya
+0;68.6333,37.3668;TJ-02;Khatlon Province;Peteul
+0;68.5310,37.4611;TJ-02;Khatlon Province;Uchastok Imeni Engel’sa
+0;68.6282,37.4536;TJ-02;Khatlon Province;Uchastok Imeni Krupskoy
+0;68.7343,37.3640;TJ-02;Khatlon Province;Novabad
+0;68.6689,37.4833;TJ-02;Khatlon Province;Madaniyat
+0;69.4304,40.4883;TJ-03;Sughd;Takelí
+0;68.8833,40.1500;TJ-03;Sughd;Login
+0;69.5333,40.5333;TJ-03;Sughd;Zyurunly
+2216;70.5660,40.2666;TJ-03;Sughd;Zarxoq
+0;68.8468,40.1760;TJ-03;Sughd;Zafarobod
+0;70.2614,40.7578;TJ-03;Sughd;Pongoz
+0;70.3769,40.5309;TJ-03;Sughd;Yertula
+0;69.5953,40.2651;TJ-03;Sughd;Yava
+0;69.1124,40.0342;TJ-03;Sughd;Yakhtan
+0;69.5496,40.1423;TJ-03;Sughd;Ŭzbekqishloq
+0;69.0644,40.0424;TJ-03;Sughd;Uyuly
+0;69.0352,40.0940;TJ-03;Sughd;Uyas
+0;69.6946,40.5597;TJ-03;Sughd;Utkansu
+0;69.7002,40.2831;TJ-03;Sughd;Unjí
+0;69.6140,40.5560;TJ-03;Sughd;Tokmak
+0;69.9226,40.6426;TJ-03;Sughd;Qaramazorsoí
+17600;69.6418,40.5702;TJ-03;Sughd;Istiqlol
+0;69.7304,40.2524;TJ-03;Sughd;Sirdaryo
+2900;70.5412,40.0461;TJ-03;Sughd;Shŭrob
+0;70.6500,40.7000;TJ-03;Sughd;Sasyk-Bulak
+0;69.6333,40.5833;TJ-03;Sughd;Sarym-Sakhly
+0;69.8623,40.3447;TJ-03;Sughd;Qal’ai Kohna
+0;70.3648,40.5375;TJ-03;Sughd;Ravot
+0;70.5564,40.3228;TJ-03;Sughd;Ravot
+0;70.6259,40.8684;TJ-03;Sughd;Pungan
+16441;69.5016,40.1671;TJ-03;Sughd;Proletar
+0;69.3017,40.4844;TJ-03;Sughd;Paldorak
+0;70.4505,40.3499;TJ-03;Sughd;Patar
+3288;69.7374,40.3163;TJ-03;Sughd;Palos
+8220;68.7466,40.1571;TJ-03;Sughd;Pakhtakoron
+0;70.4412,40.7360;TJ-03;Sughd;Oshoba
+0;70.4000,40.5333;TJ-03;Sughd;Oksukon
+0;70.5891,40.6922;TJ-03;Sughd;Appon
+0;69.3047,40.4278;TJ-03;Sughd;Obburdon
+0;70.2470,40.2320;TJ-03;Sughd;Niyozbek
+4603;70.5719,40.2152;TJ-03;Sughd;Neftobod
+877;70.4275,40.9983;TJ-03;Sughd;Navgarzan
+0;69.0500,40.0333;TJ-03;Sughd;Naugandy
+13833;69.3708,40.1522;TJ-03;Sughd;Nov
+0;70.1569,40.7303;TJ-03;Sughd;Mullomir
+0;68.9548,40.1985;TJ-03;Sughd;Mehnatobod
+0;69.3253,40.3681;TJ-03;Sughd;Mastchoh
+0;69.0103,39.9831;TJ-03;Sughd;Laqat
+0;70.8585,40.1733;TJ-03;Sughd;Lakkon
+0;69.3213,40.0595;TJ-03;Sughd;Langar
+0;69.2161,40.0606;TJ-03;Sughd;Kizilí
+0;70.6563,40.7037;TJ-03;Sughd;Qirqquduq
+3400;69.3796,40.5765;TJ-03;Sughd;Quruqsoy
+0;69.2589,40.1378;TJ-03;Sughd;Kurkat
+0;70.5806,40.9002;TJ-03;Sughd;Kŭprukboshí
+0;70.7020,40.1434;TJ-03;Sughd;Kulkent
+0;69.1326,40.1199;TJ-03;Sughd;Kul’
+0;70.3424,40.2475;TJ-03;Sughd;Kŭchkak
+0;68.9333,40.0833;TJ-03;Sughd;Koshkent
+1600;70.4688,40.2080;TJ-03;Sughd;Kim
+0;69.1499,40.0209;TJ-03;Sughd;Khushtoirijar
+191000;69.6222,40.2826;TJ-03;Sughd;Khujand
+0;69.4533,40.0730;TJ-03;Sughd;Pakhtakor
+49200;69.7959,40.2660;TJ-03;Sughd;Qayroqqum
+0;70.5637,40.7589;TJ-03;Sughd;Katta-Sarikamysh
+0;69.9612,40.6709;TJ-03;Sughd;Qaramazor
+0;70.3000,40.5500;TJ-03;Sughd;Karakon
+0;70.0665,40.2476;TJ-03;Sughd;Frunze
+6000;69.7024,40.4915;TJ-03;Sughd;Konsoy
+211100;70.4312,40.2941;TJ-03;Sughd;Konibodom
+0;70.4108,40.5753;TJ-03;Sughd;Qamishqŭrgon
+0;69.6740,40.1268;TJ-03;Sughd;Qal’acha
+0;69.7386,40.2398;TJ-03;Sughd;Isfisor
+274000;70.6253,40.1265;TJ-03;Sughd;Isfara
+0;69.4672,40.1566;TJ-03;Sughd;Ghŭlakandoz
+0;70.4939,40.8172;TJ-03;Sughd;Gudos
+0;69.7287,40.2157;TJ-03;Sughd;Ghafurov
+0;69.3500,40.3167;TJ-03;Sughd;Dzhumabazar
+0;69.5448,40.0681;TJ;;Dzhangyaul
+0;70.0436,40.6279;TJ-03;Sughd;Dolona
+0;69.6731,40.2044;TJ-03;Sughd;Dashtiamin
+0;70.6624,40.8511;TJ-03;Sughd;Dahanai Bolo
+0;70.2783,40.6461;TJ-03;Sughd;Dahana
+0;69.6693,40.3958;TJ-03;Sughd;Chorukhdarron
+0;69.8137,40.1992;TJ-03;Sughd;Qistaqŭz
+0;70.6230,40.0620;TJ-03;Sughd;Chorqishloq
+0;69.5004,40.6504;TJ-03;Sughd;Cholota
+0;69.8500,40.4833;TJ-03;Sughd;Chakadam-Bulak
+13043;69.3331,40.5229;TJ-03;Sughd;Bŭston
+0;70.4541,40.5982;TJ-03;Sughd;Buloq
+0;70.4500,40.5833;TJ-03;Sughd;Boshtal’
+0;70.2590,40.7216;TJ-03;Sughd;Bobodarkhon
+0;70.6153,40.8053;TJ-03;Sughd;Ashti Poyon
+11705;70.3502,40.6699;TJ-03;Sughd;Shaydon
+0;70.5844,40.1881;TJ-03;Sughd;Baland
+0;70.6722,40.1719;TJ-03;Sughd;Oftobrŭy
+0;69.4408,40.0714;TJ-03;Sughd;Andarsoy
+4823;69.5981,40.6542;TJ-03;Sughd;Oltintopkan
+0;69.4667,40.0167;TJ-03;Sughd;Ak-Tyube
+13372;69.9847,40.6493;TJ-03;Sughd;Adrasmon
+0;70.7317,40.1569;TJ-03;Sughd;Chilgazí
+0;69.3833,40.4167;TJ-03;Sughd;Yangibazar
+36900;69.6948,40.2342;TJ-03;Sughd;Buston
+0;69.8501,40.3372;TJ-03;Sughd;Yangikishlak
+0;70.4637,40.9738;TJ-03;Sughd;Galatan
+0;70.5046,40.9286;TJ-03;Sughd;Goj
+0;70.5730,40.9975;TJ-03;Sughd;Sarvaksoy
+0;70.4218,40.7554;TJ-03;Sughd;Olma
+0;70.3847,40.7985;TJ-03;Sughd;Shivar
+0;70.4022,40.7757;TJ-03;Sughd;Shivar
+0;70.4813,40.7874;TJ-03;Sughd;Oqsinjot
+0;70.5518,40.7591;TJ-03;Sughd;Sarqamish
+0;70.6101,40.7123;TJ-03;Sughd;Jida
+0;70.6403,40.7433;TJ-03;Sughd;Dŭstí
+0;70.7000,40.6902;TJ-03;Sughd;Yangiqishloq
+0;70.7095,40.7107;TJ-03;Sughd;Jarbuloq
+0;70.7280,40.7592;TJ-03;Sughd;Navbunyod
+0;70.7199,40.6835;TJ-03;Sughd;Qalam
+0;70.7031,40.6981;TJ-03;Sughd;Paxtakor
+0;70.7075,40.6861;TJ-03;Sughd;Sarvak
+0;70.7602,40.7124;TJ-03;Sughd;Mayshik
+0;70.7613,40.6977;TJ-03;Sughd;O‘zbekoqjar
+0;70.7255,40.6995;TJ-03;Sughd;Tojikoqjar
+0;70.5960,40.8218;TJ-03;Sughd;Ashti Bolo
+0;70.5736,40.8337;TJ-03;Sughd;Boboqir
+0;70.5423,40.8432;TJ-03;Sughd;Piskokat
+0;70.4671,40.8590;TJ-03;Sughd;Obiasht
+0;70.0500,38.4600;TJ;;Nurobod
+0;71.8500,38.0500;TJ;;Shugnan
+340;72.2200,37.2200;TJ-01;Gorno-Badakhshan;Roshtkala
+0;68.8300,38.4167;TJ;;Leninskiy Rayon
+0;71.8200,37.2670;TJ;;Roshtkala
+0;68.6000,38.0100;TJ;;Ghozimalik
+55;69.0995,39.1549;TJ-03;Sughd;Qůl
+0;69.2868,39.4169;TJ-03;Sughd;Mehron
+0;68.8446,38.5491;TJ-04;Dushanbe;Chanoro
+0;67.4912,39.4456;TJ-03;Sughd;Yamonkiya
+0;67.5131,39.4397;TJ-03;Sughd;Tegirmonteppa
+0;67.6678,39.2476;TJ-03;Sughd;Pushtiqŭrgon
+0;67.6444,39.2386;TJ-03;Sughd;Pŭligirdob
+0;67.7905,39.1991;TJ-03;Sughd;Hushyor
+0;67.7613,39.4169;TJ-03;Sughd;Novichomoq
+0;67.9723,39.4611;TJ-03;Sughd;Margedor
+0;67.7810,39.4841;TJ-03;Sughd;Dashtimalla
+0;67.7989,39.4942;TJ-03;Sughd;Qiziljar
+0;67.8008,39.2321;TJ-03;Sughd;Rashna
+0;67.8336,39.1918;TJ-03;Sughd;Raz
+0;67.8354,39.1491;TJ-03;Sughd;Bŭzinova
+0;67.8803,39.1423;TJ-03;Sughd;Tiogli
+0;67.9206,39.4489;TJ-03;Sughd;Navobad
+0;67.9553,39.4930;TJ-03;Sughd;Ziddí
+0;68.5914,40.1230;TJ-03;Sughd;Bakht
+0;68.6684,40.1426;TJ-03;Sughd;Guliston
+0;68.9071,40.0381;TJ-03;Sughd;Toshat
+0;69.0927,40.1922;TJ-03;Sughd;Jomí
+0;69.1349,40.1924;TJ-03;Sughd;Nayman
+0;69.2627,40.5534;TJ-03;Sughd;Tojikavul
+0;69.2760,40.5355;TJ-03;Sughd;Fotehobod
+0;69.3454,40.5652;TJ-03;Sughd;Yangiobod
+0;69.3483,40.5331;TJ-03;Sughd;Dehqonobod
+0;69.2589,40.1905;TJ-03;Sughd;Hashtyak
+0;69.2967,40.1676;TJ-03;Sughd;Mehnatobod
+0;69.3230,40.1202;TJ-03;Sughd;Tagoyak
+0;69.3263,40.0872;TJ-03;Sughd;Toshkŭpuk
+0;69.3070,40.0585;TJ-03;Sughd;Mehtar
+0;69.3269,40.0457;TJ-03;Sughd;Sangul
+0;69.0410,40.0537;TJ-03;Sughd;Parchayuz
+0;69.0492,40.0470;TJ-03;Sughd;Tŭqquzchalak
+0;69.0326,39.9668;TJ-03;Sughd;Madaniyat
+0;69.1044,39.9815;TJ-03;Sughd;Gul
+0;69.1370,39.9701;TJ-03;Sughd;Gazantarak
+0;69.1504,39.9436;TJ-03;Sughd;Yangiariq
+0;69.0415,39.8974;TJ-03;Sughd;Qal’achai Gulizard
+0;69.0271,39.8802;TJ-03;Sughd;Poshkent
+0;69.0248,39.8417;TJ-03;Sughd;Chavkandak
+0;69.1334,39.8890;TJ-03;Sughd;Kenagaz
+0;69.1477,39.8899;TJ-03;Sughd;Ŭrtaqŭrgon
+0;69.0864,39.8771;TJ-03;Sughd;Varsik
+0;69.0944,39.8644;TJ-03;Sughd;Chorbogh
+0;69.0551,39.7595;TJ-03;Sughd;Qal’achai Arbob
+0;69.0568,39.7801;TJ-03;Sughd;Demnora
+0;69.0496,39.7427;TJ-03;Sughd;Obiborik
+0;69.1166,39.7409;TJ-03;Sughd;Qal’ai Hochí
+0;69.1519,39.7326;TJ-03;Sughd;Qal’ai Dust
+0;69.1437,39.7034;TJ-03;Sughd;Yangiariqi Bolo
+0;69.0813,39.6923;TJ-03;Sughd;Surkhob
+0;69.0593,39.6862;TJ-03;Sughd;Surkhobcha
+0;69.0303,39.4085;TJ-03;Sughd;Shamtuch
+0;69.0900,39.3432;TJ-03;Sughd;Ronj
+0;69.0851,39.3234;TJ-03;Sughd;Imbef
+0;69.1073,39.3200;TJ-03;Sughd;Andervash
+0;69.1137,39.1985;TJ-03;Sughd;Kashi
+0;69.1359,39.1644;TJ-03;Sughd;Sokan
+0;69.1148,39.1509;TJ-03;Sughd;Dahana
+0;69.1920,39.1511;TJ-03;Sughd;Takob
+0;69.2301,39.1872;TJ-03;Sughd;Qirionte
+0;69.1981,39.3593;TJ-03;Sughd;Arnokhum
+0;69.2748,39.3358;TJ-03;Sughd;Ghuzn
+0;69.2508,39.3239;TJ-03;Sughd;Rezgif
+0;69.2779,39.3816;TJ-03;Sughd;Gaz
+0;69.2514,39.6151;TJ-03;Sughd;Khojametk
+0;69.2899,39.7427;TJ-03;Sughd;Muryak
+0;69.2108,39.8107;TJ-03;Sughd;Kŭchkina
+0;69.2500,39.8960;TJ-03;Sughd;Ambargazi Bolo
+0;69.2414,39.9203;TJ-03;Sughd;Ambargaz
+0;69.2742,39.9341;TJ-03;Sughd;Khabutak
+0;69.3651,39.4134;TJ-03;Sughd;Revomutk
+0;69.4068,39.4053;TJ-03;Sughd;Khudgifi
+0;69.4861,39.9625;TJ-03;Sughd;Qŭrghoncha
+0;69.4733,40.0061;TJ-03;Sughd;Oqteppa
+0;69.4013,40.1161;TJ-03;Sughd;Yangiobod
+0;69.4944,40.1446;TJ-03;Sughd;Yangiqishloq
+0;69.3758,40.1748;TJ-03;Sughd;Saidqŭrghon
+0;69.4203,40.1813;TJ-03;Sughd;Oqteppa
+0;69.4890,40.2011;TJ-03;Sughd;Qaznok
+0;69.4101,40.2435;TJ-03;Sughd;Oqtosh
+0;69.4768,40.2618;TJ-03;Sughd;Uchbogh
+0;69.5186,40.2144;TJ-03;Sughd;Dehmoí
+0;69.4092,40.3258;TJ-03;Sughd;Chengeldi
+0;69.4678,40.3771;TJ-03;Sughd;Kattaayry
+0;69.4564,40.3646;TJ-03;Sughd;Kichikayrí
+0;69.5202,40.4123;TJ-03;Sughd;Hulbabuloq
+0;69.4662,40.4992;TJ-03;Sughd;Qŭrghon
+0;69.4398,40.6102;TJ-03;Sughd;Avzikent
+0;69.4346,40.6609;TJ-03;Sughd;Qŭshquduq
+0;69.3808,40.6644;TJ-03;Sughd;Etimchuki
+0;69.5319,40.6875;TJ-03;Sughd;Sardob
+0;69.3860,40.6940;TJ-03;Sughd;Shakarbuloq
+0;69.4070,40.7226;TJ-03;Sughd;Quruqsoí
+0;69.5004,40.7165;TJ-03;Sughd;Qŭchkarli
+0;69.4977,40.7629;TJ-03;Sughd;Yangiqurulish
+0;69.5246,40.7543;TJ-03;Sughd;Chimbaylik
+0;69.5950,40.6820;TJ-03;Sughd;Qŭrghoncha
+0;69.6794,40.5850;TJ-03;Sughd;Taboshari Qŭhí
+0;69.5629,40.3992;TJ-03;Sughd;Qatorbuloq
+0;69.5987,40.4334;TJ-03;Sughd;Mirzorabot
+0;69.7124,40.4561;TJ-03;Sughd;Qŭrquduq
+0;69.6568,40.2961;TJ-03;Sughd;Qizilqishloq
+0;69.6083,40.1594;TJ-03;Sughd;Navobod
+0;69.6620,40.1500;TJ-03;Sughd;Moskva
+0;69.5962,40.1347;TJ-03;Sughd;Zarafshon
+0;69.5720,40.1106;TJ-03;Sughd;Selkan
+0;69.5571,39.4441;TJ-03;Sughd;Langar
+0;69.9658,39.4343;TJ-03;Sughd;Yarm
+0;69.7220,39.4494;TJ-03;Sughd;Valgond
+0;69.7552,39.4652;TJ-03;Sughd;Tabusht
+0;69.8300,40.1879;TJ-03;Sughd;Ariqi Yakŭm
+0;69.8766,40.1786;TJ-03;Sughd;Ariqi Duyum
+0;69.8096,40.2333;TJ-03;Sughd;Qataghan
+0;69.8166,40.2891;TJ-03;Sughd;Komsomolsk
+0;69.8341,40.3111;TJ-03;Sughd;Sultonobod
+0;69.9118,40.3654;TJ-03;Sughd;Uya
+0;69.7977,40.4441;TJ-03;Sughd;Quruqsoy
+0;69.7698,40.6030;TJ-03;Sughd;Kichikolichalí
+0;69.9182,40.6074;TJ-03;Sughd;Apon
+0;69.9044,40.6478;TJ-03;Sughd;Zambarak
+0;69.9106,40.6867;TJ-03;Sughd;Boshkuruq
+0;70.0182,40.5724;TJ-03;Sughd;Olmalí
+0;70.0097,40.4959;TJ-03;Sughd;Qarojingil
+0;69.9996,40.2369;TJ-03;Sughd;Jigdalik
+0;70.1953,39.4475;TJ-03;Sughd;Dehavo
+0;70.1303,40.2455;TJ-03;Sughd;Lohutí
+0;70.1872,40.2409;TJ-03;Sughd;Gagarin
+0;70.2263,40.2423;TJ-03;Sughd;Pakhtakor
+0;70.1789,40.7093;TJ-03;Sughd;Qŭlihojí
+0;70.2723,40.6983;TJ-03;Sughd;Qŭruq
+0;70.4698,40.6326;TJ-03;Sughd;Gulshan
+0;70.3980,40.3085;TJ-03;Sughd;Shahidqaroyantoq
+0;70.4083,40.3216;TJ-03;Sughd;Qŭrgoncha
+0;70.4508,40.3282;TJ-03;Sughd;Qizilnur
+0;70.3983,40.2636;TJ-03;Sughd;Togoyqŭychí
+0;70.3829,40.2514;TJ-03;Sughd;Shŭrqŭrgon
+0;70.2857,40.2218;TJ-03;Sughd;Madaniyat
+0;70.6311,40.0520;TJ-03;Sughd;Dostuk
+0;70.5994,39.9964;TJ-03;Sughd;Surkhi
+0;70.6213,40.0860;TJ-03;Sughd;Zumradshoh
+0;70.5780,40.1408;TJ-03;Sughd;Matpari
+0;70.5942,40.1769;TJ-03;Sughd;Arabqishloq
+0;70.6089,40.1772;TJ-03;Sughd;Qizilpilol
+0;70.5917,40.1935;TJ-03;Sughd;Khonobod
+0;70.5381,40.6079;TJ-03;Sughd;Ŭrmontol
+0;70.6350,40.1159;TJ-03;Sughd;Shahrak
+0;70.6517,40.1300;TJ-03;Sughd;Navgilem
+0;70.6595,40.1491;TJ-03;Sughd;Qŭshdevor
+0;70.8301,40.1915;TJ-03;Sughd;Dahana
+0;70.7433,38.7580;TJ-01;Gorno-Badakhshan;Chursoni Bolo
+0;70.4878,38.1215;TJ-01;Gorno-Badakhshan;Rohaq
+0;68.7525,38.0033;TJ-02;Khatlon Province;Jonbuloq
+0;68.8069,37.9892;TJ-02;Khatlon Province;Tojikiston
+0;68.7951,37.9239;TJ-02;Khatlon Province;Komsomol
+0;68.8692,37.9430;TJ-02;Khatlon Province;Yak May
+0;68.8829,37.9317;TJ-02;Khatlon Province;Navobod
+0;69.8287,38.0515;TJ-02;Khatlon Province;Sariyozi Bolo
+0;68.1158,37.2914;TJ-02;Khatlon Province;Lenin Kolkhoz
+0;68.2583,37.8951;TJ-02;Khatlon Province;Shŭrtŭqay
+0;68.0080,37.6142;TJ-02;Khatlon Province;Namozbuloq
+0;68.1580,37.7056;TJ-02;Khatlon Province;Malikobod
+0;68.1624,37.6916;TJ-02;Khatlon Province;Rŭdaqul
+0;68.1778,37.7583;TJ-02;Khatlon Province;Boghchigda
+0;68.1897,37.7901;TJ-02;Khatlon Province;Jailma
+0;71.5391,37.2021;TJ-01;Gorno-Badakhshan;Garmchashma
+0;71.5153,37.0410;TJ-01;Gorno-Badakhshan;Bagush
+0;71.5507,36.8385;TJ-01;Gorno-Badakhshan;Sumdzhin
+0;71.5530,36.8003;TJ-01;Gorno-Badakhshan;Abkharv
+0;71.6823,36.6791;TJ-01;Gorno-Badakhshan;Dashti Sulaymon
+0;71.8788,36.7142;TJ-01;Gorno-Badakhshan;Udim
+0;72.1908,36.9216;TJ-01;Gorno-Badakhshan;Zimudg
+0;72.3179,36.9823;TJ-01;Gorno-Badakhshan;Yamch
+0;72.5900,37.0187;TJ-01;Gorno-Badakhshan;Zugvand
+0;71.2802,37.9972;TJ-01;Gorno-Badakhshan;Kalom
+0;71.3858,37.9148;TJ-01;Gorno-Badakhshan;Vamd
+0;71.5024,37.9593;TJ-01;Gorno-Badakhshan;Barzud
+0;71.5957,37.8014;TJ-01;Gorno-Badakhshan;Pastbajuv
+0;71.7079,37.9922;TJ-01;Gorno-Badakhshan;Bagu
+0;71.7986,37.9537;TJ-01;Gorno-Badakhshan;Chadik
+0;71.8132,37.9310;TJ-01;Gorno-Badakhshan;Barukhtin
+0;72.6242,38.3993;TJ-01;Gorno-Badakhshan;Bopasor
+0;71.7487,37.3145;TJ-01;Gorno-Badakhshan;Parzudzh
+0;71.7929,37.2730;TJ-01;Gorno-Badakhshan;Andzhin
+0;71.8533,37.1952;TJ-01;Gorno-Badakhshan;Bidizi Bolo
+0;72.0040,37.2416;TJ-01;Gorno-Badakhshan;Poded
+0;71.9850,37.1936;TJ-01;Gorno-Badakhshan;Shohirizm
+0;71.9665,37.1340;TJ-01;Gorno-Badakhshan;Bachom
+0;72.2532,37.1995;TJ-01;Gorno-Badakhshan;Diyor
+0;72.0676,37.2130;TJ-01;Gorno-Badakhshan;Virang
+0;70.2652,38.1859;TJ-02;Khatlon Province;Langardara
+0;73.7257,37.9622;TJ-01;Gorno-Badakhshan;Oq-Arkhar
+0;68.2688,37.8925;TJ-02;Khatlon Province;Chuqurlitagoy
+0;68.1428,37.6091;TJ-02;Khatlon Province;Chimgilich
+0;68.1360,37.5511;TJ-02;Khatlon Province;Chinortŭgay
+0;68.1478,37.5189;TJ-02;Khatlon Province;Zarkamar
+0;68.1672,37.4916;TJ-02;Khatlon Province;Hasht Marta Kolkhoz
+0;68.5379,37.5071;TJ-02;Khatlon Province;Pakhtakor
+0;68.5591,37.5350;TJ-02;Khatlon Province;Mirovoy Oktyabr
+0;68.5750,37.5742;TJ-02;Khatlon Province;Shŭro
+22100;68.5809,37.6093;TJ-02;Khatlon Province;Moskovskiy
+0;68.5998,37.5636;TJ-02;Khatlon Province;Ayni
+0;68.3190,37.7472;TJ-02;Khatlon Province;Kungradaril
+0;68.4227,37.5941;TJ-02;Khatlon Province;Achisel
+0;68.4422,37.6158;TJ-02;Khatlon Province;Navobod
+0;68.3996,37.5389;TJ-02;Khatlon Province;Oykhotun
+0;68.4848,37.5529;TJ-02;Khatlon Province;Nuri Vakhsh
+0;71.6322,37.4059;TJ-01;Gorno-Badakhshan;Krijist
+0;72.3386,37.7009;TJ-01;Gorno-Badakhshan;Abŭalí Sino
+0;72.2025,37.7064;TJ-01;Gorno-Badakhshan;Patkhor
+0;71.9778,37.7234;TJ-01;Gorno-Badakhshan;Zuvor
+0;71.9217,37.6974;TJ-01;Gorno-Badakhshan;Dehmiyona
+0;71.8065,37.6572;TJ-01;Gorno-Badakhshan;Mun
+0;71.7358,37.4990;TJ-01;Gorno-Badakhshan;Barde
+0;71.6883,37.5426;TJ-01;Gorno-Badakhshan;Manem
+0;71.5055,37.3093;TJ-01;Gorno-Badakhshan;Shichoghz
+0;71.5018,37.3223;TJ-01;Gorno-Badakhshan;Nishusp
+0;71.5078,37.5241;TJ-01;Gorno-Badakhshan;Tem
+0;71.5142,37.5636;TJ-01;Gorno-Badakhshan;Pashor
+0;71.5301,37.6435;TJ-01;Gorno-Badakhshan;Diryomj
+0;71.5490,37.7441;TJ-01;Gorno-Badakhshan;Choshtgandez
+0;68.6323,37.9229;TJ-02;Khatlon Province;Hayotinav
+0;68.5725,37.9060;TJ-02;Khatlon Province;Tomchí
+0;68.8096,37.8141;TJ-02;Khatlon Province;Havaskor
+0;68.7423,37.8580;TJ-02;Khatlon Province;Qahramon
+0;68.7704,37.8653;TJ-02;Khatlon Province;Budyoniy
+0;68.6623,37.8201;TJ-02;Khatlon Province;Frunze
+0;68.6800,37.7922;TJ-02;Khatlon Province;Hosilot
+0;68.7680,37.7156;TJ-02;Khatlon Province;Navraftor
+0;68.7175,37.7978;TJ-02;Khatlon Province;Yangiyŭl
+0;68.8855,37.8366;TJ-02;Khatlon Province;Bohturobod
+0;68.9292,37.9082;TJ-02;Khatlon Province;Ustotoymas
+0;68.9619,37.9928;TJ-02;Khatlon Province;Zaghirtut
+0;68.8405,37.6935;TJ-02;Khatlon Province;Rŭdakí
+0;68.8255,37.6788;TJ-02;Khatlon Province;Sovetobod
+0;68.6880,37.7265;TJ-02;Khatlon Province;Karolang
+0;68.7469,37.6646;TJ-02;Khatlon Province;Yangiobod
+0;68.9870,37.6438;TJ-02;Khatlon Province;Toshrabot
+0;68.8843,37.7426;TJ-02;Khatlon Province;Yangiyor
+0;68.8387,37.7529;TJ-02;Khatlon Province;Baynalminal
+0;68.9098,37.7718;TJ-02;Khatlon Province;Oqgaza
+0;68.6473,37.5696;TJ-02;Khatlon Province;Ėngels
+0;68.6279,37.5209;TJ-02;Khatlon Province;Qahramon
+0;68.7781,37.4990;TJ-02;Khatlon Province;Kirov
+0;68.6367,37.7265;TJ-02;Khatlon Province;Navobod
+0;68.6450,37.7036;TJ-02;Khatlon Province;Chapaev
+0;68.7608,37.6115;TJ-02;Khatlon Province;Qazakobod
+0;68.8022,37.6021;TJ-02;Khatlon Province;Leningrad
+0;68.7740,37.5605;TJ-02;Khatlon Province;Qizil Oktyabr
+0;69.2079,38.4675;TJ-02;Khatlon Province;Qishnova
+0;69.1997,38.4492;TJ-02;Khatlon Province;Khujaloní
+0;69.3865,38.3615;TJ-02;Khatlon Province;Chruch
+0;69.8756,38.2486;TJ-02;Khatlon Province;Lohusí
+0;68.4167,37.1833;TJ;;Shirkhon Bander
+0;69.8984,38.2953;TJ;;Lahhuty
+0;70.4564,40.3365;TJ-03;Sughd;Do‘sti
+0;70.4863,40.3107;TJ-03;Sughd;G‘allachamulla
+0;70.4609,40.2943;TJ-03;Sughd;Po‘loton
+0;70.4277,40.3255;TJ-03;Sughd;Inqilob
+0;70.4308,40.3142;TJ-03;Sughd;Sarikuy
+0;70.4200,40.2815;TJ-03;Sughd;Firuzoba
+0;70.4143,40.2931;TJ-03;Sughd;Quyiqoziyon
+0;70.3858,40.2819;TJ-03;Sughd;Tutikavola
+0;70.3091,40.2726;TJ-03;Sughd;Qorayantoq
+0;70.3324,40.2676;TJ-03;Sughd;Bekobod
+0;70.3181,40.2625;TJ-03;Sughd;Dashtiqorayantoq
+0;70.3554,40.2493;TJ-03;Sughd;Xamirjuy
+0;70.4139,40.3142;TJ-03;Sughd;Qayrog‘och
+0;70.6063,40.1501;TJ-03;Sughd;Birinchi May
+0;70.6228,40.1416;TJ-03;Sughd;Gumbazi
+0;70.6359,40.1565;TJ-03;Sughd;Sho‘rtang
+0;70.8656,40.1670;TJ-03;Sughd;Chon-Talaa
+0;70.7813,40.1611;TJ-03;Sughd;Bog‘dori
+0;68.8234,40.1497;TJ-03;Sughd;Qipchoq
+0;68.8718,40.1944;TJ-03;Sughd;Oktyabr
+0;68.1731,37.3550;TJ-02;Khatlon Province;Kaloi
+0;68.1256,37.6179;TJ-02;Khatlon Province;Sultonobod
+0;68.4230,38.5921;TJ-RR;Republican Subordination;Xoj
+0;70.7139,40.7340;TJ-03;Sughd;Yangiobod
+0;70.6497,40.9269;TJ-03;Sughd;Sarvaki Bolo
+0;70.4984,41.0233;TJ;;Tektosh Tog‘lari
+0;69.0656,38.5146;TJ;;Gurkhurda
+0;70.7927,39.0501;TJ-RR;Republican Subordination;Ganishob
+0;71.5226,37.5848;TJ-01;Gorno-Badakhshan;Vahdat
+0;68.6391,39.3858;TJ-03;Sughd;Tomin
+0;68.7844,38.6060;TJ-04;Dushanbe;Mahallai Firuz
+0;68.7893,38.6037;TJ-04;Dushanbe;Mahallai Firdavsi
+0;68.7824,38.6113;TJ-04;Dushanbe;Mahallai Guliston
+0;68.7766,38.6182;TJ-04;Dushanbe;Mahallai Osimi
+0;68.7892,38.6161;TJ-04;Dushanbe;Amirshoev
+0;68.7836,38.6241;TJ-04;Dushanbe;Mahallai Chashmasor
+0;68.7777,38.6028;TJ-04;Dushanbe;Zargar
+0;68.7713,38.5945;TJ-04;Dushanbe;Buni Hisorak
+0;68.7583,38.5926;TJ-04;Dushanbe;Navobodi Poyon
+0;68.7596,38.5867;TJ-04;Dushanbe;Dehi Bolo
+0;68.7612,38.5807;TJ-04;Dushanbe;Sharaf
+0;68.7513,38.5802;TJ-04;Dushanbe;Mikrorayoni hashtodu yak
+0;68.7681,38.5701;TJ-04;Dushanbe;Movarounnahr
+0;69.0556,39.7082;TJ-03;Sughd;Navobod
+0;68.6320,37.6806;TJ-02;Khatlon Province;Ŭrtabuz
+4029;68.9899,38.5557;TJ-RR;Republican Subordination;Shhriston
+0;68.7124,38.4612;TJ-RR;Republican Subordination;Daryoobod
+0;68.7194,38.4772;TJ-RR;Republican Subordination;Hosilot
+0;68.6936,38.4821;TJ-RR;Republican Subordination;Hazora
+0;68.6816,38.4852;TJ-RR;Republican Subordination;Safobakhsh
+0;68.6963,38.4970;TJ-RR;Republican Subordination;Mahmadshoi Bolo
+8000;68.4605,37.5475;TJ-02;Khatlon Province;20-solagii Istiḳlolijati Toçikiston
+0;70.4440,40.3312;TJ-03;Sughd;Melnikovo
+0;70.5877,39.8471;TJ-03;Sughd;Woruch

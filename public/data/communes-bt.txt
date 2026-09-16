@@ -1,0 +1,253 @@
+0;90.6922,27.1452;BT;;Zarāfi
+0;89.8667,27.5167;BT;;Yuwak
+0;91.6333,27.4333;BT;;Yālang
+8954;89.8992,27.4861;BT-22;Wangdi Phodrang;Wangdue Phodrang
+0;90.7333,27.5500;BT;;Wangchukling
+0;89.7667,27.2500;BT;;Usak
+2288;90.9167,27.4167;BT-05;Bumthang District;Ura
+0;91.3667,26.9500;BT;;Tungka La
+0;91.2333,27.7500;BT;;Tse Kang
+0;90.4667,27.4833;BT;;Tsangka
+0;91.3204,27.9273;BT;;Tosumani
+0;91.1000,27.4833;BT-11;Lhuntse;Tormoshangsa
+2805;90.5072,27.5026;BT-21;Tongsa;Trongsa
+0;91.2167,27.1333;BT;;Tongla Kenga
+0;91.5000,27.7167;BT-11;Lhuntse;Tobrang
+0;89.0333,27.1667;BT;;Tima
+0;91.0833,27.8167;BT-11;Lhuntse;Khenpa Dzong
+0;89.9667,26.9833;BT;;Thumgaon
+98676;89.6419,27.4661;BT-20;Thimphu District;Thimphu
+0;91.2667,27.2667;BT;;Thebong
+0;88.8833,27.1333;BT;;Tendu
+0;92.0167,26.9833;BT;;Tashtanje
+3025;91.4980,27.6116;BT-24;Trashi Yangste;Trashi Yangtse
+872;91.5542,27.3331;BT-19;Trashigang District;Trashigang
+600;89.6167,27.4833;BT;;Tashi Chho Dzong
+0;91.4267,27.7367;BT;;Taripe
+0;90.4333,27.4333;BT;;Tangsebi
+0;89.6333,27.8000;BT;;Tamji
+0;89.9000,27.6667;BT;;Tamjee
+0;89.5667,26.8667;BT;;Tāla
+2243;89.8769,27.0753;BT-08;Dagana;Daga
+0;90.9833,26.8667;BT;;Sufali
+0;89.4500,27.2333;BT;;Suchha
+0;89.0833,27.1667;BT-10;Haa;Sangbay
+0;91.3500,27.9167;BT-11;Lhuntse;Singye Dzong
+0;90.7500,27.5000;BT;;Shuri
+0;91.0833,27.2500;BT-12;Mongar;Shongar Dzong
+0;89.4500,27.7667;BT;;Shodug
+0;89.0253,27.1768;BT-10;Haa;Shiuji
+0;89.2667,27.6167;BT;;Shingkarap
+0;91.6167,27.9333;BT;;Shingbe
+0;90.0000,27.6667;BT;;Shegaria
+0;89.0167,27.4167;BT;;Sharithang
+0;91.4667,27.6500;BT;;Shapang
+852;90.6579,27.2169;BT-18;Zhemgang District;Shemgang
+0;91.5667,27.4833;BT;;Shali
+0;91.1167,27.7333;BT;;Shabling
+0;91.0167,27.3667;BT;;Sengor
+0;90.2000,27.3667;BT;;Sawaphu
+0;91.2947,27.7890;BT;;Sawang
+0;91.4333,27.1333;BT;;Sassi
+0;90.8667,27.7500;BT;;Sasoka
+10416;90.2674,26.8639;BT-09;Sarpang District;Sarpang
+0;89.3167,27.3000;BT;;Sangkari
+0;90.6167,27.3000;BT;;Sānchi
+0;91.3833,27.5833;BT;;Sana
+0;89.9792,27.5179;BT;;Samtengang
+0;90.5000,27.4000;BT-21;Tongsa;Samdrup Choling
+0;91.8667,27.3833;BT-19;Trashigang District;Sakteng
+0;90.9333,27.8333;BT;;Saidu
+0;91.6667,27.3500;BT;;Rungzyung
+0;90.1667,27.5500;BT;;Ritang
+0;90.5167,27.8833;BT;;Rife
+0;89.2833,27.1000;BT;;Rapley
+0;89.5333,27.3000;BT;;Raga
+0;91.4667,26.9667;BT;;Rading
+21500;89.8774,27.5914;BT-15;Punakha;Punākha
+0;89.9500,27.1167;BT;;Pinsoperi
+0;90.9833,27.5667;BT;;Pimi
+0;90.9833,26.9333;BT;;Pieksao
+27658;89.3884,26.8516;BT-06;Chukha;Phuntsholing
+0;90.1101,26.7537;BT;;Phisugaon
+0;90.0500,26.7167;BT-09;Sarpang District;Pinkhua
+11448;89.4133,27.4305;BT-13;Paro;Paro
+0;90.8167,26.9500;BT-18;Zhemgang District;Pangkha
+3032;89.8833,27.5333;BT-15;Punakha;Pajo
+0;89.3500,26.9000;BT;;Pachu
+0;91.8000,27.1833;BT;;Ningsang La
+0;90.9388,27.2084;BT;;Nimgong
+0;90.0882,26.8831;BT;;Niche Kālikhola
+0;91.5833,27.4500;BT;;Ngālangkang
+0;90.7167,27.6833;BT;;Naspe
+0;90.4000,27.3333;BT;;Namtir
+0;89.2667,27.3833;BT;;Naktsang
+0;91.2667,26.9000;BT;;Naitola
+0;90.4333,27.5833;BT;;Nab Chöte
+0;91.1667,27.3833;BT;;Monka
+2969;91.2396,27.2747;BT-12;Mongar;Mongar
+0;89.8500,26.9167;BT;;Momai Thāng
+0;89.1167,27.1333;BT;;Mochhu
+0;90.4018,27.0259;BT;;Māogaon
+0;90.1000,27.5333;BT;;Manikyangsa
+0;90.1833,27.6333;BT;;Lung Chen
+0;91.9333,27.1000;BT;;Louri
+0;89.5500,27.1500;BT;;Lobnig
+1935;91.1839,27.6679;BT-11;Lhuntse;Lhuentse
+0;90.6921,27.9500;BT-05;Bumthang District;Lhedang
+0;91.5000,27.8167;BT;;Lao
+0;90.5667,27.3333;BT;;Lamti
+0;90.1333,26.9500;BT;;Lāmedāda
+0;89.5500,27.2000;BT-06;Chukha;Chapchha
+0;91.0500,27.5333;BT;;Kungtar
+0;90.0000,27.2500;BT;;Kisona
+0;89.6167,26.9000;BT;;Khitokha
+0;91.3500,27.0000;BT;;Khar
+0;91.2870,27.1140;BT;;Kengkhar
+0;89.7167,27.7500;BT;;Kencho
+0;89.2500,27.4167;BT;;Kechungka
+0;91.7333,27.1667;BT;;Kangpar
+0;89.9607,27.2498;BT;;Kamganka
+0;90.4667,27.5333;BT;;Kagha
+0;88.9833,27.4000;BT;;Hlāri
+9858;90.4878,26.8683;BT-09;Sarpang District;Geylegphug
+0;90.0333,27.1833;BT;;Harācha
+1449;89.2807,27.3875;BT-10;Haa;Ha
+0;90.6333,27.5167;BT;;Gyetsa
+0;90.7667,27.0833;BT;;Gönphu
+0;90.4333,27.0333;BT;;Gongchuāndgaon
+0;89.8572,26.9095;BT;;Gnimthenla
+0;89.9683,27.3737;BT;;Giala
+0;91.5667,27.4000;BT;;Ghunkarah
+0;89.8000,27.3333;BT;;Gasila
+548;89.7269,27.9037;BT-23;Gasa;Gasa
+0;90.5333,27.0000;BT;;Galechugaon
+0;88.8833,27.1000;BT-16;Samtse District;Dzongsa Dzong
+0;89.4000,27.0333;BT-06;Chukha;Dungna
+0;89.6333,27.5833;BT;;Dotanang
+0;89.8126,26.8320;BT;;Doronagaon
+0;89.2000,27.2000;BT;;Doring
+0;91.2244,27.6392;BT;;Donkar
+0;91.0667,27.0667;BT;;Domka
+0;91.1387,27.9485;BT;;Dogsar
+0;91.9833,27.0500;BT;;Diptsang
+0;90.6699,27.6151;BT;;Dhur
+0;90.1167,26.9667;BT;;Dhāje
+0;91.4667,26.8667;BT-17;Samdrup Jongkhar;Dewāngiri
+0;89.2500,27.0167;BT;;Denchukha
+0;91.4500,27.3000;BT-12;Mongar;Dametsi
+1666;89.3833,26.9667;BT-06;Chukha;Daphu
+0;89.7667,27.1167;BT;;Dam
+0;89.3000,27.5333;BT;;Chuyul
+0;91.4167,27.0500;BT;;Chungkar
+22376;90.1229,27.0219;BT-07;Tsirang District;Tsirang
+0;90.0000,27.5500;BT;;Chilo
+2855;89.5360,27.0989;BT-06;Chukha;Tsimasham
+0;90.3333,27.4500;BT;;Chendebi
+0;90.2833,27.5000;BT;;Chemaito
+0;90.4667,27.4000;BT;;Changra
+0;90.3500,27.1333;BT-09;Sarpang District;Changchukha Dzong
+0;89.1000,26.9000;BT;;Chamarchi
+0;89.8667,27.0833;BT;;Chalaika
+0;89.4500,27.7667;BT;;Byaradingka
+0;90.7167,27.5500;BT-05;Bumthang District;Byakar Dzong
+0;90.2167,27.0000;BT;;Buri Chu
+0;90.8167,27.6000;BT;;Bumtang Tang
+0;90.3000,27.0500;BT;;Bitana
+0;90.9167,26.9000;BT;;Bioka
+0;90.4333,26.9000;BT;;Bhurgaon
+0;90.3000,27.2667;BT;;Bhangbārai
+0;90.2333,27.0333;BT;;Beteni
+0;89.5500,27.7000;BT;;Barshong
+0;90.5624,27.3666;BT;;Bali
+0;91.5000,27.2167;BT;;Balfai
+0;89.8167,26.9833;BT;;Bachāp
+0;89.9021,27.3531;BT;;Ama
+0;89.9667,27.3500;BT;;Alla
+0;89.4333,27.9167;BT-20;Thimphu District;Lingshi
+6243;90.7525,27.5492;BT-05;Bumthang District;Jakar
+0;90.7000,27.6167;BT-05;Bumthang District;Kurjey
+0;90.8833,27.6000;BT-05;Bumthang District;Nangnang
+0;90.1667,27.5000;BT-22;Wangdi Phodrang;Gangtey Gonpa
+0;90.5167,26.7833;BT-09;Sarpang District;Lalai
+1360;90.9833,26.8667;BT-18;Zhemgang District;Panbang
+707;91.2500,26.7833;BT-17;Samdrup Jongkhar;Nganglam
+0;90.8500,26.7167;BT-09;Sarpang District;Kalikhola
+5396;89.0995,26.8990;BT-16;Samtse District;Samtse
+0;89.0410,26.9350;BT-16;Samtse District;Chengmari
+0;89.2167,27.0167;BT-16;Samtse District;Dorokha
+0;88.9000,26.9972;BT-08;Dagana;Sibsu
+0;90.1000,27.0167;BT-07;Tsirang District;Damphu
+0;90.1000,26.9667;BT-07;Tsirang District;Lamidangra
+0;89.9500,26.9333;BT-07;Tsirang District;Dagapela
+0;91.6833,27.3667;BT-19;Trashigang District;Radi
+0;91.1667,27.1833;BT-12;Mongar;Gyepozhing
+0;91.6167,27.1333;BT-19;Trashigang District;Thrimshing
+416;91.5667,27.0667;BT-19;Trashigang District;Wamrong
+13864;91.4030,27.0379;BT-14;Pemagatshel;Pemagatshel
+0;90.0667,27.7500;BT-22;Wangdi Phodrang;Tseshinang
+0;89.9167,27.6667;BT-15;Punakha;Dawakha
+0;89.3333,27.5000;BT-13;Paro;Drugyel Dzong
+0;89.3500,27.4167;BT-10;Haa;Damthang
+0;89.5226,27.4688;BT-13;Paro;Tshalunang
+0;89.4000,27.4833;BT-13;Paro;Atsho Chhubar
+662;92.1000,26.9000;BT-17;Samdrup Jongkhar;Daifam
+656;91.7167,26.8167;BT-17;Samdrup Jongkhar;Bhangtar
+9325;91.5052,26.8007;BT-17;Samdrup Jongkhar;Samdrup Jongkhar
+2000;89.6826,28.0613;BT-23;Gasa;Laya
+0;90.2323,28.2999;BT-15;Punakha;Lunana
+0;89.0836,26.9131;BT-16;Samtse District;Samtse
+0;90.2167,27.5500;BT-22;Wangdi Phodrang;Pele La
+0;91.5400,27.2900;BT-19;Trashigang District;Kanglung
+1447;91.1749,27.4431;BT-11;Lhuntse;Autsho
+0;89.3427,27.2617;BT-10;Haa;Shari
+0;89.8855,27.5227;BT-20;Thimphu District;Lobeysa
+0;89.3841,26.8656;BT-06;Chukha;Phuentsholing
+0;89.4313,27.3889;BT-13;Paro;Paro populated 1
+0;89.4274,27.3862;BT-13;Paro;Paro Populated2
+0;89.4252,27.3907;BT-13;Paro;Paro Populated3
+0;89.4340,27.3890;BT-13;Paro;Paro Populated4
+0;89.1827,27.0455;BT-16;Samtse District;Dūmte
+0;89.1526,27.1794;BT-10;Haa;Hingslo
+0;89.8696,27.6568;BT-10;Haa;Bumtaka
+0;89.9848,26.9727;BT;;Gipsa
+0;90.1037,27.5538;BT;;Rachau
+0;90.1601,27.4790;BT;;Yekho
+0;90.2738,27.5156;BT;;Rukubji
+0;90.4448,27.5673;BT;;Chela
+0;90.8918,27.6244;BT;;Gāmling
+0;90.9035,27.4790;BT;;Shingkhar
+0;90.5776,27.2572;BT;;Pangsu
+0;90.5573,27.0149;BT;;Chungsing
+0;90.0756,27.0201;BT;;Majgaon
+0;90.5034,26.8636;BT;;Nepāltārgaon
+0;90.4047,26.9299;BT;;Dumegaon
+0;90.2885,26.9545;BT;;Ajingregaon
+0;90.1900,26.8197;BT;;Sāmātung
+0;91.9080,27.1258;BT;;Momring
+0;91.5849,27.1980;BT;;Kho Ling
+0;91.4307,27.1152;BT;;Pangthāng
+0;91.5067,27.6069;BT;;Jimkhār
+0;91.6086,27.3906;BT;;Jam Khar
+0;91.6445,27.3392;BT;;Ga Ling
+0;91.7090,27.7323;BT-24;Trashi Yangste;Drakhāng
+0;92.2160,27.6928;BT-19;Trashigang District;Māgo
+0;92.4052,27.5980;BT;;Gorjo
+0;92.1526,27.0378;BT-19;Trashigang District;Ānkāling
+0;91.2484,26.8177;BT-17;Samdrup Jongkhar;Nganglam New
+0;89.5415,27.0860;BT-06;Chukha;Tsimalakha
+0;89.5415,27.0860;BT-06;Chukha;Tshimalakha
+0;89.5497,26.8500;BT-06;Chukha;Dala
+0;90.5319,27.4023;BT-21;Tongsa;Bubja
+0;89.6444,27.4682;BT-20;Thimphu District;Lungtenzampa
+0;91.5000,26.8900;BT-17;Samdrup Jongkhar;Deothang
+0;89.6502,27.4328;BT-20;Thimphu District;Babesa
+0;90.6800,27.1500;BT-18;Zhemgang District;Tingtibi
+0;90.8064,27.0411;BT-18;Zhemgang District;Praling
+2855;89.5605,27.0627;BT-06;Chukha;Mebisa
+0;89.8000,26.7569;BT-09;Sarpang District;Lhamoy Zingkha Gewog
+0;91.5650,27.4257;BT-19;Trashigang District;Gomkora
+0;90.5159,27.4107;BT-21;Tongsa;Kungarapten
+100;89.9003,27.4150;BT-22;Wangdi Phodrang;Bjimthangkha
+0;91.5090,27.4070;BT-24;Trashi Yangste;Jamkhar Gewog
+0;89.0060,26.9485;BT-16;Samtse District;Ugentse

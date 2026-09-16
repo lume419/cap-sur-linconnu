@@ -1,0 +1,119 @@
+0;72.8959,5.4860;MV-44;Raa Atoll;Maduvvari
+1726;73.2333,-0.5833;MV-01;Seenu;Meedhoo
+103693;73.5092,4.1752;MV-38;Kaafu Atoll;Male
+9927;73.0833,-0.6000;MV-01;Seenu;Hithadhoo
+0;73.1756,6.7649;MV-37;Haa Dhaalu Atholhu;Hanimaadhoo
+0;73.1500,-0.7000;MV-01;Seenu;Gan
+0;73.0125,5.7645;MV-44;Raa Atoll;Hulhudhuffaaru
+2156;72.9689,3.7571;MV-10346475;Southern Ari Atoll;Mahibadhoo
+2808;73.0708,5.1033;MV-31;Baa Atholhu;Eydhafushi
+1562;72.8944,2.6707;MV-32;Dhaalu Atholhu;Kudahuvadhoo
+453;72.9649,3.0792;MV-33;Faafu Atholhu;Magoodhoo
+2925;73.4330,0.7591;MV-34;Gaafu Alif Atoll;Viligili
+6376;72.9997,0.5306;MV-35;Gaafu Dhaalu Atoll;Thinadhoo
+11140;73.4240,-0.2988;MV-42;Gnyaviyani Atoll;Fuvahmulah
+3039;73.1140,6.8874;MV-36;Haa Alifu Atholhu;Dhihdhoo
+9500;73.0700,6.6221;MV-37;Haa Dhaalu Atholhu;Kulhudhuffushi
+448;73.1185,6.7018;MV-37;Haa Dhaalu Atholhu;Nolhivaranfaru
+683;73.3882,1.7967;MV-05;Laamu;Hithadhoo
+5044;73.3657,5.4444;MV-39;Faadhippolhu Atoll;Naifaru
+1008;73.5811,2.9217;MV-41;Meemu Atholhu;Muli
+1580;73.4136,5.7669;MV-43;Noonu Atoll;Manadhoo
+1575;73.0302,5.6681;MV-44;Raa Atoll;Un’goofaaru
+2900;73.2901,6.1509;MV-45;Shaviyani Atholhu;Funadhoo
+1100;73.0956,2.1877;MV-46;Thaa Atholhu;Veymandoo
+541;73.5470,3.4718;MV-47;Vaavu Atholhu;Felidhoo
+0;73.0821,6.6658;MV-37;Haa Dhaalu Atholhu;Nolhivaram
+0;72.7964,3.4841;MV-10346475;Southern Ari Atoll;Nalaguraidhu
+0;72.9540,3.8496;MV-10346475;Southern Ari Atoll;Vilamendhoo
+0;73.0366,3.2138;MV-33;Faafu Atholhu;Filitheyo Island
+0;73.5389,2.8538;MV-41;Meemu Atholhu;Hakuraa Huraa
+0;73.5753,2.8843;MV-41;Meemu Atholhu;Medhufushi
+0;73.4918,4.2697;MV-38;Kaafu Atoll;Bodubados
+0;73.4142,4.5903;MV-38;Kaafu Atoll;Eriyadu
+0;73.5473,4.2495;MV-38;Kaafu Atoll;Furanafushi
+0;73.5918,4.3183;MV-38;Kaafu Atoll;Kanu Huraa
+0;73.5540,4.2853;MV-38;Kaafu Atoll;Lankan Finolhu
+0;73.7169,4.4535;MV-38;Kaafu Atoll;Meerufenfushi
+0;73.4876,4.3115;MV-38;Kaafu Atoll;Thulhaagiri
+0;73.5199,4.2264;MV-38;Kaafu Atoll;Vihamanaafushi
+0;73.3725,4.5335;MV-38;Kaafu Atoll;Ziyaaraiyfushi
+500;72.9829,4.2588;MV-30;Northern Ari Atoll;Kuramathi
+0;73.5123,4.0834;MV-38;Kaafu Atoll;Eboodhoo
+0;73.5252,4.1034;MV-38;Kaafu Atoll;Eboodhoofinolhu
+5000;73.5401,4.2117;MV-38;Kaafu Atoll;Hulhumale
+0;73.5000,4.4167;MV;;Thamburudhoo
+0;73.5447,1.9232;MV-05;Laamu;Gan
+0;73.5369,1.9873;MV-05;Laamu;Kalhaidhoo
+1773;73.5026,1.8324;MV-05;Laamu;Fonadhoo
+0;73.4497,1.8188;MV-05;Laamu;Gaadhoo
+0;73.3892,1.8168;MV-05;Laamu;Maamendhoo
+0;73.3674,1.7828;MV-05;Laamu;Kunahandhoo
+0;73.2440,1.8854;MV-05;Laamu;Maavah
+0;73.5614,2.1142;MV-05;Laamu;Isdhoo
+0;73.5461,2.0959;MV-05;Laamu;Dhanbidhoo
+0;73.5344,2.0142;MV-05;Laamu;Mundoo
+0;73.5326,2.0291;MV;;Maabaidhoo
+0;73.2279,-0.5928;MV-01;Seenu;Hulhudhoo
+0;72.8398,5.0224;MV-31;Baa Atholhu;Thulhaadhoo
+0;72.9230,5.0060;MV-31;Baa Atholhu;Hithaadhoo
+0;73.1082,5.1344;MV-31;Baa Atholhu;Maalhos
+0;73.1326,5.1582;MV-31;Baa Atholhu;Dharavandhoo
+0;73.1232,5.1879;MV-31;Baa Atholhu;Dhonfanu
+0;73.1252,5.2150;MV-31;Baa Atholhu;Kihaadhoo
+0;73.1371,5.2810;MV-31;Baa Atholhu;Kamadhoo
+0;73.0712,5.2999;MV-31;Baa Atholhu;Kudarikilu
+0;73.0107,5.2746;MV-31;Baa Atholhu;Kendhoo
+577;73.1075,2.5591;MV-32;Dhaalu Atholhu;Buruni
+2077;73.3086,2.5031;MV-46;Thaa Atholhu;Vilufushi
+1110;73.3547,2.3558;MV-46;Thaa Atholhu;Madifushi
+763;73.3388,2.3405;MV-46;Thaa Atholhu;Diyamigili
+1800;73.3185,2.3247;MV-46;Thaa Atholhu;Guraidhoo
+0;73.4239,4.3098;MV-38;Kaafu Atoll;Vabbinfaru Island
+0;72.8814,5.0398;MV-31;Baa Atholhu;Dhunikolhu Island
+0;73.5001,4.4167;MV-38;Kaafu Atoll;Nord Malé Atoll
+0;73.0772,5.1129;MV-31;Baa Atholhu;Kunfunadhoo Island
+0;72.8319,3.8824;MV;;Ari Atoll
+0;73.4167,4.0000;MV-38;Kaafu Atoll;South Malé Atoll
+1258;73.0712,5.1053;MV-31;Baa Atholhu;Open Stage
+0;73.4316,0.7377;MV-34;Gaafu Alif Atoll;Kooddoo Atoll
+0;73.5394,3.4886;MV-47;Vaavu Atholhu;Tinadu
+0;73.2274,-0.5947;MV-01;Seenu;Hulumido
+0;72.8645,4.2151;MV-30;Northern Ari Atoll;Ukulhas
+0;72.9554,3.6077;MV-10346475;Southern Ari Atoll;Dhangethi
+0;72.9921,4.2625;MV-30;Northern Ari Atoll;Rasdhoo
+0;72.9975,4.8731;MV-31;Baa Atholhu;Goidhoo
+0;73.5708,4.3097;MV-38;Kaafu Atoll;Himmafushi
+0;72.9597,4.4381;MV-30;Northern Ari Atoll;Thoddoo
+0;73.4465,0.6360;MV-34;Gaafu Alif Atoll;Nilandhoo
+0;73.2457,6.2841;MV-45;Shaviyani Atholhu;Milandhoo
+0;73.0065,2.9982;MV-32;Dhaalu Atholhu;Meedhoo
+0;73.2727,5.6643;MV-43;Noonu Atoll;Velidhoo
+0;73.2161,6.9544;MV-36;Haa Alifu Atholhu;Kelaa
+0;73.4155,3.6806;MV-47;Vaavu Atholhu;Fulidhoo
+0;73.4637,5.3339;MV-39;Faadhippolhu Atoll;Kurendhoo
+0;72.9290,3.5351;MV-30;Northern Ari Atoll;Dhigurah
+0;73.0450,5.6071;MV-44;Raa Atoll;Maakurathu
+0;72.7242,4.0516;MV-30;Northern Ari Atoll;Feridhoo
+0;72.7442,3.9209;MV-30;Northern Ari Atoll;Himandhoo
+1800;73.4662,3.9005;MV-38;Kaafu Atoll;Guraidhoo
+0;72.9535,6.5505;MV-37;Haa Dhaalu Atholhu;Vaikaradhoo
+0;73.6012,4.3336;MV-38;Kaafu Atoll;Huraa
+0;73.4993,4.7355;MV-38;Kaafu Atoll;Gaafaru
+1801;73.6527,4.3742;MV-38;Kaafu Atoll;Thulusdhoo
+0;72.8958,6.9825;MV-36;Haa Alifu Atholhu;Hoarafushi
+0;72.8196,3.6513;MV-10346475;Southern Ari Atoll;Maamigili
+0;72.9852,3.1168;MV-33;Faafu Atholhu;Bileiydhoo
+0;73.0029,3.2695;MV-33;Faafu Atholhu;Feeali
+0;72.9254,3.0615;MV-33;Faafu Atholhu;Dharanboodhoo
+0;73.5976,4.3282;MV-38;Kaafu Atoll;Kuda Huura
+239;73.2129,2.2521;MV-46;Thaa Atholhu;Gaadhiffushi
+3000;73.4907,3.9423;MV-38;Kaafu Atoll;Maafushi
+700;73.4794,5.8308;MV-43;Noonu Atoll;Maafaru
+0;73.4565,0.2902;MV-35;Gaafu Dhaalu Atoll;Gadhdhoo
+1471;73.2726,0.2267;MV-35;Gaafu Dhaalu Atoll;Vaadhoo
+0;72.8900,3.0567;MV-33;Faafu Atholhu;Nilandhoo
+0;72.9147,2.9477;MV-32;Dhaalu Atholhu;Maagau Island Town
+0;72.9925,5.2705;MV-31;Baa Atholhu;Keyodhoo
+0;73.3925,4.2175;MV-38;Kaafu Atoll;Atoll
+0;72.7232,3.6178;MV-10346475;Southern Ari Atoll;Rangali Island

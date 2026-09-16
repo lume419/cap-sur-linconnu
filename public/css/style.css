@@ -982,6 +982,34 @@ html[lang="ti"] body, html[lang="ti"] input, html[lang="ti"] button, html[lang="
   font-family: "Noto Sans Ethiopic", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
+/* ─────────────────────────────────────────────────────────────────────────────────────────────
+   Polices du lot Asie — tibétain (dzongkha, dz) et thâna (divehi, dv)
+   Ces trois écritures ne sont pas fournies par défaut sur Windows ni sur une bonne partie des
+   Android : Noto Serif Tibetan (~610 ko) et Noto Sans Thaana (~27 ko),
+   licence SIL Open Font License 1.1, hébergées localement. Comme pour le guèze, `unicode-range`
+   fait que le navigateur ne les télécharge que s'il a des caractères de ces blocs à afficher. Les
+   autres écritures du lot (devanagari, bengali, tamoul, malayalam, cinghalais, thaï, lao, khmer,
+   birman, chinois, japonais, coréen) sont fournies par tous les systèmes courants.
+   ───────────────────────────────────────────────────────────────────────────────────────────── */
+@font-face {
+  font-family: "Noto Serif Tibetan";
+  src: url("../fonts/NotoSerifTibetan-Regular.ttf") format("truetype");
+  font-display: swap;
+  unicode-range: U+0F00-0FFF;
+}
+@font-face {
+  font-family: "Noto Sans Thaana";
+  src: url("../fonts/NotoSansThaana-Regular.ttf") format("truetype");
+  font-display: swap;
+  unicode-range: U+0780-07BF, U+060C, U+061B, U+061F;
+}
+html[lang="dz"] body, html[lang="dz"] input, html[lang="dz"] button, html[lang="dz"] select, html[lang="dz"] textarea {
+  font-family: "Noto Serif Tibetan", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+html[lang="dv"] body, html[lang="dv"] input, html[lang="dv"] button, html[lang="dv"] select, html[lang="dv"] textarea {
+  font-family: "Noto Sans Thaana", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
 /* Zones à tension (France Diplomatie) : avertissement sur une étape ou sur le point de départ. */
 .tension-row{border-left:3px solid currentColor; padding:.35rem .6rem; border-radius:6px; background:color-mix(in srgb, currentColor 8%, transparent);}
 .tension-row.tension-red{color:var(--tension-red);}

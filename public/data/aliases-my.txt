@@ -1,0 +1,1856 @@
+en;Kampung Padang Masirat;Padang Mat Sirat
+ru;Кампунг-Паданг-Масират;Padang Mat Sirat
+ru;Куах;Kuah
+en;New Zealand Village;Kampung New Zealand
+ms;New Zealand;Kampung New Zealand
+ru;Маран;Maran
+ms;Dong;Kampung Dong
+en;Bentong;Bentung
+de;Kuala Kubu;Kuala Kubu Baharu
+ja;クアラ・クブ・バル;Kuala Kubu Baharu
+en;Kuala Kubu Bharu;Kuala Kubu Baharu
+ta;கோலா குபு பாரு;Kuala Kubu Baharu
+nl;Kuala Kubu Baru;Kuala Kubu Baharu
+zh;新古毛;Kuala Kubu Baharu
+es;Kuala Kubu Bharu;Kuala Kubu Baharu
+ru;Куала Кубу Бахару;Kuala Kubu Baharu
+zh;中江;Tongkang Pechah
+ru;Бату-Пахат (город);Batu Pahat
+zh-Hant;聖模那;Semerah
+zh;圣模那;Semerah
+en;Mengkibol;Kampung Mengkibol
+nl;Mengkibol;Kampung Mengkibol
+zh;明吉摩;Kampung Mengkibol
+ms;Bandar Seramik;Ayer Hitam
+zh-Hant;亞逸文滿;Ayer Bemban
+zh;亚逸文满;Ayer Bemban
+ru;Кампунг Пасир Гуданг Бару;Kampung Pasir Gudang Baru
+fa;پاسیر گودانگ;Pasir Gudang
+zh;巴西古当;Pasir Gudang
+ru;Пасир-Гуданг;Pasir Gudang
+ru;Кампунг Ларкин Лама;Kampung Larkin Lama
+ms;Kampung Mawai Baru;Mawai
+zh;龙望;Lombong
+en;Seelong;Kampung Seelong
+nl;Seelong;Kampung Seelong
+zh;泗隆;Kampung Seelong
+ru;Сенаи;Taman Senai
+ru;Пелентонг;Pelentong
+ru;Масаи;Masai
+fa;جوهور بهرو;Johor Bahru
+ja;ジョホールバル;Johor Bahru
+ru;Джохор-Бару;Johor Bahru
+zh;新山;Johor Bahru
+ur;جوھر بھرو;Johor Bahru
+ko;조호르바루;Johor Bahru
+ar;جوهر بهرو;Johor Bahru
+ta;ஜொகூர் பாரு;Johor Bahru
+mr;जोहोर बारू;Johor Bahru
+th;ยะโฮร์บาห์รู;Johor Bahru
+yue;新山;Johor Bahru
+my;ဂျဟိုးဘာရူးမြို့;Johor Bahru
+kk;Джохор-Бару;Johor Bahru
+ky;Джохор-Бару;Johor Bahru
+hi;जोहोर बहरु;Johor Bahru
+bn;জোহর বাহরু;Johor Bahru
+pa;ਜੋਹੋਰ ਬਾਹਰੂ;Johor Bahru
+ps;جوهور بهرو;Johor Bahru
+tg;Джохор-Бару;Johor Bahru
+ms;Sedili Kechil;Kangkar Sedili Kecil
+ms;Kampung Sedili Kechil;Kangkar Sedili Kecil
+ru;Клуанг;Kluang
+zh;丁能;Tenang
+ta;சாகில்;Sagil
+zh;砂益;Sagil
+en;Death River;Bandar Sungai Mati
+en;Muar town;Muar
+zh;麻坡;Muar
+ru;Муар;Muar
+ru;Бакри;Bakri
+ru;Куала-Селангор;Kuala Selangor
+th;เบิซตารีจายา;Batang Berjuntai
+ms;Bestari Jaya;Batang Berjuntai
+ja;ベスタリ・ジャヤ;Batang Berjuntai
+en;Bestari Jaya;Batang Berjuntai
+ta;பெஸ்தாரி ஜெயா;Batang Berjuntai
+nl;Bestari Jaya;Batang Berjuntai
+zh;八丁燕带;Batang Berjuntai
+zh-Hant;武吉羅丹;Bukit Rotan
+zh;武吉罗丹;Bukit Rotan
+zh-Hans;加埔区;Kapar
+ta;காப்பார்;Kapar
+zh;加埔區;Kapar
+ru;Капар;Kapar
+ru;Шах-Алам;Shah Alam
+fa;شاه عالم;Shah Alam
+mr;शाह आलम;Shah Alam
+ja;シャー・アラム;Shah Alam
+ko;샤알람;Shah Alam
+ar;شاه عالم;Shah Alam
+zh;莎阿南;Shah Alam
+ur;شاہ عالم;Shah Alam
+ta;ஷா ஆலாம்;Shah Alam
+yue;沙亞南;Shah Alam
+hi;शाह आलम;Shah Alam
+ml;ഷാ ആലം;Shah Alam
+my;ရှားအလမ်မြို့;Shah Alam
+bn;শাহ আলম;Shah Alam
+si;ශා ඇලම්;Shah Alam
+kn;ಶಾಹ್ ಆಲ್ಮ್;Shah Alam
+gu;શાહ આલમ;Shah Alam
+te;షా ఆలమ్;Shah Alam
+th;ชะฮ์อาลัม;Shah Alam
+ar;كلاغ;Klang
+ja;クラン;Klang
+ko;클랑;Klang
+ky;Келанг;Klang
+ta;கிள்ளான்;Klang
+ur;کلانگ;Klang
+ru;Кланг;Klang
+hi;कलंग;Klang
+uz;Kelang;Klang
+zh;巴生市;Klang
+fa;کلانگ سیتی;Klang
+yue;巴生;Klang
+fr;Kelang;Klang
+bn;ক্লাং;Klang
+ms;FELDA Gedangsa;Gedangsa
+zh-Hans;地罗叻;Terolak
+zh-Hant;直羅拉;Terolak
+ms;Trolak;Terolak
+en;Trolak;Terolak
+ta;துரோலாக்;Terolak
+nl;Trolak;Terolak
+zh;直罗拉;Terolak
+ru;Сунгкай;Sungkai
+ta;சுங்கை நகரம்;Sungkai
+zh;宋溪;Sungkai
+ta;சிலிம் ரிவர்;Slim River
+zh;仕林河;Slim River
+ms;Sekincan;Sekinchan
+ta;பெந்தா;Benta
+zh;文打;Benta
+en;Kuala Tahan;Kampung Kuala Tahan
+ru;Куала-Тахан;Kampung Kuala Tahan
+ta;கோலா தகான்;Kampung Kuala Tahan
+nl;Kuala Tahan;Kampung Kuala Tahan
+zh;瓜拉大汉;Kampung Kuala Tahan
+zh;华都;Val Dor
+ko;파파르;Papar
+ta;'பாப்பார்;Papar
+zh;吧巴;Papar
+zh-Hant;吧巴縣;Papar
+ms;Manggis;Kampung Manggis
+zh-Hant;金馬尼士;Kimanis
+zh-HK;金馬尼士;Kimanis
+zh;金马尼士;Kimanis
+ko;쿠알라픈유;Kuala Penyu
+ta;கோலா பென்யூ;Kuala Penyu
+zh;瓜拉班尤;Kuala Penyu
+zh-Hant;瓜拉班尤縣;Kuala Penyu
+th;กัวลาเปอญู;Kuala Penyu
+ms;Kampong Kimolan;Kampung Kimolan
+fa;کوتا کینابالو;Kota Kinabalu
+ja;コタキナバル;Kota Kinabalu
+zh-TW;亞庇;Kota Kinabalu
+ru;Кота-Кинабалу;Kota Kinabalu
+ko;코타키나발루;Kota Kinabalu
+ko;코타키나바루;Kota Kinabalu
+ar;كوتا كينابالو;Kota Kinabalu
+kk;Кота-Кинабалу;Kota Kinabalu
+ky;Кота-Кинабалу;Kota Kinabalu
+hi;कोटा किनाबालु;Kota Kinabalu
+bn;কোটা কিনাবালু;Kota Kinabalu
+ur;کوٹا کنابالو;Kota Kinabalu
+pa;ਕੋਟਾ ਕਿਨਾਬਾਲੂ;Kota Kinabalu
+ps;کوتا کينابالو;Kota Kinabalu
+tg;Кота-Кинабалу;Kota Kinabalu
+zh;東貢岸;Donggongon
+ru;Донгонгон;Donggongon
+ja;キナルト;Kinarut
+zh;京那律;Kinarut
+ru;Кинарут;Kinarut
+ja;ラナウ;Ranau
+ko;라나우;Ranau
+de;Kunak;Kampung Kunak
+ms;Kunak;Kampung Kunak
+en;Kunak;Kampung Kunak
+fr;Kunak;Kampung Kunak
+ta;கூனாக்;Kampung Kunak
+zh;古纳;Kampung Kunak
+zh-Hant;古納縣;Kampung Kunak
+vi;Kunak;Kampung Kunak
+ja;クナック;Kampung Kunak
+id;Kunak;Kampung Kunak
+nl;Kunak;Kampung Kunak
+ru;Семпорна;Semporna
+yue;仙本那;Semporna
+ta;செம்பூர்ணா;Semporna
+zh;仙本那;Semporna
+ja;センポルナ;Semporna
+ms;Long Pa Sia;Long Pasia
+id;Long Mia;Long Miau
+ru;Виктория;Labuan
+ar;لابوان;Labuan
+kk;Лабуан;Labuan
+ky;Лабуан;Labuan
+hi;लाबुआन;Labuan
+bn;লাবুয়ান;Labuan
+ur;لابوان;Labuan
+fa;لابوان;Labuan
+ja;ラブアン;Labuan
+pa;ਲਾਬੁਆਨ;Labuan
+ps;لابوان;Labuan
+tg;Лабуан;Labuan
+zh-Hans;实必丹;Sipitang
+zh-Hant;實必丹縣;Sipitang
+ta;சிபித்தாங் நகரம்;Sipitang
+zh;實必丹;Sipitang
+ms;Kampung Malapi;Kampong Malapi
+ja;ラハダトゥ;Lahad Datu
+ta;லகாட் டத்து;Lahad Datu
+zh;拿笃;Lahad Datu
+ru;Лахад-Дату;Lahad Datu
+ta;பெலுரான்;Beluran
+zh;勿盧蘭;Beluran
+zh-Hans;必鲁兰;Beluran
+zh-Hant;比魯蘭縣;Beluran
+ja;サンダカン;Sandakan
+zh;山打根;Sandakan
+ru;Сандакан;Sandakan
+ko;산다칸;Sandakan
+ta;சண்டாக்கான்;Sandakan
+fa;سانداکان;Sandakan
+th;ซันดากัน;Sandakan
+ur;سنداکان;Sandakan
+yue;山打根;Sandakan
+ar;سانداكان;Sandakan
+ml;ശാന്തകൻ;Sandakan
+de;Bingkor;Kampung Bingkor Baharu
+en;Bingkor;Kampung Bingkor Baharu
+nl;Bingkor;Kampung Bingkor Baharu
+hi;केनिंगआउ;Keningau
+ru;Кенингау;Keningau
+bn;কেনিঙ্গাউ;Keningau
+zh-Hant;根地咬縣;Keningau
+si;කෙනින්ගෞ;Keningau
+ur;کینینجاو;Keningau
+kn;ಕೇನಿನ್ಗಾವ್;Keningau
+ko;케닌가우;Keningau
+mr;कोंनऊ;Keningau
+ta;கெனிங்காவு;Keningau
+zh;根地咬;Keningau
+gu;કેનિન્ગૌ;Keningau
+ar;كينينغاو;Keningau
+te;కేనింగుఁ;Keningau
+th;เคนินโก;Keningau
+ja;ケニンガウ;Keningau
+fa;کنینگائو;Keningau
+ms;Nabawan;Bandar Nabawan
+zh;冰廂岸鎮;Pensiangan
+ja;タワウ;Tawau
+ko;타와우;Tawau
+ru;Тавау;Tawau
+zh;斗湖;Tawau
+ta;தாவாவ்;Tawau
+ur;تاواو;Tawau
+ja;カラバカン;Kalabakan
+zh;加拉巴干;Kalabakan
+ms;Serudong;Kampung Serudong Laut
+ru;Пак;Paka
+th;เกอร์เตะฮ์;Kertih
+en;Kerteh;Kertih
+id;Kerteh;Kertih
+ta;கெர்த்தே;Kertih
+nl;Kerteh;Kertih
+zh;局茶;Kertih
+es;Kerteh;Kertih
+ru;Кертих;Kertih
+ms;Kuala Balah;Kampung Kuala Balah
+kn;ಗೆರಿಕ್;Gerik
+ta;கிரிக்;Gerik
+ur;گریق;Gerik
+zh;宜力;Gerik
+ru;Кулим;Kulim
+ja;クブ・ガジャ;Kubu Gajah
+zh;古布牙也;Kubu Gajah
+zh-Hant;亞羅邦士;Alur Pongsu
+ms;Alor Pongsu;Alur Pongsu
+en;Alor Pongsu;Alur Pongsu
+ta;அலோர் பொங்சு;Alur Pongsu
+nl;Alor Pongsu;Alur Pongsu
+zh;亚罗邦士;Alur Pongsu
+ms;Bukit Merah;Bukit Merah Pekan
+zh-Hant;仁嶺;Jeniang
+zh;仁岭;Jeniang
+ta;புக்கிட் செலம்பாவ்;Bukit Selambau
+zh;武吉士南卯;Bukit Selambau
+ms;Kampong Pinang Tunggal;Kampung Pinang Tunggal
+ms;Ayer Lanas;Kampung Air Lanas
+ms;Air Lanas;Kampung Air Lanas
+en;Jeli;Kampung Jeli
+zh;日里;Kampung Jeli
+ja;パンカラン・トゥバン;Pangkalan Tebang
+ms;Kampong Bilis;Kampung Bilis
+zh;诗巫瑶;Sebuyau
+de;Changkat Jering;Kampung Cangkat Jering
+ms;Changkat Jering;Kampung Cangkat Jering
+en;Changkat Jering;Kampung Cangkat Jering
+id;Changkat Jering;Kampung Cangkat Jering
+fr;Changkat Jering;Kampung Cangkat Jering
+ta;சங்காட் ஜெரிங்;Kampung Cangkat Jering
+nl;Changkat Jering;Kampung Cangkat Jering
+zh;新路口;Kampung Cangkat Jering
+ja;カムンティン;Kamunting
+ta;கமுந்திங்;Kamunting
+zh;甘文丁;Kamunting
+en;Enggor;Kampung Enggor
+ms;Bandar Taiping;Taiping
+zh;太平;Taiping
+ru;Тайпин;Taiping
+ja;タイピン;Taiping
+ko;타이핑;Taiping
+ta;தைப்பிங்;Taiping
+ta;பாடாங் ரெங்காஸ்;Padang Rengas
+zh;硝山;Padang Rengas
+ms;Trong;Terung
+en;Terong;Terung
+ta;துரோங்;Terung
+nl;Terong;Terung
+zh;直弄;Terung
+fa;کوالا کنگسر;Kuala Kangsar
+ko;쿠알르캉사르;Kuala Kangsar
+ta;கோலாகங்சார்;Kuala Kangsar
+th;กัวลากังซาร์;Kuala Kangsar
+zh;瓜拉江沙;Kuala Kangsar
+hi;कुआला कांगसार;Kuala Kangsar
+ar;كوالا كنغسار;Kuala Kangsar
+ja;クアラカンサル;Kuala Kangsar
+ru;Куала-Кангсар;Kuala Kangsar
+bn;কুয়ালা কাংসার;Kuala Kangsar
+si;ක්වාලාකැන්ග්සර්;Kuala Kangsar
+kn;ಕೌಲಾಗ್ ಕಾಂಗ್ಸರ್;Kuala Kangsar
+te;కౌలా కాంగ్సర్;Kuala Kangsar
+ur;کوالا کانجسار;Kuala Kangsar
+mr;कुला कांगसर;Kuala Kangsar
+gu;કુઆલા કાંગસર;Kuala Kangsar
+zh-Hant;丹絨紅毛丹;Tanjung Rambutan
+ta;தஞ்சோங் ரம்புத்தான்;Tanjung Rambutan
+zh;丹绒红毛丹;Tanjung Rambutan
+zh-Hant;打捫;Tambun
+ja;タンブン;Tambun
+ta;தம்புன்;Tambun
+zh;打扪;Tambun
+ja;イポー;Ipoh
+zh;怡保;Ipoh
+ru;Ипо;Ipoh
+ur;ایپو;Ipoh
+ta;ஈப்போ;Ipoh
+fa;ایپوه;Ipoh
+ko;이포;Ipoh
+th;อีโปห์;Ipoh
+ru;Ипох;Ipoh
+ar;ايبوه;Ipoh
+my;အီပိုးမြို့;Ipoh
+yue;怡保;Ipoh
+kk;Ипох;Ipoh
+ky;Ипох;Ipoh
+hi;इपोह;Ipoh
+bn;ইপোহ;Ipoh
+pa;ਇਪੋਹ;Ipoh
+ps;إيبوه;Ipoh
+tg;Ипох;Ipoh
+fr;Ipoh;Menglembu
+id;Ipoh;Menglembu
+it;Ipoh;Menglembu
+ja;イポー;Menglembu
+vi;Ipoh;Menglembu
+zh;万里望;Menglembu
+zh-Hant;萬里望;Menglembu
+yue;萬里望;Menglembu
+ta;மெங்லெம்பு;Menglembu
+en;Merapoh;Merapuh
+ta;மெராப்போ;Merapuh
+nl;Merapoh;Merapuh
+zh;美拉坡鎮;Merapuh
+ta;பத்து ராகிட்;Batu Rakit
+en;Seberang Takir;Kampung Seberang Takir
+id;Seberang Takir;Kampung Seberang Takir
+nl;Seberang Takir;Kampung Seberang Takir
+ms;Bandar Kuala Terengganu;Kuala Terengganu
+ja;クアラトレンガヌ;Kuala Terengganu
+ko;쿠알라트렝가누;Kuala Terengganu
+ar;كوالا ترنغانو;Kuala Terengganu
+ru;Куала-Тренгану;Kuala Terengganu
+zh;瓜拉登嘉楼;Kuala Terengganu
+th;กัวลาตรังกานู;Kuala Terengganu
+ur;کوالا تیرنگانو;Kuala Terengganu
+kk;Куала-Тренггану;Kuala Terengganu
+ky;Куала-Тренггану;Kuala Terengganu
+hi;कुआला तेरेंगगानु;Kuala Terengganu
+bn;কুয়ালা তেরেঙ্গানু;Kuala Terengganu
+fa;کوالا ترنگانو;Kuala Terengganu
+pa;ਕੁਆਲਾ ਤੇਰੇਂਗਾਨੂ;Kuala Terengganu
+ps;کوالا ترينجانو;Kuala Terengganu
+tg;Куала-Тренггану;Kuala Terengganu
+ru;Маранг;Marang
+th;เมอร์จัง;Kampung Mercang
+en;Merchang;Kampung Mercang
+id;Merchang;Kampung Mercang
+nl;Merchang;Kampung Mercang
+th;อาจิล;Ajil
+zh;阿吉尔;Ajil
+ta;கோலா பேராங்;Kuala Berang
+zh;瓜拉伯浪;Kuala Berang
+ms;Kuala Linggi;Kampung Kuala Linggi
+en;China;Lubok China
+en;Tebong;Kampung Tebong
+en;Tebong Village;Kampung Tebong
+zh-Hant;嶺叻;Nyalas
+ta;நியாலாஸ்;Nyalas
+zh;岭叻;Nyalas
+zh-Hant;士蘭道;Selandar
+ta;சிலாண்டார்;Selandar
+zh;士兰道;Selandar
+fa;الور گاجا;Alor Gajah
+ta;அலோர் காஜா;Alor Gajah
+zh;亚罗牙也;Alor Gajah
+zh-Hant;榴槤洞葛;Durian Tunggal
+ta;டுரியான் துங்கல்;Durian Tunggal
+zh;榴梿洞葛;Durian Tunggal
+zh-Hant;雙溪烏浪;Sungai Udang
+ta;சுங்கை ஊடாங்;Sungai Udang
+zh;双溪乌浪;Sungai Udang
+de;Malakka;Malacca
+es;Malaca;Malacca
+fr;Melaka;Malacca
+id;Melaka;Malacca
+ja;マラッカ;Malacca
+ms;Melaka;Malacca
+nl;Malakka;Malacca
+pt;Malaca;Malacca
+ru;Малакка;Malacca
+fr;Malaka;Malacca
+ar;ملقا;Malacca
+kk;Малакка;Malacca
+tr;Malakka;Malacca
+uz;Malakka;Malacca
+ky;Малакка;Malacca
+hi;मलक्का;Malacca
+bn;ম্যালাক্কা;Malacca
+ur;ملاکا;Malacca
+fa;ملاکا;Malacca
+jv;Malakka;Malacca
+pa;ਮਲਾਕਾ;Malacca
+ps;ملقا;Malacca
+tg;Малакка;Malacca
+zh-Hans;直落埯;Teluk Mas
+en;Telok Mas;Teluk Mas
+zh;直落垵;Teluk Mas
+nl;Telok Mas;Teluk Mas
+ms;Umbai;Kampung Umbai
+ta;தெலுக் பாங்லிமா காராங்;Teluk Panglima Garang
+zh;直落邦里玛嘉朗;Teluk Panglima Garang
+ms;Pelabuhan Kelang;Pelabuhan Klang
+ms;Pelabohan Klang;Pelabuhan Klang
+en;Port Klang;Pelabuhan Klang
+ms;Pelabuhan Kelang Selatan;Pelabuhan Klang
+ms;Kampung Pulau Ibu;Kampung Pulau Ibol
+ta;பாங்கி;Bangi
+zh;万宜;Bangi
+zh-Hant;萬宜;Bangi
+ja;バンギ;Bangi
+ur;بانگی، سیلنگور;Bangi
+ms;Semeyih;Semenyih
+ta;செமினி;Semenyih
+zh;士毛月;Semenyih
+ja;セメンイー;Semenyih
+ms;Kampung Beroga;Broga
+ta;புரோகா;Broga
+zh;武来岸;Broga
+ja;チロイ;Tiroi
+ta;திரோய்;Tiroi
+zh;知磊;Tiroi
+ru;Серембан;Seremban
+ja;スレンバン;Seremban
+ko;스름반;Seremban
+ml;സിരമ്പാൻ;Seremban
+mr;सरेंबान;Seremban
+ta;சிரம்பான்;Seremban
+ur;سرمبان;Seremban
+zh;芙蓉市;Seremban
+th;สเรมบัน;Seremban
+ms;Soghomban;Seremban
+ta;Cirampāṉ;Seremban
+ar;سرمبان;Seremban
+kk;Серембан;Seremban
+ky;Серембан;Seremban
+hi;सेरेम्बन;Seremban
+bn;সেরেম্বান;Seremban
+fa;سرمبان;Seremban
+pa;ਸੇਰੇਮਬਾਨ;Seremban
+ps;سرمبان;Seremban
+tg;Серембан;Seremban
+ta;சிலியாவ்;Siliau
+zh-Hant;晏鬥;Rantau
+ta;ரந்தாவ்;Rantau
+zh;晏斗;Rantau
+ru;Порт-Диксон;Port Dickson
+ru;Сепанг;Sepang
+en;Senawang;Taman Senawang Indah
+ms;Batu Kikir;Kampung Batu Kikir
+de;Seri Menanti;Sri Menanti
+hi;सेरी मेनांती;Sri Menanti
+en;Seri Menanti;Sri Menanti
+fr;Seri Menanti;Sri Menanti
+ta;ஸ்ரீ மெனாந்தி;Sri Menanti
+es;Seri Menanti;Sri Menanti
+zh;神安池;Sri Menanti
+ar;سري منانتي;Sri Menanti
+ja;スリ・メナンティ;Sri Menanti
+id;Seri Menanti;Sri Menanti
+fa;سری منانتی;Sri Menanti
+nl;Seri Menanti;Sri Menanti
+ta;சுங்கை காடுட்;Sungai Gadut
+zh;双溪芽笃;Sungai Gadut
+ms;Chengkau;Cengkau
+en;Chengkau;Cengkau
+ta;செங்காவ்;Cengkau
+nl;Chengkau;Cengkau
+zh;正口;Cengkau
+zh-TW;金馬士;Gemas
+ms;Endau;Padang Endau
+zh-Hant;雲冰;Kuala Rompin
+ta;கோலா ரொம்பின்;Kuala Rompin
+zh;云冰;Kuala Rompin
+ru;Текек;Kampung Tekek
+ru;Пекан;Pekan
+fa;پکان;Pekan
+ta;பெக்கான்;Pekan
+th;ปกัน;Pekan
+zh;北根;Pekan
+ar;تشنور;Cenur
+en;Chenor;Cenur
+nl;Chenor;Cenur
+zh;珍诺;Cenur
+ms;Mentekab;Mentakab
+ceb;Mentekab;Mentakab
+ko;초안:멘타갑;Mentakab
+ta;மெந்தகாப்;Mentakab
+zh;文德甲;Mentakab
+ru;Ментекаб;Mentakab
+en;Manchis;Mancis
+nl;Manchis;Mancis
+ms;Kampung Bertam Bharu;Bertam Bharu
+ms;Teluk Air Tawar;Kampung Teluk Air Tawar
+ms;Teluk Ayer Tawar;Kampung Teluk Air Tawar
+ja;バターワース;Butterworth
+ko;버터워스;Butterworth
+ta;கோலப்புறை;Butterworth
+th;บัตเตอร์เวิร์ท;Butterworth
+zh;北海槟城;Butterworth
+fa;باتروورت;Butterworth
+ru;Баттерворт;Butterworth
+hi;बुकिट मेरताजम;Bukit Mertajam
+ru;Букит-Мертаджам;Bukit Mertajam
+yue;大山腳;Bukit Mertajam
+bn;বুকিট মারতাজাম;Bukit Mertajam
+si;බුකිට් මෙර්ටජාම්;Bukit Mertajam
+ur;بوکیت میرتاجام;Bukit Mertajam
+kn;ಬುಕಿಟ್ ಮೆರ್ಟಾಜಮ್;Bukit Mertajam
+ko;부킷 메르타잠;Bukit Mertajam
+mr;बुकिट मृताजम;Bukit Mertajam
+ta;புக்கிட் மெர்தாஜாம்;Bukit Mertajam
+zh;大山脚;Bukit Mertajam
+gu;બુકીટ મર્ટાજમ;Bukit Mertajam
+ar;بوكيت ميرتاجام;Bukit Mertajam
+te;బుకిట్ మేర్టాజం;Bukit Mertajam
+th;บูกิต เมอร์ตาจาม;Bukit Mertajam
+ja;ブキット・メルタジャム;Bukit Mertajam
+fa;بوکیت میرتاجم;Bukit Mertajam
+tr;Bukit Mertarajam;Bukit Mertajam
+ms;Bandar Sungai Bakap;Sungai Bakap
+ta;சுங்கை பாக்காப்;Sungai Bakap
+zh;双溪峇甲;Sungai Bakap
+hi;नीबोंग  टेबल;Nibong Tebal
+ru;Нибонг-Тебал;Nibong Tebal
+bn;নিবং তেবাল;Nibong Tebal
+zh-Hant;高淵;Nibong Tebal
+si;නයිබෝන්ග් ටෙබල්;Nibong Tebal
+ur;نیبونج تیبال;Nibong Tebal
+kn;ನಿಬಾಂಗ್ ಟೆಬಾಲ್;Nibong Tebal
+ko;니몽 테발;Nibong Tebal
+zh-HK;高淵;Nibong Tebal
+mr;निबाँग टीबिल;Nibong Tebal
+it;Nibong Tebai;Nibong Tebal
+ta;நிபோங் திபால்;Nibong Tebal
+zh;高渊;Nibong Tebal
+gu;નિબોન્ગ ટીબલ;Nibong Tebal
+ar;نيبون تيبال;Nibong Tebal
+te;నిబొంగ్ తేబాల్;Nibong Tebal
+th;นิบง เตบาล;Nibong Tebal
+ja;ニボン・テバル;Nibong Tebal
+zh-Hant;角頭;Tanjung Piandang
+ta;தஞ்சோங் பியாண்டாங்;Tanjung Piandang
+zh;角头;Tanjung Piandang
+ms;Tasek Gelugor;Tasek Glugor
+en;Tasek Gelugor;Tasek Glugor
+ta;தாசேக் குளுகோர்;Tasek Glugor
+nl;Tasek Gelugor;Tasek Glugor
+zh;打昔牛汝莪;Tasek Glugor
+ru;Тасек Глугор;Tasek Glugor
+zh-Hant;浮羅山背;Balik Pulau
+fa;بالیک پولائو;Balik Pulau
+ta;பாலிக் புலாவ்;Balik Pulau
+zh;浮罗山背;Balik Pulau
+ru;Байан-Лепас;Bayan Lepas
+fa;باتو مائونگ;Batu Maung
+ta;பத்து மாவுங்;Batu Maung
+zh;峇都茅;Batu Maung
+id;Georgetown;George Town
+ja;ジョージタウン;George Town
+ms;Georgetown;George Town
+pt;Penang;George Town
+vi;Penang;George Town
+zh-TW;喬治市;George Town
+ru;Джорджтаун;George Town
+ko;조지타운;George Town
+ta;ஜார்ஜ் டவுன்;George Town
+my;ပီနန်မြို့;George Town
+th;จอร์จทาวน์;George Town
+zh;乔治市;George Town
+ur;جارج ٹاؤن، پینانگ;George Town
+fa;جرج تاون پنانگ;George Town
+ml;ജോർജ്ജ് ടൗൺ;George Town
+ne;जर्ज टाउन;George Town
+ar;جورج تون;George Town
+ar;جورجتون;George Town
+ar;جورج تاون;George Town
+kk;Джорджтаун;George Town
+ky;Джорджтаун;George Town
+hi;जॉर्ज टाउन;George Town
+bn;জর্জ টাউন;George Town
+pa;ਜਾਰਜ ਟਾਊਨ;George Town
+ps;جورج تاون;George Town
+tg;Джорджтаун;George Town
+ar;مرتفعات جنتنج;Genting Highlands
+ja;ゲンティンハイランド;Genting Highlands
+ko;겐팅 하일랜즈;Genting Highlands
+ml;ജെന്റിംഗ്;Genting Highlands
+ta;கெந்திங் மலை;Genting Highlands
+ur;گینتنگ ہائی لینڈز;Genting Highlands
+vi;Cao nguyên Genting;Genting Highlands
+zh;雲頂高原;Genting Highlands
+en;Ulu Yam;Hulu Yam Lama
+nl;Ulu Yam;Hulu Yam Lama
+ru;Раванг;Rawang
+ru;Сунгаи Булох;Sungai Buloh
+fa;پتالینگ جایا;Petaling Jaya
+ru;Петалинг-Джая;Petaling Jaya
+ar;بيتالينغ جايا;Petaling Jaya
+ja;プタリン・ジャヤ;Petaling Jaya
+ko;프탈링자야;Petaling Jaya
+zh;八打灵再也;Petaling Jaya
+ur;پیتالنیگ جایا;Petaling Jaya
+ta;பெடாலிங் ஜெயா;Petaling Jaya
+hi;कुआ लालम्पुर;Kuala Lumpur
+ja;クアラルンプール;Kuala Lumpur
+ko;쿠알라룸푸르;Kuala Lumpur
+ru;Куала-Лумпур;Kuala Lumpur
+zh;吉隆坡;Kuala Lumpur
+hi;कुआलालम्पुर;Kuala Lumpur
+ug;كۇئالالۇمپۇر;Kuala Lumpur
+th;กัวลาลัมเปอร์;Kuala Lumpur
+ml;കോലാലമ്പൂർ;Kuala Lumpur
+pa;ਕੁਆਲਾ ਲੁੰਪੁਰ;Kuala Lumpur
+kk;Куала Лумпур;Kuala Lumpur
+kn;ಕೌಲಾಲಂಪುರ್;Kuala Lumpur
+ps;کوالالامپور;Kuala Lumpur
+mn;Куала Лумпур;Kuala Lumpur
+fa;کوالالامپور;Kuala Lumpur
+ta;கோலாலம்பூர்;Kuala Lumpur
+or;କୁଆଲାଲୁମ୍ପୁର;Kuala Lumpur
+bn;কুয়ালালামপুর;Kuala Lumpur
+bo;ཁལ་ལུང་ཕུ།;Kuala Lumpur
+mr;क्वालालंपूर;Kuala Lumpur
+my;ကွာလာလမ်ပူမြို့;Kuala Lumpur
+ar;كوالالمبور;Kuala Lumpur
+za;Gizlungzpoh;Kuala Lumpur
+ur;کوالالمپور;Kuala Lumpur
+en;KL;Kuala Lumpur
+ru;Сетапак;Setapak
+ru;Пещеры Бату;Batu Caves
+en;Ampang Jaya;Ampang
+ta;அம்பாங்;Ampang
+ja;アンパン・ジャヤ;Ampang
+ko;암팡자야;Ampang
+ru;Ампанг;Ampang
+ms;Bagan Pasir Laut;Kampung Bagan Pasir Laut
+ta;ஊத்தான் மெலிந்தாங்;Hutan Melintang
+zh;半港;Hutan Melintang
+ms;Sabak;Sabak Bernam
+ta;சுங்கை பெசார்;Sungai Besar
+zh;大港;Sungai Besar
+zh;林明;Sungai Lembing
+ru;Куантан;Kuantan
+mr;क्वांतान;Kuantan
+ko;쿠안탄;Kuantan
+ja;クアンタン;Kuantan
+th;กวนตัน;Kuantan
+ta;குவாந்தான்;Kuantan
+zh;关丹;Kuantan
+ur;کوانتان;Kuantan
+ar;كوانتان;Kuantan
+fa;کوانتان;Kuantan
+kk;Куантан;Kuantan
+ky;Куантан;Kuantan
+hi;कुआंतान;Kuantan
+bn;কুয়ান্তান;Kuantan
+pa;ਕੁਆਂਤਾਨ;Kuantan
+ps;کوانتان;Kuantan
+tg;Куантан;Kuantan
+ms;Kampung Baluk;Kampung Baluk Baru
+ar;كوالا باهانج;Kuala Pahang
+zh;瓜拉彭亨;Kuala Pahang
+zh-Hant;萬邦刁灣;Mambang Di Awan
+ta;மம்பாங் டி அவான்;Mambang Di Awan
+zh;万邦刁湾;Mambang Di Awan
+ru;Тана Рата;Tanah Rata
+ar;جوبينج;Gopeng
+zh-Hant;務邊;Gopeng
+ja;ゴペン;Gopeng
+ta;கோப்பேங்;Gopeng
+zh;务边;Gopeng
+zh-Hant;雙溪古月;Malim Nawar
+zh;双溪古月;Malim Nawar
+zh-Hans;督亚冷;Tanjung Tualang
+zh-Hant;丹絨督亞冷;Tanjung Tualang
+ta;தஞ்சோங் துவாலாங்;Tanjung Tualang
+zh;丹绒督亚冷;Tanjung Tualang
+ta;தாப்பா ரோடு;Tapah Road
+zh;打巴路;Tapah Road
+ta;பீக்காம்;Bikam
+zh;美金;Bikam
+ms;Narub;Kampung Narub
+zh-Hant;達島;Tatau
+zh-HK;達島;Tatau
+zh;达岛;Tatau
+zh-Hant;麥曼珍;Mak Mandin
+ta;மாக் மண்டின்;Mak Mandin
+zh;麦曼珍;Mak Mandin
+en;Sugar Village;Kampung Gula
+zh-Hant;哥打斯迪亞;Kampung Kota Setia
+en;Kota Setia;Kampung Kota Setia
+nl;Kota Setia;Kampung Kota Setia
+zh;哥打斯迪亚;Kampung Kota Setia
+ms;Bota;Kampung Bota Kiri
+en;Bota;Kampung Bota Kiri
+ta;போத்தா;Kampung Bota Kiri
+nl;Bota;Kampung Bota Kiri
+zh;波打;Kampung Bota Kiri
+ms;Lambor Kanan;Kampung Lambor Kanan
+en;Right Lambor;Kampung Lambor Kanan
+zh-Hant;南馬勞勿;Kampung Damar Laut
+en;Damar Laut;Kampung Damar Laut
+ta;டாமார் லாவுட்;Kampung Damar Laut
+nl;Damar Laut;Kampung Damar Laut
+zh;南马劳勿;Kampung Damar Laut
+ru;Ситиаван;Sitiawan
+de;Pasir Salak;Kampung Pasir Salak
+en;Pasir Salak;Kampung Pasir Salak
+ta;பாசீர் சாலாக்;Kampung Pasir Salak
+nl;Pasir Salak;Kampung Pasir Salak
+zh;巴西沙叻;Kampung Pasir Salak
+en;Teluk Anson;Teluk Intan
+ja;テロックインタン;Teluk Intan
+ko;틀룩인탄;Teluk Intan
+ta;தெலுக் இந்தான்;Teluk Intan
+zh;安顺市;Teluk Intan
+ru;Телук-Интан;Teluk Intan
+ms;Sungai Limau;Sungai Limau Dalam
+en;Sungai Limau;Sungai Limau Dalam
+nl;Sungai Limau;Sungai Limau Dalam
+ms;Kuala Muda;Kampung Kuala Muda
+ms;Kota Sarang Semut;Taman Kota Sarang Semut
+en;Kota Sarang Semut;Taman Kota Sarang Semut
+nl;Kota Sarang Semut;Taman Kota Sarang Semut
+zh;竹城;Taman Kota Sarang Semut
+ru;Сунгай Петани;Sungai Petani
+zh-Hant;高打瓜拉姆達;Kota
+ms;Kota Kuala Muda;Kota
+en;Kota Kuala Muda;Kota
+nl;Kota Kuala Muda;Kota
+zh;高打瓜拉姆达;Kota
+en;Pengkalan Hulu;Keruh
+ru;Пасир Путех;Pasir Puteh
+ru;Куала Краи;Kuala Krai
+ru;Кучинг;Kuching
+zh-TW;古晉;Kuching
+ja;クチン;Kuching
+fa;کوچینگ;Kuching
+th;กูชิง;Kuching
+ko;쿠칭;Kuching
+zh;古晉;Kuching
+ur;کوچینگ;Kuching
+ar;كوتشينغ;Kuching
+mr;कुचिंग;Kuching
+yue;古晉;Kuching
+kk;Кучинг;Kuching
+ky;Кучинг;Kuching
+hi;कुचिंग;Kuching
+bn;কুচিং;Kuching
+pa;ਕੁਚਿੰਗ;Kuching
+ps;کوتشينج;Kuching
+tg;Кучинг;Kuching
+ms;Kampung Buloh;Kampung Sungai Buloh
+ms;Kampong Sungai Buloh;Kampung Sungai Buloh
+en;Banting Bazaar;Banting
+ms;Pasar Banting;Banting
+zh;鱼鳞甲;Grigat
+ms;Tanjung Manis;Belawai
+ms;Kampung Masjid Lama;Belawai
+ms;Masjid Lama;Belawai
+ko;사리케이;Sarikei
+ta;பாலோ;Paloh
+zh;巴罗;Paloh
+ms;Bintangor;Binatang
+ms;Bandar Bintangor;Binatang
+ur;لاباس;Labas
+zh-Hant;蘆樓縣;Julau
+fa;جولاو;Julau
+zh;芦楼县;Julau
+ru;Сибу;Sibu
+ja;シブ;Sibu
+fa;سیبو;Sibu
+ko;시부;Sibu
+zh;詩巫;Sibu
+ar;سيبو;Sibu
+yue;詩巫;Sibu
+ur;لانگیٹ;Langit
+en;Oran;Kampung Oran
+ms;Kampung Wang Tangga;Kampung Wang Tenggo
+ms;Kampung Titi Tinggi Ulu;Kampung Titi Tinggi
+ms;Kampung Tunjang;Kampung Tunjong
+ms;Kampung Bunga Emas;Simpang Empat
+ms;Kampung Alor Janggus;Alor Janggus
+ta;பதங் பெசார்;Padang Besar
+en;Badong Wusha;Padang Besar
+ru;Кангар;Kangar
+fa;کنگر;Kangar
+ko;캉아르;Kangar
+ta;கங்கார்;Kangar
+ur;کانگر;Kangar
+zh;加央;Kangar
+ar;كانجار;Kangar
+kk;Кангар;Kangar
+ky;Кангар;Kangar
+hi;कांगार;Kangar
+bn;কাঙ্গার;Kangar
+ja;カンガル;Kangar
+pa;ਕਾਂਗਾਰ;Kangar
+ps;کانجار;Kangar
+tg;Кангар;Kangar
+th;จังลุน;Changloon
+yue;樟侖;Changloon
+en;Changlun;Changloon
+id;Changlun;Changloon
+zh;象隆;Changloon
+nl;Changlun;Changloon
+ta;ஆராவ்;Arau
+zh;亚娄;Arau
+zh-Hant;亞婁;Arau
+ja;アラウ;Arau
+zh;高岭;Kodiang
+en;Perlis Port;Kuala Perlis
+en;Padang Sera;Padang Sira
+zh;瓜拉双弄;Kuala Sanglang
+th;จีตรา;Jitra
+ja;ジットラ;Jitra
+ta;ஜித்ரா;Jitra
+zh;日得拉;Jitra
+zh;吉打港口;Kuala Kedah
+ta;கோலா கெடா;Kuala Kedah
+ru;Куала-Кедах;Kuala Kedah
+en;Alor Star;Alor Setar
+id;Alor Star;Alor Setar
+ja;アロースター;Alor Setar
+ms;Alor Star;Alor Setar
+zh-TW;亞羅士打;Alor Setar
+fa;الور ستار;Alor Setar
+ko;알로르스타르;Alor Setar
+ta;அலோர் ஸ்டார்;Alor Setar
+th;อลอร์สตาร์;Alor Setar
+ru;Алор-Сетар;Alor Setar
+zh;亚罗士打;Alor Setar
+ar;ألور ستار;Alor Setar
+ur;الور سیتار;Alor Setar
+kk;Алор-Сетар;Alor Setar
+ky;Алор-Сетар;Alor Setar
+hi;अलोर सेतार;Alor Setar
+bn;আলোর সেতার;Alor Setar
+pa;ਅਲੋਰ ਸੇਤਾਰ;Alor Setar
+ps;ألور ستار;Alor Setar
+tg;Алор-Сетар;Alor Setar
+ms;Taman Simpang 4;Taman Simpang Empat
+ms;Kampung Kuala Kangkong;Kangkong
+zh-Hant;華卡峇魯;Wakaf Baharu
+ms;Wakaf Bharu;Wakaf Baharu
+en;Wakaf Bharu;Wakaf Baharu
+id;Wakaf Bharu;Wakaf Baharu
+nl;Wakaf Bharu;Wakaf Baharu
+zh;华卡峇鲁;Wakaf Baharu
+ru;Рантау-Панджанг;Rantau Panjang
+ru;Пасир Мас;Pasir Mas
+fr;Kota Bahru;Kota Bharu
+de;Kota Bahru;Kota Bharu
+ko;코타바루;Kota Bharu
+ar;كوتا بهارو;Kota Bharu
+ja;コタバル;Kota Bharu
+ru;Кота-Бару;Kota Bharu
+zh;哥打巴鲁;Kota Bharu
+th;โกตาบารู;Kota Bharu
+kk;Кота-Бару;Kota Bharu
+ky;Кота-Бару;Kota Bharu
+hi;कोटा भारु;Kota Bharu
+bn;কোটা ভারু;Kota Bharu
+ur;کوٹا بھارو;Kota Bharu
+fa;کوتا بهارو;Kota Bharu
+pa;ਕੋਟਾ ਭਾਰੂ;Kota Bharu
+ps;کوتا بهارو;Kota Bharu
+tg;Кота-Бару;Kota Bharu
+ms;Kampung Kuala Besut;Kuala Besut
+ru;Куала-Бесут;Kuala Besut
+ms;Besut;Kuala Besut
+ms;Jerteh;Jertih
+ms;Kampung Mangkubau;Kampung Mangkubau Laut
+ms;Kundasang;Kampung Kundassang
+ru;Кота Белуд;Kota Belud
+ta;கோத்தா பெலுட்;Kota Belud
+zh;古打毛律;Kota Belud
+zh-Hant;古打毛律縣;Kota Belud
+ja;コタ・ブルッ;Kota Belud
+ko;탐파룰리;Tamparuli
+zh;担波罗里;Tamparuli
+ja;テリポク;Telipok
+ko;투아란;Tuaran
+ta;துவாரான்;Tuaran
+zh;斗亞蘭;Tuaran
+zh-Hans;斗亚兰;Tuaran
+ja;トゥアラン;Tuaran
+fa;توران;Tuaran
+zh;实巴荷副县;Spaoh
+fa;دباک;Debak
+zh;宁木;Debak
+zh;裕南副县;Maludam
+zh-Hant;實拉卓縣;Saratok
+zh;砂拉卓;Saratok
+ru;Сараток;Saratok
+zh-Hant;英吉利裏;Engkilili
+zh;英吉利里;Engkilili
+hi;बैतोंग;Betong
+ru;Бетонг;Betong
+bn;বেতং;Betong
+zh-Hant;木中縣;Betong
+si;බෙටෝන්ග්;Betong
+ur;بیتونج ، ساراواک;Betong
+kn;ಬೆಟಾಂಗ್;Betong
+ko;베통;Betong
+mr;बेटोंग;Betong
+ta;பெடோங்;Betong
+zh;木中;Betong
+gu;બેટંગ;Betong
+ar;بيتونج;Betong
+te;బెరాంగ్;Betong
+th;เบอตง;Betong
+ja;ベトン;Betong
+zh-Hant;加拿逸縣;Kanowit
+fa;کانویت;Kanowit
+ta;கனோவிட்;Kanowit
+zh;加拿逸;Kanowit
+ru;Капит;Kapit
+ta;பத்து நியா;Batu Niah
+zh;石山;Batu Niah
+ru;Бинтулу;Bintulu
+fa;بینتولو;Bintulu
+zh;民都鲁;Bintulu
+ar;بينتولو;Bintulu
+ko;빈툴루;Bintulu
+yue;民都魯;Bintulu
+zh;老越;Lawas
+ms;Long Kinoman;Kampung Punang Trusan
+ms;Punang Terusan;Kampung Punang Trusan
+zh;隆斯康;Long Sukang
+ru;Лимбанг;Limbang
+ms;Long Lopeng;Long Luping
+zh;巴里奥;Bario
+zh-Hant;倫塞里旦;Long Seridan
+zh;伦塞里旦;Long Seridan
+ta;பெக்கெனு;Bekenu
+zh;柏戈奴;Bekenu
+ko;미리;Miri
+ms;Bandar Miri;Miri
+fa;میری;Miri
+ja;ミリ;Miri
+ru;Мири;Miri
+zh;美里;Miri
+ar;ميري;Miri
+ml;മിറി;Miri
+ur;میری;Miri
+yue;美里;Miri
+zh-Hant;烏魯地南;Ulu Tiram
+yue;烏魯哋南;Ulu Tiram
+ta;உலு திராம்;Ulu Tiram
+zh;乌鲁地南;Ulu Tiram
+fa;یوداو;Udau
+ur;اداؤ;Udau
+fa;توسر;Tusor
+ur;توسر;Tusor
+ms;Tengkera;Kampung Tengkera Pantai Dua
+ms;Titi Prupo;Titi Perupok
+ru;Телага Бату;Telaga Batu
+ms;Kampung Terintidan;Trintidun
+zh;丹绒道光;Tanjung Tokong
+ms;Kampung Sungai Tok Tuntong;Kampung Sungai Tok Tuntung
+zh-Hans;槟榔河;Sungai Pinang
+zh-Hant;雙溪檳榔;Sungai Pinang
+zh;双溪槟榔;Sungai Pinang
+zh-Hant;雙溪里蒙;Sungai Nibong
+zh;双溪里蒙;Sungai Nibong
+ms;Kampung Sungai Kob;Sungai Kob
+ms;Sungai Hilir Kechil;Kampung Sungai Kecil Hilir
+ms;FELCRA Sungai Durian;Sungai Durian
+en;Durian River;Sungai Durian
+ms;FELCRA PPSK Sungai Durian;Sungai Durian
+ms;Kampung Suampai;Kampung Suangpai
+ms;Sikamat;Sikamat New Village
+en;Sikamat;Sikamat New Village
+nl;Sikamat;Sikamat New Village
+zh;小甘密;Sikamat New Village
+ta;செர்க்காம்;Serkam
+ms;Serdang;Seri Kembangan
+ru;Сери Кембанган;Seri Kembangan
+ms;Bandar Serdang;Serdang
+ru;Сентул;Sentul
+zh-Hant;亞沙;Rasah
+ta;ராசா;Rasah
+zh;亚沙;Rasah
+ms;Punang Kelalan;Old Punang Kelalan
+ms;Pulau Ketam;Kampung Pulau Ketam
+ru;Пучонг;Puchong
+ms;Permatang Tengah;Kampung Permatang Tengah
+ms;Pematang Pasir;Permatang Pasir
+ms;Pangulobon;Pengulobon
+ta;பெங்காலான் கெம்பாஸ்;Pengkalan Kempas
+zh;格尼市;Pekan Gurney
+ta;பந்தாய் ரெமிஸ்;Pantai Remis
+zh;班台;Pantai Remis
+en;On Lok Village;Kampung On Lok
+ms;On Lok;Kampung On Lok
+ms;Ogan;Kampung Ogan
+ms;Menkuang Titi;Mengkuang Titi
+ms;Menkuang;Mengkuang Titi
+ms;Kampung Malubang;Kampung Bawing
+en;Mancap Umboo;Kampung Mancap Umboo
+ar;لوكوت;Lukut
+zh-Hans;芦骨;Lukut
+zh-Hant;蘆骨;Lukut
+ur;لوکوت;Lukut
+ta;லுக்குட்;Lukut
+zh;盧骨;Lukut
+ms;Lubok Jerai;Kampung Lubok Jerai
+ms;Kampong Lubok Jerai;Kampung Lubok Jerai
+ms;Lubok Binjal;Lubuk Binjal
+ms;Kampung Luru Kecil;Kampung Loro Kecil
+en;Long Ugong;Long Ugog
+nl;Long Ugong;Long Ugog
+ms;Bong Talal Buda;Long Talal Buda
+ms;Long Sobing;Long Sobeng
+en;Long Berayong;Punang Berayong
+nl;Long Berayong;Punang Berayong
+su;Lima Warung;Lima Kedai
+ta;லீமா கெடாய்;Lima Kedai
+zh;五间店;Lima Kedai
+zh-Hant;力僑;Lekir
+zh;力侨;Lekir
+ms;Kubang Siam;Kampung Kubang Siam
+ru;Куанг;Kuang
+ja;クアラ・ケチル;Kuala Ketil
+ta;கோலா கெட்டில்;Kuala Ketil
+zh;瓜拉吉底;Kuala Ketil
+ko;케랑가스;Keranggas
+zh;加拉巴沙威;Kelapa Sawit
+ru;Кампунг Кангкар Теберау;Kampung Kangkar Teberau
+ms;Kampung Hulu Teris;Kampung Ulu Tris
+ms;Hulu Teris;Kampung Ulu Tris
+ms;Ulu Tris;Kampung Ulu Tris
+ms;Kampung Ulu Sedim;Kampung Hulu Sedim
+ms;Kampung Ulu Dingin;Kampung Hulu Dingin
+ms;Kampong Tong Pelu;Kampung Tong Pelu
+ms;Tok Bali;Kampong Tok Bali
+ms;Kampung Titi Gajah;Titi Gajah
+ms;Kampung Telok;Kampung Teluk Sungai Dua
+ms;Telaga Papan;Kampung Telaga Papan
+ms;Kampung Tebengau;Tebengau
+ms;Kampung Tasik Junjung;Kampung Tasek Junjong
+ms;Kampung Tanjung Nipah;Kampong Tanjong Nipah
+ms;Tanjong Minyak;Kampung Tanjung Minyak
+ms;Tanjung Minyak;Kampung Tanjung Minyak
+ms;Tanjong Keling;Kampung Tanjung Keling
+ms;Tanjung Keling;Kampung Tanjung Keling
+ms;Tanjong Kling;Kampung Tanjung Keling
+ms;Tanjung Kling;Kampung Tanjung Keling
+en;Tajar;Kampong Tajar
+ms;Kampung Sungai Udang Kechil;Kampung Sungai Udang Kecil
+ms;Sungai Udang Besar;Kampung Sungai Udang Besar
+ms;Sungai Rambai;Kampong Sungai Rambai
+en;Sungai Rambai;Kampong Sungai Rambai
+ta;சுங்கை ரம்பை;Kampong Sungai Rambai
+nl;Sungai Rambai;Kampong Sungai Rambai
+ms;Kampung Sungai Raba;Kampong Sungai Raba
+ms;Kampung Sungai Puruh;Kampong Sungai Purun
+ms;Kampung Sungai Pinang Kechil;Kampong Sungai Pinang Kechil
+ms;Sungai Penchala;Kampung Sungai Penchala
+en;Penchala River Village;Kampung Sungai Penchala
+ms;Kampong Sungai Karas;Kampung Sungai Karas
+ru;Кампунг Сунгаи Глугур;Kampung Sungai Glugur
+ms;Kampong Sungai Gatal;Kampung Sungai Gatal
+ms;Kampung Sungai 2;Kampung Sungai Dua
+ms;Kampung Sungai Lias;Kampung Sungai Che Lias
+ms;Kampung Sungai Baong;Kampung Sungai Baung
+ms;Kampung Sungai Baharu Tengah;Sungai Baharu
+ru;Кампунг Сунгаи Ара;Kampung Sungai Ara
+ms;Si Rusa;Kampung Sirusa
+ms;Kampong Sireh;Kampung Sireh
+ms;Kampong Sinempuan;Kampung Sinampuan
+ms;Simpang Pulai;Kampung Simpang Pulai
+ms;Kampong Simpang Empat Kuar;Kampung Simpang Empat Kuar
+ms;Kampung Sijangkang;Kampong Sijangkang
+ms;Sijangkang;Kampong Sijangkang
+en;Sidam;Kampong Sidam
+ms;Kampung Serdang Belah;Kampong Serdang Belah
+ms;Kampung Seraya;Kampong Seraya
+ms;Kampung Sameliang;Kampung Semeliang
+ms;Selang;Kampung Selang
+ms;Kampung Sedim No. 2;Kampung Sedim Nombor Dua
+ms;Kampong Seberang Tok Soh;Kampung Seberang Tok Soh
+ms;Kampong Sebelah;Kampung Sebelah
+ms;Kampung Sala Kechil;Sala Kechik
+ms;Kampong Pong Manis;Kampung Pong Manis
+en;Pondok Upeh;Kampung Pondok Upih
+en;Pondok Upih;Kampung Pondok Upih
+ms;Kampong Peropot;Kampung Peropot
+ms;Kampong Permatang Nyior;Kampung Permatang Nyior
+ms;Kampung Pengkalan Macang;Kampung Pengkalan Machang
+ms;Kampung Pengkalan Kundor;Pengkalan Kundor
+ms;Kampung Peng Besar;Kampung Pengkalan Besar
+ta;பெண்டாங்;Pendang
+ms;Kampung Pendamaran;Kampong Pendamaran
+ms;Kampong Plaman Sedaun;Kampong Pelaman Sedaun
+ms;Sidaun;Kampong Pelaman Sedaun
+en;Long Beach (Small Perhentian Island);Kampung Pasir Panjang
+ru;Перхентианские острова;Kampung Pasir Panjang
+ms;Kampong Pasir Mas;Kampung Pasir Mas
+ru;Перхентианские острова;Kampung Pasir Hantu
+ms;Kampung Parit Empat;Kampung Parit 4
+ms;Kampung Parit 4 Sungai Burong;Kampung Parit 4
+ms;Kampong Pantai Perai;Kampung Pantai Perai
+ms;Kampong Pak Limah;Kampung Pak Limah
+ms;Kampong Pajak Emah;Kampung Pajak Emah
+zh-Hant;巴當爪哇;Kampong Padang Jawa
+ms;Padang Jawa;Kampong Padang Jawa
+ja;パダン・ジャワ;Kampong Padang Jawa
+en;Padang Jawa;Kampong Padang Jawa
+jv;Padang Jawa;Kampong Padang Jawa
+nl;Padang Jawa;Kampong Padang Jawa
+zh;巴当爪哇;Kampong Padang Jawa
+ms;Kampung Besar;Padang Hang
+ms;Kampong Padang Halban;Kampung Padang Halban
+ms;Kampong Padang Chenok;Kampung Padang Chenok
+ms;Mundai;Kampong Mundai
+ms;Bandar Merbok;Kampong Merbok
+de;Menumbok;Kampong Menumbok
+ms;Menumbok;Kampong Menumbok
+en;Menumbok;Kampong Menumbok
+nl;Menumbok;Kampong Menumbok
+zh;孟奴卜;Kampong Menumbok
+ms;Kampong Matang Kedundong;Kampung Matang Kedundong
+ms;Masjid Tanah;Kampong Masjid Tanah
+ms;Kampong Manggol;Kampung Manggol
+ms;Kampung Manggul;Kampung Manggol
+zh-Hant;萬茂;Kampung Mambau
+en;Mambau;Kampung Mambau
+ta;மம்பாவ்;Kampung Mambau
+nl;Mambau;Kampung Mambau
+zh;万茂;Kampung Mambau
+ms;Kampung Mak Kemas;Kampong Mak Kemas
+ms;Kampung Makau Suah;Kampung Makam Suah
+ms;Machap Baru;Kampung Machap Baru
+ms;Kampung Macang Bubuk;Kampung Machang Bubok
+th;บ้านลูโบ๊ะฆง;Ban Lu Bo Khong
+ms;Kampung Lubuk Gung;Ban Lu Bo Khong
+ru;Ленггонг;Lenggong
+it;Valle di Lenggong;Lenggong
+ta;லெங்கோங்;Lenggong
+zh;玲珑;Lenggong
+zh-Hant;玲瓏;Lenggong
+ne;लेङ्गगोङ;Lenggong
+ja;レンゴン渓谷;Lenggong
+ms;Kampung Lasau Minsod;Kampung Lasau Minunsud
+ru;Лаланг;Kampung Lalang
+ms;Lajau;Kampung Lajau
+ms;Kampong Kubang Besar;Kampung Kubang Besar
+ms;Kampong Kuala Jerong;Kampung Kuala Jerong
+ms;Kampong Kolombuong;Kampung Kolombuong
+ms;Kampong Kituntul;Kampung Kituntul
+ms;Krubong;Kampung Kerubong
+en;Datuk Keramat Village;Kampong Datuk Keramat
+ms;Datuk Keramat;Kampong Datuk Keramat
+ms;Kampung Kelanang;Kampong Kelanang
+ms;Kampung Kebun Bahru;Kampong Kebun Baharu
+zh;水池路;Kampung Kayu Ara Pasong
+ms;Kampong Joljanin;Kampung Joljanin
+ms;Kampong Jelutong;Kampung Jelutong
+ms;Kampong Jawa;Kampung Jawa
+ms;Kampung Temiang;Kampung Jalan Kim Kee
+ru;Ийок;Ijok
+ms;Kampung Haji Mohamad Shariff;Kampung Haji Mohamad Sharif
+ms;Kampung Haji Mohamad Sariff;Kampung Haji Mohamad Sharif
+ms;Kampung Haji Mohd Shariff;Kampung Haji Mohamad Sharif
+en;Gong Balai;Kampung Gong Balai
+nl;Gong Balai;Kampung Gong Balai
+ms;Kampung Gadong Site C;Kampung Gadong
+ms;Kampung Endah;Kampong Endah
+ms;Dungun;Kampong Dungun
+ms;Kampung Derga;Derga
+ms;Chui Chak;Kampung Chui Chak
+ms;Chikus;Kampong Chikus
+en;Chikus;Kampong Chikus
+ta;சிக்குசு;Kampong Chikus
+nl;Chikus;Kampong Chikus
+zh;吉古斯;Kampong Chikus
+ms;Kampong Chepoh;Kampung Chepoh
+ms;Cheng;Kampung Cheng
+ms;Chenderong Balai;Kampong Chenderong Balai
+ms;Changkat Keruing;Kampung Cangkat Keruing
+ms;Kampung Changkat Dain;Kampung Cangkat Dain
+ms;Kampung Cangkat Belangkor;Kampung Changkat Belangkor
+ms;Kampung Changkat Belengkor;Kampung Changkat Belangkor
+ms;Kampung Changkat;Kampung Cangkat
+ms;Bukit Beruang;Kampung Bukit Beruang
+ms;Bukit Bruang;Kampung Bukit Beruang
+ms;Kampong Birah;Kampung Birah
+ms;Kampong Betong;Kampung Betong
+zh-Hant;峇都蠻;Kampung Batu Uban
+vi;Batu Uban;Kampung Batu Uban
+th;บาตูอูบัน;Kampung Batu Uban
+ms;Batu Uban;Kampung Batu Uban
+en;Batu Uban;Kampung Batu Uban
+ta;பத்து உபான்;Kampung Batu Uban
+nl;Batu Uban;Kampung Batu Uban
+zh;峇都蛮;Kampung Batu Uban
+ms;Kampung Batu Tiga;Kampung Batu Tiga Jalan Bangi
+ms;Kampung Batu Lima;Kampong Batu Lima New Village
+ru;Бату-Ферринги;Kampung Batu Feringgi
+ms;Kampung Batu Dua Puloh Tiga;Kampung Batu 23 Sungai Nibong
+ms;Kampung Batu 23;Kampung Batu 23 Sungai Nibong
+ms;Batang Melaka;Kampung Batang Melaka Ulu
+ms;Batang Melaka Ulu;Kampung Batang Melaka Ulu
+ru;Кампунг Бару Субанг;Kampung Baru Subang
+ms;Kampong Banyok;Kampung Banyok
+ms;Kampong Banting;Kampung Banting
+ms;Kampong Banai;Kampung Banai
+ms;Kampung Baharu Ampang;Kampung Ampang Baru
+ms;Kampong Baru;Kampung Baharu
+ms;Kampong Baharu;Kampung Baharu
+ms;Kampung Baru;Kampung Baharu
+ms;Kampung Baharu;Kampong Baharu
+en;Ayer Hitam;Kampung Ayer Hitam
+ms;Kampong Aru;Kampung Aru
+ms;Kampung Anak Bukit;Anak Bukit
+ms;Kampong Amir;Kampung Amir
+zh;柔府;Juru
+ms;Jugra;Jugra Lama
+ar;جوكرا;Jugra
+ur;جوگرا;Jugra
+ta;ஜுக்ரா;Jugra
+zh;蚶山;Jugra
+ja;ジュアセ;Juasseh
+ta;சுவாசே;Juasseh
+zh;爪西;Juasseh
+zh;增江;Jinjang
+en;J-Town;Jinjang
+zh-Hant;瑤倫;Jerlun
+zh;瑶伦;Jerlun
+ur;جنگکر;Jangkar
+ja;イナナム;Inanam
+ms;Guak Petai;Guar Petai
+en;Gertak Sanggul;Kampung Gertak Sanggul
+nl;Gertak Sanggul;Kampung Gertak Sanggul
+yue;Ziu Laai;Cheras
+ta;செராஸ்;Cheras
+ru;Черас;Cheras
+th;บูกิตปายง;Bukit Payung
+en;Bukit Payong;Bukit Payung
+ta;புக்கிட் பாயோங்;Bukit Payung
+nl;Bukit Payong;Bukit Payung
+zh;武吉巴容;Bukit Payung
+ms;Kampung Baharu Bukit Bulat;Machap
+ms;Kampung Bukit Bulat;Machap
+zh-Hans;铁山;Bukit Besi
+ta;புக்கிட் பீசி;Bukit Besi
+zh;鐵山;Bukit Besi
+ms;Bukit Besar;Kampung Bukit Besar
+ms;Budok Aru;Budok Atu
+en;Bertam;Kampung Bertam Ulu
+zh-Hant;望萬;Bemban
+ta;பெம்பான்;Bemban
+zh;望万;Bemban
+es;Benbam;Bemban
+ru;Бембан;Bemban
+ms;Bebantul;Babantul
+ja;バトゥ・ブレンダム;Batu Berendam
+ta;பத்து பிரண்டாம்;Batu Berendam
+zh;峇株安南;Batu Berendam
+ms;Bagan Parit Sungai Batang;Kampung Bagan Sungai Parit Batang
+zh-Hant;烏暹;Bagan Nakhoda Omar
+zh;乌暹;Bagan Nakhoda Omar
+ta;பாகான் லுவார்;Bagan Luar
+ms;Bagan Lipas;Kampung Bagan Lipas
+ms;Bagan Lebai Tahir;Kampung Bagan Lebai Tahir
+ms;Ara Kuda;Kampung Ara Kuda
+ms;Anantai;Amantai
+fa;اجائو نانگا;Ajau Nanga
+en;Templer;Templer Bestari
+en;Templer Park;Templer Bestari
+ms;Taman Templer;Templer Bestari
+en;Bukit Keteri;Kampung Bukit Keteri
+ru;Пантай-Кок;Kampung Kok
+en;Pantai Kok;Kampung Kok
+ms;Kampung Charok Kelian;Kampung Kelian
+ms;Kampung Ketengga;Kampung Seri Ketengga
+ms;Sik Dalam;Sik
+ms;Kampung Simpang 3;Kampung Simpang Tiga
+ms;Taman Pulasan 2;Taman Pulasan Dua
+ms;Taman Saga 2;Taman Saga Dua
+ms;Taman Lengkuas;Lengkuas
+ms;Taman Dahlia 1;Taman Dahlia Satu
+ms;Kampung Gunong;Gunong
+ms;Kampung Simpang 4;Kampung Simpang Empat
+ms;Simpang 4;Simpang Empat
+ms;Kampung Tengas Hulu;Kampung Hulu Tengas
+ms;Macang Bubuk;Machang Bubok
+ms;Kampong Perak;Kampung Perak
+ms;Kampong Dock;Kampung Dock
+zh-Hant;詩不朗再也;Seberang Jaya
+fa;سبرانگ جایا;Seberang Jaya
+ta;செபராங் ஜெயா;Seberang Jaya
+zh;诗不朗再也;Seberang Jaya
+ms;Tanjung Bunga;Tanjung Bungah
+zh;丹绒武雅;Tanjung Bungah
+ms;Kampung Tiga Ratus;Kampung Tiga Ratus Kaki
+ms;Sungai Kechil Camp;Perkampungan Sungai Kecil
+ru;Кота Куала Муда;Kota Kuala Muda
+ms;Kampung Kiew;Kampung Kiyu
+ms;Kampung Kiu;Kampung Kiyu
+ms;Desa KEDA Bukit Kura;Kampung KEDA Bukit Kura
+ja;カムポン・ラジャ;Kampung Lajak
+ms;Kampung Padang Krasak;Kampung Padang Kerasak
+ms;Kampong Padang Krasak;Kampung Padang Kerasak
+ms;Kampong Tanjong Piring;Kampung Tanjung Piring
+ms;Kampong Kota Aur;Kampung Kota Aur
+ms;Kampung Sungai Siput;Kampung Charok Siput
+zh-Hant;柏邁蘇里/柏麥蘇里;Bandar Permaisuri
+ta;பண்டார் பரமேசுவரி;Bandar Permaisuri
+zh;柏迈苏里;Bandar Permaisuri
+ms;Permaisuri;Bandar Permaisuri
+ru;Куала-Бесут;Kampung Kuala Besut
+es;Ciberjaya;Cyberjaya
+ja;サイバージャヤ;Cyberjaya
+ko;사이버자야;Cyberjaya
+th;ไซเบอร์จายา;Cyberjaya
+ms;Taman Bercham Aman;Bercham
+ru;Берчам;Bercham
+en;Perak;Kampung Perak
+ms;Kampung Seri Ampang;Kampung Sri Ampang
+ms;Kampung Belengkor;Kampung Belangkor
+zh-Hant;東南鎮;Bandar Tenggara
+zh;东南镇;Bandar Tenggara
+ms;Tenggara;Bandar Tenggara
+ms;FELDA Inas Utara dan Selatan;Kemajuan Tanah Inas Utara dan Selatan
+ms;FELDA Inas;Kemajuan Tanah Inas Utara dan Selatan
+ms;Inas;Kemajuan Tanah Inas Utara dan Selatan
+zh;美乐花园;Taman Melodies
+en;Century Garden;Taman Century
+en;Mount Austin;Taman Mount Austin
+zh-TW;茂奧斯汀花園;Taman Mount Austin
+zh-Hant;茂奧斯汀;Taman Mount Austin
+zh;百合花园;Taman Molek
+ms;Taman Johor Jaya;Johor Jaya
+ta;ஜொகூர் ஜெயா;Johor Jaya
+ms;Permas Jaya;Taman Permas Jaya
+ms;Tampok;Kampung Parit Belahan Tampok
+ms;FELDA Bukit Besar;Kemajuan Tanah Bukit Besar
+ms;Bukit Besar;Kemajuan Tanah Bukit Besar
+ms;FELDA Pasir Raja;Kemajuan Tanah Pasir Raja
+ms;Pasir Raja;Kemajuan Tanah Pasir Raja
+ms;Kemajuan Tanah Bukit Ramun;Kemajuan Tanah Bukit Ramon
+ms;FELDA Bukit Ramon;Kemajuan Tanah Bukit Ramon
+ms;FELDA Bukit Ramun;Kemajuan Tanah Bukit Ramon
+ms;Bukit Ramon;Kemajuan Tanah Bukit Ramon
+ms;Bukit Ramun;Kemajuan Tanah Bukit Ramon
+ms;Ulu Tebrau;Kemajuan Tanah Ulu Tebrau
+ms;FELDA Ulu Tebrau;Kemajuan Tanah Ulu Tebrau
+ms;Al-Muktafi Billah Shah;Bandar Al-Muktafi Billah Shah
+ms;Al-Muktafi Billah Shah City;Bandar Al-Muktafi Billah Shah
+ta;தஞ்சோங் பிடாரா;Tanjung Bidara
+ms;Kampung Batu 1 Sapintas;Kampung Batu Satu Sepintas
+ms;FELDA Neram Satu;Neram Satu
+ms;Bukit Goh;Kemajuan Tanah Bukit Goh
+ms;FELDA Bukit Goh;Kemajuan Tanah Bukit Goh
+ms;FELDA Sungai Pancing Timur;Kemajuan Tanah Sungai Pancing Timur
+ms;Sungai Pancing Timur;Kemajuan Tanah Sungai Pancing Timur
+en;East Pancing River;Kemajuan Tanah Sungai Pancing Timur
+ms;Panchang Bedena;Kampung Panchang Bedena
+ms;Banting Acheh;Bagan Terap
+ms;Kemajuan Tanah Bukit Damar;FELDA Bukit Damar
+ms;Bukit Damar;FELDA Bukit Damar
+ms;Sungai Pancing Selatan;Kemajuan Tanah Sungai Pancing Selatan
+ms;FELDA Sungai Pancing Selatan;Kemajuan Tanah Sungai Pancing Selatan
+en;South Pancing River;Kemajuan Tanah Sungai Pancing Selatan
+ms;Simpang Durian;Kampung Simpang Durian
+ms;FELDA Tembangau;Kemajuan Tanah Tembangau
+ms;Tembangau;Kemajuan Tanah Tembangau
+ms;Bandar Muadzam Shah;Muadzam Shah
+en;Muadzam Shah City;Muadzam Shah
+zh-Hant;龍溪;Dengkil
+th;เดิงกิล;Dengkil
+ta;டெங்கில்;Dengkil
+zh;龙溪;Dengkil
+ms;Tun Razak;Bandar Tun Razak
+ms;Bandar Jengka;Bandar Tun Razak
+ms;Sepang Putra;Taman Sepang Putra
+ms;Pantai Sepang Putra;Taman Sepang Putra
+ms;Desaru;Bandar Penawar
+ms;Patar Sebiling;Long Meringau
+ms;Bandar Baru Sri Petaling;Sri Petaling
+ms;Seri Petaling;Sri Petaling
+ms;Kampung Longgom;Kampung Longgom Kecil
+ms;Kampung Suanbat;Kampung Mangkubau Darat
+ms;Kampung Karangan;Kampung Kakarangan
+ms;Kampung Kandiga;Kampung Kandinga
+ms;Kampung Datung;Kampung Datong
+en;Port Weld;Kampung Kuala Sepetang
+zh-Hant;斯里曼絨;Seri Manjung
+ta;ஸ்ரீ மஞ்சோங்;Seri Manjung
+zh;斯里曼绒;Seri Manjung
+ru;Сери Манюнг;Seri Manjung
+en;Teh;Kampung Teh
+zh;美律谷;Lurah Bilut
+ms;Gedung Siam;Kampung Gedung Siam
+ms;FELDA Lepar Hilir 3;Kampung Gedung Siam
+ms;Lepar Hilir 3;Kampung Gedung Siam
+ms;Lepar;Kampung Ladang Sawit Lepar
+ms;Selayang;Selayang Baru Utara
+ru;Селаянг Бару Утара;Selayang Baru Utara
+ms;Kampung Seri Kundang;Kampung Melayu Seri Kundang
+ms;FELDA Bukit Kepayang;Kemajuan Tanah Bukit Kepayang
+ms;Bukit Kepayang;Kemajuan Tanah Bukit Kepayang
+ms;Sebertak;Kemajuan Tanah Sebertak
+ms;FELDA Sebertak;Kemajuan Tanah Sebertak
+ms;FELDA Tementi;Kemajuan Tanah Tementi
+ms;Tementi;Kemajuan Tanah Tementi
+ms;Rentam;Kemajuan Tanah Rentam
+ms;FELDA Rentam;Kemajuan Tanah Rentam
+en;Lyndon Baines Johnson Village;Kemajuan Tanah Lyndon Baines Johnson
+ms;Kampung LBJ;Kemajuan Tanah Lyndon Baines Johnson
+en;Lyndon Baines Johnson;Kemajuan Tanah Lyndon Baines Johnson
+ms;FELDA Lyndon Baines Johnson;Kemajuan Tanah Lyndon Baines Johnson
+zh-Hant;丹絨怡保;Tanjung Ipoh
+zh;丹绒怡保;Tanjung Ipoh
+zh-Hant;龍城花園;Taman Seremban Jaya
+zh;龙城花园;Taman Seremban Jaya
+ms;Taman National Land Finance Co-operative Society;Taman NLFCS
+ms;Chemplak;Kemajuan Tanah Chemplak
+ms;FELDA Chemplak;Kemajuan Tanah Chemplak
+ms;FELDA Chemplak Barat;Kemajuan Tanah Chemplak Barat
+ms;Chemplak Barat;Kemajuan Tanah Chemplak Barat
+ms;Kampung Kangkar Baru;Kangkar Baru
+en;New Kangkar Village;Kangkar Baru
+ms;Kampung Kang Kar Baharu;Kangkar Baru
+ms;Kangkar Baharu;Kangkar Baru
+ms;Bukit Aping Barat;Kemajuan Tanah Bukit Aping Barat
+ms;FELDA Bukit Aping Barat;Kemajuan Tanah Bukit Aping Barat
+en;West Aping Mountain;Kemajuan Tanah Bukit Aping Barat
+ms;FELDA Bukit Aping Timur;Kemajuan Tanah Bukit Aping Timur
+ms;Bukit Aping Timur;Kemajuan Tanah Bukit Aping Timur
+en;East Aping Mountain;Kemajuan Tanah Bukit Aping Timur
+ms;FELDA Simpang Waha;Kemajuan Tanah Simpang Waha
+ms;FELDA Waha;Kemajuan Tanah Simpang Waha
+ms;Waha;Kemajuan Tanah Simpang Waha
+ms;FELDA Bukit Waha;Kemajuan Tanah Simpang Waha
+ms;Bukit Waha;Kemajuan Tanah Simpang Waha
+ms;FELDA Bukit Easter;Kemajuan Tanah Bukit Easter
+ms;Bandar Easter;Kemajuan Tanah Bukit Easter
+ms;Bukit Easter;Kemajuan Tanah Bukit Easter
+en;Easter City;Kemajuan Tanah Bukit Easter
+ms;Lok Heng;Kemajuan Tanah Lok Heng Barat
+ms;Serkat;Pekan Serkat
+ms;Kampong Serkat;Pekan Serkat
+zh-Hant;皇后花園;Taman Ungku Tun Aminah
+zh;皇后花园;Taman Ungku Tun Aminah
+zh-Hant;大學城;Taman Universiti
+bn;তামান ইউনিভার্সিটি;Taman Universiti
+zh;大学城;Taman Universiti
+ms;Kampung Kubor;Kampung Kubur
+ms;Teringkap;Taman Teringkap
+zh-Hant;金馬揚;Kemayan
+ta;கெமாயான்;Kemayan
+zh;金马扬;Kemayan
+fr;Nouveaux villages;New Village
+ta;மலாயா புதுக்கிராமங்கள்;New Village
+zh;华人新村;New Village
+zh-Hant;浮羅大華;Pulau Tawar
+zh;浮罗大华;Pulau Tawar
+zh-Hant;寧宜;Linggi
+zh;宁宜;Linggi
+zh-Hant;武吉南寧;Bukit Naning
+zh;武吉南宁;Bukit Naning
+ms;Sungai Pancing Utara;Kemajuan Tanah Sungai Pancing Utara
+ms;FELDA Sungai Pancing Utara;Kemajuan Tanah Sungai Pancing Utara
+en;North Pancing River;Kemajuan Tanah Sungai Pancing Utara
+ja;バンダル・バル・バンギ;Bandar Baru Bangi
+ta;பண்டார் பாரு பாங்கி;Bandar Baru Bangi
+zh;万宜新镇;Bandar Baru Bangi
+zh;金馬士峇魯;Gemas Baharu
+ms;Taman Bukit Sekudai;Taman Bukit Skudai
+zh;依斯干达公主城;Iskandar Puteri
+ta;இஸ்கந்தர் புத்திரி;Iskandar Puteri
+ms;Nusajaya;Iskandar Puteri
+ru;Искандар Путери;Iskandar Puteri
+ru;Каянг;Kajang
+ru;Пантай-Сенанг;Pantai Cenang
+en;Starhill;Bukit Bintang
+en;Star Hill;Bukit Bintang
+ru;Букит Бинтанг;Bukit Bintang
+ms;Puncak Alam;Bandar Puncak Alam
+ru;Кота Дамансара;Kota Damansara
+ms;Kampung Parit Mustafa;Kampung Parit Mustaffa
+ms;Kampung Temaga Dayak;Kampung Tembaga Dayak
+ms;Kampong Klong Kesai;Kampung Klong Kesai
+ms;Kampung Kelong Kesai;Kampung Klong Kesai
+ms;Kampung Tanjong Luar;Kampung Tanjung Luar
+ms;Kampong Belukar;Kampung Belukar
+ms;Kampung Banggol;Kampung Banggul
+ms;Kampung Padang Tok Kamis;Kampung Padang Tok Khamis
+ms;Kampong Bukit Kura;Kampung Bukit Kura
+ms;Kampong Kandang;Kampung Kandang
+ms;Kampong Tanah Merah;Kampung Tanah Merah
+ms;Kampong Bukit Baling;Kampung Bukit Baling
+ms;Kampong Bukit Langsat;Kampung Bukit Langsat
+ms;Kampong Rawa;Kampung Rawa
+ms;Kampong Punggor;Kampung Punggor
+ms;Kampong Tanjong Kanan;Kampung Tanjung Kanan
+ms;Kampung Tanjong Kanan;Kampung Tanjung Kanan
+ms;Kampong Tanjong Kiri;Kampung Tanjung Kiri
+ms;Kampung Tanjong Kiri;Kampung Tanjung Kiri
+ms;Kampong Padang Hassan;Kampung Padang Hassan
+ms;Kampong Padang Nyior A;Kampung Padang Nyior A
+ms;Kampong Padang Nyior B;Kampung Padang Nyior B
+ms;Rumah Chabu;Rumah Chabu Rimao
+ms;Kampung Rumah Mampi;Rumah Mampi
+ms;Kampung Rumah Ngachik;Rumah Ngachik
+ms;Kampong Salim;Kampung Salim
+ms;Rumah Ladom;Rumah Ledom
+ms;Kampong Abau;Kampung Abau
+ms;Kampong Tong Kemu;Kampung Tong Kemu
+ms;Kampong Merogol;Kampung Merogol
+ms;Kampong Lubok Tok Wi;Kampung Lubok Tok Wi
+ms;Taman Desa Sri Emas;Taman Desa Seri Emas
+ms;Taman Sri Nerang;Taman Seri Nerang
+ms;Kampung Baharu;Kampung Baru
+ms;Taman Jati 2;Taman Jati Fasa Dua
+ms;Taman Jati Fasa 2;Taman Jati Fasa Dua
+ms;Taman Jati Fasa II;Taman Jati Fasa Dua
+ms;Kampung Sungai Kechik;Kampung Sungai Kechil
+ms;Kampong Sungei Kechik;Kampung Sungai Kechil
+ms;Kampong Belimbing Kiri;Kampung Belimbing Kiri
+ms;Kampong Belimbing Kanan;Kampung Belimbing Kanan
+ms;Kampong Pong;Kampung Pong
+ms;Kampung Maagak;Kampung Makgak
+ms;Kampong Maagak;Kampung Makgak
+ms;Kampung Mak Gak;Kampung Makgak
+ms;Kampong Kubang Belut;Kampung Kubang Belut
+ms;Kampong Ujong Pong;Kampung Ujong Pong
+ms;Sungai Janing;Kampung Ujong Pong
+ms;Kampung Charok Bongor;Kampung Charok Bangor
+ms;Kampong Charok Bangor;Kampung Charok Bangor
+ms;Kampung Tandor;Kampung Tandop
+ms;Kampong Tandor;Kampung Tandop
+ms;Kampong Bukit Kechil;Kampung Bukit Kechil
+ms;Kampong Gelong Mak Selamah;Kampung Gelong Mak Selamah
+ms;Kampung Batu Empat Belas;Kampung Batu 14
+ms;Kampong Banggol;Kampung Banggol
+ms;Kampung Banggul;Kampung Banggol
+ms;Kampong Bukit Pak Kiau;Kampung Bukit Pak Kiau
+ms;Kampung Bukit Pak Kiaw;Kampung Bukit Pak Kiau
+ms;Tmn. Sena;Taman Sena
+ms;Taman Sena Fasa 2;Taman Sena Fasa Dua
+ms;Kampong Pulau Belanga;Kampung Pulau Belanga
+ms;Kampung Bendang Sepitak;Kampung Bendang Sapitak
+ms;Kampong Bendang Sapitak;Kampung Bendang Sapitak
+ms;Kampong Bukit Getah;Kampung Bukit Getah
+ms;Kampong Telaga Iroh;Kampung Telaga Iroh
+ms;Kampung Telaga Erah;Kampung Telaga Iroh
+ms;Kampong Tandop Besar;Kampung Tandop Besar
+ms;Kampung Pondok Lama;Kampung Bukit Pondok Lama
+ms;Kampung Lancuk Emat;Kampung Lanchuk Ayer Mat
+ms;Taman Kubang Pasu 2;Taman Kubang Pasu Dua
+ms;Taman Kubang Pasu 1;Taman Kubang Pasu Satu
+ms;Taman Jitra 2;Taman Jitra Dua
+ms;Kampung Lebasau;Kampung Labasau
+ms;Kampong Takar Medong;Kampung Takar Medong
+ms;Kampung Bandang Tok Leh;Kampung Bendang Tok Leh
+ms;Taman Seri Changlun 3;Taman Sri Changlun 3
+ms;Taman Sri Changlun Tiga;Taman Sri Changlun 3
+ms;Taman Sri Changlun Fasa 3;Taman Sri Changlun 3
+ms;Taman Seri Changlun 2;Taman Sri Changlun 2
+ms;Taman Sri Changlun Dua;Taman Sri Changlun 2
+ms;Taman Sri Changlun Fasa 2;Taman Sri Changlun 2
+ms;Kampung Batu Dua Puluh Satu;Kampung Batu 21 Jalan Changlun
+ms;Kampung Batu 21 Changlun;Kampung Batu 21 Jalan Changlun
+ms;Kampong Bendang Tok Chai;Kampung Bendang Tok Chai
+ms;Kampong Paya Lantau;Kampung Paya Lantau
+ms;Kampong Padang Pasir;Kampung Padang Pasir
+ms;Taman Permatang Katong;Taman Tsunami
+ms;Kampong Sungai Deraka;Kampung Sungai Deraka
+ms;Kampong Haji Kudong;Kampung Haji Kudong
+ms;Kampung Permatang Kelompang;Kampung Permatang Kelumpang
+ms;Kampong Permatang Kelumpang;Kampung Permatang Kelumpang
+ms;Paya Terbakar;Kampung Paya Terbakar
+ms;Kampong Lorong Kubur;Kampung Lorong Kubur
+ms;Kampong Pa' Abu;Kampung Pak Abu
+ms;Kampong Sungei Dua;Kampung Sungai Dua
+ms;Kampong Kolam;Kampung Kolam
+ms;Kampung Kolam Sungai Dua;Kampung Kolam
+ms;Kampong Petani;Kampung Petani
+ms;Air Itam Dalam;Kampung Air Itam Dalam
+ms;Kampung Air Hitam Dalam;Kampung Air Itam Dalam
+ms;Air Itam Luar;Kampung Air Itam Luar
+ms;Kampung Air Hitam Luar;Kampung Air Itam Luar
+ms;Kampong Lama;Kampung Lama
+ms;Kampong Mani;Kampung Mani
+ms;Kampong Kuala Tawar;Kampung Kuala Tawar
+ms;Kampong Siput;Kampung Siput
+ms;Kampong Kuala Betong;Kampung Kuala Betong
+ms;Kampong Tiras;Kampung Tiras
+ms;Kampung Padang Kedubai;Kampung Padang Kedemdai
+ms;Kampong Tanjong;Kampung Tanjong
+ms;Kampong Empa;Kampung Empa
+ms;Kampong Lembah Arang;Kampung Lembah Arang
+ms;Kampong Lemoh Arang;Kampung Lembah Arang
+ms;Kampong Charok Tok Latah;Kampung Charok Tok Latah
+ms;Kampung Charok Tok Lateh;Kampung Charok Tok Latah
+ms;Kampong Charok Latah;Kampung Charok Tok Latah
+ms;Suasana Permai;Taman Suasana Damai
+ms;Suasana Permai;Taman Suasana Permai
+ms;Kampong Pasir Tambun;Kampung Pasir Tambun
+ms;Suasana Indah;Taman Suasana Indah
+ms;Kampong Kelubi Dalam;Kampung Kelubi Dalam
+ms;Kampong Kelubi Luar;Kampung Kelubi Luar
+ms;Kampong Lubok Jarak;Kampung Lubok Jarak
+ms;Kampong Lubok Itun;Kampung Lubok Itun
+ms;Kampong Penghulu Him;Kampung Penghulu Him
+ms;Kampung Sungai Jagung;Kampung Sungai Jagong
+ms;Kampong Sungei Jagong;Kampung Sungai Jagong
+ms;Rumah Lebong;Rumah Panjang Lebong
+ms;Kampong Sungei Nangar;Kampung Sungai Nangar
+ms;Kampong Telok Muling;Kampung Teluk Muling
+ms;Kampung Telok Muling;Kampung Teluk Muling
+ms;Kampong Sungei Sah;Kampung Sungai Sah
+ms;Kampong Sungei Kebwau;Kampung Sungai Kebwau
+ms;Kampong Sungei Ilas;Kampung Sungai Ilas
+ms;Kemajuan Tanah Chuping;FELDA Chuping
+en;16 Sierra;Bandar 16 Sierra
+ms;Kota Perdana;Taman Kota Perdana
+ms;Mukim Bagan;Durian Burung
+th;ดูเรียนบูรุง;Durian Burung
+ms;Kampong Durian Burong;Kampung Durian Burong
+ms;Kampong Matang Berangan;Kampung Matang Berangan
+ms;Kampung Permatang Berangan;Kampung Matang Berangan
+ms;Kampong Tanjong Pagar;Kampung Tanjung Pagar
+ms;Kampong Tanjong Katong;Kampung Tanjung Katong
+ms;Kampung Seberang Baru;Kampung Sebelah Baru
+ms;Kampong Sebelah Baru;Kampung Sebelah Baru
+ms;Kampong Bangkiai Jaya;Kampung Bangkiai Jaya
+ms;Kampong Silat;Kampung Silat
+ms;Kampong Serugang;Kampung Serugang
+ms;Kampong Sungai Putak;Kampung Sungai Putak
+ms;Kampung Tutus Ilir;Kampung Tutus Hilir
+ms;Kampung Tutus Ulu;Kampung Tutus Hulu
+ms;Kampung Penakup Hulu;Kampung Penekup Indah
+ms;Kampung Penakup Indah;Kampung Penekup Indah
+zh;瓜拉尼鲁斯县;Kuala Nerus
+ms;Kampung Teh Labak;Kampung Teh Lajak
+en;Sri Damansara City;Bandar Sri Damansara
+ms;Pekan Selangau;Selangau
+ms;Kampung Parit Separap;Kampung Separap
+ms;Kampung Baru Cina;Kampung Baru
+ms;Rumah Bansa;Rumah Pilang
+ms;Kampung Bukit Impas;Kampung Ramuyu
+ms;Makasing;Kampung Makasing
+ms;Kerangan Ma;Rumah Sing
+ms;Kampung Rumah Sing;Rumah Sing
+ru;Таман Петалинг;Taman Petaling
+ms;Kampung Parit Haji Moin Satu;Kampung Parit Moin Satu
+ms;Kampung Parit Haji Moin Dua;Kampung Parit Moin Dua
+ms;Tropicana;Tropicana Indah
+ms;Bandar Pinggiran Subang, U5;Bandar Pinggiran Subang
+ms;Subang Impian;Taman Subang Impian
+ms;Taman Subang Impian, U5;Taman Subang Impian
+ms;Taman Subang Idaman, U5;Taman Subang Idaman
+ms;Subang Idaman;Taman Subang Idaman
+ms;Taman Nusa Subang, U5;Taman Nusa Subang
+ms;Taman Subang Murni, U5;Taman Subang Murni
+ms;Taman Subang Damai, U5;Taman Subang Damai
+ms;Mutiara Subang;Taman Mutiara Subang
+ms;Taman Mutiara Subang, U5;Taman Mutiara Subang
+ms;Laman Permai, U5;Laman Permai
+ms;Subang Bestari;Laman Permai
+ms;Taman Subang Bestari, U5;Taman Subang Bestari
+ms;Puteri Subang;Taman Puteri Subang
+ms;Taman Puteri Subang, U5;Taman Puteri Subang
+ms;Greenwood;Taman Greenwood
+en;Greenwood Park;Taman Greenwood
+ms;Taman Perdana Residence;Taman Perdana Residensi
+ms;Perdana Residence;Taman Perdana Residensi
+ms;Perdana Residence 2;Taman Perdana Residence 2
+ms;Taman Sri Melati;Taman Seri Melati
+ms;Taman Melinja;Taman Malinja
+ms;Gamuda Gardens;Bandar Gamuda Gardens
+ms;Taman Kundang Botani;Taman Kundang Botanik
+ms;Gamuda Kundang Estate;Taman Kundang Botanik
+ms;Taman Rahmat Jaya Kundang;Taman Rahmat Jaya
+en;Gombak Setia;Kampung Setia
+ms;Taman Assam Jawa;Assam Jawa
+ms;Taman Tanjong Karang Baru;Taman Tanjung Karang Baru
+ms;Taman Mutiara 1;Taman Mutiara
+ms;Kampung Parit 3 Sungai Burong;Kampung Parit 3
+ms;Kampung Parit 7 Baroh;Kampung Parit 7 Baroh Sekinchan
+ms;Kampung Parit 7/Tali Air 7 Sungai Leman;Kampung Parit 7/Tali Air 7
+ms;Kampung Parit 13;Kampung Parit 13 Sungai Nipah
+ms;Kampung Tali Air 13;Kampung Tali Air 13 Sungai Nipah
+en;OUG;Taman OUG
+en;Overseas Union Garden;Taman OUG
+ms;Ikan Emas;Taman Ikan Emas
+en;Golden Fish;Taman Ikan Emas
+ms;Ttdi;Taman Tun Dr Ismail
+en;Damansara Heights;Bukit Damansara
+ms;Damansara;Bukit Damansara
+en;Bandar Eco Sanctuary;Eco Sanctuary
+ms;Eco Santuari;Eco Sanctuary
+ru;Вангса Маю;Wangsa Maju
+ms;Bandar Seminyih;Seminyih
+zh;士毛月;Seminyih
+en;Shi Mao Yue;Seminyih
+ms;Kuchai;Kuchai Lama
+ms;Taman Kuchai;Kuchai Lama
+ms;Naga Emas;Taman Naga Emas
+en;Golden Dragon;Taman Naga Emas
+ms;Melawati;Taman Melawati
+ms;Taman Malawati;Taman Melawati
+ms;Malawati;Taman Melawati
+ru;Перлинг;Perling
+ta;வேளை;Mukim Pulai
+zh;蒲來;Mukim Pulai
+ru;Муким Пулаи;Mukim Pulai
+ms;Mukim_Penyabong;Penyabong
+ru;Бандар Махкота Черас;Bandar Mahkota Cheras
+en;Tioman;Mukim Tioman
+zh-Hant;壟尾;Paya Terubong
+ru;Пая Терубонг;Paya Terubong
+zh-Hant;武吉佔姆;Bukit Jambul
+en;Wakaf Stan;Kampung Wakaf Stan
+ms;Behrang;Behrang Stesen
+ms;Tun Hussein Onn;Bandar Tun Hussein Onn
+ms;Kemansul;FELDA Kemansul
+ms;Baru Enstek;Bandar Baru Enstek
+en;Enstek New Town;Bandar Baru Enstek
+ms;Enstek;Bandar Baru Enstek
+en;Farlim;Bandar Baru Ayer Itam
+ms;Adela;Felda Gugusan Adela
+ms;FELDA Kledang;Felda Gugusan Adela
+ms;Kledang;Felda Gugusan Adela
+ms;Perkampungan (Felda) Adela Tunggal Sening & Keleda;Felda Gugusan Adela
+ms;FELDA Sening;Felda Gugusan Adela
+ms;Sening;Felda Gugusan Adela
+ms;Olak Lempit;Kampung Olak Lempit
+ru;Сетиа Алам;Setia Alam
+ms;FELDA Kerteh 6;Ketengah Jaya
+ms;Kerteh 6;Ketengah Jaya
+ms;FELDA Kerteh 1;Ketengah Jaya
+ms;Kerteh 1;Ketengah Jaya
+ms;FELDA Kerteh 4;Ketengah Jaya
+ms;Kerteh 4;Ketengah Jaya
+ms;Kinrara;Bandar Kinrara
+ms;Bukit Raja;Bandar Bukit Raja
+ru;Бандар Букит Рая;Bandar Bukit Raja
+ms;Parklands;Bandar Parklands
+en;Parklands City;Bandar Parklands
+ms;Bandar Bukit Tinggi 3;Bandar Parklands
+ms;Bukit Tinggi 3;Bandar Parklands
+en;Bukit Tinggi 3 City;Bandar Parklands
+ms;Bayuemas;Bandar Parklands
+en;Botanic City;Bandar Botanic
+ms;Bandar Botanik;Bandar Botanic
+en;Sri Sendayan City;Bandar Sri Sendayan
+ms;Sendayan;Bandar Sri Sendayan
+ms;Sri Sendayan;Bandar Sri Sendayan
+ms;Springhill;Bandar Springhill
+en;Springhill City;Bandar Springhill
+ms;Country Homes;Bandar Country Homes
+en;Country Homes City;Bandar Country Homes
+ms;Proton;Proton City
+ms;Bandar Raya Proton;Proton City
+ms;Bandaraya Proton;Proton City
+ms;Kampung Soeharto;FELDA Soeharto
+ms;Kampong Soeharto;FELDA Soeharto
+ms;Soeharto;FELDA Soeharto
+ms;FELDA Sungai Tengi;FELDA Soeharto
+ms;Sungai Tengi;FELDA Soeharto
+ms;Sungai Dusun;FELDA Soeharto
+ms;Lubek Sireh;FELCRA Lubek Sireh
+ms;Sungai Way-Subang 2;SS2
+ms;Sungai Koyan 3;Sungai Koyan
+ms;Sungai Koyan 2;Sungai Koyan
+ms;Sungai Koyan 1;Sungai Koyan
+ms;Saujana Utama;Bandar Saujana Utama
+en;Saujana Utama City;Bandar Saujana Utama
+ru;Букит Рахман Путра;Bukit Rahman Putra
+ms;Maokil;FELDA Maokil
+ms;Tasik Puteri;Bandar Tasik Puteri
+en;Puteri Lake City;Bandar Tasik Puteri
+ru;Бандар Тасик Путери;Bandar Tasik Puteri
+en;Bangsar South;Bukit Kerinchi
+ms;Kampung Bharu;Kampung Baru
+ru;Титивангса;Titiwangsa
+ms;Metro City;Metro City New Township
+ms;MetroCity;Metro City New Township
+ms;Laguna Merbok;Bandar Laguna Merbok
+ms;Putra Kulai;Bandar Putra Kulai
+ms;Scientex;Taman Scientex
+en;Scientex Park;Taman Scientex
+ms;Seri Alam;Bandar Seri Alam
+en;Seri Alam City;Bandar Seri Alam
+ru;Бандар Сери Алам;Bandar Seri Alam
+ms;Semenchu;FELDA Semenchu
+ms;Chini;FELDA Chini
+ms;Salak Tinggi;Bandar Baru Salak Tinggi
+en;New Salak Tinggi City;Bandar Baru Salak Tinggi
+ru;Бандар Утама;Bandar Utama
+ru;Букит Джалил;Bukit Jalil
+ms;Taib Andak;FELDA Taib Andak
+ms;Kampung Buntar;Kampung Temeris
+ms;Kampung Parit Jawaa;Kampung Parit Jawa
+ms;Taman Sri Sulong;Taman Seri Sulong
+ms;Taman Sri Sulung;Taman Seri Sulong
+ms;Kampung Parit Hilir;Kampung Parit Kassim Hilir

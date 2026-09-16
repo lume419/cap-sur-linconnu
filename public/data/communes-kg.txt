@@ -1,0 +1,2491 @@
+0;69.3684,39.6978;KG-09;Batken;Dinau
+0;70.9533,39.6444;KG-09;Batken;Korgon
+0;69.6486,39.9222;KG-09;Batken;Koshbulak
+0;72.0066,39.8176;KG-09;Batken;Razvaliny Urakain
+0;73.4333,39.9167;KG;;Uch-Tyube
+0;72.8027,39.9760;KG-08;Osh Region;Turpachaty
+0;71.2790,39.9029;KG-09;Batken;Teskey
+0;72.2667,39.9333;KG;;Tegermach
+1693;71.1083,39.9026;KG-09;Batken;Tayan
+0;70.5500,39.8500;KG;;Tash-Kurgan
+0;72.4418,39.4610;KG-08;Osh Region;Zimov’ye Taka
+15019;69.5678,39.9365;KG-09;Batken;Suluktu
+0;73.4900,39.9704;KG-08;Osh Region;Chiy-Talaa
+0;73.2667,39.8333;KG;;Shumkar
+0;72.1842,39.9172;KG-09;Batken;Zhylan-Auz
+0;70.3566,39.9996;KG-09;Batken;Razvaliny Shadymyr
+0;73.2484,39.7288;KG-08;Osh Region;Sary-Tash
+0;70.1723,39.8835;KG-09;Batken;Ravat
+0;70.9100,39.7503;KG-09;Batken;Kayyndy
+0;73.8718,39.6456;KG-08;Osh Region;Nura
+0;73.4650,39.9478;KG-08;Osh Region;Yrgayty
+0;69.7333,39.8500;KG;;Maat-Murat
+0;72.1020,39.7969;KG-09;Batken;Lyangar
+0;72.9640,39.9654;KG-08;Osh Region;Kyzyl-Tala
+1100;72.2715,39.5656;KG-08;Osh Region;Kyzyl-Eshme
+2204;69.9356,39.8890;KG-09;Batken;Korgon
+0;72.9667,39.9000;KG;;Kojokël’
+0;73.4126,39.9017;KG-08;Osh Region;Kichi-Karakol
+11857;71.3418,39.9432;KG-09;Batken;Aydarken
+7149;70.0147,39.8443;KG-09;Batken;Katran
+0;72.7455,39.9101;KG-08;Osh Region;Kashka-Suu
+0;70.3038,39.6703;KG-09;Batken;Karavshin
+0;72.2525,39.9278;KG-09;Batken;Kara-Otek
+0;72.1872,39.5180;KG-08;Osh Region;Kara-Shibak
+0;72.7187,39.6619;KG-08;Osh Region;Kara-Kabak
+34219;69.5276,39.8389;KG-09;Batken;Razzakov
+0;73.8987,39.6793;KG-08;Osh Region;Irkeshtam
+0;73.7827,39.7238;KG-08;Osh Region;Ikizyak
+0;71.0220,39.8681;KG-09;Batken;Gaz
+0;73.4873,39.9784;KG-08;Osh Region;Jergetal
+0;72.1169,39.5147;KG-08;Osh Region;Jar-Bashi
+0;69.3703,39.9688;KG-09;Batken;Choyunchu
+6421;72.2052,39.5527;KG-08;Osh Region;Daroot-Korgon
+0;69.9067,39.9781;KG-09;Batken;Churbek
+0;72.1833,39.9167;KG;;Chilandy
+0;72.1793,39.7315;KG-09;Batken;Chatynsy
+0;71.2105,39.9439;KG-09;Batken;Chechme
+0;73.0093,39.9798;KG-08;Osh Region;Ak-Jylga
+0;72.1083,39.5377;KG-08;Osh Region;Jash-Tilek
+0;70.7399,39.8598;KG-09;Batken;Bulak-Bashi
+0;73.2683,39.5078;KG-08;Osh Region;Berdoba
+0;71.0421,39.7761;KG-09;Batken;Augul
+0;69.8504,39.9970;KG-09;Batken;Andarkhan
+8001;69.4640,39.7685;KG-09;Batken;Andarak
+0;73.5111,39.9519;KG-08;Osh Region;Ak-Talaa
+0;73.2373,39.8085;KG-08;Osh Region;Ak-Bosogo
+0;72.4991,39.4699;KG-08;Osh Region;Achyk-Suu
+0;71.2228,39.9196;KG-09;Batken;Kaspedan
+0;71.0269,40.2594;KG-09;Batken;Zar-Tash
+0;72.6806,40.5598;KG-08;Osh Region;Kerme-Too
+0;72.5460,40.9941;KG-03;Jalal-Abad Region;Sakaldy
+0;72.1809,40.4588;KG-08;Osh Region;Nayman
+0;72.1992,41.0091;KG-03;Jalal-Abad Region;Nooshkent
+0;72.9503,40.8151;KG-03;Jalal-Abad Region;Khanabad
+0;71.6500,41.6099;KG-03;Jalal-Abad Region;Kara-Bashat
+0;72.5203,40.9815;KG-03;Jalal-Abad Region;Chon-Bagysh
+0;72.4127,40.6025;KG-08;Osh Region;Chertik
+0;72.5045,41.0051;KG-03;Jalal-Abad Region;Jany-Kyshtak
+0;71.8506,41.3683;KG-03;Jalal-Abad Region;Atana
+0;72.6333,41.8500;KG;;Altynamach
+0;71.0541,40.1880;KG-09;Batken;Ak-Turpak
+0;74.5768,43.1060;KG-02;Chuy Region;Vasil’evka
+0;74.0865,43.1075;KG-02;Chuy Region;Tölök
+0;74.3519,43.1908;KG-02;Chuy Region;Tomonku Chuy
+0;74.1007,43.0342;KG;;Niva-Truda
+0;74.6872,43.0077;KG-02;Chuy Region;Lugovoye
+0;74.7198,42.9900;KG-02;Chuy Region;Moldovanovka
+0;74.9826,42.0302;KG-04;Naryn Region;Kyzart
+0;79.1489,42.7600;KG-07;Issyk-Kul;Karkara
+0;74.2362,43.2180;KG-02;Chuy Region;Kamyshanovka
+0;74.9054,42.5961;KG-02;Chuy Region;Ysyk-Ata
+0;71.3325,42.5030;KG-06;Talas Region;Imeni Voroshilova
+0;71.4833,42.6000;KG;;Lenina
+0;75.8569,41.5137;KG-04;Naryn Region;Kuybysheva
+0;74.6426,43.0437;KG-02;Chuy Region;Grozd’
+0;74.2677,43.1376;KG-02;Chuy Region;Jangy-Pakhta
+0;74.3812,43.1090;KG-02;Chuy Region;Jangy-Jer
+0;73.4715,40.8947;KG-08;Osh Region;Zarger
+0;72.9189,40.6116;KG-08;Osh Region;Mamajan
+0;75.0288,42.7206;KG-02;Chuy Region;Yur’yevka
+42875;76.1871,42.4602;KG-07;Issyk-Kul;Balykchy
+0;72.3671,41.4200;KG-03;Jalal-Abad Region;Kelish
+0;72.0875,41.7686;KG-03;Jalal-Abad Region;Yaryktash
+0;72.6667,40.3333;KG;;Yartash
+0;72.8064,40.2402;KG-08;Osh Region;Jar-Korgon
+0;72.7633,40.4900;KG-08;Osh Region;Japalak
+0;70.8605,41.6752;KG-03;Jalal-Abad Region;Jangi-Bazar
+0;72.5501,40.2483;KG-08;Osh Region;Jany-Nookat
+0;74.4500,41.8667;KG;;Yangi-Jol
+0;72.7929,41.1125;KG-03;Jalal-Abad Region;Seyit-Kazy
+0;72.9711,41.0267;KG-03;Jalal-Abad Region;Tashtak
+0;73.1964,41.0806;KG;;Yalgyz-Yangak
+0;73.6167,40.7833;KG;;Yalgiz-Alcha
+20182;74.4406,42.8738;KG-02;Chuy Region;Kojomkul
+0;75.4039,41.4578;KG-04;Naryn Region;Segizinchi Mart
+0;72.9884,40.2077;KG-08;Osh Region;Vedene
+0;74.5066,42.7329;KG-02;Chuy Region;Archaly
+0;73.1543,40.6859;KG-08;Osh Region;Staraya Pokrovka
+0;72.0828,40.1852;KG-09;Batken;Valakish
+0;75.2673,42.1305;KG-04;Naryn Region;Uzunbulak
+0;74.7043,41.2181;KG-04;Naryn Region;Uzgorysh
+0;72.8402,41.2504;KG-03;Jalal-Abad Region;Gava
+0;72.7500,40.4000;KG;;Uzak
+0;71.8143,41.5745;KG-03;Jalal-Abad Region;Uspenovka
+0;73.6833,40.3333;KG;;Ushat
+0;73.5667,40.3500;KG;;Uryukty
+0;73.3986,41.1894;KG-03;Jalal-Abad Region;Urumbash
+0;75.2500,41.2167;KG;;Urtak
+0;72.7364,41.9082;KG-03;Jalal-Abad Region;Urnok
+0;72.1833,40.3000;KG-08;Osh Region;Urgi
+0;73.2873,40.5022;KG-08;Osh Region;Unkyur
+0;73.1833,41.7667;KG;;Ulukent
+0;71.8278,41.4202;KG-03;Jalal-Abad Region;Uluk
+0;73.8000,40.8833;KG;;Uluchat
+0;74.0713,42.1435;KG-02;Chuy Region;Kojomkul
+0;76.5410,42.2571;KG-07;Issyk-Kul;Shor-Bulak
+0;75.7727,42.1812;KG-04;Naryn Region;Ukok
+0;74.8438,41.4108;KG-04;Naryn Region;Ugut
+0;74.7726,42.6974;KG-02;Chuy Region;Uch-Emchek
+0;75.9460,42.7836;KG;;Uchuruk
+0;73.2734,40.9473;KG-03;Jalal-Abad Region;Uch-Top-Kyr
+0;72.1083,41.5768;KG-03;Jalal-Abad Region;Koy-Tash
+0;75.3599,41.3836;KG-04;Naryn Region;Uchkun
+0;73.8167,40.4000;KG;;Uch-Kul’
+14708;72.0592,40.2288;KG-09;Batken;Uch-Korgon
+0;73.2000,40.5167;KG;;Uchi-Kur
+0;72.7123,40.3032;KG-08;Osh Region;Uchbay
+0;70.9500,41.6833;KG;;Tyz-Ashu
+12355;78.3648,42.7276;KG-07;Issyk-Kul;Tyup
+0;74.7588,41.9886;KG-04;Naryn Region;Tyugël’say
+0;73.3454,40.5592;KG-08;Osh Region;Tuz-Bel’
+0;72.9563,40.8741;KG-03;Jalal-Abad Region;Totiya
+0;76.9923,42.0648;KG-07;Issyk-Kul;Turasu
+0;72.8450,40.4510;KG-08;Osh Region;Tëlëyken
+900;77.4407,42.1688;KG-07;Issyk-Kul;Tossor
+0;76.4274,42.4952;KG-07;Issyk-Kul;Toru-Aygyr
+0;73.3055,40.7838;KG;;Tortkul’
+0;76.9470,42.1139;KG-07;Issyk-Kul;Tërt-Kul’
+0;73.1472,41.8364;KG-03;Jalal-Abad Region;Torkent
+0;73.3000,40.9500;KG;;Topu
+0;77.0452,42.1562;KG-07;Issyk-Kul;Tong
+0;73.5751,41.9007;KG-03;Jalal-Abad Region;Toluk
+0;72.2260,40.3211;KG-08;Osh Region;Tolman
+0;78.6850,42.7147;KG-07;Issyk-Kul;Toktoyan
+71443;75.3015,42.8419;KG-02;Chuy Region;Tokmok
+0;75.7667,42.1833;KG;;Toguz-Bulak
+0;76.7433,42.0912;KG-07;Issyk-Kul;Toguz-Bulak
+0;75.7857,41.5567;KG-04;Naryn Region;Toguzbulak
+0;78.6210,42.7198;KG-07;Issyk-Kul;Chontoguzbay
+0;73.8333,41.4167;KG;;Titovka
+0;71.2965,40.1246;KG;;Tillya-Bay-Kurgan
+0;75.7336,41.1185;KG-04;Naryn Region;Tereksu
+0;73.7500,40.5667;KG;;Tereksu
+0;71.1453,41.5133;KG-03;Jalal-Abad Region;Terek-Say
+0;74.9958,41.2315;KG-04;Naryn Region;Terek
+0;74.2215,40.3644;KG-08;Osh Region;Terek
+0;73.5592,40.0161;KG-08;Osh Region;Terek
+14009;78.5270,42.4995;KG-07;Issyk-Kul;Ak-Suu
+0;78.4137,42.6018;KG-07;Issyk-Kul;Tepke
+0;72.3906,40.5891;KG-08;Osh Region;Tepe-Korgon
+0;77.4192,42.7024;KG-07;Issyk-Kul;Temirovka
+0;76.9200,42.0569;KG-07;Issyk-Kul;Temirkanat
+1791;78.4213,42.5651;KG-07;Issyk-Kul;Tegizchil
+0;76.1587,42.7661;KG-02;Chuy Region;Tegirmenti
+0;70.6452,41.7032;KG-03;Jalal-Abad Region;Ak-Tash
+0;75.6136,41.5095;KG-04;Naryn Region;Tegerekkyrchin
+0;73.6127,40.4187;KG-08;Osh Region;Tegerek-Saz
+0;74.0465,41.4190;KG-03;Jalal-Abad Region;Tabylgyty
+0;72.9286,40.6445;KG-08;Osh Region;Kyzyl-Koshchu
+0;74.5716,42.7214;KG-02;Chuy Region;Tash-Döbö
+0;72.0833,42.5833;KG-06;Talas Region;Tash-Tyube
+23594;72.2171,41.3461;KG-03;Jalal-Abad Region;Tash-Kumyr
+0;73.8333,40.9333;KG;;Tash-Kepe
+0;75.9073,41.4287;KG-04;Naryn Region;Tash-Bulak
+0;72.9284,41.1600;KG-03;Jalal-Abad Region;Tash-Bulak
+0;72.1811,40.1992;KG-08;Osh Region;Tash-Bulak
+0;76.0590,42.7065;KG-02;Chuy Region;Tar-Suu
+0;77.5486,42.1503;KG-07;Issyk-Kul;Tamga
+0;76.6593,42.5637;KG-07;Issyk-Kul;Tamchy
+0;73.4183,40.2623;KG-08;Osh Region;Tambashat
+0;72.7190,41.7711;KG-03;Jalal-Abad Region;Tamgaterek
+0;78.4987,42.7845;KG-07;Issyk-Kul;Taldysu
+0;76.1430,41.1899;KG-04;Naryn Region;Taldysu
+0;73.9749,40.5505;KG-08;Osh Region;Chong-Taldy-Suu
+0;73.2448,40.3015;KG;;Taldyk
+0;72.9986,42.3976;KG-06;Talas Region;Taldy-Bulak
+40308;72.2417,42.5226;KG-06;Talas Region;Talas
+0;75.2452,42.2766;KG-04;Naryn Region;Talabulak
+0;72.7422,40.5276;KG;;Tala
+0;69.8225,40.0270;KG;;Tagan
+0;72.0691,40.2432;KG-09;Batken;Kakyr
+0;78.1289,42.3229;KG-07;Issyk-Kul;Syuttubulak
+0;72.0552,41.6163;KG-03;Jalal-Abad Region;Syny
+0;75.0605,42.7030;KG-02;Chuy Region;Syn-Tash
+0;78.0674,42.3513;KG-07;Issyk-Kul;Svetlaya Polyana
+30534;72.9048,40.8982;KG-03;Jalal-Abad Region;Suzak
+0;73.9632,42.1807;KG-02;Chuy Region;Suusamyr
+0;73.5217,40.2149;KG-08;Osh Region;Sogondu
+0;71.3133,41.2490;KG-03;Jalal-Abad Region;Sumsar
+0;71.6419,41.5042;KG-03;Jalal-Abad Region;Sëgët
+0;73.4970,40.0162;KG-08;Osh Region;Sopu-Korgon
+0;73.9581,43.1657;KG-02;Chuy Region;Stepnoye
+0;74.3521,42.8672;KG-02;Chuy Region;Gavrilovka
+0;73.8541,43.0156;KG-02;Chuy Region;Stavropolovka
+0;75.2823,42.8197;KG-02;Chuy Region;Chuy
+0;74.1300,42.9273;KG-02;Chuy Region;Sretenka
+0;72.9833,41.0167;KG-03;Jalal-Abad Region;Ak-Bash
+0;77.8963,42.3715;KG-07;Issyk-Kul;Rybpunkt
+0;75.8983,42.7412;KG-02;Chuy Region;Sovetskoye
+0;78.8693,42.6556;KG-07;Issyk-Kul;Kyzyl-Kia
+13178;72.7396,41.0518;KG-03;Jalal-Abad Region;Sovetskoye
+0;71.3119,40.1666;KG-09;Batken;Sovetskiy
+5885;73.8961,42.6371;KG-02;Chuy Region;Sosnovka
+0;73.5938,40.7146;KG;;Solu-Sassyk
+0;74.3026,42.8540;KG-02;Chuy Region;Sokuluk
+0;78.8051,42.6520;KG-07;Issyk-Kul;Sokolovka
+0;72.2333,40.3167;KG;;Shuran
+0;71.4505,40.1596;KG-09;Batken;Shuran
+0;75.4440,41.4491;KG-04;Naryn Region;Shoro
+0;74.3422,42.8547;KG-02;Chuy Region;Shopokov
+0;73.2809,40.7524;KG-08;Osh Region;Sheraly
+0;72.7217,41.1049;KG-03;Jalal-Abad Region;Shydyr
+0;74.4167,40.5500;KG;;Sherif
+0;71.1578,42.5479;KG-06;Talas Region;Sheker
+0;72.7892,41.2968;KG-03;Jalal-Abad Region;Shaydan
+0;78.3856,42.7860;KG-07;Issyk-Kul;Shaty
+0;72.8772,40.5538;KG-08;Osh Region;Kyrgyz-Chek
+0;72.7494,40.2280;KG-08;Osh Region;Shankol
+0;75.3630,42.6981;KG-02;Chuy Region;Shamshy
+0;75.4326,42.3130;KG-04;Naryn Region;Shamsi
+0;72.6474,40.1545;KG-08;Osh Region;Shamshaly
+0;72.6833,41.5167;KG;;Shamalyk
+0;73.5761,40.7944;KG-08;Osh Region;Shamal-Terek
+0;72.1789,41.2006;KG-03;Jalal-Abad Region;Shamaldy-Say
+0;73.0360,40.5241;KG-08;Osh Region;Ak-Dzhar
+0;71.2254,41.4613;KG-03;Jalal-Abad Region;Shaldyr
+0;78.1542,42.4342;KG-07;Issyk-Kul;Tilekmat
+0;72.6254,40.9522;KG-03;Jalal-Abad Region;Saydikum
+0;77.5548,42.7229;KG-07;Issyk-Kul;Semënovka
+0;74.6953,41.3038;KG-04;Naryn Region;Saz
+0;75.3794,42.8085;KG-02;Chuy Region;Saylyk
+0;72.9786,40.7470;KG-08;Osh Region;Savay
+0;73.4500,40.7833;KG;;Sassyk
+0;78.4731,42.7309;KG-07;Issyk-Kul;Sary-Döbö
+0;73.2635,41.9170;KG-03;Jalal-Abad Region;Sary-Gögöt
+0;71.8839,41.4052;KG-03;Jalal-Abad Region;Sary-Kashka
+0;78.6313,42.5267;KG-07;Issyk-Kul;Sarykamysh
+0;76.2875,42.4924;KG-07;Issyk-Kul;Sary-Kamysh
+0;73.9062,41.7956;KG-03;Jalal-Abad Region;Birlik
+0;71.1790,40.1207;KG-09;Batken;Sary-Kamysh
+0;74.2812,41.7400;KG-04;Naryn Region;Sarybulun
+0;74.1103,41.4112;KG-03;Jalal-Abad Region;Sarybulun
+0;78.2869,42.7848;KG-07;Issyk-Kul;Sarybulak
+0;75.7618,41.9649;KG-04;Naryn Region;Sary-Bulak
+0;73.1972,41.1615;KG-03;Jalal-Abad Region;Sary-Bulak
+0;73.8157,40.8840;KG-08;Osh Region;Oktyabrdyn On Besh Jyldygy
+0;72.3546,41.0924;KG-03;Jalal-Abad Region;Kypchak-Talaa
+0;73.7333,40.8818;KG;;Sary
+0;77.9225,42.3220;KG-07;Issyk-Kul;Saruu
+0;73.2028,40.3320;KG;;Sarkisar
+0;75.5811,42.8180;KG;;Sarbagysh
+0;73.2011,41.7341;KG-03;Jalal-Abad Region;Sargata
+0;78.6946,42.7549;KG-07;Issyk-Kul;Kara-Chungkur
+0;75.5103,42.7803;KG-02;Chuy Region;Samansur
+0;73.6340,40.8427;KG-08;Osh Region;Salamalik
+0;72.4959,41.9769;KG-03;Jalal-Abad Region;Sagyzkandyk
+0;74.1726,42.8540;KG-02;Chuy Region;Sadovoye
+0;74.3333,42.8667;KG-02;Chuy Region;Romanovka
+0;71.9358,42.4665;KG-06;Talas Region;Romanovka
+0;78.7368,42.6147;KG-07;Issyk-Kul;Razdol’noye
+0;72.2505,40.1982;KG-08;Osh Region;Besh-Burkhan
+0;72.0963,40.0724;KG-09;Batken;Pum
+0;78.3103,42.5738;KG-07;Issyk-Kul;Pristan’ Przheval’sk
+8522;71.6098,42.7362;KG-06;Talas Region;Pokrovka
+15075;78.0064,42.3421;KG-07;Issyk-Kul;Kyzyl-Suu
+0;72.6501,40.9655;KG-03;Jalal-Abad Region;Kurpak-Korgon
+0;74.0155,42.8397;KG-02;Chuy Region;Petrovka
+0;75.0019,42.7974;KG-02;Chuy Region;Pervomayskoye
+0;73.6699,40.6264;KG-08;Osh Region;Pervoye Maya
+0;72.9881,40.2989;KG-08;Osh Region;Papan
+0;73.6814,42.7906;KG-02;Chuy Region;Panfilovskoye
+0;73.3687,40.7868;KG-08;Osh Region;Kara-Dyjkan
+0;72.9833,40.5833;KG;;Pakyr-Abad
+0;71.9870,41.3957;KG-03;Jalal-Abad Region;Kamranki
+49410;73.3007,40.7699;KG-08;Osh Region;Uzgen
+0;75.8111,41.1423;KG-04;Naryn Region;Oy-Tersken
+0;78.0154,42.7416;KG-07;Issyk-Kul;Oytal
+0;74.1111,40.4212;KG-08;Osh Region;Oytal
+0;75.4215,42.6934;KG-02;Chuy Region;Onbir-Dzhylga
+0;72.4820,41.7263;KG-03;Jalal-Abad Region;Razvaliny Oyalma
+0;73.9516,40.6560;KG;;Oyalma
+0;78.4754,42.5434;KG-07;Issyk-Kul;Otuzul
+0;76.2985,42.3089;KG-07;Issyk-Kul;Ottuk
+0;75.8458,41.6302;KG-04;Naryn Region;Ottuk
+0;78.6583,42.5894;KG-07;Issyk-Kul;Otradnoye
+322164;72.7985,40.5283;KG-08;Osh Region;Osh
+0;74.5374,41.2363;KG-04;Naryn Region;Osoaviakhim
+0;76.0210,42.3423;KG-07;Issyk-Kul;Orto-Tokoy
+0;71.3685,41.9480;KG-03;Jalal-Abad Region;Bashky-Terek
+0;75.4715,41.0455;KG;;Orto-Karakain
+0;75.3646,42.2017;KG-04;Naryn Region;Ortok
+0;75.9155,41.5321;KG-04;Naryn Region;Ornok
+0;75.5923,42.7471;KG-02;Chuy Region;Orlovka
+0;78.5542,42.6025;KG-07;Issyk-Kul;Orlinoye
+0;71.9521,42.5468;KG-06;Talas Region;Ak-Döbö
+0;78.0420,42.3693;KG-07;Issyk-Kul;Sovkhoz Orgochor
+0;73.1003,41.0425;KG-03;Jalal-Abad Region;Oktyabr’skoye
+0;72.9255,41.8582;KG-03;Jalal-Abad Region;Kara-Suu
+0;73.4428,40.6814;KG-08;Osh Region;Oktyabr’skoye
+3503;71.6694,40.0569;KG-09;Batken;Orozbekovo
+0;73.1744,40.8942;KG;;Nura
+0;78.7462,42.5871;KG-07;Issyk-Kul;Novovoznesenovka
+0;76.0758,42.7330;KG-02;Chuy Region;Shabdan
+0;74.7368,42.8686;KG-02;Chuy Region;Novopokrovka
+0;75.5615,42.8229;KG-02;Chuy Region;Novomikhaylovka
+0;78.6727,42.5508;KG-07;Issyk-Kul;Konstantinovka
+0;72.9625,41.0151;KG-03;Jalal-Abad Region;Boston
+0;78.3053,42.6857;KG-07;Issyk-Kul;Nikolayevka
+0;73.4673,41.6929;KG-03;Jalal-Abad Region;Nichke
+0;72.3465,40.3203;KG-08;Osh Region;Nayman
+0;72.5902,41.0389;KG-03;Jalal-Abad Region;Komintern
+41178;75.9957,41.4283;KG-04;Naryn Region;Naryn
+0;72.7906,40.5539;KG-10;Osh City;Dzhiydalik
+0;74.6538,42.9339;KG-02;Chuy Region;Mykan
+0;72.2089,40.3040;KG-08;Osh Region;Merkit
+0;73.4621,40.1563;KG-08;Osh Region;Murdash
+0;74.0184,42.7510;KG-02;Chuy Region;Murake
+0;78.1404,42.4441;KG-07;Issyk-Kul;Munduz
+0;71.8896,41.6143;KG-03;Jalal-Abad Region;Mukur
+0;73.4153,40.7529;KG-08;Osh Region;Mirza-Ake
+0;74.4585,41.6742;KG-04;Naryn Region;Min-Kush
+0;74.4062,41.9530;KG-04;Naryn Region;Mingteke
+0;75.8544,41.4827;KG-04;Naryn Region;Ming-Bulak
+0;74.7900,42.9668;KG-02;Chuy Region;Milyanfan
+0;78.3314,42.6118;KG-07;Issyk-Kul;Mikhaylovka
+0;73.2319,41.1017;KG-03;Jalal-Abad Region;Mikhaylovka
+0;72.7645,41.0933;KG-03;Jalal-Abad Region;Birinchi May
+0;72.6524,41.9398;KG-03;Jalal-Abad Region;Mazarsu
+0;73.2791,41.1116;KG-03;Jalal-Abad Region;Bazar-Bulak
+0;73.4128,40.3843;KG;;Mazar-Bulak
+0;76.1667,41.6000;KG;;Mazar
+0;71.2123,42.6811;KG-06;Talas Region;Maymak
+0;72.4599,41.2530;KG-03;Jalal-Abad Region;Mayli-Say
+0;72.0875,40.0620;KG-09;Batken;Maydan
+0;69.9445,40.0261;KG;;Margun
+0;72.5592,40.4637;KG-08;Osh Region;Mangit
+0;71.9279,41.4410;KG-03;Jalal-Abad Region;Mundus
+0;73.0545,41.0655;KG;;Mama-Sady
+0;78.4451,42.5109;KG-07;Issyk-Kul;Maman
+0;74.3812,42.8421;KG-02;Chuy Region;Malovodnoye
+0;72.9454,40.5381;KG-08;Osh Region;Mady
+0;73.2886,41.1247;KG-03;Jalal-Abad Region;Kara-Cholok
+0;73.0979,40.2787;KG-08;Osh Region;Laglan
+0;78.2954,42.7732;KG-07;Issyk-Kul;Lugovoye
+0;78.2041,42.5228;KG-07;Issyk-Kul;Lipenka
+0;73.1902,40.6908;KG-08;Osh Region;Leninskoye
+0;71.9236,42.4930;KG-06;Talas Region;Bakai-Ata
+19774;72.6329,41.0601;KG-03;Jalal-Abad Region;Massy
+21118;74.6782,42.8845;KG-02;Chuy Region;Lebedinovka
+0;73.5975,40.5903;KG-08;Osh Region;Ylay-Tala
+0;75.5205,41.4677;KG-04;Naryn Region;Layli-Su
+0;73.4833,40.3500;KG;;Kyzymchek-Karakash
+0;73.4167,41.6667;KG;;Kyzylzhildyz
+0;73.4157,41.6493;KG-03;Jalal-Abad Region;Kyzyl-Özgörüsh
+0;73.3009,41.7002;KG-03;Jalal-Abad Region;Kyzyl-Uraan
+0;73.0714,41.3631;KG-03;Jalal-Abad Region;Kyzyl-Unkyur
+1703;76.6742,42.1853;KG-07;Issyk-Kul;Kyzyl-Tuu
+0;74.8340,41.9741;KG-04;Naryn Region;Davlet-Aryk
+0;73.3407,41.6214;KG;;Kyzyltu
+0;75.5516,41.0576;KG-04;Naryn Region;Kyzyltu
+0;71.3281,41.3847;KG-03;Jalal-Abad Region;Kyzyl-Tokoy
+0;75.2656,42.2020;KG-04;Naryn Region;Kyzyltyube
+0;73.3833,40.3500;KG;;Kyzyl-Tana
+0;73.5637,41.1618;KG-03;Jalal-Abad Region;Kyzyl-Suu
+0;73.1429,40.6438;KG-08;Osh Region;Kyzyl-Sengir
+0;74.1632,41.9521;KG-04;Naryn Region;Kyzyloy
+0;73.9064,41.3533;KG-03;Jalal-Abad Region;Kyzyl-Oktyabr’
+0;73.5855,40.2576;KG-08;Osh Region;Kyzyl-Oktyabr’
+32000;72.1279,40.2568;KG-09;Batken;Kyzyl-Kyya
+0;74.1891,41.7273;KG-04;Naryn Region;Kyzylkurgan
+0;73.4861,40.1875;KG-08;Osh Region;Kyzyl-Korgon
+0;72.2112,41.5252;KG-03;Jalal-Abad Region;Akkala
+0;72.7768,40.5382;KG-10;Osh City;Kyzyl-Kyshtak
+0;74.9215,41.9684;KG-04;Naryn Region;Kyzylemgek
+0;78.0667,42.7333;KG-07;Issyk-Kul;Kyzyldzhildyz
+0;73.2820,41.7906;KG-03;Jalal-Abad Region;Kara-Jygach
+0;72.0056,41.2740;KG-03;Jalal-Abad Region;Kyzyl-Dzhar
+0;74.2494,40.3014;KG-08;Osh Region;Kyzyldzhar
+0;75.7000,41.1833;KG;;Kyzyldezkan
+0;72.2811,40.2252;KG-08;Osh Region;Kyzyl-Bulak
+0;72.4094,41.5445;KG-03;Jalal-Abad Region;Kyzylbiit
+0;76.0315,42.7149;KG-02;Chuy Region;Kyzyl-Bayrak
+0;75.6571,41.3858;KG-04;Naryn Region;Kyzyl-Asker
+0;72.5944,41.8682;KG-03;Jalal-Abad Region;Kyrkkazyk
+0;73.5035,40.9117;KG-08;Osh Region;Kuturgan
+0;78.1222,42.7515;KG-07;Issyk-Kul;Kuturgu
+0;73.0440,40.9796;KG-03;Jalal-Abad Region;Tash-Kutchu
+0;72.9062,40.7059;KG-08;Osh Region;Ken-Say
+0;74.2517,42.9044;KG-02;Chuy Region;Aral-Dal’niy
+0;72.3385,41.4867;KG-03;Jalal-Abad Region;Kurnsay
+0;78.2474,42.7918;KG-07;Issyk-Kul;Kurmenty
+0;72.3333,40.2500;KG;;Kur-Kol
+0;78.3917,42.6233;KG-07;Issyk-Kul;Kurbu
+0;72.9167,40.5833;KG;;Kurbantal-Mady
+386;78.3288,42.5049;KG-07;Issyk-Kul;Cherik
+0;75.6667,41.7333;KG;;Kum-Bel’ (not a PPL, delete?)
+0;72.7234,41.1171;KG-03;Jalal-Abad Region;Gologon
+0;72.7774,40.9833;KG-03;Jalal-Abad Region;Kolot
+0;75.5061,41.3624;KG-04;Naryn Region;Kulanak
+0;72.3721,40.3217;KG-08;Osh Region;Kuk-Karga
+0;73.9333,41.3833;KG;;Kugart
+0;73.4000,41.1333;KG;;Kugart
+0;73.0446,40.3213;KG-08;Osh Region;Kurankol
+0;75.7314,42.7696;KG-02;Chuy Region;Kyzyl-Oktyabr’
+0;75.8141,42.5984;KG-02;Chuy Region;Krasnyy Most
+0;74.9765,42.9014;KG-02;Chuy Region;Krasnaya Rechka
+0;78.1679,42.5504;KG-07;Issyk-Kul;Zelenyy Gay
+0;78.0667,42.4833;KG-07;Issyk-Kul;Koy-Kul’
+0;74.2583,41.0835;KG-04;Naryn Region;Kosh-Döbö
+0;72.7349,41.8111;KG-03;Jalal-Abad Region;Dzhanyaryk
+0;76.6139,42.5405;KG-07;Issyk-Kul;Kosh-Köl
+0;73.0318,41.0138;KG-03;Jalal-Abad Region;Kachkynchy
+0;74.3994,41.4661;KG-03;Jalal-Abad Region;Kosh-Bulak
+0;73.5853,40.8181;KG;;Koshbulak
+0;78.5649,42.7851;KG-07;Issyk-Kul;Korumdy
+0;77.3493,42.6914;KG-07;Issyk-Kul;Korumdy
+0;73.2368,40.4583;KG-08;Osh Region;Korgon
+0;72.6173,40.3428;KG;;Kopurbashi
+0;76.6211,42.1023;KG-07;Issyk-Kul;Kongur-Ölön
+0;78.2459,42.5088;KG-07;Issyk-Kul;Ichkebulak
+0;75.5846,42.2649;KG-04;Naryn Region;Kaynar
+0;74.6003,41.2501;KG-04;Naryn Region;Konorchok
+0;73.5342,40.7040;KG-08;Osh Region;Kandava
+0;76.5659,42.0797;KG-07;Issyk-Kul;Komsomol
+0;75.4845,42.3079;KG-04;Naryn Region;Kol’tor
+0;72.3984,42.4514;KG-06;Talas Region;Kolba
+0;74.6674,41.9813;KG-04;Naryn Region;Kolaryk
+0;72.8667,40.5904;KG-08;Osh Region;Madaniyat
+0;73.1961,41.0303;KG-03;Jalal-Abad Region;Kok-Yangak
+0;73.6167,40.8333;KG;;Kok-Tundy
+0;71.0337,41.1953;KG-03;Jalal-Abad Region;Kektash
+0;72.3978,41.1837;KG-03;Jalal-Abad Region;Kek-Tash
+0;76.0479,42.4565;KG-07;Issyk-Kul;Kök-Moynok Eki
+0;72.3692,40.3047;KG-08;Osh Region;Këk-Dzhar
+0;72.6667,42.4167;KG-06;Talas Region;Kok-Aryk
+0;75.7437,42.2368;KG-04;Naryn Region;Kara-Too
+0;75.7566,42.2155;KG-04;Naryn Region;Kochkor
+17177;72.4832,41.0371;KG-03;Jalal-Abad Region;Kochkor-Ata
+0;71.8212,42.5742;KG-06;Talas Region;Klyuchevka
+0;73.6297,40.4734;KG;;Klozin
+0;71.5368,41.4312;KG-03;Jalal-Abad Region;Kyzyl-Ata
+0;78.2383,42.4755;KG-07;Issyk-Kul;Komsomol’skoye
+0;71.7522,40.0352;KG-09;Batken;Kesken-Tash
+13612;71.5891,42.6198;KG-06;Talas Region;Kyzyl-Adyr
+0;72.8874,41.1563;KG-03;Jalal-Abad Region;Kirgiz-Gava
+0;73.1000,40.7000;KG;;Kipchak
+0;77.9819,42.7469;KG-07;Issyk-Kul;Kichi-Uryukty
+0;73.1423,40.3426;KG;;Kichitaldyk
+0;72.9216,40.0249;KG;;Kichik-Alay
+0;77.6933,42.2053;KG-07;Issyk-Kul;Kichi-Dzhargylchak
+0;73.6338,40.1963;KG-08;Osh Region;Kichi-Byulëlyu
+0;72.6218,40.9461;KG-03;Jalal-Abad Region;Khadzhir-Abad
+0;71.3215,40.0940;KG-09;Batken;Kozho Korum
+0;72.0243,41.6734;KG-03;Jalal-Abad Region;Kyzyl-Tuu
+0;72.3292,40.2501;KG-08;Osh Region;Kodzho-Aryk
+0;72.3614,40.1684;KG;;Khodzhaaryk
+0;73.1000,40.7333;KG;;Khodyrsha-Mugal’
+0;71.4668,41.3488;KG;;Khazret-Bau
+0;73.0167,40.9500;KG;;Khazret-Ayub
+6274;71.6327,40.2122;KG-09;Batken;Khalmion
+0;72.3581,40.3171;KG-08;Osh Region;Këtërme
+0;72.5822,40.4467;KG-08;Osh Region;Kesek
+0;72.0953,40.3976;KG-08;Osh Region;Kerkidan
+0;78.5862,42.5185;KG-07;Issyk-Kul;Kerege-Tash
+0;72.9551,42.4809;KG-06;Talas Region;Kopuro-Bazar
+0;78.7276,42.7553;KG-07;Issyk-Kul;Kensu
+0;74.0766,41.7454;KG-04;Naryn Region;Kensu
+0;73.4845,40.3846;KG-08;Osh Region;Ken-Dzhylga
+0;75.1318,42.8727;KG-02;Chuy Region;Ken-Bulun
+0;72.3556,41.9269;KG-03;Jalal-Abad Region;Kël’
+0;73.2109,40.2529;KG;;Kël’
+0;77.6216,42.7774;KG-07;Issyk-Kul;Koktyube
+0;71.1189,42.5060;KG-06;Talas Region;Sovkhoz Këk-Say
+0;76.8130,42.0792;KG-07;Issyk-Kul;Këk-Say
+0;74.4220,41.8829;KG-04;Naryn Region;Këkoy
+0;75.1421,41.4933;KG-04;Naryn Region;Kogoy
+0;73.8905,41.3958;KG-03;Jalal-Abad Region;Aral
+0;75.6516,42.1840;KG-04;Naryn Region;Kokdzhar
+0;72.9229,40.2629;KG-08;Osh Region;Isanov
+0;73.6923,40.8725;KG;;Keglatar
+0;75.1798,42.6936;KG-02;Chuy Region;Kegeti
+11191;74.0283,41.4045;KG-03;Jalal-Abad Region;Kazarman
+0;72.1864,41.4143;KG;;Kaz
+0;69.7426,40.0515;KG-09;Batken;Kayragach
+0;73.2081,40.5887;KG-08;Osh Region;Kaynar
+0;74.5823,41.9920;KG-04;Naryn Region;Kairma
+0;78.1565,42.4943;KG-07;Issyk-Kul;Kavak
+0;73.5167,41.8667;KG;;Kavak
+0;73.6000,40.2667;KG;;Katyrantash
+0;73.3093,41.1770;KG-03;Jalal-Abad Region;Katranke
+0;74.9500,41.3000;KG;;Kasymbek
+0;73.1418,41.1423;KG-03;Jalal-Abad Region;Kashka-Terek
+0;73.2091,40.7746;KG-08;Osh Region;Kashka-Terek
+0;73.2019,41.3214;KG-03;Jalal-Abad Region;Kashka-Suu
+0;72.6500,40.2833;KG;;Kashkaldak
+0;72.8310,40.6223;KG-08;Osh Region;Kashgar Kyshtak
+0;75.4482,42.3100;KG-04;Naryn Region;Kashat
+0;71.3845,41.2440;KG-03;Jalal-Abad Region;Karaunkur
+14141;71.7583,41.4940;KG-03;Jalal-Abad Region;Kerben
+1100;72.1863,40.2951;KG-09;Batken;Karavan
+0;75.7300,41.7646;KG-04;Naryn Region;Karaynkurt
+0;75.4476,42.7857;KG-02;Chuy Region;Kara-Döbö
+0;72.7298,41.0503;KG-03;Jalal-Abad Region;Karakel’
+0;73.8952,40.8704;KG-08;Osh Region;Karatyube
+0;77.7326,42.7720;KG-07;Issyk-Kul;Karaltyube
+0;74.4783,41.8587;KG-04;Naryn Region;Kara-Döbö
+0;73.0409,40.5157;KG-08;Osh Region;Karatay
+0;74.0088,40.5455;KG-08;Osh Region;Kara-Tash
+0;73.4710,40.3825;KG-08;Osh Region;Kara-Tash
+0;72.6244,40.2165;KG-08;Osh Region;Kara-Tash
+0;73.5829,40.3465;KG;;Karatakhta
+0;75.3218,42.1819;KG-04;Naryn Region;Ak-Tala
+0;73.1833,41.6500;KG-06;Talas Region;Karasu
+0;75.6799,41.1287;KG-04;Naryn Region;Karasu
+0;74.8939,41.1070;KG-04;Naryn Region;Karasu
+26609;72.8667,40.7046;KG-08;Osh Region;Kara Suu
+0;73.7332,40.5623;KG-06;Talas Region;Karasu
+0;72.3867,40.3044;KG-08;Osh Region;Karanay
+0;74.0173,41.4328;KG-03;Jalal-Abad Region;Karamurza
+0;73.1321,41.2011;KG-03;Jalal-Abad Region;Karamart
+0;75.9214,42.2039;KG-04;Naryn Region;Kara-Kungey
+0;73.4500,40.6833;KG;;Kara-Kul’dzha
+0;72.1005,40.1187;KG-09;Batken;Kara-Kyshtak
+84351;78.3920,42.4905;KG-07;Issyk-Kul;Karakol
+0;72.7479,41.6540;KG-03;Jalal-Abad Region;Kara-Kol
+26901;72.6703,41.6283;KG-03;Jalal-Abad Region;Kara-Kul’
+0;73.0498,41.2363;KG-07;Issyk-Kul;Kara-Kël’
+0;73.2476,40.7367;KG-08;Osh Region;Karool
+0;72.6145,40.3463;KG-08;Osh Region;Kara-Koktu
+0;76.6296,42.2135;KG-07;Issyk-Kul;Kara-Koo
+0;74.3136,41.4179;KG-03;Jalal-Abad Region;Karakain
+0;74.7952,41.7239;KG-04;Naryn Region;Karakichi
+0;71.1823,41.3267;KG-03;Jalal-Abad Region;Kara-Kesmak
+0;73.8500,40.4333;KG;;Kara-Gonush
+0;72.0877,42.3478;KG-06;Talas Region;Karagain
+0;72.2000,41.3167;KG;;Karagansay
+0;73.6492,40.5731;KG-08;Osh Region;Karadzhilga
+0;73.3667,41.8333;KG;;Karadzhigach
+0;72.3791,41.1336;KG-03;Jalal-Abad Region;Kyzyl-Kyya
+0;73.5312,40.4930;KG-08;Osh Region;Kara-Dzhygach
+0;72.0927,40.1221;KG-09;Batken;Kara-Dzhygach
+0;78.4380,42.5756;KG-07;Issyk-Kul;Karadzhal
+0;74.1140,41.3893;KG-03;Jalal-Abad Region;Karachiy
+3586;72.8115,41.0851;KG-03;Jalal-Abad Region;Karacha
+0;75.2979,42.2465;KG-04;Naryn Region;Karabulun
+0;74.2093,41.3755;KG-03;Jalal-Abad Region;Karabulun
+0;75.7480,42.7987;KG-02;Chuy Region;Kara-Bulak
+0;75.7500,42.8000;KG;;Karabulak
+0;73.5823,40.4215;KG-08;Osh Region;Kara-Bulak
+48278;73.8481,42.8142;KG-02;Chuy Region;Kara-Balta
+0;73.3340,41.2045;KG-03;Jalal-Abad Region;Kara-Alma
+0;71.7392,41.5787;KG;;Kara-Agach
+4805;71.0918,41.7654;KG-03;Jalal-Abad Region;Kanysh-Kyya
+0;70.7970,40.0819;KG;;Kantsin
+22617;74.8508,42.8911;KG-02;Chuy Region;Kant
+0;73.1333,40.7833;KG;;Kampyr-Ravat
+0;77.7528,42.7384;KG-07;Issyk-Kul;Jarkynbaev
+0;71.4504,40.1340;KG-09;Batken;Yangak
+0;75.3543,42.6896;KG-02;Chuy Region;Koshoj
+0;78.2758,42.4753;KG-07;Issyk-Kul;Kalinovka
+0;72.1004,42.4756;KG-06;Talas Region;Yntymak
+0;72.6040,40.0578;KG-08;Osh Region;Kalday
+0;72.1937,41.4514;KG-03;Jalal-Abad Region;Kara-Tyt
+0;75.1502,41.6212;KG-04;Naryn Region;Kindyn
+9561;73.6758,42.8247;KG-02;Chuy Region;Kaindy
+0;76.1570,42.7444;KG-02;Chuy Region;Kaindy
+0;76.3833,41.5000;KG;;Kaindy
+0;74.4856,41.4804;KG-03;Jalal-Abad Region;Kaindy
+4000;77.1785,42.1411;KG-07;Issyk-Kul;Kadzhi-Say
+123239;72.9931,40.9450;KG-03;Jalal-Abad Region;Manas
+17513;75.0850,42.8878;KG-02;Chuy Region;Ivanovka
+0;72.2092,42.5469;KG-06;Talas Region;Ivanovo-Alekseyevka
+0;72.5154,41.6412;KG-03;Jalal-Abad Region;Itsay
+0;71.8522,41.6373;KG-03;Jalal-Abad Region;Itagar
+0;73.0299,40.5812;KG-08;Osh Region;Eshme
+0;72.4413,40.5495;KG-08;Osh Region;Erke-Kashka
+0;72.4833,40.4833;KG;;Erke-Kashka
+0;73.4000,41.0167;KG;;Irisu
+0;73.4206,40.4798;KG;;Iri-su
+0;78.3006,42.4593;KG-07;Issyk-Kul;Yrdyk
+26200;72.1000,40.2667;KG-09;Batken;Iradan
+0;76.4167,42.3167;KG-07;Issyk-Kul;Imeni Voroshilova
+0;76.8542,42.0722;KG-07;Issyk-Kul;Dzher-Uy
+0;78.4339,42.7403;KG-07;Issyk-Kul;Birlik
+0;73.8262,41.3173;KG-03;Jalal-Abad Region;Imeni Karla-Marksa
+0;73.5000,40.8833;KG;;Imeni Molotova
+0;76.5769,42.5345;KG-07;Issyk-Kul;Chyrpykty
+0;74.0223,42.6970;KG-02;Chuy Region;Temen-Suu
+0;72.6731,41.9367;KG-03;Jalal-Abad Region;Sugat
+0;73.4797,40.8168;KG-08;Osh Region;Imeni Kalinina
+0;74.4289,40.3273;KG-08;Osh Region;Imeni Kalinina
+0;76.0037,42.7880;KG-02;Chuy Region;Il’ichyovskoe
+0;72.6667,41.6500;KG;;Imeni Frunze
+0;73.5333,40.2000;KG;;Imeni Fëdorova
+0;72.6383,40.2773;KG-08;Osh Region;Imeni Chapayeva
+0;78.5431,42.7245;KG-07;Issyk-Kul;Aral
+0;78.4299,42.7814;KG-07;Issyk-Kul;Ichkesu
+0;74.9360,41.3049;KG-04;Naryn Region;Ichkesu
+0;78.7119,42.5434;KG-07;Issyk-Kul;Ichke-Jergez
+0;75.8992,41.5697;KG-04;Naryn Region;Ichkebash
+0;73.1333,40.5667;KG;;Guzar
+0;72.6826,41.0919;KG-03;Jalal-Abad Region;Alma
+13755;73.4442,40.3138;KG-08;Osh Region;Gul’cha
+0;71.2000,42.6000;KG-06;Talas Region;Groznoye
+0;77.4840,42.7182;KG-07;Issyk-Kul;Grigor’yevka
+0;74.8333,42.5833;KG;;Gorno-Serafimovka
+0;72.2268,40.2927;KG-08;Osh Region;Gerait-Shoron
+0;73.0461,41.0410;KG-03;Jalal-Abad Region;Gavrilovka
+0;73.0653,41.0053;KG-03;Jalal-Abad Region;Kedey-Aryk
+0;78.1857,42.7675;KG-07;Issyk-Kul;Frunze
+0;71.7235,40.1277;KG-09;Batken;Kadamjay
+18228;72.6183,40.2660;KG-08;Osh Region;Nookat
+0;73.3000,40.4500;KG;;Erkintoo
+0;75.4175,42.1763;KG-04;Naryn Region;Epkin
+0;75.9743,41.5579;KG-04;Naryn Region;Emgekchil
+0;79.0807,42.0290;KG-07;Issyk-Kul;Engilchek
+0;73.7008,40.8813;KG;;Emir-Kul’
+0;75.6117,41.3945;KG-04;Naryn Region;Emgektala
+0;75.9288,42.1894;KG-04;Naryn Region;Elektor
+0;75.0485,41.6114;KG-04;Naryn Region;Ekichat
+0;77.7506,42.7705;KG-07;Issyk-Kul;Iygilik
+0;74.9835,42.0306;KG-04;Naryn Region;Jumgal
+0;73.3397,41.1785;KG-03;Jalal-Abad Region;Dzhoon-Kyungëy
+0;74.7535,41.8646;KG-04;Naryn Region;Dzholkara
+0;78.4234,42.4769;KG-07;Issyk-Kul;Zholgolot
+0;72.2000,40.3833;KG-08;Osh Region;Dzhilgin-Say
+0;73.3188,40.8257;KG-08;Osh Region;Dzhilandy
+0;75.2234,41.4329;KG-04;Naryn Region;Zhilanaryk
+0;73.2167,40.4536;KG;;Dzhigdy
+0;73.3569,40.9549;KG-08;Osh Region;Dzhiyde
+0;72.9225,40.8416;KG-03;Jalal-Abad Region;Dzhiyde
+0;72.4278,40.2944;KG-08;Osh Region;Dzhiyde
+0;73.8572,41.8279;KG-04;Naryn Region;Dzheyek
+0;78.2160,42.4323;KG-07;Issyk-Kul;Zhetyoguz
+0;75.7895,41.5726;KG-04;Naryn Region;Dzhergetal
+0;74.4043,41.1306;KG-04;Naryn Region;Dzherge-Tal
+0;79.0280,42.6036;KG-07;Issyk-Kul;Dzhergalan
+0;75.3543,42.8125;KG-02;Chuy Region;Dzhany-Chek
+0;78.1923,42.4479;KG-07;Issyk-Kul;Zheletobe
+0;72.4551,40.2531;KG-08;Osh Region;Kichi-Dzhaz
+0;71.7969,41.6103;KG-03;Jalal-Abad Region;Dzhar-Kapchygay
+0;72.9885,40.2852;KG;;Dzharbashi
+0;77.9714,42.3179;KG-07;Issyk-Kul;Dzhalgyzuryuk
+0;75.0197,41.4585;KG-04;Naryn Region;Dzhangy-Talap
+0;75.7369,41.4396;KG-04;Naryn Region;Jan-Bulak
+0;74.9534,41.9858;KG-04;Naryn Region;Jangy-Aryk
+0;73.1128,40.6524;KG-08;Osh Region;Dzhany-Aryk
+0;72.9159,41.8832;KG-03;Jalal-Abad Region;Jangy-Jol
+0;72.1214,41.5945;KG-03;Jalal-Abad Region;Dzhangi-Dzhol
+0;78.2543,42.4445;KG-07;Issyk-Kul;Dzhan-Bulak
+0;73.0915,41.1504;KG;;Dzhalpak-Sary
+0;75.7806,41.4650;KG-04;Naryn Region;Dzhalgyzterek
+0;74.3375,41.4644;KG-03;Jalal-Abad Region;Dödömöl
+0;76.2401,41.4488;KG-04;Naryn Region;Dyubell
+0;72.7000,40.9876;KG-03;Jalal-Abad Region;Jash-Lenin
+0;73.9679,41.4402;KG-03;Jalal-Abad Region;Dupkur
+0;74.3242,41.6844;KG-04;Naryn Region;Dungurme
+0;75.6400,41.3764;KG-04;Naryn Region;Dostuk
+0;73.5589,40.8627;KG-08;Osh Region;Denuz-Too
+0;75.2163,42.7506;KG-02;Chuy Region;Döng-Aryk
+0;75.2325,42.2612;KG-04;Naryn Region;Donalysh
+0;72.3357,42.5085;KG-06;Talas Region;Jon-Aryk
+0;78.4840,42.6999;KG-07;Issyk-Kul;Dolon
+0;77.0001,42.6341;KG-07;Issyk-Kul;Kara-Oy
+0;72.2736,40.3180;KG-08;Osh Region;Dodon
+0;73.3428,41.1320;KG;;Dmitriyevka
+0;76.5844,42.1263;KG-07;Issyk-Kul;Dëngtala
+0;74.8833,42.9667;KG;;Denisovka
+0;77.8855,42.3114;KG-07;Issyk-Kul;Darkhan
+0;77.7852,42.2748;KG-07;Issyk-Kul;Chychkan
+0;71.1225,41.7826;KG-03;Jalal-Abad Region;Chukurchak
+0;72.7000,40.2500;KG;;Chukur (only fields... delete?)
+0;73.0045,40.9001;KG-03;Jalal-Abad Region;Chëkë-Dëbë
+0;76.1857,41.4552;KG-04;Naryn Region;Chet-Nura
+0;77.8487,42.7395;KG-07;Issyk-Kul;Chon-Uryukty
+0;76.9151,42.6100;KG-07;Issyk-Kul;Chon-Sary-Oy
+0;74.1322,41.7411;KG-04;Naryn Region;Chongtëbe
+0;73.6286,40.6743;KG;;Chongolot
+0;78.0752,42.3114;KG-07;Issyk-Kul;Chong-Kyzylsu
+0;77.6477,42.1897;KG-07;Issyk-Kul;Chon-Dzhargylchak
+0;75.7100,42.1787;KG-04;Naryn Region;Chonbulak
+0;72.6441,41.8902;KG-03;Jalal-Abad Region;Chon-Aryk
+0;73.6412,40.1702;KG-08;Osh Region;Chong-Byulëlyu
+0;72.1648,41.5562;KG-03;Jalal-Abad Region;Shina
+14237;77.0823,42.6494;KG-07;Issyk-Kul;Cholpon-Ata
+0;78.4777,42.6359;KG-07;Issyk-Kul;Cholpon
+0;75.4751,42.1974;KG-04;Naryn Region;Cholpon
+0;73.6500,41.1641;KG;;Choku-Biy-Rabat
+0;76.7427,42.5883;KG-07;Issyk-Kul;Chok-Tal
+0;78.1573,42.4657;KG-07;Issyk-Kul;Chirak
+0;75.4965,42.8140;KG-02;Chuy Region;Chim-Korgon
+0;71.5200,42.6234;KG-06;Talas Region;Chymgent
+0;72.2377,41.6010;KG-03;Jalal-Abad Region;Chigir
+0;73.2005,41.0527;KG;;Malay
+0;76.8646,42.5989;KG-07;Issyk-Kul;Ornok
+0;73.9645,41.2884;KG-03;Jalal-Abad Region;Chet-Bulak
+0;71.7629,41.5945;KG-03;Jalal-Abad Region;Cherik
+0;74.3519,41.5983;KG-04;Naryn Region;Chemyndy
+0;78.3696,42.4624;KG-07;Issyk-Kul;Chelpek
+0;74.5604,41.1867;KG-04;Naryn Region;Bel’kyrchin
+0;72.8000,42.4333;KG-06;Talas Region;Cheleke
+0;72.4424,40.5081;KG;;Chekabad
+0;72.7083,41.0166;KG-03;Jalal-Abad Region;Toychubek-Chek
+3762;74.5170,41.9277;KG-04;Naryn Region;Chayek
+0;72.1576,40.1347;KG-09;Batken;Chauvai
+0;74.3478,42.9398;KG-02;Chuy Region;Chat-Kël’
+0;72.1960,41.5228;KG-03;Jalal-Abad Region;Chat
+0;71.6946,41.5404;KG-03;Jalal-Abad Region;Charbak
+0;73.0069,41.2544;KG-03;Jalal-Abad Region;Charbak
+0;72.7594,40.8644;KG-03;Jalal-Abad Region;Changyr-Tash
+0;71.2202,41.8549;KG-03;Jalal-Abad Region;Kurgan-Say
+0;73.6589,40.7412;KG-08;Osh Region;Chalk-Oydë
+0;73.5379,42.8183;KG-02;Chuy Region;Chaldybar
+0;72.0516,41.7107;KG-03;Jalal-Abad Region;Chaldybar
+0;74.5000,42.8333;KG;;Chalakazaki
+0;74.3928,40.1912;KG-08;Osh Region;Chatyr
+0;72.7317,40.9900;KG-03;Jalal-Abad Region;Dzheti-Koshkon
+0;72.5972,41.0671;KG-03;Jalal-Abad Region;Bëgët
+0;72.2429,42.4635;KG-06;Talas Region;Khivinka
+10354;75.6917,42.7861;KG-02;Chuy Region;Kemin
+0;70.8352,40.0048;KG-09;Batken;Bujum
+2535;78.3599,42.5268;KG-07;Issyk-Kul;Birbash
+0;73.3170,41.9203;KG-03;Jalal-Abad Region;Borluu-Kyya
+0;72.3118,41.0481;KG-03;Jalal-Abad Region;Byurgendyu
+0;73.5104,40.2792;KG-08;Osh Region;Budalyk
+0;75.2695,42.7503;KG-02;Chuy Region;Burana
+0;74.1995,40.3553;KG-08;Osh Region;Burachaty
+0;71.7952,41.6287;KG-03;Jalal-Abad Region;Buma
+0;73.6000,40.6667;KG;;Bulak (Bulak = Source/Water, not inhabited, delete?)
+0;72.5692,42.4839;KG-06;Talas Region;Chatbazar
+5237;77.9515,42.4325;KG-07;Issyk-Kul;Boz-Beshik
+0;77.1859,42.6595;KG-07;Issyk-Kul;Bosteri
+0;73.3938,40.3315;KG-08;Osh Region;Boz-Karagan
+0;75.8562,42.7904;KG-02;Chuy Region;Boroldoy
+0;76.8966,42.1228;KG-07;Issyk-Kul;Bol’shevik
+14267;76.9933,42.1177;KG-07;Issyk-Kul;Bokombayevskoye
+0;78.1472,42.5272;KG-07;Issyk-Kul;Bogatyrovka
+0;71.2152,40.0120;KG-09;Batken;Bëdzhëy
+0;72.9678,40.9747;KG-03;Jalal-Abad Region;Blagoveshenka
+900000;74.5900,42.8700;KG-01;Bishkek;Bishkek
+0;72.6226,41.0370;KG-03;Jalal-Abad Region;Besh-Dzhygach
+0;75.9447,41.2095;KG-04;Naryn Region;Birlik
+0;75.1465,42.7013;KG-02;Chuy Region;Birikken
+0;72.5279,41.9855;KG-03;Jalal-Abad Region;Dzhargylchakty
+0;71.6489,42.5513;KG-06;Talas Region;Beysheke
+0;72.9413,41.2171;KG;;Kara-Oy
+1720;72.8886,41.1407;KG-03;Jalal-Abad Region;Besh-Badam
+0;72.1277,41.4639;KG-03;Jalal-Abad Region;Aksu
+0;70.4943,41.6735;KG-03;Jalal-Abad Region;Besh-Aral
+0;72.1878,41.9743;KG-03;Jalal-Abad Region;Bereynok
+0;75.6066,42.8089;KG-02;Chuy Region;Dzhany-Alysh
+0;72.4749,40.2718;KG-08;Osh Region;Bel
+23046;74.1083,42.8294;KG-02;Chuy Region;Belovodskoye
+0;74.2390,42.6813;KG-02;Chuy Region;Tosh-Bulak
+0;73.2827,41.9232;KG-03;Jalal-Abad Region;Bel-Aldy
+0;73.1439,40.3586;KG-08;Osh Region;Bek-Dzhar
+0;72.9714,40.8472;KG-03;Jalal-Abad Region;Bek-Abad
+0;74.0667,42.8167;KG;;Bedachi
+41011;72.7459,41.0376;KG-03;Jalal-Abad Region;Bazar-Korgon
+0;74.5491,42.7370;KG-02;Chuy Region;Bajtik
+0;72.1250,40.2744;KG-09;Batken;Ak-Bulak
+0;73.6667,40.8833;KG;;Baymam-Bet
+0;74.9273,41.3577;KG-04;Naryn Region;Baygonchak
+0;73.9477,40.8297;KG-08;Osh Region;Baybiche
+0;71.5846,41.3267;KG-03;Jalal-Abad Region;Bayastan
+27730;70.8193,40.0604;KG-09;Batken;Batken
+0;75.7971,41.5089;KG-04;Naryn Region;Bas-Kiya
+0;74.6587,42.0134;KG-04;Naryn Region;Bash-Kurgandy
+0;75.4833,41.0167;KG;;Bash-Karakain
+0;75.9081,41.1564;KG-04;Naryn Region;Bash-Kaindy
+0;77.6036,42.1579;KG-07;Issyk-Kul;Barskoon
+0;73.2500,40.3833;KG;;Bardu
+0;76.5798,42.2465;KG-07;Issyk-Kul;Bar-Bulak
+0;72.5811,41.9725;KG-03;Jalal-Abad Region;Balykty
+0;74.8258,41.9813;KG-04;Naryn Region;Bagysh
+0;73.0926,41.0174;KG-03;Jalal-Abad Region;Bagysh
+0;72.2161,40.2304;KG-08;Osh Region;Baglan
+10682;74.9570,41.2667;KG-04;Naryn Region;Baetovo
+0;71.4092,41.1284;KG-03;Jalal-Abad Region;Ayrytam
+0;70.9905,41.7299;KG-03;Jalal-Abad Region;Aygyr-Dzhal
+0;73.0213,41.2662;KG-03;Jalal-Abad Region;Oogon-Talaa
+0;72.0908,40.0147;KG-09;Batken;Austan
+0;72.2126,40.2016;KG;;Auliye
+14655;75.8010,41.1695;KG-04;Naryn Region;At-Bashi
+0;73.8587,41.3434;KG-03;Jalal-Abad Region;Atay
+0;74.1553,41.4198;KG-03;Jalal-Abad Region;Askaly
+0;73.5872,40.0844;KG-08;Osh Region;Askaly
+0;72.9291,41.3382;KG-03;Jalal-Abad Region;Arslanbab
+0;74.7775,40.7882;KG-04;Naryn Region;Arpa
+0;71.9619,41.8093;KG-03;Jalal-Abad Region;Arkit
+0;73.3284,41.1621;KG-03;Jalal-Abad Region;Arkhangel’skoye
+0;72.5516,41.0163;KG-03;Jalal-Abad Region;Arimdzhan
+0;72.4996,40.5161;KG-08;Osh Region;Aravan
+0;72.6380,40.9907;KG-03;Jalal-Abad Region;Aral
+0;74.2712,42.8938;KG-02;Chuy Region;Aral-Blizhniy
+0;72.6605,42.5368;KG-06;Talas Region;Aral
+0;74.3492,41.8630;KG-04;Naryn Region;Aral
+0;77.6738,42.7364;KG-07;Issyk-Kul;Anan’yevo
+0;71.2076,42.6079;KG-06;Talas Region;Amanbayevo
+0;75.5155,42.7244;KG-02;Chuy Region;Almaluu
+0;73.5167,41.9333;KG;;Almalu
+0;78.2664,42.4630;KG-07;Issyk-Kul;Alkym
+0;72.7674,40.6158;KG-08;Osh Region;Alim-Tepe
+0;72.7833,40.2333;KG;;Alike
+0;72.0449,41.6683;KG-03;Jalal-Abad Region;Alga
+0;71.4990,40.2363;KG-09;Batken;Alga
+0;72.3555,40.3089;KG-08;Osh Region;Alashan
+0;72.6662,41.2615;KG-03;Jalal-Abad Region;Kegere-Tash
+0;74.6365,42.9065;KG-02;Chuy Region;Alamedin
+0;74.6095,42.6319;KG;;Alamedin
+15426;71.4863,41.4105;KG-03;Jalal-Abad Region;Ala-Buka
+0;76.4819,42.1123;KG-07;Issyk-Kul;Ala-Bash
+0;76.1658,42.3481;KG-07;Issyk-Kul;Akulen
+0;76.1333,42.8796;KG-02;Chuy Region;Ak-Tyuz
+0;72.0603,41.6687;KG-03;Jalal-Abad Region;Akteë
+0;78.1077,42.4576;KG-07;Issyk-Kul;Ak-Dyube
+0;76.7085,42.2437;KG-07;Issyk-Kul;Akterek
+0;77.7297,42.2364;KG-07;Issyk-Kul;Ak-Terek
+0;72.7708,40.4145;KG-08;Osh Region;Ak-Terek
+0;73.5000,40.4000;KG;;Akterek
+0;73.1036,41.1977;KG-03;Jalal-Abad Region;Ak-Took
+0;72.8619,40.0480;KG-08;Osh Region;Chogon
+0;71.2000,41.8333;KG;;Ak-Tam
+0;71.0997,41.4793;KG-03;Jalal-Abad Region;Ak-Tam
+0;75.6756,41.0868;KG-04;Naryn Region;Aktala
+0;75.0545,41.4137;KG-04;Naryn Region;Ak-Tal
+0;74.1001,42.8092;KG-02;Chuy Region;Ak-Suu
+0;74.1312,43.0097;KG-02;Chuy Region;Ak-Sëok
+0;72.0604,41.4671;KG-03;Jalal-Abad Region;Aksu
+0;78.7181,41.8131;KG-07;Issyk-Kul;Ak-Shyyrak
+0;72.2096,40.4457;KG-08;Osh Region;Ak-Shor
+0;76.8366,42.1341;KG-07;Issyk-Kul;Ak-Say
+0;78.1422,42.4557;KG-07;Issyk-Kul;Ak-Usten
+0;76.1360,41.2492;KG-04;Naryn Region;Ak-Muz
+0;72.6805,40.8599;KG-03;Jalal-Abad Region;Aral
+0;74.8419,41.4529;KG-04;Naryn Region;Akkyya
+0;74.2869,41.6738;KG-04;Naryn Region;Ak-Kul’
+0;75.3430,41.4892;KG-04;Naryn Region;Ak-Kuduk
+0;78.2025,42.4238;KG-07;Issyk-Kul;Akkochkar
+0;72.4000,40.3167;KG;;Ak-Ityk
+0;72.8155,41.0114;KG-03;Jalal-Abad Region;Dzhany-Akman
+0;75.5508,42.2182;KG-04;Naryn Region;Kumtyube
+0;73.3781,41.6224;KG-03;Jalal-Abad Region;Ak-Dzhar
+5559;75.7891,41.1742;KG-04;Naryn Region;Ak-Dzhar
+0;73.4901,40.7995;KG-08;Osh Region;Ak-Dzhar
+0;74.8440,41.2255;KG-04;Naryn Region;Ak-Chiy
+0;72.3000,40.2333;KG;;Ak-Chaya
+0;72.2949,40.2346;KG-08;Osh Region;Akchal
+2546;78.8225,42.6261;KG-07;Issyk-Kul;Akbulun
+0;78.2280,42.7974;KG-07;Issyk-Kul;Ak-Bulak
+2498;78.2262,42.7669;KG-07;Issyk-Kul;Ak-Bulung
+0;72.6833,40.2000;KG;;Akbulak
+0;75.2415,42.8134;KG-02;Chuy Region;Ak-Beshim
+0;75.1438,40.8636;KG-04;Naryn Region;Ak-Beyit
+0;75.4035,41.3967;KG-04;Naryn Region;Akbashim
+0;72.9554,40.9915;KG-03;Jalal-Abad Region;Orto-Aziya
+0;71.9533,41.6446;KG-03;Jalal-Abad Region;Aflatun
+0;73.0833,41.1000;KG;;Achi
+0;72.0478,41.7824;KG-03;Jalal-Abad Region;Abdukaly
+0;72.7869,40.5160;KG-10;Osh City;Dyykan-Kyshtak
+0;72.6525,40.4874;KG-08;Osh Region;Gyul’bakhor
+0;72.9671,40.5125;KG-08;Osh Region;Bash-Bulak
+0;72.9661,40.6061;KG-08;Osh Region;Otuz-Adyr
+0;72.8124,40.6376;KG-08;Osh Region;Kenzhekul
+0;72.7399,40.4877;KG-08;Osh Region;Arek
+0;72.7828,40.4805;KG-08;Osh Region;Uchar
+0;72.9716,40.3396;KG-08;Osh Region;Beryu
+0;72.5640,40.4485;KG-08;Osh Region;Tëlëyken
+0;69.8186,40.0308;KG-09;Batken;Beshkent
+20577;72.9419,41.8744;KG-03;Jalal-Abad Region;Toktogul
+0;77.8989,41.5679;KG-07;Issyk-Kul;Kara-Say
+0;77.5336,42.7306;KG-07;Issyk-Kul;Koj-Yar
+0;76.4053,42.3175;KG-07;Issyk-Kul;Kara-Talaa
+0;74.4711,42.9462;KG-02;Chuy Region;Komsomol’skoye
+0;74.4894,42.9413;KG-02;Chuy Region;Ak-Dzhol
+0;74.5521,42.9010;KG-02;Chuy Region;Prigorodnoye
+0;74.4828,42.8732;KG-02;Chuy Region;Novopavlovka
+0;74.5208,42.8345;KG-02;Chuy Region;Selektsionnoye
+0;74.5340,42.8106;KG-02;Chuy Region;Nizhniy Orok
+0;74.5217,42.8053;KG-02;Chuy Region;Verkhniy Orok
+0;74.5809,42.8172;KG-01;Bishkek;Chong-Aryk
+0;74.5919,42.8034;KG-01;Bishkek;Orto-Say
+0;74.6625,42.9706;KG-02;Chuy Region;Leninskoye
+0;74.7040,42.9421;KG-02;Chuy Region;Dachnoye
+0;74.7412,42.9265;KG-02;Chuy Region;Nizhniy Norus
+0;74.7283,42.9420;KG-02;Chuy Region;Dzher-Kazar
+0;74.7116,42.9347;KG-02;Chuy Region;Druzhba
+0;74.6671,42.9311;KG-02;Chuy Region;Sadovoye
+0;74.6742,42.9050;KG-02;Chuy Region;Vostok
+0;74.6497,42.8074;KG-02;Chuy Region;Kök-Jar
+0;74.7113,42.8089;KG-02;Chuy Region;Kara-Dzhygach
+0;74.7438,42.8044;KG-02;Chuy Region;Sary-Dzhon
+0;75.6789,41.9328;KG-04;Naryn Region;Keng-Suu
+0;75.8540,41.5661;KG-04;Naryn Region;Kyzyldzhyldyz
+0;75.1173,41.4593;KG-04;Naryn Region;Kara-Oy
+0;75.6749,41.0897;KG-04;Naryn Region;Kalinin Atyndagy
+0;75.5327,41.0333;KG-04;Naryn Region;Kazybek
+0;75.6125,40.7298;KG-04;Naryn Region;Kök-Aygyr
+0;75.9646,40.5316;KG-04;Naryn Region;Karool-Töbö
+0;76.4476,40.9011;KG-04;Naryn Region;Chatyr-Tash
+0;76.0458,41.1753;KG-04;Naryn Region;Birinchi May
+0;76.2047,41.2097;KG-04;Naryn Region;Uzgorysh
+0;76.0514,41.2167;KG-04;Naryn Region;Ak-Moyun
+0;76.0555,41.4428;KG-04;Naryn Region;Orto-Saz
+0;76.1946,41.4448;KG-04;Naryn Region;Alysh
+0;76.2094,41.4533;KG-04;Naryn Region;Orto-Nura
+0;76.2835,41.4503;KG-04;Naryn Region;Ak-Bulun
+0;76.3933,41.4638;KG-04;Naryn Region;Tash-Bashat
+0;78.2805,41.6048;KG-07;Issyk-Kul;Yshtyk
+0;75.3142,42.2408;KG-04;Naryn Region;Den-Alyn
+0;75.8568,42.4852;KG-07;Issyk-Kul;Këk-Moynok Vtoroye
+0;75.8186,42.1955;KG-04;Naryn Region;Kara-Suu
+0;72.1743,41.0020;KG-03;Jalal-Abad Region;Kokandyk
+0;71.1194,41.1500;KG-03;Jalal-Abad Region;Buloq-Boshi
+0;71.2354,41.2113;KG-03;Jalal-Abad Region;Tengi
+0;71.1283,41.2131;KG-03;Jalal-Abad Region;Zimov’ye Dolono
+0;71.0143,41.2184;KG-03;Jalal-Abad Region;Ortosu
+0;71.0301,41.2060;KG-03;Jalal-Abad Region;Dzhalgyzoryuk
+0;71.0453,41.2376;KG-03;Jalal-Abad Region;Dzhalgyz Oryuk
+0;71.2158,41.2329;KG-03;Jalal-Abad Region;Oq-Toyloq
+0;71.1766,41.2595;KG-03;Jalal-Abad Region;Birlashken
+0;71.1841,41.2775;KG-03;Jalal-Abad Region;Sari-Kol
+0;71.1621,41.3347;KG-03;Jalal-Abad Region;Ak-Bashat
+0;71.1667,41.4784;KG-03;Jalal-Abad Region;Buzuk
+0;71.2425,41.4876;KG-03;Jalal-Abad Region;Zimov’ye Sary-Kamysh
+0;70.8744,41.2373;KG-03;Jalal-Abad Region;Besh-Tash
+0;70.9075,41.2042;KG-03;Jalal-Abad Region;Chon-Say
+0;71.1251,41.3601;KG-03;Jalal-Abad Region;Akmashat
+0;71.6074,41.4674;KG-03;Jalal-Abad Region;Ak-Tam
+0;71.8390,41.3696;KG-03;Jalal-Abad Region;Baykishlak
+0;71.8643,41.3642;KG-03;Jalal-Abad Region;Chiye
+0;71.8928,41.4203;KG-03;Jalal-Abad Region;Kosh-Dëbë
+0;71.8197,41.3971;KG-03;Jalal-Abad Region;Toruk
+0;71.7331,41.5056;KG-03;Jalal-Abad Region;Ondokon
+0;71.7484,41.5232;KG-03;Jalal-Abad Region;Krupskaya Atyndagi
+0;71.6612,41.5457;KG-03;Jalal-Abad Region;Ulan-Bulak
+0;71.6300,41.5064;KG-03;Jalal-Abad Region;Kara-Dëbë
+0;71.6504,41.4296;KG-03;Jalal-Abad Region;Gulistan
+0;71.6345,41.3895;KG-03;Jalal-Abad Region;Kalinino
+0;71.5856,41.3858;KG-03;Jalal-Abad Region;Ak-Korgon
+0;71.5673,41.3710;KG-03;Jalal-Abad Region;Kashkalak
+0;71.5183,41.3733;KG-03;Jalal-Abad Region;Kosh-Terek
+0;71.5485,41.3656;KG-03;Jalal-Abad Region;Kalta
+0;71.5841,41.3393;KG-03;Jalal-Abad Region;Madaniyat
+0;71.5168,41.3456;KG-03;Jalal-Abad Region;Koshulmurut
+0;71.5155,41.3585;KG-03;Jalal-Abad Region;Izar
+0;71.5041,41.3257;KG-03;Jalal-Abad Region;Baymak
+0;71.4420,41.1506;KG-03;Jalal-Abad Region;Jangy-Shaar
+0;71.3832,41.1769;KG-03;Jalal-Abad Region;Ajek
+0;71.4361,41.1972;KG-03;Jalal-Abad Region;Sovet-Soy
+0;71.2793,41.1872;KG-03;Jalal-Abad Region;Kosh-Bolot
+0;71.3155,41.2251;KG-03;Jalal-Abad Region;Olma-Bel
+0;71.3261,41.4070;KG;;kyzyl-Toqoy
+0;71.3795,41.4154;KG-03;Jalal-Abad Region;Kuygumen
+0;71.4623,41.5281;KG-03;Jalal-Abad Region;Zimov’ye Kara-Kechit
+0;71.4216,41.4489;KG-03;Jalal-Abad Region;Sary-Talaa
+0;71.4172,41.3919;KG-03;Jalal-Abad Region;Cho‘loq-Tuma
+0;71.4326,41.3970;KG-03;Jalal-Abad Region;Joy-Belent
+0;71.4357,41.3732;KG-03;Jalal-Abad Region;Orto-Tokoy
+0;71.4611,41.3969;KG-03;Jalal-Abad Region;Zhdanovo
+0;71.4902,41.3989;KG-03;Jalal-Abad Region;Sapalak
+0;71.4737,41.3583;KG-03;Jalal-Abad Region;Sarcha
+0;71.5751,41.4558;KG-03;Jalal-Abad Region;Dzhala-Saldy
+3014;71.7296,40.1472;KG-09;Batken;Pulgon
+0;72.6568,42.3547;KG;;Talas
+0;78.1934,42.4501;KG;;Jele Tobe
+0;73.1057,41.0339;KG;;Kokyangkok
+0;78.6242,42.7714;KG-07;Issyk-Kul;Chong-Tash
+0;79.0872,42.1810;KG-07;Issyk-Kul;Kuylyu
+0;77.8885,42.4015;KG-07;Issyk-Kul;Kaynar
+0;78.5905,42.7101;KG-07;Issyk-Kul;Tasma
+0;78.5143,42.7282;KG-07;Issyk-Kul;Ming Bulak
+0;78.5261,42.6036;KG-07;Issyk-Kul;Karakol
+0;78.7048,41.8247;KG-07;Issyk-Kul;Üch-Koshkon
+0;78.5175,41.6746;KG-07;Issyk-Kul;Pikertyk
+0;77.2371,42.0836;KG-07;Issyk-Kul;Kajy-Saz
+0;76.3488,42.3226;KG-07;Issyk-Kul;Kara-Shaar
+0;77.1437,42.6547;KG-07;Issyk-Kul;Baktuu-Dolonotu
+0;76.9743,42.6189;KG-07;Issyk-Kul;Baetovka
+0;72.5260,42.4852;KG-06;Talas Region;Ak-Say
+0;72.8024,42.1093;KG-06;Talas Region;Acny-Bulak
+0;72.6555,42.4674;KG-06;Talas Region;Sasyk-Bulak
+0;72.7173,42.4596;KG-06;Talas Region;Kara-Oy
+0;72.3505,42.4581;KG-06;Talas Region;Atay Ogonbaev
+0;72.0394,42.5248;KG-06;Talas Region;Ozgorush
+0;72.1206,42.5290;KG-06;Talas Region;Keng-Aral
+0;72.0372,42.4673;KG-06;Talas Region;Kyzyl-Oktyabr’
+0;72.2269,42.5070;KG-06;Talas Region;Kum-Aryk
+0;71.7940,42.5537;KG-06;Talas Region;Kyzyl-Kyrgyzstan
+0;71.2776,42.5874;KG-06;Talas Region;Krupskaya Atyndagi
+0;71.1204,42.5401;KG-06;Talas Region;Archagul
+0;71.0826,42.5401;KG-06;Talas Region;Kaynar
+0;71.3114,42.6815;KG-06;Talas Region;Joon-Döbö
+0;71.6161,42.6940;KG-06;Talas Region;Balasary
+0;71.8010,42.6983;KG-06;Talas Region;Aral
+0;71.5454,42.7518;KG-06;Talas Region;Kyzyl-Jyldyz
+0;71.4133,42.7602;KG-06;Talas Region;Talas
+0;71.4821,42.7716;KG-06;Talas Region;May
+0;73.9182,43.0493;KG-02;Chuy Region;Kara-Suu
+0;73.6336,43.0079;KG-02;Chuy Region;Oyrongdu
+0;73.5940,42.9017;KG-02;Chuy Region;Kürpüldök
+0;73.6342,42.9468;KG-02;Chuy Region;Birinchi May
+0;73.7546,42.7020;KG-02;Chuy Region;Tel’man Atyndagy
+0;73.8822,42.6629;KG-02;Chuy Region;Mongoldor
+0;73.2513,42.2071;KG-02;Chuy Region;Otmek
+0;74.1285,43.0391;KG-02;Chuy Region;Spartak
+0;74.0760,43.0372;KG-02;Chuy Region;Kyz-Molo
+0;73.9973,43.0582;KG-02;Chuy Region;Besh-Terek
+0;74.4946,43.1190;KG-02;Chuy Region;Oktyabr’skoe
+0;74.5409,43.0988;KG-02;Chuy Region;Vinogradnoe
+0;74.4974,43.0494;KG-02;Chuy Region;Mramornoe
+0;73.9750,42.6771;KG-02;Chuy Region;Kyzyl-Dyykan
+0;74.2513,42.6593;KG-02;Chuy Region;Zarechnyy
+0;74.2358,42.6394;KG-02;Chuy Region;Chetindi
+0;74.4371,42.9995;KG-02;Chuy Region;Manas
+0;74.5320,42.6948;KG-02;Chuy Region;Kashka-Suu
+0;74.6502,42.6728;KG-02;Chuy Region;Tatyr
+0;75.0683,42.7263;KG-02;Chuy Region;Tel’man Atyndagy
+0;75.3926,42.7225;KG-02;Chuy Region;Progress
+0;74.4825,42.5624;KG-02;Chuy Region;Ala-Archa Al’plegri
+0;75.1624,42.6291;KG-02;Chuy Region;Arpa-Tektir
+0;74.2063,41.7223;KG-04;Naryn Region;Tabylgyty
+0;74.4660,41.9098;KG-04;Naryn Region;Besh-Terek
+0;74.4910,41.9139;KG-04;Naryn Region;Kyzyl-Jyldyz
+0;73.8993,42.1927;KG-02;Chuy Region;Kaysar
+0;73.9526,42.2020;KG-02;Chuy Region;Tunuk
+0;73.9715,42.1556;KG-02;Chuy Region;Birinchi May
+0;74.5468,41.9366;KG-04;Naryn Region;Ak-Tatyr
+0;74.8200,41.9892;KG-04;Naryn Region;Kuyruchuk
+0;74.9829,41.9861;KG-04;Naryn Region;Bazar-Turuk
+0;74.9132,42.0401;KG-04;Naryn Region;Lama
+0;75.8857,42.1994;KG-04;Naryn Region;Kara-Saz
+0;75.2480,42.1992;KG-04;Naryn Region;Mantysh
+0;75.2327,42.2377;KG-04;Naryn Region;Kara-Moynok
+0;75.9688,41.9191;KG-04;Naryn Region;Ak-Kyya
+0;76.1494,41.9359;KG-04;Naryn Region;Lakol
+0;76.2024,41.9437;KG-04;Naryn Region;Tuura-Suu
+0;76.3219,41.9350;KG-04;Naryn Region;Dergochko
+0;75.8404,41.6303;KG-04;Naryn Region;Kazan-Kuygan
+0;76.1001,41.4474;KG-04;Naryn Region;Ak-Kyya
+0;76.3147,41.4638;KG-04;Naryn Region;Iryi-Suu
+0;76.4632,41.5459;KG-04;Naryn Region;Keng-Saz
+0;75.6626,41.4185;KG-04;Naryn Region;Ak-Talaa
+0;74.8574,41.2666;KG-04;Naryn Region;Jangy-Tilek
+0;74.9389,41.3363;KG-04;Naryn Region;Kayyngdy-Bulak
+0;74.8292,41.4560;KG-04;Naryn Region;Kokdzhar
+0;75.0643,41.1858;KG-04;Naryn Region;Kara-Bulak
+0;75.5904,41.0941;KG-04;Naryn Region;Kara-Bulung
+0;76.4224,41.2399;KG-04;Naryn Region;Bosogo
+0;76.4546,41.2174;KG-04;Naryn Region;Besh-Belchir
+0;76.3550,40.8809;KG-04;Naryn Region;Köl-Suu
+0;76.1957,40.8561;KG-04;Naryn Region;Korumdu
+0;76.1025,40.8016;KG-04;Naryn Region;Ak-Say Madaniy Borbor
+0;75.4728,40.6593;KG-04;Naryn Region;Eselek
+0;75.3111,40.5510;KG-04;Naryn Region;Torugart
+0;76.2660,41.2176;KG-04;Naryn Region;Uchorme
+0;75.9784,41.1645;KG-04;Naryn Region;Bol’shevik
+0;75.6320,41.0709;KG-04;Naryn Region;Dzhanyguch
+0;75.7251,41.1660;KG-04;Naryn Region;Dekhkan
+0;76.0737,41.4301;KG-04;Naryn Region;Kenesh Pervyy
+0;76.1326,41.4387;KG-04;Naryn Region;Kenesh Vtoroy
+0;76.0708,41.4954;KG-04;Naryn Region;Karbulak
+0;76.0503,41.5495;KG-04;Naryn Region;Uchchat
+0;76.3693,41.4625;KG-04;Naryn Region;Imeni Kalinina
+0;76.3328,41.4525;KG-04;Naryn Region;Vos’moe Marta
+0;76.4357,41.5461;KG-04;Naryn Region;Eki-Naryn
+0;76.5321,41.5469;KG-04;Naryn Region;Chirlykty
+0;76.3017,41.6765;KG-04;Naryn Region;Kashkasu
+0;76.0114,41.7012;KG-04;Naryn Region;Ekichat
+0;71.5757,42.7063;KG-06;Talas Region;Pushkino
+0;72.2198,41.5805;KG-03;Jalal-Abad Region;Korgontyube
+0;72.2566,41.6208;KG-03;Jalal-Abad Region;Raykomol
+0;72.0529,41.6889;KG-03;Jalal-Abad Region;Kara-Suu
+0;72.0689,41.6416;KG-03;Jalal-Abad Region;Charba
+0;72.0517,41.6822;KG-03;Jalal-Abad Region;Top-Janggak
+0;72.0505,41.7159;KG-03;Jalal-Abad Region;Kyzyl-Köl
+0;72.9934,41.8614;KG-03;Jalal-Abad Region;Kara-Tektir
+0;72.9147,41.9027;KG-03;Jalal-Abad Region;Bala-Chychkan
+0;72.6983,41.8855;KG-03;Jalal-Abad Region;Terek-Suu
+0;72.5154,41.9621;KG-03;Jalal-Abad Region;Ak-Tektir
+0;72.6034,41.9146;KG-03;Jalal-Abad Region;Cholpon-Ata
+0;72.4247,41.0447;KG-03;Jalal-Abad Region;Mombekov
+0;72.5606,41.0482;KG-03;Jalal-Abad Region;Kurulush
+0;73.0059,40.8920;KG-03;Jalal-Abad Region;Komsomol
+0;72.9274,40.9027;KG-03;Jalal-Abad Region;Kyumyush-Aziz
+0;72.7983,41.0530;KG-03;Jalal-Abad Region;Beshik-Jon
+0;73.0210,40.9561;KG-03;Jalal-Abad Region;Tash-Bulak
+0;73.0590,41.0207;KG-03;Jalal-Abad Region;Leninskoe
+0;72.9652,41.2420;KG-03;Jalal-Abad Region;Pravda
+0;73.0747,41.3423;KG-03;Jalal-Abad Region;Ak-Bulak
+0;73.0633,41.3764;KG-03;Jalal-Abad Region;Katar-Janggak
+0;73.0638,41.3947;KG-03;Jalal-Abad Region;Altyn-Kyya
+0;73.2037,41.3396;KG-03;Jalal-Abad Region;Dzhaz-kechuu
+0;73.2003,41.7622;KG-03;Jalal-Abad Region;Üch-Terek
+0;73.1287,41.7315;KG-03;Jalal-Abad Region;Ketmen-Töbö
+0;73.9052,41.7583;KG-03;Jalal-Abad Region;Birlik
+0;73.3329,41.6267;KG-03;Jalal-Abad Region;Jetigen
+0;73.3913,41.6601;KG-03;Jalal-Abad Region;Kongur-Ogyuz
+0;73.9116,41.4138;KG-03;Jalal-Abad Region;Birdik
+0;74.0282,41.4231;KG-03;Jalal-Abad Region;Kara-Suu
+0;73.5318,41.1095;KG-03;Jalal-Abad Region;Kanjyga
+0;73.5066,41.1461;KG-03;Jalal-Abad Region;Nichke
+0;73.5603,41.1330;KG-03;Jalal-Abad Region;Kök-Art
+0;73.9863,41.1688;KG-03;Jalal-Abad Region;Makmal
+0;74.1570,41.4119;KG-03;Jalal-Abad Region;Örnök
+0;72.0908,41.1445;KG-03;Jalal-Abad Region;Kyzyl-Dzhar
+0;72.0816,41.1327;KG-03;Jalal-Abad Region;Naryn
+0;72.1061,41.1549;KG-03;Jalal-Abad Region;Dzhar-Bashi
+0;72.0810,41.1743;KG-03;Jalal-Abad Region;Dzhyl-Kol
+0;72.1346,41.1835;KG-03;Jalal-Abad Region;Dzhar-Bashy
+0;72.1580,41.1825;KG-03;Jalal-Abad Region;Kum
+0;72.2107,41.1471;KG-03;Jalal-Abad Region;Kyzyl-Tuu
+0;72.3083,41.2588;KG-03;Jalal-Abad Region;Kuduk
+0;72.2127,41.2529;KG-03;Jalal-Abad Region;Tendik
+0;72.2633,41.3314;KG-03;Jalal-Abad Region;Sary-Kamysh
+0;72.3130,41.3191;KG-03;Jalal-Abad Region;Shyng-Say
+0;72.2155,41.2875;KG-03;Jalal-Abad Region;Kuduk-Say
+0;72.1924,41.1103;KG-03;Jalal-Abad Region;Kyzyl-Tuu
+0;72.2589,41.0238;KG-03;Jalal-Abad Region;Dzhenish
+0;72.3055,41.0376;KG-03;Jalal-Abad Region;Kichi Byuogëndyu
+0;72.3261,41.0514;KG-03;Jalal-Abad Region;Dzhany-Aryk
+0;72.3546,41.0923;KG-03;Jalal-Abad Region;Kypchak-Talaa (duplicate, please delete)
+0;72.3734,41.0433;KG-03;Jalal-Abad Region;Chek
+0;72.3914,41.0428;KG-03;Jalal-Abad Region;Dzhazgak
+0;72.4517,41.0388;KG-03;Jalal-Abad Region;Boston
+0;72.4701,41.0339;KG-03;Jalal-Abad Region;Kurulush
+0;72.5403,41.0440;KG-03;Jalal-Abad Region;Rakhmandzhan
+0;72.4916,41.3175;KG-03;Jalal-Abad Region;Maili-Say
+0;72.4948,41.3054;KG-03;Jalal-Abad Region;Sary-Bez
+0;72.5829,41.1169;KG-03;Jalal-Abad Region;Kara-Bulak
+0;72.5469,41.0987;KG-03;Jalal-Abad Region;Sholka
+0;72.6111,41.0644;KG-03;Jalal-Abad Region;Kyzyl-Tuu
+0;72.6103,41.0296;KG-03;Jalal-Abad Region;Parakanda
+0;72.5920,41.0198;KG-03;Jalal-Abad Region;Imeni Kirova
+0;72.5923,41.0099;KG-03;Jalal-Abad Region;Kagazdy
+0;72.5560,41.0264;KG-03;Jalal-Abad Region;Kayyrma
+0;72.5187,41.0286;KG-03;Jalal-Abad Region;Kyzyl-Dzhyldyz
+0;72.7906,41.3032;KG-03;Jalal-Abad Region;Maydan
+0;72.6927,41.2006;KG-03;Jalal-Abad Region;Toskool
+0;72.7200,41.1630;KG-03;Jalal-Abad Region;Kara-Bulak
+0;72.6838,41.1579;KG-03;Jalal-Abad Region;Kara-Bulak
+0;72.7328,41.0847;KG-03;Jalal-Abad Region;Auk
+0;72.6685,41.0871;KG-03;Jalal-Abad Region;Dzhon-Aryk
+0;72.6830,41.0686;KG-03;Jalal-Abad Region;Kek-Aydar
+0;72.7269,41.0690;KG-03;Jalal-Abad Region;Gostutpitomnik
+0;72.7518,41.0976;KG-03;Jalal-Abad Region;Kengo
+0;72.6800,41.0533;KG-03;Jalal-Abad Region;Rassvet
+0;72.7002,41.1107;KG-03;Jalal-Abad Region;Dzhany-Aryk
+0;72.6698,41.0429;KG-03;Jalal-Abad Region;Birdik
+0;72.7089,41.0391;KG-03;Jalal-Abad Region;Mogol-Korgon
+0;72.6699,41.0075;KG-03;Jalal-Abad Region;Internatsional
+0;72.8187,41.0487;KG-03;Jalal-Abad Region;Baj-Munduz
+0;72.7906,41.0267;KG-03;Jalal-Abad Region;Dzharake
+0;72.7893,41.0175;KG-03;Jalal-Abad Region;Kosh-Korgon
+0;72.7859,40.9970;KG-03;Jalal-Abad Region;Kayyrma
+0;72.9323,40.9609;KG-03;Jalal-Abad Region;Jany-Dyykan
+0;72.9309,40.9386;KG-03;Jalal-Abad Region;Kamysh-Bashy
+0;72.9174,40.9352;KG-03;Jalal-Abad Region;Sadda
+0;72.9688,40.9218;KG-03;Jalal-Abad Region;Dëmër
+0;72.9486,40.9185;KG-03;Jalal-Abad Region;Ladan Kara
+0;72.9690,40.8985;KG-03;Jalal-Abad Region;Masadan
+0;72.9891,40.8848;KG-03;Jalal-Abad Region;Ul’gyu
+0;72.9474,40.8906;KG-03;Jalal-Abad Region;Dzhar-Kyshtak
+0;72.9956,40.8774;KG-03;Jalal-Abad Region;Dzhany-Ayyl
+0;72.9419,40.8789;KG-03;Jalal-Abad Region;Aral-Say
+0;72.9149,40.8701;KG-03;Jalal-Abad Region;Aral
+0;72.8726,40.8558;KG-03;Jalal-Abad Region;Shirin
+0;72.9456,40.8585;KG-03;Jalal-Abad Region;Uzbek-Abad
+0;72.9560,40.8541;KG-03;Jalal-Abad Region;Kyrgyz-Abad
+0;72.9468,40.8325;KG-03;Jalal-Abad Region;Kashkar-Maala
+0;72.8989,40.8557;KG-03;Jalal-Abad Region;Munduz
+0;72.9565,40.8316;KG-03;Jalal-Abad Region;Balta-Kazy
+0;72.9198,40.8176;KG-03;Jalal-Abad Region;Dzhany-Dzher
+0;72.8501,40.8683;KG-03;Jalal-Abad Region;Dostuk
+0;72.6608,40.8720;KG-03;Jalal-Abad Region;Tësh
+0;72.5914,40.9123;KG-03;Jalal-Abad Region;Chek
+0;72.5658,40.9415;KG-03;Jalal-Abad Region;Dukur
+0;72.5951,40.9431;KG-03;Jalal-Abad Region;Jany-Abad
+0;72.6356,40.9497;KG-03;Jalal-Abad Region;Dësh
+0;72.5925,40.9924;KG-03;Jalal-Abad Region;Cherëmushki
+0;72.6232,41.0020;KG-03;Jalal-Abad Region;Chartak-Tash
+0;72.5585,40.9967;KG-03;Jalal-Abad Region;Kagazdy
+0;72.5564,40.9742;KG-03;Jalal-Abad Region;Kyzyl-Kyrgyzstan
+0;72.6672,40.9818;KG-03;Jalal-Abad Region;Chon-Kurulush
+0;72.6878,40.9981;KG-03;Jalal-Abad Region;Kyzyl-Ay
+0;72.7000,40.9876;KG-03;Jalal-Abad Region;Dzhash-Lenin
+0;72.7240,40.9748;KG-03;Jalal-Abad Region;Arkalyk
+0;72.9882,40.8665;KG-03;Jalal-Abad Region;Kyzyl-Bagysh
+0;72.8258,41.2875;KG-03;Jalal-Abad Region;Ak-Terek
+0;72.9529,41.1701;KG-03;Jalal-Abad Region;Kaynar
+0;72.9506,41.2149;KG-03;Jalal-Abad Region;Imeni Chkalova
+0;72.9682,41.2868;KG-03;Jalal-Abad Region;Bel’-Terek
+0;72.9900,41.3019;KG-03;Jalal-Abad Region;Kyzyl-Suu
+0;72.9619,41.3186;KG-03;Jalal-Abad Region;Gumkhana
+0;72.9720,41.3231;KG-03;Jalal-Abad Region;Dzharadar
+0;72.8875,41.2878;KG-03;Jalal-Abad Region;Dzhay-Terek
+0;72.8948,41.2788;KG-03;Jalal-Abad Region;Dolono
+0;72.8403,40.9560;KG-03;Jalal-Abad Region;Sasyk-Bulak
+0;72.9500,41.0287;KG-03;Jalal-Abad Region;Osubek
+0;72.9721,41.0629;KG-03;Jalal-Abad Region;Kara Bulak
+0;72.9773,41.0788;KG-03;Jalal-Abad Region;Koy-Tash
+0;72.9854,41.0870;KG-03;Jalal-Abad Region;Akchaluu
+0;72.9781,41.1129;KG-03;Jalal-Abad Region;Kedoy Topoz
+0;72.9127,41.1858;KG-03;Jalal-Abad Region;Kyrgoo
+0;72.8519,41.2236;KG-03;Jalal-Abad Region;Sëgët
+0;72.7952,41.1390;KG-03;Jalal-Abad Region;Kara-Dzhygach
+3641;72.7927,41.1019;KG-03;Jalal-Abad Region;Kyzyl-Oktyabr’
+0;72.6847,41.1694;KG-03;Jalal-Abad Region;Shyngyma
+0;71.2201,41.8549;KG-03;Jalal-Abad Region;Korgon-Say
+0;71.6754,41.5790;KG-03;Jalal-Abad Region;Kashka-Suu
+0;71.9231,41.6695;KG-03;Jalal-Abad Region;Baykashka-Terek
+0;71.8898,41.6773;KG-03;Jalal-Abad Region;Tovar-Say
+0;70.7827,41.6614;KG-03;Jalal-Abad Region;Kurulush
+0;71.8313,41.5463;KG-03;Jalal-Abad Region;Bos-Biyik
+0;71.4208,42.0272;KG-03;Jalal-Abad Region;Chakmak-Suu
+0;71.4091,42.0357;KG-03;Jalal-Abad Region;Kuru-Tegerek
+0;72.9405,40.0349;KG-08;Osh Region;Kul’tientr Ak-Talas
+0;72.6003,40.1144;KG-08;Osh Region;Budaylyk
+0;72.6307,40.1389;KG-08;Osh Region;Aldyke
+0;72.9548,40.1333;KG-08;Osh Region;Kyundelyuk
+0;72.9726,40.2071;KG-08;Osh Region;Tarylga
+0;72.9682,40.2032;KG-08;Osh Region;Kuyukteke
+0;72.9753,40.2424;KG-08;Osh Region;Anchaly
+0;72.9771,40.2558;KG-08;Osh Region;Kyzyl-Tuu
+0;72.9842,40.2624;KG-08;Osh Region;Charaygyr
+0;72.9857,40.2733;KG-08;Osh Region;Ak-Terek
+0;72.9959,40.2834;KG-08;Osh Region;Mazar-Terek
+0;72.8118,40.1839;KG-08;Osh Region;Kara-Bulak
+0;72.6513,40.1629;KG-08;Osh Region;Kara-Oy
+0;72.6650,40.1834;KG-08;Osh Region;Dzhaztokoy
+0;72.6471,40.2139;KG-08;Osh Region;Imeni Kalinina
+0;72.6998,40.2096;KG-08;Osh Region;Ak-Bulak
+0;72.5262,40.2082;KG-08;Osh Region;Katta-Tal-Bulak
+0;72.5136,40.1819;KG-08;Osh Region;Seget
+0;72.5101,40.2639;KG-08;Osh Region;Borbash
+0;72.5627,40.2794;KG-08;Osh Region;Kyzyl-Teyit
+0;72.5702,40.2636;KG-08;Osh Region;Gyul’stan
+0;72.5924,40.2848;KG-08;Osh Region;Imeni Frunze
+0;72.5857,40.2315;KG-08;Osh Region;Temir Koruk
+0;72.6096,40.2467;KG-08;Osh Region;Noygut
+0;72.6282,40.2480;KG-08;Osh Region;Besh-Tal
+0;72.6559,40.2479;KG-08;Osh Region;Karake
+0;72.6820,40.2039;KG-08;Osh Region;Kyrgyz-Ata
+0;72.6897,40.2240;KG-08;Osh Region;Këtërmë
+0;72.6674,40.2462;KG-08;Osh Region;Borko
+0;72.6685,40.2553;KG-08;Osh Region;Aybek
+0;72.6622,40.2690;KG-08;Osh Region;Internatsional
+0;72.6822,40.3001;KG-08;Osh Region;Kommunizm
+0;72.7302,40.2421;KG-08;Osh Region;Kuu-Maydan
+0;72.7361,40.2227;KG-08;Osh Region;Arbyn
+0;72.7225,40.2507;KG-08;Osh Region;Ay-Tamga
+0;72.7422,40.2441;KG-08;Osh Region;Ak-Terek
+0;72.7633,40.2206;KG-08;Osh Region;Kotur-Bulak
+0;72.7807,40.2492;KG-08;Osh Region;Fedorovo
+0;72.7639,40.2475;KG-08;Osh Region;Dzhany-Bazar
+0;72.7827,40.2364;KG-08;Osh Region;Kodzhoke
+0;72.7235,40.2845;KG-08;Osh Region;Chegeden
+0;72.7189,40.2931;KG-08;Osh Region;Ak-Chabuu
+0;72.6761,40.3121;KG-08;Osh Region;Yatan
+0;72.6919,40.3064;KG-08;Osh Region;Osor
+0;72.7744,40.3218;KG-08;Osh Region;Kyr-Kol
+0;72.6328,40.3002;KG-08;Osh Region;Aral
+0;72.6405,40.3057;KG-08;Osh Region;Kyzyl
+0;72.6159,40.3502;KG-08;Osh Region;Khoshchan
+0;72.8101,40.2534;KG-08;Osh Region;Chëch-Dëbë
+0;72.0885,40.0313;KG-09;Batken;Karool
+0;72.0926,40.0351;KG-09;Batken;Kërëgë-Tash
+0;72.0943,40.0591;KG-09;Batken;Chakmak
+0;72.0598,40.2172;KG-09;Batken;Kozho
+0;72.0447,40.2443;KG-09;Batken;Kara-Dëbë
+0;72.0532,40.2577;KG-09;Batken;Kalacha
+0;72.0606,40.2700;KG-08;Osh Region;Nasirabad
+0;72.1075,40.2580;KG-09;Batken;Sukhana
+0;72.1124,40.2701;KG-09;Batken;Sulaymanabad
+0;72.2506,40.3183;KG-08;Osh Region;Ay-Tamga
+0;72.1884,40.2692;KG-08;Osh Region;Dzhin-Dzhigen
+0;72.1701,40.1884;KG-08;Osh Region;Moncho
+0;72.2389,40.2427;KG-08;Osh Region;Yntymak
+0;72.2921,40.2434;KG-08;Osh Region;Kosh-Dëbë
+0;72.3133,40.2079;KG-08;Osh Region;Kyzyl-Bulak
+0;72.8603,40.3370;KG-08;Osh Region;Ata-Merek
+0;72.8556,40.3453;KG-08;Osh Region;Ak-Terek
+0;72.7194,40.3775;KG-08;Osh Region;Almalyk
+0;72.5933,40.3920;KG-08;Osh Region;Kapchygay
+0;72.6071,40.3659;KG-08;Osh Region;Dangi
+0;72.5519,40.3937;KG-08;Osh Region;Akshar
+0;72.5881,40.4361;KG-08;Osh Region;Yangi-Aryk
+0;72.5449,40.5029;KG-08;Osh Region;Yetti-Ogayni
+0;72.5075,40.5302;KG-08;Osh Region;Charbak
+0;72.5357,40.5109;KG-08;Osh Region;Achchi
+0;72.5419,40.5193;KG-08;Osh Region;Kara-Bulak
+0;72.7090,40.4957;KG-08;Osh Region;Kenesh
+0;72.7242,40.4851;KG-08;Osh Region;Orke
+0;72.7146,40.5132;KG-08;Osh Region;Kerme-Too
+0;72.7300,40.5076;KG-08;Osh Region;Kyrgyzstan
+0;72.7195,40.4789;KG-08;Osh Region;Teeke
+0;72.7801,40.4992;KG-08;Osh Region;Pyatiletka
+0;72.8443,40.4542;KG-08;Osh Region;Kara-Kismak
+0;72.8491,40.4445;KG-08;Osh Region;Zamaryk
+0;72.8445,40.5370;KG-10;Osh City;Furkat
+0;72.7187,40.5538;KG-08;Osh Region;Kommunist
+0;72.7039,40.5506;KG-08;Osh Region;Imeni Karla Marksa
+0;72.7597,40.5636;KG-08;Osh Region;Kyzyl-Kyshtak
+0;72.7714,40.5465;KG-08;Osh Region;Besh-Kala
+0;72.7799,40.5857;KG-08;Osh Region;Nurdar
+0;72.9216,40.5482;KG-08;Osh Region;Chagyr
+0;72.9388,40.5481;KG-08;Osh Region;Oktyabr’
+0;72.9343,40.5543;KG-08;Osh Region;Dzhayylma
+0;72.9348,40.5657;KG-08;Osh Region;Sotsializm
+0;72.9651,40.5660;KG-08;Osh Region;Kyzyltol
+0;72.9935,40.5753;KG-08;Osh Region;Kyzyl-Abad
+0;72.9363,40.5824;KG-08;Osh Region;Chechen-Makhalla
+0;72.9697,40.5931;KG-08;Osh Region;Kara-Tepa
+0;72.9824,40.6049;KG-08;Osh Region;Kara-Dëbë
+0;72.8987,40.5770;KG-08;Osh Region;Kaarman
+0;72.8661,40.6140;KG-08;Osh Region;Gayrat
+0;72.8843,40.6228;KG-08;Osh Region;Agartuu
+0;72.8007,40.5710;KG-08;Osh Region;Dzhany-Makhalla
+0;72.7597,40.5891;KG-08;Osh Region;Vlksm
+0;72.8230,40.6071;KG-08;Osh Region;Tadzhik-Makhalla
+0;72.8065,40.6181;KG-08;Osh Region;Kyzyl-Mekhnat
+0;72.7870,40.6292;KG-08;Osh Region;Monok
+0;72.8686,40.6400;KG-08;Osh Region;Imeni Kalinina
+0;72.8451,40.6567;KG-08;Osh Region;Imeni Lenina
+0;72.8904,40.6615;KG-08;Osh Region;Kommunizm
+0;72.8953,40.6475;KG-08;Osh Region;Bol’shevik
+0;72.9459,40.6577;KG-08;Osh Region;Kysh-Abad
+0;72.9319,40.6660;KG-08;Osh Region;Progress
+0;72.9067,40.6634;KG-08;Osh Region;Konurat
+0;72.9677,40.6518;KG-08;Osh Region;Farkhad
+0;72.9377,40.6289;KG-08;Osh Region;Kyzyl-Saray
+0;72.3928,40.6043;KG-08;Osh Region;Aral
+0;72.3647,40.5993;KG-08;Osh Region;Yangi-Yul’
+0;72.3915,40.5817;KG-08;Osh Region;Uygur-Abad
+0;72.4078,40.5954;KG-08;Osh Region;Kesov
+0;72.4094,40.5660;KG-08;Osh Region;Yangi-Abad
+0;72.4397,40.5867;KG-08;Osh Region;Langar
+0;72.4321,40.5764;KG-08;Osh Region;Kaygarach-Aryk
+0;72.4602,40.5620;KG-08;Osh Region;Kakyr-Piltan
+0;72.4908,40.5447;KG-08;Osh Region;Sasyk-Unkyur
+0;72.4269,40.5384;KG-08;Osh Region;Sutkhor
+0;72.3893,40.5157;KG-08;Osh Region;Dzhar-Kyshlak
+0;72.4858,40.5063;KG-08;Osh Region;Pakhtachi
+0;72.4178,40.5254;KG-08;Osh Region;Kukalapash
+0;72.4437,40.5228;KG-08;Osh Region;Dzhakshylyk
+0;72.4707,40.5157;KG-08;Osh Region;Maksim Tobu
+0;72.4512,40.4956;KG-08;Osh Region;Agronom
+0;72.4499,40.5065;KG-08;Osh Region;Kochubayevo
+0;72.4975,40.4882;KG-08;Osh Region;Oktyabr’
+0;72.4215,40.3080;KG-08;Osh Region;Dzhinde
+0;72.2901,40.3173;KG-08;Osh Region;Dzhayylma
+0;72.3495,40.2872;KG-08;Osh Region;Naray
+0;72.3492,40.3020;KG-08;Osh Region;Sarykandy
+0;72.2953,40.3009;KG-08;Osh Region;On-Eki-Moynok
+0;72.0558,40.2623;KG-08;Osh Region;Leskhoz
+0;72.0182,40.2324;KG-09;Batken;Kon
+0;72.2210,40.3794;KG-08;Osh Region;Sary-Tash
+0;72.2028,40.3762;KG-08;Osh Region;Khauz
+0;72.1420,40.4284;KG-08;Osh Region;Syrt
+0;72.2352,40.4506;KG-08;Osh Region;Dzheke-Miste
+0;75.0361,41.5473;KG-04;Naryn Region;Kol’kain
+0;75.0344,41.5564;KG-04;Naryn Region;Kairma
+0;75.0409,41.5100;KG-04;Naryn Region;Toguzbulak
+0;75.1069,41.5481;KG-04;Naryn Region;Kichi-Borolbos
+0;75.2032,41.4759;KG-04;Naryn Region;Eski-Tegermen
+0;75.7898,41.5835;KG-04;Naryn Region;Dzhangy-Talap
+0;75.7184,41.4353;KG-04;Naryn Region;Maynetkech
+0;75.8608,41.4650;KG-04;Naryn Region;Karabuk
+0;75.9665,41.4453;KG-04;Naryn Region;Karabulundun
+0;73.8461,40.6544;KG-08;Osh Region;Ak-Tash
+0;73.7142,40.6443;KG-08;Osh Region;Karashak
+0;73.7234,40.5959;KG-08;Osh Region;Chalma
+0;73.6012,40.6578;KG-08;Osh Region;Ak-Kyya
+0;73.4999,40.6653;KG-08;Osh Region;Kara-Kochkor
+0;73.5413,40.6121;KG-08;Osh Region;Sary-Kamysh
+0;73.5713,40.6336;KG-08;Osh Region;Imeni Tel’mana
+0;73.4704,40.6265;KG-08;Osh Region;Dzhany-Talaa
+0;73.6495,40.5876;KG-08;Osh Region;Say
+0;73.6631,40.5726;KG-08;Osh Region;Boksy
+0;73.7366,40.5592;KG-08;Osh Region;Tokbay-Talaa
+0;73.7957,40.5356;KG-08;Osh Region;Nichke-Suu
+0;73.8273,40.5326;KG-08;Osh Region;Terek-Suu
+0;73.8881,40.5560;KG-08;Osh Region;Sary-Bee
+0;73.8854,40.5648;KG-08;Osh Region;Ordësh
+0;73.7927,40.4920;KG-08;Osh Region;Uryuk
+0;73.7901,40.5164;KG-08;Osh Region;Alcha
+0;73.7828,40.5125;KG-08;Osh Region;Sasyk-Bulak
+0;73.7742,40.4914;KG-08;Osh Region;Kara-Tash
+0;73.7585,40.4780;KG-08;Osh Region;Buyga
+0;73.6123,40.5087;KG-08;Osh Region;Sary-Kyungey
+0;73.5156,40.5260;KG-08;Osh Region;Arpatekter
+0;73.5294,40.5105;KG-08;Osh Region;Shirday
+0;73.5242,40.4952;KG-08;Osh Region;Karaboguz
+0;73.5890,40.4466;KG-08;Osh Region;Kyzyl-Bulak
+0;73.6216,40.4256;KG-08;Osh Region;Konokbay-Talaa
+0;73.5745,40.3334;KG-08;Osh Region;Dzhany-Turmush
+0;73.5544,40.3403;KG-08;Osh Region;Kommunizm
+0;73.5441,40.3416;KG-08;Osh Region;Lenin-Dzhod
+0;73.5217,40.3387;KG-08;Osh Region;Dzhylgamysh
+0;73.5010,40.3473;KG-08;Osh Region;Kyz-Emchek
+0;73.5285,40.3256;KG-08;Osh Region;Dzhol-Dzhylga
+0;73.5400,40.2976;KG-08;Osh Region;Kum-Shoro
+0;73.5456,40.2864;KG-08;Osh Region;Dzhumake
+0;73.5658,40.2839;KG-08;Osh Region;Kara-Suu
+0;73.5687,40.2780;KG-08;Osh Region;Kaynama
+0;73.5825,40.2674;KG-08;Osh Region;Shalba
+0;73.5130,40.2651;KG-08;Osh Region;Tamdy-Terek
+0;73.5250,40.2676;KG-08;Osh Region;Imeni Karla Marksa
+0;73.5361,40.2593;KG-08;Osh Region;Orto-Kyshtoo
+0;73.5375,40.2509;KG-08;Osh Region;Kyzyl-Këchyu
+0;73.5931,40.2497;KG-08;Osh Region;Toykulo
+0;73.5993,40.2433;KG-08;Osh Region;Almaly
+0;73.6040,40.3225;KG-08;Osh Region;Miyazdy
+0;73.6335,40.3240;KG-08;Osh Region;Osoaviakhim
+0;73.6569,40.3262;KG-08;Osh Region;Orto-Suu
+0;73.6696,40.3365;KG-08;Osh Region;Ayuu-Talan
+0;73.6226,40.1852;KG-08;Osh Region;Chekulo
+0;73.6198,40.1666;KG-08;Osh Region;Kyzyl-Kyshtoo
+0;73.6032,40.1748;KG-08;Osh Region;Koshulush
+0;73.5826,40.1703;KG-08;Osh Region;Kel-Chaty
+0;73.5073,40.1426;KG-08;Osh Region;Kun-Elek
+0;73.5492,40.0547;KG-08;Osh Region;Targalak
+0;73.5921,40.0988;KG-08;Osh Region;Akhtala
+0;73.5072,40.0283;KG-08;Osh Region;Imeni Gagarina
+0;73.4870,40.2546;KG-08;Osh Region;Soku-Tash
+0;73.4848,40.2674;KG-08;Osh Region;Oro-Dëbë
+0;73.4271,40.2722;KG-08;Osh Region;Tel’manchaty
+0;73.3744,40.2477;KG-08;Osh Region;Tash-Koroo
+0;73.2868,40.2612;KG-08;Osh Region;Chiyrchik
+0;73.1691,40.2641;KG-08;Osh Region;Teeke
+0;73.2048,40.3305;KG-08;Osh Region;Alga-Bas
+0;73.2154,40.3163;KG-08;Osh Region;Katta-Talkdyk
+0;73.2282,40.3160;KG-08;Osh Region;Syuttyuu-Bulak
+0;73.1921,40.2961;KG-08;Osh Region;Kichik
+0;73.4779,40.2842;KG-08;Osh Region;Chakmak
+0;73.4131,40.3270;KG-08;Osh Region;Dzharlyk
+0;73.4479,40.3316;KG-08;Osh Region;Dzhar-Kyshtak
+0;73.3617,40.2413;KG-08;Osh Region;Kël’
+0;73.4270,40.3818;KG-08;Osh Region;Toguz-Bulak
+0;73.4063,40.3717;KG-08;Osh Region;Pervoye Maya
+0;73.3939,40.3760;KG-08;Osh Region;Kyzyl-Oy
+0;73.3872,40.3418;KG-08;Osh Region;Kara-Shoro
+0;73.3895,40.3568;KG-08;Osh Region;Arpatektir
+0;72.1894,40.4237;KG-08;Osh Region;Syrt Vtoroy
+0;72.4250,40.4235;KG-08;Osh Region;Zimovka Boron
+0;73.2989,40.3618;KG-08;Osh Region;Kyungey
+0;73.1015,40.4066;KG-08;Osh Region;Langar
+0;73.0161,40.3873;KG-08;Osh Region;Kara-Sëgët
+0;73.0969,40.4218;KG-08;Osh Region;Top-Terek
+0;73.1103,40.4145;KG-08;Osh Region;Dolono
+0;73.2608,40.4343;KG-08;Osh Region;Kyzyl-Suu
+0;73.2795,40.4394;KG-08;Osh Region;Talaa
+0;73.2540,40.4488;KG-08;Osh Region;Dzhaka
+0;73.2613,40.4446;KG-08;Osh Region;Kurak
+0;73.2792,40.4513;KG-08;Osh Region;Kara-Tebe
+0;73.3084,40.4637;KG-08;Osh Region;Ay-Tal
+0;73.3031,40.4737;KG-08;Osh Region;Myk-Dëbë
+0;73.4966,40.5871;KG-08;Osh Region;Nasirdin
+0;73.5213,40.5466;KG-08;Osh Region;Kyzyl-Kum
+0;73.4933,40.5729;KG-08;Osh Region;Dzhetim-Dëbë
+0;73.4928,40.5220;KG-08;Osh Region;Altyn-Kyurëk
+0;73.3636,40.5532;KG-08;Osh Region;Uchkaptal
+0;73.3903,40.5585;KG-08;Osh Region;Topor
+0;73.3731,40.5843;KG-08;Osh Region;Aral
+0;73.3633,40.5909;KG-08;Osh Region;Ak-Terek
+0;73.3202,40.5887;KG-08;Osh Region;Imeni Karla Marksa
+0;73.3071,40.5701;KG-08;Osh Region;Keng-Suu
+0;73.2952,40.4860;KG-08;Osh Region;Taldy-Bulak
+0;73.2824,40.5081;KG-08;Osh Region;Iyrek
+0;73.2463,40.4941;KG-08;Osh Region;El’chibek
+0;73.2389,40.5091;KG-08;Osh Region;Dzhakma-Bulak
+0;73.2150,40.5127;KG-08;Osh Region;Ortok
+0;73.2050,40.5008;KG-08;Osh Region;Atavayly
+0;73.1949,40.5014;KG-08;Osh Region;Beyshe-Uulu
+0;73.1807,40.5050;KG-08;Osh Region;Besh-Abyshka
+0;73.1998,40.5174;KG-08;Osh Region;Almurut
+0;73.1960,40.5635;KG-08;Osh Region;Kara-Terek
+0;73.1776,40.5591;KG-08;Osh Region;Kreml’
+0;73.1647,40.5567;KG-08;Osh Region;Say
+0;73.1412,40.5563;KG-08;Osh Region;Kochkor-Ata
+0;73.1450,40.5082;KG-08;Osh Region;Uchkun
+0;73.0838,40.5043;KG-08;Osh Region;Miyaly
+0;73.0501,40.5419;KG-08;Osh Region;Kyzyl-Ordo
+0;73.0186,40.5146;KG-08;Osh Region;Kara-Echki
+0;73.4635,40.6134;KG-08;Osh Region;Kalmatay
+0;73.4330,40.6643;KG-08;Osh Region;Kashka-Dzhol
+0;73.4259,40.6359;KG-08;Osh Region;Kenesh
+0;73.4158,40.6144;KG-08;Osh Region;Por
+0;73.3099,40.6334;KG-08;Osh Region;Imeni Kirova
+0;73.3045,40.6259;KG-08;Osh Region;Sëgët
+0;73.2956,40.6135;KG-08;Osh Region;Kurbu-Tash
+0;73.2803,40.6149;KG-08;Osh Region;Boz-Ala
+0;73.2875,40.6259;KG-08;Osh Region;Aral
+0;73.2942,40.6517;KG-08;Osh Region;Alcha-Bashat
+0;73.2715,40.6427;KG-08;Osh Region;Kysyk-Alma
+0;73.2442,40.6564;KG-08;Osh Region;Dzhan-Shoro
+0;73.2409,40.6600;KG-08;Osh Region;Kyzyl-Kël’
+0;73.2152,40.6563;KG-08;Osh Region;Sotsializm
+0;73.0696,40.6538;KG-08;Osh Region;Tash-Aryk
+0;73.1228,40.5931;KG-08;Osh Region;Ak-Terek
+0;73.1302,40.5958;KG-08;Osh Region;Tozueinchi
+0;73.0335,40.5610;KG-08;Osh Region;Kazagyul’
+0;73.0521,40.6242;KG-08;Osh Region;Dzhany-Turmush
+0;73.0551,40.5897;KG-08;Osh Region;Sasyk-Angel
+0;73.0434,40.6484;KG-08;Osh Region;Dzhar-Ooz
+0;73.0350,40.6179;KG-08;Osh Region;Sadyrbay
+15616;73.5925,40.6322;KG-08;Osh Region;Kara-Kulja
+0;73.2790,40.3632;KG-08;Osh Region;Kablan-Kël’
+0;73.3496,40.2411;KG-08;Osh Region;Boz
+0;72.7882,40.6729;KG-08;Osh Region;Imeni Lenina
+0;72.8163,40.6685;KG-08;Osh Region;Ak-Tash
+0;72.8999,40.6798;KG-08;Osh Region;Erkin
+0;72.8661,40.6912;KG-08;Osh Region;Imeni Tel’mana
+0;72.9205,40.6933;KG-08;Osh Region;Oktyabr’
+0;72.8858,40.7013;KG-08;Osh Region;Imeni Kirova
+0;72.9335,40.7217;KG-08;Osh Region;Kyzyl-Shark
+0;72.9706,40.7084;KG-08;Osh Region;Kurban-Kara
+0;72.9610,40.7294;KG-08;Osh Region;Kydyrsha
+0;73.0081,40.7580;KG-08;Osh Region;Yntymak
+0;73.0092,40.6805;KG-08;Osh Region;Sary-Kolot
+0;73.1369,40.6953;KG-08;Osh Region;Alga
+0;73.1185,40.6927;KG-08;Osh Region;Pravda
+0;73.1584,40.6703;KG-08;Osh Region;Guzar
+0;73.1624,40.7107;KG-08;Osh Region;Kyzyl-Oktyabr’
+0;73.2220,40.7245;KG-08;Osh Region;Myrza-Aryk
+0;73.2334,40.7440;KG-08;Osh Region;Orto-Aryk
+0;73.2221,40.7735;KG-08;Osh Region;Dzhany-Dzhol
+0;73.2636,40.6966;KG-08;Osh Region;Kor-Bulak
+0;73.3898,40.6742;KG-08;Osh Region;Dzhiydeli
+0;73.4099,40.6864;KG-08;Osh Region;Dzhany-Talap
+0;73.3809,40.6987;KG-08;Osh Region;Aral
+0;73.4222,40.7164;KG-08;Osh Region;Adyr
+0;73.3787,40.7139;KG-08;Osh Region;Chimbay
+0;73.3845,40.7332;KG-08;Osh Region;Babyr
+0;73.4675,40.7807;KG-08;Osh Region;Bol’shevik
+0;73.3983,40.8232;KG-08;Osh Region;Toktogul
+0;73.4249,40.7729;KG-08;Osh Region;Jeerenchi
+0;73.3913,40.7742;KG-08;Osh Region;Kyzyl-Dyykan
+0;73.4073,40.7589;KG-08;Osh Region;Babashuulu
+0;73.3778,40.7549;KG-08;Osh Region;Michurino
+0;73.3399,40.7930;KG-08;Osh Region;Yani-Uzgen
+0;73.3664,40.7557;KG-08;Osh Region;Bakmal
+0;73.3448,40.7570;KG-08;Osh Region;Kara-Dar’ya
+0;73.3447,40.7466;KG-08;Osh Region;Tëolës
+0;73.3704,40.7420;KG-08;Osh Region;Bëksë-Dzhol
+0;73.3352,40.8126;KG-08;Osh Region;Krasnyy Mayak
+0;73.3189,40.7845;KG-08;Osh Region;Dzhun-Alma
+0;73.3334,40.7869;KG-08;Osh Region;Progres
+0;73.2721,40.8396;KG-08;Osh Region;Shoro-Bashat
+0;73.3075,40.8222;KG-08;Osh Region;Makarenko
+0;73.2754,40.8145;KG-08;Osh Region;Beshkapa
+0;73.2516,40.8145;KG-08;Osh Region;Aral
+0;73.2397,40.8179;KG-08;Osh Region;Kyymyl
+0;73.2414,40.8296;KG-08;Osh Region;Boston
+0;73.2373,40.8360;KG-08;Osh Region;Orgulu
+0;73.2208,40.8279;KG-08;Osh Region;Shaybek-Uulu
+0;73.2957,40.7910;KG-08;Osh Region;Dzhany-Abad
+0;73.2263,40.8049;KG-08;Osh Region;Kyzyl-Kyrman
+0;73.2431,40.8015;KG-08;Osh Region;Kenesh
+0;73.2040,40.7941;KG-08;Osh Region;Aygyr-Dzhar
+0;73.2309,40.7882;KG-08;Osh Region;Tash-Kel’
+0;73.2769,40.7791;KG-08;Osh Region;Kosh-Korgon
+0;73.2757,40.7964;KG-08;Osh Region;Ozgëryush
+0;73.5188,40.7149;KG-08;Osh Region;Imeni Kirova
+0;73.5845,40.7249;KG-08;Osh Region;Kungun
+0;73.6148,40.7351;KG-08;Osh Region;Kara-Batkak
+0;73.6234,40.7699;KG-08;Osh Region;Nichke
+0;73.5387,40.7664;KG-08;Osh Region;Semiz-Kël’
+0;73.5109,40.8103;KG-08;Osh Region;Kakyr
+0;73.5202,40.8263;KG-08;Osh Region;Kyzyl-Too
+0;73.4673,40.8418;KG-08;Osh Region;Kuragak-Demik
+0;73.4303,40.8477;KG-08;Osh Region;Dzhany-Ayyl
+0;73.4477,40.8695;KG-08;Osh Region;Kayrat
+0;73.4632,40.9090;KG-08;Osh Region;Ayuu
+0;73.4806,40.9345;KG-08;Osh Region;Tosoy
+0;73.4214,40.9067;KG-08;Osh Region;Nichke-Say
+0;73.3807,40.9145;KG-08;Osh Region;Kors-Etti
+0;73.3599,40.8827;KG-08;Osh Region;Boto-Moynok
+0;73.3608,40.9375;KG-08;Osh Region;Kyrgyzstan
+0;73.3401,40.8667;KG-08;Osh Region;Kalta
+0;73.4136,40.9423;KG-08;Osh Region;Dzhangakty
+0;73.5199,40.9266;KG-08;Osh Region;Kara-Tash
+0;73.5103,40.9203;KG-08;Osh Region;Kurbu-Suu
+0;73.3894,40.9747;KG-03;Jalal-Abad Region;Ak-Tërek
+0;73.3609,40.9741;KG-03;Jalal-Abad Region;Kara-Kolot
+0;73.1792,40.9146;KG-03;Jalal-Abad Region;Kyr-Dzhol
+0;73.2051,40.9131;KG-03;Jalal-Abad Region;Achy
+0;73.1599,40.9490;KG-03;Jalal-Abad Region;Bëkey
+0;73.1443,40.8838;KG-03;Jalal-Abad Region;Pasty-Mazar
+0;73.1305,40.8450;KG-03;Jalal-Abad Region;Tash-Akyr
+0;73.0551,40.8530;KG-03;Jalal-Abad Region;Dzhar-Kyshtak
+0;73.0589,40.8643;KG-03;Jalal-Abad Region;Tyurk-Maala
+0;73.0255,40.8462;KG-03;Jalal-Abad Region;Turkkishlak
+0;73.0229,40.8628;KG-03;Jalal-Abad Region;Dëbëy
+0;73.0920,40.8649;KG-03;Jalal-Abad Region;Chenget-Say
+0;73.0805,40.8707;KG-03;Jalal-Abad Region;Boz-Chychkan
+0;73.0433,40.8638;KG-03;Jalal-Abad Region;Tashtak
+0;73.0624,40.8718;KG-03;Jalal-Abad Region;Tëolës
+0;73.0142,40.8683;KG-03;Jalal-Abad Region;Chokmor
+0;73.0319,40.8753;KG-03;Jalal-Abad Region;Kandy
+0;73.0383,40.8809;KG-03;Jalal-Abad Region;Changyt
+0;73.0543,40.8871;KG-03;Jalal-Abad Region;Min-Oryuk
+0;73.0679,40.8900;KG-03;Jalal-Abad Region;Kara-Dzhygach
+0;73.0904,40.9083;KG-03;Jalal-Abad Region;Kaynar
+0;73.0132,40.9087;KG-03;Jalal-Abad Region;Prigorodnyy
+0;73.0703,40.9620;KG-03;Jalal-Abad Region;Eshme
+0;73.1006,40.9312;KG-03;Jalal-Abad Region;Tash-Bulak
+0;73.0120,40.9965;KG-03;Jalal-Abad Region;Kyzyl-Kyrgyzstan
+0;73.0125,40.9817;KG-03;Jalal-Abad Region;Doskana
+0;73.1188,40.9356;KG-03;Jalal-Abad Region;Kaynar
+0;73.1891,41.0030;KG-03;Jalal-Abad Region;Sary-Bulak
+0;73.2212,40.9359;KG-03;Jalal-Abad Region;Say
+0;73.2145,40.9601;KG-03;Jalal-Abad Region;Markay
+0;73.2431,40.9420;KG-03;Jalal-Abad Region;Shoro
+0;73.2429,40.9555;KG-03;Jalal-Abad Region;Ak-Changyl
+0;73.2892,40.9513;KG-03;Jalal-Abad Region;Changet
+0;73.2575,40.9494;KG-03;Jalal-Abad Region;Ostyuryu
+0;73.3137,40.9584;KG-03;Jalal-Abad Region;Chalkoy
+0;73.8631,40.6760;KG-08;Osh Region;Dzhul’gur
+0;73.7538,40.8817;KG-08;Osh Region;Kyzyl-Bayrak
+0;73.7709,40.8880;KG-08;Osh Region;Ara-Kël’
+0;73.5854,40.8171;KG-08;Osh Region;Erkin-Too
+0;73.5712,40.8101;KG-08;Osh Region;Kyzyl-Charba
+0;73.5974,40.7869;KG-08;Osh Region;Chukhuma
+0;73.5383,40.8292;KG-08;Osh Region;Karchabek
+0;73.7864,40.8998;KG-08;Osh Region;Kyrdzhol
+0;73.7140,40.8817;KG-08;Osh Region;Kosh-Eter
+0;73.6813,40.8686;KG-08;Osh Region;Ak-Terek
+0;73.8214,40.9309;KG-08;Osh Region;Tashkupyr
+0;73.5225,41.1088;KG-03;Jalal-Abad Region;Orto-Kandjyga
+0;73.4997,41.1193;KG-03;Jalal-Abad Region;Talaa-Kandzhyga
+0;73.4821,41.1231;KG-03;Jalal-Abad Region;Kap-Surgar
+0;73.0392,41.0173;KG-03;Jalal-Abad Region;Kotur-Kaman
+0;73.0009,41.0403;KG-03;Jalal-Abad Region;Kyzyl-Senir
+0;73.0653,41.0743;KG-03;Jalal-Abad Region;Chymchyk-Dzhar
+0;73.0834,41.0708;KG-03;Jalal-Abad Region;Zhygach-Korgon
+0;73.0515,41.0131;KG-03;Jalal-Abad Region;Imeni Tel’mana
+0;73.0817,41.0241;KG-03;Jalal-Abad Region;Besh-Bala
+0;73.4625,41.0523;KG-03;Jalal-Abad Region;Orkazgan
+0;73.4371,41.0260;KG-03;Jalal-Abad Region;Tuyuk-Suu
+0;73.4229,41.0844;KG-03;Jalal-Abad Region;Kadu-Alma
+0;73.2158,41.0629;KG-03;Jalal-Abad Region;Uch-Malay
+0;73.2207,41.0404;KG-03;Jalal-Abad Region;Kel’më
+0;73.1303,41.0428;KG-03;Jalal-Abad Region;Safarovka
+0;73.1154,41.0294;KG-03;Jalal-Abad Region;Sary-Bulak
+0;73.3364,41.2024;KG-03;Jalal-Abad Region;Ak-Talaa
+0;73.0217,41.1032;KG-03;Jalal-Abad Region;Shatrak
+0;73.0231,41.1445;KG-03;Jalal-Abad Region;Almaluu-Bulak
+0;73.0308,41.1194;KG-03;Jalal-Abad Region;Soku-Tash
+0;73.0535,41.1505;KG-03;Jalal-Abad Region;Akchaluu
+0;73.0927,41.1253;KG-03;Jalal-Abad Region;Kyz-Kël’
+0;73.1112,41.1150;KG-03;Jalal-Abad Region;Dzhany-Aryk
+0;73.1768,41.1714;KG-03;Jalal-Abad Region;Sasyk-Bulak
+0;73.2477,41.1707;KG-03;Jalal-Abad Region;Akyya
+0;73.2634,41.1834;KG-03;Jalal-Abad Region;Kara-Bulak
+0;73.2614,41.1093;KG-03;Jalal-Abad Region;Podgornoye
+0;73.2958,41.1205;KG-03;Jalal-Abad Region;Kara-Cholok
+0;73.2412,41.2189;KG-03;Jalal-Abad Region;Ortok
+0;73.3596,41.1285;KG-03;Jalal-Abad Region;Taran-Bazar
+0;73.3684,41.1496;KG-03;Jalal-Abad Region;Saty
+0;73.3824,41.1258;KG-03;Jalal-Abad Region;Tamta-Terek
+0;73.4584,41.1112;KG-03;Jalal-Abad Region;Sary-Bulak
+0;73.4456,41.1255;KG-03;Jalal-Abad Region;Kalmak-Kyrchyn
+0;73.4468,41.2101;KG-03;Jalal-Abad Region;Taraalcha
+0;73.3473,41.2189;KG-03;Jalal-Abad Region;Say
+0;73.3367,41.2107;KG-03;Jalal-Abad Region;Orazak
+0;73.3246,41.2481;KG-03;Jalal-Abad Region;Kandy-Bulak
+0;73.3348,41.2308;KG-03;Jalal-Abad Region;Bel’-Chargay
+0;73.3021,41.2662;KG-03;Jalal-Abad Region;Chymchyk
+0;73.3778,41.2350;KG-03;Jalal-Abad Region;Balykty
+0;73.2147,41.2162;KG-03;Jalal-Abad Region;Kyzyl-Kiya
+0;73.1736,41.2140;KG-03;Jalal-Abad Region;Dzhylan-Temir
+0;73.1612,41.2174;KG-03;Jalal-Abad Region;Ak-Bulak
+0;73.1160,41.2156;KG-03;Jalal-Abad Region;Kara-Ingen
+0;73.1300,41.2330;KG-03;Jalal-Abad Region;Kadu
+0;73.0493,41.1905;KG-03;Jalal-Abad Region;Ak-Terek
+0;73.0417,41.2638;KG-03;Jalal-Abad Region;Buvakol
+0;73.0785,41.2719;KG-03;Jalal-Abad Region;Korgon-Dzhar
+0;73.0762,41.2971;KG-03;Jalal-Abad Region;Karayuz
+0;73.0685,41.2897;KG-03;Jalal-Abad Region;Irinchi
+0;73.1135,41.2948;KG-03;Jalal-Abad Region;Këk-Alma
+0;73.1960,41.3308;KG-03;Jalal-Abad Region;Dzhildyz-Kël’
+0;73.0573,41.2821;KG-03;Jalal-Abad Region;Këk-Alma
+0;74.1048,41.3314;KG-03;Jalal-Abad Region;Shura
+0;74.6919,41.2816;KG-04;Naryn Region;Karadzhar-Kurulush
+0;74.9658,41.2183;KG-04;Naryn Region;Kel’techap
+3046;72.1945,41.5667;KG-03;Jalal-Abad Region;Ak-Jol
+0;72.6624,41.1073;KG-03;Jalal-Abad Region;Eski-Massy
+0;72.5638,40.4808;KG-08;Osh Region;Yangi-Aravan
+0;72.4010,41.9203;KG-03;Jalal-Abad Region;Altalu
+0;72.4800,41.9937;KG-03;Jalal-Abad Region;Karakyungey
+0;72.4884,41.8966;KG-03;Jalal-Abad Region;Akbulak
+0;72.5456,41.8719;KG-03;Jalal-Abad Region;Bel’
+0;72.0948,41.7632;KG-03;Jalal-Abad Region;Turduk
+0;72.1253,41.7678;KG-03;Jalal-Abad Region;Tokbash
+0;72.0311,41.7420;KG-03;Jalal-Abad Region;Kyzylemgek
+0;72.0590,41.7424;KG-03;Jalal-Abad Region;Chat
+0;72.1757,41.6770;KG-03;Jalal-Abad Region;Karaboto
+0;72.0833,41.6926;KG-03;Jalal-Abad Region;Aktash
+0;72.0538,41.7148;KG-03;Jalal-Abad Region;Tashkara
+0;72.0784,41.7075;KG-03;Jalal-Abad Region;Kyzart
+0;72.0466,41.6954;KG-03;Jalal-Abad Region;Iribuluk
+0;72.0844,41.6725;KG-03;Jalal-Abad Region;Dzhyuzyumdzhan
+0;72.0874,41.6163;KG-03;Jalal-Abad Region;Torgamysh
+0;72.0230,41.6287;KG-03;Jalal-Abad Region;Karabulak
+0;72.0341,41.6458;KG-03;Jalal-Abad Region;Karatash
+0;72.0415,41.6435;KG-03;Jalal-Abad Region;Karabulak
+0;72.1989,41.6131;KG-03;Jalal-Abad Region;Dzholbarstu
+0;72.2634,41.5757;KG-03;Jalal-Abad Region;Kechu
+0;72.2498,41.6167;KG-03;Jalal-Abad Region;Kokkumay
+0;72.1854,41.5785;KG-03;Jalal-Abad Region;Baktulak
+0;72.4511,41.6371;KG-03;Jalal-Abad Region;Kuloma
+0;72.3769,41.5432;KG-03;Jalal-Abad Region;Kurkura
+0;72.3304,41.5204;KG-03;Jalal-Abad Region;Kurn
+0;72.2354,41.5148;KG-03;Jalal-Abad Region;Alcha
+0;72.2968,41.4805;KG-03;Jalal-Abad Region;Ryazansay
+0;72.1034,41.4865;KG-03;Jalal-Abad Region;Korgontyube
+0;72.0782,41.4709;KG-03;Jalal-Abad Region;Imamata
+0;72.1028,41.4194;KG-03;Jalal-Abad Region;Kara-dzhigach
+0;72.1632,41.4576;KG-03;Jalal-Abad Region;Shartut
+0;72.2537,41.3991;KG-03;Jalal-Abad Region;Aksu
+0;72.2186,41.4052;KG-03;Jalal-Abad Region;Karasu
+0;72.1184,41.4069;KG-03;Jalal-Abad Region;Dzhangitalap
+0;72.1001,41.3563;KG-03;Jalal-Abad Region;Dzhangitalap
+0;72.1474,41.3899;KG-03;Jalal-Abad Region;Karagandy
+0;72.2396,41.3570;KG-03;Jalal-Abad Region;Paizbulak
+0;72.2120,41.3307;KG-03;Jalal-Abad Region;Dardasan
+0;72.2944,41.3435;KG-03;Jalal-Abad Region;Sarynamysh
+0;72.5863,41.6201;KG-03;Jalal-Abad Region;Sarychalga
+0;72.6959,41.6382;KG-03;Jalal-Abad Region;Beshmazar
+0;72.7093,41.6352;KG-03;Jalal-Abad Region;Yazkechu
+0;72.6849,41.5982;KG-03;Jalal-Abad Region;Chontash
+0;72.9499,41.3588;KG-03;Jalal-Abad Region;Koshterek
+0;72.6241,41.9675;KG-03;Jalal-Abad Region;Koshtyube
+0;72.6148,41.9390;KG-03;Jalal-Abad Region;Tashkoro
+0;72.7789,41.9479;KG-03;Jalal-Abad Region;Ornok
+0;72.9025,41.9148;KG-03;Jalal-Abad Region;Aral
+0;72.9434,41.8862;KG-03;Jalal-Abad Region;Kyzyltu
+0;72.7349,41.8111;KG-03;Jalal-Abad Region;Jany-Aryk
+0;72.6941,41.8601;KG-03;Jalal-Abad Region;Sarybulak
+0;72.5917,41.6976;KG-03;Jalal-Abad Region;Toktobek
+0;72.9262,41.6955;KG-03;Jalal-Abad Region;Këkbel’
+0;74.0280,41.4221;KG-03;Jalal-Abad Region;Chaldavar
+0;74.0885,41.3634;KG-03;Jalal-Abad Region;Chonshar
+0;74.2139,41.4373;KG-03;Jalal-Abad Region;Keregetash
+0;74.2445,41.3672;KG-03;Jalal-Abad Region;Chetki
+0;74.2416,41.3663;KG-03;Jalal-Abad Region;Beshkel’
+0;74.2040,41.3959;KG-03;Jalal-Abad Region;Karabulak
+0;74.4306,41.4654;KG-03;Jalal-Abad Region;Irisu
+0;74.0080,41.7575;KG-04;Naryn Region;Kotyrsu
+0;74.0275,41.7656;KG-04;Naryn Region;Tabylgy
+0;74.1614,41.7484;KG-04;Naryn Region;Kichi-Dzhotash
+0;74.6316,41.9823;KG-04;Naryn Region;Akchiy
+0;74.7010,41.9928;KG-04;Naryn Region;Epkin
+0;74.8651,41.9808;KG-04;Naryn Region;Altynaryk
+0;74.9416,41.9732;KG-04;Naryn Region;Karachiy
+0;73.7999,41.7558;KG-03;Jalal-Abad Region;Sary-Bulak
+0;73.9502,41.7811;KG-03;Jalal-Abad Region;Kël’
+0;73.9187,41.7858;KG-03;Jalal-Abad Region;Ankolot
+0;73.9617,41.7677;KG-03;Jalal-Abad Region;Kyrga
+0;73.9818,41.7765;KG-03;Jalal-Abad Region;Khodzhasuydu
+0;73.5952,41.8997;KG-03;Jalal-Abad Region;Noot
+0;73.4662,41.7022;KG-03;Jalal-Abad Region;Chorgochu
+0;73.4403,41.6918;KG-03;Jalal-Abad Region;Chech-Dëbë
+0;73.4198,41.7084;KG-03;Jalal-Abad Region;Dzhar-Tash
+0;73.3996,41.7016;KG-03;Jalal-Abad Region;Buurakan
+0;73.3568,41.8253;KG-03;Jalal-Abad Region;Shilekkana
+0;73.2729,41.8851;KG-03;Jalal-Abad Region;Borluu-Kyya
+0;73.0850,41.8558;KG-03;Jalal-Abad Region;Kotormo
+0;73.3990,41.6462;KG-03;Jalal-Abad Region;Chaldybar
+0;73.2745,41.6371;KG-03;Jalal-Abad Region;Taktalyk
+0;73.2323,41.6470;KG-03;Jalal-Abad Region;Bor-Dëbe
+0;74.0522,42.6852;KG-02;Chuy Region;Ak-Bashat
+0;74.0058,42.6764;KG-02;Chuy Region;Dzhardy-Suu
+0;74.0435,42.7824;KG-02;Chuy Region;Ak-Torpok
+0;74.2008,42.7661;KG-02;Chuy Region;Kashka-Suu
+0;74.2224,42.7375;KG-02;Chuy Region;Konush
+0;74.2340,42.7214;KG-02;Chuy Region;Oktyabr’
+0;74.3221,42.7614;KG-02;Chuy Region;Dzhylamysh
+0;74.5017,42.7503;KG-02;Chuy Region;Baygel’di
+0;74.4883,42.7624;KG-02;Chuy Region;Sarban
+0;74.4923,42.8211;KG-02;Chuy Region;Dostuk
+0;74.4617,42.7789;KG-02;Chuy Region;Chon-Dzhar
+0;74.4495,42.8023;KG-02;Chuy Region;Imeni Kirova
+0;74.4304,42.7908;KG-02;Chuy Region;Malaya Shalta
+0;74.4124,42.8000;KG-02;Chuy Region;Tokbay
+0;74.3820,42.8047;KG-02;Chuy Region;Kyzyl-Tuu
+0;74.3480,42.8042;KG-02;Chuy Region;Novov
+0;74.3701,42.8201;KG-02;Chuy Region;Karasakal
+0;74.3357,42.8390;KG-02;Chuy Region;Shalta
+0;74.3113,42.8000;KG-02;Chuy Region;Belek
+0;74.2447,42.8033;KG-02;Chuy Region;Pervoye Maya
+0;74.2113,42.8008;KG-02;Chuy Region;Krupskoye
+0;74.1801,42.8017;KG-02;Chuy Region;Kara-Dëbë
+0;74.1579,42.7678;KG-02;Chuy Region;Kirovskoye
+0;74.0137,42.8224;KG-02;Chuy Region;Zavodskoye
+0;74.0629,42.8813;KG-02;Chuy Region;Kyzyl-Tuu
+0;74.0876,42.8668;KG-02;Chuy Region;Kosh-Dëbë
+0;74.1108,42.8694;KG-02;Chuy Region;Bol’shevik
+0;74.1255,42.8719;KG-02;Chuy Region;Zarya
+0;74.2224,42.8524;KG-02;Chuy Region;Aleksandrovka
+0;74.2198,42.9091;KG-02;Chuy Region;Besh-Oryuk
+0;74.3431,42.8965;KG-02;Chuy Region;Pervomayskoye
+0;74.4289,42.9651;KG-02;Chuy Region;Lesnoye
+0;74.4338,42.9415;KG-02;Chuy Region;Ozërnoye
+0;74.4321,42.9177;KG-02;Chuy Region;Frunze
+0;74.3954,42.9449;KG-02;Chuy Region;Studencheskoye
+0;74.3126,42.9734;KG-02;Chuy Region;Tyuz
+0;74.2898,42.9565;KG-02;Chuy Region;Imeni Panfilova
+0;74.2833,42.9407;KG-02;Chuy Region;Natsional’noye
+0;74.0673,42.9203;KG-02;Chuy Region;An-Aryk
+0;74.0554,42.9540;KG-02;Chuy Region;Predtechenka
+0;74.2030,43.0012;KG-02;Chuy Region;Malovodnoye
+0;74.5585,42.7122;KG-02;Chuy Region;Bir-Bulak
+0;74.8951,42.6706;KG-02;Chuy Region;Toguz-Bulak
+0;74.8688,42.6892;KG-02;Chuy Region;Gornaya Serafimovka
+0;74.8520,42.7614;KG-02;Chuy Region;Nizhnyaya Serafimovka
+0;74.9570,42.7600;KG-02;Chuy Region;Dzhar-Bashi
+0;74.8445,42.6875;KG-02;Chuy Region;Almaluu
+0;74.8021,42.6979;KG-02;Chuy Region;Ichke-Suu
+0;74.8095,42.6816;KG-02;Chuy Region;Dzhogorku-Ichke-Suu
+0;74.7941,42.7002;KG-02;Chuy Region;Norus
+0;74.7502,42.6758;KG-02;Chuy Region;Tash-Bashat
+0;74.7472,42.7088;KG-02;Chuy Region;Gornaya-Mayëvka
+0;74.7113,42.7142;KG-02;Chuy Region;Kyzyl-Birdik
+0;74.6750,42.7171;KG-02;Chuy Region;Prokhladnoye
+0;74.6701,42.7284;KG-02;Chuy Region;Podgornoye
+0;74.6634,42.7163;KG-02;Chuy Region;Koy-Tash
+0;74.6731,42.6868;KG-02;Chuy Region;Gidrostroy
+0;74.6260,42.7212;KG-02;Chuy Region;Arashan
+0;74.6551,42.7388;KG-02;Chuy Region;Tash-Moynok
+0;74.6475,42.7726;KG-02;Chuy Region;Besh-Künggöy
+0;74.6027,42.7490;KG-02;Chuy Region;Chon-Tash
+0;74.5088,42.7925;KG-02;Chuy Region;Dzhal
+0;74.7919,42.8819;KG-02;Chuy Region;Kirshelk
+0;74.8287,42.8879;KG-02;Chuy Region;Lyuksemburg
+0;74.7699,42.8255;KG-02;Chuy Region;Leninskoye
+0;74.8341,42.8114;KG-02;Chuy Region;Djajylma
+0;74.8919,42.8717;KG-02;Chuy Region;Dzheek
+0;74.9076,42.8661;KG-02;Chuy Region;Sotsialchi
+0;74.9016,42.8943;KG-02;Chuy Region;Dmitriyevka
+0;74.9513,42.8992;KG-02;Chuy Region;Kenesh
+0;74.9333,42.9002;KG-02;Chuy Region;Budënnovka
+0;74.9009,42.8459;KG-02;Chuy Region;Imeni Gagarina
+0;74.9779,42.8014;KG-02;Chuy Region;Krasnyy Vostok
+0;74.9132,42.7911;KG-02;Chuy Region;Internatsional’noye
+0;74.8416,42.7871;KG-02;Chuy Region;Tuz
+0;74.8561,42.7929;KG-02;Chuy Region;Dayyrbek
+0;74.8199,42.7986;KG-02;Chuy Region;Chon-Daly
+0;74.9029,42.9574;KG-02;Chuy Region;Birdik
+0;74.8555,42.9411;KG-02;Chuy Region;Kirovskoye
+0;74.8615,42.9126;KG-02;Chuy Region;Kotovskoye
+0;74.8677,42.9762;KG-02;Chuy Region;Khun-Chi
+0;74.8392,42.9699;KG-02;Chuy Region;Ak-Kuduk
+0;74.8002,42.9340;KG-02;Chuy Region;Pervomayskoye
+0;74.7036,42.9675;KG-02;Chuy Region;Kayyrma
+0;74.5275,43.0012;KG-02;Chuy Region;Ozërnoye
+0;74.5085,42.9404;KG-02;Chuy Region;Stepnoye
+0;74.4562,43.1236;KG-02;Chuy Region;Lubyanoye
+0;74.4251,43.1164;KG-02;Chuy Region;Nizhnevostochnoye
+0;74.4274,43.1026;KG-02;Chuy Region;Verkhnevostochnoye
+0;74.4022,43.1524;KG-02;Chuy Region;Taltak
+0;74.3977,43.1778;KG-02;Chuy Region;Stepnoye
+0;74.3681,43.1664;KG-02;Chuy Region;Mirnoye
+0;74.3575,43.1422;KG-02;Chuy Region;Zelënoye
+0;74.3432,43.1593;KG-02;Chuy Region;Severnoye
+0;74.1512,43.0734;KG-02;Chuy Region;Ak-Kashat
+0;74.2421,43.1177;KG-02;Chuy Region;Mirnyy
+0;74.2804,43.1127;KG-02;Chuy Region;Zarya
+0;74.2406,43.1016;KG-02;Chuy Region;Mayskoye
+0;74.3341,43.1030;KG-02;Chuy Region;Zapadnoye
+0;74.3597,43.0307;KG-02;Chuy Region;Tërt-Kël’
+0;74.6744,43.0324;KG-02;Chuy Region;Konstantinovka
+0;74.6404,43.0295;KG-02;Chuy Region;At-Bashi
+0;74.6227,43.0533;KG-02;Chuy Region;Birdik
+0;74.5222,43.0188;KG-02;Chuy Region;Kernivoz
+0;74.5335,42.7653;KG-02;Chuy Region;Bash-Kara-Suu
+0;74.5744,42.7572;KG-02;Chuy Region;Zarechnoye
+0;74.0120,42.7162;KG-02;Chuy Region;Chon-Aryk
+0;74.4444,43.0269;KG-02;Chuy Region;Uchkun
+0;74.5057,42.8117;KG-02;Chuy Region;Kashka-Bash
+0;73.4988,42.7511;KG-02;Chuy Region;Cholok-Aryk
+0;73.6062,42.7349;KG-02;Chuy Region;Chorgolu
+0;73.6695,42.7475;KG-02;Chuy Region;Orto-Aryk
+0;73.8835,42.8528;KG-02;Chuy Region;Fedorovka
+0;73.9118,42.8343;KG-02;Chuy Region;Novonikolayevka
+0;73.9343,42.8419;KG-02;Chuy Region;Petropavlovka
+0;73.9578,42.8460;KG-02;Chuy Region;Poltavka
+0;73.7099,42.7168;KG-02;Chuy Region;Kum-Aryk
+0;73.7826,42.7024;KG-02;Chuy Region;Bukara
+0;73.7961,42.6815;KG-02;Chuy Region;Kara-Bulak
+0;73.8055,42.7017;KG-02;Chuy Region;Erkin-Say
+0;73.8185,42.6851;KG-02;Chuy Region;Orto-Kayyrma
+0;73.8501,42.6796;KG-02;Chuy Region;Sary-Bulak
+0;73.8898,42.7385;KG-02;Chuy Region;Bekitai
+0;73.8895,42.6884;KG-02;Chuy Region;Kayyrma
+0;73.8901,42.7114;KG-02;Chuy Region;Bëksë-Dzhol
+0;73.6561,42.8336;KG-02;Chuy Region;Dzhayylma
+0;73.7439,42.8013;KG-02;Chuy Region;Efironos
+0;73.7863,42.8187;KG-02;Chuy Region;Voznesenovka
+0;73.8083,42.8134;KG-02;Chuy Region;Alekseyevka
+0;73.9929,42.6830;KG-02;Chuy Region;Keper-Aryk
+0;73.9868,42.8899;KG-02;Chuy Region;Maltabar
+0;73.9409,42.8800;KG-02;Chuy Region;Orto-Suu
+0;73.9145,42.8868;KG-02;Chuy Region;Ak-Bashat
+0;73.9149,42.9077;KG-02;Chuy Region;Aydarbek
+0;73.8937,42.9001;KG-02;Chuy Region;Aral
+0;73.8756,42.8823;KG-02;Chuy Region;Dzheken
+0;73.8463,42.9083;KG-02;Chuy Region;Iyri-Suu
+0;73.8439,42.8779;KG-02;Chuy Region;Eriktuu
+0;73.8016,42.8787;KG-02;Chuy Region;Bol’shevik
+0;73.7544,42.8718;KG-02;Chuy Region;Kaldyk
+0;73.7224,42.9041;KG-02;Chuy Region;Kara-Tëbë
+0;73.6388,42.8882;KG-02;Chuy Region;Kirova
+0;73.5307,42.8945;KG-02;Chuy Region;Rovnoye
+0;73.5596,42.9401;KG-02;Chuy Region;Oktyabr’skoye
+0;73.6297,42.9677;KG-02;Chuy Region;Ozërnoye
+0;73.7910,42.9533;KG-02;Chuy Region;Altyn
+0;73.8779,42.9312;KG-02;Chuy Region;Dzhon-Aryk
+0;75.1619,42.8748;KG-02;Chuy Region;Gidrostroitel’
+0;75.1494,42.8773;KG-02;Chuy Region;Druzhba
+0;75.2038,42.8558;KG-02;Chuy Region;Michurino
+0;75.1391,42.8617;KG-02;Chuy Region;Cholpon
+0;75.3383,42.8412;KG-02;Chuy Region;Vinogradnoye
+0;75.9103,42.7839;KG-02;Chuy Region;Kichi-Kemin
+0;75.8155,42.8149;KG-02;Chuy Region;Beysheke
+0;75.7779,42.7807;KG-02;Chuy Region;Chuyskoye
+0;75.7874,42.7614;KG-02;Chuy Region;Dorozhnyy
+0;75.8945,42.6766;KG-02;Chuy Region;Dzhel’-Aryk
+0;75.8419,42.7236;KG-02;Chuy Region;Cholok
+0;75.7647,42.7634;KG-02;Chuy Region;Sveklopunkt
+0;75.6430,42.7505;KG-02;Chuy Region;Udarnik
+0;75.6720,42.7943;KG-02;Chuy Region;Kashkelen
+0;75.6327,42.8063;KG-02;Chuy Region;Ak-Beket
+0;75.5825,42.6946;KG-02;Chuy Region;Byurkyut
+0;75.5707,42.6948;KG-02;Chuy Region;Kashka
+0;75.5434,42.7537;KG-02;Chuy Region;Podgornoye
+0;75.3963,42.6932;KG-02;Chuy Region;Kayyrma
+0;75.3727,42.6852;KG-02;Chuy Region;Ferma
+0;75.4486,42.7083;KG-02;Chuy Region;Madaniyat
+0;75.4278,42.7534;KG-02;Chuy Region;Kosh-Korgon
+0;75.4354,42.8114;KG-02;Chuy Region;Iskra
+0;75.4245,42.8066;KG-02;Chuy Region;Vostochnoye
+0;75.4025,42.8188;KG-02;Chuy Region;Zheleznodorozhnoye
+0;75.3754,42.7965;KG-02;Chuy Region;Dzhany-Turmush
+0;75.3738,42.7722;KG-02;Chuy Region;Michurino
+0;75.2989,42.7794;KG-02;Chuy Region;Meenetkech
+0;75.2605,42.7884;KG-02;Chuy Region;Djany-Djol
+0;75.3155,42.7636;KG-02;Chuy Region;Alga
+0;75.2724,42.7679;KG-02;Chuy Region;Oktyabr’skoye
+536;75.3320,42.7416;KG-02;Chuy Region;Kyzyl-Asker
+0;75.3804,42.7608;KG-02;Chuy Region;Sadovoye
+0;75.3181,42.6856;KG-02;Chuy Region;Lenin-Dzhol
+0;75.2899,42.7006;KG-02;Chuy Region;Imeni Lenina
+0;75.2818,42.7123;KG-02;Chuy Region;Taldy-Bulak
+0;75.2678,42.6927;KG-02;Chuy Region;Kara-Oy
+0;75.2319,42.7069;KG-02;Chuy Region;Sovetskoye
+0;75.1923,42.7179;KG-02;Chuy Region;Plokhotnikova
+0;75.1797,42.7282;KG-02;Chuy Region;Imeni Chapayeva
+0;75.0890,42.8096;KG-02;Chuy Region;Gosplodopitomnik
+0;75.0826,42.7416;KG-02;Chuy Region;Imeni Kirova
+0;75.0586,42.7475;KG-02;Chuy Region;Ak-Say
+968;75.1035,42.7207;KG-02;Chuy Region;Rot-Front
+0;75.0686,42.6994;KG-02;Chuy Region;Kyzyl-Aryk
+0;75.0188,42.7465;KG-02;Chuy Region;Elkin
+0;75.8231,42.7482;KG-02;Chuy Region;Dzhil’-Aryk
+0;75.9427,42.7764;KG-02;Chuy Region;Dzhany-Dzhol
+0;76.0861,42.7215;KG-02;Chuy Region;Kalmak-Ashuu
+0;76.1188,42.7302;KG-02;Chuy Region;Karool-Dëbë
+0;76.0428,42.8407;KG-02;Chuy Region;Kordon
+0;76.0109,42.7043;KG-02;Chuy Region;Vostochnyy
+0;77.4529,42.7131;KG-07;Issyk-Kul;Kanat
+0;77.1694,42.6897;KG-07;Issyk-Kul;Ashkhabak
+0;77.2999,42.6677;KG-07;Issyk-Kul;Bulan-Segettu
+0;77.8191,42.7397;KG-07;Issyk-Kul;Oryuktyu-Khutor
+0;77.6585,42.7833;KG-07;Issyk-Kul;Chetbaysaur
+0;77.6503,42.7293;KG-07;Issyk-Kul;Pitomnik
+0;78.0867,42.7483;KG-07;Issyk-Kul;Oybulak
+0;78.2120,42.7791;KG-07;Issyk-Kul;Belovodsk
+0;78.5817,42.7807;KG-07;Issyk-Kul;Kaynar
+0;78.9413,42.7338;KG-07;Issyk-Kul;Basharin
+0;78.8061,42.7565;KG-07;Issyk-Kul;Tabylgany
+0;78.8397,42.7383;KG-07;Issyk-Kul;Chonbet
+0;78.6576,42.7635;KG-07;Issyk-Kul;Jiluu-Bulak
+0;78.1805,42.6703;KG-07;Issyk-Kul;Peschanyy
+0;78.5159,42.7030;KG-07;Issyk-Kul;Koshtëbë
+0;78.5799,42.7312;KG-07;Issyk-Kul;Karasu
+0;78.7763,42.7241;KG-07;Issyk-Kul;Sarytologoy
+0;71.3525,42.5405;KG-06;Talas Region;Bakayyr
+0;71.3351,42.5011;KG-06;Talas Region;Bakair
+0;71.5567,42.5268;KG-06;Talas Region;Budennyy
+0;71.8881,42.5648;KG-06;Talas Region;Min-Bulak
+0;71.7636,42.7510;KG-06;Talas Region;Kara-Archa
+0;71.4967,42.7864;KG-06;Talas Region;Novodonetskoye
+0;71.4095,42.6726;KG-06;Talas Region;Dzhiyde
+0;71.4481,42.7385;KG-06;Talas Region;Manas
+0;71.4462,42.7642;KG-06;Talas Region;Këk-Tëbë
+0;71.5203,42.7087;KG-06;Talas Region;Tash-Bashat
+0;71.5400,42.7075;KG-06;Talas Region;Ak-Tash
+0;71.5831,42.7158;KG-06;Talas Region;Dzhiyde
+0;71.5219,42.7760;KG-06;Talas Region;Kenesh
+0;71.5539,42.7795;KG-06;Talas Region;Uch-Korgon
+0;71.6263,42.7572;KG-06;Talas Region;Dzhayylgan
+0;71.7817,42.7283;KG-06;Talas Region;Sëgët
+0;71.7861,42.7013;KG-06;Talas Region;Chech-Tëbë
+0;71.4516,42.5818;KG-06;Talas Region;Plodopitomnik
+0;71.8051,42.3174;KG-06;Talas Region;Uchimchek
+0;71.9821,42.4604;KG-06;Talas Region;Madaniyat
+0;71.9659,42.5111;KG-06;Talas Region;Kyzyl-Charba
+0;71.8999,42.5537;KG-06;Talas Region;Uzun-Duval
+0;71.9357,42.5443;KG-06;Talas Region;Kyzyl-Say
+0;71.8728,42.5131;KG-06;Talas Region;Namatbek
+0;71.6593,42.5962;KG-06;Talas Region;Bakyjan
+0;71.7089,42.5974;KG-06;Talas Region;Bak-Kayyng
+0;71.7445,42.5649;KG-06;Talas Region;Kara-Suu
+0;71.7495,42.5511;KG-06;Talas Region;Pervaya Maya
+0;72.0398,42.4803;KG-06;Talas Region;Tashkuduk
+0;72.0398,42.4450;KG-06;Talas Region;Këktash
+0;72.2919,42.4399;KG-06;Talas Region;Balbal
+0;72.2753,42.4399;KG-06;Talas Region;Kozuchak
+0;72.5973,42.5514;KG-06;Talas Region;Uch-Emchek
+0;72.6079,42.5511;KG-06;Talas Region;Ornek
+0;72.5920,42.5546;KG-06;Talas Region;Ogorush
+0;72.3800,42.5879;KG-06;Talas Region;Terek
+0;72.3958,42.5132;KG-06;Talas Region;Akdzhar
+0;72.3728,42.5295;KG-06;Talas Region;Tasharyk
+0;72.3422,42.5199;KG-06;Talas Region;Ortoaryk
+0;72.3100,42.5172;KG-06;Talas Region;Këktokoy
+0;72.1798,42.5507;KG-06;Talas Region;Kök-Oy
+0;72.0826,42.6221;KG-06;Talas Region;Nel’dy
+0;72.0326,42.6356;KG-06;Talas Region;Sarybulak
+0;72.0568,42.5185;KG-06;Talas Region;Beshbulak
+0;72.1164,42.4936;KG-06;Talas Region;Kara-Kashat
+0;72.4252,42.4975;KG-06;Talas Region;Këkkashat
+0;72.4288,42.4563;KG-06;Talas Region;Tyul’kutyube
+0;72.4720,42.4830;KG-06;Talas Region;Karasu
+0;72.5773,42.4892;KG-06;Talas Region;Karakatash
+0;72.5902,42.4883;KG-06;Talas Region;Chontokoy
+0;72.6068,42.4746;KG-06;Talas Region;Kenesh
+0;72.3675,42.5056;KG-06;Talas Region;Kemer
+0;72.3737,42.4393;KG-06;Talas Region;Verkhniy
+0;72.8105,42.5146;KG-06;Talas Region;Dhzangyturmush
+0;72.9544,42.4083;KG-06;Talas Region;Ak-Korgon
+0;72.9806,42.3966;KG-06;Talas Region;Otmek
+0;72.8803,42.4208;KG-06;Talas Region;Shumkar
+0;72.3492,42.3980;KG-06;Talas Region;Sasykbulak
+0;72.3415,42.0895;KG-03;Jalal-Abad Region;Kurunuy
+0;72.3632,42.0805;KG-03;Jalal-Abad Region;Kichinechar
+0;72.3905,42.0615;KG-03;Jalal-Abad Region;Jany-Jer
+0;72.4185,42.0341;KG-03;Jalal-Abad Region;Birbulak
+0;72.4619,42.0760;KG-03;Jalal-Abad Region;Shanyk
+0;72.4206,42.0737;KG-03;Jalal-Abad Region;Kurgan
+0;72.4678,42.0165;KG-03;Jalal-Abad Region;Keskentyube
+0;72.4878,42.0456;KG-03;Jalal-Abad Region;Shanyk
+0;72.5572,42.4859;KG-06;Talas Region;Dzhangyaryk
+0;73.8166,42.3575;KG-02;Chuy Region;Severnyy
+0;73.9506,42.1375;KG-02;Chuy Region;Uch-Chymchyk
+0;74.0823,42.1285;KG-02;Chuy Region;Vos’moye Marta
+0;74.8505,42.0414;KG-04;Naryn Region;Chongtëbe
+0;74.7770,42.0307;KG-04;Naryn Region;Tashtobe
+0;74.7562,42.0543;KG-04;Naryn Region;Aral
+0;74.7648,42.0547;KG-04;Naryn Region;Kardydzharyk
+0;74.7797,42.0950;KG-04;Naryn Region;Koshbulak
+0;74.6139,42.0121;KG-04;Naryn Region;Nurkobulak
+0;74.4910,42.0061;KG-04;Naryn Region;Chet-Kurgandy
+0;74.9506,42.6445;KG-02;Chuy Region;Karagay-Bulak
+0;74.9138,42.6572;KG-02;Chuy Region;Cheteidy
+0;74.6166,42.6422;KG-02;Chuy Region;Chunkurchak
+0;74.4974,42.6543;KG-02;Chuy Region;Kashkasu
+0;74.0429,42.1807;KG-02;Chuy Region;Ul’gu
+0;74.0118,42.1266;KG-02;Chuy Region;Teskey
+0;74.1414,42.1500;KG-02;Chuy Region;Vos’moe Marta
+0;76.8861,41.6918;KG-07;Issyk-Kul;Archaly
+0;75.4784,42.7107;KG-02;Chuy Region;Kyzyl-Suu
+0;73.0123,41.3516;KG-03;Jalal-Abad Region;Dashman
+0;77.9387,42.7419;KG-07;Issyk-Kul;Orto-Uryukty
+0;78.5396,42.7878;KG-07;Issyk-Kul;Kuochi
+0;71.6317,42.5988;KG-06;Talas Region;Kara-Buura
+0;75.8627,42.6445;KG-07;Issyk-Kul;Kyzkiya
+0;75.3880,42.6630;KG-02;Chuy Region;Chon-Dzhar
+0;75.4091,42.5921;KG-02;Chuy Region;Prigorodnyy
+0;75.8346,42.2440;KG-04;Naryn Region;Semizbel’
+0;75.8168,42.2276;KG-04;Naryn Region;Kyzyltyube
+0;75.7886,42.2471;KG-04;Naryn Region;Arsy
+0;75.7837,42.2253;KG-04;Naryn Region;Dzhangydzhol
+0;75.6536,42.1947;KG-04;Naryn Region;Aral
+0;75.5913,42.2005;KG-04;Naryn Region;Chikil’dek
+0;75.5981,42.2147;KG-04;Naryn Region;Tyundik
+0;75.5220,42.2130;KG-04;Naryn Region;Buguchu
+0;75.4634,42.2163;KG-04;Naryn Region;Osoaviakhim
+0;75.1825,42.2728;KG-04;Naryn Region;Dzhonalysh
+0;75.3502,42.1482;KG-04;Naryn Region;Akchiy
+0;75.4412,42.1414;KG-04;Naryn Region;Orobashi
+0;75.4660,42.1703;KG-04;Naryn Region;Arakël’
+0;75.5000,42.1538;KG-04;Naryn Region;Chontuz
+0;75.5279,42.1537;KG-04;Naryn Region;Tuz
+0;75.5765,42.1086;KG-04;Naryn Region;Choloy
+0;75.6116,42.1677;KG-04;Naryn Region;Altynbulak
+0;75.6633,42.1847;KG-04;Naryn Region;Dzhuanaryk
+0;75.8238,42.1796;KG-04;Naryn Region;Karoy
+0;75.8867,42.1746;KG-04;Naryn Region;Uchbulak
+0;75.9128,42.1783;KG-04;Naryn Region;Maychagyr
+0;75.2441,42.2577;KG-04;Naryn Region;Chonalysh
+0;75.3267,42.2377;KG-04;Naryn Region;Koshalysh
+0;76.8147,42.0692;KG-07;Issyk-Kul;Kyzyltëbë
+0;76.9470,42.6122;KG-07;Issyk-Kul;Kurskoye
+0;76.8010,42.6050;KG-07;Issyk-Kul;Karabak
+0;76.9333,42.1546;KG-07;Issyk-Kul;Ak-Saich
+0;76.2096,42.1796;KG-07;Issyk-Kul;Semisbel’
+0;76.9673,42.1130;KG-07;Issyk-Kul;Turatam
+0;76.9511,42.1015;KG-07;Issyk-Kul;Karasu
+0;76.6646,42.0903;KG-07;Issyk-Kul;Kul’tor
+0;76.5221,42.0872;KG-07;Issyk-Kul;Chetendy
+0;77.0051,42.0960;KG-07;Issyk-Kul;Tashdebe
+0;77.2192,42.1473;KG-07;Issyk-Kul;Rudnik
+0;77.4011,42.1652;KG-07;Issyk-Kul;Tossorchik
+0;77.6436,42.1059;KG-07;Issyk-Kul;Rabochiy Posëlok
+0;78.1298,42.6568;KG-07;Issyk-Kul;Yntymak
+1183;78.3700,42.5784;KG-07;Issyk-Kul;Bozbulun
+0;78.6828,42.6004;KG-07;Issyk-Kul;Shapak
+2498;78.8192,42.6153;KG-07;Issyk-Kul;Akbulek
+1425;78.8700,42.6427;KG-07;Issyk-Kul;Zyndan
+0;78.7604,42.5666;KG-07;Issyk-Kul;Bozuchuk
+0;78.6871,42.5361;KG-07;Issyk-Kul;Kara-Kyz
+0;78.4643,42.5381;KG-07;Issyk-Kul;Uchkaynar
+0;78.3881,42.5337;KG-07;Issyk-Kul;Jany-Aryk
+0;78.6564,42.5226;KG-07;Issyk-Kul;Kayirmaaryk
+0;74.5197,42.8464;KG;;Ak-Orgo
+0;74.4933,42.8500;KG;;Ak-Ordo
+0;74.5519,42.8294;KG;;Archa-Beshkik
+0;74.7086,42.8094;KG;;Ala-Too
+0;72.7325,41.0628;KG;;Alykulova
+0;79.2379,42.3204;KG-07;Issyk-Kul;Keng-Suu
+0;79.3160,42.3355;KG-07;Issyk-Kul;Echkili-Tash
+0;70.6674,41.7011;KG-03;Jalal-Abad Region;Kotur-Bulak
+0;75.8242,42.5177;KG-07;Issyk-Kul;Kok-Moynak
+0;78.1503,42.6009;KG-07;Issyk-Kul;Ysyk-Köl
+0;71.7849,41.5286;KG-03;Jalal-Abad Region;Kyulyuk-Dëbë
+0;71.9614,41.7919;KG-03;Jalal-Abad Region;Ak-Uruk
+0;71.0419,41.7568;KG-03;Jalal-Abad Region;Dzhar-Kapchygay
+0;71.0145,41.7432;KG-03;Jalal-Abad Region;Manday
+0;71.0220,41.7392;KG-03;Jalal-Abad Region;Chaar-Tash
+0;71.9610,41.6510;KG-03;Jalal-Abad Region;Korgon
+0;71.6583,41.5977;KG-03;Jalal-Abad Region;Chuluk-Kolot
+0;71.9651,41.2725;KG-03;Jalal-Abad Region;Izirik
+0;71.9121,41.1626;KG-03;Jalal-Abad Region;Kyzyldzhar
+0;71.0964,41.5075;KG-03;Jalal-Abad Region;Saray-Say
+0;71.2787,41.2445;KG-03;Jalal-Abad Region;Balyktybulak
+0;71.4484,41.3711;KG-03;Jalal-Abad Region;Vodokhranilishche
+0;71.5060,41.3490;KG-03;Jalal-Abad Region;Mazar
+0;71.6664,41.5809;KG-03;Jalal-Abad Region;Tostu
+0;70.8464,40.1093;KG-09;Batken;Chek
+0;70.9004,40.1243;KG-09;Batken;Dzhany-Dzher
+0;70.8196,40.1617;KG-09;Batken;Kara-Bak
+6378;70.8121,40.0416;KG-09;Batken;Kyzyl-Jol
+8015;70.5459,39.9981;KG-09;Batken;Samarkandyk
+0;70.0063,40.0042;KG-09;Batken;Birinchi Maya
+0;70.0818,40.0373;KG-09;Batken;Kyzyl-Bayrak
+0;70.8123,40.0888;KG-09;Batken;Bulak-Bashy
+0;70.8068,40.0737;KG-09;Batken;Bazar-Bashy
+7481;70.7405,40.0999;KG-09;Batken;Kyzyl-Bel’
+0;71.1016,40.2588;KG-09;Batken;Zhany-Zher
+908;71.0799,40.1524;KG-09;Batken;Kyzyl-Korgon
+0;71.3497,40.3105;KG-09;Batken;Kyrgyz-Kyshtak
+0;71.5859,40.2109;KG-09;Batken;Noogardan
+2272;71.7373,40.0517;KG-09;Batken;Kyzyl-Bulak
+0;71.1050,40.0067;KG-09;Batken;Kara-Toktoy
+0;71.0734,39.9986;KG-09;Batken;Boz-Adyr
+0;71.9842,40.2512;KG-09;Batken;Mayak
+0;71.9630,40.2346;KG-09;Batken;Pyldyrak
+0;71.9820,40.2310;KG-09;Batken;Kara-Tepe
+0;71.9972,40.2321;KG-09;Batken;Arpa-Sai
+0;71.6458,40.2608;KG-09;Batken;Yntymak
+0;71.6809,40.2393;KG-09;Batken;Kurulush
+0;71.6895,40.2145;KG-09;Batken;Chekelik
+0;71.6892,40.2011;KG-09;Batken;Dzhoshuk
+0;71.6548,40.1939;KG-09;Batken;Irilesh
+0;71.6723,40.2520;KG-09;Batken;Këk-Tal
+0;71.6261,40.2005;KG-09;Batken;Baymaala
+0;71.6402,40.2219;KG-09;Batken;Tash-Dobo
+0;71.6750,40.1908;KG-09;Batken;Abdusamat
+0;71.6803,40.1827;KG-09;Batken;Dzhany-Ayyl
+0;71.6911,40.1821;KG-09;Batken;Gulduromo
+0;71.8579,40.2394;KG-09;Batken;Këk-Talaa
+0;71.8998,40.2402;KG-09;Batken;Markaz
+0;71.0833,40.1382;KG-09;Batken;Tokoy
+0;71.1814,40.1322;KG-09;Batken;Toguz-Ortok
+0;71.2489,40.2126;KG-09;Batken;Sary-Otëk
+0;71.3039,40.1474;KG-09;Batken;Shunk
+0;71.3454,40.2024;KG-09;Batken;Bil’-Suu
+0;71.4960,40.2596;KG-09;Batken;Chunkur-Kyshtak
+0;71.2779,40.2568;KG-09;Batken;Tutëk
+0;71.2725,40.3125;KG-09;Batken;Byurgendyu OPKH
+0;71.2729,40.3278;KG-09;Batken;Kaytpas
+0;71.2763,40.3354;KG-09;Batken;Murgejak
+0;71.1700,40.2752;KG-09;Batken;Dzhany-Dzher
+0;71.1779,40.2708;KG-09;Batken;Ming-Chinar
+0;71.0392,40.2143;KG-09;Batken;Chogorok
+0;71.0428,40.2065;KG-09;Batken;Kara-Tumshuk
+0;71.3863,40.1036;KG-09;Batken;Kara-Tangi
+0;71.4931,40.1591;KG-09;Batken;Tashbulak
+0;71.4925,40.1228;KG-09;Batken;Karbulak
+0;71.6381,40.1432;KG-09;Batken;Ayranchi
+0;71.7245,40.1467;KG-09;Batken;Tash-Kyya
+0;71.7140,40.0934;KG-09;Batken;Dzhyydelik
+0;71.7334,40.1448;KG-09;Batken;Chal Tash
+0;71.8325,40.0522;KG-09;Batken;Kara-Oot
+0;71.8561,40.0859;KG-09;Batken;Pakhalya
+0;71.9411,40.1754;KG-09;Batken;Kotur-Bulak
+0;71.9741,40.0643;KG-09;Batken;Karagan-Say
+0;71.8979,40.0621;KG-09;Batken;Talaa
+0;71.8904,40.0558;KG-09;Batken;Myk
+0;71.8850,40.0501;KG-09;Batken;Tamasha
+0;71.9206,40.0657;KG-09;Batken;Këtërme
+0;71.8859,40.0592;KG-09;Batken;Orto-Aryk
+0;71.8499,40.0565;KG-09;Batken;Madaniy-Kurulush
+0;71.8412,40.0481;KG-09;Batken;Dzhalgyz-Bulak
+0;71.8008,40.0546;KG-09;Batken;Kara-Suu
+0;71.8000,40.0453;KG-09;Batken;Ak-Terek
+0;71.8608,40.0471;KG-09;Batken;Orën-Terek
+0;71.9367,40.0520;KG-09;Batken;Kalkaman
+0;71.7193,40.0707;KG-09;Batken;Langar
+0;71.7182,40.0613;KG-09;Batken;Uchkun
+0;71.7394,40.0427;KG-09;Batken;Gayrat
+0;71.7736,40.0527;KG-09;Batken;Charbak
+0;71.7701,40.0250;KG-09;Batken;Ak-Kiya
+0;71.6197,40.0391;KG-09;Batken;Kuldu
+0;71.1806,40.1088;KG-09;Batken;Tyube
+0;71.1901,40.0999;KG-09;Batken;Ak-Beles
+0;71.2035,40.0783;KG-09;Batken;Shorpo
+0;71.2077,40.0807;KG-09;Batken;Tash-Kyshtak
+0;71.2236,40.0757;KG-09;Batken;Tajik-Kyshtak
+0;71.2641,40.0925;KG-09;Batken;Melinbek
+0;71.2057,40.0060;KG-09;Batken;Moynok
+0;71.1809,40.0026;KG-09;Batken;Mal’mut
+0;71.0927,40.1136;KG-09;Batken;Otukchu
+0;69.5512,40.0990;KG-09;Batken;Madaniyat
+0;69.5707,40.0884;KG-09;Batken;Ak-Aryk
+0;69.5989,40.1035;KG-09;Batken;Imeni Lenina
+8250;69.6413,40.1063;KG-09;Batken;Kulundu
+0;69.7092,40.0733;KG-09;Batken;Eski-Oochu
+0;69.8221,40.0365;KG-09;Batken;Shoro
+0;69.8263,40.0217;KG-09;Batken;Kashka
+0;69.8452,40.0099;KG-09;Batken;Kyzyl-Tangi
+0;69.8333,40.0153;KG-09;Batken;Shakhmur
+0;69.3766,39.9468;KG-09;Batken;Jar-Kyshtak
+0;69.3716,39.8988;KG-09;Batken;Ak-Suu
+0;69.9084,39.9035;KG-09;Batken;Chuyanchy
+0;69.6112,39.9335;KG-09;Batken;Makayevka
+0;69.5734,39.9543;KG-09;Batken;Kyyal-Say
+0;69.5996,39.9296;KG-09;Batken;Shurchak
+0;69.5671,40.0062;KG-09;Batken;Bulak-Bashi
+0;69.5524,39.9783;KG-09;Batken;Kol’tso
+0;69.4988,39.9237;KG-09;Batken;Myrza-Patcha
+0;69.5069,39.9085;KG-09;Batken;Samat
+0;69.5019,39.8898;KG-09;Batken;Kara-Chagat
+0;69.4207,39.9408;KG-09;Batken;Kar Davaan
+0;69.3858,39.8650;KG-09;Batken;Suu-Bashy
+0;69.9392,39.8881;KG-09;Batken;Patan
+0;70.0240,39.8758;KG-09;Batken;Kara-Suu
+0;69.9811,39.8697;KG-09;Batken;Shoro
+0;69.9235,39.8896;KG-09;Batken;Charbak-Say
+0;69.9209,39.7982;KG-09;Batken;Dzhany-Turmush
+0;69.8538,39.8738;KG-09;Batken;Beles
+0;69.7728,39.8507;KG-09;Batken;Madaniyat
+0;69.7580,39.8413;KG-09;Batken;Saydanauze
+0;69.7135,39.8433;KG-09;Batken;Toguz-Bulak
+0;69.6460,39.8476;KG-09;Batken;Kara-Bulak
+0;69.6996,39.8266;KG-09;Batken;50 Years of Kyrgyzstan
+0;69.6522,39.8000;KG-09;Batken;Ay-Kol
+0;69.6663,39.8040;KG-09;Batken;Imeni Chapayeva
+0;69.6144,39.8119;KG-09;Batken;Golbo
+0;69.5391,39.8189;KG-09;Batken;Imeni Gagarina
+0;69.5283,39.8009;KG-09;Batken;Ak-Bulak
+0;69.5070,39.8713;KG-09;Batken;Chimgen
+0;69.4982,39.8806;KG-09;Batken;Besh-Bala
+0;69.4364,39.8058;KG-09;Batken;Kommuna
+0;69.4420,39.7955;KG-09;Batken;Maydan
+0;69.4535,39.7876;KG-09;Batken;Panchak
+0;69.3889,39.7232;KG-09;Batken;Tash-Bulak
+0;69.3980,39.7386;KG-09;Batken;Këk-Tash
+0;69.4714,39.7703;KG-09;Batken;Iskra
+0;69.5860,39.6620;KG-09;Batken;Mazar-Sarkent
+0;72.1733,41.4756;KG-03;Jalal-Abad Region;Kala-Kekkyya
+0;71.8066,41.5824;KG-03;Jalal-Abad Region;Jerge-Tal
+0;70.0448,39.7531;KG-09;Batken;Ozgeryush
+0;70.4845,39.9599;KG-09;Batken;Ak-Tatyr
+0;70.9637,39.7651;KG-09;Batken;Tabylgy
+0;70.9728,39.7505;KG-09;Batken;Zhanyryk
+0;70.9540,39.7316;KG-09;Batken;Korgon-Tash
+0;70.3650,39.7143;KG-09;Batken;Kindik
+0;70.5035,39.9915;KG-09;Batken;Dhzany-Bak
+0;70.5355,39.9914;KG-09;Batken;Pasky-Aryk
+0;70.5021,39.9604;KG-09;Batken;Govsuvar
+0;70.5158,39.9478;KG-09;Batken;Kochoboyu
+0;70.5280,39.9491;KG-09;Batken;Këk-Tash
+0;70.5976,39.9467;KG-09;Batken;Kuchakaryk
+0;70.0610,39.7908;KG-09;Batken;Kyzylcharba
+0;70.9305,39.9420;KG-09;Batken;Kara-Bulak
+0;70.8606,39.7730;KG-09;Batken;Symap
+0;70.5253,39.8855;KG-09;Batken;Kapchygay
+0;70.5040,39.8752;KG-09;Batken;Tenge
+0;70.5327,39.8583;KG-09;Batken;Mekhnatabad
+0;70.1519,39.7821;KG-09;Batken;Birksu
+0;70.9494,39.7166;KG-09;Batken;Dzhoo-Paya
+0;70.9661,39.6204;KG-09;Batken;Talaa
+0;70.0936,39.8775;KG-09;Batken;Razzakov
+0;70.4831,39.9471;KG-09;Batken;Uch-Debe
+0;71.0505,39.8928;KG-09;Batken;Sogment
+0;71.0412,39.8931;KG-09;Batken;Charbak
+0;71.1095,39.9939;KG-09;Batken;Shiresh
+0;71.2332,39.9533;KG-09;Batken;Bel’
+0;71.2401,39.9259;KG-09;Batken;Molo
+0;71.2553,39.9545;KG-09;Batken;Sur
+0;71.2609,39.9459;KG-09;Batken;Ormosh
+0;71.3070,39.9229;KG-09;Batken;Dzhany-Korgon
+0;71.3268,39.9305;KG-09;Batken;Dzhal
+0;71.3015,39.9538;KG-09;Batken;Eshme
+0;71.4394,39.9978;KG-09;Batken;Sary-Talaa
+0;71.2376,39.9142;KG-09;Batken;Syrt
+0;71.2055,39.9078;KG-09;Batken;Say
+0;71.1217,39.8468;KG-09;Batken;Kyshtut
+0;71.0239,39.7625;KG-09;Batken;Kan
+0;71.0070,39.7554;KG-09;Batken;Sary-Talaa
+0;71.1369,39.6408;KG-09;Batken;Khodzha-Achkan
+0;71.7442,39.4924;KG-08;Osh Region;Kara-Teyit
+0;71.7925,39.4856;KG-08;Osh Region;Karamyk
+0;71.8285,39.4952;KG-08;Osh Region;Mukur
+0;71.9065,39.5010;KG-08;Osh Region;Dzhekendi
+0;71.9195,39.4612;KG-08;Osh Region;Shibee
+0;71.6588,39.9435;KG-09;Batken;Kara-Shoro
+0;72.0411,39.8345;KG-09;Batken;Egin-Dzhay
+0;72.0579,39.5608;KG-08;Osh Region;Artala
+0;72.0891,39.5481;KG-08;Osh Region;Dashtepe
+0;72.0451,39.5095;KG-08;Osh Region;Kulchu
+0;72.0088,39.5033;KG-08;Osh Region;Sary-Bulak
+0;72.8088,39.9432;KG-08;Osh Region;Ming-Teke
+0;72.8029,39.9519;KG-08;Osh Region;Kyzyl-Chara
+0;72.7983,39.9567;KG-08;Osh Region;Kapaly
+0;72.9486,39.9576;KG-08;Osh Region;Er-Bulak
+0;72.9440,39.9524;KG-08;Osh Region;Kokchukur
+0;72.9504,39.9536;KG-08;Osh Region;Chatyr-Tash
+0;72.9438,39.9462;KG-08;Osh Region;Mazar-Suu
+0;72.9396,39.9383;KG-08;Osh Region;Chaty
+0;72.9364,39.9318;KG-08;Osh Region;Oy-Tal
+0;72.9710,39.7033;KG-08;Osh Region;Taldy-Suu
+0;72.8827,39.6737;KG-08;Osh Region;Sary-Mogol
+0;72.6740,39.6495;KG-08;Osh Region;Bortumshuk
+0;72.6624,39.6379;KG-08;Osh Region;Kara-Suu
+0;72.1171,39.9673;KG-09;Batken;Karagandy
+0;72.6147,39.6298;KG-08;Osh Region;Dzhil’ma-Odin
+0;72.5947,39.6181;KG-08;Osh Region;Dzhil’ma-Dva
+0;73.2448,39.6183;KG-08;Osh Region;Këktyube
+0;73.3927,39.9076;KG-08;Osh Region;Kara-Dzhylga
+0;73.4930,39.9920;KG-08;Osh Region;Kël’dyun-Chaty
+0;73.4229,39.8876;KG-08;Osh Region;Kedzhige
+0;73.3246,39.8870;KG-08;Osh Region;Chon-Karakol
+0;73.3255,39.8498;KG-08;Osh Region;Archat
+0;73.1803,39.7731;KG-08;Osh Region;Dorstroy
+0;73.4559,39.6990;KG-08;Osh Region;Kara-Kindik
+0;73.2285,39.7134;KG-08;Osh Region;Dorstroy
+0;74.1747,40.4629;KG-08;Osh Region;Sarybulak
+0;74.1985,40.4300;KG-08;Osh Region;Tegelesez
+0;74.1671,40.4283;KG-08;Osh Region;Mukhurt
+0;74.1162,40.4605;KG-08;Osh Region;Konduk
+0;74.0020,40.4097;KG-08;Osh Region;Akbogus
+0;74.0159,40.4179;KG-08;Osh Region;Dzhosha
+0;74.0521,40.4282;KG-08;Osh Region;Daryga
+0;74.0895,40.4313;KG-08;Osh Region;Dzhon Pervyy
+0;74.0643,40.4365;KG-08;Osh Region;Birinchioytal
+0;74.1045,40.4281;KG-08;Osh Region;Uchinchioytal
+0;74.0838,40.4272;KG-08;Osh Region;Kichine Dzhon
+0;74.1281,40.4047;KG-08;Osh Region;Dzhosho
+0;74.2152,40.4251;KG-08;Osh Region;Jaman-Tal
+0;74.2209,40.3975;KG-08;Osh Region;Bura
+0;74.2518,40.3913;KG-08;Osh Region;Dzhonbulak
+0;74.6066,40.3889;KG-08;Osh Region;Kashkasu
+0;74.3537,40.3645;KG-08;Osh Region;Kapkatash
+0;74.3157,40.3689;KG-08;Osh Region;Kyzyl-Kiya
+0;74.2887,40.3620;KG-08;Osh Region;Aral
+0;74.2807,40.3550;KG-08;Osh Region;Kara-Saz
+0;74.2690,40.3462;KG-08;Osh Region;Aydin-Kol
+0;74.2627,40.3371;KG-08;Osh Region;Kup-Tash
+0;74.1173,40.3975;KG-08;Osh Region;Ak-Oy
+0;74.1599,40.3487;KG-08;Osh Region;Kyzyk
+0;74.2533,40.3089;KG-08;Osh Region;Kaintala
+0;74.3179,40.2665;KG-08;Osh Region;Tashkyya
+0;74.3621,40.3412;KG-08;Osh Region;Uzunshoro
+0;74.3953,40.2681;KG-08;Osh Region;Alay-Ku
+0;74.4443,40.3392;KG-08;Osh Region;Kara-Tash
+0;74.4640,40.2762;KG-08;Osh Region;Imeni Sidorova
+0;75.0792,40.5762;KG-04;Naryn Region;Tuzbel’
+0;76.7000,41.6719;KG-08;Osh Region;Uzun-Bulak
+0;77.3720,41.4945;KG-07;Issyk-Kul;Karakolka
+0;72.9212,40.3557;KG-08;Osh Region;Tatar-Shilbili
+0;72.2390,40.4603;KG-08;Osh Region;Katta-Nayman
+0;73.5447,40.6524;KG-08;Osh Region;Sary-Bulak
+0;72.8938,40.7118;KG-08;Osh Region;Sultan-Abad
+0;72.9570,40.7058;KG-08;Osh Region;Savay Aryk
+0;73.5555,40.7482;KG-08;Osh Region;Këk-Bulak
+0;73.6066,40.7094;KG-08;Osh Region;Sasyk-Bulak
+0;72.0553,41.8088;KG-03;Jalal-Abad Region;Yaryktash Vtoroy
+0;75.0685,42.8408;KG-02;Chuy Region;Ivanovka (geological base)
+0;75.1291,42.7769;KG-02;Chuy Region;Pervomayskiy
+0;71.2467,42.6947;KG-06;Talas Region;Kuru-Maymak
+0;71.2913,42.6697;KG-06;Talas Region;Suulu-Maymak
+0;70.7265,40.1224;KG;;Guliston
+0;72.7682,40.6683;KG-08;Osh Region;Kyzyl-Bayrak
+0;72.0500,40.2667;KG;;Kyzyl-Kiya
+0;76.2853,41.1365;KG;;Besh-Bel-Chir
+0;74.3295,43.1525;KG-02;Chuy Region;Sadovoye
+0;72.9122,40.5387;KG;;Asanchak
+0;72.9483,40.5638;KG;;Jany-Budalik
+0;72.9504,40.5784;KG;;Yntymak
+0;74.8878,42.7845;KG;;Bos-Bormak
+0;72.7292,40.5069;KG-08;Osh Region;Birleshken
+0;72.7946,40.5972;KG-08;Osh Region;Nariman
+0;75.5515,42.7302;KG-02;Chuy Region;Bordu
+0;70.8569,40.1412;KG-09;Batken;Chet-Kyzyl
+0;69.7901,40.0405;KG-09;Batken;Pyat’desyat Let Soyuz Sovetskikh Sotsialisticheskikh Respublik
+0;69.7964,40.0415;KG-09;Batken;Layli
+0;70.5221,39.8744;KG-09;Batken;Ak-Say
+0;69.6659,40.1197;KG-09;Batken;Internatsional’noye
+0;72.1037,40.2512;KG-09;Batken;Kaltak
+0;70.4785,39.9500;KG-09;Batken;Tashtumshuk
+0;72.2189,40.2042;KG-09;Batken;Arykbay
+0;72.2033,40.2090;KG-09;Batken;Ikchesu
+0;72.2286,40.2260;KG-08;Osh Region;Këtërme
+0;72.2023,40.2182;KG-08;Osh Region;Akshar
+0;72.1271,40.2850;KG-09;Batken;Orto-Kyshtak
+0;72.1217,40.2920;KG-09;Batken;Akbulak Vtoroy
+0;72.0769,40.1766;KG-09;Batken;Olagysh
+0;71.8485,42.8268;KG;;Qaratöbe Asūy
+0;72.6446,41.0954;KG-03;Jalal-Abad Region;Apyrtan
+0;72.9214,40.8893;KG-03;Jalal-Abad Region;Qurg‘oq-Ko‘l
+0;72.9086,40.6379;KG-08;Osh Region;Zarbalik
+0;72.8230,40.5410;KG-10;Osh City;Yuqori Uvam
+0;72.7275,40.5510;KG-08;Osh Region;Qizil-Bayroq
+0;72.8247,40.4823;KG-08;Osh Region;Tuleyken
+0;72.8575,40.4568;KG-08;Osh Region;Ozgur
+0;72.8652,40.6566;KG-08;Osh Region;Tarykchi
+0;72.4559,41.2492;KG-03;Jalal-Abad Region;Mailuu-Suu
+0;71.4389,41.1646;KG-03;Jalal-Abad Region;Novobod
+0;73.4324,40.3278;KG-08;Osh Region;Kurmanjan Datka
+0;73.1905,40.6910;KG-08;Osh Region;Kurshab
+0;75.2300,41.2800;KG-04;Naryn Region;8-Mart
+0;71.9498,41.8000;KG-03;Jalal-Abad Region;Arkit (Sari-Chelek)
+0;79.0850,42.0327;KG-07;Issyk-Kul;Enilchek
+0;75.9866,41.4277;KG-04;Naryn Region;Naryn
+0;75.4175,40.5909;KG-04;Naryn Region;Totugart
+0;71.7996,39.4722;KG-08;Osh Region;KPP Karamyk
+0;78.4664,42.4081;KG-07;Issyk-Kul;ski resort "Karakol"
+0;78.5528,42.4523;KG-07;Issyk-Kul;Ak suu sanatorij
+0;73.4923,39.9926;KG-08;Osh Region;Kolduk
+0;71.2608,41.3053;KG-03;Jalal-Abad Region;Sumsar
+0;72.4708,41.0963;KG-03;Jalal-Abad Region;Kochkor-Ata
+0;72.8017,41.2219;KG-03;Jalal-Abad Region;Gava
+0;72.8225,40.5577;KG-08;Osh Region;Shark
+0;73.2779,40.4905;KG-08;Osh Region;Korgon
+0;72.0562,41.7030;KG-03;Jalal-Abad Region;Alga
+0;74.0990,41.3434;KG-03;Jalal-Abad Region;Karachiy
+0;74.1131,41.9631;KG-02;Chuy Region;Kyzyloy
+0;71.9773,42.4716;KG-06;Talas Region;Kyzyl-Oktyabr’
+0;71.6655,42.6098;KG-06;Talas Region;Beysheke
+0;75.6125,42.2141;KG-04;Naryn Region;Akdzhar
+0;76.9215,42.1796;KG-07;Issyk-Kul;Ak-Say
+0;71.5786,41.5140;KG-03;Jalal-Abad Region;Ak-Tam
+0;71.4834,41.4322;KG-03;Jalal-Abad Region;Sary-Talaa
+0;73.7970,39.6756;KG-08;Osh Region;Ikizyak
+0;72.7412,40.5281;KG-08;Osh Region;Imeni Karla Marksa
+0;71.2115,41.3152;KG-03;Jalal-Abad Region;Oq-Bashat

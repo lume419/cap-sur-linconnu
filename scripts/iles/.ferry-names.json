@@ -1,0 +1,122 @@
+[
+ {
+  "routeKey": "aomoriHakodate",
+  "name": "Aomori ↔ Hakodate"
+ },
+ {
+  "routeKey": "kagoshimaNaha",
+  "name": "Kagoshima ↔ Naha"
+ },
+ {
+  "routeKey": "kagoshimaNaze",
+  "name": "Kagoshima ↔ Naze (Amami-Ōshima)"
+ },
+ {
+  "routeKey": "kagoshimaKametoku",
+  "name": "Kagoshima ↔ Kametoku (Tokunoshima)"
+ },
+ {
+  "routeKey": "kagoshimaWadomari",
+  "name": "Kagoshima ↔ Wadomari (Okinoerabu)"
+ },
+ {
+  "routeKey": "busanShimonoseki",
+  "name": "Busan ↔ Shimonoseki"
+ },
+ {
+  "routeKey": "kaohsiungMagong",
+  "name": "Kaohsiung ↔ Magong"
+ },
+ {
+  "routeKey": "merakBakauheni",
+  "name": "Merak ↔ Bakauheni"
+ },
+ {
+  "routeKey": "ketapangGilimanuk",
+  "name": "Ketapang ↔ Gilimanuk"
+ },
+ {
+  "routeKey": "padangbaiLembar",
+  "name": "Padangbai ↔ Lembar"
+ },
+ {
+  "routeKey": "kayanganPototano",
+  "name": "Kayangan ↔ Poto Tano"
+ },
+ {
+  "routeKey": "sapeLabuanBajo",
+  "name": "Sape ↔ Labuan Bajo"
+ },
+ {
+  "routeKey": "tanjungApiApiTanjungKalian",
+  "name": "Tanjung Api-Api ↔ Tanjung Kalian (Muntok)"
+ },
+ {
+  "routeKey": "kualaPerlisLangkawi",
+  "name": "Kuala Perlis ↔ Langkawi (RoRo)"
+ },
+ {
+  "routeKey": "batangasCalapan",
+  "name": "Batangas ↔ Calapan"
+ },
+ {
+  "routeKey": "roxasCaticlan",
+  "name": "Roxas (Mindoro) ↔ Caticlan"
+ },
+ {
+  "routeKey": "batangasCaticlan",
+  "name": "Batangas ↔ Caticlan"
+ },
+ {
+  "routeKey": "batangasRomblon",
+  "name": "Batangas ↔ Romblon"
+ },
+ {
+  "routeKey": "romblonMagdiwang",
+  "name": "Romblon ↔ Magdiwang (Sibuyan)"
+ },
+ {
+  "routeKey": "romblonRoxasCity",
+  "name": "Romblon ↔ Roxas City"
+ },
+ {
+  "routeKey": "batangasMagdiwang",
+  "name": "Batangas ↔ Magdiwang (Sibuyan)"
+ },
+ {
+  "routeKey": "cebuTagbilaran",
+  "name": "Cebu ↔ Tagbilaran"
+ },
+ {
+  "routeKey": "cebuMasbate",
+  "name": "Cebu ↔ Masbate"
+ },
+ {
+  "routeKey": "cebuIloilo",
+  "name": "Cebu ↔ Iloilo"
+ },
+ {
+  "routeKey": "cebuCagayanDeOro",
+  "name": "Cebu ↔ Cagayan de Oro"
+ },
+ {
+  "routeKey": "tagbilaranCagayanDeOro",
+  "name": "Tagbilaran ↔ Cagayan de Oro"
+ },
+ {
+  "routeKey": "balingoanBenoni",
+  "name": "Balingoan ↔ Benoni (Camiguin)"
+ },
+ {
+  "routeKey": "donsakLipaNoi",
+  "name": "Don Sak ↔ Ko Samui (Lipa Noi)"
+ },
+ {
+  "routeKey": "donsakThongSala",
+  "name": "Don Sak ↔ Ko Pha Ngan (Thong Sala)"
+ },
+ {
+  "routeKey": "middleStraitNilambur",
+  "name": "Middle Strait ↔ Nilambur (Baratang)"
+ }
+]

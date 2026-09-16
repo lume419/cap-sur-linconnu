@@ -1,0 +1,100 @@
+zh;丹戎巴葛;Tanjong Pagar
+ta;தஞ்சோங் பகார்;Tanjong Pagar
+ta;Tañcōṅ Pakār;Tanjong Pagar
+ms;Pantai Barat;West Coast Village
+ru;Улу Бедок;Ulu Bedok
+zh;新邦;Sungai Simpang
+de;Singapur;Singapore
+fr;Singapour;Singapore
+es;Singapur;Singapore
+pt;Singapura;Singapore
+th;สิงค์โปร;Singapore
+ru;Сингапур;Singapore
+ko;싱가포르;Singapore
+ko;싱가폴;Singapore
+ja;シンガポール;Singapore
+km;សិង្ហបុរី;Singapore
+pa;ਸਿੰਗਾਪੁਰ;Singapore
+my;စင်ကာပူနိုင်ငံ;Singapore
+mr;सिंगापूर;Singapore
+lo;ປະເທດສິງກະໂປ;Singapore
+hi;सिंगापुर;Singapore
+fa;سنگاپور;Singapore
+ar;سنغافورة;Singapore
+zh;新加坡;Singapore
+yue;星架坡;Singapore
+th;ประเทศสิงคโปร์;Singapore
+ta;சிங்கப்பூர்;Singapore
+zh-TW;新加坡;Singapore
+zh;三巴旺;Sembawang Estate
+ru;Сембаванг Естате;Sembawang Estate
+ta;சிலேத்தார்;Seletar
+zh;實里達;Seletar
+zh;实里达;Seletar
+fa;پونگل;Punggol
+ta;பொங்கோல்;Punggol
+zh;榜鹅;Punggol
+ru;Пунггол;Punggol
+zh;马西岭;Marsiling
+zh-TW;烏美;Kampong Ubi
+ta;தெங்கா;Tengah
+ta;பாசிர் ரிஸ்;Kampong Pasir Ris
+zh;白沙;Kampong Pasir Ris
+zh;巴西立;Kampong Pasir Ris
+ms;Pasir Ris;Kampong Pasir Ris
+ru;Кампонг Пасир Рис;Kampong Pasir Ris
+zh-TW;洛陽;Kampong Loyang
+ta;கிராஞ்சி;Kampong Kranji
+zh;克兰芝;Kampong Kranji
+ta;ஜலன் காயு;Jalan Kayu
+zh;惹兰加由;Jalan Kayu
+zh;樟宜村;Changi Village
+zh;万礼;Bukit Mandai Village
+zh;文礼/文禮;Boon Lay
+ta;பூன் லே;Boon Lay
+zh;裕廊东;Jurong East
+zh;裕廊;Jurong Town
+ta;ஜூரோங்;Jurong Town
+ru;Джуронг;Jurong Town
+zh;裕廊西;Jurong West
+ru;Джуронг Вест;Jurong West
+ta;மக்பெர்சொன்;MacPherson
+zh;麦波申;MacPherson
+zh;义顺;Yishun New Town
+zh;義順;Yishun New Town
+ta;யீசூன் புதிய நகரம்;Yishun New Town
+ru;Джишун Новый город;Yishun New Town
+ta;லிம் சூ காங்;Lim Chu Kang
+zh;林厝港;Lim Chu Kang
+ru;Вудландс;Woodlands
+en;Marine Parade Estate;Marine Parade
+ta;மரின் பரேட்;Marine Parade
+zh;马林百列;Marine Parade
+zh-Hant;馬林百列;Marine Parade
+fa;مارین پرید، سنگاپور;Marine Parade
+zh-TW;宏茂橋;Ang Mo Kio New Town
+ru;Анг Мо Кио Новый город;Ang Mo Kio New Town
+zh;武吉班让;Bukit Panjang New Town
+ta;புக்கித்து பஞ்சாங்;Bukit Panjang New Town
+ru;Букит Панянг Новый город;Bukit Panjang New Town
+ta;Piṭōk;Bedok New Town
+ta;பிடோக்;Bedok New Town
+zh;勿洛;Bedok New Town
+ru;Бедок Новый город;Bedok New Town
+zh;女皇镇;Queenstown Estate
+ru;Куеенстовн Естате;Queenstown Estate
+zh;蔡厝港;Choa Chu Kang New Town
+ta;சுவா சூ காங்;Choa Chu Kang New Town
+ru;Чоа Чу Канг Новый город;Choa Chu Kang New Town
+en;Johor, Pasir Gudang;Johor
+ta;நொவீணா;Novena
+zh;诺维娜;Novena
+zh;芽籠東;Eunos
+zh;芽笼东;Eunos
+ta;கேலாங் கிழக்கு;Eunos
+en;Sengkang;Sengkang New Town
+ta;செங்காங்;Sengkang New Town
+zh;盛港;Sengkang New Town
+ru;Сенгканг Новый город;Sengkang New Town
+ms;Lembah Sungai;River Valley
+zh;自然保护区;Nature Reserve

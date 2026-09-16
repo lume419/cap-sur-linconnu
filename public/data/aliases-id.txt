@@ -1,0 +1,3540 @@
+ru;Тонгинг;Tongging
+id;Telukdalam;Teluk Dalam
+ru;Тебингтингги;Tebingtinggi
+id;Tanjung Pura;Tanjungpura
+ru;Танджунгбалай;Tanjungbalai
+ru;Сунггал;Sunggal
+id;Sungairampah;Sei Rampah
+id;Subulussalam;Rundeng
+id;Sipenggeng;Siponggong
+ru;Сингкил;Singkil
+id;Simpangampat;Simpang Kawat
+id;Sibubuhan;Sibuhuan
+id;Kota Sibolga;Sibolga
+ru;Сиболга;Sibolga
+id;Si Alang Baru;Sialangbaru
+id;Segrun;Segroen
+id;Kota Sabang;Sabang
+ja;サバン;Sabang
+jv;Kutha Sabang;Sabang
+ko;사방;Sabang
+ru;Сабанг;Sabang
+zh;沙璜;Sabang
+ar;سابانغ;Sabang
+ur;سابانگ، انڈونیشیا;Sabang
+id;Rikip Gaib;Rikitgaib
+ru;Рантаупрапат;Rantauprapat
+id;Portibijulu;Portibijae
+id;Portibi Julu;Portibijae
+id;Pintu Padang;Pintupadang
+id;Pijarkoling;Pijorkoling
+ru;Перкут;Percut
+ru;Пербаунган;Perbaungan
+ru;Пематангсиантар;Pematangsiantar
+id;Paringgonan Jae;Paringgonanjae
+id;Panguruan;Pangururan
+id;Pancurnatolu Tiga;Pancurnatolu
+ru;Падангсидемпуан;Padangsidempuan
+id;Padang Mandailing;Padangmandeling
+ru;Мелабоха;Meulaboh
+id;Kota Medan;Medan
+ja;メダン;Medan
+zh-TW;棉蘭;Medan
+ru;Медан;Medan
+ko;메단;Medan
+fa;مدان;Medan
+ar;ميدان;Medan
+jv;Kutha Medan;Medan
+th;เมดาน;Medan
+ta;மேடான்;Medan
+zh;棉蘭;Medan
+id;Matangkeupula Tiga;Matangkeupula
+id;Lumban Geroga;Lunbangaroga
+id;Kota Lhokseumawe;Lhokseumawe
+ru;Локсеумаве;Lhokseumawe
+ru;Лангса;Langsa
+id;Lambirah Dua;Lambirah
+id;Labuhanhaji;Labuhan Haji
+en;Kutatjane;Kutacane
+id;Kualabee;Kuala Bhee
+ru;Кисаран;Kisaran
+id;Jambur Torop;Jamburtorop
+id;Hutaimbaru Satu;Hutaimbaru
+ru;Гунунгситоли;Gunungsitoli
+id;Eumpeetring;Eumeetrieng
+id;Diliebbukti;Delieb
+en;Blang Pidie;Blangpidie
+id;Blangmee;Blangme
+id;Kota Binjai;Binjai
+zh;民禮;Binjai
+ru;Бинджай;Binjai
+ru;Берастаги;Berastagi
+ru;Белаван;Belawan
+ar;باندا آتشيه;Banda Aceh
+id;Kota Banda Aceh;Banda Aceh
+ja;バンダ・アチェ;Banda Aceh
+nl;Banda Atjeh;Banda Aceh
+zh-TW;班達亞齊;Banda Aceh
+ru;Банда-Ачех;Banda Aceh
+vi;Banda Acheh;Banda Aceh
+jv;Kutha Banda Acèh;Banda Aceh
+th;บันดาร์อาเจะห์;Banda Aceh
+ko;반다아체;Banda Aceh
+fa;باندا آسه;Banda Aceh
+pt;Banda Achém;Banda Aceh
+zh;班達亞齊;Banda Aceh
+su;Kota Banda Acéh;Banda Aceh
+id;Aek kanan;Aekkenan
+id;Aek Godang;Aekgadang
+id;Aek Badak;Aekbadak
+id;Luengie;Lueng Ie
+id;Josowilangun;Yosowilangun
+id;Josowilangoen;Yosowilangun
+id;Jasawilangoen;Yosowilangun
+ar;يوجياكرتا;Yogyakarta
+id;Daerah Istimewa Yogyakarta;Yogyakarta
+id;Kota Yogyakarta;Yogyakarta
+ja;ジョグジャカルタ市;Yogyakarta
+ms;Kota Yogyakarta;Yogyakarta
+nl;Jogjakarta;Yogyakarta
+ru;Джокьякарта;Yogyakarta
+id;DI Yogyakarta;Yogyakarta
+en;Special Region of Yogyakarta;Yogyakarta
+fa;یوگیاکارتا;Yogyakarta
+hi;योग्यकार्ता;Yogyakarta
+jv;Kutha Ngayogyakarta;Yogyakarta
+ko;욕야카르타;Yogyakarta
+mr;योग्यकर्ता;Yogyakarta
+th;ยอกยาการ์ตา;Yogyakarta
+zh;日惹;Yogyakarta
+ru;Джоджакарта;Yogyakarta
+id;Yenggarboi;Yenggarbun
+id;Yemburwo;Jenboeroeo
+id;Was;Woos
+id;Wonggarasi;Wonggarasi Tengah
+id;Wongarasi;Wonggarasi Tengah
+id;Angorasse;Wonggarasi Tengah
+ru;Веру;Weru
+id;Wertra;Werfra
+id;Weloekoe;Weluku
+id;Wawalandawe;Wawolandawe
+id;Watoaru;Letinger
+id;Watulaney;Watulane
+id;Watukandjua;Watukancoa
+id;Watubangga;Lapangan Watubangga
+id;Batas;Watas
+ru;Ватампоне;Watampone
+id;Latdalam;Wasteta
+id;Warat;Waren
+id;Wairotang;Waioti
+id;Wain;Wainipah
+ru;Вайнгапу;Waingapu
+id;Waisamu;Waesamu
+id;Wapoitih;Wapotih
+nl;Wadiboe;Wadiba
+id;Antutan;Untutan
+ru;Унгаран;Ungaran
+id;Umbultikor;Umbulan Tikarberak
+id;Umbulansunggulan;Umbulan Sunggulan
+id;Umbulan Pedada-udik;Umbulan Pedada Udik
+id;Umbulanpedadaudik;Umbulan Pedada Udik
+id;Umbulan Pandan;Pandanagung
+id;Umbulan Muara Tahi;Umbulan Muaratahi
+id;Umbulanmangkubumi;Umbulan Mangkubumi
+id;Umbulanlempuyang;Umbulan Lempuyang
+id;Umbulankraking;Umbulan Kraking
+id;Umbulankepalabesar;Umbulan Kepala Besar
+id;Umbulankelih;Umbulan Kelih
+id;Ululapapao;Ulu La Pao Pao
+id;Ulu Siau;Ulu
+id;Utongtujuk;Ulongtuyuk
+id;Lhokpandan;Ulokpandan
+id;Ulakpanpan;Ulakpandan
+id;Ulakmakani;Ulak Makam
+id;Ukuidua;Ukui
+fa;ماکاسار;Makassar
+ja;マカッサル;Makassar
+pt;Macassar;Makassar
+id;Kota Makassar;Makassar
+ru;Макассар;Makassar
+ko;마카사르;Makassar
+en;Udjungbatu;Ujung Batu
+id;Udupender;Udupenbor
+ru;Убуд;Ubud
+fa;یوبود;Ubud
+hi;उबुद;Ubud
+ja;ウブド;Ubud
+ur;ابود;Ubud
+id;Terlaing;Toerlaing
+id;Tungka;Tungkal
+id;Tugrana;Tugrama
+ru;Тубан;Tuban
+en;Tribung;Tarebung
+ru;Тондано;Tondano
+id;Taloa;Toloa
+id;Tolitoli;Toli-Toli
+ru;Толитоли;Toli-Toli
+id;Tidung Pala;Tideng Pale
+id;Tidengpale;Tideng Pale
+id;Telewatu;Tetewatu
+id;Terusanmenang;Terusan Menang
+id;Kota Ternate;Ternate
+ja;テルナテ島;Ternate
+ko;테르나테 섬;Ternate
+ru;Тернате;Ternate
+id;Terbanggi-besar;Terbanggi Besar
+id;Terbanggiagung;Terbanggi Agung
+id;Teluknilau;Teluk Nilau
+id;Telukmejelis;Teluk Majelis
+id;Telukmedjelis;Teluk Majelis
+id;Telakdalem;Telukdalam
+id;Dusunteluk;Dusun Teluk
+id;Tekong;Tekung
+id;Banjar Tegallalang;Tegalalang
+id;Kota Tegal;Tegal
+ar;تيغال;Tegal
+fa;تگال;Tegal
+jv;Kutha Tegal;Tegal
+ms;Kota Tegal;Tegal
+su;Kota Tegal;Tegal
+ur;تیگال، وسطی جاوا;Tegal
+ru;Тегал;Tegal
+zh;直葛;Tegal
+id;Telebo;Tedeboe
+id;Tebingtinggi;Tebing Tinggi
+id;Tebinggerinting;Tebing Gerinting
+id;Niru;Tebatagung
+id;Taoebonto;Taubonto
+id;Tabonto;Taubonto
+id;Tate;Kamonji
+id;Kota Tasikmalaya;Tasikmalaya
+jv;Tasikmalaya kutha;Tasikmalaya
+su;Kota Tasikmalaya;Tasikmalaya
+ru;Тасикмалая;Tasikmalaya
+ru;Таракан;Tarakan
+ar;تاراكان;Tarakan
+fa;تاراکان;Tarakan
+id;Kota Tarakan;Tarakan
+jv;Kutha Tarakan;Tarakan
+ms;Kota Tarakan;Tarakan
+ur;تاراکان، شمالی کالیمانتان;Tarakan
+zh;塔拉卡恩;Tarakan
+id;Tarakan;Tarahan
+id;Tangung;Taoguno
+id;Kampoeng Tentaloedjoek;Tantalujuk
+id;Tanjung Uban;Tandjunguban
+zh;丹戎檳榔;Tanjung Pinang
+tl;Tanjungpinang;Tanjung Pinang
+ru;Танджунгпинанг;Tanjung Pinang
+ja;タンジュン・ピナン;Tanjung Pinang
+ms;Kota Tanjung Pinang;Tanjung Pinang
+jv;Kutha Tanjungpinang;Tanjung Pinang
+id;Kota Tanjungpinang;Tanjung Pinang
+ko;탄중피낭;Tanjung Pinang
+fa;تانجونگ پینانگ;Tanjung Pinang
+ceb;Tanjungpinang;Tanjung Pinang
+ar;تانجونغ;Tanjung Pinang
+en;Tandjungpauh;Tanjungpauh
+ru;Танджунгпандан;Tanjung Pandan
+id;Bandarlampung;Bandar Lampung
+id;Kota Bandar Lampung;Bandar Lampung
+zh;班達楠榜;Bandar Lampung
+ja;バンダールランプン;Bandar Lampung
+ko;반다르람풍;Bandar Lampung
+fa;بندر لامپونگ;Bandar Lampung
+ru;Бандар-Лампунг;Bandar Lampung
+id;Tanjungjohot;Tanjung Johor
+id;Tanjung;Tanjungenim
+id;Tanjungdalam;Tanjung Dalam
+id;Tanjungboaiaur;Tanjungboairaur
+en;Tandjung;Tanjung
+id;Tangkahen;Tangkahan
+id;Kota Tangerang;Tangerang
+ru;Тангеранг;Tangerang
+fa;تانگرانگ;Tangerang
+ja;タンゲラン;Tangerang
+jv;Kutha Tangerang;Tangerang
+ko;탕에랑;Tangerang
+ms;Kota Tangerang;Tangerang
+su;Kota Tangerang;Tangerang
+zh;坦格朗;Tangerang
+zh-TW;當格朗;Tangerang
+su;ᮒᮍᮨᮛᮀ;Tangerang
+id;Tandingma;Tandingmarga
+id;Tanawangko;Tanahwangko
+id;Tanahrenah;Tanah Renah
+id;Tawahperiuk;Tanah Periuk
+id;Tanahgrogot;Tana Paser
+id;Tanahgaro;Tanah Garo
+id;Tambangan Kelekar;Tambangankeleker
+id;Tambangan;Tambanganrambang
+id;Talukkuantan;Teluk Kuantan
+id;Patal Dua;Taluan
+id;Patal II;Taluan
+en;Talajap;Talayap
+id;Talang Rimbo;Talang Rimba
+id;Talangpelempanghilir;Talang Pelempang Hilir
+id;Talangpangeran;Talang Pangeran
+id;Talangpadang;Talang Padang
+id;Talangmuaramadu;Talang Muaramadu
+id;Talang Moearamadoe;Talang Muaramadu
+id;Takokak 1;Takokak
+en;Taruna;Tahuna
+id;Tagoel;Tagol
+id;Taepamasu;Taepamasua
+id;PUJOTOMO;Sutopati
+id;Kota Surakarta;Surakarta
+ja;スラカルタ;Surakarta
+ru;Суракарте;Surakarta
+ko;수라카르타;Surakarta
+jv;Kutha Surakarta;Surakarta
+ms;Kota Surakarta;Surakarta
+su;Kota Surakarta;Surakarta
+mr;सुरकर्ता;Surakarta
+ar;سوراكارتا;Surakarta
+fa;سوراکارتا;Surakarta
+ru;Суракарта;Surakarta
+zh;梭罗市;Surakarta
+fa;سورابایا;Surabaya
+id;Kota Surabaya;Surabaya
+ja;スラバヤ;Surabaya
+nl;Soerabaja;Surabaya
+pt;Surabaia;Surabaya
+zh;泗水;Surabaya
+ko;수라바야;Surabaya
+ru;Сурабая;Surabaya
+th;สุราบายา;Surabaya
+ar;سورابايا;Surabaya
+ms;Kota Surabaya;Surabaya
+jv;Kutha Surabaya;Surabaya
+yue;泗水;Surabaya
+ru;Сурабайа;Surabaya
+id;Surabaya Ilir;Surabaya
+id;Subanjeruji;Suban Jeriji
+id;Talang Djeridji;Suban Jeriji
+id;Sungaiulak;Sungai Ulak
+id;Sungai Sidang;Sungaisidang
+id;Sungai Putat;Sei Putat
+ru;Сунгайпенух;Sungai Penuh
+id;Sungaipanangah;Sungainamang
+en;Sosajan;Sosayan
+ru;Сунгайлиат;Sungailiat
+id;Sungaiduan;Sungaidua
+id;Sungaidingin;Sungai Dingin
+id;Sungaibelida;Sungaibelidah
+id;Sungaibaung;Sungai Baung
+ru;Сумеданг;Sumedang
+id;Sumahodo;Sumahode
+id;Sukacita;Sukacinta
+id;Kota Sukabumi;Sukabumi
+jv;Kutha Sukabumi;Sukabumi
+su;Kota Sukabumi;Sukabumi
+fa;سوکابومی;Sukabumi
+ru;Сукабуми;Sukabumi
+zh;蘇加武眉;Sukabumi
+ru;Субанг;Subang
+id;Kota Sorong;Sorong
+ru;Соронг;Sorong
+id;Sorendeweri;Sorendiweri
+ru;Сореанг;Soreang
+ru;Сое;Soe
+ja;ソウ;Soe
+nl;Soë;Soe
+zh;索埃;Soe
+ru;Ситубондо;Situbondo
+ru;Сингосари;Singosari
+ru;Сингкаванг;Singkawang
+ja;シガラジャ;Singaraja
+ru;Сингараджа;Singaraja
+id;Sangkulita;Simpanguyu
+id;Simpangempat;Simpang Ampat
+en;Simalinjang;Simalinyang
+en;Sidjuk;Sijuk
+ru;Сидоарийо;Sidoarjo
+en;Setul;Sotol
+id;Situkul;Setukul
+id;Sesur;Sessur
+id;Serinanti;Seri Nanti
+id;Setiananti;Seri Nanti
+id;Serengkah;Serengka
+id;Serdangmenang;Serdang Menang
+id;Serapon;Serapun
+id;Sarapoen;Serapun
+id;Kabupaten Serang;Serang
+ru;Серанг;Serang
+id;Serei;Serey
+ru;Сепатан;Sepatan
+id;Sengkemang;Sengkamang
+id;Muarasengajan;Sengayan
+id;Singawek;Sengawek
+id;Senemat;Senamat
+id;Senamanenek;Senamaninik
+id;Semuntut;Semuntul
+id;Kota Semarang;Semarang
+zh-TW;三寶瓏;Semarang
+ja;スマラン;Semarang
+jv;Kutha Semarang;Semarang
+ko;스마랑;Semarang
+ms;Kota Semarang;Semarang
+th;เซมารัง;Semarang
+ta;செமாராங்;Semarang
+fa;سمارانگ;Semarang
+ru;Семаранг;Semarang
+zh;三寶瓏;Semarang
+ar;سيمارانج;Semarang
+yue;三孖冷;Semarang
+jv;ꦏꦸꦛꦯꦼꦩꦫꦁ;Semarang
+id;Bliah;Selatbeliat
+id;Selat Kaja;Selat
+id;Sekikiran;Sekikilan
+id;Seyaagung;Sejagung
+id;Sadari;Sedari
+id;Siduman;Sebuluan
+id;Siboekoe;Sebuku
+ru;Саванган;Sawangan
+id;Sangau;Sanggau
+id;Seosadi;Sauadi
+ru;Сампит;Sampit
+id;Kota Samarinda;Samarinda
+ta;சமாரிண்டா;Samarinda
+ru;Самаринда;Samarinda
+ar;ساماريندا;Samarinda
+fa;ساماریندا;Samarinda
+ja;サマリンダ;Samarinda
+jv;Kutha Samarinda;Samarinda
+ko;사마린다;Samarinda
+ms;Kota Samarinda;Samarinda
+th;ซามารินดา;Samarinda
+zh;沙馬林達;Samarinda
+id;Samalagilaut;Samalagi
+id;Muradi;Salumpaga
+id;Solomekko;Salomekko
+id;Salim Batu;Salinbatu
+id;Salido;Salide
+ru;Салатига;Salatiga
+id;Satabanka;Kaleroang
+id;Saba;Arfaksaba
+ru;Рутенг;Ruteng
+id;Puser;Ruser
+id;Rumbio;Rumbia
+id;Rijam;Riam
+ru;Ренгасденгклок;Rengasdengklok
+id;Ranahsungaibesar;Renah Sungai Besar
+id;Renahpisanglidi;Renah Pisang Lidi
+id;Renahpelaan;Renah Pelaan
+id;Penahkemumu;Renah Kemumu
+id;Renahalai;Renah Alai
+id;Poelaulajang;Pulau Layang
+id;Ratatotok Satu;Totokrata
+id;Rareng;Raren
+id;Rantaupangiang;Rantau Panjang
+id;Rantimaukapas;Rantau Limau Kapas
+id;Rantaukudjang;Rantau Kujang
+id;Rantaukermas;Rantau Kermas
+id;Rantaukopar;Rantau Kampar
+id;Rantauikil;Rantau Ikil
+id;Rantaugadang;Rantau Gadang
+id;Rantaudukun;Rantau Dukuh
+id;Rantaubuda;Rantau Buda
+en;Rantaubarangin;Rantau Berangin
+id;Rantauatas;Rantau Atas
+id;Rantaualai;Rantau Alai
+ru;Рангкасбитунг;Rangkasbitung
+id;Randaudjunkal;Randujungkal
+id;Ramgoedori;Ramgudori
+id;Racikrajan;Raci Krajan
+id;Kota Purwokerto;Purwokerto
+ru;Пурвокерто;Purwokerto
+en;Purwodadi Grobogan;Purwodadi
+ru;Пурводади;Purwodadi
+id;Kota Purwakarta;Purwakarta
+ru;Пурвакарта;Purwakarta
+id;Pungutmudik;Pungut Mudik
+id;Palupanda;Pulupanda
+id;Pulogebang;Pulo Gebang
+id;Pulaumentaro;Pulau Mentaro
+id;Pulaulintang;Pulau Lintang
+id;Pulaukrakat;Pulau Krakap
+id;Pulo Gumatung;Pulaugemantung
+en;Pulau-gadang;Pulau Gadang
+id;Puah;Puak
+id;Kota Probolinggo;Probolinggo
+ru;Проболинго;Probolinggo
+id;Parewatana;Pretana
+ru;Прая;Praya
+id;Prampuandesa;Prampuan
+ru;Посо;Poso
+id;Popontolan;Popontolen
+id;Kota Pontianak;Pontianak
+zh;坤甸;Pontianak
+ru;Понтианак;Pontianak
+fa;پونتیاناک;Pontianak
+ja;ポンティアナック;Pontianak
+jv;Kutha Pontianak;Pontianak
+ko;폰티아낙;Pontianak
+ms;Kota Pontianak;Pontianak
+th;ปนตีอานัก;Pontianak
+ur;پونٹیانک، انڈونیشیا;Pontianak
+ar;بونتياناك;Pontianak
+id;Ponok;Porok
+id;Pondokpematangtanah;Pondok Pematang Tanah
+id;Pondokdanaulawas;Pondok Danau Lawas
+ru;Плумбон;Plumbon
+id;Pringtali;Peringtali
+en;Perhantiankulin;Perhentian Kulim
+ru;Прабумулих;Prabumulih
+id;Prabumenang;Perabumenang
+id;Penebel Kaja;Penebel
+id;Pematangraman;Pematang Raman
+en;Pematangpayung;Pematang Payung
+nl;Pematangpayung;Pematang Payung
+ru;Пемаланг;Pemalang
+id;Palaihari;Pelaihari
+id;Petaju;Pelaju
+id;Peladjoe;Pelaju
+id;Kota Pekanbaru;Pekanbaru
+id;Pakanbaru;Pekanbaru
+fa;پکانبارو;Pekanbaru
+ja;プカンバル;Pekanbaru
+jv;Kutha Pekanbaru;Pekanbaru
+ko;페칸바루;Pekanbaru
+ru;Пеканбару;Pekanbaru
+zh;北干巴魯;Pekanbaru
+id;Kota Pekalongan;Pekalongan
+ru;Пекалонган;Pekalongan
+id;Pakalar;Pekalar
+id;Padataran;Pedataran
+id;Pecak;Peceh
+id;Panyaraman;Payaraman
+id;Payaman;Payaraman
+id;Kota Payakumbuh;Payakumbuh
+ru;Паякумбух;Payakumbuh
+ru;Пати;Pati
+id;Kota Pasuruan;Pasuruan
+nl;Pasoeroean;Pasuruan
+ru;Пасуруан;Pasuruan
+ru;Пасех;Paseh
+id;Pasarwajo;Pasar Wajo
+id;Praboemenang;Prabumenang
+ru;Пасаркемис;Pasarkemis
+ru;Парунг;Parung
+id;Permaenan;Parmainan
+id;Perjito;Parjito
+id;Paritmalintang;Parit Malintang
+id;Parit Dua;Parit
+id;Parit 2;Parit
+id;Kota Pariaman;Pariaman
+ru;Парепаре;Parepare
+ru;Паре;Pare
+id;Kampoeng Pá Poetoek;Paputuk
+id;Pa’Padi;Papadi
+en;Pantairadja;Pantai Raja
+en;Pantaitjermin;Pantai Cermin
+id;Panjerejo;Panjerrejo
+ru;Панкалпинанг;Pangkalpinang
+en;Bunut - Ketjil;Pangkalan Pasir
+id;Kesuma;Pangkalan Pasir
+id;Pangkalankasai;Pangkalan Kasai
+en;Pangkalandalik;Pangkalan Delik
+id;Pangkalanbalai;Pangkalan Balai
+id;Kampoeng Pengatan;Pangatan
+id;Pangarangan;Panggarangan Peuntas
+id;Pondokkelapa Timur;Pondok Kelapa Timur
+id;Pandanganget;Padanghangat
+id;Penasuang;Panasuan
+id;Panarangan;Panaragan
+id;Penadjam;Penajam
+ru;Памуланг;Pamulang
+id;Pamatian;Pamalian
+id;Pamatangpanjang;Pematangpanjang
+ru;Паманукан;Pamanukan
+id;Kota Palu;Palu
+id;Kabupaten Poso;Palu
+ru;Пал;Palu
+ru;Палопо;Palopo
+id;Kota Palembang;Palembang
+ja;パレンバン;Palembang
+pt;Palimbão;Palembang
+ru;Палембанг;Palembang
+zh;巨港;Palembang
+ar;باليمبانج;Palembang
+ko;팔렘방;Palembang
+fa;پالم‌بانگ;Palembang
+jv;Kutha Palembang;Palembang
+mr;पालेंबांग;Palembang
+ur;پالمبانگ;Palembang
+th;ปาเล็มบัง;Palembang
+id;Palas 1;Palas
+id;Kota Palangka Raya;Palangkaraya
+ru;Паланкарая;Palangkaraya
+id;Rasan;Paking
+id;Pekerkaja;Pagarkaya
+id;Padangtarap;Padang Terap
+ru;Падангбай;Padangbai
+ru;Паданг;Padang
+id;Kota Padang;Padang
+ms;Kota Padang;Padang
+ar;بادانغ;Padang
+fa;پادنگ، اندونزی;Padang
+ja;パダン;Padang
+jv;Kutha Padang;Padang
+ko;파당;Padang
+mr;पादांग;Padang
+th;ปาดัง;Padang
+zh;巴東;Padang
+id;Paalmerah Satu;Paal Merah Satu
+id;Onondowa;Dondowa
+id;Ongkaw;Ongkau
+id;Onggunbi;Onggunoi
+id;Onebute;Onembute
+id;Ondong;Ondong Siau
+id;Nuha;Noeha
+id;Nuangnyil;Nuangan
+id;Nikam;Nikan
+id;Nglegok Satu;Nglegok
+id;Ngempritkrajan;Ngempit Krajan
+id;Ngao;Ngaol
+id;Negeri Ujung Karang;Negeriujungkarang
+id;Negeri Besar;Negeribesar
+id;Negeribatin;Negeri Batin
+id;Negarobatin Tiga;Negara Batin
+id;Negarobatin 3;Negara Batin
+ru;Негара;Negara
+id;Nangguru;Nagura
+id;Nanga Tajap;Nangatayap
+id;Nanga Pinoh;Nangah Pinoh
+id;Nanga Mahap;Nangamahap
+ru;Мундук;Munduk
+id;Dusunmudo;Dusun Mudo
+id;Muarajojak;Muara Yoyak
+id;Muaratalan;Muara Talang
+id;Muara Surang;Muarasurian
+id;Muarasungaipinang;Muara Sungai Pinang
+id;Muarasingan;Muara Sangan
+id;Muaropahu;Muarapahu
+id;Muramutai;Muaramuntai
+id;Muaralimun;Muara Limun
+id;Muarakumpehhulu;Muara Kumpeh Hulu
+id;Muarakumang;Muara Kuamang
+id;Muarakuamang;Muara Kuamang
+id;Muarakelulup;Muara Kelulup
+id;Muaraketua;Muarakketua
+id;Muarabuliti;Muara Beliti
+id;Muarabatu;Muarabatun
+id;Muarabantan;Muara Bantan
+id;Muara;Muaro
+id;Motongkad;Motongkat
+id;Kota Mojokerto;Mojokerto
+ru;Моджокерто;Mojokerto
+id;Minemin;Minamin
+id;Meyanudas;Meyanodas
+id;Kota Metro;Metro
+ru;Метро;Metro
+id;Metut;Merau
+id;Long Merau;Merau
+id;Mendayun;Menjaun
+id;Mandala;Mendala
+en;Melangguane;Melonguanne
+en;Melonguane;Melonguanne
+id;Megai;Jawera
+id;Medingin;Mendingin
+id;Mawesdai;Manesdai
+ru;Маумере;Maumere
+id;Maumai;Maumbi
+id;Mataramudik;Mataram Udik
+id;Mataram-hilir;Mataram Hilir
+id;Mataram Ilir;Mataram Hilir
+id;Kota Mataram;Mataram
+ru;Матарам;Mataram
+fa;ماتارام;Mataram
+ja;マタラム;Mataram
+jv;Kutha Mataram;Mataram
+ko;마타람;Mataram
+ms;Kota Mataram;Mataram
+ur;ماتارام;Mataram
+zh;馬塔蘭;Mataram
+ar;ماتارام;Mataram
+ceb;Kota Mataram;Mataram
+id;Mataindo;Mataendoh
+ru;Мас;Mas
+id;Maryeni;Marseni
+ru;Мартапура;Martapura
+id;Marianan;Mariana
+id;Mara;Mara Satu
+ja;マノクワリ;Manokwari
+ru;Маноквари;Manokwari
+jv;Kutha Manokwari;Manokwari
+ko;마노콰리;Manokwari
+ms;Kabupaten Manokwari;Manokwari
+zh;曼諾瓦里;Manokwari
+ar;مانوكواري;Manokwari
+ur;مانوکواری;Manokwari
+id;Mendiangin;Mandi Angin
+id;Kota Manado;Manado
+ko;마나도;Manado
+ru;Манадо;Manado
+hi;मानदो;Manado
+ja;マナド;Manado
+jv;Kutha Manado;Manado
+fa;مانادو;Manado
+zh;万鸦老;Manado
+th;มานาโด;Manado
+yue;萬鴉老;Manado
+ar;ماموجو;Mamuju
+fa;ماموجو;Mamuju
+ko;마무주;Mamuju
+ur;ماموجو;Mamuju
+ru;Мамуджу;Mamuju
+zh;馬穆朱;Mamuju
+id;Mampioper;Mompioper
+en;Malinau City;Malinau
+id;Malitut;Malifut
+id;Krajan;Malasan Kulon Krajan
+id;Kabupaten Malang;Malang
+id;Kota Malang;Malang
+ru;Маланг;Malang
+jv;Kutha Malang;Malang
+ja;マラン;Malang
+ko;말랑;Malang
+ar;مالانغ;Malang
+fa;مالنگ;Malang
+zh;瑪琅;Malang
+id;Maya;Maja
+id;Madjo;Maja
+id;Kota Magelang;Magelang
+ru;Магеланг;Magelang
+fa;ماگلانگ;Magelang
+jv;Kutha Magelang;Magelang
+su;Kota Magelang;Magelang
+zh;馬格朗;Magelang
+id;Kota Madiun;Madiun
+ru;Мадиун;Madiun
+id;Lungajan;Lunggayan
+id;Lombok;Lumbuk
+id;Kabupaten Lumajang;Lumajang
+ru;Лумаджанг;Lumajang
+id;Lubuktopi;Lubuktapi
+id;Lubuksepuhbaru;Lubuk Sepuh Baru
+id;Lubukresam;Lubuk Resam
+id;Lubuknapal;Lubuk Napal
+id;Lubukmandasah;Lubuk Mandarsah
+id;Kota Lubuklinggau;Lubuklinggau
+ru;Лубуклингау;Lubuklinggau
+id;Lubuklawas;Lubuk Lawas
+id;Lubuk Kaliat;Lubuk Kliat
+id;Lubukkiat;Lubuk Kliat
+id;Loeboek Kliat;Lubuk Kliat
+id;Lubukkepalang;Lubuk Kepayang
+en;Lubukdjering;Lubuk Jering
+id;Lubukberangin;Lubuk Beringin
+id;Lubukbasung;Lubuk Basung
+id;Losowo;Losuo
+id;Lopok;Lopokloka
+id;Long Rongan;Paderongan
+id;Long Rungan;Paderongan
+id;Long Pupun;Long Pupung
+id;Long Poepoeng;Long Pupung
+id;Longpadi;Long Padi
+id;Long Metep;Long Aran
+id;Longmalinau;Long Malinau
+id;Peleran;Long Pelirang
+id;Long Lapoet;Long Laput
+id;Longglat;Long Glat
+id;Longbia;Long Bia
+id;Long Beruwar;Long Beruwen
+id;Longberang;Long Berang
+id;Lobo;Lobbo
+ru;Лоа Джанан;Loa Janan
+id;Lingga;Lingga Dua
+id;Lingga 2;Lingga Dua
+id;Alipaga;Limpaga
+id;Sesibu;Liang
+id;Sesiboe;Liang
+id;Lauwimanggu;Kampungtengah
+id;Desa Lenangguar;Lenangguar
+id;Lempartengah;Lempur Tengah
+id;Leinito;Lemito
+ru;Лембанге;Lembang
+id;Lekasembilin;Lekasembilan
+ru;Лаванг;Lawang
+id;Kampoeng Langap;Langap
+id;Laha;Loha
+ru;Лабуанбаджо;Labuan Bajo
+id;Labuanbajo;Labuan Bajo
+id;Kampoeng Blaban;Laban
+id;Long Ran;Laban
+id;Long Rat;Laban
+ru;Кута;Kuta
+hi;कूटा;Kuta
+ja;クタ;Kuta
+zh;庫塔;Kuta
+id;Kurinci;Pangkalan Kerinci
+en;Kurintji;Pangkalan Kerinci
+id;Kuok;Kuak
+ru;Кунинган;Kuningan
+id;Kukulu Dua;Kaluku Satu
+id;Kubangnandua;Kubangnanduo
+id;Kuala Cenake;Kuala Cenaku
+ru;Кресек;Kresek
+id;Krarripeh;Krarripehi
+id;Katorayo;Koto Rayo
+id;Kotarami;Koto Rami
+id;Koto Bangun;Kotabangun
+id;Kotoalam 1;Kota Alam
+id;Kotoalam Satu;Kota Alam
+id;Koto Alam;Kota Alam
+id;Kototuo;Kotatua
+ru;Котамобагу;Kotamobagu
+id;Kotakandis;Kota Kandis
+id;Kotabaru;Kotabaharu
+id;Koponda;Kopandakan
+id;Pulau Komodo;Komodo
+zh;科莫多島;Komodo
+ru;Комодо;Komodo
+id;Kombakomba;Komba
+id;Kokoleh Satu;Kokoleh
+id;Kojabi;Kejabi
+id;Kobrau;Kobraur
+ru;Клунгкунг;Klungkung
+id;Kabupaten Klaten;Klaten
+jv;Klathen;Klaten
+ru;Клатен;Klaten
+ru;Кинтамани;Kintamani
+id;Kilwat;Kilwai
+id;Telukketapang;Teluk Ketapang
+id;Kota Kendari;Kendari
+fa;کندری، اندونزی;Kendari
+ja;ケンダリ;Kendari
+jv;Kutha Kendhari;Kendari
+ko;큰다리;Kendari
+ms;Kota Kendari;Kendari
+th;เก็นดารี;Kendari
+ur;کنداری;Kendari
+ru;Кендари;Kendari
+zh;肯達里;Kendari
+id;Keningkingdalem;Kemingking Dalam
+id;Kema Satu;Kema
+en;Kelembaja;Kelembaya
+id;Muarakelantan;Kelantan
+ru;Кедунгвуни;Kedungwuni
+id;Kota Kediri;Kediri
+ar;كديري;Kediri
+jv;Kutha Kedhiri;Kediri
+su;Kota Kediri;Kediri
+ur;کیدیری، مشرقی جاوا;Kediri
+ru;Кедири;Kediri
+zh;諫義里;Kediri
+id;Kebongjati;Kebonjati
+id;Kebundurian;Kebon Durian
+id;Poera;Kayanpura
+id;Long Poera;Kayanpura
+en;Kau;Kao
+id;Napoeti;Kasusui
+id;Naputi;Kasusui
+id;Karangmelintang;Karang Melintang
+id;Kartamulya;Kartamulia
+id;Kartomulia;Kartamulya
+id;Karta;Kartasari
+ru;Караванг;Karawang
+id;Karangmendopo;Karang Mendopo
+id;Karang Endah Dua;Karangendah
+id;Karangberahi;Karang Berahi
+ru;Амлапура;Amlapura
+id;Sosokankarangagung;Karangagung
+en;Kandjilago;Kanajilago
+id;Kankung;Kangkung
+id;Kandang;Kandang Timur
+id;Kampung Tengah;Tengah
+id;Kampung Karto;Pulau Karto
+ru;Камаль;Kamal
+id;Kampoeng Long Kabinoe;Kabinu
+id;Tok Sakeij Pangeran;Kabinu
+ms;Pa Kabak;Kabak
+id;Kabupaten Jombang;Jombang
+ru;Джомбанг;Jombang
+ru;Джимбаран;Jimbaran
+id;Jerukpurut;Jeruk Purut
+id;Jernihtua;Jernih Tua
+ar;جيبارا;Jepara
+ru;Джепара;Jepara
+id;Djemuwat;Jemuat
+ru;Джембер;Jember
+id;Djampang-tengah;Jampang Tengah
+id;Jambulang;Jambula
+de;Jambi;Jambi City
+fr;Jambi;Jambi City
+ar;جامبي;Jambi City
+id;Jambi;Jambi City
+ms;Jambi;Jambi City
+nl;Jambi;Jambi City
+pt;Jambi;Jambi City
+su;Jambi;Jambi City
+ru;Джамби;Jambi City
+id;Djakarta;Jakarta
+es;Yakarta;Jakarta
+ar;جاكارتا;Jakarta
+bn;জাকার্তা;Jakarta
+hi;जकार्ता;Jakarta
+ja;ジャカルタ;Jakarta
+ko;자카르타;Jakarta
+ru;Джакарта;Jakarta
+th;จาการ์ตา;Jakarta
+it;Giacarta;Jakarta
+tr;Cakarta;Jakarta
+ug;جاكارتا;Jakarta
+bo;ཊ་ཁར་ཏ།;Jakarta
+fa;جاکارتا;Jakarta
+ta;ஜகார்த்தா;Jakarta
+mn;Жакарта;Jakarta
+my;ဂျကာတာမြို့;Jakarta
+te;జకార్తా;Jakarta
+gu;જાકાર્તા;Jakarta
+za;Yajgyadaz;Jakarta
+mr;जकार्ता;Jakarta
+ml;ജക്കാർത്ത;Jakarta
+kk;Джакарта;Jakarta
+km;ចាការតា;Jakarta
+kn;ಜಕಾರ್ತ;Jakarta
+ur;جکارتہ;Jakarta
+ps;جکارتا;Jakarta
+pa;ਜਕਾਰਤਾ;Jakarta
+or;ଜାକର୍ତା;Jakarta
+tl;Yakarta;Jakarta
+zh;雅加达;Jakarta
+en;Big Durian;Jakarta
+zh-TW;雅加達;Jakarta
+yue;耶加達;Jakarta
+en;New York Van Java;Jakarta
+id;Ingsim;Isim
+ru;Индрамаю;Indramayu
+id;Lburojo;Iburojo
+id;Ibuldalam;Ibuldalem
+id;Ibra;Ibna
+id;Hulusehamat;Hulu Senamat
+id;Hulukandang;Hulu Kandang
+id;Hilang;Hiang
+id;Hawang;Wayhawang
+id;Laktutus;Halilulik
+id;Haasi;Haas
+id;Guruntua;Gurun Tua
+id;Gunungterong;Gunungterang
+id;Gununsugih-besar;Gunungsugihbesar
+id;Gununginuda;Gunungmuda
+id;Gunung Megang;Gunungmegang
+en;Gunungmalintang;Gunungmelintang
+id;Gunungatu;Gunung Batu
+id;Gerokgak;Grokgak
+ru;Грогол;Grogol
+id;Garotan;Gorotan
+ru;Горонтало;Gorontalo
+id;Gloengsing;Glungsing
+id;Glenmore Kidul;Glenmore
+id;Banjar Gitgit;Gitgit
+id;Geragdi;Geragai
+id;Gedongtebakar;Gedong Tebakar
+id;Gedongtataan;Gedong Tataan
+id;Umbulan Rantau Baru;Gataubaru
+id;Kualagasip;Gasip
+ru;Гарут;Garut
+id;Gumlaha;Gamlaha
+id;Gelanglhggi;Galangtinggi
+id;Flur;Fior
+id;Kota Ende;Ende
+id;Empangbenao;Empang Benao
+id;Dusuntuahulu;Dusun Tua Hulu
+id;Dusunpandan;Dusun Pandan
+id;Dusunrantaukelayang;Dusun Rantau Kelayang
+id;Dusunrantau;Dusun Rantau
+id;Dusunpelumpat;Dusun Pelumpat
+id;Dusungedang;Dusun Gedang
+id;Dusunbaru;Dusun Baru
+id;Dusunbaru Satu;Dusun Baru Satu
+id;Durianrambun;Durian Rambun
+id;Durensawit;Duren Sawit
+id;Kota Dumai;Dumai
+ru;Думай;Dumai
+id;Dorolemo;Dorosago
+id;Teladas;Dintiteladas
+ru;Депок;Depok
+id;Kota Depok;Depok
+jv;Depok kutha;Depok
+su;Kota Dépok;Depok
+zh;德博;Depok
+su;ᮓᮦᮕᮧᮊ᮪;Depok
+ja;デポック;Depok
+id;Kota Denpasar;Denpasar
+ja;デンパサール;Denpasar
+pt;Dempassar;Denpasar
+ko;덴파사르;Denpasar
+ru;Денпасар;Denpasar
+fa;دنپاسار;Denpasar
+gu;દેનપસાર;Denpasar
+hi;देनपसार;Denpasar
+jv;Kutha Denpasar;Denpasar
+my;ဒန်ပါဆာမြို့;Denpasar
+ur;ڈنپسار;Denpasar
+zh;丹帕沙;Denpasar
+de;Denpasar - Bali;Denpasar
+ru;Демак;Demak
+id;Genoyang;Datagenoyang
+id;Darmarpis;Darmapis
+en;Danaulantjang;Danau Lancang
+id;Danaubingkuang;Danau Bengkuang
+en;Danaubengkung;Danau Bengkuang
+ru;Куруг;Curug
+id;Cumedak Satu;Cumedak
+id;Desa Cukangkawung;Desa
+ru;Китеуреуп;Citeureup
+id;Cireungit;Cirengit
+id;Kota Cirebon;Cirebon
+jv;Cirebon kutha;Cirebon
+su;Kota Cirebon;Cirebon
+jv;Kutha Cirebon;Cirebon
+ar;سيريبون;Cirebon
+fa;سیریبون;Cirebon
+ja;チルボン;Cirebon
+ko;치르본;Cirebon
+ms;Kota Cirebon;Cirebon
+ru;Чиребон;Cirebon
+zh;井裡汶;Cirebon
+id;Tjiranggon 1;Ciranggon
+ru;Кипутат;Ciputat
+id;Cipandak Girang;Cipandak
+id;Kota Cimahi;Cimahi
+jv;Cimahi kutha;Cimahi
+su;Kota Cimahi;Cimahi
+ru;Кимахи;Cimahi
+ru;Килеунии;Cileunyi
+ru;Килеунгсир;Cileungsir
+ru;Чилегон;Cilegon
+ru;Килакап;Cilacap
+id;Tjikidang 2;Cikidang
+ru;Кикаранг;Cikarang
+ru;Кикампек;Cikampek
+id;Cibodas;Babakan Cibodas
+ru;Сибинонге;Cibinong
+id;Tijawi;Ciawi
+fr;Kabupaten de Cianjur;Cianjur
+jv;Kabupatèn Cianjur;Cianjur
+su;Kabupatén Cianjur;Cianjur
+ta;சியாஞ்சூர்;Cianjur
+ru;Чианджур;Cianjur
+zh;展玉;Cianjur
+ru;Киамис;Ciamis
+id;Cempoko;Cempaka
+id;Tjempako;Cempaka
+id;Cahyanegeri;Cahayanegeri
+id;Cahaya Negri;Cahayanegeri
+id;Tjapusolu;Cappasolo
+id;Tjantunghulu;Cantung Kiri Hulu
+ru;Киампеа;Ciampea
+id;Boejoet;Buyut
+id;Busako;Bosa
+id;Bungamas;Bunga Mas
+id;Buminabung Ilir;Buminabung
+id;Bumbang Patai;Bumbang
+id;Boeloeteboetan;Bululebutan
+id;Buluhcawang;Buluh Cawang
+id;Kota Bukittinggi;Bukittinggi
+ja;ブキティンギ;Bukittinggi
+jv;Kutha Bukittinggi;Bukittinggi
+ru;Букиттинги;Bukittinggi
+zh;武吉丁宜;Bukittinggi
+id;Kota Bontang;Bontang
+ru;Бонтанг;Bontang
+id;Bongkudai;Bangkudoi
+fa;بوگور;Bogor
+id;Kota Bogor;Bogor
+jv;Kutha Bogor;Bogor
+su;Kota Bogor;Bogor
+zh;茂物;Bogor
+ru;Богор;Bogor
+ar;بوكور;Bogor
+ja;ボゴール;Bogor
+ko;보고르;Bogor
+id;Kota Blitar;Blitar
+ru;Блитар;Blitar
+id;Kota Bitung;Bitung
+zh;比通;Bitung
+ru;Битунг;Bitung
+ja;ビツン;Bitung
+ko;비퉁;Bitung
+fa;بیتونگ;Bitung
+ar;بيتونغ;Bitung
+nl;Steenkool;Bintuni
+id;Binonako;Binongko
+ru;Бим;Bima
+id;Bitubur;Biltubur
+id;Biak Kota;Biak
+id;Betungbedarah;Betung Bedarah
+id;Butungbedarah;Betung Bedarah
+id;Besukagung;Besuk Agung
+id;Bistal;Long Bisai
+id;Kampoeng Long Bisei;Long Bisai
+id;Beringintinggi;Beringin Tinggi
+id;Beramhitam Kiri;Beram Hitam Kiri
+id;Beramhitam Kanan;Beram Hitam Kanan
+id;Binuang;Pabenuan
+id;Pabenoean;Pabenuan
+id;Benualawas;Benua-lawas
+id;Bentur;Bento
+id;Bantenan;Bentenan
+en;Tanjung Benoa;Benoa
+id;Tanjungbenoa;Benoa
+ru;Танжунг Беноа;Benoa
+ar;بنجكولو;Bengkulu
+ms;Kota Bengkulu;Bengkulu
+zh;明古魯市;Bengkulu
+ru;Бенгкулу;Bengkulu
+fa;بنگکولو، اندونزی;Bengkulu
+jv;Kutha Bengkulu;Bengkulu
+ko;븡쿨루;Bengkulu
+ru;Бенкулу;Bengkulu
+id;Bangalun;Bengalun
+en;Bentjahkuning;Bencak Kuning
+en;Bentjahbengkuang;Bencah Bengkuang
+id;Blambangumpu;Blambangan Umpu
+id;Belalau;Mentarang
+id;Kota Bekasi;Bekasi
+jv;Kutha Bekasi;Bekasi
+su;Kota Bekasi;Bekasi
+ru;Бекаси;Bekasi
+ar;بيكاسي;Bekasi
+fa;بکاسی;Bekasi
+ja;ブカシ;Bekasi
+ko;브카시;Bekasi
+zh;勿加泗;Bekasi
+id;Bawe;Bawai
+en;Bau-Bau;Baubau
+ru;Баубау;Baubau
+id;Batutambung;Batu Tambung
+ru;Батурая;Baturaja
+en;Batugadjah;Batu Gajah
+id;Batoebardjandjang;Batubajanjang
+id;Batubersurat;Batu Basurat
+en;Batubelah;Batubalah
+id;Kota Batu;Batu
+ru;Батый;Batu
+ru;Батанг;Batang
+ru;Банюванги;Banyuwangi
+ru;Бантен;Banten
+ru;Бантен;Bantan
+id;Bangkung;Bankung
+en;Bandjarsorik;Banjar Sorik
+en;Bandjarsalero;Banjar Salero
+ru;Банджармасин;Banjarmasin
+id;Bandjarbaru;Banjarbaru
+ru;Банярбару;Banjarbaru
+ru;Баняран;Banjaran
+ru;Баняр;Banjar
+id;Bonemo;Banemo
+ru;Бандунг;Bandung
+id;Kota Bandung;Bandung
+ja;バンドン;Bandung
+su;Kota Bandung;Bandung
+zh;万隆;Bandung
+zh;萬隆;Bandung
+jv;Kutha Bandhung;Bandung
+ta;பண்டுங்;Bandung
+fa;باندونگ;Bandung
+kk;Бандуң;Bandung
+my;ဘန်ဒေါင်းမြို့;Bandung
+ar;باندونج;Bandung
+ko;반둥;Bandung
+ur;بندونگ;Bandung
+th;บันดุง;Bandung
+id;Dasarbandingagung;Banding Agung
+id;Bantarwaru;Bandarwaru
+id;Bandarwaroe;Bandarwaru
+en;Bandarpitjak;Bandar Picak
+id;Bendan;Bondan
+en;Bantjahsaga;Bancah Saga
+id;Kota Balikpapan;Balikpapan
+fa;بالیک‌پاپان;Balikpapan
+ru;Баликпапан;Balikpapan
+my;ဘာလစ်ပါပန်မြို့;Balikpapan
+jv;Kutha Balikpapan;Balikpapan
+ja;バリクパパン;Balikpapan
+ko;발릭파판;Balikpapan
+zh;巴厘巴板;Balikpapan
+th;บาลิก์ปาปัน;Balikpapan
+id;Bakalan Satu;Bakalan
+id;Djarau;Jarau
+id;Bagansenembah;Bagan Sinemba
+ru;Бэ;Baekrajan
+en;Bantjadanan 1;Banca Danan
+en;Bantjadanan Satu;Banca Danan
+ru;Бабат;Babat
+id;Awuliki;Awoliki
+nl;Awabjadi;Ababiddi
+id;Aurbeduri;Aur Beduri
+ru;Атамбуа;Atambua
+ru;Астанаяпура;Astanajapura
+ru;Арявинангун;Arjawinangun
+id;Arangka;Arangkaa
+id;Arangarang;Arang-arang
+id;Anyar;Anyer
+en;Anjer;Anyer
+en;Angier;Anyer
+en;Antakandjadi;Antakan Jadi
+id;Ampelutua;Ampelu Tua
+id;Ampangkudu;Ampang Kubu
+en;Ambon City;Ambon
+id;Kota Ambon;Ambon
+ja;アンボン;Ambon
+ru;Амбон;Ambon
+fa;آمبون;Ambon
+jv;Kutha Ambon;Ambon
+ko;암본;Ambon
+ms;Kota Ambon;Ambon
+zh;安汶;Ambon
+ar;أمبون;Ambon
+ur;امبون، مالوکو;Ambon
+id;Ambawang;Ambawang Lima
+id;Hajipemanggilan;Ajipemanggilan
+ru;Айрмадиди;Airmadidi
+id;Airkiri;Air Liki
+ru;Адиверна;Adiwerna
+id;Garaupa;Gorauupa
+fil;Manuun;Manuoen
+fil;Oeulu;Oelao
+id;Sifnana;Sifnama
+id;Alilit;Olilit
+id;Eletian;Elitian
+id;Muarasampara;Muara Sampara
+id;Lembo;Lembobajo
+id;Kolono;Lemo
+id;Modoat;Modo
+id;Ohoilitir;Ohalitir
+id;Pembalatjanan;Pembelacanan
+ru;Санур;Sanur
+ru;Улувату;Uluwatu
+id;Mentorkrajan;Mentor Krajan
+id;Bawahbatang;Buahbatang
+id;Kebun Timur;Kebbun
+id;Tanjung Tuarajera;Tanjung Turajera
+id;Tambakosowilangon;Tambak Osowilangun
+id;Semampirbarat;Semampir Barat
+id;Krajan;Gebangan Krajan
+id;Krajan;Panji Kidul Krajan
+ru;Падаларанг;Padalarang
+id;Pakuure Satu;Pakuuree
+id;Lompad Lama;Lompat
+id;Poopoh;Popo
+id;Lemoh;Lemo
+id;Tinoor Satu;Tinoor
+id;Timbolawa;Tumbulawa
+id;Koloniang;Kolongian
+id;Hutrak;Huhak
+id;Tupan;Toipan
+id;Belalon;Balalon
+id;Emeluk;Lemelu
+id;Bojo;Bajo
+id;Somba Limu;Saemba
+id;Korolemo;Salulemo
+id;Padangngele;Padangngelle
+id;Salotambung;Salutambung
+id;Tjibung;Tibung
+id;Pupole;Puppole
+id;Lawawowe;Lawawoi
+id;Ongku;Ongkoe
+id;Garunggu;Garungga
+id;Krajan;Sepande Krajan
+id;Krajan;Cowek Krajan
+id;Krajan;Capang Krajan
+id;Toolang;Tolong
+id;Tanahtoro;Tanatoro
+id;Belawae;Belawai
+id;Latou;Latowu
+id;Lahondapi;Lalodati
+id;Balandete;Batandete
+id;Tampawulu;Tompawulu
+id;Bamoarema;Bambarema
+id;Sawey 1;Sawey Satu
+id;Sawey;Sawey Satu
+id;Pampao;Tampoa
+id;Pakomea;Lakomea
+id;Pulau Masudu;Pulaumasudu
+id;Sinohean;Bonebalantak
+id;Raanan Lama;Raahanlama
+id;Lalumpe;Lalumpehee
+id;Makalisung;Makalesung
+id;Pangian;Pagien
+ru;Кикупа;Cikupa
+id;Rungkutmaoan;Rungkutmapan
+ru;Телукнага;Teluknaga
+id;Oelmasi;Oelamasi
+id;Mbueain;Mbueaian
+id;Kota Kupang;Kupang
+ru;Купанге;Kupang
+ms;Kota Kupang;Kupang
+ko;쿠팡;Kupang
+jv;Kutha Kupang;Kupang
+ja;クパン;Kupang
+fa;کوپانگ;Kupang
+ru;Купанг;Kupang
+zh;古邦;Kupang
+yue;古邦;Kupang
+id;Kota Jayapura;Jayapura
+nl;Port Numbay;Jayapura
+ja;ジャヤプラ;Jayapura
+ru;Джаяпура;Jayapura
+jv;Port Numbay;Jayapura
+ko;자야푸라;Jayapura
+ms;Port Numbay;Jayapura
+su;Port Numbay;Jayapura
+th;จายาปุระ;Jayapura
+zh;查雅普拉;Jayapura
+id;Lubuk Baja;Nagoya
+ar;باتام;Batam
+fa;باتم;Batam
+hi;बाटम;Batam
+id;Kota Batam;Batam
+ja;バタム島;Batam
+jv;Kutha Batam;Batam
+ko;바탐 섬;Batam
+ms;Kota Batam;Batam
+th;บาตัม;Batam
+ru;Батам;Batam
+zh;巴淡島;Batam
+id;Kandangan;Kandangan Indah
+id;Kuta;Kletak
+id;Cibangkong;Lapangan Amphibi Cibangkong
+id;Bojongsari;Gandu sari
+id;Batu;Batuwarno
+id;Krajan Wetan;Sine Krajan Wetan
+id;Krajan Kulon;Sine Krajan Kulon
+id;Krajan;Pocol Krajan
+id;Krajan;Baleasri Krajan
+id;Krajan;Majasem Krajan
+id;Kebongunung;Kebon Gunung
+id;Nagrong;Nagrog
+id;Lewikodja;Leuwikuda
+id;Pasarjumaah;Pasar jum`at
+id;Tegalgundil;Tegal Gundil
+id;Pasirwalang;Pasirwalang Satu
+id;Cirempug;Cirempung
+id;Pulauuntungjawa;Pulau Untung Jawa
+id;Tegalbengle;Bengle
+ru;Гили Эйр;Gili Air
+ru;Гили Мено;Gili Meno
+en;Candi Dasa;Candidasa
+ru;Сенгиги;Senggigi
+id;pujotomo,J5/03;VILLA PERMATA HIJAU
+id;Kayeepanjang;Kajeepanjang
+id;Pasar Aceh;Pahlawan
+id;Palawan;Pahlawan
+id;Blangjengki;Blang jengki
+id;Blangputo;Blang pulo
+id;Wonosarl;Wonosari
+id;Alur Getah;Alur Geutah
+id;Blang Langour;Blang Lango
+id;Blang Seunang;Blang Seunong
+id;Tuwi Buota;Tuwi Bunta
+id;Salhang Maneue;Sawang Manee
+id;Blang Godong;Blang Geudong
+id;Keude Paya;Peuleukung
+id;Meugat Meh;Paya
+id;Kendlinteung;Keude Linteung
+id;Peuleukung;Cot Dirui
+id;Meunasahteungah;Meunasah Teungoh
+id;Kulam Jemeueti;Kulam Jeureuneh
+id;Dayan;Meunasah Dayah
+id;Blangmeuseagit;Blang Mesjid
+id;Ie Beudeuh;Ie Beudoh
+id;Blang Sopek;Blang Sapek
+id;Ujong Patitah;Ujong Patihah
+id;Arangan;Arongan
+id;Blang Aman;Blang Geudong
+id;Peuleukung;Keude Neulop
+id;Keude Blangar;Blang Ara Keude
+id;Blang Baro Rembang;Blang Baro Rambong
+id;Padang Seli;Padang Siali
+id;Cot Lale;Cot Lhelhe
+id;Rambong Reueuk;Rambong Reuyeuk
+id;Krurag Ceukeu;Krueng Ceuko
+id;Lhok;Kuta Baro
+id;Teungoh;Gampong  Teungoh
+id;Macan;Macah
+id;Alue Kambok;Alue Kambuk
+id;Alue Ie Mamet;Alue Ie Mameh
+id;Gunong Raubo;Gunong Reubo
+id;Pule Ie;Pulo Ie
+id;Ulang Sikeuneng;Ujong Sikuneng
+id;Suawilie;Suak Bilie
+id;Tigandarkat;Tiganderkat
+id;Kutatengah;Kuta Tengah
+id;Rimukayu;Rimokayu
+id;Meunasah Sarahpayang;Meunasah Sarahpanyang
+id;Kobun Sayur;Kebon Sayur
+id;Brieweueh;Briweueh
+id;Rungkom;Rungkam
+id;Langien;Langein
+id;Alue Bili;Alue Bilie
+id;Krueng Anyar;Karang Anyar
+id;Penton Bayu;Panton Bayu
+id;Pondokkramal;Pondok Kramat
+id;Bener Pepanji;Bener Pepanyi
+ru;Субулуссалам;Subulussalam
+id;Taluk Roban;Teluk Roban
+id;Tolok Roban;Teluk Roban
+id;Jambi-baru;Jambi Baru
+id;Pasirtangoh;Pasir Tanggoh
+en;Sukadamai;Pasir Tanggoh
+id;Sukadamai 2;Suka Damai Dua
+id;Sukadamai 1;Suka Damai Satu
+id;Pagarantapah;Bagan Tapah
+en;Kubupadang;Kubu Pandang
+en;Selembakan;Salembukan
+en;Bentjahkelubi;Bencah Kelabi
+id;Bencahkelubi;Bencah Kelabi
+id;Kilometer 10 Rumbai;Kilometer Sepuluh Rumbai
+en;Tenaj;Tenajan
+id;Merabau;Merbau
+en;Perhentiannjamuk;Perhentian Nyamuk
+id;Segumpal 1;Segumpal Satu
+en;Sekidjang;Sekijang
+id;Teluksejati;Sekijang
+id;Segumpal 2;Segumpal Dua
+en;Bentjahkepau;Bencah Kepau
+id;Bencahkepu;Bencah Kepau
+en;Tandjungmuarasako;Tanjung Muara Sako
+id;Muarasako;Tanjung Muara Sako
+en;Bentjahgaharu;Bencah Gaharu
+en;Rantaukiambang;Rantau Kambang
+en;Kampungtjempedak;Kampung Cempedak
+en;Sangkutanagung;Sangkutangung
+en;Pangkalantjimpur;Pangkalan Cimpur
+en;Buluhtjina;Buluh Cina
+en;Bentjahdurian;Bencah Durian
+en;Pangkalanserik;Pangkalan Sarik
+id;Desabaru;Kutip
+id;Pangkalanbaru;Pangkalan Serik
+id;Tualang 2;Tualang
+id;Melebung;Malebung
+id;Meredan;Meridian
+en;Meridan;Meridian
+en;Bandjar-baru;Banjar Baru
+en;Lubukmelehung;Lubuk Melebung
+en;Teluksidjangkang;Teluk Si Jangkang
+en;Diampang;Jampang
+id;Olakina;Olak Inas
+en;Telukrima;Teluk Rimbo
+id;Telukrimba;Teluk Rimbo
+en;Telukkabung;Teluk Abung
+en;Bandjartolang;Banjar Tolang
+en;Tandjungkeledang;Tanjung Keledang
+en;Tepiantokkebun;Tepian Tokkebon
+en;Damarginak;Darmaginak
+en;Pematang-pandjang;Pematang Panjang
+id;Batang Nilo Kecil;Batang Nilokkesil
+en;Batangnilo-ketjil;Batang Nilokkesil
+en;Bunjian;Bunyian
+en;Tapianpandjang;Tapian Panjang
+en;Tandjungsialang;Tanjung Sialang
+en;Tandjungtanah;Tanjung Tanah
+id;Kemang;Lubuk Kemang
+en;Putat;Tutat
+id;Penarikan;Panarikan
+id;Terantangmanuk;Tarangtangmanuk
+id;Betung Satu;Tanjung Peruso
+en;Tandjungperuso;Tanjung Peruso
+en;Bandjarkrantauan;Banjar Krantauan
+en;Bentjahdjangkang;Bencah Jangkang
+en;Kualapengarutan;Kuala Pangarutan
+en;Bentjahperupe;Bencah Perupe
+en;Lubukkajuaro;Lubuk Kayuaro
+en;Rantautaeh;Rantau Taras
+en;Renindjauan;Peninjauan
+en;Bandjar-pandjang;Benjar Panjang
+en;Buluhdjala;Buluh Jala
+id;Kotoranah;Kota Ranah
+en;Telangkah-besar;Batu Langkah Besar
+en;Tandjungalai;Tanjung Alai
+en;Ganting;Ganting Satu
+id;Ganting 1;Ganting Satu
+id;Ganting 2;Ganting Dua
+id;Pulauterap Satu;Pulau Tarap
+id;Pulauterap 1;Pulau Tarap
+id;Pulauterap 2;Pulau Terap Dua
+en;Pulaubalimbing;Pulau Belimbing
+id;Banjarpimping;Singgalan
+id;Silam;Langgam
+id;Pulauampatbalai;Pulau Ampat
+en;Merabu;Merbau
+en;Banaberantja;Baraberanca
+en;Pulau-pandjang;Pulaupanjang
+en;Sepang;Sopang
+en;Siasam;Siasim
+en;Setingkai-ketjil;Setingkai Kecil
+id;Ronah;Ranuh
+en;Ranah;Ranuh
+id;Bungotanjung;Bungo
+id;Kotogadang;Kotagadang
+en;Kotomasdjid;Kota Masjid
+id;Kotomasjid;Kota Masjid
+id;Kotopanjang;Kotabaru
+id;Kota Baharu;Kotabaru
+en;Koto-baharu;Kotabaru
+en;Bantjah-lawas;Bancah-lawas
+en;Bandjarsawak;Banjarsawak
+id;Muaro Paiti;Muarapaiti
+en;Kototangah;Kototengah
+en;Sopan;Sopan Kacik
+en;Bantjahlumpur;Bancahlumpur
+id;Kototengah 2;Kototengah Dua
+id;Simpangtigo 1;Simpangtigo Satu
+id;Kotoalam 2;Kotoalam Dua
+id;Subarak;Sibarak
+en;Sidjawidjawi;Si Jawi-jawi
+id;Sungairumbai;Sungai Rambai
+id;Banjarmining;Banjar Nining
+en;Bandjarmining;Banjar Nining
+id;Kabupanjang;Kapu
+id;Gunungmalelo;Gunung Malela
+en;Baringin;Beringin
+en;Masdjid;Gunung Bungsu
+en;Pandjang;Panjang
+id;Kampungpanjang;Panjang
+id;Kotonansabar;Kota Sabar
+en;Kota-tuo;Kampung Anau
+id;Pongkai;Pungkai
+en;Pangkai;Pungkai
+id;Martasan;Pangatasan
+en;Kotatengah;Kota Tangah
+id;Kototengah;Kota Tangah
+id;Binamang;Kota Binamang
+id;Baru;Baruh
+en;Perhantianwatas;Perhatian Watas
+en;Koto-lamo;Kota Lamo
+id;Kaburambai;Kubu Rambai
+en;Bandjarsiabu;Banjar Siabu
+id;Muarajalai;Pulau Kampung
+id;Padangtowo;Pulau Kampung
+id;Pulaupinang;Pulau Lawas
+id;Ranahsingkuang;Singkuang
+id;Panjasawan 1;Panjasawan Satu
+en;Tandjungbalik;Tanjung balik
+id;Tanjungbelit;Tanjung balik
+en;Artirs;Naumbai
+en;Kampung-pandjang;Kampung Panjang
+en;Kubutjubadak;Kubu Cubadak
+id;Kabun;Kabu
+en;Balaidjaring;Balai Jaring
+id;Pematangkalim;Kasang Kulim
+id;Selataur;Solokau
+en;Pulaurambai;Pulau Rambai Dua
+id;Pulaurambai 2;Pulau Rambai Dua
+en;Pulausayak;Putau Sayak
+id;Duit 1;Duit Satu
+id;Duit 2;Duit Dua
+en;Karanganunggi;Kampar
+en;Djawi-djawi;Jawi-jawi
+id;Pulaurambar 1;Pulau Rambar Satu
+id;Pauh;Pulau Tenorok
+en;Sungaianang 1;Sungai Tanang
+en;Sungaianang Satu;Sungai Tanang
+en;Bandjarsungailambing;Banjar Sungai Lambing
+en;Parambahan;Perambahan
+en;Kasangtibun;Kasang Libun
+id;Tratak;Taratak Bale
+en;Bindjai;Binjai
+en;Pangkalandjangkarkempas;Pangkalan Jangkar Kempas
+en;Bantjahmandarahan;Bancah Mandarahan
+id;Lambang Gurning;Lumban Gurning
+id;Pulaubawa;Pulau Bayu
+en;Perhentianmarapujan;Perhentian Marapuyan
+id;Pantaimarpuyan;Perhentian Marapuyan
+en;Ampangpatai;Ampang Petas
+id;Kualu 1;Kualu Satu
+id;Kualu;Kualu Dua
+id;Kualu 2;Kualu Dua
+en;Pematanggonting;Pematang Goting
+en;Bantjadanan Dua;Bancadanan
+en;Bantjadanan 2;Bancadanan
+id;Kasangkulim 2;Kasang Kulim Dua
+id;Telukkenidue;Teluk Kenidai
+en;Telukdjaring;Teluk Jaring
+en;Kasangmesdjid;Kasang Mesjid
+id;Karangmesjid;Kasang Mesjid
+id;Kajuaro;Kayu Aro
+en;Rimbahempelas;Rimaba Hempelas
+id;Patukangan;Desa Patukangan
+id;Tabaringan;Tabarringin
+id;Pangisan;Pangisang
+id;Kelapagadingindah;Kelapa Gading Indah
+id;Harapanindah;Harapan Indah
+id;Nyorcang;Nyoreang
+id;Pantaimutiara;Pantai Mutiara
+id;Pluitmutiara;Pluit Mutiara
+id;Muarabaru;Muara Baru
+id;Warembungan;Warumbungan
+id;Senggandesa;Senggangdesa
+id;Krajan;Giripurno Krajan
+id;Krajan;Sisir Krajan
+id;Krajan;Sengonagung Krajan
+id;Krajan;Purwodadi Krajan
+id;Krajan;Sentul Krajan
+id;Krajan;Kranggan Krajan
+id;Krajan;Kaibon Krajan
+id;Krajan;Banjarsari Wetan Krajan
+id;Krajan;Tunggulwulung Krajan
+id;Perumahan Angkatan Udara;Perumahan Tentara Negara Indonesia Angkatan Udara
+id;Krajan Satu;Tutur Krajan Satu
+id;Krajan;Pungging Krajan
+id;Krajan;Gendro Krajan
+id;Krajan;Blarang Krajan
+id;Krajan;Ngadirejo Krajan
+id;Dumargah;Durmogah
+id;Krajan;Jati Krajan
+id;Krajan;Gunungtugel Krajan
+id;Krajan;Tigasan Kulon Krajan
+id;Krajan;Karang Anyar Krajan
+id;Krajan Kulon;Plososari Krajan Kulon
+id;Krajan;Sebalong Krajan
+id;Krajan Kidul;Klampok Krajan Kidul
+id;Krajan Lor;Klampok Krajan Lor
+id;Krajan;Sumberkramat Krajan
+id;Krajan Satu;Karang Jati Krajan Satu
+id;Kemlokolegi;Kemloko Legi
+id;Krajan;Pamatan Krajan
+id;Krajan Tiga;Watu Lumbung Krajan Tiga
+id;Krajan;Purut Krajan
+id;Krajan;Sumberrejo Krajan
+id;Krajan Satu;Panditan Krajan Satu
+id;Krajan Dua;Panditan Krajan Dua
+id;Krajan;Tandonsentul Krajan
+id;Krajan;Negororejo Krajan
+id;Krajan;Branggah Krajan
+id;Krajan;Wonogoro Krajan
+id;Krajan Dua;Boto Krajan Dua
+id;Krajan;Lambangkuning Krajan
+id;Krajan;Palangbesi Krajan
+id;Krajan Satu;Boto Krajan Satu
+id;Krajan;Menyono Krajan
+id;Krajan;Ngepung Krajan
+id;Krajan;Wringinanom Krajan
+id;Krajan;Bangunsari Krajan
+id;Krajan;Blimbing Krajan
+id;Krajan;Suluk Krajan
+id;Krajan;Sukobendu Krajan
+id;Krajan;Kedemungan Krajan
+id;Sapulantekrajan;Sapulante Krajan
+id;Ngembalkrajan;Ngembal Krajan
+id;Ampelsarikrajan;Ampel Sari Krajan
+id;Krajan Wetan;Puspo Krajan Wetan
+id;Krajan Kulon;Puspo Krajan Kulon
+id;Kemirikrajan;Kemiri Krajan
+id;Krajan Kidul;Puspo Krajan Kidul
+id;Krajan;Palangsari Krajan
+id;Krajan Dua;Tutur Krajan Dua
+id;Krajan Selatan;Kampungbaru Krajan Selatan
+id;Krajan Utara;Kampungbaru Krajan Utara
+id;Lemahbangkrajan;Lemahbang Krajan
+id;Klakahkrajan;Klakah Krajan
+id;Kedungrejokrajan;Kedungrejo Krajan
+id;Krajan Timur;Karang Jati Krajan Timur
+id;Krajan Barat;Karang Jati Krajan Barat
+id;Ngantungankrajan;Ngantungan Krajan
+id;Krajan;Bungatan Krajan
+id;Krajan;Pasir Putih Krajan
+id;Krajan;Bletok Krajan
+id;Losarikrajan;Losari Krajan
+id;Krajan Wetan;Sumber Gede Krajan Wetan
+id;Krajan Kulon;Sumber Gede Krajan Kulon
+id;Krajan Utara;Wonokerto Krajan Utara
+id;Orooro;Oro-Oro
+id;Krajan Selatan;Wonokerto Krajan Selatan
+id;Krajan;Kayoman Krajan
+id;Krajan;Oro-Oro Ombo Wetan Krajan
+id;Tamansarikrajan;Tamansari Krajan
+id;Kedungbantengkrajan;Kedung Banteng Krajan
+id;Orobulukrajan;Orobulu Krajan
+id;Kalisatkrajan;Kalisat Krajan
+id;Tampungkrajan;Tampung Krajan
+id;Krajan;Karangsono Krajan
+id;Krajan Timur;Jati Gunting Krajan Timur
+id;Krajan Barat;Jati Gunting Krajan Barat
+id;Sumberglagahkrajan;Sumberglagah Krajan
+id;Kanigorokrajan;Kanigoro Krajan
+id;Pajarankrajan;Pajaran Krajan
+id;Karangasemkrajan;Karangasem Krajan
+id;Krajan Satu;Pakijangan Krajan Satu
+id;Krajan Tiga;Pakijangan Krajan Tiga
+id;Krajan;Linggo Krajan
+id;Krajan;Ambal Ambil Krajan
+id;Genengwarukrajan;Genengwaru Krajan
+id;Krajan;Slambrit Krajan
+id;Ngabarkrajan;Ngabar Krajan
+id;Krajan;Sambisirah Krajan
+id;Kluwutkrajan;Kluwut Krajan
+id;Krajan;Klangrong Krajan
+id;Orooropule;Oro-Oro Puleh
+id;Karanganyarkrajan;Karanganyar Krajan
+id;Krajan;Pacar Keling Krajan
+id;Krajan;Pukul Krajan
+id;Luwukkrajan;Luwuk Krajan
+id;Krajan;Sumber Banteng Krajan
+id;Krajan;Oro-Oro Puleh Krajan
+id;Rejosarikrajan;Rejosari Krajan
+id;Tambaksarikrajan;Tambaksari Krajan
+id;Krajan;Kurung Krajan
+id;Kepuhkrajan;Kepuh Krajan
+id;Tambakrejokrajan;Tambak Rejo Krajan
+id;Krajan;Semedusari Krajan
+id;Krajan Dua;Alas Tlogo Krajan Dua
+id;Krajan Satu;Alas Tlogo Krajan Satu
+id;Krajan;Watuprapat Krajan
+id;Krajan;Kapasan Krajan
+id;Krajan;Randuati Krajan
+id;Krajan Wetan;Plososari Krajan Wetan
+id;Krajan Dua;Cukurgondang Krajan Dua
+id;Krajan Satu;Cukurgondang Krajan Satu
+id;Krajan;Dandanggendis Krajan
+id;Krajan;Wotgalih Krajan
+id;Krajan Dua;Sudimulyo Krajan Dua
+id;Krajan Satu;Sudimulyo Krajan Satu
+id;Krajan;Kedawang Krajan
+id;Krajan;Mlaten Krajan
+id;Krajan;Tambakrejo Krajan
+id;Krajan;Tongas Kulon Krajan
+id;Krajan;Curahtulis Krajan
+id;Krajan;Tanjungrejo Krajan
+id;Krajan Tengah;Curahdringu Krajan Tengah
+id;Krajan;Dungun Krajan
+id;Krajan Kidul;Curahdringu Krajan Kidul
+id;Krajan;Bayeman Krajan
+id;Krajan;Taman Krajan
+id;Krajan;Sladi Krajan
+id;Krajan Barat;Tebas Krajan Barat
+id;Krajan Selatan;Tebas Krajan Selatan
+id;Krajan;Grogol Krajan
+id;Krajan;Pasinan Krajan
+id;Krajan;Tampung Krajan
+id;Krajan Utara;Rowogempol Krajan Utara
+id;Krajan Selatan;Rowogempol Krajan Selatan
+id;Krajan Selatan;Gejugjati Krajan Selatan
+id;Krajan;Karang Kliwon Krajan
+id;Krajan;Kalipang Krajan
+id;Krajan;Balonganyar Krajan
+id;Krajan;Branang Krajan
+id;Krajan Utara;Gejugjati Krajan Utara
+id;Krajan;Alassumur Kulon Krajan
+id;Krajan;Penambangan Krajan
+id;Krajan;Kregenan Krajan
+id;Krajan;Jatiurip Krajan
+id;Krajan;Patemon Krajan
+id;Krajan;Sidopekso Krajan
+id;Krajan;Bulu Krajan
+id;Krajan;Sidomukti Krajan
+id;Krajan;Sentong Krajan
+id;Krajan;Sumberkatimoho Krajan
+id;Krajan;Tanjungsari Krajan
+id;Krajan;Sokaan Krajan
+id;Krajan;Gading Wetan Krajan
+id;Krajan;Alassumur Lor Krajan
+id;Krajan;Krampilan Krajan
+id;Krajan;Nogosaren Krajan
+id;Krajan;Sumberan Krajan
+id;Krajan;Alas Tengah Krajan
+id;Krajan;Randujalak Krajan
+id;Krajan;Prasi Krajan
+id;Krajan;Duren Krajan
+id;Krajan;Sindet Lami Krajan
+id;Krajan;Betek Taman Krajan
+id;Krajan Dua;Asembagus Krajan Dua
+id;Krajan Dua;Besuk Kidul Krajan Dua
+id;Krajan Dua;Dandang Krajan Dua
+id;Krajan Satu;Asembagus Krajan Satu
+id;Krajan Satu;Dandang Krajan Satu
+id;Krajan Tengah;Sokaan Krajan Tengah
+id;Krajan Tiga;Asembagus Krajan Tiga
+id;Krajan Timur;Sokaan Krajan Timur
+id;Krajan;Sumur Dalam Krajan
+id;Krajan;Sindet Anyar Krajan
+id;Krajan;Gayam Krajan
+id;Krajan;Sumursongo Krajan
+id;Krajan;Sobontoro Krajan
+id;Krajan;Mantren Krajan
+id;Krajan;Klagen Serut Krajan
+id;Krajan;Grobogan Krajan
+id;Krajan;Dringu Krajan
+id;Krajan;Randuputih Krajan
+id;Krajan;Tamansari Krajan
+id;Krajan;Pesisir Krajan
+id;Krajan;Randupitu Krajan
+id;Krajan;Klaseman Krajan
+id;Krajan;Karangpranti Krajan
+id;Krajan Dua;Karanggeger Krajan Dua
+id;Krajan;Gejugan Krajan
+id;Krajan Satu;Karanggeger Krajan Satu
+id;Krajan;Tanjung Krajan
+id;Krajan;Karangbong Krajan
+id;Krajan;Ketompen Krajan
+id;Krajan;Jatiadi Krajan
+id;Krajan;Brumbungan Lor Krajan
+id;Krajan;Gending Krajan
+id;Krajan;Mrangonlawang Krajan
+id;Krajan;Sekarkare Krajan
+id;Krajan;Sumbersuko Krajan
+id;Krajan;Sumberkerang Krajan
+id;Krajan;Brumbungan Kidul Krajan
+id;Krajan;Suko Krajan
+id;Krajan;Ganting Kulon Krajan
+id;Krajan;Selogudig Kulon Krajan
+id;Krajan;Ganting Wetan Krajan
+id;Krajan;Pegalangan Kidul Krajan
+id;Krajan;Sebaung Krajan
+id;Krajan;Watuwungkuk Krajan
+id;Krajan Satu;Tegalmojo Krajan Satu
+id;Krajan Dua;Tegalmojo Krajan Dua
+id;Krajan;Banyuanyar Lor Krajan
+id;Krajan;Liprak Wetan Krajan
+id;Krajan;Alassapi Krajan
+id;Krajan;Wonorejo Krajan
+id;Krajan;Puspan Krajan
+id;Krajan;Brani Kulon Krajan
+id;Krajan;Kedungsari Krajan
+id;Krajan;Pendil Krajan
+id;Krajan;Sumberkledung Krajan
+id;Krajan;Tegalsiwalan Krajan
+id;Krajan;Brani Wetan Krajan
+id;Krajan;Maron Wetan Krajan
+id;Krajan;Maron Kulon Krajan
+id;Krajan;Tarokan Krajan
+id;Krajan;Blado Kulon Krajan
+id;Krajan;Paras Krajan
+id;Krajan;Banyuanyar Kidul Krajan
+id;Krajan;Liprak Kulon Krajan
+id;Krajan;Klenang Kidul Krajan
+id;Krajan;Sumberpoh Krajan
+id;Krajan;Maron Kidul Krajan
+id;Krajan;Satreyan Krajan
+id;Krajan;Gerongan Krajan
+id;Krajan;Bulujaran Lor Krajan
+id;Krajan;Liprak Kidul Krajan
+id;Krajan;Tuluparari Krajan
+id;Krajan;Sumberdawe Krajan
+id;Krajan;Brabe Krajan
+id;Krajan Dua;Patemon Krajan Dua
+id;Krajan Satu;Patemon Krajan Satu
+id;Krajan Dua;Mangun Dikaran Krajan Dua
+id;Krajan Dua;Kauman Krajan Dua
+id;Krajan Satu;Kauman Krajan Satu
+id;Krajan Satu;Mangun Dikaran Krajan Satu
+id;Jarakkrajan;Jarak Krajan
+id;Krajan;Podokkelor Krajan
+id;Krajan;Paiton Krajan
+id;Krajan;Plampang Krajan
+id;Krajan;Talkandang Krajan
+id;Krajan;Triwungan Krajan
+id;Krajan Dua;Sumberejo Krajan Dua
+id;Krajan Satu;Sumberejo Krajan Satu
+id;Krajan;Bhinor Krajan
+id;Krajan;Banyuglugur Krajan
+id;Krajan;Sumberanyar Krajan
+id;Krajan;Menganti Krajan
+id;Krajan;Kesamben Kulon Krajan
+id;Krajan Wetan;Kureksari Krajan Wetan
+id;Krajan Kulon;Waru Krajan Kulon
+id;Krajan;Curahmalang Krajan
+id;Mancilankrajan;Mancilan Krajan
+id;Bandungkrajan;Bandung Krajan
+id;Grogolkrajan;Grogol Krajan
+id;Nampesbesar;Nampes Besar
+id;Krajan;Candibangun Krajan
+id;Krajan Tengah;Pecalukan Krajan Tengah
+id;Kandangankrajan;Kandangan Krajan
+id;Jomber;Jombor
+id;Krajan;Sukorejo Krajan
+id;Kenepgunungan;Kenep Gunungan
+id;Oro-oroombo Wetan;Oro-Oro Ombo Wetan
+id;Krajan;Ambulu Krajan
+id;Krajan;Kanigaran Krajan
+id;Krajan;Curahgrinting Krajan
+id;Krajan;Kedungdalem Krajan
+id;Krajan;Tegalrejo Krajan
+id;Krajan;Sumber Taman Krajan
+id;Krajan;Jrebeng Wetan Krajan
+id;Krajan;Jrebeng Kulon Krajan
+id;Krajan;Triwung Kidul Krajan
+id;Krajan Satu;Sumberbendo Krajan Satu
+id;Krajan Dua;Sumberbendo Krajan Dua
+id;Krajan;Laweyan Krajan
+id;Krajan;Pohsangit Kidul Krajan
+id;Krajan;Kareng Lor Krajan
+id;Krajan;Sumber Wetan Krajan
+id;Krajan;Pohsangitleres Krajan
+id;Krajan;Muneng Kidul Krajan
+id;Krajan;Sumberkare Krajan
+id;Krajan Dua;Sepuhgembol Krajan Dua
+id;Krajan;Wonoasih Krajan
+id;Krajan;Jrebeng Kidul Krajan
+id;Krajan;Warujinggo Krajan
+id;Krajan;Ngepoh Krajan
+id;Krajan;Pakistaji Krajan
+id;Krajan;Kedungsupit Krajan
+id;Krajan;Pohsangit Lor Krajan
+id;Krajan;Pohsangit Ngisor Krajan
+id;Krajan Satu;Sepuhgembol Krajan Satu
+id;Krajan;Pohsangit Tengah Krajan
+id;Krajan;Kareng Kidul Krajan
+id;Krajan;Kropak Krajan
+id;Krajan;Jorongan Krajan
+id;Krajan Satu;Clarak Krajan Satu
+id;Krajan Dua;Clarak Krajan Dua
+id;Krajan;Kerpangan Krajan
+id;Krajan;Tunggakcerme Krajan
+id;Krajan Satu;Jrebeng Krajan Satu
+id;Krajan Satu;Patalan Krajan Satu
+id;Krajan Dua;Patalan Krajan Dua
+id;Krajan Dua;Jrebeng Krajan Dua
+id;Krajan;Tempuran Krajan
+id;Krajan;Leces Krajan
+id;Krajan Satu;Sumberkedawung Krajan Satu
+id;Krajan Dua;Sumberkedawung Krajan Dua
+id;Krajan;Banjarsawah Krajan
+id;Krajan Tiga;Sumberkedawung Krajan Tiga
+id;Krajan Empat;Sumberkedawung Krajan Empat
+id;Krajan;Patokan Krajan
+id;Krajan;Besuk Krajan
+id;Krajan;Pondok Wuluh Krajan
+id;Krajan;Tigasan Wetan Krajan
+id;Krajan;Kedungrejo Krajan
+id;Krajan;Legundi Krajan
+id;Krajan;Bulujaran Kidul Krajan
+id;Krajan Dua;Gading Kulon Krajan Dua
+id;Krajan Satu;Gading Kulon Krajan Satu
+id;Krajan;Pesawahan Krajan
+id;Krajan Dua;Pedagangan Krajan Dua
+id;Krajan;Tegalsono Krajan
+id;Krajan;Gunungbekel Krajan
+id;Krajan Satu;Pedagangan Krajan Satu
+id;Krajan;Ranugedang Krajan
+id;Krajan;Duwet Krajan
+id;Krajan;Alasmalang Krajan
+id;Krajan;Klatakan Krajan
+id;Krajan Barat;Sumberkolak Krajan Barat
+id;Krajan Utara;Balung Krajan Utara
+id;Krajan Barat;Balung Krajan Barat
+id;Krajan Timur;Kukusan Krajan Timur
+id;Krajan Barat;Kukusan Krajan Barat
+id;Krajan Selatan;Balung Krajan Selatan
+id;Krajan Tengah;Balung Krajan Tengah
+id;Krajan;Kendit Krajan
+id;Krajan;Bugeman Krajan
+id;Krajan;Bujel Krajan
+ru;Семпол;Sempol
+id;Krajan;Krajan Simo
+id;Kluncinglegi;Kluncing Legi
+id;Kenepkrajan;Kenep Krajan
+id;Krajan;Buntalan Krajan
+id;Krajan;Glagah Wangi Krajan
+id;Krajan;Alasgung Krajan
+id;Krajan;Kalitidu Krajan
+id;Krajan;Kedungjambe Krajan
+id;Krajan;Drokilo Krajan
+id;Krajan;Tumbrasanom Krajan
+id;Krajan;Kramat Temenggung Krajan
+id;Krajan;Kedungpring Krajan
+id;Palado;Tompo
+id;Lameloi;Lamelay
+id;Singoro;Lompio
+id;Koro Mueli;Korompeeli
+id;Mansamat;Mansamat B
+id;Labua;Lawua
+id;Kambiluju;Kambiluyu
+id;Sawey 2;Sawey Dua
+id;Kaweta;Kavetan
+id;Kolaka;Kalaka
+id;Krajan;Sineporejo Krajan
+id;Krajan Lor;Tegalharjo Krajan Lor
+id;Krajan;Kajarharjo Krajan
+id;Krajan Tengah;Tegalharjo Krajan Tengah
+id;Krajan Kidul;Tegalharjo Krajan Kidul
+id;Krajan;Parangharjo Krajan
+id;Krajan;Jambewangi Krajan
+id;Krajan;Bedewang Krajan
+id;Krajan;Padang Krajan
+id;Krajan;Singolatren Krajan
+id;Krajan;Gendoh Krajan
+id;Krajan Barat;Singojuruh Krajan Barat
+id;Krajan Timur;Singojuruh Krajan Timur
+id;Krajan;Gumirih Krajan
+id;Krajan;Sempu Krajan
+id;Krajan;Sumbersari Krajan
+id;Krajan;Gambor Krajan
+id;Krajan Satu;Kembiritan Krajan Satu
+id;Krajan;Genting Wetan Krajan
+id;Krajan;Setail Krajan
+id;Krajan;Dasri Krajan
+id;Krajan Dua;Kembiritan Krajan Dua
+id;Jaang;Banjar Jaang
+id;Buahan;Banjar Buahan
+id;Girikkesumu;Giri kesuma
+id;Susut;Banjar Susut
+id;Satung;Banjar Satung
+id;Krajan;Curah Tatal Krajan
+id;Krajan;Watukebo Krajan
+id;Lulboai;Lilibooi
+id;Masising;Maising
+id;Landjunguaru;Tanjungbatu
+id;Urimessing;Urimesing
+id;Amahani;Amahusu
+id;Dorianpatali;Dorianpatah
+id;Nontefu;Nontetu
+id;Mace’an;Macean
+id;Krajan;Sumengko Krajan
+id;Krajan;Kemangsen Krajan
+id;Krajan;Kalimati Krajan
+id;Krajan;Tambong Krajan
+id;Krajan Satu;Kedayunan Krajan Satu
+id;Krajan Dua;Kedayunan Krajan Dua
+id;Krajan;Dadapan Krajan
+id;Krajan Kidul;Kalirejo Krajan Kidul
+id;Krajan;Pondoknongko Krajan
+id;Krajan Satu;Sukojati Krajan Satu
+id;Krajan Dua;Sukojati Krajan Dua
+id;Krajan;Badean Krajan
+id;Krajan;Karangbendo Krajan
+id;Krajan;Labanasem Krajan
+id;Krajan;Gitik Krajan
+id;Krajan;Rogojampi Krajan
+id;Krajan;Kedaleman Krajan
+id;Krajan;Pengatigan Krajan
+id;Krajan Lor;Lemahbang Kulon Krajan Lor
+id;Krajan;Lemahbangdewo Krajan
+id;Krajan Kidul;Lemahbang Kulon Krajan Kidul
+id;Krajan;Gombolirang Krajan
+id;Krajan;Bubuk Krajan
+id;Krajan;Gladag Krajan
+id;Krajan;Mangir Krajan
+id;Krajan;Aliyan Krajan
+id;Krajan;Wonosobo Krajan
+id;Krajan;Kaligung Krajan
+id;Krajan;Gintangan Krajan
+id;Krajan;Kaotan Krajan
+id;Banjar Leg;Leg
+id;Banjar Selat;Ceking
+id;Banjar Unisan;Banjar Undisan
+id;Tanrung 2;Tanrung Dua
+id;Tanrung 1;Tanrung Satu
+id;Baratankecil;Baratan Kecil
+id;Krajan;Krajan Patemon
+id;Dolingkung;Dolingkong
+id;Krajan;Krajan Suci
+id;Krajan;Krajan Sukorambi
+id;Krajan Lor;Krajan Lor Kranjingan
+id;Krajan Kidul;Krajan Kidul Kranjingan
+id;Krajan;Krajan Pancakarya
+id;Kalisattengah;Kalisat Tengah
+id;Ledokombopasar;Ledokombo Pasar
+id;Ledokomboonjur;Ledokombo Onjur
+id;Krajan Satu;Krajan Satu Plalangan
+id;Krajan Dua;Krajan Dua Plalangan
+id;Langsepanbaru;Langsepan Baru
+id;Krajan;Pakel Krajan
+id;Krajan;Kelir Krajan
+id;Krajan;Pesucen Krajan
+id;Krajan;Taman Suruh Krajan
+id;Krajan;Licin Krajan
+id;Krajan;Kampunganyar Krajan
+id;Krajan;Segobang
+id;Krajan;Banjar Krajan
+id;Krajan;Jelun Krajan
+id;Krajan;Gumuk Krajan
+id;Krajan;Paspan Krajan
+id;Krajan;Glagah Krajan
+id;Krajan;Olehsari Krajan
+id;Krajan;Kemiren Krajan
+id;Krajan;Kenjo Krajan
+id;Krajan;Rejosari Krajan
+id;Krajan;Bakungan Krajan
+id;Krajan;Banjarsari Krajan
+id;Krajan Satu;Boyolangu Krajan Satu
+id;Krajan Dua;Boyolangu Krajan Dua
+id;Krajan Dua;Penataban Krajan Dua
+id;Krajan Satu;Penataban Krajan Satu
+id;Krajan;Giri Krajan
+id;Krajan Utara;Tukangkayu Krajan Utara
+id;Krajan;Kepatihan Krajan
+id;Krajan;Penganjuran Krajan
+id;Krajan Selatan;Tukangkayu Krajan Selatan
+id;Krajan Dua;Kebalenan Krajan Dua
+id;Krajan;Sobo Krajan
+id;Krajan Satu;Kebalenan Krajan Satu
+id;Krajan;Pakis Krajan
+id;Krajan;Pendarungan Krajan
+id;Krajan;Singotrunan Krajan
+id;Krajan;Kalirejo Krajan
+ru;Серирит;Seririt
+ru;Бедугул;Bedugul
+id;Dohre;Dodde
+id;Limboro;Limborro
+id;Penaman;Pena
+id;Saibisamukop 2;Saibisamukop Dua
+id;Biabia 1;Biabia Satu
+id;Jambak;Jamabk
+id;Balaitangga;Balaijangga
+id;Simawang;Simawang Satu
+id;Kapalakota 3;Kapalakota Tiga
+id;Tanahkuninng;Tanahkuning
+ru;Нуса Дуа;Nusa Dua
+ru;Легиан;Legian
+id;Krajan;Krajan Jamintoro
+id;Krajan;Krajan Kaliglagah
+id;Bitekan;Bitekon
+ru;Сукавати;Sukawati
+id;Krajan;Sumberejo Krajan
+id;Krajan Dua;Krajan Dua Boreng
+id;Krajan Lor;Krajan Lor Rojopolo
+id;Krajan Kidul;Krajan Kidul Rojopolo
+id;Krajan Satu;Krajan Satu Dawuan Wetan
+id;Krajan Dua;Krajan Dua Dawuan Wetan
+id;Krajan;Krajan Wonokerto
+id;Krajan;Krajan Tekung
+id;Krajan;Krajan Wonosari
+id;Krajan;Krajan Rowokangkung
+id;Krajan;Krajan Krai
+id;Krajan Lor;Krajan Lor Yosowilangun Lor
+id;Krajan Dua;Krajan Dua Padomasan
+id;Krajan Satu;Krajan Satu Padomasan
+id;Pringgodani;Pringgondani
+id;Perumahan Kodim;Perumahan Komando Distrik Militer
+id;Kedungwaringin;Kedungweringin
+id;UPT Waworada;Unit Pemukiman Transimigrasi Waworada
+id;Bombaru;Bomba
+id;Krajan Dua;Pekauman Krajan Dua
+id;Krajan Satu;Pekauman Krajan Satu
+id;Krajan;Pucanganom Krajan
+id;Krajan;Pakuniran Krajan
+id;Krajan;Jatian Krajan
+id;Krajan Satu;Gambangan Krajan Satu
+id;Krajan;Maesan Krajan
+id;Krajan Satu;Sumbersari Krajan Satu
+id;Krajan;Pocangan Krajan
+id;Krajan;Sukosari Krajan
+id;Krajan Bawah;Suger Lor Krajan Bawah
+id;Krajan Dua;Sumbersari Krajan Dua
+id;Krajan Atas;Suger Lor Krajan Atas
+id;Krajan Dua;Gambangan Krajan Dua
+id;Krajan Empat;Gambangan Krajan Empat
+id;Krajan;Krajan Sumberpakem
+id;Krajan;Krajan Sumberdanti
+id;Krajan Timur;Suger Kidul Krajan Timur
+id;Krajan Barat;Krajan Barat Suger Kidul
+id;Krajan;Krajan Arjasa
+id;Krajan;Krajan Baletbaru
+id;Krajan;Krajan Sumberwringin
+id;Krajan Timur;Krajan Timur Jelbuk
+id;Krajan;Krajan Sumberkalong
+id;Krajan;Krajan Panduman
+id;Krajan Barat;Krajan Barat Jelbuk
+id;Krajan;Krajan Kamal
+id;Krajan Barat;Krajan Barat Candijati
+id;Krajan;Krajan Sukogidri
+id;Krajan;Krajan Karangpaiton
+id;Krajan;Krajan Sebanen
+id;Krajan Satu;Krajan Satu Patempuran
+id;Krajan;Krajan Sukoreno
+id;Krajan Timur;Krajan Timur Candijati
+id;Krajan Dua;Krajan Dua Patempuran
+id;Krajan Utara;Krajan Utara Kalisat
+id;Krajan;Krajan Sumberketempa
+id;Krajan;Krajan Sumberanget
+id;Krajan;Krajan Ledokombo
+id;Krajan Tengah;Krajan Tengah Kalisat
+id;Krajan Barat;Krajan Barat Kalisat
+id;Krajan;Krajan Gumuksari
+id;Krajan Lama;Krajan Lama Bedadung
+id;Krajan;Banyuputih Krajan
+id;Krajan Satu;Bantal Krajan Satu
+id;Krajan Dua;Bantal Krajan Dua
+id;Krajan;Pokaan Krajan
+id;Krajan;Tenggir Krajan
+id;Krajan Dua;Panji Lor Krajan Dua
+id;Krajan Satu;Panji Lor Krajan Satu
+id;Krajan Tiga;Panji Lor Krajan Tiga
+id;Krajan Satu;Seletreng Krajan Satu
+id;Krajan Dua;Seletreng Krajan Dua
+id;Krajan;Mimbaan Krajan
+id;Krajan Dua;Klampokan Krajan Dua
+id;Teloep Dua;Toloep Dua
+id;Tamanglogo;Tamanlogo
+id;Tubangerya;Tuban
+id;Rambu;Ramba
+id;Krajan;Bengkak Krajan
+id;Suli;Sulipantai
+id;Patjome;Paconne
+id;Pancorgetah;Pancorgetar
+id;Wailanggi 1;Wailanggi Satu
+id;Waicimung 1;Waicimung Satu
+id;Waicimung 2;Waicimung Dua
+id;KDS;Kondas
+id;Mantong;Langgo
+id;Mbrehelang;Mberheleng
+id;Tanettedurian;Tanetedurian
+id;Kotakalimbung;Kotakkalimbung
+id;Danga;Mbay
+id;Kanna;Kanan
+id;Kebange;Kebanga
+id;Panateang;Panetean
+id;Gandingredjo;Gadingrejo
+id;Sukadana;Sukadana Pasar
+id;Bodjonghaur;Bojongasih
+id;Cipalabuhgirang;Cipalabuh Girang
+id;Prigi;Parigi
+ru;Гили Траванган;Gili Trawangan
+id;Perumahan Cilatak;Perumahancilatak
+id;Tjigaludra;Cigaludra
+id;Cimcong;Cimeong
+id;Padangrayo;Padangraya
+id;Padangrajo;Padangraya
+id;Umbulanjurusaka;Umbulan Jarusaka
+id;Umbulantanjungberingin;Umbulan Tanjungbaringin
+id;Umbulan Tandjungberingin;Umbulan Tanjungbaringin
+id;Umbulantebingsulun;Umbulan Tebingsuluh
+id;Umbulantabak;Umbulan Tabak
+id;Umbulancapang;Umbulan Capang
+id;Umbulan Tandjungan;Tanjungan
+id;Babaknciharashas;Babakanciharashas
+id;Rangamulya;Rancamulya
+id;Cikanngkung;Cikangkung
+id;Bababakanepet;Babakanepet
+id;Bababakantanjung;Babakantanjung
+id;Bababakanrancabango;Babakanrancabango
+id;Bababakancaringin;Babakancaringin
+id;Bababakansukasirna;Babakansukasirna
+id;Bababakansindangwargi;Babakansindangwargi
+id;Bababakanpanembong;Babakan Panembong
+id;Bababakanmanglid;Babakanmanglid
+id;Bababakanpasarbaru;Babakanpasarbaru
+id;Bababakananyar;Babakananyar
+id;Bababakansantiong;Babakansantiong
+id;Bababakanabib;Babakanabib
+id;Palasri;Palasari
+id;Rancakuu;Rancaku
+id;Muaraciparit;Muaracipari
+id;Koccak;Kocak
+id;Cinagra;Cinagara
+id;Tjibadak;Cibadak
+id;Kampunngbaru;Kampungbaru
+id;Padanaan;Padanan
+id;Liimusnunggal;Limusnunggal
+id;Tanjunggsari;Tanjungsari
+id;Sindangngelet;Sindangelet
+id;Perum Bumiasri;Perumahan Bumisari
+id;Perumnas Cisalak;Perumahan Nasional Cisalak
+id;Codolog;Cidolog
+id;Asrama Trikora;Asrama Tri Komando Rakyat
+id;Tejakelapa;Tejakalapa
+id;Perumahansawati;Perumahan Sawati
+id;Cilleles;Cileles
+id;Langkob;Langkop
+id;Balanjeur;Balananjeur
+id;Menganti;Manganti
+id;Cikarutug Satu;Cikurutug Satu
+id;Karama;Karana
+id;Simayati;Sinopati
+id;Wanauolon;Manauolon
+id;Walatadata;Walatadafa
+id;Waasil;Waail
+id;Lalarame;Lalarame Satu
+id;Mokinlahin;Makinlakin
+id;Llaela;Liaela
+id;Titawaai;Titawa
+id;Tele Lahin;Tehelahin
+id;Pasirasih;Pasirlasih
+id;Walikum;Walikun
+id;Lenburpentas;Lemburpentas
+id;Desa Kertasari;Kelurahan Kertasari
+id;Tanjungmangu;Tanjungmanggu
+id;Perumnas Tegalgede;Perumahan Nasional Tegalgede
+ru;Ловина;Lovina
+id;Cisarga Girang;Cisarua Girang
+id;Tegalega;Tegallega
+id;Dusundesa;Dusun Desa Handapherang
+id;Dusundesa;Dusun Desa Sukadana
+id;Kaler;Karangampel Kaler
+id;Cinbangbang;Tjiangban
+id;Dusundesa;Dusun Desa Bunter
+id;Jamurresi;Jamburesi
+id;Babakanllandeuh;Babakanlandeuh
+id;Gunungdumur;Gununggumur
+id;Pesanggrahan;Pasanggrahan
+id;Sunberkertokrajan;Sumberkertokrajan
+id;Gunungbulak;Gunungbutak
+id;Bungadindi;Bungadidi
+id;Bojonngbunar;Bojongbunar
+id;Patam;Batam
+id;Talang Waimencana;Talangwaimencana
+id;Karangnida;Talang Karang Indah
+id;Sukanegara;Sukanegeri
+id;Padangratu;Padangratu Dalam
+id;Pematangaling;Talang Pematang Paling
+id;Padangbundu;Padangbindu
+id;Gunungtigo;Gunungtiga
+id;Niursayak;Nyiur Sayak
+id;Ulakpandan;Ulakpandanlama
+id;Tajungan;Tanjungan
+id;Negaericaya;Negeri Caya
+id;Tajungiman;Tanjung Iman
+id;Sukarami;Sukaramai
+id;Kotakarang;Kota Karang
+id;Gedungniawa;Gedungnyawa
+id;Sukoraja;Sukaraja
+id;Talangtanjungmutus;Talang Tanjungmutus
+id;Sumber Agung 1;Sumber Agung Satu
+id;Umbulanhanakau;Umbulan Hanakau
+id;Umbulanbujungemul;Umbulan Bujunggemul
+id;Umbulancinat;Umbulan Cinat
+id;Umbulanparangagung;Umbulan Porong Agung
+id;Umbulan Tahata;Umbulan Tahala
+id;Negarosakti;Negara Sakti
+id;Umbulanwaibulung;Umbulan Wai Bulung
+id;Gunungliwat;Gunung Liwat
+id;Talanghajidulah;Talang Hajidulah
+id;Talangulakbuaya;Umbulan Telukbuaya
+id;Talang Waibalak;Talang Way Balak
+id;Talang Waicacahan;Way Cacahan
+id;Umbulan Tinggaman;Talang Tinggaman
+id;Talanglubukdingin;Talang Lubuk Dingin
+id;Padangdulang;Pandandulang
+id;Muaroniuh;Muaramiuh
+id;Gunungkuripun;Gunungkuripan
+id;Negeriagung;Negeri Agung
+id;Talang Subanpunai;Talang Subanpanai
+id;Kotaagung;Kota Agung
+id;Kartajaya;Kertajaya
+id;Aramantal;Aromantai
+id;Tanjung Bulan;Tanjungbulan
+id;Banban;Bambang
+id;Malaya;Melaya
+id;Tanungsakti;Tanjungsakti
+id;Gedongmenung;Gedungmenung
+id;Saungnaga;Saung Naga
+id;Rantaukenidai;Rantaukenida
+id;Kurug;Kurup
+id;Batulangun;Batulungun
+id;Sukaraja Dua;Sukaraja
+id;Laoksongai;Laoksungai
+id;Kalangmangga;Kalang Mangga
+id;Niutmuti;Niufmuti
+id;Mahakan;Data Dian
+id;Mabaka;Data Dian
+id;Long Iroen;Data Dian
+id;Datadian;Data Dian
+id;Longpoh;Long Po
+ms;Long Sia;Longsia
+ms;Long Buluh;Longbuluh
+id;Batu;Bebatu
+id;Sepilo;Sepiluk
+id;Sungaibakau Besar;Sungaibakau Besar Laut
+id;Karangmunting;Karangunting
+id;Pakunam;Pakuman
+id;Pajintan Dua;Pajintan
+id;Rantaudjiur;Rantojior
+id;Siborang;Sibornang
+id;Ujungpasir;Ujung Pasir
+id;Tanjungpauhhilir;Tanjung Pauh Hilir
+id;Tanjungpauhmudik;Tanjung Pauh Mudik
+id;Kotalebu;Kota Lebu
+id;Kotapayang;Kota Payang
+id;Kotalimausering;Kota Limau Sering
+id;Talangbelui;Talang Belui
+id;Airanget;Air Anget
+id;Kotapanjang;Kota Panjang
+id;Sungaimedong;Sungai Medang
+id;Kotabaru;Kota Baru
+id;Sungaideras;Sungai Deras
+id;Kotakeras;Kota Keras
+id;Kotatebat;Kota Tebat
+id;Pondoktinggi;Pondok Tinggi
+id;Kumantankecil;Kumantan Kecil
+id;Kotapandan;Kota Pandan
+id;Kotaiman;Kota Iman
+id;Kotapetai;Kota Petai
+id;Kampungtengah;Kampung Tengah
+id;Lubukkemang;Lubuk Kemang
+id;Lubukgelam;Lubuk Gelam
+id;Soloksungaibungo;Solok Sungai Bungo
+id;Kotatengah;Kota Tengah
+id;Sungaijering;Sungai Jering
+id;Pondanglapanggang;Pondang Lapanggang
+id;Barungpulau;Barung Pulau
+id;Lemparmudik;Lempur Mudik
+id;Kotamiang;Kota Miang
+id;Lubukpaku;Lubuk Paku
+id;Lolokecil;Lolo Kecil
+id;Talangkemuning;Talang Kemuning
+id;Lolohilir;Lolo Hilir
+id;Talanglindung;Talang Lindung
+id;Batuputih;Batu Putih
+id;Tanjungkasi;Tanjung Kasi
+id;Tanjungganting;Tanjung Ganting
+id;Kayuarobalai;Kayuaro Balai
+id;Tanjungberugo;Tanjung Berugo
+id;Talangasal;Talang Asal
+id;Talangparuh;Talang Paruh
+id;Sungaikuyung;Sungai Kuyung
+id;Sungaidilin;Sungai Dilin
+id;Tanjungalam;Tanjung Alam
+id;Tanjungmudo;Tanjung Mudo
+id;Ladangpanjang;Ladang Panjang
+id;Talangtemego;Talang Temego
+id;Rantauusuh;Rantau Usuh
+id;Lubukpungguk;Lubuk Pungguk
+id;Talangbejilo;Talang Bejilo
+id;Dusunbirun;Dusun Birun
+id;Aurgading;Aur Gading
+id;Lubuktenam;Lubuk Tenam
+id;Sirihsekapur;Sirih Sekapur
+id;Pulaujalmu;Pulau Jalmu
+id;Ampele;Ampelu
+id;Rantauambacang;Rantau Ambacang
+id;Tanahtembun;Tanah Tembun
+id;Perhatiantinggi;Perhatian Tinggi
+id;Pauhagung;Pauh Agung
+id;Talangpantai;Talang Pantai
+id;Talangsungaibedaru;Talang Sungai Bedaru
+id;Talangsungaikunyit;Talang Sungai Kunyit
+id;Tebopandak;Tebo Pandak
+id;Dusuntanjungbungo;Dusun Tanjung Bungo
+id;Lubukayuaro;Lubuk Kayuaro
+id;Renahsungaiipuh;Renah Sungai Ipuh
+id;Dusunparit;Dusun Parit
+id;Talangsungaimayang;Talang Sungai Mayang
+id;Pondokmuarajernih;Pondok Muara Jernih
+id;Pondoklintang;Pondok Lintang
+id;Dusuntinggi;Dusun Tinggi
+id;Pendunghilir;Pendung Hilir
+id;Pendungmudik;Pendung Mudik
+id;Siulanggedang;Siulak Gedang
+id;Talangaro;Talang Aro
+id;Lubukmangendap;Lubuk Nangedang
+id;Sungailabuh;Sungai Lebuh
+id;Sungaipageh;Sungai Pageh
+id;Napalbarakuk;Napal Batakuk
+id;Kotarendah;Kota Rendah
+id;Sungaigelampai;Sungai Gelampai
+id;Ampangtutup;Ampang Tutup
+id;Siulakderasmudik;Siulak Deras Mudik
+id;Ujungladang;Ujung Ladang
+id;Pondokdanautinggi;Pondok Danau Tinggi
+id;Punguthilir;Pungut Hilir
+id;Talangsungaikeruh;Talang Sungai Keruh
+id;Sungaikeruh;Sungai Keruh
+id;Batukembung;Batu Kembung
+id;Dusunpulau;Dusun Pulau
+id;Tanjungpauh;Tanjung Pauh
+id;Dusuntengah;Dusun Tengah
+id;Dusunpulaulembar;Dusun Pulau Lebar
+id;Banjarsungaiperikan;Banjar Sungai Perikan
+id;Lubukinduring;Lubuk Induring
+id;Padanglandir;Padang Landir
+id;Pulaupadik;Pulau Padik
+id;Dusunbarusipin;Dusun Baru Sipin
+id;Lubukkayuaro;Lubuk Kayuaro
+id;Dusunbuat;Dusun Buat
+id;Lamanpanjang;Laman Panjang
+id;Sungaialai;Sungai Alai
+id;Batuampar;Batu Ampar
+id;Dusunmangi;Dusun Sangi
+id;Sungailetung;Sungai Letung
+id;Dusunmaribe;Dusun Marige
+id;Apungmudik;Apung Mudik
+id;Lubukmayang;Lubuk Mayan
+id;Dusunpanjang;Dusun Panjang
+id;Dusunalo;Dusun Alo
+id;Dusuntelun;Dusun Telun
+id;Dusundanau;Dusun Danau
+id;Tambangbesi;Tambang Besi
+id;Dusunnibung;Dusun Nibung
+id;Dusunpelaki;Dusun Pelaki
+id;Kampungbaru;Kampung Baru
+id;Pulaubalai;Pulau Balai
+id;Tanjunglamin;Tanjung Lamin
+id;Jernihmuda;Jernih Muda
+id;Gurunmuda;Gurun Muda
+id;Tanahabang;Tanah Abang
+id;Tanjunglebar;Tanjung Lebar
+id;Batukucing;Batu Kucing
+id;Pangkalanbulian;Pangkalan Bulian
+id;Muarabelango;Muara Belango
+id;Dusunkungkai;Dusun Kungkai
+id;Dusunbiukutanjung;Dusun Biuku Tanjung
+id;Merekehkecil;Merekeh Kecil
+id;Marekehbesar;Marekeh Besar
+id;Durianbekatuk;Durian Bekatuk
+id;Talangsegagah;Talang Segagah
+id;Dusunbaru Tiga;Dusun Baru Tiga
+id;Beringinsanggul;Beringin Sanggul
+id;Lembansigatal;Lemban Sigatal
+id;Rantautenang;Rantau Tenang
+id;Muararidung;Muara Ridung
+id;Bernaibaru;Bernai Baru
+id;Tilingdalam;Tiling Dalam
+id;Telukkecibung;Teluk Kecibung
+id;Dusundalam;Dusun Dalam
+id;Pulaubuaya;Pulau Buaya
+id;Muaramuati;Muara Uluati
+id;Tanjunggagak;Tanjung Gagak
+id;Muarainum;Muara Inum
+id;Teluksikumbang;Teluk Sikumbang
+id;Rantaubalur;Rantau Balur
+id;Banjarlawas;Banjar Lawas
+id;Rantaupanjang;Rantau Panjang
+id;Dusunmendung;Dusun Mendung
+id;Dusunlaraman;Dusun Laraman
+id;Rantaubacang;Rantau Bacang
+id;Sungaiuleh;Sungai Uleh
+id;Durianmukut;Durian Mukut
+id;Dusuntambahtinggi;Dusun Tambah Tinggi
+id;Dusunpohungo;Dusun Pohungo
+id;Dusunperambil;Dusun Perambil
+id;Dusunsungaidaup;Dusun Sungai Daup
+id;Dusunbenso;Dusun Benso
+id;Dusuntelukrendah;Dusun Teluk Rendah
+id;Dusunmengkadai;Dusun Mengkadai
+id;Dusunlubuhresam;Dusun Lubuh Resam
+id;Tanjungjati;Tanjung Jati
+id;Dusunpenegak;Dusun Penegak
+id;Lebungdalam;Lebung Dalam
+id;Muaradanau;Muara Danau
+id;Pulauara;Pulau Ara
+id;Padangpisang;Padang Pisang
+id;Padangsungkai;Padang Sungkai
+id;Dusunkaikait;Dusun Kait-kait
+id;Dusunmuarakutur;Dusun Muara Kutur
+id;Dusunmuaramesao;Dusun Muara Mesao
+id;Pulaulangsat;Pulau Langsat
+id;Sungaikeradak;Sungai Keradak
+id;Tanjungbenuang;Tanjung Benuang
+id;Dusunkabu;Dusun Kabu
+id;Renahpisangkembali;Renah Pisang Kembali
+id;Narsokecil;Narso Kecil
+id;Kampungdalam;Kampung Dalam
+id;Renahkemang;Renah Kemang
+id;Lubukbederang;Lubuk Bederang
+id;Sungaibeduri;Sungai Beduri
+id;Napolmelintang;Napol Melintang
+id;Dusunbukit;Dusun Bukit
+id;Dusuntua;Dusun Tua
+id;Talangtangkaikecil;Talang Tangkai Kecil
+id;Muaralepat;Muara Lepat
+id;Pulausanggeris;Pulau Sanggeris
+id;Bukitsumbing;Bukit Sumbing
+id;Padangjengbatin;Padang Jeng Batin
+id;Sungaisalak;Sungai Salak
+id;Talangsekundur;Talang Sekundur
+id;Sungaibemban;Sungai Bemban
+id;Muaracuban;Muara Cuban
+id;Lubukbankan;Lubuk Bankan
+id;Rantaukiambai;Rantau Kiambai
+id;Gurunbaru;Gurun Baru
+id;Rantaujankang;Rantau Jankang
+id;Kampungbukit;Kampung Bukit
+id;Keban;Kebon
+id;Remaju;Remayu
+id;Mamdiaur;Mandiauk
+id;Kartoja Baru;Kertayabaru
+id;Singapura Baru;Singapura
+id;Djagabaja;Jagabaya
+id;Bantunan;Betungan
+id;Sekajun;Sikayun
+id;Talangdjerindjing;Talangjerinjing
+id;Kalitopo;Sungaitopo
+id;Gelam;Gelam Tengah
+id;Mesigit;Mesigil
+id;Butteneh;Sadulang Besar
+id;Lubukdjantan;Lubuk Jantan
+id;Pelapuankajuaro;Pelapuan Kayuaro
+id;Pulaulajang;Pulau Lajang
+id;Sungaipinang;Sungai Pinang
+id;Muaralengajo;Muara Lengajo
+id;Renahkapuk;Renah Kapuk
+id;Pondokselapan;Pondok Selapan
+id;Talang Salabau;Talangsalabau
+id;Talang Sebagut;Talangsebagut
+id;Bringindalem;Beringindalam
+id;Bringindalam;Beringindalam
+id;Markalamaar;Werkalamaar
+id;Anaro;Onaro
+id;Tangku;Tanjungkurung Hilir
+id;Tanjungbringin;Tanjungberingin
+id;Selebar;Silebar
+id;Silingsingan;Selingsingan
+id;Lubukgantungan;Lubukngantungan
+id;Kembangsari;Kemansari
+id;Jangka;Jangkar
+id;Palangkendidai;Pelangkendidai
+id;Joko;Jaka
+id;Djaka;Jaka
+id;Penindaian;Penindayan
+id;Talangpadang Dua;Talangpadang
+id;Talangpadang 2;Talangpadang
+id;Marastengah;Muaratengah
+id;Pagardewa;Muarabantan
+id;Batuaji;Batuhaji
+id;Batuniding;Batusiding
+id;Airumban;Lubukpaku
+id;Anggut 1;Anggut Satu
+id;Cintamandi;Cintomandi
+id;Paduraksa 3;Paduraksa Tiga
+id;Tandjuagaur 2;Tanjungaur
+id;Padangmanis 3;Padangmanis
+id;Padangmanis Tiga;Padangmanis
+id;Daratsawah 3;Daratsawah
+id;Daratsawah Tiga;Daratsawah
+id;Penadingan;Penandingan
+id;Pelajaran Dua;Pelajaran
+id;Pelajaran 2;Pelajaran
+id;Kotaanung;Kotaagung
+id;Panggobatu;Tanggabatu
+id;Pematangbuangin;Pematangbungin
+id;Sakaidalan;Bakaldalam
+id;Berkenang;Bengkenang
+id;Palangkebun;Talangkebun
+id;Anggut Dua;Anggut
+id;Anggut 2;Anggut
+id;Mandiangin Satu;Mandiangin
+id;Mandiangin 1;Mandiangin
+id;Negerikaja;Muarapulutan
+id;Duriansegemin;Durianseginim
+id;Tanjungdur;Tanjungaur
+id;Bendaragung;Bandaragung
+id;Padangbindu;Tunggulbute
+id;Talangtinding;Talangtiding
+id;Pagerbayu;Pagerbanyu
+id;Pageruyung;Pagerruyung
+id;Tanungbulan;Tanjungbulan
+id;Sosokanmuarasindang;Muarasindang
+id;Rempasari;Rempasai
+id;Talang Tandjungtjermin;Talang Tanjungcermin
+id;Susukan;Tanjungbaru
+id;Ulak-lebar;Ulaklebar
+id;Pulaupanas;Pulau Panas
+id;Pagarbayu;Pagarbanyu
+id;Manoa;Manau
+id;Manau IX;Manau
+id;Tanjunganti-hilir;Tanjungganti Hilir
+id;Tanjunganti-hulu;Tanjungganti Hulu
+id;Katangdapau;Karangdapau
+id;Gunugtiga;Gunungtiga
+id;Goenoengtiga;Gunungtiga
+id;Talang Pasai;Talang Bempasai
+id;Talangkempassi;Talang Bempasai
+id;Talang Lepak;Leper
+id;Lepar;Leper
+id;Talang Leper;Leper
+id;Untal;Untai
+id;Paritsungaipalas Besar;Parit Palas Besar
+id;Paritbuntal;Parit Buntal
+id;Kualabetara;Kuala Betara
+id;Paritbakau;Parit Bakau
+id;Paritbakan;Parit Bakau
+id;Parittjikawang;Parit Cikawang
+id;Kampunglaut;Kampung Laut
+id;Kampungsinkep;Kampung Singkep
+id;Kampungsingkep;Kampung Singkep
+id;Petardalem;Petardalam
+id;Telagolima;Telago Lima
+id;Simpanglama;Simpang Lama
+id;Nibungputih;Nibung Putih
+id;Pangkalandurian;Pangkalan Durian
+id;Teluksuai;Teluksuni
+id;Tandjungalai;Tanjung Alai
+id;Tanjungalai;Tanjung Alai
+id;Sekumbang;Sekumbung
+id;Berembang;Betembang
+id;Bunginki Aji;Bungin Ayip
+id;Bunginayip;Bungin Ayip
+id;Boengin Ajip;Bungin Ayip
+id;Pelabuhandalam;Pelabuhan Dalam
+id;Pangkalanrumbio;Pangkalan Dalam
+id;Curup;Curub
+id;Tanjungpiring;Tanjungmiring
+id;Talangkenaya;Talang Keroya
+id;Talang Kĕroja;Talang Keroya
+id;Tanjung Bayan;Tanjung Dayang
+id;Tanjungayang;Tanjung Dayang
+id;Tandjoeng Dajang;Tanjung Dayang
+id;Tandjungtalang;Tanjungtalang
+id;Kampungdewa;Kasihdewa
+id;Lubuksematung;Lubuksemantung
+id;Talangtanjungmenang;Talang Tanjungmenang
+id;Seritanjung;Seri Tanjung
+id;Serikembang;Seri Kembang
+id;Talangbalai;Talang Balai
+id;Talang Balai Lama;Talang Balai
+id;Muarakumbang;Muara Kumbang
+id;Talangsukananti;Sukananti
+id;Tanjung Serannga;Tanjung Serang
+id;Tanjungserang;Tanjung Serang
+id;Tandjoeng Serang;Tanjung Serang
+id;Lubukdalam;Lubuk Dalam
+id;Minyakbesar;Minyak Besar
+id;Kampung Minjak Besar;Minyak Besar
+id;Talangjerambahlengi;Talang Jerambahlengi
+id;Batukras;Talang Batu Keras
+id;Talanmostung;Talang Mutung
+id;Talang Mutung 1;Talang Mutung
+id;Talangtalang;Talang Talang
+id;Gunungraja;Gunungraya
+id;Talangtanjunggenting;Talang Tanjunggenting
+id;Talangtahir;Talang Tahir
+id;Ladangsinjau;Ladang Sijau
+id;Ladangsidjau;Ladang Sijau
+id;Maras;Matas
+id;Mengulak;Mengulok
+id;Mĕngoelok;Mengulok
+id;Umbulansungaimaca;Umbulan Sungaimaca
+id;Umbulanberingin;Umbulan Beringin
+id;Geriman;Gerinam
+id;Talangairbang;Talang Airabang
+id;Telukkecapi;Teluk Kecapi
+id;Tayung Tambak;Tanjung Tambak
+id;Talang Oelokmedang;Talang Ulokmedang
+id;Ketjape;Kecape
+id;Sungaibungur;Sungai Bungur
+id;Penganak;Gudangpenganak
+id;Telukduren;Teluk Duren
+id;Tandjunglumut;Tanjung Lumut
+id;Paallima;Paal Lima
+id;Tjawin;Cawin
+id;Djohar;Johar
+id;Diniang;Dimiang
+id;Pugul;Peguil
+id;Pelar;Petar
+id;Talangrohim;Talang Rohim
+id;Tolangaohim;Talang Rohim
+id;Nebangkuku;Talang Nebang Kuku
+id;Talangnebangkuku;Talang Nebang Kuku
+id;Katjung Baru;Kacungbaru
+id;Rambang;Rombang
+id;Pangkallajang;Pangkallayang
+id;Penjamur;Penyamun
+id;Mabat;Mabar
+id;Tiangtara;Cangtara
+id;Simpangjul;Simpangyul
+id;Rimbaradjek;Rimbarajak
+id;Pantjor;Pancur
+id;Rekiek;Rekrek
+id;Pangkal Raja;Pangkalraya
+id;Airlandjung;Airtanjung
+id;Lengka;Lengko
+id;Njelanding;Nyelanding
+id;Semukau Hulu;Semukauhulu
+id;Mentjelagi;Mencelagi
+id;Bindjai;Binjai
+id;Djelumut;Jelunut
+id;Djeridji;Jeriji
+id;Tandjungtimpik;Tanjungtumpik
+id;Tandjung Mangil;Tanjung Mangil
+id;Karangdjaja;Karang jaya
+id;Djadjaran;Jajaran
+id;Tandjungmiring;Tanjungmiring
+id;Umbulan Ulakmandol;Umbulan Ulokmandul
+id;Umbulan Ulakmadul;Umbulan Ulokmandul
+id;Oemboelan Oelokmandoel;Umbulan Ulokmandul
+id;Umbulanburing 4;Umbulanburing Empat
+id;Buringtengah;Umbulanburing Empat
+id;Umbulankarangagung;Umbulan Karangagung
+id;Oemboelan Karangagoeng;Umbulan Karangagung
+id;Bali Banjarratu;Banjarratu
+id;Umbulan Campang;Umbulancapangkanan
+id;Umbulan Tjapang-kanah;Umbulancapangkanan
+id;Umbulanpakeman 2;Umbulanpakeman Dua
+id;Oemboelan Toeloengbangkong;Umbulan Tulungbangkong
+id;Umbulantulungbangkong;Umbulan Tulungbangkong
+id;Umbulankecubung;Umbulan Kecubung
+id;Umbulangajau 1;Umbulangajau Satu
+id;Umbulansukema;Umbulan Sakemai
+id;Oemboelan Sakĕmai;Umbulan Sakemai
+id;Komringagung;Komeringagung
+id;Umbulanbiludugug;Umbulan Biludugug
+id;Umbulan Biludunguk;Umbulan Biludugug
+id;Oemboelan Biloedoegoeg;Umbulan Biludugug
+id;Umbulansemuli;Umbulan Semuli
+id;Sejengga;Saengga
+id;Tofai;Tofoi
+id;Umbulanburing 1;Umbulanburing Satu
+id;Umbulannampiran;Umbulan Ampiran
+id;Oemboelan Ampiran;Umbulan Ampiran
+id;Oemboelan Batinkai;Umbulan Batinkiai
+id;Umbulanbutinkini;Umbulan Batinkiai
+id;Oemboelan Klandoengan;Ratnakelandungan
+id;Umbulankladungan;Ratnakelandungan
+id;Oemboelan Mahoropoeno;Umbulan Mahoropuno
+id;Umbulanmahoropuno;Umbulan Mahoropuno
+id;Tapangperadja;Tapangperaja
+id;Entjana;Encana
+id;Madjawa;Majawa
+id;Umbulantulungpias 1;Umbulan Tulungpias Satu
+id;Oemboelan Toeloengpias Satoe;Umbulan Tulungpias Satu
+id;Umbulantulungpias 2;Umbulantulungpias Dua
+id;Umbulantalangpias 3;Umbulan Tulungpias Tiga
+id;Oemboelan Toeloengpias Tiga;Umbulan Tulungpias Tiga
+id;Umbulanburing 2;Umbulanburing Dua
+id;Umbulan Perunggung 2;Umbulan Perunggung Dua
+id;Umbulantulungpias 5;Umbulan Tulungpias Lima
+id;Oemboelan Toeloengpias Lima;Umbulan Tulungpias Lima
+id;Oemboelan Djambatkenam;Umbulan Jambatkenam
+id;Umbulanjambatkenam;Umbulan Jambatkenam
+id;Umbulankubulakar;Umbulan Kubulekar
+id;Umbulan Kubuleke;Umbulan Kubulekar
+id;Oemboelan Koeboelekar;Umbulan Kubulekar
+id;Oemboelan Mergodalem;Umbulan Mergodalem
+id;Umbulanmergodalem;Umbulan Mergodalem
+id;Oemboelan Tarau;Umbulan Tarau
+id;Umbulantarau;Umbulan Tarau
+id;Umbulanwailago;Umbulan Wailago
+id;Umbulanyaban;Umbulan Nyaban
+id;Oemboelan Radjŏmilih Doeŏ;Umbulan Rajamilih Dua
+id;Umbulanrajomilih;Umbulan Rajamilih Dua
+id;Umbulan Rajamilih 2;Umbulan Rajamilih Dua
+id;Umbulan Cayas Dua;Margomulyo
+id;Umbulan Cayas 2;Margomulyo
+id;Umbulantumijajar;Umbulan Tumijajar
+id;Oemboelan Toemidjadjar Satoe;Umbulan Tumijajar
+id;Umbulanpenutup;Umbulan Penutup
+id;Umbulanburing;Umbulan Buring
+id;Oemboelan Moearodoeo;Umbulan Muaradua
+id;Umbulanmuaraduo;Umbulan Muaradua
+id;Oemboelan Tandjoengratoe;Umbulan Tanjungratu
+id;Umbulantanjungratu;Umbulan Tanjungratu
+id;Umbulanmenggalo;Umbulan Menggala
+id;Oemboelan Menggalŏ;Umbulan Menggala
+id;Oemboelan Tajas Satoe;Umbulan Tayas
+id;Umbulantayas;Umbulan Tayas
+id;Oemboelan Koetjingrambai Toeŏ;Umbulan Kucingrambai Tua
+id;Umbulankucingrambai-tua;Umbulan Kucingrambai Tua
+id;Umbulan Kucing Rambimuda;Umbulan Kucingrambai Muda
+id;Oemboelan Koetjingrambai Moedŏ;Umbulan Kucingrambai Muda
+id;Kucingrambaimuda;Umbulan Kucingrambai Muda
+id;Umbulantegalberak Dua;Umbulan Tegalberak Dua
+id;Umbulantegalberak 2;Umbulan Tegalberak Dua
+id;Oemboelan Tegalbĕrak Doeŏ;Umbulan Tegalberak Dua
+id;Umbulan Tegal Berak;Umbulan Tegalberak Dua
+id;Umbulantegalberak Satu;Umbulan Tegalberak Satu
+id;Umbulantegalberak 1;Umbulan Tegalberak Satu
+id;Umbulan Tegal Berak;Umbulan Tegalberak Satu
+id;Oemboelan Tĕgalbĕrak Satoe;Umbulan Tegalberak Satu
+id;Umbulanpangeranpati;Umbulan Pangeranpati
+id;Umbulantulungsawo;Umbulan Tulungsawa
+id;Umbulan Tulungsawo;Umbulan Tulungsawa
+id;Oemboelan Toeloengsawŏ;Umbulan Tulungsawa
+id;Umbulan Tulung Nilebo;Umbulan Tulung Niliba
+id;Oemboelan Toeloengnilibŏ;Umbulan Tulung Niliba
+id;Umbulantulungniliba;Umbulan Tulung Niliba
+id;Umbulankandis;Umbulan Kandis
+id;Umbulan Tulung Cempako;Umbulan Tulung Cempaka
+id;Oemboelan Toeloengtjĕmpakŏ;Umbulan Tulung Cempaka
+id;Umbulantulungcempako;Umbulan Tulung Cempaka
+id;Oemboelan Wainoeri;Umbulan Wainuri
+id;Umbulanwainuri;Umbulan Wainuri
+id;Umbulan Sikang;Umbulan Sidang
+id;Oemboelan Sidang;Umbulan Sidang
+id;Umbulansidang;Umbulan Sidang
+id;Oemboelan Mĕgĕrawan;Umbulan Megerawan
+id;Umbulanmenerawan;Umbulan Megerawan
+id;Umbulantembesu;Umbulan Tembesu
+id;Umbulanbawangbeter;Umbulan Bawangbeter
+id;Oemboelan Bawangbĕtĕr;Umbulan Bawangbeter
+id;Umbulanbujungteruk;Bujungtenuk
+id;Oemboelan Boedjoengtĕnoek;Bujungtenuk
+id;Umbulanwaibangi;Umbulan Waibangi
+id;Oemboelan Waibangi;Umbulan Waibangi
+id;Umbulan Waysido;Umbulan Waisido
+id;Oemboelan Waisido;Umbulan Waisido
+id;Umbulanwaisido;Umbulan Waisido
+id;Umbulan Waylunik;Umbulan Wailunik
+id;Oemboelan Wailoenik;Umbulan Wailunik
+id;Umbulanwailunik;Umbulan Wailunik
+id;Umbulanpulung;Umbulan Pulung
+id;Oemboelan Sidangteri;Umbulan Sidangteri Ilir
+id;Umbulansialangter;Umbulan Sidangteri Ilir
+id;Umbulan Perunggung Satu;Umbulan Perunggung
+id;Oemboelan Peroenggoeng Satu;Umbulan Perunggung
+id;Oemboelan Rĕngasmĕdjĕng;Umbulan Rengasmejeng
+id;Umbulanrengasmejeng;Umbulan Rengasmejeng
+id;Umbulantebingtinggi;Umbulan Tebing Tinggi
+id;Umbulanbujungkawu-muda;Umbulan Bujungkawu Muda
+id;Oemboelan Boedjoengkawoe Moedŏ;Umbulan Bujungkawu Muda
+id;Umbulan Gemuruh;Umbulan Gaguruh
+id;Oemboelan Gagoeroeh;Umbulan Gaguruh
+id;Umbulangaguruh;Umbulan Gaguruh
+id;Umbulantulungpias;Semut
+id;Umbulan Tulungsemak;Umbulan Tulungjulak
+id;Oemboelan Toeloengdjoelak Satoe;Umbulan Tulungjulak
+id;Umbulan Waybetung;Umbulan Waibetung
+id;Oemboelan Waibĕtoeng;Umbulan Waibetung
+id;Sibena;Sibenapermai
+id;Umbulangegauw;Umbulan Gegauw
+id;Oemboelan Garoenggang;Umbulan Garunggang
+id;Oemboelan Radinkĕpalŏ;Umbulan Radinkepala
+id;Umbulanradinkepalo;Umbulan Radinkepala
+id;Oemboelan Dalĕmmĕrgŏ;Umbulan Dalem Merga
+id;Umbulan Dalam Mergo;Umbulan Dalem Merga
+id;Umbulandalemmergo;Umbulan Dalem Merga
+id;Umbulantemedak Muda;Umbulan Temedak Muda
+id;Oemboelan Tĕmĕdak Moedŏ;Umbulan Temedak Muda
+id;Umbulan Temedakmudo;Umbulan Temedak Muda
+id;Oemboelan Tĕmĕdak Toeŏ;Umbulan Temedak Tua
+id;Umbulan Temedak Tuo;Umbulan Temedak Tua
+id;Umbulantemedaktua;Umbulan Temedak Tua
+id;Umbulan Temedak-tua;Umbulan Temedak Tua
+id;Umbulantutung;Umbulan Tutung
+id;Umbulanpangeran;Umbulan Pangeran Dua
+id;Umbulan Pangeran 2;Umbulan Pangeran Dua
+id;Umbulan Uloksario;Umbulan Uloksaria
+id;Oemboelan Oeloksariŏ;Umbulan Uloksaria
+id;Umbulanulaksario;Umbulan Uloksaria
+id;Umbulandalemnihan;Umbulan Dalemnihan
+id;Oemboelan Boenoek;Umbulan Bunuk
+id;Umbulanbunuk;Umbulan Bunuk
+id;Teroanggihilir;Terbanggi Hilir
+id;Terbanggi Ilir;Terbanggi Hilir
+id;Tĕroanggi Hilir;Terbanggi Hilir
+id;Umbulan Terbanggi-hilir;Terbanggi Hilir
+id;Oemboelan Mĕroet;Umbulan Merut
+id;Umbulanmerut;Umbulan Merut
+id;Oemboelan Tĕrbanggi;Umbulan Terbanggi
+id;Umbulan;Umbulan Terbanggi
+id;Oemboelan Pĕdjalabat;Umbulan Pejalabat
+id;Umbulanpejalabat;Umbulan Pejalabat
+id;Oemboelan Kĕmalaintĕn;Umbulan Kemalainten
+id;Umbulankemalainten;Umbulan Kemalainten
+id;Umbulangunung;Umbulan Gunung
+id;Umbulanpendiratu;Umbulan Penditaratu
+id;Oemboelan Rojalioe;Umbulan Royaliu
+id;Umbulan Rojalu;Umbulan Royaliu
+id;Umbulanrayaliu;Umbulan Royaliu
+id;Umbulantulung;Umbulan Tulung Sepelet
+id;Umbulangurungan;Umbulan Gurungan
+id;Oemboelan Bawanglata;Umbulan Bawanglata
+id;Umbulanbawanglata;Umbulan Bawanglata
+id;Umbulanmedang;Umbulan Medang
+id;Oemboelan Bawangtjabi;Umbulan Bawangcabe
+id;Umbulanbawangcabe;Umbulan Bawangcabe
+id;Oemboelan Koeboedjawa;Umbulan Kubujawa
+id;Umbulankubujawa;Umbulan Kubujawa
+id;Krajan;Wonokoyo Krajan
+id;Krajan;Curah Cotok Krajan
+id;Tapianbaloi;Tapianbalai
+id;Talanghajizaman;Talang Hajizaman
+id;Talang Hadjizaman;Talang Hajizaman
+id;Talangsungaiaur;Talang Sungaiaur
+id;Talangsarialam;Talang Sarialam
+id;Talangjinpap;Talang Jemarip
+id;Talang Djemarip;Talang Jemarip
+id;Talangsungaigambir;Talang Sungaigambir
+id;Talangsungailimpak;Talang Sungailimpah
+id;Talangsungsang;Talang Sungsang
+id;Talangsungailuar;Talang Sungailuar
+id;Talangbenuang;Talang Benuang
+id;Muarapenimbung;Muara Penimbung
+id;Muarajawa;Muaralawai
+id;Talangpipalengi;Talang Pipalengi
+id;Talangbelanti;Talang Belanti
+id;Talanglinggojoyo;Talang Lingojayo
+id;Talang Lingodjajo;Talang Lingojayo
+id;Talang Lingojoyo;Talang Lingojayo
+id;Talanggulo;Talang Gulo
+id;Talangpaman;Talang Paman
+id;Tanjungbaru;Tanjung Baru
+id;Juo-juo;Jua-jua
+id;Diuadiua;Jua-jua
+id;Djoea Djoea;Jua-jua
+id;Sukamarga;Suka Marga
+id;Ulakbungur;Suka Marga
+id;Soekŏ Marga;Suka Marga
+id;Oelak Boengoer;Suka Marga
+id;Talangsungaimaya;Talang Sungaimaya
+id;Talangpangkul;Talang Pangkul
+id;Talangsepape;Talang Sepape
+id;Kayuaro;Kayuara
+id;Baru Dua;Barulubai
+id;Baru 2;Barulubai
+id;Baru;Barulubai
+id;Talangjegat;Talang Jegat Dua
+id;Talang Djĕgat 2;Talang Jegat Dua
+id;Talangderasat;Talang Derasat
+id;Talangmasirin;Talang Masiran
+id;Talangairtarap;Talang Airtarap
+id;Talangselalang;Talang Selalang
+id;Umbulanrepang 2;Umbulan Repong Dua
+id;Umbulanbelakang;Umbulan Belakang
+id;Umbulantanjungpulaur;Umbulan Talangpulau
+id;Oemboelan Talangpoelau;Umbulan Talangpulau
+id;Talangtelukkabau;Talang Telukkabau
+id;Talangpunggawahasan;Talang Punggawahasan
+id;Talangpamaat;Talang Pamaat
+id;Talangrimbokembalu;Talang Rimbakembalu
+id;Talang Rimbŏkĕmbaloe;Talang Rimbakembalu
+id;Umbulandewamukmin;Umbulan Dewamukmin
+id;Talangsosoan;Talang Sosoan
+id;Talangtasim;Talang Tasim
+id;Umbulanwaimah;Umbulan Waiwok
+id;Oemboelan Waiwok;Umbulan Waiwok
+id;Lempuyang;Umbulan Lempuyang Dua
+id;Oemboelan Lĕmpoejang Dua;Umbulan Lempuyang Dua
+id;Oemboelan Boeajakĕjĕpit;Umbulan Buayakejepit
+id;Umbulanbuayakecepit;Umbulan Buayakejepit
+id;Umbulan Buajaketjepit;Umbulan Buayakejepit
+id;Umbulanpenanggungan;Umbulan Penanggungan
+id;Oemboelan Tinggi;Umbulan Tinggi
+id;Umbulantinggi;Umbulan Tinggi
+id;Oemboelan Talip Toeŏ;Umbulan Talip Tua
+id;Umbulantaliptua;Umbulan Talip Tua
+id;Umbulankua;Umbulan Kua
+id;Oemboelan Koea;Umbulan Kua
+id;Oemboelan Boendan;Umbulan Bundan
+id;Umbulanbundan;Umbulan Bundan
+id;Oembolan Markoepŏ;Umbulan Markupo
+id;Umbulanmarkupo;Umbulan Markupo
+id;Oemboelan Soesoek;Umbulan Susuk
+id;Umbulansusuk;Umbulan Susuk
+id;Oemboelan Boendan Oedik;Umbulan Bundan Udik
+id;Umbulanbundan Udik;Umbulan Bundan Udik
+id;Umbulansidangseratus;Umbulan Sidang
+id;Umbulanmadalapat;Umbulan Madelapat
+id;Oemboelan Madelapat;Umbulan Madelapat
+id;Oemboelan Sĕpakat;Umbulan Sepakat
+id;Umbulansepakat;Umbulan Sepakat
+id;Oemboelan Boendanloenik;Umbulan Bundanlunik
+id;Umbulanbundanudik;Umbulan Bundanlunik
+id;Wailawi;Lawelawe
+id;Oemboelan Bawangbĕrak;Bawangberak
+id;Umbulanbawangberok;Bawangberak
+id;Umbulanbelahkeker;Umbulan Belahkeker
+id;Umbulanbakem 2;Umbulanbakem Dua
+id;Umbulantengah;Umbulan Tengah
+id;Umbulanbawangko;Umbulan Bawangko
+id;Umbulantambakan;Umbulan Tambakan
+id;Tambakan;Umbulan Tambakan
+id;Umbulantembesu;Umbulan Sungai Tembusu
+id;Umbulanpemoko;Umbulan Pemoko
+id;Umbulan Pemoka;Umbulan Pemoko
+id;Umbulanbolaan;Umbulan Bolaan
+id;Umbulan Balak;Umbulan Bolaan
+id;Oemboelan Bolok;Umbulan Bolok
+id;Umbulan Bolak;Umbulan Bolok
+id;Umbulanbalok;Umbulan Bolok
+id;Umbulanbujungsega;Umbulan Bujung Segar
+id;Oemboelan Boedjoengsĕgar;Umbulan Bujung Segar
+id;Umbulanalapalaptua;Umbulan Alap Alap Tua
+id;Umbulan Getak;Umbulan Getok
+id;Umbulangetok;Umbulan Getok
+id;Oemboelan Dangok;Umbulan Dangok
+id;Umbulandangak;Umbulan Dangok
+id;Umbulan Titiangantik;Umbulan Titiangalik
+id;Umbulanbarutitiangalik;Umbulan Titiangalik
+id;Umbulantulungseluang;Umbulan Tulungseluang
+id;Umbulantulungkepasik;Umbulan Tulungkepasik
+id;Umbulankemurangantua;Umbulan Kemurangan Tua
+id;Umbulankemurangan;Umbulan Kemurangan
+id;Umbulanbalak;Umbulan Balak
+id;Umbulantulungkeko;Umbulan Tulungkeko
+id;Umbulancepako-tuo;Umbulan Cepaka Tua
+id;Oemboelan Tjĕpakŏ Toeŏ;Umbulan Cepaka Tua
+id;Umbulancepako-muda;Umbulan Cepaka Muda
+id;Umbulan Tjepaka-muda;Umbulan Cepaka Muda
+id;Oemboelan Tjĕpakŏ Moedŏ;Umbulan Cepaka Muda
+id;Umbulantungbatung;Umbulan Tungbasung
+id;Oemboelan Toengbasoeng;Umbulan Tungbasung
+id;Umbulankutubutanjung;Umbulan Kubutanjung
+id;Umbulangunung;Talang Gunung
+id;Umbulanberasberas;Umbulan Beras Beras
+id;Umbulantebingtinggi;Umbulan Tebingtinggi
+id;Umbulan Merenti;Umbulan Meranti
+id;Umbulanmeranti;Umbulan Meranti
+id;Umbulan Meget;Umbulan Megeti
+id;Umbulanmegeti;Umbulan Megeti
+id;Umbulankibangtua;Umbulan Kibang Tua
+id;Oemboelan Kibang Toeŏ;Umbulan Kibang Tua
+id;Umbulantulungkibang;Umbulan Kibang
+id;Oemboelan Toeloengkibang;Umbulan Kibang
+id;Umbulanidertaming;Umbulan Idertaming
+id;Oemboelan Idĕrtaming;Umbulan Idertaming
+id;Umbulan Indertaming;Umbulan Idertaming
+id;Umbulantebingsulah;Umbulan Tebingsulah
+id;Oemboelan Tĕbingsoelŏh;Umbulan Tebingsulah
+id;Umbulankepinding;Umbulan Kepinding
+id;Oemboelan Kĕpinding;Umbulan Kepinding
+id;Umbulangalabek;Umbulan Gelabek
+id;Oemboelan Gĕlabĕk;Umbulan Gelabek
+id;Umbulantahui;Umbulan Tahui
+id;Oemboelan Tahoei;Umbulan Tahui
+id;Umbulankekahan;Umbulan Kekahan
+id;Oemboelan Kĕkahan;Umbulan Kekahan
+id;Umbulantebingtinggi;Tebingtinggi
+id;Umbulanlabung;Umbulan Lebung
+id;Oemboelan Lĕboeng;Umbulan Lebung
+id;Umbulankajubatu;Umbulan Kayubatu
+id;Oemboelan Kajoebatoe Dua;Umbulan Kayubatu
+id;Umbulanguruh;Umbulan Guruh
+id;Oemboelan Goeroeh;Umbulan Guruh
+id;Umbulanjulo;Umbulan Jula
+id;Oemboelan Djoelŏ;Umbulan Jula
+id;Umbulangiunung;Umbulan Gunung
+id;Oemboelan Goenoeng;Umbulan Gunung
+id;Umbulantumi;Umbulan Tumi
+id;Oemboelan Toemi;Umbulan Tumi
+id;Umbulanbidara Tiga;Umbulan Bidara
+id;Umbulanbidara 3;Umbulan Bidara
+id;Umbulanakanakan Satu;Umbulan Akan Akan Satu
+id;Umbulanakanakan 1;Umbulan Akan Akan Satu
+id;Oemboelan Akan Akan Satoe;Umbulan Akan Akan Satu
+id;Oemboelan Akan Akan 1;Umbulan Akan Akan Satu
+id;Umbulantulungkekuk;Umbulan Tulungkekuk
+id;Oemboelan Toeloengkĕkoek;Umbulan Tulungkekuk
+id;Umbulanbalimbing;Umbulan Balimbing
+id;Umbulan Blimbing;Umbulan Balimbing
+id;Oemboelan Balimbing;Umbulan Balimbing
+id;Umbulanpurus;Umbulan Purus
+id;Oemboelan Poeroes;Umbulan Purus
+id;Umbulankanabelida;Umbulan Tanapbelida
+id;Oemboelan Tanapbĕlidŏ;Umbulan Tanapbelida
+id;Umbulanmenanga;Umbulan Menanga
+id;Oemboelan Mĕnangŏ Doeŏ;Umbulan Menanga
+id;Oemboelan Mĕnangŏ 2;Umbulan Menanga
+id;Umbulangunungbatin;Umbulan Gunungbatin
+id;Oemboelan Goenoengbatin;Umbulan Gunungbatin
+id;Umbulantanjungrusia;Umbulan Tanjungrusia
+id;Oemboelan Tandjoengroesia;Umbulan Tanjungrusia
+id;Umbulantanjungan;Umbulan Tanjungan
+id;Oemboelan Tandjoengan;Umbulan Tanjungan
+id;Umbulantanjungbaru;Umbulan Tanjung Baru
+id;Oemboelan Tandjoeng Baroe;Umbulan Tanjung Baru
+id;Umbulan Tanahbaru;Umbulan Tanjung Baru
+id;Umbulangecokarem Dua;Umbulan Gecokarem Dua
+id;Umbulangecokarem 2;Umbulan Gecokarem Dua
+id;Oemboelan Gĕtjŏkarĕm Doeŏ;Umbulan Gecokarem Dua
+id;Oemboelan Gĕtjŏkarĕm 2;Umbulan Gecokarem Dua
+id;Umbulangecokarem Satu;Umbulan Gecokarem Satu
+id;Umbulangecokarem 1;Umbulan Gecokarem Satu
+id;Oemboelan Gĕtjŏkarĕm Satoe;Umbulan Gecokarem Satu
+id;Oemboelan Gĕtjŏkarĕm 1;Umbulan Gecokarem Satu
+id;Umbulancampangraya;Umbulan Campangraya
+id;Oemboelan Tjampangraja;Umbulan Campangraya
+id;Umbulanbidaramuda;Umbulan Bidara Muda
+id;Oemboelan Bidarŏ Moedŏ;Umbulan Bidara Muda
+id;Umbulanwaibangek;Umbulan Waibangek
+id;Umbulanbidarapetau;Umbulan Bidarapetau
+id;Gununagung;Gunung Agung
+id;Umbulanjulokembangtanjung Satu;Umbulan Jula Kembangtanjung Satu
+id;Umbulanjulokembangtanjung 1;Umbulan Jula Kembangtanjung Satu
+id;Umbulanjulomuda;Umbulan Julamuda
+id;Umbulanbakem;Umbulan Bakem
+id;Umbulanwaiandak;Umbulan Waiandak
+id;Umbulantelo;Umbulan Tela
+id;Umbulantulungkibang;Umbulan Tulungkibang
+id;Umbulangajahbetabuh;Umbulan Gajahbetabuh
+id;Oemboelan Gadjahbĕtaboeh;Umbulan Gajahbetabuh
+id;Umbulan Gajahtabuh;Umbulan Gajahbetabuh
+id;Umbulansukaraja;Umbulan Sukaraja
+id;Umbulanpedagaga;Umbulan Pedagaga
+id;Umbulantulunggelam;Umbulan Tulunggelam
+id;Umbulantulungbelu;Umbulan Tulungbelu
+id;Umbulantanjungbulan;Umbulan Tanjungbulan
+id;Umbulanbidaraanau;Umbulan Bidaraanau
+id;Umbulanrengaubisau;Umbulan Rengaubisau
+id;Umbulanbidara Satu;Umbulan Bidaran
+id;Umbulanbidara 1;Umbulan Bidaran
+id;Umbulanpedadahilir;Umbulan Pedadahilir
+id;Umbulanserdangcengdung;Umbulan Serdang Cendang
+id;Umbulangalakgalik;Umbulan Galakgalik
+id;Gunungbresar;Gunung Besar
+id;Umbulanmedaro;Umbulan Medara
+id;Umbulanbanyak;Umbulan Banyak
+id;Kubukemiling;Kubu Kemiling
+id;Umbulandongon;Umbulan Dongon
+id;Umbulanterunan;Umbulan Turunan
+id;Tjlakmarede;Clakmaede
+id;Taroka;Moilong
+id;Oemboelan Andalapai;Umbulan Andalapai
+id;Oemboelan Laboehanratoe;Labuhanratu
+id;Oemboelan Pĕpanggar;Umbulan Pepanggar
+id;Umbulan Peponggor;Umbulan Pepanggar
+id;Rantjailer 2;Rancailer Dua
+id;Petir 2;Petir Dua
+id;Padarintjang;Padarincang
+id;Pulaupunjung;Pulau Punjung
+id;Paritdeli;Parit Deli
+id;Paritsaman;Parit Saman
+id;Paritjawa Dua;Parit Jawa Dua
+id;Paritpulau;Parit Pulau
+id;Paritampat;Parit Ampat
+id;Sungaikayuaro;Sungai Kayuaro
+id;Sungaiserindit;Sungai Serindit
+id;Paritban Dua;Parit Ban Dua
+id;Tanjungpalembang;Tanjung Palembang
+id;Paritmuhamad;Parit Muhamad
+id;Parititur;Parit Itur
+id;Paritkahar;Parit Kahar
+id;Paritjawa;Parit Jawa
+id;Paritijum;Parit Ijum
+id;Paritgabis;Parit Gabis
+id;Sungaibatang;Sungai Batang
+id;Sungairawe;Sungai Rawe
+id;Bongkalmalang;Bangkal Malang
+id;Pasirselabo;Pasir Selabau
+id;Pasirlais;Pasir Lois
+id;Pasirbatumadi;Pasir Batu Mandi
+id;Dusunredang;Dusun Gedang
+id;Alangkepayang;Talang Tempayang
+id;Sekip Hilir;Kampung Sekip
+id;Idi;Idi Rayeuk
+id;Laweuanan;Lhokoeenam
+id;Sungai Gebarkecil;Sungai Gebar Kecil
+id;Sungaisari;Sungai Sari
+id;Parit Tigapuluh;Parit Tiga Puluh
+id;Paritcinai;Parit Cinai
+id;Paritsungaipetapuk;Parit Sungap Petapuk
+id;Sakapantai;Suka Pantai
+id;Buahteras;Buah Keras
+id;Paritdjawa;Parit Jawa
+id;Tangerang Selatan;South Tangerang
+ru;Тангеранг-Селатан;South Tangerang
+id;Krajan;Mangaran Krajan
+id;Krajan;Battal Krajan
+id;Dosan;Dasan
+id;Keyong;Keriyong
+id;Pembujuk;Pembuyuk
+id;Tanjungperanap;Tanjung Ranap
+id;Tanggarangit;Tanggalangit
+id;Kaliantanah;Kalian Tanali
+id;Telukmega;Teluk Mego
+id;Parsaminan;Persominan
+id;Lobugoti;Laguboti
+id;Plaraja;Pearaja
+id;Ulunihuta;Oulunihuta
+id;Sioma-Oma;Siomaoma
+id;Parsuluman;Parsulaman
+id;Simataniari;Simantaniari
+id;Sigala Gala;Sigalagala
+id;Siambaljae;Simambaljae
+id;Siborangan;Sibarang
+id;Puloliman;Paluliman
+id;Sitimbolon;Situmbolon
+id;Pinangga;Pinanga
+id;Tanjungsiram;Tanjungsirem
+id;Aek Batu;Aekhatu
+id;Manaretuh;Manaretuah
+id;Sarik Satu;Sorik
+id;Situmbaga;Tambaga
+id;Batanggogar;Batangogar
+id;Bolatan;Balatan
+id;Singkam;Sikam
+id;Janjimanahan;Janjimenahan
+id;Havoranjae;Hajoranjae
+id;Janggaomas;Tanggaomas
+id;Bintais Jae;Bintaisjae
+id;Sijantung Julu;Sijantungjulu
+id;Marsonja;Marsoja
+id;Aekkorsik;Aekharsik
+id;Sibatangkayu;Sebatangkayu
+id;Tapianadenggan;Tapiannadengan
+id;Pangarambangan;Pagarambangan
+id;Siringkijulu;Siringki
+id;Sungai Pining;Sungaipinang
+id;Sungai Tolang;Sungaitolangjulu
+id;Pagaran Padang;Pagaranpadang
+id;Banua Raja;Banuaraja
+id;Huta Baru Dua;Hutabaru
+id;Linggahara;Lingahara
+id;Somba Debata;Sombadebata
+id;Panongkalan;Panyongkolan
+id;Simajumbu;Simajambu
+id;Lancat Tonga;Lancattonga
+id;Napompar;Nampopar
+id;Gunung Manaon;Gunungmanaon
+id;Arse Julu;Arsejulu
+id;Hanopan;Hutanopan
+id;Arse Jae;Arsejae
+id;Arse Lumban Labu;Lumbanlobu
+id;Lobuharambir;Hutalobuharambir
+id;Sibulan-bulan;Sibulanbulan
+id;Huta Aek Botik;Hutaekbotik
+id;Sigurung-gurung;Si Unong-unong
+id;Buta Hula;Batuhula
+id;Aek Latong;Aeklatong
+id;Sitandiang;Sitanjang
+id;Janjimauli;Jandimauli
+id;Ampolu;Ampulu
+id;Tapus;Tapus Jae
+id;Barnangkoling;Bornangkoling
+id;Tiang Aras;Tiangaras
+id;Tabusira;Tabustra
+id;Haborgoan Jae;Sihaborgoanjae
+id;Tanjung Marulak;Tanjungmarulak
+id;Aek Gambir;Aekgambir
+id;Hutaimbaru Dua;Hutaimbaru
+id;Sungai Orosan;Sungeorosan
+id;Sungai Durian;Sungedurian
+id;Batutambun Satu;Batutambun
+id;Pagaran Singkam;Pagaransingkam
+id;Gunungtua Tonga;Gunungtuatonga
+id;Gunungtua Jae;Gunungtuajae
+id;Siacimua;Siancimun
+id;Ujunggading Ulu;Ujunggadingjulu
+id;Ulaktanah;Ulaktano
+id;Tanjungberingin;Tanjungbaringin
+id;Sionggoton;Sionggotan
+id;Payabaung;Payahaung
+id;Partujuan;Partujuhan
+id;Kabansihotang;Kobunsihotang
+id;Sialegundi;Sialagundi
+id;Tobing;Tebing
+id;Radaman Jae;Randamanjae
+id;Sibatu Loting;Sibatuloting
+id;Aek Buaton;Aekbuatan
+id;Paran Napa Julu;Pagarannapajulu
+id;Sababangun;Sabangunan
+id;Sunggam Jae;Sunggamjae
+id;Naga Saribu;Nagasaribu
+id;Ujung Gading;Ujunggading
+id;Balimbing Julu;Balingbingjulu
+id;Balimbing Jae;Balingbingjae
+id;Padang Baruas;Padangbaruas
+id;Aek Bayur;Aekbayur
+id;Batu Gana;Batugana
+id;Parupuk Julu;Parupukjulu
+id;Silinggom Linggom;Silinggamlinggam
+id;Bargottopong;Borgotopong
+id;Malino;Malimo
+id;Pargarutan Jae;Pagarutanjae
+id;Simasom;Simasomjae
+id;Mompang;Maompang
+id;Joringnaposo;Jaringnapoko
+id;Ujung Garap Julu;Ujunggurapjulu
+id;Pudun Julu;Pudunjulu
+id;Pudun Jae;Pundunjae
+id;Aeknatas;Aeknatasjae
+id;Sisoma Jae;Sisomajae
+id;Sangkunur;Sangkunurjulu
+id;Huta Padang;Hutapadang
+id;Benteng Huraba;Huraba
+id;Tanjung Leuk;Tanjungleuk
+id;Silaiya;Silaila
+id;Padang Garugur;Padanggarugur
+id;Padang Hasiop;Padanghasior
+id;Tanjung Morang;Morang
+id;Paran Napa Jae;Pagarannanpajae
+id;Samadihon;Simadihon
+id;Mananti;Monanti
+id;Batangbulujae;Batangbulumambujae
+id;Binabo;Binabojae
+id;Tano Bato;Tanobatu
+id;Tanjung Botung;Tanjungbotung
+id;Pagaranbira;Pagarabirajae
+id;Paringgonan Julu;Pringgonanjulu
+id;Lumban Dolok;Lumbandolok
+id;Huta Rimbaru;Hutaimbaru
+id;Huta Hatang;Hutabatang
+id;Lubuk Si Ulang aling;Lubuksiulangaling
+id;Payasturan;Long Seturan
+id;Long Adiu;Long Adio
+id;Long Udau;Long Adio
+id;Long Beliah;Long Beluah
+ms;Rumah Budud;Lembudud
+ms;Long Medang;Long Midang
+ms;Long Api;Long Apis
+id;Kampoeng Sawen Kiri;Temalang
+id;Lapoet;Tanjung Laput
+id;Kampoeng Panas;Panas
+id;Tanjung Sabatiung;Tajau Sabatliung
+id;Bengliuk;Bangliuk
+id;Teluk Sanganggau;Teluk Sangangau
+id;Batukajang;Batu Kajang
+id;Oebolalong;Ubal
+id;Oebol;Ubal
+id;Boeloemengelem;Bulu Mengalon
+id;Bulu Mangalon;Bulu Mengalon
+id;Toekoelan;Tukulon
+id;Sendongan;Sedangan
+id;Sĕdangan;Sedangan
+id;Sedongan;Sedangan
+id;Sapoejan;Sepuyan
+id;Sempuyan;Sepuyan
+id;Sumalumung;Semulung
+id;Semoeloeng;Semulung
+id;Kampoeng Kalisai;Kalisai
+ms;Talisoi;Kalisai
+id;Kampoeng Meloetok;Melutok
+ms;Malutok;Melutok
+id;Leroh;Long Loreh
+id;Loreh;Long Loreh
+id;Tanjungpalas;Tanjung Palas
+id;Paranjulu;Paran Julu
+ja;センダワール;Sendawar
+id;Luman Tonga-tonga;Lumban Tonga-tonga
+id;Dolok Martanan;Dolok Martahan
+id;Siliat Iat;Siliatliat
+id;Simpar Iga;Simpar Tiga
+id;Lao Kidupen;Lau Kidupen
+id;Sungaiaro;Sungai Aro
+id;Dusuntengahhilir;Dusun Tengah Hilir
+id;Buntumahang;Buntu Mahang
+id;Dusunpedukuh;Dusun Pedukuh
+id;Kampungbaur;Kampung Baur
+id;Dusunpulaterbakar;Dusun Pulau Terbakar
+id;Rantaungarau;Rantau Ngarau
+id;Lubukpanggai;Lubuk Punggai
+id;Ulakkemang;Ulak Kemang
+id;Sungailingkar;Sungai Lingkar
+id;Rantaugedang;Rantau Gedang
+id;Sungaipuan;Sungai Puan
+id;Lubukaumbun;Lubuk Bumbum
+id;Kampungtanjung;Kampung Tanjung
+id;Lubuktependam;Lubuk Tependam
+id;Tambunarang;Tambun Arang
+id;Bagansungaiputih;Bagan Sungai Putih
+id;Batusawar;Batu Sawar
+id;Rantaukapuk;Rantau Kapuk
+id;Ketopati;Kartopati
+id;Rantaukapastua;Rantau Kapas Tua
+id;Rambutanmasam;Rambutan Masam
+id;Rengascondong;Rengas Condong
+id;Napalsisik;Napal Sisik
+id;Durianijo;Durian Ijo
+id;Dusunserasak;Dusun Serasak
+id;Pulaubetung;Pulau Betung
+id;Bunginpetar;Bungin Petar
+id;Pulauraman;Pulau Raman
+id;Kubukandang;Kubu Kandang
+id;Danaubangko;Danau Bangko
+id;Rantaupuri;Rantau Puri
+id;Danauembat;Danau Embat
+id;Singkatikecil;Singkati Kecil
+id;Sungairengas;Sungai Rengas
+id;Buluhkasap;Buluh Kasap
+id;Kembangseri;Kembang Seri
+id;Telukleban;Teluk Leban
+id;Sungaiaur;Sungai Aur
+id;Dusuntuohilir;Dusun Tuo Hilir
+id;Tebingtingi Dua;Tebing Tinggi
+id;Dusunbaru Dua;Dusun Baru Dua
+id;Sungailipai;Sungai Lipai
+id;Telukkepur;Teluk Kepur
+id;Embacanggedang;Embacang Gedang
+id;Rantaulimaumanis;Rantau Limau Manis
+id;Sungaigurun;Sungai Gurun
+id;Pinangkemanten;Pinang Kemanten
+id;Bukittelago;Bukit Telago
+id;Tambangcucur;Tambang Cucur
+id;Tanjungagung;Tanjung Agung
+id;Mangunjaya;Mangun Jaya
+id;Tulungpantai;Tulung Pantai
+id;Sungaiarang;Sungai Arang
+id;Dusunmanggis;Dusun Manggis
+id;Airgemuruh;Air Gemuruh
+id;Telukpandak;Teluk Pandak
+id;Tanjungmenaut;Tanjung Menanti
+id;Mangunjayo;Mangun Jayo
+id;Bidarorampak;Bidaro Rampak
+id;Dusuntengahhulu;Dusun Tengah Hulu
+id;Tambanarang;Tambang Arang
+id;Tanjungmelintang;Tanjung Melintang
+id;Sungairambai;Sungai Rambai
+id;Pagarpunding;Pagar Punding
+id;Lubukseban;Lubuk Seban
+id;Pulaukayuaro;Pulau Kayuaro
+id;Rantaumajo;Rantau Majo
+id;Danaukaos;Danau Kaos
+id;Telukbelango;Teluk Belango
+id;Tanjungtayas;Tanjung Tayas
+id;Sungailumpur;Sungai Lumpur
+id;Lubukterab;Lubuk Terap
+id;Pantaubadak;Pantau Badak
+id;Tanjungpaku;Tanjung Paku
+id;Tanjungberingin;Tanjung Beringin
+id;Dusunpauhtaji;Dusun Pauh Taji
+id;Dusuntanjungaur;Dusun Tanjung Aur
+id;Dusunmuaradanau;Dusun Muara Danau
+id;Pulautemiang;Pulau Temiang
+id;Dusunpulaupuro;Dusun Pulau Puro
+id;Dusunsukoberami;Dusun Suko Berami
+id;Muarataban;Muara Tabun
+id;Dusunsagotinggal;Dusun Sago Tinggal
+id;Telukempako;Teluk Cempako
+id;Sungaidua;Sungai Dua
+id;Sungaiabang;Sungai Abang
+id;Aurcina;Aur Cina
+id;Dusunsagobaru;Dusun Sago Baru
+id;Dusunsukoberaia;Dusun Suko Beraja
+id;Dusunbaraupanjang;Dusun Barau Panjang
+id;Tamanraja;Taman Raja
+id;Lubukbermai;Lubuk Bernai
+id;Kebonlama;Kebon Lama
+id;Sungaibandar;Sungai Bandar
+id;Batujyu;Batu Yu
+id;Pakuanjimuda;Pakuadji Muda
+id;Rantauasam;Rantau Asam
+id;Sungaijao;Sungai Jao
+id;Girimuktidalem;Girimukti Dalam
+id;Patutungan;Petungtunan
+id;Paloloang;Saloloang
+id;Apiapikecil;Apiapi Kecil
+id;Motean;Mataair
+id;Sengalang;Senglang
+id;Pepunti;Pupunti
+id;Fokat;Foket
+id;Hetelau;Herlau
+id;Tagolabe;Togolobe
+id;Wayatimu;Wayatim
+id;Kampungpalembang;Kampung Palembang
+id;Paritkualadendang;Parit Kuala Dendang
+id;Tanjungpasir;Tanjung Pasir
+id;Pulausungaiduo;Pulau Sungai Duo
+id;Pulauairhitam;Pulau Air Hitam
+id;Sungairambut;Sungai Rambut
+id;Tanjungputus;Tanjung Putus
+id;Manismata;Manis Mata
+id;Telukjambu;Teluk Jambu
+id;Kemingkingluar;Kemingking Luar
+id;Tebatpatah;Tebat Patah
+id;Talangduku;Talang Duku
+id;Talangbanjar;Talang Banjar
+id;Sungaimarem;Sungai Marem
+id;Thehoki;Thehok
+id;Pasirputih;Pasir Putih
+id;Talangbakung;Talang Bakung
+id;Paalmerah Dua;Paal Merah Dua
+id;Kebonsembilan;Kebon Sembilan
+id;Simpangtiga;Simpang Tiga
+id;Kenalibesar;Kenali Besar
+id;Pulaupandan;Pulau Pandan
+id;Telukkena;Teluk Kena
+id;Penyengatrendah;Penyengat Rendah
+id;Sungaiduren;Sungai Duren
+id;Penyengatolak;Penyengat Olak
+id;Penyengatsenaung;Penyengat Senaung
+id;Danaukedap;Danau Kedap
+id;Pulaupenago;Pulau Penago
+id;Rengasbandung;Rengas Bandung
+id;Mudungdarat;Mudung Darat
+id;Jambitulo;Jambi Tulo
+id;Pulautiga;Pulau Tiga
+id;Jambikecil;Jambi Kecil
+id;Dusunbatu;Dusun Batu
+id;Pematangkepayang;Pematang Kepayang
+id;Tamonarang;Taman Arang
+id;Pematangbendaro;Pematang Bendaro
+id;Kurapahbangso;Kurapah Bangso
+id;Suakkanais;Suak Kandis
+id;Seiterentang Hulu Dua;Sei Terentanghulu Dua
+id;Sungaitaikong;Sungai Taikong
+id;Pankalanpasir;Pangkalanpasir
+id;Bambu;Bambung
+id;Lau Alas;Lawe Alas
+id;Kuta Utara;North Kuta
+en;Amlapura;Amlapura city
+ru;Амлапура;Amlapura city
+id;Pamalajan;Pamalayan
+en;Nusantara Capital City;Nusantara
+id;Ibu Kota Negara Nusantara;Nusantara
+id;IKN Nusantara;Nusantara
+zh;努山塔拉;Nusantara
+ru;Нусантара;Nusantara

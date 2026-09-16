@@ -1,0 +1,262 @@
+dv;މަޑުއްވަރި;Maduvvari
+de;Malé;Male
+en;Malé;Male
+es;Malé;Male
+fr;Malé;Male
+hi;माले;Male
+id;Malé;Male
+it;Malé;Male
+ja;マレ;Male
+ko;말레;Male
+nl;Malé;Male
+pt;Malé;Male
+th;มาเล่;Male
+zh;馬累;Male
+th;มาเล;Male
+bn;মালে;Male
+dv;މާލެ;Male
+ru;Мале;Male
+zh;瑪律;Male
+ta;மாலே;Male
+tg;Мале;Male
+zh;马累;Male
+dv;ހިތަދޫ;Hithadhoo
+ru;Хитхаду;Hithadhoo
+ar;هيثاذو;Hithadhoo
+kk;Хитхаду;Hithadhoo
+ky;Хитхаду;Hithadhoo
+hi;हिथाधू;Hithadhoo
+bn;হিথাধূ;Hithadhoo
+ur;ہتھاڈھو;Hithadhoo
+fa;هیثاذو;Hithadhoo
+ja;ヒタダー;Hithadhoo
+pa;ਹਿਥਾਧੂ;Hithadhoo
+ps;هيثاذو;Hithadhoo
+tg;Хитхаду;Hithadhoo
+dv;ހަނިމާދޫ;Hanimaadhoo
+dv;ހުޅުދުއްފާރު;Hulhudhuffaaru
+ru;Махибаду;Mahibadhoo
+ar;ماهيبادو;Mahibadhoo
+kk;Махибаду;Mahibadhoo
+ky;Махибаду;Mahibadhoo
+hi;महिबाधू;Mahibadhoo
+bn;মাহিবাধূ;Mahibadhoo
+ur;ماہی بادھو;Mahibadhoo
+fa;ماهی بادو;Mahibadhoo
+ja;マヒバダー;Mahibadhoo
+pa;ਮਹਿਬਾਧੂ;Mahibadhoo
+ps;ماهيبادو;Mahibadhoo
+tg;Махибаду;Mahibadhoo
+ru;Эйдхафуши;Eydhafushi
+ar;إيذافوشي;Eydhafushi
+kk;Эйдхафуши;Eydhafushi
+ky;Эйдхафуши;Eydhafushi
+hi;आयधाफुशी;Eydhafushi
+bn;আইধাফুশী;Eydhafushi
+ur;آئیدھا فوشی;Eydhafushi
+fa;آیدهافوشی;Eydhafushi
+ja;アイダファシ;Eydhafushi
+pa;ਆਈਧਾਫੁਸ਼ੀ;Eydhafushi
+ps;آيدهافوشي;Eydhafushi
+tg;Эйдхафуши;Eydhafushi
+ru;Кудахувадху;Kudahuvadhoo
+ar;كودا هو فاذو;Kudahuvadhoo
+kk;Кудахувадху;Kudahuvadhoo
+ky;Кудахувадху;Kudahuvadhoo
+hi;कुदाहुवाधू;Kudahuvadhoo
+bn;কুদাহুভাধূ;Kudahuvadhoo
+ur;کڈاہووادھو;Kudahuvadhoo
+fa;کوداهوو فاذو;Kudahuvadhoo
+ja;クダフワダー;Kudahuvadhoo
+pa;ਕੁਦਾਹੁਵਾਧੂ;Kudahuvadhoo
+ps;کودا هوو فاذو;Kudahuvadhoo
+tg;Кудахувадху;Kudahuvadhoo
+ru;Вилигили;Viligili
+ar;فيليجيلي;Viligili
+kk;Вилигили;Viligili
+ky;Вилигили;Viligili
+hi;विलिगिली;Viligili
+bn;ভিলিগিলি;Viligili
+ur;ویلی گیلی;Viligili
+fa;ویلی گیلی;Viligili
+ja;ヴィリギリ;Viligili
+pa;ਵਿਲਿਗਿਲੀ;Viligili
+ps;فيليجيلي;Viligili
+tg;Вилигили;Viligili
+ru;Тхинаду;Thinadhoo
+ar;ثينادهو;Thinadhoo
+kk;Тхинаду;Thinadhoo
+ky;Тхинаду;Thinadhoo
+hi;थिनाधू;Thinadhoo
+bn;থিনাধূ;Thinadhoo
+ur;تھیناڈھو;Thinadhoo
+fa;تینادو;Thinadhoo
+ja;チナダー;Thinadhoo
+pa;ਥਿਨਾਧੂ;Thinadhoo
+ps;ثينادهو;Thinadhoo
+tg;Тхинаду;Thinadhoo
+dv;ފުވައްމުލައް;Fuvahmulah
+ru;Фувахмула;Fuvahmulah
+ar;فوفاهمولاه;Fuvahmulah
+kk;Фувахмула;Fuvahmulah
+ky;Фувахмула;Fuvahmulah
+hi;फुवाह्मुलाह;Fuvahmulah
+bn;ফুভাহমুলাহ;Fuvahmulah
+ur;فووہ مولاہ;Fuvahmulah
+fa;فوواه مولاه;Fuvahmulah
+ja;フバムラ;Fuvahmulah
+pa;ਫੁਵਾਹਮੁਲਾਹ;Fuvahmulah
+ps;فوفاهمولاه;Fuvahmulah
+tg;Фувахмула;Fuvahmulah
+ru;Дхидху;Dhihdhoo
+ar;ذيذو;Dhihdhoo
+kk;Дхидху;Dhihdhoo
+ky;Дхидху;Dhihdhoo
+hi;धिधू;Dhihdhoo
+bn;ধিধূ;Dhihdhoo
+ur;ڈھیڈھو;Dhihdhoo
+fa;ذیذو;Dhihdhoo
+ja;ディダー;Dhihdhoo
+pa;ਧਿਧੂ;Dhihdhoo
+ps;ذيذو;Dhihdhoo
+tg;Дхидху;Dhihdhoo
+ru;Кулхудуффуши;Kulhudhuffushi
+ar;كول هود فوشي;Kulhudhuffushi
+kk;Кулхудуффуши;Kulhudhuffushi
+ky;Кулхудуффуши;Kulhudhuffushi
+hi;कुलहुधुफुशी;Kulhudhuffushi
+bn;কুলহুধুফুশী;Kulhudhuffushi
+ur;کولھودوفوشی;Kulhudhuffushi
+fa;کول هود فوشی;Kulhudhuffushi
+ja;クルドフシ;Kulhudhuffushi
+pa;ਕੁਲ੍ਹੁਧੁਫਸ਼ੀ;Kulhudhuffushi
+ps;کول هود فوشي;Kulhudhuffushi
+tg;Кулхудуффуши;Kulhudhuffushi
+ru;Найфару;Naifaru
+ar;نايفارو;Naifaru
+kk;Найфару;Naifaru
+ky;Найфару;Naifaru
+hi;नाइफारु;Naifaru
+bn;নাইফারু;Naifaru
+ur;نائی فاروں;Naifaru
+fa;نایفارو;Naifaru
+ja;ナイファル;Naifaru
+pa;ਨਾਈਫਾਰੂ;Naifaru
+ps;نايفارو;Naifaru
+tg;Найфару;Naifaru
+ru;Мули;Muli
+ar;مولي;Muli
+kk;Мули;Muli
+ky;Мули;Muli
+hi;मुली;Muli
+bn;মুলি;Muli
+ur;مولی;Muli
+fa;مولی;Muli
+ja;ムリ;Muli
+pa;ਮੁਲੀ;Muli
+ps;مولي;Muli
+tg;Мули;Muli
+ru;Манаду;Manadhoo
+ar;مناذو;Manadhoo
+kk;Манаду;Manadhoo
+ky;Манаду;Manadhoo
+hi;मनाधू;Manadhoo
+bn;মানাধূ;Manadhoo
+ur;مناڈھو;Manadhoo
+fa;مناذو;Manadhoo
+ja;マナダー;Manadhoo
+pa;ਮਨਾਧੂ;Manadhoo
+ps;مناذو;Manadhoo
+tg;Манаду;Manadhoo
+en;Un'goofaaru;Un’goofaaru
+ru;Унгуфару;Un’goofaaru
+ar;أن جوفارو;Un’goofaaru
+kk;Унгуфару;Un’goofaaru
+tr;Ungoofaaru;Un’goofaaru
+uz;Ungoofaaru;Un’goofaaru
+ky;Унгуфару;Un’goofaaru
+id;Ungoofaaru;Un’goofaaru
+ms;Ungoofaaru;Un’goofaaru
+es;Ungoofaaru;Un’goofaaru
+fr;Ungoofaaru;Un’goofaaru
+hi;उनगूफारु;Un’goofaaru
+bn;আনগুফারু;Un’goofaaru
+ur;ان گوفارو;Un’goofaaru
+de;Ungoofaaru;Un’goofaaru
+fa;ان گوفارو;Un’goofaaru
+ja;アンゴファル;Un’goofaaru
+jv;Ungoofaaru;Un’goofaaru
+pa;ਅਨਗੂਫਾਰੂ;Un’goofaaru
+ps;أن جوفارو;Un’goofaaru
+pt;Ungoofaaru;Un’goofaaru
+tg;Унгуфару;Un’goofaaru
+ru;Фунаду;Funadhoo
+ar;فنادو;Funadhoo
+kk;Фунаду;Funadhoo
+ky;Фунаду;Funadhoo
+hi;फुनाधू;Funadhoo
+bn;ফুনাধূ;Funadhoo
+ur;فنا ڈھو;Funadhoo
+fa;فنادو;Funadhoo
+ja;フナダー;Funadhoo
+pa;ਫੁਨਾਧੂ;Funadhoo
+ps;فنادو;Funadhoo
+tg;Фунаду;Funadhoo
+ru;Вейманду;Veymandoo
+ar;فيمندو;Veymandoo
+kk;Вейманду;Veymandoo
+ky;Вейманду;Veymandoo
+hi;वेमांडू;Veymandoo
+bn;ভেমান্দু;Veymandoo
+ur;ویمندو;Veymandoo
+fa;ویمندو;Veymandoo
+ja;ヴェイマンドゥ;Veymandoo
+pa;ਵੇਮਾਂਡੂ;Veymandoo
+ps;فيمندو;Veymandoo
+tg;Вейманду;Veymandoo
+ru;Фелиду;Felidhoo
+ar;فيليذو;Felidhoo
+kk;Фелиду;Felidhoo
+ky;Фелиду;Felidhoo
+hi;फेलीधू;Felidhoo
+bn;ফেলিধূ;Felidhoo
+ur;فیلی ڈھو;Felidhoo
+fa;فیلیذو;Felidhoo
+ja;フェリダー;Felidhoo
+pa;ਫੇਲੀਧੂ;Felidhoo
+ps;فيليذو;Felidhoo
+tg;Фелиду;Felidhoo
+ru;Курамати;Kuramathi
+ru;Фонаду;Fonadhoo
+ar;فونادو;Fonadhoo
+kk;Фонаду;Fonadhoo
+ky;Фонаду;Fonadhoo
+hi;फोनाधू;Fonadhoo
+bn;ফোনাধূ;Fonadhoo
+ur;فونا ڈھو;Fonadhoo
+fa;فونادو;Fonadhoo
+ja;フォナダー;Fonadhoo
+pa;ਫੋਨਾਧੂ;Fonadhoo
+ps;فونادو;Fonadhoo
+tg;Фонаду;Fonadhoo
+en;Malé Atoll;Nord Malé Atoll
+en;North Malé Atoll;Nord Malé Atoll
+de;Nord Male Atoll;Nord Malé Atoll
+de;Süd-Malé-Atoll;South Malé Atoll
+dv;ގައްދޫ;Gadhdhoo
+en;Gaddhoo;Gadhdhoo
+en;Gaddu;Gadhdhoo
+en;Maavaarulaa;Gadhdhoo
+en;Maavarulu;Gadhdhoo
+ru;Ниланду;Nilandhoo
+ar;نيلاندو;Nilandhoo
+kk;Ниланду;Nilandhoo
+ky;Ниланду;Nilandhoo
+hi;निलंधू;Nilandhoo
+bn;নিলন্ধূ;Nilandhoo
+ur;نیلاندھو;Nilandhoo
+fa;نیلاندو;Nilandhoo
+ja;ニランダー;Nilandhoo
+pa;ਨਿਲੰਧੂ;Nilandhoo
+ps;نيلاندو;Nilandhoo
+tg;Ниланду;Nilandhoo

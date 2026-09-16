@@ -1,0 +1,354 @@
+0;115.0376,4.6863;BN;;Kampung Batu Sa-Puloh
+19151;114.6492,4.8028;BN-04;Tutong;Tutong
+274;114.5840,4.7582;BN-04;Tutong;Kampung Tumpuan Ugas
+0;115.0740,4.5530;BN-03;Temburong;Kampung Temada
+0;114.9333,4.9167;BN;;Tangki Ayer
+0;114.6591,4.4248;BN-01;Belait;Kampung Sukang Hilir
+81;114.6288,4.3140;BN-01;Belait;Kampung Sukang
+2659;114.3248,4.6064;BN-01;Belait;Seria
+0;114.7664,4.5158;BN-04;Tutong;Kampung Supon Besar
+0;114.6667,4.2333;BN;;Rumah Samawa
+103;114.2031,4.5579;BN;;Rasau
+0;114.4561,4.3743;BN-01;Belait;Kampung Rampayoh
+0;114.6215,4.3919;BN;;Purau Purau
+0;114.5611,4.4693;BN-01;Belait;Kampung Pangkalan Siong
+10301;114.2957,4.6082;BN-01;Belait;Kampung Panaga
+2539;115.0691,5.0270;BN-02;Brunei-Muara District;Muara
+29;114.6613,4.2575;BN-01;Belait;Kampung Melilas
+727;114.4603,4.3895;BN-01;Belait;Kampung Labi
+31178;114.2312,4.5836;BN-01;Belait;Kuala Belait
+16;114.3204,4.4537;BN-01;Belait;Kampung Kuala Balai
+0;114.7973,4.7693;BN-02;Brunei-Muara District;Kampung Wasan
+0;114.6425,4.6688;BN-04;Tutong;Kampung Ukong
+0;114.5127,4.6912;BN-01;Belait;Kampung Tunggulian
+11695;114.9980,4.9922;BN-02;Brunei-Muara District;Kampung Tanah Jambu
+0;114.8331,4.8787;BN;;Kampong Tulang
+0;114.9667,4.9500;BN;;Kampong Timbunan
+0;114.8197,4.8659;BN;;Kampong Timahu
+0;114.9452,4.8710;BN-02;Brunei-Muara District;Kampung Tarap Bau
+13253;114.5632,4.7356;BN-04;Tutong;Telisai
+13253;114.5667,4.7296;BN-04;Tutong;Telamba
+0;114.6667,4.6833;BN;;Kampong Tanjong Santul
+3838;114.8282,4.8756;BN-02;Brunei-Muara District;Kampung Tanjong Nangka
+0;114.7233,4.8251;BN;;Kampong Tanjong Menungan
+0;114.6653,4.7477;BN-04;Tutong;Kampung Tanjong Maya
+0;114.6750,4.8170;BN;;Kampong Tanjong Berapan
+0;114.8333,4.8833;BN;;Kampong Tanjong
+0;114.4833,4.6667;BN;;Kampong Sungai Liang Kechil
+16813;114.4959,4.6775;BN-01;Belait;Liang
+0;114.9543,4.8745;BN-02;Brunei-Muara District;Kampung Sungai Lampai
+0;114.9134,4.8358;BN-02;Brunei-Muara District;Kampung Kilugus
+6129;114.9775,4.9681;BN-02;Brunei-Muara District;Sungai Hanching
+0;114.7301,4.7103;BN;;Kampong Sungai Burong
+0;115.1134,5.0089;BN;;Kampong Sungai Bubus
+0;115.0177,4.9362;BN-02;Brunei-Muara District;Kampung Sungai Besar
+0;114.9370,4.8716;BN;;Jalan Sungai Asam
+0;115.1145,4.5867;BN-03;Temburong;Kampung Sumbiling Lama
+2681;114.9659,4.8931;BN-02;Brunei-Muara District;Subok
+0;114.6663,4.6181;BN;;Kampong Sinonuk
+879;114.7478,4.8154;BN;;Kampong Sinaut
+2319;114.8747,4.8380;BN-02;Brunei-Muara District;Sinarubai
+0;115.1071,4.6150;BN-03;Temburong;Kampung Sibut
+0;114.6663,4.7371;BN-04;Tutong;Kampung Sebakit
+0;114.9510,4.9480;BN-02;Brunei-Muara District;Kampung Serusop
+0;114.9972,4.9082;BN;;Kampong Serdang
+18569;115.0580,5.0176;BN-02;Brunei-Muara District;Serasa
+40972;114.8333,4.8833;BN-02;Brunei-Muara District;Sengkurong
+0;115.0735,4.5704;BN-03;Temburong;Kampung Semabat
+2956;114.8500,4.9024;BN-02;Brunei-Muara District;Kampung Selayun
+0;114.8333,4.9167;BN;;Kampong Selangan
+0;114.5605,4.5255;BN-01;Belait;Kampung Bukit Sawat
+1694;114.6456,4.8048;BN-04;Tutong;Sengkarai
+0;114.8213,4.8624;BN;;Kampong Salapit
+1184;114.9878,4.9788;BN-02;Brunei-Muara District;Salambigar
+0;115.0603,5.0361;BN-02;Brunei-Muara District;Kampung Sabun
+0;114.9834,4.8508;BN-02;Brunei-Muara District;Kampung Riong
+0;114.7019,4.8154;BN;;Kampong Riong
+5284;114.9061,4.9411;BN-02;Brunei-Muara District;Kampung Rimba
+0;114.8333,4.8333;BN;;Kampong Rendangan
+0;114.9157,4.8660;BN;;Kampong Ranggu
+0;114.6528,4.6374;BN;;Kampong Rampaya
+980;114.6515,4.6388;BN-04;Tutong;Rambai
+0;114.9814,4.8348;BN-02;Brunei-Muara District;Kampung Putat
+0;114.6059,4.3728;BN;;Kampong Purau Purau
+9190;114.9167,4.9333;BN;;Kampong Meragang
+412;114.9552,4.9299;BN;;Pulaie
+0;114.8245,4.7901;BN;;Kampong Pugat
+0;115.0018,4.8975;BN;;Kampong Pudak
+457;114.7791,4.8206;BN-02;Brunei-Muara District;Kampung Maraburong
+0;114.6167,4.7500;BN;;Kampong Perupok
+0;114.4944,4.6761;BN-01;Belait;Kampung Perumpong
+0;115.0848,4.7361;BN;;Kampong Peradayan
+0;115.0333,4.9000;BN;;Kampong Pepatan
+0;114.8253,4.7926;BN;;Kampong Pepara
+4240;114.8425,4.9373;BN-02;Brunei-Muara District;Kampung Peninjau
+0;114.6678,4.7201;BN-04;Tutong;Kampung Penapar
+1856;114.6801,4.8379;BN-04;Tutong;Penanjong
+0;114.6239,4.7940;BN-04;Tutong;Kampung Penabai
+0;115.1065,5.0392;BN;;Kampong Pelumpong
+0;114.9745,4.8884;BN-02;Brunei-Muara District;Kampung Pelambaian
+11560;114.8333,4.7833;BN;;Pengkalan Batu
+0;114.9167,4.8167;BN;;Kampong Patong
+0;114.9307,4.9052;BN-02;Brunei-Muara District;Kampung Kumbang Pasang
+0;115.1035,4.6365;BN-03;Temburong;Kampung Parit
+0;114.9287,4.8859;BN;;Kampong Parit
+0;115.0198,4.9523;BN;;Kampong Paring
+0;114.8110,4.8050;BN-02;Brunei-Muara District;Kampung Panchor Murai
+0;114.9000,4.9500;BN;;Kampong Panjang
+0;114.6556,4.6755;BN-04;Tutong;Kampung Pangkalan Ra'an
+0;114.6500,4.6833;BN;;Kampong Pangkalan Piasau
+0;114.6333,4.6667;BN;;Kampong Pangkalan Parai
+573;114.7402,4.7583;BN-04;Tutong;Kampong Pangkalan Mau
+13358;115.0167,4.9667;BN;;Perumahan Negara Panchor
+0;114.6730,4.8089;BN;;Panchor Papan
+0;114.6649,4.8055;BN;;Panchor Dulit
+0;115.1848,4.6840;BN;;Kampong Pak
+771;114.7283,4.7175;BN-04;Tutong;Pad Nunok
+0;114.6500,4.7333;BN;;Kampong Nong Kelulau
+0;114.8333,4.8833;BN;;Kampong Nangka
+192;114.7530,4.7237;BN-04;Tutong;Kampong Mungkom
+0;114.8458,4.8646;BN;;Mulaut
+5981;114.8333,4.8667;BN;;Kampong Mulaut
+0;114.8337,4.9379;BN;;Kampong Menunggol
+0;114.9955,4.8816;BN;;Kampong Menunggol
+39324;115.0208,4.9706;BN-02;Brunei-Muara District;Mentiri
+0;114.8423,4.8902;BN;;Kampong Mengawang
+0;114.9167,4.9667;BN;;Kampong Medaras
+7159;114.8962,4.9034;BN-02;Brunei-Muara District;Kampung Mata-Mata
+865;114.8951,4.8558;BN;;Madewa
+472;114.9405,4.8697;BN-02;Brunei-Muara District;Kampong Lupak Luas
+8058;114.9167,4.8500;BN;;Lumapas
+5795;114.8049,4.8749;BN-02;Brunei-Muara District;Kampung Lugu
+0;114.6643,4.7521;BN;;Kampong Lubok Tanjong Maya
+496;114.6636,4.7640;BN-04;Tutong;Lubok Pulau
+844;114.7298,4.8173;BN-04;Tutong;Kampong Luagan Dudok
+0;115.2003,4.6757;BN;;Kampong Lopat
+0;114.9167,4.8333;BN;;Kampong Limpas
+0;114.8236,4.7681;BN-02;Brunei-Muara District;Kampung Limau Manis
+0;114.5151,4.6990;BN-01;Belait;Kampung Lilas
+0;115.0567,4.6005;BN-03;Temburong;Kampung Lepong
+261;114.6775,4.6890;BN-04;Tutong;Layong
+3641;114.7154,4.6816;BN-04;Tutong;Lamunin
+7293;114.9430,4.9661;BN-02;Brunei-Muara District;Kampong Lambak A
+0;115.1047,4.7395;BN;;Kampong Labut
+1795;114.7944,4.8431;BN-04;Tutong;Kupang
+0;114.6752,4.6186;BN-04;Tutong;Kampung Kuala Ungar
+0;114.6089,4.7818;BN-04;Tutong;Kampung Kuala Tutong
+329;114.6768,4.7011;BN-04;Tutong;Kuala Abang
+12676;114.9500,4.8833;BN;;Kota Batu
+0;115.0333,4.6333;BN;;Kampong Kobong
+5063;114.7333,4.7500;BN-04;Tutong;Kiudang
+4735;114.9191,4.8890;BN-02;Brunei-Muara District;Kampong Kiajong
+8589;114.6941,4.8160;BN-04;Tutong;Keriam
+0;115.0469,4.6181;BN-03;Temburong;Kampung Kenua
+0;114.5044,4.6628;BN-01;Belait;Kampung Keluyoh
+0;114.6667,4.7333;BN;;Kampong Kelalang
+0;114.7388,4.7485;BN;;Kampong Kebun
+735;114.7452,4.7709;BN-04;Tutong;Kampong Kebia
+0;114.6667,4.7333;BN;;Kampong Kayu Kapur
+2427;114.8935,4.9162;BN-02;Brunei-Muara District;Katok
+0;114.8145,4.8681;BN;;Katimahar
+0;114.9471,4.8231;BN;;Kampong Kasat
+2791;115.0466,5.0245;BN-02;Brunei-Muara District;Kapok
+300;114.6421,4.7965;BN-04;Tutong;Kampung Kandang
+0;114.9500,4.8333;BN;;Kampong Kalamasi
+2006;114.8534,4.8103;BN-02;Brunei-Muara District;Junjongan
+3650;114.8348,4.9295;BN-02;Brunei-Muara District;Kampung Jerudong
+0;114.8695,4.8812;BN-02;Brunei-Muara District;Kampung Jangsak
+0;114.8012,4.7929;BN-02;Brunei-Muara District;Kampung Imang
+92;114.7870,4.8685;BN-04;Tutong;Kampung Ikas
+3356;114.9132,4.9125;BN-02;Brunei-Muara District;Kampung Pangkalan Gadong
+0;114.9500,4.9500;BN;;Kampong Empat Setengah
+0;114.9478,4.9409;BN-02;Brunei-Muara District;Kampung Pancha Delima
+0;114.5889,4.7639;BN-04;Tutong;Kampung Danau
+564;114.9289,4.9292;BN-02;Brunei-Muara District;Kampong Burong Pingai Berakas
+0;114.6405,4.6521;BN;;Kampong Burong Pingai
+0;114.8868,4.8535;BN;;Bunut
+0;115.0520,4.6517;BN-03;Temburong;Kampung Bokok
+0;114.7316,4.7679;BN-04;Tutong;Kampung Bakiau
+362;114.7366,4.6583;BN-04;Tutong;Bukit Sulang
+781;114.7263,4.8277;BN-04;Tutong;Bukit Panggal
+0;114.7245,4.6939;BN;;Kampong Bukit Kota
+0;114.6000,4.6167;BN;;Kampong Bukit Bang Tangur
+0;114.6256,4.6004;BN-04;Tutong;Kampung Bukit
+0;114.9739,4.8760;BN-02;Brunei-Muara District;Kampung Buang Tawar
+0;114.9481,4.8616;BN-02;Brunei-Muara District;Kampung Buang Sakar
+0;115.0684,4.6820;BN-03;Temburong;Kampung Bang Bulan
+0;114.6818,4.6165;BN;;Kampong Buangang
+918;114.7546,4.7821;BN-04;Tutong;Kampong Birau
+984;114.7370,4.8808;BN;;Kampong Bintauran
+0;114.9000,4.8833;BN;;Kampong Bibit
+6490;114.8949,4.8834;BN-02;Brunei-Muara District;Kampung Beribi
+0;115.0424,4.8874;BN;;Kampong Berbunot
+0;114.9358,4.9479;BN-02;Brunei-Muara District;Kampong Berakas
+0;114.7194,4.6008;BN-04;Tutong;Kampung Benutan
+0;115.0455,4.6296;BN;;Kampong Belayong
+0;115.0830,4.6687;BN-03;Temburong;Kampung Belaban
+0;114.8407,4.8501;BN-02;Brunei-Muara District;Kampung Bebatik
+0;114.9674,4.8326;BN-02;Brunei-Muara District;Kampung Baong
+870;115.0351,4.9820;BN;;Batu Marang
+0;114.8587,4.8819;BN;;Kampong Batu Lapan
+0;114.9000,4.8667;BN;;Kampong Batu Empat
+0;114.8224,4.7851;BN-02;Brunei-Muara District;Kampung Batu Ampar
+0;114.8166,4.8199;BN-02;Brunei-Muara District;Batong
+0;115.1200,4.5775;BN-03;Temburong;Kampung Batang Duri
+0;115.1017,4.6618;BN;;Kampong Baru Baru
+0;114.8717,4.8797;BN-02;Brunei-Muara District;Kampong Bantun
+0;114.6167,4.6167;BN;;Kampong Bang Togor
+0;114.7244,4.6581;BN-04;Tutong;Kampung Menengah
+0;114.7821,4.8832;BN;;Kampong Bandong
+0;114.6636,4.6778;BN;;Kampong Pangkalan Dong
+0;114.8047,4.7908;BN-02;Brunei-Muara District;Kampong Baharu
+0;114.8167,4.7833;BN;;Kampong Ampar
+394;115.1046,4.6260;BN-03;Temburong;Kampung Amo
+329;114.7154,4.6815;BN;;Kampong Abang
+84;115.1096,4.7165;BN-03;Temburong;Kampung Batu Apoi
+3970;115.0717,4.7086;BN-03;Temburong;Bangar
+64409;114.9401,4.8903;BN-02;Brunei-Muara District;Bandar Seri Begawan
+0;114.8447,4.8375;BN-02;Brunei-Muara District;Masin
+1986;114.8232,4.8505;BN-02;Brunei-Muara District;Kulapis
+1082;114.1812,4.5845;BN-01;Belait;Kampung Sungai Teraban
+0;114.1967,4.5782;BN-01;Belait;Kampung Lubok Palam
+10250;114.9449,4.8826;BN-02;Brunei-Muara District;Kampong Ayer
+844;114.7638,4.8076;BN-02;Brunei-Muara District;Kampung Sungai Kelugos
+304;114.7668,4.7988;BN-02;Brunei-Muara District;Kampung Luagan Timbaran
+0;114.4205,4.2864;BN-01;Belait;Kampung Teraja
+0;114.4805,4.6577;BN-01;Belait;Kampung Sungai Lalit
+0;114.5771,4.5248;BN-01;Belait;Kampung Merangking Ulu
+0;114.4661,4.4046;BN-01;Belait;Kampung Kenapol
+0;114.3270,4.5996;BN-01;Belait;Kampung Lorong Tiga Selatan
+0;114.4167,4.6512;BN-01;Belait;Kampung Sungai Tali
+0;114.2477,4.5822;BN-01;Belait;Kampung Mumong B
+0;114.5546,4.5194;BN-01;Belait;Kampung Tarap
+0;114.5081,4.6776;BN-01;Belait;Kampung Sungai Gana
+0;114.4487,4.6663;BN-01;Belait;Kampung Lumut
+0;114.4382,4.3367;BN-01;Belait;Kampung Mendaram Kecil
+0;114.2117,4.5867;BN-01;Belait;Kampung Pandan A
+0;114.4628,4.4435;BN-01;Belait;Kampung Tanajor
+0;114.4646,4.4129;BN-01;Belait;Kampung Gates
+0;114.4494,4.6602;BN-01;Belait;Kampung Sungai Bakong
+0;114.2438,4.5916;BN-01;Belait;Kampung Pandan C
+0;114.4663,4.6546;BN-01;Belait;Kampung Lumut Tersusun
+0;114.5921,4.5226;BN-01;Belait;Kampung Merangking Hilir
+0;114.4651,4.4205;BN-01;Belait;Kampung Terunan
+0;114.4582,4.4050;BN-01;Belait;Kampung Kabi Lama
+0;114.2269,4.5763;BN-01;Belait;Kampung Mumong A
+0;114.4332,4.6571;BN-01;Belait;Kampung Sungai Taring
+0;114.4665,4.3805;BN-01;Belait;Kampung Simpang Tiga
+0;114.4712,4.6593;BN-01;Belait;Kampung Sungai Kuru
+0;114.2247,4.5881;BN-01;Belait;Kampung Pandan B
+0;114.3632,4.6123;BN-01;Belait;Kampung Sungai Bera
+0;114.5764,4.5355;BN-01;Belait;Kampung Pulau Apil
+0;114.4649,4.4533;BN-01;Belait;Kampung Kapang Lupak
+0;114.6381,4.3044;BN-01;Belait;Kampung Dungun
+0;114.4823,4.6672;BN-01;Belait;Kampung Agis-Agis
+0;114.5643,4.5098;BN-01;Belait;Kampung Bukit Kandol
+0;114.5648,4.5382;BN-01;Belait;Kampung Merangking
+0;114.4651,4.4256;BN-01;Belait;Kampung Ratan
+0;114.4665,4.3912;BN-01;Belait;Kampung Terawan
+0;115.1325,4.7014;BN-03;Temburong;Kampung Sungai Radang
+0;115.0458,4.6293;BN-03;Temburong;Kampung Simbatang
+0;115.1985,4.6762;BN-03;Temburong;Kampung Selapon
+0;115.0560,4.7027;BN-03;Temburong;Kampung Batang Tuau
+0;115.0703,4.7197;BN-03;Temburong;Kampung Menengah
+0;115.1831,4.7028;BN-03;Temburong;Kampung Sekurop
+0;115.2043,4.7473;BN-03;Temburong;Kampung Senukoh
+0;115.0763,4.6771;BN-03;Temburong;Kampung Lagau
+0;115.1813,4.7106;BN-03;Temburong;Kampung Lamaling
+0;115.0706,4.7258;BN-03;Temburong;Kampung Sungai Sulok
+0;115.0619,4.6505;BN-03;Temburong;Kampung Rataie
+0;115.1861,4.7625;BN-03;Temburong;Kampung Labu Estate
+0;115.0973,4.6476;BN-03;Temburong;Kampung Selangan
+0;115.0478,4.6410;BN-03;Temburong;Kampung Bakarut
+0;115.0732,4.6796;BN-03;Temburong;Kampung Piungan
+0;115.0625,4.7044;BN-03;Temburong;Kampung Seri Tanjong Belayang
+0;115.0684,4.6883;BN-03;Temburong;Kampung Kinalong
+0;115.1634,4.7038;BN-03;Temburong;Kampung Rebada
+0;115.0686,4.7155;BN-03;Temburong;Kampung Sungai Tanit
+0;115.1080,4.6063;BN-03;Temburong;Kampung Sumbiling Baru
+0;115.0879,4.6554;BN-03;Temburong;Kampung Sibulu
+0;115.1515,4.6986;BN-03;Temburong;Kampung Simbatang
+0;115.1966,4.7850;BN-03;Temburong;Kampung Piasau-Piasau
+0;114.6515,4.7821;BN-04;Tutong;Kampung Tanjong Panjang
+0;114.6564,4.7612;BN-04;Tutong;Kampung Liulon
+0;114.6485,4.6978;BN-04;Tutong;Kampung Sungai Damit Pemadang
+0;114.6505,4.7274;BN-04;Tutong;Kampung Bukit Udal
+0;114.5429,4.7138;BN-04;Tutong;Kampung Sungai Paku
+0;114.6977,4.6942;BN-04;Tutong;Kampung Bukit Barun
+0;114.6671,4.6001;BN-04;Tutong;Kampung Merimbun
+931;114.6629,4.8139;BN-04;Tutong;Bukit Bendera
+0;114.6598,4.7611;BN-04;Tutong;Kampung Bukit Sibut
+0;114.7830,4.4644;BN-04;Tutong;Kampung Belabau
+0;114.6501,4.7897;BN-04;Tutong;Kampung Serambangun
+300;114.7197,4.6704;BN-04;Tutong;Kampung Bintudoh
+0;114.5973,4.7187;BN-04;Tutong;Kampung Bukit Beruang
+634;114.7604,4.7542;BN-02;Brunei-Muara District;Kampung Batang Mitus
+0;114.6701,4.7057;BN-04;Tutong;Kampung Pemadang
+0;114.5815,4.7476;BN-04;Tutong;Kampung Keramut
+0;114.6364,4.5593;BN-04;Tutong;Kampung Long Mayan
+0;114.6601,4.7366;BN-04;Tutong;Kampung Bangunggos
+0;114.5834,4.7366;BN-04;Tutong;Kampung Bukit Pasir
+0;114.6927,4.6743;BN-04;Tutong;Kampung Biong
+0;114.5746,4.7499;BN-04;Tutong;Kampung Panapar Danau
+0;114.6334,4.6620;BN-04;Tutong;Kampung Pak Bidang
+0;114.6829,4.6645;BN-04;Tutong;Kampung Bukit Bang Dalam
+0;114.6877,4.6362;BN-04;Tutong;Kampung Panchung
+0;114.9057,4.8657;BN-02;Brunei-Muara District;Kampung Telanai
+0;114.9738,4.9581;BN-02;Brunei-Muara District;Kampung Sungai Tilong
+0;115.0232,4.9899;BN-02;Brunei-Muara District;Kampung Sungai Buloh
+0;114.9822,4.9104;BN-02;Brunei-Muara District;Kampung Belimbing
+0;114.9651,4.9379;BN-02;Brunei-Muara District;Kampung Sungai Akar
+0;114.8564,4.8924;BN-02;Brunei-Muara District;Kampung Tanjong Bunut
+0;114.8431,4.9028;BN-02;Brunei-Muara District;Kampung Sengkurong B
+0;115.0441,5.0368;BN-02;Brunei-Muara District;Kampung Meragang
+0;114.8739,4.8527;BN-02;Brunei-Muara District;Kampung Tasek Meradun
+0;114.9878,4.8999;BN-02;Brunei-Muara District;Kampung Sungai Matan
+0;114.9411,4.8776;BN-02;Brunei-Muara District;Kampung Sungai Kebun
+0;114.9466,4.8775;BN-02;Brunei-Muara District;Kampung Sungai Siamas
+0;114.9348,4.9653;BN-02;Brunei-Muara District;Kampung Terunjing
+0;114.9705,4.8714;BN-02;Brunei-Muara District;Kampung Gadong Batu
+0;115.0250,4.9548;BN-02;Brunei-Muara District;Kampung Pangkalan Sibabau
+0;114.9542,4.9439;BN-02;Brunei-Muara District;Kampung Pengiran Siraja Muda Delima Satu
+0;114.9837,4.9745;BN-02;Brunei-Muara District;Kampung Sungai Orok
+0;114.9249,4.9150;BN-02;Brunei-Muara District;Kampung Menglait
+0;115.0022,4.9132;BN-02;Brunei-Muara District;Kampung Sungai Belukut
+0;114.9403,4.8974;BN-02;Brunei-Muara District;Kampung Tasek Lama
+0;114.9330,4.8672;BN-02;Brunei-Muara District;Kampung Buang Tekurok
+0;114.9554,4.9383;BN-02;Brunei-Muara District;Kampung Orang Kaya Besar Imas
+0;114.9467,4.8916;BN-02;Brunei-Muara District;Kampung Kianggeh
+0;114.8448,4.9087;BN-02;Brunei-Muara District;Kampung Tagap
+0;115.0268,5.0023;BN-02;Brunei-Muara District;Kampung Salar
+0;114.8706,4.8470;BN-02;Brunei-Muara District;Kampung Bengkurong
+0;114.8622,4.8691;BN-02;Brunei-Muara District;Kampung Kilanas
+0;115.0148,4.9140;BN-02;Brunei-Muara District;Kampung Tanjong Kindana
+0;114.9341,4.9340;BN-02;Brunei-Muara District;Kampung Jaya Setia
+0;114.8471,4.8841;BN-02;Brunei-Muara District;Kampung Pasai
+0;114.9551,4.9568;BN-02;Brunei-Muara District;Kampung Madang
+0;114.9800,4.8928;BN-02;Brunei-Muara District;Kampung Dato Gandi
+0;114.8644,4.8277;BN-02;Brunei-Muara District;Kampung Burong Lepas
+0;114.7891,4.7417;BN-02;Brunei-Muara District;Kampung Bebuloh
+0;114.9368,4.8974;BN-02;Brunei-Muara District;Kampung Pusar Ulak
+0;114.9465,4.9368;BN-02;Brunei-Muara District;Kampung Anggerek Desa
+0;114.9314,4.9290;BN-02;Brunei-Muara District;Kampung Jaya Bakti
+0;114.9341,4.9135;BN-02;Brunei-Muara District;Kampung Melabau
+0;114.9615,4.9576;BN-02;Brunei-Muara District;Kampung Manggis
+0;114.9185,4.8445;BN-02;Brunei-Muara District;Kampung Panchor
+0;114.8174,4.7518;BN-02;Brunei-Muara District;Kampung Kuala Lurah
+0;114.8126,4.7638;BN-02;Brunei-Muara District;Kampung Batang Perhentian
+0;114.9215,4.8777;BN-02;Brunei-Muara District;Kampung Tumasek
+0;114.9377,4.8927;BN-02;Brunei-Muara District;Kampung Sumbiling Lama
+0;114.9393,4.9033;BN-02;Brunei-Muara District;Kampung Tungkadeh
+0;114.9514,4.9901;BN-02;Brunei-Muara District;Kampung Lambak Kiri
+0;114.8864,4.8961;BN-02;Brunei-Muara District;Kampung Perpindahan Mata-Mata
+0;114.8347,4.8123;BN-02;Brunei-Muara District;Kampung Parit
+0;114.9467,4.8731;BN-02;Brunei-Muara District;Kampung Setia A
+0;114.9473,4.8650;BN-02;Brunei-Muara District;Kampung Setia B
+0;114.9567,4.8752;BN-02;Brunei-Muara District;Kampung Pintu Malim
+0;115.1002,4.7092;BN-03;Temburong;Kampung Tanjong Bungar
+169;114.7337,4.7669;BN-04;Tutong;Bekiau
+8;114.7790,4.6367;BN-04;Tutong;Hutan Simpan Bukit Ladan
+267;114.6952,4.6788;BN-04;Tutong;Kampung Biong
+161;114.6821,4.6630;BN-04;Tutong;Kampong Bukit Bang Dalam
+201;114.7123,4.6990;BN-04;Tutong;Kampung Bukit Barun
+143;114.7266,4.6579;BN-04;Tutong;Kampung Menengah
+398;114.6776,4.6399;BN-04;Tutong;Kampung Panchung

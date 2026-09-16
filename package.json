@@ -5,7 +5,7 @@
   "private": true,
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node --max-old-space-size=8192 server.js",
     "build-bundles": "node scripts/build-data-bundles.js",
     "postinstall": "node scripts/build-data-bundles.js || echo [postinstall] build-data-bundles a echoue -- non bloquant, voir server.js pour le repli"
   },

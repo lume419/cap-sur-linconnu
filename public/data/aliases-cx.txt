@@ -1,0 +1,15 @@
+de;The Settlement;Flying Fish Cove
+en;The Settlement;Flying Fish Cove
+fr;The Settlement;Flying Fish Cove
+it;The Settlement;Flying Fish Cove
+pt;The Settlement;Flying Fish Cove
+ar;فلاينغ فيش كوف;Flying Fish Cove
+hi;फ्लाइंग फिश कोव;Flying Fish Cove
+ja;フライング・フィッシュ・コーブ;Flying Fish Cove
+ko;플라잉피시코브;Flying Fish Cove
+pa;ਫ਼ਲਾਇੰਗ ਫ਼ਿਸ਼ ਕੋਵ;Flying Fish Cove
+ta;பிளையிங் பிஷ் கோவ்;Flying Fish Cove
+th;ฟลายอิงฟิชโคฟ;Flying Fish Cove
+ur;فلائینگ فش کوو;Flying Fish Cove
+ru;Флайинг-Фиш-Коув;Flying Fish Cove
+zh;飞鱼湾;Flying Fish Cove

@@ -1,0 +1,384 @@
+fa;یوواک;Yuwak
+ur;یوک;Yuwak
+ru;Вангди Подранг;Wangdue Phodrang
+ar;وانغدو فودرانغ;Wangdue Phodrang
+kk;Уангдү Подранг;Wangdue Phodrang
+ky;Вангдүү Подранг;Wangdue Phodrang
+hi;वांगड्यू फोद्रांग;Wangdue Phodrang
+bn;ওয়াংডিউ ফোদ্রাং;Wangdue Phodrang
+ur;وانگدیو فوڈرانگ;Wangdue Phodrang
+fa;وانگدو فودرانگ;Wangdue Phodrang
+ja;ワングデュ・ポドラン;Wangdue Phodrang
+pa;ਵਾਂਗਡਿਊ ਫੋਦ੍ਰਾਂਗ;Wangdue Phodrang
+ps;وانګدو فودرانګ;Wangdue Phodrang
+tg;Вангдӣ Подранг;Wangdue Phodrang
+fa;وانچوکلینگ;Wangchukling
+fa;تسه کانگ;Tse Kang
+fa;تورموشنگسا;Tormoshangsa
+ru;Тонгса;Trongsa
+ar;ترونغسا;Trongsa
+kk;Тронгса;Trongsa
+ky;Тронгса;Trongsa
+hi;ट्रोंगसा;Trongsa
+bn;ট্রোংসা;Trongsa
+ur;ٹرونگسا;Trongsa
+fa;ترونگسا;Trongsa
+ja;トロンサ;Trongsa
+pa;ਟ੍ਰੋਂਗਸਾ;Trongsa
+ps;ترونګسا;Trongsa
+tg;Тронгса;Trongsa
+fa;تونگلا کنگا;Tongla Kenga
+fa;توبرنگ;Tobrang
+fa;خنپا دزون;Khenpa Dzong
+fa;ثوم‌گاآن;Thumgaon
+fr;Thimphou;Thimphu
+hi;थिम्फू;Thimphu
+ja;ティンプー;Thimphu
+ko;팀부;Thimphu
+pt;Thimbu;Thimphu
+ru;Тхимпху;Thimphu
+ta;திம்பு;Thimphu
+zh;廷布;Thimphu
+es;Timbu;Thimphu
+ar;تيمفو;Thimphu
+or;ଥିମ୍ପୁ;Thimphu
+mn;Тхимпху;Thimphu
+tg;Тхимпху;Thimphu
+ml;തിംഫു;Thimphu
+ur;تھمپو;Thimphu
+fa;تیمفو;Thimphu
+th;ทิมพู;Thimphu
+tl;Timbu;Thimphu
+dz;ཐིམ་ཕུུུུ;Thimphu
+ug;تىمپۇ;Thimphu
+mr;थिंफू;Thimphu
+bn;থিম্ফু;Thimphu
+bo;ཐིམ་ཕུ།;Thimphu
+te;థింపూ;Thimphu
+pa;ਥਿੰਫੂ;Thimphu
+kn;ಥಿಂಪು;Thimphu
+yue;廷布;Thimphu
+ky;Тхимпху;Thimphu
+ne;थिम्पू;Thimphu
+si;තිම්පු;Thimphu
+fa;ثبانگ;Thebong
+ru;Траши Янгце;Trashi Yangtse
+ar;تراشي يانغتسي;Trashi Yangtse
+kk;Траши Янгце;Trashi Yangtse
+ky;Траши Янгце;Trashi Yangtse
+hi;ट्राशी यांगत्से;Trashi Yangtse
+bn;ট্রাশি ইয়াংসে;Trashi Yangtse
+ur;ٹراشی یانگتسے;Trashi Yangtse
+fa;تراشی یانگتسه;Trashi Yangtse
+ja;トラシ・ヤングツェ;Trashi Yangtse
+pa;ਟ੍ਰਾਸ਼ੀ ਯਾਂਗਸੇ;Trashi Yangtse
+ps;تراشي يانګتسې;Trashi Yangtse
+tg;Траши Янгце;Trashi Yangtse
+en;Tashigang;Trashigang
+ru;Трашиганг;Trashigang
+ar;تراشيغانغ;Trashigang
+kk;Трашиганг;Trashigang
+ky;Трашиганг;Trashigang
+hi;ट्राशिगंग;Trashigang
+bn;ট্রাশিগাং;Trashigang
+ur;ٹراشیگنگ;Trashigang
+fa;تراشیگنگ;Trashigang
+ja;トラシガン;Trashigang
+pa;ਟ੍ਰਾਸ਼ੀਗੰਗ;Trashigang
+ps;تراشيګنګ;Trashigang
+tg;Трашиганг;Trashigang
+fa;تمجی;Tamji
+ru;Дага;Daga
+ar;داغا;Daga
+kk;Дага;Daga
+ky;Дага;Daga
+hi;डागा;Daga
+bn;ডাগা;Daga
+ur;ڈاگا;Daga
+fa;داگا;Daga
+ja;ダガ;Daga
+pa;ਡਾਗਾ;Daga
+ps;داګا;Daga
+tg;Дага;Daga
+fa;سوچا;Suchha
+ru;Сингье-дзонг;Singye Dzong
+ja;シンゲ・ゾン;Singye Dzong
+fa;سینگی دزونگ;Singye Dzong
+fa;شودوگ;Shodug
+fa;شینگ‌کاراپ;Shingkarap
+fa;شینگبه;Shingbe
+fa;شریطنگ;Sharithang
+fa;شاپنگ;Shapang
+ru;Шемганг;Shemgang
+ar;شيمغانغ;Shemgang
+kk;Шемганг;Shemgang
+ky;Шемганг;Shemgang
+hi;शेमगंग;Shemgang
+bn;শেমগাং;Shemgang
+ur;شیمگنگ;Shemgang
+fa;شمگنگ;Shemgang
+ja;シェムガン;Shemgang
+pa;ਸ਼ੇਮਗੰਗ;Shemgang
+ps;شیمګنګ;Shemgang
+tg;Шемганг;Shemgang
+fa;سنگور;Sengor
+fa;ساسوکا;Sasoka
+ru;Сарпанг;Sarpang
+ar;سارپانغ;Sarpang
+kk;Сарпанг;Sarpang
+ky;Сарпанг;Sarpang
+hi;सारपंग;Sarpang
+bn;সারপাং;Sarpang
+ur;سارپنگ;Sarpang
+fa;سارپنگ;Sarpang
+ja;サルパン;Sarpang
+pa;ਸਾਰਪੰਗ;Sarpang
+ps;سارپنګ;Sarpang
+tg;Сарпанг;Sarpang
+fa;سنگکری;Sangkari
+fa;ساکتنگ;Sakteng
+fa;سائیدو;Saidu
+ur;سیدو;Saidu
+fa;رانگ‌زونگ;Rungzyung
+es;Distrito de Punakha;Punākha
+de;Punakha;Punākha
+en;Punakha;Punākha
+dz;སྤུ་ན་ཁ་;Punākha
+nl;Dzongkhag Punakha;Punākha
+ru;Пунакха;Punākha
+zh;普那卡;Punākha
+ar;بوناخا;Punākha
+kk;Пунакха;Punākha
+tr;Punakha;Punākha
+uz;Punakha;Punākha
+ky;Пунакха;Punākha
+id;Punakha;Punākha
+ms;Punakha;Punākha
+fr;Punakha;Punākha
+hi;पुनाखा;Punākha
+bn;পুনাখা;Punākha
+ur;پوناکھا;Punākha
+fa;پوناخا;Punākha
+ja;プナカ;Punākha
+jv;Punakha;Punākha
+pa;ਪੁਨਾਖਾ;Punākha
+ps;پوناخا;Punākha
+pt;Punakha;Punākha
+tg;Пунакха;Punākha
+fa;پینسوپری;Pinsoperi
+fa;پیمی;Pimi
+de;Phuentsholing;Phuntsholing
+it;Phuentsholing;Phuntsholing
+ceb;Phuentsholing;Phuntsholing
+dz;ཕུན་ཚོགས་གླིང་;Phuntsholing
+ko;푼촐링;Phuntsholing
+ne;फुन्छोलिङ्ग;Phuntsholing
+ur;پھونتشولنگ;Phuntsholing
+ru;Пхунчолинг;Phuntsholing
+zh;彭措林;Phuntsholing
+hi;पारो-भूटान;Paro
+ru;Паро;Paro
+ja;パロ;Paro
+ko;파로;Paro
+ur;پارو، بھوٹان;Paro
+zh;帕羅;Paro
+ar;بارو;Paro
+kk;Паро;Paro
+ky;Паро;Paro
+bn;পারো;Paro
+fa;پارو;Paro
+pa;ਪਾਰੋ;Paro
+ps;پارو;Paro
+tg;Паро;Paro
+fa;پاچو;Pachu
+fa;نینگسنگ لا;Ningsang La
+fa;ناسپه;Naspe
+fa;نکت‌سانگ;Naktsang
+fa;مونکا;Monka
+ru;Монгар;Mongar
+ar;مونغار;Mongar
+kk;Монгар;Mongar
+ky;Монгар;Mongar
+hi;मोंगार;Mongar
+bn;মোংগার;Mongar
+ur;مونگار;Mongar
+fa;مونگار;Mongar
+ja;モンガル;Mongar
+pa;ਮੋਂਗਾਰ;Mongar
+ps;مونګار;Mongar
+tg;Монгар;Mongar
+fa;مانیکیانگسا;Manikyangsa
+fa;لوبنیگ;Lobnig
+ru;Лхуэнце;Lhuentse
+ar;لهوينتسي;Lhuentse
+kk;Лхуэнце;Lhuentse
+ky;Лхуэнце;Lhuentse
+hi;ल्हुएंत्से;Lhuentse
+bn;ল্হুয়েনসে;Lhuentse
+ur;لھوینتسے;Lhuentse
+fa;لهوئنتسه;Lhuentse
+ja;ルェンツェ;Lhuentse
+pa;ਲ੍ਹਉਂਤਸੇ;Lhuentse
+ps;لهوینتسې;Lhuentse
+tg;Лхуэнце;Lhuentse
+fa;چاپچا;Chapchha
+fr;Chapcha;Chapchha
+fa;کونگ‌تار;Kungtar
+fa;کیسونا;Kisona
+fa;خیتوخا;Khitokha
+fa;کچونگکا;Kechungka
+fa;کانگپار;Kangpar
+en;Gelyephug;Geylegphug
+en;Gelephu;Geylegphug
+de;Gelephu;Geylegphug
+fr;Gelephu;Geylegphug
+dz;དགེ་ལེགས་ཕུ་;Geylegphug
+ru;Ха;Ha
+ar;ها;Ha
+kk;Ха;Ha
+ky;Ха;Ha
+hi;हा;Ha
+bn;হা;Ha
+ur;ہا;Ha
+fa;ها;Ha
+ja;ハ;Ha
+pa;ਹਾ;Ha
+ps;ها;Ha
+tg;Ха;Ha
+fa;غنكره;Ghunkarah
+ru;Газа;Gasa
+ar;غاسا;Gasa
+kk;Газа;Gasa
+ky;Газа;Gasa
+hi;गासा;Gasa
+bn;গাসা;Gasa
+ur;گاسا;Gasa
+fa;گاسا;Gasa
+ja;ガサ;Gasa
+pa;ਗਾਸਾ;Gasa
+ps;ګاسا;Gasa
+tg;Газа;Gasa
+fa;دونگنا;Dungna
+fa;دوتانانگ;Dotanang
+fa;دورینگ;Doring
+fa;دافو;Daphu
+fa;چویول;Chuyul
+ru;Цирань;Tsirang
+ar;تسيرانغ;Tsirang
+kk;Цирань;Tsirang
+ky;Цирань;Tsirang
+hi;त्सिरांग;Tsirang
+bn;সিরাং;Tsirang
+ur;تسیرانگ;Tsirang
+fa;تسیرانگ;Tsirang
+ja;ツィラン;Tsirang
+pa;ਤ੍ਸਿਰਾਂਗ;Tsirang
+ps;تسيرانګ;Tsirang
+tg;Цирань;Tsirang
+ru;Чукха;Tsimasham
+ar;تسيماشام;Tsimasham
+kk;Цимашам;Tsimasham
+ky;Цимашам;Tsimasham
+hi;त्सिमाशम;Tsimasham
+bn;সিমাশাম;Tsimasham
+ur;تسیماشام;Tsimasham
+fa;تسیماشام;Tsimasham
+ja;ツィマシャム;Tsimasham
+pa;ਤ੍ਸਿਮਾਸ਼ਾਮ;Tsimasham
+ps;تسيماشام;Tsimasham
+tg;Цимашам;Tsimasham
+fa;چمائیتو;Chemaito
+fa;چانگچوخا دزونگ;Changchukha Dzong
+fa;چالایکا;Chalaika
+fa;بوآرادینگا;Byaradingka
+fa;بیتانا;Bitana
+bn;বিতানা;Bitana
+fa;بورگاون;Bhurgaon
+bn;ভুরগাঁও;Bhurgaon
+fa;بالفای;Balfai
+bn;বালফাই;Balfai
+fa;اتانگ;Alla
+nl;Oola;Alla
+ur;جاکر;Jakar
+ru;Джакар;Jakar
+ar;جاكار;Jakar
+kk;Джакар;Jakar
+ky;Джакар;Jakar
+hi;जाकार;Jakar
+bn;জাকার;Jakar
+fa;جاکار;Jakar
+ja;ジャカル;Jakar
+pa;ਜਾਕਾਰ;Jakar
+ps;جاکار;Jakar
+tg;Джакар;Jakar
+fa;کورجی;Kurjey
+ru;Панбанг;Panbang
+ru;Самце;Samtse
+ar;سامتسي;Samtse
+kk;Самце;Samtse
+ky;Самце;Samtse
+hi;समत्से;Samtse
+bn;সামতসে;Samtse
+ur;سامتسے;Samtse
+fa;سامتسه;Samtse
+ja;サムツェ;Samtse
+pa;ਸਾਮਤਸੇ;Samtse
+ps;سامتسې;Samtse
+tg;Самце;Samtse
+fa;سیبسو;Sibsu
+ru;Дампху;Damphu
+ja;ダンプー;Damphu
+fa;دامفو، تسیرانگ;Damphu
+ja;ダガペラ;Dagapela
+bn;দাগাপেলা;Dagapela
+fa;تریمشینگ;Thrimshing
+ru;Вамронг;Wamrong
+fa;وارونگ;Wamrong
+ru;Пемагатшел;Pemagatshel
+ar;بيماغاتشيل;Pemagatshel
+kk;Пемагатшел;Pemagatshel
+ky;Пемагатшел;Pemagatshel
+hi;पेमागत्शेल;Pemagatshel
+bn;পেমাগাতশেল;Pemagatshel
+ur;پیماگتشیل;Pemagatshel
+fa;پماگتشل;Pemagatshel
+ja;ペマガツェル;Pemagatshel
+pa;ਪੇਮਾਗਤਸ਼ੇਲ;Pemagatshel
+ps;پیماګتشیل;Pemagatshel
+tg;Пемагатшел;Pemagatshel
+fa;تسینانگ;Tseshinang
+ru;Дамтханг;Damthang
+fa;دامتنگ;Damthang
+ur;دامتھانگ;Damthang
+fa;آتشو چوبار;Atsho Chhubar
+bn;আতশো ছুবার;Atsho Chhubar
+ru;Дайфам;Daifam
+bn;দাইফাম;Daifam
+bn;ভাংটার;Bhangtar
+ru;Самдруп Джонгкхар;Samdrup Jongkhar
+ar;سامدروب جونغخار;Samdrup Jongkhar
+kk;Самдруп Джонгкхар;Samdrup Jongkhar
+ky;Самдруп Джонгкхар;Samdrup Jongkhar
+hi;सामद्रुप जोंगखर;Samdrup Jongkhar
+bn;সামদ্রুপ জোংখার;Samdrup Jongkhar
+ur;سامدروپ جونگخار;Samdrup Jongkhar
+fa;سامدروپ جونگخار;Samdrup Jongkhar
+ja;サムドゥルプ・ジョンカル;Samdrup Jongkhar
+pa;ਸਾਮਦ੍ਰੁਪ ਜੋਂਗਖਾਰ;Samdrup Jongkhar
+ps;سامدروپ جونګخار;Samdrup Jongkhar
+tg;Самдруп Джонгкхар;Samdrup Jongkhar
+ru;Канглунг;Kanglung
+dz;བཀང་ལུང་།;Kanglung
+fa;کانگلونگ;Kanglung
+ru;Лунгтензампа;Lungtenzampa
+ar;لونغتنزامبا;Lungtenzampa
+kk;Лунгтензампа;Lungtenzampa
+ky;Лунгтензампа;Lungtenzampa
+hi;लुंगतेंजम्पा;Lungtenzampa
+bn;লুংটেনজাম্পা;Lungtenzampa
+ur;لنگتنزمپا;Lungtenzampa
+fa;لنگتنزامپا;Lungtenzampa
+ja;ルングテンザムパ;Lungtenzampa
+pa;ਲੁੰਗਤੇਨਜਾਮਪਾ;Lungtenzampa
+ps;لنګتنزمپا;Lungtenzampa
+tg;Лунгтензампа;Lungtenzampa

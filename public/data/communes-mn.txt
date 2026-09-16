@@ -1,0 +1,1530 @@
+0;99.0333,46.2000;MN-02;Bayankhongor;Yumiin Jisa
+0;96.5500,48.8167;MN-09;Dzabkhan;Yihe Bulagiin Dugang
+0;96.6000,47.7167;MN-09;Dzabkhan;Yaaruugiin Hüryee
+0;92.0167,46.0500;MN-12;Hovd;Üyönch
+0;89.6167,48.9000;MN-03;Bayan-Ölgii Province;Uujim
+0;92.6500,47.8333;MN-12;Hovd;Urdgol
+0;94.7000,45.9833;MN-10;Govi-Altai Province;Urda Goliin Bayshing
+0;97.8500,46.0500;MN-10;Govi-Altai Province;Üneen-Us
+16265;96.8444,47.7417;MN-09;Dzabkhan;Uliastay
+0;91.2500,48.9167;MN-03;Bayan-Ölgii Province;Uliast
+0;96.8333,48.6333;MN-09;Dzabkhan;Ulagchin
+0;99.0833,46.5833;MN-02;Bayankhongor;Ulaan Tologoyn Jisa
+0;92.7833,46.6833;MN-12;Hovd;Ulaantolgoy
+30092;92.0667,49.9811;MN-19;Uvs Province;Ulaangom
+0;99.7000,47.1333;MN-02;Bayankhongor;Ulaan Chuluutayn Örtöö
+0;99.8000,48.6167;MN-13;Khövsgöl Province;Ulaan Chuluutayn Dugang
+0;99.7000,48.4333;MN-13;Khövsgöl Province;Ulaan Chuluutayn Dugang
+0;99.8500,48.0333;MN-01;Arkhangai Province;Ulaan Chuluutayn Dugang
+0;98.8833,47.9500;MN-01;Arkhangai Province;Ujigiin Talaiin Dugang
+0;98.8000,42.7500;MN-02;Bayankhongor;Tu-tzu-han-su-hai
+0;95.2500,45.8167;MN-10;Govi-Altai Province;Türgen
+0;96.2833,46.3333;MN-10;Govi-Altai Province;Tümen
+0;98.4000,46.5167;MN-02;Bayankhongor;Tsorjiin Hüryee
+0;95.2500,47.5833;MN-09;Dzabkhan;Tsogtjargalan
+0;97.0333,49.5000;MN-13;Khövsgöl Province;Tsetserligiin Örtöö
+0;94.4000,45.8000;MN-10;Govi-Altai Province;Tsetserligiin Bayshing
+0;94.8584,49.2713;MN-19;Uvs Province;Tsetserleg
+0;96.5000,45.7500;MN-10;Govi-Altai Province;Tsetserengiin Dugang
+0;93.2667,46.6000;MN-12;Hovd;Tsetsegnuur
+0;92.1167,46.9167;MN-12;Hovd;Tsenher
+0;88.9000,48.7500;MN-03;Bayan-Ölgii Province;Tsengel Hayrhan Suma
+0;95.8667,45.5667;MN-10;Govi-Altai Province;Tseel
+0;98.6333,48.5667;MN-09;Dzabkhan;Tsartayn Hüryee
+0;93.2667,49.7167;MN-19;Uvs Province;Tsalgar
+0;98.8517,48.0797;MN-01;Arkhangai Province;Tsahir
+0;92.8833,50.0167;MN-19;Uvs Province;Tsahildagiin Örtöö
+0;93.4000,46.8167;MN-12;Hovd;Tsagarim Bayshing
+0;98.0333,44.9667;MN-10;Govi-Altai Province;Tsagaan-Uul
+0;90.4000,49.0667;MN-03;Bayan-Ölgii Province;Tsagaan Tünheiin Hüryee
+0;90.4500,49.0500;MN-03;Bayan-Ölgii Province;Tsagaantüngi
+0;97.7000,48.8833;MN-09;Dzabkhan;Tsagaan Tologoyn Hural
+0;96.5259,46.7133;MN-10;Govi-Altai Province;Tsagaan-Olom
+200;89.7329,49.5094;MN-03;Bayan-Ölgii Province;Tsagaannuur
+0;89.0833,48.9833;MN-03;Bayan-Ölgii Province;Tsagaangol
+0;92.3333,47.6000;MN-12;Hovd;Tsagaan Gol
+0;93.9500,46.7500;MN-12;Hovd;Tsagaan Ergin Bayshing
+0;96.6714,47.1120;MN-09;Dzabkhan;Tsagaanchuluut
+0;93.5000,49.7000;MN-19;Uvs Province;Tsagaan Burgaasa Örtöö
+0;92.7500,47.1667;MN-12;Hovd;Tsagaan Burgaasanii Hüryee
+0;98.9833,50.0667;MN-13;Khövsgöl Province;Tsagaan Bulagiin Dugang
+9526;98.2839,48.7567;MN-09;Dzabkhan;Tosontsengel
+0;93.5833,50.4667;MN-19;Uvs Province;Tooromt
+0;90.2833,48.4167;MN-03;Bayan-Ölgii Province;Tolbo
+0;92.2244,47.4241;MN-12;Hovd;Tögrög
+0;94.8154,45.8298;MN-10;Govi-Altai Province;Tögrög
+0;91.4000,49.9167;MN-19;Uvs Province;Togos Bülteyn Hüryee
+0;92.1667,47.4167;MN-12;Hovd;Tögörigiin Süme
+0;96.6667,45.3333;MN-10;Govi-Altai Province;Tögörigiin Hüryee
+0;94.8000,45.8167;MN-10;Govi-Altai Province;Tögörigiin Bayshing
+0;99.2333,50.6833;MN-13;Khövsgöl Province;Tögöl
+0;97.3333,45.6333;MN-10;Govi-Altai Province;Tergetiin Bayshing
+0;97.9167,46.7000;MN-02;Bayankhongor;Tegshin Bayantayn Hüryee
+0;95.9833,48.7500;MN-09;Dzabkhan;Tegshiin Hüryee
+0;95.9997,48.7513;MN-09;Dzabkhan;Tegsh
+0;98.5000,47.9667;MN-01;Arkhangai Province;Teeliin Dugang
+0;99.9000,49.2833;MN-13;Khövsgöl Province;Teel
+0;90.9667,47.2500;MN-03;Bayan-Ölgii Province;Taylag Suma
+0;97.3663,46.3536;MN-10;Govi-Altai Province;Taygan
+0;95.5500,48.9167;MN-09;Dzabkhan;Taryaatayn Baraanii Bayshing
+0;99.4000,48.2167;MN-01;Arkhangai Province;Taryaata Hüryee
+0;99.1667,46.0500;MN-02;Bayankhongor;Taryaanii Jisa
+0;88.6000,49.2667;MN-03;Bayan-Ölgii Province;Tarhatay
+0;93.8833,46.1000;MN-10;Govi-Altai Province;Tamch
+0;97.9833,45.3333;MN-10;Govi-Altai Province;Talshand
+0;96.6457,45.3466;MN-10;Govi-Altai Province;Tahilt
+0;95.1333,46.1833;MN-10;Govi-Altai Province;Sundalta Bayshing
+0;98.9833,45.1667;MN-02;Bayankhongor;Sümeiin Hiid
+0;99.5161,50.1581;MN-13;Khövsgöl Province;Sümber
+0;96.6333,45.0667;MN-10;Govi-Altai Province;Suhaytayn Bulag
+0;93.6333,46.8000;MN-12;Hovd;Sudayn Hüryee
+0;89.0000,49.3833;MN-03;Bayan-Ölgii Province;Suoku
+0;98.2833,48.7833;MN-09;Dzabkhan;Shumuultay
+0;96.8031,47.4971;MN-09;Dzabkhan;Shiree
+0;98.8000,49.8000;MN-13;Khövsgöl Province;Sharga
+0;98.6921,49.5973;MN-13;Khövsgöl Province;Sharga
+0;95.2667,46.2500;MN-10;Govi-Altai Province;Sharga
+0;93.1000,48.8167;MN-19;Uvs Province;Sharbulag
+0;95.2667,45.6000;MN-10;Govi-Altai Province;Shara Belchiriin Bayshing
+0;91.2833,48.9167;MN-19;Uvs Province;Shabiin Hüryee
+0;94.5245,47.3573;MN-10;Govi-Altai Province;Sayn-Ust
+0;97.0167,47.0167;MN-09;Dzabkhan;Santayn Hüryee
+0;97.7500,45.1333;MN-10;Govi-Altai Province;Sangiyn Dalay
+0;97.7667,45.1500;MN-10;Govi-Altai Province;Sangiin Dalayn Hüryee
+0;97.7667,46.9500;MN-02;Bayankhongor;Sangiin Dalay Hüryee
+0;96.7500,44.9167;MN-10;Govi-Altai Province;Salgar
+0;90.6986,47.8659;MN-03;Bayan-Ölgii Province;Rashaant
+0;89.2833,49.1667;MN-03;Bayan-Ölgii Province;Oygor
+0;96.5434,48.9856;MN-09;Dzabkhan;Oygon
+0;94.8333,46.6000;MN-10;Govi-Altai Province;Ovoot
+0;97.6186,48.6428;MN-09;Dzabkhan;Övögdiy
+0;97.2833,47.2333;MN-09;Dzabkhan;Örgön Shirigiin Hüryee
+0;99.3508,48.5872;MN-13;Khövsgöl Province;Orgil
+0;95.0667,49.6833;MN-19;Uvs Province;Öndörhangay-Sum
+0;98.6167,46.5333;MN-02;Bayankhongor;Olon Bulagiin Bayshing
+28400;89.9625,48.9683;MN-03;Bayan-Ölgii Province;Ölgii
+0;98.5833,47.3000;MN-02;Bayankhongor;Öldzeyteyn Horshoo
+0;98.2333,45.4667;MN-10;Govi-Altai Province;Öldzeyte Bulagiin Hiid
+0;95.0833,46.0167;MN-10;Govi-Altai Province;Ögöömöriin Bayshing
+0;96.2000,47.5000;MN-09;Dzabkhan;Ögöömör
+0;99.2667,48.0833;MN-01;Arkhangai Province;Oboonii Bulangiin Dugang
+0;95.1167,48.3167;MN-09;Dzabkhan;Nuga
+0;99.4167,47.7167;MN-01;Arkhangai Province;Noyon Hangay Ashan
+0;99.4167,49.2500;MN-13;Khövsgöl Province;Nomtoyn Dugang
+0;90.2420,49.6163;MN-03;Bayan-Ölgii Province;Nogoonnuur
+0;91.7500,48.8667;MN-12;Hovd;Naydanii Hüryee
+0;99.7000,48.2500;MN-01;Arkhangai Province;Nariin Hüryee
+0;99.7000,47.9500;MN-01;Arkhangai Province;Nariin Gichigeneiin Dugang
+0;96.0833,48.9500;MN-09;Dzabkhan;Narangiin Dugang
+0;92.5667,49.3667;MN-19;Uvs Province;Naranbulag
+0;93.0000,47.5000;MN-12;Hovd;Naranbulag
+0;98.2903,48.4736;MN-09;Dzabkhan;Naran
+0;96.5000,46.1000;MN-10;Govi-Altai Province;Naran
+0;96.8333,46.7000;MN-10;Govi-Altai Province;Narabanchinii Hüryee
+0;91.7667,49.1833;MN-19;Uvs Province;Namiriin Hüryee
+0;91.7178,49.1064;MN-19;Uvs Province;Namir
+0;96.7333,45.8167;MN-10;Govi-Altai Province;Namaldzaagiin Dugang
+0;99.0500,47.7167;MN-01;Arkhangai Province;Mürengiin Hüryee
+0;93.3000,46.9000;MN-12;Hovd;Mörön
+0;94.2333,49.4000;MN-19;Uvs Province;Tsagaanhayrhan
+0;95.7500,49.8667;MN-09;Dzabkhan;Mogoyn Hüryee
+0;95.0833,47.0833;MN-10;Govi-Altai Province;Mogoyn Hüryee
+0;95.8167,46.3667;MN-10;Govi-Altai Province;Mogoyn Bayshing
+0;91.6667,48.4833;MN-12;Hovd;Mingat Hüryee
+0;98.8333,46.1667;MN-02;Bayankhongor;Mandaliin Jisa
+0;99.4333,49.9000;MN-13;Khövsgöl Province;Mandal
+0;99.6000,48.7667;MN-13;Khövsgöl Province;Mandahaiin Hüryee
+0;89.7167,49.3000;MN-03;Bayan-Ölgii Province;Khoilik
+0;98.9000,48.9500;MN-09;Dzabkhan;Jodiin Dugang
+0;97.1667,45.7167;MN-10;Govi-Altai Province;Jirgalantayn Datsang
+0;97.8333,49.2000;MN-13;Khövsgöl Province;Jirantayn Dugang
+0;95.4479,49.3068;MN-19;Uvs Province;Jargalant
+0;99.6333,47.1500;MN-02;Bayankhongor;Jargalant
+5137;91.0878,46.9267;MN-03;Bayan-Ölgii Province;Jargalant
+0;97.1760,45.7095;MN-10;Govi-Altai Province;Jargalant
+0;99.9000,48.7000;MN-13;Khövsgöl Province;Ideriin Suma
+0;99.8739,48.7728;MN-13;Khövsgöl Province;Ider
+0;99.2500,51.1500;MN-13;Khövsgöl Province;Ibeeteyn Hüryee
+0;93.6667,46.5000;MN-10;Govi-Altai Province;Hüytenii Jisa
+0;98.9611,48.8647;MN-09;Dzabkhan;Huyagt
+0;93.7500,49.2000;MN-19;Uvs Province;Hüryee Deresenii Örtöö
+0;88.9667,48.5000;MN-03;Bayan-Ölgii Province;Hurimiin Suma
+0;99.4667,47.8667;MN-01;Arkhangai Province;Hunt
+0;93.5000,48.8333;MN-19;Uvs Province;Hunhata-Örtöö
+0;94.2943,48.5167;MN-09;Dzabkhan;Hungiy
+0;98.9500,48.8667;MN-09;Dzabkhan;Hulhatayn Hüryee
+0;95.4500,46.7000;MN-10;Govi-Altai Province;Hujirtayn Örtöö
+0;91.1333,47.1000;MN-03;Bayan-Ölgii Province;Hujirt
+0;98.5714,47.2312;MN-02;Bayankhongor;Höviyn Am
+0;90.5167,49.3000;MN-03;Bayan-Ölgii Province;Hovd
+0;89.1436,48.9478;MN-03;Bayan-Ölgii Province;Höshööt
+0;97.6333,45.6333;MN-10;Govi-Altai Province;Khurkhurogiin Khure
+0;96.0000,46.8000;MN-10;Govi-Altai Province;Hongoriin Hüryee
+0;90.9333,48.4000;MN-12;Hovd;Hongo
+0;99.9500,48.9000;MN-13;Khövsgöl Province;Hongiin Hüryee
+0;95.4326,48.5888;MN-09;Dzabkhan;Holboo
+0;90.9102,49.2800;MN-19;Uvs Province;Höhtolgoy
+0;96.9626,48.8728;MN-09;Dzabkhan;Hödrögö
+0;99.8667,49.8000;MN-13;Khövsgöl Province;Hitagiin Dugang
+0;96.4000,49.8000;MN-09;Dzabkhan;Hetseegiin Hiid
+0;93.5833,45.1667;MN-10;Govi-Altai Province;Hayrhan
+0;96.0000,46.9500;MN-10;Govi-Altai Province;Hayaagiin Bayshing
+0;91.6667,50.1000;MN-19;Uvs Province;Havtsal
+0;95.6667,46.5500;MN-10;Govi-Altai Province;Hasagt
+0;92.0333,49.0333;MN-19;Uvs Province;Har-Us
+0;91.4333,48.4833;MN-12;Hovd;Har-Us
+0;91.6064,50.3413;MN-19;Uvs Province;Harmod
+0;91.9042,49.7785;MN-19;Uvs Province;Harhiraa
+0;94.2333,49.6667;MN-19;Uvs Province;Hargan-Tologoy-Örtöö
+0;92.9333,47.5333;MN-12;Hovd;Hargana
+0;98.5333,47.3000;MN-02;Bayankhongor;Hara Usanii Hüryee
+0;97.2667,49.4667;MN-13;Khövsgöl Province;Hara Boomiin Örtöö
+0;95.2500,49.3000;MN-19;Uvs Province;Hanhöhiy-Hüree
+0;97.6000,48.2500;MN-09;Dzabkhan;Hambaiin Hüryee
+0;96.2500,46.0833;MN;;Hamba Gegeenii Hüryee
+0;97.6667,47.4167;MN-09;Dzabkhan;Haltariin Hüryee
+0;96.1624,45.9296;MN-10;Govi-Altai Province;Haliun
+0;97.7409,49.5288;MN-13;Khövsgöl Province;Halban
+0;98.1667,46.9000;MN-02;Bayankhongor;Hadatayn Hüryee
+0;96.4667,48.6333;MN-09;Dzabkhan;Habtsagaytayn Süme
+0;99.3500,49.0167;MN-13;Khövsgöl Province;Habtsagay Hüryee
+0;94.8833,49.2833;MN-19;Uvs Province;Haan Tüüheiin Hüryee
+0;97.1667,46.5000;MN-10;Govi-Altai Province;Guulin
+0;97.7167,47.4500;MN-09;Dzabkhan;Goliin Hüryee
+0;93.0333,49.7000;MN-19;Uvs Province;Gederegiin-Örtöö
+0;95.9833,49.6833;MN-09;Dzabkhan;Gandan Hüryee
+0;99.5366,48.9488;MN-13;Khövsgöl Province;Erdenet
+0;93.9000,46.3000;MN-10;Govi-Altai Province;Dzüyliin Hüryee
+0;93.9041,46.3069;MN-10;Govi-Altai Province;Dzüyl
+0;97.3744,48.2199;MN-09;Dzabkhan;Dzuunmod
+0;99.0833,46.3333;MN-02;Bayankhongor;Dzüün Jisa
+0;95.2500,49.3333;MN-19;Uvs Province;Dzüün Hulagay Hüryee
+0;92.4024,50.6098;MN-19;Uvs Province;Dzüünhövöö
+0;95.7932,49.6580;MN-09;Dzabkhan;Dzür
+0;99.6723,51.1072;MN-13;Khövsgöl Province;Dzöölön
+0;99.2667,48.0167;MN-01;Arkhangai Province;Dzogiin Hüryee
+0;93.7858,49.9071;MN-19;Uvs Province;Dzel
+0;92.5000,47.3833;MN-12;Hovd;Dzeergeneiin Süme
+0;96.9000,49.7333;MN-09;Dzabkhan;Dzaygal Hiid
+0;99.2667,44.5333;MN-02;Bayankhongor;Dzalaa
+0;96.6000,44.9500;MN-10;Govi-Altai Province;Dzahuy
+0;99.5833,49.6167;MN-13;Khövsgöl Province;Dzagdza Dugang
+0;97.2167,48.1667;MN-09;Dzabkhan;Dzagasatayn Örtöö
+0;99.1669,46.9423;MN-02;Bayankhongor;Dzag
+0;99.5986,46.2106;MN-02;Bayankhongor;Dzadgay
+0;96.9167,47.5000;MN-09;Dzabkhan;Duutayn Hüryee
+0;91.6333,47.5167;MN-12;Hovd;Duut
+29800;91.6419,48.0056;MN-12;Hovd;Khovd
+0;99.9667,48.7000;MN-13;Khövsgöl Province;Dumbatayn Dugang
+0;98.8000,49.3000;MN-13;Khövsgöl Province;Dulaiin Hüryee
+0;98.6333,49.8500;MN-13;Khövsgöl Province;Dordogoyn Hüryee
+0;99.2500,47.9167;MN-01;Arkhangai Province;Doodo Tömörtö Hüryee
+0;99.3444,51.3564;MN-13;Khövsgöl Province;Tsagaannuur
+0;99.8000,48.8000;MN-13;Khövsgöl Province;Dereseteyn Dugang
+0;98.2871,46.4095;MN-02;Bayankhongor;Delgermörön
+0;97.4833,48.9833;MN-09;Dzabkhan;Delger Hujirtayn Dugang
+0;99.3333,46.0833;MN-02;Bayankhongor;Dashi Galdan Jisa
+0;95.5000,46.1667;MN-10;Govi-Altai Province;Dashi Dorjiin Datsang
+0;95.7000,46.5500;MN-10;Govi-Altai Province;Dashi Choyling Hüryee
+0;94.1167,46.4500;MN-10;Govi-Altai Province;Darvi
+0;94.0500,46.5333;MN-10;Govi-Altai Province;Darhan Puntsag Bayshing
+0;94.4333,46.4167;MN-10;Govi-Altai Province;Darhan Guunii Datsang
+0;98.6833,46.1500;MN-02;Bayankhongor;Dara Eheiin Jisa
+0;96.7167,44.9000;MN-10;Govi-Altai Province;Dara Eheiin Jisa
+0;90.7833,47.9833;MN-03;Bayan-Ölgii Province;Dalayhöl
+0;94.5000,46.7500;MN-10;Govi-Altai Province;Dalan Türüü Örtöö
+0;89.9000,48.7667;MN-03;Bayan-Ölgii Province;Chzhirgalantu-Sagsay-Somon
+0;99.3667,46.4167;MN-02;Bayankhongor;Choyiin Jisa
+0;99.5333,48.9333;MN-13;Khövsgöl Province;Chindamani Suma
+0;89.5156,48.3027;MN-03;Bayan-Ölgii Province;Chihertey
+0;92.0333,50.0000;MN-19;Uvs Province;Chandmanĭ
+0;96.7662,48.1152;MN-09;Dzabkhan;Chandmanĭ
+0;96.2500,48.0500;MN-09;Dzabkhan;Chandmanĭ
+0;93.3333,46.3000;MN-12;Hovd;Buyanta Goliin Hüryee
+0;89.5475,48.5797;MN-03;Bayan-Ölgii Province;Buyant
+0;91.8167,48.0667;MN-12;Hovd;Buyant
+0;97.7000,47.4167;MN-09;Dzabkhan;Buyant
+0;97.6067,47.2121;MN-09;Dzabkhan;Buyant
+0;98.6917,46.1664;MN-02;Bayankhongor;Buyant
+0;95.9253,46.9784;MN-10;Govi-Altai Province;Buyanbat
+0;99.0333,50.7333;MN-13;Khövsgöl Province;Burgaltayn Dugang
+0;92.0000,49.4667;MN-19;Uvs Province;Burgaasatayn-Örtöö
+0;99.3167,49.3000;MN-13;Khövsgöl Province;Bürentogtok
+1768;91.5480,46.0924;MN-12;Hovd;Bürenhayrhan
+0;99.1567,49.5008;MN-13;Khövsgöl Province;Bürenhaan
+0;95.9333,47.2667;MN-10;Govi-Altai Province;Büren
+0;93.6167,46.9368;MN-12;Hovd;Darvi
+0;98.6500,44.7833;MN-02;Bayankhongor;Bulgan
+0;99.0500,47.6667;MN-01;Arkhangai Province;Bülenii Hüryee
+0;94.0500,49.5667;MN-19;Uvs Province;Bulagiin Hüryee
+0;91.1500,46.6000;MN-12;Hovd;Bulaganii Hiid
+0;91.1333,46.6000;MN-12;Hovd;Bulagan Hiid
+0;99.9000,49.5333;MN-13;Khövsgöl Province;Bügseyn Hüryee
+0;93.8167,49.5333;MN-19;Uvs Province;Bugat
+0;90.0197,48.9511;MN-03;Bayan-Ölgii Province;Bugat
+0;89.9833,48.9500;MN-03;Bayan-Ölgii Province;Buga
+0;95.0005,47.6501;MN-10;Govi-Altai Province;Buga
+0;92.2833,45.8000;MN-12;Hovd;Bor-Üdzüür
+0;95.3667,46.1667;MN-10;Govi-Altai Province;Boro Üdzüüriin Subarga
+0;89.2000,49.2000;MN-03;Bayan-Ölgii Province;Boro Burgaasa
+0;92.8333,46.6500;MN-12;Hovd;Borjin Örtöö
+0;96.4000,47.6000;MN-09;Dzabkhan;Borho
+0;92.1833,45.7667;MN-12;Hovd;Bodonchiin Hüryee
+0;92.4500,46.4500;MN-12;Hovd;Bodol Süme
+0;98.3000,47.0667;MN-02;Bayankhongor;Bilüüteyn Goliin Hiid
+0;89.4380,49.0437;MN-03;Bayan-Ölgii Province;Bilüü
+0;93.7500,45.5500;MN-10;Govi-Altai Province;Bij-Altay
+0;95.0667,47.1000;MN-10;Govi-Altai Province;Bichigt
+0;99.3500,50.2667;MN-13;Khövsgöl Province;Beltesiin Dugang
+0;89.4667,49.0667;MN-03;Bayan-Ölgii Province;Beleu
+0;91.3833,46.8167;MN-03;Bayan-Ölgii Province;Bazar Köl Suma
+0;98.3333,47.8333;MN-01;Arkhangai Province;Baytsaiin Hüryee
+0;90.2833,49.6667;MN-19;Uvs Province;Bayshint
+0;99.5000,47.0333;MN-02;Bayankhongor;Baydrag
+0;99.6667,47.2833;MN-02;Bayankhongor;Baydaragiin Hüryee
+0;98.7918,48.7191;MN-09;Dzabkhan;Bayan-Uhaa
+0;99.4331,45.5553;MN-02;Bayankhongor;Bayansayr
+0;94.9167,44.6167;MN-10;Govi-Altai Province;Bayan-Ovoo
+0;93.1000,46.7000;MN-12;Hovd;Bayan Oboonii Bayshing
+0;91.9167,48.2333;MN-12;Hovd;Bayanhoshuu
+0;97.6500,46.5833;MN-02;Bayankhongor;Bayan Hongoriin
+0;93.8333,46.9500;MN-12;Hovd;Bayan Gol
+0;94.3645,45.5566;MN-10;Govi-Altai Province;Bayangol
+0;95.3167,45.5333;MN-10;Govi-Altai Province;Bayangol
+0;90.8000,48.3833;MN-03;Bayan-Ölgii Province;Bayan-Enger
+0;99.2500,50.6833;MN-13;Khövsgöl Province;Bayan Dzürihe Suma
+0;97.0000,45.8167;MN-10;Govi-Altai Province;Bayan Buuraliin Hüryee
+0;99.0333,46.3667;MN-02;Bayankhongor;Bayanbürd
+0;98.0901,46.8098;MN-02;Bayankhongor;Bayanbulag
+0;99.6000,49.4333;MN-13;Khövsgöl Province;Bayan
+0;95.1996,46.9929;MN-10;Govi-Altai Province;Bayan
+0;95.6167,46.1000;MN-10;Govi-Altai Province;Bayan
+0;94.4041,49.6596;MN-19;Uvs Province;Baruunturuun
+0;94.4167,49.2000;MN-19;Uvs Province;Baruun Datsang Hüryee
+0;95.4667,46.8667;MN-10;Govi-Altai Province;Bandan Dashiling Hüryee
+0;97.1500,46.9000;MN-09;Dzabkhan;Balgatay
+0;99.5000,48.8333;MN-13;Khövsgöl Province;Ayagatayn Dugang
+0;98.3667,48.6333;MN-09;Dzabkhan;Ara Teeliin Dugang
+0;99.4500,48.4000;MN-13;Khövsgöl Province;Araiin Hüryee
+0;95.7333,46.8500;MN-10;Govi-Altai Province;Araiin Hüryee
+0;98.7000,44.6167;MN-02;Bayankhongor;Amar Buyantayn Hüryee
+0;98.9720,50.1791;MN-13;Khövsgöl Province;Altraga
+0;96.3592,49.7032;MN-09;Dzabkhan;Altay
+17617;96.2583,46.3722;MN-10;Govi-Altai Province;Altai
+0;95.4167,44.9167;MN-10;Govi-Altai Province;Altay
+0;92.8437,47.1104;MN-12;Hovd;Altanteel
+0;96.3424,49.3069;MN-09;Dzabkhan;Altanbulag
+0;95.7167,48.1167;MN-09;Dzabkhan;Altan
+0;96.5369,47.6423;MN-09;Dzabkhan;Aldar
+0;90.9000,49.2000;MN-03;Bayan-Ölgii Province;Ak-aral
+0;96.8333,47.5000;MN-09;Dzabkhan;Agita Hüryee
+0;98.3333,48.9833;MN-09;Dzabkhan;Abdaliin Hüryee
+0;99.8756,48.1600;MN-01;Arkhangai Province;Horgo
+0;106.9167,47.9833;MN-20;Ulaanbaatar;Damba Darajayn Hiid
+0;106.8667,49.6500;MN-16;Selenge Province;Dalangin Dugang
+0;103.7167,49.1333;MN-21;Bulgan;Yumiin Dugang
+0;107.4833,49.0333;MN-16;Selenge Province;Yöröögiin Haluun Arshaan
+0;107.2333,49.3000;MN-16;Selenge Province;Yöröögiin Altanii Gadzar
+0;106.5000,49.8167;MN-16;Selenge Province;Yöröö Den
+0;107.5000,47.8333;MN-20;Ulaanbaatar;Yoliin Hural
+0;106.0000,49.4167;MN-23;Darhan Uul;Yihe Tsahil
+0;103.8667,49.4667;MN-21;Bulgan;Yiheteyn Dugang
+0;106.3000,48.2500;MN-18;Central Aimak;Yihe Süüji
+0;108.6667,45.5833;MN-07;East Gobi Aymag;Yihe Naratayn Hiid
+0;106.9167,45.6833;MN-08;Middle Govĭ;Yihe Jisa Hiid
+0;102.1167,49.3167;MN-21;Bulgan;Yihe Hushuu Hüryee
+0;100.1667,48.6833;MN-13;Khövsgöl Province;Yihe Hujirtayn Hüryee
+0;116.7833,46.2833;MN-06;East Aimak;Yihe Ayl
+0;107.7167,48.2667;MN-18;Central Aimak;Yelintey
+0;118.4500,47.8667;MN-06;East Aimak;Yehe Burham Sum
+0;104.7000,48.6500;MN-16;Selenge Province;Yargay
+0;108.0833,47.2167;MN-18;Central Aimak;Yanchin Hiid
+0;108.1667,49.0833;MN-18;Central Aimak;Yaltaiin Dugang
+0;101.7833,50.5333;MN-13;Khövsgöl Province;Uylgan Dugang
+0;107.7333,49.8167;MN-16;Selenge Province;Uylgaiin Dugang
+0;107.7167,49.8333;MN-16;Selenge Province;Uylga
+0;106.8698,44.0822;MN-14;Ömnögovĭ;Üydzen
+0;104.5000,44.1667;MN-14;Ömnögovĭ;Üydzen Örtöö
+0;103.2500,47.8000;MN-21;Bulgan;Üydzengiin Hural
+0;108.3667,44.7500;MN-07;East Gobi Aymag;Uurtsag Hural
+0;113.3500,46.4833;MN-17;Sühbaatar;Uulbayan
+0;103.2500,49.1500;MN-21;Bulgan;Uulaiin Dugang
+0;107.6833,45.5667;MN-08;Middle Govĭ;Uula Hural
+0;107.9833,44.1167;MN-07;East Gobi Aymag;Uula Hiid
+0;101.9342,48.6088;MN-01;Arkhangai Province;Uubulan
+0;101.2500,49.9833;MN-13;Khövsgöl Province;Utagiin Hüryee
+0;103.4167,45.1333;MN-15;Övörhangay;Ushigiin Jisa
+0;115.5500,46.1167;MN-17;Sühbaatar;Ürteiin Suma
+0;103.1500,48.0667;MN-21;Bulgan;Urtaiin Hural Hiid
+0;104.5000,48.9333;MN-16;Selenge Province;Urtaiin Dugang
+5000;101.0481,43.2325;MN-14;Ömnögovĭ;Urt
+0;103.2167,49.6667;MN-21;Bulgan;Uragiin Dugang
+0;102.8167,49.1333;MN-21;Bulgan;Unĭt
+0;105.1833,45.7333;MN-08;Middle Govĭ;Üneseteyn Hiid
+0;115.0667,47.8167;MN-06;East Aimak;Under
+0;106.1667,50.0833;MN-16;Selenge Province;Ulyaasata Dugang
+0;112.5333,49.4500;MN-06;East Aimak;Ulhanii Mayhan
+0;101.8167,47.9167;MN-01;Arkhangai Province;Ülgey Haldzan Hüryee
+0;111.9946,48.6903;MN-11;Hentiy;Uldz
+0;115.6000,47.4500;MN-06;East Aimak;Ulan-Tsereg
+0;105.5000,48.1667;MN-18;Central Aimak;Ulaha
+0;100.8172,46.0674;MN-02;Bayankhongor;Ulaan-Uul
+0;111.0910,44.4451;MN-07;East Gobi Aymag;Ulaan-Uul
+0;111.2333,44.3333;MN-07;East Gobi Aymag;Ulaan-Uul
+0;105.0500,47.9667;MN-18;Central Aimak;Ulaan Tologoy Hural
+0;115.6667,48.7333;MN-06;East Aimak;Ulaan Tolgoy
+0;105.5667,45.0500;MN-08;Middle Govĭ;Ulaanjirem
+1500;104.5000,47.3333;MN-18;Central Aimak;Ulaanhudag
+0;105.5532,47.9499;MN-18;Central Aimak;Ulaanhad
+0;110.8333,47.6167;MN-11;Hentiy;Ulaan Ganjir Hiid
+0;105.1964,42.2725;MN-14;Ömnögovĭ;Ulaan Ergiin Hural
+0;109.7500,46.9000;MN-11;Hentiy;Ulaan-Ereg
+0;115.3333,47.5000;MN-06;East Aimak;Ulaan Dzüleg
+0;113.5770,46.3645;MN-17;Sühbaatar;Ulaandel
+0;107.6667,48.0167;MN-18;Central Aimak;Ulaan Dabaa
+0;102.1333,48.0167;MN-01;Arkhangai Province;Ulaan Chuluutayn Hüryee
+844818;106.8832,47.9077;MN-20;Ulaanbaatar;Ulan Bator
+0;103.4167,46.4167;MN-15;Övörhangay;Ulaan-am
+0;107.4167,48.6667;MN-16;Selenge Province;Uhiduud
+0;111.9833,48.7667;MN-11;Hentiy;Uhaa Hushuunii Hiid
+0;113.7833,49.3000;MN-06;East Aimak;Ugtamiin Hiid
+0;113.7667,49.4000;MN-06;East Aimak;Ugtamiin Araiin Örtöö
+0;105.8000,48.3833;MN-18;Central Aimak;Ugtaaliin Dugang
+0;106.8167,48.2833;MN-18;Central Aimak;Üdlegiin Dugang
+0;100.8000,46.4167;MN-02;Bayankhongor;Tüyin Goliin Hüryee
+0;100.9067,48.9925;MN-01;Arkhangai Province;Tuulant
+0;101.0333,47.0667;MN-01;Arkhangai Province;Tushaalta Hiid
+0;100.7833,51.2833;MN-13;Khövsgöl Province;Türüügiin Horshoo
+2140;100.6626,51.5072;MN-13;Khövsgöl Province;Turt
+0;106.7333,48.6500;MN-16;Selenge Province;Tunhiliin Hüryee
+0;106.7598,48.6438;MN-16;Selenge Province;Tünhel
+0;104.0333,47.1500;MN-15;Övörhangay;Tümelteyn Süme
+0;107.8667,46.5000;MN-08;Middle Govĭ;Tulgaiin Jisa
+0;102.8500,46.6667;MN-15;Övörhangay;Tugsïn-Hushuu
+0;113.4167,47.9833;MN-06;East Aimak;Tugiin Süme
+0;103.8833,47.6833;MN-21;Bulgan;Tüdeb Guunii Hüryee
+0;104.5000,47.8333;MN-21;Bulgan;Tsul-Ulaan
+0;104.3500,49.5000;MN-21;Bulgan;Tsulhur-Dugan
+0;107.7667,46.0833;MN-08;Middle Govĭ;Tsorgo
+0;104.4167,47.6333;MN-21;Bulgan;Tsoohoriin Hural
+0;102.8833,47.5000;MN-01;Arkhangai Province;Tsoohoriin-Hural
+0;105.2000,47.3500;MN-18;Central Aimak;Tsoohoriin Hiid
+0;104.0742,43.3066;MN-14;Ömnögovĭ;Tsoohor
+0;103.6667,49.3000;MN-21;Bulgan;Tsonholong Suma
+0;109.0667,45.9167;MN-07;East Gobi Aymag;Tsomog
+0;107.2167,43.6667;MN-14;Ömnögovĭ;Tsohyootoyn Hiid
+0;107.0833,44.8833;MN-08;Middle Govĭ;Tsohetïn-Hiyd
+0;107.4500,43.0833;MN-14;Ömnögovĭ;Tsogtsol Süme
+0;106.6500,48.1333;MN-20;Ulaanbaatar;Tsogt-Öndör
+0;100.2500,47.4167;MN-01;Arkhangai Province;Tsogto Hayrhanii Dugang
+0;104.4667,45.8667;MN-08;Middle Govĭ;Tsogtchandmanĭ
+21620;101.4542,47.4750;MN-01;Arkhangai Province;Tsetserleg
+0;106.4167,50.2500;MN-16;Selenge Province;Tseregiin Dugang
+0;101.7500,47.2167;MN-01;Arkhangai Province;Tsenher
+0;104.3333,48.9333;MN-21;Bulgan;Tsengelegiin Dugang
+8348;100.8894,49.4783;MN-13;Khövsgöl Province;Tsengel
+0;102.8000,46.6833;MN-15;Övörhangay;Tsegeenii Hüryee
+0;109.0167,44.6000;MN-07;East Gobi Aymag;Tsatsaiin Hural
+0;104.6167,49.7000;MN-21;Bulgan;Tsasaiin Horshoo
+0;104.6000,49.7667;MN-21;Bulgan;Tsasaiin Dugang
+0;111.0833,45.5000;MN-07;East Gobi Aymag;Tsartsaiin Hiid
+0;106.7167,46.1833;MN-08;Middle Govĭ;Tsant
+0;109.3333,46.7833;MN-11;Hentiy;Tsamba Lunduubiin Hiid
+0;102.9000,49.6500;MN-21;Bulgan;Tsambaiin Hiid
+0;106.3500,46.3667;MN-08;Middle Govĭ;Tsahir Jisa Hiid
+0;106.3833,46.5333;MN-08;Middle Govĭ;Tsahiriin Jisa
+0;106.2833,48.2833;MN-18;Central Aimak;Tsagun Muhur
+0;103.2500,41.9833;MN-14;Ömnögovĭ;Tsagaan Uulaiin Süme
+0;115.4000,47.6167;MN-06;East Aimak;Tsagaan Usanii Örtöö
+0;109.2000,46.2500;MN-07;East Gobi Aymag;Tsagaan Usanii Hural
+0;104.6000,46.8500;MN-18;Central Aimak;Tsagaan Toyrimiin Hiid
+0;107.1500,43.1667;MN-14;Ömnögovĭ;Tsagaan Tologoy Hiid
+0;105.4167,49.2667;MN-16;Selenge Province;Tsagaan Tologoy Dugang
+0;100.7000,44.5333;MN-02;Bayankhongor;Tsagaan Tologoy
+0;104.9500,49.0000;MN-16;Selenge Province;Tsagaan Tohoy Dugang
+0;102.0833,47.0833;MN-01;Arkhangai Province;Tsagaan Süme
+0;102.1922,43.6008;MN-14;Ömnögovĭ;Tsagaan Subarga Hural
+0;101.2167,43.0500;MN-14;Ömnögovĭ;Tsagaan Subarga Hural
+0;101.4598,45.9640;MN-15;Övörhangay;Tsagaan-Ovoo
+0;105.2333,45.7833;MN-08;Middle Govĭ;Tsagaan-Ovoo
+0;105.7559,45.5072;MN-08;Middle Govĭ;Tsagaan-Ovoo
+0;105.0500,50.3333;MN-16;Selenge Province;Tsagaannuur
+0;118.6177,47.6310;MN-06;East Aimak;Tsagaannuur
+0;101.6667,50.9333;MN-13;Khövsgöl Province;Tsagaan Hüryee
+0;112.7500,45.5000;MN-17;Sühbaatar;Tsagaan Hudagiin Hiid
+0;106.3500,44.9667;MN-08;Middle Govĭ;Tsagaan Hada Hural
+0;106.9000,48.1500;MN-20;Ulaanbaatar;Tsagaan Güyn Den
+0;110.3333,42.9500;MN-07;East Gobi Aymag;Tsagaan Geriin Hural
+0;107.7333,46.2500;MN-08;Middle Govĭ;Tsagaan Ergin Hiid
+0;108.7333,47.2167;MN-11;Hentiy;Tsagaan Ergiin Jisa
+0;109.3183,45.7982;MN-07;East Gobi Aymag;Tsagaandörvölj
+0;114.3667,48.0500;MN-06;East Aimak;Tsagaanders
+0;103.1667,43.3500;MN-14;Ömnögovĭ;Tsagaan Deresenii Hural
+0;112.9167,47.0833;MN-17;Sühbaatar;Tsagaan Chuluutayn Hiid
+0;111.3000,45.6333;MN-07;East Gobi Aymag;Tsagaan Chuluutayn Hiid
+0;103.0000,49.3667;MN-21;Bulgan;Tsagaan Burgaasatayn Dugang
+0;100.3333,49.9981;MN-13;Khövsgöl Province;Tsagaan Burgaasanii Hüryee
+0;100.3333,49.9833;MN-13;Khövsgöl Province;Tsagaan-Burgaasanii-Hüree
+0;109.2167,42.5333;MN-07;East Gobi Aymag;Tsagaan Bulagiin Hural
+0;108.0667,43.3500;MN-07;East Gobi Aymag;Tsabchiriin Hural
+0;104.7667,45.6500;MN-08;Middle Govĭ;Tsabchiriin Hiid
+0;106.6333,46.0333;MN-08;Middle Govĭ;Toyrim
+0;101.0394,43.2378;MN-14;Ömnögovĭ;Tost
+0;107.0833,47.9000;MN-20;Ulaanbaatar;Torhurah
+0;108.3333,47.2500;MN-18;Central Aimak;Tömör Usatanii Panja
+0;103.0833,49.9167;MN-21;Bulgan;Tömöriin Dugang
+0;100.3000,47.6333;MN-01;Arkhangai Province;Tömöriin Bagiin Dugang
+0;107.4000,49.4833;MN-16;Selenge Province;Tologoyt
+0;109.3833,43.0167;MN-07;East Gobi Aymag;Toliin Dzoo Hiid
+0;103.2500,47.9333;MN-21;Bulgan;Toli Hural
+0;105.0333,46.9167;MN-18;Central Aimak;Töhömiin Süme
+0;108.2500,44.4000;MN-07;East Gobi Aymag;Töhöm
+0;110.7000,47.1333;MN-11;Hentiy;Togootoyn Shüteen
+0;106.0833,49.8000;MN-23;Darhan Uul;Togootoyn Dugang
+0;111.3000,46.7500;MN-11;Hentiy;Tödögteyn Suma
+0;102.6612,49.9467;MN-21;Bulgan;Teshig
+0;103.9833,49.4333;MN-21;Bulgan;Terete
+0;115.5500,46.9000;MN-06;East Aimak;Teregen Bayan Süme
+0;104.8500,46.2833;MN-08;Middle Govĭ;Tengelig Hiid
+0;100.5833,48.0500;MN-01;Arkhangai Province;Teliin Dugang
+0;100.4167,49.2833;MN-13;Khövsgöl Province;Teeliin Dugang
+0;100.3500,48.9833;MN-13;Khövsgöl Province;Teeliin Dugang
+0;100.5092,48.0464;MN-01;Arkhangai Province;Teel
+0;115.7500,47.0000;MN-06;East Aimak;Teegiin Süme
+0;101.2000,47.5833;MN-01;Arkhangai Province;Tayhar
+0;106.5000,49.8167;MN-16;Selenge Province;Tavin
+0;106.6667,49.7500;MN-16;Selenge Province;Tavin
+0;105.7352,46.3919;MN-08;Middle Govĭ;Tavin
+0;107.3500,45.9500;MN-08;Middle Govĭ;Tavan-Jisa
+0;101.9082,47.3819;MN-01;Arkhangai Province;Tavanbulag
+0;111.3500,48.9167;MN-11;Hentiy;Tataal
+0;106.2667,49.0833;MN-16;Selenge Province;Taryat
+0;106.0000,47.6667;MN-18;Central Aimak;Taryaatayn Süme
+0;103.8833,47.7000;MN-21;Bulgan;Taryaatayn Otog Hural
+0;109.6667,48.4833;MN-11;Hentiy;Tarihaiin Süme
+0;105.6667,47.4167;MN-18;Central Aimak;Tariat
+0;103.1000,49.7667;MN-21;Bulgan;Tarbagatayn Dugang
+0;117.3500,47.2000;MN-06;East Aimak;Tamsagiin Hiid
+0;117.3000,47.2500;MN-06;East Aimak;Tamsagbulag
+0;106.7500,44.8333;MN-08;Middle Govĭ;Talaiin Jisa Hural
+0;100.6667,49.6000;MN-13;Khövsgöl Province;Tahiltayn Örtöö
+0;109.5000,47.5833;MN-11;Hentiy;Tahiltayn Hiid
+0;109.3500,42.5000;MN-07;East Gobi Aymag;Tabuy Modonii Hural
+0;107.3000,45.7000;MN-08;Middle Govĭ;Tabin Jisa Hiid
+0;105.7667,46.4167;MN-08;Middle Govĭ;Tabin Jisa
+0;107.3667,45.6500;MN-08;Middle Govĭ;Tabin Jisa
+0;109.6000,46.4000;MN-11;Hentiy;Taban Tologoy Hural
+0;109.5000,46.0833;MN-07;East Gobi Aymag;Suurin Hural
+0;114.8000,47.8333;MN-06;East Aimak;Süüjiin Örtöö
+0;104.0167,47.8333;MN-21;Bulgan;Süüjiin Horshoo
+0;107.9333,44.3000;MN-07;East Gobi Aymag;Süüji Hiid
+0;109.6000,42.9000;MN-07;East Gobi Aymag;Süüji Hiid
+2300;104.0500,47.8500;MN-21;Bulgan;Dashinchilling
+0;107.0455,45.5326;MN-08;Middle Govĭ;Suugaant
+0;113.9000,45.0667;MN-17;Sühbaatar;Süteyn Hiid
+0;104.4500,49.3500;MN-21;Bulgan;Sürte Dugang
+0;107.1667,48.4167;MN-18;Central Aimak;Süremte
+0;107.7167,47.9333;MN-18;Central Aimak;Suran Bulagiin Hural
+0;114.8833,49.1333;MN-06;East Aimak;Sümiyn Bulag
+0;108.9500,46.6833;MN-24;Govĭ-Sumber;Sümber Horshoo
+0;111.3667,48.0333;MN-11;Hentiy;Sula Obootoyn Suma
+0;109.3833,42.6833;MN-07;East Gobi Aymag;Sulanheer
+22741;106.2078,50.2314;MN-16;Selenge Province;Sühbaatar
+0;114.7333,47.9000;MN-06;East Aimak;Sudzhiyn-Urto
+0;114.3167,49.3167;MN-06;East Aimak;Subsal Bürideiin Horshoo
+0;107.4167,48.5833;MN-18;Central Aimak;Subiin Chuluu
+0;109.9833,46.8833;MN-11;Hentiy;Subarganii Suurin
+0;103.8000,46.4000;MN-15;Övörhangay;Subarga Hiid
+4700;104.3820,49.3175;MN-21;Bulgan;Sört
+0;106.6833,47.8333;MN-20;Ulaanbaatar;Songiin
+0;109.3667,42.6667;MN-07;East Gobi Aymag;Solonker
+0;108.2500,44.3833;MN-07;East Gobi Aymag;Shüteen Hiid
+0;104.0000,43.2000;MN-14;Ömnögovĭ;Shuluutayn Hiid
+0;107.8500,43.9500;MN-14;Ömnögovĭ;Shulen
+0;104.7500,49.3333;MN-16;Selenge Province;Shubuutayn Dugang
+0;105.9833,45.2167;MN-08;Middle Govĭ;Shubuutay Hiid
+0;105.2500,46.4000;MN-08;Middle Govĭ;Shoroytoyn Jisa
+0;104.1333,45.1333;MN-08;Middle Govĭ;Shohoyt
+0;107.6333,47.8333;MN-18;Central Aimak;Shohoy
+0;100.3333,48.8333;MN-13;Khövsgöl Province;Shirengiteyn Dugang
+0;112.3500,45.7167;MN-17;Sühbaatar;Shireeteyn Hiid
+0;106.0167,43.5667;MN-14;Ömnögovĭ;Shireeteyn Hiid
+0;112.3556,45.7273;MN-17;Sühbaatar;Shireet
+0;103.4000,45.8500;MN-15;Övörhangay;Shiree
+0;105.4333,49.0333;MN-16;Selenge Province;Shir
+0;105.6167,46.9167;MN-18;Central Aimak;Shine Usanii Jisa
+0;105.8667,46.2833;MN-08;Middle Govĭ;Shine Shabaiin Jisa
+0;109.4000,46.0000;MN-07;East Gobi Aymag;Shine Bulagiin Hural
+0;103.6333,47.5333;MN-21;Bulgan;Shibirteyn Süme
+0;100.8000,47.2500;MN-01;Arkhangai Province;Shibirteyn Dugang
+0;100.8333,47.8500;MN-01;Arkhangai Province;Shatsaiin Dugang
+7795;106.4300,49.2373;MN-16;Selenge Province;Sharïngol
+0;110.0500,44.7000;MN-07;East Gobi Aymag;Shariliin Hiid
+0;104.0500,44.6500;MN-14;Ömnögovĭ;Sharhulsan
+0;106.9000,48.0667;MN-20;Ulaanbaatar;Sharga Moritoyn Dyan
+3048;102.0893,49.0419;MN-21;Bulgan;Sharga
+0;105.0333,48.8667;MN-16;Selenge Province;Shara Usanii Dugang
+0;115.6667,47.0833;MN-06;East Aimak;Shara Oboonii Bayshing
+0;106.0167,45.1667;MN-08;Middle Govĭ;Sharangad
+0;104.7500,49.7333;MN-21;Bulgan;Shara Manhatay
+0;106.6000,49.2000;MN-23;Darhan Uul;Sharaiin Dugang
+0;104.0667,44.6500;MN-14;Ömnögovĭ;Shara Hulasa Hiid
+0;106.6000,47.8833;MN-20;Ulaanbaatar;Shara-Höbiin-Dugang
+0;107.5000,49.7667;MN-16;Selenge Province;Shara Gol
+0;102.9500,47.0500;MN-15;Övörhangay;Shanh
+0;104.2000,48.8333;MN-21;Bulgan;Shandanii Dugang
+0;106.9000,48.0167;MN-20;Ulaanbaatar;Shadablingi Hiid
+0;108.6167,43.1000;MN-07;East Gobi Aymag;Shabi Hural
+0;105.1333,48.6667;MN-16;Selenge Province;Shabartayn Hiid
+0;105.5000,49.5500;MN-16;Selenge Province;Shabartayn Dugang
+0;106.7333,48.9333;MN-16;Selenge Province;Shabartayn Dugang
+0;108.8000,47.7167;MN-11;Hentiy;Shabartayn Dugang
+0;107.1667,49.7667;MN-16;Selenge Province;Shabarta
+0;102.6500,49.8000;MN-21;Bulgan;Setsengiin Dugang
+0;110.7000,49.0667;MN-11;Hentiy;Serüünii Dugang
+0;114.0833,48.5667;MN-06;East Aimak;Sergelen
+0;111.8167,46.2000;MN-17;Sühbaatar;Sergelen
+0;110.7667,44.7167;MN-07;East Gobi Aymag;Senj
+0;101.5833,49.2500;MN-13;Khövsgöl Province;Semchin Dugang
+0;102.9833,49.1333;MN-21;Bulgan;Selenge Suma
+0;103.1333,49.1167;MN-21;Bulgan;Selenger
+0;101.4667,49.4333;MN-13;Khövsgöl Province;Selenge
+0;108.7500,46.0833;MN-07;East Gobi Aymag;Seeriin Hiid
+0;106.8167,44.8000;MN-08;Middle Govĭ;Sayr Usa
+0;102.9167,44.5833;MN-15;Övörhangay;Sayriin Hashaatayn Süme
+0;102.5333,43.6167;MN-14;Ömnögovĭ;Saynshand
+0;113.4667,44.8833;MN-17;Sühbaatar;Sayn Hudagiin Hiid
+0;110.9667,48.9167;MN-11;Hentiy;Sayhan Modo Hiid
+0;110.9000,43.7667;MN-07;East Gobi Aymag;Sayhan Hobor Hiid
+0;104.8333,46.4500;MN-08;Middle Govĭ;Sayhan Bayan Suma
+0;104.6333,48.8500;MN-21;Bulgan;Saraiin Dugang
+0;111.8000,48.1000;MN-11;Hentiy;Santayn Hiid
+0;103.3167,46.6500;MN-15;Övörhangay;Sangiyn Dalay
+0;104.9421,46.0079;MN-08;Middle Govĭ;Sangiyn Dalay
+0;111.1333,46.7000;MN-11;Hentiy;Sangiin Hiid
+0;105.1380,42.8420;MN-14;Ömnögovĭ;Sangiyn Dalay
+0;104.9667,46.0000;MN-08;Middle Govĭ;Sangiin Dalay Hiid
+0;105.3500,46.6167;MN-18;Central Aimak;Salaagiin Jisa
+0;107.2333,47.6000;MN-18;Central Aimak;Sagadal Örtöö
+0;118.4167,46.7333;MN-06;East Aimak;Sabha Horoo
+0;113.2333,48.2833;MN-06;East Aimak;Sabangiin Örtöö
+0;101.4281,49.1267;MN-13;Khövsgöl Province;Rashaant
+0;102.4167,48.5000;MN-21;Bulgan;Rashaant
+0;106.2000,45.3000;MN-08;Middle Govĭ;Rashaant
+0;109.4167,47.3000;MN-11;Hentiy;Puntsag Dagdaliin Hiid
+0;106.0833,48.5833;MN-18;Central Aimak;Partisan
+0;106.7092,48.1897;MN-18;Central Aimak;Jargalant
+0;100.9667,47.9833;MN-01;Arkhangai Province;Paalan Terigüünii Dugang
+0;102.2500,46.8167;MN-15;Övörhangay;Övt
+0;112.4919,49.2733;MN-06;East Aimak;Övör-Ereen
+0;113.8498,45.3042;MN-17;Sühbaatar;Ovoot
+0;100.2833,48.4500;MN-01;Arkhangai Province;Otochin Dugang
+0;109.4000,47.5833;MN-11;Hentiy;Örtöön Shüteen
+0;106.7667,49.8833;MN-16;Selenge Province;Örtöön Hangay
+0;100.8000,46.1167;MN-02;Bayankhongor;Örtöögiin Dugang
+0;104.9758,48.9497;MN-16;Selenge Province;Orhontuul
+0;106.5833,48.9500;MN-16;Selenge Province;Orhirogiin Dugang
+0;100.3914,44.7364;MN-02;Bayankhongor;Örgön
+0;105.3177,48.4538;MN-18;Central Aimak;Orgil
+0;103.4667,49.8333;MN-21;Bulgan;Ordogoiin Dugang
+0;112.6667,49.1167;MN-06;East Aimak;Onon
+0;110.6000,48.6167;MN-11;Hentiy;Onon
+0;105.5667,46.7833;MN-18;Central Aimak;Undzhul
+0;105.0833,48.9167;MN-16;Selenge Province;Ongon
+0;103.7839,46.9826;MN-15;Övörhangay;Ongon
+0;103.2667,45.9667;MN-15;Övörhangay;Ongiin Hiid
+0;102.2833,46.4667;MN-15;Övörhangay;Ongi
+0;103.9000,45.4500;MN-08;Middle Govĭ;Ongi
+0;102.2167,47.1833;MN-01;Arkhangai Province;Öndörsant
+0;103.1833,45.8500;MN-15;Övörhangay;Öndör-Önts
+0;112.4000,47.1500;MN-17;Sühbaatar;Öndör Maydariin Hiid
+0;113.9333,48.0000;MN-06;East Aimak;Öndörhoshuu
+22741;110.6556,47.3194;MN-11;Hentiy;Undurkhaan
+0;105.1000,49.5000;MN-16;Selenge Province;Öndör Gegeenii Hiid
+0;107.0000,47.9000;MN-20;Ulaanbaatar;Omolgon Baatar
+0;101.2333,48.1500;MN-01;Arkhangai Province;Olon Turagiin Dugang
+0;106.4500,48.9333;MN-16;Selenge Province;Ölönteyn Dugang
+0;106.3000,47.1833;MN-18;Central Aimak;Olon Shandanii Jisa
+0;109.0000,44.5667;MN-07;East Gobi Aymag;Olon Hüryee
+0;113.8167,48.0667;MN-06;East Aimak;Olon Bayshing
+0;108.2333,43.6167;MN-07;East Gobi Aymag;Ölögey Hiid
+0;101.3739,48.5284;MN-01;Arkhangai Province;Öldziyt
+0;111.6167,46.4000;MN-17;Sühbaatar;Öldziyt
+0;109.0167,44.6833;MN-07;East Gobi Aymag;Öldziyt
+0;106.3000,44.4000;MN-08;Middle Govĭ;Uruzeito
+0;104.8000,48.7167;MN-16;Selenge Province;Öldzeyte Nogoon Hiid
+0;109.0500,43.5833;MN-07;East Gobi Aymag;Öldzeyte Hural
+0;104.5167,45.5333;MN-08;Middle Govĭ;Öldzey Delgerehe Suma
+0;107.1167,45.7167;MN-08;Middle Govĭ;Öldzey Abagayn Jisa
+0;105.4000,44.8167;MN-08;Middle Govĭ;Oldoho Hiid
+0;100.7167,43.2000;MN-14;Ömnögovĭ;Ojimin Hural
+0;104.7833,46.7833;MN-18;Central Aimak;Ögörhön Hiid
+0;112.2000,45.5500;MN-17;Sühbaatar;Ögöömöriin Hiid
+0;104.9500,47.9167;MN-18;Central Aimak;Ögöömör
+0;107.9833,46.9833;MN-18;Central Aimak;Ugumur
+0;104.4807,43.7834;MN-14;Ömnögovĭ;Ögöömör
+0;107.7833,46.8333;MN-18;Central Aimak;Ögömöriyn-Hudag
+0;102.6833,47.7833;MN-01;Arkhangai Province;Ögiy
+0;101.0333,48.0667;MN-01;Arkhangai Province;Ochir Wangiin Dugang
+0;114.0833,47.5833;MN-06;East Aimak;Öbör Urtaiin Örtöö
+0;110.1667,46.0833;MN-07;East Gobi Aymag;Öbör Ulaan Haylan
+0;107.3667,46.9833;MN-18;Central Aimak;Öbör Tsuulgata Jisa
+0;107.1833,46.6000;MN-18;Central Aimak;Öbör Gurbaiin Hiid
+0;101.5000,42.9667;MN-14;Ömnögovĭ;Obooto Hural
+0;113.9000,45.3000;MN-17;Sühbaatar;Oboo Hiid
+0;105.1000,47.6500;MN-18;Central Aimak;Nuuriin Bayshing
+0;110.4167,43.8667;MN-07;East Gobi Aymag;Nüden-hudag
+0;110.1000,45.9833;MN-07;East Gobi Aymag;Nüdengiin Hural
+0;109.3333,45.4667;MN-07;East Gobi Aymag;Nüdengiin Hural
+0;110.4667,43.5833;MN-07;East Gobi Aymag;Nüden
+0;105.4000,47.2833;MN-18;Central Aimak;Noyotoyn Süme
+0;101.8167,44.7667;MN-15;Övörhangay;Noyon Hutagtayn Hiid
+0;105.2833,47.3000;MN-18;Central Aimak;Novotoyn
+0;103.6297,43.8722;MN-14;Ömnögovĭ;Norboiin Salbari Horshoo
+0;110.4000,47.7000;MN-11;Hentiy;Nomtoyn Hiid
+0;105.1167,49.9167;MN-16;Selenge Province;Nomon Haan Lamaiin Hiid
+0;112.1167,46.9000;MN-17;Sühbaatar;Nomon Haanii Hiid
+0;103.5667,47.3000;MN-01;Arkhangai Province;Nomogonii Hiid
+0;105.6658,49.2001;MN-16;Selenge Province;Nomgon
+0;110.1578,47.5035;MN-11;Hentiy;Nomgon
+0;105.1000,45.4333;MN-08;Middle Govĭ;Nomgon
+0;109.1667,47.1333;MN-11;Hentiy;Nimgenii Suurin
+0;108.3000,46.9667;MN-18;Central Aimak;Nilga Suma
+0;104.5833,48.3500;MN-18;Central Aimak;Naymanii Hüryee
+0;107.5167,46.8333;MN-18;Central Aimak;Naydan Jisa
+0;113.9167,47.9833;MN-06;East Aimak;Naydanii Hural
+0;105.3883,49.1450;MN-16;Selenge Province;Nart
+0;107.7973,47.7160;MN-18;Central Aimak;Narst
+0;106.2667,49.1500;MN-16;Selenge Province;Nariyn
+0;110.5500,47.7000;MN-11;Hentiy;Naringiin Örtöö
+0;102.0500,48.9500;MN-21;Bulgan;Naringiin Hüryee
+0;106.6167,48.2167;MN-20;Ulaanbaatar;Nariin Murii
+0;106.2333,48.9000;MN-16;Selenge Province;Nariin Höndey
+0;102.8000,49.7500;MN-21;Bulgan;Nariin Dugang
+0;104.2000,48.8333;MN-21;Bulgan;Nariin Chingiliin Dugang
+0;108.2333,44.0333;MN-07;East Gobi Aymag;Nardn
+0;106.7500,48.7000;MN-16;Selenge Province;Narasatayn Oros
+0;106.1167,45.8667;MN-08;Middle Govĭ;Naran Hiid
+0;112.4000,45.4000;MN-17;Sühbaatar;Naran Hiid
+0;109.1167,43.5167;MN-07;East Gobi Aymag;Naran Bulag Horshoo
+0;113.3743,49.2436;MN-06;East Aimak;Naranbulag
+0;106.6333,46.5667;MN-08;Middle Govĭ;Naran
+0;102.3333,49.3833;MN-21;Bulgan;Namnang Suma
+0;102.8333,49.3833;MN-21;Bulgan;Namnang
+0;105.5833,43.2000;MN-14;Ömnögovĭ;Nalihin Dugang
+39579;107.2833,47.7667;MN-20;Ulaanbaatar;Nalayh
+0;104.6000,47.4167;MN-18;Central Aimak;Mursan Hural
+0;105.9167,45.8333;MN-08;Middle Govĭ;Muhuyn Jisa
+0;103.7500,47.0500;MN-15;Övörhangay;Muhariin Hiid
+0;106.4333,49.1000;MN-16;Selenge Province;Muhariin Dugang
+0;106.7333,48.2167;MN-20;Ulaanbaatar;Muhariin Den
+0;106.5000,49.4667;MN-23;Darhan Uul;Muhar Hüytenii Hiid
+0;112.1000,48.8667;MN-11;Hentiy;Mösöteyn Süme
+0;104.9333,46.8833;MN-18;Central Aimak;Mörön Suma
+39404;100.1625,49.6342;MN-13;Khövsgöl Province;Mörön
+0;100.3742,48.2644;MN-01;Arkhangai Province;Mörön
+0;110.3165,47.3825;MN-11;Hentiy;Mörön
+0;119.0667,47.2667;MN-06;East Aimak;Moroks Shoroo Ayl
+0;105.2667,49.7000;MN-16;Selenge Province;Mönhön Subarga
+0;100.6000,48.2000;MN-01;Arkhangai Province;Mönhöliin Bayshing
+0;103.5167,46.7500;MN-15;Övörhangay;Mönhbulag
+0;117.8667,47.9000;MN-06;East Aimak;Mongolryba
+0;113.6667,45.3333;MN-17;Sühbaatar;Moltsog Suma
+0;113.8000,45.1667;MN-17;Sühbaatar;Moltsog Hiid
+0;103.7000,49.2667;MN-21;Bulgan;Mogoyn Dugang
+0;102.7000,48.4500;MN-21;Bulgan;Mogodiin Hüryee
+0;109.0500,47.7500;MN-11;Hentiy;Modot
+0;109.1333,47.6667;MN-11;Hentiy;Modot
+0;108.2833,46.9667;MN-18;Central Aimak;Modongiin Jisa
+0;111.4167,44.7500;MN-07;East Gobi Aymag;Modongiin Hural
+0;105.0833,45.4500;MN-08;Middle Govĭ;Mingat Süme
+0;104.7333,48.5667;MN-18;Central Aimak;Mergen Lamaiin Hiid
+0;107.5000,48.4500;MN-18;Central Aimak;Mayragtay
+0;103.8395,46.0912;MN-15;Övörhangay;Mayhan
+0;107.3333,49.0833;MN-16;Selenge Province;Maydan Dura
+0;102.0500,45.9500;MN-15;Övörhangay;Mardzad
+0;108.7500,47.4167;MN-11;Hentiy;Manitayn Hural
+0;100.6667,48.3167;MN-01;Arkhangai Province;Maniin Dugang
+0;104.2000,43.8000;MN-14;Ömnögovĭ;Mani Hiid
+0;100.0431,50.1214;MN-13;Khövsgöl Province;Manhan
+0;101.6667,48.2500;MN-01;Arkhangai Province;Manglayn Horshoonii Bayshing
+0;109.8667,46.4500;MN-11;Hentiy;Mandal Suma
+0;104.3000,44.3667;MN-14;Ömnögovĭ;Mandal Ovoo
+0;110.1167,47.8167;MN-11;Hentiy;Mandaliin Hüryee
+0;113.1333,46.6333;MN-17;Sühbaatar;Mandaliin Hiid
+12339;106.2708,45.7625;MN-08;Middle Govĭ;Mandalgovi
+0;106.7333,48.6333;MN-16;Selenge Province;Dzüünkharaa
+0;103.5292,48.6311;MN-21;Bulgan;Mandal
+0;106.7408,48.3706;MN-18;Central Aimak;Mandal
+0;100.0500,46.8333;MN-02;Bayankhongor;Mandal
+0;106.3000,45.7500;MN-08;Middle Govĭ;Mandal
+0;101.1500,48.0667;MN-01;Arkhangai Province;Mahagalayn Dugang
+0;103.4256,48.2967;MN-21;Bulgan;Maanĭt
+0;107.5333,47.2500;MN-18;Central Aimak;Maanĭt
+0;105.5667,45.2167;MN-08;Middle Govĭ;Luusiin Hural
+0;103.8000,48.5000;MN-21;Bulgan;Luujin Hüryee
+0;113.8000,47.9833;MN-06;East Aimak;Lunii Bayshing
+0;111.3333,47.5833;MN-11;Hentiy;Lüngiin Hiid
+0;105.2500,47.8667;MN-18;Central Aimak;Lün
+0;102.8667,47.4000;MN-01;Arkhangai Province;Lün
+0;100.3000,47.5500;MN-01;Arkhangai Province;Lamhay Terigüünii Dugang
+0;112.2500,46.0833;MN-17;Sühbaatar;Lamatangiin Hüryee
+0;108.0833,46.4167;MN-08;Middle Govĭ;Lamaiin Jisa
+0;110.6333,48.6000;MN-11;Hentiy;Lamaiin Hüryee
+0;107.1667,47.1833;MN-18;Central Aimak;Lamaiin Hüryee
+0;103.3000,43.7500;MN-14;Ömnögovĭ;Lamaiin Hüryee
+0;101.7667,47.7833;MN-01;Arkhangai Province;Lamaiin Hural
+0;104.0833,49.0833;MN-25;Orhon;Lamaiin Hiid
+0;114.8667,48.2333;MN-06;East Aimak;Lamaiin Hiid
+0;111.5000,47.5833;MN-11;Hentiy;Lamaiin Hiid
+0;114.0500,46.8333;MN-17;Sühbaatar;Lamaiin Hiid
+0;104.0000,45.3000;MN-08;Middle Govĭ;Lamaiin Hiid
+0;100.9833,46.3000;MN-02;Bayankhongor;Lamaiin Gegeenii Hüryee
+0;108.5167,47.2667;MN-18;Central Aimak;Lamaiin Bayshing
+0;106.7500,49.6667;MN-16;Selenge Province;Karnakovka
+0;104.7500,48.2000;MN-18;Central Aimak;Jisa Hüryee
+0;109.0500,46.1667;MN-07;East Gobi Aymag;Jisa Hural
+0;114.9000,48.2167;MN-06;East Aimak;Jirgalantayn Suma
+0;105.8167,48.6833;MN-18;Central Aimak;Jirgalantayn Sang
+0;103.3667,49.3500;MN-21;Bulgan;Jirgalantayn Dugang
+0;113.6167,48.6667;MN-06;East Aimak;Jirgalanta Horshoo
+0;107.4500,49.8833;MN-16;Selenge Province;Jirgalanta
+0;106.6833,47.1667;MN-18;Central Aimak;Jirgalanta
+0;102.0333,48.4500;MN-01;Arkhangai Province;Jirantayn Hüryee
+0;112.1000,47.8000;MN-11;Hentiy;Jibhalantay Hiid
+0;106.7000,42.9833;MN-14;Ömnögovĭ;Jibhalanta Suma
+0;105.9240,48.8019;MN-18;Central Aimak;Javhlant
+0;112.7333,49.1500;MN-06;East Aimak;Javarthushuu
+0;109.4726,47.4931;MN-11;Hentiy;Jargalthaan
+0;105.8806,50.0675;MN-16;Selenge Province;Jargalant
+0;100.2571,49.2959;MN-13;Khövsgöl Province;Jargalant
+0;105.8683,48.5206;MN-18;Central Aimak;Jargalant
+0;102.7558,48.4008;MN-21;Bulgan;Jargalant
+0;101.9724,47.7931;MN-01;Arkhangai Province;Jargalant
+0;100.2167,47.5333;MN-01;Arkhangai Province;Jargalant
+0;101.7167,46.2667;MN-15;Övörhangay;Jargalant
+0;114.1333,49.4667;MN-06;East Aimak;Jaraahayn Örtöö
+0;100.5333,48.2167;MN-01;Arkhangai Province;Janjigiin Dugang
+0;107.6167,47.6000;MN-18;Central Aimak;Janchivlingiyn Hiyd
+0;107.8667,48.1500;MN-18;Central Aimak;Jalmaiin
+0;107.0000,46.2833;MN-08;Middle Govĭ;Jadambayn Jisa Hiid
+0;106.1667,44.7667;MN-08;Middle Govĭ;Irteiin Bayan Hural
+0;106.0833,48.9667;MN-16;Selenge Province;Irhitay
+0;103.4333,46.5000;MN-15;Övörhangay;Irgaytayn Süme
+0;105.9167,49.6500;MN-23;Darhan Uul;Inshete Tala
+0;105.8167,49.6667;MN-16;Selenge Province;Ingital
+0;103.9742,49.4617;MN-21;Bulgan;Ingettolgoy
+0;106.2167,47.0833;MN-18;Central Aimak;Ijirgin Jisa
+0;106.2915,48.2257;MN-18;Central Aimak;Ihsüüj
+0;108.8000,45.5167;MN-07;East Gobi Aymag;Ihjargalan
+0;105.9333,46.9333;MN-18;Central Aimak;Ihhayrhan
+0;106.0000,46.8667;MN-18;Central Aimak;Ihhayrhan
+0;113.1333,45.3500;MN-17;Sühbaatar;Ihbulag
+0;107.2000,43.2000;MN-14;Ömnögovĭ;Ihbulag
+0;111.0833,47.5000;MN-11;Hentiy;Idermegiin Hiid
+0;111.3333,47.5667;MN-11;Hentiy;Idermeg
+0;106.6000,50.0833;MN-16;Selenge Province;Ibitseg
+0;105.3000,49.2667;MN-16;Selenge Province;Ibing Bayshing
+0;102.5000,46.5167;MN-15;Övörhangay;Hüytenii Hiid
+0;111.8333,46.1333;MN-17;Sühbaatar;Hüytenii Hiid
+0;106.6500,49.5000;MN-23;Darhan Uul;Hüyten Dugang
+0;109.5500,46.3000;MN-11;Hentiy;Huyhaiin Jisaiin Hural
+0;105.4200,50.1036;MN-16;Selenge Province;Huurch
+0;100.8833,48.5000;MN-01;Arkhangai Province;Hutambaiin Bayshing
+0;110.2147,43.3517;MN-07;East Gobi Aymag;Hutag-Uul
+4591;102.6933,49.3950;MN-21;Bulgan;Hutag
+0;119.0167,47.2500;MN-06;East Aimak;Hushuu Süme
+0;103.9000,43.6000;MN-14;Ömnögovĭ;Hushuu Hural
+0;104.1167,45.1667;MN-08;Middle Govĭ;Hushuu Hiid
+0;106.0500,46.2333;MN-08;Middle Govĭ;Hüryee Hiid
+0;110.1333,42.9833;MN-07;East Gobi Aymag;Huruutayn Hural
+0;110.4667,47.5000;MN-11;Hentiy;Hurtsa Lamaiin Subarga
+0;106.3000,48.6167;MN-18;Central Aimak;Hurimta
+0;102.6228,48.6631;MN-21;Bulgan;Hüremt
+0;102.4455,46.3024;MN-15;Övörhangay;Hüremt
+0;106.2500,46.2333;MN-08;Middle Govĭ;Huraliin Hiid
+0;106.1500,48.4167;MN-18;Central Aimak;Huraliin Dugang
+0;110.5833,46.7167;MN-11;Hentiy;Huraiin Süme
+0;101.6222,48.1586;MN-01;Arkhangai Province;Hünüyn Süme
+0;102.9833,48.2833;MN-21;Bulgan;Huntayn Haluun Usa
+0;117.4667,47.1333;MN-06;East Aimak;Hunta Suma
+0;110.3000,47.5333;MN-11;Hentiy;Hündelengiin Shüteen
+0;106.6667,50.1833;MN-16;Selenge Province;Hunda
+0;114.8667,48.4333;MN-06;East Aimak;Hulstay
+0;114.9167,45.9833;MN-17;Sühbaatar;Hulasatayn Suma
+0;101.0833,47.6333;MN-01;Arkhangai Province;Hujirtayn Süme
+0;113.9000,47.4500;MN-17;Sühbaatar;Hujirtayn Örtöö
+0;112.7833,49.3333;MN-06;East Aimak;Hujirtayn Dugang
+0;106.8500,49.8667;MN-16;Selenge Province;Hujirta
+0;112.7000,49.3667;MN-06;East Aimak;Hujirta
+0;103.1500,49.7500;MN-21;Bulgan;Hujirt
+0;101.2395,48.8820;MN-01;Arkhangai Province;Hujirt
+0;102.7690,46.8970;MN-15;Övörhangay;Khujirt
+0;104.5833,46.6000;MN-18;Central Aimak;Hujirt
+0;110.7667,46.5833;MN-11;Hentiy;Hujirt
+0;107.4500,49.8333;MN-16;Selenge Province;Hüderiin Hiid
+0;113.0833,45.3333;MN-17;Sühbaatar;Hudagiin Hiid
+0;113.5000,44.9500;MN-17;Sühbaatar;Hudagiin Hiid
+0;102.1319,43.1736;MN-14;Ömnögovĭ;Noyon Suma
+0;109.6381,43.6064;MN-07;East Gobi Aymag;Hövsgöl
+0;102.3833,44.6667;MN-15;Övörhangay;Hovd
+27924;102.1749,44.6702;MN-15;Övörhangay;Bogd
+0;112.2833,46.6500;MN-17;Sühbaatar;Hototoyn Örtöö
+0;102.4333,47.3667;MN-01;Arkhangai Province;Hotontoyn Hüryee
+0;102.4679,47.3628;MN-01;Arkhangai Province;Hotont
+0;102.8333,49.6667;MN-21;Bulgan;Hötöliin Dugang
+0;107.0333,44.6833;MN-08;Middle Govĭ;Hötöl Hiid
+0;109.5833,47.7500;MN-11;Hentiy;Hotogtoy Hüryee
+0;115.3167,46.7833;MN-06;East Aimak;Hoshuu Süme
+0;102.5569,48.1009;MN-01;Arkhangai Province;Höshööt
+0;119.0500,47.3000;MN-06;East Aimak;Höshöö Süme
+0;101.8667,47.5333;MN-01;Arkhangai Province;Höshöögiin Bulang
+0;109.2333,46.9667;MN-11;Hentiy;Höshöö Ergetsegiin Suurin
+2900;100.7667,45.2000;MN-02;Bayankhongor;Horiult
+0;105.6167,46.2500;MN-08;Middle Govĭ;Horin Jisa
+0;106.3500,45.5000;MN-08;Middle Govĭ;Horin Hiid
+0;103.1167,47.7000;MN-01;Arkhangai Province;Horhoyn Hural
+0;102.9167,47.7000;MN-01;Arkhangai Province;Horchogiin Hural
+0;113.4333,48.4000;MN-06;East Aimak;Tsagaan-Owoo
+0;101.4000,45.1667;MN-15;Övörhangay;Bayan Uula Sumu
+0;100.4167,48.7333;MN-01;Arkhangai Province;Hooltoyn Dugang
+0;102.9833,45.5333;MN-15;Övörhangay;Hoolt
+0;108.6333,43.7333;MN-07;East Gobi Aymag;Honichin Hural
+0;107.2833,47.5833;MN-18;Central Aimak;Honhor
+0;113.1500,45.3500;MN-17;Sühbaatar;Hongor Uula Suma
+0;110.9833,48.5167;MN-11;Hentiy;Hongor Suma
+0;108.8333,45.9833;MN-07;East Gobi Aymag;Hongor Suma
+0;101.4167,48.3833;MN-01;Arkhangai Province;Höngöröögiin Datsang
+0;103.5000,43.4667;MN-14;Ömnögovĭ;Hongor Oboo Suma
+0;109.4667,45.8333;MN-07;East Gobi Aymag;Hongoriin Hoyolin Hural
+0;110.5833,43.1667;MN-07;East Gobi Aymag;Hongor Hiid
+0;105.6833,46.0333;MN-08;Middle Govĭ;Hongor
+1781;111.2000,45.8000;MN-07;East Gobi Aymag;Hongor
+0;112.7333,45.7833;MN-17;Sühbaatar;Hongor
+0;113.6838,45.1351;MN-17;Sühbaatar;Hongor
+0;113.7500,46.9333;MN-17;Sühbaatar;Hondor Suma
+0;104.5833,49.6500;MN-21;Bulgan;Holtosoto Nugaiin Hiid
+0;109.1667,46.0000;MN-07;East Gobi Aymag;Holoto Hural
+0;105.6667,49.3333;MN-16;Selenge Province;Holor
+0;111.5000,45.9167;MN-07;East Gobi Aymag;Holboo Hiid
+0;110.8500,45.5000;MN-07;East Gobi Aymag;Holboogiin Hiid
+0;115.8500,47.3333;MN-06;East Aimak;Höhö Usanay Bayshing
+0;108.5333,47.3833;MN-11;Hentiy;Höhöteyn Hural
+0;115.5333,46.0000;MN-17;Sühbaatar;Höhöteyn Dugang
+0;106.5000,48.3333;MN-18;Central Aimak;Höhö Oboonii Örtöö
+0;100.9278,50.4728;MN-13;Khövsgöl Province;Undur Sume
+0;100.8333,50.5833;MN-13;Khövsgöl Province;Hohon Hüryee
+0;110.0833,47.0500;MN-11;Hentiy;Höhöldögöiin Shüteen
+0;106.3000,48.1833;MN-18;Central Aimak;Höhö Höhönii Bayshing
+0;100.1000,49.8833;MN-13;Khövsgöl Province;Höhö Habtsagaytayn Örtöö
+0;105.7500,46.1667;MN-08;Middle Govĭ;Höhö Bürideiin Jisa
+0;100.4483,46.2858;MN-02;Bayankhongor;Höhbürd
+0;104.9000,48.9333;MN-16;Selenge Province;Högshinii Dugang
+0;114.9333,48.2667;MN-06;East Aimak;Högshin Hiid
+0;103.6833,47.4000;MN-21;Bulgan;Högönö-Taranaiin-Hüree
+0;113.9667,48.6500;MN-06;East Aimak;Högnö
+0;114.0167,48.5000;MN-06;East Aimak;Högnö
+0;102.0833,44.9500;MN-15;Övörhangay;Hoboriin Örtöö
+0;102.5000,47.4833;MN-01;Arkhangai Province;Hoboriin Horshoo
+0;110.4667,43.2500;MN-07;East Gobi Aymag;Hoboriin Hiid
+0;105.6000,50.1500;MN-16;Selenge Province;Hitiin Bayshing
+0;105.5667,49.7500;MN-16;Selenge Province;Hitiin Bayshing
+0;106.6000,50.2833;MN-16;Selenge Province;Hirang
+0;101.1000,49.2167;MN-13;Khövsgöl Province;Hilganatayn Hüryee
+0;111.4333,49.1833;MN-11;Hentiy;Hilbariin Hiid
+0;106.2500,49.9167;MN-16;Selenge Province;Hicheegiin Dugang
+0;114.1167,48.3667;MN-06;East Aimak;Herlenbayan
+0;110.5667,47.3000;MN-11;Hentiy;Herlen
+0;108.4667,47.8000;MN-18;Central Aimak;Herelengiin Deng Örtöö
+0;108.9667,48.3500;MN-18;Central Aimak;Hereleng Dugang
+0;106.5000,48.8167;MN-16;Selenge Province;Herh
+0;109.8167,48.0833;MN-11;Hentiy;Hentiy
+0;105.2000,45.4500;MN-08;Middle Govĭ;Hebtelüy Süme
+0;103.3833,48.3000;MN-21;Bulgan;Hayrhan Suma
+0;109.9167,46.0833;MN-07;East Gobi Aymag;Haylasangiin Hural
+0;102.8833,49.4667;MN-21;Bulgan;Haylanta Hiid
+0;113.8825,46.7708;MN-17;Sühbaatar;Haylaastay
+0;113.9500,46.8833;MN-17;Sühbaatar;Haylaasatayn Süme
+0;106.3333,46.5500;MN-08;Middle Govĭ;Hayaa
+0;113.0833,45.6667;MN-17;Sühbaatar;Havirga
+0;100.1581,50.4448;MN-13;Khövsgöl Province;Khatgal
+0;112.9500,46.1667;MN-17;Sühbaatar;Hatavch
+0;100.8279,44.5459;MN-02;Bayankhongor;Hatansuudal
+0;112.9667,46.1667;MN-17;Sühbaatar;Hatabchin Hiid
+0;110.1167,48.9167;MN-11;Hentiy;Hashingiin Dugang
+0;103.4167,47.3500;MN-01;Arkhangai Province;Hashat
+0;107.9000,44.2833;MN-07;East Gobi Aymag;Hashat
+0;107.9833,47.1000;MN-18;Central Aimak;Hashaatayn Örtöö
+0;109.9167,46.2500;MN-07;East Gobi Aymag;Hashaatayn Hural
+0;108.9000,43.2667;MN-07;East Gobi Aymag;Hashaata Hiid
+0;104.8051,45.2432;MN-08;Middle Govĭ;Hashaat
+0;112.8000,46.2167;MN-17;Sühbaatar;Haryaata Suma
+0;104.1000,49.5333;MN-21;Bulgan;Hartsagay Dugang
+3245;106.1364,49.8325;MN-23;Darhan Uul;Orhon
+0;104.0000,46.5833;MN-15;Övörhangay;Hardzatayn Dugang
+0;111.7167,48.2500;MN-11;Hentiy;Hardzanii Hiid
+0;109.3167,45.8000;MN-07;East Gobi Aymag;Har-Ayrag
+0;103.1500,46.2333;MN-15;Övörhangay;Hara Usanii Hiid
+0;106.0000,48.1333;MN-18;Central Aimak;Hara Üdzüür
+0;103.4500,47.8833;MN-21;Bulgan;Haratayn Hural
+0;106.6000,44.3000;MN-14;Ömnögovĭ;Hara Noyonii Hiid
+0;102.0667,45.3667;MN-15;Övörhangay;Haraganaiin Örtöö
+0;113.9333,48.0667;MN-06;East Aimak;Hara Erginii Örtöö
+0;107.6500,46.4167;MN-08;Middle Govĭ;Haraat
+0;106.0833,48.9167;MN-16;Selenge Province;Baruunharaa
+0;101.9167,48.8167;MN-01;Arkhangai Province;Hanuyn Hüryee
+0;102.2611,49.0242;MN-21;Bulgan;Hanuy
+0;101.0511,48.1444;MN-01;Arkhangai Province;Hanuy
+0;114.6667,48.0167;MN-06;East Aimak;Han-Uul
+0;103.2500,49.5500;MN-21;Bulgan;Hantay
+0;101.5208,48.4408;MN-01;Arkhangai Province;Han-Oyuut
+0;103.2661,48.9572;MN-21;Bulgan;Hanjargalant
+0;112.1333,47.6167;MN-17;Sühbaatar;Hanhöhiy
+0;100.7000,51.4500;MN-13;Khövsgöl Province;Hanhayn Hüryee
+0;104.1333,47.4167;MN-18;Central Aimak;Hangindagiin Hiid
+0;104.2833,49.0500;MN-25;Orhon;Hangaliin Dugang
+0;107.1833,49.9167;MN-16;Selenge Province;Handza
+0;104.2500,49.4500;MN-21;Bulgan;Handagay Dugang
+0;104.2333,44.2500;MN-14;Ömnögovĭ;Hanaiin Tsagaan Subarga Hiid
+0;112.8000,47.5833;MN-17;Sühbaatar;Hamjilgayn Hiid
+0;103.6833,48.1833;MN-21;Bulgan;Hambaiin Hüryee
+0;110.3000,44.5833;MN-07;East Gobi Aymag;Hamariin Hural
+0;113.5333,49.0500;MN-06;East Aimak;Halyuutayn Holboo Örtöö
+0;104.7167,48.9167;MN-16;Selenge Province;Haltariin Dugang
+0;103.9667,48.8167;MN-21;Bulgan;Haliun
+3203;114.9000,48.1833;MN-06;East Aimak;Halhgol
+0;118.0833,47.9333;MN-06;East Aimak;Halhgol
+0;117.8000,48.0000;MN-06;East Aimak;Halhaiin Süme
+0;117.2000,46.6667;MN-06;East Aimak;Halha Horoo
+0;105.9500,46.8333;MN-18;Central Aimak;Haldzan Gelengiin Jisa
+0;107.3500,46.4167;MN-08;Middle Govĭ;Haldaiin Jisa
+0;107.4895,46.0499;MN-08;Middle Govĭ;Hajuu-Us
+0;110.0000,46.3667;MN-11;Hentiy;Hajuu-Ulaan
+0;118.9500,46.9333;MN-06;East Aimak;Hahatay
+0;100.1500,50.3167;MN-13;Khövsgöl Province;Hadhaliin Dugang
+0;110.4500,43.9000;MN-07;East Gobi Aymag;Hadaum-shand
+0;107.3333,49.4500;MN-16;Selenge Province;Hadatayn Dugang
+0;105.7500,50.2167;MN-16;Selenge Province;Hadatayn Bayshin
+0;103.8167,47.8000;MN-21;Bulgan;Hadasan
+0;105.1833,46.1833;MN-08;Middle Govĭ;Hadan Usa Jisa
+0;105.8333,48.2000;MN-18;Central Aimak;Hadanii Lama
+0;106.5833,49.8333;MN-16;Selenge Province;Hadaiin Lamaiin Dugang
+0;108.9500,46.6000;MN-24;Govĭ-Sumber;Habtsal Hiid
+0;113.8333,46.5500;MN-17;Sühbaatar;Habhastayn Hiid
+0;111.8000,47.1167;MN-17;Sühbaatar;Habhagtayn Hiid
+0;104.3008,43.4167;MN-14;Ömnögovĭ;Habchil Örtöö
+0;106.5667,49.2667;MN-23;Darhan Uul;Habchi
+0;105.9833,46.6667;MN-08;Middle Govĭ;Guyin Jisa
+0;110.4167,47.9833;MN-11;Hentiy;Guyiin Örtöö
+0;110.9667,47.6333;MN-11;Hentiy;Guunnii Shüteen
+0;110.7500,47.6833;MN-11;Hentiy;Guunii Shüteen
+0;114.5000,48.0000;MN-06;East Aimak;Guunii Hiid
+0;101.5667,44.4000;MN-02;Bayankhongor;Gurvan-tes
+0;113.3000,46.6167;MN-17;Sühbaatar;Gurvan-Bulak
+0;115.2333,48.6167;MN-06;East Aimak;Gurvan Bayan
+0;114.3000,48.3167;MN-06;East Aimak;Gurbanii Örtöö
+0;113.5167,46.6167;MN-17;Sühbaatar;Gurban Bulag Suma
+0;112.2500,48.4333;MN-11;Hentiy;Gurban Bayan Suma
+0;101.9108,49.7572;MN-13;Khövsgöl Province;Gurachinii Hüryee
+0;102.0167,45.6333;MN-15;Övörhangay;Günnariyn
+0;106.0333,48.1667;MN-18;Central Aimak;Guna
+0;107.0000,45.3667;MN-08;Middle Govĭ;Guchin Jisa Hiid
+0;107.7500,46.1167;MN-08;Middle Govĭ;Guchin Jisa
+0;108.6167,48.1500;MN-18;Central Aimak;Gomboiin Shüteen Dugang
+0;109.5000,46.9667;MN-11;Hentiy;Gol Daychin Choyro Hiid
+0;104.7333,43.3333;MN-14;Ömnögovĭ;Godoli Balgasanii Hiid
+0;105.8167,47.4500;MN-18;Central Aimak;Gindeliin Hüryee
+0;114.7500,48.2000;MN-06;East Aimak;Gegeen Hiid
+0;109.6833,46.4167;MN-11;Hentiy;Gedzegen Hural
+0;107.2500,47.9167;MN-20;Ulaanbaatar;Gatsuurt
+0;112.3167,48.2667;MN-11;Hentiy;Gashuunii Hiid
+0;105.9833,45.7333;MN-08;Middle Govĭ;Ganjir Jisa
+0;102.2000,43.0000;MN-14;Ömnögovĭ;Gandzagatayn Hüryee
+0;108.2000,47.5000;MN-18;Central Aimak;Galuutayn Bayshing
+0;113.2333,48.5667;MN-06;East Aimak;Galuut
+0;111.1333,49.1000;MN-11;Hentiy;Galtatay Hiid
+0;107.4500,49.7333;MN-16;Selenge Province;Galgatay
+0;104.4000,49.4500;MN-21;Bulgan;Galdatay Dugang
+0;104.7000,48.2000;MN-18;Central Aimak;Gal Badaraha Suma
+0;107.1588,47.9292;MN-18;Central Aimak;Gachuurt
+0;102.6700,50.1561;MN-21;Bulgan;Eringiin Dugang
+0;115.4000,46.1667;MN-17;Sühbaatar;Erigtsegiin Örtöö
+0;102.9812,48.2739;MN-21;Bulgan;Erhet
+0;108.0833,46.9667;MN-18;Central Aimak;Ergineg-Hiyd
+0;108.0833,47.0000;MN-18;Central Aimak;Ergineg Hiid
+0;104.4333,49.5333;MN-21;Bulgan;Ergiliin Dugang
+2853;109.1333,43.1500;MN-07;East Gobi Aymag;Ergel
+0;108.4667,45.9167;MN-08;Middle Govĭ;Eren Suma
+23;115.7253,49.8807;MN-06;East Aimak;Ereencav
+0;114.3000,49.7000;MN-06;East Aimak;Ereentsav
+0;105.4167,49.9167;MN-16;Selenge Province;Erdeni Wangiin Hüryee
+0;106.6167,47.0667;MN-18;Central Aimak;Erdeni Hudag
+0;103.7000,48.2500;MN-21;Bulgan;Erdeni Hamsan Hüryee
+0;112.6167,48.3667;MN-06;East Aimak;Erdeni Guunii Hiid
+0;111.2333,44.5000;MN-07;East Gobi Aymag;Erdeni
+0;100.8224,46.4184;MN-02;Bayankhongor;Erdenetsogt
+0;106.1187,42.9724;MN-14;Ömnögovĭ;Erdenetsogt
+97814;104.0833,49.0333;MN-25;Orhon;Erdenet
+0;102.8425,47.2015;MN-15;Övörhangay;Erdene-Dzuu
+0;101.5753,50.1094;MN-13;Khövsgöl Province;Eg-Uur
+0;105.3736,49.2475;MN-16;Selenge Province;Enhtal
+0;105.2500,47.8000;MN-18;Central Aimak;Enheiin Hural
+0;111.8333,47.2500;MN-17;Sühbaatar;Enger Uulaiin Hiid
+0;112.1333,48.2000;MN-11;Hentiy;Engerteyn Dugang
+0;115.2000,48.8167;MN-06;East Aimak;Enger-Shand
+0;107.1667,47.8167;MN-20;Ulaanbaatar;Engershand
+0;111.2333,44.2000;MN-07;East Gobi Aymag;Enger Hulasa
+0;107.4333,45.9667;MN-08;Middle Govĭ;Enger Dzulagtayn Hural
+0;102.0833,49.9333;MN-21;Bulgan;Emteyn Dugang
+0;107.8667,46.8333;MN-18;Central Aimak;Eligen Jisa
+0;108.1667,44.5833;MN-07;East Gobi Aymag;Eligen Hural
+0;109.0500,46.8500;MN-24;Govĭ-Sumber;Eligen Deese
+0;110.7500,43.3667;MN-07;East Gobi Aymag;Elesenii Tsagaan Oboo Hural
+0;104.9667,42.4833;MN-14;Ömnögovĭ;Ehin Dzagiin Hural
+0;110.1833,48.6833;MN-11;Hentiy;Eg
+0;105.7000,46.0667;MN-08;Middle Govĭ;Dzuutayn Jisa
+0;107.7333,45.9667;MN-08;Middle Govĭ;Dzüün Tsorgo
+0;106.8333,48.0167;MN-20;Ulaanbaatar;Dzüün Salaanii Dugang
+0;106.2667,48.2833;MN-18;Central Aimak;Dzüün Muhar
+0;100.1667,47.6667;MN-01;Arkhangai Province;Dzuun Modonii Dugang
+0;106.8500,47.7833;MN-20;Ulaanbaatar;Dzuunmod
+16953;106.9528,47.7069;MN-18;Central Aimak;Dzuunmod
+0;102.2167,46.6000;MN-15;Övörhangay;Dzüün Iret Hiid
+0;108.5000,48.0000;MN-18;Central Aimak;Dzüün Hüryee
+18830;106.4579,48.8523;MN-16;Selenge Province;Dzüünharaa
+0;103.8333,48.2667;MN-21;Bulgan;Dzüün Guunii Hüryee
+0;110.6500,46.6167;MN-11;Hentiy;Dzüün Ganjir Hural
+0;107.5500,45.8167;MN-08;Middle Govĭ;Dzüün Ganjir Hiid
+0;103.9500,48.3333;MN-21;Bulgan;Dzüün Dzagiin Hüryee
+0;108.1167,46.2667;MN-08;Middle Govĭ;Dzüün Choyroiin Hiid
+0;115.2940,46.9534;MN-06;East Aimak;Dzüünbulag
+0;112.1833,46.3833;MN-17;Sühbaatar;Dzüünbulag
+0;110.0457,44.4961;MN-07;East Gobi Aymag;Te-tsu-pan
+0;111.3000,45.9500;MN-07;East Gobi Aymag;Dzürhen Hiid
+0;100.1514,48.9394;MN-13;Khövsgöl Province;Dzürh
+0;102.6000,49.9333;MN-21;Bulgan;Dzultayn Dugang
+0;115.0500,45.8833;MN-17;Sühbaatar;Dzotol
+0;111.1833,47.8500;MN-11;Hentiy;Dzoosoiin Hiid
+0;105.5333,48.7167;MN-18;Central Aimak;Dzohoy Hiid
+0;107.1500,46.8000;MN-18;Central Aimak;Dzogsool
+0;110.5000,46.5333;MN-11;Hentiy;Dzodoiin Hural
+0;103.7000,48.3833;MN-21;Bulgan;Dzöböiin Hüryee
+0;105.0458,50.3156;MN-16;Selenge Province;Dzelter
+0;102.5500,47.6681;MN-01;Arkhangai Province;Dzegstey
+0;110.7167,45.5000;MN-07;East Gobi Aymag;Dzeeren Hural
+0;103.8833,45.8167;MN-15;Övörhangay;Dzeeren Hiid
+0;101.9167,47.3833;MN-01;Arkhangai Province;Dzasariin Bayshing
+0;109.0000,46.9167;MN-11;Hentiy;Dzaraa Bulangiin Hiid
+0;111.1667,44.5167;MN-07;East Gobi Aymag;Dzamiin-Üüd
+0;107.9000,44.3167;MN-07;East Gobi Aymag;Dzalaata
+0;115.7500,48.4667;MN-06;East Aimak;Dzalaa
+0;114.2833,47.8333;MN-06;East Aimak;Dzahachi Örtöö
+0;106.2500,45.7833;MN-08;Middle Govĭ;Dzagiin Jisa Hiid
+0;109.6000,47.1000;MN-11;Hentiy;Dzagasatayn Horshoo
+0;109.4167,42.6667;MN-07;East Gobi Aymag;Dzadagayta Hiid
+0;109.7833,47.3000;MN-11;Hentiy;Dzabilgaiin Hiid
+0;100.8780,47.4933;MN-01;Arkhangai Province;Dzaanhoshuu
+0;107.4833,46.0833;MN-08;Middle Govĭ;Duraliin Hiid
+0;105.9219,48.0379;MN-18;Central Aimak;Dund-Urt
+0;111.4978,47.9459;MN-11;Hentiy;Dundbürd
+0;105.8667,48.1167;MN-18;Central Aimak;Dumda Urtaiin Bayshing
+0;111.2000,46.2833;MN-11;Hentiy;Dumda Bulyagin Horshoo
+0;110.3000,48.3833;MN-11;Hentiy;Dumda Bayan Suma
+0;106.1867,49.9150;MN-23;Darhan Uul;Dulaanhaan
+0;108.7333,47.2833;MN-11;Hentiy;Dulaan
+0;100.9833,48.7333;MN-01;Arkhangai Province;Dugan-Hiyd
+0;107.2833,47.8833;MN-20;Ulaanbaatar;Dugang Süme
+0;107.0667,47.8833;MN-20;Ulaanbaatar;Dugang Süme
+0;102.6000,45.9167;MN-15;Övörhangay;Dugang Shaydaiin Hiid
+0;101.1667,48.7667;MN-01;Arkhangai Province;Dugang Hiid
+0;102.4000,44.0000;MN-14;Ömnögovĭ;Dugang Goliin Hural
+0;107.6167,47.8833;MN-18;Central Aimak;Dugan
+0;100.8500,47.9000;MN-01;Arkhangai Province;Doynhor Tergüünii Dugang
+0;109.5833,46.9667;MN-11;Hentiy;Dorji Tsamba Hiid
+0;104.5333,44.3833;MN-14;Ömnögovĭ;Dörbön Derite Örtöö
+0;112.2500,46.5833;MN-17;Sühbaatar;Dörböljin Hiid
+0;100.0667,48.2167;MN-01;Arkhangai Province;Doodo Boriljitoyn Dugang
+0;105.0833,47.7000;MN-18;Central Aimak;Dolootoyn Hural
+0;106.1167,42.9667;MN-14;Ömnögovĭ;Doloo Sharadzagiin Süme
+0;106.3167,44.9500;MN-08;Middle Govĭ;Doloon-Tsagaan-Had
+0;103.2333,47.4500;MN-01;Arkhangai Province;Doloonii Hural
+0;103.6000,47.8833;MN-21;Bulgan;Doloon-Hudagiin-Hural
+0;103.7833,47.9000;MN-21;Bulgan;Doloonhudag
+0;105.3208,44.4245;MN-14;Ömnögovĭ;Doloon
+0;108.8667,47.0833;MN-11;Hentiy;Dolood Jisa
+0;103.0500,46.4333;MN-15;Övörhangay;Turugen-hairuhan
+0;106.4167,44.0833;MN-14;Ömnögovĭ;Döchiin Hural
+0;114.2833,49.7167;MN-06;East Aimak;Döchgol
+0;104.8833,44.0000;MN-14;Ömnögovĭ;Doboiin Hiid
+0;101.9000,50.4500;MN-13;Khövsgöl Province;Derhiin Hüryee
+0;110.0333,46.3333;MN-07;East Gobi Aymag;Deresenii Usanii Hiid
+0;109.7833,43.7833;MN-07;East Gobi Aymag;Deresenii Hural
+0;110.2000,45.2500;MN-07;East Gobi Aymag;Deresenii Bulagiin Hiid
+0;113.0333,45.5000;MN-17;Sühbaatar;Deresen Hiid
+0;113.6667,46.8333;MN-17;Sühbaatar;Deresen Hashaatayn Hiid
+0;107.1186,43.1256;MN-14;Ömnögovĭ;Demchig Hiid
+0;105.4500,45.8167;MN-08;Middle Govĭ;Delger Tsogtoyn Dugantayn Hiid
+0;106.7833,46.7000;MN-18;Central Aimak;Delger Öldzeyteyn Jisa
+0;103.3000,49.5000;MN-21;Bulgan;Delger Nuur Dugang
+0;110.4500,45.8167;MN-07;East Gobi Aymag;Delgerhet
+0;106.1858,50.0858;MN-16;Selenge Province;Delgerhaan
+0;104.6667,46.2000;MN-08;Middle Govĭ;Delgerehe Hiid
+0;104.3000,45.8667;MN-08;Middle Govĭ;Delgerehe Hiid
+0;102.8000,46.3500;MN-15;Övörhangay;Delgereh
+0;106.9833,46.1833;MN-08;Middle Govĭ;Degcheiin Jisa Hiid
+0;100.8167,50.2333;MN-13;Khövsgöl Province;Deeste Hüryee
+0;104.5000,47.1000;MN-18;Central Aimak;Debsegiin Hüryee
+0;109.0500,48.0333;MN-11;Hentiy;Dayaantayn Hural
+0;100.7667,46.4500;MN-02;Bayankhongor;Dayaan Hiid
+0;112.1667,46.4167;MN-17;Sühbaatar;Dayaanchiin Hiid
+0;104.3500,47.6167;MN-21;Bulgan;Dashinchilling Sum
+0;106.1333,43.7167;MN-14;Ömnögovĭ;Dashilingiin Hural
+0;100.1833,48.2833;MN-01;Arkhangai Province;Dashilingiin Dugang
+0;101.0833,48.3667;MN-01;Arkhangai Province;Dashi Jabiin Bayshing
+0;107.7000,43.9167;MN-14;Ömnögovĭ;Dashi Choynbil Hiid
+0;114.4029,49.5457;MN-06;East Aimak;Dashbalbar
+0;106.7000,49.0333;MN-16;Selenge Province;Daritayn Dugang
+0;101.4167,50.5333;MN-13;Khövsgöl Province;Darhantayn Hüryee
+0;108.2333,46.3333;MN-08;Middle Govĭ;Darhan Jisa
+0;113.8667,46.7667;MN-17;Sühbaatar;Darhanhaan
+0;100.3333,46.6667;MN-02;Bayankhongor;Darhan Guunii Hüryee
+0;106.3500,49.6167;MN-16;Selenge Province;Darhan
+83883;105.9228,49.4867;MN-23;Darhan Uul;Darhan
+0;103.8805,48.2546;MN-21;Bulgan;Darhan
+0;109.4167,46.6167;MN-11;Hentiy;Darhan
+0;107.1000,46.5333;MN-18;Central Aimak;Dargatayn Jisa Hiid
+0;105.6500,49.4000;MN-16;Selenge Province;Dara Ehe Lamaiin Hiid
+0;104.6333,49.2167;MN-16;Selenge Province;Dara Eheiin Jisa Dugang
+0;105.1167,49.0500;MN-16;Selenge Province;Dara Eheiin Jisa Dugang
+0;111.1667,48.0000;MN-11;Hentiy;Dara Eheiin Hiid
+0;106.7000,49.7333;MN-16;Selenge Province;Dara Eheiin Dugang
+0;107.2000,49.4833;MN-16;Selenge Province;Dangaiin Dugang
+0;104.0333,47.2500;MN-15;Övörhangay;Danchin Hüryee
+0;113.4333,49.4167;MN-06;East Aimak;Damba Daraja Hiid
+0;112.3333,47.8333;MN-11;Hentiy;Daltayn Hiid
+0;106.1167,46.5333;MN-08;Middle Govĭ;Daljiin Jisa
+0;101.3500,49.4333;MN-13;Khövsgöl Province;Dalhayn Dugang
+0;101.2667,49.3000;MN-13;Khövsgöl Province;Dalhayn Dugang
+0;108.7667,47.8333;MN-11;Hentiy;Dalbayn Hural
+0;108.0833,45.1167;MN-08;Middle Govĭ;Dalayn Hural
+0;106.0500,44.2333;MN-08;Middle Govĭ;Dalayn Hural
+0;110.7500,44.3333;MN-07;East Gobi Aymag;Dalayn Hiid
+0;103.4667,46.8000;MN-15;Övörhangay;Dalay Guunii Hiid
+0;103.5128,43.4679;MN-14;Ömnögovĭ;Dalay
+0;110.0500,44.3667;MN-07;East Gobi Aymag;Dalan Türüü
+0;104.4500,47.7167;MN-21;Bulgan;Dalan Hural
+24863;104.4250,43.5708;MN-14;Ömnögovĭ;Dalandzadgad
+0;106.3833,48.7000;MN-16;Selenge Province;Dahashaa
+0;111.8833,47.7167;MN-11;Hentiy;Dagaliin Hiid
+0;104.5500,48.5000;MN-21;Bulgan;Dabharlin Hiid
+0;114.7667,48.4667;MN-06;East Aimak;Dabasan Suma
+0;106.0500,47.6833;MN-18;Central Aimak;Daaga Yarimpil Hiid
+0;106.6500,49.9000;MN-16;Selenge Province;Chuluuta
+0;105.4167,48.8333;MN-16;Selenge Province;Chuluuta
+0;107.0000,45.7833;MN-08;Middle Govĭ;Chuluut
+0;106.0667,46.2167;MN-08;Middle Govĭ;Choyroiin Jisa Hiid
+0;108.8000,46.2333;MN-07;East Gobi Aymag;Choyren
+10434;108.3611,46.3611;MN-24;Govĭ-Sumber;Choyr
+10434;108.6500,46.1333;MN-24;Govĭ-Sumber;Choyr
+0;110.0333,44.7500;MN-07;East Gobi Aymag;Choylingiin Hiid
+44835;114.5326,48.0726;MN-06;East Aimak;Choibalsan
+0;115.3667,45.9000;MN-17;Sühbaatar;Chonogol
+0;109.6667,44.7500;MN-07;East Gobi Aymag;Chindamani Suma
+0;110.4667,45.5333;MN-07;East Gobi Aymag;Chandmanĭ
+19891;110.1163,44.8824;MN-07;East Gobi Aymag;Saynshand
+0;107.1333,44.9667;MN-08;Middle Govĭ;Buyant-Ovoo
+0;110.8000,46.2667;MN-11;Hentiy;Buyantayn Hural
+0;110.8333,46.2500;MN-11;Hentiy;Buyant
+0;110.9000,45.6000;MN-07;East Gobi Aymag;Buyan Suma
+0;109.4167,45.4833;MN-07;East Gobi Aymag;Büüteriin Hural
+0;109.5000,46.3333;MN-11;Hentiy;Buuriin Jisa Hural
+0;103.5333,47.6333;MN-21;Bulgan;Buuriin Hural
+0;108.8000,44.5833;MN-07;East Gobi Aymag;Buuraliin Hiid
+0;105.9625,49.4360;MN-16;Selenge Province;Buural
+0;110.4500,43.4167;MN-07;East Gobi Aymag;Buuraiin Hural
+0;112.0500,45.5167;MN-17;Sühbaatar;Butargamaiin Hiid
+0;110.1667,47.1333;MN-11;Hentiy;Büseiin Shüteen
+0;101.3000,48.3000;MN-01;Arkhangai Province;Burigiin Dugang
+0;110.8000,44.2500;MN-07;East Gobi Aymag;Büriden Süme
+0;101.7167,47.0667;MN-01;Arkhangai Province;Büridenii Hiid
+0;100.5500,47.6000;MN-01;Arkhangai Province;Büridenii Dugang
+0;102.5500,48.3833;MN-21;Bulgan;Büriden Hüryee
+0;109.9167,47.5500;MN-11;Hentiy;Burhantayn Suurin
+0;106.5333,48.0833;MN-20;Ulaanbaatar;Burhanta
+0;108.5167,48.2833;MN-18;Central Aimak;Burhanii-Dugar
+0;105.9500,49.3167;MN-23;Darhan Uul;Burhanii
+0;106.4500,48.3000;MN-18;Central Aimak;Burgaltayn Dugang
+0;104.7435,49.2650;MN-16;Selenge Province;Burgaltay
+0;106.6667,48.3333;MN-18;Central Aimak;Burgaltay
+0;101.9167,46.8000;MN-15;Övörhangay;Burgaasatayn Hiid
+0;112.0833,47.0833;MN-17;Sühbaatar;Burgaasatayn Hamtaral
+0;114.0833,45.2167;MN-17;Sühbaatar;Burgaasatayn Dugang
+0;102.9167,49.5000;MN-21;Bulgan;Burgaasata
+0;100.9500,48.2500;MN-01;Arkhangai Province;Burgaasanii Dugang
+0;100.8442,51.5556;MN-13;Khövsgöl Province;Burgaasa
+0;103.8000,48.3167;MN-21;Bulgan;Burga
+0;111.7500,46.7167;MN-17;Sühbaatar;Bürentsogt
+0;111.7000,48.8667;MN-11;Hentiy;Bürenhaan
+0;100.2333,49.6167;MN-13;Khövsgöl Province;Büren
+0;112.2333,47.3667;MN-17;Sühbaatar;Büreen-Nuur
+0;109.7500,43.5000;MN-07;East Gobi Aymag;Bumbata
+0;104.1178,46.4967;MN-15;Övörhangay;Bumbat
+0;114.6000,46.6167;MN-17;Sühbaatar;Bumbaiin Süme
+0;108.0000,48.0833;MN-18;Central Aimak;Bulnayn Dugang
+0;101.5142,50.5419;MN-13;Khövsgöl Province;Bulgan
+17348;103.5347,48.8125;MN-21;Bulgan;Bulgan
+0;103.5429,44.0975;MN-14;Ömnögovĭ;Bulgan
+0;110.4000,48.5333;MN-11;Hentiy;Bulangiin Suurin
+0;111.1667,44.9167;MN-07;East Gobi Aymag;Bulangiin Hural
+0;109.9333,42.7667;MN-07;East Gobi Aymag;Bulang
+0;107.5000,49.8000;MN-16;Selenge Province;Bulagtay
+0;107.5162,49.7759;MN-16;Selenge Province;Bulagtay
+0;101.1158,47.3187;MN-01;Arkhangai Province;Bulagiyn Denj
+0;113.4833,48.0500;MN-06;East Aimak;Bulagan Suma
+0;100.6269,49.8595;MN-13;Khövsgöl Province;Bulag
+0;108.4833,48.2000;MN-18;Central Aimak;Bulag
+0;106.6667,47.6667;MN-18;Central Aimak;Buhuugiin Hural
+0;106.9000,49.4833;MN-16;Selenge Province;Büheleyn Oros
+0;106.8000,50.0667;MN-16;Selenge Province;Büheley
+0;100.7000,49.1000;MN-01;Arkhangai Province;Buhaiin Hüryee
+0;103.7167,49.3333;MN-21;Bulgan;Buhaiin Dugang
+0;105.3000,44.4333;MN-14;Ömnögovĭ;Buha Dolon
+0;103.3000,49.5667;MN-21;Bulgan;Bügseyn Dugang
+0;100.0500,49.1333;MN-13;Khövsgöl Province;Bügdegenii Hüryee
+0;103.6658,49.0667;MN-21;Bulgan;Bugat
+0;101.2667,47.9167;MN-01;Arkhangai Province;Bugat
+0;106.8500,49.5833;MN-16;Selenge Province;Bugant
+0;109.3333,47.0000;MN-11;Hentiy;Bugaiin Lama
+0;105.4167,49.3667;MN-16;Selenge Province;Büdüünii Dugang
+0;105.7833,50.1000;MN-16;Selenge Province;Buduni
+0;110.6667,45.5833;MN-07;East Gobi Aymag;Budargaiin Hural
+0;113.6667,44.8500;MN-17;Sühbaatar;Budangiin Hiid
+0;109.0833,47.6667;MN-11;Hentiy;Boro Öndöriin Hiid
+0;106.0333,47.4167;MN-18;Central Aimak;Boro Öndör Hiid
+0;104.9500,47.9167;MN-18;Central Aimak;Boroo Höndeyn Hural
+0;106.2667,48.6833;MN-18;Central Aimak;Boroogiin Den
+0;113.6167,45.9167;MN-17;Sühbaatar;Boroiin Süme
+0;106.3000,48.7667;MN-16;Selenge Province;Boroiin Dugang
+0;106.1667,48.3000;MN-18;Central Aimak;Boro Hujiriin Dugang
+0;107.3500,44.5000;MN-14;Ömnögovĭ;Boro Hiid
+0;109.7000,43.6000;MN-07;East Gobi Aymag;Boro Hamar
+0;100.1667,48.8833;MN-13;Khövsgöl Province;Boro Burgaasanii Dugang
+0;106.2667,48.4667;MN-18;Central Aimak;Bornuur
+0;111.9052,43.7184;MN-07;East Gobi Aymag;Borhoyn Tal
+0;112.6333,46.8333;MN-17;Sühbaatar;Bööngiin Hiid
+0;108.2824,45.2322;MN-08;Middle Govĭ;Böhöt
+0;107.0000,47.8333;MN-20;Ulaanbaatar;Bogdoiin Hiid
+0;100.5740,45.4117;MN-02;Bayankhongor;Bodĭ
+0;115.1667,46.5000;MN-17;Sühbaatar;Biruuta
+0;105.2500,46.3167;MN-08;Middle Govĭ;Bilüüt
+0;105.8667,44.4667;MN-08;Middle Govĭ;Bilüünii Hural
+0;103.3167,49.5000;MN-21;Bulgan;Bilsigi Hüryee
+0;106.7000,46.4000;MN-08;Middle Govĭ;Biliin Jisa Hiid
+0;104.7667,47.9333;MN-18;Central Aimak;Berheiin Hiid
+3890;111.1667,47.7833;MN-11;Hentiy;Berh
+0;109.7833,46.6667;MN-11;Hentiy;Belinte Haan Hiid
+0;103.0000,46.6833;MN-15;Övörhangay;Belen Hüryee Hiid
+0;107.4667,49.7500;MN-16;Selenge Province;Belchir
+0;101.2000,47.3667;MN-01;Arkhangai Province;Beeseiin Hiid
+0;112.6667,45.7167;MN-17;Sühbaatar;Bayshinta Süme
+0;105.0500,47.4500;MN-18;Central Aimak;Bayshinta Hüryee
+0;104.8167,47.4167;MN-18;Central Aimak;Bayshint
+0;108.2600,47.1795;MN-18;Central Aimak;Bayasgalant
+0;112.0500,46.9833;MN-17;Sühbaatar;Bayasgalant
+0;106.6167,47.7833;MN-20;Ulaanbaatar;Bayartayn Hiid
+0;112.3833,48.9833;MN-06;East Aimak;Bayan Uul
+0;101.8500,47.7167;MN-01;Arkhangai Province;Bayan-Uul
+0;109.2500,47.5000;MN-11;Hentiy;Bayan Ulaan Suma
+0;102.5943,46.5218;MN-15;Övörhangay;Bayan-Ulaan
+0;109.0000,46.1667;MN-07;East Gobi Aymag;Bayan Tsogto Suma
+0;100.7600,48.7317;MN-01;Arkhangai Province;Bayantsagaan
+0;105.0500,46.9167;MN-18;Central Aimak;Bayantöhöm
+0;112.3833,47.1333;MN-17;Sühbaatar;Bayanterem
+0;101.5000,45.6667;MN-15;Övörhangay;Bayanteeg
+0;111.8667,49.1333;MN-11;Hentiy;Bayan Suma
+0;111.6333,49.0167;MN-11;Hentiy;Bayan-Ovoo
+0;112.1167,47.7833;MN-11;Hentiy;Javhlant
+0;105.5333,43.0167;MN-14;Ömnögovĭ;Bayan Ovoo
+0;109.9167,42.6667;MN-07;East Gobi Aymag;Bayan Oboo Hiid
+0;111.1333,45.0667;MN-07;East Gobi Aymag;Bayan Mönhö Suma
+0;111.2000,45.2833;MN-07;East Gobi Aymag;Bayan-mönhö-süm
+0;110.6667,47.4000;MN-11;Hentiy;Bayan Mönhöiin Shandaiin Örtöö
+0;109.8333,46.7667;MN-11;Hentiy;Bayan Mönhöiin Salbar Horshoo
+0;111.4667,45.2000;MN-07;East Gobi Aymag;Bayan Mönhöiin Hiid
+0;109.7667,47.1000;MN-11;Hentiy;Bayan Mönhö Hiid
+0;102.9500,45.0667;MN-15;Övörhangay;Bayan Jisa
+0;100.1433,46.7020;MN-02;Bayankhongor;Bayanhoshuu
+0;106.7667,45.6000;MN-08;Middle Govĭ;Bayan Hushuu
+0;109.0000,47.3333;MN-11;Hentiy;Bayan Hural
+0;106.3333,48.2500;MN-18;Central Aimak;Bayan Hujir
+30931;100.7181,46.1944;MN-02;Bayankhongor;Bayanhongor
+0;100.1333,44.5333;MN-02;Bayankhongor;Bayan Hoboriin Horshoo
+0;108.9167,44.9167;MN-07;East Gobi Aymag;Bayan Hiid
+0;102.5000,48.1000;MN-01;Arkhangai Province;Bayan Hayrhan
+0;106.1500,49.0667;MN-16;Selenge Province;Bayan Goliin Dugang
+0;107.0833,48.0833;MN-20;Ulaanbaatar;Bayan Goliin Dugang
+0;106.1167,49.0333;MN-16;Selenge Province;Bayan Goliin Den
+0;103.6667,49.5167;MN-21;Bulgan;Bayangol
+0;101.0000,46.3000;MN-02;Bayankhongor;Bayan Dzürihe Suma
+0;103.7167,48.6500;MN-21;Bulgan;Bayan Dzürhe
+0;103.6167,49.5167;MN-21;Bulgan;Bayan Dugang
+0;114.5500,48.7333;MN-06;East Aimak;Bayan Don
+0;107.2000,44.5500;MN-08;Middle Govĭ;Bayan Dobo Suma
+0;115.5333,46.8500;MN-06;East Aimak;Bayan Delgerüülegchi Süme
+0;108.1106,47.7273;MN-18;Central Aimak;Bayandelger
+0;108.9167,46.6667;MN-24;Govĭ-Sumber;Bayan Bulagiin Suurin
+0;107.5333,47.9833;MN-18;Central Aimak;Bayan Bulagiin Hural
+0;106.8000,44.2500;MN-14;Ömnögovĭ;Bayan Bulagiin Hural
+0;113.6833,48.8000;MN-06;East Aimak;Bayan Bulag
+0;114.3167,48.1167;MN-06;East Aimak;Bayan Bulag
+0;109.9167,47.8667;MN-11;Hentiy;Bayanbulag
+0;106.7500,45.4000;MN-08;Middle Govĭ;Bayan Belhi
+0;106.4833,46.7167;MN-18;Central Aimak;Bayan Baraatayn Hiid
+0;106.2500,46.8667;MN-18;Central Aimak;Bayanbaraat
+0;111.0833,48.5500;MN-11;Hentiy;Bayan
+0;112.9500,47.9167;MN-06;East Aimak;Bayan
+0;103.1500,47.4500;MN-01;Arkhangai Province;Bayan
+0;110.8167,47.1667;MN-11;Hentiy;Bayan
+0;110.1667,46.2500;MN-07;East Gobi Aymag;Bayan
+0;107.0000,49.6667;MN-16;Selenge Province;Bayak-Goliyn-Gol
+0;107.6167,48.1333;MN-18;Central Aimak;Bayagiin Dugang
+0;104.7732,48.2155;MN-18;Central Aimak;Bat-Öldziyt
+0;104.1333,46.7167;MN-15;Övörhangay;Bathaan
+0;110.3500,43.1167;MN-07;East Gobi Aymag;Bata Öldzeyte Hural
+0;104.2833,47.3667;MN-18;Central Aimak;Bataiin Hiid
+18190;113.2792,46.6806;MN-17;Sühbaatar;Baruun-Urt
+0;107.9500,45.8667;MN-08;Middle Govĭ;Baruun Tsorgo
+0;105.7558,43.6559;MN-14;Ömnögovĭ;Baruunsuu
+0;103.4667,46.5000;MN-15;Övörhangay;Baruun Süme
+0;102.2333,46.4500;MN-15;Övörhangay;Baruun Iret Hiid
+0;102.9500,47.0500;MN-15;Övörhangay;Baruun-Hüree
+0;102.6667,46.0000;MN-15;Övörhangay;Baruun Hural
+0;105.5667,43.7500;MN-14;Ömnögovĭ;Baruun Hural
+0;105.6167,49.5000;MN-16;Selenge Province;Hushaat
+0;106.8833,49.6167;MN-16;Selenge Province;Baruunharaa
+0;112.4667,47.7500;MN-17;Sühbaatar;Baruun Gudaiin Hiid
+0;101.1667,43.5833;MN-14;Ömnögovĭ;Baruun Goyotoyn Hiid
+0;111.9833,46.8000;MN-17;Sühbaatar;Baruun Ganjir Hiid
+0;107.4833,45.7167;MN-08;Middle Govĭ;Baruun Ganjir Hiid
+0;102.5333,49.8667;MN-21;Bulgan;Bartayn Dugang
+0;109.4333,48.2000;MN-11;Hentiy;Baraybang Hiid
+0;107.1000,47.3833;MN-18;Central Aimak;Baraguyn Dugang Hiid
+0;105.6667,50.0000;MN-16;Selenge Province;Banga
+0;101.4333,49.1500;MN-13;Khövsgöl Province;Bandi Gegeenii Hüryee
+0;110.6000,48.9833;MN-11;Hentiy;Balvi Horshoo
+0;110.5500,49.0000;MN-11;Hentiy;Balji Horshoo
+0;106.6167,48.6000;MN-16;Selenge Province;Balji
+0;101.9444,49.1731;MN-21;Bulgan;Baligiin Hüryee
+0;107.9333,48.5500;MN-18;Central Aimak;Balhin Chuluu
+0;106.9833,47.7333;MN-18;Central Aimak;Bagshiin Hiid
+0;101.3000,47.5500;MN-01;Arkhangai Province;Bagiin Dugang
+0;106.2500,48.3167;MN-18;Central Aimak;Baga Suji
+0;106.8000,48.3167;MN-18;Central Aimak;Baga Sargalant
+0;106.8000,42.7500;MN-14;Ömnögovĭ;Baga Modo Hiid
+0;106.7667,48.4333;MN-18;Central Aimak;Baga Mandal
+0;101.9897,49.6183;MN-13;Khövsgöl Province;Badrah
+0;116.6500,47.2833;MN-06;East Aimak;Badmashin
+0;102.9667,48.4000;MN-21;Bulgan;Babaiin Hüryee
+0;102.7000,49.4167;MN-21;Bulgan;Baatar Wang Hüryee
+0;111.6167,45.9167;MN-07;East Gobi Aymag;Aymagay Hiid
+0;108.9000,43.6333;MN-07;East Gobi Aymag;Aylbayan
+0;101.0500,49.0167;MN-01;Arkhangai Province;Aygatayn Dugang
+0;106.2000,47.9833;MN-18;Central Aimak;Ayagatayn Dugang Hiid
+0;109.1897,47.1785;MN-11;Hentiy;Avraga
+0;103.4167,47.9000;MN-21;Bulgan;Avdzaga
+0;103.5167,47.6333;MN-21;Bulgan;Avdzaga
+0;113.7667,45.8333;MN-17;Sühbaatar;Ashatay
+0;107.5000,48.4167;MN-18;Central Aimak;Asaralta
+0;113.7500,45.8167;MN-17;Sühbaatar;Asahatay Suma
+0;111.1667,48.6667;MN-11;Hentiy;Asahatayn Suurin Hiid
+0;101.6667,49.6000;MN-13;Khövsgöl Province;Asahatayn Hüryee
+0;100.7167,49.4000;MN-13;Khövsgöl Province;Asahatayn Hüryee
+29420;102.7750,46.2639;MN-15;Övörhangay;Arvayheer
+0;104.6833,43.8000;MN-14;Ömnögovĭ;Artsatayn Shiliin Hiid
+0;105.5000,48.1667;MN-18;Central Aimak;Artsatayn Dugang
+0;113.7000,45.3833;MN-17;Sühbaatar;Arshaantayn Süme
+0;102.5000,48.9167;MN-21;Bulgan;Arshaantayn Hüryee
+0;109.3000,44.9667;MN-07;East Gobi Aymag;Arshaantayn Hüryee
+0;110.3333,46.5000;MN-11;Hentiy;Arshaantayn Hural
+0;100.8000,50.7667;MN-13;Khövsgöl Province;Arshaanii Hüryee
+0;110.0833,44.9667;MN-07;East Gobi Aymag;Arsayn-shand
+0;100.9000,50.4500;MN-13;Khövsgöl Province;Arigiin Hüryee
+0;102.2000,50.3000;MN-13;Khövsgöl Province;Arigiin Dugang
+0;107.8833,47.7942;MN-18;Central Aimak;Arhust
+0;102.4206,45.4628;MN-15;Övörhangay;Arguut
+0;107.9833,45.7667;MN-08;Middle Govĭ;Argatay
+0;102.2667,45.3167;MN-15;Övörhangay;Argalintayn Örtöö
+0;104.6517,43.4706;MN-14;Ömnögovĭ;Argalinta Suma
+1955;105.8958,47.9421;MN-18;Central Aimak;Argalant
+0;110.1333,44.0500;MN-07;East Gobi Aymag;Argalant
+0;112.1500,49.3167;MN-06;East Aimak;Ara Unarshi Dugang
+0;105.4119,48.2622;MN-18;Central Aimak;Ar-Asgat
+0;108.6500,48.3000;MN-18;Central Aimak;Araliin Dugang
+0;115.0500,47.0500;MN-06;East Aimak;Ara Jirgalanta Hiid
+0;113.9167,47.2500;MN-17;Sühbaatar;Ara Horoiin Hiid
+0;105.6000,48.4333;MN-18;Central Aimak;Ara Bulagiin Dugang
+0;106.3500,49.1167;MN-16;Selenge Province;Ara Bayan Gol
+0;105.0500,49.4500;MN-16;Selenge Province;Amar Hiyd
+0;106.3743,46.1257;MN-08;Middle Govĭ;Amardalay
+0;104.4333,46.1333;MN-08;Middle Govĭ;Amaiin Usanii Hiid
+0;110.5667,48.9833;MN-11;Hentiy;Amagalanta Hiid
+0;106.7333,46.8500;MN-18;Central Aimak;Amagalangiin Jisa Hiid
+0;103.1167,49.1667;MN-21;Bulgan;Altatayn Dugang
+0;101.7550,47.4474;MN-01;Arkhangai Province;Altan-Ovoo
+500;106.4986,50.3156;MN-16;Selenge Province;Altanbulag
+0;106.4000,47.7000;MN-18;Central Aimak;Altanbulag
+0;104.3333,48.6667;MN-21;Bulgan;Altan
+0;115.9667,48.6833;MN-06;East Aimak;Alata
+0;110.4167,44.7500;MN-07;East Gobi Aymag;Alagiin Süme
+0;113.9500,47.2333;MN-17;Sühbaatar;Alag Hötöliin Örtöö
+0;100.9667,48.8167;MN-01;Arkhangai Province;Ajirigaiin Hüryee
+0;107.7500,48.0167;MN-18;Central Aimak;Ajilchinii Horshoo
+0;109.4000,46.6000;MN-11;Hentiy;Ahay Beeseiin Hüryee
+0;107.6500,47.0500;MN-18;Central Aimak;Aguytayn Jisa
+0;107.8000,42.5833;MN-14;Ömnögovĭ;Aguy Süme Hiid
+0;108.6167,46.5833;MN-24;Govĭ-Sumber;Agatayn Hiid
+0;109.4333,43.1667;MN-07;East Gobi Aymag;Agaruut
+0;103.6667,48.7167;MN-21;Bulgan;Achuutaiin Dugang
+0;113.5856,46.3706;MN-17;Sühbaatar;Abdartayn Süme
+0;107.1667,47.1667;MN-18;Central Aimak;Abdar Bayan Suma
+0;110.5000,44.6667;MN-07;East Gobi Aymag;Abdarantaiin Hural
+0;105.5500,44.3833;MN-14;Ömnögovĭ;Abarahaiin Süme
+0;108.0333,45.2167;MN-08;Middle Govĭ;Abarahaiin Hural
+0;111.2000,45.7667;MN-07;East Gobi Aymag;Abarahaiin Hiid
+0;110.0840,48.0416;MN-11;Hentiy;Javhlant
+8897;109.4382,46.2671;MN-11;Hentiy;Bor-Öndör
+0;110.1388,44.9129;MN-07;East Gobi Aymag;Bayant-Uhaa
+0;107.0363,47.6761;MN-18;Central Aimak;Höshigiyn Ar
+0;107.4370,47.3523;MN-18;Central Aimak;Bagahangay
+0;108.3650,47.7546;MN-18;Central Aimak;Nüürst
+0;105.5592,49.0959;MN-16;Selenge Province;Hötöl
+3417;104.4017,49.0567;MN-25;Orhon;Jargalant
+0;104.2833,49.5060;MN-21;Bulgan;Hyalganat
+0;104.4364,47.8309;MN-21;Bulgan;Öldziyt
+0;103.2574,45.9824;MN-15;Övörhangay;Dölgöön
+0;92.6309,48.3325;MN-12;Hovd;Seer
+0;91.3726,48.1266;MN-12;Hovd;Dund-Us
+0;91.1607,48.9501;MN-03;Bayan-Ölgii Province;Tsul-Ulaan
+0;95.9285,49.0219;MN-09;Dzabkhan;Tsavdan
+0;96.7994,49.5108;MN-09;Dzabkhan;Asgat
+0;103.8566,47.2895;MN-21;Bulgan;Ulaanshiveet
+0;118.5101,47.6586;MN-06;East Aimak;Sümber
+0;108.3044,46.5622;MN-24;Govĭ-Sumber;Bayantal
+0;108.6206,46.1056;MN-24;Govĭ-Sumber;Shiveegovĭ
+5874;105.8967,49.2301;MN-23;Darhan Uul;Hongor
+0;104.4080,49.1292;MN-25;Orhon;Jargalant
+0;106.9633,47.5572;MN-18;Central Aimak;Höshigiyn-Ar
+0;106.8875,48.0215;MN-20;Ulaanbaatar;Chingeltei
+16953;106.9528,47.7069;MN-18;Central Aimak;Zuunmod
+14765;102.8135,47.1925;MN-15;Övörhangay;Kharkhorin
+0;115.4704,49.2980;MN-06;East Aimak;Shaft (Wall) Genghis Khan , railway station
+11527;111.9078,43.7193;MN-07;East Gobi Aymag;Zamiin Uud
+0;105.8116,48.1255;MN-18;Central Aimak;Bayantsogt
+0;89.4644,49.6068;MN-03;Bayan-Ölgii Province;Ulaanbaishint
+0;119.0066,47.0166;MN-06;East Aimak;Nuogannuoer
+0;106.9395,47.9783;MN-20;Ulaanbaatar;Dambadarjaa
+0;106.9321,47.9397;MN-20;Ulaanbaatar;Dari-Ekh
+0;89.8417,47.9826;MN-03;Bayan-Ölgii Province;Ulaan Khat
+0;105.8875,49.6339;MN-23;Darhan Uul;Orkhon
+0;103.9481,47.3764;MN-21;Bulgan;Ulaanshiveet
+0;102.2551,46.8604;MN-15;Övörhangay;Bat-Ulziit Sum

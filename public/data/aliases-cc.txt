@@ -1,0 +1,8 @@
+ja;バンタム村;Bantam Village
+es;Bantam;Bantam Village
+zh;班坦;Bantam Village
+pt;Bantam;Bantam Village
+ar;بانتام;Bantam Village
+ru;Бантам;Bantam Village
+ko;웨스트 섬;West Island
+es;Isla oeste;West Island

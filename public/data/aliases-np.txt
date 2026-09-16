@@ -1,0 +1,802 @@
+en;Walin;Wāliṅ
+ne;Uwāgaon;Uwā
+ne;Umrāro;Chumāro
+ne;Tulasī;Tulasi̇̄
+ne;Tribenīahāṭ;Tribeni̇̄ Ghāt
+ne;Ṭokhāgāun;Ṭokhāgāũ
+ne;Thangmoche;Thyāṅmoche
+ne;Myāṅluṅ Bajār;Terhathum
+ne;Terahathum;Terhathum
+ne;Tārke Ghyāng;Tārkeghyāṅ
+ne;Tarenggaon;Terāṅgāũ
+ne;Tārākot;Tārākoṭ
+ru;Тансен;Tānsen
+ne;Tansen;Tānsen
+ne;Talpāka;Talpākhā
+ne;Taklāk;Ṭaklāk
+ne;Sukhchauri;Sukāchuri̇̄
+de;Shivanagar;Siwānagar
+ms;Shivanagar;Siwānagar
+en;Shivanagar;Siwānagar
+ne;Sirsia;Sirsiyā
+ne;Siror;Siraũḍo
+ru;Сираха;Siraha
+en;Pipara Simara;Simarā
+de;Pipara Simara;Simarā
+ms;Pipara Simara;Simarā
+ja;ピパラ・シマーラ;Simarā
+zh;派巴拉西瑪拉;Simarā
+ru;Симикот;Simikoṭ
+en;Simikot;Simikoṭ
+ne;सिमीकोट;Simikoṭ
+ur;سیمیکوٹ;Simikoṭ
+fr;Simikot;Simikoṭ
+de;Simikot;Simikoṭ
+it;Simikot;Simikoṭ
+es;Simikot;Simikoṭ
+ne;Premnagar;Sikṭā
+ne;Shibkhola;Sepukholāgāũ
+ne;Seulābāng;Shyāuli̇̄bāṅ
+ne;Setībeni;Seti̇̄beṇi̇̄
+ne;Selkot;Shyāl Koṭilā
+ne;Sarswati;Saraswati̇̄
+ne;Sāngu;Nayā̃ Sā̃gu
+ne;Samargaon;Samar
+fr;Lumbinî;Rummin-dei
+de;Lumbini;Rummin-dei
+en;Lumbini;Rummin-dei
+it;Lumbini;Rummin-dei
+ja;ルンビニ;Rummin-dei
+nl;Lumbini;Rummin-dei
+ru;Лумбини;Rummin-dei
+zh;藍毗尼園;Rummin-dei
+es;Lumbini;Rummin-dei
+th;ลุมพินีวัน;Rummin-dei
+ne;Rumālgaon;Rumālgāũ
+ceb;Rukumkot;Rukumkoṭ
+ja;ルクムコート;Rukumkoṭ
+en;Rukumkot;Rukumkoṭ
+fr;Rukumkot;Rukumkoṭ
+nl;Rukumkot;Rukumkoṭ
+ne;Rasuwāgaḍhī;Rasuwāgaḍhi̇̄
+en;Rasua Garhi;Rasuwāgaḍhi̇̄
+nl;Rasua Garhi;Rasuwāgaḍhi̇̄
+ne;Rāsi;Rasi̇̄gāū
+ne;Rānīpauwa;Rāni̇̄pauwā
+ne;Rāmdighāt;Rāmdi̇̄
+ne;Rālnābās;Rolebās
+ne;Pulānto;Pulāhā̃
+ja;ポカラ;Pokhara
+ko;포카라;Pokhara
+ru;Покхара;Pokhara
+ne;पोखरा;Pokhara
+ne;पोखरा उपमहानगरपालिका;Pokhara
+hi;पोखरा;Pokhara
+kn;ಪೊಖರಾ;Pokhara
+th;โปขรา;Pokhara
+zh;博克拉;Pokhara
+mn;Покхара;Pokhara
+ar;بوخارا;Pokhara
+ta;பொக்காரா;Pokhara
+ur;پوکھرا;Pokhara
+kk;Похара;Pokhara
+ky;Похара;Pokhara
+bn;পোখরা;Pokhara
+fa;پوخارا;Pokhara
+pa;ਪੋਖਰਾ;Pokhara
+ps;پوخارا;Pokhara
+tg;Похара;Pokhara
+ne;Piprahawa;Piprahawā
+ne;Pipra;Piprā
+en;Phaplu;Phaphlu
+ja;ファプル;Phaphlu
+ne;Pānṭu;Pā̃ṭu
+ne;Pātan;Pāṭan
+de;Lalitpur;Pātan
+en;Patan;Pātan
+es;Patan;Pātan
+fr;Patan;Pātan
+ru;Лалитпур;Pātan
+ne;Pānbāri;Pānbāri̇̄
+ne;Pāli;Pāli̇̄
+ne;Padmi;Padmi̇̄
+ne;Oligaon;Oli̇̄gāũ
+ne;Olāng;Olāṅ
+ne;Nagāun;Nagāũ
+ne;Netadurling;Neṭā
+ne;Nepāltār;Nepālṭār
+ne;Nayāgaon;Nayā̃gāũ
+ne;Nawākot;Nuwākoṭ
+ne;Narcheng;Nārchyāṅ
+en;Nanche Bazar;Namche Bazaar
+ru;Намче-Базар;Namche Bazaar
+de;Namche Bazar;Namche Bazaar
+ceb;Namche Bazar;Namche Bazaar
+hi;नाम्चे बजार;Namche Bazaar
+fr;Namche Bazar;Namche Bazaar
+it;Namche Bazar;Namche Bazaar
+ta;நாமிச்சே பசார்;Namche Bazaar
+zh;南崎巴札;Namche Bazaar
+ja;ナムチェバザール;Namche Bazaar
+ne;नाम्चे बजार;Namche Bazaar
+fa;نمچه بازار;Namche Bazaar
+ne;Nāgma;Nāgmā
+ru;Нагаркот;Nagarkot
+es;Mustang;Mustāng
+fr;Mustang;Mustāng
+en;Mustang;Mustāng
+de;Mustang;Mustāng
+it;Mustang;Mustāng
+ja;ムスタン王国;Mustāng
+ru;Мустанг;Mustāng
+zh;莫斯坦;Mustāng
+ne;Munge;Muṅge
+ne;Mujigaon;Mājhi̇̄gāũ
+ne;Mugu;Mūgu
+ne;p;Mohami
+ne;Meghauli̇̄;Meghauli
+ne;मेघौली;Meghauli
+ne;Mānung;Mānāgāū
+ne;Mankali;Manakāli̇̄
+ne;Manīgrām;Maṇi̇̄grām
+ne;Mangle;Maṅgale
+ne;Mangalpur;Maṅgalpur
+ne;मनाङ;Manang
+zh;馬南;Manang
+ru;Мананг;Manang
+bn;মনাঙ;Manang
+pa;ਮਨੰਗ;Manang
+ja;マナン;Manang
+ne;Makawānpur Gaḍhī;Makawānpur Gaḍhi̇̄
+ne;मकैसिंग;Makaising
+ne;Maikot;Maikoṭ
+en;Mahendranagar;Bhimdatta
+ne;भिमदत्त;Bhimdatta
+ru;Лукла;Lukla
+ja;ルクラ;Lukla
+ko;루클라;Lukla
+zh;卢克拉;Lukla
+hi;लुकला;Lukla
+zh-Hant;盧克拉;Lukla
+ta;லுக்லா;Lukla
+ne;लुक्ला;Lukla
+ru;Лангтанг;Langtang
+ja;ランタン谷;Langtang
+ne;लाङटाङ;Langtang
+hi;लांगटांग;Langtang
+ru;Лахан;Lahān
+ne;Labsibot;Lapsi̇̄boṭ
+ne;Kunchha;Kunchhā
+ne;Kumāltār;Kumālṭār
+ne;Koropāni;Korā Pāni̇̄
+en;Kodari;Kodāri̇̄
+ru;Кодари;Kodāri̇̄
+hi;कीर्तिपुर;Ki̇̄rtipur
+ja;キルティプル;Ki̇̄rtipur
+ne;कीर्तिपुर नगरपालिका;Ki̇̄rtipur
+ur;کرتیپور;Ki̇̄rtipur
+ru;Киртипур;Ki̇̄rtipur
+zh;吉爾蒂布爾;Ki̇̄rtipur
+ne;Khurpa;Khurpāgāũ
+ru;Карпу;Khārpū
+en;Kharpunath;Khārpū
+ne;Khānskot;Khānkoṭ
+ne;Diwātoli̇̄;Khairani̇̄
+ne;Khaḍkāgāun;Khaḍkāgāũ
+ne;Khādi;Khādi̇̄
+ne;Kerwānī;Kerawāni̇̄
+es;Katmandú;Kathmandu
+ar;كاتماندو;Kathmandu
+fa;کاتماندو;Kathmandu
+fr;Katmandou;Kathmandu
+hi;काठमांडू;Kathmandu
+ja;カトマンズ;Kathmandu
+ko;카트만두;Kathmandu
+ne;काठमाडौं;Kathmandu
+pt;Catmandu;Kathmandu
+ru;Катманду;Kathmandu
+th;กาฐมาณฑุ;Kathmandu
+zh-TW;加德滿都;Kathmandu
+tr;Katmandu;Kathmandu
+ug;كاتماندۇ;Kathmandu
+bn;কাঠমান্ডু;Kathmandu
+tg;Катманду;Kathmandu
+ur;کھٹمنڈو;Kathmandu
+bo;ཀ་ཏ་མན་ཏུ།;Kathmandu
+ta;காட்மாண்டு;Kathmandu
+fr;Kathmandou;Kathmandu
+gu;કાઠમંડુ;Kathmandu
+kk;Катманду;Kathmandu
+kn;ಕಠ್ಮಂಡು;Kathmandu
+ml;കാഠ്മണ്ഡു;Kathmandu
+mn;Катманду;Kathmandu
+mr;काठमांडू;Kathmandu
+or;କାଠମାଣ୍ଡୁ;Kathmandu
+pa;ਕਠਮੰਡੂ;Kathmandu
+si;කත්මන්ඩු;Kathmandu
+yue;加德滿都;Kathmandu
+zh;加德滿都;Kathmandu
+as;কাঠমাণ্ডু;Kathmandu
+ky;Катманду;Kathmandu
+te;కాఠ్మండు;Kathmandu
+ne;Kāskī;Kāski̇̄
+ne;Aishwaryanagar;Karmaiyā
+ne;Kampu Ghāt;Kampughāṭ
+ne;Kālikā Bajār;Kalikot District
+ne;Kāli̇̄koṭ;Kalikot District
+ne;Juḍībelā;Juḍi̇̄belā
+ne;Joriāpāni;Jaḍepāni̇̄
+ne;Jogīkuti;Jogi̇̄kuṭi̇̄
+ne;Jogikuṭi̇̄;Jogi̇̄kuṭi̇̄
+ru;Джири;Jiri
+ne;जिरी;Jiri
+ja;ジリ;Jiri
+ne;Jhin;Jhi̇̃
+ne;Jhīkābasti;Jhiṅkābasti̇̄
+ne;Jhārkham;Jhārkhām
+ne;Jemir Ghāt;Jaimuni̇̄ghāṭ
+en;Janakpur Dham;Janakpur
+hi;जनकपुर;Janakpur
+ja;ジャナクプル;Janakpur
+ko;자낙푸르;Janakpur
+ne;जनकपुर उपमहानगरपालिका;Janakpur
+ur;جنکپور;Janakpur
+ru;Джанакпур;Janakpur
+zh;賈納克布爾;Janakpur
+ar;جانكبور;Janakpur
+kk;Жанакпур;Janakpur
+ky;Жанакпур;Janakpur
+bn;জনকপুর;Janakpur
+fa;جانک‌پور;Janakpur
+pa;ਜਨਕਪੁਰ;Janakpur
+ps;جناکپور;Janakpur
+tg;Жанакпур;Janakpur
+ne;Jāmū;Jāmugāũ
+ne;Khallājāi̇̄;Khallājai̇̄
+ne;Ismākot;Ismākoṭ
+ne;Inarwa;Īnarwā
+ne;Inarwā;Īnarwā
+hi;हेटौडा;Hetauda
+ja;ヘトウラ;Hetauda
+ne;हेटौंडा उपमहानगरपालिका;Hetauda
+ur;ہیٹوڈا;Hetauda
+ru;Хетауда;Hetauda
+zh;黑道達;Hetauda
+ne;Hatrānga;Hatraṅgā
+ne;Harrebarre;Harre
+ne;Haria;Haḍiyā
+ne;Hardia Chauki;Chauki̇̄gāũ
+ne;Chaukīgāun;Chauki̇̄gāũ
+ne;Gurdhām;Gurudhām
+de;Tamghas;Gulmi̇̄ Tamghās
+pt;Tamghas;Gulmi̇̄ Tamghās
+ja;タムガス;Gulmi̇̄ Tamghās
+en;Tamghas;Gulmi̇̄ Tamghās
+it;Tamghas;Gulmi̇̄ Tamghās
+fr;Tamghas;Gulmi̇̄ Tamghās
+ur;تامگھاس;Gulmi̇̄ Tamghās
+nl;Tamghas;Gulmi̇̄ Tamghās
+en;Gorkha Municipality;Gorkha
+en;Prithivi Narayan Municipality;Gorkha
+ne;Golāgauri̇̄;Golā
+ne;Girma;Girmā
+ja;グンサ;Ghunsā
+en;Ghunsa;Ghunsā
+nl;Ghunsa;Ghunsā
+zh;贡萨河;Ghunsā
+en;Tribhuvannagar;Ghorahi
+ne;Tribhuwan Nagar;Ghorahi
+ne;Ghorāhi̇̄;Ghorahi
+ne;Ghoghda;Ghogāḍā
+ne;Ghāchak;Ghāchok
+ru;Гаура;Gaur
+ne;Gānjri;Gā̃jari̇̄
+ne;Gamphāthāng;Ghumthāṅ
+ne;Durgaon;Durgāũ
+ne;Dobāṭo;Dobāṭā
+en;Dingla;Diṅlā Bhañjyāṅ
+nl;Dingla;Diṅlā Bhañjyāṅ
+ne;Dillikot;Dilli̇̄koṭ
+hi;दिक्तेल;Diktel Bajār
+de;Diktel;Diktel Bajār
+ceb;Diktel;Diktel Bajār
+pt;Diktel;Diktel Bajār
+en;Diktel;Diktel Bajār
+it;Diktel;Diktel Bajār
+fr;Diktel;Diktel Bajār
+ja;ディクテル;Diktel Bajār
+ur;دکتیل;Diktel Bajār
+nl;Diktel;Diktel Bajār
+ne;Digāmān;Ḍigeman
+ne;Dhurkot;Dhurkoṭ
+pt;Dulikhel;Dhulikhel
+it;Dulikhel;Dhulikhel
+fr;Dulikhel;Dhulikhel
+zh;圖利凱爾;Dhulikhel
+ne;धुलिखेल नगरपालिका;Dhulikhel
+ja;ドゥリケル;Dhulikhel
+ur;دھلکھیل;Dhulikhel
+nl;Dulikhel;Dhulikhel
+ne;Dhīk;Ḍhikgāḍgāũ
+ru;Дхаран;Dharān
+en;Dhankuta;Dhankutā
+ru;Дханкута;Dhankutā
+ar;ধনকوتा;Dhankutā
+kk;Данкута;Dhankutā
+tr;Dhankuta;Dhankutā
+uz;Dhankuta;Dhankutā
+ky;Данкута;Dhankutā
+id;Dhankuta;Dhankutā
+ms;Dhankuta;Dhankutā
+es;Dhankuta;Dhankutā
+fr;Dhankuta;Dhankutā
+hi;धनकुटा;Dhankutā
+bn;ধনকুটা;Dhankutā
+ur;ڈھنکوٹا;Dhankutā
+de;Dhankuta;Dhankutā
+fa;دھنکوتا;Dhankutā
+ja;ダンクタ;Dhankutā
+jv;Dhankuta;Dhankutā
+pa;ਧਨਕੁਟਾ;Dhankutā
+ps;ډھنکوتا;Dhankutā
+pt;Dhankuta;Dhankutā
+tg;Данкута;Dhankutā
+en;Dhangadhi;Dhangaḍhi̇̄
+ru;Дхангадхи;Dhangaḍhi̇̄
+ne;Dāndākharka;Ḍā̃ḍākharka
+ne;Dāna;Dānā
+ne;Dākhākot;Dākhākoṭ
+ne;Ḍaḍeldhurā;Amargaḍhi̇̄
+ne;Daban;Dhābāṅ
+ne;Chyāngthāpu;Chyāṅthāpu
+ne;Phunlādin;Chyāṅthāpu
+ne;Chyāmtāng;Chyāmtāṅ
+ne;Chilha;Chilahqāũ
+ne;Chilankha;Chiliṅkhā
+ne;Chhokāng;Chhokuṅ
+en;Chhipra;Chhibro
+ru;Чхипра;Chhibro
+ne;Charīkoṭ;Chari̇̄koṭ
+ne;Chaitya;Chaite
+ne;Bajhang;Chainpur
+ne;Bajhāṅ;Chainpur
+en;Butwal;Butwāl
+ru;Бутвал;Butwāl
+ar;بوتوال;Butwāl
+kk;Бутвал;Butwāl
+tr;Butwal;Butwāl
+uz;Butwal;Butwāl
+ky;Бутвал;Butwāl
+id;Butwal;Butwāl
+ms;Butwal;Butwāl
+es;Butwal;Butwāl
+fr;Butwal;Butwāl
+hi;बुटवल;Butwāl
+bn;বুটওয়াল;Butwāl
+ur;بٹوال;Butwāl
+de;Butwal;Butwāl
+fa;بوتوال;Butwāl
+ja;ブトワル;Butwāl
+jv;Butwal;Butwāl
+pa;ਬੁਟਵਾਲ;Butwāl
+ps;بٹوال;Butwāl
+pt;Butwal;Butwāl
+tg;Бутвал;Butwāl
+ne;Bogri;Bogaḍi̇̄
+ne;Bithara;Biṭhārā
+ne;Bistbāra;Biṣṭa Bāḍā
+ne;Birta;Birtā
+en;Birgunj;Birgañj
+ar;برغنج;Birgañj
+fa;برگنج;Birgañj
+ur;برگنج;Birgañj
+ar;بيرغونج;Birgañj
+ru;Биргандж;Birgañj
+ru;Биратнагар;Biratnagar
+zh;比拉德訥格爾;Biratnagar
+ja;ビラートナガル;Biratnagar
+ne;बिराटनगर उपमहानगरपालिका;Biratnagar
+hi;विराटनगर;Biratnagar
+ko;비랏나가르;Biratnagar
+ar;بيراتنغر;Biratnagar
+ar;بيراتناغار;Biratnagar
+fa;بیراتنگر;Biratnagar
+ur;بیرات نگر;Biratnagar
+ne;Bināikgaon;Bināyak
+ne;Bichhuwa;Raikawār Bichawā
+ne;Bhurkīā;Buṭhkaiyā̃
+ne;Bholi;Bhuli̇̄
+ne;Bhingrigaon;Bhiṅgri̇̄koṭ
+ne;Thori̇̄;Ṭhori̇̄
+ne;Bhartābās;Bhorlābās
+ne;भरतपुर;Bharatpur
+zh;婆羅多布爾;Bharatpur
+ja;バラトプル;Bharatpur
+hi;भरतपुर, नेपाल;Bharatpur
+ko;바랏푸르;Bharatpur
+fr;Bhâratpur;Bharatpur
+hi;भरतपुर;Bharatpur
+ne;भरतपुर उपमहानगरपालिका;Bharatpur
+ur;بھرتپور، نیپال;Bharatpur
+zh-Hans;婆罗多布尔;Bharatpur
+ml;ഭരത്പൂർ;Bharatpur
+mr;भरतपूर;Bharatpur
+fa;باراتپور، نپال;Bharatpur
+ru;Бхаратпур;Bharatpur
+bn;ভরতপুর মহানগর;Bharatpur
+si;භාරත්පුර්;Bharatpur
+kn;ಭರತ್ಪುರ್;Bharatpur
+ta;பாரெட்புற்;Bharatpur
+gu;ભરતપુર;Bharatpur
+pa;ਭਰਤਪੁਰ;Bharatpur
+te;భరత్పూర్;Bharatpur
+th;บารัตปุระ;Bharatpur
+ne;Bhandāri;Bhaṇḍāri̇̄gāũ
+hi;भक्तपुर;Bhaktapur
+ja;バクタプル;Bhaktapur
+ko;박타푸르;Bhaktapur
+th;ภักตปุระ;Bhaktapur
+ur;بھگتاپور;Bhaktapur
+ru;Бхактапур;Bhaktapur
+zh;巴克塔普爾;Bhaktapur
+ne;Bhagwanpur;Bhagawānpur
+ne;Bethari;Betahari
+de;Beteni;Beteni̇̄
+ms;Beteni;Beteni̇̄
+en;Beteni;Beteni̇̄
+ne;Berhampuri;Bramhapuri̇̄
+ne;Belāni;Bailāni̇̄
+ne;Bathāla;Bājasthalā
+ne;Barīkot;Bārekoṭ
+ne;Barāban;Baḍāban
+ne;Bānskot;Bā̃skoṭ
+de;Banepa;Banepā
+hi;बनेपा;Banepā
+ru;Банепа;Banepā
+pt;Banepa;Banepā
+ms;Banepa;Banepā
+en;Banepa;Banepā
+fr;Banepa;Banepā
+zh;巴內帕;Banepā
+vi;Banepa;Banepā
+ne;बनेपा नगरपालिका;Banepā
+ja;バネパ;Banepā
+fa;بانپا;Banepā
+ur;بانیپا;Banepā
+nl;Banepa;Banepā
+ne;Bāṇi̇̄;Banda
+ne;Bakarkot;Bagarkoṭ
+ne;Bāilikot;Bayali̇̄koṭ
+ne;Bahāsi;Bhāsi̇̄gāũ
+ru;Баглунг;Bāgluṅ
+ne;Badiārpatti;Bariyārpaṭṭi
+ne;Athpāli;Aṭhpāli̇̄
+ne;Arghākot;Arghākoṭ
+ne;Mayurbasti̇̄;Amraiyā
+de;Amlekhganj;Amalekhgañj
+ceb;Amlekhganj;Amalekhgañj
+ms;Amlekhganj;Amalekhgañj
+en;Amlekhganj;Amalekhgañj
+fr;Amlekhganj;Amalekhgañj
+zh;阿姆萊克根傑;Amalekhgañj
+ja;アムレクガンジ;Amalekhgañj
+fa;املخ‌گنج;Amalekhgañj
+de;Martadi;Mārtaḍi̇̄
+pt;Martadi;Mārtaḍi̇̄
+ms;Martadi;Mārtaḍi̇̄
+en;Martadi;Mārtaḍi̇̄
+it;Martadi;Mārtaḍi̇̄
+fr;Martadi;Mārtaḍi̇̄
+ne;मार्तडी;Mārtaḍi̇̄
+ja;マルタディ;Mārtaḍi̇̄
+ur;مارتادی;Mārtaḍi̇̄
+nl;Martadi;Mārtaḍi̇̄
+ru;Бесисахар;Besisahar
+ru;Бирендранаган;Birendranagar
+it;Birendranagara;Birendranagar
+hi;वीरेन्द्रनगर;Birendranagar
+ja;ビレンドラナガル;Birendranagar
+ne;वीरेन्द्रनगर नगरपालिका;Birendranagar
+ur;بریندرنگر;Birendranagar
+ru;Бирендранагар;Birendranagar
+zh;比蘭德拉納加爾;Birendranagar
+ar;بيرندرانجر;Birendranagar
+kk;Биренdranagar;Birendranagar
+ky;Биренdranagar;Birendranagar
+bn;বিরেন্দ্রনগর;Birendranagar
+fa;بیرندرانگر;Birendranagar
+pa;ਬਿਰੇਂਦ੍ਰਨਗਰ;Birendranagar
+ps;بیریندرانگر;Birendranagar
+tg;Биренdranagar;Birendranagar
+ru;Дипаял;Dipayal
+ar;ديبايال;Dipayal
+kk;Дипаял;Dipayal
+ky;Дипаял;Dipayal
+hi;दिपायल;Dipayal
+bn;দিপায়াল;Dipayal
+ur;ڈپایال;Dipayal
+fa;دیپایال;Dipayal
+ja;ディパヤル;Dipayal
+pa;ਦਿਪਾਇਲ;Dipayal
+ps;ډپایال;Dipayal
+tg;Дипаял;Dipayal
+ru;Непалгун;Nepalgunj
+en;Dzongsam;Jomsom
+en;New Fort;Jomsom
+hi;पोखरा;Lakeside
+ru;Аадхамара;Admara
+en;Adhamara;Admara
+ne;जनगाँऊ;Janagaun
+ne;बाहुनटार;Bahuntar
+ar;دمك;Damak
+fa;دمک;Damak
+ur;دمک;Damak
+de;Kankarbhitta;Kakarbhitta
+ms;Kankarbhitta;Kakarbhitta
+ne;काँकडभिट्टा;Kakarbhitta
+bn;কাঁকরভিটা;Kakarbhitta
+ur;کاکاربھٹہ;Kakarbhitta
+ta;காகர்பிட்டா;Kakarbhitta
+fr;Swayambunath;Swayambhunath
+ja;ペリチェ;Pheriche
+ne;फेरिचे;Pheriche
+ar;صاحب غنج;Sahebganj
+fa;صاحب‌گنج;Sahebganj
+ur;صاحب گنج;Sahebganj
+ur;سہیبگنج;Sahebganj
+pt;Sindhulimadhi;Kamalamai
+zh;卡馬拉邁;Kamalamai
+ne;कमलामाई नगरपालिका;Kamalamai
+ja;カマラマイ;Kamalamai
+fa;کامالامای;Kamalamai
+ur;کملامائی;Kamalamai
+hi;मध्यपुर थिमि;Madhyapur Thimi
+ne;मध्यपुर ठिमी नगरपालिका;Madhyapur Thimi
+ja;マディヤプル・ティミ;Madhyapur Thimi
+ur;مدھیہپور تھمی;Madhyapur Thimi
+ru;Мадхяпур Тими;Madhyapur Thimi
+ne;मिरकोट गोरखा;Mirkot
+ne;Bedāṅpārī;Bedāṅpāri̇̄
+ne;Lādāṅbesī;Lādāṅbesi̇̄
+ne;Ghyāṅḍānḍā;Ghyāṅḍā̃ḍā
+en;Chapali Bhadrakali;Chapali̇̄ Bhaḍrakāli̇̄
+ne;Siṅlāng;Siṅlāṅ
+ne;Damki̇̄ Bhañjyāṅ;Damki̇̄ Bhañiyāṅ
+ne;Māngliṅṭol;Mānliṅṭol
+ne;Ḍānḍāgāun;Ḍā̃ḍāgāũ
+ne;Leṅdeṅwābārī;Leṅdeṅwābāri̇̄
+ne;Hiuwāpāṭī;Hiuwāpāṭi̇̄
+ne;Miterīsāngu;Miteri̇̄sā̃gu
+ne;Paiyunpānī;Paiyũpāni̇̄
+ne;Khānīgāun;Khāni̇̄gāũ
+ne;Tānsithān;Tā̃sithān
+ne;Gairīgāun;Gairi̇̄gāũ
+ne;Ghunwābesī;Ghunwābesi̇̄
+ne;Swānrā;Swā̃rā
+ne;Ṭyāṅthalī;Ṭyāṅthali̇̄
+ne;Bānjgāun;Bā̃jgāũ
+ne;Palātī Jyāṅdāṅ;Palāti̇̄ Jyāṅdāṅ
+ne;Phalānṭe;Phalā̃ṭe
+ne;Bānsghārī;Bā̃sghāri̇̄
+ne;Jarkerbārī;Jarkerbāri̇̄
+ne;Byānse;Byā̃se
+ne;Mānkhā;Mā̃khā
+ne;Māneswānrā;Māneswā̃rā
+ne;Sunkhānī;Sunkhāni̇̄
+ne;Masarāngīgāun;Masarā̃gi̇̄gāũ
+ne;Sunkoshī;Sunkoshi̇̄
+ne;Purāno Bajār;Sunkoshi̇̄
+ne;Sānjhakoṭ;Sā̃jhakoṭ
+ne;Lāmosāngu;Lāmosā̃gu
+ne;Bhañjyāṅ Deurāli̇̄;Deurāli̇̄ Bhañjyāṅ
+ne;Bhañjyāṅ Deurālī;Deurāli̇̄ Bhañjyāṅ
+ne;Sallerī Kārkīgāun;Salleri̇̄ Kārki̇̄gāũ
+ne;Ādherī;Ādheri̇̄
+ne;Goṭpānī;Goṭpāni̇̄
+ne;Jānte;Jā̃te
+ne;Jhānkrīṭol;Jhā̃kri̇̄ṭol
+ne;Sānṅchā;Sā̃ṅchā
+ne;Sāndīkholāgāun;Sā̃di̇̄kholāgāũ
+ne;Palānse;Palā̃se
+ne;Nayānchhāp;Nayā̃chhāp
+ne;Ḍānḍākaṭerī;Ḍā̃ḍākaṭeri̇̄
+ne;Ghāṭbesī;Ghāṭbesi̇̄
+ne;Dumsīḍānḍā;Dumsi̇̄ḍā̃ḍā
+ne;Hāttīgāunḍā;Hātti̇̄gāũḍā
+ne;Nayānṭol;Nayā̃ṭol
+ne;Lāṅdī;Lāṅdi̇̄
+ne;Ṭārī;Ṭāri̇̄
+ne;Dujīṅ;Duji̇̄ṅ
+ne;Khānīgāũ;Khāni̇̄gāũ
+ne;Phunlbārī;Phunlbāri̇̄
+ne;Utrīṅṭār;Utri̇̄ṅṭār
+ne;Prasāī;Prasāi̇̄
+ne;Keruṅkholāgāun;Keruṅkholāgāũ
+ne;Bānjāgāun;Bā̃jāgāũ
+ne;Munlḍānḍā;Munlḍā̃ḍā
+ne;Bānje;Bā̃je
+ne;Dhaṅle;Dhāṅle
+ne;Hānīḍānḍā;Hāi̇̄ḍā̃ḍā
+ne;Bhaluwāī;Bhaluwāi̇̄
+ne;Tilpuṅbesī;Tilpuṅbesi̇̄
+ne;Pauntī;Paunti̇̄
+ne;Syāṅktī;Syāṅkti̇̄
+ne;Khāṅsāṅbesī;Khāṅsāṅbesi̇̄
+ne;Ḍānḍājeruṅ;Ḍā̃ḍājeruṅ
+ne;Bhañjyāṅgāun;Bhañjyāṅgāũ
+ne;Ãdherī;Ãdheri̇̄
+ne;Chaukīṭol;Chauki̇̄ṭol
+ne;Lāljhāḍī;Lāljhāḍi̇̄
+ne;Bājugāun;Bājugāũ
+ne;Luīṭelḍānḍā;Lui̇̄ṭelḍā̃ḍā
+ne;Pānsīṅ;Pānsi̇̄ṅ
+ne;Āndherī;Āndheri̇̄
+ne;Āhālḍānḍā Deurālī;Āhālḍā̃ḍā Deurāli̇̄
+ne;Pipalḍānḍābesī;Pipalḍā̃ḍābesi̇̄
+ne;Buṅbuṅḍānḍā;Buṅbuṅḍā̃ḍā
+ne;Dhangaḍhī;Dhangaḍhi̇̄
+ne;Lālbhittī;Lālbhitti̇̄
+ne;Khesarol;Khesaraul
+ne;Tāgiyābastī;Tāgiyābasti̇̄
+ne;Ḍā̃ḍākharka;Ḍhā̃ḍkharka
+ne;भट्टराई डाँडा;Bhattarai Danda
+ar;بهاتاراي الجبل;Bhattarai Danda
+ne;Bhumiḍā̃ḍā;Bhumeḍā̃ḍā
+ne;Chhepaṅ;Chhepāṅ
+ne;Nayā̃ṭolā;Nayakāṭolā
+ne;Miyā̃khor;Birendra Bajār
+ne;Paiyā̃māḍi̇̄;Baiganṭol
+ne;Paiyā̃māḍi̇̄;Jhawanṭol
+ne;Gumsatā;Mohanlālṭol
+ne;Sisauṭol;Bhokrāhā
+ne;Jhoḍā Baṅkulawā;Baṅkulawā
+ne;Seti̇̄kholāgāũ;Chakrapur
+ne;Churi̇̄ Bhaṅjyāṅ;Churi̇̄ Bhañjyāṅ
+ne;Māṅparāṅ;Māgparāṅ
+ne;Shri̇̄pur;Aurahā
+ne;Musarniyā-7;Musarniyā-Sāta
+ne;Musarniyā-6;Musarniyā-Cha
+ne;Musarniyā-5;Musarniyā-Pāṁca
+ne;Gaṅbuwā;Gambuwā
+ne;Bhanṭābāri̇̄;Lakṣmi̇̄pur
+ne;Durgāṭol;Pathaliyā
+ne;Rāṅbhāṅge;Rāṅbhāṅe
+ne;Antarkhāl;Gautāl
+ne;Gandheli̇̄;Dharampur
+ne;Shri̇̄ Rāmp;Shri Rāmpur
+ne;Kur Gāū̃;Kurgāũ
+ne;Kuruṅ Gāũ;Kuruṅgāũ
+ne;Pipal Ḍā̃ḍā;Pipalḍā̃ḍā
+ne;Lāwaḍā̃ḍā;Lāwāḍā̃ḍā
+ne;Sājeḍā̃ḍā;Sājenḍā̃ḍā
+ne;Gejāthā̃ti;Gejāṭhā̃ti̇̄
+ne;Jārlāṅ;Jarlāṅ
+ne;Diwalḍā̃ḍā;Diwālḍā̃ḍā
+ne;Pāleṅ Ban;Pāleṅban
+ne;Sorhabise Phā̃ṭ;Sorhabisephā̃ṭ
+ne;Seju Gāũ;Sejugāũ
+ne;Maslān;Maslāṅ
+ne;Lauḍā̃ḍā;Lākhuḍā̃ḍā
+ne;Pāṭāsaḍh;Pātāsā̃ḍh
+ne;Ghyaṅsin Ḍā̃ḍā;Ghyāṅsiṅḍā̃ḍā
+ne;Thuṅsiṅ Ḍā̃ḍā;Thuṅsiṅḍā̃ḍā
+ne;Ḍhākrebās;Dhākrebās
+ne;Aruṅ Kholā;Aruṅkholā
+ne;Dāri̇̄ Bañjyāṅ;Dāri̇̄ Bhañjyāṅ
+ne;Lāljhoḍā 2;Lāljhoḍā Du’i̇̄
+ne;Charḍā̃ḍā;Chārḍā̃ḍā
+ne;Sāmuḍā̃ḍā;Sāmḍā̃ḍā
+ne;Ḍhāḍegāũ;Ḍhā̃ḍgāũ
+ne;Talloḍā̃ḍā Gāū;Tallo Ḍā̃ḍāgāũ
+ne;Mājhāgāũ;Ratanchhā
+ne;Nerpā - 6;Nerpā - Cha
+ne;Nerpā - 5;Nerpā - Pāṁca
+ne;Mũlḍā̃ḍā;Mulḍā̃ḍā
+ne;Yaṅlābuṅ;Yāṅlāwuṅ
+ne;Chatrāṅ;Chātrāṅ
+ne;Mairān;Mairāṅ
+ne;Guruṅgaũ;Guruṅgāũ
+ne;Parwāṅ;Prawaṅ
+ne;Bā̃ḍāgāū;Bā̃ḍāgāũ
+ne;Ḍā̃ḍā Bākkhim;Ḍā̃ḍābokhim
+ne;Charambi̇̄;Pipalḍā̃ḍā
+ne;Chāmliṅeḍā̃ḍā;Chāmliṅḍā̃ḍā
+ne;Birendrapur;Bā̃ndrekhāl
+ne;Jimṭi;Simṭi̇̄
+ne;Jhañjhaṭpur;Basantapur
+ne;Garbhā;Niuresain
+ne;Pātālchuhi̇̄;Sitānagar
+ne;Jabdiyā;Lakṣmi̇̄pur
+ne;Shivabasti̇̄;Purainā
+ne;Aishwaryabasti̇̄;Amraiyā
+ne;Masuriyā;Sājhā Bajār
+ne;Mājhgāũ;Manghar
+ne;Ṭũḍā;Purba
+ne;Harreḍā̃ḍā;Hareḍā̃ḍā
+ne;Awalchiṅ;Kā̃ḍāchiṅ
+ne;Gyāndri̇̄;Mānpur
+ne;Jogi̇̄ghāṭ;Rigneswati̇̄
+ne;Ghogreni̇̄;Nānpur
+ne;Chuniyāpāni̇̄;Mehalṭār
+ne;Pokharāḍā̃ḍā;Chyārkule
+ne;Kā̃ḍā;Māthillo Nahāgāũ
+ne;Mānpur;Mahuwā
+ne;Gholwā;Pāṇḍepur
+ne;Bhagaraiyā;Lakṣmi̇̄pur
+ne;Beltā̃ḍi̇̄;Belṭā̃ḍi̇̄
+ne;Ailāni̇̄basti̇̄;Jainpurwā
+ne;Chitawan Ṭol - 3;Chitawan Ṭol - Ti̇̄na
+ne;Kauwākoḍā;Bairi̇̄hawā
+ne;Llakṣmaṇpur;Bardhawā
+ne;Pahāḍipur;Pharailā
+ne;Ke Gāũ;Gāũpharka
+ne;Bi̇̄ Gāũ;Bāgmati̇̄ Nagar
+ne;Ghorneṭā;Jārja
+ne;Ḍhik;Chameli̇̄gāũ
+ne;Rimegāũ;Shaṅkhapipal Bajār
+ne;Rimegāũ;Rukumegāũ
+ne;Nepṭi̇̄gā̃rā;Nepṭi̇̄kā̃ḍā
+ne;Hariṇgāũ;Purṇāgāũ
+ne;Bisgeṅ;Bisgoṅ
+ne;Riṭhāchaur;Rām Bajār
+ne;Bāṅtire;Bāṅṭire
+ne;Buḍhāgāũ;Buḍāgāũ
+ne;Hastanāpur;Pashchim Hāpure
+ne;Padampur;Purba Hāpure
+ne;Sari̇̄bāṅ;Saribāṅ
+ne;Ṭhā̃ṭi̇̄koṭ;Ṭhaṭi̇̄koṭ
+ne;Kālākā̃ḍā;Kālākẽḍā
+ne;Nāgḍā̃ḍā;Nauḍā̃ḍā
+ne;Lāmāchaur;Phalā̃ṭe
+ne;Kaṅ;Kāṅ
+ne;Bāldin;Bhi̇̄rgāũ
+ne;Dharmashālā;Rātāmāṭā
+ne;Bābanbāḍā;Kālaigāũ
+ne;Ḍā̃ḍāgāũ;Khokliṅ
+ne;Ḍhoḍeni̇̄;Ḍhoḍeni̇̄gāũ
+ne;Dokhu;Nāmlepāṭi̇̄
+ne;Gāḍsil;Gail
+ne;Gaḍḍi̇̄gāũ;Gaḍigāũ
+ne;Baṇḍ;Air
+ne;Dhā̃ku;Ḍhā̃ku
+ne;Gāḍpāri̇̄;Sārki̇̄ Bāḍā
+ne;Balthumki̇̄ḍā̃ḍā;Balthumki̇̄ Ḍā̃ḍā
+ne;Huṅgi̇̄ Phā̃ṭ;Huṅgi̇̄phā̃ṭ
+ne;Thulo Ṭāḍi̇̄;Ṭhulo Ṭā̃ḍi̇̄
+ne;Nayā̃ Ādarsha Bajār;Pathariyā
+ne;Bhusudi̇̄;Manpur
+ne;P.S. Ṭikar;Ṭikar
+ne;Thā̃ṭi̇̄;Ṭhā̃ṭi̇̄
+ne;Kukurgāḍe;Tallo Hyāpāl
+ne;Madhpur;Madhariyā
+ne;Muri̇̄;Mudi̇̄
+ne;Thāl Kharka;Thali̇̄ Kharka
+ne;Sātsaya;Thākkholāgāũ
+ne;Jhiprā;Deurāli̇̄
+ne;Lhau;Kyupar
+ne;Ghekulḍāḍā;Ghekulḍā̃ḍā
+ne;Māṭe Sā̃ghu;Māṭesā̃ghu
+ne;Pāṭe Ḍil;Phukoṭ
+ne;Remigāũ;Remi̇̄gāũ
+ne;Jeṭhi̇̄;Dagnām
+ne;Bhaneli̇̄gāũ;Kurjegaḍā
+ne;Sherāphā̃ṭ;Koirālāboṭ
+ne;Shri̇̄kāṅ;Sri̇̄kāṅ
+ne;Rāni̇̄swā̃rā;Lamkā
+ne;Haṭiyā;Pawai
+ne;Heluhil;Helui
+ne;Chandrapāṭā;Chihānpāṭā
+ne;Lāmāgāũ;Ḍā̃ḍāgāũ
+ne;Deurāli̇̄;Swā̃rā
+ne;Dalāl;Phaliyā Sā̃gu
+ne;Raināsṭār;Dhamilikuwā
+ne;Ṭai̇̄lu;Bhirkunā
+ne;Bābneuḍo;Mallo Īrānā
+ne;Chandrapur;Chamaḍā
+ne;Gharelu;Jālṭuḍā
+ne;Talli̇̄;Gāḍ
+ne;Jarmi̇̄;Tātopāni̇̄
+ne;Gajmatpur;Rātāmāṭā
+ne;Upum;Bheḍākhor
+ne;देउखुरी;Deukhurī
+ne;Millī;Milli̇̄

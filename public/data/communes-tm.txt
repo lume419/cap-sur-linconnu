@@ -1,0 +1,1433 @@
+0;53.6422,39.4507;TM-02;Balkan;Goturdepe
+12508;54.7640,37.6616;TM-02;Balkan;Etrek
+12918;53.9795,37.4680;TM-02;Balkan;Esenguly
+0;56.5500,38.4500;TM;;Zerdau
+0;56.7012,38.7650;TM-02;Balkan;Zaw
+1286;56.5001,38.4453;TM-02;Balkan;Ýuwangala
+0;56.7500,38.2833;TM;;Yuldy-Dere
+0;58.6500,38.8333;TM;;Yesheksiyen
+0;58.2306,38.0244;TM-01;Ahal;Herrikgala
+0;58.5975,39.3136;TM-01;Ahal;Ýerbent
+0;57.3833,38.3667;TM-01;Ahal;Yele-Su
+0;57.8333,38.2000;TM-01;Ahal;Yegene-Kala
+0;52.8496,39.9666;TM-02;Balkan;Awaza
+0;58.2212,38.0489;TM-01;Ahal;Imeni Guvancha-Orazava
+0;55.5576,39.7077;TM-02;Balkan;Ýasga
+8172;58.8890,37.7801;TM-01;Ahal;Ýaşlyk
+957;56.2385,38.1621;TM-02;Balkan;Ýartygala
+0;57.6781,38.2857;TM-01;Ahal;Yarajy
+8657;57.9471,38.1232;TM-01;Ahal;Ýaňgala
+0;56.5000,38.5500;TM;;Yan-Chashme
+0;54.3333,39.8500;TM;;Yagman
+0;54.8642,37.7848;TM-02;Balkan;Yaglyolum
+0;57.0000,38.7000;TM;;Yagankazakh
+0;58.3651,37.8018;TM-01;Ahal;Yablonovskiy
+0;58.1122,37.9500;TM-01;Ahal;Vannovskiy
+108;56.6214,38.4150;TM-02;Balkan;Uzyntokaý
+0;55.6995,39.1798;TM-02;Balkan;Uzynsuw
+1998;55.9358,39.0583;TM-02;Balkan;Gulmaç
+0;56.7298,38.3644;TM-02;Balkan;Udzhi
+0;54.3629,39.7287;TM;;Üchgöz
+1088;56.7282,38.4084;TM-02;Balkan;Tutlygala
+0;56.7333,38.5000;TM;;Tumanovskiy
+0;57.5500,38.3000;TM-01;Ahal;Tukli
+0;56.5592,39.1733;TM-02;Balkan;Tutly
+0;58.5667,40.0000;TM;;Tordzhul’ba
+0;58.5333,39.9833;TM;;Topdzhul’ba
+0;56.0000,39.9167;TM;;Togalak
+0;57.2454,38.4852;TM-01;Ahal;Tezhëva
+0;56.3500,38.8667;TM-02;Balkan;Tertarach
+0;56.6476,38.6930;TM-02;Balkan;Teki-Moor
+0;55.6167,39.4167;TM;;Taumakindzhi
+0;55.3738,39.3913;TM;;Tamykli
+0;56.6167,39.4500;TM;;Tamly
+0;56.7500,38.5000;TM;;Syr-Su
+0;57.3070,38.4927;TM-01;Ahal;Sünçe
+0;59.7500,37.3167;TM-01;Ahal;Staraya Kara-Khan-Kala
+0;56.3394,38.4192;TM-02;Balkan;Garaganly
+0;57.4141,38.0561;TM-01;Ahal;Solyukli
+0;58.0337,38.1096;TM-01;Ahal;Shorkala
+0;59.2833,38.2833;TM;;Shirlama
+0;58.6806,37.7073;TM-01;Ahal;Shamli
+3516;55.6531,38.2199;TM-02;Balkan;Gyzylbaýyr
+0;58.8333,39.9833;TM;;Sernyy Zavod
+0;56.7437,38.5072;TM-01;Ahal;Saývan
+0;58.3635,38.1088;TM-01;Ahal;Saryköl
+0;57.0167,39.4333;TM;;Sansy
+0;56.7423,38.5737;TM-01;Ahal;Salmiin
+0;58.9333,39.8689;TM-01;Ahal;Sakarçäge
+0;56.3328,38.8617;TM-02;Balkan;Purnuwar
+0;57.3766,38.1272;TM-01;Ahal;Prokhladnoye
+0;58.4300,37.8278;TM-01;Ahal;Pervomayskiy
+0;56.7068,38.5841;TM-01;Ahal;Pashtion
+1070;56.0607,39.0317;TM-02;Balkan;Paraw
+0;55.6703,39.6018;TM;;Onbirikzhi
+0;59.6333,37.3667;TM;;On-Begi
+3972;53.8409,38.0662;TM-02;Balkan;Ekerem
+1715;54.4943,39.8485;TM-02;Balkan;Oglanly
+0;54.4033,39.8749;TM;;Oglanly
+0;56.9000,38.2333;TM;;Nugri
+892;57.9687,38.0832;TM-01;Ahal;Nowata
+0;57.0335,38.4786;TM-01;Ahal;Nohur
+0;58.6664,38.2808;TM-01;Ahal;Narly
+0;56.8201,38.9455;TM;;Niyazdepe
+0;58.2869,37.8685;TM-01;Ahal;Nevtonskiy
+87822;54.3671,39.5108;TM-02;Balkan;Balkanabat
+605;56.3591,38.4492;TM-02;Balkan;Näre
+0;57.3909,38.4483;TM-01;Ahal;Mürçe
+0;54.1808,39.6276;TM-02;Balkan;Mollagara
+0;57.7734,39.5386;TM;;Modar
+0;54.6667,38.3333;TM;;Meshkhed
+0;59.4162,37.4661;TM-01;Ahal;Mehinli
+0;57.7000,38.3167;TM;;Megin
+0;56.6812,38.5890;TM-01;Ahal;Ymarat
+0;58.6069,37.7227;TM-01;Ahal;Manysh
+0;58.4530,38.8776;TM-01;Ahal;Mämmetýar
+0;58.3000,38.1333;TM-01;Ahal;Mallarchilyk
+422;56.5837,38.4316;TM-02;Balkan;Magtymgala
+0;59.4157,37.3838;TM-01;Ahal;Makhtumkala
+0;54.7441,38.1405;TM-02;Balkan;Madaw
+0;58.7516,38.9231;TM-01;Ahal;Gyzylsakgal
+1396;56.0396,38.1466;TM-02;Balkan;Gyzylymam
+373;56.2049,38.4300;TM-02;Balkan;Gyzyl
+0;59.3497,37.5405;TM-01;Ahal;Kyurenkala
+0;59.4299,38.1927;TM-01;Ahal;Kyrkguýy
+0;58.6333,37.7000;TM-01;Ahal;Kyal’-Ata
+0;55.5333,38.8167;TM;;Kuylyar
+0;54.2167,37.4333;TM;;Kuylyar
+1108;56.7424,38.3411;TM-02;Balkan;Kuruždeý
+0;58.3183,37.9882;TM-S;Ashgabat;Kurtli
+0;57.9499,38.1991;TM-01;Ahal;Türkmenistan
+0;57.6673,38.0311;TM-01;Ahal;Gurgulab
+0;53.8667,37.7000;TM;;Kui-Dzhuk
+0;57.3080,38.4396;TM-01;Ahal;Kurychay
+0;56.9592,38.3868;TM-01;Ahal;Koyno-Kumbez
+0;56.6814,38.4253;TM-01;Ahal;Koshtemir
+0;53.1500,39.4500;TM;;Koshkin
+0;57.7878,38.8010;TM;;Koshakak
+0;56.9671,38.6425;TM-01;Ahal;Kone-Borme
+0;56.5959,38.8164;TM-02;Balkan;Goç
+859;53.0115,39.7977;TM-02;Balkan;Gyzylsuw
+0;58.3500,38.1000;TM-01;Ahal;Kizyl-Oktyabr’
+0;57.2333,39.5833;TM;;Kirpili
+0;57.4000,39.4000;TM;;Kirpichli
+0;58.0173,38.0725;TM-01;Ahal;Hurmantgökje
+0;54.7822,39.9420;TM-02;Balkan;Hudaýberdi
+0;56.5000,38.7833;TM;;Khoudandzhik
+0;57.3154,38.7433;TM-01;Ahal;Hajyölen
+1917;56.3399,38.7110;TM-02;Balkan;Hojagala
+740;56.8100,38.2518;TM-02;Balkan;Hojagala
+0;56.0667,39.3667;TM;;Khodzhaguyma
+0;59.5529,37.1910;TM;;Hywaabat
+0;56.4667,39.5000;TM;;Kheleulen
+0;59.3924,37.4376;TM;;Khasar-Kala
+0;57.6026,38.3072;TM-01;Ahal;Khankyariz
+0;56.2196,38.1540;TM-02;Balkan;Keýikkodana
+0;53.2000,39.5167;TM;;Kert-Yakha
+2846;56.9250,38.2204;TM-02;Balkan;Könekesir
+0;58.0496,38.0948;TM-01;Ahal;Keledzhar
+0;57.7028,38.2857;TM-01;Ahal;Kelyata
+0;57.4980,39.2187;TM;;Kazy
+0;59.4357,37.3679;TM-01;Ahal;Gozgan
+0;56.8000,38.7000;TM;;Kazandzhi
+0;53.1864,39.5378;TM-02;Balkan;Kayrayuz
+0;59.4809,37.4571;TM-01;Ahal;Gowşut
+0;58.8246,39.2749;TM-01;Ahal;Gowşak-Gyzyltakyr
+0;58.9333,38.7167;TM;;Karry-Cherlya
+0;57.0361,38.3876;TM-01;Ahal;Garawul
+0;58.3703,37.9037;TM-S;Ashgabat;Karadamak
+0;56.6167,38.9500;TM;;Karasengir
+0;59.7733,37.3037;TM-01;Ahal;Garahan
+0;57.8107,38.2190;TM-01;Ahal;Karrykyariz
+0;56.7333,38.5667;TM;;Kara-Kala
+0;56.6333,38.6000;TM;;Kara-Govok
+765;53.1734,39.3798;TM-02;Balkan;Garagöl
+0;57.4957,38.3706;TM-01;Ahal;Garagan
+0;56.4167,38.3833;TM;;Kara-Dzhin
+0;54.5833,39.2833;TM;;Karadepe
+0;54.4997,37.4436;TM-02;Balkan;Garadegish
+0;57.3667,39.2000;TM;;Karabakshi
+0;58.5000,38.9167;TM;;Karaadzhi
+0;55.6859,39.4544;TM;;Kaplanli
+0;55.4333,39.2167;TM;;Kanav
+0;58.5285,37.7984;TM-01;Ahal;Bagabat
+0;55.2500,39.6000;TM;;Kalankui
+0;57.0000,38.7500;TM-01;Ahal;Kala
+33315;59.6143,37.3482;TM-01;Ahal;Kaka
+6547;58.1134,38.1825;TM-01;Ahal;Yzgant
+0;57.4667,38.4000;TM-01;Ahal;Intush
+0;55.5500,39.4333;TM;;Imeni Kalinina
+0;58.2071,38.7799;TM-01;Ahal;Ilek
+48558;56.2758,38.9764;TM-02;Balkan;Gyzylarbat
+0;56.1833,39.3667;TM;;Gyaur
+0;55.9333,39.0500;TM;;Gyaur
+18148;58.4704,37.9074;TM-S;Ashgabat;Gämi
+30884;54.5875,39.2024;TM-02;Balkan;Gumdag
+0;54.6519,37.4738;TM-02;Balkan;Güdürolum
+33381;57.9607,38.1586;TM-01;Ahal;Gökdepe
+0;58.7270,37.7940;TM-01;Ahal;Gäwers
+0;57.7426,38.0141;TM-01;Ahal;Germaw
+0;57.8667,38.1500;TM-01;Ahal;Geok-Tepe Nomer Tretiy
+0;57.9695,38.2345;TM-01;Ahal;Gökdepe
+0;58.0667,38.2167;TM-01;Ahal;Gekcha
+24500;55.5154,39.2446;TM-02;Balkan;Bereket
+0;58.4041,37.6512;TM-01;Ahal;Hawdan
+15386;56.2840,38.4364;TM-02;Balkan;Magtymguly
+3000;58.0899,37.9150;TM-01;Ahal;Arçabil
+0;56.5833,38.6000;TM-02;Balkan;Dzhuvaldy
+0;55.2667,39.6500;TM;;Dzhoyruk
+0;56.4985,38.7082;TM-02;Balkan;Jejirs
+15056;54.2376,39.6310;TM-02;Balkan;Jebel
+3664;56.2274,38.9728;TM-02;Balkan;Janahyr
+778;56.7447,38.3016;TM-02;Balkan;Duzlydepe
+0;55.1204,39.7280;TM-02;Balkan;Düwünçi
+0;57.4691,38.3959;TM-01;Ahal;Durun
+0;57.4333,38.3667;TM-01;Ahal;Durun
+556;56.7381,38.3828;TM-02;Balkan;Durdyhan
+0;57.6162,38.2941;TM-01;Ahal;Dou-Kala
+0;59.7753,37.1996;TM-01;Ahal;Deycha
+0;56.8293,38.5111;TM-01;Ahal;Deşt
+0;56.7667,38.2667;TM;;Dekel’-Dash
+1161;57.0073,38.1922;TM-02;Balkan;Daýna
+0;56.6333,39.0500;TM;;Daulet
+0;55.1488,39.1112;TM-02;Balkan;Däneata
+0;58.0182,37.9725;TM-01;Ahal;Chuli
+0;56.4631,38.6819;TM-02;Balkan;Çukur
+0;59.3833,37.5000;TM-01;Ahal;Chukur-Kala
+0;58.4111,38.0106;TM-01;Ahal;Choganly
+0;59.5409,37.2512;TM-01;Ahal;Chil’gez
+0;56.7833,38.5000;TM-01;Ahal;Cheshme
+0;56.2672,39.3507;TM-02;Balkan;Çerkezli
+0;56.4164,38.8375;TM-02;Balkan;Çemenli
+0;58.2667,38.2000;TM-01;Ahal;Cheltek
+14671;53.1260,39.4036;TM-02;Balkan;Hazar
+542;56.8938,38.2308;TM-02;Balkan;Çukurýurt
+0;53.8986,37.5734;TM-02;Balkan;Çekişler
+0;55.3406,39.3004;TM;;Çitli
+0;56.2167,38.8334;TM-02;Balkan;Chalsu
+0;54.3265,37.4108;TM-02;Balkan;Çaloyuk
+39481;58.1972,38.0541;TM-01;Ahal;Abadan
+0;57.2167,38.5167;TM;;Burk
+3041;54.3778,38.4937;TM-02;Balkan;Bugdaýly
+0;57.2500,38.6333;TM;;Bozogoli
+0;54.5833,39.1167;TM;;Guýjyk
+0;59.5333,37.3667;TM-01;Ahal;Bovart
+7726;58.4927,38.7631;TM-01;Ahal;Bokurdak
+0;58.0160,38.2198;TM-01;Ahal;Ahal
+0;55.1888,38.6234;TM-02;Balkan;Bekibent
+0;56.9096,38.6540;TM-01;Ahal;Börme
+0;58.1000,39.7833;TM;;Bere
+0;56.6033,38.6364;TM-02;Balkan;Bendesen
+1720;53.8473,39.9385;TM-02;Balkan;Belek
+0;58.8042,39.9521;TM-01;Ahal;Bükri
+0;54.7775,37.6258;TM;;Baýathajy
+0;56.8003,38.7333;TM-01;Ahal;Bamy
+0;54.4907,39.4377;TM-02;Balkan;Baleýşem
+37588;57.4316,38.4362;TM-01;Ahal;Bäherden
+0;58.2128,37.9658;TM-01;Ahal;Bagyr
+9681;58.1083,38.0974;TM-01;Ahal;Babaarap
+2747;59.1480,37.6493;TM-01;Ahal;Berkarar
+0;54.8293,39.3820;TM;;Aýdyň
+154;56.7477,38.3999;TM-02;Balkan;Aýdere
+1030063;58.3833,37.9500;TM-S;Ashgabat;Ashgabat
+0;59.3262,37.5536;TM-01;Ahal;Artyk
+0;56.5833,38.3500;TM;;Arpaklen
+6014;57.1571,38.5435;TM-01;Ahal;Arçman
+0;59.6113,37.1636;TM;;Harçiňňan
+382;56.4685,38.4323;TM-02;Balkan;Arapjyk
+0;59.5299,37.3457;TM-01;Ahal;Arapgala
+28653;58.5160,37.8875;TM-01;Ahal;Änew
+0;55.4500,38.8500;TM;;There's no such a place here.
+0;52.9833,39.8333;TM;;Allatepe
+0;54.6911,37.4889;TM-02;Balkan;Akyayla
+0;56.4734,38.3137;TM;;Ak-Kaya
+0;55.1666,39.3489;TM;;Akjaguýma
+0;57.7500,38.2500;TM-01;Ahal;Ak-Gaudan
+9066;57.5976,38.3081;TM-01;Ahal;Akdepe
+0;55.4833,39.3667;TM;;Akbogaz
+918;56.1191,38.1473;TM;;Ak
+4042;54.1583,37.4197;TM-02;Balkan;Ajyýap
+0;54.9663,39.7641;TM-02;Balkan;Ajyguýy
+0;57.9639,37.8937;TM-01;Ahal;Chayek
+0;58.1682,37.9031;TM-01;Ahal;Alibek
+0;58.2295,37.9332;TM-01;Ahal;Ýanbaş
+0;58.1537,38.0074;TM-01;Ahal;Aktepe
+0;58.1816,38.0108;TM-01;Ahal;Firyuzinskoye Ushchel’ye
+0;58.2350,38.0256;TM;;Herrikgala
+0;58.1756,38.0306;TM-01;Ahal;Tsementnyy Gorodok
+0;58.2515,37.9808;TM-S;Ashgabat;Geokcha
+0;58.2886,37.9886;TM-S;Ashgabat;Yalkim
+0;58.2890,37.9284;TM-S;Ashgabat;Bikrava
+0;58.3121,37.9255;TM-01;Ahal;Lesopitomnik
+0;58.4447,37.9511;TM-S;Ashgabat;Arzuv
+0;58.4525,37.9377;TM-S;Ashgabat;Yekitut
+0;58.4419,37.9289;TM-S;Ashgabat;Aktash
+0;58.3104,37.8344;TM-01;Ahal;Karanki
+0;58.3846,37.7407;TM-01;Ahal;Kurtusu
+0;58.3738,37.8853;TM-S;Ashgabat;Berzengi
+0;58.4709,37.7971;TM-01;Ahal;Karakhandere
+0;58.4502,37.7816;TM-01;Ahal;Romanovskiy
+0;58.4762,37.7773;TM-01;Ahal;Khodzhadere
+0;53.8920,37.5937;TM-02;Balkan;Bazarly
+91;54.2979,37.9756;TM-02;Balkan;Yňdyrlan
+0;54.4228,37.6464;TM-02;Balkan;Garajabatyr
+0;54.6623,37.5057;TM-02;Balkan;Yarymtyk
+0;54.7395,37.5237;TM-02;Balkan;Çetli
+0;54.7928,37.5781;TM-02;Balkan;Udey
+0;55.0512,37.9027;TM-02;Balkan;Tekendzhik
+0;54.7572,37.6903;TM;;Kyzylay
+0;54.7834,37.7012;TM-02;Balkan;Agach-Arvat
+9016;54.0343,38.0321;TM-02;Balkan;Garadepe
+2086;54.0166,38.3933;TM-02;Balkan;Gamyşlyja
+0;54.2125,38.6089;TM-02;Balkan;Altykui
+1679;54.3321,38.8834;TM-02;Balkan;Gögerendag
+0;54.2764,38.5519;TM-02;Balkan;Yegridzhar
+179;54.3542,38.4653;TM-02;Balkan;Alaňňyrtly
+467;54.4353,38.4563;TM-02;Balkan;Orunçäge
+1411;54.4611,38.4058;TM-02;Balkan;Şahman
+304;54.4804,38.3915;TM-02;Balkan;Balguýy
+0;55.3409,38.0909;TM-02;Balkan;Garaagaç
+36594;59.6500,41.8333;TM-03;Dasoguz;Yylanly
+0;54.7667,41.0000;TM;;Yangysu
+970;53.3267,40.0205;TM;;Ýaňyajy
+0;54.4667,40.3667;TM;;Ubetsk
+0;55.1672,40.8406;TM-02;Balkan;Tüwer
+0;59.9667,41.8833;TM;;Teze-Yardzhi
+0;59.7896,41.7849;TM;;Tezedurmysh
+0;59.6667,41.8500;TM;;Teze-Chetyr
+17118;59.9496,42.0795;TM-03;Dasoguz;Gubadag
+0;52.7844,40.0110;TM;;Tarta
+26770;59.9164,41.6504;TM-03;Dasoguz;Görogly
+25;53.7178,40.3784;TM-02;Balkan;Soýli
+0;59.9482,41.6936;TM;;Sotsializm
+0;59.4333,42.2333;TM;;Shikhzyab
+0;58.4333,40.0333;TM;;Shikh
+0;59.3000,42.3500;TM;;Shamurad-Dzhinkul’
+0;59.2833,42.1000;TM;;Shakhmurad
+0;59.3125,42.0544;TM;;Sekizatlyk
+0;59.6667,41.8500;TM;;Sazandy
+0;52.9667,40.9833;TM;;Sarydepe
+0;59.8763,41.6422;TM;;Polisultan
+0;59.6667,42.0167;TM;;Pioner
+0;59.2333,42.4167;TM;;Orazkël’
+6770;58.8140,42.3799;TM-03;Dasoguz;Saparmurat Turkmenbashy
+0;59.7167,42.2333;TM;;Oktyabr’
+21160;59.9089,41.9458;TM-03;Dasoguz;Oýrat
+0;55.2081,40.6406;TM-02;Balkan;Awlamyş
+0;57.3667,40.4500;TM;;Nugunek
+0;59.5000,41.9000;TM;;Moskva
+0;58.8667,42.5667;TM;;Monchakly
+0;59.5020,41.8855;TM-04;Lebap;Magaryf
+14177;59.3788,42.0551;TM-03;Dasoguz;Akdepe
+0;59.7000,41.9833;TM;;Leningrad
+0;59.9783,41.6245;TM;;Leningrad
+0;59.6848,42.1577;TM;;Lavak
+0;58.9797,42.4247;TM;;Kyzylshark
+0;58.8144,42.4600;TM;;Kyzylkumbet
+0;58.8333,42.4333;TM;;Kyzylgyuych
+0;58.3833,40.2000;TM;;Kyzylgar
+0;59.4540,42.1087;TM;;Gyzylýap
+0;54.7000,40.3167;TM;;Kuyzeshour
+1853;52.7410,40.2470;TM-02;Balkan;Guwlymaýak
+0;59.3167,42.0000;TM;;Kushbegi
+0;59.5000,41.8000;TM;;Kupakli
+0;59.8500,41.8833;TM;;Kunya-Yarmysh
+91745;52.9552,40.0222;TM-02;Balkan;Türkmenbaşy
+0;54.2276,40.3313;TM-02;Balkan;Goşaoba
+0;59.3667,42.2000;TM;;Koshanda
+37176;59.1531,42.3261;TM-03;Dasoguz;Köneürgenç
+0;59.5355,42.1611;TM;;Komsomol
+0;59.5667,42.0500;TM;;Kommunizm
+0;59.6333,41.9167;TM;;Kommunizm
+0;59.8242,41.5837;TM;;Kommuna
+0;52.7581,40.1959;TM-02;Balkan;Gyýanly
+0;59.8478,41.6813;TM;;Khodzhakumbet
+0;59.9167,41.8333;TM;;Khellen
+0;59.6692,42.0872;TM;;Khamay
+0;58.6333,42.5833;TM;;Keseklik
+0;59.5000,41.8500;TM;;Kergochemen
+0;59.4167,41.9000;TM;;Kepekli
+0;59.9488,41.7142;TM;;Keleli Vtoroy
+0;52.8561,40.7216;TM;;Karshi
+0;59.7677,41.6319;TM;;Karaulak
+0;59.7665,41.8015;TM;;Garaporsaň
+0;59.6500,42.2000;TM;;Kara-Nuri
+0;59.4833,41.9000;TM;;Karakhodzha
+0;59.7833,41.9833;TM;;Karadashli
+0;57.5833,40.0500;TM;;Karabagadzhe
+0;59.3333,42.2500;TM;;Kamyshdzhik
+39532;59.6723,42.1276;TM-03;Dasoguz;Boldumsaz
+0;53.0667,40.3333;TM;;Kabyl
+7334;53.1125,40.0086;TM-02;Balkan;Türkmenbaşy
+0;59.8333,41.8500;TM;;Isrikkala
+0;58.9500,42.4000;TM;;Iskra
+0;59.5500,41.9167;TM;;Ishik-Bay
+0;54.3041,40.1676;TM-02;Balkan;Irikli
+0;59.0000,42.4000;TM;;Imeni Zhdanova
+0;59.9333,42.1667;TM;;Imeni Zhdanova
+0;59.3833,41.9333;TM;;Imeni Vyshinskogo
+0;58.8383,42.3682;TM;;Guýulyk
+0;59.9833,41.9167;TM;;Imeni Voroshilova
+0;58.9667,42.3333;TM;;Imeni Tel’mana
+0;59.9167,42.2667;TM;;Imeni Tel’mana
+0;59.4167,42.0000;TM;;Ataýap
+0;59.9833,41.5333;TM;;Imeni Tel’mana
+0;59.4667,41.9833;TM;;Imeni Stalina
+0;59.0000,42.2667;TM;;Imeni Stakhanova
+0;59.8500,42.2000;TM;;Imeni Stakhanova
+0;58.4000,42.2667;TM;;Imeni Molotova
+0;59.5333,42.2667;TM;;Imeni Mikoyana
+0;59.9167,42.1167;TM;;Imeni Mikoyana
+0;59.7167,42.0833;TM;;Imeni Lenina
+0;59.8061,41.6574;TM;;Imeni Lenina
+0;58.8000,42.4000;TM;;Imeni Kuybysheva
+0;59.8000,42.2500;TM;;Imeni Kirova
+0;59.9833,42.0500;TM;;Imeni Kalinina
+0;59.7667,42.0000;TM;;Imeni Kalinina
+0;59.4000,42.2833;TM;;Imeni Gor’kogo
+0;59.8833,42.2000;TM;;Imeni Dimitrova
+0;58.9833,42.2667;TM;;Imeni Chkalova
+0;59.1868,42.1466;TM;;Imeni Chapayeva
+0;58.8500,42.4000;TM;;Imeni Budënnogo
+0;59.3000,42.3333;TM;;Imeni Andreyeva
+993;55.4669,40.6213;TM;;Gyzylgaýa
+0;59.6667,41.7667;TM;;Gulastan
+0;56.3333,41.0167;TM;;Goklenkuyu
+0;53.4833,42.1167;TM;;Gëksay
+0;52.9258,41.0461;TM;;Garabogazköl
+0;52.7134,40.3377;TM;;Dzhafar
+0;59.0833,42.3833;TM;;Denglikopry
+0;52.8980,40.6037;TM;;Dashkuduk
+201142;59.9666,41.8362;TM-03;Dasoguz;Daşoguz
+0;58.4085,40.1754;TM-01;Ahal;Derweze
+0;52.7334,40.4478;TM;;Damzak
+0;58.6333,42.2500;TM;;Charvan-Kala
+808;55.3813,40.7846;TM-02;Balkan;Çagyl
+0;59.9333,41.7500;TM;;Boy Pervyy
+0;58.7833,42.3167;TM;;Bol’shevik
+0;59.6662,41.8549;TM;;Bol’shevik
+0;59.7000,41.7500;TM;;Birinchiboy
+7877;52.5734,41.5401;TM-02;Balkan;Garabogaz
+0;58.9167,42.3333;TM;;Bayramtogan
+0;58.3500,40.0167;TM;;Bagadzha
+0;59.8167,41.5167;TM;;Auliye
+0;58.7333,42.5333;TM;;Arykagyl
+0;58.7167,42.5500;TM;;Arychagyl
+0;54.3571,40.1568;TM-02;Balkan;Akguýy
+0;58.6767,42.1408;TM;;Ak-Altyn
+0;62.3333,35.2667;TM-05;Mary;Kushka
+0;62.3500,37.6000;TM;;Imeni Maksima Gor’kogo
+0;63.1833,39.3500;TM;;Arab
+0;63.5437,39.0037;TM;;Zergyar
+0;63.2667,39.2667;TM;;Zergumen
+0;64.8500,38.1833;TM;;Zergar
+0;60.2667,37.8500;TM;;Zakhmet
+0;62.5337,37.7708;TM;;Zakhmet
+0;65.5766,37.8083;TM-04;Lebap;Yulangyz
+37705;62.3597,37.2989;TM-05;Mary;Yolöten
+0;62.7333,37.9000;TM;;Yekindzhi
+0;60.3667,37.4000;TM;;Yazygadzhik
+0;62.0000,37.5833;TM;;Yazy
+0;63.3833,39.0833;TM;;Yazdepe
+0;63.2667,39.2500;TM;;Yaz-Aryk
+0;60.2500,37.7667;TM;;Yash-Pioner
+0;60.3667,37.6833;TM;;Yashlar
+0;60.6333,37.2667;TM;;Yashguch
+0;61.6667,37.6333;TM;;Yasa-Gul
+0;63.9500,38.8833;TM;;Yapach
+0;62.7356,37.1357;TM;;Yangi-Kuyu
+0;66.3667,37.7500;TM;;Yangi-Kishlak
+0;66.3000,37.6667;TM;;Yangi-Khodzhalyk
+0;63.5667,39.0333;TM;;Yangiaryk
+0;66.3333,37.7667;TM;;Yangiaryk
+879;66.3408,37.5899;TM-03;Dasoguz;Garlyk
+0;61.2584,36.5173;TM-01;Ahal;Yalawaç
+0;61.2833,36.4833;TM-01;Ahal;Yalovach
+0;62.0994,38.2172;TM-05;Mary;Yakeper
+10488;62.0229,37.8034;TM;;Ýagtyýol
+0;60.1013,37.5319;TM;;Vtoraya Pyatiletka
+0;61.7188,37.6887;TM;;Vos’moye Marta
+0;61.9394,37.6364;TM;;Vekil’-Bazar
+0;61.2500,38.1167;TM;;Uyger-Chage
+0;63.2455,39.3446;TM-04;Lebap;Osty
+0;62.8667,35.9667;TM;;Urazaly
+0;62.8333,35.9667;TM;;Urazaly
+0;63.5167,39.0667;TM;;Urazali
+0;62.4333,37.6333;TM;;Umuk
+0;65.0167,38.1167;TM;;Ulyash
+0;65.3924,37.7310;TM;;Ulamsurkhi
+0;63.6667,38.9500;TM;;Ugur
+0;63.2167,37.4500;TM;;Udarnik
+0;60.5669,37.4508;TM;;Udarnik
+0;63.7291,39.0037;TM;;Uch-Bash
+1727;62.7958,38.0888;TM-05;Mary;Bagtyýarlyk
+0;63.5167,39.0667;TM;;Tyuyachi
+0;65.4667,37.7333;TM;;Tyl’-Ter
+0;62.5500,35.6667;TM;;Turkmenkarakul’
+16696;62.3382,37.4247;TM-05;Mary;Türkmengala
+0;64.4142,38.2767;TM-04;Lebap;Tura-Kishlak
+0;60.3273,37.9013;TM;;Tezeyol
+0;61.1366,36.8355;TM-01;Ahal;Tezeyël Vtoroy
+0;61.7571,37.5653;TM;;Teze-Yël
+0;62.2573,37.6214;TM;;Teze-Yël
+0;61.7833,37.5500;TM;;Tezeoba
+0;61.1916,36.5751;TM-01;Ahal;Tezeoba
+0;61.9219,37.6718;TM;;Tezedurmush
+0;63.4000,39.1833;TM;;Temir-Khodzha
+67488;60.5055,37.3834;TM-01;Ahal;Tejen
+3580;60.7966,37.0342;TM-01;Ahal;Gaňňaly
+0;65.5985,37.6692;TM-04;Lebap;Tashrabad
+0;65.2361,37.7401;TM;;Tashlyk
+0;66.3667,37.7833;TM;;Tash-Kishlak
+0;62.6495,36.2741;TM-05;Mary;Daşköpri
+0;63.8833,38.8833;TM;;Tarnov
+0;62.1311,38.2972;TM-05;Mary;Tarkhan
+0;61.3000,38.1500;TM;;Tarkhan
+0;66.3669,37.8973;TM;;Tang-Kotan
+0;64.9333,38.4667;TM;;Talimardzhan
+3399;65.5030,38.1569;TM-04;Lebap;Tallymerjen
+0;63.3667,39.0833;TM;;Takyr
+0;63.5500,39.0667;TM;;Takhtapara
+0;62.7112,36.0611;TM-05;Mary;Tagtabazar
+0;66.4411,37.8700;TM-04;Lebap;Gurşunmagdan Kärhanasy
+0;65.2833,37.8167;TM-04;Lebap;Surhy
+0;62.4486,37.1202;TM;;Sultanbent
+0;62.4100,36.2039;TM-05;Mary;Suli-Gokcha
+0;61.9333,37.4667;TM;;Sukhty Vtoroy
+0;62.0167,37.4333;TM;;Sukhty Pervyy
+0;62.2000,37.4333;TM;;Sukhty
+0;63.0799,35.8767;TM-05;Mary;Söýunaly
+0;61.2434,36.4380;TM-01;Ahal;Hanýap
+0;63.6031,39.1798;TM;;Sotsializm-Yul
+0;64.9659,38.0222;TM;;Sotsializm
+0;62.0333,37.5833;TM;;Sotsializm
+0;63.7940,38.9221;TM-04;Lebap;Syýadagsakar
+0;62.9667,39.3167;TM;;Shurvogaz
+0;62.3833,37.5000;TM;;Shura
+0;64.7667,38.2167;TM;;Shori-Payan
+0;62.4667,35.5333;TM;;Shor-Cheshme
+0;64.0833,38.6833;TM;;Shor-Aryk
+0;63.9000,38.7667;TM;;Shikh
+0;63.7500,38.9833;TM;;Sheykh
+0;63.0500,39.2667;TM;;Shekh-Bala
+7725;61.5939,37.6072;TM-05;Mary;Şatlyk
+0;63.0333,39.3000;TM;;Shambebazar
+0;62.8872,39.4211;TM-04;Lebap;Shagal
+17762;62.9137,39.4816;TM-05;Mary;Seydi
+0;61.1667,36.1667;TM;;Serakhskiy Rayon
+0;61.8667,37.6667;TM;;Segli-Kar
+0;62.3833,35.4667;TM;;Sayvatur
+0;63.4500,39.0833;TM;;Sayat
+17762;63.8803,38.7839;TM-04;Lebap;Saýat
+0;66.5343,37.9376;TM-04;Lebap;Sayat
+0;62.6243,36.4575;TM-05;Mary;Saryýazy
+0;63.4041,39.1645;TM;;Sarykbala
+0;62.5833,39.8000;TM;;Sarydag-Tugay
+0;64.6167,38.2167;TM;;Sary-Bash
+31269;61.2148,36.5238;TM-01;Ahal;Sarahs
+0;63.0793,39.2825;TM;;Sapardar
+0;62.5561,36.5438;TM-05;Mary;Sandykgaçy
+11891;61.6601,37.6635;TM;;Sakarçäge
+0;62.7333,38.0167;TM;;Sakar-Adzhi
+0;63.7434,38.9258;TM-04;Lebap;Säkar
+0;64.8524,38.1772;TM-04;Lebap;Sabynly
+0;64.1500,38.9333;TM;;Romazak
+0;63.1776,38.5630;TM-04;Lebap;Repetek
+1408;62.6657,37.9533;TM-05;Mary;Berkarar
+0;61.8798,37.6047;TM;;Rabochiy
+0;60.3875,37.5022;TM;;Pravda
+0;62.3195,35.2718;TM-05;Mary;Poltavskiy
+0;63.1833,35.7167;TM;;Pogranichnik
+0;61.8631,37.5206;TM;;Pobeda
+0;62.5123,35.5310;TM-05;Mary;Ýeňiş
+0;63.7844,38.8867;TM;;Pioner
+0;63.7856,38.8883;TM-04;Lebap;Pioner
+0;64.0463,38.5151;TM-04;Lebap;Pioner
+0;66.1167,37.7500;TM;;Pioner
+0;62.8167,37.8333;TM;;Pervyy Khodzhakuyu
+0;62.6000,36.5000;TM;;Pervogo Maya
+0;61.5667,37.8167;TM;;Permet
+0;63.0167,39.3167;TM;;Parmasha
+0;60.2833,37.5000;TM;;Ovaz-Dzhalatay
+0;61.2333,36.4667;TM-01;Ahal;Ordy-Khodzha
+0;63.3500,39.1500;TM;;Omar-Khodzha
+0;64.9500,38.0500;TM-04;Lebap;Omargyzylja
+0;63.2333,39.2167;TM;;Ogar
+0;64.8333,38.3333;TM;;Odzharly
+0;65.3790,37.6632;TM;;Oba
+0;60.5833,37.3000;TM;;Nurata
+0;60.0167,37.6167;TM;;Nurali
+0;64.4167,38.3667;TM;;Nuradzhi
+0;61.2026,36.2629;TM-01;Ahal;Nouruzabad
+0;64.0048,38.8148;TM;;Narazym
+14822;61.9714,37.4966;TM-05;Mary;Murgap
+0;63.1500,39.3000;TM;;Muminchandyr
+0;65.2000,37.9000;TM;;Mukry
+0;65.5167,37.6500;TM;;Mukry
+0;65.7381,37.5977;TM-04;Lebap;Mukry
+0;63.3500,39.1167;TM;;Mugal-Bala
+0;63.1167,39.2833;TM;;Moyak-Olum
+0;63.1000,39.3000;TM;;Moyak
+0;62.0700,37.7000;TM;;Moskva
+0;61.9061,37.5135;TM;;Moskva
+0;62.3914,37.3434;TM;;Moskva
+0;62.1592,37.3468;TM;;Moskva
+0;63.3201,39.2235;TM;;Moskovsk
+3372;62.3947,35.2911;TM-05;Mary;Serhetçi
+0;62.9333,39.5000;TM;;Moor
+390;60.0429,39.5830;TM-01;Ahal;Mürzeçyrla
+0;65.6122,37.5869;TM-04;Lebap;Mirzabek
+0;60.4058,36.8738;TM-01;Ahal;Mäne
+0;60.0833,37.9833;TM;;Mekrub
+2618;64.5791,38.2734;TM-04;Lebap;Mekan
+0;66.1714,37.4337;TM-04;Lebap;Megejik
+167027;61.8303,37.5938;TM-05;Mary;Mary
+0;62.3833,35.4167;TM;;Martazi
+0;61.7500,37.6000;TM;;Maraniyat
+0;60.3863,37.8194;TM;;Mamur
+0;62.1500,37.3667;TM;;Mamatay
+0;64.3094,38.3876;TM;;Mamash
+0;62.3278,36.1200;TM-05;Mary;Malay-Adzhi
+0;62.3667,37.9000;TM;;Makhmud-Adzhi
+0;60.2469,36.9658;TM-01;Ahal;Makhmaldepe
+0;62.0466,37.5355;TM;;Leningrad
+0;64.0356,38.5822;TM-04;Lebap;Lambe
+0;62.4667,36.9500;TM;;Kyzylyyldyz
+0;60.1500,37.8167;TM;;Kyzyltayak
+0;62.4667,37.0333;TM;;Kyzylpildyz
+0;64.6667,38.1333;TM;;Kyzylkoshun
+0;64.0525,38.5484;TM-04;Lebap;Kyzylkasyl
+0;63.5667,39.2333;TM;;Kyzyl-Guch
+0;62.2333,37.7167;TM;;Kyzyldaykhan
+0;60.2500,37.9000;TM;;Kyzylcharva
+0;62.0906,37.6971;TM;;Kyzylbaydak
+0;61.9667,37.5333;TM;;Kyzylbayda
+0;65.1000,38.0667;TM;;Kyrkuyli
+0;63.7500,38.9667;TM;;Kyamtor
+0;63.6511,38.9622;TM-04;Lebap;Kyal’tayab
+0;63.8328,38.8867;TM-04;Lebap;Kyal’tayab
+0;65.5833,37.5833;TM;;Kuvak
+0;63.8333,38.9167;TM;;Kushchi
+0;63.8378,38.8981;TM-04;Lebap;Kushchi
+0;66.3000,37.6833;TM;;Kuruksay
+0;60.0500,37.5667;TM;;Kurgunuk
+0;62.4000,37.2333;TM;;Kurdzhukly
+0;60.1000,37.5333;TM;;Kurbanek
+0;64.3544,38.4739;TM-04;Lebap;Kuraish
+0;64.2000,38.4500;TM;;Kuraish
+735;66.4220,37.5633;TM-04;Lebap;Künjek
+0;66.1150,37.4654;TM-04;Lebap;Kumpete
+0;64.2532,38.5247;TM-04;Lebap;Kul’tura
+0;62.3333,37.3167;TM;;Kul’tura
+0;63.1167,35.7833;TM;;Kul’dzha
+0;63.7797,38.9750;TM-04;Lebap;Kulayanchi
+0;64.0619,38.5669;TM-04;Lebap;Kularyk
+0;63.0333,39.3000;TM;;Kulandzhi
+0;62.6394,36.8833;TM-05;Mary;Kulanbay
+0;60.5167,37.4333;TM;;Kuchuk
+0;62.2333,37.4667;TM;;Krestovskiy
+0;65.3667,37.7000;TM;;Krasnyy Turkmenistan
+0;62.3489,37.3959;TM;;Krasnyy Oktyabr’
+0;62.4774,36.8434;TM-05;Mary;Krasnoye Znamya
+0;62.5000,36.9667;TM;;Krasnoye Znamya
+0;63.4031,39.2953;TM-04;Lebap;Krach
+0;60.0833,37.9500;TM;;Kozhe
+0;62.1667,37.5167;TM;;Kozelkovskiy
+0;63.4500,39.1167;TM;;Kopak-Chalak
+0;63.5958,39.0342;TM-04;Lebap;Komsomol’sk
+0;62.0963,37.4699;TM;;Komsomol
+8673;60.4349,37.3919;TM;;Garaşsyzlyk
+0;65.1040,37.9279;TM-04;Lebap;Kommunizm
+0;60.3118,37.6459;TM;;Kommunizm
+1674;61.9248,37.6118;TM-05;Mary;Kommunizm
+0;62.2319,37.5151;TM;;Kommunizm
+0;63.0805,35.8778;TM-05;Mary;Kommunizm
+0;64.1089,38.4814;TM-04;Lebap;Kommunist
+0;61.8132,37.5847;TM;;Kommunist
+0;60.5524,37.4952;TM;;Kommuna
+0;60.5667,37.4667;TM;;Kommuna
+0;66.1417,38.0250;TM-04;Lebap;Kokmiyar
+0;65.3088,37.7855;TM;;Kizyl-Turkmenistan
+0;62.8833,35.9333;TM;;Kizyl-Murad
+0;60.2833,37.5333;TM;;Kizyl-Ishchi
+0;65.3216,37.6685;TM;;Kizyl-Ayak
+0;63.5500,39.1000;TM;;Kishtivan
+0;65.2833,37.8500;TM;;Kiikchi
+0;61.2693,36.5668;TM-01;Ahal;Aşgabat
+0;61.2277,36.5492;TM-01;Ahal;Kiçiaga
+0;62.4706,36.9956;TM-05;Mary;Hüjüm
+0;64.8333,38.4000;TM;;Khudayberdy
+0;63.7167,38.9000;TM;;Khozarek
+0;63.6458,39.0336;TM-04;Lebap;Khodzhara
+0;63.5833,39.0500;TM;;Khodzha-Mrasan
+0;63.5667,39.0167;TM;;Khodzhameshed
+13485;65.0035,38.1163;TM-04;Lebap;Hojambaz
+0;63.1370,35.7407;TM-05;Mary;Gojaly
+0;63.1055,35.8010;TM-05;Mary;Durdyýew Adyndaky
+0;66.3690,37.5955;TM-04;Lebap;Khodzhakishlak
+0;63.0612,39.3970;TM-04;Lebap;Hojakenepsi
+0;66.3715,37.7467;TM-04;Lebap;Khadzhikaraul
+0;66.3500,37.7500;TM;;Khodzhakaraul
+0;63.4404,39.1324;TM-04;Lebap;Hojagala
+0;66.4833,37.9167;TM;;Khodzha-Irat
+0;66.6430,37.9475;TM-04;Lebap;Hojeýpil
+0;60.1108,37.0123;TM-01;Ahal;Khadzhibulan
+0;62.8833,35.9667;TM;;Khodzha-Ali
+0;62.4333,38.0500;TM;;Khilak
+0;65.4831,37.7232;TM-04;Lebap;Khatab
+0;65.5289,37.6234;TM-04;Lebap;Khatab
+0;60.4333,37.5333;TM;;Khasyn
+0;63.3667,39.1667;TM;;Khar-Bala
+0;60.6390,38.6899;TM-05;Mary;Hanguýy
+0;63.3041,39.1814;TM;;Khandakli
+0;63.4833,39.2500;TM;;Khandak
+0;63.4500,39.1833;TM;;Khandak
+0;61.2000,36.4500;TM-01;Ahal;Khalyal’chilim
+0;62.0167,37.6667;TM;;Khalil’-Bukry
+20778;64.8794,38.0720;TM-04;Lebap;Halaç
+0;65.1333,37.9833;TM;;Kessyr
+0;62.7000,37.8000;TM;;Keske
+14996;65.2433,37.8507;TM-04;Lebap;Kerkiçi
+0;65.2167,37.9167;TM;;Kerki-Aryk
+33242;65.2064,37.8408;TM-04;Lebap;Kerki
+0;62.0500,38.3667;TM;;Kelyadzhi
+0;64.4833,37.7667;TM;;Kel’teshor
+0;66.3100,37.3612;TM-04;Lebap;Kelif
+0;64.5000,38.2833;TM;;Kel’-Bash
+0;60.2167,37.5000;TM;;Kazylyar
+0;60.1333,37.9167;TM;;Kayli
+0;65.4000,37.7333;TM;;Kausy
+0;63.1500,39.2333;TM;;Katta-Sopiyab
+0;63.4500,39.1667;TM;;Kata-kara-Tut
+0;62.2833,37.4833;TM;;Kashgarskiy
+0;63.1167,39.2333;TM;;Kary-Khodzha-Ata
+0;60.6833,37.2167;TM;;Karry Bent
+0;64.5667,38.2667;TM;;Karnas
+0;65.9394,37.5206;TM-04;Lebap;Karnas
+16;66.3347,37.4141;TM-04;Lebap;Garlyk
+0;63.7000,38.4833;TM;;Karkinadzhi
+0;63.8622,38.8008;TM-04;Lebap;Karkin
+0;64.9833,37.9833;TM;;Karkin
+0;61.7500,37.6667;TM;;Kara-Yab Vtoroy
+0;61.6500,37.7333;TM;;Kara-Yab Tretiy
+0;61.8667,37.6833;TM;;Kara-Yab Pervyy
+0;60.3500,37.7500;TM;;Kara-Vakil’ Vtoroy
+0;60.3500,37.8833;TM;;Kara-Vakil’ Pervyy
+0;63.3333,38.7500;TM;;Karaul-Kuyu
+0;63.5000,39.0333;TM;;Karaul
+0;62.2833,35.2667;TM;;Kara-Tepe
+0;60.3028,36.8568;TM-01;Ahal;Karatekyan
+0;63.6833,38.9667;TM;;Kararyk
+0;63.5508,39.2198;TM-04;Lebap;Garamyş
+0;64.5571,37.7396;TM-04;Lebap;Garamätnyýaz
+0;61.1288,36.7594;TM-01;Ahal;Alam
+0;61.2042,36.5157;TM-01;Ahal;Karaman
+0;63.7232,38.9333;TM;;Karamakhmud
+0;63.6667,39.0333;TM;;Kara-Kuli
+0;62.7667,36.6500;TM;;Karakul’
+0;60.3333,37.6333;TM;;Karakongur
+0;63.0500,39.2667;TM;;Karakhodzha
+0;64.6667,38.2500;TM;;Karadzha
+0;62.0667,37.6667;TM;;Karadzha
+0;61.6000,37.9667;TM;;Kara-Chapan
+0;66.3529,37.6080;TM-04;Lebap;Karabulak
+0;62.8333,35.9333;TM;;Kara-Boyen
+5509;64.1515,38.4846;TM-04;Lebap;Karabekaul
+0;64.4167,38.2667;TM;;Kara-Bashlyk
+0;61.8167,37.5167;TM;;Karaba-Akhun
+0;66.4167,37.8500;TM;;Kara-Agach
+0;62.5169,38.7047;TM-05;Mary;Kapakly
+0;65.8833,37.7500;TM;;Kanshar
+0;63.4667,39.2667;TM;;Kandak
+0;65.1500,37.9833;TM;;Kalyam
+0;62.5561,35.6540;TM-05;Mary;Galaýmor
+0;65.1500,37.8667;TM;;Kabasakal
+0;65.2167,37.7833;TM;;Itbash
+0;62.9042,39.5578;TM-04;Lebap;Isbaz
+0;62.1668,35.3826;TM-05;Mary;Islim-Cheshme
+0;61.8073,37.6197;TM;;Iskra
+0;64.3281,38.4908;TM-04;Lebap;Isamli
+0;64.3114,38.3506;TM-04;Lebap;Internatsional
+0;64.5533,38.1879;TM;;Internatsional
+0;60.0500,37.2333;TM;;Internatsional
+0;63.0167,35.9000;TM;;Internatsional
+0;61.6948,37.7877;TM;;Inkylap
+0;61.9167,37.5000;TM;;Inkylap
+0;60.7000,37.2167;TM;;Inkylap
+0;63.4637,39.0640;TM;;Imeni Zhdanova
+0;64.7179,38.1304;TM;;Imeni Zhdanova
+0;61.7212,37.6615;TM;;Imeni Zhdanova
+0;61.7231,37.6713;TM;;Imeni Zhdanova
+0;63.3350,39.1752;TM;;Imeni Voroshilova
+0;63.6167,39.1500;TM;;Imeni Voroshilova
+0;64.0024,38.5434;TM;;Imeni Voroshilova
+0;64.3307,38.4913;TM;;Imeni Voroshilova
+0;60.1833,37.8167;TM;;Imeni Voroshilova
+0;60.3000,37.8000;TM;;Imeni Voroshilova
+0;61.6436,37.7824;TM;;Imeni Voroshilova
+0;62.2500,37.7000;TM;;Imeni Voroshilova
+0;61.7645,37.6201;TM;;Imeni Voroshilova
+0;62.2500,37.3667;TM;;Imeni Voroshilova
+0;63.7447,38.8894;TM-04;Lebap;Imeni Tel’mana
+0;63.2833,39.2167;TM;;Imeni Stalina
+0;63.6667,39.1333;TM;;Imeni Stalina
+0;63.7167,38.9000;TM;;Imeni Stalina
+0;63.9000,38.7500;TM;;Imeni Stalina
+0;64.0167,38.6167;TM;;Imeni Stalina
+0;64.0333,38.5167;TM;;Imeni Stalina
+0;64.3500,38.4667;TM;;Imeni Stalina
+0;61.7500,37.7333;TM;;Imeni Stalina
+0;61.5833,37.7167;TM;;Imeni Stalina
+0;61.8833,37.6333;TM;;Imeni Stalina
+0;62.1667,37.5000;TM;;Imeni Stalina
+0;60.4167,37.4667;TM;;Imeni Stalina
+0;62.2500,37.1833;TM;;Imeni Stalina
+0;60.3584,36.8552;TM-01;Ahal;Imeni Stalina
+0;62.5333,36.5833;TM;;Imeni Stalina
+0;62.9242,35.9486;TM-05;Mary;Imeni Stalina
+0;62.4000,37.5167;TM;;Imeni Stakhanova
+0;62.1167,37.6500;TM;;Imeni Shvernika
+0;62.6500,36.3333;TM;;Imeni Revolyutsii
+0;61.9324,37.6060;TM;;Imeni Poltoratskogo
+0;62.2667,37.5500;TM;;Imeni Ordzhonikidze
+0;63.6167,39.0667;TM;;Imeni Molotova
+0;64.0667,38.5000;TM;;Imeni Molotova
+0;62.0000,37.7000;TM;;Imeni Molotova
+0;61.6667,37.6500;TM;;Imeni Molotova
+0;62.0167,37.6333;TM;;Imeni Molotova
+0;62.2333,37.4500;TM;;Imeni Molotova
+0;62.2167,37.4333;TM;;Imeni Molotova
+0;61.9667,37.4333;TM;;Imeni Molotova
+0;62.4000,37.3000;TM;;Imeni Molotova
+0;60.4434,36.9003;TM-01;Ahal;Imeni Molotova
+0;62.5167,36.6000;TM;;Imeni Molotova
+0;63.2667,39.2500;TM;;Imeni Malenkova
+0;64.9833,38.1500;TM;;Imeni Malenkova
+0;61.9000,37.5500;TM;;Imeni Malenkova
+0;61.8500,37.5333;TM;;Imeni Malenkova
+0;62.2333,37.2000;TM;;Imeni Malenkova
+0;63.2376,39.1867;TM;;Imeni Lenina
+0;63.8333,38.8167;TM;;Imeni Lenina
+0;64.0097,38.5639;TM-04;Lebap;Imeni Lenina
+0;61.6955,37.7685;TM;;Imeni Lenina
+0;61.7167,37.7500;TM;;Imeni Lenina
+0;61.8106,37.6689;TM;;Imeni Lenina
+0;62.0314,37.6639;TM;;Imeni Lenina
+0;62.0951,37.6142;TM;;Imeni Lenina
+0;62.3172,37.5176;TM;;Imeni Lenina
+0;62.0424,37.5033;TM;;Imeni Lenina
+0;62.3167,37.3167;TM;;Imeni Lenina
+0;61.2535,36.4538;TM-01;Ahal;Imeni Lenina
+0;62.6500,36.4333;TM;;Imeni Lenina
+0;62.7704,36.0003;TM-05;Mary;Imeni Lenina
+0;63.3808,39.1955;TM;;Imeni Kuybysheva
+0;63.5079,39.1035;TM;;Imeni Kuybysheva
+0;63.7508,38.9793;TM;;Imeni Kuybysheva
+0;62.1574,37.4004;TM;;Imeni Kuybysheva
+0;64.4261,38.3633;TM-04;Lebap;Imeni Komsomola
+0;62.5231,39.8150;TM-04;Lebap;Imeni Kirova
+0;64.0376,38.5837;TM;;Imeni Kirova
+0;64.3997,38.4281;TM;;Imeni Kirova
+0;61.6417,37.7114;TM;;Imeni Kirova
+0;60.4690,37.4756;TM;;Imeni Kirova
+0;63.1000,35.8667;TM;;Imeni Kirova
+0;63.6240,39.0054;TM;;Imeni Karla Marksa
+0;63.8806,38.8728;TM;;Imeni Karla Marksa
+0;64.3456,38.4386;TM;;Imeni Karla Marksa
+0;64.5722,38.1795;TM;;Imeni Karla Marksa
+0;61.9167,37.5833;TM;;Imeni Karla Marksa
+0;61.9334,37.4555;TM;;Imeni Karla Marksa
+0;62.1833,37.3500;TM;;Imeni Karla Marksa
+0;63.8000,38.9167;TM;;Imeni Kalinina
+0;64.2878,38.5082;TM-04;Lebap;Imeni Kalinina
+0;64.2465,38.4249;TM;;Imeni Kalinina
+0;64.2238,38.4405;TM;;Imeni Kalinina
+0;64.2500,38.4000;TM;;Imeni Kalinina
+0;61.7007,37.7944;TM;;Imeni Kalinina
+0;61.6944,37.6138;TM;;Imeni Kalinina
+0;62.4167,37.5833;TM;;Imeni Kalinina
+0;60.4850,37.6131;TM;;Imeni Kalinina
+0;62.4500,37.0833;TM;;Imeni Kalinina
+0;62.4667,37.0333;TM;;Imeni Kalinina
+0;62.9483,35.9383;TM-05;Mary;Imeni Kalinina
+0;61.8948,37.5626;TM;;Imeni Kaganovicha
+0;62.0000,37.5500;TM;;Imeni Kaganovicha
+0;62.4833,37.0833;TM;;Imeni Kaganovicha
+0;62.7167,36.0500;TM;;Imeni Kaganovicha
+0;63.8083,38.8622;TM-04;Lebap;Imeni Il’icha
+0;63.7333,38.9333;TM;;Imeni Gor’kogo
+0;61.6327,37.7398;TM;;Imeni Gorel’de
+0;61.9500,37.6333;TM;;Imeni Gorel’de
+0;62.1500,37.5167;TM;;Imeni Engel’sa
+0;62.8683,35.9876;TM-05;Mary;Kolkhoz Imeni Engel’sa
+0;60.3333,37.7333;TM;;Imeni Dzerzhinskogo
+0;62.8603,35.9414;TM-05;Mary;Suhty
+0;62.4791,37.0638;TM;;Imeni Chubina
+0;62.8833,35.9500;TM;;Imeni Chkalova
+0;62.4589,36.7168;TM-05;Mary;Imeni Chapayeva
+0;62.0500,37.4333;TM;;Imeni Budënnogo
+0;64.1474,38.4784;TM-04;Lebap;Imeni Andreyeva
+0;62.1667,37.5000;TM;;Imeni Andreyeva
+0;62.1333,37.4000;TM;;Imeni Andreyeva
+0;62.3833,37.2667;TM;;Imeni Andreyeva
+0;62.4421,36.7161;TM;;Imambaba
+0;62.4500,37.0667;TM;;Ilyari
+0;65.0333,38.0833;TM;;Ilyach
+0;63.0000,39.3667;TM;;Il’mak
+0;62.9876,39.4143;TM-04;Lebap;El’jik
+0;62.9833,39.3833;TM;;Il’chik
+4686;61.2455,37.2355;TM-05;Mary;Deňizhan
+0;61.6000,37.9167;TM;;Gyurmush-Tepe
+5200;62.3438,35.2799;TM-05;Mary;Serhetabat
+0;66.4667,37.8833;TM;;Gurumsay
+0;66.4333,37.8833;TM;;Gurum-Say
+0;64.7333,38.1833;TM;;Gunesh
+0;62.1833,37.5500;TM;;Grodekovskiy
+44508;66.0466,37.8124;TM-04;Lebap;Magdanly
+0;65.6453,37.5632;TM-04;Lebap;Golovnoye
+0;61.9833,37.5667;TM;;Gokcha
+0;62.3467,37.3220;TM;;Gindukush
+0;61.1833,36.4000;TM-01;Ahal;Gil’-Abad
+0;60.0500,37.5500;TM;;Garrychyrla
+0;63.3040,39.3224;TM-04;Lebap;Gadyn
+0;64.6833,38.2167;TM;;Gaburdy
+0;62.5433,39.7730;TM-04;Lebap;Gabakly
+14503;63.6116,39.1704;TM-04;Lebap;Farap
+0;63.5774,39.1452;TM-04;Lebap;Jeýhun
+0;64.4700,38.2345;TM-04;Lebap;Etbaş
+0;64.0047,38.8192;TM-04;Lebap;Eski-Narazym
+0;63.8667,38.8167;TM;;Eski
+0;64.7200,38.1287;TM-04;Lebap;Esenmengli
+0;63.3500,39.2333;TM;;Erdel’
+0;61.1500,36.6833;TM-01;Ahal;Epo
+0;62.7167,37.5833;TM;;Energetik
+0;65.1333,38.0167;TM;;Egriyagyr
+0;61.7841,37.6617;TM;;Egri-Guzar
+0;65.1167,38.0333;TM;;Edrug
+0;62.3167,37.8667;TM;;Dzhuppy
+0;64.4667,38.2333;TM;;Dzhuma-Bazar
+0;64.7333,38.2500;TM;;Dzhuma
+0;65.7000,37.9167;TM;;Dzhity-Kuduk
+0;63.7799,38.9607;TM;;Dzhengel’
+0;66.4251,37.3625;TM-04;Lebap;Dzharguzar
+0;60.4667,37.6667;TM;;Dzhapar
+0;61.7833,37.6333;TM;;Dvadtsatiletiye Turkmenskoy Sovetskoy Sotsialisticheskoy Respubliki
+8405;60.0247,37.1952;TM-01;Ahal;Duşak
+0;61.7833,37.6167;TM;;Durdy
+0;63.9167,38.9167;TM;;Dukdrushtum
+13655;65.3376,37.7455;TM-04;Lebap;Dostluk
+7932;63.1843,39.2628;TM-04;Lebap;Galkynyş
+0;64.3000,36.3000;TM;;Dervezekem
+0;61.3355,36.5559;TM-01;Ahal;Daz
+0;62.3000,37.4833;TM;;Davlet
+0;64.4167,38.4333;TM;;Dautly
+0;63.7667,38.9167;TM;;Dag-Sakhkary
+0;66.2833,37.6167;TM;;Dagarkishlak
+0;62.8500,35.9333;TM;;Dadedogli
+0;62.7667,36.0333;TM;;Dada-Ogly
+0;64.1167,38.6333;TM;;Churga
+0;63.5333,39.0667;TM;;Chupli
+0;61.2585,38.3588;TM-05;Mary;Güljar
+0;61.1684,38.6572;TM;;Cheshme Vtoroy
+0;61.4167,37.9333;TM;;Cherkez
+0;63.7000,38.9167;TM;;Cherenga
+0;62.0833,37.7000;TM;;Chepek
+0;60.0833,37.8833;TM;;Chenen
+0;62.3958,35.4489;TM-05;Mary;Çemenebit
+0;62.8000,35.9667;TM;;Chemche
+0;65.2500,37.6500;TM;;Chekmen
+0;63.8500,38.8000;TM;;Chekich
+0;63.9333,38.7000;TM;;Chekich
+0;63.2667,39.2000;TM;;Chegez
+0;63.8942,38.7376;TM-04;Lebap;Chaudur
+0;64.7333,38.2167;TM;;Chatryak
+0;64.7833,38.1333;TM;;Chatrak
+0;61.3333,37.9500;TM;;Chashkent
+15470;61.5491,37.7973;TM-05;Mary;Çaşgyn
+0;62.0167,37.5333;TM;;Chash
+0;62.3000,37.6167;TM;;Charyy
+0;63.6500,38.9833;TM;;Charvak
+0;63.6767,38.9453;TM-04;Lebap;Charvadar
+0;64.7833,38.1333;TM;;Chartma
+8654;66.0135,37.5156;TM-04;Lebap;Köýtendag
+230861;63.5786,39.0733;TM-04;Lebap;Türkmenabat
+0;63.1000,37.9333;TM;;Chamchakly
+0;64.4333,38.4000;TM;;Chalysh
+0;63.6914,38.9765;TM-04;Lebap;Çaltut
+0;62.8667,38.0167;TM;;Chalapkuyu
+0;65.1906,37.8318;TM;;Chakyr
+0;61.4506,35.6025;TM-01;Ahal;Chakmaklychanga
+0;63.9833,38.6167;TM;;Chakich
+0;62.9333,39.3500;TM;;Chakal
+0;62.7667,38.0167;TM;;Chagyl
+0;65.0061,37.9803;TM-04;Lebap;Chagpata
+0;61.8667,37.5167;TM;;Byr-Koz
+0;63.6367,39.0592;TM-04;Lebap;Buyrabab
+0;65.4127,37.7317;TM;;Burguchi
+4558;64.3751,38.4527;TM-04;Lebap;Burdalyk
+0;63.8667,38.8333;TM;;Budzhak
+0;65.7008,37.5397;TM-04;Lebap;Basaga
+0;64.7027,38.2424;TM-04;Lebap;Boraşly
+0;63.3479,39.2207;TM;;Bol’shevik
+0;63.3500,39.2333;TM;;Bol’shevik
+0;64.8484,38.1780;TM;;Bol’shevik
+0;62.1383,37.5914;TM;;Bol’shevik
+0;62.3333,37.4667;TM;;Bol’shevik
+0;60.5333,37.4000;TM;;Bol’shevik
+0;60.9677,36.9128;TM-01;Ahal;Bol’shevik
+0;63.6000,39.2000;TM;;Bitik
+0;61.5500,38.0500;TM;;Bikuri
+0;62.3167,37.7000;TM;;Besheuray
+0;62.3000,37.6000;TM;;Besheur
+0;61.6217,37.8211;TM-05;Mary;Beriket
+0;61.7000,37.6833;TM;;Berenchi-Kara-Yab
+0;61.6000,37.8333;TM;;Bereket
+0;63.0167,35.9167;TM;;Bendi-Nadir
+0;61.3500,36.5333;TM-01;Ahal;Begi-Sakar
+0;63.0418,35.8980;TM;;Beden
+0;63.6167,39.0167;TM;;Bazar-Sakhe
+0;66.3972,37.8060;TM-04;Lebap;Bazardepe
+0;64.7867,38.1154;TM;;Bazar
+70376;62.1671,37.6185;TM-05;Mary;Bayramaly
+0;64.2278,38.4222;TM-04;Lebap;Bay-Kishlak
+0;62.0000,37.4333;TM;;Bay-Kabyl’
+0;62.3667,37.9833;TM;;Baygushli
+0;63.2667,39.1500;TM;;Bayat
+0;64.3667,38.4333;TM;;Bay
+0;65.5630,38.0026;TM-04;Lebap;Bataş
+0;65.3000,37.8500;TM;;Batash
+0;66.4500,37.9000;TM;;Bassar-Kish
+0;64.4333,38.3833;TM;;Bashvak
+0;63.1719,35.7209;TM-05;Mary;Başbeden
+0;65.6667,37.5833;TM;;Basaga
+0;63.3894,39.1903;TM-04;Lebap;Berzeň
+0;63.2333,39.2000;TM;;Baragiz
+0;64.0500,38.6167;TM;;Banysh
+0;63.6333,39.0167;TM;;Bangil’dy
+0;60.4333,37.4667;TM;;Bakhshimarish
+0;60.2833,37.6333;TM;;Bakhshi
+0;62.1833,37.6667;TM;;Bagt
+0;61.7333,37.6000;TM;;Bagarka
+13440;60.4333,37.6833;TM;;Babadaykhan
+13440;60.3942,37.6900;TM-01;Ahal;Babadaýhan
+0;63.0167,39.3000;TM;;Ayak
+0;63.9093,38.8373;TM-04;Lebap;Avchi
+0;62.8000,35.9667;TM;;Aul Urazaly
+0;62.3833,37.4667;TM;;Aul Nomer Shestoy
+0;62.3500,37.6167;TM;;Aul Nomer Pyat’desyat Vtoroy
+0;61.5667,37.7500;TM;;Aul Geok-Che
+0;61.7333,37.1667;TM;;Kolodets Attadzhan
+0;61.1754,36.6821;TM-01;Ahal;Ata-Yab
+0;63.9327,38.7007;TM-04;Lebap;Atatlyk
+0;61.0654,36.8289;TM-01;Ahal;Ata
+11466;65.1250,37.9021;TM-04;Lebap;Astanababa
+0;60.2833,37.5500;TM;;Archin
+0;60.3333,37.4667;TM;;Archin
+0;63.6971,39.0259;TM-04;Lebap;Araplar
+0;63.5500,39.1833;TM;;Araki
+0;63.0833,39.2500;TM;;Arab-Khana
+0;64.3167,38.3500;TM;;Annamurat
+0;60.1000,37.7833;TM;;Angat
+0;65.2448,37.8910;TM-04;Lebap;Amyderya
+0;60.3833,37.4333;TM;;Amansha-Kapan
+0;61.9000,37.6333;TM;;Amansha
+0;60.5500,37.6500;TM;;Aman
+0;63.5333,39.2333;TM;;Alyandor
+0;63.8000,38.8667;TM;;Alpan
+1539;62.3850,37.2609;TM;;Alnyş
+2926;62.2656,37.2958;TM;;Akgüzer
+0;61.6500,37.6833;TM;;Alla-Sakal
+0;62.6833,39.6500;TM;;Ak-Tugay
+0;64.9000,38.0833;TM;;Ak-Teri
+0;66.2659,37.3811;TM-04;Lebap;Aktepe
+0;66.4167,37.8833;TM;;Ak-Say
+0;62.9914,39.5298;TM-04;Lebap;Akrabat
+0;61.7096,35.4783;TM-05;Mary;Akrabat
+0;63.0167,39.2833;TM;;Ak-Mechet
+0;60.3000,37.6667;TM;;Ak-Kungur
+0;65.8705,37.5372;TM-04;Lebap;Akkumulam
+0;65.7500,37.6000;TM;;Ak-Kum
+0;63.6000,39.0000;TM;;Akkala
+0;61.2167,36.2833;TM-01;Ahal;Akhtash-Ovliya
+5067;60.4719,36.7559;TM-01;Ahal;Çaçe
+0;60.3167,37.5833;TM;;Ak-Dashayak
+0;66.3333,37.5167;TM;;Ak-Bulak
+0;61.7722,37.7221;TM;;Ak-Bay
+0;65.4000,37.6667;TM;;Agar
+0;64.8424,38.0792;TM-04;Lebap;Azady
+0;61.2242,36.1304;TM-01;Ahal;Shirtepe
+0;65.6890,38.0635;TM-04;Lebap;Hojagürlük
+0;65.5338,38.1641;TM-04;Lebap;Sardaba
+6430;61.0862,37.3182;TM-05;Mary;Oguzhan
+13312;62.9174,35.9553;TM-05;Mary;Tagtabazar
+0;63.8860,37.6465;TM-04;Lebap;Niçge
+0;60.3208,37.8997;TM-01;Ahal;Täzeýel
+0;62.3806,38.3206;TM-05;Mary;Tarkhan
+0;62.9946,38.3145;TM-04;Lebap;Peski
+0;62.9945,39.3175;TM-04;Lebap;Ene-Kuliyevo
+0;66.1994,37.4066;TM-04;Lebap;Shaundi
+0;66.1203,37.4873;TM-04;Lebap;Zarpchi
+0;66.2976,37.3474;TM-04;Lebap;Berdelyk
+0;66.3136,37.4079;TM-04;Lebap;Kolkhozabag
+0;64.7695,37.1605;TM-04;Lebap;Gökje
+0;64.8748,37.2478;TM-04;Lebap;Yaroshevskiy
+0;65.0858,37.3241;TM-04;Lebap;Kurlugun
+0;65.6109,37.5874;TM-04;Lebap;Golovnoye Staroye
+0;65.4584,37.6596;TM-04;Lebap;Dzhingilkhatab
+0;65.4868,37.6431;TM-04;Lebap;Chagaguzar
+0;65.5242,37.6353;TM-04;Lebap;Birleshik
+0;65.5776,37.5894;TM-04;Lebap;Amudar’ya
+0;65.8024,37.5716;TM-04;Lebap;Karakhauz
+0;65.9349,37.7906;TM-04;Lebap;Kazarma
+0;65.5394,37.8145;TM-04;Lebap;Turkmenistan
+0;65.4364,37.7266;TM-04;Lebap;Kyzyl-Daykhan
+0;65.5330,37.7069;TM-04;Lebap;Kazarma
+0;62.4004,35.3418;TM-05;Mary;Mirnyý
+0;62.0181,40.6831;TM-04;Lebap;Sadywar
+0;62.2167,40.4333;TM;;Vayuar
+0;61.4167,41.2667;TM;;Uch-Tepe
+0;62.2138,40.4697;TM;;Turkmenistan
+7291;60.1317,41.8393;TM;;Nyyazow
+0;60.1000,41.8667;TM;;Shik-Kala
+0;61.4150,41.1694;TM;;Sheykharyk
+0;62.2000,40.4500;TM;;Sayat
+0;61.7238,41.1946;TM;;Sadyvar
+0;61.8500,40.2833;TM;;Pakmaksuidzhi
+0;60.3528,41.5362;TM;;Moskva
+0;61.8824,41.0494;TM;;Lebap
+0;62.3172,40.4246;TM-04;Lebap;Kyrançoba
+0;60.1089,41.8271;TM;;Kommunizm
+0;60.0754,41.5762;TM;;Imeni Kuybysheva
+0;60.0333,41.7833;TM;;Imeni Kirova
+0;60.0236,41.8405;TM;;Imeni Chkalova
+0;62.3667,40.3000;TM;;Gugerdzhengli
+0;62.3418,40.2847;TM;;Gorel’de
+21021;61.4036,41.1875;TM-04;Lebap;Gazojak
+0;61.9718,40.7705;TM;;Dzhigerbent
+0;61.4235,41.2034;TM;;Dyuyeboyun
+0;62.4167,40.0333;TM;;Donguz-Tugay
+0;62.3667,40.0833;TM;;Dayakhatyn
+0;61.9789,40.8574;TM;;Dargan-Ata
+13777;62.1586,40.4820;TM-04;Lebap;Birata
+0;61.9178,41.0568;TM;;Danisher
+0;62.0290,40.9669;TM;;Chash-Kala
+0;62.1667,40.4333;TM;;Birinchi-Chandyr
+0;60.0167,41.7333;TM;;Besh-Aryk
+0;59.9969,41.5523;TM;;Batyrkent
+0;61.7000,40.6500;TM;;Arap
+0;62.7738,35.9945;TM-05;Mary;Kolkhoz Imeni Lenina
+0;62.8167,35.9593;TM-05;Mary;Zakhmetkesh
+0;62.9384,35.9439;TM-05;Mary;Uchastok Sovet
+0;62.9635,35.9304;TM-05;Mary;Gulja
+0;62.9971,35.9260;TM-05;Mary;Uchastok Imeni Tel’mana
+0;63.4555,36.0698;TM-05;Mary;Tektek
+0;63.6566,36.1629;TM-05;Mary;Poskrepko
+0;63.7136,36.2680;TM-05;Mary;Lekker
+0;62.3673,35.2338;TM-05;Mary;Medes
+0;62.7148,35.4858;TM-05;Mary;Urochishche Kel’tshor
+0;62.7429,35.5202;TM-05;Mary;Chaynakhash
+0;62.2240,35.6438;TM-05;Mary;Kolodets Tezekuy
+0;62.2281,35.6450;TM-05;Mary;Täzeguýy
+0;62.5929,35.6801;TM-05;Mary;Ahal
+0;62.3333,35.7107;TM-05;Mary;Goýunly
+0;61.6003,35.7005;TM-05;Mary;Rodnik Namakshor
+0;61.4031,35.7079;TM-01;Ahal;Zyul’fagar
+0;62.4006,35.8933;TM-05;Mary;Hopbuk
+0;60.8766,36.9053;TM-01;Ahal;Dumanly
+0;61.4334,36.4744;TM-01;Ahal;Döwletabat
+0;60.3212,36.9790;TM-01;Ahal;Kyariz
+0;60.9986,36.6410;TM-01;Ahal;Issydepe
+0;60.7968,36.6713;TM-01;Ahal;Kël’khauz
+0;61.1876,36.4094;TM-01;Ahal;Annakhan-Ishan
+0;61.1650,36.3824;TM-01;Ahal;Doulyatabad
+0;61.3231,36.4819;TM-01;Ahal;Khorkhorstroy
+0;61.3091,36.5133;TM-01;Ahal;Annagur
+0;56.3575,38.2298;TM-02;Balkan;Serli
+629;56.8331,38.2401;TM-02;Balkan;Gargyly
+941;56.3322,38.4278;TM-02;Balkan;Garakel
+1268;56.3939,38.4316;TM-02;Balkan;Sakgar
+118;56.4362,38.4305;TM-02;Balkan;Arapata
+0;56.5119,38.3835;TM-02;Balkan;Shekhveder
+0;56.7442,38.3866;TM-02;Balkan;Inzhar
+0;56.7418,38.3787;TM-02;Balkan;Döwlethan
+0;56.7005,38.5762;TM-01;Ahal;Kaytpuli
+0;56.6794,38.6794;TM-02;Balkan;Karabugra
+0;56.7770,38.7198;TM-01;Ahal;Kyzylburch
+0;56.4309,38.8173;TM-02;Balkan;Verkhniy Chemelli
+0;59.5151,37.3028;TM-01;Ahal;Shorkyariz
+0;59.5942,37.3281;TM-01;Ahal;Gindere
+0;59.6563,37.3321;TM-01;Ahal;Karatan
+0;59.6338,37.3255;TM-01;Ahal;Khlopzavod
+0;59.8230,37.1626;TM-01;Ahal;Charlyk
+0;59.7906,37.2493;TM-01;Ahal;Arman-Sagad
+0;58.9500,38.0091;TM-01;Ahal;Kasy
+0;58.8685,38.2065;TM-01;Ahal;Çörli
+0;59.0376,37.8335;TM-01;Ahal;Parahat
+0;58.8437,37.8034;TM-01;Ahal;Plodosovkhoz Nomer Odin
+0;58.9085,37.9258;TM-01;Ahal;Gulangurlan
+0;59.3370,37.5972;TM-01;Ahal;Vos’moy Rayon Karakumstroya
+0;59.2232,37.5847;TM-01;Ahal;Sundukli
+0;59.1093,37.6986;TM-01;Ahal;Rybnyy Sovkhoz
+0;58.9077,37.8364;TM-01;Ahal;S.A. Nyýazow Adyndaky
+0;55.8042,38.2156;TM-02;Balkan;Garahan
+0;55.7953,38.6387;TM-02;Balkan;Öýleguşluk
+0;57.8039,38.2561;TM-01;Ahal;Kopetdag
+0;57.7936,38.2464;TM-01;Ahal;Ediagach
+0;58.6053,37.9979;TM-01;Ahal;Öňaldy
+0;58.5493,37.9813;TM-01;Ahal;Kuyuchay
+0;58.6660,37.9673;TM-01;Ahal;Kizilgoz
+0;58.7478,37.9156;TM-01;Ahal;Lesopitomnik
+0;58.5855,37.9328;TM-01;Ahal;Täzedurmus
+0;58.5410,37.8051;TM-01;Ahal;Etimblir
+0;58.5475,37.7518;TM-01;Ahal;Komarovskiy
+0;58.5157,37.8834;TM-01;Ahal;Magtymguly Adyndaky
+0;57.8301,38.2032;TM-01;Ahal;Achkyariz
+0;57.8609,38.1624;TM-01;Ahal;Geokdepe
+0;57.7624,38.2337;TM-01;Ahal;Gievdzhik
+0;57.8781,38.0730;TM-01;Ahal;Put’ Leninizma
+0;57.1361,38.3389;TM-01;Ahal;Ipaykala
+0;53.1190,39.4428;TM;;Azizbekowa
+0;57.1872,38.5219;TM-01;Ahal;Karagyl’
+0;57.1312,38.5908;TM-01;Ahal;Arçman bekedi
+0;57.1782,38.5176;TM-01;Ahal;Archmanata
+0;57.3208,38.3022;TM-01;Ahal;Almaadzhyk
+0;57.5080,38.3163;TM-01;Ahal;Indzhereva
+0;57.4069,38.4851;TM-01;Ahal;Kel’
+0;57.5055,38.3475;TM-01;Ahal;Bakhardenskiy Kar’yer
+0;57.4733,38.3263;TM-01;Ahal;Pantysh
+0;56.0542,38.3246;TM-02;Balkan;Telyarli
+0;54.1453,38.1284;TM-02;Balkan;Yegat
+0;54.0741,37.6803;TM-02;Balkan;Gurruk
+0;58.0209,38.2088;TM-01;Ahal;Tyul’ki
+0;58.0437,38.1751;TM-01;Ahal;Yantakly
+0;58.1543,38.0571;TM-01;Ahal;Posëlok Ashkhabadskoy GRES
+0;57.9522,38.1706;TM-01;Ahal;Soyuz
+0;57.9853,38.1628;TM-01;Ahal;Garagum
+4094;57.9994,38.1239;TM-01;Ahal;Bowga
+0;57.9160,38.0975;TM-01;Ahal;Sekizýap
+2316;57.9785,38.1064;TM-01;Ahal;Bükri
+0;58.6564,38.0976;TM-01;Ahal;Kaplan-Ilerki
+0;58.4533,38.0530;TM-01;Ahal;Tezelly
+0;58.4800,38.0231;TM-01;Ahal;Kissikburun
+0;58.2225,38.1267;TM-01;Ahal;Porsukuyu
+0;58.2024,38.1082;TM-01;Ahal;Talkhanly
+0;58.3449,38.2240;TM-01;Ahal;Artykhoja
+0;58.3488,38.1194;TM-01;Ahal;Orazow Adyndaky
+0;58.2411,38.1906;TM-01;Ahal;Sayou
+0;66.4794,37.9140;TM-04;Lebap;Köýten
+0;58.8213,37.7449;TM-01;Ahal;Leprozoriy
+0;58.5419,37.7331;TM-01;Ahal;Komarovka
+0;58.3423,42.2684;TM-03;Dasoguz;Döwkesen
+0;58.6277,42.1560;TM-03;Dasoguz;Gyzyltam
+0;58.6760,42.1415;TM-03;Dasoguz;Sarygamyş
+0;58.8124,42.2114;TM-03;Dasoguz;Nazarbaýdegiş
+0;58.7437,42.3091;TM-03;Dasoguz;Garawulgala
+0;58.5393,42.3396;TM-03;Dasoguz;Şamahy
+0;58.8945,42.3886;TM-03;Dasoguz;Kirşenoy
+0;58.5457,42.4341;TM-03;Dasoguz;Ýeniş
+0;58.4677,42.4532;TM-03;Dasoguz;Gazakdegiş
+0;58.6638,42.4419;TM-03;Dasoguz;Peşanalydepe
+0;58.5939,42.5042;TM-03;Dasoguz;Bereketli
+0;58.7243,42.4617;TM-03;Dasoguz;Goler
+0;58.8153,42.4592;TM-03;Dasoguz;Alýan
+0;58.6772,42.7150;TM-03;Dasoguz;Aýböwür
+0;58.9306,42.4060;TM-03;Dasoguz;Gumgaçy
+0;59.1601,42.4995;TM-03;Dasoguz;Körgala
+0;59.1462,42.4348;TM-03;Dasoguz;Täzegüýç
+0;59.1127,42.3904;TM-03;Dasoguz;Täzebirleşik
+0;59.1569,42.3130;TM-03;Dasoguz;Akgala
+0;59.0816,42.2287;TM-03;Dasoguz;Derýalyk
+0;59.1514,42.1225;TM-03;Dasoguz;Derekli
+0;59.2153,42.1172;TM-03;Dasoguz;Ketgenli
+0;59.1555,42.1951;TM-03;Dasoguz;Gulaçýap
+0;59.0898,41.9095;TM-03;Dasoguz;Was
+0;59.0139,41.9015;TM-03;Dasoguz;Toprakgala
+0;52.8570,40.7198;TM-02;Balkan;Garşy
+0;52.9765,40.2685;TM-02;Balkan;Nefes
+195;53.3124,40.4204;TM-02;Balkan;Sülmen
+508;53.5345,40.1801;TM-02;Balkan;Hasan
+0;53.0670,40.0069;TM-02;Balkan;Kenar
+6750;53.1268,40.0423;TM-02;Balkan;Akdaş
+0;54.3578,40.2957;TM-02;Balkan;Gürje
+0;54.7069,40.2504;TM-02;Balkan;Ybyk
+0;55.9948,40.7469;TM-02;Balkan;Garaaýman
+0;55.8562,40.4492;TM-02;Balkan;Goýmat
+0;55.5262,40.3504;TM-02;Balkan;Gökdere
+0;55.4437,40.1132;TM-02;Balkan;Garaýylgyn
+0;56.9424,40.3714;TM-02;Balkan;Bada
+0;56.6713,40.0346;TM-02;Balkan;Melegoç
+0;57.9909,40.0937;TM-01;Ahal;Ataguýy
+0;59.2273,40.0203;TM-03;Dasoguz;Damla
+0;59.0457,39.7350;TM-01;Ahal;Gamyşly
+0;58.2625,39.3057;TM-01;Ahal;Goşatakyr
+0;58.1369,39.3285;TM-01;Ahal;Işan
+0;58.1100,39.2933;TM-01;Ahal;Gatydüýp
+0;58.1503,39.4590;TM-01;Ahal;Gorýa
+0;58.2134,39.4453;TM-01;Ahal;Diňli
+0;58.0978,39.5314;TM-01;Ahal;Kömek
+0;58.5509,39.6915;TM-01;Ahal;Uzynajy
+0;58.1038,39.7931;TM-01;Ahal;Bön
+0;58.4297,39.9677;TM-01;Ahal;Garaçulga
+0;58.8287,39.9881;TM-01;Ahal;Kükürtli
+0;57.5065,39.6484;TM-01;Ahal;Atabeg
+0;57.9420,39.1114;TM-01;Ahal;Oýukly
+0;56.0784,39.9046;TM-02;Balkan;Jemal
+0;56.1917,39.8624;TM-02;Balkan;Ýylgynly
+0;56.4604,39.2815;TM-02;Balkan;Garabogaz
+0;55.9053,39.8982;TM-02;Balkan;Burgun
+0;55.2545,39.7302;TM-02;Balkan;Kiçijikýazy
+0;55.3121,39.1517;TM-02;Balkan;Oboý
+0;55.8151,39.4062;TM-02;Balkan;Türkmenistan
+858;55.9288,39.0769;TM-02;Balkan;Isgender
+0;56.6482,39.0539;TM-02;Balkan;Mämili
+0;56.1903,39.3673;TM-02;Balkan;Ok
+730;54.1493,39.3385;TM-02;Balkan;Uzboý
+0;58.6616,38.4193;TM-01;Ahal;Göbekli
+0;58.7540,38.4722;TM-01;Ahal;Oýukly
+0;58.2494,38.4115;TM-01;Ahal;Dördajy
+0;58.2540,38.5715;TM-01;Ahal;Haýyar
+0;58.4483,38.6747;TM-01;Ahal;Sowma
+0;58.0993,38.7073;TM-01;Ahal;Çyrla
+0;58.8076,38.8291;TM-01;Ahal;Diňli
+0;58.9362,38.7361;TM-01;Ahal;Garryçyrla
+0;59.1524,38.9613;TM-01;Ahal;Çurçury
+0;59.3385,38.8640;TM-01;Ahal;Gyzyljagala
+0;59.0661,38.6347;TM-01;Ahal;Gazykly
+0;59.4059,42.2764;TM-03;Dasoguz;Maslahat
+0;59.2689,42.1335;TM-03;Dasoguz;Magtymoý
+0;59.5865,42.2775;TM-03;Dasoguz;Guýanagyz
+0;59.3498,42.3126;TM-03;Dasoguz;Uşakýap
+0;59.6566,42.2477;TM-03;Dasoguz;Göbeklioy
+0;59.7945,42.1204;TM-03;Dasoguz;Malaýýap
+0;59.7942,42.1930;TM-03;Dasoguz;Agaltyn
+0;59.9119,42.0410;TM-03;Dasoguz;Ýelharaz
+0;59.7488,42.0513;TM-03;Dasoguz;Täzegoňrat
+0;59.2785,41.9988;TM-03;Dasoguz;Ýekesöwüs
+0;59.4819,41.9716;TM-03;Dasoguz;Akgaş
+0;59.5207,41.9659;TM-03;Dasoguz;Garaja
+0;59.6353,41.9825;TM-03;Dasoguz;Alili
+0;59.7444,41.9390;TM-03;Dasoguz;Gyzyl
+0;59.8733,41.9859;TM-03;Dasoguz;Wahym
+0;59.9790,41.8553;TM-03;Dasoguz;Abdalýap
+0;59.7724,41.8944;TM-03;Dasoguz;Täzeýol
+0;59.6350,41.8623;TM-03;Dasoguz;Magtym
+0;59.6926,41.7087;TM-03;Dasoguz;Maýabatan
+0;59.8485,41.7055;TM-03;Dasoguz;Ýagtylyk
+0;59.9473,41.6955;TM-03;Dasoguz;Aköý
+0;59.8530,41.6545;TM-03;Dasoguz;Çaňlyýap
+0;59.8969,41.6093;TM-03;Dasoguz;Kirpiçli
+0;59.9250,41.5709;TM-03;Dasoguz;Almaatyşan
+0;60.0140,41.5884;TM-03;Dasoguz;Işmaltapan
+0;61.0545,40.0528;TM-04;Lebap;Kerpiçli
+0;59.6854,39.7567;TM-01;Ahal;Böwrideşik
+0;59.9537,39.5790;TM-01;Ahal;Akmolla
+0;61.3569,39.8644;TM-04;Lebap;Gagarin
+0;62.4943,39.8904;TM-04;Lebap;Üçkersen
+0;62.9383,39.3631;TM-04;Lebap;Kulyýewa Adyndaky
+0;63.1994,39.2380;TM-04;Lebap;Parahat
+0;63.5085,39.1031;TM-04;Lebap;Markuş
+0;63.5227,39.0242;TM-04;Lebap;Alagöz
+0;63.5991,39.2031;TM-04;Lebap;Çarmerde
+0;63.6252,39.1474;TM-04;Lebap;Jendi
+0;63.6442,39.0461;TM-04;Lebap;Gularyk
+0;59.5043,38.1282;TM-01;Ahal;Bükriolen
+0;60.3046,38.0714;TM-01;Ahal;Getin
+4278;63.9166,38.7964;TM-04;Lebap;Gyzylgaýa
+0;63.9054,38.7234;TM-04;Lebap;Saýatly
+0;63.9105,38.7455;TM-04;Lebap;Çowdur
+0;63.9612,38.6756;TM-04;Lebap;Täzeoba
+0;63.9940,38.6523;TM-04;Lebap;Soltanýazgala
+0;64.0039,38.5419;TM-04;Lebap;Kekreli
+0;64.1286,38.4850;TM-04;Lebap;Haryn
+0;64.1313,38.4685;TM-04;Lebap;Ägem
+0;64.1646,38.4710;TM-04;Lebap;Täzedurmuş
+0;64.2903,38.5064;TM-04;Lebap;Gultak
+0;64.4011,38.4296;TM-04;Lebap;Çekiç
+0;64.6603,38.1444;TM-04;Lebap;Güýçbirleşik
+0;64.5039,38.2176;TM-04;Lebap;Maňgyşlaly
+0;64.5319,38.2934;TM-04;Lebap;Dänajy
+0;64.7920,38.1144;TM-04;Lebap;Magtymguly
+0;65.2313,38.3875;TM-04;Lebap;Tölekguýy
+0;65.7166,38.0177;TM-04;Lebap;Körkak
+0;66.3091,38.0282;TM-04;Lebap;Leýlimekan
+0;66.5335,37.9374;TM-04;Lebap;Gyzylaý
+0;66.0058,37.8771;TM-04;Lebap;Garrygala
+0;66.1339,37.7386;TM-04;Lebap;Hojaşulluk
+0;66.3576,37.6089;TM-04;Lebap;Hojak
+0;62.4832,36.9470;TM-05;Mary;Gyzylýyldyz
+0;62.4983,36.9348;TM-05;Mary;Ganlybaş
+2474;62.4773,36.8476;TM-05;Mary;Garaköl
+0;62.4887,36.7647;TM-05;Mary;Çemenlik
+0;62.4927,36.6283;TM-05;Mary;Ýaşlyk
+0;62.5128,36.5943;TM-05;Mary;Miweli
+0;62.8375,36.5612;TM-05;Mary;Ajyguýy
+0;62.7201,36.0249;TM-05;Mary;Erden
+0;61.3598,35.9919;TM-05;Mary;Käriz
+0;61.3698,35.9250;TM-05;Mary;Jumajyk
+0;61.5362,35.9852;TM-05;Mary;Täzeguýy
+0;61.5246,35.8686;TM-05;Mary;Howdan
+0;62.1585,35.9003;TM-05;Mary;Orazbaba
+0;64.5657,38.1841;TM-04;Lebap;Pelwert
+0;64.3204,38.3751;TM-04;Lebap;Yslam
+0;64.0062,38.5655;TM-04;Lebap;Çakmak
+0;63.8123,38.8619;TM-04;Lebap;Gyzan
+0;63.7460,38.8876;TM-04;Lebap;Goşdepe
+0;62.0840,38.0643;TM-05;Mary;Takyrbaý
+0;61.9997,38.4131;TM-05;Mary;Şerepli
+0;59.8093,38.4211;TM-01;Ahal;Garajaowlak
+0;59.4355,38.7689;TM-01;Ahal;Kümeli
+0;63.2377,39.1843;TM-04;Lebap;Ödeý
+0;63.3217,39.2222;TM-04;Lebap;Nyýazow
+0;63.1527,39.2696;TM-04;Lebap;Dostluk
+0;63.0254,39.3044;TM-04;Lebap;Göýnük
+0;62.3417,39.0044;TM-04;Lebap;Börikalp
+0;62.3750,40.0780;TM-04;Lebap;Halkabad
+0;62.2354,40.4415;TM-04;Lebap;Sakararyk
+0;62.2138,40.4665;TM-04;Lebap;Hojalyk
+0;61.9792,40.8569;TM-04;Lebap;Çarwadar
+0;59.7854,41.7302;TM-04;Lebap;Boýunbaş
+567;58.0678,38.0697;TM-01;Ahal;Arkadag
+0;55.8808,39.1788;TM-02;Balkan;Galkynyş
+211;53.0799,40.0704;TM-02;Balkan;Garaşsyzlyk
+0;53.1453,39.3984;TM-02;Balkan;Laçyn
+0;55.0100,39.4055;TM-02;Balkan;Arkaç
+0;59.4572,37.4510;TM-01;Ahal;Gowşut Bekedi
+0;59.5076,37.4374;TM-01;Ahal;Bagtly zamana
+0;56.1967,39.2475;TM-02;Balkan;Rowaç
+0;58.2430,38.0961;TM-01;Ahal;Nurly zaman
+114;53.5074,40.0221;TM-02;Balkan;Garateňir
+104;53.6645,40.0172;TM-02;Balkan;129-njy Duralga
+93;54.0224,39.8839;TM-02;Balkan;126-njy Duralga
+0;56.1329,39.0301;TM-02;Balkan;Janahyr bekedi
+0;58.3748,38.0818;TM-01;Ahal;Gülzada
+0;58.0389,38.0459;TM-01;Ahal;Aba Annaýew
+1429;58.7103,37.7988;TM-01;Ahal;Bereketli zaman
+0;58.7511,37.8294;TM-01;Ahal;Gäwers bekedi
+13660;60.7043,37.2816;TM-01;Ahal;Altyn asyr
+9603;58.7193,42.2817;TM-03;Dasoguz;Aşyr Kakabaýew
+5196;58.0470,38.1725;TM-01;Ahal;Täze eýýam
+0;57.9930,38.1394;TM-01;Ahal;Köpetdagyň ýalkymy
+0;59.7116,41.8810;TM-03;Dasoguz;Andalyp (village)
+0;59.9299,41.9408;TM-03;Dasoguz;Sadylla Rozmetow
+0;59.7383,41.9254;TM-03;Dasoguz;Rejepguly Ataýew
+0;59.3916,41.9972;TM-03;Dasoguz;Orazgeldi Ärsaryýew
+0;59.4294,41.9943;TM-03;Dasoguz;Garaboýnak
+0;59.4759,42.0865;TM-03;Dasoguz;Bereketli
+0;64.0321,37.7511;TM-04;Lebap;Topurkak
+0;55.7097,39.2122;TM-02;Balkan;Uzynsuw bekedi
+0;61.3169,37.3382;TM-05;Mary;Döwletli zaman
+0;64.3614,38.2957;TM-04;Lebap;Berkarar zaman
+0;64.3824,38.2953;TM-04;Lebap;Gökdepe
+9804;60.4353,37.4121;TM-01;Ahal;Bagtyýarlyk
+2494;61.0379,37.5115;TM-05;Mary;Parahat
+419;58.9008,37.7687;TM-01;Ahal;Ýaşlyk bekedi
+1336;62.2548,37.3114;TM-05;Mary;Lälezar
+1825;63.4934,39.0916;TM-04;Lebap;Çärjew
+7569;59.8554,42.0170;TM-03;Dasoguz;Gökçäge
+4942;65.5684,38.0110;TM-04;Lebap;Döwletli
+6767;62.0225,37.5150;TM-05;Mary;Gökdepe
+2311;64.7451,38.1103;TM-04;Lebap;Zynhary
+902;56.3592,38.4288;TM-02;Balkan;Ýankel
+0;56.2259,38.1636;TM-02;Balkan;Galmyk
+0;56.2163,38.1614;TM-02;Balkan;Şyh
+0;56.2592,38.1536;TM-02;Balkan;Aralgülýaly

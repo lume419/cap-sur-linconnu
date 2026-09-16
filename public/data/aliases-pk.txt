@@ -1,0 +1,6966 @@
+en;Saro Kili;Saro Kalle
+en;Dheri Shāh Bāra;Shahbra
+en;Gangu;Garhi Ibrahim Khan
+en;Jāu;Jao
+en;Daryāb Kalle;Daryab Kalle
+ps;غوري واله;Ghoriwala
+ar;غوريوالا;Ghoriwala
+fa;غوری‌والا;Ghoriwala
+ur;غوریوالہ;Ghoriwala
+ml;ഘോരിവാല;Ghoriwala
+fa;ادا پانگا;Ada Punga
+fa;عبدالرحمن خل;Abdur Rahman Khel
+ne;अज्मियम;Ajim Khan
+fa;عجیم خان;Ajim Khan
+fa;اقزیکاس;Aghzaikas
+ur;اقزیکاس;Aghzaikas
+ps;دته خېل;Datta Khel
+ar;هذا يكفي;Datta Khel
+en;Adam Kili;Adam Kalle
+fa;ادم کیلی;Adam Kalle
+nl;Adam Kili;Adam Kalle
+ur;سپینکائی;Spinkai
+ps;سپینکۍ;Spinkai
+ps;څمکنۍ;Cham Kani
+en;Ghāntol Kili;Jamra
+en;Ghata Jhamra;Jamra
+en;Shāmlāt;Shamilat
+en;Moghal Kili;Azimabad
+en;Sardār Kili;Sardar Kalle
+en;Hissāra Kandah;Serai
+en;Sarai;Serai
+en;Chācha Kili;Fateh Muhammad Koruna
+en;Patwāri Kili;Patwari Kalle
+en;Dhara Korūna;Dhara
+en;Aslam Khān Kili;Muhammad Gul Karuna
+en;Kalarai;Taitara
+en;Tatāra;Taitara
+en;Sarfarāz Kili;Sarki
+en;Abdul Quddus Khān Kili;Daud Kalle
+en;Kulādan Kili;Kala Dhand Kalle
+en;Hāfīz Kili;Bacha Kalle
+en;Qudrat Kili;Qudrat Kalle
+en;Azīm Dhand;Dhand
+en;Kheshgi Pāyān;Khweshgi Bala
+en;Kheshgi Bāla;Khweshgi Bala
+en;Khushhāl Kot;Khushal Kot
+en;Baru;Baro
+en;Mablola Pāyān;Mablola Payan
+en;Bar Chīkho;Bara Chikho
+en;Kūz Nagri;Kuz Nagr
+en;Mocho;Macho
+en;Khairai;Khairo Kalle
+en;Bar Sarāi;Bar Sarai
+en;Utetai;Utalai
+en;Barro;Barro Kalle
+en;Bar Charāi Bānda;Bar Charai Banda
+en;Khushalai Kili;Khushal Majal Kalle
+en;Sīah;Siah
+en;Dugal Bānda;Dugal Banaa
+en;Mānugai Kili;Manugai Kalle
+en;Tora Tabai;Tora Tabbai
+en;Jangai;Zangal
+en;Degān Bānda;Degan Banda
+en;Chīnārūna;Chinaruno
+en;Gīdar Kili;Gidar Kalle
+en;Masho Kili;Masho Kalle
+en;Mānki Kili;Manki Kalle
+en;Marchai Kabar;Sharbatai
+en;Darbār;Darbar
+en;Mian Barangola;Mian Barongola
+en;Nangrām;Nagram
+en;Kuz Barangola;Khadagzai
+en;Sugiār;Sugiar
+en;Sāmeh Bānda;Shamsa Banda
+en;Sharabdara Banda;Sharahdata Banda
+en;Mānriāno Banda;Manriano Banda
+en;Nawa Kalai;Nawe Kaile
+en;Lāli Bānda;Lali Banda
+en;Jānāpur;Janapur
+en;Pīranpatto;Piranpatto
+en;Pīranpatto;Piran Kalle
+en;Jalālkot;Jalalkot
+en;Nalo Banda;Nelo Banda
+en;Desa;Dosa
+en;Tambal Shāh;Tambal Shah
+en;Rangmāla Bānda;Rangmala Banda
+en;Geropattai;Khropatta
+en;Kuliār Bānda;Kuliar Banda
+en;Bāgh Bānda;Bagah Banda
+en;Miān Kili;Mian Kalle
+en;Charqorai;Chamarai
+en;Jailar;Nasirabad
+en;Mātor;Matai
+en;Binaun;Binawar
+en;Khasāwūnai;Sakhawunai
+en;Maidān Bāndai;Maidan Banda
+en;Manshai Kandar;Mashin Kurona
+en;Nambātai;Nambatai
+en;Katso;Kasu
+en;Ghwargai;Gwagai
+en;Gīdarshai;Gidarsha
+en;Dāru;Daru
+en;Makhranai;Markhnai
+en;Burkhānai;Burhane
+en;Bilmāzkot;Namazkot
+en;Chingai;Asman Banda
+en;Kuram;Khuram
+en;Sarkai;Sark
+en;Kārghāh;Kargah
+en;Tāngu Derai;Tangu Dherai
+en;Shāhgai;Shahgai
+en;Mullāno Chamgai;Kulalano Shah
+en;Tsapparai;Sappare
+en;Nasāpai;Nasapai
+en;Kwāro Derai;Kwaro Dherai
+en;Shalkanai;Kuz Shalkumbnai
+en;Kūz Lālu;Kuza Lalu
+en;Tāl;Kamar Tal
+en;Khona;Khon
+en;Malkāna;Malkanan
+en;Tārān;Dada Nawe Kalle
+en;Khararai;Khairarai
+en;Dwao;Doab
+en;Tsapparai;Sapparai
+en;Dūdkhāna;Dudkhan
+en;Bār Dārmāl;Bar Darmal
+en;Naraitangai;Kuz Darmal
+en;Kot Musajān;Kot Musajan
+en;Shadās;Shandas
+en;Bar Kili;Bar Kalle
+en;Lās Khān;Las Khan
+en;Murānrai;Murani
+en;Zaro Derai;Zaro Dherai
+en;Derakai;Dherakai
+en;Kuz Dārmāl;Kuz Darmal
+en;Derai;Dherai
+en;Kodagai;Kotkai
+en;Alo Bagarai;Abo Bograi
+en;Shahīdāno Kats;Shahidano Kas
+en;Tor Bāba;Bairai Baba
+en;Bahrūn;Barun
+en;Piāda Bahrūn;Pind Barun
+en;Bargholai Fort;Barghole
+en;Manjāi;Manjai
+en;Ashārīgat;Ashari Gat
+en;Manzaraitangai;Manzar Tangai
+en;Shāhgaikoto;Shahi Koto
+en;Nawāgai;Nawagai
+en;Rānrai;Rani
+en;Damān;Daman
+en;Kūz Malakand;Kuz Malaka
+en;Gadala;Gadal
+en;Gulāri;Gul Hari
+en;Ziārat Shāh;Ziarat Shah
+en;Porai Qalāgai;Pore Kalle
+en;Gurgia;Gir Gat
+en;Anderai;Andera
+en;Manrogal;Manrogai
+en;Ghalamdarra;Ghulam Darra
+en;Yūsuf Mānrai;Yusuf Minarai
+en;Kulamdarra;Kulam Darra
+en;Jogatangai;Joga Tangia
+en;Bukiāna;Bakiana
+en;Gīdar;Gidaro
+en;Khawarian;Khwar
+en;Chinārtangai;Chinar Tangai
+en;Mānrībanr;Manibanr
+en;Dogai;Shaikano Dogai
+en;Tīmurgara;Timargara
+en;Isārak;Asarak
+en;Danda;Dhainda
+en;Banr Tsapparai;Banr Sapparai
+en;Rashkhālai;Raskhane
+en;Danda Bānda;Dhand Banda
+en;Khat Cham;Mian Cham
+en;Islām Derai;Islam Darra
+en;Gudiakhwar;Gudinkhwar
+en;Khunāko Bānda;Khunako Banda
+en;Bājoro Bānda;Bajauro Banda
+en;Yār Khān Bānda;Yar Khan Banda
+en;Ambārzai;Ambarzai
+en;Beghamdarra;Begham Darra
+en;Paito;Paito Darra
+en;Mānraitangai;Mainari Tangi
+en;Markhanrai;Markhani
+en;Shagi Bānda;Shago Banda
+en;Tangi Bānda;Tangi Banda
+en;Bānda Kili;Banda Kalle
+en;Gumbatai;Gumbatkai
+en;Shigo Kach;Shigo Kas
+en;Bar Nangrai;Nagrai Bala
+en;Chino Mulla;Chino
+en;Bangai;Bandgai
+en;Soi Galai;Soghalai
+en;Pishto;Pashto
+en;Shaikh Bāba;Sheikh Baba
+en;Shago Miān;Shahgo Mian
+en;Pajja;Paja
+en;Māmanzai;Maminzu Kalle
+en;Kalācha;Kalachi Kas
+en;Dabdabu;Dabdabo
+en;Khata Kot;Khattakot
+en;Ālu Dheri;Alu Dheri
+en;Daparo;Dawaro
+en;Lāt;Lat
+en;Sāri Begam;Sar Bayaim
+en;Rāg Kili;Rag Kalle
+en;Khairak Bānda;Khaijurai Banda
+en;Kota Shāh;Katai Shal
+en;Zara Bāgh;Zarra Bagh
+en;Kur;Kura
+en;Jawar Oba;Jawal Oba
+en;Brahampur;Braham Pur
+en;Chingai;Chinagai
+en;Drazinda;Darazindah
+en;Kohi Kās;Kuhi Kas
+en;Kotwalai;Civil Colony
+en;Alījān Kili;Ali Jan Kalle
+en;Lālam Shāh;Lalam Shah
+en;Mānūgai;Manogai
+en;Sra Mena;Sara Mena
+en;Kuhi Sar;Barang Kuhi Sar
+en;Ghaniādo;Ghaniadai
+en;Ganderi;Gandarai
+en;Kand Walai;Kand Wala
+en;Pāndo;Pando Shah
+en;Khona Kili;Bagh
+en;Tseri Sar Bānda;Seri Sar Banda
+en;Robia;Kablao Sar
+en;Bar Tsapparai;Bar Spparai
+en;Pumbai;Robia
+en;Managai;Kuz Managai
+en;Gadamār;Gadamar
+en;Targhāo;Kuz Targhao
+en;Warsak;Kuhi
+en;Manro;Mandogai
+en;Dheri;Dherai
+en;Bāto Mena;Batto Mena
+en;Jowar;Jur
+en;Uri Mena;Urai Banda
+en;Tangi Bānda;Tangai Banda
+en;Miāngāno;Loe Mena
+en;Go;Kamal Darra
+en;Gurgura;Gurgurai
+en;Barora Sar;Barro Sar
+en;Inzargai Kandao;Inzargai
+en;Kam Āgra;Kama Agra
+en;Kotha;Kota
+en;Nānai Bānda;Narai Banda
+en;Manzari Gatta;Porchamyarai
+en;Warai;Tangorai
+en;Sara Mena;Sar Mena
+en;Khajūra Bānda;Khajura Banda
+en;Tsapprai;Sapparai
+en;Gul Palāi;Sheikhan
+en;Ghundai;Gundai
+en;Hangu;Hungo
+en;Inzarai Shāh;Inzarai
+en;Jalāle Sar;Jalalai Sar
+en;Saz Khān Bānda;Sarafil
+en;Kandūrai;Bilandai
+en;Khajūri Bānda;Khajuri Banda
+en;Nūr Ahmad Dheri;Nur Ahmad Dherai
+en;Jāl Dheri;Jal Dherai
+en;Barchanai;Bar Chanai
+en;Bartotai;Bar Taotai
+en;Haspur;Kuz Aspur
+en;Jhāndai;Jhandao
+en;Narinji Bānda;Narinji Banda
+en;Jowar;Jor
+en;Kurat Kanrai Sar;Kuthkanrai Sar
+en;Prāng Darra;Kuz Prang Darra
+en;Prāng Darra Bānda;Bar Prang Darra
+en;Murda Dand;Munda Dhand
+en;Zawāna Mena;Zawani Mena
+en;Matīn;Matin
+en;Musri Mena;Musrai Mena
+en;Kurat Kanrai;Kuthkanra
+en;Arawalai;Arwalai
+en;Badāma;Badama
+en;Āsmān Bānda;Asman Banda
+en;Zain Bānda;Mazin Banda
+en;Tangai;Tange Bala
+en;Drangāl;Darangal
+en;Chadgrām;Chakdaram
+en;Lājbang;Laj Bang
+en;Pratai;Prata
+en;Pandarai;Pandare
+en;Dal;Dhal
+en;Kārinūna;Karinuna
+en;Kāgakas;Kakas
+en;Torānr;Toran
+en;Dalbāi;Darbar
+en;Derai;Dherako
+en;Tserai;Serai
+en;Sra Derai;Sra Dherai
+en;Wadi Bānda;Wudi Banda
+en;Bāzārzai;Bazarze
+en;Muhabbat Kotai;Mahabbat Kota
+en;Kāshodai;Qashodal
+en;Tsappar Mullāyar;Sappare Mullayar
+en;Nawe Kotai;Rahimabad
+en;Ajaba;Ajabe
+en;Suranri;Surani
+en;Agheraiai;Agherale
+en;Nakai;Naqai
+en;Totai Bānda;Totai Banda
+en;Sangar;Shanggir
+en;Rāmgul;Rangul
+en;Tsukai;Sukai
+en;Batwār;Batwar Salarzai
+en;Tīndatok;Tandoka
+en;Ranraidalai;Raindale
+en;Sara Shāh;Sra Shah
+en;Ganderai;Gandere
+en;Bādīn;Badin
+en;Kamāngar;Kamangaro
+en;Satbar;Sadbar Kalle
+en;Skea Dand;Skha Dand
+en;Gūjar;Gujar Kalle
+en;Chāqūī Derai;Chakai Dherai
+en;Waleobo;Waleoba
+en;Kaskota Kili;Kaskoto Kalle
+en;Juni Kili;Juni Kalle
+en;Mullāh Kili;Mullah Kalle
+en;Markhanrai;Markhanai
+en;Kotkai;Kotke
+fa;اداد باندا;Adad Banda
+en;Arkhai;Arkanai
+en;Arkanai;Arkan
+en;Mullāh Bānda;Mullah Banda
+en;Rāsha Derai;Rasha Dherai
+en;Gulotangi;Gulo Tange
+en;Khāista Derai;Khiasta
+en;Ghākbai;Ghalbai
+en;Bārikāo;Barikao
+en;Husainai;Hussaine
+en;Shīnjai;Shinj
+en;Narāza;Naraza
+en;Dāmān;Damano
+en;Dandukai;Dandkol
+en;Dandkoi;Dandukai
+en;Sangu Dheri;Sangu Dherai
+en;Mātor;Mator
+en;Bāzārak;Bazarak
+en;Jannattangai;Jannat Tange
+en;Bemārai;Bemarai
+en;Anangurai;Angurai
+en;Rasha Dheri;Rasha Dherai
+en;Manu Kili;Manu Kalle
+en;Shāgai;Shagai
+en;Bānda;Banda
+en;Ghanamshāh;Ghanam Shah
+en;Dāg;Bahadar Khan Kalle
+en;Mānrogai;Manrugai
+en;Chingas Bānda;Shingas Banda
+en;Raghagān;Raghgan
+en;Charag;Chargo
+en;Barāni Kamdar;Barani Kandar
+en;Buda Kunj;Budai Kunj
+en;Kochawra;Kochaw
+en;Qāzi Dheri;Qazi Dherai
+en;Maslat Dheri;Masal Dherai
+en;Jabārai;Jabarai
+en;Gawe;Gao
+en;Māno Dheri;Mano Dherai
+en;Aiti;Hayatai
+en;Hāji Lawang;Haji Lawang
+en;Shahr Panāh;Shar Panah
+fa;سور آب;Sorap
+fa;ریگ ملک;Rig Malek
+ur;راولا کوٹ;Rawalakot
+ru;Равалакот;Rawalakot
+hi;रावलाकोट;Rawalakot
+zh;拉沃拉果德;Rawalakot
+ru;Хайрпура;Khairpur Mir’s
+en;Khairpur;Khairpur Mir’s
+en;Ziārat Scout Post;Ziarat
+en;Zhertangai;Zherh Tangai
+en;Zer Pīr;Goth Zer Pir
+en;Zaur;Basti Zor
+en;Zarbāb Garhi;Zaryab Garhi
+en;Zara Mīāna;Zara Miana
+ur;Zanī;Zaini
+ur;زَنِی;Zaini
+en;Zakhna;Zokhnai Kalai
+en;Zāidwāli;Zahidwala
+ceb;Zafarwāl;Zafarwal
+pa;ਜ਼ਫਰਵਾਲ;Zafarwal
+fa;ظفروال;Zafarwal
+ur;ظفروال;Zafarwal
+nl;Zafarwāl;Zafarwal
+fa;زافرکی;Zafarke
+ur;زافرکے;Zafarke
+en;Yousuf Kach;Yusuf Kach
+sd;يزمان;Yazman
+fa;یزمان، پاکستان;Yazman
+ur;یزمان;Yazman
+ur;یَاسِن;Yasin
+en;Yār Husain;Yar Hussain
+fa;یارحسین، پاکستان;Yar Hussain
+ur;یار حسین;Yar Hussain
+en;Kili Yāqūba;Kili Yaquba
+hi;वज़ीराबाद;Wazirabad
+ceb;Wazīrābād;Wazirabad
+ru;Вазирабад;Wazirabad
+ps;وزيراباد;Wazirabad
+sd;وزير آباد;Wazirabad
+zh-Hans;沃济拉巴德;Wazirabad
+ur;وزیر آباد;Wazirabad
+ko;와지라바드;Wazirabad
+ta;வசிராபாத்;Wazirabad
+zh;沃濟拉巴德;Wazirabad
+pa;ਵਜ਼ੀਰਾਬਾਦ;Wazirabad
+ar;وزير أباد;Wazirabad
+ja;ワズィーラーバード;Wazirabad
+fa;وزیرآباد، پاکستان;Wazirabad
+en;Wattar;Wattrai
+ur;Wāsam;Wasm
+ur;وَاسَم;Wasm
+ur;Wirkop;Warkup
+ur;وِرْکوپ;Warkup
+en;Hor Jarobah;Wor Jarhobah
+en;Wardga;Wardaga
+ru;Уорбертон;Chak Five Hundred Seventy-five
+en;Wānki Wassi;Wandki Wassi
+en;Wairar Abrīnd;Wairnah Di Basti
+en;Vairar Abrind;Wairnah Di Basti
+en;Wāhi Gosāīn;Basti Wai Gosdan
+en;Wadpāgai;Wadpagga
+en;Wachera Lishāri;Goth Muhammad Urs Lashari
+en;Vehari;Vihari
+ru;Вихари;Vihari
+en;Veero;Vairo
+ur;Uzhhno;Uzhnu
+ur;اُزْھْنو;Uzhnu
+en;Othwal;Uthwal
+en;Usmān Rid;Usman Rid
+en;Usmāni Khel Garhi;Garhi Usman Khel
+ur;امرڪوٽ;Umarkot
+ru;Умаркот;Umarkot
+en;Uchwāla;Uch Wala
+sd;اٻاوڙو;Ubauro
+zh-Hant;烏巴羅;Ubauro
+ru;Убауро;Ubauro
+fa;یوباورو;Ubauro
+ur;اباؤرو;Ubauro
+zh;乌巴罗;Ubauro
+en;Turlāndi;Torlandi
+en;Tarkwal;Turkwal
+ur;تُربت;Turbat
+ps;تربت;Turbat
+ur;تربت;Turbat
+ru;Турбат;Turbat
+zh;土爾巴特;Turbat
+en;Tulandi;Turlandai
+ur;Totīrāz Noko;Totiraz Noku
+ur;توتیرَاز نوکو;Totiraz Noku
+en;Totāli;Totalai
+en;Tor Dheri;Tor Dher
+ru;Тордхер;Tordher
+fa;توردهر;Tordher
+ur;توردھر;Tordher
+ru;Топи;Topi
+fa;تلتر;Toltar
+ru;Тоба-Тек-Сингх;Toba Tek Singh
+en;Titāhra;Tetara
+en;Tirkha Kili;Tarkha Kili
+en;Tīrāhi Pāyān;Tarai Payan
+en;Tīrāhi Bāla;Tairai Bala
+en;Tarai Bāla;Tairai Bala
+en;Timmarpura;Taimar Pura
+en;Tigri;Thaigre
+en;Tibbi Nizān;Tibbi Nizam
+ur;ٹھوٹھہ رائے بہادر;Thuta Rai Bahadar
+sd;ٺل;Thul
+ru;Тхул;Thul
+fa;تهول;Thul
+en;Thilla;Thilla Khurd
+en;Thalla Khurd;Thilla Khurd
+en;Thalla Kalan;Thilla Kalan
+en;Thatti Hamza;Thathi Hamza
+en;Thatta Jhamb;Thatta Jhanab
+fa;تهته جهامب;Thatta Jhanab
+ur;ٹھٹحہ جھانب;Thatta Jhanab
+nl;Thatta Jhamb;Thatta Jhanab
+hi;ठट्टा;Thatta
+ja;タッター;Thatta
+ur;ٹھٹہ;Thatta
+ru;Татта;Thatta
+bn;থাট্টা;Thatta
+sd;ٺٽو;Thatta
+zh;特達市;Thatta
+en;Thinil;Thanil Kamal
+ja;サーコット;Thakot
+ur;تھاکوٹ;Thakot
+zh;塔科特;Thakot
+ur;Terū;Teru
+ur;تیرُو;Teru
+ru;Таунса;Taunsa
+en;Tauda;Thoda
+en;Tarund;Trind
+en;Tarind;Trind
+ur;ترناب;Tarnab
+en;Tār;Tor
+en;Tangi;Tanga
+en;Tangai;Tangai Loe Kalle
+en;Loe Kili;Tangai Loe Kalle
+ru;Тандо-Мухаммад-Хан;Tando Muhammad Khan
+sd;ٽنڊو ڄام;Tando Jam
+ceb;Tando Jām;Tando Jam
+ru;Тандо-Джам;Tando Jam
+fa;تندو جام;Tando Jam
+ur;ٹنڈو جام;Tando Jam
+ceb;Tando Bāgo;Tando Bago
+sd;ٽنڊو باگو;Tando Bago
+ur;ٹنڈو باگو;Tando Bago
+ru;Тандо Баго;Tando Bago
+ru;Тандо-Аллахъяр;Tando Allahyar
+ru;Тандо-Адам;Tando Adam
+ceb;Tāndliānwāla;Tandlianwala
+sd;تاندليانوالا;Tandlianwala
+ug;تاندلیانوالہ;Tandlianwala
+fa;تاندلیانواله;Tandlianwala
+ur;تاندلیانوالہ;Tandlianwala
+hi;तलवंडी;Talwandi
+pa;ਤਲਵੰਡੀ;Talwandi
+fa;تلوندی، پنجاب;Talwandi
+ur;تلونڈى;Talwandi
+ru;Талхар;Talhar
+ru;Таль;Thal
+en;Takht-i-Bhāi;Takht Bai
+en;Takhtābād Awwal;Takhtabad
+en;Surkh Dheri;Baghicha Dherai
+en;Sūr Khatki;Deru Kalle
+ru;Суккур;Sukkur
+sd;سکر;Sukkur
+fa;سکر، پاکستان;Sukkur
+ja;サッカル;Sukkur
+ur;سکھر;Sukkur
+ko;수쿠르;Sukkur
+zh;蘇庫爾;Sukkur
+hi;सख्खर;Sukkur
+en;Sukhpur;Goth Sikhpur
+en;Sudher;Sodher
+en;Spuna;Spina
+ur;Sorlāspūr;Sor Laspur
+ur;سورلَاسْپُور;Sor Laspur
+en;Sorai Malandrai;Suri Malandr
+en;Sokhta;Sukhta
+en;Sohjhalwali;Sojhalwali
+sd;صحبتپور;Sohbatpur
+ur;صحبت پور;Sohbatpur
+en;Chak One Hundred Seventy-two;Chak One Hundred Seventy-five
+ceb;Sodhra;Sodhri
+en;Sodhra;Sodhri
+fa;سودهرا;Sodhri
+ur;سوہدرہ;Sodhri
+nl;Sodhra;Sodhri
+en;Sobhā Rind;Rind
+ur;سکردو;Skardu
+fa;سکردو;Skardu
+hi;स्कर्दू;Skardu
+ru;Скарду;Skardu
+zh;斯卡杜;Skardu
+sd;سنجھورو;Sinjhoro
+ur;سنجھورو;Sinjhoro
+ru;Синийхоро;Sinjhoro
+pa;ਸਿੰਘ ਖਾਲਸਾ;Singh Khalsa
+fa;سنگه خالصه;Singh Khalsa
+ur;سنگھ خالصہ;Singh Khalsa
+en;Sindhri;Goth Sindhri
+sd;سلانوالي;Sillanwali
+ceb;Sillānwāli;Sillanwali
+ru;Силанвали;Sillanwali
+fa;سلان‌والی;Sillanwali
+ur;سلانوالی;Sillanwali
+en;Sikuch;Skuch
+en;Sihāla;Salah
+en;Sidhar;Chak Sixty-seven Jakh Branch
+nl;Sidhar;Chak Sixty-seven Jakh Branch
+ur;سدھ;Sidh
+en;Sibzai Kili;Sabizai Kili
+en;Sibzai;Sabizai Kili
+ru;Сиби;Sibi
+ur;سبی;Sibi
+sd;سبي;Sibi
+ru;Сиалкот;Sialkot
+ru;Сиялкот;Sialkot
+pa;ਸਿਆਲਕੋਟ;Sialkot
+ja;シアールコート;Sialkot
+ko;시알코트;Sialkot
+fa;سیالکوت، پاکستان;Sialkot
+ur;سیالکوٹ;Sialkot
+zh;锡亚尔科特;Sialkot
+bn;শিয়ালকোট;Sialkot
+hi;सियालकोट;Sialkot
+ml;സിയാൽകോട്ട്;Sialkot
+mr;सियालकोट;Sialkot
+ps;سيالکوټ;Sialkot
+ta;சியால்கோட்;Sialkot
+en;Shushghāl Lasht;Lasht
+ru;Шуяабад;Shujaabad
+ur;شوریاں;Shorian
+ur;شوغور;Shagho
+en;Ursa Māchhi;Goth Machhi
+en;Shīru Māchhi;Goth Machhi
+en;Shīro Māchhi;Goth Machhi
+en;Machi;Goth Machhi
+en;Goth Mahra;Goth Machhi
+fa;شنکا;Shinka
+ur;شنکا;Shinka
+en;Shīnai Kili;Shinai Kalle
+ru;Шикарпур;Shikarpur
+en;Shiggi Pāyān;Shagai Payan
+en;Shiggi Bāla;Shagai Bala
+en;Shiggi;Shagai Hindkian
+en;Shagai Kiāni;Shagai Hindkian
+en;Sherpāo;Sherpao
+en;Sher Garwan;Sher Girwan
+en;Shergarh;Sher Garh
+fa;شیخوپوره، پاکستان;Shekhupura
+pa;ਸ਼ੇਖ਼ੂਪੁਰਾ;Shekhupura
+ur;شیخوپورہ;Shekhupura
+ru;Шекхупура;Shekhupura
+zh;謝胡布爾;Shekhupura
+ps;شيخوپوره;Shekhupura
+ta;சேய்க்குப்புரா;Shekhupura
+en;Shekhpur;Shiekhpur
+en;Sheikhpur;Shiekhpur
+en;Shekhniyak;Shekhn Yok
+fa;شیخن;Sheikhan
+ur;شیخاں;Sheikhan
+en;Shams Pīr;Goth Shams Pir
+en;Shamsi;Shamshi Banda
+en;Shakūr;Shakur Kalle
+en;Shakarpura;Shakar Pura
+ru;Шакаргарх;Shakargarh
+en;Shakardara;Shakardarra
+fa;شکردره;Shakardarra
+nl;Shakardara;Shakardarra
+en;Shakarband;Shakar Dhand
+en;Shakara;Shakra Maqrab Khan Kalle
+en;Shaikh Yusuf;Shaikh Yousaf
+en;Shaikh Umar Mustaqil;Shaikh Umar
+en;Shaikh Umar Mustqil;Shaikh Umar
+en;Sheikhani;Shaikhani
+en;Shaikhālzai;Shalkhalzai
+en;Shah Sadar Din;Shah Sadruddin
+en;Shahrgali;Sherghali
+ceb;Shāhpur Chākar;Shahpur Chakar
+sd;شاھپورچاڪر;Shahpur Chakar
+fa;شاه نکدر;Shah Nikdur
+ur;شاہ نکدر;Shah Nikdur
+fa;شاه منصور، پاکستان;Shah Mansur
+ru;Шахкот;Shahkot
+en;Shāh Kapūr;Shah Kapur
+en;Shāhīkot;Shahikot
+en;Shaheedanwali;Shahidanwali
+en;Shāh Dhand;Shah Dand
+ceb;Shāhdādpur;Shahdadpur
+zh;沙赫达德布尔;Shahdadpur
+sd;شهدادپور;Shahdadpur
+ar;شهدادبور;Shahdadpur
+zh-Hant;沙赫達德布爾;Shahdadpur
+fa;شهدادپور;Shahdadpur
+ur;شہدادپور;Shahdadpur
+ru;Шахдадпур;Shahdadpur
+ru;Шахдадкот;Shahdad Kot
+en;Shāh Bukhāri;Shah Bukhari
+en;Shāhbāzgarhi;Shahbazgarhi
+hi;शाहबन्दर;Shahbandar
+sd;شاه بندر;Shahbandar
+ur;شاہ بندر;Shahbandar
+en;Shāh Ālam;Shah Alam Kalle
+en;Shāh Afzalābad;Afzalabad
+ur;شگرام;Shagram
+ur;شاگرام;Shagram
+ru;Шабкадар;Shabqadar
+en;Seri;Goth Seri
+en;Ser Hājīwāla;Sir Hajiwala
+en;Sekhāt;Goth Sekhat
+ceb;Sehwān;Sehwan
+de;Sehwan Sharif;Sehwan
+hi;सेहवन;Sehwan
+ru;Севан-Шариф;Sehwan
+kn;ಸೆಹ್ವಾನ್ ಷರೀಫ್ ತೆಹ್ಸಿಲ್;Sehwan
+sd;سيوھڻ شريف;Sehwan
+ar;سيوستان;Sehwan
+zh-Hant;塞赫萬地區;Sehwan
+vi;Sehwan Sharif;Sehwan
+ja;セーワン・シャリフ;Sehwan
+id;Sehwan Sharif;Sehwan
+fa;سیهون شریف;Sehwan
+ur;سیہون شریف;Sehwan
+nl;Sehwan Sharif;Sehwan
+en;Sowir;Sawer
+fa;ستیانه;Satiana
+ur;ستیانہ;Satiana
+en;Sari;Saro Shah
+en;Sarobai;Sarobi
+en;Sarkāl Kāssa;Sarkal Kassar
+en;Sarkal Kasar;Sarkal Kassar
+ur;سرکال کسر;Sarkal Kassar
+en;Sarīkh;Sarikh
+ru;Саргодха;Sargodha
+fa;سرگودها;Sargodha
+pa;ਸਰਗੋਧਾ;Sargodha
+ja;サルゴーダー;Sargodha
+ko;사르고다;Sargodha
+hi;सरगोढा;Sargodha
+ur;سرگودھا;Sargodha
+zh;萨戈达;Sargodha
+en;Sarbulandpur;Sarbiland Pura
+hi;सराल;Saral
+fa;سرال، چکوال;Saral
+ur;سرال، چکوال;Saral
+en;Siraj Khel;Saraj Khel
+fa;سراج خیل;Saraj Khel
+ur;سراج خیل;Saraj Khel
+nl;Siraj Khel;Saraj Khel
+ur;سرائے عالمگیر;Sarai Alamgir
+en;Sara Chīna;Sard Cheena
+ur;سَنوغَر;Sanoghar
+ru;Сангла Хилл;Sangla Hill
+en;Sandhilianwali;Sandilianwali
+fa;سندهیلیان‌والی;Sandilianwali
+ur;سندھلیاںوالی;Sandilianwali
+nl;Sandhilianwali;Sandilianwali
+en;Sandāsar;Sanda Sar
+en;Sinanwan;Basti sethar
+en;Samunder;Sammundar
+fa;سمندر، پاکستان;Sammundar
+ur;موضع سمندر;Sammundar
+nl;Samunder;Sammundar
+en;Semin Gharbi;Samina Gharbi
+en;Semin Sharqi;Samina
+en;Samīna Sharqi;Samina
+ceb;Sambriāl;Sambrial
+zh;萨姆博利阿尔;Sambrial
+sd;سمبڙيال;Sambrial
+pa;ਸੰਬੜਿਆਲ;Sambrial
+fa;سمبریال;Sambrial
+ur;سمبڑیال;Sambrial
+ru;Самбриал;Sambrial
+en;Sambal Khurd;Sumbal Kurk
+en;Sāmāni;Samani
+en;Salīm Khān;Salim Khan
+en;Sālārīg;Goth Haji Saleh Muhammad
+en;Goth Sāleh Muhammad;Goth Haji Saleh Muhammad
+en;Sakriāla;Sakrial
+en;Sakaryala;Sakrial
+en;Sakhera Arain;Sakhira Arain
+en;Sakhākot;Sakha Kot
+en;Syedwala;Saiyiedwala Purana
+fa;سیدواله;Saiyiedwala Purana
+ur;سیدوالہ;Saiyiedwala Purana
+nl;Syedwala;Saiyiedwala Purana
+ur;سہنہ;Sehna
+en;Saidu Sharīf;Saidu Sharif
+en;Saidpur;Goth Saidpur
+en;Chak Two Hundred Fifty-Four;Chak Two Hundred Fifty-four Jhang Branch
+ru;Сахивале;Sahiwal
+ur;ساہِيوال;Sahiwal
+ru;Сахивал;Sahiwal
+zh;薩希瓦爾;Sahiwal
+fa;ساهیوال، پاکستان;Sahiwal
+hi;साहिवाल;Sahiwal
+ur;ساہیوال;Sahiwal
+pa;ਸਾਹੀਵਾਲ;Sahiwal
+ps;ساهيوال;Sahiwal
+en;Sāhibān;Saiban
+en;Sādozai Kili;Kach Sandozai
+ur;آمنہ آباد;Sadkal
+ru;Садикабад;Saddiqabad
+sd;ساڌوڪي;Sadhoke
+fa;سادهوکی;Sadhoke
+ur;سدہوکے;Sadhoke
+en;Sadhāri;Sidhari
+en;Saādatābād;Sadatabad
+en;Ruria;Roria Jadid
+en;Ruppar Khurd;Ruphar Khurd
+en;Ropar Khurd;Ruphar Khurd
+hi;रोहड़ी;Rohri
+ur;روہڑی;Rohri
+sd;روھڙي;Rohri
+en;Rohilanwali;Rohillanwali
+fa;روهیلان‌والی;Rohillanwali
+ur;روہیلاں والی;Rohillanwali
+nl;Rohilanwali;Rohillanwali
+en;Rishkai;Rashakai
+en;Rihāra;Rehra
+en;Reharra;Rehra
+ur;Resnūn;Reshun
+ur;ريسنُون;Reshun
+ur;ریشُون;Reshun
+ceb;Renāla Khurd;Renala Khurd
+hi;रेनाला खुर्द;Renala Khurd
+ru;Ренала-Кхерд;Renala Khurd
+bn;রেনালা খুর্ড;Renala Khurd
+zh-Hans;雷纳拉 胡德;Renala Khurd
+si;රෙනාලා කුර්ඩ්;Renala Khurd
+ur;رینالہ خورد;Renala Khurd
+kn;ರೆನಾಲಾ ಖುದ್;Renala Khurd
+ko;르날라 쿠드;Renala Khurd
+mr;रेनाला खुर्द;Renala Khurd
+ta;ரெனலா குர்த்;Renala Khurd
+gu;રેનાલા ખુર્દ;Renala Khurd
+ar;رينالا خورد;Renala Khurd
+te;రేనల ఖుర్ద్;Renala Khurd
+th;เรนาลา เคิท์ด;Renala Khurd
+ja;レナーラ・カード;Renala Khurd
+fa;ریناله خورد;Renala Khurd
+fa;راولپندی;Rawalpindi
+ja;ラーワルピンディー;Rawalpindi
+ko;라왈핀디;Rawalpindi
+ru;Равалпинди;Rawalpindi
+ur;راولپنڈی;Rawalpindi
+ar;راولبندي;Rawalpindi
+bn;রাওয়ালপিন্ডি;Rawalpindi
+hi;रावलपिंडी;Rawalpindi
+ml;റാവൽപിണ്ടി;Rawalpindi
+mn;Равалпинди;Rawalpindi
+mr;रावळपिंडी;Rawalpindi
+pa;ਰਾਵਲਪਿੰਡੀ;Rawalpindi
+ta;இராவல்பிண்டி;Rawalpindi
+th;ราวัลปินดี;Rawalpindi
+ug;راۋالپىندى;Rawalpindi
+zh;拉瓦尔品第;Rawalpindi
+ps;راولپنډي;Rawalpindi
+tr;Ravalpindi;Rawalpindi
+uz;Ravalpindi;Rawalpindi
+en;Rāwal;Rawal Town
+hi;राटौडेरो;Ratodero
+ru;Ратодеро;Ratodero
+bn;রাতুদেরো;Ratodero
+sd;رتوديرو;Ratodero
+zh-Hans;日多地尔;Ratodero
+si;රටෝදෙරෝ;Ratodero
+ur;رتودیرو;Ratodero
+kn;ರಾಟೊಡೆರೊ;Ratodero
+ko;라투데로;Ratodero
+mr;रोटोडोरो;Ratodero
+ta;ராடோடெரோ;Ratodero
+gu;રાટોડેરો;Ratodero
+ar;رتوديرو;Ratodero
+te;రాటుదేరో;Ratodero
+th;ราโทเดโร;Ratodero
+ja;ラトデロ;Ratodero
+fa;رتودیرو;Ratodero
+ur;حسام رسولپور;Rasulpur
+en;Rashkai;Rashakai
+en;Rashīda;Rashidabad
+en;Rānjhe;Rangha
+en;Ranjha;Rangha
+sd;راڻيپور، سنڌ;Ranipur
+ceb;Rānīpur;Ranipur
+fa;رانی‌پور، سند;Ranipur
+ur;رانی پور، سندھ;Ranipur
+gu;રાણીપુર;Ranipur
+zh;拉尼布爾;Ranipur
+fa;رانیوال;Ranewal
+en;Rām Kishan;Ram Kushan
+en;Rāman;Basti Rahman
+en;Ranman;Basti Rahman
+en;Raman;Rama
+en;Rājri;Rajri
+pa;ਰਾਜਾ ਜੰਗ;Raja Jang
+ceb;Rāja Jang;Raja Jang
+fa;راجه جنگ;Raja Jang
+ur;راجہ جنگ;Raja Jang
+ru;Рая Джанг;Raja Jang
+en;Raiya Chak Maddu;Chak Madhu
+fa;رایه چک مدو;Chak Madhu
+ur;رایہ چک مدو;Chak Madhu
+nl;Raiya Chak Maddu;Chak Madhu
+ceb;Rāiwind;Raiwind
+hi;राय़विण्ड;Raiwind
+pa;ਰਾਏਵਿੰਡ;Raiwind
+fa;رائی‌وند;Raiwind
+ur;رائے ونڈ;Raiwind
+en;Rāi Kili;Ray Mohal
+en;Rāeka Maera;Rai ka Maira
+en;Rahūki;Rahuki
+zh;拉希姆亞爾汗;Rahim Yar Khan
+ur;رحیم یار خان;Rahim Yar Khan
+ru;Рахимъярхан;Rahim Yar Khan
+fa;رحیم‌یارخان، پاکستان;Rahim Yar Khan
+de;Rahimyar Khan;Rahim Yar Khan
+ar;رحيم يار خان;Rahim Yar Khan
+hi;रहीम यार ख़ान;Rahim Yar Khan
+it;Rahimyar Khan;Rahim Yar Khan
+ps;رحيم يار خان;Rahim Yar Khan
+ur;رَاغ;Ragh
+en;Rādho;Radho
+en;Radhu;Radho
+en;Qutbgarh;Qutabgrab Kalle
+fa;کویته;Quetta
+ko;퀘타;Quetta
+zh-TW;奎達;Quetta
+ja;クエッタ;Quetta
+ru;Кветта;Quetta
+ar;كويته;Quetta
+mr;क्वेट्टा;Quetta
+th;เควตตา;Quetta
+ta;குவெட்டா;Quetta
+ps;کوټه;Quetta
+ur;کوئٹہ;Quetta
+bn;কোয়েটা;Quetta
+tr;Ketta;Quetta
+hi;क्वेटा;Quetta
+zh;奎達;Quetta
+si;ක්වේටා‍;Quetta
+ml;ക്വെറ്റ;Quetta
+pa;ਕੋਇਟਾ;Quetta
+uz;Kvetta;Quetta
+kk;Кветта;Quetta
+ky;Кветта;Quetta
+tg;Квета;Quetta
+fa;قلعه دیدار سینگ;Qila Didar Singh
+ur;قلعہ دیدار سنگھ;Qila Didar Singh
+ru;Камбар;Kambar
+sd;قمبر;Kambar
+en;Qambar;Kambar
+fr;Qambar;Kambar
+ur;قمبر;Kambar
+nl;Qambar;Kambar
+en;Qalāt-i Nasīr;Koto Qalat Nasir
+fa;قائم بهروانه;Qaim Bharwana
+ur;قائم بھروانہ;Qaim Bharwana
+ru;Кадирпур Ран;Qadirpur Ran
+en;Qādirābād;Qadirabad
+en;Pishtakhara Bāla;Pishta Khara Bala
+en;Purāna Hāla;Goth Badal Machhi
+ur;فرانو;Frano
+en;Potai;Poti
+en;Porāt;Goth Ghila
+en;Kachi Pitafi;Pitafi
+en;Pishungri;Pashtun Garhi
+ur;پشی;Pishin
+ru;Пишин;Pishin
+en;Pīr Saddo;Pir Saddu
+en;Pir Sabak;Pirsabaq
+en;Pīr Khel;Pir Khel
+en;Pīrān;Palosai Piran
+en;Plosai Pīrān;Palosai Piran
+pa;ਚੱਕ 126 ਗ. ਬ. ਸ਼ਹਿਰੁਆਨਾ;Chak 126 GB Sheroana
+ur;(پنڈی ہاشم (باڑہ;Pindi Hashim
+pa;ਪਿੰਡੀ ਭੱਟੀਆਂ;Pindi Bhattian
+ceb;Pindi Bhattiān;Pindi Bhattian
+fa;پندی بهتیان;Pindi Bhattian
+ur;پنڈی بھٹیاں;Pindi Bhattian
+ru;Пинди Бхаттиан;Pindi Bhattian
+fa;پیال کلان;Pial Kalan
+ur;پیال کلاں;Pial Kalan
+ur;Phāshk;Phashk
+ur;پْہَاشْک;Phashk
+tg;Дараи Пезу;Pezu
+en;Darra Pezu;Pezu
+fa;دره پیزو;Pezu
+ur;درہ پیزو;Pezu
+nl;Darra Pezu;Pezu
+de;Peschawar;Peshawar
+fa;پیشاور;Peshawar
+hi;पेशावर;Peshawar
+ko;페샤와르;Peshawar
+nl;Pesjawar;Peshawar
+pt;Pexauar;Peshawar
+zh;白沙瓦;Peshawar
+ja;ペシャーワル;Peshawar
+ru;Пешавар;Peshawar
+ur;پشاور;Peshawar
+ar;بيشاور;Peshawar
+bn;পেশাওয়ার;Peshawar
+mr;पेशावर;Peshawar
+pa;ਪੇਸ਼ਾਵਰ;Peshawar
+ps;پېښور;Peshawar
+ta;பெசாவர்;Peshawar
+th;เปศวาร์;Peshawar
+tr;Peşaver;Peshawar
+ug;پېشاۋار;Peshawar
+kk;Пешавар;Peshawar
+ml;പെഷവാർ;Peshawar
+uz;Peshovar;Peshawar
+ky;Пешавар;Peshawar
+tg;Пешавар;Peshawar
+ur;Puches;Pechuz
+ur;پُچیس;Pechuz
+ur;پتوكى;Pattoki
+ru;Паттоки;Pattoki
+sd;پتوڪي;Pattoki
+ja;パトキ;Pattoki
+fa;پتوکی;Pattoki
+fa;گته پتهن;Goth Pathan
+ur;گوٹھ پٹھان;Goth Pathan
+ja;パスー;Passu
+fa;پهسو;Passu
+ur;پھسو;Passu
+ta;பாசு;Passu
+zh;帕苏;Passu
+ceb;Pasrūr;Pasrur
+pa;ਪਸਰੂਰ;Pasrur
+ja;パスルル;Pasrur
+fa;پسرور;Pasrur
+ur;پسرور;Pasrur
+ru;Пасрур;Pasrur
+ru;Пасни;Pasni
+ko;파스니;Pasni
+bn;পাসনি;Pasni
+zh;伯斯尼;Pasni
+ja;パスニ;Pasni
+fa;پسنی;Pasni
+ur;پسنی;Pasni
+ar;باراتشينار;Parachinar
+fa;پاراچنار;Parachinar
+ps;پاړه چنار;Parachinar
+ur;پاڑاچنار;Parachinar
+ru;Парачинар;Parachinar
+en;Panhwar;Goth Nabi Bakhsh Panhwar
+en;Panwār Janūbi;Panwar Janubi
+ru;Пано Акил;Pano Aqil
+ur;پنجوڑیاں;Punjwarian
+en;Panīrak;Panirak
+sd;پنگريو;Pangrio
+en;Attozai;Palosai Atozai
+en;Atozai;Palosai Atozai
+en;Palosai;Palosai Maqaddarzai
+en;Plosai;Palosai Maqaddarzai
+en;Palosa;Palwasa
+ur;پلاہوڑی;Plahwari
+ru;Пакпаттан;Pakpattan
+en;Pajaggi;Pajagai
+en;Pahārīpura;Padripura
+ur;بھاگووال;Bhagowal
+ceb;Ormāra;Ormara
+hi;ओरमारा तहसील;Ormara
+ru;Ормара;Ormara
+bn;ওমারা তেসিল;Ormara
+zh-Hant;奧爾馬拉;Ormara
+si;ඔර්මරා ටෙහ්සිල්;Ormara
+id;Ormara Tehsil;Ormara
+ur;اورماڑہ;Ormara
+kn;ಓರ್ಮಾರಾ ತೆಹ್ಸಿಲ್;Ormara
+ko;오르마라;Ormara
+mr;ओरमारा तहसील;Ormara
+ms;Ormara Tehsil;Ormara
+ta;ஓர்மரா தேஹ்சில்;Ormara
+gu;ઓરમરા તહસીલ;Ormara
+zh;奥尔马拉;Ormara
+ar;اورمارا;Ormara
+te;ఓర్మారా తెహసిల్;Ormara
+vi;Ormara Tehsil;Ormara
+th;โอมารา ทัซซิล;Ormara
+ja;オルマーラ;Ormara
+fa;اورماره;Ormara
+nl;Ormara Tehsil;Ormara
+tr;Ormara Tehsil;Ormara
+fa;اورارا، پاکستان;Orara
+ur;اڑاڑا;Orara
+ru;Окара;Okara
+en;Nūr Keti Goth;Goth Nur Keti
+en;Nooria Koria Sharqi;Nuria Kuria Sharqi
+en;Nūran Chhajra;Nuranwala
+en;Nūran Chhajre;Nuranwala
+en;Nuran Chajra;Nuranwala
+en;Nūran Abrīnd;Nuran Abrin
+fa;نوشهره;Nowshera
+ur;نوشہرہ;Nowshera
+ru;Наушера;Nowshera
+ur;نوتھیہ;Nathia
+en;Nisatta;Nasatta Kalan
+en;Nisatta;Nasatta
+en;Nīlāwi;Nilawi
+en;Neela;Nila
+en;Nigāhind Kaze;Kuz Negandh
+en;Mirpur;New Mirpur City
+de;Mirpur;New Mirpur City
+ur;نیا میرپر شہر;New Mirpur City
+ur;ميرپور;New Mirpur City
+fr;Mirpur;New Mirpur City
+hi;मीरपुर;New Mirpur City
+ru;Мирпур;New Mirpur City
+zh;米尔布尔;New Mirpur City
+en;Nekrātol;Nekrotok
+en;Nāzar Garhai;Nazar Garhi
+en;Nawe Kili;Nawan Kalle
+en;Nawe Kalai;Nawan Kalle
+en;Nawe Kalāi;Nawan Kalle
+ru;Навабшах;Nawabshah
+en;Nawa;Nau
+en;Notak Sikhani;Nautak
+en;Naurāni;Nurani
+en;Naugrām;Naugram
+en;Naudeh Bāla;Nodia Bala
+en;Nātho Khān Khoso;Goth Nathu Khan Khoso
+en;Nasīrzai;Nusratzai
+ur;نصیرہ;Naseera
+en;Nāsir;Nasir
+en;Nāsarpur;Nasirpur
+en;Nāsāpa;Nasapa
+ru;Наровал;Narowal
+en;Nārejāni;Narejani
+ru;Наранг;Narang Mandi
+ceb;Nārang;Narang Mandi
+fa;نارنگ، پاکستان;Narang Mandi
+fr;Narang;Narang Mandi
+ur;نارنگ;Narang Mandi
+en;Nārag;Narang Saiydan
+en;Narang;Narang Saiydan
+fa;نارنگ سیدان;Narang Saiydan
+ur;نارنگ سیداں;Narang Saiydan
+nl;Nārag;Narang Saiydan
+hi;ननकाना साहब;Nankana Sahib
+ceb;Nankāna Sāhib;Nankana Sahib
+ru;Нанкана-Сахиб;Nankana Sahib
+bn;নানকানা সাহিব;Nankana Sahib
+sd;نانڪانا صاحب;Nankana Sahib
+zh-Hans;南卡纳沙希布;Nankana Sahib
+zh-Hant;南卡納薩希布;Nankana Sahib
+si;නන්කනා සාහිබ්;Nankana Sahib
+ur;ننکانہ صاحب;Nankana Sahib
+kn;ನಂಕಾನಾ ಸಾಹಿಬ್;Nankana Sahib
+ko;나랑카 샤빕;Nankana Sahib
+mr;नानकाना साहिब;Nankana Sahib
+ta;நான்கானா சாகிப்;Nankana Sahib
+gu;નનકાના સાહિબ;Nankana Sahib
+zh;南卡纳萨希布;Nankana Sahib
+pa;ਨਨਕਾਣਾ ਸਾਹਿਬ;Nankana Sahib
+ar;نانكانا صاحب;Nankana Sahib
+te;నంకానా సాహిబ్;Nankana Sahib
+th;นานคานา ซาฮิบ;Nankana Sahib
+ja;ナンカーナー・サーヒブ;Nankana Sahib
+ne;नानकाना साहिब जिल्ला;Nankana Sahib
+fa;ننکانه صاحب;Nankana Sahib
+en;Nangal Sahdan;Nangal Sadhan
+fa;ننگل ساهدان;Nangal Sadhan
+nl;Nangal Sahdan;Nangal Sadhan
+en;Najīgarām;Najabgram
+en;Nāharwāla;Naharwala
+en;Nahkai;Nahki Daudazai
+en;Naghr;Naghar
+en;Nadrāl;Dhok Nadral
+fa;ندها;Naddha
+ur;نڈھا;Naddha
+en;Nachindi;Nachandi
+nl;Nachindi;Nachandi
+ru;Музаффаргар;Muzaffargarh
+fa;مظفر گره، پاکستان;Muzaffargarh
+hi;मुज़फ़्फ़रगढ़;Muzaffargarh
+ur;مظفر گڑھ;Muzaffargarh
+ru;Музаффаргарх;Muzaffargarh
+zh;穆扎法尔格尔县;Muzaffargarh
+de;Muzaffarabad;Muzaffarābād
+en;Muzaffarabad;Muzaffarābād
+fr;Muzaffarabad;Muzaffarābād
+bn;মুজাফফারাবাদ;Muzaffarābād
+es;Muzaffarabad;Muzaffarābād
+fa;مظفرآباد;Muzaffarābād
+hi;मुज़फ़्फ़राबाद;Muzaffarābād
+ru;Музаффарабад;Muzaffarābād
+sd;مظفر آباد;Muzaffarābād
+mr;मुझफ्फराबाद;Muzaffarābād
+ur;مظفر آباد;Muzaffarābād
+ar;مظفر آباد;Muzaffarābād
+kk;Музаффарабад;Muzaffarābād
+tr;Muzaffarabad;Muzaffarābād
+uz;Muzaffarobod;Muzaffarābād
+ky;Музаффарабад;Muzaffarābād
+id;Muzaffarabad;Muzaffarābād
+ms;Muzaffarabad;Muzaffarābād
+ja;ムザッファラバード;Muzaffarābād
+jv;Muzaffarabad;Muzaffarābād
+pa;ਮੁਜ਼ੱਫ਼ਰਾਬਾਦ;Muzaffarābād
+ps;مظفرآباد;Muzaffarābād
+pt;Muzaffarabad;Muzaffarābād
+tg;Музаффарабад;Muzaffarābād
+pa;ਮੂਸਾ;Musa
+fa;موسی، پاکستان;Musa
+ur;موسی، پاکستان;Musa
+it;Murri;Murree
+ur;مری;Murree
+zh;穆里;Murree
+hi;मुरीदके;Muridke
+de;Muridike;Muridke
+ceb;Murīdke;Muridke
+ru;Муридке;Muridke
+ps;مريدکی;Muridke
+sd;مريدڪي;Muridke
+ur;مریدکے;Muridke
+zh;穆里德蓋;Muridke
+ar;موريدكي;Muridke
+ja;ムリドゥケ村;Muridke
+fa;موریدک;Muridke
+ur;مرالہ، منڈی بہاؤالدین;Murala
+en;Munda Qala;Munda
+sd;مومن آباد;Mominabad
+en;Molwal;Mulwal
+zh-TW;木爾坦;Multan
+ja;ムルターン;Multan
+ru;Мултан;Multan
+ur;مُلتان;Multan
+ko;물탄;Multan
+hi;मुल्तान;Multan
+en;Mulla Kātiār;Mulla Katiar
+en;Muhibb Bānda;Muhib Banda
+ar;محمد بور ديوان;Muhammadpur Diwan
+ur;محمد پور دیوان;Muhammadpur Diwan
+en;Nun;Muhammad Nun
+en;Muhabbat Surāni;Mahabbat Surani
+en;Mokib Surani;Mahabbat Surani
+en;Muhabbatābād;Muhabatabad
+en;Mughalkai;Lkai
+ru;Моро;Moro
+ur;Morī;Morich
+ur;مورِچ;Morich
+ur;مورِی;Morich
+en;Mori;Goth Mori
+ur;Momī;Mumi
+ur;مومِی;Mumi
+ur;Mughlang;Moghlang
+ur;مُغْلَنْگ;Moghlang
+ur;موغ;Mugh
+ru;Модел;Model Town
+en;Mīrwāl;Mirwali
+en;Miswāl;Mirwali
+en;Miskīnai;Miskini
+en;Miseriāl;Misrial
+en;Mīrzai;Mirozai
+en;Mirza Dher;Mirza Dheri
+sd;میرپور خاص;Mirpur Khas
+zh;米爾布爾哈斯;Mirpur Khas
+ur;میر پور خاص;Mirpur Khas
+ru;Мирпур-Хас;Mirpur Khas
+fa;میرپور خاص، پاکستان;Mirpur Khas
+ps;ميرپور خاص;Mirpur Khas
+sd;ميرپور خاص;Mirpur Khas
+ur;میرپور خاص;Mirpur Khas
+en;Mīrpur Batoro;Mirpur Bhtoro
+en;Mīrkhani;Mirkhani
+en;Mirdi;Mahirdal
+de;Miranshah;Miran Shah
+ceb;Mīrān Shāh;Miran Shah
+ru;Мираншах;Miran Shah
+ps;ميرانشا;Miran Shah
+en;Miranshah;Miran Shah
+it;Miranshah;Miran Shah
+fr;Miranshah;Miran Shah
+bn;মিরামশাহ;Miran Shah
+es;Miranshah;Miran Shah
+zh;米蘭夏;Miran Shah
+ar;ميران شاه;Miran Shah
+ja;ミーランシャー;Miran Shah
+fa;میران‌شاه;Miran Shah
+ur;میران شاہ;Miran Shah
+nl;Miranshah;Miran Shah
+en;Mīrālai;Mir Ali
+ur;Mīrāgrām (Yārkhūn);Miragram Number Two
+ur;مِیرَاگْرَام (یَارْخُون);Miragram Number Two
+ur;Mīrāgrām;Mairagram Number One
+ur;مِیرَاگْرَام;Mairagram Number One
+en;Manwal;Minwal
+en;Mingāora;Mingora
+fa;مینگوره;Mingora
+ko;밍고라;Mingora
+pa;ਮਿੰਗੋਰਾ;Mingora
+ps;مينگوره;Mingora
+ur;مینگورہ;Mingora
+yue;مینګورہ;Mingora
+ru;Мингора;Mingora
+zh;明戈拉;Mingora
+hi;मिंगोरा;Mingora
+mr;मिंगोरा;Mingora
+ar;مينجورا;Mingora
+ja;ミンゴラ;Mingora
+bn;মিনঙ্গোরা;Mingora
+sd;منگورا;Mingora
+si;මින්ගෝරා;Mingora
+kn;ಮಿಂಗೊರಾ;Mingora
+ta;மிங்கோரா;Mingora
+gu;મિંગોરા;Mingora
+te;మింగోరా;Mingora
+th;มินโกร่า;Mingora
+ru;Мианвали;Mianwali
+en;Miān Sāhib Garhi;Mian Sahib Kalle
+en;Miān Khānzai;Mian Khan
+en;Miān Īsa;Mian Isa
+en;Miān Gujjar;Mian Gujar
+en;Mian Channu;Mian Channun
+ru;Миан-Чанну;Mian Channun
+en;Met Khān;Met Khan
+en;Mīrewāri Chauki;Mirewari
+en;Merewāri Chauki;Mirewari
+en;Meori;Miro
+en;Melugan;Melogan
+en;Pelo;Mehro Pilo
+en;Matti;Chaggar
+fa;مته مغول خیل;Matta Mughal Khel
+ur;مٹہ مغل خیل;Matta Mughal Khel
+en;Matta;Parana
+ceb;Mātli;Matli
+ru;Матли;Matli
+sd;ماتلي;Matli
+ar;ماتلي;Matli
+fa;ماتلی;Matli
+ur;ماتلی;Matli
+en;Mathra;Mathra Nawan
+ur;مَسْتُوج;Mastuj
+en;Massu Shaikhāni;Massu Sikhani
+en;Māsma;Masma
+en;Marozai;Mirozai
+ur;مَرائی;Maroi
+fa;ماری شاه سخیرا;Mari Shah Sakhira
+ur;ماڑی شاہ سخیرا;Mari Shah Sakhira
+ru;Мардан;Mardan
+fa;مردان;Mardan
+ps;مردان;Mardan
+ur;مردان;Mardan
+zh;馬爾丹;Mardan
+en;Mardān;Mardan
+en;Martha;Marath
+ja;マラーラ;Marala
+ru;Мансехра;Mansehra
+en;Mansabdār;Mansabdar
+en;Mānjhu;Manjho
+ru;Манийханд;Manjhand
+en;Mangwāniwala;Mangwaniwali
+hi;मंगवा;Mangwal
+fa;منگوال;Mangwal
+ur;منگوال;Mangwal
+en;Manga;Mangah
+en;Maneri Paiān;Maneri Payan
+en;Maneri Bāla;Manari Bala
+en;Mandna;Mandni
+ru;Манди-Бахауддин;Mandi Bahauddin
+en;Manān;Manahan
+en;Manhan;Manahan
+en;Manāgai;Managai
+en;Māmūn;Mamun Khatki
+ceb;Māmu Kānjan;Mamu Kanjan
+fa;مامو کانجن;Mamu Kanjan
+ur;ماموں کانجن;Mamu Kanjan
+en;Mandani;Mamdani
+fa;ماما خیل;Mama Khel
+ur;ماما خیل;Mama Khel
+en;Mālogai;Malogai Gujro
+pa;ਮਲਕਾ ਹਾਂਸ;Malka Hans
+fa;ملکه هانس، پنجاب;Malka Hans
+ur;ملکہ ہانس;Malka Hans
+ur;ملکہ;Malka
+en;Malik Yār;Malikyar
+en;Mālio;Rabdino Malio
+en;Abu Mallo;Rabdino Malio
+en;Malhuwāla;Malluwala
+ceb;Malakwāl;Malakwal
+fa;ملکوال;Malakwal
+ur;ملکوال;Malakwal
+en;Mala Kili;Babaji Kalle
+ur;ملاگر;Malagar
+hi;मकवाल कलाँ;Makwal Kalan
+fa;مکوال کلان;Makwal Kalan
+ur;مکوال کلاں;Makwal Kalan
+en;Makhdoom Rashid;Makhdum Rashid
+ur;Basti Makhan Bela;Makhan Bala
+en;Tathi Maira;Thatti Maira
+fa;میلسی;Mailsi
+ur;میلسی;Mailsi
+ru;Маилси;Mailsi
+en;Maiār;Mayar
+en;Mahzāra;Mah Hazara
+en;Māho Dheri;Mahu Dheri
+en;Mahota;Mahuta
+fa;مهنت درشان;Mahant Darshan
+ur;منگووال;Mangowal
+en;Madu Kalas;Maddu Kalas
+fa;مدو کالس;Maddu Kalas
+ur;مدو کالس;Maddu Kalas
+nl;Madu Kalas;Maddu Kalas
+fa;میدی، پاکستان;Maddi
+ur;میڈی;Maddi
+ur;Madāshīl;Madashil
+ur;مَدَاشِیل;Madashil
+ur;Madaklāshṭ;Madaklasht
+ur;مَدَکْلَاشْٹ;Madaklasht
+en;Māchhia;Machhian
+fa;لندا شریف;Lunda Sharif
+ur;لنڈا شریف;Lunda Sharif
+ur;لون;Lon
+en;Lohi Bher;Lohi Behr
+fa;لوهی بهیر;Lohi Behr
+ur;لوہی بھیر;Lohi Behr
+nl;Lohi Bher;Lohi Behr
+ur;چک بختاور;Chak Bakhtawar
+en;Loe Āgra;Loe Agra
+ru;Лодхран;Lodhran
+ru;Лиари;Liari
+fa;لیاری;Liari
+ru;Леях;Layyah
+fa;لطیفال;Latifal
+ur;لطیفال;Latifal
+ur;Lāshṭ;Lasht Khot
+ur;لَاشْٹ;Lasht Khot
+ur;لَشْٹ;Yar Khun Lasht
+ru;Ларкане;Larkana
+en;Laram;Larama
+fa;لنگرپورا;Langarpura
+en;Langar Makhdoom;Langar Makhdum
+en;Landkhwar;Lund Khwar
+ur;لمے شریف;Lammay Sharif
+en;Lāl Qila;Lal Qila
+ceb;Lāliān;Lalian
+fa;لالیان;Lalian
+ur;لالیاں;Lalian
+fa;لالیکا;Laleka
+ur;لالیکا;Laleka
+en;Lalamusa;Lala Musa
+ur;لالہ موسی;Lala Musa
+ceb;Lāla Mūsa;Lala Musa
+de;Lalamusa;Lala Musa
+es;Lála Musa;Lala Musa
+sd;لاله موسيٰ;Lala Musa
+fa;لاله موسی;Lala Musa
+en;Lāla;Lala Kalle
+fa;لکهرا;Lakhra
+ur;لکھرا;Lakhra
+fa;لاهور;Lahore
+fr;Lâhore;Lahore
+gu;લાહોર;Lahore
+hi;लाहौर;Lahore
+ja;ラホール;Lahore
+ko;라호르;Lahore
+ur;لاھور;Lahore
+zh;拉合尔;Lahore
+tr;Lahor;Lahore
+ur;لاہور;Lahore
+zh;拉合爾;Lahore
+ru;Лахор;Lahore
+ar;لاهور;Lahore
+ja;ラーホール;Lahore
+bn;লাহোর;Lahore
+ml;ലാഹോർ;Lahore
+mr;लाहोर;Lahore
+ne;लाहोर;Lahore
+pa;ਲਹੌਰ;Lahore
+ps;لاهور;Lahore
+ta;லாகூர்;Lahore
+te;లాహోర్;Lahore
+th;ลาฮอร์;Lahore
+ug;Lahor;Lahore
+kn;ಲಾಹೋರ್;Lahore
+ky;Лахор;Lahore
+mn;Лахор;Lahore
+sd;لاهور;Lahore
+uz;Lohur;Lahore
+kk;Лахор;Lahore
+tg;Лахор;Lahore
+en;Lāhor;Lahor
+en;Ladva;Ladwa
+en;Ladheke;Ladheke Niwain
+fa;لدهیکی;Ladheke Niwain
+ur;لاڈہیکی;Ladheke Niwain
+nl;Ladheke;Ladheke Niwain
+en;Laddha Langar;Ladha Langar
+en;Ladha Langhar;Ladha Langar
+en;Lādan;Ladanwala
+en;Kūz Tsapparai;Kuz Sapparai
+en;Kūz Sarāi;Kuz Sarai
+en;Kutria;Kutrewali
+en;Kūtarpān;Kutterpana
+en;Kori Wasta;Kuria Wasta
+en;Kurāl;Karal
+en;Kuragh;Kurogh
+ru;Кунри;Kunri
+pa;ਕੁੰਜਾਹ;Kunjah
+ru;Кунджа;Kunjah
+fa;کنجاه;Kunjah
+ur;کنجاہ;Kunjah
+ceb;Kundiān;Kundian
+bn;কুন্দিয়ান;Kundian
+ar;كونديان;Kundian
+fa;کندیان، پاکستان;Kundian
+ur;كندياں;Kundian
+en;Kuldanna;Guldanna
+en;Kuldana;Guldanna
+ur;کلک;Kulak
+en;Kukur;Chargano Kalle
+en;Kukāri;Kochha Kukari
+en;Kochh Kokari;Kochha Kukari
+en;Kohiwala;Kuniwala
+nl;Kohiwala;Kuniwala
+en;Kūchiān;Kuchian
+ur;کوٹری;Kotri
+ru;Котри;Kotri
+ceb;Kot Rādha Kishan;Kot Radha Kishan
+sd;ڪوٽ راڌا ڪشن;Kot Radha Kishan
+ar;كوت رادها كشن;Kot Radha Kishan
+ur;کوٹ رادھا کشن;Kot Radha Kishan
+ru;Кот Радха Кишан;Kot Radha Kishan
+en;Chak Two Hundred Sixty;Chak Two Hundred Sixty Wajhlana
+ur;کوٹلی;Kotli
+hi;कोटली;Kotli
+ru;Котли;Kotli
+en;Kotlewāla;Kotlewala
+en;Kotla;Kotlewala
+ur;کوٹلہ ارب علی خان;Kotla Arab Ali Khan
+ur;کوٹلہ حاجی شاہ;Kotla Haji Shah
+en;Kotki;Kotki Bala
+fa;کوتکی;Kotki Bala
+nl;Kotki;Kotki Bala
+fa;کوت کشمیر;Kot Kashmir
+ur;کوٹ کشمیر;Kot Kashmir
+en;Kotkai;Kotki
+en;Kot Jaindal Shāh;Goth Jindal Shah
+fa;کوت جائی;Kot Jai
+ur;کوٹ جائی;Kot Jai
+en;Kot Ismāīlzai;Kot Ismailzai
+uz;Kot Ismoil;Kot Ismail
+fa;کوت عیسی‌شاه;Kot Isa Shah
+ur;کوٹ عیسی شاہ;Kot Isa Shah
+fa;کوت هرا;Kot Hara
+ur;کوٹ ہرا;Kot Hara
+en;Kotha Bāfindān;Kot Iqbal
+en;Koth Bafinda;Kot Iqbal
+en;Kotha Bāfinda;Kot Iqbal
+en;Kot Baloch;Kot Baluch
+ur;کوٹ بلوچ;Kot Baluch
+nl;Kot Baloch;Kot Baluch
+en;Kotarpān;Koterpan
+ru;Кот-Адду;Kot Addu
+en;Kot;Kot Kalle
+ur;کوشْت;Kosht
+en;Kopar;Kupar
+fa;کولپور;Kolpur
+ur;کولپور;Kolpur
+fa;کوکل;Kokal
+ru;Кохат;Kohat
+ur;Koghūzī;Koghozi
+ur;کوغُوزِی;Koghozi
+ur;Kīār;Kiyar
+ur;کِیَار;Kiyar
+fa;کری شاموزای;Kiri Shamozai
+ur;کیڑی شاموزئی;Kiri Shamozai
+en;Kirānianwāli;Karanianwala
+en;Kirānīwāla;Karanianwala
+en;Kirāni;Basti Khairani
+en;Karani;Basti Khairani
+en;Kiamāri;Kiamari
+en;Khawaswala;Khwaswala
+en;Khawāji;Khwaji
+en;Khwāja Rashka;Khwaja Kalle
+ur;خضدار;Khuzdar
+fa;خضدار;Khuzdar
+ru;Хуздар;Khuzdar
+ru;Хушаб;Khushāb
+fa;کهوکها;Khukha
+ur;کھوکھا;Khukha
+hi;खुईरटा;Khuiratta
+fa;کهوئیراتا;Khuiratta
+ur;کھوئی رٹہ;Khuiratta
+en;Khusai;Khosai
+en;Khongi;Khoungi
+en;Khokhar;Basti Adam
+en;Khokhar;Goth Khokri
+en;Goth Khokhar;Goth Khokri
+sd;کھڙا;Khohra
+en;Khuhra;Khohra
+fr;Khuhra;Khohra
+nl;Khuhra;Khohra
+en;Khodey;Khode
+en;Khazāna Dheri;Khazana Dherai
+en;Khazāna;Khazana Kalle
+en;Khāwar;Basti Khawar
+en;Khoawar;Basti Khawar
+en;Kharkai;Kharka Daudzai
+ur;کھاریاں;Kharian
+ru;Кхариян;Kharian
+en;Khār Gharbi;Darra Khar Gharbi
+en;Khāo;Khao
+en;Khanu Wali;Khanwali
+en;Khānuwāli;Khanwali
+en;Khanwāl;Khanwal Sharif
+en;Kahenwal;Khanwal Sharif
+en;Khanqab Sharif;Khanqah Sharif
+en;Khanga Sharif Municipality;Khanqah Sharif
+ru;Ханпур;Khanpur
+en;Khānot;Goth Khanot
+en;Chak Two Hundred Fifty-One;Chak Two Hundred Fifty-seven
+fa;خان ماهی;Khan Mahi
+ur;خان ماہی;Khan Mahi
+en;Khanjar;Khanjar Kalle
+en;Khandu;Goth Khandu
+en;Khandīkot;Kandiwala
+en;Khandak;Khandai
+en;Khambi;Khamb
+nl;Khambi;Khamb
+en;Khalīl;Khalil
+ru;Хайрпура;Khairpur
+ru;Гархи Хаиро;Garhi Khairo
+en;Khaira Gali;Khiara Gali
+nl;Khaira Gali;Khiara Gali
+fa;خائی بتهار;Khai Hithar
+ur;خائی ہتھار;Khai Hithar
+sd;کڏڙو;Khadro
+ur;کھڈرو;Khadro
+sd;ڪيٽي بندر;Keti Bandar
+ru;Кети-Банддар;Keti Bandar
+ur;کیٹی بندر;Keti Bandar
+zh;盖蒂本德尔;Keti Bandar
+en;Kawas;Kawas Sharqi
+fa;کواس، پاکستان;Kawas Sharqi
+nl;Kawas;Kawas Sharqi
+fa;قتوزای;Katozai
+ur;قتوزئی;Katozai
+fa;کاته گره;Kathgarh
+ur;کاٹھ گڑھ;Kathgarh
+ur;کٹھالہ;Kathala
+en;Kāter;Patao Kater
+ru;Касур;Kasur
+en;Kash Maqām;Khush Maqam
+fa;کرنول;Karnol
+en;Karīmdād Quraishi;Karamdad Quraishi
+en;Karim Dad Qureshi;Karamdad Quraishi
+en;Karīmdād Quraichi;Karamdad Quraishi
+hi;करयाला;Kariala
+pa;ਕਰਯਾਲਾ;Kariala
+en;Karyala;Kariala
+fa;کریاله;Kariala
+ur;کریالہ;Kariala
+nl;Karyala;Kariala
+en;Karer;Kareray
+de;Karatschi;Karachi
+ar;كراتشي;Karachi
+fa;کراچی;Karachi
+fr;Karâchi;Karachi
+ja;カラチ;Karachi
+ko;카라치;Karachi
+pt;Carachi;Karachi
+ru;Карачи;Karachi
+sd;ڪراچي;Karachi
+tr;Karaçi;Karachi
+ur;کراچی;Karachi
+zh;卡拉奇;Karachi
+zh;喀拉蚩;Karachi
+mr;कराची;Karachi
+bo;ཀ་ར་ཆི;Karachi
+hi;कराची;Karachi
+ja;カラーチー;Karachi
+ps;کراچۍ;Karachi
+kk;Карачи;Karachi
+dv;ކަރާޗީ;Karachi
+pa;ਕਰਾਚੀ;Karachi
+kn;ಕರಾಚಿ;Karachi
+ug;كاراچى;Karachi
+bn;করাচী;Karachi
+my;ကရာချိမြို့;Karachi
+ta;கராச்சி;Karachi
+gu;કરાચી;Karachi
+th;การาจี;Karachi
+te;కరాచీ;Karachi
+tk;Karaçi;Karachi
+mn;Карачи;Karachi
+ml;കറാച്ചി;Karachi
+or;କରାଚୀ;Karachi
+uz;Karochi;Karachi
+yue;卡拉奇;Karachi
+en;Karanchi;Karachi
+en;Karāchi;Karachi
+as;কৰাচী;Karachi
+ne;कराची;Karachi
+ky;Карачи;Karachi
+tg;Карачи;Karachi
+en;Kappar;Taj Mahammad Kappar Log
+en;Kapar;Taj Mahammad Kappar Log
+ru;Каппар;Taj Mahammad Kappar Log
+nl;Kappar;Taj Mahammad Kappar Log
+en;Kānreza;Karaiza
+en;Kāngra;Kangra
+en;Kander;Goth Kander
+en;Kandar;Khandar
+en;Kandar;Kandare
+en;Kanboh;Kambo
+ru;Камоке;Kamoke
+en;Kambar;Qambar
+ceb;Kamar Mushāni;Kamar Mushani
+bn;কামার মুশনি;Kamar Mushani
+ur;کمر مشانی;Kamar Mushani
+hi;कमालिया;Kamalia
+ceb;Kamālia;Kamalia
+ru;Камалия;Kamalia
+ps;کماليا;Kamalia
+ar;كماليا;Kamalia
+sd;ڪماليه;Kamalia
+pa;ਕਮਾਲੀਆ;Kamalia
+fa;کمالیه، پاکستان;Kamalia
+ur;کمالیہ;Kamalia
+en;Kālūwāla;Kaluwala
+en;Kalluwala;Kaluwala
+fa;کلو میره;Kalu Maira
+en;Kalriāla;Kolriala
+en;Kelriala;Kolriala
+en;Kalinjar;Kalanjar Payan
+en;Kaliān Gohru;Kolian Guru
+en;Kolian Gauhru;Kolian Guru
+ru;Калат;Kalat
+ceb;Kālābāgh;Kalabagh
+bn;কলাবাঘ;Kalabagh
+pa;ਕਾਲ਼ਾ ਬਾਗ਼;Kalabagh
+ur;کالا باغ;Kalabagh
+en;Kāla;Kala Kalle
+ur;ککرالی;Kakrali
+ml;കാകോവാൾ;Kakowal
+en;Kaka Khel;Kakka Khel
+it;Kaka Khel;Kakka Khel
+fa;کاکاخیل;Kakka Khel
+fr;Kaka Khel;Kakka Khel
+ur;کاکاخیل;Kakka Khel
+nl;Kaka Khel;Kakka Khel
+en;Kāki;Kaki Dherai
+ru;Кахуте;Kahuta
+ceb;Kahūta;Kahuta
+hi;काहूता;Kahuta
+bn;কাহুতা;Kahuta
+si;කහුටා;Kahuta
+ur;کہوٹہ;Kahuta
+kn;ಕಹುತಾ;Kahuta
+ko;카후타;Kahuta
+mr;कहूटा;Kahuta
+ta;கஹடா;Kahuta
+zh;卡胡塔;Kahuta
+gu;કહુતા;Kahuta
+ar;كاهوتا;Kahuta
+te;కాహుతా;Kahuta
+th;คาห์ตา;Kahuta
+ja;カフタ;Kahuta
+fa;کهوته;Kahuta
+ceb;Kāhna;Kahna Nau
+hi;कहना नाओ;Kahna Nau
+en;Kaheri;Kaheri Sanawan
+en;Kahari Sinanwan;Kaheri Sanawan
+en;Kadai;Koday
+en;Kachi Gurmani;Kachchi Gurmani
+en;Kābie;Kabie
+sd;ڪبير والا;Kabirwala
+ceb;Kabīrwāla;Kabirwala
+fa;کبیر والا;Kabirwala
+ur;کبیر والا;Kabirwala
+de;Kabal;Kabbal
+sd;ڪبل تحصيل;Kabbal
+en;Kabal;Kabbal
+fa;کبل، سوات;Kabbal
+ur;کبل، سوات;Kabbal
+en;Jura;Jurgha
+en;Joya Māir;Joya Mir
+en;Jolagrām;Jolagram
+sd;جوھي;Johi
+ru;Джохи;Johi
+ur;جوہی;Johi
+ja;ジョハル;Chak Ninety-seven RB
+en;Johal;Chak Ninety-seven RB
+nl;Johal;Chak Ninety-seven RB
+en;Chak One Hundred Ninety-Six;Chak One Hundred Ninety-one
+en;Jhunjanwāli;Basti Jhanjhenwali
+en;Jhunjhanwali;Basti Jhanjhenwali
+en;Jhungra;Jhungrai
+en;Jhungra;Jhangare
+ru;Кхак Джхумра;Chak Jhumra
+en;Jharkal;Jhirkal
+fa;جهرکال;Jhirkal
+ur;جھرکال;Jhirkal
+nl;Jharkal;Jhirkal
+sd;جھمپير;Jhimpir
+ur;جھمپیر;Jhimpir
+ru;Джелам;Jhelum
+de;Jhelam;Jhelum
+it;Alessandria Bucefala;Jhelum
+ko;젤룸;Jhelum
+mr;झेलम शहर;Jhelum
+ur;جہلم;Jhelum
+pa;ਜੇਹਲਮ;Jhelum
+zh;傑赫勒姆;Jhelum
+fa;جهلم;Jhelum
+ps;جهلم;Jhelum
+hi;जटिय़ाला;Jhatla
+pa;ਝਾਟਲਾ;Jhatla
+fa;جهاتله;Jhatla
+ur;جٹیالہ;Jhatla
+hi;झांग सदर;Jhang Sadr
+ru;Джханг-Садр;Jhang Sadr
+pt;Jhang Sadar;Jhang Sadr
+fr;Jhang;Jhang Sadr
+bn;জাং সদর;Jhang Sadr
+zh-Hans;章萨德尔;Jhang Sadr
+si;ජන්ග් සදර්;Jhang Sadr
+id;Jhang Sadar;Jhang Sadr
+ur;جھنگ صدر;Jhang Sadr
+kn;ಝಾಂಗ್ ಸದರ್;Jhang Sadr
+ko;장 세다;Jhang Sadr
+mr;झांग सदर;Jhang Sadr
+ms;Jhang Sadar;Jhang Sadr
+en;Jhang Sadar;Jhang Sadr
+it;Jhang Sadar;Jhang Sadr
+ta;ஜ்ஹங் சடார்;Jhang Sadr
+es;Jhang Sadar;Jhang Sadr
+gu;ઝાંગ સદર;Jhang Sadr
+ar;جانغ صدر;Jhang Sadr
+te;జంగ్ సదర్;Jhang Sadr
+vi;Jhang Sadar;Jhang Sadr
+th;จาง ซาดาร์;Jhang Sadr
+ja;ジャン・サダー;Jhang Sadr
+nl;Jhang Sadar;Jhang Sadr
+tr;Jhang Sadar;Jhang Sadr
+en;Jhangi Daim;Jhangi Diam
+en;Jhāmra;Jamra
+en;Jerruck;Jherruck
+en;Jauriān;Jorian
+ru;Джаухарабад;Jauharabad
+en;Jatti Pāyān;Jattai Payan
+fa;جاتلی;Jatli
+ur;جاتلی;Jatli
+hi;जढ़ाँवाला;Jaranwala
+ps;جړانواله;Jaranwala
+zh-Hans;贾兰瓦拉;Jaranwala
+ur;جڑانوالہ;Jaranwala
+mr;जारनवाला;Jaranwala
+zh;傑蘭瓦拉;Jaranwala
+ar;جرانوالا;Jaranwala
+ja;ジャランワーラ;Jaranwala
+fa;جرانواله، پاکستان;Jaranwala
+ceb;Jarānwāla;Jaranwala
+ru;Джаранвала;Jaranwala
+bn;জারানওয়ালা;Jaranwala
+sd;جڙانوالا;Jaranwala
+si;ජරන්වලා;Jaranwala
+kn;ಜರನ್ವಾಲಾ;Jaranwala
+ko;자란왈라;Jaranwala
+ta;சரண்வாளா;Jaranwala
+gu;જારનવાલા;Jaranwala
+te;జరన్వాలా;Jaranwala
+pa;ਜੜ੍ਹਾਂਵਾਲਾ;Jaranwala
+th;จารันวาลา;Jaranwala
+en;Chak Jani;Jani Chak
+fa;چک جانی;Jani Chak
+ur;چک جانی;Jani Chak
+nl;Chak Jani;Jani Chak
+en;Jānglewāla;Jhanglawala
+en;Jangla;Jhanglawala
+en;Jangi Dheri;Jhangi Dheri
+en;Jangi Dheri;Jangi Dher
+hi;जिन्द खानज़ादा;Jand Khanzada
+fa;جند خانزاده;Jand Khanzada
+ur;جند خانزادہ;Jand Khanzada
+ur;جنڈ شریف;Jand Sharif
+en;Jām Shoro;Jamshoro
+fa;جمشیر کلان;Jamsher Kalan
+ur;جمشیر کلاں;Jamsher Kalan
+ru;Джамруд;Jamrud
+bn;জামরুদ;Jamrud
+pa;ਜਮਰੌਦ;Jamrud
+ja;ジャムルード;Jamrud
+fa;جمرود;Jamrud
+ur;جمرود;Jamrud
+ru;Джампур;Jampur
+en;Jamhat;Jamat
+ur;جمگھ;Jamgah
+en;Jāmbatai;Janbhatai
+en;Jamālpur;Jamalpur
+fa;جلپانا;Jalpana
+ur;جلپانا;Jalpana
+ceb;Jalālpur Pīrwāla;Jalalpur Pirwala
+pa;ਜਲਾਲਪੁਰ ਪੀਰਵਾਲਾ;Jalalpur Pirwala
+fa;جلال‌پور پیروالا;Jalalpur Pirwala
+ur;جلالپور پیروالا;Jalalpur Pirwala
+ru;Джалалпур Пируала;Jalalpur Pirwala
+ru;Джалалпур;Jalalpur Jattan
+fa;جلاله;Jalala
+ur;جلالہ;Jalala
+en;Jalak;Jhalak
+en;Jālābela;Jala Bela
+ru;Джахангира;Jahangira
+en;Jehangira;Jahangira
+fa;جهانگیرا;Jahangira
+fr;Jehangira;Jahangira
+ur;جہانگیرا;Jahangira
+nl;Jehangira;Jahangira
+ur;جاگل;Jagal
+en;Khangarh;Jacobabad
+zh;雅各布阿巴德;Jacobabad
+ur;جیکب آباد;Jacobabad
+sd;جيڪب آباد;Jacobabad
+ru;Джейкобабад;Jacobabad
+ps;جيکب اباد;Jacobabad
+hi;जकोबाबाद;Jacobabad
+fa;جیکب‌آباد، پاکستان;Jacobabad
+fa;جبوکا;Jaboka
+ur;جبوکا;Jaboka
+en;Jabi;Jabbi
+hi;जब्बी शाह दिलावर;Jabbi
+en;Jabbi Shah Dilawar;Jabbi
+fa;جبی‌شاه دلاور;Jabbi
+ur;جببی شاہ دلاور;Jabbi
+nl;Jabbi Shah Dilawar;Jabbi
+en;Jabba Tal;Jaba Teli
+fa;جبیرپور;Jabairpur
+ur;جبیرپور;Jabairpur
+en;Jabi;Beshumai
+en;Izh;Ege
+en;Isplezai;Speleza
+en;Isogai;Asugai
+en;Ismāīl Khel;Ismail Khel
+en;Ismāīla;Ismaila
+pt;Islamabade;Islamabad
+ru;Исламабад;Islamabad
+ug;ئىسلامئاباد;Islamabad
+bo;ཨི་སི་ལམ་བོ།;Islamabad
+bn;ইসলামাবাদ;Islamabad
+tg;Исламабад;Islamabad
+tr;İslamabad;Islamabad
+hi;इस्लामाबाद;Islamabad
+mn;Исламабад;Islamabad
+gu;ઇસ્લામાબાદ;Islamabad
+th;อิสลามาบัด;Islamabad
+ta;இஸ்லாமாபாத்;Islamabad
+ar;إسلام آباد;Islamabad
+mr;इस्लामाबाद;Islamabad
+fa;اسلام‌آباد;Islamabad
+pa;ਇਸਲਾਮਾਬਾਦ;Islamabad
+kk;Исламабад;Islamabad
+ko;이슬라마바드;Islamabad
+kn;ಇಸ್ಲಾಮಾಬಾದ್;Islamabad
+dv;އިސްލާމްއާބާދު;Islamabad
+ps;اسلام آباد;Islamabad
+ja;イスラマバード;Islamabad
+ml;ഇസ്ലാമബാദ്;Islamabad
+ur;اسلام آباد;Islamabad
+or;ଇସଲାମାବାଦ;Islamabad
+zh;伊斯兰堡;Islamabad
+yue;伊斯蘭堡;Islamabad
+ur;Ishkomān;Ishkoman
+ur;إشْکومَان;Ishkoman
+en;Īsanwāli;Isanwala
+en;Bet Issanwala;Isanwala
+en;Īsa Khel Topchiān;Isakhel Topchian
+en;Īsa Khel;Isa Khel Hamid
+en;Goth Jotoi;Imam Bakhsh Jatoi
+en;Goth Imām Bakhsh Jotoi;Imam Bakhsh Jatoi
+hi;हैदराबाद;Hyderabad
+sd;حيدرآباد، سنڌ;Hyderabad
+ru;Хайдарабад;Hyderabad
+fr;Hyderâbâd;Hyderabad
+ar;حيدر آباد;Hyderabad
+fa;حیدرآباد;Hyderabad
+ja;ハイデラバード;Hyderabad
+ko;하이데라바드;Hyderabad
+pa;ਹੈਦਰਾਬਾਦ;Hyderabad
+ta;ஐதராபாத்;Hyderabad
+tr;Haydarabad;Hyderabad
+ur;حیدرآباد، سندھ;Hyderabad
+zh;海得拉巴;Hyderabad
+en;Hyderābād;Hyderabad
+mr;हैदराबाद;Hyderabad
+uz;Haydarobod;Hyderabad
+en;Hussai;Hussai Kalle
+en;Hota Hatwāni;Hatwani
+en;Hota Hutwani;Hatwani
+en;Hitarwala;Hitharwala
+en;Heru Shāh;Hero Shah
+ceb;Hazro;Hazro City
+pt;Hazro;Hazro City
+uz;Hazro;Hazro City
+en;Hazro;Hazro City
+fr;Hazro;Hazro City
+ar;حضرو;Hazro City
+pa;ਹਜ਼ਰੋ;Hazro City
+id;hazro;Hazro City
+fa;حضرو، پنجاب;Hazro City
+ur;حضرو;Hazro City
+nl;Hazro;Hazro City
+en;Haveli Majoka;Haveli Majaka
+fa;حویلی مجوکه;Haveli Majaka
+ur;حویلی مجوکہ;Haveli Majaka
+nl;Haveli Majoka;Haveli Majaka
+ceb;Haveliān;Havelian
+ru;Хавелиан;Havelian
+zh-Hans;哈维连;Havelian
+zh-Hant;哈維連;Havelian
+si;හැවේලියන්;Havelian
+ja;ハヴェリアン;Havelian
+fa;حویلیان;Havelian
+ur;حویلیاں;Havelian
+ru;Хавели Лаха;Haveli Lakha
+en;Hathimera;Hathi Maira
+nl;Hathimera;Hathi Maira
+fa;هاتهالا;Hathala
+ur;ہاتھالا;Hathala
+uz;Hasola;Hasula
+en;Hasola;Hasula
+ur;ہسولہ;Hasula
+nl;Hasola;Hasula
+ceb;Hāsilpur;Hasilpur
+hi;हासिलपुर तहसील;Hasilpur
+ru;Хасилпур;Hasilpur
+bn;হাসিলপোর তেসিল;Hasilpur
+sd;حاصل پور;Hasilpur
+zh-Hans;哈斯里普;Hasilpur
+si;හැසිල්පුර් ටෙහ්සිල්;Hasilpur
+ur;حاصل پور;Hasilpur
+kn;ಹಸಿಲ್ಪುರ್ ತೆಹ್ಸಿಲ್;Hasilpur
+ko;하스필러 테실;Hasilpur
+mr;हसिलपूर तहसील;Hasilpur
+ta;ஹாசில்ப்பூர் டேஹஸில்;Hasilpur
+gu;હાસિલપુર તહેસીલ;Hasilpur
+ar;هاسيلبور;Hasilpur
+te;హాసిల్పూర్ తహసీల్;Hasilpur
+th;ฮาสิพอร์ ทัชซิล;Hasilpur
+ja;ハシプル;Hasilpur
+fa;حاصل‌پور;Hasilpur
+en;Hasanābād;Hassanabad
+en;Hasil;Hasal
+en;Haryāna;Hariana Kalle
+ru;Харунабад;Harunabad
+en;Harniāli;Harnali Saiyidan
+ru;Харипур;Haripur
+en;Hariānkot;Haryan Kot
+en;Hariana;Ariana
+en;Hargūni;Pargoni
+ur;Harchīn;Harchin
+ur;ھَارْچِین;Harchin
+ur;ہَرْچِین;Harchin
+ur;ہَارْچِین;Harchin
+en;Harar;Harrar
+ja;ハラッパー;Harappa
+ur;ہڑپہ;Harappa
+zh;哈拉帕;Harappa
+ar;هارابا;Harappa
+bn;হরপ্পা;Harappa
+fa;هاراپا;Harappa
+kn;ಹರಪ್ಪ;Harappa
+ko;하라파;Harappa
+ml;ഹരപ്പ;Harappa
+mr;हडप्पा;Harappa
+pa;ਹੜੱਪਾ;Harappa
+si;හරප්පා;Harappa
+ta;அரப்பா;Harappa
+te;హరప్పా;Harappa
+ru;Хараппа;Harappa
+hi;हड़प्पा;Harappa
+ps;هړپه;Harappa
+uz;Xarappa;Harappa
+fa;هرن‌پور;Haranpur
+ur;ہرن پور;Haranpur
+en;Harāj;Heraj
+fa;هنگرائی;Hangrai
+ur;ہنگرائی;Hangrai
+en;Hāndo;Hando Gujran
+en;Hamza Khān;Hamza Khan Kalle
+en;Hāla;Hala
+ru;Хала;Hala
+ceb;Hāla;Hala
+hi;हाला;Hala
+zh;信德省哈拉城乡;Hala
+sd;هالا;Hala
+ar;هالا;Hala
+zh-Hant;信德省哈拉城鄉;Hala
+fa;هالا، سند;Hala
+ur;ہالا، سندھ;Hala
+fa;هکله;Hakla
+ur;ہکلہ;Hakla
+ur;ہجیرہ;Hajira
+fa;هجیره;Hajira
+ar;هجيرة;Hajira
+en;Kathro;Goth Haji Jam Shoro
+en;Goth Hāji Jāmshoro;Goth Haji Jam Shoro
+en;Hāji Jām Shoro;Goth Haji Jam Shoro
+ru;Хафизабад;Hafizabad
+en;Hab Nadi Chowki;Hab Chauki
+en;Habnadi;Hab Chauki
+en;Hab Chawki;Hab Chauki
+ar;جوادر;Gwadar
+fa;گوادر;Gwadar
+ur;گوادر;Gwadar
+ru;Гвадар;Gwadar
+hi;ग्वादर;Gwadar
+ja;グワーダル;Gwadar
+ko;과다르;Gwadar
+yue;瓜達爾;Gwadar
+zh;瓜达尔;Gwadar
+tr;Gvadar;Gwadar
+ur;غورسے;Ghursay
+ur;Gopis;Gupis
+ur;گوپِس;Gupis
+en;Gumtāi Kalle;Gumbat Kalle
+en;Gumbad;Gumbat
+en;Gulwandai;Ghurwandai
+en;Gul Qāim Mastoi;Gul Qaim
+en;Gul Muhammad Hālepota;Saiyid Ahmad Ali Shah
+en;Saiyid Amīr Ali Shāh;Saiyid Ahmad Ali Shah
+fa;گلمیری;Gulmiri
+bn;গুলমিরি;Gulmiri
+ur;گلمیری;Gulmiri
+en;Gul Kakh;Gul Khokh
+en;Gul Khakh;Gul Khokh
+en;Guli Garhi;Gali Garhi
+ur;گلیانہ;Guliana
+en;Gulbela;Gul Bila
+ur;گجرات;Gujrat
+ru;Гуджарат;Gujrat
+hi;गुजरात;Gujrat
+ur;قصبہ گجرات;Qasba Gujrat
+ur;گوجرانوالہ;Gujranwala
+ru;Гайранвала;Gujranwala
+pa;گوجرانوالہ;Gujranwala
+hi;गुजरांवाला;Gujranwala
+zh;古杰兰瓦拉;Gujranwala
+en;Gūjar Kili;Gujar Kalle
+ceb;Gūjar Khān;Gujar Khan
+ru;Гуджар Хан;Gujar Khan
+bn;গুজার খান;Gujar Khan
+pa;ਗੁੱਜਰ ਖ਼ਾਨ;Gujar Khan
+fa;گوجرخان;Gujar Khan
+ur;گوجر خان;Gujar Khan
+en;Gūjar Garhi;Gujar Garhi
+ja;ゴザ;Coza
+en;Goza;Coza
+nl;Goza;Coza
+ur;گوٹریالہ;Goteriala
+en;Goth Yūsuf;Goth Haji Ghou Bay
+en;Goth Yūsof;Goth Haji Ghou Bay
+en;Goth Sumār Khān;Goth Sumar Khan
+en;Goth Qaisar Rajār;Goth Qaisar Khan Rajar
+en;Hāji Qaiser Khān Village;Goth Qaisar Khan Rajar
+en;Goth Nūr Muhammad;Nur Muhammad Brahui
+en;Goth Nur Muhammad Brahui;Nur Muhammad Brahui
+en;Goth Mīru;Goth Miro
+en;Goth Mehru;Goth Miro
+en;Jindu Misan;Goth Miro
+en;Mehrāb di Goth;Mihrab di Goth
+en;Goth Mahrāb;Mihrab di Goth
+en;Goth Mehrab;Mihrab di Goth
+en;Goth Lashkari;Lashkari Goth
+en;Lashkār;Lashkari Goth
+en;Goth Lāl;Lal di Goth
+en;Goth Jumo;Goth Jumma
+en;Goth Jumma;Goth Jumma Khan
+en;Goth Ismāil;Ismail Goth
+en;Goth Gahna;Goth Gahnawali
+en;Goth Gehna;Goth Gahnawali
+en;Goth Dost Muhammad Junjar;Goth Dost Muhammad
+en;Goth Bhullan Shāh Nurāi;Goth Bhulan Shah Nurai
+en;Goth Bhājan;Goth Bajan
+en;Goth Abdullāh;Goth Abdullah Gabol
+ur;گولڑہ ہاشم;Golra Hashim
+ur;گوما;Goma
+en;Golra Sharif;Golra
+fa;گوجره، پاکستان;Gojra
+ps;گوجرا;Gojra
+ur;گوجرہ;Gojra
+ru;Годжра;Gojra
+hi;गोजरा;Gojra
+zh-Hans;戈杰拉;Gojra
+mr;गोजरा;Gojra
+es;Gorja;Gojra
+zh;哥吉拉;Gojra
+ar;غوجرا;Gojra
+ja;ゴジュラ;Gojra
+bn;গজরা;Gojra
+sd;گوجره;Gojra
+si;ගොජ්රා;Gojra
+kn;ಗೋಜ್ರಾ;Gojra
+ko;고지라;Gojra
+ta;குஜ்ரா;Gojra
+gu;ગોજરા;Gojra
+te;గోజ్ర;Gojra
+pa;ਗੋਜਰਾ;Gojra
+th;กอจรา;Gojra
+ur;گوھْکِیر;Gohkir
+ur;Gobor;Gaburbakh
+ur;گوبور;Gaburbakh
+en;Girote;Girot
+fa;گروت، پاکستان;Girot
+ur;گروٹ;Girot
+nl;Girote;Girot
+fa;گلوتی;Giloti
+ur;گلوٹی;Giloti
+ur;گلگت;Gilgit
+ar;كلكت;Gilgit
+bn;গিলগিট;Gilgit
+fa;گلگت;Gilgit
+hi;गिलगित;Gilgit
+ru;Гилгит;Gilgit
+zh;吉尔吉特;Gilgit
+kk;Гилгит;Gilgit
+ky;Гилгит;Gilgit
+ja;ギルギット;Gilgit
+pa;ਗਿਲਗਿਟ;Gilgit
+ps;گلگت;Gilgit
+tg;Гилгит;Gilgit
+en;Giddar;Gidar
+en;Gīdar;Mehmudabad
+en;Gīdar;Gidar
+fa;غورغشتی;Ghorghushti
+ur;غورغشتى;Ghorghushti
+en;Ghumman;Ghuman
+en;Goth Ghulāmi Wadera;Goth Ghulam Wadera
+en;Goth Ghulāmi Wadero;Goth Ghulam Wadera
+en;Ghulām Wadera;Goth Ghulam Wadera
+en;Ghulām Haidar Surāni;Ghulan Haidor Surani
+en;Ghogh;Ghugh
+ru;Готки;Ghotki
+en;Ghotāna;Goth Ghotana
+en;Ghonda Karkana;Ghund Karkanra Kalle
+fa;غوندا کارخانه;Ghund Karkanra Kalle
+ur;غونڈا کارخانہ;Ghund Karkanra Kalle
+nl;Ghunda Karkana;Ghund Karkanra Kalle
+en;Ghilzai;Ghilgai
+fa;غزنی خیل;Ghazni Khel
+ur;غزنی خیل;Ghazni Khel
+en;Ghāzīkot;Ghazi Kot
+en;Ghāzi Ghāt;Ghazi Ghat
+en;Ghaz Ghat;Ghazi Ghat
+en;Ghāzī Bāba;Ghaziabad
+en;Ghaliūn;Ghaliun
+uz;Ghagoki;Gagoki
+en;Ghagoki;Gagoki
+fa;گهاگوکی;Gagoki
+nl;Ghagoki;Gagoki
+en;Gezh;Gezh Jaffa Khan Kili
+fa;گهلان هتهار;Gehlan Hithar
+ur;گہلن ہٹھاڑ;Gehlan Hithar
+en;Gazagai;Jarandu Kalle
+en;Gawāi;Gohi
+ur;Gashaṭ;Gashti
+ur;گَشَٹ;Gashti
+en;Garhi Sharīf Khān;Garhi Sharif Khan
+en;Garhi Sardār;Sardar Garhi
+en;Garhi Rānu;Garhi Rano
+fa;گرهی متانی;Garhi Matani
+ur;گڑھی متانی;Garhi Matani
+en;Garhi Kapūra;Garhi Kapura
+en;Garhi Ismāīlzai;Garhi Ismailzai
+en;Garhi Dildār;Dildar Garhi
+en;Garhi Balūchābād;Baluchabad
+en;Beyār Garhi;Biar Garhi
+pa;ਚੱਕ 241 ਗ. ਬ. ਗੜ੍ਹਾ;Chak 241 GB Garha
+en;Gardi;Gardu
+en;Garanga Pāyān;Garange Payan
+en;Garai;Garhai
+en;Gāngu;Gangu
+en;Gandere;Gandare
+en;Gandākas;Ganda Kas
+ar;قنداف;Gandaf
+ur;گنداف;Gandaf
+ur;غویس;Ghavis
+sd;گمبٽ;Gambat
+ru;Гамбат;Gambat
+fa;گمبت;Gambat
+ur;گمبٹ;Gambat
+fa;گجو مته;Gajju Matta
+ur;گجو متہ;Gajju Matta
+en;Gujani;Gajani
+hi;गग्गो;Gaggo
+fa;گگو;Gaggo
+ur;گگو;Gaggo
+en;Gadar;Gedar
+en;Gada Khel;Kauda Khel
+en;Firozpur;Feroz Pur
+en;Firoz Khān Būbak;Bubak
+en;Fim Kasar;Fim Kassar
+en;Fazl Haq Garhi;Fazal Haque Garhi
+en;Fathuwāli;Fatehwali
+en;Fattūwāli;Fatehwali
+en;Fattūwāla;Fattuwala
+en;Fattu Mal;Fattuwala
+en;Fattu Kili;Fatu Abdul Rahim
+en;Chak Two Hundred Forty-nine Thal Development Authority;Fatehpur
+en;Fateh Pur;Fatehpur
+en;Fateh Bhand;Fatah Bhand
+fa;فاتح بهند;Fatah Bhand
+ur;فتہ بھنڈ;Fatah Bhand
+nl;Fateh Bhand;Fatah Bhand
+en;Fatehābād;Tambolak Kalle
+en;Farid Kasar;Farid Kassar
+en;Farīdābād;Faridabad
+ceb;Faqīrwāli;Faqirwali
+fa;فقیروالی;Faqirwali
+ur;فقیروالی;Faqirwali
+ja;ファイサラバード;Faisalabad
+ar;فيصل آباد;Faisalabad
+ja;ファイサラーバード;Faisalabad
+ur;فیصل آباد;Faisalabad
+ru;Фейсалабад;Faisalabad
+ru;Еминабад;Eminabad
+fa;دونگه بونگه;Dunga Bunga
+ur;ڈونگا بونگا;Dunga Bunga
+en;Dundia;Dagai
+ceb;Dullewāla;Dullewala
+fa;دلی‌والا;Dullewala
+ur;دُلےوالا;Dullewala
+en;Dolha;Dulla
+ur;دْروش;Drosh
+ur;دْرَاسَن;Drasan
+en;Drāmān;Drahman
+en;Dosehra;Dosera
+fa;دوسهره;Dosera
+ur;دوسہرہ;Dosera
+nl;Dosehra;Dosera
+en;Dommel Nīssa;Dommel Nissar
+ur;Ḍamel;Dommel Nissar
+ur;ڈَمیل;Dommel Nissar
+hi;डोकरी;Dokri
+sd;ڏوڪري;Dokri
+ru;Дакри;Dokri
+fa;دکری;Dokri
+ur;ڈوکری;Dokri
+en;Budhla Sant;Dograna Budhla Sant
+nl;Budhla Sant;Dograna Budhla Sant
+ur;ڈوگہ شریف;Doga Sharif
+en;Dogar Kalāsara;Dogar Kalasra
+en;Dogra Kulasra Sinawan;Dogar Kalasra
+en;Dodher Dhand;Dodher
+ur;Dūbargar;Dobargar
+ur;دُوبَرْگَر;Dobargar
+en;Dobandi;Dobondi
+nl;Dobandi;Dobondi
+en;Dewala;Diwala
+fa;دیوالا;Diwala
+ur;دیوالا;Diwala
+nl;Dewala;Diwala
+en;Ditta Baloch;Ditta Baluch
+en;Dīr;Upper Dir
+kk;Дипалпур;Dipalpur
+ceb;Dīpālpur;Dipalpur
+ru;Дипалпур;Dipalpur
+ta;தீபல்பூர்;Dipalpur
+es;Depalpur;Dipalpur
+sd;ديپالپور;Dipalpur
+fa;دیپالپور;Dipalpur
+ur;دیپالپور;Dipalpur
+en;Dinan Wala;Dinan Bashnoian Wala
+ur;دینن بشنوئیاں والہ;Dinan Bashnoian Wala
+fa;دینگا;Dinga
+bn;ডিঙ্গা;Dinga
+ur;ڈینگا;Dinga
+en;Dilsora;Kili Dil Sorah
+pa;ਡਜਕੋਟ;Dijkot
+hi;दाजकोट;Dijkot
+fa;دج‌کوت;Dijkot
+ur;ڈجکوٹ;Dijkot
+ru;Дигри;Digri
+hi;ढुरनाल;Dhurnal
+fa;دهرنال;Dhurnal
+ur;ڈھرنال;Dhurnal
+en;Dhuma Malka;Dhumma Malka
+en;Dhudhial;Dhudial
+ur;منگلیہ;Manglia
+en;Dhobian;Dobian
+fa;دهنگ شاه;Dhing Shah
+ur;دھنگ شاہ;Dhing Shah
+ur;دھنگ;Dhing
+en;Dheri Zardād Khān;Dheri Zardad
+fa;دهیری زرداد;Dheri Zardad
+ur;ڈھیری زرداد;Dheri Zardad
+en;Dheri Samundar Khān;Dheri Sikandar Khan
+fa;دهونکل;Dhaunkal
+ur;دھونکل;Dhaunkal
+fa;دهاری رائی دته;Dhari Rai Ditta
+ur;دھاری رائی دتہ;Dhari Rai Ditta
+ur;دھاپئی;Dhapai
+en;Dhanote;Dhanot
+en;Dhamiāl Camp;Dhamial
+ur;دھم;Dham
+pa;ਧੱਲੇਵਾਲੀ;Dhallewali
+en;Dhadhumbar;Dhadhumber
+en;Dhad Humbur;Dhadhumber
+en;Dhāb;Dab Kalan
+en;Dabb;Dab Kalan
+en;Dab;Dab Kalan
+en;Dera Izzat;Dera Azmat
+ru;Дера-Исмаил-Хан;Dera Ismail Khan
+hi;डेरा ग़ाज़ी ख़ान;Dera Ghazi Khan
+th;เดรากาซีข่าน;Dera Ghazi Khan
+ur;ڈیرہ غازی خان;Dera Ghazi Khan
+fa;دیره غازی‌خان، پاکستان;Dera Ghazi Khan
+ru;Дера-Гази-Хан;Dera Ghazi Khan
+zh;德拉加齊汗;Dera Ghazi Khan
+ps;ډېره غازي خان;Dera Ghazi Khan
+hi;फ़तह खान;Fateh Khan
+fa;فاتح‌خان;Fateh Khan
+ur;فاتح خان;Fateh Khan
+ceb;Deo Siāl;Deo Sial
+fa;دیو سیال;Deo Sial
+ur;دیو سیال;Deo Sial
+en;Deona;Deona Jaliani
+fa;دئونا، گجرات;Deona Jaliani
+ur;دیونہ منڈی;Deona Jaliani
+nl;Deona;Deona Jaliani
+en;Dāya Chokha Gharbi;Daya Chokha Gharbi
+en;Dāya Chokha Sharqi;Daya Chokha
+fa;داورداد;Daurdad
+ur;داورداد;Daurdad
+en;Daurānpura;Doran Pur
+ru;Даур;Daur
+fa;دولت پوره;Daulatzai
+ur;دولت پورہ;Daulatzai
+nl;Daulat Pura;Daulatzai
+ur;دولت نگر;Daulat Nagar
+hi;दरया खान;Darya Khan
+ceb;Darya Khān;Darya Khan
+sd;دريا خان;Darya Khan
+fa;دریاخان;Darya Khan
+ur;دریا خان;Darya Khan
+en;Muhammad Khān;Darya Khan
+fa;درگئی;Dargai
+ur;درگئی;Dargai
+en;Dāng Qila;Dang Qala
+en;Dang Lakhte;Dang Lakhtai Payan
+en;Dandi Gūjarān;Dandi Gujran
+en;Dāndewāla;Dandewala
+en;Dāmb;Goth Damb
+en;Dāmān Hindko;Hindku
+en;Dāmān Afghāni;Pukhto Daman
+hi;डलवाल;Dalwal
+pa;ਡਲਵਾਲ;Dalwal
+fa;دلوال;Dalwal
+ur;ڈلوال;Dalwal
+en;Dāli Wādi;Dali Wad
+en;Dakai;Dakki Kalle
+ru;Даял;Dajal
+en;Dāgi;Dagai Shah
+en;Daftuh;Daftu
+fa;دافتوح;Daftu
+ur;دافتوح;Daftu
+ur;دادُو;Dadu
+ru;Даду;Dadu
+en;Dab Khānzai;Dab Khanzai
+en;Chak Four Hundred Thirteen;Chak Four Hundred Forty-three
+en;Chutiātan;Chukiatan
+en;Kili Chūrmiān;Churmian
+ur;Chūnj;Chunj
+ur;چُونْج;Chunj
+sd;چنيان;Chunian
+ceb;Chūniān;Chunian
+fa;چونیان;Chunian
+ur;چونیاں;Chunian
+ru;Кхуниан;Chunian
+en;Chowkara;Chukara
+fa;چوکارا;Chukara
+ur;چوکارہ;Chukara
+nl;Chowkara;Chukara
+en;Choti;Choti Zarin
+fa;چوتاله;Chotala
+ur;چوتالا;Chotala
+fa;چوپله;Chopala
+ur;چوپالہ;Chopala
+en;Chohān;Chichian Chohan
+hi;चोव़ा सैदानशाह;Choa Saidan Shah
+ceb;Choa Saidān Shāh;Choa Saidan Shah
+sd;چوئا سعيدان;Choa Saidan Shah
+ja;コア・サイダンシャー;Choa Saidan Shah
+fa;چوآسیدن شاه;Choa Saidan Shah
+fr;Choa Saidanshah;Choa Saidan Shah
+ur;چوآسیدن شاہ;Choa Saidan Shah
+ur;چترال;Chitral
+en;Chetrar;Chitral
+ru;Читрал;Chitral
+ko;치트랄;Chitral
+fa;چیترال;Chitral
+hi;चित्राल;Chitral
+ja;チトラル;Chitral
+ps;چترال;Chitral
+th;จิตราล;Chitral
+bn;চিত্রল;Chitral
+fa;چترال;Chitral
+tr;Çitral;Chitral
+ceb;Chishtiān Mandi;Chishtian
+ru;Чиштиан-Манди;Chishtian
+ps;چشتيا;Chishtian
+ar;ششتيان شريف;Chishtian
+sd;چشتيان;Chishtian
+fa;چشتیان، پاکستان;Chishtian
+ur;چشتیاں;Chishtian
+ru;Чиниот;Chiniot
+fa;چنیوت، پاکستان;Chiniot
+ur;چنیوٹ;Chiniot
+zh;吉尼奧德;Chiniot
+ps;چنيوټ;Chiniot
+en;Chīna;China Kalle
+ur;چلاس;Chilas
+en;Chikkar;Sukar
+ur;چیچیاں;Chechian
+ru;Чичаватни;Chichawatni
+ur;Chiṭī Sar;Chiti Sar
+ur;چِٹِی سَر;Chiti Sar
+fa;چهدرو;Chhidru
+bn;ছিদ্রু;Chhidru
+ur;چھدرو;Chhidru
+en;Chhibarkhor Serīn;Basti Nawan
+en;Chibhar Khor Serin;Basti Nawan
+en;Chechian;Chichian
+nl;Chechian;Chichian
+en;Jhawrian;Chhabrian
+fa;جهاوریان;Chhabrian
+fr;Jhawrian;Chhabrian
+ur;جھاوریاں;Chhabrian
+nl;Jhawrian;Chhabrian
+en;Basti Chhamb Kullyār;Chhamb Kallyar
+en;Chhamb;Chhamb Kallyar
+en;Chhaba;Chabian
+en;Chel;Chehl
+en;Chaweli;Chawli
+en;Chauki Gul Bādshāh;Chauki Mamraiz
+en;Chauki Drab;Chauki Darab
+en;Īsa Goth;Isa Bazar
+ru;Чарсадда;Charsadda
+en;Chārparīza;Charpareza
+ceb;Chārguli;Charguli
+fa;چارگلی;Charguli
+ur;چارگلی;Charguli
+en;Bet Chanwala;Chanwala
+fa;جهان‌تله;Jhantla
+ur;جھانٹلہ;Jhantla
+en;Chānd Bībi;Chan Bebe
+en;Chamkanni;Chamkani
+ur;چمکنی، پاکستان;Chamkani
+en;Cham Dheri;Cham Dher
+hi;चमन;Chaman
+ja;チャマン;Chaman
+ko;차만;Chaman
+tr;Çaman;Chaman
+ur;چمن;Chaman
+ru;Чаман;Chaman
+ru;Чаквал;Chakwal
+en;Chakrah;Chakra
+en;Chak Mura;Chak Umra
+ur;چک مہمندہ;Chak Mahmada
+en;Chak Lāla;Chaklala Cantonment
+en;Chak Kāka Khel;Kaka Khel Dheri
+ur;چک حمید;Chak Hamid
+ps;چاکسار;Chakesar
+en;Chakdara;Chakdarra
+en;Chak Beli;Chak Beli Khan
+fa;چاینتری;Chaintri
+ur;چاہڑکے;Chahrkey
+ur;بزرگوال;Bazurgwal
+fa;برج رن سینگ;Burj Ran Singh
+ur;برج رن سنگھ;Burj Ran Singh
+en;Burji;Dhok Burji
+ru;Бурьюала;Burewala
+ur;Bunī;Buni
+ur;بُنِی;Buni
+en;Budni;Budhni
+en;Buddhu;Samar Bagh
+en;Brumboret;Bumhoret
+ur;Bambureṭ;Bumhoret
+ur;بَمْبُریٹ;Bumhoret
+ur;بْریپ;Brep
+en;Bokra;Bakra
+ur;Bārzīn;Birzin
+ur;بَارْزِین;Birzin
+en;Biron Shāl;Baron Shal
+en;Birmogh Lasht;Birmagh Lasht
+th;โภง;Bhung
+en;Bhong;Bhung
+fa;بهونگ;Bhung
+ur;بھونگ;Bhung
+nl;Bhong;Bhung
+fa;بهومن شاه;Bhoman Shah
+ur;بھمن شاہ;Bhoman Shah
+fa;بهوئی اصل;Bhoe Asal
+ur;بھوئے آصل;Bhoe Asal
+ru;Бхириа;Bhiria
+en;Bhindo;Bindo Sharif
+ceb;Bhindar Kalān;Bhindar Kalan
+fa;بهیندر کلان;Bhindar Kalan
+ur;بھنڈر کلاں;Bhindar Kalan
+en;Bhikhāri;Bikhari Khurd
+en;Behkhari;Bikhari Khurd
+en;Bhiān;Bhian
+hi;भेड़ा;Bhera
+ru;Бхера;Bhera
+sd;ڀيرا;Bhera
+ar;بهيرة;Bhera
+fa;تحصیل بهیره;Bhera
+ur;بھیرہ;Bhera
+ur;بيدياں كلاں;Bhedian Kalan
+ceb;Bhawāna;Bhawana
+hi;भवाना;Bhawana
+ru;Бхавана;Bhawana
+bn;বাওয়ানা;Bhawana
+sd;ڀوانا;Bhawana
+zh-Hans;巴瓦那;Bhawana
+si;භාවානා;Bhawana
+ur;بھوانہ;Bhawana
+kn;ಭಾವನ;Bhawana
+ko;바화아;Bhawana
+mr;भावना;Bhawana
+ta;பாவாணா;Bhawana
+gu;ભાવના;Bhawana
+ar;بهاونا;Bhawana
+te;భావన;Bhawana
+th;บาวานา;Bhawana
+ja;バワナ;Bhawana
+fa;بهوانه;Bhawana
+tr;Bhanawa;Bhawana
+en;Bhatti;Bhattiwala
+ur;بھٹیاں;Bhattian
+hi;भरपुर;Bharpur
+pa;ਭਰਪੂਰ ਕਲਾਂ;Bharpur
+fa;بهرپور;Bharpur
+ur;بھرپورکلاں;Bharpur
+en;Bhari Hog;Bharihog
+en;Bharyog;Bharihog
+fa;بحامبا کلان;Bhamba Kalan
+ur;بحامبا کلاں;Bhamba Kalan
+hi;भलवाल;Bhalwal
+ceb;Bhalwāl;Bhalwal
+ps;بالوال;Bhalwal
+ru;Бхалвал;Bhalwal
+bn;ভাওয়াল;Bhalwal
+sd;ڀلوال;Bhalwal
+zh-Hans;巴哈瓦;Bhalwal
+si;භාල්වල්;Bhalwal
+ur;بھلوال;Bhalwal
+kn;ಭಲ್ವಾಲ್;Bhalwal
+ko;바하왈;Bhalwal
+mr;भालवाल;Bhalwal
+ta;பால்வாள்;Bhalwal
+es;Bhalwai;Bhalwal
+gu;ભાલવાલ;Bhalwal
+ar;بهلوال;Bhalwal
+te;బల్వాల్;Bhalwal
+th;บฮาวัล;Bhalwal
+ja;バルワル;Bhalwal
+fa;بهلوال;Bhalwal
+ru;Бхаккар;Bhakkar
+ru;Фул Нагар;Phool Nagar
+en;Bhagiwal;Bhagewal Lanwanwala
+fa;بهاگیوال;Bhagewal Lanwanwala
+ur;بھاگیوال;Bhagewal Lanwanwala
+nl;Bhagiwal;Bhagewal Lanwanwala
+ur;بھگوال چکوال;Bhagwal
+en;Bhagwal, Chakwal;Bhagwal
+ur;بھگوال, گجرات;Bhagwal
+ur;بھاگووال کلاں;Bhagowal Kalan
+en;Bhādwāla;Bharwala
+en;Bet Walidad Khulung;Bet Walidad Khulang
+en;Bet Utera;Bet Uttera
+en;Bet Uttera;Bet Uttara
+en;Bet Sawai;Bet Swai
+en;Bet Matwāniwāli;Bet Matwaniwali
+en;Matwani Wali;Bet Matwaniwali
+en;Bet Mulana;Bet Malana
+en;Bet Luda;Bet Ludda
+en;Bet Faqīrwāli;Faqirwali
+en;Faqir Wali;Faqirwali
+fa;بئور، پاکستان;Beor
+en;Banka Cheema;Benka Chima
+ur;بانکا چیمہ;Benka Chima
+nl;Banka Cheema;Benka Chima
+en;Bela Barāmad Khel;Bele Baramad Khel
+en;Bela Number Four;Bela
+ru;Бела;Bela
+fa;بهرام خیل;Behram Khel
+ur;بہرام خیل;Behram Khel
+fa;بهبودی، پاکستان;Behbudi
+fa;بیگو خیل;Begu Khel
+ur;بیگو خیل;Begu Khel
+en;Begāl;Baigal
+en;Bar Bāzdarra;Baz Darra Bala
+en;Bawāni Sarāi;Goth Bhawani
+en;Battagram City;Battagram
+ru;Баттаграм;Battagram
+en;Batgarām;Batgram
+en;Shadi Khan Sinawan;Basti Shadi Khan
+en;Bet Ruk;Basti Ruk
+en;Basti Rānjha;Rajanwala
+en;Pirzada;Basti Pirzada
+pa;ਬਸਤੀ ਮਲੂਕ;Basti Maluk
+fa;بستی ملوک;Basti Maluk
+ur;بستی ملوک;Basti Maluk
+en;Bet Angra;Basti Machhi
+hi;बस्ती फ़ौजा;Basti Fauja
+fa;بستی فاوجا;Basti Fauja
+ur;بستی فاوجا;Basti Fauja
+hi;बशारत;Basharat
+pa;ਬਸ਼ਾਰਤ;Basharat
+fa;بشارت، پاکستان;Basharat
+ur;بشارت;Basharat
+fa;بهاروال;Baharwal
+ur;بہاروال;Baharwal
+en;Bārwa;Summer Bagh
+ur;Barum;Baram
+ur;بَرُم;Baram
+en;Barkiāb;Barkaib
+ur;بارکھان;Barkhan
+en;Saringin;Baringin
+en;Bāri Bandān Sohbat;Angro Bara Band
+ur;بَرینِس;Brenis
+en;Lar Bīnr;Lar Bin
+en;Bar Ayāgai;Hayagai Gharbi
+en;Chak Three Hundred Forty-six;Chak Three Hundred Forty-six Jhang Branch
+en;Bar;Ban Bazar
+en;Bān;Ban Bazar
+en;Bāqarpur;Baqir Pur
+en;Bakrani;Baqirani
+fa;باکرانی;Baqirani
+ur;باقرانی;Baqirani
+nl;Bakrani;Baqirani
+en;Bānoth;Goth Bhanat
+hi;बन्नू;Bannu
+ja;バンヌ;Bannu
+ko;반누;Bannu
+ur;بنوں;Bannu
+ru;Банну;Bannu
+ur;بَانْگ;Bang Pain
+en;Band Vīrāh;Band Virah
+ur;بَنْدوک;Bandok
+en;Bānda Mallāhān;Banda Mulla Khan
+ur;بانڈہ داؤد شاہ;Banda Daud Shah
+en;Bālu;Balu
+ur;كريم آباد;Karimabad
+en;Balocha Surāni;Balocha Surani
+en;Ballo Kasar;Ballo Kassar
+en;Bilkanai;Balkanai
+nl;Bilkanai;Balkanai
+en;Bālāgarhi;Bala Garhi
+en;Bājoro;Bajauro
+en;Bains;Banis
+en;Bahrām Kili;Behram Kalle
+en;Behrām Khān Dheri;Baram Khan Dheri
+en;Bahlola;Bahlolo Payan
+ru;Бахавалпура;Bahawalpur
+fr;Bahawâlpur;Bahawalnagar
+es;Bahawalpur;Bahawalnagar
+en;Bahawalpur;Bahawalnagar
+pt;Bahawalpur;Bahawalnagar
+ur;بہاولپور;Bahawalnagar
+ru;Бахавалнагар;Bahawalnagar
+en;Bahādur Kalie;Bahadur Kalle
+en;Bahādur Kili;Bahadur Kalle
+en;Bāgwah;Bagwah
+en;Bāgu Bānda;Chak Bagu Banda
+ur;باگڑیانوالہ;Bagrianwala
+fa;باگریان‌والا;Bagrianwala
+en;Baghdāda;Bughdada
+en;Bāgh Aram;Bagh-e-Irum
+en;Badlot;Badio
+fa;بدلوت;Badio
+ur;بدلوٹ;Badio
+nl;Badlot;Badio
+sd;بدين‎;Badin
+ru;Бадин;Badin
+ur;بھدر;Bhaddar
+sd;بدو ملهي;Baddomalhi
+hi;बद्दोमल्ही;Baddomalhi
+pa;ਬੱਦੋਮੱਲੀ;Baddomalhi
+fa;بدوملهی;Baddomalhi
+ur;بادومالہی;Baddomalhi
+en;Badoki Sikhwan;Baddoki
+ur;بدوکی‌ سیکھواں;Baddoki
+en;Bāda;Goth Bada
+en;Bābūzai;Babuzai Kalle
+en;Bābuzai;Babuzai
+en;Bābīni;Babaini
+en;Bābi;Babi Jadid
+en;Azīm Khān Kili;Aman Khan Kalle
+fa;اوان کلان;Awan Kalan
+en;Little Attock;Attock Khurd
+pa;ਅੱਟਕ ਖ਼ੁਰਦ;Attock Khurd
+ja;アトック・クルド;Attock Khurd
+ur;اٹک خورد;Attock Khurd
+ta;அட்டோக் குர்து;Attock Khurd
+ru;Атток;Attock City
+en;Atki;Atk
+pt;Asota;Asota Sharif
+nl;Asota;Asota Sharif
+ur;Arkārī;Ishperu Arkari
+ur;Isperū Arkārī;Ishperu Arkari
+ur;اَرْکَارِی;Ishperu Arkari
+ur;اِسْپیرُو اَرْکَارِی;Ishperu Arkari
+ru;Арифвала;Arifwala
+en;Arbi Bānda;Arbi Banda
+ur;Arandū;Arandu
+ur;اَرنْدو;Arandu
+en;Anwar Kili;Anwar Kalle
+en;Anba Dher;Amba Dher
+en;Amlokdarra;Amlak Darra
+en;Amīrābād;Mira Abad
+en;Ambāgh;Ambagh Goth
+en;Amānkot;Aman Kot
+en;Amandarra;Amandara
+en;Ālo;Allo
+en;Alīzai;Ali Zai
+fa;الیزای، کورام;Alizai
+en;Alīpur;Goth Alipur
+fa;الامگاره;Alamgarh
+ur;عالم گڑھ;Alamgarh
+ru;Акора;Akora Khattak
+en;Akora;Akora Khattak
+fa;اکهوری;Akhori
+ur;اکھوری;Akhori
+en;Akbarpūra;Akbarpura
+ur;اجنالہ;Ajnala
+ur;آئمہ باری;Aima Bari
+fa;احمدوان;Ahmadwam
+en;Ahmedpur East;Ahmadpur East
+ps;احمدپور;Ahmadpur East
+ru;Амидпер-Ист;Ahmadpur East
+fr;Ahmedpur Sharqia;Ahmadpur East
+sd;احمدپور شرقي;Ahmadpur East
+si;නැගෙනහිර ඇහැමඩ්පූර්;Ahmadpur East
+ur;احمد پور شرقیہ;Ahmadpur East
+ms;Timur Ahmedpur;Ahmadpur East
+es;Ahmedpur East;Ahmadpur East
+ar;شرق أحمدبور;Ahmadpur East
+fa;تحصیل احمدپور شرقی، پاکستان;Ahmadpur East
+en;Ahli Kamboh;Ahli Kambah
+fa;آهلی کمبوه;Ahli Kambah
+ur;آہلی کمبوہ;Ahli Kambah
+nl;Ahli Kamboh;Ahli Kambah
+en;Āgra Kūz;Kuz Agra
+en;Aghbargai;Aghbarg
+ur;اَفْسِک;Afsik
+en;Adam Wāhan;Adam Wahan
+en;Ādamwāhan;Adam Wahan
+fa;ایکه;Achh
+ur;آچھ;Achh
+en;Abdur Rahīma;Abdul Rahim
+ru;Абботтабад;Abbottabad
+ru;Абботабад;Abbottabad
+en;Khwar Kalle;Shamat Khel
+en;Abāzai;Abazai
+en;Abābakrai;Babakrai
+ur;رچند;Rachand
+en;Saggiān Khurd;Saggian Khudayar
+en;Sahaipāl;Sahajpal
+en;Malakpur;Malakpura
+en;Makhanpura;Malakpura
+en;Dherpindi;Dher Pindi
+en;Jhuggiān Jorha;Jhuggian Jodha
+en;Rasūlpura;Rasulpur
+en;Shāh di Khūi;Shah di Khui
+en;Manānwāla;Manawala
+fa;بازیدپور;Bazidpur
+ur;بازید پور;Bazidpur
+en;Sathi Khān;Goth Sattar Khan
+en;Wadero Nasir Khān Chakrani;Goth Nasir Khan Jakhrani
+en;Goth Dopharo;Goth Dobro
+en;Picci Khoe;Pacca Khan
+en;Goth Soomar Shikāri;Goth Sumar
+en;Goth Syed Akber Khān;Saiyid Akbar Khan
+ru;Бахауалнагар;Bahawalnagar
+en;Khat Kili;Khat Kalle
+en;Kūdezai;Khudrezai
+en;Khat Korūna;Khat Kalle
+en;Bānda;Dab Banda
+en;Chatrāl;Chitral
+en;Kula Dheri;Pula Dher
+en;Fazal Kili;Fazal Kalle
+en;Nāsar Kili;Nasir Kalle
+en;Sāīs Mandi;Sais Mandai
+en;Launda;Lunda
+en;Shāh Pasand Korūna;Shahpasand Kalle
+en;Sultānābad;Mali Koruna Sultanabad
+en;Sardārābād;Dheri Zardad
+fa;پیر پیای;Pir Piai
+ur;پیر پیائی;Pir Piai
+en;Ganderi;Gandairi
+en;Gul Khamīr Korūna;Gul Khamir Kalle
+en;Kalyās Bānda;Kalias
+en;Yusuf Khān Kili;Talab Yousuf Khan Kalle
+en;Abdur Rahmān Korūna;Abdul Rahman Koruno
+en;Sher Bahādur Korūna;Sher Bahadur Kalle
+en;Captain Kili;Kuptan Kalle
+en;Dherīwāl;Dheri Talab Kalle
+en;Shāt Kili;Dhat Kalle
+en;Kālinjar Khesh;Kalangar Bala
+en;Gid Bannu Korūna;Afridi Kalle
+en;Sheno Kili;Shapano Kalle
+en;Qāzi Korūna;Bara Khel Kalle
+en;Tor Dher;Tour Dheri
+en;Khatāb Korūna;Khatab Kalle
+en;Garhi Amīnjān;Amin Jan Kalle
+en;Dheri Kili;Dheri Kalle
+en;Dab Akram Khān;Kamranabad
+en;Sultānābad;Malang Dere
+en;Landi Nau;Landino Kalle
+en;Spīnkāni;Spin Kanrai
+en;Tamīd Khān Kili;Takhmidabad
+en;Sarband;Sarband Kalle
+en;Faqīr Kili;Faqir Kalle
+en;Papra;Panra
+en;Amīrābād;Qazi Khel
+en;Bāz Miān Kili;Baz Mian Kalle
+en;Garhi Sarfarāz Khān;Sarfaraz Khan Kalle
+en;Garhi Ghandal Khān;Malka Dheri
+en;Malka Dher;Malka Dheri
+en;Azīm Gul Miān Kili;Azim Gul Mian Kalle
+en;Safdar Khān Korūna;Safdar Khan Kalle
+en;Abās Korūna;Abbas Kalle
+en;Shekhi Suhbat Khān;Sheikha
+en;Mahmūdābād;Khan Mahi
+en;Khalah Korūna;Khulle Kalle
+en;Manz;Manz Kalle
+en;Khadai;Khadi Kalle
+en;Miāngān Kili;Khadi Kalle
+en;Manjāwar;Manjorai Kalle
+en;Pasham Korūna;Sardarabad
+en;Maulagi Kili;Mira Jan Kalle
+en;Rahat Korūna;Hama Gul Kalle
+en;Sher Bādshāh Kili;Mulamian Kalle
+en;Sar Dheri;Yaqub Khan Koruna
+en;Rānat Shāh Miān;Qala
+en;Matīullāh Korūna;Lande Shah
+en;Natu Hindu Kili;Hindu Kalle
+en;Sherdil Korūna;Dherai
+en;Kandare;Kandarai
+en;Miāngul Kili;Shah Kalle
+en;Bakkare;Bakri Banda
+en;Mufti Kili;Muftiabad
+en;Ayūbābād;Muftiabad
+en;Kulālān;Kulalan
+en;Abdullāh Khān Korūna;Akbar Khan Kalle
+en;Gujjaran Kili;Gujrano Kalle
+en;Bāojān Kili;Yakh Khhoie
+en;Būche;Bochai
+en;Shātir Kili;Muftiabad
+en;Tūt Kili;Tut Kalle
+en;Muhammadgul Kili;Mir Ahmad Gul Kalle
+en;Swāti;Swato
+en;Qutab Garh;Qatab Garh
+en;Ibrāhīm Khān;Ibrahim Khan Kalle
+en;Gulpans Kili;Akbarabad
+en;Anzar Korūna;Anzar Kalle
+en;Taibun Kili;Taibana Kalle
+en;Badrak Korūna;Badarga
+en;Habibzai;Habib Zai
+en;Chamyara Kili;Chamyaran Kalle
+en;Giggi Dheri;Gege
+en;Anwar Khān Korūna;Anwar Khan Koruno
+en;Azim Khān Korūna;Ghondai
+en;Īsa Khān Kili;Isa Khan Koruna
+en;Haidar Khān Kili;Haidar Khan Kalle
+en;Lāl Muhammad;Mirzagano Kalle
+en;Sāiji;Jam Hassan Bazar
+en;Sarchib;Sarchibi
+en;Nawe Kaudare;Kordai
+en;Mīr Rahmān Korūna;Mir Rahman Kalle
+en;Ūna Khel;Wana Khel
+en;Kanda Kili;Kunda
+en;Rikhi;Rakhi
+nl;Rikhi;Rakhi
+en;Captain Kili;Kaptan Kalle
+en;Bādshāh Gul Kili;Badshah Gul Kili
+en;Garhi Haji Abdul Manan;Haji Abdul Manan Garhi
+en;Khāri Garhi;Ibrahim Khan
+en;Jhuggi;Jogai
+en;Dheri;Aurangabad
+en;Samdhu Garhi;Sando Garhi
+en;Garhi Rājkol;Shinwari Saraj
+en;Muhallah Munawwar Bādshāh;Shinwari Saraj
+en;Gharībābād;Garhi Ghulam Rasul
+en;Shīonki Garhi;Garhi Sadabad
+en;Muzaffar Khān Garhi;Garhi Saidabad
+en;Dawa;Shahpar
+en;Garhi Fāzil;Fazal Garhi
+en;Nasāpa Surkh;Nasapa Payan
+en;Bānda Dāmān;Garhi Pordil
+en;Jabba;Jabbi
+en;Amīr Khān Garhi;Amir
+en;Garhi Taiyab;Garhi Mir Sahib
+en;Nasāpa Bāla;Nasapa Bala
+en;Zakhi Miāna;Zokhai
+en;Zakhi Chār Bāgh;Miana Zakhai
+en;Zakhi Kono;Kuhna Zakhai
+en;Mūmin Garhi;Momin Garhi
+en;Sāhibokai;Camp Koruna
+en;Bānda Kānreza;Daud Garhi
+en;Shaikh Kili;Shaikh Kalle
+en;Obazai;Upa Zai
+en;Khāngul Garhi;Zor Garhi
+en;Nisatta Bānda;Nasatta Khurd
+en;Pushtisag;Gulabad
+en;Pīr Kili;Pir Kalle
+en;Āgra Bāla;Shaikh Kalle
+en;Āgra Miāna;Miana Agra
+en;Indko Garhi;Garhi Karimabad
+en;Saeedābād;Saidabad
+en;Prāng;Prang
+en;Bādīn;Badin Miana
+en;Kudai;Garhi Sharif Khan
+en;Dang Lakhta Bāla;Dang Lakhtai Bala
+en;Niāmi;Niami
+en;Saiyidān Dheri;Dheri Saiyidan
+en;Garhi Hamīd Gul;Kadari Kalle
+en;Shaka Qila;Shagar Qala
+en;Subhān;Mian Qala
+en;Adezai;Hajizai
+en;Shaikhān;Khwajazai
+en;Kheshko;Kheshki
+en;Spīnawarai;Spina Warai
+en;Miāngān Kili;Miangan Kalle
+en;Fīroz Kili;Feraoz Kalle
+en;Juma Khān Kili;Jumma Khan Kalle
+en;Shaikhān;Major Kalle
+en;Yāghai Pāyān;Yaghi Band
+en;Dheri Ata Muhammad;Kuz Gaggar
+en;Torāpāna;Tora Panra
+en;Māshrem;Mashram
+en;Malūk Kili;Maluk Kalle
+en;Kūdai Kili;Karo Kalle
+en;Pīrkāla;Pir Qala
+en;Hakīm;Hakim Pehlwan
+en;Yāghīband;Yaghi Band Bala
+en;Karkāni;Karkani
+en;Biro Chikkar;Sukarberu
+en;Shahai;Shahi
+en;Chaptai;Chatta
+en;Mīna;Weno Kalle
+en;Dheri Abdul Majīd;Hamid Mian Dheri
+en;Shankargarh;Saidabad
+en;Zaragonda;Zor Gonda
+en;Bācha Sāhib Garhi;Bacha Garhi
+en;Adād Khel;Allah Dad Khel
+en;Dāmān;Daman
+en;Khwāja Bānda;Khwaja Vas Kalle
+en;Mirāte;Mirati
+en;Bānda;Banda Miangan
+en;Mathra Kona;Mathra Payan
+en;Dāgai Khālad Khān;Dagai Khalid Khan
+en;Kili Hāji;Haji Kalle
+en;Purdil Khān;Pordil Khan Kalle
+en;Bhatiārān;Bhatiarano Kalle
+en;Ijāra Korūna;Ajara Kalle
+en;Gad Bāno;Bazyano Kalle
+en;Qalandar Korūna;Qaiandar Kalle
+en;Askaru Dheri;Askro Dheri
+en;Mulla Sarki;Mulan Sardai
+en;Jalāl Hādi;Jalal Kalle
+en;Spīnwāri;Spino Wori
+en;Madār Shāh;Abdul Akbar
+en;Hajiabad;Mirabad
+en;Bajauri Korūna;Bajur Kalle
+en;Mehtar Kili;Raitar Kalle
+en;Kandar;Ghandar Kalle
+en;Umra;Khot Kalle
+en;Abdul Haq Kili;Kal
+en;Ahmad Khān;Ahmad Khan Karuna
+en;Wali Khān;Wali Khan Kalle
+en;Muhd Rāz Kili;Muhammad Rose Kalle
+en;Kandar Kili;Khottak Nare
+en;Khattak Narai;Khottak Nare
+en;Kopar;Sarwar Kalle
+en;Zandai Kili;Satar Khan Kalle
+en;Sattar Khan Mūhmand Kili;Satar Khan Kalle
+en;Sāri Bahlol;Siri Bahio
+en;Sāduddin;Sadodin Kalle
+en;Dumāme;Damamo Kalle
+en;Mir Shah;Jaro Kalle
+en;Shāhzāda Jahāngīr;Jahangirabad
+en;Jolāgān Korūna;Jolagan Koruna
+en;Jolāgān Koruna;Jolagan Koruna
+en;Ali Jān Kili;Ali Jan Koruna
+en;Awazi Khān Korūna;Awas Khan Kalle
+en;Sabar Gul Korūna;Sabar Gul Kalle
+en;Jāral Kili;Ajara Kalle
+en;Miān Korūna;Miana Kalle
+en;Tahsīldār Miān Korūna;Mian Kalle
+en;Ahmadābād;Khadi Kalle
+en;Gul Zamān;Muhammad Shah Kalle
+en;Shāhi Khān;Shaikhano Kalle
+en;Amīn Khān;Zarghun Shah Kalle
+en;Narai;Mian Kalle
+en;Bāghi Shāh;Charbagh Kalle
+en;Abdul Matīn;Chitral Kalle
+en;Amīn Khān Korūna;Patai Kalan
+en;Shaikh Kili;Shaikhano Kalle
+en;Miān Kili;Shaikhano Kalle
+en;Hukmat Korūna;Kandharo Kalle
+en;Shaikhābād;Bahadar Kalle
+en;Pīrān Kili;Pirano Kalle
+en;Arbi Kili;Arbi Banda
+en;Gul Mīr;Gul Mir Kalle
+en;Jān Gul Korūna;Ali Jan Koruna
+en;Sarki Kashrān;Jarare
+en;Jolaābād;Julaabad
+en;Gāru Shāh;Garu Shah
+en;Sastaābād;Gharibabad
+en;Chorlak;Chur Lak
+en;Dewar;Asif Kalle
+en;Umar Khān Kili;Imran Khan Kalle
+en;Ghunda Khel;Ghanda Kalle
+en;Gulāb Shāh Korūna;Saidabad
+en;Mādūl Koruna;Sarki Kashran
+en;Tor Dheri;To Dheri
+en;Qamargai;Nadar Gul Koruna
+en;Saiyid Qalamuddīn Miān;Said Kalamdin
+en;Ganjāi;Gangai
+en;Kandari Kili;Khat Kalle
+en;Hisāra Kasan Ali Qila;Hisara Kalle
+en;Hisāra Zahūruddīn Korūna;Shu Khan Kalle
+en;Sadullāh Miān Korūna;Sabandi
+en;Muhammad Husain;Mulyano Kalle
+en;Sarāi;Mishkar Serai
+en;Saduliāl;Mukhtar
+en;Mukhtār;Mukhtar
+en;Aulas Khān;Lal Khan Kalle
+en;Alaf Khān;Lal Khan Kalle
+en;Usai Ghundai;Hasai Ghundai
+en;Kasūna;Kasuna
+en;Muhammadji Kōrūna;Kaghan Kalle
+en;Shāh Ālam Korūna;Shah Alam Kalle
+en;Jolagān Kili;Julagan
+en;Bāri Bandān Saiyidān;Safu Bara Band
+en;Gulpur;Gulpur Kalle
+en;Gul Zamān Khān;Gulzaman Kalle
+en;Hazrat Shāh;Umarabad
+en;Muhammad Kili;Samarqand
+en;Karīm Kili;Karim Kalle
+en;Nemat;Nemar
+en;Nāsāpal;Dara Kalle
+en;Kūz Chehal;Kuz Chil
+en;Bāzo Dheri;Abazo Dheri
+en;Kālu Khān;Khan Kalle
+en;Saādat Khān;Azat Khan Kalle
+en;Jaur;Jaiwar Kalle
+en;Gannu Dhari;Ghano Dheri
+en;Landi Shāh;Landai Shah
+en;Bar Chehal;Bar Chil
+en;Bar Spalmai;Saplama
+en;Kūz Spalmai;Kuz Saplamai
+en;Pīr Korūna;Pir Kalle
+en;Andāz Khān;Momin Kalle
+en;Maman;Momin Kalle
+en;Lāli Korūna;Lali Kalle
+en;Fazal Shāh;Katbano Kalle
+en;Zarīfi;Shamilat Zarif Kalle
+en;Sher Shāh;Khat Kalle
+en;Guli;Gulabad
+en;Faizābād;Khaizo Kalle
+en;Kachi Kopar;Kachi Kuper
+en;Kodar;Kodri
+en;Mulla Misri;Paluno
+en;Āshqi Bānda;Ashqi Banda
+en;Afzal Dheri;Ghani Dheri
+en;Sālu Bānda;Salo Kalle
+en;Narai Obo;Naroi Obo
+en;Sidrījor;Sidra Jor
+en;Khāngarhi;Khanghari
+en;Mūsa Mena;Musa Mina
+en;Pitao;Paitao
+en;Spīnkar;Spinkai
+en;Jhālar;Jhalar
+en;Nāmo;Nama
+en;Mīrābād;Mirabad
+en;Daulat Khān Kili;Sherpao Bazar
+en;Pordil Kalle;Biro Kalle
+en;Kābul Shāh Kalle;Kabul Shah Koruna
+en;Mīr Khān Kalle;Amir Khan
+en;Hāji Muhammad Saeed Kalle;Hamaish Gul Koruna
+en;Walai;Miawflay
+en;Turlāndai;Taulandai
+en;Sākār Kalle;Sakar Kalle
+en;Landākai;Landakai
+en;Kanyor;Kanpur
+en;Hāji Abdul Manāf Kalle;Kas Kaoruna
+en;Kareri Mullāh Kili;Kareri Mullah Kili
+en;Azīm Khān Kili;Azim Khan Kili
+en;Nishān Kili;Nishan Kili
+en;Abdul Manān Kalle;Malkano Kalle
+en;Jang Bāz Kili;Jang Baz Kili
+en;Zaim;Zaim Kalle
+en;Dherai Kalle;Dlerai Kalle
+en;Gumbad Miān Sāhib;Gumbad Mian Sahib
+en;Bānda Tangi;Banda Tangi
+en;Alif Khān Bānda;Alif Khan Banda
+en;Sohbat Khān Kalle;Suhbat Khan Kalle
+en;Tāj Muhammad Khān Korūna;Taj Muhammad Khan Koruna
+en;Kochiān;Muhar Dab
+en;Hayāt Khān Kalle;Tortam Kalle
+en;Mīrān Kili;Miran Kili
+en;Shergul Kili;Spin Mian Kalle
+en;Munda Qila;Munda
+en;Gharībābād Bānda;Saidan Banda
+en;Marghuz Kalle;Marghuz
+en;Amjad Ali Khān Kalle;Muftiabad
+en;Yusof Khān Kalle;Saifullah Khan
+en;Lāl Mīr Korūna;Lal Mir Koruna
+en;Sogia;Saugia
+en;Īnzar Kalle;Anzaro Kalle Qala
+en;Sālārābād;Umri Qala
+en;Abdul Manān;Abdul Manan Kalle
+en;Abdullah Jān Kalle;Nasirabad
+en;Miān Ismatullāh Kalle;Mian Asmatullah
+en;Daulat Khān Kili;Daulat Khan Kili
+en;Mīr Ālam Kalle;Mir Alam Kalle
+en;Amir Ahmad Gul Kalle;Mir Ahmed Gul Kalle
+en;Ajārā Kalle;Ajra Kalle
+en;Sāz Gul;Gul Bagh
+en;Qandhāru;Qandaro
+en;Yār Khān Korūna;Yar Khan Koruna
+en;Ahsām Korūna;Ahsam Koruna
+en;Kudai;Kaudai
+en;Deo Dheri;Depo Dheri
+en;Kirra Kalle;Kirro Kalle
+en;Saifullah Khān Kalle;Saifullah Khan Qala
+en;Manān Bāba Kalle;Mian Kalle
+en;Kudai;Bajoro Kalle
+en;Ammer Khān Kalle;Qambar Khan Kalle
+en;Sehri;Sairai
+en;Koz Shodag;Kuz Shudag
+en;Bar Tsapparai;Sappare
+en;Nawe Dhand;Nawe Dand
+en;Nawe Kalle;Nawan Kalle
+en;Tarākai;Tarakai
+en;Nūrui Haq Kili;Nurui Haq Kili
+en;Shāhdād Kili;Shahdad Kili
+en;Khāniāri;Khanjare
+en;Narai Koruna;Siwan Kalle
+en;Sowkani;Sokni
+en;Mianzer;Manzar
+en;Moto Shāh;Motoshah
+en;Rang Mena;Rang Mina
+en;Būcha;Buchha
+en;Chandan Dherai;Chandro Dheri
+en;Bakaro Dherai;Bakro Dheri
+en;Palai Nasrutzai;Plai Nasrutzai
+en;Qila;Qala
+en;Kīrro Shāh;Kirre Shah
+en;Tsappar;Sappare
+en;Sor Tangi;Sara Tangai
+en;Tālao;Talao
+en;Jalba;Jabbai
+en;Parāi Bānda;Pahari Banda
+en;Spīna Khāura;Spina Khaura
+en;Spīna Khāwra;Spina Khaura
+en;Landi Roud;Landai Rud
+en;Shna Tīgga;Shnah Tigga
+en;Karkanro;Kot Koruna
+en;Kānkar;Kankara
+en;Uriya;Unya
+en;Ospan Kharre;Spinkharo
+en;Pālāi Korūna;Palai Koruna
+en;Banghākhai;Baungakhai
+en;Kuchiān;Kochian
+en;Lakarai;Lakrai
+en;Babāsar;Babasar
+en;Mullāwāli;Mulawali Baba
+en;Spodarra;Sapu Darra
+en;Miangāno Sara Shāh;Miangano Sara Shah
+en;Dani Khel Kuāi;Danni Khel Kuai
+en;Urghar;Aur Ghar
+en;Kuragh;Kour Gah
+en;Mena;Mina
+en;Khānori;Khanorai
+fa;لالوزای;Lalozai
+ur;لالوزای;Lalozai
+fa;اقزپویا;Aghze Poya
+ur;اقز پویا;Aghze Poya
+en;Zarifi;Safiabad
+en;Gāmāro;Gamaro Bazar
+en;Zahrkoh;Zar Kaur Bazar
+en;Shāh Dād;Shah Dad Bazar
+en;Saiyid;Faqeer mohammad Bazar
+en;Saīyid Muhammad;Jam Hayatan Bazar
+en;Passo;Passu
+en;Noor Muhammad;Nur Muhammad Ali Log
+en;Shām;Sham Bazar
+en;Jori;Ashraf Jori Log
+en;Shābīn Log;Haji Ishaq Log
+en;Hussein Murād Log;Hussain Murad Log
+en;Sālam Log;Salam Log
+en;Kandhor Bāzār;Kandh Bazar
+en;Pārālo;Palaru Chatti Bazar
+en;Ambi;Ambi Bazar
+en;Kakka Khel;Kakka Khel Kalle
+nl;Kakka Khel;Kakka Khel Kalle
+en;Kot Jindān;Kot Jandan
+en;Sunlāri Sandhūri;Sandhuri
+en;Gahi Kili;Gah Kili
+en;Dhok Abdullah Chānān;Dhok Abdullah
+en;Maira Sambal Akku;Mera Aku
+en;Dhok Garja;Garja
+en;Dhok Girja;Garja
+en;Dhok Gamān Khān;Dhok Kaman Khan
+en;Walmai Kili;Wulmai
+en;Wālai;Waiai
+en;Shha Kazha Kili;Shna Kazha Kili
+en;Karmānzai Kili;Kharama Kili
+en;Aghbāzhe;Ghbazha
+en;Aghbāzh;Ghbazha
+en;Ruski Jama‘at;Ruski Jamaiat
+en;Ruski Jamalat;Ruski Jamaiat
+en;Jān Beg;Jan Beg
+en;Katha;Kaiba
+en;Kaiha;Kaiba
+en;Shna Pūnga;Shna Punga
+en;Malokāi Kili;Malokar Kili
+fa;نرتوپه;Nartopa
+ur;نرتوپہ;Nartopa
+en;Kahai Ghar Kili;Kahai Ghak Kili
+en;Kahai Chak Kili;Kahai Ghak Kili
+en;Kachai Kili;Qasai Kili
+en;Khwūna Kili;Shinkai Khwuna Kili
+en;Lagharai Kāzhe Kili;Lagharai Kazha Kili
+en;Shīna Khwara;Shina Khwara
+en;Mānra;Manrah
+en;Wazhe Mina;Maidan Wazhe Mina
+en;Nuza;Tor Karni
+fa;عبدالله نور کاسکای;Abdullah Nur Kaskai
+fa;ادم خان کیلی;Adam Khan Kili
+en;Mira Dhok;Dhok Dadan Khan
+en;Dhok Mira;Dhok Dadan Khan
+en;Iara Punga;Jara Punga
+fa;ادیرا ملا;Adira Mela
+en;Dhok Kumhārwāli;Dhok Kamhanwali
+en;Ziārat Nūr Shāh;Ziarat Nur
+en;Bāgzar;Bagh Zer
+en;Dhok Wādhri;Wahdrai
+en;Dhok Ghāzi;Dhok Ghazian
+en;Dhok Kahāl;Dhok Tumhal
+en;Dhok Dhamiāl;Dhok Kalia
+en;Bijār;Dhok Bijar
+en;Thikariān;Thikrian
+en;Kala Gujrān;Kaley Gujran
+en;Dhok Māzulāwāli;Dhok Muhalla
+en;Nautheh Gul Bāz;Nauteh Gul Baz
+en;Dhok Buddha;Dhok Budha
+en;Bāg Bala;Bagh Bala
+en;Dhok Bāg;Dhok Bagh
+en;Dhok Dumniān;Dhok Dhamni
+en;Mūle;Dhok Mule
+en;Dhok Panchāniānwāli;Dhok Panjain
+en;Dhāb Pariwāli;Dhab Pari
+en;Dhok Sargai;Dhok Sarang
+en;Dhok Saragai;Dhok Sarang
+en;Dhok Waddhan;Dhok Wadhan
+en;Jāhle;Jhale
+en;Dhok Parāli;Dhok Pannah
+en;Dhok Panāli;Dhok Pannah
+en;Dhok Rarwān;Dhok Parwana
+en;Dhok Parwān;Dhok Parwana
+en;Dhok Rājiān;Dhok Raja
+en;Dhok Ranjha;Dhok Raja
+en;Makhigāla;Dhok Makhiala
+en;Vandra Wāli Dhok;Dhok Bhunder
+en;Dhok Sāwj;Dhok Sawi
+en;Jabbi Dhok;Dhok Jabbi
+en;Dhok Kakiān;Dhok Kuka
+en;Dhok Kut;Dhok Kot
+en;Dingi Pāyān;Dingi Zer
+en;Dabri;Dhok Dabri
+en;Kot Khalan;Kot Chaudharian
+en;Dhok Lariān;Dhok Lari
+en;Goth Ibrāhīm;Phadal Goth
+en;Goth Angāria;Goth Angara
+en;Goth Hāji Shāmba;Goth Angara
+ru;Махедин-Кили;Mahedin Kili
+ru;Шахбаз-Кили;Shahbaz Kili
+ru;Аскан-Мандау;Haji Dad Muhammad Kili
+ru;Мулла-Хасан-Калай;Haji Dad Muhammad Kili
+en;Skhar Kach;Skhar Khan
+en;Mulla Sadīq;Mulla Sadiq
+en;Jalaie;Jalali
+en;Takhoi;Takhai Behrmazai
+en;Shādīzai;Shadizai
+en;Adori;Adorah
+en;Bahramshi;Behramshi
+en;Pās Shāsa;Pashasha
+en;Lakanzai;Lakhanzai
+en;Zarah;Zarha
+en;Obāsh Bahrāmshi;Obash Behramshi
+en;Wulgai;Wulagi Shabezai
+en;Takhoi;Takhoi Shabezai
+en;Kandai;Kandai Shabozai
+en;Darah;Darah Sur
+en;Spīn Hūd;Spin Hud
+en;Soin Khezai;Spini Khezai
+en;Kili Khatkandi;Khatkandi
+en;Changai;Changai Ajiai
+en;Ulgai;Walgi
+en;Shabārah;Shabar
+en;Inzargai;Inzargoi
+en;Ghulpna;Ghulona
+en;Mihrāb Kach;Mehrab Kach
+en;Sūr Gwazhai;Sur Ghozai
+en;Laghai;Leghai
+en;Chachobi;Chachobai
+en;Sirai;Sarai
+en;Kori Kata;Kori Kach
+en;Shina Kānr;Shin Khana
+en;Dol;Dola
+en;Gurk;Kut
+en;Abdakai Bostān;Hudkai Mian Bostan
+en;Ghunzagai;Chunzagai
+en;Kach Hasan Zai;Kach Hasanzai
+en;Abu Chīna;Lora Abu China
+en;Qamar;Qamara
+en;Kārez;Karez Qasimzai
+en;Khāni;Khachi
+en;Khachai;Qila Kach
+en;Nārian;Narin
+en;Bela;Behla
+en;Landai;Andai
+en;Sarghasund;Surgha Sona
+en;Ado;Kili Ado
+en;Bedar;Baidarah
+en;Walha;Walla
+en;Tazia;Tazah
+en;Mazabi;Mazhabi
+en;Jamkai;Zunkai
+en;Shāts;Shacha
+en;Kats;Khatkandi
+en;Siddīq Spangluna;Siddique Suphangluna
+en;Shāts;Shasa
+en;Ziāba;Ziba
+en;Shābak Nārīn;Shabak
+en;Ghwanzakai;Ghwanzakal
+en;Sharan;Sharin
+en;Umerzāi;Umarzai
+en;Tor Khulla;Tora Khulla
+en;Eskhobi;Eskhobai
+en;Maqām Rūdgai;Maqam Rudgai
+en;Shādigai;Shahidagai
+en;Ibrāhimzai Ghundi Kili;Kili Ibrahimzai Ghundi
+en;Maikhānzai;Malkhanzai
+en;Tembrak;Kuchnai Tembrak
+en;Sharan;Sharan Karez
+en;Jigda;Kili Jiga Qasim Khan
+en;Nigāhind Lor;Bala Negandh
+en;Lāl Khānzai Wat;Lal Khanzai Wat
+en;Regai Baiānzai;Regai Baianzai
+en;Spīn Bīan Zai;Kili Pitao Bianzai
+en;Īsa Kārez;Isa Karez
+en;Tarīn Shahr;Tarin Shah
+en;Zairin Chungi;Zarin Chungi
+en;Māngi Kach;Kili Mangi
+en;Az Murgo;Az Murgha
+en;Sardār;Sardar Karez
+en;Skhokas;Saokas
+en;Nusrat;Nasrat
+en;Bota;Batal
+en;Chīragalai;Chira Gali
+en;Lar Donr;Don
+en;Chapatrār;Chapatrara
+en;Muhammad Amīn Kili;Muhammad Amin Kalle
+en;Korai;Akroi
+en;Māshadām;Mashadam
+en;Durmser;Durinser
+en;Mamuthi;Mamutki
+en;Kamtsei;Kamsai
+en;Ujāra Banda;Gujaro Banda
+en;Chunīthān;Chunithani
+en;Lawarai;Lowarai Kalan
+en;Jurjurai;Jururai Banda
+en;Jatkūl;Jatku
+en;Kuz Tingīsar;Payan Tang Sar
+en;Kelūt;Kelut Bala
+en;Prānghār;Parang
+en;Punagrām;Phuagram
+en;Baradāni;Baradam
+ur;Ashreṭ;Ashret
+ur;اَشْريٹ;Ashret
+en;Beorai;Beorai Bala
+en;Muzhdi;Mozhdeh
+en;Ponghdi;Pongdeh
+en;Galatak;Kalkatak
+en;Urtsun;Ursun
+en;Kandar;Khander
+en;Kashindel;Kashindai
+en;Pāli;Palali
+ur;Kesū;Kesu
+ur;کیسُو;Kesu
+en;Sandīkdeh;Sandiq
+en;Mūldeh;Muldeh
+en;Mulen More;Moren More
+ur;Singor;Singoor
+ur;سِنْگور;Singoor
+ur;Singur;Singoor
+ur;مُرْدَان;Murdan
+en;Jhitur;Jitur
+en;Monur;Muri Monur
+en;Bogosht;Beghosht
+ur;Bigushṭ;Beghosht
+ur;بِگُشْٹ;Beghosht
+en;Muldeh;Muldeh Chamarkun
+en;Goth Ibrāhim Kadrān;Goth Ibrahim
+en;Goth Mittha;Goth Mitha
+en;Goth Ayūb;Goth Ali Muhammad
+en;Goth Janu;Goth Jano
+en;Goth Dakku Chairman;Goth Baloch
+en;Goth Khammu;Goth Khamisa
+en;Goth Allāh Bakhsh;Goth Allah Bukhsh
+en;Goth Abdur Rehmān;Goth Abdul Rahim
+en;Goth Hasan;Goth Hasan Doda
+en;Goth Sāleb Muhammad;Goth Saleh Muhammad
+en;Adu Kili;Adu Kalle
+fa;ادو کیلی;Adu Kalle
+nl;Adu Kili;Adu Kalle
+en;Goth Muhammad Ayub;Goth Muhammad Ayoub
+en;Goth Qādar Jāmot;Goth Qadir Jamot
+en;Goth Rahmat Ullāh Jāmot;Goth Rehmatullah Jamot
+en;Goth Ghulām Ahmad;Goth Ghulam Ahmed
+en;Goth Kāru Jāmot;Goth Kharo Jamot
+en;Goth Rakhia;Goth Rkhia
+en;Goth Sulemān;Goth Sulaiman
+en;Goth Jaiso;Goth Rosli
+en;Goth Ādam;Goth Adam
+en;Goth Hussain;Goth Hasan
+en;Goth Muhammad Siddique;Goth Muhammad Siddiq
+en;Goth Mulla Hassan;Goth Mulla Hasan
+en;Goth Bachchel;Goth Bachal
+en;Goth Allāh Rakhsh Jāmot;Goth Allah Bukhshi Jamot
+en;Goth Muhammad Yūsuf;Goth Muhammad Yousuf
+en;Goth Ibrāhim Shaikh;Goth Ibrahim Shaikh
+en;Goth Faqīr Muhammad;Goth Dad Muhammad
+en;Goth Nūr Muhammad Mallāh;Goth Nur Muhammad
+en;Goth Hāji Hussain;Goth Haji Hasan
+en;Goth Ahmed;Goth Ahmad
+en;Abdullah Kili;Abdullah Kalle
+fa;عبدالله کیلی;Abdullah Kalle
+nl;Abdullah Kili;Abdullah Kalle
+en;Goth Jākhro;Goth Takhro
+en;Goth Amīn Panwhar;Goth Amin Panhwar
+en;Burra;Goth Bara
+en;Mūsa Rāzu;Goth Musa Raza
+en;Goth Bittāi;Goth Sabir Bittai
+en;Goth Lālo;Goth Haji Ilyas
+en;Goth Faqīra;Goth Umar
+en;Goth Hāji Ahmed;Goth Haji Ahmad
+en;Goth Abdur Rahmān;Goth Abdul Rahman
+en;Goth Khudur;Goth Khudadad
+en;Goth Bābu;Goth Suwali
+en;Goth Hājan;Goth Warial
+en;Goth Hāji Sakiah;Goth Bararat
+en;Goth Ismāīl;Goth Haji Ismail
+en;Goth Abdullāh;Goth Umar
+en;Goth Bāno;Goth Pino
+en;Goth Moro;Goth Mara
+en;Goth Jumāl;Goth Jamal
+en;Goth Muhammad;Goth Muhammad Ali
+en;Goth Ismāīl;Goth Ismail
+en;Goth Allu;Goth Qadir Bakhsh
+en;Goth Yūsaf;Goth Ali
+en;Goth Neku;Goth Barkat
+en;Goth Illyas;Goth Ilyas
+en;Goth Shābu;Goth Shaibdad
+en;Goth Muhammad;Goth Dur Muhammad
+en;Goth Koi;Lalazar Town
+en;Goth Chhutta;Goth Ramzan
+en;Goth Bachu Khān;Sakran
+en;Goth Haidar;Goth Hashsbu
+en;Goth Mahmūd;Goth Abdul Majid
+en;Goth Samar;Goth Somar
+en;Goth Ahmad;Goth Husain
+en;Goth Hussain;Goth Husain
+en;Goth Nuruddīn;Goth Ganjdad
+en;Goth Dost Muhammad;Goth Shakar
+en;Goth Peri Khān;Goth Muhammad Ali
+en;Goth Mandu;Goth Idu
+en;Goth Īdu;Goth Idu
+en;Goth Murād Ali Shaikh;Goth Murad Ali
+en;Goth Qalāti;Goth Qalari
+en;Goth Khān Muhammad Baloch;Fatha Makrani
+en;Goth Muhammad Hussain;Goth Wadera Wali Muhammad
+en;Goth Abdul Rahmān;Goth Pir Bakhsh
+en;Goth Mūsa Khān;Goth Balu
+en;Goth Wīro;Goth Wiro
+en;Goth Hāji Chothah;Goth Haji Choto
+en;Goth Ahamd Khan;Goth Ahmad Khan
+en;Goth Ghāzi;Goth Ghaziabad
+en;Goth Pīr Bakhsh;Goth Pir Bukhsh
+en;Goth Pir Bakhsh;Goth Pir Bukhsh
+en;Goth Siddique;Goth Siddiq
+en;Goth Saddique;Goth Siddiq
+en;Kir;Kir Khur
+en;Kir Khurd;Kir Khur
+en;Khanori;Khanori Sar
+en;Ziārat;Sarkai
+en;Zaga;Sapparai
+en;Lahore Cantonment;Cantonment
+en;Ghochhar;Ghochhar Ghari
+en;Ālogzher;Arokjer
+en;Sundargāh;Sandur Gah
+en;Janjor Shāl;Janju Shal
+ur;Guldur;Jughur
+ur;گُلْدُر;Jughur
+en;Goldur;Jughur
+en;Tordeh;Turdeh Chamarkun
+en;Kandak;Kundak
+en;Dām;Dam
+en;Ghos;Gos
+en;Gosh;Gos
+en;Chato Shāl;Choto Shal
+en;Wārzu Shāl;Warzo Shal
+en;Bobaka;Bodaka
+en;Kad;Kadh
+ja;ダーマドーラ;Damadola
+en;Adam Shagai;Adam Shahgai
+fa;ادم شاگای;Adam Shahgai
+nl;Adam Shagai;Adam Shahgai
+en;Zindaigare Kor;Zindaigar Kor
+en;Gazlūn;Gazlun Kili
+en;Spera Kot;Ghazaluna Kili
+en;Gaore Karam;Gapar Karm
+hi;कोट मुबारक;Kot Mubarak
+fa;کوت مبارک;Kot Mubarak
+ur;کوٹ مبارک;Kot Mubarak
+en;Sādiq ki Basti;Kaliari Gulu Daman
+en;Guzārl Thokh;Guzri Thokh
+en;Palia;Pelo
+en;Garphust;Garpusht
+en;Bullak;Bullakh
+en;Khaler Barāg;Khaler Baragh
+en;Hussaini;Sutbun
+en;Lesura;Lasura
+en;Thih Khandāgh;Thi Gullu Khandagh Sar
+en;Gullu Khāndagh Sar;Thi Gullu Khandagh Sar
+en;Thīhmār;Tirma
+en;Rozāni Pusht;Razani Pusht
+en;Nūlāni Lukh;Nulani Luk
+en;Khothi;Khoth
+en;Bāgh Lukh;Bagh Luk
+ar;كوت كرم خان;Kot Karam Khan
+fa;کوت کرم‌خان;Kot Karam Khan
+ur;کوٹ کرم خان;Kot Karam Khan
+fa;قائم‌پور، پاکستان;Qaimpur
+ur;قائم پور;Qaimpur
+ur;Darbāri Khān;Darbari Khan
+ur;Gullan Māchhi;Gullan Machhi
+ur;Basti Sādlān;Basti Sadlan
+ur;Samuka;Samukawali
+ur;Kuliār;Kuliar
+ur;Gudpur;Basti Gudpur
+ur;Kaura Māchhi;Kaura Machhi
+ur;Gulāni;Gulani
+ur;Ali dā Khuh;Ali da Khu
+ur;Kale di Miāni;Kale di Miani
+ur;Basti Dādpotriān;Basti Dadpotrian
+ur;Basti Chākar Khān;Basti Chakran
+ur;Shāh di Basti;Azimabad
+ur;Māchhi;Machhi
+ur;Allāh Ditta Bhela;Basti Allah Ditta Bela
+ur;Basti Māhrān;Basti Mahran
+ur;Gāddān Khori;Gaddan Khori
+ur;Duphli;Basti Dufli Daria Khan
+ur;Bāhār Khāk;Bahar Khaki
+ur;Basti Arāīn;Araian di Basti
+ur;Basti Chānan;Chanjni
+ur;Basti Jām Bakhsh;Basti Jam Bakhsh
+ur;Gabbar;Gubberan di Basti
+ur;Basti Ferozuddin;Ferozabad
+ur;Basti Mari;Basti Arain
+ur;Tarinda Mīr Khān;Trinda Mir Khan
+ur;Tibbi Salyldān;Tabbi Saiyadan
+ur;Nūr Shāh;Basti Nur Shah
+ur;Fatehpur;Fatehpur Kamal
+ur;Khokher;Basti Khokhar
+ur;Basti Chāniān;Basti Chandian
+ur;Basti Gāman Khā;Basti Gaman Kha
+ur;Basti Ghulām Qādir;Basti Ghulam Qadir
+ur;Basti Jām Ghulām Rasūl;Basti Ghulam Rasul
+ur;Basti Hāji Karim Bakhsh;Basti Haji Karim Bakhsh
+ur;Basti Hāji Abdul Qādir;Basti Haji Abdul Qadir
+ur;Qasāīwāla;Qasaiwala
+ur;Basti Māchhi;Basti Machhi
+ur;Shalkhān;Bangla Shaikhan
+ur;Basti Parhār;Basti Parhar
+ur;Basti Farīdābad;Faridabad
+ur;Basti Kotla;Kotla Jan Shah
+ur;Basti Māchhi;Basti Machhian
+ur;Basti Māchhiān;Basti Machhian
+ur;Jām Muhammad Lār;Basti Jam Muhammad Bakhsh
+ur;Basti Khandol Lār;Basti Khandol Lar
+ur;Dar Khān;Dar Khan
+ur;Chak One Hundred - four;Chak One Hundred Four NP
+ur;Basti Ahmad Bakhsh Lār;Basti Ahmad Bakhsh Lar
+ur;Basti Ther Posti;Basti Ther
+ur;Chak One Hundred -six;Chak One Hundred Six NP
+ur;Basti Wāhid Bakhsh;Basti Wahdani Bakhsh
+ur;Basti Musāni;Basti Musani
+ur;Khuda Bakhsh Lār;Khuda Bakhsh Lar
+ur;Nawānkot;Nawan Kot
+ur;Chak One Hundred - seven;Chak One Hundred Seven NP
+ur;Havell Gharīb Shāh;Basti Gharib Shah
+ur;Basti Farīd Khān;Basti Farid Khan
+ur;Basti Salyia Rasūl Shāh;Basti Salyia Rasul Shah
+ur;Basti Muhammad Qutbuddīn;Mian Qutab-ud-dinwali Basti
+ur;Bungalow Shujāat Ali Hasni;Bungalow Shujaat Ali Hasni
+ur;Basti Aslam Khān;Basti Aslam Khan
+ur;Basti Hāji Said Muhammad;Basti Haji Said Muhammad
+ur;Niāmatābād;Niamatabad
+ur;Raīs Muhammad Yār;Rais Muhammad Yar
+ur;Basti Arbāni;Basti Arbani
+ur;Basti Lār;Basti Lar
+ur;Basti Abdul Hamīd Khān;Basti Abdul Hamid Khan
+ur;Basti Chāngla;Basti Changla
+ur;Chāh Chatta Khānwāla;Chah Chattewala
+ur;Basti Allāh Ditta Lār;Basti Allah Ditta Mori
+ur;Basti Bhāra;Basti Bhara
+ur;Thakkai;Thakal Shahr
+ur;Basti Pāi;Basti Piara
+ur;Basti Char Mūr;Basti Char Mur
+ur;Basti Ghena;Basti Ganar
+ur;Basti Karīm Bakhsh;Basti Karim Bakhsh
+ur;Basti Bibi Chāchar;Basti Bibi Chacharan
+ur;Basti Hayāt Muhammad Khān;Basti Hayat Khan
+ur;Basti Jām Muhammad;Basti Jam Muhammad
+ur;Basti Jām Allāh Yār;Basti Jam Allah Yar
+ur;Basti Bacha Arāīn;Basti Bechrar
+ur;Basti Wāga;Basti Waga
+ur;Basti Māchhiān;Basti Mochian
+ur;Basti Jām Halīm;Basti Jam Halim
+ur;Basti Bahāwal Arāīn;Bahawal di Basti
+fa;بستی حاجی گل‌محمد;Basti Haji Gul Muhammad
+ur;بستی حاجی گل محمد;Basti Haji Gul Muhammad
+en;Mirza Sūmro;Goth Mirza Sumro
+en;Goth Berāni;Goth Beran
+en;Hāji Faīr Dal;Goth Haji Faqir Dal
+en;Jhangli Shoro;Goth Jhangi Shoro
+en;Goth Jumman Shāh;Goth Jumman Rind
+en;Goth Barahūi Rahīm Bakhsh;Goth Rahim Bakhsh
+en;Goth Ali Muhammad;Goth Ali Muhammad Agario
+en;Goth Allān Rind;Goth Allan Nurani
+en;Goth Khosa;Goth Khoso
+en;Goth Bhaledīno;Goth Bachal Shoro
+en;Goth Mār Bahr Mohāna;Goth Mir Bahar
+en;Khāskheli;Goth Khaskheli
+en;Goth Dodo Mujāwar;Goth Sand
+en;Goth Nūru Mohāna;Goth Nur Mohan
+en;Makhdūm Aūlla;Goth Makhdum Aulia
+en;Asgharābād;Goth Asgharabad
+en;Goth Kalāri;Goth Kolari
+en;Goth Qabūl Hatāna;Goth Qabul Hajano
+en;Goth Sāmepota;Goth Same Pota
+en;Goth Hājepota;Goth Hajipota
+en;Goth Habib Lākha;Goth Habib Lakho
+en;Purāni Wassi;Goth Qasim
+en;Goth Lāka Mughal;Goth Lak Mughal
+en;Goth Ahmad Rakhra;Goth Gul Muhammad
+en;Goth Sulaimān Dāūd;Goth Sulaiman Daud
+en;Sulaimān Sūmra;Goth Sulaiman Sumro
+en;Wassi;Goth Wassi
+en;Goth Gone Dal;Goth Goni Dal
+en;Rahuti;Goth Rahuti
+en;Goth Jiye Shāh;Goth Haji Makko
+en;Hāji Ibrāhim;Goth Haji Ibrahim
+en;Seth Mahmūd;Goth Haji Muhammad
+en;Hāji Sāleh Dal;Goth Haji Saleh Dal
+en;Goth Rāja;Goth Rajo
+en;Sāng Miāni;Goth Sang Miani
+en;Goth Shīdi Dub;Goth Shidi Dub
+en;Goth Dub;Goth Shidi Dub
+en;Goth Arahāb Muhammad Husain;Goth Arbab Muhammad Shah
+en;Kallarpur;Goth Kallarpur
+en;Goth Muhammad Bachal;Goth Ali Muhammad
+en;Goth Jummūn Khāskheli;Goth Jumman Khaskheli
+en;Goth Allāhno;Goth Alam Din
+en;Memonpur;Goth Muhan Pur
+en;Goth Billāl;Goth Bilal
+en;Chāudhro;Goth Chaudhrio
+en;Goth Kandero Māchhi;Goth Haji Zohaib Machhi
+en;Qabūlpur;Goth Qabul Pur
+en;Goth Siddra Khāskheli;Goth Khuda Bakhsh Mado
+en;Goth Mahmūd Khāskheli;Goth Muhammad Ali Khaskheli
+en;Goth Saiyid Matta;Goth Saiyid Matto
+en;Goth Piru Garāno;Goth Yusuf Girano
+en;Goth Muhammad Husain Dal;Goth Muhammad
+en;Goth Arif Khalifo Sehto;Goth Arif
+en;Goth Sādiq Sehto;Goth Haji Urs
+en;Goth Jāfar Shoro;Goth Jafar
+en;Goth Shaikh Siddīq Muhammad;Shaikh Siddiq Muhammad
+en;Goth Sūmra;Goth Sumar
+en;Goth Daud Sameja;Goth Daud Samijo
+en;Goth Hyās Sūmro;Goth Ilyas Sumro
+en;Goth Ismāīl Sūmro;Goth Ismail Sumro
+en;Goth Gambīr;Goth Ghambir
+en;Goth Muhammad Sāleh;Goth Muhammad Saleh
+en;Goth Jhirkan;Goth Ali Jherruck
+en;Goth Dato Shoro;Goth Dadu Sheru and Haji Biro
+en;Goth Sūmar Jamāri;Goth Mub Mir Bahar
+en;Goth Hāji Jān;Goth Haji Jumma Urs
+en;Goth Ibrahim Ghatko;Muhammad Ghafur Khaskheli
+ur;گوٹھ محمد عیسیٰ خاصخیلی;Goth Muhammad Essa Khaskheli
+sd;ڳوٺ محمد عيسيٰ خاصخيلي;Goth Muhammad Essa Khaskheli
+en;Goth Wasāyo Lākho;Goth Wasaio Lakho
+en;Khebar Wado;Khyber Wado
+en;Zonar Bahāwal Khān;Bahawal Zaur
+en;Goth Bhāwal Khān;Goth Bahawal Lashari
+en;Goth Yār Muhammad Baloch;Goth Muhammad Ali
+en;Mānri;Manri
+en;Yārīwāla;Goth Yariwala
+en;Īsāwāla;Muhammad Issa
+en;Sherwāla;Goth Bashir Wala
+en;Lashkari;Goth Lashkari
+en;Goth Karīm Bakhsh;Goth Karim Bakhsh
+en;Bādal;Goth Badal
+en;Lāri;Goth Lari
+en;Hāji Umar Gandro;Goth Haji Umar Gundro
+en;Goth Khodāi;Khodai Goth
+en;Ghulām Ali Babar;Goth Ghulam Ali Babar
+en;Makūk Jherko;Goth Maluk Jherruk
+en;Goth Nazar Muhammad;Ramzan Brahui
+en;Goth Latīf Chāng;Latif Chang
+en;Hāji Abdullāh Brāhui;Goth Haji Suliman Brahui
+en;Jorio Babar;Goth Haji Abdul Rehman Babar
+en;Goth Hāji Wāian;Goth Haji Waion
+en;Meting Kuān;Meting Koh
+en;Hāji Sakhāni;Haji Sakhani Babar
+en;Hāji Sāleh;Goth Haji Muhammad Ali Babar
+en;Goth Hāji Arbāb Khan;Goth Arbab
+en;Goth Maulāi;Ali Muhammad Khaskheli
+en;Goth Mahmud Khāskheli;Jan Muhammad Khaskhali
+en;Goth Hāshim Faqīr;Hashim Faqir
+en;Goth Jan Muhammad Arbāb;Jan Muhammad Dal
+en;Goth Qadu;Qadu
+en;Goth Shoro;Kha Muhammad Shoro
+en;Khwājah;Goth Nawab Yamin Khanzada
+en;Baghia;Goth Khadim Bughio
+en;Rajāni;Goth Bakar Rajani
+en;Nabi Bakhsh;Goth Nabi Bakhsh
+en;Lakh Rāhu;Goth Lakho Rahu
+en;Gul Sehto;Goth Gul Sahto
+en;Gāhi Lākho;Goth Gahi Lakho
+en;Sakhio Mīrjat;Goth Sakhio Mirjat
+en;Khosānjo;Goth Sumar Khoso
+en;Salīm Rāhu;Goth Salim Rahu
+en;Lanjwāni;Goth Kehar
+en;Khudābād;Goth Khudabad Chandio
+en;Hāla Nawa;Goth Vi Machhi
+en;Saiyid Ajan Shāh;Goth Saiyid Ajar Shah
+en;Dāhrinja;Goth Shah Muhammad Dahri
+en;Sāndān;Goth Sandhan
+en;Jamāl Hājīāna;Goth Jamal Hajiano
+en;Moshan;Goth Wekio Machhi
+en;Luqmān Koreja;Goth Luqmah Korejo
+en;Dhari;Goth Maluk Dhari
+en;Bacha;Goth Malak Bhacho
+en;Saleh;Goth Saleh Mangrio
+en;Allāh Bakhsh;Goth Allah Bakhash Dahri
+en;Chand;Goth Lal Bakhsh Chand
+en;Muhammad Nizāmāni;Goth Ali Muhammad Nizamani
+en;Ali Muhammad Baghio;Goth Darya Khan Bughia
+en;Mārūi Bhambro;Goth Maruf Bhambhro
+en;Sultān Farāsh;Goth Sultan Farash
+en;Gamvir;Goth Ghambir
+en;Sāid Khān Laghāri;Goth Said Khan Laghari
+en;Mohan Māchhi;Goth Mahi Mochi
+en;Karam Nizāmāni;Goth Karam Nizamani
+en;Banglo;Goth Banglo
+en;Sultan Sehto;Goth Sultan Sento
+en;Mīrapur;Miran Pur
+en;Wahil Bhanot;Goth Wahil Bhanot
+en;Jamal Dāhri;Goth Jamal Dahri
+en;Tāra;Goth Tara
+en;Phutho;Goth Phutho
+en;Rāno Baghio;Goth Rano Bughio
+en;Shādi Khakhar;Goth Shadi Khokhar
+en;Gholam Muhammad Laghāri;Goth Ghulam Muhammad Laghari
+en;Godar Khokhar;Goth Godar Khokhar
+en;Daipar;Goth Daiper
+en;Māri Goth;Goth Mari
+en;Hāji Allāh Bakhsh Bellāl;Goth Haji Allah Bakhsh Bilal
+en;Taiyyab Dāhri;Goth Taiyyab Dahri
+en;Kāro Dāhri;Goth Karo Dahri
+en;Wadal Dāhri;Goth Wadal Dahri
+en;Malāk Khokhar;Goth Malak Khokhar
+en;Bhiro Sonchari;Goth Bhiro
+en;Bachal Unar;Goth Bachal Unar
+en;Nithu Shāh;Goth Mithu Shah
+en;Jādu Gahot;Goth Jadu Ghahoti
+en;Murād Kamlo;Goth Murad Kamlo
+en;Hangora;Goth Mehmud Hingoro
+en;Gāhot;Goth Gahot
+en;Kameji;Goth Kameja
+en;Mahr Shāh;Goth Mehar Shah
+en;Kamāl Laghāri;Goth Kamal Laghari
+en;Hāji Ahmad Baghio;Goth Haji Ahmed Bughio
+en;Abdul Hakīm Burro;Goth Abdul Hakim Burro
+en;Qāsim Hāla;Goth Qasim Hala
+en;Shāhinshāh;Ghulab Memon
+en;Bilāwal Khān Khoso;Goth Bilawal Khan Khoso
+en;Palio Hājīāna;Goth Palio Hajjano
+en;Bachal Unar;Goth Wadal Shah
+en;Sāiīnd no Burro;Goth Saindino Bur
+en;Mangtro Chhāchhar;Goth Mangtio Chhachhor
+en;New Chhāchhar;Goth Mero Chhachhar
+en;Awwal Chhāchhar;Goth Awwal Chhachhar
+en;Laia Asrār;Goth Lala Israr Pathan
+en;Sultān Mallāh;Goth Sultan Mallah
+en;Chitori;Goth Chitori
+en;Khokhar;Goth Ranjho Khokhar
+en;Rāind;Goth Ayub Rind
+en;Abbās Mallāh;Goth Abbas Mallah
+en;Nabi Bakhsh Jīlāni;Goth Nabi Bux Jilalani
+en;Dāim Rāhu;Goth Daim Rahu
+en;Abdul Latīf Rāhu;Goth Abdul Latif Rahu
+en;Bochal Koko;Begu Kaka
+en;Dalu Keti;Goth Dalu Ketti
+en;Amīn Lāko;Goth Amin Lakho
+en;Allāh Bakhsh;Goth Allah Bakhsh Rahuja
+en;Dargah Sharīf;Goth Dargah Sharif
+en;Pīr Jhando;Goth Pir Jhanda
+en;Nabi Bakhsh Mohāna;Goth Nabi Bakhsh Manahjo
+en;Abrejāni;Goth Ilyas Abreja
+en;Aghro Rāhu;Goth Agro Rahu
+en;Gāji Rāhu;Goth Haji Rahu
+en;Mewa Hājiāna;Goth Mewa Hajiana
+en;Ghulām Haidar Joya;Goth Ghulam Haider Joyo
+en;Mushtāq Hājiāna;Goth Mushtaq Hajano
+en;Khabbar Muliān;Goth Khabar Mulana
+en;Mīro Khān;Goth Jalal Khan Wighio
+en;Jiando Wighamal;Goth Jiando Wighamal
+en;Shādi Wighāma;Goth Shadi
+en;Urs Kochelo;Goth Urs Kachelo
+en;Bhīgu Khān Mīrjat;Goth Bhigu Khan Mir Jat
+en;Hālepota;Goth Halepoto
+en;Māngrio;Goth Mangrio
+en;Sabbab Ali Shāh;Goth Ali Shah
+en;Tālib Mūsa Colony;Goth Talib Moula Colony
+en;Allāh Bakhsh Thebo;Goth Allah Bukhsh Thebo
+en;Budhā;Goth Budhani
+en;Sehta;Sehto
+en;Chāndie;Goth Chandio
+en;Goth Hāmopeta;Goth Hampoto
+en;Sūmar Māchhi;Goth Sumer Machhi
+en;Goth Akhtar;Goth Sumer Machhi
+en;Majīdāna Samman;Goth Majidana Sammon
+en;Bangal Lashāri;Goth Bangal Lashari
+en;Sūmar Chāndie;Goth Sumra Chandio
+en;Dodu Maghwāno;Goth Dodo Mangwano
+en;Qubba Shaikh Tāhir;Lutf Ali Shah
+en;Muhammad Mangwano;Goth Muhammad Mangwana
+en;Hāji Halīm Wighāmal;Goth Haji Halim
+en;Dātu Juneja;Goth Datu Junejo
+en;Shāh Alam Shāh;Goth Shah Alam Shah
+en;Sājan Bhimbro;Goth Sajan Bhambro
+en;Mīru Dāhri;Goth Miro Dere
+en;Jafar Khāskheli;Jafar Khashkeli
+en;Yār Muhammad Khosa;Goth Yar Muhammad Khoso
+en;Sāhiīb Samma;Goth Sahib Summa
+en;Miān Bakhsh Faqīr;Goth Datu Bhatti
+en;Dāhriī;Dahri
+en;Jhugu Memon;Goth Jhugu Memon
+en;Husain Bhimbro;Goth Hasan Bhambro
+en;Sāleh Khān Mangrio;Goth Saleh Khan Mangrio
+en;Abdul Rashīd Tagar;Goth Abdul Rashid
+en;Bām Kando;Goth Baz Kando
+en;Akrīo;Akro
+en;Taku Shāh jo Khu;Goth Taku Shah
+en;Hāji Saīdullāh Shāh;Goth Haji Saidullah Shah
+en;Hāji Anwar Shāh;Goth Anwar Shah
+en;Haidar Khushk;Goth Haider Khushk
+en;Wassi Makhan Shāh;Goth Wassi Maknan Shah
+en;Misri Jhakhrejo;Goth Misri Jhakrejo
+en;Bhakhor Khoso Daryāni;Goth Qadir Baksh
+en;Yūsuf Jat;Goth Yusuf Jat
+en;Wassi Gul Memon;Goth Wassi Gul Memon
+en;Bahu Dero;Goth Mehar Machhi
+en;Wirodi;Goth Wirori
+en;Wachera Niāri;Goth Motio Khan Niazi
+en;Sobdār Zarādi;Goth Jan Muhammad Mesu
+en;Jān Muhammad Mesu;Goth Jan Muhammad Mesu
+en;Allāhyār Khoso;Goth Allah Yar Khoso
+en;Sammūn Māchhi;Goth Sammun Machhi
+en;Mohāra;Goth Mohara
+en;Mānk Khushk;Goth Umidu Khaskheli
+en;Sulaimān Khāskheli;Goth Lung Charo
+en;Pīrānro Chāro;Goth Khabar Charo
+en;Zimi;Goth Zimi
+en;Ghulām Muhammad Thebo;Goth Thehbo
+en;Muzaffarābād;Goth Manzurabad
+en;Bhure Khān Rind;Goth Bhuro Khan Rind
+en;Murīd Khān Rind;Goth Murid Khan Rind
+en;Chāndi Bachu;Goth Chandi Bachu
+en;Kureja;Goth Koreja
+en;Budha Bachu;Goth Budha Bachu
+en;Boland Shāh Salāro;Goth Buland Shah Salaro
+en;Lālu Māchhi;Goth Lalu Machhi
+en;Muhammad Khān Sangrāsi;Goth Muhammad Ali Sangrasi
+en;Wado Salāro;Goth Wado Salaro
+en;Sukhpur;Goth Sukhpur
+ru;Могила Кахолай-Кхара;Kaholai Khara
+ru;Бахлал;Bahlol
+ru;Джоджан;Suhbat
+ru;Мангал;Mangal
+ru;Санглун;Sanglun
+ru;Гудам;Gudam
+ru;Расул-Чаугай;Awagera Kili
+en;Dera Muhammad Achar;Goth Muhammad Achar
+en;Goth Āru;Goth Aru
+en;Goth Ak;Goth Uboi
+en;Goth Mūsa Doda;Goth Musa Dad
+en;Hasan Goth;Goth Hasan
+en;Īsmāīl Goth;Goth Ismail
+en;Sadiq Goth;Goth Sadiq
+en;Subhān Goth;Goth Subhan
+en;Usman Goth;Goth Usman
+en;Ambāgh Pīr Ziārat;Ambagh Husain
+en;Mujad Pīr;Tat Mujad Pir
+en;Goth Pir Perdesi;Baba Haji Usman Perdesi
+en;Goth Meth;Mitthi
+en;Goth Chatamulla;Goth Peryou
+en;Goth Pind Ali Marvi;Goth Rind Ali Marvi
+en;Goth Chākar Khān Marri;Goth Chaker Khan Murri
+en;Goth Punnu;Goth Punu
+en;Goth Miān Muhammad;Goth Mulla Muhammad
+en;Dah Daryab;Deh Qaryab
+en;Goth Sabāgah;Goth Sabadah
+en;Goth Sabāgah;Wahid Bakhsh
+en;Goth Wall Muhammad;Kingi Faqir
+en;Goth Hussain Munshi;Goth Munshi Hasan
+en;Goth Salo;Goth Shamba
+en;Goth Hāji Motiah Mondrah;Moedrah
+en;Goth Āchār;Goth Shakhi Dad
+en;Goth Mawāl Khān Bandīqhah;Goth Sawalikulwai
+en;Goth Abdul Rahim Brāhul;Goh Abdul Rahim
+en;Goth Muhammad Bachah;Goth Wali Bagh
+en;Goth Hāji Dīnu Mūndāh;Goth Haji Dino Mondah
+en;Goth Dilphul;Goth Muhammad
+en;Goth Dīnu;Goth Dina
+en;Goth Dino;Goth Dina
+en;Goth Rais Ilyās;Goth Rais Ilyas
+en;Goth Khamīsa;Goth Khamisa
+en;Goth Bachah Mūndan;Goth Mundah
+en;Chhatto Wāhorah;Chotto Wahorah
+en;Wasāro Lāndhi;Goth Wasaro Landhi
+pa;ਚੱਕ ਸ਼ਾਦੀ;Chak Shadi
+fa;چک شادی;Chak Shadi
+ur;چک شادی;Chak Shadi
+en;Jeya;Jayya
+nl;Jeya;Jayya
+fa;دهوک پدهال;Dhok Padhal
+ur;ڈھوک پڈھال;Dhok Padhal
+en;Ghaseetpur Awan;Ghasitpur
+ur;پیر جعفر;Darbar Peer Jaffar
+ur;گوچھ;Upla Gochh
+ur;حسن پٹھان;Hasan Pathan
+ur;پہاڑے چوک;Paharay Chowk
+ur;سلہ;Sullah
+ur;ملکی;Malki
+ur;روپیری;Ruperi
+ur;بنگیال;Bangial
+ur;دربار پیر چھوٹے شاہ ولی سرکار سمرالہ;Darbar Peer Chotey Shah Wali Sarkar Samrala
+ur;پیر غازی;Pir Ghazi
+fa;پیرغازی;Pir Ghazi
+fa;محمدی شریف;Muhammadi Sharif
+ur;محمدی شریف;Muhammadi Sharif
+en;Chak Three Hundred Forty;Chak Three Hundred Forty-one
+en;Haodak;Hudak Mirzai
+en;Parshagai Hābo;Parshagai
+en;Qutb Skhobai;Qutub Skhobi
+en;Tor Haoduna;Tor Hunduna
+en;Khusro;Kasora
+en;Udia;Udai
+en;Ibrāhīm Kats;Ibrahim Kili
+ur;Pārābek;Parabeg
+ur;پَارَابیک;Parabeg
+ur;Rūī;Rui
+ur;رُوـٔی;Rui
+en;Warth;Wahat
+ur;Waht;Wahat
+ur;وَھْت;Wahat
+en;Tori Beshgar;Beshghar
+en;Muli Beshgar;Muli Beshghar
+en;Burbunū;Barbunu
+en;Pustaki;Postaki
+en;Drushp;Drushop
+ur;Droshp;Drushop
+ur;دْروشْپ;Drushop
+en;Shakaryānontek;Shakrantek
+en;Narkorat;Narkoret
+en;Poistak;Postaki Ghari
+en;Kunda Lasht;Kandon Last
+en;Gilkimni;Gilkimin Ghari
+en;Uchuchhar;Ucho Gol
+en;Kishmār Dok;Kishman Dok
+en;Nāgregh Shāl;Nagrogh
+en;Do Ghari;Dok Ghari
+en;Uchshīa Lasht;Ucharn Lasht
+en;Noghor;Naghor
+en;Sighin;Sighain
+en;Hon;Hun
+ur;ھُن;Hun
+en;Putrik;Patrik Ghari
+en;Muzho Ghari;Maujon Ghari
+en;Wārzho Ghari;Warzho Ghari
+en;Ashangher Ghari;Ashan Ghur Ghari
+en;Chakār Ghar;Chakar Ghari
+en;Gala Ghari;Gara Ghari
+en;Gulgardi Ghari;Gulgardi
+en;Shekhi;Shaek
+en;Boghost Ghari;Satoniz
+en;Palario;Palarogh
+en;Taraghdul;Tarkwali
+en;Balangūru;Baran Goru
+en;Kotdesh;Kod Desh
+en;Kalashan Deh;Kalash Grum
+en;Shyokh;Chyogh
+en;Darkīstān;Drakistan
+en;Bitlīgīr;Bitiligi
+en;Dhangushti;Dungusht
+en;Dronak;Dorank
+en;Pūri Shāl;Bori Shal
+en;Tīsh;Tiwish
+en;Saruzjāl;Sarujal
+en;Burungrām;Brun
+en;Batrikāgrām;Batrik
+en;Kandarisar;Kandisar
+en;Kārakal;Krakal
+en;Shekhāndeh;Shaikhandeh
+en;Istoyāk Shāl;Ustoaj Shal
+en;Pigat Shāl;Bigat Shal
+en;Bidaura;Bidawar
+ur;Birnisar;Binisar
+ur;بِرْنِیسَر;Binisar
+en;Gazgūrūdeh;Gazguru
+en;Gūrūlodeh;Gura
+en;Noshbu;Noshbil
+en;Behālodeh;Behar
+en;Rondur;Randur
+en;Bohrtūll;Bakhtuli
+en;Bilphuk;Bilpok
+en;Purdesh;Purdash
+en;Shaghur;Mora Shaghur
+ur;Shāghor;Mora Shaghur
+ur;شَاغور;Mora Shaghur
+en;Gulukhtori;Gul Khatori
+en;Khamkoru;Kham Karu
+en;Borghozi;Borghazi
+en;Mulen Kuzhu;Muren Kuju
+en;Rogh;Ragh
+ur;Shālī;Shali
+ur;شَالِی;Shali
+en;Dalamuts;Dalamuch
+en;Shelang Shāl;Shelang Shal
+ur;Golin;Golen
+ur;گولِن;Golen
+en;Lasht;Danin Lash
+en;Danīn;Danin
+en;Thingshen;Tingshen
+en;Mustajabāndeh;Mustajabahdeh
+ur;Mustajābāndehh;Mustajabahdeh
+ur;مُسْتَجَابَانْدیہه;Mustajabahdeh
+en;Dawashīsh;Dawashish
+en;Dar Shāl;Dar Shal
+en;Chitrak Shāl;Chutrik Shal
+en;Bakāmak;Bakamak
+en;Makhtuābād;Makhtumabad
+en;Bakrābād;Bakarabad
+en;Chomorkhon;Chomarkan
+ur;Chumor Khun;Chomarkan
+ur;چُمورخُن;Chomarkan
+en;Zhuti Lasht;Jhuti Lasht
+en;Sūtākhiāndeh;Sutakhandah
+en;Mīrāsiāndeh;Mir Saindah
+en;Thamonaik;Tamunaik
+en;Dohr;Dehr
+ur;Kārī;Kari
+ur;کَارِی;Kari
+en;Kunbat;Gumbat
+en;Gumbaz;Gumbos
+en;Domūn;Domun
+en;Ghuchār Shāl;Guchar Shal
+en;Kanderi;Kandheri
+en;Chin Nissar;Chin Nis
+en;Gurārish;Tangal Gora Rezh
+en;Sheri;Sherhli
+en;Darkhānāndeh;Dar Khanandeh
+ur;Darkhānāndehh;Dar Khanandeh
+ur;دَرْخَانَانْدیہه;Dar Khanandeh
+en;Thoriānondeh;Thonandeh
+ur;Thorīān Dehh;Thonandeh
+ur;تْہورِیَان دیہه;Thonandeh
+ur;Sen;Sahn
+ur;سین;Sahn
+en;Angiārak;Angarike
+en;Kawāsh;Kosh
+en;Lawār;Lawar
+en;Dalgām;Dalgan
+en;Maskur;Mashlur
+en;Kuru;Karu
+en;Birgāh Nissar;Birgah Nisar
+en;Lao Nissar;Lao Nisar
+en;Kashīsh;Qashish
+en;Shirāti;Sherati
+en;Kol;Kul
+en;Pālaī;Palai
+en;Khayāri;Khiari
+en;Muzhdi;Muzhadah
+en;Shol Shāl;Shalghash
+en;Dabi;Dab
+en;Dubājh;Dobash
+en;Shatrīk;Satrik
+en;Birmogh Shāl;Birmoghyal
+en;Rahadat;Rakhtat
+ur;Jinjireṭ;Jingeret
+ur;جِنْجِریٹ;Jingeret
+en;Damik;Damil
+en;Sarain;Surain
+en;Goshāhi;Goshai
+en;Bashna Kundiak;Bashan Kundak
+en;Dadhār;Dadhar
+en;Mīrbāz Bānda;Mir Baz Banda
+en;Jaba;Jabba Banda
+en;Tikārai;Tikarai
+en;Kūz Bānda;Kuza Banda
+en;Manz Bānda;Mehnaz Banda
+en;Jandel Kūh;Jander Koh Banda
+en;Chhanīmāl;Chhanimal
+en;Tabarlāski;Tabar Lasto
+en;Shiddat;Shehbat
+en;Shadal;Shandai
+en;Tīk;Tak
+en;Bar Rokhān;Rokhan Bala
+en;Gulīpato Bānda;Pito Banda
+en;Surkamar;Sarkamar
+en;Dār Bānda;Duro Banda
+en;Saonrai;Sauni
+en;Kunj Bānda;Kata Purta
+en;Shārmān;Sharmai
+en;Tsappargo Bānda;Tsapparago Banda
+en;Lara Bānda;Larra Banda
+en;Bara Bāda;Bara Banda
+en;Kutibast;Kuti Basti
+en;Serai Bāba Sāhib;Serai Baba Saib
+en;Damharkola;Dambar Kola
+en;Atanr;Hatan
+en;Smatso Kas;Simat Shah
+en;Mānrāi;Manrai
+en;Bāndaikandao;Bandi Kandao
+en;Dand Bānda;Danda Banda
+en;Jaba;Jabba
+en;Ganorai;Ganora
+en;Taus;Tousa
+en;Kūz Surbat;Surbat Payan
+en;Abākanr;Aba Kand
+en;Ich Kili;Uch Kili
+en;Smatsokas;Samsu Kas
+en;Nangarkārai;Nangar Karai
+en;Bādai Bānda;Bara Banda
+en;Chunda Bānda;Chanda Banda
+en;Dando Bānda;Randu Banda
+en;Charegāno Bānda;Cheragana Banda
+en;Mānro Bānda;Mano Banda
+en;Hunkār;Unkar
+en;Jon Bānda;Jan Banda
+en;Jabalok Bānda;Jablok Banda
+en;Kasūna;Kasuno
+en;Chandes;Chandas
+en;Kachol Kas;Kachul
+en;Jikat;Jika
+en;Shaga;Shagai
+en;Ranzara;Ranzara Banda
+en;Qola;Kola
+en;Main Bānda;Mohain Banda
+en;Bar Surbat;Surbat Bala
+en;Līlbanr;Libanr Bala
+en;Tikarkol;Tikarkot
+en;Dīlakal;Dilakal Kas
+en;Jākarai;Jakarui
+en;Tanrai;Tanai
+en;Surup;Sarpo
+en;Khākdār;Khakhdar
+en;Shāi;Shahi
+en;Maidānkhwār;Maidan
+en;Kail;Kair
+en;Dabbūmanza;Dobbumanzai
+en;Kūz Chārkun;Kuz Charkum
+en;Bar Chārkun;Bar Charkum
+en;Jaghabani;Jaghabanj
+en;Mahan Ban Bānda;Mabanr Banda
+en;Parar;Parro
+en;Patai Bānda;Pitao Banda
+en;Una Bānda;Uch Banda
+en;Gulībāgh;Gulibagh
+en;Lādha;Lacha
+en;Bābāgām;Baba Gam
+en;Gurjái Bānda;Garsai Banda
+en;Batlai Kili;Botlai Bala
+en;Khushhāl Bānda;Uchsar Banda
+en;Kats Bānda;Khadorai
+en;Quti Bāla;Kutebila
+en;Panjkora Kili;Panjkora
+en;Datlai;Batlai
+en;Umarali Bar;Umarlai Bala
+en;Umarali Kūz;Umarali
+en;Garru;Garrun
+en;Malui;Molai
+en;Gamdat Kili;Gamdat
+en;Hawaro Kili;Hawaro
+en;Asperdar Kili;Asperdar
+en;Kas Kili;Kuz Batlai
+en;Bānda;Khazanga Banda
+en;Samdalāsa Bānda;Samdlasa Banda
+en;Torgat Bānda;Torpano Banda
+en;Qala;Qalamanzai
+en;Makhranai;Markhano
+en;Shāhgai;Shagai
+en;Kandai;Landai
+en;Dīdanpura;Didanpura
+en;Gal;Gul Bazar
+en;Lar Mirgām;Sar Mirgam
+en;Dafūr;Dapur
+en;Bāndagai;Bandagar
+en;Bar Mirgām;Sombar Gam
+en;Gāwarkat;Gonar Kat
+en;Topasīndh;Topasindh
+en;Gūjar Kote;Gujar Kot
+en;Plāno Derai;Plano Diperai
+en;Brekanai;Markhanai
+en;Sperdār;Spedar
+en;Sufanzai;Sadanzai
+en;Batezai;Batezai Khel
+fa;بهاگ;Bhag
+ur;تحصیل بھاگ;Bhag
+en;Odhanwāla;Dholanwala
+en;Mullāniān;Maullanian
+en;Malwārīn;Maullanian
+en;Basti Mehrān;Basti Mihran
+en;Basti Arāīn;Basti Araian
+en;Jhok Arāīn;Basti Araian
+en;Naushera;Noushehra
+en;Naushahra;Noushehra
+en;Pushān;Pushe
+en;Suāgan Tibbi;Basti Sohagan
+en;Chak Fourteen DNB Shumāli;Chak Fourteen Dera Nawab Branch Shimali
+en;Chak Fourteen DNB Janūbi;Chak Fourteen Dera Nawab Branch Janubi
+en;Chak Eleven DNB;Chak Eleven Dera Nawab Branch
+en;Chak Ten DNB;Chak Ten Dera Nawab Branch
+en;Chak Sixty-five DB Janūbi;Chak Sixty-five Dera Nawab Branch Janubi
+en;Chak Sixty-three ADB;Chak Sixty-three Desert Branch
+en;Chak Sixty-three DB;Chak Sixty-three Desert Branch
+en;Chak Sixty-five DB Shumāli;Chak Sixty-five Shimali
+en;Chak Forty-two DB;Chak Forty-two Desert Branch
+en;Chak Forty-three DB;Chak Forty-three Desert Branch
+en;Chak Fifty-one DB Janūbi;Chak Fifty-one Desert Branch Janubi
+en;Chak Fifty-two DB;Chak Fifty-two Desert Branch
+en;Chak Fifty-six DB;Chak Fifty-six Desert Branch
+en;Chak Fifty-eight ADB;Chak Fifty-eight Desert Branch Shimali
+en;Chak Fifty-nine DB;Chak Fifty-nine Desert Branch
+en;Chak Fifty-eight DB;Chak Fifty-eight Desert Branch Janubi
+en;Chak Fifty-six ADB;Chak Fifty-six Desert Branch
+en;Chak One Hundred One DB;Chak One Hundred One Desert Branch
+en;Chak One Hundred Three DB;Chak One Hundred Three Desert Branch
+en;Chak One Hundred Six DB;Chak One Hundred Six Desert Branch
+en;Chak One Hundred Seven DB;Chak One Hundred Seven Desert Branch
+en;Chak One Hundred Eight DB;Chak One Hundred Eight Desert Branch
+en;Chak Sixty-one DB;Chak Sixty-one Desert Branch
+en;Chak Sixty-two DB;Chak Sixty-two Desert Branch
+en;Chak Sixty-six DB;Chak Sixty-six Desert Branch
+en;Chak Sixty-seven DB;Chak Sixty-seven Desert Branch
+en;Chak Seven DNB;Chak Seven Dera Nawab Branch
+en;Chak Eight DNB;Chak Eight Dera Nawab Branch
+en;Chak Seventeen DNB;Chak Seventeen Dera Nawab Branch
+en;Chak Sixteen DNB;Chak Sixteen Dera Nawab Branch
+en;Chak Six DNB;Chak Six Dera Nawab Branch
+en;Chak Five DNB;Chak Five Dera Nawab Branch
+en;Chak Four DNB;Chak Four Dera Nawab Branch
+en;Chak Three DNB;Chak Three Dera Nawab Branch
+en;Chak One DNB Janūbi;Chak One Dera Nawab Branch Janubi
+en;Chak One DNB Shumāli;Chak One Dera Nawab Branch Shimali
+en;Chak One Hundred Forty DB;Chak One Hundred Forty Desert Branch
+en;Chak One Hundred Seventeen DB Janubi;Chak One Hundred Seventeen Desert Branch Janubi
+en;Chak One Hundred Nine DB;Chak One Hundred Nine Desert Branch
+en;Chak One Hundred Ten DB;Chak One Hundred Ten Desert Branch
+en;Chak One Hundred Five DB;Chak One Hundred Five Desert Branch
+en;Chak One Hundred DB;Chak One Hundred Desert Branch
+en;Chak One Hundred Four DB;Chak One Hundred Four Desert Branch
+en;Chak Ninety-one DB;Chak Ninety-one Desert Branch
+en;Chak Ninety-eight DB;Chak Ninety-eight Desert Branch
+en;Chak Ninety-three DB;Chak Ninety-three Desert Branch
+en;Chak Ninety-one ADB;Chak Ninety-one A Desert Branch
+en;Chak Ninety-nine DB;Chak Ninety-nine Desert Branch
+en;Chak Ninety-nine DB Gharbi;Chak Ninety-nine Desert Branch Gharbi
+en;Chak One Hundred Thirteen DB;Chak One Hundred Thirteen Desert Branch
+en;Chak One Hundred Twelve DB;Chak One Hundred Twelve Desert Branch
+en;Chak One Hundred Eleven DB;Chak One Hundred Eleven Desert Branch
+en;Chak One Hundred Sixteen DB;Chak One Hundred Sixteen Desert Branch
+en;Chak One Hundred Fifteen DB;Chak One Hundred Fifteen Desert Branch
+en;Chak One Hundred Fourteen ADB;Chak One Hundred Fourteen A Desert Branch
+en;Chak One Hundred Fourteen DB;Chak One Hundred Fourteen Desert Branch
+en;Chak One Hundred Thirteen DB Sharqi;Chak One Hundred Thirteen Desert Branch Sharqi
+en;Chak One Hundred Forty-three DB;Chak One Hundred Forty-three Desert Branch
+en;Chak One Hundred Forty-two DB;Chak One Hundred Forty-two Desert Branch
+en;Chak One Hundred Forty-one DB;Chak One Hundred Forty-one Desert Branch
+en;Chak One Hundred Eighteen DB;Chak One Hundred Eighteen Desert Branch
+en;Chak One Hundred Thirty-nine DB;Chak One Hundred Thirty-nine Desert Branch
+en;Chak One Hundred Thirty-eight DB;Chak One Hundred Thirty-eight Desert Branch
+en;Chak One Hundred Thirty-seven DB;Chak One Hundred Thirty-seven Desert Branch
+en;Chak One Hundred Nineteen DB;Chak One Hundred Nineteen Desert Bracnh
+en;Chak One Hundred Twenty DB;Chak One Hundred Twenty Desert Branch
+en;Lāmbat Jal;Lambat Jol
+en;Būjabanr;Gujar Banr
+en;Kāhaī;Kahai
+en;Budsarai;Butseri
+en;Bāghīcha;Baghicha
+en;Rashka;Rashaki
+en;Sūra Khel;Suria Khel
+en;Miān Kili;Wazir Kalle
+en;Bābar Kili;Babar Qala
+en;Mairasar;Barra Marhatti Maira
+en;Marasar;Chota Marathi
+en;Chitli Dheri;Sharifabad
+en;Mohmand;Muhammad Kalle
+en;Choba;Chopal
+en;Miāngān;Miangan Kalle
+en;Khan Arat;Islamabad
+en;Barāta;Barata
+en;Sowāriān;Sowarian
+en;Manīkhel;Marj Khel
+en;Zormandi;Shaikhabad
+en;Kāgān Dheri;Kagan
+en;Kandar;Mian Kalle
+en;Bābān Dheri;Baku Dheri
+en;Gulzār;Gulzar Kalle
+en;Zandu;Zando Dheri
+en;Korband;Tuth Kalle
+en;Tāūs;Thaus Kalle
+en;Tāūs;Tartoru
+en;Tambolak;Tambolak Kalle
+en;Shakar Dhand;Haji Muhammad Kalle
+en;Kandori;Kandaray
+en;Landai Shāh;Landay Shah
+en;Chehl;Chehl Banda
+en;Shakar Moria;Shakar Morey
+en;Bungala;Bangla
+en;Chehl;Ghulam Muhammad Kalle
+en;Akhūn Bāba Ziārat;Akhun Baba Kalle
+en;Sikandar Korūna;Sakandri
+en;Gulibāgh;Gulibagh
+en;Khānpur;Masiti
+en;Hindu Kili;Khura Banda
+en;Ghaz Kili;Ghaz Kalle
+en;Palātu Kili;Palatu
+en;Bānda;Shahia Banda
+en;Bahrām Khān;Behram Khan
+en;Dīwān Kili;Behram Khan
+en;Narai;Narai Kalle
+en;Miān Gul;Mian Gul Kalle
+fa;چکری وکیلان;Chakri Vakilan
+ur;چکری وکیلاں;Chakri Vakilan
+fa;پند رحیم شاه;Pind Rahim Shah
+ur;پنڈ رحیم شاہ;Pind Rahim Shah
+fa;کتووال;Kattowal
+ur;کتووال;Kattowal
+fa;حاجی محمد، پاکستان;Haji Muhammad
+ur;حاجی محمد;Haji Muhammad
+ur;ٹھیکریاں;Thikrian
+ur;کوٹلی کپہ;Kotli Kopa
+en;Shāhni Sher ki Khāngāh;Shahi Sherki Khangah
+fa;شیخ رجدا;Shaikh Rajada
+ur;شیخ رجدا;Shaikh Rajada
+en;Bhato;Basti Bhoteji
+en;Dulluwāla;Basti Abdullahwali
+en;Chāh Mochiwāli;Chah Mochianwala
+en;Basti Serata;Basti Sarhatta
+en;Serhata;Basti Sarhatta
+en;Mughiānwāli;Basti Mughalwali
+en;Jāgīr Kīkri;Jagir Kiri
+en;Jāgīr Hūriān;Hurian
+en;Sāhūwāla;Munshiwala
+en;Chak Ninety-nine;Chak Ninety-nine M
+en;Jhokwāla;Basti Maish
+en;Basti Sāhlān;Basti Salan
+en;Basti Huriān;Basti Haran
+en;Basti Hūre;Basti Haran
+en;Jhok Jhānwar;Jhok Janwar
+en;Basti Kumhārān;Basti Kamran
+en;Basti Sāmlān;Basti Samalan
+en;Basti Sānwlān;Basti Samalan
+en;Basti Panwārān;Maqbul Town
+en;Basti Panwār;Maqbul Town
+en;Bangiān;Banga Basti
+en;Goth Nūr Bakhsh;Basti Kot Nur
+en;Bindra;Muhajir Colony
+en;Hotwāla;Hotwali
+en;Bhedwān;Bhidwan
+en;Bhedu;Bhidwan
+en;Rāna Goda;Basti Rana Godam
+en;Basti Aotaria;Basti Utran
+en;Utera;Basti Utran
+en;Kachiwāh;Kachiwah Basti
+en;Basti Lāran;Basti Laran
+en;Basti Arāin;Muhammad Aran
+en;Basti Malik Faiz Muhammad Arāin;Muhammad Aran
+en;Goth Karām;Goth Gata
+en;Nowshera;Naushera
+en;Naushahra;Naushera
+en;Chak Eleven;Chak Eleven Bahawal Canal
+en;Chak Ten;Chak Ten Bahawal Canal
+en;Chak Twenty-nine;Chak Twenty-nine Bahawal Canal
+en;Chak Twenty-eight;Chak Twenty-eight Bahawal Canal
+en;Chak Twenty-five A;Chak Twenty-five Bahawal Canal
+en;Chak Twenty-seven;Chak Twelve Bahawal Canal Janubi
+en;Chak Twenty-five;Chak Twenty-five Bahawal Canal
+en;Chak Thirteen;Chak Thirteen Bahawal Canal
+en;Chak Fourteen A;Chak Fourteen Ahmadpur Branch Canal
+en;Chak Twenty-four;Chak Twenty-four Bahawal Canal
+en;Chak Twenty-three;Chak Twenty-three Bahawal Canal
+en;Chak Fourteen;Chak Fourteen Bahawal Canal
+en;Basti Hasan Khān;Basti Hasan
+en;Chak Number Thirteen A;Chak Thirteen Ahmadpur Branch Canal
+en;Chak Twelve;Chak Twelve Bahawal Canal
+en;Basti Bāra;Basti Bar
+en;Basti Mohaniān;Basti Mohaian
+en;Basti Mohāriān;Basti Mohaian
+en;Udi;Udi Basti
+en;Udr;Udi Basti
+en;Bahār Burāna;Basti Bar Bhorana
+en;Basti Mochiān Sihālān;Basti Mochian Sialan
+en;Pasti;Basti Posti
+en;Basti Babib Missan;Basti Habib Massan
+en;Habīb Misan;Basti Habib Massan
+en;Basti Gānwar Shāh;Basti Ghanwar Shah
+en;Basti Sadāri Baluch;Basti Sardari Baluch
+en;Sardar Baloch;Basti Sardari Baluch
+en;Bigga Mal;Begah Mal Basti
+en;Chak 241 GB Behraam;Chak 241 GB Behram
+pa;ਚੱਕ 241 ਗ. ਬ. ਬਹਿਰਾਮ;Chak 241 GB Behram
+fa;کوت‌لای;Kotlai
+en;Pārrai;Parurri
+en;Shingardār;Shigadar
+en;Gumbatūna Bānda;Gunbatuna
+en;Bāba Derai;Gulabad
+en;Abūa;Aboha
+en;Nawe Kalai;Nawe Kalle
+en;Balo Kalai;Balo Kalle
+en;Kuz Samsai;Kuz Samsara
+en;Yakābanj Bānda;Kabanj Banda
+en;Dangāh Bānda;Dargai Banda
+en;Manzari Bānda;Manzarai Banda
+en;Sārga Bānda;Sargah Banda
+en;Shāhi Bānda;Shah Banda
+en;Gandero Bāba;Gandero Banda
+en;Kuz Bāzdarra;Kuz Baz Dara
+en;Mora Bānda Kili;Mora Banda
+en;Loe Bānda;Loya Banda
+en;Sandok;Sandoka
+en;Melogān;Melgan
+en;Chingai;Chungai
+en;Zarīkhela;Zarra Khela
+en;Kuai;Khue
+en;Bālam Derai;Dole Shah
+en;Sharāb Khui;Shrab Khue
+en;Balo Kili;Bararri
+en;Bākandal;Bakand
+en;Ādam Derai;Adam Dherai
+en;Gulmuqām;Jafarabad
+en;Sisadda;Seh Sadda
+en;Dalbār;Darbar
+en;Jaba Bānda;Jaba Banda
+en;Maizaru Kili;Mezara
+en;Shāhkot Bāndai;Sro Kote
+en;Piniar Bānda;Panjir Banda
+en;Piāranra;Piranra
+en;Landakai;Landaki
+en;Nānser;Nansar
+en;Bādām;Badam Banda
+en;Zoharābād;Zaurabad
+en;Haidarābād;Jehanabad
+en;Sādiqābād;Sadiqabad
+en;Kāmangarh;Kamargai
+en;Landai;Laindi
+en;Shakar Dheri;Shakar Dhand
+en;Āsar;Astar
+en;Shakar Tangi;Shakar Tangai
+en;Sirīkh Miāna;Sirkh Miane
+en;Barami Khwaidād Khān;Behram Banda
+en;Inzargai Bānda;Inzargai
+en;Zano Ghundai;Patorak
+en;Chichār;Chaichar
+en;Usai;Hussai
+en;Halki Kalai;Halki Kalle
+en;Shekh Kalai;Shaikhano Kalle
+en;Yahya;Yahya Khan Banda
+en;Khān Bānda;Yahya Khan Banda
+en;Nāsir Kalai;Nasir Kalle
+en;Shakar Morai;Ghuz
+en;Makān Bagh;Makanbagh
+en;Mohallah Lund-i-Kas;Landaikas
+en;Sunīgrām;Tor Gat Sunigram
+en;Kūz Chinār;Chinar
+en;Chor Bānda;Char Banda
+en;Sangra Bānda;Sangira
+en;Barjo Kāntrai;Ambela Kalla
+en;Kote;Kuthae
+en;Shpālai Bānda;Shpu
+en;Bāgh Bānda;Banda
+en;Pitao Malandrai;Pitao Malandri
+en;Momānra;Ghazi Banda
+en;Ghanal;Anat
+en;Bara Bānda;Bar Banda
+en;Baghai;Bage
+en;Khoglarai;Kholarzai
+en;Khāngai;Khunigai
+en;Hāshmai;Hashami
+en;Lālu;Lalu Razzar
+en;Shamma Khui;Kahoie
+en;Kuliān Darra;Surmal
+en;Surmai;Surmal
+ur;لنڈی;Landi
+en;Nātiān;Aman Kot
+en;Hamzakot;Hamza Kot
+en;Pallo Kandar;Pallo Kanda
+en;Bekar;Bekara
+en;Natiān Post;Natian
+en;Mīr Shāhe;Mir Shahi
+en;Dandikot;Dhandi Kot
+en;Ajambar Ghundai;Ajmir
+en;Chitial Dheri;Chitiala Dheri
+en;Chatara;Chamtar
+en;Chārgul;Chargul
+en;Khānān Dherai;Khana Dheri
+en;Pallo Dheri;Palli Dheri
+en;Khisha;Khishah
+en;Kaniza Dheri;Karkanai Dhera
+en;Ghulāma;Ghulaman
+en;Lakha Tibba Dheri;Shah Alam Serai
+en;Madda Khel;Madda Khela Bala
+en;Bagga;Bagor
+en;Ore;Urya
+en;Kodi Dherai;Koli Dherai
+en;Bahai;Bahu
+en;Kajīr;Qajir
+en;Gumbat Dherai;Gumbat Dheri
+en;Batkānrai;Barjokantrai
+en;Sangbalai;Sangbhatti
+en;Gago Dherai;Gangu Dher
+en;Nakla Dheri;Rafiqabad
+en;Rasoli Dheri;Rasulai Dheri
+en;Injan Dheri;Anjar Dheri
+en;Takhtaband;Takhta Band
+en;Sherghund;Shera Ghund
+en;Pal Dheri;Pai Dheri
+en;Mairai Dhand;Mairal Dhand
+en;Alo Bānda Dheri;Alu Banda Dheri
+en;Sajdo Dheri;Saidodher
+en;Jahāngīrdara;Jang Darra
+en;Chanj Dheri;Chan Dheri
+en;Firdausābād;Firdusabad
+en;Bīna Dheri;Bina Dheri
+en;Qadmi Kalle;Qadme Kalle
+en;Alugi Dheri;Wallge Dheri
+en;Ristāni Dhand;Rishtandi Kate
+en;Sāid Khān Dheri;Said Khan Dheri
+en;Dandoqa;Dhandaka
+en;Dipti Kalle;Charbagli
+en;Chārbāgh;Charbagli
+en;Badraga Kalle;Badrage Kalle
+en;Miāngāno Seri;Miangano Serai
+en;Chappi Dheri;Chpai Dhand
+en;Abāzo Dheri;Abazo
+en;Saiyidāno Dhand;Abo Banda
+en;Bādshāi;Badshani
+en;Miāngāno Kalle;Mairi Kalle
+en;Maneri Bānda;Manerai Banda
+en;Nāzri Dheri;Nazri Banda
+en;Mahmūdābād;Muhmud Abad
+en;Pāinda Dheri;Paindi Dheri
+en;Rukhāni;Rukhani
+en;Kadai;Kade
+en;Nāro Dheri;Nara Dheri
+en;Mīr Dād Kalle;Mirdad Kalle
+en;Salāno Dheri;Saghlat Dheri
+en;Kuladhand Bānda;Kulo Dhand Banda
+en;Kandro Dheri;Kandaro
+en;Daulat Dheri;Dula Dheri
+en;Urmalo Dheri;Urmal Dheri
+en;Sikandari Dheri;Sikandare Dheri
+en;Shamlo Dheri;Shamlo Dhand
+en;Bārahkas;Barahkas
+en;Jaure;Joru
+en;Balari Dheri;Shahidano Dheri
+en;Sikandari Kalle;Sikandare Kalle
+en;Khuneb Dheri;Khunar Dheri
+en;Guloe Dheri;Goju Dheri
+en;Qāsim Kalle;Qasim Kalle
+en;Khore;Khuro
+en;Gīdar Kalle;Gidaro Kalle
+en;Jagannāth;Jagannoth
+en;Chāuntri Bānda;Chantri Banda
+en;Musa Banda;Musa Banda/Musa khan kallay
+en;Umardīn Kalle;Mehr Din Kalle
+en;Dheri Zakaria;Zakria Dherai
+en;Laftan Kot;Sardarabad
+en;Bālo;Balu
+ur;چلہانہ;Chilehana
+ur;کھائیگلا;Khai Gala
+ar;كائي غلا;Khai Gala
+hi;तराड़ खेल;Tarar Khel
+ur;تراڑ کھل;Tarar Khel
+en;Kalyal Bhainsi;Kalial Bensi
+ur;مفتیاں;Muftian
+ur;دھمتھل;Dhamthal
+pa;ਕੋਟ ਬੂਟਾ ਸਿੰਘ;Kot Buta Singh
+pa;ਬੂਟਾ ਸਿੰਘ;Kot Buta Singh
+en;Jivan Habu;Jivanuna
+ur;بھگوال محمود بوٹی لاہور;Bhagwal Nawan
+pa;ਬੁਰਜ ਮੰਡੀ;Chak One Hundred Three Jhang Branch
+en;Burj Mandi;Chak One Hundred Three Jhang Branch
+nl;Burj Mandi;Chak One Hundred Three Jhang Branch
+fa;کتهائی;Kathai
+ur;کٹھائی;Kathai
+fa;اجمرا;Ajmera
+en;Qaāgai;Qalagai
+en;Sholgra;Sholgara
+en;Arkhūna;Arkuna
+en;Dand Bānda;Dhandh Banda
+en;Dodā Derai;Doda Dherai
+en;Irobai;Arfi
+en;Chīrai;Charai
+en;Kūlban;Kulband
+en;Tarkānadarra;Tarkana Darra
+en;Tandora;Tandaro
+en;Kāchol Bela;Kachal
+en;Shat Ban;Sharban
+en;Tekhto Bela;Takhto Bela
+en;Arūno;Juz
+en;Dīlban;Dilban Banda
+en;Bankor;Bana Kot
+en;Larkiāi;Larkiai Banda
+en;Pūl Bela;Pul Bela Banda
+en;Dām;Dham
+en;Tarkāna;Tarkana Banda
+en;Lāl Shāshi;Lal Shashui
+en;Ketal;Kethail
+en;Shāhmlak;Shah Maluk Banda
+en;Kuz Gunagūz;Kaz Gunaguz
+en;Hawāi;Wahi Hawai
+en;Tep;Tep Banda
+en;Bārāi;Bardi Banda
+en;Dapāndu;Dopandu
+en;Badai;Barai
+en;Khānkai Bānda;Khankau Banda
+en;Kanimār;Kandaymar
+en;Ashāropatai;Asharopatoi
+en;Hariāni Dirlām;Arianai Dirlam
+en;Hariāni Jawar Kās;Arainai Jawar Kas
+en;Hariānai Kās;Arianai
+en;Dīro;Dir Banda
+en;Abdakai;Aodkai
+en;Dara;Dara Ziaba
+en;Akhazai;Akhzai
+en;Khuddu Sar Khānzai;Khudda Sar Khanzai
+en;Kārāwai;Karori
+en;Karorai;Karori
+en;Mandāna Kārez;Mandana Karez
+en;Khāsunki;Khasunka
+en;Farākhi;Farakhai
+en;Kāni Kachai;Kanpkizi
+en;Changai;Changai Taran
+en;Lamai Tormūrgha;Lamai Tor Murgha
+en;Telrai;Tlerai
+en;Kānai;Kaina
+en;Ābusidah;Abu Said
+en;Kili Malik Mahmūd Kili;Kili Malik Mahmud
+en;Goriān;Gorian
+en;Tarkhānwāla;Tarkhanwala
+en;Bet Jhamat;Kalu Jhamatwala
+en;Jhok Mashūri;Jhok Mashuri
+en;Jhok Qāim Khān;Jhok Qaim Khan
+en;Jhok Mattewāli;Jhok Mattewali
+en;Bet Aliāni;Bet Aliani Bhindi
+en;Dangāwāla;Dangawala
+en;Basti Sandīla;Basti Sandila
+en;Bet Sāban;Bet Saban
+en;Ser Māchhīwāli;Ser Machhiwali
+en;Nūr Dakhanwāla;Khu Sultanwala
+en;Lāl Isarwāla;Lal Isanwala
+en;Hayāt Mohānewāla;Mohanewala
+en;Lishārīwāla;Lashariwala
+en;Bhuttewāla;Bhuttewala
+en;Dari Chāndiānwāli;Chandiwala
+en;Tāhlīānwāli;Basti Tahlian
+en;Basti Basīr;Basti Basir
+en;Kumhārwāla;Kumharwala
+en;Namurdīwāla;Namurdiwala
+en;Ser Piārewāli;Sir Piyariwala
+en;Dīn Muhammadwāla;Din Muhammadwala
+en;Yāran Kharwāli;Yaran Kharwali
+en;Malānewāli;Mullanwala
+en;Gulābwāla;Jatoiwala
+en;Ghanwar Kharwāla;Ghanwar Kharwala
+en;Ser Jindūwāli;Ser Jinduwali
+en;Mahmūdwāla;Mahmudwala
+en;Hazratwāla Janūbi;Hazratwala Janubi
+en;Jhānb;Jhamb
+en;Kharwāla;Kharwala
+en;Begīwāla;Begiwala
+en;Sarwārīwāla;Chah Sarwawala
+en;Saholwāla;Saholwala
+en;Mūsewāla;Musewala
+en;Sohelrewāla;Sohelrewala
+en;Angrewāla;Angrewala
+en;Khirāna;Khirana
+en;Chhajrewala;Darri Jhajanwala
+en;Basti Rānjha;Basti Ranjha
+en;Habībwāla;Habibwala
+en;Buddhanwāla;Chhajhanwala
+en;Salārīwāla;Salariwala
+en;Serwāla;Sirwala
+en;Machhrānwāla;Machhranwala
+en;Basti Saiyid;Syedwala
+en;Basīrewāla;Bashirwala
+en;Manjothewāla;Manjhotewala
+en;Kirārw;Kirirwala
+en;Serwāla;Serwala
+en;Dramar;Darman
+en;Janjarwāla;Janjarwala
+en;Nishānwāla;Nishanwala
+en;Kharoriwāla;Kharoriwala
+en;Basti Shaikhāni;Basti Sakhani
+en;Mitthewāla;Mithewala
+en;Nāīwāla;Nanwali
+en;Pīrwāla;Pirwala
+en;Parhār;Basti Pathar
+en;Rustamāni;Bhungarwala
+en;Laghorwāli;Laghorwali
+en;Mochīwāla;Chah Mustaiwala
+en;Langarwāla;Langahwala
+en;Buddhewāla;Budhewala
+en;Wadīfīwāla;Wadifiwala
+en;Tāhlāwāla;Tahlawala
+en;Nūnwāla;Nunwala
+en;Sonewāla;Soniwala
+en;Dhorewāla;Dhorewala
+en;Bhandwāla;Bhandwala
+en;Ghauswāla;Ghouswala
+en;Mohānewāla;Mohanewala
+en;Sāhūwāla;Shahwala
+en;Basti Nūrgāni;Nurganiwala
+en;Bhāgsarwāla;Bhagsarwala
+en;Chāndnewāla;Chandrawala
+en;Basti Sarāj;Basti Srai
+en;Pachārwāli;Pacharwali
+en;Mitthewāli;Mitthewali
+en;Basti Bahādur Khān;Basti Pahadar Khan
+en;Lārīwāla;Lailwala
+en;Quraishīwāli;Quraishiwali
+en;Ser Jogīwāli;Jagiwala
+en;Bhugrīwāla;Bhugriwala
+en;Chāndanwāla;Chandanwala
+en;Bhedānīwāla;Bhedaniwala
+en;Lishāri;Lishahwala
+en;Wāsanwāla;Wasanwala
+en;Ridwāla;Ridwala
+en;Samundrīwāla;Samundriwala
+en;Jahāzwāla;Jahazwala
+en;Basti Tarkhān;Basti Tarkhan
+en;Khānanwāla;Khananwala
+en;Kirārīwāli;Kirariwali
+en;Sabhūwāla;Sobewala
+en;Phatolwāla;Phatolwala
+en;Bīrewāla;Barewala
+en;Shāh Ismāīl;Shah Ismailwala
+en;Bahāduri;Behadriwala
+en;Saiyidwāla;Saidwala
+en;Ojhrīwāla;Ojhriwala
+en;Lachhūwāla;Lachhuwala
+en;Tibbīwāla;Tibbiwala
+en;Kakewāla;Kakewala
+en;Nawān Daftarīwāla;Nawan Daftariwala
+en;Uttarwāla;Uttarwala
+en;Sewewāla;Sewewala
+en;Basti Yār Shāh;Basti Yar Shah
+en;Kālapwāla;Kalapwala
+en;Tibbi Pāolīān;Tibbi Paolian
+en;Bangūwāla;Banguwala
+en;Basti Sikhāni;Basti Sikhani
+en;Lārwāla;Larwala
+en;Nawān Sultānwāla;Nawan Sultanwala
+en;Bhatorewāla;Bhatorewala
+en;Khirkīwāla;Khirkiwala
+en;Jalālsar;Jalasarwala
+en;Labānewāla;Labanewala
+en;Shāhwāla;Shahwala
+en;Lohāchwāla;Lohachwala
+en;Berwāla;Berwala
+en;Nāūrwāla;Naurwala
+en;Bappi Kumhārwāla;Darkhanwala
+en;Lādewāla;Ladewala
+en;Kūkanwāla;Khokhanwala
+en;Ināikwāla;Inaikwala
+en;Nawān Qāimwāla;Nawan Khu
+en;Jamālwāla;Jamalwala
+en;Wastīwāla;Wastiwala
+en;Khajjīwāla;Khajjiwala
+en;Hayātāni;Hayatani
+en;Qabūlwāla;Qabulwala
+en;Mochiāni;Mochanwala
+en;Mashūrīwāla;Mashuriwala
+en;Dhidhowāla;Dhidhowala
+en;Lakkhīwāla;Lakkhiwala
+en;Sunārwāla;Sunarwala
+en;Tulānāwāli;Tulanawali
+en;Jindūwāla;Chah Jindewala
+en;Mangowāla;Mangowala
+en;Mohrīwāla;Mohrewala
+en;Kumhārwāla;Kumb
+en;Samandwāla;Samandwala
+en;Chokha;Chauka
+en;Giddarwāli;Giddarwali
+en;Kaherīwāla;Kaheriwala
+en;Mingaurwāla;Mingaurwala
+en;Chāh Ghatwāla;Chah Ghatwala
+en;Chāndu;Chandu
+en;Talwāla;Talwala
+en;Kaurewāla;Kherewala
+en;Hasanwāla;Hasanwala
+en;Tirhāi;Tirhai
+en;Wissowāla;Wisowala
+en;Shādīwāla;Shadinawala
+en;Janglewāla;Janglewala
+en;Kaurewāla;Koraiwala
+en;Wajjewāla;Wajjewala
+en;Tibbi Lākhewāli;Tibbi Lakwali
+en;Basti Pādi;Padi
+en;Kamālwāla;Kamalwala
+en;Bihorwāla;Bihorwala
+en;Basti Gurha;Basti Gora
+en;Muradwāla;Muradwala
+en;Nālwāla;Nalwala
+en;Tibbi Māchhīwāli;Tibbi Mochian
+en;Jānīwāla;Janiwala
+en;Gandhīwāla;Gandiwala
+en;Ārewāla;Arewala
+en;Dādwāla;Dadwala
+en;Bhāgsar;Bhagsar
+en;Basti Jīrān;Basti Jarian
+en;Pakkewāla;Pakkewala
+en;Hyāswāla;Hyaswala
+en;Thatti Hasan Ali;Thathi Hasan Ali Wali
+en;Muhammadīwāla;Mehmudwala
+en;Laddhewāla;Laddhewala
+en;Arāīnwāla;Arainwala
+en;Mochīwāla;Mochiwala
+en;Jattīwāla;Jattewala
+en;Sarīnwāla;Sarinwala
+en;Husainwāla;Husainwala
+en;Banwāla;Banwala
+en;Dozewāla;Dozewala
+en;Wallūwāla;Waliwala
+en;Pīpalwāla;Pipalwala
+en;Wiskanwāla;Wiskanwala
+en;Pāyānwāla;Puranewala
+en;Taiyabwāla;Taiyabwala
+en;Tahliwala;Masumabad
+en;Khewewala;Khewewala basti sethar 02
+en;Jhangwāla;Jhangwala
+en;Arjanwāla;Arjanwala
+en;Shaikhwāla;Shaikhwala
+en;Tibba Māchhīwāla;Tibba Machhianwala
+en;Khokharwāla;Khokharwala
+en;Sulkwāla;Sulkwala
+en;Bhāgrīwāla;Bhagriwala
+en;Chāndewāla;Chandewala
+en;Zindagiwāla;Zindagiwala
+en;Poshīdewāla;Poshidewala
+en;Turkīwāla;Turki Bungla
+en;Ādilābād;Adilabad
+en;Buddhūwāla;Buddhuwala
+en;Kassiwāla;Kassiwala
+en;Wrāchhwāla;Wrachhwala
+en;Habībwāla Shimāli;Habibwala Shimali
+en;Maulvīwāla;Maulviwala
+en;Mandūwāla;Mumdawala
+en;Chhotewāla;Chhatewala
+en;Rauzewāla;Rojewala
+en;Chhajrewāla;Chhajrewala
+en;Mani Rāmwāla;Mani Ramwala
+en;Gauharwāla;Gauharwala
+en;Habībwāla Janūbi;Habibwala Janubi
+en;Qādir Bakhshwāla;Qadir Bukhshwala
+en;Hāji Kharwāla;Haji Khanwala
+en;Sāndewāla;Sandilwala
+en;Chāthewāla;Chhatewala
+en;Tarkhānwāla;Darkhanwala
+en;Māīwāla;Maiwala
+en;Basti Bhatti;Basti Bhutta
+en;Jātīwāl;Jatiwala
+en;Jattānwāli;Basti Jattanwali
+en;Basti Baīqar Shāh;Basti Baqar Shah
+en;Basti Allāh Bakhsh Khulang;Basti Allah Bakhsh
+en;Haidarwāla;Haiderwala
+en;Ghulām Hasanwāla;Basti Jalalwali
+en;Mohāna;Mohani
+en;Uttārāwāli;Uttarawa
+en;Ser Qasāīwāla;Ser Qassaiwala
+en;Chanwāla;Chonwala
+en;Angra;Basti Angra
+en;Māchhīwāla;Machhiwala
+en;Chirhoīwāla;Chirhoiwala
+en;Joye;Basti Joia
+en;Kahīrīwāli;Kharewala
+en;Basti Khar;Basti Khando
+en;Mohānewāli;Mahantrewala
+en;Āra Akbar Shāh;Ara Akbar
+en;Āri Akbar Shāh;Ara Akbar
+en;Tibbi Nizāmuddīn;Basti Nizam_ud_din
+en;Sarlewāla;Sheriwala
+en;Jhandīrwāla;Jhandirwala
+en;Tārpur;Basti Tarpur
+en;Īsanwāla;Sanwala
+en;Mor Jhangi;Jhangi Mor
+en;Bakkhi;Bukhhai
+en;Ballewāla;Basti Balla
+en;Kāndwāla;Khandwala
+en;Kakhwāla;Kachwala
+en;Basti Jahān Khān;Jahan Khan
+en;Dari Kālru;Darri Kalru
+en;Kumhārwāla;Kumharwali
+en;Samundrīwāla;Samundari
+en;Siddīqwāla;Siddiqwala
+en;Basti Saiyidān;Basti Mustafa
+en;Āwewāla;Awewala
+en;Gullūwāla;Galuwala
+en;Dargahi Shāhi;Dargah Shahiwala
+en;Dāhewāla;Dhewala
+en;Wadānwāla;Wanwala
+en;Pattewāla;Pattuwala
+en;Āri Mochīwāla;Mochiwala
+en;Āri Lāl Khān;Ari Lal Khan
+en;Āri Karain Shāh;Ari Kure Shah
+en;Ghariyālīwāla;Ghariali
+en;Brāhamwāla;Be Raimwala
+en;Āri Kaherīwāli;Ari Khairewali
+en;Sewrewāla;Sarwarwala
+en;Mashurīwāla;Mashuriwala
+en;Karākwāla;Karakwala
+en;Nasratwāla;Nusratwala
+en;Sāwānwāla;Sawanwala
+en;Dodwāla;Daudwala
+en;Khajjarwāla;Khajjiwala
+en;Donewāla;Donwala
+en;Patta;Basti Phatta
+en;Tibbi Borh Gharbi;Tibbi Butha Gharbi
+en;Qāzīwāla;Qaziwala
+en;Miānīwāla;Mianiwala
+en;Bambwāla;Ambwala
+en;Bakhshwāla;Ambwala
+en;Pirhārwāla;Prarwala
+en;Nāharwāla;Nadhewala
+en;Bedānīwāla;Basti Sanjhrin
+en;Khajjīwāla;Khhajiwala
+en;Shamerwāli;Sherwali
+en;Khalīlwāla;Khangwala
+en;Gharīwāla;Gadrewala
+en;Mullānwāla;Belewala
+en;Bakhshwāla;Baknshwala
+en;Pīpalwāla;Palpalwala
+en;Kiāra Ilyāswāla;Ilyaswala
+en;Chandrenwāli;Chandrinwala
+en;Tāhlīwāla;Tahliwala
+en;Lāliānwāli;Lalianwala
+en;Mangwānīwāla;Mangwaniwala
+en;Lakkhūwāla;Lakhuwala
+en;Pathān Shāhwāla;Pathanwala
+en;Angre;Angrewalal
+en;Manzūrwāla;Manzurwala
+en;Barak;Barak War
+en;Khelāla;Khalilah
+en;Bāhar China;Bahor China
+en;Pahalwān;Pehlawan
+en;Tsatsobai;Chachobai
+en;Nau;Nao
+en;Girdai;Gardi
+en;Salām Aghbargai;Salam Aghbarg
+en;Abkakai Mian;Kuzh Hudkai
+en;Kachai;Kasai
+en;Ghāzi Nau;Ghazi Nau
+en;Zadar;Zawar
+en;Udha;Dabak
+en;Urhasa;Urbasa
+en;Spin Pāni;Spin Pan
+en;Nārin;Naringai
+en;Shāts;Shacha Mahmudzai
+en;Chorga;Chorag
+en;Naringai;Narin Hena
+en;Saleh;Salai
+en;Tamboi;Tambai
+en;Mūrgha Zikriazai;Murgha Zikriazai
+en;Walāng;Walang
+en;Sogi Dargai;Sog Dargai
+fa;ملازای;Mallazai
+en;Miān Khān Eskhobi;Mian Khan Eskhobai
+en;Churmiān;Churmian
+en;Mulla Shāhu;Shahu
+en;Khalīl Kili;Khalil China
+en;Sarafrāz Kili;Shah Murad Kili
+en;Ali Muhammad;Murad Khan Kili
+en;Ālam Shaikh;Manzai Kili
+en;Shāhābād;Shahabad Kili
+en;Sardār Muhammad Hāshim Khān Kili;Sardar Hashim Khan
+en;Mīr Khān Kili;Wahwahi Kili
+en;Doda Shahr;Doda Kili
+en;Dost Ali Ustrāni Shahr;Jahangir Shahr
+en;Fateh Kili;Ghazi China
+en;Nasīr Khān;Nasir Khani
+en;Halalk Kach;Hilalak Kach
+en;Shabai Kili;Dahani Kili
+ru;Дера-Мурад-Джамали;Dera Murad Jamali
+sd;عبدالرحمن بروهي;Abdul Rahman Brohi
+en;Chohar Kot;Chuhr Kot
+zh-Hant;達什特;Dasht
+fa;دشت، خاران;Dasht
+zh;达什特;Dasht
+en;Goth Balu Khān Chandio;Goth Qaim Khan Chandio
+en;Serāi Peyaro Khān;Goth Serai Piaro Khan
+en;Goth Muhammad Morri;Goth Muhammad Marri
+fa;میان‌والا کریا;Mianwala Kariya
+ur;میانوالہ کڑیا;Mianwala Kariya
+en;Khalīfāwāla;Khalifawala
+en;Godīwāla;Gadiwala
+en;Chak Fourteen MB;Chak Fourteen Muhajir Branch
+fa;چک ۱۴ ام‌بی;Chak Fourteen Muhajir Branch
+ur;چک نمبر 14/ایم بی;Chak Fourteen Muhajir Branch
+nl;Chak Fourteen MB;Chak Fourteen Muhajir Branch
+en;Tohmi;Tohmi Khosa
+en;Gadwāni;Gadwani Basti
+en;Basti Meher;Basti Mehr
+en;Ghāzi ki Qabr;Ghazi ki Qabar
+en;Basti Talāi;Basti Numbar Dar
+en;Basti Mīrān Haibtani;Basti Miran Jistani
+en;Thalwali Basti;Thalwali
+en;Basti Thakras Dabh;Thakra
+en;Gajju Basti;Gujju Basti
+en;Basti Jehand;Basti Jandani
+en;Basti Jeyāni;Basti Jiani
+en;Bhundāni;Basti Bundani
+en;Mewāwāla;Khu Mewawala
+en;Basti Kutāni;Basti Gindani
+en;Husainwāla;Hussainwala
+en;Dīwānwāla;Khu Mulanwalal
+en;Thulwāla;Khu Thulwala
+en;Karamwāla;Khu Karamwala
+en;Moohīwāla;Mochiwala
+en;Jatoīwāla;Khu Jatwala
+en;Rārewāla;Khu Rarhewala
+en;Pakka Sidādāni;Pakka Shized
+en;Pakka Sedādāni;Pakka Shized
+en;Passanwāla;Khu Passanwala
+en;Dādwāla;Khu Hotwala
+en;Alīwāla;Khu Aliwala
+en;Sāhibwāla;Khu Sahibwala
+en;Hayātwāla;Gurmani
+en;Mārewāla;Madewala
+en;Dhurwāla;Dhutwala
+en;Tarkhānwāla;Khu Tarkhanwala
+en;Khajjīwāla;Khu Hajiwala
+en;Mūsewāla;Khu Mirzewala
+en;Shalāni;Khu Chiniwala
+en;Pakka Shāh Niwāz;Khu Shah Nawazwala
+en;Mandowāla;Khu Biluwala
+en;Mārīwāla;Khu Mariwala
+en;Bhedīmārwāla;Bhedi Marwala
+en;Faujewāla;Khu Foujewala
+en;Bhāndewāla;Khu Bhandewala
+en;Umandewāla;Khu Miranwala
+en;Gāmanwāla;Khu Gamanwala
+en;Ludāni;Khu Waliwala
+en;Pīrwāla;Khu Nariwala
+en;Lāgri;Basti Laghri
+en;Belab;Basti Khofli
+en;Thul Sobha;Thul
+en;Jarwārwāla;Khu Jurwarwala
+en;Sangarhwāla;Khu Sanjerwala
+en;Gulzārwāla;Khu Gulzarwala
+en;Yārewāla;Khu Yarewala
+en;Bakhūwāla;Khu Bakhuwala
+en;Haidarwāla;Khu Haidarwala
+en;Ahmadwāla;Khu Ahmadwala
+en;Luftewāla;Khu Ahmadwala
+en;Bāhūwāla;Khu Nur Shah
+en;Murlīwāla;Khu Mulanwala
+en;Jogīwāla;Khu Jogiwala
+en;Bāgharwāla;Khu Burewala
+en;Sanāwānwāla;Khu Sanawanwala
+en;Jītewāla;Khu Duttewala
+en;Hakīmwāla;Khu Hakimwala
+en;Begwāla;Khu Baigwala
+en;Barnawanwāla;Barnani
+en;Nawān Khūh;Nawan Khu
+en;Gultanwāla;Moriani
+en;Massuwāla;Massuwala
+en;Ruwālwāla;Khu Sarwarwala
+en;Solewāla;Khu Solewala
+en;Paulīwāla;Pauliwala
+en;Basti Shaikh;Basti Shaikhan
+en;Basti Jamāl;Jamale da Khu
+en;Lāngewāla;Langwala
+en;Doratta;Dohata
+en;Dholwāla;Dolwala
+en;Zoharwāla;Zehrwala
+en;Zahrwāli;Zehrwala
+en;Musrāni;Khoso
+en;Nurhāni;Nurhani
+en;Qasmāni;Kasmani
+en;Basti Gharjal;Gharjal
+en;Alowāli;Alowala
+en;Ghulām Husain;Basti Ghulam Husain
+en;Jagwāni;Jangwani
+en;Moryāni;Morani
+en;Kamrāni;Qambrani
+en;Kanakwāla;Kandiwala
+en;Muhammadwāli;Muhammadwala
+en;Shāhwāla;Chhutani
+en;Tarkhānwāla;Tahliwala
+en;Chotīwāla;Chhotani
+en;Bāranwāla;Burhanwala
+en;Bhattīwāla;Bhattiwala
+en;Nāsirwāla;Nasirwala
+fa;بیاری، پاکستان;Biari
+en;Nagri Tarli;Nagri Pain
+nl;Nagri Tarli;Nagri Pain
+en;Gāmuwāla;Gamuwala
+en;Basti Bhurgura;Alihani
+en;Basti Ahmad;Basti Jata
+en;Basti Birmāni;Basti Barmani
+en;Basti Khuda Bakhsh;Basti Khuda Bakhsh Marziani
+en;Basti Thundwāni;Thundwani
+en;Basti Arwāni;Basti Herowani
+en;Basti Jugiani;Basti Jogiani
+en;Basti Dulel;Basti Hasani
+en;Basti Babbar;Basti Talpur Babbar
+en;Talpur;Talpur Bala
+en;Talpur;Talpur Zerin
+en;Basti Mallagāni;Basti Jamalo Mullaghani
+en;Basti Bakku Talpur;Basti Talpur Zangi
+en;Basti Jallalani;Basti Jalalani
+en;Basti Hajwān;Basti Hajwani
+en;Basti Najwāni;Basti Hajwani
+en;Basti Somraiani;Somrani
+en;Basti Imām Bakhsh;Wasandiani
+en;Basti Dallu;Watowani
+en;Basti Bhaj Khān;Basti Imam Bakhsh
+en;Basti Muhammad Hussain;Basti Hasnani
+en;Basti Daula;Basti Athareani
+en;Basti Jallu;Basti Jalwani
+en;Basti Bugrāni;Basti Ahmad
+en;Basti Ahmad;Basti Ropri
+en;Basti Buguāni;Basti Bagrani
+en;Basti Sukhāni;Athareani
+en;Basti Kappuhani;Gahanwori
+en;Yāruwāla;Yaruwala
+en;Bābal Buzdār;Basti Muhammad Bakhsh Buzdar
+en;Basti Lohārāni;Basti Loharani
+en;Iman Din Nagar;Basti Imam Din Nagar
+ur;بستی امام دین نگر;Basti Imam Din Nagar
+en;Arang Kel;Arangkel
+ur;شاہ جہانیاں;Shah Jahanian
+ur;لاھوریاں;Lahorian
+ur;نانو ھانڈہ;Nano Handa
+ur;کھوڑی رسولپور;Khori Rasoolpur
+ur;پیرو شاہ;Pero Shah
+ur;مہسم;Mehsam
+fa;چک منجو;Chak Manju
+ur;چک منجو;Chak Manju
+pa;ਔਜਲਾ ਖੁਰਦ;Aujla Khurd
+fa;اوجله خورد;Aujla Khurd
+ur;اوجلہ خورد;Aujla Khurd
+en;Bānda;Faqirabad
+en;Hamesh Miān Kili;Phatik Koruna
+en;Sūr Khatki;Sur Khatki
+fa;دهوک مانا;Dhok Manna
+ur;ڈھوک مانہ;Dhok Manna
+ur;کنیال بجرانہ;Kanyal Bajrana
+en;Mochiān ki Dhok;Dhok Muchhal
+en;Tattapani;Tatta Pani
+en;Basti Hadyāna;Basti Wadani
+hi;चुरट्टा;Churatta
+fa;چوراتا;Churatta
+ur;چوراٹا;Churatta
+en;Basti Hājān;Basti Hajan
+en;Goth Ramzān Wadero;Goth Ramzan Wadera
+en;Muhammad Khān Bahrāni;Muhammad Khan Berani
+en;Qubba Bukhāri Shāh;Qubba Bukhari Shah
+en;Goth Khān Potha;Khan Photo
+en;Hāji Burer;Goth Haji Borar
+en;Khabhar Khero;Gul Muhammad Shoro
+en;Kāki;Goth Kalo
+en;Mithu Hājiāna;Mithu Hajiani
+en;Bārich;Goth Zahir Barich
+en;Baloch Khān Laghāri;Baluch Khan Laghari
+en;Qāsim Sānd;Goth Qasim Sand
+en;Abrāhan;Goth Abrahan
+en;Khuda Bakhsh Junejo;Goth Khuda Bakhsh Junejo
+en;Goth Tajo jo;Taj Muhammad Junejo
+en;Nūr Muhammad Jonejo;Taj Muhammad Junejo
+en;Shādi Rājor;Goth Shadi Rajar
+en;Saiyid Qutab Shāh;Goth Saiyid Qutab Shah
+en;Hayāt Bhatti;Goth Hayat Bhatti
+en;Muhammad Usmān;Goth Muhammad Usman
+en;Nanāri;Goth Nonari
+en;Allāh Rakhio Māchhi;Allah Rakhlo Machhi
+en;Nihāl Tangar;Nehal Tangar
+en;Wakio Sānd;Goth Wakhio Sand
+en;Bachal Mohāno;Goth Bachal Mohano
+en;Malang Mohāno;Malang Mohano
+en;Allāh Bachāyo Māchhi;Allah Bachaio Machhi
+en;Mullān Mīr Bahr;Mula Meharban
+en;Hāji Karam Ali Rind;Haji Karm Ali Rind
+en;Karamdād Jargari;Goth Karamdad
+en;Gul Muhammad Maggasi;Gul Muhammad Magsi
+en;Ahmad Barhāmi;Ahmed Burhani
+en;Gopāng;Goth Gopang
+en;Goth Sher Muhammad Gopāng;Goth Gopang
+en;Ismāīl Chāng;Ismal Chang
+en;Goth Hāji Ismāil Chănd;Ismal Chang
+en;Pir Kamil Goth;Mullah Farash
+en;Goth Hāji Jān Muhammad Shoro;Goth Haji Jan Muhammad
+en;Goth Muhammad Shoro;Goth Muhammad Ali Brahui
+en;Goth Wali Muhammad Shoro;Goth Muhammad Ali Brahui
+en;Goth Muhammad Ali Shoro;Goth Muhammad Ali Brahui
+en;Sahīb Khān Mīrāni;Sahib Khan Mirani
+en;Goth Sāhib Khān Mirām;Sahib Khan Mirani
+en;Makhan Jakhro;Goth Makhan
+en;Ghulām Haidar Baloch;Ghulam Haider Balouch
+en;Hāji Sāleh;Goth Haji Saleh
+en;Hāji Baba;Haji Babo
+en;Faizābād;Goth Pir Faiz Muhamamd
+en;Sāīndād;Saindad
+en;Mūrad Shāh;Murid Ali Shah
+en;Dabo;Goth Shahnawaz Junejo
+en;Ālam Abrejo;Alam Narejo
+en;Hāji Ilyās;Goth Haji Ilyas
+en;Tando Ghulām Muhammad;Tando Ghulam Ali
+en;Jāra Panhwar;Goth Lara Panhwar
+en;Tando Bahāwal Khān;Goth Tando Bhawal
+en;Bachu Haryār;Goth Haji Piro Gopang
+en;Gopāng;Goth Haji Piro Gopang
+en;Firoz Haryār;Haji Ali Bakhsh Paryar
+en;Baingan Gangro;Goth Gangpara
+en;Qāim Gāngro;Qasim Ghangro
+en;Goth Hāji Manjhu;Goth Haji Manjau
+en;Goth Dobhīn;Qadan Shoro
+en;Goth Dāhri;Goth Durga
+en;Jān Muhammad;Goth Arbab Shoro
+en;Goth Arbāb Jān Muhammad;Goth Arbab Shoro
+en;Goth Issu;Goth Isa Shoro
+en;Goth Hāji;Goth Luqman Shoro
+en;Goth Jummun;Goth Muhammad Shoro
+en;Goth Karokho;Goth Kara Kho
+en;Nāhejāni Miān;Goth Nohaniji
+en;Kako Māchhi;Goth Kaku Machhi
+en;Tallo Shoro;Goth Habib Shoro
+en;Tājo Wako;Goth Taju Wakku
+en;Sāhib Dino Hālepota;Goth Sahib Dino Halepota
+en;Hāji Nindo Thebo;Goth Haji Niddo Thebo
+en;Khair Muhammad Babbar;Goth Khair Muhammad
+en;Pannangāh;Goth Pangar
+en;Khān Muhammad Lākhi;Goth Khan Muhammad Lakhi
+en;Khān Muhammad;Goth Khan Muhammad Lakhi
+en;Goth Nāleja;Goth Angno Shah
+en;Udh Ka Goth;Goth Vio
+en;Yusuf Panhwar;Master Ghulam Husain Palari
+en;Phullan Khān;Jam Khaskheli
+en;Goth Jāheja;Goth Nuh Jhanjan
+en;Diyām Hājiānn;Diyam Hajiana
+en;Kāku Khokhar;Goth Allah Bakhsh Machhi
+en;Goth Ramzān;Goth Ramzan Machhi
+en;Dīnār Khoso;Goth Dinar Khoso
+en;Hāji Boro;Goth Haji Boro
+en;Mahl Mohāno;Goth Habib Boro
+en;Khamīsu Māchhi;Goth Khamiso Machhi
+en;Goth Allāhyār Shoro;Goth Ghazi Shoro
+en;Goth Qaisar;Goth Mehra Machhi
+en;Hāji Jumān Boro;Goth Haji Jummo Boro
+en;Mīr Jat;Khair Muhammad Rind
+en;Hāji Murād Ali Rind;Goth Haji Murad Rind
+en;Palyo Khoso;Goth Palyo Khoso
+en;Goth Mastoi;Goth Masti Khan
+en;Boto Makān;Goth Boto Makan
+en;Bachu Dāhri;Goth Bachu Dhari
+ur;گنگنی;Gangani
+en;Gurūwāla;Basti Kaliar Wali
+ur;عباس پور;Abbaspur
+ar;عباس بور;Abbaspur
+fa;مرهوتا;Marhota
+ur;کوٹلی گُجراں;Kotli Gujjran
+en;Golo Bānda;Galo Banda
+en;Rāmrām;Ramran
+en;Gūjarīn;Gujaran
+en;Sāīngol;Saingal
+en;Mittipalol;Matti Palol
+en;Rishigol;Rishigal
+en;Parar;Parlu
+en;Dagejai;Dageshahi
+en;Ul Langurbat;Langurbat Payan
+en;Resht Pari;Rosht
+en;Langurbat;Langurbat Ba
+ur;Langarbaṭ;Langurbat Ba
+ur;لَنْگَربَٹ;Langurbat Ba
+en;Mīrak;Mirak
+en;Ghazandikū;Kaghanzandiku
+en;Pīshothān;Pishothan
+en;Zarīnāno Nao;Zarinano
+en;Maghorgol Shāl;Maghorgal
+en;Bainli;Beini
+en;Lachīgrām;Lachigram
+en;Gowai;Gowui
+en;Godūbār;Godubar
+en;Dārashot;Darashat
+en;Chulūgol;Chulugol
+en;Shinter Koro;Shinteri
+en;Japrīk;Jerbak
+en;Gambīr;Gambir
+en;Koligol;Koliga
+en;Zhang Shāl;Jang Shal
+en;Thoghāt;Thoghat
+en;Patoi;Patai
+en;Bādurgāl;Badugal
+en;Shaikhpatal;Shaikhpatai
+en;Kāndolai;Kand
+en;Dinjarai;Danjarai
+en;Kurū;Kuru
+en;Sharbanrai;Sharbani
+en;Alī Bānda;Ali Banda
+en;Shālkandai;Shalkandai
+en;Morāshāh;Mora Shah
+en;Chuprākai;Saprakai
+en;Nawe Kili;Nawe Kalle
+en;Rukhna;Rukhana
+en;Sarapo Manzai;Surapo Manzai
+en;Parāona;Piryano Gat
+en;Farīd;Farid Banda
+en;Bragai;Bargai
+en;Marawar;Marawara
+en;Suwānsai;Suwansar Kall
+en;Serai Bānda;Hazrai Banda
+en;Jalīkai;Jalikai
+en;Khārai;Kasai
+en;Gatkotai;Gat Katai
+en;Īdo;Aido
+en;Dakekhwar;Dake Khwar
+en;Shatez;Shahtez
+en;Suro Kili;Suro Kalle
+en;Khāruwo;Kharwe
+en;Lapakai;Bapakai
+en;Māmosaikas;Mamosai
+en;Karborai;Karborah
+en;Gīro;Giro
+en;Mākhāmai;Makhamoi
+en;Lar Bilāchand;Lar Bilachand
+en;Mullānokas;Mulla Kas
+en;Damanīk;Damanik Banda
+en;Yakhachīna Bānda;Yakha China Banda
+en;Bar Khārowai;Kharoi Bala
+en;Bar Tingīsar;Bala Tang Sar
+en;Kuz Ayāgai;Hayagai Sharqi
+en;Jurjurai Kalai;Jurjurai Kalle
+en;Ghulāmdīn Bānda;Ghulam Banda
+en;Belanzai;Bilalzai
+en;Karīnāno Bānda;Kalang
+en;Zarā Miāna;Zara Miana
+en;Kūz Mīrga;Kuz Nahrgah
+en;Gharībai Bānda;Gharibei Banda
+en;Kār Bānda;Kamar Banda
+en;Tirchanga Bānda;Nahargah Banda
+en;Manz Dok;Miana Dog
+en;Bar Dok;Bala Dog
+en;Maina;Miana
+en;Shāt;Shat Payan
+en;Sonā;Suna
+en;Salām Bekī;Salam Beki
+en;Bar Mallakhwar;Malak Bala
+en;Kator Bānda;Katao Awar
+en;Bagano Mainz;Badar Kanai Bartda
+en;Mādī Khān Bānda;Madi Khan Banda
+en;Qadīr;Qadir Kalle
+en;Roghano;Patao Roghano Kalle
+en;Ghano Bānda;Chuno Banda
+en;Keshūri Bānda;Keshura Banda
+en;Ghuch Kāro Tik;Ghuchhara Tik
+en;Gauharwāla;Gauharwali
+en;Dakawāli;Dakwali
+en;Chak Eight A;Chak Eight A Bahawal Canal
+en;Shaikhwāli;Shaikhwali Khui
+en;Chak Thirty-two A;Chak Thirty-two A Bahawal Canal
+en;Chak Thirty-two;Chak Thirty-two Bahawal Canal
+en;Chak Thirty;Chak Thirty Bahawal Canal
+en;Chak Six;Chak Six Bahawal Canal
+en;Chak Eight;Chak Eight Bahawal Canal
+en;Malik Hāma;Hama
+en;Bhundānianwāli;Budnianwali
+en;Lasūrīwāla;Lasoriwala
+en;Chak Seven;Chak Seven Bahawal Canal
+en;Lāliānwāla;Lalianwala
+en;Kahārwāla;Kharwala Khu
+en;Jind Wādewāli;Jhangiwali
+en;Chak Five;Chak Five Bahawal Canal
+en;Hassanwāla;Hassanwala Khu
+en;Basti Lerād;Basti Jarad
+en;Chak Four;Chak Four Bahawal Canal
+en;Chak Thirty-three Gharbi;Chak Thirty-three Bahawal Canal Gharbi
+en;Chak Thirty-three Sharqi;Chak Thirty-three Bahawal Canal Sharqi
+en;Chak Thirty-three A;Chak Thirty-three A Bahawal Canal
+en;Chak Thirty-five;Chak Thirty-five Bahawal Canal Gharib
+en;Chak Thirty-five;Chak Thirty-five Sharqi
+en;Chak Thirty-four;Chak Thirty-four Bahawal Canal
+en;Chak Thirty-six;Chak Thirty-six Bahawal Canal
+en;Dubba;Dobewali
+en;Kālewāla;Killiwala
+en;Ambānwāli;Moharanwah
+en;Basti Miān Sāhib;Basti Mian Jabia
+en;Hattiān Basti;Hatianwala
+en;Shaikhānwāli;Basti Shaikhanwali
+en;Wāhindwāli;Wahindwala
+en;Tibbi Mahiwāli;Tibbi Maiwali
+en;Kotla Khuda Bakhsh;Jhok Khuda Bakhsh
+en;Godhuwāla;Basti Godowali
+en;Jhangīrwāli;Basti Jhangiwali Purani
+en;Darkhāna;Durkhanan
+en;Qurdishi;Basti Qureshian
+en;Panun;Panunwala
+en;Haveli;Basti Havely
+en;Bhāra di Basti;Bhorewala
+en;Thahīmwāla;Basti Haji Allah Bakhsh
+en;Jandwāla;Basti Yusuf
+en;Bhatiānwāli;Basti Taliwali
+en;Azīzpur;Azizpur
+en;Mullān di Basti;Mullanwali
+en;Sahwān;Basti Sawanin
+en;Mānkiwāla;Manekewala
+en;Doharta;Basti Doratta
+en;Jandiwāli;Jandiwala
+en;Lāle Dera;Lala Dera
+en;Jān Muhammadwāla;Jan Muhammadwali
+en;Chak Thirty-seven;Chak Thirty-seven Bahawal Canal Sharqi
+en;Chak Thirty-seven;Chak Thirty-seven Bahawal Canal
+en;Chak Three BC;Chak Three Bahawal Canal
+en;Basti Narad;Basti Nard
+en;Chak Two B C Gharbi;Chak Two Bahawal Canal Gharbi
+en;Chak One B C;Chak One Bahawal Canal
+en;Chak Two B C Sharqi;Chak Two Bahawal Canal Sharqi
+en;Chak Thirty-eight;Chak Thirty-eight Bahawal Canal
+en;Rangwāla;Basti Piran Ditta
+en;Bonga Ramzān Khān;Bungo Ramzan Khan
+en;Chāwanwali;Chachanwali
+en;Hisām;Basti Hassam
+en;Miāni Jhabelān;Miani Jhabelian
+en;Ghulām Qādir Uterawāla;Basti Ghulam Qadir Uterawala
+en;Hasil Saru;Hasal Sarhu
+en;Dona Qutab Saru;Duna Mammewala
+nl;Dona Qutab Saru;Duna Mammewala
+fa;عباس خل رقضای;Abbas Khel Raghzai
+fa;ادم برج;Adam Burj
+fa;اقبرگای کولاه;Aghbargai Khullah
+ur;اقبرگائی کولاہ;Aghbargai Khullah
+en;Niāzi Kot;Ghundai Kona
+en;Abdulwadamai;Abdulwadanai
+fa;عبدالله‌وادامای;Abdulwadanai
+nl;Abdulwadamai;Abdulwadanai
+ur;تیتری نوٹ;Tatrinote
+en;Dab Kalle;Dab Banda
+en;Fateh Sale;Fateh Salle
+en;Bar Bīnr;Bar Bin
+en;Kas;Miahgano Kas
+en;Tori Sanik;Tori Sanek
+en;Dūnīsari Shāl;Dunisari Shal
+en;Turen Kuzhu;Turen Kuju
+zh-Hant;卡拉亞;Kalaya
+fa;کالایه، پاکستان;Kalaya
+ur;کلایہ;Kalaya
+zh;卡拉亚;Kalaya
+en;Aghal;Aghal Kalle
+fa;اقل;Aghal Kalle
+ur;اقل;Aghal Kalle
+nl;Aghal;Aghal Kalle
+en;Bāgh Rājai;Bagh Rajai
+en;Sholāwāi;Sholawai
+en;Sari Begām;Sari Begum
+en;Bāndah;Sarshah Banda
+en;Doda Bāndah;Doda Banda
+en;Jabbar;Hasanabad
+en;Kar Kandin;Kar Kandi
+en;Likhhu;Likhu
+en;Shagāi;Shagai
+en;Anam Bandah;Anam Banda
+en;Chapa Bānda;Chapal Banda
+en;Ghaijai Bānda;Ghaljai Banda
+en;Hariānkot;Rehan Kot
+en;Khwāja Wajīd Bāba;Khwaja Wajid Baba Ziarat
+en;Ziārat;Khwaja Wajid Baba Ziarat
+en;Lakhtai Siamena;Lakhtai Siamen
+en;Ittanr;Hatan
+en;Bar Asharkor;Bor Shakor
+en;Chargo Kili;Chargo Kalle
+en;Dozakhtangai;Dozakh Tange
+en;Guriai;Gowa
+en;Inzaro Bānda;Inzaro Banda
+en;Kulalān;Kulalan
+en;Loe Jor;Loe Jowar
+en;Mānrugai;Manrugai
+en;Abdul Khālia Korūna;Abdul Khalil Koruna
+en;Aftāb Khān Kalle;Shamsabad
+en;Batta Dargai;Ghalo Koruna
+en;Behrām Dheri;Baram Kalle
+en;Būche;Bujai
+en;Chandra Dāg;Chaudrodag
+en;Damān Korūna;Daman Koruna
+en;Dandu Kalle;Dando Kalle
+en;Darub Nāe Kalle;Drubnai Kalle
+en;Dherāi Kalle;Dheri Kalle
+en;Ejāra Kalle;Batai Kalle
+en;Gāro Shāh Kalle;Gare Shah
+en;Gharībābād;Gharibabad
+en;Gharībābād;Radshah Qala
+en;Gharībābād Shāh Qila;Qala
+en;Gunjai Dāg;Ganjai Dag
+en;Hāji Abdullāh Kalle;Bangla Kalle
+en;Hāji Fazi-ur-Rehmān Kalle;Muhammadullah
+en;Hayātābād;Awal Din Kalle
+en;Jallād Korūna;Jalad Koruna
+en;Joharābād;Khargai
+en;Kalālān Kalle;Kulalano Kalle
+en;Kanroon Kalle;Kanro Kalle
+en;Khadi Kalle;Khadai Kalle
+en;Khādi Kalle;Khadai Kalle
+en;Khatt Kalle;Tor Khat
+en;Kolālābad;Kolalabad
+en;Kudai Kalle;Kundai Kalle
+en;Mīrwāli Kalle;Mirwali Kalle
+en;Mairā;Karghano Kalle
+en;Malkāno Kalle;Said Kalle
+en;Malleāno Kalle;Maulyano Kalle
+en;Mār Dhand;Mar Dhand
+en;Masal Khan Kalle;Ghazan Kalle
+en;Māungai;Manogai
+en;Momenābād;Mominabad
+en;Mūsāfar Koruna;Musafir Koruna
+en;Shodāge Kalle;Shudag
+en;Muzaffar Khān Kalle;Sira Kalle
+en;Narai;Nare
+en;Naw Kalle;Now Kalle
+en;Pīrān Kalle;Pirano Kalle
+en;Pāglāno Kalle;Pagalano Kalle
+en;Pānra Jranda;Panra Jaranda
+en;Pirāno Kalle;Amirano Kalle
+en;Pordil Malik Kalle;Purdil Khan Kalle
+en;Qāzi Sahrai;Qazi Serai
+en;Sakāi Kalle;Sokai Kalle
+en;Shaikh Kalle;Sheikh Kalle
+en;Shaikh Wali Kalle;Sheikh Wali Kalle
+en;Shālam Kalle;Ali Jan
+en;Shubla;Karun Kalle
+en;Sindai;Pindai
+en;Spīn Jūmāit Kalle;Jomat Kalle
+en;Spīn Kasla;Spinkai Kalle
+en;Swātu Kalle;Barlan
+en;Tawāb Gul Kalle;Jamal Din Kalle
+en;Turākai Ghākhai;Tarakai Ghakhai
+en;Umar Khān Kili;Usta Khan
+en;Zarīn Kalle;Karimo
+en;Depo Kalle;Dipo Kalle
+en;Wazīr Kaka Kalle;Kodinka Pol
+en;Rāgh;Ragha
+en;Umar Kili;Umrai Kalle
+en;Shāmilat;Shamilat
+en;Sultān Kili;Shahidan
+en;Bishni;Saranjan Khan Kalle
+en;Shāhbāz Kili;Shahbaz
+en;Risālpur;Risalpur Cantonment
+en;Maulāno Kili;Mulaino Kalle
+en;Miān Gulzara;Mian Gulzar
+en;Andārai;Andarai
+en;Kudwi;Kadwi
+en;Sid-e-zo-Shāh;Sainzo Shah
+en;Dandao;Dando
+en;Bagh Bukhsait;Kula Dhand
+en;Khlādhand;Shaikh Manhab Kalle
+en;Spīnwāri;Ghazgai Dharai
+en;Aslam Nagar;Arsala Khan Kalle
+en;Ghazi Abad;Ghaziabad
+en;Kashmir Kili;Kashmirabad
+en;Chanrchanrokhat;Char Chanro Khat
+en;Hisāra Sarbiland Khan Qila;Hisara Kalle
+en;Miān Shafīuadīn;Mian Shafiuddin Kalle
+en;Usan;Sanga Banda
+en;Auknbāz;Korakh
+en;Lal Qamar;Sur Kamar
+en;Khushhāigarh;Khushal Garhi
+en;Faqīrābād;Khushal Garhi
+en;Haji Qadir Muhammad;Haji Qadar Kalle
+en;Gānāni;Daiganan Kalle
+en;Umar Ali;Umar Ali Kalle
+en;Zor Mandai;Zor Mandi
+en;Mīr Akbar Shāh;Amir Akbar Shah
+en;Nāshorakandu;Nashudar Kandao
+en;Sandola;Sindno
+en;Khan Muhammad;Khan Muhammad Machine
+en;Fazal-i-Abad;Fazalabad
+en;Gulabad Kili;Gulabad
+en;Naurazābad;Shah Zaman Qala
+en;Shemaoon;Shamhun Kalle
+en;Bakrāi;Bakarai Kalle
+en;Shngari;Shaingare
+en;Wadūda Ābād;Wadudabad
+en;Abbās Kili;Abbas Kalle
+en;Ghōwar;Ghawer Kalle
+en;Zer Ābād;Zarabad
+en;Zargan Bānda;Zargrano Kalle
+en;Gharibābād;Sarwarabad
+en;Ziārat;Muhammadabad Kalle
+en;Haji Lāl Khān;Lal Jan Kalle
+en;Jhāri Īsa Khān;Jari Isa Khan Kalle
+en;Muhammad Khān Kili;Muhammad Khan Kalle
+en;Saleemabād;Salimabad
+en;Palotai;Palotal
+en;Pranghāi;Parangai
+en;Latifa-e;Latifai Kalle
+en;Dakuābād;Dako Baba Kalle
+en;Shazad Kili;Shahzada Kalle
+en;Qammer Gai;Qamargai
+en;Hatim Khān Kili;Khatam Jan Kalle
+en;Sherbāz Ghaz;Mirbaz Umar Kalle
+en;Muhammad Anwar Kili;Muhammad Anwar Kalle
+en;Thākar;Takar
+en;Sajan;Sajan Kalle
+en;Jor;Jaiwar
+en;Bahaderabad;Mina Colony
+en;Salīno Dheri;Spalno Dheri
+en;Ghando;Ghundo Payan
+en;Kūz Dok;Kuz Dok
+en;Awārai;Awarkai
+en;Adai;Ado
+en;Bīr;Biro
+en;Qala;Swara Ghundai
+en;Swaraighundai;Swara Ghundai
+en;Shāh Korūna;Shah Koruna
+en;Jurjura;Jurjure
+en;Kharkay;Kharkai
+en;Damāme;Qasim Kalle
+en;Shaikhān;Shaikhan Kalle
+en;Nooriabad;Noorabad
+en;Pakistān Kili;Pakistan Kalle
+ur;Āwī;Awi
+ur;آوِی;Awi
+en;Hazār Khwāni;Hazar Khawani
+en;Chīna Kili;China
+ru;Хаджимаулу-Калай;Haji Bahram Khan Kili
+en;Āwi;Awi
+ur;Pastī;Pasti
+ur;پَسْتِی;Pasti
+ur;Rojī;Ruji
+ur;روجِی;Ruji
+en;Jaija;Jajute
+en;Dhari Bānda;Dheri Banda
+en;Palkotek;Palkot
+en;Gauhar Shāhi;Gor Shahi
+en;Jilūsh;Jilesh
+en;Kandail;Kondal
+en;Saman;Jarai Kore
+en;Jāre Khore;Jarai Kore
+en;Reshūn;Roshun Banda
+en;Sōk Banda;Sok Banda
+en;Kuhan Bināl;Kund
+en;Kundail Shāhi;Kandari Shahi
+en;Shīlkūn;Shalkun
+en;Malo;Ukund
+en;Shāh Gismat;Shahi Gismat
+en;Jalbangu;Jalbang
+en;Samad;Shamshahi Banda
+en;Gangol;Kayu Banda
+en;Shīdān;Shahidan
+en;Lāwān;Lawano Banda
+en;Derāku;Jandar Koh
+en;Sar Bānda;San Banda
+en;Purdan;Phair Din
+en;Batot;Lalgah
+en;Batot;Botot
+en;Shor Binal;Shoro Banal
+en;Dīlga;Delgah
+en;Bechhārtain;Bicharthin
+en;Kundail Shāhi;Guman Shat
+en;Gumān Shart;Guman Shat
+en;Chhatar Ghuni;Chhatar Ghoni
+en;Roghrenāli;Rogh Jenoli
+en;Turtonas;Thuthunas
+en;Darband;Darban
+en;Matio;Mathio
+en;Dasht Rajab Beg;Dasht Raja Bag
+en;Chitrāl Ghāri;Chitral Lughi
+en;Ūsh;Ucha
+en;Chejūn Jāl;Chonjal
+en;Pishakdan Ghāri;Pisedun Ghari
+en;Beband;Be Band
+en;Ughyāl;Turi Rogh Dal
+en;Krui Uts;Krui Uch
+en;Chhato Dok;Chhato Dak
+en;Waraza Shāl;Warazo Shal
+en;Ghuchhārsar Ghāri;Ghuchharsor Ghari
+en;Ruagol Ghāri;Ruigal Ghari
+en;Andowīr Ghāri;Andwir Ghari
+en;Boghijhal Ghāri;Roghaili Ghari
+en;Gūlīdāg;Gulidog
+en;Shergāh Kale;Shergah
+en;Biusho;Lower Biusho
+en;Shoriga;Shonga
+en;Shālban;Shal Banr
+en;Terkūn;Anter Kun
+en;Daitkon;Daitkun
+en;Chāchar;Kachel Banda
+en;Chir Pāi Bānda;Chirpal Banda
+en;Saibro;Sabro
+en;Jar;Jor
+en;Shiskun;Sichkun
+en;Jin Shahi;Jan Shahi
+en;Kunāi;Kunal
+en;Kas Rehmīn;Rehmin Kas
+en;Kadkol;Darak
+en;Lahi Nēl;Lohi Nel
+en;Siāb Kale;Siah Kalle
+en;Gānshāl;Bar Ganshal
+en;Bele;Belo
+en;Ūbbūr;Abbur
+en;Balī Bānda;Boli Banda
+en;Jhoti Bānda;Juti Banda
+en;Marghātīr;Margatair Banda
+en;Marghātīr;Katan Banda
+en;Jat Bānda;Jatana Banr Banda
+en;Dādā Bek;Panal Shai
+en;Barri Bek;Gainshai Banda
+en;Bāra;Bar
+en;Sario Jabba;Sumai Jabba
+en;Shāhi Bāgh;Shahi Bagh Banda
+en;Goth Bānda;Batil
+en;Shat Bānda;Shianat Banda
+en;Ghutti Bānda;Yakh Banda
+en;Takki ka Bānda;Takkai Banda
+en;Kabulī Bānda;Sappar Tir Banda
+en;Jamrae;Jamrah
+en;Harri;Harri Banda
+en;Kheon Behk;Khewan Baihk
+en;Rangshi;Rangshai
+en;Broch Behk;Baroch Baihk
+en;Tosai;Tosal
+en;Dasān;Spin Banda
+en;Kundol Shāhin Bānda;Kundial Shahin Banda
+en;Batallo Bānda;Batalla Banda
+en;Loepandghāli;Loepandghal
+en;Kat Bānda;Kat Banda
+en;Kāchroi Bānda;Kachrai
+en;Shar Bānda;Kuzpanrghar
+en;Shar Bānda;Mainzpanr Ghare
+en;Shar Bānda;Dabbar Shahi
+en;Kāt Dera;Gat Darra
+en;Jandrāi;Jandraj
+en;Shār Dera;Shur Darra
+en;Jān Sar Bānda;Jina Sar Banda
+en;Barsarai;Bar Sarai
+en;Tikki Ka Bānda;Tikka ka Banda
+en;Par Jandrāi;Par Janarai
+en;Bādwai;Badwai Banda
+en;Jāba;Jaba
+en;Kedām;Kedam Bala
+en;Garhi;Chim Garhi
+en;Panāh Shahi;Panashai Banda
+en;Parco Sar;Parao Sar
+en;Ganīar;Gan Tar
+en;Bun;Bann
+en;Spedār;Shpedar
+en;Kanda;Gulabad
+en;Ushorān;Usharan
+en;Mashak;Mishak
+en;Muliān;Maulian Kalle
+en;Ruria;Roria Qadim
+fa;کوائی;Kewal
+ur;کوائی;Kewal
+fa;بیلیان;Belian
+ur;بیلیاں;Belian
+en;Āndapar;Andapar
+en;Kālu Bānda;Kalu Kalle
+en;Gadh Bano Kurona;Gadbano Korona
+en;Dher;Dheri
+en;Janay;Jate
+en;Sānno;Sanno
+en;Harif Kalle;Harif Khan Kalle
+en;Toe Bānda;Tel Banda
+en;Bikiān Bānda;Bakiana Kalle
+en;Borah;Barah
+en;Eswānābād;Malakabad
+en;Sidri Jadeed;Sidre Jadid
+en;Wazīrābād;Gujrano Kalle
+en;Tuhidābād;Tauhidabad
+en;Urkh;Arakh
+en;Shoka Kalle;Shaka Kalle
+en;Sprona;Sapruna
+en;Naik Name;Naik Nam
+en;Shewawand;Shiwand
+en;Gangodher Bānda;Gangu Dher Banda
+en;Batlasi;Bat Lasy
+en;Pākia;Pak Keya
+en;Doam Dheri;Mangako Kalle
+en;Uehkhwar;Wuch Khwar
+en;Sidri Kalam;Sidre Qadim
+en;Māna Bānda;Mane Banda
+en;Qāziābād;Qaziabad
+en;Bākar Gāon;Bakar
+en;Plo Dhand;Polo Dhand Pul
+en;Putai;Paitai
+en;Gādheri;Gar Dheri
+en;Bostāni Bānda;Bostanai Banda
+fa;قافه;Ghafe
+en;Jabba;Pul Kalle
+en;Safiābād;Kashmiri Kalle
+en;Pīr Bakhsh Bānda;Pairi Kalle
+en;Sarfraz Bānda;Sarfaraz Kalle
+en;Karkani Bānda;Karkane Banda
+en;Zarif Khān;Zarif Khan Banda
+en;Chandkay;Chhan Banda
+en;Ghala;Bara Ghala
+en;Mannakra;Munkar Banda
+en;Maira;Maira Colony
+en;Kaskot;Kas Kot
+en;Kehānābād;Behanabad
+en;Gulnār;Saidabad
+en;Gulalabad;Kolalabad
+en;Bar Shinglai;Shingli Bala
+ur;شنگلی بالا;Shingli Bala
+en;Kali Bāgh;Gul Bagh
+en;Qamargai;Oamargai
+en;Ghāgaraī;Gagro Banda
+ur;فيصل آباد;Faisalabad
+en;Shāh Turai;Shah Tori
+en;Sakhak al Derai;Sakhako Dheri
+en;Jehānzeb Bānda;Nakhtar Banda
+en;Mīr Zak;Mirzak
+en;Bālolai;Balilai
+en;Tashkand;Tashaand
+en;Bānda Zarīnābād;Chak Taja
+en;Ghariābād;Umarabad
+en;Bahādur Bānda;Kheshki Banda
+en;Khutpāi;Khutpari
+en;Ura;Uria
+en;Ajar Bānda;Tabere Banda
+en;Badrai;Mutazim Koruna
+en;Kamar Dhand;Qamar Dhand
+en;Shāhole;Shikauli
+en;Nākāl;Nakai
+en;Deggar;Daggar
+en;Ghundaka;Ghundak
+en;Takhto Sar;Takhtu
+en;Shapla;Shapta
+en;Dora;Darai
+en;Bāzat;Bezat
+en;Darya;Meana
+en;Ghāghai;Ghahe
+en;Janglai Baba;Chingai Baba
+en;Bako;Fazalabad
+en;Kili Charmai;Kili Charmal
+en;Kili Mehrāb;Kili Soe Malik Mehrab Khan
+en;Sinjīdi;MR and Safty Station Sinjidi
+en;Waima;Wuma
+en;Warams;Hurro
+en;Algazai;Alkozai
+en;Shahrgali;Tokhal Abu Said
+en;Maila;Malla
+en;Zawar Kārez;Nawe Kili
+en;Shamlūn;Shanglun
+en;Tanga;Jag Tanga
+en;Aghbargai Kach;Aghbargai
+en;Hider;Haidara
+en;Zud Sakhūr;Zhar Sakhur
+en;Sognal;Lakarh
+en;Waria;Warya
+en;Ghatar Sik;Ghurhesik
+en;Obastgi;Obashtagai
+en;Loar Kori Kach;Shina
+en;Manzanai;Obashtagai
+en;Qamruddīn;Qamur-ud-Din
+en;Manzari;Manzar
+en;Bādezai;Badezai
+en;Jamāluddin Kili;Jamaluddin Kili
+en;Keriabād;Kerlabad
+en;Khudā-i-Noor;Khuda-I-Nur
+en;Kili Maiangi;Kili Mian Jee
+en;Gul Ābad;Gulabad
+en;Ghandai;Kili Ghandai
+en;Shiha Khwara;Shina Khwara Mill
+en;Qila Dāmān Allāhdad;Qila Daman Allahdad
+en;Qila Mīān Aghāzai;Qila Mian Aghazai
+en;Shāsa Akhtārzai;Shasa Akhtarzai
+en;Shābuzai;Tleri Shabozai
+en;Kazha Bīna;Kazha Bain
+en;Khānai;Kanai
+en;Naiwār;Nalwari
+en;Ghat;Gat
+en;Manda Moslid;Manda Masjid
+en;Kili Zor;Kili Kasho
+en;Kili Nālb Khān Qandīl;Kili Naib Khan Qandil
+en;Kach Allāhyār;Kach Allah Yar
+en;Lor Obashtakai;Lar Obash Takai
+en;Potai Zakria Zai;Potai Zakriazai
+en;Mallezai;Malezai
+en;Shīno Khula;Shina Khula
+en;Barezai;Barozai
+en;Bāre Zai;Barozai
+ru;Муса-Калай;Ali Khan Kili
+ru;Хаджи-Халикдад;Bacha Kili
+en;Malik Mīr Afzal Kārez;Malik Hayat Karez
+en;Tāst;Tast
+ru;Дурай;Duray
+ur;زِل;Zil
+ur;شوست;Shost
+ur;Shosṭ;Shost
+ur;شوسٹ;Shost
+ur;مَرائی;Marā’ī
+en;Gulkada No. 1;Gulkada Number One
+en;Sandiān;Sandian
+en;Bānsara Gali;Bansara Gali
+en;Aura;Aoula
+en;Hill Dolu;Hiltolo
+en;Bhaghān;Bangal
+en;Musiāri;Masiari
+en;Bara Hotar;Bada Hotar
+en;Kāseri;Kasa Kaseri
+en;Nai Ābādi Morgāh;Naiabad Morgah
+en;Dhok Mai Nawāb;Dhok Nawab
+en;Dhok Feroz Khān;Dhok Feroz Khan
+en;Darra Janglon;Darra Jangian
+en;Darra Janglan;Darra Jangian
+en;Maklīgarhi;Musal Garhi
+en;Pāoka;Paoka
+en;Subhānābād;Subhanabad
+en;Irshādābād;Arshadabad
+en;Navgal;Shaikai
+en;Mankrāo;Mankrao
+en;Qale Akbar Khān;Akbar Khan Kalle
+en;Bahiār Kale;Bahar Kale
+en;Garhi Ata Muhammad;Garhi Atta Muhammad
+en;Khāista-ābād;Khaistaabad
+en;Āfrīdīābād;Afridiabad
+en;Laqhkarābād;Lashkarabad
+en;Qazīābād;Qazi Kalle
+en;Jahāngīrābād Mahāl Jhallariān;Garhi Rahimdad
+en;Sanobar Garhi;Garhi Sanobar
+en;Munawwarābād;Gulabad
+en;Deo Khurd;Deo Khund
+en;Chandrāi;Chand Rāi
+en;Balhar;Ghausia
+en;Goth Lucky;Lucky Goth
+en;Goth Gul Muhammad Brahui;Gul Muhammad Brahui Goth
+en;Hadi Muhammad Wangi;Haji Mehmud Wangi
+en;Anaar Kali;Anar Kali
+en;Baloch Goth;Goth Baluch
+en;Khuda Ki Basti;Goth Khuda Ke Basti
+en;Gulshan-i-Maymar;Ghulshan-e-Maymar
+en;Goth Mohla Hasan Bakhsh;Goth Mulla Husain
+en;Goth Naik Muhammad;Goth Naik Muhammad Brahui
+en;Ismail Goth;Goth Ismail
+en;Goth Abdul Karim;Goth Abdul Karim Gabol
+en;Dumba Goth;Goth Dumba
+en;Goth Jam Kand;Jam Kando
+en;Goth Saleh Faqir;Goth Faqir Muhammad
+en;Goth Mulla Īsa;Goth Maula Isa
+en;Goth Mulla Isa;Goth Maula Isa
+en;Yousaf Goth;Yousuf Goth
+en;Kili Hāji Abdul Rehmān Zai;Dildar Karez
+fa;ردیک;Ridig
+en;Alīzai;Alizai
+en;Bhairi Libān Bandi;Bihari Bandi
+en;Kalānwām;Kalawan
+en;Maira Tūt;Miara Tut
+en;Chiriāna;Danna
+en;Kihan;Kehian
+en;Sanjiāla;Sinjiala
+en;Sinjliāla;Sinjiala
+en;Nat Khetar;Nat Khater
+en;Jāba;Jabba
+en;Dara;Darra
+en;Babūtri;Babutri
+en;Sari;Sarla
+en;Khalhān;Khalhan
+en;Danna Sri Bang;Danna Siri
+en;Cher;Chorah
+en;Trimkan;Tarimkan
+en;Panjuwāli;Panjuwala
+en;Sokhar;Sokar
+en;Khūi;Khui
+en;Shāh Qābul;Shah Kabul
+en;Jogimār;Pharwali
+en;Barut;Barot
+en;Khetran;Khethran
+en;Phirwāli;Pharwal
+en;Gokīna;Khurd
+en;Dhalār;Talhar
+en;Chak Ogāh;Chak Ugha
+en;Durash Khel;Darkhshel
+en;Kailāg;Kailag
+en;Phula Gali;Phala Gali
+en;Thipra;Thapra
+en;Ratiān;Ratian
+en;Parwār;Parwari
+en;Ghumānwān;Ghumawan
+en;Gāndhiān;Gandhian
+en;Gali Bhatgirār;Gali Batgran
+en;Saribang;Sari Bang Galian
+en;Gada;Naubahar
+en;Bhūchar;Buchar
+en;Bagia;Bagla
+en;Sambal;Sambul
+en;Pharri Dhok;Phaira Dhok
+en;Kahās;Kohas
+en;Pakshāi;Pakshahi
+en;Sehr;Sehri
+en;Gakīna;Gokni Kalan
+en;Sara;Sarra
+en;Pīr Sahāwa;Pir Sohawa
+en;Ratta Hatar;Ratta Hotar
+en;Gugal Pāni;Gagal Pani
+en;Shaikhān da Nāra;Nara Sheikhan
+en;Basīra;Basira
+en;Faqīr Muhammad;New Faqir Muhammad
+en;Dharauri;Taruri
+en;Badla;Bodla
+en;Maira Tarla;Maira Pain
+en;Sanjiāla;Gadda Sanjiala
+en;Mundrīan;Mundrian
+en;Danna Nūrālān;Danna Nural
+en;Jamhīri;Jamhir
+en;Budhār;Badhar
+en;Karki;Karhaki
+en;Langriāl;Kanial Mor
+en;Akhara;Khora
+en;Tiāl;Tialan
+en;Malāt;Mallat
+en;Derkot;Darkot
+en;Kohala;Kohala Bala
+en;Nara;Narian
+en;Kuhmai Tarli;Kuhmal Pain
+en;Sahāb;Sohabian
+en;Narīwal;Nariwal
+en;Kuhma Utli;Kuhmal Bala
+en;Makhniāl;Makhar Nial
+en;Danna Fīrazpur;Danna Ferozpur
+en;Pholīra;Pharila
+en;Budha;Padu
+en;Ranids;Ranias
+en;Rumli;Ramli
+en;Subban;Suban
+en;Mandia;Mandla
+en;Jhang Bagiāl;Jhang Bangial
+en;Malpur;Phulwari
+en;Balkhuān;Balkhu
+en;Malra Utla;Maira Bala
+en;Sataura;Satura
+en;Dheri;Dherian
+en;Pesar;Dakhan Pesar
+en;Kangan Maira;Kangar Maira
+en;Qabrān;Chittian Qabran
+en;Chitti;Chittian Qabran
+en;Slaig;Salag
+en;Bhajura;Bhajora
+en;Kund;Kund Battal
+en;Phalia;Phalla
+en;Ateran;Atteran
+en;Gali;Gambhir Gali
+en;Kānjān ni Bār;Bar Kahian
+en;Gharan;Gahar
+en;Shāhdandi;She Dandi
+en;Nilān Bhotu;Nillan Bhotu
+en;Shīdandi Chak;Chak Shahidan
+en;Tatiāl Bāri;Tail Bari
+en;Huchhu Bagia;Hichchu Bagla
+en;Chattar;Chhatar
+en;Dohāla;Dohala Saiyidan
+en;Nīl Gagri;Nil Gagri
+en;Gali Sangāl;Gali Gobehki
+en;Mahāri;Mohari
+en;Beri na Dannal;Batti-na-dunna
+en;Gauhra;Golera
+en;Gohāl;Gehal
+en;Sumbal Dhāra;Sumbal
+en;Pana;Pona
+en;Chanauch;Chanouch
+en;Gihān;Gihan
+en;Dākhli Bhanaka;Bhanaka
+en;Chaniān Khor;Ganiar Khar
+en;Chanāli;Chanali Tarl
+en;Mariāl Ziarat;Maryal Ziarat
+en;Retri Gali;Ratti Gali
+en;Rāhwāla;Rahawal
+en;Chirāh;Shhah
+en;Nurpu;Nurpur
+en;Maidān;Maidan
+en;That;Thath
+en;Buryawāl;Barianwali
+en;Khor;Khori
+en;Gambhīr;Gambhir Garan
+en;Kal;Kals
+en;Gharaga;Garanga
+en;Haruta;Harura
+en;Bhattiān;Bhattian
+en;Tānpur;Tanpur
+en;Arūkas;Arokas
+en;Gharamb;Garamb
+en;Naliān;Nalan
+en;Basol;Basui
+en;Bunna;Habib Colony
+en;Kharan na Maira;Khairan-na-Maira
+en;Sāl Khetar;Sil Khetar
+en;Kangrān;Kurong
+en;Bobri;Babri
+en;Kathār;Kathar
+en;Panhatti;Piahatti
+en;Bhadner;Badreri
+en;Kotol;Kotal
+en;Maira Khushk;Moisa Romal
+en;Chiniār;Chaniar
+en;Basandat;Basnot
+en;Dhangān;Dagan
+en;Pār;Kamar Bagla
+en;Bagla;Kamar Bagla
+en;Bhinikot;Bhimkot
+en;Sehr;Sair
+en;Sakror;Sumnohi
+en;Tāin;Tain
+en;Bhatla;Betla
+en;Lairān;Loiran
+en;Palāsi;Palas
+en;Narīla;Natela
+en;Palliān;Pallan
+en;Ghiāri;Kahari
+en;Jhabgrān;Chabgiran
+en;Koth Hinduān;Kotli Two
+en;Bāl Gaddya;Bal Ghadayad
+en;Bajāriān;Bajrian
+en;Bashkola;Bashkala
+en;Karūn;Sahkhthar
+en;Pithli;Phatli
+en;Garhi Saiyidān;Gurai Salyiden
+en;Lower Bāriān;Lower Barian
+en;Upper Bāriān;Upper Barian
+en;Mora Sharif;Ziarat Mohra Sharif
+en;Lūnot;Lunot
+en;Malāchh;Malach
+en;Khushikot;Kushi Kot
+en;Parmāta;Permato
+en;Dare Gali;Darya Gali
+en;Kutta;Muttoi
+en;Cutra Dunga;Cnitra
+en;Simlāt;Simlot
+en;Kiāti;Kiali
+en;Masāt Dukhli;Masat Dokhli
+en;Sanar Gali;Sawar Ghli
+en;Sunjāl;Surmal
+en;Arwāt;Arwar
+en;Khākhariān;Khakhurian
+en;Talot;Talut
+en;Tandai;Tandar
+en;Sehr;Sehl
+en;Johhāh;Uchah
+en;Kurh;Kurah
+en;Kāhia;Kaya
+en;Dhāka;Dhaka
+en;Malot Dhuridān;Dhuridan
+en;Pehra;Phera
+en;Sambir;Sambli
+en;Lahāth;Lanath
+en;Sāmbir Tilal;Sambli Tijal
+en;Kundiān;Kundian
+en;Nalan;Nalar
+en;Batkehr;Batkha
+en;Namb Rumāl;Namb Rumail
+en;Dehla;Dhalla
+en;Daran;Darra
+en;Ghoi;Goi
+en;Akholi;Akhara
+en;Pumala;Paniala
+en;Hokra;Hakra
+en;Bīrgrān;Trigiran
+en;Trata;Torla Hotar
+en;Hatar;Torla Hotar
+en;Manwāla;Mahwala
+en;Kothār;Koteha
+en;Seri;Heri
+en;Nala;Nalla
+en;Baihk;Baink
+en;Naurang di Baihk;Naurang-di-Baihk
+en;Chhāchhan;Chachah
+en;Maulān;Mullan
+en;Khetār;Khetar
+en;Surasi;Surali
+en;Surāsi;Surali
+en;Galehra Gali;New Murree
+en;Gehia;Gehi
+en;Akhar;Akhoi
+en;Kotuhri;Kutehri
+en;Dunga Khetar;Khan
+en;Sergran;Sergiran
+en;Dūngiān;Dungian
+en;Baglā;Bagla
+en;Gulyāt;Gulyar
+en;Arwāri;Anwari
+en;Chārihār;Charhan
+en;Garjān di Hil;Garjan-di-Hil
+en;Chāngwāriān;Changwarian
+en;Parhirina;Parhandrina
+en;Samundar;Sar
+en;Dhirkot Kethwālān;Dhirkot
+en;Dhal;Dhol
+en;Narāh;Nara
+en;Badhani Gali;Badhani Goli
+en;Sambal Saiyidān;Sanbal Saiyidan
+en;Rajoa;Rajoia
+nl;Rajoa;Rajoia
+en;Kullāro;Kalraro
+en;Landāt;Khandut
+en;Phapharndi;Phaphondi
+en;Surgāb;Sirba
+en;Mauri;Moure
+en;Durbhaddi;Durbhadi
+en;Rathal;Ratehal
+en;Kari;Kari Khetar
+en;Dūnga Khetar;Dungo Khetar
+en;Khetār;Gari Khetar
+en;Ghanwār;Ghanwas
+en;Phari;Pharl
+en;Nama;Namb
+en;Sangseri;Sang Seri
+en;Ariāri;Ariari
+en;Mak ka Dher;Mah-ka-Dher
+en;Jamnāta;Jamnato
+en;Charāla;Chilala
+en;Kalāla;Kalas
+en;Kund;Kund Chaha Pharian
+en;Chūrihān;Charhan
+en;Kāhni;Kuhni
+en;Bamlehri;Bambleri
+en;Gharata;Gharuta
+en;Jandutiān;Jandunian
+en;Sahdan;Sandan
+en;Sanjriān;Sangrian
+en;Sanwarlān;Samwarian
+en;Kamkot;Kamkot Haider
+en;Ghhaurān Khetar;Chaha Pharian-na-Khetar
+en;Thainai;Thalna
+en;Shahipan;Shamosh
+en;Danna Awain;Danna Awan
+en;Baihk;Baikh
+en;Jhalārāt;Jhalarot
+en;Dummah;Dumma
+en;Sūn Thanāl;Sun Tharjal
+en;Kalālal;Kalalai
+en;Bhātu;Bhata
+en;Paniāl;Paniala
+en;Bāra Hotar;Bada Hotar
+en;Pudniān;Pudrian
+en;Kiyah;Kiya
+en;Bani Seri;Bani Sairi
+en;Palās;Plasi
+en;Arnān;Arnan
+en;Thulli;Thuli
+en;Man;Mail
+en;Seri Bāri;Seribari
+en;Chharra Pani;Chheta Pani
+en;Bahrgrān;Bahrgran
+en;Chūhr;Jamairi
+en;Khetar;Pionna Khetar
+en;Sāla;Sain
+en;Saneo;Sanio
+en;Chhehāti;Chiati
+en;Satta;Sattal
+en;Bosiāt;Bastal
+en;Sambal Bhea;Sambal Bia
+en;Ghura;Gunra
+en;Sahawa;Salwan
+en;Kachhut;Balwar
+en;Kanāla;Kahala
+en;Bandumbli;Bandumbi
+en;Khersānna Kherai;Khassan-na-Khetar
+en;Patit Bāndi;Faisalabad
+en;Banit;Bajut
+en;Dofrah;Dafra
+en;Kallar;Kalar
+en;Londemār;Lundimar
+en;Tālang;Talang
+en;Kuhtāni;Ktai
+en;Gadāni Sarwaoh;Gadani Sarosh
+en;Chhighardāni Khand;Chhighardani
+en;Kāt Spring;Kat
+en;Dāt Spring;Dat
+en;Andre;Andro
+en;Irsind;Irsindh
+en;Kalher Khandāgh Sar;Kaiher Khar Kandgh
+en;Gardān;Grozan
+en;Lorīn;Loriani
+en;Mubin Sindh;Maze Sindh
+en;Bārqin Sind;Barge Sindh
+en;Sher Khand;Sher Khan Khand
+en;Tarko;Turko
+en;Bājeri Brāgh;Bajeri Pragh
+en;Bangārdan;Bangardan
+en;Kahir Khāndagh Ben;Sahir Khar Khandagh Ben
+en;Sehwarāni;Shanhwarani
+en;Skhokh;Sakhokh
+en;Koti Thal;Kothi Thal
+en;Basti Sarājan;Basti Saraian
+en;Draīb;Draib
+en;Wanjheri Sharif;Goth Wanjheri Sharif
+en;Barocho Bāgh;Goth Barocho Bagh
+en;Harighel;Hari Ghel
+en;Harighal;Hari Ghel
+fa;تهورار;Thorar
+ur;تھورار;Thorar
+en;Hurnamaira;Hurna Maira
+en;Nabi Bakhsh Palāri;Goth Nabi Baksh Palari
+en;Goth Saleh Muhammad;Sumar Goth
+en;Latīf Chāng;Goth Ali Bakhsh Chang
+en;Muhammad Usmān Brāhui;Goth Usman Brahui
+en;Ziārat Pīr Saiyid Bukhāri;Ziarat Muhammad Shah Bokhari
+en;Muhammad Hashim Babar;Goth Muhammad Hashim Babar
+en;Punhal Jamāli;Goth Punhal Jamali
+en;Sumār Babar;Goth Sumar Babar
+en;Hāji Shahdād Brahui;Shahdad Brahui
+en;Yaqūb Brahui;Yaqub Brangui
+en;Ramzān Babar;Goth Ramzan Babar
+en;Arbāb Wali Muhammad;Goth Arbab Wali Muhammad
+en;Qādar Bakhsh Shoro;Goth Qadir Baksh Shoro
+en;Shaikh Azīz;Goth Haji Babu Babr
+en;Arbāb Wali Muhammad;Arbab Wali Muhammad Babai
+en;Goth Mitthu Khaskheli;Mithu Khaskheli
+en;Goth Gelāni Gado;Hamid Farm
+en;Ghulām Muhammad Barrage Colony;RBB Colony
+en;Gul Muhammad;Goth Gul Muhammad
+en;Jām;Jam Goth
+en;Kangar;Goth Malangar
+en;Goth Ali Bakhsh;Goth Allah Bakhsh
+en;Goth Ghulām Muhammad Shoro;Goth Qazi Anwar Autaq
+en;Goth Sami Wadero;Goth Mehram Khan Shoro
+en;Goth Shamsi Wādero;Goth Mehram Khan Shoro
+en;Goth Shamsi;Goth Mehram Khan Shoro
+en;Goth Jummun;Goth Mehram Khan Shoro
+en;Goth Gidardub;Goth Usman
+en;Goth Mehar;Goth Maher
+en;Hāji Jām Shoro;Goth Hāji Jāmshoro
+en;G Hāji Jumma Sumra;Goth Bachal Shoro
+en;Goth Hāji Jumma;Goth Bachal Shoro
+en;Goth Hāji Bachal Sumro;Goth Bachal Shoro
+en;Goth Sāhib Khān Rind;Goth Sahib Khan Chandio
+en;Goth Sāheb Khān Rind;Goth Sahib Khan Chandio
+en;Goth Sohrāb Khān;Goth Sohrab Khan Palan
+en;Goth Multān Miān;Goth Muhammad Bakhsh Machhi
+en;Goth Hāji Muhammad Siddiq Shoro;Goth Muhammad Bakhsh Machhi
+en;Bābu Sūmro;Goth Sabu Sumro
+en;Badail Kili;Badell Kili
+en;Smafani Colony;Smalani Colony
+en;Goth Gulām Muhammad;Goth Ghulam Muhammad
+en;Goth Sufan Jākhro;Goth Sufan Jakhro
+en;Goth Faqīr Muhammad;Rahim Khan
+en;Goth Sobho Chāng;Goth Shabho Chang
+en;Pir Makki Lalāk;Ziarat Pir Makki Lolak
+en;Jīwanwāla;Jiwanwala
+en;Maulvīwāla;Basti Maulviwala
+en;Nāīwāla;Naiwala
+en;Tāhliwāla;Taliwala
+en;Gīniwāla Khu;Ganiwala Khu
+en;Basti Mochīwli;Basti Mochiwali
+en;Bhatawāla;Bhetewala
+en;Hadwār;Basti Hadwar
+en;Parīwāla;Bhutewala
+en;Rākh;Rakh Saiyidan
+en;Basti Sīālwāli;Basti Sialwala
+en;Chāh Pipli;Chah Pipiwala
+en;Basti Wiqwāla;Basti Wagwala
+en;Pakka Awānwāla;Baka Awanwala
+en;Bhonkar;Bhonkarwala
+en;Mallokand;Malkana
+ur;کھرانہ پِیر غازی;Kharana Pir Ghazi
+en;Workshop Colony;Workshop
+en;Dar Sar;Der Sar
+en;Gharkan;Basti Gorkoh
+en;Kofio;Koflo
+en;Bājāni Ban;Bajani Basti
+en;Salātāni;Basti Sultani
+en;Azan khāni Ban;Azankhani Ban
+en;Gitta Rīkh;Gittarikh
+en;Kumhārwāla;Kamharwala
+en;Basti Hisām;Hesama Sadat
+en;Ghori;Pir Muhammad Ghauri
+en;Mughaoli;Mughbali Kili
+en;Dashu;Dashti
+fa;جلال‌پور، بهتیان;Jalalpur Bhattian
+ur;جلال پور بھٹیاں;Jalalpur Bhattian
+en;Kashi;Koshi
+en;Saro;Soro
+en;Magdood;Kili Magdud
+en;Harozai;Herozai
+en;Mehr Alizai;Mahr Alizai
+en;Ghulām Muhammad;Ghulam Muhammad
+en;Hasunzai;Hasanzai
+en;Sardarzai;Sardarza
+en;Bwaki;Bwori
+en;Yousafzai;Yousafzai Kalan
+en;Gaten Tak Bun;Gaten Tek Bun
+en;Khdar Zai Kili;Khadarzai Kili
+en;Dabbak;Dobbak
+en;Nogazzi;Nabi Bakhsh
+en;Chak Mughiu;Chak Mughlo
+en;Hamlari;Basti Gul Khan Hamlari
+en;Ibrāhīm Junejo Goth Goth;Ibrahim Junejo Goth
+en;Haji Mardān Goth;Haji Mardan Goth
+en;Ali Gohar Lohar Goth;Goth Bulo Khan
+en;Gulzar Lohar Baloch Goth;Goth Dad Khan Shar
+en;Gulām Mustafa Lohar;Goth Kabul Khan
+en;Mardān Goth;Goth Rangpur Khoso
+en;Goth Goth Karam Khān Shar Baloch;Goth Karam Khan Shar Baloch
+en;Goth Ālam Khān Khoso;Goth Alam Khan Khoso
+en;Goth Allāh Bakhsh Khoso;Goth Ghulam Haidar Khoso
+en;Goth Khair Muhjammad Sanjrāni;Goth Khair Muhammad Sanjrani
+en;Goth Pathān;Goth Ghulam Hussain Pathan
+en;Jeo;Goth Jeo
+en;Goth Sulemān Sheikh;Goth Sulaiman Shaikh
+en;Goth Ghāzi;Goth Ghazi
+en;Goth Khokhar;Goth Ramzan Khokhar
+en;Goth Bāgarji;Goth Qaim Labana
+en;Dara;Goth Dosdara
+en;Sufan Malāh;Goth Satini
+en;Goth Ghulam Ujjan;Goth Ghulam Ujan
+en;Goth Sachal Khān;Goth Sachal Khan
+en;Goth Marracha;Mariha
+en;Goth Māchhi;Goth Machi
+en;Goth Bagh Meher;Goth Bagh Mehr
+en;Goth Ujjian;Goth Lagari
+en;Goth Ghulam Sarwer;Goth Ghulam Sarwar
+en;Goth Ali Bakhsh Ujjan;Goth Ghulam Bakhsh Ujjan
+en;Ziārat Rejhil Shāh;Ziarat Rejal Shah
+en;Ghulam Ali Mangrio;Goth Ghulam Ali Mangrio
+en;Goth Rustam Sohto;Goth Rustam Sahto
+en;Goth Muhammad Laiq Rajper;Goth Muhammad Laiq
+en;Ziārat Bhūdhal Shāh;Ziarat Badal Shah
+en;Goth Wahid Bakhash Mangra;Goth Wahid Bakhsh Mugari
+en;Goth Theba;Thaba
+en;Goth Abdul Wahid Wassan;Goth Abdul Wahid Wasan
+en;Goth Ārab Khān;Marn Nandhi
+en;Goth Mir Muhammad Phulpoto;Goth Mir Muhammad Pulphoto
+en;Goth Azmat Kāndro;Goth Azmat Kandrio
+en;Goth Ismail Khān;Ismail Khan Jatoi
+en;Goth Shaikh Tayab;Shaikh Goth
+en;Goth Haji Lāl Bakhsh;Haji Lal Bakhsh
+en;Goth Sachal Khān;Sachal Khan
+en;Goth Mohmmed Khān;Muhammad Khan
+en;Goth Rafique Mahaser;Goth Rafiq Mahrasar
+en;Goth Nawābuddin;Goth Nawabuddin
+en;Goth Mungho Khān Chāndio;Goth Mango Khan
+en;Goth Khalifa Ramazan;Goth Khalifa Ramzan
+en;Parwarjo Goth;Parwa Jo Goth
+en;Nawab-Jo Goth;Nawab Jo Goth
+en;Pir Channan jo Goth;Pir Chandio Jo Goth
+en;Tando Nehāl Khān;Tando Nehal Khan Jo Goth
+en;Raja Khān Rind Balouch;Raja Khan Rind Baloch
+en;Muhammad Ramzan Shar Balouch;Goth Muhammad Ramzan Baloch
+en;Goth Wali Muhammad Shabanī;Goth Wali Muhammad Shabani
+en;Korhal Shāh;Goth Karnal Shah
+en;Goth Samano Khān Chakrani;Goth Samano Khan
+en;Murad Khān;Murad Khan
+en;Goth Jām Khān;Goth Jam Khan
+en;Goth Faizal Mehar;Goth Fazial Mehar
+en;Goth Ghulam Qasim Machi;Goth Ghulam Qasim Maher
+en;Ghulam Sarwer Patah;Gulam Sarwar Pathan
+en;Shah Baig Baloch;Goth Shah Baig Pathan
+en;Muhammad Bakhsh Brohi;Muhammad Bakhsh Brahui
+en;Faqir Hidayat Jalālāni;Faqir Hayat Jalaloni
+en;Goth Qaim Khan Solangi;Goth Qaim Solangi
+en;Rasul Bakhsh Bhatti;Goth Rasul Bakhsh Bhatti
+en;Zulfiqar Tumbrani;Zulfiqar Solangi
+en;Haji Bachal Khān;Goth Hayat Khan Ujjan
+en;Ghulam Hader;Goth Haji Ishaq
+en;Goth Naseeruddin Ujan;Goth Nasiruddin Ujan
+en;Goth Ghulam Muhammad Maher;Haji Khan Lashari
+en;Goth Qadir Bukhsh Khāskhāli;Goth Qadir Bakhsh Khaskheli
+en;Goth Muhabat Khān Lashari;Goth Muhabbat Khan Lashari
+en;Haji Dino Khāskhāli;Haji Dino Khaskheli
+en;Goth Hadi Bakhsh;Goth Hadi Bakhsh Gopang
+en;Goth Ghulam ullāh Marri;Goth Ghulam
+en;Musa Them Jo Goth;Malhar Musa Them Jo Goth
+en;Goth Haji Ibrahīm;Goth Haji Ibrahim
+en;Goth Khari Muhammad Chāndio;Goth Kair Muhammad Chandio
+en;Rano Chāndio-Jo-Goth;Rani Chandio Jo Goth
+en;Ādam Khān-Jo-Goth;Adam Khan Jo Goth
+en;Muhram Thabo-Jo-Goth;Muhram Toba Jo Goth
+en;Abdul Qadir Jelani Goth;Goth Abdul Qadir Jilani
+en;Khuda Bakhsh-Jo-Goth;Khuda Bakhsh Jo Goth
+en;Goth Baibat Khān;Goth Haibat Khan
+en;Goth Babur Kāndhro;Goth Babar Kandhro
+en;Goth Choudhery Sādiq Ali;Goth Chaudhary
+en;Goth Shakooruddin Chaudhery;Goth Khakuruddin Chaudhary
+en;Wahid Bakhsh Mangrar;Goth Wahid Bakhsh Maghan
+en;Goth Hāla;Hala
+en;Wadero;Hala
+en;Goth Huh Ali Shāh;Goth Hub Ali Shah
+en;Goth Lāshāri;Achar Khaskheli
+en;Goth Sulangi Māchhi;Goth Solangi Machhi
+en;Goth Nasīr Sulangi;Goth Nasir Solangi
+en;Qādirdīna Shāh;Sharo Jamali
+en;Gāhi Khān Sarāi;Bhai Khan Sirai
+en;Yusuf Rind;Goth Yusuf
+en;Aāzi Shamsuddīn;Qazi Shamsuddin
+en;Shafqat Shāh;Goth Shafqat Shah
+en;Āchar Parāi;Goth Jumman Sangi
+en;Gāleh Parāi;Goth Saleh Paral
+en;Goth Nihāl Parāl;Goth Nihal Khan
+en;Umar Sānd;Goth Umar Sand
+en;Usmān Āmre;Nur Muhammad Chano
+en;Yusuf Jamāli;Goth Yusuf Jamali
+en;Birro Āmro;Birro Amra
+en;Hāji Allu Michāro;Goth Sumar
+en;Ibrāhīm Nāhia;Goth Ibrahim Nahia
+en;Abdur Rahīm Bhatti;Abdul Rahman Amro
+en;Sulaimān Kharāi;Sulaiman Korai
+en;Bachchu Sehta;Bacho Sehta
+en;Goth Sehta;Sehta
+en;Goth Vikia;Goto Adam Sehto
+en;Goth Hāji Abdullāh;Goth Ismail Goto
+en;Goth Moham Rahim;Goth Muhammad Khan Pijaro
+en;Goth Pīro Hajjām;Goth Piru Hajam
+en;Goth Dario;Goth Qaim
+en;Goth Juman Shah;Goth Jumman Shah
+en;Goth Rahīm Chāran;Goth Rahim Charan
+en;Goth Darya Khan Soho;Goth Daria Khan Sohu
+en;Goth Sulemān Soho;Goth Sulaiman Soho
+en;Pīr Hindrār Shāh Bādshāh;Murad Shah
+en;Jān Muhammad Shāh;Goth Jan Muhammad Shah
+en;Ahmad Khān Laghāri;Goth Ahmad Khan Laghari
+en;Layār Shīdii;Layar Shidi
+en;Bachchal Rind;Bachal Rind
+en;Abdul Ghafūr Laghāri;Abdul Ghafur Laghari
+en;Goth Ismāli;Goth Ismail
+en;Allāh Bachāyo Bhatti;Goth Allah Bachayo
+en;Hamza Jakhron;Hamzo Jakhrani
+en;Uso Māchhi;Usa Machi
+en;Goth Changrānj;Goth Chandranj
+en;Umar Khān Rind;Usman Khan Rind
+en;Sukhpur;Sukh Pur
+en;Goth Āgha Dīno;Nazir Mew
+en;Goth Mor;Goth Mew
+en;Waihār;Walhar
+en;Goth Gul Parhiār;Goth Gul Parhia
+en;Goth Bachchal Shāh;Amun Shiho
+en;Goth Umar Bakero;Goth Umar Bakeru
+en;Goth Jāni Memon;Goth Haji Memon
+en;Goth Gobo Khan Zour;Goth Khan Daur
+en;Goth Ādam Chāndio;Goth Adam Chandio
+en;Goth Khuda Bakhsh Zour;Goth Khuda Bakhsh Zaur
+en;Murīd Janeja;Murid Joneja
+en;Goth Urs Mallāh;Goth Urs Malah
+en;Goth Ghāzi Khān;Goth Ghazi Khan Shoro
+en;Goth Hāji Muhammad Mallāh;Goth Haji Muhammad Mullah
+en;Ismāil Change;Goth Sumar
+en;Muhammad Samajo;Muhammad Smejo
+en;Rāhib Kārion;Rahib Kanion
+en;Mehranābād;Haji Ghulam Nabi
+en;Achar Mohāno;Achar Mallah
+en;Gul Muhammad Māllāh;Gul Muhammad Mallah
+en;Ahmad Posio;Ahmad Piso
+en;Qādar Bakhsh Pathān;Qadir Bakhsh Pathan
+en;Wāsū Shāh;Wasu Shah
+en;Sādiq Mohāno;Siddiq Malah
+en;Mujāwar;Daebar Nur Muhammad
+en;Karro Bubak;Amb Bubak
+en;Ahmad Potāi;Ahmad Posio
+en;Khamīso Mohāno;Khamisa Mohano
+en;Mīr Muhammad Jaf;Mir Muhammad Jat
+en;Ahmad Mohāno;Ahmad Mallah
+en;Muhammad Rashīd;Muhammad Rashid
+en;Abdul Wahīd Laghāri;Abdul Wahid Laghari
+en;Abdul Bakhsh Laghāri;Allah Bakhsh Laghari
+en;Allah Dinor Purio;Goth Laghari
+en;Goth Sādiq;Goth Arab
+en;Goth Muhammad Siddīq;Goth Muhammad Siddiq
+en;Qādir Bukhsh Laghāri;Qadir Bakhsh Laghari
+en;Hāji Jāno Māchhi;Haji Jano Machhi
+en;Kādu Khando;Kadu Khado
+en;Hāji Āchar Khān Laghāri;Haji Achar Khan Laghari
+en;Hāji Surmo;Haji Sumro
+en;Bachchal Solang;Goth Bachal Solang
+en;Pirāno Lund;Sher Khan Lund
+en;Goth Gulo Zaur;Abdul Zaur
+en;Ghulām Hussain Sumro;Haji Sultan Panhwar
+en;Goth Hāji Jārio Zaur;Ali Murad
+en;Ahmad Meman;Ahmad Mamon
+en;Goth Hāji Ahmed Lashāri;Haji Ahmad Usmani
+en;Goth Bachal Lashāri;Bachal Lashari
+en;Goth Yusuf Thebo;Yusuf Thebo
+en;Puno Kamdār;Puno Kamdar
+en;Ali Muhammad Khalifa;Ali Muhammad
+en;Usman Kumdār;Usman Kamdar
+en;Bachāya Kauri;Doctor Lal Bakhsh Bhatti
+en;Doctor Lāl Buksh Bhatti;Doctor Lal Bakhsh Bhatti
+en;Autāq Siddīq Malkāni;Autaq Siddiq Malkani
+en;Ahmad Khān Jat;Ahmad Khan Jat
+en;Muhammad Yūsuf Dars;Muhammad Yusuf Dars
+en;Muhammad Tufai;Muhammad Tufail
+en;Rafique Ali Shāh;Akbar Jat
+en;Muhammad Hingorjo;Muhammad Jat
+en;Kāro Lodo;Haji Lodo
+en;Monor Kehr;Umar Kehr
+en;Ali Muhammad Hingorjo;Muhammad Ali Hingorjo
+en;Nim Hingorjo;Nim Hingorja
+en;Bachāyo Jat;Bachio Jat
+en;Luna;Lune Jat
+en;Muhammad Umar Malkāni;Suchan Dino Parhar
+en;Somār Hingorjo;Sumar Hingorja
+en;Haut Nauria;Hut Nanria
+en;Rakhel Khor;Rakhil Khor
+en;Achār Jat;Achar Jat
+en;Maula Bakhsh Parhār;Taiyib Parhar
+en;Hāji Qāder Bakhsh Lodo;Haji Qadar Bakhsh Lodo
+en;Hāji Usmān Lodo;Haji Usman Lodo
+en;Sadiq Mehāna;Sadiq Mohan
+en;Karān Bakhsh Kālio;Karim Bakhsh Kalio
+en;Goth Juman;Goth Jumman
+en;Siddīq Māho;Siddiq Malio
+en;Goth Muhammad Khān Bhurgari;Goth Muhammad Khan Burgori
+en;Goth Shāh;Shah
+en;Mohd Shāh;Muhammad Shah
+en;Goth Gohar Chāndio;Goth Chandio
+en;Goth Hāji Loing Chāng;Haji Loung Chang
+en;Ramzān Rapar;Ramzan Rajpar
+en;Yusuf Sumro;Yusuf Sunro
+en;Jādo Mohānd;Jado Mohano
+en;Goth Lāl Bakhsh Zaur;Goth Lal Bukhsh Zaur
+en;Hāji Khamiso Chāndio;Haji Khamiso
+en;Jurial Parhār;Burial Parhar
+en;Hāji Abdullāh Lākho;Malik Arif Salim
+en;Muhammad Parhār;Muhammad Parhar
+en;Hāji Hāshim Burāna;Haji Hahsim
+en;Āchar Dal;Achar Dal
+en;Ali lMuhammad Soho;Ali Muhammad Soho
+en;Humza Hhaur;Huza Khan
+en;Lūnio;Lunio
+en;Qāsim Ali Shāh;Qasim Ali Shah
+en;Mohd Rāfique Rind;Muhammad Rafiq Rind
+en;Nūr Muhammad Ārāin;Nur Muhammad Arain
+en;Sāleh Muhammad;Saleh Muhammad Jat
+en;Sana Jat;Sona Jat
+en;Mirān Rind;Miran Rind
+en;Hāji Muhammad Rahib;Haji Muhammad
+en;Muhammad Jat;Rahib Jat
+en;Hāshim Penhwār;Hashim Punhwar
+en;Jāti Choiwk;Jati Chowk
+en;Hasan Mitay;Hasan Mitayo
+en;Ahmad Mālio;Ahmad Malio
+en;Jaikti;Jaikri
+en;Gul Muhammad Māndro;Gul Muhammad Malio
+en;Hāji Abdul Latīf Nizāmāni;Haji Abdul Latif Nizamani
+en;Khamu Mālio;Alu Jat
+en;Habibullah Punjābi;Habibullah Punjabi
+en;Chaudhry Muhammad Sharīf;Haji Ghulam Nabi Nizamani
+en;Mitha Pusru;Mitha Pusiu
+en;Hāji Sānd;Haji Sand
+en;Gungro Mon;Gungro Mari
+en;Doctor Mukhtiār;Goth Doctor Mukhtiar
+en;Chaudhary Muhammad Ali;Chaudhry Muhammad Ali
+en;Hāji Juma;Pachari Sharif
+en;Goth Allāh Ditta;Bakhsh Ali
+en;Ādam Jat;Adani Jat
+en;Juma Khor;Nur Muhammad
+en;Yāqūb Panhwar;Pho Jat
+en;Ghulām Muhammad Shāh;Idris Machi
+en;Fateh Muhammad Shāh;Haji Imdad Shah
+en;Ībrāhim Memon;Ibrahim Mamon
+en;Madār Jat;Madar Jat
+en;Rāhib Khān Jat;Rahib Khan Jat
+en;Goth Hāji Ali Muhammad;Ahmad Shah
+en;Sumār Dal;Dal Goth
+en;Goth Mūsa Cotoi;Goth Musa Coto
+en;Allāh Dino Bhurgori;Allah Dino Bhiurgori
+en;Goth Abdullāh;Goth Abdullah
+en;Doctor Saleem Punjābi;Doctor Salim Punjabi
+en;Hāji Ārif Chāndio;Haji Arif Chandio
+en;Hāji Jāmaldin Chāndio;Aro Jat
+en;Bachāio Rehmān;Bachaio Rahman
+en;Pārio Mahr;Paryo Marri
+en;Usmān Khāskheli;Usman Khaskheli
+en;Alāna Panhwar;Goth Allahdino
+en;Khānāni Jāt;Goth Kanani
+en;Goth Ali Nādo;Ghulam Muhammad Samu
+en;Bonger Nādhy;Nur Muhammad Bhangro
+en;Goth Anwar Shāh;Khudar Wah Chouke
+en;Goth Hāji Mio;Mao Khan Khaskheli
+en;Lāl Dīn Goth;Goth Lal Din
+en;Feroz Din;Goth Firoz Din
+en;Āli Muhammad Goth;Haji Afzal Punjabi
+en;Karāchi Goth;Karachi Goth
+en;Bāchal Khoso;Bachal Khan Khoso
+en;Sukān Ranhwar;Haji Sultan Panhwar
+en;Thatti Kili;Thatti
+en;Kalāngkata;Kalang Kuta
+en;Jaribila;Jabrai Bela
+en;Phullān di Jhok;Jhok Phulan
+en;Khokhar Basti;Basti Kalrah
+en;Chak Thirty BC Sharqi;Chak Thirty Bahawal Canal Sharqi
+en;Chak Thirty BC Gharbi;Chak Thirty-one Bahawal Canal
+en;Sojlewāli;Basti Sojewali
+en;Basti Mohānawāli;Basti Mohanhwali
+en;Sahūanwāli;Sahuwala
+en;Lasuriwāla;Basti Lasuriwali
+en;Basti Abdullāhwli;Basti Abdullahwali
+en;Suniāriānwāla;Basti Sanaranwali
+en;Hukamdinwāla;Basti Hukamdinwali
+en;Basti Tarkhāna;Basti Tarkhanan
+en;Basti Kamaniān;Basti Kameman Lal
+en;Chāh Muhammad Ramzān Kalialwāla;Chah Muhammad Ramzan
+en;Basti Haji Ghulām Muhammad;Basti Haji Ghulam Muhammad
+en;Basti Dhalwān;Basti Diwan
+en;Mehdiwāla;Basti Mahdiwala Khu
+en;Basti Sulemān Mohajar;Basti Sulaman
+en;Pir Bahār Shāh;Pir Bahadar Shah
+en;Kora Khu;Korawala Khu
+en;Basti Bhutieān di;Basti Bhutteandi
+en;Basti Shafi Baloch;Basti Shafi Baluch
+en;Māriwāle Khu;Kora Khu
+en;Chak Nintey-eight M;Chak Ninety-eight M
+en;Basti Thaliwāla;Basti Taliwala
+en;Gharibābad;Azizabad
+en;Basti Mahana;Basti Mian
+en;Jhok Tharān;Jhok Tarar
+en;Chak 12 BC Janubi;Chak Twelve Bahawal Canal Janubi
+en;Bohrwala;Bhoin Wala
+en;Chak Twenty-six BG;Chak Twenty-six Bahawal Canal
+en;Tibba Baddar Sher;Tibba Bahadar Sher
+en;Chak Two DNB;Chak Two Dera Nawab Branch
+en;Chak One Hundred Seventeen DB Shumāli;Chak One Hundred Seventeen Desert Branch Shimali
+en;Chāndani Chawk;Chandni Chauk
+en;Chak Sixty-four DB;Chak Sixty-four Desert Branch
+en;Chak Seventeen BC;Chak Seventeen Bahawal Canal
+en;Chak Fifteen BC;Chak Fifteen Bahawal Canal
+en;Chak Sixteen BC;Chak Sixteen Bahawal Canal
+en;Chak Eighteen BC;Chak Eighteen Bahawal Canal
+en;Chak Nineteen BC;Chak Nineteen Bahawal Canal
+en;Chak Fifty-one DB Shumāli;Chak Fifty-one Desert Branch Shimalil
+en;Chak 57 DB;Chak Fifty-seven
+en;Manzoorabād;Manzurabad
+en;Chak Three Hundred Thrity-three WB;Chak Three Hundred Thirteen Western Bar
+en;Chak Fifteen;Chak Fifteen Mailsi
+en;Chak Two Hundred Ninety-one WB;Chak Two Hundred Ninety-one Western Bar
+en;ChakOne Hundred Four WB;Chak Two Hundred Four Western Bar
+en;Nāi Basti;Fazalabad
+en;Nazīrābād;Bhagtanwala Khu
+en;Hafīwāla;Hafizwala
+en;Chak Two Hundred Seventy-seven WB;Chak Two Hundred Seventy-seven Western Bar
+en;Chak Nawābpur;Langarwala Khu
+en;chak One Hundred Twenty-four WB;Chak One Hundred Twenty-four Western Bar
+en;Chak Two Hundred Twenty-three Mangla Dam;Chak Two Hundred Twenty-three
+en;Bokhrān;Bokhrai
+en;Gore Mor;Garha More
+en;Bakhariwāla;Basti Masuman
+en;Dinghre Basti;Dhingran
+en;Amirpur Sadāt;Haidarabad
+en;Basti Khuda Bukhsh;Basti Khuda Bakhsh
+en;Bekhhiwāla;Bakhtuwala
+en;Asim Choke;Asim Chauk
+en;Langānwāla Khuh;Langanwala Khu
+en;Mangoo;Manguwala
+en;Hadli;Hadliwala
+en;Nachānwāla;Nichanwala
+en;Tāja;Tajawala
+en;Gaden;Goden Chah Sajawalwala
+en;Naya Mandewāla;Naya Mandewala
+en;Balālwa;Balahwa
+en;Newān Siālānwāla;Nawan Sialanwala
+en;Satān;Chak Eleven
+en;Sarā;Sera
+en;Dhanāinwāla;Ghulabwala
+en;Khu Bastiwāla;Bastiwala
+en;Hazrewāla Bhira;Hazarewala Bhira
+fa;کهانه;Khane
+ur;تھگس;Thagus
+ur;بھاگوال;Baghwal
+en;Khu Sarnīwāla;Samiwala Khu
+en;Basti Jādlew;Basti Jadne
+en;Basti Chabin;Basti Jop
+en;Chāh Gehnweāla;Chah Gehnewala
+en;Yusūfwāla;Yousafwala
+en;Shāliwāla;Sahliwala
+en;Shāhliwāla;Sahliwala
+en;Dambriāwāla;Chah Dambra
+en;Malūkiwāla;Malukwala
+en;Hākrewāla Shumāli;Jakreawala Shumali
+en;Gojarwāla;Gujarwala
+en;Kutanewāla;Kuthanwala
+en;Matilewāla;Matiliwala
+en;Daewāla;Daiwala
+en;Bazaārwāla;Bazdarwala
+en;Dolewāla;Daliwala
+en;Qāsāiwāla;Qasaiwala
+en;Tajewāla;Tajiwala
+en;Shāh Miāni Busti;Shah Miani Basti
+en;Gāniwāla Khu;Aganiwala
+en;Basti Khakhwāla;Khakhawala
+en;Honhārewāla;Honhariwala
+en;Hotewāla;Hotiwala
+en;Malokhe;Malokhi
+en;Hukam Chandawāla;Hakim Chandawala
+en;Lābarāla;Labarwala
+en;Bahadurwāla;Bahadarwala
+en;Daroewāla;Dareowala
+en;Chohānewāla;Chohaniwala
+en;Narharwāla;Muhammad Naharwala
+en;Marwewāla Khu;Marwiwala Khu
+en;Baghewāla;Beghiwala
+en;Tāhliwāla;Tajiwala
+en;Darāmāh;Daraman
+en;Chāh Rohelewāla;Chah Roheliwala
+en;Mathrewāla;Mathriwala
+en;Basti Lāi;Basti Lal
+en;Basti Haryāni;Basti Halian
+en;Bewlewāla Khu;Bewliwala Khu
+en;Samārwāla;Shamarwala
+en;Māhanewāla;Maniwala
+en;Bashkailīwāla;Bashkaliwala
+en;Tawariwāla;Tawarwala
+en;Chāh Khotewāla;Chah Khothewala
+en;Murādwāla;Muradwala
+en;Basti Jabyāni;Basti Jagrani
+en;Laghānwāla;Laghariwala
+en;Chamkārwāla;Chakerwala
+en;Goth Chaudhri Zulfiqār;Goth Chaudory Zulfiqar Ali
+en;Daplai Memon Society;Daplai Memon Housing Society
+en;Nasim Nagar;Nasim Nagar Phase Three
+en;Mubārak Society;Mubarak Housing Society
+en;Goth Ansāri;Goth Haji Khan Laghari
+en;Bangi;Bangaikh
+en;Muskai;Mushkai
+en;Samālo;Samalo
+en;Tash;Kili Tash
+en;Goth Kalwāri;Goth Kalwari Junejo
+en;Mīrānpūr;Mehran Pur
+en;Murādpūr;Muradpur
+en;Nakol;Nakoi
+en;Khan Muhammad Goth;Khan Muhammad
+en;Chak Sixty DB;Chak Sixty Desert Branch
+en;Chak Twenty-seven WB;Chak Two Hundred Seventy-one Western Bar
+ur;اٹک;Attock
+en;Chak One Hundred-forty ADB;Chak One Hundred Forty A Desert Branch
+en;Dushai;Doshai
+en;Chīno Kili;Chino Kalle
+ru;Дхиркот;Dhirkot
+en;Athmuqam;Athhmuqam
+en;Athmakam;Athhmuqam
+en;Kasupur Dulhar;Kasu Pur Dulhar
+ur;دھنی;Dhunni
+ur;چک فاضل;Chak Fazal
+ur;تھلے;Thalay
+en;Tarkhānwala;Darkhanwala
+ru;Ариф Уала;Arif Wala
+sd;راهو آباد;Rahu Abad
+en;Shaikh Goth;Goth Khan Bahadur
+en;Bhatti;Lundo Amro
+en;Churatta;Choratta
+en;Basti Huriān;Basti Harian
+en;Basti Jān Muhammad;Basti Khan Muhammad
+en;Chak Fifty-two ADB;Chak Fifty-two Desert Branch
+en;Chak Fifty DB;Chak Fifty Desert Branch
+en;Chak Two Hundred Ninety-nine;Chak Two Hundred Ninety-nine Western Bar
+en;Chak Two Hundred Thirty-five WB;Chak Two Hundred Thirty-five Western Bar
+en;Takshashila;Taxila
+pa;ٹيکسلا;Taxila
+ur;ٹیکسلا;Taxila
+hi;तक्षशिला;Taxila
+ru;Таксила;Taxila
+zh;塔克西拉;Taxila
+ur;Molvi Shah seri;Brahmi Seri
+sd;ڳوٺ حاجي علي محمد راهو;Village Haji Ali Muhammad Rahu
+ru;Хуб;Hub
+sd;دل شير بروهي;Dil Sher Brohi

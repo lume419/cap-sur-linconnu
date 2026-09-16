@@ -1,0 +1,4594 @@
+fil;Kasili;Casili
+fil;Sinundungan;Zinundungan
+fil;Sinarag;Zinarag
+fil;Zaragosa;Zaragoza
+fil;Sopot;Zapat
+fil;Sapat;Zapat
+fil;Zanja;Sanja
+fil;Zaniga;Old Zaniga
+ceb;Lungsod sa Zamboanguita;Zamboanguita
+fil;Zabali;Zaball
+fil;Zabala;Bias-Zabala
+fil;Yuco;Yucos
+fil;Yacos;Yucos
+fil;Yooc;Yook
+fil;Yeban;Yeban Norte
+fil;Yate;Yati
+fil;Yayagan;Yagyagan
+fil;Mawa;Wawa
+fil;Visal;Vizal San Pablo
+fil;Bisal;Vizal San Pablo
+fil;Virgonezan;Virgoneza
+fil;Virgonesa;Virgoneza
+ur;ویراک، کاتاندوانیس;Virac
+ru;Вирак;Virac
+fil;Vira;Bira
+fil;Villavieja;Villavejo
+fil;Villavicja;Villavejo
+fil;Villvert-Jimenez;Villavert-Jimenez
+fil;Villanueva;Villa Ruz
+fil;Villa Nacaub;Villa Nacaob
+fil;Villamor Crossing;Villamor
+fil;Villa Magaf;Villa Magat
+fil;Villa Hermosa Norte;Villahemosa Norte
+fil;Villahermosa;Villahemosa Norte
+fil;Villahemosa;Villahemosa Norte
+fil;Villahermasa;Villahermosa
+fil;Cataban;Catabban
+fil;Villa-Comillas;Catabban
+fil;Hacienda de Camillas;Catabban
+de;Vigan City;Vigan
+th;วีกัน;Vigan
+fa;ویگان;Vigan
+id;Kota Vigan;Vigan
+ja;ビガン;Vigan
+ceb;Dakbayan sa Vigan;Vigan
+ko;비간;Vigan
+tl;Lungsod ng Vigan;Vigan
+pt;Cidade Histórica de Vigan;Vigan
+ru;Виган;Vigan
+zh;美岸;Vigan
+ky;Виган шаары;Vigan
+ml;വിഗൻ;Vigan
+ne;भिगन;Vigan
+ur;ویگان;Vigan
+fil;Viga;Biga
+fil;Vigo;Biga
+fil;Bigaa;Biga
+fil;Viernes Santo;Holy Friday
+fil;Biejo;Viejo
+en;Victorias City;Victorias
+ceb;Dakbayan sa Victorias;Victorias
+nl;Victorias City;Victorias
+fil;Victorias City;Victorias
+ru;Виктория;Victoria
+fil;Nanhaya;Victoria
+fil;Vical;Bical
+fil;Vergania;Vergaña
+en;Ventinella West;Primicias
+fil;Ventenilla;Primicias
+fil;Vega Grande;Vega
+ru;Валензуела;Valenzuela
+ru;Валенсия;Valencia
+ru;Валенсия;NIA Valencia
+de;Valencia City;NIA Valencia
+id;Kota Valencia;NIA Valencia
+ko;발렌시아;NIA Valencia
+zh;巴伦西亚城;NIA Valencia
+ceb;Dakbayan sa Valencia;NIA Valencia
+tl;Lungsod ng Valencia;NIA Valencia
+fil;Utud;Utod
+fil;Urdaneta II;Urdaneta
+es;Urdaneta de Pangasinán;Urdaneta
+id;Kota Urdaneta;Urdaneta
+ru;Урданета;Urdaneta
+fil;Uroyong;Urayong
+fil;Upper Kalandagan;Kalandagan
+fil;Lower Daromawang;Daromawang
+fil;Dacomaoang;Daromawang
+fil;Upeg;Upig
+fil;Upi Norte;Upi
+fil;Upie;Upi
+en;Uñgale;Ungale
+fil;Umpucan;Umpukan
+fil;Tumpacan;Umpukan
+fil;Umu;Uma
+fil;Ulilang Cauayan;Ulilang
+fil;Ulayos;Uyalas
+fil;Uia;Uja
+fil;Uguap;Uguep
+fil;Ugong;Ugong Norte
+fil;Ugac;Ugac Sur
+fil;Ududiaw;Ududiao
+fil;Udiao;Ududiao
+fil;Udiao;Udeo
+fil;Ubbug;Ubbog
+fa;یوبای، بهل;Ubay
+ur;ابے، بوہول;Ubay
+fil;Tuliao;Uauang-Tuliao
+fil;Uauang;Uauang-Tuliao
+fil;Uauang;Wawang
+fil;Tuyuman;Tayuman
+fil;Tuyom;Tuyum
+fil;Tuyo;Fuyo
+tl;Bayan ng Tuy;Tuy
+fil;Turayung;Turayong
+fil;Tuquib-Cal-lao;Tuquib
+fil;Tuguib;Tuquib
+fil;Tupas;Tupax
+fil;Tupa;Tupax
+fil;Tupac-Estancia;Estancia
+fil;Tupac;Estancia
+fil;Tupac;Tupuc
+fil;Tupac;Tupa
+fil;Tunkong Manga;Tungkong Mangga
+fil;Tungkong Manga;Tungkong Mangga
+fil;Tunggi;Tunggui
+fil;Tungi;Tunggui
+fil;Tungkab;Tungcab
+fil;Tungal;Tungel
+fil;Tumoc;Tumog
+fil;Tumingod;Tumingad
+fil;Tumana;Tomana West
+fil;Tulung;Tulong
+fil;Tulo;Milagrosa
+fil;Tulnoc;Tulnac
+fil;Tulgueo;Tuigeo
+fil;Tulgeo;Tuigeo
+fil;Tulgao;Tuigeo
+fil;Tulao;Tuliao
+fil;Toliao;Tuliao
+fil;Tulaed;Tulaid
+fil;Tukucan;Tucucan
+fil;Tuhung;Tubung
+en;Tuguegarao City;Tuguegarao
+nl;Tuguegarao City;Tuguegarao
+tl;Lungsod ng Tuguegarao;Tuguegarao
+fil;Tuguegarao City;Tuguegarao
+ru;Тугегарао;Tuguegarao
+ar;توجيجاراو;Tuguegarao
+kk;Тугегарао;Tuguegarao
+ky;Тугегарао;Tuguegarao
+hi;तुगुएगराओ;Tuguegarao
+bn;তুগুয়েগারাও;Tuguegarao
+ur;تجیگاراؤ;Tuguegarao
+fa;توگگاراو;Tuguegarao
+ja;トゥグエガラオ;Tuguegarao
+pa;ਤੁਗੁਏਗਰਾਓ;Tuguegarao
+ps;توجیګاراو;Tuguegarao
+tg;Тугегарао;Tuguegarao
+fil;Tugatog;Tugatug
+fil;Tuel;Tuela
+fil;Tucuccan;Tokukan
+fil;Tukukan;Tokukan
+fil;Tubutub;Tubutab
+fil;Tubud;Tubod
+fil;Toboy;Tuboy
+fa;توبد، لانائو دل نورته;Tubod
+ur;توبود، لاناؤ شمالی;Tubod
+fa;توبلی، بنگوت;Tublay
+ur;توبلے، بنگوت;Tublay
+fil;Tubigon;Tubigan
+fil;Tubigon;Tobigon
+fa;توبو، لا یونیون;Tubao
+ur;توبوا، لا یونین;Tubao
+fil;Trece Martires;Trece Martires City
+fil;Totopiak;Totopiat
+fil;Totay;Taytay
+fil;Torres;Torres Lambayan
+fil;Torres;Torre First
+fil;Topdak;Topdac
+fil;Tong-go;Tungod
+fil;Tongcor;Tungkod
+fil;Tolongoat;Tolonguat
+fil;Tolo;Tulo
+en;Toledo City;Toledo
+ceb;Dakbayan sa Talisay;Toledo
+nl;Toledo City;Toledo
+ru;Толедо;Toledo
+ceb;Dakbayan sa Toledo;Toledo
+tl;Lungsod ng Toledo;Toledo
+fil;Tolag;Polag
+en;Toga Colony;Tuga Colony
+fil;Toga;Tuga Colony
+en;Colony;Tuga Colony
+fil;Tococ;Tucoc
+fil;Tococ;Tocok
+fil;Toctoc;Tocok
+fil;Tocanon;Tucanon
+fil;Taboy Norte;Toboy
+fil;Taboy;Toboy
+fil;Tobog;Barangay Tobog
+fil;Tiquitic;Tikitic
+fil;Tiquey;Tickey
+fil;Tikey;Tickey
+fil;Tiguey;Tickey
+fil;Teckey;Tickey
+fil;Tippang;Tepang
+fil;Tiplin;Teppeng
+fil;Tepping;Teppeng
+fil;Tipas;Ligid-Tipas
+fil;Tengib;Tingib
+fil;Tinga Ibaba;Tinga Labac
+fil;Tinajeros;Tinajero
+fil;Timbañgan;Timbangan
+fil;Tela Patio;Telepatio
+fil;Tilapatio;Telepatio
+fil;Tigwi;Tigui
+fil;Tiguion;Tigui
+fil;Tigiui;Tigui
+fil;Tignuan;Tignoan
+fil;Tiglawigan;Tiglauigan
+fil;Tiglawá;Iglawa
+fil;Tigbi;Tigbe
+fil;Tibangon;Tibaguin
+fil;Tibagon;Tibaguin
+fil;Tibagan;Tibaguin
+fil;Tibalauon;Tebalawon
+fil;Tibalawon;Tebalawon
+fil;Tibac;Tibak
+fil;Tetay;Taytay
+ru;Тереза;Teresa
+fil;Tolbang;Telbang
+fil;Telapayung;Telapayong
+fil;Telabangca;Telabanca
+fil;Tebbo;Teb-bo
+fil;Tabu;Teb-bo
+ru;Тайтай;Taytay
+fil;Tayac;Tay-Ac
+tl;Lungsod ng Tayabas;Tayabas
+ru;Таябас;Tayabas
+fil;Tawl;Tawi
+fil;Tawin Tawin;Tawintawin
+fil;Tauinin;Tawini
+fil;Tavora;Tavora East
+fil;Tauit;Tawit
+fil;Taltaro;Tartaro
+fil;Tartarak;Tatarao
+fil;Tarlac;Tarlac City
+ru;Тарлак;Tarlac City
+fil;Tarece East;Tarece
+fil;Tarici;Tarece
+fil;Tarabucan;Tarabuscan
+fil;Tapulaw;Tapulao
+fil;Tapal;Tapel
+fil;Tapae;Tapa
+ja;タンザ;Tanza
+ru;Танза;Tanza
+de;Tanjay City;Tanjay
+ceb;Dakbayan sa Tanjay;Tanjay
+tl;Lungsod ng Tanjay;Tanjay
+fil;Tangib;Tangid
+fil;Tang-gaoan;Tangaoan
+fil;Tangcul;Tancul
+fil;Tangoul;Tancul
+fil;Tancaran;Tangcaran
+fil;Tangcarang;Tangcaran
+fil;Tangaoan;Langaoan
+fil;Tangadon;Tangadan
+fil;Tangado;Tangadan
+fil;Tangadan;Tamgadan
+de;Tandag City;Tandag
+ceb;Dakbayan sa Tandag;Tandag
+id;Kota Tandag;Tandag
+tl;Lungsod ng Tandag;Tandag
+ur;تانداگ;Tandag
+de;Tanauan City;Tanauan
+id;Kota Tanauan;Tanauan
+fil;Tanag Ilaya;Tanaag Ilaya
+fil;Stana;Tana
+fil;Tamulaya;Tamulaya-Anitong
+fil;Tamuja;Tumaja
+fil;Tamuco;Tamucco
+fil;Tamuca;Tamucco
+fil;Tampugo;Tampogo
+fil;Tampak I;Tampac Primero
+fil;Tampac;Tampac Primero
+fil;Tamoroog;Tamorong
+fil;Tamogong;Tamogon
+fil;Tamisu Real;Tamiso Real
+fil;Tamisu;Tamiso
+fil;Dimamaga and Tamdagan;Tamdagan
+fil;Tamboli;Tambuli
+fil;Tambogan;Tambugan
+fil;Tambañgao;Tambangao
+fil;Tambagato;Tambagat
+fil;Taubac;Tambac
+fil;Talugtug-bali;Talugtug
+fil;Talugtogbalite;Talugtug
+fil;Talogtog;Talugtug
+fil;San Isidro;Talugtug
+fil;Talugtog;Talugtug
+fil;Tologtog;Talogtog
+fil;Taloctoc;Talaktok
+fil;Dallag;Tallag
+ceb;Dakbayan sa Talisay;Talisay
+hi;तालिसय;Talisay
+zh-Hans;塔里萨伊;Talisay
+zh-Hant;塔利賽;Talisay
+ur;تالیسای;Talisay
+mr;टाळीसे;Talisay
+es;Talísay;Talisay
+ar;تاليساي;Talisay
+ja;タリサイ;Talisay
+ru;Талисей;Talisay
+bn;টালিসে;Talisay
+si;ටලිසේ;Talisay
+kn;ಟಾಲಿಸೇ;Talisay
+ko;탈리사이;Talisay
+ta;தாலிசெ;Talisay
+gu;ટાલીસે;Talisay
+te;తాలిసై;Talisay
+th;ทาลิเซย์;Talisay
+en;Talisay City;Talisay
+nl;Talisay City;Talisay
+fil;Bila’an;Talipao
+fil;Talipapa Sur;Talipapa
+fil;Talipapa;Talipapa Norte
+fil;Talinaan;Talingaan
+fil;Talimundoc;Talimundoc San Miguel
+fil;San Miguel;Talimundoc San Miguel
+fil;Talimpogo;Talimpago
+fil;Talibaeo;Talibaew
+fil;Talgo;Talgao
+fil;Taleb;Taled
+fil;Talboc;Talbok
+fil;Talatay;Talaytay
+ru;Талавера;Talavera
+fil;Talave;Hacienda Talave
+fil;Talanka;Talangka
+fil;Talahiban Dos;Talahiban II
+fil;Talahiban Uno;Talahiban I
+fil;Talagcot;Talangcot
+fil;Talabahan;Talabahan Anonang
+fil;Talaba;Talaba Primero
+fil;Tala;Taal
+de;Tagum City;Magugpo Poblacion
+es;Tágum;Magugpo Poblacion
+id;Tagum;Magugpo Poblacion
+ko;타굼;Magugpo Poblacion
+ur;تاگوم;Magugpo Poblacion
+hi;तागम;Magugpo Poblacion
+pt;Tagum;Magugpo Poblacion
+tet;Tagum;Magugpo Poblacion
+mr;तागुम;Magugpo Poblacion
+ms;Tagum;Magugpo Poblacion
+en;Tagum;Magugpo Poblacion
+it;Tagum;Magugpo Poblacion
+zh;塔古姆;Magugpo Poblacion
+ar;تاجوم;Magugpo Poblacion
+vi;Tagum;Magugpo Poblacion
+ja;タグム;Magugpo Poblacion
+nl;Tagum;Magugpo Poblacion
+ceb;Tagum;Magugpo Poblacion
+ru;Тагум;Magugpo Poblacion
+fr;Tagum;Magugpo Poblacion
+bn;টাগুম;Magugpo Poblacion
+jv;Tagum;Magugpo Poblacion
+si;ටගුම්;Magugpo Poblacion
+su;Tagum;Magugpo Poblacion
+kn;ಟ್ಯಾಗಮ್;Magugpo Poblacion
+ta;டாகும்;Magugpo Poblacion
+gu;ટાગમ;Magugpo Poblacion
+te;తాగం;Magugpo Poblacion
+th;ทากัม;Magugpo Poblacion
+tl;Tagum;Magugpo Poblacion
+tr;Tagum;Magugpo Poblacion
+fil;Tagulis;Tagulod
+en;Taniquiron;Tangiguiron
+fil;Tagum;Tagum Sur
+en;City of Taguig;Taguig
+ru;Тагиг;Taguig
+fil;Tag-ubi;Tag-ube
+fil;Tag Tagumbao;Tagtagumbao
+fil;Tag-ibo;Taguibo
+fil;Tagcawayan Ilaya;Tagkawayan Ilaya
+fil;Tagcawa;Tagkawa
+de;Tagbilaran;Tagbilaran City
+ceb;Dakbayan sa Tagbilaran;Tagbilaran City
+fil;Tagbilaran;Tagbilaran City
+ru;Тагбиларан;Tagbilaran City
+en;Tagbilaran;Tagbilaran City
+en;City of Tagbilaran;Tagbilaran City
+fil;Tagbacan Silangan;Tagbakan Silangan
+fil;Tagbacan;Tagbacan Ibaba
+ja;タガイタイ;Tagaytay
+ko;타가이타이;Tagaytay
+hi;तागेतै;Tagaytay
+zh-Hans;塔盖泰;Tagaytay
+zh-Hant;大雅臺;Tagaytay
+ur;تاجایتے;Tagaytay
+mr;टागाटेय;Tagaytay
+zh;塔蓋泰;Tagaytay
+ar;تاجايتاى;Tagaytay
+ru;Тагайтай;Tagaytay
+fr;Tagaïtaï;Tagaytay
+bn;তেগায়তে;Tagaytay
+si;ක්රිසිඋමා;Tagaytay
+kn;ತಗಾಯ್ಟೆ;Tagaytay
+ta;டகைடே;Tagaytay
+gu;ટાગાટેય;Tagaytay
+te;తగోతే;Tagaytay
+th;ตาไกไต;Tagaytay
+es;Taganaán;Tagana-an
+fil;Tagalog;Tagalag
+fil;Tagabas;Tayabas Ibaba
+fil;Tarlac;Tadlak
+de;Tacurong City;Tacurong
+id;Kota Tacurong;Tacurong
+ru;Такуронг;Tacurong
+fil;Tacondo;Taconda
+fil;Tacon;Taconda
+fil;Taclobo;Taclubo
+en;Tacloban City;Tacloban
+ceb;Dakbayan sa Tacloban;Tacloban
+nl;Tacloban City;Tacloban
+fa;تاکلوبان;Tacloban
+su;Dayeuh Tacloban;Tacloban
+tl;Lungsod ng Tacloban;Tacloban
+ja;タクロバン;Tacloban
+ms;Bandaraya Tacloban;Tacloban
+ko;타클로반;Tacloban
+th;ตักโลบัน;Tacloban
+gu;ટેક્લોબેન;Tacloban
+ar;تاكلوبان;Tacloban
+ru;Таклобан;Tacloban
+zh;独鲁万市;Tacloban
+ur;تاکلوبان;Tacloban
+id;Kota Tacloban;Tacloban
+fil;Tacbihan;Takbuhan
+fil;Tabuyod;Tabuyoc
+fil;Tabunok;Tabunoc
+de;Tabuk City;Tabuk
+id;Kota Tabuk;Tabuk
+ko;타부크;Tabuk
+ur;تبوک، فلپائن;Tabuk
+tl;Lungsod ng Tabuk;Tabuk
+ru;Табук;Tabuk
+fil;Sili;Tabo-Sili
+fil;Tabuc;Taboc
+fil;Tambionan;Tabionan
+fil;Tabia;Tabio
+fil;San Luis;Tabing Ilog
+fil;Tabagian;Tabigyan
+fil;Tadid;Tabid
+fil;Tabban;Taban
+fil;Tabayao;Tabayag
+fil;Tabango Dao;Tabangao Dao
+fil;Tabag;Tebag
+de;Tabaco City;Tabaco
+id;Kota Tabaco;Tabaco
+ja;タバコ市;Tabaco
+ko;타바코;Tabaco
+fil;Tabao;Taba-Ao
+ru;Таал;Taal
+fil;Baligo;Baliga
+fil;Suyo-Baligat;Baliga
+fil;Suyo;Baliga
+fil;Uzzadan;Suyo
+fil;Urzadan;Suyo
+fil;Sosobaun;Susubaen
+fil;Surngot;Santa Maria
+en;Surigao City;Surigao
+nl;Surigao City;Surigao
+ceb;Dakbayan sa Surigao;Surigao
+ja;スリガオ;Surigao
+ko;수리가오;Surigao
+tl;Lungsod ng Surigao;Surigao
+zh;苏里高;Surigao
+ru;Серигао Сити;Surigao
+fil;Surgui Segundo;Surgui Second
+fil;Surgui;Surgui First
+fil;Surgui;Sugut
+fil;Surcug;Surcoc
+es;Surala;Surallah
+fil;Sunggian;Sungiam
+fil;Sunggiam;Sungiam
+fil;Sang-an;Sung-an
+fil;Sungadan;Sungaden
+ru;Сумпонг;Sumpong
+es;Sumílao;Sumilao
+ja;スミラオ;Sumilao
+fil;Sumilang;Sumulong
+fil;Sumilahg;Sumalang
+fil;Sumag;Sumag Norte
+en;Sum-Ag;Sumag
+fil;Sumagar;Sumader
+fil;Sumadel 1;Sumadel
+fil;Sumadel I;Sumadel
+fil;Sumacab;Sumacab South
+fil;Solvec;Sulvec
+fil;Salvec;Sulvec
+ru;Султан-Кударат;Sultan Kudarat
+es;Sultán Kudarat;Sultan Kudarat
+ur;سلطان قدرت، ماگوئنداناؤ;Sultan Kudarat
+fil;Sulsuguin;Sulusguin
+fil;Sulsugin;Sulusguin
+fil;Suliban;Sulivan
+fil;Sulib;Solib
+fil;Sulac;Suloc
+fil;Suguidan Sur;Suguida Sur
+fil;Sugidan Sur;Suguida Sur
+fil;Sucsuquen;Sacsuquen
+fil;Sucsucquit;Suksuquit
+fil;Sucoc;Sucoc Sur
+fil;Sucoc;Sucoc Norte
+fil;Suclayin;Suklayin
+fil;Sibusob;Subusub
+fil;Subusob;Subusub
+fil;Subol;Sibul
+fil;Subic;Sulbec
+fil;Suwa;Sua
+fil;Soyon;Soyung
+fil;Soucud;Sucot
+ru;Сорсогон;Sorsogon
+fil;Soocan;Sogoan
+fil;Sonson;Sonson Ongkit
+fil;Sonok;Son-ok Uno
+fil;Son-ok I;Son-ok Uno
+fil;Soliyao;Ibabang Soliyao
+fil;Soledad Hacienda;Hacienda Soledad
+ru;Солано;Solano
+fil;Solano;Solana
+fil;Sogod;Sugod
+fil;Siwalo;Siuala
+en;Venice of the Philippines;Sitangkai
+fil;Baley na Sison;Sison
+fil;Sisim;Sisim Alto
+fil;Sipa;Sipa Proper
+fil;Sinulatan Segundo;Sinulatan Second
+fil;Sinulatan;Sinulatan First
+fil;Sintones;Sintanes
+fil;Sinipil;Sinippil
+fil;Sinipit-bubon;Sinipit Bubon
+fil;Sinpit;Sinipit
+fil;Sinipian;Sinipin
+fil;Sinilian;Sinilian Second
+fil;Sinilian;Sinilian First
+fil;Sinidman Oriental;Sinidlan Oriental
+fil;Sinidman Occidental;Sinidlan Occidental
+fil;Singayen;Singayan
+fil;Sinawiñgan;Sinawingan
+fil;Sinsajan;Sinasajan
+fil;Sinasahan;Sinasajan
+fil;Sinaman Sur;Sinamar Sur
+fil;Simayong;Simayung
+fil;Simaru;Simu
+fil;Simanu;Simanu Norte
+en;Silway Eight;Siway Ocho
+tl;Silway Walo;Siway Ocho
+en;Silway Seven;Silway 7
+tl;Silway Pito;Silway 7
+ceb;Dakbayan sa Silay;Silay
+tl;Lungsod ng Silay;Silay
+id;Kota Silay;Silay
+zh;錫萊市;Silay
+fil;Silawit;Sillawit
+fil;Silauan;Silawan
+fil;Silangan Cabubuhayan;Silangan Kabubuhayan
+fil;Cabubuhayan;Silangan Kabubuhayan
+fil;Silañgan;Silangan
+ru;Силанг;Silang
+fil;Siksikan;Sisikan
+fil;Si’it Lake;Siet-Lake Higado
+fil;Siguem;Siguesu
+fil;Siggug;Siggud
+fil;Sigaras;Cigaras
+fil;Segaras;Cigaras
+fil;Sidoran;Sidiran
+fil;Sideran;Sidiran
+fil;Sico Primero;Sico Uno
+fil;Sico I;Sico Uno
+ceb;Lungsod sa Sibulan;Sibulan
+tl;Bayan ng Sibulan;Sibulan
+fil;Sibul;Subol
+en;Sibul Springs;Sibul
+fil;Sibucaw;Sibucao
+fil;Sibsibo;Sibsibbo
+fil;Sibsibu;Sibsibbo
+fil;Sibsibbu;Sibsibbo
+fil;Sibsibbe;Sibsibbo
+fil;Sibbu;Siffu
+en;Central Sibaguan;Sibaguan
+ceb;Lungsod sa Siayan;Siayan
+fil;Si Ase;Siasi
+en;Municipality of Siasi;Siasi
+fil;Sexmoan;Sasmuan
+fil;Sasmoan;Sasmuan
+fil;Selken;Seroken
+fil;Sepung Bulaon;Sepung Bulaun
+fil;Senipsip;Sinipsip
+fil;Sinepsip;Sinipsip
+fil;Seneguelas;Cinequelas
+fil;Sebu;Lake Sebu
+fil;Zaitan;Saytan
+fil;Saitan;Saytan
+fil;Sasa;Hacienda Sasa
+ru;Сарангани;Sarangani
+fil;Saputan;Sapatan
+fil;Saptanao;Sapiagao
+fil;Sapangpalay;Sapang Palay
+fil;Sapang Maragol;Sapang Maragul
+fil;Sapangmaragul;Sapang Maragul
+fil;Kawayan;Sapang Kawayan
+fil;Sapangkawayan Segundo;Sapang Cawayan Segundo
+fil;Sapang Nouyayan;Sapang Kawayan
+fil;Sapang Nauayan;Sapang Kawayan
+fil;Sapang Cauayan;Sapang Kawayan
+fil;Cauayan;Sapang Kawayan
+fil;Sapang Cawayan;Sapang Kawayan
+fil;Sapang Caputatan;Capotatan
+fil;Caputatan;Capotatan
+fil;Sapang Balem;Sapang Balen
+fil;Sapangbalen;Sapang Balen
+fil;San Vincente;San Vicente
+fil;San Vicente Abra;San Vicente
+fil;San Vicente;San Vincente
+fil;San Vicente;San Vicente Sur
+fil;San Vicente;San Vicente Este
+fil;San Vicente;San Vicente Kanluran
+fil;San Vicente (Barrio 6);San Vicente
+fil;Santo Toribio;Santo Torribio
+fil;South Santo Tomas;Santo Tomas
+fil;North Santo Tomas;Santo Tomas
+fil;Santo Tomas;Santa Tomas
+fil;Santo Thomas;Santo Tomas
+fil;Santa Tomas;Santo Tomas
+fil;Santo Tomas Norte;Santo Tomas North
+ru;Санто-Томас;Santo Tomas
+fil;Santo Santiago;Santa Santiago
+fil;Santo Rosario Oeste;Santo Rosario West
+fil;Santo Rosario;Santo Rosario West
+fil;San Rosario;Santo Rosario
+fil;Santos;Santor
+fil;Faire;Santo Niño
+fil;Fraire;Santo Niño
+fil;Santo Inno;Santo Niño
+fil;Santol;Santor
+fil;Padayao;Santol
+ru;Сантол;Santol
+fil;Santor;Santol
+fil;Santa Filomena;Santa Filomina
+fil;Santo Filomena;Santa Filomina
+fil;Santo Domingo Norte;Santo Domingo
+es;Santo Domingo Norte;Santo Domingo
+fil;Santo Domingo;Santo Domingo First
+fil;Santa Domingo;Santo Domingo
+fil;Santisima Cruz Norte;Santisima Cruz
+ru;Сантиаго;Santiago
+fil;Santiago;Santiago Norte
+fil;Santa Teresa Segunda;Santa Teresa Second
+fil;Santa Teresa Secunda;Santa Teresa Second
+fil;Santa Teresa Primera;Santa Teresa First
+fil;Santa Teresa;Santa Teresa First
+fil;Santa Teresa;Santa Tereza
+fil;Santa Rosario;Santo Rosario
+fil;Santa Rosa;Santa Rosa Primera
+de;Santa Rosa City;Santa Rosa
+id;Kota Santa Rosa;Santa Rosa
+ru;Санта-Роса;Santa Rosa
+fil;Santa Rita;Santa Rita East
+fil;Santa Rita;San Rita East
+fil;Santa Rita;Santa Rita Matanda
+fil;Santa Maria;Santa Rita
+fil;Santa Paz;Santa Paz Norte
+fil;Santander;Santander Poblacion
+fil;San Monica;Santa Monica
+zh-Hans;圣塔梅莎区;Santa Mesa
+zh-Hant;聖塔梅莎區;Santa Mesa
+zh;聖梅沙;Santa Mesa
+ja;サンタメサ;Santa Mesa
+ru;Санта-Меса;Santa Mesa
+es;Santa María de Ilocos;Santa Maria
+es;Santa María;Santa Maria
+fil;Santa Magdalena;Santa Magdelena
+fil;Santa Lucla;Santa Lucia
+fil;Santa Lucia;Santa Lucia West
+fil;Santa Lucia;Santa Lucia Young
+fil;Santa Lucia;Cupang
+fil;Santa Lucia;Santa Lucia Wakas
+fil;Santa Lucia;Santa Lusia
+fil;Santa Isabela;Santa Isabel Norte
+fil;Santa Isabel;Santa Isabel Norte
+fil;Santa Isabel;San Isabel
+fil;Inez;Santa Ines
+fil;Santa Filomena;Hacienda Santa Filomena
+ur;سانتا فے، رومبلون;Santa Fe
+ur;سانتا فے، سیبو;Santa Fe
+fil;Santa Cruz;Santa Cruz Pambilog
+fil;Santa Cruz;Santa Cruz East
+ru;Санта-Крус;Santa Cruz
+ur;سانتا کروز، لاگونا;Santa Cruz
+ru;Санта Круз;Santa Cruz
+fil;Santa Cruz;Hacienda Santa Cruz
+fil;Santa Clara Malki;Santa Clara
+fil;Santa Catalina;Santa Catalina Bata
+fil;Santa Catalina;Santa Catalina Norte
+ceb;Lungsod sa Santa Catalina;Santa Catalina
+tl;Bayan ng Santa Catalina;Santa Catalina
+es;Santa Bárbara;Santa Barbara
+fil;Santa Ana;Santana
+ru;Санта-Ана;Santa Ana
+fil;San Joaquin;Santa Ana
+fil;San Simon;San Simon East
+fil;San Roque Hacienda;Hacienda San Roque
+fil;San Roque Dau;San Roque Dau First
+fil;San Roque;San Roque Dau First
+fil;San Roque Arbor;San Roque Arbol
+fil;San Roque;San Roque Arbol
+fil;San Rogue;San Roque
+fil;San Roque;San Roque Bitas
+fil;Bitas;San Roque Bitas
+fil;San Roque Labac;San Roque
+fil;San Roque;Ilayang San Roque
+fil;San Rogue;Ilayang San Roque
+fil;San Roga;San Roque
+en;San Rafael Western;San Rafael
+fil;San Rafael;San Rafael West
+fil;San Rafael;San Rafael East
+fil;San Rafael;Cabeseria Diecisiete y Veintiuno
+fil;San Rafael Baruya;Baruya
+fil;San Rafael Buruya;Baruya
+fil;San Rafael;Baruya
+fil;Songuil;Sonquil
+fil;San Policarpo;San Policarpio
+fil;San Pedro Segundo;San Pedro Secundo
+ru;Сан - Педро;San Pedro Apartado
+fil;San Pedro;San Pedro East
+fil;San Pedro;San Pedro Primero
+fil;San Pedro;San Pedro De Camuning
+fil;San Pedro Primero;San Pedro
+fil;San Pedaro Primero;San Pedro
+fil;San Pedro;San Pedro Saug
+ru;Сан-Педро;San Pedro
+ru;Сан - Педро;San Pedro One
+ru;Сан - Паскуаль;Lloren
+fil;San Pascual;Lloren
+ru;Сан - Паскуаль;San Pascual
+fil;San Pablo Segundo;San Pablo Second
+fil;San Pablo Primero;San Pablo First
+fil;San Pablo;San Pablo Libutad
+hi;सैन पाब्लो;San Pablo
+zh-Hans;圣巴勃罗;San Pablo
+ur;سن پابلو;San Pablo
+mr;सॅन पाब्लो;San Pablo
+zh;聖巴勃羅;San Pablo
+ar;سان بابلو;San Pablo
+ja;サン・パブロ;San Pablo
+ru;Сан-Пабло;San Pablo
+bn;সান পাব্লু;San Pablo
+si;සැන් පැබ්ලෝ;San Pablo
+kn;ಸ್ಯಾನ್ ಪಾಬ್ಲೊ;San Pablo
+ko;상파울로;San Pablo
+ta;சான்  பப்லோ;San Pablo
+gu;સેન પબ્લો;San Pablo
+te;సాన్ పాబ్లో;San Pablo
+th;ซานปาโบล;San Pablo
+ru;Сан - Пабло;San Pablo
+ceb;Lungsod sa San Pablo;San Pablo
+fil;San Pabio;San Pablo
+fil;San Nicolas Segundo;San Nicolas Second
+fil;San Nicolas;San Nicolas Second
+fil;San Nicolas Secundo;San Nicolas Second
+fil;San Nicolas Primero;San Nicolas First
+fil;San Nicolas;San Nicolas Balas
+fil;Bales;San Nicolas Balas
+fil;Balas;San Nicolas Balas
+es;San Nicolás de Ilocos;San Nicolas
+fil;San Nicolas;San Nicolas Primero
+fil;San Miguel Namunti;San Miguel na Munti
+fil;San Miguel Estate;San Miguel
+fil;New San Miguel;San Miguel
+ru;Сан - Мигель;San Miguel
+tl;Bayan ng San Miguel;San Miguel
+ru;Сан Матео;San Mateo
+fil;San Mariana;San Mariano
+fil;Angela;San Mariano
+tl;Bayan ng San Mariano;San Mariano
+fil;San Marcial;San Marclal
+fil;Callang;San Manuel
+es;San Manuel de Pangasinán;San Manuel
+fil;San Manuel;San Emmanuel
+fil;San Luis Hacienda;Hacienda San Luis
+fil;San Luis;San Luis Norte
+es;San Luis del Príncipe;San Luis
+ru;Сан - Луис;San Luis
+ceb;Lungsod sa San Luis;San Luis
+tl;Bayan ng San Luis;San Luis
+fil;San Julian West;San Julian
+fil;San Julian Norte;San Julian North
+fil;San Juan;San Juan West
+fil;San Juan Primero;San Juan
+fil;San Juan;San Juan Pambilog
+fil;San Juan;San Juan Nepomuceno
+fil;Nepomuceno;San Juan Nepomuceno
+fil;San Juan de Dios;San Juan
+fil;San Juan;San Juan Bautista
+fil;San Juan;San Juan East
+fil;Castro;San Juan
+fil;BaNo;San Juan
+en;San Juan City;San Juan
+ru;Сан-Хуан;San Juan
+fil;San Jaun;San Juan
+fil;San Jose Matulid;San Jose Matulio
+fil;San Jose Malino;Malino
+fil;San Jose Hacienda;Hacienda San Jose
+fil;Gumi;San Jose Gumi
+fil;San Josef;San Josef Sur
+fil;San Jose;San Josef
+de;San Jose del Monte City;San Jose del Monte
+es;San José del Monte;San Jose del Monte
+id;Kota San Jose del Monte;San Jose del Monte
+ko;산호세델몬테;San Jose del Monte
+tl;Lungsod ng San Jose del Monte;San Jose del Monte
+ru;Сан-Хосе-дель-Монте;San Jose del Monte
+fil;San Jose Balatok;Balatoc
+fil;San Jose;San Jose Apunan
+fil;San Jose;San Jose Sur
+es;San José;San Jose
+de;San Jose City;San Jose
+hi;सैन होसे;San Jose
+zh-Hans;圣荷西;San Jose
+ur;سن جوسی;San Jose
+mr;सॅन जोस;San Jose
+ar;سان خوسيه، الفلبين;San Jose
+ja;サンホセ;San Jose
+ru;Сан-Хосе;San Jose
+fr;San José;San Jose
+bn;সান হোসে;San Jose
+si;සැන් ජෝස්;San Jose
+kn;ಸ್ಯಾನ್ ಜೋಸ್;San Jose
+ko;산 호세;San Jose
+ta;சான்  ஜோஸ்;San Jose
+gu;સેન જોસ;San Jose
+te;శాన్ జోస్;San Jose
+th;ซาน โจซ;San Jose
+fil;San Jose;San Jose North
+fil;Tabaco;Tabacao
+fil;San Jose;Tabacao
+fil;Cabanlag;San Jose
+fil;San Jose;San Jose Mesulo
+fil;Mesulo;San Jose Mesulo
+fil;San Jos;San Jose
+fil;San Jose;New San Jose
+fil;San Jose;San Jose Sico
+ru;Сан Джосе;San Jose
+ko;산호세;San Jose
+ur;سان ہوزے دے بیوناویستا، اینٹیک;San Jose
+fil;San Jose (Barrio 7);San Jose
+fil;San Joaquin;San Joquin Norte
+fil;San Joaquin;San Juaquin
+fil;Sanjase;San Jose
+fil;San Isidro Malapit;San Isidro
+fil;San Isidro Laug;Laug
+fil;San Isidro;Laug
+fil;San Isidro;San Isidro Sur
+fil;Almendras;San Isidro
+fil;San Isidro;San Isidro de Bacolor
+fil;San Isidro;San Isidro Uno
+fil;San Isidro;San Isidro Kanluran
+fil;San Isidro;San Isidro Ibaba
+fil;Bayan ng San Isidro;San Isidro
+fil;Bungto san San isidro;San Isidro
+fil;Malabag;San Isidro
+fil;San Tldefonso;San Ildefonso
+fil;San Ignacio;San Ignacio Ibaba
+fil;Sangulong;Timbo (Sanggulong)
+fil;Sangoing;Timbo (Sanggulong)
+fil;San Gregorio;San Gregorja
+fil;San Gabriel;San Gabriel First
+fil;San Francisco;San Francisco Second
+fil;San Francisco del Monte;Del Monte
+ja;サン・フランシスコ・デル・モンテ;Del Monte
+tl;San Francisco del Monte;Del Monte
+en;San Francisco del Monte;Del Monte
+fil;San Francisco;San Francisco West
+ceb;Dakbayan sa San Fernando;San Fernando
+id;Kota San Fernando;San Fernando
+ja;サンフェルナンド;San Fernando
+ko;산페르난도;San Fernando
+tl;Lungsod ng San Fernando;San Fernando
+ru;Сан-Фернандо;San Fernando
+zh;圣费尔南多;San Fernando
+ur;سان فرنانڈو، لا یونین;San Fernando
+fil;Santo Rosario;San Fernando
+ur;سان فرنانڈو، پامپانگا;San Fernando
+en;San Fernando City;San Fernando
+ar;سان فرناندو;San Fernando
+kk;Сан-Фернандо;San Fernando
+ky;Сан-Фернандо;San Fernando
+hi;सैन फर्नांडो;San Fernando
+bn;সান ফার্নান্দো;San Fernando
+fa;سان فرناندو;San Fernando
+pa;ਸੈਨ ਫਰਨਾਂਡੋ;San Fernando
+ps;سان فرناندو;San Fernando
+tg;Сан-Фернандо;San Fernando
+ru;Сан - Фернандо;San Fernando
+fil;San Felipe;San Felipe Central
+fil;Santa Felipe;San Felipe
+fil;San Felipe;San Felipe Old
+fil;San Eutacio;San Eustacio
+fil;San Domingo;Santo Domingo
+fil;Sandiat Weste;Sandiat West
+fil;Sandiat;Sandiat Centro
+fil;San Celestino;San Celestio
+id;Kota San Carlos;San Carlos
+ja;サン・カルロス;San Carlos
+fil;San Bernardino;San Bernardo
+fil;San Benito;San Benito Norte
+fil;San Antonio Oeste;San Antonio Weste
+en;San Antonio West;San Antonio Weste
+fil;San Antonio;San Antonio Minit
+fil;San Antonio;Hacienda San Antonio
+fil;San Antonio;Centro - San Antonio
+fil;San Antonio;San Antonia
+fil;San Antonio;San Antonio South
+fil;San Andes;San Andres
+fil;San Alberto;Saan Alberto
+fil;San Agustin Hacienda;Hacienda San Agustin
+fil;San Agustin;San Angustin
+fil;San Agustin;San Agustin Norte
+fil;San Augustin;San Agustin
+fil;Sampot;Samput
+fil;Sampiro;San Piro
+fil;Sampalucan;Sampaloc
+fil;Sampal Oc;Sampaloc
+fil;Sampaloc;Sampalde
+fil;Sambuñgan;Sambungan
+ru;Самал;Samal
+de;Island Garden City of Samal;Samal
+es;Sámal;Samal
+id;Kota Samal;Samal
+fil;Salvador Primero;Salvador
+fil;Salvacion Segunda;Salvacion II
+fil;Salvacion Primera;Salvacion I
+fil;Salvacion;Salvacion I
+fil;Salvacion Hacienda;Hacienda Salvacion
+fil;Saloysoy;Saluysoy
+fil;Salosoy;Saluysoy
+fil;Sulu;Salu
+fil;Salomague;Solomague
+fil;Salamague;Solomague
+fil;Salamaque;Salumague
+fil;Salomague;Salumague
+fil;Subusub;Sal-lapadan
+fil;Salinungan;Salinungan Proper
+fil;Salinongan;Salinungan Proper
+fil;Salindig;Salindeg
+fil;Salincob;Salincub
+fil;Salabante;Salavante
+fil;Salapuñngan;Salapungan
+fil;Salamagui;Calamagui
+fil;Salomagui;Calamagui
+fil;Salomague;Salamague
+fil;Salumague;Salamague
+fil;Salomagui;Salamague
+fil;Salakot;Salacot
+fil;Salacan;Salakan
+en;St. Bernard;Saint Bernard
+fil;Sagundo;Sagunto
+fil;Sagud Baley;Sagud-Bahley
+fil;Saguba;Sagubo
+ur;سگبیاں ، بوھول;Sagbayan
+de;Sagay City;Sagay
+id;Kota Sagay;Sagay
+ur;سگے، نیگروس وکڈینٹل;Sagay
+fil;Susana;Sagana
+fil;Sagal;Sagat
+fil;Sacasacan;Sadanga
+fil;Saksak;Sacsac
+fil;Saklit;Daneo Saklit
+fil;Saclit;Daneo Saklit
+fil;Sacarao;Sacara
+fil;Sacaang;Sacang
+fil;Sabangan;Sabnangan
+fil;Sablogon;Sablagon
+fil;Sabblan;Cabeseria Veintidós
+fil;Sabahganr;Sabangan
+fil;Rupagan;Ropagan
+ru;Рохас;Roxas City
+fa;روکساس;Roxas
+fil;Rotunda;Rotonda
+es;Rosario de La Unión;Rosario
+en;Rosario West;Rosario
+ru;Росарио;Rosario
+es;Rosales de Pangasinán;Rosales
+ru;Ромблон;Romblon
+es;Romblón;Romblon
+ko;롬블론;Romblon
+ur;رومبلون، رومبلون;Romblon
+fil;Rizal;Liwan
+fil;Rizal;Cadoog
+fil;Codoog;Cadoog
+fil;Rizal;Riza
+ru;Ризал;Rizal
+fil;Rizel;Rizal
+fil;Nazaret;Rizal
+fil;Rivadavia;Rivadivia
+fil;Rimos;Rimus
+fil;Reyna Regente;Reina Regente
+fil;Reina Regenta;Reina Regente
+fil;Remedios;Remedios I
+fil;Remedio;Remedios
+fil;Reina Mercedes;Reina Mercedes Viejo
+fil;Reina Mercedes Nuevo;Reina Mercedes
+fil;Rauis;Rawis
+fil;Raraburan;Raraboran
+fil;Rawis;Raois
+fil;Rangayan;Rang-ayan
+fil;Rangay;Rang-ay
+fil;Ramos;Ramos West
+fil;Bani;Ramos
+ceb;Lungsod sa Ramon Magsaysay;Ramon Magsaysay
+ru;Рамон;Ramon
+fil;Quioeng;Gueweng
+fil;Quinauigan;Quinawegan
+fil;Quinaoigan;Quinawegan
+fil;Guinawegan;Quinawegan
+fil;Kinatihan Primero;Kinatihan Uno
+fil;Quinatacutan;Kinatakutan
+fil;Quimalabasa;Quinalabasa
+fil;Quiña Hacienda;Hacienda Quiña
+fil;Quinagasan;Kinagasan
+fil;Quinabontoc;Kinabundok
+fil;Quinabalayangan;Quinabalayangan Sanga-an
+fil;Quimpusa;Kimposa
+fil;Quimloang;Quimlo-Ong
+fil;Quimalabasa;Quimallabasa
+fil;Quimalabass Sur;Quimalabasa Sur
+fil;Quimalabass Norte;Quimalabasa Norte
+fil;Quilib;Kilib
+fil;Quibalita;Quibadia
+fil;Quibadra;Quibadia
+ru;Кесон-Сити;Quezon City
+fil;Quezon;Quezon City
+fil;Lungsod Quezon;Quezon City
+de;Quezon-Stadt;Quezon City
+es;Ciudad Quezon;Quezon City
+zh;奎松市;Quezon City
+es;Quezón;Quezon
+ru;Кесон-Сити;Quezon
+ru;Кесон;Quezon
+fil;Quermay;Kirmay
+fil;Quensoriano;Quinsoriano
+fil;Quenquibol;Quenguibal
+fil;Quenfermin;Ken Fermin
+fil;Puto;Pute
+fil;Puto;Puta
+fil;Putting Buhangin;Puting Buhangin
+fil;Puspus;Pus Pus
+fil;Puro;Poro
+ru;Порач;Purac
+fil;Puntingkahoy;Puting Kahoy
+fil;Punta;Paddaya
+fil;Punta Paddaya;Paddaya
+fil;Punong;Ponong
+fil;Pungtod;Pangtod
+fil;Pulong Santol;Pulung Santol
+fil;Balunsantol;Pulung Santol
+fil;Pulung-Mababa;Pulung Maba
+fil;Pulong Cacutud;Pulungcacutud
+fil;Pulungbulu;Pulung Bulu
+fil;Pulpugan;Pulpogan
+fil;Yantoc;Pulong Yantok
+fil;Santa Cruz;Pulong Santa Cruz
+ru;Пулонг Санта Круз;Pulong Santa Cruz
+fil;Pulong Sampaloc;Pulong Sampalok
+fil;Pulong Sampoloc;Pulong Sampalok
+en;Polongniogan;Pulong Niogan
+fil;Pulang Buhangin;Pulong Buhangin
+en;Pulonganahao;Pulong Anahao
+fil;Pulog;Polog
+fil;Polong;Polog
+fil;Polo;Pulo
+ru;Пулилан;Pulilan
+fil;Pug-os;Pug-os West
+fil;Pugos;Pug-os East
+fil;Puguit;Puguil
+fil;Pugil;Puguil
+fil;Pugadbabuy;Pugadbaboy
+en;Puerto Princesa City;Puerto Princesa
+nl;Puerto Princesa City;Puerto Princesa
+tl;Lungsod ng Puerto Princesa;Puerto Princesa
+zh-TW;普林塞薩港;Puerto Princesa
+ceb;Dakbayan sa Puerto Princesa;Puerto Princesa
+fa;پورتوپرنسس;Puerto Princesa
+ja;プエルト・プリンセサ;Puerto Princesa
+ko;푸에르토프린세사;Puerto Princesa
+ru;Пуэрто-Принсеса;Puerto Princesa
+zh;普林塞薩港;Puerto Princesa
+ar;بورتوبرنسس;Puerto Princesa
+id;Kota Puerto Princesa;Puerto Princesa
+ur;پویرتو پرنسیسا;Puerto Princesa
+en;Pudoc West;Pudoc
+fil;Puctol;Poctol
+ar;بروسبريداد;Prosperidad
+fa;پروسپریداد;Prosperidad
+ko;프로스페리다드;Prosperidad
+ur;پروسپریداد، اگوسان جنوبی;Prosperidad
+fil;Prenza;Prinza
+fil;Prado;Prado Siongco
+es;Pozorrubio de Pangasinán;Pozorrubio
+fil;Puting-Bato;Poting Bato
+fil;Porter Hacienda;Hacienda Porter
+fil;Poroc;Puroc
+fil;Puroc;Poroc
+ru;Порач;Porac
+fil;Popolon;Popolon Pagas
+fil;Populon;Popolon Pagas
+fil;Pooc;Pooc Segundo
+fil;Pooc;Pook
+fil;Pook;Pooc
+fil;Ponpong;Pong Pong
+fil;Panglon;Ponglo-Muelag
+fil;Pondohanng Pare;Pondohanng
+fil;Ponao;Punao
+fil;Pollot;Pulot
+fil;Polvt;Pulot
+fil;Polot;Pulot
+fil;Polong;Polong Norte
+fil;Polongniogan;Polong Niogan
+fil;Polo Ibaba;Ibabang Polo
+fil;Polo;Bolo
+fil;Polo;Lobo
+fil;Pagonisili;Pogonsili
+fil;Pogon;Pogon-Lomboy
+fil;Pogo;Poblacion-Pugao
+fil;Plaza Luma;Plazang Luma
+fil;Plateros;Platero
+fil;Placiscado;Plastado
+fil;Plasangluma;Plaza Luma
+vi;Pandi;Plaridel
+ru;Пларидел;Plaridel
+fil;Pitwan;Patawan
+fil;Pitongbayog;Pitombayog
+fil;Pitnor;Pintor
+fil;Pitawan;Pitwan
+fil;Pitao;Pit-ao
+fil;Pintog;Bintog
+fil;Pinopoe;Pinopoc
+fil;Pimmilapil;Pinmilapil
+fil;Pingan;Pinggan
+fil;Pindangan Seguñdo;Pindangan Second
+fil;Pindañgan;Pindangan First
+fil;Pindangan;Pindangan Centro
+fil;Pipanganacan;Pinanganakan
+es;Pinamalayán;Pinamalayan
+fil;Pinalapatan;Pinaglapatan
+fil;Pinalaccan;Pinalacan
+fil;Pinakpinakan;Pinacpinacan
+fil;Pinelands;Piñahan
+fil;Pinagtubigan Oeste;Pinagtubigan Weste
+fil;Pinagtongolan;Pinagtongulan
+fil;Pingtongulan;Pinagtongulan
+fil;Pinagsanghan;Pinagsangahan
+fil;San Sebastian;Pinagsangahan
+fil;Pinaglaput;Pinaglaputan
+fil;Pinaglabrahan;Naglabrahan
+fil;Pinagcawitan;Pinagkawitan
+fil;Pinagbalasianan;Pinagcalabasianan
+fil;PeNafrancia;Piñafrancia
+fil;PiNa;Ilayang Pina
+fil;Pilpila;Pilpita
+ru;Пили;Pili
+fil;Pilar-Baybay;Pilar
+fil;Pilary;Pilar
+fil;Balioag;Pilar
+ru;Пилы;Pila
+fil;Picallion;Picaleon
+fil;Pikaleon;Picaleon
+fil;Pico Leon;Picaleon
+fil;Pigatan;Piggatan
+fil;Piducal;Pidducal
+fil;Pidding;Piddig
+fil;Pias;Piaz
+fil;Pias-Pias;Pias
+fil;Pero;Peru
+en;Pangal North;Pangal Norte
+fil;Pengan;Pangal Norte
+ru;Пеньяранда;Peñaranda
+fil;Pamienta;Pemienta
+fil;Pelio Abajo;Pilig Abajo
+fil;Paz;Hacienda Paz
+fil;Payupay;Papaya
+fil;Payuek;Paykek
+fil;Payquek;Paykek
+fil;Payquec;Paykek
+fil;Paytan;Paitan
+fil;Payo;Paye
+fil;Payi;Paye
+fil;Pagatas;Payatas
+fil;Payes;Payas
+fil;Payagan;Payagan West
+fil;Pau;Pao
+fil;Patucannay;Patucannay Tayum
+fil;Patroconio;Patrocinio
+fil;Patrocinic;Patrocinio
+fil;Patok;Patoc
+fil;Patnanungan Sur;Patnanongan South
+fil;Patnanungan Norte;Patnanongan North
+fil;Bayan ng Pateros;Pateros
+fil;Pataynalog;Pataynailog
+fil;Patayak;Patayac
+fil;Patanat;Patanad
+fil;Patand;Patanad
+fil;Patad;Patid
+fil;Patakbo;Patacbo
+fil;Pasungol;Pasongol
+fil;Passis;Pacis
+fil;Pasong Kallos;Psong Kallos
+fil;Pasong Kalios;Psong Kallos
+fil;Pasong Callos;Psong Kallos
+fil;Pasong Insik;Pasong Intsik
+fil;Pasong Bangkal;Pasong Callos
+fil;Pasnadan;Pasnaan
+fil;Pasing;Pasig
+fil;Paselong;Pasiling
+ru;Пасай;Pasay
+fil;Pasaqui;Pasagui
+fil;Paruddan Sur;Paruddun Sur
+fil;Barrio Paruddun Sur;Paruddun Sur
+fil;Paruddan Norte;Paruddun Norte
+fil;Barrio Paruddun Norte;Paruddun Norte
+fil;Parnaso Hacienda;Hacienda Parnaso
+fil;Paritang;Paratong Norte
+fil;Parioc;Parioc Primero
+fil;Paret;Pared
+fil;Paratong;Paratong Norte
+fil;Paratang;Paratong Norte
+fil;Paratong;Paratong Sur
+fil;Paraton;Paratong Sur
+fil;Paratang;Paratong
+fil;Parigayos;Paraoir
+fil;Paranun;Paranum
+fil;Parang;Parang Parang
+ru;Паранакуе;Paranaque City
+fil;Parahoto;Parat-oto
+fil;General Tinio;Papaya
+tl;Bayan ng Heneral Tinio;Papaya
+fil;Papaya;Papapa
+fil;Pao;Pao Third
+en;Pao;Pao Second
+fil;Panyabatan;Penabatan
+fil;Pantay Sebugo;Pantay
+fil;Pantayin;Pantain
+fil;Panlasin;Panlasian
+ru;Паники;Paniqui
+fil;Panipuan San Fernando;Panipuan
+fil;Paniquen Hacienda;Panikion
+fil;Paniki;Paniqui
+fil;Pangpang;Pampang
+ceb;Lungsod sa Panglao;Panglao
+tl;Bayan ng Panglao;Panglao
+fil;Pangjulo;Panghulo
+fil;Pasolo;Panghulo
+fil;Panjolo;Panghulo
+fil;Pangjolo;Panghulo
+fil;Pangbula;Panghulo
+fil;Pangatlon;Pangatlan
+fil;Pañgantoon;Pangantoon
+fil;Pangal;Pangal Sur
+ru;Панда;Pandi
+fil;Pandayan;Pandan
+fil;Pandakaki;Pandacaqui
+ru;Пандачан;Pandacan
+ja;パンダカン;Pandacan
+zh;潘達坎區;Pandacan
+fil;Panar Sumagui;Panar
+fil;Panapaan;Panapaan Segundo
+fil;Panalonan;Panalanan
+ru;Паналаной;Panalanoy
+fil;Panaksak;Panacsac
+fil;Panaco;Panacol
+de;Panabo City;Panabo
+hi;पानाबो;Panabo
+zh-Hans;巴拿波;Panabo
+ur;پانابو;Panabo
+mr;पानबो;Panabo
+ar;بانابو;Panabo
+ja;パナボ;Panabo
+ru;Панабо;Panabo
+bn;পানাবো;Panabo
+si;පැනබෝ;Panabo
+kn;ಪನಾಬೋ;Panabo
+ko;파나보;Panabo
+ta;பனோபா;Panabo
+gu;પેનાબો;Panabo
+te;పానాబో;Panabo
+th;ปานาโบ;Panabo
+fil;Panpano;Pampano
+fil;Pamogijan;Pamagijan
+fil;PamangpaNgin;Pamanpangin
+fil;Pamacdacan;Pamacpacan
+fil;Pallutan;Palutan
+fil;Palusag;Palusao
+fil;Paludpod;Paludpud
+fil;PalsabaNgon Ilaya;Palsabangan
+fil;PalsabaNgon Ibaba;Palsabangan
+fil;Paliweg;Paliueg
+fil;Palitao;Politao
+fil;Palingowac;Palingowak
+fil;PaliNgon;Paglingon
+fil;Palinang;Patinang
+fil;Palilian;Palihan
+fil;Paligauan;Paligawan
+fil;Paligpigan;Palicpican
+fil;Palugyog;Palguyod
+fil;Palguyog;Palguyod
+de;Palayan;Palayan City
+hi;पलायन;Palayan City
+pt;Palayan;Palayan City
+zh-Hans;帕拉扬;Palayan City
+id;Palayan;Palayan City
+ur;پالایان;Palayan City
+tet;Palayan;Palayan City
+mr;पालयन;Palayan City
+ms;Palayan;Palayan City
+en;Palayan;Palayan City
+it;Palayan;Palayan City
+es;Palayan;Palayan City
+ar;بالايان;Palayan City
+vi;Palayan;Palayan City
+ja;パラヤン;Palayan City
+nl;Palayan;Palayan City
+ceb;Palayan;Palayan City
+ru;Палаян;Palayan City
+fr;Palayan;Palayan City
+bn;পালায়ান;Palayan City
+jv;Palayan;Palayan City
+si;පලයන්;Palayan City
+su;Palayan;Palayan City
+kn;ಪಲಾಯನ;Palayan City
+ko;팔라얀;Palayan City
+ta;பாளையன்;Palayan City
+gu;પલાયન;Palayan City
+te;పలయన్;Palayan City
+th;ปาลายางัน;Palayan City
+tl;Palayan;Palayan City
+tr;Palayan;Palayan City
+fil;Pallattao;Palattao
+fil;Palasa-an;Palasan
+fil;Palapas;Palaspas
+fil;Palapar;Palapar Sur
+fil;Palapalang;Palapala
+fil;Pala Palang Bata;Palapala
+fil;Palanoc;Palanco
+fil;Palang Sur;Palang
+fil;Palang Norte;Palang
+fil;Planan;Palanan
+fil;Palanas;Palampas
+fil;Palale Ibabang Canluran;Palale Ibaba
+fil;Palahanan Primero;Palahanan Uno
+fil;Palahanan I;Palahanan Uno
+fil;Palagao;Palagao Norte
+fil;Palaisan;Palacian
+fil;Palasian;Palacian
+fil;Pakitan;Paktan
+fil;Paitan;Paitan Sur
+fil;Paitan;Paitan Norte
+fil;Paxenheim;Pagsanjan
+fil;Pagsangan;Pagsannag
+fil;Pagsanahgn;Pagsanahan Norte
+fil;Pagsana-an;Pagsanahan Norte
+fil;PagoliNgin;Pagulingin
+fil;Pagago;Pagogo
+fil;Paquetpet;Pagipit
+fil;Paguetpet;Pagipit
+fil;Pagga;Dagga
+tl;Bayan ng Pagbilao;Pagbilao
+fil;Pagbanqueruan;Pagbangkeruan
+fil;Pagbahgkeruan;Pagbangkeruan
+fil;Pag-Aguasan;Pagaguasan
+fil;Lungsod ng Pagad;Pagadian
+ru;Пагадиан;Pagadian
+ar;باجاديان;Pagadian
+kk;Пагадиан;Pagadian
+ky;Пагадиан;Pagadian
+hi;पागाडियान;Pagadian
+bn;পাগাদিয়ান;Pagadian
+ur;پاگادیان;Pagadian
+fa;پاگادیان;Pagadian
+ja;パガディアン;Pagadian
+pa;ਪਾਗਾਡੀਆਨ;Pagadian
+ps;پاګادیان;Pagadian
+tg;Пагадиан;Pagadian
+fil;Padol;Padul
+fil;Padugan;Pudong
+fil;Padong;Pudong
+fil;Padu Chico;Paduchico
+fil;Padre Herrera;Herrera Ilaya
+fil;Padre Burgos;Ibabang Burgos
+fil;Padaya;Paddaya
+fil;Paddaoan;Paddawan
+fil;Padayao-Dirdirg;Padayao
+fil;Paday;Peday
+fil;Pacoroman;Paco Roman
+fil;Paca;Paco
+fil;Pacawol;Pakawol
+fil;Pacawal;Pakawol
+fil;Pacaten;Ibabang Pacatin
+fil;Pacpaca;Pacpaco
+fil;Pacapaca;Pacpaco
+fil;Pakalag;Pacalag
+fil;Pacac New;Pacac-Pequeño
+fil;Pacac;Pacac-Grande
+fil;Ozamis;Ozamiz City
+ru;Озамис;Ozamiz City
+en;Ozamiz;Ozamiz City
+fil;Misamis;Ozamiz City
+fil;Bulakay;Ozamiz City
+fil;Oyo;Oya
+fil;Uso;Oso
+fil;Oscaris;Oscariz
+fil;Osariz;Oscariz
+id;Kota Oroquieta;Oroquieta
+ja;オロキエタ;Oroquieta
+ko;오로키에타;Oroquieta
+ur;اوروکوئیتا;Oroquieta
+en;Ormoc City;Ormoc
+ceb;Dakbayan sa Ormoc;Ormoc
+nl;Ormoc City;Ormoc
+ja;オルモック;Ormoc
+ko;오르모크;Ormoc
+tl;Lungsod ng Ormoc;Ormoc
+fa;اورموک;Ormoc
+id;Kota Ormoc;Ormoc
+ur;اورموک;Ormoc
+ru;Ормок;Ormoc
+ru;Орион;Orion
+fil;Orense;Orence
+fil;Oguendo;Oquendo
+fil;Oplis;Oples
+fil;Oogong;Ugong
+fil;Omagueb;Omagit
+fil;Olo-olo;Olo-Olo Norte
+es;Olóngapo;Olongapo
+en;Olongapo City;Olongapo
+nl;Olongapo City;Olongapo
+fil;Lungsod ng Olongapo;Olongapo
+ceb;Dakbayan sa Olongapo;Olongapo
+ko;올롱가포;Olongapo
+ms;Bandaraya Olongapo;Olongapo
+tl;Lungsod ng Olongapo;Olongapo
+zh;奥隆阿波;Olongapo
+id;Kota Olongapo;Olongapo
+ur;اولونگاپو;Olongapo
+ru;Олонгапо;Olongapo
+fil;Olo;Olo Cacamposan
+fil;Old San Pablo;San Pablo
+fil;San Mariano;Old San Mariano
+fil;Angela;Old San Mariano
+fil;Old Centro;Old Central
+fil;Udtongan;Ogtongon
+fil;Ugbac;Ogbac
+fil;Ogbak;Ogbac
+fil;Oeste San Vicente;Oeste - A
+fil;Ocup;Ocop
+fil;Obual;Obuat
+fil;Obrero;Obrevo
+fil;Obod;Obad
+fil;Oayangan;Dayangan
+fil;Novaliches;Novaliches Proper
+fil;Norzugaray;Norzagaray
+tl;Bayan ng Norzagaray;Norzagaray
+ru;Норзагарай;Norzagaray
+fil;North Calikid;Kalikid Norte
+fil;North Calqued;Kalikid Norte
+fil;Niugay;Niugan
+fil;Niyogan;Niogan
+fil;Bocotan;Nipaco
+en;Nilombot Golden;Nilombot
+fil;Nilombo;Nilombot
+fil;Nilogon;Nilocon
+fil;Nilasin;Nilasin Second
+fil;Nilasin Segundo;Nilasin Second
+fil;Nilasin;Nilasin First
+fil;Nilasin Primero;Nilasin First
+fil;Niig;Niing
+fil;Nibalio;Nibaliw Central
+fil;Nibaliw;Nibaliw Central
+fil;Ngina;Naina
+fil;Ngepin;Ngipan
+fil;Ngarap;Ngarag
+fil;Ngagan;Nagan
+fil;Nagbanab;Ngabangab
+fil;Sagay City;New Sagay
+fil;Ynemmatan;Nemmatan
+fil;Lungsod ng Navotas;Navotas
+ru;Навотас;Navotas
+fil;Nabaling;Navaling
+fil;Naval Hacienda;Hacienda Nava
+es;Nauján;Naujan
+tl;Bayan ng Naujan;Naujan
+fil;Natba;Naibo
+fil;Natapian;Nattapian
+fil;Natappian;Nattapian
+fil;Nagsirugan;Nassirucan
+fil;Nassaping;Nassiping
+fil;Narabonan;Narapunan
+fil;Nappangan;Nanappatan Sur
+fil;Nappaccu Pequeño;Napaccu Pequeño
+fil;Pequeño;Napaccu Pequeño
+fil;Nappaccu Grande;Napaccu Grande
+fil;Nappaceu Grande;Napaccu Grande
+fil;Napnapan;Napnapon
+fil;Napayeo;Napaiao
+fil;Napaset;Napaset Sur
+fil;Napaset;Napaset Norte
+fil;Napapatid;Kanluran Napapatid
+fil;Naoal;Nawal
+fil;Nananguran;Nanungaran
+fil;Natangalan;Nantangalan
+fil;Nangobongan;Nagobongan
+fil;Nangobungan;Nagobongan
+fil;Nangnungan;Naganacan
+fil;Nangka;Nangka-I
+fil;Nang-guyudan;Nanguyudan
+fil;Nangca Ilaya;Ilayang Nangka
+fil;Nangca;Nangka
+fil;Nagalisan;Nangalisan
+fil;Nangalinan;Mangalinan
+fil;Nangalasuan;Nangalisan
+fil;Nangalasaoan;Nangalisan
+fil;Nangalasauan;Nangalisan
+fil;Nangabulan;Nangbulan
+fil;Nancng;Naneng
+fil;Nancamaliran;Nancamaliran West
+fil;Nancalabasaan;Nancalobasaan
+fil;Nanauatan;Nanawatan
+fil;Manangduan;Nanangduan
+fil;Namuroc;Namoroc
+fil;Nanpalcan;Nampalacan
+fil;Nampalcan;Nampalacan
+fil;Namanitan;Namonitan
+fil;Ammabocan;Amobocan
+fil;Namobocan;Amobocan
+fil;Namipucan;Nampicuan
+fil;Nambucayan;Mambucayan
+fil;Nambaban;Nambalan
+fil;Nalvo;Nalvo Norte
+fil;Old Angadanan;Nalubbunan
+fil;Nallubunan;Nalubbunan
+fil;Nalituck;Malituek
+fil;Nalasin;Nalasin Sur
+en;Nailon;Nahilun
+fil;Naiba;Namita
+fil;Nagyebngan;Nagyebngar
+fil;Naguilian;Naguillian
+fil;Naguilian;Naguilian Sur
+fil;Naguillian;Naguilian
+fil;Naguilan;Naguilian
+fil;Naguihan;Naguilian
+fil;Naguilaryan;Naguilayan
+fil;Naguilayan;Naguilayan East
+fil;Nagtupocan;Nagtopacan
+fil;Nagtupacan;Nagtopacan
+fil;Nagtapacan;Nagtupacan
+fil;Nagtalabungan;Nagtalobungan
+fil;Masiliaram;Nagserialan
+fil;Nagsabaran;Nagsabaran Sur
+fil;Nagabaran Norte;Nagsabaran Norte
+fil;Nagsabaran;Nagsabaran Norte
+fil;Nagrumboan;Nagrumbuan
+fil;Nagrebcan;Nagrebean
+fil;Nagranan;Nagurayan
+fil;Nagmisaan;Nagmisahan
+fil;Naglaoaan;Naglaoa-An
+fil;Nagbuquel;Nagbukel
+fil;Nagbalayan ni Aquinaldo;Nagbalayan Aguinaldo
+fil;Nagbalayan ni Aguinaldo;Nagbalayan Aguinaldo
+fil;Nagbakalan;Nagbacalan
+fil;Nagbabacalan;Nagbabacalan Norte
+fil;Nagaparan;Nagapran
+fil;Nagaparap;Nagapran
+fil;Nagallatan;Nagalatan
+ru;Наги;Naga
+fil;Lungsod ng Naga;Naga
+ceb;Dakbayan sa Naga;Naga
+ja;ナガ;Naga
+ko;나가;Naga
+tl;Lungsod ng Naga;Naga
+id;Kota Naga;Naga
+ur;ناگا، کامارینز جنوبی;Naga
+de;Naga City;Naga
+ur;ناگا، سیبو;Naga
+ru;Нага;Naga
+fil;Nacampegan;Nagcampegan
+ur;نابونتوران، وادی کومپوستیلا;Nabunturan
+fil;Nabannagan;Nabannagan West
+fil;Nabuangan;Nabannagan West
+fil;Nabbotoan;Nabbotuan
+fil;Nabbayugan;Mabbayugan
+fil;Nabbalayan;Nabbabalayan
+fil;Nabbatayan;Nabbabalayan
+fil;Nabariongan;Abariongan Ruar
+fil;Nabaong Garlan;Nabaong Garlang
+fil;Muson;Muzon
+fil;Luzon;Muzon
+fil;Musimut;Masimut
+fil;Morong;Murong
+ru;Мурикай;Muricay
+fil;Muntingtubig;Munting Tubig
+en;City of Muntinlupa;Muntinlupa
+ru;Мунтинлупа;Muntinlupa
+fil;Muntingilog;Munting Ilog
+fil;Muñoz;Muñoz East
+fil;Munling Cawayan;Munting Kawayan
+fil;Mongo;Mungo
+fil;Mungayang;Mangayang
+tl;Bayan ng Mulanay;Mulanay
+fil;Tamuradi;Mudiit
+fil;Muding;Mudeng
+fil;Modeng;Mudeng
+fil;Magdong;Mudeng
+en;Mukas;Mucas
+fil;Marong;Morong
+ru;Моронг;Morong
+fil;Mariones;Moriones
+fil;Moras;Moros
+fil;Montes;Montes Balaon
+fil;Montano;Montaña
+fil;Montanibong;Mantanibong
+ru;Родригес;Rodriguez
+fil;Montalban;Rodriguez
+es;Rodríguez;Rodriguez
+zh;罗德里格斯;Rodriguez
+fil;Mongabong;Mongabon
+fil;Mancada;Moncada
+fil;Manato;Monato
+fil;Loctob;Molopolo
+fil;Mujun;Mojon
+fil;Mopog;Mogpog
+fil;Media Once;Modia Once
+fil;Mitla;Mitia Proper
+fil;Misua;Miswa
+fil;Mision;Mission
+fil;Binuyan;Minuyan
+fil;Minuluang;Hacienda Minuluan
+fil;Minarac;Minare
+fil;Minante II;Minante Segundo
+fil;Minante;Minante Segundo
+fil;Izon;Minanga Sur
+fil;Minanga;Minanga Norte
+fil;Wangag;Batangan
+fil;Minanga de Wangag;Minanga
+fil;Minanga;Minanga Proper
+fil;Minaga;Minanga Proper
+fil;Minalungan;Minalungao
+fil;Minabbag;Minagbag
+fil;Malibili;Milibili
+ru;Мидсаяп;Midsayap
+ceb;Lungsod sa Midsalip;Midsalip
+tl;Bayan ng Midsalip;Midsalip
+id;Miag-ao;Miagao
+vi;Miag-ao;Miagao
+fil;Mayto;Meyto
+fil;Mayita;Meyto
+fil;Mesulao;Meysulao
+de;Meycauayan City;Meycauayan
+id;Kota Meycauayan;Meycauayan
+ur;میئکاوایان;Meycauayan
+ru;Мейкауайан;Meycauayan
+es;México;Mexico
+fil;Mercedes Hacienda;Hacienda Mercedes
+fil;Maytalang;Maytalang Number One
+fil;Maytalang No. 1;Maytalang Number One
+fil;Maysilo Estate;Maysilo
+fil;Maynganay Sur;Mainganay Sur
+fil;Mainganay;Mainganay Sur
+fil;Maynganay Norte;Mainganay Norte
+fil;Maymanga;Maymangga
+fil;Maylit;Mayit
+fil;Mayet;Mayit
+fil;Maybangcal;Maybancal
+fil;Maybangkal;Maybancal
+fil;Mayapyap;Mayapyap Norte
+fil;Mayaposi;Mayapusi
+fil;Mayaoyao;Mayoyao
+fil;Mayamot;Mayamot Primero
+fil;Mayabay;Mabaay
+fil;Maxingul;Maxingal
+fil;Bulen;Maxillay
+en;Maura Number Five;Maura
+fil;Barrio Maura;Maura
+fil;Maulawin;Maulanin
+fil;Molauin;Maulanin
+fil;Maulauin;Maulanin
+fil;Maugat;Maugat West
+tl;Bayan ng Mauban;Mauban
+fil;Mauacat;Mawacal
+fil;Matoyatoya;Matuyatuya
+fil;Matusalela;Matusalem
+fil;Matulid;San Jose Matulid
+fil;Matubag;Matubog
+fil;Matobato;Malobato
+fil;Matinguis;Matingkis
+fil;Matinquis;Matingkis
+fil;Matinobo;Matinabo
+fil;Matimbabong;Matimbubong
+fil;Matimbobong;Matimbubong
+fil;Matiktik;Matictic
+fil;Matikiw;Matiquio
+ru;Мати;Mati
+de;Mati City;Mati
+id;Kota Mati;Mati
+ur;ماتی، داوائو شرقی;Mati
+zh;馬蒂;Mati
+fil;Matayuanac;Mataywanac
+fil;Matayungcab;Matayumcab
+fil;Matayuncab;Matayumcab
+fil;Matapitap;Matalapitap
+fil;Matandang Sabang;Matandang Sabang Silangan
+fil;Matanag;Matana
+ceb;Lungsod sa Matalam;Matalam
+tl;Bayan ng Matalam;Matalam
+fil;Matagden;Matagdem
+fil;Mataas na Pangpang;Mataas na Pampang
+fil;Mataas na Kahox;Mataas na Kahoy
+fil;Mataas Na Kahey;Mataas na Kahoy
+fil;Masundang;Masablang
+fil;Masudang;Masablang
+fil;Massau;Masao
+fil;Masac;Masoc
+fil;Maslog;Maslong
+fil;Masipi;Masipi West
+fil;Nagcurata;Masintoc
+fil;Masiit;Masiit Na Bato
+fil;Maslit;Masiit Na Bato
+fil;Masera Malayo;Massera Malayo
+fil;Masiil-siil;Maseil-seil
+fil;Masel-Seil;Maseil-seil
+ru;Масбате;Masbate
+fil;Massaya Sur;Masaya Sur
+fil;Masayya;Masaya Norte
+fil;Masaya;Masaya Centro
+fil;Masayya;Masaya Centro
+fil;Masaya Intermedio;Masaya Centro
+fil;Nasang Sang;Masangsang
+fil;Masalukot;Masalukot Uno
+fil;Masalukot I;Masalukot Uno
+fil;Masalokot;Masalocot
+fil;Mansalipit;Masalipit
+fil;Masaguise;Masaguisi
+fil;Marongco;Marungko
+fil;Marungco;Marungko
+fil;Marubbob;Marobbob
+fil;Maruaya;Maruayo
+fil;Morozo;Marozo
+fil;Maronquillo;Maronguillo
+fil;Maranong;Maronong
+ru;Маривелес;Mariveles
+fil;Mariroc;Miliroc
+ru;Марилао;Marilao
+fil;Marikina;Marikina City
+ru;Марикина;Marikina City
+tl;Bayan ng Marihatag;Marihatag
+fil;Marikaban;Maricaban
+en;Maricaban;Marikaban
+fil;Margaay;Nargaay
+fil;Marga;Morga
+fil;Biding;Marcos
+fil;Marayquit;Maraykit
+fil;Islamic City of Marawi;Marawi City
+ru;Марави;Marawi City
+fil;Marauoy;Maraudy
+fil;Marasat Pepueño;Marasat Pequeño
+fil;Marasat;Marasat Pequeño
+fil;Marasat;Marasat Grande
+fil;Marana;Marana I
+ru;Марамаг;Maramag
+fil;Maragandon;Maragondon
+fil;Maragayap;Maragayap West
+fil;Marado;Morado
+fil;Mara Cury;Maracuru
+fil;Marracuru;Maracuru
+fil;Marabulig;Marabulig Primero
+fil;Mapurok;Mapuroc
+fil;Mapolo Polo;Mapolopolo
+fil;Mapitpida;Mapitpita
+fil;Mapanpang;Mapangpang
+fil;Mapaloxia;Mapalacsiao
+fil;Maoay;Maoay South
+fil;Maoay Sur;Maoay South
+fil;Mawaswas;Maoasoas Norte
+fil;Mauasuas;Maoasoas Norte
+fil;Maoasoas;Maoasoas Norte
+fil;Mantopngan;Mantoengan
+ru;Мантампай;Mantampay
+ru;Мансилинган;Mansilingan
+es;Maluko;Manolo Fortich
+ru;Маноло Фортич;Manolo Fortich
+ru;Манок-Манок;Manoc-Manoc
+fil;Manocmanoc;Manoc-Manoc
+fil;Manoc;Mamoc
+fil;Manlocahoc;Manlucahoc
+ar;مانيلا;Manila
+fr;Manille;Manila
+ja;マニラ;Manila
+ko;마닐라;Manila
+nl;Manilla;Manila
+ru;Манила;Manila
+ta;மணிலா;Manila
+th;มะนิลา;Manila
+tl;Maynila;Manila
+ug;مانىلا;Manila
+bn;ম্যানিলা;Manila
+tg;Манила;Manila
+th;มนิลา;Manila
+fa;مانیل;Manila
+ceb;Dakbayan sa Manila;Manila
+mr;मनिला;Manila
+my;မနီလာမြို့;Manila
+hi;मनीला;Manila
+si;මැනිලා;Manila
+bo;མ་ནི་ལ།;Manila
+kn;ಮನಿಲ;Manila
+en;City of Manila;Manila
+fil;Lungsod ng Maynila;Manila
+fil;Maynila;Manila
+zh;馬尼拉;Manila
+zh-TW;馬尼拉;Manila
+en;Manila City;Manila
+fil;Manibaug;Manibaug Pasig
+fil;Manguzmana;Manguzkana
+fil;Mango Lago;Mangolago
+fil;Mangnao;Mangnoo
+fil;Nangino;Mangino
+fil;Mangayan;Mangayang
+fil;Manganip;Mangarip
+fil;Mangandingay;Mangandiway
+fil;Mangandampay;Manggan-Dampay
+fil;Mangalayan;Manggalayan Labak
+fil;Manga;Mangga-Cacutud
+fil;Manga;Mangga
+fil;Mandog;Mandoog
+fil;Lungsod ng Mandaue;Mandaue City
+ru;Мандауэ;Mandaue City
+fil;Mandaluyong;Mandaluyong City
+de;Mandaluyong;Mandaluyong City
+hi;मंडलुयोंग;Mandaluyong City
+pt;Mandaluyong;Mandaluyong City
+zh-Hant;曼達盧永;Mandaluyong City
+id;Mandaluyong;Mandaluyong City
+ur;ماندالویونگ;Mandaluyong City
+tet;Mandaluyong;Mandaluyong City
+mr;मंडल्युयॉंग;Mandaluyong City
+ms;Mandaluyong;Mandaluyong City
+en;Mandaluyong;Mandaluyong City
+it;Mandaluyong;Mandaluyong City
+es;Mandalúyong;Mandaluyong City
+zh;曼达卢永市;Mandaluyong City
+ar;ماندالويونغ;Mandaluyong City
+vi;Mandaluyong;Mandaluyong City
+ja;マンダルヨン;Mandaluyong City
+nl;Mandaluyong;Mandaluyong City
+ceb;Mandaluyong;Mandaluyong City
+ru;Мандалуионг;Mandaluyong City
+fr;Mandaluyong;Mandaluyong City
+bn;ম্যান্ডালুং;Mandaluyong City
+jv;Mandaluyong;Mandaluyong City
+si;මණ්ඩලුයෝන්ග්;Mandaluyong City
+su;Mandaluyong;Mandaluyong City
+kn;ಮಾಂಡಲೂಯಿಂಗ್;Mandaluyong City
+ko;만달루용;Mandaluyong City
+ta;மண்டலுயோங்;Mandaluyong City
+gu;મંડલુયોંગ;Mandaluyong City
+te;మండాలుయోంగ్;Mandaluyong City
+th;มันดาลูยอง;Mandaluyong City
+tl;Mandaluyong;Mandaluyong City
+tr;Mandaluyong;Mandaluyong City
+fil;Mancuram;Mangcuram
+fil;Mancayan;Mankayan
+ceb;Lungsod sa Manay;Manay
+tl;Bayan ng Manay;Manay
+fil;Manatad;Mapalad
+fil;Malapad;Mapalad
+fil;Manaquem;Manakem
+fil;Manaol;Maanbal
+fil;Manaul;Manaol
+fil;Manool;Manaol
+fil;Manaog;Manaoag
+fil;Manangol;Marangol
+fil;Nanambong;Manambong Parte
+fil;Manabuc;Manaboc
+fil;Manabac;Manaboc
+fil;Mamunit;Mamonit
+fil;Mampolia;Mampella
+fil;Mambug Sur;Mambug
+fil;Mambog;Mambug
+fil;Mambiranan Pequeño;Mamberanan Pequeño
+fil;Mamberanan Grande;Mambaranan
+fil;Mambiranan Grande;Mamberanan Grande
+fil;Nambarao;Mambarao
+fil;Mambangan;Mambangnan
+fil;Mamatod;Mamatad
+fil;Malusak;Malusac
+fil;Malupac;Malupak
+fil;Maluno;Maluno Sur
+fil;Malunoc;Malunec
+fil;Malumnim;Malummin
+fil;Malummin;Malumin
+fil;Maluesod;Malucusod
+fil;Malucsod;Malucusod
+fil;Malta;Maite
+fil;Malpitig;Malpitic
+de;Malolos City;Malolos
+ceb;Dakbayan sa Malolos;Malolos
+id;Malolos City;Malolos
+ko;말롤로스;Malolos
+tl;Lungsod ng Malolos;Malolos
+ru;Малолос;Malolos
+fil;Bayan ng Mallig;Mallig
+fil;Mallonga;Mallango
+fil;Mallalatang Tungui;Mallalatang Tunggui
+fil;Mallalatang;Mallalatang Grande
+fil;Mallalatan;Mallalatang Grande
+fil;Mallatany;Mallalatang Grande
+fil;Maliwalin;Maliwaliw
+fil;Maleualeu;Maliwaliw
+fil;Balinatio;Maliwaliw
+fil;Maleualer;Maliwaliw
+fil;Malitoa;Malitao
+ur;مالیتا، داوائو غربی;Malita
+ru;Малита;Malita
+fil;Malisbog Hacienda;Hacienda Malisbog
+en;Maliplipit West;Malipipit Oeste
+en;Maliplipit Weste;Malipipit Oeste
+fil;Maliplipit Oeste;Malipipit Oeste
+fil;Maliplipit;Maliplinit
+fil;Malipamgang;Malipampang
+fil;Malipangpang;Malipampang
+fil;Malinao;Oranbo Malinao
+fil;Malimpec;Malimpec East
+fil;Malimpuec;Malimpec
+fil;Maliksi;Maliksi Segunda
+fil;Maligaya;Kanlurang Maligaya
+fil;Malibong West;Malibong
+fil;Malayo;Malayo Norte
+de;Malaybalay City;Malaybalay
+ceb;Dakbayan sa Malaybalay;Malaybalay
+id;Kota Malaybalay;Malaybalay
+ko;말라이발라이;Malaybalay
+tl;Lungsod ng Malaybalay;Malaybalay
+ru;Малайбалай;Malaybalay
+ur;مالایبالائی;Malaybalay
+fil;Malayatoc;Malayantoc
+fil;Malayantok;Malayantoc
+fil;Malaya (Borrio 9);Malaya
+fil;Malaoa;Malawa
+fil;Malatique;Malitigui
+fil;Malatag;Maiatoy
+fil;Malatoy;Maiatoy
+fil;Malasian;Malasin
+ceb;Lungsod sa Malapatan;Malapatan
+tl;Bayan ng Malapatan;Malapatan
+ceb;Lungsud sa Malangas;Malangas
+fil;Bayan ng Malangas;Malangas
+fil;Municipio de Malangas;Malangas
+fil;Malandog;Malandoc
+fil;Malunay;Malanay
+fil;Casicallan;Malanao
+fil;Malamag;Malamag West
+fil;Malallabu;Malallabo
+fil;Milalinta;Malalinta
+fil;Malalamb;Malalamba
+ceb;Lungsod sa Malalag;Malalag
+tl;Bayan ng Malalag;Malalag
+fil;Malagonglong;Maagonlong
+fil;Malacañan;Malacañang
+fil;Malacabibi;Malacabbibi
+fil;Malabo;Santo Rosario
+ru;Малабон;Malabon
+fil;Malabog;Malobog
+fil;Malablabbaga;Malabbaga
+fil;Malablabaan;Malabbaga
+fil;Malabanban;Malabanban Norte
+fil;Malabago;Malibago
+fil;Mala;Mala Weste
+fil;Makati;Makali
+en;Makati;Makati City
+ru;Макати;Makati City
+fil;Majada;Majada Labas
+fil;Majabta;Majabra
+fil;Maitin;Maitim
+fil;Mairok;Mairok Ibaba
+fil;Mairok;Mairok Ilaya
+fil;Mailum;Mallum
+ru;Маилаг;Mailag
+fil;Mahabang Dahilig;Mahabang Dahalig
+fil;Magur;Magun
+fil;Magungunnay;Magungunay
+fil;Maguiling;Maguilling
+fil;Maguig;Maguing
+fil;Mag-ubay;Mabuhay
+fil;Magtangale;Magtangali
+fil;Magtaquing;Magtaking
+fil;Ragen Sur;Magsaysay
+fil;Ragan Sur;Magsaysay
+fil;Delfin Albano;Magsaysay
+fil;Magnwang;Magnuang
+fil;Muglavis;Maglaoi
+fil;MadlandoNgan;Madlangdungan
+fil;MaglandoNgan;Madlangdungan
+fil;Maggock;Maggok
+fil;Maggayu;Santa Visitacion
+fil;Magapaa;Magapua
+fil;Magandingay;Mangandingay
+fil;Magalan;Magalang
+fil;Magalalab;Magalalag
+fil;Magababa;Magababo
+ur;میڈویا;Maduya
+fil;Madupayas;Madypayas
+fil;Madiangat;Madianga
+fil;Maddiangat;Madianga
+fil;Pinappagan;Maddela
+fil;Pinapayan;Maddela
+fil;Maddarulog;Maddarulug Norte
+fil;Maddarulug;Maddarulug Norte
+fil;Maddamim;Maddamin
+fil;Madalipay;Madaliday
+ur;میکروہون، سدرن لییٹی;Macrohon
+fil;Macical;Masical
+fil;Macdu;Macdo
+fil;Mayog;Macayug
+fil;Macayag;Macayug
+fil;Macatel;Macate
+fil;Macatal;Macatel
+fil;Macatcalait;Macatcatuit
+fil;Macalal;Macatal
+fil;Macawayan;Macaoayan
+fil;Macalva;Macalva Norte
+fil;Makalong;Macalong
+tl;Bayan ng Macalelon;Macalelon
+fil;Macalawat;Macalauat
+fil;Macalaoat;Macalauat
+fil;Macalaot;Macalaoat
+fil;Macallana;Macalenna
+fil;Macalanna;Macalenna
+fil;Macalamcam;Macalamcam A
+fil;Macabobane;Macabobone
+fil;Macabachay;Macabaclay
+fil;Mabutal;Mabuttal East
+fil;Mabuttal;Mabuttal East
+fil;Mabusan;Mabusag
+fil;Mabucayan;Namuccayan
+fil;Mabuambuan;Mabuanbuan
+fil;Mabongtot;Mabungtot
+fil;Mabongtot;Mabontot
+fil;Mabongot;Mabontot
+fil;Mobolo;Mabolo
+ur;مابینی، پانگاسینان;Mabini
+fil;Mabin;Mabini
+fil;Mabini;Mabini Ilaya
+fil;Mabini;Mabini Ibaba
+fil;Mabilang;Mabeling
+fil;Mabec;Mabecbecan
+en;Mabalacat;Mabalacat City
+nl;Mabalacat;Mabalacat City
+fil;Mabalacat;Mabalacat City
+ru;Мабалакат;Mabalacat City
+fil;Mapaina;Mabaina
+fil;Mabacon;Mabacong
+de;Maasin City;Maasin
+id;Kota Maasin;Maasin
+th;มาอาซีน;Maasin
+ur;مآسین;Maasin
+en;City of Maasin;Maasin
+fil;Maasim;Maasin
+fil;Maasin;Maasim
+fil;Marsim;Maasim
+ceb;Lungsod sa Maasim;Maasim
+tl;Bayan ng Maasim;Maasim
+fil;Maas-Asin;Maasasin
+fil;Ma-ao;Maao
+fil;Luzong Sur;Lusong
+fil;Luzong;Lusong
+fil;Luyo;Luya
+fil;Lutang;Tullang
+fil;Lutab;Kabayan
+fil;Lusoc;Lusok
+fil;Lupin;Lupni
+fil;Lungsoddaan;Lungsodaan
+fil;Puna;Luna
+fil;Antatet;Luna
+fil;Luna;Luna Weste
+fil;Lumban;Lumbang
+fil;Lumbak;Lumbac
+fil;Lumbas;Lumbad
+fil;Luluno;Lul-Lono
+fil;Lul-luna;Lul-Lono
+fil;Lukban;Lucban
+fil;Luksuhin;Lucsuhin
+fil;Luciente;Luciente Uno
+en;Lucena City;Lucena
+nl;Lucena City;Lucena
+ceb;Dakbayan sa Lucena;Lucena
+ko;루세나;Lucena
+tl;Lungsod ng Lucena;Lucena
+ru;Лусена;Lucena
+zh;卢塞纳;Lucena
+id;Kota Lucena;Lucena
+ur;لوسینا، فلپائن;Lucena
+fil;Lubo-ong;Lubu-Ong
+fil;Loboong;Lubu-Ong
+fil;Lobcong;Lubu-Ong
+fil;Laboong;Lubu-Ong
+fil;Lubnec;Lubnac
+fil;Luba;Bangkagan
+ru;Лос-Баньос;Los Baños
+ceb;Lungsod sa Loreto;Loreto
+tl;Bayan ng Loreto;Loreto
+fil;Look;Looc
+fil;Looe;Looc
+fil;Looc;Lo-oc
+fil;Loobac;Loubac
+fil;Loabao;Loubac
+fil;Lonsa;Longa
+fil;Lonoy;Lonoy Roma
+fil;Longsob;Longsub
+fil;Langus;Longos
+fil;Longboy;Lomboy
+fil;Loqueb;Loqueb Este
+fil;Lucanin;Lokanin
+fil;Loctob;Luctob
+fil;Lobit;Lubec
+fil;Llanos;Llano
+fil;Lianos;Llano
+fil;Llang;Liang
+fil;Llaban Llongot;Llaban Ilongot
+fil;Liwanay (Barrio 1);Liwanay
+fil;Liuan;Liwan
+fil;Livan;Liwan
+fil;Liputen;Lipoten
+fil;Lipnit;Lipit
+fil;Lipata;Tungib-Lipata
+ru;Липа;Lipa City
+fil;Lipa;Lipa City
+fil;Linumut;Linomot
+fil;Linmanzangan;Linmansangan
+fil;Lingaling;Lingelin
+fil;Linatiran;Linateran
+tl;Bayan ng Linapacan;San Miguel
+fil;Olinao;Linao
+ru;Линабо;Linabo
+fil;Poblacion;Liloan
+fil;Liloan;Liloan Norte
+fil;Liliw;Lilio
+fil;Lilia;Lilia I
+fil;Lingsay;Ligsay
+fil;Ligas;Ligas Primero
+fil;Licaon;Licaong
+fil;Liby;Libi
+en;Libucan East;Libucan Dacu
+fil;Liblong;Libtong
+fil;Lebtang;Libtong
+fil;Libong;Lobong
+fil;Libnaoan;Lignaoan
+fil;Libo;Libjo
+fil;Libjo;Libho
+fil;Liberlad;Libertad
+ru;Либертад;Libertad
+fil;Liaong;Lioang
+ar;ليتة;Leyte
+fil;Lewen;Lewin
+fil;Lettac Sur;Lettac
+fil;Leseb;Lisseb
+fil;Lesseb;Lisseb
+fil;Lepanto;Lipanto
+fil;Lepanan;Lapanan
+fil;Leones;Leones East
+fil;Lenon;Lenzon
+fil;Lenec;Lennec
+fil;Lennga;Lenga
+fil;Lamu;Lemu
+fil;Legazpi;Legaspi
+en;Legaspi City;Legaspi
+en;Legazpi City;Legaspi
+en;Legazpi;Legaspi
+ru;Легаспи;Legaspi
+fil;Layagon;Layagan
+fil;Lawan Kupana;Lawang Kupang
+fil;Lawangkupang;Laungcupang
+fil;Lawangcupang;Laungcupang
+fil;Langubang;Laungcupang
+fil;Lawagin;Lawaguin
+fil;Lawa-an;Lawaan
+fil;San Estaban;Laur
+fil;Lauang;Alawang
+fil;Luuag;Alawang
+fil;Lettu;Lattut
+fil;Lattu;Lattut
+ru;Ла-Тринидад;La Trinidad
+ko;라트리니다드;La Trinidad
+ur;لا ٹرینیڈاڈ، بینگیت;La Trinidad
+fil;Latorre;La Torre
+fil;Lataban Number 1;Lataban
+fil;Lataban No. 1;Lataban
+ru;Лас Пинас;Las Piñas
+en;Laslasong West;Laslasong
+fil;Larion Altu;Larion Alto
+fil;Larion;Larion Alto
+fil;Lareglareg;Lareg-Lareg
+fil;Lana;Lara
+fil;La Paz;Rizaluna
+fil;Lapuz;Rizaluna
+fil;Lapug;Laput
+ceb;Dakbayan sa Lapu-Lapu;Lapu-Lapu City
+ja;ラプ＝ラプ市;Lapu-Lapu City
+zh;拉普拉普市;Lapu-Lapu City
+ru;Лапу-Лапу;Lapu-Lapu City
+fil;Lappuacan;Littuacan
+fil;Barangay Lapogan;Lapogan
+fil;La Paz Este;La Paz
+ru;Ла-Пас;La Paz
+ceb;Lungsod sa La Paz;La Paz
+fil;Lapu Primero;Lapu First
+fil;Lapak;Lapu First
+fil;Lapacan;Lapacan Norte
+fil;Laoingen;Lao-Ingen
+zh;佬沃;Laoag
+ru;Лаоаг;Laoag
+ja;ラオアグ;Laoag
+ko;라오아그;Laoag
+bo;ལའོ་ཨག;Laoag
+ceb;Dakbayan sa Laoag;Laoag
+id;Laoag City;Laoag
+tl;Lungsod ng Laoag;Laoag
+id;Kota Laoag;Laoag
+ur;لاواگ;Laoag
+fil;Laoac Oeste;Laoac West
+fil;Laoac;Laoac West
+fil;Laoac;Laoac East
+fil;Laoak Este;Laoac East
+es;Lantapán;Lantapan
+fil;Lana;Lanna
+fil;Lamma;Lanna
+fil;Lanupca;Lanipga
+fil;Lañgoyon;Langyon
+fil;Langoyan;Lang-Ayan
+fil;Langayan;Langayen
+fil;Langas;Langgas
+fil;Lancuay;Lancuas
+fil;Lanag;Lanang
+en;Lamesang Bato;Lamesa
+fil;Lalog;Lalog Uno
+fil;Lal-loc;Lal-lo
+ceb;Lungsod sa Lakewood;Rancheria Payau
+tl;Bayan ng Lakewood;Rancheria Payau
+fil;Abilla;Lake Abilla
+ru;Лагуитас;Laguitas
+fil;Lagilayan;Laguilayan
+fil;Lagandit;Langandit
+fil;Lagalit;Lagatit
+fil;La Fortuna;Fortuna
+fil;Lacbauan;Lacbayon
+ru;Ла-Карлота;La Carlota
+ur;لا کارلوٹا;La Carlota
+hi;ला कार्लोटा;La Carlota
+zh-Hans;拉卡洛塔;La Carlota
+mr;ला कार्लोटा;La Carlota
+ar;لا كارلوتا;La Carlota
+ja;ラ・カルロータ;La Carlota
+bn;লা কার্লোট্যাঁ;La Carlota
+si;ලා කාර්ලොටා;La Carlota
+kn;ಲಾ ಕಾರ್ಲೋಟಾ;La Carlota
+ko;라 칼로타;La Carlota
+ta;ல  கார்லோடா;La Carlota
+gu;લા કાર્લોટા;La Carlota
+te;లా కార్లోటా;La Carlota
+th;ลา คาโลต้า;La Carlota
+fil;Kalakab;Lacab
+fil;Labuyao;Labayow
+fil;Labut;Labut Sur
+fil;Labit;Labit Proper
+fil;Libenab Pequeño;Labinab Pequeño
+fil;Labinab;Labinab Pequeño
+fil;Labeien;Labian
+fil;Labbang;Lubong
+ceb;Lungsod sa Labanga;Labangan
+fil;Lagangilang;Laang
+fil;Kupang;Cupang
+fil;Kumalodkod;Kumaludkod
+fil;Kulawit;Kalawit
+fil;Kolasi;Kulasi
+fil;Kudog;Cudog
+fil;Codog;Cudog
+de;Koronadal City;Koronadal
+id;Kota Koronadal;Koronadal
+ko;코로나달;Koronadal
+ta;கொரொனடால்;Koronadal
+ur;کورونادال;Koronadal
+zh;科罗纳达尔;Koronadal
+ru;Корона́даль;Koronadal
+ar;كورونادال;Koronadal
+kk;Коронадаль;Koronadal
+ky;Коронадаль;Koronadal
+bn;কোরোনাডাল;Koronadal
+fa;کرونادال;Koronadal
+ja;コロナダル;Koronadal
+pa;ਕੋਰੋਨਾਡਲ;Koronadal
+ps;کورونادال;Koronadal
+tg;Коронадаль;Koronadal
+fil;Coloong;Koloong
+fil;Cal-ong;Koloong
+fil;Kolalo;Kolato
+fil;Lumit;Kling
+fil;Kitakita;Kita Kita
+fil;Kitab;Kittag
+fil;Kinoguitan;Quinoguitan
+fil;Kinga;Kingo
+fil;Kinaviti;Kinabiti
+fil;Kinamatayang Kabayo;King Kabayo
+fil;Kinamatoyang Kabayo;King Kabayo
+ru;Киналансан;Kinalansan
+fil;Kinablañgan;Kinablangan
+fil;Kinabaclasan;Knabaclasan
+fil;Kay Mate;Kimate
+fil;Kiloloron;Kiloloran
+fil;Kili;Quili
+fil;Kigtan;Kigton
+id;Kota Kidapawan;Kidapawan
+ko;키다파완;Kidapawan
+ur;کیداپاوان;Kidapawan
+ru;Кидапаван;Kidapawan
+fil;Kimbunyan;Kibungan
+fil;Kiboar;Quibuar
+fil;Keñatin;Keñatan
+fil;Kay Riapay;Kariapay
+fil;Riapay;Kariapay
+fil;Kay Bamban;Kaybanban
+fil;Cayapa;Kayapa
+fil;Kawiñgis;Kawingis
+fil;Kawayan;Cawayan
+fil;Katulinan;Catulinan
+fil;Katucdaan;Catuodaan
+fil;Kato;Cato
+fil;Katangtang;Catangtang
+fil;Katambongan;Catambungan
+fil;Catambugan;Catambungan
+fil;Casibu;Kasibu
+fil;Karusiquis;Karusikis
+en;Caromatan;Sultan Naga Dimaporo
+ceb;Lungsod sa Sultan Naga Dimaporo;Sultan Naga Dimaporo
+fil;Bayan ng Sultan Naga Dimaporo;Sultan Naga Dimaporo
+fil;Karakitan;Karikitan
+fil;Kaputikan;Caputican
+fil;Kaputatan Munti;Caputican
+fil;Capinatan;Kapinatan
+fil;Capanatan;Kapinatan
+fil;Kaparangan;Caparangan
+fil;Kapalong;Capalong
+fil;Cantotaroy;Cantolaroy
+fil;Kongkong;Kangkong
+fil;Kanalate;Canalate
+en;Canbantug;Kambantug
+fil;Kambalohan;Kambatohan
+fil;Kamandiison;Camandiison
+fil;Calumsing;Kalumsing
+fil;Kalinga;Union Kalinga
+en;Kalibo Town;Kalibo
+es;Pueblo de Calivo;Kalibo
+ru;Калибо;Kalibo
+ko;칼리보;Kalibo
+fil;Calawitan;Kalawitan
+fil;Kalasumanga;Calasumanga
+fil;Kalasag;Calasag
+fil;Kalao;Katao
+fil;KalaNgay;Calangay
+fil;Calaguiman;West Calaguiman
+fil;Kalabasa;Kalabaza
+fil;Kakarsi;Karkarsi
+fil;Kacarsil;Karkarsi
+fil;Kaingin;Caingin
+fil;Caingin;Kaingin
+fil;Kagaluan;Cagaloan
+fil;Cagaluan;Cagaloan
+es;Kandingilán;Kadingilan
+fil;Kabuyao;Kubuyao
+ur;کابوگاؤ، اپایاؤ;Kabugao
+fil;Cabuanan;Kabuanan
+ru;Кабанкалан;Kabankalan
+fil;Kabacnang;Kabaknan
+fil;Jurisdiccion;Jurisdiction
+fil;Turisdiccion;Jurisdiccion
+fil;Junob;Janub
+fil;Jumagicjic;Humagikhik
+fil;Joyo;Joya
+ceb;Lungsod sa Josefina;Josefina
+tl;Bayan ng Josefina;Josefina
+fil;Jongo Ilaya;Ilaya Hongo
+fil;Cabanuangan;Jones
+ru;Джоли;Jolo
+es;Joló;Jolo
+ja;ホロ;Jolo
+ko;홀로;Jolo
+ru;Холо;Jolo
+ur;جولو، سولو;Jolo
+es;Jiménez de Misamis;Jimenez
+fil;Jimnez;Jimenez
+fil;Jimenes;Jimenez
+fil;Jimbubulo;Himbolo Weste
+en;Getafe;Jetafe
+ceb;Getafe;Jetafe
+nl;Getafe;Jetafe
+fil;Jayopag;Hayupag
+es;Jamán;Jasaan
+ur;جسان، مسمس ورئیینٹل;Jasaan
+fil;Janopol;Hanopol
+ur;جانے، الویلو;Janiuay
+fil;Jandayan;Jandayan Norte
+fil;Jamoyawon;Kangcohoy
+fil;Jagakhakin;Hagakhakin
+ru;Хаэн;Jaen
+fil;Jabangan;Uabangan
+ur;اسولان، سلطان قدرت;Isulan
+ru;Исулан;Isulan
+fil;Isabel Hacienda;Hacienda Isabela
+ru;Изабела;Isabela
+fil;Ururulong;Irorolong
+fil;Iriga;Iriga City
+ru;Ирига;Iriga City
+fil;Iquican;Iguican
+fil;Calabasan;Ipo
+fil;Ipil Pequeño;Quezon
+fil;Ipil Pegueño;Quezon
+fil;Ipil Grande;Ipil
+fil;Inobangan;Inabongan
+fil;Inmandoyan;Inmanduyan
+fil;Inlolopez;Interlopez
+fil;Inlamut;Inlamud
+fil;Indonacion;Donacion
+fil;Inayauan;Inauayan
+fil;Inuayan;Inawayan
+fil;Inamutan;Inamotan
+fil;Inagusan;Inagawan
+fil;Inagbuhan;Inacbuhan
+fil;Inabaan;Inabaan Sur
+tl;Lungsod ng Imus;Imus
+ru;Имус;Imus
+ur;اموس;Imus
+fil;Imok;Imoc
+fil;Imbia;Imbiao
+fil;Iluyang Laquin;Iluyang Luguin
+ru;Илоило;Iloilo
+en;Iloilo City;Iloilo
+de;Iloilo City;Iloilo
+fil;Ilog;Ilog Baliwag
+fil;Illuru;Illuro
+ceb;Dakbayan sa Iligan;Iligan
+ja;イリガン;Iligan
+ko;일리간;Iligan
+tl;Lungsod ng Iligan;Iligan
+zh;伊利甘;Iligan
+ru;Илиган;Iligan
+fil;Ilayang San Ignacio;San Ignacio Ilaya
+fil;Ilayang Kinagunan;Kinagunan Ilaya
+fil;Ilayang Inagbuhan;Inagbuhan Ibaba
+fil;Ilayang Casasahan;Casasahan Ilaya
+ur;الاگان;Ilagan
+ru;Илаган;Ilagan
+fil;Ijatub;Ihatub
+fil;Ibulu;Ibulo
+fil;Iboy;Ibay
+fil;Sungi;Ibabang Sungi
+fil;Kinaguan Ibaba;Kinagunan Ibaba
+fil;Ibabang Calilayan;Kalilayan Ibaba
+ru;Ибра;Iba
+ja;イバ;Iba
+ko;이바;Iba
+zh;伊巴;Iba
+ur;ایبا، زامبالیس;Iba
+fil;Hupon;Hipon
+fil;Hunduan;Hungduan
+fil;Huoab;Hucab
+fil;Honob;Junob
+fil;Homestead;Homestead Primero
+fil;Holomaynon;Jolomaynon
+fil;Hinatilan;Ginatilan
+fil;Hinacayan Hacienda;Hacienda Hinacayan
+fil;Himogaan Bayan;Himogaan
+fil;Himay-añgan;Himay-angan
+fil;Himayangan;Himay-angan
+fil;Himaotan;Himaatan
+ru;Химамейлен;Himamaylan
+fil;Himacay;Hinukay
+en;Hiju;Hiju, Maco
+en;Hermosa;Hermoza
+ru;Эрмоса;Hermosa
+en;Heights Place;Haights Place
+fil;Hamurawon;Hamorawon
+fil;Halong;Halog
+fil;Halog;Halog West
+fil;Haguimit;Hagumit
+fil;Hagumit;Haguim
+fil;Hagunoy;Hagonoy
+fil;Hagony;Hagonoy
+ru;Хагоной;Hagonoy
+fil;Hagdan-Bato;Hagdang Bato Itaas
+fil;Hacienda Fé;Hacienda Santa Fe
+fil;Hacienda Dolores;Dolores
+fil;Hacienda de San Jose;San Jose
+fil;Hacienda de la Peea;Hacienda De la Peña
+fil;Gwan;Guan
+ru;Гуёнг;Guyong
+fil;Cuayabal;Guayabal
+fil;Guyabal;Guayabal
+fil;Gusing;Guising
+fil;Gandes;Gandus
+fil;Gumareng;Gumarueng
+tl;Bayan ng Gumaca;Gumaca
+fil;Gulod;Gulod Itaas
+fil;Bulac;Gulap
+fil;Gulak;Gulac
+fil;Guising Sur;Guising
+en;Guiset North;Guiset Norte
+fil;Guiset N;Guiset Norte
+fil;Guintungan;Guintangan
+fil;Guosanga-an;Guinsang-an
+fil;Guinzaden;Guinsadan
+fil;Guinsabayano;Guinsabayan
+fil;Ginobatan;Guinobatan
+fil;Guinbanga-an;Guimbangaan
+fil;Guinayangan;Guinayangan, Fourth District of Quezon
+fil;Guinayan;Guinayang
+fil;Guinatan;Guinatang
+fil;Guinabong;Guinabon
+ru;Гуигуинто;Guiguinto
+fil;Guidaquid;Guidaquia
+fil;Guibayan;Guibayan S
+fil;Buibang;Guibang
+fil;Guevara;Guevarra
+fil;Gueleo;Guelew
+fil;Gueguesanguen;Gueguesangen
+fil;Gueguesangan;Gueguesangen
+fil;Guequesangen;Gueguesangen
+fil;Gueguesanguan;Gueguesangen
+fil;Guesang;Gueguesangen
+fil;Gueddam;Gueddan
+fil;Gueddem;Gueddan
+en;Guadalupe Station;Guadalupe Nuevo
+fil;Gusi;Gosi
+fil;Cohang;Gohang
+ru;Гоа;Goa
+tl;Bayan ng Gloria;Gloria
+fil;Guiliguili;Gligli
+ru;Глан;Glan
+tl;Bayan ng Glan;Glan
+fil;Giragaan;Hiragaan
+ceb;Dakbayan sa Gingoog;Gingoog
+ru;Гингуг;Gingoog
+fil;Gines Nuevo;Gines
+fil;Hinablan;Ginablan
+fil;Guimalas;Gimalas
+fil;Gumalas;Gimalas
+fil;Gigacogac;Gigaciac
+ru;Жерона;Gerona
+tl;Heneral Trias;General Trias
+fil;Papaya;General Tinio
+fil;General Terrero;Terrero
+ceb;Dakbayan sa General Santos;General Santos
+ja;ジェネラル・サントス;General Santos
+ko;제너럴산토스;General Santos
+tl;Heneral Santos;General Santos
+ru;Генерал-Сантос;General Santos
+zh;三投斯將軍市;General Santos
+fa;جنرال سانتوس;General Santos
+id;Kota General Santos;General Santos
+ur;جنرل سانتوس;General Santos
+tl;Bayan ng Heneral Nakar;General Nakar
+fil;General Natividad;General Mamerto Natividad
+fil;Natividad;General Mamerto Natividad
+en;Cabuntog;General Luna
+fil;Gayongayong;Gayonggayong
+fil;Gayongayong;Gayong
+fil;Gayan;Gayang
+fil;Gayana;Gayaman
+fil;Barlig;Gawana
+fil;Cawa;Gawa
+fil;Gatusan;Gatosan
+fil;Gatto;Gattu
+fil;Gatiauin;Gatiawin
+fil;Garrita;Garreta
+fil;Gariga;Garita
+fil;Garalucod;Caralucud
+ru;Гапан;Gapan
+fil;Gao-oa;Gaa-oa
+fil;Ganzing;Gansing
+fil;Bilumen;Gansing
+fil;Garnib;Ganib
+fil;Gannib;Ganib
+fil;Gangngo;Gang-ngo
+fil;Gango;Gang-ngo
+fil;Ganakgak;Canakgak
+fil;Galzadang;Calsadang Bayu
+fil;Galuan;Galvan
+fil;Galutan;Kanluran Calutan
+fil;Galongen;Galongan
+fil;Gallano;Galiano
+fil;Galiauo;Galiano
+fil;Calamagi;Calamagui
+fil;Galamagui;Calamagui
+fil;Alamagui;Calamagui
+fil;Galalang;Ganlang
+fil;Caodangao;Gaddangao
+fil;Gabut;Gabot
+fil;Gaang-Victoria;Gaang
+fil;Gan;Gaang
+fil;Fusian;Pussian
+fil;Furagun;Furagui
+fil;Fullan;Fulan
+fil;Fugu Norte;Fugu
+fil;Fugo;Fugu
+fil;Fugu Sur;Fugu
+fil;Fuguar;Fugaru
+fil;Fugae;Fuga Island
+fil;Feurte;Fuerte
+fil;Francia;Francia West
+fil;Finugu;Finugo Norte
+fil;Filomena Hacienda;Hacienda Filomena
+fil;Fermina Hacienda;Hacienda Fermina
+fil;Faraon Hacienda;Hacienda Faraon
+fil;Malanao;Fabrica
+fil;Eva Hacienda;Hacienda Eva
+fil;Australia;Estrella
+fil;Estafania;Estefania
+fil;Estancla;Estancia
+fil;Estado;Hacienda Estado
+fil;Esperanza Weste;Esperanza West
+fil;Esperanza;Esperanza East
+fil;Esperanza Este;Esperanza East
+fil;Espenanzo;Esperanza
+ceb;Lungsod sa Esperanza;Esperanza
+tl;Bayan ng Esperanza;Esperanza
+fil;Esmeralda Hacienda;Hacienda Esmeralda
+de;Escalante City;Escalante
+id;Kota Escalante;Escalante
+ur;ایسکالانتے، نیگروس غربی;Escalante
+fil;ErmitaNo;Ermitaño
+fil;Erimata;Ermita East
+fil;Saravia;Enrique B. Magalona
+fil;Entile;Enrile
+fil;Encarnacion Hacienda;Hacienda Encarnacion
+fil;Elena Hacienda;Hacienda Elena
+fil;Enchague;Echague
+es;Echagüe;Echague
+fil;Duyun;Dayun
+fil;Duyayat;Duyay-yat
+fil;Dugay-yat;Duyay-yat
+fil;Duyanduyan;Duyan Duyan
+fil;Dusoc;Dosoc
+fil;Dupo;Caloocan Dupo
+fil;Dupay;Dupey
+fil;Dupax;Dupax Del Norte
+fil;Ducpac;Dupac
+fil;Dungwan;Dungawan-Pantay
+fil;Dungon;Dunggan
+fil;Dumuclay;Domuclay
+fil;Dompay;Dumpay
+fil;Dummon;Dummun
+ceb;Lungsod sa Dumingag;Dumingag
+tl;Bayan ng Dumingag;Dumingag
+fil;Duminamadi;Duminamad
+fil;Domigiay;Demegiay
+fil;Dumegray;Demegiay
+fil;Dumayup;Dumayop
+fil;Dumalalig;Dumadalig
+en;Dumaguete City;Dumaguete
+ja;ドゥマゲテ;Dumaguete
+fil;Dumaguette;Dumaguete
+ko;두마게테;Dumaguete
+ur;دوماگویتی;Dumaguete
+ru;Думагете;Dumaguete
+zh;朗芒芽地;Dumaguete
+hi;दुमगते;Dumaguete
+ar;دوماغويتي;Dumaguete
+bn;দুমাগুয়েতে;Dumaguete
+si;ඩුමගුටේ;Dumaguete
+kn;ಡುಮಾಗುಯೆ;Dumaguete
+ta;டுமாகுஎடே;Dumaguete
+te;దుమగుటె;Dumaguete
+th;ดูมาเกเต;Dumaguete
+de;Dumaguete City;Dumaguete
+mr;दुमागुएटे;Dumaguete
+gu;દુમાગુએટે;Dumaguete
+fil;Dulum;Dulom
+fil;Bayan;Dulong Bayan
+fil;Dulalog;Dulolog
+fil;Dutag;Dulag
+fil;Dolacac a Baleg;Dulacac
+fil;Duklegan;Dukligan
+fil;Ducay;Dukay
+fil;Duguian;Dugyan
+fil;Dugio;Duguio
+fil;Dugayong;Dugayung
+fil;Dugayang;Dugayung
+fil;Dugayung;Dugayong
+fil;Dublon;Doublon
+fil;Doyong Malabago;Doyong
+fil;Darongan;Dorongan Punta
+fil;Dooñgan;Daongan
+fil;Doongan Ilaya;Daongan
+fil;Dontoe;Dontoc
+ceb;Lungsod sa Don Marcelino;Talagutong
+tl;Bayan ng Don Marcelino;Talagutong
+es;Don Carlos de Maramag;Don Carlos
+fil;Domulpot;Domolpot
+fil;Damulpot;Domolpot
+fil;Domlog;Dumlog
+fil;Domang;Dumang
+fil;Dolores Malaya;Dolores
+fil;Dolores;Delores
+fil;Dolacac a Melag;Dulacac
+fil;Dodon;Dodan
+fil;Barrio Dodan;Dodan
+fil;Doclong;Doclong Uno
+fil;Docligan;Doklingan
+fil;Old Dagupan;Dagapan
+fil;Divilican;Divilaca
+fil;Ditali;Ditale
+fil;Ilongot;Ditale
+fil;Disimpi;Disimpit
+fil;Dirique;Diriqui
+fil;Dipusu;Dipuso
+en;Dipolog City;Dipolog
+nl;Dipolog City;Dipolog
+es;Dipólog;Dipolog
+ceb;Dakbayan sa Dipolog;Dipolog
+ja;ディポログ;Dipolog
+ko;디폴로그;Dipolog
+tl;Lungsod ng Dipolog;Dipolog
+ru;Диполог;Dipolog
+id;Kota Dipolog;Dipolog
+ur;دیپولوگ;Dipolog
+en;Dipintin Old;Dipintin
+fil;Dipenten;Dipintin
+fil;Dipanguit;Dipangit
+fil;Tacibun;Dipaculao
+fil;Takabun;Dipaculao
+fil;Dinwide;Dinwedee East
+fil;Dinwiddie;Dinwedee East
+fil;Dinapigui;Dinapigue
+fil;Dilalongan;Dinalongan
+fil;Dinalaoan;Dinaloan
+ru;Динаиг;Dinaig
+fil;Dinabongan;Dinabongan South
+fil;Demasere;Dimasari
+fil;Dimamaga and Tamdagan;Dimamaga
+fil;Dimaluno;Dimaluna
+fil;Dimagas;Dimaga
+fil;Diliman;Diliman Primero
+fil;Dilavo;Dilabu
+fil;Dilayo;Dilabu
+fil;Diladila;Dila-Dila
+fil;Dita;Dila
+de;Digos City;Digos
+id;Kota Digos;Digos
+ur;دیگوس;Digos
+ru;Дигос;Digos
+fil;Joson;Digdig
+fil;Difun;Diffun
+fil;Bayan ng Diffun;Diffun
+fil;Calalabangan;Diduyon
+fil;Dicaoisagan;Dicabisagan
+fil;Dicabacan;Decabacan
+fil;Diamantino;Diamantina
+fil;Dialaoyaw;Dialaoyao
+fil;Dimabuno;Demabuno
+fil;Del Pilar;Marcelo Hilario del Pilar
+fil;Carmen;Del Carmen
+fil;Carman;Del Carmen
+en;Del Carmen;Del Carmen, Surigao del Norte
+ru;Дель Кармен;Del Carmen, Surigao del Norte
+fil;De la Paz;Dela Paz
+fil;Della Paz Norte;Dela Paz Norte
+fil;De la Paz;Dela Paz Norte
+fil;De la Paz;De la Paz Polot
+fil;La Paz;De la Paz
+fil;Delah;Delan
+fil;Debutunan;Dibutonan
+fil;Daypay;Dayday
+fil;Dayquitin;Daykitin
+fil;Daiquitin;Daykitin
+fil;Dayapan;Dayadan
+fil;Dayanki;Dayangui
+fil;Dauis;Dawis
+ru;Давао;Davao
+ja;ダバオ;Davao
+ceb;Dakbayan sa Davao;Davao
+ko;다바오;Davao
+ar;دافاو;Davao
+tl;Lungsod ng Dabaw;Davao
+fa;داوائو سیتی;Davao
+zh;达沃市;Davao
+en;Davao City;Davao
+kk;Давао;Davao
+ky;Давао;Davao
+hi;दवाओ;Davao
+bn;দাভাও;Davao
+ur;داواؤ;Davao
+pa;ਦਾਵਾਓ;Davao
+ps;داواو;Davao
+tg;Давао;Davao
+fil;Dao;Dau
+fil;Datag;Datag Norte
+fil;Data;Mount Data
+fa;داسمارینیاس;Dasmariñas
+id;Kota Dasmariñas;Dasmariñas
+ja;ダスマリニャス;Dasmariñas
+ko;다스마리냐스;Dasmariñas
+ur;داسمارنگاس;Dasmariñas
+ru;Дасмариньяс;Dasmariñas
+zh;达斯马里尼亚斯;Dasmariñas
+fil;Dardara;Darnarat
+fil;Daramuangan;Daramuangan Sur
+fil;Daramuangan;Daramuangan Norte
+fil;Darabulbul;Darabulbut
+fil;Dapping;Dappig
+ru;Дапитан;Dapitan
+hi;दपितान;Dapitan
+zh-Hans;达皮丹;Dapitan
+zh-Hant;達必丹;Dapitan
+ur;داپیتان;Dapitan
+mr;दॅपिटॅन;Dapitan
+zh;达必丹;Dapitan
+ar;دابيتان;Dapitan
+ja;ダピタン;Dapitan
+fa;داپیتان;Dapitan
+bn;ডাপিতান;Dapitan
+si;ඩපිටන්;Dapitan
+kn;ಡಪಿತನ್;Dapitan
+ko;다피탄;Dapitan
+ta;டப்பிடன்;Dapitan
+gu;દેપિટન;Dapitan
+te;డపిటన్;Dapitan
+th;ดาปิตัน;Dapitan
+fil;Dapdap;Dadap
+es;Dapa de Siargao;Dapa
+fil;Daongan;Daoangan
+fil;Dao-angan;Daoangan
+en;Danuman West;Danuman
+fil;Danlagan;Danlagan Reserva
+fil;Danlagan;Dalagan
+fil;Danio;Daniw
+fil;Dangoy;Dangay
+fil;Danglay;Dangiay
+fil;Dangkalan;Dankalan Central
+fil;Dancalan;Dacalan
+fil;Danao and Oangagan;Danao
+fil;Danao;Danao Veharri
+ceb;Munisipalidad sa Danao;Danao
+fil;Danan;Dan-an
+fil;Damulog;Damolog
+fil;Damolay;Damolog
+fil;Dammang;Dammang Norte
+en;Damang East;Dammang East
+fil;Dammang;Dammang East
+fil;Damang;Dammang East
+en;Damang West;Dammang West
+fil;Dammang;Dammang West
+fil;Damao;Dammao
+fil;Damacuag;Damachag
+tl;Bayan ng Pasacao;Dalupaon
+fil;Dalongui;Dalongue
+fil;Dainacan;Dalnacan
+fil;Dalimano;Delemono
+fil;Dalimag;Dalimag Norte
+fil;Dalligan;Daligan
+fil;Ducligan;Dalican
+fil;Dalibubun;Dalibubon
+fil;Dalayap;Dalayop
+fil;Dalapanap;Dalapdap
+fil;Dalauig;Dalaoig
+fil;Dalaoa;Dalawa
+fil;Daklan;Daclan
+es;Dagupán;Dagupan
+ceb;Dakbayan sa Dagupan;Dagupan
+ko;다구판;Dagupan
+tl;Lungsod ng Dagupan;Dagupan
+id;Kota Dagupan;Dagupan
+ur;داگوپان;Dagupan
+ru;Дагупан;Dagupan
+fil;Daguan Hacienda;Hacienda Daguan
+fil;Dagaton;Dagatan
+ru;Дает;Daet
+ur;دایت، کامارینز شمالی;Daet
+fil;Daddo;Dadda
+fil;Dadalaquiter;Dadalaquiten
+fil;Dacudac;Dacodac
+fil;Daklapan;Daclapan Sur
+fil;Daclapan;Daclapan Sur
+fil;Dacal Fugu;Dacal-Lafugu
+fil;Dacal-a-fugu;Dacal-Lafugu
+fil;Dabubu;Dabubu Pequeño
+fil;Dabburab-I;Dabburab
+fil;Dabbac;Dabbac Grande
+fil;Dabtac;Dabbac Grande
+fil;Daan Lungsod;Daanglung
+fil;Daangbaua;Daanbanua
+fil;Daan Banua;Viejo Daan Banua
+fil;Da-an Banua;Daan-Suba
+fil;Cutcut;Cut-cut Primero
+fil;Cutcut;Cut-cut Segundo
+fil;Curipang;Curifang
+fil;Cumon;Comon
+fil;Cumatdang;Gumatdang
+fil;Culoy;Coloy
+fil;Kulo;Colo
+fil;Cullit Norte;Cullit
+fil;Collalabo;Cullalabo del Sur
+fil;Cullalabo;Cullalabo del Sur
+fil;Cullabat;Culalabat
+fil;Cullalabat;Culalabat
+fil;Culiong;Cwiong
+fil;Culing;Culing Centro
+fil;Culing;Culing West
+fil;Kuliat;Culiat
+fil;Culas;Culasi
+fil;Barangay Culasi;Culasi
+ru;Куэнка;Cuenca
+fil;Cubcubbu-ot;Cubcubbuat
+fil;Caurdaneta;Cuardanetaan
+fil;Cuambogan;Cuambugan
+fil;Cruz Na Ligas;Krus Na Ligas
+fil;Cruz Nadaan;Cruz na Daan
+fil;Na Daan;Cruz na Daan
+fil;Cruz;Cruz na Daan
+fil;Cruz;Santa Cruz
+fil;Crossing;Crossing Simuay
+en;Cotabato City;Cotabato
+ceb;Dakbayan sa Cotabato;Cotabato
+ja;コタバト;Cotabato
+nl;Cotabato City;Cotabato
+ru;Котабато;Cotabato
+ar;كوتابايتو;Cotabato
+kk;Котабато;Cotabato
+ky;Котабато;Cotabato
+hi;कोटाबातो;Cotabato
+bn;কোটাবাতো;Cotabato
+ur;کوٹاباتو;Cotabato
+fa;کوتاباتو;Cotabato
+pa;ਕੋਟਾਬਾਤੋ;Cotabato
+ps;کوتاباتو;Cotabato
+tg;Котабато;Cotabato
+fil;Cosucos;Cosocos
+fil;Cosili;Cosili East
+fil;Kosili;Cosili East
+fil;Coral;Coral-Iloco
+fil;Corral Iloco;Coral-Iloco
+fil;Corralan;Coralan
+ru;Кордоба;Cordova
+fil;Cordoba;Cordova
+fil;Cordician;Cordinian
+fil;Corareng;Curareng
+fil;Consuegra;Consuegro
+fil;Congiton;Congitan
+fil;Condez;Condes
+fil;Concordia;Hacienda Concordia
+fil;Bantog;Bantug
+fil;Concepcion;Bantug
+ru;Консепсьон;Concepcion
+fil;Conception;Concepcion
+fil;Barrio Sais;Concepcion
+fil;Comillas;Comillas Norte
+fil;Camillas;Comillas
+fil;Cornillas;Comillas
+fil;Comandante Carmona;Carmona
+fil;Colonia Parcela Number One;Colonia
+fil;Colo;Culo
+fil;Collong;Coliong
+fil;Culliang;Culili
+fil;Colili;Culili
+fil;Colasan;Calasan
+fil;Colapi;Kulapi
+fil;Cugunan;Cogonan
+fil;Cogunan;Cogonan
+fil;Gogorin Ilaya;Cogorin Ilaya
+es;Clavería de Jamán;Claveria
+fil;Cinco (Barrio 5);Cinco
+fil;Chagao;Chicao
+fr;Cebu;Cebu City
+ru;Себу;Cebu City
+ceb;Dakbayan sa Sugbo;Cebu City
+de;City of Cebu;Cebu City
+en;City of Cebu;Cebu City
+es;Ciudad de Cebú;Cebu City
+ko;세부;Cebu City
+ar;مدينة سيبو;Cebu City
+kk;Себу қаласы;Cebu City
+tr;Cebu Şehri;Cebu City
+uz;Cebu Shahri;Cebu City
+ky;Себу Шахары;Cebu City
+id;Kota Cebu;Cebu City
+ms;Kota Cebu;Cebu City
+hi;सेबु शहर;Cebu City
+bn;সেবু শহর;Cebu City
+ur;سیبو شہر;Cebu City
+fa;شهر سبو;Cebu City
+ja;セブ市;Cebu City
+jv;Kota Cebu;Cebu City
+pa;ਸੇਬੂ ਸ਼ਹਿਰ;Cebu City
+ps;سیبو ښار;Cebu City
+pt;Cidade de Cebu;Cebu City
+tg;Шахри Себу;Cebu City
+fil;Cayumangui;Kayumanggi
+en;Caynipa Grande;Caynipa
+fil;Caybuñga;Caybunga
+fil;Kawit;Cawit
+fil;Cauit;Cawit
+fil;Cawayanin;Cawaynin
+fil;Kawayanin;Cawaynin
+fil;Cawayanin;Kawayanin
+fil;Cawayan Bugtang;Cawayan Bugtong
+fil;Kawayah Bugtong;Cawayan Bugtong
+fil;Cawayan;Cauayan
+ru;Кавите;Cavite City
+fil;Cavite;Cavite City
+ceb;Dakbayan sa Cavite;Cavite City
+ms;Bandar Cavite;Cavite City
+ja;カヴィテ;Cavite City
+ko;카비테;Cavite City
+tl;Lungsod ng Kabite;Cavite City
+zh;甲米地;Cavite City
+fil;Kabasi;Cavasi
+fil;Cabaroan;Caupasan
+fil;Cuayan-Bugtung;Cuayang Bugtong
+fil;Cauayanbugtung;Cuayang Bugtong
+de;Cauayan City;Cauayan
+es;Cauayán;Cauayan
+id;Kota Cauayan;Cauayan
+fil;San Ildefonso;Cauayan
+fil;Caturaymangatarem;Caturay
+fil;Caturay;Caturay Sur
+fil;Catur;Cotur
+fil;Catundan;Calundan
+fil;Katolohan;Catolohan
+fil;Catugan Sur;Catugan
+fil;Catlobong;Catlubong
+fil;Catigan Silangan;Silangan Katigan
+fil;Catigan Canluran;Kanluran Katigan
+ru;Катиклан;Caticlan
+ko;카티클란;Caticlan
+ko;까띠클란;Caticlan
+ceb;Lungsod sa Cateel;Cateel
+tl;Bayan ng Cateel;Cateel
+de;Catbalogan City;Catbalogan
+id;Kota Catbalogan;Catbalogan
+tl;Lungsod ng Catbalogan;Catbalogan
+ur;کاتبالوگان;Catbalogan
+ru;Катбалоган;Catbalogan
+fil;Catayuan;Catayauan
+es;Catarmán;Catarman
+ur;کاتارمان، شمالی سامار;Catarman
+ru;Катарман;Catarman
+fil;Catangraran;Catanglaran
+fil;Cataguintingan;Cataguintingan Sur
+fil;Catacdegan Viejo;Cadactigan
+fil;Catacdegan;Cadactigan
+fil;Catabogan;Katabbogan
+fil;Cataban;Kataban
+fil;Castuly;Castuli
+ru;Кастильехосу;Castillejos
+fil;Casiitan;Casitan
+fil;Casinsingan;Casingsingan Norte
+fil;Casili;Casile
+fil;Casilagan;Casilagan Norte
+fil;Casicallan;Casicallan Sur
+fil;Cacicallan;Casicallan Sur
+fil;Cassap Hacienda;San Pablo
+fil;Cassap;San Pablo
+fil;Casantamariaan;Casantamarian
+fil;Carusucan;Carusocan
+fil;Carusiban;Carusipan
+fil;Carunoan;Caronoan West
+fil;Caronuan;Caronoan West
+fil;Carpintero;Carpentero
+fil;Carpenter;Carpenter Hill
+fil;Caronuan;Caronoan
+fil;Carawan;Caruan
+fil;Caroan;Caruan
+ru;Кармона;Carmona
+ru;Кармен;Carmen
+ru;Кармен;Cogan
+ceb;Lungsod sa Carmen;Cogan
+tl;Bayan ng Carmen;Cogan
+ru;Кармен;Carmen Grande
+fil;Carmay;Carmay West
+fil;Carmay;Carmay East
+fil;Carit-an;Caritan
+ru;Кардона;Cardona
+fil;Cardenal;Cardinal
+fil;Coroyungon;Carayungan
+en;Carayungan Sur;Carayungan
+fil;Karamutan;Caramutan
+fil;Caralangan;Carallangan
+fil;Caral-langan;Carallangan
+ceb;Lungsod sa Caraga;Caraga
+tl;Bayan ng Caraga;Caraga
+fil;Caradioan;Caraguican
+fil;Carabbatan Punta;Carabatan Punta
+fil;Carabbatan Chica;Carabatan Chica
+fil;Carabbatan Bacareno;Carabatan Bacareno
+fil;Capolitan;Cabaritan
+fil;Capaceran;Capuseran
+fil;Capoceran;Capuseran
+fil;Capitan;San Esteban
+fil;Capissayan;Capissayan Sur
+fil;Capissavan;Capissayan Sur
+fil;Capasan;Capason
+fil;Capasam;Capason
+ru;Капас;Capas
+fil;Capaz;Capas
+fil;Coparangasan;Caparangasan
+fil;Capogotan;Cabeseria Nueve y Once
+fil;Capaetan;Cabeseria Nueve y Once
+fil;Capagtan;Cabeseria Nueve y Once
+fil;Capa-cuan;Capac cuan
+fil;Caonayan;Cauayan
+fil;Caoit;Cawit
+fil;Caocaoayan;Caocabayo
+fil;Caocabayan;Caocabayo
+fil;Canuangan;Cannuangan
+fil;Cantil-i;Catil-i
+es;Cantilán;Cantilan
+fil;Cantajay;Cantahay
+fil;Kantabaco;Cantabaco
+fil;Kantabako;Cantabaco
+fil;Cantabac;Cantabaco
+fil;Canogan;Cañogan Abajo Norte
+fil;Canocotan;Corocotan
+fil;Canagan;Cannagan
+fil;Canluran Cabubuhayan;Kanluran Kabubuhayan
+fil;Canlaon Hacienda;Hacienda Canlaon
+fil;Congmundo;Cangmundo
+fil;Cangbaliguia;Cangaliguia
+fil;Cangagong;Cang-Agong
+fil;Cang-abuhon;Can-abuhon
+id;Kota Candon;Candon
+ur;کاندون;Candon
+ru;Канделариа;Candelaria
+fil;Candao-ay;Candau-ay
+fil;Candauay;Candau-ay
+fil;Canda;Canba
+fil;Canayon;Canayun
+fil;Kanarem;Canarem
+fil;Canapi;Ganapi
+fil;Ganadalan;Canaoalan
+fil;Canoalan;Canaoalan
+fil;Canan;Canan Norte
+fil;Kanan;Canan
+fil;Panan;Papan
+fil;Canan;Papan
+fil;Canaan Oeste;Canaan West
+fil;Umala;Canaan East
+fil;Canaan Este;Canaan East
+fil;Camuhaguin;Camohaguin
+fil;Camugao;Kamugao
+fil;Camp Three;Camp 3
+en;Camp Three;Camp 3
+fil;Camposanto Segundo;Camposanto Dos
+en;Camp Number One;Camp One
+fil;Campithon;Campiton
+fil;Campao;Campao Occidental
+fil;Cammunatan;Camunatan
+fil;Cammonatan;Camunatan
+fil;Camiing;Camiling
+fil;Kamias;Camias
+fil;Camcamalog;Camalog
+fil;Kambulo;Cambuio
+fil;Cambulo;Cambuio
+fil;Cambola;Cambuio
+fil;Cambuilao;Cambaliao
+fil;Camaysa;Kamaysa
+fil;Camarungayan;Camarunggayan
+fil;Comarag;Camarag
+fil;Comandag;Camandag
+fil;Camangdag;Camandag
+en;Camangalan West;Camangaan West
+fil;Camangaan;Camangaan West
+fil;Camandigan;Comandingan
+fil;Camandingan;Comandingan
+fil;Camaat;Camaal
+fil;Calvario;Calbaryo
+fil;Calowayan;Caluwayan
+fil;Calutcot;Kalotkot
+fil;Calungbuyan;Calunboyan
+fil;Calongbuyan;Calunboyan
+fil;Calungbuyan;Calonbuyan
+fil;Calongbuyan;Calonbuyan
+fil;Calongboyan;Calonbuyan
+fil;Calanutan;Calunetan
+ru;Калумпит;Calumpit
+fil;Calumpana Cerca;Calumpang Cerca
+fil;Kalumpang;Calumpang
+tl;Kalumpang;Calumpang
+fil;Calumanguin;Calumaguim
+fil;Calulad;Calulud
+fil;Cululuan;San Isidro
+fil;Caluluan;San Isidro
+fil;Sitio;San Isidro
+tl;Bayan ng San Jua;Calubcub Dos
+fil;Caloocan;Caloocan Norte
+en;Caloocan City;Caloocan
+ja;カローカン;Caloocan
+ko;칼로칸;Caloocan
+ru;Калоокан;Caloocan
+tl;Kalookan;Caloocan
+zh;加洛坎;Caloocan
+fil;Calong Calong Hacienda;Caloncalong
+fil;Calog;Calog Norte
+fil;Calug Norte;Calog Norte
+fil;Callaat;Kalyaat
+fil;Calius;Calius Gueco
+fil;Calios;Callos
+fil;Calingan;Calinaoan Sur
+en;Calinauan South;Calinaoan Sur
+fil;Calindagan;Calindogon
+fil;Colinauan;Calinaoan Malasin
+fil;Calinauan;Calinaoan Malasin
+fil;Calinaoan;Calinaoan Malasin
+fil;Calimonoc;Calimanco
+fil;Calimaturog;Calimaturod
+fil;Calimaturag;Calimaturod
+fil;Kalilayan Ibaba;Calilayan
+fil;Caligañgan;Caligangan
+fil;Kalibungan;Calibungan
+fil;Calenac;Calenao
+ceb;Dakbayan sa Calbayog;Calbayog City
+fil;Calbayog;Calbayog City
+ru;Калбейог Сити;Calbayog City
+fil;Cayluya;Calayo
+fil;Cayiuya;Calayo
+fil;Calawitan-pulunggubat;Calawitan
+fil;Calawitan Pulungqubat;Calawitan
+fil;Calauitan;Calawitan
+fil;Calawitan;Calawitan Pancalara
+fil;Calautit;Calaotit
+fil;Calalagan;Calatagan
+fil;Calasuche;Calasiche
+fil;Calasomanga;Calasumanga
+fil;Colasiao;Calasiao
+ru;Каласиао;Calasiao
+fil;Calasa;Hacienda Calasa
+fil;Calapangan;Calapangan Sur
+de;Calapan City;Calapan
+es;Calapán;Calapan
+ceb;Dakbayan sa Calapan;Calapan
+id;Kota Calapan;Calapan
+ko;칼라판;Calapan
+tl;Lungsod ng Calapan;Calapan
+zh;卡拉潘;Calapan
+ur;کالاپان;Calapan
+ru;Калапан;Calapan
+ar;كالاپان;Calapan
+kk;Калапан;Calapan
+ky;Калапан;Calapan
+hi;कालापान;Calapan
+bn;কালাপান;Calapan
+fa;کالاپان;Calapan
+ja;カラパン;Calapan
+pa;ਕਾਲਾਪਾਨ;Calapan
+ps;کالاپان;Calapan
+tg;Калапан;Calapan
+fil;Calaoagan;Calaocan
+fil;Calaogan;Calaoagan
+fil;Calantipayan;Kalangtipayan
+fil;Kalantas;Calantas
+fil;Calañgay;Calangay
+fil;Calanawe One;Kalanawe Uno
+fil;Calahan;Calanan
+fil;Addang;Calanan
+fil;Catanan;Calanan
+de;Calamba City;Calamba
+es;Calambá;Calamba
+id;Kota Calamba;Calamba
+ko;칼람바;Calamba
+ur;کالامبا، لاگونا;Calamba
+ru;Каламба;Calamba
+zh;卡兰巴;Calamba
+ar;كالامبا;Calamba
+kk;Каламба;Calamba
+ky;Каламба;Calamba
+hi;कलम्बा;Calamba
+bn;কালাম্বা;Calamba
+fa;کالامبا;Calamba
+ja;カランバ;Calamba
+pa;ਕਾਲੰਬਾ;Calamba
+ps;کالامبا;Calamba
+tg;Каламба;Calamba
+fil;Calamagui II;Calamagui Second
+fil;Calamagui-Segundo;Calamagui Second
+fil;Calamagui-Primero;Calamagui First
+fil;Calamagui I;Calamagui First
+fil;Calamagui One;Calamagui First
+fil;Calamagui;Calamagui East
+fil;Calamagin;Calamagui East
+fil;Calafug;Kalafug
+fil;Calacaab;Calaccab
+fil;Kalakab;Calaccab
+fil;Callobaoan;Calobaoan
+fil;Binablayan;Calaban
+fil;Kalanan;Calaanan
+ru;Каинта;Cainta
+fil;Gaingin;Caingin
+fil;Cagubatan;Kagubatan
+fil;Cagsalaosao;Cogsalaosao
+fil;Cagdarao;Cagdara-O
+fil;Cagbalogo;Cabalogo
+es;Cagayán de Oro;Cagayan de Oro
+fr;Cagayán de Oro;Cagayan de Oro
+tl;Lungsod ng Cagayan de Oro;Cagayan de Oro
+ja;カガヤン・デ・オロ;Cagayan de Oro
+ceb;Dakbayan sa Cagayan de Oro;Cagayan de Oro
+ko;카가얀데오로;Cagayan de Oro
+ru;Кагаян-де-Оро;Cagayan de Oro
+zh;卡加延德奥罗;Cagayan de Oro
+fil;Cagaya;Cagayan
+fil;Cagu-ut;Cagaut
+fil;Cafihan;Capihan
+fil;Caellayan;Caei-Layan
+fil;Gadoñgan;Gadungan
+fil;Kaduhaan;Caduhaan
+fil;Cadiz Viejo;Cadiz
+ru;Кадиз;Cadiz
+es;Cádiz;Cadiz
+id;Kota Cadiz;Cadiz
+ur;کادیز، نیگروس غربی;Cadiz
+fil;Caddagan;Caddangan
+fil;Cadauinonan;Brgy. Cadauinonan
+fil;Kadaclan;Kadaklan
+fil;Cadaclan;Kadaklan
+fil;Cacolabao;Canculajao
+fil;Cacandungan;Cacandongan
+fil;Cacadangan;Cacandongan
+fil;Cacamiliñgan;Cacamilingan Norte
+fil;Cabuyo;Kabuyao
+fil;Cabuyew;Cabuyen
+fil;Cabuyeo;Cabuyen
+fil;Cabuyao;Cabuyew
+de;Cabuyao City;Cabuyao
+es;Cabúyao;Cabuyao
+tl;Lungsod ng Cabuyao;Cabuyao
+zh;卡布堯;Cabuyao
+ru;Кабуяо;Cabuyao
+fil;Cabuyao;Cabuyao Sur
+fil;Cabusligan;Cabusiigan
+fil;Cabongan;Cabunga-an
+fil;Cabuluan;Cabuluan East
+fil;Cabaluan;Cabuluan East
+fil;Cabuloan;Cabuluan
+fil;Kabugao;Cabugao
+ja;カブラ;Cabra
+zh;卡布拉，盧邦;Cabra
+fil;Cabong Norte;Cabang Norte
+fil;Cabonga-an;Cabongaan
+fil;Caboluan;Cabuloan
+fil;Caboloan;Cabuloan
+fil;Cabolalaan;Cabulalaan
+fil;Cabulalaon;Cabulalaan
+fil;Kabitin;Cabitin
+fil;Cabitbitnungan;Cabitbitnongan
+fil;Cabisocolan;Cabisuculan
+en;Calibaoan East;Cabilaoan East
+fil;Cabilaoan;Cabilaoan West
+fil;Cabiayan Hacienda;Hacienda Cabiayar
+fil;Cabcabor;Cabcaborao
+fil;Cabbaggan;Cabaggan
+fil;Cabbagan;Cabaggan
+fil;Cabayogan;Cabayugan
+fil;Cabayo;Cabayu
+fil;Cupayo;Cabayo
+fil;Cabaugtalan;Cabangtalan
+fil;Cabatuan Centro;Cabatuan
+es;Cabatuán;Cabatuan
+fil;Cabaroan;Cabaruan
+fil;Cabaruan;Cabaroan
+fil;Cabaruan;Cabaruan Hills
+fil;Cabaritan;Cabarritan
+fil;Cabaroyan;Caberuyan
+fil;Cabaruyan;Caberuyan
+fil;Cabaroan;Cabaroan Laud
+fil;Cabannungan I;Cabannungan Primero
+fil;Cabannungan II;Cabannungan Second
+fil;Cabannungan;Cabannungan Second
+fil;Cabanlutan;Kabanlutan
+fil;Cabancalan;Cabangcalan
+fil;Cabanbanan;Cabanbanan Sur
+fil;Cabambanan;Cabanbanan
+es;Cabanatúan;Cabanatuan City
+fil;Cabanatuan;Cabanatuan City
+tl;Lungsod ng Cabanatuan;Cabanatuan City
+ru;Кабанатуан;Cabanatuan City
+fil;Caballero;Cabellero
+fil;Cabahug;Cabohug
+fil;Cabagsiuan Hacienda;Hacienda Cabagsiuan
+es;Cabagán;Cabagan
+de;Cabadbaran City;Cabadbaran
+ur;کابادباران;Cabadbaran
+es;Cabadbarán;Cabadbaran
+ar;كابادباران;Cabadbaran
+ja;カバッドバラン;Cabadbaran
+fa;کابادباران;Cabadbaran
+ru;Кабадбаран;Cabadbaran
+th;คาบัดบารัน;Cabadbaran
+fil;Carringayan;Caaringayan
+fil;Coang;Caang
+fil;Caanamungan;Caanamongan
+fil;Caalibambangan;Caalibangbangan
+fil;Kaalibambangan;Caalibangbangan
+fil;Buyon;Buyun
+fil;Buyagan;Bayagan
+fil;Buyabuyan;Buyya
+fil;Buvabod;Buyabod
+fil;Buyabud;Buyabod
+fil;Butubot Sur;Butubut Sur
+fil;Butubut Oeste;Batubut Oeste
+fil;Butubut;Butubut Norte
+fil;Butubot Norte;Butubut Norte
+fil;Butubat Norte;Butubut Norte
+fil;Butubut;Butubut Este
+en;City of Butuan;Butuan
+ceb;Dakbayan sa Butuan;Butuan
+ja;ブトゥアン;Butuan
+ko;부투안;Butuan
+tl;Lungsod ng Butuan;Butuan
+zh;武端市;Butuan
+de;Butuan City;Butuan
+id;Kota Butuan;Butuan
+ms;Butuan City;Butuan
+ta;புடுவன்;Butuan
+ur;بوتوان;Butuan
+ru;Буту́ан;Butuan
+ar;بوتوان;Butuan
+kk;Бутуан;Butuan
+ky;Бутуан;Butuan
+hi;बुतुआन;Butuan
+bn;বুতুয়ান;Butuan
+fa;بوتوان;Butuan
+pa;ਬੁਤੁਆਨ;Butuan
+ps;بوتوان;Butuan
+tg;Бутуан;Butuan
+fil;Butir;Butic
+fil;Butiqui;Butigui
+fil;Butbutigui;Butbutique
+fil;Butangsapa;Butan Sapa
+fil;Busuhan;Basuhan
+ru;Бустос;Bustos
+fil;Busilac;Busilak
+tl;Bayan ng Burdeos;Burdeos
+fil;Burayoco;Burayoc
+fil;Burac;Burak
+fil;Bunutan;Bunotan
+fil;Bunton;Buntun
+fil;Bunsuran;Bunsuran Uno
+fil;Bunsuran;Bunsuran Dos
+fil;Bunal;Bunol
+fil;Bugnay;Bunnay
+fil;Burnay;Bunnay
+fil;Bulalacao;Bunlalacao
+fil;Bangol;Bungol
+fil;Bungcayo;Boncayo
+fil;Buncalo;Bonglo
+fil;Bungalo;Bonglo
+fil;Bungao;Bungad
+fil;Bunga;Bonga
+fil;Bunong;Buneg
+fil;Bunducan;Bonducan
+fil;Bunao;Bogtong Bunao
+fil;Bunagan;Bonagan
+fil;Bulusa;Bulusan
+tl;Bayan ng Buluan;Buluan
+fil;Bulog;Bolog
+fil;Bulla’an;Bulan
+fil;Buliban;Buliran
+fil;Buli’ Pongpong;Bolipongpong
+fil;Bulabula;Bulbulala
+ru;Булаон;Bulaon
+fil;Bulate;San Pablo
+fil;Bulaoen;Bolaoen
+fil;Bulanon;Bolanon
+fil;Bulangsong;Bulagsong
+ru;Булан;Bulan
+fil;Bulalo;Bulala
+fil;Bulala;Bulala Sur
+fil;Bulak;Bulac
+fil;Bulak;Bolak
+fil;Bulajo;Bulaho
+fil;Bulajoin;Bulaho
+fil;Bulagsong;Balangson
+fil;Bulagao;Balagao
+fil;Bualagao;Balagao
+fil;Bulad Hacienda;Hacienda Bulad
+fil;Bulacas;Bulacus
+fil;Bulacanin;Bulacnin
+fil;Bukut Latu’an;Gusong
+fil;Buquig;Bukig
+fil;Bukal;Bucal
+fil;Buka;Bucal
+fil;Bujaoen;Buhawen
+fil;Buhaynasapa;Buhay Na Sapa
+fil;Bugujas;Buguias
+fil;Bugney;Buguey
+fil;Bugtong Pulo;Bugtongnapulo
+fil;Bugton Nabuli;Bugtong na Buli
+fil;Bugtung-Buli;Bugtong na Buli
+fil;Bughu;Bugho
+fil;Bugbug;Bugbog
+fil;Bocawan;Bogaoan
+fil;Buetao;Butao
+fil;Buensuceso;Buensuseso
+fil;Benlag;Buenlag
+fil;Buenlag;Buenlag First
+fil;Buenavista Norte;Buenavista
+fil;Buenavista Hacienda;Hacienda Buenavista
+fil;Buenavista;Buenavista Tercera
+fil;Buenavista;Buenavista East
+fil;Buenavista;Buenavisto
+fil;Buena Vista;Buenavista
+ceb;Lungsod sa Buenavista;Buenavista
+tl;Bayan ng Buenavista;Buenavista
+ru;Будта;Budta
+fil;Budbudac;Budbudao
+fil;Lamao;Bucloc
+fil;Bucao;Bucao East
+en;Bucana Sapang;Zapang
+fil;Bucal;Bukal
+fil;Bubulo;Bubulong Munti
+fil;Bubukal;Bubucal
+fil;Bubukal;Bukal
+fil;Bubon ni Posa;Bubon
+fil;Bubog;Bubag
+fil;Bubog;Bubug
+fil;Bubbut;Butbut
+fil;Bubut;Butbut
+fil;Buabya;Buabua
+fil;Boyog;Buyog
+fil;Butilaw;Botilao
+fil;Batilao;Botilao
+fil;Bota;Villa Bota
+de;Borongan City;Borongan
+id;Kota Borongan;Borongan
+ur;بورونگان;Borongan
+fil;Borol Segundo;Burol Segundo
+ru;Япак;Yapak
+ko;보라카이;Borac
+fil;Boquig;Boguig
+fil;Boncud;Bonod
+fil;Bongliw;Banliw
+fil;Bonli-o;Banliw
+fil;Bonliw;Banliw
+fil;Bungtod;Bontud
+fil;Bongtolan;Bongotokan
+fil;Bongro;Bungro
+fil;Bongayon;Bungayon
+fil;Bongato;Bongato West
+ja;ボンガオ;Bongao
+ur;بوناگاؤ، تاوی تاوی;Bongao
+fil;Utbong;Bong
+en;Bonfal Proper;Bonfal
+fil;Boncol;Bunkol
+fil;Bonbonon;Port Bonbonon
+fil;Bokbok;Bonbon
+fil;Bonaffa;Bonot
+fil;Bombuaya;Bomboaya
+fil;Bolo Ilaya;Bulo Ilaya
+fil;Bolo;Balo
+fil;Bolo;Bulo
+fil;Bullilising;Bollilising
+fil;Bolawit;Bolaoit
+fil;Bolakan;Bolacan
+fil;Bol;Boi
+ru;Бохоль;Bohol
+fil;Butong-Silag;Bogtong Silag
+de;Bogo City;Bogo
+id;Kota Bogo;Bogo
+fil;Bognoyan;Bognuyan
+fil;Bogna;Bonga
+fil;Bogang;Bugang
+fil;Bobon;Bobon Second
+fil;Bobon;Bobon First
+fil;Bobin;Boboin
+fil;Boayo;Bacayao
+ko;보아크;Boac
+ur;بواک، ماریندوک;Boac
+fil;Boa;Bua
+fil;Bulan;Balwan
+fil;Blaclar;Blacar
+fil;Betwagan;Bituagan
+fil;Bito;Bato
+fil;Bitag;Bitag Grande
+fil;Bitadton;Bitadtun
+zh;比斯利格市;Bislig
+tl;Lungsod ng Bislig;Bislig
+id;Bislig City;Bislig
+ceb;Dakbayan sa Bislig;Bislig
+de;Bislig City;Bislig
+id;Kota Bislig;Bislig
+ur;بسلگ;Bislig
+fil;Biqui;Bique
+fil;Byong;Biong
+fil;Binabusan;Binubusan
+fil;Binubungan;Binobongan
+fil;Binauangan;Binuangan
+fil;Binualan;Binoalan
+fil;Bintauan;Bintawan
+fil;Bintakay;Bintacay
+fil;Binobuhan Hacienda;Hacienda Binobunan
+fil;Bino;Bago
+fil;Bimmeckeg;Binmeckeg
+fil;Bimmequeg;Binmeckeg
+fil;Bimmecqueg;Binmeckeg
+fil;Binhagan;Binhagan Norte
+fil;Binhagan;Binhagan Sur
+fil;Bingot;Bingoc
+fil;Bing-gao;Bingao
+fil;Binanbana;Binbanan
+fil;Biñang Segundo;Biñang Second
+ru;Бинангонан;Binangonan
+fil;Binangbang;Binambang
+fil;BiNang;Biñan
+fil;Binyang;Biñan
+de;Biñan City;Biñan
+fr;Binan;Biñan
+id;Kota Biñan;Biñan
+tl;Lungsod ng Biñan;Biñan
+ur;بنگان;Biñan
+ru;Биньян;Biñan
+es;Binalonán;Binalonan
+fil;Binalog;Binatog
+tl;Bayan ng Binalbagan;Binalbagan
+fil;Binalaccan;Pinalacan
+fil;Binagtukan;Binactocan
+fil;Binacod;Binakod
+fil;Binabongol;Binabongal
+en;Binabalian Ricor;Binabalian
+fil;Bimmuquel;Bimmuguel
+fil;Bimonton;Binmonton
+fil;Bimmonton;Binmonton
+fil;Bimanga;Bimmanga
+fil;Bimmanga;Bimmaga
+es;Provincia de Bilirán;Biliran
+it;Provincia di Biliran;Biliran
+ar;بيليران;Biliran
+fa;بیلیران;Biliran
+ja;ビリラン州;Biliran
+ko;빌리란 주;Biliran
+ur;بیلیران;Biliran
+ru;Билиран;Biliran
+zh;比利兰省;Biliran
+fil;Bilidbiran;Bilibiran
+fil;Bilan;Bilaran
+fil;Bilnan;Bilaran
+fil;Bilo;Bila
+fil;Biquigan;Bikigan
+fil;Biguian;Bigian
+fil;Bigoho;Bigajo
+fil;Bignay;Bignay Uno
+fil;Big-Big;Bigbiga
+fil;Biec;Biec West
+fil;Bicutan;Upper Bicutan
+fil;Bicus;Bicos
+fil;Biclot;Bibiclat
+fil;Bibiclot;Bibiclat
+fil;Bical;Bical Norte
+fil;Bikal;Bical
+fil;Biac na Bato;Biak-na-Bato
+fil;Betaña;Betania
+fil;BengNgang;Bangngang
+fil;Buenalat;Buenglat
+fil;Benglat;Buenglat
+fil;Bengen;Bemben
+fil;Benben;Bemben
+fil;Beddeng;Beddeng Laud
+fil;Bebe;Bebe Matua
+fil;Bayyom;Beyyo
+fil;Bayyo;Beyyo
+fil;Baybay;Bayugao
+ceb;Dakbayan sa Bayugan;Bayugan
+tl;Lungsod ng Bayugan;Bayugan
+ru;Баюган;Bayugan
+fil;Bayubud;Bayudbud
+fil;Bayabud;Bayudbud
+fil;Bayucain;Ibaba Buyucain
+fil;Bayucain Ib;Ibaba Buyucain
+ur;بائومبونگ;Bayombong
+ceb;Lungsod sa Bayog;Bayog
+tl;Bayan ng Bayog;Bayog
+fil;Bayocboc;Bayukbuk
+de;Baybay City;Baybay
+id;Kota Baybay;Baybay
+ur;بےبے;Baybay
+ur;بایاوان;Bayawan
+ceb;Dakbayan sa Bayawan;Bayawan
+hi;बायावां;Bayawan
+zh-Hans;巴湾湾;Bayawan
+mr;बेव्हन;Bayawan
+ar;باياوان;Bayawan
+ja;バヤワン;Bayawan
+ru;Байаван;Bayawan
+bn;বায়ান;Bayawan
+si;බයාවන්;Bayawan
+kn;ಬೇವನ್;Bayawan
+ko;베이완;Bayawan
+ta;பாயாவான்;Bayawan
+gu;બેયવન;Bayawan
+te;బయవాన్;Bayawan
+th;บายาวัน;Bayawan
+fil;Bayet;Bayate
+ja;バヤス;Bayas
+fil;Bayaquitos;Bayakitos
+fil;Bayañga;Bayanga
+ru;Баямбанг;Bayambang
+fil;Bayasu;Bayabu I
+fil;Bayabu;Bayabu I
+fil;Bayabo;Bayabo East
+fil;Bayyabit;Bayabat
+en;Bayabas West;Baybas West
+fil;Bayabas Hacienda;Hacienda Bayabas
+fil;Bayabas;Baybayabas
+ru;Бей;Bay
+fil;Bauk;Bauko
+fil;Banko;Bauko
+fil;Bawa;Baua
+ru;Батангас;Batungan
+fil;Bato;Batu
+fil;Battuquit;Battuguit
+fil;Batung;Battung
+fil;Battog;Bato
+fil;Batong;Batang
+fil;Batitio;Butitio
+fil;Batikbatik;Bakit Bakit
+fil;Batikan;Batican
+fil;Boteng;Bateng
+fil;Batasan-A;Batasan Bata
+fil;Batasan;Batasan Bata
+fil;Batasan-B;Batasan Bata
+fil;Batang Segundo;Batang Second
+fil;Batong Macaba;Batang Second
+fil;Batang 2nd;Batang Second
+fil;Batang-macaba;Batang Second
+fil;Batang;Batang Second
+fil;Batang Primero;Batang First
+fil;Batong Macuyat;Batang First
+fil;Batang 1st;Batang First
+fil;Batang-macuyad;Batang First
+fil;Batang;Batang First
+ru;Батангас;Batangas
+fil;Batang;Batana
+fil;Batangoawa;Batangcaoa
+ru;Батаан;Batan
+fil;Baswit;Basuit
+fil;Basconia Hacienda;Hacienda Bascoña
+ja;バスコ;Basco
+ko;바스코;Basco
+ur;باسکو، باتانیس;Basco
+ru;Баско;Basco
+zh;巴士古;Basco
+fil;Tagao;Basao
+fil;Baseo;Basao
+fil;Barumbung;Barumbong
+fil;Barucbuc;Barucboc Norte
+fil;Barucboo Norte;Barucboc Norte
+fil;Barrio Obrero;Obrero
+fil;Gawana;Barlig
+fil;Barrit;Barit
+fil;Barisibis;Barisbis
+fil;Baringin;Baringin Norte
+fil;Baringcocorong;Baringcucurong
+fil;Barikir;Bartkir
+fil;Baricil;Bariquir
+fil;Barbarit;Ba-barit
+fil;Barbar;Barbor
+fil;Barbar;Barbar Sur
+fil;Baras;Baras-Baras
+ru;Барас;Baras
+fil;Barangobong;Barangobang
+fil;Barangka;Barangka Itaas
+fil;Barangin;Baringin Sur
+fil;Barancuag;Barangcuag
+fil;Baraja;Baraka
+fil;Baracbac Oeste;Baracbac West
+fil;Baracbac;Baracbac West
+fil;Baracbac Este;Baracbac East
+fil;Baracbac;Baracbac East
+fil;Baquero;Baquero Norte
+fil;Sasat;Sawat
+fil;Bansale;Banzal
+fil;Bantugo;Cadoog East
+fil;Bantug;Bantog-Caricutan
+fil;Bantog;Bantog-Caricutan
+fil;Bontog;Bantog Segundo
+fil;Bantog;Bantog Segundo
+fil;Bantog Primero;Bantog
+fil;Bantug;Bantog
+fil;Bantog;Bundoc
+fil;Bandoc;Bundoc
+fil;Bantinguil;Batinguil
+fil;Bentay;Bantay
+fil;Bantoay;Bantaoay
+fil;Bansud;Proper Bansud
+fil;Bansirit;Bangsiril
+fil;Bangsirit;Bangsiril
+fil;Banquerohan;Bangkirohan
+fil;Banguero;Banquero
+fil;Banogbog;Banobog
+fil;Banogao;Banugao
+fil;Bano-ao;Bana-ao
+fil;Bannaa;Ban-na
+fil;Bungan;Banguian
+fil;Banquerohan;Banquerajan
+fa;بانگوئد;Bangued
+ar;بانغويد;Bangued
+ur;بانگوید، ابرا;Bangued
+ru;Бангед;Bangued
+fil;Bangran;Bangnan
+fil;Bangatan;Bangatan Ngagan
+fil;Bangñgatan;Bangatan Ngagan
+fil;Bangñgalan;Bangatan Ngagan
+fil;Bangkuangan;Bangcuangan
+fil;Bangko;Bangho
+fil;Bangcabangca;Banca Banca
+fil;Banco-Banco;Banca Banca
+fil;Bancabanco;Banca Banca
+fil;Bancabanca;Banca Banca
+fil;Bangbangar;Bangbangcag
+fil;Bangbang;Bambang
+fil;Bangan;Bangar
+fil;Bangoilan;Bangaoilan
+fil;Bangngauilan;Bangaoilan
+fil;Bangngaoilan;Bangaoilan
+fil;Bangauilan;Bangaoilan
+fil;Banganay;Bunganay
+fil;Bangal;Bangel
+fil;Bangak;Bangag
+fil;Bangabangar;Bangbangar
+fil;Bañga;Banga Primero
+fil;Banga;Ilayang Banga
+fil;Bañga;Banga
+fil;Baneg;Taneg
+fil;Dandi;Bandi
+fil;Band;Bandi
+fil;Bancal-Pugad;Bancal Pugod
+fil;Boncal;Bancal
+ja;バンカル;Bancal
+fil;Bancabanca;Banca-Banca
+fil;Banbanilag;Banoanilog
+fil;Banay Banay;Banaybanay
+fil;Banawe;Banaue
+fil;Banauang;Babanuang
+fil;Banaoang;Banaoang East
+fil;Banao;Banao Turod
+fil;Banao;Banaao
+fil;Banangbeng;Banenbeng
+fil;Banengbeng;Banenbeng
+fil;Banabahin Ibaba;Binabahin Ibaba
+fil;Banaba;East Banaba Batangas
+fil;Banaba;West Banaba Bantangas
+fil;Bambat;Sambat
+ja;バンバン;Bambang
+fil;Bamgbang;Bangbang
+fil;Blaza;Balza
+fil;Buluyot;Baluyot
+fil;Baluti;Balutu
+fil;Baluto;Balutu
+fil;Baluncanag;Balungcanag
+fil;Balungad;Balungao
+fil;Balulan Hacienda;Hacienda Balulan
+fil;Balula;Baluga
+fil;Balubad;Balubal
+fil;Balsik;Balsic
+fil;Balongay;Balungay
+fil;Baloleng;Baloling
+fil;Baloa;Balaoa
+fil;Baluay;Balluay
+fil;Balluey;Balluay
+fil;Ballayangon;Ballayangen
+fil;Ballayangan;Ballayangen
+fil;Ballay;Bal-lay
+fil;Ballao Hacienda;Hacienda Ballao
+fil;Ballacayo;Ballacayu
+es;Balíuag;Baliuag
+ru;Балиуаг;Baliuag
+fil;Baliti;Baliti Norte
+fil;Balite;Baliti
+fil;Balite;Balete
+fil;Baleti;Balete
+fil;Baliri;Balari
+fil;Balioag Norte;Baliaog
+fil;Balioagn;Baliaog
+fil;Balio;Baliw
+fil;Balio;Balio Laud
+fil;Balintiouac;Balintawak
+fil;Balinhi;Balanti
+fil;BaliNgasag;Balingasad
+es;Babagasag;Balingasag
+fil;Balinciagao;Balenciago
+fil;Balingbing;Balimbing
+fil;Baliculing;Baling Cupang
+fil;Balicbalic;Balic-Balic
+fil;Balibago;Balibago Segundo
+fil;Balibago;Balibago Primero
+fil;Baleygat;Balaygat
+fil;Baligat;Balaygat
+fil;Balayga;Balaygat
+fil;Baley Yadaan;Baleyadaan
+fil;Baley-araan;Baleyadaan
+fil;Balete;Balite
+fil;Balete;Belete
+fa;بالر;Baler
+ko;발레르;Baler
+ur;بالیر، آرورا;Baler
+fil;Balecbec;Balecbec Norte
+fil;Balbaluto;Balbaloto
+fil;Balbalayang;Balbatayang
+fil;Balaytigue;Balaytigui
+ru;Балаян;Balayan
+fil;Balayag;Palayag
+fil;Balatong;Balatong A
+fil;Balatocan;Balatacan
+fil;Bal-lasiw;Balasiw
+fil;Bal-lisiw;Balasiw
+fil;Ballasio;Balasiw
+fil;Balara;Matandang Balara
+fil;Balantogan;Balantugan
+fil;Balanti-an;Balantian
+fil;Balam;Balani
+fil;Balongobong;Balangobong
+fil;Balengao;Balangao
+id;Kota Balanga;Balanga
+mr;बलांगा सिटी;Balanga
+ms;Balanga City;Balanga
+ur;بالانگا، باتآن;Balanga
+fil;Balanacan;Balanakan
+fil;Balanakan;Balanacan
+fil;Balais;Ballais
+fil;Balaho;Balahe
+fil;Balacbac;Balakbak
+fil;Balabag Hacienda;Hacienda Balabag
+ru;Балабаг;Balabag
+fil;Bakum;Bakun
+fil;Bakir A. Dackel;Baki
+fil;Bakir;Baki
+fil;Bakia;Baquia
+fil;Bacal II;Bakal Dos
+fil;Bakal;Bakal Dos
+fil;Bals;Bais
+ru;Байс;Bais
+ar;جزيرة بيز;Bais
+ur;بایس، نیگروس شرقی;Bais
+zh;拜斯;Bais
+ja;バイス;Bais
+fil;Bairao;Bairan
+fil;Baj;Bai
+fil;Banay Pari;Bahay Pare
+fil;Banay Pare;Bahay Pare
+fil;Banay Par;Bahay Pare
+fil;Bahay Pary;Bahay Pare
+fil;Bahaybare;Bahay Pare
+fil;Bana;Baha
+fil;Baja;Baha
+fil;Baha;Bana
+fil;Bagunut;Bagunot
+fil;Bagumbong;Bagombong
+fil;Bagumbayan;Bagombayan
+en;Baguio City;Baguio
+ja;バギオ;Baguio
+nl;Baguio City;Baguio
+tl;Lungsod ng Baguio;Baguio
+ru;Багио;Baguio
+th;บาเกียว;Baguio
+ko;바기오;Baguio
+ceb;Dakbayan sa Baguio;Baguio
+zh;碧瑶市;Baguio
+fa;باگیو;Baguio
+id;Kota Baguio;Baguio
+ta;பாகியோ;Baguio
+ur;باگیؤ;Baguio
+ar;باجيو;Baguio
+kk;Багио;Baguio
+ky;Багио;Baguio
+hi;बागुइओ;Baguio
+bn;বাগুইও;Baguio
+pa;ਬਾਗੁਇਓ;Baguio
+ps;باګيو;Baguio
+tg;Багио;Baguio
+fil;Bagong;Bagong Tanza
+fil;Bagong Sicat;Bagong-Sikat
+fil;Bagong Sicat;Bagong Sikat
+fil;Bagongpooc;Bagongpook
+en;Vaca Valley;Bagong Bayan
+fil;Bagongbayan;Bagumbayan
+fil;Bagong Barrio;Bagong
+fil;Bagombong;Bagumbong
+fil;Bago Iñgud;Bago Ingud
+hi;बागो;Bago City
+pt;Bago;Bago City
+zh-Hans;巴哥;Bago City
+id;Bago;Bago City
+ur;باگو، نیگروس غربی;Bago City
+tet;Bago;Bago City
+mr;बेगो;Bago City
+ms;Bago;Bago City
+en;Bago;Bago City
+it;Bago;Bago City
+es;Bago;Bago City
+ar;باجو;Bago City
+vi;Bago;Bago City
+ja;バゴ;Bago City
+nl;Bago;Bago City
+ceb;Bago;Bago City
+ru;Баго;Bago City
+fr;Bago;Bago City
+bn;বাগো;Bago City
+jv;Bago;Bago City
+si;බැගෝ;Bago City
+su;Bago;Bago City
+kn;ಬಾಗೋ;Bago City
+ko;바고;Bago City
+ta;பாகோ;Bago City
+gu;બૉગો;Bago City
+te;బాగో;Bago City
+th;บาโก;Bago City
+tl;Bago;Bago City
+tr;Bago;Bago City
+fil;Bagnos;Bacnor West
+fil;Bagnor;Bacnor West
+fil;Bagnen;Bagnen Proper
+fil;Bagno;Bagnos
+fil;Bagho;Bagnos
+fil;Bagbag Oeste;Bagbag West
+fil;Bagbago;Bagbago Norte
+fil;Bagbag Este;Bagbag East
+fil;Bagbag;Bagbag East
+fil;Bagani;Bagani Gabor
+fil;Bagalñga;Bagalnga
+fil;Bagakay;Bagacay
+fil;Bagabag;Baggabag B
+fil;Baduto;Badutol
+fil;Bada;Baoa
+fil;Bacundao;Bacundao Weste
+fil;Baculud;Baculod
+fil;Bacolod;Baculud
+fil;Baculong;Bakulong
+fil;Bactig;Bagtig
+fil;Bactalan;Battalan
+fil;Bacring;Bakring Norte
+fil;Bacradan;Bacradal
+ceb;Bakoor;Bacoor
+tl;Lungsod ng Bacoor;Bacoor
+ru;Бакоор;Bacoor
+ur;باکوور;Bacoor
+en;Bacangan;Leon Postigo
+fil;Bacong;Ilayang Bacong
+fil;Bacolod Hacienda;Hacienda Bacolod
+es;Bacólod;Bacolod City
+pt;Bacólod;Bacolod City
+tl;Lungsod ng Bacolod;Bacolod City
+de;Bacolod;Bacolod City
+ceb;Dakbayan sa Bacolod;Bacolod City
+it;Bacólod;Bacolod City
+fr;Bacolod;Bacolod City
+ru;Баколод;Bacolod City
+fil;Bacolod;Baculod
+fil;Bacnor;Bacnor East
+fil;Backiling;Baquiling
+fil;Bachao;Bachao Ibaba
+fil;Bakhaw;Bachao Ibaba
+fil;Tauantauan;Bacusanon
+fil;Bacari;Bakari
+fil;Bocacleo;Bocacliw
+fil;Bacalan;Bakalan
+fil;Bacal I;Bakal Uno
+fil;Bacal;Bakal Uno
+fil;Babayoan;Babayaan
+fil;Babal-lasiuan;Baballasioan
+fil;Banyan;Baayan
+fil;Baac;Baoc
+fil;Azufre;Azupre
+fil;Ayuyan;Ayugan
+fil;Ayusan;Ayusan Uno
+fil;Ayusan I;Ayusan Uno
+fil;Ayuñgon;Ayongon
+fil;Ayzoan;Ayaoan
+fil;Aoan;Awan
+fil;Barrio Tres;Avanceña
+fil;San Pablo;Auitan
+fil;Anitan;Auitan
+fil;Atulut;Atulu
+fil;Atolinao;Atulinao
+fil;Atlubola;Atlu-bola
+fil;Atipuluan;Atipuluhan
+fil;Ataynar;Ataynan
+fil;Pacu;Asuncion
+fil;Paco;Asuncion
+fil;Assasi;Asassi
+fil;Aslum;Aslom
+fil;Asinga;Asinga-Via
+fil;Asilap;Silap
+fil;Asan;Asan Sur
+fil;Asan;Asan Norte
+fil;Arraal;Araal
+fil;Camp Four;Aropong Camp Four
+fil;Camp Number Four;Aropong Camp Four
+fil;Armenia;Arminia
+fil;Ariston Oeste;Ariston Weste
+fil;Ariston;Ariston Weste
+fil;Argosino;Argosin
+fil;Aragao;Argao
+fil;Ar-Arumpang;Ararampang
+fil;Aranguring;Aranguren
+fil;Aranaya;Arinaya
+fil;Arajat;Araiat
+fil;Arbiat;Arabiat
+fil;Aquib Sur;Aquib
+fil;Apuled;Apulid
+fil;Apocon;Apokon
+fil;Piat;Apiat
+fil;Apayn;Apaya
+fil;Apparri;Aparri
+zh;阿帕里;Aparri
+fil;Appari;Aparri
+fil;Apatot;Apatut
+fil;Apalot;Apatut
+ru;Апалит;Apalit
+fil;Apad Lutao;Apad
+fil;Aoang;Aloang
+fil;Anatam;Anyatam
+fil;Anapul;Anupul
+fil;Anunanag;Anonang
+fil;Anulid;Anolid
+en;Antipolo City;Antipolo
+ru;Антиполо;Antipolo
+fil;Antagan Dos;Antagan Segunda
+fil;Antagan;Antagan Segunda
+fil;Anguray;Anquiray
+fil;Anguira;Anquiray
+fil;Anoun;Anon
+fil;Anoling;Anoling Second
+fil;Anoling;Anoling First
+fil;Annatunan;Annafunan
+fil;Anita Hacienda;Hacienda Anita
+fil;Anibong;Anibung
+fil;Aniban;Aniban Quinto
+fil;Angyapat;Angapat
+ru;Ангоно;Angono
+ko;앙헬레스;Angeles City
+ru;Ангелес;Angeles City
+fil;Añgayan;Angayan Norte
+fil;Santa Cruz;Angat
+fil;Angarilla;Angrilla
+fil;Angaleyguey;Amgaleyley
+fil;Angadauan;Angadanan
+fil;Angadangan;Angadanan
+fil;Ananonas Sur;An-Anonas
+fil;Anan-nam;An- Annam
+fil;Anangui;Anangul
+fil;Anaao;Ananao
+fil;Amulong;Amulung
+fil;Amtuagan;Amluagan
+fil;Antuagan;Amluagan
+fil;Amposungan;Ampusungan
+fil;Ampoagan;Ampuagan
+fil;Ampid;Ampid Primero
+fil;Ampid I;Ampid Primero
+fil;Ampaliok;Ampayoc
+fil;Amoloñgin;Amolongin
+fil;AmoiNgan;Amdingon
+fil;Amoingon;Amdingon
+fil;Ammagacan;Magacan
+fil;Ammacian;Amucian
+fil;Amlao;Amalao
+fil;Amilongon;Amilongan
+fil;Amgayan;Amgayang
+fil;Ambulogan-Labuac;Labuac
+fil;Ambulosan;Ambulugan
+fil;Ambulogan;Ambulugan
+fil;Ambuiogan-Labuac;Ambulugan
+fil;Ambogao;Ambugao
+fil;Ambocao;Ambucao
+fil;Aimbasin;Ambasing
+fil;Ambangunan;Ambangonan
+fil;Ambangig;Ambangeg
+fil;Ambalo;Amballo
+fil;Ambalayat;Ambalayan
+fil;Amansic;Amansec
+fil;Amansabino;Amansabina
+fil;Amancosiling;Amancosiling Sur
+fil;Amacalam;Amacalan
+fil;Alzateu;Alzate
+fil;Aloyon;Aluyon
+fil;Alto;Pilig Alto
+fil;Pilig;Pilig Alto
+fil;Alsem;Aslem
+fil;Alsam;Ilayang Alsam
+fil;Alonogan;Alanogan
+fil;Alogtog;Talogtog
+fil;Almaguer;Almaguer North
+fil;Almacon;Almacen
+es;La Granja;Allen
+fil;Allauan;Allavan
+fil;Allangigan;Allangigan Primero
+fil;Al-langigan;Allangigan
+fil;Al-lalabang;Apaleng
+fil;Alipangpang;Alipangpang South
+fil;Alipangang;Alipangpang South
+fil;Alipangan;Alipangpang South
+fil;Alinguigan;Allinguigan First
+fil;Alinguigan I;Allinguigan First
+fil;Alinasa;Alinasan
+fil;Alimannao;Alimanao
+fa;الیسیا، ایزابلا;Alicia
+fil;Alibueng;Alibeng
+ru;Алиага;Aliaga
+fa;الفانسو، کاویت;Alfonso
+fil;San Pasual;Alejandro Pascual
+fil;Alejandria;Hacienda Alejandria
+fa;الکانتارا، رامبلان;Alcantara
+fil;Acala;Alcala
+fa;البورکویرک، بهلول;Alburquerque
+fil;Launay;Alannay
+fil;Alinguigan;Allangigan
+fil;Alanguigan;Allangigan
+fil;Alangilan;Alanggilan
+es;Alaminos de Pangasinán;Alaminos
+fa;الامیناس، پانگاسینان;Alaminos
+id;Kota Alaminos;Alaminos
+ur;الامینوس، پانگاسینان;Alaminos
+fil;Al-Aluding;Alaludig
+fil;Maludig;Alaludig
+fil;Alainao Sur;Al-alinao Sur
+fil;Allah Valley;Alah Valley
+fil;Alah;Ala
+en;Alabug East;Alabug
+fil;Alabog;Alabug
+fil;Acle;Akle
+en;Agupalo West;Agupalo Oeste
+fil;Agtangao;Actangao
+fil;Agosagos;Agos-agos
+fa;اگو، لا یونیون;Agoo
+ur;اگو، لا یونیان;Agoo
+fil;Agno;Alno
+es;Agno de Pangasinán;Agno
+fa;اگنو، پانگاسینان;Agno
+ur;اگنو، پانگاسینان;Agno
+fil;Guinalvin;Aglipay
+fil;Guinalbin;Aglipay
+ja;アグラヤン;Aglayan
+ru;Аглаян;Aglayan
+fil;Aggumitan;Aggunetan
+fil;Aggunatan;Aggunetan
+fil;Aggugadan;Aggugaddah
+fil;Aggugaddan;Aggugaddah
+fil;Aggugadaan;Aggugaddah
+fil;Aggassian;Aggasian
+fil;Agbanawag;Agbannawag
+fil;Agbannaway;Agbannawag
+fil;Agbannaoag;Agbannawag
+fil;Agapang;Agapana
+fil;Aganlan;Agantan
+fil;Agalusuanan;Agulusuanan
+fil;Agalusanan;Agulusuanan
+fil;Afusing Batu;Afusing Bato
+fil;Afusing;Afusing Centro
+fil;Aposingbato;Afusing Centro
+fil;Aduyongan;Aduyungan
+en;Addition Hills;Addition Hills Brookside
+fil;Adaway;Adaoay
+fil;Adata;Adala
+fil;Adagapi;Adaga
+fil;Adagap;Adaga
+fil;Cocolao;Acocolao
+fil;Acustilan;Accusilian
+fil;Accusillian;Accusilian
+fa;ابویاگ، لییت;Abuyog
+fil;Abuor;Abour
+fil;Abuer;Abour
+fil;Abolan;Abulan
+en;Abucay North;Abucay Norte
+fil;Abot;Abut
+fil;Abelo;Abolo
+fil;Ablang;Abling
+fil;Abbeg Sur;Abbey Sur
+fil;Abbeg Norte;Abbeg
+fil;Abbatuan;Ambatuan
+fil;Abbangaran;Abanqueruan
+fil;Abbangueran;Abanqueruan
+fil;Abar Segundo;Abar 2
+fil;Ablos;Abalos
+fil;Abbagao;Abagao
+fil;Ambeyet;Ambayat First
+fil;Aman;Alman
+fil;Lambaken;Lambakin
+fil;Mapulang Lupa;Mapulanglupa
+fil;Dasmarinas;Dasmariñas
+fil;Manggahan;Mangahan
+fil;Amitty Ville;Amityville
+fil;Guitnang Bayan II;Guitnang Bayan Segundo
+fil;Gitnang Bayan II;Guitnang Bayan Segundo
+fil;Guitnang Bayan I;Guitnang Bayan Primero
+fil;Gitnang Bayan I;Guitnang Bayan Primero
+en;Timberland Heights;Maarat
+fil;Concepcion 1;Concepcion I
+fil;Concepcion 2;Concepcion Dos
+fil;Concepcion II;Concepcion Dos
+fil;Mangahan;Manggahan
+fil;Calumpang;Calumpang Santo Cristo
+fil;Mapiga;Mabiga
+fil;Mamanpen;Mampan
+fil;Canachile;Camachiles
+fil;Cuayan;Couayan
+fil;Lobok;Loboc
+fil;Dacong Cog;Dacong Cogon
+fil;Kagawasan;Kauswagan
+fil;Luyos;Luyus
+fil;Polacion Centro;Poblacion Central
+fil;Old Escalante;Escalante
+fil;Kabalugaan;Cabalugaan
+fil;Palali;Palale
+fil;Poblacion;Libertad
+fil;Pag-Asa;Bagong Pagasa
+fil;Bagong Pag-asa;Bagong Pagasa
+en;Bagong Pag-asa;Bagong Pagasa
+fil;Lagro;Greater Lagro
+fil;Canlatha;Canlabha
+fil;Libenab Grande;Labinab Grande
+fil;Dibcuan;Dibewan
+fil;Callauan;Callawan
+fil;Catocan Norte;Catugan Norte
+fil;Batuwalan;Batulawan
+ru;Малингао;Malingao
+fil;Marinaot;Marinaut
+fil;Calocan;Wawaylan Calocan
+fil;Kalookan;Wawaylan Calocan
+fil;Campo IV;Campo Cuatro
+fil;Campo Kwatro;Campo Cuatro
+ru;Коммонвеалт;Commonwealth
+en;Fairview;Golden Cronica Publishing
+ru;Багонг Силанган;Bagong Silangan
+fil;Ampid II;Ampid Segundo
+en;St. Ignacius;Saint Ignacius
+fil;Martires Del ’96;Martirez Del Noventa y Seis
+fil;Magtangol;Magtanggol
+en;Pasig;Pasig City
+ru;Пасиг;Pasig City
+en;N. Zabala;Nicanor Zabala
+fil;Pasong Buaya II;Pasong Buaya Segunda
+ru;Поблакион;Poblacion
+fil;Poblacion II;Barangay Dos Poblacion
+fil;Kabañaoan;Cabangaan
+en;Nangalisan;Cabeseria Siete
+fil;Dimalicolico;Dimalicu-licu
+fil;Afunan;Afunan Cabayu
+fil;Luig;Luec
+fil;Gagadangan;Gagaddangan
+fil;Gaddangan;Gagaddangan
+fil;Maburao;Mapurao
+fil;Nagatatan;Nagattatan
+fil;Kapagaran;Capagaran
+fil;Lafu;San Antonio
+fil;Kapalutan;Capalutan
+fil;Lalapugan;Lalafugan
+fil;Vega;Viga
+fil;Calao;Callao Sur
+fil;Adviento;L. Adviento
+fil;Newacac;Newagac
+fil;Nabaccan;Nabaccayan
+fil;Calapagan Dackel;Calaoagan Dackel
+fil;Alocao;Alucao
+fil;Santa Isabela;Santa Isabel
+fil;Peña Este;Piña Este
+fil;Peña Weste;Piña Weste
+fil;Baritagan;Baratagan
+fil;Batangan;Baratagan
+fil;Tagong;Tagum
+fil;Rang-Ayan;Rangayan
+fil;Maganiao;Macaniao
+fil;Ling Lingay;Linglingay
+fil;Mangandingan;Mangandingay
+fil;Basit;Rancho Bassit
+fil;Anurtutu;Anurturu
+fil;Weste;Papan Weste
+fil;Villa Flor;Villaflor
+fil;San Manuel;Atelan
+fil;Bannawag Sur;Bannawag
+fil;Diarao Bantay;Bantay
+fil;Rizalina;Rizaluna
+fil;Old Centro Dos;Old Centro Segundo
+fil;Old Centro Uno;Old Centro Primero
+fil;Bellaluz;Bella Luz
+fil;Lumbay;Lomboy
+fil;Ranyag;Raniag
+fil;Sun Life;Sunlife
+fil;Iomines;Tomines
+fil;Karikikan;Carikkikan Sur
+fil;San Marcos;Marcos
+fil;Masiqun;Masigun
+fil;Nueve Era;Nueva Era
+fil;Mararique;Mararigue
+fil;Villa Buena;Villabuena
+en;Calinauan North;Calinaoan Norte
+fil;Small Andarayan;Andarayan
+fil;Patayya;Pataya
+fil;Parog-Parog;Parug-parug
+fil;Nabialan;Nabbialan
+fil;Maagas;Maahas
+fil;Paule I;Paule 1
+fil;Paule II;Paule 2
+fil;Inohan;Inoman
+fil;Bobonon;Bobonan
+fil;Agar;Agat
+fil;Casa Pagaan;Casampagaan
+fil;San Tiago;Santiago
+fil;Capas Central;Capas
+fil;Nanglangalan;Nantangalan
+fil;Hawaii;Haway
+fil;Fernandoan;Casanfernandoan
+fil;Liaban;Llaban
+fil;Immalog;Inmalog
+fil;Abas;Abas River
+fil;Solocan;Sulucan
+fil;Lomadegato;Loma de Gato
+fil;Mallgaya;Maligaya
+fil;Caloocan;Calaocan District
+fil;Bagong Bayan;Bagumbayan
+fil;Balacat Larcon;Larcon
+fil;Pulong Sinkamas;Pulong Singkamas
+fil;Balangcari Norte;Balangkare Norte
+fil;Balangcari Sur;Balangkare Sur
+fil;Sampaloc;Mag-asawang Sampaloc
+fil;Don Ignacio;Don Ignacio Dimson
+fil;Caduang;Caduang Tete
+fil;Tampoc;Tampok
+fil;Bebe Anak;Bebe Anac
+fil;Abucay South;Abucay Sur
+fil;Tabtabongao;Tabtabungao
+fil;Benteng-Sapilan;Benteng-Sapilang
+fil;Taratara;Tara-tara
+fil;Inmaog;Inmalog
+fil;Tomeeng;Lipit-Tomeeng
+en;Ventinella East;Ventinilla
+fil;Cabilocoan;Cabilocaan
+fil;Poblacion;Northern Poblacion
+fil;Saplad;Saplad David
+fil;Banlay;Banlog
+fil;Catoñgi;Catungi
+fil;Padangdang;Padongdong
+fil;Dodongan;Dodongan Sablig
+fil;Agoso;Agosa
+fil;Yopa;Yapa
+fil;Apurac;Aporao
+fil;Ballac;Ballag
+fil;Batyawan;Bataiwan
+fil;Garita;Garrita
+en;Camangalan East;Camangaan East
+fil;Tulega;Tolega Sur
+fil;Lililog;Lilllog
+fil;Lorensa;Lorens
+fil;Cabayogan;Cabayodan
+fil;Maybobon;Maybubon
+fil;Macamisa;Macamias
+fil;Malued;Maluid
+fil;Pagsanaan;Pagsanahan Sur
+fil;Tabuan;Santo Niño Tabuan
+fil;Hag Bulo;Ilog-Bulo
+fil;Ilog Bulog;Ilog-Bulo
+fil;Cabio;Cambio
+fil;Labno;Labne
+fil;Lourdez;Lourdes
+fil;Macapilapil;Makapilapil
+fil;Mataasna Parang;Mataas na Parang
+fil;Boy Camba;Kaledian
+fil;Pangolara;Pangclara
+fil;Lapaz;La Paz
+fil;Turu;La Paz
+fil;La Purima;La Purisima
+fil;Talimundoc;Talimunduc Marimla
+fil;Marimla;Talimunduc Marimla
+fil;Kaingin;Caingin Tabing Ilog
+fil;Baniitan;Banitan
+fil;Macapabillag;Macapabellag
+fil;Kabubulaunan;Cabubulaonan
+fil;Basang-Hamo;Bantug Hamog
+fil;Pantuk Bulak;Pantoc Bulac
+fil;Kaninap Lahan;Caaniplahan
+fil;Kinalu-ugan;Kinalanguyan
+en;Campus;Campos
+fil;Cabuago;Cabugao
+fil;Tampak-II;Tampac Segundo y Tercero
+fil;Tampak III;Tampac Segundo y Tercero
+fil;Paludpon;Paludpod
+fil;Fintong-gubat;Pintong Gubat
+fil;San Andres I;San Andres Primero
+fil;Leet Hacienda;Leet
+fil;Asin;Asin Este
+fil;Sonkoy;Songkoy
+fil;Binaley;Binalay
+fil;Oarey;Warey
+fil;Mangayae;Mangayao
+fil;Puera;Duera
+fil;Nalnoran;Nalneran
+fil;Alingan;Alinggan
+en;Osmena Senior;Osmena Sr.
+fil;Buag;Baug
+fil;Daraoey;Darawey
+fil;Binbinica;Binbinaca
+fil;Laucamulug;Lawacamulag
+fil;Bati-arao;Batiarao
+fil;Villa Silverio;Don Faustino Pagaduan
+fil;Villa Rose;Villarose
+fil;Batangas;Batangas II
+fil;Aleon;Alion
+fil;Macabocud;Macabucod
+fil;Magpapalayok;Magpapalayoc
+fil;Ocamoo;Ocampo-Rivera District
+fil;Mabunia;Imbunia
+fil;Pacol;Pakol
+fil;Rajal Sentro;Rajal Centro
+fil;Pasong Kawayan II;Pasong Kawayan Segundo
+fil;Malomok;Malamok
+fil;Inchikan;Inchican
+fil;Malatao;Malilitao
+fil;Bagotong;Bagutong
+fil;Gurengad;San Luis
+fil;Masabsablang;Masablang
+fil;Malalao Lepanto;Lepanto
+fil;Dummon;Dunmon
+fil;Taribobo;Taribubu
+ru;Пандан;Pandan
+fil;Bayan ng Pandan;Pandan
+tl;Bayan ng Pandan;Pandan
+fil;Ilayang Kalilyan;Kalilayan Illaya
+fil;Ilagang Panaon;Panaon Ilaya
+fil;Pala;San Antonio
+fil;Magcopa;San Antonio
+fil;Bonton;Gango
+fil;San Faustino;Faustino
+fil;Nungnungan I;Nungnungan Primero
+fil;Nungnungan II;Nungnungan Segundo
+fil;Kalawayan;Calawagan
+fil;Cagcar;Cagcan
+fil;Muna;Mona
+fil;Manabuyok;Minabuyoc
+fil;Bonifacio;Bonifacio District
+fil;Cassap Puerra;Cassap Fuera
+fil;Bagonq Sikat;Bagong Sikat
+fil;Maragul;Maragol
+fil;Calabalabaan Bay;Calabalabaan
+fil;Caritan;Caritan Norte
+fil;Bagong Bayan;Bagong Bayan II-A
+fil;Santo Niño;Santo Niño Segundo
+fil;Kay Pian;Kaypian
+fil;Daangbago;West Daang Bago
+fil;Maria;Maria Fe
+fil;San;San Juan
+fa;سان خوآن;San Juan
+mr;सान हुआन;San Juan
+th;ซานฮวน;San Juan
+ja;サンフアン;San Juan
+zh;圣胡安;San Juan
+fil;Bura;Bora
+fil;Culubayo;Culibayo
+fil;Panoypoy;Paitan-Panoypoy
+fil;Capalian;Capalalian
+fil;Dinili;Pinili
+fil;Calug Sur;Calog Sur
+fil;Barucbuc;Barocboc
+fil;Minante I;Minante Primero
+fil;Nangsolo;Nagsalo
+fil;Bacal III;Bakal Tres
+fil;Rizal;Rizal East
+fil;Luciente;Luciente Dos
+fil;San Jose;San Jose de Urquico
+fil;Libucan West;Libucan Gote
+fil;Santo Tomas Sur;Santo Tomas South
+fil;San Rafael;San Rafael Village
+fil;Tambu Balagbag;Tambo Balagbag
+fil;Norala Barrio Uno;Benigno Aquino Junior
+fil;Tiboro;Quiboro
+fil;Bayan ng Heneral Salipada K. Pendatun;General Salipada K. Pendatun
+ru;Багонг Силанг;Bagong Silang
+ru;Мандалуёнг;Mandaluyong
+fil;Dao;Santa Maria
+fil;Suha;San Pablo
+fil;Canclaran;Cangclaran
+fil;Bagasbas;Dapdap
+fil;San Julian;San Juan

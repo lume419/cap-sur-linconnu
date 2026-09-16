@@ -1,0 +1,1633 @@
+zh-TW;荃灣;Tsuen Wan
+ru;Цуен Ван;Tsuen Wan
+zh;榕樹灣;Yung Shue Wan
+zh;榕树湾;Yung Shue Wan
+ja;榕樹湾;Yung Shue Wan
+yue;榕樹灣;Yung Shue Wan
+zh;榕樹塱;Yung Shue Long
+zh;榕树塱;Yung Shue Long
+zh;榕樹下;Yung Shue Ha
+zh;榕树下;Yung Shue Ha
+zh;榕樹凹;Yung Shue Au
+zh;榕树凹;Yung Shue Au
+zh;月墩下;Yuen Tun Ha
+zh;圓墩;Yuen Tun
+zh;圆墩;Yuen Tun
+zh;元五墳;Yuen Ng Fan
+zh;元五坟;Yuen Ng Fan
+zh;元朗新墟;Yuen Long San Hui
+zh;元朗;Yuen Long San Hui
+ru;Юен Лонг Сан Хуи;Yuen Long San Hui
+zh;元朗舊墟;Yuen Long Kau Hui
+ja;元朗墟;Yuen Long Kau Hui
+yue;元朗舊墟;Yuen Long Kau Hui
+zh;元朗旧墟;Yuen Long Kau Hui
+ru;Юен Лонг Кау Хуи;Yuen Long Kau Hui
+zh;元朗;Yuen Long
+zh;元朗墟;Yuen Long
+ru;Юен Лонг;Yuen Long
+zh;元嶺;Yuen Leng
+zh;元岭;Yuen Leng
+zh;元朗新村;Yuen Kong San Tsuen
+zh;元崗;Yuen Kong
+zh;元岗;Yuen Kong
+zh;圓洲角;Yuen Chau Kok
+zh;圆洲角;Yuen Chau Kok
+zh;魚角;Yue Kok
+zh;鱼角;Yue Kok
+zh;二陂圳;Yi Pei Chun
+zh;二排;Yi Pak
+zh;二澳新村;Yi O San Tsuen
+zh;二澳舊村;Yi O Kau Tsuen
+zh;二澳旧村;Yi O Kau Tsuen
+zh;二澳口;Yi O Hau
+zh;燕岩;Yin Ngam
+zh;燕崗;Yin Kong
+zh;燕岗;Yin Kong
+zh;營盤下;Ying Pun Ha
+zh;营盘下;Ying Pun Ha
+zh;營盤;Ying Pun
+zh;营盘;Ying Pun
+zh;盬灶下;Yim Tso Ha
+zh;鹽田;Yim Tin
+zh;盐田;Yim Tin
+zh;盬寮下;Yim Liu Ha
+zh;楊小坑;Yeung Siu Hang
+zh;杨小坑;Yeung Siu Hang
+en;Yau Yat Tsuen;Yau Yat Chuen
+en;Yau Yat;Yau Yat Chuen
+en;Yauyattsuen;Yau Yat Chuen
+zh;又一村;Yau Yat Chuen
+zh;邱屋村;Yau Uk Tsuen
+zh-Hant;油塘;Yau Tong
+zh;油麻地;Yau Ma Tei
+zh;油麻莆;Yau Ma Po
+zh;油麻磡村;Yau Ma Hom
+zh;油柑頭村;Yau Kom Tau Village
+zh;油柑头村;Yau Kom Tau Village
+zh;仁壽圍;Yan Shau Wai
+zh;仁寿围;Yan Shau Wai
+zh;胡屋;Wu Uk
+zh;烏石角;Wu Shek Kok
+zh;乌石角;Wu Shek Kok
+zh;烏鴉落陽;Wu Nga Lok Yeung
+zh;乌鸦落阳;Wu Nga Lok Yeung
+zh;狐狸頭;Wu Lei Tau
+zh;狐狸头;Wu Lei Tau
+zh;狐狸叫;Wu Lei Kiu
+zh;烏蛟騰;Wu Kau Tang
+zh;乌蛟腾;Wu Kau Tang
+zh;烏洲塘;Wu Chau Tong
+zh;乌洲塘;Wu Chau Tong
+zh;和宜合;Wo Yi Hop
+zh;禾塘崗;Wo Tong Kong
+zh;禾塘岗;Wo Tong Kong
+zh;窩田;Wo Tin
+zh;窝田;Wo Tin
+zh;禾上墩;Wo Sheung Tun
+zh;禾上坳;Wo Sheung Au
+zh;和生圍;Wo Shang Wai
+zh;和生围;Wo Shang Wai
+zh;黃魚灘;Wong Yue Tan
+zh;黄鱼滩;Wong Yue Tan
+zh;黃宜洲;Wong Yi Chau
+zh;王屋;Wong Uk Tsuen
+zh;黃屋村;Wong Uk Tsuen
+zh;黄屋村;Wong Uk Tsuen
+zh;王屋;Wong Uk
+zh-Hant;黃大仙;Wong Tai Sin
+ru;Вонг Таи Син;Wong Tai Sin
+zh;黄泥屋;Wong Nai Uk
+zh;黃泥墩;Wong Nai Tun
+zh;黃泥頭;Wong Nai Tau
+zh;黄泥头;Wong Nai Tau
+zh;黃泥塊;Wong Nai Fai
+zh;黄泥块;Wong Nai Fai
+zh;黃毛應;Wong Mo Ying
+zh;黄毛应;Wong Mo Ying
+zh;黃茅角;Wong Mau Kok
+zh;黃龍坑;Wong Lung Hang
+zh;黄龙坑;Wong Lung Hang
+zh;黃麖地;Wong Keng Tei
+zh;皇家圍;Wong Ka Wai
+zh;皇家围;Wong Ka Wai
+zh;黃家圍;Wong Ka Wai
+zh;黄家围;Wong Ka Wai
+zh;黄公田;Wong Kung Tin
+zh;黃鳳嶺;Wong Fung Leng
+zh;黄凤岭;Wong Fung Leng
+zh;黃竹洋;Wong Chuk Yeung
+yue;黃竹洋;Wong Chuk Yeung
+zh;黄竹洋;Wong Chuk Yeung
+zh;黃竹灣;Wong Chuk Wan
+zh;黄竹湾;Wong Chuk Wan
+zh;黃竹村;Wong Chuk Tsuen
+zh;黄竹村;Wong Chuk Tsuen
+zh;黃竹山;Wong Chuk Shan
+zh;黃竹塱;Wong Chuk Long
+zh;黄竹坑新圍;Wong Chuk Hang San Wai
+zh;黄竹坑新围;Wong Chuk Hang San Wai
+zh;禾寮坑;Wo Liu Hang
+zh;禾寮;Wo Liu
+zh;禾徑山;Wo Keng Shan
+zh;禾径山;Wo Keng Shan
+zh;禾坑大朗;Wo Hang Tai Long
+zh;禾輋;Wo Che
+zh;永平村;Wing Ping Tsuen
+zh;永寧圍;Wing Ning Wai
+zh;永宁围;Wing Ning Wai
+zh;永寧村;Wing Ning Tsuen
+zh;永宁村;Wing Ning Tsuen
+zh;永寧里;Wing Ning Lei
+zh;永宁里;Wing Ning Lei
+zh;永隆圍;Wing Lung Wai
+zh;永隆围;Wing Lung Wai
+zh;永寧村;Wing Ling Tsuen
+zh;永宁村;Wing Ling Tsuen
+zh-TW;運頭塘;Wan Tau Tong
+zh;運頭角;Wan Tau Kok
+zh;运头角;Wan Tau Kok
+zh;橫塘;Wang Tong
+zh;橫台山;Wang Toi Shan
+zh;橫山腳新村;Wang Shan Keuk San Tsuen
+zh;横山脚新村;Wang Shan Keuk San Tsuen
+zh;橫山腳;Wang Shan Keuk
+zh;横山脚;Wang Shan Keuk
+zh;橫塱;Wang Long
+zh;黃龍頭;Wang Leng Tau
+zh;黄龙头;Wang Leng Tau
+zh;横坑;Wang Hang
+zh;橫輋;Wang Che
+zh;灣仔;Wan Chai
+en;Wanchai;Wan Chai
+ru;Ваньчай;Wan Chai
+zh;晝眉山;Wa Mei Shan
+zh;昼眉山;Wa Mei Shan
+zh;圍仔;Wai Tsai
+zh;围仔;Wai Tsai
+zh;圍頭村;Wai Tau Tsuen
+zh;围头村;Wai Tau Tsuen
+zh;圍下;Wai Ha
+zh;围下;Wai Ha
+zh;華富邨;Wah Fu
+zh;华富邨;Wah Fu
+zh;上羗;Upper Keung Shan
+zh;屋頭;Uk Tau
+zh;屋头;Uk Tau
+zh;屋場;Uk Cheung
+zh;屋场;Uk Cheung
+zh;東灣頭;Tung Wan Tau
+zh;东湾头;Tung Wan Tau
+zh;東灣;Tung Wan
+zh;东湾;Tung Wan
+zh;洞梓;Tung Tsz
+zh;東頭村;Tung Tau Tsuen
+zh;东头村;Tung Tau Tsuen
+zh;東山下;Tung Shan Ha
+zh;东山下;Tung Shan Ha
+zh;東山淇;Tung Sam Kei
+zh;东山淇;Tung Sam Kei
+zh;東澳;Tung O
+zh;东澳;Tung O
+zh-TW;銅鑼灣;Causeway Bay
+ja;銅鑼湾;Causeway Bay
+ko;코즈웨이 베이;Causeway Bay
+ta;கவுசவே குடா;Causeway Bay
+yue;銅鑼灣;Causeway Bay
+zh;銅鑼灣;Causeway Bay
+zh;铜锣湾;Causeway Bay
+ru;Козуэй-Бей;Causeway Bay
+zh;銅鑼灣;Tung Lo Wan
+zh;铜锣湾;Tung Lo Wan
+zh;東閣圍;Tung Kok Wai
+zh;东阁围;Tung Kok Wai
+zh;東鎮圍;Tung Chan Wai
+zh;东镇围;Tung Chan Wai
+zh;篤尾涌;Tuk Mei Chung
+zh;笃尾涌;Tuk Mei Chung
+zh;屯子圍;Tuen Tsz Wai
+zh;屯子围;Tuen Tsz Wai
+zh;屯門新墟;Tuen Mun San Hui
+zh;屯門舊墟;Tuen Mun Kau Hui
+zh;屯门旧墟;Tuen Mun Kau Hui
+zh;屯门;Tuen Mun
+zh;屯門;Tuen Mun
+yue;屯門;Tuen Mun
+en;Tuenmen;Tuen Mun
+ru;Туен Мун;Tuen Mun
+zh-TW;慈雲山;Tsz Wan Shan
+zh;慈云山;Tsz Wan Shan
+zh;祠唐村;Tsz Tong Tsuen
+zh;祠塘村;Tsz Tong Tsuen
+zh;紫田村;Tsz Tin Tsuen
+zh;松園下;Tsung Yuen Ha
+zh;松园下;Tsung Yuen Ha
+zh;松園;Tsung Yuen
+zh;松园;Tsung Yuen
+zh;松仔園;Tsung Tsai Yuen
+zh;松仔园;Tsung Tsai Yuen
+zh;松頭下;Tsung Tau Ha
+zh;松头下;Tsung Tau Ha
+zh;松柏朗;Tsung Pak Long
+zh;早禾坑;Tso Wo Hang
+zh;草灣;Tso Wan
+zh;草湾;Tso Wan
+zh;草堆下;Tso Tui Ha
+zh;曹公潭;Tso Kung Tam
+zh;作壆坑;Tsok Pok Hang
+zh;菜園村;Tsoi Yuen Tsuen
+zh;菜园村;Tsoi Yuen Tsuen
+zh;菜園角;Tsoi Yuen Kok
+zh;菜园角;Tsoi Yuen Kok
+zh;蕉窩;Tsiu Wo
+zh;蕉窝;Tsiu Wo
+zh;蕉林;Tsiu Lam
+zh;蕉徑彭屋;Tsiu Keng Pang Uk
+zh;蕉径彭屋;Tsiu Keng Pang Uk
+zh;蕉徑老圍;Tsiu Keng Lo Wai
+zh;蕉径老围;Tsiu Keng Lo Wai
+zh;蕉坑;Tsiu Hang
+zh;煎魚灣;Tsin Yue Wan
+zh;煎鱼湾;Tsin Yue Wan
+zh;淺水灣;Repulse Bay
+zh;浅水湾;Repulse Bay
+ceb;Tsin Shui Wan;Repulse Bay
+ru;Рипалс-Бэй;Repulse Bay
+yue;淺水灣;Repulse Bay
+fr;Baie de Repulse;Repulse Bay
+es;Bahía Repulse;Repulse Bay
+zh-Hans;浅水湾;Repulse Bay
+ar;خليج الصدة;Repulse Bay
+ja;レパルスベイ;Repulse Bay
+en;Tsing Yi;Tsing Yi Town
+zh-Hant;青衣;Tsing Yi Town
+ru;Цинъи;Tsing Yi Town
+zh;青山村;Tsing Shan Tsuen
+zh;青龍村;Tsing Lung Tsuen
+zh;青龙村;Tsing Lung Tsuen
+zh;青龍頭;Tsing Lung Tau
+zh;青龙头;Tsing Lung Tau
+yue;青龍頭;Tsing Lung Tau
+zh;清快塘;Tsing Fai Tong
+zh;青磚圍;Tsing Chuen Wai
+zh;青砖围;Tsing Chuen Wai
+zh;青洲灣;Tsing Chau Wan
+zh;青洲湾;Tsing Chau Wan
+zh;尖沙嘴;Tsim Sha Tsui
+zh;尖沙咀;Tsim Sha Tsui
+en;Tsimshatsui;Tsim Sha Tsui
+ru;Чимсачёй;Tsim Sha Tsui
+yue;尖沙嘴;Tsim Sha Tsui
+ko;짐사저이;Tsim Sha Tsui
+ta;சிம் சா சுயி;Tsim Sha Tsui
+ar;تسيم شا تسوي;Tsim Sha Tsui
+vi;Tiêm Sa Chủy;Tsim Sha Tsui
+th;จิมซาจุ่ย;Tsim Sha Tsui
+ja;尖沙咀;Tsim Sha Tsui
+fa;تسیم شا تسوی;Tsim Sha Tsui
+ru;Цеунг Кван О;Tseung Kwan O
+zh;祥降圍;Tseung Kong Wai
+zh;祥降围;Tseung Kong Wai
+zh;井頭圍;Tseng Tau Wai
+zh;井头围;Tseng Tau Wai
+zh;井頭新村;Tseng Tau San Tsuen
+zh;井头新村;Tseng Tau San Tsuen
+zh;井頭;Tseng Tau
+zh;井头;Tseng Tau
+zh;七星崗;Tsat Sing Kong
+zh;七星岗;Tsat Sing Kong
+zh;山下圍;Tsang Tai Uk
+zh;山下围;Tsang Tai Uk
+zh;曾咀;Tsang Tsui
+zh;斬竹灣;Tsam Chuk Wan
+zh;斩竹湾;Tsam Chuk Wan
+zh;鲫魚湖;Tsak Yue Wu
+zh;鲫鱼湖;Tsak Yue Wu
+zh;桃園圍;To Yuen Wai
+zh;桃园围;To Yuen Wai
+zh;桃源洞;To Yuen Tung
+zh;土地灣;To Tei Wan
+zh;土地湾;To Tei Wan
+zh;渡頭;To Tau
+zh;渡头;To Tau
+zh;多石;To Shek
+zh;唐人新村;Tong Yan San Tsuen
+zh;塘肚;Tong To
+zh;塘頭埔;Tong Tau Po
+zh;塘头埔;Tong Tau Po
+zh;塘面村;Tong Min Tsuen
+zh;唐公嶺;Tong Kung Leng
+zh;唐公岭;Tong Kung Leng
+zh;劏雞井;Tong Kai Tseng
+zh;劏鸡井;Tong Kai Tseng
+zh;塘坑;Tong Hang
+zh;塘福;Tong Fuk
+zh;塘坊村;Tong Fong Tsuen
+zh;塘坊;Tong Fong
+zh-TW;土瓜灣;To Kwa Wan
+zh;土瓜坪;To Kwa Peng
+zh;道風山;To Fung Shan
+zh;道风山;To Fung Shan
+zh;調景嶺;Tiu Keng Leng
+zh;调景岭;Tiu Keng Leng
+zh-Hans;调景岭;Tiu Keng Leng
+ja;調景嶺;Tiu Keng Leng
+yue;調景嶺;Tiu Keng Leng
+zh;鐵鉗坑;Tit Kim Hang
+zh;铁钳坑;Tit Kim Hang
+zh;鐵坑;Tit Hang
+zh;铁坑;Tit Hang
+zh;田灣;Tin Wan
+zh;田湾;Tin Wan
+zh;天水圍;Tin Shui Wai
+ja;天水囲;Tin Shui Wai
+yue;天水圍;Tin Shui Wai
+fa;تین شوی وای;Tin Shui Wai
+ru;Тин Шуи Ваи;Tin Shui Wai
+zh;田心;Tin Sam
+zh;田心村;Tin Sam
+zh;田寮村;Tin Liu Tsuen
+zh;田寮下;Tin Liu Ha
+zh;田寮;Tin Liu
+zh;田下灣;Tin Ha Wan
+zh;田下湾;Tin Ha Wan
+zh;汀角;Ting Kok
+zh;汀九;Ting Kau
+ja;汀九;Ting Kau
+yue;汀九;Ting Kau
+zh;田夫仔;Tin Fu Tsai
+zh;地堂咀;Tei Tong Tsui
+zh;地塘仔;Tei Tong Tsai
+zh;打鐵屻;Ta Tit Yan
+zh;打铁屻;Ta Tit Yan
+zh;打石湖;Ta Shek Wu
+zh;塔門;Tap Mun Shi
+zh;塔门;Tap Mun Shi
+zh;打棚埔;Ta Pang Po
+zh;丹桂村;Tan Kwai Tsuen
+zh;蛋家灣;Tan Ka Wan
+zh;蛋家湾;Tan Ka Wan
+zh;丹竹坑老圍;Tan Chuk Hang Lo Wai
+zh;丹竹坑老围;Tan Chuk Hang Lo Wai
+zh;丹竹坑;Tan Chuk Hang
+zh;躉場;Tan Cheung
+zh;躉场;Tan Cheung
+zh;氹笏;Tam Wat
+zh;担竿洲;Tam Kon Chau
+zh;得月樓;Tak Yuet Lau
+zh;得月楼;Tak Yuet Lau
+en;Tai Wo Hau Estate;Tai Wo Hau
+zh;大窩口邨;Tai Wo Hau
+zh;大窝口村;Tai Wo Hau
+zh-Hant;大窩口;Tai Wo Hau
+zh;太和;Tai Wo
+zh;大灣肚;Tai Wan To
+zh;大湾肚;Tai Wan To
+zh;大環頭;Tai Wan Tau
+zh;大环头;Tai Wan Tau
+zh;大灣新村;Tai Wan San Tsuen
+zh;大湾新村;Tai Wan San Tsuen
+zh;大灣舊村;Tai Wan Kau Tsuen
+zh;大湾旧村;Tai Wan Kau Tsuen
+zh;大灣;Tai Wan
+zh;大湾;Tai Wan
+zh;大環;Tai Wan
+zh;大环;Tai Wan
+zh;大圍;Tai Wai
+zh;大围;Tai Wai
+yue;大圍;Tai Wai
+zh;大屋圍;Tai Uk Wai
+zh;大屋围;Tai Uk Wai
+zh;大洞禾寮;Tai Tung Wo Liu
+zh;大洞;Tai Tung
+zh;大井圍;Tai Tseng Wai
+zh;大井围;Tai Tseng Wai
+zh;大塘;Tai Tong
+zh;大地塘;Tai Tei Tong
+zh;大頭嶺;Tai Tau Leng
+zh;大头岭;Tai Tau Leng
+zh;大灘;Tai Tan
+zh;大滩;Tai Tan
+zh;大潭;Tai Tam
+zh;大水坑;Tai Shui Hang
+zh;大石口;Tai Shek Hau
+zh;大生圍;Tai Shang Wai
+zh;大生围;Tai Shang Wai
+zh;大埔仔;Tai Po Tsai
+zh;大埔田;Tai Po Tin
+zh;大埔頭圍;Tai Po Tau Lo Wai
+zh;大埔头围;Tai Po Tau Lo Wai
+zh;大埔頭;Tai Po Tau
+zh;大埔头;Tai Po Tau
+zh;大埔尾;Tai Po Mei
+zh;大埔滘新圍;Tai Po Kau San Wai
+zh;大埔滘新围;Tai Po Kau San Wai
+zh;大埔滘老圍;Tai Po Kau Lo Wai
+zh;大埔滘老围;Tai Po Kau Lo Wai
+zh;大埔滘;Tai Po Kau
+zh-TW;大埔墟;Tai Po
+zh;大埔墟;Tai Po
+ko;다푸;Tai Po
+yue;大埔;Tai Po
+ru;Таи По;Tai Po
+zh;太坪;Tai Peng
+zh;大坪;Tai Peng
+zh;大白;Tai Pak
+zh;大菴山;Tai Om Shan
+zh;大菴;Tai Om
+zh;大澳;Tai O
+ru;Тай О;Tai O
+yue;大澳;Tai O
+ko;타이오;Tai O
+ja;大澳;Tai O
+fa;تای او;Tai O
+zh;大腦上洋;Tai No Sheung Yeung
+zh;大脑上洋;Tai No Sheung Yeung
+zh;大腦;Tai No
+zh;大脑;Tai No
+zh;大網仔;Tai Mong Tsai
+zh;大网仔;Tai Mong Tsai
+zh;大網輋;Tai Mong Che
+zh;大网輋;Tai Mong Che
+zh;大網仔;Tai Mong Che
+zh;大网仔;Tai Mong Che
+zh;大美督;Tai Mei Tuk
+zh-Hant;大埔海濱;Tai Mei Tuk
+zh;大浪灣村;Tai Long Wan Cun
+zh;大浪湾村;Tai Long Wan Cun
+zh;大浪;Tai Long
+zh;大冷水;Tai Lang Shui
+zh;大藍寮;Tai Lam Liu
+zh;大蓝寮;Tai Lam Liu
+zh;大欖涌村;Tai Lam Chung Tsuen
+zh;大榄涌村;Tai Lam Chung Tsuen
+zh;掃管灘;So Kwun Tan
+zh;扫管滩;So Kwun Tan
+zh;大江埔;Tai Kong Po
+zh;大角咀;Tai Kok Tsui
+zh;大乪;Tai Kek
+zh;大旗嶺;Tai Kei Leng
+zh;大滘;Tai Kau
+zh;泰康圍;Tai Hong Wai
+zh;泰康围;Tai Hong Wai
+zh;泰康村;Tai Hong Tsuen
+zh;大磡;Tai Hom
+zh;大蠔;Tai Ho
+zh;大蚝;Tai Ho
+zh;大坑尾;Tai Hang Mei
+zh;大坑口;Tai Hang Hau
+zh;大坑;Tai Hang
+zh;大赤沙;Tai Chik Sha
+zh;大輋;Tai Che
+zh;大洲渡;Tai Chau To
+zh;大坳門;Tai Au Mun
+zh;大坳门;Tai Au Mun
+zh;打蠔墩;Ta Ho Tun
+zh;獅子屋;Sz Tsz Uk
+zh;狮子屋;Sz Tsz Uk
+zh;四白;Sze Pak
+zh;順風圍;Sun Fung Wai
+zh;顺风围;Sun Fung Wai
+zh;小榄;Sui Lam
+zh;銷羅盆;So Lo Pun
+zh;销罗盆;So Lo Pun
+zh;扫管笏村;So Kwun Wat Tsuen
+zh;扫管笏;So Kwun Wat
+zh;掃桿埔;So Kwun Po
+zh;扫桿埔;So Kwun Po
+zh;掃捍埔;So Kon Po
+zh;扫捍埔;So Kon Po
+ru;Сок-Кву-Ван;Sok Kwu Wan
+zh;索罟灣;Sok Kwu Wan
+zh;索罟湾;Sok Kwu Wan
+en;Picnic Bay;Sok Kwu Wan
+en;Pichic Bay;Sok Kwu Wan
+zh;小菴山;Siu Om Shan
+zh;小瀝源;Siu Lek Yuen
+zh;小冷水;Siu Lang Shui
+zh;小滘;Siu Kau
+zh;小坑村;Siu Hang Tsuen
+zh;小坑新村;Siu Hang San Tsuen
+zh;小赤沙;Siu Chik Sha
+zh;小鴉洲村;Siu A Chau Tsuen
+zh;小鸦洲村;Siu A Chau Tsuen
+zh;仙人井;Sin Yan Tseng
+zh;錫降圍;Sik Kong Wai
+zh;锡降围;Sik Kong Wai
+zh;錫降村;Sik Kong Tsuen
+zh;锡降村;Sik Kong Tsuen
+zh;崇謙;Shung Him Tong
+zh;崇谦;Shung Him Tong
+zh;水窩;Shui Wo
+zh;水窝;Shui Wo
+zh;水蕉新村;Shui Tsiu San Tsuen
+zh;水蕉老圍;Shui Tsiu Lo Wai
+zh;水蕉老围;Shui Tsiu Lo Wai
+zh;水井灣;Shui Tseng Wan
+zh;水井湾;Shui Tseng Wan
+zh;水盞田;Shui Tsan Tin
+zh;水盏田;Shui Tsan Tin
+zh;水田村;Shui Tin Tsuen
+zh;水頭;Shui Tau
+zh;水头;Shui Tau
+zh;水邊圍;Shui Pin Wai
+zh;水边围;Shui Pin Wai
+zh;水邊村;Shui Pin Tsuen
+zh;水边村;Shui Pin Tsuen
+zh;水茫田;Shui Mong Tin
+zh;水尾;Shui Mei
+zh;水流田;Shui Lau Tin
+zh;水口;Shui Hau
+zh;船灣李屋;Shuen Wan Lei Uk
+zh;船湾李屋;Shuen Wan Lei Uk
+zh;船灣詹屋;Shuen Wan Chim Uk
+zh;船湾詹屋;Shuen Wan Chim Uk
+zh;船灣陳屋;Shuen Wan Chan Uk
+zh;船湾陈屋;Shuen Wan Chan Uk
+zh;船灣;Shuen Wan
+zh;船湾;Shuen Wan
+ru;Шусон Хилл;Shouson Hill
+zh-Hant;壽臣山;Shouson Hill
+zh;盛屋村;Shing Uk Tsuen
+zh;盛屋;Shing Uk
+zh;上窰;Sheung Yiu
+zh;上窑;Sheung Yiu
+zh;上洋;Sheung Yeung
+zh;上攸田;Sheung Yau Tin
+zh;上碗窰;Sheung Wun Yiu
+zh;上碗窑;Sheung Wun Yiu
+zh;上黃宜坳;Sheung Wong Yi Au
+zh;上黄宜坳;Sheung Wong Yi Au
+zh;上禾坑;Sheung Wo Hang
+zh;上村;Sheung Tsuen
+zh;上七木橋;Sheung Tsat Muk Kiu
+zh;上七木桥;Sheung Tsat Muk Kiu
+zh;上塘;Sheung Tong
+zh;上担水坑;Sheung Tam Shui Hang
+zh;相思灣;Sheung Sze Wan
+zh;相思湾;Sheung Sze Wan
+zh;上水華山;Sheung Shui Wa Shan
+zh;上水华山;Sheung Shui Wa Shan
+zh;上水;Sheung Shui
+zh;上山雞乙;Sheung Shan Kai Wat
+zh;上山鸡乙;Sheung Shan Kai Wat
+zh;上苗田;Sheung Miu Tin
+zh;上嶺皮;Sheung Ling Pei
+zh;上岭皮;Sheung Ling Pei
+zh;上流灣;Sheung Lau Wan
+zh;上流湾;Sheung Lau Wan
+zh;上花山;Sheung Fa Shan
+zh;上竹圍;Sheung Chuk Yuen
+zh;上竹围;Sheung Chuk Yuen
+zh;上章圍;Sheung Cheung Wai
+zh;上章围;Sheung Cheung Wai
+zh;上輋;Sheung Che
+zh;蛇頭;She Tau
+zh;蛇头;She Tau
+zh;社山;She Shan
+zh;石湖圍;Shek Wu Wai
+zh;石湖围;Shek Wu Wai
+zh;石湖塘;Shek Wu Tong
+zh;石湖墟;Shek Wu Hui
+zh-Hant;石圍角;Shek Wai Kok
+zh;石仔埗;Shek Tsai Po
+zh;石塘咀;Shek Tong Tsui
+zh;石頭圍;Shek Tau Wai
+zh;石头围;Shek Tau Wai
+zh;石埗村;Shek Po Tsuen
+zh;石壁凹;Shek Pik Au
+zh;石板潭;Shek Pan Tam
+zh;石板谭;Shek Pan Tam
+zh;石排灣邨;Shek Pai Wan Estate
+zh;石排湾邨;Shek Pai Wan Estate
+zh;石排頭;Shek Pai Tau
+zh;石排头;Shek Pai Tau
+zh;石澳村;Shek O
+ru;Шек-О;Shek O
+zh;石澳;Shek O
+zh;石門甲;Shek Mun Kap
+zh;石门甲;Shek Mun Kap
+zh;石壟仔;Shek Lung Tsai
+zh;石垄仔;Shek Lung Tsai
+zh;石梨;Shek Lei
+zh;石榴洞;Shek Lau Tung
+zh;石榴埔;Shek Lau Po
+zh;石古壟;Shek Kwu Lung
+zh;石古垄;Shek Kwu Lung
+zh;石崗;Shek Kong
+zh;石岗;Shek Kong
+zh;石角咀;Shek Kok Tsui
+zh;石橋頭;Shek Kiu Tau
+zh;石桥头;Shek Kiu Tau
+zh-Hant;石硤尾;Shek Kip Mei
+zh;石涌凹;Shek Chung Au
+zh;筲箕灣;Shau Kei Wan
+zh;筲箕湾;Shau Kei Wan
+zh;沙咀;Sha Tsiu
+zh;沙田圍;Sha Tin Wai
+zh;沙田;Sha Tin Wai
+zh;沙田围;Sha Tin Wai
+ru;Шатяньвэй;Sha Tin Wai
+yue;沙田圍;Sha Tin Wai
+zh;沙田頭;Sha Tin Tau
+zh;沙田头;Sha Tin Tau
+en;Shatin;Sha Tin
+ru;Ша Тин;Sha Tin
+zh;沙頭角;Sha Tau Kok
+zh;沙头角;Sha Tau Kok
+zh;沙頭;Sha Tau
+zh;沙头;Sha Tau
+zh;沙埔吳村;Sha Po Ng Tsuen
+zh;沙埔吴村;Sha Po Ng Tsuen
+zh;沙埔;Sha Po
+zh;十塱新村;Shap Long San Tsuen
+zh;十塱舊村;Shap Long Kau Tsuen
+zh;十塱旧村;Shap Long Kau Tsuen
+zh;沙壩;Sha Pa
+zh;山咀;Shan Tsui
+zh;山貝;Shan Pui
+zh;山尾;Shan Mei
+zh;山寮;Shan Liu
+zh;山雞乙;Shan Kai Wat
+zh;山鸡乙;Shan Kai Wat
+zh;山下村;Shan Ha Tsuen
+zh;山下;Shan Ha
+zh;深屈;Sham Wat
+zh;深灣村;Sham Wan Tsuen
+zh;深湾村;Sham Wan Tsuen
+zh;深井;Sham Tseng
+zh;深水埗區;Sham Shui Po
+ru;Шам Шуи По;Sham Shui Po
+zh;深石村;Sham Sek Tsuen
+zh;深涌;Sham Chung
+zh;深湧;Sham Chung
+zh;沙螺湾;Sha Lo Wan
+zh;沙螺灣;Sha Lo Wan
+yue;沙螺灣;Sha Lo Wan
+zh;沙羅洞老圍;Sha Lo Tung Lo Wai
+zh;沙罗洞老围;Sha Lo Tung Lo Wai
+zh;沙嶺;Sha Ling
+zh;沙岭;Sha Ling
+zh;沙欄;Sha Lan
+zh;沙栏;Sha Lan
+zh;沙紅圍仔;Sha Kong Wai Tsai
+zh;沙红围仔;Sha Kong Wai Tsai
+zh;沙江围;Sha Kong Wai
+zh;沙江圍;Sha Kong Wai
+zh;沙江村;Sha Kong Tsuen
+zh;沙角尾;Sha Kok Mei
+zh;山下;Sha Ha
+zh;秀茂坪;Sau Mau Ping
+zh;新圍仔;San Wai Tsai
+zh;新围仔;San Wai Tsai
+zh;新圍;San Wai
+zh;新围;San Wai
+zh;新屋村;San Uk Tsuen
+zh;新屋仔;San Uk Tsai
+zh;新屋嶺;San Uk Ling
+zh;新屋岭;San Uk Ling
+zh;新屋下;San Uk Ha
+zh;新屋;San Uk
+zh;新村;San Tsuen
+zh;新村;Wang Toi Shan San Tsuen
+zh;横台山新村;Wang Toi Shan San Tsuen
+zh;新塘莆;San Tong Po
+zh;新塘;San Tong
+zh;新田;San Tin
+zh;散田坑;San Tin Hang
+zh;撒頭窰;San Tau Yiu
+zh;撒头窑;San Tau Yiu
+zh;磝頭角;San Tau Kok
+zh;磝头角;San Tau Kok
+zh;散頭;San Tau
+zh;散头;San Tau
+zh;散石湾;San Shek Wan
+zh;散石灣;San Shek Wan
+zh;䃟石灣;San Shek Wan
+zh;䃟石湾;San Shek Wan
+zh-Hant;新蒲崗;San Po Kong
+zh;新隆圍;San Lung Wai
+zh;新隆围;San Lung Wai
+zh;新龍村;San Lung Tsuen
+zh;新龙村;San Lung Tsuen
+zh;新桂田;San Kwai Tin
+zh;新徑;San Keng
+zh;新径;San Keng
+zh;新庆村;San Hing Tsuen
+zh;新慶村;San Hing Tsuen
+zh;新起村;San Hei Tsuen
+zh;三白;Sam Pak
+zh;三門仔;Sam Mun Tsai
+zh;三门仔;Sam Mun Tsai
+zh;三家村;Sam Ka Tsuen
+zh;三塊田;Sam Fai Tin
+zh;三块田;Sam Fai Tin
+zh;三椏村;Sam A Tsuen
+zh;三桠村;Sam A Tsuen
+zh;三椏涌;Sam A Chung
+zh;三桠涌;Sam A Chung
+zh;西營盤;Sai Ying Pun
+zh;西灣河;Sai Wan Ho
+zh;西湾河;Sai Wan Ho
+zh-Hant;西環;Sai Wan
+zh;西灣;Sai Wan
+zh;西湾;Sai Wan
+zh;晒草灣;Sai Tso Wan
+zh;晒草湾;Sai Tso Wan
+zh-TW;茜草灣;Sai Tso Wan
+zh;茜草湾;Sai Tso Wan
+zh;西頭圍;Sai Tau Wai
+zh;西头围;Sai Tau Wai
+zh;細山村;Sai Shan Tsuen
+zh;细山村;Sai Shan Tsuen
+zh;細山;Sai Shan
+zh;西邊圍;Sai Pin Wai
+zh;西边围;Sai Pin Wai
+zh;西澳;Sai O
+zh;西樓角;Sai Lau Kok
+zh;西楼角;Sai Lau Kok
+zh;西貢篤;Sai Kung Tuk
+zh;西贡笃;Sai Kung Tuk
+zh;西贡;Sai Kung
+zh;西貢;Sai Kung
+vi;Sài Gòn;Sai Kung
+zh-TW;鰂魚涌;Quarry Bay
+zh;鲗鱼涌;Quarry Bay
+zh;潘屋村;Pun Uk Tsuen
+zh;半山村;Pun Shan Tsuen
+zh;半山洲;Pun Shan Chau
+zh;半春園;Pun Chun Yuen
+zh;半春园;Pun Chun Yuen
+zh-TW;貝澳;Pui O
+zh;贝澳;Pui O
+yue;貝澳;Pui O
+zh;寶塘下;Po Tong Ha
+zh;宝塘下;Po Tong Ha
+zh;布袋澳;Po Toi O
+zh;布心排;Po Sam Pai
+zh;坡面;Po Min
+zh;波羅山;Po Lo Shan
+zh;波罗山;Po Lo Shan
+zh;壆圍;Pok Wai
+zh;壆围;Pok Wai
+zh;布吉仔;Po Kat Tsai
+zh;寳珠潭;Po Chue Tam
+zh;宝珠潭;Po Chue Tam
+zh;坪洋;Ping Yeung
+zh;坪墩;Ping Tun
+zh;平山仔;Ping Shan Chai
+zh;屏山;Ping Shan
+zh;坪朗;Ping Long
+zh;丙崗;Ping Kong
+zh;丙岗;Ping Kong
+zh;坪輋;Ping Che
+zh;壁屋;Pik Uk
+zh;拔子窩;Pat Tsz Wo
+zh;拔子窝;Pat Tsz Wo
+zh;扒頭鼓;Pa Tau Kwu
+zh;扒头鼓;Pa Tau Kwu
+zh;彭家村;Pang Ka Tsuen
+zh;泮湧新村;Pan Chung San Tsuen
+zh;泮涌新村;Pan Chung San Tsuen
+zh;泮涌;Pan Chung
+zh;北灣;Pak Wan
+zh;北湾;Pak Wan
+zh;北圍;Pak Wai
+zh;北围;Pak Wai
+zh;白田壩新村;Pak Tin Pa San Tsuen
+zh;白田坝新村;Pak Tin Pa San Tsuen
+zh;白田壩;Pak Tin Pa
+zh;白田坝;Pak Tin Pa
+zh;白田;Pak Tin
+zh;北潭湧;Pak Tam Chung
+zh;北谭涌;Pak Tam Chung
+yue;北潭涌;Pak Tam Chung
+zh;北潭凹;Pak Tam Au
+zh;北谭凹;Pak Tam Au
+zh;北潭;Pak Tam
+zh;北谭;Pak Tam
+zh;百勝角;Pak Shing Kok
+zh;百善角;Pak Shing Kok
+zh;百胜角;Pak Shing Kok
+zh;白石角;Pak Shek Kok
+zh;白石橋;Pak Shek Kiu
+zh;白石桥;Pak Shek Kiu
+zh;白石凹;Pak Shek Au
+zh;白石;Pak Shek
+zh;白沙禾寮;Pak Sha Wo Liu
+zh;白沙村;Pak Sha Tsuen
+zh;白沙仔;Pak Sha Tsai
+zh;白沙頭;Pak Sha Tau
+zh;白沙头;Pak Sha Tau
+zh;白沙澳下洋;Pak Sha O Ha Yeung
+zh;白沙澳;Pak Sha O
+zh;白千石;Pak Ngau Shek
+zh;白銀鄉;Pak Ngan Heung
+zh;白银乡;Pak Ngan Heung
+zh;上白泥;Sheung Pak Nai
+zh;白芒;Pak Mong
+zh;北朗;Pak Long
+zh;北港凹;Pak Kong Au
+zh;北港;Pak Kong
+zh;北角新村;Pak Kok San Tsuen
+zh;北角舊村;Pak Kok Kau Tsuen
+zh;北角旧村;Pak Kok Kau Tsuen
+zh;北角;Pak Kok
+zh;白橋;Pak Kiu
+zh;白桥;Pak Kiu
+zh;白鶴洲;Pak Hok Chau
+zh;白鹤洲;Pak Hok Chau
+zh;排頭坑;Pai Tau Hang
+zh;排头坑;Pai Tau Hang
+zh;排頭;Pai Tau
+zh;排头;Pai Tau
+zh;排門;Pai Mun
+zh;排门;Pai Mun
+zh;排厰;Pai Chong
+zh;排厂;Pai Chong
+zh;澳頭;O Tau
+zh;澳头;O Tau
+zh;澳背龍;O Pui Lung
+zh;澳背龙;O Pui Lung
+zh;安龍村;On Lung Tsuen
+zh;安龙村;On Lung Tsuen
+zh;安樂村;On Lok Tsuen
+zh;安乐村;On Lok Tsuen
+zh-TW;稔園;Nim Yuen
+zh;稔园;Nim Yuen
+zh;稔湾;Nim Wan
+zh;稔灣;Nim Wan
+zh;稔凹;Nim Au
+zh;吳屋村;Ng Uk Tsuen
+zh;吴屋村;Ng Uk Tsuen
+zh;梧桐寨;Ng Tung Chai
+zh;昂窩;Ngong Wo
+zh;昂窝;Ngong Wo
+zh;吳家村;Ng Ka Tsuen
+zh;吴家村;Ng Ka Tsuen
+zh;瓦窰頭;Nga Yiu Tau
+zh;瓦窑头;Nga Yiu Tau
+zh;瓦窰下;Nga Yiu Ha
+zh;瓦窑下;Nga Yiu Ha
+zh;牛湖托;Ngau Wu Tok
+zh;牛頭角;Ngau Tau Kok
+zh;牛头角;Ngau Tau Kok
+zh;牛潭尾;Ngau Tam Mei
+zh;牛尿屋;Ngau Shi Wu
+zh;牛皮沙;Ngau Pei Sha
+zh;牛寮下;Ngau Liu Ha
+zh;牛寮;Ngau Liu
+zh;牛牯灣;Ngau Kwu Wan
+zh;牛牯湾;Ngau Kwu Wan
+zh;牛牯塱;Ngau Kwu Long
+zh;牛過田;Ngau Kwo Tin
+zh;牛过田;Ngau Kwo Tin
+zh;牛角灣;Ngau Kok Wan
+zh;牛角湾;Ngau Kok Wan
+zh;牛徑;Ngau Keng
+zh;牛径;Ngau Keng
+zh;鳌磡石;Ngau Hom Shek
+zh;鰲磡;Ngau Hom
+zh;鳌磡;Ngau Hom
+zh;牛凹;Ngau Au
+zh;牙鷹洲;Nga Ying Chau
+zh;牙鹰洲;Nga Ying Chau
+zh;銀坑;Ngan Hang
+zh;银坑;Ngan Hang
+zh-TW;新東涌坑;San Tung Chung Hang
+zh;新东涌坑;San Tung Chung Hang
+ru;Сан Тунг Чунг Ханг;San Tung Chung Hang
+zh;南華莆;Nam Wa Po
+zh;南华莆;Nam Wa Po
+zh;蚺蛇;Nam She
+zh;南山洞;Nam Shan Tung
+zh;南山尾;Nam Shan Mei
+zh;南山;Nam Shan
+zh;南邊圍;Nam Pin Wai
+zh;南边围;Nam Pin Wai
+zh;南朗;Nam Long
+zh;南坑;Nam Hang
+zh;南坑村;Nam Hang Tsuen
+zh;南風灣;Nam Fung Wan
+zh;南风湾;Nam Fung Wan
+zh;南涌楊屋;Nam Chung Yeung Uk
+zh;南涌杨屋;Nam Chung Yeung Uk
+zh;南涌羅屋;Nam Chung Lo Uk
+zh;南涌罗屋;Nam Chung Lo Uk
+zh;南涌李屋;Nam Chung Lei Uk
+zh;南涌張屋;Nam Chung Cheung Uk
+zh;南涌张屋;Nam Chung Cheung Uk
+zh;南涌鄭屋;Nam Chung Cheng Uk
+zh;南涌郑屋;Nam Chung Cheng Uk
+zh;南涌;Nam Chung
+zh;南ㄚ;Nam A
+zh;泥圍;Nai Wai
+zh;泥围;Nai Wai
+zh;泥塘角;Nai Tong Kok
+zh;泥涌;Nai Chung
+zh;木湖;Muk Wu
+zh;木棉頭;Muk Min Tau
+zh;木棉头;Muk Min Tau
+zh;木棉山;Muk Min Shan
+zh;木棉下;Muk Min Ha
+zh;木橋頭;Muk Kiu Tau
+zh;木桥头;Muk Kiu Tau
+zh-Hant;梅窩舊村;Mui Wo Kau Tsuen
+zh-Hant;梅窩;Mui Wo Kau Tsuen
+zh;梅子林;Mui Tsz Lam
+zh;梅樹坑;Mui Shue Hang
+zh;梅树坑;Mui Shue Hang
+zh;磨刀坑;Mo To Tang
+zh;模達灣;Mo Tat Wan
+zh;模达湾;Mo Tat Wan
+zh;模達;Mo Tat
+zh;模达;Mo Tat
+zh;摩理臣山;Morrison Hill
+zh;望東抗;Mong Tung Hang
+zh;望东抗;Mong Tung Hang
+zh-TW;輞井圍;Mong Tseng Wai
+zh;辋井围;Mong Tseng Wai
+zh;沙橋村;Sha Kiu Tsuen
+zh;沙桥村;Sha Kiu Tsuen
+zh;旺角;Mong Kok
+zh;莫遮輋;Mok Tse Che
+zh;莫家;Mok Ka
+zh;麵房;Min Fong
+zh;面房;Min Fong
+zh;馬腰;Ma Yiu
+zh;马腰;Ma Yiu
+zh;馬游塘;Ma Yau Tong
+zh;马游塘;Ma Yau Tong
+zh;馬窩;Ma Wo
+zh;马窝;Ma Wo
+zh;馬環村;Ma Wan Tsuen
+zh;马环村;Ma Wan Tsuen
+zh;馬灣涌;Ma Wan Chung
+zh;马湾涌;Ma Wan Chung
+zh-TW;馬灣;Ma Wan
+zh;马湾;Ma Wan
+zh;茅湖仔;Mau Wu Tsai
+zh;茂草岩;Mau Tso Ngam
+zh;苗田;Mau Tin
+zh;茅莆;Mau Po
+zh;茅坪新屋;Mau Ping San Uk
+zh;茅坪老屋;Mau Ping Lo Uk
+zh;茅坪;Mau Ping
+zh;馬草壟新村;Ma Tso Lung San Tsuen
+zh;马草垄新村;Ma Tso Lung San Tsuen
+zh;馬草塘;Ma Tso Lung
+zh;马草塘;Ma Tso Lung
+zh;麻雀嶺新屋下;Ma Tseuk Leng San Uk Ha
+zh;麻雀岭新屋下;Ma Tseuk Leng San Uk Ha
+zh;麻雀嶺;Ma Tseuk Leng
+zh;麻雀岭;Ma Tseuk Leng
+zh;馬田村;Ma Tin Tsuen
+zh;马田村;Ma Tin Tsuen
+zh;馬頭圍;Ma Tau Wai
+zh;碼頭圍;Ma Tau Wai
+zh-TW;古瑾圍;Ma Tau Wai
+zh-Hant;馬頭角;Ma Tau Kok
+zh;馬屎埔;Ma Shi Po
+zh;马屎埔;Ma Shi Po
+zh;麻布尾;Ma Po Mei
+zh;馬鞍山村;Ma On Shan
+zh;馬鞍山;Ma On Shan
+zh;马鞍山;Ma On Shan
+zh;马鞍山村;Ma On Shan
+ru;Ма Он Шан;Ma On Shan
+zh;馬鞍崗;Ma On Kong
+zh;马鞍岗;Ma On Kong
+zh;蠻窩;Man Wo
+zh;蛮窝;Man Wo
+zh;萬屋邊;Man Uk Pin
+zh;万屋边;Man Uk Pin
+zh;萬角;Man Kok
+zh;万角;Man Kok
+zh;文錦渡;Man Kam To
+zh;文锦渡;Man Kam To
+zh;馬尿水;Ma Niu Shui
+zh;马尿水;Ma Niu Shui
+zh;馬尿;Ma Niu
+zh;马尿;Ma Niu
+zh;蚊坑;Man Hang
+zh;孟公屋;Mang Kung Uk
+zh;萬丈布;Man Cheung Po
+zh;万丈布;Man Cheung Po
+zh;馬尾下嶺咀;Ma Mei Ha Leng Tsui
+zh;马尾下岭咀;Ma Mei Ha Leng Tsui
+zh;馬尾下;Ma Mei Ha
+zh;马尾下;Ma Mei Ha
+zh;馬料水;Ma Liu Shui
+zh;马料水;Ma Liu Shui
+ja;馬料水;Ma Liu Shui
+yue;馬料水;Ma Liu Shui
+zh;馬牯纜;Ma Kwu Lam
+zh;马牯缆;Ma Kwu Lam
+zh;麥屋;Mak Uk
+zh;麦屋;Mak Uk
+zh;米埔新村;Mai Po San Tsuen
+zh;米埔老圍;Mai Po Lo Wai
+zh;米埔老围;Mai Po Lo Wai
+zh;米粉頂;Mai Fan Teng
+zh;米粉顶;Mai Fan Teng
+zh;龍躍頭;Lung Yeuk Tau
+zh;龙跃头;Lung Yeuk Tau
+zh;龍窩村;Lung Wo Tsuen
+zh;龙窝村;Lung Wo Tsuen
+zh;龍井頭;Lung Tseng Tau
+zh;龙井头;Lung Tseng Tau
+zh;龍仔;Lung Tsai
+zh;龙仔;Lung Tsai
+zh;龍田村;Lung Tin Tsuen
+zh;龙田村;Lung Tin Tsuen
+zh;龙尾头;Lung Tin Tsuen
+zh;龍尾頭;Lung Mei Tau
+zh;龍尾;Lung Mei
+zh;龙尾;Lung Mei
+zh;龍ㄚ排;Lung A Pai
+zh;龙ㄚ排;Lung A Pai
+zh;鹿湖;Luk Wu
+zh;鹿地塘;Luk Tei Tong
+zh;廘頸黃屋;Luk Keng Wong Uk
+zh;廘颈黄屋;Luk Keng Wong Uk
+zh;廘頸陳屋;Luk Keng Chan Uk
+zh;廘颈陈屋;Luk Keng Chan Uk
+yue;鹿頸陳屋;Luk Keng Chan Uk
+zh;鹿頸;Luk Keng
+zh;鹿颈;Luk Keng
+zh;鹿洲;Luk Chau
+zh;羅湖;Lo Wu
+zh;罗湖;Lo Wu
+zh;下羗;Lower Keung Shan
+zh;老圍;Lo Wai
+zh;老围;Lo Wai
+zh;羅屋村;To Uk Tsuen
+zh;杜屋村;To Uk Tsuen
+zh;罗屋村;To Uk Tsuen
+zh;羅屋村;Lo Uk Tsuen
+zh;罗屋村;Lo Uk Tsuen
+zh-TW;羅屋村;Lo Uk Tsuen
+zh;羅屋;Lo Uk
+zh;罗屋;Lo Uk
+zh;蔖慈田;Lo Tsz Tin
+zh;蘆荻灣;Lo Tik Wan
+zh;芦荻 湾;Lo Tik Wan
+zh;蘆鬚城;Lo So Shing
+zh;芦须城;Lo So Shing
+zh;老沙田;Lo Shue Tin
+zh;老鼠嶺;Lo Shue Ling
+zh;老鼠岭;Lo Shue Ling
+zh;朗尾;Long Mei
+zh;浪徑;Long Keng
+zh;浪径;Long Keng
+zh;浪茄;Long Ke
+zh;老劉屋;Lo Lau Uk
+zh;老刘屋;Lo Lau Uk
+zh;落禾沙;Lok Wo Sha
+zh;禾沙;Lok Wo Sha
+zh-Hans;落马洲;Lok Ma Chau
+ko;록마차우;Lok Ma Chau
+yue;落馬洲;Lok Ma Chau
+zh;落馬洲;Lok Ma Chau
+zh;落路下;Lok Lo Ha
+zh;樂耕埔;Lok Kang Po
+zh;乐耕埔;Lok Kang Po
+zh;莱洞;Loi Tung
+zh;老虎岩;Lo Fu Ngam
+zh;寮肚;Liu To
+zh;料壆;Liu Pok
+zh;蓮塘尾菜圍;Lin Tong Mei Tsoi Yuen
+zh;莲塘尾菜围;Lin Tong Mei Tsoi Yuen
+zh;蓮塘尾;Lin Tong Mei
+zh;莲塘尾;Lin Tong Mei
+zh;蓮麻坑;Lin Ma Hang
+zh;莲麻坑;Lin Ma Hang
+zh;嶺南新村;Ling Nam San Tsuen
+zh;岭南新村;Ling Nam San Tsuen
+zh;蓮花地;Lin Fa Tei
+zh;莲花地;Lin Fa Tei
+zh;蓮澳;Lin Au
+zh;莲澳;Lin Au
+zh;梁屋;Leung Uk
+zh;良田村;Leung Tin Tsuen
+zh;兩塊田;Leung Fai Tin
+zh;两块田;Leung Fai Tin
+zh;嶺仔;Leng Tsai
+zh;岭仔;Leng Tsai
+zh;嶺皮村;Leng Pei Tsuen
+zh;岭皮村;Leng Pei Tsuen
+zh-TW;鯉魚門;Lei Yue Mun
+zh;鲤鱼门;Lei Yue Mun
+zh;李屋村;Lei Uk Tsuen
+zh;李屋;Lei Uk
+zh;禮頓山;Leighton Hill
+zh;礼顿山;Leighton Hill
+zh;流水響;Lau Shui Heung
+zh;流水响;Lau Shui Heung
+zh;流坑;Lau Hang
+zh;流浮山;Lau Fau Shan
+zh;柳花村;Lap Wo Tsuen
+zh;爛泥灣秋屋;Lan Nai Wan
+zh;烂泥湾万屋;Lan Nai Wan
+zh;爛泥灣;Lan Nai Wan
+zh;烂泥湾秋屋;Lan Nai Wan
+zh;烂泥湾;Lan Nai Wan
+zh;萬宜村;Lan Nai Wan
+zh;万宜村;Lan Nai Wan
+zh;爛泥灣萬屋;Lan Nai Wan Man Uk
+zh;烂泥湾万屋;Lan Nai Wan Man Uk
+zh;爛泥灣李屋;Lan Nai Wan Lei Uk
+zh;烂泥湾李屋;Lan Nai Wan Lei Uk
+zh;林屋圍;Lam Uk Wai
+zh;林屋围;Lam Uk Wai
+zh;林村新村;Lam Tsuen San Tsuen
+zh;藍田;Lam Tin
+zh;藍地;Lam Tei
+zh;蓝地;Lam Tei
+zh;欖口;Lam Hau
+zh;藍輋;Lam Che
+zh;蓝輋;Lam Che
+zh;犁頭石;Lai Tau Shek
+zh;犁头石;Lai Tau Shek
+zh;犁壁山;Lai Pek Shan
+zh;荔枝園;Lai Chi Yuen
+zh;荔枝园;Lai Chi Yuen
+zh;荔枝窩;Lai Chi Wo
+zh;荔枝窝;Lai Chi Wo
+zh-Hans;荔枝窝;Lai Chi Wo
+yue;荔枝窩;Lai Chi Wo
+zh;荔枝山;Lai Chi Shan
+zh;荔枝莊;Lai Chi Chong
+zh;古洞;Kwu Tung
+zh;觀音山;Kwun Yam Shan
+zh;观音山;Kwun Yam Shan
+zh;觀音徑;Kwun Yam Keng
+zh;观音径;Kwun Yam Keng
+zh;觀塘;Kwun Tong
+ja;観塘;Kwun Tong
+ko;관탕;Kwun Tong
+zh;观塘;Kwun Tong
+zh;官坑;Kwun Hang
+zh;過路灣;Kwo Lo Wan
+zh;过路湾;Kwo Lo Wan
+zh;軍地;Kwan Tei
+zh;军地;Kwan Tei
+zh;龜頭嶺;Kwai Tau Leng
+zh;龟头岭;Kwai Tau Leng
+zh;葵涌;Kwai Chung
+ru;Кваи Чунг;Kwai Chung
+zh;谷埔;Kuk Po
+zh;穀寮;Kuk Liu
+zh;谷寮;Kuk Liu
+zh;九龍塘;Kowloon Tong
+zh;九龙塘;Kowloon Tong
+zh;九龍城;Kowloon City
+zh;九龙城;Kowloon City
+ru;Ковлун;Kowloon City
+zh;高塘下洋;Ko Tong Ha Yeung
+zh;高塘;Ko Tong
+zh;高田磡;Ko Tin Hom
+zh;蛤塘;Kop Tong
+zh;高埔村;Ko Po Tsuen
+zh;高莆;Ko Po
+zh;乾坑;Kon Hang
+zh;干坑;Kon Hang
+zh;港頭村;Kong Tau Tsuen
+zh;港头村;Kong Tau Tsuen
+zh;港頭新村;Kong Tau San Tsuen
+zh;港头新村;Kong Tau San Tsuen
+zh;崗背村;Kong Pui Tsuen
+zh;岗背村;Kong Pui Tsuen
+zh;崗下;Kong Ha
+zh;岗下;Kong Ha
+zh;高塱;Ko Long
+zh;橋咀;Kiu Tsui
+zh;桥咀;Kiu Tsui
+zh;橋頭圍;Kiu Tau Wai
+zh;桥头围;Kiu Tau Wai
+zh;橋頭;Kiu Tau
+zh;桥头;Kiu Tau
+zh;橋西;Kiu Sai
+zh;桥西;Kiu Sai
+zh;京士柏;Kings Park
+zh;擊壤村;Kik Yeung Tsuen
+zh;击壤村;Kik Yeung Tsuen
+zh;堅尼地城;Kennedy Town
+zh;徑棚下;Keng Pang Ha
+zh;径棚下;Keng Pang Ha
+zh;企壁山;Kei Pik Shan
+zh;麒麟圍;Kei Lun Wai
+zh;麒麟围;Kei Lun Wai
+zh;企嶺下新圍;Kei Ling Ha San Wai
+zh;企岭下新围;Kei Ling Ha San Wai
+zh;企嶺下老圍;Kei Ling Ha Lo Wai
+zh;企岭下老围;Kei Ling Ha Lo Wai
+zh;九華徑新村;Kau Wa Keng San Tsuen
+zh;九华径新村;Kau Wa Keng San Tsuen
+zh;九華徑;Kau Wa Keng
+zh;九华径;Kau Wa Keng
+zh;較剪屋;Kau Tsin Uk
+zh;较剪屋;Kau Tsin Uk
+zh;九肚;Kau To
+zh;九担租;Kau Tam Tso
+zh;狗屎圍;Kau Shi Wai
+zh;狗屎围;Kau Shi Wai
+zh;狗虱灣;Kau Shat Wan
+zh;狗虱湾;Kau Shat Wan
+zh;狗伸地;Kau San Tei
+zh;滘西;Kau Sai
+zh;狗麻;Kau Man
+zh;力龍坑新圍;Kau Lung Hang San Wai
+zh;力龙坑新围;Kau Lung Hang San Wai
+zh;力龍坑老圍;Kau Lung Hang Lo Wai
+zh;力龙坑老围;Kau Lung Hang Lo Wai
+zh;較寮;Kau Liu Ha
+zh;较寮;Kau Liu Ha
+zh;高流灣;Kau Lau Wan
+zh;高流湾;Kau Lau Wan
+zh;吉澳;Kat O Sheung Wai
+zh;吉慶圍;Kat Hing Wai
+zh;吉庆围;Kat Hing Wai
+zh;甲邊朗;Kap Pin Long
+zh;甲边朗;Kap Pin Long
+zh;簡頭村;Kan Tau Wai
+zh;简头村;Kan Tau Wai
+zh;簡頭村;Kan Tau Tsuen
+zh;简头村;Kan Tau Tsuen
+zh;金錢圍;Kam Tsin Wai
+zh;金钱围;Kam Tsin Wai
+zh;金錢;Kam Tsin
+zh;金钱;Kam Tsin
+zh;錦田;Kam Tin
+zh;锦田;Kam Tin
+zh;錦山;Kam Shan
+zh;锦山;Kam Shan
+zh;錦慶圍;Kam Hing Wai
+zh;锦庆围;Kam Hing Wai
+zh;金竹排;Kam Chuk Pai
+zh;隔田;Kak Tin
+zh;隔坑燉;Kak Hang Tun
+zh;雞魚環;Kai Yi Wan
+zh;鸡鱼环;Kai Yi Wan
+zh;雞嶺;Kai Leng
+zh;鸡岭;Kai Leng
+zh;雞谷樹下;Kai Kuk Shue Ha
+zh;鸡谷树下;Kai Kuk Shue Ha
+zh;界咸;Kai Ham
+zh;佐敦谷;Jordan Valley
+en;Jardines Lookout;Jardine's Lookout
+zh;渣甸山;Jardine's Lookout
+zh;洪屋村;Hung Uk Tsuen
+zh;紅棗田;Hung Tso Tin
+zh;红枣田;Hung Tso Tin
+zh;紅田;Hung Tin
+zh;红田;Hung Tin
+zh;洪水;Hung Shui
+zh;洪聖爺;Hung Shing Ye
+zh;洪圣爷;Hung Shing Ye
+zh;孔嶺;Hung Leng
+zh;孔岭;Hung Leng
+zh-TW;紅磡;Hung Hom
+en;Hunghom;Hung Hom
+zh;紅磡;Hung Hom
+zh;红磡;Hung Hom
+ja;紅カン;Hung Hom
+ta;ஹொங் ஹாம்;Hung Hom
+yue;紅磡;Hung Hom
+zh-TW;紅花顏;Hung Fa Ngan
+zh;红花颜;Hung Fa Ngan
+zh;河田;Ho Tin
+zh;河上鄉;Ho Sheung Heung
+zh;河上乡;Ho Sheung Heung
+zh;河背;Ho Pui
+zh-TW;康樂園;Hong Lok Yuen
+de;Hongkong;Hong Kong
+pt;Victoria;Hong Kong
+ru;Гонконг;Hong Kong
+zh;香港;Hong Kong
+yue;香港;Hong Kong
+vi;Hồng Kông;Hong Kong
+ug;شياڭگاڭ;Hong Kong
+ur;ہانگ کانگ;Hong Kong
+th;ฮ่องกง;Hong Kong
+te;హాంగ్‌కాంగ్;Hong Kong
+ta;ஆங்காங்;Hong Kong
+si;හොංකොං;Hong Kong
+km;ហុងកុង;Hong Kong
+ps;هانگ کانگ;Hong Kong
+pa;ਹਾਂਗਕਾਂਗ;Hong Kong
+uz;Gon Kong;Hong Kong
+or;ହଂକଂ;Hong Kong
+ja;香港;Hong Kong
+ne;हङकङ;Hong Kong
+my;ဟောင်ကောင်;Hong Kong
+mn;Хонконг;Hong Kong
+mr;हाँग काँग;Hong Kong
+ml;ഹോങ്കോങ്;Hong Kong
+kn;ಹಾಂಗ್ ಕಾಂಗ್;Hong Kong
+hi;हॉन्ग कॉन्ग;Hong Kong
+ko;홍콩;Hong Kong
+gu;હોંગકોંગ;Hong Kong
+fa;هنگ کنگ;Hong Kong
+dv;ހޮންކޮންގު;Hong Kong
+bo;ཧོང་ཀོང་།;Hong Kong
+bn;হংকং;Hong Kong
+as;হংকং;Hong Kong
+ar;هونغ كونغ;Hong Kong
+yue;Heung Gong;Hong Kong
+zh;何文田;Ho Man Tin
+zh;聖十字徑村;Holy Cross Path Village
+zh;圣十字径村;Holy Cross Path Village
+zh;河瀝背;Ho Lek Pui
+zh;河沥背;Ho Lek Pui
+zh;鶴咀灣;Hok Tsui Wan
+zh;鹤咀湾;Hok Tsui Wan
+zh;鹤藪圍;Hok Tau Wai
+zh;鹤薮围;Hok Tau Wai
+zh;鶴藪排;Hok Tau Pai
+zh;鹤薮排;Hok Tau Pai
+zh;海背嶺;Hoi Pui Leng
+zh;海背岭;Hoi Pui Leng
+zh;海壩;Hoi Pa
+zh;海坝;Hoi Pa
+zh;海下;Hoi Ha
+zh;蠔涌;Ho Chung
+zh;顯田;Hin Tin
+zh;显田;Hin Tin
+zh;興華村;Hing Wah Tsuen
+zh;兴华村;Hing Wah Tsuen
+zh;興隆村;Hing Lung Tsuen
+zh;兴隆村;Hing Lung Tsuen
+zh;香園圍;Heung Yuen Wai
+zh;香园围;Heung Yuen Wai
+ar;أبردين;Aberdeen
+ja;香港仔;Aberdeen
+ko;애버딘;Aberdeen
+yue;香港仔;Aberdeen
+ru;Абердин;Aberdeen
+zh;香港仔;Aberdeen
+zh;香粉寮;Heung Fan Liu
+zh;響鍾;Heung Chung
+zh;响锺;Heung Chung
+zh;起子灣;Hei Tsz Wan
+zh;起子湾;Hei Tsz Wan
+zh;下攸田;Ha Yau Tin
+zh;下碗窰;Ha Wun Yiu
+zh;下碗窑;Ha Wun Yiu
+zh;下黃宜坳;Ha Wong Yi Au
+zh;下黄宜坳;Ha Wong Yi Au
+zh;下禾坑;Ha Wo Hang
+zh;下圍;Ha Wai
+zh;下围;Ha Wai
+zh;厦村市;Ha Tsuen
+zh;廈村市;Ha Tsuen
+zh;下村;Ha Tsuen
+zh;下七木橋;Ha Tsat Muk Kiu
+zh;下七木桥;Ha Tsat Muk Kiu
+zh;蝦地下;Ha Tei Ha
+zh;虾地下;Ha Tei Ha
+zh;下担水坑;Ha Tam Shui Hang
+zh;下山鸡乙;Ha Shan Kai Wat
+zh;上山雞乙;Ha Shan Kai Wat
+zh-Hant;跑馬地;Happy Valley
+zh;坑頭;Hang Tau
+zh;坑头;Hang Tau
+zh;坑頭村;Hang Tau Tsuen
+zh;坑头村;Hang Tau Tsuen
+zh;坑头;Hang Tau Tsuen
+zh;坑背;Hang Pui
+zh;坑尾村;Hang Mei Tsuen
+zh;坑尾;Hang Mei
+zh;坑口村;Hang Hau Tsuen
+zh;坑口;Hang Hau
+yue;坑口;Hang Hau
+zh;坑下莆;Hang Ha Po
+zh;鹹田;Ham Tin
+zh;咸田;Ham Tin
+zh-TW;鹹田;Ham Tin
+zh;下苗田;Ha Miu Tin
+zh;鹹坑尾;Ham Hang Mei
+zh;咸坑尾;Ham Hang Mei
+zh;蝦尾新村;Ha Mei San Tsuen
+zh;虾尾新村;Ha Mei San Tsuen
+zh;下嶺皮;Ha Ling Pei
+zh;下岭皮;Ha Ling Pei
+zh;下葵涌;Ha Kwai Chung
+zh;下高灘;Ha Ko Tan
+zh;下高滩;Ha Ko Tan
+zh;下徑;Ha Keng
+zh;下径;Ha Keng
+zh;下香園;Ha Heung Yuen
+zh;下香园;Ha Heung Yuen
+zh;下坑;Ha Hang
+zh;下花山;Ha Fa Shan
+zh;下輋;Ha Che
+zh;芙蓉山;Fu Yung Shan
+zh;芙蓉別;Fu Yung Pit
+zh;虎地排;Fu Tei Pai
+zh;虎地新村;Fu Tei San Tsuen
+zh;伙頭墳洲;Fu Tau Pun Chau
+zh;伙头坟洲;Fu Tau Pun Chau
+zh;鳯園老村;Fung Yuen Lo Tsuen
+zh;鳯园老村;Fung Yuen Lo Tsuen
+zh;鳳凰湖;Fung Wong Wu
+zh;凤凰湖;Fung Wong Wu
+zh;鳳凰;Fung Wong Village
+zh;凤凰;Fung Wong Village
+zh;楓樹窩;Fung Shue Wo
+zh;枫树窝;Fung Shue Wo
+zh;鳳降村;Fung Kong Tsuen
+zh;凤降村;Fung Kong Tsuen
+zh;馮家圍;Fung Ka Wai
+zh;冯家围;Fung Ka Wai
+zh;逢吉鄉;Fung Kat Heung
+zh;逢吉乡;Fung Kat Heung
+zh;風坑;Fung Hang
+zh;风坑;Fung Hang
+zh;鳳池村;Fung Chi Heung
+zh;凤池村;Fung Chi Heung
+zh;福慶村;Fuk Hing Tsuen
+zh;福庆村;Fuk Hing Tsuen
+zh;福興裡;Fuk Hing Lei
+zh;福兴里;Fuk Hing Lei
+zh;灰窰下;Fui Yiu Ha
+zh;灰窑下;Fui Yiu Ha
+zh;灰窰;Fui Yiu
+zh;灰窑;Fui Yiu
+zh;灰沙圍;Fui Sha Wai
+zh;灰沙围;Fui Sha Wai
+zh;火炭;Fo Tan
+ru;Фо Тан;Fo Tan
+ja;火炭;Fo Tan
+yue;火炭;Fo Tan
+zh;芳園;Fong Yuen
+zh;芳园;Fong Yuen
+zh;放馬莆;Fong Ma Po
+zh;放马莆;Fong Ma Po
+zh;花心坑;Fa Sam Hang
+zh;花坪;Fa Peng
+zh;蕃田村;Fan Tin Tsuen
+zh;分水凹;Fan Shui Au
+ru;Фанлинг;Fanling
+zh;粉嶺樓;Fan Leng Lau
+zh;粉岭楼;Fan Leng Lau
+zh;番鬼塘;Fan Kwai Tong
+ja;ディスカバリー・ベイ;Discovery Bay
+yue;愉景灣;Discovery Bay
+zh;愉景灣;Discovery Bay
+ko;디스커버리 베이;Discovery Bay
+zh;中圍;Chung Wai
+zh;中围;Chung Wai
+zh;鐘屋村;Chung Uk Tsuen
+zh;钟屋村;Chung Uk Tsuen
+zh;鍾屋村;Chung Uk Tsuen
+zh;鍾屋;Chung Uk
+zh;钟屋;Chung Uk
+zh;中心圍;Chung Sam Wai
+zh;中心围;Chung Sam Wai
+zh;涌背;Chung Pui
+zh;涌尾角;Chung Mei Kok
+zh;涌尾;Chung Mei
+zh;涌口;Chung Hau
+zh;春花落;Chun Fa Lok
+zh;竹園;Chuk Yuen
+zh;竹园;Chuk Yuen
+zh;竹角;Chuk Kok
+zh;竹坑;Chuk Hang
+zh;川龍;Chuen Lung
+zh;川龙;Chuen Lung
+zh;芝麻坑;Chi Ma Hang
+zh;長窩;Cheung Wo
+zh;长窝;Cheung Wo
+zh;張屋圍;Cheung Uk Wai
+zh;张屋围;Cheung Uk Wai
+zh;長屋;Cheung Uk
+zh;长屋;Cheung Uk
+zh;長亭;Cheung Ting
+zh;长亭;Cheung Ting
+zh;長索;Cheung Sok
+zh;长索;Cheung Sok
+zh;樟樹頭;Cheung Shue Tau
+zh;樟树头;Cheung Shue Tau
+zh;樟樹灘;Cheung Shue Tan
+zh;樟树滩;Cheung Shue Tan
+zh;嶂上;Cheung Sheung
+zh;長沙灣;Cheung Sha Wan
+zh;长沙湾;Cheung Sha Wan
+zh;長沙欄;Cheung Sha Lan
+zh;长沙栏;Cheung Sha Lan
+zh-TW;長沙;Cheung Sha
+zh;长沙;Cheung Sha
+zh;長莆;Cheung Po
+zh;樟木頭;Cheung Muk Tau
+zh;樟木头;Cheung Muk Tau
+zh;長瀝尾;Cheung Lek Mei
+zh;长沥尾;Cheung Lek Mei
+zh;長瀝;Cheung Lek
+zh;长沥;Cheung Lek
+zh;長江;Cheung Kong
+zh;長庚;Cheung Kang
+zh;赤泥坪;Chek Nai Ping
+zh-TW;赤角頭;Chek Kok Tau
+zh;赤角头;Chek Kok Tau
+zh;赤徑;Chek Keng
+zh;赤径;Chek Keng
+zh;輋徑篤;Che Keng Tuk
+zh;輋径笃;Che Keng Tuk
+de;Stanley;Chek Chue
+ru;Стэнли;Chek Chue
+ko;첵취;Chek Chue
+pt;Stanley;Chek Chue
+yue;赤柱;Chek Chue
+en;Stanley;Chek Chue
+fr;Stanley;Chek Chue
+zh;赤柱;Chek Chue
+ja;赤柱;Chek Chue
+nl;Stanley;Chek Chue
+zh;輋下;Che Ha
+zh;洲頭;Chau Tau
+zh;洲头;Chau Tau
+zh;插桅杆;Chap Wai Kon
+zh;閘門頭;Chap Mun Tau
+zh;闸门头;Chap Mun Tau
+zh;陳屋博;Chan Uk Po
+zh;陈屋博;Chan Uk Po
+zh;茶果嶺;Cha Kwo Ling
+zh;茶果岭;Cha Kwo Ling
+zh;柴灣角;Chai Wan Kok
+zh;柴湾角;Chai Wan Kok
+zh-TW;柴灣;Chai Wan
+ja;柴湾;Chai Wan
+ta;சய் வான்;Chai Wan
+yue;柴灣;Chai Wan
+ru;Чхайвань;Chai Wan
+zh;柴灣;Chai Wan
+zh;寨乪;Chai Kek
+zh;青山新都;Castle Peak New Town
+zh;小欖新村;Siu Lam San Tsuen
+zh;加路連山;Caroline Hill
+zh;加路连山;Caroline Hill
+zh;凹頭;Au Tau
+zh;凹头;Au Tau
+yue;凹頭;Au Tau
+zh;坳背灣;Au Pui Wan
+zh;坳背湾;Au Pui Wan
+zh;凹背塘;Au Pui Tong
+zh;凹下;Au Ha
+zh;鴉山井頭;A Shan Tseng Tau
+zh;鸦山井头;A Shan Tseng Tau
+zh;鴉山;A Shan
+zh;鸦山;A Shan
+zh;鴨仔灣;Ap Tsai Wan
+zh;鸭仔湾;Ap Tsai Wan
+zh;亞婆塱;A Po Long
+zh;亚婆塱;A Po Long
+zh;亞媽笏;A Ma Wat
+zh;亚妈笏;A Ma Wat
+yue;亞媽笏;A Ma Wat
+zh;亞公田;A Kung Tin
+zh;阿公岩;A Kung Ngam
+zh;嘉龍村;Ka Loon Tsuen
+zh;嘉龙村;Ka Loon Tsuen
+zh;山頂村;Shan Ting Tsuen
+zh;山顶村;Shan Ting Tsuen
+ru;Викториа;Victoria
+zh;富亨村;Fu Heng Estate
+zh;富亨邨;Fu Heng Estate
+zh;大元邨;Tai Yuen Estate
+zh;大元村;Tai Yuen Estate
+zh;大埔;Tai Po
+zh;下白泥;Ha Pak Nai
+ja;フォートレスヒル;Fortress Hill
+zh;砲台山;Fortress Hill
+zh;炮臺山;Fortress Hill
+zh;中環;Central
+ja;中環;Central
+ta;மையம்;Central
+ar;سنترال;Central
+ko;쭝완;Central
+yue;中環;Central
+ru;Центральный;Central
+zh;佐敦;Jordan
+zh-Hant;九龍灣;Kowloon Bay
+zh;碧濤花園第二期;Pictorial Garden II
+zh;名城;Festival City
+zh;錦豐苑;Kam Fung Court
+ru;Тунг Чунг;Tung Chung
+zh-Hant;宋皇臺;Sung Wong Toi
+zh-Hant;蘇屋;So Uk
+zh-Hant;第一城;City One
+en;City One - Shatin;City One
+en;Sha Tin City One;City One
+en;Shatin City One;City One
+en;City One Shatin;City One
+zh-Hant;美孚;Mei Foo
+zh-Hant;嘉道理;Kadoorie
+zh-Hant;啟德;Kai Tak
+zh-Hant;山頂;The Peak
+zh-Hant;利東;Lei Tung
+en;Siu Sai Wan;Siu Sai Wan Estate
+en;Oi Man;Oi Man Estate
+en;Lower Wong Tai Sin Estate;Lower Wong Tai Sin Estate (I & II)
+zh;大窩;Tai Wo
+zh;大窝;Tai Wo

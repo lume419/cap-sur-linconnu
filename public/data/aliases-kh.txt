@@ -1,0 +1,4864 @@
+km;Phum Koŭl;Koul
+km;Phnum Pénh;Phnom Penh
+es;Nom Pen;Phnom Penh
+ja;プノンペン;Phnom Penh
+ko;프놈펜;Phnom Penh
+nl;Phnom-Penh;Phnom Penh
+ru;Пномпень;Phnom Penh
+th;พนมเปญ;Phnom Penh
+km;ភ្នំកំពង់ត្រាច;Phnom Penh
+pt;Pnom Penh;Phnom Penh
+ug;فنوم پېن;Phnom Penh
+pt;Pnom Pene;Phnom Penh
+vi;Phnôm Pênh;Phnom Penh
+th;พนมเปณ;Phnom Penh
+es;Phon Phen;Phnom Penh
+bo;ཕོམ་ཕེན།;Phnom Penh
+ur;پنوم پن;Phnom Penh
+fa;پنوم‌پن;Phnom Penh
+ta;புனோம் பென்;Phnom Penh
+bn;প্‌নম পেন;Phnom Penh
+ar;بنوم بنه;Phnom Penh
+mr;पनॉम पेन;Phnom Penh
+my;ဖနွမ်းပင်မြို့;Phnom Penh
+hi;नामपेन्ह;Phnom Penh
+zh;金边;Phnom Penh
+km;ភ្នំពេញ;Phnom Penh
+km;ភូមិ តាំងរបង;Tang Robang
+km;Phum Tăng Rôbâng;Tang Robang
+km;វាងខាំ;Véang Khăm
+km;ទួលគ្រួស;Tuŏl Kruŏs
+km;ត្រែង;Trêng
+km;ត្រពងពុង;Trâpông Pŭng
+km;ត្រពាំងតៅ;Trâpeăng Tau
+km;ត្រពាំងរូង;Trapeang Rung
+km;ត្រើងស្អែក;Traeung Saêk
+km;តាសៀម;Ta Siem
+km;តាសាញ;Ta Sanh
+km;តាសាល;Ta Sal
+km;តាគក;Takôk
+ru;Такхмау;Ta Khmau
+km;កណ្តាល;Ta Khmau
+ar;تا خماو;Ta Khmau
+kk;Та Кмау;Ta Khmau
+ky;Та Кмау;Ta Khmau
+hi;ता खमाऊ;Ta Khmau
+bn;তা খমাউ;Ta Khmau
+ur;تا خماؤ;Ta Khmau
+fa;تا خماو;Ta Khmau
+ja;タ・クマウ;Ta Khmau
+pa;ਤਾ ਖਮਾਓ;Ta Khmau
+ps;تا خماو;Ta Khmau
+tg;Та Кмау;Ta Khmau
+ru;Такео;Takeo
+ar;تاكيو;Takeo
+kk;Такео;Takeo
+ky;Такео;Takeo
+fr;Takéo;Takeo
+hi;तकेओ;Takeo
+bn;তাকেও;Takeo
+ur;تاکیو;Takeo
+fa;تاکئو;Takeo
+ja;タケオ;Takeo
+pa;ਤਾਕੇਓ;Takeo
+ps;تاکيو;Takeo
+tg;Такео;Takeo
+ru;Свай Риенг;Svay Rieng
+ar;سفاي ريينج;Svay Rieng
+kk;Свай Риенг;Svay Rieng
+ky;Свай Риенг;Svay Rieng
+hi;स्वाय रिएंग;Svay Rieng
+bn;স্বে রিয়েং;Svay Rieng
+ur;سوے رینگ;Svay Rieng
+fa;سوای ریانگ;Svay Rieng
+ja;スヴァイリエン;Svay Rieng
+pa;ਸਵੇ ਰਿਯੰਗ;Svay Rieng
+ps;سوې رینګ;Svay Rieng
+tg;Свай Риенг;Svay Rieng
+en;Svay Don Kêv;Svay Doun Kaev
+nl;Svay Don Kêv;Svay Doun Kaev
+ru;Суонг;Suong
+ar;سويونج;Suong
+kk;Суонг;Suong
+ky;Суонг;Suong
+hi;सुओंग;Suong
+bn;সুওং;Suong
+ur;سؤنگ;Suong
+fa;سوئونگ;Suong
+ja;スオン;Suong
+pa;ਸੁਓਂਗ;Suong
+ps;سوونګ;Suong
+tg;Суонг;Suong
+ru;Стунг Тренг;Stung Treng
+ar;ستونج تربنج;Stung Treng
+kk;Стунг Тренг;Stung Treng
+ky;Стунг Тренг;Stung Treng
+hi;स्टुंग ट्रेंग;Stung Treng
+bn;স্টুং ট্রেং;Stung Treng
+ur;سٹنگ ٹرنگ;Stung Treng
+fa;استونگ ترنگ;Stung Treng
+ja;スタンプトレング;Stung Treng
+pa;ਸਟਾਂਗ ਟਰੰਗ;Stung Treng
+ps;سټنګ ترنګ;Stung Treng
+tg;Стунг Тренг;Stung Treng
+km;ស្រែស្បូវ;Kbal Damrei
+km;Srê Rŏluôs;Roluos Mean Chey
+km;ស្រែរលួស;Roluos Mean Chey
+km;ភូមិ ស្រែភនឹ្លរ;Phum Srê Pônlœ̆
+km;ស្រែណូយ;Srae Nouy
+km;ស្រែគរ;Srae Kor
+km;ស្រែខ្ទង់;Srê Khtông
+km;ស្រែកណ្ដាល;Srê Kândal
+km;ស្រែជិះ;Srae Chis
+km;ស្រែអង្គ្រង;Srae Angkrong
+km;ស្រែអណ្ដែង;Srê Ândêng
+km;ស្រម៉រ;Srâmâr
+km;ស្នួល;Snuol
+ru;Сисофон;Sisophon
+ar;سيسوفون;Sisophon
+kk;Сисофон;Sisophon
+ky;Сисофон;Sisophon
+es;Sisofón;Sisophon
+hi;सिसोफॉन;Sisophon
+bn;সিসোফন;Sisophon
+ur;سسوفون;Sisophon
+fa;سیسوفون;Sisophon
+ja;シソフォン;Sisophon
+pa;ਸਿਸੋਫੋਨ;Sisophon
+ps;سيسوفون;Sisophon
+pt;Sisofon;Sisophon
+tg;Сисофон;Sisophon
+es;Ciudad de Siem Riep;Siem Reap
+ja;シェムリアップ;Siem Reap
+nl;Khett Siem Reab;Siem Reap
+th;เสียมราฐ;Siem Reap
+vi;Xiêm Riệp;Siem Reap
+zh;暹粒省;Siem Reap
+zh;暹粒市;Siem Reap
+ru;Сием-Реап;Siem Reap
+km;Siĕmréab;Siem Reap
+ko;시엠레아프;Siem Reap
+ar;سيام ريب;Siem Reap
+fa;سیم ریپ;Siem Reap
+km;ក្រុងសៀមរាប;Siem Reap
+hi;सीम रीप;Siem Reap
+ru;Сиемреап;Siem Reap
+mn;Сиемреап;Siem Reap
+ta;சியெம் ரீப்;Siem Reap
+ur;سیئم ریئپ;Siem Reap
+ko;시엠립;Siem Reap
+ko;씨엠립;Siem Reap
+kk;Сиемреап;Siem Reap
+ky;Сиемреап;Siem Reap
+bn;সিয়েম রিপ;Siem Reap
+pa;ਸਿਅਮ ਰਿਆਪ;Siem Reap
+ps;سیم ریپ;Siem Reap
+tg;Сиемреап;Siem Reap
+km;សៀមហូង;Samraong
+en;Sen Moronom;Sen Monorom
+en;Senmonorom;Sen Monorom
+ru;Сен Монором;Sen Monorom
+ar;سين مونوروم;Sen Monorom
+kk;Сен Монором;Sen Monorom
+ky;Сен Монором;Sen Monorom
+hi;सेन मोनोरोम;Sen Monorom
+bn;সেন মোনোরম;Sen Monorom
+ur;سین منوروم;Sen Monorom
+fa;سن مونوروم;Sen Monorom
+ja;セン・モノロム;Sen Monorom
+pa;ਸੇਨ ਮੋਨੋਰੋਮ;Sen Monorom
+ps;سين منوروم;Sen Monorom
+tg;Сен Монором;Sen Monorom
+km;សែនគង់;Saen Kong
+km;សង្គមអណ្ដែត;Sângkŭm Ândêt
+km;សណ្ដាន់;Sandan
+km;សំបុក;Sambok
+km;រំពាត់;Rŭmpŏât
+km;រ឴ងកេសី;Reang Kesei
+km;ព្យួរជ្រូក;Pyuor Chruk
+km;ភូមិ ព្រិចខ្ពស់;Prich Khpos
+km;Phum Prĭch Khpuŏs;Prich Khpos
+ru;Прей Венг;Prey Veng
+ar;بري فينج;Prey Veng
+kk;Прей Венг;Prey Veng
+ky;Прей Венг;Prey Veng
+hi;प्रे वेंग;Prey Veng
+bn;প্রে ভেং;Prey Veng
+ur;پریے وینگ;Prey Veng
+fa;پری وینگ;Prey Veng
+ja;プレイベン;Prey Veng
+pa;ਪ੍ਰੇ ਵੰਗ;Prey Veng
+ps;پري وينج;Prey Veng
+tg;Прей Венг;Prey Veng
+km;ព្រៃត្រឡាច;Prey Trâlach
+km;ព្រៃសិន;Prey Sĕn
+km;ព្រៃនប់;Prey Nob
+km;Prey Nôp;Prey Nob
+km;ព្រែកតូច;S’ang
+km;ព្រែកថ្ម;Koah Thum
+ru;Пурсат;Pursat
+ar;بورسات;Pursat
+kk;Пурсат;Pursat
+ky;Пурсат;Pursat
+hi;पुरसात;Pursat
+bn;পুরসাত;Pursat
+ur;پرسات;Pursat
+fa;پورسات;Pursat
+ja;プルサット;Pursat
+pa;ਪੁਰਸਾਤ;Pursat
+ps;پورسات;Pursat
+tg;Пурсат;Pursat
+km;ពន្លែ;Ponley
+km;Pônlev;Ponley
+km;ភូមិ យុន;Phum Yŏn
+km;ភូមិ ឃាងវៀន;Yeang Vien
+km;Phumĭ Yéang Viĕn;Yeang Vien
+km;Phum Yéang Viĕn;Yeang Vien
+km;ភូមិ យាងទេស;Yeang Tes
+km;Phum Yéang Tés;Yeang Tes
+km;ភូមិ យាង;Phum Yéang
+km;Phum Yéang;Yeang
+km;ភូមិ យាង;Yeang
+km;ភូមិ វត្តថ្មី;Phum Vatt Thmei
+km;ភូមិ វត្តតាមឹធិ;Phum Vôat Ta Mœ̆m
+km;ភូមិ វត្តសូភី;Phum Vôat Sophi
+km;ភូមិ វត្តស្នួល;Snuol Voat
+km;Phum Vatt Rŭssei Moan;Bat Ser Moan
+km;ភូមិ វត្តឫស្សីមាន់;Bat Ser Moan
+km;ភូមិ វត្តនរា;Phum Vôat Nôréa
+km;ភូមិ វត្តចាស់;Phum Vatt Chass
+km;ភូមិ វត្ត;Phum Vatt
+km;ភូមិ វ៉នហយ;Phum Vœun Hây
+km;ភូមិ វល្លយាវ;Voa Yeav
+km;ភូមិ វល្លិប្រេង;Phum Voâl Preng
+km;ភូមិ វល្លព្រេង;Phum Voâr Prêng
+km;ភូមិ វិហារសំបូ;Vihear Sambour
+km;Phumĭ Viĕn;Vien
+km;Phum Viĕn;Vien
+km;ភូមិ វាំងហ្លួង;Anlong Svay
+km;ភូមិ វាំងខែ;Phum Veăng Kê
+km;ភូមិ វាលត្រែង;Veal Traeng
+km;Phumĭ Véal Trêng;Veal Traeng
+km;Phum Véal Trêng;Veal Traeng
+km;ភូមិ វាលទ្រាស;Phum Véal Tréas
+km;ភូមិ វាលទ្រា;Veal Trea
+km;Phum Véal Tréa;Veal Trea
+km;ភូមិ វាលតូច;Phum Véal Toch
+km;ភូមិ វាលធំ;Veal Thum
+km;ភូមិ វាលតាអោង;Phum Véal Ta Aông
+km;ភូមិ វាលស្នោ;Phum Véal Snaô
+km;Phumĭ Véal Snaô;Phum Véal Snaô
+km;ភូមិ វាលស្មាច់;Phum Véal Smăch
+km;ភូមិ វាលរេញ;Veal Renh
+km;Phum Véal Rénh;Veal Renh
+km;ភូមិ វាលពាន់តាឡី;Phum Vêal Poân Talei
+km;ភូមិ វាលពេ;Phum Véal Pé
+km;ភូមិ វាលមន;Phum Véal Môn
+km;Phumĭ Véal Môn;Phum Véal Môn
+km;ភូមិ វាលមាស;Phum Véal Méas
+km;Phumĭ Véal Méas;Phum Véal Méas
+km;ភូមិ វាលក្រាំង;Phum Véal Krăng
+km;ភូមិ វាលកូប;Phum Véal Kop
+km;ភូមិ វាលបំពង់;Phum Véal Bâmpông
+km;ភូមិ វាល;Phum Véal
+km;Phumĭ Véal;Phum Véal
+km;ភូមិរាល;Phum Véal
+km;ភូមិ ទូតចារ;Phum Tut Char
+km;Phumĭ Tut Char;Phum Tut Char
+km;ភូមិ ទួលវែង;Phum Toŭl Vêng
+km;ភូមិ ទួលត្រពាំងព្រៃ;Phum Tuŏl Trâpeăng Prey
+km;Phumĭ Tuŏl Trâpeăng Prey;Phum Tuŏl Trâpeăng Prey
+km;Phumĭ Tuŏl Ting;Tuol Totueng
+km;ភូមិ ទួលទីង;Tuol Totueng
+km;ភូមិ ទួលធ្នង់;Phum Tuŏl Thnŭng
+km;ភូមិ ទួលថ្នឹង;Phum Tuŏl Thnœ̆ng
+km;ភូមិ ទួលតាសុក;Tuol Ta Sokh
+km;Phum Tuŏl Tasŏk;Tuol Ta Sokh
+km;ភូមិ ទួលតាលុបពុល;Phum Tuŏl Ta Lŭppŭl
+km;ភូមិ ទួលតាកោ;Ta Kao
+km;ភូមិ ទួលតាចាន់;Phum Tuŏl Ta Chăn
+km;ភូមិ ទួលស្នួល;Phum Tuŏl Snuŏl
+km;Phum Tuŏl Snuŏl;Tuol Snuol
+km;ភូមិ ទួលស្នួល;Tuol Snuol
+km;ភូមិ ទួលស្នែង;Phum Tuŏl Snêng
+km;ភូមិ ទួលសន់ឡង់;Phum Tuŏl Sânlâng
+km;Phumĭ Tuŏl Sângkê;Tuol Sangkae
+km;Phum Tuŏl Sângkê;Tuol Sangkae
+km;ភូមិ ទួលសង្កែ;Tuol Sangkae
+km;ភូមិ ទួលសំរោងដាច់;Phum Tuŏl Sâmraông Dăch
+km;ភូមិ ទួលរុន;Phum Tuŏl Rŭn
+km;ភូមិ ទួលរការ;Phum Tuŏl Rôka
+km;ភូមិ ទួលប្រស់;Phum Tuŏl Prâs
+km;ភូមិ ទួលប្រាំមួយ;Phum Tuŏl Prăm Muŏy
+km;ភូមិ ទួលពោន;Phum Tuŏl Poŭn
+km;ភូមិ ទួលផ្អាវ;Phum Tuŏl Phâav
+km;ភូមិ ទួលប៉ាក;Phum Tuŏl Păk
+km;ភូមិ ទួលម្កាក់;Phum Tuŏl Môkak
+km;ភូមិ ទួលល្ងាង;Phum Tuŏl Lôngéang
+km;ភូមិ ទួលក្រវ៉ាញ;Phum Tuŏl Krâvanh
+km;ភូមិ ទួលគរ;Phum Tuŏl Kôr
+km;ភូមិ ទួលចាស់;Phum Tuŏl Chăs
+km;Phum Toŭl Char;Banteay Dei
+km;ភូមិ ទួលចារ;Banteay Dei
+km;ភូមិ ទួលចំបក់;Phum Tuŏl Châmbâk
+km;ភូមិ ទួលចើស;Phum Tuŏl Chaeus
+km;ភូមិ ទួលបឹងធ្មៃ;Phum Tuŏl Bœ̆ng Thmey
+km;ភូមិ ទួលអំពិល;Phum Tuŏl Âmpĭl
+km;ភូមិ ទួលអន្លង់សង្កែ;Phum Tuŏl Anlŭng Sângkê
+km;ភូមិ ទួលអាច៍កក;Phum Tuŏl Ach Kŏk
+km;ភូមិ ទួល;Phum Tuŏl
+km;Phumĭ Tuŏl;Phum Tuŏl
+km;ភូមិ ទួល;Tuol
+km;Phumĭ Tuŏl;Tuol
+km;Phum Tuŏl;Tuol
+km;ភូមិ ទួល;Chrolong
+km;Phum Tumpung Muŏy;Tumpung Tboung
+km;ភូមិ ទំពូង មួយ;Tumpung Tboung
+km;ភូមិ ទំពរ៌;Phum Tŭmpor
+km;ភូមិ ទំលាយ;Phum Tomléay
+km;ភូមិ ទ្រយង;Phumĭ Trôyông
+km;ភូមិ ទ្រនប់;Phum Trônôp
+km;ភូមិ ត្រុំ;Trom
+km;Phum Trôloŭk;Tro Louk Cheung
+km;ភូមិ ទ្រលោក;Tro Louk Cheung
+km;ភូមិ ត្រីញរ;Trei Nhoar
+km;Phum Trei Nhôr;Trei Nhoar
+km;ភូមិ ទ្រាយ;Pou Treay
+km;Phum Thréay;Pou Treay
+km;Phum Tréas;Treas
+km;ភូមិ ត្រយ៉ែង;Phum Trâyêng
+km;Phumĭ Trâyêng;Phum Trâyêng
+km;ភូមិ ត្រាវ;Phum Trav
+km;Phum Trăs;Tras
+km;ភូមិ ត្រស់;Tras
+km;Phum Trâs;Tras
+km;Phumĭ Trâpeăng Vêng;Thmei
+km;ភូមិ ត្រពាំងវែង;Thmei
+km;ភូមិ ត្រពាំងវែង;Phum Trâpeăng Vêng
+km;ភូមិ ត្រពាំងវែង;Trapeang Veaeng
+km;Phum Trâpeăng Vêng;Trapeang Veaeng
+km;ភូមិ ត្រពាំងទូក;Phum Trâpeăng Tuk
+km;ភូមិ ត្រពាំងទ្រាំ;Phum Trâpeăng Trŏâm
+km;ភូមិ ត្រពាំងទ្រាំង;Phum Trâpeăng Treăng
+km;Phumĭ Trâpeăng Treăng;Phum Trâpeăng Treăng
+km;ភូមិ ត្រពាំងត្រាវ;Trapeang Trav
+km;Phum Trâpeăng Trav;Trapeang Trav
+km;ភូមិ ត្រពាំងត្រស់;Phum Trâpeăng Trâs
+km;ភូមិ ត្រពាំងទទឹម;Phum Trâpeăng Tótœ̆m
+km;ភូមិ ត្រពាំងធំ;Phum Trâpeăng Thom
+km;ភូមិ ត្រពាំងធំ;Trapeang Thum
+km;Phum Trâpeăng Thom;Trapeang Thum
+km;ភូមិ ត្រពាំងធ្នង់;Phum Trâpeăng Thnŭng
+km;ភូមិ ត្រពាំងធ្លក;Phum Trâpeăng Thlôk
+km;Phumĭ Trâpeăng Thlôk;Phum Trâpeăng Thlôk
+km;ភូមិ ត្រពាំងតាជៃ;Phumĭ Trâpeăng Ta Chey
+km;ភូមិ ត្រពាំងស្វាយ;Trapeang Svay
+km;Phum Trâpeăng Svay;Trapeang Svay
+km;ភូមិ ត្រពាំងស្វាយ;Phum Trâpeăng Svay
+km;Phumĭ Trâpeăng Svay;Phum Trâpeăng Svay
+km;ភូមិ ត្រព឴ងស្អុយលើ;Phum Trâpeăng Saŏy Leu
+km;ភូមិ ត្រពាំងស្អុយក្រោម;Trapeang S’oy Pir
+km;Phum Trâpeăng Snuŏl;Trapeang Chhnuol
+km;ភូមិ ត្រពាំងស្នួល;Trapeang Chhnuol
+km;ភូមិ ត្រពាំងសេះខាងលិច;Phum Trâpeăng Séh Khang Lĕch
+km;ភូមិ ត្រពាំងរុន;Phum Trâpeăng Rŭn
+km;Phum Trâpeăng Rŭmduŏl Rŭssei;Trapeang Ruessei
+km;ភូមិ ត្រពាំងរំដួលឫស្សី;Trapeang Ruessei
+km;ភូមិ ត្រពាំងរំដេញ;Trapeang Rumdenh
+km;Phum Trâpeăng Rŭmdénh;Trapeang Rumdenh
+km;ភូមិ ត្រពាំងរោ;Phum Trâpeăng Roŭ
+km;Phum Trâpeăng Rôpŏu;Preaek Pras
+km;ភូមិ ត្រពាំងរពៅ;Preaek Pras
+km;ភូមិ ត្រពាំងរពៅ;Trapeang Ropov
+km;Phum Trâpeăng Rôpŏu;Trapeang Ropov
+km;ភូមិ ត្រពាំងឫស្សី;Trapeang Ruessei
+km;Phum Trâpeăng Rŭssei;Trapeang Ruessei
+km;ភូមិ ត្រពាំងឫស្សី;Roka Po Pram
+km;ភូមិ ត្រពាំងព្រីង;Phum Trâpeăng Pring
+km;ភូមិ ត្រពាំងព្រីង;Phumĭ Trâpeăng Pring
+km;ភូមិ ត្រពាំងព្រីង;Trapeang Pring
+km;Phum Trâpeăng Pring;Trapeang Pring
+km;Phum Trâpeăng Prey;Chambak Prasat
+km;ភូមិ ត្រពាំងព្រៃ;Chambak Prasat
+km;ភូមិ ត្រពាំងប្រិយ;Trapeang Prei
+km;Phum Trâpeăng Prei;Trapeang Prei
+km;ភូមិ ត្រពាំងប្រី;Phum Trâpeăng Prei
+km;ភូមិ ត្រពាំងព្រះ;Phum Trâpeăng Preăh
+km;ភូមិ ត្រពាំងពោធិ;Phum Trâpeăng Poŭth
+km;ភូមិ ត្រពាំងមូល;Trapeang Mul
+km;Phum Trâpeăng Mul;Trapeang Mul
+en;Trapeang Montrei;Phumĭ Trâpeăng Môntrei
+km;Phum Trâpeăng Môlu;Tuol Samraong
+km;ភូមិ ត្រពាំងម្លូ;Tuol Samraong
+km;ភូមិ ត្រពាំងលៀង;Phum Trâpeăng Liĕng
+km;ភូមិ ត្រពាំងលាក់;Phum Trâpeăng Leăk
+km;ភូមិ ត្រពាំងក្រែង;Phum Trâpeăng Krêng
+km;Phumĭ Trâpeăng Krêng;Phum Trâpeăng Krêng
+km;ភូមិ ត្រពាំងក្រាល;Phum Trâpeăng Kral
+km;Phumĭ Trâpeăng Kông;Ta Minh
+km;Phumĭ Trâpeăng Kol;Trapeang Veaeng
+km;Phum Trâpeăng Kol;Trapeang Veaeng
+km;ភូមិ ត្រពាំងកូល;Trapeang Veaeng
+km;Phum Trâpeăng Khtŭm;Thmei
+km;ភូមិ ត្រពាំងខ្ទុំ;Thmei
+km;Phum Trâpeăng Kéa;Trapeang Kea
+km;ភូមិ ត្រពាំងគា;Trapeang Kea
+km;Phumĭ Trâpeăng Ĕd;Phum Trâpeăng Ĕd
+km;ភូមិ ត្រពាំងអិដ្ឋ;Phum Trâpeăng Ĕd
+km;Phumĭ Trâpeăng Chrey;Phum Trâpeăng Chrey
+km;ភូមិ ត្រពាំងជ្រៃ;Trapeang Chrey
+km;Phum Trâpeăng Chrey;Trapeang Chrey
+km;Phumĭ Trâpeăng Chrey;Trapeang Chrey
+km;ភូមិ ត្រពាំងជង;Trapeang Chong
+km;Phum Trâpeăng Chông;Trapeang Chong
+km;ភូមិ ត្រពាំងឈូក;Phum Trâpeăng Chhuk
+km;ភូមិ ត្រពាំងចាន់;Trapeang Chan
+km;Phum Trâpeăng Chăn;Trapeang Chan
+km;Phumĭ Trâpeăng Châk;Trapeang Chak
+km;Phum Trâpeăng Châk;Trapeang Chak
+km;ភូមិ ត្រពាំងចក;Trapeang Chak
+km;Phum Trâpeăng Âmpil;Kouk Doung Thmei
+km;ភូមិ ត្រពាំងអំពិល;Kouk Doung Thmei
+km;ភូមិ ត្រពាំងអំពិល;Trapeang Ampil
+km;Phum Trâpeăng Âmpil;Trapeang Ampil
+km;ភូមិ ត្រោក;Phum Traôk
+km;ភូមិ ត្រោកតាប៉ាង;Phum Traôk Ta Pang
+km;ភូមិ ត្រាង;Phum Trang
+km;ភូមិ ត្រាង;Trang
+km;Phum Trang;Trang
+km;ភូមិ ត្រង់;Trang
+km;Phum Trâng;Trang
+km;ភូមិ ត្រាំង;Trang
+km;Phum Trăng;Trang
+km;Phum Trăm Ta Sa;Tram Sasar
+km;ភូមិ ត្រាំតាសា;Tram Sasar
+km;ភូមិ ត្រាំសេះ;Phum Trăm Séh
+km;ភូមិ ត្រាំពែរ;Phum Trămpê
+km;ភូមិ ត្រាំនាគ;Tram Neak
+km;Phumĭ Trăm Néak;Tram Neak
+km;Phum Trăm Néak;Tram Neak
+km;ភូមិ ត្រាំក្រសា;Phum Trăm Krâsa
+km;ភូមិ ត្រាំកង;Tram Kang
+km;Phum Trămkâng;Tram Kang
+km;ភូមិ ត្រំកាច់;Tram Kach
+km;Phum Trâmkach;Tram Kach
+km;ភូមិ ត្រគៀត;Trakiet
+km;Phum Trâkiĕt;Trakiet
+km;ភូមិត្រៃយភ័ព;Phumĭ Trai Phôp
+km;ភូមិ ត្រើយស្លា;Traeuy Sla
+km;Phum Traeuy Sla;Traeuy Sla
+km;Ta Dev;Phumĭ Trâdév
+km;ភូមិ ត្រាចថ្មី;Phum Trach Thmei
+km;Phum Trach Pôk;Popel Lech
+km;ភូមិ ត្រាចពក;Popel Lech
+km;ភូមិ ត្រាចពក;Trach Pok
+km;Phum Trach Pôk;Trach Pok
+km;ភូមិ ត្រាច;Trach
+km;Phum Trach;Trach
+km;ភូមិ ត្របែក;Phum Trâbêk
+km;ភូមិ ត្រប់;Phum Trâp
+km;ភូមិ ទទាល;Totea
+km;Phumĭ Tôtéal;Totea
+km;Phum Sdau;Totea
+km;ភូមិ ស្តៅ;Totea
+km;ភូមិ ទន្លាប់;Tonloab
+km;Phum Tôn Léap;Tonloab
+km;ភូមិ ទន្លេសាប;Phum Tônlé Sap
+km;ភូមិ ទន្លេស;Tonle Sar
+km;Phumĭ Tônlé Sâ;Tonle Sar
+km;Phum Tônlé Sâ;Tonle Sar
+km;ភូមិ ទន្លេដាប;Phum Tônlé Dap
+km;ភូមិ ទន្លា;Phum Tônléa
+km;Phumĭ Tônléa;Phum Tônléa
+km;ភូមិ ទំម្រាប;Tumroab
+km;Phum Tum Roâp;Tumroab
+km;Phum Tŏl Bŏt;Thnal Bat
+km;ភូមិ តុលបុត;Thnal Bat
+km;ភូមិ ទឹកល្អ;Phum Tœ̆k Lââ
+km;ភូមិ ទឹកធ្នឹម;Phum Tœ̆k Thnœ̆m
+km;ភូមិ ទឹកថ្លា;Tuek Thla
+km;Phum Tœ̆k Thla;Tuek Thla
+km;ភូមិ ទឹកសុក;Phum Tœ̆k Sŏk
+km;ភូមិទឹករាក់;Phumĭ Tœ̆k Réak
+km;ភូមិ ទឹកលង;Tuek Long Muoy
+km;ភូមិ ទឹកលិច;Tuek Lich
+km;Phum Tœ̆k Lĕch;Tuek Lich
+km;Phum Tœ̆k Lôâk;Khun Mouk
+km;ភូមិ ទឹកល្អក;Khun Mouk
+km;Phum Tœ̆k Lôâk;Tuek L’ak
+km;ភូមិ ទឹកល្អក់;Tuek L’ak
+km;ភូមិ ទឹកខ្យាស;Phum Tœ̆k Khya
+km;ភូមិ ទឹកដាច់;Phum Tœ̆k Dăch
+km;ភូមិ ទឹកជ្រាប;Tuek Chroab
+km;Phum Tœ̆k Chréap;Tuek Chroab
+km;Phum Tœ̆k Choŭ;Khum Tuek Chour
+km;ភូមិ ទឹកជោ;Khum Tuek Chour
+km;ភូមិ ទឹកចេញ;Phum Tœ̆k Chénh
+km;Phumĭ Tœ̆k Chénh;Phum Tœ̆k Chénh
+km;ភូមិ ទឹក;Phum Tœ̆k
+km;Phum Toch;Roleab
+km;ភូមិ តូច;Roleab
+km;ភូមិ ទ័ពតាឡូត;Phum Toâp Ta Lot
+km;ភូមិ ទ័ពសៀម;Toap Siem
+km;Phum Toăp Siem;Toap Siem
+km;Phum Toap Sdach;Toap Sdach
+km;ភូមិ ទ័ពស្ដេច;Toap Sdach
+km;ភូមិ ទាប់ស្វាយ;Toap Svay
+km;Phum Téap Svay;Toap Svay
+km;ភូមិ ត្នោត;Phum Tnaôt
+km;Phum Tnaôt;Tnaot
+km;ភូមិ ត្នោត;Tnaot
+km;ភូមិ ត្នោតមួយដើម;Phum Tnaôt Muŏy Daeum
+km;ភូមិ ត្នោតខាងលិច;Phum Tnaôt Khang Lĕch
+km;ភូមិ ត្នោតខាងជើង;Phum Tnaôt Khang Kaeut
+km;Phum Tnaôt Chrŭm;Tnaot Chrum
+km;ភូមិ ត្នោតជ្រុំ;Phum Tnaôt Chrŭm
+km;ភូមិ ត្នោ;Phum Thnaŏ
+km;ភូមិ ត្មាតពង;Tmat Pong
+km;Phum Tmat Pông;Tmat Pong
+km;ភូមិ ត្មាតពង;Phum Tmat Pông
+km;Phumĭ Tita Ngĕuy;Ta Ngaeuy
+km;Phum Tita Ngĕuy;Ta Ngaeuy
+km;ភូមិ ទីតាងើយ;Ta Ngaeuy
+km;ភូមិ ទិង;Khting
+km;Phum Ting;Khting
+km;ភូមិ ទៀនតាយ;Chen Tay
+km;Phumĭ Tiĕn Tay;Chen Tay
+km;Phum Tiĕn Tay;Chen Tay
+km;ភូមិ ទៀបកោសា;Tep Kaosa
+km;Phum Trĕp Kaôsa;Tep Kaosa
+km;ភូមិ ធ្វាស់;Thveas
+km;Phum Thvéas;Thveas
+km;ភូមិ ថ្វាង;Thvang
+km;Phumĭ Thvang;Thvang
+km;Phum Thvang;Thvang
+km;ភូមិ ថ្វាក;Phum Thvak
+km;Phumĭ Thvak;Phum Thvak
+km;ភូមិ ថ្ពងវៀតណាម;Phum Thpông Viĕtnam
+km;Phum Thnŭng;Kakaoh
+km;ភូមិ ធ្នង;Kakaoh
+km;ភូមិ ធ្នង់ខាងត្បូង;Phum Thnŭng Khang Tbong
+km;ភូមិ ធង់ខាងជើង;Thnong Khang Cheung
+km;Phum Thnŭng Khang Cheung;Thnong Khang Cheung
+km;ភូមិ ថ្ងាន់ទ្រេត;Phum Thngăn Trét
+km;ភូមិ ថ្នំ;Phum Thnâm
+km;ភូមិ ថ្នល់តាសិត;Thnal Ta Set
+km;Phum Thnâl Ta Sĕt;Thnal Ta Set
+km;ភូមិ ថ្នល់កែង;Phum Thnâl Kêng
+km;Phumĭ Thnâl Kêng;Phum Thnâl Kêng
+km;ភូមិ ថ្នល់កណ្តាល;Phum Thnâl Kândal
+km;ភូមិ ថ្នល់ដាច់;Thnal Dach
+km;Phum Thnâl Dach;Thnal Dach
+km;Thnal Dach;Phumĭ Thnál Dăch
+km;ភូមិ ថ្នល់ដាច់;Phum Thnâl Dach
+km;ភូមិ ថ្នល់ចាស់;Phum Thnâl Chăs
+km;ភូមិ ថ្នល់បែក;Phum Thnâl Bêk
+km;ភូមិ ថ្នល់;Thnal
+km;Phum Thnâl;Thnal
+km;ភូមិ ថ្នល់;Phum Thnâl
+km;Phum Thnâi;Thnal
+km;ភូមិ ថ្មី;Phum Thmei
+km;Phum Thmei;Svay
+km;ភូមិ ថ្មី ពីរ;Svay
+km;Phum Thmei;Prey Kuy
+km;ភូមិ ថ្មី;Prey Kuy
+km;ភូមិ ថ្មី;Thmei
+km;Phum Thmei;Thmei
+km;ភូមិ ថ្មី មួយ;Bansay Traeng
+km;Phum Thmei Muŏy;Bansay Traeng
+km;ភូមិ ថ្មីខាងត្បូង;Phum Thmei Khang Tbong
+km;Phumĭ Thmei Khang Tbong;Phum Thmei Khang Tbong
+km;ភូមិ ថ្មីកណ្តាល;Phum Thmei
+km;Phumĭ Thmei Kândal;Phum Thmei
+km;Phum Thmei Kândal;Phum Thmei
+km;Phumĭ Thmei;Phum Thmei
+km;Phum Thmei;Nam Tau
+km;ភូមិ ថ្មី;Nam Tau
+km;ភូមិថ្មី;Phumĭ Thmei
+km;Phumĭ Thmei;Thmei
+km;Phum Thmâ Treăng;Thma Treang
+km;ភូមិ ថ្មទ្រាំង;Thma Treang
+km;ភូមិ ថ្មសិន;Thma Sen
+km;ភូមិ ថ្មសរ មួយ;Thma Sar
+km;Phum Thmâ Sâ;Thma Sar
+km;ភូមិ ថ្មរុង;Phum Thmâ Rŏng
+km;Phum Thmâ Réap;Thma Reab
+km;ភូមិ ថ្មរាប;Thma Reab
+km;ភូមិ ថ្មព្រុស;Phum Thmâr Prŭs
+km;Phumĭ Thmâr Prŭs;Phum Thmâr Prŭs
+km;ភូមិ ថ្មពក;Thma Puok
+km;Phum Thmâ Pôk;Thma Puok
+km;ភូមិ ថ្មពេជ្រ;Thma Pechr
+km;Phumĭ Thmâ Krê;Thma Kreae Leu
+km;ភូមិ ថ្មគ្រែ;Thma Kreae Leu
+km;ភូមិ ថ្មក្របាម;Phum Thmâ Krâhâm
+km;ភូមិ ថ្មគោល;Thma Koul
+km;Phumĭ Thmâ Koŭl;Thma Koul
+km;Phum Thmâ Koŭl;Thma Koul
+km;ភូមិ ថ្មគោល;Phum Thmâi Koŭl
+km;ភូមិ ថ្មដប់;Thma Dab
+km;ភូមិ ថ្មដាប់;Thma Dab
+km;Phum Thmâ Dăb;Thma Dab
+km;ភូមិ ថ្មជ្រាវ;Phum Thmâ Chriĕv
+km;ភូមិ ថ្មបាំង;Phum Thmâ Băng
+km;ភូមិ ធ្លក;Thlok
+km;Phum Thlôk;Thlok
+km;ភូមិ ថ្លុករពា;Phum Thlŏk Rôpéa
+km;ភូមិ ធ្លកកំបុត្រ;Thlok Kambot
+km;Phum Thlôk Kâmbŏt;Thlok Kambot
+km;ភូមិ ថ្លុកជ្រៅ;Thlok Chrov
+km;Phumĭ Thlôk;Rumchek
+km;Phum Thlôk;Rumchek
+km;ភូមិ ធ្លក;Rumchek
+km;Thlok;Phumĭ Thlôk
+km;ភូមិ ថ្លាត;Thlat
+km;Phum Thlat;Thlat
+km;ភូមិ កំពង់ថ្កូវ;Kampong Thkov
+km;Phum Kâmpông Thkov;Kampong Thkov
+km;ភូមិ ថ្កូវ;Kampong Thkov
+km;ភូមិ ធ្គាមរមាស;Phum Thkéam Rôméas
+km;Phumĭ Thkéam Rôméas;Phum Thkéam Rôméas
+km;ថ្កោលតូច;Thkoul Touch
+km;Phum Thkaôt Toch;Thkoul Touch
+km;ភូមិ ថ្កោល;Phum Thkaôl
+km;ភូមិ ធិបតី;Thipakdei
+km;Phum Thĭpdei;Thipakdei
+km;ភូមិ ធាយ;Phum Théay
+km;ភូមិ ថាផុង;Phum Thapŏng
+km;ភូមិ ទើនលើ;Phum Teun Leu
+km;ភូមិ ទើនក្រោម;Phum Teun Kraôm
+km;ភូមិ តីត្រាវ;Phum Tei Trav
+km;ភូមិ ត្បូងក្ដី;Phum Tbong Kdei
+km;ភូមិ ត្បៀក;Phum Tbiĕk
+km;ភូមិ ត្បែងជ្រុំ;Phum Tbêng Chrŭm
+km;ភូមិ ត្បែង;Tbaeng
+km;Phum Tbêng;Tbaeng
+km;ភូមិ ត្បែង;Phum Tbêng
+km;Phum Tbêng;Yea Angk
+km;ភូមិ ត្បែង;Yea Angk
+km;ភូមិ តាយុន;Phum Ta Yŏn
+km;ភូមិ តាយោ;Phum Ta Yoŭ
+km;ភូមិ តាយិន;Ta Yin
+km;Phumĭ Ta Yĭn;Ta Yin
+km;Phum Ta Yĭn;Ta Yin
+km;ភូមិ តាយ៉ែក;Phum Ta Yêk
+km;ភូមិ តាយ៉ែក;Ta Yaek
+km;Phum Ta Yêk;Ta Yaek
+km;Phum Ta Vŭng;Ponley
+km;ភូមិ តាវង់;Ponley
+km;ភូមិ តាត្រាវ;Ta Trav
+km;Phumĭ Ta Trav;Ta Trav
+km;Phum Ta Trav;Ta Trav
+km;ភូមិ តាត្រាវ;Phum Ta Trav
+km;Phumĭ Ta Trav;Phum Ta Trav
+km;ភូមិ តាត្រៃ;Ta Trai
+km;Phumĭ Ta Trai;Ta Trai
+km;Phum Ta Trai;Ta Trai
+km;ភូមិ តាទរ៌;Ta Tor
+km;Phum Tatôr;Ta Tor
+km;ភូមិ តាតង;Phum Ta Tŏng
+km;ភូមិ តាទកក្រៅ;Phum Ta Tôk Krau
+km;ភូមិ តាទកក្នុង;Phum Ta Tôk Knŏng
+km;Phumĭ Ta Tôk Knŏng;Phum Ta Tôk Knŏng
+km;ភូមិ តាតោក;Phum Ta Taôt
+km;Phum Ta Taôk;Ta Taok Kandal
+km;ភូមិ តាតោក;Ta Taok Kandal
+km;ភូមិ តាសុក;Ta Sokh
+km;Phum Ta Sok;Ta Sokh
+km;Phumĭ Ta Pho;Kouk Ta Sokh
+km;Phum Ta Pho;Kouk Ta Sokh
+km;ភូមិ តាសុក;Kouk Ta Sokh
+km;ភូមិ តាសុក;Phum Ta Sŏk
+km;ភូមិ តាស្នក;Phum Ta Snak
+km;Phum Ta Snê;Ta Snae
+km;ភូមិ តាសៀវ;Phum Ta Siĕv
+km;ភូមិ តាសែង;Ta Saeng
+km;Phum Tasêng;Ta Saeng
+km;ភូមិ តាសេក;Phum Ta Sék
+km;ភូមិ តាសី;Phum Tasei
+km;ភូមិ តាស្ដី;Svay Chan
+km;ភូមិ តាសោម;Phum Ta Saôm
+km;ភូមិ តាសាញ;Phum Ta Sanh
+km;Phumĭ Ta Sâl Muŏy;Ta Sal
+km;ភូមិ តាសល់ មួយ;Ta Sal
+km;Phum Ta Ròs;Ta Ros
+km;ភូមិ តាពុក;Phum Ta Pŭk
+km;ភូមិ តាព្រុំ;Phum Ta Prŭm
+km;Phumĭ Ta Prŭm;Phum Ta Prŭm
+km;Phum Ta Prŏk;Doun Ov
+km;ភូមិ តាប្រុក;Doun Ov
+km;ភូមិ តាព្រាល;Phum Ta Préal
+km;ភូមិ តាពៅ;Phum Tapŏu
+km;Phum Ta Pôr Leu;Ta Poar Muoy
+km;ភូមិ អូតាពរលើ;Ta Poar Muoy
+km;Phum Ta Pôr Kraôm;Prey Totueng
+km;ភូមិ តាពរក្រោម;Prey Totueng
+km;ភូមិ តាពៀម;Ta Peam
+km;Phum Ta Piĕm;Ta Peam
+km;ភូមិ តាភុល;Phum Ta Phŭl
+km;Phumĭ Ta Phŭl;Phum Ta Phŭl
+km;ភូមិ តាភោគ;Phum Ta Phoŭk
+km;ភូមិ តាផូ;Ta Phou
+km;Phum Ta Pho;Ta Phou
+km;ភូមិ តាប៉ែន;Ta Paen
+km;Phumĭ Ta Pên;Ta Paen
+km;Phum Ta Pên;Ta Paen
+km;ភូមិ តាបោ;Phum Ta Paô
+km;ភូមិ តាប៉ាង;Phum Ta Pang
+km;Phumĭ Ta Pang;Phum Ta Pang
+km;ភូមិ តាប៉ាង;Ta Pang
+km;Phum Tapang;Ta Pang
+km;ភូមិ តាប៉ាង;Phum Tapang
+km;Phumĭ Tapang;Phum Tapang
+km;Phumĭ Ta Pang;Ta Pang
+km;Phum Ta Pang;Ta Pang
+km;ភូមិ តាប៉ា;Phum Ta Pa
+km;Phum Taông Maông;Reaksmei Sameakki
+km;ភូមិ តោងមោង;Reaksmei Sameakki
+km;ភូមិ តាអុង;Phum Ta Ŏng
+km;ភូមិ តាឧ;Phum Ta Aô
+km;ភូមិ តានយ;Phum Tanôy
+km;ភូមិ តានង;Phum Ta Nŭng
+km;ភូមិ តានន;Phum Tanôn
+km;ភូមិ តានក;Phum Ta Nôk
+km;ភូមិ តាណក;Phum Ta Nŏk
+km;ភូមិ តានី;Ta Ni
+km;Phum Tani;Ta Ni
+km;ភូមិ តាងួន;Ta Nguon
+km;Phum Ta Nguŏn;Ta Nguon
+km;ភូមិ តាំងត្រពាំង;Tang Trapeang
+km;Phum Tăng Trâpeăng;Tang Trapeang
+km;ភូមិ តាំងព្រេច;Phum Tăng Préch
+km;Phum Tăng Poŭ;Krang Pou
+km;ភូមិ តាំងពោធិ;Krang Pou
+km;ភូមិ តាំងល្វា;Phum Tăng Lôvéa
+km;ភូមិ តាំងឡាំង;Phum Tănglăng
+km;ភូមិ តាំងឃ្នង;Phum Tăng Khnŭng
+km;ភូមិ តាងែនចាស់;Phum Ta Ngên Chăs
+km;ភូមិ តាងាន;Phum Ta Ngan
+km;ភូមិ តានៃ;Ta Ney
+km;ភូមិ តានេល;Phum Ta Nél
+km;Phumĭ Tanat;Phum Tanat
+km;ភូមិ តាមុំ;Ta Mom
+km;Phum Ta Mom;Ta Mom
+km;ភូមិ តាមក ពីរ;Phum Ta Mŏk
+km;ភូមិ តាមឿន;Phum Ta Moeăn
+km;ភូមិ តាមាស;Phum Ta Méas
+km;ភូមិ តាមាន;Phum Ta Méan
+km;ភូមិ តាំជ ពីរ;Phum Tăm Chô Pir
+km;Phum Ta Mau;Ta Mau
+km;ភូមិ តាម៉ៅ;Ta Mau
+km;Phumĭ Tamau;Ta Mau
+km;Phum Tamau;Ta Mau
+km;ភូមិ តាម៉ា;Phum Tama
+km;Phumĭ Tama;Phum Tama
+km;ភូមិ តាលុស;Ta Luh
+km;Phum Ta Lŭs;Ta Luh
+km;ភូមិ តាលុច;Phum Ta Lŭch
+km;Phum Talŭh;Ta Loas
+km;ភូមិ តាលន់;Ta Loas
+km;ភូមិ តាលន់;Phum Ta Lŭn
+km;ភូមិ តាឡុក;Phum Talŏk
+km;ភូមិ តាឡីង;Phum Ta Lœ̆ng
+km;Phum Talat;Ta Lat
+km;ភូមិ តាឡាត;Ta Lat
+km;Phum Talâm Kândal;Ta Lam
+km;ភូមិ តាឡំកណ្ដាល;Ta Lam
+km;ភូមិ តាគ្រាម;Ta Kream
+km;Phum Ta Kréam;Ta Kream
+km;ភូមិ តាកុយកាន់កាត;Phum Takŏy Kann Kai
+km;ភូមិ តាកយ;Phum Ta Koy
+km;ភូមិ តាកុក;Phum Ta Kŏk
+km;ភូមិ តាកែវ;Ta Kaev
+km;Phum Takêv;Ta Kaev
+km;ភូមិ តាកែវ;Phum Takêv
+km;ភូមិ តាកោះ;Ta Koh
+km;Phum Ta Kaôh;Ta Koh
+km;ភូមិ តាកាំ;Ta Kam
+km;Phumĭ Takăm;Ta Kam
+km;Phum Takăm;Ta Kam
+km;ភូមិ តាហ៊ីង;Phum Ta Hing
+km;Phumĭ Ta Hing;Phum Ta Hing
+km;ភូមិ តាហាល;Phum Ta Hal
+km;ភូមិ តាឯក;Ta Aek
+km;Phumĭ Ta Êk;Ta Aek
+km;Phum Ta Êk;Ta Aek
+km;ភូមិ តាឌួស;Ta Duol
+km;Phumĭ Ta Duŏl;Ta Duol
+km;Phum Ta Duŏl;Ta Duol
+km;ភូមិ តាដែត;Phum Ta Dêt
+km;ភូមិ តាដិត;Phumĭ Ta Dĕt
+km;ភូមិ តាឆូក;Phum Ta Thuŏk
+km;ភូមិ តាឈរ;Phum Ta Chhôr
+km;ភូមិ តាជេត;Ta Chet
+km;Phumĭ Ta Chét;Ta Chet
+km;Phum Ta Chét;Ta Chet
+km;ភូមិ តាជេស;Phum Ta Chés
+km;ភូមិ តាចរ;Phum Ta Châr
+km;ភូមិ តាចាន់;Ta Chan
+km;Phum Ta Chan;Ta Chan
+km;ភូមិ តាអិន មួយ;Ta In Muoy
+km;Phum Ta In Muŏy;Ta In Muoy
+km;Phum Ta Chan;Ta In Muoy
+km;ភូមិ តាចាន់;Ta In Muoy
+km;ភូមិ តាចាប;Phum Tachap
+km;ភូមិ តប់មាន់;Toap Mean
+km;Phum Tâp Moân;Toap Mean
+km;ភូមិ តាបៅ;Phum Ta Bau
+km;Phumĭ Ta Bau (1);Phum Ta Bau
+km;Phum Ta Aông Pŏk;Ka Lang
+km;ភូមិ តាអោងប៉ុក;Ka Lang
+km;ភូមិ តាអោងកាប់;Phum Ta Aông Kap
+km;ភូមិ តាអោង;Ta Ang
+km;Phum Ta Aông;Ta Ang
+km;ភូមិ តាអាន;Ta An
+km;Phum Ta An;Ta An
+km;ភូមិតាអំ;Phum Ta Ăm
+km;ភូមិ ស្យាក្រោម;Phum Syar Kraŏm
+km;ភូមិ ស្វាយ;Svay
+km;Phum Svay;Thnal
+km;ភូមិ ស្វាយ;Thnal
+km;ភូមិ ស្វាយយូ;Phum Svay Yu
+km;ភូមិ ស្វាយយាង;Phum Svay Yéang
+km;ភូមិ ស្វាយយក្ស;Phum Svay Yeăk
+km;ភូមិ ស្វាយទ្រេត;Phum Svay Trét
+km;ភូមិ ស្វាយទោង;Phum Svay Toŭng
+km;ភូមិ ស្វាយធំ;Phum Svay Thom
+km;ភូមិ ស្វាយតាធម;Phum Svay Tathôm
+km;ភូមិ ស្វាយតានី;Phum Svay Tani
+km;Phumĭ Svay Tani;Phum Svay Tani
+km;ភូមិ ស្វាយតាមេឃ;Phum Svay Ta Mék
+km;Phum Svay Sar;Svay Sa
+km;ភូមិ ស្វាយសរ;Svay Sa
+km;Phum Svay Sâr;Svay Sa
+km;ភូមិ ស្វាយសរ;Phum Svay Sâr
+km;ភូមិ ស្វាយសរ;Phum Svay Sâ
+km;Phum Svay Sâ;Svay Sa
+km;ភូមិ ស្វាយរៀង;Svay Rieng
+km;ភូមិ ស្វាយព្រៃ;Phum Svay Prey
+km;Phumĭ Svay Prey;Phum Svay Prey
+km;ភូមិ ស្វាយពពាស;Phum Svay Pôpéas
+km;ភូមិ ស្វាយពក;Phum Svay Pôk
+km;ភូមិ ស្វាយពក;Svay Pok
+km;Phum Svay Pôk;Svay Pok
+km;ភូមិ ស្វាយប៉ាក;Phum Svay Pak
+km;ភូមិ ស្វាយញឹក;Phum Svay Nhĭk
+km;ភូមិ ស្វាយមួយដើម;Phum Svay Muŏy Daeum
+km;ភូមិ ស្វាយគយ;Phum Svay Kôy
+km;ភូមិ ស្វាយគយ;Svay Koy
+km;Phum Svay Kôy;Svay Koy
+km;ភូមិ ស្វាយខ្មៅ;Svay Khmau
+km;Phumĭ Svay Khmau;Svay Khmau
+km;Phum Svay Khmau;Svay Khmau
+km;Phum Svay Kâmbĕt;Seda
+km;ភូមិ ស្វាយកំបិត;Seda
+km;ភូមិ ស្វាយដំណាក;Phum Svay Dâmnak
+km;Phum Svay Chrŭm;Svay Chrum
+km;ភូមិ ស្វាយជ្រុំ;Svay Chrum
+km;ភូមិ ស្វាយឆ្អែត;Phum Svay Chhâêh
+km;ភូមិ ស្វាយចេក;Svay Chek
+km;Phumĭ Svay Chék;Svay Chek
+km;Phum Svay Chék;Svay Chek
+km;Phum Svay Chék;Kaev Poar
+km;ភូមិ ស្វាយចេក;Kaev Poar
+km;ភូមិ ស្វាយចេក;Phum Svay Chék
+km;ភូមិ ស្វាយជាតិ;Svay Cheat
+km;Phum Svay Chéat;Svay Cheat
+km;ភូមិ ស្វាយចន្ទ;Svay Chantor
+km;Phum Svay Chântô;Svay Chantor
+km;ភូមិ ស្វាយអាត់;Phum Svay Ăt
+km;ភូមិ ស្វាយ;Phum Svay
+km;Phumĭ Svay;Svay
+km;Phum Svay;Svay
+km;ភូមិ ស្វាហួល;Sva Huol
+km;Phum Sva Huŏl;Sva Huol
+km;ភូមិ ស្វើងភើ;Phum Svaeung Phaeu
+km;ភូមិ សួរស្ដី;Phum Suŏr Sdei
+km;ភូមិ សួរអំពៅ;Suon Ampov Khang Kaeut
+km;Phum Suŏng;Suong
+km;ភូមិ សួង;Suong
+km;ភូមិ ស្ទឹងទ្រ;Phum Stœ̆ng Trô
+km;Phum Stœ̆ng Thom;Stueng Thum
+km;ភូមិ ស្ទឹងធំ;Stueng Thum
+km;Phum Stœ̆ng Svay;Stueng Svay
+km;ភូមិ ស្ទឹងស្វាយ;Stueng Svay
+km;ភូមិ ស្ទឹងសណ្តែក;Phum Stœ̆ng Sândêk
+km;ភូមិ ស្ទឹងព្រះស្រុក;Stueng Preah Srok
+km;Phum Stœ̆ng Preăh Srŏk;Stueng Preah Srok
+km;ភូមិ ស្ទឹងភាស;Phum Stœ̆ng Phéas
+km;ភូមិ ស្ទឹងដំបង;Phum Stœ̆ng Dâmbâng
+km;ភូមិ ស្ទឹងច្រាល;Phum Stœ̆ng Chral
+km;Phum Stœ̆ng Chhay;Stueng Chhay
+km;ភូមិ ស្ទឹងឆាយ;Stueng Chhay
+km;ភូមិ ស្ទឹងចេក;Phum Stœ̆ng Chék
+km;ភូមិ ស្ទឹងចាស់;Phum Stœ̆ng Chăs
+km;ភូមិ ស្ទឹងចក;Stueng Chak
+km;Phum Stœ̆ng Châk;Stueng Chak
+km;Phumĭ Stœ̆ng;Stueng Khnar
+km;ភូមិ ស្ទឺង;Stueng Khnar
+km;ភូមិ ស្ទឹង;Phum Stœ̆ng
+km;Phumĭ Stœ̆ng;Phum Stœ̆ng
+km;ភូមិ ស្ទឹង;Stueng
+km;Phumĭ Stœ̆ng;Stueng
+km;Phum Stœ̆ng;Stueng
+km;Phumĭ Stœ̆ng;Stueng Leu
+km;Phum Stœ̆ng;Stueng Leu
+km;ភូមិ ស្ទឹង;Stueng Leu
+km;ភូមិ ស្ទឹង;Samraong Thum
+km;Phum Stœ̆ng;Samraong Thum
+km;Phum Sthani Kreăng Skéa;Krang Skear
+km;ភូមិ ស្ថានីយគ្រាំងស្គារ;Krang Skear
+km;ភូមិស្រូល;Phumĭ Srol
+km;ភូមិ ស្រែវាល;Phum Srê Véal
+km;ភូមិ ស្រែត្រាវ;Phum Srê Trav
+km;ភូមិ ស្រែត្នោត;Phum Srê Thnaôt
+km;Phum Srê Tnaôt;Srae Tnaot
+km;ភូមិ ស្រែត្នោត;Srae Tnaot
+km;ភូមិ ស្រែធំ;Phum Srê Thom
+km;ភូមិ ស្រែថ្មី;Phum Srê Thmei
+km;Phum Srê Ta Pan;Srae Ta Pan
+km;ភូមិ ស្រែតាប៉ាន;Srae Ta Pan
+km;ភូមិ ស្រែតាណឹង;Phum Srê Tanœ̆ng
+km;ភូមិ ស្រែតាំងយ័;Phum Srê Tăng Yô
+km;ភូមិ ស្រែតាចាន់;Phum Srê Ta Chăn
+km;Phum Srĕt;Sret Lech
+km;ភូមិស្រិត;Sret Lech
+km;ភូមិ ស្រែស្វាយ;Phum Srê Svay
+km;ភូមិ ស្រែស្នោ;Phum Srê Snaô
+km;ភូមិ ស្រែសាប;Phum Srê Sap
+km;ភូមិ ស្រែរំពិប;Phum Srê Rumpĭp
+km;ភូមិ ស្រែរំដេង;Phum Srê Rŭmdéng
+km;ភូមិ ស្រែឫស្សី;Phum Srê Rŭssei
+km;ភូមិ ស្រែរាជ;Phum Srê Réach
+km;ភូមិ ស្រែព្រីង;Phum Srê Pring
+km;ភូមិ ស្រែព្រីង;Phumĭ Srê Pring
+km;ភូមិ ស្រែព្រៃ;Phum Srê Prey
+km;ភូមិ ស្រែប្រាំង;Phum Srê Prăng
+km;ភូមិ ស្រែពោធិ;Srae Pou
+km;ភូមិ ស្រែពង;Phum Srê Pông
+km;ភូមិ ស្រែពកតូច;Srae Pok Touch
+km;Phum Srêpôk Toch;Srae Pok Touch
+km;Phum Srêpôk Thom;Srae Pok Thum
+km;ភូមិ ស្រែពកធំ;Srae Pok Thum
+km;ភូមិ ស្រែពាង់;Phum Srê Peăng
+km;Phum Srê Ong;Na Oung
+km;ភូមិ ស្រែអូង;Na Oung
+km;ភូមិ ស្រែអូ;Phum Srê O
+km;Phumĭ Srê O;Phum Srê O
+km;ភូមិ ស្រែងៀត;Phum Srê Ngiĕt
+km;ភូមិ ស្រែណាំណយ;Phum Srê Năm Nây
+km;ភូមិស្រែមេមាយ;Phum Srê Mémay
+km;ភូមិ ស្រែម្អម;Phum Srê Môâm
+km;ភូមិ ស្រែល្វា;Srae Lvea
+km;Phum Srê Lôvéa;Srae Lvea
+km;ភូមិ ស្រែលើ;Phum Srê Leu
+km;ភូមិ ស្រែក្រសាំង;Phum Srê Krâsăng
+km;Phum Srê Kôki;Khsach Leav
+km;ភូមិ ស្រែគគីរ;Khsach Leav
+km;ភូមិ ស្រែក្នុង;Phum Srê Khnŏng
+km;ភូមិ ស្រែខ្ទុំ;Phum Srê Khtŭm
+km;ភូមិ ស្រែខូញ;Phum Srê Khonh
+km;Phumĭ Srê Khonh;Phum Srê Khonh
+km;Phumĭ Srê Kântăng;Toung
+km;ភូមិ ស្រែកន្តាំង;Toung
+km;ភូមិ ស្រែកណ្ដាល;Phum Srê Kândal
+en;Sre Kan;Phumĭ Srê Kăn
+km;Phumĭ Sréh (2);Sreh Kaeut
+km;Phum Sréh;Sreh Kaeut
+km;ភូមិស្រេះ មួយ;Sreh Kaeut
+km;ភូមិ ស្រែហៀវ;Phum Srê Hiĕv
+km;ភូមិ ស្រែអិន;Phum Srê Ĕn
+km;ភូមិ ស្រែដា;Phum Srê Da
+km;ភូមិ ស្រែជ្រៃ;Phum Srê Chrey
+km;ភូមិ ស្រែជោក;Phum Srê Choŭk
+km;Phumĭ Srê Choŭk;Phum Srê Choŭk
+km;ភូមិ ស្រែជីពៅ;Srae Chipav
+km;Phumĭ Srê Chipoŭ;Srae Chipav
+km;ភូមិ ស្រែឈូក;Srae Chhuk
+km;Phumĭ Srê Chhuk;Srae Chhuk
+km;ភូមិ ស្រែចាមលើ;Srae Cham Leu
+km;Phumĭ Srê Cham Leu;Srae Cham Leu
+km;Phum Srê Cham Leu;Srae Cham Leu
+km;ភូមិ ស្រែចាមក្រោម;Phum Srê Cham Kraôm
+km;Phumĭ Srê Cham Kraôm;Phum Srê Cham Kraôm
+km;ភូមិ ស្រែចាម;Phum Srê Cham
+km;ភូមិ ស្រែអង្គ្រង;Phum Srê Ângkrông
+km;ភូមិ ស្រែអណ្តូង មួយ;Srae Andoung
+km;Phum Srê Ândong;Srae Andoung
+km;ភូមិ ស្រែអណ្ដែង;Phumĭ Srê Ândêng
+km;ភូមិ ស្រែអំពិល;Phumĭ Srê Âmpĭl
+km;ភូមិ ស្រែ;Phum Srê
+km;ភូមិ ស្រង់;Phum Srăng
+km;ភូមិ ស្រណល់;Sranal
+km;Phum Srânăl;Sranal
+km;ភូមិ ស្រណាល;Phum Srânal
+km;Phumĭ Sramŭt;Sakmot
+km;Phum Sramŭt;Sakmot
+km;Phum Srâmoch;Lbaeuk
+km;ភូមិ ស្រមោច;Lbaeuk
+km;ភូមិ ស្រម៉ោច;Sramaoch
+km;Phum Srâmaôch;Sramaoch
+km;ភូមិ ស្រឡៅ;Phum Srâlau
+km;Phum Srăh Srâng;Srah Srang Cheung
+km;ភូមិ ស្រះស្រង;Srah Srang Cheung
+km;ភូមិ ស្រះរាង;Srah Reang
+km;ភូមិ ស្រះងូ;Phum Srăh Ngu
+km;ភូមិ ព្រក្ដួច;Phum Sras Kduŏch
+km;ភូមិ ស្រះឈូក;Phum Srăh Chhuk
+km;ភូមិ ស្រាឯក;Phum Sraêk
+km;Phum Srâbal;Srabal
+km;ភូមិ ស្របាស;Srabal
+km;ភូមិ ស្ពង់លួង;Phum Spông Luŏng
+km;ភូមិ សងជ្រោ;Phum Spông Chrŏv
+km;Phum Spœ;Spueu Lech
+km;ភូមិ ស្ពឺ;Spueu Lech
+km;Phum Spéan Tnaôt;Spean Tnaot Pir
+km;ភូមិ ស្ពានត្នោត;Spean Tnaot Pir
+km;Phum Spéan Srêng;Spean
+km;ភូមិ ស្ពានស្រែង;Spean
+km;Phum Spéanchréav;Siem Reab
+km;ភូមិ ស្ពានជ្រាវ;Siem Reab
+km;ភូមិ ស្ពានបាក;Phum Spêan Bak
+km;ភូមិ ស្ពាន;Phum Spéan
+km;Phumĭ Spéan;Phum Spéan
+km;ភូមិ ស្ពាន;Spean
+km;Phum Spéan;Spean
+km;ភូមិ សូតមន;Phum Sot Môn
+km;Soutey;Phumĭ Sotey
+km;ភូមិ សូរិយ៉ា;Phum Sorĭya
+km;Phumĭ Sorĭya;Phum Sorĭya
+km;ភូមិ សូពី;Phum Sopi
+km;Phumĭ Sopi;Phum Sopi
+km;ភូមិ សូភី;Souphi
+km;Phum Sophi;Souphi
+km;ភូមិ សូភី;Phumĭ Sophi
+km;ភូមិ សូនសា;Soun Sa
+km;Phum Son Sa;Soun Sa
+km;ភូមិ សុង ពីរ;Phum Sŏng Pir
+km;ភូមិ សុង មួយ;Sung Muoy
+km;Phum Sŏng Muŏy;Sung Muoy
+km;ភូមិ សុំត្រុំ;Phum Som Trom
+km;ភូមិ ស្នួល ពីរ;Phum Snuŏl
+km;ភូមិ ស្នួល;Phum Snoul
+km;ភូមិ ស្នួល;Snuol
+km;Phum Snuŏl;Snuol
+km;Snoeng;Phumĭ Snœ̆ng
+km;Phumĭ Snê Réan;Snae Rean
+km;Phum Snê Réan;Snae Rean
+km;ភូមិ ស្នែររាន;Snae Rean
+km;ភូមិ ស្នាយទួល;Snay Toul
+km;Phum Snay Toŭl;Snay Toul
+km;ភូមិ ស្នាយល្អ;Ta Pon
+km;Phum Snay Lôâ;Ta Pon
+km;ភូមិ ស្នាសង្គ្រាម;Phum Sna Sângkréam
+km;ភូមិ ស្នាពីមុក;Phum Sna Pi Mŭk
+km;ភូមិ ស្នោរ;Phum Snaôr
+km;ភូមិ ស្នោ;Phum Snaô
+km;ភូមិ ស្នាមព្រះ;Snam Preah
+km;Phum Snam Preăh;Snam Preah
+km;ភូមិ ស្នាគង់;Phum Sna Kŭng
+km;ភូមិ ស្មោចអាត់;Phum Smaôch Ăt
+km;ភូមិ ស្មាច់;Smach
+km;Phum Smăch;Smach
+km;ភូមិ ស្មាច់;Phum Smăch
+km;ភូមិ ស្លែងកោង;Phum Slêng Kaông
+km;ភូមិ ស្លែង;Slaeng
+km;Phum Slêng;Slaeng
+km;ភូមិ ស្លាស្លាក់;Sla Slak
+km;Phum Sla Slăk;Sla Slak
+km;ភូមិ ស្លក្រាម;Phum Slâ Kram
+km;ភូមិ ស្លាប់រស់;Phum Slap Ruŏs
+km;ភូមិ ស្គូកុង;Phum Skŭl Kŏng
+km;ភូមិ ស្កវ;Phum Skov
+km;Phumĭ Sikŏk;Svay Phluoh
+km;Phum Sikŏk;Svay Phluoh
+km;ភូមិ ស៊ីកុក;Svay Phluoh
+km;ភូមិ សៀម;Siem
+km;Phumĭ Siĕm;Siem
+km;Phum Sĕtbo Leu;Setbou
+km;ភូមិ សិត្បូរលើ;Setbou
+km;ភូមិ សិរីស៊ុន្ទី;Sereipheap
+km;ភូមិ សិរី;Phum Sĕrei
+km;ភូមិ សែនជ័យ;Phum Sên Chey
+km;ភូមិ សែនចិត្ត;Phum Sên Chĕt
+km;ភូមិ ស្ដុកត្របែក;Phum Sdŏk Trâbêk
+km;ភូមិ ស្ដុកថ្លុក;Phum Sdŏk Thlŏk
+km;Phumĭ Sdŏk Thlŏk;Phum Sdŏk Thlŏk
+km;ភូមិ ស្ដុកស្វាយ;Sdok Svay
+km;Phum Sdŏk Svay;Sdok Svay
+km;ភូមិ ស្តកជ្រៃ;Phum Sdŏk Chrey
+km;ភូមិ ស្តុកអាត់;Phum Sdŏk Ăt
+km;ភូមិ ស្តិ;Sdei Stueng
+km;ភូមិស្តៅ;Sdau
+km;Phum Sdau;Sdau
+km;ភូមិ ស្ដៅ;Sdau
+km;ភូមិ ស្តៅ;Sdao
+km;ភូមិ ស្តៅ;Phum Sdau
+km;Phumĭ Sdau;Phum Sdau
+km;ភូមិ ស្តំ;Phum Sdâm
+km;ភូមិ ស្បែកព្រាស;Phum Sbêk Préal
+km;Phumĭ Sbêk Préal;Phum Sbêk Préal
+km;ភូមិ សាយ;Phum Say
+km;ភូមិ សាត្រាវ;Phum Satrav
+km;ភូមិ ស្អាត;S’at
+km;Phum Sâat;S’at
+km;ភូមិ សសៃពង;Sarsai Pong
+km;Phum Sâsai Pông;Sarsai Pong
+km;ភូមិ សរសរស្តំ;Sasar Sdam
+km;Phum Sârsâr Sdâm;Sasar Sdam
+km;ភូមិ សាពាំង;Phum Sapeăng
+km;Phumĭ Sapeăng;Phum Sapeăng
+km;ភូមិ សោយ;Phum Saôy
+km;ភូមិសៅហុយ;Phum Saô Hŭy
+km;Phum Saôp Leu;Saob Leu
+km;ភូមិ សោបលើ;Saob Leu
+km;Phum Saôp Kraôm;Preaek Roka
+km;ភូមិ សោបក្រោម;Preaek Roka
+km;ភូមិ សន្ទូង;Phum Sântung
+km;ភូមិ សន្ទុក;Phum Sântŭk
+km;Phumĭ Sânthĭk;Kouk Srok
+km;Phum Sânthĭk;Kouk Srok
+km;Phum Sânsâ;San Sar
+km;ភូមិ សន្លង;Sanlung
+km;Phum Sânlŏng;Sanlung
+km;ភូមិ សន្លោង;Phum Sânloŭng
+km;ភូមិ សន្លង់;Phum Sânlŭng
+km;ភូមិ ស្អាង;Phum Saang
+km;ភូមិ សង់ងៀក;Phum Sâng Ngiĕk
+km;ភូមិ ត្រពាំងខ្លា;Trapeang Khla
+km;Phumĭ Sângkê Kaông;Trapeang Khla
+km;Phum Trâpeăng Khla;Trapeang Khla
+km;ភូមិ សង្កែកោង;Trapeang Khla
+km;ភូមិ សង្កែដាច់;Phum Sângkê Dăch
+km;ភូមិ សង្កិប;Phum Sângkĕp
+km;ភូមិ សង្កែ;Sangkae
+km;Phumĭ Sângkê;Sangkae
+km;Phum Sângkê;Sangkae
+km;ភូមិ សាង;Phum Sang
+km;Phumĭ Sang;Phum Sang
+km;Phumĭ Sândăn;Tuek Vil
+km;Phum Sândăn;Tuek Vil
+km;ភូមិ សណ្តាន់;Tuek Vil
+km;ភូមិ សន្តាន់;Sandan
+km;Phum Sândăn;Sandan
+km;ភូមិ សន្ទង;Phum Sânchâng
+km;ភូមិ សំរោង;Phum Sâmraông
+km;ភូមិ សំរោង;Samraong
+km;Phum Sâmraông;Samraong
+km;Phum Sâmraông;Santhan
+km;ភូមិ សំរោង;Santhan
+km;Phum Samraong;Samraong
+km;ភូមិ សំរោង មួយ;Samraong
+km;ភូមិ សំរោងយា;Samraong Yea
+km;Phum Sâmraông Yéar;Samraong Yea
+km;Phum Sâmraông Thom;Stueng Thmei
+km;ភូមិ សំរោងធំ;Stueng Thmei
+km;ភូមិ សំរោងធំ;Phum Sâmraông Thom
+km;ភូមិ សំរោងលើ;Phum Sâmraông Leu
+km;Phumĭ Sâmraông Leu;Phum Sâmraông Leu
+km;Phum Sâmraông Kraôm;Samrong
+km;ភូមិ សំរោងក្រោម;Samrong
+km;ភូមិ សំរោងក្អែ;Samraong K’aer
+km;Phum Sâmraông Kaê;Samraong K’aer
+km;ភូមិ សំរោងកណ្តាល;Phum Sâmraông Kândal
+ru;Самраонг;Samraong
+ar;سامراونج;Samraong
+kk;Самраонг;Samraong
+ky;Самраонг;Samraong
+hi;समराओंग;Samraong
+bn;সামরাং;Samraong
+ur;سمراؤنگ;Samraong
+fa;سمراونگ;Samraong
+ja;サムラオン;Samraong
+pa;ਸਮਰਾਓਂਗ;Samraong
+ps;سمراونج;Samraong
+tg;Самраонг;Samraong
+km;Phum Sâmraông;Saen Sokh
+km;ភូមិ សំរោង;Saen Sokh
+km;Phumĭ Sâmraông;Phum Sâmraông
+km;Phumĭ Sâmraông;Samraong
+km;ភូមិ សំពៅលូន;Sampov Lun
+km;Phum Sampŏu Lun;Sampov Lun
+km;ភូមិ សំប៉ាន;Phum Sâmpan
+km;Phumĭ Sâmpan;Phum Sâmpan
+km;ភូមិ សំឡូត;Samlout
+km;ភូមិ សំឡាញ់តាព្រី;Phum Sâmlanh Tapri
+km;ភូមិ សំឡាញ់;Samlanh
+km;ភូមិ សាមិត;Phum Samĭt
+km;ភូមិ សំបួរ;Sambuor
+km;Phum Sâmbuŏr;Sambuor
+km;Phumĭ Sâmbuŏr;Sambuor
+km;ភូមិ សំប៊ួរ;Sambuor
+km;ភូមិ សំបុស;Phum Sâmbŏs
+km;Phumĭ Sâmbor;Veal Sambour
+km;ភូមិ សំបូរណ៍;Veal Sambour
+km;ភូមិ សំបុកអក;Sambok Ak
+km;Phum Sâmbŏk Âk;Sambok Ak
+km;ភូមិ សំបាត់;Sambat
+km;Phum Sâmbăt;Sambat
+km;ភូមិ សាម៉អែម;Phum Samâ Êm
+km;ភូមិ សាលៀង;Slaeng
+km;Phum Saliĕng;Slaeng
+km;ភូមិ សាលេម;Siliem
+km;ភូមិ សាលាតាអុង;Phum Sala Ta Ŏng
+km;ភូមិ សាលាតាចិន;Phum Sala Ta Chèn
+km;ភូមិ សាលាក្រៅ;Sala Krau
+km;Phum Sala Kraô;Sala Krau
+km;ភូមិ សាលាខេត្ត;Phum Sala Khêt
+km;ភូមិ សាលា;Sala
+km;Phum Sala;Sala
+km;ភូមិ សាគរត្របែក;Phum Sakôr Trâbêk
+km;ភូមិ សាគរ;Phum Sakôr
+km;ភូមិ សាឃន;Phum Sakhun
+km;Phum Sakâr Svay;Ka Svay
+km;ភូមិ សាករស្វាយ;Ka Svay
+km;Say;Phumĭ Sai
+km;ភូមិ សាច់ហាប់;Phum Sach Hap
+km;Phum Sâpbŏroâs;Sandan
+km;ភូមិ សប្បុរស់;Sandan
+km;ភូមិ រូង មួយ;Phum Rung
+km;Phum Rung;Rung Thmei
+km;ភូមិ រូង;Rung Thmei
+km;ភូមិ រុង;Phum Rŭng
+km;ភូមិ រុន;Run
+km;Phum Rŭn;Run
+km;ភូមិ រុន;Phum Rŭn
+km;ភូមិ រំពុក;Rumpuk
+km;Phum Rŭmpŭk;Rumpuk
+km;Phum Rŭmpŭt;Ampok
+km;ភូមិ រំពេលិច;Phum Rŭmpé Lĕch
+km;ភូមិ រំលិច;Phum Rômlĕch
+km;ភូមិ រុំលេច;Phum Rŭmléch
+km;ភូមិ រំដួល;Phum Rumduŏl
+km;ភូមិ រំដួល;Rumduol
+km;Phum Rumduŏl;Rumduol
+km;Phumĭ Rumduŏl;Phum Rumduŏl
+km;ភូមិ រំដេង;Rumdeng
+km;Phum Rumdéng;Rumdeng
+km;ភូមិ រំដេង;Phum Rumdéng
+km;Phum Rŭmdéng;Rumdeng
+km;ភូមិ រំចេក;Phum Rŭmchék
+km;ភូមិ រំចេក;Phum Rumchék
+km;Phumĭ Rŭmchék;Tuol Prum Muoy
+km;ភូមិ រំចេក;Tuol Prum Muoy
+km;ភូមិ រំចេក;Rumchek
+km;Phum Rŭmchék;Rumchek
+km;ភូមិ រវៀង;Phum Rôviĕng
+km;Phumĭ Rôviĕng;Phum Rôviĕng
+km;ភូមិ រោងគោ;Roung Kou
+km;Phumĭ Roŭng Koŭ;Roung Kou
+km;Phum Roŭng Koŭ;Roung Kou
+km;ភូមិ រោងគោ;Phum Roŭng Koŭ
+km;ភូមិ រោគខាងត្បូង;Phum Roŭk Khang Tbong
+km;ភូមិ រពាក់;Rumpeak
+km;Phum Rôpéak;Rumpeak
+km;ភូមិ រង្វៀន;Phum Rông Viĕn
+km;Phum Rômŭnh;Robonh
+km;ភូមិ រមុញ;Robonh
+km;ភូមិ រមៀត;Phum Rômiĕt
+km;ភូមិ រមៀត;Romiet
+km;Phumĭ Rômiĕt;Romiet
+km;Phum Rômiĕt;Romiet
+km;ភូមិ រមាសងាប់;Phum Rôméas Ngoap
+km;Phum Rôluŏs Chăs;Roluos
+km;ភូមិ រលួសចាស់;Roluos
+km;ភូមិ រលួស;Phum Rôluŏs
+km;ភូមិ រលួស;Roluos
+km;Phum Rôluŏs;Roluos
+km;ភូមិ រលំទូក;Phum Rôlŭm Tuk
+km;Phum Rôlum Chrey;Rumlum Chrey
+km;ភូមិ រលំជ្រៃ;Rumlum Chrey
+km;ភូមិ រលច;Phum Rôlôch
+km;ភូមិ រការយា;Phum Rôkar Yéar
+km;Phum Rôkar Pôprăm;Roka Pram Ti Muoy
+km;ភូមិ រការពប្រាំ;Roka Pram Ti Muoy
+km;ភូមិ រការភង;Phum Roka Phœ̆ng
+km;ភូមិ រការខ្ពស់;Roka Khpos
+km;Phum Rôkar Khpŏăs;Roka Khpos
+km;ភូមិ រការកំបុត;Phum Rôkar Kâmbŏt
+km;ភូមិ រការជួរ;Phum Rôkar Chuŏr
+km;Phumĭ Rôkar Chuŏr;Phum Rôkar Chuŏr
+km;ភូមិ រការ;Roka
+km;Phumĭ Rôkar;Roka
+km;Phum Rôkar;Roka
+km;ភូមិ រការ;Phum Rôkar
+km;Phum Rôka Khtŭm;Bos Leav
+km;ភូមិ រកាខ្ទុំ;Bos Leav
+km;Ph Rôka Kândal;Roka Kandal
+km;ភូមិ រកាកណ្តាល;Roka Kandal
+km;ភូមិ រហារ;Doun Pok
+km;ភូមិ រហាល;Phum Rôhal
+km;ភូមិ រហាល់;Rohal
+km;Phum Rôhal;Rohal
+km;ភូមិ រហាល់;Phum Rôhăl
+km;ភូមិ រហា;Phum Rôha
+km;ភូមិ ឬស្សី;Ruessei
+km;Phum Rŭssei;Ruessei
+km;ភូមិ ឬស្សី;Phum Rŭssei
+km;ភូមិ ឫស្សីទ្វា;Phum Rŭssei Tvéa
+km;ភូមិ ឬស្សីថ្មី;Phum Rŭssei Thmei
+km;ភូមិ ឫស្សីស្រុក;Phum Rŭssei Srŏk
+km;ភូមិ ឬស្សីព្រះ;Phum Rŭssei Preăh
+km;ភូមិ ឫស្សីលុក;Phum Rŭssei Lŭk
+km;ភូមិ ឬស្សីក្រោក;Ruessei Kraok
+km;Phum Rŭssei Kraôk;Ruessei Kraok
+km;ភូមិ ឫស្សីជ្រុំ;Phum Rŭssei Chrŭm
+km;ភូមិ ឫស្សីឈ;Phum Rŭssei Chhôr
+km;ភូមិ ឫស្សីចារ;Phum Rŭssei Char
+km;ភូមិ ឫស្សី;Phum Rŭssei
+km;ភូមិ របស់មង្គល;Robas Mongkol
+km;Phum Rôbaôh Mŭngkŭl;Robas Mongkol
+km;ភូមិ របងរមាស;Robang Romeas
+km;Phum Rôbâng Rôméas;Robang Romeas
+km;ភូមិ រ;Phum Rô
+km;Phumĭ Rô;Phum Rô
+km;ភូមិ រៀប;Phum Riĕp
+km;ភូមិ រើល;Phum Reul
+km;ភូមិ រើល;Reul
+km;Phum Reul;Reul
+km;ភូមិរ឴ងត្បាល់;Phumĭ Reăng Thbal
+km;ភូមិ រ឴ងក្រោល;Reang Kraol
+km;Phum Reăng Kraôl;Reang Kraol
+km;ភូមិ រាំងខ្វាវ;Phum Reăng Khvav
+km;ភូមិ រាំងដែក;Phum Reăng Dêk
+km;Phumĭ Reăng Dêk;Phum Reăng Dêk
+km;ភូមិ រាំង;Phum Reăng
+km;Phumĭ Reăng;Phum Reăng
+km;ភូមិ រាក់ជៃ;Phum Reăk Chey
+km;Phumĭ Reăk Chey;Phum Reăk Chey
+km;ភូមិ រាជបូរណ៌;Phum Réach Bo
+km;Phum Réach Bo;Sla Kram
+km;ភូមិ រាជបូរណ៌;Sla Kram
+km;ភូមិ ពូត្រុំ;Phum Pu Trŏm
+km;ភូមិ ពុទ្រា;Putea
+km;Phum Pŭtréa;Putea
+km;ភូមិ ពូរពែត;Phum Pu Rôpêt
+km;ភូមិ ពូរដែតលើ;Busra
+en;Pu Rodet Leu;Phumĭ Pu Rôdêt Leu
+km;ភូមិ ពួកចាស់;Puok Chas
+km;Phum Puŏk Chăs;Puok Chas
+km;Phum Puŏch;Spean Kdar
+km;ភូមិ ពូច;Spean Kdar
+km;ភូមិ ពំម៉ែន;Phum Pŭm Pêu
+km;ភូមិ ពូលក;Phum Pu Lôk
+km;ភូមិ ពូឡាង;Phum Pu Lang
+km;ភូមិ ពូកែស;Phum Pu Kês
+km;ភូមិ ពូឌិតជ្រំ;Phum Pudĭt Chrŭm
+km;ភូមិ ព្រូស;Phum Prus
+km;Phumĭ Prot;Chey
+km;Phum Prot;Chey
+km;ភមិ ប្រុត;Chey
+km;ភូមិ ព្រលិត;Prolit
+km;Phum Prôlĭt;Prolit
+km;ភូមិ ព្រីងខ្ពស់;Pring Khpos
+km;Phum Pring Khpuŏs;Pring Khpos
+km;ភូមិ ព្រីងូ;Pring Chu
+km;Phum Pring Chu;Pring Chu
+km;ភូមិព្រីង;Phumĭ Pring
+km;ភូមិ ព្រីង;Phum Pring
+km;Phumĭ Pring;Phum Pring
+km;ភូមិ ព្រៃយាង;Prey Yeang
+km;Phumĭ Prey Yéang;Prey Yeang
+km;Phum Prey Yéang;Prey Yeang
+km;ភូមិ ព្រៃវែង;Phum Prey Vêng
+km;ភូមិ ព្រៃវែង;Prey Veaeng
+km;Phumĭ Prey Vêng;Prey Veaeng
+km;Phum Prey Vêng;Prey Veaeng
+km;ភូមិ ព្រៃវាំង;Phum Prey Veăng
+km;Phum Prey Rôvĭl;Prey Lvey
+km;ភូមិ ព្រៃរវិល;Prey Lvey
+km;ភូមិ ព្រៃទទឹង;Prey Totueng
+km;Phumĭ Prey Tôtœ̆ng Muŏy;Prey Totueng
+km;Phum Prey Tôtœ̆ng;Prey Totueng
+km;ភូមិ ព្រៃទទឹង;Phum Prey Tôtœ̆ng
+km;Phumĭ Prey Tôtœ̆ng;Phum Prey Tôtœ̆ng
+km;Phum Prey Toch;Prey Touch
+km;ភូមិ ព្រៃតូច;Prey Touch
+km;ភូមិ ព្រៃធំ;Phum Prey Thom
+km;ភូមិ ព្រៃធំ;Prey Thum
+km;Phum Prey Thom;Prey Thum
+km;ភូមិ ព្រៃស្វាយ;Prey Svay
+km;ភូមិ ព្រៃស្លែង;Phum Prey Slêng
+km;Phumĭ Prey Slêng;Phum Prey Slêng
+km;ភូមិ ព្រៃសំពៅ;Phum Prey Sâmpŏu
+km;ភូមិ ព្រៃសំឡាញ់;Phum Prey Sâmlanh
+km;Phumĭ Prey Sâmlanh;Phum Prey Sâmlanh
+km;ភូមិ ព្រៃស;Phum Prey Sâ
+km;ភូមិ ព្រៃរការ;Phum Prey Rôka
+km;ភូមិ ព្រៃព្រាល;Phum Prey Préal
+km;ភូមិ ព្រៃពពេល;Phum Prey Pôpél
+km;ភូមិ ព្រៃភ្ថាស់;Phum Prey Phânhôâs
+km;ភូមិ ព្រៃភ្ងម;Phum Prey Phôngôm
+km;Phum Prey Phdau;Prey Phdau
+km;ភូមិ ព្រៃផ្ដៅ;Phum Prey Phdau
+km;Phumĭ Prey Phdau;Phum Prey Phdau
+km;ភូមិ ព្រៃផ្តៅ;Prey Phdau
+km;ភូមិ ព្រៃផ្អាវ;Phum Prey Phâav
+km;ភូមិ ព្រៃល្ងៀង;Prey Lngieng
+km;Phum Prey Lôngiĕng;Prey Lngieng
+km;ភូមិ ព្រៃលាវ;Phum Prey Léav
+km;ភូមិ ព្រៃគប;Prey Kob
+km;ភូមិ ព្រៃក្រូច;Phum Prey Kroch
+km;Phumĭ Prey Kroch;Phum Prey Kroch
+km;ភូមិ ព្រៃកូនខ្លា;Phum Prey Kon Khla
+km;Phum Prey Kôki;Prey Kokir
+km;ភូមិ ព្រៃគគីរ;Prey Kokir
+km;Phumĭ Prey Khnông;Prey Khnong
+km;Phum Prey Khnông;Prey Khnong
+km;ភូមិ ព្រៃឃ្នង;Prey Khnong
+km;Phumĭ Prey Khnés;Prey Khmes
+km;Phum Prey Khnés;Prey Khmes
+km;ភូមិ ព្រៃឃ្នេស;Prey Khmes
+km;ភូមិ ព្រៃឃ្លោក;Phum Prey Khloŭk
+km;ភូមិ ព្រៃខ្លែង;Phum Prey Khlêng
+km;Phum Prey Khla;Prey Khla
+km;ភូមិ ព្រៃខ្លា;Prey Khla
+km;ភូមិ ព្រៃគាវ;Phum Prey Kéav
+km;ភូមិ ព្រៃគាប;Phum Prey Kéap
+km;Phumĭ Prey Kândiĕng;Prey Kandieng
+km;ភូមិ ព្រៃកណ្ដៀង;Prey Kandieng
+km;ភូមិ ព្រៃកំពែង;Phum Prey Kâmpêng
+km;Phum Prey Dâmrei;Koun Khlong
+km;ភូមិ ព្រៃដំរី;Koun Khlong
+km;ភូមិ ព្រៃដំរី;Prey Damrei
+km;Phum Prey Dâmrei;Prey Damrei
+km;ភូមិ ព្រៃជ្រូក;Prey Chruk
+km;Phum Prey Chruk;Prey Chruk
+km;ភូមិ ព្រៃឈើទាល;Phum Prey Chheutéal
+en;Prey Chek;Phumĭ Prey Chék
+km;ភូមិព្រែចាល;Phumĭ Prey Chas
+km;ភូមិព្រៃចាស់;Phumĭ Prey Chas
+km;ភូមិ ព្រៃចង្រក;Phum Prey Chângrŭk
+km;ភូមិ ព្រៃអង្គុញ;Prey Angkonh
+km;Phum Prey Ângkŭnh;Prey Angkonh
+km;ភូមិ ព្រែកយួន;Phum Prêk Yuŏn
+km;Phumĭ Prêk Yuŏn;Phum Prêk Yuŏn
+km;Phumĭ Prêk Vatt;Phum Prêk Vatt
+km;ភូមិ ព្រែកវត្ត;Phum Prêk Vatt
+km;ភូមិ ព្រែកត្រែង;Phum Prêk Trêng
+km;Phumĭ Prêk Trêng;Phum Prêk Trêng
+km;ភូមិ ព្រែកត្រែង;Preaek Traeng
+km;Phumĭ Prêk Trêng;Preaek Traeng
+km;Phum Prêk Trêng;Preaek Traeng
+km;ភូមិ ព្រែកទឹកថ្លា;Phum Prêk Tœ̆k Thla
+km;Phum Prêk Toch;Preaek Touch
+km;ភូមិ ព្រែកតូច;Preaek Touch
+km;ភូមិ ព្រែកទាល់;Preaek Toal
+km;Phum Prêk Tôal;Preaek Toal
+km;ភូមិ ព្រែកត្នោត;Preaek Tnaot
+km;Phum Prêk Thnaôt;Preaek Tnaot
+km;Phum Prêk Tnaôt;Preaek Tnaot
+km;Phum Prêk Thŭn;Preaek Thon
+km;ភូមិ ព្រែកធន់;Preaek Thon
+km;ភូមិ ព្រែកថ្ងូរ ពីរ;Phum Prêk Thngo
+km;ភូមិ ព្រែកថ្ងូរ មួយ;Phum Prêk Thngo
+km;ភូមិ ព្រែកថ្មី;Phum Prêk Thmei
+km;ភូមិ ព្រែកថ្មី;Preaek Thmei
+km;Phum Prêk Thmei;Preaek Thmei
+km;ភូមិ ព្រែកថ្ម;Phum Prêk Thmâ
+km;ភូមិ ព្រែកតាវា;Phum Prêk Ta Va
+km;Phumĭ Prêk Ta Va;Phum Prêk Ta Va
+km;ភូមិ ព្រែកតាតិន;Phum Prêk Ta Tĕn
+km;ភូមិ ព្រែកតាមេម;Phum Prêk Tamém
+km;ភូមិ ព្រែកតាកូវ;Phum Prêk Ta Kov
+km;Phum Prêk Ta Dœ̆ăng;Chrouy Ta Kaev
+km;ភូមិ ព្រែកតាដឿង;Chrouy Ta Kaev
+km;ភូមិ ព្រែកតាចាន់;Phum Prêk Tachan
+km;ភូមិ ព្រែកតាបែក;Phum Prêk Tabêk
+km;Phum Prêk Ta Ăm;Preaek Ta Am
+km;ភូមិ ព្រែកតាអាំ;Preaek Ta Am
+km;ភូមិ ព្រែកស្វាយ;Phum Prêk Svay
+km;ភូមិ ព្រែកស្មាច់;Phum Prêk Smăch
+km;ភូមិ ព្រែកស្លែង;Preaek Slaeng
+km;Phum Prêk Slêng;Preaek Slaeng
+km;Phumĭ Prêk Sdei;Preaek Sdei
+km;Phum Prêk Sdei;Preaek Sdei
+km;ភូមិ ព្រែកស្តី;Preaek Sdei
+km;ភូមិ ព្រែកសង្កែរ;Phum Prêk Sângkê
+km;ភូមិ ព្រែកសំបួ;Phum Prêk Sâmbuŏ
+km;Phum Prêk Samann;Preaek Saman
+km;ភូមិ ព្រែកសាម៉ាន់;Preaek Saman
+km;Phum Prêk Russei;Preaek Ruessei
+km;ភូមិ ព្រែកឫស្សី;Preaek Ruessei
+km;ភូមិ ព្រែកឫស្សី;Phum Prêk Rŭssei
+km;ភូមិ ព្រែកព្រុស;Phum Prêk Prŭs
+km;Phumĭ Prêk Prŭs;Phum Prêk Prŭs
+km;Phumĭ Prêk Preăh;Ou Preah
+km;ភូមិ ព្រែកព្រះ;Ou Preah
+km;ភូមិ ព្រែកប្រសបលើ;Phum Prêk Prâsâp Leu
+km;ភូមិ ព្រែកប្រសប់ក្រោម;Phum Prêk Prâsâp Kraôm
+km;ភូមិ ព្រែកប្រសប់;Preaek Prasab
+km;ភូមិ ព្រែក ប្រលូង;Preaek Prolung
+km;Phumĭ Prêk Prâlung;Preaek Prolung
+km;ភូមិ ព្រែកពោធិ;Preaek Pou
+km;Phum Prêk Poŭ;Preaek Pou
+km;ភូមិ ព្រែកពពេល;Phum Prêk Pôpél
+km;Phum Prêk Phâŏng;Preaek Preah Angk
+km;ភូមិ ព្រែកផ្អុង;Preaek Preah Angk
+km;ភូមិ ព្រែកផ្គាំ;Phum Prêk Phkŏâm
+km;ភូមិ ព្រែកផ្អាវ;Preaek Ph’av
+km;ភូមិ ព្រែកឱម៉ាល់;Phum Prêk Ŏmăl
+km;ភូមិ ព្រែកនរិន;Preaek Norin
+km;Phum Prêk Nôrĭn;Preaek Norin
+km;Phum Prêk Môrinh;Preaek Mrinh
+km;ភូមិ ព្រែកម្រិញ;Preaek Mrinh
+km;Phumĭ Prêk Kruŏs;Preaek Kruos
+km;Phum Prêk Kruŏs;Preaek Kruos
+km;ភូមិ ព្រែកគ្រួស;Preaek Kruos
+km;ភូមិ ព្រែកក្រូច;Phum Prêk Kroch
+km;ភូមិ ព្រែកក្រែង;Preaek Kraeng
+km;Phum Prêk Krêng;Preaek Kraeng
+km;ភូមិ ព្រែកក្ររ;Phum Prêk Krâ
+km;ភូមិ ព្រែកក្រាញ;Phum Prêk Krănh
+km;Phumĭ Prêk Krănh;Phum Prêk Krănh
+km;ភូមិ ព្រែកគយ;Phum Prêk Kôy
+km;ភូមិ ព្រែកកូវ;Preaek Kov
+km;ភូមិ ព្រែកកូនតូច;Phum Prêk Kon Toch
+km;ភូមិ ព្រែកកូនតានិត;Phum Prêk Kon Ta Nĭt
+km;ភូមិ ព្រែកខ្យង;Phum Prêk Khyâng
+km;ភូមិ ព្រែកខ្សាយ;Preaek Khsay Kha
+km;ភូមិ ព្រែកខ្សាច់តូច;Phum Prêk Khsăch Toch
+km;ភូមិ ព្រែកខ្សាច់ធំ;Preaek Khsach
+km;Phum Prêk Khsach Thom;Preaek Khsach
+km;ភូមិ ព្រែកខ្សាច់;Phum Prêk Khsăch
+km;Phum Prêk Kâmpông Chĕn;Kampong Chen
+km;ភូមិ ព្រែកកំពង់ចិន;Kampong Chen
+km;ភូមិ ព្រែកកាល់;Phum Prêk Kal
+km;ភូមិ ព្រែកកក់;Preaek Kak
+km;Phum Prêk Kâk;Preaek Kak
+km;ភូមិព្រែកកក់;Phumĭ Prêk Kâk
+km;ភូមិ ព្រែកដូង;Preaek Doung
+km;Phum Prêk Dong;Preaek Doung
+km;Phumĭ Prêk Dâng Kdaông;Dang Kdaong
+km;Phum Prêk Dâng Kdaông;Dang Kdaong
+km;ភូមិ ព្រែកដងក្តោង;Dang Kdaong
+km;Phum Prêk Dach;Preaek Dach
+km;ភូមិ ព្រែកដាច់;Preaek Dach
+km;ភូមិ ព្រែកជ្រៃ;Preaek Chrey
+km;Phum Prêk Chrey;Preaek Chrey
+km;ភូមិ ព្រែកជីក;Preaek Chik
+km;ភូមិព្រែកជីក;Phum Prêk Chik
+km;ភូមិ ព្រែកឆ្ដោ;Preaek Chdaor
+km;Phum Prêk Chhdaô;Preaek Chdaor
+km;ភូមិ ព្រែកចារ;Phum Prêk Char
+km;Phumĭ Prêk Char;Phum Prêk Char
+km;ភូមិ ព្រែកចំឡាក់;Preaek Chamlak
+km;Phumĭ Prêk Châmlăk;Preaek Chamlak
+km;ភូមិ ព្រែកចាម;Phum Prêk Cham
+km;Phumĭ Prêk Cham;Phum Prêk Cham
+km;ភូមិ ព្រែកបាក់;Preaek Bak
+km;Phumĭ Prêk Băk;Preaek Bak
+km;ភូមិ ព្រែកអាទី;Phum Prêk Ati
+km;ភូមិ ព្រែកអន្ទះ;Preaek Anteah
+km;Phum Prêk Ânteăh;Preaek Anteah
+km;ភូមិ ព្រែកអង្គុញ;Preaek Angkonh
+km;Phumĭ Prêk Ândong;Preaek Andoung
+km;Phum Prêk Ândong;Preaek Andoung
+km;ភូមិ ព្រែកអណ្ដូង;Preaek Andoung
+km;ភូមិ ព្រែកអំពៅ;Phum Prêk Âmpŏu
+km;Phumĭ Prêk Âmpŏu;Phum Prêk Âmpŏu
+km;ភូមិ ព្រែកអំពិល;Phum Prêk Âmpĭl
+km;Phumĭ Prêk Âmpĭl;Phum Prêk Âmpĭl
+km;Phumĭ Prêk Âmbĕl;Preaek Ambel
+km;Phum Prêk Âmbĕl;Preaek Ambel
+km;ភូមិ ព្រែកអំពិល;Preaek Ambel
+km;ភូមិ ព្រែកអាជី;Phum Ti Pir
+km;ភូមិ ព្រែក;Phum Prêk
+km;Phumĭ Prêk;Phum Prêk
+km;ភូមិ ប្រី;Prei
+km;Phum Prei;Prei
+km;ភូមិ ព្រេច;Phum Préch
+km;Phumĭ Préch;Phum Préch
+km;ភូមិ ព្រាវ;Preav
+km;ភូមិ ព្រាននិល;Prean Nil
+km;Phum Preanĭl;Prean Nil
+km;ភូមិ ព្រះព្រាល;Phum Preăh Préal
+km;Phumĭ Preăh Préal;Phum Preăh Préal
+km;ភូមិ ព្រះពន្លា;Preah Ponlea
+km;Phum Preăh Pônléa;Preah Ponlea
+km;ភូមិ ព្រះលៃជ្រៃ;Phum Preăh Ley Chrey
+km;ភូមិ ព្រះគោល;Phum Preăh Koŭl
+km;ភូមិ ព្រះគោ;Phum Preăh Koŭ
+km;Phumĭ Preăh Koŭ;Phum Preăh Koŭ
+km;ភូមិ ព្រះអង្គទ្រង់;Phum Preăh Âng Trŭng
+km;ភូមិ ព្រះអង្រ្គង;Phum Preăh Ângkrông
+km;ភូមិ ព្រះអណ្តូង;Phum Preăh Ândong
+km;ភូមិ ព្រះ;Phum Preăh
+km;ភូមិ ព្រាប;Phum Préap
+km;ភូមិ ព្រះអំពិល;Preah Ampil
+km;Phum Preăh Âmpil;Preah Ampil
+km;ភូមិ ប្រអួលទឹក;Phum Prâ Uŏl Tœ̆k
+km;Phumĭ Prâthéat;Pra Heat
+km;ភូមិ ប្រធាត;Pra Heat
+km;ភូមិ ប្រស្រែ;Phum Prâsrê
+km;ភូមិ ប្រស្និប;Prasneb
+km;Phum Prâsnĕp;Prasneb
+km;ភូមិ ប្រាសាទ;Prasat
+km;Phum Prasat;Prasat
+km;ភូមិ ប្រាសាទវែង;Phum Prasat Véng
+km;Phumĭ Prasat Véng;Phum Prasat Véng
+km;ភូមិ ប្រាសាទត្រាវ;Prasat Trav
+km;Phum Prasat Trav;Prasat Trav
+km;Phumĭ Prasat Trav;Prasat Trav
+km;ភូមិ ប្រាសាទ;Phum Prasat
+km;Phumĭ Prasat;Phum Prasat
+km;Phum Prasat;Kampong Prasat
+km;ភូមិ ប្រាសាទ;Kampong Prasat
+km;Phum Prâphăt;Praphat
+km;ភូមិ ប្រផាត់;Praphat
+km;ភូមិ ប្រពេជចង្វា;Phum Prâpech Chângwa
+km;ភូមិ ប្រពេជចង្វារ;Pech Changvar
+km;Phum Prâpéch Chângva;Pech Changvar
+km;Phumĭ Prânaôl;Chranaol
+km;ភូមិ ប្រណោល;Chranaol
+km;ភូមិ ប្រម៉ោយ;Pramaoy
+km;Phum Prâmaôy;Pramaoy
+km;ភូមិ ម្រលឹងមាស;Phum Prâlœ̆ng Méas
+km;Phumĭ Prâlœ̆ng Méas;Phum Prâlœ̆ng Méas
+km;Phum Pra Ling;Preah Lean
+km;ភូមិ ប្រាលីង;Preah Lean
+km;ភូមិ ប្រឡាយស្តៅ;Phum Prâlay Sdau
+km;ភូមិ ប្រឡាយ;Phum Prâlay
+km;ភូមិ ប្រឡោះត្បូង;Phum Prâlaôh Tbong
+km;ភូមិ ប្រឡោះជើង;Phum Prâlaôh Cheung
+km;ភូមិ ប្រហ៊ូត;Phum Prâhut
+km;ភូមិ ប្រដាក;Pradak
+km;Phum Prâdăk;Pradak
+km;Phum Prâdak;Pradak
+km;ភូមិ ប្រដាក;Preah Dak
+km;Phum Prâdak;Preah Dak
+km;ភូមិ ប្របម៉ៃ;Prab Mai
+km;Phum Prâp Mai;Prab Mai
+km;ភូមិ ក្រុបាក់ មួយ;Phum Prâbak
+km;ភូមិ ប៉ុយឫស្សី;Phum Pŏy Rŭssei
+km;ភូមិ ពោយួន;Phum Poŭ Yuŏn
+km;Phumĭ Poŭ Yuŏn;Phum Poŭ Yuŏn
+km;ភូមិ ពោយោង;Phum Poŭ Yoŭng
+km;Phumĭ Poŭ Yoŭng;Phum Poŭ Yoŭng
+km;ភូមិ ពោធិ;Pou
+km;Phum Poŭ;Pou
+km;Phum Poŭ Ta Kuŏy;Sampov Meas
+km;ភូមិ ពោធិតាគួយ;Sampov Meas
+km;ភូមិ ពោធិម៉ស្រី;Phum Poŭ Mâ Srei
+km;ភូមិ ពោធិលើ;Phum Poŭ Leu
+km;ភូមិ ពោធិបុស;Pou Bos
+km;Phum Pŏu Bŏs;Pou Bos
+km;Phum Pouthibŏn;Pou Roam Bon
+km;ភូមិ ពោធិបុណ្យ;Pou Roam Bon
+km;ភូមិ ពោធិបន្ទាយជៃ;Phum Phoŭth Bântéay Chey
+km;Phumĭ Poŭthiban;Pouthi Ban
+km;Phum Poŭthiban;Pouthi Ban
+km;ភូមិ ពោធិបាន;Pouthi Ban
+km;ភូមិ ពោធ;Pou
+km;Phum Poŭth;Pou
+km;ភូមិ ពោធិ;Phum Poŭ
+km;ភូមិ ពោតាម៉ោល;Phum Poŭ Ta Maôl
+km;ភូមិ ពោម្រះ;Pou Mreah
+km;Phum Poŭ Môreăh;Pou Mreah
+km;ភូមិ ពោករវែស;Phum Poŭk Rôvês
+km;ភូមិ ពពេល;Popel
+km;Phum Pôpél;Popel
+km;ភូមិ ពពេលខែ;Phum Popéal Khê
+km;ភូមិ ពពេល;Phum Pôpél
+km;ភូមិ ពពាលគៃ;Phum Pôpéal Key
+km;ភូមិ ពន្លក;Phum Pônlôk
+km;Phum Punley;Ponley
+km;ភូមិ ពន្លៃ;Ponley
+km;ភូមិ ពន្លៃ;Phum Punley
+km;Phum Pônley;Ponley Cheung
+km;ភូមិ ពន្លៃ;Ponley Cheung
+km;ពន្លៃ;Ponley
+km;ភូមិ ពងទឹក;Pong Tuek
+km;ភូមិ ពងទឹក;Phum Pông Tœ̆k
+km;Phumĭ Pông Tœ̆k;Phum Pông Tœ̆k
+km;ភូមិ ពង្រ;Pongro
+km;Phum Pôngrô;Pongro
+km;ភូមិ ពង្រ;Phum Pôngrô
+km;Phumĭ Pôngrô;Pongro Chas
+km;ភូមិ ពង្រ;Pongro Chas
+km;ភូមិ ពង្ររ;Phum Pôngrôr
+km;ភូមិ ពង្ររ មួយ;Phum Pongrôr Muŏy
+km;Phum Pôngrôr;Kouk Sangkae
+km;ភូមិ ពង្ររ;Kouk Sangkae
+km;ភូមិ ពង្ររ;Phum Pôngrô
+km;ភូមិ ពង្របត់ចាន;Pongro Bat Chan
+km;Phum Pôngrô Bât Chan;Pongro Bat Chan
+km;ភូមិពង្រ្ក;Pongro
+km;Phumĭ Pôngrô;Prech Tboung
+km;Phum Pôngrô;Prech Tboung
+km;ភូមិ ពង្រ;Prech Tboung
+km;Phum Pôngrô;Pongro Pir
+km;ភូមិ ពង្រ;Pongro Pir
+km;ភូមិ ពងពស់;Phum Pông Puŏs
+km;ភូមិ ពកខ្ចី;Phum Pôk Khchei
+km;Phum Pnŏu;Pnov
+km;ភូមិ ព្នៅ;Pnov
+km;Phumĭ Phtoŭl;Phum Phtoŭl
+km;ភូមិ ផ្ទោល;Andoung Rovieng
+km;ភូមិ ផ្ទះស្ដុក;Srae Sdok
+km;ភូមិ ផ្ទះស្តុក;Phum Phteăh Sdŏk
+km;ភូមិ ផ្ទះខ្ពស់;Phum Phteăh Khpuŏs
+km;ភូមិ ផ្ទះកោះ;Phum Phteah Kaŏh
+km;ភូមិ ផ្ទះចេក;Phum Phteăh Chék
+km;ភូមិ ផ្ទះបឹង;Phum Phteăh Bœ̆ng
+km;Phumĭ Phteăh Bœ̆ng;Phum Phteăh Bœ̆ng
+km;ភូមិ ផ្សារ;Phsar
+km;Phum Phsar;Phsar
+km;Tvéa Thom;Phum Phsaôt
+km;ភូមិ ផ្សោត;Phum Phsaôt
+km;ទ្វាធំ;Phum Phsaôt
+km;ភូមិ ផ្សារលើ;Phum Phsar Leu
+km;ភូមិ ភ្នំតូច;Phnum Touch
+km;Phum Phnŭm Toch Muŏy;Phnum Touch
+km;Phum Phnum Toch;Phnum Touch
+km;Phum Phnŭm Thom;Phnum Thum Tboung
+km;ភូមិ ភ្នំធំ;Phnum Thum Tboung
+km;Phum Phnŭm Thippâdei;Ra
+km;ភូមិ ភ្នំធិបតី;Ra
+km;ភូមិ ភ្នំធិបតី;Thipakdei
+km;ភូមិ ភ្នំតាសំ;Phum Phnŭm Ta Sâm
+km;ភូមិ ភ្នំសំពៅ;Phnum Sampov
+km;Phum Phnum Sâmpŏu;Phnum Sampov
+km;ភូមិ ភ្នំលៀប;Phnum Lieb
+km;Phum Phnŭm Liĕp;Phnum Lieb
+km;ភូមិ ភ្នំក្រុង;Phum Phnŭm Krŏng
+km;ភូមិ ភ្នំក្រោម;Phnum Kraom
+km;Phum Phnŭm Kraôm;Phnum Kraom
+km;ភូមិ ភ្នំកូនដំរី;Phum Phnum Kon Dâmrei
+km;Phnum Den;Phumĭ Phnum Dĕn Khang Cheung
+km;ភូមិ ភ្នំដី;Phum Phnŭm Dei
+km;ភូមិ ដំរី;Phum Phnŭm Dâmrei
+km;ភូមិ ភ្នំអំពិល;Phum Phnŭm Âmpil
+km;ភូមិ ភ្នៅ;Phum Phnŏu
+km;Phumĭ Phnŏu;Phum Phnŏu
+km;Phum Phnŏu;Prey Phdau
+km;ភូមិ ភ្នៅ;Prey Phdau
+km;ភូមិ ភ្នៅ;Pnov
+km;Phum Phnoŭ;Pnov
+km;ភូមិ ភ្នៀត;Phum Phniĕt
+km;Phum Phônhéa Srei;Kouk Pou
+km;ភូមិ ភ្ញាស្រី;Kouk Pou
+km;ភូមិ ភ្នេន;Phum Phnén
+km;Phum Phlŭk;Phluk
+km;ភូមិ ភ្លុក;Phluk
+km;ភូមិ ផ្លូវមាស;Phum Phlov Méas
+km;ភូមិ ផ្លូវគោ;Phum Phlov Koŭ
+km;ភូមិភ្លៅមាន់;Phum Phloŭ Moân
+km;ភូមិ ភ្លង;Phlong
+km;Phum Phlông;Phlong
+km;ភូមិ ផ្លុង;Phlong
+km;Phum Phlŏng;Phlong
+km;ភូមិ ភ្លើងឆេះ;Phum Phleung Chhĕh
+km;ភូមិ ផ្លាស់កង់;Phlas Kang
+km;Phum Plas Kâng;Phlas Kang
+km;ភូមិ ផ្គា;Phkoam
+km;Phum Phkŏâm;Phkoam
+km;ភូមិ ផ្កាដូង;Phka Doung
+km;Phum Phka Dong;Phka Doung
+km;ភូមិ ភឹយូ;Phum Phaiu
+km;ភូមិ ភាសត្បូង;Phum Phéas Tbong
+km;Phumĭ Phéas Tbong;Phum Phéas Tbong
+km;ភូមិ ផែ;Phum Phê
+km;Phum Phâav;Dang Ph’av
+km;ភូមិ ផ្អាវ;Dang Ph’av
+km;ភូមិ ផាត់សន្តាយ;Phum Phat Sânday
+km;ភូមិ ផាតសន្តាយ;Phat Sanday
+km;Phum Phat Sânday;Phat Sanday
+km;ភូមិ ផ្អាក;Phum Phâak
+km;Phum Peuk;Chies Ti Pir
+km;ភូមិ ពើក;Chies Ti Pir
+km;ភូមិ ប៉ិស;Phum Pĕs
+km;ភូមិ ប៉ែន;Phum Pên
+km;ភូមិ ពេជជោ;Phum Péch Choŭ
+km;ភូមិ ពេជអន្ទ្រា;Phum Pich Ântréa
+km;ភូមិ ពាមទេ;Phum Péam Té
+km;ភូមិពាមសេមា;Phumĭ Péam Séma
+km;ភូមិ ពាមស្ដី;Peam Sdei
+km;Phum Péam Reăng Leu;Peam Reang Leu
+km;ភូមិ ពាមរាំងលើ;Peam Reang Leu
+km;Phum Péam Reăng Kraôm;Peam Reang
+km;ភូមិ ពាមរាំងក្រោម;Peam Reang
+km;Phum Péam Phtoŭl;Peam Phtoul Kaeut
+km;ភូមិ ពាមផ្ទោល;Peam Phtoul Kaeut
+km;ភូមិ ពាមឯក;Peam Aek
+km;Phum Péam;Peam Sreh
+km;ភូមិ ពាម;Peam Sreh
+km;ភូមិ ពាក់ស្នែងចាស់;Peak Snaeng Chas
+km;Phum Peăk Snêng Chăs;Peak Snaeng Chas
+km;ភូមិ ពាក់ស្នែង;Peak Snaeng
+km;Phum Peăk Snêng;Peak Snaeng
+km;ភូមិ ប៉ាយឡាយ;Phum Paylay
+km;ភូមិ ប៉ាតត;Patat
+km;Phum Patât;Patat
+km;ភូមិ បាសឹង;Phum Basœ̆ng
+km;Phumĭ Paôy Yông;Ta Pung
+km;ភូមិ ប៉ោយយ៉ង;Ta Pung
+km;ភូមិ ប៉ោយត្រាច;Phum Paôy Thach
+km;ភូមិ ប៉ោយតាប្រាក់;Phum Paôy Ta Prăk
+km;Phumĭ Paôy Ta Prăk;Phum Paôy Ta Prăk
+km;Phum Paôy Ta Pên;Ta Paen
+km;ភូមិ បោយតាប៉ែន;Ta Paen
+km;ភូមិ ប៉ោយស្វាយ;Paoy Svay
+km;Phum Paôy Svay;Paoy Svay
+km;ភូមិ ប៉ោយស្នល;Paoy Snuol
+km;Phum Paôy Snuŏl;Paoy Snuol
+km;Phum Paôy Snay;Snay
+km;ភូមិ បោយស្នាស;Snay
+km;ភូមិ ប៉ោយសំរោង;Paoy Samraong
+km;Phum Paôy Sâmraông;Paoy Samraong
+km;Phum Paôy Chăs;Paoy Char
+km;ភូមិ ប៉ោយចាស់;Paoy Char
+km;ភូមិ ប៉ាង;Phum Pang
+km;ភូមិ បម;Phum Pâma
+km;Phumĭ Pâma;Phum Pâma
+km;ភូមិ ប៉ាខ្លេ;Phum Pakhlé
+km;ភូមិ បាខ្លេ;Phum Pakhlé
+km;ភូមិ បាជ្រូក;Phum Pachruk
+km;ភូមិ អូ;Phum O
+km;ភូមិ អូវែង;Phum O Vêng
+km;ភូមិ អូរទូក;Phum O Tuk
+km;Phumĭ O Tuk;Phum O Tuk
+km;ភូមិ អូរត្រាវ;Ou Trav
+km;ភូមិ អទទឹង;Phum O Tôtœ̆ng
+km;Phumĭ O Tôtœ̆ng;Phum O Tôtœ̆ng
+km;ភូមិ អូធំ;Ou Thum
+km;Phum Otey;Ou Tey
+km;ភូមិ អូតាណង;Ou Ta Noeng
+km;Phumĭ O Tanœ̆ng;Ou Ta Noeng
+km;ភូមិ អូតាម៉ា;Phum O Ta Ma
+km;ភូមិ អូតាកី;Ou Ta Ki
+km;Phum O Ta Ki;Ou Ta Ki
+km;ភូមិ អូរស្វាយ;Phum O Svay
+km;ភូមិ អូសទូក;Os Tuk
+km;Phum Os Tuk;Os Tuk
+km;ភូមិ អូរស្រឡៅ;Ou Sralau
+km;Phum O Srâlau;Ou Sralau
+km;ភូមិ អូរស្ពាន;Phum O Spéan
+km;ភូមិ អូ ស្ងួត;Phum O Snguŏt
+km;ភូមិ អូសង្កែ;Phum O Sângkê
+km;ភូមិ អូសាលា;Ou Sala
+km;ភូមិ អូរាម;Phum O Réam
+km;ភូមិអូព្រែកហេវ;Phumĭ O Prêk Hêv
+km;ភូមិ អ ប្រាសាទ;Ou Prasat
+km;Phum O Prasat;Ou Prasat
+km;ភូមិ អូប្រាសាទ;Phum O Prasat
+km;ភូមិ ប្រកងកណ្ដាល;Phum O Prâkâng Kândal
+km;Phum O Phlŏng;Ou Khlong
+km;ភូមិ អូផ្លុង;Ou Khlong
+km;ភូមិ អូរញ័រ;Phum O Nhôr
+km;ភូមិ អូម៉ាត;Phum O Mat
+km;Ou;Phumĭ O Kraôm
+km;ភូមិ អូរក្រឡាញ់;Ou Kralanh
+km;Phum O Krâlănh;Ou Kralanh
+km;ភូមិ អូរក្របោ;Ou Krabau
+km;Phum O Krâbau;Ou Krabau
+km;ភូមិ អូកុក;Kok
+km;Phum O Kŏk;Kok
+km;ភូមិ ឧកញ៉ាផិក;Phum Ŏknha Phĕk
+km;ភូមិ អូកៅ;Phum O Kau
+km;ភូមិ អូកក;Phum O Kâk
+km;ភូមិ អូដំបង ពីរ;Ou Dambang Pir
+km;Phum Ô Dâmbâng Pir;Ou Dambang Pir
+km;Phum O Da;Ou Da
+km;ភូមិ អដា;Ou Da
+km;Phumĭ O Chrŏu;Tuek Chenh
+km;ភូមិ អូជ្រៅ;Tuek Chenh
+km;ភូមិ អូច្រាម មួយ;Ou Chrab
+km;Phum O Chrap;Ou Chrab
+km;ភូមិ អូជីពៅ;Phum O Chipoŭ
+km;Phum O Châmna;Ou Ta Pang
+km;ភូមិ អូចំំណារ;Ou Ta Pang
+km;ភូមិ អូចំណារ;Ou Chamnar
+km;Phum O Châmna;Ou Chamnar
+km;ភូមិ អូចំណារលើ;Phum O Châmna Leu
+km;Phumĭ O;Phum O
+km;Phumĭ O;Ou
+km;Phum O;Ou
+km;ភូមិអូ;Ou
+km;Phum Nôkôr Phéas;Nokor Pheas Muoy
+km;ភូមិ នគរភាស;Nokor Pheas Muoy
+km;ភូមិ និមិត្ត;Nimitt
+km;Phum Nĭmĭt;Nimitt
+km;ភូមិ និគមខ្មែរលើ;Sangkom
+km;ភូមិ ងីកងោក;Phum Ngik Ngoŭk
+km;Phumĭ Ngik Ngoŭk;Phum Ngik Ngoŭk
+km;ភូមិ នាងស្រោង;Neang Sraong
+km;Phum Néang Sraông;Neang Sraong
+km;ភូមិ នាងសាវ;Neang Sav
+km;Phum Néang Sav;Neang Sav
+km;ភូមិ អ្នកតាប្រចោ;Phum Néark Ta Prâchau
+km;ភូមិ ណាវា;Phum Nava
+km;ភូមិ ណាំតៅ;Nam Tau
+km;Phum Năm Tau;Nam Tau
+km;ភូមិ ណាឡូង;Na Laung
+km;ភូមិ ណាកាឆាយ;Phum Nakachhay
+km;Phum Mŭk Pên;Ta Trav
+km;ភូមិ មុខប៉ែន;Ta Trav
+km;Phum Môreum;Mreum
+km;ភូមិ ម្រើម;Mreum
+km;ភូមិ ម្រាក់;Ma Naok
+km;Phum Môrerk;Ma Naok
+km;ភូមិ ម្រះព្រៅ;Mreah Prov
+km;Phum Môreăh Prŏu;Mreah Prov
+km;Phum Moŭng;Moung
+km;Phum Moŭng;Svay At
+km;ភូមិ មោង;Svay At
+km;ភូមិ ម៉ុងរី;Phum Môngri
+km;ភូមិ មាត់ពាម;Phum Moât Péam
+km;Phum Môlich;Thnuoh Ta Chab
+km;ភូមិ ម្លិច;Thnuoh Ta Chab
+km;ភូមិ ម្កាក់;Phum Môkak
+km;Mkak;Phum Môkak
+km;ភូមិ ម្កាក់;Mkak
+km;Phum Môkak;Mkak
+km;ភូមិ មីច្បា;Phum Michba
+km;ភូមិ មេជ្រៃ;Phum Mé Chrey
+km;Phumĭ Mé Chrey;Phum Mé Chrey
+km;ភូមិ មានជៃ;Phum Méanchey
+km;ភូមិ ម្ឌុំ;Phum Môdŭm
+km;ភូមិ ម៉ៅ;Mau
+km;Phumĭ Mau;Mau
+km;Phum Mau;Mau
+km;ភូមិ ម៉ាត់ ត្បូ;Phum Mat Thbo
+km;ភូមិ ម៉ាក់ព្រេង;Phum Măk Préng
+km;ភូមិ ល្វែងឬស្សី;Lveaeng Ruessei
+km;Phum Lôvêng Rŭssei;Lveaeng Ruessei
+km;Phum Lôvea;Tuol Lvieng
+km;ភូមិ ល្វា;Tuol Lvieng
+km;ភូមិ ល្វា;Lvea
+km;Phum Lôvéa;Lvea
+km;ភូមិល្វាយ;Phum Lôvéay
+km;Phum Lôvéa Toung;Lvea Toung
+km;ភូមិ ល្វាទោង;Lvea Toung
+km;ភូមិ ល្វាធំ;Lvea Thum
+km;Phum Lôvéa Thom;Lvea Thum
+km;ភូមិ ល្វាទេ;Phum Lôvéa Té
+km;ភូមិ ល្វាសរក្រោម;Phum Lôvéa Sâr Kraôm
+km;ភូមិ ល្វាសរកណ្តាល;Phum Lôvéa Sâr Kândal
+km;Phum Lôvéa;Lvea Krang
+km;ភូមិ ល្វា;Phum Lôvéa
+km;ភូមិ លួង;Phum Luŏng
+km;ភូមិ លំពុក;Phum Lumpŭk
+km;Phumĭ Lumpŭk;Phum Lumpŭk
+km;ភូមិ លលំ;Phum Lôlŭm
+km;ភូមិ លលកសរ;Lolok Sa
+km;Phum Lôlôk Sâr;Lolok Sa
+km;ភូមិ លលៃ;Loley
+km;Phumĭ Lôley;Loley
+km;Phum Lôley;Loley
+km;ភូមិ ល្មូត;Phum Lômut
+km;ភូមិ ល្អៀត;L’iet
+km;Phum Lôiĕt;L’iet
+km;ភូមិ លាវ;Phum Léav
+km;Phumĭ Léav;Phum Léav
+km;ភូមិ លាងពុង;Phum Léang Pông
+km;ភូមិ លាងហុង;Phum Léang Pông
+km;ភូមិ លាប;Phum Léap
+km;ភូមិ ល្បើកតាសូ;Phum Lôbaeuk Ta So
+km;ភូមិ ល្បើកប្រី;Lbaeuk Prei
+km;Phum Lôbaeuk Prei;Lbaeuk Prei
+km;ភូមិ ល្បើក;Lbaeuk
+km;Phum Lbaeuk;Lbaeuk
+km;ភូមិ ឡរ;La
+km;Phum Lâ;La
+km;ភូមិ ឡោទ្យេ;Laote
+km;Phum Laô Tiĕ;Laote
+km;ភូមិ ឡាអ៊ឹន;Phum La Œn
+km;ភូមិ ឡាំដាំ;Phum Lămdăm
+km;ភូមិ ល្អក់;Phum La Âk
+km;ភូមិ ល្អក់;L’ak
+km;Phum Laâk;L’ak
+km;ភូមិ ឡើងទួល;Phum Laeung Tuŏl
+km;ភូមិ ល្អ;Phum Laâ
+km;ភូមិ គួយជីកដី;Phum Kuŏy Chik Dei
+km;ភូមិ គួកអាវ;Phum Kuŏk Av
+km;ភូមិតុំតាសុក;Phumĭ Kŭm Ta Sŏk
+km;ភូមិ គ្រួសជិត;Phum Kruŏs Chĭt
+km;ភូមិ គ្រួស;Phum Kruŏs
+km;Phumĭ Kruŏs;Phum Kruŏs
+km;ភូមិ គ្រួស;Kruos
+km;Phumĭ Kruŏs;Kruos
+km;Phum Kruŏs;Kruos
+km;ភូមិ គ្រលុក;Phum Krôlŭk
+km;Phum Kroch Kôr;Kouk Kei
+km;ភូមិ ក្រូចគរ;Kouk Kei
+km;ភូមិ ក្រូចឆ្មា;Phum Kroch Chhma
+km;ភូមិ ក្រូច;Krouch
+km;Phum Kroch;Krouch
+km;ភូមិ ក្រូច;Phum Kroch
+km;ភូមិ ត្រីគួនព្រៃ;Phum Ta Kuŏn Prey
+km;ភូមិ គ្រាំងស្លែង;Phum Kreăng Slêng
+km;ក្រវាក;Krâvéak
+km;Phum Krâvăn;Nokor Thum
+km;ភូមិ ក្រវ៉ាន់;Nokor Thum
+km;Phumĭ Krâtŭm Srei;Phum Krâtŭm Srei
+km;ភូមិ ក្រសាំង;Phum Krâsăng
+km;ភូមិ ក្រសាំងថ្មី;Krasang Thmei
+km;Phum Krâsăng Thmei;Krasang Thmei
+km;ភូមិ ក្រសាំងតាំងយូរ;Tang Yu
+km;ភូមិ ក្រសាំងពុល;Phum Krâsăng Pŭl
+km;ភូមិ ក្រសាំងផ្អែម;Phum Krâsăng Phâêm
+km;ភូមិ ក្រស឴ងផ្អែម;Phum Krâsăng Phaêm
+km;ភូមិ ក្រសាំងបែន;Phum Krâsăng Bên
+km;ភូមិ ក្រសាំង;Krasang
+km;Phum Krâsăng;Krasang
+km;Krapum Chhuk;Phumĭ Krâpŭm Chhuk
+km;Phum Krâpeu Khang Cheung;Krapeu Cheung
+km;ភូមិ ក្រពើខាងជើង;Krapeu Cheung
+km;ភូមិ ក្រពើហា;Phum Krâpeu Ha
+km;ភូមិ ក្រពើ;Krapeau
+km;Phum Krâpeu;Krapeau
+km;ភូមិ ក្រពែង;Phum Krâpêng
+km;ភូមិ ក្រោម;Phum Kraôm
+km;ភូមិ អូរក្រោម;Ou Kraom
+km;Phum O Kraôm;Ou Kraom
+km;ភូមិ ក្រោលក្របី;Kraol Krabei
+km;Phumĭ Kraôl Krâbei;Kraol Krabei
+km;Phum Kraôl Krâbei;Kraol Krabei
+km;ភូមិ ក្រាំងត្រចាក;Phum Krăng Trâchak
+km;ភូមិ ក្រាំងតាវ៉ា;Phum Krăng Ta Va
+km;ភូមិ ក្រាំងស្វាយធំ;Phum Krăngsvay Thum
+km;ភូមិ ក្រាំងស្វាត;Phum Krăng Svat
+km;ភូមិ ក្រាំងស្លែង;Phum Krăng Slêng
+km;ភូមិ ក្រាំងស្លា;Phum Krăng Sla
+km;Phum Krăng Pônléa;Krang Pophleak
+km;ភូមិ ក្រាំងពន្លា;Krang Pophleak
+km;Phum Krâng Krâsăng;Krang Ta Saen
+km;ភូមិ ក្រាំងគគី;Phum Krăng Kôki
+km;ភូមិ ក្រង៉ោក;Phum Krângaôk
+km;Krang;Phumĭ Krăng
+km;ភូមិ ក្រាំង;Phum Krăng
+km;Phumĭ Krăng;Phum Krăng
+km;ភូមិ ក្រឡាញ់;Phum Krâlang
+km;ភូមិ ក្រឡាញ់;Kralanh
+km;Phum Krâlănh;Kralanh
+km;ភូមិ ក្រឡាញ់មាស;Kandoeng Meas
+km;Phumĭ Krâlăng Méas;Kandoeng Meas
+km;Phum Krâlăng Méas;Kandoeng Meas
+km;ភូមិ ក្រគរ;Phum Krâkôr
+km;Phum Krâkaôh;Kakaoh
+km;ភូមិ ក្រកោះ;Kakaoh
+km;Phum Krâhâm Kâ;Kraham Ka Leu
+km;ភូមិ ក្រហមករ;Kraham Ka Leu
+km;ភូមិ ក្រចិល;Phum Krâchĕl
+km;ភូមិ ក្រចាប់;Phum Krachap
+km;Phumĭ Krachap;Phum Krachap
+km;ភូមិ ក្របីលែង;Phum Krâbei Lêng
+km;ភូមិ ក្របីក្រៀក;Phum Krâbei Kriĕk
+km;Phum Krâbei Chrŭm;Krabei Chrum
+km;ភូមិ ក្របីជ្រុំ;Krabei Chrum
+km;ភូមិ ត្រប៉ោ;Krabau
+km;Phum Krâbau;Krabau
+km;ភូមិ ក្របៅ;Krabau
+km;ភូមិ ប្របៅ;Phum Krâbau
+km;ភូមិ ក្របៅ;Phum Krâbau
+km;ភូមិ គយ;Phum Kôy
+km;ភូមិ គោលុន;Phum Koŭ Lŭn
+km;ភូមិ គោលាប់;Kou Loab
+km;Phum Kou Lôăp;Kou Loab
+km;ភូមិ គោល;Phum Koŭl
+km;ភូមិ គោល;Koul
+km;Phumĭ Koŭk Yéang;Prasat Char
+km;Phum Koŭk Yéang;Prasat Char
+km;ភូមិ គោកយាង;Prasat Char
+km;ភូមិ គោកត្រុំ;Phum Kouk Trŏm
+km;ភូមិ គោកត្រាង;Phum Koŭk Trang
+km;ភូមិ គោកត្រាំង;Phum Koŭk Trăng
+km;Phumĭ Koŭk Trăng;Phum Koŭk Trăng
+km;ភូមិ គោកត្រំ;Phum Koŭk Trŏm
+km;ភូមិ គោកត្រាច;Kouk Trach
+km;Phum Koŭk Trach;Kouk Trach
+km;ភូមិ គោកទន្លាប់;Phum Koŭk Tônléap
+km;ភូមិ គោកទ្យេម;Phum Koŭk Tiĕm
+km;ភូមិ គោកធ្នង;Kouk Thnong Kaeut
+km;Phum Koŭk Thnŭng;Kouk Thnong Kaeut
+km;ភូមិ គោកថ្មី;Phum Koŭk Thmei
+km;ភូមិ គោកថ្មី;Kouk Thmei
+km;Phumĭ Koŭk Thmei;Kouk Thmei
+km;Phum Koŭk Réach;Kouk Thmei
+km;Phum Koŭk Thmei;Kouk Thmei
+km;ភូមិ គោកថៃ;Phum Koŭk Thai
+km;ភូមិ គោកតែល;Phum Koŭk Têl
+km;Phumĭ Koŭk Têl;Phum Koŭk Têl
+km;ភូមិ គោកត្បែង;Phum Koŭk Tbêng
+km;Phumĭ Koŭk Ta Tĭn;Kouk Kakthen
+km;Phum Koŭk Ta Tĭn;Kouk Kakthen
+km;ភូមិ គោកតាទិន;Kouk Kakthen
+km;Phum Koŭk Ta Srei;Ta Srei
+km;ភូមិ គោកតាស្រី;Ta Srei
+km;ភូមិ គោកតាមូង;Phum Koŭk Tramung
+km;Phum Koŭk Ta Di;Tuek Thla
+km;ភូមិ គោកតាឌី;Tuek Thla
+km;ភូមិ គោកស្វាយ;Phum Koŭk Svay
+km;ភូមិ គោកស្វាយ;Kouk Svay
+km;Phum Koŭk Svay;Kouk Svay
+km;ភូមិ គោកស្រុក;Kouk Srok
+km;Phum Koŭk Srŏk;Kouk Srok
+km;ភូមិគោកស្នាយ;Phumĭ Koŭk Snay
+km;ភូមិ គោកសណ្ដែក;Phum Koŭk Sândêk
+km;ភូមិ គោករន;Phum Koŭk Rŭn
+km;ភូមិ គោករំដួល;Phum Koŭk Rŭmduŏl
+km;ភូមិ គោករលួស;Phum Koŭk Rôluŏs
+km;Phum Koŭk Rôhal;Sranal
+km;ភូមិ គោករហាល;Sranal
+km;ភូមិ គោករហាល់;Sranal
+km;ភូមិ គោកព្រិច;Phum Koŭk Prĭch
+km;Phumĭ Koŭk Prich Toch;Kouk Prech
+km;ភូមិ គោកព្រេចតូច;Kouk Prech
+km;ភូមិ គោកព្រេចធំ;Banteay Chhmar Lech
+km;Phum Koŭk Prâdak;Kouk Kraol
+km;ភូមិ គោកប្រដាក;Kouk Kraol
+km;ភូមិ គោកពោធិ;Phum Koŭk Poŭ
+km;Phum Koŭk Poŭth;Kouk Ruessei
+km;ភូមិ គោកពោធិ;Kouk Ruessei
+km;ភូមិ គោកពោន;Phum Koŭk Poŭn
+km;ភូមិ គោកភ្នៅ;Phum Koŭk Phnoŭ
+km;ភូមិ គោកភៅ;Kouk Pnov
+km;Phum Kouk Phoŭ;Kouk Pnov
+km;Phumĭ Koŭk Phnŏu;Doun Kaev
+km;Phum Koŭk Phnŏu;Doun Kaev
+km;ភូមិ គោកភ្នៅ;Doun Kaev
+km;ភូមិ គោកផ្ចឹក;Phum Koŭk Phchœ̆k
+km;ភូមិ គោកផ្អាវ;Phum Koŭk Phôu
+km;ភូមិ គោកណាំង;Phum Koŭk Năng
+km;ភូមិ គោកលន់;Kouk Lun
+km;Phum Koŭk Lŭn;Kouk Lun
+km;ភូមិ គោកលលក;Phum Koŭk Lô Lôk
+km;Phumĭ Koŭk Lô Lôk;Phum Koŭk Lô Lôk
+km;ភូមិ គោកល្លុង;Phum Kok Lôhong
+km;ភូមិ គោកក្រូច;Phum Koŭk Kroch
+km;Phumĭ Koŭk Kroch;Phum Koŭk Kroch
+km;ភូមិ គោកក្រសាំង;Phum Koŭk Krâsăng
+km;ភូមិ គោកក្រោល;Phum Koŭk Kraôl
+km;ភូមិ គោកក្របាស;Kouk Kabbas
+km;Phum Koŭk Kôr;Kouk Chrey
+km;ភូមិ គោកគរ;Kouk Chrey
+km;ភូមិ គោកគក់;Kouk Kak
+km;Phum Koŭk Kôk;Kouk Kak
+km;ភូមិ គោកៀង;Phum Koŭk Kiĕng
+km;ភូមិ គោកខ្ទំ;Phum Koŭk Khtŭm
+km;ភូមិ គោកខ្សាច់;Phum Koŭk Khsăch
+km;Phumĭ Koŭk Khsăch;Phum Koŭk Khsăch
+km;ភូមិ គោកខ្ពស់;Kouk Khpos
+km;Phum Koŭk Khpuŏs;Kouk Khpos
+km;ភូមិ គោកខ្ទាំង;Phum Koŭk Kheăng
+km;ភូមិ គោកឃ្មុំ;Kouk Khmum
+km;Phum Koŭk Khmŭm;Kouk Khmum
+km;ភូមិ គោកឃ្មាស;Phum Koŭk Khméas
+km;Phumĭ Koŭk Khméas;Phum Koŭk Khméas
+km;ភូមិ គោកឃ្លរ;Phum Koŭk Klôr
+km;ភូមិ គោកក្ដួច;Phum Koŭk Kduŏch
+km;Phumĭ Koŭk Kândal;Kouk Kandal
+km;Phum Koŭk Kândal;Kouk Kandal
+km;ភូមិ គោកដូង;Phum Koŭk Dong
+km;ភូមិ គោកដូង;Kouk Doung
+km;Phumĭ Koŭk Dong;Kouk Doung
+km;Phum Koŭk Dong;Kouk Doung
+km;Kouk Dei;Phumĭ Koŭk Dei
+km;ភូមិ គោកច្រាប;Kouk Chrab
+km;Phum Koŭk Chrap;Kouk Chrab
+km;ភូមិ គោកជរ;Phum Koŭk Chôr
+km;Phumĭ Koŭk Chôr;Phum Koŭk Chôr
+km;ភូមិ គោកឈ្លិច;Phum Koŭk Chhlĭk
+km;ភូមិ គោកចិន;Kouk Chen
+km;Phum Koŭk Chĕn;Kouk Chen
+km;ភូមិ គោកចាស់;Kouk Chas
+km;Phum Koŭk Chăs;Kouk Chas
+km;ភូមិ គោកចាស់;Phum Koŭk Chăs
+km;ភូមិ គោកចាន;Phum Koŭk Chann
+km;Phum Koŭk Chann;Kouk Chan
+km;ភូមិ គោកចាន់;Phum Koŭk Chăn
+km;ភូមិ គោកចំបើស;Phum Koŭk Châmbaeus
+km;ភូមិ គោកចា;Char
+km;ភូមិ គោកថា;Phum Koŭk Cha
+km;ភូមិ គោកអង្គត់;Phum Koŭk Ângkôt
+km;ភូមិ គរ;Phum Kôr
+km;ភូមិ កូនត្រុំ;Phum Kon Trom
+km;Phumĭ Kon Trom;Phum Kon Trom
+km;ភូមិ កូនត្នោត;Phum Kon Tnaôt
+km;ភូមិ គន់ធ្លែវ;Phum Kónthlêv
+km;ភូមិ កូនគ្រៀល;Phum Kon Kriĕl
+km;ភូមិ កូនគគីរ;Phum Kon Kôki
+km;ភូមិ កូនក្អែក;Phum Kon Kâêk
+km;ភូមិ គងទំ;Phum Kông Tum
+km;ភូមិ កងក្តៀម;Phum Kông Kliĕm
+km;ភូមិ កូនជេ;Phum Kon Ché
+km;Phumĭ Kon Ché;Phum Kon Ché
+km;Phum Kom Phlaeup;Kanhchan Run
+km;Phumĭ Kombaô;Phum Kombaô
+km;ភូមិ គល់ពោធិ;Phum Kôl Poŭ
+km;ភូមិ កុកទុំ;Phum Kŏk Tŭm
+km;ភូមិ គគីរធំ;Kokir Thum
+km;Phum Kôki Thom;Kokir Thum
+km;ភូមិ គគិ;Bat Kokir
+km;Phumĭ Kôki;Bat Kokir
+km;Phum Kôki;Bat Kokir
+km;ភូមិ កុក;Kok
+km;Phum Kŏk;Kok
+km;ភូមិ កូចារ;Char Roka
+km;ភូមិ កូបតូច;Koub Touch
+km;Phum Kob Toch;Koub Touch
+km;ភូមិ កូប;Koub Thum
+km;ភូមិ គាស់ក្រឡ;Koas Krala
+km;Phum Kôâs Krâlâ;Koas Krala
+km;ភូមិ ក្នុងវាល;Phum Knŏng Véal
+km;ភូមិ ក្នុងព្រែក;Phum Khnŏng Prêk
+km;ភូមិ ក្នុង;Phum Knŏng
+km;ភូមិ ក្ងានពង;Phum Kngan Pông
+km;ភូមិ ក្លងពស់;Phum Klêng Puŏs
+km;ភូមិ គិរីវង់ ពីរ;Phum Kirivŭng
+km;ភូមិ គិរីវង់ មួយ;Phum Kirivŭng
+km;ភូមិ គីរីវង្សា;Phum Kirivôngsa
+km;ភូមិ គីរីបាសលើ;Phum Kiribas Leu
+km;ភូមិ គីរីបាស់ក្រោម;Phum Kiribas Kraôm
+km;ភូមិ គីឡូ;Phum Kilo
+km;Phumĭ Kilo;Phum Kilo
+km;Phum Kiliĕk;Khile
+km;ភូមិ គីលៀក;Khile
+km;ភូមិ កៀនស្រី;Phum Kiĕn Srei
+km;ភូមិគៀនស្បូវ;Phumĭ Kiĕn Sbov
+km;ភូមិ កៀនសាង;Phum Kien Sang
+km;ភូមិ គៀនកែស;Phum Kiĕn Kês
+km;ភូមិ កៀងចុង;Phum Kiĕng Chŏng
+km;Phum Kiĕn Chrey;Kien Chrey
+km;ភូមិ កៀនជ្រៃ;Kien Chrey
+km;ភូមិ ខ្វៀន;Phum Khviĕn
+km;ភូមិខ្វែក;Phum Khvêk
+km;Phumĭ Khvêk;Phum Khvêk
+km;ភូមិ ន្វាវ;Khvav
+km;Phumĭ Khvav (2);Khvav
+km;Phum Khvav;Khvav
+km;ភូមិ ខ្វាវ;Phum Khvav
+km;Phumĭ Khvav;Phum Khvav
+km;Khvav;Phumĭ Khvav
+km;ភូមិ ខ្វាវ;Phum Kvav
+km;ភូមិ ខ្វាំង;Phum Khvăng
+km;ភូមិ ខ្វាន់ជាល;Phum Khvăn Chéal
+km;Phum Khŭn Prŭm;Khun Ream
+km;ភូមិ ឃុនព្រុំ;Khun Ream
+km;ភូមិ ខ្ទុំ;Phum Khtom
+km;Phumĭ Khtom;Phum Khtom
+km;Ta Man;Phum Khtom
+km;ភូមិ ខ្ទមស្រែ;Phum Khtôm Srê
+km;Phumĭ Khtôm Srê;Phum Khtôm Srê
+km;ភូមិ ខ្សុំ;Khsom
+km;Phum Khsom;Khsom
+km;Phum Khsĭm;Khsuem
+km;ភូមិ ខ្សែលួស;Phum Khsê Luŏs
+km;ភូមិ ខ្សាត់;Phum Khsatt
+km;ភូមិ ខ្សាច់ថ្មី;Khsach Thmei
+km;Phum Khsăch Thmei;Khsach Thmei
+km;Phumĭ Khsăch Thmei;Khsach Thmei
+km;Phum Khsăch Sâ;Khsach Sa
+km;ភូមិ ខ្សាច់ស;Khsach Sa
+km;ភូមិ ខ្សាច់ពោយ;Khsach Pouy
+km;Phum Khsăch Poŭy;Khsach Pouy
+km;ភូមិ ខ្សាច់នន់;Phum Khsach Nŭn
+km;ភូមិ ខ្សាច់លាវ;Phum Khsach Léav
+km;ភូមិ ខ្សាច់;Phum Khsach
+km;Phum Khsa;Khsar
+km;ភូមិ ខ្សា;Khsar
+km;ភូមិ ខ្ពប;Phum Khpôp
+km;Phum Khpôp A Téav;Khpob Ateav
+km;ភូមិ ខ្ពបអាទាវ;Khpob Ateav
+km;ភូមិ ខ្ពប;Khpob
+km;Phum Khpôp;Khpob
+km;ភូមិ ខ្នរ;Knaor
+km;Phumĭ Khnŏr;Knaor
+km;Phum Khnŏr;Knaor
+km;ភូមិ ខ្ញែរ;Khnhaer
+km;Phum Khyêr;Khnhaer
+km;ភូមិ ឃ្នាង;Phum Khnéang
+km;Phum Khna Trav;Khnar Tboung
+km;ភូមិ ខ្នាត្រាវ;Khnar Tboung
+km;ភូមិ ខ្នាត;Khnat
+km;Phum Khnat;Khnat
+km;ភូមិ ខ្នារ;Phum Khna
+km;ភូមិ ខ្នារ;Phum Khnar
+km;ភូមិ ខ្នងទួល;Phum Khnâng Tuŏl
+km;ភូមិ ខ្នាំង;Khnang
+km;Phum Khnăng;Khnang
+km;ភូមិ ខ្នាចកាច់ពួរ;Phum Khnach Kack Puŏr
+km;Phumĭ Khna;Krouch Kor
+km;Phum Khna;Krouch Kor
+km;ភូមិ ខ្នា;Krouch Kor
+km;Phum Khna;Khnar Sanday
+km;ភូមិ ខ្នា;Khnar Sanday
+km;ភូមិ ខ្លុង;Khlong
+km;Phum Khlŏng;Khlong
+km;ភូមិ ឃ្លៀច;Phum Khliĕch
+km;ភូមិ ខ្លែងជួរ;Phum Khlêng Chuŏr
+km;ភូមិ ខ្លី;Phum Khlei
+km;Phum Khléay;Khcheay
+km;ភូមិ ឃ្លាយ;Khcheay
+km;ភូមិ ឃ្លាំង;Phum Khleăng
+km;Phumĭ Khleăng;Phum Khleăng
+km;ភូមិ ខ្លាត;Phum Khlai
+km;ភូមិ ខ្លាញ់ផ្លូច;Phum Khlanh Phloch
+km;ភូមិ ខ្លាំងហាយ;Klang Hay
+km;Phum Khlăng Hay;Klang Hay
+km;ភូមិ ខ្លាំប៉ែ;Phum Khlămpê
+km;ភូមិ ខ្លាក្រពើ;Phum Khla Krâpeu
+km;ភូមិ ខ្តុល;Phum Khdŏl
+km;ភូមិ ខ្ជាយកំភ្លឹង;Phum Khchéay Kâmphlœ̆ng
+km;ភូមិ ខ្ជាយ;Phum Khchéay
+km;ភូមិ ខ្ចាស់;Khchas
+km;Phum Khchăs;Khchas
+km;ភូមិ ខ្នារតេជោ;Phumĭ Khnar Déchoŭ
+km;ភូមិ ខ្ចារ;Khchar
+km;Phum Khchar;Khchar
+km;ភូមិ ខាងត្បូងវត្ត;Phum Khang Tbong Vatt
+km;ភូមិ ខាងលិចវត្ត;Phum Khang Lich Vatt
+en;Kompong Phluk;Kouk Kdol
+fr;Kompong Phhluk;Kouk Kdol
+km;ភូមិ ខាងជើងវត្ត;Kouk Kdol
+km;ភូមិ ខៃដន;Phum Khai Dân
+km;ភូមិ ខបាស់;Kapas
+km;Phum Khâ Băs;Kapas
+km;ភូមិ គែតចង់;Phum Kêt Châng
+km;ភូមិ កិល;Phum Kĕl
+km;Phumĭ Kĕl;Phum Kĕl
+km;ភូមិ ក្អែកទុំ;Phum Kâêk Tŭm
+km;ភូមិ ក្តុលថ្មី;Phum Kdŏl Thmei
+km;ភូមិ ក្តុលក្រោម;Kdol Kraom
+km;Phum Kdŏl Kraôm;Kdol Kraom
+km;ភូមិ ក្ដុល;Phum Kdŏl
+km;ភូមិ ក្តល;Kdol
+km;ភូមិ ក្តុល;Kdol
+km;Phum Kdŏl;Kdol
+km;ភូមិ ក្តីរុន;Kdei Run
+km;Phum Kdei Rŭn;Kdei Run
+km;ភូមិ ក្ដីទាវ;Kdei Khvav
+km;Phum Kdei Khvav;Kdei Khvav
+km;ភូមិ ក្ដោយ;Phum Kdaôy
+km;Phum Kdaông Khang Tbong;Kdaong
+km;ភូមិ ក្ដោងខាងត្បូង;Kdaong
+km;ភូមិ ក្បូន;Kboun
+km;Phum Kbon;Kboun
+km;Phumĭ Kbal Trâlach;Khtum Krang
+km;Phum Kbal Trâlach;Khtum Krang
+km;ភូមិ ក្បាលត្រឡាច;Khtum Krang
+km;Phum Kbal Trach;Srae Char
+km;ភូមិ ក្បាលត្រាច;Srae Char
+km;ភូមិ ក្បាលទន្សោង;Kbal Tonsaong
+km;Phum Kbal Tônsaông;Kbal Tonsaong
+km;Phumĭ Kbal Thnâl;Kbal Thnal
+km;ភូមិ ក្បាលថ្នល់;Kbal Thnal
+km;ភូមិ ក្បាលទាហាន;Phum Kbal Téahéan
+km;ភូមិព្រែកក្បាលតោល;Phum Kbal Taôl
+km;ភូមិ ក្បាលស្ទឹង;Phum Kbal Stœ̆ng
+km;ភូមិ ក្បាលស្នួល;Kbal Snuol
+km;ភូមិ ក្បាលសរ;Phum Kbal Sâ
+km;ភូមិ ក្បាលរមាស;Phum Kbal Rôméas
+km;ភូមិ ក្បាលព្រែក;Phum Kbal Prêk
+km;Phumĭ Kbal Prêk;Phum Kbal Prêk
+km;ភូមិ ក្បាលមូស;Phum Kbal Mus
+km;ភូមិ ក្បាលក្រពើ;Kbal Krapeu
+km;Phumĭ Kbal Krâpeu;Kbal Krapeu
+km;Phum Kbal Krâpeu;Kbal Krapeu
+km;ភូមិ ក្បាលក្របី;Kbal Krabei
+km;ភូមិ ក្បាលគោ;Phum Kbal Koŭ
+km;Phumĭ Kbal Koŭ;Phum Kbal Koŭ
+km;ភូមិ ក្បាលខ្ទិង;Kbal Khting
+km;Phum Kbal Khting;Kbal Khting
+km;Phum Kbal Khmaôch;Chrey
+km;ភូមិ ក្បាលខ្មោច;Chrey
+km;ភូមិ ក្បាលខ្មោច;Phum Kbal Khmaôch
+km;Phumĭ Kbal Khla;Kbal Khla
+km;ភូមិ ក្បាលខ្លា;Kbal Khla
+km;ភូមិ ក្បាលខ្លា;Phum Kbal Khla
+km;ភូមិ ក្បាលកោះ;Phum Kbal Kaôh
+km;ភូមិ ក្បាលកោះទៀវ;Phum Kbal Kaôh Tiĕv
+km;Phumĭ Kbal Kaôh Tiĕv;Phum Kbal Kaôh Tiĕv
+km;ភូមិ ក្បាលកោះតាស៊ុយ;Phum Kbal Kaôh Tasŭy
+km;ភូមិ ក្បាលកោះច្រែង;Kaoh Chraeng
+km;ភូមិ ក្បាលដូច;Kbal Kduoch
+km;Phum Kbal Kduóch;Kbal Kduoch
+km;ភូមិ ក្បាលដំរី;Phum Kbal Dâmrei
+km;Phumĭ Kbal Dâmrei;Phum Kbal Dâmrei
+km;ភូមិ ក្បាលជួរ;Kbal Chuor
+km;ភូមិ ក្បាលជ្រោយ;Phum Khbal Chroŭy
+km;ភូមិ ក្បាលជ្រោយ;Phum Kbal Chroŭy
+km;Phumĭ Kbal Chroŭy;Phum Kbal Chroŭy
+km;ភូមិ ក្បាលចាម;Kbal Cham
+km;Phumĭ Kbal Cham;Kbal Cham
+km;Phum Kbal Cham;Kbal Cham
+km;ភូមិ កាតត;Phum Katot
+km;ភូមិ កាតូត;Phum Katot
+km;ភូមិ កាទៀង;Phum Katiĕng
+km;Phum Kat Dai;Preaek Kdei
+km;ភូមិ កាត់ដៃ;Preaek Kdei
+km;ភូមិ ករលំ;Phum Kâ Rô Lŭm
+km;ភូមិ ករហាល;Phum Kâ Rôhal
+km;ភូមិ កាចេក;Phum Kachék
+km;ភូមិ កាប៉ូរ;Kapou
+km;ភូមិ កោងកាង;Phum Kaông Kang
+km;ភូមិ កោគ្របបាយ;Phum Kaô Krôp Bay
+km;ភូមិ គោកហុប;Phum Kaôk Hop
+km;ភូមិ កោះវែង;Phum Kaôh Vêng
+km;ភូមិ កោះទ្រង់;Phum Kaôh Trŭng
+km;ភូមិ កោះត្រែង;Phum Kaôh Trêng
+km;Phum Kaôh Trék;Kouk Ta Reach
+km;ភូមិ កោះត្រេក;Kouk Ta Reach
+km;Phum Kaôh Toch;Phum Pir
+km;ភូមិ កោះតូច;Phum Pir
+km;ភូមិ កោះតូច;Phum Kaôh Toch
+km;ភូមិ កោះទៀវ;Phum Kaôh Tiĕv
+km;Phum Kaôh Thom;Koah Thum Ka
+km;ភូមិ កោះធំ;Koah Thum Ka
+km;ភូមិ កោះថ្មីតូច;Phum Kaôh Thmei Toch
+km;Phumĭ Kaôh Thmei;Kaoh Thum Kha
+km;Phum Kaôh Thmei;Kaoh Thum Kha
+km;ភូមិ កោះថ្មី;Kaoh Thum Kha
+km;ភូមិ កោះតាជោ;Phum Kaôh Tachoŭ
+km;Phumĭ Kaôh Tachoŭ;Phum Kaôh Tachoŭ
+km;ភូមិ កោះស្វាន;Phum Kaôh Svan
+km;ភូមិ កោះស្រឡៅ;Kaoh Sralau
+km;Phum Kaôh Sâmraông;Kaoh Samraong
+km;ភូមិ កោះសំរោង;Kaoh Samraong
+km;ភូមិ កោះរុងសំឡឹមក្រៅ;Phum Kaôh Rŏng Sâmlœ̆m Krau
+km;ភូមិកោះរុងសំឡឹមខ្នុង;Phum Kaôh Rŏng Sâmlœ̆m Khnŏng
+km;ភូមិ កោះប្រទាល;Phum Kaŏh Prâtéal
+km;ភូមិ កោះពងសត្វ;Kaoh Pong Satv
+km;Phum Kaôh Pong Sat;Kaoh Pong Satv
+km;ភូមិ កោះពៀក;Kaoh Peak
+km;Phum Kaôh Piĕk;Kaoh Peak
+km;ភូមិ កោះលួង;Phum Kaôh Luŏng
+km;ភូមិ កោះលុំ;Phum Koăh Lŭm
+km;ភូមិ កោះកុង;Kaoh Kong Knong
+km;Phum Kaôh Kŏng;Kaoh Kong Knong
+km;ភូមិ កោះកុង;Phum Kaôh Kŏng
+km;ភូមិ កោះគី;Phum Kaôh Ky
+km;ភូមិ កោះខ្វៀន;Kaoh Khnhaer
+km;ភូមិ កោះខែល;Kaoh Khael
+km;Phumĭ Kaôh Khêl;Kaoh Khael
+km;Phum Kaôh Khêl;Kaoh Khael
+km;Phum Kaôh Khchâng;Kaoh Khyang
+km;ភូមិ កោះខ្ចង;Kaoh Khyang
+km;ភូមិ កោះខ្ចង;Phum Kaôh Khchâng
+km;ភូមិ កោះកេរ្តិ៍;Kaoh Ker
+km;ភូមិ កោះឥន្ទជ័យ;Phum Kaôh Ĕnchey
+km;Phum Kaôh Chruk;Phum Buon
+km;ភូមិ កោះជ្រូក;Phum Buon
+km;ភូមិកោះជីវាំង;Phum Kaôh Chiveăng
+km;Phum Kaôh Chék;Kaoh Chek
+km;ភូមិ កោះចេក;Kaoh Chek
+km;Phum Kaôh Chbar;Kaoh Chbar
+km;ភូមិ កោះច្បារ;Kaoh Chbar
+km;ភូមិ កោះចំរើន;Phum Kaôh Châmraeun
+km;ភូមិ កោះចា;Kaoh Char
+km;Phum Kaôh Char;Kaoh Char
+km;ភូមិ កោះអណ្ដូងស្ដេច;Phum Kaôh Ândong Sdach
+km;ភូមិ កន្ទួត;Kantuot
+km;Phumĭ Kântuŏt;Kantuot
+km;Phum Kântuŏt;Kantuot
+km;ភូមិ កន្ទួត;Phum Kântuŏt
+km;ភូមិ កន្ទ្រាំង;Kantreang
+km;Phum Kântreăng;Kantreang
+km;ភូមិ កន្ទ្រាន;Phum Kântréan
+km;Phumĭ Kântréan;Phum Kântréan
+km;ភូមិ កន្ត្រស់;Phum Kântrâs
+km;ភូមិ កន្ត្រក;Phum Kântrâk
+km;ភូមិកន្ត្រៃ;Phumĭ Kântrai
+km;ភូមិ កន្រ្តប;Phum Kântrâp
+km;Phum Kânsêng;Kansaeng Kraom
+km;ភូមិ កន្សែង;Kansaeng Kraom
+km;ភូមិ កន្លែងក្របី;Phum Kânlêng Krâbei
+km;Phumĭ Kânlêng Krâbei;Phum Kânlêng Krâbei
+km;ភូមិ កន្លែង;Phum Kânlêng
+km;Phumĭ Kânlêng;Phum Kânlêng
+km;ភូមិ កញ្ជ;Kanhchor
+km;Phum Kanhchôr;Kanhchor
+km;Phum Kânhchôr;Kanhchor
+km;ភូមិ កញ្ជរ;Kanhchor
+km;ភូមិ កញ្ចេះ;Phum Kânhchéh
+km;ភូមិកញ្ជាស;Phumĭ Kânchéas
+km;ភូមិ កងណក;Phum Kâng Nâk
+km;ភូមិ កណ្ដៀង;Kandieng
+km;Phum Kândiĕng;Kandieng
+km;ភូមិ កណ្ដោល;Phum Kândaôl
+km;ភូមិ កណ្ដាល;Phum Kândal
+km;Phum Kândal Phumĭ;Roka Khnaor
+km;ភូមិ កណ្ដាលភូមិ;Roka Khnaor
+km;ភូមិ កណ្តាលលើ;Phum Kândal Leu
+km;Phumĭ Kândal Leu;Phum Kândal Leu
+km;ភូមិ កណ្តាលក្រោម;Kandal Kraom
+km;Phum Kândal Kraôm;Kandal Kraom
+km;ភូមិកណ្តាល;Phumĭ Kândal
+km;ភូមិ កណ្តាល;Phum Kândal
+km;Phumĭ Kândal;Phum Kândal
+km;ភូមិ កណ្តាល;Kandal
+km;Phum Kândal;Preaek A Chi
+km;ភូមិ កណ្តាល;Preaek A Chi
+km;Phum Kânchân Chrŏu;Lbaeuk
+km;ភូមិ កន្ចន់ជ្រៅ;Lbaeuk
+km;ភូមិ កំទេចមាស;Phum Kâmtik Méas
+km;ភូមិ ក្អមសំណរ;Phum Kââm Sâmnâ
+km;Phum Kâm Rœ̆ng;Tumrueng
+km;ភូមិ កំរឹង;Tumrueng
+km;ភូមិ កំរៀង;Phum Kâmriĕng
+km;ភូមិ កំរែង;Phum Kâmrêng
+km;ភូមិ កំរ៉ង;Phum Kâmrâng
+km;ភូមិ កំរាប;Phum Kâmrap
+km;ភូមិ កំព្រង;Kamprong
+km;Phum Kâmprông;Kamprong
+km;Phum Kâmpring Puŏy;Kamping Puoy
+km;ភូមិ កំពីងពួយ;Kamping Puoy
+km;ភូមិ កំព្រីង;Phum Kâmpring
+km;ភូមិ កំប្រើស;Kampraeus
+km;Phum Kâmpraeus;Kampraeus
+km;ភូមិ កំប៉ូវ;Phum Kâmpov
+km;ភូមិ កំពតអម្រាក់;Kampout Mreak
+km;Phum Kâmpôt Âmreăk;Kampout Mreak
+km;Phum Kâmpôs;Kambaor
+km;ភូមិ កំពស់;Kambaor
+km;Phumĭ Kâmpông Tuk;Kampong Tuk
+km;Phum Kâmpông Tréas;Phum Pir
+km;ភូមិ កំពង់ទ្រាស;Phum Pir
+km;ភូមិ កំពង់ទ្រាស;Kampong Treas
+km;Phum Kâmpông Tréas;Kampong Treas
+km;ភូមិ កំពង់ធ្នង់;Phum Kâmpông Thnŭng
+km;ភូមិ កំពង់ថ្កោល;Phum Kâmpông Thkaôl
+km;ភូមិ កំពង់តាកៅ;Phum Kâmpông Ta Kau
+km;ភូមិ កំពង់ស្វាយ;Kampong Svay
+km;Phum Kâmpông Svay;Kampong Svay
+km;ភូមិ កំពង់ស្ទឹង;Phum Kâmpông Stœ̆ng
+km;ភូមិ កំពង់ស្រែ;Phum Kâmpông Srê
+km;ភូមិ ំព;Phum Kâmpông Srâmâ
+km;ភូមិ កំពង់ស្រឡៅ;Kampong Sralau Muoy
+km;ភូមិ កំពង់ស្នេហ៍;Phum Kâmpông Snê
+km;Phum Kâmpông Smach Toch;Kampong Smach Touch
+km;ភូមិ កំពង់ស្មាច់តូច;Kampong Smach Touch
+km;ភូមិ កំពង់ស្មាច់ធំ;Phum Kâmpông Smach Thom
+km;ភូមិ កំពង់ស្លែង;Phum Kâmpông Slêng
+km;Phumĭ Kâmpông Slêng;Phum Kâmpông Slêng
+km;ភូមិ កំពង់សេមា;Phum Kâmpông Séma
+km;ភូមិ កំពង់ស្ដី;Phum Kâmpông Sdei
+km;ភូមិ កំពង់សំណរ;Phum Kâmpŭng Sâmnâ
+km;ភូមិ កំពង់រវាំង;Phum Kâmpông Rôveăng
+km;ភូមិ កំពង់រពៅ;Phum Kâmpông Rôpŏu
+km;ភូមិ កំពង់រ័ត្ន;Phum Kâmpông Ratt
+km;ភូមិ កំពង់រាំង;Kampong Reang
+km;Phum Kâmpông Reăng;Kampong Reang
+km;ភូមិ កំពង់រាប;Phum Kâmpông Réap
+km;ភូមិ កំពង់ព្រះ;Phum Kâmpông Preăh
+km;ភូមិ កំពង់ពោធិ;Kampong Pou
+km;ភូមិ កំពង់ពរ;Phum Kâmpông Pûr
+km;ភូមិ កំពង់ព្នៅ;Kampong Pnov
+km;Phum Kâmpŭng Pnŏv;Kampong Pnov
+km;ភូមិ កំពង់ភ្នំក្នុង;Phum Kâmpông Phnŭm Khnŏng
+km;Phumĭ Kâmpông Phnŭm;Kampong Pou
+km;Phum Kâmpông Phnŭm;Kampong Pou
+km;ភូមិ កំពង់ភ្នំ;Kampong Pou
+ru;Кампонглоунг;Kampong Luong
+ja;コンポンルアン;Kampong Luong
+en;Kompong Luong;Kampong Luong
+it;Kompong Luong;Kampong Luong
+fr;Kompong Luong;Kampong Luong
+nl;Kompong Luong;Kampong Luong
+zh;磅隆;Kampong Luong
+km;កំពង់ក្រសាំង;Kampong Krasang
+km;Phumĭ Kâmpông Krâsâng;Kampong Krasang
+km;ភូមិ កំពង់ក្រសាំង;Kampong Krasang
+km;ភូមិកំពង់ក្រស឴ង;Phumĭ Kâmpông Krâsang
+km;ភូមិ កំពង់ក្រសាំង;Phum Kâmpông Krâsăng
+km;Phum Kâmpŭng Krâbei;Phum Ti Prammuoy
+km;ភូមិ កំពង់ក្របី;Phum Ti Prammuoy
+km;ភូមិ កំពង់គោ;Phum Kâmpông Koŭ
+km;ភូមិ កំពង់គរ;Kampong Kor
+km;Phum Kâmpông Kôr;Kampong Kor
+km;ភូមិ កំពង់គរ;Phum Kampông Kôr
+km;Phum Kâmpông Kŏng;Kampong Kong
+km;ភូមិ កំពុងកង;Kampong Kong
+km;ភូមិ កំពង់ខ្សាច់;Phum Kâmpong Khsăch
+km;ភូមិ កំពង់ក្តី;Phum Kâmpŭng Kdei
+km;កំពង់ឆ្លង;Kampong Chlang
+km;Phumĭ Kâmpông Chhlâng;Kampong Chlang
+km;Phum Kâmpông Chas;Char
+km;ភូមិ កំពង់ចាស់;Char
+km;ភូមិ កំពង់បាក់ដោក;Phum Kâmpông Bak Daôk
+km;ភូមិ កំពង់អំពិល;Phum Kâmpông Âmpil
+km;ភូមិ កំពង់អំពិល;Kampong Ampil
+km;Phum Kâmpông Âmpil;Kampong Ampil
+km;ភូមិក឴ប៉ូ;Phumĭ Kămbo
+km;ភូមិ កាំពីរ;Phum Kămpi
+km;ភូមិ កាំពីង;Phum Kămping
+km;ភូមិ កំភ្នៀង;Phum Kâmphniĕng
+km;ភូមិ កំភេម;Kamphem
+km;Phum Kâmphém;Kamphem
+km;Kamnab;Phumĭ Kâmnáb
+km;ភូមិ កាំឡង;Phum Kămlâng
+km;ភូមិ កំចាត់;Phum Kâm Chăt
+km;ភូមិ កំចាំង;Kamhchang
+km;ភូមិ កំបោរ;Kambaor
+km;Phum Kâmbaôr;Kambaor
+km;Kambaor;Phumĭ Kâmbaô
+km;Khlong Tboung;Phumĭ Kalŏng Nâr
+km;ភូមិ កាកុត;Kakot
+km;Phumĭ Kakŏt;Kakot
+km;ភូមិ កក់;Kak
+km;Phum Kâk;Kak
+km;ភូមិ កាចូក;Phum Kachok
+km;ភូមិ កាប់ចោរ;Kab Chaor
+km;Phum Kap Chaôr;Kab Chaor
+km;ភូមិ កាអោល;Phum Ka Aôl
+km;ភូមិ ហ៊ីនសុង;Phum Hin Sung
+km;ភូមិហៅទូល;Kampream
+km;Phum Hau Tul;Kampream
+km;ភូមិ ហាន់ស្រៀវ;Phum Hănsriĕv
+km;ភូមិ ហាងសាវ៉ាត;Phum Hang Savat
+km;Phum Hang Savat;Hang Savat
+km;ភូមិ ហាងសាវ៉ាត;Hang Savat
+km;ភូមិ ហាន់ជៃលើ;Han Chey
+km;Phum Hănchey Leu;Han Chey
+km;ភូមិ ហាន់ជ័យ;Han Chey
+km;Phum Hăn Chey;Han Chey
+km;ភូមិ ហាលស្រូវ;Phum Hal Srov
+km;Phumĭ Hai San;Chrey Thmei
+km;ភូមិ ហៃសាន;Chrey Thmei
+km;ភូមិ ហប់;Phum Hâp
+km;ភូមិ ដូនទ្រ;Phum Don Trô
+km;Phumĭ Don Trô;Phum Don Trô
+km;ភូមិ ដូនត្រិត;Phum Don Trĕt
+km;ភូមិ ដូនតុក;Doun Tok
+km;Phum Don Tŏk;Doun Tok
+km;Phumĭ Don Téav;Kdol Don Taev
+km;ភូមិ ដូនទាវ;Kdol Don Taev
+km;ភូមិ ដូនទា;Doun Tea
+km;ភូមិ ដូនស្វា;Doun Sva
+km;Phum Don Sva;Doun Sva
+km;ភូមិ ដូនសុក;Doun Sokh
+km;Phum Don Sôk;Doun Sokh
+km;ភូមិ ដូនសរ;Phum Don Sâ
+km;ភូមិ ដូនរាជ;Doun Reach
+km;Phum Don Réach;Doun Reach
+km;ភូមិ ដូនអុន;Phum Don Ŏn
+km;Phumĭ Don Ŏn;Phum Don Ŏn
+km;ភូមិ ដូនមៀវ;Doun Miev
+km;Phumĭ Don Miĕv;Doun Miev
+km;Phum Don Miĕv;Doun Miev
+km;ភូមិ ដូនមា;Doun Mea
+km;Phum Don Méa;Doun Mea
+km;ភូមិ ដូនលយ;Phum Don Lôy
+km;Phumĭ Don Lôy;Phum Don Lôy
+km;ភូមិ ដូនឡឹក;Doun Loek
+km;Phum Don Lœk;Doun Loek
+km;ភូមិ ដូនកែវ;Doun Kaev
+km;Phum Don Kêv;Doun Kaev
+km;ភូមិ ដូនកាយ;Phum Don Kay
+km;ភូមិ ដុងតាដាំ;Phum Dŏng Ta Dăm
+km;ភូមិ ដូងស្វា;Phum Dong Sva
+km;Phum Dong Préng;Khla Kham Chhkae
+km;ភូមិ ដូងប្រេង;Khla Kham Chhkae
+km;Phum Dong Léak;Dang Tuek Leach
+km;ភូមិ ដូងលាក់;Dang Tuek Leach
+km;ភូមិ ដូងឃៀម;Phum Dŏng Khiĕm
+km;ភូមិ ដងកែន;Doun Kaen
+km;Phum Dong Kên;Doun Kaen
+km;ភូមិ ដុងអារញ្ញ;Dong Aranh
+km;Phum Dong;Doung
+km;ភូមិ ដូង;Doung
+km;Phumĭ Dong;Doung
+km;ភូមិ ដូនឯម;Doun Aem
+km;Phum Don Êm;Doun Aem
+km;ភូមិ ដូនដៀវ;Doun Diev
+km;Phum Don Diĕv;Doun Diev
+km;ភូមិ ដឹ;Deu
+km;Phum Doe;Deu
+km;ភូមិ ដែកកុក;Phum Dêk Kŏk
+km;Phumĭ Dêk Kŏk;Phum Dêk Kŏk
+km;ភូមិ ដីថុយ;Phum Dei Thŏy
+km;ភូមិ ដីថ្មី;Dei Thmei
+km;Phumĭ Dei Thmei;Dei Thmei
+km;Phum Dei Thmei;Dei Thmei
+km;ភូមិ ដីហុយ;Phum Dei Hŏy
+km;ភូមិ ដីអិដ្ឋ;Dei Edth
+km;Phum Dei Ĕth;Dei Edth
+km;ភូមិ ដីដុះក្រោម;Phum Deidŏh Kraôm
+km;ភូមិ ដីដុះ;Phum Dei Dŏh
+km;ភូមិ ដីឆ្នាំង;Dei Chhnang
+km;Phum Dei Chhnăng;Dei Chhnang
+km;Phum Da;Dar
+km;ភូមិ ដារ;Dar
+km;ភូមិ ដងរុន;Dang Run Lech
+km;Phum Dâng Rung;Dang Run Lech
+km;ភូមិ ដង្រុង;Phum Dângrŏng
+km;ភូមិ ដងឡង;Phum Dâng Lâng
+km;ភូមិដង្គៀបក្តាម;Anlong Sar
+km;ភូមិ ដង្កៀបក្ដាម;Dangkieb Kdam
+km;Phum Dângkiĕp Kdam;Dangkieb Kdam
+km;ភូមិ ដង្គាបក្តាម;Phum Dângkéap Kdam
+km;ភូមិ ដងក្តោង;Dang Kdaong
+km;Phum Dâng Kdaông;Dang Kdaong
+km;ភូមិ ដង្កោ;Phum Dângkaô
+km;Phum Dângka Châmlâh;Dangkear
+km;ភូមិ ដង្កាចំលះ;Dangkear
+km;ភូមិ ដង្ហិត;Phum Dânghœ̆t
+km;ភូមិ ដង្ហក់;Phum Dânghâk
+km;ភូមិ ដំរីសរ;Damrei Sa
+km;ភូមិ ដំរីកូន;Damrei Koun
+km;Phum Dâmrei Kon;Damrei Koun
+km;ភូមិ ដំណាក់ស្លាញ;Damnak Slanh
+km;Phum Dâmnăk Slanh;Damnak Slanh
+km;ភូមិដំំណាក់សៀម;Phumĭ Dâmnak Siem
+km;ភូមិ ដំណាក់សង្កែ;Phum Dâmnăk Sângkê
+km;ភូមិ ដំណាក់ព្រះអង្គ;Phum Dâmnak Preăh Âng
+km;ភូមិ ដំណាក់ខ្លុង;Phum Dâmnăk Khlŏng
+km;ភូមិ ដំំណាក់កថិន;Phum Dâmnăk Kâthĕn
+km;Phum Dâmnak Chas;Damnak Khchas
+km;ភូមិដំណាក់ចាស់;Damnak Khchas
+km;ភូមិ ដំណាក់អាទេន;Phum Dâmnak A Tên
+km;Damnak Ampil;Phumĭ Dâmnăk Âmpĭl
+km;ភូមិ ដំបូកខ្ពស់;Phum Dâmbok Khpuŏs
+km;ភូមិ ដាក់សរសរ;Dak Sasar
+km;Phum Dâk Sâsâr;Dak Sasar
+km;ភូមិ ដកពោធិ;Phum Dâk Poŭ
+km;ភូមិ ដក់ពរ៍;Phum Dâk Pô
+km;ភូមិ ដាក់ផារ;Dak Phka
+km;Phum Dak Phkar;Dak Phka
+km;ភូមិ ដៃស្នា;Phum Dai Sna
+km;ភូមិ ដើមពោធិលើ;Phum Daeum Poŭ Leu
+km;ដើមដូង;Daeum Doung
+km;Phum Chuŏr Kroch;Chuor Krouch
+km;ភូមិ ជួរក្រូច;Chuor Krouch
+km;ភូមិ ជួកុំ;Phum Chuor Kom
+km;ភូមិ ជុំរំសៀម;Chumrum Siem
+km;Phum Chŭmrum Siĕm;Chumrum Siem
+km;ភូមិ ជំពូព្រឹក;Chumpu Proeks
+km;Phum Chŭmpu Prœ̆k;Chumpu Proeks
+km;ភូមិ ជុំនីក;Chumnik
+km;Phum Chŭmnik;Chumnik
+km;ភូមិ ជំ;Phum Chŭm
+km;ភូមិ ជុបសោម;Chob Saom
+km;Phum Chŭp Saôm;Chob Saom
+km;ភូមិជុបក្រោម;Chob Kraom
+km;Phum Chup Kraôm;Chob Kraom
+km;Phum Chŭp Chansâr;Chob
+km;ភូមិ ជុបចន្ទសរ;Chob
+km;ភូមិ ជ្រួយស្លែង;Phum Chruŏy Slêng
+km;ភូមិ ជ្រោយស្ដៅ;Phum Chroŭy Sdau
+km;ភូមិ ជ្រួយចក្រី;Chuo Chakkrei
+km;Phumĭ Chruŏy Châkrey;Chuo Chakkrei
+km;Phum Chruŏy Châkrey;Chuo Chakkrei
+km;ភូមិ ជ្រួយអំពរ;Phum Chruŏy Âmpôr
+km;ភូមិ ជ្រួល;Phum Chruŏl
+km;ភូមិ ជ្រុង;Phum Chrŭng
+km;Phumĭ Chrŭng;Phum Chrŭng
+km;ភូមិ ជ្រោយថ្ម;Chrouy Thma
+km;Phum Chroŭy Thmâ;Chrouy Thma
+km;ភូមិ ជ្រោយតាកែវលើ;Phum Chroŭy Takêv Leu
+km;ភូមិ ជ្រោយស្វាយ;Phum Chroŭy Svay
+km;ភូមិ ជ្រោយស្នោ;Phum Chroŭy Snaô
+km;Phum Chroŭy Rŭssei;Lekh Buon
+km;ភូមិ ជ្រោយឫស្សី;Lekh Buon
+km;ភូមិ ជ្រោយប្រុស;Chrouy Pras
+km;Phumĭ Chroŭy Prŏs;Chrouy Pras
+km;ភូមិ ជ្រោយដង;Chrouy Dang
+km;Phum Chroŭy Dâng;Chrouy Dang
+km;ភូមិ ជ្រោយជ្រែ;Phum Chroŭy Chrê
+km;ភូមិ ជ្រោយបន្ទាយ;Phum Chroŭy Bântéay
+km;Phum Chroŭy Âmpĭl;Chrouy Ampil Ti Mouy
+km;ភូមិ ជ្រោយអំពិល;Chrouy Ampil Ti Mouy
+km;ភូមិ ជ្រាប់ថ្មី;Chroab Thmei
+km;Phum Chroâp Thmei;Chroab Thmei
+km;ភូមិ ជ្រាប់ចាស់;Chroab Chas
+km;Phum Chroâp Chas;Chroab Chas
+km;ភូមិ ជ្រឹង;Phum Chrĭng
+km;ភូមិ ជ្រៃធំ;Phum Chrey Thom
+km;ភូមិ ជ្រៃភ្លូក;Chrey Phluk
+km;Phum Chrey Phluk;Chrey Phluk
+km;ភូមិ ជ្រៃ;Chrey
+km;Phumĭ Chrey;Chrey
+km;Phum Chrey;Chrey
+km;ភូមិ ជ្រែង;Chreaeng
+km;Phum Chrêng;Chreaeng
+km;ភូមិ ជ្រាវ;Chreav
+km;Phum Chréav;Chreav
+km;ភូមិ ជ្រាងខ្ពស់;Phum Chreăng Khpuŏs
+km;Phum Chreăh;Chreas
+km;ភូមិ ជ្រះ;Chreas
+km;ភូមិ ច្រវាក់ដែក;Phum Chrâvăk Dêk
+km;Phum Chrâva;Chrava
+km;ភូមិ ច្រវា;Chrava
+km;ភូមិ ច្រនីក;Phum Chrânik
+km;ភូមិ ច្រាំងខ្ពស់;Phum Chrăng Khpuŏs
+km;ភូមិ ច្រនាង;Chranieng
+km;Phum Chrâniĕng;Chranieng
+km;ភូមិ ច្រលង;Chrolong
+km;Phumĭ Chrâlông;Chrolong
+km;Phum Chrâlông;Chrolong
+km;ភូមិ ច្រកស្មាច់;Phum Chrâk Smach
+km;ភូមិ ច្រកឫស្សី;Chrak Ruessei
+km;Phum Chrâk Rŭssei;Chrak Ruessei
+km;ភូមិ ច្រកព្រីង;Phum Chrâk Pring
+km;ភូមិ ច្រកព្រាល;Phum Chrâk Préal
+km;ភូមិ ច្រកពព្លា;Phum Chrâk Pôpléa
+km;ភូមិ ច្រាប;Chrab
+km;Phum Chrap;Chrab
+km;ភូមិ ច្រា;Phum Chra
+km;ភូមិ ជរ;Chor
+km;Phum Chôr;Chor
+km;ភូមិ ជន្លាសដៃ;Chonleas Dai
+km;Phumĭ Chônléas Dai;Chonleas Dai
+km;Phum Chônléas Dai;Chonleas Dai
+km;ភូមិ ជន្លាសដៃ;Chanloas Dai
+km;ភូមិ ចុងស្ទឹង;Stueng Thmei
+km;ភូមិ ចុងព្រែកប៉ុល;Phum Chŏng Prêk Pŏl
+km;Phumĭ Chŏng Prêk Pŏl;Phum Chŏng Prêk Pŏl
+km;ភូមិ ចុងពរ;Phum Chŏng Pôr
+km;ភូមិ ចុងភូមិ;Phum Chŏng Phum
+km;Phum Ti Prampir;Phum Chŏng Phum
+km;ភូមិ ចុងភ្នំ;Phum Chŏng Phnŭm
+km;ភូមិ ចុងអូ;Chong Ou
+km;Phum Chŏng O;Chong Ou
+km;ភូមិ ចុងគោក;Chong Kouk
+km;Phum Chŏng Koŭk;Chong Kouk
+km;Phum Chŏng Khsach;Chheu Khmau
+km;ភូមិ ចុងខ្សាក;Chheu Khmau
+km;ភូមិ ចងខ្សាច;Phum Chŏng Khsăch
+km;ភូមិ ចុងកោះ;Phum Chŏng Kaôh
+km;Phumĭ Chŏng Kaôh Néa;Chong Khnies
+km;Phum Chŏng Kaôh Néa;Chong Khnies
+km;ភូមិ ចងកោះនា;Chong Khnies
+km;Phum Chŏng Kaôh Chrêng;Voat
+km;ភូមិ ចុងកោះច្រែង;Voat
+km;ភូមិ ចុងចាប;Phum Chŏng Chap
+km;ភូមិ ជប់;Phum Chŭp
+km;ភូមិ ជាំម្លូរ;Phum Choăm Môlu
+km;ភូមិ ជាំឈ្លើង;Phum Chŏâm Chhleung
+km;Phumĭ Chŏâm Chhleung;Phum Chŏâm Chhleung
+km;ភូមិ ជីវាត់;Phum Chivôăt
+km;ភូមិ ជីទ្រុន;Chi Trun
+km;Phum Chitrŭn;Chi Trun
+km;Phum Chinŏap;Chirou Kraom Mouy
+km;ភូមិ ជីរោ;Phum Chiro
+km;ភូមិជីនាង;Phum Chinéang
+km;ភូមិ ជីក្រែង;Phum Chikrêng
+km;ភូមិ ជីគក;Phum Chikôk
+km;ភូមិ ជីហេង;Phum Chihéng
+km;ភូមិ ជៀបចាស់;Phum Chiĕp Chas
+km;ភូមិ ឈូង;Phum Chhung
+km;ភូមិ ឈូកតាឡុច;Phum Chhuk Ta Lŏch
+km;ភូមិ ឈូកសណ្តុល;Chhuk Sandal
+km;ភូមិ ឈូក;Chhuk
+km;ភូមិ ឈូក;Phum Chhuk
+km;Phum Chhuk;Chhuk
+km;Phumĭ Chhuk;Chhuk
+km;Phum Chhnuŏr;Chhnuor Mean Chey
+km;ភូមិ ឈ្នួរ;Chhnuor Mean Chey
+km;ភូមិ ឆ្នាល់មាន;Chhnal Moan
+km;Phum Chhnăl Moăn;Chhnal Moan
+km;ភូមិ ឆ្មា;Phum Chma
+km;ភូមិ ឆ្លូង;Chhloung
+km;Phum Chhlong;Chhloung
+km;ភូមិ ឆ្លាក;Phum Chhlak
+km;ភូមិ ឆ្កែវៀន;Phum Chhê Viĕn
+km;ភូម ឆ្កែងរ;Phum Chhkê Ngôr
+km;ភូមិ ឆ្កែកូន;Phum Chhkê Kon
+km;ភូមិ ឈើទាលភ្លោះ;Phum Cheutéal Pluŏs
+km;Phumĭ Cheutéal Pluŏs;Phum Cheutéal Pluŏs
+km;ភូមិ ឈើទាលភ្លោះ;Cheu Teal Phluah Leu
+km;ភូមិ ឈើទាលបោះ;Phum Chheutéal Baôh
+km;Phumĭ Chheutéal;Svay Chek
+km;ភូមិ ឈើទាល;Svay Chek
+km;ភូមិ ឈើទាល;Chheu Teal
+km;ភូមិ ឈើទាល;Phum Cheutéal
+km;ភូមិ ឈើទាល;Phum Chheutéal
+km;Phum Chheutéal;Chheu Teal Touch
+km;ភូមិ ឈើទាល;Chheu Teal Touch
+km;ភូមិ ឈើរង;Phum Chheu Rông
+km;ភូមិ ឈើខ្មៅ;Phum Chheu Khmau
+km;Phum Chheu Khmau;Koah Touch
+km;ភូមិ ឈើខ្មៅ;Koah Touch
+km;ភូមិ ឈើកាច់;Ba Phnum
+km;ភូមិ ឈើអាម;Phum Chheu Am
+km;Phumĭ Chheu Am;Phum Chheu Am
+km;ភូមិ ឆ្អិន;Phum Chhâœ̆n
+km;ភូមិ ឆករការ;Chhar Roka
+km;Phumĭ Chhâk Rôkar;Chhar Roka
+km;ភូមិ ឆក់ខ្នាច;Phum Chhâk Khnach
+km;ភូមិ ឆក់កន្ទោង;Chhak Kantoung
+km;Phum Chhâk Kântoŭng;Chhak Kantoung
+km;ភូមិ ឆកកន្តោល;Phum Chhâk Kândaôl
+km;ភូមិ ជើងភ្នំ;Phum Cheung Phnŭm
+km;ភូមិ ជើងភ្លើង;Cheung Phleung
+km;Phum Cheung Phleung;Cheung Phleung
+km;ភូមិ ជើងភ្លើង;Phum Cheung Phleung
+km;ភូមិ ជើងគោ;Cheung Kou
+km;Phumĭ Cheung Koŭ;Cheung Kou
+km;Phum Cheung Koŭ;Cheung Kou
+km;ភូមិ ជើងខ្នា;Phum Cheung Khna
+km;ភូមិ ជើងច្រង់;Cheung Chrang
+km;Phum Cheung Chrâng;Cheung Chrang
+km;ភូមិ ជើង;Chaeng
+km;Phum Cheung;Chaeng
+km;ភូមិ ចែងក្ដា;Chaeng Kdar
+km;Phumĭ Chêng Kda;Chaeng Kdar
+km;ភូមិ ចេកជ្រេ;Phum Chék Chrey
+km;Phum Chék Bŏs;Chey Bour
+km;ភូមិ ចេកបស;Chey Bour
+km;ភូមិ ចែកអង្ករ;Chaek Angkar
+km;Phum Chêk Ânkar;Chaek Angkar
+km;ភូមិ ជាងលួង;Cheang Luong
+km;Phum Chéang Luŏng;Cheang Luong
+km;ភូមិ ជាងកាជា;Ponth Chea
+km;ភូមិ ជាមន្រ្តី;Phum Chéa Môntrei
+km;Phum Chéam;Choam
+km;ភូមិ ជាម;Choam
+km;Phumĭ Cha Ŭng Kândal;Char Ung
+km;ភូមិ ចាអ៊ុងកណ្ដាល;Char Ung
+km;ភូមិ ចៅហ្វាយស្រុក;Phum Chauvay Srŏk
+km;Phum Cha Thnaôl;Char Tnaol
+km;ភូមិ ចាថ្នោល;Char Tnaol
+km;Phum Kroch;Krouch Char
+km;ភូមិ ចាស់;Krouch Char
+km;ភូមិ ក្រូច;Krouch Char
+km;ភូមិ ចាស់;Phum Chăs
+km;ភូមិចាស់;Phumĭ Chas
+km;Phum Char;Char Leu
+km;ភូមិ ចារ;Char Leu
+km;Phumĭ Chantŭh;Chantu
+km;ភូមិ ចន្ទុះ;Chantu
+km;ភូមិ ចន្ទសរខាងជើង;Phum Chansâr Khang Cheung
+km;ភូមិ ចាន់ត្រោក;Chan Trak
+km;Phum Chăn Traôk;Chan Trak
+km;ភូមិ ចានតាងុយ;Phum Chăn Ta Ngŏy
+km;Phum Chăn Kăm;Tean Kam
+km;ភូមិ ចាន់ កាំ;Tean Kam
+km;ភូមិ ចង់វ៉ាយ;Phum Châng Vay
+km;ភូមិ ចង្រ្កង;Changkrang
+km;Phum Châng Krâng;Changkrang
+km;ភូមិ ចងហប;Changhab
+km;Phum Châng Hâp;Changhab
+km;ភូមិ ចង្អើរលាវ;Phum Chângaeur Léav
+km;ភូមិ ចាមថ្មី;Cham Thmei
+km;Phum Cham Thmei;Cham Thmei
+km;ភូមិ ចំរោះ;Phum Châmraôh
+km;ភូមិ ចំឡងរមាំង;Chamlang Romeang Leu
+km;Phumĭ Châmlâng Rômeăng;Chamlang Romeang Leu
+km;ភូមិ ចំការវែង;Chamkar Veaeng
+km;ភូមិ ចំការទួល;Phum Châmkar Tuŏl
+km;Phumĭ Châmkar Tuŏl;Phum Châmkar Tuŏl
+km;ភូមិ ចំការតាប៉ែន;Phum Châmkar Tapên
+km;Phumĭ Châmkar Tapên;Phum Châmkar Tapên
+km;ភូមិ ចំការស្ទឹង មួយ;Phum Châmcar Stœ̆ng
+km;ភូមិ ចំការលើ;Phum Châmka Leu
+km;ភូមិ ចំការលាវ;Phum Châmkar Léav
+km;Phumĭ Châmkar Léav Pir;Phum Châmkar Léav
+km;ភូមិ ចំការលាវ ពីរ;Phum Châmkar Léav
+km;ភូមិ ចំការគួយ;Phum Châmkar Kuŏy
+km;ភូមិ ចំការចាស់;Phum Châmkar Chăs
+km;ភូមិ ចំការ;Phum Châmcar
+km;ភូមិ ចំបក់;Chambak
+km;Phum Châmbâk;Chambak
+km;ភូមិ ចំបក់ធំ;Chambak Thum
+km;Phum Châmbâk Thom;Chambak Thum
+km;ភូមិ ចំបក់ប្រាសាទ;Phum Châmbâk Prasat
+km;ភូមិ ចំបក់ប្រាំង;Phum Châmbâk Prăng
+km;Phumĭ Châmbâk Prăng;Phum Châmbâk Prăng
+km;ភូមិ ចំបក់មាស;Chambak Meas
+km;Phum Châmbâk Méas;Chambak Meas
+km;Phum Châmbâk Kântrom;Chambak Khpos
+km;ភូមិ ចំបក់កន្រ្តុំ;Chambak Khpos
+km;ភូមិ ចំបក់;Phum Châmbâk
+km;ភូមិ ចកតូច;Phum Châk Toch
+km;ភូមិ ចកធំ;Chak Thum
+km;Phum Châk Thom;Chak Thum
+km;ភូមិ ចាក់សែង;Phum Chăk Sêng
+km;ភូមិ ចាក់ខ្លាញ់;Chak Khlanh
+km;Phumĭ Châk;Sambour
+km;ភូមិ ចក;Sambour
+km;ភូមិ ចក;Chak
+km;Phum Châk;Chak
+km;ភូមិ ចក;Phum Châk
+km;Phumĭ Châk;Phum Châk
+km;ភូមិ ចប;Phum Châp
+km;ភូមិ ចា;Phum Cha
+km;ភូមិ ប៊ួរជ្រៃ;Phum Buŏr Chrey
+km;Phumĭ Buŏr Chrey;Phum Buŏr Chrey
+km;ភូមិ បូតគង;Phum Bot Kông
+km;Phumĭ Bot Kông;Phum Bot Kông
+km;ភូមិ បុស តារិត;Phum Bŏs Tarĕt
+km;ភូមិ បុសស្បូវ;Bos Sbov
+km;Phum Bŏs Sbov;Bos Sbov
+km;ភូមិ បុសរការ;Phum Bŏs Rôkar
+km;ភូមិ បុសប្រហោង;Phumĭ Bŏs Prâhaông
+km;ភូមិ បុសមាស;Bos Meas
+km;Phum Bŏs Méas;Bos Meas
+km;ភូមិ បុសលាវ;Bos Leav Leu
+km;ភូមិ បុសក្រឡាញ់;Bos Kralanh
+km;Phum Bŏs Kralanh;Bos Kralanh
+km;ភូមិ បុសចេក;Phum Bŏs Chék
+km;Phumĭ Bŏs;Phum Bŏs
+km;Phum Bŏh;Kouk Kraol
+km;ភូមិ បុះ;Kouk Kraol
+km;ភូមិ បឹង;Phum Bœ̆ng
+km;ភូមិ បឹងវែងលើ;Phum Bœ̆ng Vêng Leu
+km;Phumĭ Bœ̆ng Vêng Leu;Phum Bœ̆ng Vêng Leu
+km;Phum Bœ̆ng Vêng Kraôm;Boeng Veaeng
+km;ភូមិ បឹងវែងក្រោម;Boeng Veaeng
+km;ភូមិ បឹងវែង;Phum Bœ̆ng Vêng
+km;Phum Bœ̆ng Trâmaôl;Knong
+km;ភូមិ បឹងត្រម៉ោល;Knong
+km;ភូមិ បឹងត្រាច;Phum Bœ̆ng Trach
+km;ភូមិ បឹងត្របែក;Phum Bœ̆ng Trâbêk
+km;Phumĭ Bœ̆ng Trâbêk;Phum Bœ̆ng Trâbêk
+km;ភូមិ បឹងតាស្រី;Phum Bœ̆ng Ta Srei
+km;ភូមិ បឹងតាព្រុំ;Phum Bœ̆ng Ta Prŭm
+km;Phumĭ Bœ̆ng Ta Prŭm;Boeng Ta Prum
+km;Phum Bœ̆ng Ta Prŭm;Boeng Ta Prum
+km;ភូមិ បឹងតាមាស;Phum Bœ̆ng Ta Méas
+km;ភូមិ បឹងស្បូវ;Phum Bœ̆ng Sbov
+km;ភូមិបឹងឬស្សី;Phum Bœ̆ng Rŭssei
+km;ភូមិ បឹងរៃ;Boeng Rey
+km;Phum Bœ̆ng Rey;Boeng Rey
+km;ភូមិ បឹងរាំង;Phum Bœ̆ng Reăng
+km;ភូមិ បឹងរាំង;Phum Bœ̆ng Reàng
+km;ភូមិ បឹងព្រីងចាស់;Phum Bœ̆ng Pring Chăs
+km;ភូមិ បឹងព្រីង;Boeng Pring
+km;Phum Bœ̆ng Pring;Boeng Pring
+km;ភូមិ បឹងប្រី;Phum Bœ̆ng Prei
+km;ភូមិ បឹងព្រះ;Phum Bœ̆ng Preăh
+km;ភូមិ បឹងពពេល;Phum Bœ̆ng Pôpêl
+km;Phum Bœ̆ng Pĭt Trâng;Pit Trang
+km;ភូមិ បឹងពិតក្រង;Pit Trang
+km;ភូមិ បឹងផ្សោត;Phum Bœ̆ng Phsaôt
+km;ភូមិ បឹងពាក់កណ្តាល;Phum Bœ̆ng Perkândal
+km;ភូមិ បឹងងីងកង;Phumĭ Bœ̆ng Nging Kâng
+km;ភូមិ បឹងមាលា;Boeng Mealea
+km;Phum Bœ̆ng Méaléa;Boeng Mealea
+km;ភូមិ បឹងលើ;Phum Bœ̆ng Leu
+km;Phumĭ Bœ̆ng Leu;Phum Bœ̆ng Leu
+km;ភូមិ បឹងលាច;Phum Bœ̆ng Léach
+km;ភូមិ បឹងគ្រំក្រោម;Phum Bœ̆ng Krŭm Kraôm
+km;ភូមិ បឹងគ្រំកណ្តាល;Boeng Krum
+km;Phum Bœ̆ng Krŭm Kândal;Boeng Krum
+km;ភូមិ បឹងគ្រំ;Phum Bœ̆ng Krŭm
+km;ភូមិ បឹងក្រោម;Phum Bœ̆ng Kraôm
+km;Phumĭ Bœ̆ng Kraôm;Phum Bœ̆ng Kraôm
+km;ភូមិ បឹងក្រមួន;Phum Bœ̆ng Krâmuŏn
+km;ភូមិ បឹងក្នាង;Phum Bœ̆ng Knang
+km;ភូមិ បឹងខ្ទំ;Phum Bœ̆ng Khtŭm
+km;Phum Bœ̆ng Khleăng;Doun Chaeng
+km;ភូមិ បឹងឃ្លាំង;Doun Chaeng
+km;Phumĭ Bœ̆ng Khleăng;Boeng Khleang Kaeut
+km;ភូមិ បឹងឃ្លាំង;Boeng Khleang Kaeut
+km;Phumĭ Bœ̆ng Kaêk;Peam Mean Chey
+km;ភូមិ បឹងក្អែក;Peam Mean Chey
+km;ភូមិ បឹងឈូក;Boeng Chhuk
+km;Phum Bœ̆ng Chhuk;Boeng Chhuk
+km;Phumĭ Bœ̆ng Chhuk;Boeng Chhuk
+km;ភូមិ បឹងឈូក;Phum Bœ̆ng Chhuk
+km;ភូមិ បឹងចក;Phum Bœ̆ng Châk
+km;ភូមិ បឹងបី;Phum Bœ̆ng Bei
+km;ភូមិ បឹងអំពិល;Phum Bœ̆ng Âmpĭl
+km;Phumĭ Bœ̆ng;Boeng
+km;ភូមិ បឹង;Boeng
+km;ភូមិ បិទមាស;Phum Bĕt Méas
+km;Phum Bœ̆t Méas;Koun Tnaot
+km;ភូមិ បិតមាស;Koun Tnaot
+km;ភូមិ បេង;Phum Béng
+km;ភូមិ បេង;Beng
+km;Phum Béng;Beng
+km;Phumĭ Béng;Beng
+km;Phum Béng;Prech
+km;ភូមិ បេង;Prech
+km;ភូមិ បែកថ្លាង;Phum Bêk Thlang
+km;ភូមិ បាយម៉ាត;Bay Mat
+km;Phumĭ Bay Mat;Bay Mat
+km;Phum Bay Mat;Bay Mat
+km;ភូមិ បយាំខា;Ba Yakha
+km;ភូមិ បាវិត;Bavet Kandal
+km;Phum Bavĕt;Bavet Kandal
+km;ភូមិ បាវិត;Bavet
+km;Phum Bavĕt;Bavet
+km;ភូមិ បត់ត្រង់;Phum Bât Trâng Pir
+km;ភូមិ បត់ត្រង់;Phum Bât Trâng
+km;Phum Bât Sla Slap;Bat Sla Snab
+km;ភូមិ បត់ស្លាស្លាប;Bat Sla Snab
+km;ភូមិ បត់សំរោង;Phum Bât Sâmraông
+km;Phumĭ Bât Sala;Chheu Teal
+km;ភូមិ បត់សាលា;Chheu Teal
+km;ភូមិ បាត់គង;Phum Băt Kông
+km;ភូមិ បត់កណ្ដោល;Phum Bât Kândaôl
+km;ភូមិ បាត់ហើយ;Phum Băt Haeuy
+km;ភូមិ បត់បង្រួម;Phum Bât Bângruŏm
+km;ភូមិ បាត់បង់កូវ;Phum Băt Bângkov
+km;ភូមិ បតាំងសូ;Ba Tangsu
+km;ភូមិ បាត;Bat
+km;Phum Bât;Bat
+km;ភូមិ បារែន;Phum Barên
+km;ភូមិ បារាច;Phum Barach
+km;Phumĭ Barach;Phum Barach
+km;ភូមិ បារាយខាងលិច;Phum Baray Khang Lĕch
+km;ភូមិ បារាយ;Baray
+km;Phum Baray;Baray
+km;ភូមិ បារាំង;Phum Barăng
+km;ភូមិ បោសតាត្រាវ;Phum Baôs Ta Trav
+km;ភូមិ បោសស្បូវ;Phum Bŏs Sbov
+km;ភូមិ បោះតាទេប;Phum Baôh Ta Tép
+km;ភូមិ បោះពួរ;Phum Baôh Puŏr
+km;Phum Bântoât Bâs;Bantoat Baoh
+km;ភូមិ បន្ទាត់បស់;Bantoat Baoh
+km;ភូមិ បន្ទាយត្រោក;Banteay Traok
+km;Phum Bântéay Traôk;Banteay Traok
+km;ភូមិ បន្ទាយធ្លក;Phum Bântéay Thlôk
+km;Banteay Thleay;Phumĭ Bântéay Thléay
+km;ភូមិ បន្ទាយស្រី;Banteay Srei
+km;Phum Bântéay Srei;Banteay Srei
+ru;Бантеайсрей;Banteay Srei
+km;ភូមិ បន្ទាយស្រី;Phum Bântéay Srei
+km;ភូមិ បន្ទាយស្រែ;Phum Bântéay Srê
+km;ភូមិ បន្ទាយប្រីលើ;Phum Bântéay Prei Leu
+km;Phumĭ Bântéay Prei Leu;Phum Bântéay Prei Leu
+km;ភូមិ បន្ទាយប្រីក្រោម;Phum Bântéay Prei Kraôm
+km;Phumĭ Bântéay Prei Kraôm;Phum Bântéay Prei Kraôm
+km;ភូមិ បន្ទាយប្រី;Phum Bântéay Prei
+km;ភូមិ បន្ទាយនាង;Banteay Neang
+km;Phum Bântéay Néang;Banteay Neang
+km;ភូមិ បន្ទាយដែក;Phum Bântéay Dêk
+km;ភូមិ បន្ទាយដែក;Banteay Daek
+km;Phum Bântéay Dêk;Banteay Daek
+km;ភូមិ បន្ទាយជរ;Phum Bântéay Chôr
+km;Phumĭ Bântéay Chôr;Phum Bântéay Chôr
+km;ភូមិ បន្ទាយឆ្មារ;Banteay Chhmar
+km;ភូមិ បន្ទាយជេ;Phum Bântéay Chey
+km;ភូមិ បន្ទាយបោស;Phum Bântéay Baôs
+km;Phumĭ Bântéay Baôs;Phum Bântéay Baôs
+km;Phumĭ Bântéay Âmpil;Kouk Ampil
+km;ភូមិ បន្ទាយអំពិល;Kouk Ampil
+km;ភូមិ បន្សាយត្រែង;Phum Bânsay Trêng
+km;ភូមិ បានប៉ង;Phum Banpông
+km;ភូមិ បានម៉ៃ;Phum Ban Mai
+km;ភូមិ បន្លិច;Phum Bânlĭch
+km;ភូមិ បានលាន;Phum Ban Léan
+km;Phumĭ Ban Léan;Phum Ban Léan
+km;ភូមិ បញ្ចិតបុស;Phum Bânchĕt Bos
+km;ភូមិ បង្គ្រោះ;Phum Bâng Krŏăh
+km;Phum Băng Khmuŏn;Sdau
+km;ភូមិ បាំងខ្លួន;Sdau
+km;ភូមិ បាំងក្បាល;Phum Băng Kbal
+km;ភូមិ បង្កោង;Bangkaong
+km;Phum Bângkaông;Bangkaong
+km;ភូមិ បង្ហើរខ្លែង;Phum Bânghaeur Khlêng
+km;ភូមិ បង់បាយ;Phum Bâng Bay
+km;Phum Ban Bŭng;Ban Bung
+km;ភូមិ បានប៊ុង;Ban Bung
+km;ភូមិ បាណាម;Phum Ba Nam
+km;Phumĭ Ba Nam;Phum Ba Nam
+km;ភូមិ បាណាម;Phum Banam
+km;ភូមិ បំពេញរាជ;Bampenh Reach
+km;Phum Bâmpénh Réach;Bampenh Reach
+km;ភូមិ បំណក់;Phum Bâmnâk
+km;ភូមិ បឡែង;Phumĭ Bâlêng
+km;ភូមិ បាឡាត់ឈឹង;Phum Balăt Chhœ̆ng
+km;Phumĭ Balăt Chhœ̆ng;Phum Balăt Chhœ̆ng
+km;ភូមិ បាឡត;Ba Lat
+km;Phum Balât;Ba Lat
+km;ភូមិ បាឡាំង;Phum Balăng
+km;ភូមិ បាឡាង;Ballangk
+km;Phum Balăng;Ballangk
+km;ភូមិ បាក់រនាស;Phum Băk Rônéas
+km;ភូមិ បាក់ព្រីង;Bak Pring
+km;Phum Băk Pring;Bak Pring
+km;ភូមិ បាក់នឹម;Phum Băk Nœ̆m
+km;Phumĭ Băk Nœ̆m;Phum Băk Nœ̆m
+km;ភូមិ បាក់ល្បិត;Phum Bak Lôbĕt
+km;ភូមិ បាក់កាំភ្លើង;Baek Kamphleung
+km;Phum Bêk Kămphleung;Baek Kamphleung
+km;Phumĭ Băk Daôk;Bak Daok
+km;ភូមិ បាក់ដោក;Bak Daok
+km;ភូមិ បាកាន;Bakan
+km;Phum Bakan;Bakan
+km;ភូមិ បហុយខ្មែរ;Bahuy Khmaer Khang Cheu
+km;ភូមិ បះកែតូច;Phum Băh Kê Toch
+km;ភូមិ បះកែ;Phum Băh Kê
+km;ភូមិ បាដើម;Samkhuoy
+km;ភូមិ បាបោង;Ba Baong
+km;ភូមិឳមាល;Phumĭ Au Mal
+km;ភូមិ ឪម៉ាល់;Ou Mal
+km;ភូមិ ឪជាង;Phum Âu Chéang
+km;ភូមិ ឪ;Phum Âu
+km;ភូមិ អារ៉ី;Phum Arei
+km;ភូមិ ឪរាល;Phum Aôral
+km;ភូមិ អានូក;Phum Anuk
+km;ភូមិ អន្ទុងវៀន;Antong Vien
+km;Phum Ântŭng Viĕn;Antong Vien
+km;ភូមិ អណ្ទឹតសុខ;Antit Sokh
+km;Phum Antœ̆t Sŏk;Antit Sokh
+km;Phum Ânterk Kuôy;Doung Chrum
+km;ភូមិ អន្ទាក់គួយ;Doung Chrum
+km;ភូមិ អានសេះ;Phum An Séh
+km;Phumĭ An Séh;Phum An Séh
+km;ភូមិ អន្សោមក្អែក;Phum Ansaôm Kaêk
+km;ភូមិ អន្សកាម;Phum Ânsâ Kam
+km;ភូមិ អន្សាចំបក់់;Phum Ânsa Châmbâk
+km;Phumĭ Anol Kôk;Kong Lueng
+km;Phum Anol Kôk;Kong Lueng
+km;ភូមិ អាណូលគក;Kong Lueng
+km;ភូមិ អន្លុងធ្នង់;Phum Ânlŭng Thnŭng
+km;ភូមិ អន្លងក្រវិល;Phum Anlông Krâvĕl
+km;ភូមិ អន្លង់វិល;Phum Ânlŭng Vĭl
+km;Phumĭ Anlŭng Trêa;Preaek Chrey
+km;ភូមិ អន្លង់ទ្រា;Preaek Chrey
+km;ភូមិ អន្លង់ត្រាច;Phum Ânlŭng Trach
+km;ភូមិ អន្លងថ្ម;Anlong Thmei
+km;Phum Anlŭng Thmâ;Anlong Thmei
+km;ភូមិ អន្លង់ថ្ម;Phum Ânlŭng Thmâ
+km;ភូមិ អន្លង់តាអ៊ួរ;Phum Anlung Ta Uŏr
+km;ភូមិ អន្លង់ស្វាយ;Phum Ânlŭng Svay
+km;Phum Ânlŭng Sâr;Kouk Phnum
+km;ភូមិអន្លង់សន្តាន់;Phumĭ Ânlùng Sândan
+km;ភូមិ អន្លង់សាន;Phum Ânlŭng San
+km;ភូមិ អន្លង់សា;Anlong Sar
+km;Phum Ânlŭng Sâ;Anlong Sar
+km;ភូមិ អន្លង់រុន;Phum Ânlŭng Rŭn
+km;ភូមិ អន្លង់រុន;Anlong Run
+km;Phum Ânlŭng Rŭn;Anlong Run
+km;ភូមិ អន្លង់ឫស្សី;Phum Anlung Russei
+km;ភូមិ អន្លង់ពូក;Phum Ânlŭng Puŏk
+km;ភូមិ អន្លង់ព្រីង;Phum Ânlŭng Pring
+km;ភូមិ អន្លង់ពីរ;Anlong Pir
+km;Phum Ânlŭng Pir;Anlong Pir
+km;ភូមិ អន្លង់ផ្សោត;Phum Ânlŭng Phsaôt
+km;Phum Anlŭng Kruŏs;Kruos
+km;ភូមិ អន្លង់គ្រួស;Kruos
+km;ភូមិ អន្លង់ក្រូច;Phum Ânglŭng Kroch
+km;ភូមិ អន្លង់ក្រូច;Phum Ânlŭng Kroch
+km;ភូមិ អន្លង់គង;Phum Ânlŭng Kông
+km;ភូមិ អន្លង់កូប;Anlong Koub
+km;ភូមិ អន្លង់ខ្លង;Phum Anlŭng Khlŏng
+km;Phum Anlŭng Kântrâp;Anlong Mean Trop
+km;ភូមិ អន្លង់កន្ត្រប់;Anlong Mean Trop
+km;Phumĭ Ânlŭng Chrey;Preaek Chheu Trav
+km;ភូមិ អន្លង់ជ្រៃ;Preaek Chheu Trav
+km;ភូមិ អញ្ចាញរូង;Anhchanh Rung
+km;Phum Ânhchanh Rung;Anhchanh Rung
+km;ភូមិ អញ្ចាញ;Phum Anchanh
+km;Phum Ânhchanh;Anhchanh
+km;ភូមិ អញ្ចាញ;Anhchanh
+km;ភូមិ អញ្ចាញ;Phum Ânhchanh
+km;ភូមិ អញ្ចាញ;Phum Ânchanh
+km;ភូមិ អញ្ចាញ;Phumĭ Ânhchanh
+km;ភូមិ អញ្ចង;Phum Ânhchâng
+km;Phum Ang;Ang Tboung
+km;ភូមិ អង្គ មួយ;Ang Tboung
+km;ភូមិ អង្គសាលា;Angk Sala
+km;ភូមិ អង្គ្រង;Angkrong
+km;Phum Ângkrông;Angkrong
+km;អង្ករស;Angkor Sar
+km;ភូមិ អង្គរក្រៅ;Nokor Krau
+km;Phumĭ Ângkôr Krau;Nokor Krau
+km;Phum Ângkôr Krau;Nokor Krau
+km;ភូមិ អង្គន;Phum Ângkôn
+km;Phum Ângkéal;Dang Kaol
+km;ភូមិ អង្គាល;Dang Kaol
+km;ភូមិអង្គាបុស;Phumĭ Ângkéa Bŏs
+km;ភូមិ អង្គាបោស;Phum Ângkéa Baôs
+km;ភូមិ អង្ករខ្មៅ;Angkar Khmau
+km;Phum Ângkâr Khmau;Angkar Khmau
+km;ភូមិ អណ្ដូង;Phum Ândong
+km;ភូមិ អណ្តូងទរ;Phum Ândong Tôr
+km;ភូមិ អណ្តូងថ្ម;Andoung Thma
+km;Phumĭ Ândong Thmâ;Andoung Thma
+km;Phum Ândong Thmâ;Andoung Thma
+km;ភូមិ អណ្ដូងតាមូង;Phum Ândong Tamung
+km;ភូមិ អណ្ដូងស្បូវ;Andoung Sanbuor
+km;Phum Ândong Sbov;Andoung Sanbuor
+km;ភូមិ ណងព្រីង;Phum Ândong Pring
+km;ភូមិ អណ្ដូងល្ងៀង;Phum Ândong Lôngiĕng
+km;ភូមិ អណ្ដូងក្រសាំង;Andoung Krasang
+km;Phum Ândong Krâsăng;Andoung Krasang
+km;ភូមិ អណ្ដូងចេញ;Phum Ândong Chénh
+km;ភូមិ អណ្ដាស;Phum Ândas
+km;ភូមិ អន្ចាញ;Phum Ânchanh
+km;ភូមិ អាណាក់;Phum Anăk
+km;ភូមិ អំពៅ;Phum Âmpŏu
+km;ភូមិ អំពរ;Phum Âmpôr
+km;Phumĭ Ampĭl Trâng;Phum Ampĭl Trâng
+km;ភូមិ អំពិលត្រង់;Phum Ampĭl Trâng
+km;ភូមិ អំពិលទឹក;Phum Âmpĭl Tœ̆k
+km;Phumĭ Âmpil Chas;Khmar
+km;ភូមិ អំពិលចាស់;Khmar
+km;ភូមិ អំពិលបឹងកក់;Phum Âmpĭl Bœ̆ng Kâk
+km;ភូមិ អំពិល;Phum Âmpĭl
+km;ភូមិ អំពិល;Banteay Ampil
+km;ភូមិ អំពិល;Ampil
+km;Phum Âmpĭl;Ampil
+km;ភូមិ អំពិល;Phum Ampil
+km;Phumĭ Âmpĭl;Phum Âmpĭl
+km;Phum Âmpĭl;Peus Muoy
+km;ភូមិ អំពិល;Peus Muoy
+km;ភូមិអកផុក;Phumĭ Âk Phŏk
+km;ផ្សាររាម;Phsar Réam
+km;Tbêng Méanchey;Tbeng Meanchey
+ru;Тбенг Меанчей;Tbeng Meanchey
+ar;تبينج مياتشاي;Tbeng Meanchey
+kk;Тбенг Меанчей;Tbeng Meanchey
+ky;Тбенг Меанчей;Tbeng Meanchey
+hi;टबेंग मेअंचे;Tbeng Meanchey
+bn;টেবেন্গ মেয়ানচে;Tbeng Meanchey
+ur;ٹبینگ میانچے;Tbeng Meanchey
+fa;تبنگ میانچی;Tbeng Meanchey
+ja;テベン・メアンチェ;Tbeng Meanchey
+pa;ਟਬੰਗ ਮੇਅਨਚੇ;Tbeng Meanchey
+ps;تبنج میانچی;Tbeng Meanchey
+tg;Тбенг Меанчей;Tbeng Meanchey
+km;ពាមព្រូស;Péam Prus
+km;ពាមកាយ;Péam Kay
+km;ពាមជីលាំង;Peam Chileang
+km;ពាមបាង;Péam Bang
+fr;Poipet;Paoy Paet
+ru;Пойпет;Paoy Paet
+en;Poipet;Paoy Paet
+km;ប៉ោយប៉ែត;Paoy Paet
+km;បាំងរលឹម;Pang Rôloĕm
+es;Ciudad de Pailín;Pailin
+ja;パイリン;Pailin
+km;ក្រុងប៉ៃលិន;Pailin
+nl;Krong Pailin;Pailin
+ru;Паилин;Pailin
+ar;بايلين;Pailin
+kk;Паилин;Pailin
+ky;Паилин;Pailin
+hi;पैलिन;Pailin
+bn;পাইলিন;Pailin
+ur;پیلین;Pailin
+fa;پایلین;Pailin
+pa;ਪੈਲਿਨ;Pailin
+ps;پيلين;Pailin
+tg;Паилин;Pailin
+km;អូរតាយូ;Phum Ta Ho
+de;Udong;Ŏdŏngk
+km;ភ្នំឧដុង្គ;Ŏdŏngk
+ru;Удонг;Ŏdŏngk
+pt;Oudong;Ŏdŏngk
+ko;우동;Ŏdŏngk
+zh-HK;烏棟;Ŏdŏngk
+en;Udong;Ŏdŏngk
+it;Oudong;Ŏdŏngk
+fr;Oudong;Ŏdŏngk
+es;Ciudad de Udong;Ŏdŏngk
+zh;乌栋;Ŏdŏngk
+zh-Hant;烏棟;Ŏdŏngk
+vi;Oudong;Ŏdŏngk
+th;อุดงมีชัย;Ŏdŏngk
+ja;ウドン;Ŏdŏngk
+nl;Udong;Ŏdŏngk
+km;មោងឬស្សី;Moung Ruessei
+km;លំផាត់;Lumphat
+km;ឪរាល;Aoral
+km;គូលេន;Kuleaen
+km;រូបភាពក្រុង;Kep
+ru;Кеп;Kep
+ar;كيب;Kep
+kk;Кеп;Kep
+ky;Кеп;Kep
+hi;केप;Kep
+bn;কেপ;Kep
+ur;کیپ;Kep
+fa;کپ;Kep
+ja;ケップ;Kep
+pa;ਕੇਪ;Kep
+ps;کپ;Kep
+tg;Кеп;Kep
+km;Kaôh Kŏng;Koh Kong
+km;កោះកុង;Koh Kong
+ru;Кохконг;Koh Kong
+ar;كوه كونج;Koh Kong
+kk;Кохконг;Koh Kong
+ky;Кохконг;Koh Kong
+hi;कोह कॉन्ग;Koh Kong
+bn;কোহ কং;Koh Kong
+ur;کوہ کانگ;Koh Kong
+fa;کوه کانگ;Koh Kong
+ja;コッコン;Koh Kong
+pa;ਕੋਹ ਕਾਂਗ;Koh Kong
+ps;کوه کانج;Koh Kong
+tg;Кохконг;Koh Kong
+km;គ្រាំងស្គារ;Krang Skear
+km;ក្រងតេះ;Krang Teh
+km;ក្រឡាញ់;Kralanh
+km;ក្រគរ;Krâkôr
+fr;Kratie;Kratié
+km;ក្រចេះ;Kratié
+en;Kratie;Kratié
+ru;Кратие;Kratié
+ar;كراتي;Kratié
+kk;Кратие;Kratié
+tr;Kratie;Kratié
+uz;Kratie;Kratié
+ky;Кратие;Kratié
+id;Kratie;Kratié
+ms;Kratie;Kratié
+es;Kratie;Kratié
+hi;क्रेटी;Kratié
+bn;ক্রাতি;Kratié
+ur;کریٹی;Kratié
+de;Kratie;Kratié
+fa;کراتی;Kratié
+ja;クラチェ;Kratié
+jv;Kratie;Kratié
+pa;ਕ੍ਰਾਤੀ;Kratié
+ps;کراتي;Kratié
+tg;Кратие;Kratié
+km;គោក រាង;Koŭk Reăng
+km;កុកឡាក់ញ៉ៃ;Kŏk Lak Nhai
+km;ក្នុងអាយ;Knŏng Ay
+km;Doung;Rung
+km;ព្រែកលួង;Preaek Luong
+ru;Ловек;Longveaek
+pt;Lovek;Longveaek
+ko;លង្វែក;Longveaek
+zh-HK;洛韋;Longveaek
+en;Longvek;Longveaek
+it;Lovek;Longveaek
+fr;Lovek;Longveaek
+es;Lovek;Longveaek
+zh;洛韦;Longveaek
+zh-Hant;洛韋;Longveaek
+vi;Longvek;Longveaek
+th;ละแวก;Longveaek
+ja;ロンヴェク;Longveaek
+nl;Longvek;Longveaek
+km;កំពង់អំពិល;Khŭm Kâmpóng Âmpĭl
+km;ខ្លុងពពក;Khlong Popok
+km;ខ្លិកខ្លក់;Khlĕk Khlák
+km;ខាំភោក;Kham Phouk
+km;ខាំភឹត;Kham Keut
+km;កោះត្បែង;Kaôh Tbêng
+km;កោះរូង;Kaôh Rŏng
+km;កោះរុង ប្រាំមួយ;Kaôh Rŏng
+km;Koh Rong Prăm Muŏy;Kaôh Rŏng
+km;កោះរុង;Kaôh Rŏng
+km;Koh Rong Prăm;Kaôh Rŏng
+km;កោះរុង បួននាក់;Kaôh Rŏng
+km;Koh Rong Buŏn;Kaôh Rŏng
+km;កោះរុង ប;Kaôh Rŏng
+km;កោះកាពិ;Kaoh Kapi
+km;កំរែង;Kamreang
+ru;Кампот;Kampot
+km;កំពត;Kampot
+fa;کامپوت;Kampot
+ja;カンポット;Kampot
+km;ក្រុងកំពត;Kampot
+ko;캄포트;Kampot
+zh;贡布;Kampot
+ar;كامبوت;Kampot
+kk;Кампот;Kampot
+ky;Кампот;Kampot
+hi;कंपोट;Kampot
+bn;ক্যাম্পট;Kampot
+ur;کمپوت;Kampot
+pa;ਕੰਪੋਟ;Kampot
+ps;کمپوت;Kampot
+tg;Кампот;Kampot
+km;Kâmpóng Thom;Kampong Thom
+ru;Кампонг Том;Kampong Thom
+ar;كامبونج توم;Kampong Thom
+kk;Кампонг Том;Kampong Thom
+ky;Кампонг Том;Kampong Thom
+hi;कंपोंग थॉम;Kampong Thom
+bn;ক্যাম্পং টম;Kampong Thom
+ur;کمپونگ ٹم;Kampong Thom
+fa;کامپونگ تم;Kampong Thom
+ja;コンポントム;Kampong Thom
+pa;ਕੰਪੋਂਗ ਥੌਮ;Kampong Thom
+ps;کمپونج توم;Kampong Thom
+tg;Кампонг Том;Kampong Thom
+ru;Кампонг Спеу;Kampong Speu
+ar;كامبونج سبيو;Kampong Speu
+kk;Кампонг Спеу;Kampong Speu
+ky;Кампонг Спеу;Kampong Speu
+hi;कंपोंग स्पेउ;Kampong Speu
+bn;ক্যাম্পং স্পেউ;Kampong Speu
+ur;کمپونگ سپیو;Kampong Speu
+fa;کامپونگ اسپئو;Kampong Speu
+ja;コンポンスペウ;Kampong Speu
+pa;ਕੰਪੋਂਗ ਸਪੂ;Kampong Speu
+ps;کمپونج سپيو;Kampong Speu
+tg;Кампонг Спеу;Kampong Speu
+es;Ciudad de Sihanoukville;Sihanoukville
+ja;シアヌークビル;Sihanoukville
+km;ក្រុងព្រះសីហនុ;Sihanoukville
+nl;Preah Seihanouk;Sihanoukville
+th;สีหนุวิลล์;Sihanoukville
+ru;Сиануквиль;Sihanoukville
+en;Kampong Saom;Sihanoukville
+ar;سيهانوكفيل;Sihanoukville
+kk;Сиануквиль;Sihanoukville
+ky;Сиануквиль;Sihanoukville
+hi;सिहानौकविले;Sihanoukville
+bn;সিহানৌকভিল;Sihanoukville
+ur;سیہانوک وِل;Sihanoukville
+fa;سیهانوکویل;Sihanoukville
+pa;ਸਿਹਾਨੌਕ ਵਿਲ;Sihanoukville
+ps;سيهانوك وېل;Sihanoukville
+pt;Sianuquevila;Sihanoukville
+tg;Сиануквиль;Sihanoukville
+km;កំពង់ក្តី;Kampong Kdei
+km;Kâmpông Kdei;Kampong Kdei
+ru;Кампонгчнанг;Kampong Chhnang
+km;ក្រុងកំពង់ឆ្នាំង;Kampong Chhnang
+ar;كامبونج تشهنانج;Kampong Chhnang
+kk;Кампонг Чхнанг;Kampong Chhnang
+ky;Кампонг Чхнанг;Kampong Chhnang
+hi;कंपोंग छहनांग;Kampong Chhnang
+bn;ক্যাম্পং ছহনাং;Kampong Chhnang
+ur;کمپونگ چھنانگ;Kampong Chhnang
+fa;کامپونگ چهنانگ;Kampong Chhnang
+ja;コンポンチュナン;Kampong Chhnang
+pa;ਕੰਪੋਂਗ ਛਹਨਾਂਗ;Kampong Chhnang
+ps;کمپونج تشهنانج;Kampong Chhnang
+tg;Кампонг Чхнанг;Kampong Chhnang
+ru;Кампонгтям;Kampong Cham
+km;ក្រុងកំពង់ចាម;Kampong Cham
+ar;كامبونج تشام;Kampong Cham
+kk;Кампонг Чам;Kampong Cham
+ky;Кампонг Чам;Kampong Cham
+hi;कंपोंग चाम;Kampong Cham
+bn;ক্যাম্পং চাম;Kampong Cham
+ur;کمپونگ چام;Kampong Cham
+fa;کامپونگ چام;Kampong Cham
+ja;コンポンチャム;Kampong Cham
+pa;ਕੰਪੋਂਗ ਚਾਮ;Kampong Cham
+ps;کمپونج چام;Kampong Cham
+tg;Кампонг Чам;Kampong Cham
+km;កំភុន;Sesan
+km;កាខឹក;Kakhœ̆k
+km;ដីរនាត;Dei Roneat
+km;ដំបែ;Dambae
+en;Cheom Ksan;Chŏâm Ksant
+nl;Cheom Ksan;Chŏâm Ksant
+km;ជីសាង;Chisang
+km;ជីភូ;Chiphu
+km;ឆ្នុកទ្រូ;Chhnok Tru
+km;ឆ្កែព្រុស;Chhkê Prŭs
+km;ឆ្កែព្រុស ពីរ;Nesat
+km;ចំណារ;Chamnar
+km;ចំឡងគោ;Châmlâng Koŭ
+km;ចំឡងគោ;Chamlang Kor
+km;Châmlâng Koŭ Muŏy;Chamlang Kor
+km;ចំបក់;Chambak
+km;Châmbâk;Chambak
+ru;Банлунг;Banlung
+ar;بانلونج;Banlung
+kk;Банлунг;Banlung
+ky;Банлунг;Banlung
+hi;बनलुंग;Banlung
+bn;বানলুং;Banlung
+ur;بانلنگ;Banlung
+fa;بانلونگ;Banlung
+ja;バンルン;Banlung
+pa;ਬਾਨਲੁਂਗ;Banlung
+ps;بانلونج;Banlung
+tg;Банлунг;Banlung
+km;បត់ ត្រង់;Bât Trâng
+es;Ciudad de Battambang;Battambang
+nl;Khett Batdambang;Battambang
+km;ក្រុងបាត់ដំបង;Battambang
+bn;ব্যাটামবং;Battambang
+fa;باتم‌بنگ;Battambang
+ja;バタンバン;Battambang
+ko;바탐방;Battambang
+mn;Батдамбан;Battambang
+th;พระตะบอง;Battambang
+ru;Баттамбанг;Battambang
+zh;马德望;Battambang
+ta;பட்டாம்பாங்;Battambang
+ar;باتامبانج;Battambang
+kk;Баттамбанг;Battambang
+ky;Баттамбанг;Battambang
+hi;बत्तमबांग;Battambang
+ur;بتام بانگ;Battambang
+pa;ਬੱਤਾਮਬਾਂਗ;Battambang
+ps;باتامبانج;Battambang
+tg;Баттамбанг;Battambang
+km;បានពុង;Ban Pŭng
+km;បំណក់;Bâmnâk
+km;បាក់ ព្រា;Bak Préa
+km;អន្ទង់សរ;Ântŭng Sâ
+km;Ânlūng Vêng;Anlong Veaeng
+km;អន្លង់;Ânlŭng
+km;ភូមិ គីរីបាសកណ្ដាល;Phum Kiribăs Kândal
+km;ភូមិ លើសលប់;Phum Leuslŭp
+km;ភូមិ បុស;Phum Bŏs
+km;Phumĭ Pôngrô;Phum Pôngrô
+km;ភូមិអូដា;Phum O Da
+km;ភូមិ តាងែនថ្មី;Ta Ngen Leu
+km;ភូមិ អូពឹង;Ou Peut
+km;ភូមិ តាវាវ;Ou Tavau
+km;ភូមិ ប៉ាហ៊ី;Pahi
+km;ភូមិ ថាំងម៉ៃ;Phum Thăng Mai
+km;ភូមិ បឌិននៀវ;Phum Bâdin Nièv
+km;ភូមិខ្លុង;Khlong
+km;Sâmpŏu Lun;Sampov Lun
+km;Phnŭm Prœ̆ks;Phnum Proek
+km;ភូមិ និគមព្រះសីហានុ;Phum Nikŭm Preăh Sihanouk
+km;Phum Nikūm Preăh Sihanouk;Phum Nikŭm Preăh Sihanouk
+km;Phumĭ Thmei;Chambak
+km;ភូមិ ថ្មី;Chambak
+km;Phum Toĕk Tŭm;Tuek Tum
+km;Phum Chŏng Kaôh;Chong Kaoh
+km;Phumĭ Chann;Chan
+km;ភូមិ ច័ន្ទ;Chan
+en;Chiphat Village;Chi Pat
+en;Chiphat;Chi Pat
+km;ភូមិក្បាលក្របី;Phum Kbal Krâbei
+km;អូរអន្លង់សរ;O Ânlŭng Sā
+km;ភូមិទាំងក្តី;Phumĭ Teāng Kdei
+km;Phum Koŭk Kroch;Kouk Krouch
+km;ភូមិគោកក្រូច;Kouk Krouch
+km;សង្កែ;Sangkae
+km;Phum Kâmpông Sângkê;Sangkae
+km;ភូមិ កំពង់សង្កែ;Sangkae
+km;ភូមិ ដងទុង;Phum Dâng Tŏng
+km;ភូមិ រលំ;Phum Rôlum
+km;ភូមិ បុសស្តុង់;Phum Bŏs Spŭng
+km;ភូមិ ទួលព្រែក;Phum Tuŏl Prêk
+km;ភូមិ ព្រៃនាយ;Phum Prey Néay
+km;ភូមិ ចំការចក;Phum Châmkar Châk
+km;ភូមិ កោះស្តង;Phum Kaôh Spông
+km;ភូមី ស្រែគុល;Phum Srê Kŭl
+km;ភូមិ ដូង;Phum Dong
+km;ភូមិ ជាមគ្រែ;Phum Chéam Krê
+km;ភូមិ ថ្មកំបោ;Phum Thmâ Kâmbaô
+km;ភូមិ បឹងកក់;Phum Bœ̆ng Kâk
+km;ភូមិ ចំការស្ទឹង;Phum Châmcar Stœ̆ng
+km;ភូមិ អូរចា្រប ពីរ;Phum O Chrap Pir
+km;សាលាឃុំ កូប;Sala Khum Kop
+km;សាលាឃុំ គុត្តសត;Sala Khum Kŭttâsât
+km;Phumĭ Trâpeăng Sâŏy;Ta Nuon
+km;ភូមិ ត្រពាំងស្អុយ;Ta Nuon
+km;ភូមិ កោះកុង បី;Phum Kaôh Kŏng
+km;ភូមិ សន្តា;Phum Sânda
+km;ភូមិ វត្តកណ្តាល;Voat Kandal
+km;Phum Vatt Kândal;Voat Kandal
+km;ភូមិ ឬស្សីជួរ;Phum Rŭssei Chuŏr
+km;ភូមិ បឹងខ្ទ;Phum Bœ̆ng Khtŭm
+km;ភូមិ ច្រាំង;Phum Chrăng
+km;ភូមិ ទួលកំពែង;Phum Tuŏl Kâmpêng
+km;ភូមិ ទួលថ្មី;Phum Tuŏl Thmei
+km;ភូមិ ទួលខ្លា;Phum Tuŏl Khla
+km;ភូមិ ទួលបឹងចក;Phum Tuŏl Bœ̆ng Châk
+km;ភូមិ ទួលបឹងស្នោរ;Phum Tuŏl Bœ̆ng Snaô
+km;ភូមិ ទួលប្របាក់;Phum Tuŏl Prâbak
+km;ភូមិ ទួលស្តុក;Phum Tuŏl Sdŏk
+km;ភូមិ ជីក;Phum Chik
+km;ភូមិ កូនព្រុំ;Phum Kon Prŏm
+km;ភូមិ ស្វាយកំប៉ូត;Phum Svay Kâmpot
+km;Phumĭ Bœ̆ng Kântuŏt;Kantuot
+km;ភូមិ ចំការក្រូច;Phum Châmkar Kroch
+km;ភូមិ ទួលម្រះ;Phum Tuŏl Môreăh
+km;ភូមិ គោកធ្នង់;Phum Koŭk Thnŭng
+km;ភូមិ ទួលព្រៅ;Phum Tuŏl Prŏu
+km;ភូមិ កន់ទុំរាយ;Phum Kântŭm Réay
+km;ភូមិ ទួលប្រសាំង;Phum Tuŏl Krâsăng
+km;Phumĭ Bœ̆ng Chômŏăh;Chhay Ballang
+km;ភូមិ បឹងឈ្មោះ;Chhay Ballang
+km;ភូមិ ទួលឬស្សី;Phum Tuŏl Rŭssei
+km;ភូមិ ទួលដំណាក់សៀម;Phum Tuŏl Damnak Siĕm
+km;ភូមិ ទួលបឹងដំរី;Phum Tuŏl Bœ̆ng Dâmrei
+km;ភូមិ បរដង្កោរ;Phum Bâr Dângkaô
+km;ភូមិ ទួលដៃខ្លា;Phum Tuŏl Dai Khla
+km;ភូមិ ទួលច្រាំង;Phum Tuŏl Chrăng
+km;ភូមិ ទួលស្វាយ;Phum Tuŏl Svay
+km;ភូមិ ចំបក់ធំ;Phum Châmbâk Thom
+km;ភូមិ ទួលស្រែ;Phum Tuŏl Srê
+km;ភូមិ យែនដូង;Phum Yen Dong
+km;ភូមិ ស្រែអូ;Srae Ou
+km;Phum Srê O;Srae Ou
+km;ភូមិ ឬស្សីចាស់;Phum Rŭssei Chas
+km;ភូមិ ច្រាបដង្កោ;Phum Chrap Dângkaô
+km;ភូមិ ទុំពរ;Phum Tŭmpô
+km;ភូមិ ទូកបែក;Phum Tuk Bêk
+km;ភូមិ ទួលអន្លក់;Phum Tuŏl Ânluŏk
+km;Phumĭ Chŭp Krâsăng;Dob Krasang
+km;ភូមិ ជុបក្រសាំង;Dob Krasang
+km;ភូមិ ទួលតែងម៉ែង;Phum Tuŏl Têng Mêng
+km;ភូមិ ទួលតាឱន;Phum Tuŏl Ta Aôn
+km;ភូមិ ប៉ូយសង្កែរ;Phum Pŏy Săngke
+km;Phum Kach Rôtĕh;Kach Roteh
+km;ភូមិ កាច់រទេះ;Kach Roteh
+km;ភូមិ ព្រៃចក;Phum Prey Chak
+km;ភូមិ ខ្សោយ;Phum Khsaôy
+km;ភូមិ ទួលថ្ងាន់;Phum Tuŏl Thngan
+km;ភូមិ ស្តុកឃ្លោក;Phum Sdŏk Khloŭk
+km;ភូមិ ទួលបឹងថ្ម;Phum Tuŏl Bœ̆ng Thmâ
+km;ភូមិ ទលកុដវាច;Phum Tŭl Kŏd Veach
+km;ភូមិ ទួលជាង;Phum Tuŏl Chéang
+km;ភូមិ ដូនទ្រី;Phum Don Tri
+km;ភូមិ ចុងសំណាយ;Phum Chŏng Sâmnay
+km;ភូមិ ឆ្ពារ;Phum Chhpéar
+km;ភូមិ បឹងកុក;Phum Bœ̆ng Kŏk
+km;ភូមិ រាមគន;Phum Réam Kŭn
+km;ភូមិ មោង;Phum Moŭng
+km;ភូមិ ព្រាម;Phum Préam
+km;ភូមិ ប្រឡាយឈូក;Phum Prâlay Chhuk
+km;ភូមិ ដំណាក់ដង្កោ;Phum Dâmnak Dângkaô
+km;ភូមិ ក្រឡោមភ្លុក;Phum Krâlaôm Phlŭk
+km;ភូមិ គារ;Kear
+km;Phumĭ Kéar;Kear
+km;ភូមិ រា;Phum Ra
+km;ភូមិ កន្សេបន្ទាយ;Phum Kânsai Bântéay
+km;ភូមិ តាកុត;Phum Ta Kŏt
+km;ភូមិ កេ;Phum Kê
+km;ភូមិ ដំណាក់កកោះ;Phum Dâmnak Kâkaôh
+km;ភូមិ ខ្ទមកោះ;Phum Khtóm Kaôh
+km;ភូមិ សំរោងអាចម៍ដែក;Phum Sâmraông Ach Dêk
+km;ភូមិ ដំណាក់ម្សិន;Phum Dâmnak Msin
+km;ភូមិ ទួលតាឯក;Phum Tuŏl Ta Êk
+km;ភូមិ ទួលស្មៅ;Phum Tuŏl Smau
+km;ភូមិ ដំណាក់អំពិល;Phum Dâmnak Âmpil
+km;ភូមិ ឆ្កែខាំប្រើស;Phum Chhkê Khám Praeus
+km;ភូមិ ខ្នាចអំពរ៌;Phum Khnach Âmpôr
+km;ភូមិ អន់តែវ;Phum Ântêv
+km;ភូមិ បឹងឬស្សី;Phum Bœ̆ng Rŭssei
+km;ភូមិ ដូងស្ដៅ;Phum Dong Sdau
+km;ភូមិ អូក្រៀត;Ou Kriet
+km;Phumĭ O Kriĕt;Ou Kriet
+km;ភូមិ ស្វាយពង;Phum Svay Pông
+km;ភូមិ ព្រៃជ្រុំ;Phum Prey Chrŭm
+km;ភូមិ អន្លង់កូបត្បូង;Phum Ânlung Kop Tbong
+km;ភូមិ តាពក;Phum Ta Pôk
+km;ភូមិ ធ្មុងកញ្ចុះ;Phum Thmŭng Kânhchŏh
+km;ភូមិ ព្រៃព្រាលទួលស្គរ;Phum Prey Préal Tuŏl Skôr
+km;ភូមិ ដំណាក់រកា;Phum Dâmnak Rôka
+km;ភូមិ ប្រពេជចង្វា;Phum Prâpêch Chângva
+km;Phum Prey Choŭ;Ta Nak
+km;ភូមិ ព្រៃជោ;Ta Nak
+km;ភូមិ រកាឈ្មោល;Roka Chhmoul
+km;Phumĭ Rôka Chhmoŭl;Roka Chhmoul
+km;ភូមិ ចាមរអា;Phum Cham Rôa
+km;ភូមិ ព្រៃឈ្លូស;Phum Prey Chhlus
+km;ភូមិ សៀម;Phum Siĕm
+km;ភូមិ ទួលប៉ុន;Phum Tuŏl Pŏn
+km;ភូមិ ព្រៃក្លូត;Phum Prey Khlot
+km;ភូមិ សំរោងឆ្ងាយ;Phum Sâmraông Chhngay
+km;ភូមិ កំពង់ពោ;Phum Kâmpông Poŭ
+km;ភូមិ គោកពន្លៃ;Kouk Ponley
+km;Phum Koŭk Pônley;Kouk Ponley
+km;Phum Krâpeu Khang Tbong;Krapeu Tboung
+km;ភូមិ ក្រពើខាងជើង;Krapeu Tboung
+km;ភូមិ ក្ដោងខាងលិច;Phum Kdaông Khang Lĕch
+km;ភូមិ ពាមកែវ;Phum Péam Kêv
+km;ភូមិ ស្វាយជ្រុំ;Phum Svay Chrŭm
+km;ភូមិ ខ្ចាស;Phum Khchas
+km;ភូមិ អូដំបង មួយ;Ou Dambang Mouy
+km;Phumĭ O Dâmbâng Muŏy;Ou Dambang Mouy
+km;ភូមិ វត្តគរ;Voat Kor
+km;Phum Vôat Kôr;Voat Kor
+km;ភូមិ សំរោងតាកុក;Phum Sâmraông Ta Kŏk
+km;ភូមិ ព្រែកស្នោ;Phum Prêk Snaô
+km;Phumĭ Vôat Kâkoŭ;Voat Roka
+km;ភូមិ វត្តកគោ;Voat Roka
+km;ភូមិ សំរោងក្នង;Samraong Knong
+km;Phum Sâmraông Knŏng;Samraong Knong
+km;ភូមិ អន្លង់តាជួស;Phum Ânlŭng Taduŏ
+km;ភូមិ ខ្មែរ;Phum Khmêr
+km;ភូមិ ដង្កៀបក្ដាម;Phum Dângkiĕp Kdam
+km;ភូមិ ស្ដី;Phum Sdei
+km;ភូមិ រលាំង;Phum Rôleăng
+km;ភូមិ តាគំ;Ta Kom
+km;Phum Ta Kŭm;Ta Kom
+km;ភូមិ តាកុយ;Phum Ta Kŏy
+km;ភូមិ សួសអី;Phum Suŏs Ei
+km;ភូមិ ឯករាំង្សី;Phum Êk Reăngsei
+km;ភូមិ ព្រែកហ្លួង;Preaek Luong
+km;Phum Prêk Luŏng;Preaek Luong
+km;ភូមិ ព្រែកខ្ពប;Preaek Khob
+km;Phum Prêk Khpôp;Preaek Khob
+km;ភូមិ កញ្ឆែង;Phum Kânhchhêng
+km;ភូមិ ព្រែកតាច្រែង;Phum Prêk Ta Chrêng
+km;ភូមិ ទ្រាស;Phum Tréas
+km;Phum Vôat Sla Kêt;Sla Kaet
+km;ភូមិ វត្តស្លាកែត;Sla Kaet
+km;ភូមិ រនាត;Phum Rônéat
+km;ភូមិ ជ្វាធំ;Phum Chhvéa Thom
+km;ភូមិ ជ្វាតូច;Phum Chhvêa Toch
+km;ភូមិ ចំការសំរោង;Phum Châmkar Sâmraông
+km;Phum Prey Chĕn;Ou Char
+km;ភូមិ ព្រៃធិន;Ou Char
+km;ភូមិ កគោ;Ka Kou
+km;Phum Kâkoŭ;Ka Kou
+km;ភូមិ អូចារ;Phum O Cha
+km;ភូមិ រលាក;Phum Rôléak
+km;ភូមិ តាឡក;Phum Ta Lŏk
+km;ភូមិ កូនី;Phum Koni
+km;ភូមិ បឹងរន;Phum Bœ̆ng Rŭn
+km;ភូមិ កូនសេក;Phum Kon Sék
+km;ភូមិ ព្រៃដាច់;Prey Dach
+km;Phum Prey Dach;Prey Dach
+km;ភូមិ បែកចាន;Phum Bêk Chan
+km;ភូមិ ចំការអាសី;Phum Châmkar Assei
+km;ភូមិ បសពង;Phum Bŏs Pông
+km;ភូមិ ច្រាបវាល;Phum Chrap Véal
+km;ភូមិ ស្កាំងទង;Phum Sdăng Tông
+km;ភូមិ ព្រែកទទឹង;Phum Prêk Tôtœ̆ng
+km;ភូមិ បោះពោធិ;Phum Baôh Poŭ
+km;ភូមិ ថ្មផុត;Phum Thmâ Phŏt
+km;Phumĭ Dângkaô Téap;Tuol Ta Aek
+km;ភូមិ ដង្កោ ទាប;Tuol Ta Aek
+km;ភូមិ សាលាលោកបាឡាត;Phum Sala Loŭk Balat
+km;ភូមិ ពកឆ្មា;Phum Pôk Chhma
+km;ភូមិ ខ្វែង;Phum Khvêng
+km;ភូមិ ទួលអូអំពិល;Phum Tuŏl O Âmpil
+km;Phum Svay Pa;Ballang
+km;ភូមិ ស្វាយប៉ា;Ballang
+km;ភូមិ ច្រប់ ក្រសាំង;Chrab Krasang
+km;Phum Chrâp Krâsăng;Chrab Krasang
+km;ភូមិ រំចេក;Phum Rŭm Chék
+km;ភូមិ ខ្នារ;Khnar
+km;Phum Khnar;Khnar
+km;Phum O Khchéay;Voat Ta Muem
+km;ភូមិ អូខ្ជាយ;Voat Ta Muem
+km;ភូមិ អូកណ្ដាល;Phum O Kândal
+km;ភូមិ អូពីដើម;Phumĭ O Pidaeum
+km;ភូមិ ឫស្សីកែវ;Phum Rŭssei Kêv
+km;ភូមិ ប៊ួរខ្នារ;Phum Buŏr Khna
+km;ភូមិ ទួលអូស្រឡៅ;Phum Tuŏl O Srâlau
+km;ភូមិ ឥន្ទជិត;Phum Ĕnth Chĭt
+km;ភូមិ ទួលបួរ;Phum Tuŏl Buŏr
+km;ភូមិ បាយដំរាំខាងលិច;Phum Bay Dâmrăm Khang Léch
+km;ភូមិ ទួលអំពិលខ្ពស់;Phum Tuŏl Âmpĭl Khpuŏs
+km;ភូមិ កំពង់សំបួរ;Phum Kâmpông Sambuăr
+km;ភូមិ តាមាឃ;Ta Meakh
+km;Phumĭ Taméakh;Ta Meakh
+km;ភូមិ តាណូន;Phum Tanon
+km;ភូមិ អនង់ កាយ;Phum Anlông Kay
+km;ភូមិ ត្របែក;Trabaek
+km;Phum Trâbêk;Trabaek
+km;ភូមិ ពីពុង;Phum Pipung
+km;ភូមិ ពោធិរៀង;Phum Poŭth Rieng
+km;ភូមិ គោកអំពិល;Phum Koŭk Ampil
+km;ភូមិ ព្រៃចង្ហារ;Phum Prey Chânghar
+km;ភូមិ បឹងស្វាយ;Phum Bœ̆ng Svay
+km;ភូមិ តាអិន ពីរ;Ta In Pir
+km;Phum Ta In Pir;Ta In Pir
+km;ភូមិ ចាមប្រាកោម;Phum Cham Pra Kaôm
+km;ភូមិ អូអណ្ដួងកើត;Phum O Andong Kaeut
+km;Phumĭ O Andong Lich;Ou Andoung Kandal
+km;ភូមិ អណ្ដួងលិច;Ou Andoung Kandal
+km;ភូមិ បឹងត្រោះ;Phum Bœng Thraôh
+km;ភូមិ ចាកុកលេ;Phum Cha Kŏk Ley
+km;ភូមិ ជាងដែក;Phum Chéang Dêk
+km;ភូមិ កោកលេង;Phum Kaôk Léng
+km;ភូមិ កុងកូ;Phum Kong Ko
+km;ភូមិ ប៉ុយតាសុក;Paoy Ta Sek
+km;Phum Pŏy Ta Sok;Paoy Ta Sek
+km;ភូមិ គោកទន្លាប;Phum Koŭk Tônléap
+km;ភូមិ ស្រះ;Phum Srăh
+km;ភូមិ ស្ដុកស្ដរ;Phum Sdŏk Sdâr
+km;ភូមិ ម្ចាស់;Phum Phnéas
+km;ភូមិ កោងកាង;Kaong Kang
+km;Phum Kaông Kang;Kaong Kang
+km;ភូមិ តាស្វាយ;Phum Ta Svay
+km;ភូមិ ច្រនៀង;Phum Chrâu Niĕng
+km;ភូមិ ទន្នាប;Phum Tôn Néap
+km;ភូមិ គោកត្រប់;Phum Koŭk Trâp
+km;ភូមិ ជ្រោយម្ទេស;Phum Chroŭy Môtés
+km;ភូមិ ទួលទំពូង;Phum Tuŏl Tumpung
+km;Phum Chas;Char Thmei
+km;ភូមិ ចាស;Char Thmei
+km;ភូមិ ផាត់សន្ដោង;Phat Sandaong
+km;Phumĭ Phat Sândâong;Phat Sandaong
+km;ភូមិ ឆឹ្នមមាស;Phum Chnaeum Méas
+km;Phumĭ Kambot;Stueng Kambot
+km;ភូមិ កាំបុត;Stueng Kambot
+km;ភូមិ តូច;Phum Toch
+km;ភូមិ ស្រាជូ;Phum Sra Chu
+km;Phum Trâpeăng Thmâ Khang Cheung;Paoy Char
+km;ភូមិ ត្រពាំងថ្មខាងជើង;Paoy Char
+km;Phumĭ Trâpeăng Thmâ Khang Tbong;Trapeang Thma Tboung
+km;ភូមិ ត្រពាំងថ្មខាងត្បូង;Trapeang Thma Tboung
+km;Phumĭ Koŭk Chas Muŏy;Paoy Char
+km;ភូមិ គោកចាស់ (មួយ);Paoy Char
+km;ភូមិ កូនសង្កែ;Phum Kon Sângkê
+km;Phum Rumphéa;Kouk Chas
+km;ភូមិ រំភា;Kouk Chas
+km;ភូមិ គោកកណ្ដាល;Phum Koŭk Kândal
+km;ភូមិ តាគង់;Phum Ta Kŭng
+km;ភូមិ ស្លែងចាស់;Phum Slêng Chas
+km;ភូមិ ស្លែងគង;Slaeng Kong
+km;Phum Slêng Kŭng;Slaeng Kong
+km;ភូមិ ស្លែងតាវែត;Slaeng Ta Vet
+km;Phum Slêng Ta Vêt;Slaeng Ta Vet
+km;ភូមិ គោកចាស់;Phumĭ Koŭk Chas
+km;ភូមិ អន្សោមគោ;Phum Ansaônv Koŭ
+km;Phum Tônléap;Tonloab
+km;ភូមិ ផ្លូវលាវ;Phum Phlov Léav
+km;ភូមិ គៀន;Phum Kiĕn
+km;ភូមិ តាដេក;Phum Ta Dêk
+km;ភូមិ កន្ទួត;Phum Kântuôt
+km;ភូមិ ទឹកជុំ;Tuek Chum
+km;Phum Tœ̆k Chŭm;Tuek Chum
+km;ភូមិ យាយិន;Phum Yéa Yĕn
+km;ភូមិ យាយិន;Phum Yéa Yĭn
+km;ភូមិ ស្រះជីក;Srah Chik
+km;Phum Srăh Chik;Srah Chik
+km;ភូមិ មាត់ស្រះ;Phum Moâl Srah
+km;Phum Koŭk Séh;Phnum Dei
+km;ភូមិ គោកសេះ;Phnum Dei
+km;ភូមិ កៀនរុន;Phum Kiĕn Rŭn
+km;ភូមិ កៀនសំបូរ;Phum Kiĕn Sambuŏr
+km;ភូមិ គោកទួលរវៀង;Phum Koŭk Tuŏl Rôviĕng
+km;ភូមិ កៀនរូង;Phum Kiĕn Rung
+km;ភូមិ អន្លង់;Anlong
+km;Phum Ânlŭng;Anlong
+km;ភូមិ ដំរីស្លាប់;Damrei Slab
+km;Phumĭ Dâmrei Slap;Damrei Slab
+km;ភូមិ រោគខាងជើង;Phum Roŭk Khang Cheung
+km;Sala Srŏk Krâlanh;Kralanh
+km;ភូមិ រតចាស;Phum Rut Chas
+km;ភូមិ ព្រះអង្គ;Phum Preăh Ang
+km;ភូមិ ស្នាយដង្គត់;Phum Snay Dângkôt
+km;ភូមិ អ្នកតា;Phum Néak Ta
+km;ភូមិ ថ្មីឃុំ;Phum Thmei Khum
+km;ភូមិ ភ្នៀត;Phniet
+km;Phum Phniĕt;Phniet
+km;ភូមិ សាលាដែង;Phum Sala Dêng
+km;Phum Prêk Chêk;Preaek Lpov
+km;ភូមិ ព្រែកចែក;Preaek Lpov
+km;Phum Roŭng Srov;Neang Ket
+km;ភូមិ រោងស្រូវ;Neang Ket
+km;Phum Koŭk Tônléap;Chumteav
+km;ភូមិ គោកទន្លាប់;Chumteav
+km;ភូមិ ព្រះស្រែ;Preah Srae
+km;Phum Preăh Srê;Preah Srae
+km;ភូមិ ចំការតាដោក;Phum Châmcar Ta Daôk
+km;ភូមិ កុយម៉េង;Koy Maeng
+km;Phum Kŏy Méng;Koy Maeng
+km;ភូមិ អន្លង់ត្របែក;Phum Anlŭng Trâbêk
+km;ភូមិ ថ្ពង;Phum Thpông
+km;ភូមិ គុម្តរកា;Phum Kŭm Rôka
+km;ភូមិ ថ្មរគោល;Phum Thmâr Koŭl
+km;Phum Mat Thbo;Bantoat Baoh
+km;ភូមិ ម៉ាត់ ត្បូ;Bantoat Baoh
+km;ភូមិ កោះស្វាយ;Khu Svay
+km;Phum Kaôh Svay;Khu Svay
+km;ភូមិ បឹងវែង;Boeng Veaeng
+km;Phum Bœ̆ng Véng;Boeng Veaeng
+km;ភូមិ គន្ទ្រុង;Phum Kântrông
+km;ភូមិ គោកជ្រូក;Phum Koŭk Chruk
+km;ភូមិ គោកធ្ងរ;Phum Koŭk Thângôr
+km;ភូមិ បោយចាដូង;Phum Paôy Chadong
+km;ភូមិ ប៉ោយព្រីង;Paoy Pring
+km;Phum Paôy Pring;Paoy Pring
+km;ភូមិ ប៉ុសចាស់;Phum Pŏs Chas
+km;ភូមិ ប៉ោយសំរោង;Phum Paôy Sâmraông
+km;ភូមិ ត្រដេវ;Phum Trâdév
+km;ភូមិ ខាងលិចភ្នំ;Sreh Lech
+km;Phum Khang Lich Phnŭm;Sreh Lech
+km;ភូមិ ព្រះឈរ;Phum Preăh Chhô
+km;ភូមិ តាសុង;Phum Ta Sŏng
+km;ភូមិ តាស្រី;Ta Srei
+km;Phum Ta Srei;Ta Srei
+km;ភូមិ ថ្មីខាងលិច;Phum Thmei Khang Lĭch
+km;ភូមិ វត្តចាស់;Phum Vatt Chas
+km;ភូមិ ក្រយាន;Phum Krâyêan
+km;ភូមិ គោកកី;Phum Koŭk Kei
+km;Phumĭ Thmeí Muŏy;Rumduol Thmei
+km;ភូមិ ត្រពាំងក្រសាំង;Phumĭ Trâpeăng Krâsăng
+km;Phumĭ Tbêng;Traeng Prachoab
+km;ភូមិ ត្បេង;Traeng Prachoab
+km;ត្រពាំងសាលាខាងលិច;Trapeang Sala Khang Lech
+km;ត្រពាំងសាលាខាងកើត;Trapeang Sala Khang Kaeut
+km;អរិយក្សត្រ;Arey Ksat
+km;គោកធ្លក;Kouk Thlok
+km;ភូមិ ដំរីស្លាប់;Phum Dâmrei Slap
+km;Phumĭ Prey Bântéay Pir;Tuol Vihear
+km;ភូមិ ព្រៃបន្ទាយ ពីរ;Tuol Vihear
+km;Sala Srŏk Stœ̆ng Trâng;Stueng Trang
+km;ភូមិ ថួយធំ;Thuoy Tum
+km;Phum Thuŏy Thom;Thuoy Tum
+km;Khuon;Khun
+km;ភូមិ ត្រពាំងប្រនឹម;Phum Trâpeăng Prânœ̆m
+km;ភូមិ ដង្កៀបក្តាម;Phum Dângkéap Kdam
+km;ភូមិ ក្ដី;Phum Kdei
+km;Phumĭ Bŏs;Bos
+km;ភូមិ បុស;Bos
+km;ភូមិ ព្រៃខ្នា;Phum Prey Khna
+km;ភូមិ ក្រោលគោ;Phum Kraôl Koŭ
+km;ភូមិ ឈូក;Phumĭ Chhuk
+km;ភូមិ តាជៃ;Phum Tachey
+km;ភូមិ ថ្ងាន់;Phum Thngann
+km;ភូមិ តាពេជ;Phum Tapech
+km;Phum Prey Rôvéay;Prey Lveay
+km;ភូមិ ព្រៃរវាយ;Prey Lveay
+km;ភូមិ ព្រែករាំង;Phum Prêk Reăng
+km;ភូមិ ពាមកោះ;Phum Péam Kaôh
+km;ភូមិ ព្រែកក្រហែ;Phum Prêk Krâhê
+km;ភូមិ ទួលជ្រៃ;Phumĭ Tuŏl Chrey
+km;ភូមិ បាទី;Phum Bati
+km;ភូមិ ឡអិដ្ឋ;Phum Lâ Ĕd
+km;ភូមិ អូលាវ;Phum O Léay
+km;ភូមិ តាគត់;Phum Ta Kŭt
+km;ភូមិ កន្លោង;Phum Kânloŭng
+km;ភូមិ វាល;Phumĭ Véal
+km;ភូមិ ស្ដៅ;Phum Sdau
+km;ភូមិ តាសូ;Phum Ta So
+km;ភូមិ ស្នួល;Phum Snuŏl
+km;Phum Sângkê Chrŭm;Sangkae Chrum
+km;ភូមិ សង្កែជ្រុំ;Sangkae Chrum
+km;ភូមិ ពោភ្លុក;Phum Poŭ Phlŭk
+km;ភូមិ ទីលេង;Phum Tiléng
+km;ភូមិ អង្កាល់;Phum Ângkal
+km;ភូមិ អង្គ្រង;Phum Ângkrông
+km;ភូមិ ល្ពាច;Phum Lôpéach
+km;Phum Kbal Dâmrei;Kbal Damrei
+km;ភូមិ ក្បាលដំរី;Kbal Damrei
+km;ភូមិ ស្វាយខ្នី;Phum Svay Khnei
+km;ភូមិ ជើងទឹក;Phum Cheung Tœ̆k
+km;ភូមិ ត្នោតស្វាយ;Phum Tnaôt Svay
+km;ភូមិ ប្រឃ្លាំង;Phum Prâkhleăng
+km;ភូមិ ព្រៃដំរី;Phum Prey Dâmrei
+km;ភូមិ អង្កាញ់;Phum Ângkanh
+km;ភូមិ កណ្ដាល;Phum Kandal
+km;ភូមិ ត្រពាំងទ័ល;Phumĭ Trâpeăng Toal
+km;ភូមិ គ្រង់;Phum Krŭng
+km;ភូមិ ស្លា;Phum Sla
+km;ភូមិ កំពតពុល;Phum Kâmpôt Pŭl
+km;ភូមិ ព្រែកតាឡៃ;Phum Prêk Ta Lai
+km;Phum Sâmpan Leu;Sampan Leu
+km;ភូមិ សំប៉ានលើ;Sampan Leu
+km;ភូមិ យន;Phum Yuŏn
+km;Phum Ânlông Ta Sék;Anlong Ta Sek Kraom
+km;ភូមិ អន្លង់តាសេក;Anlong Ta Sek Kraom
+km;ភូមិ អន្លង់ចាខ្លាង;Phum Ânlŭng Cha Khlang
+km;ភូមិ ពាមខ្លាត្រី;Phum Péam Khla Trei
+km;ភូមិ កំពង់លាវ;Phum Kâmpong Léav
+km;ភូមិ ព្រែកយាយហាយ;Phum Prêk Yéay Hay
+km;ភូមិ ព្រែកផ្អាវ;Phum Prêk Phâav
+km;Phum Kâmpông Sâmbuŏr;Preaek Thmei
+km;ភូមិ កំពង់សំប៊ួរ;Preaek Thmei
+km;ភូមិ កំពង់សាមរ;Phum Kâmpông Samâr
+km;ភូមិ កំពង់ស្វាយ;Phum Kâmpông Svay
+km;ភូមិ ទួលដូនគាំ;Phum Tuŏl Don Kŏâm
+km;ភូមិ ខ្លែងគង់;Phum Khlêng Kŭng
+km;ភូមិ ព្រែកតាហ៊ីង;Phum Prêk Tahing
+km;ភូមិ ចាមក្រោម;Phum Cham Kraôm
+km;ភូមិ ជ្រោយតាកែវក្រោម;Phum Chroŭy Takêv Kraôm
+km;ភូមិ ដើមពោធិក្រោម;Phum Daeum Poŭ Kraôm
+km;ភូមិ ក្បាលកោះ;Phum Kbal Kaŏh
+km;ភូមិ ពោធិមិត;Phum Poŭthimĭth
+km;ភូមិ ពោធិទន្លេ;Phum Poŭ Tônlé
+km;ភូមិ កោះកន្ធាយ;Phum Kaôh Kânthéay
+km;Sala Srŏk Leuk Dêk;Leuk Daek
+km;សាលាស្រុកលើកដែក;Leuk Daek
+km;ភូមិ ហង់អាន;Phum Hâng An
+km;Sala Srŏk Péam Chôr;Peam Chor
+km;សាលាស្រុកពាមជរ;Peam Chor
+km;ភូមិ កោះចាស់;Phum Kaôh Chass
+km;ភូមិ កោះថ្មី;Phum Kaôh Thmei
+km;ភូមិ ព្រែកតានប់;Phum Prêk Ta Nŭp
+km;ភូមិ កោះគរ;Phum Kaôh Kôr
+km;ភូមិ ព្រែកតាទន់;Phum Prêk Ta Tôn
+km;ភូមិ ពោធិតាប៉ាង;Phum Poŭ Ta Pang
+km;ភូមិ ព្រែកស្នាយ;Preaek Koy
+km;Phum Prêk Snay;Preaek Koy
+km;ភូមិ ព្រែកតាផេម;Phum Prêk Ta Phém
+km;ភូមិ ព្រែករាំង;Preaek Reang
+km;Phum Prêk Reăng;Preaek Reang
+km;ភូមិ ព្រែកម៉ែន;Phum Prêk Mên
+km;ភូមិ សង្កែ;Phum Sângkê
+km;ភូមិ បឹងខ្ពប;Phum Bœ̆ng Khpôp
+km;ភូមិ ព្រែកប៉ុល;Phum Prêk Pŏl
+km;ភូមិ កន្លែងចាស់;Phum Kânlêng Chas
+km;ភូមិ ព្រែកហ្លួង;Phum Prêk Luŏng
+km;ភូមិ ព្រែកប្រា;Phum Prêk Pra
+km;ភូមិ ព្រែកប្រាខ្មែរ;Phum Prêk Pra Khmêr
+km;ភូមិ រទាំង;Roteang
+km;Phum Rôteăng;Roteang
+km;ភូមិ ព្រែកបង្កង;Phum Prêk Bângkâng
+km;ភូមិ តារាប;Phum Ta Réap
+km;ភូមិ សូភី;Phum Sophi
+km;ភូមិ កណ្តាលកោះ;Phum Kândal Kaôh
+km;ភូមិ សិត្បូរក្រោម;Phum Setbo Kraôm
+km;ភូមិ ព្រែកស្វាយមាស;Phum Prêk Svay Méas
+km;ភូមិ កោះចិន;Phum Kaôh Chĕn
+km;Phum Chheutéal;Chheu Teal
+km;ភូមិ ថ្មគោល;Phum Thmâ Koŭl
+km;ភូមិ លំលែក;Phum Lŭmlêk
+km;ភូមិ ព្រែកស្វាយ;Phumĭ Prêk Svay
+km;ភូមិ អ្នកតាសំរោង;Phum Néak Ta Sâmraông
+km;ភូមិ ព្រៃកោស;Phum Prey Kaôs
+km;ភូមិ ថ្មដារ;Phum Thmâ Dar
+km;ភូមិ ជ្រោយឫស្សី;Phum Chroŭy Rŭssei
+km;ភូមិ កំពង់ព្រឹង;Phum Kâmpông Pring
+km;ភូមិ កន្លែងអណ្តែង;Kanlang Andaeng
+km;Phum Kânlêng Ândêng;Kanlang Andaeng
+km;ភូមិ ព្រែកទាហ៊ានសៅ;Phum Prêk Téahéan Sau
+km;ភូមិ ប្រាប់អង្គរ;Phum Prăp Ângkôr
+km;ភូមិ ធន់មន់;Phum Thŭn Mŭn
+km;ភូមិ ក្បាលកោះខ្សាច់ទន្លេកើត;Kaoh Khsach Tonlea
+km;Phum Kbal Kaôh Khsach Tônléa Kaeut;Kaoh Khsach Tonlea
+km;Phum Prêk Thmei Chŏng Kaôh;Tuek Vil
+km;ភូមិ ព្រែកថ្មីចុងកោះ;Tuek Vil
+km;ភូមិ ថ្កុល;Phum Thkŏl
+km;ភូមិ ចុងកោះខ្សាច់ទន្លាលិច;Phum Chŏng Kaôh Khsach Tônléa Lĕch
+km;ភូមិ អូជ្រៅ;Phum O Chrŏu
+km;ភូមិ ទន្លេសំពរ;Phum Tônlé Sâmpôr
+km;ភូមិ ចុងកោះខ្សាច់ទន្លេកើត;Phum Chŏng Kaôh Khsach Tônléa Kaeut
+km;ភូមិ អុងប៉ាង;Phum Ŏng Pang
+km;ភូមិ ស្វាយជួរ;Phum Svay Chuŏr
+km;ភូមិ ដំរីឆ្លង;Phum Dâmrei Chhlâng
+km;ភូមិ យួន;Phum Yuŏn
+km;ភូមិ អង្គរជ័យ;Phum Ângkôr Chey
+km;ភូមិ កោះធំ;Phum Kaôh Thom
+km;ភូមិ ជ្រោយមេសាយ;Phum Chroŭy Mésay
+km;ភូមិ កោះផុស;Phum Kaôh Phŏs
+km;ភូមិ ល្វាសរលើ;Lvea Sa
+km;Phum Lôvéa Sâr Leu;Lvea Sa
+km;ភូមិ ក្បាលកោះ បី;Phum Kbal Kaôh Bei
+km;Phum Kândal Kaôh;Kaoh Kaev
+km;ភូមិ កណ្តាលកោះ;Kaoh Kaev
+km;ភូមិ ពោមៀវ;Phum Poŭ Miĕv
+km;ភូមិ ឫស្សីកែវ;Ruessei Kaev
+km;Phumĭ Rŭssei Kêv;Ruessei Kaev
+km;ភូមិ ស្រឡៅដំណាក;Sralau Damnak
+km;Phum Srâlau Dâmnak;Sralau Damnak
+km;ភូមិ ស្វាយជុំ;Svay Chum
+km;Phum Svay Chŭm;Svay Chum
+km;ភូមិ ព្រែកតាហុប;Preaek Ta Hub
+km;Phum Prêk Ta Hŏp;Preaek Ta Hub
+km;Phum Prêk Sâmraông;Khsach Andaet
+km;ភូមិ ព្រែកសំរោង;Khsach Andaet
+km;ភូមិ ហាន់ជៃក្រោម;Phumĭ Hanchey Kraôm
+km;ភូមិ ចុងកោះតាស៊ុយ;Kaoh Ta Suy
+km;Phumĭ Chŏng Kaôh Tasŭy;Kaoh Ta Suy
+km;ភូមិ ព្រែកបឹង;Phum Prêk Bœ̆ng
+km;ភូមិ ព្រែកស្វាយ;Preaek Svay
+km;Phum Prêk Svay;Preaek Svay
+km;Phumĭ Chroŭy Snêng Krâbei;Chrouy Snaeng Krabei Kraom
+km;ភូមិ ជ្រោយស្នែងក្របី;Chrouy Snaeng Krabei Kraom
+km;ភូមិ កណ្ដាលកោះតាស៊ុយ;Phum Kândal Kaôh Tasŭy
+km;ភូមិ ឆុង;Phum Chhŏng
+km;ភូមិ កោះក្របី;Phum Kaôh Krâbei
+km;ភូមិ ជួរកណ្តាល;Phum Chuŏr Kândal
+km;ភូមិ មាន់ហើរ;Moan Hauer
+km;Phum Moăn Haeur;Moan Hauer
+km;Phum Chheautéal Srŏt;Chheu Teal Srot Kraom
+km;ភូមិ ឈើទាលស្រុត;Chheu Teal Srot Kraom
+km;ភូមិ ក្បាលជ្រាយ;Phum Kbal Chroŭy
+km;ភូមិ បន្ទាយជ័យ;Phum Bântéay Chey
+km;Phum Rôléang;Boeng Pruol
+km;ភូមិ រំលៀង;Boeng Pruol
+km;Phum Tuŏl Kâmpôt;Tuol Kampot Ti Muoy
+km;ភូមិ ទួលកំពត;Tuol Kampot Ti Muoy
+km;ភូមិ ប៉ោងក្មួញ;Phum Paông Khmuŏnh
+km;ភូមិ ព្រែកលោត;Phum Prêk Loŭt
+km;Phum Lék Prămbei Dâp;Prammuoy Dab
+km;ភូមិ លេខ ប្រាំបី ដប់មួយ;Prambei Dabmuoy
+km;Phum Lék Prămbei Dâp Muŏy;Prambei Dabmuoy
+km;Phum Lék Dâp Dâp Muŏy;Phum Dab Dabmuoy
+km;Phum Pông Tœ̆k;Pong Tuek
+km;ភូមិ អូអន្លង់;Phum O Ânlŭng
+km;ភូមិ ទួលព្រែកពាម;Phum Tuŏl Prêk Péam
+km;Phum Châmkar Caoutchouc;Multhan Ta Pav
+km;ភូមិ ចំការកៅស៊ូ;Multhan Ta Pav
+km;ភូមិ តូបមិមាន;Phum Top Miméan
+km;ភូមិ ថ្នាកពពេល;Damnak Popel
+km;Phumĭ Thnak Pôpél;Damnak Popel
+km;Phum Prêk Yuŏn;Kampong Chanloh Kaeut
+km;ភូមិ ព្រែកយួន;Kampong Chanloh Kaeut
+km;ភូមិ តាមតឹ;Phum Tamtœ
+km;ភូមិ ថី;Phum Thmei
+km;ភូមិ អូតាមោ;Ou Ta Mou
+km;Phum O Tamaô;Ou Ta Mou
+km;ភូមិ ដូនត្បែស;Phum Don Tbês
+km;ភូមិ ច្រកម្ទេស;Chrak Mtees
+km;Phum Chrâk Môtés;Chrak Mtees
+km;ភូមិ មនោរម្យ;Phum Mônoŭrŭm
+km;Phumĭ Kâmpŭng Rôtéh;Prey Tob
+km;ភូមិ កំពង់រទេះ;Prey Tob
+km;ភូមិ ព្រៃទប់;Prey Tob
+km;Phum Prey Tŭp;Prey Tob
+km;Phum Kâmpôk Chruk;Kampout Pras
+km;ភូមិ កំពតជ្រូក;Kampout Pras
+km;Phum Réam Choŭ;Kampout Chruk
+km;ភូមិ រាមជោ;Kampout Chruk
+km;ភូមិ បាញ់ចារ;Phum Banh Char
+km;ភូមិ បុសក្រសាំង;Bos Krasang
+km;Phum Bos Krasăng;Bos Krasang
+km;ភូមិ អង្គក្តួច;Angk Kduoch
+km;Phumĭ Âng Kduŏch;Angk Kduoch
+km;ភូមិ ត្រពាំងផ្លុង;Trapeang Phlong
+km;Phum Trâpeăng Phlŏng;Trapeang Phlong
+km;ភូមិ ត្រពាំងត្រប់;Phum Trâpeăng Trâp
+km;ភូមិ ត្រពាំងដង្ហិត;Phum Trâpeăng Dânghĕt
+km;ភូមិ ថ្នាញ;Thnanh
+km;Phum Thnanh;Thnanh
+km;ភូមិ ប្រសប់លាក់;Prasab Leak
+km;Phum Prâsâp Leăk;Prasab Leak
+km;ភូមិ មតស្លឹក;Bat Sloek
+km;Phum Bât Sloek;Bat Sloek
+km;ភូមិ ថ្ពងក្រៅ;Phum Thpông Krau
+km;ភូមិ ក្បាលថ្ពង;Phum Kbal Thpŏng
+km;ភូមិ កាត់ដៃថ្មី;Phum Kăt Dai Thmei
+km;ភូមិ ស្រែសាត;Phum Srê Sat
+km;ភូមិ ទំលុស;Phum Tŭmlŭs
+km;ភូមិ ថ្ពងចាម;Phum Thpông Cham
+km;ភូមិ ប្រវាញ;Pravanh
+km;Phum Prâvéanh;Pravanh
+km;ភូមិ ស្រែចារ;Phum Srê Char
+km;ភូមិ អូថ្ងរ;Phum O Thngâr
+km;ភូមិ ថ្មហាលវាល;Thma Hal Veal
+km;Phum Thmâ Hal Véal;Thma Hal Veal
+km;Phum Cheung Khlu Krau;Pir Thnu
+km;ភូមិ ជើងឃ្លូក្រៅ;Pir Thnu
+km;ភូមិ ជើងឃ្លូក្នុង;Phum Cheung Khlu Knŏng
+km;ភូមិ ច្រាប;Phum Chrap
+km;ភូមិ ខ្លាស្ទុះ;Phum Khla Stŭh
+km;ភូមិ ព្រះគន្លង;Preah Konlong
+km;Phum Preăh Kônlông;Preah Konlong
+km;ភូមិ ព្រែកតាចឹង;Preaek Ta Thoeng
+km;Phum Prêk Ta Chœ̆ng;Preaek Ta Thoeng
+km;ភូមិ ព្រែក ប្រាំង;Preaek Prang
+km;Phum Prêk Prăng;Preaek Prang
+km;ភូមិ ដីដុះលើ;Dei Doh Leu
+km;Phum Deidŏh Leu;Dei Doh Leu
+km;ភូមិ ព្រៃគូ;Preaek Kur
+km;Phum Prey Ku;Preaek Kur
+km;ភូមិ ដំណាក់សរសរ;Damnak Sasar
+km;Phum Dâmnak Sârsâr;Damnak Sasar
+km;ភូមិ មានជ័យ;Mean Chey
+km;Phum Méan Chey;Mean Chey
+km;ភូមិ ប៉ាខ្លេ;Paklae
+km;Phum Pakhlé;Paklae
+km;ភូមិ ប្អើ;Phum Pâeu
+km;ភូមិ ស្រែរវៀង;Phum Srê Raviĕng
+km;ភូមិ ឆក់ព្រះ;Phum Chhâk Preăh
+km;ភូមិ ធំ;Thum
+km;Phum Thom;Thum
+km;ភូមិ ជោ;Phum Choŭ
+km;Phum Khnach Toch;Khnach
+km;ភូមិ ខ្នាចតូច;Khnach
+km;ភូមិ ស្រែខ្ចងហោង;Phum Srê Khchâng Haông
+km;ភូមិ ស្រែបី;Phum Srê Bei
+km;ភូមិ កំពង់ក្រសាំង;Phum Kâmpŭng Krâsăng
+km;ភូមិ ស្រែអន្លង់គោល;Phum Srê Ânlŭng Koŭl
+km;ស្រែប៉ាង;Srê Pang
+km;ភូមិ ច្រប;Chrab
+km;Phum Chrâp;Chrab
+km;ភូមិ កោះដំបង;Phum Kaôh Dâmbâng
+km;Phumĭ Reăsmei Samaki;Sameakki
+km;ភូមិ រស្មីសាមគ្គី;Sameakki
+km;ភូមិ ហាងខបាន;Phum Hang Khoban
+km;ភូមិ និគមសេសាន;Phum Nikŭm Sésan
+km;ភូមិ ច្រប;Phum Chrâp
+km;Phumĭ Srê Lôviĕng;Rovieng
+km;ភូមិ ស្រែល្វៀង;Rovieng
+km;ភូមិ ស្រែអណ្ដូង;Phum Srê Ândong
+km;ភូមិ កាំប្លេញ;Phum Kămplénh
+km;ភូមិ តាអោងប៉ុក;Phum Ta Aông Pŏk
+km;ភូមិ ថួយតូច;Phum Thuŏy Toch
+km;ភូមិ ចាអ៊ុងលើ;Phum Cha Ŭng Lœ
+km;Phum Cha Ŭng Kraôm;Char Ung Kao
+km;ភូមិ ចាអ៊ុងក្រោម;Char Ung Kao
+km;ភូមិ កាទីង;Phum Kating
+km;ភូមិ ផាក់ណាម;Phaknam
+km;Phum Phak Nam;Phaknam
+km;Pa Hoy;Pa Hay
+km;ភូមិ ទា;Phum Téa
+km;Phum Srêpôk Toch;Neang Dei
+km;ភូមិ ស្រែពកតូច;Neang Dei
+km;ភូមិ តានែ;Phum Taney
+km;ភូមិ កំពង់ក្រញូង;Phum Kâmpông Krânhung
+km;អារ៉ៃ;Arai
+km;ភូមិ ជ្រោយ;Phum Chrouy
+km;ភូមិ អំពិលចាស់;Phum Ămpĭl Chas
+km;Phumĭ Sŏm Trŏm;Svay Chrum
+km;ភូមិ សុំត្រុំ;Svay Chrum
+km;ភូមិ កោះកែវ;Phum Kaŏh Kêv
+km;ភូមិ ដូនអាម;Phum Don Am
+km;Phum Koŭk Ândêt;Kaoh Andaet
+km;ភូមិ គោកអណ្ដែត;Kaoh Andaet
+km;ភូមិ ព្រៃរនាម;Phum Prey Rônéam
+km;Phumĭ Dâp Ban;Dab Bat
+km;ភូមិ ដប់បាន;Dab Bat
+km;ភូមិ គោក;Phum Koŭk
+km;ភូមិ អន្យរទេន;Phum Ânsâr Tén
+km;ភូមិ វត្តលួង;Voat Luong
+km;Phum Vatt Luŏng;Voat Luong
+km;ភូមិ ល្អិត;Phum Lôĕt
+km;ភូមិ បរិវ៉ាស;Phum Bârivas
+km;ភូមិ គីឡូលេខដប់;Phum Kilo Lék Dâp
+km;ភូមិ ទួលទ្រាល;Phum Toŭl Tréal
+km;ភូមិ ទទឹង;Phum Tôtœ̆ng
+km;ភូមិ ពោធិត្បាល់;Phum Po Tbal
+km;ភូមិ អារែន;Araen
+km;Phum Arên;Araen
+km;ភូមិ ត្នោតទ្រេត;Phum Tnaot Trét
+km;ភូមិ កព្រិង;Phum Kâmpring
+km;ភូមិ អូឬស្សី;Phum O Rŭssei
+km;ភូមិ ស្ដកខ្ទំ;Phum Sdŏk Khtŏm
+km;ភូមិ ក្រពើរស់;Phum Krâpeu Ruŏs
+km;ភូមិ អណ្ដូងក្រសាំង;Phum Ândong Krâsăng
+km;ភូមិ ត្រពាំងសង្កែរ;Phum Trâpeăng Sângkê
+km;ភូមិ អំពិលខ្ពប់;Phum Ămpĭl Khlŭp
+km;ភូមិ ដូងថ្កោល;Phum Dong Thkaôl
+km;ភូមិ អន្លង់មាន់;Phum Anlŭng Moân
+km;ភូមិ អន្លង់ឈរ;Phum Ânlŭng Chhôr
+km;ភូមិ បានា;Phum Pannéa
+km;ភូមិគោកសំរោង;Phum Koŭk Samraông
+km;ភូមិ ស្ដុកស្វាយថ្មី;Phum Sdŏk Svay Thmei
+km;ភូមិ គោកជុំ;Phum Koŭk Chŭm
+km;ភូមិ ដូងថ្មី;Phum Dong Thmei
+km;ភូមិ ក្ដីស្នួល;Phum Kdei Snuŏl
+km;ភូមិ ដើមត្រាំង;Phum Daeum Trăng
+km;ភូមិ កោះឧិក;Phum Koăh Aôk
+km;ភូមិ ចំបក់ស្រោង;Phum Châmbâk Sraông
+km;ភូមិ អណ្ដូងព្រៃធំ;Phum Ândong Prey Thom
+km;ភូមិ ផ្សារ;Phum Phsar
+km;ភូមិ អំពិលច្រៀង;Phum Âmpil Chriĕng
+km;ភូមិ ទន្សាយស៊ីប៉ាហ៊ូត;Phum Tônsay Sipahut
+km;ភូមិ គោកតាគុន;Phum Koŭk Ta Kŭn
+km;ភូមិ ផ្ទះស្លា;Phum Phteăh Sla
+km;ភូមិ ក្រចាប់;Phum Krâchap
+km;ភូមិ ផ្ទះស្វាយ;Phum Phteăh Svay
+km;Phum Phteăh Pay;Phteah Pring
+km;ភូមិ ផ្ទះបាយ;Phteah Pring
+km;ភូមិ អំពិលច្រាំង;Phum Âmpĭl Chreăng
+km;ភូមិ កោះតាតាន់;Phum Kaŏh Takân
+km;ភូមិ រូង;Phum Rung
+km;ភូមិ ប៉ាកក្នាយ;Phum Pak Knay
+km;ភូមិ រាមនី;Phum Réa Môni
+km;Phum Bœ̆ng Kraôl;Kien
+km;ភូមិ បឹងក្រោល;Kien
+km;ភូមិ យាយមាន់;Phum Yéay Moân
+km;Phum Phteăh Srei;Chamreh
+km;ភូមិ ផ្ទះស្រី;Chamreh
+km;ភូមិ បឹងបិន;Phum Bœ̆ng Bĕn
+km;Phum Prâthéat;Bakur
+km;ភូមិ ប្រធាតុ;Bakur
+km;ភូមិ ថ្មលើ;Phum Tmâr Leu
+km;ភូមិ ស្រោមពង;Phum Sraôm Pông
+km;ភូមិ ស្ដុករោង;Phum Sdŏk Roŭng
+km;ភូមិ ផ្ទះសំរោង;Phum Phteăh Sâmroŭng
+km;ភូមិ រំលិច;Phum Rŭmlich
+km;ភូមិ បាត់ដឹង;Phum Bat Doĕng
+km;ភូមិ មហាជ័យ;Phum Môha Chey
+km;ភូមិ បាក្សី;Phum Baksei
+km;ភូមិ ស្កុកខ្ទុំ;Phum Sdŏk Khtŭm
+km;ភូមិ របសរាំង;Phum Rôbâs Reăng
+km;ភូមិ កងក្រលៀង;Phum Kâng Krâliĕng
+km;ភូមិ ស្វាយសាលា;Phum Svay Sala
+km;ភូមិ ក្ងាន;Phum Kangan
+km;ភូមិ កំពង់រការ;Phum Kâmpông Rôkar
+km;ភូមិ ពពេល;Phum Pôpéh
+km;ភូមិ ក្រាំងក្នុង;Phum Krăng Knŏng
+km;ភូមិ ផ្ទះស្រែ;Phum Pteah Srê
+km;ភូមិ បាត់ថ្កូវ;Phum Bat Thkov
+km;ភូមិ ស្យាលើ;Phum Syar Leu
+km;ភូមិ កំពង់សំបូរ;Kampong Sambuor
+km;Phum Kâmpông Sâmboŭ;Kampong Sambuor
+km;ភូមិ មុកព្រាមសន្លង់;Phum Mŭk Péam Sânlŏng
+km;ភូមិ កណ្ដៀងក្នង;Phum Kândiĕng Khnŏng
+km;ភូមិ ព្រែកក្ដី;Phum Prêk Kdei
+km;ភូមិ អន្លង់ជ្រៃ ពីរ;Phum Ânlŭng Chrey
+km;Phum Plov Krâpeu;Anlong Vil
+km;ភូមិ ផ្លូវក្រពើ;Anlong Vil
+km;Phum Svay Lŏng;Svay Luong
+km;ភូមិ ស្វាយលុង;Svay Luong
+km;ភូមិ ទួលចារ;Phum Toŭl Char
+km;ភូមិ ពោធិឡើង;Pou Laeung
+km;Phum Poŭ Laeung;Pou Laeung
+km;ភូមិ ដនអម;Phum Dŏn Âm
+km;Phum Anlŭng Hœ̆p;Kaoh Chum
+km;ភូមិ អន្លង់ហឹប;Kaoh Chum
+km;ភូមិ ទួលពង្ររ;Tuol Pongro
+km;Phum Tŏul Pôngrô;Tuol Pongro
+km;ភូមិ ទួលពស់;Phum Toŭl Puŏs
+km;ភូមិ ស្វាយចំបក;Phum Svay Châmbâk
+km;ភូមិ តាកេះ;Phum Takéh
+km;ភូមិ ពោធិដំណាក់;Phum Poŭ Dâmnak
+km;ភូមិ អូប្រកងខាងជើង;Phum O Prâkâng Khang Cheung
+km;Phum Svay Prey;Phteah Prey
+km;ភូមិ ស្វាយព្រៃ;Phteah Prey
+km;ភូមិ វាល;Veal
+km;Phumĭ Véal;Veal
+km;ភូមិ អូប្រកងខាងត្បូង;Phum O Prâkâng Khang Tbong
+km;ភូមិ ចំការចេក;Phum Châmkar Chék
+km;ភូមិ អូស្ដៅ;Phum O Sdau
+km;ភូមិ ទួលតាកុយ;Phum Toŭl Ta Kŏy
+km;ភូមិ ទួលតាពុង;Phum Toŭl Tapŏng
+km;ភូមិ ក្ដីតាកុយ;Phum Kdei Ta Kŏy
+km;ភូមិ អូចំបក់;Phum O Châmbâk
+km;ភូមិ ស្ទឹងតូច;Phum Stœ̆ng Toch
+km;ភូមិ អូចំបក់;Phum O Châmbak
+km;ភូមិ តាសេកឈ;Phum Tasék Chhôr
+km;ភូមិ ប្រពាលខាយ;Phum Prâpéal Khay
+km;ភូមិ ព្រែកស្ដី;Phum Prêk Sdei
+km;ភូមិ សូរិយា;Phum Soriya
+km;ភូមិ អន្លង់ស្វាយ;Phum Anlŭng Svay
+km;ភូមិ ស្រងធំ;Phum Srâng Thom
+km;ភូមិ អន្លង់ព្រិច;Phum Ânlŭng Prich
+km;ភូមិ ចរឹក;Charoek
+km;Phum Chârœ̆k;Charoek
+km;ភូមិ ព្រៃស្រគុំ;Prey Srakum
+km;Phum Prĕy Srâkŭm;Prey Srakum
+km;ភូមិ ត្រាច់;Phum Trach
+km;វត្ត ខាងកើតអង្គរវត្ត;Vatt Khakaeut Ângkor Vatt
+km;ភូមិ ល្បើក;Phum Lôbaeuk
+km;ភូមិ ខ្មោចមោ;Phum Khmaôch Mau
+km;ភូមិ តាជេ;Phum Ta Chey
+km;Phum Phnŭm Rŏng;Peam
+km;ភូមិ ភ្នំរុង;Peam
+km;Phum Koŭk Thmei;Kouk Tnaot
+km;ភូមិ គោកថ្មី;Kouk Tnaot
+km;ភូមិ បន្ទាយរ;Banteay Chheu
+km;Phum Bântéay Chheu;Banteay Chheu
+km;ភូមិ គោកពង្រ;Phum Koŭk Pôngrô
+km;ភូមិ គោលស្នួល;Kouk Snuol
+km;Phum Koŭk Snuŏl;Kouk Snuol
+km;Phum Prey Thlôk;Prey Thlok
+km;ភូមិ ព្រៃធ្លក;Prey Thlok
+km;Phum Tasék;Prei Thmei
+km;ភូមិ តាសេក;Prei Thmei
+km;ភូមិ ត្រមេង;Trameng
+km;Phum Trâméng;Trameng
+km;Phum Rôka;Krabei Riel
+km;ភូមិ រការ;Krabei Riel
+km;ភូមិ កន្តី;Phum Kântei
+km;ភូមិ ត្រាវទ្រាង;Phum Trav Treăng
+km;ភូមិ ត្រពាំងខ្នារ;Khnar
+km;Phum Trâpeăng Khna;Khnar
+km;Phum Bŏeng;Boeng
+km;ភូមិ ទទា;Phum Tôtéa
+km;ភូមិ អារាញ់;Aranh
+km;Phum Aranh;Aranh
+km;ភូមិ ត្រពាំងជរ;Phum Trâpeăng Chôr
+km;ភូមិ ក្រសាំងរលីង;Krasang Roleung
+km;Phumĭ Krâsăng Rôleung;Krasang Roleung
+km;ភូមិ គោកតាឡុង;Phum Koŭk Talŏng
+km;Phum Mônisŏvann;Kakranh
+km;ភូមិ មុនីសុវណ្ណ;Kakranh
+km;Phumĭ Mâni Savann;Sala Kamraeuk
+km;ភូមិ ម្នីល វណ្ណ;Sala Kamraeuk
+km;ភូមិ ត្រពាំងពុទ្រា;Phum Trâpeăng Pŭtrea
+km;ភូមិ ស្វាយខាងលិច;Phum Svay Khang Lĕch
+km;ភូមិ វិហារចិន;Phum Vihéa Chĕn
+km;ភូមិ ស្ពានថ្មី;Phum Spéan Thmei
+km;ភូមិ ពញាជ័យ;Phnhea Chey
+km;Phum Pônhéa Chey;Phnhea Chey
+km;ភូមិ ស្វាយជង្គំ;Svay Dangkum
+km;Phum Svay Dângkŭm;Svay Dangkum
+km;ភូមិ សាលាកន្សែង;Phum Sala Kânsêng
+km;ភូមិ តាសិត;Phum Ta Sĕt
+km;Phum Rôka;Roka Thum
+km;ភូមិ រការ;Roka Thum
+km;Phum Srângê;Srangae
+km;ភូមិ ចន្លោង;Phum Chân Laông
+km;ភូមិ តាសិនខាងលិច;Phum Ta Sĕn Khang Cheung
+km;ភូមិ តាសិនខាងត្បូង;Phum Ta Sĕn Khang Tbong
+km;ភូមិ ត្រពាំងល្ពៅ;Phum Trâpeâng Lôpŏu
+km;Phum Chĕn Rŏâm;Prayutth
+km;ភូមិ ចិនរាំ;Prayutth
+km;ភូមិ ស្វាយរមៀត;Phum Svay Rômiet
+km;Phum Koŭk Ta Chan;Kouk Chan
+km;ភូមិ គោកតាចាន់;Kouk Chan
+km;ភូមិ ត្រពាំងសេះខាងជើង;Phum Trâpeăng Séh Khang Cheung
+km;ភូមិ បារាយណ៍;Phum Barai
+km;ភូមិ គោកបេង;Kouk Beng
+km;Phum Kaŭk Béng;Kouk Beng
+km;ភូមិ កន្សែង;Phum Kânsêng
+km;Phum Tatrai;Ta Trai
+km;ភូមិ ដូនតោក;Phum Don Taôk
+km;Phum Kântŭp Yan;Trach Chrum
+km;ភូមិ កន្ទប់យ៉ង;Trach Chrum
+km;Phum Mônmônôn;Kiri Meanon
+km;ភូមិ ម្និមន;Kiri Meanon
+km;ភូមិ ថ្នល់បាក;Phum Thnâl Bak
+km;ភូមិ អារក្សស្វាយ;Phum Arak Svay
+km;ភូមិ បុសធំ;Bos Thum
+km;Phum Bŏs Thom;Bos Thum
+km;Phum Ampĭl;Kouk Tnaot
+km;ភូមិ អំពិល;Kouk Tnaot
+km;Phum Don Kŭng;Kandaek
+km;ភូមិ ដូនគង់;Kandaek
+km;Phum Koŭk Vêng;Ovlaok
+km;ភូមិ គោកវែង;Ovlaok
+km;ភូមិ អូ;Ou
+km;ភូមិ ស្ពានក្អែក;Phum Spéan Kâêk
+km;ភូមិ គោករវៀង;Phum Koŭk Roviĕng
+km;ភូមិ ជ្រៃ;Chres
+km;Phum Chrey;Chres
+km;ភូមិ ដំណាក់;Phum Dâmnăk
+km;ភូមិ ត្រពាំងទឹម;Phum Trâpeăng Toĕm
+km;ភូមិ គោកធ្លក;Kouk Thlok
+km;Phum Koŭk Thlôk;Kouk Thlok
+km;ភូមិ គោកតាសុក;Phum Koŭk Ta Sŏk
+km;ភូមិ បឹង;Phum Bŏeng
+km;Phumĭ Don Chŭm;Mean Chey
+km;ភូមិ ដូនជុំ;Mean Chey
+km;ភូមិ តាប្រាក;Phum Ta Prak
+km;សូទ្រនិគម;Sothnikŭm
+km;ភូមិ មមាញ;Momeanh
+km;Phum Mô Méanh;Momeanh
+km;Phumĭ Châmbâk;Thnal Trang
+km;ភូមិ ចំបក់;Thnal Trang
+km;ភូមិ ដូនអែវ;Phum Don Êv
+km;Phumĭ Bâng Kaông;Bangkaong
+km;Phumĭ Srê Chânghot;Run Ta Aek
+km;ភូមិ ស្រែចង្ហូត;Run Ta Aek
+km;ភូមិ រវៀង;Phum Rôviêng
+km;Phum Kŭng Mŭch;Triek
+km;ភូមិ គុងមច;Triek
+km;Phumĭ Chrey;Chey
+km;ភូមិ ជ្រៃ;Chey
+km;ភូមិ ប្រី;Phum Prei
+km;ភូមិ កោះអញ្ចាញ;Phum Kaôh Ânhchanh
+km;Phum Koŭk Rŭn;Mukh Paen
+km;ភូមិ កោករុន;Mukh Paen
+km;Phum Koŭk Thlat;Kouk Tnaot
+km;ភូមិ គោកថ្លាគ;Kouk Tnaot
+km;ភូមិ គោកថ្ម;Kouk Thmei
+km;ភូមិ គោកតាត្រាវ;Phum Koŭk Ta Trav
+km;ភូមិ គោកពន្រ្ទា;Phum Koŭk Pŭntréa
+km;ភូមិ កំពង់តាយ៉ង;Kampong Ta Yang
+km;Phum Kâmpông Ta Yâng;Kampong Ta Yang
+km;ភូមិ ផ្សាពួក;Phum Phsa Puŏk
+km;ភូមិ គោកតាអែក;Phum Koŭk Ta Ek
+km;ភូមិ គោកគ្រៀល;Phum Koŭk Kroeăl
+km;Phum Svay Sâr;Tumneab Svay
+km;Phumĭ Koŭk Trach;Kouk Trach
+km;ភូមិ សំបួរ;Phum Sâmbuŏr
+km;ភូមិ តាបាក;Phum Tabak
+km;ភូមិ ត្រពាំងព្រេង;Phum Trâpeăng Préng
+km;ភូមិ លៀប;Phum Liĕp
+km;ភូមិ សណ្តាយ;Sanday
+km;Phum Sânday;Sanday
+km;ភូមិ បោះភ្លោះ;Phum Baôh Phlŏăh
+km;ភូមិ បោសធំ;Bos Thum
+km;Phum Baôs Thom;Bos Thum
+km;ភូមិ បោះព្រាល;Phum Baôs Préal
+km;ភូមិ ដូនអុក;Phum Don Ok
+km;ភូមិផ្លាំង;Phlang
+km;Phum Phlăng;Phlang
+km;ភូមិ ចុងថ្នល់;Phum Chŏng Thnâl
+km;Phum Thnâl Kâmnâp;Sokh San
+km;ភូមិ ថ្នល់កំណប់;Sokh San
+km;ភូមិ គោកលៀប;Phum Koŭk Léap
+km;ភូមិ តាមោក;Ta Mouk
+km;Phum Tamoŭk;Ta Mouk
+km;Phum Ampĭl Prey;Kanhchan Kuy
+km;ភូមិ អំពិលព្រៃ;Kanhchan Kuy
+km;Phum Kmaôch;Thea Sna
+km;ភូមិ ខ្មោច;Thea Sna
+km;ភូមិ តារាត់;Phum Taroât
+km;Phum Trav;Prey Kralanh
+km;ភូមិ ត្រាវ;Prey Kralanh
+km;ភូមិ ទ្រាល;Treas
+km;Phum Tréal;Treas
+km;Phumĭ Koŭk Ta Kaôr;Prey Thkov
+km;ភូមិ គោកតាកោរ;Prey Thkov
+km;Phum Kouk Phnôu;Kouk Chambak
+km;ភូមិ គោកភ្នៅ;Kouk Chambak
+km;ភូមិ ខ្សី;Khsei
+km;Phum Khsei;Khsei
+km;ភូមិ ព្រៃខ្ចង;Phum Prey Khchâng
+km;ភូមិ ធ្នង;Phum Thnông
+km;Phum Âmpĭl;Prey Ar
+km;ភូមិ អំពិល;Prey Ar
+km;ភូមិ ខាន់សរ;Khan Sar
+km;Phumĭ Khansâr;Khan Sar
+km;ភូមិ ជ្រៃ;Phum Chrey
+km;Phum Ta Kuŏy;Ta Toy
+km;ភូមិ តាគួយ;Ta Toy
+km;Phum Vêng;Doun Peaeng
+km;ភូមិ វែង;Doun Peaeng
+km;ភូមិ ត្រពាំងភ្លោះ;Phum Trâpeăng Phlŏăh
+km;ភូមិ តាគួយ;Ta Kuoy
+km;Phum Ta Kuŏy;Ta Kuoy
+km;ភូមិ គោកក្បាត;Phum Koŭk Kbat
+km;ភូមិ គោកវត្ត;Phum Koŭk Vatt
+km;ភូមិ បុះល្ហុង;Bos Lhong
+km;Phumĭ Bŏh Lôhong;Bos Lhong
+km;ភូមិ ស្វាយលពា;Phum Svay Lômpéa
+km;ភូមិ កន្ទួតទល់;Phum Kantuŏt Tŭl
+km;Phum Bŏh Klé;Ta Leav
+km;ភូមិ បុះក្លេ;Ta Leav
+km;ភូមិ ប្រាំដំឡឹង;Pram Damloeng
+km;Phumĭ Prăm Dâmlœ̆ng;Pram Damloeng
+km;ភូមិ ចាឈូក;Cha Chhuk
+km;Phum Cha Chhuk;Cha Chhuk
+km;Phum Snal;Mea Chea
+km;ភូមិ ស្នាល;Mea Chea
+km;Phum Prasat Krâhâm;Prasat
+km;ភូមិ ប្រាសាទក្រហម;Prasat
+km;Phum Rumduŏl;Pnov
+km;ភូមិ រំដួល;Pnov
+km;ភូមិ ឃ្វៀប;Phum Khviĕp
+km;ភូមិ តាកឹង;Phum Ta Kœ̆ng
+km;ភូមិ ចំបក់សរ;Chambak Sa
+km;Phum Châmbâk Sâr;Chambak Sa
+km;ភូមិ ថ្នល់ថ្មី;Phum Thnâl Thmei
+km;ភូមិ តាណាយ;Phum Tanay
+km;ភូមិ ប្រហ៊ូត;Prohut
+km;Phumĭ Prâhut;Prohut
+km;ភូមិ ព្រៃធ្លក;Phum Prey Thlôk
+km;ភូមិ គោកតាចាន់;Phum Koŭk Tachan
+km;ភូមិ ត្រពាំងពង្រ;Phum Trâpeăng Pôngrô
+km;ភូមិ គោកផ្តៀក;Ka Bdiek
+km;Phum Koŭk Phdiĕk;Ka Bdiek
+km;Phum Prasat Trav Muŏy;Kouk Yeang
+km;ភូមិ ប្រាសាទត្រាវ មួយ;Kouk Yeang
+km;ភូមិ គោកធ្នុង;Kouk Thnong
+km;Phum Koŭk Thnŭng;Kouk Thnong
+km;ភូមិ ច្រនៀង;Chranieng
+km;Phum Thmei;Kouk Snuol
+km;ភូមិ ថ្មី;Kouk Snuol
+km;ភូមិ កំណប់;Kamnab
+km;Phum Kâmnâp;Kamnab
+km;ភូមិ គោកខ្នាំង;Phum Koŭk Khnăng
+km;ត្រពាំងស្រងែ;Phum Trâpeăng Srângê
+km;ភូមិ សង្កែរវា;Phum Sângkê Véar
+km;ភូមិ ព្រៃអំពិល;Phum Prey Ampĭl
+km;ភូមិ ឈើទាលឃ្មុំ;Phum Chheutéal Khmŭm
+km;ភូមិ ទួលគ្រួស;Phum Tuŏl Kruŏs
+km;ភូមិ ត្រពាំងកក់;Phum Trâpeăng Kâk
+km;ភូមិ គងហែង;Phum Kông Hêng
+km;ភូមិ ថ្លុកក្រោល;Phum Thlŏk Kraôl
+km;ភូមិ ក្រាំងក្រូច;Phum Krăng Kroch
+km;ភូមិ ត្រោករលាក់;Phum Traôk Rôleăk
+km;ភូមិ អង់;Angk
+km;Phum Âng;Angk
+km;ភូមិ ច្រកត្នោត;Phum Chrâk Tnaôt
+km;ភូមិ រងដំឡូង;Phum Rông Dâmlong
+km;Phum Svay;Prama
+km;ភូមិ ស្វាយ;Prama
+km;ភូមិ យ៉ាងពិស;Phum Yang Pĭs
+km;ភូមិ ច្រកគថូរ;Phum Chrâk Ta Chu
+km;ភូមិ ពាម;Phum Péam
+km;ភូមិ ជំនាប;Phum Chum Néap
+km;ភូមិ ស្រែបាក់;Phum Srê Bak
+km;ភូមិ ត្រពាំងទរ;Phum Trâpeăng Tô
+km;ភូមិ លាក់តាន;Phum Lérk Tan
+km;ភូមិ កោកន្តី;Phum Kaô Kântei
+km;ភូមិ ច្រកទាក់;Phum Chrâk Térk
+km;ភូមិ វិហាលួង;Phum Vihéa Luŏng
+km;ភូមិ ទួលសូភី;Phum Tuŏl Sophi
+km;ភូមិ កំពង់ក្រចាម;Phum Kâmpông Krâchap
+km;ភូមិ ផ្សារក្បាលដំរី;Phum Phsar Kbal Dâmrei
+km;ភូមិអារ៉ងព្រួច;Arang Pruoch
+km;Phum Arâng Pruŏch;Arang Pruoch
+km;ភូមិ ថ្នល់បត់;Phum Thnâl Bât
+km;ភូមិ អូរំចេក;Phum O Rŭmchêk
+km;ភូមិ ក្រាំងក្រកោះ;Krang Kakaoh
+km;Phum Krăng Krâkaôh;Krang Kakaoh
+km;ភូមិ ព្រៃព្រះសង្ឃ;Phum Prey Preăh Sâng
+km;ភូមិ ស្អុង;Phum Sâŏng
+km;ភូមិ ក្រាំងឆាន;Phum Krăng Chhan
+km;ភូមិ ដំរាច;Phum Dâmrach
+km;Phum Âng;Khon Rang
+km;ភូមិ អង្គ;Khon Rang
+km;ភូមិ ត្រពាំងពោធិ;Phum Trâpeăng Poŭ
+km;ភូមិ កែវឡាត;Phum Kêv Lat
+km;ភូមិ ក្រសាច់;Phum Krâsach
+km;ភូមិ ជ្រោយស្តៅ;Phum Chroŭy Sdau
+km;ភូមិ ជីប្រង;Chi Prang
+km;Phum Chiprâng;Chi Prang
+km;ភូមិ យោត;Phum Yoŭt
+km;ភូមិ ពង្ររ;Phum Pŭngrô
+km;ភូមិ បឹងស្ទេង;Boeng Steng
+km;Phum Bœ̆ng Sténg;Boeng Steng
+km;ភូម ក្រោយវត្ត;Phum Kraôy Vatt
+km;ភូមិ បាកអង្រុត;Phum Bak Ângrŭt
+km;ភូមិ ដូនម៉ៅ;Doun Mau
+km;Phum Don Mau;Doun Mau
+km;ភូមិ តាសោមបាក់;Phum Ta Saôm Bak
+km;ភូមិ ចំគៀត;Phum Châmkiêt
+km;Phum Bœ̆ng;Boeng Veal
+km;ភូមិ បឹង;Boeng Veal
+km;ភូមិ ពាមសាស;Phum Péam Sas
+km;ភូមិ អន្សាចំបក់;Phum Ânsa Châmbâk
+km;ភូមិ សាំងខ្ទឹម;Phum Săng Khtœ̆m
+km;ភូមិ សិរីមង្គល;Phum Sĕrei Môngkôl
+km;ភូមិ ភ្លើងឆេះ;Phum Phleung Chhéh
+km;ភូមិ ក្រាំងចិន;Phum Krăng Chèn
+km;ភូមិ កសិកម្ម;Phum Kaksèkăm
+km;ភូមិ ខ្ទឹម;Phum Khtœ̆m
+km;Phum Smŏk;Boeng Smok
+km;ភូមិ ស្មុគ;Boeng Smok
+km;ភូមិ ល្វាតទី;Phum Lôvéati
+km;ភូមិ ស្តុក;Phum Sdŏk
+km;ភូមិ ស្មាញ្ញា;Phum Smanha
+km;ភូមិ ភ្នំបាត;Phum Phnŭm Bat
+km;ភូមិ ដូងជុំ;Phum Dong Chŭm
+km;ភូមិ ទួលពង្រ;Phum Tuŏl Pôngrô
+km;ភូមិ ទួលពង្រ;Phum Tuŏl Pŭngrô
+km;ភូមិ ព្រៃ;Phum Prey
+km;ភូមិ ថ្កោលដាច;Phum Thkaôl Dach
+km;ភូមិ កោះភ្នាំង;Phum Kaôh Phneăng
+km;ព្រែកដំរីកូន;Preaek Damrei Koun
+km;Prêk Dâmrei Kon;Preaek Damrei Koun
+km;ភូមិ កោះព្រះ;Phum Kaôh Preăh
+km;ភូមិ កោះឃ្នាន;Phum Kaôh Khnéan
+km;ភូមិ ដំរីឆ្លង;Damrei Chhlang
+km;Phumĭ Dâmrei Chhlâng;Damrei Chhlang
+km;ភូមិ ស្តៅ;Sdau
+km;ភូមិ ចែកខ្សាច់;Phum Chêk Khsach
+km;ភូមិ តាគឹម;Phum Ta Koem
+km;ភូមិ អន្លង់សំណរ;Anlong Samnar
+km;Phum Ânlŭng Sâmnâr;Anlong Samnar
+km;ភូមិ អូត្រាច;Ou Trach
+km;Phum O Trach;Ou Trach
+km;ភូមិ អន្លង់ចំបក់;Anlong Chambak
+km;Phum Anlŭng Châmbâk;Anlong Chambak
+km;ភូមិ តារៀម;Ta Riem
+km;Phum Ta Riĕm;Ta Riem
+km;ភូមិ អូតាសុក;Phum O Ta Sŏk
+km;ភូមិ កំពង់ស្នោរ;Phum Kâmpông Snaôr
+km;ភូមិ កំពង់ក្រកោះ;Phum Kâmpông Krâkaôh
+km;ភូមិ ព្រៃអារក្ស;Phum Prey Arak
+km;ភូមិ ចុងស្ពាន;Phum Chŏng Spéan
+km;ភូមិ ក្របីរាល;Phum Krâbei Réal
+km;ភូមិ ប្រសាទ;Phum Prâsat
+km;ភូមិ កាកោះ;Phum Kakaôh
+km;ភូមិ ច្រាំងខ្ពស់;Chrang Khpos
+km;Phum Chrăng Khpuŏs;Chrang Khpos
+km;ភូមិ អន្សងពង;Phum Ânsâng Pông
+km;ភូមិ អន្លង់ថ្ម;Phum Anlŭng Thmâ
+km;ភូមិ គីតាឈឹម;Kilou Ta Chhuem
+km;Phum Kilo Ta Chhœ̆m;Kilou Ta Chhuem
+km;ភូមិ កន្សែង;Kansaeng
+km;Phum Kânsêng;Kansaeng
+km;Koŭk Thlŏk;Kouk Thlok Leu
+km;Phum Phlŏk Smach;Thlok Smach
+km;ភូមិ ភ្លកស្មាច;Thlok Smach
+km;ភូមិ សន្ទង;Phum Sântông
+km;Phum Ta Liĕng;Ta Lien
+km;ភូមិ តាលៀង;Ta Lien
+km;Phum Rôka;Roka
+km;Phum Poŭ;Pou Serei
+km;ភូមិ ពោធិ;Pou Serei
+km;ភូមិ ព្រៃខ្ពស់;Phum Prey Khpuŏs
+km;ភូមិ ពាមចក;Phum Péam Châk
+km;ភូមិ ថ្នល់តាសៀម;Phum Thnâl Ta Siĕm
+km;ភូមិ ទទា;Totea
+km;Phum Tôtéa;Totea
+km;ភូមិ ថ្នល់ បី;Phum Thnâl Bei
+km;Phum Thnâl;Thnal Louk
+km;ភូមិ ថ្នល់;Thnal Louk
+km;ភូមិ គោកអំពិល;Kouk Ampil
+km;Phum Koŭk Âmpil;Kouk Ampil
+km;ភូមិ តាបាំង;Phum Ta Băng
+km;Phum Chey Chrŏh;Rumchey Chroh
+km;ភូមិ ជៃច្រុះ;Rumchey Chroh
+km;ភូមិ គីឡូធំ;Phum Kilo Thom
+km;ភូមិ តាអុង;Ta Ong
+km;Phum Ta Âŏng;Ta Ong
+km;ភូមិ ព្រៃរមាស;Phum Prey Rôméas
+km;ភូមិ ស្ពានឆ្អាប;Phum Spéan Chhâap
+km;ភូមិ អណ្តូងក្រាំង;Phum Ândong Krăng
+km;ភូមិ ស្វាយតាដោក;Svay Ta Daok
+km;Phum Svay Ta Daôk;Svay Ta Daok
+km;ភូមិ ដូនឡង;Phum Don Lâng
+km;ភូមិ ដងខែន;Phum Dâng Khvên
+km;ប្រាសាទពោធិ;Prasat Pouth
+km;ភូមិ គោកឫស្សី;Kouk Ruessei
+km;Phum Koŭk Rŭssei;Kouk Ruessei
+km;ប្រាសាទខ្លាក្រហឹម;Prasat Khla Krahœm
+km;ភូមិ កុល;Phum Kŏl
+km;ភូមិ ស្វាយជ័យ;Svay Chey
+km;Phum Svay Chey;Svay Chey
+km;ភូមិ សូទ្រនិគម;Phum Sothnikŭm
+km;ភូមិ កូប;Phum Kop
+km;ភូមិ ត្នោតកំបុត;Phum Thnaôt Kâmbŏt
+km;ភូមិ ជាស្មន;Chea Sman
+km;Phum Chea Smân;Chea Sman
+km;ភូមិ បន្ទាយឫស្សី;Banteay Ruessei
+km;Phum Bântéay Rŭssei;Banteay Ruessei
+km;ភូមិ ភ្នំដី;Phnum Dei
+km;Phum Phnŭm Dei;Phnum Dei
+km;ភូមិ ត្រពាំងផ្អី;Phum Trâpeăng Paei
+km;ភូមិ សង់;Phum Sâng
+km;ភូមិ ព្រៃញ;Phum Prey Nhô
+km;Phumĭ Aei;Ta Ei
+km;ភូមិ អាឥ;Ta Ei
+km;ភូមិ ខ្ចាស;Khchas
+km;Phum Khchas;Khchas
+km;ភូមិ ជំរុំ;Phum Chŭm Rum
+km;Phumĭ Bœ̆ng Vêng;Boeng Vien
+km;ភូមិ បឹងវែង;Boeng Vien
+km;ភូមិ ក្រសាទុំ;Krasar Tum
+km;Phum Krâsa Tŭm;Krasar Tum
+km;ភូមិ អូលុះ;Phum O Luh
+km;ភូមិ ដង្កោ;Bat Dangkao
+km;Phumĭ Bât Dângkaô;Bat Dangkao
+km;ភូមិ ព្រៃលាន;Phum Prey Léan
+km;ភូមិ ត្រពាំងទូក;Trapeang Tuk
+km;Phum Trâpeăng Tuk;Trapeang Tuk
+km;ភូមិ ស្រែប្រី;Srae Prei
+km;Phum Srê Prei;Srae Prei
+km;Phum Ta Taôk Khang Lĕch;Ta Taok Lech
+km;ភូមិ តាតោកខាងលិច;Ta Taok Lech
+km;ភូមិ គោកតើង;Phum Koŭk Taeung
+km;ភូមិ ច្បារលើ;Chbar Leu
+km;Phum Chbar Leu;Chbar Leu
+km;ភូមិ ថ្នល់ចែក;Phum Thnâl Chêk
+km;ភូមិ ចន្ទសរខាងត្បូង;Chan Sar Tboung
+km;Phum Chansâr Khang Tbong;Chan Sar Tboung
+km;ភូមិ តាភោក;Phum Ta Phoŭk
+km;ភូមិ ត្រពាំងគង;Phum Trâpeăng Kông
+km;ភូមិ ជុប;Phum Chŭp
+km;ភូមិ ត្រពាំងខ្នា;Phum Trâpeang Khna
+km;ភូមិ សណ្ដែកដី;Phum Sândêk Dei
+km;ភូមិ ឃ្នៃ;Phum Khnoy
+km;ភូមិ ជ័យសម្បត្ត;Chey Sambatt
+km;Phum Chey Sâmbăt;Chey Sambatt
+km;ភូមិ តារៀម;Phum Ta Riĕm
+km;Phumĭ Sângkê Satôp;Sangkea Satob
+km;តាបោ;Ta Paô
+km;Veal Vong;Ta Paô
+km;ភូមិដង្គៀបក្តាម;Phumĭ Dâng Kiĕp Kdam
+km;Phumĭ Chŏng Phnŭm;Cheung Tenh
+km;ភូមិ ចុងភ្នំ;Cheung Tenh
+km;ភូមិ បាក់ដោក;Phum Bak Daôk
+km;ភូមិ នរិន;Phum Nôrin
+km;Phum Sâmraông Nôréa;Norea
+km;ភូមិ សំរោងនរា;Norea
+km;ភូមិ នរា;Phum Nôréa
+km;ភូមិ តាំជ;Phum Tăm Chô
+km;Nikum Preăh Sihanouk;Chrouy Sdau
+km;និគម ព្រះសីហនុ;Chrouy Sdau
+km;ភូមិ ទំពូង;Phum Tumpung
+km;ភូមិ គោកក្រសាំង;Kouk Krasang
+km;Phum Koŭk Krâsăng;Kouk Krasang
+km;Phum Trŏm;Kouk Trom
+km;ភូមិ ត្រុំ;Kouk Trom
+km;ភូមិ បានៀវ;Baniev
+km;Phumĭ Baniĕv;Baniev
+km;Phum Kâmpông Phnŭm Krau;Kampong Phnum
+km;ភូមិ កំពង់ភ្នំក្រៅ;Kampong Phnum
+km;ភូមិ គ្រួស បី;Phum Kruŏs
+km;ភូមិ ព្រៃក្ដី;Phum Prey Kdei
+km;Phum Poŭ Kraôm;Pou Kandal
+km;Phum Thpông Knŏng;Thpong
+km;ភូមិ ថ្ពងក្នុង;Thpong
+km;Phum Ândong Thmâ;Kat Dai
+km;ភូមិ អណ្ដូងថ្ម;Kat Dai
+km;ភូមិ កោះ;Kaoh
+km;Phum Kaôh;Kaoh
+km;Phum Bak Ânlông;Boeng Prei
+km;ភូមិ បាអន្លង់;Boeng Prei
+km;ភូមិ គោកពោធិ;Kouk Pou
+km;Phum Koŭk Poŭ;Kouk Pou
+km;Phum Koŭk Chan;Ampil
+km;ភូមិ គោកចាន់;Ampil
+km;Phum Snay Duŏch;L’ak
+km;ភូមិ ស្នាយដួច;L’ak
+km;ភូមិ ត្រពាំងធំ;Phum Trâpeăng Thŏm
+km;ភូមិ ខ្ជាយ;Khcheay
+km;Phum Khchéay;Khcheay
+km;Phumĭ Trâpeăng Svay;Trapeang Svay
+km;Phum Lôbaeuk Khchar;Nokor Pheas
+km;ភូមិ ល្បើកខ្ចារ;Nokor Pheas
+km;ភូមិ ទានព្រៃ;Phum Téan Prey
+km;ភូមិ កំពង់;Kampong
+km;Phum Kâmpông;Kampong
+km;ភូមិ ព្រីង;Pring
+km;Phum Pring;Pring
+km;Prasat Andêt;Chan Sar
+km;ប្រាសាទអណ្ដែត;Chan Sar
+km;ភូមិ ត្រពាំងឫស្សី;Phum Trâpeăng Rŭssei

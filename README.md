@@ -1424,6 +1424,69 @@ local (voir "Langues" ci-dessous, `scripts/build-aliases.js`) — non disponible
 communes viennent de geo.api.gouv.fr, pas de GeoNames, aucun identifiant commun pour les relier aux
 noms alternatifs GeoNames).
 
+### Asie : trente-cinq pays et territoires (septembre 2026)
+
+Afghanistan, Kazakhstan, Kirghizstan, Ouzbékistan, Tadjikistan, Turkménistan, Bangladesh, Bhoutan, Inde, Maldives,
+Népal, Pakistan, Sri Lanka, Territoire britannique de l'océan Indien (Chagos), Chine, Hong Kong, Macao, Corée du
+Nord, Corée du Sud, Japon, Mongolie, Taïwan, Brunei, Cambodge, Indonésie, Laos, Malaisie, Myanmar, Philippines,
+Singapour, Thaïlande, Timor oriental, Viêt Nam, île Christmas et îles Cocos — **2 462 559 lieux**
+(`scripts/build-asie-communes.js`) : Chine 895 953, Inde 534 318, Indonésie 247 167, Pakistan 145 654, Thaïlande
+86 982, Népal 86 699, Corée du Sud 61 685… jusqu'aux îles Cocos (2). **765 214 alias** (`scripts/build-asie-aliases.js`)
+dans les écritures de chaque pays (hanzi, kana/kanji, hangeul, devanagari, thaï…), indispensables : GeoNames range
+les noms en translittération latine.
+
+**Volume — choix explicite de l'utilisateur : tous les lieux sont gardés.** Le site passe à ~4 millions de lieux
+(bundle communes 187 Mo bruts, 48 Mo en Brotli ; alias 36 Mo, 10 Mo). Le serveur occupe **~2,8 à 3,4 Go de
+mémoire** une fois chargé ; `npm start` lance désormais Node avec `--max-old-space-size=8192` (tas par défaut de
+~4 Go trop juste). Un tirage prend ~0,7 s. **Un hébergement mutualisé limité à 1-2 Go de mémoire ne peut plus faire
+tourner l'application** (voir "Déployer sur un serveur privé").
+
+**Codes postaux** (règle unique : au moins 90 % des lieux à moins de 15 km d'un point postal GeoNames → vrais codes,
+sinon étiquette de région `XX-<admin1>`) : Inde 97,8 %, Indonésie 97,5 %, Japon 98,2 %, Corée du Sud 100 %,
+Philippines 93,7 %, Bangladesh 93,0 %, Sri Lanka 96,0 %, Singapour 100 % ont leurs codes ; Chine (14,8 %), Thaïlande
+(68,8 %), Pakistan (70,6 %) et Malaisie (81,8 %) prennent l'étiquette de région, comme tous les pays sans fichier.
+Code unique réel : BBND 1ZZ (Chagos), 6798 (Christmas), 6799 (Cocos). Les codes 999077/999078 de Hong Kong et Macao
+sont des valeurs de remplissage (aucun des deux n'a de codes postaux) : écartés.
+
+**Frontières** (toute frontière franchie par une route) : Kazakhstan avec la Russie, la Chine, le Kirghizstan,
+l'Ouzbékistan et le Turkménistan ; Kirghizstan-Ouzbékistan, Kirghizstan-Tadjikistan, Kirghizstan-Chine ;
+Ouzbékistan-Tadjikistan, -Turkménistan, -Afghanistan ; Tadjikistan-Afghanistan, -Chine ; Turkménistan-Afghanistan,
+-Iran ; Afghanistan-Iran, -Pakistan ; Pakistan-Iran, -Inde, -Chine ; Inde-Chine, -Népal, -Bhoutan, -Bangladesh,
+-Myanmar ; Népal-Chine ; Chine avec la Mongolie, la Russie, la Corée du Nord, le Viêt Nam, le Laos, le Myanmar, Hong
+Kong et Macao ; Hong Kong-Macao (pont HZMB) ; Mongolie-Russie ; Corée du Nord-Russie et -Corée du Sud ; Viêt
+Nam-Laos, -Cambodge ; Laos-Thaïlande, -Cambodge, -Myanmar ; Thaïlande-Myanmar, -Cambodge, -Malaisie ;
+Malaisie-Singapour, -Brunei, -Indonésie (Bornéo) ; Indonésie-Timor oriental. **Sans route, donc fermées** :
+Afghanistan-Chine (col du Wakhjir), Bhoutan-Chine, Bangladesh-Myanmar.
+
+**Îles** : règles génériques `ISLAND_RULES` (trip-data.js, construites par `scripts/build-island-rules.js` depuis
+`scripts/iles/*.js`), vérifiées lieu par lieu — voir "Ferries" pour le détail et les liaisons.
+
+**Péages : Japon et Taïwan seulement.** Japon : barème NEXCO publié par le ministère (MLIT), 24,6 JPY/km + taxe
+(≈ 0,146 €/km), coefficients officiels 1,2 (véhicule moyen) et 0,8 (deux-roues). Taïwan : péage électronique au
+kilomètre du Freeway Bureau, 1,20 TWD/km (≈ 0,0325 €/km), motos interdites sur autoroute ; les 20 km quotidiens
+gratuits et la part fixe japonaise de 165 JPY ne sont pas modélisés. Ailleurs, forfaits par gare ou par tronçon (Inde,
+Pakistan, Indonésie, Kazakhstan, Hong Kong, Bangladesh…) ou barèmes kilométriques connus seulement par la presse
+(Chine, Corée du Sud, Malaisie, Viêt Nam) : aucun péage modélisé.
+
+**Monnaies : 33 nouvelles** (AFN, KZT, KGS, UZS, TJS, TMT, BDT, BTN, INR, MVR, NPR, PKR, LKR, USD, CNY, HKD, MOP, KPW,
+KRW, JPY, MNT, TWD, BND, KHR, IDR, LAK, MYR, MMK, PHP, SGD, THB, VND, AUD), chacune avec son signe usuel (₹, ¥, ₩, ฿,
+₫, ₱, ៛, ₭, ₮, ₸, ৳, ؋…). Dollar américain pour les Chagos et le Timor oriental, dollar australien pour Christmas et
+Cocos. Budgets : gamme euro (70 / 130 / 260) au taux InforEuro de septembre 2026, contrôlée contre les prix moyens
+OFFICIELS publiés — Hong Kong (Tourism Commission) et Taïwan (Administration du tourisme) tombent dans "moyen", la
+Chine (ministère de la Culture et du Tourisme) dans "economique", Singapour (SingStat) au-dessus de "moyen".
+Montants indicatifs, écrits dans le code : won nord-coréen au taux de marché (aucun taux officiel publié), manat
+turkmène (marché parallèle ~5,5 fois le taux officiel), kyat birman (trois taux).
+
+**Hébergement** : Booking.com et Airbnb n'opèrent pas en Corée du Nord ; offre quasi inexistante en Afghanistan et au
+Turkménistan ; Airbnb a quitté la Chine intérieure en 2022 — les liens de réservation peuvent ne rien donner.
+
+**Zones à tension** (52 règles de plus) : Afghanistan et Corée du Nord entièrement en rouge ; Pakistan largement en
+rouge et orange ; Myanmar en rouge (États et régions en conflit) et orange ailleurs ; Bangladesh orange avec zones
+rouges vers la Birmanie ; Cachemire et abords de la ligne de contrôle en rouge en Inde ; bandes frontalières en
+Ouzbékistan, au Tadjikistan, au Turkménistan, au Cambodge, en Thaïlande, au Laos et en Malaisie ; sud de la Thaïlande,
+ouest de Mindanao et archipel de Sulu, est du Sabah, Papouasie indonésienne ; DMZ coréenne en orange ; zone
+interdite de Fukushima-1 en rouge ; ancien polygone de Semipalatinsk en rouge.
+
 ## Zones à tension et frontières (septembre 2026)
 
 **Changement de règle, à la demande de l'utilisateur : les règles politiques ne ferment plus aucune
@@ -1440,7 +1503,7 @@ ouverte ET hors des zones formellement déconseillées par France Diplomatie. D�
   « non retenues » gardent leurs constats (état réel des postes, sources), mais ces frontières sont
   aujourd'hui ouvertes dans le modèle.
 - **Zones à tension** (`TENSION_ZONES`, public/js/trip-data.js, construit par
-  `scripts/build-tension-zones.js` depuis `scripts/tension-zones/*.js`) : **237 règles pour 60 pays**,
+  `scripts/build-tension-zones.js` depuis `scripts/tension-zones/*.js`) : **289 règles pour 78 pays**,
   relevées sur les fiches « Sécurité » de France Diplomatie (mises à jour du 15 septembre 2026) — zones
   **rouges** (« formellement déconseillé ») et **orange** (« déconseillé sauf raison impérative »), le jaune
   étant ignoré. Découpage au plus juste : pays entier quand il est tout rouge (Russie, Ukraine,
@@ -1452,7 +1515,7 @@ ouverte ET hors des zones formellement déconseillées par France Diplomatie. D�
   possible : les étapes sont alors cherchées hors zone, plus loin si nécessaire. Si seul le filtre rend le
   tirage impossible, un message dédié le dit (`tensionBlocked`).
 - **Avertissement** : toute étape en zone rouge ou orange, et le point de départ lui-même, affichent un
-  bandeau « Sécurité » coloré, traduit dans les 105 langues, avec un lien vers la fiche officielle.
+  bandeau « Sécurité » coloré, traduit dans les 140 langues, avec un lien vers la fiche officielle.
 
 **Approximations assumées, et écrites dans chaque règle** (champ `label`) : les fiches ne donnent presque
 jamais la largeur des bandes frontalières, estimée sur les cartes ; les limites tracées « entre deux villes »
@@ -2722,6 +2785,44 @@ l'enseignement seulement), langues régionales d'Iran (autorisées sans être no
 soqotri et shehri (ni statut ni orthographe), baloutchi et swahili à Oman (aucun statut). Traductions sans
 relecture native.
 
+### Asie : trente-trois langues ajoutées (septembre 2026)
+
+**140 langues au total.** Même double critère : statut légal nommant la langue ET orthographe fixée par un texte ou une
+autorité publique. Drapeau de l'État ou de la région dont le texte fonde le statut (détail dans `LANG_FLAGS`) :
+- **Asie centrale et Mongolie** : kazakh (`kk`, cyrillique), kirghize (`ky`), tadjik (`tg`), ouzbek latin (`uz`,
+  alphabet de 1995), turkmène (`tk`), **karakalpak** (`kaa`, République du Karakalpakstan, alphabet latin de 2016 —
+  avec réserve ; drapeau recadré depuis Wikimedia Commons, domaine public), mongol cyrillique (`mn`).
+- **Asie de l'Est** : chinois simplifié (`zh`, loi sur la langue commune de 2000), **chinois traditionnel**
+  (`zh-Hant`, drapeau de Taïwan, formes standard du ministère de l'Éducation ; choisi automatiquement pour un
+  navigateur réglé sur zh-TW, zh-HK ou zh-MO), hakka de Taïwan (`hak`, loi sur les langues nationales de 2019),
+  zhuang (`za`, Guangxi, orthographe de 1982, drapeau chinois), coréen (`ko`), japonais (`ja`).
+- **Asie du Sud** : hindi (`hi`), marathi (`mr`), tamoul (`ta`), malayalam (`ml`), népalais (`ne`), bengali (`bn`,
+  Bangladesh), ourdou (`ur`, Pakistan) et divehi (`dv`, Maldives) — **tous deux écrits de droite à gauche** —,
+  cinghalais (`si`, avec réserve), dzongkha (`dz`).
+- **Asie du Sud-Est** : birman (`my`), thaï (`th`), lao (`lo`) et khmer (`km`) — ces trois derniers avec réserve,
+  l'autorité de l'orthographe n'ayant pas été retrouvée dans un texte —, vietnamien (`vi`), tétoum (`tet`),
+  indonésien (`id`, EYD V 2022), malais (`ms`), javanais (`jv`, langue officielle régionale de Yogyakarta, Perda
+  DIY 2/2021 ; drapeau indonésien faute de drapeau régional vérifié), filipino (`fil`, Ortograpiyang Pambansa 2013).
+
+**Polices embarquées** : Noto Serif Tibetan (~610 ko, dzongkha) et Noto Sans Thaana (~27 ko, divehi), SIL OFL 1.1,
+chargées seulement si la page contient ces écritures. Les autres écritures sont fournies par les systèmes courants.
+L'ourdou s'affiche en naskh avec les polices système (le nastaliq demanderait une police de plusieurs centaines de ko).
+
+**Écartées** :
+- **Yi (nuosu)** : statut (préfecture de Liangshan) et syllabaire standard de 1980 réels, mais la traduction produite
+  n'était pas fiable (surtout des emprunts chinois transcrits) — mieux vaut aucune interface qu'une interface fausse.
+- **Langues indiennes à l'orthographe non établie par un texte** (vérification ciblée) : kannada, odia, sindhi,
+  assamais (non) ; télougou, pendjabi, gujarati, konkani, manipuri (incertain) ; sanskrit, maïthili, bodo, dogri,
+  santali, cachemiri (pas d'autorité orthographique).
+- Pachto et dari (Afghanistan : aucune autorité publique en fonction), tibétain et ouïghour (orthographe non
+  vérifiée), mongol en écriture traditionnelle (verticale), minnan de Taïwan (Tâi-lô publié mais langue non nommée
+  par la loi), min de l'Est, aïnou, langues aborigènes de Taïwan (non nommées individuellement), langues régionales
+  indonésiennes autres que le javanais (soundanais, balinais, acehnais : textes non vérifiés), langues régionales
+  philippines, langues ethniques du Myanmar, malais en jawi (Brunei), malais des Cocos.
+
+Traductions sans relecture native ; les moins sûres, signalées par leurs traducteurs : karakalpak, hakka, dzongkha,
+divehi, zhuang.
+
 ## Démarrer en local
 
 ```bash
@@ -2731,6 +2832,9 @@ npm start
 
 Puis ouvrez `http://localhost:3000`. Le port peut être changé via la variable d'environnement `PORT`.
 
+**Mémoire** : avec ~4 millions de lieux (lot Asie), le serveur occupe ~3 Go une fois chargé ; `npm start` passe
+`--max-old-space-size=8192` à Node. Prévoir au moins 4 Go de mémoire libre.
+
 ## Déployer sur un serveur privé
 
 N'importe quelle méthode standard de déploiement Node.js convient, par exemple :
@@ -2738,7 +2842,7 @@ N'importe quelle méthode standard de déploiement Node.js convient, par exemple
 **Avec PM2** (garde le process vivant, redémarre au reboot) :
 ```bash
 npm install -g pm2
-pm2 start server.js --name cap-sur-linconnu
+pm2 start server.js --name cap-sur-linconnu --node-args="--max-old-space-size=8192"
 pm2 save
 pm2 startup
 ```
@@ -2750,7 +2854,8 @@ Comme l'app sert des fichiers statiques, elle fonctionne aussi tout aussi bien d
 serveur de fichiers statiques (nginx seul, Caddy seul, etc.) en pointant directement sur `public/` —
 `server.js` n'est là que par simplicité.
 
-**Sur hébergement mutualisé avec Apache/cPanel** (ex. o2switch, "Setup Node.js App" via Passenger) :
+**Sur hébergement mutualisé avec Apache/cPanel** (ex. o2switch, "Setup Node.js App" via Passenger) — **attention :
+depuis le lot Asie, le process a besoin d'~3 Go de mémoire ; vérifier la limite de l'offre avant de déployer** :
 Apache expose alors généralement la racine du projet, pas seulement `public/` — `server.js`,
 `package.json` et `package-lock.json` deviennent consultables publiquement en clair si rien ne les
 bloque explicitement (vérifiable avec `curl -I https://votre-domaine/server.js` : un `200` confirme
@@ -3423,6 +3528,55 @@ Conséquence : toutes ces îles sont isolées (voir "Pays couverts"), et les deu
   et Iran-Émirats (commerce suspendu en août 2026) ; Dalma (grille partielle) ; Failaka (grille de 2016) ;
   Socotra et Kamaran (aucune liaison régulière).
 
+### Asie : trente liaisons, îles isolées ailleurs (septembre 2026)
+
+**Masses terrestres** (`scripts/iles/*.js` → `ISLAND_RULES`), règles par région, préfixe postal, boîte ou cercle,
+vérifiées contre les lieux publiés (comptage par masse, lieux proches des limites). Une île sans pont ni tunnel
+ROUTIER est une masse à part ; les petites îles (clé `*`) forment chacune une masse à elles seules, et en Indonésie
+tout lieu qu'aucune règle ne range est isolé (`default: '*'`, 2 550 lieux). Principales masses : Japon (Honshu-Shikoku-
+Kyushu reliés ; Hokkaido séparé, le tunnel du Seikan est ferroviaire ; Okinawa, Amami, Sado, Tsushima…), Corée du Sud
+(Jeju, Ulleungdo, 608 lieux d'îles sans pont), Chine (Hainan, Zhoushan et Pingtan reliés), Taïwan (Penghu, Kinmen,
+Matsu), Indonésie (Java 156 760, Sumatra, Sulawesi, Bornéo partagé avec la Malaisie et Brunei, Timor partagé avec le
+Timor oriental, Nouvelle-Guinée, Bali, Lombok, Flores… et une cinquantaine d'autres), Philippines (37 masses dont
+Luzon, Mindanao, Panay, Cebu, Negros, Leyte-Samar), Malaisie (péninsule reliée à Singapour et à la Thaïlande ;
+Langkawi, Labuan, Tioman…), Inde (Andaman du Sud, Andaman du Milieu et du Nord, Car Nicobar, Lakshadweep, Sagar),
+Sri Lanka (île entière), Maldives (îles isolées, sauf groupes reliés par pont : Malé-Hulhumalé, Addu…), Thaïlande (Ko
+Samui, Ko Pha Ngan, Ko Chang, Ko Lanta…), Viêt Nam (Phú Quốc, Cát Bà, Côn Đảo…), Myanmar, Bangladesh, Cambodge,
+Chagos, Christmas, Cocos.
+
+**Liaisons retenues** (grille officielle de l'opérateur ou d'une autorité, prix du véhicule en euros au taux
+InforEuro de septembre 2026) :
+- **Japon** : Aomori ↔ Hakodate (Tsugaru Kaikyo Ferry, voiture 116,88 €) ; Kagoshima ↔ Naha, Naze, Kametoku et
+  Wadomari (A-Line, grille du 1er septembre 2026 « en cours d'autorisation », 277 à 464 €).
+- **Corée du Sud ↔ Japon** : Busan ↔ Shimonoseki (Kampu Ferry, 137,16 € ; aller-retour du véhicule obligatoire et
+  frais de douane de 6 000 JPY non inclus).
+- **Taïwan** : Kaohsiung ↔ Magong (Taiwan Navigation, 60,77 €).
+- **Indonésie** : Merak ↔ Bakauheni (décret KM 61/2023, communiqué ASDP), Ketapang ↔ Gilimanuk (KM 61/2023),
+  Padangbai ↔ Lembar (grille de la capitainerie de Lembar), Kayangan ↔ Poto Tano (arrêté du gouverneur de NTB), Sape
+  ↔ Labuan Bajo et Tanjung Api-Api ↔ Tanjung Kalian (tarifs du décret relayés par la presse, écart signalé pour le
+  second). **Le billet véhicule indonésien inclut ses occupants** : le prix affiché couvre donc tout l'équipage.
+- **Malaisie** : Kuala Perlis ↔ Langkawi (grille RoRo d'avril 2026, 33,07 €).
+- **Philippines** : Starlite (Batangas ↔ Calapan, Roxas ↔ Caticlan, Batangas ↔ Caticlan, Batangas ↔ Romblon, Romblon
+  ↔ Magdiwang, Romblon ↔ Roxas City, Batangas ↔ Magdiwang), Trans-Asia (Cebu ↔ Tagbilaran, Masbate, Iloilo, Cagayan
+  de Oro ; Tagbilaran ↔ Cagayan de Oro), Balingoan ↔ Benoni (grille de l'autorité portuaire PPA, 2021-2023).
+- **Thaïlande** : Don Sak ↔ Ko Samui et Don Sak ↔ Ko Pha Ngan (Raja Ferry, grille de la province de Surat Thani,
+  indexée sur le gazole ; conducteur déduit).
+- **Inde** : Middle Strait ↔ Nilambur aux Andaman (arrêté n° 216 du 26/02/2026 ; à retirer à l'ouverture du pont).
+
+Durées et distances : horaires relevés quand ils sont publiés, sinon ordres de grandeur et distances à vol d'oiseau
+(signalés dans chaque note). Noms de liaisons en écriture latine, sauf en japonais, coréen, chinois, hakka et thaï
+pour les liaisons de leur pays.
+
+**Non retenues, faute de grille officielle lisible** — les îles concernées restent sans trajet par la mer : Jeju
+(tarifs véhicules seulement dans la réservation en ligne), détroit de Qiongzhou vers Hainan (portails locaux
+seulement), Sado, Oki, Tsushima, Iki, Gotō, Tanegashima, Yakushima, Shōdoshima, Rishiri, Rebun, Kinmen, Matsu (non
+recherchées) ; Negros, Leyte-Samar, Siquijor, Guimaras, Palawan, Siargao, Sulu (FastCat hors ligne, Montenegro Lines
+derrière un CAPTCHA, non contourné) ; Batam ↔ Bintan, Nias, Weh, Selayar, les liaisons de Kupang, Sumba, Kalimantan ;
+Menumbok ↔ Labuan ; Ko Chang (grille reprise seulement par des sites d'information) ; Phú Quốc et Cát Bà (revendeurs
+seulement) ; ferries publics du Bangladesh (portail BIWTC hors ligne) ; Nagapattinam ↔ Kankesanthurai (passagers
+seulement). Les ferries de la Caspienne (Kazakhstan/Turkménistan ↔ Azerbaïdjan) relient deux points de la masse
+continentale : le modèle ne peut pas les représenter.
+
 ## Export PDF
 
 Le bouton "Exporter cet itinéraire en PDF" (entre le journal de bord et le sac à préparer, une fois
@@ -3561,6 +3715,11 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   (licence [SIL Open Font License 1.1](https://openfontlicense.org), hébergée localement —
   `public/fonts/`, ~39 ko), nécessaire à l'affichage de l'amazighe standard marocain — voir "Langues"
   ci-dessus.
+- Polices tibétaine et thâna : [Noto Serif Tibetan](https://fonts.google.com/noto/specimen/Noto+Serif+Tibetan) et
+  [Noto Sans Thaana](https://fonts.google.com/noto/specimen/Noto+Sans+Thaana) (SIL OFL 1.1, hébergées localement,
+  ~610 ko et ~27 ko), pour le dzongkha et le divehi.
+- Drapeau du Karakalpakstan : [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Flag_of_Karakalpakstan.svg)
+  (domaine public), recadré en cercle (`uz-qr.svg`).
 - Police guèze : [Noto Sans Ethiopic](https://fonts.google.com/noto/specimen/Noto+Sans+Ethiopic)
   (même licence SIL OFL 1.1, hébergée localement, ~377 ko), nécessaire à l'affichage
   de l'amharique et du tigrinya.
@@ -3589,6 +3748,8 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   [Société nationale Autoroutes du Sénégal](https://autoroutesdusenegal.sn) et [SECAA/Eiffage](https://www.autoroutedelavenir.sn)
   (Sénégal — tronçon fermé Mbour-Kaolack pour le tarif kilométrique, grille de la gare de Thiaroye
   pour les rapports entre catégories) —
+  [MLIT / NEXCO](https://www.mlit.go.jp) (Japon — barème kilométrique des autoroutes nationales),
+  [Freeway Bureau](https://www.freeway.gov.tw) (Taïwan — péage électronique au kilomètre) —
   voir "Pays couverts" pour la méthode de calcul hors de France (échantillon plus restreint que
   pour la France).
 - Vignettes annuelles : boutiques officielles [via.admin.ch](https://via.admin.ch) (Suisse),

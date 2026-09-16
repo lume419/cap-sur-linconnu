@@ -1,0 +1,1937 @@
+bn;Tetulia;Titalya
+de;Tongi;Tungi
+en;Tongi;Tungi
+bn;টঙ্গী;Tungi
+ru;Тонги;Tungi
+bn;সিলেট;Sylhet
+ru;Силхет;Sylhet
+mr;सिलहट;Sylhet
+ja;シレット;Sylhet
+zh;錫爾赫特市;Sylhet
+ar;سيلهت;Sylhet
+ko;실렛;Sylhet
+ur;سلہٹ;Sylhet
+fa;سیلت;Sylhet
+ml;സിൽഹെറ്റ്;Sylhet
+ta;சில்ஹெட்;Sylhet
+kk;Силхет;Sylhet
+uz;Silhet;Sylhet
+ky;Силхет;Sylhet
+hi;सिलहट;Sylhet
+pa;ਸਿਲਹਟ;Sylhet
+ps;سلهټ;Sylhet
+tg;Силхет;Sylhet
+bn;Sunderganj;Sundarganj
+en;Jamalpur;Jamālpur
+ru;Джамалпур;Jamālpur
+ar;جمالبور;Jamālpur
+kk;Жамалпур;Jamālpur
+tr;Jamalpur;Jamālpur
+uz;Jamalpur;Jamālpur
+ky;Жамалпур;Jamālpur
+id;Jamalpur;Jamālpur
+ms;Jamalpur;Jamālpur
+es;Jamalpur;Jamālpur
+fr;Jamalpur;Jamālpur
+hi;जमालपुर;Jamālpur
+bn;জামালপুর;Jamālpur
+ur;جمالپور;Jamālpur
+de;Jamalpur;Jamālpur
+fa;جمال‌پور;Jamālpur
+ja;ジャマルプル;Jamālpur
+jv;Jamalpur;Jamālpur
+pa;ਜਮਾਲਪੁਰ;Jamālpur
+ps;جمالپور;Jamālpur
+pt;Jamalpur;Jamālpur
+tg;Жамалпур;Jamālpur
+ru;Шибгандж;Shibganj
+bn;Syāmnagar;Shyamnagar
+ru;Саткхира;Sātkhira
+ru;Нетракона;Netrakona
+ar;نترکونا;Netrakona
+kk;Нетракона;Netrakona
+ky;Нетракона;Netrakona
+hi;नेत्रकोणा;Netrakona
+bn;নেত্রকোণা;Netrakona
+ur;نیترکونا;Netrakona
+fa;نترکونا;Netrakona
+ja;ネトラコナ;Netrakona
+pa;ਨੇਤ੍ਰਕੋਣਾ;Netrakona
+ps;نیترکونا;Netrakona
+tg;Нетракона;Netrakona
+ru;Нарсингди;Narsingdi
+ru;Сандвип;Sandwīp
+ru;Шахджадпур;Shāhzādpur
+bn;Saghata;Shāghātta
+bn;Hāsilkāndi;Shāghātta
+bn;রাজশাহী;Rajshahi
+ru;Раджшахи;Rajshahi
+bn;Rājshāhi;Rajshahi
+bn;Rampur Boalia;Rajshahi
+ar;راجشاهي;Rajshahi
+kk;Раджшахи;Rajshahi
+ky;Раджшахи;Rajshahi
+hi;राजशाही;Rajshahi
+ur;راجشاہی;Rajshahi
+fa;راجشاهی;Rajshahi
+ja;ラージシャヒ;Rajshahi
+pa;ਰਾਜਸ਼ਾਹੀ;Rajshahi
+ps;راجشاهي;Rajshahi
+tg;Раджшахи;Rajshahi
+bn;Fulchharighat;Phulchari
+bn;Fulbāri;Phulbāri
+bn;Pirozpur;Pirojpur
+bn;Porsa;Porsha
+ru;Нараянгандж;Narayanganj
+ru;Нагарпур;Nāgarpur
+bn;Paschim Nageswari;Nageswari
+bn;Nagheswari;Nageswari
+bn;Nāgeshwari;Nageswari
+bn;Nageshawari;Nageswari
+bn;Nagasewari;Nageswari
+bn;Munshīganj;Purba Munshiganj
+ru;Мирзапур;Mirzāpur
+bn;Morrelganj;Morrelgonj
+bn;Mahadipur;Mohādipur
+fa;مهندیگانج;Mehendiganj
+bn;Mathbaria;Mathba
+bn;Lalmanirhat;Lalmonirhat
+bn;Lālmanir Hāt;Lalmonirhat
+bn;Lalmanirat;Lalmonirhat
+ru;Лалмониргат;Lalmonirhat
+ar;لالمونيرهات;Lalmonirhat
+kk;Лалмониргат;Lalmonirhat
+ky;Лалмониргат;Lalmonirhat
+hi;लालमोनिरहाट;Lalmonirhat
+ur;لال منیر ہاٹ;Lalmonirhat
+fa;لالمونیرهات;Lalmonirhat
+ja;ラルモニルハット;Lalmonirhat
+pa;ਲਾਲਮੋਨਿਰਹਾਟ;Lalmonirhat
+ps;لال منير هات;Lalmonirhat
+tg;Лалмониргат;Lalmonirhat
+de;Kumilla;Comilla
+bn;কুমিল্লা;Comilla
+ru;Комилле;Comilla
+ja;クミッラ;Comilla
+mr;कोमिल्ला;Comilla
+th;คูมิลลา;Comilla
+ur;کومیلا;Comilla
+ru;Комилла;Comilla
+ru;Рангпур;Rangpur
+en;Rangpur City;Rangpur
+bn;রংপুর;Rangpur
+ja;ランプル;Rangpur
+ko;랑푸르;Rangpur
+ur;رنگپور شہر;Rangpur
+zh;朗布尔市;Rangpur
+ar;رانجبور;Rangpur
+kk;Рангпур;Rangpur
+ky;Рангпур;Rangpur
+hi;रंगपुर;Rangpur
+fa;رنگپور;Rangpur
+pa;ਰੰਗਪੁਰ;Rangpur
+ps;رنګپور;Rangpur
+tg;Рангпур;Rangpur
+bn;Kishoriganj;Kishoreganj
+bn;Kishorganj;Kishoreganj
+ru;Куштия;Kushtia
+bn;Jhikargāchha;Jhingergācha
+bn;Jhikergacha;Jhingergācha
+bn;Munshīganj;Munshiganj Jehāla
+bn;হবিগঞ্জ;Habiganj
+kk;Хабигандж;Habiganj
+ru;Хабигандж;Habiganj
+ar;حبيغنج;Habiganj
+fa;حبیگانج;Habiganj
+ur;حبی گنج;Habiganj
+bn;Gopālpur;Gapalpur
+bn;ফেনী;Feni
+kk;Фени;Feni
+ru;Фени;Feni
+ta;பெனி;Feni
+ar;فيني;Feni
+ja;フェニ;Feni
+fa;فئنی;Feni
+ur;فینی، بنگلہ دیش;Feni
+ru;Райпур;Rāipur
+es;Daca;Dhaka
+fr;Dacca;Dhaka
+ar;دكا;Dhaka
+bn;ঢাকা;Dhaka
+gu;ઢાકા;Dhaka
+hi;ढाका;Dhaka
+it;Dacca;Dhaka
+it;Dhâkâ;Dhaka
+ja;ダッカ;Dhaka
+ko;다카;Dhaka
+pt;Daca;Dhaka
+ru;Дакка;Dhaka
+tg;Дака;Dhaka
+th;ธากา;Dhaka
+tr;Dakka;Dhaka
+ur;ڈھاکہ;Dhaka
+mr;ढाका;Dhaka
+mn;Дакка;Dhaka
+ml;ഢാക്ക;Dhaka
+ug;داكا;Dhaka
+pa;ਢਾਕਾ;Dhaka
+or;ଢାକା;Dhaka
+fa;داکا;Dhaka
+bo;དྷ་ཁ།;Dhaka
+dv;ޑާކާ;Dhaka
+kk;Дакка;Dhaka
+kn;ಢಾಕಾ;Dhaka
+tk;Dakka;Dhaka
+my;ဒါကာမြို့;Dhaka
+te;ఢాకా;Dhaka
+ta;டாக்கா;Dhaka
+zh;达卡;Dhaka
+uz;Dakka;Dhaka
+yue;達卡;Dhaka
+kaa;Dakka;Dhaka
+ky;Дакка;Dhaka
+ne;ढाका;Dhaka
+si;ඩකා;Dhaka
+zh-TW;達卡;Dhaka
+de;Dakka;Dhaka
+bn;Chillmari;Chilmāri
+ru;Кхаграчари;Khagrachhari
+bn;Abhaynagar;Bhātpāra Abhaynagar
+bn;ভৈরব বাজার;Bhairab Bāzār
+ru;Бхайраб;Bhairab Bāzār
+ru;Калия;Kālia
+ru;Багерхат;Bagerhat
+ar;باغرهات;Bagerhat
+kk;Багергат;Bagerhat
+ky;Багергат;Bagerhat
+hi;बागरहाट;Bagerhat
+bn;বাগেরহাট;Bagerhat
+ur;باغر ہاٹ;Bagerhat
+fa;باغرهات;Bagerhat
+ja;バゲルハット;Bagerhat
+pa;ਬਾਗਰਹਾਟ;Bagerhat
+ps;باغر هات;Bagerhat
+tg;Багергат;Bagerhat
+bn;Badalgāchhi;Badalgāchi
+bn;Atraighat;Atrai
+ru;Нарайл;Narail
+bn;নড়াইল;Narail
+bn;West Char Umed;Paschim Char Umed
+bn;Uzīrpukur;Ujirpukur
+bn;Uzīr;Usir
+bn;Uttar Sukdebpur;Sukdebpur
+bn;Uttar Srīpur;Uttar Sripur
+bn;Uttar Salandar;Sarandhar
+bn;Uttar Maminpur;Uttar Mominpur
+bn;Uttar Mājhgaon;Mājhgram
+bn;Uttar Mādhabpur;Mādhabpur
+bn;Uttar Lakshmipur;Lakshmipur
+bn;Uttar Khalia;Uttar Khaleā
+bn;Uttar Jāmālpur;Jamalpur
+bn;Uttar Iswarpur;Iswarpur
+bn;Uttar Durakuti;Uttar Durākuthi
+bn;Uttar Dharmapāl;Dharmapāl
+bn;Uttar Bhabānīpur;Bhabānipur
+bn;Uttar Bedkāsi;Uttar Bedkāshi
+bn;Uttar Bāinbāri;Uttar Bāinbāria
+bn;Uttar Āndhārkota;Āndhārkota
+bn;Uparkonra;Uparkura
+fa;اومدپور;Umedpur
+bn;Uma Mahespur;Umā Maheshpur
+bn;Ullāspur;Ullāspāra
+bn;Ujiāl;Ujail
+bn;Ujālpur;Uzalpur
+bn;Udālia;Udālia TG
+bn;Udiapur Dhāp;Udaypur Dhap
+bn;Udaipur Dhāp;Udaypur Dhap
+fa;توشخالی;Tushkhali
+ur;توشخالی;Tushkhali
+bn;Tushbhāndar;Tusbhāndār
+ru;Тонгипара;Tungipara
+bn;Tulsipur;Tulshipur
+bn;Tulsipāra;Tulshipāra
+bn;Trilochanpur;Trilochandpur
+bn;Tituapāra;Titurapāra
+bn;Tilkhari;Talkhari
+bn;Tilakpur;Titlakpur
+bn;Tikari;Tikoripara
+bn;Tikail;Tikoil
+bn;Thoka;Joka
+bn;Thengāmāri Gāzipur;Thengāmāri
+bn;Tetna;Tetnapāra
+bn;Tetla;Tentulia
+bn;Terakhāda;Terakāna
+bn;Terābāria;Tebaria
+bn;Tepukhuria;Tepukuria
+bn;Tentultalār Char;Tetultalār Char
+bn;Tentulia;Tethulia
+bn;Tentulia;Tatulia
+bn;Telihāri;Telihar
+bn;Telai Ārāzi;Tālai Arāzi
+bn;Teghra Nārayanpur;Teghara Nārayanpur
+bn;Tegāchhi Senpāra;Tegachhi
+bn;Tebaria;Tenāria
+bn;Tātibāndha;Tatibanda
+bn;Taria Bhawāni;Taria
+bn;Taraf Bhālukgāchhi;Bhaluk Gāchhi
+bn;Tārābania;Tarabunia
+bn;Tāntihāti;Chak Tāntihāti
+bn;Tāluk Dharmapur;Tāluk Dharampur
+bn;Tāltalipāra;Taltali
+bn;Tālpātila;Talpotila
+bn;Tālberia;Tālbāria
+bn;Tālāi;Tālal
+bn;Tājanpur;Tajendrapur
+bn;Syāmpur;Shampur
+bn;Syāmpur;Shāmpur
+bn;Syāmnagar;Shyāmnagar
+bn;Syāmganja;Syāmganj
+bn;Surjyapur;Sujidpur
+bn;Surjyapur;Sursapur
+bn;Surjyapāra;Suriyapāra
+bn;Sundarpur;Sundalpur
+bn;Sukti Bādāl;Shutkigachha
+bn;Sukhanpokhri;Sukhanpukhari
+bn;Sujalpur;Suialpur
+bn;Sugri Chāndpur;Sukri Chāndpur
+bn;Subarnakhāli;Subarnakh
+bn;Srīrāmpur;Sree Rāmpur
+bn;Srīpur Rāmnagar;Rāmnagar
+bn;Sreekhata;Srīkhāta
+bn;South Sauljālia;Sauljālia
+bn;South Naranga;Dakshin Narangal
+bn;South Nārāngal;Dakshin Narangal
+bn;South Kālikābāri;Dakshin Kalikabari
+bn;South Hālta;Uttar Halta
+bn;Sonpukhuria;Sanpukhuria
+bn;Sonāsur;Sanasur
+en;Sonargaon;Sonārgaon
+ru;Сонаргаон;Sonārgaon
+bn;Sonārāy;Sonāri
+bn;Sonaray;Sonāri
+bn;Sonāpātil;Sanāpātil
+bn;Sonāikazi;Sonāi Qāzi
+bn;Sobh;Sabh
+bn;Sisu;Shisu
+bn;Sirāzipur;Sirājpur
+bn;Siralia;Sirolia
+bn;Sinpāra;Shingpāra
+bn;Singhajhuli;Singhajhul
+bn;Sināra;Sinra
+bn;Simultari;Simultair
+bn;Simulia Phulbāri;Simulia Phulbāria
+bn;Simulia Gopināthpur;Simulia Gobināthpur
+bn;Simla;Bara Simla
+bn;Silimpur;Silpur
+bn;Sikpur;Shibpur
+bn;Sikārpur;Shikārpur
+bn;Sidna;Sidhna
+bn;Siddikpur;Siddiqpur
+bn;Sibrām;Shibrām
+bn;Sibpur;Shibpur
+bn;Sibāria;Nij Sibbāria
+bn;Sibram;Shibrām
+bn;Sibarām;Shibrām
+bn;Siāta;Uttar Siata
+bn;Siālipāra;Shialipāra
+bn;Siāla;Sitalpur
+bn;Sheikhpur;Shekhpur
+bn;Sheikhpāra;Shikpāra
+bn;Sheikhhāti;Shaikhhāti
+bn;শাহ্‌বাজপুর টাউন;Shāhbāzpur Town
+en;Shahbazpur Town;Shāhbāzpur Town
+bn;Shāhāpur;Sāhāpur
+bn;Shāhāpur;Shāhānpur
+bn;Senzbāri;Seuzbāri
+bn;Serpur;Sherpur
+bn;Seoria;Sauria
+bn;Senra;Sānora
+bn;Senpur;Sanpur
+bn;Senapāra;Senpāra
+bn;Sekhpur;Sheikhpura
+bn;Sekhpara;Sheikpāra
+bn;Sekhpara;Sheikhpāra
+bn;Sekhermāri;Shekhermāri
+bn;Sekhālipāra;Sekānipāra
+bn;Sekerpāra;Shekherpāra
+bn;Shaikhdi;Sheikhdi
+bn;Sefātpur;Sibādpur
+bn;Shāyer;Sayār
+bn;Sayra;Sayār
+bn;Soyra;Sayār
+bn;Saula;Uttar Shaula
+bn;Sātnāla;Jot Sātnala
+bn;Sātia;Sotiya
+bn;Sāthālia;Sathalia
+bn;Sātgāchhi;Sātgāchi
+bn;Sātair;Sātor
+bn;Sasidharpur;Shashidharpur
+bn;Shasidharpur;Shashidharpur
+bn;Sashidharpur;Shashidhorpur
+bn;Sārol;Sārkol
+bn;Sarishāmuti;Sharjsāmut
+bn;Sarishākuri;Sarisākuri
+bn;Sārāsan;Sarashan
+bn;Sārangapur;Sharengpur
+bn;Sarāil;Sharail
+bn;Santirām;Shāntirām
+bn;Sāntapāra;Senpāra
+bn;Sansail;Sangsall
+bn;Sānlia;Shānlia
+bn;Sānkura;Sankarpur
+bn;Sānkoa;Sānkua
+bn;Sānkhāripāra;Sākharipāra
+bn;Sankhachura;Sankachura
+fa;سانکاردهابال;Sankardhabal
+bn;Sankardaha;Shankardaha
+bn;Sāngda Lakshmīpur;Lakshmipur
+bn;Sandalpur;Sundalpur
+bn;Sānandābāri;Sanandabari
+bn;Sāmsābāz;Shamsābāz
+bn;Sambhupur;Shambhupur
+bn;Samaspur;Shamaspur
+bn;Sāluka;Shālkā
+bn;Sālti Murādpur;Saltimuradpur
+bn;Sālkhuria;Shālkhuria
+bn;Sālijān;Shālijān
+bn;Salia;Salua
+bn;Sālebād;Sālebāz
+bn;Sālda;Saldaha
+bn;Sākoa;Sāokāpara
+bn;Sāja Mālanchi;Kasbe Mālanchi
+bn;Sāindhāra;Shāindhāra
+bn;Sailkopa;Shailkopa
+bn;Sāilkol;Sailkul
+bn;Sailgāchhi;Shaiigāchhi
+bn;Saidpur;Sādipur
+bn;Saidpur;Sayedpur
+bn;Sāhāpur;Shāhpara
+bn;Sāhāpur;Shāhāpur
+bn;Sāhājādpur;Shāhzādpur
+bn;Sāhabdipur;Shāhābdipur
+bn;Sāhābāzpur;Shāhābāzpur
+bn;Sāgarpur;Sāgorpur
+bn;Sāflākhāli;Sāphalākhāli
+bn;Sādopāra;Sadupāra
+bn;Sādispur;Sādishpur
+bn;Sābul;Sabail
+bn;Sābek Nāobhānga;Sabek Lābhāngā
+bn;Rupsidānga;Rupasidānga
+bn;Ruppur Harirāmpur;Ruppur
+bn;Rudreshwar;Rudreswar
+bn;Rohanpur;Raharpur
+bn;Refāitpur;Rifaitpur
+bn;Rāygaon;Raigaon
+bn;Ratirāmpur;Ratilampur
+bn;Ratīpur;Rathipur
+bn;Ratipur;Rathipur
+bn;Rasūlpur Kumedpur;Rasūlpur
+bn;Rasulpur;Rasuipur
+bn;Rāotāra;Rattara
+bn;Rāota;Rāuto
+bn;Rāniganj Dari;Raniganj
+bn;Rānāchandi;Ronachandi
+bn;Rāmsāpur;Rāmshāpur
+bn;Rāmpur Hāt;Rampurhat
+bn;Rāmpāra;Rāmpur
+bn;Rāmnagar Tāterkāti;Rāmnagar Tāterkathi
+bn;Rāmil;Amail
+bn;Rāmchandrapur;Hāt Ramchandrapur
+bn;Rāmanandapur;Rāmandapur
+bn;Rāmanandakāti;Rāmānananda
+bn;Rājor;Rājair
+bn;Rājāpur Char;Chak Rājāpur
+bn;Rajakpur;Rāzzākpur
+bn;Rāitpāra;Rāuthpāra
+bn;Rahinipāra;Paschim Rahinipāra
+bn;Rahimapoor;Rahīmāpur
+bn;Rāghabdāir;Ragnaboair
+bn;Rāenda;Rayenda
+bn;Rādhāngar;Rādha Nagar
+bn;Purbba Tāherpur;Purba Taherpur
+bn;Purbba Hosenpur;Purba Hosenpur
+bn;Purba Sukhanpokhri;Purba Sukān Pukuri
+bn;Purba Jaydebpur;Jaydebpur
+bn;Purbaaydebpur;Jaydebpur
+bn;Purba Gosāinpur;Purba Gosāipur
+bn;Purba Debarpāra;Doarpāra
+bn;Purba Daulatpur;Purba Doulatpur
+bn;Purba Daljor;Purba Daljore
+bn;Purba Chhaparhati;Chhaparhati
+bn;Purātan Kushtia;Puratan Kustia
+bn;Purāpukur;Pulāpukur
+bn;Pukhuria;Pukuria
+bn;Pratāpdaha;Pratābdaha
+bn;Prasādpāra;Pāthānpāra
+fa;پوشاندا;Poshanda
+bn;Porsha;Parsha
+bn;Pora Ujāni;Para Ujāni
+bn;পোড়াদিয়া;Poradia
+bn;Pokanda;Pukanda
+bn;Pohāpur;Puhāpur
+bn;Pithābāri;Pithālāri
+bn;Pitāmbar Fatepur;Pitāmbor Fatehpur
+bn;Piruli Senpāra;Piruli
+bn;Piprāgāchhi;Pipragāchi
+bn;Pipalya;Pipalla
+bn;Pindāra;Pindira
+bn;Phursatpur;Fursatpur
+bn;Phulmoti;Phulmāti
+fa;پهولجهوری;Phuljhuri
+bn;Phulchhari;Phulchari
+bn;Phulbāri;Fulbāri
+bn;Phetgaon;Phetgram
+bn;Phaliādigar;Phuliādigar
+fa;پهالایبانیا;Phalaibania
+bn;Palāsbāri;Palāshbāri
+bn;Panchagrām;Panchagrām Ālābaksa
+bn;Pampāra;Pāmppāra
+bn;Palua;Palu
+bn;Pāl Tāluk;Pal Taluk
+bn;Paltaluk;Pal Taluk
+bn;Pālsa;Pālsha
+bn;Palsa;Polsha
+bn;Pākuria;Pukuria
+bn;Pakurdāri;Pāikerdaria
+bn;Pāka;Pānka
+bn;Paitkapara Dharmapāl;Pāitkāpāra
+bn;Pāikpāra Ichhākhāli;Paikpāra
+bn;Pāikmāri;Pāikmār
+bn;Pāikkāndi;Pāikāndi
+bn;Pāhārpur Buzrug;Paharpur
+bn;Pāgha;Pāgna
+bn;Pāerāpur;Piārāpur
+bn;Pāchandar;Pāchandhar
+bn;Pachākandar;Padchākandar
+bn;Olipur;Ulipur
+bn;Nutan Char;Philipnagar
+bn;Nūrpur Amīrpur;Amirpur
+bn;Noorpoor;Nurpur
+bn;North Tiākhāli;Uttar Tiakhali
+bn;North Nowāpāra;Nowāpāra
+bn;North Nārāngal;North Nārānga
+bn;North Hālta;North Hatta
+bn;North Charāil;Uttar Charāil
+bn;North Bāgdānga;Bāgdānga
+bn;Nonāpukhar;Nonāpukur
+bn;Noāmāla;Noamolla
+bn;Nizāmia Ghopkhāli;Nizamia
+bn;Pāzākhāli Hāzra;Pājākhali Hāzra
+bn;Pauāli;Pauoli
+bn;Pāturia;Paluria
+bn;Pātoāri;Patwāri
+bn;Pātiākāndi;Petiākāndi
+bn;Pātan;Pātah
+bn;Pasupatipur;Pashputipur
+bn;Pasunda;Pusunda
+bn;পশ্চিম সেওতা;Paschim Seota
+bn;Paschim Pānchubāria;Pānchubāria
+bn;Paschim Kaya;Kayā
+bn;Paschim Durgāpur;Durgāpur
+bn;Paschim Chipābāraikhāli;Paschim Chiparai Khāli
+bn;Paschim Chhaparhati;Chhaparhati
+bn;Paschim Bālāgrām;Balagrām
+bn;Ekdarpur;Pārulgāchha
+bn;Pārsāota Ārāzi;Par Saota
+bn;Pār Palita;Per Polita
+bn;Pār Nidain;Pār Nindain
+en;Naogaon;Pār Naogaon
+ru;Пар Наогаон;Pār Naogaon
+bn;Parānpur;Balihārpur
+bn;Pāraitangi;Pāraitong
+bn;Pārail;Pāroil
+bn;Pār Ādhāipur;Pār Ādhārpur
+bn;Panrera;Pārra
+bn;Pānitali;Pāitali
+bn;Pānisāil;Pānishāil
+bn;Pānigānti;Penigānti
+bn;Pundul;Pāndul
+bn;Pānchbāria;Pānchbārta
+bn;Nityānandakāti;Nityanaridakati
+bn;Nischintapur;Nichintapur
+bn;Niroli;Nirola
+fa;نیلاتی;Nilati
+bn;Nizpara;Nijpāra
+bn;Nidain;Nindain
+bn;Niāmatbāri;Niyematpur
+bn;Nezāmpur;Nizāmpur
+bn;Nekmard;Nekmarad
+bn;Nefra Nanda;Nanda Nefra
+bn;Nazirpur Khurd Āilchāra;Nazirpur
+bn;Nāzirpur;Gāzipur
+bn;Nayāpāra;Novapāra
+bn;Nayani Rāghābendrapur;Rāghābindapur
+bn;Naya Nāobhānga;Lābhāngā
+bn;Nawāpāra;Noapāra
+bn;Nauthi;Noathi
+bn;Naodanga;Nāudānga
+bn;Nāudābāsh;Nāudāhāsh
+bn;Naodabas;Nāudāhāsh
+bn;Nātsāl;Nātshal
+bn;Nārāyanpur;Nātima
+bn;Nasratpur;Nasaratpur
+bn;Nārikelbāria;Nārikeibaria
+bn;Nārikelbāri;Narikabari
+bn;Narendrapur;Narerdrapur
+bn;Nārāyanpur;Nārāyanpāra
+bn;Narasinhapur;Narsinghapur
+bn;Naopāra Krishnapur;Krishnapur
+bn;Naopāra;Noāpāra
+bn;Naonagar;Nāanagor
+bn;Naokhair;Nakhair
+bn;Naodabas;Naudabas
+bn;Naoda;Nayāda
+bn;Nundunpoor;Nandanpur
+bn;Nāluhār;Lāluhar
+bn;Nalua;Nolua
+fa;نالی چاک;Nali Chak
+bn;Nalbania;Nalbunia
+uz;Nalbaniya;Nalbunia
+ms;Nalbania;Nalbunia
+en;Nalbania;Nalbunia
+fa;نالبانیا;Nalbunia
+nl;Nalbania;Nalbunia
+zh;纳尔巴尼亚;Nalbunia
+bn;Nākol;Nākail
+bn;Nakhpāra;Nāgpāra
+bn;Nākha;Nākna
+bn;Naikhutti;Naikhatti
+bn;Nahala Kālupāra;Nahdi Kalupāra
+bn;সুটরিয়া;Nagar Naluākot
+bn;নগর নলুয়াকোট;Nagar Naluākot
+en;Nogor Noluakot;Nagar Naluākot
+en;Nagar Naluakot;Nagar Naluākot
+ru;Нагар Налуакот;Nagar Naluākot
+bn;Nagar Muhammadpur;Nagar Mohamadpur
+fa;نادمولا;Nadmula
+bn;Nabaganga;Nabasanga
+bn;Nabaganga;Nabagonga
+bn;Musidhāt;Mursid Hāt
+bn;Murhātta;Mārhāta
+bn;Muralipāra;Munalipāra
+bn;Mundiāl;Muadāil
+bn;Mukandi;Mukundi
+bn;Mukhar;Makhair
+bn;Mohāmmadpur;Mohammadpur
+bn;Muhammadpur;Mohammadpur
+ru;Мохаммадпур;Mohammadpur
+bn;Muhammadkhani;Mohammad Khani
+bn;Moogarpara;Mugarpāra
+bn;Mosani;Mochni
+bn;Mordaha;Murdaha
+bn;Mollakāndi;Mullakāndi
+bn;Mollādāngi;Moliadāngi
+bn;Mollādānga;Mollāhdānga
+bn;Moktārpur;Muktārpur
+bn;Moktārpāra;Muktārpur
+bn;Mohinikāthi;Mahinikathi
+bn;Moharāpur;Maharāpur
+bn;Mohanpur;Moha
+bn;Mohanpur;Mohanpur Khurd
+bn;Mithākhāli;Paschim Mithakhali
+bn;Milik Lakshmipur;Milid Lakshmipur
+bn;Miānpur;Miapur
+bn;Metan;Mitan
+en;Melandaha;Melandaha Nāoghāta
+bn;Malabar;Melābar
+bn;Megher Āit;Megharāit
+bn;Megdambar;Meghdumbar
+bn;Maynādānga;Maidhyapāra
+bn;Māuli;Maulicha
+bn;Mātikāta;Mutikata
+bn;Mātiāpāra;Mathpāra
+bn;Mathur Krishnapur;Mathura Krishnapur
+bn;Māthābhānga;Mayabhānga
+bn;Mastafāpur;Mostafāpur
+bn;Masidpur;Musidpur
+bn;Masidha Sultānpur;Sultānpur
+bn;Marugaon;Marugao
+bn;Marichbania;Marichbunia
+bn;Marichbania;Malichania
+bn;Māria Kismat;Kismat Māria
+bn;Māria Ārāzi;Ārāzi Maria
+bn;Mansurpur;Monsefpur
+bn;Manoharpur;Monoharpur
+bn;Manikora;Manikara
+bn;Mānikkhāri;Mānikkhāra
+bn;Mānikāli;Mankali
+bn;Manigrām;Monigrām
+bn;Mangalāpāra;Manglapāra
+bn;Mandalgānti;Mandalgānt
+bn;Māndāin;Maidāil
+bn;Manasi;Manashi
+bn;Maminpur;Mominpur
+bn;Malson;Mālshon
+bn;Mallikpur;Malukpur
+bn;Mallikpur;Bara Mallikpur
+bn;Malikbeg;Mallikbeg
+bn;Mālibāri Khurd;Malibari
+bn;Khordamalibari;Malibari
+bn;Māljhār;Māljahār
+bn;Mālbāndha;Māl Bāndā
+bn;Mālāhār;Malāhāt
+bn;Māktāpur;Muktāpur
+bn;Makrāmpur;Makimpur
+bn;Makimpur Mānikhār;Muqimpur Mānikhār
+bn;Makharpur;Makarpur
+bn;Mājila;Mājaila
+bn;Mājhigaon;Mājhgaon
+bn;Mājdiār;Māijdiār
+bn;Mainpur;Moinpur
+bn;Māilākhor;Māliakhair
+ru;Маийди;Maijdi
+bn;Mahīsh Khocha;Mohish Khocha
+bn;Mahishbāthān;Mohesbāthān
+bn;Mahisālbāri;Garermāth
+bn;Maheswaripur;Modhya Moheswāripur
+bn;Mahespur;Maheshpur
+bn;Mahespur;Baro Maheshpur
+bn;Maheshpur;Chhota Maheshpur
+bn;Mahesha;Mohesha
+bn;Mahesa;Mohesha
+bn;Mahesāli;Mahesāil
+bn;Mahārājpur;Mohārjpur
+bn;Mahanan;Mohanail
+bn;Mahammadpur;Mohammadpur
+bn;Mahālchhari;Mahālchari
+bn;Mahadipur;Mehdipur
+bn;Mahābat Khān;Mohabat Khan
+bn;Maglispur;Maglishpur
+bn;Madinār Ābād;Madinābād
+bn;Madia;Maria
+bn;Modhapara;Madhyāpāra
+bn;Madhya Durgāpur;Durgāpur
+bn;Madhuli;Mudāil
+bn;Mādhāipur;Madhabpur
+bn;Mādhabpur;Modhabpur
+bn;Mādhabhāli;Mādhabkhāli
+bn;Madanpura;Madanpur
+bn;Madan Chak;Madanpur
+bn;Māchhuākhāli;Māchauakhāli
+bn;Māchhimpur;Māchimpur
+bn;Lochangar;Lochannagar
+bn;Lengra;Lengria
+fa;لبوبانیا;Lebubania
+bn;লেবুবানিয়া;Lebubania
+zh;莱布巴尼亚;Lebubania
+bn;Lāugāri;Laoogari
+bn;Lalua Bāgāli;Laluār Bāgāli
+bn;Lakshmīpur;Lakshimpur
+bn;Lakshmīpur;Lakshmipu
+bn;Lakshmīpur;Lakshmipur
+bn;লক্ষ্মীপুর জেলা;Lakshmīpur
+bn;Lakshmipur;Laksmipur
+bn;Lakshmikhola;Lakshikola
+bn;Lakshmanpur;Lakshmipur
+bn;Lakshman Khalsi;Krishna Lakshmipur
+bn;Lakshmanbāria;Lakshamanbāria
+bn;Lakhara;Lakhra
+bn;Kutubpur;Qutubpur
+bn;Kutail;Kurail
+bn;Kusla;Kushla
+bn;Kushtia;Kustia
+bn;Kushlībāsa;Kusalibasa
+bn;Kusarmuri;Kushārmuri
+bn;Kusārigaon;Kushārigaon
+bn;Kusādānga;Kushidānga
+bn;Kusādānga;Kusidānga
+bn;Kusadānga;Kushodānga
+bn;Kursana-Eusafpur;Yousufpur Kursana
+bn;Kurmut;Kurmat
+bn;Kumrāil;Kumioil
+bn;Kumārjol;Kumirjol
+bn;Kumārgāra;Kumārgārh
+bn;Kumārdugi;Kumardugi
+bn;Kulpāra;Kutpara
+bn;Kulchara Lakshmipur;Lakshmipur
+bn;Koolanundpoor;Kulānandapur
+bn;Kuchlibāri;Baujilāmāl Kuchlibāri
+bn;Kshidrakhalsi;Khidrakhālsi
+bn;Kshidra Kālikāpur;Khidri Kālikāpur
+bn;Krorbāria;Korālbāria
+bn;Krishnapur;Kistapur
+bn;Krishnapur;Krishanpur
+bn;Krishnapur;Krishnanagar
+bn;Kotrābād;Kotrabad
+bn;Korāmāri;Kumāria
+bn;Komarpur;Kumārpur
+bn;Komarkandi;Kamarkandi
+bn;Kolābāri;Kotābāri
+bn;Kodālisahar;Kodālisahd
+bn;Kochpāra;Konchpara
+bn;Koch Kurulia;Kochkuruta
+bn;Kobāru;Kabāru
+bn;Kisorpur;Kishorpur
+bn;Kismat Sukhanpokhri;Kismat Sukhanpukhri
+bn;Kismat Sāk pāl;Kismat Shakpal
+bn;Kismat Pāhārpur;Pāhārpur
+bn;Kismat Kukhandi;Qismat Kusāhdi
+bn;Kismat Fatejangpur;Kismat Fatehjangpur
+bn;Kismat Enāyetpur;Kismat Ināyetpur
+bn;Kismat Daulatpur;Daulatpur
+bn;Kishorpur Dari;Dari Kishorpur
+bn;Dari Kisorpur;Dari Kishorpur
+bn;Kisāmat Kasba;Kismat Kasba
+bn;Kisāmat Bhabāninagar;Bhabaninagar
+bn;Kirttaniāpāra;Kirtāniapāra
+bn;Kinukāti Berbāri;Kisukāti Barabāri
+bn;Kifāitnagar;Kifājtnagar
+bn;Khurd Jaypur;Khord Jaypur
+bn;Khurd Chānpa;Khord Champa
+bn;Khurd Banagrām;Khurd
+bn;Khujipur;Khujipāra
+bn;Khosālpur;Khosālpāra
+bn;Khosālbāri;Khoshālbāri
+bn;Khorsedpur;Khorshedpur
+bn;Khord Jhina;Khudra Jhina
+bn;Khorda Sāptana;Kharda Saptana
+bn;Khorda Gobindapur;Khirdir Gobindapur
+bn;Khorda Gānair;Khura Ganoir
+bn;Khorākhāl;Khorākhāi
+bn;Khopra;Khopragram
+bn;Khonkārerber;Khonkarerper
+bn;Kholara;Kholra
+bn;Kholāhāti;Kholahati
+ru;Кхокса;Khoksa
+bn;Khojārpāra;Khojāpāra
+bn;Khojāpur;Khozapur
+bn;Khojālipur;Khojālpur
+bn;Khirshan;Khirshintikor
+bn;Khiribāri;Kharidari
+bn;Khiral;Khirol
+bn;Khidir Mālanchi;Khidra Mālonchi
+bn;Khetur;Kheter
+bn;Khepna;Kheona
+bn;Khejurtala;Khajurtala
+bn;Khayrābād;Khairābād
+bn;Khayerhāt;Kheyerhāta
+bn;Khattauchna;Khatra Chhana
+bn;Khatta Uchhna;Khatra Chhana
+bn;Khātta Sāhāpur;Sāhāpur
+bn;Khās Jaypur;Khās Joyrāmpur
+bn;Kharinchi;Khariachi
+bn;Khārikhola;Khārikudla
+bn;Khārijāgāti;Khairjagati
+bn;Kharia Mathbāri;Kharia Matbāri
+bn;Kharerbāir;Khayererbāri
+bn;Khānrhāt;Kharhāt
+bn;Khāmār Rāmdebpur;Rāmdebpur
+bn;Khāmār Dhanāruha;Khamar Dhanaruha
+bn;Khāmār Bishnuganja;Khāmār Bishnuganj
+bn;Khālisākuri;Khalishākuri
+bn;Khalisākuri;Khalishākuri
+bn;Khālisa Khutāmāra;Khalisha Khutāmāra
+bn;Khalisādaha;Khalisdaha
+bn;Khalisābunia;Khalishābunia
+bn;Kharilpur;Khalilpur
+bn;Kesurgāra;Keshurgāra
+bn;Kesāl;Keshāil
+bn;Kesabpur;Keshabpur
+bn;Kismut Kesubpoor;Keshabpur
+bn;Kesabpur;Kashabpur
+fa;کئورابونیا;Keorabunia
+bn;Kechuātail;Kachuatali
+bn;Kāzipur;Kājipur
+bn;Qāzipāra;Kāzīpāra
+bn;Kazirchara;Qazirchara
+bn;Kāzi Chara;Qazirchara
+bn;Kayās;Kayes
+bn;Kaya Muāzumpur;Kaya Mazzampur
+bn;Kāugān;Kāogāon
+bn;Kātni;Kātnia
+bn;Katnākandar;Kātlākāndar
+bn;Kātna;Bara Katna
+bn;Kātirdānga;Kātherdānga
+bn;Kātikol;Kātkail
+bn;Kāthālbāria;Kāthālbāri
+bn;Kātāpukhur;Kātāpukur
+bn;কাটাবাড়িয়া;Kātābāria
+bn;Kāstha Nāngla;Kosthanangla
+bn;Kāsipur;Kāshipur
+bn;Kasipur;Kāshipur
+bn;Kāsimpur;Kashimpur
+bn;Kasimpoor;Kashimpur
+bn;Kāsimpur;Kāshimpur
+bn;Kāsimpur;Kāsempur
+bn;Kāsidānga;Kāshidānga
+bn;Kāsibāri Krishnapur;Kāshibari Krishnapur
+bn;Kāsibāri;Kāshibāri
+bn;Kāsiadānga;Kāshiadānga
+bn;Kāshīrām;Kāsirām
+bn;Kāshināthpur;Kashina
+bn;Kasba;Khesba
+bn;Kasba;Kasba Nagra
+bn;Kasba;Kashba
+bn;Karuna;Uttar Karuna
+bn;Karnāpur;Kaināpur
+bn;Karnakhali;Karnaknali
+bn;Karamja;Karamzār
+bn;Kāpāsman;Kāpāshmāil
+bn;Kapāsia;Bhati Kapasia
+bn;Kaparpāra;Kaparpura
+bn;Kāpāishta;Kāpāstia
+bn;Kāonra Jāonra;Kāora Jāora
+bn;Kānthālpāra;Kāthāl Para
+bn;Kānthālbāri;Kāthālbāria
+bn;Kāntha Chora;Kathachora
+bn;Kāntābāri;Kātābāri
+bn;Kansuna;Ramjibanpur
+bn;Kānsāt;Pārkānsat
+bn;Kānmatklāi;Kānmatkai
+bn;Kandlol;Kāndul
+bn;Kāndhāl;Kandal
+bn;Kanapāra;Konāpāra
+bn;Kanakdiha;Kanakdia
+bn;Kānāitkunda;Kānāiodanga
+bn;Kāmthāna;Kāmjhāna
+bn;Kāmārpukur;Khāmārpukur
+bn;Kāmārpāra;Kamarpara
+bn;Kamāigāri;Komaigāri
+bn;Kalyānkalās;Kalyankala
+fa;کالی‌پور;Kalipur
+bn;Kalipur;Kelipur
+bn;Kālinagar;Kālinogar
+bn;Kālikāpur;Bara Kalikapur
+bn;Kālīkābāri;Kalikapur
+bn;Kālia Kundi;Kalia Kāndi
+bn;Kalāran Chandipur;Chandipur
+bn;Kālaia;Kālāiya
+bn;Kālāchānd Char;Dakshin Char Kalachand
+bn;Kalābāri;Kalābār
+bn;Kākun;Kākur
+bn;Kāknasi;Kāknashi
+bn;Kakeena;Kākina
+bn;Kākchira;Uttar Kagchira
+bn;Kājla;Kagla
+bn;Kājihāta;Kāzihāta
+bn;Kājal Kishor;Rājal Keshor
+ru;Кафрул;Kafrul
+bn;Kāemkola;Kāemkala
+bn;Kāemkola;Kaemkala
+bn;Kādpāra;Kāndpāra
+bn;Kadirpur Diar;Diār Kādirpur
+bn;Kādirpur;Kādipur
+bn;Kadamgāchhi;Kadamgāchi
+bn;Kadambāri;Kadammbāri
+bn;Kachua;Kochua
+bn;Kāchia Tabgi;Kāchiā
+bn;Kāchhāri Kayālipāra;Kāchharikayālpāra
+bn;Kabutarpāra;Kabeitarpāra
+bn;Jumarbari;Jumābāri
+bn;Joomarbaree;Jumābāri
+bn;Jujkhola;Jugyāchola
+bn;Jugiso;Jugisa
+bn;Joynābād;Jaynābād
+bn;Jot Raghu;Jat Raghu
+bn;Jot Mādhab;Jot Mādhat
+bn;Jot Jayrām;Jotjoyrām
+bn;Jote Kandar;Jotkandar
+bn;Jote Gopāl;Jot Gopāl
+bn;Jote Garib;Jot Garib
+bn;Jokābila;Jukābila
+bn;Jogipol;Jogipur
+bn;Jigātala;Gigātala
+bn;Jiārkol;Ziārkol
+bn;Jiānagar;Ziānagar
+bn;Jial;Jiol
+bn;Jiail;Jeul
+bn;Jhikri Parānkhāli;Parānkhāli
+bn;Jhātibania;Jhātibunia
+bn;Jhānjhira;Jhajira
+bn;Jhaljhalia Maglispur;Jhaljhalio Maglishpur
+bn;Jayrāmpur;Joyrāmpur
+bn;Jaypura;Joypur
+bn;Jaypur;Joypur
+bn;Jaynagar;Joynagar
+bn;Jaymanirgol;Joymonirghol
+fa;جایکول;Jaykul
+bn;Jaykrishnapur;Joykrishnapur
+bn;Jay Krishnapur;Joy Krishnapur
+bn;Jay Gobinda;Jaygobindapur
+bn;Jayganj;Jāygari
+bn;গাজীপুর;Gazipur
+ru;Газипур;Gazipur
+ar;غازيبور;Gazipur
+kk;Газипур;Gazipur
+ky;Газипур;Gazipur
+hi;गाजीपुर;Gazipur
+ur;غازی پور;Gazipur
+fa;غازی‌پور;Gazipur
+ja;ガジプール;Gazipur
+pa;ਗਾਜ਼ੀਪੁਰ;Gazipur
+ps;غازي پور;Gazipur
+tg;Газипур;Gazipur
+bn;Jaybhog;Joybhoga
+bn;Jaya;Joya
+bn;Jatnapur;Jātrāpur
+bn;Jasapāra;Jagāpāra
+bn;Jaroolapoor;Jārulyāpur
+bn;Jarullapur;Jārulyāpur
+bn;Jangali;Jangli
+bn;Janbasi;Jantasi
+bn;Jamuna;Jamuna Dighi
+bn;Jāmālta;Jāmāliā
+bn;Jalihor;Jhālihur
+bn;Jalāhāri;Jalāhar
+bn;Jāhedpur;Jahidpur
+fa;جاهدپور;Jahedpur
+bn;জাহিদপুর;Jahedpur
+ur;جہیدپور;Jahedpur
+bn;Jahāngirpur;Jahngirpur
+bn;Jagpur;Jagapur
+bn;Jāgeswar;Jageshwar
+bn;Jagdail;Jogadail Tilshi
+bn;Jagatnagar;Jagathnāgar
+bn;Jagapāra;Jagpāra
+bn;Jagāpāra;Jagupāra
+bn;Jagannāthpur;Jaganāthpur
+bn;Jagadispur Bārihāti;Jagadishpur
+bn;Jagadispur;Jagodispur
+bn;Jagadispur;Jagadishpur
+bn;Jagadishpur;Jagadiahpur
+bn;Jāfrābād;Jāfarābād
+bn;Jādipāra;Jādimura
+bn;Jābusa;Jābusia
+bn;Jaban;Dhubapara Jawban
+bn;Itāhāri;Itāhār
+bn;Itāghāti;Etāghāti
+bn;Iswarpāra;Ishwarpāra
+bn;Ishwarpur;Iswarpur
+bn;Isānpur;Ishānpur
+bn;Ilsāgāri;Ilshāgāri
+bn;Ekarchali;Ikarchāli
+bn;Ichhlāmpur;Islāmpur
+bn;Ichākhāli;Iohākhāli
+bn;Huzuripāra;Hujuripara
+bn;Huzrāpur-Kursana;Hazrāpur Kursana
+bn;Hudānandalālpur;Nandajālpur
+bn;Huda Dhananjaypur;Muda Dhananjaypur
+bn;Hosenpur;Husāinpur
+bn;Hoja Anantakāndi;Ānantakāndi
+bn;Hogla Char;Hoglār Char
+fa;هوگالپاتی;Hogalpati
+bn;Hogalbāri;Hogolbāri
+bn;Hogalbania;Hoglābunia
+bn;Hili;Hilli
+bn;Hijalpalli;Hizalpalli
+bn;Hujatpoor;Heyātpur
+bn;Hetālia;Hatalia
+bn;Hāzipur;Hājipur
+bn;Hāyetkhāli;Hāyātkhāli
+bn;Hāyātpur;Haydtpur
+bn;Hāt Sibpur;Shibpur
+bn;Hāt Sāoli;Hātsāli
+bn;Hāt Rāmpur;Rāmpur
+bn;Hāt Pānia;Hāpānia
+bn;Hāt Mokāmia;Bara Mokāmia
+bn;Hātkhujipur;Khujipur
+bn;Hāt Hāpānia;Hanpania
+bn;Hātāsh Haripur;Haripur
+bn;Hātās;Hatāsh
+bn;Hāsura;Hāshura
+bn;Hasnipur;Hosnipur
+bn;Hāsnāpāra Chorkhor;Hāshnāpāra Charkhor
+bn;Hāsimpur;Hāshimpur
+bn;Hāsanpur;Char Hasanpur
+bn;Hāruria;Harulia
+bn;Harsail;Harasāil
+bn;Harispur;Harishpur
+bn;Hariswar;Harishwar
+bn;Harischandrapāt;Harishchandrapat
+bn;Harisankarpur;Harishankarpur
+bn;Haripur;Mirkādānga Haripur
+bn;Haringachhi;Haringachi
+bn;Harinārāyanpur;Harnarāyanpur
+bn;Hāriārkuti;Hariakotti
+bn;Hāriāgāchhi;Hariāgāchi
+bn;Hārdih;Hārdi
+bn;Haragrām;Haragram Nutonpara
+bn;Hemerkuthi;Hemer Kuthi
+bn;Hamar Kuthi;Hemer Kuthi
+bn;Haludbāria;Haluobāri Mirpur
+bn;Halker Char;Halkār Char
+bn;Halkāchar;Halkār Char
+bn;Halikhāli;Holikhali
+bn;Haldia Bajra;Bajra Haldia
+bn;Hākron;Baje Hankroil
+bn;Hazipur;Hājīpur
+bn;Hābaspur;Hābāshpur
+bn;Gurhāria;Gourharia
+bn;Gurdaha;Guidaha
+bn;Gundum;Gundum Bāzār
+bn;Gosira;Gushra
+bn;Gosāinpur;Gosāipur
+bn;Gosāinpur;Goshāipur
+bn;Gorsāi;Gorsāk
+bn;Gorkai;Gorkhai
+bn;Gorara;Gorura
+bn;Goral;Gorai
+bn;Gorakshanāthpur;Gorakshmanāihpur
+bn;Gorak Mandal;Garek Mondal
+bn;Gorai Raghu Rai;Gorai Raghuray
+bn;Gopmāthpur;Gupīnāthpur
+bn;Gopīnāthpur;Gupīnāthpur
+bn;Gopalpoor;Gopālpur
+bn;Gopāldi;Bārā Gopāldi
+bn;Gonsāi Durgāpur;Durgapur
+bn;Golbunia;Gulbunia
+bn;Golbania;Golbunia
+bn;Golābāri;Goālbāri
+bn;Gogra;Gayro
+bn;Godhol;Godhail
+bn;Gochar;Gochur
+bn;Gobra;Char Gobra
+bn;Gobindpur;Gobindapur
+bn;Gobindapāra;Gobindapui
+bn;গোবিন্দপুর;Gobindadi
+bn;Goālpāra;Goālkhāli
+bn;Goālkāndi;Goākandi
+bn;Goālkānda;Goālkāndi
+bn;Goāliābāgha;Goālābāsa
+bn;Goāgaon;Guāgaon
+bn;Gindhāil;Gandāil
+bn;Ghugumāri;Ghughumāri
+bn;Ghugrākāti;Dakshin Ghugrākāti
+bn;Ghoshgaon;Ghoshgrām
+bn;Ghors̄l;Ghorsal
+bn;Ghorlās;Ghorlai
+bn;Gholkandar;Gholkāndor
+bn;Gholhāria;Gõlaharia
+fa;گیگارا;Ghighara
+bn;Ghechugolla;Gheohugolla
+bn;Ghāt Mordaha;Ghāt Murdaha
+bn;Ghārua;Gharua
+bn;Ghanesyāmpur;Ganeshyampur
+bn;Ghanasyāmpur;Ghanshyāmpur
+bn;Ghāgua;Ghagoa
+bn;Gedura Kismat;Gedura
+bn;Gāzipur;Chauka Gāzipur
+bn;Gāzikhāl;Gāzirhāt
+bn;Gazalbāri;Gajāibāri
+bn;Gayra;Gaira
+bn;Gaurkhāi;Gurkhai
+bn;Gauripur;Gouripur
+bn;Gaurdaha;Simulia Gaurdaha
+bn;Gaurāngapur;Gourāngapur
+bn;Gāupāra Senbhāg;Gāupāra Senbāgh
+bn;Gatia;Gotia
+bn;Gariābania;Gariābunia
+bn;Gārākhola;Gārākhali Prāganj
+fa;گارایا;Garaia
+bn;Gāngobāri;Gangābāri
+bn;Gānglia;Gāngni
+bn;Gangānandapur;Gonganandanpur
+bn;গঙ্গাধরপট্টি;Gangādharpatti
+bn;Ganespur;Ganeshpur
+bn;Gandul;Gundail
+bn;Galāikura;Gulāikura
+bn;Gābura;Bara Gābura
+bn;Gabra Khāli;Gobra Khāli
+bn;Fulpur;Fuipur
+bn;Fulkhānrpāra;Fuiknānrpāra
+bn;Fedāinagar;Pendāinagar
+bn;Fatepur;Fatehpur
+bn;Fatekāti;Fatehkāti
+bn;Farīdpur;Fārādpur
+bn;Faridpur;Faridpurāhāti
+ru;Фаридпур;Farīdpur
+bn;Fārādpur;Farhadpur
+bn;Etmāmpur;Itmampur
+bn;Enāyetpur;Ināyetpur
+bn;Elangi Ācharjya;Elangi Āchariya
+bn;Ekartāra;Ekurtāra
+bn;Ekarkuri;Ikurkuri
+bn;Ekānnapur Goālpāra;Ekānnapur
+bn;Ekair;Akher
+bn;Efat;Ekut
+bn;East Pasuribania;East Pāsuribunia
+bn;East Jorkhāli;Purbu Jorkhāli
+bn;East Jainkāti;East Jainkāt
+bn;East Char Umed;Purba Char Umed
+bn;Dyāmrāil;Dumrāli
+fa;دویپ چار;Dwip Char
+bn;Dwarisun;Dwarishan
+bn;Dwārigrām;Darigram
+bn;Durllabhpur;Durlabhpur
+bn;Durlavpur;Char Durlavpur
+bn;Durgāpāra;Darga Pārita
+bn;Durbāchāra;Durbba Chara
+bn;Durāli;Dural
+bn;Dumāria;Dumuria
+bn;Dukuri;Dhukuri
+bn;Dublasur;Dubiāsur
+bn;Dostapur;Dastapur
+bn;Dosatina Kālikāpur;Kālikāpur
+bn;Donār;Dohar
+bn;Domkuli;Dumkoli
+bn;দিনাজপুর;Dinajpur
+ru;Динаджпур;Dinajpur
+bn;Dogāchhia;Dogāchi
+bn;Dogāchhi;Tākāhāra
+bn;Dipchāndpur;Dwip Chandpur
+bn;Dinanāthpur;Dinnāthpur
+bn;Diār Mahabbatpur;Diārmahabbatpur
+bn;Dhurāil;Dharāil
+bn;Dhupāil;Chang Dhupāil
+bn;Dhumdumia;Dumdumia
+fa;دهول خولا;Dhul Khola
+bn;Dhuliāni;Jhulinni
+bn;Dhopāpāra;Dhobāpāra
+bn;Dhopābila;Dhopuail
+bn;Dharmahāta;Dharmātha
+bn;Dharmahāt;Dharmahāta
+bn;Dharampur;Dharmapur
+bn;Dharanibāri;Uttar Dharanibāri
+bn;Uttar Dharanibār;Uttar Dharanibāri
+bn;Dharampur;Dharanpur
+bn;Dhāpgrām;Dhopgrām
+bn;Dhāoa;Dhawa
+bn;Dhannagar Pratāppur;Dhainagar Pratāppur
+bn;Dhānisafa;Dhanisara
+bn;Dhānghora;Dhanghara
+bn;ধনারটেক;Dhanertek
+bn;Dhandaha;Dhāndāo
+bn;Dhananjaypur;Dhananjoypur
+bn;Dhananjaypāra;Dhananjoypāra
+bn;Dhāmsreni;Dhāmshreni
+bn;Dhamalpur;Dhamanpura
+bn;Dhāka Chandragāti;Dhāka Chandragāthi
+bn;Dhabol;Dhubāil
+bn;Deuli;Deulia
+bn;Deula;Dewlia
+bn;Deula;Deulia
+bn;Desma;Dashama
+bn;Deskhirshin;Deshkhirsin
+bn;Deripāra;Debipāra
+bn;Deopur;Deopuro
+bn;Deopāra;Deopura
+bn;Degha;Digha
+bn;Debalchhari;Debalchari
+bn;Daulatpur;Gāchhia Daulatpur
+bn;Datter Pasuribania;Datter Pashurbunia
+bn;Dāsrāi;Dāshārāi
+bn;Daspākhia;Dashpākhia
+bn;Dāskāndi;Dāshkāndi
+bn;Dari Komarpur;Darikumārpur
+bn;Dariāpur;Dariapur
+bn;Daptali;Durtali
+bn;Dānsa;Dahsa
+bn;Dāngisār;Dāngisāra
+bn;Dāngapāra;Dārgapāra
+bn;Dāmpura;Dāmpur
+bn;Dāmail;Damoil
+bn;Dāmāikshetra;Dāmālkshetra
+bn;Daluābāri;Deluābāri
+bn;Dakshin Srīpur;Dakshin Sripur
+bn;দক্ষিণ সেওতা;Dakshin Seota
+bn;Dakshin Sahar;Dakshin Shahar
+bn;Dakshinpalāsbāri;Dakhin Palāsbāri
+bn;Dakshinnagar;Daksin Nagar
+bn;Dakshin Manoharpur;Dakshin Manaharpur
+bn;Dakshin Lakshmipur;Lakshmipur
+bn;Dakshin Joāra;Dakhin Joāra
+bn;Dakshin Hosenpur;Hossāinpur
+bn;Dakshin Gosāinpur;Dakshin Gosāipur
+bn;Dakshin Gobindapur;Gobindapur
+bn;Dakshin Desibāi;Desibāri
+bn;Dakshin Dalagram;Dakshin Dalgrām
+bn;Dakshin Char Fasson;Uttar Char Fasson
+bn;Dakshin Bedkasi;Dakshin Bedkashi
+bn;Dakshin Āndhārkota;Āndārkota
+bn;Dakhinpāra;Dakshinpāra
+bn;Dakhin Deāra;Deāra
+bn;Dakhin Bāinbāri;Dakshin Bāinbāria
+bn;Dākarmāria;Dākarmāra
+bn;Daikāra;Dhekra
+bn;Dahilākoālipāra;Dohela Koālipāra
+bn;Dahakula;Dahakola
+bn;Dagārpāra;Dargapāra
+bn;Dagarbāri;Dakshin Dagarbari
+bn;Dāfail;Dāphol
+bn;Dādh Jhikra;Jhikra
+bn;Dadair;Dādarpāra
+bn;Dabra Zineswari;Dābra Jineshwāri
+bn;Chyāngmāri;Changmāri
+bn;Churāmankāti;Ghuranoankati
+bn;Chukinagar;Chakainagar
+bn;Chourhās;Churhas
+bn;Chortābāri;Chāritābāri
+es;Chittagong;Chattogram
+fr;Chittagong;Chattogram
+en;Chittagong;Chattogram
+de;Chittagong;Chattogram
+bn;চট্টগ্রাম;Chattogram
+id;Chittagong;Chattogram
+ja;チッタゴン;Chattogram
+nl;Chittagong;Chattogram
+pt;Chittagong;Chattogram
+ru;Читтагонг;Chattogram
+zh;吉大港市;Chattogram
+bn;Chittagong;Chattogram
+bn;Chôţţogram;Chattogram
+ar;شيتاغونغ;Chattogram
+fa;چیتاگونگ;Chattogram
+gu;ચિત્તાગોંગ;Chattogram
+hi;चटगाँव;Chattogram
+kk;Читтагонг;Chattogram
+kn;ಚಿತ್ತಗಾಂಗ್;Chattogram
+ko;치타공;Chattogram
+ml;ചിറ്റഗോങ്;Chattogram
+mr;चट्टग्राम;Chattogram
+my;စစ်တကောင်းမြို့;Chattogram
+ta;சிட்டகொங்;Chattogram
+te;చిట్టగాంగ్;Chattogram
+th;จิตตะกอง;Chattogram
+ur;چٹاگانگ;Chattogram
+mn;Читтагонг;Chattogram
+ne;चिटागोंग;Chattogram
+yue;吉大港;Chattogram
+ky;Чаттограм;Chattogram
+pa;ਚੱਟਗ੍ਰਾਮ;Chattogram
+ps;چټگرام;Chattogram
+tg;Чаттограм;Chattogram
+bn;Chithalia Khayerchara;Chithalia
+bn;Chirāgpur;Cherāgpur
+bn;Chilāhāti;Chilhāti
+bn;Chikādaha;Sikidāha
+bn;Chhota Serpāra;Serpāra
+bn;Chhota Sangalsi;Chhota Sangalshi
+bn;Chhota Rāngāmātia;Chhota Rāngāmāti
+bn;Chhota Meghala;Chota Meghla
+bn;Chhota Mādhāimuri;Chhota Mādhāimui
+bn;Chhota Khānrkāndi;Chhota Khānkāndi
+ms;Chhota Kasba;Kasba
+en;Chhota Kasba;Kasba
+fa;چهوتا کاسبا;Kasba
+nl;Chhota Kasba;Kasba
+bn;Chhota Kābla;Chhoto Kābla
+fa;چهوتا دوموریا;Chhota Dumuria
+bn;Chhota Dhushpāra;Dhoshpāra
+bn;Chhota Dādpur;Chhota Daulatpur
+bn;Chhota Bāhādurpur;Bāhādurpur
+bn;Chhota Bādekaya;Chhotabadkara
+bn;Chhātni Bāzeāfti;Chhātni
+bn;Chhātiāntala;Chhatrahtala
+bn;Chhātāri;Chhātori
+bn;Chhātail;Chātul
+fa;چانخولا;Chhankhola
+bn;Chhailābania;Chhāilābunia
+bn;Chhagladaha;Chagladah
+bn;Chengmāri;Chengāmāri
+bn;Changamaree;Chengāmāri
+fa;چنگاتیا;Chengatia
+bn;Chaura Sāhāpur;Choura Sāhapur
+bn;Chaupuleharia;Choupukharia
+bn;Chaupukharia;Chaupukhria
+bn;Chaumāha;Chaumuha
+bn;Chaukiāpāra;Chowkipāra
+bn;Chaugharia;Chougaria
+bn;Chaugāchhi;Chongāchhi
+bn;Chauduār;Chaudohar
+bn;Chaudhuri Bhabānipur;Choudhuri Bhabanipur
+bn;Chaubāria;Choubāria
+bn;Chaubāria;Chowbāria
+bn;Chatrāl;Chhatraidānga
+bn;Chatoa;Chhātoa
+bn;Chatia;Chhātia
+fa;چار اودای‌پور;Char Udaypur
+bn;Char Sarkārpāra;Sarkārpāra
+fa;چار سانتوش‌پور;Char Santoshpur
+fa;چار پایلا;Char Payla
+fa;چار پاکشیا;Char Pakshya
+fa;چار پادما;Char Padma
+bn;Charnāmāra;Channāmāra
+bn;Char Montaj;Char Mantaz
+bn;Char Mānika;Dakshin Char Mānika
+fa;چار مالانگا;Char Malanga
+bn;Char Mādrās;Uttar Char Mādrās
+bn;Char Lakshmi;Uttar Char Lakshmi
+fa;چار کوتیا;Char Keutia
+bn;Char Kānāi;Char Kanāl
+bn;Jādur Char;Char Jadu
+bn;Jadurchar;Char Jadu
+fa;چار هوگالپاتای;Char Hogalpatai
+bn;Char Gazālia;Gazālia
+fa;چار دومورتالا;Char Dumurtala
+fa;چار دهالسوار;Char Dhaleswar
+fa;شار دکری;Char Decree
+bn;Char Bāghdānga;Char Bāgdānga
+fa;چار آمتالی;Char Amtali
+bn;Charāikol;Charaikola
+bn;Chandrakilla;Chandrakil
+bn;Chāndpur Kānkrāmāri;Chāndpur Kākrāmāri
+ru;Чандпур;Chāndpur
+bn;Chāndpur;Chandpur
+bn;Chāndpāra;Chāndpur
+bn;Chāndmāri;Chiandāmari
+bn;Chandamari;Chiandāmari
+bn;Chandīpur;Chandipur
+bn;Chāndgrām;Chāndpur
+bn;Chānderpol;Chānderpo
+bn;Chandan Pat;Chandanpat
+bn;Chāmpāpukur;Chandrapukur
+bn;Chak Tātāru;Chak Tetāru
+bn;Chak Syāmrāy;Chak
+bn;Chak Saila;Chak Sailla
+bn;Chakratirām;Chaktirām
+bn;Chak Rājballabh;Chak Rājballav
+bn;Chak Prāsād;Chakprasad
+bn;Chak Prān;Chak Purān
+bn;Chak Oli;Chakaul
+bn;Chāknia;Chak Chaknia
+bn;Chak Narottam;Chak Narattom
+bn;Chak Narasinha;Chak Narasingh
+bn;Chak Munsab;Chak Mayset
+bn;Chak Moktār;Chak Muktār
+bn;Chak Mohan;Chak Mohanpur
+bn;Chak Mahādeb;Chak Mahādebpur
+bn;Chakla Benodepur;Char Chākla
+bn;Chakkāma;Chak Kamal
+bn;Chak Jhagru;Chak Jagra
+bn;Chak Jaydeb;Chak Jaydebpur
+bn;Chak Jāfrābād;Chak Jāfarābād
+bn;Chak Islām;Chak Rāmpur
+bn;Chak Harinārāyan Kunda;Chak Harinārāyanpur
+bn;Chak Gopi;Chak Gobi
+bn;Chak Gochar;Gochar
+bn;Chak Gobinda;Chak Gobindapur
+bn;Chak Gāzipur;Gāzipur
+bn;Chak Enāetpur;Chak Enāyetpur
+bn;Chak Daulat;Chak Daulatpur
+bn;Chak Darāp;Chak Drap
+bn;Chak Damādi;Chak Domādi
+bn;Chak Charnāmāra;Chak Channāmāra
+bn;Chak Chānpai;Chak Chāpai
+bn;Chak Champak Chhota;Chhota Chak Chāmpur
+bn;Chak Bhālāin;Chak Balain
+bn;Chak Bāhati;Chak Bahuti
+bn;Chak Bādekaya;Chak Bādkaya
+bn;Chāka Maia;Chakamaiya
+bn;Chak Ābrās;Chak Ābros
+bn;Chak;Chak Bādhāri
+bn;Chaitrakol;Chaittrakot
+bn;Chaitanyapur;Chaitanpur
+bn;Chāinpāra;Chanpāra
+bn;Buzruk Pātharghāta;Pāthārghāta
+bn;Buzrug Barāil;Buzruk Baral
+bn;Buzrug Ātitha;Buzruk Atitha
+bn;Burumchhara;Burumchara
+bn;Burāil;Burail
+bn;Bunagāti;Bunaghat
+bn;Bukābania;Bukābunia
+bn;Bugwah;Bagua Anantapur
+bn;Budhpāra;Bādhpāra
+bn;Britti Debīrāgnagar;Britti Debirajnagar
+fa;براجا موهان;Braja Mohan
+bn;Brahmottar Patingāli;Brahmattar Patingali
+bn;Brahmottar Laskarpur;Laskarpur
+bn;Brahmottar;Brahmmattar
+bn;Brāhmanbhita;Brāhmanpur
+bn;Bolpur;Solpur
+bn;Bogdair;Bugdaīr
+bn;Bishnupur;Kālna Bishnupur
+bn;Bishnupur;Bishnapu
+bn;Bishnupur;Bishnapur
+bn;Birāstail;Birostāil
+bn;Birāmgrām;Birgrām
+bn;Birail;Biral
+bn;বিন্নাবাইদ;Binyābāid
+bn;Binodpur;Binadpur
+bn;Bīl Shikāri;Bil Sikāri
+bn;Bīl Gopālhāti;Bīll Gopal Hāti
+bn;Bil Chhāra;Bilchara
+bn;Bilāsbāri;Bilāshpur
+bn;Bijul;Bizul
+bn;Bijaypur;Bijoypur
+bn;Bidirpur;Bidarpur
+bn;Bibisana;Bibison
+bn;Bibhāg;Bibagh
+bn;Bhyābra;Bhebra
+fa;بهوتاردیا;Bhutardia
+fa;بهوتا لاکشمی‌پور;Bhuta Lakshmipur
+bn;Bhushna;Bhusaha
+bn;Bijaynagar;Bejoynagar
+fa;بیهانگال;Bihangal
+bn;বিহঙ্গল গ্রাম;Bihangal
+bn;Bhuruāpāra;Bharuapura
+bn;Bhukurgaon;Bhakargaon
+bn;Bhujail;Bhojāil
+bn;Bhomrādaha;Bhomradah
+bn;Bhogrāil;Bhugrail
+bn;Bhitarbhāg;Bhitarbāgh
+bn;Bhita;Bara Bhita
+bn;Bhelāi;Bholāi
+bn;Bhawānigānti;Bhabānigānthi
+bn;Bhātsāli;Bhātsāil
+bn;Bhātpāra;Bhattapara
+bn;Bhātopāra;Bhātupāra
+bn;Bhatkola;Bhātkota
+bn;Bhatkhāli;Bhotkhāli
+bn;Bhātkāra;Bātkāra
+bn;Bhātiāpāra Ghāt;Bhātiāpāra
+ru;Бхатара;Bhatara
+bn;Bhātai;Bhātai Mādhūdaha
+bn;Bharipāsa;Char Bhāripāsa
+bn;Bhāngra;Bhāngara
+bn;Bhāndārpole;Bhāndarpol
+bn;Bhairabnagar;Bheirabnagar
+bn;Bhāgba;Bhāgbaha
+bn;Bhāgalpur;Bhāgelpur
+bn;Bhagabantapur;Bhagamantapur
+bn;Bhadooriya Oojun;Bhāduria
+bn;Bhadrasana;Bhadrasona
+bn;Bhādra;Bhadra
+bn;Bhāchal;Bāchāl
+bn;Bhabānipur;Bhawanipur
+bn;Bhabāninagar;Bhabānipur
+fa;بئوخیر;Beukhir
+bn;Betrabhāg;Biprabhāg
+fa;بترا;Betra
+ms;Betgarbha;Betgarbila
+en;Betgarbha;Betgarbila
+fa;بتگاربها;Betgarbila
+nl;Betgarbha;Betgarbila
+bn;Bet Bāhati;Betbāhuti
+bn;Betāgi Sānkipura;Betāgi
+bn;Ber Gobindapur;Ber Gobinda
+ru;Беру;Bera
+bn;Benipur;Benipura
+bn;Belot;Belat
+bn;Belgharia;Belgaria
+bn;Belgāchhi;Belgāchi
+bn;Belgāchhi;Betgāchhi
+bn;Beldahar;Baldāhār
+bn;Bejra;Bejora
+fa;بجرا;Bejra
+bn;Bejora;Bejara
+bn;Bejetala;Beletala
+bn;Begunbāria;Begundāria
+bn;Begampur;Begumpur
+bn;Bechanda;Beahenda
+ru;Беконсфилд;Beaconsfield
+bn;Bazrāpur;Bajrāpur
+bn;Bāzeudpur;Bāzitpur
+bn;Bāzemahāl;Bāzemohal
+bn;Bāze Mādhail;Mādhāil
+bn;Bāze Gobindapur;Baje Gobindapur
+bn;Bāze Goālkāndi;Bāze Goākāndi
+bn;Bāze Dhaneswar;Bāzedhanesawar
+bn;Bāusa;Farehpur Bausha
+bn;Basura;Bdshurd
+fa;باسوپاتی;Basupatti
+bn;Baskail;Banskail
+bn;Basishthapur;Basantapur
+bn;Bāruipāra;Bāraipāra
+bn;Bāruipāra;Bāraipara
+bn;Bartali;Battali
+bn;Barsipāra;Barshipāra
+bn;Barkhol;Barkal
+bn;Bārkhādia;Bārkhāndi
+bn;Bargāchhi;Baragāchhi
+bn;Bargāchhi;Baragāchia
+bn;Bargāchha;Baragāchha
+bn;Bargachha;Baragachha
+bn;Bareya Takimāra;Tākimara
+bn;Barenda;Baronda
+bn;Bardapur;Baldpur
+bn;Barbāria;Barabāria
+bn;Bārbakpur;Daul Bārbākpur
+bn;Bara Rasūlpur;Rasulpur
+bn;Bara Rāngāmātia;Bara Rāngāmāti
+bn;Raghunāthpur;Bara Raghunāthpur
+bn;Bārapota;Bāropota
+bn;Bara Nāchnāpāra;Nachnapāra
+bn;Bara Meghala;Bara Meghla
+bn;Bara Mahespur;Maheshpur
+bn;Māgura;Bara Māgura
+bn;Bara Māchhua;Bara Machhaua
+bn;Baram;Boram
+bn;Bāraikuri;Baraikari
+bn;Barahānuddin;Burhānuddin
+bn;Baragrām;Bara Barra
+bn;Baraghariya;Bārāgharia
+bn;Bara Domrāsur;Bara Damrāsul
+bn;Bara Dādpur;Bara Shahpur
+bn;Bara Bighāi;Bara Bighā
+bn;Bara Behānali;Barabahanāli
+bn;Barabāria;Barabārī
+bn;Barabāri;Barabāil
+bn;Barabāri;Bedbari
+bn;Barabari;Barāibāri
+bn;Bāra Baldia;Barabaldia
+bn;Bara Bāduria;Bara Badura
+bn;Bara Bādekaya;Bara Bādkaya
+bn;Bara Āilchāra;Alichara
+bn;Bānsbāria;Bānshabāria
+bn;Bānsbaria;Banbāri
+bn;Bānsāra;Banshara
+bn;Banpur;Bangpur
+bn;Bānkidaha Gobindapur;Gobindapur
+bn;Bānisar;Bānisaha
+bn;Bāniākhāli Forest Office;Bāniākhāli
+bn;Bangdhara;Bhangdhara
+bn;Bāngatail;Rāngātail
+bn;Bangaon;Bongāon
+bn;Bāngābāri;Rāngābāri
+bn;Bāndāikhāra Kasba;Bāndāikhara
+bn;Banbāri;Bonbāri
+bn;বনগ্রাম আবাসিক এলাকা;Banagrām Chak
+bn;Bāmia;Dakshin Bāmia
+bn;Bāmauli;Bāul
+bn;Bāmansikhar;Bamensikhār
+bn;Bāmansata;Pamansata
+bn;Bāmāil;Bamain
+bn;Balmohan;Banmohan
+bn;Ballabhpur;Bhallabpur
+bn;Bālkāhāti;Bailkay Hati
+bn;Baliāshisha;Baliasisa
+bn;Bālia;Bālla
+bn;Balea;Balia
+bn;Balāibania;Balaibunia
+bn;Bālāgrām;Purba Bālāgrām
+bn;Baktiārpur;Baktārpur
+uz;Baksi Char;Bakhshi Char
+ms;Baksi Char;Bakhshi Char
+en;Baksi Char;Bakhshi Char
+fa;باکسی چار;Bakhshi Char
+nl;Baksi Char;Bakhshi Char
+bn;Bākharāli;Baker Ali
+bn;Bākhail Khurd;Khura Bākhail
+bn;Bākchua Lakshmtpur;Bakchua Lakshmīpur
+bn;Bākail;Bākoil
+bn;Bājenāpukhar;Bāzināpukur
+bn;Bail Sing;Bali Sing
+bn;Bailāhārāni;Bāilāhārānia
+bn;Baikunthapur;Baikanthapur
+bn;Baigāchhi;Balgāchhi
+bn;Baidyapur;Buidyapur
+bn;Baidyanāthpur;Badyanathpur
+bn;Baharal;Bāhrail
+fa;بالگاچیا;Bahalgachhia
+bn;Bahala Gobindapur;Bahula Gobindapur
+bn;Bāgun Joār;Begun Joār
+bn;Bāgunda Bāthāpāra;Bagunda Bathanpara
+bn;Bāg Sāyesta;Bag Sāyasta
+bn;Bagmār;Bāghmār
+bn;Baghutia;Bagnutia
+bn;Bāghsāra;Bagsara
+bn;Bāghsail;Bagsāil
+bn;Bāghdahara;Bāgdāhāra
+bn;Bāghāchora;Bāghāchara
+bn;Bāghāi;Bāghāil
+bn;Bāgalpāra;Bāgolpara
+bn;Bāgāchāra;Bāghāchara
+bn;Bad Tilna;Bat Tina
+bn;Bādp̄ra;Batpara
+bn;Bād Nehānda;Bādrehanda
+fa;بادیولا;Badiulla
+bn;Bādiātola;Bādiātala
+bn;Bade Khāgāil;Bade Khāga
+bn;Badalpur;Bidirpur
+bn;Bādalbāraipāra;Baraipara
+bn;Bāchārigaon;Bāchārigrām
+bn;Āyda;Ayra
+bn;Āyāpur;Bād Āyāpur
+bn;Auchora;Uchra
+fa;آتیسوار;Atiswar
+bn;Āthārpāika;Atharapāika
+bn;Āthārajāni;Ātārjāni
+bn;Atghari;Atghoria
+bn;Ātgaon;Ātgram
+bn;Ātāikola;Dakshin Atāikula
+ru;Ашугандж;Ashuganj City
+bn;Āsgrām;Ashgram
+bn;Āsandi;Asnadi
+bn;Ārtika;Attika
+bn;Arpangāsia;Arpangashia
+bn;Arjunmisra;Arjun Misra
+bn;Arazi Mominpoor;Arāzi Mominpur
+bn;Ārāzi Maminpur;Arāzi Mominpur
+bn;Ārāzi Lākhhāti;Lakhhāti
+bn;Ārāzi Jinarpur;Arāzi
+bn;Aptair;Aptor
+bn;Āorābania;Aurābania
+bn;Āntābānia;Antābonia
+bn;Anjanagāchi Village;Anjangāchi
+bn;Andua;Andud
+bn;Andharail;Āndhrāil
+bn;Anantapāra;Anantopāra
+bn;Ānandapur;Anantapur
+bn;Ānalbania;Analbunia
+bn;Amritapāra;Amirtapāra
+bn;Āmrāi;Amrā
+bn;Āmrāgāchhia Hogālpāti;Amrāgāchhia
+bn;Āmlāgāchhi;Āmlāgāchi
+bn;Amar Singhāpur;Sāhāpur
+bn;Amarpur;Umarpur
+bn;Amarakpur;Amārak
+bn;Amānatpur;Amritapur
+bn;Āmāipukur;Amālpukur
+bn;Alisāpur;Alsāpur
+bn;Āliganja;Aligonj
+bn;Ālidhāni;Ahdhāni
+bn;Ālhādpur;Ālāipur
+bn;Alakjhāri;Ālokjhāri
+bn;Ālak Chhatra;Ālokchhatra
+bn;Alāi Bidirpur;Alāi Bidurpur
+bn;Ālagchhatra;Alagchhtra
+bn;Akhra;Akhera
+bn;Ākherti;Ākitri
+bn;Ākargaon;Ākargram
+bn;Ajhair;Aihoir
+bn;Aguna;Delbāria Aguna
+bn;Āgdia;Āgdia Char
+bn;Ādampur Bīl;Adampur
+bn;Abiberpara;Ābirerpāra
+bn;Abdulpur;Abdalpur
+bn;Tazpur;Tājpur
+bn;Parsa;Nitpur
+bn;Khansat;Kansat
+ru;Кокс-Базар;Cox’s Bāzār
+fr;Khulnâ;Khulna
+ja;クルナ;Khulna
+ru;Кхулна;Khulna
+bn;খুলনা;Khulna
+ar;خولنا;Khulna
+ko;쿨나;Khulna
+mn;Кхулна;Khulna
+mr;खुलना;Khulna
+ta;குல்னா;Khulna
+ur;کھلنا;Khulna
+zh;库尔纳市;Khulna
+fa;خولنا;Khulna
+ky;Кхелна;Khulna
+kk;Құлна;Khulna
+uz;Xulna;Khulna
+hi;खुलना;Khulna
+pa;ਖੁਲਨਾ;Khulna
+ps;خولنه;Khulna
+tg;Кхулна;Khulna
+en;Bhola District;Bhola
+bn;ভোলা জেলা;Bhola
+vi;Huyện Bhola;Bhola
+ru;Бхола;Bhola
+zh;波拉縣;Bhola
+bn;বরিশাল;Barishal
+ru;Барисал;Barishal
+ar;باريشال;Barishal
+kk;Барисал;Barishal
+uz;Barisal;Barishal
+ky;Барисал;Barishal
+hi;बरिसाल;Barishal
+ur;بریشال;Barishal
+fa;باریشال;Barishal
+ja;バリサル;Barishal
+pa;ਬਰੀਸ਼ਾਲ;Barishal
+ps;باریشال;Barishal
+tg;Барисал;Barishal
+ru;Джессор;Jessore
+ru;Брахманбария;Brāhmanbāria
+ru;Пабне;Pābna
+ru;Тангайл;Tangail
+ru;Богра;Bogra
+bn;বগুড়া;Bogra
+ja;ボグラ;Bogra
+ur;بوگرا;Bogra
+bn;Pīrganj;Pīrgaaj
+ru;Навабгандж;Nawābganj
+ru;Шерпур (город, Бангладеш);Sherpur
+bn;Āghhulat;Āgbhulat
+de;Sabhar;Savar
+en;Savar Upazila;Savar
+bn;সাভার উপজেলা;Savar
+ta;சாவார் உள் மாவட்டம்;Savar
+ru;Савар;Savar
+bn;Raipur;Purba Rāipur
+ru;Хатазари;Hāthazāri
+bn;Mānikchhari;Manikchari
+kk;Ситакунда;Sitakunda
+ru;Ситакунда;Sitakunda
+th;สีตากุณฑะ;Sitakunda
+fa;سیتاکندا;Sitakunda
+bn;সীতাকুণ্ড;Sitakunda
+ta;சீதாகுண்டம்;Sitakunda
+zh;希塔昆达;Sitakunda
+bn;Munda Chhara;Mundar Chhara
+bn;Balur Char;Bolur Char
+bn;Char Khizipur;Char Khizirpur
+bn;Sartetui;Sartetuia
+bn;Khālpur;Khabpur
+bn;Paschim Gomdandi;Paschim Gumdandi
+bn;Paschim Sākura;Paschim Sakpura
+bn;Uttar Chatra;Atar Chatra
+bn;বিবিরহাট;Bibir Hat
+bn;Jagatpur;Jagatpur Asram
+bn;Chauahury Ghāt;Chaudhury Ghāt
+bn;Nishchirapur;Nischintapur
+bn;Baktapur;Telpārai Baktapur
+bn;Waiaar Khil;Waiaar Khili
+bn;Haladia;Naladia
+bn;Hotoipāra;Hatoipāra
+bn;Māijbhāndar;Māijbhāndar Mazar
+bn;Gourimanda Hāti;Gourimandra Hāti
+bn;Golāiāpāra;Gotāiāpāra
+bn;Narichabāndi;Narichabani
+bn;Lāmbaibi;Lāmbaibil
+bn;Yanohha;Phaitāpāra
+bn;Aungāpāra;Aunglāpāra
+bn;Lūkāpāra;Lūkhāpāra
+bn;Aūnphūpāra;Aungphupāra
+bn;Sui Aung Kābāripāra;Sui Aung Kārbāripāra
+bn;Kābāripāra;Kārbāripāra
+bn;Dardairpāra;Dardaripāra
+bn;Gajalia;Headmanpāra
+bn;Bamu;Sanaiohrūpāra
+bn;Baichari;Bailchari
+bn;Nijirtala;Njiritala
+bn;Jaliākhāll;Jaliākhāli
+bn;Premsia;Premesia
+bn;Charati;Madhyam Chārati
+bn;Chunaupara;Chunnāpāra
+bn;Chalitāli;Chalitātali
+bn;Susāng;Sasāng
+bn;Māhātsa;Māhāta
+bn;Gabupāra;Gabupēra
+bn;Manikchimohan;Manikcharimukh
+bn;Nāzipāra;Nāzirpāra
+bn;Khananali;Khonanali
+bn;Gildachari;Gilāchari
+bn;Illishia;Ilishia
+bn;Shabek Rangunia;Shabak Rangunia
+bn;Dongchara;Dhong chara
+bn;Karigapāra;Karigar Pāra
+bn;Changgkhyongmukh;Changkhyongmukh
+bn;Mudirchhara;Mudir Chāra
+bn;Gorākghā;Gorākghāta
+bn;Bāhunagar;Bābunagar
+bn;Madanna;Maoanna
+bn;Thāipāiong;Thāipālong
+bn;Chah Boitāpālong;Chak Boitāpālong
+bn;Dariadighi;Dariārdighi
+bn;Kaaarbala;Kasarbaala
+bn;Karaliaonara;Karaliaohara
+bn;Machuākhāli;Machhuākhāli
+bn;Mājihikāta;Mājhirkāta
+bn;Chaudripāra;Chaudhripāra
+bn;Khāsmahal;Barduāra
+bn;Thimocharipāra;Thimcharipāra
+bn;Chota Jānchari;Chhota Jānchari
+bn;Hājipāra;Hājirpāra
+bn;Dargābīl;Dargāibīl
+bn;Ajakhāl;Ajakhāi
+bn;Kulupālong;Kutupālong
+bn;সৈয়দপুর;Saidpur
+ru;Саидпур;Saidpur
+bn;দেবীগঞ্জ;Debiganj
+bn;খয়ার বাগান;Khākrabāri
+en;Khoyar Bagan;Khākrabāri
+bn;Dakshin Gayabāri;Dakhin Gayabari
+bn;Kakia;Kakra
+bn;Kājyāpāra;Kāiyāpāra
+bn;Kājyāpāra;Kaiyāpāra
+bn;Kājyāpāra TB;Kāiyāpāra TB
+bn;Manikchari;Manikchhari
+bn;Parirāmbāri;Patirāmbāri
+bn;Taktil;Taktmul
+bn;Krisha mohan;Krishna mohan
+bn;Uttar Moksudpur;Uttar Muksudpur
+bn;Khord Bagbar;Khorda Bāgbār
+bn;Hossanipur;Uttar Hassenpur
+bn;Hosseinpoor;Uttar Hassenpur
+bn;Pātika;Patikaghat
+bn;Sultanpur;Purba Sultanpur
+bn;Begumpur;Begampur
+bn;Pahārpur;Paharpur
+ru;Путхия;Puthia
+bn;Nātor;Natore
+ru;Натор;Natore
+bn;উজলপুর;Ujalpur
+bn;Pora Kukhāpāra;Purbo Kukhapara
+bn;Bāniapāra;Baniapara
+bn;Bheabheri;Bherbheri
+bn;Dakhin Durakuti;Dakhsin Durāikuthi
+bn;Dakhin Bahagili;Dakshin Bāhāgili
+bn;Khalisha Dhulia;Khalisa Dhulia
+bn;কুড়িগ্রাম জেলা;Kurigram
+ur;کوریگرام ضلع;Kurigram
+vi;Huyện Kurigram;Kurigram
+ru;Куриграм;Kurigram
+zh;古里格拉姆县;Kurigram
+ru;Нилфамари;Nilphamari
+ar;نيلفاماري;Nilphamari
+kk;Нилфамари;Nilphamari
+ky;Нилфамари;Nilphamari
+hi;निलफामारी;Nilphamari
+bn;নীলফামারী;Nilphamari
+ur;نیل فاماری;Nilphamari
+fa;نیل‌فامری;Nilphamari
+ja;ニルファマリ;Nilphamari
+pa;ਨੀਲਫਾਮਾਰੀ;Nilphamari
+ps;نیل فاماري;Nilphamari
+tg;Нилфамари;Nilphamari
+en;Magura District;Magura
+bn;মাগুরা জেলা;Magura
+ur;ماگورا ضلع;Magura
+vi;Huyện Magura;Magura
+ru;Магура;Magura
+zh;马古拉县;Magura
+ar;مغورة;Magura
+kk;Магура;Magura
+ky;Магура;Magura
+hi;मगुरा;Magura
+fa;مگورا;Magura
+ja;マグラ;Magura
+pa;ਮਾਗੁਰਾ;Magura
+ps;ماگورہ;Magura
+tg;Магура;Magura
+bn;শাহবাগ থানা;Shahbag
+mr;शाहबाग;Shahbag
+fa;شاه‌باغ;Shahbag
+ru;Шахбаг;Shahbag
+ur;شاہ باغ;Shahbag
+zh;沙赫巴格;Shahbag
+bn;শরীয়তপুর;Shariatpur
+vi;Huyện Shariatpur;Shariatpur
+ru;Шариатпур;Shariatpur
+zh;沙里亚德布尔县;Shariatpur
+kk;Шариатпур;Shariatpur
+hi;फतुल्लाह;Fatullah
+bn;ফতুল্লা থানা;Fatullah
+ur;فتح اللہ;Fatullah
+bn;Rāmchandrapur;Purba Rāmchandrapur
+bn;Bidyananda;Biddhānānda
+bn;Kismat Chhāola;Qismat Chhāola
+bn;Joypur Hāt;Joypurhat
+bn;Tājnagar;Jājnagar
+bn;Digtari;Digdari
+bn;Maraipara;Marapara
+bn;Simultari;Simultali
+bn;Gaibanda;Gaibandha
+ru;Гайбанда;Gaibandha
+ar;غيبندا;Gaibandha
+kk;Гайбанда;Gaibandha
+ky;Гайбанда;Gaibandha
+hi;गैबन्धा;Gaibandha
+ur;گائے بندھا;Gaibandha
+fa;غیبندا;Gaibandha
+ja;ガイバンダ;Gaibandha
+pa;ਗਾਈਬਾਂਧਾ;Gaibandha
+ps;ګای بندھا;Gaibandha
+tg;Гайбанда;Gaibandha
+bn;Sukoa;Sakoa
+bn;Rāmpura;Rampur
+bn;Shibdeb;Paotana Hat
+bn;Dakshin Dharanibār;Dakshin Dharanibāri
+bn;Kopal Dara;Kopaldara
+bn;Danishnagar;Daneshnagar
+bn;Khalisha;Khalisa
+bn;Pakuria;Pakura
+bn;Mamudpur;Mahmudpur
+bn;Singar;Singra
+bn;Dhani Gāgla;Dhanigāgla
+en;Mahastan;Mahasthangarh
+ru;Махастан;Mahasthangarh
+bn;গ্রীন মডেল টাউন;Green Model Town
+fa;نواگون;Noagaon
+ru;Палтан;Paltan
+ru;Мотийхеел;Motijheel

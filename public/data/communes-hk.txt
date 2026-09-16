@@ -1,0 +1,1334 @@
+318916;114.1133,22.3714;HK-NTW;Tsuen Wan;Tsuen Wan
+6000;114.1124,22.2262;HK-NIS;Islands;Yung Shue Wan
+0;114.1142,22.2286;HK-NIS;Islands;Yung Shue Long
+0;114.1412,22.1999;HK-NIS;Islands;Yung Shue Ha
+0;114.2475,22.5442;HK-NNO;North District;Yung Shue Au
+0;114.2921,22.4284;HK-NTP;Tai Po;Yung Shue Au
+0;113.9157,22.4032;HK-NTM;Tuen Mun;Lung Kwu Sheung Tan
+0;114.1500,22.4333;HK-NTP;Tai Po;Yuen Tun Ha
+0;114.0500,22.3667;HK-NTW;Tsuen Wan;Yuen Tun
+0;114.3363,22.3766;HK-NSK;Sai Kung District;Yuen Ng Fan
+200000;114.0333,22.4333;HK-NYL;Yuen Long;Yuen Long San Hui
+169600;114.0320,22.4483;HK-NYL;Yuen Long;Yuen Long Kau Hui
+200000;114.0262,22.4452;HK-NYL;Yuen Long;Yuen Long
+0;114.1581,22.4762;HK-NNO;North District;Yuen Leng
+0;114.0728,22.4211;HK-NYL;Yuen Long;Yuen Kong San Tsuen
+0;114.0762,22.4254;HK-NYL;Yuen Long;Yuen Kong
+0;114.1996,22.3830;HK-NST;Sha Tin;Yuen Chau Kok
+2679;114.1576,22.2516;HK-HSO;Southern District;Yue Kwong Chuen
+0;114.1763,22.4582;HK-NTP;Tai Po;Yue Kok
+0;114.1667,22.4333;HK-NTP;Tai Po;Yiu Tsz Kin
+0;114.1252,22.3781;HK-NTW;Tsuen Wan;Yi Pei Chun
+0;114.0127,22.3036;HK;;Yi Pak
+0;113.8507,22.2293;HK-NIS;Islands;Yi O San Tsuen
+0;113.8497,22.2251;HK-NIS;Islands;Yi O Kau Tsuen
+0;113.8473,22.2326;HK-NIS;Islands;Yi O Hau
+0;114.1333,22.4333;HK-NTP;Tai Po;Yin Ngam
+0;114.1113,22.5038;HK-NNO;North District;Yin Kong
+0;114.1607,22.4573;HK-HCW;Central and Western;Ying Pun Ha
+0;114.1167,22.4667;HK-HCW;Central and Western;Ying Pun
+0;114.2062,22.5316;HK-NNO;North District;Yim Tso Ha
+0;113.8654,22.2546;HK-NIS;Islands;Yim Tin
+0;114.2255,22.5438;HK;;Yim Liu Ha
+0;114.0500,22.3500;HK;;Yi Chuen
+16236;114.0167,22.4500;HK-NTW;Tsuen Wan;Yeung Uk Tsuen
+0;113.9642,22.3945;HK-NTM;Tuen Mun;Yeung Siu Hang
+0;114.2500,22.3333;HK-NSK;Sai Kung District;Yau Yue Wan
+14059;114.1741,22.3310;HK-KSS;Sham Shui Po District;Yau Yat Chuen
+0;114.0833,22.4333;HK-NYL;Yuen Long;Yau Uk Tsuen
+34755;114.2360,22.2957;HK-KKT;Kwun Tong District;Yau Tong
+29644;114.1686,22.3138;HK-KYT;Yau Tsim Mong District;Yau Ma Tei
+0;114.2697,22.3820;HK-NSK;Sai Kung District;Yau Ma Po
+0;114.1334,22.3721;HK-NTW;Tsuen Wan;Yau Ma Hom
+0;114.0833,22.3500;HK-NKT;Kwai Tsing District;Yau Kom Tau
+0;114.0911,22.3602;HK;;Yau Kom Tau Village
+0;114.0744,22.5017;HK-NYL;Yuen Long;Yan Shau Wai
+0;114.0167,22.3333;HK-NTW;Tsuen Wan;Yam Tsai
+0;114.0167,22.3333;HK-NTW;Tsuen Wan;Yam O
+0;114.0167,22.3667;HK-NTM;Tuen Mun;Wu Uk
+0;114.2117,22.5349;HK-NNO;North District;Wu Shek Kok
+0;114.1384,22.5055;HK-NNO;North District;Wu Nga Lok Yeung
+0;114.2565,22.3782;HK-NSK;Sai Kung District;Wu Lei Tau
+0;114.3573,22.4407;HK-NTP;Tai Po;Wu Lei Kiu
+0;114.2494,22.5063;HK-NNO;North District;Wu Kau Tang
+0;114.3000,22.5000;HK-NNO;North District;Wu Chau Tong
+0;114.1390,22.3837;HK-NTW;Tsuen Wan;Wo Yi Hop
+0;114.2738,22.3152;HK-NSK;Sai Kung District;Wo Tong Kong
+0;113.9822,22.2804;HK-NIS;Islands;Wo Tin
+0;114.1886,22.4034;HK-NST;Sha Tin;Wo Sheung Tun
+0;113.9940,22.2800;HK-NIS;Islands;Wo Sheung Au
+0;114.0527,22.4872;HK-NYL;Yuen Long;Wo Shang Wai
+0;114.2037,22.4622;HK-NTP;Tai Po;Wong Yue Tan
+0;114.3166,22.3861;HK;;Wong Yi Chau
+0;114.0398,22.4480;HK-NYL;Yuen Long;Wong Uk Tsuen
+0;114.2029,22.3838;HK-NST;Sha Tin;Wong Uk
+0;114.0167,22.3667;HK-NTM;Tuen Mun;Wong Uk
+425235;114.1833,22.3500;HK-KWT;Wong Tai Sin District;Wong Tai Sin
+0;113.9391,22.2841;HK-NIS;Islands;Wong Nai Uk
+0;114.0229,22.4189;HK-NYL;Yuen Long;Wong Nai Tun
+0;114.2167,22.3821;HK-NST;Sha Tin;Wong Nai Tau
+0;114.1998,22.4247;HK-NTP;Tai Po;Wong Nai Fai
+0;114.2951,22.4032;HK-NSK;Sai Kung District;Wong Mo Ying
+0;114.3567,22.4485;HK-NTP;Tai Po;Wong Mau Kok
+0;113.9512,22.2733;HK-NIS;Islands;Wong Lung Hang
+0;114.2333,22.3500;HK-NSK;Sai Kung District;Wong Keng Tsai
+0;114.3174,22.3944;HK-HSO;Southern District;Wong Keng Tei
+0;113.9833,22.4000;HK-NTM;Tuen Mun;Wong Ka Wai
+0;113.9350,22.2769;HK-NIS;Islands;Wong Ka Wai
+0;113.9896,22.2792;HK-NIS;Islands;Wong Kung Tin
+0;113.9833,22.4000;HK-NTM;Tuen Mun;Wong Fung Leng
+0;114.2662,22.4070;HK-NTP;Tai Po;Wong Chuk Yeung
+0;114.1667,22.4000;HK-NST;Sha Tin;Wong Chuk Yeung
+0;114.2841,22.3989;HK-NSK;Sai Kung District;Wong Chuk Wan
+0;114.2320,22.4734;HK-NTP;Tai Po;Wong Chuk Tsuen
+0;114.2391,22.3796;HK-NST;Sha Tin;Wong Chuk Shan
+0;114.3141,22.4323;HK-NTP;Tai Po;Wong Chuk Long
+0;114.1774,22.2491;HK-HSO;Southern District;Wong Chuk Hang San Wai
+0;114.2836,22.3985;HK-HSO;Southern District;Wong Chuk Hang Kau Wai
+0;114.2500,22.3500;HK-NSK;Sai Kung District;Wo Mei
+0;114.1974,22.3995;HK-NST;Sha Tin;Wo Liu Hang
+0;114.1333,22.4333;HK-NTP;Tai Po;Wo Liu
+0;114.2798,22.3995;HK-NSK;Sai Kung District;Wo Liu
+0;113.9847,22.2517;HK-NIS;Islands;Wo Liu
+0;114.1681,22.5377;HK-NNO;North District;Wo Keng Shan
+0;114.1436,22.4835;HK-NNO;North District;Wo Hop Shek
+0;114.1969,22.5303;HK-NNO;North District;Wo Hang Tai Long
+17572;114.1922,22.3902;HK-NST;Sha Tin;Wo Che
+0;114.0782,22.5005;HK-NYL;Yuen Long;Wing Ping Tsuen
+0;114.1491,22.5019;HK-NNO;North District;Wing Ning Wai
+0;114.0160,22.4507;HK-NYL;Yuen Long;Wing Ning Tsuen
+0;114.1000,22.4500;HK-NYL;Yuen Long;Wing Ning Lei
+0;114.0685,22.4404;HK-NYL;Yuen Long;Wing Lung Wai
+0;114.1504,22.5001;HK-NNO;North District;Wing Ling Tsuen
+0;114.2545,22.1634;HK-NSK;Sai Kung District;Wan Tsai
+0;114.1672,22.4422;HK-NTP;Tai Po;Wan Tau Tong
+0;114.1673,22.4476;HK-NTP;Tai Po;Wan Tau Kok
+0;113.9977,22.2460;HK-NIS;Islands;Wang Tong
+0;114.0944,22.4425;HK-NYL;Yuen Long;Wang Toi Shan
+16936;114.1873,22.3401;HK-KKC;Kowloon City;Wang Tau Hom
+0;114.1722,22.5210;HK-NNO;North District;Wang Shan Keuk San Tsuen
+0;114.2245,22.4954;HK-NTP;Tai Po;Wang Shan Keuk
+0;114.1131,22.2231;HK-NIS;Islands;Wang Long
+0;114.2595,22.4876;HK-NTP;Tai Po;Wang Leng Tau
+0;114.2167,22.2833;HK-HEA;Eastern District;Wang Hang
+0;114.2403,22.3595;HK-NSK;Sai Kung District;Wang Che
+166695;114.1726,22.2814;HK-HWC;Wan Chai;Wan Chai
+0;114.1390,22.4809;HK-NNO;North District;Wa Mei Shan
+0;114.0621,22.4809;HK-NYL;Yuen Long;Wai Tsai
+0;114.1458,22.4627;HK-HCW;Central and Western;Wai Tau Tsuen
+0;114.2033,22.4693;HK-NTP;Tai Po;Wai Ha
+26275;114.1362,22.2547;HK-HSO;Southern District;Wah Fu
+0;113.8848,22.2492;HK-NIS;Islands;Upper Keung Shan
+0;114.3284,22.4288;HK-NSK;Sai Kung District;Uk Tau
+0;114.2514,22.3807;HK-NSK;Sai Kung District;Uk Cheung
+0;114.0056,22.2732;HK-NIS;Islands;Tung Wan Tau
+0;114.3188,22.5177;HK;;Tung Wan
+0;114.1964,22.4721;HK-NTP;Tai Po;Tung Tsz
+0;114.1833,22.3333;HK-KKC;Kowloon City;Tung Tau Tsuen
+13928;114.0287,22.4529;HK-NYL;Yuen Long;Tung Tau Tsuen
+0;114.0467,22.4469;HK-NYL;Yuen Long;Tung Shing Lei
+0;114.1802,22.5020;HK-NNO;North District;Tung Shan Ha
+0;114.3457,22.4330;HK;;Tung Sam Kei
+0;114.2912,22.5503;HK-NNO;North District;Tung O
+0;114.1400,22.1953;HK-NIS;Islands;Tung O
+12777;114.1851,22.2819;HK-HEA;Eastern District;Causeway Bay
+0;114.1817,22.3785;HK-NST;Sha Tin;Tung Lo Wan
+0;114.1528,22.5004;HK-NNO;North District;Tung Kok Wai
+0;113.9270,22.2752;HK-NIS;Islands;Tung Hing
+0;114.0772,22.5023;HK-NYL;Yuen Long;Tung Chan Wai
+0;113.9167,22.3833;HK;;Tuk Mei Chung
+0;113.9804,22.4212;HK-NYL;Yuen Long;Tuen Tsz Wai
+19398;113.9760,22.3988;HK-NTM;Tuen Mun;Tuen Mun San Hui
+0;113.9667,22.3833;HK-NTM;Tuen Mun;Tuen Mun Kau Hui
+507900;113.9716,22.3917;HK-NTM;Tuen Mun;Tuen Mun
+37242;114.2002,22.3525;HK-KWT;Wong Tai Sin District;Tsz Wan Shan
+0;114.1551,22.4978;HK-NNO;North District;Tsz Tong Tsuen
+0;114.0674,22.4391;HK-NYL;Yuen Long;Tsz Tong Tsuen
+0;113.9763,22.4164;HK-NYL;Yuen Long;Tsz Tin Tsuen
+0;114.1583,22.5521;HK-NNO;North District;Tsung Yuen Ha
+0;114.1099,22.5144;HK-NNO;North District;Tsung Yuen
+0;114.1812,22.4337;HK-NTP;Tai Po;Tsung Tsai Yuen
+0;114.1959,22.3995;HK-NST;Sha Tin;Tsung Tau Ha
+0;114.1195,22.5035;HK-NNO;North District;Tsung Pak Long
+0;114.2887,22.3955;HK-NSK;Sai Kung District;Tso Wo Hang
+0;114.0541,22.3355;HK-NTW;Tsuen Wan;Tso Wan
+0;114.2130,22.3650;HK-NST;Sha Tin;Tso Tui Ha
+0;114.1088,22.3806;HK-NTW;Tsuen Wan;Tso Kung Tam
+0;114.2039,22.3808;HK-NST;Sha Tin;Tsok Pok Hang
+0;113.9895,22.2689;HK-NIS;Islands;Tsoi Yuen Tsuen
+0;114.2258,22.5471;HK-NNO;North District;Tsoi Yuen Kok
+0;114.2912,22.2931;HK-NSK;Sai Kung District;Tsiu Wo
+0;114.2668,22.3813;HK-NSK;Sai Kung District;Tsiu Lung
+0;114.1952,22.4711;HK-NTP;Tai Po;Tsiu Lam
+0;114.1018,22.4764;HK-NNO;North District;Tsiu Keng Pang Uk
+0;114.1052,22.4779;HK-NNO;North District;Tsiu Keng Lo Wai
+0;114.2166,22.5457;HK-NNO;North District;Tsiu Hang
+0;114.1972,22.4296;HK-NTP;Tai Po;Tsiu Hang
+0;114.2691,22.3724;HK-NSK;Sai Kung District;Tsiu Hang
+0;113.8440,22.2119;HK-NIS;Islands;Tsin Yue Wan
+0;114.1995,22.2366;HK-HSO;Southern District;Repulse Bay
+0;114.2333,22.2833;HK;;Tsin Shui Ma Tau
+182100;114.1000,22.3500;HK-NKT;Kwai Tsing District;Tsing Yi Town
+0;113.9646,22.3893;HK-NTM;Tuen Mun;Tsing Shan Tsuen
+0;114.0727,22.4966;HK-NYL;Yuen Long;Tsing Lung Tsuen
+0;114.0490,22.3639;HK-NTW;Tsuen Wan;Tsing Lung Tau
+0;114.1167,22.3500;HK-NKT;Kwai Tsing District;Tsing Leng Tsui
+0;114.0667,22.3833;HK-NTW;Tsuen Wan;Tsing Fai Tong
+0;114.0333,22.4333;HK-NYL;Yuen Long;Tsing Chuen Wai
+0;113.9219,22.2896;HK-NIS;Islands;Tsing Chuen Wai
+0;114.0496,22.3303;HK-NTW;Tsuen Wan;Tsing Chau Wan
+0;114.0333,22.3333;HK-NTW;Tsuen Wan;Tsing Chau Tsai
+24557;114.1667,22.3000;HK-KKC;Kowloon City;Tsim Sha Tsui
+412900;114.2499,22.3279;HK-NSK;Sai Kung District;Tseung Kwan O
+0;113.9867,22.4511;HK-NYL;Yuen Long;Tseung Kong Wai
+0;113.9833,22.4000;HK-NTM;Tuen Mun;Tseng Tau Wai
+0;113.9878,22.2714;HK-NIS;Islands;Tseng Tau San Tsuen
+0;114.2694,22.4274;HK;;Tseng Tau
+0;114.2333,22.3333;HK-KWT;Wong Tai Sin District;Tseng Lan Shue
+0;114.0809,22.4481;HK-NYL;Yuen Long;Tsat Sing Kong
+0;114.1833,22.3833;HK-NST;Sha Tin;Tsang Tai Uk
+0;113.9197,22.4167;HK-NTM;Tuen Mun;Tsang Tsui
+0;114.3045,22.4017;HK-NSK;Sai Kung District;Tsam Chuk Wan
+0;114.3226,22.4032;HK-NSK;Sai Kung District;Tsak Yue Wu
+0;113.9850,22.4162;HK-NYL;Yuen Long;To Yuen Wai
+0;114.1644,22.4408;HK-NTP;Tai Po;To Yuen Tung
+0;114.2381,22.2255;HK-HSO;Southern District;To Tei Wan
+0;114.2403,22.4341;HK-NST;Sha Tin;To Tau
+0;114.2022,22.3771;HK-NST;Sha Tin;To Shek
+0;114.0103,22.4350;HK-NYL;Yuen Long;Tong Yan San Tsuen
+0;114.2112,22.5427;HK-NNO;North District;Tong To
+0;114.0387,22.4268;HK-NYL;Yuen Long;Tong Tau Po
+0;114.1333,22.4500;HK-NTP;Tai Po;Tong Min Tsuen
+0;114.1078,22.4861;HK-NNO;North District;Tong Kung Leng
+0;114.2151,22.4498;HK-NTP;Tai Po;Tong Kai Tseng
+0;114.1495,22.4915;HK-NNO;North District;Tong Hang
+0;113.9269,22.2274;HK-NIS;Islands;Tong Fuk
+0;114.0084,22.4428;HK-NYL;Yuen Long;Tong Fong Tsuen
+0;114.1520,22.5376;HK-NNO;North District;Tong Fong
+15646;114.1905,22.3169;HK-KKC;Kowloon City;To Kwa Wan
+0;114.3380,22.4278;HK-NTP;Tai Po;To Kwa Peng
+0;114.1830,22.3850;HK-NST;Sha Tin;To Fung Shan
+51751;114.2511,22.2985;HK-KKT;Kwun Tong District;Tiu Keng Leng
+0;114.3006,22.4052;HK-NSK;Sai Kung District;Tit Kim Hang
+0;114.0905,22.5170;HK-NYL;Yuen Long;Tit Hang
+16811;114.1473,22.2511;HK-HSO;Southern District;Tin Wan
+286232;114.0023,22.4568;HK-NYL;Yuen Long;Tin Shui Wai
+0;114.1811,22.4602;HK-NTP;Tai Po;Tin Sam
+0;114.0697,22.4245;HK-NYL;Yuen Long;Tin Sam
+0;113.9180,22.2907;HK-NIS;Islands;Tin Sam
+0;114.1785,22.3694;HK-NST;Sha Tin;Tin Sam
+0;114.0252,22.4319;HK-NYL;Yuen Long;Tin Liu Tsuen
+0;114.1333,22.4500;HK-NTP;Tai Po;Tin Liu Ha
+0;114.1856,22.3824;HK-NST;Sha Tin;Tin Liu
+0;114.2390,22.3579;HK-NSK;Sai Kung District;Tin Liu
+0;114.0500,22.3500;HK;;Tin Liu
+0;113.9806,22.2932;HK-NIS;Islands;Tin Liu
+0;114.2833,22.2833;HK-NSK;Sai Kung District;Tin Ha Wan
+2000;114.2199,22.4729;HK-NTP;Tai Po;Ting Kok
+17009;114.0791,22.3696;HK-NTW;Tsuen Wan;Ting Kau
+0;114.0637,22.3938;HK-NYL;Yuen Long;Tin Fu Tsai
+0;114.2910,22.2702;HK-NSK;Sai Kung District;Tei Tong Tsui
+0;113.9257,22.2567;HK-NIS;Islands;Tei Tong Tsai
+0;114.1667,22.4167;HK-NTW;Tsuen Wan;Ta Tit Yan
+0;114.1066,22.4621;HK-NYL;Yuen Long;Ta Shek Wu
+0;114.3601,22.4676;HK-NTP;Tai Po;Tap Mun Shi
+0;114.0128,22.3270;HK-NTW;Tsuen Wan;Ta Pang Po
+0;114.2333,22.3333;HK-KWT;Wong Tai Sin District;Tan Shan Tsuen
+0;113.9963,22.4275;HK-NYL;Yuen Long;Tan Kwai Tsuen
+0;114.3655,22.4516;HK-NTP;Tai Po;Tan Ka Wan
+0;114.1759,22.5129;HK-NNO;North District;Tan Chuk Hang Lo Wai
+0;114.1806,22.5101;HK-NNO;North District;Tan Chuk Hang
+0;114.2685,22.3833;HK-NSK;Sai Kung District;Tan Cheung
+0;114.3004,22.4021;HK-NSK;Sai Kung District;Tam Wat
+0;114.1000,22.3667;HK-NTW;Tsuen Wan;Tam Kon Shan
+0;114.0490,22.4956;HK-NYL;Yuen Long;Tam Kon Chau
+0;114.1108,22.5289;HK-NNO;North District;Tak Yuet Lau
+0;114.1667,22.3500;HK-NST;Sha Tin;Tai Wo Ping
+0;114.1000,22.3500;HK-NKT;Kwai Tsing District;Tai Wong Sheung
+0;114.1000,22.3500;HK-NKT;Kwai Tsing District;Tai Wong Ha
+20848;114.1235,22.3672;HK-NKT;Kwai Tsing District;Tai Wo Hau
+12752;114.1612,22.4515;HK-NTP;Tai Po;Tai Wo
+0;114.1170,22.2205;HK-NIS;Islands;Tai Wan To
+0;114.2961,22.2909;HK-NSK;Sai Kung District;Tai Wan Tau
+0;114.1151,22.2235;HK-NIS;Islands;Tai Wan San Tsuen
+0;114.1172,22.2249;HK;;Tai Wan Kau Tsuen
+0;114.2070,22.5246;HK-NNO;North District;Tai Wan
+0;114.2780,22.3951;HK-NSK;Sai Kung District;Tai Wan
+0;114.2535,22.1658;HK-NSK;Sai Kung District;Tai Wan
+0;114.0390,22.4467;HK-NYL;Yuen Long;Tai Wai
+19924;114.1790,22.3729;HK-NST;Sha Tin;Tai Wai
+0;114.1158,22.3693;HK-NTW;Tsuen Wan;Tai Uk Wai
+0;114.2626,22.4201;HK-NTP;Tai Po;Tai Tung Wo Liu
+0;114.2639,22.4250;HK-NTP;Tai Po;Tai Tung
+0;114.0333,22.3333;HK-NTW;Tsuen Wan;Tai Tsing Chau
+0;114.0215,22.4628;HK-NYL;Yuen Long;Tai Tseng Wai
+0;114.0245,22.4172;HK-NYL;Yuen Long;Tai Tong
+0;113.9913,22.2678;HK-NIS;Islands;Tai Tei Tong
+0;114.1225,22.5019;HK-NNO;North District;Tai Tau Leng
+0;114.3318,22.4403;HK-NTP;Tai Po;Tai Tan
+0;114.2134,22.2200;HK-HSO;Southern District;Tai Tam
+0;113.9296,22.4216;HK;;Tai Shui Hang
+17647;114.2238,22.4063;HK-NST;Sha Tin;Tai Shui Hang
+0;114.3333,22.3500;HK;;Tai She Wan
+0;114.0264,22.2036;HK-NIS;Islands;Tai Shek Hau
+0;114.0333,22.4833;HK-NYL;Yuen Long;Tai Shang Wai
+0;114.2991,22.3970;HK-NSK;Sai Kung District;Tai Po Tsai
+0;114.2500,22.3333;HK-NSK;Sai Kung District;Tai Po Tsai
+0;114.1516,22.5271;HK-NNO;North District;Tai Po Tin
+0;114.1500,22.4500;HK-NTP;Tai Po;Tai Po Tau Lo Wai
+0;114.1500,22.4500;HK-NTP;Tai Po;Tai Po Tau
+0;114.1992,22.4201;HK-NST;Sha Tin;Tai Po Mei
+0;114.1845,22.4329;HK-NTP;Tai Po;Tai Po Kau San Wai
+0;114.1927,22.4395;HK-NTP;Tai Po;Tai Po Kau Lo Wai
+0;114.1857,22.4243;HK-NTP;Tai Po;Tai Po Kau
+274100;114.1688,22.4501;HK-NTP;Tai Po;Tai Po
+0;114.1499,22.2841;HK-HCW;Central and Western;Tai Ping Shan
+0;114.2500,22.2667;HK;;Tai Peng
+0;114.1150,22.2299;HK;;Tai Peng
+0;114.0115,22.2981;HK-NIS;Islands;Tai Pak
+0;114.1352,22.4358;HK-NTP;Tai Po;Tai Om Shan
+0;114.1345,22.4423;HK-NTP;Tai Po;Tai Om
+3300;113.8631,22.2552;HK-NIS;Islands;Tai O
+0;114.2334,22.3675;HK-NSK;Sai Kung District;Tai No Sheung Yeung
+0;114.2354,22.3644;HK-NSK;Sai Kung District;Tai No
+11526;114.3025,22.4003;HK-NSK;Sai Kung District;Tai Mong Tsai
+0;114.1333,22.4500;HK-NTP;Tai Po;Tai Mong Che
+17544;114.2346,22.4745;HK-NTP;Tai Po;Tai Mei Tuk
+0;113.8849,22.2218;HK-NIS;Islands;Tai Long Wan Cun
+0;114.3717,22.4169;HK-NSK;Sai Kung District;Tai Long
+0;113.9974,22.2214;HK-KSS;Sham Shui Po District;Tai Long
+0;114.1333,22.3667;HK-NTW;Tsuen Wan;Tai Lin Pai
+0;113.9351,22.3922;HK-NTM;Tuen Mun;Tai Lang Shui
+0;114.2333,22.3500;HK-NSK;Sai Kung District;Tai Lam Wu
+0;114.2155,22.3835;HK-NST;Sha Tin;Tai Lam Liu
+0;114.0167,22.3667;HK-NTM;Tuen Mun;Tai Lam Chung Tsuen
+0;113.9972,22.3710;HK-NTM;Tuen Mun;So Kwun Tan
+0;114.0747,22.4471;HK-NYL;Yuen Long;Tai Kong Po
+33801;114.1630,22.3215;HK-KYT;Yau Tsim Mong District;Tai Kok Tsui
+0;114.0697,22.4166;HK-NYL;Yuen Long;Tai Kek
+0;114.0313,22.4400;HK-NYL;Yuen Long;Tai Kei Leng
+0;114.2833,22.5000;HK-NNO;North District;Tai Kau
+0;114.0643,22.4407;HK-NYL;Yuen Long;Tai Hong Wai
+0;114.0651,22.4391;HK-NYL;Yuen Long;Tai Hong Tsuen
+0;114.2000,22.3500;HK-KWT;Wong Tai Sin District;Tai Hom Village
+0;114.3106,22.4339;HK-NTP;Tai Po;Tai Hom
+0;113.9782,22.2952;HK-NIS;Islands;Tai Ho
+0;114.2564,22.1667;HK-NSK;Sai Kung District;Tai Hang Mei
+0;114.2966,22.3036;HK-NSK;Sai Kung District;Tai Hang Hau
+11425;114.1922,22.2785;HK-HEA;Eastern District;Tai Hang
+0;114.1499,22.4700;HK-NTP;Tai Po;Tai Hang
+0;114.0532,22.3429;HK;;Tai Chuen
+0;114.1333,22.3500;HK-NKT;Kwai Tsing District;Tai Ching Cheung
+0;114.2788,22.2863;HK-NSK;Sai Kung District;Tai Chik Sha
+0;114.2191,22.3811;HK-NST;Sha Tin;Tai Che
+0;114.3104,22.5162;HK-NNO;North District;Tai Chau To
+0;114.2917,22.2946;HK-NSK;Sai Kung District;Tai Au Mun
+0;114.2624,22.3704;HK-NSK;Sai Kung District;Ta Ho Tun
+0;114.0333,22.4500;HK-NYL;Yuen Long;Sz Tsz Uk
+0;114.0320,22.3130;HK;;Sze Pak
+0;113.9219,22.2896;HK-NIS;Islands;Sun Fung Wai
+0;114.0117,22.3701;HK-NTM;Tuen Mun;Sui Lam
+0;114.2513,22.5362;HK-NNO;North District;So Lo Pun
+5172;114.0045,22.3849;HK-NTM;Tuen Mun;So Kwun Wat Tsuen
+14475;114.0068,22.3759;HK-NTM;Tuen Mun;So Kwun Wat
+0;114.1317,22.4998;HK-NNO;North District;So Kwun Po
+0;114.1883,22.2741;HK-HWC;Wan Chai;So Kon Po
+5100;114.1316,22.2045;HK-NIS;Islands;Sok Kwu Wan
+0;114.1333,22.4333;HK-NTP;Tai Po;Siu Om Shan
+57349;114.2126,22.3817;HK-NST;Sha Tin;Siu Lek Yuen
+0;113.9331,22.3720;HK-NTM;Tuen Mun;Siu Lang Shui
+0;114.2887,22.4895;HK-NTP;Tai Po;Siu Kau
+0;114.1478,22.5095;HK-NNO;North District;Siu Hang Tsuen
+0;113.9727,22.4144;HK-NYL;Yuen Long;Siu Hang Tsuen
+0;114.1438,22.5100;HK-NNO;North District;Siu Hang San Tsuen
+0;114.2920,22.3035;HK-NSK;Sai Kung District;Siu Hang Hau
+6005;114.2747,22.3009;HK-NSK;Sai Kung District;Siu Chik Sha
+0;113.9109,22.1825;HK;;Siu A Chau Tsuen
+0;114.0276,22.2018;HK-NIS;Islands;Sin Yan Tseng
+0;113.9913,22.4490;HK-NYL;Yuen Long;Sik Kong Wai
+0;113.9919,22.4506;HK-NYL;Yuen Long;Sik Kong Tsuen
+0;114.1491,22.4961;HK-NNO;North District;Shung Him Tong
+0;114.1267,22.4449;HK-NYL;Yuen Long;Shui Wo
+0;114.0293,22.4252;HK-NYL;Yuen Long;Shui Tsiu San Tsuen
+0;114.0335,22.4265;HK-NYL;Yuen Long;Shui Tsiu Lo Wai
+0;114.0063,22.2511;HK;;Shui Tseng Wan
+0;114.0832,22.4259;HK-NYL;Yuen Long;Shui Tsan Tin
+0;114.0208,22.4487;HK-NYL;Yuen Long;Shui Tin Tsuen
+0;114.0603,22.4456;HK-NYL;Yuen Long;Shui Tau
+0;114.0202,22.4456;HK-NYL;Yuen Long;Shui Pin Wai
+0;114.0202,22.4435;HK-NYL;Yuen Long;Shui Pin Tsuen
+0;114.2258,22.4503;HK;;Shui Mong Tin
+0;114.0626,22.4475;HK-NYL;Yuen Long;Shui Mei
+0;114.0822,22.4310;HK-NYL;Yuen Long;Shui Lau Tin
+0;113.9130,22.2229;HK-NIS;Islands;Shui Hau
+0;114.1865,22.4791;HK-NTP;Tai Po;Shuen Wan Lei Uk
+0;114.2073,22.4614;HK-NTP;Tai Po;Shuen Wan Chim Uk
+0;114.2087,22.4640;HK-NTP;Tai Po;Shuen Wan Chan Uk
+22465;114.2081,22.4677;HK-NTP;Tai Po;Shuen Wan
+1737;114.1799,22.2484;HK-HSO;Southern District;Shouson Hill
+0;114.0183,22.4625;HK-NYL;Yuen Long;Shing Uk Tsuen
+0;114.2357,22.2676;HK-HEA;Eastern District;Shing Uk
+0;114.2167,22.2833;HK-HEA;Eastern District;Shing On
+0;114.2020,22.3407;HK-KWT;Wong Tai Sin District;Sheung Yuen Leng
+0;114.3229,22.3916;HK-HSO;Southern District;Sheung Yiu
+0;114.2868,22.3099;HK-NSK;Sai Kung District;Sheung Yeung
+0;114.0362,22.4389;HK-NYL;Yuen Long;Sheung Yau Tin
+0;114.1667,22.4333;HK-NTP;Tai Po;Sheung Wun Yiu
+0;114.1736,22.4402;HK-NTP;Tai Po;Sheung Wong Yi Au
+0;114.1954,22.5235;HK-NNO;North District;Sheung Wo Hang
+0;114.1496,22.2838;HK-HCW;Central and Western;Sheung Wan
+0;114.0833,22.4333;HK-NYL;Yuen Long;Sheung Tsuen Lai Ka Tsz
+0;114.0994,22.4330;HK-NYL;Yuen Long;Sheung Tsuen
+0;113.9112,22.1618;HK;;Sheung Tsuen
+0;114.2170,22.5046;HK-NNO;North District;Sheung Tsat Muk Kiu
+0;114.0809,22.3904;HK-NTW;Tsuen Wan;Sheung Tong
+0;114.2182,22.5489;HK-NNO;North District;Sheung Tam Shui Hang
+0;114.2906,22.3054;HK-NSK;Sai Kung District;Sheung Sze Wan
+0;114.1324,22.5156;HK-NNO;North District;Sheung Shui Wa Shan
+0;114.1280,22.5013;HK-NNO;North District;Choi Yuen
+20514;114.1167,22.5167;HK-NNO;North District;Sheung Shui
+0;114.1491,22.5231;HK-NNO;North District;Sheung Shan Kai Wat
+0;114.0500,22.4667;HK-NYL;Yuen Long;Sheung San Wai
+0;114.2600,22.5022;HK-NNO;North District;Sheung Miu Tin
+0;113.9376,22.2782;HK-NIS;Islands;Sheung Ling Pei
+0;114.2828,22.2828;HK-NSK;Sai Kung District;Sheung Lau Wan
+0;114.1409,22.3798;HK-NTW;Tsuen Wan;Sheung Kwai Chung Wai
+0;114.1000,22.3500;HK-NKT;Kwai Tsing District;Sheung Ko Tan
+0;114.1167,22.3667;HK-NTW;Tsuen Wan;Sheung Hoi Pa
+0;114.0893,22.3876;HK-NTW;Tsuen Wan;Sheung Fa Shan
+0;114.1000,22.3500;HK-NKT;Kwai Tsing District;Sheung Chung Mei
+0;114.0583,22.4748;HK-NYL;Yuen Long;Sheung Chuk Yuen
+0;114.0075,22.4470;HK-NYL;Yuen Long;Sheung Cheung Wai
+0;114.0957,22.4505;HK-NYL;Yuen Long;Sheung Che
+0;114.3022,22.3981;HK-NSK;Sai Kung District;She Tau
+0;114.1462,22.4505;HK-NTP;Tai Po;She Shan
+0;114.0712,22.4919;HK-NYL;Yuen Long;Shek Wu Wai
+0;114.0705,22.4266;HK-NYL;Yuen Long;Shek Wu Tong
+0;114.1279,22.5044;HK-NNO;North District;Shek Wu Hui
+12198;114.1241,22.3755;HK-NTW;Tsuen Wan;Shek Wai Kok
+0;113.8560,22.2542;HK-NIS;Islands;Shek Tsai Po
+0;114.1343,22.2864;HK-HCW;Central and Western;Shek Tong Tsui
+0;114.0964,22.4320;HK-NYL;Yuen Long;Shek Tau Wai
+0;113.9968,22.4405;HK-NYL;Yuen Long;Shek Po Tsuen
+0;114.2333,22.3500;HK-NSK;Sai Kung District;Shek Pok Wai
+0;113.9294,22.2665;HK-NIS;Islands;Shek Pik Au
+0;114.2108,22.5139;HK-NNO;North District;Shek Pan Tam
+14927;114.1581,22.2493;HK-HSO;Southern District;Shek Pai Wan Estate
+0;113.9677,22.4014;HK-NTM;Tuen Mun;Shek Pai Tau
+20683;114.2512,22.2334;HK-HSO;Southern District;Shek O
+0;113.9325,22.2688;HK-NIS;Islands;Shek Mun Kap
+0;114.2614,22.3879;HK-NSK;Sai Kung District;Shek Lung Tsai
+31788;114.1398,22.3661;HK-NKT;Kwai Tsing District;Shek Lei
+0;114.1667,22.4167;HK-NTW;Tsuen Wan;Shek Lau Tung
+0;113.9308,22.2728;HK-NIS;Islands;Shek Lau Po
+0;114.1500,22.4500;HK-NTP;Tai Po;Shek Kwu Lung
+0;114.2189,22.3838;HK-NST;Sha Tin;Shek Kwu Lung
+0;114.0948,22.4359;HK-NYL;Yuen Long;Shek Kong
+0;113.9500,22.3833;HK-NTM;Tuen Mun;Shek Kok Tsui
+0;114.2036,22.5322;HK-NNO;North District;Shek Kiu Tau
+18078;114.1680,22.3315;HK-KSS;Sham Shui Po District;Shek Kip Mei
+0;114.3031,22.4071;HK-NSK;Sai Kung District;Shek Hang
+0;114.2082,22.5354;HK-NNO;North District;Shek Chung Au
+13442;114.2286,22.2777;HK-HEA;Eastern District;Shau Kei Wan
+0;114.3500,22.3667;HK-NSK;Sai Kung District;Sha Tsiu
+80000;114.1975,22.3776;HK-NST;Sha Tin;Sha Tin Wai
+0;114.1886,22.3735;HK-NST;Sha Tin;Sha Tin Tau
+495200;114.1833,22.3833;HK-NST;Sha Tin;Sha Tin
+0;114.2197,22.5502;HK-NNO;North District;Sha Tau Kok Tan Ka
+5001;114.2238,22.5457;HK-NNO;North District;Sha Tau Kok
+0;114.3566,22.4236;HK-NTP;Tai Po;Sha Tau
+0;114.0500,22.4500;HK-NYL;Yuen Long;Sha Po Ng Tsuen
+0;113.9216,22.3890;HK-NTM;Tuen Mun;Sha Po Kong
+0;114.0538,22.4533;HK-NYL;Yuen Long;Sha Po
+0;114.1129,22.2243;HK-NIS;Islands;Sha Po
+0;113.9916,22.2428;HK-NIS;Islands;Shap Long San Tsuen
+0;113.9885,22.2393;HK-NIS;Islands;Shap Long Kau Tsuen
+0;114.1333,22.4500;HK-NTP;Tai Po;Sha Pa
+0;114.2218,22.5493;HK-NNO;North District;Shan Tsui
+0;114.0405,22.4493;HK-NYL;Yuen Long;Shan Pui
+0;114.1833,22.4000;HK-NST;Sha Tin;Shan Mei
+0;114.2170,22.4782;HK-NTP;Tai Po;Shan Liu
+0;114.2747,22.3953;HK-NSK;Sai Kung District;Shan Liu
+0;114.2611,22.1695;HK-NSK;Sai Kung District;Shan Liu
+0;113.9667,22.4167;HK-NYL;Yuen Long;Shan Kai Wat
+0;114.0154,22.4321;HK-NYL;Yuen Long;Shan Ha Tsuen
+0;113.9435,22.2785;HK-NIS;Islands;Shan Ha
+0;113.8825,22.2696;HK-NIS;Islands;Sham Wat
+0;113.9333,22.3167;HK-NIS;Islands;Sham Wan Tsuen
+25893;114.0500,22.3667;HK-NTW;Tsuen Wan;Sham Tseng
+431090;114.1595,22.3302;HK-KSS;Sham Shui Po District;Sham Shui Po
+0;113.8911,22.2768;HK-NIS;Islands;Sham Sek Tsuen
+0;114.2884,22.4410;HK-NTP;Tai Po;Sham Chung
+0;114.0268,22.4336;HK-NYL;Yuen Long;Sham Chung
+0;113.9017,22.2854;HK-NIS;Islands;Sha Lo Wan
+0;114.1833,22.4833;HK-NTP;Tai Po;Sha Lo Tung Lo Wai
+0;114.1241,22.5255;HK-NNO;North District;Sha Ling
+0;114.1967,22.4653;HK-NTP;Tai Po;Sha Lan
+0;113.9924,22.4654;HK-NYL;Yuen Long;Sha Kong Wai Tsai
+0;113.9910,22.4622;HK-NYL;Yuen Long;Sha Kong Wai
+0;113.9800,22.4605;HK-NYL;Yuen Long;Sha Kong Tsuen
+0;113.9833,22.4667;HK-NYL;Yuen Long;Sha Kong Miu
+0;114.2689,22.3877;HK-NSK;Sai Kung District;Sha Kok Mei
+0;114.2658,22.3841;HK-NSK;Sai Kung District;Sha Ha
+54218;114.2350,22.3202;HK-KKT;Kwun Tong District;Sau Mau Ping
+0;114.1667,22.4500;HK-NTP;Tai Po;San Wai Tsai
+0;113.9635,22.4044;HK-NTM;Tuen Mun;San Wai Tsai
+0;114.1493,22.5067;HK-NNO;North District;San Wai
+0;113.9896,22.4519;HK-NYL;Yuen Long;San Wai
+0;114.1483,22.5050;HK-NNO;North District;San Uk Tsuen
+0;113.9917,22.4456;HK-NYL;Yuen Long;San Uk Tsuen
+0;114.1000,22.3667;HK-NTW;Tsuen Wan;San Uk Tsuen
+0;114.1667,22.5167;HK-NNO;North District;San Uk Tsai
+0;114.1333,22.4500;HK-NTP;Tai Po;San Uk Tsai
+0;114.1332,22.5341;HK-NNO;North District;San Uk Ling
+0;114.1667,22.4333;HK-NTP;Tai Po;San Uk Ha
+0;114.2644,22.3896;HK-NSK;Sai Kung District;San Uk
+0;114.2150,22.5441;HK-NNO;North District;San Tsuen
+0;114.0970,22.4440;HK-NYL;Yuen Long;Wang Toi Shan San Tsuen
+0;114.0000,22.4500;HK-NYL;Yuen Long;San Tsuen
+0;114.1219,22.3789;HK-NTW;Tsuen Wan;San Tsuen
+0;114.1660,22.5095;HK-NNO;North District;San Tong Po
+0;114.1333,22.4500;HK-NTP;Tai Po;San Tong
+16628;114.1839,22.3719;HK-NST;Sha Tin;San Tin
+0;114.0500,22.4833;HK-NYL;Yuen Long;San Tin San Wai
+0;114.0500,22.4667;HK-NYL;Yuen Long;San Tin San Wai
+0;114.2906,22.3924;HK-NSK;Sai Kung District;San Tin Hang
+19617;114.0693,22.5017;HK-NYL;Yuen Long;San Tin
+0;114.2395,22.4939;HK-NNO;North District;San Tau Yiu
+0;114.2083,22.4692;HK-NTP;Tai Po;San Tau Kok
+0;113.9208,22.2883;HK-NIS;Islands;San Tau
+0;113.8966,22.2818;HK-NIS;Islands;San Shek Wan
+0;113.9642,22.2388;HK-NIS;Islands;San Shek Wan
+18199;114.1967,22.3355;HK-KWT;Wong Tai Sin District;San Po Kong
+0;114.0975,22.4458;HK-NYL;Yuen Long;San Lung Wai
+0;114.0729,22.4984;HK-NYL;Yuen Long;San Lung Tsuen
+0;114.1849,22.3737;HK;;San Lei Uk Tsuen
+0;114.1936,22.5540;HK-NNO;North District;San Kwai Tin
+0;113.9310,22.2675;HK-NIS;Islands;San Keng
+0;113.9866,22.4662;HK-NYL;Yuen Long;San Hing Tsuen
+0;113.9794,22.4181;HK-NYL;Yuen Long;San Hing Tsuen
+0;114.0089,22.4393;HK-NYL;Yuen Long;San Hei Tsuen
+0;114.1167,22.3667;HK-NTW;Tsuen Wan;Sam Tung Uk
+0;114.1167,22.3667;HK-NTW;Tsuen Wan;Sam Tsuen
+0;114.0162,22.3109;HK-NIS;Islands;Sam Pak
+0;114.2527,22.4571;HK-NTP;Tai Po;Sam Mun Tsai
+0;114.2333,22.3333;HK-KWT;Wong Tai Sin District;Sam Long Tsuen
+0;114.2391,22.2908;HK-KKT;Kwun Tong District;Sam Ka Tsuen
+0;114.2513,22.3677;HK-NSK;Sai Kung District;Sam Fai Tin
+0;114.0500,22.3500;HK;;Sam Chuen
+0;114.2705,22.5181;HK-NNO;North District;Sam A Tsuen
+0;114.2712,22.5060;HK-NNO;North District;Sam A Chung
+13600;114.1422,22.2900;HK-HCW;Central and Western;Sai Ying Pun
+18771;114.2232,22.2845;HK-HEA;Eastern District;Sai Wan Ho
+14650;114.1255,22.2812;HK-HCW;Central and Western;Sai Wan
+0;114.3706,22.3963;HK-HSO;Southern District;Sai Wan
+0;113.9833,22.2833;HK-NIS;Islands;Sai Tsuen
+0;114.2315,22.3062;HK-KKT;Kwun Tong District;Sai Tso Wan
+0;114.0833,22.3500;HK-NKT;Kwai Tsing District;Sai Tso Wan
+0;113.8831,22.2713;HK-NIS;Islands;Sai Tso Wan
+0;114.0250,22.4531;HK-NYL;Yuen Long;Sai Tau Wai
+0;113.9833,22.4500;HK-NYL;Yuen Long;Sai Shan Tsuen
+0;114.1167,22.3500;HK-NKT;Kwai Tsing District;Sai Shan
+0;114.0333,22.4500;HK-NYL;Yuen Long;Sai Pin Wai
+0;114.2917,22.5474;HK-NNO;North District;Sai O
+0;114.2547,22.4300;HK-NTP;Tai Po;Sai O
+0;114.1231,22.3779;HK-NTW;Tsuen Wan;Sai Lau Kok
+0;114.2665,22.3789;HK-NSK;Sai Kung District;Sai Kung Tuk
+35800;114.2667,22.3833;HK-NSK;Sai Kung District;Sai Kung
+0;114.2673,22.4186;HK-NTP;Tai Po;Sai Keng
+11198;114.2135,22.2877;HK-HEA;Eastern District;Quarry Bay
+0;114.0833,22.5089;HK-NYL;Yuen Long;Pun Uk Tsuen
+0;114.1000,22.3833;HK-NTW;Tsuen Wan;Pun Shan Tsuen
+0;114.1667,22.4333;HK-NTP;Tai Po;Pun Shan Chau
+0;114.1500,22.4500;HK-NTP;Tai Po;Pun Chun Yuen
+5001;113.9782,22.2460;HK-NIS;Islands;Pui O
+0;113.9717,22.4165;HK-NYL;Yuen Long;Po Tong Ha
+0;114.3000,22.2833;HK;;Po Toi O
+0;114.2100,22.4710;HK-NTP;Tai Po;Po Sam Pai
+0;114.2002,22.4254;HK-NTP;Tai Po;Po Min
+0;114.0864,22.4194;HK-NYL;Yuen Long;Po Lo Shan
+0;114.0528,22.4660;HK-NYL;Yuen Long;Pok Wai
+77100;114.1292,22.2686;HK-HSO;Southern District;Pok Fu Lam
+0;114.1623,22.5013;HK-NNO;North District;Po Kat Tsai
+0;113.8607,22.2583;HK-NIS;Islands;Po Chue Tam
+0;114.1639,22.5354;HK-NNO;North District;Ping Yeung
+0;114.3031,22.4071;HK-NSK;Sai Kung District;Ping Tun
+0;114.2092,22.3332;HK-KKT;Kwun Tong District;Ping Shek
+0;114.1892,22.4868;HK-NTP;Tai Po;Ping Shan Chai
+45400;114.0061,22.4411;HK-NYL;Yuen Long;Ping Shan
+0;114.1333,22.4500;HK-NTP;Tai Po;Ping Long
+0;114.1219,22.4897;HK-NNO;North District;Ping Kong
+0;114.1642,22.5257;HK-NNO;North District;Ping Che
+0;114.2500,22.3500;HK-NSK;Sai Kung District;Pik Uk
+7821;114.0333,22.2833;HK-NIS;Islands;Peng Chau
+0;114.1944,22.4010;HK-NST;Sha Tin;Pat Tsz Wo
+0;114.0530,22.3224;HK;;Pa Tau Kwu
+0;114.2841,22.3126;HK-NSK;Sai Kung District;Pan Long Wan
+0;114.0739,22.4418;HK-NYL;Yuen Long;Pang Ka Tsuen
+0;114.1667,22.4500;HK-NTP;Tai Po;Pan Chung San Tsuen
+0;114.1656,22.4452;HK-NTP;Tai Po;Pan Chung
+0;114.1019,22.3616;HK;;Pak Wan
+0;114.2557,22.3602;HK-NSK;Sai Kung District;Pak Wai
+0;114.1167,22.3833;HK-NTW;Tsuen Wan;Pak Tin Pa San Tsuen
+0;114.1209,22.3773;HK-NTW;Tsuen Wan;Pak Tin Pa
+0;114.1667,22.3333;HK-KSS;Sham Shui Po District;Pak Tin
+0;114.1723,22.3794;HK-NST;Sha Tin;Pak Tin
+0;114.3206,22.3989;HK-HSO;Southern District;Pak Tam Chung
+0;114.3335,22.4197;HK-NTP;Tai Po;Pak Tam Au
+0;114.3173,22.4096;HK-HSO;Southern District;Pak Tam
+0;114.2716,22.3081;HK-NSK;Sai Kung District;Pak Shing Kok
+0;114.2333,22.3333;HK-KWT;Wong Tai Sin District;Pak Shek Wo
+12000;114.2037,22.4273;HK-NST;Sha Tin;Pak Shek Kok
+0;114.0934,22.3956;HK-NTW;Tsuen Wan;Pak Shek Kiu
+0;114.0922,22.5055;HK-NYL;Yuen Long;Pak Shek Au
+0;114.1729,22.3664;HK-NTP;Tai Po;Pak Shek
+0;114.0167,22.4167;HK-NYL;Yuen Long;Pak Sha Wo Liu
+0;114.0223,22.4211;HK-NYL;Yuen Long;Pak Sha Tsuen
+0;114.0167,22.4500;HK-NYL;Yuen Long;Pak Sha Tsai
+0;114.2866,22.5337;HK;;Pak Sha Tau
+0;114.3167,22.4500;HK-NTP;Tai Po;Pak Sha O Ha Yeung
+0;114.3207,22.4476;HK-NTP;Tai Po;Pak Sha O
+0;114.1234,22.4422;HK-NYL;Yuen Long;Pak Ngau Shek
+0;113.9911,22.2718;HK-NIS;Islands;Pak Ngan Heung
+0;113.9569,22.4485;HK-NYL;Yuen Long;Sheung Pak Nai
+0;113.9717,22.2948;HK-NIS;Islands;Pak Mong
+0;113.9226,22.3914;HK-NTM;Tuen Mun;Pak Long
+0;114.3500,22.3500;HK;;Pak Lap
+0;114.2333,22.3333;HK-KWT;Wong Tai Sin District;Pak Kung Au
+0;114.2610,22.3847;HK-NSK;Sai Kung District;Pak Kong Au
+0;114.2613,22.3831;HK-NSK;Sai Kung District;Pak Kong
+0;114.1135,22.2361;HK;;Pak Kok San Tsuen
+0;114.1123,22.2348;HK-HCW;Central and Western;Pak Kok Kau Tsuen
+0;114.2020,22.2910;HK-HEA;Eastern District;North Point
+0;113.9500,22.3833;HK-NTM;Tuen Mun;Pak Kok
+0;114.1720,22.4514;HK-NTP;Tai Po;Pak Kiu
+0;114.0458,22.4886;HK-NYL;Yuen Long;Pak Hok Chau
+0;114.3500,22.3500;HK;;Pak A
+0;114.1849,22.3883;HK-NST;Sha Tin;Pai Tau Hang
+0;114.1869,22.3844;HK-NST;Sha Tin;Pai Tau
+0;114.1993,22.4220;HK-NST;Sha Tin;Pai Mun
+0;114.0114,22.2269;HK-KSS;Sham Shui Po District;Pai Chong
+0;114.2804,22.4007;HK-NTP;Tai Po;O Tau
+0;114.2167,22.2833;HK-HEA;Eastern District;O Pui Lung
+0;114.0757,22.5009;HK-NYL;Yuen Long;On Lung Tsuen
+0;114.1440,22.4970;HK-NNO;North District;On Lok Tsuen
+0;113.9265,22.2720;HK-NIS;Islands;Nim Yuen
+0;113.9325,22.4167;HK-NTM;Tuen Mun;Nim Wan
+0;114.0189,22.2917;HK;;Nim Shue Wan Tsuen
+0;114.1948,22.4161;HK-NST;Sha Tin;Nim Au
+0;114.1704,22.5132;HK-NNO;North District;Ng Uk Tsuen
+0;114.1266,22.4959;HK-NNO;North District;Ng Uk Tsuen
+0;114.0219,22.4655;HK-NYL;Yuen Long;Ng Uk Tsuen
+0;114.1267,22.4373;HK-NYL;Yuen Long;Ng Tung Chai
+0;114.2819,22.3990;HK-NSK;Sai Kung District;Ngong Wo
+0;114.0333,22.3333;HK-NTW;Tsuen Wan;Ngong Shuen Au
+5001;113.9039,22.2556;HK-NIS;Islands;Ngong Ping
+0;114.0708,22.4373;HK-NYL;Yuen Long;Ng Ka Tsuen
+0;114.2168,22.5420;HK-NNO;North District;Nga Yiu Tau
+0;114.0390,22.4294;HK-NYL;Yuen Long;Nga Yiu Tau
+0;114.2676,22.4223;HK-NTP;Tai Po;Nga Yiu Tau
+0;114.1620,22.5403;HK-NNO;North District;Nga Yiu Ha
+0;114.1833,22.4000;HK-NST;Sha Tin;Ngau Wu Tok
+0;114.2171,22.3270;HK-KKT;Kwun Tong District;Ngau Tau Kok
+0;114.0750,22.4750;HK-NYL;Yuen Long;Ngau Tam Mei
+0;114.2773,22.5216;HK-NNO;North District;Ngau Shi Wu
+0;114.2333,22.3500;HK-NSK;Sai Kung District;Ngau Pui Wo
+0;114.2087,22.3803;HK-NST;Sha Tin;Ngau Pei Sha
+0;114.2277,22.4521;HK;;Ngau Liu Ha
+0;114.2722,22.3925;HK-NSK;Sai Kung District;Ngau Liu
+0;114.0993,22.4021;HK-NTW;Tsuen Wan;Ngau Liu
+0;114.2333,22.3500;HK-NSK;Sai Kung District;Ngau Liu
+0;114.0007,22.2503;HK-NIS;Islands;Ngau Kwu Wan
+0;113.9758,22.2909;HK-NIS;Islands;Ngau Kwu Long
+0;113.8781,22.2400;HK-NIS;Islands;Ngau Kwo Tin
+0;114.0880,22.3612;HK;;Ngau Kok Wan
+0;114.0833,22.4333;HK-NYL;Yuen Long;Ngau Keng
+0;113.9744,22.4538;HK-NYL;Yuen Long;Ngau Hom Shek
+0;113.9665,22.4498;HK-NYL;Yuen Long;Ngau Hom Sha
+0;113.9890,22.4654;HK-NYL;Yuen Long;Ngau Hom
+0;114.2097,22.3361;HK-KWT;Wong Tai Sin District;Ngau Chi Wan
+0;113.9284,22.2810;HK-NIS;Islands;Ngau Au
+0;114.1833,22.3333;HK-KKC;Kowloon City;Nga Tsin Wai
+0;114.1073,22.3602;HK;;Nga Ying Chau
+0;114.2369,22.2311;HK-HSO;Southern District;Ngan Hang
+116000;113.9431,22.2787;HK-NIS;Islands;San Tung Chung Hang
+0;114.1500,22.3333;HK-KSS;Sham Shui Po District;New Kowloon
+0;114.1499,22.4757;HK-NNO;North District;Nam Wa Po
+0;114.0833,22.3500;HK-NKT;Kwai Tsing District;Nam Wan
+0;114.2500,22.3500;HK-NSK;Sai Kung District;Nam Wai
+0;114.3712,22.4361;HK-NSK;Sai Kung District;Nam She
+0;114.0016,22.4883;HK-NYL;Yuen Long;Nam Sha Po
+0;114.3108,22.4497;HK-NTP;Tai Po;Nam Shan Tung
+0;114.1949,22.4861;HK-NTP;Tai Po;Nam Shan Mei
+0;114.2653,22.3884;HK-NSK;Sai Kung District;Nam Shan
+0;114.2178,22.3853;HK-NST;Sha Tin;Nam Shan
+0;114.0333,22.4500;HK-NYL;Yuen Long;Nam Pin Wai
+0;114.2500,22.3500;HK-NSK;Sai Kung District;Nam Pin Wai
+0;114.2167,22.2833;HK-HEA;Eastern District;Nam On Fong
+0;113.9232,22.3902;HK-NTM;Tuen Mun;Nam Long
+0;114.1690,22.4598;HK-HCW;Central and Western;Nam Hang
+0;114.0348,22.4239;HK-NYL;Yuen Long;Nam Hang Tsuen
+0;114.3325,22.3770;HK-NSK;Sai Kung District;Nam Fung Wan
+0;114.3500,22.3500;HK;;Nam Fung Chau
+0;114.2075,22.5232;HK-NNO;North District;Nam Chung Yeung Uk
+0;114.2067,22.5184;HK-NNO;North District;Nam Chung Lo Uk
+0;114.2110,22.5234;HK-NNO;North District;Nam Chung Lei Uk
+0;114.2167,22.5167;HK-NNO;North District;Nam Chung Lam Uk
+0;114.2107,22.5224;HK-NNO;North District;Nam Chung Cheung Uk
+0;114.2073,22.5195;HK-NNO;North District;Nam Chung Cheng Uk
+0;113.8667,22.2500;HK-NIS;Islands;Nam Chung
+0;114.2771,22.3990;HK-NSK;Sai Kung District;Nam A
+0;113.9893,22.4232;HK-NYL;Yuen Long;Nai Wai
+0;114.2508,22.4905;HK-NTP;Tai Po;Nai Tong Kok
+5001;114.2575,22.4312;HK-NST;Sha Tin;Nai Chung
+0;114.1333,22.5500;HK;;Muk Wu Chuen Yiu
+0;114.1342,22.5396;HK-KWT;Wong Tai Sin District;Muk Wu
+0;114.2162,22.5429;HK-NNO;North District;Muk Min Tau
+0;114.2714,22.3895;HK-NSK;Sai Kung District;Muk Min Shan
+0;114.1167,22.3833;HK-NTW;Tsuen Wan;Muk Min Ha
+0;114.0250,22.4290;HK-NYL;Yuen Long;Muk Kiu Tau
+5485;113.9861,22.2689;HK-NIS;Islands;Mui Wo Kau Tsuen
+0;114.2562,22.5186;HK-NNO;North District;Mui Tsz Lam
+0;114.2337,22.3930;HK-NST;Sha Tin;Mui Tsz Lam
+0;114.1500,22.4500;HK-NTP;Tai Po;Mui Shue Hang
+16030;114.1178,22.2786;HK-HCW;Central and Western;Mount Davis
+0;114.2721,22.5244;HK-NNO;North District;Mo To Tang
+0;114.1457,22.2076;HK;;Mo Tat Wan
+0;114.1453,22.2046;HK-NIS;Islands;Mo Tat
+0;114.1783,22.2766;HK-HWC;Wan Chai;Morrison Hill
+0;114.0333,22.3333;HK-NTW;Tsuen Wan;Mong Tung Hang
+0;114.0054,22.4776;HK-NYL;Yuen Long;Mong Tseng Wai
+0;113.9989,22.4875;HK-NYL;Yuen Long;Sha Kiu Tsuen
+62967;114.1714,22.3194;HK-KYT;Yau Tsim Mong District;Mong Kok
+0;114.2519,22.3483;HK-NSK;Sai Kung District;Mok Tse Che
+0;113.9283,22.2707;HK-NIS;Islands;Mok Ka
+0;114.1833,22.4000;HK-NST;Sha Tin;Min Fong
+15464;114.1496,22.2840;HK-HCW;Central and Western;Mid Levels
+0;114.2308,22.4535;HK;;Ma Yiu
+0;114.0333,22.2000;HK;;Ma Yin Tung Pai Chong
+0;114.2433,22.3192;HK-NTW;Tsuen Wan;Ma Yau Tong
+0;114.1500,22.4500;HK-HCW;Central and Western;Ma Wo
+0;114.1500,22.4984;HK-NNO;North District;Ma Wat Wai
+0;114.1515,22.4991;HK-NNO;North District;Ma Wat Tsuen
+0;114.2333,22.2833;HK-HEA;Eastern District;Ma Wan Tsuen
+0;113.9367,22.2863;HK-NIS;Islands;Ma Wan Chung
+14409;114.0600,22.3523;HK-NIS;Islands;Ma Wan
+0;114.2536,22.3157;HK-NSK;Sai Kung District;Mau Wu Tsai
+0;114.2225,22.3653;HK-NST;Sha Tin;Mau Tso Ngam
+0;114.2662,22.3490;HK;;Mau Tin
+0;114.2937,22.3014;HK-NSK;Sai Kung District;Mau Po
+0;114.2409,22.3833;HK-NST;Sha Tin;Mau Ping San Uk
+0;114.2421,22.3855;HK-NST;Sha Tin;Mau Ping Lo Uk
+0;114.2436,22.3839;HK-NSK;Sai Kung District;Mau Ping
+0;114.1000,22.5333;HK-NNO;North District;Ma Tso Lung San Tsuen
+0;114.0833,22.5333;HK;;Ma Tso Lung
+0;114.2009,22.5327;HK-NNO;North District;Ma Tseuk Leng San Uk Ha
+0;114.2009,22.5343;HK-NNO;North District;Ma Tseuk Leng
+0;114.0228,22.4397;HK-NYL;Yuen Long;Ma Tin Tsuen
+20185;114.1874,22.3207;HK-KKC;Kowloon City;Ma Tau Wai
+14397;114.1905,22.3215;HK-KKC;Kowloon City;Ma Tau Kok
+0;114.1420,22.5031;HK-NNO;North District;Ma Shi Po
+0;114.2167,22.2833;HK-HEA;Eastern District;Ma Shan
+0;114.1333,22.4500;HK-NTP;Tai Po;Ma Po Mei
+215200;114.2408,22.4061;HK-NST;Sha Tin;Ma On Shan
+0;114.0643,22.4149;HK-NYL;Yuen Long;Ma On Kong
+0;114.2365,22.3530;HK-NSK;Sai Kung District;Man Wo
+0;114.1849,22.5270;HK-NNO;North District;Man Uk Pin
+0;114.0204,22.2672;HK;;Man Kok
+0;114.1295,22.5393;HK;;Man Kam To
+0;114.2833,22.5000;HK-NNO;North District;Ma Niu Shui
+0;114.2002,22.4080;HK-NST;Sha Tin;Ma Niu
+0;114.1904,22.4009;HK-NST;Sha Tin;Man Hang
+0;114.0000,22.2667;HK-NIS;Islands;Mang Tong
+0;114.2771,22.3126;HK-NSK;Sai Kung District;Mang Kung Uk
+0;113.8666,22.2316;HK-NIS;Islands;Man Cheung Po
+0;114.2667,22.3500;HK;;Ma Nam Wat
+0;114.1781,22.5167;HK-NNO;North District;Ma Mei Ha Leng Tsui
+0;114.1766,22.5183;HK-NNO;North District;Ma Mei Ha
+0;114.2075,22.4201;HK-NST;Sha Tin;Ma Liu Shui
+0;114.2631,22.4262;HK-NTP;Tai Po;Ma Kwu Lam
+0;114.1823,22.4645;HK-NTP;Tai Po;Mak Uk
+0;114.0603,22.4926;HK-NYL;Yuen Long;Mai Po San Tsuen
+0;114.0605,22.4937;HK-NYL;Yuen Long;Mai Po Lo Wai
+0;114.3843,22.4299;HK-NSK;Sai Kung District;Mai Fan Teng
+0;114.1462,22.5038;HK-NNO;North District;Lung Yeuk Tau
+0;114.2333,22.3321;HK-KKT;Kwun Tong District;Lung Wo Tsuen
+0;113.9351,22.2758;HK-NIS;Islands;Lung Tseng Tau
+0;113.9218,22.3863;HK-NTM;Tuen Mun;Lung Tsai
+0;114.0167,22.4333;HK-NYL;Yuen Long;Lung Tin Tsuen
+0;114.3748,22.4151;HK-NSK;Sai Kung District;Lung Mei Tau
+0;114.2294,22.4728;HK-NTP;Tai Po;Lung Mei
+0;114.0008,22.2256;HK-KSS;Sham Shui Po District;Lung Mei
+0;114.1333,22.4500;HK-NTP;Tai Po;Lung A Pai
+0;113.8875,22.2514;HK-NIS;Islands;Luk Wu
+0;113.9903,22.2627;HK-NIS;Islands;Luk Tei Tong
+0;114.2157,22.5210;HK-NNO;North District;Luk Keng Wong Uk
+0;114.2168,22.5188;HK-NNO;North District;Luk Keng Chan Uk
+0;114.0220,22.3314;HK;;Luk Keng
+0;114.1319,22.2179;HK;;Luk Chau
+0;114.1419,22.5002;HK-NNO;North District;Luen Wo San Tsuen
+0;114.1443,22.5003;HK-NNO;North District;Luen Wo Market
+0;114.1099,22.5267;HK-NNO;North District;Lo Wu
+0;113.8793,22.2478;HK-NIS;Islands;Lower Keung Shan
+0;114.1518,22.4970;HK-NNO;North District;Lo Wai
+0;114.1250,22.3796;HK-NTW;Tsuen Wan;Lo Wai
+0;113.9943,22.4511;HK-NYL;Yuen Long;To Uk Tsuen
+0;114.0963,22.4303;HK-NYL;Yuen Long;Lo Uk Tsuen
+0;113.9754,22.2441;HK-NIS;Islands;Lo Uk Tsuen
+0;114.2315,22.2663;HK-HEA;Eastern District;Lo Uk
+0;114.1000,22.3500;HK-NKT;Kwai Tsing District;Lo Uk
+0;114.2258,22.4737;HK-NTP;Tai Po;Lo Tsz Tin
+0;114.1246,22.2234;HK;;Lo Tik Wan
+0;114.1261,22.2047;HK-NIS;Islands;Lo So Shing
+0;114.2225,22.3713;HK-NST;Sha Tin;Lo Shue Tin
+0;114.1404,22.5383;HK-NNO;North District;Lo Shue Ling
+0;114.2663,22.3905;HK-NSK;Sai Kung District;Long Mei
+0;114.2819,22.3985;HK-NSK;Sai Kung District;Long Keng
+0;114.3750,22.3764;HK-HSO;Southern District;Long Ke
+0;114.1667,22.4333;HK-NTP;Tai Po;Lo Lau Uk
+0;114.2417,22.4310;HK-NST;Sha Tin;Lok Wo Sha
+0;114.0792,22.5095;HK-NYL;Yuen Long;Lok Ma Chau
+0;114.2012,22.4020;HK-NST;Sha Tin;Lok Lo Ha
+0;114.2456,22.2637;HK;;Lok Kang Po
+0;114.1853,22.5207;HK-NNO;North District;Loi Tung
+0;114.1833,22.3333;HK-KKC;Kowloon City;Lo Fu Ngam
+0;114.0958,22.3515;HK-NKT;Kwai Tsing District;Liu To
+0;114.1000,22.5333;HK-NNO;North District;Liu Pok
+0;114.1145,22.4788;HK-HCW;Central and Western;Lin Tong Mei Tsoi Yuen
+0;114.1099,22.4822;HK-HCW;Central and Western;Lin Tong Mei
+0;114.1839,22.5498;HK-NNO;North District;Lin Ma Hang
+0;114.2397,22.2933;HK-KKT;Kwun Tong District;Ling Nam San Tsuen
+0;114.0876,22.4274;HK-NYL;Yuen Long;Lin Fa Tei
+0;114.1500,22.4500;HK-NTP;Tai Po;Lin Au
+0;113.8654,22.2486;HK-NIS;Islands;Leung Uk
+0;113.9808,22.4004;HK-NTM;Tuen Mun;Leung Tin Tsuen
+0;114.1333,22.4500;HK-NTP;Tai Po;Leung Shui Tseng
+0;114.3540,22.3572;HK-NSK;Sai Kung District;Leung Shuen Wan
+0;114.2880,22.3016;HK-NSK;Sai Kung District;Leung Fai Tin
+0;114.1712,22.5182;HK-NNO;North District;Leng Tsai
+0;114.1785,22.5152;HK-NNO;North District;Leng Pei Tsuen
+0;114.1962,22.5356;HK-NNO;North District;Lek Mei
+0;114.2446,22.2895;HK-KKT;Kwun Tong District;Lei Yue Mun
+0;113.9833,22.4500;HK-NYL;Yuen Long;Lei Uk Tsuen
+0;113.9939,22.4360;HK-NYL;Yuen Long;Lei Uk Tsuen
+0;114.1484,22.5347;HK-NNO;North District;Lei Uk
+29160;114.1840,22.2761;HK-HWC;Wan Chai;Leighton Hill
+0;114.1691,22.4997;HK-NNO;North District;Lau Shui Heung
+0;114.1786,22.4631;HK-HCW;Central and Western;Lau Hang
+2230;113.9342,22.2833;HK-NIS;Islands;Lau Fau Shan
+0;114.2053,22.5347;HK-NNO;North District;Lap Wo Tsuen
+0;114.3336,22.3816;HK-NSK;Sai Kung District;Lan Nai Wan
+0;114.3307,22.3823;HK-NSK;Sai Kung District;Lan Nai Wan Man Uk
+0;114.3312,22.3833;HK-NSK;Sai Kung District;Lan Nai Wan Lei Uk
+0;114.2354,22.2411;HK-HSO;Southern District;Lan Nai Wan
+0;114.3744,22.4209;HK-NSK;Sai Kung District;Lam Uk Wai
+0;114.1333,22.4500;HK-NTP;Tai Po;Lam Tsuen San Tsuen
+18666;114.2363,22.3093;HK-KKT;Kwun Tong District;Lam Tin
+0;113.9858,22.4188;HK-NYL;Yuen Long;Lam Tei
+0;114.0195,22.4352;HK-NYL;Yuen Long;Lam Hau
+0;113.9167,22.2667;HK-NIS;Islands;Lam Che
+0;114.2665,22.5081;HK-NNO;North District;Lai Tau Shek
+0;114.2161,22.4882;HK-NTP;Tai Po;Lai Pek Shan
+0;114.1850,22.3807;HK-NST;Sha Tin;Lai Chi Yuen
+0;114.2594,22.5267;HK-NNO;North District;Lai Chi Wo
+0;114.1667,22.4333;HK-NTP;Tai Po;Lai Chi Shan
+0;114.1403,22.3369;HK-KSS;Sham Shui Po District;Lai Chi Kok
+0;114.3011,22.4512;HK-NTP;Tai Po;Lai Chi Chong
+0;114.1039,22.5044;HK-NNO;North District;Kwu Tung
+0;114.2164,22.3636;HK-NST;Sha Tin;Kwun Yam Shan
+0;114.1221,22.4335;HK-NYL;Yuen Long;Kwun Yam Keng
+16766;114.2218,22.3118;HK-KKT;Kwun Tong District;Kwun Tong
+0;114.2596,22.4291;HK-NTP;Tai Po;Kwun Hang
+0;113.9336,22.3001;HK-NIS;Islands;Kwo Lo Wan
+0;114.1617,22.5098;HK-NNO;North District;Kwan Tei
+0;114.1853,22.4995;HK-NNO;North District;Kwai Tau Leng
+0;114.2354,22.4249;HK-NST;Sha Tin;Kwai Po Lau
+331600;114.1388,22.3683;HK-NKT;Kwai Tsing District;Kwai Chung
+0;114.1833,22.3667;HK-NST;Sha Tin;Kung Miu
+0;114.1217,22.2807;HK-HCW;Central and Western;Kung Man Tsuen
+0;114.2372,22.5274;HK-NNO;North District;Kuk Po
+0;114.1667,22.3833;HK-NST;Sha Tin;Kuk Liu
+18849;114.1797,22.3331;HK-KKC;Kowloon City;Kowloon Tong
+418732;114.1922,22.3305;HK-KKC;Kowloon City;Kowloon City
+0;114.3303,22.4359;HK-NTP;Tai Po;Ko Tong Ha Yeung
+0;114.3268,22.4323;HK-NTP;Tai Po;Ko Tong
+0;114.1333,22.4500;HK-NTP;Tai Po;Ko Tin Hom
+0;114.2594,22.5169;HK-NNO;North District;Kop Tong
+0;114.0558,22.4415;HK-NYL;Yuen Long;Ko Po Tsuen
+0;114.1685,22.5104;HK-NNO;North District;Ko Po
+0;114.1958,22.4262;HK-NTP;Tai Po;Kon Hang
+0;114.0384,22.4319;HK-NYL;Yuen Long;Kong Tau Tsuen
+0;114.0367,22.4349;HK-NYL;Yuen Long;Kong Tau San Tsuen
+0;114.2107,22.3647;HK-NST;Sha Tin;Kong Pui Tsuen
+0;114.2241,22.5478;HK-NNO;North District;Kong Ha
+0;114.1109,22.2223;HK-NIS;Islands;Ko Long
+0;114.2894,22.3669;HK-NSK;Sai Kung District;Kiu Tsui
+0;114.0033,22.4434;HK-NYL;Yuen Long;Kiu Tau Wai
+0;114.1547,22.4797;HK-NNO;North District;Kiu Tau
+0;114.0000,22.4333;HK-NYL;Yuen Long;Kiu Sai
+0;114.1744,22.3107;HK-KKC;Kowloon City;Kings Park
+0;114.0167,22.4500;HK-NYL;Yuen Long;Kik Yeung Tsuen
+38000;114.1295,22.2828;HK-HCW;Central and Western;Kennedy Town
+0;114.2610,22.3910;HK-NSK;Sai Kung District;Keng Pang Ha
+0;114.2523,22.3704;HK-NSK;Sai Kung District;Kei Pik Shan
+0;113.9741,22.4121;HK-NYL;Yuen Long;Kei Lun Wai
+0;114.2693,22.4161;HK;;Kei Ling Ha San Wai
+0;114.2736,22.4108;HK-NTP;Tai Po;Kei Ling Ha Lo Wai
+0;114.1345,22.3461;HK-NKT;Kwai Tsing District;Kau Wa Keng San Tsuen
+14283;114.1368,22.3459;HK-NKT;Kwai Tsing District;Kau Wa Keng
+0;114.2385,22.3523;HK-NSK;Sai Kung District;Kau Tsin Uk
+0;114.2029,22.4096;HK-NST;Sha Tin;Kau To
+0;114.2476,22.5036;HK-NNO;North District;Kau Tam Tso
+0;114.1780,22.4607;HK-NTP;Tai Po;Kau Shi Wai
+0;114.0185,22.2729;HK;;Kau Shat Wan
+0;113.8604,22.2599;HK-NIS;Islands;Kau San Tei
+0;114.3207,22.3436;HK-NSK;Sai Kung District;Kau Sai
+0;114.2167,22.2833;HK-HEA;Eastern District;Kau Man
+0;114.1603,22.4776;HK-NNO;North District;Kau Lung Hang San Wai
+0;114.1616,22.4810;HK-NNO;North District;Kau Lung Hang Lo Wai
+0;114.1444,22.4598;HK-NTP;Tai Po;Kau Liu Ha
+0;114.3617,22.4596;HK-NTP;Tai Po;Kau Lau Wan
+0;114.2922,22.5463;HK-NNO;North District;Kat O Sheung Wai
+0;114.0640,22.4397;HK-NYL;Yuen Long;Kat Hing Wai
+0;114.2688,22.3859;HK-NSK;Sai Kung District;Kap Pin Long
+0;114.1513,22.5394;HK-NNO;North District;Kan Tau Wai
+0;114.1728,22.5153;HK-NNO;North District;Kan Tau Tsuen
+0;114.0756,22.4328;HK-NYL;Yuen Long;Kam Tsin Wai
+0;114.1116,22.5004;HK-NNO;North District;Kam Tsin
+21876;114.0602,22.4412;HK-NYL;Yuen Long;Kam Tin
+0;114.1500,22.4500;HK-NTP;Tai Po;Kam Shan
+0;114.0624,22.4428;HK-NYL;Yuen Long;Kam Hing Wai
+0;114.2767,22.4916;HK-NTP;Tai Po;Kam Chuk Pai
+0;114.1841,22.3664;HK-NST;Sha Tin;Kak Tin
+0;114.2642,22.3931;HK-NSK;Sai Kung District;Kak Hang Tun
+0;114.3644,22.3305;HK;;Kai Yi Wan
+0;114.1292,22.4934;HK-NNO;North District;Kai Leng
+0;114.2196,22.5243;HK-NNO;North District;Kai Kuk Shue Ha
+0;114.2369,22.3588;HK-NSK;Sai Kung District;Kai Ham
+0;114.2167,22.3333;HK-KKT;Kwun Tong District;Jordan Valley
+14459;114.1925,22.2686;HK-HWC;Wan Chai;Jardine's Lookout
+0;114.0036,22.4404;HK-NYL;Yuen Long;Hung Uk Tsuen
+0;114.0303,22.4240;HK-NYL;Yuen Long;Hung Tso Tin
+0;114.0337,22.4511;HK-NYL;Yuen Long;Hung Tin
+0;114.0000,22.2833;HK-NYL;Yuen Long;Hung Shui
+0;114.1208,22.2193;HK;;Hung Shing Ye
+0;114.1680,22.5156;HK-NNO;North District;Hung Leng
+13762;114.1853,22.3072;HK-KKC;Kowloon City;Hung Hom
+0;113.9777,22.2872;HK-NIS;Islands;Hung Fa Ngan
+0;114.2009,22.4014;HK-NST;Sha Tin;Ho Tung Lau
+0;113.9648,22.3998;HK-NTM;Tuen Mun;Ho Tin
+0;114.1089,22.5111;HK-NNO;North District;Ho Sheung Heung
+0;114.0689,22.4129;HK-NYL;Yuen Long;Ho Pui
+0;113.9905,22.4515;HK-NYL;Yuen Long;Hong Mei Tsuen
+20389;114.1552,22.4631;HK-NTP;Tai Po;Hong Lok Yuen
+7396076;114.1747,22.2783;HK;;Hong Kong
+19830;114.1818,22.3158;HK-KKC;Kowloon City;Ho Man Tin
+0;114.2167,22.2833;HK-HEA;Eastern District;Holy Cross Path Village
+0;114.2223,22.5237;HK-NNO;North District;Ho Lek Pui
+0;114.1949,22.3957;HK-NST;Sha Tin;Ho Lek Pui
+0;114.2500,22.2167;HK-HSO;Southern District;Hok Tsui Wan
+0;114.1726,22.5013;HK-NNO;North District;Hok Tau Wai
+0;114.1756,22.5070;HK-NNO;North District;Hok Tau Pai
+0;114.2064,22.5286;HK-NNO;North District;Hoi Pui Leng
+0;114.1175,22.3725;HK-NTW;Tsuen Wan;Hoi Pa
+0;114.3286,22.4603;HK-NTP;Tai Po;Hoi Ha
+0;114.2464,22.3569;HK-NSK;Sai Kung District;Ho Chung
+0;114.1729,22.3618;HK-NST;Sha Tin;Hin Tin
+0;114.2358,22.2660;HK-HEA;Eastern District;Hing Wah Tsuen
+0;114.1686,22.4498;HK-NTP;Tai Po;Hing Lung Tsuen
+0;114.1663,22.5536;HK-NNO;North District;Heung Yuen Wai
+157400;114.1529,22.2480;HK-HSO;Southern District;Aberdeen
+0;114.1674,22.3779;HK-NST;Sha Tin;Heung Fan Liu
+0;114.2536,22.3530;HK-NSK;Sai Kung District;Heung Chung
+0;114.3208,22.3879;HK-NSK;Sai Kung District;Hei Tsz Wan
+0;114.2023,22.3385;HK-KWT;Wong Tai Sin District;Ha Yuen Leng
+0;114.2866,22.3045;HK-NSK;Sai Kung District;Ha Yeung
+0;114.0342,22.4402;HK-NYL;Yuen Long;Ha Yau Tin
+0;114.1667,22.4333;HK-NTP;Tai Po;Ha Wun Yiu
+0;114.1667,22.4333;HK-NTP;Tai Po;Ha Wong Yi Au
+0;114.1987,22.5274;HK-NNO;North District;Ha Wo Hang
+0;114.0739,22.5150;HK-NYL;Yuen Long;Ha Wan Tsuen
+0;114.3604,22.4722;HK-NTP;Tai Po;Ha Wai
+0;114.1000,22.4500;HK-NYL;Yuen Long;Ha Wai
+21060;113.9916,22.4472;HK-NYL;Yuen Long;Ha Tsuen
+0;113.9151,22.1657;HK;;Ha Tsuen
+0;114.2160,22.5085;HK-NNO;North District;Ha Tsat Muk Kiu
+0;114.2040,22.4660;HK-NTP;Tai Po;Ha Tei Ha
+0;114.2192,22.5471;HK-NNO;North District;Ha Tam Shui Hang
+0;114.1549,22.5236;HK-NNO;North District;Ha Shan Kai Wat
+0;114.0500,22.4667;HK-NYL;Yuen Long;Ha San Wai
+13248;114.1862,22.2691;HK-HWC;Wan Chai;Happy Valley
+0;114.1016,22.4935;HK-NNO;North District;Hang Tau Tai Po
+0;114.1025,22.4892;HK-NNO;North District;Hang Tau
+0;114.0091,22.4457;HK-NYL;Yuen Long;Hang Tau Tsuen
+0;113.8833,22.2333;HK-NIS;Islands;Hang Pui
+0;114.0068,22.4447;HK-NYL;Yuen Long;Hang Mei Tsuen
+0;113.8705,22.2529;HK-NIS;Islands;Hang Mei
+0;113.9817,22.4644;HK-NYL;Yuen Long;Hang Hau Tsuen
+36529;114.2699,22.3181;HK-NSK;Sai Kung District;Hang Hau
+0;114.1333,22.4500;HK-NTP;Tai Po;Hang Ha Po
+0;114.1255,22.3726;HK-NTW;Tsuen Wan;Ham Tin
+0;114.3765,22.4119;HK-NSK;Sai Kung District;Ham Tin
+0;113.9816,22.2418;HK-NIS;Islands;Ham Tin
+0;114.2634,22.5024;HK-NNO;North District;Ha Miu Tin
+0;114.2228,22.5222;HK-NNO;North District;Ham Hang Mei
+0;114.0116,22.4536;HK-NYL;Yuen Long;Ha Mei San Tsuen
+0;114.1667,22.5167;HK-NNO;North District;Ha Loi Tung
+0;113.9350,22.2779;HK-NIS;Islands;Ha Ling Pei
+0;114.1332,22.3584;HK-NKT;Kwai Tsing District;Ha Kwai Chung
+0;114.1301,22.3502;HK-NKT;Kwai Tsing District;Ha Kwai Chung
+0;114.1067,22.3511;HK;;Ha Ko Tan
+0;114.0091,22.2215;HK-KSS;Sham Shui Po District;Ha Keng
+0;114.1628,22.5519;HK-NNO;North District;Ha Heung Yuen
+0;114.1851,22.4630;HK-NTP;Tai Po;Ha Hang
+0;114.0979,22.3794;HK-NTW;Tsuen Wan;Ha Fa Shan
+0;114.1000,22.3500;HK-NKT;Kwai Tsing District;Ha Chung Mei
+0;114.0500,22.4833;HK-NYL;Yuen Long;Ha Chuk Yuen
+0;114.0939,22.4494;HK-NYL;Yuen Long;Ha Che
+0;114.1180,22.3804;HK-NTW;Tsuen Wan;Fu Yung Shan
+0;114.2392,22.3738;HK-NSK;Sai Kung District;Fu Yung Pit
+0;113.9349,22.3005;HK;;Fu Tei Wan
+0;114.1619,22.5060;HK-NNO;North District;Fu Tei Pai
+0;114.1000,22.3500;HK-NKT;Kwai Tsing District;Fu Tei Kok
+0;113.9805,22.4083;HK-NYL;Yuen Long;Fu Tei San Tsuen
+0;114.2167,22.2833;HK-HEA;Eastern District;Fu Tau Wat
+0;114.3640,22.3348;HK;;Fu Tau Pun Chau
+0;114.1821,22.4664;HK-NTP;Tai Po;Fung Yuen Lo Tsuen
+0;114.1487,22.5371;HK-NNO;North District;Fung Wong Wu
+0;114.2000,22.3500;HK-KWT;Wong Tai Sin District;Fung Wong Village
+0;114.0986,22.3589;HK;;Fung Shue Wo
+0;113.9850,22.4577;HK-NYL;Yuen Long;Fung Kong Tsuen
+0;114.0135,22.4575;HK-NYL;Yuen Long;Fung Ka Wai
+0;114.0600,22.4572;HK-NYL;Yuen Long;Fung Kat Heung
+0;114.2266,22.5282;HK-NNO;North District;Fung Hang
+0;114.0209,22.4477;HK-NYL;Yuen Long;Fung Chi Heung
+0;114.1000,22.5333;HK-NNO;North District;Fuk Tak Kung
+0;113.9833,22.4667;HK-NYL;Yuen Long;Fuk Lo Tsuen
+0;114.1667,22.3833;HK-NST;Sha Tin;Fuk Lok Tsuen
+0;114.0263,22.4554;HK-NYL;Yuen Long;Fuk Hing Tsuen
+0;114.0599,22.4718;HK-NYL;Yuen Long;Fuk Hing Lei
+0;114.2645,22.3853;HK-NSK;Sai Kung District;Fui Yiu Ha
+0;114.1833,22.3833;HK-NST;Sha Tin;Fui Yiu Ha
+0;113.9402,22.2776;HK-NIS;Islands;Fui Yiu Ha
+0;114.1333,22.3500;HK-NKT;Kwai Tsing District;Fui Yiu
+0;114.0066,22.4378;HK-NYL;Yuen Long;Fui Sha Wai
+22127;114.1929,22.3985;HK-NST;Sha Tin;Fo Tan
+0;113.9332,22.2704;HK-NIS;Islands;Fong Yuen
+0;113.9747,22.3903;HK-NTM;Tuen Mun;Fong Pin Sho
+0;114.1333,22.4500;HK-NTP;Tai Po;Fong Ma Po
+0;114.2167,22.2833;HK-HEA;Eastern District;Fa Yuen
+0;114.2220,22.3819;HK-NST;Sha Tin;Fa Sam Hang
+0;114.0370,22.2053;HK;;Fa Peng
+0;114.0556,22.3295;HK;;Fa Peng
+0;114.0749,22.4992;HK-NYL;Yuen Long;Fan Tin Tsuen
+0;114.2478,22.5221;HK-NNO;North District;Fan Shui Au
+263200;114.1395,22.4949;HK-NNO;North District;Fanling
+0;114.1333,22.5000;HK-NNO;North District;Fan Leng Tai Wai
+0;114.1333,22.5000;HK-NNO;North District;Fan Leng Pak Wai
+0;114.1333,22.5000;HK-NNO;North District;Fan Leng Nam Wai
+0;114.1400,22.4971;HK-NNO;North District;Fan Leng Lau
+0;113.8617,22.2453;HK-NIS;Islands;Fan Kwai Tong
+0;114.2333,22.2667;HK-HEA;Eastern District;Epworth Village
+19336;114.0167,22.3000;HK-NIS;Islands;Discovery Bay
+0;114.1000,22.5000;HK-NNO;North District;Dills Corner
+0;114.3612,22.4707;HK-NTP;Tai Po;Chung Wai
+0;114.1333,22.4500;HK-NTP;Tai Po;Chung Uk Tsuen
+0;113.9219,22.2896;HK-NIS;Islands;Chung Uk Tsuen
+0;113.8667,22.2500;HK-NIS;Islands;Chung Uk
+0;114.0261,22.4539;HK-NYL;Yuen Long;Chung Sam Wai
+0;114.2333,22.4833;HK-NTP;Tai Po;Chung Pui
+0;114.3599,22.4742;HK-NTP;Tai Po;Chung Mei Kok
+0;114.2436,22.4990;HK-NNO;North District;Chung Mei
+0;113.9960,22.2684;HK-NIS;Islands;Chung Hau
+0;113.9957,22.2386;HK-NIS;Islands;Chung Hau
+0;114.1065,22.3359;HK-NKT;Kwai Tsing District;Chun Fa Lok
+28645;114.1933,22.3454;HK-KWT;Wong Tai Sin District;Chuk Yuen
+0;114.1510,22.5495;HK;;Chuk Yuen
+0;114.2367,22.3546;HK-NSK;Sai Kung District;Chuk Yuen
+0;114.2604,22.3469;HK-NSK;Sai Kung District;Chuk Kok
+0;114.1620,22.4588;HK-NTP;Tai Po;Chuk Hang
+0;114.0985,22.4489;HK-NYL;Yuen Long;Chuk Hang
+0;114.1094,22.3940;HK-NTW;Tsuen Wan;Chuen Lung
+14773;114.2064,22.3355;HK-KWT;Wong Tai Sin District;Choi Hung
+0;114.0381,22.2074;HK;;Chi Ma Hang
+0;114.3000,22.5000;HK-NNO;North District;Cheung Wo
+0;114.3743,22.4180;HK-NSK;Sai Kung District;Cheung Uk Wai
+0;114.1807,22.4793;HK-NTP;Tai Po;Cheung Uk
+0;113.8810,22.2440;HK-NIS;Islands;Cheung Ting
+0;114.0240,22.3347;HK;;Cheung Sok
+0;114.0949,22.3604;HK;;Cheung Shue Tau
+0;114.2001,22.4267;HK-NTP;Tai Po;Cheung Shue Tan
+0;114.3097,22.4296;HK-NTP;Tai Po;Cheung Sheung
+0;114.2500,22.1667;HK-NSK;Sai Kung District;Cheung Shek Pai
+14966;114.1558,22.3345;HK-KSS;Sham Shui Po District;Cheung Sha Wan
+0;114.0179,22.2898;HK;;Cheung Sha Lan
+0;113.9534,22.2357;HK-NIS;Islands;Cheung Sha
+0;114.0731,22.4166;HK-NYL;Yuen Long;Cheung Po
+0;114.1333,22.3833;HK-NTW;Tsuen Wan;Cheung Pei Shan
+0;114.2494,22.4284;HK-NST;Sha Tin;Cheung Muk Tau
+0;114.1875,22.4100;HK-NST;Sha Tin;Cheung Lek Mei
+0;114.0998,22.4838;HK-NNO;North District;Cheung Lek
+0;114.0733,22.4439;HK-NYL;Yuen Long;Cheung Kong
+0;114.2368,22.4290;HK-NST;Sha Tin;Cheung Kang
+19769;114.0279,22.2109;HK-NIS;Islands;Cheung Chau
+0;114.2017,22.4192;HK-NST;Sha Tin;Chek Nai Ping
+0;114.2888,22.5523;HK-NNO;North District;Chek Kok Tau
+0;114.3492,22.4214;HK-NSK;Sai Kung District;Chek Keng
+0;114.2664,22.3718;HK-NSK;Sai Kung District;Che Keng Tuk
+20683;114.2124,22.2185;HK-HSO;Southern District;Chek Chue
+14753;114.2626,22.4302;HK-NTP;Tai Po;Che Ha
+0;114.0825,22.5066;HK-NYL;Yuen Long;Chau Tau
+0;114.2072,22.3788;HK-NST;Sha Tin;Chap Wai Kon
+0;113.9304,22.2697;HK-NIS;Islands;Chap Mun Tau
+0;114.1079,22.4794;HK-NNO;North District;Chan Uk Po
+0;114.2288,22.3012;HK-KKT;Kwun Tong District;Cha Kwo Ling
+0;114.1041,22.3756;HK-NTW;Tsuen Wan;Chai Wan Kok
+0;114.2405,22.2672;HK-HEA;Eastern District;Chai Wan
+0;114.1285,22.4409;HK-NYL;Yuen Long;Chai Kek
+0;113.9667,22.4000;HK-NTM;Tuen Mun;Castle Peak New Town
+0;113.9981,22.3653;HK-NTM;Tuen Mun;Siu Lam San Tsuen
+0;114.1882,22.2760;HK-HEA;Eastern District;Caroline Hill
+0;114.0453,22.4449;HK-NYL;Yuen Long;Au Tau
+0;114.2439,22.3293;HK-NSK;Sai Kung District;Au Tau
+0;114.1667,22.4000;HK-NTW;Tsuen Wan;Au Pui Wan
+0;114.2928,22.5447;HK-NNO;North District;Au Pui Tong
+0;114.1956,22.5278;HK-NNO;North District;Au Ha
+0;114.2000,22.4732;HK-NTP;Tai Po;A Shan Tseng Tau
+0;114.1977,22.4732;HK-NTP;Tai Po;A Shan
+0;114.2614,22.3236;HK-NSK;Sai Kung District;Ap Tsai Wan
+0;113.9844,22.2806;HK-NIS;Islands;A Po Long
+0;114.2447,22.5182;HK-NNO;North District;A Ma Wat
+0;114.1012,22.4551;HK-NYL;Yuen Long;A Kung Tin
+0;114.2334,22.2815;HK-HEA;Eastern District;A Kung Ngam
+0;114.0333,22.3572;HK-NTW;Tsuen Wan;Ka Loon Tsuen
+0;114.0384,22.2870;HK-NIS;Islands;Shan Ting Tsuen
+956800;114.1442,22.2875;HK-HCW;Central and Western;Victoria
+0;114.1713,22.4587;HK-NTP;Tai Po;Fu Heng Estate
+13614;114.1697,22.4557;HK-NTP;Tai Po;Tai Yuen Estate
+0;113.9219,22.2901;HK-NTP;Tai Po;Tai Po
+0;113.9451,22.4279;HK-NYL;Yuen Long;Ha Pak Nai
+15464;114.1942,22.2886;HK-HEA;Eastern District;Fortress Hill
+0;114.2183,22.2836;HK-HEA;Eastern District;Island East
+11077;114.1585,22.2830;HK-HCW;Central and Western;Central
+41537;114.1700,22.3054;HK-KYT;Yau Tsim Mong District;Jordan
+13200;114.2078,22.3266;HK-KKT;Kwun Tong District;Kowloon Bay
+0;114.1788,22.3001;HK-KKC;Kowloon City;Tsimshatsui East
+0;114.0203,22.2006;HK-NIS;Islands;Care Village
+0;114.1834,22.2502;HK-HSO;Southern District;Deep Water Bay
+16316;114.1700,22.2398;HK-HSO;Southern District;Wong Chuk Hang
+0;114.2085,22.3952;HK-NST;Sha Tin;Pictorial Garden II
+0;114.1757,22.3704;HK-NST;Sha Tin;Festival City
+0;114.2251,22.4228;HK;;Kam Fung Court
+35373;114.2163,22.2841;HK-HEA;Eastern District;Tai Koo
+0;114.1337,22.2526;HK-HSO;Southern District;Waterfall Bay
+0;114.1388,22.2504;HK-HSO;Southern District;Kellet Bay
+0;113.9896,22.2154;HK-NIS;Islands;Sea Ranch
+114100;113.9424,22.2878;HK-NIS;Islands;Tung Chung
+0;114.3363,22.4459;HK-NTP;Tai Po;Tai Long
+0;114.4358,22.5413;HK;;Sha Tau
+0;114.1874,22.4382;HK-NTP;Tai Po;Tai Po Kau Tsuen
+0;114.2023,22.4340;HK-NTP;Tai Po;Providence Bay
+0;114.2083,22.4299;HK-NTP;Tai Po;Science Park
+0;114.2061,22.4593;HK-NTP;Tai Po;The Beverly Hills
+0;114.2139,22.4563;HK-NTP;Tai Po;Sam Mun Tsai San Tsuen
+0;114.2459,22.2098;HK-HSO;Southern District;Hok-Tsui Tsuen
+19078;114.1915,22.3247;HK-KKC;Kowloon City;Sung Wong Toi
+18956;114.1568,22.3413;HK-KSS;Sham Shui Po District;So Uk
+15407;114.2027,22.3868;HK-NST;Sha Tin;City One
+45990;114.1386,22.3372;HK-KSS;Sham Shui Po District;Mei Foo
+17422;114.1756,22.3225;HK-KKC;Kowloon City;Kadoorie
+42552;114.1974,22.3242;HK-KKC;Kowloon City;Kai Tak
+19202;114.1565,22.2620;HK-HCW;Central and Western;The Peak
+26350;114.1576,22.2405;HK-HSO;Southern District;Lei Tung
+11851;113.9882,22.4316;HK-NYL;Yuen Long;Hung Shui Kiu
+15817;114.1958,22.3756;HK-NST;Sha Tin;Pok Hong
+19719;114.1978,22.3716;HK-NST;Sha Tin;Shui Chuen O
+15481;114.1794,22.3236;HK-KKC;Kowloon City;Prince Edward
+14154;114.1192,22.3737;HK-NTW;Tsuen Wan;Luk Yeung
+13490;114.1135,22.3741;HK-NTW;Tsuen Wan;Fuk Loi
+17325;114.1114,22.3762;HK-NTW;Tsuen Wan;Discovery Park
+74780;114.1539,22.3280;HK-KSS;Sham Shui Po District;Nam Cheong
+19373;114.1574,22.3194;HK-KYT;Yau Tsim Mong District;Olympic
+39134;114.1902,22.3050;HK-KKC;Kowloon City;Whampoa
+22718;114.2286,22.3055;HK-KKT;Kwun Tong District;Laguna City
+38405;114.2137,22.3339;HK-KWT;Wong Tai Sin District;Choi Wan
+16628;114.1870,22.3706;HK-NST;Sha Tin;Sun Tin Wai
+40357;114.0923,22.4461;HK-NYL;Yuen Long;Pat Heung
+15488;113.9625,22.3759;HK-NTM;Tuen Mun;Butterfly
+13070;113.9654,22.3761;HK-NTM;Tuen Mun;Wu King
+12206;113.9671,22.3736;HK-NTM;Tuen Mun;Siu Hei
+12513;113.9681,22.3753;HK-NTM;Tuen Mun;Yuet Wu
+20268;114.0477,22.4674;HK-NYL;Yuen Long;Fairview Park
+14170;114.1873,22.3373;HK-KWT;Wong Tai Sin District;Lok Fu
+77775;114.0358,22.4248;HK-NYL;Yuen Long;Shap Pat Heung
+11960;114.1505,22.2447;HK-HSO;Southern District;Ap Lei Chau Estate
+29391;114.1483,22.2438;HK-HSO;Southern District;South Horizons
+50000;114.2725,22.2932;HK-NSK;Sai Kung District;LOHAS Park
+12348;114.2183,22.2664;HK-HEA;Eastern District;Mount Parker
+16171;114.2003,22.2828;HK-HEA;Eastern District;Braemar Hill
+18091;114.1882,22.3103;HK-KKC;Kowloon City;Hok Yuen
+18091;114.1907,22.3072;HK-KKC;Kowloon City;Laguna Verde
+11716;114.2136,22.3801;HK-NST;Sha Tin;Kwong Yuen
+14944;114.2053,22.3806;HK-NST;Sha Tin;Yu Chui
+23511;114.2421,22.4302;HK-NST;Sha Tin;Wu Kai Sha
+15621;114.2413,22.4263;HK-NST;Sha Tin;Lee On
+16691;114.2366,22.4229;HK-NST;Sha Tin;Kam Ying
+16423;113.9787,22.3813;HK-NTM;Tuen Mun;Sam Shing
+13309;114.1401,22.2510;HK-HSO;Southern District;Wah Kwai
+17925;114.2247,22.2820;HK-HEA;Eastern District;Aldrich Bay
+13083;114.2157,22.2821;HK-HEA;Eastern District;Kornhill
+15212;114.1926,22.2900;HK-HEA;Eastern District;City Garden
+13521;114.1905,22.2846;HK-HEA;Eastern District;Victoria Park
+13521;114.1924,22.2809;HK-HEA;Eastern District;Tin Hau
+18707;114.1747,22.3651;HK-NST;Sha Tin;Keng Hau
+9424;114.1914,22.3761;HK-NST;Sha Tin;Jat Min Chuen
+5005;114.1749,22.3333;HK-KSS;Sham Shui Po District;Parc Oasis
+5035;114.1616,22.3216;HK-KYT;Yau Tsim Mong District;Cosmopolitan Estate
+7263;114.1707,22.3321;HK-KSS;Sham Shui Po District;Tai Hang Estate (East & West)
+18670;114.1562,22.3363;HK-KSS;Sham Shui Po District;Un Chau Estate
+16843;114.1667,22.3371;HK-KSS;Sham Shui Po District;Pak Tin Estate
+25561;114.1653,22.3341;HK-KSS;Sham Shui Po District;Shek Kip Mei Estate
+5604;114.1499,22.3345;HK-KSS;Sham Shui Po District;The Pacifica
+11259;114.1592,22.3394;HK-KSS;Sham Shui Po District;Lei Cheng Uk Estate
+4587;114.1537,22.3356;HK-KSS;Sham Shui Po District;Fortune Estate
+6009;114.1489,22.3346;HK-KSS;Sham Shui Po District;Liberte
+6515;114.1480,22.3346;HK-KSS;Sham Shui Po District;Banyan Garden
+3209;114.1562,22.3345;HK-KSS;Sham Shui Po District;Cheung Sha Wan Estate
+6208;114.1718,22.3348;HK-KSS;Sham Shui Po District;Nam Shan Estate
+4684;114.1574,22.3259;HK-KSS;Sham Shui Po District;Nam Cheong Estate
+37299;114.1402,22.3364;HK-KSS;Sham Shui Po District;Mei Foo Sun Chuen
+3444;114.1483,22.3285;HK-KSS;Sham Shui Po District;Hoi Ying Estate
+3415;114.1495,22.3302;HK-KSS;Sham Shui Po District;Hoi Tat Estate
+16071;114.1467,22.3318;HK-KSS;Sham Shui Po District;Hoi Lai Estate
+3140;114.1423,22.3346;HK-KSS;Sham Shui Po District;Manhattan Hill
+7247;114.1491,22.3278;HK-KSS;Sham Shui Po District;Hoi Lok Court
+15655;114.1540,22.3289;HK-KSS;Sham Shui Po District;Fu Cheong Estate
+5276;114.1541,22.3270;HK-KSS;Sham Shui Po District;Cullinan West
+3620;114.1555,22.3293;HK-KSS;Sham Shui Po District;Wing Cheong Estate
+4367;114.1487,22.3326;HK-KSS;Sham Shui Po District;Aqua Marine
+3913;114.1645,22.3403;HK-KSS;Sham Shui Po District;Chak On Estate
+3534;114.1586,22.3314;HK-KSS;Sham Shui Po District;Lai On Estate
+10438;114.1551,22.3338;HK-KSS;Sham Shui Po District;Lai Tsui Court
+6200;114.1569,22.3323;HK-KSS;Sham Shui Po District;Lai Kok Estate
+18748;114.1565,22.3415;HK-KSS;Sham Shui Po District;So Uk Estate
+2474;114.1263,22.2833;HK-HCW;Central and Western;The Merton
+2573;114.1472,22.2870;HK-HCW;Central and Western;Queen's Terrace
+7265;114.1333,22.2848;HK-HCW;Central and Western;The Belcher's
+6156;114.1276,22.2804;HK-HCW;Central and Western;Kwun Lung Lau
+6211;114.1947,22.2779;HK-HEA;Eastern District;Lai Tak Tsuen
+18803;114.2488,22.2615;HK-HEA;Eastern District;Siu Sai Wan Estate
+34799;114.2187,22.2861;HK-HEA;Eastern District;Taikoo Shing
+4561;114.2221,22.2827;HK-HEA;Eastern District;Tai On Lau
+3950;114.2045,22.2896;HK-HEA;Eastern District;Bedford Garden
+17963;114.2408,22.2767;HK-HEA;Eastern District;Heng Fa Chuen
+3379;114.2511,22.2616;HK-HEA;Eastern District;Kai Tsui Court
+4873;114.1957,22.2921;HK-HEA;Eastern District;Provident Centre
+5299;114.2311,22.2778;HK-HEA;Eastern District;Ming Wah Dai Ha
+5052;114.2268,22.2824;HK-HEA;Eastern District;Tung Yuk Court
+6262;114.2189,22.2803;HK-HEA;Eastern District;Tung Hei Court
+3506;114.2255,22.2818;HK-HEA;Eastern District;Tung Tao Court
+3242;114.2221,22.2777;HK-HEA;Eastern District;Tung Chun Court
+6877;114.2147,22.2825;HK-HEA;Eastern District;Nam Fung Sun Chuen
+3303;114.2314,22.2608;HK-HEA;Eastern District;Fung Wah Estate
+3578;114.2423,22.2643;HK-HEA;Eastern District;Chai Wan Estate
+2532;114.2039,22.2915;HK-HEA;Eastern District;Healthy Gardens
+5278;114.2062,22.2912;HK-HEA;Eastern District;Healthy Village
+5619;114.2160,22.2853;HK-HEA;Eastern District;Kornhill Garden
+6061;114.2349,22.2672;HK-HEA;Eastern District;Greenwood Terrace
+5367;114.2506,22.2630;HK-HEA;Eastern District;Cheerful Garden
+6697;114.2487,22.2657;HK-HEA;Eastern District;Harmony Garden
+9175;114.2519,22.2625;HK-HEA;Eastern District;Fullview Garden
+3860;114.1941,22.2874;HK-HEA;Eastern District;Fortress Garden
+9128;114.2279,22.2817;HK-HEA;Eastern District;Oi Tung Estate
+8644;114.2286,22.2808;HK-HEA;Eastern District;Aldrich Garden
+2980;114.1994,22.2906;HK-HEA;Eastern District;Metropole Building
+4440;114.2369,22.2638;HK-HEA;Eastern District;New Jade Garden
+4801;114.2250,22.2850;HK-HEA;Eastern District;Grand Promenade
+7998;114.2413,22.2659;HK-HEA;Eastern District;Yue Wan Estate
+6288;114.2403,22.2682;HK-HEA;Eastern District;Tsui Wan Estate
+4425;114.2412,22.2642;HK-HEA;Eastern District;Lok Hin Terrace
+5990;114.2327,22.2668;HK-HEA;Eastern District;Hing Man Estate
+6076;114.2194,22.2815;HK-HEA;Eastern District;Hing Tung Estate
+14339;114.2351,22.2631;HK-HEA;Eastern District;Hing Wah Estate (I & II)
+9532;114.2374,22.2612;HK-HEA;Eastern District;Wan Tsui Estate
+3045;114.2011,22.2854;HK-HEA;Eastern District;Braemar Hill Mansions
+9025;114.2508,22.2666;HK-HEA;Eastern District;Island Resort
+6389;114.2233,22.2839;HK-HEA;Eastern District;Lei King Wan
+15061;114.2230,22.2785;HK-HEA;Eastern District;Yiu Tung Estate
+8491;114.1487,22.2507;HK-HSO;Southern District;Tin Wan Estate
+18575;114.1552,22.2412;HK-HSO;Southern District;Lei Tung Estate
+8795;114.1329,22.2547;HK-HSO;Southern District;Residence Bel-air
+2939;114.1662,22.2446;HK-HSO;Southern District;South Wave Court
+8353;114.1541,22.2484;HK-HSO;Southern District;Aberdeen Centre
+29180;114.1462,22.2441;HK-HSO;Southern District;South Horizons (Estate)
+9321;114.1396,22.2504;HK-HSO;Southern District;Wah Kwai Estate
+4087;114.1657,22.2427;HK-HSO;Southern District;Broadview Court
+9813;114.1393,22.2558;HK-HSO;Southern District;Chi Fu Fa Yuen
+3906;114.1387,22.2495;HK-HSO;Southern District;Ka Lung Court
+5175;114.1575,22.2430;HK-HSO;Southern District;Yue On Court
+3025;114.1568,22.2498;HK-HSO;Southern District;Yue Fai Court
+5339;114.1336,22.2623;HK-HSO;Southern District;Baguio Villa
+3005;114.1375,22.2578;HK-HSO;Southern District;Pokfulam Gardens
+3329;114.1593,22.3213;HK-KYT;Yau Tsim Mong District;Harbour Green
+3873;114.1618,22.3172;HK-KYT;Yau Tsim Mong District;The Central Park
+4651;114.1629,22.3163;HK-KYT;Yau Tsim Mong District;Park Avenue
+4472;114.1558,22.3193;HK-KYT;Yau Tsim Mong District;The Long Beach
+9540;114.1647,22.3163;HK-KYT;Yau Tsim Mong District;Hoi Fu Court
+11335;114.1647,22.3138;HK-KYT;Yau Tsim Mong District;Charming Garden
+7887;114.1603,22.3245;HK-KYT;Yau Tsim Mong District;Metro Harbour
+4002;114.1630,22.3046;HK-KYT;Yau Tsim Mong District;The Waterfront
+6236;114.1574,22.3184;HK-KYT;Yau Tsim Mong District;Island Harbourview
+5802;114.1623,22.3064;HK-KYT;Yau Tsim Mong District;Sorrento
+4090;114.1683,22.3101;HK-KYT;Yau Tsim Mong District;Prosperous Garden
+3265;114.1856,22.3192;HK-KKC;Kowloon City;Celestial Heights
+4396;114.1845,22.3047;HK-KKC;Kowloon City;Royal Peninsula
+2781;114.1913,22.3165;HK-KKC;Kowloon City;On Wo Yuen
+12329;114.1825,22.3149;HK-KKC;Kowloon City;Ho Man Tin Estate
+4929;114.1793,22.3154;HK-KKC;Kowloon City;Chun Man Court
+6744;114.1893,22.3080;HK-KKC;Kowloon City;Hung Hom Estate
+3421;114.1905,22.3161;HK-KKC;Kowloon City;Mei King Mansion
+6634;114.1865,22.3079;HK-KKC;Kowloon City;Ka Wai Chuen
+12664;114.1929,22.3077;HK-KKC;Kowloon City;Laguna Verde (Estate)
+6704;114.1862,22.3032;HK-KKC;Kowloon City;Harbour Place
+4942;114.1868,22.3238;HK-KKC;Kowloon City;Ma Tau Wai Estate
+6746;114.1920,22.3181;HK-KKC;Kowloon City;Chong Chien Court - Wyler Gardens
+11876;114.2030,22.3329;HK-KKC;Kowloon City;Kai Ching Estate
+2777;114.2005,22.3297;HK-KKC;Kowloon City;One Kai Tak
+3189;114.1819,22.3193;HK-KKC;Kowloon City;Mantin Heights
+4400;114.1937,22.3192;HK-KKC;Kowloon City;Grand Waterfront
+30038;114.1894,22.3053;HK-KKC;Kowloon City;Whampoa Garden
+6647;114.1882,22.3062;HK-KKC;Kowloon City;Whampoa Estate
+5678;114.1898,22.3235;HK-KKC;Kowloon City;Sky Tower
+17407;114.1785,22.3120;HK-KKC;Kowloon City;Oi Man Estate
+18720;114.2034,22.3302;HK-KKC;Kowloon City;Tak Long Estate
+8696;114.1862,22.3163;HK-KKC;Kowloon City;Lok Man Sun Chuen
+6034;114.1869,22.3432;HK-KWT;Wong Tai Sin District;Tin Ma Court
+16989;114.1920,22.3459;HK-KWT;Wong Tai Sin District;Chuk Yuen North Estate
+14147;114.1928,22.3446;HK-KWT;Wong Tai Sin District;Chuk Yuen South Estate
+6615;114.2078,22.3413;HK-KWT;Wong Tai Sin District;Grand View Garden
+3063;114.1951,22.3498;HK-KWT;Wong Tai Sin District;Sha Tin Pass Estate
+5280;114.1939,22.3323;HK-KWT;Wong Tai Sin District;Tung Wui Estate
+15440;114.1928,22.3321;HK-KWT;Wong Tai Sin District;Tung Tau Estate
+8980;114.2027,22.3362;HK-KWT;Wong Tai Sin District;Rhythm Garden
+5964;114.2022,22.3412;HK-KWT;Wong Tai Sin District;Galaxia
+4411;114.1899,22.3331;HK-KWT;Wong Tai Sin District;Mei Tung Estate
+17817;114.2058,22.3364;HK-KWT;Wong Tai Sin District;Choi Hung Estate
+25241;114.2133,22.3334;HK-KWT;Wong Tai Sin District;Choi Wan Estate (I & II)
+3923;114.2181,22.3354;HK-KWT;Wong Tai Sin District;Choi Fai Estate
+3928;114.1946,22.3378;HK-KWT;Wong Tai Sin District;Kai Tak Garden
+5572;114.2087,22.3428;HK-KWT;Wong Tai Sin District;Fu Shan Estate
+3557;114.1845,22.3403;HK-KWT;Wong Tai Sin District;Fu Keung Court
+12176;114.1919,22.3433;HK-KWT;Wong Tai Sin District;Upper Wong Tai Sin Estate
+29542;114.1944,22.3392;HK-KWT;Wong Tai Sin District;Lower Wong Tai Sin Estate (I & II)
+5698;114.2113,22.3403;HK-KWT;Wong Tai Sin District;Kingsford Terrace
+21845;114.2006,22.3510;HK-KWT;Wong Tai Sin District;Tsz Ching Estate
+5936;114.2029,22.3482;HK-KWT;Wong Tai Sin District;Tsz Man Estate
+7079;114.2027,22.3475;HK-KWT;Wong Tai Sin District;Tsz Hong Estate
+10071;114.1877,22.3464;HK-KWT;Wong Tai Sin District;Tsui Chuk Garden
+12066;114.2009,22.3443;HK-KWT;Wong Tai Sin District;Fung Tak Estate
+9944;114.1867,22.3372;HK-KWT;Wong Tai Sin District;Lok Fu Estate
+16794;114.1867,22.3401;HK-KWT;Wong Tai Sin District;Wang Tau Hom Estate
+6550;114.1999,22.3424;HK-KWT;Wong Tai Sin District;Lung Poon Court
+3999;114.2102,22.3420;HK-KWT;Wong Tai Sin District;King Shan Court
+3264;114.1966,22.3334;HK-KWT;Wong Tai Sin District;The Latitude
+0;114.1409,22.3503;HK-NKT;Kwai Tsing District;Tai Wo

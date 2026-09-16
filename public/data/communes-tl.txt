@@ -1,0 +1,3298 @@
+6078;126.3647,-8.8575;TL-VI;Viqueque;Viqueque
+0;126.2106,-8.5106;TL-BA;Baucau;Vemasse
+0;124.3333,-9.2833;TL-OE;Oecusse;Valverde
+0;126.9333,-8.5000;TL-LA;Lautém;Unafo
+0;126.5781,-8.7628;TL-VI;Viqueque;Uatolari
+0;126.6839,-8.7567;TL-VI;Viqueque;Uatocarabau
+0;125.7167,-8.9500;TL-MF;Manufahi;Tutu Luro
+0;125.7075,-8.8228;TL-MF;Manufahi;Turiscai
+0;124.2905,-9.2223;TL-OE;Oecusse;Tulaika
+0;125.5833,-8.2167;TL;;Toro
+7885;125.1128,-9.3400;TL-CO;Cova Lima;Tilomar
+0;125.4897,-8.5694;TL-LI;Liquiçá;Tibar
+21539;125.2565,-9.3129;TL-CO;Cova Lima;Suai
+0;125.5333,-8.7333;TL-AL;Aileu;Soloi
+0;125.9369,-8.8606;TL-MT;Manatuto;Soibada
+0;126.9833,-8.6500;TL-LA;Lautém;Silvícola
+7500;125.6486,-9.0042;TL-MF;Manufahi;Same
+0;125.6664,-8.6156;TL-AL;Aileu;Remexio
+0;125.4613,-9.2112;TL-CO;Cova Lima;Raimea
+0;125.4258,-8.6719;TL-ER;Ermera;Railaco
+0;125.9500,-8.8167;TL-MT;Manatuto;Pualaca
+0;124.3433,-9.4642;TL-OE;Oecusse;Pássabe
+4730;124.3833,-9.2000;TL-OE;Oecusse;Pante Makasar
+0;126.3000,-8.6167;TL-BA;Baucau;Ossuala
+0;126.3731,-8.7378;TL-VI;Viqueque;Ossu
+0;124.3500,-9.3667;TL-OE;Oecusse;Oesilo
+0;125.1056,-8.9578;TL-BO;Bobonaro;Nunura
+0;126.7500,-8.4333;TL-LA;Lautém;Nova Âncora
+0;124.2306,-9.3453;TL-OE;Oecusse;Nitibe
+0;127.0667,-8.5333;TL-LA;Lautém;Mua Pitine
+0;124.9544,-8.9569;TL-BO;Bobonaro;Motaain
+0;125.1500,-8.6333;TL-LI;Liquiçá;Morai
+0;125.7044,-8.8939;TL-MF;Manufahi;Maubisse
+4000;125.7416,-8.5301;TL-DI;Dili Municipality;Metinaro
+0;125.1866,-9.0206;TL-BO;Bobonaro;Memo
+9274;125.6014,-8.2667;TL-DI;Dili Municipality;Atauro
+0;125.2333,-9.2167;TL-CO;Cova Lima;Maucátar
+0;125.5972,-8.8381;TL-AN;Ainaro;Maubisse
+16300;125.2061,-8.6119;TL-LI;Liquiçá;Maubara
+0;125.3500,-8.9667;TL-ER;Ermera;Marobo
+0;125.4167,-9.0667;TL-CO;Cova Lima;Mape
+1924;126.0131,-8.5114;TL-MT;Manatuto;Manatutu
+22000;125.2197,-8.9917;TL-BO;Bobonaro;Maliana
+0;125.5583,-8.2967;TL-DI;Dili Municipality;Berau
+0;126.8339,-8.5103;TL-LA;Lautém;Luro
+0;127.0167,-8.4667;TL-LA;Lautém;Los Palos
+0;127.0200,-8.6431;TL-LA;Lautém;Lore
+0;125.3000,-9.1667;TL-BO;Bobonaro;Lolo-Toi
+0;127.1500,-8.3667;TL-LA;Lautém;Loiquero
+19000;125.3419,-8.5875;TL-LI;Liquiçá;Likisá
+1938;124.3088,-9.2028;TL-OE;Oecusse;Lifau
+0;125.4264,-8.8344;TL-ER;Ermera;Letefoho
+0;125.2079,-9.1372;TL-BO;Bobonaro;Lebos
+3157;126.9044,-8.3642;TL-LA;Lautém;Lautem
+0;125.5939,-8.6031;TL-AL;Aileu;Laulara
+0;126.1642,-8.5375;TL-MT;Manatuto;Lifau
+0;125.5833,-8.5833;TL-DI;Dili Municipality;Lahane
+0;126.5987,-8.4727;TL-BA;Baucau;Laga
+0;126.1333,-8.8000;TL-VI;Viqueque;Lacluta
+0;125.9111,-8.7464;TL-MT;Manatuto;Laclubar
+0;125.9094,-8.5550;TL-MT;Manatuto;Laclo
+0;124.0919,-9.3291;TL-OE;Oecusse;Citrana
+0;126.0167,-9.0667;TL-MF;Manufahi;Kicras
+0;126.2500,-8.9333;TL-VI;Viqueque;Kibular
+0;126.8283,-8.7092;TL-LA;Lautém;Iliomar
+10299;125.5918,-9.1195;TL-AN;Ainaro;Hatoudo
+0;125.6860,-8.5385;TL-DI;Dili Municipality;Hera
+0;125.8801,-8.4776;TL-MT;Manatuto;Behau
+0;125.3183,-8.8114;TL-ER;Ermera;Hatolia
+0;127.0167,-8.4167;TL-LA;Lautém;Fuiloro
+0;125.0358,-9.2292;TL-CO;Cova Lima;Fatumean
+0;125.7833,-8.7667;TL-MF;Manufahi;Fatu-Maquerec
+0;125.7333,-9.0333;TL-MF;Manufahi;Fatu Cuac
+0;125.3261,-8.7483;TL-ER;Ermera;Fatubessi
+0;125.8703,-8.9483;TL-MF;Manufahi;Fatuberliu
+0;125.3969,-8.7522;TL-ER;Ermera;Ulmera
+150000;125.5736,-8.5586;TL-DI;Dili Municipality;Dili
+0;125.0667,-9.3000;TL-CO;Cova Lima;Dacolo
+0;126.0167,-8.6889;TL-MT;Manatuto;Cribas
+0;125.7833,-8.6833;TL-AL;Aileu;Caimauc Quic
+0;125.2833,-8.9000;TL-BO;Bobonaro;Cailaco
+0;125.3172,-8.6833;TL-LI;Liquiçá;Boibau
+0;125.6000,-8.5667;TL-DI;Dili Municipality;Bidau
+0;125.7235,-9.1659;TL-MF;Manufahi;Betano
+0;126.6017,-8.5517;TL-BA;Baucau;Barolai
+0;125.3937,-9.2103;TL-CO;Cova Lima;Beco
+0;126.4494,-8.9442;TL-VI;Viqueque;Beaco
+0;125.3831,-8.6261;TL-LI;Liquiçá;Bazartete
+16000;126.4563,-8.4757;TL-BA;Baucau;Baukau
+0;124.9725,-8.9472;TL-BO;Bobonaro;Batugade
+0;125.3608,-8.9494;TL-ER;Ermera;Batuu
+5438;126.0667,-8.8333;TL-MT;Manatuto;Barique
+0;125.0406,-8.9689;TL-BO;Bobonaro;Balibo
+0;126.6614,-8.6278;TL-BA;Baucau;Baguia
+0;125.3667,-9.0333;TL-BO;Bobonaro;Aubá
+16304;125.3981,-8.9250;TL-ER;Ermera;Atsabe
+0;125.1711,-8.7992;TL-BO;Bobonaro;Poetete
+0;125.5167,-9.1333;TL-AN;Ainaro;Arcos
+0;126.5828,-8.8033;TL-VI;Viqueque;Aliambata
+0;125.7857,-9.0207;TL-MF;Manufahi;Alas
+12000;125.5082,-8.9924;TL-AN;Ainaro;Ainaro
+17356;125.5664,-8.7281;TL-AL;Aileu;Aileu
+0;127.2458,-8.4708;TL-LA;Lautém;Beru
+0;127.1458,-8.4236;TL-LA;Lautém;Purus
+0;125.7053,-9.1464;TL-MF;Manufahi;Raifusa
+0;125.6972,-9.1413;TL-MF;Manufahi;Leoai
+0;125.6769,-9.1467;TL-MF;Manufahi;Leoai
+0;125.6633,-9.1716;TL-AN;Ainaro;Gulala
+0;125.6572,-9.1457;TL-AN;Ainaro;Fatukabelak
+0;125.6624,-9.1412;TL-AN;Ainaro;Barialaran
+0;125.6592,-9.1274;TL-AN;Ainaro;Lale
+0;125.5861,-9.1375;TL-AN;Ainaro;Hutseo
+0;125.5708,-9.1350;TL-AN;Ainaro;lese
+0;125.5797,-9.1533;TL-AN;Ainaro;Hutseo
+0;125.5164,-9.1886;TL-CO;Cova Lima;Oebaha
+0;125.5192,-9.1256;TL-AN;Ainaro;Maudole
+0;125.5409,-9.1418;TL-AN;Ainaro;Maununo
+0;125.5394,-9.1317;TL-AN;Ainaro;Munobol
+0;125.1917,-9.0369;TL-BO;Bobonaro;Simugol
+0;125.5664,-9.0659;TL-AN;Ainaro;Raibere
+0;125.6086,-9.0061;TL-MF;Manufahi;Riatu
+0;125.5014,-9.0042;TL-AN;Ainaro;Mauulo
+0;125.5042,-9.0169;TL-AN;Ainaro;Mauulo
+0;125.6372,-9.0103;TL-MF;Manufahi;Maibuti
+0;125.6400,-9.0017;TL-MF;Manufahi;Manico
+0;125.6440,-9.0168;TL-MF;Manufahi;Scarema
+0;125.6447,-9.0192;TL-MF;Manufahi;Nunulu
+0;125.6536,-9.0200;TL-MF;Manufahi;Umahurai
+0;125.6562,-9.0251;TL-MF;Manufahi;Bahulu
+0;125.3245,-9.2684;TL-CO;Cova Lima;Meop
+0;125.3267,-9.2653;TL-CO;Cova Lima;Holba
+0;125.3025,-9.2671;TL-CO;Cova Lima;Hasain
+0;125.3159,-9.2812;TL-CO;Cova Lima;Dais
+0;125.2825,-9.3219;TL-CO;Cova Lima;Futusin
+0;125.2778,-9.3175;TL-CO;Cova Lima;Manikin
+0;125.2500,-9.3187;TL-CO;Cova Lima;Asumaten
+0;125.2529,-9.3067;TL-CO;Cova Lima;Ranok
+0;125.2822,-9.3024;TL-CO;Cova Lima;Loharai
+0;125.2883,-9.3001;TL-CO;Cova Lima;Holbelis
+0;125.6867,-9.0817;TL-MF;Manufahi;Daisua
+0;125.6856,-9.0962;TL-AN;Ainaro;Kaisera
+0;125.6824,-9.0999;TL-AN;Ainaro;Beko
+0;125.6756,-9.1058;TL-AN;Ainaro;Kulolola
+0;125.6632,-9.1069;TL-AN;Ainaro;Beikala
+0;125.6603,-9.1101;TL-AN;Ainaro;Lehumera
+0;125.6397,-9.1159;TL-AN;Ainaro;Ailora
+0;125.6425,-9.1209;TL-AN;Ainaro;Bekumu
+0;125.6297,-9.1100;TL-AN;Ainaro;Groto
+0;125.2744,-9.3406;TL-CO;Cova Lima;Nularan
+0;125.2683,-9.3469;TL-CO;Cova Lima;Manetkim
+0;125.2796,-9.3473;TL-CO;Cova Lima;Beimau
+0;125.2766,-9.3483;TL-CO;Cova Lima;Loo
+0;125.2815,-9.3275;TL-CO;Cova Lima;Audian
+0;127.0003,-8.5261;TL-LA;Lautém;Kartini
+17186;126.9983,-8.5217;TL-LA;Lautém;Lospalos
+0;124.9998,-9.2522;TL-CO;Cova Lima;Manekiik
+0;125.6842,-8.8417;TL-AN;Ainaro;Boroulo
+0;125.5528,-8.8969;TL-AN;Ainaro;Bleheto
+0;125.5706,-8.9053;TL-AN;Ainaro;Tatiri Lama
+0;125.3908,-8.8956;TL-ER;Ermera;Bibaro
+0;125.3964,-8.9056;TL-ER;Ermera;Ilat
+0;125.4347,-8.8928;TL-ER;Ermera;Hatumede
+0;124.3569,-9.2037;TL-OE;Oecusse;Oe-Cussi
+0;125.4022,-8.7306;TL-ER;Ermera;Renatu
+0;125.4336,-8.6600;TL-ER;Ermera;Hi
+0;125.4272,-8.7475;TL-ER;Ermera;Suileo
+0;125.4411,-8.7469;TL-ER;Ermera;Sosoher
+0;125.4503,-8.7400;TL-ER;Ermera;Ergoi
+0;125.1736,-8.6192;TL-LI;Liquiçá;Morae
+0;125.0472,-8.8625;TL-BO;Bobonaro;Biahian
+0;125.2903,-8.6769;TL-LI;Liquiçá;Leva
+0;125.8511,-9.1219;TL-MF;Manufahi;Wedauberek
+0;125.2453,-8.7911;TL-BO;Bobonaro;Banegoa
+0;125.2244,-8.7839;TL-BO;Bobonaro;Bilimau
+0;125.3847,-8.6233;TL-LI;Liquiçá;Metir
+0;125.3789,-8.6108;TL-LI;Liquiçá;Durubasa
+0;125.3839,-8.6172;TL-LI;Liquiçá;Leguimea
+0;125.4017,-8.5950;TL-LI;Liquiçá;Mauluto
+0;125.3997,-8.5922;TL-LI;Liquiçá;Klaso
+0;125.3967,-8.5994;TL-LI;Liquiçá;Caimegi Ulu
+0;125.3825,-8.6053;TL-LI;Liquiçá;Caimegi
+0;125.3753,-8.5944;TL-LI;Liquiçá;Pissucaraik
+0;125.3817,-8.5703;TL-LI;Liquiçá;Rauhassa
+0;125.4147,-8.5644;TL-LI;Liquiçá;Motaikun
+0;126.3344,-8.5903;TL-BA;Baucau;Umannaico
+0;126.3372,-8.5869;TL-BA;Baucau;Caidenulale
+0;126.3378,-8.5850;TL-BA;Baucau;Lolinunu
+0;126.3394,-8.5853;TL-BA;Baucau;Hoinawai
+0;126.3353,-8.5739;TL-BA;Baucau;Naulale
+0;126.3394,-8.5744;TL-BA;Baucau;Caitaranau
+0;126.3394,-8.5725;TL-BA;Baucau;Waidau
+0;126.3372,-8.5703;TL-BA;Baucau;Nunoti
+0;126.3389,-8.5681;TL-BA;Baucau;Uatulari
+0;126.3356,-8.5672;TL-BA;Baucau;Uaiharchoo
+0;125.4258,-8.5661;TL-LI;Liquiçá;Kaitcho
+0;126.3344,-8.5633;TL-BA;Baucau;Bahalale
+0;125.4406,-8.5694;TL-LI;Liquiçá;Gerohata
+0;126.3350,-8.5406;TL-BA;Baucau;Haunau
+0;126.3417,-8.5375;TL-BA;Baucau;Bahamori
+0;126.3356,-8.5367;TL-BA;Baucau;Ucobai
+0;126.3339,-8.5331;TL-BA;Baucau;Ostico
+0;126.3467,-8.5336;TL-BA;Baucau;Darasula
+0;125.4475,-8.5722;TL-LI;Liquiçá;Kampungbaru
+0;125.4578,-8.5733;TL-LI;Liquiçá;Besite
+0;126.3500,-8.5208;TL-BA;Baucau;Uaiboila
+0;126.3564,-8.5117;TL-BA;Baucau;Macadaicima
+0;125.4644,-8.5711;TL-LI;Liquiçá;Cassait
+0;126.3625,-8.5106;TL-BA;Baucau;Lequiloualo
+0;125.4831,-8.5744;TL-LI;Liquiçá;Kampungbaru
+0;126.3617,-8.5050;TL-BA;Baucau;Angkasabaru
+0;126.3665,-8.4988;TL-BA;Baucau;Rajawali
+0;126.3742,-8.5689;TL-BA;Baucau;Uaibeana
+0;125.4922,-8.5700;TL-LI;Liquiçá;Libaulelo
+0;125.4864,-8.5633;TL-LI;Liquiçá;Husbuk
+0;125.4850,-8.5861;TL-LI;Liquiçá;Fatunia
+0;125.4822,-8.5925;TL-LI;Liquiçá;Turlio
+0;125.4842,-8.6136;TL-LI;Liquiçá;Pokolo
+0;125.4756,-8.6206;TL-LI;Liquiçá;Rihiu
+0;125.4656,-8.6203;TL-LI;Liquiçá;Fahita
+0;125.5250,-8.5561;TL-DI;Dili Municipality;Kampungbaru
+0;125.5589,-8.5566;TL-DI;Dili Municipality;Hudilaran
+0;125.6023,-8.5467;TL-DI;Dili Municipality;Metiaut
+0;125.6067,-8.5650;TL-DI;Dili Municipality;Bekosi Atas
+0;125.6128,-8.5650;TL-DI;Dili Municipality;Ailoklaran
+0;125.6161,-8.5322;TL-DI;Dili Municipality;Areia Branca
+0;125.5831,-8.5761;TL-DI;Dili Municipality;Redilaran
+0;125.5875,-8.5690;TL-DI;Dili Municipality;Marabia
+0;126.2782,-8.4816;TL-BA;Baucau;Karabela
+0;126.2939,-8.4691;TL-BA;Baucau;Uaicuha
+0;126.3178,-8.4536;TL-BA;Baucau;Habolale
+0;126.3354,-8.4525;TL-BA;Baucau;Uatosaholi
+0;126.3135,-8.4892;TL-BA;Baucau;Uailacama
+0;126.3274,-8.4869;TL-BA;Baucau;Uaisimo
+0;126.3334,-8.4877;TL-BA;Baucau;Macadai Bawah
+0;126.3383,-8.4856;TL-BA;Baucau;Bucoli
+0;126.3432,-8.4856;TL-BA;Baucau;Mancadai Atas
+0;126.3450,-8.4868;TL-BA;Baucau;Lequliwatu
+0;126.3475,-8.4883;TL-BA;Baucau;Luliheni
+0;126.3601,-8.4905;TL-BA;Baucau;Aubaca
+0;126.3691,-8.4920;TL-BA;Baucau;Dirgantara
+0;126.3570,-8.4502;TL-BA;Baucau;Ossowa
+0;126.3586,-8.4458;TL-BA;Baucau;Caibolale
+0;125.6153,-8.5390;TL-DI;Dili Municipality;Bekaril
+0;126.3588,-8.4493;TL-BA;Baucau;Uaisa
+0;125.6191,-8.5653;TL-DI;Dili Municipality;Lunukhun
+0;125.6217,-8.5675;TL-DI;Dili Municipality;Bedois
+0;125.6181,-8.5708;TL-DI;Dili Municipality;Buburlau
+0;125.6175,-8.5742;TL-DI;Dili Municipality;Karomate
+0;125.6152,-8.5732;TL-DI;Dili Municipality;Mota Ulun
+0;125.6060,-8.5731;TL-DI;Dili Municipality;Kulau
+0;125.5832,-8.5842;TL-DI;Dili Municipality;Aihanexun
+0;125.5806,-8.5911;TL-DI;Dili Municipality;Nahaek
+0;125.5792,-8.5946;TL-DI;Dili Municipality;Fatunaba
+0;125.5830,-8.6000;TL-DI;Dili Municipality;Boromata
+0;125.5857,-8.5983;TL-DI;Dili Municipality;Lakoto
+0;126.3882,-8.4488;TL-BA;Baucau;Lailaileso
+0;125.5520,-8.6007;TL-DI;Dili Municipality;Laulara Lama
+0;126.4002,-8.4421;TL-BA;Baucau;Caisido
+0;125.5608,-8.6043;TL-DI;Dili Municipality;Bematua
+0;126.3842,-8.4623;TL-BA;Baucau;Parlamento
+0;125.5808,-8.6035;TL-DI;Dili Municipality;Kerolisa
+0;126.4312,-8.4612;TL-BA;Baucau;Uaineque
+0;126.4167,-8.4410;TL-BA;Baucau;Haurobu
+0;125.5914,-8.5997;TL-DI;Dili Municipality;Fatuloda
+0;126.4478,-8.4419;TL-BA;Baucau;Waniuma
+0;126.4411,-8.4533;TL-BA;Baucau;Anawaro
+0;125.5949,-8.6005;TL-DI;Dili Municipality;Balibar
+0;126.4489,-8.4584;TL-BA;Baucau;Roulu
+0;125.5931,-8.6042;TL-AL;Aileu;Kotolau
+0;126.4487,-8.4625;TL-BA;Baucau;Anaulu
+0;125.5999,-8.5979;TL-DI;Dili Municipality;Tancae
+0;125.6026,-8.5863;TL-DI;Dili Municipality;Malikeo
+0;125.6081,-8.5895;TL-AL;Aileu;Kitutu
+0;125.6252,-8.5875;TL-AL;Aileu;Kasmantutu
+0;125.5931,-8.5758;TL-DI;Dili Municipality;Mota Ulun Timur
+0;126.4656,-8.4416;TL-BA;Baucau;Uatabo
+0;126.4646,-8.4461;TL-BA;Baucau;Racolo
+0;126.4615,-8.4488;TL-BA;Baucau;Diwake
+0;126.4766,-8.4460;TL-BA;Baucau;Uailabere
+0;126.4560,-8.4582;TL-BA;Baucau;Teolale
+0;125.6081,-8.6081;TL-AL;Aileu;Kutole
+0;125.6140,-8.6104;TL-AL;Aileu;Talitu
+0;126.4698,-8.4583;TL-BA;Baucau;Kasmutu
+0;125.6179,-8.6061;TL-AL;Aileu;Talitu Lama
+0;125.6071,-8.6128;TL-AL;Aileu;Kalae
+0;126.4733,-8.4528;TL-BA;Baucau;Onosere
+0;126.4698,-8.4648;TL-BA;Baucau;Caiobilalei
+0;126.4541,-8.4612;TL-BA;Baucau;Makadai
+0;126.4555,-8.4626;TL-BA;Baucau;Boile
+0;126.4654,-8.4633;TL-BA;Baucau;Datawa
+0;126.4775,-8.4711;TL-BA;Baucau;Uaicainaro
+0;125.5397,-8.5939;TL-DI;Dili Municipality;Kasanafar
+0;125.5281,-8.5836;TL-DI;Dili Municipality;Beduku
+0;125.5434,-8.5844;TL-DI;Dili Municipality;Fatometa
+0;126.4552,-8.4834;TL-BA;Baucau;Lutumutu
+0;126.4509,-8.4990;TL-BA;Baucau;Uaimoribere
+0;126.4536,-8.4961;TL-BA;Baucau;Loidua
+0;126.4471,-8.5019;TL-BA;Baucau;Samalakuliba
+0;126.4545,-8.4940;TL-BA;Baucau;Cailara
+0;126.4699,-8.4944;TL-BA;Baucau;Latua
+0;126.4721,-8.4896;TL-BA;Baucau;Rabei
+0;126.4844,-8.4732;TL-BA;Baucau;Luhadora
+0;126.4879,-8.4702;TL-BA;Baucau;Suliwa
+0;126.4929,-8.4605;TL-BA;Baucau;Uaisarigo
+0;125.7366,-8.5293;TL-DI;Dili Municipality;Sabuli
+0;125.7454,-8.5301;TL-DI;Dili Municipality;Benunuk
+0;125.7380,-8.5308;TL-DI;Dili Municipality;Kabura
+0;125.7442,-8.5311;TL-DI;Dili Municipality;Manuleu
+0;125.7455,-8.5326;TL-DI;Dili Municipality;Lebutu
+0;125.7394,-8.5325;TL-DI;Dili Municipality;Sukaerlaran
+0;125.7353,-8.5367;TL-DI;Dili Municipality;Ayatan
+0;125.7144,-8.5229;TL-DI;Dili Municipality;Pasir Putih
+0;125.7228,-8.6214;TL-AL;Aileu;Fatubelar
+0;125.7174,-8.6205;TL-AL;Aileu;Samalete
+0;125.7111,-8.6158;TL-AL;Aileu;Nunudamar
+0;125.6663,-8.6178;TL-AL;Aileu;Fatumanaro
+0;125.6670,-8.6068;TL-AL;Aileu;Aimerahun
+0;125.6465,-8.6171;TL-AL;Aileu;Relolisa
+0;125.6342,-8.5831;TL-DI;Dili Municipality;Lakeru Laran
+0;125.6279,-8.6066;TL-AL;Aileu;Lebuhua
+0;125.6315,-8.5949;TL-AL;Aileu;Darlau
+0;125.6285,-8.5703;TL-DI;Dili Municipality;Aidabahare
+0;125.6338,-8.5675;TL-DI;Dili Municipality;Fatuahi
+0;125.6380,-8.5683;TL-DI;Dili Municipality;Susan
+0;125.6444,-8.5605;TL-DI;Dili Municipality;Raimia
+0;126.5213,-8.4628;TL-BA;Baucau;Binagua
+0;126.5203,-8.4816;TL-BA;Baucau;Baboro
+0;126.5118,-8.4950;TL-BA;Baucau;Umakerek
+0;125.6655,-8.5637;TL-DI;Dili Municipality;Caremon
+0;126.5217,-8.4748;TL-BA;Baucau;Seisal
+0;125.6490,-8.5569;TL-DI;Dili Municipality;Akanunu
+0;126.5359,-8.4750;TL-BA;Baucau;Locoda
+0;126.5441,-8.4779;TL-BA;Baucau;Seisal Baru
+0;125.6572,-8.5544;TL-DI;Dili Municipality;Airiti
+0;125.6432,-8.5497;TL-DI;Dili Municipality;Lolesu
+0;125.6236,-8.5525;TL-DI;Dili Municipality;Ailelehu
+0;125.6608,-8.5519;TL-DI;Dili Municipality;Motakik
+0;126.5505,-8.4827;TL-BA;Baucau;Umarama
+0;125.6658,-8.5497;TL-DI;Dili Municipality;Montensaun
+0;126.5576,-8.4848;TL-BA;Baucau;Gamana
+0;126.5636,-8.4848;TL-BA;Baucau;Mulia
+0;125.6718,-8.5471;TL-DI;Dili Municipality;Berukulun
+0;125.6735,-8.5444;TL-DI;Dili Municipality;Jembatankik
+0;126.5644,-8.4833;TL-BA;Baucau;Saebere
+0;125.6704,-8.5432;TL-DI;Dili Municipality;Besidada
+0;125.6631,-8.5419;TL-DI;Dili Municipality;Bidik
+0;126.5723,-8.4925;TL-BA;Baucau;Racolo
+0;126.5851,-8.4779;TL-BA;Baucau;Kaikasalan
+0;125.6584,-8.5460;TL-DI;Dili Municipality;Liqirahu
+0;126.5858,-8.4790;TL-BA;Baucau;Tekinomata
+0;125.6716,-8.5358;TL-DI;Dili Municipality;Mantarlido
+0;125.6784,-8.5341;TL-DI;Dili Municipality;Bemanotolu
+0;125.6806,-8.5385;TL-DI;Dili Municipality;Manoroni
+0;125.6869,-8.5414;TL-DI;Dili Municipality;Lepos
+0;125.6892,-8.5388;TL-DI;Dili Municipality;Beraka
+0;125.6835,-8.5453;TL-DI;Dili Municipality;Ailoklaran
+0;126.5919,-8.4765;TL-BA;Baucau;Bolobai
+0;126.5897,-8.4809;TL-BA;Baucau;Samaguia
+0;126.5989,-8.4752;TL-BA;Baucau;Soba
+0;126.5938,-8.4774;TL-BA;Baucau;Telibudae
+0;126.6004,-8.4733;TL-BA;Baucau;Suataici
+0;126.6016,-8.4672;TL-BA;Baucau;Kotagama
+0;126.6120,-8.4593;TL-BA;Baucau;Natarici
+0;126.5998,-8.4849;TL-BA;Baucau;Uarinana
+0;126.5956,-8.4902;TL-BA;Baucau;Aelemilari
+0;126.6144,-8.4844;TL-BA;Baucau;Butofalo
+0;126.6012,-8.5010;TL-BA;Baucau;Couguira
+0;125.7146,-8.5782;TL-AL;Aileu;Laraluha
+0;125.7165,-8.5788;TL-AL;Aileu;Haukeo
+0;125.7110,-8.5812;TL-AL;Aileu;Blinklala
+0;125.3778,-8.7422;TL-ER;Ermera;Tataeulu
+0;125.3811,-8.7342;TL-ER;Ermera;Kotaheo
+0;125.3817,-8.7311;TL-ER;Ermera;Eroho
+0;125.3811,-8.7225;TL-ER;Ermera;Nunupu
+0;125.3853,-8.7236;TL-ER;Ermera;Hatoposi
+0;125.3753,-8.7164;TL-ER;Ermera;Sakoko
+0;125.3925,-8.7311;TL-ER;Ermera;Lekese
+0;126.5053,-8.5000;TL-BA;Baucau;Muassufa
+0;125.4364,-8.7386;TL-ER;Ermera;Mangero
+0;126.5061,-8.5158;TL-BA;Baucau;Leuque Racabu
+0;126.5147,-8.5400;TL-BA;Baucau;Festau
+0;126.5183,-8.5706;TL-BA;Baucau;Macalaco
+0;126.5228,-8.5725;TL-BA;Baucau;Bocilai
+0;126.5261,-8.5742;TL-BA;Baucau;Macalira
+0;126.5139,-8.5833;TL-BA;Baucau;Larimuta
+0;126.5128,-8.5867;TL-BA;Baucau;Larubo
+0;126.5203,-8.5847;TL-BA;Baucau;Luborice
+0;126.5228,-8.5833;TL-BA;Baucau;Defadae
+0;126.5292,-8.5864;TL-BA;Baucau;Chefamuai
+0;126.5219,-8.6172;TL-BA;Baucau;Eduquele
+0;126.5336,-8.6217;TL-BA;Baucau;Ruta
+0;126.5636,-8.7000;TL-VI;Viqueque;Bubolita
+0;126.5494,-8.6186;TL-BA;Baucau;Lacudala
+0;125.4028,-8.7472;TL-ER;Ermera;Porehe
+0;125.4042,-8.7389;TL-ER;Ermera;Tlibugeo
+0;125.4081,-8.7444;TL-ER;Ermera;Saheu
+0;125.4172,-8.7428;TL-ER;Ermera;Raibiute
+0;126.9653,-8.4992;TL-LA;Lautém;Home
+0;125.4228,-8.7408;TL-ER;Ermera;Talimoro
+0;125.4111,-8.7347;TL-ER;Ermera;Berluli
+0;125.4272,-8.7317;TL-ER;Ermera;Paschei
+0;125.4283,-8.7378;TL-ER;Ermera;Urluli
+0;125.4292,-8.7400;TL-ER;Ermera;Urletepoho
+0;125.4342,-8.7328;TL-ER;Ermera;Gombei
+8133;125.4361,-8.7239;TL-ER;Ermera;Gleno
+0;126.9628,-8.4981;TL-LA;Lautém;Reissoro
+0;126.9600,-8.4989;TL-LA;Lautém;Larinacha
+0;126.9906,-8.4986;TL-LA;Lautém;Kartini 1
+0;126.9953,-8.4986;TL-LA;Lautém;Kartini 2
+0;126.9794,-8.4853;TL-LA;Lautém;Setiara
+0;126.9936,-8.4675;TL-LA;Lautém;Titilari
+0;126.9586,-8.4567;TL-LA;Lautém;Lilapuho
+0;126.9339,-8.4628;TL-LA;Lautém;Horooto
+0;126.8833,-8.4681;TL-LA;Lautém;Lereira
+0;126.8839,-8.4669;TL-LA;Lautém;Lereado
+0;126.8842,-8.4656;TL-LA;Lautém;Cirata
+0;126.8814,-8.4683;TL-LA;Lautém;Keduloro
+0;126.8819,-8.4669;TL-LA;Lautém;Codo
+0;126.8828,-8.4658;TL-LA;Lautém;Maina 2
+0;126.8897,-8.4547;TL-LA;Lautém;Irafala
+0;126.8875,-8.4544;TL-LA;Lautém;Luandau
+0;126.8889,-8.4544;TL-LA;Lautém;Baduro
+0;126.8769,-8.4361;TL-LA;Lautém;Lakulomano
+0;126.8958,-8.4444;TL-LA;Lautém;Malailada
+0;126.9786,-8.4367;TL-LA;Lautém;Raca
+0;126.9681,-8.4386;TL-LA;Lautém;Mauloho
+0;126.9369,-8.4294;TL-LA;Lautém;Puno
+0;126.9100,-8.4006;TL-LA;Lautém;Paihara
+0;126.9114,-8.3994;TL-LA;Lautém;Soloresi
+0;126.9100,-8.3983;TL-LA;Lautém;Narunteno
+0;126.9106,-8.3953;TL-LA;Lautém;Daulaturo
+0;126.9106,-8.3972;TL-LA;Lautém;Maina
+0;126.9139,-8.3917;TL-LA;Lautém;Kaporo
+0;126.9206,-8.3797;TL-LA;Lautém;Pairara
+0;126.9200,-8.3781;TL-LA;Lautém;Levano
+0;126.9244,-8.3758;TL-LA;Lautém;Iratchau
+0;126.8869,-8.3742;TL-LA;Lautém;Tamaro
+0;126.0450,-8.9769;TL-MT;Manatuto;Fahikrin
+0;126.0467,-8.9758;TL-MT;Manatuto;Umaboco
+0;126.0519,-8.9811;TL-MT;Manatuto;Wemaubodak
+0;126.0611,-8.9819;TL-MT;Manatuto;Buburlolon
+0;126.0603,-8.9911;TL-MT;Manatuto;Waicadi
+0;126.0589,-8.9717;TL-MT;Manatuto;Camedar
+0;126.0611,-8.9728;TL-MT;Manatuto;Ranac
+0;126.2075,-8.8344;TL-VI;Viqueque;Aidaklaran
+0;126.2142,-8.8344;TL-VI;Viqueque;Craricboco
+0;126.2125,-8.8378;TL-VI;Viqueque;Dilor
+0;126.2125,-8.8361;TL-VI;Viqueque;Ahic
+0;126.2092,-8.8369;TL-VI;Viqueque;Tulaoli
+0;126.2089,-8.8381;TL-VI;Viqueque;Boruc
+0;126.2153,-8.8367;TL-VI;Viqueque;Halioan
+0;126.2136,-8.8381;TL-VI;Viqueque;Cailooc
+0;126.2128,-8.8394;TL-VI;Viqueque;Halimean
+0;126.2050,-8.8394;TL-VI;Viqueque;Santontonio
+0;126.2019,-8.8397;TL-VI;Viqueque;Microde
+0;126.2083,-8.8417;TL-VI;Viqueque;Mauama
+0;126.2114,-8.8408;TL-VI;Viqueque;Caiua
+0;126.2092,-8.8411;TL-VI;Viqueque;Radeuman
+0;126.2039,-8.8439;TL-VI;Viqueque;Aimetahun
+0;126.2000,-8.8425;TL-VI;Viqueque;Fatucado
+0;126.5531,-8.6114;TL-BA;Baucau;Lacolio
+0;126.5650,-8.6219;TL-BA;Baucau;Uaule
+0;126.5619,-8.6025;TL-BA;Baucau;Quelicai
+0;126.5708,-8.6114;TL-BA;Baucau;Lacaliu
+0;126.5436,-8.5975;TL-BA;Baucau;Tabere
+0;126.5483,-8.5956;TL-BA;Baucau;Lebene
+0;126.5381,-8.5953;TL-BA;Baucau;Letemumo
+0;126.5464,-8.5892;TL-BA;Baucau;Baguia
+0;126.5561,-8.5961;TL-BA;Baucau;Butileo
+0;126.5528,-8.5756;TL-BA;Baucau;Samadae
+0;126.5628,-8.5653;TL-BA;Baucau;Mumana
+0;126.5747,-8.5697;TL-BA;Baucau;Wabere
+0;126.5653,-8.5536;TL-BA;Baucau;Abafala
+0;126.5647,-8.5431;TL-BA;Baucau;Guruca
+0;126.5625,-8.5372;TL-BA;Baucau;Cotaissi
+0;126.5811,-8.5078;TL-BA;Baucau;Larigua
+0;126.5775,-8.5264;TL-BA;Baucau;Maebu
+0;126.5986,-8.5431;TL-BA;Baucau;Uecobuti
+0;126.5972,-8.5450;TL-BA;Baucau;Quelicai
+0;126.6011,-8.5456;TL-BA;Baucau;Afaca
+0;126.5892,-8.5531;TL-BA;Baucau;Ucamuni
+0;126.6128,-8.5631;TL-BA;Baucau;Loirae
+0;126.6150,-8.5633;TL-BA;Baucau;Muturo
+0;126.6111,-8.5650;TL-BA;Baucau;Uehuafa
+0;126.6014,-8.5767;TL-BA;Baucau;Culugia
+0;126.5997,-8.5783;TL-BA;Baucau;Gugolai
+0;126.6019,-8.5839;TL-BA;Baucau;Facua
+0;126.6031,-8.5908;TL-BA;Baucau;Maukiki
+0;126.5733,-8.5825;TL-BA;Baucau;Uaitame
+0;126.5703,-8.5878;TL-BA;Baucau;Uaitame
+0;126.5828,-8.6200;TL-BA;Baucau;Laumana
+0;126.5714,-8.6228;TL-BA;Baucau;Mucobubo
+0;126.6100,-8.6058;TL-BA;Baucau;Daraloi
+0;126.6089,-8.6017;TL-BA;Baucau;Uadaboro
+0;126.6233,-8.5028;TL-BA;Baucau;Boleha
+0;126.3803,-8.5661;TL-BA;Baucau;Kairiri
+0;126.3900,-8.5772;TL-BA;Baucau;Uaitunau
+0;126.3811,-8.5825;TL-BA;Baucau;Venilale
+0;126.3900,-8.5819;TL-BA;Baucau;Nunudoco
+0;126.3950,-8.5689;TL-BA;Baucau;Kairiri
+0;126.3797,-8.5847;TL-BA;Baucau;Queleborouai
+0;126.3878,-8.5892;TL-BA;Baucau;Bercoli
+0;126.3847,-8.5961;TL-BA;Baucau;Betonau
+0;126.3822,-8.5908;TL-BA;Baucau;Umatunau
+0;126.4042,-8.6017;TL-BA;Baucau;Bodohoo
+0;126.3997,-8.6042;TL-BA;Baucau;Neohoo
+0;126.3831,-8.6142;TL-BA;Baucau;Liaoli
+0;126.4206,-8.6131;TL-BA;Baucau;Kaimalehoo
+0;126.4133,-8.6067;TL-BA;Baucau;Uaitoki
+0;126.3967,-8.6039;TL-BA;Baucau;Uatubelaoli
+0;126.4067,-8.5889;TL-BA;Baucau;Caihula
+0;126.4108,-8.5825;TL-BA;Baucau;Ossoguigui
+0;126.4144,-8.5567;TL-BA;Baucau;Maukale
+0;126.4139,-8.5486;TL-BA;Baucau;Uaturau
+0;126.4106,-8.5444;TL-BA;Baucau;Gariuai
+0;126.4128,-8.5403;TL-BA;Baucau;Luboria
+0;126.4236,-8.5403;TL-BA;Baucau;Bahamori
+0;126.4289,-8.5425;TL-BA;Baucau;Uaimanuboe
+0;126.4264,-8.5322;TL-BA;Baucau;Ledatame
+0;126.4333,-8.5264;TL-BA;Baucau;Afacaimau
+0;126.4364,-8.5258;TL-BA;Baucau;Afagua Manufai
+0;126.4369,-8.5206;TL-BA;Baucau;Waturau
+0;126.4389,-8.5144;TL-BA;Baucau;Alala
+0;126.4436,-8.5086;TL-BA;Baucau;Builai
+0;126.4656,-8.5006;TL-BA;Baucau;Loidua
+0;126.4667,-8.5078;TL-BA;Baucau;Buibau
+0;126.4747,-8.5114;TL-BA;Baucau;Rahameta
+0;126.4742,-8.5128;TL-BA;Baucau;Laherubi
+0;126.4736,-8.5161;TL-BA;Baucau;Visto
+0;126.4703,-8.5197;TL-BA;Baucau;Sorolai
+0;126.4658,-8.5219;TL-BA;Baucau;Manulai
+0;126.4656,-8.5261;TL-BA;Baucau;Ossoluga
+0;126.4525,-8.5336;TL-BA;Baucau;Uatubala
+0;126.4811,-8.5283;TL-BA;Baucau;Waidua
+0;126.4717,-8.5439;TL-BA;Baucau;Tudoula
+0;127.0347,-8.3661;TL-LA;Lautém;Iraono
+0;127.0394,-8.3658;TL-LA;Lautém;Petileti
+0;127.0928,-8.3644;TL-LA;Lautém;Salara
+0;127.1211,-8.3650;TL-LA;Lautém;Otcho
+0;127.0472,-8.3611;TL-LA;Lautém;Vailovaia
+0;127.0606,-8.3583;TL-LA;Lautém;Sabandar
+0;127.0589,-8.3578;TL-LA;Lautém;Muafoso
+0;127.0600,-8.3558;TL-LA;Lautém;Mata
+0;127.0575,-8.3550;TL-LA;Lautém;Lomatu
+0;127.0511,-8.3561;TL-LA;Lautém;Com
+0;127.0239,-8.3414;TL-LA;Lautém;Etipiti
+0;127.0181,-8.3389;TL-LA;Lautém;Iraara
+0;127.0403,-8.3394;TL-LA;Lautém;Airliu
+0;127.1397,-8.4731;TL-LA;Lautém;Malahara
+0;127.1828,-8.3978;TL-LA;Lautém;Louiquero
+0;127.1900,-8.3967;TL-LA;Lautém;Porlamano
+0;127.1867,-8.3961;TL-LA;Lautém;Mehara
+0;127.2492,-8.3983;TL-LA;Lautém;Vero
+0;127.2492,-8.3978;TL-LA;Lautém;Chailoro
+0;127.2506,-8.3992;TL-LA;Lautém;Ioro
+3707;127.2554,-8.3938;TL-LA;Lautém;Tutuala
+0;127.1000,-8.4975;TL-LA;Lautém;Muapitine
+0;127.0083,-8.4519;TL-LA;Lautém;Chauluturo
+0;127.0064,-8.4422;TL-LA;Lautém;Bauro
+0;127.0014,-8.4408;TL-LA;Lautém;Trisula
+0;127.0050,-8.4333;TL-LA;Lautém;Assalaino
+0;127.0342,-8.4308;TL-LA;Lautém;Luarai
+0;127.0406,-8.4289;TL-LA;Lautém;Iralafai
+0;127.0561,-8.4308;TL-LA;Lautém;Sepelata
+0;127.0817,-8.4253;TL-LA;Lautém;Somoco
+0;127.1114,-8.4203;TL-LA;Lautém;Poros
+0;126.8231,-8.4519;TL-LA;Lautém;Squeli
+0;126.8233,-8.4508;TL-LA;Lautém;Vasotoi
+0;126.8208,-8.4508;TL-LA;Lautém;Nassalue
+0;126.8231,-8.4494;TL-LA;Lautém;Anarua
+0;126.8214,-8.4492;TL-LA;Lautém;Samaira
+0;126.8233,-8.4486;TL-LA;Lautém;Makalodo
+0;126.8236,-8.4478;TL-LA;Lautém;Uanamibere
+0;126.8233,-8.4472;TL-LA;Lautém;Ailafa
+0;126.8222,-8.4503;TL-LA;Lautém;Daudere
+0;126.8717,-8.4428;TL-LA;Lautém;Laikara
+0;126.8542,-8.4386;TL-LA;Lautém;Serelau
+0;126.8531,-8.4389;TL-LA;Lautém;Adafari
+0;126.8544,-8.4367;TL-LA;Lautém;Raano
+0;126.8572,-8.4367;TL-LA;Lautém;Borofari
+0;126.7617,-8.4208;TL-LA;Lautém;Barleo
+0;126.7922,-8.4142;TL-LA;Lautém;Raumaco
+0;126.8086,-8.4058;TL-LA;Lautém;Lailaovemati
+0;126.8314,-8.3975;TL-LA;Lautém;Buihomau
+0;126.8519,-8.3875;TL-LA;Lautém;Hataman
+0;125.4483,-8.7306;TL-ER;Ermera;Vilanova
+0;125.4464,-8.7289;TL-ER;Ermera;Hotklokat
+0;125.4447,-8.7258;TL-ER;Ermera;Hutilarang
+0;125.4636,-8.7472;TL-ER;Ermera;Mokorema
+0;125.4833,-8.7283;TL-AL;Aileu;Poalete
+0;125.4906,-8.7183;TL-AL;Aileu;Halalmeta
+0;125.4894,-8.7131;TL-AL;Aileu;Mautobalau
+0;125.4650,-8.6989;TL-ER;Ermera;Kokoa
+0;125.4494,-8.6994;TL-ER;Ermera;Kaitarahei
+0;125.4353,-8.7022;TL-ER;Ermera;Fatada
+0;125.4369,-8.7069;TL-ER;Ermera;Aihatutu
+0;125.4436,-8.7122;TL-ER;Ermera;Falimano
+0;125.4308,-8.7108;TL-ER;Ermera;Manisu
+0;125.4233,-8.7011;TL-ER;Ermera;Marobo
+0;125.4106,-8.7003;TL-ER;Ermera;Caissahe
+0;125.4017,-8.7017;TL-ER;Ermera;Titibuti
+0;125.3894,-8.7019;TL-ER;Ermera;Mauane
+0;125.3908,-8.6969;TL-ER;Ermera;Colaco
+0;125.3975,-8.6944;TL-ER;Ermera;Tarmausoru
+0;125.3856,-8.6950;TL-ER;Ermera;Gorema
+0;125.3897,-8.6853;TL-LI;Liquiçá;Manulete
+0;125.3850,-8.6864;TL-LI;Liquiçá;Patunero
+0;125.3769,-8.6836;TL-LI;Liquiçá;Urluli
+0;125.4197,-8.6769;TL-ER;Ermera;Kamal Raihei
+0;125.4192,-8.6753;TL-ER;Ermera;Raidu
+0;125.4292,-8.6689;TL-ER;Ermera;Kamal Pun
+0;125.4658,-8.6744;TL-ER;Ermera;Suwerkeke
+0;125.4733,-8.6783;TL-ER;Ermera;Railakopu
+0;125.4775,-8.6806;TL-ER;Ermera;Riamori
+0;125.4883,-8.6850;TL-ER;Ermera;Kotohuinamo
+0;125.4985,-8.6863;TL-ER;Ermera;Manuponihei
+0;125.4933,-8.6592;TL-ER;Ermera;Lakeko
+0;125.4886,-8.6572;TL-ER;Ermera;Datoleo
+0;125.4378,-8.6469;TL-LI;Liquiçá;Libaloa
+0;125.4578,-8.6294;TL-LI;Liquiçá;Nasuto
+0;125.3964,-8.6342;TL-LI;Liquiçá;Tuhilu Leten
+0;125.3953,-8.6358;TL-LI;Liquiçá;Tuhilu Craic
+0;125.3906,-8.6442;TL-LI;Liquiçá;Buku Mera
+0;125.3783,-8.6467;TL-LI;Liquiçá;Kutulau
+0;125.3831,-8.6247;TL-LI;Liquiçá;Bazartete
+0;125.3836,-8.6269;TL-LI;Liquiçá;Metir
+0;125.3986,-8.6447;TL-LI;Liquiçá;Fatuneso
+0;125.3836,-8.6631;TL-LI;Liquiçá;Baura
+0;125.3814,-8.6553;TL-LI;Liquiçá;Urema
+0;125.3922,-8.6758;TL-LI;Liquiçá;Railuli
+0;126.4531,-8.5569;TL-BA;Baucau;Uatubala
+0;126.4792,-8.5544;TL-BA;Baucau;Lilouarica
+0;126.4769,-8.5689;TL-BA;Baucau;Uatoue
+0;126.4564,-8.5758;TL-BA;Baucau;Uatoua
+0;126.4525,-8.6017;TL-BA;Baucau;Daralata
+0;125.6526,-8.7461;TL-AL;Aileu;Betulau
+0;126.4731,-8.6083;TL-VI;Viqueque;Cailoibere
+0;126.4483,-8.6100;TL-BA;Baucau;Kumooli
+0;125.6575,-8.7446;TL-AL;Aileu;Biloko
+0;125.6580,-8.7234;TL-AL;Aileu;Hautbiritalau
+0;126.4481,-8.5889;TL-BA;Baucau;Lacouma
+0;125.6542,-8.7186;TL-AL;Aileu;Guriqui
+0;125.6503,-8.7176;TL-AL;Aileu;Maukurunamo
+0;125.6513,-8.7150;TL-AL;Aileu;Lakabou
+0;125.6541,-8.7153;TL-AL;Aileu;Serema
+0;125.6472,-8.7131;TL-AL;Aileu;Aitoin
+0;125.6408,-8.7127;TL-AL;Aileu;Daro
+0;125.6379,-8.7096;TL-AL;Aileu;Rematu
+0;125.6374,-8.7078;TL-AL;Aileu;Fatumering
+0;125.6686,-8.7115;TL-AL;Aileu;Urupadan
+0;125.6824,-8.7126;TL-AL;Aileu;Lebometa
+0;125.6854,-8.7203;TL-AL;Aileu;Lebometa
+0;125.6924,-8.7127;TL-AL;Aileu;Berkate
+0;125.6799,-8.7211;TL-AL;Aileu;Asumata
+0;125.7083,-8.7114;TL-AL;Aileu;Kairema
+0;125.7147,-8.7131;TL-AL;Aileu;Lebumerakeo
+0;125.6907,-8.6880;TL-AL;Aileu;Raimerahai
+0;125.6470,-8.6935;TL-AL;Aileu;Lokotui
+0;125.6514,-8.6915;TL-AL;Aileu;Dailorluta
+0;125.6433,-8.6919;TL-AL;Aileu;Fahisoi
+0;125.6372,-8.6939;TL-AL;Aileu;Tatilisame
+0;125.6359,-8.6923;TL-AL;Aileu;Lequidoe
+0;125.6317,-8.6731;TL-AL;Aileu;Aitoi
+0;125.6307,-8.6844;TL-AL;Aileu;Daulalan
+5;125.6372,-8.6669;TL-AL;Aileu;Ritutu
+0;125.6431,-8.6657;TL-AL;Aileu;Mautoba
+0;125.6527,-8.6706;TL-AL;Aileu;Aitoi
+0;125.6566,-8.6714;TL-AL;Aileu;Tukeu
+0;125.6631,-8.6745;TL-AL;Aileu;Aibana
+0;125.6690,-8.6762;TL-AL;Aileu;Aibutihun
+0;125.6767,-8.6736;TL-AL;Aileu;Lebutu
+0;125.6811,-8.6741;TL-AL;Aileu;Lilitai
+0;125.6837,-8.6718;TL-AL;Aileu;Manulete
+0;125.6873,-8.6697;TL-AL;Aileu;Likisa
+0;125.6947,-8.6653;TL-AL;Aileu;Tunomanu
+0;125.7313,-8.6623;TL-AL;Aileu;Faculau
+0;125.7194,-8.6474;TL-AL;Aileu;Lebometa
+0;125.7185,-8.6421;TL-AL;Aileu;Berelisu
+0;125.7390,-8.6317;TL-AL;Aileu;Roruli
+0;125.6803,-8.6429;TL-AL;Aileu;Liriu
+0;125.6481,-8.6483;TL-AL;Aileu;Berlorai
+0;125.6392,-8.6529;TL-AL;Aileu;Derohati
+0;125.6392,-8.6592;TL-AL;Aileu;Maunahei
+0;125.6369,-8.6436;TL-AL;Aileu;Buahun
+0;125.6391,-8.6346;TL-AL;Aileu;Ulaen
+0;125.5180,-8.7457;TL-AL;Aileu;Maurusa
+0;125.5653,-8.7334;TL-AL;Aileu;Kabasfalm
+0;125.5659,-8.7301;TL-AL;Aileu;Malere
+2192;125.5715,-8.7261;TL-AL;Aileu;Aissirimou
+0;125.5654,-8.7246;TL-AL;Aileu;Aileukota
+0;125.5689,-8.7179;TL-AL;Aileu;Aitularan
+0;125.5654,-8.7144;TL-AL;Aileu;Aitoi
+0;125.5888,-8.7157;TL-AL;Aileu;Saboria
+0;125.5877,-8.7207;TL-AL;Aileu;Sidole
+0;125.5833,-8.7103;TL-AL;Aileu;Uaho
+0;125.5614,-8.7049;TL-AL;Aileu;Quintaportugal
+0;125.5351,-8.7110;TL-AL;Aileu;Kotbauru
+0;125.5261,-8.7049;TL-AL;Aileu;Siliboro
+0;125.5383,-8.6981;TL-AL;Aileu;Lidulalan
+0;125.5339,-8.6983;TL-AL;Aileu;Rekoalepa
+0;125.5386,-8.6933;TL-AL;Aileu;Aibitikeou
+0;125.5016,-8.6872;TL-ER;Ermera;Toileso
+0;125.5016,-8.6890;TL-ER;Ermera;Dorema
+0;125.5145,-8.6834;TL-ER;Ermera;Leburema
+0;125.5127,-8.6790;TL-ER;Ermera;Tunlero
+0;125.5436,-8.6864;TL-AL;Aileu;Darhai
+0;125.5423,-8.6768;TL-AL;Aileu;Fateran
+0;125.5499,-8.6746;TL-AL;Aileu;Sarlala
+0;126.3725,-8.7411;TL-VI;Viqueque;Umaanaico
+0;125.5058,-8.6726;TL-ER;Ermera;Lebudo
+0;125.5117,-8.6650;TL-ER;Ermera;Eraulo
+0;125.5150,-8.6598;TL-ER;Ermera;Rihiu
+0;126.3669,-8.7381;TL-VI;Viqueque;Uairiu
+0;125.5275,-8.6458;TL-AL;Aileu;Sabereke
+0;125.5319,-8.6436;TL-AL;Aileu;Lebihin
+0;125.5395,-8.6353;TL-AL;Aileu;Tohumeta
+0;125.5513,-8.6376;TL-AL;Aileu;Fereleometa
+0;126.3694,-8.7278;TL-VI;Viqueque;Liamida
+0;125.5682,-8.6502;TL-AL;Aileu;Belumhato
+0;125.5741,-8.6450;TL-AL;Aileu;Matapati
+0;126.2800,-8.7383;TL-VI;Viqueque;Salele
+0;125.5931,-8.6424;TL-AL;Aileu;Turiscai
+0;125.5932,-8.6436;TL-AL;Aileu;Bislau
+0;126.3672,-8.7217;TL-VI;Viqueque;Caiuaihoo
+0;125.5996,-8.6377;TL-AL;Aileu;Lebukuku
+0;125.5830,-8.6412;TL-AL;Aileu;Lisimu
+0;125.6127,-8.6369;TL-AL;Aileu;Fatokkun
+0;126.3722,-8.6847;TL-VI;Viqueque;Henihuta
+0;126.3717,-8.6828;TL-VI;Viqueque;Cailetiana
+0;126.3711,-8.6753;TL-VI;Viqueque;Betecaiana
+0;126.3661,-8.6725;TL-VI;Viqueque;Liaro
+0;126.3678,-8.6681;TL-VI;Viqueque;Caitarahu
+0;126.3594,-8.6575;TL-BA;Baucau;Bahadato
+4052;125.5710,-8.5927;TL-DI;Dili Municipality;Dare
+0;126.3611,-8.6550;TL-BA;Baucau;Ossoake
+0;126.3703,-8.6533;TL-BA;Baucau;Uatobono
+0;126.3728,-8.6469;TL-BA;Baucau;Uatolia
+0;126.3661,-8.6411;TL-BA;Baucau;Fatulia
+0;126.3806,-8.7447;TL-VI;Viqueque;Bacaisi
+0;126.3767,-8.7408;TL-VI;Viqueque;Belas
+0;126.3872,-8.7403;TL-VI;Viqueque;Borala
+0;126.3772,-8.7336;TL-VI;Viqueque;Lugabuti
+0;126.4603,-8.7397;TL-VI;Viqueque;Samaliurai
+0;126.4622,-8.7389;TL-VI;Viqueque;Uaitahu
+0;126.4592,-8.7378;TL-VI;Viqueque;Darinau
+0;126.4361,-8.7344;TL-VI;Viqueque;Dalirisi
+0;126.4339,-8.7319;TL-VI;Viqueque;Daesi
+0;126.4361,-8.7283;TL-VI;Viqueque;Samalogo
+0;126.4803,-8.7033;TL-VI;Viqueque;Raila
+0;126.4811,-8.7003;TL-VI;Viqueque;Nahareca
+0;126.4778,-8.6986;TL-VI;Viqueque;Aelita
+0;126.4808,-8.6972;TL-VI;Viqueque;Samalari
+0;126.4311,-8.6803;TL-BA;Baucau;Larameta
+0;126.4339,-8.6739;TL-BA;Baucau;Lulibau
+0;126.4236,-8.6717;TL-BA;Baucau;Uaiae
+0;126.4242,-8.6644;TL-BA;Baucau;Uatumissa
+0;126.4147,-8.6619;TL-BA;Baucau;Acakuata
+0;126.4717,-8.6575;TL-VI;Viqueque;Uanisi
+0;126.4706,-8.6575;TL-VI;Viqueque;Leo
+0;126.4233,-8.6550;TL-BA;Baucau;Daule
+0;126.3783,-8.6469;TL-BA;Baucau;Baru
+0;126.3914,-8.6433;TL-BA;Baucau;Kaihurulale
+0;126.4331,-8.6456;TL-BA;Baucau;Uaicana
+0;126.4828,-8.6483;TL-VI;Viqueque;Munidailo
+0;126.4844,-8.6453;TL-VI;Viqueque;Sogau
+0;126.4978,-8.6436;TL-BA;Baucau;Uailao
+0;126.4375,-8.6381;TL-BA;Baucau;Ossogori
+0;126.4250,-8.6367;TL-BA;Baucau;Liabala
+0;126.4206,-8.6347;TL-BA;Baucau;Luhaoli
+0;126.4111,-8.6367;TL-BA;Baucau;Ariana
+0;126.4075,-8.6408;TL-BA;Baucau;Kaubai
+0;126.3925,-8.6392;TL-BA;Baucau;Uailaha
+0;126.3825,-8.6383;TL-BA;Baucau;Uatuasa
+16000;126.3783,-8.6431;TL-BA;Baucau;Venilale
+0;126.3828,-8.6286;TL-BA;Baucau;Uaitalibu
+0;126.3908,-8.6303;TL-BA;Baucau;Umaanaico
+0;126.4828,-8.6483;TL-VI;Viqueque;Uaibobo
+0;126.4431,-8.6258;TL-BA;Baucau;Uaitoco
+0;126.4914,-8.6314;TL-BA;Baucau;Lelalai
+0;126.5078,-8.8672;TL-VI;Viqueque;Lugassa
+0;126.5086,-8.8664;TL-VI;Viqueque;Biadae
+0;126.5133,-8.8492;TL-VI;Viqueque;Makadiki
+0;126.5167,-8.8367;TL-VI;Viqueque;Pafuloain
+0;126.5286,-8.8258;TL-VI;Viqueque;Uatolari
+0;126.5336,-8.8211;TL-VI;Viqueque;Uatolari
+0;126.5267,-8.8169;TL-VI;Viqueque;Matahoi
+0;126.5269,-8.8147;TL-VI;Viqueque;Umaquic
+0;126.5458,-8.8036;TL-VI;Viqueque;Saebau
+0;126.5475,-8.8044;TL-VI;Viqueque;Naidala
+0;126.5508,-8.8014;TL-VI;Viqueque;Uaitame
+0;125.2397,-8.6067;TL-LI;Liquiçá;Samanaro
+0;124.9656,-8.9497;TL-BO;Bobonaro;Halinsana
+0;124.9456,-8.9889;TL-BO;Bobonaro;Badutmean
+0;124.9961,-8.9800;TL-BO;Bobonaro;Maudekur
+0;124.9944,-8.9678;TL-BO;Bobonaro;Biae
+0;126.5531,-8.8000;TL-VI;Viqueque;Darabai
+0;126.5544,-8.7986;TL-VI;Viqueque;Fohomano
+0;126.5558,-8.7967;TL-VI;Viqueque;Dinbau
+0;126.5594,-8.7919;TL-VI;Viqueque;Borolalo
+0;126.6383,-8.7747;TL-VI;Viqueque;Vessoro
+0;126.5636,-8.7772;TL-VI;Viqueque;Babulo
+0;126.5631,-8.7753;TL-VI;Viqueque;Afloicai
+0;126.6111,-8.7753;TL-VI;Viqueque;Cucodere
+0;126.0067,-8.5339;TL-MT;Manatuto;Carlilo
+0;126.0247,-8.5264;TL-MT;Manatuto;Soraha
+0;126.0069,-8.5211;TL-MT;Manatuto;Lahuoae
+0;126.0431,-8.5192;TL-MT;Manatuto;Dadean Huhun
+0;125.0008,-8.9639;TL-BO;Bobonaro;Kolosuma
+0;124.9933,-8.9631;TL-BO;Bobonaro;Motamorak
+0;124.9842,-8.9581;TL-BO;Bobonaro;Aumodok
+0;124.9908,-8.9489;TL-BO;Bobonaro;Sukabelulik
+0;124.9786,-8.9417;TL-BO;Bobonaro;Nubadak
+0;124.9931,-8.9214;TL-BO;Bobonaro;Macassar
+0;126.6381,-8.6264;TL-BA;Baucau;Larigua
+0;126.6356,-8.6331;TL-BA;Baucau;Malulai
+0;126.6422,-8.6306;TL-BA;Baucau;Afalari
+0;126.6397,-8.6381;TL-BA;Baucau;Bahatata
+0;126.6433,-8.6381;TL-BA;Baucau;Namanei
+0;126.0306,-8.5128;TL-MT;Manatuto;Aitehen
+0;126.6456,-8.6383;TL-BA;Baucau;Beheissi
+0;126.6308,-8.6456;TL-BA;Baucau;Bacarui
+0;126.6333,-8.6497;TL-BA;Baucau;Haeconi
+0;125.1386,-8.6392;TL-LI;Liquiçá;Dair
+0;126.6469,-8.6475;TL-VI;Viqueque;Builicorae
+0;126.6258,-8.6536;TL-VI;Viqueque;Ossohuna
+0;126.6381,-8.6556;TL-VI;Viqueque;Marae
+0;126.0158,-8.5106;TL-MT;Manatuto;Aiteas
+0;126.6286,-8.6567;TL-VI;Viqueque;Caiualita
+0;126.0111,-8.5100;TL-MT;Manatuto;Sau
+0;126.6272,-8.6581;TL-VI;Viqueque;Locohu
+0;126.6472,-8.6606;TL-VI;Viqueque;Liabuta
+0;126.6481,-8.6686;TL-VI;Viqueque;Uatobita
+0;126.6292,-8.6731;TL-VI;Viqueque;Locohu
+0;126.6325,-8.6756;TL-VI;Viqueque;Ossomali
+0;126.6403,-8.6922;TL-VI;Viqueque;Alooli
+0;126.6381,-8.6928;TL-VI;Viqueque;Uaniuma
+0;126.6553,-8.6936;TL-VI;Viqueque;Macaducarau
+0;126.6344,-8.7042;TL-VI;Viqueque;Docoate
+0;126.6397,-8.7219;TL-VI;Viqueque;Burabahae
+0;126.6403,-8.7353;TL-VI;Viqueque;Taradae
+0;126.6783,-8.7233;TL-VI;Viqueque;Lacoloroho
+0;126.6714,-8.7103;TL-VI;Viqueque;Maussoe
+0;126.6936,-8.7039;TL-VI;Viqueque;Uagabuta
+0;126.6581,-8.6883;TL-VI;Viqueque;Bualale
+0;126.6669,-8.6922;TL-VI;Viqueque;Betoria
+0;126.6717,-8.6878;TL-VI;Viqueque;Afaloicai
+0;126.6728,-8.6856;TL-VI;Viqueque;Lecoala
+0;126.6686,-8.6881;TL-VI;Viqueque;Deralare
+0;126.6892,-8.6906;TL-VI;Viqueque;Macaussa
+0;126.7042,-8.6953;TL-VI;Viqueque;Irabere
+0;126.6978,-8.6839;TL-VI;Viqueque;Assafadae
+0;126.6978,-8.6825;TL-VI;Viqueque;Liabuta
+0;126.6994,-8.6800;TL-VI;Viqueque;Bualale
+0;126.6997,-8.6783;TL-VI;Viqueque;Loiulo
+0;126.6689,-8.6658;TL-VI;Viqueque;Uaimare
+0;126.6581,-8.6672;TL-VI;Viqueque;Tetumori
+0;126.6569,-8.6553;TL-VI;Viqueque;Tatadere
+0;126.6569,-8.6517;TL-VI;Viqueque;Samalari
+0;126.6514,-8.6492;TL-VI;Viqueque;Bahatata
+0;126.6561,-8.6436;TL-VI;Viqueque;Nelouai
+0;126.6778,-8.6350;TL-BA;Baucau;Caidauai
+0;126.6858,-8.6375;TL-BA;Baucau;Buboha
+0;126.6858,-8.6389;TL-BA;Baucau;Tirifalo
+0;126.6503,-8.6306;TL-BA;Baucau;Neolidae
+0;126.6544,-8.6283;TL-BA;Baucau;Alaua 1
+0;126.6594,-8.6286;TL-BA;Baucau;Uasufa
+0;126.6519,-8.6258;TL-BA;Baucau;Maurubiassa
+0;126.6578,-8.6264;TL-BA;Baucau;Alaua 2
+0;126.6772,-8.6256;TL-BA;Baucau;Afguia
+0;126.8006,-8.7514;TL-LA;Lautém;Rofo
+0;126.2233,-8.8944;TL-VI;Viqueque;Fahilain
+0;126.2219,-8.8933;TL-VI;Viqueque;Talioan
+0;126.2250,-8.8925;TL-VI;Viqueque;Datametan
+0;126.2233,-8.8914;TL-VI;Viqueque;Umatolu
+0;126.2250,-8.8897;TL-VI;Viqueque;Aisucunuc
+0;126.2203,-8.8819;TL-VI;Viqueque;Clarecmaruc
+0;125.2606,-8.6067;TL-LI;Liquiçá;Raeme
+0;125.2858,-8.6206;TL-LI;Liquiçá;Tolema
+0;125.2953,-8.6233;TL-LI;Liquiçá;Katnaulete
+0;125.3083,-8.6239;TL-LI;Liquiçá;Laklolema
+0;125.3236,-8.6217;TL-LI;Liquiçá;Soatala
+0;125.3408,-8.6217;TL-LI;Liquiçá;Hekar
+0;125.3514,-8.6208;TL-LI;Liquiçá;Kailelilema
+0;125.3667,-8.6231;TL-LI;Liquiçá;Metaluli
+0;125.2897,-8.6042;TL-LI;Liquiçá;Vatunau
+0;125.3581,-8.6075;TL-LI;Liquiçá;Kamalehou
+0;125.3686,-8.6064;TL-LI;Liquiçá;Kumahu
+0;124.9992,-8.9017;TL-BO;Bobonaro;Qima
+0;125.0061,-8.9939;TL-BO;Bobonaro;Haliren
+0;125.0033,-8.9806;TL-BO;Bobonaro;Lotan
+0;125.0383,-8.9669;TL-BO;Bobonaro;Misi
+0;125.0419,-8.9661;TL-BO;Bobonaro;Dadubere
+0;125.0425,-8.9669;TL-BO;Bobonaro;Airae
+0;125.0467,-8.9681;TL-BO;Bobonaro;Aube
+0;125.0492,-8.9686;TL-BO;Bobonaro;Minereng
+0;125.0436,-8.9700;TL-BO;Bobonaro;Fatukuak
+0;125.0392,-8.9736;TL-BO;Bobonaro;Fatululit
+0;125.0286,-8.9606;TL-BO;Bobonaro;Fatukakae
+0;125.0528,-8.9647;TL-BO;Bobonaro;Berame
+0;125.0564,-8.9600;TL-BO;Bobonaro;Beain
+0;125.0617,-8.9572;TL-BO;Bobonaro;Aitos
+0;125.0647,-8.9550;TL-BO;Bobonaro;Fatunisin
+0;125.0711,-8.9522;TL-BO;Bobonaro;Belola
+0;125.0725,-8.9514;TL-BO;Bobonaro;Lasuleten
+0;125.0792,-8.9547;TL-BO;Bobonaro;Fiuren
+0;125.0711,-8.9486;TL-BO;Bobonaro;Malibikan
+0;125.0706,-8.9572;TL-BO;Bobonaro;Bilekun
+0;125.0803,-8.9583;TL-BO;Bobonaro;Aiasa
+0;125.0819,-8.9642;TL-BO;Bobonaro;Kamileten
+0;125.0997,-8.9761;TL-BO;Bobonaro;Maulelo
+0;125.0850,-8.9747;TL-BO;Bobonaro;Ualeten
+0;125.1550,-8.6461;TL-LI;Liquiçá;Kaikasa
+0;125.1614,-8.6347;TL-LI;Liquiçá;Pukelete
+0;125.1719,-8.6297;TL-LI;Liquiçá;Delusuvati
+0;125.1856,-8.6350;TL-LI;Liquiçá;Lebumeta
+0;125.1900,-8.6414;TL-LI;Liquiçá;Darulara
+0;125.2022,-8.6317;TL-LI;Liquiçá;Pabalebu
+0;125.1989,-8.6394;TL-LI;Liquiçá;Pametapu
+0;125.2039,-8.6417;TL-LI;Liquiçá;Lakmade
+0;125.1933,-8.6464;TL-LI;Liquiçá;Nunuana
+0;125.2008,-8.6469;TL-LI;Liquiçá;Laklema
+0;125.2125,-8.6344;TL-LI;Liquiçá;Vatuguili
+0;125.2194,-8.6344;TL-LI;Liquiçá;Kemipu
+0;125.2278,-8.6358;TL-LI;Liquiçá;Lebulema
+0;125.2269,-8.6431;TL-LI;Liquiçá;Lisalara
+0;125.2397,-8.6433;TL-LI;Liquiçá;Samanaro
+0;125.2336,-8.6542;TL-LI;Liquiçá;Bourawei
+0;125.2353,-8.6586;TL-LI;Liquiçá;Melabua
+0;125.2397,-8.6658;TL-LI;Liquiçá;Manuquibia
+0;125.2381,-8.6728;TL-LI;Liquiçá;Lebuhae
+0;125.2253,-8.6644;TL-LI;Liquiçá;Darolema
+0;125.2181,-8.6653;TL-LI;Liquiçá;Darulema
+0;125.2103,-8.6567;TL-LI;Liquiçá;Baiquenilau
+0;125.2125,-8.6703;TL-LI;Liquiçá;Kaikasa
+0;125.2033,-8.6647;TL-LI;Liquiçá;Lisalara
+0;125.1933,-8.6578;TL-LI;Liquiçá;Nunulete
+0;125.1925,-8.6594;TL-LI;Liquiçá;Samanaro
+0;125.1683,-8.6475;TL-LI;Liquiçá;Raenaba
+0;125.1714,-8.6525;TL-LI;Liquiçá;Erito
+0;125.1719,-8.6561;TL-LI;Liquiçá;Lauvou
+0;125.1858,-8.6656;TL-LI;Liquiçá;Lisalara
+0;125.1564,-8.6628;TL-LI;Liquiçá;Lautekas
+0;125.1428,-8.6589;TL-LI;Liquiçá;Palistela
+0;125.1311,-8.6606;TL-LI;Liquiçá;Vawinana
+0;125.1358,-8.6689;TL-LI;Liquiçá;Waupu
+0;125.1292,-8.6797;TL-LI;Liquiçá;Raiglelu
+0;125.1514,-8.6797;TL-LI;Liquiçá;Kepelari
+0;125.1642,-8.6739;TL-LI;Liquiçá;Vatumori
+0;125.1439,-8.6919;TL-LI;Liquiçá;Kaibair
+0;125.1761,-8.6892;TL-LI;Liquiçá;Vatuvei
+0;125.1903,-8.6942;TL-LI;Liquiçá;Watuadalara
+0;125.1975,-8.6906;TL-LI;Liquiçá;Mauuno
+0;125.2031,-8.6819;TL-LI;Liquiçá;Batubeleter
+0;125.1975,-8.6764;TL-LI;Liquiçá;Kaikasa Vou
+0;125.2350,-8.6775;TL-LI;Liquiçá;Esloso
+0;125.2411,-8.6842;TL-LI;Liquiçá;Pelelor
+0;125.2239,-8.6897;TL-LI;Liquiçá;Nunulisa
+0;125.1844,-8.7014;TL-LI;Liquiçá;Pandavou
+0;125.1542,-8.7061;TL-LI;Liquiçá;Simarema
+0;125.3128,-8.5908;TL-LI;Liquiçá;Kemalehohuru
+0;125.3208,-8.5994;TL-LI;Liquiçá;Kemalelara
+0;125.3294,-8.5975;TL-LI;Liquiçá;Kotalara
+0;125.3253,-8.5917;TL-LI;Liquiçá;Leopa
+0;125.3278,-8.5950;TL-LI;Liquiçá;Dato
+0;125.3436,-8.5894;TL-LI;Liquiçá;Nartutu
+0;125.1317,-8.7167;TL-LI;Liquiçá;Vatuleurai
+0;125.1503,-8.7314;TL-LI;Liquiçá;Lebulugor
+0;125.1364,-8.7317;TL-LI;Liquiçá;Lepalaka
+0;125.1669,-8.7322;TL-LI;Liquiçá;Irlelo
+0;125.1797,-8.7431;TL-LI;Liquiçá;Goulete
+0;125.1886,-8.7342;TL-LI;Liquiçá;Raimeda
+0;125.2008,-8.7339;TL-LI;Liquiçá;Glai
+0;125.2000,-8.7369;TL-LI;Liquiçá;Siamado
+0;125.2156,-8.7228;TL-LI;Liquiçá;Wategas
+0;125.2347,-8.7172;TL-LI;Liquiçá;Uluana
+0;125.2447,-8.7461;TL-ER;Ermera;Dirihatilau
+0;126.1436,-8.6092;TL-MT;Manatuto;Biaboe
+0;126.1458,-8.6072;TL-MT;Manatuto;Wainuno
+0;126.1439,-8.6072;TL-MT;Manatuto;Raimea
+0;126.1464,-8.6061;TL-MT;Manatuto;Hatusili
+0;126.1442,-8.6058;TL-MT;Manatuto;Corohoco
+0;126.1447,-8.6050;TL-MT;Manatuto;Raibua
+0;126.2083,-8.5819;TL-BA;Baucau;Uaigae
+0;126.1600,-8.5769;TL-MT;Manatuto;Samalai
+0;126.1622,-8.5411;TL-MT;Manatuto;Umaiuk
+0;126.6919,-8.6542;TL-VI;Viqueque;Lauaba
+0;126.6886,-8.6375;TL-BA;Baucau;Adoi
+0;126.6986,-8.6769;TL-VI;Viqueque;Denihare
+0;126.7164,-8.6903;TL-VI;Viqueque;Bahatata
+0;126.7186,-8.6875;TL-VI;Viqueque;Nelouai
+0;126.7189,-8.6908;TL-VI;Viqueque;Builako
+0;126.7197,-8.6925;TL-VI;Viqueque;Utimori
+0;126.7111,-8.6972;TL-VI;Viqueque;Uatobita
+0;126.7106,-8.6983;TL-VI;Viqueque;Irabinhooli
+0;126.7100,-8.6994;TL-VI;Viqueque;Kailoloho
+0;126.7111,-8.7000;TL-VI;Viqueque;Marae
+0;126.7136,-8.7008;TL-VI;Viqueque;Kaidaho
+0;126.7139,-8.7025;TL-VI;Viqueque;Tetomori
+0;126.7122,-8.7322;TL-VI;Viqueque;Bualale
+0;126.7144,-8.7425;TL-VI;Viqueque;Taradiga
+0;126.7086,-8.7472;TL-VI;Viqueque;Maraussa
+0;126.7022,-8.7472;TL-VI;Viqueque;Irabinleteria
+0;126.6981,-8.7464;TL-VI;Viqueque;Betoria
+0;126.6969,-8.7486;TL-VI;Viqueque;Taradae
+0;126.7050,-8.7492;TL-VI;Viqueque;Uatodere
+0;126.7236,-8.7189;TL-VI;Viqueque;Haebubo
+0;126.7200,-8.6886;TL-VI;Viqueque;Tatodere
+0;126.7272,-8.6561;TL-BA;Baucau;Bibidae
+0;126.7300,-8.6564;TL-BA;Baucau;Uatatefo
+0;126.7247,-8.6544;TL-BA;Baucau;Lauhare
+0;126.7264,-8.6531;TL-BA;Baucau;Baehana
+0;126.7275,-8.6533;TL-BA;Baucau;Larisula
+0;126.7303,-8.6550;TL-BA;Baucau;Uro
+0;126.7372,-8.6456;TL-BA;Baucau;Uatatefo
+0;126.7333,-8.6433;TL-BA;Baucau;Uro
+0;126.7300,-8.6369;TL-BA;Baucau;Lauhare
+0;126.7314,-8.6350;TL-BA;Baucau;Larisula
+0;126.7331,-8.6308;TL-BA;Baucau;Caudatae
+0;126.7136,-8.6289;TL-BA;Baucau;Tirifalo
+0;126.7200,-8.6408;TL-BA;Baucau;Bibidae
+0;126.5075,-8.6367;TL-BA;Baucau;Cairedo
+0;126.5003,-8.6456;TL-BA;Baucau;Ualiu
+0;126.5056,-8.6453;TL-BA;Baucau;Uabuu
+0;126.5125,-8.6461;TL-BA;Baucau;Uaibu
+0;126.5128,-8.6525;TL-BA;Baucau;Sauacassa
+0;126.5286,-8.6328;TL-BA;Baucau;Uatalio
+0;126.5294,-8.6342;TL-BA;Baucau;Laissorolai Craic
+0;126.5325,-8.6389;TL-BA;Baucau;Uluisi
+0;126.5378,-8.6400;TL-BA;Baucau;Daraoma
+0;126.5425,-8.6431;TL-BA;Baucau;Bualale
+0;126.5353,-8.6558;TL-BA;Baucau;Laissorolai
+0;126.5331,-8.6544;TL-BA;Baucau;Baticassa
+0;126.5406,-8.6542;TL-BA;Baucau;Uaidaba
+0;126.5183,-8.6572;TL-BA;Baucau;Lelalai
+0;126.5175,-8.6597;TL-BA;Baucau;Daemenama
+0;126.5250,-8.6594;TL-BA;Baucau;Maluro
+0;126.5183,-8.6647;TL-BA;Baucau;Lolubowogua
+0;126.5161,-8.6764;TL-BA;Baucau;Sauacassa
+0;126.5153,-8.6811;TL-VI;Viqueque;Ateuaissi
+0;126.5333,-8.6714;TL-BA;Baucau;Uaroro
+0;126.5489,-8.7122;TL-VI;Viqueque;Uatora
+0;126.5372,-8.7339;TL-VI;Viqueque;Samadare
+0;126.5208,-8.7494;TL-VI;Viqueque;Siquilari
+0;126.2025,-8.5158;TL-BA;Baucau;Raha
+0;126.2192,-8.5072;TL-BA;Baucau;Oralan
+0;126.2258,-8.5125;TL-BA;Baucau;Caicua
+0;126.2281,-8.5092;TL-BA;Baucau;Bahamori
+0;126.2367,-8.5039;TL-BA;Baucau;Lor
+0;126.1603,-8.5050;TL-MT;Manatuto;Kampung Baru
+0;124.0697,-9.3437;TL-OE;Oecusse;Naktuka
+0;124.0832,-9.3480;TL-OE;Oecusse;Oehoso
+0;124.0854,-9.3422;TL-OE;Oecusse;Manan
+0;125.1028,-9.4350;TL-CO;Cova Lima;Walabaru
+0;125.1113,-9.4254;TL-CO;Cova Lima;Tulaiduk Bawah
+0;125.2514,-8.6294;TL-LI;Liquiçá;Samanaro
+0;125.2944,-8.6278;TL-LI;Liquiçá;Hataulete
+0;125.2981,-8.6383;TL-LI;Liquiçá;Vitanau
+0;125.3033,-8.6372;TL-LI;Liquiçá;Nunuhou
+0;125.3175,-8.6317;TL-LI;Liquiçá;Hatarlema
+0;125.3089,-8.6392;TL-LI;Liquiçá;Tautalo
+0;125.3342,-8.6342;TL-LI;Liquiçá;Manacolohata
+0;125.3536,-8.6350;TL-LI;Liquiçá;Hunahai
+0;125.3625,-8.6294;TL-LI;Liquiçá;Kaileulema
+0;125.3603,-8.6361;TL-LI;Liquiçá;Lebuana
+0;125.3686,-8.6292;TL-LI;Liquiçá;Metaluli
+0;125.3614,-8.6411;TL-LI;Liquiçá;Asorlema
+0;125.3561,-8.6422;TL-LI;Liquiçá;Metagao
+0;126.5483,-8.6278;TL-BA;Baucau;Lialura
+0;126.5644,-8.6364;TL-BA;Baucau;Uaidora
+0;126.5644,-8.6431;TL-BA;Baucau;Abomatebean
+0;126.5611,-8.6453;TL-BA;Baucau;Ossomeca
+0;126.5478,-8.6536;TL-BA;Baucau;Laissorolai
+0;126.5506,-8.6617;TL-BA;Baucau;Samafano
+0;126.5697,-8.6997;TL-VI;Viqueque;Ilalein
+0;125.3369,-8.6436;TL-LI;Liquiçá;Hatululi
+0;126.6153,-8.6697;TL-BA;Baucau;Ulolaco
+0;125.3422,-8.6472;TL-LI;Liquiçá;Nunturi
+0;126.6197,-8.6694;TL-BA;Baucau;Lacolu
+0;125.3481,-8.6425;TL-LI;Liquiçá;Carolema
+0;126.6156,-8.6672;TL-BA;Baucau;Samalari
+0;125.3214,-8.6450;TL-LI;Liquiçá;Hatuqesilete
+0;126.6117,-8.6661;TL-BA;Baucau;Uaimata
+0;126.6125,-8.6600;TL-BA;Baucau;Salai
+0;126.6100,-8.6578;TL-BA;Baucau;Afaloicai
+0;125.3142,-8.6425;TL-LI;Liquiçá;Caidico
+0;126.6133,-8.6528;TL-BA;Baucau;Ossohuna
+0;125.2939,-8.6500;TL-LI;Liquiçá;Lauclau
+0;125.2819,-8.6428;TL-LI;Liquiçá;Hatunau
+0;126.6192,-8.6978;TL-VI;Viqueque;Uaicai
+0;125.2658,-8.6394;TL-LI;Liquiçá;Raeme
+0;125.2625,-8.6497;TL-LI;Liquiçá;Watubau
+0;125.2553,-8.6633;TL-LI;Liquiçá;Lisaico
+0;125.2708,-8.6669;TL-LI;Liquiçá;Manucibia
+0;125.2936,-8.6689;TL-LI;Liquiçá;Gariana
+0;125.3100,-8.6744;TL-LI;Liquiçá;Kaimegoluli
+0;125.3242,-8.6669;TL-LI;Liquiçá;Hatumasi
+0;125.3086,-8.6603;TL-LI;Liquiçá;Tolema
+0;126.0619,-8.8464;TL-MT;Manatuto;Kribasbarique
+0;125.3225,-8.6531;TL-LI;Liquiçá;Nunubrihate
+0;125.0367,-8.9961;TL-BO;Bobonaro;Oepauk
+0;125.3261,-8.6581;TL-LI;Liquiçá;Lebosalara
+0;125.0389,-8.9903;TL-BO;Bobonaro;Nalametan
+0;125.0500,-8.9911;TL-BO;Bobonaro;Fatuklaran
+0;125.3339,-8.6489;TL-LI;Liquiçá;Kirilelo
+0;125.0617,-8.9981;TL-BO;Bobonaro;Mohak
+0;125.3358,-8.6603;TL-LI;Liquiçá;Lebuhai
+0;125.0650,-8.9942;TL-BO;Bobonaro;Ferikatuas
+0;125.0753,-8.9914;TL-BO;Bobonaro;Wiwik
+0;125.3317,-8.6644;TL-LI;Liquiçá;Vazetida Algar
+0;125.0519,-8.9772;TL-BO;Bobonaro;Raihun
+0;125.3467,-8.6508;TL-LI;Liquiçá;Caileli
+0;125.0753,-8.9714;TL-BO;Bobonaro;Fauk
+0;125.3608,-8.6497;TL-LI;Liquiçá;Natare
+0;126.0639,-8.8478;TL-MT;Manatuto;Webani
+0;125.1089,-8.9531;TL-BO;Bobonaro;Sosoana
+0;125.3572,-8.6592;TL-LI;Liquiçá;Lebui
+0;125.1161,-8.9600;TL-BO;Bobonaro;Manuamang
+0;125.3583,-8.6647;TL-LI;Liquiçá;Manufatia
+0;126.0650,-8.8469;TL-MT;Manatuto;Caunua
+0;125.3425,-8.6711;TL-LI;Liquiçá;Boelema
+0;125.3481,-8.6694;TL-LI;Liquiçá;Fahate
+0;125.0994,-8.9431;TL-BO;Bobonaro;Diruana
+0;125.3728,-8.6533;TL-LI;Liquiçá;Baura
+0;125.0786,-8.9306;TL-BO;Bobonaro;Faturui
+0;125.0786,-8.9233;TL-BO;Bobonaro;Duaderok
+0;125.0914,-8.9131;TL-BO;Bobonaro;Dualanok
+0;125.3725,-8.6783;TL-LI;Liquiçá;Ecapo
+0;125.3686,-8.6822;TL-LI;Liquiçá;Fatuhou
+0;125.0844,-8.8947;TL-BO;Bobonaro;Semautleten
+0;125.1167,-8.8833;TL-BO;Bobonaro;Aikau
+0;125.0658,-8.9081;TL-BO;Bobonaro;Oetapo
+0;125.0703,-8.9050;TL-BO;Bobonaro;Kiru
+0;125.0547,-8.9167;TL-BO;Bobonaro;Taumrian
+0;125.0508,-8.9036;TL-BO;Bobonaro;Datolia
+0;125.0314,-8.8811;TL-BO;Bobonaro;Aimalai
+0;125.0242,-8.8881;TL-BO;Bobonaro;Oeminak
+0;125.0169,-8.8911;TL-BO;Bobonaro;Oemarasi
+0;125.0044,-8.8953;TL-BO;Bobonaro;Palaka
+0;125.0261,-8.9392;TL-BO;Bobonaro;Tapo
+0;125.0344,-8.9492;TL-BO;Bobonaro;Fatuteke
+0;125.0297,-8.9286;TL-BO;Bobonaro;Subalesu
+0;125.0367,-8.9286;TL-BO;Bobonaro;Surpatin
+0;125.0444,-8.9314;TL-BO;Bobonaro;Boibun
+0;125.0406,-8.9253;TL-BO;Bobonaro;Maliaben
+0;125.0578,-8.9386;TL-BO;Bobonaro;Malileten
+0;125.0708,-8.9375;TL-BO;Bobonaro;Boro
+0;126.4506,-8.9458;TL-VI;Viqueque;Maluro
+0;126.4025,-8.9278;TL-VI;Viqueque;Momomento
+0;126.4003,-8.9264;TL-VI;Viqueque;Bibiluto
+0;126.4014,-8.9242;TL-VI;Viqueque;Raitahu
+0;126.3761,-8.8819;TL-VI;Viqueque;Naibaroc
+0;126.4914,-8.8806;TL-VI;Viqueque;Fatoalas
+0;126.3758,-8.8725;TL-VI;Viqueque;Caraubalo
+0;126.4413,-8.7262;TL-VI;Viqueque;Buanurak
+0;126.3783,-8.7903;TL-VI;Viqueque;Samaleo
+0;126.3781,-8.7842;TL-VI;Viqueque;Uaiheda
+0;126.3756,-8.7839;TL-VI;Viqueque;Kaitulai
+0;126.3775,-8.7828;TL-VI;Viqueque;Loihuno
+0;126.3781,-8.7817;TL-VI;Viqueque;Kailatulale
+0;126.3819,-8.7517;TL-VI;Viqueque;Borala
+0;126.4072,-8.7503;TL-VI;Viqueque;Muami
+0;126.4131,-8.7564;TL-VI;Viqueque;Uatu Manutuku
+0;126.4139,-8.7589;TL-VI;Viqueque;Luhabere
+0;126.4117,-8.7600;TL-VI;Viqueque;Dulibuti
+0;126.4086,-8.7669;TL-VI;Viqueque;Dassarai
+0;126.4092,-8.7686;TL-VI;Viqueque;Uaitutumata
+0;126.4442,-8.7544;TL-VI;Viqueque;Ossoroa
+0;125.1369,-8.8603;TL-BO;Bobonaro;Fatumea
+0;125.1303,-8.8506;TL-BO;Bobonaro;Pasmaten
+0;125.1800,-8.8728;TL-BO;Bobonaro;Aidabasalala
+0;125.1839,-8.8644;TL-BO;Bobonaro;Suruhati
+0;125.1867,-8.8597;TL-BO;Bobonaro;Buloi
+0;125.1806,-8.8589;TL-BO;Bobonaro;Lahululi
+0;125.1892,-8.8458;TL-BO;Bobonaro;Airamasala
+0;125.1761,-8.8367;TL-BO;Bobonaro;Atumate
+0;125.1667,-8.8383;TL-BO;Bobonaro;Buloilaun
+0;125.1636,-8.8358;TL-BO;Bobonaro;Nunuteten
+0;125.1953,-8.8386;TL-BO;Bobonaro;Koilima
+0;125.1989,-8.8347;TL-BO;Bobonaro;Hatubou
+0;125.2011,-8.8319;TL-BO;Bobonaro;Dirularan
+0;125.2028,-8.8311;TL-BO;Bobonaro;Peumate
+0;125.2044,-8.8258;TL-BO;Bobonaro;Daarobu
+0;125.2050,-8.8219;TL-BO;Bobonaro;Loumate
+0;125.2069,-8.8194;TL-BO;Bobonaro;Lugu Teho
+0;125.2192,-8.8517;TL-BO;Bobonaro;Banedole
+0;125.2242,-8.8564;TL-BO;Bobonaro;Sabarakalara
+0;125.2133,-8.8689;TL-BO;Bobonaro;Maumela
+0;125.2122,-8.8742;TL-BO;Bobonaro;Biadila
+0;125.2350,-8.8711;TL-BO;Bobonaro;Dilatorobo
+0;125.2333,-8.8686;TL-BO;Bobonaro;Poelete
+0;125.2275,-8.8656;TL-BO;Bobonaro;Paslete
+0;125.2311,-8.8450;TL-BO;Bobonaro;Abuli
+0;125.2183,-8.8358;TL-BO;Bobonaro;Lesupu
+0;125.2189,-8.8214;TL-BO;Bobonaro;Heda
+0;125.2219,-8.8094;TL-BO;Bobonaro;Aidabaraeabe
+0;125.2236,-8.8050;TL-BO;Bobonaro;Turema
+0;125.2119,-8.7978;TL-BO;Bobonaro;Fatubessi
+0;125.2111,-8.7958;TL-BO;Bobonaro;Nunudoi
+0;125.2228,-8.7947;TL-BO;Bobonaro;Ritiogoro
+0;125.2436,-8.7978;TL-BO;Bobonaro;Aimia
+0;125.2428,-8.7919;TL-BO;Bobonaro;Banegoa
+0;125.2403,-8.7528;TL-ER;Ermera;Poelete
+0;125.2339,-8.7536;TL-ER;Ermera;Ceres
+0;125.2075,-8.7583;TL-ER;Ermera;Sare
+0;125.1869,-8.7567;TL-BO;Bobonaro;Oekiar
+0;125.1944,-8.7644;TL-BO;Bobonaro;Oebola
+0;125.1986,-8.7697;TL-BO;Bobonaro;Madehoau
+0;125.2011,-8.7711;TL-BO;Bobonaro;Kakamata
+0;125.3156,-8.6528;TL-LI;Liquiçá;Caicoletohoho
+0;125.3519,-8.6814;TL-LI;Liquiçá;Mangkir
+0;125.3647,-8.6833;TL-LI;Liquiçá;Ergoa
+0;125.3464,-8.6864;TL-LI;Liquiçá;Caicassico
+0;125.3303,-8.6892;TL-LI;Liquiçá;Cirilelo
+0;125.3058,-8.6869;TL-LI;Liquiçá;Manati
+0;125.2936,-8.6903;TL-LI;Liquiçá;Banitur
+0;125.2986,-8.7178;TL-ER;Ermera;Hatulialete
+0;125.3061,-8.7194;TL-ER;Ermera;Laulema
+0;125.3044,-8.7314;TL-ER;Ermera;Buburia
+0;125.2986,-8.7328;TL-ER;Ermera;Abat
+0;125.3039,-8.7444;TL-ER;Ermera;Lebumeo
+0;125.2647,-8.7303;TL-ER;Ermera;Caisoro
+0;125.2536,-8.7383;TL-ER;Ermera;Direma
+0;125.3200,-8.7292;TL-ER;Ermera;Oeleo
+0;125.3211,-8.7381;TL-ER;Ermera;Matanova
+0;125.3108,-8.7433;TL-ER;Ermera;Sapso
+0;125.3278,-8.7439;TL-ER;Ermera;Maukali
+0;125.3472,-8.7406;TL-ER;Ermera;Leborema
+0;125.3636,-8.7297;TL-ER;Ermera;Gaelema
+0;125.3522,-8.7353;TL-ER;Ermera;Groto
+0;125.3589,-8.7411;TL-ER;Ermera;Hatupa
+0;125.3406,-8.7294;TL-ER;Ermera;Arle
+0;125.3653,-8.7433;TL-ER;Ermera;Aitemua
+0;125.3728,-8.7383;TL-ER;Ermera;Tataeulu
+0;125.3428,-8.7489;TL-ER;Ermera;Railete
+0;125.3586,-8.7136;TL-ER;Ermera;Nounanaro
+0;125.3633,-8.7219;TL-ER;Ermera;Lauraehou
+0;125.3719,-8.7103;TL-ER;Ermera;Sacoco
+0;125.3478,-8.7131;TL-ER;Ermera;Tidibesse
+0;125.3519,-8.6992;TL-LI;Liquiçá;Sisicolema
+0;125.3328,-8.7133;TL-ER;Ermera;Caturlau
+0;125.3328,-8.7194;TL-ER;Ermera;Raemean
+0;125.3264,-8.7231;TL-ER;Ermera;Urahou
+0;125.3228,-8.7203;TL-ER;Ermera;Manohatu
+0;125.3189,-8.7192;TL-ER;Ermera;Dosmagar
+0;125.3186,-8.7061;TL-ER;Ermera;Dosmagar Kraik
+0;125.3589,-8.5808;TL-LI;Liquiçá;Pisukaraik
+0;125.3492,-8.5875;TL-LI;Liquiçá;Pisulete
+0;125.1189,-8.6531;TL-LI;Liquiçá;Kelisifu
+0;125.1144,-8.6597;TL-LI;Liquiçá;Fasili
+0;126.3733,-8.8308;TL-VI;Viqueque;Walawau
+0;126.3656,-8.8522;TL-VI;Viqueque;Mamulak
+0;126.3628,-8.8561;TL-VI;Viqueque;Siralari
+0;126.3636,-8.8578;TL-VI;Viqueque;Manehat
+0;126.3639,-8.8589;TL-VI;Viqueque;Caraubalo
+0;126.3636,-8.8600;TL-VI;Viqueque;Lameklaran
+0;125.1434,-9.4056;TL-CO;Cova Lima;Halimea Bawah
+0;125.2106,-9.3865;TL-CO;Cova Lima;Kasabauk 2
+0;125.1958,-9.3833;TL-CO;Cova Lima;Kasabauk 1
+0;125.1869,-9.3803;TL-CO;Cova Lima;Maudemu
+0;126.3719,-8.8681;TL-VI;Viqueque;Hasabut
+0;126.3733,-8.8708;TL-VI;Viqueque;Vessa
+0;126.3667,-8.8681;TL-VI;Viqueque;Cabirooan
+0;126.3519,-8.8544;TL-VI;Viqueque;Umaliurai
+0;126.3464,-8.8558;TL-VI;Viqueque;Umabooh
+0;126.3506,-8.8575;TL-VI;Viqueque;Uaibobo
+0;126.3514,-8.8589;TL-VI;Viqueque;Uatulesu
+0;126.3542,-8.8572;TL-VI;Viqueque;Lululae
+0;126.3522,-8.8603;TL-VI;Viqueque;Meuai
+0;126.3419,-8.7514;TL-VI;Viqueque;Liawaeoli
+0;126.3131,-8.7586;TL-VI;Viqueque;Bahaneu
+0;126.6372,-8.7758;TL-VI;Viqueque;Binita
+0;126.6383,-8.7747;TL-VI;Viqueque;Vessuro
+0;126.6533,-8.7669;TL-VI;Viqueque;Daradobi
+0;126.6586,-8.7586;TL-VI;Viqueque;Kapuas
+0;126.3664,-8.8761;TL-VI;Viqueque;Bahafau
+0;126.3667,-8.8778;TL-VI;Viqueque;Luwa
+0;126.3686,-8.8778;TL-VI;Viqueque;Makdean
+0;126.3692,-8.8789;TL-VI;Viqueque;Raihun
+0;126.3658,-8.8794;TL-VI;Viqueque;Ainauain
+0;126.3686,-8.8811;TL-VI;Viqueque;Maroman
+0;126.3689,-8.8806;TL-VI;Viqueque;Bahabunak
+0;126.2811,-8.9122;TL-VI;Viqueque;Buikarin
+0;126.2775,-8.9119;TL-VI;Viqueque;Kailoi
+0;126.2839,-8.9106;TL-VI;Viqueque;Aidac
+0;126.2817,-8.9133;TL-VI;Viqueque;Aisahe
+0;126.2808,-8.9150;TL-VI;Viqueque;Uaitalitua
+0;126.2792,-8.9153;TL-VI;Viqueque;Uelaku
+0;126.2806,-8.9164;TL-VI;Viqueque;Kainunuk
+0;126.2567,-8.9300;TL-VI;Viqueque;Canlor
+0;126.2558,-8.9300;TL-VI;Viqueque;Umabot
+0;126.2558,-8.9311;TL-VI;Viqueque;Umalor
+0;126.2569,-8.9311;TL-VI;Viqueque;Iramer
+0;126.2706,-8.9617;TL-VI;Viqueque;Lakuuai
+0;126.2694,-8.9625;TL-VI;Viqueque;Ueabae
+0;126.2706,-8.9625;TL-VI;Viqueque;Balidioan
+0;126.2692,-8.9633;TL-VI;Viqueque;Maneklaran
+0;126.2689,-8.9644;TL-VI;Viqueque;Aisahe
+0;126.2686,-8.9653;TL-VI;Viqueque;Amarleza
+0;126.2706,-8.9644;TL-VI;Viqueque;Hareoan
+0;126.2708,-8.9656;TL-VI;Viqueque;Fatuhosa
+0;126.6597,-8.7575;TL-VI;Viqueque;Kadilale
+0;126.6800,-8.7564;TL-VI;Viqueque;Comaoli
+0;126.6867,-8.7553;TL-VI;Viqueque;Uaniuma
+0;126.6883,-8.7542;TL-VI;Viqueque;Tanalale
+0;126.6975,-8.7500;TL-VI;Viqueque;Cailorodi
+0;125.1136,-8.6625;TL-LI;Liquiçá;Tobau
+0;125.1078,-8.7006;TL-LI;Liquiçá;Flarsirna
+0;125.1108,-8.7075;TL-LI;Liquiçá;Sabulau
+0;125.1150,-8.7275;TL-LI;Liquiçá;Reiglelu
+0;125.0994,-8.7489;TL-BO;Bobonaro;Kailokolaran
+0;125.1131,-8.7447;TL-BO;Bobonaro;Nunagbae
+0;125.1928,-8.7889;TL-BO;Bobonaro;Malete
+0;125.1811,-8.8144;TL-BO;Bobonaro;Maleteten
+0;125.1714,-8.8161;TL-BO;Bobonaro;Saburapo
+0;125.1553,-8.8153;TL-BO;Bobonaro;Rairobo
+0;125.1458,-8.8086;TL-BO;Bobonaro;Goulete
+0;125.1508,-8.8014;TL-BO;Bobonaro;Faturaseh
+0;125.1456,-8.7931;TL-BO;Bobonaro;Limanaro
+0;125.1622,-8.7769;TL-BO;Bobonaro;Tapoboten
+0;125.1417,-8.8278;TL-BO;Bobonaro;Aidabaleten
+0;125.1503,-8.8378;TL-BO;Bobonaro;Biarua
+0;125.1408,-8.9744;TL-BO;Bobonaro;Tonobibi
+0;125.1344,-8.9469;TL-BO;Bobonaro;Sckar
+0;125.1311,-8.9258;TL-BO;Bobonaro;Sulilako
+0;125.1475,-8.9208;TL-BO;Bobonaro;Alecou Baru
+0;125.1539,-8.9175;TL-BO;Bobonaro;Alecou Lama
+0;125.1381,-8.9092;TL-BO;Bobonaro;Biamarae
+0;125.1486,-8.9014;TL-BO;Bobonaro;Bausae
+0;125.1625,-8.8911;TL-BO;Bobonaro;Arlaeben
+0;125.1803,-8.9186;TL-BO;Bobonaro;Moleana
+0;125.1786,-8.9314;TL-BO;Bobonaro;Korlule
+0;125.2028,-8.9308;TL-BO;Bobonaro;Beabubu
+0;125.2164,-8.9219;TL-BO;Bobonaro;Samutaben
+0;125.2119,-8.9119;TL-BO;Bobonaro;Beasale
+0;125.2222,-8.9144;TL-BO;Bobonaro;Pisulara
+0;125.2292,-8.9031;TL-BO;Bobonaro;Mautilu
+0;125.2103,-8.8817;TL-BO;Bobonaro;Marko
+0;125.2353,-8.8786;TL-BO;Bobonaro;Daulelo
+0;125.2283,-8.8872;TL-BO;Bobonaro;Harema
+0;125.2439,-8.9069;TL-BO;Bobonaro;Mabutease
+0;125.2378,-8.9097;TL-BO;Bobonaro;Barolara
+0;125.2311,-8.9189;TL-BO;Bobonaro;Bereleu
+0;125.2394,-8.9311;TL-BO;Bobonaro;Lisuabe
+0;125.2344,-8.9328;TL-BO;Bobonaro;Mude
+0;125.2156,-8.9514;TL-BO;Bobonaro;Diruabe
+0;125.2292,-8.9519;TL-BO;Bobonaro;Manapaatas
+0;125.2144,-8.9597;TL-BO;Bobonaro;Samelau
+0;125.2144,-8.9675;TL-BO;Bobonaro;Koloana
+0;125.2183,-8.9692;TL-BO;Bobonaro;Ritabou
+0;125.2211,-8.9808;TL-BO;Bobonaro;Dirumdesan
+0;125.2342,-8.9808;TL-BO;Bobonaro;Magalelor
+0;125.2211,-8.9892;TL-BO;Bobonaro;Raimaten
+0;125.2144,-8.9889;TL-BO;Bobonaro;Ramaskora
+0;125.2017,-8.9883;TL-BO;Bobonaro;Genuhaan
+0;125.2036,-8.9908;TL-BO;Bobonaro;Solugolo
+0;125.2142,-8.9964;TL-BO;Bobonaro;Rokon
+0;125.2194,-8.9975;TL-BO;Bobonaro;Oplegul
+0;125.2292,-8.9933;TL-BO;Bobonaro;Haubai
+0;125.2328,-8.9958;TL-BO;Bobonaro;Lahomea
+0;125.2339,-8.9992;TL-BO;Bobonaro;Lesubotang
+0;125.2375,-8.9842;TL-BO;Bobonaro;Maahui
+0;125.2272,-8.9719;TL-BO;Bobonaro;Ritiudu
+0;125.2311,-8.9714;TL-BO;Bobonaro;Lugululi
+0;125.2303,-8.9681;TL-BO;Bobonaro;Acubira
+0;125.2369,-9.0022;TL-BO;Bobonaro;Lesuboten
+0;125.2497,-9.0086;TL-BO;Bobonaro;Raedolen
+0;125.1908,-9.0156;TL-BO;Bobonaro;Lepguen
+0;125.1847,-9.0176;TL-BO;Bobonaro;Huluatin
+0;125.1870,-9.0236;TL-BO;Bobonaro;Pipgalak
+0;125.2472,-9.0400;TL-BO;Bobonaro;Saburai
+0;125.1994,-9.0878;TL-BO;Bobonaro;Hoololo
+0;125.1967,-9.0942;TL-BO;Bobonaro;Sassa
+0;125.1914,-9.0975;TL-BO;Bobonaro;Atus
+0;125.2386,-9.1011;TL-BO;Bobonaro;Halimutin
+0;125.2286,-9.1075;TL-BO;Bobonaro;Tasmil
+0;125.2411,-9.1172;TL-BO;Bobonaro;Ozo
+0;125.2105,-9.1199;TL-BO;Bobonaro;Nandikole
+0;125.2140,-9.1217;TL-BO;Bobonaro;Gildapil
+0;125.0045,-9.2468;TL-CO;Cova Lima;Belulik Leten
+0;125.0106,-9.2489;TL-CO;Cova Lima;Takasana
+0;125.0106,-9.2472;TL-CO;Cova Lima;Kunsabibi
+0;125.0203,-9.2464;TL-CO;Cova Lima;Sabaama
+0;125.0950,-9.2464;TL-CO;Cova Lima;Laktos
+0;125.0475,-9.2356;TL-CO;Cova Lima;Aisik
+0;125.0719,-9.2208;TL-CO;Cova Lima;Motaulan
+0;125.0208,-9.2211;TL-CO;Cova Lima;Belulik Kraik
+0;125.1150,-9.2017;TL-CO;Cova Lima;Aitoun
+0;125.0014,-9.0400;TL-BO;Bobonaro;Wefau
+0;125.0008,-9.0258;TL-BO;Bobonaro;Sukaren
+0;124.9978,-9.0233;TL-BO;Bobonaro;Weklese
+0;125.0025,-9.0236;TL-BO;Bobonaro;Solehae
+0;125.0075,-9.0222;TL-BO;Bobonaro;Katimuben
+0;125.0431,-9.0208;TL-BO;Bobonaro;Raiulun
+0;125.0572,-9.0197;TL-BO;Bobonaro;Remian
+0;125.0611,-9.0197;TL-BO;Bobonaro;Nuren
+0;125.0710,-9.0116;TL-BO;Bobonaro;Besakren
+0;125.0303,-9.0133;TL-BO;Bobonaro;Kolobili
+0;125.0214,-9.0119;TL-BO;Bobonaro;Bauwai
+0;125.0750,-9.0025;TL-BO;Bobonaro;Falohai
+0;125.0883,-9.0006;TL-BO;Bobonaro;Beremanu
+0;125.0075,-9.0050;TL-BO;Bobonaro;Wesi
+0;125.1611,-9.3658;TL-CO;Cova Lima;Kuitaok
+0;125.1856,-9.3692;TL-CO;Cova Lima;Kawauman
+0;125.1833,-9.3530;TL-CO;Cova Lima;Tobolo
+0;125.2461,-9.3503;TL-CO;Cova Lima;Akarlaran
+0;125.2031,-9.3425;TL-CO;Cova Lima;Fatukoan
+0;125.2064,-9.3372;TL-CO;Cova Lima;Lakonalbabu
+0;125.2210,-9.3334;TL-CO;Cova Lima;Lakonakbesik
+0;125.2290,-9.3293;TL-CO;Cova Lima;Busakukun
+0;125.2372,-9.3253;TL-CO;Cova Lima;Serankotek
+0;125.2442,-9.3246;TL-CO;Cova Lima;Lookeu
+0;125.2457,-9.3216;TL-CO;Cova Lima;Nularan
+0;125.2472,-9.3158;TL-CO;Cova Lima;Aidilalaran
+0;125.2481,-9.3116;TL-CO;Cova Lima;Debosasumaten
+0;125.0367,-8.8600;TL-BO;Bobonaro;Kilibain
+0;125.2484,-9.3056;TL-CO;Cova Lima;Orun
+0;125.2448,-9.3290;TL-CO;Cova Lima;Talioan
+0;125.1606,-9.3169;TL-CO;Cova Lima;Kulit
+0;125.1453,-9.2972;TL-CO;Cova Lima;Baukama
+0;125.1464,-9.2878;TL-CO;Cova Lima;Lorokida
+0;125.0411,-8.8625;TL-BO;Bobonaro;Melelaran
+0;125.0436,-8.8678;TL-BO;Bobonaro;Megir
+0;125.0739,-8.8689;TL-BO;Bobonaro;Goubin
+0;125.0867,-8.8514;TL-BO;Bobonaro;Malepun
+0;125.1000,-8.8564;TL-BO;Bobonaro;Hatumaleha
+0;125.2227,-9.2948;TL-CO;Cova Lima;Lookeu
+0;125.1208,-8.8583;TL-BO;Bobonaro;Letelaran
+0;125.0572,-8.8336;TL-BO;Bobonaro;Biacau
+0;125.1053,-8.7300;TL-LI;Liquiçá;Gulumanu
+0;125.0661,-8.8275;TL-BO;Bobonaro;Enelaran
+0;125.2383,-9.2957;TL-CO;Cova Lima;Fohorua
+0;125.0725,-8.8231;TL-BO;Bobonaro;Kotalaran
+0;125.0794,-8.8175;TL-BO;Bobonaro;Makate
+0;125.3683,-8.7494;TL-ER;Ermera;Fatubolo
+0;125.2354,-9.2917;TL-CO;Cova Lima;Ogues
+0;125.1014,-8.7942;TL-BO;Bobonaro;Fatumulih
+0;125.2314,-9.2914;TL-CO;Cova Lima;Baulela
+0;125.1014,-8.7933;TL-BO;Bobonaro;Tutubaba
+0;125.1053,-8.7942;TL-BO;Bobonaro;Malarara
+0;125.1058,-8.7958;TL-BO;Bobonaro;Fatulagung
+0;125.1033,-8.7864;TL-BO;Bobonaro;Merdeka
+0;125.2152,-9.2620;TL-CO;Cova Lima;Oges
+0;125.1017,-8.7842;TL-BO;Bobonaro;Aidabaleten
+0;125.1056,-8.7814;TL-BO;Bobonaro;Talilaran
+0;125.1014,-8.7764;TL-BO;Bobonaro;Malebauk
+0;125.1748,-9.2659;TL-CO;Cova Lima;Wemer
+0;125.1450,-9.2608;TL-CO;Cova Lima;Sou
+0;125.1856,-9.2581;TL-CO;Cova Lima;Lawakau
+0;125.1453,-9.2500;TL-CO;Cova Lima;Fatukkabuarleten
+0;125.1606,-9.2486;TL-CO;Cova Lima;Kusilulik
+0;125.2197,-9.2364;TL-CO;Cova Lima;Leobore
+0;125.2194,-9.2314;TL-CO;Cova Lima;Aisik
+0;125.1789,-9.2275;TL-CO;Cova Lima;Fatuloro
+0;125.2149,-9.2220;TL-CO;Cova Lima;Holpilat
+0;125.2117,-9.2181;TL-CO;Cova Lima;Manulor
+0;125.2104,-9.2100;TL-CO;Cova Lima;Holuhan
+0;125.1803,-9.2111;TL-CO;Cova Lima;Makous
+0;125.2116,-9.2063;TL-CO;Cova Lima;Nainare
+0;125.1792,-9.1985;TL-CO;Cova Lima;Taroman
+0;125.1721,-9.1882;TL-CO;Cova Lima;Lianain
+0;125.2403,-9.1917;TL-BO;Bobonaro;Aburo
+0;125.1389,-9.1886;TL-CO;Cova Lima;Beko
+0;125.2072,-9.1894;TL-CO;Cova Lima;Lela
+0;125.2058,-9.1853;TL-CO;Cova Lima;Ager
+0;125.2013,-9.1490;TL-BO;Bobonaro;Ibuk
+0;125.2271,-9.1410;TL-BO;Bobonaro;Piron
+0;125.2089,-9.1256;TL-BO;Bobonaro;Mabelis
+0;125.2072,-9.1353;TL-BO;Bobonaro;Ilpo
+0;124.1589,-9.4108;TL-OE;Oecusse;Lamasi
+0;125.3728,-8.8317;TL-ER;Ermera;Haeheu
+0;124.2084,-9.2454;TL-OE;Oecusse;Fuabana
+0;124.2163,-9.2449;TL-OE;Oecusse;Oelnanoe
+0;124.2195,-9.2433;TL-OE;Oecusse;Kabana
+0;124.2252,-9.2392;TL-OE;Oecusse;Bokon
+0;124.2442,-9.2374;TL-OE;Oecusse;Kabukpele
+0;124.4054,-9.2447;TL-OE;Oecusse;Buneu
+0;124.4232,-9.2399;TL-OE;Oecusse;Cutete
+0;124.3783,-9.2008;TL-OE;Oecusse;Santacrus
+0;124.3706,-9.2021;TL-OE;Oecusse;Misi
+0;124.3804,-9.1993;TL-OE;Oecusse;Oesono
+0;124.3790,-9.1969;TL-OE;Oecusse;Nisapenu
+0;124.3851,-9.1955;TL-OE;Oecusse;Sumlili
+0;124.3921,-9.1900;TL-OE;Oecusse;Mahata
+0;124.3988,-9.1903;TL-OE;Oecusse;Kuatnana
+0;124.4022,-9.1875;TL-OE;Oecusse;Kuantabun
+0;124.4072,-9.1825;TL-OE;Oecusse;Aosnak
+0;124.4098,-9.1775;TL-OE;Oecusse;Bausiu
+0;124.4117,-9.1750;TL-OE;Oecusse;Soin
+0;124.4342,-9.1697;TL-OE;Oecusse;Oebone
+0;124.4405,-9.1697;TL-OE;Oecusse;Fatuputi
+0;124.4589,-9.1728;TL-OE;Oecusse;Sakato
+0;124.4630,-9.1791;TL-OE;Oecusse;Fatuke
+0;124.4697,-9.1794;TL-OE;Oecusse;Mopo
+0;124.4761,-9.1783;TL-OE;Oecusse;Meobola
+0;124.2569,-9.2398;TL-OE;Oecusse;Maquelab
+0;124.2605,-9.2326;TL-OE;Oecusse;Fuin
+0;124.2681,-9.2259;TL-OE;Oecusse;Tuinmolo
+0;124.2781,-9.2228;TL-OE;Oecusse;Najalu
+0;124.2844,-9.2197;TL-OE;Oecusse;Taosero
+0;124.2950,-9.2278;TL-OE;Oecusse;Tulaika
+0;124.3042,-9.2342;TL-OE;Oecusse;Nepobai
+0;124.3158,-9.2450;TL-OE;Oecusse;Roti
+0;124.3114,-9.2272;TL-OE;Oecusse;Oemolo
+0;124.3197,-9.2497;TL-OE;Oecusse;Matanome
+0;124.3506,-9.2481;TL-OE;Oecusse;Tumepat
+0;124.3514,-9.2497;TL-OE;Oecusse;Oelila
+0;124.3511,-9.2444;TL-OE;Oecusse;Oepoko
+0;124.3461,-9.2464;TL-OE;Oecusse;Padiae
+0;124.3475,-9.2414;TL-OE;Oecusse;Nijamtasa
+0;124.3422,-9.2397;TL-OE;Oecusse;Manunfena
+0;124.3433,-9.2378;TL-OE;Oecusse;Fatusene
+0;124.3567,-9.2392;TL-OE;Oecusse;Oepuah
+0;124.3528,-9.2369;TL-OE;Oecusse;Kanete
+0;124.3342,-9.2206;TL-OE;Oecusse;Semoro
+0;124.3386,-9.2128;TL-OE;Oecusse;Fulolo
+0;124.3147,-9.2042;TL-OE;Oecusse;Kolam Cina
+0;125.3794,-8.8600;TL-ER;Ermera;Hieotmano
+0;125.3844,-8.8569;TL-ER;Ermera;Leodato
+0;125.3917,-8.8533;TL-ER;Ermera;Riaheu
+0;125.3875,-8.8475;TL-ER;Ermera;Hatugau
+0;125.3908,-8.8478;TL-ER;Ermera;Kailiti
+0;125.3750,-8.8442;TL-ER;Ermera;Manucati
+0;125.4036,-8.8461;TL-ER;Ermera;Rialau
+0;125.3992,-8.8350;TL-ER;Ermera;Hunda
+0;125.3911,-8.8331;TL-ER;Ermera;Sauria
+0;125.3925,-8.8258;TL-ER;Ermera;Leborema
+0;125.3997,-8.8172;TL-ER;Ermera;Pugarema
+0;125.4194,-8.8611;TL-ER;Ermera;Poetail
+0;125.4347,-8.8578;TL-ER;Ermera;Riamori
+0;125.4944,-8.8633;TL-ER;Ermera;Hatulete
+0;125.4708,-8.8514;TL-ER;Ermera;Asuikraik
+0;125.4831,-8.8494;TL-ER;Ermera;Hatuhai
+0;125.4711,-8.8442;TL-ER;Ermera;Lakau
+0;125.4897,-8.8389;TL-ER;Ermera;Eratoi
+0;125.4769,-8.8364;TL-ER;Ermera;Assuileten
+0;124.3433,-9.2114;TL-OE;Oecusse;Masin
+0;124.3523,-9.2110;TL-OE;Oecusse;Nunbai
+0;124.3667,-9.2151;TL-OE;Oecusse;Oetulu
+0;125.5758,-8.2931;TL-DI;Dili Municipality;Maumeta
+0;125.5836,-8.2900;TL-DI;Dili Municipality;Masilihu
+0;125.5786,-8.2808;TL-DI;Dili Municipality;Maulako
+0;125.5508,-8.2744;TL-DI;Dili Municipality;Bite
+0;125.5133,-8.2503;TL-DI;Dili Municipality;Maker
+0;125.5494,-8.2600;TL-DI;Dili Municipality;Anartutu
+0;125.6250,-8.1967;TL-DI;Dili Municipality;Ilinamu
+0;125.6308,-8.1908;TL-DI;Dili Municipality;Watupo
+0;125.6286,-8.1836;TL-DI;Dili Municipality;Pala
+0;125.6381,-8.1578;TL-DI;Dili Municipality;Uaroana
+0;125.6375,-8.1533;TL-DI;Dili Municipality;Belem
+0;125.6347,-8.1333;TL-DI;Dili Municipality;Akrema
+0;125.5347,-8.2231;TL-DI;Dili Municipality;Atekru
+0;125.6053,-8.2211;TL-DI;Dili Municipality;Beloi
+0;125.5647,-8.1964;TL-DI;Dili Municipality;Adara
+0;125.5911,-8.1778;TL-DI;Dili Municipality;Arlo
+0;125.6031,-8.1658;TL-DI;Dili Municipality;Doro
+0;125.6083,-8.1514;TL-DI;Dili Municipality;Iliana
+0;125.6106,-8.1431;TL-DI;Dili Municipality;Vatuu
+0;124.9525,-9.0258;TL-BO;Bobonaro;Weono
+0;124.9564,-9.0229;TL-BO;Bobonaro;Railuli
+0;124.9953,-9.0231;TL-BO;Bobonaro;Futatas
+0;124.9814,-9.0175;TL-BO;Bobonaro;Fatukbelak
+0;124.9686,-9.0150;TL-BO;Bobonaro;Manehat
+0;125.0817,-9.3619;TL-CO;Cova Lima;Walalama
+0;125.0919,-9.3483;TL-CO;Cova Lima;Fatukmetan
+0;125.0740,-9.3448;TL-CO;Cova Lima;Nikir
+0;125.1196,-9.3441;TL-CO;Cova Lima;Kotafoun
+0;125.1119,-9.3422;TL-CO;Cova Lima;Halimea
+0;125.1043,-9.3353;TL-CO;Cova Lima;Tulaiduk
+0;124.3236,-9.2022;TL-OE;Oecusse;Postusika
+0;124.3452,-9.2033;TL-OE;Oecusse;Palaban
+0;125.0670,-9.3329;TL-CO;Cova Lima;Maubesi
+0;125.0665,-9.3140;TL-CO;Cova Lima;Foholulik
+0;125.0920,-9.3077;TL-CO;Cova Lima;Baer
+0;125.0486,-9.2972;TL-CO;Cova Lima;Makokon
+0;125.0931,-9.2942;TL-CO;Cova Lima;Fatuklaran
+0;125.1164,-9.2875;TL-CO;Cova Lima;Maubesi
+0;125.0961,-9.2883;TL-CO;Cova Lima;Fatubesi
+0;125.0669,-9.2878;TL-CO;Cova Lima;Aitos
+0;125.0281,-9.2836;TL-CO;Cova Lima;Buburlaran
+0;125.0261,-9.2806;TL-CO;Cova Lima;Tradukoma
+0;125.0656,-9.2796;TL-CO;Cova Lima;Weluli
+4086;125.0894,-9.2836;TL-CO;Cova Lima;Fohorem
+0;125.0973,-9.2843;TL-CO;Cova Lima;Sadahor
+0;125.0847,-9.2819;TL-CO;Cova Lima;Loohali
+0;125.0914,-9.2817;TL-CO;Cova Lima;Fatukbitiklaran
+0;125.0983,-9.2800;TL-CO;Cova Lima;Nularan
+0;125.0780,-9.2692;TL-CO;Cova Lima;Beibutuk
+0;125.0324,-9.2723;TL-CO;Cova Lima;Nanu
+0;125.0140,-9.2536;TL-CO;Cova Lima;Bibitali
+0;125.0603,-9.2631;TL-CO;Cova Lima;Fatukledun
+0;125.0606,-9.2600;TL-CO;Cova Lima;Halilaran
+0;125.0983,-9.2521;TL-CO;Cova Lima;Klobor
+0;124.2033,-9.3642;TL-OE;Oecusse;Bonemeto
+0;124.2430,-9.3636;TL-OE;Oecusse;Nefolete
+0;124.2367,-9.3586;TL-OE;Oecusse;Oelbabai
+0;124.2300,-9.3578;TL-OE;Oecusse;Fatunababo
+0;124.2133,-9.3500;TL-OE;Oecusse;Oamna
+0;124.2347,-9.3439;TL-OE;Oecusse;Taknebo
+0;124.2453,-9.3403;TL-OE;Oecusse;Kiubukif
+0;124.2194,-9.3375;TL-OE;Oecusse;Kuntua
+0;124.1316,-9.3073;TL-OE;Oecusse;Baoknana
+0;124.1405,-9.2996;TL-OE;Oecusse;Oelete
+0;124.1689,-9.2893;TL-OE;Oecusse;Bonak
+0;124.1722,-9.2833;TL-OE;Oecusse;Uthautfoo
+0;124.2297,-9.3075;TL-OE;Oecusse;Neofmuti
+0;124.2119,-9.2858;TL-OE;Oecusse;Manuoef
+0;126.6492,-8.4969;TL-BA;Baucau;Larimu
+0;126.6570,-8.4996;TL-BA;Baucau;Tinlolo
+0;126.6783,-8.4989;TL-BA;Baucau;Lalulai
+0;126.6903,-8.4939;TL-BA;Baucau;Lauhare
+0;126.6918,-8.4925;TL-BA;Baucau;Terobala
+0;126.6844,-8.4923;TL-BA;Baucau;Samalalu
+0;126.6700,-8.4911;TL-BA;Baucau;Larisula
+0;126.6667,-8.4864;TL-BA;Baucau;Samalari
+0;126.6597,-8.4847;TL-BA;Baucau;Bubodefo
+0;126.6582,-8.4899;TL-BA;Baucau;Libagua
+0;126.6504,-8.4879;TL-BA;Baucau;Nunir
+0;126.6468,-8.4890;TL-BA;Baucau;Borolau
+0;126.6305,-8.4831;TL-BA;Baucau;Uacilava
+0;126.6378,-8.4833;TL-BA;Baucau;Larifano
+0;126.6488,-8.4847;TL-BA;Baucau;Buskaulari
+0;126.6619,-8.4850;TL-BA;Baucau;Loilaku
+0;126.6650,-8.4839;TL-BA;Baucau;Sorogua
+0;124.3803,-9.3489;TL-OE;Oecusse;Bobometo
+0;124.3814,-9.3514;TL-OE;Oecusse;Usapikolen
+0;124.3742,-9.3553;TL-OE;Oecusse;Saben
+0;124.3850,-9.3536;TL-OE;Oecusse;Oemanu
+0;124.3878,-9.3406;TL-OE;Oecusse;Hueneno
+0;124.3811,-9.3375;TL-OE;Oecusse;Biele
+0;124.3756,-9.3272;TL-OE;Oecusse;Oenoa
+0;124.4081,-9.3219;TL-OE;Oecusse;Nuabatan
+0;124.4036,-9.3197;TL-OE;Oecusse;Noke
+0;124.4028,-9.3142;TL-OE;Oecusse;Nubani
+0;124.4017,-9.3122;TL-OE;Oecusse;Sufmuti
+0;124.3994,-9.3103;TL-OE;Oecusse;Bonemese
+0;124.4264,-9.3083;TL-OE;Oecusse;Nunsena
+0;124.4406,-9.3031;TL-OE;Oecusse;Laukfoan
+0;124.4578,-9.2967;TL-OE;Oecusse;Oemasin
+0;124.3858,-9.3058;TL-OE;Oecusse;Maonnese
+0;124.4172,-9.3036;TL-OE;Oecusse;Tenae
+0;124.4536,-9.2769;TL-OE;Oecusse;Nipane
+0;124.4208,-9.2767;TL-OE;Oecusse;Bussi
+0;124.4164,-9.2767;TL-OE;Oecusse;Kinat
+0;124.4006,-9.2769;TL-OE;Oecusse;Taolen
+0;124.3886,-9.2869;TL-OE;Oecusse;Kafun
+0;124.3825,-9.2875;TL-OE;Oecusse;Kiukole
+0;124.3778,-9.2861;TL-OE;Oecusse;Nunuhle
+0;124.3767,-9.2856;TL-OE;Oecusse;Kiubose
+0;124.3831,-9.2819;TL-OE;Oecusse;Bimelo
+0;124.3731,-9.2808;TL-OE;Oecusse;Bihala
+0;124.3833,-9.2658;TL-OE;Oecusse;Netenoke
+0;124.3836,-9.2611;TL-OE;Oecusse;Oenino
+0;124.3867,-9.2525;TL-OE;Oecusse;Eonae
+0;124.2544,-9.3717;TL-OE;Oecusse;Mahata
+0;124.2575,-9.3739;TL-OE;Oecusse;Numatambing
+0;124.2753,-9.3739;TL-OE;Oecusse;Maenu
+0;124.3056,-9.3717;TL-OE;Oecusse;Noetoko
+0;124.3172,-9.3694;TL-OE;Oecusse;Pune
+0;124.3189,-9.3744;TL-OE;Oecusse;Kuanobe
+0;124.3250,-9.3694;TL-OE;Oecusse;Oepauk
+0;124.3278,-9.3700;TL-OE;Oecusse;Asabat
+0;124.3322,-9.3725;TL-OE;Oecusse;Sipin
+0;124.3378,-9.3692;TL-OE;Oecusse;Besemese
+0;124.3394,-9.3669;TL-OE;Oecusse;Tobo
+0;124.3408,-9.3700;TL-OE;Oecusse;Oebaki
+0;124.3439,-9.3678;TL-OE;Oecusse;Kiubatan
+0;124.3458,-9.3703;TL-OE;Oecusse;Tuames
+0;124.3472,-9.3714;TL-OE;Oecusse;Bono
+0;124.3469,-9.3739;TL-OE;Oecusse;Loel
+0;124.2797,-9.3503;TL-OE;Oecusse;Sonafjak
+0;124.2817,-9.3522;TL-OE;Oecusse;Bebo
+0;124.2989,-9.3519;TL-OE;Oecusse;Maunaben
+0;124.3219,-9.3522;TL-OE;Oecusse;Buki
+0;124.3642,-9.3542;TL-OE;Oecusse;Patmet
+0;124.2660,-9.3463;TL-OE;Oecusse;Netensuan
+0;124.2739,-9.3453;TL-OE;Oecusse;Oelpab
+0;124.2761,-9.3467;TL-OE;Oecusse;Baokopael
+0;124.2775,-9.3447;TL-OE;Oecusse;Kuanisi
+0;124.2778,-9.3486;TL-OE;Oecusse;Aijauana
+0;124.2942,-9.3447;TL-OE;Oecusse;Neofmalo
+0;124.3222,-9.3428;TL-OE;Oecusse;Bitana
+0;124.2572,-9.3383;TL-OE;Oecusse;Isu
+0;124.2636,-9.3364;TL-OE;Oecusse;Nuana
+0;124.3222,-9.3361;TL-OE;Oecusse;Hauana
+0;124.3644,-9.3386;TL-OE;Oecusse;Benais
+0;124.3700,-9.3411;TL-OE;Oecusse;Afumalule
+0;124.3247,-9.3244;TL-OE;Oecusse;Hauana
+0;124.2706,-9.3156;TL-OE;Oecusse;Numputu
+0;124.2694,-9.3117;TL-OE;Oecusse;Neopnua
+0;124.2711,-9.3097;TL-OE;Oecusse;Noahluku
+0;124.3544,-9.3103;TL-OE;Oecusse;Kuanana
+0;124.3167,-9.3086;TL-OE;Oecusse;Sonomnasi
+0;124.3700,-9.3156;TL-OE;Oecusse;Kiukle
+0;124.2631,-9.3053;TL-OE;Oecusse;Bititim
+0;124.2656,-9.3031;TL-OE;Oecusse;Kanael
+0;124.2692,-9.3039;TL-OE;Oecusse;Poasbot
+0;124.2689,-9.3069;TL-OE;Oecusse;Nuheo
+0;124.2747,-9.3064;TL-OE;Oecusse;Nemun
+0;124.2756,-9.3053;TL-OE;Oecusse;Oelkaem
+0;124.3486,-9.3069;TL-OE;Oecusse;Faut
+0;124.3533,-9.3031;TL-OE;Oecusse;Oebaha
+0;124.3569,-9.3033;TL-OE;Oecusse;Oebelo
+0;124.3689,-9.3022;TL-OE;Oecusse;Bobonoe
+0;124.2647,-9.2925;TL-OE;Oecusse;Kuanata
+0;124.2667,-9.2972;TL-OE;Oecusse;Kuapal
+0;124.2828,-9.2992;TL-OE;Oecusse;Kuatnana
+0;124.2842,-9.2958;TL-OE;Oecusse;Buinsapi
+0;124.2850,-9.2928;TL-OE;Oecusse;Upsena
+0;124.3319,-9.2997;TL-OE;Oecusse;Nenopen
+0;124.3383,-9.2956;TL-OE;Oecusse;Nianapu
+0;124.3500,-9.2947;TL-OE;Oecusse;Kinloki
+0;124.2622,-9.2883;TL-OE;Oecusse;Patoke
+0;124.2633,-9.2850;TL-OE;Oecusse;Patputu
+0;124.2936,-9.2889;TL-OE;Oecusse;Kuangkot
+0;124.2981,-9.2858;TL-OE;Oecusse;Kiubneko
+0;124.3042,-9.2844;TL-OE;Oecusse;Oelelo
+0;124.3061,-9.2906;TL-OE;Oecusse;Kuanatui
+0;124.3122,-9.2864;TL-OE;Oecusse;Oetako
+0;124.3300,-9.2872;TL-OE;Oecusse;Patikase
+0;124.3356,-9.2839;TL-OE;Oecusse;Oapjumama
+0;124.3458,-9.2853;TL-OE;Oecusse;Nunete
+0;124.3503,-9.2892;TL-OE;Oecusse;Kiupenu
+0;124.3597,-9.2861;TL-OE;Oecusse;Saenpeo
+0;124.3622,-9.2869;TL-OE;Oecusse;Bilahuk
+0;124.3653,-9.2872;TL-OE;Oecusse;Najaimuti
+0;124.3214,-9.2819;TL-OE;Oecusse;Oekum
+0;124.3167,-9.2747;TL-OE;Oecusse;Kuanakabun
+0;124.3253,-9.2797;TL-OE;Oecusse;Baupat
+0;124.3511,-9.2833;TL-OE;Oecusse;Baqui
+0;124.3622,-9.2761;TL-OE;Oecusse;Nuslao
+0;124.3653,-9.2828;TL-OE;Oecusse;Oelole
+0;124.3256,-9.2739;TL-OE;Oecusse;Itnan
+0;124.3256,-9.2714;TL-OE;Oecusse;Krusisoh
+0;124.3087,-9.2669;TL-OE;Oecusse;Nalaen
+0;124.3472,-9.2739;TL-OE;Oecusse;Nunuhenu
+0;124.3572,-9.2678;TL-OE;Oecusse;Fautmet
+0;124.3050,-9.2639;TL-OE;Oecusse;Ulas
+0;124.3303,-9.2608;TL-OE;Oecusse;Sabela
+0;124.3336,-9.2631;TL-OE;Oecusse;Nunenau
+0;124.3375,-9.2667;TL-OE;Oecusse;Fatnuni
+0;124.3525,-9.2661;TL-OE;Oecusse;Noeninan
+0;124.3572,-9.2636;TL-OE;Oecusse;Faiteno
+0;124.3508,-9.2608;TL-OE;Oecusse;Menoah
+0;124.3586,-9.2661;TL-OE;Oecusse;Kiumina
+0;124.3225,-9.2522;TL-OE;Oecusse;Jumati
+0;124.3261,-9.2581;TL-OE;Oecusse;Biseo
+0;124.3472,-9.2550;TL-OE;Oecusse;Benoko
+0;124.3497,-9.2575;TL-OE;Oecusse;Nopai
+0;124.3483,-9.2531;TL-OE;Oecusse;Palink
+0;124.3519,-9.2522;TL-OE;Oecusse;Kiutunis
+0;124.3547,-9.2567;TL-OE;Oecusse;Noafafo
+0;124.3106,-9.4736;TL-OE;Oecusse;Nuakbat
+0;124.3142,-9.4669;TL-OE;Oecusse;Fuames
+0;124.3214,-9.4686;TL-OE;Oecusse;Nuahake
+0;124.3239,-9.4703;TL-OE;Oecusse;Kuef
+0;124.3308,-9.4678;TL-OE;Oecusse;Fofe
+0;124.3344,-9.4669;TL-OE;Oecusse;Watu
+0;124.3456,-9.4658;TL-OE;Oecusse;Nunkolo
+0;124.3461,-9.4600;TL-OE;Oecusse;Usafin
+0;124.3328,-9.4608;TL-OE;Oecusse;Tabe
+0;124.3267,-9.4600;TL-OE;Oecusse;Fauteso
+0;124.3242,-9.4622;TL-OE;Oecusse;Oelete
+0;124.3172,-9.4644;TL-OE;Oecusse;Oebu
+0;126.6865,-8.4843;TL-BA;Baucau;Buboloma
+0;126.6890,-8.4870;TL-BA;Baucau;Riadac
+0;124.3397,-9.4575;TL-OE;Oecusse;Huaen
+0;124.3369,-9.4550;TL-OE;Oecusse;Meta
+0;124.3014,-9.4508;TL-OE;Oecusse;Nunfomolo
+0;124.3469,-9.4553;TL-OE;Oecusse;Hueleo
+0;124.3464,-9.4508;TL-OE;Oecusse;Naituna
+0;124.3442,-9.4458;TL-OE;Oecusse;Oelajaob
+0;126.6993,-8.4850;TL-BA;Baucau;Saelari
+0;126.7086,-8.4767;TL-BA;Baucau;Lariledana
+0;124.3006,-9.4456;TL-OE;Oecusse;Hauknutu
+0;124.3031,-9.4417;TL-OE;Oecusse;Ejomenu
+0;126.6678,-8.4742;TL-BA;Baucau;Laucolo
+0;124.2992,-9.4419;TL-OE;Oecusse;Besatoko
+0;126.6672,-8.4722;TL-BA;Baucau;Lualari
+0;124.2992,-9.4369;TL-OE;Oecusse;Fatsuba
+0;124.3050,-9.4378;TL-OE;Oecusse;Fatumtasa
+0;124.3069,-9.4358;TL-OE;Oecusse;Fautkabe
+0;126.6285,-8.4540;TL-BA;Baucau;Uassabolo
+0;124.3094,-9.4300;TL-OE;Oecusse;Kobes
+0;124.3436,-9.4264;TL-OE;Oecusse;Uetban
+0;124.3461,-9.4219;TL-OE;Oecusse;Kuatnana
+0;124.3467,-9.4183;TL-OE;Oecusse;Nibin
+0;126.6395,-8.4517;TL-BA;Baucau;Buiguira
+0;124.2878,-9.4200;TL-OE;Oecusse;Kusi
+0;126.7395,-8.4372;TL-LA;Lautém;Samalari
+0;126.6801,-8.4315;TL-BA;Baucau;Binagua
+0;126.7472,-8.4322;TL-LA;Lautém;Taleta
+0;126.7417,-8.4122;TL-LA;Lautém;Barubatu
+0;126.7414,-8.4114;TL-LA;Lautém;Waniria
+0;126.7414,-8.4100;TL-LA;Lautém;Barliu
+0;126.7397,-8.4118;TL-LA;Lautém;Ililai
+0;126.7361,-8.4736;TL-LA;Lautém;Titilari
+0;125.7792,-8.9858;TL-MF;Manufahi;Leodato
+0;125.7814,-8.9856;TL-MF;Manufahi;Raiguesa
+0;125.7517,-8.9342;TL-MF;Manufahi;Orilo
+0;125.8158,-8.9297;TL-MF;Manufahi;Caicassa
+0;125.7606,-8.9283;TL-MF;Manufahi;Daurata
+0;125.7536,-8.9242;TL-MF;Manufahi;Riamori
+0;125.7592,-8.9225;TL-MF;Manufahi;Ainesi
+0;124.3217,-9.4089;TL-OE;Oecusse;Nefomtasa
+0;124.3286,-9.4050;TL-OE;Oecusse;Kisan
+0;124.3517,-9.4144;TL-OE;Oecusse;Neofmuti
+0;124.3558,-9.4111;TL-OE;Oecusse;Binau
+0;124.3583,-9.4056;TL-OE;Oecusse;Kiubiselo
+0;124.3567,-9.3997;TL-OE;Oecusse;Fauteso
+0;124.3600,-9.3964;TL-OE;Oecusse;Ukbatan
+0;124.3086,-9.3958;TL-OE;Oecusse;Nunafa
+0;124.3089,-9.3908;TL-OE;Oecusse;Besatoko
+0;124.2758,-9.3850;TL-OE;Oecusse;Netenbitemu
+0;124.2856,-9.3858;TL-OE;Oecusse;Kuatenes
+0;124.3253,-9.3881;TL-OE;Oecusse;Nobeat
+0;124.3281,-9.3833;TL-OE;Oecusse;Kuangkiu
+0;124.3500,-9.3844;TL-OE;Oecusse;Fatututa
+0;124.3489,-9.3861;TL-OE;Oecusse;Mambua
+0;124.3525,-9.3897;TL-OE;Oecusse;Nunete
+0;124.3728,-9.3833;TL-OE;Oecusse;Kuafeu
+0;124.3503,-9.3797;TL-OE;Oecusse;Nonkikan
+0;124.3489,-9.3764;TL-OE;Oecusse;Kiubiole
+0;124.3347,-9.3783;TL-OE;Oecusse;Bambai
+0;124.2686,-9.3792;TL-OE;Oecusse;Kuba
+0;124.3003,-9.3797;TL-OE;Oecusse;Neofmetan
+0;124.3044,-9.3800;TL-OE;Oecusse;Naofe
+0;125.7742,-8.9189;TL-MF;Manufahi;Bobolora
+0;125.7833,-8.9144;TL-MF;Manufahi;Bubususu
+0;125.7822,-8.9094;TL-MF;Manufahi;Liholau
+0;125.7714,-8.9119;TL-MF;Manufahi;Aituha
+0;125.7619,-8.9014;TL-MF;Manufahi;Patukilat
+0;125.7694,-8.9050;TL-MF;Manufahi;Orlora
+0;125.7814,-8.9008;TL-MF;Manufahi;Ilate
+0;125.7800,-8.9853;TL-MF;Manufahi;Sarin
+0;124.3561,-9.3950;TL-OE;Oecusse;Tumin
+0;124.3422,-9.4697;TL-OE;Oecusse;Fot
+0;125.8333,-8.4883;TL-DI;Dili Municipality;Manleu
+0;124.3208,-9.4400;TL-OE;Oecusse;Oelangkai
+0;125.8394,-8.4839;TL-MT;Manatuto;Huiali
+0;125.8569,-8.4764;TL-MT;Manatuto;Ilimano
+0;125.8792,-8.4769;TL-MT;Manatuto;Osuun
+0;125.8903,-8.4778;TL-MT;Manatuto;Behau
+0;125.9178,-8.4800;TL-MT;Manatuto;Beuah
+0;125.9233,-8.4808;TL-MT;Manatuto;Subau
+0;125.9522,-8.4942;TL-MT;Manatuto;Beheda
+0;125.5158,-8.9981;TL-AN;Ainaro;Soro
+0;125.9944,-8.4972;TL-MT;Manatuto;Obrato 1
+0;125.5181,-8.9969;TL-AN;Ainaro;Poelau
+0;125.5228,-8.9897;TL-AN;Ainaro;Mamurlau
+0;125.5183,-8.9858;TL-AN;Ainaro;Berluli
+0;125.9681,-8.9139;TL-MT;Manatuto;Dambohum
+0;125.4997,-8.9828;TL-AN;Ainaro;Kertapati
+0;125.5186,-8.9811;TL-AN;Ainaro;Porema
+0;125.5164,-8.9772;TL-AN;Ainaro;Mantelau
+0;125.9675,-8.9131;TL-MT;Manatuto;Manehat
+0;125.9711,-8.9150;TL-MT;Manatuto;Nuahuc
+0;125.5014,-8.9756;TL-AN;Ainaro;Sabagulau
+0;125.5094,-8.9653;TL-AN;Ainaro;Hatumetaudo
+0;125.9717,-8.9139;TL-MT;Manatuto;Fatobalon
+0;125.5081,-8.9583;TL-AN;Ainaro;Gulorlau
+0;125.5214,-8.9589;TL-AN;Ainaro;Mantilu
+0;125.5242,-8.9592;TL-AN;Ainaro;Nonomogue
+0;125.5403,-8.9653;TL-AN;Ainaro;Leotelo
+0;125.7581,-8.8733;TL-MF;Manufahi;Orana
+0;125.7533,-8.8567;TL-MF;Manufahi;Fatulelo
+0;125.7689,-8.8408;TL-MF;Manufahi;Oroluli
+0;125.7478,-8.8131;TL-MF;Manufahi;Tetilawai
+0;125.7592,-8.7667;TL-MF;Manufahi;Namoluti
+0;125.7647,-8.7631;TL-MF;Manufahi;Lisuata
+0;125.9433,-8.8675;TL-MT;Manatuto;Leohat
+0;125.9453,-8.8658;TL-MT;Manatuto;Malushum
+0;125.9361,-8.8625;TL-MT;Manatuto;Sasahi
+0;125.7750,-8.6269;TL-AL;Aileu;Hatobuti
+0;125.7811,-8.6292;TL-MT;Manatuto;Sabomata
+0;125.8261,-8.6267;TL-MT;Manatuto;Umaheuk
+0;125.8167,-8.6556;TL-MT;Manatuto;Matilau
+0;125.7969,-8.6542;TL-MT;Manatuto;Fahilacor
+0;125.7650,-8.6622;TL-AL;Aileu;Luquisa
+0;125.7569,-8.6597;TL-AL;Aileu;Raimerahei
+0;125.4061,-8.8647;TL-ER;Ermera;Roto
+0;125.8067,-8.6811;TL-AL;Aileu;Sibarceon
+0;125.4089,-8.8564;TL-ER;Ermera;Assi
+0;125.4164,-8.8442;TL-ER;Ermera;Manucatilaten
+0;125.4389,-8.8517;TL-ER;Ermera;Riatoni
+0;125.4481,-8.8492;TL-ER;Ermera;Rairema
+0;125.4306,-8.8419;TL-ER;Ermera;Kairia
+0;125.4406,-8.8386;TL-ER;Ermera;Rotutu
+0;125.4508,-8.8372;TL-ER;Ermera;Leobudu
+0;125.4531,-8.8289;TL-ER;Ermera;Sabelu
+0;125.4564,-8.8281;TL-ER;Ermera;Manusae
+0;125.4642,-8.8294;TL-ER;Ermera;Lebululi
+0;125.4603,-8.8264;TL-ER;Ermera;Laclo
+0;125.4906,-8.8269;TL-ER;Ermera;Saharaitaurema
+0;125.4200,-8.8308;TL-ER;Ermera;Duhoho
+0;125.4072,-8.8222;TL-ER;Ermera;Hauho
+0;125.4028,-8.8106;TL-ER;Ermera;Raimerhai
+0;125.4183,-8.8139;TL-ER;Ermera;Betorema
+0;125.4322,-8.8200;TL-ER;Ermera;Kailiti
+0;125.4253,-8.8219;TL-ER;Ermera;Lutulala
+0;125.4275,-8.8111;TL-ER;Ermera;Raipusa
+0;125.4539,-8.8189;TL-ER;Ermera;Gaulala
+0;125.4783,-8.8161;TL-ER;Ermera;Olopana
+0;125.4958,-8.8172;TL-AL;Aileu;Kirilelo
+0;125.4686,-8.8064;TL-ER;Ermera;Likisala
+0;125.4581,-8.7969;TL-ER;Ermera;Manama
+0;125.4297,-8.8017;TL-ER;Ermera;Goulolo
+0;125.4269,-8.8000;TL-ER;Ermera;Hatomotei
+0;125.4250,-8.7953;TL-ER;Ermera;Leotelon
+0;125.4292,-8.7878;TL-ER;Ermera;Haturema
+0;125.4369,-8.7908;TL-ER;Ermera;Raicala
+0;125.4394,-8.7828;TL-ER;Ermera;Kaibui
+0;125.4394,-8.7817;TL-ER;Ermera;Darudu
+0;125.4406,-8.7758;TL-ER;Ermera;Klaetlau
+0;125.4517,-8.7881;TL-ER;Ermera;Madede
+0;125.4467,-8.7697;TL-ER;Ermera;Kukhata
+0;125.4403,-8.7608;TL-ER;Ermera;Manuhei
+0;125.9347,-8.8608;TL-MT;Manatuto;Hisuata
+0;125.9403,-8.8614;TL-MT;Manatuto;Umacuarec
+0;125.9450,-8.8614;TL-MT;Manatuto;Dauroloc
+0;125.9464,-8.8592;TL-MT;Manatuto;Manlala
+0;125.4386,-8.7564;TL-ER;Ermera;Pocana
+0;125.9425,-8.8575;TL-MT;Manatuto;Lehutula
+0;125.4372,-8.7500;TL-ER;Ermera;Nunutali
+0;125.4289,-8.7608;TL-ER;Ermera;Borhei
+0;125.9217,-8.8311;TL-MT;Manatuto;Manufahe
+0;125.4333,-8.7689;TL-ER;Ermera;Hatali
+0;125.9206,-8.8281;TL-MT;Manatuto;Teras
+0;125.9194,-8.8089;TL-MT;Manatuto;Lakenu
+0;125.4603,-8.7556;TL-ER;Ermera;Railisu
+0;125.4542,-8.7511;TL-ER;Ermera;Boboe
+0;125.4703,-8.7575;TL-ER;Ermera;Humeta
+0;125.4544,-8.7642;TL-ER;Ermera;Talebo
+0;125.9203,-8.8056;TL-MT;Manatuto;Amanun
+0;125.4811,-8.7628;TL-AL;Aileu;Ouelae
+0;125.4950,-8.7550;TL-AL;Aileu;Acolimamate
+0;125.4775,-8.7731;TL-AL;Aileu;Fisunia
+0;125.9219,-8.8028;TL-MT;Manatuto;Lafulau
+0;125.4764,-8.7931;TL-AL;Aileu;Fatulai
+0;125.9311,-8.7917;TL-MT;Manatuto;Hatomanuc
+0;125.9253,-8.7789;TL-MT;Manatuto;Maneatun
+0;125.9000,-8.7669;TL-MT;Manatuto;Manelima
+0;125.4078,-8.7919;TL-ER;Ermera;Rematu
+0;125.9017,-8.7519;TL-MT;Manatuto;Batamac
+0;125.4175,-8.7903;TL-ER;Ermera;Riatu
+0;125.4047,-8.7864;TL-ER;Ermera;Lauabe
+0;125.9047,-8.7506;TL-MT;Manatuto;Lawado
+0;125.9094,-8.7508;TL-MT;Manatuto;Torilalan
+0;125.3786,-8.8231;TL-ER;Ermera;Manulete
+0;125.3800,-8.8114;TL-ER;Ermera;Teuro
+0;125.3886,-8.8067;TL-ER;Ermera;Aiceo
+0;125.3758,-8.7997;TL-ER;Ermera;Regoa
+0;125.3864,-8.7981;TL-ER;Ermera;Manubobo
+0;125.9167,-8.7517;TL-MT;Manatuto;Orlalan
+0;125.4025,-8.7994;TL-ER;Ermera;Aitura
+0;125.4169,-8.8031;TL-ER;Ermera;Namto
+0;125.3889,-8.7897;TL-ER;Ermera;Tititir
+0;125.3764,-8.7836;TL-ER;Ermera;Gomhaei
+0;125.9272,-8.7567;TL-MT;Manatuto;Kalohan
+0;125.3958,-8.7786;TL-ER;Ermera;Darhai
+0;125.9328,-8.7519;TL-MT;Manatuto;Hatomalos
+0;125.3953,-8.7672;TL-ER;Ermera;Tatabaoria
+0;125.4075,-8.7758;TL-ER;Ermera;Leguimea
+0;125.9411,-8.7489;TL-MT;Manatuto;Hatolalan
+0;125.4125,-8.7811;TL-ER;Ermera;Urletefoho
+0;125.4214,-8.7664;TL-ER;Ermera;Tidir
+0;125.4156,-8.7664;TL-ER;Ermera;Poehati
+0;125.4081,-8.7647;TL-ER;Ermera;Railurin
+0;125.4122,-8.7617;TL-ER;Ermera;Apidou
+0;125.4203,-8.7572;TL-ER;Ermera;Pohei
+0;125.4089,-8.7547;TL-ER;Ermera;Hatuleta
+0;125.9569,-8.7542;TL-MT;Manatuto;Nauleau
+0;125.3950,-8.7597;TL-ER;Ermera;Samatrai
+0;125.3897,-8.7564;TL-ER;Ermera;Poepung
+0;125.9611,-8.7558;TL-MT;Manatuto;Lei
+0;125.5514,-8.8692;TL-AN;Ainaro;Caurema
+0;125.5694,-8.8675;TL-AN;Ainaro;Kartolo
+0;125.5958,-8.8692;TL-AN;Ainaro;Manosahe
+0;125.5947,-8.8592;TL-AN;Ainaro;Kolehunu
+0;125.5906,-8.8606;TL-AN;Ainaro;Lebotuto
+0;125.5850,-8.8639;TL-AN;Ainaro;Lauhili
+0;125.5558,-8.8639;TL-AN;Ainaro;Hatusao
+0;125.5203,-8.8544;TL-AN;Ainaro;Mamude
+0;125.5764,-8.8544;TL-AN;Ainaro;Kanurema
+0;125.5872,-8.8536;TL-AN;Ainaro;Hatululi
+0;125.5914,-8.8506;TL-AN;Ainaro;Lekitei
+0;125.6036,-8.8567;TL-AN;Ainaro;Fatobuti
+0;125.6214,-8.8444;TL-AN;Ainaro;Herbau
+0;125.6117,-8.8419;TL-AN;Ainaro;Lebibo
+0;125.6083,-8.8503;TL-AN;Ainaro;Kulolo
+0;125.5917,-8.8428;TL-AN;Ainaro;Tehtuko
+0;125.5489,-8.8425;TL-AN;Ainaro;Rimori
+0;125.5406,-8.8492;TL-AN;Ainaro;Erbean
+0;125.5306,-8.8469;TL-AN;Ainaro;Bertai
+0;125.5203,-8.8344;TL-AL;Aileu;Erhetu
+0;125.5306,-8.8383;TL-AL;Aileu;Kaikasa
+0;125.3856,-8.7522;TL-ER;Ermera;Loblala
+0;125.3894,-8.7614;TL-ER;Ermera;Tidibesse
+0;125.3842,-8.9933;TL-BO;Bobonaro;Maliubu
+0;125.3894,-8.9958;TL-BO;Bobonaro;Biamoas
+0;125.3858,-8.9875;TL-BO;Bobonaro;Manonia
+0;125.3881,-8.9875;TL-BO;Bobonaro;Colimau
+0;125.3892,-8.9808;TL-ER;Ermera;Mania
+0;125.3875,-8.9778;TL-ER;Ermera;Batubala
+0;125.3883,-8.9736;TL-ER;Ermera;Tapoabe
+0;125.3842,-8.9717;TL-ER;Ermera;Dadubere
+0;125.3847,-8.9739;TL-ER;Ermera;Airae
+0;125.3808,-8.9711;TL-ER;Ermera;Waabe
+0;125.3753,-8.9694;TL-ER;Ermera;Nunumea
+0;125.3772,-8.9678;TL-ER;Ermera;Ataubu
+0;125.3758,-8.9642;TL-ER;Ermera;Taiubu
+0;125.3947,-8.9653;TL-ER;Ermera;Biahoro
+0;125.4997,-8.9944;TL-AN;Ainaro;Maulore
+0;125.4125,-8.9450;TL-ER;Ermera;Acubuli
+0;125.3744,-8.9514;TL-ER;Ermera;Batumano
+0;125.3750,-8.9569;TL-ER;Ermera;Batueru
+0;125.3892,-8.9461;TL-ER;Ermera;Malimea
+0;125.3925,-8.9408;TL-ER;Ermera;Malabe
+0;125.3936,-8.9347;TL-ER;Ermera;Genutete
+0;125.4028,-8.9317;TL-ER;Ermera;Ailisu
+0;125.4056,-8.9361;TL-ER;Ermera;Malitada
+0;125.4053,-8.9308;TL-ER;Ermera;Atubuti
+0;125.4100,-8.9297;TL-ER;Ermera;Atupae
+0;125.4067,-8.9267;TL-ER;Ermera;Aliatu
+0;125.4094,-8.9267;TL-ER;Ermera;Airai
+0;125.4053,-8.9242;TL-ER;Ermera;Asio
+0;125.4042,-8.9264;TL-ER;Ermera;Paramin
+0;125.4008,-8.9261;TL-ER;Ermera;Laklo
+0;125.3964,-8.9247;TL-ER;Ermera;Tapoinea
+0;125.3894,-8.9256;TL-ER;Ermera;Ilatkora
+0;125.3881,-8.9250;TL-ER;Ermera;Boboleta
+0;125.3831,-8.9264;TL-ER;Ermera;Lukowai
+0;125.3758,-8.9250;TL-ER;Ermera;Tiarlelo
+0;125.3881,-8.9156;TL-ER;Ermera;Batumigi
+0;125.3964,-8.9169;TL-ER;Ermera;Raibuti
+0;125.3989,-8.9108;TL-ER;Ermera;Lauabe
+0;125.4039,-8.9122;TL-ER;Ermera;Lelobere
+0;125.4081,-8.9156;TL-ER;Ermera;Kailulik
+0;125.4114,-8.9200;TL-ER;Ermera;Atudose
+0;125.4186,-8.9172;TL-ER;Ermera;Kolimali
+0;125.4328,-8.8764;TL-ER;Ermera;Baulesiria
+0;125.4356,-8.8828;TL-ER;Ermera;Manukoliria
+0;125.4414,-8.8831;TL-ER;Ermera;Meallumu
+0;125.4400,-8.8892;TL-ER;Ermera;Katraikraik
+0;125.4369,-8.8878;TL-ER;Ermera;Kolkoli
+0;125.4394,-8.8914;TL-ER;Ermera;Mausormata
+0;125.4353,-8.8903;TL-ER;Ermera;Hatulete
+0;125.4308,-8.8892;TL-ER;Ermera;Hatugeo
+0;125.4278,-8.8881;TL-ER;Ermera;Alosain
+0;125.4239,-8.9075;TL-ER;Ermera;Liabe
+0;125.4211,-8.9111;TL-ER;Ermera;Koileki
+0;125.4181,-8.8997;TL-ER;Ermera;Raelau
+0;125.4192,-8.8922;TL-ER;Ermera;Roulu
+0;125.4253,-8.8925;TL-ER;Ermera;Leubasa
+0;125.4208,-8.8886;TL-ER;Ermera;Lauana
+0;125.4258,-8.8872;TL-ER;Ermera;Kirilelo
+0;125.4194,-8.8858;TL-ER;Ermera;Duhoho
+0;125.4178,-8.8844;TL-ER;Ermera;Hohulu
+0;125.4119,-8.8786;TL-ER;Ermera;Pahiluha
+0;125.4125,-8.8858;TL-ER;Ermera;Raebou
+0;125.4189,-8.8769;TL-ER;Ermera;Tunupahi
+0;125.4075,-8.8725;TL-ER;Ermera;Merigi
+0;125.4061,-8.8906;TL-ER;Ermera;Luhanaro
+0;125.3897,-8.8878;TL-ER;Ermera;Ahegara
+0;125.4017,-8.8914;TL-ER;Ermera;Olekata
+0;125.4119,-8.8942;TL-ER;Ermera;Limiluhi
+0;125.4053,-8.8967;TL-ER;Ermera;Rigoa
+0;125.3800,-8.9014;TL-ER;Ermera;Biaboti
+0;125.3839,-8.8925;TL-ER;Ermera;Bibaro
+0;125.3778,-8.8919;TL-ER;Ermera;Porema
+0;125.3789,-8.8897;TL-ER;Ermera;Orbeto
+0;125.3761,-8.8892;TL-ER;Ermera;Ramiah
+0;125.3844,-8.8881;TL-ER;Ermera;Galaimata
+0;125.3828,-8.8806;TL-ER;Ermera;Leulara
+0;125.5961,-8.8381;TL-AN;Ainaro;Kota
+0;125.5881,-8.8353;TL-AN;Ainaro;Kaulala
+0;125.5917,-8.8322;TL-AN;Ainaro;Rileko
+0;125.5978,-8.8300;TL-AN;Ainaro;Hatupae
+0;125.5919,-8.8261;TL-AN;Ainaro;Hautato
+0;125.6003,-8.8250;TL-AN;Ainaro;Urhou
+0;125.6156,-8.8314;TL-AN;Ainaro;Talifelo
+0;125.2756,-8.9917;TL-BO;Bobonaro;Maganutu
+0;125.2797,-8.9953;TL-BO;Bobonaro;Nunutana
+0;125.5350,-8.9506;TL-AN;Ainaro;Nonomoguelao
+0;125.2858,-8.9969;TL-BO;Bobonaro;Raetun
+0;125.2836,-8.9903;TL-BO;Bobonaro;Loribia
+0;125.3125,-8.9953;TL-BO;Bobonaro;Uat
+0;125.3256,-8.9969;TL-BO;Bobonaro;Beluat
+0;125.3231,-8.9903;TL-BO;Bobonaro;Atuegas
+0;125.5225,-8.9453;TL-AN;Ainaro;Tukarocoiloco
+0;125.3289,-8.9925;TL-BO;Bobonaro;Atuaben
+0;125.3311,-8.9919;TL-BO;Bobonaro;Talite
+0;125.5394,-8.9472;TL-AN;Ainaro;Leobutu
+0;125.3353,-8.9894;TL-BO;Bobonaro;Airas
+0;125.5414,-8.9406;TL-AN;Ainaro;Lepulau
+0;125.3289,-8.9850;TL-BO;Bobonaro;Ilatlau
+0;125.3403,-8.9831;TL-BO;Bobonaro;Biabusi
+0;125.3275,-8.9789;TL-BO;Bobonaro;Tonero
+0;125.3275,-8.9756;TL-BO;Bobonaro;Asobea
+0;125.3317,-8.9717;TL-BO;Bobonaro;Borluli
+0;125.9761,-8.6397;TL-MT;Manatuto;Fatuuk
+0;125.3536,-8.9881;TL-ER;Ermera;Suriubu
+0;125.3592,-8.9806;TL-ER;Ermera;Biliubu
+0;125.3614,-8.9778;TL-ER;Ermera;Obeto
+0;125.9772,-8.6425;TL-MT;Manatuto;Waiderek
+0;125.3669,-8.9753;TL-ER;Ermera;Atubrau
+0;125.9761,-8.6422;TL-MT;Manatuto;Rehatun
+0;125.3703,-8.9772;TL-ER;Ermera;Motoubu
+0;125.5483,-8.9414;TL-AN;Ainaro;Suruhati
+0;125.3722,-8.9914;TL-BO;Bobonaro;Atu Lara
+0;125.9767,-8.6431;TL-MT;Manatuto;Tanusa
+0;125.3722,-8.9914;TL-BO;Bobonaro;Atolara
+0;125.9925,-8.6753;TL-MT;Manatuto;Atahoc
+0;125.3736,-8.9733;TL-ER;Ermera;Lakubu
+0;125.9906,-8.6761;TL-MT;Manatuto;Tuquetin
+0;125.5675,-8.9372;TL-AN;Ainaro;Goulora
+0;125.3703,-8.9711;TL-ER;Ermera;Aiabe
+0;125.5711,-8.9350;TL-AN;Ainaro;Mauchiga
+0;125.6144,-8.9375;TL-MF;Manufahi;Betulala
+0;125.6228,-8.9361;TL-MF;Manufahi;Fahiluhan
+0;125.5611,-8.9306;TL-AN;Ainaro;Dare
+0;125.3644,-8.9456;TL-ER;Ermera;Mutubau
+0;125.9783,-8.7183;TL-MT;Manatuto;Sasahi
+0;125.3500,-8.9297;TL-ER;Ermera;Biabote
+0;125.9792,-8.7225;TL-MT;Manatuto;Lisuata
+0;125.3511,-8.9333;TL-ER;Ermera;Airae
+0;125.3236,-8.9350;TL-ER;Ermera;Brahua
+0;125.9775,-8.7233;TL-MT;Manatuto;Larmera
+0;125.3256,-8.9578;TL-BO;Bobonaro;Puruqua
+0;125.5714,-8.9286;TL-AN;Ainaro;Ernaro
+0;125.9353,-8.7464;TL-MT;Manatuto;Hatomalos
+0;125.9186,-8.7397;TL-MT;Manatuto;Lihutula
+0;125.5758,-8.9281;TL-AN;Ainaro;Karaulun
+0;125.3072,-8.9636;TL-BO;Bobonaro;Manarema
+0;125.3058,-8.9692;TL-BO;Bobonaro;Folete
+0;125.2942,-8.9694;TL-BO;Bobonaro;Haareme
+0;125.2953,-8.9725;TL-BO;Bobonaro;Daruasa
+0;125.5806,-8.9294;TL-AN;Ainaro;Hatoquero
+0;125.2978,-8.9744;TL-BO;Bobonaro;Ohana
+0;125.9083,-8.7406;TL-MT;Manatuto;Fatuha
+0;125.9111,-8.7397;TL-MT;Manatuto;Werulun
+0;125.5269,-8.9192;TL-AN;Ainaro;Monocati
+0;125.2839,-8.9486;TL-BO;Bobonaro;Tuturema
+0;125.2908,-8.9481;TL-BO;Bobonaro;Atubuti
+0;125.2939,-8.9453;TL-BO;Bobonaro;Noapu
+0;125.2961,-8.9431;TL-BO;Bobonaro;Biateo
+0;125.5753,-8.9200;TL-AN;Ainaro;Tatiri Baru
+0;125.2914,-8.9247;TL-BO;Bobonaro;Aitasiabe
+0;125.2944,-8.9228;TL-BO;Bobonaro;Pasarema
+0;125.5847,-8.9106;TL-AN;Ainaro;Haotio
+0;125.5772,-8.8997;TL-AN;Ainaro;Manumerah
+0;125.3008,-8.9233;TL-BO;Bobonaro;Suriubu
+0;125.5928,-8.9003;TL-AN;Ainaro;Aituto
+0;125.3056,-8.9292;TL-BO;Bobonaro;Mubaa
+0;125.6189,-8.9006;TL-AN;Ainaro;Airakalau
+0;125.3053,-8.9156;TL-BO;Bobonaro;Poetete
+0;125.3003,-8.9094;TL-BO;Bobonaro;Malilia
+0;125.2906,-8.8975;TL-BO;Bobonaro;Tirimos
+0;125.2911,-8.8964;TL-BO;Bobonaro;Waudu
+0;125.2894,-8.8931;TL-BO;Bobonaro;Tegal
+0;125.2831,-8.9075;TL-BO;Bobonaro;Batuubu
+0;125.5186,-8.8936;TL-AN;Ainaro;Hatobuilico
+0;125.5228,-8.8939;TL-AN;Ainaro;Keorudu
+0;125.5186,-8.8878;TL-AN;Ainaro;Mausoro Mata
+0;125.5661,-8.8908;TL-AN;Ainaro;Maulahulu
+0;125.6061,-8.8850;TL-AN;Ainaro;Lientuto
+0;125.6044,-8.8778;TL-AN;Ainaro;Russulau
+0;125.5958,-8.8778;TL-AN;Ainaro;Flisac
+0;125.5903,-8.8758;TL-AN;Ainaro;Aihou
+0;125.2722,-8.9181;TL-BO;Bobonaro;Melemaga
+0;125.2664,-8.9233;TL-BO;Bobonaro;Poerema
+0;125.5361,-8.8828;TL-AN;Ainaro;Qeorema
+0;125.2572,-8.9258;TL-BO;Bobonaro;Lesuaben
+0;125.2556,-8.9242;TL-BO;Bobonaro;Baleo
+0;125.7514,-8.5231;TL-DI;Dili Municipality;Nelayan
+0;125.2694,-8.9017;TL-BO;Bobonaro;Nunulau
+0;125.7533,-8.5286;TL-DI;Dili Municipality;Duyung
+0;125.7511,-8.5306;TL-DI;Dili Municipality;Priramatan
+0;125.2628,-8.8875;TL-BO;Bobonaro;Banerema
+0;125.2644,-8.8842;TL-BO;Bobonaro;Gerotete
+0;125.8292,-8.5639;TL-MT;Manatuto;Hatuconan
+0;125.8653,-8.5844;TL-MT;Manatuto;Maloroc
+0;125.6456,-9.1225;TL-AN;Ainaro;Bekumu
+0;125.8436,-8.5867;TL-MT;Manatuto;Reabuticeon
+0;125.8183,-8.5836;TL-MT;Manatuto;Bua
+0;125.3389,-8.8844;TL-ER;Ermera;Railuli
+0;125.3569,-8.8847;TL-ER;Ermera;Susurema
+0;125.6419,-9.1139;TL-AN;Ainaro;Ailora
+0;125.3589,-8.8872;TL-ER;Ermera;Raibo
+0;125.6483,-9.1128;TL-AN;Ainaro;Boramba
+0;125.3675,-8.8792;TL-ER;Ermera;Realia
+0;125.6586,-9.1117;TL-AN;Ainaro;Fatualas
+0;125.6608,-9.1108;TL-AN;Ainaro;Lebumera
+0;125.3536,-8.9133;TL-ER;Ermera;Lebutilau
+0;125.3433,-8.9161;TL-ER;Ermera;Sirui
+0;125.6958,-9.1061;TL-MF;Manufahi;Sesurai
+0;125.6936,-9.0917;TL-MF;Manufahi;Riatu
+0;125.6886,-9.0886;TL-MF;Manufahi;Babulu
+0;125.6892,-9.0828;TL-MF;Manufahi;Loti
+0;125.6839,-9.0808;TL-MF;Manufahi;Lesulau
+0;125.3231,-8.8994;TL-ER;Ermera;Motur
+0;125.8042,-8.5900;TL-MT;Manatuto;Rehatu
+0;125.7644,-8.6069;TL-MT;Manatuto;Hatomera
+0;125.7581,-8.6175;TL-AL;Aileu;Aikurus
+0;125.8036,-8.6183;TL-MT;Manatuto;Anicalau
+0;125.8056,-8.6078;TL-MT;Manatuto;Robai
+0;125.8114,-8.6153;TL-MT;Manatuto;Umaheuk
+0;125.8289,-8.6164;TL-MT;Manatuto;Labubu
+0;125.8519,-8.6072;TL-MT;Manatuto;Tuha
+0;125.2981,-8.8575;TL-ER;Ermera;Boeana
+0;125.3144,-8.8650;TL-ER;Ermera;Gnutur
+0;125.3181,-8.8644;TL-ER;Ermera;Aidabamera
+0;125.9017,-8.5231;TL-MT;Manatuto;Ilimbaba
+0;125.3700,-8.8581;TL-ER;Ermera;Brogobo
+0;125.6631,-9.0364;TL-MF;Manufahi;Turon
+0;125.8839,-8.5506;TL-MT;Manatuto;Tahagamo
+0;125.3644,-8.8303;TL-ER;Ermera;Betupu
+0;125.3714,-8.8214;TL-ER;Ermera;Aihatadiukraic
+0;125.6553,-9.0267;TL-MF;Manufahi;Lapuru
+0;125.3631,-8.8189;TL-ER;Ermera;Aihatadiu Leten
+0;125.3472,-8.8178;TL-ER;Ermera;Narlolo
+0;125.6561,-9.0236;TL-MF;Manufahi;Babulu
+0;125.3464,-8.8147;TL-ER;Ermera;Fatunapa
+0;125.9058,-8.5533;TL-MT;Manatuto;Reododok
+0;125.3522,-8.8081;TL-ER;Ermera;Talo
+0;125.6533,-9.0197;TL-MF;Manufahi;Umaliurai
+0;125.9222,-8.5522;TL-MT;Manatuto;Hahihoho
+0;125.2969,-8.8406;TL-ER;Ermera;Samara
+0;125.6444,-9.0200;TL-MF;Manufahi;Nunufu
+0;125.6011,-8.8208;TL-AL;Aileu;Rairema
+0;125.3031,-8.8297;TL-ER;Ermera;Petalara
+0;125.2919,-8.8267;TL-ER;Ermera;Raeluli
+0;125.6433,-9.0175;TL-MF;Manufahi;Searema
+0;125.3083,-8.8183;TL-ER;Ermera;Lukulaulau
+0;125.6150,-8.8200;TL-AN;Ainaro;Kasimidei
+0;125.6553,-9.0133;TL-MF;Manufahi;Akadiruhun
+0;125.3222,-8.8242;TL-ER;Ermera;Hedarmea
+0;125.6225,-8.8189;TL-AN;Ainaro;Raibotilau
+0;125.3283,-8.8169;TL-ER;Ermera;Simohei
+0;125.6522,-9.0103;TL-MF;Manufahi;Rilau
+0;125.3253,-8.8169;TL-ER;Ermera;Hatobato
+0;125.3203,-8.8153;TL-ER;Ermera;Hohopu
+0;125.3281,-8.8128;TL-ER;Ermera;Aimerulu
+0;125.6186,-8.8125;TL-AN;Ainaro;Kaitara
+0;125.6478,-9.0092;TL-MF;Manufahi;Raimerak
+0;125.3356,-8.8097;TL-ER;Ermera;Diaro
+0;125.3194,-8.8125;TL-ER;Ermera;Santacruz
+0;125.6150,-8.8125;TL-AN;Ainaro;Tutufili
+0;125.3200,-8.8092;TL-ER;Ermera;Malioboru
+0;125.6289,-9.0114;TL-MF;Manufahi;Manikun
+0;125.3275,-8.8033;TL-ER;Ermera;Poerema
+0;125.6322,-9.0086;TL-MF;Manufahi;Lianai
+0;125.6150,-8.8272;TL-AN;Ainaro;Rita
+0;125.3169,-8.8033;TL-ER;Ermera;Aibote
+0;125.6353,-9.0067;TL-MF;Manufahi;Manico
+0;125.3083,-8.8042;TL-ER;Ermera;Foetete
+0;125.3014,-8.8028;TL-ER;Ermera;Foelemea
+0;125.6461,-9.0003;TL-MF;Manufahi;Manico
+0;125.5997,-8.8161;TL-AL;Aileu;Likitura
+0;125.9139,-8.5550;TL-MT;Manatuto;Umasurat
+0;125.9119,-8.5572;TL-MT;Manatuto;Hohorai
+0;125.9192,-8.5542;TL-MT;Manatuto;Nacaleu
+0;125.5978,-8.8117;TL-AL;Aileu;Hatoleta
+0;125.3644,-8.7969;TL-ER;Ermera;Lebutu
+0;125.5444,-8.8161;TL-AL;Aileu;Kulau
+0;125.3353,-8.7975;TL-ER;Ermera;Lelemanu
+0;125.3256,-8.7975;TL-ER;Ermera;Cucara
+0;125.9158,-8.5561;TL-MT;Manatuto;Umanaruk
+0;125.3194,-8.7864;TL-ER;Ermera;Leirema
+0;125.8989,-8.5644;TL-MT;Manatuto;Sucatin
+0;125.5133,-8.8133;TL-AL;Aileu;Fatubesi
+0;125.5908,-8.8042;TL-AL;Aileu;Lakasori
+0;125.3167,-8.7731;TL-ER;Ermera;Asulau
+0;125.6100,-8.8014;TL-AN;Ainaro;Hohulo
+0;125.3311,-8.7789;TL-ER;Ermera;Betutu
+0;125.3425,-8.7761;TL-ER;Ermera;Ducurai
+0;125.9125,-8.5786;TL-MT;Manatuto;Rehato
+0;125.3397,-8.7822;TL-ER;Ermera;Otete
+0;125.5558,-8.7989;TL-AL;Aileu;Fatubossa
+0;125.9975,-8.5042;TL-MT;Manatuto;Obrato
+0;125.9978,-8.5217;TL-MT;Manatuto;Malarahu
+0;125.3542,-8.7828;TL-ER;Ermera;Bauana
+0;125.9886,-8.5308;TL-MT;Manatuto;Nunuli
+0;125.9614,-8.5328;TL-MT;Manatuto;Condar
+0;125.9653,-8.5444;TL-MT;Manatuto;Rembor
+0;125.5331,-8.7919;TL-AL;Aileu;Rairema
+0;125.9461,-8.5389;TL-MT;Manatuto;Ilihuli
+0;125.5600,-8.7903;TL-AL;Aileu;Lahae
+0;125.9431,-8.5433;TL-MT;Manatuto;Iun
+0;125.5614,-8.7881;TL-AL;Aileu;Denehuni
+0;125.5181,-8.7747;TL-AL;Aileu;Raimaso
+0;125.5719,-8.7742;TL-AL;Aileu;Bibteron
+0;125.5692,-8.7633;TL-AL;Aileu;Raifusu
+0;125.5708,-8.7608;TL-AL;Aileu;Dailor
+0;125.5383,-8.7583;TL-AL;Aileu;Bandeirahun
+0;125.5681,-8.7553;TL-AL;Aileu;Railete
+0;125.5878,-8.8164;TL-AL;Aileu;Erelolo
+0;125.5586,-8.8217;TL-AL;Aileu;Lekilakuana
+0;125.6494,-8.9989;TL-MF;Manufahi;Kotalala
+0;125.6564,-8.9917;TL-MF;Manufahi;Raiubu
+0;125.6683,-8.9933;TL-MF;Manufahi;Ailuli
+0;125.6853,-8.9964;TL-MF;Manufahi;Ladiki
+0;125.7297,-8.9975;TL-MF;Manufahi;Kakai
+0;125.6933,-8.9856;TL-MF;Manufahi;Dalun
+0;125.6656,-8.9878;TL-MF;Manufahi;Haturae
+0;125.6592,-8.9856;TL-MF;Manufahi;Holarua
+0;125.6283,-8.9878;TL-MF;Manufahi;Tomanamo
+0;125.6925,-8.9817;TL-MF;Manufahi;Socemera
+0;125.6622,-8.9697;TL-MF;Manufahi;Fatuku
+0;125.6631,-8.9683;TL-MF;Manufahi;Tirilolo
+0;125.6511,-8.9542;TL-MF;Manufahi;Carbulau
+0;125.7058,-8.9569;TL-MF;Manufahi;Bubulau
+0;125.7411,-8.9581;TL-MF;Manufahi;Daramata
+0;125.3572,-8.7803;TL-ER;Ermera;Geroboti
+0;125.3678,-8.7828;TL-ER;Ermera;Lurirema
+0;125.3689,-8.7769;TL-ER;Ermera;Hatete
+0;125.3672,-8.7717;TL-ER;Ermera;Gaenoa
+0;125.3578,-8.7733;TL-ER;Ermera;Urado
+0;125.3542,-8.7669;TL-ER;Ermera;Aiprado
+0;125.3422,-8.7683;TL-ER;Ermera;Poerema
+0;125.3358,-8.7592;TL-ER;Ermera;Betorema
+0;125.3244,-8.7561;TL-ER;Ermera;Urtali
+0;125.3286,-8.7553;TL-ER;Ermera;Nacahun
+0;125.3581,-8.7511;TL-ER;Ermera;Aitemua
+0;125.2728,-8.8014;TL-ER;Ermera;Betupu
+0;125.3264,-9.1172;TL-BO;Bobonaro;Ilhago
+0;125.3342,-9.1144;TL-BO;Bobonaro;Omelat
+0;125.3250,-9.1119;TL-BO;Bobonaro;Pieguda
+0;125.3405,-9.1053;TL-BO;Bobonaro;Loulolo
+0;125.2737,-9.0990;TL-BO;Bobonaro;Mabelis
+0;125.3133,-9.0925;TL-BO;Bobonaro;Mapeop
+0;125.3693,-9.1026;TL-BO;Bobonaro;Anapol
+0;125.3418,-9.0914;TL-BO;Bobonaro;Holmeser
+0;125.3321,-9.0859;TL-BO;Bobonaro;Sibuni
+0;125.3006,-9.0878;TL-BO;Bobonaro;Holbese
+0;126.7750,-8.7450;TL-LA;Lautém;Buamunir
+0;125.7042,-8.9503;TL-MF;Manufahi;Ailau
+0;125.6747,-8.9475;TL-MF;Manufahi;Palitehu
+0;125.6261,-8.9361;TL-MF;Manufahi;Fahiluhan
+0;125.6325,-8.9339;TL-MF;Manufahi;Datina
+0;125.6556,-8.9375;TL-MF;Manufahi;Orema
+0;125.2797,-9.0889;TL-BO;Bobonaro;Lebertas
+0;125.2764,-9.0867;TL-BO;Bobonaro;Tawalolo
+0;125.2689,-9.0844;TL-BO;Bobonaro;Pugu
+0;125.6769,-8.9369;TL-MF;Manufahi;Russu
+0;125.7056,-8.9372;TL-MF;Manufahi;Batas
+0;125.2644,-9.0814;TL-BO;Bobonaro;Jimelai
+0;125.2559,-9.0753;TL-BO;Bobonaro;Bucuk
+0;125.6897,-8.9278;TL-MF;Manufahi;Hastetuk
+0;125.6478,-8.9217;TL-MF;Manufahi;Anilumu
+0;125.3505,-9.0679;TL-BO;Bobonaro;Aimea
+0;125.3570,-9.0676;TL-BO;Bobonaro;Tasqolo
+0;125.6619,-8.9067;TL-MF;Manufahi;Deunai
+0;125.7208,-8.8997;TL-MF;Manufahi;Aidila
+0;126.8217,-8.7461;TL-LA;Lautém;Lalomato
+0;126.8369,-8.7397;TL-LA;Lautém;Laimata
+0;126.8225,-8.7314;TL-LA;Lautém;Lihina
+0;125.3623,-9.0737;TL-BO;Bobonaro;Galitaz
+0;126.8231,-8.7289;TL-LA;Lautém;Madaraira
+0;125.3617,-9.0725;TL-BO;Bobonaro;Oloolo
+0;126.8400,-8.7283;TL-LA;Lautém;Buquila
+0;125.7153,-8.8894;TL-MF;Manufahi;Binani
+0;125.3630,-9.0709;TL-BO;Bobonaro;Helikei
+0;125.3351,-9.0625;TL-BO;Bobonaro;Oalgomo
+0;125.6639,-8.8794;TL-AN;Ainaro;Maulau
+0;125.6975,-8.8769;TL-MF;Manufahi;Orsenaco
+0;125.6619,-8.9186;TL-MF;Manufahi;Blaro
+0;126.8344,-8.7169;TL-LA;Lautém;Arara
+0;126.8369,-8.7131;TL-LA;Lautém;Caintau
+0;125.7667,-9.1533;TL-MF;Manufahi;Selihasan
+0;126.8289,-8.7231;TL-LA;Lautém;Acara
+0;126.8225,-8.7194;TL-LA;Lautém;Ossoira
+0;126.8236,-8.7158;TL-LA;Lautém;Uatamatar
+0;126.8228,-8.7131;TL-LA;Lautém;Ailebere
+0;126.8256,-8.6961;TL-LA;Lautém;Butinafa
+0;125.3484,-9.0580;TL-BO;Bobonaro;Aisalgusun
+0;125.3197,-9.0625;TL-BO;Bobonaro;Odelgomo
+0;125.9981,-9.0314;TL-MF;Manufahi;Fatuboec
+0;125.3033,-9.0611;TL-BO;Bobonaro;Mazop
+0;125.2944,-9.0600;TL-BO;Bobonaro;Laho
+0;125.2603,-9.0661;TL-BO;Bobonaro;Oepo
+0;125.2706,-9.0539;TL-BO;Bobonaro;Tapo
+0;125.2749,-9.0487;TL-BO;Bobonaro;Mologuenglana
+0;125.3454,-9.0522;TL-BO;Bobonaro;Maucugun
+0;125.3779,-9.0465;TL-BO;Bobonaro;Agoltama
+0;125.3609,-9.0434;TL-BO;Bobonaro;Lepo
+0;125.3436,-9.0464;TL-BO;Bobonaro;Dena
+0;125.3436,-9.0492;TL-BO;Bobonaro;Lalebol
+0;125.3113,-9.0402;TL-BO;Bobonaro;Mausama
+0;125.3125,-9.0437;TL-BO;Bobonaro;Aiasa
+0;125.3171,-9.0360;TL-BO;Bobonaro;Laktil
+0;125.3175,-9.0333;TL-BO;Bobonaro;Lesigatal
+6110;125.3250,-9.0319;TL-BO;Bobonaro;Bobonaro
+0;125.3256,-9.0369;TL-BO;Bobonaro;Buteri
+0;125.3283,-9.0397;TL-BO;Bobonaro;Mautaloh
+0;125.3321,-9.0374;TL-BO;Bobonaro;Holtal
+0;125.3383,-9.0411;TL-BO;Bobonaro;Kulumba
+0;125.3406,-9.0417;TL-BO;Bobonaro;Bok
+0;125.2817,-9.0389;TL-BO;Bobonaro;Nelgen
+0;125.2818,-9.0350;TL-BO;Bobonaro;Tasmil
+0;126.0033,-9.0186;TL-MF;Manufahi;Manehat
+0;126.0061,-9.0153;TL-MF;Manufahi;Uebicas
+0;126.0047,-9.0117;TL-MF;Manufahi;Selucin
+0;126.0114,-9.0106;TL-MF;Manufahi;Haslulucmodoc
+0;126.0114,-9.0089;TL-MF;Manufahi;Clacuc
+0;126.0128,-9.0058;TL-MF;Manufahi;Haleberliuk
+0;125.2869,-9.0286;TL-BO;Bobonaro;Holgen
+0;125.2953,-9.0306;TL-BO;Bobonaro;Oeleu
+0;125.2995,-9.0284;TL-BO;Bobonaro;Mologueng
+0;125.3017,-9.0278;TL-BO;Bobonaro;Atulaun
+0;126.8386,-8.7075;TL-LA;Lautém;Bunabiqui
+0;126.8619,-8.6986;TL-LA;Lautém;Rumotau
+0;125.3213,-9.0291;TL-BO;Bobonaro;Malilait
+0;125.3261,-9.0302;TL-BO;Bobonaro;Malilu
+0;125.3197,-9.0231;TL-BO;Bobonaro;Uat
+0;125.3247,-9.0192;TL-BO;Bobonaro;Taimea
+0;125.3536,-9.0178;TL-BO;Bobonaro;Zobelis
+0;125.3550,-9.0158;TL-BO;Bobonaro;Lourba
+0;126.8250,-8.7047;TL-LA;Lautém;Titiravem
+0;126.8128,-8.6969;TL-LA;Lautém;Tirilolo
+0;126.8122,-8.6958;TL-LA;Lautém;Etevata
+0;126.8161,-8.6906;TL-LA;Lautém;Tatalalarin
+0;126.8150,-8.6850;TL-LA;Lautém;Liufalo
+0;126.8281,-8.6889;TL-LA;Lautém;Caidovalarin
+0;126.8314,-8.6861;TL-LA;Lautém;Maloira
+0;126.8314,-8.6836;TL-LA;Lautém;Cainliu
+0;126.8606,-8.6872;TL-LA;Lautém;Vataomar
+0;126.8458,-8.7447;TL-LA;Lautém;Iraluroto
+0;126.8594,-8.7394;TL-LA;Lautém;Iradarate
+0;126.7892,-8.7056;TL-LA;Lautém;Boropai
+0;125.3681,-9.0184;TL-BO;Bobonaro;Ohobin
+0;125.3722,-9.0156;TL-BO;Bobonaro;Bugas
+0;125.3755,-9.0122;TL-BO;Bobonaro;Tebabui
+0;125.3448,-9.0153;TL-BO;Bobonaro;Gumer
+0;125.3342,-9.0122;TL-BO;Bobonaro;Grotu
+0;125.3294,-9.0106;TL-BO;Bobonaro;Harare
+0;125.2849,-9.0137;TL-BO;Bobonaro;Lakatil
+0;125.2798,-9.0091;TL-BO;Bobonaro;Anahon
+0;125.2583,-9.0111;TL-BO;Bobonaro;Galusapulu
+0;125.3275,-9.0040;TL-BO;Bobonaro;Atuaben
+0;125.3467,-9.0064;TL-BO;Bobonaro;Atuela
+0;125.3519,-9.0025;TL-BO;Bobonaro;Aiaras
+0;126.7600,-8.6861;TL-LA;Lautém;Larimin
+0;125.3603,-9.0081;TL-BO;Bobonaro;Sardoli
+0;125.3558,-9.0150;TL-BO;Bobonaro;Lourbaleten
+0;126.8322,-8.6700;TL-LA;Lautém;Lurato
+0;126.8425,-8.6350;TL-LA;Lautém;Caidabu
+0;126.8250,-8.6436;TL-LA;Lautém;Hamahun
+0;125.4374,-9.2298;TL-CO;Cova Lima;Kuluan
+0;126.8461,-8.6811;TL-LA;Lautém;Acaidoroloho
+0;125.3976,-9.2048;TL-CO;Cova Lima;Maucola
+0;125.4829,-9.2023;TL-CO;Cova Lima;Belako B
+0;125.4781,-9.1922;TL-CO;Cova Lima;Beilako A
+0;125.4539,-9.1981;TL-CO;Cova Lima;Audian
+0;125.4211,-9.1972;TL-CO;Cova Lima;Tashilin
+0;125.4239,-9.1958;TL-CO;Cova Lima;Galitas
+0;125.4124,-9.2001;TL-CO;Cova Lima;Baordaikun
+0;125.4282,-9.1895;TL-CO;Cova Lima;Holgeda
+0;125.4340,-9.1834;TL-CO;Cova Lima;Obugmil
+0;125.4975,-9.1878;TL-CO;Cova Lima;Holitol
+0;125.4852,-9.1827;TL-CO;Cova Lima;Harekain
+0;127.0044,-8.6086;TL-LA;Lautém;Ilicoa
+0;127.0167,-8.6083;TL-LA;Lautém;Chai
+0;127.1000,-8.5853;TL-LA;Lautém;Paio
+0;127.1153,-8.5697;TL-LA;Lautém;Lopohoho
+0;127.0033,-8.5622;TL-LA;Lautém;Puaperchula
+0;127.0189,-8.5544;TL-LA;Lautém;Paitalo
+0;125.4762,-9.1790;TL-CO;Cova Lima;Leonti
+0;125.4686,-9.1781;TL-CO;Cova Lima;Raifila
+0;125.4543,-9.1749;TL-CO;Cova Lima;Fatukao
+0;125.4083,-9.1100;TL-CO;Cova Lima;Zulo
+0;125.4383,-9.1783;TL-CO;Cova Lima;Karetamute
+0;125.4431,-9.1656;TL-CO;Cova Lima;Maliseran
+0;125.4492,-9.1641;TL-CO;Cova Lima;Zobete
+0;125.4115,-9.1143;TL-CO;Cova Lima;Zulotos
+0;125.4138,-9.1155;TL-CO;Cova Lima;Lale
+0;125.4483,-9.1604;TL-CO;Cova Lima;Dilukede
+0;125.4189,-9.1178;TL-CO;Cova Lima;Loegolo
+0;127.0203,-8.6083;TL-LA;Lautém;Raca
+0;126.9869,-8.6314;TL-LA;Lautém;Nualata
+0;125.4683,-9.0442;TL-AN;Ainaro;Mauneno
+0;127.0381,-8.5508;TL-LA;Lautém;Irara
+0;125.4506,-9.1575;TL-CO;Cova Lima;Zumalai
+0;125.4864,-9.0026;TL-AN;Ainaro;Mauulo
+0;125.3900,-9.0057;TL-BO;Bobonaro;Atupai
+0;125.3900,-9.0108;TL-BO;Bobonaro;Aimeta
+0;126.8919,-8.7147;TL-LA;Lautém;Iratoi
+0;127.0069,-8.5217;TL-LA;Lautém;Irara
+0;125.3829,-9.0145;TL-BO;Bobonaro;Cotabot
+0;125.3833,-9.0186;TL-BO;Bobonaro;Carabau
+0;125.3712,-9.0222;TL-BO;Bobonaro;Uduai
+0;126.9997,-8.5225;TL-LA;Lautém;Kampungcina
+0;125.3817,-9.0108;TL-BO;Bobonaro;Talaubu
+0;125.3881,-9.0024;TL-BO;Bobonaro;Maliubu
+0;126.9997,-8.5178;TL-LA;Lautém;Sidodadi
+0;127.0022,-8.5139;TL-LA;Lautém;Kampungpeternakan
+0;127.0033,-8.5036;TL-LA;Lautém;Motolari
+0;125.4503,-9.1539;TL-CO;Cova Lima;Zulokota
+0;125.4536,-9.1550;TL-CO;Cova Lima;Mape
+0;125.4581,-9.1514;TL-CO;Cova Lima;Lepokanua
+0;125.4587,-9.1449;TL-CO;Cova Lima;Nagidal
+0;125.4603,-9.1383;TL-CO;Cova Lima;Salasa
+0;127.0703,-8.5203;TL-LA;Lautém;Poguinigue
+0;127.1000,-8.5147;TL-LA;Lautém;Pehefito
+0;127.1233,-8.5111;TL-LA;Lautém;Muapitine
+0;127.0950,-8.5067;TL-LA;Lautém;Lopoloho
+0;127.0972,-8.5039;TL-LA;Lautém;Pehefito
+0;127.0992,-8.5008;TL-LA;Lautém;Vailoro
+0;127.0261,-8.6619;TL-LA;Lautém;Lori
+365;126.8206,-8.6019;TL-LA;Lautém;Gunung Dilarini
+0;126.8117,-8.5506;TL-LA;Lautém;Enanice
+0;126.8122,-8.5494;TL-LA;Lautém;Buanomor
+0;126.8367,-8.5464;TL-LA;Lautém;Halaena
+0;126.8336,-8.5458;TL-LA;Lautém;Afaia
+0;126.8319,-8.5467;TL-LA;Lautém;Ossufaso
+0;126.8303,-8.5467;TL-LA;Lautém;Sarelari
+0;126.8317,-8.5456;TL-LA;Lautém;Barikafa
+2839;126.8331,-8.5433;TL-LA;Lautém;Luro
+0;126.8347,-8.5436;TL-LA;Lautém;Aelaneno
+0;126.8364,-8.5425;TL-LA;Lautém;Uatalano
+0;126.8294,-8.5408;TL-LA;Lautém;Kotamutu
+0;126.8361,-8.5408;TL-LA;Lautém;Abere
+0;126.8372,-8.5392;TL-LA;Lautém;Fanice
+0;126.8339,-8.5392;TL-LA;Lautém;Oroma
+0;126.8356,-8.5142;TL-LA;Lautém;Onerafa
+0;126.8333,-8.5128;TL-LA;Lautém;Lakawa
+0;126.8317,-8.5114;TL-LA;Lautém;Borowali
+0;126.8319,-8.5106;TL-LA;Lautém;Borogae
+0;126.8347,-8.5092;TL-LA;Lautém;Dalari
+0;126.8322,-8.5086;TL-LA;Lautém;Zefaliu
+0;126.8333,-8.5075;TL-LA;Lautém;Wairoke
+0;126.8339,-8.5067;TL-LA;Lautém;Sofa
+0;126.8339,-8.5058;TL-LA;Lautém;Ulturo
+0;126.8314,-8.5075;TL-LA;Lautém;Afa
+0;126.8331,-8.5067;TL-LA;Lautém;Ataname
+0;125.5403,-9.2153;TL-AN;Ainaro;Bonuk
+0;125.5031,-9.1881;TL-CO;Cova Lima;Oerbora
+0;125.5100,-9.1889;TL-CO;Cova Lima;Oeulitai
+0;125.5167,-9.1883;TL-CO;Cova Lima;Oebaba
+0;125.5444,-9.1361;TL-AN;Ainaro;Cassa
+0;125.5456,-9.1339;TL-AN;Ainaro;Bemoris
+0;125.5431,-9.1344;TL-AN;Ainaro;Pebago
+0;125.5411,-9.1361;TL-AN;Ainaro;Lailima
+0;125.5697,-9.1357;TL-AN;Ainaro;Lese
+0;125.5742,-9.1353;TL-AN;Ainaro;Aimerliu
+0;125.5811,-9.1283;TL-AN;Ainaro;Ausur
+0;125.5972,-9.1308;TL-AN;Ainaro;Raisoro
+0;125.5967,-9.1333;TL-AN;Ainaro;Nonuboka
+0;125.6053,-9.1328;TL-AN;Ainaro;Bismata
+0;125.5867,-9.1369;TL-AN;Ainaro;Hutseo 1
+0;125.5800,-9.1533;TL-AN;Ainaro;Hutseo 2
+0;126.8828,-8.6075;TL-LA;Lautém;Locileu
+0;126.8889,-8.5947;TL-LA;Lautém;Charano
+0;126.9869,-8.5703;TL-LA;Lautém;Ililapa
+0;126.9872,-8.5656;TL-LA;Lautém;Lereloho
+0;126.9733,-8.5633;TL-LA;Lautém;Haitupuca
+0;126.9692,-8.5519;TL-LA;Lautém;Maurotubuka
+0;126.9758,-8.5528;TL-LA;Lautém;Vaurotubuka
+0;126.9728,-8.5494;TL-LA;Lautém;Chaiuacha Lama
+0;126.9922,-8.5553;TL-LA;Lautém;Chomoco
+0;126.9519,-8.5489;TL-LA;Lautém;Omucano
+0;126.9433,-8.5367;TL-LA;Lautém;Nanacuro
+0;126.9528,-8.5189;TL-LA;Lautém;Souro
+0;126.9522,-8.5231;TL-LA;Lautém;Lauro
+0;126.9514,-8.5192;TL-LA;Lautém;Nairete
+0;126.9453,-8.5125;TL-LA;Lautém;Caino
+0;126.9417,-8.5061;TL-LA;Lautém;Chenuloro
+0;126.9789,-8.5064;TL-LA;Lautém;Laucepo Baru
+0;126.9814,-8.5122;TL-LA;Lautém;Laucepo Lama
+0;126.9908,-8.5022;TL-LA;Lautém;Titilari
+0;126.9897,-8.5044;TL-LA;Lautém;Kartini 2
+0;126.9900,-8.5083;TL-LA;Lautém;Fuiloro
+0;126.9925,-8.5108;TL-LA;Lautém;Motolari
+0;126.9914,-8.5197;TL-LA;Lautém;Sawarika
+0;126.9819,-8.5292;TL-LA;Lautém;Chaiuacha Baru
+0;126.9956,-8.5258;TL-LA;Lautém;Natura
+0;126.9267,-8.5306;TL-LA;Lautém;Soro Kecil
+0;126.9197,-8.5314;TL-LA;Lautém;Leuro
+0;126.9175,-8.5328;TL-LA;Lautém;Luturula
+0;126.9136,-8.5244;TL-LA;Lautém;Soronaureci
+0;126.9147,-8.5181;TL-LA;Lautém;Leuro Lama
+0;126.8825,-8.5031;TL-LA;Lautém;Tamaro Lama
+0;126.9003,-8.5394;TL-LA;Lautém;Savarica
+0;126.9014,-8.5478;TL-LA;Lautém;Cacaven Lama
+0;126.9178,-8.5533;TL-LA;Lautém;Sorolua
+0;126.9300,-8.5558;TL-LA;Lautém;Comilara
+0;126.8994,-8.5622;TL-LA;Lautém;Vatalara
+0;126.9108,-8.5675;TL-LA;Lautém;Choquiro
+0;126.8850,-8.5681;TL-LA;Lautém;Cacaven
+0;126.8844,-8.5689;TL-LA;Lautém;Laiara
+0;126.8850,-8.5717;TL-LA;Lautém;Maluro
+0;127.0211,-8.6472;TL-LA;Lautém;Vailana
+0;127.0153,-8.6439;TL-LA;Lautém;Harolata
+0;127.0100,-8.6364;TL-LA;Lautém;Ochochau
+0;127.0153,-8.6319;TL-LA;Lautém;Maluro
+0;126.8900,-8.3681;TL-LA;Lautém;Tamitaro
+0;126.9119,-8.3533;TL-LA;Lautém;Liarafa
+0;126.9308,-8.3592;TL-LA;Lautém;Parlamento
+0;126.9400,-8.3519;TL-LA;Lautém;Iparira
+0;126.9444,-8.3464;TL-LA;Lautém;Serenica
+0;126.9461,-8.3458;TL-LA;Lautém;Laiara
+0;126.9844,-8.3481;TL-LA;Lautém;Soikili
+0;126.9869,-8.3481;TL-LA;Lautém;Iralafai
+0;126.9300,-8.3581;TL-LA;Lautém;Moro
+0;125.5183,-9.1233;TL-AN;Ainaro;Unil
+0;125.5844,-9.1267;TL-AN;Ainaro;Luru
+0;125.5886,-9.1211;TL-AN;Ainaro;Groto
+0;125.6192,-9.1089;TL-AN;Ainaro;Lesu
+0;125.5858,-9.1147;TL-AN;Ainaro;Goulau
+0;125.5863,-9.1110;TL-AN;Ainaro;Leolima
+0;125.5828,-9.1097;TL-AN;Ainaro;Surukraik
+0;125.5814,-9.1081;TL-AN;Ainaro;Raesoro
+0;125.6617,-9.1758;TL-AN;Ainaro;Gulala
+0;125.6453,-9.1725;TL-AN;Ainaro;Aimorbada
+0;125.6592,-9.1658;TL-AN;Ainaro;Karsabar
+0;125.6561,-9.1617;TL-AN;Ainaro;Akarlaran
+0;125.7264,-9.1606;TL-MF;Manufahi;Betano
+0;125.7069,-9.1500;TL-MF;Manufahi;Lalica
+0;125.6978,-9.1408;TL-MF;Manufahi;Leoai 2
+0;125.3878,-9.0122;TL-BO;Bobonaro;Oboe
+0;125.6772,-9.1469;TL-MF;Manufahi;Leoai 1
+0;125.6642,-9.1556;TL-AN;Ainaro;Bobe
+0;125.5269,-9.1014;TL-AN;Ainaro;Betama
+0;125.5310,-9.0743;TL-AN;Ainaro;Faulata
+0;125.5444,-9.0592;TL-AN;Ainaro;Ailau
+0;125.5444,-9.0558;TL-AN;Ainaro;Surocraic
+0;125.5431,-9.0531;TL-AN;Ainaro;Bazar
+0;125.5381,-9.0356;TL-AN;Ainaro;Reamori
+0;125.5375,-9.0294;TL-AN;Ainaro;Noulo
+0;125.5350,-9.0281;TL-AN;Ainaro;Orema
+0;125.5297,-9.0219;TL-AN;Ainaro;Karlele
+0;125.5008,-9.0044;TL-AN;Ainaro;Mauulo 1
+0;125.5167,-9.0006;TL-AN;Ainaro;Sono
+0;125.5192,-9.0006;TL-AN;Ainaro;Terlora
+0;125.5181,-9.0025;TL-AN;Ainaro;Gerudu
+0;125.5036,-9.0172;TL-AN;Ainaro;Mauulo 2
+0;125.6414,-9.1442;TL-AN;Ainaro;Akadirularan
+0;125.6317,-9.1361;TL-AN;Ainaro;Buifu
+0;125.6642,-9.1372;TL-AN;Ainaro;Bemalai
+0;125.5089,-9.0453;TL-AN;Ainaro;Builiko
+0;125.5647,-9.0672;TL-AN;Ainaro;Raibere
+0;125.6018,-9.0376;TL-MF;Manufahi;Leodato
+0;125.6006,-9.0336;TL-MF;Manufahi;Grotu
+0;125.5978,-9.0250;TL-MF;Manufahi;Kulidasi
+0;125.6192,-9.0072;TL-MF;Manufahi;Aidaludo
+0;125.8992,-9.1108;TL-MF;Manufahi;Umaberloic
+0;125.7835,-9.1035;TL-MF;Manufahi;Feriksare
+0;125.9028,-9.1036;TL-MF;Manufahi;Boclaran
+0;125.8472,-9.0353;TL-MF;Manufahi;Lakluan
+0;125.9175,-9.0706;TL-MF;Manufahi;Lacluan
+0;125.9189,-9.0692;TL-MF;Manufahi;Wecian
+0;125.7922,-9.0256;TL-MF;Manufahi;Beremanek
+0;125.8772,-9.0556;TL-MF;Manufahi;Nobularan
+0;125.9344,-9.0606;TL-MF;Manufahi;Oeto
+0;125.7964,-9.0200;TL-MF;Manufahi;Onuaalas
+0;125.7889,-9.0236;TL-MF;Manufahi;Umamean
+0;125.7878,-9.0181;TL-MF;Manufahi;Kelapa
+0;125.9525,-9.0467;TL-MF;Manufahi;Sucairau
+0;125.7908,-9.0153;TL-MF;Manufahi;Ailora
+0;125.9586,-9.0458;TL-MF;Manufahi;Buburlalete
+0;125.9594,-9.0428;TL-MF;Manufahi;Caicasa
+0;125.9614,-9.0447;TL-MF;Manufahi;Ailalec
+0;125.7819,-9.0158;TL-MF;Manufahi;Lurin
+0;125.9901,-9.0343;TL-MF;Manufahi;Clidic
+0;125.9868,-9.0351;TL-MF;Manufahi;Fatucahi
+0;125.9932,-9.0350;TL-MF;Manufahi;Fatumotin
+0;125.7589,-9.0222;TL-MF;Manufahi;Manos
+0;125.9960,-9.0300;TL-MF;Manufahi;Welaluhu
+0;125.9953,-9.0337;TL-MF;Manufahi;Fatubese
+0;125.8961,-9.1136;TL-MF;Manufahi;Besusu
+0;125.2697,-9.3469;TL-CO;Cova Lima;Maneikun
+0;125.2700,-9.3456;TL-CO;Cova Lima;Suai Loro
+0;125.3709,-9.2352;TL-CO;Cova Lima;Adentuik
+0;125.3408,-9.1789;TL-BO;Bobonaro;Anon
+0;125.2733,-9.1806;TL-BO;Bobonaro;Mape
+0;125.2614,-9.1811;TL-BO;Bobonaro;Tepa
+0;125.2706,-9.1672;TL-BO;Bobonaro;Lolotoe
+0;125.2673,-9.1652;TL-BO;Bobonaro;Oelaka
+0;125.2695,-9.1632;TL-BO;Bobonaro;Boutal
+0;125.2731,-9.1631;TL-BO;Bobonaro;Moko
+0;125.2750,-9.1661;TL-BO;Bobonaro;Raimea
+0;125.2797,-9.1592;TL-BO;Bobonaro;Ames
+0;125.2936,-9.1603;TL-BO;Bobonaro;Tapo
+0;125.3042,-9.1681;TL-BO;Bobonaro;Silagolo
+0;125.3226,-9.1721;TL-BO;Bobonaro;Dilai
+0;125.2622,-9.1400;TL-BO;Bobonaro;Ifililig
+0;125.2754,-9.1424;TL-BO;Bobonaro;Holak
+0;125.2866,-9.1369;TL-BO;Bobonaro;Tepa
+0;125.2925,-9.1406;TL-BO;Bobonaro;Tesigele
+0;125.2947,-9.1383;TL-BO;Bobonaro;Gulumugun
+0;125.2976,-9.1365;TL-BO;Bobonaro;Gudatas
+0;125.3047,-9.1328;TL-BO;Bobonaro;Oeceli
+0;125.3133,-9.1242;TL-BO;Bobonaro;Zoilpo
+0;125.3225,-9.1399;TL-CO;Cova Lima;Tobur
+0;125.3406,-9.1392;TL-CO;Cova Lima;Teda
+0;125.3558,-9.1383;TL-CO;Cova Lima;Gala
+0;125.2628,-9.3350;TL-CO;Cova Lima;Sukabilaran
+0;125.2606,-9.3189;TL-CO;Cova Lima;Asumaten
+0;125.2564,-9.3131;TL-CO;Cova Lima;Ahinarai
+0;125.2517,-9.3144;TL-CO;Cova Lima;Debos
+0;125.2831,-9.3222;TL-CO;Cova Lima;Futuisin
+0;125.2964,-9.3050;TL-CO;Cova Lima;Sanfuk
+0;125.2750,-9.3058;TL-CO;Cova Lima;Kiar
+0;125.2650,-9.2989;TL-CO;Cova Lima;Matai
+0;125.2569,-9.2978;TL-CO;Cova Lima;Maior
+0;125.3267,-9.2664;TL-CO;Cova Lima;Meop
+0;125.6489,-8.8594;TL-AN;Ainaro;Dimtete
+0;125.6597,-8.8625;TL-AN;Ainaro;Hahitali
+0;125.3456,-9.2539;TL-CO;Cova Lima;Haemanu
+0;125.6822,-8.8708;TL-AN;Ainaro;Kirikoli
+0;125.6822,-8.8547;TL-AN;Ainaro;Daulelo
+0;125.7175,-8.8661;TL-MF;Manufahi;Furaclau
+0;125.7178,-8.8583;TL-MF;Manufahi;Delubo
+0;125.7178,-8.8558;TL-MF;Manufahi;Beremana
+0;125.7200,-8.8472;TL-MF;Manufahi;Fahilebu
+0;125.6900,-8.8439;TL-MF;Manufahi;Laclo
+0;125.6792,-8.8486;TL-AN;Ainaro;Lebululi
+0;125.6772,-8.8461;TL-AN;Ainaro;Rusulau
+0;125.6600,-8.8419;TL-AN;Ainaro;Ernaro
+0;125.6483,-8.8439;TL-AN;Ainaro;Hahimau
+0;125.6319,-8.8506;TL-AN;Ainaro;Raimera
+0;125.6358,-8.8372;TL-AN;Ainaro;Talifelo
+0;125.6794,-8.8394;TL-AN;Ainaro;Hautilo
+0;125.6703,-8.8275;TL-AN;Ainaro;Kotamatan
+0;125.6967,-8.8311;TL-MF;Manufahi;Toileru
+0;125.7047,-8.8253;TL-MF;Manufahi;Faturedelau
+0;125.7272,-8.8328;TL-MF;Manufahi;Fohonaro
+0;125.7294,-8.8317;TL-MF;Manufahi;Binimalo
+0;125.7314,-8.8281;TL-MF;Manufahi;Turiscailau
+0;125.7392,-8.8292;TL-MF;Manufahi;Marcoluli
+0;125.7450,-8.8192;TL-MF;Manufahi;Fanulelo
+0;125.7133,-8.8175;TL-MF;Manufahi;Kotalaura
+0;125.7114,-8.8233;TL-MF;Manufahi;Acumata
+0;125.7058,-8.8181;TL-MF;Manufahi;Bucacoa
+0;125.7042,-8.8194;TL-MF;Manufahi;Risso
+0;125.6983,-8.8175;TL-MF;Manufahi;Railete
+0;125.6981,-8.8208;TL-MF;Manufahi;Fohua
+0;125.6767,-8.8214;TL-AN;Ainaro;Hautei
+0;125.6644,-8.8214;TL-AN;Ainaro;Tarabula
+0;125.6661,-8.8094;TL-AN;Ainaro;Lokamalikau
+0;125.7061,-8.8147;TL-MF;Manufahi;Lemano
+0;125.6642,-8.8031;TL-AN;Ainaro;Uculoli
+0;125.6656,-8.8011;TL-AN;Ainaro;Maleria
+0;125.6700,-8.7978;TL-AN;Ainaro;Lumululi
+0;125.6797,-8.7869;TL-AN;Ainaro;Hatulete
+0;125.6864,-8.7831;TL-AN;Ainaro;Hatokade
+0;125.6314,-8.8014;TL-AN;Ainaro;Titibauria
+0;125.6542,-8.8072;TL-AN;Ainaro;Aihosan
+0;126.6792,-8.5072;TL-BA;Baucau;Alacafa
+0;126.7072,-8.5097;TL-BA;Baucau;Ulabute
+0;126.7014,-8.5139;TL-BA;Baucau;Beliwale
+0;126.7058,-8.5178;TL-BA;Baucau;Uaraba
+0;126.7239,-8.5358;TL-BA;Baucau;Sirebuu
+0;126.7103,-8.5336;TL-BA;Baucau;Naafa
+0;126.7222,-8.5406;TL-BA;Baucau;Abuti
+0;126.7064,-8.5383;TL-BA;Baucau;Siguilaba
+0;126.7208,-8.5425;TL-BA;Baucau;Liarafa
+0;126.7036,-8.5467;TL-BA;Baucau;Atelari
+0;126.7017,-8.5469;TL-BA;Baucau;Lavadae
+0;126.6972,-8.5503;TL-BA;Baucau;Loilari
+0;126.6939,-8.5222;TL-BA;Baucau;Samagata
+0;126.6933,-8.5189;TL-BA;Baucau;Lasula
+0;126.6908,-8.5194;TL-BA;Baucau;Selegoa
+0;126.6925,-8.5225;TL-BA;Baucau;Onebu
+0;126.6300,-8.5228;TL-BA;Baucau;Namanei
+0;126.6900,-8.5592;TL-BA;Baucau;Buadolo
+0;126.6922,-8.5578;TL-BA;Baucau;Uaraba
+0;126.6978,-8.5586;TL-BA;Baucau;Samagata
+0;126.6844,-8.5669;TL-BA;Baucau;Ledena
+0;126.6842,-8.5678;TL-BA;Baucau;Onortibalari
+0;126.6822,-8.5697;TL-BA;Baucau;Fanalolo
+0;126.7011,-8.5539;TL-BA;Baucau;Uatalolo
+0;126.7156,-8.5639;TL-BA;Baucau;Sirimana
+0;126.7086,-8.5669;TL-BA;Baucau;Nelouai
+0;126.6922,-8.5953;TL-BA;Baucau;Defauassi
+0;126.6936,-8.5911;TL-BA;Baucau;Uarau
+0;126.6694,-8.5903;TL-BA;Baucau;Taubere
+0;126.6839,-8.5756;TL-BA;Baucau;Buau
+0;126.6656,-8.6006;TL-BA;Baucau;Iraosso
+0;126.6603,-8.6125;TL-BA;Baucau;Sorocama
+0;126.6639,-8.5989;TL-BA;Baucau;Iraosso
+0;126.6575,-8.6194;TL-BA;Baucau;Alaua Leten
+0;126.6564,-8.6233;TL-BA;Baucau;Maurubiassa
+0;126.6775,-8.6247;TL-BA;Baucau;Alaua
+0;125.9056,-8.7461;TL-MT;Manatuto;Balulin
+0;125.9167,-8.7350;TL-MT;Manatuto;Areain
+0;125.8897,-8.6006;TL-MT;Manatuto;Bahadic
+0;125.9261,-8.5728;TL-MT;Manatuto;Licore
+0;125.9742,-8.7247;TL-MT;Manatuto;Manukasak
+0;125.8603,-8.5578;TL-MT;Manatuto;Kera
+0;124.3347,-9.4158;TL-OE;Oecusse;Oesena
+0;125.5833,-8.5500;TL;;Xanana Gusm
+0;124.2922,-9.3620;TL-OE;Oecusse;Senaf
+0;127.0518,-8.3526;TL-LA;Lautém;Kun
+0;125.3883,-9.2234;TL-CO;Cova Lima;Becol
+0;125.5963,-8.5597;TL-DI;Dili Municipality;Camea
+0;125.5000,-8.7500;TL-AL;Aileu;Hoholau
+0;125.9167,-8.7350;TL-MT;Manatuto;Batara
+0;125.7167,-8.7167;TL-AL;Aileu;Faturilau
+0;125.6667,-8.7167;TL-AL;Aileu;Acubilitoho
+0;125.7744,-8.6273;TL-AL;Aileu;Tulataqueo
+0;125.7167,-8.6667;TL-AL;Aileu;Faturasa
+0;125.6667,-8.6667;TL-AL;Aileu;Maumeta
+0;126.3850,-8.4619;TL-BA;Baucau;Tirilolo
+0;126.3650,-8.5011;TL-BA;Baucau;Triloca
+0;126.2995,-8.6136;TL-BA;Baucau;Loilubo
+0;126.3919,-8.6616;TL-VI;Viqueque;Uai oli
+0;126.3884,-8.5839;TL-BA;Baucau;Uma Ana Ulo
+0;126.3687,-8.5998;TL-BA;Baucau;Uma Ana Lco
+0;125.4650,-8.6989;TL-ER;Ermera;Railaco Craic
+0;125.5158,-8.6838;TL-ER;Ermera;Samalete
+0;125.4067,-8.9267;TL-ER;Ermera;Parami
+0;125.4067,-8.9267;TL-ER;Ermera;Laclo
+0;125.9000,-8.7533;TL-MT;Manatuto;Funar
+0;124.2757,-9.3464;TL-OE;Oecusse;Lela-Ufe
+0;124.2125,-9.2462;TL-OE;Oecusse;Suni-Ufe
+0;124.2033,-9.3642;TL-OE;Oecusse;Usitaco
+0;124.0903,-9.3292;TL-OE;Oecusse;Bene-Ufe
+0;124.3349,-9.3782;TL-OE;Oecusse;Usi-Tacae
+0;124.4209,-9.2769;TL-OE;Oecusse;Costa
+0;126.2837,-8.9111;TL-VI;Viqueque;Bahalarauain
+0;124.3833,-9.3333;TL-OE;Oecusse;Hoineno
+0;124.3333,-9.3667;TL-OE;Oecusse;Sifin
+0;124.3167,-9.3086;TL-OE;Oecusse;Sonamnasi
+0;124.3667,-9.3000;TL-OE;Oecusse;Bobonus
+0;124.3333,-9.2833;TL-OE;Oecusse;Taiboco
+0;125.6000,-8.5660;TL-DI;Dili Municipality;Becora
+0;125.5667,-8.7667;TL-AL;Aileu;Montane
+0;125.5333,-8.7000;TL-AL;Aileu;Seloi Craic
+0;125.6000,-8.6333;TL-AL;Aileu;Cotolau
+0;125.5667,-8.6500;TL-AL;Aileu;Madabeno
+0;125.5333,-8.6333;TL-AL;Aileu;Fatisi
+0;125.5090,-8.5558;TL-DI;Dili Municipality;Tasi
+0;125.0658,-8.9081;TL-BO;Bobonaro;Leolima
+0;125.6604,-8.6124;TL-AL;Aileu;Acumao
+0;125.6687,-8.6764;TL-AL;Aileu;Hautoho
+0;125.6875,-8.6695;TL-AL;Aileu;Fadabloco
+0;125.6333,-8.6500;TL-AL;Aileu;Fahisoi
+0;125.6333,-8.7000;TL-AL;Aileu;Manucassa
+0;125.6500,-8.7167;TL-AL;Aileu;Namolesso
+0;125.6833,-8.7167;TL-AL;Aileu;Bereleu
+0;126.4144,-8.5566;TL-BA;Baucau;Maucale
+0;126.4667,-8.5167;TL-BA;Baucau;Samalari
+0;126.4331,-8.5267;TL-BA;Baucau;Wailili
+0;126.4333,-8.5333;TL-BA;Baucau;Uailili
+0;126.4667,-8.4667;TL-BA;Baucau;Caibada
+0;126.4833,-8.4667;TL-BA;Baucau;Buruma
+0;126.5167,-8.4667;TL-BA;Baucau;Seical
+0;126.6500,-8.6167;TL-BA;Baucau;Alawa Leten
+0;126.5833,-8.4833;TL-BA;Baucau;Tequinaumata
+0;125.3581,-9.0709;TL-BO;Bobonaro;Lour
+0;125.1856,-8.9792;TL-BO;Bobonaro;Odomau
+0;125.0787,-9.0109;TL-BO;Bobonaro;Leohito
+0;125.2743,-9.1929;TL-BO;Bobonaro;Opa
+0;125.2195,-9.1181;TL-BO;Bobonaro;Lontas
+0;125.3265,-9.1807;TL-BO;Bobonaro;Lupal
+0;125.3444,-9.2214;TL-CO;Cova Lima;Beco
+0;125.2984,-9.2770;TL-CO;Cova Lima;Labarai
+0;125.1216,-9.4010;TL-CO;Cova Lima;Lalawa
+0;125.0625,-9.3146;TL-CO;Cova Lima;Beiseuk
+0;126.4167,-8.6333;TL-BA;Baucau;Uatu Haco
+0;126.6833,-8.5667;TL-BA;Baucau;Lavateri
+0;126.6333,-8.6500;TL-BA;Baucau;Osso Huna
+0;126.5333,-8.6500;TL-BA;Baucau;Laisorolai
+0;126.3333,-8.5833;TL-BA;Baucau;Ossouala
+0;125.2000,-8.8333;TL-BO;Bobonaro;Atabae
+0;125.3333,-8.9833;TL-BO;Bobonaro;Ilat-Laun
+0;125.2833,-9.0000;TL-BO;Bobonaro;Raifun
+0;125.2194,-8.9975;TL-BO;Bobonaro;Holsa
+0;125.1333,-8.9667;TL-BO;Bobonaro;Tunu Bibi
+0;125.3870,-8.9922;TL-BO;Bobonaro;Hauba
+0;125.2500,-8.8000;TL-BO;Bobonaro;Purugua
+0;125.2333,-8.9667;TL-BO;Bobonaro;Manapa
+0;125.5167,-8.5500;TL-DI;Dili Municipality;Comoro
+0;125.6333,-8.1833;TL;;Biqueli
+0;125.5833,-8.2833;TL;;Maquili
+0;125.5500,-8.2667;TL;;Macadade
+0;125.3500,-8.9333;TL-ER;Ermera;Laubono
+0;125.3833,-8.9500;TL-ER;Ermera;Atara
+0;125.3167,-8.8167;TL-ER;Ermera;Hatulia Villa
+0;125.2565,-9.2282;TL-CO;Cova Lima;Belecasac
+0;125.3526,-8.9814;TL-ER;Ermera;Obulo
+0;125.3783,-8.8949;TL-ER;Ermera;Leimea Leten
+0;125.2661,-8.6258;TL-LI;Liquiçá;Vatuvou
+0;125.1961,-8.7156;TL-LI;Liquiçá;Guiso
+0;125.1171,-8.6890;TL-LI;Liquiçá;Vatuboro
+0;125.3888,-8.6182;TL-LI;Liquiçá;Fatumasi
+0;125.3801,-8.5831;TL-LI;Liquiçá;Lauhata
+0;125.4503,-8.5843;TL-LI;Liquiçá;Ulmera
+0;125.1483,-8.6467;TL-LI;Liquiçá;Gugleur
+0;125.4167,-8.9167;TL-ER;Ermera;Coilequi
+0;125.4667,-8.8000;TL-ER;Ermera;Lequi Sala
+0;125.4333,-8.8167;TL-ER;Ermera;Cailiti
+0;125.4000,-8.7500;TL-ER;Ermera;Poetete
+0;125.5000,-8.6667;TL-ER;Ermera;Deleso
+0;125.4333,-8.7000;TL-ER;Ermera;Fatuquero
+0;125.2333,-8.6667;TL-LI;Liquiçá;Lissadila
+0;125.2000,-8.6833;TL-LI;Liquiçá;Guico
+0;125.3333,-8.6000;TL-LI;Liquiçá;Loidahar
+0;125.3167,-8.6500;TL-LI;Liquiçá;Hatuquessi
+0;125.3833,-8.6167;TL-LI;Liquiçá;Fatumasse
+0;125.3667,-8.6833;TL-LI;Liquiçá;Leorema
+0;126.6075,-8.5872;TL-BA;Baucau;Betulari
+0;125.3667,-8.6333;TL-LI;Liquiçá;Metagou
+0;125.2167,-8.6500;TL-LI;Liquiçá;Maubaralissa
+0;125.4000,-8.6000;TL-LI;Liquiçá;Motaulun
+0;125.8833,-8.6000;TL-MT;Manatuto;Lacumesac
+0;125.9500,-8.5333;TL-MT;Manatuto;Iliheu
+0;126.1500,-8.6167;TL-MT;Manatuto;Cairui
+0;126.0621,-8.8466;TL-MT;Manatuto;Barique
+0;125.4931,-8.8450;TL-ER;Ermera;Usululi
+0;126.2145,-8.3911;TL;;Osso Uaque
+0;126.3624,-8.6531;TL-BA;Baucau;Osso Uaque
+0;126.3577,-8.4493;TL-BA;Baucau;Osso Ua
+0;126.3828,-8.6286;TL-BA;Baucau;Uata Haco
+0;126.3833,-8.6333;TL-BA;Baucau;Uma Ana Ico
+0;126.5500,-8.6333;TL-BA;Baucau;Saraida
+0;127.0389,-8.3667;TL-LA;Lautém;Pitileti
+0;127.2667,-8.4000;TL-LA;Lautém;Pitileti
+0;126.0577,-8.9718;TL-MT;Manatuto;Abat-oan
+0;125.5840,-8.5534;TL-DI;Dili Municipality;Gricenfor
+0;125.5817,-8.5785;TL-DI;Dili Municipality;Lahane Ocidental
+0;125.4292,-8.7789;TL-ER;Ermera;Camalpun
+0;126.5653,-8.6217;TL-BA;Baucau;Waule
+0;125.5298,-8.8579;TL-AN;Ainaro;Liurai
+0;125.4089,-8.6829;TL-ER;Ermera;Liho
+0;125.3554,-8.8635;TL-ER;Ermera;Leimea-Sorinbalo
+0;126.4259,-8.6055;TL-BA;Baucau;Bado-Ho'o
+0;124.9812,-9.0424;TL-BO;Bobonaro;Cowa
+0;125.5959,-9.0146;TL-MF;Manufahi;Rotuto
+0;126.0667,-8.9833;TL-MT;Manatuto;Aubeon
+0;125.5167,-8.7167;TL-AL;Aileu;Lio
+0;125.6500,-8.6667;TL-AL;Aileu;Tuqueu
+0;125.5167,-8.9000;TL-AN;Ainaro;Hatu-Builico
+0;125.5080,-8.9007;TL-AN;Ainaro;Ussu Loli
+0;124.3920,-9.3105;TL-OE;Oecusse;Naimeco
+0;124.3682,-9.2700;TL-OE;Oecusse;Bobocasse
+0;126.5708,-8.6114;TL-BA;Baucau;Lacoliu
+0;126.4500,-8.4667;TL-BA;Baucau;Bahu
+0;126.6833,-8.5667;TL-BA;Baucau;Fanulolo
+0;126.6469,-8.4880;TL-BA;Baucau;Borulau
+0;125.1000,-8.7500;TL-BO;Bobonaro;Tasi Mean
+0;125.2167,-8.8833;TL-BO;Bobonaro;Liabote
+0;125.4833,-9.2000;TL-CO;Cova Lima;Beilaco
+0;125.1667,-9.3833;TL-CO;Cova Lima;Caicoli
+0;125.1167,-9.3500;TL-CO;Cova Lima;Kota Foun
+0;125.2500,-9.3167;TL-CO;Cova Lima;Ahinarae
+0;125.1684,-9.3758;TL-CO;Cova Lima;Sadahur
+0;125.1000,-9.2500;TL-CO;Cova Lima;Lactos
+0;125.5667,-8.5667;TL-DI;Dili Municipality;Bairro Pite
+0;125.5833,-8.5600;TL-DI;Dili Municipality;Bairo Formosa
+0;125.3333,-8.7500;TL-ER;Ermera;São Francisco
+0;125.2500,-8.7500;TL-ER;Ermera;Dirhatilau
+0;125.4833,-8.8500;TL-ER;Ermera;Hatuhei
+0;125.4000,-8.6000;TL-LI;Liquiçá;Classo
+0;125.2158,-8.6079;TL-LI;Liquiçá;Vila
+0;125.1500,-8.6500;TL-LI;Liquiçá;Cai-Cassa
+0;126.1667,-8.5333;TL-MT;Manatuto;Lenao
+0;125.9167,-8.8333;TL-MT;Manatuto;Maun-Fahe
+0;126.0500,-8.9833;TL-MT;Manatuto;Fehuc Rin
+0;126.1500,-8.6000;TL-MT;Manatuto;Rai-Mea
+0;126.0000,-9.0167;TL-MF;Manufahi;Saluquim
+0;124.4000,-9.3167;TL-OE;Oecusse;Noque
+0;124.3833,-9.3500;TL-OE;Oecusse;Usapicolon
+0;126.3667,-8.8667;TL-VI;Viqueque;Cabaira-Oan
+0;126.3667,-8.8667;TL-VI;Viqueque;Cabira Oan
+0;126.2792,-8.9153;TL-VI;Viqueque;Welaco
+0;126.1976,-8.9497;TL-VI;Viqueque;Uma Boot
+0;124.2167,-9.2500;TL-OE;Oecusse;Oenunu
+0;125.4077,-8.9158;TL-ER;Ermera;Baboe Kraik
+0;125.6753,-8.8756;TL-AN;Ainaro;Manetu
+0;125.6386,-8.8237;TL-AN;Ainaro;Edi
+0;125.6266,-8.9831;TL-MF;Manufahi;Catolada
+0;125.6554,-9.0232;TL-MF;Manufahi;Babulo
+0;125.4941,-8.6516;TL-ER;Ermera;Taraco
+0;125.4968,-8.6937;TL-ER;Ermera;Railaco Leten
+0;125.4151,-8.7086;TL-ER;Ermera;Tocoluli
+0;125.3842,-8.7019;TL-ER;Ermera;Matata
+0;125.3701,-8.7083;TL-ER;Ermera;Ponilala
+0;125.4429,-8.7314;TL-ER;Ermera;Riheu
+0;125.4597,-8.7480;TL-ER;Ermera;Lauala
+0;125.4302,-8.7585;TL-ER;Ermera;Humboe
+0;125.4210,-8.7528;TL-ER;Ermera;Mertuto
+0;125.4254,-8.7928;TL-ER;Ermera;Estado
+0;125.4501,-8.7955;TL-ER;Ermera;Eraulo
+0;125.4907,-8.8552;TL-ER;Ermera;Ducurai
+0;125.4254,-8.8423;TL-ER;Ermera;Haupu
+0;125.3992,-8.8693;TL-ER;Ermera;Catraileten
+0;125.7314,-8.8281;TL-MF;Manufahi;Liurai
+0;126.6140,-8.6971;TL-VI;Viqueque;Alaua-Craik
+0;126.6521,-8.6078;TL-BA;Baucau;Hae-Coni
+0;126.8198,-8.5851;TL-LA;Lautém;Uacala
+0;124.3089,-9.3908;TL-OE;Oecusse;Banafi
+0;126.3235,-8.4895;TL-BA;Baucau;Triloko
+0;126.7017,-8.5647;TL-BA;Baucau;Sagadate
+0;124.3267,-9.3086;TL-OE;Oecusse;Cunha
+1118;126.5667,-8.6333;TL-BA;Baucau;Abo
+0;126.6633,-8.7185;TL-VI;Viqueque;Laisorulai de baixo
+0;126.6514,-8.6790;TL-VI;Viqueque;Laisorulai de cima
+0;125.0558,-9.2312;TL-CO;Cova Lima;Dato Rua
+0;125.1334,-9.2497;TL-CO;Cova Lima;Dato Tolu
+0;125.3909,-9.0591;TL-CO;Cova Lima;Fatuleto
+0;125.4367,-9.0450;TL-CO;Cova Lima;Ucecai
+0;125.5094,-8.9653;TL-AN;Ainaro;Manutassi
+0;125.5611,-8.9306;TL-AN;Ainaro;Mulo
+0;125.5242,-8.9592;TL-AN;Ainaro;Nunu Mogue
+0;125.3223,-9.2977;TL-CO;Cova Lima;Camenaça
+0;125.3964,-8.9056;TL-ER;Ermera;Baboi Leten
+0;125.2289,-9.3735;TL-CO;Cova Lima;Casabauc
+0;125.6642,-8.8031;TL-AN;Ainaro;Fatubessi
+0;125.3772,-8.9678;TL-ER;Ermera;Lacao
+0;125.5203,-8.8544;TL-AN;Ainaro;Horiauic
+0;125.6600,-8.8419;TL-AN;Ainaro;Manelobas
+0;125.2075,-8.7583;TL-ER;Ermera;Aculau
+0;125.3083,-8.8042;TL-ER;Ermera;Ailelo
+0;125.9175,-9.0706;TL-MF;Manufahi;Dotik
+0;125.3728,-8.8317;TL-ER;Ermera;Coilate-Letelo
+0;125.7964,-9.0200;TL-MF;Manufahi;Malagidan
+0;125.3144,-8.8650;TL-ER;Ermera;Leimea-Craic
+0;125.3636,-8.7297;TL-ER;Ermera;Lisapat
+0;125.7589,-9.0222;TL-MF;Manufahi;Taitudal
+0;125.3542,-8.7828;TL-ER;Ermera;Manusae
+0;125.3406,-8.7294;TL-ER;Ermera;Mau-Ubo
+0;126.8228,-8.7131;TL-LA;Lautém;Aelebere
+0;126.8931,-8.7152;TL-LA;Lautém;Iliomar I
+0;126.8421,-8.7283;TL-LA;Lautém;Iliomar II
+0;125.5311,-8.5578;TL-DI;Dili Municipality;Manleuana
+0;125.7411,-8.9581;TL-MF;Manufahi;Fahinehan
+0;125.6469,-9.0033;TL-MF;Manufahi;Letefoho
+0;125.6900,-8.8439;TL-MF;Manufahi;Aitenua
+0;125.7647,-8.7631;TL-MF;Manufahi;Fatukalo
+0;124.2942,-9.4458;TL-OE;Oecusse;Malelat
+0;124.3433,-9.3984;TL-OE;Oecusse;Usita-Queno
+0;125.6983,-8.8175;TL-MF;Manufahi;Kaimauk
+0;125.7492,-8.8519;TL-MF;Manufahi;Foholau
+0;124.3427,-9.2504;TL-OE;Oecusse;Lalisuc
+0;125.7075,-8.8228;TL-MF;Manufahi;Manumera
+0;125.7689,-8.8408;TL-MF;Manufahi;Matorek
+0;126.2667,-8.9667;TL-VI;Viqueque;Bibileo
+0;126.2167,-8.8333;TL-VI;Viqueque;Rade Uman
+0;126.2167,-8.8833;TL-VI;Viqueque;Uma Tolu
+0;126.4442,-8.7544;TL-VI;Viqueque;Ossorua
+0;126.7000,-8.7500;TL-VI;Viqueque;Taradai
+0;126.5000,-8.8667;TL-VI;Viqueque;Uma Uain Leten
+0;124.3500,-9.4167;TL-OE;Oecusse;Nubin
+0;125.8000,-9.0333;TL-MF;Manufahi;Bermanek
+0;125.9761,-8.6422;TL-MT;Manatuto;Ruhetun
+0;125.6000,-9.1333;TL-AN;Ainaro;Nuno-Boco
+0;126.8333,-8.7167;TL-LA;Lautém;Lliomar
+0;125.2000,-8.6167;TL-LI;Liquiçá;Vaviquinia
+0;125.9500,-8.8667;TL-MT;Manatuto;Manulala
+0;125.8500,-8.4833;TL-MT;Manatuto;IIimano
+0;125.5000,-8.7500;TL-AL;Aileu;Mau-Ulurai
+0;125.5000,-8.7167;TL-AL;Aileu;Fahiria
+0;125.6500,-8.7167;TL-AL;Aileu;Lacabou
+0;125.7333,-8.6333;TL-AL;Aileu;Roluli
+0;125.5436,-8.5444;TL-DI;Dili Municipality;Bebonuk Metin
+0;125.5709,-8.6115;TL-DI;Dili Municipality;Locoliu
+0;125.5167,-9.0000;TL-AN;Ainaro;Guer-Udo
+0;125.5667,-8.7667;TL-AL;Aileu;Bandudato
+0;125.5667,-8.7333;TL-AL;Aileu;Seloi Malere
+0;125.5167,-8.7500;TL-AL;Aileu;Liurai
+0;126.5500,-8.6000;TL-BA;Baucau;Lebenei
+0;126.6000,-8.5500;TL-BA;Baucau;Vecubuti
+0;126.4333,-8.4667;TL-BA;Baucau;Heu-Uai
+0;125.2167,-8.9229;TL-BO;Bobonaro;Tapomeak
+0;125.2167,-8.9833;TL-BO;Bobonaro;Raifun Vila
+0;125.3000,-9.1333;TL-BO;Bobonaro;Gudataz
+0;125.3833,-9.0000;TL-BO;Bobonaro;Beamoas
+0;125.1833,-9.2500;TL-CO;Cova Lima;Lawacou
+0;125.2333,-9.3000;TL-CO;Cova Lima;Foho Rua
+0;125.4167,-8.7833;TL-ER;Ermera;Raitu
+0;125.4333,-8.7667;TL-ER;Ermera;Borohei
+0;125.4000,-8.7667;TL-ER;Ermera;Railori
+0;125.3833,-8.7333;TL-ER;Ermera;Cota Heu
+0;125.4333,-8.7167;TL-ER;Ermera;Maneso
+0;125.4500,-8.7167;TL-ER;Ermera;Palimano
+0;125.4333,-8.6667;TL-ER;Ermera;Camalpun
+0;125.4531,-8.8289;TL-ER;Ermera;Sabelo
+0;125.4833,-9.0000;TL-AN;Ainaro;Mau-Ulo
+0;125.0333,-9.2333;TL-CO;Cova Lima;Fatumea
+0;125.0833,-9.2833;TL-CO;Cova Lima;Fohoren
+0;125.0667,-9.3167;TL-CO;Cova Lima;Beiseuc
+0;125.4667,-9.1333;TL-CO;Cova Lima;Lour
+0;125.2833,-8.8000;TL-ER;Ermera;Tata
+0;125.3833,-8.9333;TL-ER;Ermera;IIat Kora
+0;126.8333,-8.7000;TL-LA;Lautém;Titiraven
+0;126.9000,-8.7167;TL;;IIiomar I
+0;125.4197,-8.5667;TL-LI;Liquiçá;Mota Icun
+0;125.4667,-8.6167;TL-LI;Liquiçá;Mau-Soi
+0;125.9833,-8.6833;TL-MT;Manatuto;Tuquete
+0;125.9000,-8.7500;TL-MT;Manatuto;Lauado
+0;125.9833,-8.7167;TL-MT;Manatuto;Laramera
+0;125.9833,-8.8333;TL-MT;Manatuto;Malus Hun
+0;125.8500,-8.4833;TL-MT;Manatuto;Ili-Mano
+0;125.6667,-8.9667;TL-MF;Manufahi;Fatuco
+0;125.9167,-9.0667;TL-MF;Manufahi;Datolor
+0;125.7500,-8.8500;TL-MF;Manufahi;Tarabulo
+0;125.3500,-8.6500;TL-LI;Liquiçá;Darulete
+0;125.3500,-8.6667;TL-LI;Liquiçá;Acumano
+0;125.3000,-8.6833;TL-LI;Liquiçá;Leotala
+0;125.6833,-9.0667;TL-MF;Manufahi;Dai-Sua
+0;125.7000,-8.9500;TL-MF;Manufahi;Tutuluro
+0;125.8000,-9.0167;TL-MF;Manufahi;Mahaquidan
+0;124.3667,-9.2000;TL-OE;Oecusse;Santa Rosa
+0;124.3500,-9.3833;TL-OE;Oecusse;Nonquican
+0;126.3667,-8.8833;TL-VI;Viqueque;Macdean
+0;126.4561,-8.4619;TL-BA;Baucau;Boi Le
+0;126.3833,-8.7833;TL-VI;Viqueque;Samaliu
+0;126.4167,-8.7667;TL-VI;Viqueque;Dolibuti
+0;126.5133,-8.8492;TL-VI;Viqueque;Macadique
+0;125.2556,-8.9242;TL-BO;Bobonaro;Meligo
+0;125.2357,-9.2428;TL-CO;Cova Lima;Bergel
+0;125.5931,-8.5489;TL-DI;Dili Municipality;Bidau Santana
+0;125.4085,-8.7546;TL-ER;Ermera;Mirtutu
+0;125.9681,-8.9139;TL-MT;Manatuto;Dambua Hun
+0;125.5727,-8.7485;TL-AL;Aileu;Sarin
+0;126.6833,-8.7500;TL-VI;Viqueque;Uani Uma
+0;125.5833,-8.6333;TL-AL;Aileu;Manufoni
+0;125.5500,-8.8333;TL-AL;Aileu;Hoholete
+0;125.5000,-8.7500;TL-AL;Aileu;Mau-Uluria
+0;125.6000,-8.8167;TL-AL;Aileu;Lequitura
+0;125.3167,-9.0333;TL-BO;Bobonaro;Lactil
+0;125.1498,-8.9813;TL-BO;Bobonaro;Tunubibi
+0;125.2667,-9.3500;TL-CO;Cova Lima;Suco Loro
+0;125.4113,-8.8729;TL-ER;Ermera;Catrai Leten
+0;126.8294,-8.5408;TL-LA;Lautém;Cotamuto
+0;125.0044,-8.8953;TL-BO;Bobonaro;Sanirin
+0;126.8189,-8.4856;TL-LA;Lautém;Afabubu
+2454;126.6969,-8.7486;TL-VI;Viqueque;Irabin de Baixo
+0;126.3733,-8.8711;TL-VI;Viqueque;Uma Uain Craic
+0;126.3692,-8.8810;TL-VI;Viqueque;Uma Quic
+0;126.4484,-8.9450;TL-VI;Viqueque;Watu Dere
+0;125.4000,-8.6500;TL-LI;Liquiçá;Fahilebo
+0;126.7472,-8.4322;TL-LA;Lautém;Euquisi
+0;126.3564,-8.4494;TL-BA;Baucau;Trilolo
+0;126.5378,-8.6400;TL-BA;Baucau;Laisorolai de Baixo
+0;125.2953,-8.9725;TL-BO;Bobonaro;Raiheu
+0;125.2908,-8.9481;TL-BO;Bobonaro;Atudara
+348;125.2722,-8.9190;TL-BO;Bobonaro;Guenu Lai
+0;125.2628,-8.8875;TL-BO;Bobonaro;Dau Udo
+0;125.8903,-8.4778;TL-MT;Manatuto;Uma Caduac
+0;126.7120,-8.7010;TL-VI;Viqueque;Irabin de Cima
+0;126.4592,-8.7378;TL-VI;Viqueque;Uabubo
+0;126.2862,-8.7374;TL-VI;Viqueque;Liaruca
+0;126.2075,-8.8344;TL-VI;Viqueque;Laline
+0;127.0200,-8.6431;TL-LA;Lautém;Lore I
+0;126.9869,-8.5703;TL-LA;Lautém;Lore II
+0;125.0500,-8.8333;TL-BO;Bobonaro;Biacou
+0;126.3667,-8.7167;TL-VI;Viqueque;Cai Uai Ho O
+0;125.1016,-8.8598;TL-BO;Bobonaro;Damlaran
+0;125.1667,-8.8167;TL-BO;Bobonaro;Vila Maria
+0;125.2028,-8.8311;TL-BO;Bobonaro;Puemate
+0;125.3174,-9.0405;TL-BO;Bobonaro;Ai-Assa
+0;125.0706,-8.9572;TL-BO;Bobonaro;Builecon
+0;125.5433,-8.7066;TL-AL;Aileu;Tasonih
+0;125.5500,-8.7083;TL-AL;Aileu;Foin Kman
+0;125.2500,-9.0833;TL-BO;Bobonaro;Butuk
+0;125.5300,-8.7100;TL-AL;Aileu;Mudansa 1
+0;125.5200,-8.7100;TL-AL;Aileu;Mudansa 2
+0;125.5300,-8.7000;TL-AL;Aileu;Moris Foun
+0;125.5336,-8.7000;TL-AL;Aileu;Hakiak Moris
+0;125.2104,-9.0565;TL-BO;Bobonaro;Taz
+0;125.3694,-8.9794;TL-ER;Ermera;Atulara
+0;125.1816,-9.3528;TL-CO;Cova Lima;Ta Bolo
+0;125.1893,-9.3792;TL-CO;Cova Lima;Koloana
+0;125.1823,-9.3829;TL-CO;Cova Lima;Wesukabi
+0;125.1726,-9.3934;TL-CO;Cova Lima;Aitaman
+0;125.1657,-9.3997;TL-CO;Cova Lima;Faularan
+0;125.3333,-8.9833;TL-BO;Bobonaro;Tuneiro
+0;125.3833,-8.9833;TL-ER;Ermera;Manunia
+0;125.4111,-8.7347;TL-ER;Ermera;Biluli
+0;125.3876,-8.7658;TL-ER;Ermera;Hulorema
+0;125.3500,-9.0667;TL-BO;Bobonaro;Tasgolo
+0;125.3925,-8.7311;TL-ER;Ermera;Leqisi
+0;125.3794,-8.8600;TL-ER;Ermera;Etimano
+0;125.1869,-9.3803;TL-CO;Cova Lima;Maudemo
+0;125.3728,-8.8317;TL-ER;Ermera;Hau Hei
+0;125.4309,-8.8829;TL-ER;Ermera;Manturai
+0;125.2739,-9.1417;TL-BO;Bobonaro;Deudet
+0;125.5094,-8.9653;TL-AN;Ainaro;Manutaci
+0;125.5400,-8.7000;TL-AL;Aileu;Fo Liman ba Malu
+0;125.5600,-8.8100;TL-AL;Aileu;Fatubosa
+0;125.5600,-8.8000;TL-AL;Aileu;Teblor
+0;125.7689,-8.8408;TL-MF;Manufahi;Matorec
+0;125.6000,-8.8100;TL-AL;Aileu;Lequitura Kraik
+0;125.5300,-8.6200;TL-AL;Aileu;Boklelo
+0;125.5900,-8.6000;TL-DI;Dili Municipality;Benona
+0;125.5900,-8.6100;TL-AL;Aileu;Hornai
+0;125.3337,-8.9899;TL-BO;Bobonaro;Soileco
+0;126.6933,-8.5189;TL-BA;Baucau;Ia Sula
+0;126.7072,-8.5097;TL-BA;Baucau;Ulabuti
+0;126.7058,-8.5178;TL-BA;Baucau;Auraba
+0;127.0200,-8.6431;TL-LA;Lautém;Lore 1
+0;125.9586,-9.0458;TL-MF;Manufahi;Bubur Laletec
+0;125.9135,-9.0274;TL-MF;Manufahi;Weberec
+0;125.1844,-8.7014;TL-LI;Liquiçá;Pandevou
+0;125.3500,-8.5833;TL-LI;Liquiçá;Maumeta
+0;125.5667,-8.5500;TL-DI;Dili Municipality;Motael
+0;125.5709,-8.5574;TL-DI;Dili Municipality;Colmera
+0;125.3908,-8.9450;TL-ER;Ermera;Aifro
+0;125.4342,-8.8651;TL-ER;Ermera;Lumutou
+0;125.2909,-8.7012;TL-LI;Liquiçá;Lepa
+0;126.1012,-8.9737;TL-MT;Manatuto;Wecadi
+0;125.9635,-8.9381;TL-MT;Manatuto;Isadan
+0;125.1800,-8.8728;TL-BO;Bobonaro;Hataz
+0;126.1622,-8.5411;TL-MT;Manatuto;Haturalan
+0;126.1621,-8.5321;TL-MT;Manatuto;Uma Rentau
+0;126.2203,-8.8819;TL-VI;Viqueque;Crarec Maruc
+0;126.7120,-8.7010;TL-VI;Viqueque;Caida Ho'o
+0;126.5348,-8.8158;TL-VI;Viqueque;Buca Dalan
+0;126.5123,-8.8521;TL-VI;Viqueque;Namanei
+0;126.5775,-8.8048;TL-VI;Viqueque;Daralari
+0;126.4461,-8.9446;TL-VI;Viqueque;Loho Oan
+0;126.4494,-8.9442;TL-VI;Viqueque;Fatudere
+0;126.5063,-8.8622;TL-VI;Viqueque;Baria
+0;125.6500,-9.1167;TL-AN;Ainaro;Foho-Ai-Lico
+0;125.3701,-8.9716;TL-ER;Ermera;Lasaun
+0;125.3735,-8.8314;TL-ER;Ermera;Coliate
+0;125.1671,-9.3807;TL-CO;Cova Lima;Kaikoli
+0;125.1326,-9.3695;TL-CO;Cova Lima;Morukren
+0;125.1719,-9.4105;TL-CO;Cova Lima;Aitahan
+0;125.1719,-9.3939;TL-CO;Cova Lima;Onularan
+0;124.3678,-9.2791;TL-OE;Oecusse;Bihana
+0;126.3620,-8.5040;TL-BA;Baucau;Macadai de Cima
+0;126.3275,-8.4935;TL-BA;Baucau;Uaisemo
+0;126.4446,-8.4537;TL-BA;Baucau;Anauaru
+0;126.4306,-8.4511;TL-BA;Baucau;Haurobo
+0;126.4390,-8.4424;TL-BA;Baucau;Uaniuma
+0;126.3878,-8.4480;TL-BA;Baucau;Lialai Lesu
+0;126.3685,-8.4682;TL-BA;Baucau;Namsoi
+0;125.6667,-9.1167;TL-AN;Ainaro;Foho Ailico
+0;126.4193,-8.4706;TL-BA;Baucau;Ro-ulu
+0;126.3586,-8.5114;TL-BA;Baucau;Lequiloiuato
+0;125.8167,-8.9333;TL-MF;Manufahi;Kaikasa
+0;126.3765,-8.5704;TL-BA;Baucau;Waipeheana
+0;126.2087,-8.5168;TL-BA;Baucau;Roha
+0;125.5167,-8.7167;TL-AL;Aileu;Casamou
+0;125.5614,-8.5522;TL-DI;Dili Municipality;Kampung Alor
+0;125.5817,-8.5569;TL-DI;Dili Municipality;Santa Cruz
+0;125.5971,-8.5502;TL-DI;Dili Municipality;Culu Hun
+0;124.2552,-9.2473;TL-OE;Oecusse;Makelab
+0;124.2253,-9.2416;TL-OE;Oecusse;Bocos
+0;124.2096,-9.2890;TL-OE;Oecusse;Fuabano
+0;124.2611,-9.2910;TL-OE;Oecusse;Bioni
+0;125.2833,-8.9000;TL-BO;Bobonaro;Genu Lai
+0;124.2239,-9.3009;TL-OE;Oecusse;Cabana
+0;125.2833,-8.9167;TL-BO;Bobonaro;Goulolo
+0;125.1667,-9.4167;TL;;Besakoan
+0;125.1833,-9.3667;TL-CO;Cova Lima;Kawa Uman
+0;126.4000,-8.7333;TL-VI;Viqueque;Ossu de Cima
+0;125.9167,-9.0333;TL-MF;Manufahi;Weberek
+0;126.5167,-8.6833;TL-VI;Viqueque;Afaloicai
+0;125.2833,-9.3167;TL-CO;Cova Lima;Camnasa
+0;125.2000,-9.3333;TL-CO;Cova Lima;Lakonak
+0;125.4833,-8.6000;TL-LI;Liquiçá;Turleu
+0;126.6500,-8.6333;TL-BA;Baucau;Alawa Craik
+0;126.4167,-8.6167;TL-BA;Baucau;Baha Mori
+0;125.3500,-8.7333;TL-ER;Ermera;Arleu
+0;125.4667,-8.8500;TL-ER;Ermera;Lacau
+0;125.4667,-8.7000;TL-ER;Ermera;Cocoa
+0;125.3667,-8.6333;TL-LI;Liquiçá;Caileulema
+0;125.3667,-8.6500;TL-LI;Liquiçá;Natarae
+0;126.0589,-8.9717;TL-MT;Manatuto;Fatuwaque
+0;126.3707,-8.6749;TL-VI;Viqueque;Builale
+0;126.8294,-8.5408;TL-LA;Lautém;Cotamutu
+0;126.5353,-8.6558;TL-BA;Baucau;Laisorolai de Cima
+0;126.3333,-8.5667;TL-BA;Baucau;Uato-Lari
+0;126.4167,-8.7667;TL-VI;Viqueque;Uaguia
+0;125.1324,-8.7258;TL-LI;Liquiçá;Bugas Iara
+0;125.1068,-8.7306;TL-LI;Liquiçá;Trans
+0;125.1206,-8.7092;TL-LI;Liquiçá;Watuliurai
+0;126.3333,-8.4833;TL-BA;Baucau;Waisemu
+0;125.6637,-8.9847;TL-MF;Manufahi;Orfu
+0;125.6564,-8.9926;TL-MF;Manufahi;Marimata
+0;125.1706,-9.3924;TL-CO;Cova Lima;Salele
+0;125.1746,-9.3558;TL-CO;Cova Lima;Koitau
+0;125.4415,-8.6531;TL-ER;Ermera;Mota-Hare
+0;126.3701,-8.4928;TL-BA;Baucau;Teka Lale
+0;126.3691,-8.4939;TL-BA;Baucau;Lewa Lale
+0;126.3613,-8.4916;TL-BA;Baucau;Kaimeni ulu
+0;126.3379,-8.4883;TL-BA;Baucau;Riabato
+0;126.3336,-8.4870;TL-BA;Baucau;Waipa
+0;126.3336,-8.4903;TL-BA;Baucau;Bandadili
+0;126.3856,-8.5659;TL-BA;Baucau;Fatumaca
+0;126.0114,-9.0089;TL-MF;Manufahi;Klakuk
+0;125.5804,-8.5609;TL-DI;Dili Municipality;Correio
+0;125.9504,-9.1001;TL-MT;Manatuto;Natarbora
+0;126.0510,-8.9796;TL-MT;Manatuto;Natarbora
+0;125.5232,-8.7188;TL-AL;Aileu;Casemu
+0;125.5833,-8.6447;TL-AL;Aileu;Manahalu
+0;125.6038,-8.6010;TL-DI;Dili Municipality;Sahurai
+0;125.6938,-8.6828;TL-AL;Aileu;Raifato
+0;125.6402,-8.6497;TL-AL;Aileu;Rileo
+0;125.6374,-8.6204;TL-AL;Aileu;Lerolisa
+0;125.7391,-8.6717;TL-AL;Aileu;Kaitasu
+0;125.7631,-8.6161;TL-AL;Aileu;Dasilelo
+0;125.7355,-8.5789;TL-AL;Aileu;Kotomori
+0;125.7186,-8.5707;TL-AL;Aileu;Manutane

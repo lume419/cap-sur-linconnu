@@ -1,0 +1,2668 @@
+vi;Yên Nhân;Y Nhân
+vi;Y Lìn Hồ;Y Linh Hồ
+ru;Ен Винх;Yên Vinh
+zh;庆永安;Khánh Vĩnh Yên
+ja;庆永安;Khánh Vĩnh Yên
+ko;고용야수;Khánh Vĩnh Yên
+yue;安永恩;Khánh Vĩnh Yên
+bo;ཁན་ཝིན་ཡེན།;Khánh Vĩnh Yên
+zh;慶永安;Khánh Vĩnh Yên
+ru;Хан Винь Ен;Khánh Vĩnh Yên
+mn;Хан Вин Йен;Khánh Vĩnh Yên
+ar;خانه فينه ين;Khánh Vĩnh Yên
+km;ខាន់ វិញ យ៉េន;Khánh Vĩnh Yên
+lo;ຄານ​ວິນ​ວຽນ;Khánh Vĩnh Yên
+th;คานห์ วินห์ เยน;Khánh Vĩnh Yên
+my;ခန်းဗီးယန်း;Khánh Vĩnh Yên
+vi;Yen My;Yên Mỹ
+vi;An Lich;Làng Lịch
+vi;Yen Lac;Yên Lai
+ru;Йенбай;Yên Bái
+ru;Ксуан Лок;Xuân Lộc
+vi;Xuân Hải;Long Hải
+vi;Xom Rach La;Xóm Rạch Già
+vi;Xóm Mã;Na Bằng
+vi;Tân Hạ;Tân Hạ Một
+vi;Tân Hạ 1;Tân Hạ Một
+vi;Đồng Sáng;Đồng Sang
+vi;Xóm Don Si;Xóm Côn Si
+vi;Xóm Cho;Xóm Trò
+vi;Xóm Chè;Xóm Trò
+vi;Dốc Mơ 3;Dốc Mơ Ba
+vi;Xa Doai;Xã Đoài
+fr;Cap-Saint-Jacques;Vũng Tàu
+es;Vung Tau;Vũng Tàu
+de;Vung Tau;Vũng Tàu
+it;Vung Tau;Vũng Tàu
+zh-TW;頭 頓市;Vũng Tàu
+ja;ブンタウ;Vũng Tàu
+ru;Вунгтау;Vũng Tàu
+ko;붕따우;Vũng Tàu
+en;Vi Thanh;Vị Thanh
+ru;Вi Тхань;Vị Thanh
+ar;في ثان;Vị Thanh
+kk;Ви Тхань;Vị Thanh
+tr;Vi Thanh;Vị Thanh
+uz;Vi Thanh;Vị Thanh
+ky;Ви Тхань;Vị Thanh
+id;Vi Thanh;Vị Thanh
+ms;Vi Thanh;Vị Thanh
+es;Vi Thanh;Vị Thanh
+fr;Vi Thanh;Vị Thanh
+hi;वी थान;Vị Thanh
+bn;ভি থান;Vị Thanh
+ur;وی تھان;Vị Thanh
+de;Vi Thanh;Vị Thanh
+fa;وی تان;Vị Thanh
+ja;ヴィ・タン;Vị Thanh
+jv;Vi Thanh;Vị Thanh
+pa;ਵੀ ਥਾਨ;Vị Thanh
+ps;وی تان;Vị Thanh
+pt;Vi Thanh;Vị Thanh
+tg;Вi Тхань;Vị Thanh
+ru;Виньйен;Vĩnh Yên
+en;Vinh Tuy;Vĩnh Tuy
+vi;Xã Vĩnh Tế;Vĩnh Tế
+ru;Винь Лонг;Vĩnh Long
+ar;فين لونج;Vĩnh Long
+kk;Винь Лонг;Vĩnh Long
+tr;Vinh Long;Vĩnh Long
+uz;Vinh Long;Vĩnh Long
+ky;Винь Лонг;Vĩnh Long
+id;Vinh Long;Vĩnh Long
+ms;Vinh Long;Vĩnh Long
+es;Vinh Long;Vĩnh Long
+fr;Vinh Long;Vĩnh Long
+hi;विन्ह लांग;Vĩnh Long
+bn;ভিনহ লং;Vĩnh Long
+ur;وِنہ لانگ;Vĩnh Long
+de;Vinh Long;Vĩnh Long
+fa;وینه لانگ;Vĩnh Long
+ja;ビンロン;Vĩnh Long
+jv;Vinh Long;Vĩnh Long
+pa;ਵਿਨ ਲਾਂਗ;Vĩnh Long
+ps;وینه لانگ;Vĩnh Long
+pt;Vinh Long;Vĩnh Long
+tg;Винь Лонг;Vĩnh Long
+ru;Винх Чау;Vĩnh Châu
+ar;فينه;Vinh
+ja;ヴィン;Vinh
+ko;빈;Vinh
+ru;Винь;Vinh
+zh;荣市;Vinh
+fa;وین، ویتنام;Vinh
+th;วิญ;Vinh
+ur;وینہ;Vinh
+kk;Винь;Vinh
+ky;Винь;Vinh
+hi;विन्ह;Vinh
+bn;ভিনহ;Vinh
+pa;ਵਿਨ;Vinh
+ps;وینه;Vinh
+tg;Винь;Vinh
+en;Việt Yên District;Việt Yên
+it;Distretto di Viet Yen;Việt Yên
+ur;ویت ین ضلع;Việt Yên
+ru;Вьетйен;Việt Yên
+en;Viet Tri;Việt Trì
+ru;Вьет Три;Việt Trì
+ar;فيت تري;Việt Trì
+kk;Вьет Три;Việt Trì
+tr;Viet Tri;Việt Trì
+uz;Viet Tri;Việt Trì
+ky;Вьет Три;Việt Trì
+id;Viet Tri;Việt Trì
+ms;Viet Tri;Việt Trì
+es;Viet Tri;Việt Trì
+fr;Viet Tri;Việt Trì
+hi;वियत त्रि;Việt Trì
+bn;ভিয়েত ত্রি;Việt Trì
+ur;ویت ٹری;Việt Trì
+de;Viet Tri;Việt Trì
+fa;ویت تری;Việt Trì
+ja;ベトトリ;Việt Trì
+jv;Viet Tri;Việt Trì
+pa;ਵੀਏਟ ਤ੍ਰੀ;Việt Trì
+ps;ویت تری;Việt Trì
+pt;Viet Tri;Việt Trì
+tg;Вьет Три;Việt Trì
+en;Binh Hoa;Văn Hòa
+vi;Tuy Phong 3;Tuy Phong Ba
+vi;Tuy Phong 1;Tuy Phong Một
+en;Tuy Hoa;Tuy Hòa
+vi;Thành phố Tuy Hòa;Tuy Hòa
+zh;綏和市;Tuy Hòa
+ru;Туихоа;Tuy Hòa
+ja;トゥイホア;Tuy Hòa
+ar;توي هوا;Tuy Hòa
+kk;Туй Хоа;Tuy Hòa
+tr;Tuy Hoa;Tuy Hòa
+uz;Tuy Hoa;Tuy Hòa
+ky;Туй Хоа;Tuy Hòa
+id;Tuy Hoa;Tuy Hòa
+ms;Tuy Hoa;Tuy Hòa
+es;Tuy Hoa;Tuy Hòa
+hi;तुय होआ;Tuy Hòa
+bn;টুই হোয়া;Tuy Hòa
+ur;تُوے ہوا;Tuy Hòa
+de;Tuy Hoa;Tuy Hòa
+fa;تویی هوا;Tuy Hòa
+jv;Tuy Hoa;Tuy Hòa
+pa;ਤੁਏ ਹੋਆ;Tuy Hòa
+ps;تویی هوا;Tuy Hòa
+pt;Tuy Hoa;Tuy Hòa
+tg;Туй Хоа;Tuy Hòa
+vi;Thành Phố Tuyên Quang;Tuyên Quang
+en;Tuyen Quang;Tuyên Quang
+ru;Туйен Куанг;Tuyên Quang
+ar;تويين كوانج;Tuyên Quang
+kk;Туйен Куанг;Tuyên Quang
+tr;Tuyen Quang;Tuyên Quang
+uz;Tuyen Quang;Tuyên Quang
+ky;Туйен Куанг;Tuyên Quang
+id;Tuyen Quang;Tuyên Quang
+ms;Tuyen Quang;Tuyên Quang
+es;Tuyen Quang;Tuyên Quang
+fr;Tuyen Quang;Tuyên Quang
+hi;तुयेन क्वांग;Tuyên Quang
+bn;তুয়েন কোয়াং;Tuyên Quang
+ur;تُویِن کوانگ;Tuyên Quang
+de;Tuyen Quang;Tuyên Quang
+fa;تویین کوانگ;Tuyên Quang
+ja;トゥイエンクアン;Tuyên Quang
+jv;Tuyen Quang;Tuyên Quang
+pa;ਤੁਏਨ ਕੁਆਂਗ;Tuyên Quang
+ps;تویین کوانگ;Tuyên Quang
+pt;Tuyen Quang;Tuyên Quang
+tg;Туйен Куанг;Tuyên Quang
+vi;Tự Chí;Tư Chi
+vi;La Hà;Tư Nghĩa
+vi;Truyen Thon;Truyên Thôn
+vi;Trung Hiệp 3;Trung Hiệp Ba
+vi;Trung Trính;Trung Trinh
+vi;Trung Thành;Trung Thành Hai
+vi;Trung Thành 2;Trung Thành Hai
+ja;ホンリン;Hồng Lĩnh
+zh;鸿岭市社;Hồng Lĩnh
+ar;ہؤنگ لئنہ ضلع;Hồng Lĩnh
+ru;Хонглинь;Hồng Lĩnh
+ru;Хонлинь;Hồng Lĩnh
+ru;Хонг Линь;Hồng Lĩnh
+ru;Хон Линь;Hồng Lĩnh
+vi;Trình Khê;Trinh Khê
+en;Thanh pho Tra Vinh;Trà Vinh
+ru;Тхань Фо Тра Винь;Trà Vinh
+ar;ثانه فو ترا فين;Trà Vinh
+kk;Тхань Фо Тра Винь;Trà Vinh
+tr;Thanh pho Tra Vinh;Trà Vinh
+uz;Thanh pho Tra Vinh;Trà Vinh
+ky;Тхань Фо Тра Винь;Trà Vinh
+id;Thanh pho Tra Vinh;Trà Vinh
+ms;Thanh pho Tra Vinh;Trà Vinh
+es;Thanh pho Tra Vinh;Trà Vinh
+fr;Thanh pho Tra Vinh;Trà Vinh
+hi;थान्ह फो त्रा विन्ह;Trà Vinh
+bn;থান্থ ফো ট্রা ভিনহ;Trà Vinh
+ur;تھان فو ترا وِنہ;Trà Vinh
+de;Thanh pho Tra Vinh;Trà Vinh
+fa;تان فو ترا وینه;Trà Vinh
+ja;タンフォトラビン;Trà Vinh
+jv;Thanh pho Tra Vinh;Trà Vinh
+pa;ਤਾਨ ਫੋ ਤ੍ਰਾ ਵਿਨ;Trà Vinh
+ps;تان فو ترا وینه;Trà Vinh
+pt;Thanh pho Tra Vinh;Trà Vinh
+tg;Тхань Фо Тра Винь;Trà Vinh
+ru;Чангбанг;Trảng Bàng
+vi;Long Biên;Long Bien
+ru;Лонг Биен;Long Bien
+vi;Trà Côn 1;Trà Côn Một
+vi;Trà Xuân;Trà Bồng
+vi;Làng Cheï;Tong Cheï
+ru;Тинх Биен;Tịnh Biên
+vi;Tiên Kỳ;Tiên Phước
+vi;Thuong Duc;Thương Đức
+vi;Thứ Luật;Thử Luật
+ru;Тхудык;Thủ Đức
+en;Thu Dau Mot;Thủ Dầu Một
+fa;تو دائو موت;Thủ Dầu Một
+ja;トゥーザウモット;Thủ Dầu Một
+ko;투저우못;Thủ Dầu Một
+th;ถูเสิ่วหมต;Thủ Dầu Một
+ur;تھو داو مؤت;Thủ Dầu Một
+ru;Тхузаумот;Thủ Dầu Một
+zh;土龍木市社;Thủ Dầu Một
+ar;ثو داو موت;Thủ Dầu Một
+kk;Тху Дау Мот;Thủ Dầu Một
+tr;Thu Dau Mot;Thủ Dầu Một
+uz;Thu Dau Mot;Thủ Dầu Một
+ky;Тху Дау Мот;Thủ Dầu Một
+id;Thu Dau Mot;Thủ Dầu Một
+ms;Thu Dau Mot;Thủ Dầu Một
+es;Thu Dau Mot;Thủ Dầu Một
+fr;Thu Dau Mot;Thủ Dầu Một
+hi;थु दाउ मोत;Thủ Dầu Một
+bn;থু দাউ মট;Thủ Dầu Một
+de;Thu Dau Mot;Thủ Dầu Một
+jv;Thu Dau Mot;Thủ Dầu Một
+pa;ਥੁ ਦਾਊ ਮੋਟ;Thủ Dầu Một
+ps;تو داو موت;Thủ Dầu Một
+pt;Thu Dau Mot;Thủ Dầu Một
+tg;Тху Дау Мот;Thủ Dầu Một
+ru;Туан Танх;Thuận Thanh
+ru;Тот Нот;Thốt Nốt
+ru;Тои Лаи;Thới Lai
+vi;Thôn Pèng;Thôn Péng
+vi;Mỹ Tường 1;Mỹ Tường Một
+vi;Thôn 1;Thôn Một
+vi;La Vang;Thôn La Vang Chinh
+en;La Vang;Thôn La Vang Chinh
+ur;لا وانگ;Thôn La Vang Chinh
+zh;羅榮;Thôn La Vang Chinh
+es;La Vang;Thôn La Vang Chinh
+nl;La Vang;Thôn La Vang Chinh
+vi;Thôn 2;Thôn Hai
+vi;Huyện Thanh Sơn;Thanh Sơn
+vi;Phú Thanh;Phường Phú Thạnh
+vi;Thành phố Hồ Chí Minh;Ho Chi Minh City
+fr;Hô Chi Minh Ville;Ho Chi Minh City
+fr;Hô-Chi-Minh-Ville;Ho Chi Minh City
+de;Ho-Chi-Minh-Stadt;Ho Chi Minh City
+es;Ciudad Ho Chi Minh;Ho Chi Minh City
+ar;مدينة هو تشي مينه;Ho Chi Minh City
+id;Kota Hồ Chí Minh;Ho Chi Minh City
+it;Ho Chi Minh;Ho Chi Minh City
+ja;ホーチミン;Ho Chi Minh City
+ko;호찌민;Ho Chi Minh City
+nl;Ho Chi Minhstad;Ho Chi Minh City
+pt;Cidade de Ho Chi Minh;Ho Chi Minh City
+ru;Хошимин;Ho Chi Minh City
+ug;سايگون;Ho Chi Minh City
+vi;TPHCM;Ho Chi Minh City
+fr;HCMV;Ho Chi Minh City
+ja;ホーチミン市;Ho Chi Minh City
+ja;サイゴン;Ho Chi Minh City
+ko;호치민;Ho Chi Minh City
+ja;タインホア市;Thanh Hóa
+ar;تانه هوا;Thanh Hóa
+zh;清化市;Thanh Hóa
+ur;تھان ہوا;Thanh Hóa
+fa;تان هوا;Thanh Hóa
+ko;타인호아;Thanh Hóa
+ko;탄호아;Thanh Hóa
+ru;Тхань Хоа;Thanh Hóa
+kk;Тхань Хоа;Thanh Hóa
+tr;Thanh Hoa;Thanh Hóa
+uz;Thanh Hoa;Thanh Hóa
+ky;Тхань Хоа;Thanh Hóa
+id;Thanh Hoa;Thanh Hóa
+ms;Thanh Hoa;Thanh Hóa
+es;Thanh Hoa;Thanh Hóa
+fr;Thanh Hoa;Thanh Hóa
+hi;थान्ह होआ;Thanh Hóa
+bn;থান্থ হোয়া;Thanh Hóa
+de;Thanh Hoa;Thanh Hóa
+jv;Thanh Hoa;Thanh Hóa
+pa;ਤਾਨ ਹੋਆ;Thanh Hóa
+ps;تان هوا;Thanh Hóa
+pt;Thanh Hoa;Thanh Hóa
+tg;Тхань Хоа;Thanh Hóa
+vi;Xa Cam 2;Xa Cam Hai
+ru;Тай-Нгуен;Thái Nguyên
+vi;Thành Phố Thái Nguyên;Thái Nguyên
+en;Thai Nguyen;Thái Nguyên
+ar;تاي نجوين;Thái Nguyên
+kk;Тхай Нгуен;Thái Nguyên
+tr;Thai Nguyen;Thái Nguyên
+uz;Thai Nguyen;Thái Nguyên
+ky;Тхай Нгуен;Thái Nguyên
+id;Thai Nguyen;Thái Nguyên
+ms;Thai Nguyen;Thái Nguyên
+es;Thai Nguyen;Thái Nguyên
+fr;Thai Nguyen;Thái Nguyên
+hi;थाई न्गुयेन;Thái Nguyên
+bn;থাই নগুয়েন;Thái Nguyên
+ur;تھائی نگوئیں;Thái Nguyên
+de;Thai Nguyen;Thái Nguyên
+fa;تایی نگویین;Thái Nguyên
+ja;タイグエン;Thái Nguyên
+jv;Thai Nguyen;Thái Nguyên
+pa;ਤਾਈ ਨਗੁਏਨ;Thái Nguyên
+ps;تایی نگویین;Thái Nguyên
+pt;Thai Nguyen;Thái Nguyên
+tg;Тхай Нгуен;Thái Nguyên
+vi;Thái Lại;Thái Lai
+vi;Thành Phố Thái Bình;Thái Bình
+vi;Chu Va 12;Chu Va Mười Hai
+it;Tay Ninh;Tây Ninh
+fa;تای نینها;Tây Ninh
+ja;タイニン;Tây Ninh
+ko;떠이닌;Tây Ninh
+tg;Вилояти Тей Нин;Tây Ninh
+tr;Tay Ninh;Tây Ninh
+ur;تاے ننہ;Tây Ninh
+ru;Тэйнинь;Tây Ninh
+zh;西寧市;Tây Ninh
+en;Tay Ninh;Tây Ninh
+ar;تاي نينه;Tây Ninh
+kk;Тай Нинь;Tây Ninh
+uz;Tay Ninh;Tây Ninh
+ky;Тай Нинь;Tây Ninh
+id;Tay Ninh;Tây Ninh
+ms;Tay Ninh;Tây Ninh
+es;Tay Ninh;Tây Ninh
+fr;Tay Ninh;Tây Ninh
+hi;तय नीन्ह;Tây Ninh
+bn;তায় নিনহ;Tây Ninh
+de;Tay Ninh;Tây Ninh
+jv;Tay Ninh;Tây Ninh
+pa;ਤੇ ਨਿਨ;Tây Ninh
+ps;تای نینه;Tây Ninh
+pt;Tay Ninh;Tây Ninh
+ru;Тай Хо;Tây Hồ
+vi;Tây Dằng;Tây Đằng
+vi;Huyện Ba Vì;Tây Đằng
+ru;Таван;Tả Van
+vi;Thào Chua Chải;Bản Thào Chua Chải
+vi;Tân Thành;Tân Thành A
+vi;Tân Qứi;Tân Qưới
+vi;Tân Phú 2;Tân Phú Hai
+vi;Tấn Khâu;Bản Tắn Khâu
+vi;Lạc Tánh;Tánh Linh
+ru;Тан Чау;Tân Châu
+ru;Тан;Tân An
+en;Tan An;Tân An
+ar;تان ان;Tân An
+kk;Тан Ан;Tân An
+tr;Tan An;Tân An
+uz;Tan An;Tân An
+ky;Тан Ан;Tân An
+id;Tan An;Tân An
+ms;Tan An;Tân An
+es;Tan An;Tân An
+fr;Tan An;Tân An
+hi;तान आन;Tân An
+bn;তান আন;Tân An
+ur;تان آن;Tân An
+de;Tan An;Tân An
+fa;تان آن;Tân An
+ja;タンアン;Tân An
+jv;Tan An;Tân An
+pa;ਤਾਨ ਆਨ;Tân An
+ps;تان آن;Tân An
+pt;Tan An;Tân An
+tg;Тан Ан;Tân An
+en;Tam Ky;Tam Kỳ
+ru;Там Ки;Tam Kỳ
+ar;تام كي;Tam Kỳ
+kk;Там Ки;Tam Kỳ
+tr;Tam Ky;Tam Kỳ
+uz;Tam Ky;Tam Kỳ
+ky;Там Ки;Tam Kỳ
+id;Tam Ky;Tam Kỳ
+ms;Tam Ky;Tam Kỳ
+es;Tam Ky;Tam Kỳ
+fr;Tam Ky;Tam Kỳ
+hi;तम की;Tam Kỳ
+bn;তাম কি;Tam Kỳ
+ur;تام کی;Tam Kỳ
+de;Tam Ky;Tam Kỳ
+fa;تام کی;Tam Kỳ
+ja;タムキー;Tam Kỳ
+jv;Tam Ky;Tam Kỳ
+pa;ਤਾਮ ਕੀ;Tam Kỳ
+ps;تام کی;Tam Kỳ
+pt;Tam Ky;Tam Kỳ
+tg;Там Ки;Tam Kỳ
+vi;Thôm Khoan;Thâm Khoan
+vi;Phia Có;Bản Phia Co
+vi;Suối Hòa;Suối Hòa Hai
+vi;Suối Hòa 2;Suối Hòa Hai
+vi;Sóc Tranh 3;Sóc Tranh Ba
+vi;Bản Suối Ngang;Bản Sốp Bưn
+ru;Сон-Тай;Sơn Tây
+vi;Huyên Sơn Dương;Sơn Dương
+ru;Сон-Ла;Sơn La
+vi;Thành Phố Sơn La;Sơn La
+zh;山羅市;Sơn La
+ar;سون لا;Sơn La
+kk;Сон Ла;Sơn La
+tr;Son La;Sơn La
+uz;Son La;Sơn La
+ky;Сон Ла;Sơn La
+id;Son La;Sơn La
+ms;Son La;Sơn La
+es;Son La;Sơn La
+fr;Son La;Sơn La
+hi;सोन ला;Sơn La
+bn;সন লা;Sơn La
+ur;سون لا;Sơn La
+de;Son La;Sơn La
+fa;سون لا;Sơn La
+ja;ソンラ;Sơn La
+jv;Son La;Sơn La
+pa;ਸੋਨ ਲਾ;Sơn La
+ps;سون لا;Sơn La
+pt;Son La;Sơn La
+tg;Сон Ла;Sơn La
+en;Song Cau;Sông Cầu
+ru;Шокчанг;Sóc Trăng
+en;Soc Trang;Sóc Trăng
+ar;سوك ترانج;Sóc Trăng
+kk;Сок Чанг;Sóc Trăng
+tr;Soc Trang;Sóc Trăng
+uz;Soc Trang;Sóc Trăng
+ky;Сок Чанг;Sóc Trăng
+id;Soc Trang;Sóc Trăng
+ms;Soc Trang;Sóc Trăng
+es;Soc Trang;Sóc Trăng
+fr;Soc Trang;Sóc Trăng
+hi;सोक ट्रांग;Sóc Trăng
+bn;সোক ট্রাং;Sóc Trăng
+ur;سوک ٹرانگ;Sóc Trăng
+de;Soc Trang;Sóc Trăng
+fa;سوک ترانگ;Sóc Trăng
+ja;ソックチャン;Sóc Trăng
+jv;Soc Trang;Sóc Trăng
+pa;ਸੋਕ ਤ੍ਰਾਂਗ;Sóc Trăng
+ps;سوک ترانگ;Sóc Trăng
+pt;Soc Trang;Sóc Trăng
+tg;Сок Чанг;Sóc Trăng
+vi;Sín Chải;Sả Chải
+ru;Сапа;Sa Pa
+vi;Sòn Thầu 1;Sòn Thầu Một
+ru;Сам Сон;Sầm Sơn
+vi;Sa Đéc;Sa Dec
+ru;Са Дек;Sa Dec
+vi;Sắc Ngà;Bản Sác Ngà
+en;Rach Gia;Rạch Giá
+it;Rach Gia;Rạch Giá
+fa;راچا گیا;Rạch Giá
+ja;ラックザー;Rạch Giá
+ko;락자;Rạch Giá
+th;สักซ้า;Rạch Giá
+ur;رچ گیآ;Rạch Giá
+ru;Ратьзя;Rạch Giá
+zh;迪石市;Rạch Giá
+ar;راتش جيا;Rạch Giá
+kk;Рач Жа;Rạch Giá
+tr;Rach Gia;Rạch Giá
+uz;Rach Gia;Rạch Giá
+ky;Рач Жа;Rạch Giá
+id;Rach Gia;Rạch Giá
+ms;Rach Gia;Rạch Giá
+es;Rach Gia;Rạch Giá
+fr;Rach Gia;Rạch Giá
+hi;राच जिया;Rạch Giá
+bn;রাচ জিয়া;Rạch Giá
+de;Rach Gia;Rạch Giá
+jv;Rach Gia;Rạch Giá
+pa;ਰਾਚ ਜਿਆ;Rạch Giá
+ps;راچ جیا;Rạch Giá
+pt;Rach Gia;Rạch Giá
+tg;Рач Жа;Rạch Giá
+vi;Quy Nhơn;Qui Nhon
+zh;歸仁市;Qui Nhon
+ru;Куинён;Qui Nhon
+ja;クイニョン;Qui Nhon
+ko;꾸이년;Qui Nhon
+fr;Quy Nhơn;Qui Nhon
+ar;كويه نهون;Qui Nhon
+kk;Куи Нхон;Qui Nhon
+ky;Куи Нхон;Qui Nhon
+hi;क्यूई न्हॉन;Qui Nhon
+bn;কুই ন্হন;Qui Nhon
+ur;کوئی نہون;Qui Nhon
+fa;کوئی نهون;Qui Nhon
+pa;ਕੁਈ ਨ੍ਹੋਨ;Qui Nhon
+ps;کوئی نهون;Qui Nhon
+tg;Куи Нхон;Qui Nhon
+vi;Làng Câu;Qui Lăng
+ru;Ба Зон;Ba Đồn
+de;Thành phố Quảng Ngãi;Quảng Ngãi
+vi;Thành phố Quảng Ngãi;Quảng Ngãi
+ru;Куангнгай;Quảng Ngãi
+fa;کوانگ نگای;Quảng Ngãi
+ja;クアンガイ;Quảng Ngãi
+ko;꽝응아이;Quảng Ngãi
+tg;Вилояти Куанг Нгай;Quảng Ngãi
+zh;廣義市;Quảng Ngãi
+ar;كوانج نجاي;Quảng Ngãi
+kk;Куанг Нгай;Quảng Ngãi
+tr;Quang Ngai;Quảng Ngãi
+uz;Quang Ngai;Quảng Ngãi
+ky;Куанг Нгай;Quảng Ngãi
+id;Quang Ngai;Quảng Ngãi
+ms;Quang Ngai;Quảng Ngãi
+es;Quang Ngai;Quảng Ngãi
+fr;Quang Ngai;Quảng Ngãi
+hi;क्वांग नगाई;Quảng Ngãi
+bn;কোয়াং এনগাই;Quảng Ngãi
+ur;کوانگ نگائی;Quảng Ngãi
+jv;Quang Ngai;Quảng Ngãi
+pa;ਕੁਆਂਗ ਨਗਾਈ;Quảng Ngãi
+ps;کوانگ نگائی;Quảng Ngãi
+pt;Quang Ngai;Quảng Ngãi
+vi;Quảng Lãm;Quảng Lãng
+vi;Quảng Đàm;Quảng Đâm
+vi;Quảng Cư 1;Quảng Cư Một
+vi;Púng Luông;Bản Púng Luông
+vi;Pom Kút;Bản Pôm Cút
+vi;Plei Pa Ai Briu 1;Plei Pa Ai Briu Một
+vi;Plây Cu;Pleiku
+de;Plei Cu;Pleiku
+ru;Плейку;Pleiku
+fa;پلیکو;Pleiku
+ja;プレイク;Pleiku
+ko;쁠래이꾸;Pleiku
+th;เปล็ยกู;Pleiku
+ur;پلیکو;Pleiku
+zh;波來古市;Pleiku
+ar;بليكو;Pleiku
+kk;Плейку;Pleiku
+ky;Плейку;Pleiku
+hi;प्लेइकु;Pleiku
+bn;প্লেইকু;Pleiku
+pa;ਪਲੇਕੁ;Pleiku
+ps;پلیکو;Pleiku
+tg;Плейку;Pleiku
+vi;Phu Van;Phú Van
+vi;Thị Xã Phú Thọ;Phú Thọ
+ru;Дуонг-Донг;Dương Đông
+en;Duong Dong;Dương Đông
+vi;Phương Triệt;Phương Triện
+vi;Phước Lộc;Đại Đồng
+vi;Phú Nhơn;Phú Sơn
+vi;Cây Dương;Phụng Hiệp
+vi;Phú Mỹ 3;Phú Mỹ Ba
+vi;Phú Mỹ 7;Phú Mỹ Bày
+ru;Фу Мий;Phú Mỹ
+vi;Thành Phố Phủ Lý;Phủ Lý
+en;Phu Ly;Phủ Lý
+ru;Фу Ли;Phủ Lý
+ar;فو لي;Phủ Lý
+kk;Фу Ли;Phủ Lý
+tr;Phu Ly;Phủ Lý
+uz;Phu Ly;Phủ Lý
+ky;Фу Ли;Phủ Lý
+id;Phu Ly;Phủ Lý
+ms;Phu Ly;Phủ Lý
+es;Phu Ly;Phủ Lý
+fr;Phu Ly;Phủ Lý
+hi;फु ली;Phủ Lý
+bn;ফু লি;Phủ Lý
+ur;فو لی;Phủ Lý
+de;Phu Ly;Phủ Lý
+fa;فو لی;Phủ Lý
+ja;フーリー;Phủ Lý
+jv;Phu Ly;Phủ Lý
+pa;ਫੂ ਲੀ;Phủ Lý
+ps;فو لی;Phủ Lý
+pt;Phu Ly;Phủ Lý
+tg;Фу Ли;Phủ Lý
+vi;Phu Luu Thuong;Phu Lưu Thượng
+vi;Phú Lợi 2;Phú Lợi Hai
+vi;Phước Vĩnh;Phuoc Vinh
+vi;làng Phú Đô;Phú Đô
+en;Phu Do;Phú Đô
+ru;Фук Ен;Phúc Yên
+vi;Ngô Mây;Phù Cát
+vi;Phú Bảo;Bản Phu Bảo
+ru;Фонг Зиен;Phong Điền
+zh;潘切;Phan Thiết
+ru;Фантьет;Phan Thiết
+ru;Фантхьет;Phan Thiết
+ar;فان تييت;Phan Thiết
+kk;Фан Тхиет;Phan Thiết
+tr;Phan Thiet;Phan Thiết
+uz;Phan Thiet;Phan Thiết
+ky;Фан Тхиет;Phan Thiết
+id;Phan Thiet;Phan Thiết
+ms;Phan Thiet;Phan Thiết
+es;Phan Thiet;Phan Thiết
+fr;Phan Thiet;Phan Thiết
+hi;फान थिएट;Phan Thiết
+bn;ফান থিয়েত;Phan Thiết
+ur;فان تھیت;Phan Thiết
+de;Phan Thiet;Phan Thiết
+fa;فان تیت;Phan Thiết
+ja;ファンティエット;Phan Thiết
+jv;Phan Thiet;Phan Thiết
+pa;ਫਾਨ ਥਿਏਟ;Phan Thiết
+ps;فان تیت;Phan Thiết
+pt;Phan Thiet;Phan Thiết
+tg;Фан Тхиет;Phan Thiết
+en;Phan Rang;Phan Rang-Tháp Chàm
+ja;ファンラン＝タップチャム;Phan Rang-Tháp Chàm
+ru;Фан Ранг-Тхап Чам;Phan Rang-Tháp Chàm
+ar;فان رانج-ثاب تشام;Phan Rang-Tháp Chàm
+kk;Фан Ранг-Тхап Чам;Phan Rang-Tháp Chàm
+tr;Phan Rang-Thap Cham;Phan Rang-Tháp Chàm
+uz;Phan Rang-Thap Cham;Phan Rang-Tháp Chàm
+ky;Фан Ранг-Тхап Чам;Phan Rang-Tháp Chàm
+id;Phan Rang-Thap Cham;Phan Rang-Tháp Chàm
+ms;Phan Rang-Thap Cham;Phan Rang-Tháp Chàm
+es;Phan Rang-Thap Cham;Phan Rang-Tháp Chàm
+fr;Phan Rang-Thap Cham;Phan Rang-Tháp Chàm
+hi;फान रांग-थाप चाम;Phan Rang-Tháp Chàm
+bn;ফান রাং-থাপ চাম;Phan Rang-Tháp Chàm
+ur;فان رانگ-تھاپ چام;Phan Rang-Tháp Chàm
+de;Phan Rang-Thap Cham;Phan Rang-Tháp Chàm
+fa;فان رانگ-تاپ چام;Phan Rang-Tháp Chàm
+jv;Phan Rang-Thap Cham;Phan Rang-Tháp Chàm
+pa;ਫਾਨ ਰਾਂਗ-ਥਾਪ ਚਾਮ;Phan Rang-Tháp Chàm
+ps;فان رانگ-تاپ چام;Phan Rang-Tháp Chàm
+pt;Phan Rang-Thap Cham;Phan Rang-Tháp Chàm
+tg;Фан Ранг-Тхап Чам;Phan Rang-Tháp Chàm
+vi;Phái Dát;Phát Dát
+vi;Pa Tần 2;Pa Tần Hai
+ru;О Мон;Ô Môn
+vi;Noong Tàu;Bản Noong Tầu
+ru;Нинх Хоа;Ninh Hòa
+vi;Thành Phố Ninh Bình;Ninh Bình
+ru;Нинь Бинь;Ninh Bình
+ko;닌빈;Ninh Bình
+en;Ninh Binh;Ninh Bình
+ar;نينه بينه;Ninh Bình
+kk;Нинь Бинь;Ninh Bình
+tr;Ninh Binh;Ninh Bình
+uz;Ninh Binh;Ninh Bình
+ky;Нинь Бинь;Ninh Bình
+id;Ninh Binh;Ninh Bình
+ms;Ninh Binh;Ninh Bình
+es;Ninh Binh;Ninh Bình
+fr;Ninh Binh;Ninh Bình
+hi;निन्ह बिन्ह;Ninh Bình
+bn;নিনহ বিনহ;Ninh Bình
+ur;نِنہ بِنہ;Ninh Bình
+de;Ninh Binh;Ninh Bình
+fa;نینه بینه;Ninh Bình
+ja;ニンビン;Ninh Bình
+jv;Ninh Binh;Ninh Bình
+pa;ਨਿਨ ਬਿਨ;Ninh Bình
+ps;نینه بینه;Ninh Bình
+pt;Ninh Binh;Ninh Bình
+tg;Нинь Бинь;Ninh Bình
+vi;Nhữ Hãn 2;Nhữ Hãn Hai
+vi;Nhữ Hãn 1;Nhữ Hãn Một
+ja;ニャチャン;Nha Trang
+ru;Нячанг;Nha Trang
+fa;نها ترنگ;Nha Trang
+th;ญาจาง;Nha Trang
+ko;냐짱;Nha Trang
+mn;Нячанг;Nha Trang
+zh;芽莊市;Nha Trang
+ar;نها ترانج;Nha Trang
+yue;芽莊;Nha Trang
+ko;나트랑;Nha Trang
+kk;Нячанг;Nha Trang
+ky;Нячанг;Nha Trang
+hi;न्हा ट्रांग;Nha Trang
+bn;ন্হা ট্রাং;Nha Trang
+ur;نھا ٹرانگ;Nha Trang
+pa;ਨਹਾ ਤ੍ਰਾਂਗ;Nha Trang
+ps;نها ترانگ;Nha Trang
+tg;Нячанг;Nha Trang
+vi;Nhân Mục 2;Nhân Mục Hai
+vi;Nhân Mục 1;Nhân Mục Một
+vi;Ngộ Khê;Ngô Khê
+vi;Ngọc Kỹ;Ngọc Kỳ
+ru;Нгхи Сон;Nghi Sơn
+vi;Chợ Chùa;Nghĩa Hành
+en;Nghia Do;Nghĩa Đô
+vi;Nghĩa Hưng;Nghĩa Đàn
+vi;Nà Tấu;Bản Nà Tấu
+vi;Bản Nà Tăm 2;Bản Nà Tăm Hai
+vi;Bản Nà Sảng;Bản Nà Sẳng
+vi;Nà Pheo 2;Nà Pheo Hai
+vi;Nà Mương;Na Nương
+vi;Nậm Tốn;Nậm Tóng
+ru;Намдинь;Nam Định
+vi;Thành Phố Nam Định;Nam Định
+ar;نام ديه;Nam Định
+kk;Нам Динь;Nam Định
+tr;Nam Dinh;Nam Định
+uz;Nam Dinh;Nam Định
+ky;Нам Динь;Nam Định
+id;Nam Dinh;Nam Định
+ms;Nam Dinh;Nam Định
+es;Nam Dinh;Nam Định
+fr;Nam Dinh;Nam Định
+hi;नाम दिन्ह;Nam Định
+bn;নাম দিনহ;Nam Định
+ur;نام ڈِنہ;Nam Định
+de;Nam Dinh;Nam Định
+fa;نام دینه;Nam Định
+ja;ナムディン;Nam Định
+jv;Nam Dinh;Nam Định
+pa;ਨਾਮ ਡਿਨ;Nam Định
+ps;نام دینه;Nam Định
+pt;Nam Dinh;Nam Định
+tg;Нам Динь;Nam Định
+vi;Nặm Đảng;Bản Nậm Đông
+vi;Nậm Coóng;Bản Nậm Coóng
+vi;Nà Kiềng;Bản Nà Kiểng
+vi;Nà Bắng;Bản Nà Bang
+ru;Мита;Mỹ Tho
+ar;مي ثو;Mỹ Tho
+kk;Мита;Mỹ Tho
+tr;My Tho;Mỹ Tho
+uz;My Tho;Mỹ Tho
+ky;Мита;Mỹ Tho
+id;My Tho;Mỹ Tho
+ms;My Tho;Mỹ Tho
+es;My Tho;Mỹ Tho
+fr;My Tho;Mỹ Tho
+hi;माय थो;Mỹ Tho
+bn;মাই থো;Mỹ Tho
+ur;مئے تھو;Mỹ Tho
+de;My Tho;Mỹ Tho
+fa;مای تو;Mỹ Tho
+ja;ミーソー;Mỹ Tho
+jv;My Tho;Mỹ Tho
+pa;ਮਾਈ ਥੋ;Mỹ Tho
+ps;مای تو;Mỹ Tho
+pt;My Tho;Mỹ Tho
+tg;Мита;Mỹ Tho
+en;My Hao;Mỹ Hào
+ru;Мий Хао;Mỹ Hào
+ru;Монгкай;Móng Cái
+vi;Minh Lang;Minh Lương
+vi;Mạo Khê;Thị Trấn Mạo Khê
+vi;Ma Tư Thăng;Bản Ma Tư Thăng
+en;Mai Dich;Mai Dịch
+vi;Luu My;Lưu Mỹ
+vi;Lương Cải;Lương Cái
+en;Long Xuyen;Long Xuyên
+ru;Лонг Суэн;Long Xuyên
+ar;لونج سوين;Long Xuyên
+kk;Лонг Суэн;Long Xuyên
+tr;Long Xuyen;Long Xuyên
+uz;Long Xuyen;Long Xuyên
+ky;Лонг Суэн;Long Xuyên
+id;Long Xuyen;Long Xuyên
+ms;Long Xuyen;Long Xuyên
+es;Long Xuyen;Long Xuyên
+fr;Long Xuyen;Long Xuyên
+hi;लांग श्वेन;Long Xuyên
+bn;লং জুয়েন;Long Xuyên
+ur;لانگ زویِن;Long Xuyên
+de;Long Xuyen;Long Xuyên
+fa;لانگ زویین;Long Xuyên
+ja;ロングズエン;Long Xuyên
+jv;Long Xuyen;Long Xuyên
+pa;ਲਾਂਗ ਜੁਏਨ;Long Xuyên
+ps;لانگ زویین;Long Xuyên
+pt;Long Xuyen;Long Xuyên
+tg;Лонг Суэн;Long Xuyên
+vi;Long Chao;Long Châu
+vi;Linh Cam;Linh Cảm
+ru;Лао Чай;Lao Chải
+ru;Лаокай;Lào Cai
+fa;لائو کای;Lào Cai
+ja;ラオカイ;Lào Cai
+ko;라오까이;Lào Cai
+tg;Вилояти Лао Каи;Lào Cai
+th;หล่าวกาย;Lào Cai
+ur;لاو کائی;Lào Cai
+zh;老街市;Lào Cai
+es;Laos;Lào Cai
+en;Lao Cai;Lào Cai
+ar;لاو كاي;Lào Cai
+kk;Лаокай;Lào Cai
+tr;Lao Cai;Lào Cai
+uz;Lao Cai;Lào Cai
+ky;Лаокай;Lào Cai
+id;Lao Cai;Lào Cai
+ms;Lao Cai;Lào Cai
+fr;Lao Cai;Lào Cai
+hi;लाओ काई;Lào Cai
+bn;লাও কাই;Lào Cai
+de;Lao Cai;Lào Cai
+jv;Lao Cai;Lào Cai
+pa;ਲਾਓ ਕਾਈ;Lào Cai
+ps;لاو کای;Lào Cai
+pt;Lao Cai;Lào Cai
+vi;Làng Than 1;Làng Than Một
+vi;Làng Tâm 3;Làng Tâm Ba
+vi;Thành Phố Lạng Sơn;Lạng Sơn
+en;Lang Son;Lạng Sơn
+ru;Лангсон;Lạng Sơn
+ar;لانج سون;Lạng Sơn
+kk;Лангсон;Lạng Sơn
+tr;Lang Son;Lạng Sơn
+uz;Lang Son;Lạng Sơn
+ky;Лангсон;Lạng Sơn
+id;Lang Son;Lạng Sơn
+ms;Lang Son;Lạng Sơn
+es;Lang Son;Lạng Sơn
+fr;Lang Son;Lạng Sơn
+hi;लांग सोन;Lạng Sơn
+bn;ল্যাং সন;Lạng Sơn
+ur;لانگ سون;Lạng Sơn
+de;Lang Son;Lạng Sơn
+fa;لانگ سون;Lạng Sơn
+ja;ラングソン;Lạng Sơn
+jv;Lang Son;Lạng Sơn
+pa;ਲਾਂਗ ਸੋਨ;Lạng Sơn
+ps;لانگ سون;Lạng Sơn
+pt;Lang Son;Lạng Sơn
+tg;Лангсон;Lạng Sơn
+vi;Làng Nhé 2;Làng Nhé Hai
+vi;Bản Ngói;Bản Ngòi
+vi;Làng 5;Làng Năm
+vi;Nà Mơ Cái;Nà Mở Cái
+vi;Làng La;Xóm La
+vi;Làng Khê Hom;Làng Khê
+vi;Xóm Giá;Làng Giá
+vi;Làng Đen;Khau Đen
+vi;Làng Đáy;Làng Dấy
+vi;Giáp Đắt;Xóm Đắt
+vi;Làng Bó;Bản Bó
+vi;Lai Bay;Bản Lái Bay
+ru;Лайтяу;Lai Châu
+fa;لا گی;La Gi
+ja;ラジー;La Gi
+ko;라지;La Gi
+ru;Ла-Ги;La Gi
+vi;Lắk;Liên Sơn
+ru;Кий Анх;Kỳ Anh
+vi;Khi Chu Phìn;Kin Chu Phin
+ru;Контум;Kon Tum
+vi;Kim Thanh;Kim Thành
+vi;Kiến Đức;Quang Duc
+ru;Киен Ан;Kiến An
+ko;레스코;Khu Đô Thị Resco
+zh;雷斯科;Khu Đô Thị Resco
+vi;Khe Mang 2;Khe Mang Hai
+vi;Khe Sài;Khê Sai
+vi;Kẻ Món;Làng Món
+vi;Kệ Châu 1;Kệ Châu Một
+en;Hung Yen;Hưng Yên
+ru;Хунгйен;Hưng Yên
+ar;هونج ين;Hưng Yên
+kk;Хунгйен;Hưng Yên
+tr;Hung Yen;Hưng Yên
+uz;Hung Yen;Hưng Yên
+ky;Хунгйен;Hưng Yên
+id;Hung Yen;Hưng Yên
+ms;Hung Yen;Hưng Yên
+es;Hung Yen;Hưng Yên
+fr;Hung Yen;Hưng Yên
+hi;हुंग येन;Hưng Yên
+bn;হাং ইয়েন;Hưng Yên
+ur;ہنگ ین;Hưng Yên
+de;Hung Yen;Hưng Yên
+fa;هونگ ین;Hưng Yên
+ja;フンイェン;Hưng Yên
+jv;Hung Yen;Hưng Yên
+pa;ਹੁੰਗ ਇਆਨ;Hưng Yên
+ps;هونگ ین;Hưng Yên
+pt;Hung Yen;Hưng Yên
+tg;Хунгйен;Hưng Yên
+es;Hué;Huế
+fr;Hué;Huế
+it;Hué;Huế
+ja;フエ;Huế
+nl;Hué;Huế
+zh;順化市;Huế
+zh;順化;Huế
+ko;후에;Huế
+th;เว้;Huế
+mn;Хюэ;Huế
+tr;Hué;Huế
+ru;Хюэ;Huế
+vi;Thành phố Huế;Huế
+fa;هوئه;Huế
+ur;ہوائے;Huế
+yue;順化;Huế
+ar;هيو;Huế
+kk;Хюэ;Huế
+uz;Hue;Huế
+ky;Хюэ;Huế
+id;Hue;Huế
+ms;Hue;Huế
+hi;ह्यू;Huế
+bn;হিউ;Huế
+jv;Hue;Huế
+pa;ਹਿਊ;Huế
+ps;هيو;Huế
+pt;Hue;Huế
+tg;Хюэ;Huế
+ru;Хонг Нгу;Hồng Ngự
+en;Ha Long;Hạ Long
+ru;Халонг;Hạ Long
+vi;Thành Phố Hạ Long;Hạ Long
+ko;할롱;Hạ Long
+zh;下龍市;Hạ Long
+ja;ハロン市;Hạ Long
+fa;ها لونگ;Hạ Long
+ar;هالونج;Hạ Long
+kk;Халонг;Hạ Long
+tr;Ha Long;Hạ Long
+uz;Ha Long;Hạ Long
+ky;Халонг;Hạ Long
+id;Ha Long;Hạ Long
+ms;Ha Long;Hạ Long
+hi;हा लॉन्ग;Hạ Long
+bn;হা লং;Hạ Long
+ur;ہا لانگ;Hạ Long
+jv;Ha Long;Hạ Long
+pa;ਹਾ ਲਾਂਗ;Hạ Long
+ps;ها لانگ;Hạ Long
+pt;Ha Long;Hạ Long
+tg;Халонг;Hạ Long
+de;Hội An;Hoi An
+fr;Hôi An;Hoi An
+ja;ホイアン;Hoi An
+vi;Hội An;Hoi An
+ko;호이안;Hoi An
+mn;Хой Ань;Hoi An
+th;ฮอยอัน;Hoi An
+yue;會安;Hoi An
+ru;Хойан;Hoi An
+zh;會安市;Hoi An
+ar;هوي أن;Hoi An
+ne;होइ एन प्राचीन सहर;Hoi An
+ur;ہؤئی آن;Hoi An
+pt;Cidade Antiga de Hoi An;Hoi An
+vi;Hoàng Cầu;Hoang Cau
+vi;Tăng Bạt Hổ;Hoài Ân
+vi;Thành Phố Hòa Bình;Hòa Bình
+ru;Хоабинь;Hòa Bình
+vi;Tân An;Hiệp Đức
+ru;Хатинь;Hà Tĩnh
+de;Ha Thin;Hà Tĩnh
+fa;ها تین;Hà Tĩnh
+ko;하띤;Hà Tĩnh
+th;ห่าติ๋ญ;Hà Tĩnh
+ur;ہا تنہ;Hà Tĩnh
+zh;河靜市;Hà Tĩnh
+en;Ha Tinh;Hà Tĩnh
+ar;ها تينه;Hà Tĩnh
+kk;Ха Тинь;Hà Tĩnh
+tr;Ha Tinh;Hà Tĩnh
+uz;Ha Tinh;Hà Tĩnh
+ky;Ха Тинь;Hà Tĩnh
+id;Ha Tinh;Hà Tĩnh
+ms;Ha Tinh;Hà Tĩnh
+es;Ha Tinh;Hà Tĩnh
+fr;Ha Tinh;Hà Tĩnh
+hi;हा तिन्ह;Hà Tĩnh
+bn;হা তিন্হ;Hà Tĩnh
+ja;ハティン;Hà Tĩnh
+jv;Ha Tinh;Hà Tĩnh
+pa;ਹਾ ਤਿਨ;Hà Tĩnh
+ps;ها تينه;Hà Tĩnh
+pt;Ha Tinh;Hà Tĩnh
+tg;Ха Тинь;Hà Tĩnh
+ru;Хатьен;Hà Tiên
+ja;ハティエン;Hà Tiên
+vi;Hà Nội;Hanoi
+fa;هانوی;Hanoi
+fr;Hanoï;Hanoi
+ja;ハノイ;Hanoi
+ko;하노이;Hanoi
+pt;Hanói;Hanoi
+ru;Ханой;Hanoi
+th;ฮานอย;Hanoi
+zh-TW;河內;Hanoi
+es;Hanói;Hanoi
+ar;هانوي;Hanoi
+tg;Ханой;Hanoi
+bn;হ্যানয়;Hanoi
+bo;ཧེ་ནོ།;Hanoi
+hi;हनोई;Hanoi
+kk;Ханой;Hanoi
+km;ទីក្រុងហានូយ;Hanoi
+kn;ಹಾನೊಯ್;Hanoi
+mn;Ханой;Hanoi
+mr;हनोई;Hanoi
+my;ဟနွိုင်းမြို့;Hanoi
+or;ହାନୋଇ;Hanoi
+pa;ਹਨੋਈ;Hanoi
+si;හැනෝයි;Hanoi
+ta;ஹனோய்;Hanoi
+ug;خانوي;Hanoi
+ur;ہنوئی;Hanoi
+yue;河內;Hanoi
+zh;河內市;Hanoi
+vi;Hải Phòng;Haiphong
+fr;Hải Phòng;Haiphong
+ar;هايفونغ;Haiphong
+ja;ハイフォン;Haiphong
+ru;Хайфон;Haiphong
+zh;海防市;Haiphong
+th;ไฮฟอง;Haiphong
+kk;Хайфон;Haiphong
+ky;Хайфон;Haiphong
+hi;हाईफांग;Haiphong
+bn;হাইফং;Haiphong
+ur;ہیفونگ;Haiphong
+fa;هایفونگ;Haiphong
+pa;ਹਾਈਫੌਂਗ;Haiphong
+ps;هايفونج;Haiphong
+tg;Хайфон;Haiphong
+ru;Хайзыонг;Hải Dương
+vi;Thành Phố Hải Dương;Hải Dương
+ru;Хаи Чау;Hải Châu
+ja;ハザン市;Hà Giang
+en;Go Vap;Gò Vấp
+ru;Го Вап;Gò Vấp
+ru;Гиа Раи;Giá Rai
+en;Gia Nghia;Gia Nghĩa
+ru;Зя Нгиа;Gia Nghĩa
+ar;جيا نغيا;Gia Nghĩa
+kk;Зя Нгиа;Gia Nghĩa
+tr;Gia Nghia;Gia Nghĩa
+uz;Gia Nghia;Gia Nghĩa
+ky;Зя Нгиа;Gia Nghĩa
+id;Gia Nghia;Gia Nghĩa
+ms;Gia Nghia;Gia Nghĩa
+es;Gia Nghia;Gia Nghĩa
+fr;Gia Nghia;Gia Nghĩa
+hi;जिया न्घिया;Gia Nghĩa
+bn;জিয়া নঘিয়া;Gia Nghĩa
+ur;جیا نغیا;Gia Nghĩa
+de;Gia Nghia;Gia Nghĩa
+fa;جیا نیا;Gia Nghĩa
+ja;ザーニャー;Gia Nghĩa
+jv;Gia Nghia;Gia Nghĩa
+pa;ਗਿਆ ਨਘਿਆ;Gia Nghĩa
+ps;جيا نغيا;Gia Nghĩa
+pt;Gia Nghia;Gia Nghĩa
+tg;Зя Нгиа;Gia Nghĩa
+vi;Nam Phước;Duy Xuyên
+vi;Duyên Lộc;Diên Lộc
+vi;Liên Nghĩa;Đưc Trọng
+ru;Дык Тронг;Đưc Trọng
+ru;Зук Фо;Đức Phổ
+en;Dong Xoai;Đồng Xoài
+ru;Зонг Хоай;Đồng Xoài
+ar;جيونج خوي;Đồng Xoài
+kk;Зонг Хоай;Đồng Xoài
+tr;Gjong Xoai;Đồng Xoài
+uz;Gjong Xoai;Đồng Xoài
+ky;Зонг Хоай;Đồng Xoài
+id;Gjong Xoai;Đồng Xoài
+ms;Gjong Xoai;Đồng Xoài
+es;Gjong Xoai;Đồng Xoài
+fr;Gjong Xoai;Đồng Xoài
+hi;गजॉन्ग ख्वाई;Đồng Xoài
+bn;জিয়ং খোয়াই;Đồng Xoài
+ur;جیونگ خوائی;Đồng Xoài
+de;Gjong Xoai;Đồng Xoài
+fa;جیونگ خوی;Đồng Xoài
+ja;ゾンホアイ;Đồng Xoài
+jv;Gjong Xoai;Đồng Xoài
+pa;ਗਜੌਂਗ ਖੁਆਈ;Đồng Xoài
+ps;جيونج خوي;Đồng Xoài
+pt;Gjong Xoai;Đồng Xoài
+tg;Зонг Хоай;Đồng Xoài
+vi;Đồng Van;Đồng Ván
+ru;Ти Тран Зонг Триеу;Thị Trấn Đông Triều
+vi;Đông Thôn;Xóm Đông
+vi;Đồng Quy;Đồng Qui
+vi;Đồng Luộc 1;Đồng Luộc
+vi;Đồng Luộc Một;Đồng Luộc
+vi;Đồng La 2;Đồng La Hai
+en;Dong Hoi;Đồng Hới
+es;Dong Hoi;Đồng Hới
+de;Dong Hoi;Đồng Hới
+it;Dong Hoi;Đồng Hới
+nl;Dong Hoi;Đồng Hới
+pt;Dong Hoi;Đồng Hới
+ru;Донгхой;Đồng Hới
+en;Đông Hà;Ðông Hà
+ru;Донг Ха;Ðông Hà
+ar;دونج ها;Ðông Hà
+kk;Донг Ха;Ðông Hà
+tr;Dong Ha;Ðông Hà
+uz;Dong Ha;Ðông Hà
+ky;Донг Ха;Ðông Hà
+id;Dong Ha;Ðông Hà
+ms;Dong Ha;Ðông Hà
+es;Dong Ha;Ðông Hà
+fr;Dong Ha;Ðông Hà
+hi;डोंग हा;Ðông Hà
+bn;ডং হা;Ðông Hà
+ur;ڈونگ ہا;Ðông Hà
+de;Dong Ha;Ðông Hà
+fa;دونگ ها;Ðông Hà
+ja;ドンハー;Ðông Hà
+jv;Dong Ha;Ðông Hà
+pa;ਡੌਂਗ ਹਾ;Ðông Hà
+ps;دونج ها;Ðông Hà
+pt;Dong Ha;Ðông Hà
+tg;Донг Ха;Ðông Hà
+vi;Động Côi;Đông Côi
+vi;Huyện Đoan Hùng;Đoan Hùng
+ja;ディエンビエンフー;Dien Bien Phu
+ko;디엔비엔푸;Dien Bien Phu
+ru;Дьенбьенфу;Dien Bien Phu
+vi;Điện Biên Phủ;Dien Bien Phu
+zh-TW;奠邊府;Dien Bien Phu
+fr;Ðiện Biên Phủ;Dien Bien Phu
+vi;Ðiện Biên Phủ;Dien Bien Phu
+zh;奠邊府;Dien Bien Phu
+fa;دین بین فو;Dien Bien Phu
+lo;ດຽນບຽນຟູ;Dien Bien Phu
+th;เดียนเบียนฟู;Dien Bien Phu
+ur;دیئن بیئن فو;Dien Bien Phu
+ar;ديان بيان فو;Dien Bien Phu
+kk;Диен Бен Фу;Dien Bien Phu
+ky;Диен Бен Фу;Dien Bien Phu
+hi;डिएन बिएन फु;Dien Bien Phu
+bn;ডিয়েন বিয়েন ফু;Dien Bien Phu
+pa;ਡਿਏਨ ਬਿਏਨ ਫੁ;Dien Bien Phu
+ps;ديان بيان فو;Dien Bien Phu
+tg;Диен Бен Фу;Dien Bien Phu
+vi;Vĩnh Điện;Điện Bàn
+ru;Зиен Бан;Điện Bàn
+en;Dich Vong;Dịch Vọng
+ru;Ди Ан;Dĩ An
+fr;Đà Nẵng;Da Nang
+de;Đà Nẵng;Da Nang
+ja;ダナン;Da Nang
+pt;Danang;Da Nang
+vi;Đà Nẵng;Da Nang
+zh;峴港;Da Nang
+zh;岘港;Da Nang
+ko;다낭;Da Nang
+ru;Дананг;Da Nang
+ar;دا نانج;Da Nang
+kk;Данан;Da Nang
+ky;Данан;Da Nang
+hi;दा नांग;Da Nang
+bn;দা নাং;Da Nang
+ur;ڈا نانگ;Da Nang
+fa;دانانگ;Da Nang
+pa;ਦਾ ਨਾਂਗ;Da Nang
+ps;دا نانج;Da Nang
+tg;Данан;Da Nang
+en;Da Lat;Ðà Lạt
+ru;Далат;Ðà Lạt
+ar;دا لات;Ðà Lạt
+kk;Далат;Ðà Lạt
+tr;Da Lat;Ðà Lạt
+uz;Da Lat;Ðà Lạt
+ky;Далат;Ðà Lạt
+id;Da Lat;Ðà Lạt
+ms;Da Lat;Ðà Lạt
+es;Da Lat;Ðà Lạt
+fr;Da Lat;Ðà Lạt
+hi;दा लैट;Ðà Lạt
+bn;দা লাট;Ðà Lạt
+ur;ڈا لات;Ðà Lạt
+de;Da Lat;Ðà Lạt
+fa;دالات;Ðà Lạt
+ja;ダラット;Ðà Lạt
+jv;Da Lat;Ðà Lạt
+pa;ਦਾ ਲਾਟ;Ðà Lạt
+ps;دا لات;Ðà Lạt
+pt;Da Lat;Ðà Lạt
+tg;Далат;Ðà Lạt
+ru;Ти Тран Заи Ту;Thị Trấn Đại Từ
+vi;Ái Nghĩa;Đại Lộc
+vi;Đại Giang 2;Đại Giang Hai
+vi;Đại Ân 1;Đại Ân Một
+vi;Cương Gian;Cương Giẩn
+ru;Ку-Чи;Củ Chi
+ru;Ко Зо;Cờ Đỏ
+ru;Кон-Шон;Côn Sơn
+vi;Cổ Lãm;Cổ Lam
+ru;Чу;Chũ
+ru;Чон Танх;Chơn Thành
+ru;Чи Линх;Chí Linh
+vi;Chiêm Hóa;Huyện Chiêm Hóa
+vi;Cát Lái;Cat Lai
+ru;Кат Ба;Cát Bà
+vi;Bản Cáp Na 1;Bản Cáp Na Một
+en;Cao Lanh;Cao Lãnh
+ru;Као Ланх;Cao Lãnh
+ar;كاو لانه;Cao Lãnh
+kk;Као Ланх;Cao Lãnh
+tr;Cao Lanh;Cao Lãnh
+uz;Cao Lanh;Cao Lãnh
+ky;Као Ланх;Cao Lãnh
+id;Cao Lanh;Cao Lãnh
+ms;Cao Lanh;Cao Lãnh
+es;Cao Lanh;Cao Lãnh
+fr;Cao Lanh;Cao Lãnh
+hi;काओ लान्ह;Cao Lãnh
+bn;কাও লান্হ;Cao Lãnh
+ur;کاؤ لانہ;Cao Lãnh
+de;Cao Lanh;Cao Lãnh
+fa;کاولانه;Cao Lãnh
+ja;カオラン;Cao Lãnh
+jv;Cao Lanh;Cao Lãnh
+pa;ਕਾਓ ਲਾਂਹ;Cao Lãnh
+ps;كاو لانه;Cao Lãnh
+pt;Cao Lanh;Cao Lãnh
+tg;Као Ланх;Cao Lãnh
+ru;Каобанг;Cao Bằng
+vi;Thành Phố Cao Bằng;Cao Bằng
+ja;カオバン市;Cao Bằng
+ja;カオバン;Cao Bằng
+en;Cao Bang;Cao Bằng
+ar;كاو بانج;Cao Bằng
+kk;Као Банг;Cao Bằng
+tr;Cao Bang;Cao Bằng
+uz;Cao Bang;Cao Bằng
+ky;Као Банг;Cao Bằng
+id;Cao Bang;Cao Bằng
+ms;Cao Bang;Cao Bằng
+es;Cao Bang;Cao Bằng
+fr;Cao Bang;Cao Bằng
+hi;काओ बैंग;Cao Bằng
+bn;কাও বাং;Cao Bằng
+ur;کاؤ بانگ;Cao Bằng
+de;Cao Bang;Cao Bằng
+fa;کاوبانگ;Cao Bằng
+jv;Cao Bang;Cao Bằng
+pa;ਕਾਓ ਬਾਂਗ;Cao Bằng
+ps;كاو بانج;Cao Bằng
+pt;Cao Bang;Cao Bằng
+tg;Као Банг;Cao Bằng
+es;Can Tho;Cần Thơ
+en;Can Tho;Cần Thơ
+it;Can Tho;Cần Thơ
+ja;カントー;Cần Thơ
+nl;Can Tho;Cần Thơ
+pt;Can Tho;Cần Thơ
+zh;芹苴市;Cần Thơ
+ru;Кан Тхо;Cần Thơ
+ar;كان ثو;Cần Thơ
+kk;Кан Тхо;Cần Thơ
+tr;Can Tho;Cần Thơ
+uz;Can Tho;Cần Thơ
+ky;Кан Тхо;Cần Thơ
+id;Can Tho;Cần Thơ
+ms;Can Tho;Cần Thơ
+hi;कैन थो;Cần Thơ
+bn;ক্যান থো;Cần Thơ
+ur;کین تھو;Cần Thơ
+fa;کانتو;Cần Thơ
+jv;Can Tho;Cần Thơ
+pa;ਕਨ ਥੋ;Cần Thơ
+ps;كان ثو;Cần Thơ
+tg;Кан Тхо;Cần Thơ
+en;Can Gio;Cần Giờ
+vi;Cần Thạnh;Cần Giờ
+en;Can Giuoc;Cần Giuộc
+ru;Кан Гиуок;Cần Giuộc
+ru;Камрань;Cam Ranh
+ru;Кам Фа Минес;Cẩm Phả Mines
+zh;锦普市;Cẩm Phả
+ru;Камфа;Cẩm Phả
+ja;カムファ;Cẩm Phả
+ar;كام فا;Cẩm Phả
+ru;Камау;Cà Mau
+en;Ca Mau;Cà Mau
+ar;كا ماو;Cà Mau
+kk;Ка Мау;Cà Mau
+tr;Ca Mau;Cà Mau
+uz;Ca Mau;Cà Mau
+ky;Ка Мау;Cà Mau
+id;Ca Mau;Cà Mau
+ms;Ca Mau;Cà Mau
+es;Ca Mau;Cà Mau
+fr;Ca Mau;Cà Mau
+hi;का मौ;Cà Mau
+bn;কা মাউ;Cà Mau
+ur;کا ماؤ;Cà Mau
+de;Ca Mau;Cà Mau
+fa;کاماو;Cà Mau
+ja;カマウ;Cà Mau
+jv;Ca Mau;Cà Mau
+pa;ਕਾ ਮਾਉ;Cà Mau
+ps;كا ماو;Cà Mau
+pt;Ca Mau;Cà Mau
+tg;Ка Мау;Cà Mau
+ru;Каи Лай;Cai Lậy
+vi;Yang Lá 1;Yang Lá Một
+vi;Rô Cai B;Buôn Rơ Cai B
+vi;Buôn Liêng 1;Buôn Liêng Một
+en;Buon Ma Thuot;Buôn Ma Thuột
+ru;Буон Ма Тхуот;Buôn Ma Thuột
+ar;بوون ما ثوت;Buôn Ma Thuột
+kk;Буон Ма Тхуот;Buôn Ma Thuột
+tr;Buon Ma Thuot;Buôn Ma Thuột
+uz;Buon Ma Thuot;Buôn Ma Thuột
+ky;Буон Ма Тхуот;Buôn Ma Thuột
+id;Buon Ma Thuot;Buôn Ma Thuột
+ms;Buon Ma Thuot;Buôn Ma Thuột
+es;Buon Ma Thuot;Buôn Ma Thuột
+fr;Buon Ma Thuot;Buôn Ma Thuột
+hi;बुओन मा थुओत;Buôn Ma Thuột
+bn;বুওন মা থুওত;Buôn Ma Thuột
+ur;بوون ما تھوٹ;Buôn Ma Thuột
+de;Buon Ma Thuot;Buôn Ma Thuột
+fa;بوون ما توت;Buôn Ma Thuột
+ja;ブオンマトゥオット;Buôn Ma Thuột
+jv;Buon Ma Thuot;Buôn Ma Thuột
+pa;ਬੁਓਨ ਮਾ ਥੁਓਤ;Buôn Ma Thuột
+ps;بوون ما ثوت;Buôn Ma Thuột
+pt;Buon Ma Thuot;Buôn Ma Thuột
+tg;Буон Ма Тхуот;Buôn Ma Thuột
+vi;Liêng Krăk;Buôn Liêng Krăk Một
+vi;Buôn Liêng Krăk 1;Buôn Liêng Krăk Một
+vi;Lạch Lô;Lách Lơ
+vi;Buôn Diêu 1;Buôn Diêu Một
+ru;Буон Хо;Buôn Hồ
+vi;Ea Chau;Ea Chố
+vi;Ea Ana;Ea Na
+vi;Ban Dhu;Buôn Bu Du
+vi;Buôn Bang Phát 1;Buôn Bang Phát Một
+vi;Buôn Bang Phát 2;Buôn Bang Phát Hai
+vi;Bù Gia Phúc 2;Bù Gia Phúc Hai
+vi;Pi Kó;Buôn Pi Kô
+vi;Bó Củng;Bản Boóc Củng
+ru;Бинх Туй;Bình Thủy
+vi;Châu Ổ;Bình Sơn
+en;Bien Hoa;Biên Hòa
+ru;Бьен Хоа;Biên Hòa
+ar;بيان هوا;Biên Hòa
+kk;Бен Хоа;Biên Hòa
+tr;Bien Hoa;Biên Hòa
+uz;Bien Hoa;Biên Hòa
+ky;Бен Хоа;Biên Hòa
+id;Bien Hoa;Biên Hòa
+ms;Bien Hoa;Biên Hòa
+es;Bien Hoa;Biên Hòa
+hi;बिएन होआ;Biên Hòa
+bn;বিয়েন হোয়া;Biên Hòa
+ur;بین ہوا;Biên Hòa
+de;Bien Hoa;Biên Hòa
+fa;بیان هوا;Biên Hòa
+ja;ビエンホア;Biên Hòa
+jv;Bien Hoa;Biên Hòa
+pa;ਬਿਏਨ ਹੋਆ;Biên Hòa
+ps;بيان هوا;Biên Hòa
+pt;Bien Hoa;Biên Hòa
+tg;Бен Хоа;Biên Hòa
+ru;Бен Тре;Bến Tre
+ar;بن تري;Bến Tre
+kk;Бен Тре;Bến Tre
+tr;Ben Tre;Bến Tre
+uz;Ben Tre;Bến Tre
+ky;Бен Тре;Bến Tre
+id;Ben Tre;Bến Tre
+ms;Ben Tre;Bến Tre
+es;Ben Tre;Bến Tre
+fr;Ben Tre;Bến Tre
+hi;बेन ट्रे;Bến Tre
+bn;বেন ট্রে;Bến Tre
+ur;بین ٹری;Bến Tre
+de;Ben Tre;Bến Tre
+fa;بن تره;Bến Tre
+ja;ベントレ;Bến Tre
+jv;Ben Tre;Bến Tre
+pa;ਬੇਨ ਤਰੇ;Bến Tre
+ps;بن تري;Bến Tre
+pt;Ben Tre;Bến Tre
+tg;Бен Тре;Bến Tre
+ru;Бен Кат;Bến Cát
+ru;Ба Ви;Ba Vì
+vi;Buôn Bàu;Buôn Bầu
+ru;Баолок;Bảo Lộc
+vi;Mỹ Hào;Bẩn Yên Nhân
+vi;Bản Tắn;Bản Ba Tắn
+vi;Tà Cáng 1;Tà Cáng Một
+vi;Suối Lao;Bản Lao
+vi;Suối Han 3;Suối Han Ba
+vi;Suối Cô 1;Suối Cô Một
+vi;Bản Sào;Bản Sản
+vi;Bản Pán;Bản Ba Pan
+vi;Bản Phát;Bản Phắt
+vi;Pắc Ma;Bản Pắc Ma
+vi;Bản Nghè;Bản Nghẻ
+vi;Nà Pheo 1;Nà Pheo Một
+vi;Bản Na Nga;Nà Nga
+vi;Bản Mấn 1;Bản Mấn Một
+vi;Bản Lòa;Bản Loa
+vi;Bản Lĩnh;Bản Lính
+vi;Bản Lý;Bản Bản Lý
+vi;Bản Lề;Bản Bản Lề
+vi;Bản Lang 1;Bản Lang Một
+vi;Bản Khoa 1;Bản Khoa Một
+vi;Bản Khoa 2;Bản Khoa Hai
+vi;Kết Hảy;Bản Kết Hay
+vi;Buôn Hoong;Bản Hoong
+vi;Hioan Cham;Buôn Cham
+vi;Buôn Hiao;Ea Hiao
+vi;Bằng Lâm;Bình Lâm
+vi;Bản Giáo 3;Bản Giáo Ba
+lo;Ban Chun;Bản Ghun
+vi;Ea Rôk 1;Ea Rôk Một
+vi;Bản Roài;Bản Bản Doài
+vi;Bản Dịa;Bản Rịa
+vi;Cò Nòi;Bản Cò Nòi
+vi;Bản Cồn;Bản Cằn
+vi;Co Chai;Bản Co Chai
+ru;Ти Тран Туан Чау;Thị Trấn Thuận Châu
+vi;Bán Biên;Bản Biến
+vi;Bản Dan;Bản Ban
+ru;Бак Куанг;Bắc Quang
+en;Bac Ninh;Bắc Ninh
+ru;Бак Нинь;Bắc Ninh
+ar;باك نينه;Bắc Ninh
+kk;Бак Нинь;Bắc Ninh
+tr;Bac Ninh;Bắc Ninh
+uz;Bac Ninh;Bắc Ninh
+ky;Бак Нинь;Bắc Ninh
+id;Bac Ninh;Bắc Ninh
+ms;Bac Ninh;Bắc Ninh
+es;Bac Ninh;Bắc Ninh
+fr;Bac Ninh;Bắc Ninh
+hi;बैक निन्ह;Bắc Ninh
+bn;বাক নিন্হ;Bắc Ninh
+ur;بیک نینہ;Bắc Ninh
+de;Bac Ninh;Bắc Ninh
+fa;باک نینه;Bắc Ninh
+ja;バクニン;Bắc Ninh
+jv;Bac Ninh;Bắc Ninh
+pa;ਬੈਕ ਨਿਨ;Bắc Ninh
+ps;باك نينه;Bắc Ninh
+pt;Bac Ninh;Bắc Ninh
+tg;Бак Нинь;Bắc Ninh
+vi;Thành Phố Bạc Liêu;Bạc Liêu
+ru;Бакльеу;Bạc Liêu
+vi;Bắc Giòn;Bắc Dòn
+fa;باک گیانگ;Bắc Giang
+ja;バクザン;Bắc Giang
+ko;박장;Bắc Giang
+tg;Вилояти Бак Гианг;Bắc Giang
+ur;باک گیانگ;Bắc Giang
+pt;Bac Giang;Bắc Giang
+ru;Бакзянг;Bắc Giang
+zh;北江市;Bắc Giang
+en;Bac Kan;Bắc Kạn
+vi;Ấp Xương Hòa;Xương Hòa
+vi;Ấp Vĩnh Tây;Vĩnh Tây
+vi;Vĩnh Quới;Ấp Vĩnh Quới
+vi;Vĩnh Phú;Ấp Vĩnh Phú
+vi;Vĩnh Đông;Ấp Vĩnh Đông
+vi;Vĩnh An;Ấp Vĩnh An
+vi;Trường Thọ 1;Trường Thọ Một
+vi;Trung Phú 1;Trung Phú Một
+vi;Ấp Trung;Trung
+vi;Hòa Hảo;Trung
+vi;Tràng Thọ 3;Tràng Thọ Ba
+vi;Thượng;Ấp Thượng
+vi;Thuận Đức;Ấp Thuận Đức
+vi;Thạnh Lợi 1;Thạnh Lợi Một
+vi;Tây Hưng;Ấp Tây Hưng
+vi;Tân Phú 1;Tân Phú Một
+vi;Tân Hòa;Ấp Tân Hòa
+vi;Tân Điền 1;Tân Điền Một
+vi;Sơn Tây;Ấp Sơn Tây
+vi;Phú Xương;Ấp Phú Xương
+vi;Phú Thạnh;Ấp Phú Thạnh
+vi;Phước Quản;Ấp Phước Quản
+vi;Phú Nhứt;Ấp Phú Nhứt
+vi;Phú Hữu;Ấp Phú Hữu
+vi;Phú Hòa;Ấp Phú Hòa
+vi;Phú Bình;Ấp Phú Bình
+vi;Ấp 1;Ấp Một
+vi;Nhơn Thọ 2;Nhơn Thọ Hai
+vi;Ấp 2;Ấp Hai
+vi;Ngan Rô 1;Ngan Rô Một
+vi;Ấp 5;Ấp Năm
+vi;Mỹ Trung 2;Mỹ Trung Hai
+vi;Mỹ Thuận 2;Mỹ Thuận Hai
+vi;Ấp Mỹ Tây;Mỹ Tây
+vi;Mỹ Phú 4;Mỹ Phú Bốn
+vi;Mỹ Chánh 6;Mỹ Chánh Sáu
+vi;Long Thuận;Ấp Long Thuận
+vi;Long Thạnh;Ấp Long Thạnh
+vi;Long Mỹ 2;Long Mỹ Hai
+vi;Long Khánh 1;Long Khánh Một
+vi;Long Hưng;Ấp Long Hưng
+vi;Ấp Long Hội;Long Hội
+vi;Long Hòa 2;Long Hòa Hai
+vi;Lân Thạnh 1;Lân Thạnh Một
+vi;Kiến Hòa;Ấp Kiến Hòa
+vi;Khánh Lơi;Ấp Khánh Lơi
+vi;Khánh Hòa;Ấp Khánh Hòa
+vi;Khánh Bình;Ấp Khánh Bình
+vi;Hòa Phú 2;Hòa Phú Hai
+vi;Hòa Long 2;Hòa Long Hai
+vi;Hòa Hưng;Ấp Hòa Hưng
+vi;Hiệp Hòa;Ấp Hiệp Hòa
+vi;Ấp 2A;Ấp Hai A
+vi;Giửa;Ấp Giửa
+vi;Đông Sơn 1;Đông Sơn Một
+vi;Đông Phú 1;Đông Phú Một
+vi;Đông Hưng;Đông Hưng Ba
+vi;Đông Hưng 3;Đông Hưng Ba
+vi;Đông Hòa;Ấp Đông Hòa
+vi;Chông Nô 3;Chông Nô Ba
+vi;Chòm Ca;Ấp Chòm Ca
+vi;Châu Thới;Ấp Châu Thới
+vi;Cà Lanh Tamung;Ấp Cà Lanh Tamung
+vi;Ấp 4;Ấp Bốn
+vi;Bình Trung;Ấp Bình Trung
+vi;Bình Thủy 2;Bình Thủy Hai
+vi;Bình Thạnh 2;Bình Thạnh Hai
+vi;Ấp Bình Phước;Bình Phước
+vi;Bình Lý;Ấp Bình Lý
+vi;Bình Hưng;Ấp Bình Hưng
+vi;Bình An;Ấp Bình An
+vi;Bình An Hai;Xã Bình An
+vi;Bình An 2;Xã Bình An
+vi;Ấp 3B;Ấp Ba B
+vi;Ấp 3;Ấp Ba
+vi;An Nông;Ấp An Nông
+vi;An Hòa A;An Hòa
+vi;An Trang 2;An Trang Hai
+vi;An Thượng 5;An Thượng Năm
+vi;An Thượng 1;An Thượng Một
+ru;Ан Нхон;An Nhơn
+vi;Bình Phước 3;Bình Phước Ba
+vi;Phú Mỹ;Quận Bảy
+vi;Quận 7;Quận Bảy
+vi;Đầu Giồng 1;Đầu Giồng Một
+vi;Ba Đình;Ba Dinh
+ru;Ба Динх;Ba Dinh
+ru;Муи-Не;Mui Ne
+ru;Муйне;Mui Ne
+vi;Uyên Hưng;Tân Uyên
+vi;Khuôn En;Khuôn Én
+vi;Khu 2;Khu Hai
+vi;Khu 3;Khu Ba
+vi;Khu 5;Khu Năm
+vi;Dông Xuân;Đông Xuân
+en;Phuc Lai Commune;Xã Phúc Lai
+vi;Thôn Hạ;Làng Hạ
+vi;Làng Khau;Khau Làng
+vi;Xóm Cầu 1;Xóm Cầu Một
+vi;Đồng Luộc 2;Đồng Luộc Hai
+vi;Nà Đỏng;Nà Đấng
+vi;Xóm Cầu 2;Xóm Cầu Hai
+vi;Xóm Long;Xóm Làng
+vi;Huyện Yên Lập;Yên Lập
+vi;Huyện Thanh Hòa;Thanh Ba
+vi;Huyện Sông Thao;Sông Thao
+vi;Huyện Phong Châu;Phong Châu
+vi;Kim Đê;Kim Đề
+vi;Đa Ca;Đa Cai
+vi;Thọ Ninh;Thọ Linh
+vi;Làng Lếch;Xóm Lếch
+vi;Đông Vàng;Dòng Vàng
+vi;Nà Con;Nà Cọn
+vi;Na Tao;Dãm Tao
+vi;Khuối Bốc;Bản Khuối Bốc
+vi;Na Lung;Nà Lung
+vi;Làng Ngầu;Làng Ngẫu
+vi;Bán Tâm;Bản Tàm
+vi;Bán Xắm;Bản Sãm
+vi;Pia Chang;Phia Trang
+vi;Bán Khán;Bản Khản
+vi;Minh Phu;Minh Phú
+vi;Tân Yên;Thị Trấn Tân Yên
+vi;Sẻo Lủng;Seo Lủng Một
+vi;Seo Lủng 1;Seo Lủng Một
+vi;Sảng Pả;Sáng Pá
+vi;Lũng Buông;Lung Buông
+vi;Nâm Ria;Nậm Rịa
+vi;Lùng Thóa;Lũng Thóa
+vi;Bó Pèng;Pó Pèng
+vi;Khau Cùa;Khau Cua
+vi;Tũng Ngào;Bản Tổng Ngão
+vi;Bản Luồng;Xóm Luồng
+vi;Phia Mạnh;Bản Phia Mạnh
+vi;Phia Piền;Bản Phia Pèn
+vi;Bản Khún;Xóm Khủn
+vi;Tân Linh;Bản Tan Lình
+vi;Nà Rỏ;Bản Nà Rồ
+vi;Phiêng Hản;Bản Phiêng Hang
+vi;Bản Bủng;Bản Bản Bung
+vi;Khau Noong;Bản Khau Nông
+vi;Khau Vạo;Khâu Vạc
+vi;Giáp Yên;Bản Giáp Yên
+vi;Bản Duốc;Bản Đuốc
+vi;Phiêng Kiền;Bản Phiêng Kiền
+vi;Khau Ẳn;Bản Khau Ản
+vi;Thiền Páo;Thiền Pháo
+vi;Lũng Dâm;Bản Lũng Dầm
+vi;Thôm Luông;Thậm Luông
+vi;Pìn Tỷ;Bản Pỉn Tỷ
+vi;Lùng Quốc;Lũng Quốc
+vi;Nà Hôm;Bản Nà Hâm
+vi;Na Hôm;Bản Nà Hâm
+vi;Tống Gưỡng;Bản Tổng Dùn
+vi;Tồng Chảo;Bản Tống Chảo
+vi;Lũng Ngòa;Bản Lũng Ngào
+vi;Lũng Ngào;Bản Lũng Ngào
+vi;Nà Bó;Bản Nà Bó
+vi;Nà Viền;Bản Nà Viền
+vi;Nà Pia;Bản Nà Phia
+vi;Bản Tả Lùng;Tả Lùng
+vi;Cáp Nhùng;Bản Cúp Nhùng
+vi;Khâu Thiêc;Khau Thuê
+vi;Bản Khau Thiết;Khau Thuê
+vi;Cốc Phát;Bản Cốc Phát
+vi;Nà Nèn;Bản Nà Nèn
+vi;Lũng Càng;Lùng Càng
+vi;Giang Chi;Bản Giang Chí
+vi;Bản Nà Tham;Nà Tham
+vi;Bản Đung;Bản Đúng
+vi;Bản Lá;Bản Lã
+vi;Khuổi Phìn;Bản Khuổi Phin
+vi;Khuổi Trang;Bản Khuổi Chang
+vi;Nà Đứa;Bản Nà Đứa
+vi;Nà Thìn;Nà Thin
+vi;Bản Nấng;Bản Lấng
+vi;Khau Hu;Bản Khau Hú
+vi;Nà Nghiên;Thác Nghiền
+vi;Nà Vãng;Bản Nà Vàng
+vi;Nà Ráo;Bản Nà Háo
+vi;Bản Lịch;Nà Lịch
+vi;Nà Dim;Bản Nà Rim
+vi;Tổng Phươn;Bản Tống Phươn
+vi;Tổng Phươm;Bản Tống Phươn
+vi;Đon Rài;Bản Đon Sài
+vi;Nặm Ron;Bản Nậm Ròm
+vi;Nà Pù;Bản Nà Pù
+vi;Nà Sau;Bản Nà Sảu
+vi;Kuổi Piác;Bản Khuổi Phat
+vi;Páo Kén;Bản Pác Kén
+vi;Nà Tồng;Bản Na Tồng
+vi;Pác Roa;Bản Pắc Rà
+vi;Piêng Đăm;Bản Phiêng Đăn
+vi;Nà Mi;Bản Nà Mỹ
+vi;Piêng Lùng;Bản Phiêng Lùng
+vi;Khuổi Cắm;Bản Khuổi Cắm
+vi;Nà Rinn;Bản Nà Rình
+vi;Păc Miều;Pác Miầu
+vi;Bảo Lâm;Pác Miầu
+vi;Nà Đồng;Bản Nà Đấng
+vi;Khuổi Qua;Bản Khuổi Dua
+vi;Nà Kê;Nà Đẻ
+vi;Cam Panh;Bản Cam Banh
+vi;Khuổi Hẩu;Bản Khuổi Hẩu
+vi;Piêng Mường;Bản Phiêng Mường
+vi;Nà Kéo;Bản Nà Kéo
+vi;Bản Tùm;Bản Tùng
+vi;Bản Túm;Bản Tùng
+vi;Nà Nhùng;Bản Nà Nhùng
+vi;Tiến Minh;Bản Tiên Minh
+vi;Nặm Cằm;Bản Nậm Cằm
+vi;Nà Nưa;Nìn Nưa
+vi;Bản Nà Lừa;Nìn Nưa
+vi;Ngàm Bá;Nặm Bá
+vi;Nà Nọi;Bản Nà Nọi
+vi;Bản Kuân;Bản Cuốn
+vi;Lung Khiêng;Bản Lung Khieng
+vi;Vân Trục;Vân Trực
+vi;Bản Na Trà;Na Trà
+vi;Thôn 4;Thôn Bốn
+vi;Thôn 5;Thôn Năm
+vi;Khu 4;Khu Bốn
+vi;Khu 1;Khu Một
+vi;Thôn 3;Thôn Ba
+vi;Ấp 7;Ấp Bảy
+vi;Mỹ Hưng 2;Mỹ Hưng Hai
+vi;An Thạnh 1;An Thạnh Một
+vi;An Thạnh 3;An Thạnh Ba
+vi;Hòa Thạnh 2;Hòa Thạnh Hai
+vi;Hòa Thạnh 1;Hòa Thạnh Một
+vi;Ấp 10;Ấp Mười
+vi;Ấp 9;Ấp Chín
+vi;Ấp 6;Ấp Sáu
+vi;Mỹ Trung 1;Mỹ Trung Một
+vi;Mỹ Phú 2;Mỹ Phú Hai
+vi;Mỹ Phú 1;Mỹ Phú Một
+vi;Mỹ Phú 5;Mỹ Phú Năm
+vi;Mỹ Phú 3;Mỹ Phú Ba
+vi;Ấp Mới 2;Ấp Mới Hai
+vi;Ấp 13;Ấp Mười Ba
+vi;Nhị Tân 2;Nhị Tân Hai
+vi;Thống Nhất 2;Thống Nhất Hai
+vi;Thống Nhất 1;Thống Nhất Một
+vi;Dân Thắng 1;Dân Thắng Một
+vi;Dân Thắng 2;Dân Thắng Hai
+vi;Mỹ Hòa 1;Mỹ Hòa Một
+vi;Mỹ Hòa 2;Mỹ Hòa Hai
+vi;Khu Phố 2;Khu Phố Hai
+vi;Khu Phố 8;Khu Phố Tám
+vi;Khu Phố 3;Khu Phố Ba
+vi;Khu Phố 4;Khu Phố Bốn
+vi;Khu Phố 7;Khu Phố Bảy
+vi;Ấp 11;Ấp Mười Một
+vi;Ấp 4A;Ấp Bốn A
+vi;Khóm 12;Khóm Mười Hai
+vi;Khóm 13;Khóm Mười Ba
+vi;Khóm 7;Khóm Bảy
+vi;Khóm 8;Khóm Tám
+vi;Khu Phố 9;Khu Phố Chín
+vi;Khu Phố 6;Khu Phố Sáu
+vi;Khu Phố 4;Khu Phố Ba
+vi;Khu Phố 1;Khu Phố Một
+vi;Khu Phố 5;Khu Phố Năm
+vi;Cây Bàng 2;Cây Bàng Hai
+vi;Cây Bàng 1;Cây Bàng Một
+vi;Bình Phước Khu 4;Bình Phước Khu Bốn
+vi;Bình Chánh 2;Bình Chánh Hai
+vi;Ấp H2;Ấp H Hai
+vi;Tây Bình B;Tây Bình
+vi;Trung Phú 3;Trung Phú Ba
+vi;Trung Phú 2;Trung Phú Hai
+vi;Tây Huề 2;Tây Huề Hai
+vi;Tây Huề 1;Tây Huề Một
+vi;Tây Bình A;Tây Bình
+vi;Bình Khánh 4;Bình Khánh Bốn
+vi;Bình Đức 2;Bình Đức Hai
+vi;Hòa Long 1;Hòa Long Một
+vi;Hòa Long 3;Hòa Long Ba
+vi;Đông Sơn 2;Đông Sơn Hai
+vi;Phú Hạ 2;Phú Hạ Hai
+vi;Ấp F2;Ấp F Hai
+vi;Ấp G 2B;Ấp G Hai B
+vi;Ấp G 2A;Ấp G Hai A
+vi;Hòa Phú 1;Hòa Phú Một
+vi;Hòa Phú 3;Hòa Phú Ba
+vi;Bình Đức 5;Bình Đức Năm
+vi;Bình Đức 4;Bình Đức Bốn
+vi;Bình Đức 6;Bình Đức Sáu
+vi;Bình Đức 3;Bình Đức Ba
+vi;Bình Đức 1;Bình Đức Một
+vi;Khóm 4;Khóm Bốn
+vi;Bình Long 3;Bình Long Ba
+vi;Bình Long 2;Bình Long Hai
+vi;Long Mỹ 1;Long Mỹ Một
+vi;Long Hòa 1;Long Hòa Một
+vi;Long Thạnh 2;Long Thạnh Hai
+vi;Long Thạnh 1;Long Thạnh Một
+vi;Bình Thạnh 1;Bình Thạnh Một
+vi;Thới Bình;Thới Bình B
+vi;Phú Thành 1;Phú Thành Một
+vi;Tân Thông 5;Tân Thông Năm
+vi;Thanh Xuân 1;Thanh Xuân Một
+vi;Tân Lược 1;Tân Lược Một
+vi;An Lạc A;An Lạc
+vi;Bình Trị 2;Bình Trị Hai
+vi;Tân Bình 2B;Tân Bình Hai B
+vi;Bình Khương 1;Bình Khương Một
+vi;Phú Thành 2;Phú Thành Hai
+vi;Ấp Kênh 2A;Ấp Kênh Hai A
+vi;Thanh Xuân 3;Thanh Xuân Ba
+vi;Tân Lược 2;Tân Lược Hai
+vi;Ấp 7B;Ấp Bảy B
+vi;Ấp 6B;Ấp Sáu B
+vi;Tân Bình 2;Tân Bình Hai
+vi;Bình Trị 1;Bình Trị Một
+vi;Phú Xuân 2;Phú Xuân Hai
+vi;Tân Bình 1;Tân Bình Một
+vi;Thôn Cuông;Thôn Công
+vi;Nà Trọc;Bản Nà Trọc
+vi;Nà Phiêng;Bản Nà Phiêng
+vi;Nà Khâu;Bản Nà Khâu
+vi;Bản Phiêng Ten;Phiêng Ten
+vi;Bản Nà Ngoáng;Nà Ngoẵng
+vi;Bản Đống Đa 1;Bản Đống Đa Một
+vi;Phù Cầm;Phụ Cầm
+vi;Hữu Chất;Hữu Chấp
+vi;Đẩu Hàn;Đậu Hàn
+vi;Xóm 6;Xóm Sáu
+vi;Xuân Ổ;Xuân Ổ A
+vi;Ngự Đại;Ngư Đại
+vi;Xóm Thủy;Xuân Thủy
+vi;Yên Định;Yên Đình
+vi;Tri Nhi;Chi Nhị
+vi;Công Hà Đông;Công Hà
+vi;Văn Quang;Văn Quan
+vi;Á Lữ;Á Lũ
+vi;Quán Chanh;Quán Tranh
+vi;Thôn Thủ;Thôn Phú
+vi;Ngọ Xà;Ngo Xá
+vi;Tuyên Bá;Tiên Bá
+vi;Phú Văn Trên;Phú Trên
+vi;Ấp 3A;Ấp Ba A
+vi;Ấp 14;Ấp Mười Bốn
+vi;Ấp 17;Ấp Mười Bảy
+vi;Phú Lợi 1;Phú Lợi Một
+vi;Mỹ Hòa;Mỹ Hòa Hai
+vi;Long Bình;An Long
+vi;Nà Lẹng;Nà Leng
+vi;Nà Cà;Na Ca
+vi;Thôn 7;Thôn Bảy
+vi;Đội 4;Đội Bốn
+ceb;Mũi Hồ Tràm;Hồ Tràm
+zh;陳永祿街;Hồ Tràm
+vi;Đội 5;Đội năm
+vi;Đội 3;Đội Ba
+vi;Đội 2;Đội Hai
+vi;Đội 1;Đội Một
+vi;Đội 6;Đội Sáu
+vi;Thôn 9;Thôn Chín
+vi;Thôn 6;Thôn Sau
+vi;Thị Trấn Mường Chà;Mường Chà
+vi;Nậm Tin 3;Nậm Tin Ba
+vi;Bản Hin 2;Bản Hin Hai
+vi;Xa Lông;Sa Lông
+vi;Lù Thàng 1;Lù Thàng Một
+vi;Huổi Mi 2;Huổi Mi Hai
+vi;Nậm Cang 2;Nậm Cang Hai
+vi;Háng Tây;Háng Lay
+vi;Gia Phú 2;Gia Phú Hai
+vi;Phien Loung;Piềng Pèn
+vi;Ap Mười Ba;Ap 13
+vi;Ap Một Trăm Không Bảy;Ap 107
+vi;Ap Phu Thuan;Phú Thuận
+vi;Xom Ben Ba;Bến Bạ
+ja;ライチャウ;Lai Châu
+en;Lai Chau;Lai Châu
+ru;Лай Чау;Lai Châu
+ar;لاي تشاو;Lai Châu
+kk;Лай Чау;Lai Châu
+tr;Lai Chau;Lai Châu
+uz;Lai Chau;Lai Châu
+ky;Лай Чау;Lai Châu
+id;Lai Chau;Lai Châu
+ms;Lai Chau;Lai Châu
+es;Lai Chau;Lai Châu
+fr;Lai Chau;Lai Châu
+hi;लाई चाउ;Lai Châu
+bn;লাই চাউ;Lai Châu
+ur;لائی چاؤ;Lai Châu
+de;Lai Chau;Lai Châu
+fa;لای چاو;Lai Châu
+jv;Lai Chau;Lai Châu
+pa;ਲਾਈ ਚਾਊ;Lai Châu
+ps;لاي تشاو;Lai Châu
+pt;Lai Chau;Lai Châu
+tg;Лай Чау;Lai Châu
+vi;Bản Hua Cha;Bản Hô Cha
+vi;Pắc Pu;Bản Pắc Pu
+vi;Huổi Luông 1;Huổi Luông Một
+vi;Nậm Tiến 2;Nậm Tiến Hai
+vi;Nà Kè 2;Nà Kè Hai
+vi;Nậm No 2;Nậm No Hai
+vi;Tả Phìn 3;Tả Phìn Ba
+vi;Nà Ui;Bản Na Ui
+vi;Nà Tăm 3;Nà Tăm Ba
+vi;Tả Tử 2;Tả Tử Hai
+vi;Nậm Che 1;Nậm Che Một
+vi;Suối Thầu 2;Suối Thầu Hai
+vi;Lủ Khấu;Lử Khẩu
+vi;Pả Chư Tỷ;Bản Pả Chư Tỉ
+vi;Chúi Cái;Chìu Cái
+vi;Ma Ngan San;Bản Ma Ngán Sán
+vi;Phú Mậu;Phú Mân
+vi;Cổng Trời 1;Cổng Trời Một
+vi;Đội 5;Đội Năm
+vi;Đức Xuân 2;Đức Xuân Hai
+vi;Thôn Hạ 2;Thôn Hạ Hai
+vi;Bản Noang;Bản Loong
+vi;Nà Đèn;Bản Nà Đèn
+vi;Tổng Ngoàng;Bản Tống Ngoàng
+vi;Thị Trấn Chi Lăng;Chi Lăng
+vi;Suối Ngang 2;Suối Ngang Hai
+vi;Nà Bó;Na Bó
+vi;Văn Chấn;Sơn Thịnh
+vi;Chế Tạo;Bản Chế Tạo
+vi;Nậm Khắt;Bản Nậm Khắt
+vi;Nà Hấu;Nà Hẩu
+vi;Xóm 2;Xóm Hai
+vi;Đội 9;Đội Chín
+en;Koh Trol;Phu Quoc
+vi;Phú Quốc;Phu Quoc
+km;កោះត្រល់;Phu Quoc
+zh;富國島;Phu Quoc
+ru;Фукуок;Phu Quoc
+ja;フーコック島;Phu Quoc
+ko;푸꼭;Phu Quoc
+vi;Na Hang;Thị Trấn Na Hang
+vi;Làng Giầu;Xóm Giàu
+vi;Cái Vồn;Bình Minh
+vi;Tân Hoà 1;Tân Hoà Một
+vi;Ap Nha Tho;Nhà Thờ
+vi;Làng Tan 1;Làng Tan Một
+vi;Thị Trấn Bát Xát;Bát Xát
+vi;Làng Vắng;Làng Vẳng
+vi;Ich Ta Bót;Bản Ích Ta Bót
+vi;Bản Sa;Bản Xa
+vi;Kéo Pia;Bản Kéo Pịa
+vi;Bắc Uôn;Bản Bắc Uôn
+vi;Bản Muôn;Bản Muộn
+vi;Pa Kha 1;Pa Kha Một
+vi;Nà Ớt;Bản Nà Ớt
+vi;Thị Trấn Hát Lót;Hát Lót
+vi;Bản Mờn;Bản Mòn
+vi;Bản Phá;Bản Phát
+vi;Suối Dun;Bản Suối Dinh
+vi;Suối Cáu;Bản Suối Cáy
+vi;Suối Bương;Bản Suối Bương
+vi;Bản Do;Bản Gio
+vi;Bản Suối Lúa;Suối Lúa
+vi;Nà Mường;Bản Nà Mường
+vi;Khùa Vai;Bản Khau Vai
+vi;Huổi Nủ Trong;Bản Huổi Nủ
+vi;Nà Mùn;Bản Nà Mùn
+vi;Cà Nàng;Bản Cà Nàng
+vi;Nộc Cối Hai;Bản Nộc Cốc Hai
+vi;Nộc Cối 2;Bản Nộc Cốc Hai
+vi;Bản Nộc Cốc 2;Bản Nộc Cốc Hai
+vi;Pá Nó;Bản Pá Nó
+vi;Nậm Tía;Bản Tỉa
+vi;Hin Chá;Bản Hin Chá
+vi;Làng Ly;Làng Lỵ
+vi;Làng Quán;Làng Quạn
+lo;Ban Ngam;Bản Bôn
+vi;Tương Sơn 2;Tương Sơn Hai
+vi;Xóm 1;Xóm Một
+vi;Xóm 7;Xóm Bảy
+vi;Lâm;Hanoi
+vi;Xóm 9;Xóm Chín
+vi;Xóm 29;Xóm Hai Mươi Chín
+vi;Thanh Liêm;Thanh Lưu
+vi;Bà Rịa;Thành Phố Bà Rịa
+en;Thanh Pho Ba Ria;Thành Phố Bà Rịa
+ru;Тхань Фо Ба Риа;Thành Phố Bà Rịa
+ar;ثان فو با ريا;Thành Phố Bà Rịa
+kk;Тхань Фо Ба Риа;Thành Phố Bà Rịa
+tr;Thanh Pho Ba Ria;Thành Phố Bà Rịa
+uz;Thanh Pho Ba Ria;Thành Phố Bà Rịa
+ky;Тхань Фо Ба Риа;Thành Phố Bà Rịa
+id;Thanh Pho Ba Ria;Thành Phố Bà Rịa
+ms;Thanh Pho Ba Ria;Thành Phố Bà Rịa
+es;Thanh Pho Ba Ria;Thành Phố Bà Rịa
+fr;Thanh Pho Ba Ria;Thành Phố Bà Rịa
+hi;थान्ह फो बा रिया;Thành Phố Bà Rịa
+bn;থান্হ ফো বা রিয়া;Thành Phố Bà Rịa
+ur;تھانہ فو با ریا;Thành Phố Bà Rịa
+de;Thanh Pho Ba Ria;Thành Phố Bà Rịa
+fa;تهانه فو با ریا;Thành Phố Bà Rịa
+ja;タインフォバリア;Thành Phố Bà Rịa
+jv;Thanh Pho Ba Ria;Thành Phố Bà Rịa
+pa;ਥਾਨ ਫੋ ਬਾ ਰੀਆ;Thành Phố Bà Rịa
+ps;ثان فو با ريا;Thành Phố Bà Rịa
+pt;Thanh Pho Ba Ria;Thành Phố Bà Rịa
+tg;Тхань Фо Ба Риа;Thành Phố Bà Rịa
+vi;Thị Trấn Mường Ảng;Mường Ảng
+vi;Thôn 6;Thôn Sáu
+vi;Xóm 5;Xóm Năm
+vi;Xóm 11;Xóm Mười Một
+vi;Điểm 3;Điểm Ba
+vi;Giao 1;Giao Một
+vi;Xóm 10;Xóm Mười
+de;Cau Giay;Cầu Giấy
+ru;Кау Гиай;Cầu Giấy
+ru;Танх Ксуан;Thanh Xuân
+ru;Донгда;Đống Đa
+ru;Хоан Кием;Hoàn Kiếm
+vi;Hai BàTrưng;Hai Bà Trưng
+ru;Хаи Ба Трунг;Hai Bà Trưng
+vi;Đỉnh Sơn 2;Đỉnh Sơn Hai
+vi;Phu Quắc 2;Phu Quắc Hai
+vi;Nhàn Pá;Nhạn Pá
+vi;Chà Coong;Bản Chà Coong
+vi;Na Hỷ;Bản Na Hỷ
+vi;Xói Voi;Bản Sói Voi
+vi;Huổi Muông;Huôi Muồng
+vi;Piêng Pung;Piềng Pùng
+vi;Pà Khóm;Bản Khả Khốm
+vi;Na Niêng;Na Niếng
+vi;Châu Bình 2;Châu Bình Hai
+vi;Bản Táng;Bản Tắng
+vi;Bản Vi;Bản Vị
+vi;Môn Sơn;Nam Sơn
+vi;Xóm 4;Xóm Bốn
+vi;Xóm 8;Xóm Tám
+vi;Xóm 13;Xóm Mười Ba
+vi;Hương F 8;Hương F Tám
+vi;Xóm 3;Xóm Ba
+vi;Xóm Mười Chín;Xóm Cống Mười Chín
+vi;Xóm 19;Xóm Cống Mười Chín
+vi;Xóm Cống 19;Xóm Cống Mười Chín
+vi;Ninh Hòa;Minh Hòa
+vi;Hà Vàng;Hà Vang
+vi;Xóm 12;Xóm Mười Hai
+ja;ゲン;Nghèn
+vi;Bản 61;Bản Sáu Mươi Mốt
+vi;Cây Bông 1;Cây Bông Một
+vi;Ka Pay 2;Ka Pay Hai
+vi;A Roàng 2;A Roàng Hai
+vi;A Roàng;A Roàng Hai
+ru;Танх Хе;Thanh Khê
+vi;Bình Thuận;Hòa Cường
+ru;Хоа Куонг;Hòa Cường
+vi;Thôn 56 B;Thôn Năm Mươi Sáu B
+vi;Thôn 49 B;Thôn Bốn Mươi Chín B
+vi;Làng Vờ 2;Làng Vờ Hai
+vi;Làng Vờ 1;Làng Vờ Một
+vi;Giang Lô 2;Giang Lô Hai
+vi;Tập Đoàn 1;Tập Đoàn Một
+vi;Thôn 11;Thôn Mười Một
+vi;Thôn 10;Thôn Mười
+vi;Thôn 8;Thôn Tám
+vi;Tập Đoàn 8;Tập Đoàn Tám
+vi;Kon Tum 1;Kon Tum Một
+vi;Ngọk Năng 1;Ngọk Năng Một
+vi;Đắk Văn 2;Đắk Văn Hai
+vi;Đắk Chum 2;Đắk Chum Hai
+vi;Đắk Rê 2;Đắk Rê Hai
+vi;Năng Lớn 3;Năng Lớn Ba
+vi;Đắk Kin 2;Đắk Kin Hai
+vi;Đak Đoa;Đăk Đoa
+ja;アユンパ;A Yun Pa
+vi;Làng 7;Làng Bảy
+vi;Ba Pah;Bà Bá
+vi;Plei KDranh;Plei K’ Oranh
+vi;Plei Ring 1;Plei Ring Một
+vi;Plei Hyơk 1;Plei Hyơk Một
+vi;Đội 8;Đội Tám
+vi;Tổ 3;Tổ Ba
+vi;Tổ 1;Tổ Một
+vi;Tổ 8;Tổ Tám
+vi;Tổ 4;Tổ Bốn
+vi;Tổ 2;Tổ Hai
+vi;Làng 02;Làng Không Hai
+vi;Làng 03;Làng Không Ba
+vi;Làng K2;Làng K Hai
+vi;Làng 05;Làng Không Năm
+vi;Làng 06;Làng Không Sáu
+vi;Bản K8;Bản K Tám
+vi;Làng K74;Làng K Bảy Mươi Tư
+vi;Làng L5;Làng K Năm
+vi;Làng M3;Làng M Ba
+vi;Canh Vinh 2;Canh Vinh Hai
+vi;Canh Vinh 1;Canh Vinh Một
+vi;Canh Vinh 3;Canh Vinh Ba
+vi;Khu Vực 8;Khu Vực Tám
+vi;Khu Vực 2;Khu Vực Hai
+vi;Làng 10;Làng Mười
+vi;Làng 01;Làng Không Một
+vi;Buôn Quen;Buôn Quyên
+vi;Kinh Tế 2;Kinh Tế Hai
+vi;Đồn 2;Đồn Hai
+vi;A Yang;Buôn A Yang
+vi;Đội 12;Đội Mười Hai
+vi;Tập Đoàn 4A;Tập Đoàn Bốn A
+vi;Tập Đoàn 1A;Tập Đoàn Một A
+vi;Tuy Phong 5;Tuy Phong Năm
+vi;Gia Rú;Gia Ru
+vi;Km 38;Km Ba Mươi Tám
+vi;Pegour;Buôn Pé Gour
+ru;Динь Ван;Đinh Văn
+vi;Long Lanh;Bản Long Lanh
+vi;Đạ Chay;Bản Đa Chay
+vi;Rơ Sai;Buôn Rơ Sai
+vi;Liêng Hung;Thôn Hai
+vi;Rchai 1;Rchai Một
+vi;Tập Đoàn 3;Tập Đoàn Ba
+vi;Thôn 12;Thôn Mười Hai
+vi;Thôn 5A;Thôn Năm A
+vi;Thôn 5B;Thôn Năm B
+vi;Bậc Ray 1;Bậc Ray Một
+vi;Trà Co 1;Trà Co Một
+vi;Kiền Kiền 2;Kiền Kiền Hai
+vi;Nhị Hà 1;Nhị Hà Một
+vi;Nhị Hà 3;Nhị Hà Ba
+vi;Quán Thẻ 2;Quán Thẻ Hai
+vi;Quán Thẻ 1;Quán Thẻ Một
+vi;Phú Xuân 1;Phú Xuân Một
+vi;Bản 2;Bản Hai
+vi;Bản 1;Bản Một
+ru;Лонг Ханх;Long Khánh
+vi;Ấp 8;Ấp Tám
+vi;Ấp 1A;Ấp Một A
+vi;Ấp 12;Ấp Mười Hai
+vi;Đức Thắng 2;Đức Thắng Hai
+vi;Phân Tường 8;Phân Tường Tám
+vi;Phân Tường 3;Phân Tường Ba
+vi;Phân Tường 2;Phân Tường Hai
+vi;Phân Tường 4;Phân Tường Bốn
+vi;Phân Tường 5;Phân Tường Năm
+vi;Ấp 67;Ấp Sáu Mươi Bảy
+vi;Khu Vực 1;Khu Vực Một
+vi;Khu 18;Khu Mười Tám
+vi;Đồi 2;Đồi Hai
+vi;Đồi 1;Đồi Một
+vi;Khu 8;Khu Tám
+vi;Khu 6;Khu Sáu
+vi;Khu 9;Khu Chín
+vi;Khu 12;Khu Mười Hai
+vi;Khu 14;Khu Mười Bốn
+vi;Long Khánh 2;Long Khánh Hai
+vi;Sơn Hà 1;Sơn Hà Một
+vi;Ấp 8C;Ấp Tám C
+vi;Tập Đoàn 2;Tập Đoàn Hai
+vi;Ấp 16;Ấp Mười Sáu
+vi;Thuận Phú 2;Thuận Phú Hai
+vi;Phú Mang 2;Phú Mang Hai
+vi;Bình Hà 1;Bình Hà Một
+vi;Sóc Căn 2;Sóc Căn Hai
+ru;Хоа Танх;Hòa Thành
+vi;Phước Bình 1;Phước Bình Một
+vi;Ấp 2B;Ấp Hai B
+vi;Ấp 11B;Ấp Mười Một B
+vi;Bàu 2;Bàu Hai
+vi;Cây Trường 2;Cây Trường Hai
+vi;Tân Thịnh 1;Tân Thịnh Một
+vi;Ấp 1B;Ấp Một B
+vi;Ấp 4B;Ấp Bốn B
+vi;Ấp 1 Bình Tứ;Ấp Một Bình Tứ
+vi;Ấp Mới 1;Ấp Mới Một
+vi;Ấp 15;Ấp Mười Lăm
+vi;Ấp 5B;Ấp Năm B
+vi;Ấp 5A;Ấp Năm A
+vi;Kênh 4;Kênh Bốn
+vi;K 10;K Mười
+vi;Khóm 2;Khóm Hai
+vi;Ấp Hạ 2;Ấp Hạ Hai
+vi;Khu Vực 4;Khu Vực Bốn
+vi;Ấp K8;Ấp K Tám
+vi;An Thạnh;An Khánh
+vi;An Lạc 2;An Lạc Hai
+vi;Phú An 1;Phú An Một
+vi;Ngã Tư 1;Ngã Tư Một
+vi;Phú Thọ 2;Phú Thọ Hai
+vi;Rạch Rô 2;Rạch Rô Hai
+vi;Thông 1;Thông Một
+vi;Ap Thanh Loi;Thạnh Lợi A
+vi;Vĩnh Hưng 1;Vĩnh Hưng Một
+vi;Tân Thông 1;Tân Thông Một
+vi;Đồng Trị 6;Đồng Trị Sáu
+vi;An Khánh 2;An Khánh Hai
+vi;Khu 7;Khu Bảy
+vi;Thới Bình A2;Thới Bình A Hai
+vi;Trường Phú 1;Trường Phú Một
+vi;Trường Ninh 2;Trường Ninh Hai
+vi;Ấp B1B;Ấp B Một B
+vi;Ấp B1A;Ấp B Một A
+vi;Ấp D1;Ấp D Một
+vi;Ấp D2;Ấp D Hai
+vi;Ấp E2;Ấp E Hai
+vi;Ấp E1;Ấp E Một
+vi;Ấp F1;Ấp F Một
+vi;Ấp H1;Ấp H Một
+vi;Quy Lân 2;Quy Lân Hai
+vi;Quy Lân 5;Quy Lân Năm
+vi;Quy Lân 4;Quy Lân Bốn
+vi;Quy Lân 6;Quy Lân Sáu
+vi;Thạnh Quới 1;Thạnh Quới Một
+vi;Lân Quới 2;Lân Quới Hai
+vi;Lân Quới 1;Lân Quới Một
+vi;Thạnh Lợi 2;Thạnh Lợi Hai
+vi;Thạnh Hưng 1;Thạnh Hưng Một
+vi;Thạnh Hưng 2;Thạnh Hưng Hai
+vi;Thạnh Phú 2;Thạnh Phú Hai
+vi;Bờ Bao 2;Bờ Bao Hai
+vi;Thới Bình 1;Thới Bình Một
+vi;Thới Hiệp 2;Thới Hiệp Hai
+vi;Thới Xương 1;Thới Xương Một
+vi;Tân Lợi 1;Tân Lợi Một
+vi;Thạnh Lộc 1;Thạnh Lộc Một
+vi;Thạnh Phước 2;Thạnh Phước Hai
+vi;Tân Lợi 3;Tân Lợi Ba
+vi;Tân Phước 1;Tân Phước Một
+vi;Thạnh Lộc 2;Thạnh Lộc Hai
+vi;Tràng Thọ 2;Tràng Thọ Hai
+vi;Phụng Thạnh 2;Phụng Thạnh Hai
+ru;Нга Бай;Ngã Bảy
+vi;Phú Trí B1;Phú Trí B Một
+vi;Ấp Chín 2A;Ấp Chín A Hai
+vi;Ấp Chín A;Ấp Chín A Một
+vi;Ấp 7A2;Ấp Bảy A Hai
+vi;Ấp 7B1;Ấp Bảy B Một
+vi;Vị Thanh 1;Ấp Một
+vi;Vị Thanh Một;Ấp Một
+vi;Mỹ Hiệp 2;Mỹ Hiệp Hai
+vi;Thạnh Qưới 1;Thạnh Qưới Một
+vi;Long Hưng 1;Long Hưng Một
+vi;Long Hưng 2;Long Hưng Hai
+vi;Tân Phú B2;Tân Phú B Hai
+vi;Tân Phú A2;Tân Phú A Hai
+vi;Tân Phú A1;Tân Phú A Một
+vi;Sơn Phú 2;Sơn Phú Hai
+vi;Ba Ngàn 1;Ba Ngàn Một
+vi;Long Trường 3;Long Trường Ba
+vi;Tầm Vu 1;Tầm Vu Một
+vi;Ấp 19;Ấp Mười Chín
+vi;Tà Diếp C1;Tà Diếp C Một
+vi;Tà Diếp C2;Tà Diếp C Hai
+vi;Đầy Hương 1;Đầy Hương Một
+vi;Kinh 17;Kinh Mười Bảy
+ru;Куан Бон;Quận Bốn
+ru;Куан Сау;Quận Sáu
+ru;Куан Нам;Quận Năm
+ru;Куан Муои Мот;Quận Mười Một
+ru;Куан Муои;Quận Mười
+ru;Куан Ба;Quận Ba
+vi;Ma Rin 1;Ma Rin Một
+vi;Ma Rin 2;Ma Rin Hai
+vi;Ma Lin 1;Ma Lin Một
+vi;Ma Lin 2;Ma Lin Hai
+vi;Plei Pa Ai Briu 2;Plei Pa Ai Briu Hai
+vi;Đội 19;Đội Mười Chín
+vi;Đội 773;Đội Bảy Trăm Bảy Mươi Ba
+vi;Đội 15;Đội Mười Lăm
+vi;Khóm Phố 9;Khóm Phố Chín
+vi;Khóm 11;Khóm Mười Một
+vi;An Thượng 3;An Thượng Ba
+vi;An Thượng 2;An Thượng Hai
+vi;Khóm 10;Khóm Mười
+vi;Khóm 5;Khóm Năm
+vi;Khóm 3;Khóm Ba
+vi;Khóm 6;Khóm Sáu
+vi;Chro Tơng 2;Chro Tơng Hai
+vi;Kinh Tế 14;Kinh Tế Mười Bốn
+vi;Làng Kla K2;Làng Kla K Hai
+vi;Làng Kla K1;Làng Kla K Một
+vi;Tổ 5;Tổ Năm
+vi;Khôm 1;Khôm Một
+vi;Tờ Nùng 1;Tờ Nùng Một
+vi;Tờ Nùng 2;Tờ Nùng Hai
+vi;Bản Sín Chải 2;Bản Sín Chải Hai
+vi;Bản Pờ Ngài Chổ 2;Bản Pờ Ngài Chổ Hai
+vi;Bản Pờ Ngài Chổ 1;Bản Pờ Ngài Chổ Một
+vi;Ngải Thầu 2;Ngải Thầu Hai
+vi;Phiêng An 1;Phiêng An Một
+vi;Phiêng An 2;Phiêng An Hai
+vi;Bản Đồn 2;Bản Đồn Hai
+vi;Bản Đồn 1;Bản Đồn Một
+ru;Гиа Лам;Gia Lâm
+vi;Phường Ngô Quyền;Ngô Quyền
+en;Ngo Quyen Ward;Ngô Quyền
+vi;An Ninh 2;An Ninh Hai
+vi;An Ninh 1;An Ninh Một
+vi;Củ 4;Củ Bốn
+vi;Củ 2;Củ Hai
+vi;Củ 3;Củ Ba
+vi;Củ 1;Củ Một
+vi;HTX 2;HTX Hai
+vi;HTX 4;HTX Bốn
+vi;Bản 1-6;Bản Một - Sáu
+vi;Bản Xum 3;Bản Xum Ba
+vi;Bản Xum 2;Bản Xum Hai
+vi;Hoa Sơn 1;Hoa Sơn Một
+vi;Hoa Sơn 2;Hoa Sơn Hai
+vi;Hải Sơn 1;Hải Sơn Một
+vi;Lâm Trường C2;Lâm Trường C Hai
+vi;Lâm Trường C4;Lâm Trường C Bốn
+vi;Bản Nong 1;Bản Nong Một
+vi;Bản Nóng 2;Bản Nóng Hai
+vi;Bản Nóng 1;Bản Nóng Một
+vi;Bản Kẽm 2;Bản Kẽm Hai
+vi;Phia Cò;Bản Phia Cò
+vi;An Thượng 4;An Thượng Bốn
+vi;Bản Nhọt 1;Bản Nhọt Một
+vi;Bản Nhọt 2;Bản Nhọt Hai
+vi;Bản Bó 2;Bản Bó Hai
+vi;Bản Bó 1;Bản Bó Một
+vi;Bản Tọ 1;Bản Tọ Một
+vi;Bản Tọ Hai;Bản Tọ 2
+vi;Bản Xà 1;Bản Xà Một
+vi;Bản Xà 2;Bản Xà Hai
+vi;Bản Cò Lìu 1;Bản Cò Lìu Một
+vi;Bản Cò Lìu 2;Bản Cò Lìu Hai
+vi;Bản Nà Lò 1;Bản Nà Lò Một
+vi;Bản Nà Lò 3;Bản Nà Lò Ba
+vi;Bản Nà Lò 2;Bản Nà Lò Hai
+vi;Bản Thịn 1;Bản Thịn Một
+vi;Bản Tân Lương 1;Bản Tân Lương Một
+vi;Bản Tân Lương 2;Bản Tân Lương Hai
+vi;Bản Dằn 2;Bản Dằn Hai
+vi;Bản Ốc 1;Bản Ốc Một
+vi;Bản Ốc 2;Bản Ốc Hai
+vi;Bản Thín 2;Bản Thín Hai
+vi;Bản Bông 1;Bản Bông Một
+vi;Bản Bông 2;Bản Bông Hai
+vi;Bản Nà Giàng 2;Bản Nà Giàng Hai
+vi;Bản Nà Giàng 1;Bản Nà Giàng Một
+vi;Bản Suối Giăng 2;Bản Suối Giăng Hai
+vi;Cao Ninh;Bản Khâu Nình
+vi;Chu Va 2;Chu Va Hai
+vi;Chu Va 1;Chu Va Một
+vi;Đội 7;Đội Bảy
+vi;Đội 25;Đội Hai Mươi Lăm
+vi;Bản K2;Bản K Hai
+vi;Bản Khau 2;Bản Khau Hỏm Hai
+vi;Bản Khau 1;Bản Khau Hỏm Một
+vi;Khe Chung 2;Khe Chung Hai
+vi;Khe Chung 3;Khe Chung Ba
+vi;Làng Than 2;Làng Than Hai
+vi;Giao Hội 1;Giao Hội Một
+vi;Giao Hội 2;Giao Hội Hai
+vi;Khối 1;Khối Một
+vi;Khối 2;Khối Hai
+vi;Khối 3;Khối Ba
+vi;Khối 4;Khối Bốn
+vi;Khối 5;Khối Năm
+vi;Bằng Lăng;Thôn Ba
+vi;Buôn M’Bac;Thôn Ba
+vi;Buôn K62;Buôn K Sáu Mươi Hai
+vi;Buôn Liêng 2;Buôn Liêng Hai
+vi;Buôn Tung 2;Buôn Tung Hai
+vi;Buôn Tung 1;Buôn Tung Một
+vi;Mê Linh 1;Mê Linh Một
+vi;Mê Linh 2;Mê Linh Hai
+vi;Đồng Tiến 1;Đồng Tiến Một
+vi;Đồng Tiến 2;Đồng Tiến Hai
+vi;Đồng Tiến 3;Đồng Tiến Ba
+vi;Đồng Tiến 4;Đồng Tiến Bốn
+vi;Đồng Tiến 5;Đồng Tiến Năm
+vi;Đông Giang 1;Đông Giang Một
+vi;Đông Giang 2;Đông Giang Hai
+vi;Liên Kết 2;Liên Kết Hai
+vi;Hòa Bình 2;Hòa Bình Hai
+vi;Hòa Bình 3;Hòa Bình Ba
+vi;Hòa Bình 1;Hòa Bình Một
+vi;Yang Lá 2;Yang Lá Hai
+vi;Yuk La 1;Yuk La Một
+vi;Yuk La 3;Yuk La Ba
+vi;Buôn Thăm 1;Buôn Thăm Một
+vi;Yên Thành 2;Yên Thành Hai
+vi;Yên Thành 1;Yên Thành Một
+vi;Buôn Diêu 2;Buôn Diêu Hai
+vi;Bản Giáo 2;Bản Giáo Hai
+vi;Buôn Liêng Krăk 2;Buôn Liêng Krăk Hai
+vi;Khối 9;Khối Chín
+vi;Đội Năm;Khối Chín
+vi;Đội 5;Khối Chín
+vi;Phả Pròng;Thôn Bảy
+vi;Khối 8;Khối Tám
+vi;Khối 6;Khối Sáu
+vi;Khối 10;Khối Mười
+vi;Khối 11;Khối Mười Một
+vi;Khối 12;Khối Mười Hai
+vi;Đội 26-3;Đội Hai Mươi Sáu - Ba
+vi;Đội 15-2;Đội Mười Lăm - Hai
+vi;Đội 19-8;Đội Mười Chín - Tám
+vi;Chu Kấp;Thôn Hai
+vi;Đội 17;Đội Mười Bảy
+vi;Đội 1-5;Đội Một - Năm
+vi;Nam Thắng 1;Nam Thắng Một
+vi;Nam Thắng 2;Nam Thắng Hai
+vi;Đội 16;Đội Mười Sáu
+vi;Đội 15-1;Đội Mười Lăm - Một
+vi;Khối 7;Khối Bảy
+vi;Thôn Mới;Khối Một
+vi;Tư Thành;Thôn Chín
+vi;Tư Thành;Thôn Mười
+vi;Kom Leo;Thôn Sáu
+vi;Buôn Ega;Thôn Sáu
+vi;Thôn 85;Thôn Tám Mươi Lăm
+vi;Thôn 86;Thôn Tám Mươi Sáu
+vi;Thôn 13;Thôn Mười Ba
+vi;Thôn 14;Thôn Mười Bốn
+vi;Thôn 16;Thôn Mười Sáu
+vi;Thôn 15;Thôn Mười Lăm
+vi;Thôn 18;Thôn Mười Tám
+vi;Thôn 19;Thôn Mười Chín
+vi;Thôn 26;Thôn Hai Mươi Sáu
+vi;Thôn 17;Thôn Mười Bảy
+vi;Tân Hòa 2;Tân Hòa Hai
+vi;Thôn 19-8;Thôn Mười Chín - Tám
+vi;Khu Vực 3;Khu Vực Ba
+vi;Thôn 10-3;Thôn Mười - Ba
+vi;Quảng Cư 1B;Quảng Cư Một B
+vi;Thôn 3A;Thôn Ba A
+vi;Thôn 6B;Thôn Sáu B
+vi;Thôn 6C;Thôn Sáu C
+vi;Thôn 4C;Thôn Bốn C
+vi;Thôn 7B;Thôn Bảy B
+vi;Thôn 7A;Thôn Bảy A
+vi;Thôn 11B;Thôn Mười Một B
+vi;Thôn 11A;Thôn Mười Một A
+vi;Thôn 9A;Thôn Chín A
+vi;Thôn 9B;Thôn Chín B
+vi;Thôn 1B;Thôn Một B
+vi;Thôn 1A;Thôn Một A
+vi;Thôn 2B;Thôn Hai B
+vi;Thôn 2A;Thôn Hai A
+vi;Thôn 3B;Thôn Ba B
+vi;Thôn 6A;Thôn Sáu A
+vi;Thôn 12A;Thôn Mười Hai A
+vi;Thôn 12B;Thôn Mười Hai B
+vi;Thôn 4A;Thôn Bốn A
+vi;Thôn 4B;Thôn Bốn B
+vi;Xóm 15;Xóm Mười Lăm
+vi;Xóm 14;Xóm Mười Bốn
+vi;Xóm 9B;Xóm Chín B
+vi;Bản Cáp Na 2;Bản Cáp Na Hai
+vi;Xóm 16;Xóm Mười Sáu
+vi;Đội 13;Đội Mười Ba
+vi;Bắc Sơn 2;Bắc Sơn Hai
+vi;Bắc Sơn 1;Bắc Sơn Một
+vi;Khối 70;Khối Bảy Mươi
+vi;Xóm 20;Xóm Hai Mươi
+vi;Xóm 19;Xóm Mười Chín
+vi;Xóm 18;Xóm Mười Tám
+vi;Xóm 17;Xóm Mười Bảy
+vi;Xóm 22;Xóm Hai Mươi Hai
+vi;K’ Nớ 2;K’ Nớ Hai
+vi;Đa Nhing 2;Đa Nhing Hai
+vi;Liêng Trang 2;Liêng Trang Hai
+vi;Xóm 3-4;Xóm Ba - Bốn
+vi;Xóm 1-2;Xóm Một - Hai
+vi;Đội 14;Đội Mười Bốn
+vi;Xóm 5-6;Xóm Năm - Sáu
+vi;Quá Cư 2;Quá Cư Hai
+vi;Xóm 2A;Xóm Hai A
+vi;Xóm 2B;Xóm Hai B
+vi;Đình Long 1;Đình Long Một
+vi;Đình Long 2;Đình Long Hai
+vi;Làng Nhé 3;Làng Nhé Ba
+vi;Suối Han 2;Suối Han Hai
+vi;Suối Han 1;Suối Han Một
+vi;Buôn Lùng 2;Buôn Lùng Hai
+vi;Ninh Thanh 1;Ninh Thanh Một
+vi;Ninh Thanh 2;Ninh Thanh Hai
+vi;Khối Phố 2;Khối Phố Hai
+vi;Khối Phố 1;Khối Phố Một
+vi;Khối Phố 3;Khối Phố Ba
+vi;Khối Phố 4;Khối Phố Bốn
+vi;Quyết Tiến 2;Quyết Tiến Hai
+vi;Là Púc 2;Là Púc Hai
+vi;Pá Vạt 1;Pá Vạt Một
+vi;Bản Lại 1;Bản Lại Một
+vi;Bản Lại 2;Bản Lại Hai
+vi;Huổi Sun 1;Huổi Sun Một
+vi;Bản Nộc Cốc 1;Bản Nộc Cốc Một
+vi;Huổi Su 1;Huổi Su Một
+vi;Huổi Su 2;Huổi Su Hai
+vi;Xuân Thủy 1;Xuân Thủy Một
+vi;Xuân Thủy 2;Xuân Thủy Hai
+vi;Trường Tiến;Thuần Thiện
+vi;Thuần Chân 1;Thuần Chân Một
+vi;Thuần Chân 2;Thuần Chân Hai
+vi;Tổ 9;Tổ Chín
+vi;Làng Khe;Xóm Hai
+vi;Nam Xuân;Xóm Mười Hai
+vi;Bắc Sơn;Xóm Chín
+vi;Buôn Một;Thôn Một
+vi;Buôn 1;Thôn Một
+vi;Buôn Suối Đứa;Thôn Bốn
+vi;Đội Tám;Thôn Tám
+vi;Đội 8;Thôn Tám
+vi;Đội Mười;Thôn Mười
+vi;Đội 10;Thôn Mười
+vi;Đội Chín;Thôn Chín
+vi;Đội 9;Thôn Chín
+vi;Đội Bảy;Thôn Bảy
+vi;Đội 7;Thôn Bảy
+vi;Đội Sáu;Thôn Sáu
+vi;Đội 6;Thôn Sáu
+vi;Đội Bốn;Thôn Bốn
+vi;Đội 4;Thôn Bốn
+vi;Đội Hai;Thôn Hai
+vi;Đội 2;Thôn Hai
+vi;Đội Một;Thôn Một
+vi;Đội 1;Thôn Một
+vi;Đội Mười Hai;Thôn Mười Hai
+vi;Đội 12;Thôn Mười Hai
+vi;Đội Mười Một;Thôn Mười Một
+vi;Đội 11;Thôn Mười Một
+vi;Đội Ba;Thôn Ba
+vi;Đội 3;Thôn Ba
+vi;Bản Xum 1;Bản Xum Một
+vi;Tiểu Khu Tiền Phong 2;Tiểu Khu Tiền Phong Hai
+vi;Tiểu Khu Tiền Phong 1;Tiểu Khu Tiền Phong Một
+vi;Tiểu Khu 11;Tiểu Khu Mười Một
+vi;Tiểu Khu 10;Tiểu Khu Mười
+vi;Tiểu Khu 13;Tiểu Khu Mười Ba
+vi;Tiểu Khu 8;Tiểu Khu Tám
+vi;Tiểu Khu 16;Tiểu Khu Mười Sáu
+vi;Tiểu Khu 6;Tiểu Khu Sáu
+vi;Tiểu Khu 19;Tiểu Khu Mười Chín
+vi;Tiểu Khu 14;Tiểu Khu Mười Bốn
+vi;Tiểu Khu 18;Tiểu Khu Mười Tám
+vi;Tiểu Khu 15;Tiểu Khu Mười Lăm
+vi;Tiểu Khu 17;Tiểu Khu Mười Bảy
+vi;Tiểu Khu 7 Sông Lô;Tiểu Khu Bảy Sông Lô
+vi;Tiểu Khu 8 Nà Bó;Tiểu Khu Tám Nà Bó
+vi;Tiểu Khu 3-2;Tiểu Khu Ba - Hai
+vi;Tiểu Khu 9;Tiểu Khu Chín
+vi;Tiểu Khu 5;Tiểu Khu Năm
+vi;Tiểu Khu 4;Tiểu Khu Bốn
+vi;Tiểu Khu 7;Tiểu Khu Bảy
+vi;Tiểu Khu 3;Tiểu Khu Ba
+vi;Tiểu Khu 2;Tiểu Khu Hai
+vi;Tiểu Khu 1;Tiểu Khu Một
+vi;Tiểu Khu 20;Tiểu Khu Hai Mươi
+vi;Tiểu Khu 21;Tiểu Khu Hai Mươi Mốt
+vi;Bản 428;Bản Bốn Trăm Hai Mươi Tám
+vi;Tiểu Khu 12;Tiểu Khu Mười Hai
+vi;Tiểu Khu 2. 19-5;Tiểu Khu Hai Mười Chín - Năm
+vi;Tiểu Khu 1. 19-5;Tiểu Khu Một Mười Chín - Năm
+vi;Tiểu Khu 3. 19-5;Tiểu Khu Ba Mười Chín - Năm
+vi;Tiểu Khu 26-3;Tiểu Khu Hai Mươi Sáu - Ba
+vi;Kim Sơn 1;Kim Sơn Một
+vi;Kim Sơn 2;Kim Sơn Hai
+vi;Bản Kết Nà;Bản Púng
+vi;Bản Kết Hay;Bom Bít
+vi;Bản Kết Nà;Bản Hua Bó
+vi;Bản Kết Nà;Bản Thẩm Tau
+vi;Bản Kim Sơn 2;Bản Kim Sơn Hai
+vi;Đội CN 3;Đội CN Ba
+vi;Đội 4B;Đội Bốn B
+vi;Đội 4A;Đội Bốn A
+vi;Đội 6A;Đội Sáu A
+vi;Đội 7C;Đội Bảy C
+vi;Đội 10;Đội Mười
+vi;Khe Co 1;Khe Co Một
+vi;Khe Co 2;Khe Co Hai
+vi;Làng Quê 3;Làng Quê Ba
+vi;Làng Quê 2;Làng Quê Hai
+vi;Đội 2A;Đội Hai A
+vi;Đội 2B;Đội Hai B
+vi;Đội Màu 2;Đội Màu Hai
+vi;Đội Màu 1;Đội Màu Một
+vi;Đội CN 2;Đội CN Hai
+vi;Sài Lương 1;Sài Lương Một
+vi;Sài Lương 2;Sài Lương Hai
+vi;Tân Đồng 4;Tân Đồng Bốn
+vi;Tây 1;Tây Một
+vi;Tây 2;Tây Hai
+vi;Thái Xá 1;Thái Xá Một
+vi;Thái Xá 2;Thái Xá Hai
+vi;Tân Sơn 1;Tân Sơn Một
+vi;Nhón 2;Nhón Hai
+vi;Nhón 3;Nhón Ba
+vi;Nhón 1;Nhón Một
+vi;Hợp 1;Hợp Một
+vi;Hợp 3;Hợp Ba
+vi;Hợp 2;Hợp Hai
+vi;Hoàng Liên Sơn 1;Hoàng Liên Sơn Một
+vi;Hoàng Liên Sơn 2;Hoàng Liên Sơn Hai
+vi;Bản Mấn 2;Bản Mấn Hai
+vi;Làng Vậy 2;Làng Vậy Hai
+vi;Thôn 21;Thôn Hai Mươi Mốt
+vi;Thôn 22;Thôn Hai Mươi Hai
+vi;Trường Sơn 1;Trường Sơn Một
+vi;Trường Sơn 3;Trường Sơn Ba
+vi;Trường Sơn 2;Trường Sơn Hai
+vi;Đồng Hội 1;Đồng Hội Một
+vi;Đồng Hội 2;Đồng Hội Hai
+vi;Xóm 15B;Xóm Mười Lăm B
+vi;Xóm 15A;Xóm Mười Lăm A
+vi;Phong Thắng;Xóm Năm
+vi;Phong Thắng;Xóm Sáu
+vi;Phong Thang;Xóm Bốn
+vi;Phong Thắng;Xóm Ba
+vi;Xóm 26;Xóm Hai Mươi Sáu
+vi;Xóm 12-9;Xóm Mười Hai - Chín
+vi;Xóm 32;Xóm Ba Mươi Hai
+vi;Bản Lang 2;Bản Lang Hai
+vi;Khóm 1;Khóm Một
+vi;Diên Thọ 2;Diên Thọ Hai
+vi;Lùng Thung 2;Lùng Thung Hai
+vi;Suối Thầu 1;Suối Thầu Một
+vi;Xóm 1A;Xóm Một A
+ru;Кат Кат;Cát Cát
+vi;Xóm 3A;Xóm Ba A
+vi;Xóm 3B;Xóm Ba B
+vi;Tân Khai;Xóm Năm
+vi;Lao Chải Sang 2;Lao Chải Sang Hai
+vi;Lao Chải Sang 1;Lao Chải Sang Một
+vi;Pa Ít 1;Pa Ít Một
+vi;Bản Hin 1;Bản Hin Một
+vi;Nậm Chan 3;Nậm Chan Ba
+vi;Nậm Chan 1;Nậm Chan Một
+vi;Nậm Chan 2;Nậm Chan Hai
+vi;Tà Cáng 2;Tà Cáng Hai
+vi;Trung Tâm 1;Trung Tâm Một
+vi;Nà Pèn 1;Nà Pèn Một
+vi;Nà Pèn 2;Nà Pèn Hai
+vi;Xà Phình 2;Xà Phình Hai
+vi;Xà Phình 1;Xà Phình Một
+vi;Nậm Cang 1;Nậm Cang Một
+vi;Huổi Mi 1;Huổi Mi Một
+vi;Pa Ít 2;Pa Ít Hai
+vi;Khối 13;Khối Mười Ba
+vi;Đặc khu Kiên Hải;Kiên Hải
+vi;Đô thị Phong Hòa;Phong Hòa
+ja;ホアンサ;Hoàng Sa
+ru;Хоангша;Hoàng Sa
+vi;Đức Thịnh Sa Đéc;Quận Đức Thịnh
+ru;Куан Зук Тинх;Quận Đức Thịnh
+vi;Đức Tôn, Sa Đéc;Quận Đức Tôn
+en;Lam Ha District;Huyện Lâm Hà
+vi;Lâm Hà;Huyện Lâm Hà
+ru;Хуен Лам Ха;Huyện Lâm Hà
+en;Phuc Thanh village;Thôn Phúc Thanh
+en;Phuc Tan village;Thôn Phúc Tân
+ru;Фу Куок;Phú Quốc
+vi;Quảng Trị;thị xã Quảng Trị
+ru;Туан Ан;Thuận An
+ru;Бак Ту Лием;Bắc Từ Liêm
+vi;Ấp B2;Ấp B Hai
+vi;Hải Sơn 2;Hải Sơn Hai
+vi;Buôn Dông Da;Thôn Bốn
+vi;Buôn Tou Siah;Thôn Một
+vi;Đội Năm;Thôn Năm
+vi;Đội 5;Thôn Năm
+vi;Sông Công;Thành phố Sông Công
+ru;Танх Фо Сонг Конг;Thành phố Sông Công
+en;Nga Nam;Ngã Năm
+ru;Нга Нам;Ngã Năm
+ar;نجا نام;Ngã Năm
+kk;Нга Нам;Ngã Năm
+tr;Nga Nam;Ngã Năm
+uz;Nga Nam;Ngã Năm
+ky;Нга Нам;Ngã Năm
+id;Nga Nam;Ngã Năm
+ms;Nga Nam;Ngã Năm
+es;Nga Nam;Ngã Năm
+fr;Nga Nam;Ngã Năm
+hi;नगा नाम;Ngã Năm
+bn;এনগা নাম;Ngã Năm
+ur;نگا نام;Ngã Năm
+de;Nga Nam;Ngã Năm
+fa;نگا نام;Ngã Năm
+ja;ンガナム;Ngã Năm
+jv;Nga Nam;Ngã Năm
+pa;ਨਗਾ ਨਾਮ;Ngã Năm
+ps;نجا نام;Ngã Năm
+pt;Nga Nam;Ngã Năm
+tg;Нга Нам;Ngã Năm
+en;Yen Hoa;Yên Hòa
+ja;ホアンマイ;Hoàng Mai
+ru;Хоанг Маи;Hoàng Mai
+ru;Фо Ен;Phổ Yên
+ja;イェン・ソン;Yên Sơn
+zh;延山;Yên Sơn
+ru;Туонг Маи;Tương Mai

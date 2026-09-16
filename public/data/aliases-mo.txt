@@ -1,0 +1,53 @@
+zh;氹仔;Taipa
+pt;Nossa Senhora do Carmo;Taipa
+ru;Таипа;Taipa
+de;Macao;Macau
+en;Macao;Macau
+fr;Macao;Macau
+it;Macao;Macau
+es;Macao;Macau
+pt;Cidade do Santo Nome de Deus de Macau;Macau
+zh;澳门;Macau
+ru;Макао;Macau
+jv;Makau;Macau
+kn;ಮಕಾವು;Macau
+kk;Аумын;Macau
+ko;마카오;Macau
+mn;Макао;Macau
+vi;Ma Cao;Macau
+fa;ماکائو;Macau
+dv;މަކާއޫ;Macau
+pa;ਮਕਾਉ;Macau
+tet;Makau;Macau
+ja;マカオ;Macau
+za;Aumwnz;Macau
+su;Makau;Macau
+ur;مکاؤ;Macau
+mr;मकाओ;Macau
+id;Makau;Macau
+my;မကာအို;Macau
+ug;ئاۋمېن;Macau
+tl;Makaw;Macau
+gu;મકાઉ;Macau
+tr;Makao;Macau
+hi;मकाउ;Macau
+te;మకావు;Macau
+ml;മകൗ;Macau
+ta;மக்காவு;Macau
+th;เขตบริหารพิเศษมาเก๊า;Macau
+ar;ماكاو;Macau
+zh-TW;澳門;Macau
+zh;荔枝碗;Lai Chi Van
+pt;Povoação de Lai Chi Van;Lai Chi Van
+zh;黑沙;Heisha
+pt;Povoação de Hác Sá;Heisha
+pt;Coloane;Luhuan
+yue;路環;Luhuan
+yue;聖方濟堂區;Luhuan
+zh;卓家村;Zhuojiacun
+pt;Ká Hó;Jiu’ao
+zh;九澳;Jiu’ao
+pt;Povoação de Ká Hó;Jiu’ao
+yue;老譚成;Cotai
+en;Se;Sé
+yue;大堂區;Sé

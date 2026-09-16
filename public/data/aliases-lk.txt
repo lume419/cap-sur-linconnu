@@ -1,0 +1,2153 @@
+fa;یومپانا;Yompana
+ur;یومپنا;Yompana
+fa;یوداگانناوا;Yodagannawa
+ur;یودگننوا;Yodagannawa
+fa;یاتیولا;Yatiwella
+ur;یتیولہ;Yatiwella
+fa;یاتیوهرا;Yatiwehera
+ur;یتیوھیرا;Yatiwehera
+fa;یاتیواوالا;Yatiwawala
+ur;یتیواوالا;Yatiwawala
+ceb;Yatirawana;Yatirawanagammedda
+en;Yatirawana;Yatirawanagammedda
+fa;یاتیراوانا;Yatirawanagammedda
+ur;یتیروانا;Yatirawanagammedda
+nl;Yatirawana;Yatirawanagammedda
+fa;یاتیپیانگالا;Yatipiyangala
+ur;یتیپینگلہ;Yatipiyangala
+fa;یاتیمادورا;Yatimadura
+ur;یتیمدرا;Yatimadura
+fa;یاتیگامانا;Yatigammana
+ur;یتیگممنا;Yatigammana
+si;යටවත්ත;Yatawatta
+fa;یاتاواتا;Yatawatta
+ur;یتواتا;Yatawatta
+fa;یاتاپانا;Yatapana
+ur;یتپنا;Yatapana
+fa;یاسانامپورا;Yasanampura
+ur;یسنمپرا;Yasanampura
+fa;یاپاگاما;Yapagama
+fa;یامانمولا;Yamanmulla
+ur;یمان ملا;Yamanmulla
+fa;یاله‌گودا;Yalegoda
+ur;یلیگودہ;Yalegoda
+si;යක්කල;Yakkala
+fa;یاککالا;Yakkala
+ur;یکالا;Yakkala
+fa;یاکوراگالا;Yakkuragala
+ur;یکراگلہ;Yakkuragala
+fa;یاکگاهاپیتیا;Yakgahapitiya
+ur;یکگہاپتیا;Yakgahapitiya
+fa;یاکاداگودا;Yakadagoda
+ur;یکدگودہ;Yakadagoda
+fa;ویلگومووا;Wilgomuwa
+en;Welagama;Wilagama
+fa;ولاگاما;Wilagama
+nl;Welagama;Wilagama
+fa;ووه‌لوبه;Wewelobe
+fa;وه‌وه‌لمادا;Wewelmada
+fa;وتهنا;Wettehena
+fa;وتگگاما;Weteggama
+fa;وتاسیایا;Wetasseyaya
+fa;وتاکپوتا;Wetakepotha
+fa;وتاکدنیا;Wetakedeniya
+en;Wetagepota;Wetagepotha
+fa;وتاگپوتا;Wetagepotha
+nl;Wetagepota;Wetagepotha
+fa;واتا غربی;West Watta
+fa;ورللا;Werella
+fa;وراوالا;Werawala
+en;Werapitiya Pahalagammedda;Werapitiyawatta
+fa;وراپیتیا پاهالاگامدا;Werapitiyawatta
+nl;Werapitiya Pahalagammedda;Werapitiyawatta
+fa;وراپیتیا;Werapitiya
+fa;ورالوگاستنا;Weralugastenna
+fa;ورالاندا;Weralanda
+fa;وراگالاواتا;Weragalawatta
+fa;وپاتانا;Wepatana
+si;වෙන්නප්පුව;Wennappuwa Town
+en;Wennappuwa;Wennappuwa Town
+fa;وناپووا;Wennappuwa Town
+ur;وینپپووا;Wennappuwa Town
+nl;Wennappuwa;Wennappuwa Town
+zh;溫納普瓦;Wennappuwa Town
+fa;ولپانالا;Welpanala
+en;Welletota Kadaweediya;Welletota
+fa;ولتوتا کاداودیا;Welletota
+nl;Welletota Kadaweediya;Welletota
+fa;ولاگیریا;Wellagiriya
+fa;ولیویتا پاهالاگاما;Weliwita Pahalagama
+en;Welivitta;Weliwita-Ihalagama
+fa;ولیویتتا;Weliwita-Ihalagama
+nl;Welivitta;Weliwita-Ihalagama
+fa;ولیوواراناگولا;Weliwaranagolla
+fa;ولیگوداپولا;Weligodapola
+fa;ولیگانوالا;Weliganwala
+fa;ولگاهاوادیا;Welgahawadiya
+fa;وله مولا;Welemulla
+fa;ولاپاهالا;Welapahala
+fa;ولانگاهاواتا;Welangahawatta
+en;Valamitiyawa;Welamitiyawa
+fa;والامیتیاوا;Welamitiyawa
+nl;Valamitiyawa;Welamitiyawa
+fa;ولامبودا;Welamboda
+ta;வெலம்பொடை;Welamboda
+fa;ولایهالا اودوگودا;Welaihala Udugoda
+fa;وهیگالا شرقی;Wehigala East
+fa;وگوداپولا;Wegodapola
+fa;وگیریا;Wegiriya
+en;Wegama Lower;Wegama
+fa;وگاما پایین;Wegama
+nl;Wegama Lower;Wegama
+fa;وگالا;Wegala
+fa;ودیگامدا;Wedigammedda
+fa;واتوراکومبورا;Waturakumbura
+en;Wathumulla;Watumulla
+fa;واتومولا;Watumulla
+nl;Wathumulla;Watumulla
+si;වත්තේගම;Wattegama
+ja;ワットガマ;Wattegama
+fa;واته‌گاما;Wattegama
+ur;واٹیگاما;Wattegama
+ta;வத்தேகாமம்;Wattegama
+fa;واتاپپولا;Wattappola
+ta;வத்தளை;Wattala
+si;වත්තල;Wattala
+si;වටපුළුව;Watapuluwa
+fa;واتاپولووا;Watapuluwa
+fa;واتادنیا;Watadeniya
+en;Wataddora;Wataddara
+fa;واتاددورا;Wataddara
+nl;Wataddora;Wataddara
+fa;وارالاگاما;Waralaggama
+fa;واراکاوا;Warakawa
+fa;واراگاشینا;Waragashinna
+en;Waradiwala;Waradiwela
+fa;وارادیوالا;Waradiwela
+nl;Waradiwala;Waradiwela
+fa;وانیپولا;Wannipola
+fa;والوگاما;Walugama
+fa;والپولادنیا;Walpoladeniya
+fa;واللیولا;Walliwela
+fa;والگووواگودا;Walgovuwagoda
+fa;والگامپایا;Walgampaya
+fa;والاسگالا;Walasgala
+fa;والالاولا;Walalawela
+en;Walala Megodagammedda;Madugahamedagammedda Walala
+fa;والالا مگوداگامدا;Madugahamedagammedda Walala
+nl;Walala Megodagammedda;Madugahamedagammedda Walala
+fa;واهوگپیتیا;Wahugepitiya
+en;Wabalakananke;Wahala Kananke
+fa;وابالاکانانکه;Wahala Kananke
+nl;Wabalakananke;Wahala Kananke
+si;වහකෝට්ටෙ;Wahakotte
+en;Wahacotte;Wahakotte
+fa;واهاکوته;Wahakotte
+nl;Wahacotte;Wahakotte
+en;Wagugoda;Wadugoda
+fa;واگوگودا;Wadugoda
+nl;Wagugoda;Wadugoda
+fa;واگه گودا;Wagegoda
+ta;வாகா;Waga
+si;වග;Waga
+fa;وادوولیویتیا;Waduweliwitiya
+fa;وادوبورالا;Waduborala
+fa;وادمادا;Wademada
+si;වාද්දුව;Meda Wadduwa
+en;Wadduwa;Meda Wadduwa
+fa;واددووا;Meda Wadduwa
+fr;Wadduwa;Meda Wadduwa
+ta;வாதுவை;Meda Wadduwa
+ur;وڈووا;Meda Wadduwa
+nl;Wadduwa;Meda Wadduwa
+fa;واداوالاکاندا;Wadawalakanda
+fa;واداوالا;Wadawala
+fa;واداکاهامادا;Wadakahamada
+fa;ویایادیپانای;Viyayadippannai
+en;Vimankaman;Veemankamam
+fa;ویمانکامان;Veemankamam
+nl;Vimankaman;Veemankamam
+fa;ویلامپاروکو;Villamparuku
+en;Viharahena;Wiharahena
+fa;ویهاراهنا;Wiharahena
+nl;Viharahena;Wiharahena
+fa;وتاستنا;Vetastenna
+fa;ولیکولم;Velikkulam
+fa;ولکولم;Velakulam
+fa;ویرامونای;Veeramunai
+ta;வீரமுனை;Veeramunai
+fa;ودیموریپو;Veddayamurippu
+fa;وییتینکودییروپو;Vayittiyankudiyiruppu
+ru;Вавуния;Vavuniya
+ja;バブニヤ;Vavuniya
+si;වවුනියාව;Vavuniya
+ta;வவுனியா;Vavuniya
+fa;واوونیا;Vavuniya
+ur;واوونییا;Vavuniya
+si;වසාවිළාන්;Vasavilan
+fa;وسویلن;Vasavilan
+ta;வசாவிளான்;Vasavilan
+fa;وروتلیویلن;Varuttalaivilan
+ar;فانيتشتشيتيدال;Vannichchiyatidal
+fa;ونیچچیتیدل;Vannichchiyatidal
+ar;فانربني ساوث ويست;Vannarpannai South West
+fa;ونرپنی جنوب غربی;Vannarpannai South West
+ar;فانربني ساوث إيست;Vannarpannai South East
+fa;ونرپنی جنوب شرقی;Vannarpannai South East
+ar;فانربني نورث ويست;Vannarpannai North West
+fa;ونرپنی شمال غربی;Vannarpannai North West
+ar;فاننبولينكولم;Vannanpuliyankulam
+fa;وننپولینکولم;Vannanpuliyankulam
+ar;فانتشينكولام;Vanchiyankulam
+fa;ونچینکولم;Vanchiyankulam
+fa;والایاکادو;Valaiyakadu
+ja;バルチェナイ;Valaichchenai
+fa;والایچنای;Valaichchenai
+ta;வாழைச்சேனை;Valaichchenai
+fa;واکارای;Vakarai
+ta;வாகரை;Vakarai
+fa;وایاککارای;Vaiyakkarai
+fa;اویاراپولام;Uyarapulam
+ta;உரும்பிராய்;Urumpirai
+fa;اوروهراپولا;Uruherapola
+en;Urugalakadawidiya;Urugala
+fa;اوروگالاکاداویدیا;Urugala
+nl;Urugalakadawidiya;Urugala
+ta;ஊரெழு;Urelu
+en;Urawela;Urawala
+fa;اوراولا;Urawala
+nl;Urawela;Urawala
+fa;اورادنیا;Uradeniya
+fa;اوپکوت;Upcot
+ta;அப்கொட்;Upcot
+ru;Унаватуна;Unawatuna
+ta;උණවටුන;Unawatuna
+si;උණවටුන;Unawatuna
+fa;اوناواتونا;Unawatuna
+ur;اناواتونا;Unawatuna
+fa;اوناپاندوریایا;Unapandureyaya
+fa;اونامبووا;Unambuwa
+fa;اولپوتاگاما ایلوکا;Ulpotagama Iluka
+fa;ایلکومبورا;Ullekumbura
+fa;یولاپانه;Ulapane
+ta;உலப்பனை;Ulapane
+fa;اولاکونده;Ulakkonde
+fa;اوگاهاکومبورا;Uggahakumbura
+fa;اودوورلا;Uduwerella
+fa;اودوولوالا;Uduwelwala
+en;Uduwela Udagama;Uduwela Udugama
+fa;اودوولا اوداگاما;Uduwela Udugama
+nl;Uduwela Udagama;Uduwela Udugama
+fa;اودوولا پالگاما;Uduwela Pallegama
+fa;اودوواوالا;Uduwawala
+fa;اودوراوانا مگوداگامدا;Udurawana Megodagammedda
+fa;اوداراوانا;Udurawana
+fa;اودوپیهیلا;Udupihilla
+en;Udugalpitiye Kuppayama;Udagalpitiya
+fa;اودوگالپیتیه کوپایاما;Udagalpitiya
+nl;Udugalpitiye Kuppayama;Udagalpitiya
+fa;اودودنیا سینهالاگاما;Ududeniya Sinhalagama
+fa;اودودنیا مادیگه;Ududeniya Madige
+fa;اودوداها;Ududaha
+en;Udowita;Udaowita
+fa;اودوویتا;Udaowita
+nl;Udowita;Udaowita
+fa;اودیسپاتو;Udispattu
+fa;یودایارسامالانکولام;Udayarsamalankulam
+ur;ادے ارسملانکلم;Udayarsamalankulam
+fa;یوداتنا;Udatenna
+ur;ادتینا;Udatenna
+en;Uda Talawinna Megodagammedda;Megodagammedda
+fa;اودا تالاوینا مگوداگامدا;Megodagammedda
+ur;ادا ٹالاونا میگوڈگمیڈا;Megodagammedda
+nl;Uda Talawinna Megodagammedda;Megodagammedda
+fa;اودا تالاوینامادیگ;Uda Talawinnamadige
+ur;ادا ٹالاوناماڈگے;Uda Talawinnamadige
+ta;உடத்தலவின்ன மடிகே;Uda Talawinnamadige
+fa;یوداپایتاولا;Udapitawela
+ur;اداپتاویلا;Udapitawela
+fa;یوداپادیپلا;Udapadiyapelella
+ur;اداپدیپلا;Udapadiyapelella
+fa;یودانگمووا;Udangomuwa
+ur;ادانگوموا;Udangomuwa
+fa;یودامادورا;Udamadura
+ur;ادمدرا;Udamadura
+fa;یودالومادا;Udalumada
+ur;ادل امادا;Udalumada
+fa;یودالوگاپوتنا;Udalugaputenna
+ur;ادلگا پتینا;Udalugaputenna
+fa;اودا ایلوکا;Uda Iluka
+ur;ادا الوکا;Uda Iluka
+fa;یوداهنتنا;Udahentenna
+ur;اڈاہیٹینا;Udahentenna
+fa;یوداهادووا;Udahaduwa
+ur;اڈاہاڈووا;Udahaduwa
+fa;یوداگومادیا;Udagomadiya
+ur;اڈاگوماڈیا;Udagomadiya
+fa;یوداگاما پلگاما;Udagama Pallegama
+ur;اڈاگاما پلےگاما;Udagama Pallegama
+ta;உதகம;Udagama
+si;උඩගම;Udagama
+fa;یوداگالودا;Udagalauda
+ur;اڈاگالؤڈا;Udagalauda
+fa;اودابووالا;Udabowala
+ur;اڈابووالا;Udabowala
+fa;اودابراگاما;Udaberagama
+ur;اڈابراگاما;Udaberagama
+fa;اودا اپارکا;Uda Aparekka
+ur;ادا اپاریکا;Uda Aparekka
+fa;اودا آمبالا;Uda Ambala
+ur;ادا امبالا;Uda Ambala
+fa;اودا آلودنیا;Uda Aludeniya
+ur;ادا الودینیا;Uda Aludeniya
+en;Tunhitiyawa;Thunhitiyawa
+fa;تونهیتیاوا;Thunhitiyawa
+nl;Tunhitiyawa;Thunhitiyawa
+fa;تومپلاواکا;Tumpelawaka
+ta;திருக்கோணமலை;Trincomalee
+ar;ترينكومالي;Trincomalee
+ru;Тринкомали;Trincomalee
+fr;Trinquemalay;Trincomalee
+mr;त्रिंकोमली;Trincomalee
+si;ත්‍රිකුණාමලය;Trincomalee
+ml;തിരുക്കോണമല;Trincomalee
+ko;트링코말리;Trincomalee
+ja;トリンコマリー;Trincomalee
+ru;Трикомали;Trincomalee
+zh;亭可马里;Trincomalee
+yue;亭可馬里;Trincomalee
+hi;त्रिंकोमली;Trincomalee
+ur;ترینکومالی;Trincomalee
+kk;Тринкомали;Trincomalee
+tr;Trinkomalee;Trincomalee
+uz;Trinkomalee;Trincomalee
+ky;Тринкомали;Trincomalee
+bn;ত্রিংকোমালি;Trincomalee
+fa;ترینکومالی;Trincomalee
+pa;ਤ੍ਰਿਨਕੋਮਾਲੀ;Trincomalee
+ps;ترنکومالی;Trincomalee
+tg;Тринкомали;Trincomalee
+fa;تیامبارا-آمبه;Tiyambara-ambe
+fa;تیتاپاجالا;Tittapajjala
+si;තිස්සමහාරාමය;Tissamaharama
+ja;ティッサマハーラーマ;Tissamaharama
+fa;تیساماهاراما;Tissamaharama
+my;တိဿမဟာဂါမ;Tissamaharama
+ta;திஸ்ஸமஹாராம;Tissamaharama
+en;Tispane;Thispane
+fa;تیسپانه;Thispane
+nl;Tispane;Thispane
+fa;تیسمادا;Tismada
+en;Tirunelveli East;Thirunelvely East
+nl;Tirunelveli East;Thirunelvely East
+fa;تیراپووا;Tirappuwa
+en;Thikkoddaimadu;Tikkottaimadu
+fa;تیککوددایمادو;Tikkottaimadu
+nl;Thikkoddaimadu;Tikkottaimadu
+fa;تووارانکرنی;Thuvarankerni
+fa;تهومبارا;Thumbara
+fa;تینه کانووا;Thine Kanuwa
+fa;تادچانتوپو;Thatchchanthoppu
+fa;تپوگولا;Tepugolla
+fa;تنهنوالا;Tennehenwala
+en;Tembiligala Pallegama;Pallegama
+fa;تمبیلیگالا پالگاما;Pallegama
+nl;Tembiligala Pallegama;Pallegama
+fa;تلیانکودیئیروپو;Telliyankudiyiruppu
+ta;தெல்லிப்பழை;Tellippalai
+ja;テリパライ;Tellippalai
+en;Telihunna;Telihenna
+fa;تلیهونا;Telihenna
+nl;Telihunna;Telihenna
+en;Telambugahawatta;Talambugahawatta
+fa;تلامبوگاهاتاواتا;Talambugahawatta
+nl;Telambugahawatta;Talambugahawatta
+fa;تکولوتو;Thekkuluthu
+en;Thayilan Kudiyiruppu;Tayilankudiyiruppu
+fa;تایلان کودیئیروپو;Tayilankudiyiruppu
+nl;Thayilan Kudiyiruppu;Tayilankudiyiruppu
+en;Tharakundu;Tarakkundu
+fa;تاراکوندو;Tarakkundu
+nl;Tharakundu;Tarakkundu
+en;Thannipavilan Kudiyiruppu;Tannippavilaikudiyiruppu
+fa;تانیپاویلان کودیئیروپو;Tannippavilaikudiyiruppu
+nl;Thannipavilan Kudiyiruppu;Tannippavilaikudiyiruppu
+en;Tangalla;Tangalle
+ru;Тангалла;Tangalle
+de;Tangalla;Tangalle
+fa;تامیتیا;Tammitiya
+ru;Тхамбилувил;Tambiluvil
+si;තම්බිලුවිල්;Tambiluvil
+en;Thambiluvil;Tambiluvil
+fa;تامبیلوویل;Tambiluvil
+ta;தம்பிலுவில்;Tambiluvil
+nl;Thambiluvil;Tambiluvil
+fa;تالاواتورا;Talawatura
+ta;தலவாக்கலை;Talawakele
+si;තලවාකැලේ;Talawakele
+fa;تالاتویا;Talatuoya
+fa;تالانولا;Talanwela
+fa;تالانگالا;Talangalla
+fa;تالامپورووا;Talamporuwa
+fa;تالالا جنوبی;Talalla South
+fa;تالالا شمالی;Talalla North
+fa;تالاکولاولا;Talakolawela
+fa;تالاکیریاوا;Talakiriyawa
+fa;تالاگونه;Talagune
+fa;تالاگودا;Talagoda
+fa;تالاگاسیایا;Talagasyaya
+en;Talagaspe;Talgaspe
+fa;تالاگاسپه;Talgaspe
+nl;Talagaspe;Talgaspe
+fa;تالاگاهادیولا;Talagahadiwela
+fa;تادامالای;Taddamalai
+si;සුතුමලෙයි;Suthumalai
+fa;سوتومالای;Suthumalai
+ta;சுதுமலை;Suthumalai
+fa;سودوهاکوروگاما;Suduhakurugama
+fa;سیامبالاگاستنا;Siyambalagastenna
+fa;سیامبالاگاهاولا;Siyambalagahawela
+ceb;Sivurupitiya;Siyurupitiya
+en;Sivurupitiya;Siyurupitiya
+fa;سیوروپیتیا;Siyurupitiya
+nl;Sivurupitiya;Siyurupitiya
+en;Sita Eliya;Seetha Eliya
+fa;سیتا الییا;Seetha Eliya
+nl;Sita Eliya;Seetha Eliya
+fa;سیریمالواتا;Sirimalwatta
+fa;سیرانگاهاواتا;Sirangahawatta
+en;Seenimodera;Sinimodera
+fa;سنیمودرا;Sinimodera
+nl;Seenimodera;Sinimodera
+en;Silvetgama;Silwatgama
+fa;سیلوتگاما;Silwatgama
+nl;Silvetgama;Silwatgama
+ru;Сигирия;Sigiriya
+si;සීගිරිය;Sigiriya
+ta;சிங்ககிரி;Sigiriya
+ta;சிகிரியா;Sigiriya
+fa;سرودانداپولا;Serudandapola
+fa;سلاگاما کولونی;Selagama Colony
+en;Saputantirikanda;Saputatirikanda
+fa;ساپوتانتیریکاندا;Saputatirikanda
+nl;Saputantirikanda;Saputatirikanda
+fa;ساپوگوداولا;Sapugodawela
+fa;ساپوگودا;Sapugoda
+fa;ساماراکونهنا;Samarakonehena
+fa;ساهاباندوکوکمادووا;Sahabandukokmaduwa
+ur;صحابندکوکمدعوہ;Sahabandukokmaduwa
+fa;روسیگاما;Rusigama
+fa;روپاها;Rupaha
+fa;روتیپهیلا;Rottipehilla
+fa;ریکیلاگاسکادا;Rikillagaskada
+fa;ریدیلا;Ridiella
+fa;رتیاگاما;Retiyagama
+fa;رکیتیپه;Rekitipe
+si;රත්තොට;Rattota
+fa;راتوتا;Rattota
+ru;Ратнапуры;Ratnapura
+ja;ラトゥナプラ;Ratnapura
+si;රත්නපුර;Ratnapura
+ta;இரத்தினபுரி;Ratnapura
+th;รัตนปุระ;Ratnapura
+ru;Ратнапура;Ratnapura
+zh;拉特納普勒;Ratnapura
+ar;راتنابورا;Ratnapura
+ko;라트나푸라;Ratnapura
+ml;രത്നപുര;Ratnapura
+ur;رتناپورہ;Ratnapura
+kk;Ратнапура;Ratnapura
+ky;Ратнапура;Ratnapura
+hi;रत्नपुरा;Ratnapura
+bn;রত্নপুরা;Ratnapura
+fa;رتن‌پورا;Ratnapura
+pa;ਰਤਨਪੁਰਾ;Ratnapura
+ps;رتن پورا;Ratnapura
+tg;Ратнапура;Ratnapura
+fa;راتمالاکادووا;Ratmalakaduwa
+fa;راتالاووا;Ratalawewa
+fa;راساگودا;Rassagoda
+fa;رانودیاوا;Ranwediyawa
+fa;رانکیریاگولا;Rankiriyagolla
+fa;رانگومووا;Rangomuwa
+fa;رانگالا;Rangala
+ta;ரங்கல;Rangala
+fa;راناوا;Ranawa
+fa;راناموره;Ranamure
+fa;رامالاکاندورا;Rammalakandura
+en;Rammalaka;Ranmalaka
+fa;رامالاکا;Ranmalaka
+nl;Rammalaka;Ranmalaka
+en;Rambukella;Rambukwella
+fa;رامبوکلا;Rambukwella
+nl;Rambukella;Rambukwella
+fa;رامبوکپوتا-آنگا;Rambukpota-anga
+fa;رامبوکولووا;Rambukkoluwa
+fa;رامبوکولا;Rambukewela
+fa;راکوانا;Rakwana
+ta;இரக்வானை;Rakwana
+fa;راجاپوراگودا;Rajapuragoda
+fa;راجاگیریا;Rajagiriya
+fa;رایتاولا;Raitalawela
+fa;رایتالاوا;Raitalawa
+en;Rahatungoda;Rahathungoda
+fa;راهاتونگودا;Rahathungoda
+nl;Rahatungoda;Rahathungoda
+ta;இராகலை;Ragala
+fa;رادونولا;Radunnewela
+fa;رادامپولا;Radampola
+fa;رابگامووا;Rabbegamuwa
+fa;پوواکگاهاگالا;Puwakgahagala
+ja;プッタラム;Puttalam
+si;පුත්තලම;Puttalam
+ta;புத்தளம்;Puttalam
+ur;پوٹالام;Puttalam
+yue;普塔勒姆區;Puttalam
+pt;Putalão;Puttalam
+hi;पुट्टलम;Puttalam
+ru;Путталам;Puttalam
+bn;পুট্টালাম;Puttalam
+zh-Hans;普塔拉;Puttalam
+kn;ಪುಟ್ಟಲಮ್;Puttalam
+ko;푸탈람;Puttalam
+mr;पट्टालाम;Puttalam
+gu;પટ્ટાલામ;Puttalam
+zh;普塔勒姆;Puttalam
+ar;بوتالام;Puttalam
+te;పుత్తాలం;Puttalam
+th;ปัตตาลัม;Puttalam
+fa;پوتالام;Puttalam
+si;පුසුල්පිටිය;Pusulpitiya
+fa;پوسولپیتیا;Pusulpitiya
+si;පුස්සැල්ලාව;Pussellawa
+fa;پوسلاوا;Pussellawa
+ta;புஸ்ஸலாவை;Pussellawa
+fa;پوسالامانکادا;Pussalamankada
+en;Pussalakandura;Pussalakanda
+fa;پوسالاکاندورا;Pussalakanda
+nl;Pussalakandura;Pussalakanda
+fa;پوسالاگولا;Pussalagolla
+fa;پورودوولا;Puruduwella
+ceb;Purijjala;Purijjala Colony
+en;Purijjala;Purijjala Colony
+fa;پوریجالا;Purijjala Colony
+nl;Purijjala;Purijjala Colony
+en;Puraamkumbura;Purankumbura
+fa;پورامکومبورا;Purankumbura
+nl;Puraamkumbura;Purankumbura
+fa;پوپورسا;Pupuressa
+fa;پونچلرامباداگالا;Punchlrambadagalla
+de;Punani;Punanai
+fa;پونانای;Punanai
+ta;புனானை;Punanai
+zh;普纳奈;Punanai
+fa;پولنیواتا;Pulleniwatta
+fa;پوباراولا;Pubbarawela
+fa;پوتتیلا;Pottila
+fa;پوتپیتیا;Pottepitiya
+fa;پوتاتاولا;Pottatawela
+fa;پوپیتا;Poppitiya
+fa;پولولتکاندا;Polwattekanda
+fa;پولواتا کولونی;Polwatta Colony
+fr;Polonnâruvâ;Polonnaruwa
+ta;பொலன்னறுவை;Polonnaruwa
+ru;Полоннарува;Polonnaruwa
+ja;ポロンナルワ;Polonnaruwa
+si;පොළොන්නරු යුගය;Polonnaruwa
+zh;波隆納魯沃;Polonnaruwa
+ml;പൊളന്നറുവ;Polonnaruwa
+ne;पोलोननरुवा;Polonnaruwa
+pt;Cidade Antiga de Polonnaruva;Polonnaruwa
+hi;पोलोन्नारुवा;Polonnaruwa
+zh-Hans;波隆纳鲁沃;Polonnaruwa
+ur;پولوننارووا;Polonnaruwa
+mr;पोलोनारुवा;Polonnaruwa
+my;ပိုလွန်နာရုဝါမြို့;Polonnaruwa
+ar;بولوناروا;Polonnaruwa
+fa;پولونارووا;Polonnaruwa
+bn;পলোন্নারুয়া;Polonnaruwa
+kk;Полоннарува;Polonnaruwa
+kn;ಪೊಲೊನರುವಾ;Polonnaruwa
+ko;플로나와;Polonnaruwa
+gu;પોલોનરુવા;Polonnaruwa
+te;పోలొన్నారువా;Polonnaruwa
+th;โปลอนนารุวา;Polonnaruwa
+fa;پولومانا;Polommana
+ceb;Polmalagama;Polmelagama
+en;Polmalagama;Polmelagama
+fa;پولمالاگاما;Polmelagama
+nl;Polmalagama;Polmelagama
+ja;ポルゴラ;Polgolla
+fa;پولگولا;Polgolla
+ta;பொல்கொல்லை;Polgolla
+zh-Hant;波勒格哈韋勒;Polgahawela
+si;පොල්ගහවෙල;Polgahawela
+ja;ポルガハウェラ;Polgahawela
+fa;پولگاهاولا;Polgahawela
+ta;பொல்காவளை;Polgahawela
+zh;波加哈威拉;Polgahawela
+fa;پولگاها-آنگا;Polgaha-anga
+fa;پوکونوواتا;Pokunuwatta
+fa;پوهورانووایایا;Pohoranwewayaya
+en;Pitunugama;Pitunngama
+fa;پیتونوگاما;Pitunngama
+nl;Pitunugama;Pitunngama
+ru;Пита Котте;Pita Kotte
+si;පින්වත්ත;Pinwatta
+fa;پینالانداواتا;Pinnalandawatta
+fa;پیلیولا;Piliwela
+fa;پیلیهودوگولا پاهالاگاما;Pilihudugolla Pahalagama
+fa;پیلیهودوگولا ایهالاگاما;Pilihudugolla Ihalagama
+fa;پیلیهودوگولا;Pilihudugolla
+fa;پیلیگاما;Piligama
+fa;پیلیگالا;Piligalla
+fa;پیلاوالا;Pilawala
+en;Piharallegama;Piharalalegama
+fa;پیهارالگاما;Piharalalegama
+nl;Piharallegama;Piharalalegama
+si;පෙතියාගොඩ;Petiyagoda
+fa;پنیدنیا;Penideniya
+fa;پنالابودا;Penalaboda
+fa;پناهتیپولا;Penahetipola
+en;Pellepitiya;Pellepitiya Colony
+fa;پلپیتیا;Pellepitiya Colony
+nl;Pellepitiya;Pellepitiya Colony
+en;Pelenegama;Pelanegama
+fa;پلنگاما;Pelanegama
+nl;Pelenegama;Pelanegama
+en;Pelawa;Pelewa
+fa;پلاوا;Pelewa
+nl;Pelawa;Pelewa
+fa;پایینگومووا;Payingomuwa
+fa;پاتونوپیتیا;Pattunupitiya
+fa;پاتیولا;Pattiwela
+en;Pattitalawa;Patithalawa
+fa;پاتیتالاوا;Patithalawa
+nl;Pattitalawa;Patithalawa
+fa;پاتکولاگولا;Patkolagolla
+en;Paranagama Mandandawela;Mandandawela
+fa;پاراناگاما ماندانداولا;Mandandawela
+nl;Paranagama Mandandawela;Mandandawela
+fa;پاراناگاما هاپوکوتووگامدا;Paranagama Hapukotuwegammedda
+fa;پاراکاتاولا;Parakatawella
+fa;پاراگاهاولا;Paragahawela
+fa;پارادکا;Paradeka
+ceb;Panwilatenna;Panwilathenna
+en;Panwilatenna;Panwilathenna
+fa;پانویلاتنا;Panwilathenna
+nl;Panwilatenna;Panwilathenna
+fa;پانواتا;Panwatta
+si;පන්නිපිටිය;Pannipitiya
+fa;پانیپیتیا;Pannipitiya
+en;Pannala II;Pannala
+fa;پانالا II;Pannala
+nl;Pannala II;Pannala
+fa;پاناولولا;Panawelulla
+fa;پانانوالا;Pananwala
+en;Panatale;Pantale
+fa;پاناتاله;Pantale
+nl;Panatale;Pantale
+ta;பாணந்துறை;Panadura
+si;පානදුර;Panadura
+hi;पानादुरा;Panadura
+ru;Панадура;Panadura
+bn;প্যানাডোরা;Panadura
+zh-Hans;般纳都拉;Panadura
+zh-Hant;帕訥杜勒;Panadura
+ur;پانادورا;Panadura
+kn;ಪನಡುರ;Panadura
+ko;파나두라;Panadura
+mr;पॅनाडूरा;Panadura
+zh;般納都拉;Panadura
+gu;પેનાડૂરા;Panadura
+ar;بانادورا;Panadura
+te;పానడ్యూరా;Panadura
+th;พนาดูรา;Panadura
+ja;パナドゥラ;Panadura
+fa;پانادورا;Panadura
+en;Panabokke;Panabokka
+fa;پانابوکه;Panabokka
+nl;Panabokke;Panabokka
+fa;پامونودنیا;Pamunudeniya
+fa;پالو روتاووا;Palu Rotawewa
+fa;پالوکوپیواتا;Palukopiwatta
+fa;پاله وراگاما;Palle Weragama
+fa;پاله تنا;Palletenna
+fa;پاله تالاوینا اوداگامدا;Palle Talawinna Udagammedda
+fa;پاله ماکوروپه;Palle Makuruppe
+fa;پالکله کاداویدیا;Pallekele Kadawidiya
+fa;پاله ایهاگاما;Palle Ihagama
+fa;پالهنا;Pallehena
+fa;پاله هاپوویدا;Palle Hapuwida
+fa;پالهادووا;Pallehaduwa
+en;Pallegama Pahalagammedda;Pallegammedda
+fa;پالگاما پاهالاگامدا;Pallegammedda
+nl;Pallegama Pahalagammedda;Pallegammedda
+fa;پالگاما ایهالاگامدا;Pallegama Ihalagammedda
+fa;پاله گالادبوکا;Palle Galadebokka
+fa;پاله دلتوتا;Palle Deltota
+fa;پالئاسودوما;Palleaswedduma
+en;Aparekka;Palle Aparekka
+fa;آپارکا;Palle Aparekka
+nl;Aparekka;Palle Aparekka
+fa;پاله آلودنیا;Palle Aludeniya
+fa;پالیپانا;Palipana
+fa;پالاگولا;Palagolla
+fa;پارادورائلا;Paladoraella
+en;Pahajjawa;Pahallawa
+fa;پاهاجاوا;Pahallawa
+nl;Pahajjawa;Pahallawa
+fa;پاهالاولا;Pahalawela
+fa;پاهالاکانده باوولانا;Pahalakande Bavulana
+fa;پاهالا گانگاما;Pahala Ganegama
+fa;پاهالادیگالا;Pahaladiggala
+fa;پاهالا آتورالیا;Pahala Aturaliya
+si;පාදුක්ක;Padukka
+ja;パードゥッカ;Padukka
+fa;پادوککا;Padukka
+fa;پادوآنگا;Paduanga
+fa;پادیاپللا;Padiyapelella
+fa;پادیویتاولا;Padiwitawela
+fa;پادیویتاگاما;Padiwitagama
+fa;پادیلیکوکمادووا;Padilikokmaduwa
+fa;اویاتننا;Oyatenna
+fa;اوویلانا;Owilana
+fa;اووالاپولواتا;Owalapolwatta
+fa;اویتیپانا;Ovitipana
+fa;اوویللا;Owilla
+fa;اوویلیکاندا;Ovilikanda
+fa;اوتوره;Oture
+fa;اوتالاوا;Otalawa
+fa;اوتاگاما;Otagama
+fa;اوپالگالاواتا;Opalgalawatta
+fa;اولوواواتا;Oluwawatta
+fa;اولوپلیا;Olupeliya
+en;Oluara;Oluara South
+fa;اولوآرا;Oluara South
+nl;Oluara;Oluara South
+fa;اولیگودا;Oligoda
+fa;اولاگانواتا;Olaganwatta
+fa;اولاگاندووا;Olaganduwa
+fa;اوکاندا;Okanda
+ta;உகந்தை;Okanda
+si;ඔහිය;Ohiya
+fa;اوهیا;Ohiya
+ta;ஒஹிய;Ohiya
+fa;اودوسودان;Oddusuddan
+ta;ஒட்டுசுட்டான்;Oddusuddan
+fa;اوباداگاهادنیا;Obadagahadeniya
+ar;نوارا إليا;Nuwara Eliya
+ja;ヌワラ・エリヤ;Nuwara Eliya
+ko;누와라 엘리야;Nuwara Eliya
+si;නුවරඑළිය;Nuwara Eliya
+ta;நுவரெலியா;Nuwara Eliya
+ru;Нувара-Элия;Nuwara Eliya
+zh;努沃勒埃利耶;Nuwara Eliya
+ur;نووارا الییا;Nuwara Eliya
+fa;نووارا دودانوالا;Nuwara Dodanwala
+fa;نوگاولاگامدا;Nugawelagammedda
+fa;نوگاتنا;Nugatenna
+ceb;Nugapitiya;Nugepitiya
+en;Nugapitiya;Nugepitiya
+fa;نوگاپیتیا;Nugepitiya
+nl;Nugapitiya;Nugepitiya
+fa;نوگالیادا;Nugaliyadda
+fa;نوگاهاپولا;Nugahapola
+en;Norwood Bazaar;Norwood
+fa;نوروود بازار;Norwood
+nl;Norwood Bazaar;Norwood
+en;Harden-huish;Norton Bridge
+fa;هاردن-هویش;Norton Bridge
+nl;Harden-huish;Norton Bridge
+fa;نیارپولا;Niyarepola
+fa;نیانگودا;Niyangoda
+fa;نیانگاندارا;Niyangandara
+fa;نیامبپولا;Niyambepola
+fa;نیتولگاهاکتووا;Nitulgahakotuwa
+fa;نیتولتنا;Nittultenna
+fa;نیتاولا;Nittawela
+fa;نیلگالا;Nilgala
+fa;نیلانداهینا;Nildandahinna
+fa;نیکاولا;Nikawella
+fa;نیکاواتاوانا;Nikawatawana
+fa;نلوواکاندا;Neluwakanda
+fa;نلوگولا;Nelugolla
+fa;نهینیوالا;Nehiniwala
+ru;Негомбо;Negombo
+ta;நீர்கொழும்பு;Negombo
+si;මීගමුව;Negombo
+ja;ニゴンボ;Negombo
+zh;內貢博;Negombo
+ur;نیگومبو;Negombo
+pt;Negumbo;Negombo
+bn;নেগোম্বো;Negombo
+zh-Hans;内贡博;Negombo
+ko;네곰보;Negombo
+ar;نغومبو;Negombo
+th;เนกอมโบ;Negombo
+fa;نگومبو;Negombo
+fa;نایاکومبورا;Nayakumbura
+fa;ناوایالاتنا;Nawayalatenna
+fa;ناواراگودا;Nawaragoda
+si;නාවලපිටිය;Nawalapitiya
+ja;ナワラピティヤ;Nawalapitiya
+fa;ناوالاپیتییا;Nawalapitiya
+ta;நாவலப்பிட்டி;Nawalapitiya
+ur;ناوالاپیتیا;Nawalapitiya
+zh;納瓦拉皮提亞;Nawalapitiya
+fa;ناوالا;Nawala
+ta;நவாலி;Navaly
+si;නාඋල;Naula
+fa;نائولا;Naula
+fa;ناتارامپوتا;Nattarampota
+fa;نارانویتا;Naranwita
+fa;نارانتالاوا;Narantalawa
+fa;نارانپاناوا کاراگاستنا;Naranpanawa Karagastenna
+fa;نارانپاناوا اگوداگامدا;Naranpanawa Egodagammedda
+fa;نارانپاناوا دیسانگامدا;Naranpanawa Disaneggammedda
+fa;نارانپاناوا دمباتاگولا;Naranpanawa Dembatagolla
+fa;نارانداندا;Narandanda
+si;නාරාහේන්පිට;Narahenpita
+ja;ナラヘンピタ;Narahenpita
+fa;ناراهنپیتا;Narahenpita
+fa;ناپاتاولا;Napatawela
+fa;ناپانا هونوانگگامدا;Napana Hunuangegammedda
+fa;ناماداگالا;Namadagala
+fa;نایدووا;Naiduwa
+fa;ناگالاووا;Nagalawewa
+fa;ناگاهاتنا;Nagahatenna
+fa;ناگاهاپولا;Nagahapola
+fa;ناباداگاهاواتا;Nabadagahawatta
+ru;Дехивала-Маунт-Лавиния;Dehiwala-Mount Lavinia
+ja;デヒワラ・マウントラビニア;Dehiwala-Mount Lavinia
+si;දෙහිවල-ගල්කිස්ස;Dehiwala-Mount Lavinia
+ta;தெகிவளை-கல்கிசை;Dehiwala-Mount Lavinia
+ur;دیہیوالا-ماؤنٹ لاوینیا;Dehiwala-Mount Lavinia
+zh;代希瓦勒-芒特拉维尼;Dehiwala-Mount Lavinia
+ta;தெஹிவளை-கல்கிசை;Dehiwala-Mount Lavinia
+hi;देहीवाला-माउंट लवीनिया;Dehiwala-Mount Lavinia
+fr;Mount Lavinia;Dehiwala-Mount Lavinia
+bn;দেহিওয়ালা-মাউন্ট লাভিনিয়া;Dehiwala-Mount Lavinia
+fa;دهیوالا-ماونت لاوینیا;Dehiwala-Mount Lavinia
+fa;موتوولا;Mottuwela
+fa;موتاموره;Motamure
+ja;モラトゥワ;Moratuwa
+si;මොරටුව;Moratuwa
+ta;மொறட்டுவை;Moratuwa
+ur;موراتووا;Moratuwa
+ru;Моратува;Moratuwa
+zh;莫拉圖瓦;Moratuwa
+fa;موراپه پالگامدا;Morape Pallegammedda
+fa;موراهنگاما;Morahenegama
+fa;موراگولیایا;Moragolleyaya
+fa;موراگاسپیتیا;Moragaspitiya
+fa;موراگاهائوپوتا;Moragahaulpota
+fa;موناروویلا;Monaruwila
+fa;مولاگودا;Molagoda
+fa;مولاداندا;Moladanda
+fa;میواتورا;Miwatura
+fa;میوالادنیا;Miwaladeniya
+fa;میتالاوا;Mitalawa
+fa;میروپا;Miruppa
+fa;میریاکادا;Miriyakada
+fa;میریسالا;Mirissala
+fa;میراهامپه;Mirahampe
+ta;மினுவந்கொட;Minuwangoda
+si;මිනුවන්ගොඩ;Minuwangoda
+fa;مینیپه;Minipe
+ta;மினிப்பே;Minipe
+fa;مینیگامووا;Minigamuwa
+fa;میلاوانا ایهالاگاما;Millawana Ihalagama
+fa;میگاسکوتووا;Migaskotuwa
+fa;میگامانا پالگاما;Migammana Pallegama
+fa;میگامانا ماهاگامدا;Migammana Mahagammedda
+fa;میگامانا ایهالاگامدا;Migammana Ihalagammedda
+fa;میگامانا;Migammana
+fa;متیوالاتنا;Metiwalatenna
+fa;متیهاکا;Metihakka
+fa;متیدنیا;Metideniya
+fa;متیبمبیا;Metibembiya
+fa;مللاگولا;Mellagola
+fa;مدیاپولا;Mediyapola
+fa;مدیواکا;Mediwaka
+fa;مدیریا;Mediriya
+fa;مدیلتنا;Medilletenna
+fa;مدیللا;Medilla
+fa;مداپیتیا;Medapitiya
+fa;مداپیتیتنا;Medapititenna
+fa;مداپیهیلا;Medapihilla
+fa;مداکومبورا;Medakumbura
+fa;مداکله;Medakele
+fa;مداکاندا;Medakanda
+ceb;Mawilmada;Mavilmada
+en;Mawilmada;Mavilmada
+fa;ماویلمادا;Mavilmada
+nl;Mawilmada;Mavilmada
+fa;ماواتورا;Mawatura
+fa;ماواتاپولا;Mawatapola
+zh-Hant;馬沃內勒;Mawanella
+si;මාවනැල්ල;Mawanella
+fa;ماوانلا;Mawanella
+ta;மாவனல்லை;Mawanella
+zh;马沃内勒;Mawanella
+si;මතුගම;Matugama
+fa;ماتوگاما;Matugama
+ur;ماتوگاما;Matugama
+zh;馬圖格默;Matugama
+ru;Матара;Matara
+ja;マータラ;Matara
+si;මාතර;Matara
+ta;மாத்தறை;Matara
+zh;馬塔拉;Matara
+hi;मतारा;Matara
+bn;মাতারা;Matara
+ur;ماتارا;Matara
+kn;ಮಾತಾರ;Matara
+ko;마타라;Matara
+mr;मटार;Matara
+gu;મટારા;Matara
+ar;ماتارا;Matara
+te;మటారా;Matara
+th;มาตาระ;Matara
+fa;ماتارا;Matara
+fa;ماتاله پولواتا;Matale Polwatta
+ja;マータレー;Matale
+si;මාතලේ;Matale
+ta;மாத்தளை;Matale
+ur;ماتالے;Matale
+ru;Матале;Matale
+hi;मताले;Matale
+bn;মাথাল;Matale
+zh-Hans;马特莱;Matale
+kn;ಮಾಟಲೆ;Matale
+ko;마탈르;Matale
+mr;मटाले;Matale
+zh;馬特萊;Matale
+gu;મટાલે;Matale
+ar;ماتال;Matale
+te;మాటేల్;Matale
+th;มาตาเล;Matale
+fa;متاله;Matale
+fa;ماتالاپیتیا;Matalapitiya
+fa;ماسولا;Maswela
+si;මස්කෙළිය;Maskeliya
+ja;マスケリア;Maskeliya
+fa;ماسکلیا;Maskeliya
+ta;மஸ்கெலியா;Maskeliya
+si;මාරුද්දන;Maruddana
+fa;مارودانا;Maruddana
+de;Marawila;Marawila Town
+si;මාරවිල;Marawila Town
+en;Marawila;Marawila Town
+it;Marawila;Marawila Town
+fa;ماراویلا;Marawila Town
+fr;Marawila;Marawila Town
+es;Marawila;Marawila Town
+nl;Marawila;Marawila Town
+fa;ماراواناگودا;Marawanagoda
+fa;ماراتوولا;Maratuwela
+fa;ماراتوگودا;Maratugoda
+fa;ماپالانا;Mapalana
+ja;マンナール;Mannar
+si;මන්නාරම;Mannar
+ta;மன்னார்;Mannar
+ur;مانار، سری لنکا;Mannar
+fa;مانیلوالا;Manilwala
+fa;مانگودا;Mangoda
+fa;مانداران نوارا;Mandaran Newara
+fa;ماناهیندا;Manahinda
+fa;مانابودا;Manaboda
+ta;மாம்புரி;Mampuri
+ceb;Malwanahinna;Maluanehinna
+en;Malwanahinna;Maluanehinna
+fa;مالواناهینا;Maluanehinna
+nl;Malwanahinna;Maluanehinna
+fa;مالوللا;Malulla
+si;මාලිගාවත්ත;Maligawatta
+ja;マリガワッタ;Maligawatta
+fa;مالیگاواتا;Maligawatta
+ta;மாளிகாவத்தை;Maligawatta
+ur;مالیگاواٹے;Maligawatta
+fa;مالگاندنیا;Malgandeniya
+fa;مالگامانا;Malgammana
+fa;مالاگکومبورا;Malagekumbura
+fa;مالاگامانا;Malagammana
+fa;ماکولوسا کولونی;Makulussa Colony
+fa;ماکولدنیا;Makuldeniya
+fa;ماکمپه;Makempe
+fa;ماکلیاوالا;Makeliyawala
+si;මහරගම;Maharagama
+ja;マハラガマ;Maharagama
+fa;ماهاراگاما;Maharagama
+ta;மகரகம;Maharagama
+zh;馬哈拉賈馬;Maharagama
+ru;Махарагама;Maharagama
+fa;ماهالاکوتووا;Mahalakotuwa
+fa;ماهیاوا;Mahaiyawa
+fa;ماهاگاما مگوداگاما;Mahagama Megodagama
+en;Mahagama Egodagama;Egodagama
+fa;ماهاگاما اگوداگاما;Egodagama
+nl;Mahagama Egodagama;Egodagama
+fa;ماها آسودوما;Maha Aswedduma
+fa;مادورانکولی;Madurankuli
+ur;میڈورانکولی;Madurankuli
+ta;மதுரங்குளி;Madurankuli
+fa;مادولکله;Madulkele
+ur;میڈولکیلی;Madulkele
+ta;மடுல்கல;Madulkele
+fa;مادیپولا ماراکالاباگه;Madipola Marakkalabage
+ur;میڈیپولا ماراکالاباگی;Madipola Marakkalabage
+fa;مادیلیگاما;Madiligama
+ur;میڈیلیگاما;Madiligama
+fa;مادیهه غربی;Madihe West
+ur;میڈیہی ویسٹ;Madihe West
+fa;مادیهه شرقی;Madihe East
+ur;میڈیہی ایسٹ;Madihe East
+fa;ماددوماگگودا;Maddumagegoda
+ur;میڈوماگیگوڈا;Maddumagegoda
+en;Madawala Madige;Medawala-Madige
+fa;ماداوالا مادیگه;Medawala-Madige
+ur;میڈاوالا میڈیگی;Medawala-Madige
+nl;Madawala Madige;Medawala-Madige
+fa;ماداوا دمالاباج;Madawala Demalabage
+ur;میڈاوالا ڈیمالاباگی;Madawala Demalabage
+ceb;Madawala;Madawela
+en;Madawala;Madawela
+fa;ماداوالا;Madawela
+ur;میڈاوالا;Madawela
+nl;Madawala;Madawela
+fa;مادانپیتیا;Madanpitiya
+ur;معدن پیٹییا;Madanpitiya
+fa;ماداهاپولاکاندا;Madahapolakanda
+ur;میڈاہاپولاکانڈا;Madahapolakanda
+fa;مابوتووانا;Mabotuwana
+ur;مابوٹووانا;Mabotuwana
+si;Three phase electric;Mabodale
+fa;مابوداله;Mabodale
+fa;مابینگودا;Mabingoda
+ur;مابینگوڈا;Mabingoda
+fa;مابریا;Maberiya
+ur;مابیرییا;Maberiya
+fa;لونوویلا;Lunuwila
+si;ලුණුගල;Lunugala
+fa;لونوگالا;Lunugala
+si;ලුනාව;Lunawa
+fa;لولکاده;Loolkade
+fa;لو للا;Lolla
+en;Liyanwela Pahalagama;Liyanwala Pahalagama
+fa;لیانولا پاهالاگاما;Liyanwala Pahalagama
+nl;Liyanwela Pahalagama;Liyanwala Pahalagama
+fa;لیاناگودا;Liyanagoda
+fa;لیاندنیا;Liyandeniya
+fa;لینتوتاپایا;Lintotapaya
+fa;لینیاکتیا;Liniyaketiya
+fa;لولاگولا;Lewellagolla
+fa;لوللا;Lewella
+fa;لودووا;Lewduwa
+fa;لسلیواتا;Lesliewatta
+fa;لناوالا;Lenawala
+en;Lenewa;Lenawa
+fa;لنه وا;Lenawa
+nl;Lenewa;Lenawa
+fa;لنادووا;Lenaduwa
+fa;لنادورا;Lenadora
+fa;لماسوریاگاما;Lemasuriyagama
+fa;للویا;Leloya
+fa;للکادا;Lelkada
+fa;لگوندنیا;Legundeniya
+fa;لاپاناگاما;Lappanagama
+ur;لاپاناگاما;Lappanagama
+fa;لامتیا;Lametiya
+ur;لامیٹیا;Lametiya
+fa;لالپه;Lalpe
+ur;لالپی;Lalpe
+fa;لابوگولا;Labugolla
+ur;لابوگولا;Labugolla
+ta;කුරුවිට;Kuruwita
+ru;Курунегала;Kurunegala
+ta;குருணாகல்;Kurunegala
+ja;クルネーガラ;Kurunegala
+si;කුරුණෑගල නගරය;Kurunegala
+ar;كورونيغالا;Kurunegala
+ko;쿠루네갈라;Kurunegala
+ur;کرنیگالا;Kurunegala
+kk;Құрынегала;Kurunegala
+ky;Курунегала;Kurunegala
+hi;कुरुनेगल;Kurunegala
+bn;কুরুনেগল;Kurunegala
+fa;کرونیگالا;Kurunegala
+pa;ਕੁਰੁਨੇਗਲ;Kurunegala
+ps;کرونیگالا;Kurunegala
+tg;Курунегала;Kurunegala
+fa;کونداساله;Kundasale
+ta;குண்டசாலை;Kundasale
+en;Kumarapediya;Kumarapeliya
+nl;Kumarapediya;Kumarapeliya
+fa;کوماراکاتوا;Kumarakattuwa
+si;කුලියාපිටිය;Kuliyapitiya
+ja;クリヤピティヤ;Kuliyapitiya
+fa;کولییاپیتییا;Kuliyapitiya
+ur;کولیاپیتیا;Kuliyapitiya
+ta;குளியாப்பிட்டி;Kuliyapitiya
+si;කුච්චවේලි;Kuchchaveli
+fa;کوچاولی;Kuchchaveli
+ta;குச்சவெளி கிராம அலுவலர் பிரிவு;Kuchchaveli
+de;Sri Jayawardenepura;Sri Jayewardenepura Kotte
+en;Kotte;Sri Jayewardenepura Kotte
+ja;スリジャヤワルダナプラコッテ;Sri Jayewardenepura Kotte
+ko;스리자야와르다나푸라;Sri Jayewardenepura Kotte
+nl;Kotte;Sri Jayewardenepura Kotte
+pt;Kotte;Sri Jayewardenepura Kotte
+ru;Шри-Джаяварденепура-Котте;Sri Jayewardenepura Kotte
+ta;கோட்டே;Sri Jayewardenepura Kotte
+id;Kotte;Sri Jayewardenepura Kotte
+vi;Sri Jayawardenepura Kotte;Sri Jayewardenepura Kotte
+en;New Capital Territory;Sri Jayewardenepura Kotte
+si;කොට්ටාව;Kottawa
+fa;کوتتاوا;Kottawa
+si;කොත්මලේ;Kotmale
+fa;کوتماله;Kotmale
+ta;கொத்மலை;Kotmale
+fa;کوتین‌کادووا;Kotinkaduwa
+fa;کوتیکامبه;Kotikambe
+fa;کوتاواگورا;Kotawagura
+fa;کوتالیگودا;Kotaligoda
+fa;کوتاکومبورا;Kotakumbura
+ta;கொடகும்பர;Kotakumbura
+fa;کوتاکپیتیا;Kotakepitiya
+fa;کوتاکدنیا;Kotakedeniya
+fa;کوسوانا;Koswana
+fa;کوسکوته;Koskote
+fa;کوسگودا;Kosgoda
+ta;கோண்டாவில்;Kondavil
+fa;کوندادنیا;Kondadeniya
+fa;کولوگالا;Kolugala
+fa;کولونللا;Kolonella
+fa;کولاولا;Kollawela
+ta;கொக்குவில்;Kokkuvil
+en;Kokkadichcholai;Kokkaddicholai
+fa;کوکادیچولای;Kokkaddicholai
+ta;கொக்கட்டிச்சோலை;Kokkaddicholai
+nl;Kokkadichcholai;Kokkaddicholai
+fa;کوهوناپوواکگاها-الا;Kohonapuwakgaha-ela
+fa;کوهومادا;Kohomada
+fa;کوهولانوالا;Koholanwala
+ru;Коггала;Koggala
+ta;கொக்கலை;Koggala
+fa;کوچیکادووا;Kochchikaduwa
+fa;کوبه‌والا;Kobbewala
+en;Kobbeakaduwa;Koubekaduwa
+fa;کوبئاکادووا;Koubekaduwa
+nl;Kobbeakaduwa;Koubekaduwa
+fa;کیول-اولپوتا;Kiul-ulpota
+fa;کیولوادیا;Kiulewadiya
+fa;کیتولپه;Kitulpe
+fa;کیتولدورا;Kituldora
+fa;کیتولانگومووا;Kitulangomuwa
+fa;کیرلولگاما;Kirlulgama
+en;Kiriwavula;Kiriwaula
+fa;کیریواوولا;Kiriwaula
+nl;Kiriwavula;Kiriwaula
+fa;کیریوان الیا;Kiriwan Eliya
+fa;کیریواناودا;Kiriwanagoda
+fa;کیریپاتیا;Kiripattiya
+ta;கிரிண்டிவேலா;Kirindiwela
+si;කිරින්දිවැල;Kirindiwela
+fa;کیریندکتیا;Kirindiketiya
+fa;کیریندولا;Kirindewela
+fa;کیریمدیلا;Kirimedilla
+fa;کیریگانکومبورا;Kirigankumbura
+fa;کیریباتکومبورا;Kiribatkumbura
+fa;کیرالسا;Kiralessa
+fa;کیرالاگولا;Kiralagolla
+fa;کیرالاگاما;Kiralagama
+fa;کیمبولانتوتا;Kimbulantota
+en;Ketayapatana;Keetayapathana
+fa;کتایاپاتانا;Keetayapathana
+nl;Ketayapatana;Keetayapathana
+fa;کتاکومبورا;Ketakumbura
+fa;کتاکاندورا;Ketakandura
+hi;केस्बेवा;Kesbewa
+ru;Кесбева;Kesbewa
+bn;কেসবাওয়া;Kesbewa
+zh-Hans;凯斯贝瓦;Kesbewa
+si;කෙස්බෙවා;Kesbewa
+ur;کیسبیوا;Kesbewa
+kn;ಕೆಸ್ಬಾವಾ;Kesbewa
+ko;케사브와;Kesbewa
+mr;केशबावा;Kesbewa
+ta;கெஸ்பேவா;Kesbewa
+gu;કેસબાવા;Kesbewa
+ar;كيسبيوا;Kesbewa
+te;కేస్బెవా;Kesbewa
+th;เคสเบวา;Kesbewa
+ja;ケスベワ;Kesbewa
+fa;کسبوا;Kesbewa
+fa;کنگاللا پاهالاگامدا;Kengalla Pahalagammedda
+fa;کنگاللا;Kengalla
+ta;கெங்கல்ல;Kengalla
+fa;کندانگامووا;Kendangamuwa
+fa;کنداگولامادا;Kendagollamada
+fa;کلیالپیتیا;Keliyalpitiya
+ta;களனி;Kelaniya
+si;කැලණිය;Kelaniya
+zh;給拉尼亞;Kelaniya
+zh-Hans;给拉尼亚;Kelaniya
+zh-Hant;開拉尼亞;Kelaniya
+ja;キャラニヤ;Kelaniya
+fa;کلانییا;Kelaniya
+ur;کلنیہ;Kelaniya
+ml;കെലാനിയ;Kelaniya
+fa;ککولالا;Kekulalla
+fa;ککالاواتا;Kekelawatta
+ja;ケーガッラ;Kegalle
+si;කෑගල්ල;Kegalle
+ta;கேகாலை;Kegalle
+ur;کاگال;Kegalle
+ru;Кегалле;Kegalle
+hi;केगल;Kegalle
+bn;কিগল;Kegalle
+zh-Hans;卡格拉;Kegalle
+kn;ಕೆಗಲ್ಲೆ;Kegalle
+ko;케갈레;Kegalle
+mr;केगल्ले;Kegalle
+gu;કેગેલ;Kegalle
+zh;凱格勒;Kegalle
+ar;كيجاللا;Kegalle
+te;కేగల్;Kegalle
+th;เคกาลล์;Kegalle
+fa;کگاله;Kegalle
+fa;کاوودوپیتیا;Kavudupitiya
+si;කටුගස්තොට;Katugastota
+ja;カトゥガストタ;Katugastota
+fa;کاتوگاستوتا;Katugastota
+ta;கட்டுகஸ்தோட்டை;Katugastota
+fa;کاتوروپیتیا;Kathurupitiya
+fa;کاتیراولی;Kathiraveli
+ta;கதிரவெளி;Kathiraveli
+fa;کاتاراندانا;Katarandana
+ru;Катарагама;Kataragama
+ta;கதிர்காமம்;Kataragama
+si;කතරගම;Kataragama
+th;กตรคาม;Kataragama
+ja;カタラガマ;Kataragama
+fa;کاتاراگاما;Kataragama
+fa;کارووالاکلواتا;Karuwalakelewatta
+fa;کارووالاگاهادوالا;Karuwalagahadewala
+fa;کاراندامادیتا;Karandamaditta
+fa;کارامیندولا;Karamindula
+ceb;Karaliyadda;Karalliyadda
+si;කරල්ලියද්ද;Karalliyadda
+en;Karaliyadda;Karalliyadda
+fa;کارالیادا;Karalliyadda
+ta;கரல்லியத்த;Karalliyadda
+nl;Karaliyadda;Karalliyadda
+fa;کاراکولاگاستنا;Karakolagastenna
+fa;کاراکولاگاهاتنا;Karakolagahatenna
+ru;Карагама;Karagama
+fa;کاراگاما;Karagama
+ru;Канди;Kandy
+ta;கண்டி;Kandy
+ar;كاندي;Kandy
+zh;康提;Kandy
+si;මහනුවර;Kandy
+hi;कैंडी;Kandy
+mr;कॅन्डी;Kandy
+th;กัณฏิ;Kandy
+ja;キャンディ;Kandy
+ko;캔디;Kandy
+ne;क्यान्डी;Kandy
+ml;കണ്ടി;Kandy
+bn;ক্যান্ডি;Kandy
+fa;کندی;Kandy
+ky;Канди;Kandy
+ur;کینڈی;Kandy
+kk;Канди;Kandy
+pa;ਕਾਂਡੀ;Kandy
+ps;کندي;Kandy
+tg;Канди;Kandy
+fa;کاندوره‌گودا;Kanduregoda
+fa;کاندموراگولا;Kandemoragolla
+ru;Кандегама;Kandegama
+fa;کاندگاما;Kandegama
+fa;میلاپیتیا;Millapitiya
+en;Kandapola;Kandapola Colony
+fa;کانداپولا;Kandapola Colony
+nl;Kandapola;Kandapola Colony
+fa;کاندانهنا;Kandanhena
+fa;کاندانگاما;Kandangama
+ta;கந்தானை;Kandana
+si;කඳාන;Kandana
+ja;カンダナ;Kandana
+fa;کاندانا;Kandana
+bn;কান্দনা;Kandana
+ru;Кандана;Kandana
+fa;کانانگامووا;Kanangamuwa
+fa;کاناکاراپولا;Kanakkarapola
+fa;کامبوروپیتیا;Kamburupitiya
+fa;کامباراوا;Kambarawa
+fa;کالووانه;Kaluwane
+ru;Калутара;Kalutara
+hi;कलूतारा;Kalutara
+bn;কালুতারা;Kalutara
+zh-Hans;卡鲁塔拉;Kalutara
+si;කළුතර;Kalutara
+ur;کالوتارا;Kalutara
+kn;ಕಲುತಾರ;Kalutara
+ko;칼루타라;Kalutara
+mr;कटुरात;Kalutara
+ta;களுத்துறை;Kalutara
+zh;卡魯塔拉;Kalutara
+gu;કાલુતરા;Kalutara
+ar;كالوتارا;Kalutara
+te;కాలుతారా;Kalutara
+th;กาลูทารา;Kalutara
+ja;カルタラ;Kalutara
+fa;کالوتارا;Kalutara
+fa;کالوگانگا;Kaluganga
+fa;کالوگال-اویا;Kalugal-oya
+fa;کالودوالا;Kaludewala
+fa;کالودمادا;Kaludemada
+fa;کالودللا;Kaludella
+fa;کالوتوواوا;Kalotuwawa
+si;කල්මුනේ;Kalmunai
+ta;கல்முனை;Kalmunai
+ru;Калмунай;Kalmunai
+fa;کالاولدنیا;Kalaweldeniya
+fa;کالاواگاهاوادیا;Kalawagahawadiya
+en;Kalalgamuwa;Kalalgomuwa
+fa;کالالگامووا;Kalalgomuwa
+nl;Kalalgamuwa;Kalalgomuwa
+fa;کالاگولا;Kalagolla
+fa;کالاگانواتا;Kalaganwatta
+fa;کاهاواتوگودا;Kahawatugoda
+fa;کاهاتاگاستنا;Kahatagastenna
+fa;کاهاتاگاها آسودوما;Kahatagaha Aswedduma
+fa;کاهاتاداندا;Kahatadanda
+si;කඩුගන්නාව;Kadugannawa
+ja;カドゥガンナワ;Kadugannawa
+fa;کادوگاناوا;Kadugannawa
+ta;கடுகண்ணாவை;Kadugannawa
+ur;کادوگاناوا;Kadugannawa
+fa;کادیهینگالا;Kadihingala
+fa;کادددووا;Kadedduwa
+fa;کاددووا;Kadduwa
+fa;کاداوداوا;Kadaweddawa
+fa;کادادورا پالگامدا;Kadadora Pallegammedda
+fa;کاباراگومادیتا;Kabaragomaditta
+fa;جانساگاما;Jansagama
+ur;جنسگامہ;Jansagama
+fa;جاندورا;Jandura
+en;Jamburutugoda;Jamburuutugoda
+fa;جامبوروتوگودا;Jamburuutugoda
+ur;جمبرتگودہ;Jamburuutugoda
+nl;Jamburutugoda;Jamburuutugoda
+fa;جامبورگودا;Jamburegoda
+ur;جمبرگودہ;Jamburegoda
+fa;جاهاکاگاما;Jahakagama
+ur;جہاک گامہ;Jahakagama
+ta;யாழ்ப்பாணம்;Jaffna
+ru;Джафна;Jaffna
+ko;자프나;Jaffna
+te;జాఫ్నా;Jaffna
+mr;जाफना;Jaffna
+ja;ジャフナ;Jaffna
+si;යාපනය;Jaffna
+ar;جافنا;Jaffna
+hi;जाफना;Jaffna
+ml;ജാഫ്ന;Jaffna
+zh;賈夫納;Jaffna
+fa;جافنا;Jaffna
+pa;ਜਾਫਨਾ;Jaffna
+ur;جافنا;Jaffna
+kk;Яффна;Jaffna
+ky;Яффна;Jaffna
+bn;জাফনা;Jaffna
+ps;جفنا;Jaffna
+tg;Яффна;Jaffna
+ta;ஜா-எல;Ja Ela
+si;ජා-ඇල;Ja Ela
+fa;ایووراوالا;Ivurawala
+fa;ایراکامام;Irakkamam
+ta;இறக்காமம்;Irakkamam
+fa;ایپیلادانا;Ipiladana
+fa;اینگوروواتا;Inguruwatta
+si;ඉංගිරිය;Ingiriya
+ja;インギリヤ;Ingiriya
+fa;اینگیریا;Ingiriya
+fa;ایمبولمالگاما;Imbulmalgama
+fa;ایمبولگولا;Imbulgolla
+fa;ایمبولتننا;Imbuletenna
+fa;ایمبولدنیا;Imbuldeniya
+fa;ایمبولانداندا;Imbulandanda
+fa;ایلاوالای;Ilavalai
+ta;இளவாலை;Ilavalai
+si;ඉලුක්හේන;Ilukhena
+fa;ایلوکهنا;Ilukhena
+fa;ایللاواتورا;Illawatura
+fa;ایللاگولا;Illagolla
+en;Ihala Vitiyala;Ihala Witiyala
+fa;ایهالا ویتیالا;Ihala Witiyala
+nl;Ihala Vitiyala;Ihala Witiyala
+fa;ایهالا کومبوکووا;Ihala Kumbukwewa
+en;Ihalakande Bavulana;Ihalakande
+fa;ایهالاکانده باوولانا;Ihalakande
+nl;Ihalakande Bavulana;Ihalakande
+fa;ایهالا گانگاما;Ihala Ganegama
+en;Ihalagama Niyangama;Niyangama
+fa;ایهالاگاما نیانگاما;Niyangama
+nl;Ihalagama Niyangama;Niyangama
+fa;ایهالادیگالا;Ihaladiggala
+fa;ایهالا آتورالیا;Ihala Aturaliya
+fa;ایهاگاما;Ihagama
+fa;ایدانتوتا;Idantota
+fa;ایداملاندا;Idamelanda
+en;Idamagama;Idamegama
+fa;ایداماگاما;Idamegama
+nl;Idamagama;Idamegama
+fa;ایباوالا;Ibbawala
+fa;هوریکادووا;Hurikaduwa
+fa;هونوکتلا;Hunuketella
+fa;هونوکتاولا;Hunuketawala
+fa;هونوگالپیتیا;Hunugalpitiya
+fa;هونوانگه ایمبولکوتادنیا;Hunuange Imbulkotadeniya
+fa;هونوانگه بوگاسکومبورگاممدا;Hunuange Bogaskumburegammedda
+fa;هونناسگیریا;Hunnasgiriya
+fa;هولوگانگا;Huluganga
+fa;هودوهومپولا;Huduhumpola
+fa;هوراکادا;Horakada
+fa;هوراگاهاپیتیا;Horagahapitiya
+fa;هومباوا;Hombawa
+fa;هیاولا;Hiyawela
+fa;هیاراپیتیا;Hiyarapitiya
+fa;هیتیگولا;Hitigolla
+fa;هیتیگگاما;Hitigegama
+fa;هیتگودا والپولا;Hitgoda Walpola
+fa;هیتگودا;Hitgoda
+fa;هیریالاگاماننا;Hiriyalagammana
+fa;هینگورولا;Hingurewela
+fa;هیناگاما;Hinagama
+fa;هیمبیلیاکادا;Himbiliyakada
+fa;هیلتون کولونی;Hilton Colony
+fa;هیلپانکاندورا;Hilpankandura
+ru;Хиккадува;Hikkaduwa
+fa;هیددائولا;Hiddaulla
+fa;هوانتنا;Hewanetenna
+fa;هواهتا;Hewaheta
+fa;هپانا;Hepana
+en;Henapola;Henepola
+fa;هناپولا;Henepola
+nl;Henapola;Henepola
+ceb;Henegama Palkumbura;Henegama
+en;Henegama Palkumbura;Henegama
+fa;هنگاما پالکومبورا;Henegama
+nl;Henegama Palkumbura;Henegama
+fa;هندنیا;Hendeniya
+fa;هنایا روتاووا;Henaya Rotawewa
+fa;همباراوا;Hembarawa
+fa;هماگاهاهنا;Hemagahahena
+fa;هلامباگاهاواتا;Helambagahawatta
+fa;هگاما;Hegama
+fa;هدونوواوا;Hedunuwawa
+si;තිඹිරිගස්යාය;Havelock Town
+ja;ハーベロック・タウン;Havelock Town
+fa;هیولاک تاون;Havelock Town
+ta;ஹெவ்லொக் நகரம்;Havelock Town
+ta;ஹட்டன்;Hatton
+si;හැටන්;Hatton
+fa;هاتیالولا;Hatiyalwela
+fa;هاتیالدنیا;Hatiyaldeniya
+si;හාතාගොඩ;Hathagoda
+fa;هاتارالیادا;Hataraliyadda
+ta;ஹதரலியத்த;Hataraliyadda
+fa;هاتادوکووا;Hatadukkuwa
+fa;هاسالاکا;Hassalaka
+fa;هاراسگاما;Harasgama
+fa;هاراسبددا;Harasbedda
+fa;هارانگالا;Harangala
+fa;هاراکولا;Harakola
+fa;هاراگاما;Haraggama
+fa;هاپووالا;Hapuwala
+fa;هاپوتاله اوداگاما;Haputale Udagama
+ta;அப்புத்தளை;Haputale Udagama
+ceb;Haputale Pallegama;Haputale
+en;Haputale Pallegama;Haputale
+fa;هاپوتاله پالگاما;Haputale
+nl;Haputale Pallegama;Haputale
+ta;ஹபுதலே;Haputale
+si;හපුතලේ;Haputale
+fa;هاپوپه;Hapupe
+fa;هاپوکاندا;Hapukanda
+fa;هاپوگاستالاوا;Hapugastalawa
+fa;هاپوگاسپیتیا;Hapugaspitiya
+fa;هاپوگاهاپیتیا;Hapugahapitiya
+fa;هاپوگاهامولا;Hapugahamulla
+fa;هاپودانداوالا;Hapudandawala
+si;හප්පාවර;Happawara
+fa;هاپاوارا;Happawara
+si;හංවැල්ල බලකොටුව;Hanwella Ihala
+fa;هانگاراپیتیا;Hangarapitiya
+fa;هانگاراندنیا;Hangarandeniya
+fa;هاندسسا;Handessa
+fa;هانداگاناوا;Handaganawa
+zh;漢達甘納瓦;Handaganawa
+ceb;Handabowa;Handbowa
+en;Handabowa;Handbowa
+fa;هاندابووا;Handbowa
+nl;Handabowa;Handbowa
+si;හම්බන්තොට;Hambantota
+mr;हंबन्टोटा;Hambantota
+ta;அம்பாந்தோட்டை;Hambantota
+ja;ハンバントタ;Hambantota
+ko;함반토타;Hambantota
+ru;Хамбантота;Hambantota
+zh;汉班托塔;Hambantota
+fa;هامبانتوتا;Hambantota
+ml;ഹമ്പൻടോട്ട;Hambantota
+ur;ہامبانتوتا;Hambantota
+hi;हम्बनटोटा;Hambantota
+bn;হাম্বানটোটা;Hambantota
+zh-Hant;漢班托塔;Hambantota
+kn;ಹ್ಯಾಂಬಂಟೊಟ;Hambantota
+zh-HK;漢班托塔;Hambantota
+gu;હમ્બાન્ટોટા;Hambantota
+ar;هامبانتوتا;Hambantota
+te;హంబాన్టోట;Hambantota
+th;แฮมบันโตตา;Hambantota
+si;හල්තොට;Haltota
+fa;هالپولا;Halpola
+fa;هالمینیا;Halminiya
+fa;هالیاددا;Haliyadda
+fa;هالدومولا;Haldummulla
+fa;هالانگودا;Halangoda
+fa;هالاگاما;Halagama
+fa;هالادیولا;Haladiwela
+fa;هاکوروتاله;Hakurutale
+fa;هاکمانا;Hakmana
+fa;هابوروگالا;Haburugala
+ur;ہابوروگالا;Haburugala
+fa;هاباراتوالا;Habarattewala
+ur;ہاباراتوالا;Habarattewala
+si;හබරණ;Habarana
+fa;هابارانا;Habarana
+ta;அபரணை;Habarana
+zh;哈巴拉那;Habarana
+fa;هابارادووا غربی;Habaraduwa West
+ur;ہابارادوا مغرب;Habaraduwa West
+fa;هابارادووا;Habaraduwa
+my;ဟဘရဒူဝမြို့;Habaraduwa
+ur;ہابارادوا;Habaraduwa
+fa;هاباکالا;Habakkala
+ur;ہاباکلا;Habakkala
+fa;گورولوپوتا;Gurulupota
+fa;گوروکته;Gurukete
+fa;گوروگاما;Gurugama
+en;Gurugalle Ella;Gurugalaella
+fa;گوروگاله الا;Gurugalaella
+nl;Gurugalle Ella;Gurugalaella
+fa;گورودنیا;Gurudeniya
+fa;گونپانا پالگامدا;Gunnepana Pallegammedda
+fa;گونپانا مادیگه;Gunnepana Madige
+fa;گونپانا گاباداگاما;Gunnepana Gabadagama
+fa;گوناداها;Gunadaha
+fa;گونه‌والا;Gonewala
+fa;گونداولا;Gondawela
+fa;گولاهنواتا;Golahenwatta
+fa;گوداتاله;Godatale
+fa;گوداپوسا;Godapussa
+si;ගොඩාමුණ;Godamunna
+en;Godamuna;Godamunna
+fa;گودامونا;Godamunna
+nl;Godamuna;Godamunna
+fa;گیرائوللا;Giraulla
+en;Giragma;Giragama
+fa;گیراگما;Giragama
+nl;Giragma;Giragama
+fa;گینورووا;Ginnoruwa
+si;ගිනිගත්හේන;Ginigathhena
+en;Ginigathena;Ginigathhena
+fa;گینیگاتنا;Ginigathhena
+ta;கினிகத்தனை;Ginigathhena
+nl;Ginigathena;Ginigathhena
+es;Ginigathena;Ginigathhena
+en;Gettapola;Geltapola
+fa;گتتاپولا;Geltapola
+nl;Gettapola;Geltapola
+si;ගැටබේ;Getambe
+fa;گتامبه;Getambe
+fa;گراندیگالا;Gerandigala
+fa;گدارامادا;Gedaramada
+fa;گانساراپولا;Gansarapola
+en;Gannoruwa;Gannoruwa East
+fa;گانورووا;Gannoruwa East
+nl;Gannoruwa;Gannoruwa East
+fa;گانکوالا;Gankewala
+fa;گانهاتا;Ganhata
+fa;گانگولدنیا;Ganguldeniya
+fa;گانگاهنوالا;Gangahenwala
+fa;گانگالاگاممدا;Ganegalagammedda
+fa;گامپولاولا;Gampolawela
+ta;கம்பளை;Gampola
+si;ගම්පොල;Gampola
+hi;गाम्पोला;Gampola
+ru;Гампола;Gampola
+bn;গাম্পোলা;Gampola
+zh-Hant;甘波羅;Gampola
+ur;گامپولا;Gampola
+kn;ಕಂಬಳ;Gampola
+ko;갬폴라;Gampola
+mr;गॅम्पाला;Gampola
+gu;ગેમ્પોલા;Gampola
+zh;加姆波勒;Gampola
+ar;غامبولا;Gampola
+te;గంపోలా;Gampola
+th;คัมปาฮา;Gampola
+ja;ガンポラ;Gampola
+fa;گرامپولا;Gampola
+tr;Gambpola;Gampola
+ja;ガンパハ;Gampaha
+si;ගම්පහ;Gampaha
+ta;கம்பகா;Gampaha
+ur;گامپاہا;Gampaha
+zh;加姆珀哈;Gampaha
+hi;गम्पाहा;Gampaha
+ru;Гампаха;Gampaha
+bn;গেমপাহা;Gampaha
+kn;ಕೊಲಂಬಿಯಾ;Gampaha
+ko;감파하;Gampaha
+mr;गॅम्पाहा;Gampaha
+gu;ગમ્પાહા;Gampaha
+ar;جامباها;Gampaha
+te;గంపాహ;Gampaha
+th;คัมปาฮา;Gampaha
+fa;گامپاها;Gampaha
+fa;گامونوکومبورا;Gammunukumbura
+si;ගම්මුල්ල;Gammulla
+fa;گاموللا;Gammulla
+fa;گامادووا;Gammaduwa
+ta;கம்மதுவ;Gammaduwa
+fa;گالوتیایا;Galwetiyaya
+fa;گالوانگدیهنا;Galwangedihena
+fa;گالوادوکومبورا;Galwadukumbura
+fa;گالوکه;Galuke
+fa;گالپیتیا;Galpitiya
+ru;Галле;Galle
+ta;காலி;Galle
+th;กอลล์;Galle
+ko;갈;Galle
+mr;गाली;Galle
+si;ගාල්ල;Galle
+ja;ゴール;Galle
+hi;गाल्ल;Galle
+ml;ഗാലെ;Galle
+zh;加勒;Galle
+ar;غالي;Galle
+bn;গালে;Galle
+fa;گالی;Galle
+ne;गाल;Galle
+ur;گال;Galle
+kk;Галле;Galle
+ky;Галле;Galle
+pa;ਗਾਲੇ;Galle
+ps;ګالې;Galle
+tg;Галле;Galle
+fa;گاللاهاواتا;Gallahawatta
+fa;گالکتیولا;Galketiwela
+fa;گالکاداولا;Galkadawela
+si;ගල්හින්න;Galhinna
+fa;گالهینا;Galhinna
+si;ගලේවෙල;Galewela
+fa;گاله‌ولا;Galewela
+ta;கலேவளை;Galewela
+fa;گالبادا;Galbada
+fa;گالاوداهنا;Galaudahena
+fa;گالاتودووا;Galatuduwa
+fa;گالاپیلاگاما;Galapilagama
+fa;گالامودونا;Galamuduna
+fa;گالالیادا;Galaliyadda
+si;ගලගෙදර;Galagedara
+ta;கலகெதர;Galagedara
+fa;گالاگدارا;Galagedara
+fa;گالاباوا;Galabawa
+fa;گادالادنیا;Gadaladeniya
+en;Etulgama;Ethulgama
+fa;اتولگاما;Ethulgama
+nl;Etulgama;Ethulgama
+fa;اتیپولا;Etipola
+fa;اتاموللا;Etamulla
+fa;اتامبگودا;Etambegoda
+fa;اتامباگولا;Etambagolla
+fa;اتامباگاهاواتا;Etambagahawatta
+en;Etakehellanda;Etikehellanda
+fa;اتهاکلاندا;Etikehellanda
+nl;Etakehellanda;Etikehellanda
+fa;اتابندیووا;Etabendiwewa
+fa;اراوولا پاهالاگاما;Erawula Pahalagama
+fa;اره‌گودا;Eregoda
+ru;Эравуре;Eravur Town
+ta;ஏறாவூர்;Eravur Town
+ja;エラムドゥリヤッダ;Eramuduliyadda
+fa;ارامودولیادا;Eramuduliyadda
+fa;اپاوالا;Eppawala
+fa;انداروتنا;Endarutenna
+en;Embulpure;Embulpura
+fa;امبولپوره;Embulpura
+nl;Embulpure;Embulpura
+fa;امبولامبه;Embulambe
+fa;امبیتیاوا;Embitiyawa
+si;ඇඹිලිපිටිය;Embilipitiya
+ja;エンビリピティヤ;Embilipitiya
+fa;امبیلیپیتییا;Embilipitiya
+ta;எம்பிலிபிட்டியா;Embilipitiya
+ur;امبیلیپیتییا;Embilipitiya
+fa;امبلیمیگاما;Embilimigama
+si;ඇම්බැක්කේ;Embekke
+en;Embekka;Embekke
+fa;امبککا;Embekke
+nl;Embekka;Embekke
+es;Embekka;Embekke
+ru;Элпитья;Elpitiya
+si;ඇල්පිටිය;Elpitiya
+ja;エルピティヤ;Elpitiya
+fa;ال پیتیا;Elpitiya
+ta;எல்பிட்டிய;Elpitiya
+ur;ایلپیٹیا;Elpitiya
+fa;الوتووا;Elotuwa
+fa;الیادا;Elliyadda
+fa;اللاودا;Ellauda
+ru;Элла;Ella Town
+fa;الیکه‌ولا;Elikewela
+fa;الهانیایا;Elhanyaya
+fa;الگاماا;Elgama
+fa;الادتا;Eladetta
+fa;اککاسا;Ekkassa
+fa;اهلاپه;Ehelape
+fa;اهالامالپه;Ehalamalpe
+en;Ehalagastenna;Ehelagasthenna
+fa;اهالاگاستنا;Ehelagasthenna
+nl;Ehalagastenna;Ehelagasthenna
+fa;اگودادووا;Egodaduwa
+fa;اباوالا;Ebbawala
+fa;دونوکبدا;Dunukebedda
+fa;دونکومبورا;Dunkumbura
+fa;دولوالا;Dulwala
+fa;دوللوا;Dullewa
+fa;دوویتا;Dowita
+fa;دورانگاما;Doranegama
+en;Doragomuwa;Doragamuwa
+fa;دوراگومووا;Doragamuwa
+nl;Doragomuwa;Doragamuwa
+fa;دومبمادا;Dombemada
+fa;دولوسباگه;Dolosbage
+fa;دولاپیهیلا;Dolapihilla
+fa;دودانوالا;Dodanwala
+fa;دودانکومبورا;Dodankumbura
+fa;دیاپالاگودا;Diyapalagoda
+fa;دیوولگاسکوتووا;Divulgaskotuwa
+fa;دیمبولکومبارا;Dimbulkumbura
+ru;Димбулгода;Dimbulgoda
+fa;دیمبولگودا;Dimbulgoda
+fa;دیمبولگاهاکوتووا;Dimbulgahakotuwa
+fa;دیکویا;Dikoya
+ta;டிக்கோயா;Dikoya
+en;Dikirillagolla;Dikirlgolla
+fa;دیکیریلاگولا;Dikirlgolla
+nl;Dikirillagolla;Dikirlgolla
+fa;دیگاهاواتورا;Digahawatura
+fa;دویتا;Devita
+ru;Девинувара;Devinuwara
+fa;درانیاگالا;Deraniyagala
+fa;دناپیتیا;Denapitiya
+si;දෙමෝදර;Demodara
+fa;دمودارا;Demodara
+ta;தெமோதரை;Demodara
+en;Dambawatawana;Dembawatawana
+fa;دامباواتاوانا;Dembawatawana
+nl;Dambawatawana;Dembawatawana
+fa;دمباوا;Dembawa
+fa;دمباتاگاستنا;Dembatagastenna
+si;දෙල්තොට;Deltota
+fa;دلتوتا;Deltota
+si;දෙල්පිටිය;Delpitiya
+fa;دلپیتیا;Delpitiya
+ja;デルパワナ;Delpawana
+fa;دلپاوانا;Delpawana
+fa;دلپاتکادا;Delpatkada
+fa;دلمادا;Delmada
+fa;دلگاسیایا;Delgasyaya
+en;Velgalla;Delgalla
+fa;ولگلا;Delgalla
+nl;Velgalla;Delgalla
+fa;دکیندا;Dekinda
+fa;دهیپاگودا;Dehipagoda
+fa;دهینتالاوا;Dehintalawa
+fa;دهیگاهاتوله;Dehigahatule
+fa;دهیدنیا مادیگه;Dehideniya Madige
+fa;دهیانگا;Dehianga
+fa;ددونوپیتیا;Dedunupitiya
+ceb;Daulagala;Daulagalag
+en;Daulagala;Daulagalag
+fa;دائولاگالا;Daulagalag
+nl;Daulagala;Daulagalag
+fa;دانتوره;Danture
+fa;دانکاندا;Dankanda
+ja;ダンドゥガマ;Dandugama
+fa;داندنیکومبورا;Dandenikumbura
+fa;دامونومولا;Damunumulla
+fa;داممالا;Dammala
+fa;دامبولاگاما;Dambullagama
+ta;தம்புள்ளை;Dambulla
+ru;Дамбулла;Dambulla
+ja;ダンブッラ;Dambulla
+ml;ദംബുള്ള;Dambulla
+si;දඹුල්ල;Dambulla
+zh;丹布勒;Dambulla
+fa;دامبالاگالا کولونی;Dambalagala Colony
+fa;دامباگاهامودونا;Dambagahamuduna
+fa;دامباگاهامادا;Dambagahamada
+fa;دالوواتومولا;Daluwatumulla
+fa;دالوواکگودا;Daluwakgoda
+en;Dalgahakele;Delgahakele
+fa;دالگاهاکله;Delgahakele
+nl;Dalgahakele;Delgahakele
+fa;داگه‌ویلا;Dagewilla
+fa;داگاناپوتهاها;Daganapothaha
+fa;کمپانیواتتا;Companiwatta
+hi;कोलंबो;Colombo
+ja;コロンボ;Colombo
+ko;콜롬보;Colombo
+ru;Коломбо;Colombo
+si;ෙකාළඹ;Colombo
+ta;கொழும்பு;Colombo
+th;โคลัมโบ;Colombo
+zh-TW;可倫坡;Colombo
+si;කොළඹ;Colombo
+ar;كولمبو;Colombo
+id;Kolombo;Colombo
+pa;ਕੋਲੰਬੋ;Colombo
+my;ကိုလံဘိုမြို့;Colombo
+ur;کولمبو;Colombo
+or;କଲୋମ୍ବୋ;Colombo
+ml;കൊളംബോ;Colombo
+ug;كولومبو;Colombo
+gu;કોલંબો;Colombo
+fa;کلمبو;Colombo
+bn;কলম্বো;Colombo
+tr;Kolombo;Colombo
+te;కొలంబో;Colombo
+tg;Коломбо;Colombo
+mn;Коломбо;Colombo
+bo;ཁོ་ལུམ་པོ།;Colombo
+mr;कोलंबो;Colombo
+kn;ಕೊಲಂಬೊ;Colombo
+dv;ކޮޅުނބު;Colombo
+zh;可倫坡;Colombo
+yue;哥林堡;Colombo
+ky;Коломбо;Colombo
+ne;कोलम्बो;Colombo
+uz;Kolombo;Colombo
+fa;کولونی کلوداگ شرقی;Clodagh Eastern Colony
+si;හුණුගම;Chunnakam
+ta;சுன்னாகம்;Chunnakam
+hi;चिलाव;Chilaw
+ru;Чилав;Chilaw
+bn;চিলাউ;Chilaw
+si;හලාවත;Chilaw
+ur;چیلاو;Chilaw
+kn;ಚಿಲಾವ್;Chilaw
+ko;칠라오;Chilaw
+mr;चिलाव;Chilaw
+it;Chillaw;Chilaw
+ta;சிலாபம்;Chilaw
+zh;奇洛;Chilaw
+gu;ચિલો;Chilaw
+ar;تْشيلو;Chilaw
+te;చిలావ్;Chilaw
+th;ชิลอว์;Chilaw
+ja;チラウ;Chilaw
+fa;چیلاو;Chilaw
+ja;チャンカニ;Chankanai
+ta;சங்கானை;Chankanai
+fa;بوتالاندا;Butalanda
+fa;بولومولا;Bulumulla
+fa;بولوکوهوتنا;Bulukohotenna
+fa;بولاتوولکاندورا;Bulatwelkandura
+fa;بوواتورا;Bowatura
+fa;بوتوتا;Botota
+fa;بوروواگاما;Boruwagama
+si;බොරලන්ද;Boralanda
+fa;بورالاندا;Boralanda
+fa;بوراگاهامادیتا;Boragahamaditta
+en;Bopegammedda;Bopegama
+fa;بوپگامدا;Bopegama
+nl;Bopegammedda;Bopegama
+fa;بوپانا;Bopana
+fa;بومبوره;Bombure
+fa;بولاگانداولا;Bolagandawela
+fa;بوکاوالا;Bokkawala
+ta;பொக்காவல;Bokkawala
+en;Bokalawela;Bokalawala
+fa;بوکالاولا;Bokalawala
+ta;பொக்கலாவல;Bokalawala
+nl;Bokalawela;Bokalawala
+fa;بوگاولا;Bogawela
+fa;بوگاهاپیتیا;Bogahapitiya
+si;බෝගහකුඹුර;Bogahakumbura
+fa;بودیکوتووا;Bodikotuwa
+fa;بوبللا;Bobella
+si;බියගම;Biyagama
+fa;بیاگاما;Biyagama
+ru;Бентота;Bentota
+hi;बेनटोटा;Bentota
+bn;চেস্কে বুদেজোভিসে;Bentota
+ur;بینتوتا;Bentota
+kn;ಬೆೆಂಟಾಟಾ;Bentota
+ko;벤토타;Bentota
+mr;बंटोटा;Bentota
+ta;பெந்தோட்டை;Bentota
+zh;本托特;Bentota
+gu;બેન્ટોટા;Bentota
+ar;بينتوتا;Bentota
+te;బెంటోట;Bentota
+th;เบนโตตา;Bentota
+ja;ベントタ;Bentota
+fa;بنتوتا;Bentota
+fa;بلیگامووا;Beligamuwa
+en;Bebalagama;Bebalegama
+fa;ببالاگاما;Bebalegama
+nl;Bebalagama;Bebalegama
+fa;باتومولا;Batumulla
+ar;باتيكالوا;Batticaloa
+ta;மட்டக்களப்பு;Batticaloa
+ru;Баттикалоа;Batticaloa
+ja;バッティカロア;Batticaloa
+si;මඩකලපුව නගරය;Batticaloa
+zh;巴提卡洛阿;Batticaloa
+hi;बट्टिकलोवा;Batticaloa
+ur;باٹیکالوا;Batticaloa
+si;මඩකලපුව;Batticaloa
+si;බත්තරමුල්ල;Battaramulla South
+en;Battaramulla;Battaramulla South
+fa;باتارامولا;Battaramulla South
+ta;பத்தரமுல்லை;Battaramulla South
+es;Battaramulla;Battaramulla South
+nl;Battaramulla;Battaramulla South
+zh;巴特拉穆拉;Battaramulla South
+fa;باتاداندوولا;Batadanduwela
+hi;बंदरवाले;Bandarawela
+ru;Бандаравела;Bandarawela
+bn;বান্দারাওয়ালা;Bandarawela
+zh-Hans;庞德罗拉;Bandarawela
+si;බණ්ඩාරවෙල;Bandarawela
+ur;بانداراویلا;Bandarawela
+kn;ಬಂಡರಾವಾಲಾ;Bandarawela
+ko;밴다라웰라;Bandarawela
+mr;बंदरवेला;Bandarawela
+ta;பண்டாரவளை;Bandarawela
+gu;બાંદરવેલા;Bandarawela
+zh;班德勒韦勒;Bandarawela
+ar;باندارويلا;Bandarawela
+te;బందరువెలా;Bandarawela
+th;บันดาราเวล่า;Bandarawela
+ja;バンダラウェラ;Bandarawela
+fa;بانداراوه‌لا;Bandarawela
+fa;بامونوپولا;Bamunupola
+ta;பமுனுபொல;Bamunupola
+fa;بامباوا;Bambawa
+fa;بامباراگاسووا;Bambaragaswewa
+fa;بامباراگالیایا;Bambaragaleyaya
+fa;بامباراگاهاواتا;Bambaragahawatta
+fa;بامبارادنیا;Bambaradeniya
+ta;பம்பரதெனிய;Bambaradeniya
+fa;بامبارابده دواینگاما;Bambarabedde Devainnegama
+fa;بامبارابدا;Bambarabedda
+en;Balagahatenna;Balagahatenna North
+fa;بالاگاهاتنا;Balagahatenna North
+nl;Balagahatenna;Balagahatenna North
+fa;باهیراواکاندا;Bahirawakanda
+en;Bahiragaldowa;Bihiragaldowa
+fa;باهیراگالدوا;Bihiragaldowa
+nl;Bahiragaldowa;Bihiragaldowa
+fa;بادورالیا;Baduraliya
+ru;Бадуллы;Badulla
+ar;بادولا;Badulla
+fa;بادولا;Badulla
+ja;バドゥッラ;Badulla
+ko;바둘라;Badulla
+si;බදුල්ල;Badulla
+ta;பதுளை;Badulla
+ur;بادولا;Badulla
+ru;Бадулла;Badulla
+zh;巴杜勒;Badulla
+kk;Бадула;Badulla
+ky;Бадула;Badulla
+hi;बदुल्ला;Badulla
+bn;বাদুল্লা;Badulla
+pa;ਬਾਦੁੱਲਾ;Badulla
+ps;بادولا;Badulla
+tg;Бадула;Badulla
+si;බද්දේගම;Baddegama
+fa;باددگاما;Baddegama
+fa;بادامولا;Baddamulla
+en;Badalgeda;Badalgoda
+fa;بادالگدا;Badalgoda
+nl;Badalgeda;Badalgoda
+fa;بادالگامدا;Badalgammedda
+fa;بادالاگاما;Badalagama
+fa;بابارودا جنوبی دو;Babarenda South II
+fa;بابارندا جنوبی یک;Babarenda South I
+fa;بابارندا شمالی;Babarenda North
+fa;بابارندا مرکزی;Babarenda Central
+fa;آوولبوداله;Awulbodale
+ja;アッタラガマ;Attaragama
+fa;آتاراگاما;Attaragama
+ta;அட்டரகமை;Attaragama
+fa;اتاناکومبورا;Attanakumbura
+en;Atirahapitiya;Athirahapitiya
+fa;آتیراهاپیتیا;Athirahapitiya
+nl;Atirahapitiya;Athirahapitiya
+fa;اسودون ولا;Asweddunwela
+fa;آسوالاپیتیا;Aswalapitiya
+en;Arukwatta;Arukwatta South
+fa;آروکواتا;Arukwatta South
+nl;Arukwatta;Arukwatta South
+fa;آراواوالا;Arawwawala
+fa;آرامبپولا;Arambepola
+si;අප්පල්ලගොඩ;Appallagoda
+fa;آپالاگودا;Appallagoda
+fr;Anurâdhapura;Anuradhapura
+ja;アヌラーダプラ;Anuradhapura
+ru;Анурадхапура;Anuradhapura
+ta;அனுராதபுரம்;Anuradhapura
+zh-TW;阿努拉德普勒王國;Anuradhapura
+it;Anurādhapura;Anuradhapura
+si;අනුරාධපුර පෞරාණික නගරය;Anuradhapura
+th;อนุราธปุระ;Anuradhapura
+ko;아누라다푸라;Anuradhapura
+zh;阿努拉德普勒;Anuradhapura
+ar;أنورادابورا;Anuradhapura
+ml;അനുരാധപുരം;Anuradhapura
+hi;अनुराधापुर;Anuradhapura
+ne;अनुराधापुरा;Anuradhapura
+ur;انورادھاپورہ;Anuradhapura
+kk;Ануради́пура;Anuradhapura
+ky;Анурадхапура;Anuradhapura
+bn;অনুরাধাপুর;Anuradhapura
+fa;انوراداپورا;Anuradhapura
+pa;ਅਨੁਰਾਧਾਪੁਰਾ;Anuradhapura
+ps;انوراد ھا پورا;Anuradhapura
+tg;Анурадхапура;Anuradhapura
+fa;آنکنداگولا;Ankendagolla
+fa;آنکانده کولونی;Ankande Colony
+fa;آنگوروولا;Anguruwela
+fa;آنگوناوالا;Angunawala
+fa;آندوروببیلا;Andurubebila
+fa;آندونگاما پالکومبورا;Andungama Palkumbura
+fa;آندیدنیا;Andideniya
+ta;அம்பாறை;Ampara
+si;අම්පාර;Ampara
+fa;امبوکا;Ambokka
+fa;امبتنا;Ambetenna
+ru;Амбепусса;Ambepussa
+si;අඹේපුස්ස;Ambepussa
+ja;アンベプッサ;Ambepussa
+fa;آمبه‌پوسا;Ambepussa
+fa;امباوا;Ambawa
+fa;امباروئوا;Ambaoruwa
+si;අඹන්පොල;Ambanpola
+fa;آمبانپولا;Ambanpola
+ceb;Ambaliyadda;Ambaliyaddagama
+si;අඹලියැද්ද;Ambaliyaddagama
+en;Ambaliyadda;Ambaliyaddagama
+fa;امبالیادا;Ambaliyaddagama
+es;Ambaliyadda;Ambaliyaddagama
+fa;امبالاپیتیا;Ambalapitiya
+si;අඹගස්පිටිය;Ambagaspitiya
+fa;امباگاسپیتیا;Ambagaspitiya
+si;අඹදෙනිය;Ambadeniya
+fa;امبادانیا;Ambadeniya
+fa;الوویهار کولونی;Aluvihare Colony
+si;අලුත්වැව;Alutwewa
+fa;الوتویوا;Alutwewa
+fa;الاپتولا;Alupotawela
+ta;அலுபொத்தவெல;Alupotawela
+fa;الوبندایایا;Alubendiyaya
+si;අලපිටිය;Allaippiddy
+en;Allaippiddi;Allaippiddy
+fa;الایپیدی;Allaippiddy
+ta;அல்லைப்பிட்டி;Allaippiddy
+nl;Allaippiddi;Allaippiddy
+fa;الهنتناواتا;Alhentennawatta
+fa;الایایا;Alayaya
+fa;الاواتوگاما;Alawatugama
+fa;الوتاگما;Alawattegama
+ta;அலவத்தேகம;Alawattegama
+fa;الاندواکا;Alanduwaka
+fa;الاکولامادیتا;Alakolamaditta
+fa;الاکلا-الا;Alakola-ela
+fa;الاکولادنیا;Alakoladeniya
+fa;الاکاگاما;Alakagama
+fa;الاگودا;Alagoda
+ta;அலகொடை;Alagoda
+fa;الادینیا;Aladeniya
+ta;அலதெனிய;Aladeniya
+fa;اکورامبودواتا;Akurambodwatta
+fa;اکورامبودا;Akuramboda
+si;අක්කරෙයිපත්තුව;Akkaraipattu
+ja;アッカライパｯトゥ;Akkaraipattu
+fa;اکارایپاتو;Akkaraipattu
+ta;அக்கரைப்பற்று;Akkaraipattu
+zh;阿克賴帕圖;Akkaraipattu
+fa;اگراپاتانا;Agrapatana
+ur;آگرہ پٹنہ;Agrapatana
+ta;அக்கரப்பத்தனை;Agrapatana
+fa;اجراهر;Aggarahere
+ur;اجراہر;Aggarahere
+fa;آگاپپولا;Agappola
+fa;آگالاواتا;Agalawatta
+fa;آگالاکومبورا;Agalakumbura
+fa;ادهیکاریگاما;Adhikarigama
+fa;اداراولانا;Addarawellana
+fa;ادایچاکال;Adaichakal
+si;අච්චුවේලි;Achchuveli
+fa;اچوولی;Achchuveli
+ta;அச்சுவேலி;Achchuveli
+en;Achelu;Achchelu
+fa;اچلو;Achchelu
+nl;Achelu;Achchelu
+fa;اکاریگاما;Acharigama
+fa;عبانسیگامدا;Abasingammedda
+fa;آباکولاویوا;Abakolawewa
+si;අලුත්ගම;Aluthgama
+ja;アルトゥガマ;Aluthgama
+fa;الوتگاما;Aluthgama
+ta;அளுத்கமை;Aluthgama
+fa;کاراووا;Karawwa
+si;කොටහේන;Kotahena
+ja;コタヘーナ;Kotahena
+fa;کوتاهنا;Kotahena
+ta;கொட்டாஞ்சேனை;Kotahena
+ur;کوٹاہینا;Kotahena
+zh;高達希拉;Kotahena
+ru;Борелла;Borella
+si;බොරැල්ල;Borella
+ja;ボレッラ;Borella
+fa;بورللا;Borella
+ta;பொறளை;Borella
+ur;بوریللا;Borella
+si;රම්බොඩ;Ramboda
+ja;ランボダ;Ramboda
+fa;رامبودا;Ramboda
+ta;இறம்பொடை;Ramboda
+si;පල්ලෙකැලේ;Pallekele
+fa;پالکله;Pallekele
+bn;পাল্লেকেলে;Pallekele
+ta;பல்லேகலை;Pallekele
+ur;پالیکیلے;Pallekele
+ta;கிண்ணியா;Kinniya
+si;කින්නියා;Kinniya
+ru;Веллавая;Wellawaya
+en;Mirissa;Mirissa city
+ru;Мирисса;Mirissa city
+ta;மிரிஸ்ஸ;Mirissa city
+si;මිරිස්ස;Mirissa city

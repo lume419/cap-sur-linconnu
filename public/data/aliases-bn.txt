@@ -1,0 +1,150 @@
+ms;Pekan Tutong;Tutong
+ru;Тутонг;Tutong
+ar;توتونج;Tutong
+kk;Тутонг;Tutong
+ky;Тутонг;Tutong
+hi;तुटोंग;Tutong
+bn;তুতং;Tutong
+ur;ٹوٹونگ;Tutong
+fa;توتونگ;Tutong
+ja;トゥトン;Tutong
+pa;ਤੁਟੋਂਗ;Tutong
+ps;توتونج;Tutong
+tg;Тутонг;Tutong
+ru;Серия;Seria
+ja;セリア;Seria
+th;เซอเรีย;Seria
+ru;Сериа;Seria
+ja;クアラブライト;Kuala Belait
+ko;쿠알라블라잇;Kuala Belait
+ru;Куала-Белайт;Kuala Belait
+zh;马来奕;Kuala Belait
+ar;كوالا بيلايت;Kuala Belait
+kk;Куала-Белаит;Kuala Belait
+ky;Куала-Белаит;Kuala Belait
+hi;कुआला बेलैट;Kuala Belait
+bn;কুয়ালা বেলাইট;Kuala Belait
+ur;کوالا بیلیت;Kuala Belait
+fa;کوالا بلایت;Kuala Belait
+pa;ਕੁਆਲਾ ਬੇਲੈਟ;Kuala Belait
+ps;کوالا بيلايت;Kuala Belait
+tg;Куала-Белаит;Kuala Belait
+ms;Kampung Telisai;Telisai
+ms;Kampong Telisai;Telisai
+ms;Kampung Telamba;Telamba
+ms;Kampong Telamba;Telamba
+ms;Kampung Sungai Liang;Liang
+ms;Kampong Sungai Liang;Liang
+ms;Kampong Sungai Hanching;Sungai Hanching
+ms;Kampung Sungai Hanching;Sungai Hanching
+ms;Kampung Subok;Subok
+ms;Kampong Subok;Subok
+ms;Kampong Sinarubai;Sinarubai
+ms;Kampung Sinarubai;Sinarubai
+ms;Kampong Serasa;Serasa
+ms;Kampung Serasa;Serasa
+ms;Kampung Sengkarai;Sengkarai
+ms;Kampong Sangkarai;Sengkarai
+ms;Kampung Salambigar;Salambigar
+ms;Kampong Salambigar;Salambigar
+ms;Kampong Rambal;Rambai
+ms;Kampung Rambai;Rambai
+ms;Kampung Penanjong;Penanjong
+ms;Kampong Penanjong;Penanjong
+ms;Kampong Panchor Papan;Panchor Papan
+ms;Kampung Panchor Papan;Panchor Papan
+ms;Kampong Panchur Dulit;Panchor Dulit
+ms;Kampong Panchor Dulit;Panchor Dulit
+ms;Kampung Panchor Dulit;Panchor Dulit
+ms;Kampung Panchur Dulit;Panchor Dulit
+ms;Kampong Padnunok;Pad Nunok
+ms;Kampung Pad Nunok;Pad Nunok
+ms;Kampung Padnunok;Pad Nunok
+ms;Kampong Pad Nunok;Pad Nunok
+ms;Kampong Mulaut;Mulaut
+ms;Kampung Mulaut;Mulaut
+ms;Kampong Mentiri;Mentiri
+ms;Kampung Mentiri;Mentiri
+ms;Kampung Madewa;Madewa
+ms;Kampong Madewa;Madewa
+ms;Kampung Lupak Luas;Kampong Lupak Luas
+ms;Kampong Lubok Pulau;Lubok Pulau
+ms;Kampung Lubok Pulau;Lubok Pulau
+ms;Kampung Luagan Dudok;Kampong Luagan Dudok
+ms;Kampung Layong;Layong
+ms;Kampong Layong;Layong
+ms;Kampong Lamunin;Lamunin
+ms;Kampung Lamunin;Lamunin
+ms;Kampong Kupang;Kupang
+ms;Kampung Kupang;Kupang
+ms;Kampong Kuala Abang;Kuala Abang
+ms;Kampung Kuala Abang;Kuala Abang
+ms;Kampong Ketimahar;Katimahar
+ms;Kampung Katimahar;Katimahar
+ms;Kampong Kapok;Kapok
+ms;Kampung Kapok;Kapok
+ms;Kampung Junjongan;Junjongan
+ms;Kampong Junjongan;Junjongan
+ms;Kampong Danau;Kampung Danau
+ms;Kampung Bunut;Bunut
+ms;Kampong Bunut;Bunut
+ms;Kampung Bukit Sulang;Bukit Sulang
+ms;Kampong Bukit Sulang;Bukit Sulang
+ms;Kampung Bukit Panggal;Bukit Panggal
+ms;Kampong Bukit Panggal;Bukit Panggal
+ms;Kampung Batu Marang;Batu Marang
+ms;Kampong Batu Marang;Batu Marang
+ms;Kampung Batong;Batong
+ms;Kampong Batong;Batong
+ms;Pekan Bangar;Bangar
+ru;Бангар;Bangar
+ar;بانجار;Bangar
+kk;Бангар;Bangar
+ky;Бангар;Bangar
+hi;बांगार;Bangar
+bn;বাঙ্গার;Bangar
+ur;بنگار;Bangar
+fa;بنگار;Bangar
+ja;バンガル;Bangar
+pa;ਬੰਗਾਰ;Bangar
+ps;بانجار;Bangar
+tg;Бангар;Bangar
+fa;بندر سری بگاوان;Bandar Seri Begawan
+ja;バンダルスリブガワン;Bandar Seri Begawan
+ko;반다르스리브가완;Bandar Seri Begawan
+ru;Бандар-Сери-Бегаван;Bandar Seri Begawan
+th;บันดาร์เสรีเบกาวัน;Bandar Seri Begawan
+zh;斯里巴加湾市;Bandar Seri Begawan
+zh;斯里巴加灣市;Bandar Seri Begawan
+tg;Бандар-Сери-Бегаван;Bandar Seri Begawan
+tr;Bandar Seri Begavan;Bandar Seri Begawan
+ur;بندر سری بگاوان;Bandar Seri Begawan
+ar;بندر سري بكاوان;Bandar Seri Begawan
+ky;Бандар-Сери-Бегаван;Bandar Seri Begawan
+pa;ਬੰਦਰ ਸੇਰੀ ਬੇਗਵਾਨ;Bandar Seri Begawan
+bo;སི་རི་པེ་ཀ་མཚོ་ཁུགས་གྲོང་ཁྱེར།;Bandar Seri Begawan
+ta;பண்டர் செரி பெகாவான்;Bandar Seri Begawan
+ug;باندار سەرى بەگاۋان;Bandar Seri Begawan
+mr;बंदर स्री बगवान;Bandar Seri Begawan
+my;ဘန်ဒါဆရီဘဂါဝမ်မြို့;Bandar Seri Begawan
+mn;Бандар Сери Бегаван;Bandar Seri Begawan
+bn;বন্দর সেরি বেগাওয়ান;Bandar Seri Begawan
+kn;ಬಂದರ್ ಸೆರಿ ಬಗೆವನ್;Bandar Seri Begawan
+yue;斯里巴加灣;Bandar Seri Begawan
+ml;ബന്ദർ സെരി ബെഗവൻ;Bandar Seri Begawan
+ne;बन्दर सेरी बेगवान;Bandar Seri Begawan
+uz;Bandar-Seri-Begavan;Bandar Seri Begawan
+ms;Kampung Masin;Masin
+ms;Kampong Masin;Masin
+ms;Kg. Masin;Masin
+ms;Kampung Kulapis;Kulapis
+ms;Kampong Kulapis;Kulapis
+ms;Kg. Kulapis;Kulapis
+ms;Kampong Sungai Teraban;Kampung Sungai Teraban
+ms;Kampong Lubok Palam;Kampung Lubok Palam
+ms;Kampung Sungai Kelugus;Kampung Sungai Kelugos
+ms;Kampong Sungai Kelugos;Kampung Sungai Kelugos
+ms;Sungai Kelugos;Kampung Sungai Kelugos
+ms;Sungai Kelugus;Kampung Sungai Kelugos
+ms;Kg. Luagan Timbaran;Kampung Luagan Timbaran
+ms;Luagan Timbaran;Kampung Luagan Timbaran
