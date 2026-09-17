@@ -157,17 +157,59 @@ async function fetchWikiSummary(title, lang){
 // scripts/build-country-communes.js), pas besoin de table de correspondance. Si le résultat est
 // une page d'homonymie (plusieurs lieux du même nom, région inconnue), on renvoie "pas de photo"
 // plutôt qu'une image potentiellement fausse — mieux vaut aucune image qu'une image du mauvais endroit.
-async function resolvePlacePhoto(name, deptCode, country, lang){
+// VÉRIFICATION DES SOURCES (septembre 2026) : une recherche Wikipédia par le seul NOM tombe sur l'homonyme le plus connu
+// (« Madonna » -> la chanteuse, « Statue de la Liberté » -> New York, « Monument aux morts » -> Armentières). Un article
+// n'est retenu que s'il est GÉOLOCALISÉ à moins de near.km du lieu (coordonnées renvoyées par l'API summary) ; sans
+// coordonnées (personne, notion générale) ou sans point de référence, il est écarté : ni photo, ni lien.
+const PHOTO_NEAR_KM = { poi: 5, area: 15, stop: 20 };
+function wikiPlaceMatches(data, near){
+  const c = data && data.coordinates;
+  if(!near || !c || !isFinite(c.lat) || !isFinite(c.lon)) return false;
+  return haversineKm(near.lat, near.lon, c.lat, c.lon) <= near.km;
+}
+// Repli pour un nom local absent (ou homonyme) dans la langue du visiteur — « Milano » est un rappeur sur Wikipédia en
+// français : même nom sur Wikipédia en anglais (qui redirige vers Milan), position vérifiée, puis article correspondant
+// dans la langue du visiteur via Wikidata (même vérification) ; à défaut, l'article anglais vérifié.
+async function fetchWikidataSitelink(qid, lang){
+  if(!/^Q\d+$/.test(String(qid || ''))) return null;
+  const resp = await fetch('https://www.wikidata.org/w/api.php?action=wbgetentities&props=sitelinks&format=json&ids=' + qid + '&sitefilter=' + sanitizeLangCode(lang) + 'wiki', {
+    signal: AbortSignal.timeout(10000),
+    headers: { 'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)', 'Accept': 'application/json' }
+  });
+  if(!resp.ok) return null;
+  const data = await resp.json();
+  const link = data && data.entities && data.entities[qid] && data.entities[qid].sitelinks && data.entities[qid].sitelinks[sanitizeLangCode(lang) + 'wiki'];
+  return link ? link.title : null;
+}
+async function resolvePlacePhoto(name, deptCode, country, lang, near){
+  const first = await resolvePlacePhotoIn(name, deptCode, country, lang, near, null);
+  if(first.image || !near || lang === 'en') return first;
+  let en = null;
+  try { en = await fetchWikiSummary(name, 'en'); } catch(e){}
+  if(!en || en.type === 'disambiguation' || !wikiPlaceMatches(en, near)) return first;
+  let title = null;
+  try { title = await fetchWikidataSitelink(en.wikibase_item, lang); } catch(e){}
+  if(title){
+    const local = await resolvePlacePhotoIn(title, null, country, lang, near, [title]);
+    if(local.image || (local.wikiUrl && !first.wikiUrl)) return local.image ? local : (first.wikiUrl ? first : local);
+  }
+  if(first.wikiUrl) return first;
+  return await resolvePlacePhotoIn(name, null, country, 'en', near, [name]);
+}
+async function resolvePlacePhotoIn(name, deptCode, country, lang, near, titles){
   const deptName = (!country || country === 'FR') ? (deptCode && DEPARTMENTS[deptCode]) : (deptCode || null);
-  const attempts = [];
-  if(deptName) attempts.push(name + ' (' + deptName + ')');
-  attempts.push(name);
+  const attempts = titles ? titles.slice() : [];
+  if(!titles){
+    if(deptName) attempts.push(name + ' (' + deptName + ')');
+    attempts.push(name);
+  }
 
   let bestNoImage = null; // meilleure page trouvée SANS photo, gardée en repli (voir plus bas)
   for(const title of attempts){
     let data;
     try { data = await fetchWikiSummary(title, lang); } catch(e){ console.warn('[photo] échec pour "'+title+'":', e.message); continue; }
     if(!data || data.type === 'disambiguation') continue;
+    if(!wikiPlaceMatches(data, near)) continue; // homonyme ailleurs, ou article sans lieu
     const thumbSource = (data.thumbnail && data.thumbnail.source) || null;
     const originalSource = (data.originalimage && data.originalimage.source) || null;
     const wikiUrl = (data.content_urls && data.content_urls.desktop && data.content_urls.desktop.page) || null;
@@ -228,6 +270,7 @@ async function fetchWikiWikitext(title){
 // modèle) n'affecte pas le texte affiché (il alimente seulement une catégorie de maintenance) :
 // ignoré sans risque.
 function resolveCenturyTemplate(s){
+  s = s.replace(/\{\{\s*([IVXLC]+)(e|er)\s+siècle\s*\}\}/g, '$1$2 siècle');
   return s.replace(/\{\{s-\s*\|\s*([IVXLCDMivxlcdm]+|1)\s*(?:\|[^{}]*)?\}\}/g, function(_, num){
     var suffix = (num === 'I' || num === 'i' || num === '1') ? 'er' : 'e';
     return num + suffix + ' siècle';
@@ -263,6 +306,34 @@ function stripWikiNoise(line){
   return out.replace(/<[^>]+>/g, '').replace(/\s{2,}/g, ' ').trim();
 }
 
+// Nom d'un lieu à partir d'une puce de la section (septembre 2026). Avant : cible du PREMIER lien de la ligne, ou tout le
+// début de ligne — d'où des « lieux » comme « Église (édifice) » (article générique lié sur le mot « église »), « Sur
+// l'ensemble de la commune », « Arbres remarquables » ou « Plus beaux villages de France ». Désormais : texte AFFICHÉ
+// des liens, coupé avant la première précision (ponctuation, « édifiée en… »), retenu seulement s'il désigne un lieu
+// (MONUMENT_PLACE_WORDS) sans formulation générique ou plurielle.
+const MONUMENT_PLACE_WORDS = /(?:^|[\s'’-])(églises?|chapelles?|château|châteaux|manoir|musée|abbaye|prieuré|couvent|cathédrale|basilique|collégiale|oratoire|calvaire|croix|monument|statue|stèle|mémorial|tour|donjon|pont|fontaine|lavoir|moulin|four|halle|maison|hôtel|palais|porte|remparts?|fort|forteresse|citadelle|casteddu|castellu|dolmen|menhir|oppidum|site archéologique|grotte|jardin|parc|arboretum|lac|cascade|phare|viaduc|aqueduc|arènes|théâtre|temple|synagogue|mosquée|cimetière|ossuaire|ruines|vestiges|domaine|bastide|villa|belvédère|sanctuaire|ermitage|commanderie|pigeonnier|forge|gare|mairie|presbytère|beffroi|clocher|puits|borie|bories|cabane|cromlech)(?=$|[\s'’,-])/i;
+const MONUMENT_GENERIC_START = /^(?:sites?\s|arbres?\s|plusieurs\s|nombreu(?:x|ses)\s|sur\s|l['’]une? des|le plus|la plus|les plus|ensemble|divers|autres?\s|quelques|patrimoine)/i;
+function monumentName(line){
+  const text = String(line || '')
+    .replace(/^[*#:;\s]+/, '')                   // puces imbriquées (« ** »)
+    .replace(/\[\[[^\]|]*\|([^\]]+)\]\]/g, '$1') // [[cible|texte]] -> texte affiché
+    .replace(/\[\[([^\]]+)\]\]/g, '$1')          // [[cible]] -> cible
+    .replace(/'{2,}/g, '').trim();
+  let name = text.split(/\s*[,.;:(]\s|\s*[,.;:(]$|\s[–—-]\s/)[0];
+  // Précision ou phrase qui suit le nom : participe (« édifiée en… »), relative, ou verbe (« … se dresse sur la place »).
+  name = name.split(/\s(?:édifiée?s?|construite?s?|reconstruite?s?|datée?s?|bâtie?s?|inscrite?s?|classée?s?|érigée?s?|restaurée?s?|située?s?|où|qui|dont|depuis|se|s['’]|est|sont|fut|furent|a|ont|domine|dominent|abrite|abritent|surplombe|possède|conserve|remonte|date|attestée?s?|mentionnée?s?|remaniée?s?|agrandie?s?|transformée?s?|dès|puis|avec|au|dans|sur les|sur la|sur le|au cœur|de style|(?:du|de|en)\s+\d)(?=\s|$)/i)[0].trim();
+  name = name.replace(/(?:\s+(?:de|du|des|d['’]|à|au|aux|en|et|sur|haut|haute|long|longue))+\s*$/i, '').trim(); // mots orphelins en fin de nom
+  name = name.replace(/^(?:les\s+)?vestiges\s+(?:du|de la|de l['’]|des)\s*/i, '').trim(); // "Vestiges du château de X" -> le lieu
+  name = name.replace(/^(?:le|la|les)\s+(?=\S)/i, '').replace(/^l['’](?=\S)/i, '').trim(); // article initial d'une phrase
+  if(!name || name.length < 4 || name.length > 80 || name.split(/\s+/).length > 9) return null;
+  if(/[()]/.test(name)) return null; // reste d'un titre d'article générique « … (édifice) »
+  if(!MONUMENT_PLACE_WORDS.test(name) || MONUMENT_GENERIC_START.test(name)) return null;
+  if(name === name.toUpperCase() && /\p{Lu}{3}/u.test(name)){ // TOUT EN CAPITALES -> casse ordinaire, particules en minuscules
+    name = name.toLowerCase().replace(/(^|[\s'’-])(\p{L})/gu, (m, a, b) => a + b.toUpperCase())
+      .replace(/(\s)(De|Du|Des|Di|Da|Dei|U|A|E|La|Le|Les|L|D)(?=[\s'’])/g, (m, a, b) => a + b.toLowerCase());
+  }
+  return name.charAt(0).toUpperCase() + name.slice(1);
+}
 function extractMonumentsSection(wikitext){
   const m = wikitext.match(/={2,4}\s*(?:Lieux et monuments|Patrimoine(?: architectural)?|Monuments(?: et lieux)?)\s*={2,4}\n([\s\S]*?)(?=\n={2,4}[^=]|$)/i);
   if(!m) return null;
@@ -285,13 +356,8 @@ function extractMonumentsSection(wikitext){
   let bm;
   while((bm = bulletRe.exec(section))){
     if(/^<gallery/i.test(bm[1])) continue;
-    const line = stripWikiNoise(bm[1]);
-    const linkMatch = line.match(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/);
-    let name = linkMatch ? linkMatch[1].trim() : line.split(/[,.;(]/)[0].trim();
-    name = name.replace(/^Vestiges (du|de la|des) /i, '').trim(); // "Vestiges du château de X" -> le lieu lui-même
-    if(!name || name.length < 3 || name.length > 90) continue;
-    if(/^[a-zà-ÿ]/.test(name)) name = name.charAt(0).toUpperCase() + name.slice(1); // wikilien en minuscule ("[[château de X]]")
-    items.push(name);
+    const name = monumentName(stripWikiNoise(bm[1]));
+    if(name) items.push(name);
   }
   return { items, gallery };
 }
@@ -302,7 +368,7 @@ function inferMonumentType(name){
   const n = name.toLowerCase();
   if(/ch[aâ]teau/.test(n)) return 'castle';
   if(/manoir/.test(n)) return 'manor';
-  if(/\begl?ise\b/.test(n)) return 'place_of_worship';
+  if(/(^|[\s'’-])[eé]glise(s)?($|[\s'’,-])/.test(n)) return 'place_of_worship'; // \b ne reconnaît pas « é »
   if(/chapelle/.test(n)) return 'chapel';
   if(/mus[ée]e/.test(n)) return 'museum';
   if(/dolmen|menhir|site (arch[ée]ologique|gallo-romain)/.test(n)) return 'archaeological_site';
@@ -365,7 +431,7 @@ function commonsFileUrl(filename){
 
 // Même logique d'essais que resolvePlacePhoto : "Nom (Département)" d'abord si connu (convention
 // de désambiguïsation Wikipédia), puis "Nom" seul.
-async function fetchCommuneMonuments(name, deptCode){
+async function fetchCommuneMonuments(name, deptCode, lat, lon){
   const deptName = deptCode && DEPARTMENTS[deptCode];
   const attempts = [];
   if(deptName) attempts.push(name + ' (' + deptName + ')');
@@ -376,6 +442,10 @@ async function fetchCommuneMonuments(name, deptCode){
     if(!wikitext) continue;
     const extracted = extractMonumentsSection(wikitext);
     if(extracted && extracted.items.length){
+      // Article d'un homonyme (autre commune du même nom, notion générale) : écarté, voir wikiPlaceMatches.
+      let summary = null;
+      try { summary = await fetchWikiSummary(title, 'fr'); } catch(e){}
+      if(!wikiPlaceMatches(summary, { lat, lon, km: PHOTO_NEAR_KM.stop })) continue;
       // Ces lieux (église, mur d'une abbaye disparue...) n'ont en général pas leur propre article —
       // seule la page de LA COMMUNE en parle, dans cette section. Un lien vers elle reste plus utile
       // qu'aucun lien du tout.
@@ -400,7 +470,7 @@ async function fetchAllRealPOIs(lat, lon, name, deptCode, country){
   const tryMonuments = name && (!country || country === 'FR');
   const [overpassResult, wikiResult] = await Promise.all([
     fetchRealPOIs(lat, lon).catch(() => null),
-    tryMonuments ? fetchCommuneMonuments(name, deptCode).catch(() => null) : Promise.resolve(null)
+    tryMonuments ? fetchCommuneMonuments(name, deptCode, lat, lon).catch(() => null) : Promise.resolve(null)
   ]);
   const seen = new Set();
   const combined = [];
@@ -572,7 +642,7 @@ async function fetchRealPOIs(lat, lon){
     if(elLat == null || elLon == null) continue;
     if(haversineKm(lat, lon, elLat, elLon) > POI_MAX_DISTANCE_KM) continue;
     seen.add(name);
-    const poi = { name, type };
+    const poi = { name, type, lat: Math.round(elLat * 1e5) / 1e5, lon: Math.round(elLon * 1e5) / 1e5 };
     // OpenStreetMap indique parfois directement LA bonne photo pour CE lieu précis (tag
     // wikimedia_commons) — bien plus fiable qu'une recherche Wikipédia par le seul nom, qui peut
     // tomber sur un homonyme bien plus connu. Cas réel rencontré : une petite réplique de la
@@ -863,14 +933,19 @@ app.get('/api/photo', async (req, res) => {
   if(!name || name.length > 120){
     return res.status(400).json({ error: 'invalid name' });
   }
-  const cacheKey = name + '|' + dept + '|' + country + '|' + lang;
+  // Point de référence (lieu OSM, étape ou commune) et rayon selon sa précision : voir wikiPlaceMatches.
+  const nLat = parseFloat(req.query.lat), nLon = parseFloat(req.query.lon);
+  const kind = Object.prototype.hasOwnProperty.call(PHOTO_NEAR_KM, req.query.kind) ? req.query.kind : 'stop';
+  const near = (isFinite(nLat) && isFinite(nLon) && Math.abs(nLat) <= 90 && Math.abs(nLon) <= 180)
+    ? { lat: nLat, lon: nLon, km: PHOTO_NEAR_KM[kind] } : null;
+  const cacheKey = name + '|' + dept + '|' + country + '|' + lang + '|' + (near ? nLat.toFixed(2) + ',' + nLon.toFixed(2) + ',' + kind : '-');
   const cached = photoCache.get(cacheKey);
   if(cached && (Date.now() - cached.ts) < CACHE_TTL_MS){
     return res.json(cached.data);
   }
   let data;
   try {
-    data = await resolvePlacePhoto(name, dept, country, lang);
+    data = await resolvePlacePhoto(name, dept, country, lang, near);
   } catch(err){
     data = { image: null, imageFull: null, wikiUrl: null, title: null };
   }

@@ -3481,6 +3481,23 @@ lien à ouvrir. Points notables de l'implémentation :
   potentiellement fausse si la page reste une page d'homonymie. « Région » vient de la table
   `DEPARTMENTS` pour la France, et directement des données pour les autres pays (voir "Pays
   couverts").
+- **Vérification géographique des sources (septembre 2026)** : une recherche par le seul nom tombait sur l'homonyme le
+  plus connu — « Madonna » (statue de la Madone près d'Ajaccio) → la chanteuse, « Statue de la Liberté » (réplique de
+  Roybon) → New York, « Monument aux morts » → Armentières, « Milano » → un rappeur, « Menago » → une rivière,
+  « Château de Montfalcon » près de Roybon → celui de Savoie. Un article n'est désormais retenu (photo ET lien) que s'il
+  est géolocalisé près du lieu : 5 km d'un lieu OpenStreetMap (ses coordonnées sont transmises par `/api/pois`), 15 km
+  de la commune pour un lieu connu seulement par elle (section « Lieux et monuments », lieux mis en avant), 20 km pour
+  l'étape elle-même. Sans coordonnées (personne, notion générale), rien n'est affiché. La section « Lieux et monuments »
+  n'est lue que si l'article est bien celui de la commune. Repli pour un nom local : même nom sur Wikipédia en anglais
+  (position vérifiée), puis article de la langue du visiteur via Wikidata (« Milano » → Milan, « Kraków » → Cracovie).
+  Mesuré sur 62 lieux réels et 40 étapes : toutes les photos écartées étaient fausses.
+- **Lieux tirés de la section « Lieux et monuments »** (`monumentName` dans server.js) : le nom est le texte AFFICHÉ de
+  la puce (et non la cible du premier lien, qui donnait « Église (édifice) » pour « [[Église (édifice)|église]] de… »),
+  coupé avant les précisions (« édifiée en… », « attesté dès… », « se dresse sur… », « au cœur de… »), et retenu seulement
+  s'il contient un mot désignant un lieu (église, chapelle, château, pont, moulin, dolmen…) sans formulation générique
+  (« Sur l'ensemble de la commune », « Sites médiévaux nombreux », « L'un des Plus beaux villages de France », noms de
+  personnes, « Climatologie »…). Vérifié sur 26 communes : faux lieux supprimés, noms nettoyés (« Chapelle Sainte-Croix
+  de Saint-Cirq-Lapopie » au lieu de « Sainte Croix », « Dolmen d'Horaste » sans balises), vrais lieux conservés.
 - **Langue du visiteur, pas celle de la commune** : l'article Wikipédia consulté (et donc la photo
   et le lien renvoyés) est dans la langue du navigateur du visiteur (`VISITOR_LANG` côté client,
   `lang` transmis à `/api/photo`) — une commune espagnole s'affiche en espagnol pour un visiteur

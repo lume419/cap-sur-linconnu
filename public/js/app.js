@@ -1624,11 +1624,19 @@
   // ne fait qu'éviter de redemander deux fois la même commune pendant l'affichage (ex. plusieurs
   // nuits au même endroit).
   var clientPhotoCache = {};
-  function fetchPlacePhoto(name, dept, country){
-    var key = name + '|' + (dept || '') + '|' + (country || '') + '|' + wikiLang();
+  // near : { lat, lon, kind } — point de référence du lieu cherché (kind 'poi' : lieu OSM précis ; 'area' : lieu connu
+  // seulement par sa commune ; 'stop' : l'étape elle-même). Le serveur n'accepte qu'un article Wikipédia géolocalisé près
+  // de ce point (fini « Madonna » la chanteuse pour une statue de la Madone en Corse).
+  // Lieu OSM avec coordonnées : rayon serré ; sinon (Wikipédia « Lieux et monuments », lieux mis en avant) : sa commune.
+  function optNear(opt, leg){ return opt && opt.lat != null ? nearOf(opt.lat, opt.lon, 'poi') : nearOf(leg && leg.lat, leg && leg.lon, 'area'); }
+  function nearOf(lat, lon, kind){ return (lat != null && lon != null) ? { lat: Number(lat), lon: Number(lon), kind: kind } : null; }
+  function fetchPlacePhoto(name, dept, country, near){
+    var nearKey = near ? Number(near.lat).toFixed(2) + ',' + Number(near.lon).toFixed(2) + ',' + near.kind : '-';
+    var key = name + '|' + (dept || '') + '|' + (country || '') + '|' + wikiLang() + '|' + nearKey;
     if(!clientPhotoCache[key]){
       var url = '/api/photo?name=' + encodeURIComponent(name) + '&dept=' + encodeURIComponent(dept || '') +
-        '&country=' + encodeURIComponent(country || '') + '&lang=' + encodeURIComponent(wikiLang());
+        '&country=' + encodeURIComponent(country || '') + '&lang=' + encodeURIComponent(wikiLang()) +
+        (near ? '&lat=' + encodeURIComponent(near.lat) + '&lon=' + encodeURIComponent(near.lon) + '&kind=' + encodeURIComponent(near.kind) : '');
       // 10. Un échec (limite de requêtes, délai, erreur serveur) n'est pas mémorisé : un prochain tirage réessaiera.
       clientPhotoCache[key] = fetch(url)
         .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
@@ -1751,10 +1759,10 @@
     var pending = [];
     legs.forEach(function(leg){
       if(!leg.stop) return;
-      pending.push(fetchPlacePhoto(leg.stop, leg.dept, leg.country));
+      pending.push(fetchPlacePhoto(leg.stop, leg.dept, leg.country, nearOf(leg.lat, leg.lon, 'stop')));
       if(leg.activities){
         leg.activities.forEach(function(opt){
-          if(opt.isReal && opt.searchName) pending.push(fetchPlacePhoto(opt.searchName, leg.dept, leg.country));
+          if(opt.isReal && opt.searchName) pending.push(fetchPlacePhoto(opt.searchName, leg.dept, leg.country, optNear(opt, leg)));
           // Réchauffe seulement la LISTE (mémoïsée, sans effet de bord) — piocher une rando
           // précise pour ce jour se décide au rendu (voir pickHikeForCommune), pas ici : appeler
           // pickHikeForCommune dès le préchargement consommerait la file avant même que renderDays
@@ -1767,7 +1775,7 @@
           return function(pois){
             // Un lieu venu de la section Wikipédia "Lieux et monuments" apporte parfois déjà sa
             // photo (voir server.js) — pas besoin de la redemander via /api/photo dans ce cas.
-            var more = (pois || []).slice(0, 6).filter(function(p){ return !p.image; }).map(function(p){ return fetchPlacePhoto(p.name, dept, country); });
+            var more = (pois || []).slice(0, 6).filter(function(p){ return !p.image; }).map(function(p){ return fetchPlacePhoto(p.name, dept, country, optNear(p, dayLeg)); });
             // Aucun lieu de plein air parmi les POI : la journée proposera une randonnée, autant la chercher aussi.
             if(!(pois || []).some(function(p){ return WALK_POI_TYPES[p.type]; })) more.push(fetchHikeData(dayLeg));
             return Promise.all(more);
@@ -1815,6 +1823,7 @@
         isWalk: !!WALK_POI_TYPES[poi.type],
         image: poi.image || null, // déjà résolue (galerie Wikipédia) : voir renderActivityCards
         imageFull: poi.imageFull || null,
+        lat: poi.lat != null ? poi.lat : null, lon: poi.lon != null ? poi.lon : null,
         wikiUrl: poi.wikiUrl || null
       });
     }
@@ -1831,6 +1840,7 @@
           isWalk: true,
           image: walkPoi.image || null,
           imageFull: walkPoi.imageFull || null,
+          lat: walkPoi.lat != null ? walkPoi.lat : null, lon: walkPoi.lon != null ? walkPoi.lon : null,
           wikiUrl: walkPoi.wikiUrl || null
         });
       } else {
@@ -1925,7 +1935,7 @@
         slot = freshActivities.findIndex(function(o){ return o.isWalk; });
         if(slot < 0) slot = freshActivities.length - 1;
         var displaced = freshActivities[slot];
-        shared.poisQueue.push({ name: displaced.label, type: displaced.typeKey, image: displaced.image, imageFull: displaced.imageFull, wikiUrl: displaced.wikiUrl });
+        shared.poisQueue.push({ name: displaced.label, type: displaced.typeKey, image: displaced.image, imageFull: displaced.imageFull, wikiUrl: displaced.wikiUrl, lat: displaced.lat, lon: displaced.lon });
       }
       freshActivities[slot] = keptHike;
     }
@@ -1992,7 +2002,7 @@
         // photo Wikipédia (ex. l'intérieur d'un musée, le paysage d'un point de vue) — plutôt que
         // la photo générale de la commune. Même sans photo trouvée, un lien vers une vraie page
         // Wikipédia (quand une existe) reste appliqué au titre — mieux qu'aucun lien du tout.
-        fetchPlacePhoto(opt.searchName, dept, leg && leg.country).then(function(cardEl, label){
+        fetchPlacePhoto(opt.searchName, dept, leg && leg.country, optNear(opt, leg)).then(function(cardEl, label){
           return function(data){
             if(!data) return;
             if(data.image) applyActivityCardImage(cardEl, label, data.image, data.imageFull, data.wikiUrl);
@@ -2210,7 +2220,7 @@
           '<a class="photo-tile-wiki" href="'+safeUrl(photos.wiki)+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>';
         body.appendChild(tile);
 
-        fetchPlacePhoto(firstLeg.stop, firstLeg.dept, firstLeg.country).then(function(stopName, tileEl, photoLinks){
+        fetchPlacePhoto(firstLeg.stop, firstLeg.dept, firstLeg.country, nearOf(firstLeg.lat, firstLeg.lon, 'stop')).then(function(stopName, tileEl, photoLinks){
           return function(data){
             if(data && data.image){
               var articleUrl = data.wikiUrl || photoLinks.wiki;
