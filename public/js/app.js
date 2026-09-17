@@ -935,7 +935,8 @@
   var rouletteTimer = null;
   var currentTripLabel = ''; // "Ville — X jours", pour nommer le PDF exporté (voir export-pdf-btn)
   var currentTripData = null;
-  var lastTripNotices = []; // avertissements de tout le trajet renvoyés par le serveur (van, électrique) // {legs, city, budgetKey, transportKey} du dernier itinéraire affiché
+  var lastTripNotices = [];
+  var portalsShownFor = {}; // étape -> liste d'activités où le lien « Plus de randonnées » est affiché // avertissements de tout le trajet renvoyés par le serveur (van, électrique) // {legs, city, budgetKey, transportKey} du dernier itinéraire affiché
 
   var els = {
     form: document.getElementById('form'),
@@ -1664,14 +1665,21 @@
   // nuits au même endroit) ; voir pickHikeForCommune juste après pour la distribution d'une rando
   // DIFFÉRENTE par jour à partir de cette liste partagée.
   var clientHikeCache = {};
-  function fetchVisorandoHikeList(communeName){
-    if(!clientHikeCache[communeName]){
-      clientHikeCache[communeName] = fetch('/api/hike?name=' + encodeURIComponent(communeName))
+  // Septembre 2026 : Visorando dans les pays qu'il couvre réellement, itinéraires balisés OpenStreetMap ailleurs (ou si
+  // Visorando ne trouve rien), plus les portails de randonnée de référence du pays — d'où le pays et les coordonnées.
+  function hikeKeyOf(leg){ return leg.stop + '|' + (leg.country || '') + '|' + (leg.lat != null ? Number(leg.lat).toFixed(3) + ',' + Number(leg.lon).toFixed(3) : ''); }
+  function fetchHikeData(leg){
+    var key = hikeKeyOf(leg);
+    if(!clientHikeCache[key]){
+      var url = '/api/hike?name=' + encodeURIComponent(leg.stop) + '&country=' + encodeURIComponent(leg.country || '') +
+        (leg.lat != null ? '&lat=' + encodeURIComponent(leg.lat) + '&lon=' + encodeURIComponent(leg.lon) : '') +
+        '&lang=' + encodeURIComponent(String(VISITOR_LANG).split('-')[0]);
+      clientHikeCache[key] = fetch(url)
         .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
-        .then(function(data){ return (data && data.hikes) || []; })
-        .catch(function(){ return []; });
+        .then(function(data){ return { hikes: (data && data.hikes) || [], portals: (data && data.portals) || [] }; })
+        .catch(function(){ return { hikes: [], portals: [] }; });
     }
-    return clientHikeCache[communeName];
+    return clientHikeCache[key];
   }
   // Pioche une rando pas encore proposée pour cette commune — sans ça, deux nuits d'affilée au même
   // endroit pouvaient se voir suggérer exactement la même randonnée (le fetch est mémoïsé, donc
@@ -1682,11 +1690,19 @@
   // jour reçoit donc bien un élément différent, tant qu'il en reste. File épuisée -> null (la
   // suggestion générique de repli reste affichée plutôt que de répéter une rando déjà proposée).
   var hikeQueueByCommune = {};
-  function pickHikeForCommune(communeName){
-    return fetchVisorandoHikeList(communeName).then(function(hikes){
-      if(!hikeQueueByCommune[communeName]) hikeQueueByCommune[communeName] = shuffle(hikes);
-      var queue = hikeQueueByCommune[communeName];
-      return queue.length ? queue.shift() : null;
+  // Randonnées déjà proposées sur l'ensemble du voyage en cours (par lien) : une même randonnée n'apparaît jamais deux
+  // jours, même à deux étapes voisines qui la trouvent toutes les deux. Remis à zéro à chaque nouveau tirage.
+  var usedHikeUrls = {};
+  function pickHikeForCommune(leg){
+    var key = hikeKeyOf(leg);
+    return fetchHikeData(leg).then(function(data){
+      if(!hikeQueueByCommune[key]) hikeQueueByCommune[key] = shuffle(data.hikes);
+      var queue = hikeQueueByCommune[key];
+      while(queue.length){
+        var hike = queue.shift();
+        if(!usedHikeUrls[hike.url]){ usedHikeUrls[hike.url] = true; return hike; }
+      }
+      return null;
     });
   }
   // Lance à l'avance les mêmes requêtes que renderDays fera plus tard (photo de chaque étape,
@@ -1707,7 +1723,7 @@
           // précise pour ce jour se décide au rendu (voir pickHikeForCommune), pas ici : appeler
           // pickHikeForCommune dès le préchargement consommerait la file avant même que renderDays
           // sache quels jours en ont réellement besoin. Visorando ne couvre que la France.
-          if(opt.needsHike && leg.country === 'FR') fetchVisorandoHikeList(leg.stop);
+          if(opt.needsHike && leg.lat != null) fetchHikeData(leg);
         });
       }
       if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
@@ -1848,17 +1864,33 @@
     if(hike.difficulty) metaBits.push(hike.difficulty);
     return '<div class="activity-card-visual">'+icon('walk')+'</div>'+
       '<div class="activity-card-body">'+
-        '<div class="activity-card-title">'+hike.name+'</div>'+
+        '<div class="activity-card-title">'+escHtml(hike.name)+'</div>'+
         '<div class="activity-card-type">'+(metaBits.length ? metaBits.join(' · ') : t('hike.defaultType'))+'</div>'+
-        '<div class="activity-card-source">'+t('hike.sourceLabel')+'</div>'+
+        '<div class="activity-card-source">'+t('hike.sourceLabel', {source: escHtml(hike.source || 'Visorando')})+'</div>'+
       '</div>';
   }
   function renderActivityCards(actList, activities, dept, communeName, leg){
     actList.innerHTML = '';
+    // Portails de randonnée de référence du pays (lien « Plus de randonnées »), une seule fois par étape.
+    if(leg && leg.lat != null && activities.some(function(o){ return o.needsHike || o.hikeUrl; })){
+      var portalKey = hikeKeyOf(leg);
+      if(!portalsShownFor[portalKey] || portalsShownFor[portalKey] === actList){
+        portalsShownFor[portalKey] = actList;
+        fetchHikeData(leg).then(function(data){
+          if(!data.portals.length || actList.querySelector('.hike-portals')) return;
+          var row = document.createElement('div');
+          row.className = 'hike-portals';
+          row.innerHTML = '<span>' + t('hike.morePortals') + '</span> ' + data.portals.map(function(p){
+            return '<a href="' + escHtml(p.url) + '" target="_blank" rel="noopener">' + escHtml(p.name) + ' ↗</a>';
+          }).join(' · ');
+          actList.appendChild(row);
+        });
+      }
+    }
     // Visorando ne couvre que la France (voir server.js) — inutile d'afficher "recherche d'une
     // vraie randonnée…" ni de tenter l'appel pour une commune d'un autre pays, la case générique
     // resterait de toute façon affichée telle quelle.
-    var canHike = !leg || leg.country === 'FR';
+    var canHike = !!(leg && leg.lat != null); // Visorando ou OpenStreetMap selon le pays (voir /api/hike)
     activities.forEach(function(opt){
       // Une vraie rando a déjà été trouvée pour cette option lors d'un rendu précédent (voir plus
       // bas) — ex. un changement de langue redessine tout le jour, mais la découverte Visorando,
@@ -1870,7 +1902,7 @@
         foundCard.href = opt.hikeUrl;
         foundCard.target = '_blank';
         foundCard.rel = 'noopener';
-        foundCard.innerHTML = hikeCardHtml({ name: opt.hikeName, url: opt.hikeUrl, distance: opt.hikeDistance, duration: opt.hikeDuration, difficulty: opt.hikeDifficulty });
+        foundCard.innerHTML = hikeCardHtml({ name: opt.hikeName, url: opt.hikeUrl, distance: opt.hikeDistance, duration: opt.hikeDuration, difficulty: opt.hikeDifficulty, source: opt.hikeSource });
         actList.appendChild(foundCard);
         return;
       }
@@ -1916,7 +1948,7 @@
         // générique initial, la mise à jour une fois les vrais POI arrivés, un changement de
         // langue...) : sans ce cache par jour, chaque rendu consommerait un élément de la file
         // partagée, la vidant avant même d'atteindre le jour suivant.
-        var hikePromise = (leg && leg.__hikePromise) || pickHikeForCommune(communeName);
+        var hikePromise = (leg && leg.__hikePromise) || pickHikeForCommune(leg);
         if(leg) leg.__hikePromise = hikePromise;
         hikePromise.then(function(cardEl, opt){
           return function(hike){
@@ -1926,7 +1958,7 @@
             // buildTripExportPayload) et un futur rendu (voir plus haut, opt.hikeUrl) reflètent la
             // vraie randonnée trouvée plutôt que la formule générique de repli.
             opt.hikeName = hike.name; opt.hikeUrl = hike.url;
-            opt.hikeDistance = hike.distance; opt.hikeDuration = hike.duration; opt.hikeDifficulty = hike.difficulty;
+            opt.hikeDistance = hike.distance; opt.hikeDuration = hike.duration; opt.hikeDifficulty = hike.difficulty; opt.hikeSource = hike.source || 'Visorando';
             if(!cardEl.parentNode) return;
             var newCard = document.createElement('a');
             newCard.className = 'activity-card has-hike';
@@ -2017,6 +2049,7 @@
   }
   function renderDays(legs, city){
     els.days.innerHTML = '';
+    portalsShownFor = {};
     // Avertissements valables pour tout le trajet (van : gabarit et vignettes ; électrique : couverture des bornes).
     (lastTripNotices || []).forEach(function(key){
       var note = document.createElement('div');
@@ -2529,7 +2562,7 @@
             return opt.hikeUrl ? {
               label: opt.hikeName,
               typeLabel: [opt.hikeDistance, opt.hikeDuration, opt.hikeDifficulty].filter(Boolean).join(' · ') || t('hike.defaultType'),
-              source: 'Visorando', hikeUrl: opt.hikeUrl
+              source: opt.hikeSource || 'Visorando', hikeUrl: opt.hikeUrl
             } : { label: optionLabel(opt), typeLabel: optionTypeLabel(opt), source: null, hikeUrl: null };
           })
         };
@@ -2680,6 +2713,7 @@
 
     var firstStopInfo = { name: firstLeg.stop, norm: firstLeg.norm, pop: firstLeg.pop, cp: firstLeg.cp, allCps: firstLeg.allCps, featuredCount: firstLeg.featuredCount || 0 };
     runReveal(firstStopInfo, spinPool, function(){
+      usedHikeUrls = {}; hikeQueueByCommune = {}; // nouveau voyage : aucune randonnée encore proposée
       renderDays(legs, city);
       renderMap(legs, city, cityCoord);
       renderPacking(budgetKey, transportKey);

@@ -1,0 +1,410 @@
+{
+ "visorandoCountries": [
+  "AT",
+  "BE",
+  "CH",
+  "DE",
+  "ES",
+  "FR",
+  "GB",
+  "IT",
+  "PT"
+ ],
+ "portals": [
+  {
+   "country": "FR",
+   "name": "Visorando",
+   "url": "https://www.visorando.com/index.php?component=rando&task=searchCircuitV2&loc={town}"
+  },
+  {
+   "country": "FR",
+   "name": "Mon GR® (FFRandonnée)",
+   "url": "https://www.mongr.fr/trouver-prochaine-randonnee"
+  },
+  {
+   "country": "BE",
+   "name": "Grote Routepaden",
+   "url": "https://www.groteroutepaden.be/nl/search?txtSearch={town}"
+  },
+  {
+   "country": "NL",
+   "name": "Wandelnet",
+   "url": "https://www.wandelnet.nl/wandelroute-zoeken"
+  },
+  {
+   "country": "LU",
+   "name": "Visit Luxembourg – Randonnées",
+   "url": "https://www.visitluxembourg.com/fr/explorer-le-luxembourg/nature-outdoor/randonnees?query={town}"
+  },
+  {
+   "country": "CH",
+   "name": "Suisse Rando",
+   "url": "https://www.schweizer-wanderwege.ch/fr/propositions-de-randonnees/?criteria%5Bfulltext%5D={town}"
+  },
+  {
+   "country": "LI",
+   "name": "Suisse Rando",
+   "url": "https://www.schweizer-wanderwege.ch/fr/propositions-de-randonnees/?criteria%5Bfulltext%5D={town}"
+  },
+  {
+   "country": "DE",
+   "name": "Wanderbares Deutschland",
+   "url": "https://www.wanderbares-deutschland.de/suche?search={town}"
+  },
+  {
+   "country": "DE",
+   "name": "alpenvereinaktiv.com",
+   "url": "https://www.alpenvereinaktiv.com/de/touren/#cat=Wanderung&zc=11.,{lon},{lat}"
+  },
+  {
+   "country": "AT",
+   "name": "alpenvereinaktiv.com",
+   "url": "https://www.alpenvereinaktiv.com/de/touren/#cat=Wanderung&zc=11.,{lon},{lat}"
+  },
+  {
+   "country": "IT",
+   "name": "Infomont – CAI",
+   "url": "https://infomont.cai.it/"
+  },
+  {
+   "country": "ES",
+   "name": "Mi Senda FEDME",
+   "url": "https://misendafedme.es/buscador-de-senderos/"
+  },
+  {
+   "country": "PT",
+   "name": "Natural.pt – Percursos",
+   "url": "https://natural.pt/pathways"
+  },
+  {
+   "country": "AD",
+   "name": "Visit Andorra – Hiking",
+   "url": "https://visitandorra.com/en/nature--sports/hiking/"
+  },
+  {
+   "country": "SM",
+   "name": "Visit San Marino – Sentieri",
+   "url": "https://www.visitsanmarino.com/pub2/VisitSM/contenuto/Vivi/Itinerari-naturalistici.html"
+  },
+  {
+   "country": "MT",
+   "name": "Visit Malta – Walks",
+   "url": "https://www.visitmalta.com/en/hikes-and-walks-malta-gozo/"
+  },
+  {
+   "country": "GI",
+   "name": "Gibraltar Nature Reserve",
+   "url": "https://naturereserve.gi/discover-trails/"
+  },
+  {
+   "country": "GB",
+   "name": "National Trails",
+   "url": "https://www.nationaltrail.co.uk/"
+  },
+  {
+   "country": "GB",
+   "name": "Ramblers – Routes",
+   "url": "https://www.ramblers.org.uk/go-walking/routes"
+  },
+  {
+   "country": "IE",
+   "name": "Sport Ireland Trails",
+   "url": "https://www.sportireland.ie/outdoors/walking/trails"
+  },
+  {
+   "country": "IM",
+   "name": "Visit Isle of Man – Walks",
+   "url": "https://www.visitisleofman.com/see-and-do/active-and-adventure/walking-and-hiking/self-guided-walks"
+  },
+  {
+   "country": "JE",
+   "name": "Visit Jersey – Walking",
+   "url": "https://www.jersey.com/things-to-do/attractions/scenic-walking-routes/"
+  },
+  {
+   "country": "GG",
+   "name": "Visit Guernsey – Hiking Routes",
+   "url": "https://www.visitguernsey.com/experiences/hiking/hiking-routes/"
+  },
+  {
+   "country": "NO",
+   "name": "UT.no",
+   "url": "https://ut.no/utforsker/norge/turforslag"
+  },
+  {
+   "country": "SE",
+   "name": "Naturkartan – Trails",
+   "url": "https://www.naturkartan.se/en/explore?category=7,31,33"
+  },
+  {
+   "country": "FI",
+   "name": "Luontoon.fi",
+   "url": "https://www.luontoon.fi/fi/lajit/retkeily-ja-ulkoilu/kartta"
+  },
+  {
+   "country": "AX",
+   "name": "Visit Åland – Hiking",
+   "url": "https://visitaland.com/en/experience/outdoor/hiking-in-aland/"
+  },
+  {
+   "country": "DK",
+   "name": "Udinaturen.dk",
+   "url": "https://udinaturen.dk/kort/"
+  },
+  {
+   "country": "IS",
+   "name": "Ferðafélag Íslands – Trails",
+   "url": "https://www.fi.is/en/hiking-trails/trails"
+  },
+  {
+   "country": "FO",
+   "name": "Visit Faroe Islands – Hiking",
+   "url": "https://visitfaroeislands.com/en/whatson/hiking"
+  },
+  {
+   "country": "EE",
+   "name": "RMK – Kuhu minna",
+   "url": "https://rmk.ee/looduses-liikumine/kuhu-minna/"
+  },
+  {
+   "country": "EE",
+   "name": "Baltic Trails",
+   "url": "https://baltictrails.eu/en/forest"
+  },
+  {
+   "country": "LV",
+   "name": "Baltic Trails",
+   "url": "https://baltictrails.eu/en/forest"
+  },
+  {
+   "country": "LT",
+   "name": "Baltic Trails",
+   "url": "https://baltictrails.eu/en/forest"
+  },
+  {
+   "country": "PL",
+   "name": "PTTK – Szlaki turystyczne",
+   "url": "https://szlaki.pttk.pl/"
+  },
+  {
+   "country": "CZ",
+   "name": "Mapy.com – Turistická",
+   "url": "https://mapy.com/fr/turisticka?x={lon}&y={lat}&z=13"
+  },
+  {
+   "country": "SK",
+   "name": "Turistická mapa KST",
+   "url": "https://mapy.kst.sk/#13/{lat}/{lon}"
+  },
+  {
+   "country": "HU",
+   "name": "Természetjáró",
+   "url": "https://www.termeszetjaro.hu/hu/tours/#cat=22729870&zc=12.,{lon},{lat}"
+  },
+  {
+   "country": "SI",
+   "name": "maPZS",
+   "url": "https://mapzs.pzs.si/"
+  },
+  {
+   "country": "HR",
+   "name": "HPS – Registar putova",
+   "url": "https://info.hps.hr/putovi/putovi"
+  },
+  {
+   "country": "BA",
+   "name": "Via Dinarica",
+   "url": "https://trail.viadinarica.com/en/routes/#zc=11.,{lon},{lat}"
+  },
+  {
+   "country": "ME",
+   "name": "Via Dinarica",
+   "url": "https://trail.viadinarica.com/en/routes/#zc=11.,{lon},{lat}"
+  },
+  {
+   "country": "ME",
+   "name": "Montenegro – Hiking",
+   "url": "https://www.montenegro.travel/en/explore-montenegro/nature-and-adventure/hiking-and-trekking"
+  },
+  {
+   "country": "AL",
+   "name": "Via Dinarica",
+   "url": "https://trail.viadinarica.com/en/routes/#zc=11.,{lon},{lat}"
+  },
+  {
+   "country": "XK",
+   "name": "Via Dinarica",
+   "url": "https://trail.viadinarica.com/en/routes/#zc=11.,{lon},{lat}"
+  },
+  {
+   "country": "RS",
+   "name": "PSS – Planinarski putevi",
+   "url": "https://pss.rs/terrain_register_category/planinarski-putevi/"
+  },
+  {
+   "country": "MK",
+   "name": "Via Dinarica",
+   "url": "https://trail.viadinarica.com/en/routes/#zc=11.,{lon},{lat}"
+  },
+  {
+   "country": "BG",
+   "name": "BG Mountains – Routes",
+   "url": "https://bgmountains.org/en/gps-routes/routes"
+  },
+  {
+   "country": "RO",
+   "name": "Munții Noștri",
+   "url": "https://muntii-nostri.ro/trails/?search={town}"
+  },
+  {
+   "country": "MD",
+   "name": "Moldova Travel – Hiking",
+   "url": "https://moldova.travel/en/hiking-trails-in-moldova/"
+  },
+  {
+   "country": "CY",
+   "name": "Visit Cyprus – Nature Trails",
+   "url": "https://www.visitcyprus.com/multimedia/nature-trails-and-hiking-map/"
+  },
+  {
+   "country": "TR",
+   "name": "Culture Routes in Turkey",
+   "url": "https://cultureroutesinturkey.com/all-routes/"
+  },
+  {
+   "country": "GE",
+   "name": "APA – Ecotourism Trails",
+   "url": "https://apa.gov.ge/en/eco-tourism/Trails"
+  },
+  {
+   "country": "AM",
+   "name": "HIKEArmenia",
+   "url": "https://hikearmenia.org/all-trails"
+  },
+  {
+   "country": "AZ",
+   "name": "Azerbaijan Travel – Hikings",
+   "url": "https://azerbaijan.travel/hikings"
+  },
+  {
+   "country": "US",
+   "name": "Recreation.gov",
+   "url": "https://www.recreation.gov/search?q={town}"
+  },
+  {
+   "country": "US",
+   "name": "NPS – Where Can I Hike?",
+   "url": "https://www.nps.gov/subjects/trails/where-can-i-hike.htm"
+  },
+  {
+   "country": "CA",
+   "name": "Parks Canada – Hiking",
+   "url": "https://parks.canada.ca/voyage-travel/experiences/sports/randonnee-hiking"
+  },
+  {
+   "country": "CA",
+   "name": "Trans Canada Trail",
+   "url": "https://tctrail.ca/explore-the-map/"
+  },
+  {
+   "country": "GL",
+   "name": "Visit Greenland – Hiking",
+   "url": "https://visitgreenland.com/activities/hiking/"
+  },
+  {
+   "country": "BR",
+   "name": "Rede Brasileira de Trilhas",
+   "url": "https://redetrilhas.org.br/w3/index.php/as-trilhas/as-trilhas-da-rede"
+  },
+  {
+   "country": "CL",
+   "name": "CONAF – Nuestros Parques",
+   "url": "https://www.conaf.cl/parques-nacionales/nuestros-parques/"
+  },
+  {
+   "country": "AU",
+   "name": "Trail Hiking Australia",
+   "url": "https://www.trailhiking.com.au/search/?geodir_search=1&stype=gd_place&s=&snear={town}&sgeo_lat={lat}&sgeo_lon={lon}"
+  },
+  {
+   "country": "NZ",
+   "name": "DOC – Walking and tramping",
+   "url": "https://www.doc.govt.nz/parks-and-recreation/things-to-do/walking-and-tramping/"
+  },
+  {
+   "country": "JP",
+   "name": "環境省 長距離自然歩道",
+   "url": "https://www.env.go.jp/nature/nationalparks/pick-up/long-trail/"
+  },
+  {
+   "country": "JP",
+   "name": "Japan National Parks – Hiking",
+   "url": "https://www.japan.travel/national-parks/things-to-see-and-do/hiking/"
+  },
+  {
+   "country": "KR",
+   "name": "Durunubi (두루누비)",
+   "url": "https://durunubi.kr/road-walk.do"
+  },
+  {
+   "country": "KR",
+   "name": "Korea National Park – 탐방로",
+   "url": "https://www.knps.or.kr/front/portal/trails/search.do?menuNo=8000754"
+  },
+  {
+   "country": "TW",
+   "name": "Taiwan National Trails",
+   "url": "https://www.forest.gov.tw/en/trail?p=0"
+  },
+  {
+   "country": "HK",
+   "name": "Enjoy Hiking (郊野樂行)",
+   "url": "https://www.hiking.gov.hk/trail"
+  },
+  {
+   "country": "SG",
+   "name": "NParks – Nature walks",
+   "url": "https://www.nparks.gov.sg/visit/activities/nature-walks-tours"
+  },
+  {
+   "country": "NP",
+   "name": "Nepal Tourism Board – Trekking",
+   "url": "https://ntb.gov.np/en/things-to-do/trekking"
+  },
+  {
+   "country": "BT",
+   "name": "Trans Bhutan Trail",
+   "url": "https://www.transbhutantrail.com/about-the-trans-bhutan-trail"
+  },
+  {
+   "country": "LK",
+   "name": "The Pekoe Trail",
+   "url": "https://thepekoetrail.org/"
+  },
+  {
+   "country": "IL",
+   "name": "Rashut HaTeva – Trails",
+   "url": "https://www.parks.org.il/%d7%9e%d7%a1%d7%9c%d7%95%d7%9c%d7%99-%d7%98%d7%99%d7%95%d7%9c/"
+  },
+  {
+   "country": "JO",
+   "name": "Jordan Trail",
+   "url": "https://www.jordantrail.org/"
+  },
+  {
+   "country": "LB",
+   "name": "Lebanon Mountain Trail",
+   "url": "https://www.lebanontrail.org/hike-the-lmt-map-section"
+  },
+  {
+   "country": "PS",
+   "name": "Masar Ibrahim al-Khalil",
+   "url": "https://masaribrahim.ps/trail/"
+  },
+  {
+   "country": "ZA",
+   "name": "SANParks – Hikes & Trails",
+   "url": "https://www.sanparks.org/travel/plan/what-to-do/activities/hikes-walks-trails"
+  }
+ ]
+}

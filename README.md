@@ -3532,6 +3532,34 @@ travail sans le créditer :
 - Si Visorando ne renvoie rien pour la commune tirée, la formule générique reste affichée telle
   quelle — aucune erreur visible.
 
+### Randonnées dans le monde entier (septembre 2026)
+
+Jusqu'ici, la recherche interrogeait Visorando pour TOUTES les communes, par leur seul nom, quel que soit le pays : ailleurs
+qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appelait d'ailleurs que pour la France).
+
+- **Visorando seulement là où il couvre réellement le terrain** : ses 45 056 randonnées ont été rattachées au pays de la
+  commune la plus proche — **France (~35 190), Royaume-Uni (~3 610), Allemagne (~1 500), Belgique (~1 380), Espagne (~950),
+  Suisse (~620), Italie (~580), Autriche (~156), Portugal (~132)**, seuil de 100 (Grèce 78, Luxembourg 70, Norvège 55… en
+  dessous). **Contrôle géographique** : la page Visorando d'un nom peut être celle d'un homonyme (« brugge » = Brügge dans le
+  Schleswig-Holstein, pas Bruges) ; sa position (balises meta) doit être à moins de 25 km de l'étape, sinon elle est ignorée
+  — correction valable aussi pour les homonymes français.
+- **Itinéraires balisés OpenStreetMap partout ailleurs** (ou si Visorando ne trouve rien) : relations `route=hiking`/`foot`
+  nommées à moins de 15 km (Overpass), nom dans la langue d'interface quand il existe, distance, lien vers Waymarked Trails,
+  mention « Source : OpenStreetMap ». Une journée = une randonnée : itinéraires de plus de 40 km et grands réseaux
+  européens/nationaux sans distance écartés ; tri par proximité, léger avantage aux boucles locales. Cache 14 jours par
+  point, échecs réseau non mis en cache. Couverture OSM inégale (rien autour de Hakone au Japon, par exemple).
+- **Portails de randonnée de référence** (`scripts/hiking/hiking-europe.js`, `hiking-monde.js` → `scripts/build-hiking-data.js`
+  → `data/hiking.json`) : **79 portails dans 70 pays**, officiels de préférence (Suisse Rando, Wanderbares Deutschland,
+  alpenvereinaktiv, Mapy.com, National Trails, Recreation.gov, Parcs Canada, DOC Nouvelle-Zélande, sentiers longue distance
+  du ministère japonais de l'Environnement, Durunubi, SANParks, Jordan Trail…), affichés une fois par étape sous la forme
+  « Plus de randonnées : … ↗ » (traduit dans les 161 langues) ; 22 acceptent une recherche pré-remplie (ville ou
+  coordonnées), les autres renvoient vers une page nationale. Portails bloqués par des contrôles anti-robots non retenus.
+- **Une randonnée par jour, jamais deux fois la même** : une seule case « randonnée » par journée (inchangé) ; file de
+  randonnées par étape, et désormais registre des liens déjà proposés sur TOUT le voyage (`usedHikeUrls`), remis à zéro à
+  chaque tirage — deux étapes voisines qui trouvent le même sentier ne le proposent qu'une fois. Test : 5 jours à Avekapelle
+  (Belgique), 5 randonnées OpenStreetMap différentes, lien « Grote Routepaden » affiché une fois.
+- « Source : {source} » dans les 161 langues (Visorando ou OpenStreetMap) ; export PDF : source réelle de chaque randonnée.
+
 ## Ferries
 
 Une île n'est jamais reliée au continent par la route : le moteur de distance (vol d'oiseau × 1,17,

@@ -11,6 +11,9 @@ const PDFDocument = require('pdfkit');
 const tripEngine = require('./lib/trip-engine.js');
 const searchIndex = require('./lib/search-index.js');
 const TripDataCountries = require('./public/js/trip-data.js').COUNTRIES;
+// Pays couverts par Visorando et portails de randonnée par pays (scripts/build-hiking-data.js -> data/hiking.json).
+let HIKING_DATA = { visorandoCountries: ['FR'], portals: [] };
+try { HIKING_DATA = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'hiking.json'), 'utf8')); } catch(err){ /* fichier absent : France seule */ }
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -568,6 +571,13 @@ async function fetchVisorandoHikes(communeName){
       difficulty: diffMatch ? diffMatch[1] : null
     });
   }
+  // Lieu de la page (balises meta latitude/longitude) : la page « randonnee-<nom> » peut être celle d'un HOMONYME
+  // (« brugge » = Brügge dans le Schleswig-Holstein, pas Bruges) — voir le contrôle de distance dans /api/hike.
+  const latMeta = html.match(/itude" content="(-?\d+(?:\.\d+)?)"/g) || [];
+  if(latMeta.length >= 2){
+    const vals = latMeta.slice(0, 2).map(s => parseFloat(s.match(/"(-?[\d.]+)"$/)[1]));
+    hikes.center = { lat: vals[0], lon: vals[1] };
+  }
   return hikes;
 }
 
@@ -581,7 +591,9 @@ async function fetchVisorandoHikeList(communeName){
   const cacheKey = communeName.toLowerCase();
   const cached = visorandoCache.get(cacheKey);
   if(cached && (Date.now() - cached.ts) < VISORANDO_CACHE_TTL_MS){
-    return cached.hikes.slice(0, 8);
+    const list = cached.hikes.slice(0, 8);
+    list.center = cached.hikes.center || null;
+    return list;
   }
   let hikes;
   try {
@@ -591,7 +603,79 @@ async function fetchVisorandoHikeList(communeName){
     return null;
   }
   visorandoCache.set(cacheKey, { hikes, ts: Date.now() });
-  return hikes.slice(0, 8);
+  const list = hikes.slice(0, 8);
+  list.center = hikes.center || null;
+  return list;
+}
+
+// ---------------------------------------------------------------------------------------------
+// RANDONNÉES HORS DE VISORANDO : itinéraires balisés OpenStreetMap (septembre 2026)
+// ---------------------------------------------------------------------------------------------
+// Visorando ne couvre réellement que quelques pays (HIKING_DATA.visorandoCountries) : ailleurs, et quand Visorando ne
+// renvoie rien, on cherche les itinéraires de randonnée balisés d'OpenStreetMap (relations route=hiking nommées) à moins
+// de OSM_HIKE_RADIUS_M de l'étape. Seuls le nom, la distance et l'identifiant sont repris (données ODbL, attribution
+// « OpenStreetMap ») ; le lien ouvre l'itinéraire sur Waymarked Trails. Une journée = une randonnée : les grands
+// itinéraires de plusieurs jours (distance > OSM_HIKE_MAX_KM, réseaux européens/nationaux sans distance connue) sont
+// écartés, les réseaux locaux puis régionaux passent en premier.
+const OSM_HIKE_RADIUS_M = 15000;
+// Écart maximal entre l'étape et le lieu de la page Visorando trouvée par son nom (voir fetchVisorandoHikes).
+const VISORANDO_MAX_OFFSET_KM = 25;
+const OSM_HIKE_MAX_KM = 40;
+const OSM_HIKE_CACHE_TTL_MS = 14 * 24 * 60 * 60 * 1000;
+const osmHikeCache = new Map();
+const HIKE_NETWORK_RANK = { lwn: 0, rwn: 1, nwn: 2, iwn: 3 };
+function parseKm(v){
+  const m = String(v || '').replace(',', '.').match(/^\s*(\d+(?:\.\d+)?)\s*(km)?\s*$/i);
+  return m ? parseFloat(m[1]) : null;
+}
+async function fetchOsmHikes(lat, lon, lang){
+  const cacheKey = lat.toFixed(2) + ',' + lon.toFixed(2);
+  const cached = osmHikeCache.get(cacheKey);
+  let elements = cached && (Date.now() - cached.ts) < OSM_HIKE_CACHE_TTL_MS ? cached.elements : null;
+  if(!elements){
+    const query = '[out:json][timeout:25];relation["route"~"^(hiking|foot)$"]["name"](around:' + OSM_HIKE_RADIUS_M + ',' + lat + ',' + lon + ');out tags center 60;';
+    let data = null;
+    for(const url of OVERPASS_MIRRORS){
+      try { data = await queryOverpass(url, query); break; } catch(err){ /* miroir suivant */ }
+    }
+    if(!data) return null; // échec réseau : pas mis en cache
+    elements = (data.elements || []).map(e => ({ id: e.id, tags: e.tags || {}, lat: e.center && e.center.lat, lon: e.center && e.center.lon }));
+    osmHikeCache.set(cacheKey, { elements, ts: Date.now() });
+  }
+  const out = [];
+  const seenNames = new Set();
+  elements.forEach(e => {
+    const t = e.tags;
+    const km = parseKm(t.distance);
+    if(km !== null && km > OSM_HIKE_MAX_KM) return;
+    if(km === null && (t.network === 'iwn' || t.network === 'nwn')) return;
+    const name = (lang && t['name:' + lang]) || t.name;
+    if(!name || seenNames.has(name.toLowerCase())) return;
+    seenNames.add(name.toLowerCase());
+    out.push({
+      name: name,
+      url: 'https://hiking.waymarkedtrails.org/#route?id=' + e.id,
+      distance: km !== null ? (Math.round(km * 10) / 10) + ' km' : null,
+      duration: null,
+      difficulty: null,
+      source: 'OpenStreetMap',
+      rank: (t.network in HIKE_NETWORK_RANK ? HIKE_NETWORK_RANK[t.network] : 1) * 10 + (km === null ? 1 : 0),
+      d: (e.lat != null) ? haversineKm(lat, lon, e.lat, e.lon) : 99
+    });
+  });
+  // Proximité d'abord (centre de l'itinéraire), avec un léger avantage aux réseaux locaux : un sentier régional à 12 km,
+  // de l'autre côté d'un massif ou d'une frontière, ne doit pas passer devant une boucle locale à 2 km.
+  out.sort((a, b) => (a.d + a.rank * 0.3) - (b.d + b.rank * 0.3));
+  return out.slice(0, 10).map(h => { delete h.rank; delete h.d; return h; });
+}
+// Portails de randonnée de référence par pays (scripts/hiking/, recherche sourcée) : simple lien « Plus de randonnées ».
+function hikingPortalsFor(country, name, lat, lon){
+  const list = (HIKING_DATA.portals || []).filter(p => p.country === country);
+  return list.map(p => ({
+    name: p.name,
+    url: p.url.replace(/\{town\}/g, encodeURIComponent(name)).replace(/\{lat\}/g, isFinite(lat) ? String(lat) : '')
+      .replace(/\{lon\}/g, isFinite(lon) ? String(lon) : '')
+  })).filter(p => !/\{|\}/.test(p.url) && /^https:\/\//.test(p.url));
 }
 
 app.get('/api/hike', async (req, res) => {
@@ -599,9 +683,26 @@ app.get('/api/hike', async (req, res) => {
   if(!name || name.length > 120){
     return res.status(400).json({ error: 'invalid name', hikes: [] });
   }
+  const country = String(req.query.country || '').trim().toUpperCase();
+  const lat = parseFloat(req.query.lat), lon = parseFloat(req.query.lon);
+  const lang = /^[a-z]{2,3}$/.test(String(req.query.lang || '')) ? String(req.query.lang) : '';
+  const coordsOk = isFinite(lat) && isFinite(lon) && Math.abs(lat) <= 90 && Math.abs(lon) <= 180;
+  // Pays inconnu de la requête (anciens clients) : comportement d'avant, Visorando seulement.
+  const useVisorando = !country || (HIKING_DATA.visorandoCountries || ['FR']).includes(country);
   let hikes = [];
-  try { hikes = (await fetchVisorandoHikeList(name)) || []; } catch(err){ /* silencieux : voir fetchVisorandoHikeList */ }
-  res.json({ hikes });
+  if(useVisorando){
+    try {
+      const list = (await fetchVisorandoHikeList(name)) || [];
+      // Page d'un homonyme lointain (ou page générique) : ignorée, les itinéraires OpenStreetMap prennent le relais.
+      const center = list.center;
+      const farAway = coordsOk && center && haversineKm(lat, lon, center.lat, center.lon) > VISORANDO_MAX_OFFSET_KM;
+      if(!farAway) hikes = list.map(h => Object.assign({ source: 'Visorando' }, h));
+    } catch(err){ /* silencieux */ }
+  }
+  if(!hikes.length && coordsOk && country && TripDataCountries[country]){
+    try { hikes = (await fetchOsmHikes(lat, lon, lang)) || []; } catch(err){ /* silencieux */ }
+  }
+  res.json({ hikes, portals: country ? hikingPortalsFor(country, name, lat, lon) : [] });
 });
 
 app.get('/api/pois', async (req, res) => {

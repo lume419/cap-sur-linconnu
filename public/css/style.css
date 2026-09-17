@@ -276,6 +276,8 @@
   .suggest-item.active{outline:1.5px solid var(--accent-3);}
   .suggest-name{display:inline-flex; align-items:center; gap:.4rem; font:600 .88rem/1.2 var(--font-body); color:var(--ink); min-width:0;}
   .suggest-name>span{overflow-wrap:anywhere;} /* nom long : retour à la ligne plutôt que coupure */
+  .hike-portals{grid-column:1 / -1; font:.8rem/1.4 var(--font-body); color:var(--ink-soft); padding:.2rem .1rem;}
+  .hike-portals a{color:var(--accent-3);}
   .suggest-matched{font-weight:400; color:var(--ink-soft, var(--ink)); opacity:.8;}
   .suggest-flag{flex:none; font-size:1rem; line-height:1;}
   .suggest-cp{font:var(--font-mono); font-size:.72rem; color:var(--ink-faint); white-space:nowrap; flex:none;}
