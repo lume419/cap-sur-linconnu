@@ -427,13 +427,19 @@ const POI_CACHE_TTL_MS = 14 * 24 * 60 * 60 * 1000; // 14j : ces lieux ne changen
 // par la suggestion générique "Visite de l'église ou du patrimoine bâti local").
 function buildOverpassQuery(lat, lon){
   const around = `around:${POI_RADIUS_M},${lat},${lon}`;
-  return `[out:json][timeout:24];(
-    node["tourism"~"^(attraction|museum|viewpoint|gallery|zoo|theme_park|artwork)$"]["name"](${around});
-    way["tourism"~"^(attraction|museum|viewpoint|gallery|zoo|theme_park|artwork)$"]["name"](${around});
-    node["historic"~"^(monument|memorial|archaeological_site|castle|ruins|fort|citadel|manor|chapel)$"]["name"](${around});
-    way["historic"~"^(monument|memorial|archaeological_site|castle|ruins|fort|citadel|manor|chapel)$"]["name"](${around});
-    node["natural"~"^(peak|waterfall|beach|cave_entrance)$"]["name"](${around});
-    node["leisure"="nature_reserve"]["name"](${around});
+  // Zone d'abord (tous les éléments nommés du rayon, une seule fois), puis filtrage par type sur ce jeu : mêmes
+  // résultats (vérifié à l'identique, 829 éléments autour de Lyon) mais 2,5 à 5 fois plus rapide sur
+  // overpass.openstreetmap.fr (septembre 2026 : 1,8 s au lieu de 9 s en zone rurale, 3,9 s au lieu de 10 s à Lyon) —
+  // six recherches géographiques séparées coûtaient bien plus cher qu'une seule.
+  return `[out:json][timeout:24];
+  nwr["name"](${around})->.a;
+  (
+    node.a["tourism"~"^(attraction|museum|viewpoint|gallery|zoo|theme_park|artwork)$"];
+    way.a["tourism"~"^(attraction|museum|viewpoint|gallery|zoo|theme_park|artwork)$"];
+    node.a["historic"~"^(monument|memorial|archaeological_site|castle|ruins|fort|citadel|manor|chapel)$"];
+    way.a["historic"~"^(monument|memorial|archaeological_site|castle|ruins|fort|citadel|manor|chapel)$"];
+    node.a["natural"~"^(peak|waterfall|beach|cave_entrance)$"];
+    node.a["leisure"="nature_reserve"];
   );out center 25;`;
 }
 

@@ -947,6 +947,9 @@
   var radiusMode = 'km';
   var lastNorm = null; // évite de retomber sur la même première étape deux fois de suite
   var rouletteTimer = null;
+  // Attente maximale du préchargement des activités et photos après réception du tirage (roulette comprise).
+  var PRELOAD_MAX_WAIT_MS = 10000;
+  var currentDrawId = 0;
   var currentTripLabel = ''; // "Ville — X jours", pour nommer le PDF exporté (voir export-pdf-btn)
   var currentTripData = null;
   var lastTripNotices = [];
@@ -1635,6 +1638,9 @@
   // bloquer l'affichage si Overpass est indisponible (voir renderDays, qui retombe sur les
   // activités génériques déjà affichées si rien n'est trouvé).
   var clientPoiCache = {};
+  // Résultats déjà arrivés, lisibles sans attendre une promesse : renderDays affiche alors directement les vraies
+  // activités préchargées pendant le tirage, sans passer par les suggestions génériques (voir realPoiQueueSync).
+  var clientPoiResolved = {};
   // `name`/`dept` (optionnels) permettent au serveur de compléter Overpass avec la section "Lieux
   // et monuments" de l'article Wikipédia de la commune, quand elle existe — souvent plus riche, et
   // déjà illustrée y compris pour des lieux sans article dédié (voir server.js). Cette extraction
@@ -1648,7 +1654,8 @@
       clientPoiCache[key] = fetch(url)
         .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
         .then(function(data){ return (data && data.pois) || []; })
-        .catch(function(){ return []; });
+        .catch(function(){ return []; })
+        .then(function(pois){ clientPoiResolved[key] = pois; return pois; });
     }
     return clientPoiCache[key];
   }
@@ -1661,17 +1668,19 @@
   // buildItinerary (voir plus bas), appliqué cette fois à la mise à jour asynchrone après coup.
   var poiQueueByLocation = {};
   var genericQueueByLocation = {};
+  function sharedPoiQueue(key, pois){
+    if(!poiQueueByLocation[key]) poiQueueByLocation[key] = shuffle(pois || []);
+    if(!genericQueueByLocation[key]) genericQueueByLocation[key] = shuffle(GENERIC_KEYS_NO_WALK);
+    return { poisQueue: poiQueueByLocation[key], genericQueue: genericQueueByLocation[key], hasPois: !!(pois && pois.length) };
+  }
+  // Même file que realPoiQueueFor, mais seulement si les POI sont déjà arrivés (null sinon).
+  function realPoiQueueSync(lat, lon){
+    var key = lat.toFixed(3) + ',' + lon.toFixed(3);
+    return Object.prototype.hasOwnProperty.call(clientPoiResolved, key) ? sharedPoiQueue(key, clientPoiResolved[key]) : null;
+  }
   function realPoiQueueFor(lat, lon, name, dept, country){
     var key = lat.toFixed(3) + ',' + lon.toFixed(3);
-    return fetchRealPOIs(lat, lon, name, dept, country).then(function(pois){
-      if(!poiQueueByLocation[key]) poiQueueByLocation[key] = shuffle(pois || []);
-      if(!genericQueueByLocation[key]) genericQueueByLocation[key] = shuffle(GENERIC_KEYS_NO_WALK);
-      return {
-        poisQueue: poiQueueByLocation[key],
-        genericQueue: genericQueueByLocation[key],
-        hasPois: !!(pois && pois.length)
-      };
-    });
+    return fetchRealPOIs(lat, lon, name, dept, country).then(function(pois){ return sharedPoiQueue(key, pois); });
   }
   // Plusieurs vraies randonnées balisées (Visorando, via notre serveur) pour la suggestion
   // "balade" quand aucun POI de plein air (point de vue, cascade...) n'a été trouvé pour la
@@ -1727,30 +1736,37 @@
   // leur résultat par clé (nom+département, ou coordonnées) : renderDays() récupère donc une
   // promesse déjà résolue (ou bien avancée) au lieu de repartir de zéro — moins d'attente visible
   // pour les photos et les activités, sans changer le rythme de l'animation elle-même.
+  // Renvoie une promesse résolue quand tout ce qui a été lancé est arrivé (succès ou échec) : le tirage attend ce
+  // préchargement, dans une limite de temps, avant d'afficher l'itinéraire (voir PRELOAD_MAX_WAIT_MS).
   function prefetchLegAssets(legs){
+    var pending = [];
     legs.forEach(function(leg){
       if(!leg.stop) return;
-      fetchPlacePhoto(leg.stop, leg.dept, leg.country);
+      pending.push(fetchPlacePhoto(leg.stop, leg.dept, leg.country));
       if(leg.activities){
         leg.activities.forEach(function(opt){
-          if(opt.isReal && opt.searchName) fetchPlacePhoto(opt.searchName, leg.dept, leg.country);
+          if(opt.isReal && opt.searchName) pending.push(fetchPlacePhoto(opt.searchName, leg.dept, leg.country));
           // Réchauffe seulement la LISTE (mémoïsée, sans effet de bord) — piocher une rando
           // précise pour ce jour se décide au rendu (voir pickHikeForCommune), pas ici : appeler
           // pickHikeForCommune dès le préchargement consommerait la file avant même que renderDays
           // sache quels jours en ont réellement besoin. Visorando ne couvre que la France.
-          if(opt.needsHike && leg.lat != null) fetchHikeData(leg);
+          if(opt.needsHike && leg.lat != null) pending.push(fetchHikeData(leg));
         });
       }
       if(leg.needsRealPOIs && leg.lat != null && leg.lon != null){
-        fetchRealPOIs(leg.lat, leg.lon, leg.stop, leg.dept, leg.country).then(function(dept, country){
+        pending.push(fetchRealPOIs(leg.lat, leg.lon, leg.stop, leg.dept, leg.country).then(function(dept, country, dayLeg){
           return function(pois){
             // Un lieu venu de la section Wikipédia "Lieux et monuments" apporte parfois déjà sa
             // photo (voir server.js) — pas besoin de la redemander via /api/photo dans ce cas.
-            (pois || []).slice(0, 4).forEach(function(p){ if(!p.image) fetchPlacePhoto(p.name, dept, country); });
+            var more = (pois || []).slice(0, 6).filter(function(p){ return !p.image; }).map(function(p){ return fetchPlacePhoto(p.name, dept, country); });
+            // Aucun lieu de plein air parmi les POI : la journée proposera une randonnée, autant la chercher aussi.
+            if(!(pois || []).some(function(p){ return WALK_POI_TYPES[p.type]; })) more.push(fetchHikeData(dayLeg));
+            return Promise.all(more);
           };
-        }(leg.dept, leg.country));
+        }(leg.dept, leg.country, leg)));
       }
     });
+    return Promise.all(pending.map(function(p){ return Promise.resolve(p).catch(function(){}); }));
   }
   // Choisit une étape "aller-retour" plausible pour un jour unique, ou construit un itinéraire
   // réel à plusieurs étapes (buildRealRoute) pour un séjour plus long. Les activités viennent des
@@ -1883,6 +1899,26 @@
         '<div class="activity-card-type">'+(metaBits.length ? metaBits.join(' · ') : t('hike.defaultType'))+'</div>'+
         '<div class="activity-card-source">'+t('hike.sourceLabel', {source: escHtml(hike.source || 'Visorando')})+'</div>'+
       '</div>';
+  }
+  // Activités d'une journée une fois les vrais POI connus. Une vraie randonnée déjà trouvée et AFFICHÉE pour ce jour
+  // reste en place : sans ça, elle apparaissait puis disparaissait dès l'arrivée des POI (un point de vue ou un sommet
+  // prenait la place de la « balade »). Elle remplace de préférence la suggestion de balade générique, sinon une
+  // suggestion générique ; un POI de plein air ainsi écarté retourne dans la file de la commune pour un autre jour.
+  function upgradeActivities(dayLeg, shared){
+    var freshActivities = buildActivityOptions(shared.poisQueue, shared.genericQueue);
+    var keptHike = (dayLeg.activities || []).filter(function(o){ return o.hikeUrl; })[0];
+    if(keptHike && !freshActivities.some(function(o){ return o.hikeUrl; })){
+      var slot = freshActivities.findIndex(function(o){ return o.needsHike; });
+      if(slot < 0) slot = freshActivities.findIndex(function(o){ return !o.isReal; });
+      if(slot < 0){
+        slot = freshActivities.findIndex(function(o){ return o.isWalk; });
+        if(slot < 0) slot = freshActivities.length - 1;
+        var displaced = freshActivities[slot];
+        shared.poisQueue.push({ name: displaced.label, type: displaced.typeKey, image: displaced.image, imageFull: displaced.imageFull });
+      }
+      freshActivities[slot] = keptHike;
+    }
+    return freshActivities;
   }
   function renderActivityCards(actList, activities, dept, communeName, leg){
     actList.innerHTML = '';
@@ -2298,6 +2334,16 @@
         // fond (voir plus bas) — la petite mention rend l'attente légitime plutôt que de laisser
         // les suggestions génériques ci-dessous paraître figées sans explication. Overpass peut
         // prendre plusieurs secondes, en particulier pour une grande ville.
+        // POI déjà arrivés pendant le tirage : les vraies activités sont affichées d'emblée, sans passer par les
+        // suggestions génériques puis leur remplacement sous les yeux de l'utilisateur.
+        if(leg.needsRealPOIs && !leg.__poiUpgradeStarted && leg.lat != null && leg.lon != null){
+          var readyShared = realPoiQueueSync(leg.lat, leg.lon);
+          if(readyShared){
+            leg.__poiUpgradeStarted = true;
+            leg.needsRealPOIs = false;
+            if(readyShared.hasPois) leg.activities = upgradeActivities(leg, readyShared);
+          }
+        }
         var loadingNoteHtml = leg.needsRealPOIs
           ? ' <span class="activities-loading-note">'+t('activities.loadingReal')+'</span>'
           : '';
@@ -2331,23 +2377,7 @@
               var note = labelRow.querySelector('.activities-loading-note');
               if(note) note.remove();
               if(!shared.hasPois) return;
-              var freshActivities = buildActivityOptions(shared.poisQueue, shared.genericQueue);
-              // Une vraie randonnée déjà trouvée et AFFICHÉE pour ce jour reste en place : sans ça, elle apparaissait puis
-              // disparaissait dès l'arrivée des POI (un point de vue ou un sommet prenait la place de la « balade »). Elle
-              // remplace de préférence la suggestion de balade générique, sinon une suggestion générique ; un POI de plein
-              // air ainsi écarté retourne dans la file de la commune pour un autre jour.
-              var keptHike = (dayLeg.activities || []).filter(function(o){ return o.hikeUrl; })[0];
-              if(keptHike && !freshActivities.some(function(o){ return o.hikeUrl; })){
-                var slot = freshActivities.findIndex(function(o){ return o.needsHike; });
-                if(slot < 0) slot = freshActivities.findIndex(function(o){ return !o.isReal; });
-                if(slot < 0){
-                  slot = freshActivities.findIndex(function(o){ return o.isWalk; });
-                  if(slot < 0) slot = freshActivities.length - 1;
-                  var displaced = freshActivities[slot];
-                  shared.poisQueue.push({ name: displaced.label, type: displaced.typeKey, image: displaced.image, imageFull: displaced.imageFull });
-                }
-                freshActivities[slot] = keptHike;
-              }
+              var freshActivities = upgradeActivities(dayLeg, shared);
               // On remplace aussi leg.activities (pas seulement l'affichage) pour que l'export PDF
               // (voir buildTripExportPayload) reflète les vraies activités trouvées.
               dayLeg.activities = freshActivities;
@@ -2729,7 +2759,12 @@
     // L'itinéraire complet est déjà connu ici, avant même le début de l'animation — autant lancer
     // dès maintenant les requêtes (photos, vrais points d'intérêt) dont renderDays() aura besoin
     // dans quelques secondes, une fois la roulette terminée.
-    prefetchLegAssets(legs);
+    // L'affichage attend la fin de ce préchargement (vraies activités, randonnées, photos), dans la limite de
+    // PRELOAD_MAX_WAIT_MS depuis ce point : la roulette en occupe déjà la plus grande partie, et ce qui arriverait
+    // encore plus tard se met à jour sur place comme avant. drawId écarte l'affichage d'un tirage entre-temps relancé.
+    var assetsReady = prefetchLegAssets(legs);
+    var preloadDeadline = Date.now() + PRELOAD_MAX_WAIT_MS;
+    var drawId = ++currentDrawId;
 
     // Vivier de VRAIS noms de communes proches du point de départ pour faire défiler la roulette
     // avant la révélation — désormais renvoyé directement par /api/generate-trip (voir
@@ -2754,6 +2789,10 @@
 
     var firstStopInfo = { name: firstLeg.stop, norm: firstLeg.norm, pop: firstLeg.pop, cp: firstLeg.cp, allCps: firstLeg.allCps, featuredCount: firstLeg.featuredCount || 0 };
     runReveal(firstStopInfo, spinPool, function(){
+      Promise.race([assetsReady, new Promise(function(resolve){ setTimeout(resolve, Math.max(0, preloadDeadline - Date.now())); })])
+        .then(function(){ if(drawId === currentDrawId) showDrawnTrip(); });
+    });
+    function showDrawnTrip(){
       usedHikeUrls = {}; hikeQueueByCommune = {}; // nouveau voyage : aucune randonnée encore proposée
       renderDays(legs, city);
       renderMap(legs, city, cityCoord);
@@ -2772,7 +2811,7 @@
       els.exportRow.classList.add('show');
       els.packCard.classList.add('show');
       els.againRow.classList.add('show');
-    });
+    }
   }
 
   els.form.addEventListener('submit', function(e){
