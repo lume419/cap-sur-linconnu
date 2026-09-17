@@ -1180,7 +1180,7 @@ module.exports = {
       "name": "Batulicin ↔ Garongkong (Barru)",
       "operator": "ASDP Indonesia Ferry (KMP Awu-Awu)",
       "durationH": 24,
-      "distanceKm": 242,
+      "distanceKm": 413,
       "priceStatus": "unknown",
       "priceByClass": {
         "1": null,
@@ -1190,7 +1190,7 @@ module.exports = {
       },
       "source": "https://makassar.antaranews.com/berita/466812/asdp-batulicin-buka-rute-tujuan-pelabuhan-garongkong-sulsel ; https://www.threads.com/@djpl_ksopgarongkong/post/DY7avLMAVAf/",
       "date": "2026-06",
-      "note": "Ferry roulier (véhicules 4 et 6 roues), horaires publiés par la capitainerie KSOP Garongkong jusqu'en juin 2026, deux départs par semaine. Aucune grille officielle lisible. Durée ~24 h et distance ~242 km (site secondaire kataomed, ordre de grandeur)."
+      "note": "Ferry roulier (véhicules 4 et 6 roues), horaires publiés par la capitainerie KSOP Garongkong jusqu'en juin 2026, deux départs par semaine. Aucune grille officielle lisible. Durée ~24 h (site secondaire kataomed, ordre de grandeur). Distance : 413 km à vol d'oiseau entre les terminaux OpenStreetMap de Batulicin (way 318476217) et de Garongkong (node 13911655038), minimum de la route maritime ; les ~242 km du site secondaire étaient incompatibles avec l'écart réel entre les ports (septembre 2026)."
     },
     {
       "a": "borneo",

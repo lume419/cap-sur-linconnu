@@ -2136,7 +2136,7 @@
       els.days.appendChild(depWarn);
     }
     var totalKm = 0;
-    legs.forEach(function(leg){ totalKm += leg.distanceKm || 0; });
+    legs.forEach(function(leg){ totalKm += (leg.distanceKm || 0) + (leg.roadKm || 0); });
     // Un seul rappel de vignette PAR PAYS pour tout l'itinéraire (pas à chaque jour/étape qui y
     // reste ou y repasse) — voir son affichage plus bas, dans la boucle groups.forEach. Remis à
     // zéro à chaque appel de renderDays, y compris depuis l'écouteur 'i18n:langchange' : le rappel
@@ -2178,7 +2178,10 @@
       h3.textContent = isMultiDay ? formatDayRangeLabel(group.startDay, group.endDay) : singleLegLabel(firstLeg);
       var rt = document.createElement('div');
       rt.className = 'route-time';
-      rt.innerHTML = t(firstLeg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: firstLeg.travelTime, km: firstLeg.distanceKm});
+      // Étape avec traversée : partie par la route (jusqu'au port, puis depuis le port d'arrivée) + traversée, avec les
+      // libellés existants des deux (déjà traduits dans toutes les langues).
+      rt.innerHTML = (firstLeg.ferryInfo && firstLeg.roadKm ? t('day.routeTime', {time: firstLeg.roadTime, km: firstLeg.roadKm}) + ' + ' : '') +
+        t(firstLeg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: firstLeg.travelTime, km: firstLeg.distanceKm});
       top.appendChild(h3); top.appendChild(rt);
       body.appendChild(top);
 
@@ -2611,7 +2614,7 @@
     if(!currentTripData) return null;
     var legs = currentTripData.legs, city = currentTripData.city;
     var budgetKey = currentTripData.budgetKey, transportKey = currentTripData.transportKey;
-    var totalKm = legs.reduce(function(s,l){ return s + (l.distanceKm||0); }, 0);
+    var totalKm = legs.reduce(function(s,l){ return s + (l.distanceKm||0) + (l.roadKm||0); }, 0);
     var nights = legs.filter(function(l){ return l.labelKind === 'day'; }).length;
     var villes = {};
     legs.forEach(function(l){ if(!l.isReturn) villes[l.stop] = true; });
@@ -2635,6 +2638,8 @@
           isReturn: !!leg.isReturn,
           distanceKm: leg.distanceKm,
           travelTime: leg.travelTime,
+          roadKm: leg.roadKm || null,
+          roadTime: leg.roadTime || null,
           country: leg.country || null,
           tollInfo: leg.tollInfo || null,
           chargeInfo: leg.chargeInfo || null,

@@ -1157,11 +1157,11 @@
  },
  {
   "routeKey": "storsteinNikkeby",
-  "name": "Storstein ↔ Nikkeby (Arnøya)"
+  "name": "Storstein ↔ Nikkeby (Laukøya)"
  },
  {
   "routeKey": "storsteinLauksundskaret",
-  "name": "Storstein ↔ Lauksundskaret (Laukøya)"
+  "name": "Storstein ↔ Lauksundskaret (Arnøya)"
  },
  {
   "routeKey": "oksfjordHasvik",
@@ -1245,7 +1245,7 @@
  },
  {
   "routeKey": "naguKorpo",
-  "name": "Retais (Nagu) ↔ Pärnäs (Korpo)"
+  "name": "Pärnäs (Nagu) ↔ Retais (Korpo)"
  },
  {
   "routeKey": "korpoHoutskar",

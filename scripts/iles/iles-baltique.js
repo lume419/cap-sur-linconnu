@@ -4332,7 +4332,7 @@ module.exports = {
        ]
       ]
      },
-     "note": "Korpo + Norrskata (codes 21710, 21720, 21750) : bac routier Nagu (Retais) – Korpo (Pärnäs). Norrskata rangée avec Korpo (limite)."
+     "note": "Korpo + Norrskata (codes 21710, 21720, 21750) : bac routier Nagu (Pärnäs) – Korpo (Retais). Norrskata rangée avec Korpo (limite)."
     },
     {
      "key": "nagu",
@@ -6760,9 +6760,9 @@ module.exports = {
   },
   {
    "a": "continental",
-   "b": "arnoyaSkjervoy",
+   "b": "laukoya",
    "routeKey": "storsteinNikkeby",
-   "name": "Storstein ↔ Nikkeby (Arnøya)",
+   "name": "Storstein ↔ Nikkeby (Laukøya)",
    "operator": "Torghatten Nord",
    "durationH": 0.4,
    "distanceKm": 7,
@@ -6785,9 +6785,9 @@ module.exports = {
   },
   {
    "a": "continental",
-   "b": "laukoya",
+   "b": "arnoyaSkjervoy",
    "routeKey": "storsteinLauksundskaret",
-   "name": "Storstein ↔ Lauksundskaret (Laukøya)",
+   "name": "Storstein ↔ Lauksundskaret (Arnøya)",
    "operator": "Torghatten Nord",
    "durationH": 0.3,
    "distanceKm": 5,
@@ -7313,7 +7313,7 @@ module.exports = {
    "a": "korpo",
    "b": "nagu",
    "routeKey": "naguKorpo",
-   "name": "Retais (Nagu) ↔ Pärnäs (Korpo)",
+   "name": "Pärnäs (Nagu) ↔ Retais (Korpo)",
    "operator": "Finferries (bac routier / maantielautta)",
    "durationH": 0.15,
    "distanceKm": 1,

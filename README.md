@@ -3579,25 +3579,35 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
 
 Un trajet avec traversée compte aussi sa **partie par la route** dans la distance maximale entre étapes (80 km par
 défaut à vélo) : du point de départ au port le plus proche de sa rive, puis du port le plus proche de l'arrivée jusqu'à
-celle-ci. Avant, n'importe quel lieu de l'autre rive était accepté (à vélo : Sapporo → Yokohama, Lyon → Corse en une
+celle-ci (paires de ports réellement desservies quand elles sont connues). Avant, n'importe quel lieu de l'autre rive était accepté (à vélo : Sapporo → Yokohama, Lyon → Corse en une
 journée).
 
 - **Données** : `FERRY_PORTS` dans trip-data.js, construit par `scripts/build-ferry-ports.js` depuis
-  `scripts/ferry-ports/ports-*.js` — 700 liaisons sur 702, 1 550 ports, chacun avec la source qui établit que la ligne
-  le dessert (URL des commentaires de FERRY_ROUTES, sites des opérateurs). Recherche d'un lieu :
-  `node scripts/ferry-ports/find-port.js <PAYS> "<nom>"` (ou `--near lat,lon`).
-- **Coordonnées** : toujours celles des données de lieux du projet (GeoNames et sources nationales), jamais saisies à la
-  main ; le constructeur refuse un lieu introuvable, situé sur une autre masse terrestre (`landmassOf`, ou `zoneOf` pour
-  Ceuta, Melilla et Kaliningrad) ou ambigu. Quand la localité du port manque aux données, la plus proche du terminal
-  (situé d'après OpenStreetMap) sur la bonne rive est retenue.
-- **Limites** : un port est approché par le centre de sa localité, parfois éloignée du terminal quand les données sont
-  clairsemées (de 25 à 70 km pour Kurupukari, Punta Delgada, Middle Strait, K'gari, Olkhon, Landeyjahöfn…, ou le centre de
-  la vaste commune de Saint-Laurent-du-Maroni) ; les ports de chaque rive sont choisis indépendamment (une paire de ports
-  non desservie ensemble peut être retenue) ; la distance et la durée affichées d'une étape avec ferry restent celles de
-  la traversée seule. Sans ports connus (Esashi ↔ Okushiri, Valdez ↔ Tatitlek : localités absentes des données),
-  estimation par la distance à vol d'oiseau moins la traversée.
-- **Corrigé au passage** : Roomassaare ↔ Abruka part de Saaremaa et Småge ↔ Finnøya de Gossa, pas du continent
-  (`scripts/iles/iles-baltique.js`).
+  `scripts/ferry-ports/ports-*.js` puis `scripts/ferry-ports/corrections.js` — les 702 liaisons, 1 559 ports, chacun avec
+  la source qui établit que la ligne le dessert (URL des commentaires de FERRY_ROUTES, sites des opérateurs). Recherche
+  d'un lieu : `node scripts/ferry-ports/find-port.js <PAYS> "<nom>"` (ou `--near lat,lon`).
+- **Coordonnées** : celles des données de lieux du projet (GeoNames et sources nationales), ou du **quai OpenStreetMap**
+  (terminal `amenity=ferry_terminal`, extrémité d'une `route=ferry` ou quai nommé, identifiant d'élément cité) pour les
+  57 ports dont la localité était loin du quai ou absente des données (Okushiri, Valdez, K'gari, Olkhon, Landeyjahöfn,
+  Punta Delgada, Lifou, Maré, Île des Pins, Chiloé…). Le constructeur refuse un lieu introuvable, ambigu, situé sur une
+  autre masse terrestre (`landmassOf`, ou `zoneOf` pour Ceuta, Melilla et Kaliningrad) ou un quai à plus de 60 km de sa
+  localité ; un quai que les règles d'îles rangent sur l'autre rive (règles trop grossières à cet endroit) doit être
+  justifié (`sideNote`).
+- **Paires desservies** : pour les 19 liaisons à plusieurs ports sur chaque rive (Corse, Sardaigne, Sicile, Baléares,
+  Manche, mer d'Irlande, Åland, îles grecques et croates…), seules les paires de ports réellement exploitées en 2026 sont
+  envisagées (ex. plus de Nice ↔ Porto-Vecchio fictif) ; ports retirés faute de ligne (Calvi, Reggio de Calabre pour les
+  véhicules) et ajoutés (Sète, Civitavecchia, Toulon ↔ Alcúdia, Rotterdam ↔ Hull, Tallinn ↔ Mariehamn), sources à l'appui.
+- **Affichage** : une étape avec ferry montre la partie par la route puis la traversée (« ~ 2h13 de route · 38 km + ~ 8h30
+  de traversée · 250 km »), sur le site comme dans le PDF, avec les libellés déjà traduits ; le total du voyage l'inclut.
+- **Limites** : Saint-Laurent-du-Maroni (lieu = centre de la vaste commune, quai à 61 km) et Surumatra (Kurupukari, quai
+  à 71 km) gardent le centre de leur localité, cohérent avec les coordonnées des étapes ; une liaison regroupant plusieurs
+  lignes (ex. Continent ↔ Grande-Bretagne) affiche le nom, la durée et le prix de sa ligne de référence (Douvres ↔ Calais)
+  même quand la partie par la route est estimée via une autre paire réellement desservie (Rotterdam ↔ Hull) ; la partie
+  par la route d'une voiture électrique n'est pas soumise au calcul des recharges.
+- **Corrigé au passage** : Roomassaare ↔ Abruka part de Saaremaa et Småge ↔ Finnøya de Gossa, pas du continent ;
+  Storstein ↔ Nikkeby dessert Laukøya et Storstein ↔ Lauksundskaret Arnøya (liaisons et libellés inversés) ; Pärnäs est
+  côté Nagu et Retais côté Korpo ; Batulicin ↔ Garongkong fait au moins 413 km (écart entre les terminaux OpenStreetMap),
+  pas 242 (`scripts/iles/iles-baltique.js`, `scripts/iles/ferries-asie.js`).
 
 Une île n'est jamais reliée au continent par la route : le moteur de distance (vol d'oiseau × 1,17,
 voir `roadDistanceKm` dans `app.js`) n'a par nature aucune idée de la mer. Sans ce qui suit, un

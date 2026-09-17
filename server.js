@@ -1064,7 +1064,10 @@ function buildTripPdf(doc, trip){
     if(leg.distanceKm != null && leg.travelTime){
       doc.fillColor(PDF_INK_SOFT).font('Helvetica-Oblique').fontSize(9);
       const routeWord = leg.ferryInfo ? ' de traversée · ' : ' de route · ';
-      pdfText(doc, '~ ' + clip(leg.travelTime, 20) + routeWord + Math.round(leg.distanceKm) + ' km', contentX, contentWidth2);
+      // Étape avec traversée : partie par la route jusqu'au port et depuis le port d'arrivée, avant la traversée.
+      const roadKm = Math.round(Number(leg.roadKm));
+      const roadPart = leg.ferryInfo && roadKm > 0 && roadKm < 100000 && leg.roadTime ? '~ ' + clip(leg.roadTime, 20) + ' de route · ' + roadKm + ' km + ' : '';
+      pdfText(doc, roadPart + '~ ' + clip(leg.travelTime, 20) + routeWord + Math.round(leg.distanceKm) + ' km', contentX, contentWidth2);
     }
     const stopLabel = (isReturn ? 'Retour vers ' : 'Étape mystère : ') + clip(leg.stop, 100) +
       (leg.cpBadge ? ' (' + clip(leg.cpBadge, 20) + ')' : '');
