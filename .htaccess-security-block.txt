@@ -33,14 +33,13 @@ RewriteRule ^(server\.js|package(-lock)?\.json|README\.md)$ /? [R=301,L]
 RewriteRule ^\.git(/.*)?$ /? [R=301,L]
 RewriteRule ^node_modules(/.*)?$ /? [R=301,L]
 
-# ============================================================================
-# NON INCLUS volontairement : public/data/communes.txt, communes-XX.txt,
-# aliases-XX.txt et featured.txt. Contrairement à server.js, ce sont les FICHIERS QUE LE
-# NAVIGATEUR CHARGE LUI-MÊME au démarrage de l'app (fetch() côté client,
-# voir public/js/app.js) — les bloquer casserait le site pour de vrai (plus
-# aucune commune ne se chargerait). Ce sont aussi des données publiques
-# ouvertes (IGN/Etalab, GeoNames, OpenStreetMap), sans contenu sensible à
-# protéger. toll-reference.json (non chargé par l'app, gardé en référence)
-# est lui aussi resté accessible : lui aussi public/non sensible (barème
-# péage officiel VINCI), pas de bénéfice réel à le bloquer.
-# ============================================================================
+# --- Dossiers du dépôt servis tels quels par Apache (audit du 17/09/2026) ---
+# Apache sert la RACINE du dépôt : tout fichier réel y est renvoyé sans passer
+# par Node. Constaté en production : /lib/trip-engine.js, /scripts/…,
+# /cache/search-index/… (index de recherche de plusieurs centaines de Mo,
+# téléchargeable par plages), /data/charging-stations.txt, /data/hiking.json,
+# /tmp/restart.txt et /public/… répondaient 200. Le site n'utilise AUCUNE de
+# ces URL : les pages et scripts du navigateur sont servis par Node depuis
+# public/ à la racine du site (/js/app.js, /css/…), jamais sous /public/.
+RewriteRule ^(lib|scripts|cache|tmp|public|data|\.claude)(/.*)?$ /? [R=301,L]
+RewriteRule ^(\.htaccess-security-block\.txt|\.gitignore|\.gitattributes|\.env.*)$ /? [R=301,L]

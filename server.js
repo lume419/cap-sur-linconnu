@@ -4,7 +4,6 @@
 // le seul état en mémoire est le cache de ces deux routes.
 const path = require('path');
 const fs = require('fs');
-const zlib = require('zlib');
 const express = require('express');
 const compression = require('compression');
 const PDFDocument = require('pdfkit');
@@ -26,6 +25,70 @@ const PORT = process.env.PORT || 3000;
 // avant la moindre route/middleware, pour s'appliquer à toutes les réponses sans exception.
 app.use(compression());
 
+// ---------------------------------------------------------------------------------------------
+// SÉCURITÉ (audit de septembre 2026)
+// ---------------------------------------------------------------------------------------------
+// En-têtes HTTP : CSP stricte (scripts du site seulement, plus le petit script inline de thème identifié par son
+// empreinte), images des seuls hôtes utilisés (tuiles OpenStreetMap, Wikimedia), pas d'intégration dans un cadre
+// tiers, HSTS, pas de détection de type MIME. 'unsafe-inline' en style : attributs style de Leaflet et de la page.
+app.disable('x-powered-by');
+app.set('trust proxy', 1); // derrière Apache/Passenger : IP du visiteur pour la limitation de débit
+const CSP = [
+  "default-src 'self'",
+  "script-src 'self' 'sha256-gxNfGsSxUqGFdaO1yv9YCXy/KFUQjL22jNwRkaHoeao='",
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self' data: blob: https://tile.openstreetmap.org https://*.wikimedia.org https://*.wikipedia.org",
+  "font-src 'self'",
+  "connect-src 'self'",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  "frame-ancestors 'none'"
+].join('; ');
+app.use(function(req, res, next){
+  res.setHeader('Content-Security-Policy', CSP);
+  res.setHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  res.setHeader('X-Frame-Options', 'DENY');
+  res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+  res.setHeader('Permissions-Policy', 'geolocation=(), camera=(), microphone=(), payment=()');
+  next();
+});
+// Limitation de débit en mémoire, par IP et par famille de routes (fenêtre glissante d'une minute) : empêche qu'un seul
+// client sature le moteur (tirages synchrones) ou fasse bannir le serveur par Overpass, Wikipédia ou Visorando.
+const RATE_LIMITS = [
+  { prefix: '/api/search-city', max: 180 },
+  { prefix: '/api/generate-trip', max: 20 },
+  { prefix: '/api/export-pdf', max: 10 },
+  { prefix: '/api/pois', max: 120 },
+  { prefix: '/api/photo', max: 400 },
+  { prefix: '/api/hike', max: 120 },
+  { prefix: '/api/', max: 120 }
+];
+const rateBuckets = new Map();
+setInterval(function(){
+  const now = Date.now();
+  for(const [key, hits] of rateBuckets){ if(!hits.length || now - hits[hits.length - 1] > 60000) rateBuckets.delete(key); }
+}, 60000).unref();
+app.use('/api/', function(req, res, next){
+  const rule = RATE_LIMITS.find(r => req.originalUrl.startsWith(r.prefix));
+  const key = (req.ip || 'inconnu') + '|' + rule.prefix;
+  const now = Date.now();
+  let hits = rateBuckets.get(key);
+  if(!hits){ hits = []; rateBuckets.set(key, hits); }
+  while(hits.length && now - hits[0] > 60000) hits.shift();
+  if(hits.length >= rule.max){
+    res.setHeader('Retry-After', '60');
+    return res.status(429).json({ error: 'too many requests' });
+  }
+  hits.push(now);
+  next();
+});
+// Fichiers de données : le navigateur n'en charge plus aucun (recherche et tirages côté serveur). Les servir exposait
+// des centaines de Mo en téléchargement libre (bundles de 226 Mo), une porte ouverte à la saturation de la bande
+// passante ; les données restent publiques sur le dépôt GitHub.
+app.use('/data/', function(req, res){ res.status(404).type('text/plain').send('Not found'); });
+
 // Code département (INSEE) -> nom, utilisé pour désambiguïser les communes homonymes sur
 // Wikipédia (ex. il existe trois communes "Thoiry" : Ain, Savoie, Yvelines — l'article vaut
 // alors "Thoiry (Ain)", pas "Thoiry"). Source : geo.api.gouv.fr (IGN / Etalab).
@@ -35,6 +98,14 @@ const DEPARTMENTS = {"01":"Ain","02":"Aisne","03":"Allier","04":"Alpes-de-Haute-
 // même commune. Pas de limite de taille ni de persistance — ~35 000 communes maximum possibles,
 // largement soutenable en mémoire pour une chaîne de courtes réponses JSON.
 const photoCache = new Map();
+// Caches en mémoire BORNÉS (audit de septembre 2026) : au-delà de CACHE_MAX_ENTRIES, l'entrée la plus ancienne est
+// retirée — sans borne, des requêtes aux paramètres toujours différents faisaient grossir la mémoire indéfiniment.
+const CACHE_MAX_ENTRIES = 5000;
+function cacheSet(map, key, value){
+  if(map.has(key)) map.delete(key);
+  map.set(key, value);
+  while(map.size > CACHE_MAX_ENTRIES) map.delete(map.keys().next().value);
+}
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24h
 
 // Seules des lettres minuscules (2-3, sous-domaines Wikipédia standards, ex. "fr", "es", "pt") —
@@ -602,7 +673,7 @@ async function fetchVisorandoHikeList(communeName){
     console.warn('[hike] échec pour "' + communeName + '":', err.message);
     return null;
   }
-  visorandoCache.set(cacheKey, { hikes, ts: Date.now() });
+  cacheSet(visorandoCache, cacheKey, { hikes, ts: Date.now() });
   const list = hikes.slice(0, 8);
   list.center = hikes.center || null;
   return list;
@@ -640,7 +711,7 @@ async function fetchOsmHikes(lat, lon, lang){
     }
     if(!data) return null; // échec réseau : pas mis en cache
     elements = (data.elements || []).map(e => ({ id: e.id, tags: e.tags || {}, lat: e.center && e.center.lat, lon: e.center && e.center.lon }));
-    osmHikeCache.set(cacheKey, { elements, ts: Date.now() });
+    cacheSet(osmHikeCache, cacheKey, { elements, ts: Date.now() });
   }
   const out = [];
   const seenNames = new Set();
@@ -696,7 +767,12 @@ app.get('/api/hike', async (req, res) => {
       // Page d'un homonyme lointain (ou page générique) : ignorée, les itinéraires OpenStreetMap prennent le relais.
       const center = list.center;
       const farAway = coordsOk && center && haversineKm(lat, lon, center.lat, center.lon) > VISORANDO_MAX_OFFSET_KM;
-      if(!farAway) hikes = list.map(h => Object.assign({ source: 'Visorando' }, h));
+      // Une journée = une randonnée : les itinéraires de plusieurs jours (« 4 jours ») ou de plus de OSM_HIKE_MAX_KM
+      // (« 64,43 km », Panorama Rundweg Thunersee) sont écartés, comme pour OpenStreetMap.
+      if(!farAway) hikes = list.filter(h => {
+        const km = parseFloat(String(h.distance || '').replace(',', '.'));
+        return !(isFinite(km) && km > OSM_HIKE_MAX_KM) && !/jour/i.test(String(h.duration || ''));
+      }).map(h => Object.assign({ source: 'Visorando' }, h));
     } catch(err){ /* silencieux */ }
   }
   if(!hikes.length && coordsOk && country && TripDataCountries[country]){
@@ -709,7 +785,7 @@ app.get('/api/pois', async (req, res) => {
   const lat = parseFloat(req.query.lat);
   const lon = parseFloat(req.query.lon);
   const name = String(req.query.name || '').trim();
-  const dept = String(req.query.dept || '').trim();
+  const dept = String(req.query.dept || '').trim().slice(0, 40);
   const country = String(req.query.country || '').trim().toUpperCase();
   // Garde-fou contre l'usage de ce point d'accès comme relais Overpass générique. Jusqu'en septembre
   // 2026, c'était une BOÎTE de coordonnées élargie pays par pays à chaque ajout européen (Andalousie,
@@ -745,14 +821,14 @@ app.get('/api/pois', async (req, res) => {
   // requête (les deux miroirs Overpass down), pour ne pas figer un faux négatif ; la prochaine
   // visite sur cette commune retentera au lieu de rester bloquée dessus pendant 14 jours.
   if(pois !== null){
-    poiCache.set(cacheKey, { pois, ts: Date.now() });
+    cacheSet(poiCache, cacheKey, { pois, ts: Date.now() });
   }
   res.json({ pois: pois || [] }); // le client ne voit jamais l'échec : juste une liste vide
 });
 
 app.get('/api/photo', async (req, res) => {
   const name = String(req.query.name || '').trim();
-  const dept = String(req.query.dept || '').trim();
+  const dept = String(req.query.dept || '').trim().slice(0, 40);
   const country = String(req.query.country || '').trim().toUpperCase();
   const lang = sanitizeLangCode(req.query.lang);
   if(!name || name.length > 120){
@@ -769,7 +845,7 @@ app.get('/api/photo', async (req, res) => {
   } catch(err){
     data = { image: null, imageFull: null, wikiUrl: null, title: null };
   }
-  photoCache.set(cacheKey, { data, ts: Date.now() });
+  cacheSet(photoCache, cacheKey, { data, ts: Date.now() });
   res.json(data);
 });
 
@@ -904,9 +980,12 @@ function buildTripPdf(doc, trip){
   // ---- Jetons de statistiques ----
   const stats = trip.stats || {};
   const statsBits = [];
-  if(stats.days) statsBits.push(stats.days + (stats.days > 1 ? ' jours' : ' jour'));
-  if(stats.cities) statsBits.push(stats.cities + (stats.cities > 1 ? ' villes' : ' ville'));
-  if(stats.nights != null) statsBits.push(stats.nights + (stats.nights > 1 ? ' nuitées' : ' nuitée'));
+  // Nombres uniquement (une chaîne de 400 Ko passait telle quelle dans la mise en page).
+  const statNum = v => { const n = Math.round(Number(v)); return isFinite(n) && n >= 0 && n < 100000 ? n : null; };
+  const sDays = statNum(stats.days), sCities = statNum(stats.cities), sNights = statNum(stats.nights);
+  if(sDays) statsBits.push(sDays + (sDays > 1 ? ' jours' : ' jour'));
+  if(sCities) statsBits.push(sCities + (sCities > 1 ? ' villes' : ' ville'));
+  if(sNights != null) statsBits.push(sNights + (sNights > 1 ? ' nuitées' : ' nuitée'));
   if(stats.totalKm) statsBits.push('~' + Math.round(stats.totalKm) + ' km au total');
   if(stats.toll){
     const tollAmountTxt = (Math.round(stats.toll.amount * 10) / 10).toFixed(1).replace('.', ',');
@@ -974,8 +1053,9 @@ function buildTripPdf(doc, trip){
         : ('Sans péage (option décochée) : environ ' + savedMin + ' min auraient pu être gagnées en autoroute (~' + amountTxt + ' €, ' + barrierTxt + ').');
       pdfBullet(doc, tollTxt, contentX, contentWidth2);
     }
-    if(leg.chargeInfo){
-      const c = leg.chargeInfo;
+    if(leg.chargeInfo && typeof leg.chargeInfo === 'object'){
+      const c = Object.assign({}, leg.chargeInfo, { stops: Math.min(Math.max(Math.round(Number(leg.chargeInfo.stops)) || 0, 0), 99),
+        minutes: Math.min(Math.max(Math.round(Number(leg.chargeInfo.minutes)) || 0, 0), 9999) });
       if(c.stops > 0 && c.real && Array.isArray(c.stations)){
         const places = c.stations.slice(0, 10).map(function(s){ return clip((s && s.near) || '', 60); }).filter(Boolean).join(', ');
         pdfBullet(doc, c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge (~' + Math.round(c.minutes) + ' min au total) sur ' +
@@ -1084,7 +1164,7 @@ function buildTripPdf(doc, trip){
   );
 }
 
-app.post('/api/export-pdf', express.json({ limit: '512kb' }), (req, res) => {
+app.post('/api/export-pdf', express.json({ limit: '128kb' }), (req, res) => {
   const trip = req.body;
   if(!trip || typeof trip !== 'object' || !Array.isArray(trip.legs) || trip.legs.length === 0 || trip.legs.length > 25){
     return res.status(400).json({ error: 'invalid trip data' });
@@ -1148,90 +1228,9 @@ app.post('/api/export-pdf', express.json({ limit: '512kb' }), (req, res) => {
 // moindre calcul de compression — le goulot d'origine (recompression répétée d'un contenu
 // statique) disparaît entièrement plutôt que d'être seulement déplacé ou masqué.
 const DATA_DIR = path.join(__dirname, 'public', 'data');
-let communesBundlePromise = null, aliasesBundlePromise = null;
-
-// Lit les trois fichiers déjà précompilés (texte, gzip, brotli) — résout `null` si le `.txt` de
-// base est absent (site jamais buildé avec scripts/build-data-bundles.js, ex. juste après un
-// `git clone` sans `npm install`) plutôt que d'échouer, pour laisser `getBundlePromise` basculer
-// sur le repli à la volée ci-dessous ; `.gz`/`.br` individuellement absents dégradent, eux, en
-// douceur vers `null` (sendBundle sait déjà s'en passer, voir plus bas).
-function loadPrecompiledBundle(name){
-  var txtPath = path.join(DATA_DIR, name + '.txt');
-  return fs.promises.readFile(txtPath, 'utf8').then(function(raw){
-    return Promise.all([
-      fs.promises.readFile(txtPath + '.gz').catch(function(){ return null; }),
-      fs.promises.readFile(txtPath + '.br').catch(function(){ return null; })
-    ]).then(function(pair){ return { raw: raw, gzip: pair[0], br: pair[1] }; });
-  }).catch(function(){ return null; });
-}
-
-// Repli à la volée si le build précompilé est absent (voir ci-dessus) — mêmes garanties qu'avant :
-// jamais de variante Sync de fs/zlib ici, Node étant mono-thread pour le JS, un calcul synchrone
-// de cette taille gèlerait tout le process pour toutes les requêtes en cours, pas seulement la
-// sienne (constaté en direct lors d'un essai précédent). Le format ###XX###/franceCode doit rester
-// synchronisé avec scripts/build-data-bundles.js, aucun des deux n'étant la référence de l'autre.
-function buildBundleTextAsync(re, franceCode){
-  var files = fs.readdirSync(DATA_DIR).filter(function(f){ return re.test(f); }); // liste de noms seule, quasi instantané
-  return Promise.all(files.map(function(f){
-    return fs.promises.readFile(path.join(DATA_DIR, f), 'utf8').then(function(content){
-      var m = f.match(re);
-      var cc = (m[1] ? m[1].toUpperCase() : franceCode);
-      return '###' + cc + '###\n' + content;
-    });
-  })).then(function(parts){ return parts.join('\n'); });
-}
-function buildBundleEntryFallback(re, franceCode){
-  return buildBundleTextAsync(re, franceCode).then(function(raw){
-    var buf = Buffer.from(raw, 'utf8');
-    return new Promise(function(resolve){
-      // Un seul niveau de compression ici (gzip, pas de brotli) : ce repli n'est censé servir
-      // qu'exceptionnellement (build précompilé manquant), pas de raison d'y reproduire la
-      // contention CPU qui a justifié tout ce refactor.
-      zlib.gzip(buf, { level: zlib.constants.Z_BEST_COMPRESSION }, function(err, result){
-        resolve({ raw: raw, gzip: err ? null : result, br: null });
-      });
-    });
-  });
-}
-function getBundlePromise(name, re, franceCode){
-  return loadPrecompiledBundle(name).then(function(entry){
-    return entry !== null ? entry : buildBundleEntryFallback(re, franceCode);
-  });
-}
-function sendBundle(req, res, entry){
-  var acceptEncoding = req.headers['accept-encoding'] || '';
-  res.setHeader('Content-Type', 'text/plain; charset=utf-8');
-  res.setHeader('Cache-Control', 'public, max-age=3600');
-  res.setHeader('Vary', 'Accept-Encoding'); // la réponse diffère selon ce que le client accepte
-  if(entry.br && /\bbr\b/.test(acceptEncoding)){
-    res.setHeader('Content-Encoding', 'br');
-    res.end(entry.br);
-  } else if(entry.gzip && /\bgzip\b/.test(acceptEncoding)){
-    res.setHeader('Content-Encoding', 'gzip');
-    res.end(entry.gzip);
-  } else {
-    res.end(entry.raw); // navigateur sans compression (rarissime en 2026), ou échec zlib imprévu
-  }
-}
-app.get('/data/communes-bundle.txt', function(req, res){
-  if(communesBundlePromise === null){
-    communesBundlePromise = getBundlePromise('communes-bundle', /^communes(?:-([a-z]{2}))?\.txt$/, 'FR');
-  }
-  communesBundlePromise.then(function(entry){ sendBundle(req, res, entry); })
-    .catch(function(err){ res.status(500).type('text/plain').send('Erreur bundle communes : ' + err.message); });
-});
-app.get('/data/aliases-bundle.txt', function(req, res){
-  if(aliasesBundlePromise === null){
-    aliasesBundlePromise = getBundlePromise('aliases-bundle', /^aliases-([a-z]{2})\.txt$/, '');
-  }
-  aliasesBundlePromise.then(function(entry){ sendBundle(req, res, entry); })
-    .catch(function(err){ res.status(500).type('text/plain').send('Erreur bundle alias : ' + err.message); });
-});
-
-// Depuis le passage "recherche et tirage aléatoire côté serveur" (voir README), ces deux routes
-// /data/*-bundle.txt ne sont plus consommées QUE par ce process lui-même (voir juste en dessous) —
-// le navigateur ne les demande plus jamais directement. Gardées pour inspecter le bundle brut à la main ; elles
-// compressent à la demande seulement (le moteur lit le texte brut séparément, voir "DÉMARRAGE" ci-dessous).
+// Routes /data/communes-bundle.txt et /data/aliases-bundle.txt RETIRÉES (audit de septembre 2026) : plus utilisées par
+// le navigateur, elles gardaient en mémoire 226 Mo de texte (plus les versions compressées) dès la première requête
+// et envoyaient 226 Mo à tout client sans compression. /data/ répond désormais 404 (voir « SÉCURITÉ » en tête).
 //
 // lib/trip-engine.js — voir son commentaire d'en-tête pour le détail complet. Initialisé UNE
 // SEULE FOIS ici, juste après le démarrage du process (donc avant qu'aucun trafic réel ne puisse
@@ -1241,8 +1240,7 @@ app.get('/data/aliases-bundle.txt', function(req, res){
 // constatée comme non exécutée (ou en échec) sur l'hébergement mutualisé : bundles précompilés absents, index de
 // recherche absent, et à chaque démarrage une recompression inutile de ~190 Mo avant même de charger le moteur.
 // 1. Le moteur reçoit le TEXTE BRUT des lieux : bundle précompilé s'il est plus récent que tous les fichiers de
-//    données, sinon simple concaténation des fichiers — jamais de compression ici (les routes /data/*-bundle.txt
-//    compressent à la demande, elles ne servent plus au navigateur).
+//    données, sinon simple concaténation des fichiers — jamais de compression ici.
 // 2. Index de recherche sur disque (lib/search-index.js) : utilisé s'il est à jour ; sinon, construit par un
 //    processus enfant AVANT le chargement du moteur (pour ne pas additionner les deux pics de mémoire), puis
 //    conservé dans cache/ pour les démarrages suivants. Un verrou évite deux constructions simultanées si
@@ -1356,14 +1354,12 @@ app.get('/api/status', function(req, res){
     startedAt: startupStatus.startedAt,
     uptimeS: Math.round(process.uptime()),
     searchIndex: startupStatus.searchIndex,
-    searchIndexError: startupStatus.searchIndexError || null,
+    searchIndexError: startupStatus.searchIndexError ? true : null, // détail dans le journal du serveur seulement
     build: startupStatus.build,
     engine: startupStatus.engine,
     searchReady: !!diskSearchIndex || tripEngine.isSearchReady(),
     tripsReady: tripEngine.isReady(),
-    memoryMb: Math.round(process.memoryUsage().rss / 1048576),
-    chargers: startupStatus.chargers || 0,
-    node: process.version
+    chargers: startupStatus.chargers || 0
   });
 });
 
@@ -1401,7 +1397,9 @@ app.post('/api/generate-trip', express.json({ limit: '16kb' }), function(req, re
     // generateTrip), soit d'un cas limite du moteur (ex. aucune commune atteignable) — jamais
     // d'une panne interne à cacher : 400 dans les deux cas, avec le message tel quel (déjà en
     // français, déjà écrit pour être compréhensible, voir lib/trip-engine.js).
-    res.status(400).json({ error: err.message });
+    // Les erreurs de programmation (TypeError, RangeError… sur une entrée mal formée) ne sont pas renvoyées telles quelles.
+    const known = err && err.constructor === Error;
+    res.status(400).json({ error: known ? err.message : 'requête invalide' });
   }
 });
 

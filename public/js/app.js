@@ -504,6 +504,10 @@
     });
     return lightboxEl;
   }
+  // SÉCURITÉ (audit de septembre 2026) : tout texte venu des données ou de services tiers (noms OpenStreetMap, titres
+  // Wikipédia, noms de lieux GeoNames…) est échappé avant insertion en HTML, et seules les URL http(s) sont acceptées
+  // dans les attributs href/src — un nom OSM du type « <img src=x onerror=…> » ne doit jamais s'exécuter.
+  function safeUrl(u){ return /^https?:\/\//i.test(String(u || '')) ? escHtml(u) : '#'; }
   function openLightbox(imgUrl, caption, wikiUrl){
     if(!imgUrl) return;
     var el = ensureLightbox();
@@ -511,8 +515,8 @@
     img.src = imgUrl;
     img.alt = caption || '';
     var capEl = el.querySelector('.lightbox-caption');
-    capEl.innerHTML = (caption ? '<span>'+caption+'</span>' : '') +
-      (wikiUrl ? '<a href="'+wikiUrl+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>' : '');
+    capEl.innerHTML = (caption ? '<span>'+escHtml(caption)+'</span>' : '') +
+      (wikiUrl ? '<a href="'+safeUrl(wikiUrl)+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>' : '');
     el.classList.add('show');
     document.body.classList.add('lightbox-open');
   }
@@ -1599,8 +1603,9 @@
   // adaptés (voir BUDGET_PRICE_MAX/countryCurrency) plutôt que systématiquement l'euro.
   // Liens de secours (toujours utiles pendant le chargement, ou si aucune photo n'est trouvée) :
   // une recherche Wikipédia et une recherche d'images, en un clic, sans rien stocker.
-  function buildPhotoLinks(placeName){
-    var q = encodeURIComponent(placeName + ' France');
+  function buildPhotoLinks(placeName, country){
+    var countryName = (country && COUNTRIES[country] && COUNTRIES[country].name) || 'France';
+    var q = encodeURIComponent(placeName + ' ' + countryName);
     return {
       wiki: 'https://' + VISITOR_LANG + '.wikipedia.org/wiki/Special:Search?search=' + encodeURIComponent(placeName) + '&go=Go',
       images: 'https://www.google.com/search?tbm=isch&q=' + q
@@ -1831,7 +1836,7 @@
     if(!titleEl || titleEl.tagName === 'A') return;
     var link = document.createElement('a');
     link.className = 'activity-card-title';
-    link.href = wikiUrl;
+    link.href = /^https?:\/\//i.test(String(wikiUrl)) ? wikiUrl : '#';
     link.target = '_blank';
     link.rel = 'noopener';
     link.textContent = titleEl.textContent;
@@ -1846,7 +1851,7 @@
     var fullUrl = imageFull || image;
     var visual = cardEl.querySelector('.activity-card-visual');
     if(!visual) return;
-    visual.innerHTML = '<img class="activity-card-img" src="'+image+'" alt="'+label+'" referrerpolicy="no-referrer">';
+    visual.innerHTML = '<img class="activity-card-img" src="'+safeUrl(image)+'" alt="'+escHtml(label)+'" referrerpolicy="no-referrer">';
     cardEl.classList.add('has-image');
     var im = visual.querySelector('.activity-card-img');
     im.addEventListener('error', function(){
@@ -1869,9 +1874,9 @@
   }
   function hikeCardHtml(hike){
     var metaBits = [];
-    if(hike.distance) metaBits.push(hike.distance);
-    if(hike.duration) metaBits.push(hike.duration);
-    if(hike.difficulty) metaBits.push(hike.difficulty);
+    if(hike.distance) metaBits.push(escHtml(hike.distance));
+    if(hike.duration) metaBits.push(escHtml(hike.duration));
+    if(hike.difficulty) metaBits.push(escHtml(hike.difficulty));
     return '<div class="activity-card-visual">'+icon('walk')+'</div>'+
       '<div class="activity-card-body">'+
         '<div class="activity-card-title">'+escHtml(hike.name)+'</div>'+
@@ -1925,7 +1930,7 @@
       card.innerHTML =
         '<div class="activity-card-visual">'+icon(opt.isWalk ? 'walk' : 'spark')+'</div>'+
         '<div class="activity-card-body">'+
-          '<div class="activity-card-title">'+label+'</div>'+
+          '<div class="activity-card-title">'+escHtml(label)+'</div>'+
           '<div class="activity-card-type">'+optionTypeLabel(opt)+noteHtml+'</div>'+
         '</div>';
       actList.appendChild(card);
@@ -2028,7 +2033,7 @@
   // Avertissement « zone à tension » (France Diplomatie) : rouge = formellement déconseillé, orange =
   // déconseillé sauf raison impérative. Le libellé est traduit ; le lien mène à la fiche officielle.
   function tensionRowHtml(tension, textKey){
-    var link = tension.source ? ' <a href="'+tension.source+'" target="_blank" rel="noopener">'+t('tension.link')+'</a>' : '';
+    var link = tension.source ? ' <a href="'+safeUrl(tension.source)+'" target="_blank" rel="noopener">'+t('tension.link')+'</a>' : '';
     return icon('warn') + '<span><span class="lbl">'+t('tension.label')+'</span>'+t(textKey)+link+'</span>';
   }
 
@@ -2129,18 +2134,18 @@
       body.appendChild(stopEl);
 
       if(firstLeg.stop){
-        var photos = buildPhotoLinks(firstLeg.stop);
+        var photos = buildPhotoLinks(firstLeg.stop, firstLeg.country);
         var tile = document.createElement('div');
         tile.className = 'photo-tile';
         tile.innerHTML =
-          '<a class="photo-tile-main" href="'+photos.images+'" target="_blank" rel="noopener">'+
+          '<a class="photo-tile-main" href="'+safeUrl(photos.images)+'" target="_blank" rel="noopener">'+
             '<span class="photo-tile-icon">'+icon('camera')+'</span>'+
             '<span class="photo-tile-text">'+
-              '<span class="photo-tile-title">'+t('photo.view', {name: firstLeg.stop})+'</span>'+
+              '<span class="photo-tile-title">'+t('photo.view', {name: escHtml(firstLeg.stop)})+'</span>'+
               '<span class="photo-tile-sub">'+t('photo.searching')+'</span>'+
             '</span>'+
           '</a>'+
-          '<a class="photo-tile-wiki" href="'+photos.wiki+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>';
+          '<a class="photo-tile-wiki" href="'+safeUrl(photos.wiki)+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>';
         body.appendChild(tile);
 
         fetchPlacePhoto(firstLeg.stop, firstLeg.dept, firstLeg.country).then(function(stopName, tileEl, photoLinks){
@@ -2150,16 +2155,16 @@
               var fullUrl = data.imageFull || data.image;
               tileEl.className = 'photo-tile has-image';
               tileEl.innerHTML =
-                '<button type="button" class="photo-tile-imgwrap" aria-label="'+t('photo.enlargeAria', {name: stopName})+'">'+
-                  '<img class="photo-tile-img" src="'+data.image+'" alt="'+stopName+'" referrerpolicy="no-referrer">'+
+                '<button type="button" class="photo-tile-imgwrap" aria-label="'+t('photo.enlargeAria', {name: escHtml(stopName)})+'">'+
+                  '<img class="photo-tile-img" src="'+safeUrl(data.image)+'" alt="'+escHtml(stopName)+'" referrerpolicy="no-referrer">'+
                   '<span class="photo-tile-zoom">'+icon('zoom')+'</span>'+
                 '</button>'+
                 '<div class="photo-tile-caption">'+
                   '<span class="photo-tile-text">'+
-                    '<span class="photo-tile-title">'+stopName+'</span>'+
+                    '<span class="photo-tile-title">'+escHtml(stopName)+'</span>'+
                     '<span class="photo-tile-sub">'+t('photo.real')+'</span>'+
                   '</span>'+
-                  '<a class="photo-tile-wiki" href="'+articleUrl+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>'+
+                  '<a class="photo-tile-wiki" href="'+safeUrl(articleUrl)+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>'+
                 '</div>';
               // Filet de sécurité : si l'URL d'image renvoyée par Wikipédia échoue quand même
               // au chargement (lien mort, hotlink refusé...), on retombe sur la tuile de secours
@@ -2169,14 +2174,14 @@
                 imgEl.onerror = function(){
                   tileEl.className = 'photo-tile';
                   tileEl.innerHTML =
-                    '<a class="photo-tile-main" href="'+photoLinks.images+'" target="_blank" rel="noopener">'+
+                    '<a class="photo-tile-main" href="'+safeUrl(photoLinks.images)+'" target="_blank" rel="noopener">'+
                       '<span class="photo-tile-icon">'+icon('camera')+'</span>'+
                       '<span class="photo-tile-text">'+
-                        '<span class="photo-tile-title">'+t('photo.view', {name: stopName})+'</span>'+
+                        '<span class="photo-tile-title">'+t('photo.view', {name: escHtml(stopName)})+'</span>'+
                         '<span class="photo-tile-sub">'+t('photo.unavailable')+'</span>'+
                       '</span>'+
                     '</a>'+
-                    '<a class="photo-tile-wiki" href="'+articleUrl+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>';
+                    '<a class="photo-tile-wiki" href="'+safeUrl(articleUrl)+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>';
                 };
               }
               var imgWrapBtn = tileEl.querySelector('.photo-tile-imgwrap');
@@ -2265,7 +2270,7 @@
         var vignetteRow = document.createElement('div');
         vignetteRow.className = 'day-row';
         vignetteRow.innerHTML = icon('toll') + '<span><span class="lbl">'+t('vignette.label')+'</span>'+t('vignette.notice')+
-          ' <a href="'+vignetteCountry.vignette.url+'" target="_blank" rel="noopener">'+t('vignette.link')+'</a></span>';
+          ' <a href="'+safeUrl(vignetteCountry.vignette.url)+'" target="_blank" rel="noopener">'+t('vignette.link')+'</a></span>';
         body.appendChild(vignetteRow);
       }
 

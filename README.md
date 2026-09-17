@@ -3104,9 +3104,19 @@ Apache expose alors généralement la racine du projet, pas seulement `public/` 
 bloque explicitement (vérifiable avec `curl -I https://votre-domaine/server.js` : un `200` confirme
 le problème). Voir `.htaccess-security-block.txt` à la racine du dépôt pour un bloc de règles à
 ajouter — **pas à copier en écrasant** — au `.htaccess` généré par cPanel (qui contient les
-directives Passenger nécessaires au fonctionnement de l'app). Ce même fichier explique aussi
-pourquoi `public/data/*.txt`/`*.json` ne sont volontairement pas bloqués : ce sont les données que
-le navigateur charge lui-même au démarrage de l'app.
+directives Passenger nécessaires au fonctionnement de l'app). Depuis l'audit du 17/09/2026, ce bloc
+couvre aussi `lib/`, `scripts/`, `cache/` (index de recherche), `tmp/`, `public/` et `data/`, tous
+constatés téléchargeables en production : le navigateur n'utilise aucune de ces URL (pages et scripts
+servis par Node à la racine du site, données lues sur le disque par le serveur).
+
+**Sécurité côté Node (audit du 17/09/2026)** : en-têtes HTTP (CSP stricte — le script inline de thème
+est autorisé par son empreinte SHA-256, à recalculer s'il change —, HSTS, `nosniff`, `frame-ancestors
+'none'`), `X-Powered-By` retiré ; limitation de débit par IP et par minute (tirages 20, export PDF 10,
+recherche 180, photos 400, activités et randonnées 120, autres API 120 ; réponse 429) ; `/data/` en 404
+(les bundles de 226 Mo n'y sont plus servis) ; caches en mémoire bornés à 5 000 entrées ; distances
+reçues plafonnées à 3 000 km ; noms venus d'OpenStreetMap/Wikipédia échappés avant insertion HTML et
+liens limités à http(s) ; erreurs internes non renvoyées au client ; `/api/status` sans version de Node
+ni mémoire.
 
 Après un `git pull` sur ce type d'hébergement, cliquer sur **"Run NPM Install"** dans l'interface
 cPanel (pas un simple `npm install` en SSH — l'environnement Node de Passenger est isolé de celui
