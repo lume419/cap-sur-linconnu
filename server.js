@@ -942,6 +942,13 @@ function buildTripPdf(doc, trip){
       const links = leg.lodgingLinks;
       if(isHttpUrl(links.airbnb)) pdfBullet(doc, 'Logement (Airbnb) · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.airbnb });
       if(isHttpUrl(links.booking)) pdfBullet(doc, 'Logement (Booking.com) · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.booking });
+      // Plateformes locales (pays où Airbnb ou Booking.com est absent ou faible).
+      (Array.isArray(links.local) ? links.local.slice(0, 4) : []).forEach(function(p){
+        if(p && isHttpUrl(p.url)) pdfBullet(doc, 'Logement (' + clip(p.name || '', 40) + ') · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: p.url });
+      });
+      if(!isHttpUrl(links.airbnb) && !isHttpUrl(links.booking) && !(Array.isArray(links.local) && links.local.length)){
+        pdfBullet(doc, 'Aucune plateforme de réservation en ligne connue ici : contactez directement les hébergements ou l\'office du tourisme.', contentX, contentWidth2);
+      }
     }
     if(isReturn){
       pdfBullet(doc, 'Fin de mission — retour à la maison, road trip mystère bouclé.', contentX, contentWidth2, { color: PDF_ACCENT });

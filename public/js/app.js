@@ -2003,6 +2003,18 @@
     var src = r.source ? ' <a href="' + escHtml(r.source) + '" target="_blank" rel="noopener">' + t('restriction.source') + '</a>' : '';
     return icon('warn') + '<span>' + txt + src + '</span>';
   }
+  // Liens d'hébergement : Airbnb et Booking.com quand ils sont disponibles dans le pays, plateformes locales réelles là où
+  // l'un d'eux est absent ou faible (voir LODGING_RULES) ; aucun lien connu : invitation à réserver en direct.
+  function lodgingLinksHtml(links){
+    var html = '';
+    if(links.airbnb) html += '<a href="'+escHtml(links.airbnb)+'" target="_blank" rel="noopener" class="lodging-link">'+t('lodging.airbnb')+'</a>';
+    if(links.booking) html += '<a href="'+escHtml(links.booking)+'" target="_blank" rel="noopener" class="lodging-link">'+t('lodging.booking')+'</a>';
+    (links.local || []).forEach(function(p){
+      if(!/^https:\/\//.test(p.url)) return;
+      html += '<a href="'+escHtml(p.url)+'" target="_blank" rel="noopener" class="lodging-link">'+escHtml(p.name)+' ↗</a>';
+    });
+    return html || '<span class="lodging-none">'+t('lodging.noPlatform')+'</span>';
+  }
   function renderDays(legs, city){
     els.days.innerHTML = '';
     // Avertissements valables pour tout le trajet (van : gabarit et vignettes ; électrique : couverture des bornes).
@@ -2281,10 +2293,7 @@
           linksRow.className = 'day-row';
           linksRow.innerHTML = icon('search') +
             '<span><span class="lbl">'+t('lodging.find', {range: formatStayRange(firstLeg.lodgingCheckIn, firstLeg.lodgingCheckOut)})+'</span>'+
-            '<span class="lodging-links">'+
-              '<a href="'+firstLeg.lodgingLinks.airbnb+'" target="_blank" rel="noopener" class="lodging-link">'+t('lodging.airbnb')+'</a>'+
-              '<a href="'+firstLeg.lodgingLinks.booking+'" target="_blank" rel="noopener" class="lodging-link">'+t('lodging.booking')+'</a>'+
-            '</span></span>';
+            '<span class="lodging-links">'+ lodgingLinksHtml(firstLeg.lodgingLinks) + '</span></span>';
           body.appendChild(linksRow);
         }
       }

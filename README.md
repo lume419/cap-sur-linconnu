@@ -4321,6 +4321,38 @@ dans trip-data.js (marqueurs AUTO TRANSPORT RULES).
 
 19 nouvelles chaînes traduites dans les 161 langues ; PDF (français) : recharges réelles, avertissements et notes générales.
 
+## Hébergement : plateformes locales là où Airbnb ou Booking manquent (septembre 2026)
+
+Chaque étape proposait une recherche Airbnb et Booking.com partout, y compris là où ces services sont indisponibles.
+Recherche sourcée par région (`scripts/lodging/lodging-europe-mena.js`, `lodging-asie.js`,
+`lodging-afrique-ameriques-oceanie.js`), injectée par `scripts/build-lodging-rules.js` (`LODGING_RULES` dans trip-data.js) :
+**39 pays**, pour chacun le statut d'Airbnb et de Booking.com (`ok` / `limited` / `absent`, source obligatoire) et des
+plateformes locales réelles avec un modèle d'URL de recherche **vérifié sur une vraie ville**.
+
+- **Absents** (lien retiré) : Russie et Biélorussie (retraits de 2022), Iran et Syrie (sanctions), Corée du Nord (embargo),
+  Cuba (Booking suspendu depuis 2019), Chine continentale et Myanmar (Airbnb retiré en 2022 et 2023).
+- **Limités** (lien gardé, plateformes locales ajoutées) : Airbnb au Japon, en Corée du Sud, à Hong Kong, Macao, Taïwan et
+  Singapour (lois sur les locations courtes), Booking en Chine et en Turquie (interdit pour les réservations depuis la
+  Turquie), petites îles et pays à très faible offre (Tuvalu, Tokelau, Pitcairn, Kiribati, Nauru, Sainte-Hélène, Malouines,
+  Érythrée, Soudan, Tchad…).
+- **Plateformes locales (37)** : Sutochno et Ostrovok (Russie, Biélorussie), Jajiga, Alibaba.ir et SnappTrip (Iran),
+  HalaSyria (Syrie), TatilBudur et Jolly (Turquie), Gathern (Arabie saoudite), Trip.com (Chine, Hong Kong, Macao), Jalan et
+  Rakuten Travel (Japon), Yeogi Eottae et NOL/Yanolja (Corée du Sud), AsiaYo (Taïwan), OYO et MakeMyTrip (Inde), Traveloka
+  et tiket.com (Indonésie), Homestay.com et CubaCasas.net (Cuba), LekkeSlaap (Afrique du Sud), Hotels.ng (Nigeria), Stayz
+  (Australie), Bookabach et Holiday Houses (Nouvelle-Zélande), sites officiels du tourisme des petites îles.
+- Recherche pré-remplie (ville, et dates quand le site les accepte) pour Sutochno, Jajiga, Jalan, Rakuten, Yeogi Eottae,
+  AsiaYo, OYO, LekkeSlaap, Hotels.ng, Stayz, Bookabach, Holiday Houses ; page de recherche ou liste nationale pour les
+  autres (identifiant de ville interne, formulaire non transposable).
+- Aucune plateforme connue (Corée du Nord) : message traduit dans les 161 langues invitant à contacter directement les
+  hébergements ou l'office du tourisme ; PDF : liens locaux et même message.
+
+**Limites** : noms de lieux romanisés — Yeogi Eottae ne trouve que les grandes villes en lettres latines (Séoul, Busan), Jalan
+et Rakuten cherchent dans les noms d'hôtels (petits villages parfois sans résultat), OYO renvoie une page 404 là où il n'a pas
+d'hôtel ; sites iraniens surtout en persan et paiement par carte iranienne ; en Russie, Ostrovok n'accepte pas Visa ; sources
+faibles pour la Syrie (témoignages) et la Corée du Nord (embargo et constat). Plateformes écartées : Yandex Travel et Etstur
+(contrôles anti-robots, non contournés), Avito, Agoda, Ctrip.com (connexion exigée), Goibibo, GoZayaan, iVIVU, Jabama,
+Eghamat24, Otaghak, Cuba Junky…
+
 ## Export PDF
 
 Le bouton "Exporter cet itinéraire en PDF" (entre le journal de bord et le sac à préparer, une fois

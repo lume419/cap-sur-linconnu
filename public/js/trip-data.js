@@ -2886,6 +2886,53 @@
       CC: {"rules":[{"key":"*","match":{"box":[[-12.3,-11.8,96.7,97]]}}]}
     };
 
+    // PLATEFORMES D'HÉBERGEMENT PAR PAYS — remplies par scripts/build-lodging-rules.js à partir de scripts/lodging/*.js :
+    // statut d'Airbnb et de Booking.com (ok / limited / absent) et plateformes locales réelles (modèle d'URL de recherche).
+    // Un pays absent garde les deux liens habituels.
+    // BEGIN AUTO LODGING RULES
+    var LODGING_RULES = {
+      AS: {"airbnb":"ok","booking":"limited","local":[{"name":"Visit American Samoa","url":"https://www.visitamericansamoa.org/accommodations","type":"hotels"}]},
+      AU: {"airbnb":"ok","booking":"ok","local":[{"name":"Stayz","url":"https://www.stayz.com.au/search?destination={town}&startDate={checkin}&endDate={checkout}&adults={adults}","type":"rentals"}]},
+      BY: {"airbnb":"absent","booking":"absent","local":[{"name":"Суточно.ру (Sutochno)","url":"https://sutochno.ru/front/searchapp/search?term={town}&guests_adults={adults}&occupied={checkin};{checkout}","type":"both"},{"name":"Ostrovok","url":"https://ostrovok.ru/","type":"both"}]},
+      CF: {"airbnb":"ok","booking":"limited","local":[]},
+      CN: {"airbnb":"absent","booking":"limited","local":[{"name":"Trip.com","url":"https://www.trip.com/hotels/","type":"both"}]},
+      CU: {"airbnb":"limited","booking":"absent","local":[{"name":"Homestay.com","url":"https://www.homestay.com/cuba","type":"rentals"},{"name":"CubaCasas.net","url":"https://cubacasas.net/index.html","type":"rentals"}]},
+      ER: {"airbnb":"limited","booking":"limited","local":[]},
+      FK: {"airbnb":"limited","booking":"limited","local":[{"name":"Falkland Islands Tourist Board","url":"https://www.falklandislands.com/stay","type":"both"}]},
+      FM: {"airbnb":"ok","booking":"limited","local":[]},
+      GQ: {"airbnb":"ok","booking":"limited","local":[]},
+      HK: {"airbnb":"limited","booking":"ok","local":[{"name":"Trip.com","url":"https://www.trip.com/hotels/","type":"both"}]},
+      ID: {"airbnb":"ok","booking":"ok","local":[{"name":"Traveloka","url":"https://www.traveloka.com/en-id/hotel","type":"both"},{"name":"tiket.com","url":"https://www.tiket.com/en-id/hotel","type":"both"}]},
+      IN: {"airbnb":"ok","booking":"ok","local":[{"name":"OYO","url":"https://www.oyorooms.com/hotels-in-{town}/","type":"hotels"},{"name":"MakeMyTrip","url":"https://www.makemytrip.com/hotels/","type":"both"}]},
+      IR: {"airbnb":"absent","booking":"absent","local":[{"name":"Jajiga","url":"https://www.jajiga.com/en/s/{town}","type":"rentals"},{"name":"Alibaba.ir (hôtels)","url":"https://www.alibaba.ir/hotel","type":"hotels"},{"name":"SnappTrip","url":"https://www.snapptrip.com/","type":"both"}]},
+      JP: {"airbnb":"limited","booking":"ok","local":[{"name":"じゃらんnet (Jalan)","url":"https://www.jalan.net/uw/uwp2011/uww2011init.do?keyword={town}","type":"hotels"},{"name":"楽天トラベル (Rakuten Travel)","url":"https://kw.travel.rakuten.co.jp/keyword/Search.do?f_query={town}","type":"hotels"}]},
+      KI: {"airbnb":"limited","booking":"limited","local":[{"name":"Kiribati Tourism (Stay With Us)","url":"https://kiribatitourism.gov.ki/stay-with-us","type":"hotels"}]},
+      KP: {"airbnb":"absent","booking":"absent","local":[]},
+      KR: {"airbnb":"limited","booking":"ok","local":[{"name":"여기어때 (Yeogi Eottae)","url":"https://www.yeogi.com/domestic-accommodations?keyword={town}&checkIn={checkin}&checkOut={checkout}&personal={adults}","type":"both"},{"name":"NOL (Yanolja)","url":"https://nol.yanolja.com/","type":"both"}]},
+      MH: {"airbnb":"limited","booking":"limited","local":[]},
+      MM: {"airbnb":"absent","booking":"ok","local":[]},
+      MO: {"airbnb":"limited","booking":"ok","local":[{"name":"Trip.com","url":"https://www.trip.com/hotels/","type":"both"}]},
+      NE: {"airbnb":"ok","booking":"limited","local":[]},
+      NG: {"airbnb":"ok","booking":"ok","local":[{"name":"Hotels.ng","url":"https://hotels.ng/search?query={town}","type":"hotels"}]},
+      NR: {"airbnb":"limited","booking":"limited","local":[]},
+      NU: {"airbnb":"ok","booking":"limited","local":[{"name":"Niue Tourism","url":"https://www.niueisland.com/accommodation","type":"both"}]},
+      NZ: {"airbnb":"ok","booking":"ok","local":[{"name":"Bookabach","url":"https://www.bookabach.co.nz/search?destination={town}&startDate={checkin}&endDate={checkout}&adults={adults}","type":"rentals"},{"name":"Holiday Houses","url":"https://www.holidayhouses.co.nz/Browse/List.aspx?navigation=search&locationsearch={town}&availablefrom={checkin}&availableto={checkout}&minguests={adults}","type":"rentals"}]},
+      PN: {"airbnb":"limited","booking":"limited","local":[{"name":"Visit Pitcairn","url":"https://www.visitpitcairn.pn/where-to-stay","type":"rentals"}]},
+      RU: {"airbnb":"absent","booking":"absent","local":[{"name":"Суточно.ру (Sutochno)","url":"https://sutochno.ru/front/searchapp/search?term={town}&guests_adults={adults}&occupied={checkin};{checkout}","type":"both"},{"name":"Ostrovok","url":"https://ostrovok.ru/","type":"both"}]},
+      SA: {"airbnb":"ok","booking":"ok","local":[{"name":"Gathern","url":"https://gathern.co/en","type":"rentals"}]},
+      SD: {"airbnb":"ok","booking":"limited","local":[]},
+      SG: {"airbnb":"limited","booking":"ok","local":[]},
+      SH: {"airbnb":"limited","booking":"limited","local":[{"name":"St Helena Tourism","url":"https://sthelenatourism.com/where-to-stay/","type":"both"}]},
+      SY: {"airbnb":"absent","booking":"absent","local":[{"name":"HalaSyria","url":"https://halasyria.com/hotels","type":"hotels"}]},
+      TD: {"airbnb":"ok","booking":"limited","local":[]},
+      TK: {"airbnb":"limited","booking":"limited","local":[]},
+      TR: {"airbnb":"ok","booking":"limited","local":[{"name":"TatilBudur","url":"https://www.tatilbudur.com/","type":"hotels"},{"name":"Jolly","url":"https://www.jollytur.com/otel","type":"hotels"}]},
+      TV: {"airbnb":"limited","booking":"limited","local":[{"name":"Timeless Tuvalu (office du tourisme)","url":"https://www.timelesstuvalu.com/accommodation/","type":"hotels"}]},
+      TW: {"airbnb":"limited","booking":"ok","local":[{"name":"AsiaYo","url":"https://asiayo.com/en-us/search/{town}/?adult={adults}&quantity=1","type":"both"}]},
+      ZA: {"airbnb":"ok","booking":"ok","local":[{"name":"LekkeSlaap","url":"https://www.lekkeslaap.co.za/soek?q={town}","type":"both"}]}
+    };
+    // END AUTO LODGING RULES
+
     // RESTRICTIONS DE CIRCULATION DES VANS ET DES MOTOS — remplies par scripts/build-transport-rules.js à partir de
     // scripts/transport/van-rules.js et moto-rules.js (sources officielles, voir ces fichiers et le README).
     // BEGIN AUTO TRANSPORT RULES
@@ -3835,7 +3882,7 @@
     ISLAND_ONLY_COUNTRIES: ISLAND_ONLY_COUNTRIES,
     NO_TRIP_LANDMASSES: NO_TRIP_LANDMASSES,
     TENSION_ZONES: TENSION_ZONES,
-    VAN_RULES: VAN_RULES, MOTO_RULES: MOTO_RULES,
+    VAN_RULES: VAN_RULES, MOTO_RULES: MOTO_RULES, LODGING_RULES: LODGING_RULES,
     ISLAND_RULES: ISLAND_RULES,
     WADDEN_ISLANDS: WADDEN_ISLANDS, SARDINIA_PROVINCES: SARDINIA_PROVINCES, SICILY_PROVINCES: SICILY_PROVINCES,
     GR_POROS_MAINLAND_NAMES: GR_POROS_MAINLAND_NAMES, GR_ISLAND_PATTERNS: GR_ISLAND_PATTERNS,
