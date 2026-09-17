@@ -55,10 +55,27 @@ const keys = new Set(['continental']);
 // écrites à la main dans FERRY_ROUTES. Un fichier de scripts/iles peut ainsi ajouter une liaison vers ces îles.
 const ENGINE_SRC = fs.readFileSync(path.join(__dirname, '..', 'lib', 'trip-engine.js'), 'utf8');
 const DATA_SRC = fs.readFileSync(TRIP_DATA, 'utf8');
-const MANUAL_FERRY_SRC = DATA_SRC.replace(/\/\/ BEGIN AUTO FERRIES[\s\S]*?\/\/ END AUTO FERRIES/, '');
+// Marqueurs des blocs remplacés plus bas : chacun exactement une fois, sinon arrêt (un remplacement sans correspondance
+// ne changerait rien sans le dire).
+const countOf = (src, str) => src.split(str).length - 1;
+['var FERRY_ROUTES = {', 'var ISLAND_RULES = {', '// BEGIN AUTO FERRIES', '// END AUTO FERRIES'].forEach(mk => {
+  const n = countOf(DATA_SRC, mk);
+  if(n !== 1){ console.log('ERREUR — rien n\'est écrit : marqueur « ' + mk + ' » trouvé ' + n + ' fois dans ' + TRIP_DATA); process.exit(1); }
+});
+const PAIR_LINE_RE = /^\s*'([A-Za-z0-9-]+\|[A-Za-z0-9-]+)':/gm; // clés à tiret comprises (RU|RU-KGD, ES|ES-CE)
+const AUTO_BLOCK_RE = /\/\/ BEGIN AUTO FERRIES[\s\S]*?\/\/ END AUTO FERRIES/;
+const autoPairs = new Set((DATA_SRC.match(AUTO_BLOCK_RE)[0].match(PAIR_LINE_RE) || []).map(m => m.trim().slice(1, -2)));
+const MANUAL_FERRY_SRC = DATA_SRC.replace(AUTO_BLOCK_RE, '');
 const manualPairs = new Set();
-(MANUAL_FERRY_SRC.slice(MANUAL_FERRY_SRC.indexOf('var FERRY_ROUTES')).match(/^\s*'([A-Za-z0-9]+\|[A-Za-z0-9]+)':/gm) || [])
-  .forEach(m => { const p = m.trim().slice(1, -2); manualPairs.add(p); p.split('|').forEach(k => keys.add(k)); });
+// Paires écrites en toutes lettres (FERRY_ROUTES et SEA_CROSSINGS), plus celles ajoutées par code
+// (FERRY_ROUTES['continental|wadden-' + island]) : clés de l'objet chargé, hors bloc automatique.
+(MANUAL_FERRY_SRC.slice(MANUAL_FERRY_SRC.indexOf('var FERRY_ROUTES')).match(PAIR_LINE_RE) || []).map(m => m.trim().slice(1, -2))
+  .concat(Object.keys(TripData.FERRY_ROUTES).filter(k => !autoPairs.has(k)))
+  .forEach(p => {
+    manualPairs.add(p);
+    // Masses terrestres : paires de FERRY_ROUTES seulement (SEA_CROSSINGS relie des zones, pas des masses).
+    if(TripData.FERRY_ROUTES[p]) p.split('|').forEach(k => keys.add(k));
+  });
 (ENGINE_SRC.match(/return '([A-Za-z][A-Za-z0-9]*)'/g) || []).forEach(m => keys.add(m.slice(8, -1)));
 (ENGINE_SRC.match(/\? '[A-Za-z][A-Za-z0-9]*' : '[A-Za-z][A-Za-z0-9]*'/g) || []).forEach(m => m.match(/'[^']+'/g).forEach(k => keys.add(k.slice(1, -1))));
 (DATA_SRC.match(/\[\s*'([a-z][A-Za-z0-9]*)',\s*-?[0-9.]+,/g) || []).forEach(m => keys.add(m.match(/'([^']+)'/)[1]));
@@ -86,7 +103,12 @@ Object.entries(landmass).forEach(([cc, v]) => {
   });
   counts[cc] = c;
 });
+// Valeurs insérées telles quelles dans trip-data.js (entre apostrophes ou comme nombres) : format strict.
+const ROUTE_KEY_RE = /^[A-Za-z0-9]+$/, PAIR_KEY_RE = /^[A-Za-z0-9-]+\|[A-Za-z0-9-]+$/;
 ferries.forEach(x => {
+  if(!ROUTE_KEY_RE.test(String(x.routeKey))) errors.push(x._file + ' : routeKey invalide ' + JSON.stringify(x.routeKey) + ' (lettres et chiffres seulement)');
+  if(!PAIR_KEY_RE.test([x.a, x.b].sort().join('|'))) errors.push(x._file + ' : ferry ' + x.routeKey + ' clés invalides ' + JSON.stringify([x.a, x.b]) + ' (lettres, chiffres et tirets seulement)');
+  if(typeof x.durationH !== 'number' || typeof x.distanceKm !== 'number') errors.push(x._file + ' : ferry ' + x.routeKey + ' durée/distance non numériques');
   if(manualPairs.has([x.a, x.b].sort().join('|'))) errors.push(x._file + ' : ferry ' + x.routeKey + " en doublon d'une liaison écrite à la main dans FERRY_ROUTES");
   if(!keys.has(x.a) || !keys.has(x.b)) errors.push(x._file + ' : ferry ' + x.routeKey + ' vers une masse inconnue (' + x.a + ', ' + x.b + ')');
   // Prix absent autorisé seulement s'il est explicitement null (grille sans tarif pour cette classe) ou si la liaison
@@ -104,16 +126,20 @@ const rulesOut = Object.entries(landmass).map(([cc, v]) => {
   if(v.fallthrough) o.fallthrough = true;
   return '      ' + cc + ': ' + JSON.stringify(o);
 });
-s = s.replace(/var ISLAND_RULES = \{[\s\S]*?\n?\s*\};/, () => 'var ISLAND_RULES = {\n' + rulesOut.join(',\n') + '\n    };');
+const ISLAND_RULES_RE = /var ISLAND_RULES = \{[\s\S]*?\n?\s*\};/, AUTO_FERRIES_RE = /(\/\/ BEGIN AUTO FERRIES[^\n]*\n)[\s\S]*?(\s*\/\/ END AUTO FERRIES)/;
+[ISLAND_RULES_RE, AUTO_FERRIES_RE].forEach(re => { if(!re.test(s)){ console.log('ERREUR — rien n\'est écrit : bloc ' + re + ' introuvable'); process.exit(1); } });
+s = s.replace(ISLAND_RULES_RE, () => 'var ISLAND_RULES = {\n' + rulesOut.join(',\n') + '\n    };');
 function price(x, k){ const v = (x.priceByClass || {})[k]; return typeof v === 'number' ? v : 'null'; }
+// Texte d'un commentaire // : aucun saut de ligne (y compris U+2028/U+2029, fins de ligne pour JavaScript).
+const oneLine = v => String(v).replace(/[\r\n\u2028\u2029]/g, ' ');
 const ferryOut = ferries.map(x => {
   const key = [x.a, x.b].sort().join('|');
-  return '      // ' + x.name + ' — ' + (x.operator || '') + ', ' + x.source + ' (' + x.date + ')' + (x.note ? ' ; ' + String(x.note).replace(/\n/g, ' ') : '') + '\n' +
+  return '      // ' + oneLine(x.name) + ' — ' + oneLine(x.operator || '') + ', ' + oneLine(x.source) + ' (' + oneLine(x.date) + ')' + (x.note ? ' ; ' + oneLine(x.note) : '') + '\n' +
     "      '" + key + "': { routeKey:'ferry.route." + x.routeKey + "', durationH:" + x.durationH + ', distanceKm:' + x.distanceKm +
     ', priceByClass:{1:' + price(x, 1) + ', 2:' + price(x, 2) + ', 5:' + price(x, 5) + ', foot:' + price(x, 'foot') + '}' +
     (x.priceStatus ? ", priceStatus:'" + x.priceStatus + "'" : '') + ' },';
 });
-s = s.replace(/(\/\/ BEGIN AUTO FERRIES[^\n]*\n)[\s\S]*?(\s*\/\/ END AUTO FERRIES)/, (m, a, b) => a + ferryOut.join('\n') + (ferryOut.length ? '\n' : '') + b.replace(/^\n/, ''));
+s = s.replace(AUTO_FERRIES_RE, (m, a, b) => a + ferryOut.join('\n') + (ferryOut.length ? '\n' : '') + b.replace(/^\n/, ''));
 fs.writeFileSync(TRIP_DATA, s);
 fs.writeFileSync(path.join(__dirname, 'iles', '.ferry-names.json'), JSON.stringify(ferries.map(x => ({ routeKey: x.routeKey, name: x.name })), null, 1));
 Object.entries(counts).forEach(([cc, c]) => console.log(cc, JSON.stringify(c)));

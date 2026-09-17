@@ -4,6 +4,7 @@
 // le seul état en mémoire est le cache de ces deux routes.
 const path = require('path');
 const fs = require('fs');
+const zlib = require('zlib');
 const express = require('express');
 const compression = require('compression');
 const PDFDocument = require('pdfkit');
@@ -11,6 +12,7 @@ const tripEngine = require('./lib/trip-engine.js');
 const searchIndex = require('./lib/search-index.js');
 const TripDataCountries = require('./public/js/trip-data.js').COUNTRIES;
 const TripDataTollSource = require('./public/js/trip-data.js').TOLL_SOURCE;
+const TripData = require('./public/js/trip-data.js');
 // Pays couverts par Visorando et portails de randonnée par pays (scripts/build-hiking-data.js -> data/hiking.json).
 let HIKING_DATA = { visorandoCountries: ['FR'], portals: [] };
 try { HIKING_DATA = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'hiking.json'), 'utf8')); } catch(err){ /* fichier absent : France seule */ }
@@ -24,7 +26,11 @@ const PORT = process.env.PORT || 3000;
 // premier chargement du formulaire (le champ "ville de départ" reste désactivé tant que ces
 // fichiers ne sont pas tous arrivés, voir buildCommunesFetches côté client). Placé tout en haut,
 // avant la moindre route/middleware, pour s'appliquer à toutes les réponses sans exception.
-app.use(compression());
+// Exception (audit du 17/09/2026) : les gros fichiers précompressés en mémoire (voir PRECOMPRESSED_FILES) ne repassent
+// jamais par la compression à la volée — i18n.js (11 Mo) coûtait ~0,85 s de CPU à CHAQUE réponse.
+app.use(compression({
+  filter: function(req, res){ return !res.locals.precompressed && compression.filter(req, res); }
+}));
 
 // ---------------------------------------------------------------------------------------------
 // SÉCURITÉ (audit de septembre 2026)
@@ -57,8 +63,9 @@ app.use(function(req, res, next){
 });
 // Limitation de débit en mémoire, par IP et par famille de routes (fenêtre glissante d'une minute) : empêche qu'un seul
 // client sature le moteur (tirages synchrones) ou fasse bannir le serveur par Overpass, Wikipédia ou Visorando.
+// search-city : 180 -> 60/min (audit du 17/09/2026) — la saisie côté client est temporisée, 60 suffit largement.
 const RATE_LIMITS = [
-  { prefix: '/api/search-city', max: 180 },
+  { prefix: '/api/search-city', max: 60 },
   { prefix: '/api/generate-trip', max: 20 },
   { prefix: '/api/export-pdf', max: 10 },
   { prefix: '/api/pois', max: 120 },
@@ -77,6 +84,10 @@ setInterval(function(){
 app.use('/api/', function(req, res, next){
   const p = ('/api/' + req.path).toLowerCase().replace(/\/{2,}/g, '/');
   const rule = RATE_LIMITS.find(r => p.startsWith(r.prefix)) || RATE_LIMITS[RATE_LIMITS.length - 1];
+  // IP (vérifié le 17/09/2026) : avec « trust proxy 1 », req.ip est la dernière adresse de X-Forwarded-For, celle
+  // qu'ajoute Passenger/Apache — un faux en-tête envoyé par le client ne contourne pas les quotas (testé en production).
+  // Sans IP connue, toutes ces requêtes partagent la clé « inconnu » avec les MÊMES quotas que n'importe quelle IP
+  // (un seul compteur commun, donc plus restrictif, jamais illimité).
   const key = (req.ip || 'inconnu') + '|' + rule.prefix;
   const now = Date.now();
   let hits = rateBuckets.get(key);
@@ -89,6 +100,69 @@ app.use('/api/', function(req, res, next){
   hits.push(now);
   next();
 });
+// Budget de calcul GLOBAL (audit du 17/09/2026), toutes IP confondues : les quotas par IP n'empêchent pas plusieurs
+// clients (ou plusieurs adresses) d'occuper le process à eux tous — tirages, exports PDF et recherches sont synchrones.
+// Durée cumulée de ces calculs (cases d'une seconde sur 60 s, mémoire bornée), comparée à deux plafonds glissants :
+// - CPU_BUDGETS[0] : 25 s de calcul par minute ;
+// - CPU_BUDGETS[1] : 7,5 s sur 10 s — sans lui, une rafale arrivée d'un coup (24 tirages lourds acceptés avant que le
+//   premier ne finisse) gelait le process ~25 s d'affilée (mesuré : /api/status sans réponse pendant 21 s) ; avec lui,
+//   le gel continu reste de l'ordre de 10 s.
+// Au-delà, les NOUVELLES requêtes de ces routes reçoivent 503 {error:'busy'} avec Retry-After (le temps que les calculs
+// les plus anciens sortent de la fenêtre). Les requêtes déjà en cours ne sont jamais interrompues.
+const CPU_BUDGETS = [{ windowS: 60, maxMs: 25000 }, { windowS: 10, maxMs: 7500 }];
+const CPU_BUDGET_SLOTS = 60; // = la plus longue fenêtre
+const cpuBudgetMs = new Float64Array(CPU_BUDGET_SLOTS);
+const cpuBudgetSec = new Float64Array(CPU_BUDGET_SLOTS); // seconde (horloge) de chaque case, pour les purger
+function cpuBudgetAdd(ms){
+  const sec = Math.floor(Date.now() / 1000), i = sec % CPU_BUDGET_SLOTS;
+  if(cpuBudgetSec[i] !== sec){ cpuBudgetSec[i] = sec; cpuBudgetMs[i] = 0; }
+  cpuBudgetMs[i] += ms;
+}
+// Cases non vides de moins de windowS secondes : [âge en s, ms], plus anciennes d'abord.
+function cpuBudgetSlots(windowS){
+  const sec = Math.floor(Date.now() / 1000), slots = [];
+  for(let i = 0; i < CPU_BUDGET_SLOTS; i++){
+    const age = sec - cpuBudgetSec[i];
+    if(age >= 0 && age < windowS && cpuBudgetMs[i] > 0) slots.push([age, cpuBudgetMs[i]]);
+  }
+  return slots.sort((x, y) => y[0] - x[0]);
+}
+function cpuBudgetUsedMs(windowS){
+  return Math.round(cpuBudgetSlots(windowS).reduce((t, x) => t + x[1], 0));
+}
+// Secondes à attendre avant que tous les plafonds soient de nouveau respectés (0 = disponible).
+function cpuBudgetRetryAfter(){
+  let wait = 0;
+  for(const budget of CPU_BUDGETS){
+    const slots = cpuBudgetSlots(budget.windowS);
+    let total = slots.reduce((t, x) => t + x[1], 0);
+    if(total < budget.maxMs) continue;
+    for(const [age, ms] of slots){
+      total -= ms;
+      if(total < budget.maxMs){ wait = Math.max(wait, budget.windowS - age); break; }
+    }
+  }
+  return wait;
+}
+function sendBusy(res, retryAfterS){
+  res.setHeader('Retry-After', String(retryAfterS));
+  res.setHeader('Cache-Control', 'no-store');
+  return res.status(503).json({ error: 'busy' });
+}
+// Placé AVANT express.json() (une requête refusée ne coûte même pas l'analyse de son corps) et de nouveau APRÈS : des
+// requêtes arrivées ensemble passent toutes le premier contrôle avant qu'aucun calcul n'ait commencé.
+function cpuBudgetGuard(req, res, next){
+  const wait = cpuBudgetRetryAfter();
+  if(wait > 0){
+    if(Date.now() - cpuBudgetLastLog > 10000){ // une ligne toutes les 10 s au plus, même sous un flot de requêtes
+      cpuBudgetLastLog = Date.now();
+      console.warn('[budget] ' + cpuBudgetUsedMs(10) + ' ms de calcul sur 10 s, ' + cpuBudgetUsedMs(60) + ' ms sur 60 s : requêtes ' + JSON.stringify(req.path) + ' et suivantes refusées (503)');
+    }
+    return sendBusy(res, wait);
+  }
+  next();
+}
+let cpuBudgetLastLog = 0;
 // Fichiers de données : le navigateur n'en charge plus aucun (recherche et tirages côté serveur). Les servir exposait
 // des centaines de Mo en téléchargement libre (bundles de 226 Mo), une porte ouverte à la saturation de la bande
 // passante ; les données restent publiques sur le dépôt GitHub.
@@ -97,7 +171,8 @@ app.use('/api/', function(req, res, next){
 app.use(function(req, res, next){
   let p;
   try { p = decodeURIComponent(req.path); } catch(e){ return res.status(400).type('text/plain').send('Bad request'); }
-  if(/^[\/]+data([\/]|$)/i.test(p)) return res.status(404).type('text/plain').send('Not found');
+  // Barre oblique inverse comprise (« /data%5Cfeatured.txt ») : certains systèmes de fichiers la traitent en séparateur.
+  if(/^[\/\\]+data([\/\\]|$)/i.test(p)) return res.status(404).type('text/plain').send('Not found');
   next();
 });
 // Paramètres de requête : chaînes seulement. « ?name[a]=x » ou « ?name=a&name=b » donnaient un objet ou un tableau,
@@ -128,6 +203,56 @@ function cacheSet(map, key, value){
   while(map.size > CACHE_MAX_ENTRIES) map.delete(map.keys().next().value);
 }
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24h
+// Clé de cache normalisée (casse, forme Unicode, espaces) : « Ajaccio », « ajaccio » et « Ajaccio␠» ne font plus
+// trois appels ni trois entrées.
+function cacheKeyPart(s){
+  return String(s == null ? '' : s).normalize('NFC').trim().toLowerCase();
+}
+
+// Appels sortants simultanés limités PAR SERVICE (audit du 17/09/2026) : sans limite, une rafale de requêtes (même sous
+// les quotas par IP) déclenchait autant d'appels parallèles vers Overpass ou Wikipédia — de quoi faire bannir le
+// serveur. Au-delà de `max` appels en cours, attente dans une file bornée (`queue` places, `waitMs` au plus) ; file
+// pleine ou attente trop longue : on renonce (erreur « saturated »), la route répond sans données et ne met rien en
+// cache.
+function makeServiceLimiter(name, max, queue, waitMs){
+  let active = 0;
+  const waiting = [];
+  function release(){
+    active--;
+    const next = waiting.shift();
+    if(next){ clearTimeout(next.timer); active++; next.resolve(); }
+  }
+  return {
+    name: name,
+    async run(fn){
+      if(active >= max){
+        if(waiting.length >= queue) throw new ServiceSaturatedError(name);
+        await new Promise(function(resolve, reject){
+          const entry = { resolve: resolve };
+          entry.timer = setTimeout(function(){
+            const i = waiting.indexOf(entry);
+            if(i >= 0) waiting.splice(i, 1);
+            reject(new ServiceSaturatedError(name));
+          }, waitMs);
+          waiting.push(entry);
+        });
+      } else {
+        active++;
+      }
+      try { return await fn(); } finally { release(); }
+    }
+  };
+}
+class ServiceSaturatedError extends Error {
+  constructor(name){ super(name + ' saturé (trop d\'appels simultanés)'); this.saturated = true; }
+}
+const LIMIT_OVERPASS = makeServiceLimiter('Overpass', 2, 8, 8000);
+const LIMIT_WIKIPEDIA = makeServiceLimiter('Wikipédia', 6, 40, 8000);
+const LIMIT_VISORANDO = makeServiceLimiter('Visorando', 2, 8, 6000);
+const LIMIT_WIKIDATA = makeServiceLimiter('Wikidata', 2, 10, 6000);
+// Échec « transitoire » d'un service (réseau, délai, 429, 5xx, saturation) : jamais mis en cache, contrairement à une
+// réponse aboutie mais vide (404, page sans photo).
+function isTransientHttpStatus(status){ return status === 429 || status >= 500; }
 
 // Seules des lettres minuscules (2-3, sous-domaines Wikipédia standards, ex. "fr", "es", "pt") —
 // filet de sécurité avant d'insérer la valeur dans une URL, jamais un souci en usage normal
@@ -137,16 +262,20 @@ function sanitizeLangCode(raw){
   return /^[a-z]{2,3}$/.test(code) ? code : 'fr';
 }
 
-async function fetchWikiSummary(title, lang){
-  const resp = await fetch('https://' + sanitizeLangCode(lang) + '.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(title), {
-    signal: AbortSignal.timeout(10000),
-    headers: {
-      'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)',
-      'Accept': 'application/json'
-    }
+// null = pas d'article exploitable (404…) ; exception = échec transitoire (réseau, délai, 429, 5xx, service saturé).
+function fetchWikiSummary(title, lang){
+  return LIMIT_WIKIPEDIA.run(async function(){
+    const resp = await fetch('https://' + sanitizeLangCode(lang) + '.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(title), {
+      signal: AbortSignal.timeout(10000),
+      headers: {
+        'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)',
+        'Accept': 'application/json'
+      }
+    });
+    if(isTransientHttpStatus(resp.status)) throw new Error('HTTP ' + resp.status);
+    if(!resp.ok) return null;
+    return await resp.json(); // lecture du corps comprise dans le créneau du limiteur
   });
-  if(!resp.ok) return null;
-  return resp.json();
 }
 
 // Résout une vraie photo Wikipédia pour une commune, dans la langue du VISITEUR (lang — voir
@@ -172,32 +301,42 @@ function wikiPlaceMatches(data, near){
 // dans la langue du visiteur via Wikidata (même vérification) ; à défaut, l'article anglais vérifié.
 async function fetchWikidataSitelink(qid, lang){
   if(!/^Q\d+$/.test(String(qid || ''))) return null;
-  const resp = await fetch('https://www.wikidata.org/w/api.php?action=wbgetentities&props=sitelinks&format=json&ids=' + qid + '&sitefilter=' + sanitizeLangCode(lang) + 'wiki', {
-    signal: AbortSignal.timeout(10000),
-    headers: { 'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)', 'Accept': 'application/json' }
+  return LIMIT_WIKIDATA.run(async function(){
+    const resp = await fetch('https://www.wikidata.org/w/api.php?action=wbgetentities&props=sitelinks&format=json&ids=' + qid + '&sitefilter=' + sanitizeLangCode(lang) + 'wiki', {
+      signal: AbortSignal.timeout(10000),
+      headers: { 'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)', 'Accept': 'application/json' }
+    });
+    if(isTransientHttpStatus(resp.status)) throw new Error('HTTP ' + resp.status);
+    if(!resp.ok) return null;
+    const data = await resp.json();
+    const link = data && data.entities && data.entities[qid] && data.entities[qid].sitelinks && data.entities[qid].sitelinks[sanitizeLangCode(lang) + 'wiki'];
+    return link ? link.title : null;
   });
-  if(!resp.ok) return null;
-  const data = await resp.json();
-  const link = data && data.entities && data.entities[qid] && data.entities[qid].sitelinks && data.entities[qid].sitelinks[sanitizeLangCode(lang) + 'wiki'];
-  return link ? link.title : null;
 }
-async function resolvePlacePhoto(name, deptCode, country, lang, near){
-  const first = await resolvePlacePhotoIn(name, deptCode, country, lang, near, null);
+// ctx.failed passe à true au moindre échec transitoire (voir fetchWikiSummary) : /api/photo ne met alors pas en cache
+// un « pas de photo » qui ne serait dû qu'à une panne passagère.
+async function resolvePlacePhoto(name, deptCode, country, lang, near, ctx){
+  ctx = ctx || {};
+  const first = await resolvePlacePhotoIn(name, deptCode, country, lang, near, null, ctx);
   if(first.image || !near || lang === 'en') return first;
   let en = null;
-  try { en = await fetchWikiSummary(name, 'en'); } catch(e){}
+  try { en = await fetchWikiSummary(name, 'en'); } catch(e){ ctx.failed = true; }
   if(!en || en.type === 'disambiguation' || !wikiPlaceMatches(en, near)) return first;
   let title = null;
-  try { title = await fetchWikidataSitelink(en.wikibase_item, lang); } catch(e){}
+  try { title = await fetchWikidataSitelink(en.wikibase_item, lang); } catch(e){ ctx.failed = true; }
   if(title){
-    const local = await resolvePlacePhotoIn(title, null, country, lang, near, [title]);
+    const local = await resolvePlacePhotoIn(title, null, country, lang, near, [title], ctx);
     if(local.image || (local.wikiUrl && !first.wikiUrl)) return local.image ? local : (first.wikiUrl ? first : local);
   }
   if(first.wikiUrl) return first;
-  return await resolvePlacePhotoIn(name, null, country, 'en', near, [name]);
+  return await resolvePlacePhotoIn(name, null, country, 'en', near, [name], ctx);
 }
-async function resolvePlacePhotoIn(name, deptCode, country, lang, near, titles){
-  const deptName = (!country || country === 'FR') ? (deptCode && DEPARTMENTS[deptCode]) : (deptCode || null);
+async function resolvePlacePhotoIn(name, deptCode, country, lang, near, titles, ctx){
+  ctx = ctx || {};
+  // hasOwnProperty : « constructor » ou « __proto__ » ne doivent pas être pris pour un département.
+  const deptName = (!country || country === 'FR')
+    ? (deptCode && Object.prototype.hasOwnProperty.call(DEPARTMENTS, deptCode) ? DEPARTMENTS[deptCode] : null)
+    : (deptCode || null);
   const attempts = titles ? titles.slice() : [];
   if(!titles){
     if(deptName) attempts.push(name + ' (' + deptName + ')');
@@ -207,7 +346,7 @@ async function resolvePlacePhotoIn(name, deptCode, country, lang, near, titles){
   let bestNoImage = null; // meilleure page trouvée SANS photo, gardée en repli (voir plus bas)
   for(const title of attempts){
     let data;
-    try { data = await fetchWikiSummary(title, lang); } catch(e){ console.warn('[photo] échec pour "'+title+'":', e.message); continue; }
+    try { data = await fetchWikiSummary(title, lang); } catch(e){ ctx.failed = true; console.warn('[photo] échec pour ' + JSON.stringify(title) + ':', e.message); continue; }
     if(!data || data.type === 'disambiguation') continue;
     if(!wikiPlaceMatches(data, near)) continue; // homonyme ailleurs, ou article sans lieu
     const thumbSource = (data.thumbnail && data.thumbnail.source) || null;
@@ -240,18 +379,21 @@ async function resolvePlacePhotoIn(name, deptCode, country, lang, near, titles){
 // y compris pour des lieux qui n'ont pas leur propre article Wikipédia (donc aucune photo possible
 // via resolvePlacePhoto), comme une petite église ou chapelle de village. Overpass, lui, ne connaît
 // que ce qui est nommé et taggé dans OpenStreetMap : les deux sources se complètent.
-async function fetchWikiWikitext(title){
-  const resp = await fetch('https://fr.wikipedia.org/w/api.php?action=parse&page=' + encodeURIComponent(title) + '&prop=wikitext&format=json&formatversion=2', {
-    signal: AbortSignal.timeout(10000),
-    headers: {
-      'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)',
-      'Accept': 'application/json'
-    }
+function fetchWikiWikitext(title){
+  return LIMIT_WIKIPEDIA.run(async function(){
+    const resp = await fetch('https://fr.wikipedia.org/w/api.php?action=parse&page=' + encodeURIComponent(title) + '&prop=wikitext&format=json&formatversion=2', {
+      signal: AbortSignal.timeout(10000),
+      headers: {
+        'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)',
+        'Accept': 'application/json'
+      }
+    });
+    if(isTransientHttpStatus(resp.status)) throw new Error('HTTP ' + resp.status);
+    if(!resp.ok) return null;
+    const data = await resp.json();
+    if(data.error || !data.parse) return null;
+    return data.parse.wikitext || null;
   });
-  if(!resp.ok) return null;
-  const data = await resp.json();
-  if(data.error || !data.parse) return null;
-  return data.parse.wikitext || null;
 }
 
 // Repère la section "Lieux et monuments" (ou proche : "Patrimoine", "Monuments") quel que soit son
@@ -431,20 +573,22 @@ function commonsFileUrl(filename){
 
 // Même logique d'essais que resolvePlacePhoto : "Nom (Département)" d'abord si connu (convention
 // de désambiguïsation Wikipédia), puis "Nom" seul.
-async function fetchCommuneMonuments(name, deptCode, lat, lon){
-  const deptName = deptCode && DEPARTMENTS[deptCode];
+// ctx.failed : échec transitoire (voir fetchWikiSummary), le résultat de /api/pois n'est alors pas mis en cache.
+async function fetchCommuneMonuments(name, deptCode, lat, lon, ctx){
+  ctx = ctx || {};
+  const deptName = deptCode && Object.prototype.hasOwnProperty.call(DEPARTMENTS, deptCode) ? DEPARTMENTS[deptCode] : null;
   const attempts = [];
   if(deptName) attempts.push(name + ' (' + deptName + ')');
   attempts.push(name);
   for(const title of attempts){
     let wikitext;
-    try { wikitext = await fetchWikiWikitext(title); } catch(e){ continue; }
+    try { wikitext = await fetchWikiWikitext(title); } catch(e){ ctx.failed = true; continue; }
     if(!wikitext) continue;
     const extracted = extractMonumentsSection(wikitext);
     if(extracted && extracted.items.length){
       // Article d'un homonyme (autre commune du même nom, notion générale) : écarté, voir wikiPlaceMatches.
       let summary = null;
-      try { summary = await fetchWikiSummary(title, 'fr'); } catch(e){}
+      try { summary = await fetchWikiSummary(title, 'fr'); } catch(e){ ctx.failed = true; }
       if(!wikiPlaceMatches(summary, { lat, lon, km: PHOTO_NEAR_KM.stop })) continue;
       // Ces lieux (église, mur d'une abbaye disparue...) n'ont en général pas leur propre article —
       // seule la page de LA COMMUNE en parle, dans cette section. Un lien vers elle reste plus utile
@@ -468,9 +612,10 @@ function normalizePoiName(s){
 // hors de France (country) — Overpass, lui, fonctionne déjà partout sans changement.
 async function fetchAllRealPOIs(lat, lon, name, deptCode, country){
   const tryMonuments = name && (!country || country === 'FR');
+  const wikiCtx = {};
   const [overpassResult, wikiResult] = await Promise.all([
     fetchRealPOIs(lat, lon).catch(() => null),
-    tryMonuments ? fetchCommuneMonuments(name, deptCode, lat, lon).catch(() => null) : Promise.resolve(null)
+    tryMonuments ? fetchCommuneMonuments(name, deptCode, lat, lon, wikiCtx).catch(() => { wikiCtx.failed = true; return null; }) : Promise.resolve(null)
   ]);
   const seen = new Set();
   const combined = [];
@@ -497,7 +642,10 @@ async function fetchAllRealPOIs(lat, lon, name, deptCode, country){
   // null seulement si on n'a rien ET qu'Overpass (la source la moins fiable) a explicitement
   // échoué — voir /api/pois pour pourquoi cette distinction compte pour la mise en cache.
   if(combined.length === 0 && overpassResult === null) return null;
-  return shuffleArr(combined).slice(0, 12);
+  const out = shuffleArr(combined).slice(0, 12);
+  // Résultat incomplet (Overpass ou Wikipédia en échec passager) : servi, mais pas mis en cache (voir /api/pois).
+  out.partial = overpassResult === null || !!wikiCtx.failed;
+  return out;
 }
 
 // Points d'intérêt réels en direct (OpenStreetMap / Overpass), pour les communes hors de
@@ -575,12 +723,12 @@ const OVERPASS_MIRRORS = [
   'https://overpass.kumi.systems/api/interpreter'
 ];
 
-async function queryOverpass(url, query){
+async function queryOverpass(url, query, timeoutMs){
   const controller = new AbortController();
   // Les instances publiques Overpass répondent parfois en 20s passées sous charge (constaté en
   // test réel) — sans gravité ici puisque cet enrichissement arrive en tâche de fond après
   // l'affichage initial du trajet (voir app.js), jamais avant.
-  const timer = setTimeout(() => controller.abort(), 25000);
+  const timer = setTimeout(() => controller.abort(), timeoutMs || 25000);
   try {
     const resp = await fetch(url, {
       method: 'POST',
@@ -597,6 +745,27 @@ async function queryOverpass(url, query){
     return data;
   } finally {
     clearTimeout(timer);
+  }
+}
+// Miroirs essayés l'un après l'autre dans un délai TOTAL de OVERPASS_TOTAL_MS (audit du 17/09/2026 : 25 s PAR miroir,
+// soit jusqu'à 75 s pour une seule requête), attente éventuelle du limiteur comprise. Un seul créneau du limiteur pour
+// toute la série : c'est un seul appel logique. null = tous en échec (jamais mis en cache par les appelants).
+const OVERPASS_TOTAL_MS = 25000;
+async function queryOverpassMirrors(query, label){
+  const deadline = Date.now() + OVERPASS_TOTAL_MS;
+  try {
+    return await LIMIT_OVERPASS.run(async function(){
+      for(const url of OVERPASS_MIRRORS){
+        const remaining = deadline - Date.now();
+        if(remaining < 1000) break;
+        try { return await queryOverpass(url, query, remaining); }
+        catch(e){ console.warn('[overpass] miroir ' + url + ' en échec (' + label + '):', e.message); }
+      }
+      return null;
+    });
+  } catch(e){
+    console.warn('[overpass] ' + e.message + ' (' + label + ')');
+    return null;
   }
 }
 
@@ -618,11 +787,7 @@ const POI_MAX_DISTANCE_KM = (POI_RADIUS_M / 1000) * 1.25;
 
 async function fetchRealPOIs(lat, lon){
   const query = buildOverpassQuery(lat, lon);
-  let data = null;
-  for(const url of OVERPASS_MIRRORS){
-    try { data = await queryOverpass(url, query); break; }
-    catch(e){ console.warn('[pois] miroir ' + url + ' en échec pour ' + lat + ',' + lon + ':', e.message); }
-  }
+  const data = await queryOverpassMirrors(query, 'pois ' + lat + ',' + lon);
   if(!data) return null;
   const seen = new Set();
   const pois = [];
@@ -705,20 +870,22 @@ function decodeHtmlEntities(s){
 async function fetchVisorandoHikes(communeName){
   const slug = visorandoSlug(communeName);
   if(!slug) return [];
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 10000);
-  let resp, html;
-  try {
-    resp = await fetch('https://www.visorando.com/randonnee-' + slug + '.html', {
-      headers: { 'User-Agent': VISORANDO_UA },
-      signal: controller.signal
-    });
-    if(resp.status === 404) return []; // pas de page pour cette commune : aucune rando à proximité
-    if(!resp.ok) throw new Error('HTTP ' + resp.status);
-    html = await resp.text(); // lecture du corps comprise dans le délai
-  } finally {
-    clearTimeout(timer);
-  }
+  const html = await LIMIT_VISORANDO.run(async function(){
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 10000);
+    try {
+      const resp = await fetch('https://www.visorando.com/randonnee-' + slug + '.html', {
+        headers: { 'User-Agent': VISORANDO_UA },
+        signal: controller.signal
+      });
+      if(resp.status === 404) return null; // pas de page pour cette commune : aucune rando à proximité
+      if(!resp.ok) throw new Error('HTTP ' + resp.status);
+      return await resp.text(); // lecture du corps comprise dans le délai
+    } finally {
+      clearTimeout(timer);
+    }
+  });
+  if(html === null) return [];
   const hikes = [];
   const seen = new Set();
   // Un bloc par rando listée ; on ne cherche le nom/lien/distance/durée/difficulté que DANS ce
@@ -758,7 +925,9 @@ async function fetchVisorandoHikes(communeName){
 // aucune rando trouvée pour cette commune. Plafonné à 8 : largement plus que le nombre de nuits
 // possibles au même endroit dans un même voyage.
 async function fetchVisorandoHikeList(communeName){
-  const cacheKey = communeName.toLowerCase();
+  // Clé = slug (celui de l'URL réellement appelée) : « Saint-Émilion », « saint emilion »… partagent la même entrée.
+  const cacheKey = visorandoSlug(communeName);
+  if(!cacheKey) return [];
   const cached = visorandoCache.get(cacheKey);
   if(cached && (Date.now() - cached.ts) < VISORANDO_CACHE_TTL_MS){
     const list = cached.hikes.slice(0, 8);
@@ -769,7 +938,7 @@ async function fetchVisorandoHikeList(communeName){
   try {
     hikes = await fetchVisorandoHikes(communeName);
   } catch(err){
-    console.warn('[hike] échec pour "' + communeName + '":', err.message);
+    console.warn('[hike] échec pour ' + JSON.stringify(communeName) + ':', err.message);
     return null;
   }
   cacheSet(visorandoCache, cacheKey, { hikes, ts: Date.now() });
@@ -804,10 +973,7 @@ async function fetchOsmHikes(lat, lon, lang){
   let elements = cached && (Date.now() - cached.ts) < OSM_HIKE_CACHE_TTL_MS ? cached.elements : null;
   if(!elements){
     const query = '[out:json][timeout:25];relation["route"~"^(hiking|foot)$"]["name"](around:' + OSM_HIKE_RADIUS_M + ',' + lat + ',' + lon + ');out tags center 60;';
-    let data = null;
-    for(const url of OVERPASS_MIRRORS){
-      try { data = await queryOverpass(url, query); break; } catch(err){ /* miroir suivant */ }
-    }
+    const data = await queryOverpassMirrors(query, 'randonnées ' + lat + ',' + lon);
     if(!data) return null; // échec réseau : pas mis en cache
     elements = (data.elements || []).map(e => ({ id: e.id, tags: e.tags || {}, lat: e.center && e.center.lat, lon: e.center && e.center.lon }));
     cacheSet(osmHikeCache, cacheKey, { elements, ts: Date.now() });
@@ -883,9 +1049,14 @@ app.get('/api/hike', async (req, res) => {
 app.get('/api/pois', async (req, res) => {
   const lat = parseFloat(req.query.lat);
   const lon = parseFloat(req.query.lon);
-  const name = String(req.query.name || '').trim();
-  const dept = String(req.query.dept || '').trim().slice(0, 40);
+  const name = String(req.query.name || '').normalize('NFC').trim();
   const country = String(req.query.country || '').trim().toUpperCase();
+  // Département : pour la France, un vrai code de DEPARTMENTS (sinon ignoré) ; ailleurs, nom de région en clair, borné
+  // et normalisé — une valeur arbitraire ne crée plus une entrée de cache (ni une recherche Wikipédia) par variante.
+  const deptRaw = String(req.query.dept || '').normalize('NFC').trim();
+  const dept = country === 'FR'
+    ? (Object.prototype.hasOwnProperty.call(DEPARTMENTS, deptRaw.toUpperCase()) ? deptRaw.toUpperCase() : '')
+    : deptRaw.slice(0, 40);
   // Garde-fou contre l'usage de ce point d'accès comme relais Overpass générique. Jusqu'en septembre
   // 2026, c'était une BOÎTE de coordonnées élargie pays par pays à chaque ajout européen (Andalousie,
   // Wadden, Sylt, Salento, Malte, Shetland, Dingle…) — mais jamais au-delà de lat 35,7-61 / lon
@@ -905,7 +1076,7 @@ app.get('/api/pois', async (req, res) => {
   }
   // Clé par nom+département plutôt que seules les coordonnées arrondies : plus fiable pour ne
   // jamais confondre deux communes proches, et cohérent avec la recherche Wikipédia (par nom).
-  const cacheKey = lat.toFixed(2) + ',' + lon.toFixed(2) + '|' + name.toLowerCase() + '|' + dept + '|' + country;
+  const cacheKey = lat.toFixed(2) + ',' + lon.toFixed(2) + '|' + cacheKeyPart(name) + '|' + cacheKeyPart(dept) + '|' + country;
   const cached = poiCache.get(cacheKey);
   if(cached && (Date.now() - cached.ts) < POI_CACHE_TTL_MS){
     return res.json({ pois: cached.pois });
@@ -914,20 +1085,21 @@ app.get('/api/pois', async (req, res) => {
   try {
     pois = await fetchAllRealPOIs(lat, lon, name, dept, country);
   } catch(err){
-    console.warn('[pois] échec pour ' + cacheKey + ':', err.message);
+    console.warn('[pois] échec pour ' + JSON.stringify(cacheKey) + ':', err.message);
   }
   // Ne met en cache que les échecs "propres" (requête aboutie, 0 résultat) — jamais un échec de
   // requête (les deux miroirs Overpass down), pour ne pas figer un faux négatif ; la prochaine
   // visite sur cette commune retentera au lieu de rester bloquée dessus pendant 14 jours.
-  if(pois !== null){
+  // Idem pour un résultat partiel (Wikipédia en échec ou saturé, voir fetchAllRealPOIs).
+  if(pois !== null && !pois.partial){
     cacheSet(poiCache, cacheKey, { pois, ts: Date.now() });
   }
   res.json({ pois: pois || [] }); // le client ne voit jamais l'échec : juste une liste vide
 });
 
 app.get('/api/photo', async (req, res) => {
-  const name = String(req.query.name || '').trim();
-  const dept = String(req.query.dept || '').trim().slice(0, 40);
+  const name = String(req.query.name || '').normalize('NFC').trim();
+  const dept = String(req.query.dept || '').normalize('NFC').trim().slice(0, 40);
   const country = String(req.query.country || '').trim().toUpperCase();
   const lang = sanitizeLangCode(req.query.lang);
   if(!name || name.length > 120){
@@ -938,18 +1110,23 @@ app.get('/api/photo', async (req, res) => {
   const kind = Object.prototype.hasOwnProperty.call(PHOTO_NEAR_KM, req.query.kind) ? req.query.kind : 'stop';
   const near = (isFinite(nLat) && isFinite(nLon) && Math.abs(nLat) <= 90 && Math.abs(nLon) <= 180)
     ? { lat: nLat, lon: nLon, km: PHOTO_NEAR_KM[kind] } : null;
-  const cacheKey = name + '|' + dept + '|' + country + '|' + lang + '|' + (near ? nLat.toFixed(2) + ',' + nLon.toFixed(2) + ',' + kind : '-');
+  // Clé normalisée (voir cacheKeyPart) : le nom envoyé à Wikipédia reste celui reçu, seule la clé ignore la casse.
+  const cacheKey = cacheKeyPart(name) + '|' + cacheKeyPart(dept) + '|' + country + '|' + lang + '|' + (near ? nLat.toFixed(2) + ',' + nLon.toFixed(2) + ',' + kind : '-');
   const cached = photoCache.get(cacheKey);
   if(cached && (Date.now() - cached.ts) < CACHE_TTL_MS){
     return res.json(cached.data);
   }
   let data;
+  const ctx = { failed: false };
   try {
-    data = await resolvePlacePhoto(name, dept, country, lang, near);
+    data = await resolvePlacePhoto(name, dept, country, lang, near, ctx);
   } catch(err){
+    ctx.failed = true;
     data = { image: null, imageFull: null, wikiUrl: null, title: null };
   }
-  cacheSet(photoCache, cacheKey, { data, ts: Date.now() });
+  // Pas de mise en cache d'un échec (réseau, délai, 429, 5xx, service saturé) : seulement des réponses abouties,
+  // y compris « pas de photo » quand Wikipédia a bien répondu. Une photo trouvée malgré un essai en échec est gardée.
+  if(!ctx.failed || data.image) cacheSet(photoCache, cacheKey, { data, ts: Date.now() });
   res.json(data);
 });
 
@@ -960,8 +1137,63 @@ app.get('/api/photo', async (req, res) => {
 // buildTripExportPayload dans app.js — POI réels et randonnée Visorando déjà résolus si trouvés) ;
 // le serveur ne fait que la mise en page. Rien n'est conservé ni journalisé au-delà de la réponse.
 
-function isHttpUrl(u){
-  return typeof u === 'string' && /^https?:\/\//i.test(u) && u.length < 500;
+// Liens cliquables du PDF (audit du 17/09/2026) : https seulement, vers les hôtes que l'application produit elle-même —
+// un lien arbitraire envoyé par un client ferait du PDF « officiel » du site un porteur d'hameçonnage. Ensemble calculé
+// une fois au démarrage : hôtes des URL de LODGING_RULES, VAN_RULES, MOTO_RULES, des vignettes (COUNTRIES) et des
+// portails de randonnée (data/hiking.json), plus les familles d'hôtes ci-dessous (logement, randonnée, Wikipédia).
+const PDF_LINK_HOST_PATTERNS = [
+  /^(?:www\.)?airbnb\.[a-z]{2,3}(?:\.[a-z]{2})?$/,
+  /^(?:[a-z0-9-]+\.)*booking\.com$/,
+  /^(?:[a-z0-9-]+\.)*visorando\.com$/,
+  /^hiking\.waymarkedtrails\.org$/,
+  /^(?:[a-z0-9-]+\.)*(?:wikipedia|wikimedia)\.org$/
+];
+const PDF_LINK_HOSTS = (function(){
+  const hosts = new Set();
+  function addUrl(u){
+    try { const p = new URL(u); if(p.protocol === 'https:') hosts.add(p.hostname.toLowerCase()); } catch(e){ /* URL modèle invalide */ }
+  }
+  function scan(value){
+    const matches = JSON.stringify(value || null).match(/https:\/\/[^"\s\\]+/g) || [];
+    matches.forEach(addUrl);
+  }
+  scan(TripData.LODGING_RULES);
+  scan(TripData.VAN_RULES);
+  scan(TripData.MOTO_RULES);
+  Object.keys(TripDataCountries).forEach(function(cc){ const v = TripDataCountries[cc].vignette; if(v && v.url) addUrl(v.url); });
+  (HIKING_DATA.portals || []).forEach(function(p){ if(p && typeof p.url === 'string') addUrl(p.url.replace(/\{[a-z]+\}/g, 'x')); });
+  return hosts;
+})();
+function parseHttpsUrl(u){
+  if(typeof u !== 'string' || u.length >= 500) return null;
+  let p;
+  try { p = new URL(u); } catch(e){ return null; }
+  if(p.protocol !== 'https:' || p.username || p.password || p.port) return null;
+  return p;
+}
+function isAllowedPdfLink(u){
+  const p = parseHttpsUrl(u);
+  if(!p) return false;
+  const host = p.hostname.toLowerCase();
+  return PDF_LINK_HOSTS.has(host) || PDF_LINK_HOST_PATTERNS.some(re => re.test(host));
+}
+// Zones à tension : source France Diplomatie uniquement.
+function isDiplomatieUrl(u){
+  const p = parseHttpsUrl(u);
+  return !!p && /^(?:www\.)?diplomatie\.gouv\.fr$/i.test(p.hostname);
+}
+// Niveau de tension envoyé par le client ({level:'red'|'orange', source?}) : validé strictement, sinon ignoré.
+function pdfTension(t){
+  if(!t || typeof t !== 'object' || Array.isArray(t)) return null;
+  if(t.level !== 'red' && t.level !== 'orange') return null;
+  return { level: t.level, source: isDiplomatieUrl(t.source) ? t.source : null };
+}
+function pdfTensionText(tension, isDeparture){
+  const where = isDeparture ? 'Point de départ situé en zone ' : 'Étape située en zone ';
+  const level = tension.level === 'red' ? 'formellement déconseillée' : 'déconseillée sauf raison impérative';
+  return 'ATTENTION — ' + where + level + ' par le ministère des Affaires étrangères' +
+    (tension.source ? ' (source : France Diplomatie, conseils aux voyageurs)' : '') +
+    '. Consultez les conseils aux voyageurs avant de partir.';
 }
 // Filet de sécurité contre un payload abusif (chaîne énorme) qui ralentirait inutilement la mise
 // en page du PDF — jamais atteint en usage normal, l'app elle-même ne produit rien d'aussi long.
@@ -984,6 +1216,11 @@ const PDF_BG = '#F6F1E2';       // --surface : fond du bandeau d'en-tête
 const PDF_BG_ALT = '#ECE4CC';   // --surface-2 : fond des jetons de statistiques
 const PDF_LINE = '#C9C2A0';
 const PDF_LINE_STRONG = '#8F8564'; // ligne de jonction entre les badges de jour ("timeline")
+const PDF_DANGER = '#B3261E';      // zone à tension « rouge » (formellement déconseillée)
+// Plafond de lignes listées par étape (audit du 17/09/2026) : ~1 s de CPU pour un export maximal (une étape peut en lister
+// jusqu'à ~30 : restrictions, activités, logements… ; une étape ordinaire une douzaine) ; les avertissements
+// de zone à tension ne sont jamais retirés par ce plafond.
+const PDF_MAX_LINES_PER_LEG = 20;
 
 // Boutiques OFFICIELLES de vignette autoroutière (pas de revendeur tiers) — même URLs que
 // COUNTRIES[cc].vignette côté client (public/js/app.js) ; dupliquées ici plutôt qu'importées, ce
@@ -1026,7 +1263,7 @@ function pdfBullet(doc, text, x, width, opts){
   } else {
     doc.circle(x, markY, 2.1).fill(opts.color || PDF_INK_SOFT);
   }
-  doc.font('Helvetica').fontSize(9.5).fillColor(opts.link ? PDF_ACCENT_3 : PDF_INK);
+  doc.font(opts.bold ? 'Helvetica-Bold' : 'Helvetica').fontSize(9.5).fillColor(opts.textColor || (opts.link ? PDF_ACCENT_3 : PDF_INK));
   pdfText(doc, text, x + 11, width - 11, { link: opts.link || undefined, underline: !!opts.link });
 }
 
@@ -1117,8 +1354,23 @@ function buildTripPdf(doc, trip){
   Array.from(new Set((Array.isArray(trip.notices) ? trip.notices : []).filter(function(key){ return typeof key === 'string' && PDF_NOTICES.hasOwnProperty(key); }))).forEach(function(key){
     if(PDF_NOTICES[key]) pdfBullet(doc, PDF_NOTICES[key], doc.page.margins.left, doc.page.width - doc.page.margins.left - doc.page.margins.right, { color: PDF_ACCENT_3 });
   });
+  // Zones à tension (France Diplomatie) : départ, puis chaque étape — en tête, en gras, lien vers la fiche pays.
+  let tensionShown = false;
+  const departureTension = pdfTension(trip.departureTension);
+  if(departureTension){
+    tensionShown = true;
+    pdfBullet(doc, pdfTensionText(departureTension, true), marginLeft, contentWidth, { link: departureTension.source,
+      color: departureTension.level === 'red' ? PDF_DANGER : PDF_ACCENT, textColor: departureTension.level === 'red' ? PDF_DANGER : PDF_ACCENT, bold: true });
+    doc.moveDown(0.5);
+  }
   legs.forEach(function(leg, idx){
-    if(!leg) return;
+    if(!leg || typeof leg !== 'object') return;
+    // Au plus PDF_MAX_LINES_PER_LEG lignes listées pour cette étape (voir la constante).
+    let legLines = 0;
+    function legBullet(text, x, width, opts){
+      if(legLines++ >= PDF_MAX_LINES_PER_LEG) return;
+      pdfBullet(doc, text, x, width, opts);
+    }
     const pageBefore = doc.page;
     pdfEnsureSpace(doc, 74);
     const pageChanged = doc.page !== pageBefore;
@@ -1150,6 +1402,12 @@ function buildTripPdf(doc, trip){
     doc.fillColor(PDF_INK).font('Helvetica-Bold').fontSize(10.5);
     pdfText(doc, stopLabel, contentX, contentWidth2);
     doc.moveDown(0.3);
+    const legTension = isReturn ? null : pdfTension(leg.tension);
+    if(legTension){
+      tensionShown = true;
+      const tensionColor = legTension.level === 'red' ? PDF_DANGER : PDF_ACCENT;
+      pdfBullet(doc, pdfTensionText(legTension, false), contentX, contentWidth2, { link: legTension.source, color: tensionColor, textColor: tensionColor, bold: true });
+    }
 
     if(leg.tollInfo){
       const t = leg.tollInfo;
@@ -1163,21 +1421,21 @@ function buildTripPdf(doc, trip){
       const tollSources = (Array.isArray(t.countries) ? t.countries : []).slice(0, 5)
         .map(c => Object.prototype.hasOwnProperty.call(TripDataTollSource, c) ? TripDataTollSource[c] : null)
         .filter((x, i, a) => x && a.indexOf(x) === i);
-      pdfBullet(doc, tollTxt + (tollSources.length ? ' Barème : ' + tollSources.join(' + ') + '.' : ''), contentX, contentWidth2);
+      legBullet(tollTxt + (tollSources.length ? ' Barème : ' + tollSources.join(' + ') + '.' : ''), contentX, contentWidth2);
     }
     if(leg.chargeInfo && typeof leg.chargeInfo === 'object'){
       const c = Object.assign({}, leg.chargeInfo, { stops: Math.min(Math.max(Math.round(Number(leg.chargeInfo.stops)) || 0, 0), 99),
         minutes: Math.min(Math.max(Math.round(Number(leg.chargeInfo.minutes)) || 0, 0), 9999) });
       if(c.stops > 0 && c.real && Array.isArray(c.stations)){
         const places = c.stations.slice(0, 10).map(function(s){ return clip((s && s.near) || '', 60); }).filter(Boolean).join(', ');
-        pdfBullet(doc, c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge (~' + Math.round(c.minutes) + ' min au total) sur ' +
+        legBullet(c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge (~' + Math.round(c.minutes) + ' min au total) sur ' +
           (c.stops > 1 ? 'des bornes réelles' : 'une borne réelle') + (places ? ' : ' + places : '') + '.', contentX, contentWidth2);
       } else if(c.stops > 0){
-        pdfBullet(doc, c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge estimée' + (c.stops > 1 ? 's' : '') +
+        legBullet(c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge estimée' + (c.stops > 1 ? 's' : '') +
           ' (~' + Math.round(c.minutes) + ' min au total) sur borne rapide.', contentX, contentWidth2);
       }
       if(c.noChargerNearArrival){
-        pdfBullet(doc, 'Aucune borne publique connue à moins de 20 km de l\'arrivée : prévoyez de recharger à l\'hébergement.', contentX, contentWidth2, { color: PDF_ACCENT_3 });
+        legBullet('Aucune borne publique connue à moins de 20 km de l\'arrivée : prévoyez de recharger à l\'hébergement.', contentX, contentWidth2, { color: PDF_ACCENT_3 });
       }
     }
     if(Array.isArray(leg.restrictions)){
@@ -1197,17 +1455,17 @@ function buildTripPdf(doc, trip){
         const tpl = RESTRICTION_TEXT[String(r.kind) + '.' + String(r.type)];
         if(!tpl) return;
         const text = tpl.replace('{name}', clip(r.name || '', 80)).replace('{cc}', String(Number(r.minCc) || ''));
-        pdfBullet(doc, text, contentX, contentWidth2, { link: isHttpUrl(r.source) ? r.source : null, color: PDF_ACCENT_3 });
+        legBullet(text, contentX, contentWidth2, { link: isAllowedPdfLink(r.source) ? r.source : null, color: PDF_ACCENT_3 });
       });
     }
     if(leg.ferryInfo){
       const f = leg.ferryInfo;
       if(typeof f.amount === 'number'){
         const amountTxt = (Math.round(f.amount * 10) / 10).toFixed(1).replace('.', ',');
-        pdfBullet(doc, 'Traversée en ferry (' + clip(f.route || '', 60) + ') : ~' + amountTxt + ' €.', contentX, contentWidth2);
+        legBullet('Traversée en ferry (' + clip(f.route || '', 60) + ') : ~' + amountTxt + ' €.', contentX, contentWidth2);
       } else {
         // Liaison réelle sans tarif fixe publié (voir priceStatus dans lib/trip-engine.js).
-        pdfBullet(doc, 'Traversée en ferry (' + clip(f.route || '', 60) + ') : ' + (f.priceStatus === 'variable'
+        legBullet('Traversée en ferry (' + clip(f.route || '', 60) + ') : ' + (f.priceStatus === 'variable'
           ? 'tarif variable, vérifiez avant votre voyage.' : 'tarif non communiqué, renseignez-vous avant votre trajet.'), contentX, contentWidth2);
       }
     }
@@ -1216,7 +1474,7 @@ function buildTripPdf(doc, trip){
     const vignetteUrl = leg.country && VIGNETTE_URLS[leg.country];
     if(vignetteUrl && !shownVignetteCountries[leg.country]){
       shownVignetteCountries[leg.country] = true;
-      pdfBullet(doc, 'Vignette autoroutière obligatoire dans ce pays — pensez à la commander avant de partir.',
+      legBullet('Vignette autoroutière obligatoire dans ce pays — pensez à la commander avant de partir.',
         contentX, contentWidth2, { link: vignetteUrl, color: PDF_ACCENT_3 });
     }
     const activities = Array.isArray(leg.activities) ? leg.activities : [];
@@ -1224,8 +1482,8 @@ function buildTripPdf(doc, trip){
       if(!act || !act.label) return;
       const text = clip(act.label, 140) + (act.typeLabel ? ' — ' + clip(act.typeLabel, 80) : '') +
         (act.source ? ' (Source : ' + clip(act.source, 30) + ')' : '');
-      const link = isHttpUrl(act.hikeUrl) ? act.hikeUrl : null;
-      pdfBullet(doc, text, contentX, contentWidth2, { link: link, color: link ? PDF_ACCENT_3 : PDF_ACCENT_2 });
+      const link = isAllowedPdfLink(act.hikeUrl) ? act.hikeUrl : null;
+      legBullet(text, contentX, contentWidth2, { link: link, color: link ? PDF_ACCENT_3 : PDF_ACCENT_2 });
     });
     if(leg.lodgingLinks && leg.checkInLabel){
       // checkInLabel peut être une seule date ("20 août") ou une plage ("20 août → 22 août") pour
@@ -1233,14 +1491,16 @@ function buildTripPdf(doc, trip){
       // pas une par nuit (voir buildTripExportPayload côté client). "·" plutôt que "pour le" reste
       // grammaticalement correct dans les deux cas.
       const links = leg.lodgingLinks;
-      if(isHttpUrl(links.airbnb)) pdfBullet(doc, 'Logement (Airbnb) · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.airbnb });
-      if(isHttpUrl(links.booking)) pdfBullet(doc, 'Logement (Booking.com) · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.booking });
+      if(isAllowedPdfLink(links.airbnb)) legBullet('Logement (Airbnb) · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.airbnb });
+      if(isAllowedPdfLink(links.booking)) legBullet('Logement (Booking.com) · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.booking });
       // Plateformes locales (pays où Airbnb ou Booking.com est absent ou faible).
-      (Array.isArray(links.local) ? links.local.slice(0, 4) : []).forEach(function(p){
-        if(p && isHttpUrl(p.url)) pdfBullet(doc, 'Logement (' + clip(p.name || '', 40) + ') · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: p.url });
+      // Liens hors des hôtes attendus (voir isAllowedPdfLink) : ligne omise, pas seulement le lien.
+      const localLinks = (Array.isArray(links.local) ? links.local.slice(0, 4) : []).filter(p => p && isAllowedPdfLink(p.url));
+      localLinks.forEach(function(p){
+        legBullet('Logement (' + clip(p.name || '', 40) + ') · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: p.url });
       });
-      if(!isHttpUrl(links.airbnb) && !isHttpUrl(links.booking) && !(Array.isArray(links.local) && links.local.length)){
-        pdfBullet(doc, 'Aucune plateforme de réservation en ligne connue ici : contactez directement les hébergements ou l\'office du tourisme.', contentX, contentWidth2);
+      if(!isAllowedPdfLink(links.airbnb) && !isAllowedPdfLink(links.booking) && !localLinks.length){
+        legBullet('Aucune plateforme de réservation en ligne connue ici : contactez directement les hébergements ou l\'office du tourisme.', contentX, contentWidth2);
       }
     }
     if(isReturn){
@@ -1271,16 +1531,35 @@ function buildTripPdf(doc, trip){
   doc.fillColor(PDF_INK_SOFT).font('Helvetica').fontSize(7.5);
   pdfText(doc,
     "Généré le " + today + " par Cap sur l'inconnu — communes : IGN/geo.api.gouv.fr · points d'intérêt : " +
-    "OpenStreetMap (ODbL) · péages : VINCI Autoroutes · randonnées : Visorando.",
+    "OpenStreetMap (ODbL) · péages : VINCI Autoroutes · randonnées : Visorando" +
+    (tensionShown ? " · zones à tension : France Diplomatie (diplomatie.gouv.fr)" : "") + ".",
     marginLeft, contentWidth
   );
 }
 
-app.post('/api/export-pdf', express.json({ limit: '128kb' }), (req, res) => {
+// Un seul export à la fois (audit du 17/09/2026) : un export maximal coûte ~1 s de CPU ; les suivants reçoivent 503
+// {error:'busy'} au lieu de s'empiler. Pris APRÈS la lecture du corps (un envoi volontairement lent ne le bloque pas) et
+// libéré à la fin ou à l'abandon de la réponse, au plus tard après PDF_SLOT_MAX_MS (lecteur volontairement lent).
+const PDF_SLOT_MAX_MS = 5000;
+let pdfExportInProgress = false;
+function pdfExportSlot(req, res, next){
+  if(pdfExportInProgress) return sendBusy(res, 2);
+  pdfExportInProgress = true;
+  let released = false;
+  const timer = setTimeout(release, PDF_SLOT_MAX_MS);
+  function release(){ if(!released){ released = true; clearTimeout(timer); pdfExportInProgress = false; } }
+  res.on('finish', release);
+  res.on('close', release);
+  next();
+}
+app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '128kb' }), cpuBudgetGuard, pdfExportSlot, (req, res) => {
   const trip = req.body;
   if(!trip || typeof trip !== 'object' || !Array.isArray(trip.legs) || trip.legs.length === 0 || trip.legs.length > 25){
     return res.status(400).json({ error: 'invalid trip data' });
   }
+  // Chaînes seulement (un objet profond faisait échouer String() hors du try ci-dessous : erreur 500).
+  trip.tripLabel = typeof trip.tripLabel === 'string' ? trip.tripLabel : '';
+  trip.city = typeof trip.city === 'string' ? trip.city : '';
   // Demi-caractères retirés (emoji coupé par clip, ou envoyé tel quel) : encodeURIComponent les refuse (erreur 500).
   const filenameBase = clip(trip.tripLabel || trip.city || 'itineraire', 60).replace(/[\\/:*?"<>|]+/g, '-')
     .replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(^|[^\uD800-\uDBFF])[\uDC00-\uDFFF]/g, '$1') || 'itineraire';
@@ -1292,55 +1571,27 @@ app.post('/api/export-pdf', express.json({ limit: '128kb' }), (req, res) => {
   res.setHeader('Content-Type', 'application/pdf');
   res.setHeader('Content-Disposition', "attachment; filename=\"itineraire.pdf\"; filename*=UTF-8''" + encodeURIComponent(filenameBase) + '.pdf');
   doc.pipe(res);
+  // Mise en page ET compression des pages sont synchrones dans pdfkit (doc.end() compris) : leur durée compte dans le
+  // budget de calcul global.
+  const t0 = performance.now();
   try {
     buildTripPdf(doc, trip);
   } catch(err){
-    console.warn('[export-pdf] erreur de mise en page:', err.message);
+    console.warn('[export-pdf] erreur de mise en page:', JSON.stringify(String(err && err.message)));
   }
   doc.end();
+  cpuBudgetAdd(performance.now() - t0);
 });
 
-// Regroupe TOUS les fichiers communes-XX.txt (resp. aliases-XX.txt) en une SEULE réponse chacun,
-// plutôt que ~46 (resp. ~45) requêtes séparées comme avant (voir public/js/app.js pour le fetch
-// côté client). Mesuré en conditions réelles sur l'hébergement mutualisé (o2switch) : peu importe
-// la taille ou le contenu demandés, ~90 requêtes simultanées prennent systématiquement ~2,3 s au
-// total (débit constant d'environ 40-45 requêtes/seconde, quelle que soit la concurrence
-// utilisée — 6, 40 ou 92 connexions en parallèle donnent quasiment le MÊME temps total), signature
-// d'une protection anti-flood de l'hébergement plutôt qu'un problème de bande passante ou de CPU
-// (confirmé : demander CHAQUE fichier sans compression ne change rien non plus). Descendre à 2
-// requêtes contourne cette limite entièrement, quel que soit son mécanisme exact côté hébergeur.
-//
-// Format du regroupement : chaque fichier est précédé d'un marqueur `###XX###` sur sa propre
-// ligne (XX = code pays en MAJUSCULES, ex. `###DE###`) puis son contenu tel quel — un format
-// trivial à re-découper côté client (`split` sur le marqueur). Aucune commune/alias existant ne
-// contient déjà cette séquence (vérifié sur les ~650 000 lignes actuelles avant d'adopter ce
-// format). La France (`communes.txt`, sans suffixe de pays dans son nom de fichier) est
-// identifiée par son code `FR`, comme partout ailleurs dans `COUNTRIES` (voir app.js).
-//
-// Compression : PLUS AUCUNE compression n'a lieu dans ce process au moment de répondre à une
-// requête — voir scripts/build-data-bundles.js, lancé une fois à chaque déploiement (via
-// "postinstall" dans package.json, déclenché par "Run NPM Install" sous cPanel), jamais à chaque
-// redémarrage ni à chaque requête. Deux essais précédents ont mené à cette conclusion, chacun
-// mesuré en conditions réelles sur testroad.lume419.fr :
-// 1. Compression à la volée à chaque requête (compression() seul) : l'hébergement mutualisé
-//    compresse nettement moins bien qu'en local (-49,5 % mesuré contre -66,7 % en local, même
-//    donnée) et recalcule ce travail à CHAQUE requête pour un contenu qui ne change pourtant
-//    qu'au déploiement.
-// 2. Compression unique au démarrage mais en tâche de fond ASYNCHRONE (tentative intermédiaire) :
-//    évite bien de BLOQUER le process (voir plus bas, reste vrai pour le repli), mais sur un CPU
-//    partagé déjà limité, lancer gzip+brotli en parallèle pour les deux bundles (4 tâches, pile la
-//    taille par défaut du threadpool libuv) s'est mis à concurrencer le même CPU limité — mesuré
-//    PLUS LENT en conditions réelles (~8 s à froid) qu'avant ce changement (~4-5 s) : l'asynchrone
-//    évite de geler le process, mais ne change rien à la contention CPU réelle sur un hébergement
-//    déjà à la limite.
-// Seule vraie solution : ne plus compresser au moment de servir une requête, un point c'est tout.
-// scripts/build-data-bundles.js écrit `communes-bundle.txt`/`.txt.gz`/`.txt.br` (et l'équivalent
-// pour aliases-bundle) directement dans public/data, avec le MEILLEUR niveau de compression
-// possible pour chacun — brotli à qualité MAXIMALE y compris (~67 s mesurés sur le bundle
-// communes, sans problème puisque hors du chemin critique d'une requête). Ce process se contente
-// de LIRE ces fichiers déjà prêts (voir loadPrecompiledBundle), un simple accès disque sans le
-// moindre calcul de compression — le goulot d'origine (recompression répétée d'un contenu
-// statique) disparaît entièrement plutôt que d'être seulement déplacé ou masqué.
+// BUNDLES DE DONNÉES (communes-bundle.txt, aliases-bundle.txt) : concaténation de tous les fichiers communes-XX.txt
+// (resp. aliases-XX.txt), écrite par scripts/build-data-bundles.js au déploiement (écriture atomique, texte brut
+// seulement : plus aucune version .txt.gz/.txt.br, les anciennes sont effacées). Ils ne sont plus servis au navigateur
+// (voir plus bas) : le serveur les lit seulement pour initialiser le moteur, plus vite que ~90 fichiers séparés.
+// Format : chaque fichier précédé d'un marqueur `###XX###` sur sa propre ligne (XX = code pays en MAJUSCULES ; la
+// France, `communes.txt`, porte le code `FR`), puis son contenu tel quel — voir buildBundleTextAsync, qui reproduit ce
+// format quand le bundle est absent ou périmé.
+// Compression : aucune pour ces données (lues sur le disque, jamais envoyées). Seuls quelques gros fichiers statiques
+// du navigateur sont compressés, une fois, en mémoire après le démarrage du moteur (voir PRECOMPRESSED_FILES).
 const DATA_DIR = path.join(__dirname, 'public', 'data');
 // Routes /data/communes-bundle.txt et /data/aliases-bundle.txt RETIRÉES (audit de septembre 2026) : plus utilisées par
 // le navigateur, elles gardaient en mémoire 226 Mo de texte (plus les versions compressées) dès la première requête
@@ -1405,24 +1656,39 @@ function openDiskSearchIndex(){
 function buildSearchIndexInChild(){
   return new Promise(function(resolve){
     fs.mkdirSync(path.dirname(SEARCH_INDEX_LOCK), { recursive: true });
-    // Verrou : si un autre processus construit déjà (verrou de moins de 30 min), on attend qu'il ait fini. Un verrou dont
-    // le processus n'existe plus (arrêt brutal pendant la construction) est ignoré au lieu de bloquer 30 minutes.
-    try {
-      var lockAge = Date.now() - fs.statSync(SEARCH_INDEX_LOCK).mtimeMs;
-      var lockPid = parseInt(fs.readFileSync(SEARCH_INDEX_LOCK, 'utf8'), 10);
-      var lockAlive = true;
-      if(lockPid > 0){ try { process.kill(lockPid, 0); } catch(e){ lockAlive = e.code === 'EPERM'; } }
-      if(lockAge < 30 * 60 * 1000 && lockAlive){
-        startupStatus.build = 'construction en cours dans un autre processus';
-        var waited = 0;
-        var timer = setInterval(function(){
-          waited += 10;
-          if(!fs.existsSync(SEARCH_INDEX_LOCK) || waited > 30 * 60){ clearInterval(timer); resolve(!!openDiskSearchIndex()); }
-        }, 10000);
-        return;
+    // Verrou partagé avec scripts/build-search-index.js, pris par création EXCLUSIVE (flag 'wx', atomique) : deux
+    // processus démarrés ensemble ne peuvent plus construire tous les deux (vérification puis écriture séparées avant le
+    // 17/09/2026). Contrat avec le script : le serveur écrit SON PID, lance l'enfant (qui reconnaît le PID de son parent
+    // et travaille sous ce verrou sans le recréer ni le retirer), puis retire le verrou à la fin de l'enfant.
+    // Verrou existant : vivant (PID vivant, moins de 30 min) -> on attend la fin de l'autre construction ; orphelin
+    // (processus disparu, verrou trop ancien ou illisible) -> supprimé, puis une seule nouvelle tentative.
+    var acquired = false;
+    for(var attempt = 0; attempt < 2 && !acquired; attempt++){
+      try {
+        fs.writeFileSync(SEARCH_INDEX_LOCK, String(process.pid), { flag: 'wx' });
+        acquired = true;
+      } catch(e){
+        if(e.code !== 'EEXIST') throw e;
+        var lockAge = Infinity, lockPid = NaN, lockAlive = false;
+        try {
+          lockAge = Date.now() - fs.statSync(SEARCH_INDEX_LOCK).mtimeMs;
+          lockPid = parseInt(fs.readFileSync(SEARCH_INDEX_LOCK, 'utf8'), 10);
+        } catch(e2){ if(e2.code === 'ENOENT') continue; } // retiré entre-temps : nouvelle tentative
+        if(lockPid > 0){ try { process.kill(lockPid, 0); lockAlive = true; } catch(e3){ lockAlive = e3.code === 'EPERM'; } }
+        else if(lockAge < 5000) lockAlive = true; // verrou vide tout juste créé (PID pas encore écrit) : pas un orphelin
+        if(lockAge < 30 * 60 * 1000 && lockAlive){
+          startupStatus.build = 'construction en cours dans un autre processus';
+          var waited = 0;
+          var timer = setInterval(function(){
+            waited += 10;
+            if(!fs.existsSync(SEARCH_INDEX_LOCK) || waited > 30 * 60){ clearInterval(timer); resolve(!!openDiskSearchIndex()); }
+          }, 10000);
+          return;
+        }
+        if(attempt === 0) fs.rmSync(SEARCH_INDEX_LOCK, { force: true }); // orphelin
       }
-    } catch(e){ /* pas de verrou */ }
-    fs.writeFileSync(SEARCH_INDEX_LOCK, String(process.pid));
+    }
+    if(!acquired) throw new Error('verrou ' + SEARCH_INDEX_LOCK + ' impossible à prendre');
     startupStatus.build = 'construction en cours (démarrée le ' + new Date().toISOString() + ')';
     console.log('[search-index] index absent ou périmé : construction en arrière-plan…');
     var t0 = Date.now(), output = '';
@@ -1471,12 +1737,15 @@ function startEngine(){
   });
 }
 
+// engineStartup : résolue quand le moteur est prêt (ou en échec) — la précompression des fichiers statiques attend ce
+// moment pour ne pas lui disputer le CPU (voir PRECOMPRESSED_FILES).
+let engineStartup;
 if(openDiskSearchIndex()){
   console.log('[search-index] index sur disque utilisé (' + diskSearchIndex.entries + ' entrées, ' + diskSearchIndex.places + ' lieux).');
-  startEngine();
+  engineStartup = startEngine();
 } else {
   // Échec de la construction (dossier cache/ non inscriptible…) : le moteur démarre quand même, recherche en mémoire.
-  buildSearchIndexInChild().catch(function(err){ console.error('[search-index] construction impossible :', err.message); }).then(startEngine);
+  engineStartup = buildSearchIndexInChild().catch(function(err){ console.error('[search-index] construction impossible :', err.message); }).then(startEngine);
 }
 
 app.get('/api/status', function(req, res){
@@ -1490,11 +1759,15 @@ app.get('/api/status', function(req, res){
     engine: startupStatus.engine,
     searchReady: !!diskSearchIndex || tripEngine.isSearchReady(),
     tripsReady: tripEngine.isReady(),
-    chargers: startupStatus.chargers || 0
+    chargers: startupStatus.chargers || 0,
+    precompressed: startupStatus.precompressed || null
   });
 });
 
-app.get('/api/search-city', function(req, res){
+// Recherches de plus de SEARCH_BUDGET_MIN_MS comptées dans le budget de calcul global (les recherches ordinaires, de
+// quelques ms, n'y pèsent pas).
+const SEARCH_BUDGET_MIN_MS = 50;
+app.get('/api/search-city', cpuBudgetGuard, function(req, res){
   var q = String(req.query.q || '');
   if(!q || q.length > 120){
     return res.status(400).json({ error: 'invalid query', results: [] });
@@ -1502,6 +1775,8 @@ app.get('/api/search-city', function(req, res){
   if(!diskSearchIndex && !tripEngine.isSearchReady()){
     return res.status(503).json({ error: 'not ready', results: [] });
   }
+  var t0 = performance.now();
+  res.on('finish', function(){ var ms = performance.now() - t0; if(ms > SEARCH_BUDGET_MIN_MS) cpuBudgetAdd(ms); });
   try {
     var limitRaw = parseInt(req.query.limit, 10);
     var limit = (isFinite(limitRaw) && limitRaw > 0 && limitRaw <= 20) ? limitRaw : 8;
@@ -1512,18 +1787,24 @@ app.get('/api/search-city', function(req, res){
     var lang = /^[a-zA-Z]{2,3}(-[a-zA-Z]{2,4})?$/.test(String(req.query.lang || '')) ? String(req.query.lang) : '';
     res.json({ results: diskSearchIndex ? diskSearchIndex.search(q, limit, country, lang) : tripEngine.searchCity(q, limit, country, lang) });
   } catch(err){
-    console.warn('[search-city] erreur:', err.message);
+    console.warn('[search-city] erreur:', JSON.stringify(String(err && err.message)));
     res.status(500).json({ error: 'internal error', results: [] });
   }
 });
 
-app.post('/api/generate-trip', express.json({ limit: '16kb' }), function(req, res){
+// Tirage synchrone : le moteur borne lui-même sa durée (réponse `timedOut: true`, étapes vides, relayée telle quelle au
+// client) ; le budget global (cpuBudgetGuard) borne la somme des tirages de tous les visiteurs.
+app.post('/api/generate-trip', cpuBudgetGuard, express.json({ limit: '16kb' }), cpuBudgetGuard, function(req, res){
   if(!tripEngine.isReady()){
     return res.status(503).json({ error: 'not ready' });
   }
+  const t0 = performance.now();
   try {
-    res.json(tripEngine.generateTrip(req.body));
+    const trip = tripEngine.generateTrip(req.body);
+    cpuBudgetAdd(performance.now() - t0);
+    res.json(trip);
   } catch(err){
+    cpuBudgetAdd(performance.now() - t0);
     // Toute erreur ici vient soit d'une entrée invalide (voir la validation en tête de
     // generateTrip), soit d'un cas limite du moteur (ex. aucune commune atteignable) — jamais
     // d'une panne interne à cacher : 400 dans les deux cas, avec le message tel quel (déjà en
@@ -1532,6 +1813,78 @@ app.post('/api/generate-trip', express.json({ limit: '16kb' }), function(req, re
     const known = err && err.constructor === Error;
     res.status(400).json({ error: known ? err.message : 'requête invalide' });
   }
+});
+
+// Routes /api inconnues : 404 JSON court plutôt que la page HTML d'Express (placé après toutes les routes /api).
+app.use('/api', function(req, res){
+  res.status(404).json({ error: 'not found' });
+});
+
+// PRÉCOMPRESSION DES GROS FICHIERS STATIQUES (audit du 17/09/2026) — i18n.js (11 Mo) coûtait ~0,85 s de CPU par réponse
+// en compression à la volée. Compressés UNE fois au démarrage, en tâche de fond asynchrone et l'un après l'autre (pas de
+// contention avec le chargement du moteur, voir plus haut l'essai en parallèle mesuré plus lent), puis servis depuis la
+// mémoire selon Accept-Encoding. Lancée une fois le moteur prêt : mesuré en local (machine chargée), 70 s pendant son
+// chargement contre 15 s une fois le moteur prêt. Brotli qualité 9 : ~1,4 s pour i18n.js (751 Ko) contre ~14 s en qualité 11 (662 Ko).
+// Tant que la précompression n'est pas prête (ou si le fichier a changé sur le disque depuis), comportement habituel
+// (express.static + compression à la volée). Mêmes en-têtes qu'express.static : ETag faible taille-date (identique d'une
+// voie à l'autre, donc 304 cohérents), Last-Modified, Cache-Control no-cache/must-revalidate, plus Vary: Accept-Encoding.
+const PRECOMPRESSED_FILES = {
+  '/js/i18n.js': 'application/javascript; charset=UTF-8',
+  '/js/trip-data.js': 'application/javascript; charset=UTF-8',
+  '/js/app.js': 'application/javascript; charset=UTF-8',
+  '/css/style.css': 'text/css; charset=UTF-8'
+};
+const precompressed = new Map(); // chemin d'URL -> { size, mtimeMs, etag, lastModified, br, gzip }
+function staticEtag(stat){
+  return 'W/"' + stat.size.toString(16) + '-' + stat.mtime.getTime().toString(16) + '"';
+}
+async function precompressStaticFiles(){
+  const t0 = Date.now();
+  const util = require('util');
+  const brotli = util.promisify(zlib.brotliCompress), gzip = util.promisify(zlib.gzip);
+  for(const urlPath of Object.keys(PRECOMPRESSED_FILES)){
+    const filePath = path.join(__dirname, 'public', urlPath);
+    try {
+      const stat = await fs.promises.stat(filePath);
+      const raw = await fs.promises.readFile(filePath);
+      const br = await brotli(raw, { params: { [zlib.constants.BROTLI_PARAM_QUALITY]: 9, [zlib.constants.BROTLI_PARAM_SIZE_HINT]: raw.length } });
+      const gz = await gzip(raw, { level: 9 });
+      precompressed.set(urlPath, { size: stat.size, mtimeMs: stat.mtimeMs, etag: staticEtag(stat), lastModified: stat.mtime.toUTCString(), br: br, gzip: gz });
+    } catch(err){
+      console.warn('[précompression] ' + urlPath + ' ignoré :', err.message);
+    }
+  }
+  startupStatus.precompressed = precompressed.size + ' fichier(s) en ' + Math.round((Date.now() - t0) / 100) / 10 + ' s';
+  console.log('[précompression] ' + startupStatus.precompressed);
+}
+engineStartup.then(precompressStaticFiles).catch(function(err){ console.warn('[précompression] échec :', err.message); });
+app.use(function(req, res, next){
+  if(req.method !== 'GET' && req.method !== 'HEAD') return next();
+  const entry = Object.prototype.hasOwnProperty.call(PRECOMPRESSED_FILES, req.path) ? precompressed.get(req.path) : null;
+  if(!entry) return next();
+  // Brotli d'abord dès qu'il est accepté : les navigateurs envoient « gzip, deflate, br », et la négociation par ordre
+  // choisissait gzip (3,3 Mo au lieu de 750 Ko pour i18n.js).
+  const encoding = req.acceptsEncodings('br') === 'br' ? 'br' : (req.acceptsEncodings('gzip') === 'gzip' ? 'gzip' : null);
+  if(!encoding) return next(); // client sans compression : express.static
+  // Fichier modifié sur le disque depuis la précompression (mise à jour sans redémarrage) : version du disque.
+  fs.stat(path.join(__dirname, 'public', req.path), function(err, stat){
+    if(err || stat.size !== entry.size || stat.mtimeMs !== entry.mtimeMs){
+      precompressed.delete(req.path);
+      return next();
+    }
+    res.locals.precompressed = true;
+    res.setHeader('Cache-Control', 'no-cache, must-revalidate');
+    res.setHeader('ETag', entry.etag);
+    res.setHeader('Last-Modified', entry.lastModified);
+    res.setHeader('Vary', 'Accept-Encoding');
+    res.setHeader('Content-Type', PRECOMPRESSED_FILES[req.path]);
+    if(req.fresh) return res.status(304).end();
+    const body = entry[encoding];
+    res.setHeader('Content-Encoding', encoding);
+    res.setHeader('Content-Length', body.length);
+    if(req.method === 'HEAD') return res.end();
+    res.end(body);
+  });
 });
 
 app.use(express.static(path.join(__dirname, 'public'), {
@@ -1555,7 +1908,7 @@ app.use(express.static(path.join(__dirname, 'public'), {
 app.use(function(err, req, res, next){
   if(res.headersSent) return next(err);
   const status = err && err.status >= 400 && err.status < 500 ? err.status : 500;
-  if(status === 500) console.error('[erreur]', req.method, req.path, err && err.message);
+  if(status === 500) console.error('[erreur]', req.method, JSON.stringify(req.path), JSON.stringify(String(err && err.message)));
   res.status(status).json({ error: status === 500 ? 'internal error' : 'bad request' });
 });
 

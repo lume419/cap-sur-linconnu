@@ -3,22 +3,76 @@
 // par `npm run build-bundles`, après scripts/build-data-bundles.js : à relancer après tout ajout ou modification
 // de pays (sinon le serveur détecte un index périmé et revient à la recherche en mémoire, plus lente au
 // démarrage). Échec non bloquant pour npm install (voir package.json).
+//
+// Verrou partagé avec server.js (buildSearchIndexInChild) : cache/search-index.lock, contenu = PID du constructeur.
+// Les deux écrivent dans le même dossier temporaire (cache/search-index.tmp) : jamais deux constructions à la fois.
+// Quand le serveur lance ce script en processus enfant, il a déjà pris le verrou avec SON PID (process.ppid ici) :
+// le script travaille alors sous ce verrou sans le recréer ni le retirer (le serveur le retire à la fin de l'enfant).
+const fs = require('fs');
 const path = require('path');
-const searchIndex = require('../lib/search-index.js');
-const tripEngine = require('../lib/trip-engine.js');
 
 const DATA_DIR = path.join(__dirname, '..', 'public', 'data');
 const OUT_DIR = path.join(__dirname, '..', 'cache', 'search-index');
+const LOCK = path.join(__dirname, '..', 'cache', 'search-index.lock');
+const LOCK_MAX_AGE_MS = 30 * 60 * 1000; // même durée que server.js
 
+// PID du verrou s'il désigne une construction en cours (verrou récent, processus vivant), sinon null.
+function activeLockPid(){
+  let st, pid;
+  try {
+    st = fs.statSync(LOCK);
+    pid = parseInt(fs.readFileSync(LOCK, 'utf8'), 10);
+  } catch(e){
+    if(e.code === 'ENOENT') return null;
+    throw e;
+  }
+  if(Date.now() - st.mtimeMs >= LOCK_MAX_AGE_MS) return null;
+  if(!(pid > 0)) return null; // verrou illisible (écriture interrompue) : traité comme orphelin
+  try { process.kill(pid, 0); return pid; } catch(e){ return e.code === 'EPERM' ? pid : null; }
+}
+
+// true : verrou pris par ce processus (à retirer à la fin) ; 'parent' : verrou du serveur parent ; false : occupé.
+function acquireLock(){
+  fs.mkdirSync(path.dirname(LOCK), { recursive: true });
+  for(let attempt = 0; attempt < 2; attempt++){
+    const pid = activeLockPid();
+    if(pid === process.ppid) return 'parent';
+    if(pid) return false;
+    // Verrou orphelin (processus disparu ou verrou trop ancien) : supprimé, puis création exclusive.
+    if(fs.existsSync(LOCK)) fs.rmSync(LOCK, { force: true });
+    try {
+      fs.writeFileSync(LOCK, String(process.pid), { flag: 'wx' });
+      return true;
+    } catch(e){
+      if(e.code !== 'EEXIST') throw e; // un autre processus l'a créé entre-temps : on réexamine une fois
+    }
+  }
+  return false;
+}
+
+let lock = false;
 try {
-  const t0 = Date.now();
-  let lines = 0;
-  const res = searchIndex.build(DATA_DIR, OUT_DIR, tripEngine.internals, function(){ lines++; });
-  const mem = process.memoryUsage();
-  console.log('[build-search-index] ' + res.places + ' lieux, ' + res.entries + ' entrées (' + lines + ' fichiers de pays) en '
-    + Math.round((Date.now() - t0) / 1000) + ' s — mémoire max ' + Math.round(mem.rss / 1048576) + ' Mo.');
+  lock = acquireLock();
+  if(!lock){
+    console.log('[build-search-index] construction déjà en cours dans un autre processus (verrou ' + LOCK + ') : rien à faire.');
+  } else {
+    // Chargés seulement ici : inutile de charger le moteur pour ressortir aussitôt.
+    const searchIndex = require('../lib/search-index.js');
+    const tripEngine = require('../lib/trip-engine.js');
+    const t0 = Date.now();
+    let lines = 0;
+    const res = searchIndex.build(DATA_DIR, OUT_DIR, tripEngine.internals, function(){ lines++; });
+    const mem = process.memoryUsage();
+    console.log('[build-search-index] ' + res.places + ' lieux, ' + res.entries + ' entrées (' + lines + ' fichiers de pays) en '
+      + Math.round((Date.now() - t0) / 1000) + ' s — mémoire (RSS) en fin de construction ' + Math.round(mem.rss / 1048576) + ' Mo.');
+  }
 } catch(err){
   console.error('[build-search-index] ÉCHEC : ' + err.message);
   console.error('[build-search-index] Le serveur utilisera la recherche en mémoire (disponible après chargement du moteur).');
   process.exitCode = 1;
+} finally {
+  // Retiré seulement s'il est toujours le nôtre.
+  if(lock === true){
+    try { if(fs.readFileSync(LOCK, 'utf8') === String(process.pid)) fs.unlinkSync(LOCK); } catch(e){ /* déjà retiré */ }
+  }
 }

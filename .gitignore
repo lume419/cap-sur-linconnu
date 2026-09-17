@@ -25,23 +25,22 @@ scripts/ge-canonical-by-geonameid.json
 # postaux algériens. Sources brutes régénérables en refaisant la collecte documentée dans le script.
 scripts/tn-postal-raw.json
 scripts/admin1CodesASCII.txt
-# Bundles précompilés (texte + gzip + brotli) produits par scripts/build-data-bundles.js — voir
-# son commentaire d'en-tête et server.js ("Bundles /data/") : régénérés automatiquement à chaque
-# déploiement (postinstall dans package.json), jamais commités, comme les dumps GeoNames ci-dessus.
-# Index de recherche de ville précalculé (scripts/build-search-index.js, voir lib/search-index.js) : ~560 Mo,
-# régénéré à chaque déploiement par npm install, jamais commité.
+# Bundles texte produits par scripts/build-data-bundles.js (lus par server.js pour initialiser le moteur) et leur
+# fichier temporaire d'écriture : régénérés à chaque déploiement (postinstall dans package.json), jamais commités.
+# Les .gz/.br ne sont plus produits (effacés par le script) ; motifs gardés pour les copies de travail anciennes.
+# Index de recherche de ville précalculé (scripts/build-search-index.js, voir lib/search-index.js), son dossier
+# temporaire et son verrou : ~900 Mo, régénéré à chaque déploiement par npm install ou par le serveur, jamais commité.
 cache/
 public/data/communes-bundle.txt
-public/data/communes-bundle.txt.gz
-public/data/communes-bundle.txt.br
 public/data/aliases-bundle.txt
-public/data/aliases-bundle.txt.gz
-public/data/aliases-bundle.txt.br
+public/data/*-bundle.txt.tmp
+public/data/*-bundle.txt.gz
+public/data/*-bundle.txt.br
 # Configuration locale de l'outillage de développement (lancement du serveur de prévisualisation par
 # `node server.js` sur le port 3000) : dépend de la machine, ne décrit rien que `npm start` ne dise
 # déjà, jamais commitée. Seul ce fichier est exclu, pas tout `.claude/` — un éventuel réglage de
 # projet ajouté plus tard doit rester versionnable sans avoir à défaire cette ligne.
 .claude/launch.json
 
-# Extractions OpenStreetMap intermédiaires (bornes de recharge par pays) — seul data/charging-stations.txt est commité
+# Extractions Open Charge Map intermédiaires (bornes de recharge par pays, scripts/fetch-charging-stations.js) — seul data/charging-stations.txt est commité
 scripts/osm/

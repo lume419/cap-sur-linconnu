@@ -260,7 +260,8 @@
   function getPreferredCurrency(){
     try {
       var v = localStorage.getItem(CURRENCY_STORAGE_KEY);
-      return v && CURRENCY_SYMBOL[v] ? v : null;
+      // hasOwnProperty : une valeur stockée comme « constructor » ne doit pas passer pour une devise.
+      return v && Object.prototype.hasOwnProperty.call(CURRENCY_SYMBOL, v) ? v : null;
     } catch(e){ return null; } // stockage indisponible (navigation privée stricte...) : reste en auto
   }
   function setPreferredCurrency(code){
@@ -348,15 +349,35 @@
     currencyButtonEl.querySelector('.currency-toggle-code').textContent =
       pref ? pref + ' ' + (CURRENCY_GLYPH[pref] || '') : 'AUTO';
   }
-  function closeCurrencyPanel(){
+  // returnFocus : rend le focus au bouton (fermeture au clavier ou après un choix), pas lors d'un clic ailleurs.
+  function closeCurrencyPanel(returnFocus){
+    var wasOpen = currencyPanelEl && currencyPanelEl.classList.contains('show');
     if(currencyPanelEl) currencyPanelEl.classList.remove('show');
     if(currencyButtonEl) currencyButtonEl.setAttribute('aria-expanded', 'false');
+    if(wasOpen && returnFocus === true && currencyButtonEl) currencyButtonEl.focus();
+  }
+  function currencyOptions(){ return currencyListEl ? Array.prototype.slice.call(currencyListEl.querySelectorAll('.currency-option')) : []; }
+  function focusCurrencyOption(idx){
+    var opts = currencyOptions();
+    if(opts.length) opts[Math.max(0, Math.min(opts.length - 1, idx))].focus();
   }
   function openCurrencyPanel(){
     if(!currencyPanelEl) return;
     currencyPanelEl.classList.add('show');
     currencyButtonEl.setAttribute('aria-expanded', 'true');
     renderCurrencyList();
+    // Focus sur l'option active (ou la première) : la liste se parcourt ensuite aux flèches.
+    var opts = currencyOptions();
+    var activeIdx = opts.findIndex(function(o){ return o.classList.contains('active'); });
+    focusCurrencyOption(activeIdx < 0 ? 0 : activeIdx);
+  }
+  function chooseCurrency(value){
+    setPreferredCurrency(value);
+    renderCurrencyButton();
+    applyCurrencyPanelTexts();
+    updateBudgetHint();
+    rerenderCurrentTrip();
+    closeCurrencyPanel(true);
   }
   function renderCurrencyList(){
     var pref = getPreferredCurrency();
@@ -366,14 +387,12 @@
       li.className = 'currency-option' + (value === pref ? ' active' : '');
       li.setAttribute('role', 'option');
       li.setAttribute('aria-selected', value === pref ? 'true' : 'false');
+      li.setAttribute('tabindex', '-1');
       li.textContent = label;
-      li.addEventListener('mousedown', function(e){
-        e.preventDefault();
-        setPreferredCurrency(value);
-        renderCurrencyButton();
-        updateBudgetHint();
-        rerenderCurrentTrip();
-        closeCurrencyPanel();
+      li.addEventListener('mousedown', function(e){ e.preventDefault(); });
+      li.addEventListener('click', function(){ chooseCurrency(value); });
+      li.addEventListener('keydown', function(e){
+        if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); chooseCurrency(value); }
       });
       currencyListEl.appendChild(li);
     }
@@ -408,7 +427,9 @@
 
     currencyListEl = document.createElement('ul');
     currencyListEl.className = 'currency-option-list';
+    currencyListEl.id = 'currency-option-list';
     currencyListEl.setAttribute('role', 'listbox');
+    currencyButtonEl.setAttribute('aria-controls', currencyListEl.id);
 
     currencyPanelEl.appendChild(currencyListEl);
     currencySwitcherRoot.appendChild(currencyButtonEl);
@@ -421,7 +442,24 @@
       if(!currencySwitcherRoot.contains(e.target)) closeCurrencyPanel();
     });
     document.addEventListener('keydown', function(e){
-      if(e.key === 'Escape' && currencyPanelEl.classList.contains('show')){ closeCurrencyPanel(); currencyButtonEl.focus(); }
+      if(e.key === 'Escape' && currencyPanelEl.classList.contains('show')){ closeCurrencyPanel(true); }
+    });
+    // Flèches haut/bas, Début/Fin dans la liste ; flèche bas sur le bouton fermé : ouvre la liste.
+    currencyListEl.addEventListener('keydown', function(e){
+      var opts = currencyOptions();
+      var idx = opts.indexOf(document.activeElement);
+      if(idx < 0) return;
+      if(e.key === 'ArrowDown'){ e.preventDefault(); focusCurrencyOption(idx + 1); }
+      else if(e.key === 'ArrowUp'){ e.preventDefault(); focusCurrencyOption(idx - 1); }
+      else if(e.key === 'Home'){ e.preventDefault(); focusCurrencyOption(0); }
+      else if(e.key === 'End'){ e.preventDefault(); focusCurrencyOption(opts.length - 1); }
+    });
+    currencyButtonEl.addEventListener('keydown', function(e){
+      if(e.key === 'ArrowDown' && !currencyPanelEl.classList.contains('show')){ e.preventDefault(); openCurrencyPanel(); }
+    });
+    // Tabulation hors du panneau : il se referme, comme au clic ailleurs.
+    currencyPanelEl.addEventListener('focusout', function(e){
+      if(e.relatedTarget && !currencySwitcherRoot.contains(e.relatedTarget)) closeCurrencyPanel();
     });
 
     renderCurrencyButton();
@@ -486,6 +524,7 @@
   // on y affiche l'image en résolution d'origine renvoyée par Wikipédia (imageFull), pas la
   // vignette utilisée dans les tuiles.
   var lightboxEl = null;
+  var lightboxOpener = null; // élément qui avait le focus à l'ouverture, qui le retrouve à la fermeture
   function ensureLightbox(){
     if(lightboxEl) return lightboxEl;
     lightboxEl = document.createElement('div');
@@ -493,21 +532,38 @@
     lightboxEl.setAttribute('role', 'dialog');
     lightboxEl.setAttribute('aria-modal', 'true');
     lightboxEl.innerHTML =
-      '<button type="button" class="lightbox-close" aria-label="'+t('photo.closeAria')+'">'+icon('close')+'</button>'+
-      '<img class="lightbox-img" alt="">'+
+      '<button type="button" class="lightbox-close">'+icon('close')+'</button>'+
+      '<img class="lightbox-img" alt="" referrerpolicy="no-referrer">'+
       '<div class="lightbox-caption"></div>';
     document.body.appendChild(lightboxEl);
     lightboxEl.addEventListener('click', function(e){ if(e.target === lightboxEl) closeLightbox(); });
     lightboxEl.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
     document.addEventListener('keydown', function(e){
-      if(e.key === 'Escape' && lightboxEl.classList.contains('show')) closeLightbox();
+      if(!lightboxEl.classList.contains('show')) return;
+      if(e.key === 'Escape'){ closeLightbox(); return; }
+      // Focus maintenu dans la fenêtre (bouton de fermeture, lien Wikipédia éventuel).
+      if(e.key === 'Tab'){
+        var focusables = Array.prototype.slice.call(lightboxEl.querySelectorAll('button, a[href]'));
+        if(!focusables.length) return;
+        var first = focusables[0], last = focusables[focusables.length - 1];
+        if(e.shiftKey && (document.activeElement === first || !lightboxEl.contains(document.activeElement))){ e.preventDefault(); last.focus(); }
+        else if(!e.shiftKey && (document.activeElement === last || !lightboxEl.contains(document.activeElement))){ e.preventDefault(); first.focus(); }
+      }
     });
+    applyLightboxTexts();
     return lightboxEl;
+  }
+  // Libellé accessible du bouton de fermeture, retraduit au changement de langue (voir l'écouteur 'i18n:langchange').
+  function applyLightboxTexts(){
+    if(!lightboxEl) return;
+    lightboxEl.querySelector('.lightbox-close').setAttribute('aria-label', t('photo.closeAria'));
   }
   // SÉCURITÉ (audit de septembre 2026) : tout texte venu des données ou de services tiers (noms OpenStreetMap, titres
   // Wikipédia, noms de lieux GeoNames…) est échappé avant insertion en HTML, et seules les URL http(s) sont acceptées
   // dans les attributs href/src — un nom OSM du type « <img src=x onerror=…> » ne doit jamais s'exécuter.
   function safeUrl(u){ return /^https?:\/\//i.test(String(u || '')) ? escHtml(u) : '#'; }
+  // Même contrôle pour une affectation directe de propriété (element.href = …), sans échappement HTML.
+  function safeHref(u){ return /^https?:\/\//i.test(String(u || '')) ? String(u) : '#'; }
   function openLightbox(imgUrl, caption, wikiUrl){
     if(!imgUrl) return;
     var el = ensureLightbox();
@@ -517,14 +573,22 @@
     var capEl = el.querySelector('.lightbox-caption');
     capEl.innerHTML = (caption ? '<span>'+escHtml(caption)+'</span>' : '') +
       (wikiUrl ? '<a href="'+safeUrl(wikiUrl)+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>' : '');
+    // Nom du lieu comme intitulé de la fenêtre (nom propre, rien à traduire).
+    if(caption) el.setAttribute('aria-label', caption); else el.removeAttribute('aria-label');
+    applyLightboxTexts();
+    if(!el.classList.contains('show')) lightboxOpener = document.activeElement;
     el.classList.add('show');
     document.body.classList.add('lightbox-open');
+    el.querySelector('.lightbox-close').focus();
   }
   function closeLightbox(){
-    if(!lightboxEl) return;
+    if(!lightboxEl || !lightboxEl.classList.contains('show')) return;
     lightboxEl.classList.remove('show');
     document.body.classList.remove('lightbox-open');
-    lightboxEl.querySelector('.lightbox-img').src = '';
+    lightboxEl.querySelector('.lightbox-img').removeAttribute('src');
+    // Focus rendu à l'élément d'origine s'il est toujours affiché (un nouveau rendu a pu le remplacer).
+    if(lightboxOpener && lightboxOpener.isConnected && typeof lightboxOpener.focus === 'function') lightboxOpener.focus();
+    lightboxOpener = null;
   }
 
   /* ---------- REFERENCE DATA ---------- */
@@ -950,11 +1014,14 @@
   var rouletteTimer = null;
   // Attente maximale du préchargement des activités et photos après réception du tirage (roulette comprise).
   var PRELOAD_MAX_WAIT_MS = 10000;
+  // Délai maximal d'attente de /api/generate-trip côté navigateur.
+  var DRAW_TIMEOUT_MS = 30000;
   var currentDrawId = 0;
-  var currentTripLabel = ''; // "Ville — X jours", pour nommer le PDF exporté (voir export-pdf-btn)
+  var currentTripLabel = ''; // « Départ → première étape · dates ISO », pour nommer le PDF exporté (voir export-pdf-btn)
+  // Voyage AFFICHÉ : {legs, city, budgetKey, transportKey, cityCoord, firstStop, days, notices, departureTension,
+  // startIso, endIso} — seul état relu par les re-rendus (langue, devise) et l'export PDF.
   var currentTripData = null;
-  var lastTripNotices = [];
-  var portalsShownFor = {}; // étape -> liste d'activités où le lien « Plus de randonnées » est affiché // avertissements de tout le trajet renvoyés par le serveur (van, électrique) // {legs, city, budgetKey, transportKey} du dernier itinéraire affiché
+  var portalsShownFor = {}; // étape -> liste d'activités où le lien « Plus de randonnées » est affiché
 
   var els = {
     form: document.getElementById('form'),
@@ -1151,12 +1218,25 @@
   }
 
   /* ---------- CITY VALIDATION ---------- */
+  // Messages d'erreur des champs : une fonction qui produit le texte dans la langue COURANTE, gardée sur l'élément
+  // pour être rappelée au changement de langue (voir l'écouteur 'i18n:langchange' ; sans ça, #city-error retombait
+  // sur son texte data-i18n « Merci d'indiquer une ville de départ » quel que soit le vrai message affiché).
+  function msg(key, vars){ return function(){ return t(key, typeof vars === 'function' ? vars() : vars); }; }
+  function setErrorText(el, message){
+    el.__message = typeof message === 'function' ? message : null;
+    el.textContent = el.__message ? el.__message() : message;
+  }
+  function retranslateErrors(){
+    [els.cityError, els.minDistanceError, els.daysPerCityError].forEach(function(el){
+      if(el && el.__message && el.classList.contains('show')) el.textContent = el.__message();
+    });
+  }
   function clearCityError(){
     els.cityField.classList.remove('invalid');
     els.cityError.classList.remove('show');
   }
   function showCityError(message){
-    els.cityError.textContent = message;
+    setErrorText(els.cityError, message);
     els.cityField.classList.add('invalid');
     els.cityError.classList.add('show');
     els.cityField.classList.remove('shake');
@@ -1171,7 +1251,7 @@
     els.minDistanceError.classList.remove('show');
   }
   function showMinDistanceError(message){
-    els.minDistanceError.textContent = message;
+    setErrorText(els.minDistanceError, message);
     els.minDistanceField.classList.add('invalid');
     els.minDistanceError.classList.add('show');
     els.minDistanceField.classList.remove('shake');
@@ -1186,7 +1266,7 @@
     els.daysPerCityError.classList.remove('show');
   }
   function showDaysPerCityError(message){
-    els.daysPerCityError.textContent = message;
+    setErrorText(els.daysPerCityError, message);
     els.daysPerCityField.classList.add('invalid');
     els.daysPerCityError.classList.add('show');
     els.daysPerCityField.classList.remove('shake');
@@ -1221,6 +1301,7 @@
     els.citySuggest.innerHTML = '';
     currentSuggestions = results;
     activeSuggestIndex = -1;
+    els.city.removeAttribute('aria-activedescendant');
     if(results.length === 0){
       els.citySuggest.classList.remove('show');
       els.city.setAttribute('aria-expanded','false');
@@ -1268,6 +1349,9 @@
     els.city.setAttribute('aria-expanded','true');
   }
   function selectCommune(r){
+    // Recherche en attente ou relance programmée invalidée : la liste ne doit pas se rouvrir après le choix.
+    ++searchRequestSeq;
+    clearTimeout(searchDebounceTimer);
     selectedCity = { name:r.name, cp:r.cp, allCps:r.allCps, lat:r.lat, lon:r.lon, dept:r.dept, country:r.country };
     els.city.value = r.name + ' (' + r.cp + ')';
     hideSuggestions();
@@ -1280,6 +1364,7 @@
     els.citySuggest.innerHTML = '';
     currentSuggestions = [];
     activeSuggestIndex = -1;
+    els.city.removeAttribute('aria-activedescendant');
     var li = document.createElement('li');
     li.className = 'suggest-item suggest-message';
     li.setAttribute('role', 'option');
@@ -1291,11 +1376,15 @@
   }
 
   function hideSuggestions(){
+    // Comme selectCommune : une réponse ou une relance arrivant après la fermeture ne rouvre pas la liste.
+    ++searchRequestSeq;
+    clearTimeout(searchDebounceTimer);
     els.citySuggest.classList.remove('show');
     els.citySuggest.innerHTML = '';
     currentSuggestions = [];
     activeSuggestIndex = -1;
     els.city.setAttribute('aria-expanded','false');
+    els.city.removeAttribute('aria-activedescendant');
   }
   function updateActiveSuggest(){
     var items = els.citySuggest.querySelectorAll('.suggest-item');
@@ -1305,6 +1394,10 @@
       it.setAttribute('aria-selected', active ? 'true':'false');
       if(active) it.scrollIntoView({block:'nearest'});
     });
+    // Option active annoncée par les lecteurs d'écran alors que le focus reste dans le champ.
+    var activeItem = activeSuggestIndex >= 0 ? items[activeSuggestIndex] : null;
+    if(activeItem && activeItem.id) els.city.setAttribute('aria-activedescendant', activeItem.id);
+    else els.city.removeAttribute('aria-activedescendant');
   }
 
   // Recherche via /api/search-city (voir README, "Recherche et tirage aléatoire côté serveur") —
@@ -1329,16 +1422,27 @@
       fetch('/api/search-city?q=' + encodeURIComponent(query) + '&limit=20&country=' + encodeURIComponent(window.I18N.country()) +
         '&lang=' + encodeURIComponent(window.I18N.current()))
         .then(function(r){
-          // 503 : le serveur vient de démarrer et charge encore ses ~4 millions de lieux (jusqu'à une minute
-          // ou plus). On le dit, et on relance la même recherche toutes les 2 s tant que la saisie n'a pas changé.
-          if(r.status === 503) return { loading: true };
+          // 503 : soit le serveur vient de démarrer et charge encore ses ~4 millions de lieux (jusqu'à une minute
+          // ou plus), soit il est surchargé ({error:'busy'}). 429 : trop de recherches en une minute.
+          if(r.status === 429) return { tooMany: true };
+          if(r.status === 503){
+            return r.json().catch(function(){ return {}; }).then(function(body){
+              return body && body.error === 'busy' ? { busy: true } : { loading: true };
+            });
+          }
           return r.ok ? r.json() : { results: [] };
         })
         .then(function(data){
-          if(mySeq !== searchRequestSeq) return; // une saisie plus récente a déjà pris le relais
-          if(data.loading){
-            renderSuggestMessage(t('form.city.loadingPlaceholder'));
-            searchDebounceTimer = setTimeout(runSearch, 2000);
+          if(mySeq !== searchRequestSeq) return; // une saisie plus récente (ou la fermeture de la liste) a pris le relais
+          if(data.tooMany){ renderSuggestMessage(t('error.tooManyRequests')); return; }
+          if(data.loading || data.busy){
+            renderSuggestMessage(t(data.busy ? 'error.serverBusy' : 'form.city.loadingPlaceholder'));
+            // Relance de la même recherche (2 s au démarrage, 5 s si surchargé) seulement si le champ a toujours le
+            // focus et que la saisie n'a pas changé — sinon la liste se rouvrait toute seule après la perte du focus.
+            searchDebounceTimer = setTimeout(function(){
+              if(mySeq !== searchRequestSeq || document.activeElement !== els.city || els.city.value !== query) return;
+              runSearch();
+            }, data.busy ? 5000 : 2000);
             return;
           }
           renderSuggestions(data.results || []);
@@ -1526,13 +1630,17 @@
   }
 
   /* ---------- ROULETTE / REVEAL ---------- */
-  function runReveal(firstStop, spinPool, onDone){
+  // Texte de l'indice affiché sous la roulette une fois le tirage révélé (clé i18n) : rejoué au changement de langue,
+  // sans quoi la retraduction statique remettait « La route va parler. » (data-i18n de #roulette-clue).
+  var revealClueKey = null;
+  function runReveal(firstStop, spinPool, drawId, onDone){
     els.stamp.classList.remove('show');
     els.revealReal.classList.remove('show');
     els.compass.classList.remove('spin');
     void els.compass.offsetWidth; // restart animation
     els.compass.classList.add('spin');
-    els.rouletteLabel.textContent = t('reveal.drawing');
+    setRevealLabel('reveal.drawing');
+    announceReveal('');
 
     var names = shuffle(spinPool.filter(function(c){return c.norm!==firstStop.norm;})).slice(0,6).map(function(c){return c.name;});
     if(names.length===0) names.push(firstStop.name);
@@ -1541,27 +1649,43 @@
     var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if(reduced){
       els.rouletteName.textContent = firstStop.name;
-      els.rouletteClue.textContent = t('reveal.clueReduced');
-      finishReveal(firstStop, onDone);
+      setRevealClue('reveal.clueReduced');
+      finishReveal(firstStop, drawId, onDone);
       return;
     }
 
     var i = 0, delay = 90, step = 0;
     var totalSteps = names.length + 10;
     function tick(){
+      if(drawId !== currentDrawId) return; // un tirage plus récent a été lancé : cette roulette s'arrête
       els.rouletteName.textContent = names[i % names.length];
-      els.rouletteClue.textContent = t('reveal.clueSpinning');
+      setRevealClue('reveal.clueSpinning');
       i++; step++;
       delay = delay * 1.16;
       if(step < totalSteps){
         rouletteTimer = setTimeout(tick, delay);
       } else {
         els.rouletteName.textContent = firstStop.name;
-        els.rouletteClue.textContent = t('reveal.clueFinal');
-        finishReveal(firstStop, onDone);
+        setRevealClue('reveal.clueFinal');
+        finishReveal(firstStop, drawId, onDone);
       }
     }
     tick();
+  }
+  var revealLabelKey = null;
+  function setRevealLabel(key){ revealLabelKey = key; els.rouletteLabel.textContent = t(key); }
+  function setRevealClue(key){ revealClueKey = key; els.rouletteClue.textContent = t(key); }
+  // Seul le résultat final est annoncé aux lecteurs d'écran (région #reveal-announce, aria-live) : #reveal n'est plus
+  // une région live, qui lisait chaque nom de la roulette.
+  function announceReveal(text){
+    var live = document.getElementById('reveal-announce');
+    if(live) live.textContent = text;
+  }
+  // Libellés de la roulette dans la langue courante (changement de langue : la retraduction statique remettait les
+  // textes d'attente data-i18n).
+  function retranslateReveal(){
+    if(revealLabelKey) els.rouletteLabel.textContent = t(revealLabelKey);
+    if(revealClueKey) els.rouletteClue.textContent = t(revealClueKey);
   }
   // Rejoue juste le TEXTE des libellés "Destination confirmée"/nombre d'habitants/de POI posés par
   // finishReveal (jamais leur classe "show", déjà acquise, ni le délai de 250 ms qui n'a de sens que
@@ -1571,7 +1695,7 @@
   // nouvelle — même firstStop que celui gardé dans currentTripData (voir plus bas), reconstruit à
   // l'identique.
   function updateRevealTexts(firstStop){
-    els.rouletteLabel.textContent = t('reveal.confirmed');
+    setRevealLabel('reveal.confirmed');
     els.stamp.textContent = t('reveal.stamp');
     // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France).
     var bits = [firstStop.name + (firstStop.cp ? ' (' + formatCpBadge(firstStop) + ')' : '')];
@@ -1581,12 +1705,14 @@
     }
     els.revealRegion.textContent = bits.join(' · ');
   }
-  function finishReveal(firstStop, onDone){
-    els.rouletteLabel.textContent = t('reveal.confirmed');
+  function finishReveal(firstStop, drawId, onDone){
+    setRevealLabel('reveal.confirmed');
     setTimeout(function(){
+      if(drawId !== currentDrawId) return;
       els.stamp.classList.add('show');
       updateRevealTexts(firstStop); // re-sets rouletteLabel too, harmless (same value already set above)
       els.revealReal.classList.add('show');
+      announceReveal(t('reveal.confirmed') + ' — ' + els.revealRegion.textContent);
       if(onDone) onDone();
     }, 250);
   }
@@ -1608,7 +1734,24 @@
   // Liens de secours (toujours utiles pendant le chargement, ou si aucune photo n'est trouvée) :
   // une recherche Wikipédia et une recherche d'images, en un clic, sans rien stocker.
   // Sous-domaine Wikipédia de la langue du visiteur : « zh-Hant », « nrf-je », « pap-AW »… ne sont pas des sous-domaines.
-  function wikiLang(){ var code = String(VISITOR_LANG || 'fr').split('-')[0].toLowerCase(); return /^[a-z]{2,3}$/.test(code) ? code : 'fr'; }
+  // Liste blanche : langues du site qui ont une édition de Wikipédia à code de 2-3 lettres (seul format accepté par
+  // /api/photo). Jèrriais/guernésiais -> Wikipédia normande (nrm), filipino -> tl. Les autres (istro-roumain,
+  // monténégrin, créole seychellois, touroyo, maya…, ou éditions à code composé comme fiu-vro/bat-smg) retombent sur
+  // le français pour les langues de territoires francophones, sur l'anglais ailleurs.
+  var WIKI_CODES = {};
+  ('fr en es pt nl de lb it rm nds hsb frr sc fur mt lij csb rue ca eu gl oc br co mwl ga gv cy gd kw sco cs pl sk hu ' +
+   'sl hr bs sr da no sv fi sq mk ro el bg lv lt et ltg is fo gag be ru uk crh tr ka ab hy az ar ku ady kab ha so am ' +
+   'om ti sg sw rw mg af zu xh nso st tn ss ve ts sn tt ba sah ce myv mdf udm fa ckb kk ky tg uz tk kaa mn zh hak za ko ' +
+   'ja hi mr ne bn ta ml ur dv si dz my th lo km vi tet id ms jv mi sm ty haw ht pap qu gn ch kl ay').split(' ')
+    .forEach(function(c){ WIKI_CODES[c] = true; });
+  var WIKI_ALIAS = { 'nrf-je': 'nrm', 'nrf-gg': 'nrm', fil: 'tl', 'zh-Hant': 'zh', 'qu-EC': 'qu', 'pap-AW': 'pap', 'pap-CW': 'pap' };
+  var WIKI_FALLBACK_FR = { crs: true, mrq: true, zgh: true };
+  function wikiLang(){
+    var code = String(VISITOR_LANG || 'fr');
+    if(WIKI_ALIAS[code]) return WIKI_ALIAS[code];
+    if(WIKI_CODES[code]) return code;
+    return WIKI_FALLBACK_FR[code] ? 'fr' : 'en';
+  }
   function buildPhotoLinks(placeName, country){
     var countryName = (country && COUNTRIES[country] && COUNTRIES[country].name) || 'France';
     var q = encodeURIComponent(placeName + ' ' + countryName);
@@ -1873,7 +2016,7 @@
     if(!titleEl || titleEl.tagName === 'A') return;
     var link = document.createElement('a');
     link.className = 'activity-card-title';
-    link.href = /^https?:\/\//i.test(String(wikiUrl)) ? wikiUrl : '#';
+    link.href = safeHref(wikiUrl);
     link.target = '_blank';
     link.rel = 'noopener';
     link.textContent = titleEl.textContent;
@@ -1895,7 +2038,27 @@
       cardEl.classList.remove('has-image');
       visual.innerHTML = icon('spark');
     });
-    visual.addEventListener('click', function(){ openLightbox(fullUrl, label, wikiUrl); });
+    // Agrandissement activable au clavier : la vignette se comporte comme un bouton (Entrée/Espace).
+    visual.setAttribute('role', 'button');
+    visual.setAttribute('tabindex', '0');
+    visual.setAttribute('aria-label', t('photo.enlargeAria', {name: label}));
+    // Écouteurs posés une seule fois par vignette (cette fonction peut être rappelée sur la même carte) : ils lisent
+    // la dernière image appliquée.
+    visual.__lightbox = { fullUrl: fullUrl, label: label, wikiUrl: wikiUrl };
+    if(!visual.__lightboxBound){
+      visual.__lightboxBound = true;
+      var openFromVisual = function(){
+        var d = visual.__lightbox;
+        if(d && cardEl.classList.contains('has-image')) openLightbox(d.fullUrl, d.label, d.wikiUrl);
+      };
+      visual.addEventListener('click', openFromVisual);
+      visual.addEventListener('keydown', function(e){
+        if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openFromVisual(); }
+      });
+    }
+    im.addEventListener('error', function(){
+      visual.removeAttribute('role'); visual.removeAttribute('tabindex'); visual.removeAttribute('aria-label');
+    });
     applyActivityCardWikiLink(cardEl, wikiUrl);
   }
   // Libellé/type affichés d'une option d'activité, résolus à la langue COURANTE — jamais mis en
@@ -1953,7 +2116,7 @@
           var row = document.createElement('div');
           row.className = 'hike-portals';
           row.innerHTML = '<span>' + t('hike.morePortals') + '</span> ' + data.portals.map(function(p){
-            return '<a href="' + escHtml(p.url) + '" target="_blank" rel="noopener">' + escHtml(p.name) + ' ↗</a>';
+            return '<a href="' + safeUrl(p.url) + '" target="_blank" rel="noopener">' + escHtml(p.name) + ' ↗</a>';
           }).join(' · ');
           actList.appendChild(row);
         });
@@ -1971,7 +2134,7 @@
       if(opt.hikeUrl){
         var foundCard = document.createElement('a');
         foundCard.className = 'activity-card has-hike';
-        foundCard.href = opt.hikeUrl;
+        foundCard.href = safeHref(opt.hikeUrl);
         foundCard.target = '_blank';
         foundCard.rel = 'noopener';
         foundCard.innerHTML = hikeCardHtml({ name: opt.hikeName, url: opt.hikeUrl, distance: opt.hikeDistance, duration: opt.hikeDuration, difficulty: opt.hikeDifficulty, source: opt.hikeSource });
@@ -2045,7 +2208,7 @@
             if(!cardEl.parentNode) return;
             var newCard = document.createElement('a');
             newCard.className = 'activity-card has-hike';
-            newCard.href = hike.url;
+            newCard.href = safeHref(hike.url);
             newCard.target = '_blank';
             newCard.rel = 'noopener';
             newCard.innerHTML = hikeCardHtml(hike);
@@ -2061,11 +2224,16 @@
   // déjà contiguës dans `legs`, donc regrouper des voisins qui partagent le même `stop` (et ne sont
   // jamais un retour) suffit, pas besoin de comparer autre chose. startDay/endDay (1-based, jour
   // global du voyage) servent au badge et au titre combiné (voir formatDayRangeLabel).
+  // Identité d'une étape : nom ET coordonnées — deux communes homonymes voisines (ex. deux « Thoiry ») tirées l'une
+  // après l'autre restent deux séjours distincts.
+  function stopKey(leg){
+    return (leg.stop || '') + '|' + (leg.lat != null ? Number(leg.lat).toFixed(4) : '') + ',' + (leg.lon != null ? Number(leg.lon).toFixed(4) : '');
+  }
   function groupLegsByStay(legs){
     var groups = [];
     legs.forEach(function(leg, idx){
       var prev = groups[groups.length - 1];
-      if(!leg.isReturn && prev && !prev.legs[0].isReturn && prev.legs[0].stop === leg.stop){
+      if(!leg.isReturn && prev && !prev.legs[0].isReturn && stopKey(prev.legs[0]) === stopKey(leg)){
         prev.legs.push(leg);
         prev.endDay = idx + 1;
       } else {
@@ -2095,9 +2263,6 @@
   }
 
   /* ---------- RENDER: DAYS ---------- */
-  // Niveau de tension du point de départ du dernier tirage (voir departureTension dans
-  // /api/generate-trip) — conservé ici pour que renderDays le réaffiche au changement de langue.
-  var lastDepartureTension = null;
   // Avertissement « zone à tension » (France Diplomatie) : rouge = formellement déconseillé, orange =
   // déconseillé sauf raison impérative. Le libellé est traduit ; le lien mène à la fiche officielle.
   function tensionRowHtml(tension, textKey){
@@ -2115,39 +2280,80 @@
       try { name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || name; } catch(e){}
     }
     var txt = t(r.kind + '.' + r.type, { name: escHtml(name), cc: r.minCc || '' });
-    var src = r.source ? ' <a href="' + escHtml(r.source) + '" target="_blank" rel="noopener">' + t('restriction.source') + '</a>' : '';
+    var src = r.source ? ' <a href="' + safeUrl(r.source) + '" target="_blank" rel="noopener">' + t('restriction.source') + '</a>' : '';
     return icon('warn') + '<span>' + txt + src + '</span>';
   }
   // Liens d'hébergement : Airbnb et Booking.com quand ils sont disponibles dans le pays, plateformes locales réelles là où
   // l'un d'eux est absent ou faible (voir LODGING_RULES) ; aucun lien connu : invitation à réserver en direct.
-  function lodgingLinksHtml(links){
+  // Le serveur fige la devise dans les liens Airbnb/Booking au moment du tirage : on la recalcule au rendu (devise
+  // choisie dans le sélecteur, sinon celle du pays de l'étape), avec le plafond de prix correspondant. Seuls les
+  // paramètres déjà présents dans l'URL sont modifiés (currency/price_max pour Airbnb ; selected_currency et le filtre
+  // de prix nflt=price=DEVISE-0-MAX-1 pour Booking).
+  function lodgingUrlWithCurrency(url, country, budgetKey){
+    var u;
+    try { u = new URL(url); } catch(e){ return url; }
+    if(!/^https?:$/.test(u.protocol)) return url;
+    var currency = countryCurrency(country);
+    var caps = BUDGET_PRICE_MAX[currency];
+    var priceMax = caps && budgetKey ? caps[budgetKey] : null;
+    var p = u.searchParams, changed = false;
+    if(/(^|\.)airbnb\./i.test(u.hostname)){
+      if(p.has('currency')){ p.set('currency', currency); changed = true; }
+      if(priceMax != null && p.has('price_max')){ p.set('price_max', String(priceMax)); changed = true; }
+    } else if(/(^|\.)booking\.com$/i.test(u.hostname)){
+      if(p.has('selected_currency')){ p.set('selected_currency', currency); changed = true; }
+      var nflt = p.get('nflt');
+      if(nflt && priceMax != null && /price=[A-Z]{3}-\d+-\d+-1/.test(nflt)){
+        p.set('nflt', nflt.replace(/price=[A-Z]{3}-(\d+)-\d+-1/, 'price=' + currency + '-$1-' + priceMax + '-1'));
+        changed = true;
+      }
+    }
+    return changed ? u.toString() : url;
+  }
+  function lodgingLinksHtml(links, country, budgetKey){
     var html = '';
-    if(links.airbnb) html += '<a href="'+escHtml(links.airbnb)+'" target="_blank" rel="noopener" class="lodging-link">'+t('lodging.airbnb')+'</a>';
-    if(links.booking) html += '<a href="'+escHtml(links.booking)+'" target="_blank" rel="noopener" class="lodging-link">'+t('lodging.booking')+'</a>';
+    if(links.airbnb) html += '<a href="'+safeUrl(lodgingUrlWithCurrency(links.airbnb, country, budgetKey))+'" target="_blank" rel="noopener" class="lodging-link">'+t('lodging.airbnb')+'</a>';
+    if(links.booking) html += '<a href="'+safeUrl(lodgingUrlWithCurrency(links.booking, country, budgetKey))+'" target="_blank" rel="noopener" class="lodging-link">'+t('lodging.booking')+'</a>';
     (links.local || []).forEach(function(p){
       if(!/^https:\/\//.test(p.url)) return;
-      html += '<a href="'+escHtml(p.url)+'" target="_blank" rel="noopener" class="lodging-link">'+escHtml(p.name)+' ↗</a>';
+      html += '<a href="'+safeUrl(p.url)+'" target="_blank" rel="noopener" class="lodging-link">'+escHtml(p.name)+' ↗</a>';
     });
     return html || '<span class="lodging-none">'+t('lodging.noPlatform')+'</span>';
   }
-  function renderDays(legs, city){
+  // Redessin du journal de bord regroupé (plusieurs réponses de POI peuvent arriver dans la même tâche). Seuls les jours
+  // sont redessinés : la carte garderait sinon son zoom réinitialisé à chaque arrivée de POI.
+  var daysRerenderTimer = null;
+  function scheduleDaysRerender(){
+    if(daysRerenderTimer) return;
+    daysRerenderTimer = setTimeout(function(){
+      daysRerenderTimer = null;
+      if(currentTripData) renderDays(currentTripData);
+    }, 0);
+  }
+  // Kilométrage total arrondi (distances d'étapes et parties routières des traversées).
+  function tripTotalKm(legs){
+    return Math.round(legs.reduce(function(s, l){ return s + (Number(l.distanceKm) || 0) + (Number(l.roadKm) || 0); }, 0));
+  }
+  // `trip` : le voyage affiché (voir currentTripData) — avertissements et zone de départ viennent de LUI, jamais d'une
+  // réponse de tirage pas encore affichée.
+  function renderDays(trip){
+    var legs = trip.legs;
     els.days.innerHTML = '';
     portalsShownFor = {};
     // Avertissements valables pour tout le trajet (van : gabarit et vignettes ; électrique : couverture des bornes).
-    (lastTripNotices || []).forEach(function(key){
+    (trip.notices || []).forEach(function(key){
       var note = document.createElement('div');
       note.className = 'day-row tension-row tension-orange';
       note.innerHTML = icon('warn') + '<span>' + t(key) + '</span>';
       els.days.appendChild(note);
     });
-    if(lastDepartureTension){
+    if(trip.departureTension){
       var depWarn = document.createElement('div');
-      depWarn.className = 'day-row tension-row tension-' + lastDepartureTension.level;
-      depWarn.innerHTML = tensionRowHtml(lastDepartureTension, 'tension.departure');
+      depWarn.className = 'day-row tension-row tension-' + trip.departureTension.level;
+      depWarn.innerHTML = tensionRowHtml(trip.departureTension, 'tension.departure');
       els.days.appendChild(depWarn);
     }
-    var totalKm = 0;
-    legs.forEach(function(leg){ totalKm += (leg.distanceKm || 0) + (leg.roadKm || 0); });
+    var totalKm = tripTotalKm(legs);
     // Un seul rappel de vignette PAR PAYS pour tout l'itinéraire (pas à chaque jour/étape qui y
     // reste ou y repasse) — voir son affichage plus bas, dans la boucle groups.forEach. Remis à
     // zéro à chaque appel de renderDays, y compris depuis l'écouteur 'i18n:langchange' : le rappel
@@ -2407,6 +2613,14 @@
               dayLeg.needsRealPOIs = false;
               var note = labelRow.querySelector('.activities-loading-note');
               if(note) note.remove();
+              // Liste redessinée entre-temps (changement de langue ou de devise pendant le chargement) : ce
+              // callback vise l'ancien DOM. Les données sont mises à jour puis le jour est redessiné à partir d'elles
+              // (sans reconsommer la file), ce qui retire aussi la mention « recherche en cours » du nouveau DOM.
+              if(!actListEl.isConnected){
+                if(shared.hasPois) dayLeg.activities = upgradeActivities(dayLeg, shared);
+                scheduleDaysRerender();
+                return;
+              }
               if(!shared.hasPois) return;
               var freshActivities = upgradeActivities(dayLeg, shared);
               // On remplace aussi leg.activities (pas seulement l'affichage) pour que l'export PDF
@@ -2428,7 +2642,7 @@
           linksRow.className = 'day-row';
           linksRow.innerHTML = icon('search') +
             '<span><span class="lbl">'+t('lodging.find', {range: formatStayRange(firstLeg.lodgingCheckIn, firstLeg.lodgingCheckOut)})+'</span>'+
-            '<span class="lodging-links">'+ lodgingLinksHtml(firstLeg.lodgingLinks) + '</span></span>';
+            '<span class="lodging-links">'+ lodgingLinksHtml(firstLeg.lodgingLinks, firstLeg.country, trip.budgetKey) + '</span></span>';
           body.appendChild(linksRow);
         }
       }
@@ -2445,9 +2659,10 @@
 
     var nights = legs.filter(function(l){return l.labelKind === 'day';}).length;
     var villes = {};
-    legs.forEach(function(l){ if(!l.isReturn) villes[l.stop]=true; });
+    legs.forEach(function(l){ if(!l.isReturn) villes[stopKey(l)]=true; });
+    // Nombre de jours DEMANDÉ (un aller-retour d'une journée compte 1 jour, pas ses 2 legs aller + retour).
     var statsHtml =
-      '<span><b>'+legs.length+'</b> '+t('stats.days')+'</span>'+
+      '<span><b>'+(trip.days || legs.length)+'</b> '+t('stats.days')+'</span>'+
       '<span><b>'+Object.keys(villes).length+'</b> '+t('stats.cities')+'</span>'+
       '<span><b>'+nights+'</b> '+t('stats.nights')+'</span>'+
       '<span><b>~'+totalKm+' km</b> '+t('stats.totalKm')+'</span>';
@@ -2553,8 +2768,8 @@
     var lastStopName = null;
     legs.forEach(function(leg, idx){
       if(leg.isReturn) return; // le retour rejoint le point de départ, déjà marqué
-      if(leg.stop === lastStopName) return;
-      lastStopName = leg.stop;
+      if(stopKey(leg) === lastStopName) return; // nom + coordonnées : deux homonymes consécutifs gardent chacun leur épingle
+      lastStopName = stopKey(leg);
       var ll = legLLs[idx];
       if(!ll) return;
       stopNum++;
@@ -2625,14 +2840,28 @@
   // libellés déjà formatés (codes postaux, dates, listes) sont réutilisés tels quels quand ils
   // existent (formatCpBadge, formatFrDate), ou relus directement depuis le DOM déjà rendu pour le
   // sac à préparer (renderPacking dédoublonne déjà la liste, pas la peine de recalculer).
+  // Tension envoyée au PDF : niveau rouge/orange et source http(s) uniquement, sinon rien.
+  function exportTension(tension){
+    if(!tension || (tension.level !== 'red' && tension.level !== 'orange')) return null;
+    return { level: tension.level, source: /^https?:\/\//i.test(String(tension.source || '')) ? String(tension.source) : null };
+  }
+  // Liens d'hébergement du PDF avec la même devise qu'à l'écran (voir lodgingUrlWithCurrency).
+  function exportLodgingLinks(links, country, budgetKey){
+    if(!links) return null;
+    var out = {};
+    Object.keys(links).forEach(function(k){ out[k] = links[k]; });
+    if(links.airbnb) out.airbnb = lodgingUrlWithCurrency(links.airbnb, country, budgetKey);
+    if(links.booking) out.booking = lodgingUrlWithCurrency(links.booking, country, budgetKey);
+    return out;
+  }
   function buildTripExportPayload(){
     if(!currentTripData) return null;
     var legs = currentTripData.legs, city = currentTripData.city;
     var budgetKey = currentTripData.budgetKey, transportKey = currentTripData.transportKey;
-    var totalKm = legs.reduce(function(s,l){ return s + (l.distanceKm||0) + (l.roadKm||0); }, 0);
+    var totalKm = tripTotalKm(legs);
     var nights = legs.filter(function(l){ return l.labelKind === 'day'; }).length;
     var villes = {};
-    legs.forEach(function(l){ if(!l.isReturn) villes[l.stop] = true; });
+    legs.forEach(function(l){ if(!l.isReturn) villes[stopKey(l)] = true; });
     var tollLegs = legs.filter(function(l){ return l.tollInfo; });
     var tollSummary = tollLegs.length ? {
       enabled: tollLegs[0].tollInfo.enabled,
@@ -2643,8 +2872,10 @@
       tripLabel: currentTripLabel,
       budgetLabel: budgetLabel(budgetKey),
       transportLabel: transportLabel(transportKey),
-      stats: { days: legs.length, cities: Object.keys(villes).length, nights: nights, totalKm: totalKm, toll: tollSummary },
-      notices: lastTripNotices || [],
+      stats: { days: currentTripData.days || legs.length, cities: Object.keys(villes).length, nights: nights, totalKm: totalKm, toll: tollSummary },
+      notices: currentTripData.notices || [],
+      // Zone déconseillée au point de départ (même forme que tension sur chaque étape).
+      departureTension: exportTension(currentTripData.departureTension),
       legs: legs.map(function(leg){
         return {
           label: singleLegLabel(leg),
@@ -2659,9 +2890,11 @@
           tollInfo: leg.tollInfo || null,
           chargeInfo: leg.chargeInfo || null,
           restrictions: leg.restrictions || null,
+          // Avertissement de zone déconseillée, comme à l'écran (jamais sur le retour, qui rejoint le départ).
+          tension: leg.isReturn ? null : exportTension(leg.tension),
           ferryInfo: leg.ferryInfo ? { route: t(leg.ferryInfo.routeKey), amount: leg.ferryInfo.amount, priceStatus: leg.ferryInfo.priceStatus || null } : null,
           checkInLabel: leg.lodgingCheckIn ? formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut) : null,
-          lodgingLinks: leg.lodgingLinks || null,
+          lodgingLinks: exportLodgingLinks(leg.lodgingLinks, leg.country, budgetKey),
           activities: (leg.activities || []).map(function(opt){
             return opt.hikeUrl ? {
               label: opt.hikeName,
@@ -2679,11 +2912,11 @@
   async function generate(){
     var typed = els.city.value.trim();
     if(!typed){
-      showCityError(t('form.city.error.required'));
+      showCityError(msg('form.city.error.required'));
       return;
     }
     if(!selectedCity){
-      showCityError(t('form.city.error.selectFromList'));
+      showCityError(msg('form.city.error.selectFromList'));
       return;
     }
     var city = selectedCity.name;
@@ -2714,12 +2947,12 @@
     var totalNights = Math.max(0, days - 1);
     clearMinDistanceError();
     if(minDistanceKm > 0 && maxDistanceKm > 0 && minDistanceKm > maxDistanceKm){
-      showMinDistanceError(t('error.minMaxDistance', {min: minDistanceKm, max: maxDistanceKm}));
+      showMinDistanceError(msg('error.minMaxDistance', {min: minDistanceKm, max: maxDistanceKm}));
       return;
     }
     if(minDistanceKm > 0 && minDistanceKm > maxRadiusKm && totalNights <= 1){
-      var contextTxt = t(totalNights === 0 ? 'error.minDistanceContextDay' : 'error.minDistanceContextNight');
-      showMinDistanceError(t('error.minDistanceTooFar', {context: contextTxt, min: minDistanceKm, radius: Math.round(maxRadiusKm)}));
+      var contextKey = totalNights === 0 ? 'error.minDistanceContextDay' : 'error.minDistanceContextNight';
+      showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {context: t(contextKey), min: minDistanceKm, radius: Math.round(maxRadiusKm)}; }));
       return;
     }
 
@@ -2731,7 +2964,7 @@
     var maxDaysPerCity = parseInt(els.maxDaysPerCity.value, 10) || 3;
     clearDaysPerCityError();
     if(minDaysPerCity > maxDaysPerCity){
-      showDaysPerCityError(t('error.minMaxDaysPerCity', {min: minDaysPerCity, max: maxDaysPerCity}));
+      showDaysPerCityError(msg('error.minMaxDaysPerCity', {min: minDaysPerCity, max: maxDaysPerCity}));
       return;
     }
 
@@ -2740,54 +2973,76 @@
     // télécharger la base de communes complète pour ça. `lastNorm` (évite de retomber sur la même
     // première étape deux fois de suite) est un simple identifiant opaque déjà renvoyé par le
     // serveur sur chaque leg (voir plus bas) : jamais recalculé côté client.
-    var legs;
-    els.launchBtn.disabled = true;
+    var legs, data;
+    // Dates lues au lancement (elles peuvent changer pendant la requête).
+    var tripStartIso = els.dateStart.value, tripEndIso = els.dateEnd.value;
+    // Numéro de tirage attribué AVANT la requête : une réponse arrivée alors qu'un tirage plus récent a été lancé est
+    // ignorée (voir les contrôles drawId === currentDrawId ci-dessous et dans showDrawnTrip).
+    var drawId = ++currentDrawId;
+    // Les deux boutons de tirage sont désactivés pendant la requête (plus de double tirage par « Retirer une autre
+    // destination »), et réactivés dans tous les cas (succès, erreur, délai dépassé).
+    setDrawButtonsDisabled(true);
+    // Délai maximal côté navigateur : sans réponse au bout de DRAW_TIMEOUT_MS, la requête est abandonnée.
+    var abortCtrl = typeof AbortController === 'function' ? new AbortController() : null;
+    var abortTimer = abortCtrl ? setTimeout(function(){ abortCtrl.abort(); }, DRAW_TIMEOUT_MS) : null;
     try {
       var resp = await fetch('/api/generate-trip', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        signal: abortCtrl ? abortCtrl.signal : undefined,
         body: JSON.stringify({
           departureCity: { name: selectedCity.name, cp: selectedCity.cp, allCps: selectedCity.allCps, lat: selectedCity.lat, lon: selectedCity.lon, dept: selectedCity.dept, country: selectedCity.country },
           days: days, budgetKey: budgetKey, transportKey: transportKey,
           tollEnabled: tollEnabled, ferryEnabled: ferryEnabled, avoidTent: avoidTent,
           avoidTension: els.tensionToggle.checked,
-          tripStart: els.dateStart.value, maxRadiusKm: maxRadiusKm, avoidNorm: lastNorm,
+          tripStart: tripStartIso, maxRadiusKm: maxRadiusKm, avoidNorm: lastNorm,
           minDistanceKm: minDistanceKm, maxDistanceKm: maxDistanceKm, maxLegKm: maxLegKm,
           minDaysPerCity: minDaysPerCity, maxDaysPerCity: maxDaysPerCity,
           preferredCurrency: getPreferredCurrency()
         })
       });
+      data = await resp.json().catch(function(){ return {}; });
+      if(drawId !== currentDrawId) return; // un tirage plus récent a pris le relais
+      if(resp.status === 429){ showCityError(msg('error.tooManyRequests')); return; }
+      if(resp.status === 503){ showCityError(msg('error.serverBusy')); return; }
+      // Moteur arrêté faute de temps (réponse timedOut) : message dédié plutôt qu'« itinéraire impossible ».
+      if(data && data.timedOut){ showCityError(msg('error.drawTimeout')); return; }
       if(!resp.ok){
-        showCityError(t('error.routeImpossible'));
+        showCityError(msg('error.routeImpossible'));
         return;
       }
-      var data = await resp.json();
       legs = data.legs || [];
-      lastDepartureTension = data.departureTension || null;
-      lastTripNotices = data.notices || [];
       // Distance d'éloignement impossible à concilier avec le retour (pas assez de nuits pour revenir par étapes).
       if(legs.length === 0 && data.minDistanceUnreachable){
-        showMinDistanceError(t('error.minDistanceTooFar', {
+        var returnCapKm = data.returnCapKm;
+        showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {
           context: t(totalNights === 1 ? 'form.dates.duration1' : 'form.dates.durationN', {days: days, nights: totalNights}),
-          min: minDistanceKm, radius: data.returnCapKm }));
+          min: minDistanceKm, radius: returnCapKm }; }));
         return;
       }
       if(legs.length === 0 && data.tensionBlocked){
-        showCityError(t('error.tensionBlocked'));
+        showCityError(msg('error.tensionBlocked'));
         return;
       }
     } catch(err){
-      showCityError(t('error.routeImpossible'));
+      if(drawId !== currentDrawId) return;
+      // Délai dépassé côté navigateur (AbortController) : même message que le délai dépassé côté serveur.
+      showCityError(msg(err && err.name === 'AbortError' ? 'error.drawTimeout' : 'error.routeImpossible'));
       return;
     } finally {
-      els.launchBtn.disabled = false;
+      if(abortTimer) clearTimeout(abortTimer);
+      if(drawId === currentDrawId) setDrawButtonsDisabled(false);
     }
     if(legs.length === 0){
-      showCityError(t('error.routeImpossible'));
+      showCityError(msg('error.routeImpossible'));
       return;
     }
     var firstLeg = legs[0];
     lastNorm = firstLeg.norm || null;
+    // Avertissements et zone de départ de CE tirage : gardés localement, enregistrés avec le voyage seulement quand il
+    // est affiché (showDrawnTrip) — le voyage affiché ne doit jamais hériter de ceux d'un tirage échoué ou en cours.
+    var tripNotices = data.notices || [];
+    var tripDepartureTension = data.departureTension || null;
 
     // L'itinéraire complet est déjà connu ici, avant même le début de l'animation — autant lancer
     // dès maintenant les requêtes (photos, vrais points d'intérêt) dont renderDays() aura besoin
@@ -2797,7 +3052,6 @@
     // encore plus tard se met à jour sur place comme avant. drawId écarte l'affichage d'un tirage entre-temps relancé.
     var assetsReady = prefetchLegAssets(legs);
     var preloadDeadline = Date.now() + PRELOAD_MAX_WAIT_MS;
-    var drawId = ++currentDrawId;
 
     // Vivier de VRAIS noms de communes proches du point de départ pour faire défiler la roulette
     // avant la révélation — désormais renvoyé directement par /api/generate-trip (voir
@@ -2821,7 +3075,7 @@
     if(rouletteTimer) clearTimeout(rouletteTimer);
 
     var firstStopInfo = { name: firstLeg.stop, norm: firstLeg.norm, pop: firstLeg.pop, cp: firstLeg.cp, allCps: firstLeg.allCps, featuredCount: firstLeg.featuredCount || 0 };
-    runReveal(firstStopInfo, spinPool, function(){
+    runReveal(firstStopInfo, spinPool, drawId, function(){
       Promise.race([assetsReady, new Promise(function(resolve){ setTimeout(resolve, Math.max(0, preloadDeadline - Date.now())); })])
         .then(function(){ if(drawId === currentDrawId) showDrawnTrip(); });
     });
@@ -2830,17 +3084,19 @@
       // voyage passant par la même commune partait d'une file vidée et n'affichait plus que des suggestions génériques.
       usedHikeUrls = {}; hikeQueueByCommune = {}; poiQueueByLocation = {}; genericQueueByLocation = {};
       tripGeneration++;
-      renderDays(legs, city);
+      // Enregistré AVANT le rendu : renderDays lit les avertissements, la zone de départ, le nombre de jours demandé
+      // et le budget (devise des liens d'hébergement) du voyage affiché. cityCoord est conservé pour que l'écouteur
+      // 'i18n:langchange' puisse redessiner la carte sans nouveau tirage.
+      currentTripData = { legs: legs, city: city, budgetKey: budgetKey, transportKey: transportKey, cityCoord: cityCoord,
+        firstStop: firstStopInfo, days: days, notices: tripNotices, departureTension: tripDepartureTension,
+        startIso: tripStartIso, endIso: tripEndIso };
+      // Nom du PDF et en-tête de page : départ → première destination (elle change à chaque tirage) et dates ISO,
+      // un format neutre qui ne dépend d'aucune langue (voir pdfFilename).
+      currentTripLabel = city + ' → ' + firstLeg.stop + ' · ' + tripStartIso + (days > 1 && tripEndIso ? ' → ' + tripEndIso : '');
+      renderDays(currentTripData);
       renderMap(legs, city, cityCoord);
       renderPacking(budgetKey, transportKey);
-      // Le départ seul (city) se répète à chaque nouvel essai depuis la même ville — c'est la
-      // première destination tirée au sort (firstLeg.stop) qui change à chaque tirage et rend le
-      // nom de fichier réellement distinct d'un export à l'autre (voir pdfFilename).
-      currentTripLabel = city + ' → ' + firstLeg.stop + ' - ' + days + (days > 1 ? ' jours' : ' jour');
-      // cityCoord conservé (pas seulement legs/city) : nécessaire pour pouvoir rappeler renderMap
-      // depuis l'écouteur 'i18n:langchange' plus bas, qui redessine l'itinéraire déjà affiché dans
-      // la nouvelle langue sans repartir d'un nouveau tirage.
-      currentTripData = { legs: legs, city: city, budgetKey: budgetKey, transportKey: transportKey, cityCoord: cityCoord, firstStop: firstStopInfo };
+      updateRevealTexts(firstStopInfo);
 
       els.mapCard.classList.add('show');
       els.timeline.classList.add('show');
@@ -2850,11 +3106,16 @@
     }
   }
 
+  function setDrawButtonsDisabled(disabled){
+    els.launchBtn.disabled = disabled;
+    els.againBtn.disabled = disabled;
+  }
   els.form.addEventListener('submit', function(e){
     e.preventDefault();
+    if(els.launchBtn.disabled) return; // requête de tirage déjà en cours
     generate();
   });
-  els.againBtn.addEventListener('click', generate);
+  els.againBtn.addEventListener('click', function(){ if(!els.againBtn.disabled) generate(); });
 
   // AAAAMMJJ-HHhMMmSS, triable et sans caractère à échapper dans un nom de fichier — évite que deux
   // exports du même trajet (même ville de départ, même destination tirée) ne finissent avec un nom
@@ -2876,11 +3137,19 @@
   // — pas de fenêtre d'impression à gérer soi-même, un vrai fichier .pdf. On envoie l'état ACTUEL
   // du voyage (voir buildTripExportPayload) ; le serveur ne fait que la mise en page, aucune donnée
   // n'est conservée côté serveur au-delà de la réponse.
+  // Le contenu du bouton est remis à la fin de l'export avec les textes de la langue COURANTE (la langue a pu changer
+  // pendant la génération) : l'icône d'origine est gardée, les libellés data-i18n sont retraduits.
+  var exportInProgress = false;
+  var exportBtnOriginalHtml = els.exportPdfBtn.innerHTML;
+  function restoreExportButton(){
+    els.exportPdfBtn.innerHTML = exportBtnOriginalHtml;
+    Array.prototype.forEach.call(els.exportPdfBtn.querySelectorAll('[data-i18n]'), function(n){ n.textContent = t(n.getAttribute('data-i18n')); });
+  }
   els.exportPdfBtn.addEventListener('click', function(){
+    if(exportInProgress) return;
     var payload = buildTripExportPayload();
     if(!payload) return;
-    var originalLabel = els.exportPdfBtn.innerHTML;
-    var originalHint = els.exportHint ? els.exportHint.textContent : '';
+    exportInProgress = true;
     els.exportPdfBtn.disabled = true;
     els.exportPdfBtn.textContent = t('export.generating');
     fetch('/api/export-pdf', {
@@ -2902,11 +3171,12 @@
     }).catch(function(){
       if(els.exportHint){
         els.exportHint.textContent = t('export.error');
-        setTimeout(function(){ els.exportHint.textContent = originalHint; }, 6000);
+        setTimeout(function(){ els.exportHint.textContent = t('export.hint'); }, 6000);
       }
     }).then(function(){
+      exportInProgress = false;
       els.exportPdfBtn.disabled = false;
-      els.exportPdfBtn.innerHTML = originalLabel;
+      restoreExportButton();
     });
   });
 
@@ -2926,10 +3196,11 @@
   // __poiUpgradeStarted/__hikePromise empêchent toute nouvelle requête réseau ou consommation d'une
   // file partagée), renderMap() recrée juste les calques sur la même carte. Factorisé ici plutôt que
   // dupliqué : rappelé à la fois par l'écouteur 'i18n:langchange' ci-dessous (nouvelle langue) et par
-  // le sélecteur de devise plus bas (nouvelle devise sur les liens Airbnb/Booking déjà affichés).
+  // le sélecteur de devise (devise et plafond de prix des liens Airbnb/Booking recalculés au rendu, voir
+  // lodgingUrlWithCurrency — le serveur, lui, les a figés au moment du tirage).
   function rerenderCurrentTrip(){
     if(currentTripData){
-      renderDays(currentTripData.legs, currentTripData.city);
+      renderDays(currentTripData);
       renderMap(currentTripData.legs, currentTripData.city, currentTripData.cityCoord);
       renderPacking(currentTripData.budgetKey, currentTripData.transportKey);
       updateRevealTexts(currentTripData.firstStop);
@@ -2946,7 +3217,24 @@
     updateDatesHint();
     updateBudgetHint();
     updateRadiusUnitLabel();
+    retranslateErrors();
+    retranslateReveal();
+    applyLightboxTexts();
+    if(tripMap) els.mapWrap.setAttribute('aria-label', t('map.ariaLabel'));
+    if(exportInProgress) els.exportPdfBtn.textContent = t('export.generating');
     rerenderCurrentTrip();
   });
 
-})();
+})().catch(function(err){
+  // Échec de l'initialisation (script de données absent, erreur inattendue…) : message visible dans #load-error
+  // plutôt qu'une page silencieusement inerte. Repli en français si le module de traduction lui-même manque.
+  try { console.error('[init]', err); } catch(e){}
+  var box = document.getElementById('load-error');
+  if(!box) return;
+  var detail = (err && err.message) ? String(err.message) : String(err);
+  var I = window.I18N;
+  box.textContent = (I && typeof I.t === 'function')
+    ? I.t('error.loadData', {msg: detail})
+    : 'Impossible de charger les données (' + detail + ').';
+  box.classList.add('show');
+});

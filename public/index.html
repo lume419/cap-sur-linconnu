@@ -256,7 +256,10 @@
     </div>
   </form>
 
-  <section class="reveal" id="reveal" aria-live="polite">
+  <!-- Seul le résultat final du tirage est annoncé aux lecteurs d'écran (voir announceReveal dans app.js) : la section
+       #reveal n'est plus une région live, qui annonçait chaque nom de la roulette. -->
+  <p class="visually-hidden" id="reveal-announce" aria-live="polite" aria-atomic="true"></p>
+  <section class="reveal" id="reveal">
     <svg class="compass" id="compass" viewBox="0 0 100 100" fill="none">
       <circle cx="50" cy="50" r="46" stroke="var(--line-strong)" stroke-width="2"/>
       <circle cx="50" cy="50" r="3" fill="var(--accent-2)"/>

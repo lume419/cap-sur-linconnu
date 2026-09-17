@@ -51,40 +51,39 @@
   </header>
 
   <div class="legal-card">
-    <p class="legal-updated">Dernière mise à jour : 3 septembre 2026.</p>
+    <p class="legal-updated">Dernière mise à jour : 17 septembre 2026.</p>
 
     <h2>En résumé</h2>
     <p>Ce site ne demande aucun compte, aucun formulaire, aucun cookie, et n'installe aucun traceur ni
     outil d'analyse d'audience. La feuille de route que vous remplissez (ville de départ, dates,
-    budget...) reste dans votre navigateur : elle n'est jamais enregistrée sur le serveur. Seule
-    exception, sans lien avec votre identité : votre choix de thème clair/sombre, si vous le
-    personnalisez (voir « Cookies et traceurs » ci-dessous).</p>
+    budget...) n'est jamais enregistrée sur le serveur : elle ne lui est transmise que le temps de calculer
+    la réponse (voir « Génération de l'itinéraire » ci-dessous). Vos préférences d'affichage (langue,
+    thème clair/sombre, devise) restent mémorisées dans votre navigateur (voir « Cookies et traceurs »
+    ci-dessous).</p>
 
     <h2>Cookies et traceurs</h2>
     <p>Ce site ne dépose aucun cookie et n'utilise aucun service d'analytics, de publicité ou de réseau
     social. Aucun bandeau de consentement n'est donc nécessaire.</p>
     <p>Plusieurs informations techniques sont mémorisées localement dans votre navigateur (via
     <code>localStorage</code>, pas un cookie) : votre choix de langue, de thème clair/sombre et de
-    devise, si vous les personnalisez manuellement. Ces préférences restent sur votre appareil, ne
-    sont jamais envoyées au serveur, ne permettent pas de vous identifier, et relèvent de la
+    devise, si vous les personnalisez manuellement. Ce stockage local lui-même n'est jamais lu par le
+    serveur ; en revanche, la langue d'interface et la devise choisies accompagnent certaines requêtes
+    pour adapter la réponse (voir « Génération de l'itinéraire » et « Activités, randonnées et photos
+    réelles » ci-dessous). Ces préférences ne permettent pas de vous identifier et relèvent de la
     personnalisation d'interface — une catégorie explicitement dispensée de consentement par la
     CNIL.</p>
-    <p>Une copie locale des données géographiques publiques du site (noms de communes, codes postaux,
-    coordonnées — les mêmes que celles diffusées sur <code>/data</code>, voir « Génération de
-    l'itinéraire » ci-dessous) est également conservée dans le stockage local de votre navigateur
-    (<code>IndexedDB</code>), pour éviter de retraiter ces données à chaque visite. Cette copie ne
-    contient rien qui concerne le visiteur lui-même, n'est jamais transmise nulle part, et se
-    renouvelle automatiquement dès que ces données évoluent (nouveau pays ajouté, correction...) —
-    un stockage strictement technique lié au fonctionnement du service que vous utilisez, comme les
-    préférences ci-dessus, et dispensé de consentement pour la même raison.</p>
+    <p>Aucune autre donnée n'est conservée dans votre navigateur : ni copie des données géographiques,
+    ni base locale (<code>IndexedDB</code>), ni historique de vos tirages.</p>
 
     <h2>Génération de l'itinéraire</h2>
     <p>La recherche de ville et le tirage au sort de l'itinéraire (communes, distances, péages)
     passent par le serveur — <code>GET /api/search-city</code> pour la recherche,
     <code>POST /api/generate-trip</code> pour le tirage — plutôt que d'être calculés entièrement
     dans votre navigateur. Ce que ces deux requêtes transmettent : le texte que vous tapez dans le
-    champ ville, puis, une fois une ville choisie, vos réglages de formulaire (dates, budget, mode
-    de transport, péages/ferries/tente autorisés, distances) — jamais votre nom, votre adresse IP
+    champ ville, accompagné de la langue d'interface et du pays qui lui est associé (pour classer les
+    suggestions), puis, une fois une ville choisie, vos réglages de formulaire (dates, budget, mode
+    de transport, péages/ferries/tente/zones déconseillées, distances) et la devise que vous avez
+    éventuellement choisie (pour les liens d'hébergement) — jamais votre nom, votre adresse IP
     au-delà des journaux techniques d'hébergement déjà mentionnés plus bas, ni aucune donnée qui
     vous identifierait. Le serveur calcule et répond, sans rien enregistrer ni journaliser au-delà
     de la réponse — même principe que l'export PDF ci-dessous.</p>
@@ -93,7 +92,11 @@
     <p>Pour proposer de vraies activités, randonnées et photos, le site interroge en tâche de fond
     Wikipédia, OpenStreetMap et Visorando — mais toujours <strong>depuis son propre serveur</strong>,
     jamais directement depuis votre navigateur : ces services ne reçoivent donc que le nom d'une commune
-    ou des coordonnées géographiques, jamais votre adresse IP ni aucune information vous concernant.</p>
+    ou des coordonnées géographiques, jamais votre adresse IP ni aucune information vous concernant.
+    Les requêtes correspondantes envoyées au serveur de ce site (<code>/api/photo</code>,
+    <code>/api/pois</code>, <code>/api/hike</code>) contiennent le nom du lieu, ses coordonnées, son pays
+    et, pour les photos et randonnées, la langue d'interface (pour choisir l'édition de Wikipédia et la
+    langue des résultats).</p>
     <p>Exception : les photographies de lieux sont chargées directement depuis les serveurs de
     <strong>Wikimedia Commons</strong> plutôt que d'être copiées sur ce site, afin de ne rien stocker
     inutilement. Votre navigateur contacte alors directement Wikimedia pour afficher l'image, ce qui leur

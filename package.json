@@ -1,7 +1,7 @@
 {
   "name": "cap-sur-linconnu",
   "version": "1.0.0",
-  "description": "Générateur de road trip mystère — communes, points d'intérêt et péages réels (France).",
+  "description": "Générateur de road trip mystère — lieux, points d'intérêt, péages et ferries réels dans 239 pays et territoires, interface en 161 langues.",
   "private": true,
   "main": "server.js",
   "scripts": {
@@ -10,10 +10,10 @@
     "postinstall": "(node scripts/build-data-bundles.js || echo [postinstall] build-data-bundles a echoue -- non bloquant, voir server.js pour le repli) && (node --max-old-space-size=1024 scripts/build-search-index.js || echo [postinstall] build-search-index a echoue -- non bloquant, recherche en memoire apres chargement du moteur)"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "dependencies": {
-    "compression": "^1.8.1",
+    "compression": "^1.8.2",
     "express": "^4.19.2",
     "pdfkit": "^0.19.1"
   }

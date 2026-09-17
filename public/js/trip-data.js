@@ -1013,6 +1013,24 @@
     };
 
     var TOLL_MIN_DISTANCE_KM = 60;
+    // Masses terrestres (landmassOf) où le barème du pays s'applique vraiment. Le péage était calculé pour tout le pays,
+    // îles comprises : un trajet en Corse affichait ~13 € « évités » alors que l'île n'a aucune autoroute. Pays absent de
+    // la liste : une seule masse terrestre (ou aucune île concernée), barème appliqué partout.
+    //   FR : métropole seule — Corse sans autoroute ; outre-mer hors barème ASF (Savexpress de Nouméa : autre exploitant).
+    //   ES : péninsule seule — Baléares (tunnel de Sóller gratuit depuis 2017) et Canaries sans route à péage.
+    //   PT : continent seul — Madère (Via Rápida) et Açores (SCUT) gratuites.
+    //   IT : péninsule et Sicile (A18 Messine-Catane, A20 Messine-Palerme, Consorzio Autostrade Siciliane) — Sardaigne
+    //        sans autoroute à péage (SS131 gratuite).
+    //   GR : continent seul — Crète : BOAK encore en travaux, aucun poste de péage en service en 2026 (cretetip.com).
+    //   HR, TR, TN, SN : continent seul (îles sans autoroute).
+    //   JP : Honshū (Kyūshū et Shikoku y sont rattachées par ponts et tunnels), Hokkaidō, Okinawa (Okinawa Expressway,
+    //        NEXCO West) — autres îles sans voie express.
+    //   TW : île de Taïwan seule (Freeway Bureau) — Kinmen, Penghu, Matsu sans autoroute.
+    var TOLL_LANDMASSES = {
+      FR: ['continental'], ES: ['continental'], PT: ['continental'], IT: ['continental', 'sicily'],
+      GR: ['continental'], HR: ['continental'], TR: ['continental'], TN: ['continental'], SN: ['continental'],
+      JP: ['honshu', 'hokkaido', 'okinawa'], TW: ['taiwan']
+    };
     // Barème d'où chaque tarif au km de TOLL_RATE_BY_COUNTRY est déduit (voir les commentaires ci-dessus et « Crédits » du
     // README) : affiché dans le libellé de la ligne péage ('toll.label', {source}) au lieu d'un « barème ASF » pour tous
     // les pays. Noms propres d'opérateurs ou d'organismes, identiques dans toutes les langues.
@@ -3906,7 +3924,7 @@
     COUNTRIES: COUNTRIES, COUNTRY_LIST: COUNTRY_LIST, ALIAS_COUNTRY_LIST: ALIAS_COUNTRY_LIST,
     TRANSPORT: TRANSPORT, EV_RANGE_KM: EV_RANGE_KM, EV_CHARGE_MARGIN: EV_CHARGE_MARGIN,
     TOLL_RATE_BY_CLASS: TOLL_RATE_BY_CLASS, TOLL_RATE_BY_COUNTRY: TOLL_RATE_BY_COUNTRY, TOLL_SOURCE: TOLL_SOURCE,
-    TOLL_MIN_DISTANCE_KM: TOLL_MIN_DISTANCE_KM,
+    TOLL_MIN_DISTANCE_KM: TOLL_MIN_DISTANCE_KM, TOLL_LANDMASSES: TOLL_LANDMASSES,
     HR_ISLAND_POSTCODES: HR_ISLAND_POSTCODES, HR_POSTCODE_TO_ISLAND: HR_POSTCODE_TO_ISLAND,
     CV_CONCELHO_TO_ISLAND: CV_CONCELHO_TO_ISLAND,
     ISLAND_BOXES: ISLAND_BOXES,

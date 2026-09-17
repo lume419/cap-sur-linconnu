@@ -1,0 +1,11 @@
+# Fins de ligne : LF dans le dépôt ET dans les copies de travail, quel que soit core.autocrlf (déploiement Linux).
+* text=auto eol=lf
+# Binaires : jamais de conversion ni de diff texte.
+*.bin binary
+*.png binary
+*.jpg binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.gz binary
+*.br binary

@@ -199,9 +199,12 @@ console.log(Object.keys(entries).length + ' liaisons, ' + portCount + ' ports' +
 if(STRICT && missing.length){ console.error('REFUS : liaisons sans ports (--strict)'); process.exit(1); }
 if(CHECK || ONLY) process.exit(0);
 
+// Clé de propriété : entre apostrophes si elle ne contient que des caractères sûrs (sortie inchangée pour toutes les
+// clés actuelles), sinon chaîne JSON échappée — jamais de texte brut entre apostrophes.
+const quoteKey = k => /^[A-Za-z0-9|-]+$/.test(k) ? "'" + k + "'" : JSON.stringify(k);
 const body = allKeys.filter(k => entries[k]).map(k => {
   const s = entries[k].sides;
-  return "  '" + k + "': { " + Object.keys(s).map(side => "'" + side + "': " + JSON.stringify(s[side])).join(', ') +
+  return '  ' + quoteKey(k) + ': { ' + Object.keys(s).map(side => quoteKey(side) + ': ' + JSON.stringify(s[side])).join(', ') +
     (entries[k].pairs ? ", pairs: " + JSON.stringify(entries[k].pairs) : '') + ' }';
 }).join(',\n');
 // Fichier réservé au serveur (lib/, bloqué par .htaccess) : les ports ne servent qu'au moteur, rien à livrer au navigateur.

@@ -1114,7 +1114,15 @@
       'transport.voitureElectrique.label': 'voiture électrique',
       'transport.van.label': 'van',
       'transport.moto.label': 'moto',
-      'transport.velo.label': 'vélo'
+      'transport.velo.label': 'vélo',
+
+      'error.tooManyRequests': 'Trop de demandes en peu de temps : réessayez dans une minute.',
+      'error.serverBusy': 'Le serveur est très sollicité : réessayez dans quelques instants.',
+      'error.drawTimeout': 'Ce tirage prenait trop de temps : essayez un rayon ou une distance plus petits.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Clair',
+      'theme.dark': 'Sombre',
+      'theme.buttonTitle': 'Changer de thème (auto / clair / sombre)'
     },
 
     en: {
@@ -2059,7 +2067,15 @@
       'transport.voitureElectrique.label': 'electric car',
       'transport.van.label': 'campervan',
       'transport.moto.label': 'motorbike',
-      'transport.velo.label': 'bike'
+      'transport.velo.label': 'bike',
+
+      'error.tooManyRequests': 'Too many requests in a short time: please try again in a minute.',
+      'error.serverBusy': 'The server is very busy: please try again in a few moments.',
+      'error.drawTimeout': 'This draw was taking too long: try a smaller radius or distance.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Light',
+      'theme.dark': 'Dark',
+      'theme.buttonTitle': 'Change theme (auto / light / dark)'
     },
 
     es: {
@@ -3004,7 +3020,15 @@
       'transport.voitureElectrique.label': 'coche eléctrico',
       'transport.van.label': 'furgoneta',
       'transport.moto.label': 'moto',
-      'transport.velo.label': 'bicicleta'
+      'transport.velo.label': 'bicicleta',
+
+      'error.tooManyRequests': 'Demasiadas solicitudes en poco tiempo: inténtalo de nuevo dentro de un minuto.',
+      'error.serverBusy': 'El servidor está muy solicitado: inténtalo de nuevo dentro de unos instantes.',
+      'error.drawTimeout': 'Este sorteo estaba tardando demasiado: prueba con un radio o una distancia más pequeños.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Claro',
+      'theme.dark': 'Oscuro',
+      'theme.buttonTitle': 'Cambiar de tema (auto / claro / oscuro)'
     },
 
     pt: {
@@ -3949,7 +3973,15 @@
       'transport.voitureElectrique.label': 'carro elétrico',
       'transport.van.label': 'autocaravana',
       'transport.moto.label': 'mota',
-      'transport.velo.label': 'bicicleta'
+      'transport.velo.label': 'bicicleta',
+
+      'error.tooManyRequests': 'Demasiados pedidos em pouco tempo: tente novamente dentro de um minuto.',
+      'error.serverBusy': 'O servidor está muito solicitado: tente novamente dentro de alguns instantes.',
+      'error.drawTimeout': 'Este sorteio estava a demorar demasiado: experimente um raio ou uma distância mais pequenos.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Claro',
+      'theme.dark': 'Escuro',
+      'theme.buttonTitle': 'Mudar de tema (auto / claro / escuro)'
     },
 
     nl: {
@@ -4894,7 +4926,15 @@
       'transport.voitureElectrique.label': 'elektrische auto',
       'transport.van.label': 'camperbusje',
       'transport.moto.label': 'motor',
-      'transport.velo.label': 'fiets'
+      'transport.velo.label': 'fiets',
+
+      'error.tooManyRequests': 'Te veel verzoeken in korte tijd: probeer het over een minuut opnieuw.',
+      'error.serverBusy': 'De server is erg druk: probeer het over enkele ogenblikken opnieuw.',
+      'error.drawTimeout': 'Deze loting duurde te lang: probeer een kleinere straal of afstand.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Licht',
+      'theme.dark': 'Donker',
+      'theme.buttonTitle': 'Thema wijzigen (auto / licht / donker)'
     },
 
     de: {
@@ -5839,7 +5879,15 @@
       'transport.voitureElectrique.label': 'Elektroauto',
       'transport.van.label': 'Campingbus',
       'transport.moto.label': 'Motorrad',
-      'transport.velo.label': 'Fahrrad'
+      'transport.velo.label': 'Fahrrad',
+
+      'error.tooManyRequests': 'Zu viele Anfragen in kurzer Zeit: Versuche es in einer Minute erneut.',
+      'error.serverBusy': 'Der Server ist stark ausgelastet: Versuche es in wenigen Augenblicken erneut.',
+      'error.drawTimeout': 'Diese Auslosung hat zu lange gedauert: Versuche einen kleineren Radius oder eine kürzere Entfernung.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Hell',
+      'theme.dark': 'Dunkel',
+      'theme.buttonTitle': 'Design wechseln (Auto / Hell / Dunkel)'
     },
 
     // Lëtzebuergesch — 3. offiziell Sprooch vu Lëtzebuerg (nieft Franséisch a Däitsch, déi hei scho
@@ -6786,7 +6834,15 @@
       'transport.voitureElectrique.label': 'Elektroauto',
       'transport.van.label': 'Camping-Bus',
       'transport.moto.label': 'Motorrad',
-      'transport.velo.label': 'Vëlo'
+      'transport.velo.label': 'Vëlo',
+
+      'error.tooManyRequests': 'Ze vill Ufroen a kuerzer Zäit: probéier et an enger Minutt nach eng Kéier.',
+      'error.serverBusy': 'De Server ass staark iwwerlaascht: probéier et an e puer Momenter nach eng Kéier.',
+      'error.drawTimeout': 'Dës Zéiwung huet ze laang gedauert: probéier e méi klenge Radius oder eng méi kuerz Distanz.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Hell',
+      'theme.dark': 'Donkel',
+      'theme.buttonTitle': 'Design wiesselen (Auto / Hell / Donkel)'
     },
 
     // Italien — arrivé avec la Suisse (une des quatre langues officielles, aux côtés du français et
@@ -7733,7 +7789,15 @@
       'transport.voitureElectrique.label': 'auto elettrica',
       'transport.van.label': 'van',
       'transport.moto.label': 'moto',
-      'transport.velo.label': 'bici'
+      'transport.velo.label': 'bici',
+
+      'error.tooManyRequests': 'Troppe richieste in poco tempo: riprova tra un minuto.',
+      'error.serverBusy': 'Il server è molto sollecitato: riprova tra qualche istante.',
+      'error.drawTimeout': 'Questa estrazione stava impiegando troppo tempo: prova con un raggio o una distanza più piccoli.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Chiaro',
+      'theme.dark': 'Scuro',
+      'theme.buttonTitle': 'Cambia tema (auto / chiaro / scuro)'
     },
 
     // Romanche (rumantsch grischun, forme écrite standardisée officielle) — quatrième langue
@@ -8684,7 +8748,15 @@
       'transport.voitureElectrique.label': 'auto electric',
       'transport.van.label': 'van',
       'transport.moto.label': 'moto',
-      'transport.velo.label': 'velo'
+      'transport.velo.label': 'velo',
+
+      'error.tooManyRequests': 'Memia bleras dumondas en curt temp: emprova anc ina giada en ina minuta.',
+      'error.serverBusy': 'Il server è fitg surchargià: emprova anc ina giada en in pèr mumaints.',
+      'error.drawTimeout': 'Questa tratga ha durà memia ditg: emprova cun in radius u ina distanza pli pitschna.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Cler',
+      'theme.dark': 'Stgir',
+      'theme.buttonTitle': 'Midar il tema (auto / cler / stgir)'
     },
 
     // Bas-allemand (Plattdüütsch/Niederdeutsch) — langue régionale arrivée avec l'Allemagne, la
@@ -9633,7 +9705,15 @@
       'transport.voitureElectrique.label': 'Elektro-Auto',
       'transport.van.label': 'Van',
       'transport.moto.label': 'Motorrad',
-      'transport.velo.label': 'Fohrrad'
+      'transport.velo.label': 'Fohrrad',
+
+      'error.tooManyRequests': 'To veel Anfragen in korte Tiet: proböör dat in een Minuut nochmaal.',
+      'error.serverBusy': 'De Server hett banni veel to doon: proböör dat in en poor Ogenblicken nochmaal.',
+      'error.drawTimeout': 'Dit Utloosen hett to lang duert: proböör dat mit en lütteren Radius oder Afstand.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Hell',
+      'theme.dark': 'Düster',
+      'theme.buttonTitle': 'Thema wesseln (auto / hell / düster)'
     },
 
     // Sorbisch (haut-sorabe/hornjoserbšćina, forme représentative — la langue est traitée comme une
@@ -10584,7 +10664,15 @@
       'transport.voitureElectrique.label': 'elektriske awto',
       'transport.van.label': 'van',
       'transport.moto.label': 'motorske koleso',
-      'transport.velo.label': 'kolesć'
+      'transport.velo.label': 'kolesć',
+
+      'error.tooManyRequests': 'Přewjele naprašowanjow w krótkim času: spytaj za mjeńšinu hišće raz.',
+      'error.serverBusy': 'Serwer je jara přećežany: spytaj za wokomik hišće raz.',
+      'error.drawTimeout': 'Tute wupytowanje traješe předołho: spytaj mjeńši radius abo krótšu distancu.',
+      'theme.auto': 'Awto',
+      'theme.light': 'Swětły',
+      'theme.dark': 'Ćmowy',
+      'theme.buttonTitle': 'Wuhotowanje změnić (awto / swětły / ćmowy)'
     },
 
     // Frison du Nord (Nordfriisk, dialecte Mooring — le plus utilisé à l'écrit) — troisième langue
@@ -11536,7 +11624,15 @@
       'transport.voitureElectrique.label': 'elektro-auto',
       'transport.van.label': 'van',
       'transport.moto.label': 'motorrad',
-      'transport.velo.label': 'fiets'
+      'transport.velo.label': 'fiets',
+
+      'error.tooManyRequests': 'Tu följ önjfrååge önj kort tidj: pruuwe nochiinsen önj en minuut.',
+      'error.serverBusy': 'Di server heet swåår wat tu douen: pruuwe nochiinsen önj en påår uugenblake.',
+      'error.drawTimeout': 'Dåt lucht düüred tu loong: pruuwe en lätjeren radius of distans.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Ljucht',
+      'theme.dark': 'Jonk',
+      'theme.buttonTitle': 'Teema wäägle (auto / ljucht / jonk)'
     },
 
     // Sardo (limba sarda comuna, forme écrite standardisée officielle de la Région autonome de
@@ -12485,7 +12581,15 @@
       'transport.voitureElectrique.label': 'màchina elètrica',
       'transport.van.label': 'van',
       'transport.moto.label': 'motoceta',
-      'transport.velo.label': 'bicicreta'
+      'transport.velo.label': 'bicicreta',
+
+      'error.tooManyRequests': 'Tropu rechestas in pagu tempus: torra a proare intre unu minutu.',
+      'error.serverBusy': 'Su server est meda impreadu: torra a proare intre pagos momentos.',
+      'error.drawTimeout': 'Custa sorte fiat leende tropu tempus: proa cun unu ràdiu o una distàntzia prus pitica.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Craru',
+      'theme.dark': 'Iscuru',
+      'theme.buttonTitle': 'Càmbia tema (auto / craru / iscuru)'
     },
 
     // Frioulano (furlan, ortografia standard ARLeF) — seconda lenghe regjonâl talian par numar di
@@ -13433,7 +13537,15 @@
       'transport.voitureElectrique.label': 'machine eletriche',
       'transport.van.label': 'van',
       'transport.moto.label': 'motociclete',
-      'transport.velo.label': 'bicicjete'
+      'transport.velo.label': 'bicicjete',
+
+      'error.tooManyRequests': 'Masse richiestis in pôc timp: torne prove ca di un minût.',
+      'error.serverBusy': 'Il servidôr al è une vore cjariât: torne prove ca di cualchi moment.',
+      'error.drawTimeout': 'Cheste gjavade a sorte e stave doprant masse timp: prove cuntun rai o une distance plui piçule.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Clâr',
+      'theme.dark': 'Scûr',
+      'theme.buttonTitle': 'Cambie teme (auto / clâr / scûr)'
     },
 
     // Ladin (ladin dolomitan, forme écrite standardisée supra-régionale — SPELL) — troisième langue
@@ -14385,7 +14497,15 @@
       'transport.voitureElectrique.label': 'auto eletrica',
       'transport.van.label': 'van',
       'transport.moto.label': 'moto',
-      'transport.velo.label': 'roa'
+      'transport.velo.label': 'roa',
+
+      'error.tooManyRequests': 'Massa richestes te puech temp: pröa n outa dedò danter n menut.',
+      'error.serverBusy': 'L server é dret cruzià: pröa n outa dedò danter pueć momenc.',
+      'error.drawTimeout': 'Chësta tirada a sort dorova massa temp: pröa cun n rajo o na distanza plü pitla.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Tler',
+      'theme.dark': 'Scur',
+      'theme.buttonTitle': 'Muda tema (auto / tler / scur)'
     },
     // Maltais (langue officielle de Malte, ISO 639-1 "mt") — ajouté avec l'ajout de Malte. Seule
     // langue sémitique du site (les 15 précédentes sont toutes romanes ou germaniques) : bien dotée
@@ -15334,7 +15454,15 @@
       'transport.voitureElectrique.label': 'karozza elettrika',
       'transport.van.label': 'van',
       'transport.moto.label': 'muturi',
-      'transport.velo.label': 'rota'
+      'transport.velo.label': 'rota',
+
+      'error.tooManyRequests': 'Wisq talbiet fi żmien qasir: erġa\' pprova fi ftit minuta.',
+      'error.serverBusy': 'Is-server għandu ħafna xogħol: erġa\' pprova fi ftit mumenti.',
+      'error.drawTimeout': 'Dan l-ġbid kien qed jieħu wisq ħin: ipprova raġġ jew distanza iżgħar.',
+      'theme.auto': 'Awto',
+      'theme.light': 'Ċar',
+      'theme.dark': 'Skur',
+      'theme.buttonTitle': 'Ibdel it-tema (awto / ċar / skur)'
     },
     // AVERTISSEMENT DE FIABILITÉ (monégasque, jèrriais, guernésiais — les trois blocs qui suivent) :
     // contrairement aux 16 langues ci-dessus (dont le maltais juste au-dessus), ces trois dialectes
@@ -16294,7 +16422,15 @@
       'transport.voitureElectrique.label': 'machinn-a elètrica',
       'transport.van.label': 'van',
       'transport.moto.label': 'motocicletta',
-      'transport.velo.label': 'biçicletta'
+      'transport.velo.label': 'biçicletta',
+
+      'error.tooManyRequests': 'Tròppe domande in pöco tempo: riprovâ tra un menûo.',
+      'error.serverBusy': 'U server u l\'é mutu impegnòu: riprovâ tra quarche momentu.',
+      'error.drawTimeout': 'Stu tiraggiu u ghe metéva tròppu tempo: provâ cun un raggiu ò una distansa ciù picena.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Ciæo',
+      'theme.dark': 'Scùo',
+      'theme.buttonTitle': 'Cangiâ tema (auto / ciæo / scùo)'
     },
     // Voir l'avertissement de fiabilité juste au-dessus du bloc "lij" — vaut aussi pour ce bloc
     // (jèrriais) et le suivant (guernésiais) : approximation à partir du français avec les
@@ -17241,7 +17377,15 @@
       'transport.voitureElectrique.label': 'vaituthe êlectrique',
       'transport.van.label': 'van',
       'transport.moto.label': 'motocyclette',
-      'transport.velo.label': 'bicyclette'
+      'transport.velo.label': 'bicyclette',
+
+      'error.tooManyRequests': 'Trop d\'d\'mandes en peu d\'temps : êprouvez acouo dans eune minute.',
+      'error.serverBusy': 'L\'sèrveux est bein occupé : êprouvez acouo dans quiques moments.',
+      'error.drawTimeout': 'Chu tithage-chîn prenait trop d\'temps : êprouvez un rayon ou eune distance pus p\'tits.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Cliai',
+      'theme.dark': 'Sombre',
+      'theme.buttonTitle': 'Changer d\'thème (auto / cliai / sombre)'
     },
     // Voir l'avertissement de fiabilité au-dessus du bloc "lij" (monégasque) — vaut pour ce bloc,
     // guernésiais, exactement comme pour le jèrriais ci-dessus, dont il partage le même code ISO
@@ -18192,7 +18336,15 @@
       'transport.voitureElectrique.label': 'vaiture êlectrique',
       'transport.van.label': 'van',
       'transport.moto.label': 'motocyclette',
-      'transport.velo.label': 'bicyclette'
+      'transport.velo.label': 'bicyclette',
+
+      'error.tooManyRequests': 'Trop d\'d\'mandes en p\'tit d\'temps : êprouviez accouo dans eune minute.',
+      'error.serverBusy': 'L\'sèrveur est bein occupé : êprouviez accouo dans quiques moments.',
+      'error.drawTimeout': 'Ch\'tithage-chin prenait trop d\'temps : êprouviez un rayon ou eune distance pus p\'tits.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Cllair',
+      'theme.dark': 'Sombre',
+      'theme.buttonTitle': 'Changer d\'thème (auto / cllair / sombre)'
     },
     // Kachoube (kaszëbsczi jãzëk, ISO 639-2/3 "csb") et rusyn/lemko (ISO 639-3 "rue") — ajoutés avec
     // la Pologne (voir COUNTRIES.PL/README, section "Langues", pour le détail des motifs d'inclusion/
@@ -19145,7 +19297,15 @@
       'transport.voitureElectrique.label': 'elektriczny autół',
       'transport.van.label': 'van',
       'transport.moto.label': 'mòtoceklã',
-      'transport.velo.label': 'kòło'
+      'transport.velo.label': 'kòło',
+
+      'error.tooManyRequests': 'Za wiele zapitań w krótczim czasu: sprobùjta znowa za minutã.',
+      'error.serverBusy': 'Serwer je baro òbłożony: sprobùjta znowa za chwilkã.',
+      'error.drawTimeout': 'To losowanié trwało za dłëgò: sprobùjta mniészi prómień abò mniészą dalekòsc.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Jasny',
+      'theme.dark': 'Cemny',
+      'theme.buttonTitle': 'Zmienic témã (auto / jasny / cemny)'
     },
     // Voir l'avertissement de fiabilité au-dessus du bloc "csb" — vaut aussi pour ce bloc (rusyn,
     // reconnu en Pologne sous le nom "lemko" — voir README, section "Langues"), avec une réserve
@@ -20096,7 +20256,15 @@
       'transport.voitureElectrique.label': 'електричне авто',
       'transport.van.label': 'ван',
       'transport.moto.label': 'мотоцикль',
-      'transport.velo.label': 'ровер'
+      'transport.velo.label': 'ровер',
+
+      'error.tooManyRequests': 'Барз велё запытів за короткый час: спробуй знову за минуту.',
+      'error.serverBusy': 'Сервер є барз перетяженый: спробуй знову за хвильку.',
+      'error.drawTimeout': 'Тото лосованя тривало задовго: спробуй менший радіус або меншу дистанцію.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Світлый',
+      'theme.dark': 'Темный',
+      'theme.buttonTitle': 'Змінити тему (авто / світлый / темный)'
     },
     // Istro-roumain (vlaški/žejanski, ISO 639-3 "ruo") — ajouté avec la Croatie (voir README, section
     // "Langues", et COUNTRIES.HR pour le détail du motif d'inclusion). Niveau de confiance le PLUS BAS
@@ -21052,7 +21220,15 @@
       'transport.voitureElectrique.label': 'mașină electrică',
       'transport.van.label': 'van',
       'transport.moto.label': 'moto',
-      'transport.velo.label': 'bicicletă'
+      'transport.velo.label': 'bicicletă',
+
+      'error.tooManyRequests': 'Preveć cereri în puțin timp: încearcă din nou într-un minut.',
+      'error.serverBusy': 'Serveru e foarte ocupat: încearcă din nou în câteva momente.',
+      'error.drawTimeout': 'Ăst sorț a durat preveć: încearcă o rază sau o distanță mai mică.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Luminos',
+      'theme.dark': 'Scur',
+      'theme.buttonTitle': 'Schimbă tema (auto / luminos / scur)'
     },
     // Rattrapage France/Espagne/Portugal/Andorre (voir README "Langues") — sept langues à la
     // confiance élevée, aucune n'a la réserve documentée du monégasque/jèrriais/istro-roumain :
@@ -22005,7 +22181,15 @@
       'transport.voitureElectrique.label': 'cotxe elèctric',
       'transport.van.label': 'furgoneta',
       'transport.moto.label': 'moto',
-      'transport.velo.label': 'bicicleta'
+      'transport.velo.label': 'bicicleta',
+
+      'error.tooManyRequests': 'Massa sol·licituds en poc temps: torna-ho a provar d\'aquí a un minut.',
+      'error.serverBusy': 'El servidor està molt sol·licitat: torna-ho a provar d\'aquí a uns instants.',
+      'error.drawTimeout': 'Aquest sorteig trigava massa: prova amb un radi o una distància més petits.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Clar',
+      'theme.dark': 'Fosc',
+      'theme.buttonTitle': 'Canvia el tema (auto / clar / fosc)'
     },
     // "eu" (basque, ISO 639-1 — hizkuntza isolatua, sense parentiu conegut amb cap altra) :
     // co-oficial al País Basc/a Navarra espanyols (~1,2 milions de parlants), llengua regional al
@@ -22952,7 +23136,15 @@
       'transport.voitureElectrique.label': 'auto elektrikoa',
       'transport.van.label': 'furgoneta',
       'transport.moto.label': 'motoa',
-      'transport.velo.label': 'bizikleta'
+      'transport.velo.label': 'bizikleta',
+
+      'error.tooManyRequests': 'Eskaera gehiegi denbora laburrean: saiatu berriro minutu bat barru.',
+      'error.serverBusy': 'Zerbitzaria oso lanpetuta dago: saiatu berriro une batzuk barru.',
+      'error.drawTimeout': 'Zozketa honek denbora gehiegi behar zuen: saiatu erradio edo distantzia txikiagoarekin.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Argia',
+      'theme.dark': 'Iluna',
+      'theme.buttonTitle': 'Aldatu gaia (auto / argia / iluna)'
     },
     // "gl" (galego, ISO 639-1) : co-oficial en Galicia (estatuto constitucional español, ~2 millóns
     // de falantes), moi próximo ao portugués (mesma orixe galaico-portuguesa medieval).
@@ -23898,7 +24090,15 @@
       'transport.voitureElectrique.label': 'coche eléctrico',
       'transport.van.label': 'furgoneta',
       'transport.moto.label': 'moto',
-      'transport.velo.label': 'bicicleta'
+      'transport.velo.label': 'bicicleta',
+
+      'error.tooManyRequests': 'Demasiadas solicitudes en pouco tempo: téntao de novo dentro dun minuto.',
+      'error.serverBusy': 'O servidor está moi solicitado: téntao de novo dentro duns intres.',
+      'error.drawTimeout': 'Este sorteo estaba a tardar demasiado: proba cun raio ou unha distancia máis pequenos.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Claro',
+      'theme.dark': 'Escuro',
+      'theme.buttonTitle': 'Cambiar de tema (auto / claro / escuro)'
     },
     // "oc" (occitan, ISO 639-1, nòrma classica) : l'aranés (varietat gascona parlada a la Val
     // d'Aran) es CO-OFICIAL a Catalonha al costat del catalan e del castelhan ; l'occitan es tanben
@@ -24848,7 +25048,15 @@
       'transport.voitureElectrique.label': 'veitura electrica',
       'transport.van.label': 'furgoneta',
       'transport.moto.label': 'moto',
-      'transport.velo.label': 'bicicleta'
+      'transport.velo.label': 'bicicleta',
+
+      'error.tooManyRequests': 'Tròp de demandas en pauc de temps: ensaja tornarmai dins una minuta.',
+      'error.serverBusy': 'Lo servidor es fòrça solicitat: ensaja tornarmai dins qualques moments.',
+      'error.drawTimeout': 'Aqueste tirat a sòrt preniá tròp de temps: ensaja un rai o una distància mai pichons.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Clar',
+      'theme.dark': 'Escur',
+      'theme.buttonTitle': 'Cambiar de tèma (auto / clar / escur)'
     },
     // "br" (breton, ISO 639-1) : reconnu "langue de France" (DGLFLF), écoles immersives Diwan,
     // ~200 000 locuteurs — Bretagne. Langue celtique (mutations consonantiques), structurellement
@@ -25797,7 +26005,15 @@
       'transport.voitureElectrique.label': 'karr tredanel',
       'transport.van.label': 'fourgon',
       'transport.moto.label': 'motorc\'hell',
-      'transport.velo.label': 'marc\'h-houarn'
+      'transport.velo.label': 'marc\'h-houarn',
+
+      'error.tooManyRequests': 'Re a c\'houlennoù e nebeut a amzer: klaskit en-dro a-benn ur vunutenn.',
+      'error.serverBusy': 'Soubinet eo ar servijer: klaskit en-dro a-benn un nebeud prantadoù.',
+      'error.drawTimeout': 'Re hir e oa an tennañ d\'ar sord-mañ: klaskit gant ur skin pe un hed bihanoc\'h.',
+      'theme.auto': 'Emgefre',
+      'theme.light': 'Sklaer',
+      'theme.dark': 'Teñval',
+      'theme.buttonTitle': 'Cheñch an tem (emgefre / sklaer / teñval)'
     },
     // "co" (corse, ISO 639-1) : reconnu "langue de France" (DGLFLF), statut proche du sarde italien
     // déjà couvert (~100 000-200 000 locuteurs, Corse). Langue romane proche de l'italien/toscan,
@@ -26744,7 +26960,15 @@
       'transport.voitureElectrique.label': 'vittura elettrica',
       'transport.van.label': 'furgone',
       'transport.moto.label': 'moto',
-      'transport.velo.label': 'bicicletta'
+      'transport.velo.label': 'bicicletta',
+
+      'error.tooManyRequests': 'Troppu dumande in pocu tempu: pruvate torna trà un minutu.',
+      'error.serverBusy': 'U servitore hè assai sullicitatu: pruvate torna trà qualchì stonda.',
+      'error.drawTimeout': 'Stu sorteghju pigliava troppu tempu: pruvate cù un raghju o una distanza più chjuchi.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Chjaru',
+      'theme.dark': 'Scuru',
+      'theme.buttonTitle': 'Cambià u tema (auto / chjaru / scuru)'
     },
     // "mwl" (mirandais, ISO 639-3 — pas de code 639-1) : reconnu officiellement au Portugal pour les
     // affaires locales depuis la loi 7/99 (29 janvier 1999), Terra de Miranda (Miranda do
@@ -27691,7 +27915,15 @@
       'transport.voitureElectrique.label': 'carro eiléctrico',
       'transport.van.label': 'furgoneta',
       'transport.moto.label': 'mota',
-      'transport.velo.label': 'bicicleta'
+      'transport.velo.label': 'bicicleta',
+
+      'error.tooManyRequests': 'Demasiados pedidos an pouco tiempo: anda outra beç daqui a un minuto.',
+      'error.serverBusy': 'L serbidor stá mui ocupado: anda outra beç daqui a uns sturdidos.',
+      'error.drawTimeout': 'Este sorteio staba a demorar demasiado: sprimenta un raio ó ua distança mais pequeinos.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Claro',
+      'theme.dark': 'Scuro',
+      'theme.buttonTitle': 'Mudar de tema (auto / claro / scuro)'
     },
     // "ga" (irlandais/Gaeilge, ISO 639-1) : PREMIÈRE langue officielle de la République d'Irlande à
     // parts égales avec l'anglais (Bunreacht na hÉireann, art. 8) — exception délibérée à la règle
@@ -28642,7 +28874,15 @@
       'transport.voitureElectrique.label': 'carr leictreach',
       'transport.van.label': 'carrbhaile',
       'transport.moto.label': 'gluaisrothar',
-      'transport.velo.label': 'rothar'
+      'transport.velo.label': 'rothar',
+
+      'error.tooManyRequests': 'An iomarca iarratas i mbeagán ama: bain triail eile as i gceann nóiméid.',
+      'error.serverBusy': 'Tá an freastalaí an-ghnóthach: bain triail eile as i gceann cúpla nóiméad.',
+      'error.drawTimeout': 'Bhí an crannchur seo ag tógáil rófhada: bain triail as ga nó achar níos lú.',
+      'theme.auto': 'Uath',
+      'theme.light': 'Geal',
+      'theme.dark': 'Dorcha',
+      'theme.buttonTitle': 'Athraigh an téama (uath / geal / dorcha)'
     },
     // "gv" (mannois/Gaelg, ISO 639-1) : langue HISTORIQUE propre à l'île de Man, relancée après la
     // mort du dernier locuteur natif traditionnel en 1974 — vrai soutien institutionnel actuel
@@ -29594,7 +29834,15 @@
       'transport.voitureElectrique.label': "carr lectragh",
       'transport.van.label': "van-vaghee",
       'transport.moto.label': "roauyr-jeih",
-      'transport.velo.label': "marrey-vie"
+      'transport.velo.label': "marrey-vie",
+
+      'error.tooManyRequests': 'Rouyr aghinyn ayns tammylt beg: prow reesht ayns minnid.',
+      'error.serverBusy': 'Ta\'n frithailagh feer ghoaldagh: prow reesht ayns tammylt beg.',
+      'error.drawTimeout': 'Va\'n reih shoh goaill rouyr traa: prow kerrin ny foddaghys ny sloo.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Soilshagh',
+      'theme.dark': 'Dorraghey',
+      'theme.buttonTitle': 'Caghlaa yn cummey (auto / soilshagh / dorraghey)'
     },
     // "cy" (gallois, ISO 639-1) : officiel au pays de Galles (Welsh Language (Wales) Measure 2011),
     // Charte européenne des langues régionales Partie III, ~880 000 locuteurs — confiance haute,
@@ -30541,7 +30789,15 @@
       'transport.voitureElectrique.label': "car trydan",
       'transport.van.label': "fan wersylla",
       'transport.moto.label': "beic modur",
-      'transport.velo.label': "beic"
+      'transport.velo.label': "beic",
+
+      'error.tooManyRequests': 'Gormod o geisiadau mewn byr amser: ceisiwch eto ymhen munud.',
+      'error.serverBusy': 'Mae\'r gweinydd yn brysur iawn: ceisiwch eto ymhen ychydig eiliadau.',
+      'error.drawTimeout': 'Roedd y dewis hwn yn cymryd gormod o amser: rhowch gynnig ar radiws neu bellter llai.',
+      'theme.auto': 'Awto',
+      'theme.light': 'Golau',
+      'theme.dark': 'Tywyll',
+      'theme.buttonTitle': 'Newid thema (awto / golau / tywyll)'
     },
     // "gd" (gaélique écossais, ISO 639-1) : officiel en Écosse (Gaelic Language (Scotland) Act 2005),
     // Charte européenne des langues régionales Partie III, ~57 000-87 000 locuteurs — confiance
@@ -31488,7 +31744,15 @@
       'transport.voitureElectrique.label': "càr dealain",
       'transport.van.label': "bhana campachaidh",
       'transport.moto.label': "motair-baidhsagal",
-      'transport.velo.label': "baidhsagal"
+      'transport.velo.label': "baidhsagal",
+
+      'error.tooManyRequests': 'Cus a chus iarrtasan ann an ùine ghoirid: feuch a-rithist an ceann mionaid.',
+      'error.serverBusy': 'Tha am frithealaiche glè thrang: feuch a-rithist an ceann greiseag.',
+      'error.drawTimeout': 'Bha an taghadh seo a\' toirt cus ùine: feuch rèidhis no astar nas lugha.',
+      'theme.auto': 'Fèin-obrachail',
+      'theme.light': 'Soilleir',
+      'theme.dark': 'Dorcha',
+      'theme.buttonTitle': 'Atharraich an t-ùrlar (fèin-obrachail / soilleir / dorcha)'
     },
     // "kw" (cornique/Kernewek, ISO 639-1) : Charte européenne des langues régionales Partie II
     // depuis ~2010, minorité nationale reconnue par le Royaume-Uni (Framework Convention, 2014),
@@ -32436,7 +32700,15 @@
       'transport.voitureElectrique.label': "karr elektrek",
       'transport.van.label': "fan-drigva",
       'transport.moto.label': "marghrosow-jynn",
-      'transport.velo.label': "diwros"
+      'transport.velo.label': "diwros",
+
+      'error.tooManyRequests': 'Re a govynnow yn berr a dermyn: assayewgh arta a-berth yn mynysen.',
+      'error.serverBusy': 'An servyor yw pur vysi: assayewgh arta a-berth yn nebes prysyow.',
+      'error.drawTimeout': 'An dewis ma a gemeri re a dermyn: assayewgh radius po hyrnedh le.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Golow',
+      'theme.dark': 'Tewl',
+      'theme.buttonTitle': 'Chanjya an tema (auto / golow / tewl)'
     },
     // "sco" (scots, ISO 639-2/3 — pas de code 639-1) : Charte européenne des langues régionales
     // Partie II, ~1,5 million de locuteurs déclarés à des degrés divers, vraie tradition littéraire
@@ -33385,7 +33657,15 @@
       'transport.voitureElectrique.label': "electric caur",
       'transport.van.label': "camper van",
       'transport.moto.label': "motorbike",
-      'transport.velo.label': "bike"
+      'transport.velo.label': "bike",
+
+      'error.tooManyRequests': 'Ower mony requests in a wee while: try again in a minute.',
+      'error.serverBusy': 'The server\'s awfy thrang: try again in a wee while.',
+      'error.drawTimeout': 'This drawin wis takkin ower lang: try a smawer radius or distance.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Licht',
+      'theme.dark': 'Daurk',
+      'theme.buttonTitle': 'Chynge theme (auto / licht / daurk)'
     },
     // "cs" (tchèque, ISO 639-1) : langue nationale de la République tchèque, ajoutée à la demande
     // explicite de l'utilisateur en rattrapage — inversion délibérée de la politique "pas de langue
@@ -34332,7 +34612,15 @@
       'transport.voitureElectrique.label': "elektromobil",
       'transport.van.label': "karavan",
       'transport.moto.label': "motorka",
-      'transport.velo.label': "kolo"
+      'transport.velo.label': "kolo",
+
+      'error.tooManyRequests': 'Příliš mnoho požadavků v krátké době: zkuste to znovu za minutu.',
+      'error.serverBusy': 'Server je velmi vytížený: zkuste to znovu za chvíli.',
+      'error.drawTimeout': 'Toto losování trvalo příliš dlouho: zkuste menší okruh nebo kratší vzdálenost.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Světlý',
+      'theme.dark': 'Tmavý',
+      'theme.buttonTitle': 'Změnit motiv (auto / světlý / tmavý)'
     },
     // "pl" (polonais, ISO 639-1) : langue nationale de la Pologne, ajoutée à la demande explicite de
     // l'utilisateur en rattrapage — même inversion de politique que le tchèque ci-dessus.
@@ -35278,7 +35566,15 @@
       'transport.voitureElectrique.label': "samochód elektryczny",
       'transport.van.label': "kamper",
       'transport.moto.label': "motocykl",
-      'transport.velo.label': "rower"
+      'transport.velo.label': "rower",
+
+      'error.tooManyRequests': 'Zbyt wiele żądań w krótkim czasie: spróbuj ponownie za minutę.',
+      'error.serverBusy': 'Serwer jest bardzo obciążony: spróbuj ponownie za chwilę.',
+      'error.drawTimeout': 'To losowanie trwało zbyt długo: spróbuj z mniejszym promieniem lub mniejszą odległością.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Jasny',
+      'theme.dark': 'Ciemny',
+      'theme.buttonTitle': 'Zmień motyw (auto / jasny / ciemny)'
     },
     // "sk" (slovaque, ISO 639-1) : langue nationale de la Slovaquie, ajoutée à la demande explicite
     // de l'utilisateur en rattrapage — même inversion de politique que le tchèque/le polonais.
@@ -36224,7 +36520,15 @@
       'transport.voitureElectrique.label': "elektromobil",
       'transport.van.label': "karavan",
       'transport.moto.label': "motorka",
-      'transport.velo.label': "bicykel"
+      'transport.velo.label': "bicykel",
+
+      'error.tooManyRequests': 'Príliš veľa požiadaviek v krátkom čase: skúste to znova o minútu.',
+      'error.serverBusy': 'Server je veľmi vyťažený: skúste to znova o chvíľu.',
+      'error.drawTimeout': 'Toto žrebovanie trvalo príliš dlho: skúste menší okruh alebo kratšiu vzdialenosť.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Svetlý',
+      'theme.dark': 'Tmavý',
+      'theme.buttonTitle': 'Zmeniť motív (auto / svetlý / tmavý)'
     },
     // "hu" (hongrois, ISO 639-1) : langue nationale de la Hongrie, ajoutée à la demande explicite de
     // l'utilisateur en rattrapage — même inversion de politique que le tchèque/le polonais/le
@@ -37171,7 +37475,15 @@
       'transport.voitureElectrique.label': "elektromos autó",
       'transport.van.label': "lakóautó",
       'transport.moto.label': "motorkerékpár",
-      'transport.velo.label': "kerékpár"
+      'transport.velo.label': "kerékpár",
+
+      'error.tooManyRequests': 'Túl sok kérés rövid idő alatt: próbáld újra egy perc múlva.',
+      'error.serverBusy': 'A szerver nagyon leterhelt: próbáld újra néhány pillanat múlva.',
+      'error.drawTimeout': 'Ez a sorsolás túl sokáig tartott: próbálj kisebb sugarat vagy távolságot.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Világos',
+      'theme.dark': 'Sötét',
+      'theme.buttonTitle': 'Téma váltása (auto / világos / sötét)'
     },
     // "sl" (slovène, ISO 639-1) : langue nationale de la Slovénie, ajoutée à la demande explicite de
     // l'utilisateur en rattrapage — même inversion de politique que le tchèque/le polonais/le
@@ -38118,7 +38430,15 @@
       'transport.voitureElectrique.label': 'električni avto',
       'transport.van.label': 'avtodom',
       'transport.moto.label': 'motor',
-      'transport.velo.label': 'kolo'
+      'transport.velo.label': 'kolo',
+
+      'error.tooManyRequests': 'Preveč zahtev v kratkem času: poskusite znova čez minuto.',
+      'error.serverBusy': 'Strežnik je zelo obremenjen: poskusite znova čez nekaj trenutkov.',
+      'error.drawTimeout': 'To žrebanje je trajalo predolgo: poskusite z manjšim radijem ali krajšo razdaljo.',
+      'theme.auto': 'Samodejno',
+      'theme.light': 'Svetla',
+      'theme.dark': 'Temna',
+      'theme.buttonTitle': 'Spremeni temo (samodejno / svetla / temna)'
     },
     // "hr" (croate, ISO 639-1) : langue nationale de la Croatie, ajoutée à la demande explicite de
     // l'utilisateur en rattrapage — même inversion de politique que le tchèque/le polonais/le
@@ -39066,7 +39386,15 @@
       'transport.voitureElectrique.label': "električni automobil",
       'transport.van.label': "kamper",
       'transport.moto.label': "motocikl",
-      'transport.velo.label': "bicikl"
+      'transport.velo.label': "bicikl",
+
+      'error.tooManyRequests': 'Previše zahtjeva u kratkom vremenu: pokušajte ponovno za minutu.',
+      'error.serverBusy': 'Poslužitelj je jako opterećen: pokušajte ponovno za nekoliko trenutaka.',
+      'error.drawTimeout': 'Ovo izvlačenje trajalo je predugo: pokušajte s manjim radijusom ili udaljenošću.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Svijetla',
+      'theme.dark': 'Tamna',
+      'theme.buttonTitle': 'Promijeni temu (auto / svijetla / tamna)'
 
     },
     // "bs" (bosniaque, ISO 639-1) : l'une des trois langues constitutionnelles de la
@@ -40016,7 +40344,15 @@
       'transport.voitureElectrique.label': "električni automobil",
       'transport.van.label': "kamper",
       'transport.moto.label': "motocikl",
-      'transport.velo.label': "bicikl"
+      'transport.velo.label': "bicikl",
+
+      'error.tooManyRequests': 'Previše zahtjeva u kratkom vremenu: pokušajte ponovo za minutu.',
+      'error.serverBusy': 'Server je jako opterećen: pokušajte ponovo za nekoliko trenutaka.',
+      'error.drawTimeout': 'Ovo izvlačenje je trajalo predugo: pokušajte s manjim radijusom ili udaljenošću.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Svijetla',
+      'theme.dark': 'Tamna',
+      'theme.buttonTitle': 'Promijeni temu (auto / svijetla / tamna)'
 
     },
     // "sr" (serbe, ISO 639-1, écrit en alphabet cyrillique serbe) : l'une des trois langues
@@ -40967,7 +41303,15 @@
       'transport.voitureElectrique.label': "електрични аутомобил",
       'transport.van.label': "кампер",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "бицикл"
+      'transport.velo.label': "бицикл",
+
+      'error.tooManyRequests': 'Превише захтева у кратком времену: покушајте поново за минут.',
+      'error.serverBusy': 'Сервер је веома оптерећен: покушајте поново за неколико тренутака.',
+      'error.drawTimeout': 'Ово извлачење је трајало предуго: покушајте са мањим радијусом или удаљеношћу.',
+      'theme.auto': 'Ауто',
+      'theme.light': 'Светла',
+      'theme.dark': 'Тамна',
+      'theme.buttonTitle': 'Промени тему (ауто / светла / тамна)'
 
     },
     // "da" (danois, ISO 639-1) : langue nationale du Danemark, ajoutée avec le pays lui-même —
@@ -41914,7 +42258,15 @@
       'transport.voitureElectrique.label': "elbil",
       'transport.van.label': "autocamper",
       'transport.moto.label': "motorcykel",
-      'transport.velo.label': "cykel"
+      'transport.velo.label': "cykel",
+
+      'error.tooManyRequests': 'For mange forespørgsler på kort tid: prøv igen om en minut.',
+      'error.serverBusy': 'Serveren er meget belastet: prøv igen om et øjeblik.',
+      'error.drawTimeout': 'Denne udtrækning tog for lang tid: prøv en mindre radius eller afstand.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Lys',
+      'theme.dark': 'Mørk',
+      'theme.buttonTitle': 'Skift tema (auto / lys / mørk)'
 
     },
     // "no" (norvégien, ISO 639-1, macro-code) : langue nationale de la Norvège, ajoutée avec le pays
@@ -42870,7 +43222,15 @@
       'transport.voitureElectrique.label': "elbil",
       'transport.van.label': "bobil",
       'transport.moto.label': "motorsykkel",
-      'transport.velo.label': "sykkel"
+      'transport.velo.label': "sykkel",
+
+      'error.tooManyRequests': 'For mange forespørsler på kort tid: prøv igjen om et minutt.',
+      'error.serverBusy': 'Serveren er svært belastet: prøv igjen om noen øyeblikk.',
+      'error.drawTimeout': 'Denne trekningen tok for lang tid: prøv en mindre radius eller avstand.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Lys',
+      'theme.dark': 'Mørk',
+      'theme.buttonTitle': 'Bytt tema (auto / lys / mørk)'
 
     },
     // "sv" (suédois, ISO 639-1) : langue nationale de la Suède, ajoutée avec le pays lui-même —
@@ -43821,7 +44181,15 @@
       'transport.voitureElectrique.label': "elbil",
       'transport.van.label': "husbil",
       'transport.moto.label': "motorcykel",
-      'transport.velo.label': "cykel"
+      'transport.velo.label': "cykel",
+
+      'error.tooManyRequests': 'För många förfrågningar på kort tid: försök igen om en minut.',
+      'error.serverBusy': 'Servern är hårt belastad: försök igen om en stund.',
+      'error.drawTimeout': 'Denna dragning tog för lång tid: prova en mindre radie eller ett kortare avstånd.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Ljust',
+      'theme.dark': 'Mörkt',
+      'theme.buttonTitle': 'Byt tema (auto / ljust / mörkt)'
 
     },
     // "fi" (finnois, ISO 639-1) : langue nationale de la Finlande, ajoutée avec le pays lui-même —
@@ -44773,7 +45141,15 @@
       'transport.voitureElectrique.label': "sähköauto",
       'transport.van.label': "matkailuauto",
       'transport.moto.label': "moottoripyörä",
-      'transport.velo.label': "polkupyörä"
+      'transport.velo.label': "polkupyörä",
+
+      'error.tooManyRequests': 'Liian monta pyyntöä lyhyessä ajassa: yritä uudelleen minuutin kuluttua.',
+      'error.serverBusy': 'Palvelin on hyvin kuormittunut: yritä uudelleen hetken kuluttua.',
+      'error.drawTimeout': 'Tämä arvonta kesti liian kauan: kokeile pienempää sädettä tai etäisyyttä.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Vaalea',
+      'theme.dark': 'Tumma',
+      'theme.buttonTitle': 'Vaihda teemaa (auto / vaalea / tumma)'
 
     },
     // "sq" (shqip/albanais, ISO 639-1) : langue nationale de l'Albanie, ajoutée avec le pays lui-même
@@ -45731,7 +46107,15 @@
       'transport.voitureElectrique.label': "makinë elektrike",
       'transport.van.label': "kamper",
       'transport.moto.label': "motoçikletë",
-      'transport.velo.label': "biçikletë"
+      'transport.velo.label': "biçikletë",
+
+      'error.tooManyRequests': 'Shumë kërkesa në një kohë të shkurtër: provoni përsëri pas një minute.',
+      'error.serverBusy': 'Serveri është shumë i ngarkuar: provoni përsëri pas pak çastesh.',
+      'error.drawTimeout': 'Ky short po zgjaste shumë: provoni një rreze ose distancë më të vogël.',
+      'theme.auto': 'Auto',
+      'theme.light': 'E çelët',
+      'theme.dark': 'E errët',
+      'theme.buttonTitle': 'Ndrysho temën (auto / e çelët / e errët)'
 
     },
     // "cnr" (crnogorski/monténégrin, ISO 639-3 — pas de code 639-1, même situation que le scots
@@ -46691,7 +47075,15 @@
       'transport.voitureElectrique.label': "električni automobil",
       'transport.van.label': "kamper",
       'transport.moto.label': "motocikl",
-      'transport.velo.label': "bicikl"
+      'transport.velo.label': "bicikl",
+
+      'error.tooManyRequests': 'Previše zahtjeva u kratkom vremenu: pokušajte ponovo za minut.',
+      'error.serverBusy': 'Server je jako opterećen: pokušajte ponovo za nekoliko trenutaka.',
+      'error.drawTimeout': 'Ovo izvlačenje je trajalo predugo: pokušajte s manjim radijusom ili udaljenošću.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Svijetla',
+      'theme.dark': 'Tamna',
+      'theme.buttonTitle': 'Promijeni temu (auto / svijetla / tamna)'
 
     },
     // "mk" (macédonien, ISO 639-1) : langue nationale de la Macédoine du Nord, ajoutée avec le pays
@@ -47646,7 +48038,15 @@
       'transport.voitureElectrique.label': "електричен автомобил",
       'transport.van.label': "комбе",
       'transport.moto.label': "мотор",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Премногу барања за кратко време: обидете се повторно за една минута.',
+      'error.serverBusy': 'Серверот е многу оптоварен: обидете се повторно за неколку моменти.',
+      'error.drawTimeout': 'Ова извлекување траеше предолго: обидете се со помал радиус или растојание.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Светла',
+      'theme.dark': 'Темна',
+      'theme.buttonTitle': 'Промени тема (авто / светла / темна)'
     },
     // "ro" (roumain standard, ISO 639-1) : ajouté avec la Serbie plutôt qu'avec un pays roumanophone
     // (aucun n'est couvert par cette app) — langue co-officielle de la province autonome de
@@ -48598,7 +48998,15 @@
       'transport.voitureElectrique.label': "mașină electrică",
       'transport.van.label': "camionetă",
       'transport.moto.label': "motocicletă",
-      'transport.velo.label': "bicicletă"
+      'transport.velo.label': "bicicletă",
+
+      'error.tooManyRequests': 'Prea multe cereri într-un timp scurt: încercați din nou peste un minut.',
+      'error.serverBusy': 'Serverul este foarte solicitat: încercați din nou în câteva clipe.',
+      'error.drawTimeout': 'Această tragere la sorți dura prea mult: încercați o rază sau o distanță mai mică.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Luminos',
+      'theme.dark': 'Întunecat',
+      'theme.buttonTitle': 'Schimbă tema (auto / luminos / întunecat)'
     },
     // "el" (grec moderne, ISO 639-1) : langue nationale de la Grèce, ajoutée avec le pays lui-même —
     // premier de la série Grèce/Bulgarie/Roumanie. Écrite en alphabet grec (nouvelle famille de
@@ -49550,7 +49958,15 @@
       'transport.voitureElectrique.label': "ηλεκτρικό αυτοκίνητο",
       'transport.van.label': "βαν",
       'transport.moto.label': "μοτοσικλέτα",
-      'transport.velo.label': "ποδήλατο"
+      'transport.velo.label': "ποδήλατο",
+
+      'error.tooManyRequests': 'Πάρα πολλά αιτήματα σε σύντομο χρόνο: δοκιμάστε ξανά σε ένα λεπτό.',
+      'error.serverBusy': 'Ο διακομιστής είναι πολύ φορτωμένος: δοκιμάστε ξανά σε λίγες στιγμές.',
+      'error.drawTimeout': 'Αυτή η κλήρωση διαρκούσε πολύ: δοκιμάστε μικρότερη ακτίνα ή απόσταση.',
+      'theme.auto': 'Αυτόματο',
+      'theme.light': 'Φωτεινό',
+      'theme.dark': 'Σκοτεινό',
+      'theme.buttonTitle': 'Αλλαγή θέματος (αυτόματο / φωτεινό / σκοτεινό)'
     },
     // "bg" (bulgare, ISO 639-1) : langue nationale de la Bulgarie, ajoutée avec le pays lui-même.
     // Langue slave méridionale écrite en cyrillique, proche du macédonien déjà couvert (même
@@ -50504,7 +50920,15 @@
       'transport.voitureElectrique.label': "електрически автомобил",
       'transport.van.label': "ван",
       'transport.moto.label': "мотоциклет",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Твърде много заявки за кратко време: опитайте отново след минута.',
+      'error.serverBusy': 'Сървърът е силно натоварен: опитайте отново след няколко мига.',
+      'error.drawTimeout': 'Жребият отнемаше твърде много време: опитайте с по-малък радиус или разстояние.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Светла',
+      'theme.dark': 'Тъмна',
+      'theme.buttonTitle': 'Смяна на темата (авто / светла / тъмна)'
     },
     // "lv" (latviešu, ISO 639-1) : Latvijas valsts valoda, pievienota kopā ar pašu valsti.
     // Neviena reģionālā/mazākumtautību valoda netika pievienota atsevišķi šeit — latgaliešu (ltg,
@@ -51455,7 +51879,15 @@
       'transport.voitureElectrique.label': 'elektroauto',
       'transport.van.label': 'furgons',
       'transport.moto.label': 'motocikls',
-      'transport.velo.label': 'velosipēds'
+      'transport.velo.label': 'velosipēds',
+
+      'error.tooManyRequests': 'Pārāk daudz pieprasījumu īsā laikā: mēģiniet vēlreiz pēc minūtes.',
+      'error.serverBusy': 'Serveris ir ļoti noslogots: mēģiniet vēlreiz pēc brīža.',
+      'error.drawTimeout': 'Šī izloze ilga pārāk ilgi: izmēģiniet mazāku rādiusu vai attālumu.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Gaišs',
+      'theme.dark': 'Tumšs',
+      'theme.buttonTitle': 'Mainīt motīvu (auto / gaišs / tumšs)'
     },
     // "lt" (lietuvių, ISO 639-1) : Lietuvos valstybinė kalba, pievienota kartu su pačia valstybe.
     // Regioninė kalba pridėta atskirai (žemaitių/samogitų, "sgs", sk. LANG_NAMES/sgs žemiau) — reali
@@ -52405,7 +52837,15 @@
       'transport.voitureElectrique.label': 'elektromobilis',
       'transport.van.label': 'mikroautobusas',
       'transport.moto.label': 'motociklas',
-      'transport.velo.label': 'dviratis'
+      'transport.velo.label': 'dviratis',
+
+      'error.tooManyRequests': 'Per daug užklausų per trumpą laiką: bandykite dar kartą po minutės.',
+      'error.serverBusy': 'Serveris labai apkrautas: bandykite dar kartą po kelių akimirkų.',
+      'error.drawTimeout': 'Šis traukimas užtruko per ilgai: pabandykite mažesnį spindulį arba atstumą.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Šviesi',
+      'theme.dark': 'Tamsi',
+      'theme.buttonTitle': 'Keisti temą (auto / šviesi / tamsi)'
     },
     // "et" (eesti, ISO 639-1) : Eesti riigikeel, lisatud koos riigiga endaga.
     // Regionaalkeel lisatud eraldi (võru, "vro", vt LANG_NAMES/vro allpool) — Lõuna-Eesti keel oma
@@ -53356,7 +53796,15 @@
       'transport.voitureElectrique.label': 'elektriauto',
       'transport.van.label': 'kaubik',
       'transport.moto.label': 'mootorratas',
-      'transport.velo.label': 'jalgratas'
+      'transport.velo.label': 'jalgratas',
+
+      'error.tooManyRequests': 'Liiga palju päringuid lühikese aja jooksul: proovige minuti pärast uuesti.',
+      'error.serverBusy': 'Server on väga koormatud: proovige mõne hetke pärast uuesti.',
+      'error.drawTimeout': 'See loosimine võttis liiga kaua aega: proovige väiksemat raadiust või vahemaad.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Hele',
+      'theme.dark': 'Tume',
+      'theme.buttonTitle': 'Vaheta teemat (auto / hele / tume)'
     },
     // "ltg" (latgaliešu/latgalīšu, ISO 639-3) : reģionālā valoda Latvijas Latgales novadā,
     // aizsargāta ar likumu kā "latviešu valodas vēsturisks paveids" (Valsts valodas likuma 3. pants)
@@ -54310,7 +54758,15 @@
       'transport.voitureElectrique.label': 'elektroauto',
       'transport.van.label': 'furgons',
       'transport.moto.label': 'motocikls',
-      'transport.velo.label': 'velosipēds'
+      'transport.velo.label': 'velosipēds',
+
+      'error.tooManyRequests': 'Par daudz pīprasejumu eisā laikā: paraugit vēļreiz piec minutis.',
+      'error.serverBusy': 'Serveris ir cīši nūslūgōts: paraugit vēļreiz piec breiža.',
+      'error.drawTimeout': 'Itei izlūze vylkōs par ilgi: paraugit mozōku rādiusu voi attōlumu.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Gaišs',
+      'theme.dark': 'Tumšs',
+      'theme.buttonTitle': 'Mainēt motivu (auto / gaišs / tumšs)'
     },
     // "vro" (võro, ISO 639-3) : Lõuna-Eesti keel/murre, kõneldud peamiselt Võrumaal ja Setomaal
     // (~75 000 kõnelejat), oma kirjastandard ja Wikipedia versioon (vro.wikipedia.org), Võru
@@ -55264,7 +55720,15 @@
       'transport.voitureElectrique.label': 'elektriauto',
       'transport.van.label': 'kaubik',
       'transport.moto.label': 'mootorratas',
-      'transport.velo.label': 'jalgratas'
+      'transport.velo.label': 'jalgratas',
+
+      'error.tooManyRequests': 'Pall\'o hulga päringit lühküq aja seen: proovigõq minoti peräst vahtsõst.',
+      'error.serverBusy': 'Server om väega koormat: proovigõq mõnõ hetke peräst vahtsõst.',
+      'error.drawTimeout': 'Seo loosiminõ võtt\' pall\'o aigo: proovigõq väikumbat raadiust vai vaihtamaad.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Hele',
+      'theme.dark': 'Tummõ',
+      'theme.buttonTitle': 'Vaihtaq teemat (auto / hele / tummõ)'
     },
     // "sgs" (žemaitiu/žemaitėška, ISO 639-3) : regioninė kalba/tarmė Žemaitijos regione (šiaurės
     // vakarų Lietuva), ISO 639-3 klasifikuojama kaip atskira kalba dėl didelio fonetinio/leksinio
@@ -56219,7 +56683,15 @@
       'transport.voitureElectrique.label': 'elektromobilis',
       'transport.van.label': 'mikroautobusas',
       'transport.moto.label': 'motociklas',
-      'transport.velo.label': 'dviratis'
+      'transport.velo.label': 'dviratis',
+
+      'error.tooManyRequests': 'Par daug ožklausū par trumpa čiesa: bandīkėt da sīkė po minotės.',
+      'error.serverBusy': 'Serveris labā apkrauts: bandīkėt da sīkė po kelių akimirku.',
+      'error.drawTimeout': 'Šėts traukėms ožtroka par ėlgā: pabandīkėt mažesnė spindolė ar atstuma.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Šviesi',
+      'theme.dark': 'Tamsi',
+      'theme.buttonTitle': 'Keistė tema (auto / šviesi / tamsi)'
     },
     // "is" (íslenska, ISO 639-1) : þjóðtunga Íslands, bætt við ásamt landinu sjálfu. Engin
     // svæðisbundin/minnihlutatunga bætt við sérstaklega — Ísland er einsleitt hvað tungumál varðar,
@@ -57167,7 +57639,15 @@
       'transport.voitureElectrique.label': 'rafbíll',
       'transport.van.label': 'sendibíll',
       'transport.moto.label': 'vélhjól',
-      'transport.velo.label': 'reiðhjól'
+      'transport.velo.label': 'reiðhjól',
+
+      'error.tooManyRequests': 'Of margar beiðnir á stuttum tíma: reyndu aftur eftir eina mínútu.',
+      'error.serverBusy': 'Netþjónninn er undir miklu álagi: reyndu aftur eftir smástund.',
+      'error.drawTimeout': 'Þessi útdráttur tók of langan tíma: prófaðu minni radíus eða styttri fjarlægð.',
+      'theme.auto': 'Sjálfvirkt',
+      'theme.light': 'Ljóst',
+      'theme.dark': 'Dökkt',
+      'theme.buttonTitle': 'Skipta um þema (sjálfvirkt / ljóst / dökkt)'
     },
     // "fo" (føroyskt/féroïen, ISO 639-1) : langue nationale/co-officielle des îles Féroé, ajoutée
     // avec le territoire lui-même — co-officielle avec le danois (da, déjà couvert depuis l'ajout
@@ -58119,7 +58599,15 @@
       'transport.voitureElectrique.label': 'elbilur',
       'transport.van.label': 'sendibilur',
       'transport.moto.label': 'motorhjól',
-      'transport.velo.label': 'súkkla'
+      'transport.velo.label': 'súkkla',
+
+      'error.tooManyRequests': 'Ov nógvar fyrispurningar á stuttari tíð: royn aftur um eina minutt.',
+      'error.serverBusy': 'Ambætarin er sera nógv brúktur: royn aftur um eina løtu.',
+      'error.drawTimeout': 'Hesin útdrátturin tók ov langa tíð: royn ein minni radius ella styttri fjarlægd.',
+      'theme.auto': 'Sjálvvirkið',
+      'theme.light': 'Ljóst',
+      'theme.dark': 'Myrkt',
+      'theme.buttonTitle': 'Skift tema (sjálvvirkið / ljóst / myrkt)'
     },
 
     gag: {
@@ -59064,7 +59552,15 @@
       'transport.voitureElectrique.label': "elektrik avtomobili",
       'transport.van.label': "kemper",
       'transport.moto.label': "motosiklet",
-      'transport.velo.label': "bisiklet"
+      'transport.velo.label': "bisiklet",
+
+      'error.tooManyRequests': 'Kısa vakıtta pek çok istek: bir minuttan sora tekrar deneyin.',
+      'error.serverBusy': 'Server pek yüklü: birkaç momenttan sora tekrar deneyin.',
+      'error.drawTimeout': 'Bu çekiliş pek uzun sürdü: taa küçük bir radius osa uzaklık deneyin.',
+      'theme.auto': 'Avto',
+      'theme.light': 'Açık',
+      'theme.dark': 'Karannık',
+      'theme.buttonTitle': 'Temayı diiştir (avto / açık / karannık)'
 
     },
 
@@ -60010,7 +60506,15 @@
       'transport.voitureElectrique.label': "электрамабіль",
       'transport.van.label': "кемпер",
       'transport.moto.label': "матацыкл",
-      'transport.velo.label': "веласіпед"
+      'transport.velo.label': "веласіпед",
+
+      'error.tooManyRequests': 'Занадта шмат запытаў за кароткі час: паспрабуйце зноў праз хвіліну.',
+      'error.serverBusy': 'Сервер вельмі загружаны: паспрабуйце зноў праз некалькі імгненняў.',
+      'error.drawTimeout': 'Жараб\'ёўка доўжылася занадта доўга: паспрабуйце меншы радыус або адлегласць.',
+      'theme.auto': 'Аўта',
+      'theme.light': 'Светлая',
+      'theme.dark': 'Цёмная',
+      'theme.buttonTitle': 'Змяніць тэму (аўта / светлая / цёмная)'
 
     },
 
@@ -60956,7 +61460,15 @@
       'transport.voitureElectrique.label': "электромобиль",
       'transport.van.label': "кемпер",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Слишком много запросов за короткое время: попробуйте снова через минуту.',
+      'error.serverBusy': 'Сервер сильно загружен: попробуйте снова через несколько мгновений.',
+      'error.drawTimeout': 'Жеребьёвка заняла слишком много времени: попробуйте меньший радиус или расстояние.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Светлая',
+      'theme.dark': 'Тёмная',
+      'theme.buttonTitle': 'Сменить тему (авто / светлая / тёмная)'
 
     },
 
@@ -61902,7 +62414,15 @@
       'transport.voitureElectrique.label': "електромобіль",
       'transport.van.label': "кемпер",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Забагато запитів за короткий час: спробуйте ще раз за хвилину.',
+      'error.serverBusy': 'Сервер дуже завантажений: спробуйте ще раз за кілька митей.',
+      'error.drawTimeout': 'Жеребкування тривало надто довго: спробуйте менший радіус або відстань.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Світла',
+      'theme.dark': 'Темна',
+      'theme.buttonTitle': 'Змінити тему (авто / світла / темна)'
 
     },
 
@@ -62848,7 +63368,15 @@
       'transport.voitureElectrique.label': "elektrik avtomobili",
       'transport.van.label': "kemper",
       'transport.moto.label': "motosiklet",
-      'transport.velo.label': "velosiped"
+      'transport.velo.label': "velosiped",
+
+      'error.tooManyRequests': 'Qısqa vaqıtta pek çoq talap: bir daqqadan sonra yañıdan deñeñiz.',
+      'error.serverBusy': 'Server pek yüklü: bir qaç andan sonra yañıdan deñeñiz.',
+      'error.drawTimeout': 'Bu qura tartuv pek uzun sürdi: daa kiçik radius ya da mesafe deñeñiz.',
+      'theme.auto': 'Avto',
+      'theme.light': 'Açıq',
+      'theme.dark': 'Qaranlıq',
+      'theme.buttonTitle': 'Temanı deñiştir (avto / açıq / qaranlıq)'
 
     },
 
@@ -63794,7 +64322,15 @@
       'transport.voitureElectrique.label': "elektrikli otomobil",
       'transport.van.label': "karavan",
       'transport.moto.label': "motosiklet",
-      'transport.velo.label': "bisiklet"
+      'transport.velo.label': "bisiklet",
+
+      'error.tooManyRequests': 'Kısa sürede çok fazla istek: bir dakika sonra tekrar deneyin.',
+      'error.serverBusy': 'Sunucu çok yoğun: birkaç saniye sonra tekrar deneyin.',
+      'error.drawTimeout': 'Bu çekiliş çok uzun sürdü: daha küçük bir yarıçap veya mesafe deneyin.',
+      'theme.auto': 'Otomatik',
+      'theme.light': 'Açık',
+      'theme.dark': 'Koyu',
+      'theme.buttonTitle': 'Temayı değiştir (otomatik / açık / koyu)'
 
     },
 
@@ -64740,7 +65276,15 @@
       'transport.voitureElectrique.label': "ელექტრომობილი",
       'transport.van.label': "კარავანი",
       'transport.moto.label': "მოტოციკლი",
-      'transport.velo.label': "ველოსიპედი"
+      'transport.velo.label': "ველოსიპედი",
+
+      'error.tooManyRequests': 'ძალიან ბევრი მოთხოვნა მცირე დროში: სცადეთ ერთ წუთში.',
+      'error.serverBusy': 'სერვერი ძალიან დატვირთულია: სცადეთ რამდენიმე წამში.',
+      'error.drawTimeout': 'ეს წილისყრა ძალიან დიდხანს გრძელდა: სცადეთ უფრო მცირე რადიუსი ან მანძილი.',
+      'theme.auto': 'ავტო',
+      'theme.light': 'ღია',
+      'theme.dark': 'მუქი',
+      'theme.buttonTitle': 'თემის შეცვლა (ავტო / ღია / მუქი)'
 
     },
 
@@ -65681,7 +66225,20 @@
       'transport.voitureElectrique.label': "аелектромашина",
       'transport.van.label': "акараван",
       'transport.moto.label': "амотоцикл",
-      'transport.velo.label': "авелосипед"
+      'transport.velo.label': "авелосипед",
+
+      'error.tooManyRequests': 'Аамҭа кьаҿк азы ааҳәарақәа рацәоуп: минуҭк ашьҭахь иеиҭашәхәаԥш.',
+      'error.serverBusy': 'Асервер даара иҭаҵоуп: иаартым ашьҭахь иеиҭашәхәаԥш.',
+      'error.drawTimeout': 'Алхра аамҭа рацәа аанахәон: арадиус ма ацәыхара еиҵоу шәхәаԥш.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Алашара',
+      'theme.dark': 'Алашьцара',
+      'theme.buttonTitle': 'Атема аԥсахра (авто / алашара / алашьцара)',
+      'form.daysPerCity.label': 'Ақалақь акы аҟны амшқәа рхыԥхьаӡара',
+      'form.daysPerCity.unitMin': 'амш аминимум',
+      'form.daysPerCity.unitMax': 'амш амаксимум',
+      'form.daysPerCity.hint': 'Ақалақь акы аҟны еишьҭагыланы ирхыргауа аҵхқәа рхыԥхьаӡара, ари аҩ-ҳәаа рыбжьара иарбанзаалак ала иалхуп.',
+      'error.minMaxDaysPerCity': 'Ақалақь акы аҟны амшқәа рминимум ({min}) амаксимум ({max}) иахысыр ауам.'
     },
     hy: {
       'lang.buttonLabel': 'Լեզու',
@@ -66625,7 +67182,15 @@
       'transport.voitureElectrique.label': 'էլեկտրական մեքենա',
       'transport.van.label': 'վան',
       'transport.moto.label': 'մոտոցիկլետ',
-      'transport.velo.label': 'հեծանիվ'
+      'transport.velo.label': 'հեծանիվ',
+
+      'error.tooManyRequests': 'Չափազանց շատ հարցումներ կարճ ժամանակում. փորձեք կրկին մեկ րոպեից։',
+      'error.serverBusy': 'Սերվերը խիստ ծանրաբեռնված է. փորձեք կրկին մի քանի ակնթարթից։',
+      'error.drawTimeout': 'Այս վիճակահանությունը չափազանց երկար տևեց. փորձեք ավելի փոքր շառավիղ կամ հեռավորություն։',
+      'theme.auto': 'Ավտո',
+      'theme.light': 'Բաց',
+      'theme.dark': 'Մուգ',
+      'theme.buttonTitle': 'Փոխել թեման (ավտո / բաց / մուգ)'
     },
     az: {
       'lang.buttonLabel': 'Dil',
@@ -67569,7 +68134,15 @@
       'transport.voitureElectrique.label': 'elektrik avtomobil',
       'transport.van.label': 'furqon',
       'transport.moto.label': 'motosiklet',
-      'transport.velo.label': 'velosiped'
+      'transport.velo.label': 'velosiped',
+
+      'error.tooManyRequests': 'Qısa müddətdə həddindən artıq sorğu: bir dəqiqədən sonra yenidən cəhd edin.',
+      'error.serverBusy': 'Server çox yüklüdür: bir neçə andan sonra yenidən cəhd edin.',
+      'error.drawTimeout': 'Bu püşkatma çox uzun çəkdi: daha kiçik radius və ya məsafə sınayın.',
+      'theme.auto': 'Avto',
+      'theme.light': 'Açıq',
+      'theme.dark': 'Tünd',
+      'theme.buttonTitle': 'Mövzunu dəyiş (avto / açıq / tünd)'
     },
     ar: {
       'lang.buttonLabel': 'اللغة',
@@ -68513,7 +69086,15 @@
       'transport.voitureElectrique.label': 'سيارة كهربائية',
       'transport.van.label': 'حافلة صغيرة',
       'transport.moto.label': 'دراجة نارية',
-      'transport.velo.label': 'دراجة هوائية'
+      'transport.velo.label': 'دراجة هوائية',
+
+      'error.tooManyRequests': 'طلبات كثيرة جدًا في وقت قصير: أعد المحاولة بعد دقيقة.',
+      'error.serverBusy': 'الخادم مشغول جدًا: أعد المحاولة بعد لحظات.',
+      'error.drawTimeout': 'استغرق هذا السحب وقتًا طويلًا جدًا: جرّب نصف قطر أو مسافة أصغر.',
+      'theme.auto': 'تلقائي',
+      'theme.light': 'فاتح',
+      'theme.dark': 'داكن',
+      'theme.buttonTitle': 'تغيير السمة (تلقائي / فاتح / داكن)'
     },
     ku: {
       'lang.buttonLabel': 'Ziman',
@@ -69457,7 +70038,15 @@
       'transport.voitureElectrique.label': 'otomobîla elektrîkî',
       'transport.van.label': 'van',
       'transport.moto.label': 'motor',
-      'transport.velo.label': 'bisiklêt'
+      'transport.velo.label': 'bisiklêt',
+
+      'error.tooManyRequests': 'Di demeke kurt de gelek daxwaz: piştî deqeyekê dîsa biceribîne.',
+      'error.serverBusy': 'Pêşkêşkar pir mijûl e: piştî çend kêliyan dîsa biceribîne.',
+      'error.drawTimeout': 'Ev kişandin pir dirêj ajot: radîus an dûrahiyeke piçûktir biceribîne.',
+      'theme.auto': 'Otomatîk',
+      'theme.light': 'Ronî',
+      'theme.dark': 'Tarî',
+      'theme.buttonTitle': 'Temayê biguherîne (otomatîk / ronî / tarî)'
     },
     tru: {
       'lang.buttonLabel': 'Lišono',
@@ -70401,7 +70990,15 @@
       'transport.voitureElectrique.label': 'karta elektronayto',
       'transport.van.label': 'van',
       'transport.moto.label': 'motosikleṭ',
-      'transport.velo.label': 'aflag'
+      'transport.velo.label': 'aflag',
+
+      'error.tooManyRequests': 'Zayid ṭlobe b-zabno zcuro: nisyono ḥreno bar dqiqa.',
+      'error.serverBusy': 'U-server ṭamo maṣrufo-yo: nisyono ḥreno bar ḥa-zabno zcuro.',
+      'error.drawTimeout': 'U-baḥyoro griš zabno ṭamo: nisyono radius aw ruḥqo zcuro.',
+      'theme.auto': 'Otomatik',
+      'theme.light': 'Nhiro',
+      'theme.dark': 'Ḥeškho',
+      'theme.buttonTitle': 'Šaḥlef tema (otomatik / nhiro / ḥeškho)'
     },
     ady: {
       'lang.buttonLabel': 'Бзэ',
@@ -71345,7 +71942,15 @@
       'transport.voitureElectrique.label': 'электрик машинэ',
       'transport.van.label': 'ван',
       'transport.moto.label': 'мотоцикл',
-      'transport.velo.label': 'шыгу лъэрыгъ'
+      'transport.velo.label': 'шыгу лъэрыгъ',
+
+      'error.tooManyRequests': 'Зэман кIэщIым лъэIу куэдыщэ къэкIуащ: дакъикъэ дэкIмэ уегъажьэ.',
+      'error.serverBusy': 'Серверыр иным хуэдизу зэщIэхъуащ: зэман кIэщI дэкIмэ уегъажьэ.',
+      'error.drawTimeout': 'Хэхыныгъэм зэман куэд ихьащ: радиус е зэпэIухьэ цIыкIу къыхэх.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Нэху',
+      'theme.dark': 'КIыфI',
+      'theme.buttonTitle': 'Темэр зэхъуэкIын (авто / нэху / кIыфI)'
     },
     zgh: {
       'lang.buttonLabel': "ⵜⵓⵜⵍⴰⵢⵜ",
@@ -72268,7 +72873,15 @@
       'transport.voitureElectrique.label': "ⵜⴰⴽⵕⵕⵓⵙⵜ ⵜⴰⵜⵔⵉⵙⴰⵏⵜ",
       'transport.van.label': "ⴰⵄⵔⵔⴰⴱ",
       'transport.moto.label': "ⴰⵎⵓⵟⵓⵕ",
-      'transport.velo.label': "ⴰⴱⵉⵙⴽⵍⵉⵟ"
+      'transport.velo.label': "ⴰⴱⵉⵙⴽⵍⵉⵟ",
+
+      'error.tooManyRequests': 'ⵜⵓⵜⵔⵉⵡⵉⵏ ⴰⵟⵟⴰⵚ ⴳ ⵢⴰⵏ ⵓⵣⵎⵣ ⴰⵎⵥⵥⵢⴰⵏ: ⴰⵔⵎ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ ⴷⴼⴼⵉⵔ ⵢⴰⵜ ⵜⵓⵙⴷⵉⴷⵜ.',
+      'error.serverBusy': 'ⴰⵇⴷⴷⴰⵛ ⵉⵜⵜⵓⵙⵎⵔⵙ ⴰⵟⵟⴰⵚ: ⴰⵔⵎ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ ⴷⴼⴼⵉⵔ ⴽⵔⴰ ⵏ ⵜⵙⴷⵉⴷⵉⵏ.',
+      'error.drawTimeout': 'ⴰⵙⵙⵓⴼⵖ ⴰⴷ ⵉⵟⵟⵓⵍ ⴰⵟⵟⴰⵚ: ⴰⵔⵎ ⴰⵣⵢⴰⵔ ⵏⵖ ⴰⵎⵛⵡⴰⵕ ⵉⵎⵥⵥⵉⵏ.',
+      'theme.auto': 'ⴰⵡⵜⵓ',
+      'theme.light': 'ⴰⴼⴰⵡⴰⵏ',
+      'theme.dark': 'ⴰⴱⵔⴽⴰⵏ',
+      'theme.buttonTitle': 'ⴱⴷⴷⵍ ⴰⵙⵏⵜⵍ (ⴰⵡⵜⵓ / ⴰⴼⴰⵡⴰⵏ / ⴰⴱⵔⴽⴰⵏ)'
     },
     kab: {
       'lang.buttonLabel': "Tutlayt",
@@ -73191,7 +73804,15 @@
       'transport.voitureElectrique.label': "takeṛṛust tatrisant",
       'transport.van.label': "van",
       'transport.moto.label': "amutur",
-      'transport.velo.label': "avilu"
+      'transport.velo.label': "avilu",
+
+      'error.tooManyRequests': 'Aṭas n yissutar deg kra n wakud: ɛreḍ tikkelt-nniḍen deffir tesdat.',
+      'error.serverBusy': 'Aqeddac yeččur aṭas: ɛreḍ tikkelt-nniḍen deffir kra n tesdatin.',
+      'error.drawTimeout': 'Talalit-agi tṭul aṭas: ɛreḍ azyar neɣ amecwaṛ meẓẓiyen.',
+      'theme.auto': 'Awurman',
+      'theme.light': 'Aceɛlal',
+      'theme.dark': 'Aberkan',
+      'theme.buttonTitle': 'Beddel asentel (awurman / aceɛlal / aberkan)'
     },
     ha: {
       'lang.buttonLabel': "Harshe",
@@ -74114,7 +74735,15 @@
       'transport.voitureElectrique.label': "motar lantarki",
       'transport.van.label': "van",
       'transport.moto.label': "babur",
-      'transport.velo.label': "keke"
+      'transport.velo.label': "keke",
+
+      'error.tooManyRequests': 'Buƙatu sun yi yawa cikin ɗan lokaci: a sake gwadawa bayan minti ɗaya.',
+      'error.serverBusy': 'Sabar tana da aiki sosai: a sake gwadawa nan da ɗan lokaci.',
+      'error.drawTimeout': 'Wannan zaɓe ya ɗauki lokaci mai tsawo: a gwada rage iyakar nisa ko nisan tafiya.',
+      'theme.auto': 'Kai tsaye',
+      'theme.light': 'Haske',
+      'theme.dark': 'Duhu',
+      'theme.buttonTitle': 'Canza jigo (kai tsaye / haske / duhu)'
     },
     so: {
       'lang.buttonLabel': "Luqadda",
@@ -75037,7 +75666,15 @@
       'transport.voitureElectrique.label': "baabuur koronto",
       'transport.van.label': "van",
       'transport.moto.label': "mooto",
-      'transport.velo.label': "baaskiil"
+      'transport.velo.label': "baaskiil",
+
+      'error.tooManyRequests': 'Codsiyo aad u badan muddo gaaban gudaheed: isku day mar kale daqiiqad kadib.',
+      'error.serverBusy': 'Seerfarku aad buu u mashquulsan yahay: isku day mar kale waxyar kadib.',
+      'error.drawTimeout': 'Doorashadani waqti dheer bay qaadatay: isku day xadka masaafada ama masaafo ka yar.',
+      'theme.auto': 'Otomaatig',
+      'theme.light': 'Iftiin',
+      'theme.dark': 'Mugdi',
+      'theme.buttonTitle': 'Beddel muuqaalka (otomaatig / iftiin / mugdi)'
     },
     am: {
       'lang.buttonLabel': "ቋንቋ",
@@ -75960,7 +76597,15 @@
       'transport.voitureElectrique.label': "የኤሌክትሪክ መኪና",
       'transport.van.label': "ቫን",
       'transport.moto.label': "ሞተር ሳይክል",
-      'transport.velo.label': "ብስክሌት"
+      'transport.velo.label': "ብስክሌት",
+
+      'error.tooManyRequests': 'በአጭር ጊዜ ውስጥ በጣም ብዙ ጥያቄዎች፦ ከአንድ ደቂቃ በኋላ እንደገና ይሞክሩ።',
+      'error.serverBusy': 'አገልጋዩ በጣም ተጨናንቋል፦ ከጥቂት ጊዜ በኋላ እንደገና ይሞክሩ።',
+      'error.drawTimeout': 'ይህ ዕጣ ማውጣት በጣም ረጅም ጊዜ ወሰደ፦ ያነሰ የርቀት ገደብ ወይም ርቀት ይሞክሩ።',
+      'theme.auto': 'ራስ-ሰር',
+      'theme.light': 'ብሩህ',
+      'theme.dark': 'ጨለማ',
+      'theme.buttonTitle': 'ገጽታ ቀይር (ራስ-ሰር / ብሩህ / ጨለማ)'
     },
     om: {
       'lang.buttonLabel': "Afaan",
@@ -76883,7 +77528,15 @@
       'transport.voitureElectrique.label': "konkolaataa elektirikii",
       'transport.van.label': "vaanii",
       'transport.moto.label': "motor-saayikilii",
-      'transport.velo.label': "saayikilii"
+      'transport.velo.label': "saayikilii",
+
+      'error.tooManyRequests': 'Gaaffiiwwan baay\'een yeroo gabaabaa keessatti dhufan: daqiiqaa tokko booda irra deebi\'ii yaali.',
+      'error.serverBusy': 'Sarvariin baay\'ee dhiphateera: yeroo muraasa booda irra deebi\'ii yaali.',
+      'error.drawTimeout': 'Filannoon kun yeroo dheeraa fudhate: daangaa fageenyaa ykn fageenya xiqqaa yaali.',
+      'theme.auto': 'Ofumaan',
+      'theme.light': 'Ifaa',
+      'theme.dark': 'Dukkana',
+      'theme.buttonTitle': 'Bifa jijjiiri (ofumaan / ifaa / dukkana)'
     },
     ti: {
       'lang.buttonLabel': "ቋንቋ",
@@ -77806,7 +78459,15 @@
       'transport.voitureElectrique.label': "ኤሌክትሪካዊ መኪና",
       'transport.van.label': "ቫን",
       'transport.moto.label': "ሞተር",
-      'transport.velo.label': "ብሽክለታ"
+      'transport.velo.label': "ብሽክለታ",
+
+      'error.tooManyRequests': 'ኣብ ሓጺር እዋን ኣዝዩ ብዙሕ ሕቶታት ቀሪቡ፡ ድሕሪ ሓንቲ ደቒቕ ደጊምካ ፈትን።',
+      'error.serverBusy': 'እቲ ሰርቨር ኣዝዩ ተጸሚዱ ኣሎ፡ ድሕሪ ቁሩብ ደጊምካ ፈትን።',
+      'error.drawTimeout': 'እዚ ዕጫ ኣዝዩ ነዊሕ ግዜ ይወስድ ነበረ፡ ዝነኣሰ ደረት ርሕቀት ወይ ዝሓጸረ ርሕቀት ፈትን።',
+      'theme.auto': 'ኣውቶ',
+      'theme.light': 'ብሩህ',
+      'theme.dark': 'ጸልማት',
+      'theme.buttonTitle': 'ገጽታ ቀይር (ኣውቶ / ብሩህ / ጸልማት)'
     },
     sg: {
       'lang.buttonLabel': "Yângâ",
@@ -78729,7 +79390,15 @@
       'transport.voitureElectrique.label': "kutukutu ti kürâ",
       'transport.van.label': "van",
       'transport.moto.label': "moto",
-      'transport.velo.label': "velo"
+      'transport.velo.label': "velo",
+
+      'error.tooManyRequests': 'Âhûndängö ahon ndö mingi na yâ ti kêtê ngoi: tara ni ngbanga na pekô ti miniti ôko.',
+      'error.serverBusy': 'Serveur ayeke na kua mingi: tara ni ngbanga na pekô ti kêtê ngoi.',
+      'error.drawTimeout': 'Soro so ayeke mû ngoi mingi ahon ndö: tara na yongôro so kêtê.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Lâ',
+      'theme.dark': 'Bïrï',
+      'theme.buttonTitle': 'Changé lângö ti lê ni (auto / lâ / bïrï)'
     },
     sw: {
       'lang.buttonLabel': "Lugha",
@@ -79652,7 +80321,15 @@
       'transport.voitureElectrique.label': "gari la umeme",
       'transport.van.label': "gari la kambi",
       'transport.moto.label': "pikipiki",
-      'transport.velo.label': "baiskeli"
+      'transport.velo.label': "baiskeli",
+
+      'error.tooManyRequests': 'Maombi mengi mno kwa muda mfupi: jaribu tena baada ya dakika moja.',
+      'error.serverBusy': 'Seva ina shughuli nyingi sana: jaribu tena baada ya muda mfupi.',
+      'error.drawTimeout': 'Bahati nasibu hii ilikuwa inachukua muda mrefu mno: jaribu eneo au umbali mdogo zaidi.',
+      'theme.auto': 'Otomatiki',
+      'theme.light': 'Mwanga',
+      'theme.dark': 'Giza',
+      'theme.buttonTitle': 'Badilisha mandhari (otomatiki / mwanga / giza)'
     },
     rw: {
       'lang.buttonLabel': "Ururimi",
@@ -80575,7 +81252,15 @@
       'transport.voitureElectrique.label': "imodoka y'amashanyarazi",
       'transport.van.label': "imodoka yo kubamo",
       'transport.moto.label': "moto",
-      'transport.velo.label': "igare"
+      'transport.velo.label': "igare",
+
+      'error.tooManyRequests': 'Ibisabwa byinshi cyane mu gihe gito: ongera ugerageze nyuma y\'umunota umwe.',
+      'error.serverBusy': 'Seriveri ifite akazi kenshi cyane: ongera ugerageze mu kanya gato.',
+      'error.drawTimeout': 'Iyi tombola yatwaraga igihe kirekire cyane: gerageza intera ntarengwa ntoya cyangwa intera ngufi.',
+      'theme.auto': 'Byikora',
+      'theme.light': 'Urumuri',
+      'theme.dark': 'Umwijima',
+      'theme.buttonTitle': 'Hindura insanganyamatsiko (byikora / urumuri / umwijima)'
     },
     mg: {
       'lang.buttonLabel': "Fiteny",
@@ -81498,7 +82183,15 @@
       'transport.voitureElectrique.label': "fiara mandeha amin'ny herinaratra",
       'transport.van.label': "fiara fonenana",
       'transport.moto.label': "môtô",
-      'transport.velo.label': "bisikileta"
+      'transport.velo.label': "bisikileta",
+
+      'error.tooManyRequests': 'Fangatahana be loatra tao anatin\'ny fotoana fohy: andramo indray afaka iray minitra.',
+      'error.serverBusy': 'Be asa loatra ny mpizara: andramo indray afaka kelikely.',
+      'error.drawTimeout': 'Naharitra loatra ity fisafidianana ity: andramo fetran\'ny halavirana na halavirana kely kokoa.',
+      'theme.auto': 'Ho azy',
+      'theme.light': 'Mazava',
+      'theme.dark': 'Maizina',
+      'theme.buttonTitle': 'Ovay ny endrika (ho azy / mazava / maizina)'
     },
     crs: {
       'lang.buttonLabel': "Lalang",
@@ -82421,7 +83114,15 @@
       'transport.voitureElectrique.label': "loto elektrik",
       'transport.van.label': "van",
       'transport.moto.label': "motosiklet",
-      'transport.velo.label': "bisiklet"
+      'transport.velo.label': "bisiklet",
+
+      'error.tooManyRequests': 'Tro bokou demann dan en pti letan: reesey dan en minit.',
+      'error.serverBusy': 'Server i tro okipe: reesey dan en pti moman.',
+      'error.drawTimeout': 'Sa tiraz ti pe pran tro bokou letan: esey en rayon oubyen en distans pli pti.',
+      'theme.auto': 'Oto',
+      'theme.light': 'Kler',
+      'theme.dark': 'Fonse',
+      'theme.buttonTitle': 'Sanz tenm (oto / kler / fonse)'
     },
     af: {
       'lang.buttonLabel': "Taal",
@@ -83344,7 +84045,15 @@
       'transport.voitureElectrique.label': "elektriese motor",
       'transport.van.label': "kampeerwa",
       'transport.moto.label': "motorfiets",
-      'transport.velo.label': "fiets"
+      'transport.velo.label': "fiets",
+
+      'error.tooManyRequests': 'Te veel versoeke in \'n kort tyd: probeer oor \'n minuut weer.',
+      'error.serverBusy': 'Die bediener is baie besig: probeer oor \'n paar oomblikke weer.',
+      'error.drawTimeout': 'Hierdie trekking het te lank geduur: probeer \'n kleiner radius of afstand.',
+      'theme.auto': 'Outo',
+      'theme.light': 'Lig',
+      'theme.dark': 'Donker',
+      'theme.buttonTitle': 'Verander tema (outo / lig / donker)'
     },
     zu: {
       'lang.buttonLabel': "Ulimi",
@@ -84267,7 +84976,15 @@
       'transport.voitureElectrique.label': "imoto kagesi",
       'transport.van.label': "iveni yokukhempa",
       'transport.moto.label': "isithuthuthu",
-      'transport.velo.label': "ibhayisikili"
+      'transport.velo.label': "ibhayisikili",
+
+      'error.tooManyRequests': 'Izicelo eziningi kakhulu esikhathini esifushane: zama futhi ngemva komzuzu owodwa.',
+      'error.serverBusy': 'Iseva imatasa kakhulu: zama futhi ngemva kwesikhashana.',
+      'error.drawTimeout': 'Lokhu kukhetha bekuthatha isikhathi eside kakhulu: zama umkhawulo webanga omncane noma ibanga elincane.',
+      'theme.auto': 'Zenzakalela',
+      'theme.light': 'Ukukhanya',
+      'theme.dark': 'Ubumnyama',
+      'theme.buttonTitle': 'Shintsha itimu (zenzakalela / ukukhanya / ubumnyama)'
     },
     xh: {
       'lang.buttonLabel': "Ulwimi",
@@ -85190,7 +85907,15 @@
       'transport.voitureElectrique.label': "imoto yombane",
       'transport.van.label': "iveni yokukhempisha",
       'transport.moto.label': "isithuthuthu",
-      'transport.velo.label': "ibhayisekile"
+      'transport.velo.label': "ibhayisekile",
+
+      'error.tooManyRequests': 'Izicelo ezininzi kakhulu ngexesha elifutshane: zama kwakhona emva komzuzu omnye.',
+      'error.serverBusy': 'Iseva ixakeke kakhulu: zama kwakhona emva kwexeshana.',
+      'error.drawTimeout': 'Oku kukhetha bekuthatha ixesha elide kakhulu: zama umda womgama omncinane okanye umgama omncinane.',
+      'theme.auto': 'Ngokuzenzekela',
+      'theme.light': 'Ukukhanya',
+      'theme.dark': 'Ubumnyama',
+      'theme.buttonTitle': 'Tshintsha umxholo (ngokuzenzekela / ukukhanya / ubumnyama)'
     },
     nso: {
       'lang.buttonLabel': "Polelo",
@@ -86113,7 +86838,15 @@
       'transport.voitureElectrique.label': "koloi ya mohlagase",
       'transport.van.label': "bene ya go kampa",
       'transport.moto.label': "sethuthuthu",
-      'transport.velo.label': "paesekela"
+      'transport.velo.label': "paesekela",
+
+      'error.tooManyRequests': 'Dikgopelo tše dintši kudu ka nako ye kopana: leka gape ka morago ga motsotso o tee.',
+      'error.serverBusy': 'Seva e swaregile kudu: leka gape ka morago ga nakwana.',
+      'error.drawTimeout': 'Kgetho ye e be e tšea nako ye telele kudu: leka moedi wa bokgole goba bokgole bjo bonnyane.',
+      'theme.auto': 'Othomatiki',
+      'theme.light': 'Seetša',
+      'theme.dark': 'Leswiswi',
+      'theme.buttonTitle': 'Fetola thimi (othomatiki / seetša / leswiswi)'
     },
     st: {
       'lang.buttonLabel': "Puo",
@@ -87036,7 +87769,15 @@
       'transport.voitureElectrique.label': "koloi ya motlakase",
       'transport.van.label': "veine ya ho kampa",
       'transport.moto.label': "sethuthuthu",
-      'transport.velo.label': "baesekele"
+      'transport.velo.label': "baesekele",
+
+      'error.tooManyRequests': 'Dikopo tse ngata haholo ka nako e kgutshwane: leka hape kamora motsotso o le mong.',
+      'error.serverBusy': 'Seva e phathahane haholo: leka hape kamora nakwana.',
+      'error.drawTimeout': 'Kgetho ena e ne e nka nako e telele haholo: leka moedi wa bohole kapa bohole bo bonyane.',
+      'theme.auto': 'Othomatiki',
+      'theme.light': 'Lesedi',
+      'theme.dark': 'Lefifi',
+      'theme.buttonTitle': 'Fetola thimi (othomatiki / lesedi / lefifi)'
     },
     tn: {
       'lang.buttonLabel': "Puo",
@@ -87959,7 +88700,15 @@
       'transport.voitureElectrique.label': "koloi ya motlakase",
       'transport.van.label': "bene ya go kampa",
       'transport.moto.label': "sethuthuthu",
-      'transport.velo.label': "baesekele"
+      'transport.velo.label': "baesekele",
+
+      'error.tooManyRequests': 'Dikopo di dintsi thata mo nakong e khutshwane: leka gape morago ga motsotso o le mongwe.',
+      'error.serverBusy': 'Seva e tshwaregile thata: leka gape morago ga sebakanyana.',
+      'error.drawTimeout': 'Tlhopho e e ne e tsaya lobaka lo loleele thata: leka molelwane wa kgakala kgotsa kgakala e e bonnye.',
+      'theme.auto': 'Othomatiki',
+      'theme.light': 'Lesedi',
+      'theme.dark': 'Lefifi',
+      'theme.buttonTitle': 'Fetola thimi (othomatiki / lesedi / lefifi)'
     },
     ss: {
       'lang.buttonLabel': "Lulwimi",
@@ -88882,7 +89631,15 @@
       'transport.voitureElectrique.label': "imoto yagesi",
       'transport.van.label': "iveni",
       'transport.moto.label': "sitfututfu",
-      'transport.velo.label': "libhayisikili"
+      'transport.velo.label': "libhayisikili",
+
+      'error.tooManyRequests': 'Tikhalo letinyenti kakhulu ngesikhatsi lesifishane: phindza uzame emvakwemzuzu munye.',
+      'error.serverBusy': 'Iseva imatasatasa kakhulu: phindza uzame emvakwesikhashana.',
+      'error.drawTimeout': 'Loku kukhetsa bekutsatsa sikhatsi lesidze kakhulu: zama umkhawulo webubanti lomncane noma libanga lelincane.',
+      'theme.auto': 'Kutentekela',
+      'theme.light': 'Kukhanya',
+      'theme.dark': 'Kumnyama',
+      'theme.buttonTitle': 'Shintja ithimu (kutentekela / kukhanya / kumnyama)'
     },
     nr: {
       'lang.buttonLabel': "Ilimi",
@@ -89805,7 +90562,15 @@
       'transport.voitureElectrique.label': "imoto yegesi",
       'transport.van.label': "iveni",
       'transport.moto.label': "isithuthuthu",
-      'transport.velo.label': "ibhayisikili"
+      'transport.velo.label': "ibhayisikili",
+
+      'error.tooManyRequests': 'Iimbawo ezinengi khulu ngesikhathi esifitjhani: lingeka godu ngemva komzuzu owodwa.',
+      'error.serverBusy': 'Iseva imatasa khulu: lingeka godu ngemva kwesikhatjhana.',
+      'error.drawTimeout': 'Ukukhetha lokhu bekuthatha isikhathi eside khulu: lingeka umkhawulo webubanzi omncani namkha ibanga elincani.',
+      'theme.auto': 'Ngokuzenzakalela',
+      'theme.light': 'Ukukhanya',
+      'theme.dark': 'Ubumnyama',
+      'theme.buttonTitle': 'Tjhugulula itimu (ngokuzenzakalela / ukukhanya / ubumnyama)'
     },
     ve: {
       'lang.buttonLabel': "Luambo",
@@ -90728,7 +91493,15 @@
       'transport.voitureElectrique.label': "goloi ya muḓagasi",
       'transport.van.label': "vene",
       'transport.moto.label': "tshithuthuthu",
-      'transport.velo.label': "baisigira"
+      'transport.velo.label': "baisigira",
+
+      'error.tooManyRequests': 'Khumbelo nnzhi vhukuma nga tshifhinga tshipfufhi: lingani hafhu nga murahu ha minithi nthihi.',
+      'error.serverBusy': 'Seva yo farea vhukuma: lingani hafhu nga murahu ha tshifhinganyana.',
+      'error.drawTimeout': 'U nanga uhu ho vha hu tshi dzhia tshifhinga tshilapfu vhukuma: lingani mukanganyo wa tshikhala kana tshikhala tshiṱuku.',
+      'theme.auto': 'Othomathiki',
+      'theme.light': 'Tshedza',
+      'theme.dark': 'Swiswi',
+      'theme.buttonTitle': 'Shandukisani thimu (othomathiki / tshedza / swiswi)'
     },
     ts: {
       'lang.buttonLabel': "Ririmi",
@@ -91651,7 +92424,15 @@
       'transport.voitureElectrique.label': "movha wa gezi",
       'transport.van.label': "veni ya kampa",
       'transport.moto.label': "xithuthuthu",
-      'transport.velo.label': "xikanyakanya"
+      'transport.velo.label': "xikanyakanya",
+
+      'error.tooManyRequests': 'Swikombelo swo tala ngopfu hi nkarhi wo koma: ringeta nakambe endzhaku ka minete yin\'we.',
+      'error.serverBusy': 'Sevha yi khomekile ngopfu: ringeta nakambe endzhakunyana.',
+      'error.drawTimeout': 'Ku hlawula loku a ku teka nkarhi wo leha ngopfu: ringeta mpimo wa mpfhuka kumbe mpfhuka lowutsongo.',
+      'theme.auto': 'Otomatiki',
+      'theme.light': 'Ku vonakala',
+      'theme.dark': 'Munyama',
+      'theme.buttonTitle': 'Cinca thimi (otomatiki / ku vonakala / munyama)'
     },
     sn: {
       'lang.buttonLabel': "Mutauro",
@@ -92574,7 +93355,15 @@
       'transport.voitureElectrique.label': "motokari yemagetsi",
       'transport.van.label': "vheni yekugara",
       'transport.moto.label': "mudhudhudhu",
-      'transport.velo.label': "bhasikoro"
+      'transport.velo.label': "bhasikoro",
+
+      'error.tooManyRequests': 'Zvikumbiro zvakawandisa munguva pfupi: edza zvakare mushure meminiti imwe.',
+      'error.serverBusy': 'Sevha yakabatikana zvikuru: edza zvakare mushure menguva shoma.',
+      'error.drawTimeout': 'Kusarudza uku kwaitora nguva yakareba zvakanyanya: edza muganhu wechinhambwe kana chinhambwe chidiki.',
+      'theme.auto': 'Otomatiki',
+      'theme.light': 'Chiedza',
+      'theme.dark': 'Rima',
+      'theme.buttonTitle': 'Chinja dingindira (otomatiki / chiedza / rima)'
     },
     tt: {
       'lang.buttonLabel': "Тел",
@@ -93497,7 +94286,15 @@
       'transport.voitureElectrique.label': "электромобиль",
       'transport.van.label': "кемпер",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Кыска вакыт эчендә артык күп сорау: бер минуттан соң яңадан тырышып карагыз.',
+      'error.serverBusy': 'Сервер бик йөкләнгән: берничә мизгелдән соң яңадан тырышып карагыз.',
+      'error.drawTimeout': 'Бу жирәбә артык озак барды: кечерәк радиус яки ераклык сайлап карагыз.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Якты',
+      'theme.dark': 'Караңгы',
+      'theme.buttonTitle': 'Теманы үзгәртү (авто / якты / караңгы)'
     },
     ba: {
       'lang.buttonLabel': "Тел",
@@ -94420,7 +95217,15 @@
       'transport.voitureElectrique.label': "электромобиль",
       'transport.van.label': "кемпер",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Ҡыҫҡа ваҡыт эсендә артыҡ күп һорау: бер минуттан һуң яңынан тырышып ҡарағыҙ.',
+      'error.serverBusy': 'Сервер бик йөкләнгән: бер аҙҙан яңынан тырышып ҡарағыҙ.',
+      'error.drawTimeout': 'Был шобаҡ артыҡ оҙаҡ барҙы: бәләкәйерәк радиус йәки ара һайлап ҡарағыҙ.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Яҡты',
+      'theme.dark': 'Ҡараңғы',
+      'theme.buttonTitle': 'Теманы үҙгәртеү (авто / яҡты / ҡараңғы)'
     },
     sah: {
       'lang.buttonLabel': "Тыл",
@@ -95343,7 +96148,15 @@
       'transport.voitureElectrique.label': "электрическэй массыына",
       'transport.van.label': "дьиэ-массыына",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "бэлэсипиэт"
+      'transport.velo.label': "бэлэсипиэт",
+
+      'error.tooManyRequests': 'Кылгас кэм иһигэр наһаа элбэх көрдөһүү: биир мүнүүтэ буолан баран хос боруобалааҥ.',
+      'error.serverBusy': 'Сиэрбэр наһаа үлэлээх: сотору буолан баран хос боруобалааҥ.',
+      'error.drawTimeout': 'Бу талыы наһаа уһуннук барда: кыра радиуһу эбэтэр ыраахы боруобалааҥ.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Сырдык',
+      'theme.dark': 'Хараҥа',
+      'theme.buttonTitle': 'Тиэмэни уларытыҥ (авто / сырдык / хараҥа)'
     },
     ce: {
       'lang.buttonLabel': "Мотт",
@@ -96266,7 +97079,15 @@
       'transport.voitureElectrique.label': "электрически машен",
       'transport.van.label': "автофургон",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Кӏеззиг хенахь дукха дехарш: цхьа минот яьлча юха хьажа.',
+      'error.serverBusy': 'Сервер дукха мохь болуш ю: жимма хан яьлча юха хьажа.',
+      'error.drawTimeout': 'Харжамо дукха хан оьцура: кегийра радиус я генаралла хьажа.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Серло',
+      'theme.dark': 'Бода',
+      'theme.buttonTitle': 'Тема хийца (авто / серло / бода)'
     },
     myv: {
       'lang.buttonLabel': "Кель",
@@ -97189,7 +98010,15 @@
       'transport.voitureElectrique.label': "электромашина",
       'transport.van.label': "автофургон",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Кувалмо шкас пек ламо вешемат: варчтадо ещё вейке минутадо мейле.',
+      'error.serverBusy': 'Серверэсь пек саезь: варчтадо ещё зярс.',
+      'error.drawTimeout': 'Те кочкамось пек кувать ютась: варчтадо седе вишка радиус эли васолмо.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Валдо',
+      'theme.dark': 'Чопода',
+      'theme.buttonTitle': 'Полавтомс теманть (авто / валдо / чопода)'
     },
     mdf: {
       'lang.buttonLabel': "Кяль",
@@ -98112,7 +98941,15 @@
       'transport.voitureElectrique.label': "электромашина",
       'transport.van.label': "автофургон",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Кувать аф шкас пяк лама вешемат: варчада нинге вейке минутада мейле.',
+      'error.serverBusy': 'Серверть лангса пяк оцю нагрузка: варчада нинге кржа мельце.',
+      'error.drawTimeout': 'Тя кочкамась пяк кувать мольсь: варчада сяда ёмла радиус али ичкозкс.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Валда',
+      'theme.dark': 'Шобда',
+      'theme.buttonTitle': 'Полафтомс темать (авто / валда / шобда)'
     },
     udm: {
       'lang.buttonLabel': "Кыл",
@@ -99035,7 +99872,15 @@
       'transport.voitureElectrique.label': "электромашина",
       'transport.van.label': "улон фургон",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Вакчи дыр куспын туж трос куронъёс: одӥг минут ортчыса выльысь турттэлэ.',
+      'error.serverBusy': 'Серверлэн ужез туж трос: вакчи дыр ортчыса выльысь турттэлэ.',
+      'error.drawTimeout': 'Та шӧп кыскон туж кема мынӥз: пичигес радиус яке кемалась бырйыса турттэлэ.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Югыт',
+      'theme.dark': 'Пеймыт',
+      'theme.buttonTitle': 'Темаез воштоно (авто / югыт / пеймыт)'
     },
     fa: {
       'lang.buttonLabel': "زبان",
@@ -99958,7 +100803,15 @@
       'transport.voitureElectrique.label': "خودروی برقی",
       'transport.van.label': "ون کمپینگ",
       'transport.moto.label': "موتورسیکلت",
-      'transport.velo.label': "دوچرخه"
+      'transport.velo.label': "دوچرخه",
+
+      'error.tooManyRequests': 'درخواست‌های بسیار زیاد در مدت کوتاه: یک دقیقه بعد دوباره تلاش کنید.',
+      'error.serverBusy': 'سرور بسیار شلوغ است: چند لحظه بعد دوباره تلاش کنید.',
+      'error.drawTimeout': 'این قرعه‌کشی بیش از حد طول می‌کشید: شعاع یا فاصلهٔ کوچک‌تری را امتحان کنید.',
+      'theme.auto': 'خودکار',
+      'theme.light': 'روشن',
+      'theme.dark': 'تیره',
+      'theme.buttonTitle': 'تغییر تم (خودکار / روشن / تیره)'
     },
     ckb: {
       'lang.buttonLabel': "زمان",
@@ -100881,7 +101734,15 @@
       'transport.voitureElectrique.label': "ئۆتۆمبێلی کارەبایی",
       'transport.van.label': "ڤانی گەشت",
       'transport.moto.label': "ماتۆڕ",
-      'transport.velo.label': "پاسکیل"
+      'transport.velo.label': "پاسکیل",
+
+      'error.tooManyRequests': 'داواکاریی زۆر لە ماوەیەکی کورتدا: دوای خولەکێک دووبارە ھەوڵ بدەرەوە.',
+      'error.serverBusy': 'ڕاژەکار زۆر قەرەباڵغە: دوای چەند ساتێک دووبارە ھەوڵ بدەرەوە.',
+      'error.drawTimeout': 'ئەم تیروپشکە زۆر کاتی دەخایاند: نیوەتیرە یان دووریی بچووکتر تاقی بکەرەوە.',
+      'theme.auto': 'خۆکار',
+      'theme.light': 'ڕووناک',
+      'theme.dark': 'تاریک',
+      'theme.buttonTitle': 'گۆڕینی ڕووکار (خۆکار / ڕووناک / تاریک)'
     },
     kk: {
       'lang.buttonLabel': "Тіл",
@@ -101804,7 +102665,15 @@
       'transport.voitureElectrique.label': "электромобиль",
       'transport.van.label': "автоүй",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Қысқа уақытта тым көп сұраныс: бір минуттан кейін қайталап көріңіз.',
+      'error.serverBusy': 'Сервер қатты жүктелген: біраздан кейін қайталап көріңіз.',
+      'error.drawTimeout': 'Бұл таңдау тым ұзаққа созылды: радиусты немесе қашықтықты кішірейтіп көріңіз.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Ашық',
+      'theme.dark': 'Қараңғы',
+      'theme.buttonTitle': 'Теманы ауыстыру (авто / ашық / қараңғы)'
     },
     ky: {
       'lang.buttonLabel': "Тил",
@@ -102727,7 +103596,15 @@
       'transport.voitureElectrique.label': "электромобиль",
       'transport.van.label': "автоүй",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Кыска убакытта өтө көп суроо: бир мүнөттөн кийин кайра аракет кылыңыз.',
+      'error.serverBusy': 'Сервер өтө жүктөлгөн: бир аздан кийин кайра аракет кылыңыз.',
+      'error.drawTimeout': 'Бул тандоо өтө көпкө созулду: радиусту же аралыкты кичирейтип көрүңүз.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Жарык',
+      'theme.dark': 'Караңгы',
+      'theme.buttonTitle': 'Теманы алмаштыруу (авто / жарык / караңгы)'
     },
     tg: {
       'lang.buttonLabel': "Забон",
@@ -103650,7 +104527,15 @@
       'transport.voitureElectrique.label': "мошини барқӣ",
       'transport.van.label': "хонаи сайёр",
       'transport.moto.label': "мотосикл",
-      'transport.velo.label': "велосипед"
+      'transport.velo.label': "велосипед",
+
+      'error.tooManyRequests': 'Дар муддати кӯтоҳ дархостҳо аз ҳад зиёданд: пас аз як дақиқа боз кӯшиш кунед.',
+      'error.serverBusy': 'Сервер хеле банд аст: пас аз чанд лаҳза боз кӯшиш кунед.',
+      'error.drawTimeout': 'Ин қуръакашӣ аз ҳад зиёд тӯл кашид: радиус ё масофаи хурдтарро санҷед.',
+      'theme.auto': 'Худкор',
+      'theme.light': 'Равшан',
+      'theme.dark': 'Торик',
+      'theme.buttonTitle': 'Иваз кардани мавзӯъ (худкор / равшан / торик)'
     },
     uz: {
       'lang.buttonLabel': "Til",
@@ -104573,7 +105458,15 @@
       'transport.voitureElectrique.label': "elektr avtomobil",
       'transport.van.label': "furgon",
       'transport.moto.label': "mototsikl",
-      'transport.velo.label': "velosiped"
+      'transport.velo.label': "velosiped",
+
+      'error.tooManyRequests': 'Qisqa vaqt ichida juda koʻp soʻrov: bir daqiqadan soʻng qayta urinib koʻring.',
+      'error.serverBusy': 'Server juda band: birozdan soʻng qayta urinib koʻring.',
+      'error.drawTimeout': 'Bu qurʼa juda uzoq davom etdi: kichikroq radius yoki masofani sinab koʻring.',
+      'theme.auto': 'Avto',
+      'theme.light': 'Yorugʻ',
+      'theme.dark': 'Qorongʻi',
+      'theme.buttonTitle': 'Mavzuni almashtirish (avto / yorugʻ / qorongʻi)'
     },
     tk: {
       'lang.buttonLabel': "Dil",
@@ -105496,7 +106389,15 @@
       'transport.voitureElectrique.label': "elektrik awtoulag",
       'transport.van.label': "furgon",
       'transport.moto.label': "motosikl",
-      'transport.velo.label': "welosiped"
+      'transport.velo.label': "welosiped",
+
+      'error.tooManyRequests': 'Gysga wagtda örän köp haýyş: bir minutdan soň täzeden synanyşyň.',
+      'error.serverBusy': 'Serwer örän köp işli: birsalymdan täzeden synanyşyň.',
+      'error.drawTimeout': 'Bu bije örän uzak dowam etdi: has kiçi radiusy ýa-da aralygy synap görüň.',
+      'theme.auto': 'Awto',
+      'theme.light': 'Ýagty',
+      'theme.dark': 'Garaňky',
+      'theme.buttonTitle': 'Temany çalyşmak (awto / ýagty / garaňky)'
     },
     kaa: {
       'lang.buttonLabel': "Til",
@@ -106419,7 +107320,15 @@
       'transport.voitureElectrique.label': "elektr avtomobil",
       'transport.van.label': "furgon",
       'transport.moto.label': "mototsikl",
-      'transport.velo.label': "velosiped"
+      'transport.velo.label': "velosiped",
+
+      'error.tooManyRequests': 'Qısqa waqıt ishinde júdá kóp soraw: bir minuttan soń qayta urınıp kóriń.',
+      'error.serverBusy': 'Server júdá bánt: birazdan soń qayta urınıp kóriń.',
+      'error.drawTimeout': 'Bul tańlaw júdá uzaqqa sozıldı: kishirek radius yamasa aralıqtı sınap kóriń.',
+      'theme.auto': 'Avto',
+      'theme.light': 'Jaqtı',
+      'theme.dark': 'Qarańǵı',
+      'theme.buttonTitle': 'Temanı ózgertiw (avto / jaqtı / qarańǵı)'
     },
     mn: {
       'lang.buttonLabel': "Хэл",
@@ -107342,7 +108251,15 @@
       'transport.voitureElectrique.label': "цахилгаан машин",
       'transport.van.label': "кемпер фургон",
       'transport.moto.label': "мотоцикл",
-      'transport.velo.label': "дугуй"
+      'transport.velo.label': "дугуй",
+
+      'error.tooManyRequests': 'Богино хугацаанд хэт олон хүсэлт ирлээ: нэг минутын дараа дахин оролдоно уу.',
+      'error.serverBusy': 'Сервер хэт ачаалалтай байна: хэсэг хугацааны дараа дахин оролдоно уу.',
+      'error.drawTimeout': 'Энэ сугалаа хэт удаж байна: радиус эсвэл зайг багасгаж үзнэ үү.',
+      'theme.auto': 'Авто',
+      'theme.light': 'Цайвар',
+      'theme.dark': 'Бараан',
+      'theme.buttonTitle': 'Загвар солих (авто / цайвар / бараан)'
     },
     zh: {
       'lang.buttonLabel': "语言",
@@ -108265,7 +109182,15 @@
       'transport.voitureElectrique.label': "电动汽车",
       'transport.van.label': "房车",
       'transport.moto.label': "摩托车",
-      'transport.velo.label': "自行车"
+      'transport.velo.label': "自行车",
+
+      'error.tooManyRequests': '短时间内请求过多：请一分钟后再试。',
+      'error.serverBusy': '服务器非常繁忙：请稍后再试。',
+      'error.drawTimeout': '本次抽取耗时过长：请尝试更小的半径或距离。',
+      'theme.auto': '自动',
+      'theme.light': '浅色',
+      'theme.dark': '深色',
+      'theme.buttonTitle': '切换主题（自动 / 浅色 / 深色）'
     },
     'zh-Hant': {
       'lang.buttonLabel': "語言",
@@ -109188,7 +110113,15 @@
       'transport.voitureElectrique.label': "電動車",
       'transport.van.label': "露營車",
       'transport.moto.label': "摩托車",
-      'transport.velo.label': "自行車"
+      'transport.velo.label': "自行車",
+
+      'error.tooManyRequests': '短時間內請求過多：請一分鐘後再試。',
+      'error.serverBusy': '伺服器非常忙碌：請稍後再試。',
+      'error.drawTimeout': '本次抽選耗時過長：請嘗試較小的半徑或距離。',
+      'theme.auto': '自動',
+      'theme.light': '淺色',
+      'theme.dark': '深色',
+      'theme.buttonTitle': '切換主題（自動 / 淺色 / 深色）'
     },
     hak: {
       'lang.buttonLabel': "語言",
@@ -110111,7 +111044,15 @@
       'transport.voitureElectrique.label': "電動車",
       'transport.van.label': "露營車",
       'transport.moto.label': "摩托車",
-      'transport.velo.label': "腳踏車"
+      'transport.velo.label': "腳踏車",
+
+      'error.tooManyRequests': '短時間肚項請求忒多：請一分鐘過後再試看。',
+      'error.serverBusy': '伺服器當無閒：請等一下再試看。',
+      'error.drawTimeout': '這擺抽籤用忒久時間：請試看較細个範圍抑係距離。',
+      'theme.auto': '自動',
+      'theme.light': '淺色',
+      'theme.dark': '深色',
+      'theme.buttonTitle': '換主題（自動 / 淺色 / 深色）'
     },
     za: {
       'lang.buttonLabel': "Vah",
@@ -111034,7 +111975,15 @@
       'transport.voitureElectrique.label': "ci dienhdoengh",
       'transport.van.label': "ci ranz",
       'transport.moto.label': "mozdozci",
-      'transport.velo.label': "danci"
+      'transport.velo.label': "danci",
+
+      'error.tooManyRequests': 'Youq ndaw seizgan dinj gouz lai lai: gvaq it faencung caiq sawq.',
+      'error.serverBusy': 'Fugvugi haemq mbouj hoengq: gvaq di caiq sawq.',
+      'error.drawTimeout': 'Baez genj neix yungh seizgan nanz lai: sawq buenqging roxnaeuz gyae iq di.',
+      'theme.auto': 'Swhdoengh',
+      'theme.light': 'Rongh',
+      'theme.dark': 'Laep',
+      'theme.buttonTitle': 'Vuenh cujdiz (swhdoengh / rongh / laep)'
     },
     ko: {
       'lang.buttonLabel': "언어",
@@ -111957,7 +112906,15 @@
       'transport.voitureElectrique.label': "전기 자동차",
       'transport.van.label': "캠핑카",
       'transport.moto.label': "오토바이",
-      'transport.velo.label': "자전거"
+      'transport.velo.label': "자전거",
+
+      'error.tooManyRequests': '짧은 시간에 요청이 너무 많습니다. 1분 후에 다시 시도하세요.',
+      'error.serverBusy': '서버가 매우 혼잡합니다. 잠시 후 다시 시도하세요.',
+      'error.drawTimeout': '추첨 시간이 너무 오래 걸렸습니다. 더 작은 반경이나 거리로 시도해 보세요.',
+      'theme.auto': '자동',
+      'theme.light': '라이트',
+      'theme.dark': '다크',
+      'theme.buttonTitle': '테마 변경(자동 / 라이트 / 다크)'
     },
     ja: {
       'lang.buttonLabel': "言語",
@@ -112880,7 +113837,15 @@
       'transport.voitureElectrique.label': "電気自動車",
       'transport.van.label': "キャンピングカー",
       'transport.moto.label': "バイク",
-      'transport.velo.label': "自転車"
+      'transport.velo.label': "自転車",
+
+      'error.tooManyRequests': '短時間にリクエストが多すぎます。1分後にもう一度お試しください。',
+      'error.serverBusy': 'サーバーが大変混み合っています。しばらくしてからもう一度お試しください。',
+      'error.drawTimeout': '抽選に時間がかかりすぎました。範囲または距離を小さくしてお試しください。',
+      'theme.auto': '自動',
+      'theme.light': 'ライト',
+      'theme.dark': 'ダーク',
+      'theme.buttonTitle': 'テーマを変更（自動 / ライト / ダーク）'
     },
     hi: {
       'lang.buttonLabel': "भाषा",
@@ -113803,7 +114768,15 @@
       'transport.voitureElectrique.label': "इलेक्ट्रिक कार",
       'transport.van.label': "कैंपर वैन",
       'transport.moto.label': "मोटरसाइकिल",
-      'transport.velo.label': "साइकिल"
+      'transport.velo.label': "साइकिल",
+
+      'error.tooManyRequests': 'कम समय में बहुत अधिक अनुरोध: एक मिनट बाद फिर से प्रयास करें।',
+      'error.serverBusy': 'सर्वर बहुत व्यस्त है: कुछ क्षण बाद फिर से प्रयास करें।',
+      'error.drawTimeout': 'इस चयन में बहुत अधिक समय लग रहा था: छोटा दायरा या कम दूरी आज़माएँ।',
+      'theme.auto': 'स्वतः',
+      'theme.light': 'हल्का',
+      'theme.dark': 'गहरा',
+      'theme.buttonTitle': 'थीम बदलें (स्वतः / हल्का / गहरा)'
     },
     mr: {
       'lang.buttonLabel': "भाषा",
@@ -114726,7 +115699,15 @@
       'transport.voitureElectrique.label': "इलेक्ट्रिक कार",
       'transport.van.label': "कॅम्परव्हॅन",
       'transport.moto.label': "मोटारसायकल",
-      'transport.velo.label': "सायकल"
+      'transport.velo.label': "सायकल",
+
+      'error.tooManyRequests': 'थोड्या वेळात खूप विनंत्या आल्या: एका मिनिटाने पुन्हा प्रयत्न करा.',
+      'error.serverBusy': 'सर्व्हरवर सध्या खूप ताण आहे: थोड्या वेळाने पुन्हा प्रयत्न करा.',
+      'error.drawTimeout': 'ही सोडत खूप वेळ घेत होती: लहान त्रिज्या किंवा कमी अंतर वापरून पाहा.',
+      'theme.auto': 'स्वयंचलित',
+      'theme.light': 'फिकट',
+      'theme.dark': 'गडद',
+      'theme.buttonTitle': 'थीम बदला (स्वयंचलित / फिकट / गडद)'
     },
     ne: {
       'lang.buttonLabel': "भाषा",
@@ -115649,7 +116630,15 @@
       'transport.voitureElectrique.label': "विद्युतीय कार",
       'transport.van.label': "क्याम्पर भ्यान",
       'transport.moto.label': "मोटरसाइकल",
-      'transport.velo.label': "साइकल"
+      'transport.velo.label': "साइकल",
+
+      'error.tooManyRequests': 'छोटो समयमा धेरै अनुरोध भए: एक मिनेटपछि फेरि प्रयास गर्नुहोस्।',
+      'error.serverBusy': 'सर्भर अहिले अत्यन्त व्यस्त छ: केही क्षणपछि फेरि प्रयास गर्नुहोस्।',
+      'error.drawTimeout': 'यो गोलाप्रथामा धेरै समय लागिरहेको थियो: सानो दायरा वा कम दूरी प्रयास गर्नुहोस्।',
+      'theme.auto': 'स्वचालित',
+      'theme.light': 'उज्यालो',
+      'theme.dark': 'अँध्यारो',
+      'theme.buttonTitle': 'थिम बदल्नुहोस् (स्वचालित / उज्यालो / अँध्यारो)'
     },
     bn: {
       'lang.buttonLabel': "ভাষা",
@@ -116572,7 +117561,15 @@
       'transport.voitureElectrique.label': "বৈদ্যুতিক গাড়ি",
       'transport.van.label': "ভ্যান",
       'transport.moto.label': "মোটরসাইকেল",
-      'transport.velo.label': "সাইকেল"
+      'transport.velo.label': "সাইকেল",
+
+      'error.tooManyRequests': 'অল্প সময়ে অনেক বেশি অনুরোধ: এক মিনিট পরে আবার চেষ্টা করুন।',
+      'error.serverBusy': 'সার্ভার এখন খুব ব্যস্ত: কিছুক্ষণ পরে আবার চেষ্টা করুন।',
+      'error.drawTimeout': 'এই লটারিতে অনেক বেশি সময় লাগছিল: ছোট ব্যাসার্ধ বা কম দূরত্ব দিয়ে চেষ্টা করুন।',
+      'theme.auto': 'স্বয়ংক্রিয়',
+      'theme.light': 'হালকা',
+      'theme.dark': 'গাঢ়',
+      'theme.buttonTitle': 'থিম বদলান (স্বয়ংক্রিয় / হালকা / গাঢ়)'
     },
     ta: {
       'lang.buttonLabel': "மொழி",
@@ -117495,7 +118492,15 @@
       'transport.voitureElectrique.label': "மின்சார கார்",
       'transport.van.label': "வேன்",
       'transport.moto.label': "மோட்டார் சைக்கிள்",
-      'transport.velo.label': "மிதிவண்டி"
+      'transport.velo.label': "மிதிவண்டி",
+
+      'error.tooManyRequests': 'குறுகிய நேரத்தில் அதிகமான கோரிக்கைகள்: ஒரு நிமிடம் கழித்து மீண்டும் முயலுங்கள்.',
+      'error.serverBusy': 'சேவையகம் மிகவும் பரபரப்பாக உள்ளது: சில கணங்கள் கழித்து மீண்டும் முயலுங்கள்.',
+      'error.drawTimeout': 'இந்தக் குலுக்கல் அதிக நேரம் எடுத்தது: சிறிய ஆரம் அல்லது குறைந்த தொலைவை முயலுங்கள்.',
+      'theme.auto': 'தானியங்கு',
+      'theme.light': 'வெளிர்',
+      'theme.dark': 'இருண்ட',
+      'theme.buttonTitle': 'தீமை மாற்றுங்கள் (தானியங்கு / வெளிர் / இருண்ட)'
     },
     ml: {
       'lang.buttonLabel': "ഭാഷ",
@@ -118418,7 +119423,15 @@
       'transport.voitureElectrique.label': "വൈദ്യുത കാർ",
       'transport.van.label': "വാൻ",
       'transport.moto.label': "മോട്ടോർ സൈക്കിൾ",
-      'transport.velo.label': "സൈക്കിൾ"
+      'transport.velo.label': "സൈക്കിൾ",
+
+      'error.tooManyRequests': 'കുറഞ്ഞ സമയത്തിനുള്ളിൽ വളരെയധികം അഭ്യർഥനകൾ: ഒരു മിനിറ്റിനു ശേഷം വീണ്ടും ശ്രമിക്കുക.',
+      'error.serverBusy': 'സെർവർ ഇപ്പോൾ വളരെ തിരക്കിലാണ്: അൽപനിമിഷങ്ങൾക്കു ശേഷം വീണ്ടും ശ്രമിക്കുക.',
+      'error.drawTimeout': 'ഈ നറുക്കെടുപ്പിന് വളരെയധികം സമയമെടുത്തു: ചെറിയ ആരപരിധിയോ കുറഞ്ഞ ദൂരമോ പരീക്ഷിക്കുക.',
+      'theme.auto': 'സ്വയമേവ',
+      'theme.light': 'ഇളം',
+      'theme.dark': 'ഇരുണ്ട',
+      'theme.buttonTitle': 'തീം മാറ്റുക (സ്വയമേവ / ഇളം / ഇരുണ്ട)'
     },
     ur: {
       'lang.buttonLabel': "زبان",
@@ -119341,7 +120354,15 @@
       'transport.voitureElectrique.label': "برقی کار",
       'transport.van.label': "رہائشی وین",
       'transport.moto.label': "موٹر سائیکل",
-      'transport.velo.label': "سائیکل"
+      'transport.velo.label': "سائیکل",
+
+      'error.tooManyRequests': 'مختصر وقت میں بہت زیادہ درخواستیں: ایک منٹ بعد دوبارہ کوشش کریں۔',
+      'error.serverBusy': 'سرور پر اس وقت بہت زیادہ بوجھ ہے: چند لمحوں بعد دوبارہ کوشش کریں۔',
+      'error.drawTimeout': 'اس قرعہ اندازی میں بہت زیادہ وقت لگ رہا تھا: چھوٹا دائرہ یا کم فاصلہ آزمائیں۔',
+      'theme.auto': 'خودکار',
+      'theme.light': 'روشن',
+      'theme.dark': 'تاریک',
+      'theme.buttonTitle': 'تھیم تبدیل کریں (خودکار / روشن / تاریک)'
     },
     dv: {
       'lang.buttonLabel': "ބަސް",
@@ -120264,7 +121285,15 @@
       'transport.voitureElectrique.label': "ކަރަންޓު ކާރު",
       'transport.van.label': "ވޭން",
       'transport.moto.label': "މޮޓޯ ސައިކަލު",
-      'transport.velo.label': "ބައިސްކަލު"
+      'transport.velo.label': "ބައިސްކަލު",
+
+      'error.tooManyRequests': 'ކުރު ވަގުތުކޮޅެއްގައި ވަރަށް ގިނަ އެދުންތަކެއް: އެއް މިނެޓު ފަހުން އަލުން މަސައްކަތްކުރައްވާ.',
+      'error.serverBusy': 'ސާވަރު މިހާރު ވަރަށް ބުރަ: ކުޑަ ވަގުތުކޮޅަކުން އަލުން މަސައްކަތްކުރައްވާ.',
+      'error.drawTimeout': 'މި ގުރުއަތަށް ވަރަށް ގިނަ ވަގުތު ނަގަމުން ދިޔައީ: ކުޑަ ދާއިރާއެއް ނުވަތަ ކުޑަ ދުރުމިނެއް ބޭނުންކޮށްލައްވާ.',
+      'theme.auto': 'އޮޓޯ',
+      'theme.light': 'އަލި',
+      'theme.dark': 'އަނދިރި',
+      'theme.buttonTitle': 'ތީމް ބަދަލުކުރައްވާ (އޮޓޯ / އަލި / އަނދިރި)'
     },
     si: {
       'lang.buttonLabel': "භාෂාව",
@@ -121187,7 +122216,15 @@
       'transport.voitureElectrique.label': "විදුලි මෝටර් රථය",
       'transport.van.label': "වෑන් රථය",
       'transport.moto.label': "යතුරුපැදිය",
-      'transport.velo.label': "බයිසිකලය"
+      'transport.velo.label': "බයිසිකලය",
+
+      'error.tooManyRequests': 'කෙටි කාලයක් තුළ ඉල්ලීම් වැඩි ගණනක්: මිනිත්තුවකින් නැවත උත්සාහ කරන්න.',
+      'error.serverBusy': 'සේවාදායකය දැනට ඉතා කාර්යබහුලයි: මොහොතකින් නැවත උත්සාහ කරන්න.',
+      'error.drawTimeout': 'මෙම අහඹු තේරීමට වැඩි කාලයක් ගත විය: කුඩා අරයක් හෝ අඩු දුරක් උත්සාහ කරන්න.',
+      'theme.auto': 'ස්වයංක්‍රීය',
+      'theme.light': 'ආලෝකමත්',
+      'theme.dark': 'අඳුරු',
+      'theme.buttonTitle': 'තේමාව වෙනස් කරන්න (ස්වයංක්‍රීය / ආලෝකමත් / අඳුරු)'
     },
     dz: {
       'lang.buttonLabel': "ཁ་སྐད",
@@ -122110,7 +123147,15 @@
       'transport.voitureElectrique.label': "གློག་གི་སྣུམ་འཁོར",
       'transport.van.label': "སྡོད་ཁྱིམ་སྣུམ་འཁོར",
       'transport.moto.label': "ཉིས་འཁོར་སྣུམ་འཁོར",
-      'transport.velo.label': "རྐང་འཁོར"
+      'transport.velo.label': "རྐང་འཁོར",
+
+      'error.tooManyRequests': 'དུས་ཚོད་ཐུང་ཀུ་ཅིག་ནང་ཞུ་བ་མང་དྲགས་སོང་ — སྐར་མ་གཅིག་གི་ཤུལ་ལས་ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།',
+      'error.serverBusy': 'ཞབས་ཏོག་འཕྲུལ་ཆས་ལུ་ད་ལྟོ་ལཱ་མང་དྲགས་ཡོདཔ་ཨིན — ཡུད་ཙམ་ཅིག་གི་ཤུལ་ལས་ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།',
+      'error.drawTimeout': 'གང་བྱུང་སྦེ་འདེམས་ནི་འདི་ལུ་དུས་ཚོད་ཧེང་བཀལ་རིངམ་སོང་ — ཁྱབ་ཚད་ཆུང་བ་ཡང་ན་བར་ཐག་ཐུང་བ་ཅིག་ལུ་འབད་རྩོལ་བསྐྱེད་གནང་།',
+      'theme.auto': 'རང་བཞིན',
+      'theme.light': 'གསལ་བ',
+      'theme.dark': 'ནགཔོ',
+      'theme.buttonTitle': 'ཚོན་མདོག་བསྒྱུར (རང་བཞིན / གསལ་བ / ནགཔོ)'
     },
     my: {
       'lang.buttonLabel': "ဘာသာစကား",
@@ -123033,7 +124078,15 @@
       'transport.voitureElectrique.label': "လျှပ်စစ်ကား",
       'transport.van.label': "ဗင်ကား",
       'transport.moto.label': "ဆိုင်ကယ်",
-      'transport.velo.label': "စက်ဘီး"
+      'transport.velo.label': "စက်ဘီး",
+
+      'error.tooManyRequests': 'အချိန်တိုအတွင်း တောင်းဆိုမှု များလွန်းပါသည် — တစ်မိနစ်အကြာတွင် ထပ်ကြိုးစားပါ။',
+      'error.serverBusy': 'ဆာဗာ အလွန်အလုပ်များနေပါသည် — ခဏအကြာတွင် ထပ်ကြိုးစားပါ။',
+      'error.drawTimeout': 'ဤကျပန်းရွေးချယ်မှုသည် အချိန်အလွန်ကြာနေပါသည် — အချင်းဝက် သို့မဟုတ် အကွာအဝေးကို လျှော့၍ ကြိုးစားပါ။',
+      'theme.auto': 'အလိုအလျောက်',
+      'theme.light': 'အလင်း',
+      'theme.dark': 'အမှောင်',
+      'theme.buttonTitle': 'အပြင်အဆင် ပြောင်းရန် (အလိုအလျောက် / အလင်း / အမှောင်)'
     },
     th: {
       'lang.buttonLabel': "ภาษา",
@@ -123956,7 +125009,15 @@
       'transport.voitureElectrique.label': "รถยนต์ไฟฟ้า",
       'transport.van.label': "รถแคมเปอร์แวน",
       'transport.moto.label': "รถจักรยานยนต์",
-      'transport.velo.label': "จักรยาน"
+      'transport.velo.label': "จักรยาน",
+
+      'error.tooManyRequests': 'มีคำขอมากเกินไปในเวลาสั้น ๆ — โปรดลองอีกครั้งในอีกหนึ่งนาที',
+      'error.serverBusy': 'เซิร์ฟเวอร์มีผู้ใช้งานหนาแน่นมาก — โปรดลองอีกครั้งในอีกสักครู่',
+      'error.drawTimeout': 'การสุ่มครั้งนี้ใช้เวลานานเกินไป — ลองลดรัศมีหรือระยะทางลง',
+      'theme.auto': 'อัตโนมัติ',
+      'theme.light': 'สว่าง',
+      'theme.dark': 'มืด',
+      'theme.buttonTitle': 'เปลี่ยนธีม (อัตโนมัติ / สว่าง / มืด)'
     },
     lo: {
       'lang.buttonLabel': "ພາສາ",
@@ -124879,7 +125940,15 @@
       'transport.voitureElectrique.label': "ລົດໃຫຍ່ໄຟຟ້າ",
       'transport.van.label': "ລົດຕູ້ແຄ້ມປິ້ງ",
       'transport.moto.label': "ລົດຈັກ",
-      'transport.velo.label': "ລົດຖີບ"
+      'transport.velo.label': "ລົດຖີບ",
+
+      'error.tooManyRequests': 'ມີຄຳຮ້ອງຂໍຫຼາຍເກີນໄປໃນເວລາສັ້ນໆ — ກະລຸນາລອງໃໝ່ໃນອີກໜຶ່ງນາທີ.',
+      'error.serverBusy': 'ເຊີບເວີກຳລັງຫຍຸ້ງຫຼາຍ — ກະລຸນາລອງໃໝ່ໃນອີກບໍ່ດົນ.',
+      'error.drawTimeout': 'ການສຸ່ມຄັ້ງນີ້ໃຊ້ເວລາດົນເກີນໄປ — ລອງຫຼຸດລັດສະໝີ ຫຼື ໄລຍະທາງລົງ.',
+      'theme.auto': 'ອັດຕະໂນມັດ',
+      'theme.light': 'ແຈ້ງ',
+      'theme.dark': 'ມືດ',
+      'theme.buttonTitle': 'ປ່ຽນຮູບແບບສີ (ອັດຕະໂນມັດ / ແຈ້ງ / ມືດ)'
     },
     km: {
       'lang.buttonLabel': "ភាសា",
@@ -125802,7 +126871,15 @@
       'transport.voitureElectrique.label': "រថយន្តអគ្គិសនី",
       'transport.van.label': "រថយន្តកែច្នៃសម្រាប់ស្នាក់នៅ",
       'transport.moto.label': "ម៉ូតូ",
-      'transport.velo.label': "កង់"
+      'transport.velo.label': "កង់",
+
+      'error.tooManyRequests': 'សំណើច្រើនពេកក្នុងរយៈពេលខ្លី — សូមព្យាយាមម្ដងទៀតក្នុងរយៈពេលមួយនាទី។',
+      'error.serverBusy': 'ម៉ាស៊ីនមេកំពុងមមាញឹកខ្លាំង — សូមព្យាយាមម្ដងទៀតបន្តិចទៀត។',
+      'error.drawTimeout': 'ការចាប់ឆ្នោតនេះចំណាយពេលយូរពេក — សូមសាកល្បងកាំ ឬចម្ងាយតូចជាងនេះ។',
+      'theme.auto': 'ស្វ័យប្រវត្តិ',
+      'theme.light': 'ភ្លឺ',
+      'theme.dark': 'ងងឹត',
+      'theme.buttonTitle': 'ប្ដូររចនាប័ទ្ម (ស្វ័យប្រវត្តិ / ភ្លឺ / ងងឹត)'
     },
     vi: {
       'lang.buttonLabel': "Ngôn ngữ",
@@ -126725,7 +127802,15 @@
       'transport.voitureElectrique.label': "ô tô điện",
       'transport.van.label': "xe cắm trại",
       'transport.moto.label': "xe mô tô",
-      'transport.velo.label': "xe đạp"
+      'transport.velo.label': "xe đạp",
+
+      'error.tooManyRequests': 'Quá nhiều yêu cầu trong thời gian ngắn: hãy thử lại sau một phút.',
+      'error.serverBusy': 'Máy chủ đang quá tải: hãy thử lại sau giây lát.',
+      'error.drawTimeout': 'Lần bốc thăm này mất quá nhiều thời gian: hãy thử bán kính hoặc khoảng cách nhỏ hơn.',
+      'theme.auto': 'Tự động',
+      'theme.light': 'Sáng',
+      'theme.dark': 'Tối',
+      'theme.buttonTitle': 'Đổi giao diện (tự động / sáng / tối)'
     },
     tet: {
       'lang.buttonLabel': "Lian",
@@ -127648,7 +128733,15 @@
       'transport.voitureElectrique.label': "karreta elétrika",
       'transport.van.label': "karreta-kampismu",
       'transport.moto.label': "motór",
-      'transport.velo.label': "bisikleta"
+      'transport.velo.label': "bisikleta",
+
+      'error.tooManyRequests': 'Pedidu barak liuliu iha tempu badak: koko fali iha minutu ida nia laran.',
+      'error.serverBusy': 'Servidór okupadu tebes: koko fali iha momentu badak.',
+      'error.drawTimeout': 'Sorteiu ne\'e han tempu naruk liuliu: koko ho raiu ka distánsia ne\'ebé ki\'ik liu.',
+      'theme.auto': 'Automátiku',
+      'theme.light': 'Naroman',
+      'theme.dark': 'Nakukun',
+      'theme.buttonTitle': 'Troka tema (automátiku / naroman / nakukun)'
     },
     id: {
       'lang.buttonLabel': "Bahasa",
@@ -128571,7 +129664,15 @@
       'transport.voitureElectrique.label': "mobil listrik",
       'transport.van.label': "mobil karavan",
       'transport.moto.label': "sepeda motor",
-      'transport.velo.label': "sepeda"
+      'transport.velo.label': "sepeda",
+
+      'error.tooManyRequests': 'Terlalu banyak permintaan dalam waktu singkat: coba lagi dalam satu menit.',
+      'error.serverBusy': 'Server sedang sangat sibuk: coba lagi beberapa saat lagi.',
+      'error.drawTimeout': 'Pengundian ini memakan waktu terlalu lama: coba radius atau jarak yang lebih kecil.',
+      'theme.auto': 'Otomatis',
+      'theme.light': 'Terang',
+      'theme.dark': 'Gelap',
+      'theme.buttonTitle': 'Ganti tema (otomatis / terang / gelap)'
     },
     ms: {
       'lang.buttonLabel': "Bahasa",
@@ -129494,7 +130595,15 @@
       'transport.voitureElectrique.label': "kereta elektrik",
       'transport.van.label': "van karavan",
       'transport.moto.label': "motosikal",
-      'transport.velo.label': "basikal"
+      'transport.velo.label': "basikal",
+
+      'error.tooManyRequests': 'Terlalu banyak permintaan dalam masa yang singkat: cuba lagi dalam seminit.',
+      'error.serverBusy': 'Pelayan sedang sangat sibuk: cuba lagi sebentar nanti.',
+      'error.drawTimeout': 'Cabutan ini mengambil masa terlalu lama: cuba radius atau jarak yang lebih kecil.',
+      'theme.auto': 'Auto',
+      'theme.light': 'Cerah',
+      'theme.dark': 'Gelap',
+      'theme.buttonTitle': 'Tukar tema (auto / cerah / gelap)'
     },
     jv: {
       'lang.buttonLabel': "Basa",
@@ -130417,7 +131526,15 @@
       'transport.voitureElectrique.label': "mobil listrik",
       'transport.van.label': "mobil karavan",
       'transport.moto.label': "sepedha motor",
-      'transport.velo.label': "sepedha"
+      'transport.velo.label': "sepedha",
+
+      'error.tooManyRequests': 'Panyuwunan kathahen wonten ing wekdal ingkang cekak: mangga cobi malih setunggal menit malih.',
+      'error.serverBusy': 'Server saweg sibuk sanget: mangga cobi malih sakedhap malih.',
+      'error.drawTimeout': 'Undhian punika dangu sanget: mangga cobi radius utawi tebih ingkang langkung alit.',
+      'theme.auto': 'Otomatis',
+      'theme.light': 'Padhang',
+      'theme.dark': 'Peteng',
+      'theme.buttonTitle': 'Gantos tema (otomatis / padhang / peteng)'
     },
     fil: {
       'lang.buttonLabel': "Wika",
@@ -131340,7 +132457,15 @@
       'transport.voitureElectrique.label': "de-kuryenteng kotse",
       'transport.van.label': "kamper van",
       'transport.moto.label': "motorsiklo",
-      'transport.velo.label': "bisikleta"
+      'transport.velo.label': "bisikleta",
+
+      'error.tooManyRequests': 'Labis na dami ng kahilingan sa maikling panahon: subukang muli makalipas ang isang minuto.',
+      'error.serverBusy': 'Lubhang abala ang server: subukang muli sa ilang sandali.',
+      'error.drawTimeout': 'Labis na tumagal ang bunutang ito: sumubok ng mas maliit na radyus o distansiya.',
+      'theme.auto': 'Awto',
+      'theme.light': 'Maliwanag',
+      'theme.dark': 'Madilim',
+      'theme.buttonTitle': 'Palitan ang tema (awto / maliwanag / madilim)'
     },
     mi: {
       'lang.buttonLabel': "Reo",
@@ -132263,7 +133388,15 @@
       'transport.voitureElectrique.label': "motokā hiko",
       'transport.van.label': "waka noho",
       'transport.moto.label': "motopaika",
-      'transport.velo.label': "paihikara"
+      'transport.velo.label': "paihikara",
+
+      'error.tooManyRequests': 'He nui rawa ngā tono i te wā poto: whakamātau anō ā tētahi meneti.',
+      'error.serverBusy': 'He tino pukumahi te tūmau: whakamātau anō ākuanei.',
+      'error.drawTimeout': 'I roa rawa tēnei tohu matapōkere: whakamātauria he pūtoro, he tawhiti rānei e iti iho ana.',
+      'theme.auto': 'Aunoa',
+      'theme.light': 'Mārama',
+      'theme.dark': 'Pōuri',
+      'theme.buttonTitle': 'Hurihia te kaupapa (aunoa / mārama / pōuri)'
     },
     sm: {
       'lang.buttonLabel': "Gagana",
@@ -133186,7 +134319,15 @@
       'transport.voitureElectrique.label': "taʻavale eletise",
       'transport.van.label': "veni tolauapi",
       'transport.moto.label': "uila afi",
-      'transport.velo.label': "uila vilivae"
+      'transport.velo.label': "uila vilivae",
+
+      'error.tooManyRequests': 'Ua tele naua talosaga i se taimi puʻupuʻu: toe taumafai i le isi minute.',
+      'error.serverBusy': 'Ua matuā pisi le masini tautua: toe taumafai i sina taimi.',
+      'error.drawTimeout': 'Ua umi tele lenei filifiliga: taumafai i se tapulaʻa laʻititi o le mamao.',
+      'theme.auto': 'Otometi',
+      'theme.light': 'Malamalama',
+      'theme.dark': 'Pogisa',
+      'theme.buttonTitle': 'Sui le foliga (otometi / malamalama / pogisa)'
     },
     ty: {
       'lang.buttonLabel': "Reo",
@@ -134109,7 +135250,15 @@
       'transport.voitureElectrique.label': "pereʻoʻo uira",
       'transport.van.label': "pereʻoʻo fare",
       'transport.moto.label': "pereʻoʻo tātaʻahi mātini",
-      'transport.velo.label': "pereʻoʻo tātaʻahi"
+      'transport.velo.label': "pereʻoʻo tātaʻahi",
+
+      'error.tooManyRequests': 'E rahi roa te mau aniraʻa i roto i te tau poto: ʻa tāmata faʻahou i te hōʻē miniti.',
+      'error.serverBusy': 'E rahi roa te ʻohipa a te mātini tāvini: ʻa tāmata faʻahou i muri aʻe.',
+      'error.drawTimeout': 'Ua maoro roa teie maʻiti: ʻa tāmata i te hōʻē ātea iti aʻe.',
+      'theme.auto': 'Ātōmatī',
+      'theme.light': 'Mārama',
+      'theme.dark': 'Pōiri',
+      'theme.buttonTitle': 'Taui i te huru (ātōmatī / mārama / pōiri)'
     },
     haw: {
       'lang.buttonLabel': "ʻŌlelo",
@@ -135032,7 +136181,15 @@
       'transport.voitureElectrique.label': "kaʻa uila",
       'transport.van.label': "kaʻa hoʻomoana",
       'transport.moto.label': "mokokaikala",
-      'transport.velo.label': "paikikala"
+      'transport.velo.label': "paikikala",
+
+      'error.tooManyRequests': 'Nui loa nā noi i loko o ka manawa pōkole: e hoʻāʻo hou ma hope o hoʻokahi minuke.',
+      'error.serverBusy': 'Paʻahana loa ke kikowaena pūnaewele: e hoʻāʻo hou ma hope iki.',
+      'error.drawTimeout': 'Ua lōʻihi loa kēia koho ʻana: e hoʻāʻo i ka palena mamao liʻiliʻi aʻe.',
+      'theme.auto': 'ʻAkomi',
+      'theme.light': 'Mālamalama',
+      'theme.dark': 'Pōʻeleʻele',
+      'theme.buttonTitle': 'E hoʻololi i ke kumuhana (ʻakomi / mālamalama / pōʻeleʻele)'
     },
     ht: {
       'lang.buttonLabel': "Lang",
@@ -135955,7 +137112,15 @@
       'transport.voitureElectrique.label': "machin elektrik",
       'transport.van.label': "kamyonèt amenaje",
       'transport.moto.label': "motosiklèt",
-      'transport.velo.label': "bisiklèt"
+      'transport.velo.label': "bisiklèt",
+
+      'error.tooManyRequests': 'Twòp demann nan yon ti tan: eseye ankò nan yon minit.',
+      'error.serverBusy': 'Sèvè a okipe anpil: eseye ankò nan kèk ti moman.',
+      'error.drawTimeout': 'Tiraj sa a t ap pran twòp tan: eseye yon reyon oswa yon distans ki pi piti.',
+      'theme.auto': 'Oto',
+      'theme.light': 'Klè',
+      'theme.dark': 'Fonse',
+      'theme.buttonTitle': 'Chanje tèm (oto / klè / fonse)'
     },
     'pap-AW': {
       'lang.buttonLabel': "Idioma",
@@ -136878,7 +138043,15 @@
       'transport.voitureElectrique.label': "auto electrico",
       'transport.van.label': "camper",
       'transport.moto.label': "motor",
-      'transport.velo.label': "bicicleta"
+      'transport.velo.label': "bicicleta",
+
+      'error.tooManyRequests': 'Hopi peticion den un tempo cortico: purba atrobe den un minuut.',
+      'error.serverBusy': 'E servidor ta hopi ocupa: purba atrobe den un rato.',
+      'error.drawTimeout': 'E sorteo aki tabata tuma hopi tempo: purba un radio of distancia mas chikito.',
+      'theme.auto': 'Automatico',
+      'theme.light': 'Cla',
+      'theme.dark': 'Scur',
+      'theme.buttonTitle': 'Cambia tema (automatico / cla / scur)'
     },
     'pap-CW': {
       'lang.buttonLabel': "Idioma",
@@ -137801,7 +138974,15 @@
       'transport.voitureElectrique.label': "outo eléktriko",
       'transport.van.label': "kamper",
       'transport.moto.label': "motor",
-      'transport.velo.label': "baiskel"
+      'transport.velo.label': "baiskel",
+
+      'error.tooManyRequests': 'Hopi petishon den un tempu kortiku: purba atrobe den un minüt.',
+      'error.serverBusy': 'E sirbidó ta hopi okupá: purba atrobe den un ratu.',
+      'error.drawTimeout': 'E sorteo aki tabata tuma hopi tempu: purba un radio òf distansia mas chikí.',
+      'theme.auto': 'Outomátiko',
+      'theme.light': 'Kla',
+      'theme.dark': 'Skur',
+      'theme.buttonTitle': 'Kambia tema (outomátiko / kla / skur)'
     },
     qu: {
       'lang.buttonLabel': "Simi",
@@ -138724,7 +139905,15 @@
       'transport.voitureElectrique.label': "illapa kallpayuq antawa",
       'transport.van.label': "wasichasqa antawa",
       'transport.moto.label': "mutu",
-      'transport.velo.label': "bisikleta"
+      'transport.velo.label': "bisikleta",
+
+      'error.tooManyRequests': 'Pisi pachallapi ancha achkha mañakuykuna: huk minutumanta wakmanta ruway.',
+      'error.serverBusy': 'Servidorqa ancha llamk\'ayniyuqmi: huk ratullamanta wakmanta ruway.',
+      'error.drawTimeout': 'Kay akllayqa ancha unaytam tardarqa: aswan huch\'uy karu kay saywata utaq karu kayta churay.',
+      'theme.auto': 'Kikillanmanta',
+      'theme.light': 'K\'anchay',
+      'theme.dark': 'Tutayaq',
+      'theme.buttonTitle': 'Rikch\'akuyta tikray (kikillanmanta / k\'anchay / tutayaq)'
     },
     'qu-EC': {
       'lang.buttonLabel': "Shimi",
@@ -139647,7 +140836,15 @@
       'transport.voitureElectrique.label': "illapa ushayuk antawa",
       'transport.van.label': "wasiyuk antawa",
       'transport.moto.label': "mutu",
-      'transport.velo.label': "bisikleta"
+      'transport.velo.label': "bisikleta",
+
+      'error.tooManyRequests': 'Uchilla pachapi yapa achka mañaykuna: shuk minutu kipa kutin rurapay.',
+      'error.serverBusy': 'Servidorka yapa llamkaywanmi kan: ashalla kipa kutin rurapay.',
+      'error.drawTimeout': 'Kay akllayka yapa unaytami karka: ashtawan uchilla karukaypak saywata, mana kashpaka karukayta churapay.',
+      'theme.auto': 'Kikinllamanta',
+      'theme.light': 'Achik',
+      'theme.dark': 'Tutayak',
+      'theme.buttonTitle': 'Rikchayta shukyachiy (kikinllamanta / achik / tutayak)'
     },
     gn: {
       'lang.buttonLabel': "Ñe'ẽ",
@@ -140570,7 +141767,15 @@
       'transport.voitureElectrique.label': "mba'yrumýi tataendy rehegua",
       'transport.van.label': "mba'yrumýi óga",
       'transport.moto.label': "móto",
-      'transport.velo.label': "bisikleta"
+      'transport.velo.label': "bisikleta",
+
+      'error.tooManyRequests': 'Hetaiterei mba\'ejerure ára mbykymíme: eha\'ã jey peteĩ aravo\'i rire.',
+      'error.serverBusy': 'Mohendaha guasu omba\'apoiterei hína: eha\'ã jey sapy\'ami rire.',
+      'error.drawTimeout': 'Ko poravo ohasaiterei ára: eha\'ã mombyrykue paha michĩvéva térã mombyrykue michĩvéva.',
+      'theme.auto': 'Ijehegui',
+      'theme.light': 'Hesakã',
+      'theme.dark': 'Pytũ',
+      'theme.buttonTitle': 'Emoambue téma (ijehegui / hesakã / pytũ)'
     },
     ii: {
       'lang.buttonLabel': "ꉙꅇ",
@@ -141493,7 +142698,15 @@
       'transport.voitureElectrique.label': "ꄅꄖꏾꍯ",
       'transport.van.label': "ꃓꍯ",
       'transport.moto.label': "ꂿꄧꍯ",
-      'transport.velo.label': "ꊪꑟꍯ"
+      'transport.velo.label': "ꊪꑟꍯ",
+
+      'error.tooManyRequests': 'ꄮꄉꑞꇁꐯꀋꎭ — ꋍꃅꂨꇬꊠꏂ。',
+      'error.serverBusy': 'ꃚꃶꏾꊿꀋꎭ — ꎴꉷꊠꏂ。',
+      'error.drawTimeout': 'ꌕꏢꍲꄮꄉꎭꀋ — ꀠꏢꑣꍝꆏꊠꏂ。',
+      'theme.auto': 'ꀋꐚꇐ',
+      'theme.light': 'ꅉꋔ',
+      'theme.dark': 'ꅉꆈ',
+      'theme.buttonTitle': 'ꀊꄿꉬꌦ（ꀋꐚꇐ / ꅉꋔ / ꅉꆈ）'
     },
     ch: {
       'lang.buttonLabel': "Lenguahi",
@@ -142416,7 +143629,15 @@
       'transport.voitureElectrique.label': "karetan elektrisidåt",
       'transport.van.label': "karetan kåmpu",
       'transport.moto.label': "motorsiklo",
-      'transport.velo.label': "bisikleta"
+      'transport.velo.label': "bisikleta",
+
+      'error.tooManyRequests': 'Meggai na kinalamten gi dididi na tiempo: chagi ta\'lo gi un minutu.',
+      'error.serverBusy': 'Mappot i server pa\'go: chagi ta\'lo gi ti apmam.',
+      'error.drawTimeout': 'Ha tagåhan i ayek este: chagi un dikike\' mås na radio pat distånsia.',
+      'theme.auto': 'Otomåtiko',
+      'theme.light': 'Maññila\'',
+      'theme.dark': 'Homhom',
+      'theme.buttonTitle': 'Tulaika i tema (otomåtiko / maññila\' / homhom)'
     },
     pau: {
       'lang.buttonLabel': "Tekoi",
@@ -143339,7 +144560,15 @@
       'transport.voitureElectrique.label': "sidosia er a dengki",
       'transport.van.label': "sidosia el blai",
       'transport.moto.label': "otobai",
-      'transport.velo.label': "baisikel"
+      'transport.velo.label': "baisikel",
+
+      'error.tooManyRequests': 'Ng betok a kerekur er a kekedeb el taem: bo ke mo er ngii er a ta el minit.',
+      'error.serverBusy': 'Ng betok a urereor er a server: bo ke mo er ngii el kot.',
+      'error.drawTimeout': 'A ika el melilt a mle mekesai el taem: bo ke mo er a kekedeb el cheroid.',
+      'theme.auto': 'Otomatik',
+      'theme.light': 'Ngeaol',
+      'theme.dark': 'Kldidurs',
+      'theme.buttonTitle': 'Mengtik er a tema (otomatik / ngeaol / kldidurs)'
     },
     mh: {
       'lang.buttonLabel': "Kajin",
@@ -144262,7 +145491,15 @@
       'transport.voitureElectrique.label': "kaar in kōrent",
       'transport.van.label': "baen",
       'transport.moto.label': "otobai",
-      'transport.velo.label': "baajikōļ"
+      'transport.velo.label': "baajikōļ",
+
+      'error.tooManyRequests': 'Elōn̄ lukkuun kajjitōk ilo juon iien jidik: bar kajjeon̄e ilo juon minit.',
+      'error.serverBusy': 'Server eo ej lukkuun bōkāro: bar kajjeon̄e ilo iien eo tok.',
+      'error.drawTimeout': 'Kāālōt in ear aitok an iien: kajjeon̄e juon ettoļo̧k eo edik lok.',
+      'theme.auto': 'Otomatik',
+      'theme.light': 'Meram',
+      'theme.dark': 'Marok',
+      'theme.buttonTitle': 'Oktak teem (otomatik / meram / marok)'
     },
     mrq: {
       'lang.buttonLabel': "ʻEo",
@@ -145185,7 +146422,15 @@
       'transport.voitureElectrique.label': "vatuʻa uʻia",
       'transport.van.label': "vatuʻa haʻe",
       'transport.moto.label': "moto",
-      'transport.velo.label': "veʻo"
+      'transport.velo.label': "veʻo",
+
+      'error.tooManyRequests': 'Nui ʻoa te tau tono i te tau poto: a tāmata hakahou i te hoʻe miniti.',
+      'error.serverBusy': 'Nui ʻoa te hana a te mātini: a tāmata hakahou.',
+      'error.drawTimeout': 'Ua mamau ʻoa tēnei vae: a tāmata i te mamao iti atu.',
+      'theme.auto': 'Otomati',
+      'theme.light': 'Maʻama',
+      'theme.dark': 'Poʻiʻi',
+      'theme.buttonTitle': 'Hakahuʻi te huʻu (otomati / maʻama / poʻiʻi)'
     },
     kl: {
       'lang.buttonLabel': "Oqaatsit",
@@ -146108,7 +147353,15 @@
       'transport.voitureElectrique.label': "biili innaallagissamik ingerlasoq",
       'transport.van.label': "biili sinittarfilik",
       'transport.moto.label': "motorsykili",
-      'transport.velo.label': "sikkili"
+      'transport.velo.label': "sikkili",
+
+      'error.tooManyRequests': 'Piffissami naatsumi qinnutit amerlavallaarput: minutsip ataatsip qaangiunnerani misileeqqiguk.',
+      'error.serverBusy': 'Qarasaasiaq sullissivik ulapputivoq: sivitsunngitsukkut misileeqqiguk.',
+      'error.drawTimeout': 'Nalaatsornikkut toqqaaneq sivisuallaarpoq: ungasissutsip killinga minnerusoq imaluunniit ungasissuseq minnerusoq misiliguk.',
+      'theme.auto': 'Nammineq',
+      'theme.light': 'Qaamasoq',
+      'theme.dark': 'Taarsoq',
+      'theme.buttonTitle': 'Ilusaa allanngortiguk (nammineq / qaamasoq / taarsoq)'
     },
     ay: {
       'lang.buttonLabel': "Aru",
@@ -147031,7 +148284,15 @@
       'transport.voitureElectrique.label': "illapa ch'amani awtu",
       'transport.van.label': "utachat kamiyunita",
       'transport.moto.label': "mutu",
-      'transport.velo.label': "wisiklita"
+      'transport.velo.label': "wisiklita",
+
+      'error.tooManyRequests': 'Jisk\'a pachanx walja mayiwinakaw utji: mä minutut wasitat yant\'ma.',
+      'error.serverBusy': 'Servidorax wali irnaqaskiwa: mä juk\'at wasitat yant\'ma.',
+      'error.drawTimeout': 'Aka ajllisiñax sinti jaya pachanaqaskänwa: juk\'a jayapa jark\'awi jan ukax juk\'a jayap yant\'ma.',
+      'theme.auto': 'Pachpa',
+      'theme.light': 'Qhana',
+      'theme.dark': 'Ch\'amaka',
+      'theme.buttonTitle': 'Uñnaqa mayjt\'ayma (pachpa / qhana / ch\'amaka)'
     },
     yua: {
       'lang.buttonLabel': "T'aan",
@@ -147954,7 +149215,15 @@
       'transport.voitureElectrique.label': "eléektriko kaarro",
       'transport.van.label': "kamioneta beeta'an je'ex naj",
       'transport.moto.label': "mooto",
-      'transport.velo.label': "bisikleta"
+      'transport.velo.label': "bisikleta",
+
+      'error.tooManyRequests': 'Ya\'ab k\'áatchi\'ob ichil jump\'íit k\'iin: ka\'a tuunt ichil jump\'éel minuutoj.',
+      'error.serverBusy': 'Le servidoro\' jach ya\'ab u meyaj: ka\'a tuunt ichil jump\'íit.',
+      'error.drawTimeout': 'Le yéeyaja\' táan u xáantal: tuunt jump\'éel chan xuul u náachil wa jump\'éel chan náachil.',
+      'theme.auto': 'Tu juunal',
+      'theme.light': 'Sáasil',
+      'theme.dark': 'Éek\'joch\'e\'en',
+      'theme.buttonTitle': 'K\'ex u boonil (tu juunal / sáasil / éek\'joch\'e\'en)'
     },
     quc: {
       'lang.buttonLabel': "Ch'ab'al",
@@ -148877,7 +150146,15 @@
       'transport.voitureElectrique.label': "ch'ich' eléctrico",
       'transport.van.label': "nima ch'ich' rech warb'al",
       'transport.moto.label': "moto",
-      'transport.velo.label': "b'isikleta"
+      'transport.velo.label': "b'isikleta",
+
+      'error.tooManyRequests': 'K\'i taq tz\'onob\'al pa jun ch\'uti ramaj: chab\'ana\' chik jumul chi rij jun minut.',
+      'error.serverBusy': 'Ri servidor k\'o k\'i uchak: chab\'ana\' chik jumul pa jun ch\'uti ramaj.',
+      'error.drawTimeout': 'Wa\' cha\'oj xuk\'am k\'i ramaj: chatojtob\'ej jun ch\'uti uk\'ulb\'at ri najtajil o jun ch\'uti najtajil.',
+      'theme.auto': 'Utukel',
+      'theme.light': 'Saq',
+      'theme.dark': 'Q\'eq',
+      'theme.buttonTitle': 'Chajalwachij ri uwach (utukel / saq / q\'eq)'
     },
     cak: {
       'lang.buttonLabel': "Ch'ab'äl",
@@ -149800,7 +151077,15 @@
       'transport.voitureElectrique.label': "ch'ich' eléctrico",
       'transport.van.label': "nïm ch'ich' richin warab'äl",
       'transport.moto.label': "moto",
-      'transport.velo.label': "b'isikleta"
+      'transport.velo.label': "b'isikleta",
+
+      'error.tooManyRequests': 'Janila k\'iy taq k\'utunïk pa jun ch\'uti ramaj: tab\'ana\' chik jun mul chi rij jun minut.',
+      'error.serverBusy': 'Ri servidor janila k\'o rusamaj: tab\'ana\' chik jun mul pa jun ch\'uti ramaj.',
+      'error.drawTimeout': 'Re cha\'oj re\' xuk\'ëx janila q\'ij: tatojtob\'ej jun ch\'utin ruk\'isib\'äl runajtil o jun ch\'utin runajtil.',
+      'theme.auto': 'Ruyonil',
+      'theme.light': 'Saq',
+      'theme.dark': 'Q\'ëq',
+      'theme.buttonTitle': 'Tajalwachij ri tema (ruyonil / saq / q\'ëq)'
     },
     kek: {
       'lang.buttonLabel': "Aatinob'aal",
@@ -150723,7 +152008,15 @@
       'transport.voitureElectrique.label': "b'eleb'aal ch'iich' eléctrico",
       'transport.van.label': "nimla b'eleb'aal ch'iich' re warib'aal",
       'transport.moto.label': "moto",
-      'transport.velo.label': "bicicleta"
+      'transport.velo.label': "bicicleta",
+
+      'error.tooManyRequests': 'Nab\'al li tz\'aamanb\'il sa\' jun ch\'ina hoonal: chab\'aanu wi\' chik chirix jun minuut.',
+      'error.serverBusy': 'Li servidor k\'ajo\' xk\'anjel: chab\'aanu wi\' chik sa\' jun ch\'ina hoonal.',
+      'error.drawTimeout': 'Li sik\'ok a\'in naxk\'am nab\'al li hoonal: chayal jun ch\'ina xraqik li najtil malaj jun ch\'ina najtil.',
+      'theme.auto': 'Xjunes',
+      'theme.light': 'Saq',
+      'theme.dark': 'Q\'eq',
+      'theme.buttonTitle': 'Chajalb\'a li tema (xjunes / saq / q\'eq)'
     }
   };
 
@@ -151584,6 +152877,78 @@
       'pack.moto': ['Ахы ду ахьчаратә насгьы аԥсы', 'Аҧсы аӡхра мамзаргьы аԥсы шәашәы', 'Абаҕаж азы еластик ленҭа'],
       'pack.velo': ['Иалху ашина ахәрҭра гарнитур', 'Аӡы адымцо ахала', 'GPS азы иацу батареиа']
 
+    },
+    hy: {
+      'pack.base': ['Առաջին օգնության դեղատուփ', 'Բազմակի օգտագործման ջրի շիշ', 'Լիցքավորիչ և արտաքին մարտկոց', 'Պահուստային կանխիկ գումար', 'Ճանապարհի երաժշտական ցանկ'],
+      'pack.economique': ['3 եղանակի քնապարկ', 'Ճամբարային գազօջախ / խոհանոցային պարագաներ', 'Գերթեթև վրան (պահուստային՝ բացօթյա գիշերակացի համար)'],
+      'pack.moyen': ['Կոմպակտ հիգիենայի պայուսակ', 'Փոքր ճամփորդական բարձ'],
+      'pack.confortable': ['Պատշաճ հագուստ երեկոյան ռեստորանի համար', 'Հիգիենայի պարագաների լիարժեք հավաքածու'],
+      'pack.voitureThermique': ['Տեխանձնագիր և գործող վարորդական իրավունք', 'Առաջին օգնության դեղատուփ'],
+      'pack.voitureHybride': ['Տեխանձնագիր և գործող վարորդական իրավունք', 'Առաջին օգնության դեղատուփ'],
+      'pack.voitureElectrique': ['Type 2 լիցքավորման մալուխ', 'Լիցքավորման կայանների բազմացանցային հավելված (օր.՝ Chargemap)', 'Հայտարարված ինքնավարության 20% պաշար'],
+      'pack.van': ['Խմելու ջրի տարա', 'Ճամբարային գազի բալոն', 'Հարթեցման տակդիրներ'],
+      'pack.moto': ['Սաղավարտ և ձեռնոցներ', 'Անձրևանոց կոստյում կամ անձրևի տաբատ', 'Ուղեբեռի առաձգական ամրակապեր'],
+      'pack.velo': ['Անվադողի վերանորոգման ամբողջական հավաքածու', 'Անջրանցիկ հեծանվային պայուսակներ', 'Արտաքին մարտկոց GPS-ի համար']
+    },
+    az: {
+      'pack.base': ['İlk yardım çantası', 'Təkrar istifadə olunan su qabı', 'Şarj cihazı və powerbank', 'Ehtiyat nağd pul', 'Yol üçün musiqi siyahısı'],
+      'pack.economique': ['3 fəsillik yataq kisəsi', 'Kamp ocağı / qab-qacaq', 'Ultrayüngül çadır (çöldə gecələmə üçün ehtiyat)'],
+      'pack.moyen': ['Kompakt gigiyena çantası', 'Kiçik səyahət yastığı'],
+      'pack.confortable': ['Axşam restoranı üçün səliqəli geyim', 'Tam gigiyena dəsti'],
+      'pack.voitureThermique': ['Texniki pasport və etibarlı sürücülük vəsiqəsi', 'İlk yardım çantası'],
+      'pack.voitureHybride': ['Texniki pasport və etibarlı sürücülük vəsiqəsi', 'İlk yardım çantası'],
+      'pack.voitureElectrique': ['Type 2 şarj kabeli', 'Çoxşəbəkəli şarj məntəqələri tətbiqi (məs. Chargemap)', 'Elan edilmiş yürüş məsafəsinə 20% ehtiyat'],
+      'pack.van': ['İçməli su kanistri', 'Kamp qazı balonu', 'Səviyyələmə altlıqları'],
+      'pack.moto': ['Dəbilqə və əlcəklər', 'Yağış kombinezonu və ya yağış şalvarı', 'Baqaj üçün elastik kəmərlər'],
+      'pack.velo': ['Tam təkər təmiri dəsti', 'Suyakeçirməz velosiped çantaları', 'GPS üçün xarici batareya']
+    },
+    ar: {
+      'pack.base': ['حقيبة إسعافات أولية', 'قارورة ماء قابلة لإعادة الاستخدام', 'شاحن وبطارية خارجية', 'مبلغ نقدي احتياطي', 'قائمة أغانٍ للطريق'],
+      'pack.economique': ['كيس نوم لثلاثة فصول', 'موقد وأدوات طهي للتخييم', 'خيمة خفيفة جدًا (احتياطًا للمبيت في العراء)'],
+      'pack.moyen': ['حقيبة أدوات نظافة صغيرة', 'وسادة سفر صغيرة'],
+      'pack.confortable': ['ملابس لائقة لعشاء المطعم', 'حقيبة أدوات نظافة كاملة'],
+      'pack.voitureThermique': ['رخصة السيارة ورخصة قيادة سارية', 'حقيبة إسعافات أولية'],
+      'pack.voitureHybride': ['رخصة السيارة ورخصة قيادة سارية', 'حقيبة إسعافات أولية'],
+      'pack.voitureElectrique': ['كابل شحن Type 2', 'تطبيق لمحطات الشحن متعدد الشبكات (مثل Chargemap)', 'هامش 20% على المدى المُعلَن'],
+      'pack.van': ['جالون ماء صالح للشرب', 'خرطوشة غاز للتخييم', 'مكعبات تسوية'],
+      'pack.moto': ['خوذة وقفازات', 'بدلة أو بنطال واقٍ من المطر', 'أحزمة مطاطية للأمتعة'],
+      'pack.velo': ['طقم كامل لإصلاح ثقوب الإطارات', 'حقائب دراجة مقاومة للماء', 'بطارية خارجية لجهاز GPS']
+    },
+    ku: {
+      'pack.base': ['Çenteya alîkariya yekem', 'Şûşeya avê ya ji nû ve bikaranîbar', 'Şarjker û bataryaya derve', 'Pereyê kaş ê yedek', 'Lîsteya muzîkê ya rêwîtiyê'],
+      'pack.economique': ['Tûrikê xewê yê 3 demsalan', 'Sobeya kampê / amûrên xwarinçêkirinê', 'Konê pir sivik (yedek ji bo razana li xwezayê)'],
+      'pack.moyen': ['Çenteya paqijiyê ya biçûk', 'Balgiyê rêwîtiyê yê biçûk'],
+      'pack.confortable': ['Cilên guncaw ji bo xwarina êvarê li xwaringehê', 'Çenteya paqijiyê ya temam'],
+      'pack.voitureThermique': ['Belgeya wesayîtê û ehliyeta derbasdar', 'Çenteya alîkariya yekem'],
+      'pack.voitureHybride': ['Belgeya wesayîtê û ehliyeta derbasdar', 'Çenteya alîkariya yekem'],
+      'pack.voitureElectrique': ['Kabloya şarjê ya Type 2', 'Sepana stasyonên şarjê ya pir-torî (mînak Chargemap)', 'Marjeke 20% li ser menzîla ragihandî'],
+      'pack.van': ['Bidona ava vexwarinê', 'Kartûşa gaza kampê', 'Blokên hevsengkirinê'],
+      'pack.moto': ['Kask û destik', 'Kincê baranê an şalwarê baranê', 'Bendên lastîkî ji bo barê'],
+      'pack.velo': ['Kîta temam a tamîrkirina qulbûna tekerê', 'Çenteyên bisiklêtê yên avnegir', 'Bataryaya derve ji bo GPS']
+    },
+    tru: {
+      'pack.base': ['Janṭa d-darmone qamoye', 'Qarraba d-maye d-kmitfalḥo tub', 'Šarjor w batarya d-lbar', 'Zuze naqdiye l-ḥoǧa', 'Listo d-zmiroṯe l-urḥo'],
+      'pack.economique': ['Šaqo d-damixo d-3 zabne', 'Ṣobo d-kamp w mocone d-bašolo', 'Xayme qalilto (l-ḥoǧa d-damixo b-barriye)'],
+      'pack.moyen': ['Janṭa naqqurto d-naḍifuṯo', 'Bolišto naqqurto d-safarto'],
+      'pack.confortable': ['Jule šafire l-restoran d-ramšo', 'Janṭa šalmto d-naḍifuṯo'],
+      'pack.voitureThermique': ['Warqe d-karta w ruxṣa d-sayoquṯo ḥayye', 'Janṭa d-darmone qamoye'],
+      'pack.voitureHybride': ['Warqe d-karta w ruxṣa d-sayoquṯo ḥayye', 'Janṭa d-darmone qamoye'],
+      'pack.voitureElectrique': ['Kablo d-šarj Type 2', 'Aplikasyon d-maḥaṭṭoṯe d-šarj d-kulle šabakoṯe (mesal Chargemap)', 'Ḥoǧa d-20% cal ruḥqo d-kmitmar'],
+      'pack.van': ['Bidon d-maye d-šṯoyo', 'Kartuš d-gaz d-kamp', 'Ṭobe d-šwoyo'],
+      'pack.moto': ['Kask w kfufe', 'Jule aw šarwole d-miṭro', 'Qayše elastike l-janṭoṯe'],
+      'pack.velo': ['Ṭaqmo šalmo d-taqno d-lastik', 'Janṭoṯe d-aflag d-lo kcoḇri maye', 'Batarya d-lbar l-GPS']
+    },
+    ady: {
+      'pack.base': ['Япэ дэIэпыкъуэгъу хущхъуэ IыгъыпIэ', 'Зэ нэхъ къагъэсэбэп псы IыгъыпIэ', 'Зарядкэрэ павербанкрэ', 'Хъумэн папщIэ ахъщэ щIэлъ', 'Гъогу макъамэ тизым'],
+      'pack.economique': ['Зэман 3-м хуэщI жейпIэ хъуржын', 'Бивак пщэфIапIэ / Iэнэ Iэмэпсымэ', 'Хуабжьу псынщIэ палаткэ (бивакым папщIэ хъумэну)'],
+      'pack.moyen': ['ЗыкъабзэпIэ Iэмэпсымэ цIыкIу', 'Гъогу щхьэнтэ цIыкIу'],
+      'pack.confortable': ['Пщыхьэщхьэ ресторан кIуэным хуэфэщэн фащэ', 'ЗыкъабзэпIэ Iэмэпсымэ псори'],
+      'pack.voitureThermique': ['Машинэ тхылъымпIэмрэ шофёр тхылъымпIэ пэжымрэ', 'Япэ дэIэпыкъуэгъу хущхъуэ IыгъыпIэ'],
+      'pack.voitureHybride': ['Машинэ тхылъымпIэмрэ шофёр тхылъымпIэ пэжымрэ', 'Япэ дэIэпыкъуэгъу хущхъуэ IыгъыпIэ'],
+      'pack.voitureElectrique': ['Type 2 зарядкэ кабель', 'Зарядкэ станцэхэм я сетыбэ приложенэ (щапхъэу Chargemap)', 'ЖаIэ жыжьагъым щыщ 20% хъумэн'],
+      'pack.van': ['Ефэ псы канистр', 'Бивак газ баллон', 'Зэгъэзэхуэн блокхэр'],
+      'pack.moto': ['Шлемрэ IэлъэщIхэмрэ', 'Уэшх комбинезон е уэшх гъуэншэдж', 'Хьэлъэхэм папщIэ резинэ бгырыпххэр'],
+      'pack.velo': ['Шинэ зэгъэзэхуэжын Iэмэпсымэ псори', 'Псы щIэмыхьэ хъуржынхэр', 'GPS-м папщIэ батареякIэ щIыб']
     },
     zgh: {
       'pack.base': ["ⵜⴰⵢⵍⵍⵉⵜ ⵏ ⵜⴷⵓⵙⵉ", "ⵜⴰⴳⵔⵎⵓⵙⵜ ⵏ ⵡⴰⵎⴰⵏ ⵉⵜⵜⵓⵖⴰⵍⵏ", "ⴰⵛⴰⵕⵊⵉ ⴷ ⵜⴱⴰⵟⵕⵉ ⵜⵓⴼⴼⵉⵖⵜ", "ⵉⴷⵔⵉⵎⵏ ⵏ ⵜⵡⵉⵣⵉ", "ⵜⴰⴱⴷⴰⵔⵜ ⵏ ⵓⵥⴰⵡⴰⵏ ⵏ ⵓⴱⵔⵉⴷ"],
@@ -152725,9 +154090,21 @@
     img.alt = ''; // décoratif : le nom de la langue est déjà porté par aria-label sur le bouton (voir applyPanelTexts)
   }
 
-  function closePanel(){
+  // returnFocus : rend le focus au bouton (fermeture au clavier ou après un choix), pas lors d'un clic ailleurs.
+  function closePanel(returnFocus){
+    var wasOpen = panelEl && panelEl.classList.contains('show');
     if(panelEl) panelEl.classList.remove('show');
     if(buttonEl) buttonEl.setAttribute('aria-expanded', 'false');
+    if(wasOpen && returnFocus === true && buttonEl) buttonEl.focus();
+  }
+  function chooseLang(code){ setLang(code); closePanel(true); }
+  // Options navigables au clavier : flèches haut/bas (la flèche haut depuis la première revient au champ de
+  // recherche), Début/Fin, Entrée ou Espace pour choisir, Échap pour fermer.
+  function langOptions(){ return listEl ? Array.prototype.slice.call(listEl.querySelectorAll('.lang-option')) : []; }
+  function focusLangOption(idx){
+    var opts = langOptions();
+    if(!opts.length) return;
+    opts[Math.max(0, Math.min(opts.length - 1, idx))].focus();
   }
   function openPanel(){
     if(!panelEl) return;
@@ -152768,6 +154145,8 @@
       li.className = 'lang-option' + (code === lang ? ' active' : '');
       li.setAttribute('role', 'option');
       li.setAttribute('aria-selected', code === lang ? 'true' : 'false');
+      li.setAttribute('tabindex', '-1');
+      li.setAttribute('data-lang', code);
       var codeSpan = document.createElement('img');
       codeSpan.className = 'lang-option-flag';
       codeSpan.src = langFlagSrc(code);
@@ -152777,7 +154156,10 @@
       nameSpan.textContent = LANG_NAMES[code];
       li.appendChild(codeSpan);
       li.appendChild(nameSpan);
-      li.addEventListener('mousedown', function(e){ e.preventDefault(); setLang(code); closePanel(); });
+      // mousedown sans effet par défaut (le champ de recherche garde le focus) ; le choix se fait au clic, que les
+      // lecteurs d'écran déclenchent aussi.
+      li.addEventListener('mousedown', function(e){ e.preventDefault(); });
+      li.addEventListener('click', function(){ chooseLang(code); });
       listEl.appendChild(li);
     });
   }
@@ -152806,7 +154188,9 @@
 
     listEl = document.createElement('ul');
     listEl.className = 'lang-option-list';
+    listEl.id = 'lang-option-list';
     listEl.setAttribute('role', 'listbox');
+    searchInput.setAttribute('aria-controls', listEl.id);
 
     panelEl.appendChild(searchInput);
     panelEl.appendChild(listEl);
@@ -152818,7 +154202,31 @@
       if(panelEl.classList.contains('show')) closePanel(); else openPanel();
     });
     searchInput.addEventListener('input', function(){ renderLangList(searchInput.value); });
-    searchInput.addEventListener('keydown', function(e){ if(e.key === 'Escape'){ closePanel(); buttonEl.focus(); } });
+    searchInput.addEventListener('keydown', function(e){
+      if(e.key === 'Escape'){ e.preventDefault(); closePanel(true); }
+      else if(e.key === 'ArrowDown'){ e.preventDefault(); focusLangOption(0); }
+      else if(e.key === 'Enter'){
+        // Entrée dans la recherche : choisit le premier résultat affiché.
+        e.preventDefault();
+        var first = langOptions()[0];
+        if(first) chooseLang(first.getAttribute('data-lang'));
+      }
+    });
+    listEl.addEventListener('keydown', function(e){
+      var opts = langOptions();
+      var idx = opts.indexOf(document.activeElement);
+      if(idx < 0) return;
+      if(e.key === 'ArrowDown'){ e.preventDefault(); focusLangOption(idx + 1); }
+      else if(e.key === 'ArrowUp'){ e.preventDefault(); if(idx === 0) searchInput.focus(); else focusLangOption(idx - 1); }
+      else if(e.key === 'Home'){ e.preventDefault(); focusLangOption(0); }
+      else if(e.key === 'End'){ e.preventDefault(); focusLangOption(opts.length - 1); }
+      else if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); chooseLang(opts[idx].getAttribute('data-lang')); }
+      else if(e.key === 'Escape'){ e.preventDefault(); closePanel(true); }
+    });
+    // Tabulation hors du panneau : il se referme, comme au clic ailleurs.
+    panelEl.addEventListener('focusout', function(e){
+      if(e.relatedTarget && !switcherRoot.contains(e.relatedTarget)) closePanel();
+    });
     document.addEventListener('click', function(e){
       if(!switcherRoot.contains(e.target)) closePanel();
     });

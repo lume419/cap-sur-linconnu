@@ -1,28 +1,27 @@
 # Cap sur l'Inconnu
 
 Générateur de road trip mystère : tirage au sort d'un itinéraire réel (jusqu'à 21 jours, 15 villes),
-avec de vraies communes (France, Andorre, Espagne, Portugal, Belgique, Pays-Bas, Luxembourg, Suisse,
-Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey, Jersey, République
-tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine, Royaume-Uni, Irlande,
-île de Man — voir "Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points
-d'intérêt (OpenStreetMap), de vrais tarifs de péage, de vraies traversées en ferry pour la Corse/les
-Baléares/les Canaries/la Sardaigne/la Sicile/Malte/Gozo/les îles Anglo-Normandes/onze îles croates/la
-Manche (Douvres-Calais)/la mer d'Irlande (Holyhead-Dublin)/la mer d'Irlande encore (Heysham-Douglas)
-(voir "Ferries" plus bas) et une carte interactive (Leaflet + tuiles OpenStreetMap). Interface
-disponible en français, anglais, espagnol, portugais, néerlandais, allemand, luxembourgeois, italien,
-romanche, bas-allemand, sorabe, frison du Nord, sarde, frioulan, ladin, maltais, monégasque, jèrriais,
-guernésiais, kachoube, rusyn/lemko, istro-roumain, catalan, basque, galicien, occitan, breton, corse,
-mirandais, irlandais, mannois, gallois, gaélique écossais, cornique et scots (voir "Langues" plus bas).
+avec de vrais lieux dans 239 pays et territoires (`COUNTRIES` dans `public/js/trip-data.js` — voir
+"Pays couverts" plus bas pour l'ajout d'un nouveau pays), de vrais points d'intérêt (OpenStreetMap),
+de vrais tarifs de péage, de vraies traversées en ferry (voir "Ferries" plus bas) et une carte
+interactive (Leaflet + tuiles OpenStreetMap). Interface disponible en 161 langues (`SUPPORTED` dans
+`public/js/i18n.js`, voir "Langues" plus bas).
 
 Anciennement un artefact Claude autonome (un seul fichier HTML) ; ce dossier est la même application
-restructurée en petit projet Node.js statique, prête à héberger sur un serveur privé.
+restructurée en projet Node.js (Express) — pages statiques, recherche de ville et tirage côté serveur —,
+prête à héberger sur un serveur privé.
 
 ## Structure
 
 ```
 cap-sur-linconnu/
 ├── package.json
-├── server.js              # Express : sert public/ tel quel + une route GET /api/photo
+├── server.js              # Express : pages de public/ (sauf /data/, en 404) + routes /api/ (liste plus bas)
+├── lib/
+│   ├── trip-engine.js     # moteur côté serveur : recherche de ville et tirage d'itinéraire
+│   ├── search-index.js    # index de recherche sur disque (cache/search-index/, voir plus bas)
+│   ├── land-grid.js       # grille terre/eau lib/land-grid.bin (voir "Pas de route à travers la mer")
+│   └── ferry-ports.js     # GÉNÉRÉ par scripts/build-ferry-ports.js : ports des liaisons de ferry
 ├── scripts/
 │   ├── build-country-communes.js  # génère public/data/communes-XX.txt pour un nouveau pays (GeoNames)
 │   ├── build-aliases.js           # génère public/data/aliases-XX.txt (noms multilingues, GeoNames)
@@ -39,7 +38,8 @@ cap-sur-linconnu/
 │   ├── robots.txt
 │   ├── sitemap.xml
 │   ├── css/style.css
-│   ├── js/app.js          # toute la génération d'itinéraire (client-side)
+│   ├── js/app.js          # interface : formulaire, appels /api/, rendu de l'itinéraire et de la carte
+│   ├── js/trip-data.js    # tables partagées navigateur/serveur : COUNTRIES, péages, ferries, îles
 │   ├── js/i18n.js         # dictionnaire de traduction + sélecteur de langue (voir "Langues")
 │   ├── js/theme.js        # bascule clair/sombre/auto, partagée par les 3 pages
 │   ├── vendor/leaflet/    # Leaflet (BSD-2-Clause), hébergé localement — moteur de la carte du parcours
@@ -115,7 +115,10 @@ cap-sur-linconnu/
 │                                # (non chargé par l'app — conservé comme référence/source)
 ```
 
-Le serveur sert les fichiers statiques et quatre routes dynamiques : `GET /api/photo?name=…&dept=…
+Le serveur sert les fichiers statiques et sept routes dynamiques : `GET /api/search-city` et
+`POST /api/generate-trip` (recherche de ville et tirage, voir "Recherche et tirage aléatoire côté
+serveur"), `GET /api/status` (état du démarrage, voir "Dépannage de l'hébergement"),
+`GET /api/photo?name=…&dept=…
 &country=…&lang=…`, qui va chercher une vraie photo sur Wikipédia — dans la langue du VISITEUR
 (`lang`), pas celle de la commune (voir plus bas), `GET /api/pois?lat=…&lon=…&country=…`, qui va
 chercher de vrais points d'intérêt sur OpenStreetMap autour d'une commune (voir "Activités
@@ -123,7 +126,7 @@ réelles"), `GET /api/hike?name=…`, qui va chercher de vraies randonnées bali
 une commune française (voir "Randonnées réelles"), et `POST /api/export-pdf`, qui génère le PDF
 téléchargeable de l'itinéraire affiché (voir "Export PDF"). Pas de base de données, pas de session,
 pas de donnée utilisateur conservée au-delà de la réponse — juste un petit cache en mémoire pour
-les trois premières routes.
+les routes photo, activités et randonnées.
 
 ## Pays couverts
 
@@ -141,8 +144,8 @@ ajoute deux à trois choses, indépendamment des autres :
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
    `scripts/build-country-communes.js`, qui télécharge et convertit les données publiques
    [GeoNames](https://www.geonames.org) — licence CC-BY 4.0 — pour le pays demandé : population,
-   coordonnées, codes postaux, nom de région). Chargé au démarrage de l'app comme les autres
-   (`COUNTRIES` dans `app.js`), fusionné dans le même tableau de communes que la France — une ville
+   coordonnées, codes postaux, nom de région). Chargé au démarrage du serveur comme les autres
+   (`COUNTRIES` dans `public/js/trip-data.js`), fusionné dans le même tableau de communes que la France — une ville
    espagnole ou portugaise se cherche, se tire au sort et se compare aux autres exactement comme
    une ville française. **Exception, la Bosnie-Herzégovine** : GeoNames n'a AUCUN fichier de codes
    postaux pour ce pays (`export/zip/BA.zip` répond 404 — vérifié, un cas inédit parmi tous les pays
@@ -416,7 +419,7 @@ ajoute deux à trois choses, indépendamment des autres :
    (territoires séparatistes non contrôlés par le gouvernement géorgien, où la Poste géorgienne
    n'opère pas) n'ont aucun code postal dans la source et sont de fait automatiquement exclues, comme
    n'importe quel lieu sans correspondance dans ce pipeline.
-2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `app.js` — un pays sans réseau autoroutier à
+2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `public/js/trip-data.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
    jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
    pour la même raison — l'Autobahn est réellement gratuite pour tous les véhicules modélisés ici,
@@ -3075,8 +3078,10 @@ npm start
 
 Puis ouvrez `http://localhost:3000`. Le port peut être changé via la variable d'environnement `PORT`.
 
-**Mémoire** : avec ~4 millions de lieux (lot Asie), le serveur occupe ~3 Go une fois chargé ; `npm start` passe
-`--max-old-space-size=8192` à Node. Prévoir au moins 4 Go de mémoire libre.
+**Mémoire** : avec ~4 millions de lieux (lot Asie), le serveur occupe ~3 Go une fois chargé (~1,8 Go quand l'index de
+recherche sur disque est utilisé, voir plus bas) ; `npm start` passe `--max-old-space-size=8192` à Node. Prévoir au
+moins 4 Go de mémoire libre. Un lancement direct (`node server.js`, Passenger) n'applique PAS cette option : voir
+`NODE_OPTIONS` dans "Déployer sur un serveur privé".
 
 ## Déployer sur un serveur privé
 
@@ -3091,11 +3096,13 @@ pm2 startup
 ```
 
 **Avec un reverse proxy** (nginx ou Caddy) devant Express, pour le HTTPS et le nom de domaine — le
-serveur Express n'écoute que sur `127.0.0.1:3000` (ou le `PORT` choisi), le proxy fait le reste.
+serveur Express écoute sur le port `3000` (ou le `PORT` choisi) de **toutes** les interfaces (`app.listen(PORT)`
+sans adresse) : fermer ce port au pare-feu pour que seul le proxy l'atteigne. Sous Passenger, c'est Passenger qui
+fournit la socket d'écoute.
 
-Comme l'app sert des fichiers statiques, elle fonctionne aussi tout aussi bien derrière n'importe quel
-serveur de fichiers statiques (nginx seul, Caddy seul, etc.) en pointant directement sur `public/` —
-`server.js` n'est là que par simplicité.
+Un simple serveur de fichiers statiques (nginx seul, Caddy seul, etc.) pointé sur `public/` ne suffit **pas** : la
+recherche de ville, le tirage, les photos, les activités, les randonnées et l'export PDF passent tous par les routes
+`/api/` de `server.js`, et le navigateur ne lit plus aucune donnée de `public/data/`.
 
 **Sur hébergement mutualisé avec Apache/cPanel** (ex. o2switch, "Setup Node.js App" via Passenger) — **attention :
 depuis le lot Asie, le process a besoin d'~3 Go de mémoire ; vérifier la limite de l'offre avant de déployer** :
@@ -3121,25 +3128,54 @@ blocage de `/data/` sur le chemin décodé (`/%64ata/…`) ; paramètres de requ
 gestionnaire d'erreurs final en JSON ; avertissements du PDF dédoublonnés ; délais sur les appels Wikipédia ;
 verrou de construction de l'index orphelin ignoré ; échecs réseau non mémorisés côté navigateur.
 
+**Mémoire sous Passenger (o2switch, « Setup Node.js App »)** : Passenger lance `server.js` directement, sans
+`npm start` — l'option `--max-old-space-size=8192` de `package.json` n'est donc pas appliquée et Node garde son
+plafond de tas par défaut. Dans « Setup Node.js App », ajouter la variable d'environnement **`NODE_OPTIONS`** avec la
+valeur **`--max-old-space-size=4096`**, enregistrer, puis **"Restart"**. Pourquoi : le moteur occupe ~1,8 Go quand
+l'index de recherche sur disque est utilisé, ~3 Go sans lui (alias chargés en mémoire, voir "Index de recherche
+précalculé sur disque") ; sans marge suffisante, le chargement s'arrête sur « JavaScript heap out of memory » et les
+tirages restent indisponibles. Le processus enfant qui construit l'index garde sa propre limite
+(`--max-old-space-size=1024` sur sa ligne de commande, prioritaire sur `NODE_OPTIONS`). La limite de mémoire de l'offre
+d'hébergement doit rester au-dessus de ces valeurs.
+
 Après un `git pull` sur ce type d'hébergement, cliquer sur **"Run NPM Install"** dans l'interface
 cPanel (pas un simple `npm install` en SSH — l'environnement Node de Passenger est isolé de celui
 du système), puis **"Restart"** — un `git pull` seul ou un redémarrage seul ne suffisent pas,
 Passenger continue de servir l'ancien code tant que ce bouton n'a pas été cliqué. "Run NPM Install"
-reconstruit aussi automatiquement les bundles `/data/` précompilés (voir `scripts/build-data-bundles.js`
-et la section "Performance : bundles /data/ précompilés" plus bas — un `postinstall` dans
-`package.json` s'en charge) : aucune étape manuelle supplémentaire n'est nécessaire après un ajout
-de pays, le simple fait de redéployer suffit.
+lance aussi le `postinstall` de `package.json` : bundles texte `public/data/*-bundle.txt`
+(`scripts/build-data-bundles.js`, quelques secondes) puis index de recherche (`scripts/build-search-index.js`,
+~95 s en local). Ces deux étapes sont non bloquantes et, constaté sur testroad.lume419.fr, peuvent ne pas
+s'exécuter ou échouer sur l'hébergement mutualisé (voir "Serveur autonome" plus bas) : le serveur s'en passe — il
+concatène lui-même les fichiers de données et construit l'index dans un processus enfant au premier démarrage. Aucune
+étape manuelle supplémentaire après un ajout de pays ; seul le premier démarrage qui suit peut être long (plusieurs
+minutes).
+
+### Dépannage de l'hébergement
+
+`GET /api/status` donne l'état à distance : index de recherche (`searchIndex`), dernière construction (`build`),
+moteur (`engine`), recherche et tirages disponibles (`searchReady`, `tripsReady`), bornes chargées (`chargers`) ; le
+détail des erreurs est dans le journal du serveur seulement.
+
+| Symptôme ou fichier absent | Produit par | Effet et remède |
+|---|---|---|
+| `public/data/*-bundle.txt` absent ou plus ancien que les données | `scripts/build-data-bundles.js` (postinstall) | le serveur concatène les fichiers de données au démarrage : plus lent, fonctionnel |
+| `cache/search-index/` absent ou périmé | `scripts/build-search-index.js` (postinstall) ou le serveur lui-même | construction dans un processus enfant au démarrage (plusieurs minutes en mutualisé), recherche en 503 pendant ce temps ; en cas d'échec, recherche en mémoire une fois le moteur chargé (~3 Go au lieu de ~1,8 Go) |
+| `cache/search-index.lock` resté après un arrêt brutal | — | ignoré si le processus dont il contient le PID n'existe plus ; sinon attente (30 min au plus). `scripts/build-search-index.js` sort sans rien faire tant qu'une construction est en cours |
+| `lib/land-grid.bin` (commité) | `scripts/build-land-grid.js` | plus aucun contrôle de mer : toutes les positions comptent comme « terre », des étapes par la route peuvent de nouveau traverser la mer |
+| `lib/ferry-ports.js` (commité) | `scripts/build-ferry-ports.js` | traversées estimées sans ports : partie par la route = distance à vol d'oiseau moins celle du ferry |
+| `data/charging-stations.txt` (commité) | `scripts/fetch-charging-stations.js` | voiture électrique : estimation par l'autonomie seule, signalée sur chaque étape (`chargers: 0`) |
+| « JavaScript heap out of memory » dans le journal, tirages indisponibles | — | `NODE_OPTIONS=--max-old-space-size=4096` (voir ci-dessus) |
+| Ancien code toujours servi après `git pull` | — | "Run NPM Install" puis "Restart" dans cPanel |
 
 ## Performance : bundles `/data/` précompilés
 
 **Mise à jour** : depuis le passage "Recherche et tirage aléatoire côté serveur" (section
 suivante), les bundles décrits ici ne sont plus jamais téléchargés par le NAVIGATEUR — ils
-alimentent uniquement `lib/trip-engine.js`, en interne au process serveur. Tout ce qui suit (les
-trois problèmes de performance identifiés, et la solution retenue) reste vrai et continue de
-s'appliquer telle quelle, simplement pour un consommateur différent : le texte n'a pas été
-retouché pour éviter de perdre le fil du diagnostic original.
+alimentent uniquement `lib/trip-engine.js`, en interne au process serveur. Le diagnostic qui suit
+(les trois problèmes de performance identifiés) reste vrai ; la compression précalculée du point 3
+a depuis été retirée (voir la fin de ce point).
 
-Avec la croissance du nombre de pays couverts (45 fin 2026, encore appelé à grandir), le
+Avec la croissance du nombre de pays couverts (45 à l'époque de ce diagnostic, 239 aujourd'hui), le
 chargement initial des données (`public/data/`) est devenu, dans l'ordre, trois problèmes
 distincts — chacun diagnostiqué en conditions réelles sur `testroad.lume419.fr` (l'hébergement
 mutualisé o2switch de ce projet, PAS reproductible en local où le réseau sans latence masque
@@ -3166,21 +3202,20 @@ entièrement ces effets) plutôt que supposé depuis un bac à sable local :
    threadpool libuv de Node) s'est mis à concurrencer le même CPU limité, ralentissant même le gzip
    dont dépendait la réponse — l'asynchrone évite bien de BLOQUER le process (voir point 3), mais ne
    change rien à la contention CPU réelle.
-3. **Solution retenue : compression précalculée au DÉPLOIEMENT, jamais au moment d'une requête.**
-   `scripts/build-data-bundles.js` écrit `communes-bundle.txt`/`.txt.gz`/`.txt.br` (et l'équivalent
-   pour `aliases-bundle`) directement dans `public/data/`, avec le meilleur niveau de compression
-   possible pour chacun — brotli à qualité MAXIMALE y compris (~67 s mesurés sur le bundle communes,
-   sans le moindre problème puisque ce script tourne sur la machine de déploiement, jamais sur le
-   chemin critique d'une requête visiteur). Résultat mesuré : 26,8 Mo -> 8,87 Mo en gzip (-67 %),
-   6,80 Mo en brotli (-75 %, mieux que n'importe quelle tentative précédente). `server.js` se
-   contente de LIRE ces fichiers déjà prêts (négociation `Accept-Encoding` classique : brotli si le
-   navigateur l'accepte, sinon gzip, sinon texte brut), sans plus jamais calculer la moindre
-   compression pendant qu'un visiteur attend. Lancé automatiquement à chaque déploiement réel via
-   `postinstall` dans `package.json` (déclenché par "Run NPM Install" sous cPanel, voir
-   "Déployer sur un serveur privé" ci-dessus) — jamais à un simple redémarrage de process, qui
-   réutilise les fichiers déjà présents sur disque. Un repli existe si ces fichiers précompilés sont
-   absents (ex. un environnement de développement où `npm install` n'a jamais tourné) :
-   `server.js` reconstruit alors le bundle à la volée, de façon asynchrone (jamais Sync — un calcul
+3. **Solution retenue à l'époque : compression précalculée au DÉPLOIEMENT, jamais au moment d'une requête.**
+   `scripts/build-data-bundles.js` écrivait `communes-bundle.txt`/`.txt.gz`/`.txt.br` (et l'équivalent
+   pour `aliases-bundle`) dans `public/data/`. Mesuré en local sur le bundle communes : 26,8 Mo -> 8,87 Mo
+   en gzip (-67 %), 6,80 Mo en brotli qualité 11 (-75 %) ; la qualité 11 ayant fait échouer "Run NPM Install"
+   sur l'hébergement mutualisé, le script était ensuite passé à la qualité 9 (8,07 Mo). `server.js` servait ces
+   fichiers selon l'en-tête `Accept-Encoding`, sans calculer de compression pendant qu'un visiteur attendait.
+   **Retiré depuis (septembre 2026)** : le navigateur ne télécharge plus les bundles, les routes
+   `/data/*-bundle.txt` ont été supprimées (`/data/` répond 404) et plus aucun code ne lisait les `.gz`/`.br`
+   (~105 s et ~880 Mo de mémoire à chaque "Run NPM Install" pour rien). Le script n'écrit plus que le texte
+   brut, lu par le serveur pour initialiser le moteur, par écriture atomique (fichier `.tmp` puis renommage : un
+   processus tué ne laisse jamais un bundle tronqué plus récent que les données) ; il efface les anciens
+   `.gz`/`.br`. Si le bundle est absent ou plus ancien que les fichiers de données (ex. un environnement de
+   développement où `npm install` n'a jamais tourné), `server.js` concatène lui-même ces fichiers, de façon
+   asynchrone (jamais Sync — un calcul
    de cette taille en bloquant gèlerait tout le process Node, mono-thread pour le JavaScript, pour
    TOUTES les requêtes en cours, pas seulement la sienne, un piège rencontré et corrigé pendant ce
    même travail).
@@ -3302,7 +3337,7 @@ index est construit au déploiement et lu directement sur le disque (`lib/search
   réparties dans des fichiers temporaires selon les deux premiers octets de leur clé, triées lot par lot puis
   assemblées. Mesure locale : 4 035 073 lieux, 13 313 257 entrées (noms, codes postaux, alias), ~95 s, **~640 Mo de
   mémoire au plus haut** (le script tourne avec `--max-old-space-size=1024`, et a été vérifié sous 700 Mo).
-  Résultat : `cache/search-index/`, ~560 Mo sur le disque, jamais commité (`.gitignore`).
+  Résultat : `cache/search-index/`, ~900 Mo sur le disque (mesuré en septembre 2026), jamais commité (`.gitignore`).
 - **Lecture** : aucune donnée chargée en mémoire. Deux dichotomies sur les clés triées (octets UTF-8) donnent toutes
   les entrées commençant par la saisie ; les meilleures par population sont sélectionnées (tas), puis les 8 lieux
   affichés sont lus. Mesure locale : 4 à 12 ms par saisie, y compris pour « san » ou « par ».
@@ -3325,13 +3360,15 @@ précompilée — l'étape de construction de l'installation ne s'exécute pas (
 bundles précompilés ni index, et à chaque démarrage le serveur recompressait ~190 Mo avant même de charger le
 moteur. Désormais :
 - le moteur lit le **texte brut** (bundle précompilé s'il est plus récent que les fichiers de données, sinon simple
-  concaténation) — plus aucune compression au démarrage ; les routes `/data/*-bundle.txt` compressent à la demande ;
+  concaténation) — les données de lieux ne sont jamais compressées ; les routes `/data/*-bundle.txt` ont depuis été retirées ;
 - si l'index de recherche est absent ou périmé, **le serveur le construit lui-même** dans un processus enfant
   (`--max-old-space-size=1024`), AVANT de charger le moteur pour ne pas additionner les deux pics de mémoire ; l'index
-  est gardé dans `cache/` pour les démarrages suivants ; un verrou (`cache/search-index.lock`) évite deux
-  constructions simultanées ; en cas d'échec, le moteur assure la recherche en mémoire ;
-- **`GET /api/status`** : état de l'index, résultat de la dernière construction (durée, dernières lignes de sortie),
-  état du moteur, mémoire, version de Node — de quoi diagnostiquer l'hébergement sans accès aux journaux.
+  est gardé dans `cache/` pour les démarrages suivants ; un verrou (`cache/search-index.lock`, contenant le PID du
+  constructeur, également pris par `scripts/build-search-index.js` lancé par `npm install`) évite deux constructions
+  simultanées ; en cas d'échec, le moteur assure la recherche en mémoire ;
+- **`GET /api/status`** : état de l'index, résultat et durée de la dernière construction, état du moteur, recherche et
+  tirages disponibles, nombre de bornes de recharge — sans mémoire ni version de Node ni détail d'erreur depuis l'audit
+  du 17/09/2026 (dernières lignes de sortie de la construction dans le journal du serveur).
 
 Mesures locales en reproduisant la situation en ligne (index supprimé) : construction 88 s pendant laquelle la
 recherche répond 503 (liste « Chargement des communes… ») ; puis recherche immédiate et tirages prêts 11 s plus tard,
@@ -3591,6 +3628,41 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
 - « Source : {source} » dans les 161 langues (Visorando ou OpenStreetMap) ; export PDF : source réelle de chaque randonnée.
 
 ## Ferries
+
+### Charge, budget de temps et protections (audit complet du 17 septembre 2026)
+
+- **Budget de temps d'un tirage** : le moteur est synchrone ; un tirage ne dépasse pas ~4 s (`TRIP_TIME_BUDGET_MS`).
+  Au-delà, plus aucun candidat n'est tiré et un chemin par la terre non encore trouvé compte comme absent (trajet refusé) :
+  l'itinéraire est renvoyé s'il est déjà valide, sinon `{ legs: [], timedOut: true }` (message dédié côté client). Avant
+  ce budget, certains réglages extrêmes (3 000 km d'éloignement depuis Moscou, Nuuk, l'Ukraine…) bloquaient le process 20 à
+  107 s pour tous les visiteurs. Un départ isolé sans liaison ferry renvoie immédiatement un tirage vide.
+- **Budget de calcul global** (`CPU_BUDGETS`, server.js) : tirages, exports PDF et recherches lentes (> 50 ms) partagent
+  au plus 25 s de calcul par minute et 7,5 s par 10 s, toutes IP confondues ; au-delà, `503 {"error":"busy"}` avec
+  `Retry-After`. Un seul export PDF à la fois, 20 lignes au plus par étape, liens limités aux hôtes connus de
+  l'application (https) ; avertissements des zones déconseillées (départ et étapes) repris dans le PDF.
+- **Appels sortants** limités : Overpass 2 simultanés (25 s au total pour les trois miroirs), Wikipédia 6, Visorando 2,
+  Wikidata 2 ; un échec ou une saturation n'est jamais mis en cache. Recherche de ville : 60 requêtes par minute par IP.
+- **Compression** : les données de lieux ne sont jamais compressées par le serveur. Les gros fichiers statiques du
+  navigateur (`js/i18n.js`, `js/trip-data.js`, `js/app.js`, `css/style.css`) sont compressés une seule fois en
+  mémoire (brotli qualité 9 et gzip) une fois le moteur prêt, puis servis sans recalcul (i18n.js : ~775 Ko en brotli au
+  lieu de 11 Mo) ; avant, ou si un fichier change sans redémarrage, compression à la volée. `/api/status` l'indique
+  (`precompressed`).
+- **Règles du moteur** : avec une distance d'éloignement, le premier trajet (et le retour d'un séjour à une seule
+  étape) peut dépasser la distance max entre étapes jusqu'à 1,4 × la distance d'éloignement, plus au-delà ; la ville de
+  départ n'est jamais tirée comme étape (même nom normalisé ou lieu à moins de 2 km) ; les parties par la route d'un
+  trajet avec ferry sont contrôlées comme un trajet ordinaire (eau, frontière, bornes ; pays du port = lieu le plus proche
+  de la même masse terrestre à moins de 40 km) ; le retour d'une excursion d'un jour est contrôlé ; recherche de lieux,
+  grille terre/eau et bornes fonctionnent autour de l'antiméridien (Fidji, Tchoukotka) ; `tripStart` doit être une date
+  réelle AAAA-MM-JJ entre l'année précédente et trois ans plus tard (sinon aujourd'hui) ; une devise préférée sans barème
+  se replie sur celle du pays puis l'euro.
+- **Recherche sur disque** : `cache/search-index/countries.json` (facultatif) contient les plages de lieux par pays,
+  écrit à la construction ou calculé à l'ouverture d'un index plus ancien.
+- **Péages sur les îles** : le barème kilométrique d'un pays s'appliquait à toutes ses îles (un trajet en Corse affichait
+  ~13 € de péage « évités »). Il ne s'applique plus qu'aux masses terrestres dotées d'autoroutes à péage
+  (`TOLL_LANDMASSES`, trip-data.js) : France métropolitaine, péninsules espagnole et portugaise, Italie continentale et
+  Sicile, Grèce continentale (la Crète n'a aucun poste de péage en service en 2026), Honshū/Hokkaidō/Okinawa, île de
+  Taïwan, et le continent pour la Croatie, la Turquie, la Tunisie et le Sénégal. Sources dans le commentaire.
+- **Données** : la liaison Esashi–Okushiri reste inutilisable, aucun lieu d'Okushiri dans les données japonaises.
 
 ### Pas de route à travers la mer (septembre 2026)
 

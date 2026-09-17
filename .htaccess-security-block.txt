@@ -43,3 +43,15 @@ RewriteRule ^node_modules(/.*)?$ /? [R=301,L]
 # public/ à la racine du site (/js/app.js, /css/…), jamais sous /public/.
 RewriteRule ^(lib|scripts|cache|tmp|public|data|\.claude)(/.*)?$ /? [R=301,L]
 RewriteRule ^(\.htaccess-security-block\.txt|\.gitignore|\.gitattributes|\.env.*)$ /? [R=301,L]
+
+# --- Journaux et cartes de sources à la racine (audit du 17/09/2026) ---
+# Fichiers *.log (journaux Node/Passenger éventuellement écrits à la racine) et *.map (cartes de sources) : jamais
+# utiles au navigateur, ils peuvent révéler chemins, erreurs ou code. Redirigés vers l'accueil comme les autres.
+RewriteRule ^[^/]+\.(log|map)$ /? [R=301,L]
+
+# --- Pas de liste de dossier ni de négociation de contenu (audit du 17/09/2026) ---
+# -Indexes : un dossier sans index ne liste plus son contenu ; -MultiViews : « /server » ne renvoie plus server.js par
+# négociation (contournement des règles ci-dessus, qui visent les noms exacts).
+# À RETIRER si le site répond « 500 Internal Server Error » après ajout : l'hébergeur n'autorise alors pas la directive
+# Options dans .htaccess (AllowOverride sans Options) — les règles de réécriture restent, elles, valables.
+Options -MultiViews -Indexes

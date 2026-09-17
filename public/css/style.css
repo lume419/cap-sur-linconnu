@@ -375,7 +375,8 @@
     padding:.5rem .55rem; border-radius:8px; cursor:pointer;
     font:.82rem/1.2 var(--font-body); color:var(--ink);
   }
-  .lang-option:hover{background:var(--surface-2);}
+  .lang-option:hover, .lang-option:focus{background:var(--surface-2);}
+  .lang-option.active:focus{background:var(--accent-3);}
   .lang-option.active{background:var(--accent-3); color:var(--accent-ink);}
   .lang-option-flag{width:1.3em; height:1.3em; flex:none; border-radius:999px; display:block; object-fit:cover;}
   .lang-option-empty{padding:.6rem .55rem; font:.8rem/1.3 var(--font-body); color:var(--ink-faint);}
@@ -412,7 +413,8 @@
     padding:.5rem .55rem; border-radius:8px; cursor:pointer;
     font:.82rem/1.2 var(--font-body); color:var(--ink);
   }
-  .currency-option:hover{background:var(--surface-2);}
+  .currency-option:hover, .currency-option:focus{background:var(--surface-2);}
+  .currency-option.active:focus{background:var(--accent-3);}
   .currency-option.active{background:var(--accent-3); color:var(--accent-ink);}
 
   .radius-field{display:flex; flex-direction:column; gap:.4rem;}
@@ -944,6 +946,8 @@
   font:600 .9rem/1.4 var(--font-body);
 }
 .load-error.show{display:block;}
+/* Texte réservé aux lecteurs d'écran (annonce du résultat du tirage). */
+.visually-hidden{position:absolute !important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0;}
 .dash input:disabled{opacity:.55; cursor:progress;}
 
 /* ─────────────────────────────────────────────────────────────────────────────────────────────
