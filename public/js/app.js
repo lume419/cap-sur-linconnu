@@ -565,7 +565,7 @@
   // Même contrôle pour une affectation directe de propriété (element.href = …), sans échappement HTML.
   function safeHref(u){ return /^https?:\/\//i.test(String(u || '')) ? String(u) : '#'; }
   function openLightbox(imgUrl, caption, wikiUrl){
-    if(!imgUrl) return;
+    if(!imgUrl || safeHref(imgUrl) === '#') return;
     var el = ensureLightbox();
     var img = el.querySelector('.lightbox-img');
     img.src = imgUrl;
@@ -1338,7 +1338,9 @@
       var cpSpan = document.createElement('span');
       cpSpan.className = 'suggest-cp';
       cpSpan.textContent = formatCpBadge(r);
+      // Nom du pays dans la langue d'interface (COUNTRIES[..].name est en français).
       var countryName = (COUNTRIES[r.country] && COUNTRIES[r.country].name) || '';
+      try { if(r.country) countryName = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || countryName; } catch(e){}
       if(countryName) li.setAttribute('title', countryName); // survol/lecteur d'écran : nom du pays en clair, pas seulement le drapeau
       li.appendChild(nameSpan);
       li.appendChild(cpSpan);
@@ -1479,7 +1481,7 @@
   function updateRadiusUnitLabel(){
     if(radiusMode === 'h'){
       var h = parseFloat(els.radius.value) || 0;
-      els.radiusValueDisplay.textContent = fmtHours(h);
+      els.radiusValueDisplay.textContent = formatDurationMin(h * 60, true);
       els.radiusValueWrap.classList.add('show-duration');
       els.radiusUnit.textContent = t('form.radius.unitH');
     } else {
@@ -1584,13 +1586,55 @@
     for(var i=a.length-1;i>0;i--){ var j=randInt(0,i); var tmp=a[i]; a[i]=a[j]; a[j]=tmp; }
     return a;
   }
+  // Durée en minutes, dans la langue d'interface (« 2 h et 46 min », « 2 時間 46 分 », « 2 ч 46 мин »…) : Intl.DurationFormat,
+  // sinon unités d'Intl.NumberFormat, sinon « 2h46 ». localeTag() : langue prise en charge par le navigateur (même repli
+  // que pour les dates et les montants).
+  // compact : forme courte (« 4h 30min », « 4h30m ») pour le champ étroit du rayon exprimé en heures.
+  function formatDurationMin(totalMin, compact){
+    var style = compact ? 'narrow' : 'short';
+    totalMin = Math.max(0, Math.round(Number(totalMin) || 0));
+    var h = Math.floor(totalMin / 60), m = totalMin % 60, loc = localeTag();
+    try {
+      if(typeof Intl.DurationFormat === 'function'){
+        var parts = {};
+        if(h) parts.hours = h;
+        if(m || !h) parts.minutes = m;
+        return new Intl.DurationFormat(loc, { style: style, minutesDisplay: 'always' }).format(parts);
+      }
+    } catch(e){}
+    try {
+      var out = [];
+      if(h) out.push(new Intl.NumberFormat(loc, { style: 'unit', unit: 'hour', unitDisplay: style }).format(h));
+      if(m || !h) out.push(new Intl.NumberFormat(loc, { style: 'unit', unit: 'minute', unitDisplay: style }).format(m));
+      return out.join(' ');
+    } catch(e){}
+    return fmtHours(totalMin / 60);
+  }
+  // Minutes d'une étape : champ numérique du serveur (travelMin, roadMin), sinon relu depuis le libellé « 2h46 » / « 45 min »
+  // (réponse d'une version antérieure du serveur).
+  function legMinutes(minutes, label){
+    if(typeof minutes === 'number' && isFinite(minutes)) return minutes;
+    var hm = String(label || '').match(/^(\d+)h(\d*)$/);
+    if(hm) return +hm[1] * 60 + (hm[2] ? +hm[2] : 0);
+    var mm = String(label || '').match(/^(\d+) min$/);
+    return mm ? +mm[1] : null;
+  }
+  function legDuration(minutes, label){
+    var min = legMinutes(minutes, label);
+    return min == null ? (label || '') : formatDurationMin(min);
+  }
   function fmtHours(h){
     var totalMin = Math.round(h*60);
     var hh = Math.floor(totalMin/60), mm = totalMin%60;
     if(hh<=0) return mm+' min';
     return hh+'h'+(mm? String(mm).padStart(2,'0'):'');
   }
-  function formatEuro(n){ return (Math.round(n*10)/10).toFixed(1).replace('.',','); }
+  // Montant à une décimale, séparateur de la langue d'interface (« 25,8 » en français, « 25.8 » en anglais ou en japonais).
+  function formatEuro(n){
+    var v = Math.round(n*10)/10;
+    try { return new Intl.NumberFormat(localeTag(), { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(v); }
+    catch(e){ return v.toFixed(1); }
+  }
 
   function effectiveRadiusKm(speed){
     var v = parseFloat(els.radius.value) || (radiusMode==='km'?300:4);
@@ -1773,19 +1817,78 @@
   // Lieu OSM avec coordonnées : rayon serré ; sinon (Wikipédia « Lieux et monuments », lieux mis en avant) : sa commune.
   function optNear(opt, leg){ return opt && opt.lat != null ? nearOf(opt.lat, opt.lon, 'poi') : nearOf(leg && leg.lat, leg && leg.lon, 'area'); }
   function nearOf(lat, lon, kind){ return (lat != null && lon != null) ? { lat: Number(lat), lon: Number(lon), kind: kind } : null; }
+  function photoRequestUrl(name, dept, country, near, lang){
+    return '/api/photo?name=' + encodeURIComponent(name) + '&dept=' + encodeURIComponent(dept || '') +
+      '&country=' + encodeURIComponent(country || '') + '&lang=' + encodeURIComponent(lang) +
+      (near ? '&lat=' + encodeURIComponent(near.lat) + '&lon=' + encodeURIComponent(near.lon) + '&kind=' + encodeURIComponent(near.kind) : '');
+  }
+  function fetchPhotoJson(url){
+    return fetch(url).then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); });
+  }
+  // Cache par lieu, INDÉPENDANT de la langue (septembre 2026) : un changement de langue redemandait toutes les photos
+  // (jusqu'à ~90 requêtes pour 15 étapes, jusqu'à 6 appels à Wikipédia chacune côté serveur) et les images se
+  // rechargeaient sous les yeux. Désormais les photos déjà affichées restent ; en arrière-plan, et deux à la fois
+  // seulement, le lieu est redemandé dans la nouvelle langue pour mettre à jour le lien Wikipédia — et l'image quand il
+  // n'y en avait pas encore. Entrée : { lang, data (réponse reçue), promise }.
   function fetchPlacePhoto(name, dept, country, near){
     var nearKey = near ? Number(near.lat).toFixed(2) + ',' + Number(near.lon).toFixed(2) + ',' + near.kind : '-';
-    var key = name + '|' + (dept || '') + '|' + (country || '') + '|' + wikiLang() + '|' + nearKey;
-    if(!clientPhotoCache[key]){
-      var url = '/api/photo?name=' + encodeURIComponent(name) + '&dept=' + encodeURIComponent(dept || '') +
-        '&country=' + encodeURIComponent(country || '') + '&lang=' + encodeURIComponent(wikiLang()) +
-        (near ? '&lat=' + encodeURIComponent(near.lat) + '&lon=' + encodeURIComponent(near.lon) + '&kind=' + encodeURIComponent(near.kind) : '');
-      // 10. Un échec (limite de requêtes, délai, erreur serveur) n'est pas mémorisé : un prochain tirage réessaiera.
-      clientPhotoCache[key] = fetch(url)
-        .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
-        .catch(function(){ delete clientPhotoCache[key]; return { image:null, wikiUrl:null, title:null }; });
+    var key = name + '|' + (dept || '') + '|' + (country || '') + '|' + nearKey;
+    var lang = wikiLang();
+    var entry = clientPhotoCache[key];
+    if(!entry){
+      entry = clientPhotoCache[key] = { lang: lang, data: null };
+      // Un échec (limite de requêtes, délai, erreur serveur) n'est pas mémorisé : un prochain affichage réessaiera.
+      entry.promise = fetchPhotoJson(photoRequestUrl(name, dept, country, near, lang))
+        .then(function(data){
+          entry.data = data;
+          // Langue changée pendant la requête : mise à jour en arrière-plan, comme pour une photo déjà affichée.
+          if(wikiLang() !== entry.lang) queuePhotoLangRefresh(entry, name, dept, country, near, wikiLang());
+          return data;
+        })
+        .catch(function(){
+          if(clientPhotoCache[key] === entry) delete clientPhotoCache[key];
+          return { image:null, wikiUrl:null, title:null };
+        });
+      return entry.promise;
     }
-    return clientPhotoCache[key];
+    if(entry.data && entry.lang !== lang) queuePhotoLangRefresh(entry, name, dept, country, near, lang);
+    return entry.promise;
+  }
+  var photoRefreshQueue = [], photoRefreshActive = 0, photoRefreshChanged = false;
+  var PHOTO_REFRESH_CONCURRENCY = 2;
+  function queuePhotoLangRefresh(entry, name, dept, country, near, lang){
+    if(entry.refreshLang === lang) return; // déjà en file pour cette langue
+    entry.refreshLang = lang;
+    photoRefreshQueue.push(function(){
+      if(wikiLang() !== lang){ entry.refreshLang = null; return Promise.resolve(); } // langue changée entre-temps
+      return fetchPhotoJson(photoRequestUrl(name, dept, country, near, lang)).then(function(data){
+        if(wikiLang() !== lang || !data){ entry.refreshLang = null; return; }
+        var old = entry.data || {};
+        // Photo déjà affichée : conservée, seul le lien (article dans la nouvelle langue, s'il existe) change.
+        var merged = old.image
+          ? Object.assign({}, old, { wikiUrl: data.wikiUrl || old.wikiUrl, title: data.title || old.title })
+          : data;
+        if(merged.wikiUrl !== old.wikiUrl || merged.image !== old.image) photoRefreshChanged = true;
+        entry.data = merged;
+        entry.lang = lang;
+        entry.promise = Promise.resolve(merged);
+      }).catch(function(){ entry.refreshLang = null; }); // échec : nouvel essai au prochain affichage
+    });
+    pumpPhotoRefresh();
+  }
+  function pumpPhotoRefresh(){
+    while(photoRefreshActive < PHOTO_REFRESH_CONCURRENCY && photoRefreshQueue.length){
+      photoRefreshActive++;
+      photoRefreshQueue.shift()().then(function(){
+        photoRefreshActive--;
+        // File vidée : un seul redessin du journal de bord, qui relit les données à jour (sans nouvelle requête).
+        if(!photoRefreshQueue.length && !photoRefreshActive && photoRefreshChanged){
+          photoRefreshChanged = false;
+          scheduleDaysRerender();
+        }
+        pumpPhotoRefresh();
+      });
+    }
   }
   // Vrais points d'intérêt en direct (OpenStreetMap/Overpass, via notre serveur) pour les communes
   // hors de FEATURED — la grande majorité. Mis en cache 24h côté serveur, donc rarement lent en
@@ -2301,7 +2404,8 @@
       if(p.has('currency')){ p.set('currency', currency); changed = true; }
       if(priceMax != null && p.has('price_max')){ p.set('price_max', String(priceMax)); changed = true; }
     } else if(/(^|\.)booking\.com$/i.test(u.hostname)){
-      if(p.has('selected_currency')){ p.set('selected_currency', currency); changed = true; }
+      // Toujours posée (le serveur ne la met pas) : affichage des prix dans la devise du filtre de prix ci-dessous.
+      if(/^[A-Z]{3}$/.test(currency || '')){ p.set('selected_currency', currency); changed = true; }
       var nflt = p.get('nflt');
       if(nflt && priceMax != null && /price=[A-Z]{3}-\d+-\d+-1/.test(nflt)){
         p.set('nflt', nflt.replace(/price=[A-Z]{3}-(\d+)-\d+-1/, 'price=' + currency + '-$1-' + priceMax + '-1'));
@@ -2398,8 +2502,8 @@
       // Étape avec traversée : partie par la route (jusqu'au port, puis depuis le port d'arrivée) + traversée, avec les
       // libellés existants des deux (déjà traduits dans toutes les langues).
       // textContent : aucun balisage dans ces libellés, rien à interpréter.
-      rt.textContent = (firstLeg.ferryInfo && firstLeg.roadKm ? t('day.routeTime', {time: firstLeg.roadTime, km: firstLeg.roadKm}) + ' + ' : '') +
-        t(firstLeg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: firstLeg.travelTime, km: firstLeg.distanceKm});
+      rt.textContent = (firstLeg.ferryInfo && firstLeg.roadKm ? t('day.routeTime', {time: legDuration(firstLeg.roadMin, firstLeg.roadTime), km: firstLeg.roadKm}) + ' + ' : '') +
+        t(firstLeg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: legDuration(firstLeg.travelMin, firstLeg.travelTime), km: firstLeg.distanceKm});
       top.appendChild(h3); top.appendChild(rt);
       body.appendChild(top);
 
@@ -2498,8 +2602,8 @@
         var ferryRow = document.createElement('div');
         ferryRow.className = 'day-row';
         var ferryTxt = fi.amount === null
-          ? t('ferry.textNoPrice', { route: t(fi.routeKey), duration: fmtHours(fi.durationH) })
-          : t('ferry.text', { route: t(fi.routeKey), amount: formatEuro(fi.amount), duration: fmtHours(fi.durationH) });
+          ? t('ferry.textNoPrice', { route: t(fi.routeKey), duration: formatDurationMin(fi.durationH * 60) })
+          : t('ferry.text', { route: t(fi.routeKey), amount: formatEuro(fi.amount), duration: formatDurationMin(fi.durationH * 60) });
         ferryRow.innerHTML = icon('ferry') + '<span><span class="lbl">'+t('ferry.label')+'</span>'+ferryTxt+'</span>';
         body.appendChild(ferryRow);
         // Liaison réelle sans tarif fixe publié : avertissement dans le style des zones à tension (orange).
@@ -2854,6 +2958,52 @@
     if(links.booking) out.booking = lodgingUrlWithCurrency(links.booking, country, budgetKey);
     return out;
   }
+  // Lignes d'une étape pour le PDF, dans la langue d'interface : mêmes clés et mêmes valeurs que le journal de bord
+  // (renderDays), en texte brut (noms de lieux non échappés, pas de liens : le serveur pose lui-même les liens autorisés).
+  // Traduction, ou null si la clé n'existe pas encore (t() renverrait le nom de la clé, imprimé tel quel dans le PDF).
+  function tIfDefined(key, vars){ var s = t(key, vars); return s === key ? null : s; }
+  function pdfLegTexts(leg){
+    var out = {};
+    if(leg.distanceKm != null && leg.travelTime){
+      out.route = (leg.ferryInfo && leg.roadKm ? t('day.routeTime', {time: legDuration(leg.roadMin, leg.roadTime), km: leg.roadKm}) + ' + ' : '') +
+        t(leg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: legDuration(leg.travelMin, leg.travelTime), km: leg.distanceKm});
+    }
+    out.stop = t(leg.isReturn ? 'day.returnTo' : 'day.stepMystery', {stop: leg.stop + (leg.cp ? ' (' + formatCpBadge(leg) + ')' : '')});
+    if(leg.tension && !leg.isReturn) out.tension = t('tension.label') + ' — ' + t(leg.tension.level === 'red' ? 'tension.red' : 'tension.orange');
+    if(leg.tollInfo){
+      var ti = leg.tollInfo;
+      var tollSources = (Array.isArray(ti.countries) ? ti.countries : [leg.country])
+        .map(function(c){ return TOLL_SOURCE[c]; }).filter(function(x, i, a){ return x && a.indexOf(x) === i; });
+      out.toll = t('toll.label', {source: tollSources.join(' + ') || '—'}) + ' — ' +
+        t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: formatEuro(ti.amount), barrier: t(ti.fluxLibre ? 'toll.barrierFree' : 'toll.barrierClassic'), min: ti.savedMin});
+    }
+    if(leg.chargeInfo){
+      var c = leg.chargeInfo;
+      if(c.stops > 0){
+        out.charge = t('charge.label') + ' — ' + (c.real && c.stations
+          ? t(c.stops > 1 ? 'charge.realN' : 'charge.real1', {n: c.stops, min: c.minutes, places: c.stations.map(function(s){ return s.near || (s.lat.toFixed(3) + ', ' + s.lon.toFixed(3)); }).join(', ')})
+          : t(c.stops > 1 ? 'charge.textN' : 'charge.text1', {n: c.stops, min: c.minutes}));
+      }
+      if(c.noChargerNearArrival) out.noCharger = t('charge.noChargerNearArrival');
+    }
+    if(leg.restrictions && leg.restrictions.length){
+      out.restrictions = leg.restrictions.map(function(r){
+        var name = r.name || '';
+        if(r.country && (r.type === 'noMotorway' || r.type === 'noMotorwayCc' || r.type === 'partial')){
+          try { name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || name; } catch(e){}
+        }
+        return t(r.kind + '.' + r.type, { name: name, cc: r.minCc || '' });
+      });
+    }
+    if(leg.ferryInfo){
+      var fi = leg.ferryInfo;
+      out.ferry = t('ferry.label') + ' — ' + (fi.amount === null
+        ? t('ferry.textNoPrice', { route: t(fi.routeKey), duration: formatDurationMin(fi.durationH * 60) }) + ' ' + t(fi.priceStatus === 'variable' ? 'ferry.price.variable' : 'ferry.price.unknown')
+        : t('ferry.text', { route: t(fi.routeKey), amount: formatEuro(fi.amount), duration: formatDurationMin(fi.durationH * 60) }));
+    }
+    if(leg.lodgingCheckIn) out.lodging = t('lodging.find', {range: formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut)});
+    return out;
+  }
   function buildTripExportPayload(){
     if(!currentTripData) return null;
     var legs = currentTripData.legs, city = currentTripData.city;
@@ -2867,7 +3017,40 @@
       enabled: tollLegs[0].tollInfo.enabled,
       amount: tollLegs.reduce(function(s,l){ return s + l.tollInfo.amount; }, 0)
     } : null;
+    // Textes du PDF dans la langue d'interface, composés avec les mêmes clés que la page (le serveur n'a pas les
+    // traductions ; il garde le français en repli et contrôle lui-même les liens et les montants).
+    var statsTexts = [
+      (currentTripData.days || legs.length) + ' ' + t('stats.days'),
+      Object.keys(villes).length + ' ' + t('stats.cities'),
+      nights + ' ' + t('stats.nights'),
+      '~' + totalKm + ' km ' + t('stats.totalKm')
+    ];
+    if(tollSummary) statsTexts.push('~' + formatEuro(tollSummary.amount) + ' € ' + t(tollSummary.enabled ? 'stats.tollEstimated' : 'stats.tollAvoided'));
+    var ferryLegs = legs.filter(function(l){ return l.ferryInfo; });
+    var pricedFerries = ferryLegs.filter(function(l){ return l.ferryInfo.amount !== null; });
+    if(pricedFerries.length) statsTexts.push('~' + formatEuro(pricedFerries.reduce(function(s, l){ return s + l.ferryInfo.amount; }, 0)) + ' € ' + t('stats.ferryTotal'));
+    if(pricedFerries.length < ferryLegs.length) statsTexts.push((ferryLegs.length - pricedFerries.length) + ' ' + t('stats.ferryUnpriced'));
+    var noticeTexts = {};
+    (currentTripData.notices || []).forEach(function(key){ if(typeof key === 'string') noticeTexts[key] = t(key); });
+    var depTension = currentTripData.departureTension;
+    var generatedDate = '';
+    try { generatedDate = new Date().toLocaleDateString(localeTag(), { day: 'numeric', month: 'long', year: 'numeric' }); } catch(e){}
+    var texts = {
+      subtitle: tIfDefined('pdf.subtitle', { city: city }),
+      stats: statsTexts,
+      notices: noticeTexts,
+      departureTension: depTension ? t('tension.label') + ' — ' + t('tension.departure') + ' ' + t(depTension.level === 'red' ? 'tension.red' : 'tension.orange') : null,
+      vignette: t('vignette.label') + ' — ' + t('vignette.notice'),
+      lodgingNone: t('lodging.noPlatform'),
+      endMission: t('end.label') + ' — ' + t('end.text'),
+      packTitle: t('pack.title'),
+      packSub: t('pack.sub', { transport: transportLabel(transportKey), budget: budgetLabel(budgetKey) }),
+      generated: tIfDefined('pdf.generated'),
+      generatedDate: generatedDate
+    };
     return {
+      lang: VISITOR_LANG,
+      texts: texts,
       city: city,
       tripLabel: currentTripLabel,
       budgetLabel: budgetLabel(budgetKey),
@@ -2878,6 +3061,7 @@
       departureTension: exportTension(currentTripData.departureTension),
       legs: legs.map(function(leg){
         return {
+          texts: pdfLegTexts(leg),
           label: singleLegLabel(leg),
           stop: leg.stop,
           cpBadge: leg.cp ? formatCpBadge(leg) : null,
@@ -2899,7 +3083,8 @@
             return opt.hikeUrl ? {
               label: opt.hikeName,
               typeLabel: [opt.hikeDistance, opt.hikeDuration, opt.hikeDifficulty].filter(Boolean).join(' · ') || t('hike.defaultType'),
-              source: opt.hikeSource || 'Visorando', hikeUrl: opt.hikeUrl
+              source: opt.hikeSource || 'Visorando', hikeUrl: opt.hikeUrl,
+              sourceLabel: t('hike.sourceLabel', { source: opt.hikeSource || 'Visorando' }).replace(/\s*↗\s*$/, '')
             } : { label: optionLabel(opt), typeLabel: optionTypeLabel(opt), source: null, hikeUrl: null };
           })
         };
@@ -2976,12 +3161,19 @@
     var legs, data;
     // Dates lues au lancement (elles peuvent changer pendant la requête).
     var tripStartIso = els.dateStart.value, tripEndIso = els.dateEnd.value;
+    // Séjour plafonné à MAX_TRIP_DAYS jours : la date de fin retenue (nom et en-tête du PDF) est celle du voyage tiré,
+    // pas la date saisie (du 1er au 30 : 21 jours, fin le 21).
+    var tripStartDate = parseIsoDate(tripStartIso);
+    if(tripStartDate && days >= 1) tripEndIso = isoDate(addDays(tripStartDate, days - 1));
     // Numéro de tirage attribué AVANT la requête : une réponse arrivée alors qu'un tirage plus récent a été lancé est
     // ignorée (voir les contrôles drawId === currentDrawId ci-dessous et dans showDrawnTrip).
     var drawId = ++currentDrawId;
-    // Les deux boutons de tirage sont désactivés pendant la requête (plus de double tirage par « Retirer une autre
-    // destination »), et réactivés dans tous les cas (succès, erreur, délai dépassé).
+    // Les deux boutons de tirage sont désactivés pendant la requête ET la roulette qui suit (plus de double tirage par
+    // « Retirer une autre destination ») : réactivés en cas d'erreur, ou une fois le voyage affiché (showDrawnTrip).
+    // Avant (2e audit du 17/09/2026), ils l'étaient dès la réponse : un nouveau tirage lancé pendant la roulette arrêtait
+    // celle-ci, et s'il échouait (429, 503…), l'écran restait bloqué sur « Tirage en cours » sans aucun voyage affiché.
     setDrawButtonsDisabled(true);
+    revealInProgress = true;
     // Délai maximal côté navigateur : sans réponse au bout de DRAW_TIMEOUT_MS, la requête est abandonnée.
     var abortCtrl = typeof AbortController === 'function' ? new AbortController() : null;
     var abortTimer = abortCtrl ? setTimeout(function(){ abortCtrl.abort(); }, DRAW_TIMEOUT_MS) : null;
@@ -3020,6 +3212,12 @@
           min: minDistanceKm, radius: returnCapKm }; }));
         return;
       }
+      // Aucune étape assez éloignée ne respecte les autres réglages : le serveur ne propose plus d'itinéraire de secours
+      // plus proche qui ignorerait la distance minimale.
+      if(legs.length === 0 && data.minDistanceNotFound){
+        showMinDistanceError(msg('error.minDistanceNotFound', { min: minDistanceKm }));
+        return;
+      }
       if(legs.length === 0 && data.tensionBlocked){
         showCityError(msg('error.tensionBlocked'));
         return;
@@ -3031,7 +3229,7 @@
       return;
     } finally {
       if(abortTimer) clearTimeout(abortTimer);
-      if(drawId === currentDrawId) setDrawButtonsDisabled(false);
+      if(drawId === currentDrawId && !(legs && legs.length)){ setDrawButtonsDisabled(false); revealInProgress = false; }
     }
     if(legs.length === 0){
       showCityError(msg('error.routeImpossible'));
@@ -3080,6 +3278,9 @@
         .then(function(){ if(drawId === currentDrawId) showDrawnTrip(); });
     });
     function showDrawnTrip(){
+      try { showDrawnTripNow(); } finally { setDrawButtonsDisabled(false); revealInProgress = false; }
+    }
+    function showDrawnTripNow(){
       // Nouveau voyage : aucune randonnée ni aucun lieu encore proposé. Sans remise à zéro des files de POI, un deuxième
       // voyage passant par la même commune partait d'une file vidée et n'affichait plus que des suggestions génériques.
       usedHikeUrls = {}; hikeQueueByCommune = {}; poiQueueByLocation = {}; genericQueueByLocation = {};
@@ -3106,6 +3307,9 @@
     }
   }
 
+  // Tirage en cours (requête ou roulette) : un changement de langue ne doit pas remettre les libellés du voyage
+  // précédent (« Destination confirmée », sa première étape) sur la roulette en cours.
+  var revealInProgress = false;
   function setDrawButtonsDisabled(disabled){
     els.launchBtn.disabled = disabled;
     els.againBtn.disabled = disabled;
@@ -3157,7 +3361,7 @@
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload)
     }).then(function(r){
-      if(!r.ok) throw new Error('http ' + r.status);
+      if(!r.ok){ var httpErr = new Error('http ' + r.status); httpErr.status = r.status; throw httpErr; }
       return r.blob();
     }).then(function(blob){
       var url = URL.createObjectURL(blob);
@@ -3168,9 +3372,11 @@
       a.click();
       a.remove();
       setTimeout(function(){ URL.revokeObjectURL(url); }, 4000);
-    }).catch(function(){
+    }).catch(function(err){
       if(els.exportHint){
-        els.exportHint.textContent = t('export.error');
+        // Quota (429) ou serveur occupé (503) : mêmes messages que pour un tirage, plus parlants qu'une erreur générique.
+        var status = err && err.status;
+        els.exportHint.textContent = status === 429 ? t('error.tooManyRequests') : status === 503 ? t('error.serverBusy') : t('export.error');
         setTimeout(function(){ els.exportHint.textContent = t('export.hint'); }, 6000);
       }
     }).then(function(){
@@ -3203,7 +3409,7 @@
       renderDays(currentTripData);
       renderMap(currentTripData.legs, currentTripData.city, currentTripData.cityCoord);
       renderPacking(currentTripData.budgetKey, currentTripData.transportKey);
-      updateRevealTexts(currentTripData.firstStop);
+      if(!revealInProgress) updateRevealTexts(currentTripData.firstStop);
     }
   }
 

@@ -87,6 +87,12 @@
     au-delà des journaux techniques d'hébergement déjà mentionnés plus bas, ni aucune donnée qui
     vous identifierait. Le serveur calcule et répond, sans rien enregistrer ni journaliser au-delà
     de la réponse — même principe que l'export PDF ci-dessous.</p>
+    <p>Limitation de débit : pour protéger le service contre les abus, le serveur garde <strong>en mémoire
+    vive uniquement</strong>, pendant une minute au plus, l'adresse IP d'origine des requêtes vers
+    <code>/api/</code>, avec l'heure de chaque requête et le temps de calcul consommé. Ces informations ne
+    sont jamais écrites sur disque, ni journalisées, ni transmises, et disparaissent à l'expiration de la
+    fenêtre ou au redémarrage du serveur. Base légale : intérêt légitime à assurer la disponibilité du
+    service (article 6.1.f du RGPD).</p>
 
     <h2>Activités, randonnées et photos réelles</h2>
     <p>Pour proposer de vraies activités, randonnées et photos, le site interroge en tâche de fond
@@ -120,8 +126,11 @@
     réponse envoyée, rien n'en subsiste côté serveur.</p>
 
     <h2>Liens vers des sites tiers</h2>
-    <p>Le site propose des liens vers Airbnb, Booking.com, Wikipédia et Visorando pour prolonger la
-    recherche (logement, randonnée...). Une fois ces liens cliqués, vous quittez ce site : la politique de
+    <p>Le site propose des liens pour prolonger la recherche : plateformes d'hébergement (Airbnb, Booking.com
+    et plateformes locales selon le pays), Wikipédia, OpenStreetMap, Google Images, portails de randonnée
+    (Visorando et portails officiels selon le pays), fiches Conseils aux voyageurs de France Diplomatie et
+    sites officiels de vignettes autoroutières. Aucun de ces sites n'est contacté tant que vous ne cliquez
+    pas sur le lien. Une fois ces liens cliqués, vous quittez ce site : la politique de
     confidentialité de la plateforme visitée s'applique alors, indépendamment de celle-ci.</p>
 
     <h2>Journaux techniques d'hébergement</h2>

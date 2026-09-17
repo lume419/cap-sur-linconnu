@@ -168,7 +168,7 @@
     </div>
 
     <div class="radius-field">
-      <label style="font:700 .68rem/1 var(--font-body); letter-spacing:.09em; text-transform:uppercase; color:var(--ink-soft);" data-i18n="form.radius.label">Limite de rayon</label>
+      <label id="radius-label" style="font:700 .68rem/1 var(--font-body); letter-spacing:.09em; text-transform:uppercase; color:var(--ink-soft);" data-i18n="form.radius.label">Limite de rayon</label>
       <div class="seg" role="group" aria-label="Type de limite" data-i18n-aria-label="form.radius.groupAria">
         <button type="button" id="mode-km" aria-pressed="true" data-i18n="form.radius.modeKm">Distance max (km)</button>
         <button type="button" id="mode-h" aria-pressed="false" data-i18n="form.radius.modeH">Temps de trajet retour max (h)</button>
@@ -176,7 +176,7 @@
       <div class="radius-input">
         <button type="button" class="step-btn" id="radius-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
         <div class="radius-value-wrap" id="radius-value-wrap">
-          <input type="number" id="radius" min="20" max="1200" value="300" step="10" />
+          <input type="number" id="radius" aria-labelledby="radius-label radius-unit" min="20" max="1200" value="300" step="10" />
           <span class="radius-value-display" id="radius-value-display" aria-hidden="true"></span>
         </div>
         <button type="button" class="step-btn" id="radius-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
@@ -186,23 +186,23 @@
     </div>
 
     <div class="field" id="min-distance-field">
-      <label data-i18n="form.minDistance.label">Distance d'éloignement (optionnel)</label>
+      <label id="min-distance-label" data-i18n="form.minDistance.label">Distance d'éloignement (optionnel)</label>
       <div class="distance-range-inputs">
         <div class="input-unit">
           <div class="stepper-row">
             <button type="button" class="step-btn" id="min-distance-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
-            <input type="number" id="min-distance" min="0" max="3000" step="10" placeholder="Aucun minimum" data-i18n-placeholder="form.minDistance.minPlaceholder" />
+            <input type="number" id="min-distance" aria-labelledby="min-distance-label min-distance-unit" min="0" max="3000" step="10" placeholder="Aucun minimum" data-i18n-placeholder="form.minDistance.minPlaceholder" />
             <button type="button" class="step-btn" id="min-distance-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
           </div>
-          <span class="unit" data-i18n="form.minDistance.unitMin">km au moins</span>
+          <span class="unit" id="min-distance-unit" data-i18n="form.minDistance.unitMin">km au moins</span>
         </div>
         <div class="input-unit">
           <div class="stepper-row">
             <button type="button" class="step-btn" id="max-distance-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
-            <input type="number" id="max-distance" min="0" max="3000" step="10" placeholder="Aucun maximum" data-i18n-placeholder="form.minDistance.maxPlaceholder" />
+            <input type="number" id="max-distance" aria-labelledby="min-distance-label max-distance-unit" min="0" max="3000" step="10" placeholder="Aucun maximum" data-i18n-placeholder="form.minDistance.maxPlaceholder" />
             <button type="button" class="step-btn" id="max-distance-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
           </div>
-          <span class="unit" data-i18n="form.minDistance.unitMax">km au maximum</span>
+          <span class="unit" id="max-distance-unit" data-i18n="form.minDistance.unitMax">km au maximum</span>
         </div>
       </div>
       <span class="field-hint" data-i18n="form.minDistance.hintMin">Minimum : la première étape sera à au moins cette distance. </span>
@@ -224,23 +224,23 @@
     </div>
 
     <div class="field" id="days-per-city-field">
-      <label data-i18n="form.daysPerCity.label">Nombre de jours par ville</label>
+      <label id="days-per-city-label" data-i18n="form.daysPerCity.label">Nombre de jours par ville</label>
       <div class="distance-range-inputs">
         <div class="input-unit">
           <div class="stepper-row">
             <button type="button" class="step-btn" id="min-days-per-city-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
-            <input type="number" id="min-days-per-city" min="1" max="20" step="1" value="1" />
+            <input type="number" id="min-days-per-city" aria-labelledby="days-per-city-label min-days-per-city-unit" min="1" max="20" step="1" value="1" />
             <button type="button" class="step-btn" id="min-days-per-city-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
           </div>
-          <span class="unit" data-i18n="form.daysPerCity.unitMin">jour(s) au moins</span>
+          <span class="unit" id="min-days-per-city-unit" data-i18n="form.daysPerCity.unitMin">jour(s) au moins</span>
         </div>
         <div class="input-unit">
           <div class="stepper-row">
             <button type="button" class="step-btn" id="max-days-per-city-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
-            <input type="number" id="max-days-per-city" min="1" max="20" step="1" value="3" />
+            <input type="number" id="max-days-per-city" aria-labelledby="days-per-city-label max-days-per-city-unit" min="1" max="20" step="1" value="3" />
             <button type="button" class="step-btn" id="max-days-per-city-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
           </div>
-          <span class="unit" data-i18n="form.daysPerCity.unitMax">jour(s) au maximum</span>
+          <span class="unit" id="max-days-per-city-unit" data-i18n="form.daysPerCity.unitMax">jour(s) au maximum</span>
         </div>
       </div>
       <span class="field-hint" data-i18n="form.daysPerCity.hint">Nombre de nuitées consécutives passées dans une même ville, tiré aléatoirement entre ces deux bornes.</span>

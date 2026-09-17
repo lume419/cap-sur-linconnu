@@ -53,8 +53,11 @@ fs.readFileSync(path.join(__dirname, 'admin1CodesASCII.txt'), 'utf8').split('\n'
   const f = l.split('\t'); if(f[0] && f[1]) admin1Names.set(f[0], f[1]);
 });
 
+// ONLY_COUNTRY=JP : reconstruit un seul pays (les autres fichiers restent intacts).
+const ONLY_COUNTRY = process.env.ONLY_COUNTRY || '';
 let total = 0;
 for(const country of COUNTRIES){
+  if(ONLY_COUNTRY && country !== ONLY_COUNTRY) continue;
   const seen = new Map(); let brut = 0;
   const raw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
   raw.split('\n').forEach(line => {
@@ -77,16 +80,29 @@ for(const country of COUNTRIES){
   // aucun point n'est assez proche, le code est pris par MUNICIPALITÉ : nom de la division ADM3 GeoNames du lieu
   // (même province) identique au nom de localité d'une et une seule ligne du fichier postal.
   let postalByMunicipality = null, admin3Names = null;
+  // Japon (septembre 2026) : le fichier postal GeoNames place TOUS les codes de certaines municipalités insulaires au
+  // même point, sur le continent — Okushiri (043-1400 à 043-1522 : Okushiri, Akaishi, Aonae…) à 41,9076 N ; 140,2695 E,
+  // à ~70 km de l'île. Aucun lieu de l'île n'avait de point postal à moins de 15 km : tous étaient écartés et la liaison
+  // Esashi–Okushiri ne pouvait jamais servir. Quand aucun point n'est assez proche, le code est pris par LOCALITÉ :
+  // mêmes codes administratifs GeoNames (préfecture, district, municipalité) et nom de localité identique à celui
+  // d'une et une seule ligne du fichier postal (données Japan Post reprises par GeoNames).
+  let postalByLocality = null;
   function normMuni(s){ return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/^(city|municipality) of /, '').replace(/ city$/, '').replace(/[^a-z0-9]/g, ''); }
   if(POSTAL.has(country)){
     grid = new Map();
     if(country === 'PH') postalByMunicipality = new Map();
+    if(country === 'JP') postalByLocality = new Map();
     fs.readFileSync(path.join(__dirname, 'postal', country + '_postal.txt'), 'utf8').split('\n').filter(Boolean).forEach(l => {
       const c = l.split('\t'); const lat = parseFloat(c[9]), lon = parseFloat(c[10]);
       if(postalByMunicipality){
         const key = c[4] + '|' + c[6] + '|' + normMuni(c[2]);
         const prev = postalByMunicipality.get(key);
         postalByMunicipality.set(key, prev === undefined ? c[1] : (prev === c[1] ? prev : null)); // null = ambigu
+      }
+      if(postalByLocality){
+        const key = c[4] + '|' + c[6] + '|' + c[8] + '|' + normMuni(c[2]);
+        const prev = postalByLocality.get(key);
+        postalByLocality.set(key, prev === undefined ? c[1] : (prev === c[1] ? prev : null)); // null = ambigu
       }
       if(isNaN(lat) || isNaN(lon)) return;
       const k = Math.round(lat*10) + '_' + Math.round(lon*10);
@@ -101,7 +117,7 @@ for(const country of COUNTRIES){
       });
     }
   }
-  let parMunicipalite = 0;
+  let parMunicipalite = 0, parLocalite = 0;
 
   let sansCode = 0, sansRegion = 0;
   const lines = [];
@@ -115,6 +131,9 @@ for(const country of COUNTRIES){
         && postalByMunicipality.get(p.admin1 + '|' + p.admin2 + '|' + normMuni(admin3Names.get(p.admin1 + '|' + p.admin2 + '|' + p.admin3)))){
         cp = postalByMunicipality.get(p.admin1 + '|' + p.admin2 + '|' + normMuni(admin3Names.get(p.admin1 + '|' + p.admin2 + '|' + p.admin3)));
         parMunicipalite++;
+      } else if(postalByLocality && p.admin3 && postalByLocality.get(p.admin1 + '|' + p.admin2 + '|' + p.admin3 + '|' + normMuni(p.name))){
+        cp = postalByLocality.get(p.admin1 + '|' + p.admin2 + '|' + p.admin3 + '|' + normMuni(p.name));
+        parLocalite++;
       } else { sansCode++; continue; }
     } else if(SINGLE_CODE[country]){
       cp = SINGLE_CODE[country];
@@ -127,6 +146,6 @@ for(const country of COUNTRIES){
   fs.writeFileSync(path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt'), lines.join('\n') + '\n', 'utf8');
   total += lines.length;
   console.log(country + ' : ' + brut + ' bruts -> ' + seen.size + ' dédoublonnés -> ' + lines.length + ' retenus' +
-    (grid ? ' (' + sansCode + ' écartés sans point postal à moins de 15 km' + (parMunicipalite ? ', ' + parMunicipalite + ' rattachés par municipalité' : '') + ')' : sansRegion ? ' (dont ' + sansRegion + ' sans région)' : ''));
+    (grid ? ' (' + sansCode + ' écartés sans point postal à moins de 15 km' + (parMunicipalite ? ', ' + parMunicipalite + ' rattachés par municipalité' : '') + (parLocalite ? ', ' + parLocalite + ' rattachés par localité' : '') + ')' : sansRegion ? ' (dont ' + sansRegion + ' sans région)' : ''));
 }
 console.log('TOTAL : ' + total);

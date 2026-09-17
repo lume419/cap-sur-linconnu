@@ -13,6 +13,7 @@
     "node": ">=20"
   },
   "dependencies": {
+    "bidi-js": "^1.1.0",
     "compression": "^1.8.2",
     "express": "^4.19.2",
     "pdfkit": "^0.19.1"

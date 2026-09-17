@@ -27,7 +27,8 @@ function activeLockPid(){
     throw e;
   }
   if(Date.now() - st.mtimeMs >= LOCK_MAX_AGE_MS) return null;
-  if(!(pid > 0)) return null; // verrou illisible (écriture interrompue) : traité comme orphelin
+  // Verrou vide ou illisible : tout juste créé (PID pas encore écrit) pendant 5 s, comme côté serveur ; orphelin ensuite.
+  if(!(pid > 0)) return Date.now() - st.mtimeMs < 5000 ? -1 : null;
   try { process.kill(pid, 0); return pid; } catch(e){ return e.code === 'EPERM' ? pid : null; }
 }
 
@@ -39,7 +40,15 @@ function acquireLock(){
     if(pid === process.ppid) return 'parent';
     if(pid) return false;
     // Verrou orphelin (processus disparu ou verrou trop ancien) : supprimé, puis création exclusive.
-    if(fs.existsSync(LOCK)) fs.rmSync(LOCK, { force: true });
+    // Renommage atomique avant suppression : ne peut pas effacer un verrou qu'un autre processus vient de prendre.
+    const stale = LOCK + '.stale-' + process.pid;
+    try {
+      fs.renameSync(LOCK, stale);
+      // Verrou actif pris entre-temps par un autre processus : remis en place.
+      const stalePid = parseInt(fs.readFileSync(stale, 'utf8'), 10);
+      if(stalePid > 0 && stalePid !== process.pid){ try { process.kill(stalePid, 0); fs.linkSync(stale, LOCK); } catch(e2){ if(e2.code === 'EPERM'){ try { fs.linkSync(stale, LOCK); } catch(e3){} } } }
+      fs.rmSync(stale, { force: true });
+    } catch(e){ if(e.code !== 'ENOENT') throw e; }
     try {
       fs.writeFileSync(LOCK, String(process.pid), { flag: 'wx' });
       return true;

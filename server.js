@@ -8,6 +8,7 @@ const zlib = require('zlib');
 const express = require('express');
 const compression = require('compression');
 const PDFDocument = require('pdfkit');
+const PdfText = require('./lib/pdf-text.js');
 const tripEngine = require('./lib/trip-engine.js');
 const searchIndex = require('./lib/search-index.js');
 const TripDataCountries = require('./public/js/trip-data.js').COUNTRIES;
@@ -39,7 +40,10 @@ app.use(compression({
 // empreinte), images des seuls hôtes utilisés (tuiles OpenStreetMap, Wikimedia), pas d'intégration dans un cadre
 // tiers, HSTS, pas de détection de type MIME. 'unsafe-inline' en style : attributs style de Leaflet et de la page.
 app.disable('x-powered-by');
-app.set('trust proxy', 1); // derrière Apache/Passenger : IP du visiteur pour la limitation de débit
+// Derrière Apache/Passenger : IP du visiteur pour la limitation de débit (un saut de proxy). TRUST_PROXY=0 pour un
+// lancement exposé directement (sans proxy, X-Forwarded-For viendrait du client et contournerait les quotas) ; à
+// augmenter si un autre proxy ou un CDN est ajouté devant.
+app.set('trust proxy', /^\d+$/.test(process.env.TRUST_PROXY || '') ? Number(process.env.TRUST_PROXY) : 1);
 const CSP = [
   "default-src 'self'",
   "script-src 'self' 'sha256-gxNfGsSxUqGFdaO1yv9YCXy/KFUQjL22jNwRkaHoeao='",
@@ -100,6 +104,53 @@ app.use('/api/', function(req, res, next){
   hits.push(now);
   next();
 });
+// Requêtes EN COURS par IP sur les routes qui appellent des services tiers (2e audit du 17/09/2026) : les limites par
+// service (makeServiceLimiter) sont communes à tous — une seule adresse, avec des coordonnées toujours différentes (donc
+// jamais en cache), occupait les 2 créneaux Overpass et leur file, et les autres visiteurs recevaient des listes vides.
+// Chaque IP a désormais au plus `max` requêtes en cours par groupe ; les suivantes ATTENDENT leur tour (le client lance
+// photos, lieux et randonnées de toutes les étapes d'un coup, jusqu'à ~90 requêtes : un refus net les perdrait). File
+// par IP bornée (`queue`) : au-delà, 429 pour cette IP seule. Une requête abandonnée par le client quitte la file.
+const OUTBOUND_GROUPS = [
+  { name: 'overpass', routes: ['/api/pois', '/api/hike'], max: 2, queue: 60 },
+  { name: 'photo', routes: ['/api/photo'], max: 4, queue: 150 }
+];
+const outboundByIp = new Map(); // groupe|ip -> { active, waiting: [fonction de reprise] }
+app.use('/api/', function(req, res, next){
+  const p = ('/api/' + req.path).toLowerCase().replace(/\/{2,}/g, '/');
+  const group = OUTBOUND_GROUPS.find(g => g.routes.some(r => p === r || p.startsWith(r + '/')));
+  if(!group) return next();
+  const key = group.name + '|' + (req.ip || 'inconnu');
+  let state = outboundByIp.get(key);
+  if(!state){ state = { active: 0, waiting: [] }; outboundByIp.set(key, state); }
+  let started = false, finished = false;
+  function start(){
+    started = true;
+    state.active++;
+    next();
+  }
+  function release(){
+    if(finished) return;
+    finished = true;
+    if(!started){ // abandonnée pendant l'attente
+      const i = state.waiting.indexOf(start);
+      if(i >= 0) state.waiting.splice(i, 1);
+    } else {
+      state.active--;
+      const resume = state.waiting.shift();
+      if(resume) resume();
+    }
+    if(state.active === 0 && state.waiting.length === 0) outboundByIp.delete(key);
+  }
+  res.on('finish', release);
+  res.on('close', release);
+  if(state.active < group.max) return start();
+  if(state.waiting.length >= group.queue){
+    finished = true;
+    res.setHeader('Retry-After', '10');
+    return res.status(429).json({ error: 'too many requests' });
+  }
+  state.waiting.push(start);
+});
 // Budget de calcul GLOBAL (audit du 17/09/2026), toutes IP confondues : les quotas par IP n'empêchent pas plusieurs
 // clients (ou plusieurs adresses) d'occuper le process à eux tous — tirages, exports PDF et recherches sont synchrones.
 // Durée cumulée de ces calculs (cases d'une seconde sur 60 s, mémoire bornée), comparée à deux plafonds glissants :
@@ -144,6 +195,63 @@ function cpuBudgetRetryAfter(){
   }
   return wait;
 }
+// Budget de calcul PAR IP (2e audit du 17/09/2026) : le budget global seul laissait UNE adresse l'épuiser pour tout le
+// monde — 6 tirages de 4 s par minute (sous le quota de 20) suffisaient à répondre « busy » à tous les autres visiteurs.
+// Chaque IP a droit, en calcul (tirages, exports PDF, recherches lentes), à 10 s par minute et 4 s par 10 s
+// (CPU_BUDGETS_PER_IP) ; au-delà, 429 pour ELLE seule. Un tirage ordinaire coûte 0,1 à 1 s, le pire légitime ~4 s : un
+// vrai visiteur garde de la marge. Fenêtre courte nécessaire : avec la seule limite par minute, deux tirages de 4 s
+// d'une même adresse atteignaient déjà le plafond global de 7,5 s sur 10 s (mesuré) ; il faut désormais au moins deux
+// adresses pour l'atteindre.
+const CPU_BUDGETS_PER_IP = [{ windowS: 60, maxMs: 10000 }, { windowS: 10, maxMs: 4000 }];
+const cpuBudgetByIp = new Map(); // ip -> [[seconde, ms], …] sur la dernière minute
+function cpuBudgetIpEntries(ip){
+  const e = cpuBudgetByIp.get(ip);
+  if(!e) return null;
+  const sec = Math.floor(Date.now() / 1000);
+  while(e.length && sec - e[0][0] >= 60) e.shift();
+  if(!e.length){ cpuBudgetByIp.delete(ip); return null; }
+  return e;
+}
+function cpuBudgetIpAdd(ip, ms){
+  const sec = Math.floor(Date.now() / 1000);
+  let e = cpuBudgetIpEntries(ip);
+  if(!e){ e = []; cpuBudgetByIp.set(ip, e); }
+  if(e.length && e[e.length - 1][0] === sec) e[e.length - 1][1] += ms; else e.push([sec, ms]);
+}
+// Secondes à attendre avant que cette IP repasse sous son budget (0 = disponible).
+function cpuBudgetIpRetryAfter(ip){
+  const e = cpuBudgetIpEntries(ip);
+  if(!e) return 0;
+  const sec = Math.floor(Date.now() / 1000);
+  let wait = 0;
+  for(const budget of CPU_BUDGETS_PER_IP){
+    const inWindow = e.filter(x => sec - x[0] < budget.windowS);
+    let total = inWindow.reduce((t, x) => t + x[1], 0);
+    if(total < budget.maxMs) continue;
+    for(const [s0, ms] of inWindow){
+      total -= ms;
+      if(total < budget.maxMs){ wait = Math.max(wait, Math.max(1, budget.windowS - (sec - s0))); break; }
+    }
+  }
+  return wait;
+}
+setInterval(function(){ for(const ip of Array.from(cpuBudgetByIp.keys())) cpuBudgetIpEntries(ip); }, 60000).unref();
+function cpuBudgetIpOf(req){ return req.ip || 'inconnu'; }
+// Durée d'un calcul imputée au budget global ET à celui de l'IP.
+function cpuBudgetCharge(req, ms){
+  cpuBudgetAdd(ms);
+  cpuBudgetIpAdd(cpuBudgetIpOf(req), ms);
+}
+// Contrôle du budget de l'IP seule (recherche de ville : quelques ms, jamais refusée pour cause de charge des autres).
+function cpuBudgetIpGuard(req, res, next){
+  const wait = cpuBudgetIpRetryAfter(cpuBudgetIpOf(req));
+  if(wait > 0){
+    res.setHeader('Retry-After', String(wait));
+    res.setHeader('Cache-Control', 'no-store');
+    return res.status(429).json({ error: 'too many requests' });
+  }
+  next();
+}
 function sendBusy(res, retryAfterS){
   res.setHeader('Retry-After', String(retryAfterS));
   res.setHeader('Cache-Control', 'no-store');
@@ -152,6 +260,8 @@ function sendBusy(res, retryAfterS){
 // Placé AVANT express.json() (une requête refusée ne coûte même pas l'analyse de son corps) et de nouveau APRÈS : des
 // requêtes arrivées ensemble passent toutes le premier contrôle avant qu'aucun calcul n'ait commencé.
 function cpuBudgetGuard(req, res, next){
+  const ipWait = cpuBudgetIpRetryAfter(cpuBudgetIpOf(req));
+  if(ipWait > 0) return cpuBudgetIpGuard(req, res, next);
   const wait = cpuBudgetRetryAfter();
   if(wait > 0){
     if(Date.now() - cpuBudgetLastLog > 10000){ // une ligne toutes les 10 s au plus, même sous un flot de requêtes
@@ -172,7 +282,10 @@ app.use(function(req, res, next){
   let p;
   try { p = decodeURIComponent(req.path); } catch(e){ return res.status(400).type('text/plain').send('Bad request'); }
   // Barre oblique inverse comprise (« /data%5Cfeatured.txt ») : certains systèmes de fichiers la traitent en séparateur.
-  if(/^[\/\\]+data([\/\\]|$)/i.test(p)) return res.status(404).type('text/plain').send('Not found');
+  // Chemin NORMALISÉ (2e audit du 17/09/2026) : « /./data/… », « /%2e/data/… » ou « /js/../data/… » passaient le simple
+  // test de préfixe, puis express.static normalisait et servait le fichier (bundle de 226 Mo compris).
+  const norm = path.posix.normalize('/' + p.replace(/\\/g, '/'));
+  if(/^\/+data(\/|$)/i.test(norm)) return res.status(404).type('text/plain').send('Not found');
   next();
 });
 // Paramètres de requête : chaînes seulement. « ?name[a]=x » ou « ?name=a&name=b » donnaient un objet ou un tableau,
@@ -191,8 +304,7 @@ app.use('/api/', function(req, res, next){
 const DEPARTMENTS = {"01":"Ain","02":"Aisne","03":"Allier","04":"Alpes-de-Haute-Provence","05":"Hautes-Alpes","06":"Alpes-Maritimes","07":"Ardèche","08":"Ardennes","09":"Ariège","10":"Aube","11":"Aude","12":"Aveyron","13":"Bouches-du-Rhône","14":"Calvados","15":"Cantal","16":"Charente","17":"Charente-Maritime","18":"Cher","19":"Corrèze","2A":"Corse-du-Sud","2B":"Haute-Corse","21":"Côte-d'Or","22":"Côtes-d'Armor","23":"Creuse","24":"Dordogne","25":"Doubs","26":"Drôme","27":"Eure","28":"Eure-et-Loir","29":"Finistère","30":"Gard","31":"Haute-Garonne","32":"Gers","33":"Gironde","34":"Hérault","35":"Ille-et-Vilaine","36":"Indre","37":"Indre-et-Loire","38":"Isère","39":"Jura","40":"Landes","41":"Loir-et-Cher","42":"Loire","43":"Haute-Loire","44":"Loire-Atlantique","45":"Loiret","46":"Lot","47":"Lot-et-Garonne","48":"Lozère","49":"Maine-et-Loire","50":"Manche","51":"Marne","52":"Haute-Marne","53":"Mayenne","54":"Meurthe-et-Moselle","55":"Meuse","56":"Morbihan","57":"Moselle","58":"Nièvre","59":"Nord","60":"Oise","61":"Orne","62":"Pas-de-Calais","63":"Puy-de-Dôme","64":"Pyrénées-Atlantiques","65":"Hautes-Pyrénées","66":"Pyrénées-Orientales","67":"Bas-Rhin","68":"Haut-Rhin","69":"Rhône","70":"Haute-Saône","71":"Saône-et-Loire","72":"Sarthe","73":"Savoie","74":"Haute-Savoie","75":"Paris","76":"Seine-Maritime","77":"Seine-et-Marne","78":"Yvelines","79":"Deux-Sèvres","80":"Somme","81":"Tarn","82":"Tarn-et-Garonne","83":"Var","84":"Vaucluse","85":"Vendée","86":"Vienne","87":"Haute-Vienne","88":"Vosges","89":"Yonne","90":"Territoire de Belfort","91":"Essonne","92":"Hauts-de-Seine","93":"Seine-Saint-Denis","94":"Val-de-Marne","95":"Val-d'Oise","971":"Guadeloupe","972":"Martinique","973":"Guyane","974":"La Réunion","976":"Mayotte"};
 
 // Cache en mémoire (process unique) : évite de refrapper Wikipédia à chaque affichage de la
-// même commune. Pas de limite de taille ni de persistance — ~35 000 communes maximum possibles,
-// largement soutenable en mémoire pour une chaîne de courtes réponses JSON.
+// même commune. Borné à CACHE_MAX_ENTRIES entrées (voir cacheSet), sans persistance.
 const photoCache = new Map();
 // Caches en mémoire BORNÉS (audit de septembre 2026) : au-delà de CACHE_MAX_ENTRIES, l'entrée la plus ancienne est
 // retirée — sans borne, des requêtes aux paramètres toujours différents faisaient grossir la mémoire indéfiniment.
@@ -464,7 +576,8 @@ function monumentName(line){
   let name = text.split(/\s*[,.;:(]\s|\s*[,.;:(]$|\s[–—-]\s/)[0];
   // Précision ou phrase qui suit le nom : participe (« édifiée en… »), relative, ou verbe (« … se dresse sur la place »).
   name = name.split(/\s(?:édifiée?s?|construite?s?|reconstruite?s?|datée?s?|bâtie?s?|inscrite?s?|classée?s?|érigée?s?|restaurée?s?|située?s?|où|qui|dont|depuis|se|s['’]|est|sont|fut|furent|a|ont|domine|dominent|abrite|abritent|surplombe|possède|conserve|remonte|date|attestée?s?|mentionnée?s?|remaniée?s?|agrandie?s?|transformée?s?|dès|puis|avec|au|dans|sur les|sur la|sur le|au cœur|de style|(?:du|de|en)\s+\d)(?=\s|$)/i)[0].trim();
-  name = name.replace(/(?:\s+(?:de|du|des|d['’]|à|au|aux|en|et|sur|haut|haute|long|longue))+\s*$/i, '').trim(); // mots orphelins en fin de nom
+  // Mots orphelins en fin de nom, retirés un par un (une regex à groupe répété était quadratique sur une longue ligne).
+  for(let prev = null; prev !== name;){ prev = name; name = name.replace(/\s+(?:de|du|des|d['’]|à|au|aux|en|et|sur|haut|haute|long|longue)\s*$/i, '').trim(); }
   name = name.replace(/^(?:les\s+)?vestiges\s+(?:du|de la|de l['’]|des)\s*/i, '').trim(); // "Vestiges du château de X" -> le lieu
   name = name.replace(/^(?:le|la|les)\s+(?=\S)/i, '').replace(/^l['’](?=\S)/i, '').trim(); // article initial d'une phrase
   if(!name || name.length < 4 || name.length > 80 || name.split(/\s+/).length > 9) return null;
@@ -476,10 +589,15 @@ function monumentName(line){
   }
   return name.charAt(0).toUpperCase() + name.slice(1);
 }
+// Bornes d'analyse (2e audit du 17/09/2026) : certaines expressions de monumentName et stripWikiNoise ont un coût
+// quadratique sur une longue ligne (60 Ko d'une puce piégée : 5 s de blocage). Une vraie section « Lieux et monuments »
+// fait quelques Ko, une puce utile quelques dizaines de caractères.
+const WIKITEXT_MAX_CHARS = 600000, MONUMENT_SECTION_MAX_CHARS = 40000, MONUMENT_LINE_MAX_CHARS = 400;
 function extractMonumentsSection(wikitext){
+  wikitext = String(wikitext || '').slice(0, WIKITEXT_MAX_CHARS);
   const m = wikitext.match(/={2,4}\s*(?:Lieux et monuments|Patrimoine(?: architectural)?|Monuments(?: et lieux)?)\s*={2,4}\n([\s\S]*?)(?=\n={2,4}[^=]|$)/i);
   if(!m) return null;
-  const section = m[1];
+  const section = m[1].slice(0, MONUMENT_SECTION_MAX_CHARS);
 
   const gallery = [];
   const galleryBlock = section.match(/<gallery[^>]*>([\s\S]*?)<\/gallery>/i);
@@ -497,7 +615,7 @@ function extractMonumentsSection(wikitext){
   const bulletRe = /^\*\s*(.+)$/gm;
   let bm;
   while((bm = bulletRe.exec(section))){
-    if(/^<gallery/i.test(bm[1])) continue;
+    if(/^<gallery/i.test(bm[1]) || bm[1].length > MONUMENT_LINE_MAX_CHARS) continue;
     const name = monumentName(stripWikiNoise(bm[1]));
     if(name) items.push(name);
   }
@@ -581,15 +699,19 @@ async function fetchCommuneMonuments(name, deptCode, lat, lon, ctx){
   if(deptName) attempts.push(name + ' (' + deptName + ')');
   attempts.push(name);
   for(const title of attempts){
+    // Titre d'un autre espace de noms (« Utilisateur:X/brouillon », « Discussion:… ») : jamais un article de commune, et
+    // modifiable par n'importe qui — refusé avant tout appel.
+    if(title.includes(':')) continue;
+    // Article d'un homonyme (autre commune du même nom, notion générale) : écarté, voir wikiPlaceMatches. Contrôlé AVANT
+    // de télécharger le wikitexte (2e audit du 17/09/2026) : seul l'article géolocalisé près de l'étape est analysé.
+    let summary = null;
+    try { summary = await fetchWikiSummary(title, 'fr'); } catch(e){ ctx.failed = true; continue; }
+    if(!wikiPlaceMatches(summary, { lat, lon, km: PHOTO_NEAR_KM.stop })) continue;
     let wikitext;
     try { wikitext = await fetchWikiWikitext(title); } catch(e){ ctx.failed = true; continue; }
     if(!wikitext) continue;
     const extracted = extractMonumentsSection(wikitext);
     if(extracted && extracted.items.length){
-      // Article d'un homonyme (autre commune du même nom, notion générale) : écarté, voir wikiPlaceMatches.
-      let summary = null;
-      try { summary = await fetchWikiSummary(title, 'fr'); } catch(e){ ctx.failed = true; }
-      if(!wikiPlaceMatches(summary, { lat, lon, km: PHOTO_NEAR_KM.stop })) continue;
       // Ces lieux (église, mur d'une abbaye disparue...) n'ont en général pas leur propre article —
       // seule la page de LA COMMUNE en parle, dans cette section. Un lien vers elle reste plus utile
       // qu'aucun lien du tout.
@@ -1100,7 +1222,9 @@ app.get('/api/pois', async (req, res) => {
 app.get('/api/photo', async (req, res) => {
   const name = String(req.query.name || '').normalize('NFC').trim();
   const dept = String(req.query.dept || '').normalize('NFC').trim().slice(0, 40);
-  const country = String(req.query.country || '').trim().toUpperCase();
+  // Code pays à deux lettres seulement (2e audit du 17/09/2026) : une valeur libre allongeait la clé de cache.
+  const countryRaw = String(req.query.country || '').trim().toUpperCase();
+  const country = /^[A-Z]{2}$/.test(countryRaw) ? countryRaw : '';
   const lang = sanitizeLangCode(req.query.lang);
   if(!name || name.length > 120){
     return res.status(400).json({ error: 'invalid name' });
@@ -1203,10 +1327,17 @@ function clip(s, max){
 }
 
 // Palette approximative des tokens CSS du site (voir public/css/style.css, thème clair) — pdfkit
-// ne peut pas lire les variables CSS, donc on les recopie ici en dur. Pas d'embarquement de police
-// custom (Georgia/Iowan pour --font-hand, la police display du site) : les 14 polices standard PDF
-// (Helvetica/Times) suffisent et évitent d'avoir à livrer/charger un fichier .ttf sur un
-// hébergement mutualisé — Times-Italic sert d'équivalent au ton "manuscrit" du site.
+// ne peut pas lire les variables CSS, donc on les recopie ici en dur. Polices : Noto embarquées (dossier fonts/, voir
+// lib/pdf-text.js) — les 14 polices standard PDF (Helvetica/Times) ne couvraient ni le cyrillique, ni le grec, ni
+// l'arabe, ni les écritures d'Asie, ni même « ł » ou « ő » : un PDF en japonais ou en polonais sortait illisible.
+// Langues acceptées pour le PDF : celles de l'interface (SUPPORTED de public/js/i18n.js, lu une fois au démarrage).
+const PDF_LANGS = (function(){
+  try {
+    const src = fs.readFileSync(path.join(__dirname, 'public', 'js', 'i18n.js'), 'utf8').slice(0, 20000);
+    const m = src.match(/var SUPPORTED = \[([^\]]*)\]/);
+    return new Set(m ? m[1].split(',').map(x => x.trim().replace(/^'|'$/g, '')).filter(Boolean) : ['fr']);
+  } catch(e){ return new Set(['fr']); }
+})();
 const PDF_INK = '#1A1F1C';
 const PDF_INK_SOFT = '#4A544D';
 const PDF_ACCENT = '#B04A19';   // --accent (orange) : titre, badge retour, ligne "fin de mission"
@@ -1245,98 +1376,124 @@ function pdfEnsureSpace(doc, minHeight){
   if(doc.y + minHeight > bottom) doc.addPage();
 }
 
-// Écrit du texte à une position X fixe (colonne de contenu, décalée à droite des badges de jour)
-// en réutilisant toujours le Y courant — évite de répéter "x, doc.y" à chaque appel.
-function pdfText(doc, str, x, width, opts){
-  doc.text(str, x, doc.y, Object.assign({ width: width }, opts || {}));
+// Mise en page du texte : lib/pdf-text.js (polices Noto embarquées, repli caractère par caractère, ordre bidirectionnel,
+// coupure des lignes des écritures sans espaces). `ctx` : { lang, rtl } du document. En langue de droite à gauche, toute
+// la page est en miroir : X logique (depuis le bord de départ de la ligne) -> X réel via pdfX.
+function pdfX(doc, ctx, x, width){
+  return ctx.rtl ? doc.page.width - x - width : x;
+}
+function pdfText(doc, ctx, str, x, width, opts){
+  opts = opts || {};
+  PdfText.drawText(doc, str, { x: pdfX(doc, ctx, x, width), width: width, lang: ctx.lang, size: opts.size || 10,
+    bold: !!opts.bold, color: opts.color || PDF_INK, link: opts.link || null, underline: !!opts.link, align: opts.align });
 }
 
 // Puce colorée (point plein) ou case à cocher (carré creux, pour le sac à préparer) suivie du
 // texte — le point/la case est dessiné séparément du texte pour pouvoir lui donner une couleur
 // différente selon la nature de la ligne (péage, activité, lien réel...), comme les icônes du site.
-function pdfBullet(doc, text, x, width, opts){
+function pdfBullet(doc, ctx, text, x, width, opts){
   opts = opts || {};
   pdfEnsureSpace(doc, 24);
-  const markY = doc.y + 4.6;
+  const size = 9.5;
+  const markY = doc.y + size * 0.75;
   if(opts.checkbox){
-    doc.lineWidth(1).rect(x - 3, doc.y + 1.8, 6.4, 6.4).stroke(PDF_ACCENT_3);
+    doc.lineWidth(1).rect(pdfX(doc, ctx, x - 3, 6.4), markY - 3.2, 6.4, 6.4).stroke(PDF_ACCENT_3);
   } else {
-    doc.circle(x, markY, 2.1).fill(opts.color || PDF_INK_SOFT);
+    doc.circle(pdfX(doc, ctx, x, 0), markY, 2.1).fill(opts.color || PDF_INK_SOFT);
   }
-  doc.font(opts.bold ? 'Helvetica-Bold' : 'Helvetica').fontSize(9.5).fillColor(opts.textColor || (opts.link ? PDF_ACCENT_3 : PDF_INK));
-  pdfText(doc, text, x + 11, width - 11, { link: opts.link || undefined, underline: !!opts.link });
+  pdfText(doc, ctx, text, x + 11, width - 11, { size: size, bold: opts.bold, link: opts.link,
+    color: opts.textColor || (opts.link ? PDF_ACCENT_3 : PDF_INK) });
+  doc.y += 1.5;
 }
 
 // Jeton arrondi façon ".stats span" du site (voir style.css) — la largeur dépend du texte, donc on
 // la mesure avant de dessiner ; revient à la ligne si la suivante dépasserait la largeur utile.
-function pdfChipRow(doc, items, x, maxWidth){
-  const padX = 8, padY = 4.5, fontSize = 9, h = fontSize + padY * 2, gap = 6;
+function pdfChipRow(doc, ctx, items, x, maxWidth){
+  const padX = 8, padY = 4.5, fontSize = 9, h = fontSize + padY * 2 + 2, gap = 6;
   const colors = [PDF_ACCENT_3, PDF_ACCENT_2, PDF_ACCENT];
-  let cx = x, cy = doc.y, rowStartY = cy;
-  doc.font('Helvetica-Bold').fontSize(fontSize);
+  let cx = x, cy = doc.y;
   items.forEach(function(text, i){
-    const w = doc.widthOfString(text) + padX * 2;
+    const w = Math.min(PdfText.textWidth(doc, text, { lang: ctx.lang, size: fontSize, bold: true }) + padX * 2, maxWidth);
     if(cx > x && cx + w > x + maxWidth){ cx = x; cy += h + gap; }
-    doc.roundedRect(cx, cy, w, h, h / 2).fill(colors[i % colors.length]);
-    doc.fillColor('#FFFFFF').text(text, cx + padX, cy + padY - 0.5, { width: w - padX * 2, lineBreak: false });
+    const realX = pdfX(doc, ctx, cx, w);
+    doc.roundedRect(realX, cy, w, h, h / 2).fill(colors[i % colors.length]);
+    PdfText.drawText(doc, text, { x: realX + padX, y: cy + padY - 1, width: w - padX * 2 + 1, lang: ctx.lang, size: fontSize,
+      bold: true, color: '#FFFFFF', align: 'center', maxLines: 1 });
     cx += w + gap;
   });
   doc.y = cy + h;
-  doc.x = x;
 }
 
 // Bandeau de marque affiché en haut de chaque page suivant la première (qui a le grand bandeau
 // complet, voir buildTripPdf) — juste assez pour rester identifiable si l'itinéraire déborde sur
 // plusieurs pages, sans reproduire tout l'en-tête à chaque fois.
-function pdfRunningHeader(doc, marginLeft, contentWidth, tripLabel){
+function pdfRunningHeader(doc, ctx, marginLeft, contentWidth, tripLabel){
   pdfPageBackground(doc);
   doc.rect(0, 0, doc.page.width, 34).fill(PDF_BG_ALT);
-  doc.fillColor(PDF_ACCENT).font('Helvetica-Bold').fontSize(10).text("CAP SUR L'INCONNU", marginLeft, 12, { characterSpacing: 1 });
-  doc.fillColor(PDF_INK_SOFT).font('Helvetica-Oblique').fontSize(8.5)
-    .text(clip(tripLabel, 60), marginLeft, 13, { width: contentWidth, align: 'right' });
+  const half = contentWidth / 2;
+  PdfText.drawText(doc, "CAP SUR L'INCONNU", { x: pdfX(doc, ctx, marginLeft, half), y: 11, width: half, lang: 'fr', size: 10,
+    bold: true, color: PDF_ACCENT, align: ctx.rtl ? 'right' : 'left', maxLines: 1 });
+  PdfText.drawText(doc, clip(tripLabel, 60), { x: pdfX(doc, ctx, marginLeft + half, half), y: 12, width: half, lang: ctx.lang,
+    size: 8.5, color: PDF_INK_SOFT, align: ctx.rtl ? 'left' : 'right', maxLines: 1 });
   doc.y = doc.page.margins.top;
-  doc.x = marginLeft;
+}
+
+// Texte traduit fourni par le navigateur (langue d'interface) : chaîne non vide, bornée ; sinon le texte français
+// composé ici. Le serveur ne traduit rien lui-même : toutes les traductions vivent dans public/js/i18n.js.
+function pdfClientText(v, fallback, max){
+  return (typeof v === 'string' && v.trim()) ? clip(v, max || 400) : fallback;
+}
+function pdfClientList(v, maxItems, maxLen){
+  return Array.isArray(v) ? v.filter(s => typeof s === 'string' && s.trim()).slice(0, maxItems).map(s => clip(s, maxLen)) : null;
 }
 
 function buildTripPdf(doc, trip){
   const marginLeft = doc.page.margins.left;
   const contentWidth = doc.page.width - doc.page.margins.left - doc.page.margins.right;
   const tripLabel = trip.tripLabel || trip.city || '';
+  // Langue du document : code connu de l'interface (voir PDF_LANGS), français sinon.
+  const lang = typeof trip.lang === 'string' && PDF_LANGS.has(trip.lang) ? trip.lang : 'fr';
+  const ctx = { lang: lang, rtl: PdfText.isRtlLang(lang) };
+  const texts = (trip.texts && typeof trip.texts === 'object' && !Array.isArray(trip.texts)) ? trip.texts : {};
 
   // Pages 2+ (si l'itinéraire déborde) : bandeau réduit, voir pdfRunningHeader. La page 1 existe
   // déjà à la construction du document (pdfkit l'ajoute avant qu'on ait pu s'abonner à
   // 'pageAdded') : elle n'est donc jamais concernée par ce bandeau réduit, seulement par le grand
   // en-tête ci-dessous — exactement le partage voulu entre les deux.
-  doc.on('pageAdded', function(){ pdfRunningHeader(doc, marginLeft, contentWidth, tripLabel); });
+  doc.on('pageAdded', function(){ pdfRunningHeader(doc, ctx, marginLeft, contentWidth, tripLabel); });
 
   // ---- Grand bandeau d'en-tête (page 1 uniquement) ----
   pdfPageBackground(doc);
   doc.rect(0, 0, doc.page.width, 96).fill(PDF_ACCENT);
-  doc.fillColor('#FFFFFF').font('Helvetica-Bold').fontSize(22).text("CAP SUR L'INCONNU", marginLeft, 26, { characterSpacing: 1.2 });
-  doc.fillColor('#FBE7D6').font('Times-Italic').fontSize(12.5)
-    .text(clip(trip.city, 80) + ' — itinéraire mystère', marginLeft, 58);
+  PdfText.drawText(doc, "CAP SUR L'INCONNU", { x: marginLeft, y: 24, width: contentWidth, lang: 'fr', size: 22, bold: true,
+    color: '#FFFFFF', align: ctx.rtl ? 'right' : 'left', maxLines: 1 });
+  PdfText.drawText(doc, pdfClientText(texts.subtitle, clip(trip.city, 80) + ' — itinéraire mystère', 160),
+    { x: marginLeft, y: 58, width: contentWidth, lang: lang, size: 12.5, color: '#FBE7D6', maxLines: 1 });
   doc.y = 114;
   doc.x = marginLeft;
 
   // ---- Jetons de statistiques ----
   const stats = trip.stats || {};
-  const statsBits = [];
-  // Nombres uniquement (une chaîne de 400 Ko passait telle quelle dans la mise en page).
-  const statNum = v => { const n = Math.round(Number(v)); return isFinite(n) && n >= 0 && n < 100000 ? n : null; };
-  const sDays = statNum(stats.days), sCities = statNum(stats.cities), sNights = statNum(stats.nights);
-  if(sDays) statsBits.push(sDays + (sDays > 1 ? ' jours' : ' jour'));
-  if(sCities) statsBits.push(sCities + (sCities > 1 ? ' villes' : ' ville'));
-  if(sNights != null) statsBits.push(sNights + (sNights > 1 ? ' nuitées' : ' nuitée'));
-  if(stats.totalKm) statsBits.push('~' + Math.round(stats.totalKm) + ' km au total');
-  if(stats.toll){
-    const tollAmountTxt = (Math.round(stats.toll.amount * 10) / 10).toFixed(1).replace('.', ',');
-    statsBits.push('~' + tollAmountTxt + ' € de péage ' + (stats.toll.enabled ? 'estimé' : 'évités'));
+  let statsBits = pdfClientList(texts.stats, 8, 80);
+  if(!statsBits || !statsBits.length){
+    statsBits = [];
+    // Nombres uniquement (une chaîne de 400 Ko passait telle quelle dans la mise en page).
+    const statNum = v => { const n = Math.round(Number(v)); return isFinite(n) && n >= 0 && n < 100000 ? n : null; };
+    const sDays = statNum(stats.days), sCities = statNum(stats.cities), sNights = statNum(stats.nights);
+    if(sDays) statsBits.push(sDays + (sDays > 1 ? ' jours' : ' jour'));
+    if(sCities) statsBits.push(sCities + (sCities > 1 ? ' villes' : ' ville'));
+    if(sNights != null) statsBits.push(sNights + (sNights > 1 ? ' nuitées' : ' nuitée'));
+    if(statNum(stats.totalKm)) statsBits.push('~' + statNum(stats.totalKm) + ' km au total');
+    if(stats.toll && isFinite(Number(stats.toll.amount))){
+      const tollAmountTxt = (Math.round(Number(stats.toll.amount) * 10) / 10).toFixed(1).replace('.', ',');
+      statsBits.push('~' + tollAmountTxt + ' € de péage ' + (stats.toll.enabled ? 'estimé' : 'évités'));
+    }
   }
-  if(statsBits.length) pdfChipRow(doc, statsBits, marginLeft, contentWidth);
-  doc.moveDown(1.1);
+  if(statsBits.length) pdfChipRow(doc, ctx, statsBits, marginLeft, contentWidth);
+  doc.y += 14;
 
   // ---- Jours : badge rond numéroté + ligne de jonction façon "timeline" du site, contenu décalé
-  // à droite des badges (contentX). Le badge du jour de retour utilise l'orange (comme la couleur
+  // à côté des badges (contentX). Le badge du jour de retour utilise l'orange (comme la couleur
   // "final" du badge sur le site) plutôt que le teal des jours normaux. ----
   const contentX = marginLeft + 28;
   const contentWidth2 = contentWidth - 28;
@@ -1345,75 +1502,76 @@ function buildTripPdf(doc, trip){
   // shownVignetteCountries côté web (public/js/app.js, renderDays).
   const shownVignetteCountries = {};
   const legs = Array.isArray(trip.legs) ? trip.legs : [];
-  // Avertissements valables pour tout le trajet (van, voiture électrique) — texte français du PDF.
+  // Avertissements valables pour tout le trajet (van, voiture électrique) : textes traduits du navigateur, sinon français.
   const PDF_NOTICES = {
     'van.notice': 'Van : hauteur, longueur, poids et vignettes antipollution peuvent limiter l\'accès à certaines routes, tunnels, cols ou centres-villes. Vérifiez avant de partir.',
     'charge.dataNote': 'Bornes de recharge : données Open Charge Map, couverture inégale selon les pays — vérifiez leur disponibilité et leur compatibilité avant de partir.'
   };
+  const noticeTexts = (texts.notices && typeof texts.notices === 'object' && !Array.isArray(texts.notices)) ? texts.notices : {};
   // Clés connues, sans doublon (audit du 17/09/2026 : 9 800 fois la même clé bloquaient le serveur plus d'une seconde).
   Array.from(new Set((Array.isArray(trip.notices) ? trip.notices : []).filter(function(key){ return typeof key === 'string' && PDF_NOTICES.hasOwnProperty(key); }))).forEach(function(key){
-    if(PDF_NOTICES[key]) pdfBullet(doc, PDF_NOTICES[key], doc.page.margins.left, doc.page.width - doc.page.margins.left - doc.page.margins.right, { color: PDF_ACCENT_3 });
+    pdfBullet(doc, ctx, pdfClientText(noticeTexts[key], PDF_NOTICES[key]), marginLeft, contentWidth, { color: PDF_ACCENT_3 });
   });
   // Zones à tension (France Diplomatie) : départ, puis chaque étape — en tête, en gras, lien vers la fiche pays.
   let tensionShown = false;
   const departureTension = pdfTension(trip.departureTension);
   if(departureTension){
     tensionShown = true;
-    pdfBullet(doc, pdfTensionText(departureTension, true), marginLeft, contentWidth, { link: departureTension.source,
+    pdfBullet(doc, ctx, pdfClientText(texts.departureTension, pdfTensionText(departureTension, true)), marginLeft, contentWidth, { link: departureTension.source,
       color: departureTension.level === 'red' ? PDF_DANGER : PDF_ACCENT, textColor: departureTension.level === 'red' ? PDF_DANGER : PDF_ACCENT, bold: true });
-    doc.moveDown(0.5);
+    doc.y += 6;
   }
   legs.forEach(function(leg, idx){
     if(!leg || typeof leg !== 'object') return;
+    const lt = (leg.texts && typeof leg.texts === 'object' && !Array.isArray(leg.texts)) ? leg.texts : {};
     // Au plus PDF_MAX_LINES_PER_LEG lignes listées pour cette étape (voir la constante).
     let legLines = 0;
     function legBullet(text, x, width, opts){
       if(legLines++ >= PDF_MAX_LINES_PER_LEG) return;
-      pdfBullet(doc, text, x, width, opts);
+      pdfBullet(doc, ctx, text, x, width, opts);
     }
     const pageBefore = doc.page;
     pdfEnsureSpace(doc, 74);
     const pageChanged = doc.page !== pageBefore;
     const dayTop = doc.y;
-    const badgeCX = marginLeft + 9, badgeCY = dayTop + 9;
+    const badgeCX = pdfX(doc, ctx, marginLeft + 9, 0), badgeCY = dayTop + 9;
     const isReturn = !!leg.isReturn;
 
     if(prevBadgeCY != null && !pageChanged){
       doc.lineWidth(1.3).moveTo(badgeCX, prevBadgeCY + 9).lineTo(badgeCX, badgeCY - 9).stroke(PDF_LINE_STRONG);
     }
     doc.circle(badgeCX, badgeCY, 9).fill(isReturn ? PDF_ACCENT : PDF_ACCENT_3);
-    doc.fillColor('#FFFFFF').font('Helvetica-Bold').fontSize(9)
-      .text(isReturn ? 'R' : String(idx + 1), badgeCX - 9, badgeCY - 4.5, { width: 18, align: 'center' });
+    PdfText.drawText(doc, isReturn ? 'R' : String(idx + 1), { x: badgeCX - 9, y: badgeCY - 6.5, width: 18, lang: 'fr', size: 9,
+      bold: true, color: '#FFFFFF', align: 'center', maxLines: 1 });
     prevBadgeCY = badgeCY;
 
     doc.y = dayTop;
-    doc.fillColor(PDF_ACCENT_3).font('Helvetica-Bold').fontSize(12.5);
-    pdfText(doc, clip(leg.label, 120), contentX, contentWidth2);
+    pdfText(doc, ctx, clip(leg.label, 120), contentX, contentWidth2, { size: 12.5, bold: true, color: PDF_ACCENT_3 });
     if(leg.distanceKm != null && leg.travelTime){
-      doc.fillColor(PDF_INK_SOFT).font('Helvetica-Oblique').fontSize(9);
       const routeWord = leg.ferryInfo ? ' de traversée · ' : ' de route · ';
       // Étape avec traversée : partie par la route jusqu'au port et depuis le port d'arrivée, avant la traversée.
       const roadKm = Math.round(Number(leg.roadKm));
       const roadPart = leg.ferryInfo && roadKm > 0 && roadKm < 100000 && leg.roadTime ? '~ ' + clip(leg.roadTime, 20) + ' de route · ' + roadKm + ' km + ' : '';
-      pdfText(doc, roadPart + '~ ' + clip(leg.travelTime, 20) + routeWord + Math.round(leg.distanceKm) + ' km', contentX, contentWidth2);
+      const km = Math.round(Number(leg.distanceKm));
+      pdfText(doc, ctx, pdfClientText(lt.route, roadPart + '~ ' + clip(leg.travelTime, 20) + routeWord + (isFinite(km) ? km : '') + ' km', 160),
+        contentX, contentWidth2, { size: 9, color: PDF_INK_SOFT });
     }
     const stopLabel = (isReturn ? 'Retour vers ' : 'Étape mystère : ') + clip(leg.stop, 100) +
       (leg.cpBadge ? ' (' + clip(leg.cpBadge, 20) + ')' : '');
-    doc.fillColor(PDF_INK).font('Helvetica-Bold').fontSize(10.5);
-    pdfText(doc, stopLabel, contentX, contentWidth2);
-    doc.moveDown(0.3);
+    pdfText(doc, ctx, pdfClientText(lt.stop, stopLabel, 160), contentX, contentWidth2, { size: 10.5, bold: true, color: PDF_INK });
+    doc.y += 4;
     const legTension = isReturn ? null : pdfTension(leg.tension);
     if(legTension){
       tensionShown = true;
       const tensionColor = legTension.level === 'red' ? PDF_DANGER : PDF_ACCENT;
-      pdfBullet(doc, pdfTensionText(legTension, false), contentX, contentWidth2, { link: legTension.source, color: tensionColor, textColor: tensionColor, bold: true });
+      pdfBullet(doc, ctx, pdfClientText(lt.tension, pdfTensionText(legTension, false)), contentX, contentWidth2, { link: legTension.source, color: tensionColor, textColor: tensionColor, bold: true });
     }
 
     if(leg.tollInfo){
       const t = leg.tollInfo;
       const barrierTxt = t.fluxLibre ? 'péage à flux libre, sans barrière' : 'péage classique avec barrière';
-      const amountTxt = (Math.round((t.amount || 0) * 10) / 10).toFixed(1).replace('.', ',');
-      const savedMin = Math.round(t.savedMin || 0);
+      const amountTxt = (Math.round((Number(t.amount) || 0) * 10) / 10).toFixed(1).replace('.', ',');
+      const savedMin = Math.round(Number(t.savedMin) || 0);
       const tollTxt = t.enabled
         ? ('Péage estimé : ~' + amountTxt + ' € (' + barrierTxt + ') — environ ' + savedMin + ' min gagnées par rapport à un trajet sans péage.')
         : ('Sans péage (option décochée) : environ ' + savedMin + ' min auraient pu être gagnées en autoroute (~' + amountTxt + ' €, ' + barrierTxt + ').');
@@ -1421,21 +1579,21 @@ function buildTripPdf(doc, trip){
       const tollSources = (Array.isArray(t.countries) ? t.countries : []).slice(0, 5)
         .map(c => Object.prototype.hasOwnProperty.call(TripDataTollSource, c) ? TripDataTollSource[c] : null)
         .filter((x, i, a) => x && a.indexOf(x) === i);
-      legBullet(tollTxt + (tollSources.length ? ' Barème : ' + tollSources.join(' + ') + '.' : ''), contentX, contentWidth2);
+      legBullet(pdfClientText(lt.toll, tollTxt + (tollSources.length ? ' Barème : ' + tollSources.join(' + ') + '.' : '')), contentX, contentWidth2);
     }
     if(leg.chargeInfo && typeof leg.chargeInfo === 'object'){
       const c = Object.assign({}, leg.chargeInfo, { stops: Math.min(Math.max(Math.round(Number(leg.chargeInfo.stops)) || 0, 0), 99),
         minutes: Math.min(Math.max(Math.round(Number(leg.chargeInfo.minutes)) || 0, 0), 9999) });
       if(c.stops > 0 && c.real && Array.isArray(c.stations)){
         const places = c.stations.slice(0, 10).map(function(s){ return clip((s && s.near) || '', 60); }).filter(Boolean).join(', ');
-        legBullet(c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge (~' + Math.round(c.minutes) + ' min au total) sur ' +
-          (c.stops > 1 ? 'des bornes réelles' : 'une borne réelle') + (places ? ' : ' + places : '') + '.', contentX, contentWidth2);
+        legBullet(pdfClientText(lt.charge, c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge (~' + Math.round(c.minutes) + ' min au total) sur ' +
+          (c.stops > 1 ? 'des bornes réelles' : 'une borne réelle') + (places ? ' : ' + places : '') + '.', 800), contentX, contentWidth2);
       } else if(c.stops > 0){
-        legBullet(c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge estimée' + (c.stops > 1 ? 's' : '') +
-          ' (~' + Math.round(c.minutes) + ' min au total) sur borne rapide.', contentX, contentWidth2);
+        legBullet(pdfClientText(lt.charge, c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge estimée' + (c.stops > 1 ? 's' : '') +
+          ' (~' + Math.round(c.minutes) + ' min au total) sur borne rapide.'), contentX, contentWidth2);
       }
       if(c.noChargerNearArrival){
-        legBullet('Aucune borne publique connue à moins de 20 km de l\'arrivée : prévoyez de recharger à l\'hébergement.', contentX, contentWidth2, { color: PDF_ACCENT_3 });
+        legBullet(pdfClientText(lt.noCharger, 'Aucune borne publique connue à moins de 20 km de l\'arrivée : prévoyez de recharger à l\'hébergement.'), contentX, contentWidth2, { color: PDF_ACCENT_3 });
       }
     }
     if(Array.isArray(leg.restrictions)){
@@ -1450,63 +1608,66 @@ function buildTripPdf(doc, trip){
         'moto.partial': '{name} : certaines autoroutes ou voies rapides sont interdites aux motos, vérifiez votre itinéraire.',
         'moto.cityBan': '{name} : circulation des motos interdite ou restreinte.'
       };
-      leg.restrictions.slice(0, 12).forEach(function(r){
+      const restrictionTexts = Array.isArray(lt.restrictions) ? lt.restrictions : [];
+      leg.restrictions.slice(0, 12).forEach(function(r, ri){
         if(!r) return;
         const tpl = RESTRICTION_TEXT[String(r.kind) + '.' + String(r.type)];
         if(!tpl) return;
         const text = tpl.replace('{name}', clip(r.name || '', 80)).replace('{cc}', String(Number(r.minCc) || ''));
-        legBullet(text, contentX, contentWidth2, { link: isAllowedPdfLink(r.source) ? r.source : null, color: PDF_ACCENT_3 });
+        legBullet(pdfClientText(restrictionTexts[ri], text), contentX, contentWidth2, { link: isAllowedPdfLink(r.source) ? r.source : null, color: PDF_ACCENT_3 });
       });
     }
     if(leg.ferryInfo){
       const f = leg.ferryInfo;
+      let ferryTxt;
       if(typeof f.amount === 'number'){
         const amountTxt = (Math.round(f.amount * 10) / 10).toFixed(1).replace('.', ',');
-        legBullet('Traversée en ferry (' + clip(f.route || '', 60) + ') : ~' + amountTxt + ' €.', contentX, contentWidth2);
+        ferryTxt = 'Traversée en ferry (' + clip(f.route || '', 60) + ') : ~' + amountTxt + ' €.';
       } else {
         // Liaison réelle sans tarif fixe publié (voir priceStatus dans lib/trip-engine.js).
-        legBullet('Traversée en ferry (' + clip(f.route || '', 60) + ') : ' + (f.priceStatus === 'variable'
-          ? 'tarif variable, vérifiez avant votre voyage.' : 'tarif non communiqué, renseignez-vous avant votre trajet.'), contentX, contentWidth2);
+        ferryTxt = 'Traversée en ferry (' + clip(f.route || '', 60) + ') : ' + (f.priceStatus === 'variable'
+          ? 'tarif variable, vérifiez avant votre voyage.' : 'tarif non communiqué, renseignez-vous avant votre trajet.');
       }
+      legBullet(pdfClientText(lt.ferry, ferryTxt), contentX, contentWidth2);
     }
     // Rappel vignette : une seule fois par pays sur tout le PDF, comme côté web (voir
     // shownVignetteCountries plus haut).
-    const vignetteUrl = leg.country && VIGNETTE_URLS[leg.country];
+    const vignetteUrl = leg.country && Object.prototype.hasOwnProperty.call(VIGNETTE_URLS, leg.country) && VIGNETTE_URLS[leg.country];
     if(vignetteUrl && !shownVignetteCountries[leg.country]){
       shownVignetteCountries[leg.country] = true;
-      legBullet('Vignette autoroutière obligatoire dans ce pays — pensez à la commander avant de partir.',
+      legBullet(pdfClientText(texts.vignette, 'Vignette autoroutière obligatoire dans ce pays — pensez à la commander avant de partir.'),
         contentX, contentWidth2, { link: vignetteUrl, color: PDF_ACCENT_3 });
     }
     const activities = Array.isArray(leg.activities) ? leg.activities : [];
     activities.slice(0, 6).forEach(function(act){
       if(!act || !act.label) return;
       const text = clip(act.label, 140) + (act.typeLabel ? ' — ' + clip(act.typeLabel, 80) : '') +
-        (act.source ? ' (Source : ' + clip(act.source, 30) + ')' : '');
+        (act.source ? ' (' + pdfClientText(act.sourceLabel, 'Source : ' + clip(act.source, 30), 60) + ')' : '');
       const link = isAllowedPdfLink(act.hikeUrl) ? act.hikeUrl : null;
       legBullet(text, contentX, contentWidth2, { link: link, color: link ? PDF_ACCENT_3 : PDF_ACCENT_2 });
     });
     if(leg.lodgingLinks && leg.checkInLabel){
       // checkInLabel peut être une seule date ("20 août") ou une plage ("20 août → 22 août") pour
       // un séjour de plusieurs nuits au même endroit — une seule recherche pour tout le séjour,
-      // pas une par nuit (voir buildTripExportPayload côté client). "·" plutôt que "pour le" reste
-      // grammaticalement correct dans les deux cas.
+      // pas une par nuit (voir buildTripExportPayload côté client).
       const links = leg.lodgingLinks;
-      if(isAllowedPdfLink(links.airbnb)) legBullet('Logement (Airbnb) · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.airbnb });
-      if(isAllowedPdfLink(links.booking)) legBullet('Logement (Booking.com) · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: links.booking });
+      const lodgingLabel = pdfClientText(lt.lodging, 'Logement · ' + clip(leg.checkInLabel, 40), 120);
+      if(isAllowedPdfLink(links.airbnb)) legBullet(lodgingLabel + ' — Airbnb', contentX, contentWidth2, { link: links.airbnb });
+      if(isAllowedPdfLink(links.booking)) legBullet(lodgingLabel + ' — Booking.com', contentX, contentWidth2, { link: links.booking });
       // Plateformes locales (pays où Airbnb ou Booking.com est absent ou faible).
       // Liens hors des hôtes attendus (voir isAllowedPdfLink) : ligne omise, pas seulement le lien.
       const localLinks = (Array.isArray(links.local) ? links.local.slice(0, 4) : []).filter(p => p && isAllowedPdfLink(p.url));
       localLinks.forEach(function(p){
-        legBullet('Logement (' + clip(p.name || '', 40) + ') · ' + clip(leg.checkInLabel, 40), contentX, contentWidth2, { link: p.url });
+        legBullet(lodgingLabel + ' — ' + clip(p.name || '', 40), contentX, contentWidth2, { link: p.url });
       });
       if(!isAllowedPdfLink(links.airbnb) && !isAllowedPdfLink(links.booking) && !localLinks.length){
-        legBullet('Aucune plateforme de réservation en ligne connue ici : contactez directement les hébergements ou l\'office du tourisme.', contentX, contentWidth2);
+        legBullet(pdfClientText(texts.lodgingNone, 'Aucune plateforme de réservation en ligne connue ici : contactez directement les hébergements ou l\'office du tourisme.'), contentX, contentWidth2);
       }
     }
     if(isReturn){
-      pdfBullet(doc, 'Fin de mission — retour à la maison, road trip mystère bouclé.', contentX, contentWidth2, { color: PDF_ACCENT });
+      pdfBullet(doc, ctx, pdfClientText(texts.endMission, 'Fin de mission — retour à la maison, road trip mystère bouclé.'), contentX, contentWidth2, { color: PDF_ACCENT });
     }
-    doc.moveDown(0.75);
+    doc.y += 10;
   });
 
   // ---- Sac à préparer : puces remplacées par des cases à cocher, comme sur le site ----
@@ -1514,27 +1675,30 @@ function buildTripPdf(doc, trip){
   if(packing.length){
     pdfEnsureSpace(doc, 60);
     doc.lineWidth(1).moveTo(marginLeft, doc.y).lineTo(marginLeft + contentWidth, doc.y).stroke(PDF_LINE);
-    doc.moveDown(0.6);
-    doc.fillColor(PDF_ACCENT).font('Helvetica-Bold').fontSize(13);
-    pdfText(doc, 'Sac à préparer', marginLeft, contentWidth);
-    doc.fillColor(PDF_INK_SOFT).font('Helvetica-Oblique').fontSize(9.5);
-    pdfText(doc, 'Pour ' + clip(trip.transportLabel, 60) + ', budget ' + clip(trip.budgetLabel, 40) + '.', marginLeft, contentWidth);
-    doc.moveDown(0.5);
-    packing.slice(0, 60).forEach(function(item){ pdfBullet(doc, clip(item, 120), marginLeft + 4, contentWidth - 4, { checkbox: true }); });
+    doc.y += 8;
+    pdfText(doc, ctx, pdfClientText(texts.packTitle, 'Sac à préparer', 80), marginLeft, contentWidth, { size: 13, bold: true, color: PDF_ACCENT });
+    pdfText(doc, ctx, pdfClientText(texts.packSub, 'Pour ' + clip(trip.transportLabel, 60) + ', budget ' + clip(trip.budgetLabel, 40) + '.', 160),
+      marginLeft, contentWidth, { size: 9.5, color: PDF_INK_SOFT });
+    doc.y += 6;
+    packing.slice(0, 60).forEach(function(item){ pdfBullet(doc, ctx, clip(item, 120), marginLeft + 4, contentWidth - 4, { checkbox: true }); });
   }
 
-  const today = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
-  doc.moveDown(1);
+  doc.y += 12;
   pdfEnsureSpace(doc, 30);
   doc.lineWidth(1).moveTo(marginLeft, doc.y).lineTo(marginLeft + contentWidth, doc.y).stroke(PDF_LINE);
-  doc.moveDown(0.4);
-  doc.fillColor(PDF_INK_SOFT).font('Helvetica').fontSize(7.5);
-  pdfText(doc,
-    "Généré le " + today + " par Cap sur l'inconnu — communes : IGN/geo.api.gouv.fr · points d'intérêt : " +
-    "OpenStreetMap (ODbL) · péages : VINCI Autoroutes · randonnées : Visorando" +
-    (tensionShown ? " · zones à tension : France Diplomatie (diplomatie.gouv.fr)" : "") + ".",
-    marginLeft, contentWidth
-  );
+  doc.y += 5;
+  // Sources : noms propres, identiques dans toutes les langues ; phrase et date dans la langue du document
+  // (modèle 'pdf.generated' avec {date} et {sources}, sinon français).
+  const sources = 'IGN/geo.api.gouv.fr · GeoNames · OpenStreetMap (ODbL) · Wikipedia · Visorando · Open Charge Map' +
+    (tensionShown ? ' · France Diplomatie (diplomatie.gouv.fr)' : '');
+  const today = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+  const generatedTpl = typeof texts.generated === 'string' && texts.generated.includes('{date}') && texts.generated.includes('{sources}')
+    ? clip(texts.generated, 300) : null;
+  const generatedDate = pdfClientText(texts.generatedDate, today, 40);
+  const footer = generatedTpl
+    ? generatedTpl.replace('{date}', generatedDate).replace('{sources}', sources)
+    : 'Généré le ' + today + " par Cap sur l'inconnu — sources : " + sources + '.';
+  pdfText(doc, ctx, footer, marginLeft, contentWidth, { size: 7.5, color: PDF_INK_SOFT });
 }
 
 // Un seul export à la fois (audit du 17/09/2026) : un export maximal coûte ~1 s de CPU ; les suivants reçoivent 503
@@ -1561,13 +1725,16 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '128kb' }), cp
   trip.tripLabel = typeof trip.tripLabel === 'string' ? trip.tripLabel : '';
   trip.city = typeof trip.city === 'string' ? trip.city : '';
   // Demi-caractères retirés (emoji coupé par clip, ou envoyé tel quel) : encodeURIComponent les refuse (erreur 500).
-  const filenameBase = clip(trip.tripLabel || trip.city || 'itineraire', 60).replace(/[\\/:*?"<>|]+/g, '-')
-    .replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(^|[^\uD800-\uDBFF])[\uDC00-\uDFFF]/g, '$1') || 'itineraire';
+  // toWellFormed : l'ancienne regex laissait passer deux demi-caractères bas consécutifs (« \udc00\udc00 » : erreur 500).
+  const filenameBase = clip(trip.tripLabel || trip.city || 'itineraire', 60).toWellFormed().replace(/\uFFFD/g, '')
+    .replace(/[\\/:*?"<>|]+/g, '-') || 'itineraire';
   const doc = new PDFDocument({
     size: 'A4',
     margins: { top: 50, bottom: 50, left: 55, right: 55 },
-    info: { Title: "Cap sur l'inconnu - " + filenameBase }
+    info: { Title: "Cap sur l'inconnu - " + filenameBase },
+    lang: typeof trip.lang === 'string' && PDF_LANGS.has(trip.lang) ? trip.lang : 'fr'
   });
+  PdfText.registerFonts(doc);
   res.setHeader('Content-Type', 'application/pdf');
   res.setHeader('Content-Disposition', "attachment; filename=\"itineraire.pdf\"; filename*=UTF-8''" + encodeURIComponent(filenameBase) + '.pdf');
   doc.pipe(res);
@@ -1580,7 +1747,17 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '128kb' }), cp
     console.warn('[export-pdf] erreur de mise en page:', JSON.stringify(String(err && err.message)));
   }
   doc.end();
-  cpuBudgetAdd(performance.now() - t0);
+  cpuBudgetCharge(req, performance.now() - t0);
+  // Filet de sécurité : document jamais terminé (incorporation d'une police ou annotation restée ouverte après une erreur
+  // interne de pdfkit) — la connexion est coupée au lieu de rester pendante indéfiniment.
+  const endGuard = setTimeout(function(){
+    if(!res.writableEnded){
+      console.warn('[export-pdf] document non terminé après 15 s : connexion coupée');
+      res.destroy();
+    }
+  }, 15000);
+  endGuard.unref();
+  res.on('close', function(){ clearTimeout(endGuard); });
 });
 
 // BUNDLES DE DONNÉES (communes-bundle.txt, aliases-bundle.txt) : concaténation de tous les fichiers communes-XX.txt
@@ -1685,7 +1862,17 @@ function buildSearchIndexInChild(){
           }, 10000);
           return;
         }
-        if(attempt === 0) fs.rmSync(SEARCH_INDEX_LOCK, { force: true }); // orphelin
+        // Orphelin : renommé (atomique) avant suppression — un simple rmSync pouvait effacer le verrou qu'un autre
+        // processus venait de prendre entre la vérification et la suppression.
+        if(attempt === 0){
+          var staleLock = SEARCH_INDEX_LOCK + '.stale-' + process.pid;
+          try {
+            fs.renameSync(SEARCH_INDEX_LOCK, staleLock);
+            // Pris entre-temps par un autre processus (contenu différent de celui examiné) : remis en place.
+            if(parseInt(fs.readFileSync(staleLock, 'utf8'), 10) !== lockPid && !(isNaN(lockPid) && !fs.readFileSync(staleLock, 'utf8'))){ try { fs.linkSync(staleLock, SEARCH_INDEX_LOCK); } catch(e5){} }
+            fs.rmSync(staleLock, { force: true });
+          } catch(e4){ if(e4.code !== 'ENOENT') throw e4; }
+        }
       }
     }
     if(!acquired) throw new Error('verrou ' + SEARCH_INDEX_LOCK + ' impossible à prendre');
@@ -1760,14 +1947,16 @@ app.get('/api/status', function(req, res){
     searchReady: !!diskSearchIndex || tripEngine.isSearchReady(),
     tripsReady: tripEngine.isReady(),
     chargers: startupStatus.chargers || 0,
-    precompressed: startupStatus.precompressed || null
+    precompressed: startupStatus.precompressed || null,
+    pdfFonts: startupStatus.pdfFonts || null
   });
 });
 
-// Recherches de plus de SEARCH_BUDGET_MIN_MS comptées dans le budget de calcul global (les recherches ordinaires, de
-// quelques ms, n'y pèsent pas).
+// Recherches de plus de SEARCH_BUDGET_MIN_MS comptées dans le budget de calcul global et celui de l'IP (les recherches
+// ordinaires, de quelques ms, n'y pèsent pas). Seul le budget de l'IP peut refuser une recherche : une recherche coûte
+// trop peu pour être bloquée par la charge des autres visiteurs.
 const SEARCH_BUDGET_MIN_MS = 50;
-app.get('/api/search-city', cpuBudgetGuard, function(req, res){
+app.get('/api/search-city', cpuBudgetIpGuard, function(req, res){
   var q = String(req.query.q || '');
   if(!q || q.length > 120){
     return res.status(400).json({ error: 'invalid query', results: [] });
@@ -1776,7 +1965,7 @@ app.get('/api/search-city', cpuBudgetGuard, function(req, res){
     return res.status(503).json({ error: 'not ready', results: [] });
   }
   var t0 = performance.now();
-  res.on('finish', function(){ var ms = performance.now() - t0; if(ms > SEARCH_BUDGET_MIN_MS) cpuBudgetAdd(ms); });
+  res.on('finish', function(){ var ms = performance.now() - t0; if(ms > SEARCH_BUDGET_MIN_MS) cpuBudgetCharge(req, ms); });
   try {
     var limitRaw = parseInt(req.query.limit, 10);
     var limit = (isFinite(limitRaw) && limitRaw > 0 && limitRaw <= 20) ? limitRaw : 8;
@@ -1801,10 +1990,10 @@ app.post('/api/generate-trip', cpuBudgetGuard, express.json({ limit: '16kb' }), 
   const t0 = performance.now();
   try {
     const trip = tripEngine.generateTrip(req.body);
-    cpuBudgetAdd(performance.now() - t0);
+    cpuBudgetCharge(req, performance.now() - t0);
     res.json(trip);
   } catch(err){
-    cpuBudgetAdd(performance.now() - t0);
+    cpuBudgetCharge(req, performance.now() - t0);
     // Toute erreur ici vient soit d'une entrée invalide (voir la validation en tête de
     // generateTrip), soit d'un cas limite du moteur (ex. aucune commune atteignable) — jamais
     // d'une panne interne à cacher : 400 dans les deux cas, avec le message tel quel (déjà en
@@ -1857,7 +2046,19 @@ async function precompressStaticFiles(){
   startupStatus.precompressed = precompressed.size + ' fichier(s) en ' + Math.round((Date.now() - t0) / 100) / 10 + ' s';
   console.log('[précompression] ' + startupStatus.precompressed);
 }
-engineStartup.then(precompressStaticFiles).catch(function(err){ console.warn('[précompression] échec :', err.message); });
+engineStartup.then(precompressStaticFiles).catch(function(err){ console.warn('[précompression] échec :', err.message); })
+  .then(function(){
+    // Polices du PDF (≈ 26 Mo) lues et analysées une fois au démarrage : sinon le premier export (≈ 3 s) était imputé au
+    // budget de calcul du visiteur, qui recevait ensuite un 429.
+    const t0 = Date.now();
+    try {
+      PdfText.warmUp();
+      startupStatus.pdfFonts = 'prêtes en ' + Math.round((Date.now() - t0) / 100) / 10 + ' s';
+    } catch(err){
+      startupStatus.pdfFonts = 'ÉCHEC : ' + err.message;
+      console.warn('[pdf] polices :', err.message);
+    }
+  });
 app.use(function(req, res, next){
   if(req.method !== 'GET' && req.method !== 'HEAD') return next();
   const entry = Object.prototype.hasOwnProperty.call(PRECOMPRESSED_FILES, req.path) ? precompressed.get(req.path) : null;

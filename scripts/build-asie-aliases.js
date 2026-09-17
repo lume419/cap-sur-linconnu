@@ -19,7 +19,10 @@ const SUPPORTED_LANGS = new Set([
   'th', 'lo', 'km', 'my', 'shn', 'vi', 'id', 'ms', 'jv', 'su', 'tl', 'fil', 'ceb', 'tet'
 ]);
 
+// ONLY_COUNTRY=JP : un seul pays (voir build-asie-communes.js).
+const ONLY_COUNTRY = process.env.ONLY_COUNTRY || "";
 for(const country of COUNTRIES){
+  if(ONLY_COUNTRY && country !== ONLY_COUNTRY) continue;
   // 1. communes réellement publiées -> clé "nom|lat|lon"
   const communesPath = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');
   const published = new Map();

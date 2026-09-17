@@ -3662,7 +3662,93 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
   (`TOLL_LANDMASSES`, trip-data.js) : France métropolitaine, péninsules espagnole et portugaise, Italie continentale et
   Sicile, Grèce continentale (la Crète n'a aucun poste de péage en service en 2026), Honshū/Hokkaidō/Okinawa, île de
   Taïwan, et le continent pour la Croatie, la Turquie, la Tunisie et le Sénégal. Sources dans le commentaire.
-- **Données** : la liaison Esashi–Okushiri reste inutilisable, aucun lieu d'Okushiri dans les données japonaises.
+- **Données** : la liaison Esashi–Okushiri était inutilisable, aucun lieu d'Okushiri dans les données japonaises —
+  corrigé, voir « Lieux japonais sans point postal proche » plus bas.
+
+### Seconde passe d'audit (17 septembre 2026)
+
+- **Budget de calcul par IP** (`CPU_BUDGETS_PER_IP`) : 10 s par minute et 4 s par 10 s par adresse, au-delà 429 pour elle
+  seule. Mesuré avant : deux tirages de 4 s d'une même IP suffisaient à faire répondre « busy » à tous les visiteurs. La
+  recherche de ville n'est plus refusée pour cause de charge globale (budget de l'IP seulement).
+- **Appels tiers par IP** : au plus 2 requêtes `/api/pois` + `/api/hike` et 4 `/api/photo` en cours par adresse, les
+  suivantes attendent leur tour (file bornée, puis 429) — une adresse ne peut plus occuper seule les créneaux Overpass.
+- **Wikitexte** : titres contenant « : » refusés (pages utilisateur, discussions), article géolocalisé vérifié AVANT le
+  téléchargement du wikitexte, analyse bornée (600 Ko de page, 40 Ko de section, puces de 400 caractères) ; une puce
+  piégée de 60 Ko bloquait le serveur 5 s.
+- **`/data`** : filtre sur le chemin normalisé (`/./data/…`, `/%2e/data/…`, `/js/../data/…` servaient les fichiers côté
+  Node ; Apache les bloquait déjà en production). Nom de fichier PDF rendu bien formé (`toWellFormed`), pays de
+  `/api/photo` limité à deux lettres, `TRUST_PROXY` configurable, verrou d'index retiré par renommage atomique.
+- **Moteur** : un tirage interrompu ne renvoie plus une dernière étape hors du rayon de retour (Moscou, rayon 50 km :
+  étape à 1 000 km) ; itinéraire incomplet faute de temps → `timedOut` ; une étape unique (aller-retour) respecte le
+  rayon ; distance minimale introuvable → `minDistanceNotFound` (message dédié) au lieu d'un itinéraire de secours qui
+  l'ignorait ; minimum > maximum refusé ; nom de la ville de départ transmis aux règles d'îles (Galatás classé sur Póros) ;
+  codes postaux `__proto__`/`constructor` sans effet ; paramètres non textuels refusés.
+- **Client** : boutons de tirage bloqués jusqu'à l'affichage du voyage (un tirage relancé pendant la roulette puis
+  refusé laissait l'écran bloqué) ; changement de langue pendant la roulette sans libellés de l'ancien voyage ; date de
+  fin du PDF = fin réelle du séjour plafonné ; `selected_currency` sur les liens Booking ; montants au format de la
+  langue ; nom du pays des suggestions traduit ; champs numériques nommés pour les lecteurs d'écran ; messages 429/503 à
+  l'export PDF ; politique de confidentialité complétée (limitation de débit en mémoire, liste des liens tiers).
+- **Limites connues** : les durées « 2h46 » ne sont pas localisées ; un changement de langue relance les recherches de
+  photos (Wikipédia de la nouvelle langue). (Le PDF, un temps resté en français, est désormais traduit : section suivante.)
+
+### Durées et photos dans la langue du visiteur (17 septembre 2026)
+
+- **Durées** : « 2h46 » et « 45 min » s'affichaient tels quels dans toutes les langues (écran et PDF). Le moteur renvoie
+  désormais aussi `travelMin` (et `roadMin` pour la partie par la route d'une traversée) ; le navigateur les formate
+  avec `Intl.DurationFormat` (« 2 h et 46 min », « 2 時間 46 分 », « 2 ч 46 мин », « 2 س و46 د »), sinon les unités
+  d'`Intl.NumberFormat`, sinon l'ancien libellé — sans nouvelle traduction, avec la même langue de repli que les dates
+  (`localeTag`). Forme compacte (« 4h 30min ») dans le champ du rayon exprimé en heures. `travelTime`/`roadTime` restent
+  pour les calculs du moteur et les anciens clients (relus si les minutes manquent).
+- **Photos au changement de langue** : le cache des photos du navigateur ne dépend plus de la langue. Les photos déjà
+  affichées restent ; en arrière-plan, deux requêtes à la fois, chaque lieu est redemandé dans la nouvelle langue pour
+  mettre à jour le lien Wikipédia (article dans la langue s'il existe, sinon lien précédent conservé) et l'image quand
+  il n'y en avait pas. Un seul redessin du journal de bord une fois la file vidée ; une langue rechangée entre-temps
+  abandonne les requêtes devenues inutiles. Avant : jusqu'à ~90 requêtes simultanées et images rechargées sous les yeux.
+
+### Lieux japonais sans point postal proche (17 septembre 2026)
+
+Le fichier postal GeoNames (données Japan Post) place tous les codes de certaines municipalités au même point, parfois
+loin des lieux : les 11 codes d'Okushiri (043-1400 à 043-1522) sont à 41,9076 N ; 140,2695 E, sur le continent à ~70 km
+de l'île. `build-asie-communes.js` écartant tout lieu sans point postal à moins de 15 km, aucune localité de l'île
+n'était publiée et la liaison ferry Esashi–Okushiri ne pouvait jamais servir. Désormais, faute de point proche, le code
+est pris par LOCALITÉ : mêmes codes administratifs GeoNames (préfecture, district, municipalité) et nom identique à celui
+d'une seule ligne postale. 110 lieux ajoutés, aucun lieu existant modifié : les 9 localités d'Okushiri (Okushiri, Aonae,
+Akaishi…), Izena et Iheya (Okinawa), la péninsule de Shimokita (Ōma, Sai), Erimo, la côte de Namie (Ukedo)… et 184 noms
+japonais associés (ajoutés à `aliases-jp.txt` sans régénérer le reste du fichier). Reconstruction d'un seul pays :
+`ONLY_COUNTRY=JP node scripts/build-asie-communes.js`. Mesuré : départ d'Okushiri, circuit sur l'île sans ferry ou
+voyage par la traversée ; départ d'Esashi, l'île peut être tirée.
+
+### PDF traduit dans les 161 langues (17 septembre 2026)
+
+Le PDF mélangeait le français du serveur et la langue de l'interface, avec les 14 polices standard PDF (Helvetica,
+Times) incapables d'afficher le cyrillique, le grec, l'arabe, les écritures d'Asie ou même « ł ».
+
+- **Textes** : le navigateur envoie chaque ligne déjà traduite (`texts` du document et de chaque étape), composée avec
+  les mêmes clés que le journal de bord, plus deux clés propres au PDF (`pdf.subtitle`, `pdf.generated`) ; le serveur
+  ne traduit rien, garde le français en repli (texte absent ou non textuel) et contrôle toujours lui-même liens (hôtes
+  autorisés), montants, avertissements et nombre de lignes. Langue du document : `lang`, validée contre la liste des
+  langues de l'interface. Noms propres (« CAP SUR L'INCONNU », sources) identiques partout.
+- **Polices** : Noto embarquées dans `fonts/` (≈ 26 Mo, licence SIL OFL 1.1, détail et sources dans `fonts/README.md`) —
+  latin/grec/cyrillique (normal et gras), arabe, hébreu, thâna, devanagari, bengali, tamoul, malayalam, cingalais, thaï,
+  lao, khmer, birman, géorgien, arménien, éthiopien, tibétain, yi, et CJK japonais / chinois simplifié / chinois
+  traditionnel / coréen. Seuls les glyphes utilisés sont incorporés (PDF de 30 à 80 Ko).
+- **Mise en page** (`lib/pdf-text.js`) : police choisie caractère par caractère (ponctuation rattachée à la police
+  voisine), algorithme bidirectionnel Unicode (`bidi-js`) avec page entière en miroir pour l'arabe, le persan, l'ourdou,
+  le kurde sorani et le divehi (frise, puces, alignement), coupure des lignes par `Intl.Segmenter` (chinois, japonais,
+  thaï, lao, khmer, birman sans espaces). Ordre visuel vérifié contre l'implémentation de référence de `bidi-js`.
+- **Contournements de bibliothèques** : fontkit plantait sur les ancres nulles du khmer (autorisées par OpenType) ;
+  pdfkit mettait en forme chaque mot séparément (mots arabes et hébreux dans le désordre, espaces perdues) et, avec
+  `lineBreak: false`, créait un lien de largeur NaN qui laissait le document inachevé (réponse HTTP sans fin) — liens et
+  soulignements sont donc posés par `drawText`, et une réponse PDF non terminée est coupée après 15 s.
+- **Performance** : polices lues et analysées une fois au démarrage (`/api/status` → `pdfFonts`), puis partagées entre
+  documents (sans cela, arabe ~3 s et hindi ~1,8 s par export) ; un export complet coûte 0,2 à 1,3 s (hindi et khmer
+  les plus lents), compté dans le budget de calcul.
+- **Déploiement** : `npm install` (nouvelle dépendance `bidi-js`), et règle `fonts` ajoutée au bloc
+  `.htaccess-security-block.txt` (Apache sert la racine du dépôt : sans elle, les 26 Mo de polices seraient
+  téléchargeables).
+- **Limites** : pas de gras hors latin/grec/cyrillique (Noto gras non embarqué pour les autres écritures) ; noms de lieux
+  dans une écriture non couverte (ex. syriaque, n'ko, gurmukhi, gujarati, oriya, telugu, kannada) affichés en carrés ;
+  la qualité des traductions de `pdf.subtitle` / `pdf.generated` est faible pour les langues rares (liste de l'agent).
 
 ### Pas de route à travers la mer (septembre 2026)
 
