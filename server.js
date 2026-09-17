@@ -70,8 +70,12 @@ setInterval(function(){
   const now = Date.now();
   for(const [key, hits] of rateBuckets){ if(!hits.length || now - hits[hits.length - 1] > 60000) rateBuckets.delete(key); }
 }, 60000).unref();
+// Chemin normalisé (audit du 17/09/2026) : Express ignore la casse des routes et Apache fusionne les barres multiples —
+// « /api/Export-PDF » ou « /api//export-pdf » atteignaient la route en ne comptant que dans le quota général, et
+// « /API/… » faisait planter le limiteur (aucune règle trouvée, erreur 500).
 app.use('/api/', function(req, res, next){
-  const rule = RATE_LIMITS.find(r => req.originalUrl.startsWith(r.prefix));
+  const p = ('/api/' + req.path).toLowerCase().replace(/\/{2,}/g, '/');
+  const rule = RATE_LIMITS.find(r => p.startsWith(r.prefix)) || RATE_LIMITS[RATE_LIMITS.length - 1];
   const key = (req.ip || 'inconnu') + '|' + rule.prefix;
   const now = Date.now();
   let hits = rateBuckets.get(key);
@@ -87,7 +91,23 @@ app.use('/api/', function(req, res, next){
 // Fichiers de données : le navigateur n'en charge plus aucun (recherche et tirages côté serveur). Les servir exposait
 // des centaines de Mo en téléchargement libre (bundles de 226 Mo), une porte ouverte à la saturation de la bande
 // passante ; les données restent publiques sur le dépôt GitHub.
-app.use('/data/', function(req, res){ res.status(404).type('text/plain').send('Not found'); });
+// Contrôle sur le chemin DÉCODÉ et sans tenir compte de la casse : express.static décode l'URL avant de chercher le
+// fichier, « /%64ata/… » ou « /data%2F… » contournaient un simple préfixe.
+app.use(function(req, res, next){
+  let p;
+  try { p = decodeURIComponent(req.path); } catch(e){ return res.status(400).type('text/plain').send('Bad request'); }
+  if(/^[\/]+data([\/]|$)/i.test(p)) return res.status(404).type('text/plain').send('Not found');
+  next();
+});
+// Paramètres de requête : chaînes seulement. « ?name[a]=x » ou « ?name=a&name=b » donnaient un objet ou un tableau,
+// converti en « [object Object] » ou « a,b » par les routes (sans danger, mais incohérent jusque dans les liens).
+app.use('/api/', function(req, res, next){
+  for(const k of Object.keys(req.query)){
+    const v = req.query[k];
+    if(typeof v !== 'string') req.query[k] = Array.isArray(v) && typeof v[0] === 'string' ? v[0] : '';
+  }
+  next();
+});
 
 // Code département (INSEE) -> nom, utilisé pour désambiguïser les communes homonymes sur
 // Wikipédia (ex. il existe trois communes "Thoiry" : Ain, Savoie, Yvelines — l'article vaut
@@ -118,6 +138,7 @@ function sanitizeLangCode(raw){
 
 async function fetchWikiSummary(title, lang){
   const resp = await fetch('https://' + sanitizeLangCode(lang) + '.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(title), {
+    signal: AbortSignal.timeout(10000),
     headers: {
       'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)',
       'Accept': 'application/json'
@@ -178,6 +199,7 @@ async function resolvePlacePhoto(name, deptCode, country, lang){
 // que ce qui est nommé et taggé dans OpenStreetMap : les deux sources se complètent.
 async function fetchWikiWikitext(title){
   const resp = await fetch('https://fr.wikipedia.org/w/api.php?action=parse&page=' + encodeURIComponent(title) + '&prop=wikitext&format=json&formatversion=2', {
+    signal: AbortSignal.timeout(10000),
     headers: {
       'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)',
       'Accept': 'application/json'
@@ -438,9 +460,9 @@ function buildOverpassQuery(lat, lon){
     way.a["tourism"~"^(attraction|museum|viewpoint|gallery|zoo|theme_park|artwork)$"];
     node.a["historic"~"^(monument|memorial|archaeological_site|castle|ruins|fort|citadel|manor|chapel)$"];
     way.a["historic"~"^(monument|memorial|archaeological_site|castle|ruins|fort|citadel|manor|chapel)$"];
-    node.a["natural"~"^(peak|waterfall|beach|cave_entrance)$"];
-    node.a["leisure"="nature_reserve"];
-  );out center 25;`;
+    nwr.a["natural"~"^(peak|waterfall|beach|cave_entrance)$"];
+    nwr.a["leisure"="nature_reserve"];
+  );out center 80;`;
 }
 
 // Le type interne (utilisé par POI_TYPE_LABEL côté client) est directement l'une des valeurs de
@@ -614,18 +636,18 @@ async function fetchVisorandoHikes(communeName){
   if(!slug) return [];
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 10000);
-  let resp;
+  let resp, html;
   try {
     resp = await fetch('https://www.visorando.com/randonnee-' + slug + '.html', {
       headers: { 'User-Agent': VISORANDO_UA },
       signal: controller.signal
     });
+    if(resp.status === 404) return []; // pas de page pour cette commune : aucune rando à proximité
+    if(!resp.ok) throw new Error('HTTP ' + resp.status);
+    html = await resp.text(); // lecture du corps comprise dans le délai
   } finally {
     clearTimeout(timer);
   }
-  if(resp.status === 404) return []; // pas de page pour cette commune : aucune rando à proximité
-  if(!resp.ok) throw new Error('HTTP ' + resp.status);
-  const html = await resp.text();
   const hikes = [];
   const seen = new Set();
   // Un bloc par rando listée ; on ne cherche le nom/lien/distance/durée/difficulté que DANS ce
@@ -1015,7 +1037,8 @@ function buildTripPdf(doc, trip){
     'van.notice': 'Van : hauteur, longueur, poids et vignettes antipollution peuvent limiter l\'accès à certaines routes, tunnels, cols ou centres-villes. Vérifiez avant de partir.',
     'charge.dataNote': 'Bornes de recharge : données Open Charge Map, couverture inégale selon les pays — vérifiez leur disponibilité et leur compatibilité avant de partir.'
   };
-  (Array.isArray(trip.notices) ? trip.notices : []).forEach(function(key){
+  // Clés connues, sans doublon (audit du 17/09/2026 : 9 800 fois la même clé bloquaient le serveur plus d'une seconde).
+  Array.from(new Set((Array.isArray(trip.notices) ? trip.notices : []).filter(function(key){ return typeof key === 'string' && PDF_NOTICES.hasOwnProperty(key); }))).forEach(function(key){
     if(PDF_NOTICES[key]) pdfBullet(doc, PDF_NOTICES[key], doc.page.margins.left, doc.page.width - doc.page.margins.left - doc.page.margins.right, { color: PDF_ACCENT_3 });
   });
   legs.forEach(function(leg, idx){
@@ -1175,7 +1198,9 @@ app.post('/api/export-pdf', express.json({ limit: '128kb' }), (req, res) => {
   if(!trip || typeof trip !== 'object' || !Array.isArray(trip.legs) || trip.legs.length === 0 || trip.legs.length > 25){
     return res.status(400).json({ error: 'invalid trip data' });
   }
-  const filenameBase = clip(trip.tripLabel || trip.city || 'itineraire', 60).replace(/[\\/:*?"<>|]+/g, '-') || 'itineraire';
+  // Demi-caractères retirés (emoji coupé par clip, ou envoyé tel quel) : encodeURIComponent les refuse (erreur 500).
+  const filenameBase = clip(trip.tripLabel || trip.city || 'itineraire', 60).replace(/[\\/:*?"<>|]+/g, '-')
+    .replace(/[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(^|[^\uD800-\uDBFF])[\uDC00-\uDFFF]/g, '$1') || 'itineraire';
   const doc = new PDFDocument({
     size: 'A4',
     margins: { top: 50, bottom: 50, left: 55, right: 55 },
@@ -1297,10 +1322,14 @@ function openDiskSearchIndex(){
 function buildSearchIndexInChild(){
   return new Promise(function(resolve){
     fs.mkdirSync(path.dirname(SEARCH_INDEX_LOCK), { recursive: true });
-    // Verrou : si un autre processus construit déjà (verrou de moins de 30 min), on attend qu'il ait fini.
+    // Verrou : si un autre processus construit déjà (verrou de moins de 30 min), on attend qu'il ait fini. Un verrou dont
+    // le processus n'existe plus (arrêt brutal pendant la construction) est ignoré au lieu de bloquer 30 minutes.
     try {
       var lockAge = Date.now() - fs.statSync(SEARCH_INDEX_LOCK).mtimeMs;
-      if(lockAge < 30 * 60 * 1000){
+      var lockPid = parseInt(fs.readFileSync(SEARCH_INDEX_LOCK, 'utf8'), 10);
+      var lockAlive = true;
+      if(lockPid > 0){ try { process.kill(lockPid, 0); } catch(e){ lockAlive = e.code === 'EPERM'; } }
+      if(lockAge < 30 * 60 * 1000 && lockAlive){
         startupStatus.build = 'construction en cours dans un autre processus';
         var waited = 0;
         var timer = setInterval(function(){
@@ -1322,9 +1351,8 @@ function buildSearchIndexInChild(){
     child.on('close', function(code, signal){
       try { fs.unlinkSync(SEARCH_INDEX_LOCK); } catch(e){}
       var ok = code === 0 && !!openDiskSearchIndex();
-      startupStatus.build = (ok ? 'réussie' : 'ÉCHEC (code ' + code + (signal ? ', signal ' + signal : '') + ')') + ' en '
-        + Math.round((Date.now() - t0) / 1000) + ' s — ' + output.trim().split('\n').slice(-3).join(' | ');
-      console.log('[search-index] ' + startupStatus.build);
+      startupStatus.build = (ok ? 'réussie' : 'ÉCHEC') + ' en ' + Math.round((Date.now() - t0) / 1000) + ' s'; // détail : journal du serveur
+      console.log('[search-index] ' + startupStatus.build + ' (code ' + code + (signal ? ', signal ' + signal : '') + ') — ' + output.trim().split('\n').slice(-3).join(' | '));
       resolve(ok);
     });
   });
@@ -1355,7 +1383,7 @@ function startEngine(){
     startupStatus.engine = 'prêt en ' + Math.round((Date.now() - t0) / 1000) + ' s';
     console.log('[trip-engine] prêt en ' + (Date.now() - t0) + ' ms.');
   }).catch(function(err){
-    startupStatus.engine = 'ÉCHEC : ' + err.message;
+    startupStatus.engine = 'ÉCHEC'; // détail : journal du serveur
     console.error('[trip-engine] échec d\'initialisation, /api/search-city et /api/generate-trip resteront indisponibles :', err.message);
   });
 }
@@ -1364,7 +1392,8 @@ if(openDiskSearchIndex()){
   console.log('[search-index] index sur disque utilisé (' + diskSearchIndex.entries + ' entrées, ' + diskSearchIndex.places + ' lieux).');
   startEngine();
 } else {
-  buildSearchIndexInChild().then(startEngine);
+  // Échec de la construction (dossier cache/ non inscriptible…) : le moteur démarre quand même, recherche en mémoire.
+  buildSearchIndexInChild().catch(function(err){ console.error('[search-index] construction impossible :', err.message); }).then(startEngine);
 }
 
 app.get('/api/status', function(req, res){
@@ -1438,6 +1467,14 @@ app.use(express.static(path.join(__dirname, 'public'), {
     }
   }
 }));
+
+// Toute erreur non traitée (JSON invalide, URL mal encodée…) : réponse courte, jamais la page d'erreur d'Express.
+app.use(function(err, req, res, next){
+  if(res.headersSent) return next(err);
+  const status = err && err.status >= 400 && err.status < 500 ? err.status : 500;
+  if(status === 500) console.error('[erreur]', req.method, req.path, err && err.message);
+  res.status(status).json({ error: status === 500 ? 'internal error' : 'bad request' });
+});
 
 app.listen(PORT, () => {
   console.log(`Cap sur l'Inconnu — http://localhost:${PORT}`);

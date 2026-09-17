@@ -3116,7 +3116,10 @@ recherche 180, photos 400, activités et randonnées 120, autres API 120 ; répo
 (les bundles de 226 Mo n'y sont plus servis) ; caches en mémoire bornés à 5 000 entrées ; distances
 reçues plafonnées à 3 000 km ; noms venus d'OpenStreetMap/Wikipédia échappés avant insertion HTML et
 liens limités à http(s) ; erreurs internes non renvoyées au client ; `/api/status` sans version de Node
-ni mémoire.
+ni mémoire. Second audit (même jour) : quotas appliqués sur le chemin normalisé (casse, barres multiples) ;
+blocage de `/data/` sur le chemin décodé (`/%64ata/…`) ; paramètres de requête réduits à des chaînes ;
+gestionnaire d'erreurs final en JSON ; avertissements du PDF dédoublonnés ; délais sur les appels Wikipédia ;
+verrou de construction de l'index orphelin ignoré ; échecs réseau non mémorisés côté navigateur.
 
 Après un `git pull` sur ce type d'hébergement, cliquer sur **"Run NPM Install"** dans l'interface
 cPanel (pas un simple `npm install` en SSH — l'environnement Node de Passenger est isolé de celui

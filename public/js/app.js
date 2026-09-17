@@ -1606,11 +1606,13 @@
   // adaptés (voir BUDGET_PRICE_MAX/countryCurrency) plutôt que systématiquement l'euro.
   // Liens de secours (toujours utiles pendant le chargement, ou si aucune photo n'est trouvée) :
   // une recherche Wikipédia et une recherche d'images, en un clic, sans rien stocker.
+  // Sous-domaine Wikipédia de la langue du visiteur : « zh-Hant », « nrf-je », « pap-AW »… ne sont pas des sous-domaines.
+  function wikiLang(){ var code = String(VISITOR_LANG || 'fr').split('-')[0].toLowerCase(); return /^[a-z]{2,3}$/.test(code) ? code : 'fr'; }
   function buildPhotoLinks(placeName, country){
     var countryName = (country && COUNTRIES[country] && COUNTRIES[country].name) || 'France';
     var q = encodeURIComponent(placeName + ' ' + countryName);
     return {
-      wiki: 'https://' + VISITOR_LANG + '.wikipedia.org/wiki/Special:Search?search=' + encodeURIComponent(placeName) + '&go=Go',
+      wiki: 'https://' + wikiLang() + '.wikipedia.org/wiki/Special:Search?search=' + encodeURIComponent(placeName) + '&go=Go',
       images: 'https://www.google.com/search?tbm=isch&q=' + q
     };
   }
@@ -1622,13 +1624,14 @@
   // nuits au même endroit).
   var clientPhotoCache = {};
   function fetchPlacePhoto(name, dept, country){
-    var key = name + '|' + (dept || '') + '|' + (country || '') + '|' + VISITOR_LANG;
+    var key = name + '|' + (dept || '') + '|' + (country || '') + '|' + wikiLang();
     if(!clientPhotoCache[key]){
       var url = '/api/photo?name=' + encodeURIComponent(name) + '&dept=' + encodeURIComponent(dept || '') +
-        '&country=' + encodeURIComponent(country || '') + '&lang=' + encodeURIComponent(VISITOR_LANG);
+        '&country=' + encodeURIComponent(country || '') + '&lang=' + encodeURIComponent(wikiLang());
+      // 10. Un échec (limite de requêtes, délai, erreur serveur) n'est pas mémorisé : un prochain tirage réessaiera.
       clientPhotoCache[key] = fetch(url)
         .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
-        .catch(function(){ return { image:null, wikiUrl:null, title:null }; });
+        .catch(function(){ delete clientPhotoCache[key]; return { image:null, wikiUrl:null, title:null }; });
     }
     return clientPhotoCache[key];
   }
@@ -1654,8 +1657,8 @@
       clientPoiCache[key] = fetch(url)
         .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
         .then(function(data){ return (data && data.pois) || []; })
-        .catch(function(){ return []; })
-        .then(function(pois){ clientPoiResolved[key] = pois; return pois; });
+        .catch(function(){ delete clientPoiCache[key]; return null; }) // échec non mémorisé (voir fetchPlacePhoto)
+        .then(function(pois){ if(pois === null) return []; clientPoiResolved[key] = pois; return pois; });
     }
     return clientPoiCache[key];
   }
@@ -1701,7 +1704,7 @@
       clientHikeCache[key] = fetch(url)
         .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
         .then(function(data){ return { hikes: (data && data.hikes) || [], portals: (data && data.portals) || [] }; })
-        .catch(function(){ return { hikes: [], portals: [] }; });
+        .catch(function(){ delete clientHikeCache[key]; return { hikes: [], portals: [] }; }); // échec non mémorisé
     }
     return clientHikeCache[key];
   }
@@ -1717,9 +1720,14 @@
   // Randonnées déjà proposées sur l'ensemble du voyage en cours (par lien) : une même randonnée n'apparaît jamais deux
   // jours, même à deux étapes voisines qui la trouvent toutes les deux. Remis à zéro à chaque nouveau tirage.
   var usedHikeUrls = {};
+  // Incrémenté à chaque nouveau voyage affiché : une réponse arrivée pour un voyage précédent ne consomme ni ne modifie
+  // les files du voyage en cours.
+  var tripGeneration = 0;
   function pickHikeForCommune(leg){
     var key = hikeKeyOf(leg);
+    var gen = tripGeneration;
     return fetchHikeData(leg).then(function(data){
+      if(gen !== tripGeneration) return null;
       if(!hikeQueueByCommune[key]) hikeQueueByCommune[key] = shuffle(data.hikes);
       var queue = hikeQueueByCommune[key];
       while(queue.length){
@@ -1805,7 +1813,8 @@
         isReal: true,
         isWalk: !!WALK_POI_TYPES[poi.type],
         image: poi.image || null, // déjà résolue (galerie Wikipédia) : voir renderActivityCards
-        imageFull: poi.imageFull || null
+        imageFull: poi.imageFull || null,
+        wikiUrl: poi.wikiUrl || null
       });
     }
     if(!options.some(function(o){ return o.isWalk; })){
@@ -1820,7 +1829,8 @@
           isReal: true,
           isWalk: true,
           image: walkPoi.image || null,
-          imageFull: walkPoi.imageFull || null
+          imageFull: walkPoi.imageFull || null,
+          wikiUrl: walkPoi.wikiUrl || null
         });
       } else {
         // Aucun POI de plein air disponible pour compléter cette suggestion : on tentera une vraie
@@ -1914,7 +1924,7 @@
         slot = freshActivities.findIndex(function(o){ return o.isWalk; });
         if(slot < 0) slot = freshActivities.length - 1;
         var displaced = freshActivities[slot];
-        shared.poisQueue.push({ name: displaced.label, type: displaced.typeKey, image: displaced.image, imageFull: displaced.imageFull });
+        shared.poisQueue.push({ name: displaced.label, type: displaced.typeKey, image: displaced.image, imageFull: displaced.imageFull, wikiUrl: displaced.wikiUrl });
       }
       freshActivities[slot] = keptHike;
     }
@@ -2001,9 +2011,10 @@
         // partagée, la vidant avant même d'atteindre le jour suivant.
         var hikePromise = (leg && leg.__hikePromise) || pickHikeForCommune(leg);
         if(leg) leg.__hikePromise = hikePromise;
+        var hikeGen = tripGeneration;
         hikePromise.then(function(cardEl, opt){
           return function(hike){
-            if(!hike) return;
+            if(!hike || hikeGen !== tripGeneration) return;
             // Carte déjà remplacée par les vrais POI avant l'arrivée de la randonnée, sans suggestion de balade à
             // compléter : la randonnée n'est pas affichée, elle est rendue à la file pour un autre jour.
             if(!cardEl.parentNode && leg && leg.activities && leg.activities.indexOf(opt) < 0 &&
@@ -2368,8 +2379,10 @@
           // realPoiQueueFor (pas fetchRealPOIs directement) : partage une seule file de POI/repli
           // par commune entre tous les jours d'un même séjour, pour ne jamais reproposer le même
           // lieu deux fois (voir sa définition plus haut).
+          var poiGen = tripGeneration;
           realPoiQueueFor(leg.lat, leg.lon, leg.stop, leg.dept, leg.country).then(function(actListEl, dept, stopName, labelRow, dayLeg){
             return function(shared){
+              if(poiGen !== tripGeneration) return; // voyage remplacé entre-temps
               // Marqué résolu qu'il y ait ou non de vrais POI trouvés : sinon, un ré-rendu ultérieur
               // (changement de langue) réafficherait indéfiniment la mention "recherche en cours"
               // pour un résultat déjà connu (voir loadingNoteHtml plus haut, qui teste ce champ).
@@ -2510,7 +2523,7 @@
     if(startLL){
       L.marker(startLL, {
         icon: tripDivIcon('trip-pin trip-pin-start',
-          '<div class="trip-pin-badge">D</div><div class="trip-pin-label">'+(city||t('map.departFallback'))+'</div>',
+          '<div class="trip-pin-badge">D</div><div class="trip-pin-label">'+escHtml(city||t('map.departFallback'))+'</div>',
           [110, 50], [55, 13]),
         keyboard: false
       }).addTo(tripMapLayer);
@@ -2530,7 +2543,7 @@
       allPts.push(ll);
       L.marker(ll, {
         icon: tripDivIcon('trip-pin trip-pin-stop',
-          '<div class="trip-pin-badge">'+stopNum+'</div><div class="trip-pin-label">'+leg.stop.split(' ').slice(0,2).join(' ')+'</div>',
+          '<div class="trip-pin-badge">'+stopNum+'</div><div class="trip-pin-label">'+escHtml(leg.stop.split(' ').slice(0,2).join(' '))+'</div>',
           [110, 50], [55, 13]),
         keyboard: false
       }).addTo(tripMapLayer);
@@ -2793,7 +2806,10 @@
         .then(function(){ if(drawId === currentDrawId) showDrawnTrip(); });
     });
     function showDrawnTrip(){
-      usedHikeUrls = {}; hikeQueueByCommune = {}; // nouveau voyage : aucune randonnée encore proposée
+      // Nouveau voyage : aucune randonnée ni aucun lieu encore proposé. Sans remise à zéro des files de POI, un deuxième
+      // voyage passant par la même commune partait d'une file vidée et n'affichait plus que des suggestions génériques.
+      usedHikeUrls = {}; hikeQueueByCommune = {}; poiQueueByLocation = {}; genericQueueByLocation = {};
+      tripGeneration++;
       renderDays(legs, city);
       renderMap(legs, city, cityCoord);
       renderPacking(budgetKey, transportKey);
