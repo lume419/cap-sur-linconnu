@@ -260,7 +260,6 @@ module.exports = {
     "lat": -25.7961004,
     "lon": 153.0488995
    },
-   "sideNote": "Hook Point est la pointe sud de K'gari (en face d'Inskip Point, sur le continent) ; la règle kgari (boîte -25.65/-24.6) s'arrête au nord de la pointe.",
    "note": "ferry_terminal « Hook Point Ferry » (barge Inskip Point – Hook Point, route=ferry way/193860294) ; 32,8 km du centre de la localité"
   },
   {
@@ -492,7 +491,6 @@ module.exports = {
     "lat": 53.0189451,
     "lon": 106.9004221
    },
-   "sideNote": "Le quai МРС (Sakhiurta) est sur la rive continentale du détroit d'Olkhon ; la boîte olkhon commence à 106.9 E et englobe ce quai situé à 106.9004 E.",
    "note": "ferry_terminal « МРС » (Sakhiurta), départ de la route=ferry « МРС – остров Ольхон » ; 9,1 km du centre de la localité"
   },
   {
@@ -641,7 +639,6 @@ module.exports = {
     "lat": -41.7927842,
     "lon": -73.4589761
    },
-   "sideNote": "Pargua est sur la rive continentale du canal de Chacao ; la boîte chiloe (jusqu'à -41.75 et -73.35) englobe cette rive.",
    "note": "nœud « Pargua », extrémité côté continent de la route=ferry « Ferry Pargua – Chacao » (way/23252560) ; 23,0 km du centre de la localité"
   },
   {
@@ -757,6 +754,63 @@ module.exports = {
    },
    "sideNote": "Jetée sud de Middle Strait (South Andaman), face à Nilambur (Baratang, node/293687055 à 1,2 km) ; la règle de middleNorthAndaman déborde sur la pointe nord de South Andaman.",
    "note": "ferry_terminal « Middle Strait Ferry » rive sud, ~42 km de Wrightmyo"
+  },
+  {
+   "key": "continental|nagu",
+   "side": "continental",
+   "place": "Lillmälö",
+   "quay": {
+    "osm": "node/9455528254",
+    "lat": 60.23572,
+    "lon": 22.11266
+   },
+   "note": "ferry_terminal « Lillmälö (Pargas) », Finferries"
+  },
+  {
+   "key": "continental|nagu",
+   "side": "nagu",
+   "place": "Nagu",
+   "quay": {
+    "osm": "node/9455528255",
+    "lat": 60.22237,
+    "lon": 22.098
+   },
+   "sideNote": "Prostvik est sur Nagu (terminal Finferries « Prostvik (Nagu) ») ; la règle de nagu, par codes postaux et boîte, laisse ce quai côté continent.",
+   "note": "ferry_terminal « Prostvik (Nagu) », Finferries : le bac accoste à Prostvik, pas au port de Nagu (14 km)"
+  },
+  {
+   "key": "arno|continental",
+   "side": "arno",
+   "place": "Strandby",
+   "quay": {
+    "osm": "node/434534265",
+    "lat": 59.49827,
+    "lon": 17.15922
+   },
+   "sideNote": "Terminal « Arnö » de l'Arnöleden, sur l'île (le terminal Oknö lui fait face à 700 m) ; la boîte de arno ne descend pas jusqu'au quai.",
+   "note": "ferry_terminal « Arnö » (Arnöleden)"
+  },
+  {
+   "key": "arno|continental",
+   "side": "continental",
+   "place": "Dalby",
+   "quay": {
+    "osm": "node/434534278",
+    "lat": 59.4998,
+    "lon": 17.14671
+   },
+   "note": "ferry_terminal « Oknö » (Arnöleden), 6,7 km de Dalby"
+  },
+  {
+   "key": "continental|olkhon",
+   "side": "olkhon",
+   "place": "Yelga",
+   "quay": {
+    "osm": "node/648761645",
+    "lat": 53.02294,
+    "lon": 106.93071
+   },
+   "note": "ferry_terminal « остров Ольхон », en face de МРС (Sakhiurta), ~20 km de Yelga"
   }
  ],
  "pairs": {

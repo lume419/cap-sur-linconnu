@@ -10,6 +10,7 @@ const PDFDocument = require('pdfkit');
 const tripEngine = require('./lib/trip-engine.js');
 const searchIndex = require('./lib/search-index.js');
 const TripDataCountries = require('./public/js/trip-data.js').COUNTRIES;
+const TripDataTollSource = require('./public/js/trip-data.js').TOLL_SOURCE;
 // Pays couverts par Visorando et portails de randonnée par pays (scripts/build-hiking-data.js -> data/hiking.json).
 let HIKING_DATA = { visorandoCountries: ['FR'], portals: [] };
 try { HIKING_DATA = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'hiking.json'), 'utf8')); } catch(err){ /* fichier absent : France seule */ }
@@ -1083,7 +1084,11 @@ function buildTripPdf(doc, trip){
       const tollTxt = t.enabled
         ? ('Péage estimé : ~' + amountTxt + ' € (' + barrierTxt + ') — environ ' + savedMin + ' min gagnées par rapport à un trajet sans péage.')
         : ('Sans péage (option décochée) : environ ' + savedMin + ' min auraient pu être gagnées en autoroute (~' + amountTxt + ' €, ' + barrierTxt + ').');
-      pdfBullet(doc, tollTxt, contentX, contentWidth2);
+      // Barème des pays concernés : codes vérifiés contre TOLL_SOURCE, jamais de texte venu du client.
+      const tollSources = (Array.isArray(t.countries) ? t.countries : []).slice(0, 5)
+        .map(c => Object.prototype.hasOwnProperty.call(TripDataTollSource, c) ? TripDataTollSource[c] : null)
+        .filter((x, i, a) => x && a.indexOf(x) === i);
+      pdfBullet(doc, tollTxt + (tollSources.length ? ' Barème : ' + tollSources.join(' + ') + '.' : ''), contentX, contentWidth2);
     }
     if(leg.chargeInfo && typeof leg.chargeInfo === 'object'){
       const c = Object.assign({}, leg.chargeInfo, { stops: Math.min(Math.max(Math.round(Number(leg.chargeInfo.stops)) || 0, 0), 99),

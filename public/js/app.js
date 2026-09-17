@@ -688,6 +688,7 @@
   //   prise telle quelle, faute de grille intercité dédiée — d'où 0,096 €/km.
   var TOLL_RATE_BY_CLASS = TripData.TOLL_RATE_BY_CLASS;
   var TOLL_RATE_BY_COUNTRY = TripData.TOLL_RATE_BY_COUNTRY;
+  var TOLL_SOURCE = TripData.TOLL_SOURCE;
   var TOLL_MIN_DISTANCE_KM = TripData.TOLL_MIN_DISTANCE_KM; // en-deçà, le péage n'entre pas en ligne de compte
 
   // ---- Ferries : traversées maritimes réelles (Corse, Baléares, Canaries, îles grecques...) ----
@@ -2180,7 +2181,8 @@
       rt.className = 'route-time';
       // Étape avec traversée : partie par la route (jusqu'au port, puis depuis le port d'arrivée) + traversée, avec les
       // libellés existants des deux (déjà traduits dans toutes les langues).
-      rt.innerHTML = (firstLeg.ferryInfo && firstLeg.roadKm ? t('day.routeTime', {time: firstLeg.roadTime, km: firstLeg.roadKm}) + ' + ' : '') +
+      // textContent : aucun balisage dans ces libellés, rien à interpréter.
+      rt.textContent = (firstLeg.ferryInfo && firstLeg.roadKm ? t('day.routeTime', {time: firstLeg.roadTime, km: firstLeg.roadKm}) + ' + ' : '') +
         t(firstLeg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: firstLeg.travelTime, km: firstLeg.distanceKm});
       top.appendChild(h3); top.appendChild(rt);
       body.appendChild(top);
@@ -2263,7 +2265,10 @@
         var tollRow = document.createElement('div');
         tollRow.className = 'day-row';
         var tollTxt = t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: amountTxt, barrier: barrierTxt, min: ti.savedMin});
-        tollRow.innerHTML = icon('toll') + '<span><span class="lbl">'+t('toll.label')+'</span>'+tollTxt+'</span>';
+        // Barème du ou des pays traversés (ex. Autostrade per l'Italia), pas celui d'ASF pour tous.
+        var tollSources = (Array.isArray(ti.countries) ? ti.countries : [firstLeg.country])
+          .map(function(c){ return TOLL_SOURCE[c]; }).filter(function(x, i, a){ return x && a.indexOf(x) === i; });
+        tollRow.innerHTML = icon('toll') + '<span><span class="lbl">'+escHtml(t('toll.label', {source: tollSources.join(' + ') || '—'}))+'</span>'+tollTxt+'</span>';
         body.appendChild(tollRow);
       }
       if(firstLeg.tension && !firstLeg.isReturn){

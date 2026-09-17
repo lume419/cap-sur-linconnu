@@ -6115,7 +6115,7 @@ module.exports = {
    "name": "Dyrøy ↔ Sørburøy",
    "operator": "Fosen Linjen",
    "durationH": 0.5,
-   "distanceKm": 8,
+   "distanceKm": 27,
    "priceByClass": {
     "1": 0,
     "2": 0,
@@ -6131,7 +6131,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27 km à vol d'oiseau entre les terminaux OpenStreetMap de Dyrøy (node/13438193071) et de Sørburøy (node/11048045175), au lieu de 8 ; durée non vérifiée (ligne Dyrøy–Øyrekken à escales)."
   },
   {
    "a": "continental",
@@ -6440,7 +6440,7 @@ module.exports = {
    "name": "Kilboghamn ↔ Nordnesøy",
    "operator": "Torghatten Nord",
    "durationH": 0.4,
-   "distanceKm": 7,
+   "distanceKm": 28,
    "priceByClass": {
     "1": 0,
     "2": 0,
@@ -6456,7 +6456,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27,8 km entre les quais (https://www.fergeruter.info/timetable/nordnesoy-kilboghamn_rodyoysambandet), au lieu de 7 ; durée non vérifiée (Rødøysambandet à escales)."
   },
   {
    "a": "continental",

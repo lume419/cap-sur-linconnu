@@ -3582,7 +3582,7 @@ défaut à vélo) : du point de départ au port le plus proche de sa rive, puis 
 celle-ci (paires de ports réellement desservies quand elles sont connues). Avant, n'importe quel lieu de l'autre rive était accepté (à vélo : Sapporo → Yokohama, Lyon → Corse en une
 journée).
 
-- **Données** : `FERRY_PORTS` dans trip-data.js, construit par `scripts/build-ferry-ports.js` depuis
+- **Données** : `FERRY_PORTS` dans `lib/ferry-ports.js` (réservé au serveur, jamais livré au navigateur), construit par `scripts/build-ferry-ports.js` depuis
   `scripts/ferry-ports/ports-*.js` puis `scripts/ferry-ports/corrections.js` — les 702 liaisons, 1 559 ports, chacun avec
   la source qui établit que la ligne le dessert (URL des commentaires de FERRY_ROUTES, sites des opérateurs). Recherche
   d'un lieu : `node scripts/ferry-ports/find-port.js <PAYS> "<nom>"` (ou `--near lat,lon`).
@@ -3597,17 +3597,30 @@ journée).
   Manche, mer d'Irlande, Åland, îles grecques et croates…), seules les paires de ports réellement exploitées en 2026 sont
   envisagées (ex. plus de Nice ↔ Porto-Vecchio fictif) ; ports retirés faute de ligne (Calvi, Reggio de Calabre pour les
   véhicules) et ajoutés (Sète, Civitavecchia, Toulon ↔ Alcúdia, Rotterdam ↔ Hull, Tallinn ↔ Mariehamn), sources à l'appui.
+- **Voiture électrique, péages, moto** : chaque partie routière (jusqu'au port, depuis le port) est traitée comme une
+  étape ordinaire — bornes de recharge réelles exigées et arrêts affichés, péages comptés, vitesse réduite de la moto sans
+  autoroute ; la nuit de repos du premier trajet compte ses heures de route (hors traversée).
 - **Affichage** : une étape avec ferry montre la partie par la route puis la traversée (« ~ 2h13 de route · 38 km + ~ 8h30
   de traversée · 250 km »), sur le site comme dans le PDF, avec les libellés déjà traduits ; le total du voyage l'inclut.
 - **Limites** : Saint-Laurent-du-Maroni (lieu = centre de la vaste commune, quai à 61 km) et Surumatra (Kurupukari, quai
   à 71 km) gardent le centre de leur localité, cohérent avec les coordonnées des étapes ; une liaison regroupant plusieurs
   lignes (ex. Continent ↔ Grande-Bretagne) affiche le nom, la durée et le prix de sa ligne de référence (Douvres ↔ Calais)
   même quand la partie par la route est estimée via une autre paire réellement desservie (Rotterdam ↔ Hull) ; la partie
-  par la route d'une voiture électrique n'est pas soumise au calcul des recharges.
+  par la route est estimée à vol d'oiseau × 1,17 comme le reste du moteur ; `build-island-rules.js` vérifie à la fin que
+  toutes les liaisons ont leurs ports.
+- **Règles d'îles recalées sur les contours OpenStreetMap** (bandes de 0,01° de latitude, marge ~300 m) pour Olkhon
+  (relation/2734482), K'gari (relation/6661024) et la Grande Île de Chiloé (relation/2711509) : les boîtes uniques
+  d'avant englobaient la rive continentale d'en face (quais de MRS/Sakhiurta et de Pargua) ou laissaient la pointe sud
+  de K'gari (Hook Point) sur le continent. Aucun lieu existant ne change de masse ; les justifications `sideNote` de ces
+  trois quais ne sont plus nécessaires.
 - **Corrigé au passage** : Roomassaare ↔ Abruka part de Saaremaa et Småge ↔ Finnøya de Gossa, pas du continent ;
   Storstein ↔ Nikkeby dessert Laukøya et Storstein ↔ Lauksundskaret Arnøya (liaisons et libellés inversés) ; Pärnäs est
   côté Nagu et Retais côté Korpo ; Batulicin ↔ Garongkong fait au moins 413 km (écart entre les terminaux OpenStreetMap),
-  pas 242 (`scripts/iles/iles-baltique.js`, `scripts/iles/ferries-asie.js`).
+  pas 242 (`scripts/iles/iles-baltique.js`, `scripts/iles/ferries-asie.js`) ; îles Wadden : durée propre à chaque ligne
+  (Vlieland ~1 h 35, Terschelling ~2 h, Ameland ~50 min, Schiermonnikoog ~45 min, sources Doeksen et Wagenborg) au lieu
+  des 20 min et 5 km de Texel pour toutes ; Dyrøy ↔ Sørburøy (27 km) et Kilboghamn ↔ Nordnesøy (28 km) au lieu de 8 et
+  7 km (durées non vérifiées) ; ports recalés sur leur quai pour Nagu (Prostvik), Arnö et Olkhon ; libellé de la liaison
+  Continent ↔ Ikaria ajouté dans les 161 langues (il manquait partout).
 
 Une île n'est jamais reliée au continent par la route : le moteur de distance (vol d'oiseau × 1,17,
 voir `roadDistanceKm` dans `app.js`) n'a par nature aucune idée de la mer. Sans ce qui suit, un
@@ -4574,7 +4587,9 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 - Police guèze : [Noto Sans Ethiopic](https://fonts.google.com/noto/specimen/Noto+Sans+Ethiopic)
   (même licence SIL OFL 1.1, hébergée localement, ~377 ko), nécessaire à l'affichage
   de l'amharique et du tigrinya.
-- Tarifs de péage : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
+- Tarifs de péage (le libellé « Péage (barème …) » de chaque étape nomme désormais le barème du pays appliqué — `TOLL_SOURCE`
+  dans trip-data.js, ex. « Autostrade per l'Italia 2026 » en Italie — au lieu d'« ASF 2026 » pour tous les pays ; même
+  mention dans le PDF) : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
   (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
   [Autopistas/Abertis](https://www.autopistas.com) (Espagne), [Ascendi](https://www.ascendi.pt) /
   [Via Verde](https://www.vialivre.pt) (Portugal), [Autostrade per l'Italia](https://www.autostrade.it)

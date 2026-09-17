@@ -55,9 +55,7 @@ const keys = new Set(['continental']);
 // écrites à la main dans FERRY_ROUTES. Un fichier de scripts/iles peut ainsi ajouter une liaison vers ces îles.
 const ENGINE_SRC = fs.readFileSync(path.join(__dirname, '..', 'lib', 'trip-engine.js'), 'utf8');
 const DATA_SRC = fs.readFileSync(TRIP_DATA, 'utf8');
-// Le bloc FERRY_PORTS (scripts/build-ferry-ports.js) reprend les clés de toutes les liaisons : retiré aussi.
-const MANUAL_FERRY_SRC = DATA_SRC.replace(/\/\/ BEGIN AUTO FERRIES[\s\S]*?\/\/ END AUTO FERRIES/, '')
-  .replace(/\/\/ BEGIN AUTO FERRY PORTS[\s\S]*?\/\/ END AUTO FERRY PORTS/, '');
+const MANUAL_FERRY_SRC = DATA_SRC.replace(/\/\/ BEGIN AUTO FERRIES[\s\S]*?\/\/ END AUTO FERRIES/, '');
 const manualPairs = new Set();
 (MANUAL_FERRY_SRC.slice(MANUAL_FERRY_SRC.indexOf('var FERRY_ROUTES')).match(/^\s*'([A-Za-z0-9]+\|[A-Za-z0-9]+)':/gm) || [])
   .forEach(m => { const p = m.trim().slice(1, -2); manualPairs.add(p); p.split('|').forEach(k => keys.add(k)); });
@@ -120,3 +118,8 @@ fs.writeFileSync(TRIP_DATA, s);
 fs.writeFileSync(path.join(__dirname, 'iles', '.ferry-names.json'), JSON.stringify(ferries.map(x => ({ routeKey: x.routeKey, name: x.name })), null, 1));
 Object.entries(counts).forEach(([cc, c]) => console.log(cc, JSON.stringify(c)));
 console.log(Object.keys(landmass).length + ' pays, ' + ferries.length + ' ferries écrits.');
+// Les ports des liaisons (lib/ferry-ports.js) dépendent des clés écrites ci-dessus : contrôle immédiat, pour qu'une clé
+// nouvelle ou renommée ne retombe pas en silence sur l'estimation sans ports.
+const portsCheck = require('child_process').spawnSync(process.execPath, [path.join(__dirname, 'build-ferry-ports.js'), '--strict', '--check'], { encoding: 'utf8' });
+process.stdout.write('[ports de ferry] ' + (portsCheck.stdout || '') + (portsCheck.stderr || ''));
+if(portsCheck.status !== 0) console.log('ATTENTION : compléter scripts/ferry-ports/ puis lancer node scripts/build-ferry-ports.js');

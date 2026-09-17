@@ -1,4 +1,4 @@
-// Construit FERRY_PORTS dans public/js/trip-data.js à partir de scripts/ferry-ports/ports-*.js : coordonnées des
+// Construit FERRY_PORTS dans lib/ferry-ports.js à partir de scripts/ferry-ports/ports-*.js : coordonnées des
 // villes portuaires de chaque rive de chaque liaison (FERRY_ROUTES, SEA_CROSSINGS). Le moteur s'en sert pour estimer la
 // partie par la route d'un trajet avec traversée (jusqu'au port de départ le plus proche, puis depuis le port d'arrivée
 // le plus proche) : sans elle, un trajet à vélo pouvait franchir la mer vers n'importe quel lieu de l'autre rive.
@@ -32,7 +32,7 @@ const TripData = require('../public/js/trip-data.js');
 const { internals } = require('../lib/trip-engine.js');
 
 const SRC = path.join(__dirname, 'ferry-ports');
-const TRIP_DATA = path.join(__dirname, '..', 'public', 'js', 'trip-data.js');
+const FERRY_PORTS_FILE = path.join(__dirname, '..', 'lib', 'ferry-ports.js');
 const args = process.argv.slice(2);
 const CHECK = args.includes('--check'), STRICT = args.includes('--strict');
 const onlyIdx = args.indexOf('--only');
@@ -115,13 +115,18 @@ raw.forEach(({ f, i, e }) => {
       const pushPort = (port, ll) => {
         let idx = out.sides[side].findIndex(x => x[0] === ll[0] && x[1] === ll[1]);
         if(idx < 0){ out.sides[side].push(ll); idx = out.sides[side].length - 1; }
-        out.labels[side][port.place || port.name] = idx;
+        const label = port.place || port.name;
+        // Libellé en double sur une rive : pairs viserait un port au hasard.
+        if(Object.prototype.hasOwnProperty.call(out.labels[side], label)) errors.push(at + ' ' + side + ' : port « ' + label + ' » en double');
+        out.labels[side][label] = idx;
       };
       ports.forEach(port => {
         const pat = at + ' ' + side + ' ' + (port && port.cc) + ' ' + (port && (port.place || port.name));
         if(!port || !TripData.COUNTRIES[port.cc]) return errors.push(pat + ' : pays inconnu');
         const quay = port.quay;
-        if(quay && !(/^(node|way|relation)\/\d+$/.test(String(quay.osm)) && isFinite(quay.lat) && isFinite(quay.lon))){
+        const isLatLon = (la, lo) => typeof la === 'number' && typeof lo === 'number' && Math.abs(la) <= 90 && Math.abs(lo) <= 180;
+        if(port.near && !(Array.isArray(port.near) && isLatLon(port.near[0], port.near[1]))) return errors.push(pat + ' : near doit être [lat, lon] numériques');
+        if(quay && !(/^(node|way|relation)\/\d+$/.test(String(quay.osm)) && isLatLon(quay.lat, quay.lon))){
           return errors.push(pat + ' : quay doit être { osm: "node/…", lat, lon } (élément OpenStreetMap)');
         }
         if(!port.place){
@@ -130,7 +135,9 @@ raw.forEach(({ f, i, e }) => {
           if(!quay || !port.name) return errors.push(pat + ' : place manquant (ou name + quay)');
           let near = null;
           placesOf(port.cc).forEach(list => list.forEach(p => { const d = hv(quay.lat, quay.lon, p.lat, p.lon); if(!near || d < near.d) near = { d, p }; }));
-          const onSide = near && sideOf(Object.assign({}, near.p, { lat: quay.lat, lon: quay.lon })) === side;
+          // Même avec sideNote, le quai doit rester dans le pays et à portée raisonnable des lieux connus.
+          if(!near || near.d > 150) return errors.push(pat + ' : quai à plus de 150 km du lieu le plus proche du pays');
+          const onSide = sideOf(Object.assign({}, near.p, { lat: quay.lat, lon: quay.lon })) === side;
           if(!onSide && !port.sideNote) return errors.push(pat + ' : quai hors de la rive selon landmassOf (justifier par sideNote)');
           return pushPort(port, [Math.round(quay.lat * 1e4) / 1e4, Math.round(quay.lon * 1e4) / 1e4]);
         }
@@ -194,15 +201,13 @@ if(CHECK || ONLY) process.exit(0);
 
 const body = allKeys.filter(k => entries[k]).map(k => {
   const s = entries[k].sides;
-  return "      '" + k + "': { " + Object.keys(s).map(side => "'" + side + "': " + JSON.stringify(s[side])).join(', ') +
+  return "  '" + k + "': { " + Object.keys(s).map(side => "'" + side + "': " + JSON.stringify(s[side])).join(', ') +
     (entries[k].pairs ? ", pairs: " + JSON.stringify(entries[k].pairs) : '') + ' }';
 }).join(',\n');
-const block = '    // BEGIN AUTO FERRY PORTS (scripts/build-ferry-ports.js)\n' +
-  '    // Villes portuaires de chaque rive (coordonnées des données de lieux, voir scripts/ferry-ports/) : partie par la\n' +
-  '    // route d\'un trajet avec traversée, estimée jusqu\'au port le plus proche de chaque rive.\n' +
-  '    var FERRY_PORTS = {\n' + body + '\n    };\n' +
-  '    // END AUTO FERRY PORTS';
-const src = fs.readFileSync(TRIP_DATA, 'utf8');
-if(!/\/\/ BEGIN AUTO FERRY PORTS[\s\S]*?\/\/ END AUTO FERRY PORTS/.test(src)){ console.error('marqueurs AUTO FERRY PORTS absents de trip-data.js'); process.exit(1); }
-fs.writeFileSync(TRIP_DATA, src.replace(/    \/\/ BEGIN AUTO FERRY PORTS[\s\S]*?\/\/ END AUTO FERRY PORTS/, block));
-console.log('écrit dans ' + TRIP_DATA);
+// Fichier réservé au serveur (lib/, bloqué par .htaccess) : les ports ne servent qu'au moteur, rien à livrer au navigateur.
+const out = '// FICHIER GÉNÉRÉ par scripts/build-ferry-ports.js — ne pas modifier à la main (sources : scripts/ferry-ports/).\n' +
+  '// Ports de chaque rive de chaque liaison de ferry ([lat, lon] : quai OpenStreetMap ou centre de la localité) et paires\n' +
+  "// de ports desservies (indices dans l'ordre des rives de la clé) : partie par la route d'un trajet avec traversée.\n" +
+  'module.exports = {\n' + body + '\n};\n';
+fs.writeFileSync(FERRY_PORTS_FILE, out);
+console.log('écrit dans ' + FERRY_PORTS_FILE);
