@@ -3575,6 +3575,30 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
 
 ## Ferries
 
+### Pas de route à travers la mer (septembre 2026)
+
+Le moteur mesure les distances à vol d'oiseau × 1,17 et ne connaît que les masses terrestres : deux pays de la même masse
+(Croatie et Italie, Estonie et Finlande, Danemark et Allemagne…) étaient reliés PAR LA ROUTE à travers la mer. Mesuré le
+17/09/2026 sur 1 140 tirages réels (5 par pays) : 3,5 % des voyages contenaient une telle étape (Split → Pescara,
+Tallinn → Helsinki, Rostock → Zélande, Dahab → Ras Gharib, Dhahran → Qatar, lac Malawi…).
+
+- **Grille terre/eau** `lib/land-grid.bin` (223 Ko, pas de 0,05°) construite par `scripts/build-land-grid.js` depuis
+  [Natural Earth](https://www.naturalearthdata.com) 1:10m (domaine public) : terres + petites îles − lacs ; une case
+  traversée par un trait de côte compte comme terre (anneaux d'atolls, flèches). Reconstruction : télécharger
+  ne_10m_land, ne_10m_lakes et ne_10m_minor_islands (naciscdn.org), puis `node scripts/build-land-grid.js <dossier>`.
+- **Règle** (`roadCrossesWater`, `lib/trip-engine.js`) : une étape par la route dont le trait passe au moins 25 km
+  d'affilée sur l'eau (ou coupe une barrière) n'est acceptée que s'il existe sur la grille un chemin par la terre d'au
+  plus 1,8 fois la distance (A*, `landPathKm` dans `lib/land-grid.js`). Les contournements courts restent permis
+  (lagune de Bardawil entre Gaza et Le Caire, lacs finlandais, estuaires du Sénégal) ; les vraies traversées sont refusées.
+- **Ponts et chaussées longs** (`FIXED_LINKS`, extrémités relevées sur OpenStreetMap) : Hong Kong–Zhuhai–Macao, baie de
+  Hangzhou, Lake Pontchartrain, Chesapeake Bay, baie de Jiaozhou, Donghai, Øresund, Grand Belt, Confédération, Penang
+  (deux ponts), Rio–Niterói, Vasco de Gama, roi Fahd, Cheikh Jaber. **Barrière** (`BARRIERS`) : Kvarken, dont les îlots
+  forment une chaîne sur la grille alors qu'aucune route ne relie Umeå à Vaasa (ferry Wasaline).
+- **Retour d'un tirage interrompu** : `legAllowed` vérifie désormais aussi la masse terrestre, la frontière réelle et
+  l'option ferry — le retour vers le départ pouvait sinon relier deux masses sans ferry (Calabre → Gozo).
+- **Limites** : la grille ignore les rivières sans pont et les reliefs ; un chemin terrestre n'est pas forcément une route
+  (désert, forêt) ; un bras de mer de moins de ~5 km sans pont reste franchissable.
+
 ### Ports géolocalisés et distance maximale entre étapes (septembre 2026)
 
 Un trajet avec traversée compte aussi sa **partie par la route** dans la distance maximale entre étapes (80 km par
