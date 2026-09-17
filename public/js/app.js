@@ -1968,6 +1968,16 @@
         hikePromise.then(function(cardEl, opt){
           return function(hike){
             if(!hike) return;
+            // Carte déjà remplacée par les vrais POI avant l'arrivée de la randonnée, sans suggestion de balade à
+            // compléter : la randonnée n'est pas affichée, elle est rendue à la file pour un autre jour.
+            if(!cardEl.parentNode && leg && leg.activities && leg.activities.indexOf(opt) < 0 &&
+               !leg.activities.some(function(o){ return o.needsHike && !o.hikeUrl; })){
+              delete usedHikeUrls[hike.url];
+              var queue = hikeQueueByCommune[hikeKeyOf(leg)];
+              if(queue) queue.unshift(hike);
+              leg.__hikePromise = null;
+              return;
+            }
             // On mémorise la trouvaille directement sur `opt` (donc sur leg.activities, puisque
             // c'est le même objet) — pas seulement dans le DOM — pour que l'export PDF (voir
             // buildTripExportPayload) et un futur rendu (voir plus haut, opt.hikeUrl) reflètent la
@@ -2322,6 +2332,22 @@
               if(note) note.remove();
               if(!shared.hasPois) return;
               var freshActivities = buildActivityOptions(shared.poisQueue, shared.genericQueue);
+              // Une vraie randonnée déjà trouvée et AFFICHÉE pour ce jour reste en place : sans ça, elle apparaissait puis
+              // disparaissait dès l'arrivée des POI (un point de vue ou un sommet prenait la place de la « balade »). Elle
+              // remplace de préférence la suggestion de balade générique, sinon une suggestion générique ; un POI de plein
+              // air ainsi écarté retourne dans la file de la commune pour un autre jour.
+              var keptHike = (dayLeg.activities || []).filter(function(o){ return o.hikeUrl; })[0];
+              if(keptHike && !freshActivities.some(function(o){ return o.hikeUrl; })){
+                var slot = freshActivities.findIndex(function(o){ return o.needsHike; });
+                if(slot < 0) slot = freshActivities.findIndex(function(o){ return !o.isReal; });
+                if(slot < 0){
+                  slot = freshActivities.findIndex(function(o){ return o.isWalk; });
+                  if(slot < 0) slot = freshActivities.length - 1;
+                  var displaced = freshActivities[slot];
+                  shared.poisQueue.push({ name: displaced.label, type: displaced.typeKey, image: displaced.image, imageFull: displaced.imageFull });
+                }
+                freshActivities[slot] = keptHike;
+              }
               // On remplace aussi leg.activities (pas seulement l'affichage) pour que l'export PDF
               // (voir buildTripExportPayload) reflète les vraies activités trouvées.
               dayLeg.activities = freshActivities;

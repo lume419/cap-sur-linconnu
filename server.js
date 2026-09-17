@@ -1251,6 +1251,19 @@ const SEARCH_INDEX_LOCK = path.join(__dirname, 'cache', 'search-index.lock');
 const startupStatus = { startedAt: new Date().toISOString(), searchIndex: 'absent', build: null, engine: 'en attente', engineSteps: null };
 let diskSearchIndex = null;
 
+// Concaténation des fichiers de données quand le bundle précompilé est absent ou périmé — jamais de variante Sync de
+// fs ici (un calcul synchrone de cette taille gèlerait le process). Le format ###XX###/franceCode doit rester
+// synchronisé avec scripts/build-data-bundles.js.
+function buildBundleTextAsync(re, franceCode){
+  var files = fs.readdirSync(DATA_DIR).filter(function(f){ return re.test(f); }); // liste de noms seule, quasi instantané
+  return Promise.all(files.map(function(f){
+    return fs.promises.readFile(path.join(DATA_DIR, f), 'utf8').then(function(content){
+      var m = f.match(re);
+      var cc = (m[1] ? m[1].toUpperCase() : franceCode);
+      return '###' + cc + '###\n' + content;
+    });
+  })).then(function(parts){ return parts.join('\n'); });
+}
 function loadRawBundleText(name, re, franceCode){
   var bundlePath = path.join(DATA_DIR, name + '.txt');
   return fs.promises.readdir(DATA_DIR).then(function(files){
