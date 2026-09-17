@@ -210,6 +210,19 @@
       <span class="field-error" id="min-distance-error" role="alert"></span>
     </div>
 
+    <div class="field" id="leg-distance-field">
+      <label for="leg-distance" data-i18n="form.legDistance.label">Distance max entre les étapes</label>
+      <div class="input-unit">
+        <div class="stepper-row">
+          <button type="button" class="step-btn" id="leg-distance-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
+          <input type="number" id="leg-distance" min="10" max="3000" step="10" value="400" />
+          <button type="button" class="step-btn" id="leg-distance-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
+        </div>
+        <span class="unit" data-i18n="form.legDistance.unit">km par trajet au maximum</span>
+      </div>
+      <span class="field-hint" data-i18n="form.legDistance.hint">Par défaut : 80 km à vélo, 400 km pour les autres modes. Les traversées en ferry ne comptent pas.</span>
+    </div>
+
     <div class="field" id="days-per-city-field">
       <label data-i18n="form.daysPerCity.label">Nombre de jours par ville</label>
       <div class="distance-range-inputs">

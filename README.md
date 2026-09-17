@@ -4241,6 +4241,52 @@ expéditions ; les îles Éparses sont relevées par avion ou bâtiment militair
 Arenas) ne prennent pas de voiture et ne desservent pas les bases ; Bouvet n'a aucune desserte. Aucune route ne relie une base
 à une autre. D'où aucune entrée dans `FERRY_ROUTES`, et aucun trajet (voir « Antarctique, île Bouvet et toutes les TAAF »).
 
+## Modes de transport : distances, bornes, vans et motos (septembre 2026)
+
+Un contrôle des 6 modes dans les 239 pays (2 868 tirages) avait montré que seuls la vitesse et les classes de péage et de ferry
+changeaient d'un mode à l'autre : étapes de 131 km en moyenne à vélo comme en voiture (jusqu'à 1 075 km en une étape), recharges
+calculées sur une autonomie fixe sans aucune borne réelle, rien pour les vans ni pour les motos.
+
+**Distance max entre les étapes** — nouveau champ du formulaire, **80 km à vélo** et **400 km** pour les autres modes par défaut
+(la valeur suit le mode tant que le visiteur ne l'a pas modifiée), sans minimum. Chaque trajet entre deux étapes ET le retour au
+départ restent sous cette distance routière (`LEG_CONSTRAINTS`, `legAllowed` dans lib/trip-engine.js) ; les traversées en ferry n'y
+sont pas soumises. Quand le tirage s'interrompt faute de candidat, les dernières étapes sont retirées tant que le retour dépasse la
+limite (c'était la source des étapes de plus de 1 000 km). Contrôle mondial après correction : **0 étape au-delà du maximum**
+sur 3 192 par mode, 80 km au plus à vélo.
+
+**Voiture électrique : recharges sur bornes réelles** — `data/charging-stations.txt`, **222 512 bornes dans 121 pays** tirées de
+l'export public d'**Open Charge Map** (`scripts/fetch-charging-stations.js`, archive lue en flux). OpenStreetMap était la
+première source visée : instances Overpass publiques saturées (504, « server too busy »), extraction impossible dans des délais
+raisonnables. Filtres : fournisseurs sous licence ouverte réutilisable sans clause non commerciale (contributeurs OCM CC BY 4.0,
+NREL domaine public, UK National Charge Point Registry OGL, NOBIL CC BY, Bundesnetzagentur CC BY, data.gouv.fr, opérateurs CC0…),
+fiche publiée, borne en service, accès public ou inconnu. Un trajet plus long que l'autonomie utile (320 km × 75 %) n'est retenu
+que si une suite de bornes existe **à moins de 15 km de la ligne directe**, chaque arrêt étant la borne atteignable la plus
+avancée (`evPlan`) ; l'étape affiche le nombre d'arrêts, leur durée et le lieu habité le plus proche de chaque borne (lien vers
+la carte). Sans borne publique connue à moins de 20 km de l'arrivée : avertissement « prévoyez de recharger à l'hébergement ».
+Avertissement général sur la couverture. **Limites** : couverture très inégale (États-Unis 75 339, Royaume-Uni 25 466, Allemagne
+20 859, France 15 431… mais Pays-Bas 979, les données d'Oplaadpalen.nl étant sous licence non commerciale, et presque rien en
+Chine et en Afrique) ; puissance, connecteurs et disponibilité non pris en compte ; départ de chaque étape supposé batterie pleine.
+
+**Van : restrictions sourcées** — `scripts/transport/van-rules.js`, **152 règles** : 115 zones à faibles émissions (ZFE France,
+Umweltzonen, ZBE Espagne, LEZ Belgique, milieuzones, ULEZ/CAZ, miljøzoner, Séoul, Tokyo, Mexico…), 18 zones à trafic limité
+(Florence, Paris Centre…), 6 tunnels (Rotherhithe à Londres interdit au-delà de 2 m, Fréjus tarif au-delà de 3 m, Zion, Needles
+Eye…), 3 cols, 10 routes (côte amalfitaine, Going-to-the-Sun Road, Formentor…). Sources officielles (sites des villes, gis.uba.de,
+mieuxrespirerenville.gouv.fr, TfL, lez.brussels, gestionnaires de tunnels, parcs nationaux américains), presse reconnue à défaut,
+signalée dans le fichier. Une étape dans une zone ou un trajet passant près d'un tunnel, col ou route restreint affiche un
+avertissement orange avec le lien vers la source ; avertissement général sur le gabarit et les vignettes pour tout trajet en van.
+**Limites** : l'accès aux ZFE dépend de la norme du véhicule (non modélisée), zones temporaires (pics de pollution) et petites ZTL
+non listées, plusieurs pays sans entrée faute de règle ou de source.
+
+**Moto : interdictions sourcées** — `scripts/transport/moto-rules.js`, **28 règles dans 20 pays** : réseau autoroutier interdit
+(Corée du Sud, Taïwan, Viêt Nam, Thaïlande, Indonésie, Pakistan, Sri Lanka), seuil de cylindrée (Japon ≥ 126 cm³, Philippines
+≥ 400 cm³), voies rapides interdites localement (Inde ×5, Chine, Cambodge, Laos, Bangladesh, Kenya, Ouganda, Mexico, São Paulo,
+Lima), villes (Yangon, Pékin pour les plaques extérieures, Canton, Shenzhen). Moto de tourisme supposée ≥ 500 cm³ : dans un pays
+dont le réseau est entièrement interdit, trajet calculé par les routes secondaires (vitesse × 0,8) et sans péage ; sinon simple
+avertissement (nom du pays dans la langue d'interface). `scripts/build-transport-rules.js` valide les deux fichiers et les injecte
+dans trip-data.js (marqueurs AUTO TRANSPORT RULES).
+
+19 nouvelles chaînes traduites dans les 161 langues ; PDF (français) : recharges réelles, avertissements et notes générales.
+
 ## Export PDF
 
 Le bouton "Exporter cet itinéraire en PDF" (entre le journal de bord et le sac à préparer, une fois

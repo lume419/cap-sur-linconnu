@@ -42,3 +42,6 @@ public/data/aliases-bundle.txt.br
 # déjà, jamais commitée. Seul ce fichier est exclu, pas tout `.claude/` — un éventuel réglage de
 # projet ajouté plus tard doit rester versionnable sans avoir à défaire cette ligne.
 .claude/launch.json
+
+# Extractions OpenStreetMap intermédiaires (bornes de recharge par pays) — seul data/charging-stations.txt est commité
+scripts/osm/

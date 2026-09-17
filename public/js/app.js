@@ -934,7 +934,8 @@
   var lastNorm = null; // évite de retomber sur la même première étape deux fois de suite
   var rouletteTimer = null;
   var currentTripLabel = ''; // "Ville — X jours", pour nommer le PDF exporté (voir export-pdf-btn)
-  var currentTripData = null; // {legs, city, budgetKey, transportKey} du dernier itinéraire affiché
+  var currentTripData = null;
+  var lastTripNotices = []; // avertissements de tout le trajet renvoyés par le serveur (van, électrique) // {legs, city, budgetKey, transportKey} du dernier itinéraire affiché
 
   var els = {
     form: document.getElementById('form'),
@@ -965,6 +966,9 @@
     maxDistanceDec: document.getElementById('max-distance-dec'),
     maxDistanceInc: document.getElementById('max-distance-inc'),
     minDistanceError: document.getElementById('min-distance-error'),
+    legDistance: document.getElementById('leg-distance'),
+    legDistanceDec: document.getElementById('leg-distance-dec'),
+    legDistanceInc: document.getElementById('leg-distance-inc'),
     daysPerCityField: document.getElementById('days-per-city-field'),
     minDaysPerCity: document.getElementById('min-days-per-city'),
     minDaysPerCityDec: document.getElementById('min-days-per-city-dec'),
@@ -1411,6 +1415,16 @@
   els.minDaysPerCityInc.addEventListener('click', function(){ stepNumberField(els.minDaysPerCity, 1); });
   els.maxDaysPerCityDec.addEventListener('click', function(){ stepNumberField(els.maxDaysPerCity, -1); });
   els.maxDaysPerCityInc.addEventListener('click', function(){ stepNumberField(els.maxDaysPerCity, 1); });
+  // Distance max entre les étapes : 80 km à vélo, 400 km sinon, tant que le visiteur n'a pas saisi sa propre valeur ;
+  // la valeur par défaut suit alors le mode de transport choisi.
+  var DEFAULT_LEG_KM = { 'velo': 80 };
+  var legDistanceEdited = false;
+  function defaultLegKm(){ return DEFAULT_LEG_KM[els.transport.value] || 400; }
+  els.legDistance.value = defaultLegKm();
+  els.legDistanceDec.addEventListener('click', function(){ legDistanceEdited = true; stepNumberField(els.legDistance, -1); });
+  els.legDistanceInc.addEventListener('click', function(){ legDistanceEdited = true; stepNumberField(els.legDistance, 1); });
+  els.legDistance.addEventListener('change', function(){ legDistanceEdited = els.legDistance.value !== ''; });
+  els.transport.addEventListener('change', function(){ if(!legDistanceEdited) els.legDistance.value = defaultLegKm(); });
 
   /* ---------- FOURCHETTE DE PRIX DU BUDGET SÉLECTIONNÉ ---------- */
   // Affiche le plafond réellement utilisé pour préremplir les liens Airbnb/Booking (voir
@@ -1976,8 +1990,28 @@
     return icon('warn') + '<span><span class="lbl">'+t('tension.label')+'</span>'+t(textKey)+link+'</span>';
   }
 
+  // Échappement HTML des textes venus des données (noms de lieux des règles de circulation).
+  function escHtml(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(ch){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]; }); }
+  // Avertissement de circulation (van / moto) : même style que les zones à tension (orange), lien vers la source.
+  function restrictionRowHtml(r){
+    // Règle nationale (moto) : nom du pays dans la langue d'interface quand le navigateur le connaît.
+    var name = r.name || '';
+    if(r.country && (r.type === 'noMotorway' || r.type === 'noMotorwayCc' || r.type === 'partial')){
+      try { name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || name; } catch(e){}
+    }
+    var txt = t(r.kind + '.' + r.type, { name: escHtml(name), cc: r.minCc || '' });
+    var src = r.source ? ' <a href="' + escHtml(r.source) + '" target="_blank" rel="noopener">' + t('restriction.source') + '</a>' : '';
+    return icon('warn') + '<span>' + txt + src + '</span>';
+  }
   function renderDays(legs, city){
     els.days.innerHTML = '';
+    // Avertissements valables pour tout le trajet (van : gabarit et vignettes ; électrique : couverture des bornes).
+    (lastTripNotices || []).forEach(function(key){
+      var note = document.createElement('div');
+      note.className = 'day-row tension-row tension-orange';
+      note.innerHTML = icon('warn') + '<span>' + t(key) + '</span>';
+      els.days.appendChild(note);
+    });
     if(lastDepartureTension){
       var depWarn = document.createElement('div');
       depWarn.className = 'day-row tension-row tension-' + lastDepartureTension.level;
@@ -2137,12 +2171,36 @@
       }
       if(firstLeg.chargeInfo){
         var c = firstLeg.chargeInfo;
-        var chargeRow = document.createElement('div');
-        chargeRow.className = 'day-row';
-        var chargeTxt = t(c.stops > 1 ? 'charge.textN' : 'charge.text1', {n: c.stops, min: c.minutes});
-        chargeRow.innerHTML = icon('plug') + '<span><span class="lbl">'+t('charge.label')+'</span>'+chargeTxt+'</span>';
-        body.appendChild(chargeRow);
+        if(c.stops > 0){
+          var chargeRow = document.createElement('div');
+          chargeRow.className = 'day-row';
+          var chargeTxt;
+          if(c.real && c.stations){
+            // Recharges sur des bornes réelles (Open Charge Map) : lieu habité le plus proche de chaque borne, lien carte.
+            var places = c.stations.map(function(s){
+              return '<a href="https://www.openstreetmap.org/?mlat=' + s.lat + '&mlon=' + s.lon + '#map=15/' + s.lat + '/' + s.lon +
+                '" target="_blank" rel="noopener">' + escHtml(s.near || (s.lat.toFixed(3) + ', ' + s.lon.toFixed(3))) + '</a>';
+            }).join(', ');
+            chargeTxt = t(c.stops > 1 ? 'charge.realN' : 'charge.real1', {n: c.stops, min: c.minutes, places: places});
+          } else {
+            chargeTxt = t(c.stops > 1 ? 'charge.textN' : 'charge.text1', {n: c.stops, min: c.minutes});
+          }
+          chargeRow.innerHTML = icon('plug') + '<span><span class="lbl">'+t('charge.label')+'</span>'+chargeTxt+'</span>';
+          body.appendChild(chargeRow);
+        }
+        if(c.noChargerNearArrival){
+          var noCharger = document.createElement('div');
+          noCharger.className = 'day-row tension-row tension-orange';
+          noCharger.innerHTML = icon('warn') + '<span>' + t('charge.noChargerNearArrival') + '</span>';
+          body.appendChild(noCharger);
+        }
       }
+      (firstLeg.restrictions || []).forEach(function(r){
+        var rRow = document.createElement('div');
+        rRow.className = 'day-row tension-row tension-orange';
+        rRow.innerHTML = restrictionRowHtml(r);
+        body.appendChild(rRow);
+      });
       // Rappel vignette : uniquement la première fois que ce pays apparaît dans l'itinéraire (voir
       // shownVignetteCountries plus haut) — un pays traversé plusieurs jours de suite, ou retraversé
       // plus tard dans le séjour, n'a besoin d'acheter qu'UNE seule vignette pour tout le trajet.
@@ -2442,6 +2500,7 @@
       budgetLabel: budgetLabel(budgetKey),
       transportLabel: transportLabel(transportKey),
       stats: { days: legs.length, cities: Object.keys(villes).length, nights: nights, totalKm: totalKm, toll: tollSummary },
+      notices: lastTripNotices || [],
       legs: legs.map(function(leg){
         return {
           label: singleLegLabel(leg),
@@ -2453,6 +2512,7 @@
           country: leg.country || null,
           tollInfo: leg.tollInfo || null,
           chargeInfo: leg.chargeInfo || null,
+          restrictions: leg.restrictions || null,
           ferryInfo: leg.ferryInfo ? { route: t(leg.ferryInfo.routeKey), amount: leg.ferryInfo.amount, priceStatus: leg.ferryInfo.priceStatus || null } : null,
           checkInLabel: leg.lodgingCheckIn ? formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut) : null,
           lodgingLinks: leg.lodgingLinks || null,
@@ -2517,6 +2577,12 @@
       return;
     }
 
+    var maxLegKm = parseFloat(els.legDistance.value) || defaultLegKm();
+    if(minDistanceKm > 0 && minDistanceKm > maxLegKm){
+      showMinDistanceError(t('error.minDistanceOverLeg', {min: minDistanceKm, max: maxLegKm}));
+      return;
+    }
+
     var minDaysPerCity = parseInt(els.minDaysPerCity.value, 10) || 1;
     var maxDaysPerCity = parseInt(els.maxDaysPerCity.value, 10) || 3;
     clearDaysPerCityError();
@@ -2542,7 +2608,7 @@
           tollEnabled: tollEnabled, ferryEnabled: ferryEnabled, avoidTent: avoidTent,
           avoidTension: els.tensionToggle.checked,
           tripStart: els.dateStart.value, maxRadiusKm: maxRadiusKm, avoidNorm: lastNorm,
-          minDistanceKm: minDistanceKm, maxDistanceKm: maxDistanceKm,
+          minDistanceKm: minDistanceKm, maxDistanceKm: maxDistanceKm, maxLegKm: maxLegKm,
           minDaysPerCity: minDaysPerCity, maxDaysPerCity: maxDaysPerCity,
           preferredCurrency: getPreferredCurrency()
         })
@@ -2554,6 +2620,7 @@
       var data = await resp.json();
       legs = data.legs || [];
       lastDepartureTension = data.departureTension || null;
+      lastTripNotices = data.notices || [];
       if(legs.length === 0 && data.tensionBlocked){
         showCityError(t('error.tensionBlocked'));
         return;

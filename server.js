@@ -824,6 +824,14 @@ function buildTripPdf(doc, trip){
   // shownVignetteCountries côté web (public/js/app.js, renderDays).
   const shownVignetteCountries = {};
   const legs = Array.isArray(trip.legs) ? trip.legs : [];
+  // Avertissements valables pour tout le trajet (van, voiture électrique) — texte français du PDF.
+  const PDF_NOTICES = {
+    'van.notice': 'Van : hauteur, longueur, poids et vignettes antipollution peuvent limiter l\'accès à certaines routes, tunnels, cols ou centres-villes. Vérifiez avant de partir.',
+    'charge.dataNote': 'Bornes de recharge : données Open Charge Map, couverture inégale selon les pays — vérifiez leur disponibilité et leur compatibilité avant de partir.'
+  };
+  (Array.isArray(trip.notices) ? trip.notices : []).forEach(function(key){
+    if(PDF_NOTICES[key]) pdfBullet(doc, PDF_NOTICES[key], doc.page.margins.left, doc.page.width - doc.page.margins.left - doc.page.margins.right, { color: PDF_ACCENT_3 });
+  });
   legs.forEach(function(leg, idx){
     if(!leg) return;
     const pageBefore = doc.page;
@@ -867,8 +875,37 @@ function buildTripPdf(doc, trip){
     }
     if(leg.chargeInfo){
       const c = leg.chargeInfo;
-      pdfBullet(doc, c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge estimée' + (c.stops > 1 ? 's' : '') +
-        ' (~' + Math.round(c.minutes) + ' min au total) sur borne rapide.', contentX, contentWidth2);
+      if(c.stops > 0 && c.real && Array.isArray(c.stations)){
+        const places = c.stations.slice(0, 10).map(function(s){ return clip((s && s.near) || '', 60); }).filter(Boolean).join(', ');
+        pdfBullet(doc, c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge (~' + Math.round(c.minutes) + ' min au total) sur ' +
+          (c.stops > 1 ? 'des bornes réelles' : 'une borne réelle') + (places ? ' : ' + places : '') + '.', contentX, contentWidth2);
+      } else if(c.stops > 0){
+        pdfBullet(doc, c.stops + ' pause' + (c.stops > 1 ? 's' : '') + ' recharge estimée' + (c.stops > 1 ? 's' : '') +
+          ' (~' + Math.round(c.minutes) + ' min au total) sur borne rapide.', contentX, contentWidth2);
+      }
+      if(c.noChargerNearArrival){
+        pdfBullet(doc, 'Aucune borne publique connue à moins de 20 km de l\'arrivée : prévoyez de recharger à l\'hébergement.', contentX, contentWidth2, { color: PDF_ACCENT_3 });
+      }
+    }
+    if(Array.isArray(leg.restrictions)){
+      const RESTRICTION_TEXT = {
+        'van.lez': 'Zone à faibles émissions — {name} : accès selon la norme antipollution de votre véhicule.',
+        'van.ztl': 'Zone à trafic limité — {name} : accès interdit aux non-résidents, verbalisation automatique.',
+        'van.tunnel': '{name} : limite de hauteur, de longueur ou de poids.',
+        'van.pass': '{name} : col ou route de montagne restreint aux véhicules longs.',
+        'van.road': '{name} : route restreinte ou interdite aux grands véhicules.',
+        'moto.noMotorway': '{name} : autoroutes interdites aux motos, trajet estimé par les routes secondaires.',
+        'moto.noMotorwayCc': '{name} : autoroutes interdites aux motos de moins de {cc} cm³, vérifiez selon votre moto.',
+        'moto.partial': '{name} : certaines autoroutes ou voies rapides sont interdites aux motos, vérifiez votre itinéraire.',
+        'moto.cityBan': '{name} : circulation des motos interdite ou restreinte.'
+      };
+      leg.restrictions.slice(0, 12).forEach(function(r){
+        if(!r) return;
+        const tpl = RESTRICTION_TEXT[String(r.kind) + '.' + String(r.type)];
+        if(!tpl) return;
+        const text = tpl.replace('{name}', clip(r.name || '', 80)).replace('{cc}', String(Number(r.minCc) || ''));
+        pdfBullet(doc, text, contentX, contentWidth2, { link: isHttpUrl(r.source) ? r.source : null, color: PDF_ACCENT_3 });
+      });
     }
     if(leg.ferryInfo){
       const f = leg.ferryInfo;
@@ -1179,6 +1216,17 @@ function startEngine(){
   ]).then(function(results){
     return tripEngine.init(results[0], results[1], results[2], { skipSearchIndex: !needAliases });
   }).then(function(){
+    // Bornes de recharge Open Charge Map (scripts/fetch-charging-stations.js) : sans ce fichier, la voiture électrique
+    // retombe sur l'estimation par l'autonomie seule, signalée sur chaque étape.
+    return fs.promises.readFile(path.join(__dirname, 'data', 'charging-stations.txt'), 'utf8').then(function(raw){
+      var n = tripEngine.loadChargingStations(raw);
+      startupStatus.chargers = n;
+      console.log('[trip-engine] ' + n + ' bornes de recharge chargées.');
+    }, function(err){
+      startupStatus.chargers = 0;
+      console.warn('[trip-engine] bornes de recharge indisponibles (' + err.code + ') : estimation par autonomie seule.');
+    });
+  }).then(function(){
     startupStatus.engine = 'prêt en ' + Math.round((Date.now() - t0) / 1000) + ' s';
     console.log('[trip-engine] prêt en ' + (Date.now() - t0) + ' ms.');
   }).catch(function(err){
@@ -1206,6 +1254,7 @@ app.get('/api/status', function(req, res){
     searchReady: !!diskSearchIndex || tripEngine.isSearchReady(),
     tripsReady: tripEngine.isReady(),
     memoryMb: Math.round(process.memoryUsage().rss / 1048576),
+    chargers: startupStatus.chargers || 0,
     node: process.version
   });
 });
