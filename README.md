@@ -3688,8 +3688,8 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
   fin du PDF = fin réelle du séjour plafonné ; `selected_currency` sur les liens Booking ; montants au format de la
   langue ; nom du pays des suggestions traduit ; champs numériques nommés pour les lecteurs d'écran ; messages 429/503 à
   l'export PDF ; politique de confidentialité complétée (limitation de débit en mémoire, liste des liens tiers).
-- **Limites connues** : les durées « 2h46 » ne sont pas localisées ; un changement de langue relance les recherches de
-  photos (Wikipédia de la nouvelle langue). (Le PDF, un temps resté en français, est désormais traduit : section suivante.)
+- **Limites connues** (toutes corrigées depuis : sections suivantes) : durées « 2h46 » non localisées, photos redemandées
+  à chaque changement de langue, PDF en français.
 
 ### Durées et photos dans la langue du visiteur (17 septembre 2026)
 
@@ -3705,18 +3705,84 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
   il n'y en avait pas. Un seul redessin du journal de bord une fois la file vidée ; une langue rechangée entre-temps
   abandonne les requêtes devenues inutiles. Avant : jusqu'à ~90 requêtes simultanées et images rechargées sous les yeux.
 
-### Lieux japonais sans point postal proche (17 septembre 2026)
+### Lieux écartés à tort faute de point postal (17-18 septembre 2026)
 
-Le fichier postal GeoNames (données Japan Post) place tous les codes de certaines municipalités au même point, parfois
-loin des lieux : les 11 codes d'Okushiri (043-1400 à 043-1522) sont à 41,9076 N ; 140,2695 E, sur le continent à ~70 km
-de l'île. `build-asie-communes.js` écartant tout lieu sans point postal à moins de 15 km, aucune localité de l'île
-n'était publiée et la liaison ferry Esashi–Okushiri ne pouvait jamais servir. Désormais, faute de point proche, le code
-est pris par LOCALITÉ : mêmes codes administratifs GeoNames (préfecture, district, municipalité) et nom identique à celui
-d'une seule ligne postale. 110 lieux ajoutés, aucun lieu existant modifié : les 9 localités d'Okushiri (Okushiri, Aonae,
-Akaishi…), Izena et Iheya (Okinawa), la péninsule de Shimokita (Ōma, Sai), Erimo, la côte de Namie (Ukedo)… et 184 noms
-japonais associés (ajoutés à `aliases-jp.txt` sans régénérer le reste du fichier). Reconstruction d'un seul pays :
-`ONLY_COUNTRY=JP node scripts/build-asie-communes.js`. Mesuré : départ d'Okushiri, circuit sur l'île sans ferry ou
-voyage par la traversée ; départ d'Esashi, l'île peut être tirée.
+`build-asie-communes.js` rattache chaque lieu au point postal GeoNames le plus proche à moins de 15 km, et écarte les
+autres. Deux défauts, corrigés en deux temps :
+
+1. **Points postaux mal placés.** Le fichier postal (données Japan Post) place tous les codes de certaines municipalités
+   au même point, parfois très loin : les 13 codes d'Okushiri (043-1400 à 043-1525) sont à 41,9076 N ; 140,2695 E, sur le
+   continent à ~70 km de l'île. Aucune localité de l'île n'était publiée, et la liaison ferry Esashi–Okushiri ne pouvait
+   jamais servir. Faute de point assez proche, le code est désormais pris par LOCALITÉ (mêmes codes administratifs
+   GeoNames — préfecture, district, municipalité — et nom identique à celui d'une seule ligne postale), sinon par
+   MUNICIPALITÉ (règle qui n'existait que pour les Philippines). Les deux règles valent pour les huit pays à codes
+   postaux du lot (IN, ID, JP, KR, PH, BD, LK, SG).
+2. **Fenêtre de recherche trop étroite** (3e audit du 17/09/2026) : la grille du plus proche point (cellules de 0,1°)
+   n'était parcourue que sur ±1 cellule, ce qui ne couvre pas 15 km ; 1 760 lieux étaient déclarés « sans point à moins
+   de 15 km » alors qu'il en existait un (Sirajganj, 127 481 habitants, point à 12,0 km), et d'autres rattachés à un
+   point plus éloigné que le plus proche réel. La fenêtre est maintenant calculée depuis le rayon demandé et la latitude.
+
+Résultat : **3 069 lieux retrouvés, aucun lieu existant perdu**, 738 codes postaux corrigés — Inde 1 525 (dont Virār,
+1,2 M d'habitants, Verāval, Zahirābād), Bangladesh 940 (dont Mymensingh, 225 000), Japon 349 (Okushiri, Tsushima, Izena,
+Iheya, péninsule de Shimokita, Erimo, côte de Namie…), Indonésie 206 (Papouasie : Timika, Wamena), Philippines 31,
+Sri Lanka 18 (péninsule de Jaffna), Corée 1. Les noms alternatifs correspondants ont été ajoutés aux fichiers
+`aliases-*.txt` **sans les régénérer** : le script officiel écraserait les langues fournies par d'autres scripts (1 499
+lignes pour le seul Japon). Reconstruction d'un seul pays : `ONLY_COUNTRY=JP node scripts/build-asie-communes.js`.
+Mesuré : départ d'Okushiri, circuit sur l'île sans ferry ou voyage par la traversée ; départ d'Esashi, l'île peut être
+tirée.
+
+### Troisième passe d'audit (17-18 septembre 2026)
+
+Quatre audits en lecture seule (chaîne PDF, sécurité du serveur, interface et traductions, moteur et données), puis
+correction. Les points les plus lourds ont leur propre section ci-dessus ou ci-dessous ; le reste :
+
+- **Polices du site cassées par une règle du `.htaccess`** : le dossier des polices du PDF, ajouté à la racine sous le nom
+  `fonts/`, occupait la même adresse que `public/fonts/` (polices d'affichage du tifinagh, de l'éthiopien, du tibétain,
+  du thâna et du yi, servies par Node à `/fonts/…`). Bloquer `fonts` chez Apache les redirigeait toutes : ces écritures
+  s'affichaient en carrés. Dossier renommé `pdf-fonts/`, règle corrigée.
+- **Files d'attente par IP** (appels vers Overpass, Wikipédia, Visorando) : plafond par adresse ramené à une fraction du
+  plafond global (1 sur 2 Overpass, 3 sur 6 Wikipédia — une seule adresse pouvait les occuper entièrement) ; place rendue
+  à la FIN du traitement et non à la fermeture de la connexion (des requêtes abandonnées volontairement annulaient la
+  limite) ; attente en file plafonnée à 20 s. Mesuré : un voyage de 21 jours / 15 villes obtient ses 56 requêtes sans
+  aucun refus, en une trentaine de secondes au lieu d'une dizaine.
+- **`/api/hike`** exige désormais un pays connu et des coordonnées valides (sans pays, la route appelait Visorando pour
+  n'importe quel nom : relais ouvert, et cache pollué par des recherches sans résultat).
+- **Fichiers statiques volumineux** : 30 requêtes par minute et par IP sur `i18n.js`, `trip-data.js`, `app.js` et
+  `style.css` — un client refusant la compression pouvait tirer 11 Mo par requête sans aucun quota.
+- **Recherche de ville** soumise aussi au budget de calcul global (une recherche à froid lit l'index de façon synchrone :
+  jusqu'à ~1 s) ; réponses d'API marquées `Cache-Control: no-store`.
+- **Moteur** : un minimum de jours par ville supérieur au nombre de nuits du séjour est ramené au maximum possible (il
+  donnait silencieusement moins de nuits que demandé).
+- **Interface** : durées en heures pleines affichées « 4 h et 0 min » au lieu de « 4 h » ; libellé du rayon en heures
+  réduit jusqu'à tenir dans le champ (tamoul, swahili, ourdou : valeur illisible car coupée) ; boutons de tirage
+  visiblement désactivés pendant la roulette ; unité annoncée aux lecteurs d'écran en mode heures ; statistiques au
+  singulier selon la langue (« 1 jour · 1 ville · 0 nuitée », « 0 nights » en anglais, formes russes correctes) via
+  `Intl.PluralRules` ; plafonds de budget au format de la langue ; caches du navigateur bornés ; une erreur d'affichage
+  ne laisse plus les statistiques du voyage précédent à l'écran ; annonce vocale retraduite ; `aria-describedby` mort
+  retiré.
+- **Dépendance `fontkit`** déclarée explicitement (elle n'était disponible que par héritage de `pdfkit`).
+
+### Trois îles japonaises mal classées (18 septembre 2026)
+
+Les 3 069 lieux retrouvés ci-dessus ont mis en lumière un défaut plus ancien des règles d'îles japonaises
+(`ISLAND_RULES.JP`) : une île habitée absente des règles est rattachée à la masse terrestre voisine, et le garde-fou
+« pas de route à travers la mer » ne rattrape rien en deçà de 25 km d'eau (`WATER_CHECK_KM`). Mesuré avant correction :
+3 tirages sur 25 au départ de Nago plaçaient une étape sur **Izena** atteinte PAR LA ROUTE (22 km de mer).
+
+- **Izena** et **Iheya** ont désormais leur propre masse terrestre, reliées à Okinawa par leurs vraies liaisons :
+  ferries municipaux au départ d'Unten (Nakijin), tarifs fixés par arrêté (pas de grille saisonnière ni de surcharge
+  carburant) — Izena : adulte 1 840 JPY, voiture 4-5 m 8 480 (conducteur inclus), van 6-7 m 13 880, moto 2 250, 55 min
+  ([village d'Izena](https://vill.izena.okinawa.jp/about/access/)) ; Iheya : adulte 2 480, voiture 10 340, van 22 640,
+  moto 4 150, 80 min ([village d'Iheya](https://www.vill.iheya.okinawa.jp/soshiki/9/1144.html)). Conversion à
+  185,92 JPY pour 1 EUR (InforEuro, septembre 2026), comme les autres liaisons japonaises. **Noho-jima** est reliée à
+  Iheya par le pont Noho Ōhashi (320 m) : même masse terrestre, sans traversée.
+- **Iwaishima** (Yamaguchi) est **isolée** : la liaison Yanai ↔ Iwaishima est assurée par un navire à passagers de 43
+  tonneaux sans pont-garage — aucun tarif véhicule n'existe, les automobilistes laissent leur voiture à quai
+  ([mairie de Kaminoseki](https://www.town.kaminoseki.lg.jp/), grille officielle sans ligne « 自動車航送 »). L'île n'est
+  donc jamais proposée à un road trip, plutôt que d'inventer une traversée.
+- Les 6 lieux d'Iheya, jusque-là chacun sur sa propre « île » (règle par défaut d'Okinawa), donnaient des tirages vides ;
+  ils forment maintenant une vraie masse terrestre. Mesuré après correction : Izena et Iheya sont atteintes **par le
+  ferry**, 0 saut de masse terrestre sans traversée sur 40 tirages au départ de Nago.
 
 ### PDF traduit dans les 161 langues (17 septembre 2026)
 
@@ -3728,7 +3794,7 @@ Times) incapables d'afficher le cyrillique, le grec, l'arabe, les écritures d'A
   ne traduit rien, garde le français en repli (texte absent ou non textuel) et contrôle toujours lui-même liens (hôtes
   autorisés), montants, avertissements et nombre de lignes. Langue du document : `lang`, validée contre la liste des
   langues de l'interface. Noms propres (« CAP SUR L'INCONNU », sources) identiques partout.
-- **Polices** : Noto embarquées dans `fonts/` (≈ 26 Mo, licence SIL OFL 1.1, détail et sources dans `fonts/README.md`) —
+- **Polices** : Noto embarquées dans `pdf-fonts/` (≈ 26 Mo, licence SIL OFL 1.1, détail et sources dans `pdf-fonts/README.md`) —
   latin/grec/cyrillique (normal et gras), arabe, hébreu, thâna, devanagari, bengali, tamoul, malayalam, cingalais, thaï,
   lao, khmer, birman, géorgien, arménien, éthiopien, tibétain, yi, et CJK japonais / chinois simplifié / chinois
   traditionnel / coréen. Seuls les glyphes utilisés sont incorporés (PDF de 30 à 80 Ko).
@@ -3741,14 +3807,26 @@ Times) incapables d'afficher le cyrillique, le grec, l'arabe, les écritures d'A
   `lineBreak: false`, créait un lien de largeur NaN qui laissait le document inachevé (réponse HTTP sans fin) — liens et
   soulignements sont donc posés par `drawText`, et une réponse PDF non terminée est coupée après 15 s.
 - **Performance** : polices lues et analysées une fois au démarrage (`/api/status` → `pdfFonts`), puis partagées entre
-  documents (sans cela, arabe ~3 s et hindi ~1,8 s par export) ; un export complet coûte 0,2 à 1,3 s (hindi et khmer
-  les plus lents), compté dans le budget de calcul.
-- **Déploiement** : `npm install` (nouvelle dépendance `bidi-js`), et règle `fonts` ajoutée au bloc
-  `.htaccess-security-block.txt` (Apache sert la racine du dépôt : sans elle, les 26 Mo de polices seraient
-  téléchargeables).
+  documents (sans cela, arabe ~3 s et hindi ~1,8 s par export) ; largeurs de texte mémorisées par document (sans ce
+  cache, chaque caractère était mis en forme quatre fois). Un export réel coûte 0,1 à 1,3 s selon l'écriture (dzongkha
+  puis bengali les plus lents), compté dans le budget de calcul. Empreinte mémoire des polices : ~140 Mo résidents
+  (26 Mo de fichiers plus les tables OpenType analysées), sur un process qui atteint ~2,3 Go avec les lieux.
+- **Déploiement** : `npm install` (dépendances `bidi-js` et `fontkit` — cette dernière n'était disponible que par
+  héritage de `pdfkit`), et règle `pdf-fonts` ajoutée au bloc `.htaccess-security-block.txt` (Apache sert la racine du
+  dépôt : sans elle, les 26 Mo de polices seraient téléchargeables). **Ne pas bloquer `fonts`** : `/fonts/…` est servi
+  par Node depuis `public/fonts/` pour l'affichage du site (tifinagh, éthiopien, tibétain, thâna, yi).
 - **Limites** : pas de gras hors latin/grec/cyrillique (Noto gras non embarqué pour les autres écritures) ; noms de lieux
   dans une écriture non couverte (ex. syriaque, n'ko, gurmukhi, gujarati, oriya, telugu, kannada) affichés en carrés ;
   la qualité des traductions de `pdf.subtitle` / `pdf.generated` est faible pour les langues rares (liste de l'agent).
+- **Protections de l'export** (3e audit du 17/09/2026) : corps limité à 32 ko (un corps de 109 ko en hindi, sous
+  l'ancienne limite de 128 ko, demandait 20 s de mise en page — process bloqué pour tous pendant ce temps) ; budget de
+  mise en page de 3,5 s (`PDF_BUILD_BUDGET_MS`) au-delà duquel le document s'arrête avec la mention « document tronqué »
+  (clé `pdf.truncated`) ; plafond de puces par étape renommé `PDF_MAX_BULLETS_PER_LEG` (il ne bornait que leur nombre,
+  jamais leur longueur) ; pagination des paragraphes longs (des lignes s'écrivaient sous le bas de page et étaient
+  perdues) ; mot plus large que la colonne coupé par graphèmes même en milieu de ligne ; caractères miroirs remplacés
+  dans tous les segments de droite à gauche (« (20000) » sortait « (20000( » en divehi) ; police tifinagh ajoutée
+  (l'amazighe `zgh` sortait entièrement en carrés) ; lien Airbnb restreint à l'hôte exact produit par le moteur
+  (`airbnb.zip`, `airbnb.top`… étaient acceptés).
 
 ### Pas de route à travers la mer (septembre 2026)
 

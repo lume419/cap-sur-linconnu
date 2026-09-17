@@ -370,7 +370,7 @@
 0;123.6333,10.3833;6038;Central Visayas;Viga Kapinyahan
 0;122.9872,13.8327;4408;Bicol Region;Bigaan
 0;121.7377,17.3998;3328;Cagayan Valley;Biga
-0;121.3574,17.3355;3808;Cordillera;Viga
+0;121.3574,17.3355;3805;Cordillera;Viga
 0;121.7892,16.8209;3308;Cagayan Valley;Viga
 0;120.3667,15.9167;2420;Ilocos;Vigá
 0;119.9147,15.9086;2412;Ilocos;Viga
@@ -768,7 +768,7 @@
 0;125.0167,8.9167;9013;Northern Mindanao;Tup-on
 0;122.4833,10.8833;5031;Western Visayas;Tupol
 0;121.0799,16.7666;3604;Cordillera;Tuplac
-0;120.9500,16.6000;3701;Cagayan Valley;Tuplac
+0;120.9500,16.6000;2606;Cagayan Valley;Tuplac
 78599;124.9528,6.3344;9505;Soccsksargen;Tupi
 0;123.1080,11.5130;5018;Western Visayas;Tupas
 0;121.6652,16.5192;3403;Cagayan Valley;Tupax
@@ -1313,7 +1313,7 @@
 0;122.8620,9.9637;6111;Western Visayas;Tomumbo
 0;123.8333,10.7333;6043;Central Visayas;Tomugpa
 0;120.8932,5.6977;7411;Autonomous Region in Muslim Mindanao;Tumpong
-0;124.8500,10.2500;6605;Eastern Visayas;Tomoy-tomoy
+0;124.8500,10.2500;6600;Eastern Visayas;Tomoy-tomoy
 0;123.4103,9.9290;6032;Central Visayas;Tomonoy
 0;123.5316,13.2346;4504;Bicol Region;Tomolin
 0;124.2901,9.9849;6325;Central Visayas;Tomoc
@@ -1398,7 +1398,7 @@
 0;121.2667,17.1000;2624;Cordillera;Tochey
 0;124.0167,9.6000;6303;Central Visayas;Tocdog Ilaya
 0;124.0474,9.5937;6303;Central Visayas;Tocdog Dacu
-0;122.4335,11.2349;5814;Western Visayas;Tocayan
+0;122.4335,11.2349;5041;Western Visayas;Tocayan
 0;125.3000,6.1333;9501;Davao Region;Tocawal
 0;121.0571,16.2819;3704;Cagayan Valley;Tucanon
 0;123.7667,13.7000;4429;Bicol Region;Tocangalao
@@ -3637,7 +3637,7 @@
 0;125.4317,9.5100;8401;Caraga;Suhoton
 0;124.6975,11.2678;6529;Eastern Visayas;Suhi
 0;122.1059,13.3949;4903;Mimaropa;Suha
-0;118.6167,9.5500;5300;Mimaropa;Sugut
+0;118.6167,9.5500;5302;Mimaropa;Sugut
 0;120.3991,16.4944;2511;Ilocos;Suguida Sur
 0;123.5833,12.9000;4715;Bicol Region;Suguian
 0;124.6833,11.2667;6529;Eastern Visayas;Sugud
@@ -3659,7 +3659,7 @@
 0;124.1681,7.8770;9317;Autonomous Region in Muslim Mindanao;Sugud
 0;122.3000,11.6500;5606;Western Visayas;Sugnod
 0;123.1307,13.6018;4412;Bicol Region;Sungay
-0;124.0436,6.4225;9809;Soccsksargen;Sugco
+0;124.0436,6.4225;9808;Soccsksargen;Sugco
 0;120.3833,16.5167;2511;Ilocos;Sugidan Norte
 0;120.5568,16.1487;2435;Ilocos;Sugcong
 0;120.5318,15.9435;2428;Ilocos;Sugcong
@@ -3788,6 +3788,7 @@
 0;120.2974,15.7763;2413;Ilocos;Sonson Ongkit
 0;125.2357,9.9642;6614;Eastern Visayas;Son-ok Uno
 0;125.1816,10.3683;6608;Eastern Visayas;Sonoc
+0;123.1558,8.3281;7113;Zamboanga Peninsula;Sonob
 0;124.3990,11.2840;6536;Eastern Visayas;Sonlagon
 0;125.3514,6.8383;8001;Davao Region;Soning
 0;121.9500,20.3667;3903;Cagayan Valley;Songsong
@@ -3968,7 +3969,7 @@
 0;120.9367,13.9090;4207;Calabarzon;Sinturisan
 0;122.4776,13.8175;4319;Calabarzon;Sintanes
 0;121.5261,16.6944;3312;Cagayan Valley;Sinsayon
-0;124.9433,12.4217;6420;Eastern Visayas;Sinonogan
+0;124.9433,12.4217;6418;Eastern Visayas;Sinonogan
 0;122.0056,6.9360;7000;Zamboanga Peninsula;Sinunug
 2648;123.8461,8.3096;7203;Northern Mindanao;Sinonoc
 0;125.4008,11.4500;6802;Eastern Visayas;Sinongtan
@@ -3985,6 +3986,7 @@
 0;120.8605,15.2214;3107;Central Luzon;Sinipit
 0;121.4177,14.1128;4003;Calabarzon;Sinipin
 0;120.9699,13.8759;4206;Calabarzon;Sinipian
+0;124.0258,6.7953;9603;Autonomous Region in Muslim Mindanao;Sinipak
 0;121.4463,14.4216;4019;Calabarzon;Siniloan
 0;120.4525,15.7123;2424;Central Luzon;Sinilian Third
 0;120.4537,15.7076;2424;Central Luzon;Sinilian Second
@@ -4007,7 +4009,7 @@
 0;122.9167,11.2333;5043;Western Visayas;Singcua
 0;122.3000,11.4833;5602;Western Visayas;Singcay
 0;121.7601,17.9003;3506;Cagayan Valley;Singayan
-0;121.0501,12.2408;5101;Mimaropa;Singay
+0;121.0501,12.2408;5100;Mimaropa;Singay
 0;122.3100,6.6397;7306;Autonomous Region in Muslim Mindanao;Singay
 0;120.6270,15.6156;2312;Central Luzon;Singat
 0;123.5049,8.4732;7107;Zamboanga Peninsula;Singaran
@@ -4105,7 +4107,7 @@
 0;120.1299,14.9900;2207;Central Luzon;Simminoblan
 0;119.8500,16.1500;2408;Ilocos;Simminoblan
 0;120.3833,17.6167;2728;Ilocos;Simmanglay
-0;119.8223,16.2839;2406;Ilocos;Siminoblan
+0;119.8223,16.2839;2405;Ilocos;Siminoblan
 2854;121.5814,17.1186;3320;Cagayan Valley;Simimbaan
 0;120.6190,18.4327;2918;Ilocos;Similla
 0;123.1447,9.9883;6216;Central Visayas;Similawa
@@ -4170,7 +4172,7 @@
 0;121.6820,16.7132;3309;Cagayan Valley;Silawan
 0;120.1342,14.7628;2206;Central Luzon;Silanguin
 0;120.8915,5.9788;7408;Autonomous Region in Muslim Mindanao;Silangkan Market
-0;123.6644,8.0942;9210;Northern Mindanao;Silangit
+0;123.6644,8.0942;7025;Northern Mindanao;Silangit
 0;121.5666,14.2670;4013;Calabarzon;Silañgan Talaoñgan
 0;121.6500,14.0500;4327;Calabarzon;Silangan Palale
 0;121.4223,14.1040;4003;Calabarzon;Silangan Napapatid
@@ -4375,6 +4377,7 @@
 0;124.6642,6.8856;9810;Soccsksargen;Seneben
 0;124.2167,7.2667;9605;Autonomous Region in Muslim Mindanao;Sendikan
 3423;122.2189,6.6636;7306;Autonomous Region in Muslim Mindanao;Semut
+0;124.1369,7.1683;9605;Autonomous Region in Muslim Mindanao;Sempang Dinaig
 0;125.0305,12.4802;6418;Eastern Visayas;Simora
 5470;121.3986,12.0697;5711;Western Visayas;Semirara
 0;120.5406,15.6036;2303;Central Luzon;Sembrano
@@ -4498,7 +4501,7 @@
 0;120.6500,16.2500;2604;Cordillera;Sapit
 0;125.4914,5.4556;8015;Davao Region;Sapismal
 0;124.1303,9.9211;6329;Central Visayas;Sapinitan
-0;120.7789,16.1692;2447;Ilocos;Sapinit
+0;120.7789,16.1692;2446;Ilocos;Sapinit
 0;124.8375,11.9767;6707;Eastern Visayas;Sapinit
 0;125.1667,8.8167;9014;Northern Mindanao;Sapinit
 0;124.2333,8.0167;9710;Autonomous Region in Muslim Mindanao;Sapingit
@@ -5484,7 +5487,7 @@
 0;120.4218,17.2723;2707;Ilocos;San Rogue
 0;121.9833,17.1667;3329;Cagayan Valley;San Roque
 0;121.7570,17.0429;3303;Cagayan Valley;San Roque
-0;119.8321,16.2734;2406;Ilocos;San Roque
+0;119.8321,16.2734;2405;Ilocos;San Roque
 0;120.6842,16.1039;2438;Ilocos;San Roque
 0;120.7576,16.0529;2445;Ilocos;San Roque
 0;120.4333,16.0500;2431;Ilocos;San Roque
@@ -6222,7 +6225,7 @@
 0;123.4273,10.4524;6127;Western Visayas;San Juan
 0;119.7807,10.4576;5310;Mimaropa;San Juan
 2894;122.8651,10.3865;6105;Western Visayas;San Juan
-0;124.8500,10.3667;6604;Eastern Visayas;San Juan
+0;124.8500,10.3667;6524;Eastern Visayas;San Juan
 0;123.6202,10.3634;6038;Central Visayas;San Juan
 0;125.1756,10.2669;6616;Eastern Visayas;San Juan
 0;124.8328,10.2711;6524;Eastern Visayas;San Juan
@@ -6591,7 +6594,7 @@
 0;123.4703,10.5511;6126;Western Visayas;San Isidro
 0;124.9928,10.4143;6606;Eastern Visayas;San Isidro
 0;124.8333,10.4000;6524;Eastern Visayas;San Isidro
-0;124.8500,10.3167;6604;Eastern Visayas;San Isidro
+0;124.8500,10.3167;6524;Eastern Visayas;San Isidro
 0;122.9004,10.3230;6105;Western Visayas;San Isidro
 0;125.1833,10.2667;6616;Eastern Visayas;San Isidro
 0;123.8333,10.2667;6045;Central Visayas;San Isidro
@@ -6625,7 +6628,7 @@
 0;125.7025,7.1675;8118;Davao Region;San Isidro
 0;125.7682,6.9580;8121;Davao Region;San Isidro
 9714;126.0846,6.8252;8207;Davao Region;Batobato
-0;124.9686,6.4559;9506;Soccsksargen;San Isidro
+0;124.9686,6.4559;9505;Soccsksargen;San Isidro
 0;124.6839,6.4554;9511;Soccsksargen;San Isidro
 0;125.0250,11.5042;6717;Eastern Visayas;San Isidro
 0;125.4428,9.8237;8400;Caraga;Sani-Sani
@@ -7481,6 +7484,7 @@
 0;122.6167,10.7000;5044;Western Visayas;Salag
 0;125.6958,6.2144;8013;Davao Region;Saladoc
 0;120.6927,18.3920;2917;Ilocos;Salad
+0;120.8500,16.1667;2446;Cagayan Valley;Salacsac
 0;122.4833,10.8833;5031;Western Visayas;Salacay
 0;122.4295,13.9220;4319;Calabarzon;Salakan
 0;121.2667,15.6500;3129;Central Luzon;Salabusob
@@ -8526,6 +8530,7 @@
 2403;124.5533,10.1214;6315;Central Visayas;Pitogo
 0;120.7410,17.5902;2802;Cordillera;Presentar
 0;120.5000,17.5333;2808;Cordillera;Presentar
+4491;123.7450,13.7088;4429;Bicol Region;Parabcan
 0;120.9853,14.7834;3022;Central Luzon;Prenza Primera
 3731;120.6541,13.9968;4216;Calabarzon;Prinza
 0;120.0082,15.3446;2201;Central Luzon;Prensa
@@ -8869,7 +8874,7 @@
 0;120.7213,16.3557;2604;Cordillera;Pitican
 0;122.2439,7.9700;7118;Zamboanga Peninsula;Pitawi
 0;121.0838,16.8735;3607;Cordillera;Pitwan
-0;122.4700,7.5327;7018;Zamboanga Peninsula;Pitas
+0;122.4700,7.5327;7002;Zamboanga Peninsula;Pitas
 0;124.0302,6.5122;9808;Soccsksargen;Pitas
 0;120.3701,15.7325;2305;Central Luzon;Pit-ao
 0;123.7240,10.1801;6018;Central Visayas;Pitalo
@@ -8895,6 +8900,7 @@
 0;123.3848,7.5595;7032;Zamboanga Peninsula;Pisan
 0;124.8617,7.1678;9408;Soccsksargen;Pisan
 0;121.1608,5.8436;7405;Autonomous Region in Muslim Mindanao;Pisak Pisak
+0;120.8500,16.2333;3708;Cagayan Valley;Pisac
 0;125.9578,8.5264;8501;Caraga;Pisaan
 0;123.6193,8.0432;7025;Northern Mindanao;Pisaan
 0;120.9276,13.6302;4203;Calabarzon;Pisa
@@ -8905,7 +8911,7 @@
 0;120.5796,18.2787;2916;Ilocos;Pipias
 0;122.8732,13.7169;4408;Bicol Region;Pipian
 0;121.0667,15.5500;3132;Central Luzon;Pipas
-3191;124.0501,11.8838;5405;Bicol Region;Limbuhan
+3191;124.0501,11.8838;5408;Bicol Region;Limbuhan
 0;125.1167,12.5333;6421;Eastern Visayas;Pio del Pilar
 0;125.2693,12.3227;6423;Eastern Visayas;Pio del Pilar
 24345;120.5189,15.0474;2008;Central Luzon;Pio
@@ -9012,7 +9018,7 @@
 0;123.4462,8.4815;7107;Zamboanga Peninsula;Piñan
 0;122.9747,10.3991;6132;Western Visayas;Hacienda Pinamuma
 23068;123.5839,10.2708;6039;Central Visayas;Pinamungahan
-0;125.0650,7.4558;8720;Northern Mindanao;Pinamula
+0;125.0650,7.4558;8721;Northern Mindanao;Pinamula
 0;123.7754,12.4448;5416;Bicol Region;Pinamughaan
 0;125.2076,9.9973;6614;Eastern Visayas;Pinamughaan
 0;121.0547,13.6995;4200;Calabarzon;Pinamucan
@@ -9148,6 +9154,7 @@
 0;124.1550,9.8181;6319;Central Visayas;Pilicango
 0;121.1242,18.0369;3809;Cordillera;Pili
 0;121.5359,13.9476;4322;Calabarzon;Pili
+0;123.7448,13.7177;4429;Bicol Region;Pili
 0;123.2776,13.5501;4430;Bicol Region;Pili
 0;121.8277,13.4599;4900;Mimaropa;Pili
 0;123.8196,13.2667;4509;Bicol Region;Pili
@@ -10715,7 +10722,7 @@
 0;120.1833,15.2667;2222;Central Luzon;Paitan
 0;120.8543,12.9284;5107;Mimaropa;Paitan
 0;123.4541,10.8103;6124;Western Visayas;Paitan
-0;124.5400,6.7472;9805;Autonomous Region in Muslim Mindanao;Paitan
+0;124.5400,6.7472;9616;Autonomous Region in Muslim Mindanao;Paitan
 3294;124.8718,6.6601;9801;Autonomous Region in Muslim Mindanao;Paitan
 0;125.2458,6.6356;8003;Davao Region;Paitan
 0;120.6393,18.2216;2915;Ilocos;Pait
@@ -10779,7 +10786,7 @@
 2089;120.4458,17.9193;2904;Ilocos;Pagsanahan Norte
 0;120.4193,17.7033;2730;Ilocos;Pagsanaan
 0;124.2716,13.7242;4803;Bicol Region;Pagsagñahan
-0;123.7492,13.7629;4428;Bicol Region;Pagsagnaan
+0;123.7492,13.7629;4429;Bicol Region;Pagsagnaan
 0;123.9500,10.3333;6015;Central Visayas;Pagsabungan
 0;122.1403,13.8478;4310;Calabarzon;Pagsabangan
 0;126.1787,7.6227;8110;Davao Region;Pagsabangan
@@ -11411,7 +11418,7 @@
 0;125.0667,11.5667;6715;Eastern Visayas;Nonoc
 0;125.5808,9.8219;8400;Caraga;Nonoc
 0;123.5711,9.2286;6226;Central Visayas;Nonoc
-0;124.8564,7.7425;8712;Northern Mindanao;Nongnongan
+0;124.8564,7.7425;8718;Northern Mindanao;Nongnongan
 0;124.0000,7.9167;9211;Northern Mindanao;Noncog
 0;121.0000,16.8333;3609;Cordillera;Nompalling
 0;124.7764,10.5709;6522;Eastern Visayas;Nomono
@@ -11457,6 +11464,7 @@
 0;120.3000,15.8000;2413;Ilocos;Niog
 3443;120.2478,15.8596;2415;Ilocos;Ninoy
 0;123.0810,11.1794;5013;Western Visayas;Nino
+0;124.0322,7.0206;9602;Autonomous Region in Muslim Mindanao;Nimaan
 7605;120.4369,16.0306;2429;Ilocos;Nilombot
 0;120.4204,16.0070;2419;Ilocos;Nilombot
 0;123.5181,10.8664;6122;Western Visayas;Nilocon
@@ -11785,7 +11793,7 @@
 0;124.3904,9.6547;6308;Central Visayas;Nausok
 0;123.5667,13.1167;4515;Bicol Region;Naologan
 0;122.1022,11.6474;5709;Western Visayas;Naojon
-0;123.1543,10.3072;6132;Western Visayas;Naobi
+0;123.1543,10.3072;6131;Western Visayas;Naobi
 0;125.5583,11.3911;6805;Eastern Visayas;Naobay
 0;120.7690,16.5530;2602;Cordillera;Nawal
 3236;125.6366,7.3418;8105;Davao Region;Nanyo
@@ -11870,7 +11878,7 @@
 0;121.2000,13.8500;4225;Calabarzon;Namuñga
 0;122.9790,10.1780;6128;Western Visayas;Namulo
 0;121.0876,16.8498;3607;Cordillera;Namulditan
-0;119.8193,16.2677;2406;Ilocos;Namulangan
+0;119.8193,16.2677;2405;Ilocos;Namulangan
 0;120.9078,15.8862;3122;Central Luzon;Namulandayan
 0;124.2167,7.4333;9604;Autonomous Region in Muslim Mindanao;Namuken
 0;121.2047,13.8341;4225;Calabarzon;Namuco
@@ -12600,7 +12608,7 @@
 7771;123.1049,10.5137;6129;Western Visayas;Minuyan
 0;123.7500,12.2333;5402;Bicol Region;Minusuan
 0;123.3356,7.5267;7032;Zamboanga Peninsula;Minus
-2546;121.8553,16.5323;3313;Cagayan Valley;Minuri
+2546;121.8553,16.5323;3314;Cagayan Valley;Minuri
 0;122.9953,10.7284;6115;Western Visayas;Hacienda Minuluan
 0;124.7886,11.1047;6527;Eastern Visayas;Minulho
 0;120.0229,12.2366;5317;Mimaropa;Minuit
@@ -12748,7 +12756,7 @@
 0;123.8500,12.2000;5403;Bicol Region;Miabas
 0;120.7310,14.8825;2017;Central Luzon;Meyto
 0;120.7330,14.9091;2018;Central Luzon;Meysulao
-0;121.0833,13.2333;5204;Mimaropa;Mey Dao
+0;121.0833,13.2333;5201;Mimaropa;Mey Dao
 228023;120.9608,14.7369;3020;Central Luzon;Meycauayan
 0;123.4667,13.9000;4425;Bicol Region;Mey Cacao
 43694;120.7198,15.0646;2021;Central Luzon;Mexico
@@ -12855,6 +12863,7 @@
 0;122.0743,14.8454;4340;Calabarzon;Mayipil
 0;125.3221,12.3003;6423;Eastern Visayas;Mayigot
 0;121.2103,14.5614;1880;Calabarzon;May-iba
+0;123.6500,13.7333;4425;Bicol Region;May-Iba
 0;123.7551,11.9251;5409;Bicol Region;Mahayahay
 0;123.3264,12.7394;5419;Bicol Region;Mayhabangbaybay
 0;121.9930,12.3794;5505;Mimaropa;Mayha
@@ -13283,6 +13292,7 @@
 0;122.0719,14.0697;4333;Calabarzon;Mascariña
 47490;123.6249,12.3717;5400;Bicol Region;Masbate
 0;124.0161,11.7803;5407;Bicol Region;Masbaranon
+0;121.9745,10.5549;5717;Western Visayas;Masayo
 0;125.2000,10.4000;6608;Eastern Visayas;Masaymon
 5523;121.7474,16.5002;3314;Cagayan Valley;Masaya Sur
 0;121.7484,16.5143;3314;Cagayan Valley;Masaya Norte
@@ -13332,7 +13342,7 @@
 0;124.2333,7.9833;9711;Autonomous Region in Muslim Mindanao;Masabayabac
 2456;123.9667,10.5333;6047;Central Visayas;Masaba
 0;123.4955,10.0020;6035;Central Visayas;Masa
-0;118.8611,9.9814;5300;Mimaropa;Maruyogon
+0;118.8611,9.9814;5306;Mimaropa;Maruyogon
 3837;123.1663,13.6269;4401;Bicol Region;Marupit
 0;123.2258,8.3944;7109;Zamboanga Peninsula;Marupay
 0;124.3907,11.1698;6537;Eastern Visayas;Marunot
@@ -13723,7 +13733,7 @@
 0;123.4842,12.2349;5410;Bicol Region;Manolib
 0;124.4756,11.4469;6549;Eastern Visayas;Manok
 0;122.8667,14.1000;4609;Bicol Region;Man-Ogob
-0;118.8502,9.9745;5300;Mimaropa;Manogan
+0;118.8502,9.9745;5306;Mimaropa;Manogan
 5991;121.9428,11.9416;5608;Western Visayas;Manoc-Manoc
 0;121.4814,17.4013;3800;Cordillera;Mamoc
 0;123.4724,12.4913;5413;Bicol Region;Manoboc
@@ -13949,7 +13959,7 @@
 0;124.7323,6.2008;9518;Soccsksargen;Manese
 0;123.4033,9.8913;6031;Central Visayas;Manduyong
 0;122.5356,10.7197;5000;Western Visayas;Mandurriao
-0;124.3500,8.2500;9025;Northern Mindanao;Mandulog
+0;124.3500,8.2500;9209;Northern Mindanao;Mandulog
 0;123.3551,7.5915;7030;Zamboanga Peninsula;Mandug
 0;125.5794,7.1683;8020;Davao Region;Mandog
 0;123.0833,11.2667;5015;Western Visayas;Mandu-awac
@@ -14130,6 +14140,7 @@
 0;123.8556,8.1583;7200;Northern Mindanao;Manabay
 0;123.2331,13.5597;4414;Bicol Region;Manapao
 0;123.8528,12.9228;4713;Bicol Region;Manaba
+0;124.0582,11.8679;5407;Bicol Region;Manaay
 0;121.2333,16.2333;3703;Cagayan Valley;Manaat
 0;121.6714,16.3103;3404;Cagayan Valley;Mana-adad
 0;120.6667,16.2500;2604;Cordillera;Manaa
@@ -14924,7 +14935,7 @@
 2304;117.8183,8.8436;5305;Mimaropa;Mainit
 0;126.3611,7.8386;8206;Davao Region;Mainit
 0;122.4843,10.9913;5034;Western Visayas;Mainguit
-0;120.9744,16.6505;3609;Cordillera;Maingit
+0;120.9744,16.6505;2606;Cordillera;Maingit
 0;122.7364,11.3279;5814;Western Visayas;Maindang
 3202;124.8473,6.5898;9510;Soccsksargen;Maindang
 0;120.9553,13.7609;4202;Calabarzon;Mainaga
@@ -15320,7 +15331,7 @@
 0;120.5500,17.1500;2719;Ilocos;Madarang
 0;123.6725,12.5850;5418;Bicol Region;Madarag
 0;123.0535,11.2514;5014;Western Visayas;Madarag
-0;122.7683,11.1458;5011;Western Visayas;Madarag
+0;122.7683,11.1458;5037;Western Visayas;Madarag
 0;122.5505,11.0399;5038;Western Visayas;Madarag
 0;118.8167,10.1167;5300;Mimaropa;Madaon
 0;121.2854,13.2656;5204;Mimaropa;Madao
@@ -15477,7 +15488,7 @@
 0;121.0994,14.3008;4025;Calabarzon;Macabling
 0;119.8262,16.2032;2408;Ilocos;Macabit Sur
 0;120.3889,15.9629;2419;Ilocos;Macabito
-0;119.8399,16.2523;2407;Ilocos;Macabit Norte
+0;119.8399,16.2523;2405;Ilocos;Macabit Norte
 0;124.2992,7.2900;9605;Autonomous Region in Muslim Mindanao;Macabiso
 0;120.7155,14.9089;2018;Central Luzon;Macabebe
 0;121.2476,18.5597;3518;Cagayan Valley;Macabbungao
@@ -15494,7 +15505,7 @@
 0;121.9800,10.4402;5717;Western Visayas;Mabuyong
 0;121.9442,10.7822;5701;Western Visayas;Mabuyon
 2342;121.5147,18.3762;3516;Cagayan Valley;Mabuttal East
-0;122.4414,11.1894;5040;Western Visayas;Mabusog
+0;122.4414,11.1894;5041;Western Visayas;Mabusog
 0;122.1518,11.7512;5712;Western Visayas;Mabosao
 2249;120.4976,17.9261;2904;Ilocos;Mabusag
 0;124.6969,7.6017;9416;Soccsksargen;Maburereng
@@ -15587,7 +15598,7 @@
 0;122.9925,10.3871;6132;Western Visayas;Mabini
 0;124.8444,10.3499;6524;Eastern Visayas;Mabini
 0;125.5925,10.3289;8426;Caraga;Mabini
-0;124.0700,10.2864;6002;Central Visayas;Mabini
+0;124.0700,10.2864;6015;Central Visayas;Mabini
 0;123.9061,10.4469;6047;Central Visayas;Mabini
 5999;124.5215,9.8649;6313;Central Visayas;Mabini
 0;125.5058,9.7233;8400;Caraga;Mabini
@@ -15820,7 +15831,7 @@
 0;124.2021,10.0623;6334;Central Visayas;Lusong
 0;121.1464,15.6083;3128;Central Luzon;Lusok
 0;125.0461,6.1597;9500;Soccsksargen;Lusok
-0;120.9540,16.6032;3701;Cordillera;Lusod
+0;120.9540,16.6032;2606;Cordillera;Lusod
 0;120.7694,16.3541;2604;Cordillera;Lusod
 0;120.8567,16.2990;3708;Cagayan Valley;Lusod
 0;125.6334,11.1998;6807;Eastern Visayas;Lusod
@@ -16942,7 +16953,7 @@
 0;121.0699,13.7463;4200;Calabarzon;Libho
 2323;125.0025,10.8742;6507;Eastern Visayas;Liberty
 2662;124.6319,6.5199;9805;Soccsksargen;Liberty
-2172;124.9822,6.4552;9507;Soccsksargen;Liberty
+2172;124.9822,6.4552;9505;Soccsksargen;Liberty
 0;119.9237,15.6269;2212;Central Luzon;Libertador
 0;121.6365,16.6600;3309;Cagayan Valley;Libertad
 0;120.7488,16.0221;2445;Ilocos;Libertad
@@ -17221,7 +17232,7 @@
 0;121.1400,16.4997;3700;Cagayan Valley;La Torre
 0;120.9211,15.5668;3114;Central Luzon;La Torre
 0;125.3133,6.5978;8008;Davao Region;Lati-an
-0;125.5464,6.2044;8012;Davao Region;Latian
+0;125.5464,6.2044;8013;Davao Region;Latian
 0;121.0336,6.0339;7400;Autonomous Region in Muslim Mindanao;Lati
 0;121.1000,17.5833;2820;Cordillera;Latey
 0;120.9825,16.4540;3701;Cagayan Valley;Latbang
@@ -17626,7 +17637,7 @@
 0;124.9072,12.3722;6414;Eastern Visayas;Lamicaan
 0;126.4921,7.4248;8203;Davao Region;Lamiawan
 0;124.6886,7.1733;9408;Soccsksargen;Lamiaon
-3936;124.8464,6.3092;9513;Soccsksargen;Lamian
+3936;124.8464,6.3092;9505;Soccsksargen;Lamian
 0;121.9441,13.4868;4901;Mimaropa;Lamesa
 0;121.0833,14.9667;3009;Central Luzon;La Mesa
 0;121.9644,13.5250;4902;Mimaropa;Lamesa
@@ -17680,7 +17691,7 @@
 0;123.3000,10.0500;6213;Central Visayas;Lamak
 0;124.2603,9.8364;6320;Central Visayas;Lamak
 0;120.7322,17.6729;2801;Cordillera;Lam-ag
-0;120.7278,17.1461;2721;Ilocos;Lamag
+0;120.7278,17.1461;2618;Ilocos;Lamag
 0;125.3663,12.0440;6806;Eastern Visayas;Lamacoy
 0;123.6008,10.0260;6019;Central Visayas;Lamacan
 0;123.9833,11.0333;6010;Central Visayas;Lamac
@@ -17789,6 +17800,7 @@
 0;125.2589,10.3467;6609;Eastern Visayas;Laguiwliw
 2181;125.1306,8.0892;8700;Northern Mindanao;Laguitas
 0;124.2167,7.1500;9612;Autonomous Region in Muslim Mindanao;Laguitan
+0;124.0369,6.7761;9603;Autonomous Region in Muslim Mindanao;Laguitan
 0;119.7754,16.0695;2408;Ilocos;Laguit
 4533;120.1904,15.9472;2416;Ilocos;Laguit Centro
 0;124.2833,7.2167;9605;Soccsksargen;Laguisi
@@ -18509,7 +18521,7 @@
 0;126.0167,7.7667;8805;Davao Region;Kapuitian
 0;120.9484,17.6277;2821;Cordillera;Kapualan
 0;121.3964,6.0453;7417;Autonomous Region in Muslim Mindanao;Kapual
-0;124.8500,10.4167;6604;Eastern Visayas;Kapodlusan
+0;124.8500,10.4167;6524;Eastern Visayas;Kapodlusan
 0;120.7667,14.8500;3001;Central Luzon;Kapitangan
 0;124.8333,11.2833;6517;Eastern Visayas;Kapirawan
 0;124.6500,12.2667;6403;Eastern Visayas;Kapipian
@@ -18644,7 +18656,7 @@
 0;123.4392,9.6203;6024;Central Visayas;Kaneki
 0;123.9167,10.3167;6014;Central Visayas;Kanduman
 0;120.9421,5.9104;7408;Autonomous Region in Muslim Mindanao;Kandulan
-0;124.8500,10.3333;6604;Eastern Visayas;Kandoong
+0;124.8500,10.3333;6524;Eastern Visayas;Kandoong
 0;123.5978,10.1971;6040;Central Visayas;Kandingan
 0;123.5624,10.0840;6036;Central Visayas;Kandiis
 0;122.2678,6.5947;7306;Autonomous Region in Muslim Mindanao;Kandiis
@@ -18685,7 +18697,7 @@
 0;123.3314,9.5994;6028;Central Visayas;Kampisong
 0;122.9631,8.2731;7112;Zamboanga Peninsula;Kampis
 0;123.4393,9.6298;6024;Central Visayas;Kampayang
-0;126.3411,7.7558;8206;Davao Region;Kamo
+0;126.3411,7.7558;8205;Davao Region;Kamo
 0;124.8333,10.2333;6600;Eastern Visayas;Kamlook
 0;122.7167,10.9833;5035;Western Visayas;Kamiros
 0;124.3381,8.4958;9022;Northern Mindanao;Kamelon
@@ -18930,6 +18942,7 @@
 0;124.9500,8.5167;8704;Northern Mindanao;Kabul
 0;120.9325,6.1491;7400;Autonomous Region in Muslim Mindanao;Cabucan
 0;122.3819,13.9943;4318;Calabarzon;Kabugwang
+0;121.0660,18.1454;3814;Cordillera;Kabugaoan
 2337;121.1817,18.0170;3809;Cordillera;Kabugao
 0;126.2139,6.5198;8200;Davao Region;Dawan
 0;120.4771,16.1724;2434;Ilocos;Kabuanan
@@ -19091,7 +19104,7 @@
 0;121.4059,13.0578;5207;Mimaropa;Jolo
 101002;121.0022,6.0522;7400;Autonomous Region in Muslim Mindanao;Jolo
 0;122.3199,10.7873;5027;Western Visayas;Jolason
-0;125.7333,8.1667;8508;Caraga;Johnson
+0;125.7333,8.1667;8507;Caraga;Johnson
 0;125.8429,8.0916;8507;Caraga;Johnson
 0;122.9326,9.1114;6219;Central Visayas;Judio
 0;125.2833,12.2000;6820;Eastern Visayas;Jitalinga
@@ -19099,7 +19112,7 @@
 0;123.7000,12.2833;5401;Bicol Region;Jintuculan
 0;123.1322,11.8609;5412;Bicol Region;Jintotolo
 0;122.8144,13.8460;4410;Bicol Region;Jinosan
-0;125.3113,12.0444;6817;Eastern Visayas;Hinolasco
+0;125.3113,12.0444;6820;Eastern Visayas;Hinolasco
 0;122.0724,11.7404;5712;Western Visayas;Jinalinan
 0;122.0516,11.2193;5706;Western Visayas;Jinalinan
 0;122.0482,11.0563;5704;Western Visayas;Jinalinan
@@ -19490,7 +19503,7 @@
 0;123.7383,12.9774;4714;Bicol Region;Inang
 0;120.4333,17.4833;2703;Ilocos;Inandiket
 0;119.2781,10.5351;5309;Mimaropa;Inandeng
-0;124.9333,12.4167;6420;Eastern Visayas;Inanahauan
+0;124.9333,12.4167;6418;Eastern Visayas;Inanahauan
 0;120.5284,16.0088;2437;Ilocos;Inamotan
 0;125.0120,12.6096;6411;Eastern Visayas;Inamian
 0;122.5667,14.2000;4604;Bicol Region;Inamiag
@@ -19909,7 +19922,7 @@
 0;126.5156,7.1461;8202;Davao Region;Santa Cruz
 0;123.4905,9.7699;6022;Central Visayas;Jolomaynon
 0;121.2399,16.8949;3602;Cordillera;Hogngal
-0;121.3167,16.8500;3606;Cordillera;Hogad
+0;121.3167,16.8500;3712;Cordillera;Hogad
 0;124.1393,13.8925;4808;Bicol Region;Hobong
 3373;123.1792,13.5101;4409;Bicol Region;Hobo
 0;124.1833,10.0667;6334;Central Visayas;Hobangan
@@ -20891,6 +20904,7 @@
 0;123.8504,8.1942;7201;Northern Mindanao;Gata
 0;124.3881,7.9611;9708;Autonomous Region in Muslim Mindanao;Gata
 0;124.7642,7.4678;9416;Soccsksargen;Gata
+0;124.5367,6.7483;9616;Soccsksargen;Gaso
 0;124.7000,5.9667;9514;Soccsksargen;Gasi
 0;124.6630,12.2734;6403;Eastern Visayas;Gasdo
 0;124.5833,12.0667;6710;Eastern Visayas;Gasdo
@@ -21072,6 +21086,7 @@
 0;124.4019,7.0394;9600;Autonomous Region in Muslim Mindanao;Gadungan
 0;124.4000,6.9667;9600;Autonomous Region in Muslim Mindanao;Gaduñgan
 0;124.6167,6.9167;9616;Autonomous Region in Muslim Mindanao;Gadungan
+2456;124.0200,6.8025;9603;Autonomous Region in Muslim Mindanao;Gadung
 0;123.3970,7.3685;7034;Zamboanga Peninsula;Gadugan
 2902;121.6105,17.6292;3503;Cagayan Valley;Gadu
 0;124.3444,7.8508;9704;Autonomous Region in Muslim Mindanao;Gadongan
@@ -21303,7 +21318,7 @@
 5257;124.3143,10.6995;6050;Central Visayas;Esperanza
 0;124.7539,10.5155;6522;Eastern Visayas;Esperanza
 0;122.9520,10.3863;6132;Western Visayas;Hacienda Esperanza
-0;124.8375,10.2636;6526;Eastern Visayas;Esperanza
+0;124.8375,10.2636;6600;Eastern Visayas;Esperanza
 0;123.5900,10.1837;6040;Central Visayas;Esperanza
 0;125.2744,9.9776;6614;Eastern Visayas;Esperanza
 0;126.0131,9.8650;8418;Caraga;Esperanza
@@ -22447,6 +22462,7 @@
 20245;123.7565,9.5542;6344;Central Visayas;Danao
 0;124.7683,8.6922;9003;Northern Mindanao;Danao
 0;123.6643,8.6419;7209;Northern Mindanao;Danao
+0;124.0272,6.7817;9603;Autonomous Region in Muslim Mindanao;Danao
 0;121.9308,6.3122;7305;Autonomous Region in Muslim Mindanao;Danao
 0;121.1035,17.2752;3804;Cordillera;Dananao
 0;125.2152,9.9808;6614;Eastern Visayas;Dan-an
@@ -22495,7 +22511,7 @@
 0;121.4000,14.4000;4020;Calabarzon;Dambo
 0;125.1831,9.0531;9015;Northern Mindanao;Damayohan
 2308;122.5531,11.4936;5806;Western Visayas;Damayan
-0;121.3500,16.9833;3606;Cordillera;Damay
+0;121.3500,16.9833;3602;Cordillera;Damay
 2268;124.7833,6.7000;9632;Soccsksargen;Damawato
 3330;124.4828,7.0389;9607;Autonomous Region in Muslim Mindanao;Damatulan
 0;123.0070,11.2483;5014;Western Visayas;Damasco
@@ -22592,6 +22608,7 @@
 0;121.6819,16.6047;3313;Cagayan Valley;Dalibubon
 0;125.5047,7.0086;8025;Davao Region;Daliao
 2335;124.9533,5.8611;9502;Soccsksargen;Daliao
+0;123.6500,13.7167;4425;Bicol Region;Dalhogan
 0;121.7165,16.7340;3307;Cagayan Valley;Dalenat
 0;121.8387,17.4696;3328;Cagayan Valley;Dalena
 0;124.9035,12.5442;6413;Eastern Visayas;Dali
@@ -23561,6 +23578,7 @@
 0;124.5461,11.0308;6541;Eastern Visayas;Caugo
 0;120.5480,17.5855;2807;Cordillera;Cauggan
 0;124.8167,12.0333;6706;Eastern Visayas;Caugbusan
+0;124.0667,10.2667;6015;Central Visayas;Caubian
 0;125.5833,10.0000;8427;Caraga;Caubang
 0;123.0508,10.5857;6129;Western Visayas;Cawayuan
 0;120.8991,15.1681;3011;Central Luzon;Cuayang Bugtong
@@ -23589,7 +23607,7 @@
 0;124.9475,11.9639;6723;Eastern Visayas;Calundan
 0;125.3219,12.2642;6423;Eastern Visayas;Catumsan
 0;125.6367,6.3369;8013;Davao Region;Catumbal
-0;122.7606,9.4296;6221;Central Visayas;Catumbahan
+0;122.7606,9.4296;6222;Central Visayas;Catumbahan
 0;122.1661,6.9894;7000;Zamboanga Peninsula;Catumba
 0;123.4438,9.7620;6022;Central Visayas;Catolohan
 0;122.4167,13.7667;4314;Calabarzon;Catulin
@@ -23757,7 +23775,7 @@
 0;120.5570,18.2356;2900;Ilocos;Kataban
 0;119.4047,10.9793;5312;Mimaropa;Cotabang
 0;120.5489,14.6169;2102;Central Luzon;Kataasan
-0;120.9500,16.6000;3701;Cagayan Valley;Cataan
+0;120.9500,16.6000;2606;Cagayan Valley;Cataan
 0;122.1500,10.5833;5024;Western Visayas;Cata-an
 0;122.0186,10.5683;5024;Western Visayas;Cata-an
 0;122.0777,10.5440;5024;Western Visayas;Cata-an
@@ -24478,6 +24496,7 @@
 0;125.3317,11.9897;6806;Eastern Visayas;Can-ilay
 0;124.6386,11.1606;6531;Eastern Visayas;Canihug
 0;118.7663,9.7552;5304;Mimaropa;Canigaran
+0;124.7506,10.2484;6524;Eastern Visayas;Canigao
 0;123.8000,10.8000;6044;Central Visayas;Canigaan
 0;122.0128,14.7667;4340;Calabarzon;Canicanian
 0;122.0191,14.7538;4340;Calabarzon;Canicanian
@@ -25395,7 +25414,7 @@
 0;124.1500,9.7500;6317;Central Visayas;Calapian
 0;122.0559,12.4403;5502;Mimaropa;Calapi
 2954;122.9743,10.2736;6114;Western Visayas;Calape
-2587;125.0214,11.9425;6711;Eastern Visayas;Calape
+2587;125.0214,11.9425;6723;Eastern Visayas;Calape
 2832;124.0335,11.1756;6013;Central Visayas;Calape
 3367;123.8748,9.8922;6328;Central Visayas;Calape
 0;123.1500,11.4667;5017;Western Visayas;Calapdan
@@ -25724,7 +25743,7 @@
 0;122.1551,14.0133;4332;Calabarzon;Cabalogo
 0;121.7333,14.2000;4330;Calabarzon;Cagbalete
 0;122.1284,12.5706;5501;Mimaropa;Cagbagacay
-0;123.7667,13.0167;4714;Bicol Region;Cagbacong
+0;123.7667,13.0167;4512;Bicol Region;Cagbacong
 0;123.7167,13.0000;4512;Bicol Region;Cagbacong
 0;124.6462,12.0946;6710;Eastern Visayas;Cagbaboran
 0;124.3790,12.5268;6416;Eastern Visayas;Cagbabacong
@@ -25955,7 +25974,7 @@
 0;120.4667,16.9167;2520;Ilocos;Cabulanglangan
 0;124.5665,11.3187;6535;Eastern Visayas;Cabolan
 0;124.5600,11.2462;6531;Eastern Visayas;Cabulan
-3850;124.0440,10.1568;6017;Central Visayas;Cabul-an
+3850;124.0440,10.1568;6334;Central Visayas;Cabul-an
 0;125.0167,12.5833;6411;Eastern Visayas;Cabulalo-an
 0;120.5833,18.2667;2916;Ilocos;Cabulalaon
 0;120.6319,18.5334;2918;Ilocos;Cabulalaan
@@ -26189,7 +26208,7 @@
 0;121.4486,14.0337;4326;Calabarzon;Cabatang
 4211;121.3668,13.9669;4325;Calabarzon;Cabatang
 0;122.4333,10.9000;5030;Western Visayas;Cabatac
-0;120.8425,13.4815;5108;Mimaropa;Cabasiogan
+0;120.8425,13.4815;5203;Mimaropa;Cabasiogan
 0;123.8561,10.4831;6047;Central Visayas;Cabasiangan
 0;122.3087,10.6573;5022;Western Visayas;Cabasi
 0;123.9143,9.8717;6328;Central Visayas;Cabascan
@@ -26197,7 +26216,7 @@
 0;121.8174,17.6054;3502;Cagayan Valley;Cabasan
 0;123.8000,13.3000;4509;Bicol Region;Cabasan
 0;123.3034,12.3682;5411;Bicol Region;Cabasan
-0;122.7828,11.1581;5039;Western Visayas;Cabasan
+0;122.7828,11.1581;5011;Western Visayas;Cabasan
 0;124.7833,8.8333;9007;Northern Mindanao;Cabasan
 0;120.6000,18.2667;2916;Ilocos;Cabaruan
 0;120.5404,18.0753;2902;Ilocos;Cabaruan
@@ -28108,7 +28127,7 @@
 0;125.7017,6.1792;8013;Davao Region;Biton
 0;121.4877,17.4328;3800;Cordillera;Bito
 0;120.7333,16.8667;2609;Cordillera;Bito
-0;121.3333,16.8500;3606;Cordillera;Bito
+0;121.3333,16.8500;3712;Cordillera;Bito
 0;120.5167,16.7000;2516;Ilocos;Bito
 0;120.9656,16.6137;3701;Cordillera;Bato
 0;124.8167,11.2167;6517;Eastern Visayas;Bito
@@ -29347,7 +29366,7 @@
 3258;124.1419,12.8683;4712;Bicol Region;Barcelona
 0;122.7018,10.5778;5047;Western Visayas;Barcelona
 2255;123.4587,8.5275;7103;Zamboanga Peninsula;Barcelona
-3541;126.4342,8.1592;8311;Caraga;Barcelona
+3541;126.4342,8.1592;8312;Caraga;Barcelona
 0;121.2390,13.2738;5204;Mimaropa;Barcenaga
 0;122.7152,14.2718;4606;Bicol Region;Barbo
 0;125.7520,11.0395;6809;Eastern Visayas;Barbo
@@ -29423,7 +29442,7 @@
 0;120.4218,15.9307;2421;Ilocos;Barang
 0;120.5030,15.6735;2307;Central Luzon;Barang
 0;124.7817,7.8267;8718;Northern Mindanao;Barandias
-0;124.8667,7.7500;8712;Northern Mindanao;Barandias
+0;124.8667,7.7500;8718;Northern Mindanao;Barandias
 0;121.1300,14.1882;4029;Calabarzon;Barandal
 0;121.4643,17.7165;3528;Cagayan Valley;Barancuag
 0;120.8981,14.9920;3006;Central Luzon;Barangca
@@ -29614,7 +29633,7 @@
 0;123.8000,13.0500;4514;Bicol Region;Bañog
 0;123.2000,9.9833;6212;Central Visayas;Banog
 3963;122.5833,14.3000;4607;Bicol Region;Banocboc
-0;124.3967,7.2558;9411;Soccsksargen;Banocagon
+0;124.3967,7.2558;9610;Soccsksargen;Banocagon
 0;121.1522,16.8184;3603;Cordillera;Bana-ao
 0;120.3833,16.5500;2566;Ilocos;Banoagan
 0;121.2321,19.0332;3520;Cagayan Valley;Banua
@@ -29637,7 +29656,7 @@
 0;120.9000,18.5667;2921;Ilocos;Bankero
 0;123.1492,12.9022;5419;Bicol Region;Bankay
 3908;120.0091,5.0192;7501;Autonomous Region in Muslim Mindanao;Bankaw
-0;121.0587,12.2411;5101;Mimaropa;Bankal
+0;121.0587,12.2411;5100;Mimaropa;Bankal
 0;122.8750,11.2114;5043;Western Visayas;Bankal
 0;124.5455,7.5363;9413;Soccsksargen;Banka
 0;122.7356,14.2476;4606;Bicol Region;Banit
@@ -30938,6 +30957,7 @@
 0;120.8212,14.8263;3000;Central Luzon;Bagna
 0;122.9188,13.5909;4417;Bicol Region;Bagja
 0;120.9833,16.6000;3701;Cagayan Valley;Bagimbing
+0;123.8377,7.7014;9301;Autonomous Region in Muslim Mindanao;Bagigan
 0;124.3897,7.5119;9615;Autonomous Region in Muslim Mindanao;Bagiangon
 0;121.6745,17.0071;3316;Cagayan Valley;Bagnos
 0;122.0652,11.2006;5706;Western Visayas;Maghari
@@ -31006,7 +31026,7 @@
 0;123.6753,12.6255;5418;Bicol Region;Bagaguimbal
 0;123.6669,12.6247;5418;Bicol Region;Bagaguimbal
 0;122.9167,13.8000;4408;Bicol Region;Bagagñan
-0;120.9500,16.6000;3701;Cagayan Valley;Bagaen
+0;120.9500,16.6000;2606;Cagayan Valley;Bagaen
 0;123.0667,13.7000;4407;Bicol Region;Bagadion
 0;122.4333,10.9000;5030;Western Visayas;Bagacay West
 0;123.7833,9.8000;6327;Central Visayas;Bagacay Saong
@@ -31147,6 +31167,7 @@
 0;120.6167,17.1500;2719;Ilocos;Badac
 0;120.5997,18.0765;2906;Ilocos;Baoa
 0;123.8667,10.7000;6043;Central Visayas;Bacyawan
+7506;122.4721,9.6370;6113;Western Visayas;Bacuyangan
 0;122.6656,11.1340;5037;Western Visayas;Bacuranan
 0;122.4333,10.9000;5030;Western Visayas;Bacuranan
 0;121.2606,13.3212;5204;Mimaropa;Bacungay
@@ -31161,7 +31182,7 @@
 2971;126.5842,7.4525;8204;Davao Region;Baculin
 0;125.0385,11.2845;6720;Eastern Visayas;Bacubac
 5419;125.6389,9.6081;8408;Caraga;Bacuag
-0;121.1000,13.2333;5204;Mimaropa;Bacton
+0;121.1000,13.2333;5201;Mimaropa;Bacton
 0;123.7188,13.1529;4502;Bicol Region;Bactol
 0;123.0409,10.7686;6116;Western Visayas;Bagtig
 0;122.9752,14.0926;4600;Bicol Region;Bactas
@@ -31169,7 +31190,7 @@
 0;121.5674,18.0604;3524;Cagayan Valley;Battalan
 3610;120.6103,15.9784;2428;Ilocos;Bactad Proper
 0;121.2833,16.7833;3712;Cordillera;Bactad
-0;120.9668,16.6216;3701;Cordillera;Bactad
+0;120.9668,16.6216;2606;Cordillera;Bactad
 0;122.8927,13.6015;4417;Bicol Region;Bactacang
 0;120.6550,18.1972;2915;Ilocos;Bacsil
 0;120.5000,18.1167;2902;Ilocos;Bacsil
@@ -31341,6 +31362,7 @@
 0;120.4792,17.0536;2713;Ilocos;Babayaan
 0;121.6570,18.2180;3509;Cagayan Valley;Babawan
 0;121.1333,14.9000;3013;Central Luzon;Babatuan
+0;124.0413,6.7571;9603;Autonomous Region in Muslim Mindanao;Babato
 0;120.8172,14.7814;3001;Central Luzon;Babatnin
 6237;124.8449,11.4238;6520;Eastern Visayas;Babatngon
 0;123.0476,13.8446;4408;Bicol Region;Babatgon
@@ -31456,7 +31478,7 @@
 0;124.3072,10.0992;6324;Central Visayas;Auyan
 0;120.3000,15.7833;2413;Ilocos;Austria
 4500;121.6366,16.9906;3316;Cagayan Valley;Aurora
-3481;121.1203,13.2322;5204;Mimaropa;Aurora
+3481;121.1203,13.2322;5201;Mimaropa;Aurora
 0;122.0548,12.4274;5502;Mimaropa;Aurora
 0;124.3302,11.3825;6536;Eastern Visayas;Aurora
 2681;125.8375,8.5931;8500;Caraga;Aurora
@@ -32671,7 +32693,7 @@
 1981;123.9061,10.4344;6001;Central Visayas;Agsungot
 0;123.9426,10.7227;6006;Central Visayas;Agsowao
 0;123.8277,9.7903;6327;Central Visayas;Agsoso
-0;122.3481,11.0452;5034;Western Visayas;Agsirab
+0;122.3481,11.0452;5042;Western Visayas;Agsirab
 0;122.3922,10.8349;5028;Western Visayas;Agsing
 0;123.0333,11.2500;5014;Western Visayas;Agsinapot
 0;120.9429,17.7849;2822;Cordillera;Agsimao
@@ -32799,6 +32821,7 @@
 0;123.0062,11.2273;5014;Western Visayas;Agcadarao
 0;124.8467,6.8956;9402;Soccsksargen;Agcad
 0;122.4217,11.4439;5808;Western Visayas;Agbunud
+0;121.0812,18.1366;3814;Cordillera;Agbulu
 0;122.2911,12.6060;5500;Mimaropa;Agbudia
 0;123.9624,9.8328;6343;Central Visayas;Agbuaya
 0;123.9000,10.3000;6000;Central Visayas;Agbuakan
@@ -32879,7 +32902,7 @@
 0;120.8636,16.5986;2606;Cordillera;Adud
 0;120.5110,15.6737;2307;Central Luzon;Aduas
 0;120.9617,15.4990;3100;Central Luzon;Aduas Centro
-3380;124.8544,7.8119;8717;Northern Mindanao;Adtugan
+3380;124.8544,7.8119;8718;Northern Mindanao;Adtugan
 0;122.0119,11.7659;5712;Western Visayas;Adlusan
 0;123.8719,10.4439;6047;Central Visayas;Adlaon
 2548;125.8975,9.4097;8318;Caraga;Adlay
@@ -33011,6 +33034,7 @@
 0;124.9886,10.1778;6603;Eastern Visayas;Abgao
 0;120.9569,13.9186;4207;Calabarzon;Abelo
 0;123.4167,13.1167;4504;Bicol Region;Abella
+0;121.0733,18.1296;3814;Cordillera;Abel
 0;120.6307,18.3545;2917;Ilocos;Abec
 0;121.8022,17.3003;3325;Cagayan Valley;Abbuatan
 0;121.4167,17.6833;3528;Cordillera;Abbot
@@ -33255,10 +33279,10 @@
 0;122.3742,7.5397;7018;Zamboanga Peninsula;Tigbuaya
 0;122.3997,7.5092;7018;Zamboanga Peninsula;Sapacalao
 0;122.4306,7.5228;7018;Zamboanga Peninsula;Tarlibung
-0;122.4275,7.5310;7018;Zamboanga Peninsula;Lumbugan
+0;122.4275,7.5310;7002;Zamboanga Peninsula;Lumbugan
 0;122.4552,7.5180;7018;Zamboanga Peninsula;Capan
-0;122.4620,7.5476;7018;Zamboanga Peninsula;Banga
-0;122.4228,7.5363;7018;Zamboanga Peninsula;San Vicente
+0;122.4620,7.5476;7002;Zamboanga Peninsula;Banga
+0;122.4228,7.5363;7002;Zamboanga Peninsula;San Vicente
 0;122.3635,7.5052;7018;Zamboanga Peninsula;Tigpalay
 0;122.3806,7.5393;7018;Zamboanga Peninsula;Upper Tungawan
 0;122.3437,7.6263;7125;Zamboanga Peninsula;San Isidro
@@ -33332,7 +33356,7 @@
 0;122.8842,7.3669;7041;Zamboanga Peninsula;Siotan
 0;122.9211,7.3911;7041;Zamboanga Peninsula;Pinalim
 0;122.9433,7.3397;7041;Zamboanga Peninsula;Sawa
-0;122.9703,7.3642;7010;Zamboanga Peninsula;Taguisian
+0;122.9703,7.3642;7041;Zamboanga Peninsula;Taguisian
 0;122.7856,7.7933;7005;Zamboanga Peninsula;Mangahas
 0;122.8194,7.7989;7005;Zamboanga Peninsula;Tigbangagan
 4393;122.8664,7.7158;7006;Zamboanga Peninsula;Monching
@@ -33812,7 +33836,7 @@
 0;123.4334,7.8965;7017;Zamboanga Peninsula;Bogo
 0;123.5937,7.8410;7017;Zamboanga Peninsula;Tagulo
 0;123.5838,7.8435;7017;Zamboanga Peninsula;Militar
-0;123.6316,7.8429;7017;Northern Mindanao;Militar
+0;123.6316,7.8429;7020;Northern Mindanao;Militar
 0;123.6095,7.8462;7017;Zamboanga Peninsula;Coromatan
 0;123.5820,7.8639;7017;Zamboanga Peninsula;Curbada
 0;123.5429,7.8739;7017;Zamboanga Peninsula;Bayao
@@ -34097,7 +34121,7 @@
 0;121.0191,15.7553;3121;Central Luzon;Tulay
 0;123.5509,10.0189;6035;Central Visayas;Binotongan
 0;121.0297,13.0976;5104;Mimaropa;Calampitan
-0;121.1355,13.2348;5204;Mimaropa;Goob
+0;121.1355,13.2348;5201;Mimaropa;Goob
 0;121.4221,13.1220;5206;Mimaropa;Maluanluan
 0;120.6684,13.9219;4213;Calabarzon;Calumpang
 0;120.8046,13.9240;4212;Calabarzon;Camastilisan
@@ -34259,6 +34283,7 @@
 0;124.0647,11.2528;6013;Central Visayas;Campatoc
 0;124.0639,11.8222;5407;Bicol Region;Salvacion
 0;124.0633,11.8494;5407;Bicol Region;Canatongan
+0;124.0575,11.8629;5407;Bicol Region;Calongongan
 0;120.5138,17.8915;2904;Ilocos;Labut
 0;124.0067,11.9663;5405;Bicol Region;Maco Upong
 0;120.6578,17.9353;2909;Ilocos;Macayepyep
@@ -34595,6 +34620,7 @@
 5352;124.6983,6.4759;9511;Soccsksargen;Lopez Jaena
 4338;124.8106,6.3083;9512;Soccsksargen;Lambontong
 0;124.6678,6.4983;9511;Soccsksargen;Poblacion
+0;124.3408,6.8444;9609;Autonomous Region in Muslim Mindanao;Tapikan
 0;124.4786,6.9494;9627;Autonomous Region in Muslim Mindanao;Libutan
 0;124.7411,6.5839;9510;Soccsksargen;Matimos
 0;124.7000,6.5881;9510;Soccsksargen;Tinago
@@ -34608,7 +34634,7 @@
 0;124.5769,6.6817;9805;Soccsksargen;Matiompong
 0;124.8825,6.4225;9511;Soccsksargen;Marbel Walo
 0;124.8845,6.4794;9511;Soccsksargen;Badok
-0;124.9399,6.4633;9506;Soccsksargen;Zulueta
+0;124.9399,6.4633;9505;Soccsksargen;Zulueta
 0;124.8092,6.4928;9511;Soccsksargen;Lumangko
 0;124.6113,6.8075;9802;Soccsksargen;Lilit
 0;124.5531,6.7950;9616;Autonomous Region in Muslim Mindanao;Kamansig
@@ -35259,6 +35285,7 @@
 0;121.9814,10.6565;5715;Western Visayas;Funda
 0;121.9838,10.5947;5715;Western Visayas;General Fullon
 0;121.9981,10.5694;5715;Western Visayas;Portillo
+0;121.9689,10.5591;5717;Western Visayas;Arobo
 0;121.9676,10.5255;5717;Western Visayas;Ballescas
 0;121.9506,10.5193;5717;Western Visayas;Poblacion Norte
 0;121.9514,10.5118;5717;Western Visayas;Poblacion Sur
@@ -35439,7 +35466,7 @@
 0;122.3169,17.3353;3333;Cagayan Valley;Dilakit
 0;122.2849,17.3350;3333;Cagayan Valley;Dimapula
 0;122.2696,17.3064;3333;Cagayan Valley;Dicambangan
-0;122.3663,17.3479;3335;Cagayan Valley;Dipudo
+0;122.3663,17.3479;3333;Cagayan Valley;Dipudo
 0;122.3762,17.2952;3335;Cagayan Valley;Dibulos
 0;122.4202,17.2540;3335;Cagayan Valley;Tagbak
 0;122.2970,17.2803;3333;Cagayan Valley;Ditarum
@@ -35990,8 +36017,8 @@
 0;122.9028,11.3522;5803;Western Visayas;Manyapit
 0;121.8038,16.4859;3314;Cagayan Valley;San Antonio
 0;121.8175,16.4914;3314;Cagayan Valley;Papan Este
-0;121.8570,16.4949;3313;Cagayan Valley;Dicamay I
-0;121.8587,16.4879;3313;Cagayan Valley;Dicamay II
+0;121.8570,16.4949;3314;Cagayan Valley;Dicamay I
+0;121.8587,16.4879;3314;Cagayan Valley;Dicamay II
 0;121.8558,16.4626;3314;Cagayan Valley;Dumawing
 0;121.8470,16.4560;3314;Cagayan Valley;Bannawag
 0;121.8428,16.4635;3314;Cagayan Valley;Santo Domingo
@@ -36090,8 +36117,8 @@
 0;121.7618,16.7169;3307;Cagayan Valley;San Isidro
 0;121.7823,16.7127;3307;Cagayan Valley;San Vicente
 0;121.7796,16.6863;3307;Cagayan Valley;Narra
-0;121.8503,16.7048;3308;Cagayan Valley;Palawan
-0;121.8636,16.6969;3308;Cagayan Valley;Sinalugan
+0;121.8503,16.7048;3307;Cagayan Valley;Palawan
+0;121.8636,16.6969;3307;Cagayan Valley;Sinalugan
 0;121.9029,16.7042;3308;Cagayan Valley;Guam
 0;121.9043,16.6859;3308;Cagayan Valley;Dingading
 0;121.9563,16.6787;3308;Cagayan Valley;Rizal
@@ -36105,11 +36132,11 @@
 0;121.7613,16.5659;3314;Cagayan Valley;Namnama
 0;121.7874,16.5228;3314;Cagayan Valley;Papan Weste
 0;121.8025,16.5315;3314;Cagayan Valley;Papan Este
-0;121.8673,16.5115;3313;Cagayan Valley;Santo Domingo
-0;121.8724,16.5074;3313;Cagayan Valley;Dumawing
-0;121.8703,16.5039;3313;Cagayan Valley;Bannawag
+0;121.8673,16.5115;3314;Cagayan Valley;Santo Domingo
+0;121.8724,16.5074;3314;Cagayan Valley;Dumawing
+0;121.8703,16.5039;3314;Cagayan Valley;Bannawag
 0;121.7668,16.5087;3314;Cagayan Valley;Sirigpit
-0;121.8641,16.7167;3308;Cagayan Valley;San Mariano Sur
+0;121.8641,16.7167;3307;Cagayan Valley;San Mariano Sur
 0;121.8906,16.7222;3308;Cagayan Valley;San Francisco Sur
 0;121.8490,16.5425;3314;Cagayan Valley;Santa Isabel
 0;122.5413,12.4851;5511;Mimaropa;Manga
@@ -36800,8 +36827,8 @@
 0;120.8686,16.6907;2607;Cordillera;Paltingan
 0;120.9608,16.5848;3701;Cordillera;Topdak
 0;120.9426,16.5669;3701;Cordillera;Dangla
-0;120.9662,16.6284;3701;Cordillera;Dagdag
-0;120.9574,16.6241;3701;Cordillera;Madayag
+0;120.9662,16.6284;2606;Cordillera;Dagdag
+0;120.9574,16.6241;2606;Cordillera;Madayag
 0;120.9597,16.6067;3701;Cordillera;Payantac
 0;120.9497,16.6166;2606;Cordillera;Nabelwasan
 0;120.9469,16.6202;2606;Cordillera;Masayod
@@ -37286,8 +37313,8 @@
 0;121.0460,14.8458;3024;Central Luzon;Fatima
 0;121.0594,14.8549;3024;Central Luzon;Bagong Buhay
 0;121.1053,14.9168;3013;Central Luzon;Bangkal
-0;121.1536,14.9050;3009;Central Luzon;Bitbit
-0;121.1593,14.8586;1425;Central Luzon;Sapang Munti
+0;121.1536,14.9050;3013;Central Luzon;Bitbit
+0;121.1593,14.8586;3024;Central Luzon;Sapang Munti
 0;121.2032,14.9827;3009;Central Luzon;Marowad
 0;121.2048,14.9523;3009;Central Luzon;Kamanoyo
 0;121.1937,14.9356;3009;Central Luzon;Aisado
@@ -37377,7 +37404,7 @@
 0;123.0004,10.8799;6119;Western Visayas;Hacienda San Jose
 0;121.2338,16.7493;3605;Cordillera;Tupaya
 0;121.2234,16.7632;3600;Cordillera;Ulilicon
-0;121.2429,16.7636;3600;Cordillera;Dulao
+0;121.2429,16.7636;3605;Cordillera;Dulao
 0;121.1939,16.7992;3600;Cordillera;Dulao
 0;121.1357,16.9281;3601;Cordillera;Nabuong
 0;121.1786,16.9278;3602;Cordillera;Tulabo
@@ -38610,8 +38637,8 @@
 0;119.7809,16.2553;2407;Ilocos;Surip
 0;119.7925,16.2672;2407;Ilocos;Centro Toma
 0;119.7919,16.2815;2407;Ilocos;Nalsok
-0;119.8206,16.2743;2406;Ilocos;Biga
-0;119.8497,16.2537;2406;Ilocos;Rongos Pias
+0;119.8206,16.2743;2405;Ilocos;Biga
+0;119.8497,16.2537;2405;Ilocos;Rongos Pias
 0;119.8573,16.2664;2405;Ilocos;Megagalantay
 0;119.8769,16.2833;2405;Ilocos;Bayoy
 0;119.8686,16.2736;2405;Ilocos;Cabasan
@@ -38635,8 +38662,8 @@
 0;120.0024,16.2647;2405;Ilocos;Casilagan
 0;120.0183,16.2517;2405;Ilocos;Yapa
 0;119.8022,16.2223;2408;Ilocos;Intablado
-0;119.8329,16.2430;2408;Ilocos;Okcuanan
-0;119.8471,16.2465;2407;Ilocos;Maranglis
+0;119.8329,16.2430;2405;Ilocos;Okcuanan
+0;119.8471,16.2465;2405;Ilocos;Maranglis
 0;119.8652,16.2442;2405;Ilocos;Modit
 0;119.8951,16.2253;2405;Ilocos;Aporao
 0;119.9816,16.2415;2405;Ilocos;Pingan
@@ -39627,6 +39654,7 @@
 0;121.3977,14.5950;1980;Calabarzon;Mayagay
 0;121.4221,14.5816;1980;Calabarzon;Alas-Asin
 0;121.4352,14.5757;1980;Calabarzon;Makmira
+0;121.4471,14.5629;4021;Calabarzon;Karakatmon
 0;121.4351,14.5079;4021;Calabarzon;Pagus
 0;121.3920,14.5241;1910;Calabarzon;Pinanaganaka
 0;121.3726,14.5415;1910;Calabarzon;Capinpin
@@ -39827,7 +39855,7 @@
 0;120.7644,16.2618;2604;Cordillera;Lawigan
 0;120.8099,16.4564;2605;Cordillera;Toplac
 0;120.9057,16.2838;3708;Cagayan Valley;Cabalatan
-0;120.7802,16.1700;2447;Ilocos;Barangay
+0;120.7802,16.1700;2446;Ilocos;Barangay
 0;120.7663,16.0999;2446;Ilocos;Dalompinas
 0;120.7775,16.0804;2446;Ilocos;Calaocan
 0;120.7545,16.0471;2445;Ilocos;Ambasa
@@ -39844,6 +39872,7 @@
 0;120.8229,16.0446;2446;Ilocos;Camanawanaan
 0;120.8216,16.0533;2446;Ilocos;Simimbaan
 0;120.8016,16.0937;2446;Ilocos;Villa Verde
+0;120.8697,16.1543;2446;Cagayan Valley;Maliit
 0;120.8808,16.2366;3708;Cagayan Valley;Unib
 0;120.9673,16.2404;3704;Cagayan Valley;Boyasas
 0;120.9661,16.1871;3704;Cagayan Valley;Balete
@@ -40449,7 +40478,7 @@
 0;120.9770,15.5051;3100;Central Luzon;Caraballo
 0;120.9206,15.6001;3114;Central Luzon;Quezon
 0;120.0319,16.1740;2404;Ilocos;Inan Suana
-0;121.4555,15.4152;3207;Central Luzon;Dicapanikian
+0;121.4555,15.4152;3131;Central Luzon;Dicapanikian
 0;121.4105,15.2099;4338;Calabarzon;Payapay
 0;121.4234,15.2022;4338;Calabarzon;Lapdok
 0;121.4080,15.2005;4338;Calabarzon;Puting Bato
@@ -40920,6 +40949,7 @@
 0;120.6800,15.9674;2439;Ilocos;Paitan
 0;120.7325,15.9939;2445;Ilocos;Santo Domingo
 0;120.5742,15.9986;2428;Ilocos;Anonas
+0;121.1797,18.4395;3518;Cordillera;Marag
 0;121.1483,18.0350;3809;Cordillera;Lacab
 0;121.1444,18.1200;3809;Cordillera;Talongtong
 0;121.1398,18.1302;3809;Cordillera;Bao
@@ -41780,7 +41810,7 @@
 0;120.7537,15.0236;2010;Central Luzon;San Pablo Proper
 0;120.5638,16.0659;2437;Ilocos;Cabulalaan
 0;121.0491,15.2885;3103;Central Luzon;Makabaclay
-0;121.4344,17.9459;3526;Cagayan Valley;Culong
+0;121.4344,17.9459;3520;Cagayan Valley;Culong
 0;121.4697,17.4912;3800;Cordillera;Laya East
 0;121.4578,17.4945;3800;Cordillera;Laya West
 0;121.7722,16.8003;3308;Cagayan Valley;San Guillermo
@@ -42129,6 +42159,7 @@
 0;125.0563,11.2790;6720;Eastern Visayas;Canmanda
 0;125.0195,11.2840;6500;Eastern Visayas;Quizan
 0;125.0188,11.2958;6720;Eastern Visayas;May-it
+0;121.9847,14.9713;4340;Calabarzon;Anibawan
 0;124.6651,6.4795;9511;Soccsksargen;Insang-an
 0;124.6840,6.5075;9510;Soccsksargen;Benigno Aquino Junior
 0;125.8197,7.4485;8100;Davao Region;Magugpo East

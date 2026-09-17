@@ -3777,3 +3777,13 @@ uk;Порт-Нумбай;Jayapura
 be;Батам;Batam
 bg;Батам;Batam
 mg;Kota Batam;Batam
+id;Waiyase;Waejase
+id;Pondokbunga;Pondok Bunga
+id;Talang Surulajo;Talangsurulojo
+id;Umbulanbalaipanjang;Umbulan Balaipanjang
+id;Umbulangunungcahya;Umbulan Gunungcahya
+id;Umbulanbuayaputuk;Umbulan Buaya Putuk
+id;Umbulanbandar;Umbulan Bandar
+id;Umbulankepala;Umbulan Kepala
+id;Umbulanwaiarus;Umbulan Waiarus
+id;Umbulanselamatbatin;Umbulan Selamatbatin

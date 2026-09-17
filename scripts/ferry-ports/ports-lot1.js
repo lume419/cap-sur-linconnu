@@ -231,7 +231,12 @@ module.exports = [
     ports: { hokkaido: [P('JP', 'Wakkanai')], rebun: [P('JP', 'Kafukamura')] } },
   { key: 'rebun|rishiri', source: 'https://heartlandferry.jp/faretable/ (Oshidomari ↔ Kafuka)',
     ports: { rebun: [P('JP', 'Kafukamura')], rishiri: [P('JP', 'Oshidomari')] } },
-  // hokkaido|okushiri : non couverte (aucun lieu de la masse « okushiri » dans les données JP).
+  // hokkaido|okushiri : ports dans corrections.js (quais OpenStreetMap).
+  // Régies municipales d'Okinawa : même port de départ (Unten, à Nakijin) pour les deux îles.
+  { key: 'izena|okinawa', source: 'https://vill.izena.okinawa.jp/about/access/ (Unten ↔ Nakada)',
+    ports: { izena: [P('JP', 'Nakada', [26.93, 127.95])], okinawa: [P('JP', 'Unten', [26.68, 128.0])] } },
+  { key: 'iheya|okinawa', source: 'https://www.vill.iheya.okinawa.jp/soshiki/9/1144.html (Unten ↔ Maedomari)',
+    ports: { iheya: [P('JP', 'Maedomari', [27.04, 127.97])], okinawa: [P('JP', 'Unten', [26.68, 128.0])] } },
   { key: 'kumejima|okinawa', source: 'http://www.kumeline.com/fare_ticket/ (Naha/Tomari ↔ Kanegusuku)',
     ports: { kumejima: [P('JP', 'Kumejima')], okinawa: [P('JP', 'Naha')] } },
   // Port de Wando → Deolleomeo (0,3 km).

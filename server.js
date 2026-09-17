@@ -86,6 +86,8 @@ setInterval(function(){
 // « /api/Export-PDF » ou « /api//export-pdf » atteignaient la route en ne comptant que dans le quota général, et
 // « /API/… » faisait planter le limiteur (aucune règle trouvée, erreur 500).
 app.use('/api/', function(req, res, next){
+  // Réponses propres au visiteur (langue, coordonnées, tirage) : jamais mises en commun par un proxy ou un CDN.
+  res.setHeader('Cache-Control', 'no-store');
   const p = ('/api/' + req.path).toLowerCase().replace(/\/{2,}/g, '/');
   const rule = RATE_LIMITS.find(r => p.startsWith(r.prefix)) || RATE_LIMITS[RATE_LIMITS.length - 1];
   // IP (vérifié le 17/09/2026) : avec « trust proxy 1 », req.ip est la dernière adresse de X-Forwarded-For, celle
@@ -109,11 +111,18 @@ app.use('/api/', function(req, res, next){
 // jamais en cache), occupait les 2 créneaux Overpass et leur file, et les autres visiteurs recevaient des listes vides.
 // Chaque IP a désormais au plus `max` requêtes en cours par groupe ; les suivantes ATTENDENT leur tour (le client lance
 // photos, lieux et randonnées de toutes les étapes d'un coup, jusqu'à ~90 requêtes : un refus net les perdrait). File
-// par IP bornée (`queue`) : au-delà, 429 pour cette IP seule. Une requête abandonnée par le client quitte la file.
+// par IP bornée (`queue`) et attente plafonnée (`waitMs`) : au-delà, 429 pour cette IP seule.
+// 3e audit du 17/09/2026, deux corrections :
+// - les plafonds par IP égalaient les plafonds globaux (LIMIT_OVERPASS 2, LIMIT_WIKIPEDIA 6) : une seule adresse pouvait
+//   les occuper entièrement. Ils sont désormais une FRACTION du global (1 sur 2 Overpass, 3 sur 6 Wikipédia) ;
+// - la place était rendue dès la fermeture de la connexion, alors que l'appel sortant (jusqu'à 25 s) continuait : des
+//   requêtes abandonnées volontairement annulaient toute la limite. La place n'est rendue qu'à la FIN du traitement
+//   (res 'finish'), ou après OUTBOUND_MAX_HOLD_MS si le client est parti — la durée du travail réel, pas celle du client.
 const OUTBOUND_GROUPS = [
-  { name: 'overpass', routes: ['/api/pois', '/api/hike'], max: 2, queue: 60 },
-  { name: 'photo', routes: ['/api/photo'], max: 4, queue: 150 }
+  { name: 'overpass', routes: ['/api/pois', '/api/hike'], max: 1, queue: 60, waitMs: 20000 },
+  { name: 'photo', routes: ['/api/photo'], max: 3, queue: 150, waitMs: 20000 }
 ];
+const OUTBOUND_MAX_HOLD_MS = 30000;
 const outboundByIp = new Map(); // groupe|ip -> { active, waiting: [fonction de reprise] }
 app.use('/api/', function(req, res, next){
   const p = ('/api/' + req.path).toLowerCase().replace(/\/{2,}/g, '/');
@@ -122,15 +131,18 @@ app.use('/api/', function(req, res, next){
   const key = group.name + '|' + (req.ip || 'inconnu');
   let state = outboundByIp.get(key);
   if(!state){ state = { active: 0, waiting: [] }; outboundByIp.set(key, state); }
-  let started = false, finished = false;
+  let started = false, finished = false, holdTimer = null;
   function start(){
     started = true;
     state.active++;
+    holdTimer = setTimeout(release, OUTBOUND_MAX_HOLD_MS); // filet : appel sortant anormalement long
+    holdTimer.unref();
     next();
   }
   function release(){
     if(finished) return;
     finished = true;
+    if(holdTimer) clearTimeout(holdTimer);
     if(!started){ // abandonnée pendant l'attente
       const i = state.waiting.indexOf(start);
       if(i >= 0) state.waiting.splice(i, 1);
@@ -141,8 +153,9 @@ app.use('/api/', function(req, res, next){
     }
     if(state.active === 0 && state.waiting.length === 0) outboundByIp.delete(key);
   }
+  // 'finish' seulement (et non 'close') : un client qui coupe la connexion ne libère pas la place, puisque l'appel
+  // sortant, lui, continue jusqu'à sa propre limite de temps.
   res.on('finish', release);
-  res.on('close', release);
   if(state.active < group.max) return start();
   if(state.waiting.length >= group.queue){
     finished = true;
@@ -150,6 +163,18 @@ app.use('/api/', function(req, res, next){
     return res.status(429).json({ error: 'too many requests' });
   }
   state.waiting.push(start);
+  // Attente plafonnée : une file de 150 places sans échéance gardait des sockets ouverts plusieurs minutes.
+  const waitTimer = setTimeout(function(){
+    if(started || finished) return;
+    const i = state.waiting.indexOf(start);
+    if(i >= 0) state.waiting.splice(i, 1);
+    finished = true;
+    if(state.active === 0 && state.waiting.length === 0) outboundByIp.delete(key);
+    res.setHeader('Retry-After', '10');
+    res.status(429).json({ error: 'too many requests' });
+  }, group.waitMs);
+  waitTimer.unref();
+  res.on('finish', function(){ clearTimeout(waitTimer); });
 });
 // Budget de calcul GLOBAL (audit du 17/09/2026), toutes IP confondues : les quotas par IP n'empêchent pas plusieurs
 // clients (ou plusieurs adresses) d'occuper le process à eux tous — tirages, exports PDF et recherches sont synchrones.
@@ -1145,8 +1170,12 @@ app.get('/api/hike', async (req, res) => {
   const lat = parseFloat(req.query.lat), lon = parseFloat(req.query.lon);
   const lang = /^[a-z]{2,3}$/.test(String(req.query.lang || '')) ? String(req.query.lang) : '';
   const coordsOk = isFinite(lat) && isFinite(lon) && Math.abs(lat) <= 90 && Math.abs(lon) <= 180;
-  // Pays inconnu de la requête (anciens clients) : comportement d'avant, Visorando seulement.
-  const useVisorando = !country || (HIKING_DATA.visorandoCountries || ['FR']).includes(country);
+  // Pays connu ET coordonnées valides exigés (3e audit du 17/09/2026) : sans pays, la route appelait Visorando pour
+  // n'importe quel nom — un relais ouvert vers un tiers, et de quoi remplir le cache de requêtes sans résultat.
+  if(!Object.prototype.hasOwnProperty.call(TripDataCountries, country) || !coordsOk){
+    return res.status(400).json({ error: 'invalid place', hikes: [] });
+  }
+  const useVisorando = (HIKING_DATA.visorandoCountries || ['FR']).includes(country);
   let hikes = [];
   if(useVisorando){
     try {
@@ -1266,7 +1295,10 @@ app.get('/api/photo', async (req, res) => {
 // une fois au démarrage : hôtes des URL de LODGING_RULES, VAN_RULES, MOTO_RULES, des vignettes (COUNTRIES) et des
 // portails de randonnée (data/hiking.json), plus les familles d'hôtes ci-dessous (logement, randonnée, Wikipédia).
 const PDF_LINK_HOST_PATTERNS = [
-  /^(?:www\.)?airbnb\.[a-z]{2,3}(?:\.[a-z]{2})?$/,
+  // Airbnb : l'hôte EXACT produit par le moteur (lib/trip-engine.js, lodgingLinks). Le motif précédent acceptait
+  // n'importe quelle extension — « airbnb.zip », « airbnb.top », enregistrables par n'importe qui — ce qui permettait de
+  // faire pointer le bouton « Logement » d'un PDF officiel vers un domaine d'hameçonnage (3e audit du 17/09/2026).
+  /^www\.airbnb\.fr$/,
   /^(?:[a-z0-9-]+\.)*booking\.com$/,
   /^(?:[a-z0-9-]+\.)*visorando\.com$/,
   /^hiking\.waymarkedtrails\.org$/,
@@ -1327,7 +1359,7 @@ function clip(s, max){
 }
 
 // Palette approximative des tokens CSS du site (voir public/css/style.css, thème clair) — pdfkit
-// ne peut pas lire les variables CSS, donc on les recopie ici en dur. Polices : Noto embarquées (dossier fonts/, voir
+// ne peut pas lire les variables CSS, donc on les recopie ici en dur. Polices : Noto embarquées (dossier pdf-fonts/, voir
 // lib/pdf-text.js) — les 14 polices standard PDF (Helvetica/Times) ne couvraient ni le cyrillique, ni le grec, ni
 // l'arabe, ni les écritures d'Asie, ni même « ł » ou « ő » : un PDF en japonais ou en polonais sortait illisible.
 // Langues acceptées pour le PDF : celles de l'interface (SUPPORTED de public/js/i18n.js, lu une fois au démarrage).
@@ -1348,10 +1380,15 @@ const PDF_BG_ALT = '#ECE4CC';   // --surface-2 : fond des jetons de statistiques
 const PDF_LINE = '#C9C2A0';
 const PDF_LINE_STRONG = '#8F8564'; // ligne de jonction entre les badges de jour ("timeline")
 const PDF_DANGER = '#B3261E';      // zone à tension « rouge » (formellement déconseillée)
-// Plafond de lignes listées par étape (audit du 17/09/2026) : ~1 s de CPU pour un export maximal (une étape peut en lister
-// jusqu'à ~30 : restrictions, activités, logements… ; une étape ordinaire une douzaine) ; les avertissements
-// de zone à tension ne sont jamais retirés par ce plafond.
-const PDF_MAX_LINES_PER_LEG = 20;
+// Plafond de PUCES listées par étape (audit du 17/09/2026 ; une puce peut occuper plusieurs lignes) : une étape peut en
+// lister jusqu'à ~30 (restrictions, activités, logements…), une étape ordinaire une douzaine ; les avertissements de zone
+// à tension ne sont jamais retirés par ce plafond.
+const PDF_MAX_BULLETS_PER_LEG = 20;
+// Budget de mise en page d'un export (3e audit du 17/09/2026). Le plafond de puces ne bornait QUE leur nombre, pas leur
+// longueur : un corps de 109 Ko en hindi (sous la limite de taille) demandait 20 s de mise en page, pendant lesquelles le
+// process — synchrone — ne répondait plus à personne. Au-delà de ce budget, la mise en page s'arrête et le document porte
+// la mention « document tronqué ». Un export réel coûte 0,1 à 2,2 s selon l'écriture (dzongkha puis bengali les plus lents).
+const PDF_BUILD_BUDGET_MS = 3500;
 
 // Boutiques OFFICIELLES de vignette autoroutière (pas de revendeur tiers) — même URLs que
 // COUNTRIES[cc].vignette côté client (public/js/app.js) ; dupliquées ici plutôt qu'importées, ce
@@ -1385,7 +1422,11 @@ function pdfX(doc, ctx, x, width){
 function pdfText(doc, ctx, str, x, width, opts){
   opts = opts || {};
   PdfText.drawText(doc, str, { x: pdfX(doc, ctx, x, width), width: width, lang: ctx.lang, size: opts.size || 10,
-    bold: !!opts.bold, color: opts.color || PDF_INK, link: opts.link || null, underline: !!opts.link, align: opts.align });
+    bold: !!opts.bold, color: opts.color || PDF_INK, link: opts.link || null, underline: !!opts.link, align: opts.align,
+    // Bas de page et budget de temps : un paragraphe long change de page au lieu d'être écrit hors de la feuille, et la
+    // mise en page s'arrête net si le budget est dépassé (voir PDF_BUILD_BUDGET_MS).
+    bottom: doc.page.height - doc.page.margins.bottom, onPageBreak: function(){ doc.addPage(); return doc.y; },
+    deadline: ctx.deadline });
 }
 
 // Puce colorée (point plein) ou case à cocher (carré creux, pour le sac à préparer) suivie du
@@ -1440,6 +1481,12 @@ function pdfRunningHeader(doc, ctx, marginLeft, contentWidth, tripLabel){
 
 // Texte traduit fourni par le navigateur (langue d'interface) : chaîne non vide, bornée ; sinon le texte français
 // composé ici. Le serveur ne traduit rien lui-même : toutes les traductions vivent dans public/js/i18n.js.
+// Budget de mise en page épuisé : plus aucune ligne n'est ajoutée (voir PDF_BUILD_BUDGET_MS).
+function pdfTimeUp(ctx){
+  if(!ctx.deadline) return false;
+  if(performance.now() > ctx.deadline){ ctx.truncated = true; return true; }
+  return false;
+}
 function pdfClientText(v, fallback, max){
   return (typeof v === 'string' && v.trim()) ? clip(v, max || 400) : fallback;
 }
@@ -1453,7 +1500,7 @@ function buildTripPdf(doc, trip){
   const tripLabel = trip.tripLabel || trip.city || '';
   // Langue du document : code connu de l'interface (voir PDF_LANGS), français sinon.
   const lang = typeof trip.lang === 'string' && PDF_LANGS.has(trip.lang) ? trip.lang : 'fr';
-  const ctx = { lang: lang, rtl: PdfText.isRtlLang(lang) };
+  const ctx = { lang: lang, rtl: PdfText.isRtlLang(lang), deadline: performance.now() + PDF_BUILD_BUDGET_MS, truncated: false };
   const texts = (trip.texts && typeof trip.texts === 'object' && !Array.isArray(trip.texts)) ? trip.texts : {};
 
   // Pages 2+ (si l'itinéraire déborde) : bandeau réduit, voir pdfRunningHeader. La page 1 existe
@@ -1522,12 +1569,12 @@ function buildTripPdf(doc, trip){
     doc.y += 6;
   }
   legs.forEach(function(leg, idx){
-    if(!leg || typeof leg !== 'object') return;
+    if(!leg || typeof leg !== 'object' || pdfTimeUp(ctx)) return;
     const lt = (leg.texts && typeof leg.texts === 'object' && !Array.isArray(leg.texts)) ? leg.texts : {};
-    // Au plus PDF_MAX_LINES_PER_LEG lignes listées pour cette étape (voir la constante).
+    // Au plus PDF_MAX_BULLETS_PER_LEG puces pour cette étape, et rien au-delà du budget de temps (voir les constantes).
     let legLines = 0;
     function legBullet(text, x, width, opts){
-      if(legLines++ >= PDF_MAX_LINES_PER_LEG) return;
+      if(legLines++ >= PDF_MAX_BULLETS_PER_LEG || pdfTimeUp(ctx)) return;
       pdfBullet(doc, ctx, text, x, width, opts);
     }
     const pageBefore = doc.page;
@@ -1680,9 +1727,18 @@ function buildTripPdf(doc, trip){
     pdfText(doc, ctx, pdfClientText(texts.packSub, 'Pour ' + clip(trip.transportLabel, 60) + ', budget ' + clip(trip.budgetLabel, 40) + '.', 160),
       marginLeft, contentWidth, { size: 9.5, color: PDF_INK_SOFT });
     doc.y += 6;
-    packing.slice(0, 60).forEach(function(item){ pdfBullet(doc, ctx, clip(item, 120), marginLeft + 4, contentWidth - 4, { checkbox: true }); });
+    packing.slice(0, 60).forEach(function(item){
+      if(pdfTimeUp(ctx)) return;
+      pdfBullet(doc, ctx, clip(item, 120), marginLeft + 4, contentWidth - 4, { checkbox: true });
+    });
   }
 
+  // Document tronqué faute de temps : signalé au lecteur plutôt que de laisser croire à un itinéraire complet.
+  if(ctx.truncated){
+    ctx.deadline = 0; // la mention elle-même s'écrit toujours
+    pdfBullet(doc, ctx, pdfClientText(texts.truncated, 'Document tronqué : cet itinéraire contient trop de texte pour être mis en page en entier.', 200),
+      marginLeft, contentWidth, { color: PDF_ACCENT, textColor: PDF_ACCENT });
+  }
   doc.y += 12;
   pdfEnsureSpace(doc, 30);
   doc.lineWidth(1).moveTo(marginLeft, doc.y).lineTo(marginLeft + contentWidth, doc.y).stroke(PDF_LINE);
@@ -1692,8 +1748,10 @@ function buildTripPdf(doc, trip){
   const sources = 'IGN/geo.api.gouv.fr · GeoNames · OpenStreetMap (ODbL) · Wikipedia · Visorando · Open Charge Map' +
     (tensionShown ? ' · France Diplomatie (diplomatie.gouv.fr)' : '');
   const today = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
-  const generatedTpl = typeof texts.generated === 'string' && texts.generated.includes('{date}') && texts.generated.includes('{sources}')
-    ? clip(texts.generated, 300) : null;
+  // Tronqué D'ABORD, repères vérifiés ensuite : l'inverse pouvait couper « {sources} » d'un modèle hostile et faire
+  // disparaître la ligne d'attribution (OpenStreetMap, Wikipédia…).
+  const generatedClipped = typeof texts.generated === 'string' ? clip(texts.generated, 300) : '';
+  const generatedTpl = generatedClipped.includes('{date}') && generatedClipped.includes('{sources}') ? generatedClipped : null;
   const generatedDate = pdfClientText(texts.generatedDate, today, 40);
   const footer = generatedTpl
     ? generatedTpl.replace('{date}', generatedDate).replace('{sources}', sources)
@@ -1716,7 +1774,9 @@ function pdfExportSlot(req, res, next){
   res.on('close', release);
   next();
 }
-app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '128kb' }), cpuBudgetGuard, pdfExportSlot, (req, res) => {
+// 32 ko (3e audit du 17/09/2026) : un export réel pèse 5 à 12 Ko (jusqu'à ~25 Ko pour 21 jours dans une écriture non
+// latine) ; 128 ko laissaient place à un corps forgé dont la seule mise en page bloquait le process ~20 s.
+app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpuBudgetGuard, pdfExportSlot, (req, res) => {
   const trip = req.body;
   if(!trip || typeof trip !== 'object' || !Array.isArray(trip.legs) || trip.legs.length === 0 || trip.legs.length > 25){
     return res.status(400).json({ error: 'invalid trip data' });
@@ -1953,10 +2013,11 @@ app.get('/api/status', function(req, res){
 });
 
 // Recherches de plus de SEARCH_BUDGET_MIN_MS comptées dans le budget de calcul global et celui de l'IP (les recherches
-// ordinaires, de quelques ms, n'y pèsent pas). Seul le budget de l'IP peut refuser une recherche : une recherche coûte
-// trop peu pour être bloquée par la charge des autres visiteurs.
+// ordinaires, de quelques ms, n'y pèsent pas). Les DEUX budgets peuvent refuser une recherche (3e audit du 17/09/2026) :
+// une recherche à froid lit l'index sur disque de façon synchrone et coûte jusqu'à ~1 s, de quoi tenir le process
+// occupé en continu à quelques adresses si seul le budget par IP s'appliquait.
 const SEARCH_BUDGET_MIN_MS = 50;
-app.get('/api/search-city', cpuBudgetIpGuard, function(req, res){
+app.get('/api/search-city', cpuBudgetGuard, function(req, res){
   var q = String(req.query.q || '');
   if(!q || q.length > 120){
     return res.status(400).json({ error: 'invalid query', results: [] });
@@ -2048,8 +2109,8 @@ async function precompressStaticFiles(){
 }
 engineStartup.then(precompressStaticFiles).catch(function(err){ console.warn('[précompression] échec :', err.message); })
   .then(function(){
-    // Polices du PDF (≈ 26 Mo) lues et analysées une fois au démarrage : sinon le premier export (≈ 3 s) était imputé au
-    // budget de calcul du visiteur, qui recevait ensuite un 429.
+    // Polices du PDF (26 Mo de fichiers, ~140 Mo en mémoire une fois les tables OpenType analysées) lues une fois au
+    // démarrage : sinon le premier export (≈ 3 s) était imputé au budget de calcul du visiteur, qui recevait ensuite un 429.
     const t0 = Date.now();
     try {
       PdfText.warmUp();
@@ -2088,20 +2149,40 @@ app.use(function(req, res, next){
   });
 });
 
+// Quota de débit des GROS fichiers statiques (3e audit du 17/09/2026) : `/js/i18n.js` fait 11 Mo non compressé et le
+// limiteur ne couvrait que /api/ — un client refusant la compression (Accept-Encoding: identity) pouvait en tirer
+// autant de fois qu'il voulait. 30 requêtes par minute et par IP sur ces fichiers, bien au-delà d'un usage réel (le
+// navigateur les met en cache et les revalide).
+const BIG_STATIC_RE = /^\/(js\/(i18n|trip-data|app)\.js|css\/style\.css)$/;
+const bigStaticHits = new Map();
+setInterval(function(){
+  const now = Date.now();
+  for(const [ip, hits] of bigStaticHits){ if(!hits.length || now - hits[hits.length - 1] > 60000) bigStaticHits.delete(ip); }
+}, 60000).unref();
+app.use(function(req, res, next){
+  if(!BIG_STATIC_RE.test(req.path)) return next();
+  const ip = req.ip || 'inconnu';
+  const now = Date.now();
+  let hits = bigStaticHits.get(ip);
+  if(!hits){ hits = []; bigStaticHits.set(ip, hits); }
+  while(hits.length && now - hits[0] > 60000) hits.shift();
+  if(hits.length >= 30){
+    res.setHeader('Retry-After', '60');
+    return res.status(429).type('text/plain').send('Too many requests');
+  }
+  hits.push(now);
+  next();
+});
+
 app.use(express.static(path.join(__dirname, 'public'), {
   // Les données (communes.txt, communes-XX.txt, featured.txt) sont volumineuses mais
-  // statiques : autant laisser les navigateurs les mettre en cache longtemps. En revanche
-  // le HTML/CSS/JS change à chaque mise à jour de l'app — un cache d'1h dessus faisait qu'un
-  // simple rechargement de page pouvait continuer à servir une ancienne version depuis le
-  // cache navigateur sans même revalider auprès du serveur. On force donc une revalidation
-  // systématique (`must-revalidate`) pour ces fichiers, tout en gardant le cache long pour
-  // /data/ qui est volumineux et ne change qu'avec le code (donc avec un nouveau déploiement).
-  maxAge: '1h',
+  // Le HTML/CSS/JS change à chaque mise à jour de l'app : un cache d'1h dessus faisait qu'un simple rechargement de page
+  // pouvait continuer à servir une ancienne version sans même revalider auprès du serveur. Revalidation systématique
+  // pour TOUT ce qui est servi ici — l'exception d'un cache long pour /data/ n'a plus lieu d'être, ce dossier répondant
+  // 404 depuis l'audit de septembre 2026 (voir « SÉCURITÉ » en tête).
   extensions: ['html'],
-  setHeaders: function(res, filePath){
-    if(!/[\\/]data[\\/]/.test(filePath)){
-      res.setHeader('Cache-Control', 'no-cache, must-revalidate');
-    }
+  setHeaders: function(res){
+    res.setHeader('Cache-Control', 'no-cache, must-revalidate');
   }
 }));
 

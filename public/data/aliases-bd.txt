@@ -2046,3 +2046,47 @@ tt;Магура;Magura
 hy;Շահբագ;Shahbag
 am;ጋይባንዳ;Gaibandha
 tt;Гайбанда;Gaibandha
+bn;সিরাজগঞ্জ;Sirajganj
+ru;Сираджгандж;Sirajganj
+ru;Бандарбан;Bāndarban
+fa;سینگپا;Singpa
+bn;Seorātala;Seorātāl
+bn;Sāmunta;Samonta Bazar
+bn;Sālki;Shālki
+bn;Saidpur;Sayedpur Ghat
+bn;Rāniganja;Rāniganj
+bn;Purbba Pārgaon;Purbapārgaon
+bn;Prānpur;Paranpur
+bn;Nasipur;Nashipur
+bn;Nākrādīghi;Nākrādigh
+bn;Mālmāri;Mailmāri
+bn;Mahādebpur;Mohādebpur
+bn;Lakshmipur;Chak Lakshmipur
+bn;Krishnapur;Kistāpur
+bn;Kotālibhāg;Kotalibahag
+bn;Kāntapasār;Idalpur
+bn;Jot Mukundapur;Mukundapur
+bn;Jhinārpur;Jinārpur
+bn;Puglapeer;Gakulpur
+bn;Pāglapir;Gakulpur
+bn;Gokulpur;Gakulpur
+bn;Gardāngi;Gordangi
+bn;Gānrābāria;Gārābāria
+bn;Farasipāra;Fārsipāra
+bn;Dargāpāra;Durgāpur
+bn;Dānur;Dāinur
+bn;Dānihāri;Dānihār
+bn;Dāmodarpur;Dāmidarpur
+bn;Dahachi;Dohachi
+bn;Chhātiānpāra;Chhātnipāra
+bn;Char Mājdia;Char Mājhdia
+bn;Binodebāti;Binodbāti
+bn;Bansipur;Bangshipur
+bn;Bamundiīh;Bamundih
+bn;Bāmlāhāl;Bāmlāha
+bn;Bāliādānga;Baliādāing
+bn;Bairāgitala;Bargitola
+bn;Dewāipāra;Dawāipāra
+bn;Nabalpāra;Nablaipāra
+bn;Mahiskhālipāra;Mahiskhāliapāra
+bn;Jhimangkhālīpāra;Jhimongkhālīpāra

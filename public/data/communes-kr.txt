@@ -2484,6 +2484,7 @@
 0;128.0667,34.9667;52547;Gyeongsangnam-do;Sŏnjŏn
 0;128.0414,35.0381;52537;Gyeongsangnam-do;Sŏnjin
 0;126.5292,37.2447;23123;Incheon;Seonjae-ri
+0;127.9500,34.4500;59787;;Sŏnja
 0;126.7000,33.4833;63342;Jeju-do;Sŏnin-dong
 0;127.5492,37.8996;12404;Gyeonggi-do;Sogok
 0;128.8086,35.8644;38488;Gyeongsangbuk-do;Sŏnhwa-ri
@@ -5656,7 +5657,7 @@
 0;127.6567,38.1864;24102;Gangwon-do;Naiton
 0;128.3696,37.4309;25365;Gangwon-do;Maltari
 0;126.2534,33.2205;63508;Jeju-do;Museulpo
-0;126.7533,34.2017;59165;Jeollanam-do;Mosŏ
+0;126.7533,34.2017;59164;Jeollanam-do;Mosŏ
 0;126.9667,36.5000;32525;Chungcheongnam-do;Mosil
 0;127.4760,35.8917;55410;Jeollabuk-do;Mogok
 0;127.3667,36.8000;31259;Chungcheongnam-do;Mosan-ni

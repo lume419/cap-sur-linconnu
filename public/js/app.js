@@ -1481,12 +1481,28 @@
   function updateRadiusUnitLabel(){
     if(radiusMode === 'h'){
       var h = parseFloat(els.radius.value) || 0;
-      els.radiusValueDisplay.textContent = formatDurationMin(h * 60, true);
+      var durationTxt = formatDurationMin(h * 60, true);
+      els.radiusValueDisplay.textContent = durationTxt;
+      // Libellé long (swahili, tamoul, ourdou…) : texte réduit plutôt que coupé, puisque le nombre saisi est transparent
+      // dans ce mode. Le même texte, en forme longue, est donné aux lecteurs d'écran (l'incrustation est aria-hidden).
+      fitRadiusDisplay();
+      els.radius.setAttribute('aria-label', formatDurationMin(h * 60) + ' — ' + t('form.radius.unitH'));
       els.radiusValueWrap.classList.add('show-duration');
       els.radiusUnit.textContent = t('form.radius.unitH');
     } else {
       els.radiusValueWrap.classList.remove('show-duration');
+      els.radius.removeAttribute('aria-label'); // en km, l'unité est déjà annoncée par #radius-unit (aria-labelledby)
       els.radiusUnit.textContent = t('form.radius.unitKm');
+    }
+  }
+  // Taille du libellé réduite pas à pas jusqu'à ce qu'il tienne dans le champ (« 11 ம.நே. 30 நிமி. » en tamoul, « saa 11
+  // na dak 30 » en swahili) : le nombre saisi étant transparent dans ce mode, un texte coupé rendait la valeur illisible.
+  function fitRadiusDisplay(){
+    var el = els.radiusValueDisplay;
+    var sizes = ['', '0.82rem', '0.72rem', '0.64rem', '0.56rem', '0.5rem'];
+    for(var i = 0; i < sizes.length; i++){
+      el.style.fontSize = sizes[i];
+      if(el.scrollWidth <= el.clientWidth + 1) return;
     }
   }
   function setMode(mode){
@@ -1558,6 +1574,10 @@
   // départ SÉLECTIONNÉE (selectedCity.country) quand elle est connue — un simple aperçu avant
   // tirage, puisque chaque étape du séjour utilisera ensuite sa propre devise (voir
   // buildLodgingLinks, appelé par commune) ; EUR par défaut tant qu'aucune ville n'est choisie.
+  // Nombre au format de la langue d'interface (« 24 000 JPY » et non « 24000 JPY »).
+  function formatAmount(n){
+    try { return new Intl.NumberFormat(localeTag(), { maximumFractionDigits: 0 }).format(n); } catch(e){ return String(n); }
+  }
   function updateBudgetHint(){
     // Garde défensive : le sélecteur de devise (voir plus haut, "SÉLECTEUR DE DEVISE") est
     // maintenant interactif dès le tout début du chargement, AVANT que `els` ci-dessous existe
@@ -1566,8 +1586,11 @@
     if(!els || !els.budget) return;
     var key = els.budget.value;
     var currency = countryCurrency(selectedCity && selectedCity.country);
-    var max = BUDGET_PRICE_MAX[currency][key];
-    els.budgetHint.textContent = t('form.budget.hint', {max: max, currency: CURRENCY_SYMBOL[currency]});
+    // Devise absente de BUDGET_PRICE_MAX (tables divergentes un jour) : repli sur l'euro plutôt qu'une erreur qui
+    // interromprait tout le script de la page.
+    var caps = BUDGET_PRICE_MAX[currency] || BUDGET_PRICE_MAX.EUR;
+    var max = caps[key];
+    els.budgetHint.textContent = t('form.budget.hint', {max: formatAmount(max), currency: CURRENCY_SYMBOL[currency] || currency});
   }
   els.budget.addEventListener('change', updateBudgetHint);
   updateBudgetHint();
@@ -1599,7 +1622,8 @@
         var parts = {};
         if(h) parts.hours = h;
         if(m || !h) parts.minutes = m;
-        return new Intl.DurationFormat(loc, { style: style, minutesDisplay: 'always' }).format(parts);
+        // minutesDisplay 'always' seulement quand il n'y a PAS d'heures : sinon « 4 h » sortait « 4 h et 0 min ».
+        return new Intl.DurationFormat(loc, { style: style, minutesDisplay: h ? 'auto' : 'always' }).format(parts);
       }
     } catch(e){}
     try {
@@ -1730,6 +1754,10 @@
   function retranslateReveal(){
     if(revealLabelKey) els.rouletteLabel.textContent = t(revealLabelKey);
     if(revealClueKey) els.rouletteClue.textContent = t(revealClueKey);
+    // Région annoncée aux lecteurs d'écran : sinon elle restait dans la langue du tirage (texte périmé à la lecture).
+    if(!revealInProgress && currentTripData && els.revealRegion.textContent){
+      announceReveal(t('reveal.confirmed') + ' — ' + els.revealRegion.textContent);
+    }
   }
   // Rejoue juste le TEXTE des libellés "Destination confirmée"/nombre d'habitants/de POI posés par
   // finishReveal (jamais leur classe "show", déjà acquise, ni le délai de 250 ms qui n'a de sens que
@@ -1810,6 +1838,17 @@
   // déjà en clair pour les autres pays — voir `country`) et la met en cache côté serveur. Ici, on
   // ne fait qu'éviter de redemander deux fois la même commune pendant l'affichage (ex. plusieurs
   // nuits au même endroit).
+  // Bornés (3e audit du 17/09/2026) : sans plafond, une longue série de tirages gardait indéfiniment des milliers de
+  // réponses (photos, lieux, randonnées) en mémoire. Les entrées les plus anciennes sont retirées au-delà du plafond.
+  var CLIENT_CACHE_MAX = 600;
+  function cachePut(store, key, value){
+    store[key] = value;
+    var keys = Object.keys(store);
+    if(keys.length > CLIENT_CACHE_MAX){
+      for(var i = 0; i < keys.length - CLIENT_CACHE_MAX; i++) delete store[keys[i]];
+    }
+    return value;
+  }
   var clientPhotoCache = {};
   // near : { lat, lon, kind } — point de référence du lieu cherché (kind 'poi' : lieu OSM précis ; 'area' : lieu connu
   // seulement par sa commune ; 'stop' : l'étape elle-même). Le serveur n'accepte qu'un article Wikipédia géolocalisé près
@@ -1836,7 +1875,7 @@
     var lang = wikiLang();
     var entry = clientPhotoCache[key];
     if(!entry){
-      entry = clientPhotoCache[key] = { lang: lang, data: null };
+      entry = cachePut(clientPhotoCache, key, { lang: lang, data: null });
       // Un échec (limite de requêtes, délai, erreur serveur) n'est pas mémorisé : un prochain affichage réessaiera.
       entry.promise = fetchPhotoJson(photoRequestUrl(name, dept, country, near, lang))
         .then(function(data){
@@ -1879,7 +1918,7 @@
   function pumpPhotoRefresh(){
     while(photoRefreshActive < PHOTO_REFRESH_CONCURRENCY && photoRefreshQueue.length){
       photoRefreshActive++;
-      photoRefreshQueue.shift()().then(function(){
+      Promise.resolve(photoRefreshQueue.shift()()).catch(function(){ /* tâche déjà protégée, filet de sécurité */ }).then(function(){
         photoRefreshActive--;
         // File vidée : un seul redessin du journal de bord, qui relit les données à jour (sans nouvelle requête).
         if(!photoRefreshQueue.length && !photoRefreshActive && photoRefreshChanged){
@@ -1909,11 +1948,11 @@
     if(!clientPoiCache[key]){
       var url = '/api/pois?lat=' + encodeURIComponent(lat) + '&lon=' + encodeURIComponent(lon);
       if(name) url += '&name=' + encodeURIComponent(name) + '&dept=' + encodeURIComponent(dept || '') + '&country=' + encodeURIComponent(country || '');
-      clientPoiCache[key] = fetch(url)
+      cachePut(clientPoiCache, key, fetch(url)
         .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
         .then(function(data){ return (data && data.pois) || []; })
         .catch(function(){ delete clientPoiCache[key]; return null; }) // échec non mémorisé (voir fetchPlacePhoto)
-        .then(function(pois){ if(pois === null) return []; clientPoiResolved[key] = pois; return pois; });
+        .then(function(pois){ if(pois === null) return []; cachePut(clientPoiResolved, key, pois); return pois; }));
     }
     return clientPoiCache[key];
   }
@@ -1956,10 +1995,10 @@
       var url = '/api/hike?name=' + encodeURIComponent(leg.stop) + '&country=' + encodeURIComponent(leg.country || '') +
         (leg.lat != null ? '&lat=' + encodeURIComponent(leg.lat) + '&lon=' + encodeURIComponent(leg.lon) : '') +
         '&lang=' + encodeURIComponent(String(VISITOR_LANG).split('-')[0]);
-      clientHikeCache[key] = fetch(url)
+      cachePut(clientHikeCache, key, fetch(url)
         .then(function(r){ if(!r.ok) throw new Error('http ' + r.status); return r.json(); })
         .then(function(data){ return { hikes: (data && data.hikes) || [], portals: (data && data.portals) || [] }; })
-        .catch(function(){ delete clientHikeCache[key]; return { hikes: [], portals: [] }; }); // échec non mémorisé
+        .catch(function(){ delete clientHikeCache[key]; return { hikes: [], portals: [] }; })); // échec non mémorisé
     }
     return clientHikeCache[key];
   }
@@ -2765,10 +2804,11 @@
     var villes = {};
     legs.forEach(function(l){ if(!l.isReturn) villes[stopKey(l)]=true; });
     // Nombre de jours DEMANDÉ (un aller-retour d'une journée compte 1 jour, pas ses 2 legs aller + retour).
+    var statsDays = trip.days || legs.length, statsCities = Object.keys(villes).length;
     var statsHtml =
-      '<span><b>'+(trip.days || legs.length)+'</b> '+t('stats.days')+'</span>'+
-      '<span><b>'+Object.keys(villes).length+'</b> '+t('stats.cities')+'</span>'+
-      '<span><b>'+nights+'</b> '+t('stats.nights')+'</span>'+
+      '<span><b>'+statsDays+'</b> '+statsLabel(statsDays, 'stats.days')+'</span>'+
+      '<span><b>'+statsCities+'</b> '+statsLabel(statsCities, 'stats.cities')+'</span>'+
+      '<span><b>'+nights+'</b> '+statsLabel(nights, 'stats.nights')+'</span>'+
       '<span><b>~'+totalKm+' km</b> '+t('stats.totalKm')+'</span>';
     var tollLegs = legs.filter(function(l){return l.tollInfo;});
     if(tollLegs.length){
@@ -2962,9 +3002,18 @@
   // (renderDays), en texte brut (noms de lieux non échappés, pas de liens : le serveur pose lui-même les liens autorisés).
   // Traduction, ou null si la clé n'existe pas encore (t() renverrait le nom de la clé, imprimé tel quel dans le PDF).
   function tIfDefined(key, vars){ var s = t(key, vars); return s === key ? null : s; }
+  // Libellé d'une statistique du journal de bord, au singulier quand le compte vaut 1 (« 1 jour », « 1 ville »,
+  // « 0 nuitée ») : le pluriel systématique donnait « 1 jours · 1 villes · 0 nuitées », y compris dans le PDF.
+  // Intl.PluralRules décide de la forme selon la langue : le français dit « 0 nuitée » et « 1 jour » (catégorie « one »),
+  // l'anglais « 0 nights » et « 1 day », le russe reprend le singulier pour 21, 31… Clé au singulier absente : pluriel.
+  function statsLabel(n, key){
+    var one = false;
+    try { one = new Intl.PluralRules(localeTag()).select(n) === 'one'; } catch(e){ one = Math.abs(n) === 1; }
+    return (one && tIfDefined(key + '1')) || t(key);
+  }
   function pdfLegTexts(leg){
     var out = {};
-    if(leg.distanceKm != null && leg.travelTime){
+    if(leg.distanceKm != null && (leg.travelMin != null || leg.travelTime)){
       out.route = (leg.ferryInfo && leg.roadKm ? t('day.routeTime', {time: legDuration(leg.roadMin, leg.roadTime), km: leg.roadKm}) + ' + ' : '') +
         t(leg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: legDuration(leg.travelMin, leg.travelTime), km: leg.distanceKm});
     }
@@ -3019,10 +3068,11 @@
     } : null;
     // Textes du PDF dans la langue d'interface, composés avec les mêmes clés que la page (le serveur n'a pas les
     // traductions ; il garde le français en repli et contrôle lui-même les liens et les montants).
+    var pdfDays = currentTripData.days || legs.length, pdfCities = Object.keys(villes).length;
     var statsTexts = [
-      (currentTripData.days || legs.length) + ' ' + t('stats.days'),
-      Object.keys(villes).length + ' ' + t('stats.cities'),
-      nights + ' ' + t('stats.nights'),
+      pdfDays + ' ' + statsLabel(pdfDays, 'stats.days'),
+      pdfCities + ' ' + statsLabel(pdfCities, 'stats.cities'),
+      nights + ' ' + statsLabel(nights, 'stats.nights'),
       '~' + totalKm + ' km ' + t('stats.totalKm')
     ];
     if(tollSummary) statsTexts.push('~' + formatEuro(tollSummary.amount) + ' € ' + t(tollSummary.enabled ? 'stats.tollEstimated' : 'stats.tollAvoided'));
@@ -3046,6 +3096,7 @@
       packTitle: t('pack.title'),
       packSub: t('pack.sub', { transport: transportLabel(transportKey), budget: budgetLabel(budgetKey) }),
       generated: tIfDefined('pdf.generated'),
+      truncated: tIfDefined('pdf.truncated'), // mise en page arrêtée faute de temps côté serveur (voir PDF_BUILD_BUDGET_MS)
       generatedDate: generatedDate
     };
     return {
@@ -3281,6 +3332,18 @@
       try { showDrawnTripNow(); } finally { setDrawButtonsDisabled(false); revealInProgress = false; }
     }
     function showDrawnTripNow(){
+    try { renderDrawnTrip(); }
+    catch(err){
+      // Aucune isolation jusqu'ici : une exception pendant le rendu laissait le journal vide, la carte absente et les
+      // statistiques du voyage PRÉCÉDENT à l'écran, sans message. On remet l'écran dans un état cohérent.
+      console.warn('[rendu] ' + (err && err.message));
+      els.timelineStats.innerHTML = '';
+      els.days.innerHTML = '';
+      showCityError(msg('error.routeImpossible'));
+      throw err;
+    }
+  }
+  function renderDrawnTrip(){
       // Nouveau voyage : aucune randonnée ni aucun lieu encore proposé. Sans remise à zéro des files de POI, un deuxième
       // voyage passant par la même commune partait d'une file vidée et n'affichait plus que des suggestions génériques.
       usedHikeUrls = {}; hikeQueueByCommune = {}; poiQueueByLocation = {}; genericQueueByLocation = {};

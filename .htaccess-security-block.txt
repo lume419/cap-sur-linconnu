@@ -41,8 +41,10 @@ RewriteRule ^node_modules(/.*)?$ /? [R=301,L]
 # /tmp/restart.txt et /public/… répondaient 200. Le site n'utilise AUCUNE de
 # ces URL : les pages et scripts du navigateur sont servis par Node depuis
 # public/ à la racine du site (/js/app.js, /css/…), jamais sous /public/.
-# fonts : polices Noto du PDF (≈ 26 Mo, lues sur le disque par Node, jamais par le navigateur) — ajouté le 17/09/2026.
-RewriteRule ^(lib|scripts|cache|tmp|public|data|fonts|\.claude)(/.*)?$ /? [R=301,L]
+# pdf-fonts : polices Noto de l'export PDF (≈ 26 Mo, lues sur le disque par Node) — ajouté le 17/09/2026, renommé le
+# 18/09/2026. NE PAS bloquer « fonts » : /fonts/… est servi par Node depuis public/fonts/ (polices d'affichage du site
+# pour le tifinagh, l'éthiopien, le tibétain, le thâna et le yi) — le bloquer affiche ces écritures en carrés.
+RewriteRule ^(lib|scripts|cache|tmp|public|data|pdf-fonts|\.claude)(/.*)?$ /? [R=301,L]
 RewriteRule ^(\.htaccess-security-block\.txt|\.gitignore|\.gitattributes|\.env.*)$ /? [R=301,L]
 
 # --- Journaux et cartes de sources à la racine (audit du 17/09/2026) ---

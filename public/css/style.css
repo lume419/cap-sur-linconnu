@@ -494,8 +494,11 @@
   .radius-value-display{
     position:absolute; inset:0; display:none; align-items:center;
     padding:.65rem .7rem; font:600 .95rem/1.2 var(--font-body); color:var(--ink);
-    pointer-events:none; white-space:nowrap; overflow:hidden;
+    pointer-events:none; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
   }
+  /* Libellé de durée long (« saa 11 na dak 30 » en swahili, « 11 ம.நே. 30 நிமி. » en tamoul) : taille réduite par
+     fitRadiusDisplay() jusqu'à ce qu'il tienne — le nombre saisi étant transparent dans ce mode, une valeur coupée
+     devenait illisible (3e audit du 17/09/2026). */
   .radius-value-wrap.show-duration .radius-value-display{display:flex;}
   /* Sur mobile, "km autour du départ" / "de trajet retour max" (white-space:nowrap, pour ne pas se
      couper au milieu) refusait de rétrécir et écrasait les boutons -/+/champ à côté — au point de
@@ -877,6 +880,8 @@
   }
   .export-pdf:hover{background:color-mix(in srgb, var(--accent-3) 85%, black 8%); transform:translateY(-1px);}
   .export-pdf:active{transform:translateY(1px) scale(.98);}
+  /* Tirage en cours (requête + roulette, jusqu'à ~15 s) : les deux boutons paraissaient cliquables et ne faisaient rien. */
+  .launch:disabled, .again:disabled{opacity:.55; cursor:progress; transform:none;}
   .export-pdf:disabled{opacity:.6; cursor:progress; transform:none;}
   .export-pdf svg{width:18px; height:18px; flex:none;}
   .export-hint{font:var(--font-hand); font-size:.8rem; color:var(--ink-faint); text-align:center; max-width:26rem;}

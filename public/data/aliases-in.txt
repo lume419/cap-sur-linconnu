@@ -11927,3 +11927,21 @@ bg;Кумбалам;Kumbalam
 bg;Арор;Aroor
 bg;Кадакавор;Kadakkavoor
 bg;Чертхала;Cherthala
+ml;രാമേശ്വരം;Rameswaram
+te;రామేశ్వరము;Rameswaram
+hi;रामेश्वरम शहर;Rameswaram
+ta;இராமேசுவரம்;Rameswaram
+ru;Рамешварам;Rameswaram
+gu;રામેશ્વરમ;Rameswaram
+ja;ラーメーシュワラム;Rameswaram
+ne;रामेश्वरम तीर्थ;Rameswaram
+or;ରାମେଶ୍ୱରମ;Rameswaram
+zh;拉梅斯瓦拉姆;Rameswaram
+kn;ರಾಮೇಶ್ವರಮ್;Rameswaram
+mr;रामेश्वरम;Rameswaram
+si;රාමේෂ්වරම්;Rameswaram
+hi;धनुषकोडी;Dhanushkodi
+kn;ಧನುಷ್ಕೋಡಿ;Dhanushkodi
+ml;ധനുഷ്കോടി;Dhanushkodi
+ta;தனுஷ்கோடி;Dhanushkodi
+te;ధనుష్కోడి;Dhanushkodi

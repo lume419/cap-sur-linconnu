@@ -2456,3 +2456,4 @@ bg;Аладения;Aladeniya
 bg;Акурамбода;Akuramboda
 bg;Агапола;Agappola
 bg;Рамбода;Ramboda
+fa;اداپانکولام;Adappankulam

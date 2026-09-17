@@ -1928,6 +1928,7 @@
 0;80.5597,7.1273;20562;Central Province;Thembilligala Udagama
 0;80.5553,7.1320;20562;Central Province;Pallegama
 0;80.6136,7.5945;21140;Central Province;Tembilideniya
+0;81.4273,7.6066;30362;Eastern Province;Tembichchiya
 0;80.9833,6.9500;90140;Uva Province;Tembekumburagama
 0;80.4671,7.1797;71541;Sabaragamuwa Province;Tembarawa
 0;80.0886,6.1672;80312;Southern Province;Telwatta
@@ -2381,6 +2382,7 @@
 0;79.9108,7.8826;61272;North Western Province;Sinna Kattakaduwa
 0;81.0919,8.8018;31014;Eastern Province;Sinna Karachchi
 0;80.6836,9.1568;42000;Northern Province;Sinnaittimadu
+0;80.5561,9.0475;42000;Northern Province;Chinna adampan
 0;79.8291,7.7938;61250;North Western Province;Sinnasembukuliya
 0;80.7500,6.0000;82200;Southern Province;Sinimodera
 0;80.0912,6.1574;80240;Southern Province;Seenigama
@@ -2925,6 +2927,7 @@
 0;80.1103,7.6248;60434;North Western Province;Pulunduwa Ihala
 0;80.4720,9.1814;42000;Northern Province;Pulumaichchinatikulam
 0;81.6500,7.5500;30236;Eastern Province;Pulukunava
+0;81.4446,7.5827;30362;Eastern Province;Pullumalai
 0;79.8540,7.0738;11370;Western Province;Pulluhena
 0;80.5067,7.3128;00200;Central Province;Pulleniwatta
 0;81.8500,7.3333;32340;Eastern Province;Pulladiputti
@@ -5826,6 +5829,7 @@
 0;79.9319,9.6364;40000;Northern Province;Mankumban
 0;80.5500,8.3167;50072;North Central Province;Mankulama
 0;79.9136,7.7852;61508;North Western Province;Mankulama
+0;80.4430,9.1304;42000;Northern Province;Mankulam
 0;81.6478,7.7004;30016;Eastern Province;Mankikaddu
 0;81.4833,8.0167;30442;Eastern Province;Mankerni
 0;81.2138,8.6406;31006;Eastern Province;Mankanai
@@ -8106,6 +8110,7 @@
 0;80.4833,7.8833;50262;North Central Province;Kapuwagama
 0;80.9000,7.5167;21552;Southern Province;Kapuruwediwela
 0;80.3954,7.2960;71014;Sabaragamuwa Province;Kapurugampola
+0;81.4164,7.6246;30362;Eastern Province;Kapurella
 0;80.1529,6.0772;80270;Southern Province;Kapumulugoda
 0;80.5694,6.5842;70150;Sabaragamuwa Province;Kapuhentotagama
 0;80.6793,6.4857;70160;Sabaragamuwa Province;Kapuhentenna
@@ -10413,7 +10418,7 @@
 0;80.0176,6.6284;12007;Western Province;Galpata
 0;80.0367,7.8030;60495;North Western Province;Galpanawa
 0;80.5214,6.7100;70005;Sabaragamuwa Province;Galapallelanda
-0;80.8358,8.1500;50334;North Central Province;Galoya
+0;80.8358,8.1500;51410;North Central Province;Galoya
 0;79.9394,7.1603;11550;Western Province;Galoluwa
 0;81.5167,7.2333;91040;Uva Province;Galoba
 0;81.2286,6.9126;91070;Uva Province;Gallaba
@@ -12403,6 +12408,7 @@
 0;81.2411,7.1084;91516;Uva Province;Ayiwela
 0;81.5667,7.6833;30400;Eastern Province;Ayittiyamalai
 0;79.8516,8.2684;61360;North Western Province;Ayli
+0;80.5769,9.0465;42000;Northern Province;Ayiladi
 0;80.4809,7.2185;71527;Sabaragamuwa Province;Ayagama
 0;80.3083,6.6358;70024;Sabaragamuwa Province;Ayagama
 0;80.4662,7.3238;20060;Central Province;Awulbodale
@@ -13102,6 +13108,7 @@
 0;81.8500,7.3333;32340;Eastern Province;Addaippallam
 0;80.4167,6.8333;70165;Sabaragamuwa Province;Adawikanda
 0;79.8340,7.4575;51416;North Western Province;Adapparagama
+0;80.3471,8.6212;50506;Northern Province;Adappankulam
 0;79.8639,7.9857;61300;North Western Province;Adappan Villu
 0;80.0034,7.7045;60492;North Western Province;Adampane
 0;80.9908,8.7469;31026;Eastern Province;Adampana
@@ -13139,6 +13146,7 @@
 0;79.9997,6.4333;80500;Western Province;Aluthgama
 7500;80.1271,6.4809;12108;Western Province;Horawala Junction
 0;81.3499,7.5204;32101;Eastern Province;Konvinna
+0;81.4422,7.5705;30362;Eastern Province;Periyapullumali
 0;81.3264,7.4653;32101;Eastern Province;Dewalaya
 0;81.2598,7.4850;32101;Eastern Province;Diyagahalanda
 0;81.2907,7.4729;32101;Eastern Province;Ponganemadithe Kandiya
@@ -13154,6 +13162,8 @@
 0;80.3892,8.7396;43000;Northern Province;Ilamaruthankulam
 0;80.3725,8.7193;43000;Northern Province;Mankinda
 0;80.3727,8.7134;43000;Northern Province;Helambakulam
+0;80.3413,8.6468;50506;Northern Province;Kandaikkulam
+0;80.3445,8.6433;50506;Northern Province;Katkaramkulam
 0;80.3850,8.6575;50506;Northern Province;Veppankulam
 0;80.3632,8.6615;50506;Northern Province;Koolankulam
 0;80.1015,7.6700;60416;North Western Province;Katumulugama
@@ -14415,7 +14425,9 @@
 0;80.7737,8.2997;50393;North Central Province;Kokawewa Colony
 0;80.9689,8.1338;51400;North Central Province;Track Eight
 0;80.9794,8.3249;31304;Eastern Province;Agbopura
+0;81.0251,8.1663;51408;North Central Province;Setrarathpura
 0;81.0290,8.2003;31304;North Central Province;Jayathugama
+0;81.0369,8.1518;51408;North Central Province;Weliela
 0;81.0388,8.1483;51408;North Central Province;Kumudupura
 0;81.0345,8.1462;51408;North Central Province;Galadamana
 0;81.0507,8.1404;51408;North Central Province;Pullayar
@@ -14424,12 +14436,18 @@
 0;81.0290,8.1393;51408;North Central Province;Bisouyona
 0;81.0189,8.1462;51408;North Central Province;Nagapura
 0;81.0091,8.1472;51408;North Central Province;Ate Ela
+0;81.0102,8.1543;51408;North Central Province;Kohombadamana
 0;81.0274,8.2082;31304;North Central Province;Ekamuthugama
+0;80.9547,8.1662;51410;North Central Province;Kattakulama
 0;81.0037,8.1338;51408;North Central Province;Nawa Hirugama
 0;80.9926,8.1338;51408;North Central Province;Perakumbura
 0;80.9647,8.1438;51400;North Central Province;Amunugama
 0;80.9620,8.1480;51400;North Central Province;Abayapuragama
 0;80.9469,8.1490;51410;North Central Province;Bisobandara
+0;80.9465,8.1616;51410;North Central Province;Tissapura
+0;81.0207,8.1538;51408;North Central Province;Track Twelve
+0;80.9545,8.1688;51410;North Central Province;Track Two
+0;80.9653,8.1611;51400;North Central Province;Track Three
 0;80.9679,8.1437;51400;North Central Province;Track Seven
 0;81.8359,7.2237;32400;Eastern Province;Karungkodditivu
 0;81.8077,7.1797;32400;Eastern Province;Kannahipuram

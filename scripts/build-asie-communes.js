@@ -38,10 +38,16 @@ function haversineKm(lat1, lon1, lat2, lon2){
   const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLon/2)**2;
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 }
+// Cellules de 0,1° : 11,1 km en latitude, 11,1 × cos(lat) km en longitude. La fenêtre doit couvrir maxKm dans les deux
+// sens — avec ±1 cellule (3e audit du 17/09/2026), 1 760 lieux étaient déclarés « sans point postal à moins de 15 km »
+// alors qu'il en existait un (Sirajganj, 127 481 habitants, point à 12,0 km), et d'autres rattachés à un point plus
+// éloigné que le plus proche réel.
 function nearest(grid, lat, lon, maxKm){
   const cLat = Math.round(lat*10), cLon = Math.round(lon*10);
+  const spanLat = Math.max(1, Math.ceil(maxKm / 11.1));
+  const spanLon = Math.max(1, Math.ceil(maxKm / Math.max(1, 11.1 * Math.cos(lat * Math.PI / 180))));
   let best = null, bestDist = Infinity;
-  for(let dLat=-1; dLat<=1; dLat++) for(let dLon=-1; dLon<=1; dLon++){
+  for(let dLat=-spanLat; dLat<=spanLat; dLat++) for(let dLon=-spanLon; dLon<=spanLon; dLon++){
     const bucket = grid.get((cLat+dLat) + '_' + (cLon+dLon));
     if(!bucket) continue;
     for(const p of bucket){ const d = haversineKm(lat, lon, p.lat, p.lon); if(d < bestDist){ bestDist = d; best = p; } }
@@ -90,16 +96,19 @@ for(const country of COUNTRIES){
   function normMuni(s){ return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/^(city|municipality) of /, '').replace(/ city$/, '').replace(/[^a-z0-9]/g, ''); }
   if(POSTAL.has(country)){
     grid = new Map();
-    if(country === 'PH') postalByMunicipality = new Map();
-    if(country === 'JP') postalByLocality = new Map();
+    // Les deux règles de repli valent pour tous les pays à codes postaux (3e audit du 17/09/2026) : le même défaut de
+    // fichier postal existe ailleurs (Inde : 11 248 lieux écartés dont Virār, 1,2 M d'habitants ; Bangladesh :
+    // Mymensingh ; Japon : Tsushima). Elles ne servent qu'aux lieux SANS point postal assez proche.
+    postalByMunicipality = new Map();
+    postalByLocality = new Map();
     fs.readFileSync(path.join(__dirname, 'postal', country + '_postal.txt'), 'utf8').split('\n').filter(Boolean).forEach(l => {
       const c = l.split('\t'); const lat = parseFloat(c[9]), lon = parseFloat(c[10]);
-      if(postalByMunicipality){
+      {
         const key = c[4] + '|' + c[6] + '|' + normMuni(c[2]);
         const prev = postalByMunicipality.get(key);
         postalByMunicipality.set(key, prev === undefined ? c[1] : (prev === c[1] ? prev : null)); // null = ambigu
       }
-      if(postalByLocality){
+      {
         const key = c[4] + '|' + c[6] + '|' + c[8] + '|' + normMuni(c[2]);
         const prev = postalByLocality.get(key);
         postalByLocality.set(key, prev === undefined ? c[1] : (prev === c[1] ? prev : null)); // null = ambigu
@@ -109,7 +118,7 @@ for(const country of COUNTRIES){
       if(!grid.has(k)) grid.set(k, []);
       grid.get(k).push({ postcode: c[1], lat, lon });
     });
-    if(postalByMunicipality){
+    {
       admin3Names = new Map();
       raw.split('\n').forEach(line => {
         const c = line.split('\t');
@@ -125,15 +134,17 @@ for(const country of COUNTRIES){
     const region = (p.admin1 && p.admin1 !== '00') ? (admin1Names.get(country + '.' + p.admin1) || '') : '';
     let cp;
     if(grid){
+      // Ordre : point postal le plus proche, puis — faute de point assez proche — code de la LOCALITÉ de même nom
+      // (le plus précis : « Okushiri » 043-1401), puis code de la MUNICIPALITÉ (« Okushiri Chō » 043-1400).
       const near = nearest(grid, p.lat, p.lon, 15);
       if(near) cp = near.postcode;
-      else if(admin3Names && p.admin3 && admin3Names.has(p.admin1 + '|' + p.admin2 + '|' + p.admin3)
+      else if(postalByLocality && p.admin3 && postalByLocality.get(p.admin1 + '|' + p.admin2 + '|' + p.admin3 + '|' + normMuni(p.name))){
+        cp = postalByLocality.get(p.admin1 + '|' + p.admin2 + '|' + p.admin3 + '|' + normMuni(p.name));
+        parLocalite++;
+      } else if(admin3Names && p.admin3 && admin3Names.has(p.admin1 + '|' + p.admin2 + '|' + p.admin3)
         && postalByMunicipality.get(p.admin1 + '|' + p.admin2 + '|' + normMuni(admin3Names.get(p.admin1 + '|' + p.admin2 + '|' + p.admin3)))){
         cp = postalByMunicipality.get(p.admin1 + '|' + p.admin2 + '|' + normMuni(admin3Names.get(p.admin1 + '|' + p.admin2 + '|' + p.admin3)));
         parMunicipalite++;
-      } else if(postalByLocality && p.admin3 && postalByLocality.get(p.admin1 + '|' + p.admin2 + '|' + p.admin3 + '|' + normMuni(p.name))){
-        cp = postalByLocality.get(p.admin1 + '|' + p.admin2 + '|' + p.admin3 + '|' + normMuni(p.name));
-        parLocalite++;
       } else { sansCode++; continue; }
     } else if(SINGLE_CODE[country]){
       cp = SINGLE_CODE[country];
