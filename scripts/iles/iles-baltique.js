@@ -5306,7 +5306,7 @@ module.exports = {
    "note": "Ligne saisonnière (mai–octobre) ; la commune indique que les véhicules ne peuvent pas être chargés à Munalaid, le catamaran prend quelques véhicules au départ de Pärnu sur réservation ; aucune grille véhicules publiée lisible (tuuleliinid.ee). Durée/distance : ordres de grandeur."
   },
   {
-   "a": "continental",
+   "a": "saaremaa",
    "b": "abruka",
    "routeKey": "roomassaareAbruka",
    "name": "Roomassaare ↔ Abruka",
@@ -5909,7 +5909,7 @@ module.exports = {
    "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes », sauf Larsnes–Åram). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
   },
   {
-   "a": "continental",
+   "a": "gossa",
    "b": "finnoyaAlesund",
    "routeKey": "smageFinnoya",
    "name": "Småge ↔ Finnøya",

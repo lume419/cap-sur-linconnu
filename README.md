@@ -3575,6 +3575,30 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
 
 ## Ferries
 
+### Ports géolocalisés et distance maximale entre étapes (septembre 2026)
+
+Un trajet avec traversée compte aussi sa **partie par la route** dans la distance maximale entre étapes (80 km par
+défaut à vélo) : du point de départ au port le plus proche de sa rive, puis du port le plus proche de l'arrivée jusqu'à
+celle-ci. Avant, n'importe quel lieu de l'autre rive était accepté (à vélo : Sapporo → Yokohama, Lyon → Corse en une
+journée).
+
+- **Données** : `FERRY_PORTS` dans trip-data.js, construit par `scripts/build-ferry-ports.js` depuis
+  `scripts/ferry-ports/ports-*.js` — 700 liaisons sur 702, 1 550 ports, chacun avec la source qui établit que la ligne
+  le dessert (URL des commentaires de FERRY_ROUTES, sites des opérateurs). Recherche d'un lieu :
+  `node scripts/ferry-ports/find-port.js <PAYS> "<nom>"` (ou `--near lat,lon`).
+- **Coordonnées** : toujours celles des données de lieux du projet (GeoNames et sources nationales), jamais saisies à la
+  main ; le constructeur refuse un lieu introuvable, situé sur une autre masse terrestre (`landmassOf`, ou `zoneOf` pour
+  Ceuta, Melilla et Kaliningrad) ou ambigu. Quand la localité du port manque aux données, la plus proche du terminal
+  (situé d'après OpenStreetMap) sur la bonne rive est retenue.
+- **Limites** : un port est approché par le centre de sa localité, parfois éloignée du terminal quand les données sont
+  clairsemées (de 25 à 70 km pour Kurupukari, Punta Delgada, Middle Strait, K'gari, Olkhon, Landeyjahöfn…, ou le centre de
+  la vaste commune de Saint-Laurent-du-Maroni) ; les ports de chaque rive sont choisis indépendamment (une paire de ports
+  non desservie ensemble peut être retenue) ; la distance et la durée affichées d'une étape avec ferry restent celles de
+  la traversée seule. Sans ports connus (Esashi ↔ Okushiri, Valdez ↔ Tatitlek : localités absentes des données),
+  estimation par la distance à vol d'oiseau moins la traversée.
+- **Corrigé au passage** : Roomassaare ↔ Abruka part de Saaremaa et Småge ↔ Finnøya de Gossa, pas du continent
+  (`scripts/iles/iles-baltique.js`).
+
 Une île n'est jamais reliée au continent par la route : le moteur de distance (vol d'oiseau × 1,17,
 voir `roadDistanceKm` dans `app.js`) n'a par nature aucune idée de la mer. Sans ce qui suit, un
 trajet pouvait "traverser" la Méditerranée ou l'Atlantique comme une route normale, silencieusement

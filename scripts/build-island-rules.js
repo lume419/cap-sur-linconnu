@@ -55,7 +55,9 @@ const keys = new Set(['continental']);
 // écrites à la main dans FERRY_ROUTES. Un fichier de scripts/iles peut ainsi ajouter une liaison vers ces îles.
 const ENGINE_SRC = fs.readFileSync(path.join(__dirname, '..', 'lib', 'trip-engine.js'), 'utf8');
 const DATA_SRC = fs.readFileSync(TRIP_DATA, 'utf8');
-const MANUAL_FERRY_SRC = DATA_SRC.replace(/\/\/ BEGIN AUTO FERRIES[\s\S]*?\/\/ END AUTO FERRIES/, '');
+// Le bloc FERRY_PORTS (scripts/build-ferry-ports.js) reprend les clés de toutes les liaisons : retiré aussi.
+const MANUAL_FERRY_SRC = DATA_SRC.replace(/\/\/ BEGIN AUTO FERRIES[\s\S]*?\/\/ END AUTO FERRIES/, '')
+  .replace(/\/\/ BEGIN AUTO FERRY PORTS[\s\S]*?\/\/ END AUTO FERRY PORTS/, '');
 const manualPairs = new Set();
 (MANUAL_FERRY_SRC.slice(MANUAL_FERRY_SRC.indexOf('var FERRY_ROUTES')).match(/^\s*'([A-Za-z0-9]+\|[A-Za-z0-9]+)':/gm) || [])
   .forEach(m => { const p = m.trim().slice(1, -2); manualPairs.add(p); p.split('|').forEach(k => keys.add(k)); });
