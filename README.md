@@ -4269,6 +4269,13 @@ distance max. Désormais : assez d'étapes pour revenir (`stopsForReturn`), chaq
 sauts restants (`canStillReturn`), jusqu'à 5 essais de construction avant l'itinéraire de secours, et l'exception du retour ne
 vaut que pour un séjour PRÉVU à une seule étape.
 
+**Éloignement impossible à concilier avec le retour** (ex. 1 000 km, 300 km max entre étapes, 3 jours) : il faudrait plus
+d'étapes pour revenir que le séjour n'a de nuits. Le moteur faisait alors 5 essais sur un rayon de 1 400 km (~7 s) avant un
+itinéraire de secours qui ignorait l'éloignement sans le dire. Ce cas est désormais détecté d'emblée (`LAST_TRIP_DIAGNOSTIC`,
+réponse en moins de 0,1 s) et le formulaire affiche le message existant « Impossible : avec seulement 3 jours (2 nuits), on ne
+peut pas s'éloigner d'au moins 1000 km puis revenir dans le rayon/temps de retour choisi (300 km)… », la valeur citée étant la
+plus petite du rayon et de la distance max entre étapes.
+
 **Performance des bornes** : vérifier les bornes de milliers de candidats (balayage de toutes les bornes à ~200 km) rendait un
 tirage électrique de 76 à 93 s. Le plan de recharge échantillonne désormais la ligne directe tous les 10 km (bornes à moins de
 15 km de chaque point) et n'est vérifié qu'au tirage, candidat par candidat dans un ordre aléatoire (`pickCandidate`) :

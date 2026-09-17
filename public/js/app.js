@@ -2619,6 +2619,13 @@
       legs = data.legs || [];
       lastDepartureTension = data.departureTension || null;
       lastTripNotices = data.notices || [];
+      // Distance d'éloignement impossible à concilier avec le retour (pas assez de nuits pour revenir par étapes).
+      if(legs.length === 0 && data.minDistanceUnreachable){
+        showMinDistanceError(t('error.minDistanceTooFar', {
+          context: t(totalNights === 1 ? 'form.dates.duration1' : 'form.dates.durationN', {days: days, nights: totalNights}),
+          min: minDistanceKm, radius: data.returnCapKm }));
+        return;
+      }
       if(legs.length === 0 && data.tensionBlocked){
         showCityError(t('error.tensionBlocked'));
         return;
