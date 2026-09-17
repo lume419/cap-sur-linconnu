@@ -4254,6 +4254,33 @@ sont pas soumises. Quand le tirage s'interrompt faute de candidat, les dernière
 limite (c'était la source des étapes de plus de 1 000 km). Contrôle mondial après correction : **0 étape au-delà du maximum**
 sur 3 192 par mode, 80 km au plus à vélo.
 
+**Premier trajet et distance d'éloignement** (choix de l'utilisateur) : quand une distance d'éloignement est renseignée, le
+**premier trajet peut dépasser la distance max entre étapes** (ex. 1 000 km d'éloignement avec 400 km max : premier trajet de
+1 040 km, puis tous les trajets suivants et le retour ≤ 400 km) — pour bien commencer un voyage. Les bornes restent exigées en
+voiture électrique. Exception inévitable : un séjour à une seule étape (ou d'une journée) revient par la même distance.
+**Premier trajet de plus de 6 h de route** (hors traversée en ferry) : au moins **2 nuits à la première étape**, pour visiter le
+lendemain de l'arrivée — nuit prise à l'étape qui en a le plus, sinon retrait de la dernière étape (ou d'une étape
+intermédiaire) si le trajet qui la contourne reste permis ; sans effet sur un séjour d'une nuit ou si le maximum de jours par
+ville est 1.
+
+**Retour depuis un premier trajet lointain** : après un premier trajet de 1 000 km, les étapes suivantes étaient tirées au hasard
+sans se rapprocher du départ — le séjour retombait sur une étape unique avec un retour de 1 310 km, au-delà du rayon et de la
+distance max. Désormais : assez d'étapes pour revenir (`stopsForReturn`), chaque étape doit laisser un retour possible avec les
+sauts restants (`canStillReturn`), jusqu'à 5 essais de construction avant l'itinéraire de secours, et l'exception du retour ne
+vaut que pour un séjour PRÉVU à une seule étape.
+
+**Performance des bornes** : vérifier les bornes de milliers de candidats (balayage de toutes les bornes à ~200 km) rendait un
+tirage électrique de 76 à 93 s. Le plan de recharge échantillonne désormais la ligne directe tous les 10 km (bornes à moins de
+15 km de chaque point) et n'est vérifié qu'au tirage, candidat par candidat dans un ordre aléatoire (`pickCandidate`) :
+**0,2 à 0,7 s** par tirage.
+
+**Tests** (15 scénarios × 10 tirages depuis Paris, Berlin, Madrid : 1 000 / 800 km d'éloignement en voiture, 200 km à vélo avec
+80 km de rayon, 700 km en électrique) : aucun retour au-delà du rayon, aucun trajet suivant au-delà de la distance max ;
+éloignement obtenu dans 70 à 100 % des tirages à vélo, 90 à 100 % en voiture. **Limite** : sur un séjour court et lointain
+(5 jours, 800 km, rayon 300 km), la 2e nuit n'est possible que dans 20 à 70 % des tirages — les 4 nuits servent aux étapes du
+retour, et retirer une étape ferait dépasser la distance max ou le rayon. Contrôle mondial (239 pays × 6 modes) inchangé :
+0 étape au-delà du maximum.
+
 **Voiture électrique : recharges sur bornes réelles** — `data/charging-stations.txt`, **222 512 bornes dans 121 pays** tirées de
 l'export public d'**Open Charge Map** (`scripts/fetch-charging-stations.js`, archive lue en flux). OpenStreetMap était la
 première source visée : instances Overpass publiques saturées (504, « server too busy »), extraction impossible dans des délais

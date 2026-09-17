@@ -2577,11 +2577,9 @@
       return;
     }
 
+    // Distance max entre étapes : le premier trajet peut la dépasser quand une distance d'éloignement est renseignée
+    // (voir legAllowed côté serveur).
     var maxLegKm = parseFloat(els.legDistance.value) || defaultLegKm();
-    if(minDistanceKm > 0 && minDistanceKm > maxLegKm){
-      showMinDistanceError(t('error.minDistanceOverLeg', {min: minDistanceKm, max: maxLegKm}));
-      return;
-    }
 
     var minDaysPerCity = parseInt(els.minDaysPerCity.value, 10) || 1;
     var maxDaysPerCity = parseInt(els.maxDaysPerCity.value, 10) || 3;
