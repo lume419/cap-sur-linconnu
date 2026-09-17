@@ -300,13 +300,20 @@
   // faire apparaître ici automatiquement, aucune liste séparée à tenir à jour en double. EUR forcé
   // en tête (implicite pour la plupart des pays, jamais explicitement présent dans COUNTRIES sous
   // forme de `currency:'EUR'`, sinon absent de cette liste faute d'apparaître littéralement dans un
-  // champ `currency`), le reste dans l'ordre alphabétique du code ISO.
+  // champ `currency`). Toutes les devises dans l'ordre alphabétique du code ISO ; l'ordre affiché
+  // (« Automatique », puis la devise du pays de la langue d'interface, puis les autres) est calculé
+  // à l'ouverture du panneau (voir renderCurrencyList), la langue pouvant changer entre-temps.
   var CURRENCY_OPTIONS = (function(){
     var set = { EUR: true };
     COUNTRY_LIST.forEach(function(cc){ set[COUNTRIES[cc].currency || 'EUR'] = true; });
-    var codes = Object.keys(set).filter(function(c){ return c !== 'EUR'; }).sort();
-    return ['EUR'].concat(codes);
+    return Object.keys(set).sort();
   })();
+  // Devise du pays associé à la langue d'interface (I18N.country : de -> DE -> EUR, ja -> JP -> JPY…) ; EUR à défaut.
+  function languageCurrency(){
+    var cc = window.I18N.country ? window.I18N.country() : '';
+    var cur = (cc && COUNTRIES[cc]) ? (COUNTRIES[cc].currency || 'EUR') : 'EUR';
+    return CURRENCY_OPTIONS.indexOf(cur) !== -1 ? cur : 'EUR';
+  }
 
   // Langue Wikipédia utilisée pour les photos/articles d'un lieu (voir /api/photo côté serveur) :
   // celle choisie par le visiteur pour l'INTERFACE (voir js/i18n.js — détectée depuis son
@@ -370,8 +377,11 @@
       });
       currencyListEl.appendChild(li);
     }
+    // « Automatique » (par défaut : devise du pays de chaque étape), puis la devise du pays de la langue d'interface,
+    // puis toutes les autres par ordre alphabétique.
     addOption(null, t('currency.auto'));
-    CURRENCY_OPTIONS.forEach(function(code){
+    var first = languageCurrency();
+    [first].concat(CURRENCY_OPTIONS.filter(function(c){ return c !== first; })).forEach(function(code){
       var glyph = CURRENCY_GLYPH[code];
       addOption(code, glyph ? code + ' ' + glyph : code);
     });
