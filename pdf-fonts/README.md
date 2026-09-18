@@ -18,3 +18,9 @@ Copyright des polices : © Google LLC et les auteurs du projet Noto ; Noto Sans 
 Ces fichiers ne sont jamais servis au navigateur (règle `pdf-fonts` du bloc `.htaccess-security-block.txt`). À ne pas
 confondre avec `public/fonts/`, servi au navigateur à l'adresse `/fonts/` pour l'affichage du site (tifinagh, éthiopien,
 tibétain, thâna, yi).
+
+Cinq fichiers (`NotoSansEthiopic`, `NotoSansThaana`, `NotoSansTifinagh`, `NotoSansYi`, `NotoSerifTibetan`, 1,2 Mo au
+total) existent donc à l'identique dans les deux dossiers, octet pour octet. Ce doublon est VOULU : `public/fonts/` est
+public et sert l'affichage du site, `pdf-fonts/` est bloqué à la racine et sert la génération des PDF. Les fusionner
+obligerait soit à exposer au web des polices qui n'ont pas à l'être, soit à faire dépendre la génération des PDF d'un
+fichier que l'on croit pouvoir retirer du site sans conséquence.

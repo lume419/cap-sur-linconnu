@@ -11,6 +11,8 @@ const PDFDocument = require('pdfkit');
 const PdfText = require('./lib/pdf-text.js');
 const tripEngine = require('./lib/trip-engine.js');
 const searchIndex = require('./lib/search-index.js');
+const landGrid = require('./lib/land-grid.js'); // grille terre/mer — état exposé par GET /api/status
+const tollGrid = require('./lib/toll-grid.js'); // grille des voies à péage — état exposé par GET /api/status
 const TripDataCountries = require('./public/js/trip-data.js').COUNTRIES;
 const TripDataTollSource = require('./public/js/trip-data.js').TOLL_SOURCE;
 const TripData = require('./public/js/trip-data.js');
@@ -123,6 +125,7 @@ const OUTBOUND_GROUPS = [
   { name: 'photo', routes: ['/api/photo'], max: 3, queue: 150, waitMs: 20000 }
 ];
 const OUTBOUND_MAX_HOLD_MS = 30000;
+const OUTBOUND_ABORT_HOLD_MS = 5000; // client parti : durée restante accordée à l'appel sortant avant de rendre la place
 const outboundByIp = new Map(); // groupe|ip -> { active, waiting: [fonction de reprise] }
 app.use('/api/', function(req, res, next){
   const p = ('/api/' + req.path).toLowerCase().replace(/\/{2,}/g, '/');
@@ -153,9 +156,17 @@ app.use('/api/', function(req, res, next){
     }
     if(state.active === 0 && state.waiting.length === 0) outboundByIp.delete(key);
   }
-  // 'finish' seulement (et non 'close') : un client qui coupe la connexion ne libère pas la place, puisque l'appel
-  // sortant, lui, continue jusqu'à sa propre limite de temps.
+  // Fin du traitement ('finish'), ou fermeture par le client ('close') : dans ce dernier cas la place n'est rendue
+  // qu'au bout de OUTBOUND_ABORT_HOLD_MS, le temps que l'appel sortant déjà lancé se termine. Rendre la place
+  // immédiatement annulerait la limite (il suffirait de couper la connexion) ; ne jamais la rendre bloquait la même IP
+  // pendant 30 s après un simple changement de page (mesuré : 429 au bout de 20,02 s).
   res.on('finish', release);
+  res.on('close', function(){
+    if(finished || !started || res.writableEnded) return;
+    if(holdTimer) clearTimeout(holdTimer);
+    holdTimer = setTimeout(release, OUTBOUND_ABORT_HOLD_MS);
+    holdTimer.unref();
+  });
   if(state.active < group.max) return start();
   if(state.waiting.length >= group.queue){
     finished = true;
@@ -1616,12 +1627,11 @@ function buildTripPdf(doc, trip){
 
     if(leg.tollInfo){
       const t = leg.tollInfo;
-      const barrierTxt = t.fluxLibre ? 'péage à flux libre, sans barrière' : 'péage classique avec barrière';
       const amountTxt = (Math.round((Number(t.amount) || 0) * 10) / 10).toFixed(1).replace('.', ',');
-      const savedMin = Math.round(Number(t.savedMin) || 0);
-      const tollTxt = t.enabled
-        ? ('Péage estimé : ~' + amountTxt + ' € (' + barrierTxt + ') — environ ' + savedMin + ' min gagnées par rapport à un trajet sans péage.')
-        : ('Sans péage (option décochée) : environ ' + savedMin + ' min auraient pu être gagnées en autoroute (~' + amountTxt + ' €, ' + barrierTxt + ').');
+      const tollTxt = (t.enabled
+        ? 'Péage estimé : ~' + amountTxt + ' € si vous empruntez les sections à péage de ce trajet.'
+        : 'Sans péage (option décochée) : les sections à péage de ce trajet coûteraient environ ' + amountTxt + ' €.') +
+        ' Estimation au kilomètre : le montant réel dépend des sections réellement empruntées.';
       // Barème des pays concernés : codes vérifiés contre TOLL_SOURCE, jamais de texte venu du client.
       const tollSources = (Array.isArray(t.countries) ? t.countries : []).slice(0, 5)
         .map(c => Object.prototype.hasOwnProperty.call(TripDataTollSource, c) ? TripDataTollSource[c] : null)
@@ -1885,6 +1895,8 @@ function openDiskSearchIndex(){
   } catch(err){
     diskSearchIndex = null;
     startupStatus.searchIndexError = err.message;
+    // Index présent mais incohérent (tailles vérifiées depuis le 7e audit) : dit dans le journal, puis reconstruit.
+    console.warn('[search-index] index sur disque refusé :', err.message);
   }
   startupStatus.searchIndex = diskSearchIndex ? 'disque (' + diskSearchIndex.entries + ' entrées)' : 'absent ou périmé';
   return diskSearchIndex;
@@ -1906,13 +1918,18 @@ function buildSearchIndexInChild(){
         acquired = true;
       } catch(e){
         if(e.code !== 'EEXIST') throw e;
-        var lockAge = Infinity, lockPid = NaN, lockAlive = false;
+        var lockAge = Infinity, lockPid = NaN, lockAlive = false, lockPids = [];
         try {
           lockAge = Date.now() - fs.statSync(SEARCH_INDEX_LOCK).mtimeMs;
-          lockPid = parseInt(fs.readFileSync(SEARCH_INDEX_LOCK, 'utf8'), 10);
+          // Deux lignes depuis le 7e audit : PID du serveur, puis PID de l'enfant qui construit (voir plus bas).
+          lockPids = fs.readFileSync(SEARCH_INDEX_LOCK, 'utf8').split('\n').map(function(l){ return parseInt(l, 10); });
+          lockPid = lockPids[0];
         } catch(e2){ if(e2.code === 'ENOENT') continue; } // retiré entre-temps : nouvelle tentative
-        if(lockPid > 0){ try { process.kill(lockPid, 0); lockAlive = true; } catch(e3){ lockAlive = e3.code === 'EPERM'; } }
-        else if(lockAge < 5000) lockAlive = true; // verrou vide tout juste créé (PID pas encore écrit) : pas un orphelin
+        lockPids.forEach(function(pid){
+          if(!(pid > 0) || lockAlive) return;
+          try { process.kill(pid, 0); lockAlive = true; } catch(e3){ lockAlive = e3.code === 'EPERM'; }
+        });
+        if(!(lockPid > 0) && lockAge < 5000) lockAlive = true; // verrou vide tout juste créé (PID pas encore écrit) : pas un orphelin
         if(lockAge < 30 * 60 * 1000 && lockAlive){
           startupStatus.build = 'construction en cours dans un autre processus';
           var waited = 0;
@@ -1940,6 +1957,10 @@ function buildSearchIndexInChild(){
     console.log('[search-index] index absent ou périmé : construction en arrière-plan…');
     var t0 = Date.now(), output = '';
     var child = require('child_process').spawn(process.execPath, ['--max-old-space-size=1024', path.join(__dirname, 'scripts', 'build-search-index.js')], { cwd: __dirname });
+    // PID de l'enfant ajouté au verrou (7e audit) : si le serveur meurt en cours de construction, le verrou ne portait
+    // plus qu'un PID mort et un autre démarrage le jugeait orphelin — deux constructions simultanées dans le même
+    // dossier. La 1re ligne reste le PID du serveur (contrat avec scripts/build-search-index.js, qui la compare à son ppid).
+    if(child.pid){ try { fs.writeFileSync(SEARCH_INDEX_LOCK, process.pid + '\n' + child.pid); } catch(e){} }
     function collect(chunk){ output = (output + chunk.toString()).slice(-2000); }
     child.stdout.on('data', collect);
     child.stderr.on('data', collect);
@@ -2008,7 +2029,12 @@ app.get('/api/status', function(req, res){
     tripsReady: tripEngine.isReady(),
     chargers: startupStatus.chargers || 0,
     precompressed: startupStatus.precompressed || null,
-    pdfFonts: startupStatus.pdfFonts || null
+    pdfFonts: startupStatus.pdfFonts || null,
+    // Grille terre/mer : « indisponible » signifie qu'aucune traversée maritime n'est détectée (7e audit) — une
+    // information à connaître de l'extérieur, le contrôle échouant alors en silence.
+    landGrid: landGrid.status(),
+    // Grille des voies à péage (OpenStreetMap) : « indisponible » signifie qu'aucun péage n'est estimé.
+    tollGrid: tollGrid.status()
   });
 });
 
@@ -2120,6 +2146,31 @@ engineStartup.then(precompressStaticFiles).catch(function(err){ console.warn('[p
       console.warn('[pdf] polices :', err.message);
     }
   });
+// Quota de débit des GROS fichiers statiques (3e audit du 17/09/2026) : `/js/i18n.js` fait 11 Mo non compressé et le
+// limiteur ne couvrait que /api/ — un client refusant la compression (Accept-Encoding: identity) pouvait en tirer
+// autant de fois qu'il voulait. 30 requêtes par minute et par IP sur ces fichiers, bien au-delà d'un usage réel (le
+// navigateur les met en cache et les revalide).
+const BIG_STATIC_RE = /^\/(js\/(i18n|trip-data|app)\.js|css\/style\.css)$/;
+const bigStaticHits = new Map();
+setInterval(function(){
+  const now = Date.now();
+  for(const [ip, hits] of bigStaticHits){ if(!hits.length || now - hits[hits.length - 1] > 60000) bigStaticHits.delete(ip); }
+}, 60000).unref();
+app.use(function(req, res, next){
+  if(!BIG_STATIC_RE.test(req.path)) return next();
+  const ip = req.ip || 'inconnu';
+  const now = Date.now();
+  let hits = bigStaticHits.get(ip);
+  if(!hits){ hits = []; bigStaticHits.set(ip, hits); }
+  while(hits.length && now - hits[0] > 60000) hits.shift();
+  if(hits.length >= 30){
+    res.setHeader('Retry-After', '60');
+    return res.status(429).type('text/plain').send('Too many requests');
+  }
+  hits.push(now);
+  next();
+});
+
 app.use(function(req, res, next){
   if(req.method !== 'GET' && req.method !== 'HEAD') return next();
   const entry = Object.prototype.hasOwnProperty.call(PRECOMPRESSED_FILES, req.path) ? precompressed.get(req.path) : null;
@@ -2149,31 +2200,6 @@ app.use(function(req, res, next){
   });
 });
 
-// Quota de débit des GROS fichiers statiques (3e audit du 17/09/2026) : `/js/i18n.js` fait 11 Mo non compressé et le
-// limiteur ne couvrait que /api/ — un client refusant la compression (Accept-Encoding: identity) pouvait en tirer
-// autant de fois qu'il voulait. 30 requêtes par minute et par IP sur ces fichiers, bien au-delà d'un usage réel (le
-// navigateur les met en cache et les revalide).
-const BIG_STATIC_RE = /^\/(js\/(i18n|trip-data|app)\.js|css\/style\.css)$/;
-const bigStaticHits = new Map();
-setInterval(function(){
-  const now = Date.now();
-  for(const [ip, hits] of bigStaticHits){ if(!hits.length || now - hits[hits.length - 1] > 60000) bigStaticHits.delete(ip); }
-}, 60000).unref();
-app.use(function(req, res, next){
-  if(!BIG_STATIC_RE.test(req.path)) return next();
-  const ip = req.ip || 'inconnu';
-  const now = Date.now();
-  let hits = bigStaticHits.get(ip);
-  if(!hits){ hits = []; bigStaticHits.set(ip, hits); }
-  while(hits.length && now - hits[0] > 60000) hits.shift();
-  if(hits.length >= 30){
-    res.setHeader('Retry-After', '60');
-    return res.status(429).type('text/plain').send('Too many requests');
-  }
-  hits.push(now);
-  next();
-});
-
 app.use(express.static(path.join(__dirname, 'public'), {
   // Les données (communes.txt, communes-XX.txt, featured.txt) sont volumineuses mais
   // Le HTML/CSS/JS change à chaque mise à jour de l'app : un cache d'1h dessus faisait qu'un simple rechargement de page
@@ -2194,6 +2220,34 @@ app.use(function(err, req, res, next){
   res.status(status).json({ error: status === 500 ? 'internal error' : 'bad request' });
 });
 
-app.listen(PORT, () => {
+const httpServer = app.listen(PORT, () => {
   console.log(`Cap sur l'Inconnu — http://localhost:${PORT}`);
+});
+// Port déjà pris, droits insuffisants… : sans écouteur 'error', Node relançait l'exception plus loin, sans message clair
+// (7e audit). Le process s'arrête, l'hébergeur (Passenger) le relance.
+httpServer.on('error', function(err){
+  console.error('[serveur] écoute impossible sur le port ' + PORT + ' :', err.code || err.message);
+  process.exit(1);
+});
+// Arrêt demandé par l'hébergeur (redémarrage cPanel, déploiement) : les réponses en cours vont au bout, puis le process
+// s'arrête. Sans cela, Passenger coupait les connexions ouvertes (export PDF de plusieurs secondes perdu).
+let shuttingDown = false;
+['SIGTERM', 'SIGINT'].forEach(function(sig){
+  process.on(sig, function(){
+    if(shuttingDown) return process.exit(0);
+    shuttingDown = true;
+    console.log('[serveur] ' + sig + ' : arrêt en cours…');
+    httpServer.close(function(){ process.exit(0); });
+    setTimeout(function(){ process.exit(0); }, 10000).unref(); // filet : connexions gardées ouvertes
+  });
+});
+// Une promesse rejetée sans catch termine le process sous Node 20+ : le serveur repartait de zéro (~40 s de chargement)
+// pour une simple erreur d'appel sortant. Journalisée, sans arrêt.
+process.on('unhandledRejection', function(reason){
+  console.error('[promesse non traitée]', reason && reason.stack ? reason.stack : String(reason));
+});
+// Exception non rattrapée : l'état du process n'est plus sûr, on journalise puis on laisse l'hébergeur relancer.
+process.on('uncaughtException', function(err){
+  console.error('[exception non rattrapée]', err && err.stack ? err.stack : String(err));
+  process.exit(1);
 });

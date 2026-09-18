@@ -18,10 +18,11 @@ const LOCK_MAX_AGE_MS = 30 * 60 * 1000; // même durée que server.js
 
 // PID du verrou s'il désigne une construction en cours (verrou récent, processus vivant), sinon null.
 function activeLockPid(){
-  let st, pid;
+  let st, pid, pids = [];
   try {
     st = fs.statSync(LOCK);
-    pid = parseInt(fs.readFileSync(LOCK, 'utf8'), 10);
+    pids = fs.readFileSync(LOCK, 'utf8').split('\n').map(function(l){ return parseInt(l, 10); });
+    pid = pids[0];
   } catch(e){
     if(e.code === 'ENOENT') return null;
     throw e;
@@ -29,7 +30,14 @@ function activeLockPid(){
   if(Date.now() - st.mtimeMs >= LOCK_MAX_AGE_MS) return null;
   // Verrou vide ou illisible : tout juste créé (PID pas encore écrit) pendant 5 s, comme côté serveur ; orphelin ensuite.
   if(!(pid > 0)) return Date.now() - st.mtimeMs < 5000 ? -1 : null;
-  try { process.kill(pid, 0); return pid; } catch(e){ return e.code === 'EPERM' ? pid : null; }
+  // Le serveur écrit « PID serveur \n PID de l'enfant » (7e audit) : le verrou est vivant si l'un des deux l'est, mais
+  // c'est toujours la 1re ligne qui est comparée au ppid ci-dessous.
+  var alive = false;
+  pids.forEach(function(p){
+    if(!(p > 0) || alive) return;
+    try { process.kill(p, 0); alive = true; } catch(e){ alive = e.code === 'EPERM'; }
+  });
+  return alive ? pid : null;
 }
 
 // true : verrou pris par ce processus (à retirer à la fin) ; 'parent' : verrou du serveur parent ; false : occupé.

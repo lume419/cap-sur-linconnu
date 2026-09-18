@@ -1319,10 +1319,23 @@
       // en page en espaçant les trois uniformément au lieu de "nom à gauche, cp à droite".
       var nameSpan = document.createElement('span');
       nameSpan.className = 'suggest-name';
-      var flagSpan = document.createElement('span');
+      // Drapeau : image SVG hébergée localement (public/img/flags/XX.svg, circle-flags, licence MIT), comme le
+      // sélecteur de langue. Les émojis drapeau utilisés jusqu'au 7e audit (18/09/2026) ne s'affichent PAS sous
+      // Windows — le système ne fournit aucune image pour les paires d'indicateurs régionaux, et le navigateur
+      // retombe sur deux lettres encadrées. Si un fichier venait à manquer, l'émoji reprend sa place (onerror).
+      var flagSpan = document.createElement('img');
       flagSpan.className = 'suggest-flag';
-      flagSpan.textContent = countryFlagEmoji(r.country);
+      flagSpan.src = 'img/flags/' + String(r.country || '').toLowerCase() + '.svg';
+      flagSpan.alt = '';
+      flagSpan.loading = 'lazy';
       flagSpan.setAttribute('aria-hidden','true'); // décoratif : le nom du pays est repris en texte dans le title ci-dessous
+      flagSpan.addEventListener('error', function(){
+        var repli = document.createElement('span');
+        repli.className = 'suggest-flag';
+        repli.textContent = countryFlagEmoji(r.country);
+        repli.setAttribute('aria-hidden','true');
+        if(flagSpan.parentNode) flagSpan.parentNode.replaceChild(repli, flagSpan);
+      });
       var nameTextSpan = document.createElement('span');
       nameTextSpan.textContent = r.name;
       // Trouvé par un nom dans une autre langue (« san » -> Xanten, alias bas-allemand « Santen ») : ce nom est
@@ -1741,7 +1754,7 @@
     tick();
   }
   var revealLabelKey = null;
-  function setRevealLabel(key){ revealLabelKey = key; els.rouletteLabel.textContent = t(key); }
+  function setRevealLabel(key){ revealLabelKey = key; els.rouletteLabel.textContent = t(key); els.rouletteLabel.hidden = false; }
   function setRevealClue(key){ revealClueKey = key; els.rouletteClue.textContent = t(key); }
   // Seul le résultat final est annoncé aux lecteurs d'écran (région #reveal-announce, aria-live) : #reveal n'est plus
   // une région live, qui lisait chaque nom de la roulette.
@@ -2619,11 +2632,10 @@
 
       if(firstLeg.tollInfo){
         var ti = firstLeg.tollInfo;
-        var barrierTxt = t(ti.fluxLibre ? 'toll.barrierFree' : 'toll.barrierClassic');
         var amountTxt = formatEuro(ti.amount);
         var tollRow = document.createElement('div');
         tollRow.className = 'day-row';
-        var tollTxt = t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: amountTxt, barrier: barrierTxt, min: ti.savedMin});
+        var tollTxt = t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: amountTxt}) + ' ' + t('toll.estimateNote');
         // Barème du ou des pays traversés (ex. Autostrade per l'Italia), pas celui d'ASF pour tous.
         var tollSources = (Array.isArray(ti.countries) ? ti.countries : [firstLeg.country])
           .map(function(c){ return TOLL_SOURCE[c]; }).filter(function(x, i, a){ return x && a.indexOf(x) === i; });
@@ -2837,9 +2849,23 @@
   // L'instance de carte est créée une seule fois et réutilisée d'un tirage à l'autre (clearLayers
   // sur le calque de tracé), Leaflet n'acceptant pas d'être réinitialisé sur un conteneur déjà actif.
   var tripMap = null, tripMapLayer = null;
+  // Tracés conservés pour leur rendre la couleur du thème courant (voir l'écouteur 'theme:change' plus bas).
+  var tripRouteLine = null, tripReturnLine = null;
 
   function cssVar(name){
     return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  }
+
+  // Changement de thème (bouton, ou bascule du système en mode automatique) : les couleurs du tracé viennent de
+  // variables CSS lues À L'INSTANT DU DESSIN — sans ceci, l'aller restait vert clair sur un fond sombre (7e audit).
+  function refreshMapColors(){
+    if(tripRouteLine) tripRouteLine.setStyle({ color: cssVar('--accent-3') });
+    if(tripReturnLine) tripReturnLine.setStyle({ color: cssVar('--accent') });
+  }
+  window.addEventListener('theme:change', refreshMapColors);
+  if(window.matchMedia){
+    var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    if(darkQuery.addEventListener) darkQuery.addEventListener('change', refreshMapColors);
   }
 
   function ensureTripMap(){
@@ -2878,7 +2904,7 @@
     var routeLatLngs = startLL ? [startLL] : [];
     legs.forEach(function(leg, idx){ if(!leg.isReturn && legLLs[idx]) routeLatLngs.push(legLLs[idx]); });
     if(routeLatLngs.length > 1){
-      L.polyline(routeLatLngs, {
+      tripRouteLine = L.polyline(routeLatLngs, {
         color: cssVar('--accent-3'), weight: 3, opacity: 0.9, dashArray: '1 8', lineCap: 'round'
       }).addTo(tripMapLayer);
     }
@@ -2886,7 +2912,7 @@
     var lastStopLL = null;
     for(var i=legs.length-1;i>=0;i--){ if(!legs[i].isReturn && legLLs[i]){ lastStopLL = legLLs[i]; break; } }
     if(lastStopLL && startLL){
-      L.polyline([lastStopLL, startLL], {
+      tripReturnLine = L.polyline([lastStopLL, startLL], {
         color: cssVar('--accent'), weight: 2.2, opacity: 0.9, dashArray: '6 6', lineCap: 'round'
       }).addTo(tripMapLayer);
       var midLL = L.latLng((lastStopLL.lat+startLL.lat)/2, (lastStopLL.lng+startLL.lng)/2);
@@ -3024,7 +3050,7 @@
       var tollSources = (Array.isArray(ti.countries) ? ti.countries : [leg.country])
         .map(function(c){ return TOLL_SOURCE[c]; }).filter(function(x, i, a){ return x && a.indexOf(x) === i; });
       out.toll = t('toll.label', {source: tollSources.join(' + ') || '—'}) + ' — ' +
-        t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: formatEuro(ti.amount), barrier: t(ti.fluxLibre ? 'toll.barrierFree' : 'toll.barrierClassic'), min: ti.savedMin});
+        t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: formatEuro(ti.amount)}) + ' ' + t('toll.estimateNote');
     }
     if(leg.chargeInfo){
       var c = leg.chargeInfo;
@@ -3418,6 +3444,9 @@
     if(!payload) return;
     exportInProgress = true;
     els.exportPdfBtn.disabled = true;
+    // aria-busy : le bouton devient inerte plusieurs secondes pendant la génération ; sans cela, rien n'indiquait à un
+    // lecteur d'écran que quelque chose était en cours (7e audit).
+    els.exportPdfBtn.setAttribute('aria-busy', 'true');
     els.exportPdfBtn.textContent = t('export.generating');
     fetch('/api/export-pdf', {
       method: 'POST',
@@ -3445,7 +3474,13 @@
     }).then(function(){
       exportInProgress = false;
       els.exportPdfBtn.disabled = false;
+      els.exportPdfBtn.removeAttribute('aria-busy');
       restoreExportButton();
+      // Désactiver le bouton pendant la génération faisait retomber le focus clavier sur <body> : il lui est rendu,
+      // mais SEULEMENT si le visiteur n'est pas reparti ailleurs entre-temps (7e audit).
+      if(document.activeElement === document.body || !document.activeElement){
+        try { els.exportPdfBtn.focus({ preventScroll: true }); } catch(err2){}
+      }
     });
   });
 

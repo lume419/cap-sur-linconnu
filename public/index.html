@@ -8,9 +8,13 @@
      du visiteur qui décide, via la media query CSS. -->
 <script>(function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cap sur l'Inconnu — générateur de road trip mystère</title>
-<meta name="description" content="Générateur de road trip surprise basé sur de vraies communes de France, d'Andorre, d'Espagne, du Portugal, de Belgique, des Pays-Bas, du Luxembourg, de Suisse, d'Allemagne, d'Italie, d'Autriche, de Saint-Marin, du Liechtenstein, de Monaco, de Malte, de Guernesey, de Jersey, de République tchèque, de Pologne, de Slovaquie, de Hongrie, de Slovénie, de Croatie, de Bosnie-Herzégovine, du Royaume-Uni, d'Irlande et de l'île de Man, de vrais points d'intérêt OpenStreetMap et les vrais tarifs de péage.">
+<title>Cap sur l'inconnu — générateur de road trip mystère</title>
+<meta name="description" content="Générateur de road trip mystère : un itinéraire tiré au sort jour par jour, sur de vraies communes de 239 pays et territoires, avec de vrais points d'intérêt OpenStreetMap, ferries et péages.">
 <link rel="canonical" href="https://road.lume419.fr/">
+<!-- Couleur d'habillage du navigateur (barre d'adresse mobile), reprise du fond de chaque thème — sans elle, le
+     navigateur gardait une barre blanche au-dessus d'une page sombre. -->
+<meta name="theme-color" content="#E4DFC9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#12191A" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%A7%AD%3C/text%3E%3C/svg%3E">
 
 <!-- Carte de partage (Open Graph / Twitter Card) : l'aperçu affiché quand le lien est partagé sur
@@ -266,7 +270,9 @@
       <path d="M50 10 L58 50 L50 90 L42 50 Z" fill="var(--accent)"/>
       <text x="50" y="10" text-anchor="middle" font-size="9" fill="var(--ink-faint)" font-family="ui-sans-serif">N</text>
     </svg>
-    <div class="roulette-label" id="roulette-label" data-i18n="reveal.drawing">Tirage en cours…</div>
+    <!-- Masqué tant qu'aucun tirage n'a commencé (7e audit du 18/09/2026) : la page d'accueil affichait « Tirage
+         en cours… » alors que rien ne tournait. Affiché par setRevealLabel() au premier tirage. -->
+    <div class="roulette-label" id="roulette-label" data-i18n="reveal.drawing" hidden>Tirage en cours…</div>
     <div class="roulette-name" id="roulette-name">???</div>
     <div class="roulette-clue" id="roulette-clue" data-i18n="reveal.clueIdle">La route va parler.</div>
     <div class="stamp" id="stamp" data-i18n="reveal.stamp">Destination confirmée</div>
@@ -290,7 +296,9 @@
   </section>
 
   <div class="export-row" id="export-row">
-    <span class="export-hint" id="export-hint" data-i18n="export.hint">Ce roadtrip vous tente ? Pensez à le télécharger, il ne sera probablement jamais reproposé.</span>
+    <!-- role="status" (7e audit du 18/09/2026) : c'est ici que s'affichent les erreurs d'export PDF (quota
+         dépassé, serveur occupé). Sans région live, un lecteur d'écran ne disait rien du tout après l'appui. -->
+    <span class="export-hint" id="export-hint" role="status" aria-live="polite" data-i18n="export.hint">Ce roadtrip vous tente ? Pensez à le télécharger, il ne sera probablement jamais reproposé.</span>
     <button type="button" class="export-pdf" id="export-pdf-btn">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
       <span data-i18n="export.button">Exporter cet itinéraire en PDF</span>
@@ -313,7 +321,7 @@
   </div>
 
   <footer>
-    <span id="footer-text" data-i18n="footer.text">Cap sur l'inconnu — générateur ludique, aucune donnée personnelle n'est collectée. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY). Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL).</span>
+    <span id="footer-text" data-i18n="footer.text">Cap sur l'inconnu — générateur ludique, aucune donnée personnelle n'est conservée. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY). Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL).</span>
     <span class="footer-disclaimer" id="footer-disclaimer" data-i18n="footer.translationDisclaimer">L'interface a été traduite dans de nombreuses langues et peut contenir des erreurs — n'hésitez pas à les signaler à contact@lume419.fr.</span>
     <span class="footer-legal-links"><a href="mentions-legales" data-i18n="footer.legalMentions">Mentions légales</a> · <a href="politique-confidentialite" data-i18n="footer.privacyPolicy">Politique de confidentialité</a></span>
   </footer>

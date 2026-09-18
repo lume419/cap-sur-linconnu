@@ -355,7 +355,7 @@ module.exports = {
       },
       "source": "https://heartlandferry.jp/faretable/okushiri-route/",
       "date": "2026-09-16",
-      "note": "Grille 1er juillet-30 septembre 2026 (surcharge incluse ; une grille distincte s'applique à partir du 1er octobre). Véhicule <5 m 27 570 JPY conducteur inclus (2e classe 3 570) -> 24 000 ; <7 m 42 290 - 3 570 ; moto <750 cc 6 020 ; piéton 3 570. Durée ~2 h 10 (ordre de grandeur) ; distance orthodromique."
+      "note": "Grille 1er juillet-30 septembre 2026 (surcharge incluse). ATTENTION : cette grille EXPIRE le 30 septembre 2026, une grille distincte s'applique à partir du 1er octobre — tarifs à relever de nouveau sur la page de l'opérateur après cette date (relevé du 7e audit, 18/09/2026). Véhicule <5 m 27 570 JPY conducteur inclus (2e classe 3 570) -> 24 000 ; <7 m 42 290 - 3 570 ; moto <750 cc 6 020 ; piéton 3 570. Durée ~2 h 10 (ordre de grandeur) ; distance orthodromique."
     },
     {
       "a": "okinawa",

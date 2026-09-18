@@ -1,0 +1,1168 @@
+{
+ "source": "router.project-osrm.org (profil driving, données OpenStreetMap)",
+ "measuredAt": "2026-09-17",
+ "routes": [
+  {
+   "cc": "fr",
+   "from": "Rillieux-la-Pape",
+   "to": "Châteauroux",
+   "hav": 268.96,
+   "km": 365.66,
+   "ratio": 1.3595,
+   "speed": 86
+  },
+  {
+   "cc": "fr",
+   "from": "Liévin",
+   "to": "Besançon",
+   "hav": 424.15,
+   "km": 563.03,
+   "ratio": 1.3274,
+   "speed": 100.4
+  },
+  {
+   "cc": "fr",
+   "from": "Saint-Malo",
+   "to": "Nogent-sur-Oise",
+   "hav": 333.79,
+   "km": 436.64,
+   "ratio": 1.3081,
+   "speed": 87.1
+  },
+  {
+   "cc": "fr",
+   "from": "Saint-Maur-des-Fossés",
+   "to": "Romans-sur-Isère",
+   "hav": 458.73,
+   "km": 566.89,
+   "ratio": 1.2358,
+   "speed": 92.5
+  },
+  {
+   "cc": "de",
+   "from": "Mönchengladbach",
+   "to": "Riesa",
+   "hav": 476.81,
+   "km": 592.01,
+   "ratio": 1.2416,
+   "speed": 98.6
+  },
+  {
+   "cc": "de",
+   "from": "Remseck am Neckar",
+   "to": "Edewecht",
+   "hav": 481.74,
+   "km": 619.77,
+   "ratio": 1.2865,
+   "speed": 98.2
+  },
+  {
+   "cc": "de",
+   "from": "Bitterfeld-Wolfen",
+   "to": "Sundern",
+   "hav": 300.96,
+   "km": 401.55,
+   "ratio": 1.3342,
+   "speed": 92.4
+  },
+  {
+   "cc": "de",
+   "from": "Leonberg",
+   "to": "Haßloch",
+   "hav": 83.48,
+   "km": 121.3,
+   "ratio": 1.4531,
+   "speed": 83.4
+  },
+  {
+   "cc": "es",
+   "from": "Priego de Córdoba",
+   "to": "Illescas",
+   "hav": 299.97,
+   "km": 376.8,
+   "ratio": 1.2561,
+   "speed": 86.1
+  },
+  {
+   "cc": "es",
+   "from": "Lorca",
+   "to": "Ontinyent",
+   "hav": 159.77,
+   "km": 203.35,
+   "ratio": 1.2728,
+   "speed": 81
+  },
+  {
+   "cc": "es",
+   "from": "Ferrol",
+   "to": "Galdakao",
+   "hav": 436.61,
+   "km": 529.48,
+   "ratio": 1.2127,
+   "speed": 89.1
+  },
+  {
+   "cc": "es",
+   "from": "Girona",
+   "to": "Mislata",
+   "hav": 390.39,
+   "km": 449.06,
+   "ratio": 1.1503,
+   "speed": 89
+  },
+  {
+   "cc": "it",
+   "from": "Cerignola",
+   "to": "Piombino",
+   "hav": 479.86,
+   "km": 617.25,
+   "ratio": 1.2863,
+   "speed": 81.6
+  },
+  {
+   "cc": "it",
+   "from": "Marghera",
+   "to": "Chiavari",
+   "hav": 261.01,
+   "km": 400.11,
+   "ratio": 1.5329,
+   "speed": 91.4
+  },
+  {
+   "cc": "it",
+   "from": "Lumezzane",
+   "to": "Roma",
+   "hav": 454.89,
+   "km": 579.25,
+   "ratio": 1.2734,
+   "speed": 94.4
+  },
+  {
+   "cc": "it",
+   "from": "Rivoli",
+   "to": "Rovigo",
+   "hav": 335.72,
+   "km": 414.11,
+   "ratio": 1.2335,
+   "speed": 96.6
+  },
+  {
+   "cc": "gb",
+   "from": "Alloa",
+   "to": "Flint",
+   "hav": 322.02,
+   "km": 431,
+   "ratio": 1.3384,
+   "speed": 87.2
+  },
+  {
+   "cc": "gb",
+   "from": "Chesterfield",
+   "to": "Leyland",
+   "hav": 97.75,
+   "km": 125.33,
+   "ratio": 1.2822,
+   "speed": 66.1
+  },
+  {
+   "cc": "gb",
+   "from": "Widnes",
+   "to": "Newtownards",
+   "hav": 236.85,
+   "km": 450.55,
+   "ratio": 1.9023,
+   "speed": 60.5
+  },
+  {
+   "cc": "gb",
+   "from": "Aberdare",
+   "to": "Bournemouth",
+   "hav": 155.45,
+   "km": 218.36,
+   "ratio": 1.4047,
+   "speed": 66.4
+  },
+  {
+   "cc": "pl",
+   "from": "Łaziska Górne",
+   "to": "Koło",
+   "hav": 228.47,
+   "km": 328.95,
+   "ratio": 1.4398,
+   "speed": 96.8
+  },
+  {
+   "cc": "pl",
+   "from": "Aleksandrów Łódzki",
+   "to": "Konin",
+   "hav": 84.87,
+   "km": 106.26,
+   "ratio": 1.2521,
+   "speed": 87.6
+  },
+  {
+   "cc": "pl",
+   "from": "Radom",
+   "to": "Wieluń",
+   "hav": 180.28,
+   "km": 208.72,
+   "ratio": 1.1578,
+   "speed": 59.1
+  },
+  {
+   "cc": "pl",
+   "from": "Grajewo",
+   "to": "Oleśnica",
+   "hav": 437.08,
+   "km": 522.63,
+   "ratio": 1.1957,
+   "speed": 95
+  },
+  {
+   "cc": "se",
+   "from": "Borås",
+   "to": "Solna",
+   "hav": 345.51,
+   "km": 407.98,
+   "ratio": 1.1808,
+   "speed": 82.5
+  },
+  {
+   "cc": "se",
+   "from": "Umeå",
+   "to": "Sandviken",
+   "hav": 400.24,
+   "km": 487.71,
+   "ratio": 1.2185,
+   "speed": 78.4
+  },
+  {
+   "cc": "se",
+   "from": "Karlskrona",
+   "to": "Varberg",
+   "hav": 229.39,
+   "km": 307.18,
+   "ratio": 1.3391,
+   "speed": 76.2
+  },
+  {
+   "cc": "se",
+   "from": "Borås",
+   "to": "Borlänge",
+   "hav": 338.82,
+   "km": 413.26,
+   "ratio": 1.2197,
+   "speed": 66.7
+  },
+  {
+   "cc": "us",
+   "from": "Muskegon",
+   "to": "Solon",
+   "hav": 445.22,
+   "km": 563.05,
+   "ratio": 1.2646,
+   "speed": 86.6
+  },
+  {
+   "cc": "us",
+   "from": "San Mateo",
+   "to": "Agoura",
+   "hav": 499.06,
+   "km": 603.08,
+   "ratio": 1.2084,
+   "speed": 85.4
+  },
+  {
+   "cc": "us",
+   "from": "Springfield",
+   "to": "Elmwood Park",
+   "hav": 184.21,
+   "km": 231.83,
+   "ratio": 1.2585,
+   "speed": 73.5
+  },
+  {
+   "cc": "us",
+   "from": "Piqua",
+   "to": "Maywood",
+   "hav": 358.37,
+   "km": 438.18,
+   "ratio": 1.2227,
+   "speed": 74.1
+  },
+  {
+   "cc": "ca",
+   "from": "Campbell River",
+   "to": "Delta",
+   "hav": 188.71,
+   "km": 264.08,
+   "ratio": 1.3994,
+   "speed": 53.1
+  },
+  {
+   "cc": "ca",
+   "from": "Cambridge",
+   "to": "St. Catharines",
+   "hav": 89.14,
+   "km": 100.71,
+   "ratio": 1.1298,
+   "speed": 71.7
+  },
+  {
+   "cc": "ca",
+   "from": "Norfolk County",
+   "to": "East Gwillimbury",
+   "hav": 160.25,
+   "km": 205.98,
+   "ratio": 1.2854,
+   "speed": 73.6
+  },
+  {
+   "cc": "ca",
+   "from": "Kelowna",
+   "to": "Strawberry Hill",
+   "hav": 259.07,
+   "km": 373.44,
+   "ratio": 1.4414,
+   "speed": 81.3
+  },
+  {
+   "cc": "br",
+   "from": "São Sebastião do Caí",
+   "to": "São José",
+   "hav": 263.96,
+   "km": 398.42,
+   "ratio": 1.5094,
+   "speed": 74.8
+  },
+  {
+   "cc": "br",
+   "from": "Sorocaba",
+   "to": "Imbituva",
+   "hav": 372.13,
+   "km": 467.8,
+   "ratio": 1.2571,
+   "speed": 77.6
+  },
+  {
+   "cc": "br",
+   "from": "Barras",
+   "to": "Bom Jardim",
+   "hav": 375.84,
+   "km": 518.74,
+   "ratio": 1.3802,
+   "speed": 65.1
+  },
+  {
+   "cc": "br",
+   "from": "São José do Rio Preto",
+   "to": "Cabreúva",
+   "hav": 360.71,
+   "km": 406.51,
+   "ratio": 1.127,
+   "speed": 81.2
+  },
+  {
+   "cc": "au",
+   "from": "Mount Gambier",
+   "to": "Warrnambool",
+   "hav": 161.53,
+   "km": 183.26,
+   "ratio": 1.1345,
+   "speed": 74.9
+  },
+  {
+   "cc": "au",
+   "from": "Cessnock",
+   "to": "Port Macquarie",
+   "hav": 213.67,
+   "km": 264.61,
+   "ratio": 1.2384,
+   "speed": 79.8
+  },
+  {
+   "cc": "au",
+   "from": "Melbourne",
+   "to": "Wangaratta",
+   "hav": 201.71,
+   "km": 240.73,
+   "ratio": 1.1935,
+   "speed": 79.1
+  },
+  {
+   "cc": "au",
+   "from": "Burnie",
+   "to": "Frankston East",
+   "hav": 331.6,
+   "km": 618.01,
+   "ratio": 1.8637,
+   "speed": 54.7
+  },
+  {
+   "cc": "jp",
+   "from": "Nishinomiya",
+   "to": "Narashino",
+   "hav": 441.15,
+   "km": 536.57,
+   "ratio": 1.2163,
+   "speed": 79.2
+  },
+  {
+   "cc": "jp",
+   "from": "Minamibōsō",
+   "to": "Takarazuka",
+   "hav": 417.41,
+   "km": 582.64,
+   "ratio": 1.3958,
+   "speed": 78.2
+  },
+  {
+   "cc": "jp",
+   "from": "Yamazakichō-nakabirose",
+   "to": "Hokuto",
+   "hav": 360.64,
+   "km": 529.59,
+   "ratio": 1.4685,
+   "speed": 76.9
+  },
+  {
+   "cc": "jp",
+   "from": "Kaizuka",
+   "to": "Mochibaru",
+   "hav": 494.2,
+   "km": 875.63,
+   "ratio": 1.7718,
+   "speed": 72.4
+  },
+  {
+   "cc": "in",
+   "from": "Avinashi",
+   "to": "Villiappally",
+   "hav": 185.09,
+   "km": 266.99,
+   "ratio": 1.4425,
+   "speed": 61.1
+  },
+  {
+   "cc": "in",
+   "from": "Sangod",
+   "to": "Lūnāvāda",
+   "hav": 337.43,
+   "km": 419.58,
+   "ratio": 1.2435,
+   "speed": 80.1
+  },
+  {
+   "cc": "in",
+   "from": "Daman",
+   "to": "Chikhli",
+   "hav": 357.09,
+   "km": 457.75,
+   "ratio": 1.2819,
+   "speed": 84.9
+  },
+  {
+   "cc": "in",
+   "from": "Ajnāla",
+   "to": "Patran",
+   "hav": 243.04,
+   "km": 275.64,
+   "ratio": 1.1341,
+   "speed": 80.8
+  },
+  {
+   "cc": "za",
+   "from": "Boksburg",
+   "to": "Welkom",
+   "hav": 247.6,
+   "km": 278.86,
+   "ratio": 1.1262,
+   "speed": 87.1
+  },
+  {
+   "cc": "za",
+   "from": "Kamaqhekeza",
+   "to": "Mokopane",
+   "hav": 331.2,
+   "km": 466.06,
+   "ratio": 1.4072,
+   "speed": 73.9
+  },
+  {
+   "cc": "za",
+   "from": "Pampierstad",
+   "to": "Reitz",
+   "hav": 367.85,
+   "km": 451.05,
+   "ratio": 1.2262,
+   "speed": 67.6
+  },
+  {
+   "cc": "za",
+   "from": "Standerton",
+   "to": "Midrand",
+   "hav": 154.43,
+   "km": 180.78,
+   "ratio": 1.1706,
+   "speed": 91.5
+  },
+  {
+   "cc": "mx",
+   "from": "Tlaxcala",
+   "to": "Iztacalco",
+   "hav": 90.56,
+   "km": 114.38,
+   "ratio": 1.2631,
+   "speed": 76.1
+  },
+  {
+   "cc": "mx",
+   "from": "Gustavo Adolfo Madero",
+   "to": "Pabellón de Arteaga",
+   "hav": 442.12,
+   "km": 510.3,
+   "ratio": 1.1542,
+   "speed": 79.2
+  },
+  {
+   "cc": "mx",
+   "from": "San Miguel Ajusco",
+   "to": "Tampico",
+   "hav": 367.4,
+   "km": 476.46,
+   "ratio": 1.2969,
+   "speed": 76.9
+  },
+  {
+   "cc": "mx",
+   "from": "Apatzingán",
+   "to": "Lagos de Moreno",
+   "hav": 256.28,
+   "km": 419.85,
+   "ratio": 1.6383,
+   "speed": 81.9
+  },
+  {
+   "cc": "tr",
+   "from": "Manisa",
+   "to": "Susurluk",
+   "hav": 157.83,
+   "km": 220.86,
+   "ratio": 1.3994,
+   "speed": 100.7
+  },
+  {
+   "cc": "tr",
+   "from": "Eskişehir",
+   "to": "Demirci",
+   "hav": 179.38,
+   "km": 260.67,
+   "ratio": 1.4531,
+   "speed": 73.2
+  },
+  {
+   "cc": "tr",
+   "from": "Edremit",
+   "to": "Beyşehir",
+   "hav": 460.55,
+   "km": 611,
+   "ratio": 1.3267,
+   "speed": 78.1
+  },
+  {
+   "cc": "tr",
+   "from": "Besni",
+   "to": "Hınıs",
+   "hav": 381.21,
+   "km": 558.84,
+   "ratio": 1.4659,
+   "speed": 79.7
+  },
+  {
+   "cc": "fr",
+   "from": "Brive-la-Gaillarde",
+   "to": "Le Creusot",
+   "hav": 291.08,
+   "km": 383.45,
+   "ratio": 1.3173,
+   "speed": 94.2
+  },
+  {
+   "cc": "fr",
+   "from": "Montaigu-Vendée",
+   "to": "Épinay-sur-Seine",
+   "hav": 347.37,
+   "km": 407.47,
+   "ratio": 1.173,
+   "speed": 85.9
+  },
+  {
+   "cc": "fr",
+   "from": "Saint-Nazaire",
+   "to": "Neuilly-sur-Seine",
+   "hav": 379.37,
+   "km": 442.19,
+   "ratio": 1.1656,
+   "speed": 90.5
+  },
+  {
+   "cc": "fr",
+   "from": "Montereau-Fault-Yonne",
+   "to": "Le Mans",
+   "hav": 210,
+   "km": 259.92,
+   "ratio": 1.2377,
+   "speed": 91.7
+  },
+  {
+   "cc": "de",
+   "from": "Wolfenbüttel",
+   "to": "Sömmerda",
+   "hav": 118.59,
+   "km": 184.57,
+   "ratio": 1.5563,
+   "speed": 78.9
+  },
+  {
+   "cc": "de",
+   "from": "Meppen",
+   "to": "Weiterstadt",
+   "hav": 322.72,
+   "km": 405.01,
+   "ratio": 1.255,
+   "speed": 99.4
+  },
+  {
+   "cc": "de",
+   "from": "Strausberg",
+   "to": "Herborn",
+   "hav": 439.19,
+   "km": 578.72,
+   "ratio": 1.3177,
+   "speed": 100
+  },
+  {
+   "cc": "de",
+   "from": "Pfungstadt",
+   "to": "Neu-Ulm",
+   "hav": 187.58,
+   "km": 250.89,
+   "ratio": 1.3375,
+   "speed": 93.6
+  },
+  {
+   "cc": "es",
+   "from": "Albacete",
+   "to": "Manlleu",
+   "hav": 484.13,
+   "km": 579.88,
+   "ratio": 1.1978,
+   "speed": 87.7
+  },
+  {
+   "cc": "es",
+   "from": "Coín",
+   "to": "Mazarrón",
+   "hav": 322.47,
+   "km": 396.86,
+   "ratio": 1.2307,
+   "speed": 85.8
+  },
+  {
+   "cc": "es",
+   "from": "Valdepeñas",
+   "to": "Calahorra",
+   "hav": 411.81,
+   "km": 530.18,
+   "ratio": 1.2875,
+   "speed": 84.4
+  },
+  {
+   "cc": "es",
+   "from": "Villena",
+   "to": "Bétera",
+   "hav": 111.64,
+   "km": 140.21,
+   "ratio": 1.2558,
+   "speed": 87.5
+  },
+  {
+   "cc": "it",
+   "from": "Bacoli",
+   "to": "Ragusa",
+   "hav": 434.11,
+   "km": 729.14,
+   "ratio": 1.6796,
+   "speed": 77.1
+  },
+  {
+   "cc": "it",
+   "from": "Lucca",
+   "to": "Civitavecchia",
+   "hav": 221.22,
+   "km": 291.52,
+   "ratio": 1.3178,
+   "speed": 79.6
+  },
+  {
+   "cc": "it",
+   "from": "Bitonto",
+   "to": "San Benedetto del Tronto",
+   "hav": 310.1,
+   "km": 370.38,
+   "ratio": 1.1944,
+   "speed": 99.2
+  },
+  {
+   "cc": "it",
+   "from": "Fondi",
+   "to": "Campobasso",
+   "hav": 105.75,
+   "km": 149.53,
+   "ratio": 1.414,
+   "speed": 56.6
+  },
+  {
+   "cc": "gb",
+   "from": "Chippenham",
+   "to": "Eastbourne",
+   "hav": 184.9,
+   "km": 257.06,
+   "ratio": 1.3903,
+   "speed": 81.6
+  },
+  {
+   "cc": "gb",
+   "from": "Wembley",
+   "to": "Falmouth",
+   "hav": 369.34,
+   "km": 432.28,
+   "ratio": 1.1704,
+   "speed": 81.1
+  },
+  {
+   "cc": "gb",
+   "from": "Catford",
+   "to": "Long Eaton",
+   "hav": 182.77,
+   "km": 236.85,
+   "ratio": 1.2959,
+   "speed": 80.9
+  },
+  {
+   "cc": "gb",
+   "from": "Wilmslow",
+   "to": "Nottingham",
+   "hav": 83.26,
+   "km": 110.39,
+   "ratio": 1.3259,
+   "speed": 60.9
+  },
+  {
+   "cc": "pl",
+   "from": "Kętrzyn",
+   "to": "Świętochłowice",
+   "hav": 452.46,
+   "km": 559.74,
+   "ratio": 1.2371,
+   "speed": 83.5
+  },
+  {
+   "cc": "pl",
+   "from": "Kołobrzeg",
+   "to": "Białołeka",
+   "hav": 413.42,
+   "km": 574.46,
+   "ratio": 1.3895,
+   "speed": 91.8
+  },
+  {
+   "cc": "pl",
+   "from": "Tarnobrzeg",
+   "to": "Piastów",
+   "hav": 188.42,
+   "km": 259.22,
+   "ratio": 1.3758,
+   "speed": 70.5
+  },
+  {
+   "cc": "pl",
+   "from": "Sosnowiec",
+   "to": "Luboń",
+   "hav": 275.83,
+   "km": 385.16,
+   "ratio": 1.3964,
+   "speed": 98.1
+  },
+  {
+   "cc": "se",
+   "from": "Skövde",
+   "to": "Visby",
+   "hav": 275.04,
+   "km": 387.43,
+   "ratio": 1.4086,
+   "speed": 55.5
+  },
+  {
+   "cc": "se",
+   "from": "Falkenberg",
+   "to": "Huskvarna",
+   "hav": 146.25,
+   "km": 182.77,
+   "ratio": 1.2498,
+   "speed": 65.4
+  },
+  {
+   "cc": "se",
+   "from": "Falun",
+   "to": "Vänersborg",
+   "hav": 309.52,
+   "km": 384.47,
+   "ratio": 1.2421,
+   "speed": 64.7
+  },
+  {
+   "cc": "se",
+   "from": "Eskilstuna",
+   "to": "Östersund",
+   "hav": 435.54,
+   "km": 575.29,
+   "ratio": 1.3209,
+   "speed": 72.4
+  },
+  {
+   "cc": "us",
+   "from": "East Ridge",
+   "to": "La Vergne",
+   "hav": 163.98,
+   "km": 196.08,
+   "ratio": 1.1958,
+   "speed": 83.7
+  },
+  {
+   "cc": "us",
+   "from": "Round Lake Beach",
+   "to": "Neenah",
+   "hav": 203.96,
+   "km": 245.16,
+   "ratio": 1.202,
+   "speed": 82.5
+  },
+  {
+   "cc": "us",
+   "from": "Franklin Square",
+   "to": "Bayville",
+   "hav": 97.58,
+   "km": 157.71,
+   "ratio": 1.6162,
+   "speed": 69.2
+  },
+  {
+   "cc": "us",
+   "from": "Cheektowaga",
+   "to": "Port Huron",
+   "hav": 298.84,
+   "km": 350.16,
+   "ratio": 1.1717,
+   "speed": 80.7
+  },
+  {
+   "cc": "ca",
+   "from": "Strathroy",
+   "to": "Georgetown",
+   "hav": 158.21,
+   "km": 184.99,
+   "ratio": 1.1693,
+   "speed": 73.8
+  },
+  {
+   "cc": "ca",
+   "from": "Gatineau",
+   "to": "Varennes",
+   "hav": 178.07,
+   "km": 220.53,
+   "ratio": 1.2384,
+   "speed": 75.9
+  },
+  {
+   "cc": "ca",
+   "from": "Brooklin",
+   "to": "Tecumseh",
+   "hav": 367.01,
+   "km": 405.06,
+   "ratio": 1.1037,
+   "speed": 79.3
+  },
+  {
+   "cc": "ca",
+   "from": "Penticton",
+   "to": "West Vancouver",
+   "hav": 259.16,
+   "km": 428.94,
+   "ratio": 1.6551,
+   "speed": 80.5
+  },
+  {
+   "cc": "br",
+   "from": "Coelho Neto",
+   "to": "Camocim",
+   "hav": 284.2,
+   "km": 388.92,
+   "ratio": 1.3685,
+   "speed": 66.6
+  },
+  {
+   "cc": "br",
+   "from": "Itaporanga",
+   "to": "Nazaré da Mata",
+   "hav": 325.82,
+   "km": 431.01,
+   "ratio": 1.3229,
+   "speed": 64.4
+  },
+  {
+   "cc": "br",
+   "from": "Vicência",
+   "to": "Belo Jardim",
+   "hav": 142.48,
+   "km": 201.74,
+   "ratio": 1.416,
+   "speed": 71
+  },
+  {
+   "cc": "br",
+   "from": "Imbituba",
+   "to": "Pato Branco",
+   "hav": 454.32,
+   "km": 722.65,
+   "ratio": 1.5906,
+   "speed": 76.4
+  },
+  {
+   "cc": "au",
+   "from": "Launceston",
+   "to": "Burnie",
+   "hav": 111.37,
+   "km": 145.73,
+   "ratio": 1.3085,
+   "speed": 81.7
+  },
+  {
+   "cc": "au",
+   "from": "Parramatta",
+   "to": "Griffith",
+   "hav": 459.21,
+   "km": 552.29,
+   "ratio": 1.2027,
+   "speed": 78.5
+  },
+  {
+   "cc": "au",
+   "from": "Sunshine Coast",
+   "to": "Maryborough",
+   "hav": 129.62,
+   "km": 165.34,
+   "ratio": 1.2755,
+   "speed": 77.4
+  },
+  {
+   "cc": "au",
+   "from": "Coffs Harbour",
+   "to": "Dubbo",
+   "hav": 480.02,
+   "km": 611.14,
+   "ratio": 1.2731,
+   "speed": 74.1
+  },
+  {
+   "cc": "jp",
+   "from": "Itami",
+   "to": "Sōja",
+   "hav": 151.31,
+   "km": 172.87,
+   "ratio": 1.1425,
+   "speed": 66.3
+  },
+  {
+   "cc": "jp",
+   "from": "Minoh",
+   "to": "Nomimachi",
+   "hav": 198.44,
+   "km": 270.73,
+   "ratio": 1.3643,
+   "speed": 74.7
+  },
+  {
+   "cc": "jp",
+   "from": "Nabari",
+   "to": "Kamikoizumi",
+   "hav": 354.13,
+   "km": 527.31,
+   "ratio": 1.489,
+   "speed": 81.3
+  },
+  {
+   "cc": "jp",
+   "from": "Tsushima",
+   "to": "Nishinomiya",
+   "hav": 135.82,
+   "km": 164.09,
+   "ratio": 1.2081,
+   "speed": 67.4
+  },
+  {
+   "cc": "in",
+   "from": "Rājūra",
+   "to": "Gajuwaka",
+   "hav": 466.87,
+   "km": 756.05,
+   "ratio": 1.6194,
+   "speed": 80.4
+  },
+  {
+   "cc": "in",
+   "from": "Adūr",
+   "to": "Sankagiri",
+   "hav": 286.27,
+   "km": 415.15,
+   "ratio": 1.4502,
+   "speed": 65.5
+  },
+  {
+   "cc": "in",
+   "from": "Kottūru",
+   "to": "Bādāmi",
+   "hav": 134.52,
+   "km": 188.49,
+   "ratio": 1.4012,
+   "speed": 77.1
+  },
+  {
+   "cc": "in",
+   "from": "Pūvātūparamba",
+   "to": "Kālappatti",
+   "hav": 127,
+   "km": 182.87,
+   "ratio": 1.4399,
+   "speed": 62.1
+  },
+  {
+   "cc": "za",
+   "from": "Beaufort West",
+   "to": "Graaff Reinet",
+   "hav": 183.43,
+   "km": 204.82,
+   "ratio": 1.1166,
+   "speed": 69.5
+  },
+  {
+   "cc": "za",
+   "from": "Mokopane",
+   "to": "Musina",
+   "hav": 230.66,
+   "km": 264.8,
+   "ratio": 1.148,
+   "speed": 87
+  },
+  {
+   "cc": "za",
+   "from": "Lebowakgomo",
+   "to": "Kamaqhekeza",
+   "hav": 281.76,
+   "km": 380.06,
+   "ratio": 1.3489,
+   "speed": 62.7
+  },
+  {
+   "cc": "za",
+   "from": "Lichtenburg",
+   "to": "Rustenburg",
+   "hav": 120.92,
+   "km": 138.88,
+   "ratio": 1.1486,
+   "speed": 63.7
+  },
+  {
+   "cc": "mx",
+   "from": "Papalotla",
+   "to": "Tultitlán de Mariano Escobedo",
+   "hav": 114.22,
+   "km": 150.46,
+   "ratio": 1.3173,
+   "speed": 74.6
+  },
+  {
+   "cc": "mx",
+   "from": "Fray Bernardino de Sahagún",
+   "to": "Apaseo el Alto",
+   "hav": 226.06,
+   "km": 259.08,
+   "ratio": 1.1461,
+   "speed": 83.3
+  },
+  {
+   "cc": "mx",
+   "from": "Cuernavaca",
+   "to": "Tuxtepec",
+   "hav": 340.44,
+   "km": 469.22,
+   "ratio": 1.3783,
+   "speed": 77.6
+  },
+  {
+   "cc": "mx",
+   "from": "Tula de Allende",
+   "to": "Atoyac de Álvarez",
+   "hav": 336.92,
+   "km": 529.66,
+   "ratio": 1.572,
+   "speed": 79.5
+  },
+  {
+   "cc": "tr",
+   "from": "Gürpınar",
+   "to": "Manisa",
+   "hav": 283.48,
+   "km": 470.23,
+   "ratio": 1.6588,
+   "speed": 98.4
+  },
+  {
+   "cc": "tr",
+   "from": "Talas",
+   "to": "Turhal",
+   "hav": 194.01,
+   "km": 282.79,
+   "ratio": 1.4576,
+   "speed": 77.2
+  },
+  {
+   "cc": "tr",
+   "from": "Of",
+   "to": "Sarıkamış",
+   "hav": 207.91,
+   "km": 387.65,
+   "ratio": 1.8645,
+   "speed": 72.9
+  },
+  {
+   "cc": "tr",
+   "from": "Isparta",
+   "to": "Simav",
+   "hav": 201.19,
+   "km": 260.5,
+   "ratio": 1.2948,
+   "speed": 76.5
+  }
+ ],
+ "roadFactor": {
+  "median": 1.287,
+  "mean": 1.3274,
+  "n": 128
+ },
+ "speedKmh": {
+  "median": 79.4,
+  "mean": 79.3,
+  "n": 128
+ }
+}

@@ -6,16 +6,24 @@
     --surface-2:#ECE4CC;
     --ink:#202C27;
     --ink-soft:#55645A;
-    --ink-faint:#8A8F7E;
+    /* Contrastes mesurés et corrigés au 7e audit (18/09/2026). Les anciennes valeurs étaient sous le seuil WCAG AA
+       sur les trois fonds du thème (bg, surface, surface-2) : --ink-faint 2,5 à 3,0 alors qu'il sert à du VRAI texte
+       (unités des champs, légendes, notes) ; --tension-orange 4,1 ; --accent-2 2,8 pour les icônes des étapes
+       (seuil 3 pour un élément non textuel) ; --line-strong 2,9 pour les contours de champs. Les couleurs gardent
+       leur teinte et leur saturation : seule la clarté a été baissée jusqu'au premier pas conforme. */
+    --ink-faint:#606457;      /* 4,54 / 5,38 / 4,78 (était #8A8F7E : 2,49 / 2,95 / 2,62) */
     --accent:#D9541F;
+    /* --accent reste la couleur de marque des boutons et des bordures (texte clair par-dessus, voir --accent-ink) ;
+       --accent-text est sa variante lisible quand l'orange sert de couleur de TEXTE sur un fond clair (3,55 -> 4,51). */
+    --accent-text:#A94218;
     --tension-red:#B3261E;
-    --tension-orange:#B25E00;
+    --tension-orange:#985000; /* 4,51 / 5,34 / 4,75 (était #B25E00 : 3,52 / 4,14 / 3,68) */
     --accent-hover:#C24815;
     --accent-ink:#FFF3E9;
-    --accent-2:#B8891C;
+    --accent-2:#A17819;       /* icônes : 3,01 / 3,57 / 3,17 (était #B8891C : 2,37 / 2,80 / 2,49) */
     --accent-3:#2F6B5E;
     --line:#B8AE8E;
-    --line-strong:#8F8564;
+    --line-strong:#887E5F;    /* contours de champs : 3,02 / 3,58 / 3,18 */
     --shadow:rgba(32,44,39,0.20);
     --focus:#1B5E8C;
     color-scheme: light;
@@ -33,8 +41,9 @@
       --surface-2:#232E2C;
       --ink:#EDE6D2;
       --ink-soft:#AEB3A2;
-      --ink-faint:#71786C;
+      --ink-faint:#8E9489; /* 5,72 / 5,04 / 4,50 (était #71786C : 3,90 / 3,44 / 3,07) — voir le thème clair */
       --accent:#FF7A3D;
+      --accent-text:#FF7A3D; /* déjà lisible en sombre (6,05 sur surface) : aucune variante nécessaire */
       --tension-red:#FF8A80;
       --tension-orange:#FFB74D;
       --accent-hover:#FF9257;
@@ -42,7 +51,7 @@
       --accent-2:#E3BE52;
       --accent-3:#5FA98F;
       --line:#33403A;
-      --line-strong:#4A5850;
+      --line-strong:#65796E; /* contours de champs : 3,83 / 3,37 / 3,01 (était 2,4 / 2,1 / 1,9) */
       --shadow:rgba(0,0,0,0.55);
       --focus:#7FC4FF;
       color-scheme: dark;
@@ -55,8 +64,9 @@
     --surface-2:#232E2C;
     --ink:#EDE6D2;
     --ink-soft:#AEB3A2;
-    --ink-faint:#71786C;
+    --ink-faint:#8E9489; /* voir le commentaire du thème clair */
     --accent:#FF7A3D;
+    --accent-text:#FF7A3D; /* voir le commentaire du thème clair */
     --tension-red:#FF8A80;
     --tension-orange:#FFB74D;
     --accent-hover:#FF9257;
@@ -64,7 +74,7 @@
     --accent-2:#E3BE52;
     --accent-3:#5FA98F;
     --line:#33403A;
-    --line-strong:#4A5850;
+    --line-strong:#65796E; /* voir le commentaire du thème clair */
     --shadow:rgba(0,0,0,0.55);
     --focus:#7FC4FF;
     color-scheme: dark;
@@ -123,7 +133,7 @@
     font:var(--font-hand);
     text-transform:none;
     letter-spacing:0;
-    color:var(--accent);
+    color:var(--accent-text);
     font-size:.5em;
     margin-top:.25rem;
   }
@@ -160,7 +170,9 @@
 
   .field-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+    /* min(200px, 100%) et non 200px (7e audit du 18/09/2026) : à 200 % de zoom, ou dans une fenêtre étroite, une
+       colonne de 200 px minimum dépassait la largeur disponible et la page défilait horizontalement. */
+    grid-template-columns:repeat(auto-fit, minmax(min(200px, 100%),1fr));
     gap:1.1rem;
   }
   .field{display:flex; flex-direction:column; gap:.4rem;}
@@ -174,7 +186,7 @@
     font:600 .95rem/1.2 var(--font-body);
     color:var(--ink);
     background:var(--surface-2);
-    border:1px solid var(--line);
+    border:1px solid var(--line-strong); /* 7e audit : la bordure d'un champ doit atteindre 3:1 (WCAG 1.4.11) */
     border-radius:9px;
     padding:.65rem .7rem;
     width:100%;
@@ -198,7 +210,7 @@
     opacity:0.6;
   }
   .field.invalid input{border-color:var(--accent); box-shadow:0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);}
-  .field.invalid label{color:var(--accent);}
+  .field.invalid label{color:var(--accent-text);}
   .field.shake input{animation:shake .38s ease;}
   @keyframes shake{
     0%,100%{transform:translateX(0);}
@@ -210,7 +222,7 @@
   .field-error{
     display:none;
     font:700 .75rem/1.3 var(--font-body);
-    color:var(--accent);
+    color:var(--accent-text);
   }
   .field-error.show{display:block;}
   .field-hint{
@@ -224,7 +236,11 @@
      champ à côté — même correctif que sur le champ de rayon (voir .radius-input plus bas). */
   .input-unit{display:flex; align-items:center; flex-wrap:wrap; gap:.4rem .5rem;}
   .input-unit input{flex:1; min-width:0;}
-  .unit{font:var(--font-mono); font-size:.8rem; color:var(--ink-faint); white-space:nowrap;}
+  /* 7e audit (18/09/2026) : white-space:nowrap interdisait tout retour à la ligne, et les libellés longs de
+     certaines langues (« km a inghìriu de sa partèntzia » en sarde, et 66 autres langues au-dessus de 20 caractères)
+     débordaient de la carte sur un écran étroit. Le texte peut désormais passer à la ligne ; overflow-wrap:anywhere
+     ne coupe un mot que s'il est à lui seul plus large que la colonne. */
+  .unit{font:var(--font-mono); font-size:.8rem; color:var(--ink-faint); overflow-wrap:anywhere;}
   .distance-range-inputs{display:flex; gap:.7rem; flex-wrap:wrap;}
   .distance-range-inputs .input-unit{flex:1; min-width:9.5rem;}
   /* Pour la lisibilité, "km au moins"/"km au maximum" passe systématiquement sous les boutons -/+,
@@ -279,7 +295,9 @@
   .hike-portals{grid-column:1 / -1; font:.8rem/1.4 var(--font-body); color:var(--ink-soft); padding:.2rem .1rem;}
   .hike-portals a{color:var(--accent-3);}
   .suggest-matched{font-weight:400; color:var(--ink-soft, var(--ink)); opacity:.8;}
+  /* Drapeau d'une suggestion : image SVG ronde de 16 px (public/img/flags/), ou l'émoji de repli à la même taille. */
   .suggest-flag{flex:none; font-size:1rem; line-height:1;}
+  img.suggest-flag{width:16px; height:16px; border-radius:50%; object-fit:cover; display:block;}
   .suggest-cp{font:var(--font-mono); font-size:.72rem; color:var(--ink-faint); white-space:nowrap; flex:none;}
   .suggest-empty{padding:.6rem; font-size:.82rem; color:var(--ink-faint); font-style:italic;}
 
@@ -294,7 +312,7 @@
   }
   .toggle-track{
     width:40px; height:23px; border-radius:999px; flex:none;
-    background:var(--surface-2); border:1px solid var(--line);
+    background:var(--surface-2); border:1px solid var(--line-strong); /* 7e audit : limite d'un interrupteur, 3:1 */
     position:relative; transition:background .15s ease, border-color .15s ease;
   }
   .toggle-thumb{
@@ -663,7 +681,7 @@
     text-shadow:0 0 3px var(--surface), 0 0 3px var(--surface), 0 0 6px var(--surface);
   }
   .trip-return-label{
-    font:italic 700 .68rem/1 var(--font-body); color:var(--accent); text-align:center;
+    font:italic 700 .68rem/1 var(--font-body); color:var(--accent-text); text-align:center;
     text-shadow:0 0 3px var(--surface), 0 0 3px var(--surface), 0 0 6px var(--surface);
   }
 
@@ -720,7 +738,7 @@
     border:1px solid var(--line); border-radius:999px; padding:.32rem .7rem;
     transition:border-color .15s ease, color .15s ease;
   }
-  .lodging-link:hover{border-color:var(--accent-3); color:var(--accent);}
+  .lodging-link:hover{border-color:var(--accent-3); color:var(--accent-text);}
   .photo-tile{
     display:flex; align-items:stretch; gap:.4rem; min-width:0;
     border-radius:12px; padding:.3rem;
@@ -748,7 +766,7 @@
     font:700 .72rem/1 var(--font-body); color:var(--accent-3); text-decoration:none;
     white-space:nowrap;
   }
-  .photo-tile-wiki:hover{color:var(--accent); text-decoration:underline;}
+  .photo-tile-wiki:hover{color:var(--accent-text); text-decoration:underline;}
   .photo-tile.has-image{flex-direction:column; align-items:stretch; gap:0; padding:0; overflow:hidden;}
   .photo-tile-imgwrap{
     display:block; width:100%; border:none; padding:0; margin:0; cursor:zoom-in;
@@ -786,7 +804,7 @@
   body.lightbox-open{overflow:hidden;}
 
   /* ============ ACTIVITÉS POSSIBLES ============ */
-  .activity-options{display:grid; grid-template-columns:repeat(auto-fill, minmax(150px, 1fr)); gap:.6rem; margin-top:.15rem;}
+  .activity-options{display:grid; grid-template-columns:repeat(auto-fill, minmax(min(150px, 100%), 1fr)); gap:.6rem; margin-top:.15rem;} /* voir .field-grid */
   .activity-card{
     display:flex; flex-direction:column; border-radius:11px; overflow:hidden;
     background:var(--surface-2); border:1px solid var(--line);
@@ -841,7 +859,7 @@
   .pack-head{display:flex; flex-direction:column; gap:.15rem; margin-bottom:1rem; padding-right:2.6rem;}
   .pack-head h2{font:var(--font-display); text-transform:uppercase; font-size:1.15rem;}
   .pack-head span{font:var(--font-hand); font-size:.85rem; color:var(--ink-faint);}
-  .pack-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:.5rem .9rem;}
+  .pack-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(min(220px, 100%),1fr)); gap:.5rem .9rem;} /* voir .field-grid */
   .pack-item{display:flex; align-items:center;}
   .pack-item input{
     position:absolute; width:1px; height:1px; margin:-1px; overflow:hidden;
@@ -1051,3 +1069,45 @@ html[lang="ii"] body, html[lang="ii"] input, html[lang="ii"] button, html[lang="
 .tension-row .lbl{color:currentColor;}
 .tension-row a{color:currentColor; text-decoration:underline;}
 #days > .tension-row{margin-bottom:1rem;}
+
+/* ============ IMPRESSION ============
+   7e audit (18/09/2026) : aucune règle d'impression n'existait. Un visiteur qui imprimait (ou « enregistrait en PDF »
+   depuis son navigateur) obtenait le formulaire, les boutons, la roulette et la carte interactive — rarement lisible,
+   souvent illisible en clair sur fond sombre. On imprime désormais ce qui a un sens sur papier : la destination
+   révélée, le journal de bord, le sac à préparer, et les mentions du pied de page. L'export PDF traduit du serveur
+   (bouton « Exporter cet itinéraire en PDF ») reste la sortie soignée ; ceci n'est qu'un filet. */
+@media print{
+  /* Fond clair imposé : le thème sombre vidait les cartouches d'encre et sortait du texte blanc sur blanc. */
+  :root, :root[data-theme="dark"]{
+    --bg:#ffffff; --surface:#ffffff; --ink:#111111; --ink-soft:#333333; --ink-faint:#555555;
+    --line:#bbbbbb; --line-strong:#888888; --shadow:transparent;
+  }
+  body{background:#fff; color:#111;}
+  /* Éléments sans objet sur papier : réglages, actions, animation du tirage, carte interactive, sélecteurs. */
+  .hero, form, #form, .export-row, .again-row, .map-card, .reveal .compass, .roulette-label, .roulette-name,
+  .roulette-clue, .stamp, #lang-switcher, #currency-switcher, .theme-toggle, #load-error{display:none !important;}
+  .day-card{
+    animation:none; opacity:1; transform:none;
+    box-shadow:none; border:1px solid #bbb;
+    break-inside:avoid; page-break-inside:avoid;
+  }
+  .timeline-head, .pack-card, .reveal-real{break-inside:avoid; page-break-inside:avoid;}
+  /* L'adresse des liens, invisible une fois imprimée : ajoutée entre parenthèses derrière le texte. */
+  .day-card a[href^="http"]::after, .pack-card a[href^="http"]::after{content:" (" attr(href) ")"; font-size:.7em; color:#555; word-break:break-all;}
+  footer{border-top:1px solid #bbb; font-size:.7rem; color:#333;}
+  @page{margin:14mm;}
+}
+
+/* ============ ÉCRITURES DE DROITE À GAUCHE ============
+   i18n.js pose dir="rtl" sur <html> pour l'arabe, le persan, l'ourdou, le sorani et le divehi. Le texte et l'ordre des
+   blocs se retournent alors tout seuls, mais pas ce qui est positionné « à droite » en dur ni les flèches dessinées :
+   relevé au 7e audit (18/09/2026), ces quatre éléments restaient à l'envers. */
+[dir="rtl"] .date-sep{transform:scaleX(-1); display:inline-block;} /* → entre les deux dates : pointait vers le champ « début » */
+[dir="rtl"] .field select{
+  background-position:18px center, 13px center; /* chevron du menu déroulant : collé au bord droit, loin du texte */
+  padding-right:.7rem;
+  padding-left:2rem;
+}
+[dir="rtl"] .toggle-thumb{left:auto; right:2px;} /* la pastille part du côté d'où l'on lit… */
+[dir="rtl"] .toggle-label input:checked + .toggle-track .toggle-thumb{transform:translateX(-17px);} /* … et glisse vers l'autre */
+[dir="rtl"] .lightbox-close{right:auto; left:1.2rem;} /* croix de fermeture de la photo en grand */

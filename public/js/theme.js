@@ -53,6 +53,9 @@
     }
     var buttons = document.querySelectorAll('.theme-toggle-btn');
     for(var i = 0; i < buttons.length; i++) render(buttons[i], choice);
+    // Signal pour ce qui n'est pas du CSS : le tracé de la carte Leaflet, dont la couleur est fixée en JavaScript au
+    // moment du dessin et restait donc celle de l'ancien thème (7e audit du 18/09/2026).
+    try { window.dispatchEvent(new CustomEvent('theme:change', { detail: { choice: choice } })); } catch(e){}
   }
 
   function init(){

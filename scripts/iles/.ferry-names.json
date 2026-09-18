@@ -772,6 +772,14 @@
   "name": "Tórshavn ↔ Nólsoy"
  },
  {
+  "routeKey": "untenNakada",
+  "name": "Unten (Nakijin) ↔ Nakada"
+ },
+ {
+  "routeKey": "untenMaedomari",
+  "name": "Unten (Nakijin) ↔ Maedomari"
+ },
+ {
   "routeKey": "paynesvilleRaymondIsland",
   "name": "Paynesville ↔ Raymond Island"
  },

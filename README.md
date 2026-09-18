@@ -21,8 +21,17 @@ cap-sur-linconnu/
 │   ├── trip-engine.js     # moteur côté serveur : recherche de ville et tirage d'itinéraire
 │   ├── search-index.js    # index de recherche sur disque (cache/search-index/, voir plus bas)
 │   ├── land-grid.js       # grille terre/eau lib/land-grid.bin (voir "Pas de route à travers la mer")
+│   ├── toll-grid.js       # où le péage existe vraiment (data/toll-grid.json, OpenStreetMap)
+│   ├── pdf-text.js        # mise en page du PDF : polices Noto, écritures RTL, coupure des lignes
 │   └── ferry-ports.js     # GÉNÉRÉ par scripts/build-ferry-ports.js : ports des liaisons de ferry
+├── data/                  # données NON servies au navigateur (bloquées côté Apache et par Node)
+│   ├── charging-stations.txt  # bornes de recharge Open Charge Map (voiture électrique)
+│   ├── hiking.json            # portails de randonnée par pays (scripts/build-hiking-data.js)
+│   ├── toll-grid.json         # cases de 0,25° où une autoroute à péage existe (scripts/build-toll-grid.js)
+│   └── road-factor-osrm.json  # relevé des 128 itinéraires OSRM qui fixent ROAD_FACTOR et les vitesses
 ├── scripts/
+│   ├── build-toll-grid.js         # data/toll-grid.json : autoroutes à péage réelles (Overpass/OSM)
+│   ├── measure-road-factor.js     # mesure ROAD_FACTOR et la vitesse moyenne sur de vrais itinéraires OSRM
 │   ├── build-country-communes.js  # génère public/data/communes-XX.txt pour un nouveau pays (GeoNames)
 │   ├── build-aliases.js           # génère public/data/aliases-XX.txt (noms multilingues, GeoNames)
 │   ├── parse-ba-wiki-postal.js    # BOSNIE-HERZÉGOVINE SEULEMENT : extrait la liste Wikipedia des
@@ -111,7 +120,7 @@ cap-sur-linconnu/
 │       │                        # Monaco — aucune correction de nom nécessaire)
 │       ├── aliases-im.txt      # idem pour l'île de Man (19 alias, dont 13 en mannois/Gaelg)
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
-│       └── toll-reference.json # 54 liaisons péage françaises réelles ayant servi à calculer le tarif €/km
+│       └── toll-reference.json # 38 liaisons de péage françaises vérifiées, qui fixent le tarif €/km (7e audit)
 │                                # (non chargé par l'app — conservé comme référence/source)
 ```
 
@@ -3078,6 +3087,17 @@ npm start
 
 Puis ouvrez `http://localhost:3000`. Le port peut être changé via la variable d'environnement `PORT`.
 
+**Versions des dépendances** (relevé du 18/09/2026, 7e audit — à revérifier à chaque mise à jour) :
+
+- **Express 4** (`^4.19.2`) : la branche 4 ne reçoit plus que des correctifs de sécurité depuis la sortie d'Express 5
+  (septembre 2024) ; elle reste maintenue, mais le passage à Express 5 est à prévoir. Points d'attention pour cette
+  migration : la gestion des erreurs asynchrones (Express 5 les transmet automatiquement au gestionnaire d'erreurs),
+  la syntaxe des routes (`path-to-regexp` v6 : plus de `*` nu) et `req.query` en lecture seule. Le serveur n'utilise
+  aucune API retirée en 5 hors ces points.
+- **Leaflet 1.9.4** (hébergé localement, `public/vendor/leaflet/`) : version figée volontairement, aucune mise à jour
+  automatique n'est possible puisque le fichier est servi depuis le dépôt. À comparer aux versions publiées sur
+  [leafletjs.com](https://leafletjs.com) lors des audits, en même temps que les autres dépendances.
+
 **Mémoire** : avec ~4 millions de lieux (lot Asie), le serveur occupe ~3 Go une fois chargé (~1,8 Go quand l'index de
 recherche sur disque est utilisé, voir plus bas) ; `npm start` passe `--max-old-space-size=8192` à Node. Prévoir au
 moins 4 Go de mémoire libre. Un lancement direct (`node server.js`, Passenger) n'applique PAS cette option : voir
@@ -3119,7 +3139,8 @@ servis par Node à la racine du site, données lues sur le disque par le serveur
 **Sécurité côté Node (audit du 17/09/2026)** : en-têtes HTTP (CSP stricte — le script inline de thème
 est autorisé par son empreinte SHA-256, à recalculer s'il change —, HSTS, `nosniff`, `frame-ancestors
 'none'`), `X-Powered-By` retiré ; limitation de débit par IP et par minute (tirages 20, export PDF 10,
-recherche 180, photos 400, activités et randonnées 120, autres API 120 ; réponse 429) ; `/data/` en 404
+recherche 60, photos 400, activités et randonnées 120, autres API 120, gros fichiers statiques 30 ; réponse 429 —
+valeurs relues sur `server.js` au 7e audit, la recherche y était annoncée à 180) ; `/data/` en 404
 (les bundles de 226 Mo n'y sont plus servis) ; caches en mémoire bornés à 5 000 entrées ; distances
 reçues plafonnées à 3 000 km ; noms venus d'OpenStreetMap/Wikipédia échappés avant insertion HTML et
 liens limités à http(s) ; erreurs internes non renvoyées au client ; `/api/status` sans version de Node
@@ -3783,6 +3804,199 @@ Les 3 069 lieux retrouvés ci-dessus ont mis en lumière un défaut plus ancien 
 - Les 6 lieux d'Iheya, jusque-là chacun sur sa propre « île » (règle par défaut d'Okinawa), donnaient des tirages vides ;
   ils forment maintenant une vraie masse terrestre. Mesuré après correction : Izena et Iheya sont atteintes **par le
   ferry**, 0 saut de masse terrestre sans traversée sur 40 tirages au départ de Nago.
+
+### Ce que le péage ne dit pas (18 septembre 2026)
+
+À lire avec la section ci-dessous. Le montant affiché n'est une estimation que pour les **17 pays** dont un barème
+kilométrique a pu être sourcé : France, Espagne, Portugal, Italie, Croatie, Bosnie-Herzégovine, Serbie, Macédoine du
+Nord, Grèce, Turquie, Azerbaïdjan, Israël, Japon, Taïwan, Maroc, Tunisie, Sénégal. Partout ailleurs, l'application
+n'affiche **aucun** montant de péage — y compris dans des pays qui en ont un, bien réel :
+
+- **Amérique du Nord** : autoroutes à péage des États-Unis (turnpikes du New Jersey, de Pennsylvanie, de Floride…),
+  autoroutes 407 ETR en Ontario, réseau *cuotas* mexicain — l'un des plus chers au monde rapporté au kilomètre.
+- **Amérique du Sud** : *pedágios* brésiliens, *peajes* chiliens et argentins, très présents sur les grands axes.
+- **Asie** : réseau chinois (le plus étendu du monde), Inde (*NHAI*), Indonésie, Malaisie, Corée du Sud, Philippines,
+  Vietnam, Thaïlande.
+- **Europe** : sections concédées en Pologne (A1, A2, A4), en Irlande (M50 et axes vers le sud), en Norvège
+  (~190 postes AutoPASS), au Royaume-Uni (M6 Toll, traversées de la Tamise), plus les grands ouvrages payants
+  scandinaves et danois.
+
+Ce silence est un **choix assumé** : aucun de ces réseaux n'a de barème kilométrique national publié qui puisse être
+cité, et la règle du projet est de ne jamais afficher un chiffre qu'on ne peut pas justifier. Il vaut mieux ne rien
+annoncer que d'annoncer un montant inventé — mais un voyageur qui prépare un trajet en Californie, au Brésil ou en
+Chine doit savoir que l'absence de ligne « péage » ne veut PAS dire que la route est gratuite. Les vignettes
+(Suisse, Autriche, Slovénie, Tchéquie, Hongrie, Slovaquie, Bulgarie, Roumanie…) sont, elles, traitées à part et bien
+affichées, avec le lien officiel d'achat : voir la section « Pays couverts » ci-dessus.
+
+### Septième passe d'audit (18 septembre 2026)
+
+Septième relecture complète, en lecture seule d'abord, puis correction. Cinq constats de fond : trois portent sur des chiffres que
+l'application affichait comme des faits sans pouvoir les justifier, le quatrième est un défaut de mise en page
+découvert en vérifiant l'export PDF de bout en bout, le cinquième une poignée d'îles que le moteur croyait joignables
+par la route.
+
+**1. Le péage était inventé deux fois.** Le tarif français (0,148 €/km en classe 1) était tiré des 24 lignes étiquetées
+« Cofiroute » de `public/data/toll-reference.json`, dont **22 ne correspondent à aucun barème publié** : cinq doublons
+gonflés d'une liaison VINCI, et un Paris → Reims à 57,60 € quand la grille Sanef affiche **12,60 €** (4,6 fois trop).
+Ces lignes sont supprimées. Le fichier ne contient plus que 38 liaisons vérifiées une à une dans les grilles officielles au 1er février
+2026 — « Tarifs des principales liaisons » de VINCI Autoroutes (ASF, Cofiroute, Escota), grilles Sanef (A1, A4, A26) et
+APRR (A6, A36, A39). Médiane prix ÷ kilomètres : **0,104 €/km** en classe 1 (étendue 0,067 à 0,139), et les classes 2 et
+5 suivent les rapports officiels mesurés sur ces mêmes grilles (×1,535 et ×0,604). Le libellé « barème ASF » était faux
+même pour les lignes correctes : la grille VINCI couvre trois concessionnaires.
+
+Surtout, le péage était facturé **partout** dans un pays « à péage », dès 60 km, sur la totalité de la distance.
+Bastia → Porto-Vecchio (aucune autoroute en Corse), Brest → Quimper (Bretagne gratuite) ou une étape de l'est anatolien
+recevaient une facture. Désormais, `scripts/build-toll-grid.js` interroge OpenStreetMap (voies `toll=yes`) et enregistre
+dans `data/toll-grid.json` les cases de 0,25° (~28 km) où une voie à péage existe réellement, avec le pays. Le moteur
+échantillonne le trait de chaque étape tous les 10 km et ne facture que les kilomètres dont la case porte une voie à
+péage, **au barème du pays de cette case**. Ces kilomètres sont d'abord ramenés à l'échelle autoroutière
+(`TOLL_ROAD_FACTOR` = 1,17) : les corridors autoroutiers sont plus droits que la moyenne des routes (1,170 mesuré sur
+les 38 liaisons de référence, 1,165 mesuré indépendamment avec OSRM), et appliquer un tarif au kilomètre d'autoroute
+réelle à une distance estimée avec le facteur général aurait surfacturé le péage d'environ 10 % partout. Vérification
+finale sur les 38 liaisons de référence : le montant que l'application afficherait pour chacune, comparé à son prix
+officiel, donne un rapport **médian de 1,00** (étendue 0,75 à 1,61 selon les concessions — d'où la mention
+« estimation au kilomètre » affichée avec le montant) — ce qui règle du même coup les étapes transfrontalières, jusque-là facturées
+en entier au tarif du pays d'arrivée (Suisse → France : 371 km au tarif français, alors que la Suisse n'a aucun péage
+kilométrique). Sans le fichier, aucun péage n'est estimé : plutôt rien qu'un montant inventé.
+Une case VOISINE compte aussi, soit une tolérance d'environ 28 km autour du trait : le moteur ne calcule pas
+d'itinéraire, et la ligne droite s'écarte de l'autoroute réelle (entre Lyon et Marseille, elle passe 20 km à l'est de
+l'A7). Sans cette tolérance, le rapport montant estimé / prix officiel des 38 liaisons de référence tombe à une médiane
+de **0,54** (le péage était sous-estimé de moitié) ; avec elle, il remonte à **0,97** (q25 0,86 ; q75 1,07). Exemples
+mesurés : Lyon → Marseille 29,8 € pour 28,10 € réels, Paris → Lille 21 € pour 18,90 €, Bordeaux → Toulouse 23,1 € pour
+22,90 €. La contrepartie est assumée : un trajet gratuit qui longe une autoroute payante peut se voir attribuer
+quelques kilomètres (mesuré : 6 € sur Rennes → Nantes, gratuite, dont le tracé passe à portée de l'A11 et de l'A83).
+En revanche, une région sans aucune autoroute à péage — Corse, pointe bretonne, La Réunion — reste bien à 0 €.
+La grille complète compte **1 699 cases (28 Ko)** et couvre les 17 pays à barème : FR 426, JP 374, IT 256, TR 115,
+ES 95, GR 88, HR 84, MA 76, PT 58, RS 52, TW 28, MK 13, BA 12, TN 8, IL 6, AZ 5, SN 3. Aucun pays à barème n'est
+resté vide. À noter : seule la FRANCE a été recalibrée et validée liaison par liaison au 7e audit ; les seize autres
+barèmes au kilomètre restent ceux des audits précédents, avec leurs sources, et n'ont pas été revérifiés ici. L'affichage le dit
+maintenant (`toll.estimateNote`, traduite dans les 161 langues) : « Estimation au kilomètre : le montant réel dépend des
+sections réellement empruntées. »
+
+Deux données tirées au sort dans le moteur ont disparu au passage : le TYPE de péage (« flux libre » / « à barrière »,
+choisi à pile ou face avec 25 % de chances) et le « vous gagnez environ N min », issu d'un pourcentage aléatoire entre
+15 et 30 % — qui, en prime, RACCOURCISSAIT la durée annoncée du trajet. Le manat azerbaïdjanais était converti à 1,85
+AZN/EUR (relevé xe.com périmé) au lieu de **1,9493** (taux officiel de la Banque centrale d'Azerbaïdjan au 17/09/2026) :
+les trois classes étaient surestimées d'environ 5 %.
+
+**2. Distances et durées : deux constantes jamais mesurées.** Le facteur routier (`ROAD_FACTOR`, distance par la route =
+vol d'oiseau × 1,17) et les vitesses par mode (82 / 81 / 78 / 70 / 85 / 17 km/h) n'étaient sourcés nulle part. Ils le
+sont maintenant :
+
+- `scripts/measure-road-factor.js` calcule de VRAIS itinéraires routiers avec OSRM (profil voiture, données
+  OpenStreetMap) entre villes de plus de 20 000 habitants tirées des données du projet. Relevé du 17/09/2026, conservé
+  dans `data/road-factor-osrm.json` : **128 itinéraires, 16 pays, étapes de 80 à 500 km** — facteur médian **1,287**
+  (q25 1,216 ; q75 1,399 ; moyenne 1,327), vitesse moyenne médiane **79,4 km/h** (Europe 85,9). La valeur 1,17
+  sous-estimait donc toutes les distances — et donc les durées et le budget carburant — d'environ 10 %. `ROAD_FACTOR`
+  passe à **1,287**.
+- Les vitesses passent toutes à **80 km/h** pour les véhicules motorisés. Le code de la route ne distingue pas la
+  motorisation, et l'article R413-2 (Legifrance, LEGIARTI000042240048) fixe les mêmes limites — 130 / 110 / 80 — pour
+  tous les véhicules de moins de 3,5 t, **motos comprises** : rien ne justifiait de faire rouler une moto plus vite
+  qu'une voiture, une hybride moins vite qu'une thermique, ni une électrique moins vite encore (son temps de recharge
+  est déjà compté à part). Un fourgon aménagé conduit avec le permis B a un PTAC de 3,5 t au plus
+  (service-public.gouv.fr F2827) : régime voiture lui aussi. Le vélo passe de 17 à **15 km/h** : « un cycliste standard
+  parcourt environ 50 à 60 km par jour à une vitesse moyenne de 15 km/h sans pause » (EuroVelo / European Cyclists'
+  Federation, consulté le 18/09/2026), cohérent avec les 65 km/jour d'un itinérant relevés par France Vélo Tourisme.
+
+Mesuré après ces changements, sur 1 140 tirages (5 par pays, 4 modes de transport) : **0 traversée maritime par la
+route, 0 saut de masse terrestre sans ferry**, 28 tirages vides sur 1 140 (2,5 %, contre 27 avant), 341 ms au maximum
+par tirage.
+
+**3. Robustesse du serveur et deux régressions des audits précédents.**
+
+- L'index de recherche sur disque était lu sans aucune vérification : un index tronqué (disque plein, copie
+  interrompue, construction tuée) donnait des lieux vides ou des noms coupés, sans la moindre erreur. Les sept fichiers
+  sont désormais vérifiés à l'ouverture (tailles croisées avec `meta.json`, dernier décalage comparé à la taille réelle
+  des fichiers de données) et toute lecture courte lève une erreur. Sa construction écrit par boucle
+  (`fs.writeSync` peut n'écrire qu'une partie du tampon, et sa valeur de retour était ignorée).
+- La grille terre/mer (`lib/land-grid.bin`) échouait à la PREMIÈRE vérification de mer, pas au chargement, et un
+  fichier absent ne disait rien du tout — alors que sans elle, plus aucune traversée maritime n'est détectée. En-tête,
+  dimensions et longueur de chaque ligne sont vérifiés une fois pour toutes, et l'état des deux grilles (terre/mer et
+  voies à péage) est exposé par `GET /api/status`.
+- Verrou de construction de l'index : il ne portait que le PID du serveur. Si celui-ci mourait pendant la construction,
+  un autre démarrage jugeait le verrou orphelin et lançait une seconde construction dans le même dossier. Le verrou
+  porte maintenant les deux PID (serveur puis enfant) et reste « vivant » tant que l'un des deux l'est.
+- Arrêt propre ajouté : `SIGTERM`/`SIGINT` laissent finir les réponses en cours (un export PDF de plusieurs secondes
+  était coupé net par un redémarrage cPanel), `server.on('error')` donne un message clair si le port est pris, et une
+  promesse rejetée sans `catch` ne tue plus le process (~40 s de rechargement pour une simple erreur d'appel sortant).
+- **Régression du 3e audit corrigée** : la place dans la file des appels sortants n'était rendue qu'à la fin du
+  traitement. Un visiteur qui changeait de page bloquait sa propre IP jusqu'à 30 s (mesuré : 429 au bout de 20,02 s).
+  Elle est maintenant rendue 5 s après la fermeture de la connexion — assez pour que l'appel sortant déjà lancé se
+  termine, sans qu'une connexion coupée annule la limite. Mesuré après correction : 200 en 4,6 s au lieu d'un refus.
+- **Régression du 3e audit corrigée** : le quota des gros fichiers statiques était déclaré APRÈS le service des
+  fichiers précompressés, donc les réponses brotli/gzip — le cas normal — n'étaient jamais comptées. Mesuré avant :
+  35 requêtes brotli d'affilée toutes servies ; après : 30 servies, puis 429.
+
+**4. Un PDF de 36 pages pour trois jours de voyage.** Découvert en vérifiant l'export de bout en bout : un itinéraire
+de 3 jours sortait en **36 à 45 pages**, presque toutes vides, avec une ligne par page et des liens dont le rectangle
+cliquable débordait de la feuille (`/Rect [94 -570.11 274.88 791.89]`). La cause est dans `lib/pdf-text.js` : la
+fonction qui MESURE la largeur d'un texte le fait à la taille 1000 (largeur par unité, réutilisable à toutes les
+tailles) et ne remettait pas la taille d'origine dans pdfkit. L'appelant demandait juste après `doc.currentLineHeight()`
+et obtenait **~1 362 points au lieu de 13,6** : chaque ligne « dépassait le bas de page » et déclenchait un saut. Le
+défaut ne se produisait qu'à la PREMIÈRE mesure d'un texte donné — ensuite le cache des largeurs répondait sans toucher
+au document — d'où un comportement en apparence aléatoire, et une reproduction impossible sans mesurer. La fonction
+restaure désormais la police et la taille. Mesuré après correction : le même itinéraire tient sur **1 page**, 21 Ko au
+lieu de 37 Ko.
+
+**5. Huit lieux insulaires accessibles par la route.** Vérification lieu par lieu (recensements officiels, longueurs
+de voirie mesurées dans OpenStreetMap, recherche d'un ferry transportant les VÉHICULES) : les huit étaient rattachés à
+une grande île ou au continent, donc joignables par un trait de route à travers la mer.
+
+| lieu | était rattaché à | réalité | désormais |
+| --- | --- | --- | --- |
+| Xiaochangshan et 70 autres lieux de l'archipel de Changshan (Dalian) | `continental` | pont de Changshan entre Dachangshan et Xiaochangshan (3 450 m, 2014), mais rien vers le continent : un client-roulier Pikou ↔ Yuanyang dont aucun tarif officiel n'est publié | masse `changshan`, sans liaison |
+| Islas de Gigantes, Norte et Sur (Iloilo) | `panay` (code postal 5019) | 13 000 habitants, aucune route entre les deux îles, seulement des pump boats | deux masses distinctes, sans liaison |
+| Hagdan et Waga, île de Kinatarkan (Cebu) | `cebu` (code 6047, partagé avec le nord continental de Cebu) | 23,5 km de routes sur l'île, bangkas seulement — le RoRo Hagnaya ↔ Santa Fe dessert Bantayan, 12 km plus loin | masse `kinatarkan` |
+| San Vicente (Northern Samar) | `leyteSamar` (code 6419) | municipalité insulaire de 6 928 habitants, un bateau à moteur quotidien, aucun RoRo | masse `sanVicenteSamar` |
+| Ko Tarutao (Satun) | `continental` | 18 km de piste du parc national, vedettes à passagers depuis Pak Bara, véhicules du parc seulement | masse `koTarutao` |
+| Dahlak Kebir et 20 lieux des Dahlak (Érythrée) | `continental` (aucune règle d'île pour l'Érythrée) | pistes sur place, aucune liaison véhicule publiée depuis Massaoua | masse `dahlakKebir` + îlots isolés |
+| Mas et 10 lieux de l'île de Karas (Fakfak) | `newGuinea` | aucune route cartographiée sur l'île, desserte perintis toutes les deux semaines | chaque lieu isolé |
+| Chrysí, au sud de la Crète | `crete` (code 72200) | île **inhabitée** (2 habitants en 2011), aucune route, débarquement réglementé (Natura 2000) | lieu isolé |
+
+Aucune liaison n'a été inventée pour autant : là où le seul tarif trouvé venait d'un portail d'information local et non
+de l'opérateur (Changshan), la règle du projet s'applique — pas de tarif officiel publié, pas de liaison. Ces îles ne
+sont donc plus proposées comme étape d'un road trip, ce qui est la vérité du terrain.
+
+Effet de bord découvert au passage, et corrigé : les règles d'Izena, d'Iheya et d'Iwaishima ajoutées la veille (voir
+« Trois îles japonaises mal classées ») avaient été écrites directement dans `public/js/trip-data.js` au lieu des
+fichiers sources `scripts/iles/` — la première régénération des règles les a effacées, liaisons comprises. Elles
+vivent désormais dans `scripts/iles/iles-audit7.js`, avec le reste. Contrôle après régénération : 128 pays,
+621 liaisons, 704 liaisons de ports vérifiées.
+
+**Drapeaux des suggestions de villes.** La liste de suggestions affichait un émoji drapeau devant chaque commune,
+pour distinguer d'un coup d'œil deux homonymes de pays différents (le San Marino saint-marinais des sept villages
+italiens du même nom). Sous Windows, cet émoji ne s'affiche pas : le système ne fournit aucune image pour les paires
+d'indicateurs régionaux et le navigateur retombe sur deux lettres encadrées. Les suggestions utilisent désormais les
+mêmes images SVG locales que le sélecteur de langue (circle-flags, licence MIT) : 133 drapeaux manquants ont été
+ajoutés, plus 6 codes qui n'existaient chez circle-flags que sous forme d'alias (Sainte-Hélène, Svalbard, îles
+mineures américaines, Heard-et-MacDonald, Pays-Bas caribéens, Bouvet), soit **264 fichiers pour 169 Ko** couvrant les
+239 pays et territoires. Un fichier manquant ferait revenir l'émoji (repli sur l'événement `error` de l'image).
+
+**Interface, accessibilité et mentions légales.** Les libellés d'unité (`km autour du départ`…) ne pouvaient pas revenir
+à la ligne et débordaient dans les langues à formulation longue. La page d'accueil affichait « Tirage en cours… » avant
+tout tirage. Les erreurs d'export PDF n'étaient annoncées à aucun lecteur d'écran (`role="status"`, `aria-busy`, et le
+focus clavier rendu au bouton). Les couleurs ont été mesurées et corrigées : `--ink-faint` (2,5 à 3,0 alors qu'il sert à
+du vrai texte) passe à 4,54-5,38 ; `--tension-orange`, `--accent-2` (icônes) et `--line-strong` (contours de champs,
+seuil 3:1 de la règle WCAG 1.4.11) atteignent leur seuil ; l'orange de marque reste inchangé pour les boutons, avec une
+variante `--accent-text` lisible quand il sert de couleur de texte. Les grilles passent en `minmax(min(200px, 100%), 1fr)`
+(à 200 % de zoom, une colonne de 200 px minimum débordait). Cinq règles `[dir="rtl"]` remettent à l'endroit la flèche
+entre les deux dates, le chevron des menus déroulants, la pastille des interrupteurs et la croix de la visionneuse de
+photos. Le tracé de la carte reprend les couleurs du thème quand on en change (elles étaient lues au moment du dessin).
+Une feuille d'impression a été ajoutée : imprimer la page donnait le formulaire, la roulette et la carte interactive.
+Enfin les mentions légales portent le **téléphone de l'hébergeur** (obligatoire, article 6-III-1 de la LCEN), la
+politique de confidentialité identifie le **responsable du traitement** (article 13.1.a du RGPD) et ne dit plus que
+l'export PDF est envoyé « à votre serveur ». Le pied de page annonce désormais qu'aucune donnée personnelle n'est
+**conservée** (et non « collectée ») : l'adresse IP est bien vue par le serveur, une minute au plus, en mémoire vive,
+pour limiter le débit — c'est écrit noir sur blanc dans la politique de confidentialité.
+
+**Zones à tension : deux alertes infirmées, une confirmée.** Vérification faite sur les fiches « Conseils aux
+voyageurs » de France Diplomatie (consultées le 18/09/2026) : le classement de **Cuba** (orange sur toute l'île) et du
+**Honduras** (orange, sauf îles de la Baie, Valle et Copán) est exactement celui de la source — rien à corriger. En
+revanche l'exception mexicaine « Ixtapa-Zihuatanejo », un cercle de 12 km, neutralisait le rouge de l'État de Guerrero
+sur **53 lieux**, dont une cinquantaine de hameaux de l'arrière-pays que la fiche laisse en rouge. Elle est ramenée aux
+deux localités de la station balnéaire (5 et 4 km, 13 lieux), et le libellé rappelle que France Diplomatie ne reconnaît
+ces exceptions qu'« à la condition expresse de s'y rendre par la voie aérienne » — condition qu'un itinéraire routier
+ne remplit jamais.
 
 ### PDF traduit dans les 161 langues (17 septembre 2026)
 
@@ -4844,7 +5058,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
   d'OpenStreetMap, licence ODbL.
 - Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
-  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 78 fichiers SVG, dont dix-neuf
+  HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 264 fichiers SVG (169 Ko), dont dix-neuf
   drapeaux RÉGIONAUX — Tatarstan, Bachkortostan, Sakha, Tchétchénie, Mordovie et Oudmourtie ajoutés en dernier) — voir "Langues" ci-dessus. **Exception** : le drapeau amazigh
   (`amazigh.svg`), absent de circle-flags, vient de
   [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Berber_flag.svg) (**domaine public**),
@@ -4866,8 +5080,8 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   de l'amharique et du tigrinya.
 - Tarifs de péage (le libellé « Péage (barème …) » de chaque étape nomme désormais le barème du pays appliqué — `TOLL_SOURCE`
   dans trip-data.js, ex. « Autostrade per l'Italia 2026 » en Italie — au lieu d'« ASF 2026 » pour tous les pays ; même
-  mention dans le PDF) : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com)
-  (France — voir `public/data/toll-reference.json` pour le détail des 54 liaisons utilisées),
+  mention dans le PDF) : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com/fr/)
+  (France — voir `public/data/toll-reference.json` pour le détail des 38 liaisons utilisées),
   [Autopistas/Abertis](https://www.autopistas.com) (Espagne), [Ascendi](https://www.ascendi.pt) /
   [Via Verde](https://www.vialivre.pt) (Portugal), [Autostrade per l'Italia](https://www.autostrade.it)
   (Italie), [HAC](https://www.hac.hr) (Croatie — via mojkalkulator.com.hr pour l'agrégation des
@@ -4875,8 +5089,8 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   l'agrégation des tarifs 2026), [Putevi Srbije](https://www.putevi-srbije.rs) (Serbie — via tolls.eu
   pour l'agrégation des tarifs 2026), [Entreprise publique des routes d'État](https://roads.org.mk)
   (Macédoine du Nord — via fuel-prices.eu/tolls.eu pour l'agrégation des tarifs 2026), [Olympia
-  Odos](https://www.olympiaodos.gr) / [Egnatia Odos](https://www.egnatia.eu) (Grèce — via mydiodia.gr
-  pour l'agrégation des tarifs 2026), [Otoyol A.Ş.](https://www.otoyol.com.tr) (Turquie — via
+  Odos](https://www.olympiaodos.gr) / [Egnatia Odos](https://egnatia.eu/) (Grèce — via mydiodia.gr
+  pour l'agrégation des tarifs 2026), [Otoyol A.Ş.](https://isletme.otoyolas.com.tr/gecis-ucreti-hesapla/) (Turquie — via
   plusieurs sources convergentes début septembre 2026 pour les tarifs 1er juillet 2026 de
   l'autoroute Gebze-Orhangazi-İzmir/O-5), [AAYDA / Agence d'État des routes](https://www.aayda.gov.az)
   (Azerbaïdjan — barème officiel de l'unique route à péage du pays, la M-1 Bakou-Quba),
@@ -4925,9 +5139,9 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   Ferries](https://www.bluestarferries.com)/[Minoan Lines](https://www.minoan.gr)/[Seajets](https://www.seajets.gr)/
   ANEK-Superfast (Le Pirée ↔ Crète/Dodécanèse/Cyclades/Égée du Nord/golfe Saronique),
   [Levante Ferries](https://www.levanteferries.com) (Ionienne — Patras/Kyllíni), KerkyraLines/Kerkyra
-  Seaways (Igoumenitsa ↔ Corfou), [Triton Ferries](https://www.tritonferries.gr) (Néapoli ↔ Cythère),
+  Seaways (Igoumenitsa ↔ Corfou), [Triton Ferries](https://tritonferries.gr/) (Néapoli ↔ Cythère),
   Hellenic Seaways/Alonissos Skopelos Skiathos Shipping Company (Vólos/Kými ↔ Sporades) — agrégées via
-  [ferryhopper.com](https://www.ferryhopper.com)/[ferryscanner.com](https://www.ferryscanner.com)/
+  [ferryhopper.com](https://www.ferryhopper.com)/[ferryscanner.com](https://www.ferryscanner.com/en/ferry)/
   [directferries.com](https://www.directferries.com), tarifs basse saison 2026 —, [SSL/Strandfaraskip
   Landsins](https://www.ssl.fo) (Tórshavn ↔ Tvøroyri, Suðuroy, îles Féroé — tarifs officiels non
   promotionnels 2026, ssl.fo/prices)
