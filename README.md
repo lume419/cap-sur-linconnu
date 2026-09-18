@@ -1559,7 +1559,7 @@ Argentine, Chili, Malouines, Géorgie du Sud-et-les îles Sandwich du Sud — **
 (`scripts/build-ameriques-communes.js`) : Mexique 256 393, États-Unis 162 937, Brésil 66 533, Pérou 46 394, Colombie
 33 884, Bolivie 25 597, Venezuela 23 225, Canada 19 687… ; **~80 000 alias** (`scripts/build-ameriques-aliases.js`). Le
 site compte désormais **~4,8 millions de lieux** (bundle communes 227 Mo bruts ; index de recherche 16,4 millions
-d'entrées ; serveur ~2,4 Go, tirages prêts en ~14 s en local).
+d'entrées à l'époque, 17,65 millions aujourd'hui ; serveur ~2,4 Go, tirages prêts en ~14 s en local).
 
 **Codes postaux** (règle des 90 %) : États-Unis 96,6 %, Mexique 97,5 %, Bermudes, Costa Rica, Panama, Haïti, Porto Rico,
 îles Vierges américaines, Équateur, Pérou et Uruguay ont leurs codes ; code unique pour Turques-et-Caïques (TKCA 1ZZ),
@@ -1654,7 +1654,11 @@ ouverte ET hors des zones formellement déconseillées par France Diplomatie. D�
   aujourd'hui ouvertes dans le modèle.
 - **Zones à tension** (`TENSION_ZONES`, public/js/trip-data.js, construit par
   `scripts/build-tension-zones.js` depuis `scripts/tension-zones/*.js`) : **359 règles pour 94 pays**,
-  relevées sur les fiches « Sécurité » de France Diplomatie (mises à jour du 15 septembre 2026) — zones
+  relevées sur les fiches « Sécurité » de France Diplomatie, consultées jusqu'au 15 septembre 2026 — chaque règle porte
+  sa propre date (195 sur 359 au 15 septembre, les autres de mars à juillet 2026), qui n'a pas le même sens partout :
+  date de mise à jour de la fiche pour `asie-centre-sud`, `mena`, `oceanie`, `ouest` et `sud`, « dernière
+  actualisation » de la rubrique Zones de vigilance pour `ameriques`, `centre` et `europe`, non précisé pour
+  `asie-est`, `asie-sud-est` et `golfe` ; ces dates ne se comparent donc pas d'un pays à l'autre — zones
   **rouges** (« formellement déconseillé ») et **orange** (« déconseillé sauf raison impérative »), le jaune
   étant ignoré. Découpage au plus juste : pays entier quand il est tout rouge (Russie, Ukraine,
   Biélorussie, Syrie, Soudan, Mali, Niger, Burkina Faso), sinon régions administratives, codes ISO de
@@ -3854,7 +3858,7 @@ péage, **au barème du pays de cette case**. Ces kilomètres sont d'abord ramen
 les 38 liaisons de référence, 1,165 mesuré indépendamment avec OSRM), et appliquer un tarif au kilomètre d'autoroute
 réelle à une distance estimée avec le facteur général aurait surfacturé le péage d'environ 10 % partout. Vérification
 finale sur les 38 liaisons de référence : le montant que l'application afficherait pour chacune, comparé à son prix
-officiel, donne un rapport **médian de 1,00** (étendue 0,75 à 1,61 selon les concessions — d'où la mention
+officiel, donne un rapport **médian de 0,97** (étendue 0,61 à 1,61 selon les concessions — d'où la mention
 « estimation au kilomètre » affichée avec le montant) — ce qui règle du même coup les étapes transfrontalières, jusque-là facturées
 en entier au tarif du pays d'arrivée (Suisse → France : 371 km au tarif français, alors que la Suisse n'a aucun péage
 kilométrique). Sans le fichier, aucun péage n'est estimé : plutôt rien qu'un montant inventé.
@@ -3862,9 +3866,9 @@ Une case VOISINE compte aussi, soit une tolérance d'environ 28 km autour du tra
 d'itinéraire, et la ligne droite s'écarte de l'autoroute réelle (entre Lyon et Marseille, elle passe 20 km à l'est de
 l'A7). Sans cette tolérance, le rapport montant estimé / prix officiel des 38 liaisons de référence tombe à une médiane
 de **0,54** (le péage était sous-estimé de moitié) ; avec elle, il remonte à **0,97** (q25 0,86 ; q75 1,07). Exemples
-mesurés : Lyon → Marseille 29,8 € pour 28,10 € réels, Paris → Lille 21 € pour 18,90 €, Bordeaux → Toulouse 23,1 € pour
-22,90 €. La contrepartie est assumée : un trajet gratuit qui longe une autoroute payante peut se voir attribuer
-quelques kilomètres (mesuré : 6 € sur Rennes → Nantes, gratuite, dont le tracé passe à portée de l'A11 et de l'A83).
+mesurés avec le code actuel (9e audit du 18/09/2026) : Lyon → Marseille 33,9 € pour 28,10 € réels, Paris → Lille 24,8 € pour
+18,90 €, Toulouse → Bordeaux 26,0 € pour 22,90 €. La contrepartie est assumée : un trajet gratuit qui longe une
+autoroute payante peut se voir attribuer quelques kilomètres (mesuré : 7,1 € sur Rennes → Nantes, gratuite, dont le tracé passe à portée de l'A11 et de l'A83).
 En revanche, une région sans aucune autoroute à péage — Corse, pointe bretonne, La Réunion — reste bien à 0 €.
 La grille complète compte **1 699 cases (28 Ko)** et couvre les 17 pays à barème : FR 426, JP 374, IT 256, TR 115,
 ES 95, GR 88, HR 84, MA 76, PT 58, RS 52, TW 28, MK 13, BA 12, TN 8, IL 6, AZ 5, SN 3. Aucun pays à barème n'est
@@ -4005,7 +4009,7 @@ et après, et la non-régression contrôlée sur l'ensemble : 1 140 tirages (5 p
 **28 tirages vides, 0 traversée maritime par la route, 0 saut de masse terrestre sans ferry** ; 120 tirages sous
 contraintes (distance max entre étapes, rayon, jours) donnent 0 dépassement ; les 161 langues ont toutes leurs clés.
 
-**1. Péage facturé dans des pays qui n'en ont pas.** La tolérance d'une case voisine (voir « Septième passe d'audit »)
+**1. Péage facturé dans des pays qui n'en ont pas** (correction trop stricte, reprise au 9e audit ci-dessous). La tolérance d'une case voisine (voir « Septième passe d'audit »)
 ne regardait pas le pays : une étape suisse, slovène ou autrichienne longeant une frontière héritait des cases à péage
 françaises ou italiennes d'à côté, au barème de ces pays. Mesuré sur le vrai moteur : **100 % des étapes slovènes et
 90 % des étapes suisses** tirées recevaient un péage. Désormais chaque point échantillonné n'est facturé que si le
@@ -4060,6 +4064,76 @@ l'écran et dans le PDF (`leg.overMaxLeg`, traduit dans les 161 langues). Mesur�
 
 Aucun tirage vide dans aucun cas, avant comme après, et des temps de calcul inchangés. Seul le dernier cas, où les
 deux réglages sont contradictoires, garde des dépassements — tous annoncés au voyageur.
+
+### Neuvième passe d'audit (18 septembre 2026)
+
+Cinq relectures indépendantes (moteur, serveur, interface, données, relecture des deux derniers commits), puis
+correction. Quatre constats étaient des **régressions introduites par les corrections du 8e audit** ; les autres
+existaient avant. Non-régression contrôlée comme au 8e audit : 1 140 tirages donnent toujours **28 tirages vides,
+0 traversée maritime par la route, 0 saut sans ferry** ; 0 dépassement de contrainte sur 120 tirages ; mer d'Åland
+toujours 0 traversée sur 240 tirages ; 161 langues complètes et empreintes CSP inchangées.
+
+**Régressions du 8e audit, corrigées.**
+
+- **Péage des pays traversés.** Le 8e audit ne facturait plus que les pays du départ et de l'arrivée : Luxembourg →
+  Genève (≈ 430 km d'autoroutes françaises) sortait à 0 €, Barcelone → Gênes oubliait 278 km français. Un pays
+  seulement traversé est de nouveau facturé, à deux conditions qui évitent de refacturer la Suisse ou la Slovénie : il
+  est traversé sur au moins 30 km d'affilée, et au moins un de ces points est franchement à l'intérieur (sa case de la
+  grille des lieux et ses 8 voisines ne contiennent que des lieux de ce pays, `insideCountry`). La seule condition de
+  longueur ne suffisait pas : le trait de Genève → Lausanne suit le Léman, dont le lieu le plus proche est sur la rive
+  française, et recevait 3,2 €. Mesuré : Luxembourg → Genève 39,8 €, Bâle → Luxembourg 21,1 €, Barcelone → Gênes
+  44,1 € (ES + FR + IT), Belgrade → Thessalonique 29,9 € (RS + MK + GR) ; **0 trajet facturé à tort sur 1 760 dans
+  22 pays sans péage** ; les 38 liaisons de référence et les corridors inchangés. Limites connues, dues au trait à vol
+  d'oiseau : Genève → Aoste ne compte pas la traversée française du Mont-Blanc (trop près de deux frontières), et
+  Zagreb → Umag ou Nazareth → Arad sous-estiment le péage, le trait coupant la Slovénie ou la Cisjordanie que la
+  route réelle évite.
+- **Police des champs de formulaire.** Le remplacement des raccourcis `font` invalides avait laissé les champs en
+  Arial (dates en police à chasse fixe) : les navigateurs ne font pas hériter la famille aux `input`/`select`, les
+  anciennes déclarations invalides le faisaient par accident. Règle `input,select,textarea{font-family:inherit}`.
+- **Passe stricte sautée avec un ferry.** Le raccourci « distance max plus courte que l'éloignement : aucune étape ne
+  peut respecter les deux » est faux avec un ferry, où seule la partie routière compte : de Calais (50 km max, 80 km
+  d'éloignement), 29 premiers trajets sur 30 dépassaient alors que Whitstable respecte les deux. Mesuré après : Calais
+  0 sur 30 à 1 et 3 jours, Bastia (100 / 150 km) 0 sur 30 au lieu de 12 et 18.
+- **Journées sur place signalées à tort.** Le petit trajet local d'une journée passée dans la même ville (3 à 14 km)
+  déclenchait « imposé par l'éloignement minimum ». Ces journées sont exclues du signalement, et ce trajet local ne
+  dépasse plus la distance max entre étapes (24 dépassements silencieux sur 30 tirages à 10 km max avant, 0 après).
+
+**Défauts antérieurs, corrigés.**
+
+- **Quota des gros fichiers contourné par une URL encodée** (`/js/%6918n.js`, `/js//i18n.js`, `/css/../js/i18n.js`,
+  constaté au 8e audit) : le quota teste désormais le chemin décodé et normalisé, sans tenir compte de la casse, et une
+  telle variante est redirigée (301) vers le chemin normal, précompressé, au lieu d'être recompressée à la volée
+  (~1 s de calcul par réponse de 11 Mo). Mesuré en local : 429 à partir de la 31e requête de la minute.
+- **Verrou de l'index laissé par une construction orpheline.** Si le serveur mourait pendant la construction, l'enfant
+  terminait sans retirer le verrou (réservé au serveur), et un serveur relancé attendait jusqu'à 30 minutes sans moteur.
+  L'enfant retire désormais le verrou quand son parent est mort, et le serveur en attente revérifie toutes les 10 s que
+  le verrou est vivant (`searchIndexLockAlive`). Bac à sable : le serveur relancé repart à la fin de la construction
+  (20 s) au lieu de 30 minutes.
+- **Faux message « zones déconseillées ».** Un premier tirage vide suivi d'un second tirage réussi sans filtre suffisait
+  à accuser le filtre, même sans aucune zone à la ronde (Lyon, réglages serrés : 6 faux messages et 10 tirages vides sur
+  40). Le filtre n'est mis en cause que si le second tirage passe réellement par une zone ; sinon ce second tirage, qui
+  respecte le filtre, est proposé. Mesuré : 0 faux message et 2 tirages vides sur 40 ; un départ réellement en zone
+  (Acapulco, Maiduguri) reste signalé 40 fois sur 40.
+- **Export PDF monopolisé.** Le créneau unique n'était rendu qu'à la fin de l'ENVOI : un client qui ne lisait pas sa
+  réponse le gardait 5 s, et recommençait. Il est rendu dès la fin du calcul (`doc.end()`, synchrone). Mesuré : un
+  second client obtient son export tout de suite au lieu de 503 pendant 5 s.
+- **Budget de mise en page du PDF dépassé de 45 %** : plus aucun texte n'est préparé une fois le budget épuisé (la
+  mention « document tronqué » et le pied de page s'écrivent toujours). Un objet forgé en guise de libellé ne coupe plus
+  le document, et les motifs `$'`, `$&` d'un texte client ne sont plus interprétés par `replace`.
+- **Maximum de jours par ville dépassé sans le dire** (21 jours avec 1 jour par ville : 20 nuits pour 15 villes au
+  plus) : avis `days.overMaxPerCity`, affiché à l'écran et dans le PDF, traduit dans les 161 langues (vérifié : avis
+  présent exactement quand une ville dépasse le maximum).
+- **Mise en page** : barre des avertissements du côté du début de ligne en arabe, persan, ourdou, sorani et divehi
+  (`border-inline-start`) ; titre, bouton de lancement et contenu des étapes coupés plutôt que de déborder (malayalam
+  à 375 px, basque, shona, xhosa, groenlandais à 320 px — vérifié : aucun débordement à 320 px).
+- **Documentation** : exemples de péage du 7e audit recalculés avec le code actuel, rapport médian unique (0,97,
+  étendue 0,61 à 1,61), taille de l'index, nombre de règles moto indiennes, et sens variable des dates des zones à
+  tension.
+
+**Laissé en l'état, volontairement.** Les deux voies rapides indiennes interdites aux motos sans zone précise
+produisent le même avertissement générique (« certaines autoroutes ou voies rapides… ») : il n'est affiché qu'une fois
+par pays. Avec un rayon de 3 000 km, environ un tirage sur six atteint le budget de temps de 4 s et le dit
+(`timedOut`) : c'est le garde-fou prévu, sans dégradation par rapport aux versions précédentes.
 
 ### PDF traduit dans les 161 langues (17 septembre 2026)
 
@@ -4956,7 +5030,7 @@ non listées, plusieurs pays sans entrée faute de règle ou de source.
 
 **Moto : interdictions sourcées** — `scripts/transport/moto-rules.js`, **28 règles dans 20 pays** : réseau autoroutier interdit
 (Corée du Sud, Taïwan, Viêt Nam, Thaïlande, Indonésie, Pakistan, Sri Lanka), seuil de cylindrée (Japon ≥ 126 cm³, Philippines
-≥ 400 cm³), voies rapides interdites localement (Inde ×5, Chine, Cambodge, Laos, Bangladesh, Kenya, Ouganda, Mexico, São Paulo,
+≥ 400 cm³), voies rapides interdites localement (Inde ×6 — un seul avertissement par pays, le texte étant le même —, Chine, Cambodge, Laos, Bangladesh, Kenya, Ouganda, Mexico, São Paulo,
 Lima), villes (Yangon, Pékin pour les plaques extérieures, Canton, Shenzhen). Moto de tourisme supposée ≥ 500 cm³ : dans un pays
 dont le réseau est entièrement interdit, trajet calculé par les routes secondaires (vitesse × 0,8) et sans péage ; sinon simple
 avertissement (nom du pays dans la langue d'interface). `scripts/build-transport-rules.js` valide les deux fichiers et les injecte

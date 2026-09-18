@@ -322,6 +322,8 @@ app.use(function(req, res, next){
   // test de préfixe, puis express.static normalisait et servait le fichier (bundle de 226 Mo compris).
   const norm = path.posix.normalize('/' + p.replace(/\\/g, '/'));
   if(/^\/+data(\/|$)/i.test(norm)) return res.status(404).type('text/plain').send('Not found');
+  // Chemin décodé et normalisé, repris par le quota des gros fichiers et la précompression (9e audit du 18/09/2026).
+  req.normPath = norm.replace(/\/{2,}/g, '/');
   next();
 });
 // Paramètres de requête : chaînes seulement. « ?name[a]=x » ou « ?name=a&name=b » donnaient un objet ou un tableau,
@@ -1365,7 +1367,9 @@ function pdfTensionText(tension, isDeparture){
 // Filet de sécurité contre un payload abusif (chaîne énorme) qui ralentirait inutilement la mise
 // en page du PDF — jamais atteint en usage normal, l'app elle-même ne produit rien d'aussi long.
 function clip(s, max){
-  s = (s == null) ? '' : String(s);
+  // Chaînes, nombres et booléens seulement (9e audit du 18/09/2026) : un objet forgé ({"toString":1}) faisait lever
+  // String() en pleine mise en page du PDF, livré alors coupé net, sans la mention « document tronqué ».
+  s = (typeof s === 'string') ? s : (typeof s === 'number' || typeof s === 'boolean') ? String(s) : '';
   return s.length > max ? s.slice(0, max - 1) + '…' : s;
 }
 
@@ -1431,6 +1435,10 @@ function pdfX(doc, ctx, x, width){
   return ctx.rtl ? doc.page.width - x - width : x;
 }
 function pdfText(doc, ctx, str, x, width, opts){
+  // Budget épuisé : plus aucun texte n'est préparé (9e audit du 18/09/2026). drawText ne contrôlait le budget qu'à
+  // partir de sa première ligne, après le choix des polices, l'ordre bidirectionnel et la coupure des lignes — des
+  // textes longs en écriture complexe dépassaient ainsi le budget de 45 % (4,9 s mesurées pour 3,5 s).
+  if(pdfTimeUp(ctx)) return;
   opts = opts || {};
   PdfText.drawText(doc, str, { x: pdfX(doc, ctx, x, width), width: width, lang: ctx.lang, size: opts.size || 10,
     bold: !!opts.bold, color: opts.color || PDF_INK, link: opts.link || null, underline: !!opts.link, align: opts.align,
@@ -1444,6 +1452,7 @@ function pdfText(doc, ctx, str, x, width, opts){
 // texte — le point/la case est dessiné séparément du texte pour pouvoir lui donner une couleur
 // différente selon la nature de la ligne (péage, activité, lien réel...), comme les icônes du site.
 function pdfBullet(doc, ctx, text, x, width, opts){
+  if(pdfTimeUp(ctx)) return; // voir pdfText
   opts = opts || {};
   pdfEnsureSpace(doc, 24);
   const size = 9.5;
@@ -1563,7 +1572,8 @@ function buildTripPdf(doc, trip){
   // Avertissements valables pour tout le trajet (van, voiture électrique) : textes traduits du navigateur, sinon français.
   const PDF_NOTICES = {
     'van.notice': 'Van : hauteur, longueur, poids et vignettes antipollution peuvent limiter l\'accès à certaines routes, tunnels, cols ou centres-villes. Vérifiez avant de partir.',
-    'charge.dataNote': 'Bornes de recharge : données Open Charge Map, couverture inégale selon les pays — vérifiez leur disponibilité et leur compatibilité avant de partir.'
+    'charge.dataNote': 'Bornes de recharge : données Open Charge Map, couverture inégale selon les pays — vérifiez leur disponibilité et leur compatibilité avant de partir.',
+    'days.overMaxPerCity': "Certaines villes comptent plus de jours que votre maximum par ville : il n'y a pas assez de villes-étapes possibles pour la durée de ce séjour."
   };
   const noticeTexts = (texts.notices && typeof texts.notices === 'object' && !Array.isArray(texts.notices)) ? texts.notices : {};
   // Clés connues, sans doublon (audit du 17/09/2026 : 9 800 fois la même clé bloquaient le serveur plus d'une seconde).
@@ -1679,7 +1689,9 @@ function buildTripPdf(doc, trip){
         if(!r) return;
         const tpl = RESTRICTION_TEXT[String(r.kind) + '.' + String(r.type)];
         if(!tpl) return;
-        const text = tpl.replace('{name}', clip(r.name || '', 80)).replace('{cc}', String(Number(r.minCc) || ''));
+        // Remplacement par fonction : dans une chaîne de remplacement, « $' », « $& »… venus du client étaient interprétés.
+        const name = clip(r.name || '', 80), cc = String(Number(r.minCc) || '');
+        const text = tpl.replace('{name}', function(){ return name; }).replace('{cc}', function(){ return cc; });
         legBullet(pdfClientText(restrictionTexts[ri], text), contentX, contentWidth2, { link: isAllowedPdfLink(r.source) ? r.source : null, color: PDF_ACCENT_3 });
       });
     }
@@ -1773,14 +1785,18 @@ function buildTripPdf(doc, trip){
   const generatedTpl = generatedClipped.includes('{date}') && generatedClipped.includes('{sources}') ? generatedClipped : null;
   const generatedDate = pdfClientText(texts.generatedDate, today, 40);
   const footer = generatedTpl
-    ? generatedTpl.replace('{date}', generatedDate).replace('{sources}', sources)
+    ? generatedTpl.replace('{date}', function(){ return generatedDate; }).replace('{sources}', function(){ return sources; }) // voir {name} plus haut
     : 'Généré le ' + today + " par Cap sur l'inconnu — sources : " + sources + '.';
   pdfText(doc, ctx, footer, marginLeft, contentWidth, { size: 7.5, color: PDF_INK_SOFT });
 }
 
 // Un seul export à la fois (audit du 17/09/2026) : un export maximal coûte ~1 s de CPU ; les suivants reçoivent 503
 // {error:'busy'} au lieu de s'empiler. Pris APRÈS la lecture du corps (un envoi volontairement lent ne le bloque pas) et
-// libéré à la fin ou à l'abandon de la réponse, au plus tard après PDF_SLOT_MAX_MS (lecteur volontairement lent).
+// libéré dès que le document est calculé (res.locals.releasePdfSlot, voir la route) — sinon à la fin ou à l'abandon de
+// la réponse, au plus tard après PDF_SLOT_MAX_MS.
+// 9e audit du 18/09/2026 : le créneau n'était rendu qu'à la fin de l'ENVOI. Un client qui ne lisait jamais sa réponse
+// (PDF d'environ 1 Mo, tampon réseau plein) le gardait 5 s, et recommençait : les autres visiteurs recevaient « busy »
+// environ 50 s par minute. Or le calcul — la seule chose que ce créneau protège — est fini au retour de doc.end().
 const PDF_SLOT_MAX_MS = 5000;
 let pdfExportInProgress = false;
 function pdfExportSlot(req, res, next){
@@ -1791,6 +1807,7 @@ function pdfExportSlot(req, res, next){
   function release(){ if(!released){ released = true; clearTimeout(timer); pdfExportInProgress = false; } }
   res.on('finish', release);
   res.on('close', release);
+  res.locals.releasePdfSlot = release;
   next();
 }
 // 32 ko (3e audit du 17/09/2026) : un export réel pèse 5 à 12 Ko (jusqu'à ~25 Ko pour 21 jours dans une écriture non
@@ -1827,6 +1844,9 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpu
   }
   doc.end();
   cpuBudgetCharge(req, performance.now() - t0);
+  // Calcul terminé (pdfkit est synchrone jusqu'à doc.end() compris) : il ne reste que l'envoi, qui ne coûte pas de
+  // calcul. Le créneau est rendu tout de suite (voir pdfExportSlot).
+  if(res.locals.releasePdfSlot) res.locals.releasePdfSlot();
   // Filet de sécurité : document jamais terminé (incorporation d'une police ou annotation restée ouverte après une erreur
   // interne de pdfkit) — la connexion est coupée au lieu de rester pendante indéfiniment.
   const endGuard = setTimeout(function(){
@@ -1911,6 +1931,18 @@ function openDiskSearchIndex(){
   return diskSearchIndex;
 }
 
+// Verrou de construction encore vivant : présent, rafraîchi depuis moins de 30 minutes (battement de cœur) et dont au
+// moins un des PID inscrits existe encore. Un verrou vide tout juste créé (moins de 5 s) compte comme vivant.
+function searchIndexLockAlive(){
+  var age, pids;
+  try {
+    age = Date.now() - fs.statSync(SEARCH_INDEX_LOCK).mtimeMs;
+    pids = fs.readFileSync(SEARCH_INDEX_LOCK, 'utf8').split('\n').map(function(l){ return parseInt(l, 10); }).filter(function(p){ return p > 0; });
+  } catch(e){ return false; }
+  if(age >= 30 * 60 * 1000) return false;
+  if(!pids.length) return age < 5000;
+  return pids.some(function(pid){ try { process.kill(pid, 0); return true; } catch(e){ return e.code === 'EPERM'; } });
+}
 // PID inscrit en première ligne du verrou de construction (NaN si absent ou illisible).
 function lockOwnerPid(){
   try { return parseInt(fs.readFileSync(SEARCH_INDEX_LOCK, 'utf8').split('\n')[0], 10); } catch(e){ return NaN; }
@@ -1951,9 +1983,12 @@ function buildSearchIndexInChild(){
         if(lockAge < 30 * 60 * 1000 && lockAlive){
           startupStatus.build = 'construction en cours dans un autre processus';
           var waited = 0;
+          // Attente jusqu'au retrait du verrou, ou jusqu'à ce qu'il ne soit plus vivant (9e audit du 18/09/2026) : si le
+          // serveur et l'enfant qu'il désigne meurent tous deux sans le retirer, on attendait jusqu'à 30 minutes sans
+          // moteur ni recherche (le moteur n'est lancé qu'après cette attente).
           var timer = setInterval(function(){
             waited += 10;
-            if(!fs.existsSync(SEARCH_INDEX_LOCK) || waited > 30 * 60){ clearInterval(timer); resolve(!!openDiskSearchIndex()); }
+            if(!searchIndexLockAlive() || waited > 30 * 60){ clearInterval(timer); resolve(!!openDiskSearchIndex()); }
           }, 10000);
           return;
         }
@@ -2185,8 +2220,10 @@ setInterval(function(){
   const now = Date.now();
   for(const [ip, hits] of bigStaticHits){ if(!hits.length || now - hits[hits.length - 1] > 60000) bigStaticHits.delete(ip); }
 }, 60000).unref();
+// Test sur le chemin DÉCODÉ et normalisé, sans tenir compte de la casse (9e audit du 18/09/2026) : « /js/%6918n.js »,
+// « /js//i18n.js » ou « /css/../js/i18n.js » échappaient au quota, puis express.static les servait quand même.
 app.use(function(req, res, next){
-  if(!BIG_STATIC_RE.test(req.path)) return next();
+  if(!BIG_STATIC_RE.test((req.normPath || req.path).toLowerCase())) return next();
   const ip = req.ip || 'inconnu';
   const now = Date.now();
   let hits = bigStaticHits.get(ip);
@@ -2202,6 +2239,11 @@ app.use(function(req, res, next){
 
 app.use(function(req, res, next){
   if(req.method !== 'GET' && req.method !== 'HEAD') return next();
+  // Variante d'écriture d'un fichier précompressé (« /js/%6918n.js ») : redirigée vers son chemin normal plutôt que
+  // recompressée à la volée par express.static (~1 s de calcul par réponse de 11 Mo, 9e audit du 18/09/2026).
+  if(req.normPath && req.normPath !== req.path && Object.prototype.hasOwnProperty.call(PRECOMPRESSED_FILES, req.normPath)){
+    return res.redirect(301, req.normPath);
+  }
   const entry = Object.prototype.hasOwnProperty.call(PRECOMPRESSED_FILES, req.path) ? precompressed.get(req.path) : null;
   if(!entry) return next();
   // Brotli d'abord dès qu'il est accepté : les navigateurs envoient « gzip, deflate, br », et la négociation par ordre

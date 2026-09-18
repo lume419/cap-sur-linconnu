@@ -99,6 +99,10 @@
   h1,h2,h3{text-wrap:balance; margin:0;}
   p{margin:0;}
   button{font:inherit;}
+  /* Champs de formulaire : famille de police du site (9e audit du 18/09/2026). Les navigateurs ne la font pas hériter
+     aux input/select ; les anciens raccourcis « font: … var(--font-body) », invalides, la faisaient hériter par accident,
+     et leur remplacement au 8e audit avait laissé les champs en Arial (dates en police à chasse fixe). */
+  input,select,textarea{font-family:inherit;}
   ::selection{background:var(--accent); color:var(--accent-ink);}
   a{color:var(--accent-3);}
   :focus-visible{outline:2.5px solid var(--focus); outline-offset:2px; border-radius:4px;}
@@ -130,6 +134,9 @@
     letter-spacing:.01em;
     font-size:clamp(2.1rem, 5.4vw, 3.1rem);
     color:var(--ink);
+    /* Mot plus long que l'écran (malayalam « അജ്ഞാതത്തിലേക്ക് » : 419 px pour 335 px à 375 px de large, shona, basque) :
+       coupé plutôt que de faire défiler toute la page à l'horizontale (9e audit du 18/09/2026). */
+    overflow-wrap:anywhere;
   }
   h1.title em{
     display:block;
@@ -543,6 +550,7 @@
     border-radius:999px;
     padding:1rem 2.1rem;
     font-style:normal; font-weight:800; font-size:.92rem; line-height:1;
+    max-width:100%; overflow-wrap:anywhere; /* libellé xhosa plus large que l'écran à 320 px (9e audit) */
     text-transform:uppercase;
     letter-spacing:.08em;
     cursor:pointer;
@@ -725,7 +733,7 @@
      dessous de la largeur de son contenu le plus large (ex. le lien "Wikipédia ↗" en
      white-space:nowrap) — sur un écran étroit, ça forçait la carte entière à déborder au lieu de
      laisser le texte passer à la ligne. min-width:0 autorise le rétrécissement normal. */
-  .day-body{display:flex; flex-direction:column; gap:.6rem; min-width:0;}
+  .day-body{display:flex; flex-direction:column; gap:.6rem; min-width:0; overflow-wrap:anywhere;} /* mots groenlandais très longs à 320 px (9e audit) */
   .day-top{display:flex; align-items:baseline; justify-content:space-between; gap:.8rem; flex-wrap:wrap;}
   .day-top h3{font-style:normal; font-weight:800; font-size:.78rem; line-height:1; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-faint);}
   .day-top .route-time{font:var(--font-mono); font-size:.78rem; color:var(--accent-3); font-variant-numeric:tabular-nums;}
@@ -1065,7 +1073,9 @@ html[lang="ii"] body, html[lang="ii"] input, html[lang="ii"] button, html[lang="
 .suggest-item.suggest-message{cursor:default; font-style:italic; opacity:.75; justify-content:flex-start;}
 
 /* Zones à tension (France Diplomatie) : avertissement sur une étape ou sur le point de départ. */
-.tension-row{border-left:3px solid currentColor; padding:.35rem .6rem; border-radius:6px; background:color-mix(in srgb, currentColor 8%, transparent);}
+/* Bord de DÉBUT de ligne (border-inline-start) : à droite en arabe, persan, ourdou, sorani, divehi — border-left la
+   laissait à gauche, en fin de ligne (9e audit du 18/09/2026). */
+.tension-row{border-inline-start:3px solid currentColor; padding:.35rem .6rem; border-radius:6px; background:color-mix(in srgb, currentColor 8%, transparent);}
 .tension-row.tension-red{color:var(--tension-red);}
 .tension-row.tension-orange{color:var(--tension-orange);}
 .tension-row svg{color:currentColor;}

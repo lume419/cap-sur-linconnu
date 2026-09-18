@@ -105,4 +105,16 @@ try {
   if(lock === true){
     try { if(fs.readFileSync(LOCK, 'utf8') === String(process.pid)) fs.unlinkSync(LOCK); } catch(e){ /* déjà retiré */ }
   }
+  // Verrou du serveur parent (« PID serveur \n notre PID ») : c'est le serveur qui le retire à la fin de la construction.
+  // Mais s'il est mort entre-temps (redémarrage pendant la construction), personne ne le retirait : le verrou restait
+  // avec deux PID morts, et un serveur relancé qui l'avait vu vivant attendait jusqu'à 30 minutes (9e audit du
+  // 18/09/2026). Retiré ici dans ce seul cas.
+  if(lock === 'parent'){
+    try {
+      const pids = fs.readFileSync(LOCK, 'utf8').split('\n').map(function(l){ return parseInt(l, 10); });
+      let parentAlive = false;
+      try { process.kill(pids[0], 0); parentAlive = true; } catch(e){ parentAlive = e.code === 'EPERM'; }
+      if(pids[1] === process.pid && !parentAlive) fs.unlinkSync(LOCK);
+    } catch(e){ /* déjà retiré */ }
+  }
 }
