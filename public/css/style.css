@@ -31,6 +31,9 @@
     --font-display:900 1em/1.02 ui-sans-serif,"Segoe UI",Helvetica,Arial,sans-serif;
     --font-body:400 1em/1.55 ui-sans-serif,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     --font-hand:italic 500 1em/1.35 Georgia,"Iowan Old Style","Times New Roman",serif;
+    /* Famille seule de --font-hand : un raccourci font ne peut pas contenir un autre raccourci (8e audit du 18/09/2026,
+       voir les déclarations « font-style / font-weight / font-size / line-height » séparées plus bas). */
+    --font-hand-family:Georgia,"Iowan Old Style","Times New Roman",serif;
     --font-mono:1em/1.2 ui-monospace,"Cascadia Mono","SFMono-Regular",Menlo,Consolas,monospace;
   }
   @media (prefers-color-scheme:dark){
@@ -114,7 +117,7 @@
     display:flex;
     align-items:center;
     gap:.6rem;
-    font:700 .72rem/1 var(--font-body);
+    font-style:normal; font-weight:700; font-size:.72rem; line-height:1;
     letter-spacing:.16em;
     text-transform:uppercase;
     color:var(--accent-3);
@@ -165,7 +168,7 @@
     border-bottom:1px dashed var(--line);
     padding-bottom:.85rem;
   }
-  .dash-head h2{font:800 .95rem/1 var(--font-body); text-transform:uppercase; letter-spacing:.08em;}
+  .dash-head h2{font-style:normal; font-weight:800; font-size:.95rem; line-height:1; text-transform:uppercase; letter-spacing:.08em;}
   .dash-head span{font:var(--font-mono); font-size:.72rem; color:var(--ink-faint);}
 
   .field-grid{
@@ -177,13 +180,13 @@
   }
   .field{display:flex; flex-direction:column; gap:.4rem;}
   .field label{
-    font:700 .68rem/1 var(--font-body);
+    font-style:normal; font-weight:700; font-size:.68rem; line-height:1;
     letter-spacing:.09em;
     text-transform:uppercase;
     color:var(--ink-soft);
   }
   .dash input[type="text"], .dash input[type="number"], .dash input[type="date"], .dash select{
-    font:600 .95rem/1.2 var(--font-body);
+    font-style:normal; font-weight:600; font-size:.95rem; line-height:1.2;
     color:var(--ink);
     background:var(--surface-2);
     border:1px solid var(--line-strong); /* 7e audit : la bordure d'un champ doit atteindre 3:1 (WCAG 1.4.11) */
@@ -221,12 +224,12 @@
   }
   .field-error{
     display:none;
-    font:700 .75rem/1.3 var(--font-body);
+    font-style:normal; font-weight:700; font-size:.75rem; line-height:1.3;
     color:var(--accent-text);
   }
   .field-error.show{display:block;}
   .field-hint{
-    font:400 .75rem/1.3 var(--font-body);
+    font-style:normal; font-weight:400; font-size:.75rem; line-height:1.3;
     color:var(--ink-faint);
   }
   .field.invalid .field-hint{display:none;}
@@ -290,9 +293,9 @@
   }
   .suggest-item:hover, .suggest-item.active{background:var(--surface-2);}
   .suggest-item.active{outline:1.5px solid var(--accent-3);}
-  .suggest-name{display:inline-flex; align-items:center; gap:.4rem; font:600 .88rem/1.2 var(--font-body); color:var(--ink); min-width:0;}
+  .suggest-name{display:inline-flex; align-items:center; gap:.4rem; font-style:normal; font-weight:600; font-size:.88rem; line-height:1.2; color:var(--ink); min-width:0;}
   .suggest-name>span{overflow-wrap:anywhere;} /* nom long : retour à la ligne plutôt que coupure */
-  .hike-portals{grid-column:1 / -1; font:.8rem/1.4 var(--font-body); color:var(--ink-soft); padding:.2rem .1rem;}
+  .hike-portals{grid-column:1 / -1; font-style:normal; font-weight:400; font-size:.8rem; line-height:1.4; color:var(--ink-soft); padding:.2rem .1rem;}
   .hike-portals a{color:var(--accent-3);}
   .suggest-matched{font-weight:400; color:var(--ink-soft, var(--ink)); opacity:.8;}
   /* Drapeau d'une suggestion : image SVG ronde de 16 px (public/img/flags/), ou l'émoji de repli à la même taille. */
@@ -322,7 +325,7 @@
   .toggle-label input:checked + .toggle-track{background:color-mix(in srgb, var(--accent-3) 30%, var(--surface-2)); border-color:var(--accent-3);}
   .toggle-label input:checked + .toggle-track .toggle-thumb{transform:translateX(17px); background:var(--accent-3);}
   .toggle-label input:focus-visible + .toggle-track{outline:2.5px solid var(--focus); outline-offset:2px;}
-  .toggle-text{font:700 .82rem/1.2 var(--font-body); color:var(--ink);}
+  .toggle-text{font-style:normal; font-weight:700; font-size:.82rem; line-height:1.2; color:var(--ink);}
 
   /* ============ THÈME CLAIR/SOMBRE/AUTO ============ */
   /* Un seul bouton (pas un contrôle segmenté à plusieurs options) : un clic fait tourner
@@ -343,7 +346,7 @@
   .theme-toggle-btn{
     display:inline-flex; align-items:center; gap:.4rem; height:2.15rem;
     background:transparent; border:1.5px solid var(--line-strong); color:var(--ink-soft);
-    border-radius:999px; padding:0 .85rem 0 .7rem; font:700 .68rem/1 var(--font-body);
+    border-radius:999px; padding:0 .85rem 0 .7rem; font-style:normal; font-weight:700; font-size:.68rem; line-height:1;
     text-transform:uppercase; letter-spacing:.06em; cursor:pointer;
   }
   .theme-toggle-btn:hover{border-color:var(--accent-3); color:var(--accent-3);}
@@ -381,7 +384,7 @@
   .lang-search{
     margin:.55rem .55rem 0; padding:.5rem .65rem;
     background:var(--surface-2); border:1px solid var(--line); border-radius:8px;
-    font:.78rem/1.2 var(--font-body); color:var(--ink);
+    font-style:normal; font-weight:400; font-size:.78rem; line-height:1.2; color:var(--ink);
   }
   .lang-search:focus{outline:2px solid var(--focus); outline-offset:1px;}
   .lang-option-list{
@@ -391,13 +394,13 @@
   .lang-option{
     display:flex; align-items:center; gap:.55rem;
     padding:.5rem .55rem; border-radius:8px; cursor:pointer;
-    font:.82rem/1.2 var(--font-body); color:var(--ink);
+    font-style:normal; font-weight:400; font-size:.82rem; line-height:1.2; color:var(--ink);
   }
   .lang-option:hover, .lang-option:focus{background:var(--surface-2);}
   .lang-option.active:focus{background:var(--accent-3);}
   .lang-option.active{background:var(--accent-3); color:var(--accent-ink);}
   .lang-option-flag{width:1.3em; height:1.3em; flex:none; border-radius:999px; display:block; object-fit:cover;}
-  .lang-option-empty{padding:.6rem .55rem; font:.8rem/1.3 var(--font-body); color:var(--ink-faint);}
+  .lang-option-empty{padding:.6rem .55rem; font-style:normal; font-weight:400; font-size:.8rem; line-height:1.3; color:var(--ink-faint);}
 
   /* Sélecteur de devise : même famille visuelle et mêmes règles que le sélecteur de langue juste à
      côté (voir js/app.js, "SÉLECTEUR DE DEVISE") — bouton + petit panneau, mais sans champ de
@@ -407,7 +410,7 @@
   .currency-toggle-btn{
     display:inline-flex; align-items:center; gap:.4rem; height:2.15rem;
     background:transparent; border:1.5px solid var(--line-strong); color:var(--ink-soft);
-    border-radius:999px; padding:0 .85rem 0 .7rem; font:700 .68rem/1 var(--font-body);
+    border-radius:999px; padding:0 .85rem 0 .7rem; font-style:normal; font-weight:700; font-size:.68rem; line-height:1;
     text-transform:uppercase; letter-spacing:.06em; cursor:pointer;
   }
   .currency-toggle-btn:hover{border-color:var(--accent-3); color:var(--accent-3);}
@@ -429,7 +432,7 @@
   }
   .currency-option{
     padding:.5rem .55rem; border-radius:8px; cursor:pointer;
-    font:.82rem/1.2 var(--font-body); color:var(--ink);
+    font-style:normal; font-weight:400; font-size:.82rem; line-height:1.2; color:var(--ink);
   }
   .currency-option:hover, .currency-option:focus{background:var(--surface-2);}
   .currency-option.active:focus{background:var(--accent-3);}
@@ -448,7 +451,7 @@
     border:none;
     background:transparent;
     color:var(--ink-soft);
-    font:700 .68rem/1 var(--font-body);
+    font-style:normal; font-weight:700; font-size:.68rem; line-height:1;
     letter-spacing:.06em;
     text-transform:uppercase;
     padding:.5rem .7rem;
@@ -476,7 +479,7 @@
   .step-btn{
     flex:none; width:2.4rem; height:2.4rem; border-radius:9px;
     border:1px solid var(--line); background:var(--surface-2); color:var(--ink);
-    font:700 1.3rem/1 var(--font-body); cursor:pointer;
+    font-style:normal; font-weight:700; font-size:1.3rem; line-height:1; cursor:pointer;
     display:flex; align-items:center; justify-content:center;
     transition:background .15s ease, border-color .15s ease;
   }
@@ -511,7 +514,7 @@
   .radius-value-wrap.show-duration input::-moz-selection{background:transparent; color:transparent;}
   .radius-value-display{
     position:absolute; inset:0; display:none; align-items:center;
-    padding:.65rem .7rem; font:600 .95rem/1.2 var(--font-body); color:var(--ink);
+    padding:.65rem .7rem; font-style:normal; font-weight:600; font-size:.95rem; line-height:1.2; color:var(--ink);
     pointer-events:none; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
   }
   /* Libellé de durée long (« saa 11 na dak 30 » en swahili, « 11 ம.நே. 30 நிமி. » en tamoul) : taille réduite par
@@ -539,7 +542,7 @@
     border:none;
     border-radius:999px;
     padding:1rem 2.1rem;
-    font:800 .92rem/1 var(--font-body);
+    font-style:normal; font-weight:800; font-size:.92rem; line-height:1;
     text-transform:uppercase;
     letter-spacing:.08em;
     cursor:pointer;
@@ -574,7 +577,7 @@
     100%{transform:rotate(1440deg);}
   }
   .roulette-label{
-    font:700 .68rem/1 var(--font-body); letter-spacing:.14em; text-transform:uppercase; color:var(--accent-3);
+    font-style:normal; font-weight:700; font-size:.68rem; line-height:1; letter-spacing:.14em; text-transform:uppercase; color:var(--accent-3);
   }
   .roulette-name{
     font:var(--font-display);
@@ -592,7 +595,7 @@
   }
   .stamp{
     display:none;
-    font:800 .68rem/1 var(--font-body);
+    font-style:normal; font-weight:800; font-size:.68rem; line-height:1;
     letter-spacing:.14em;
     text-transform:uppercase;
     color:var(--accent-3);
@@ -619,7 +622,7 @@
     gap:.8rem;
   }
   .map-card.show{display:flex;}
-  .map-card h3{font:800 .8rem/1 var(--font-body); text-transform:uppercase; letter-spacing:.08em; color:var(--ink-soft);}
+  .map-card h3{font-style:normal; font-weight:800; font-size:.8rem; line-height:1; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-soft);}
   .map-wrap{
     border:1px dashed var(--line);
     border-radius:12px;
@@ -670,18 +673,18 @@
   .trip-pin-badge{
     width:26px; height:26px; border-radius:50%;
     display:flex; align-items:center; justify-content:center;
-    font:700 .78rem/1 var(--font-body);
+    font-style:normal; font-weight:700; font-size:.78rem; line-height:1;
     box-shadow:0 2px 6px -1px var(--shadow);
   }
   .trip-pin-start .trip-pin-badge{background:var(--surface); color:var(--ink); border:2.2px solid var(--ink);}
   .trip-pin-stop .trip-pin-badge{background:var(--accent-3); color:var(--accent-ink); border:1.4px solid var(--surface);}
   .trip-pin-label{
     position:absolute; top:28px; left:50%; transform:translateX(-50%);
-    white-space:nowrap; font:600 .68rem/1 var(--font-body); color:var(--ink);
+    white-space:nowrap; font-style:normal; font-weight:600; font-size:.68rem; line-height:1; color:var(--ink);
     text-shadow:0 0 3px var(--surface), 0 0 3px var(--surface), 0 0 6px var(--surface);
   }
   .trip-return-label{
-    font:italic 700 .68rem/1 var(--font-body); color:var(--accent-text); text-align:center;
+    font-style:italic; font-weight:700; font-size:.68rem; line-height:1; color:var(--accent-text); text-align:center;
     text-shadow:0 0 3px var(--surface), 0 0 3px var(--surface), 0 0 6px var(--surface);
   }
 
@@ -714,7 +717,7 @@
     width:44px; height:44px; border-radius:50%;
     background:var(--accent-3); color:var(--accent-ink);
     display:flex; align-items:center; justify-content:center;
-    font:800 1.1rem/1 var(--font-body);
+    font-style:normal; font-weight:800; font-size:1.1rem; line-height:1;
   }
   .day-badge .num.final{background:var(--accent);}
   .day-badge .line{width:2px; flex:1; background:repeating-linear-gradient(var(--line-strong) 0 4px, transparent 4px 8px); min-height:14px;}
@@ -724,17 +727,17 @@
      laisser le texte passer à la ligne. min-width:0 autorise le rétrécissement normal. */
   .day-body{display:flex; flex-direction:column; gap:.6rem; min-width:0;}
   .day-top{display:flex; align-items:baseline; justify-content:space-between; gap:.8rem; flex-wrap:wrap;}
-  .day-top h3{font:800 .78rem/1 var(--font-body); text-transform:uppercase; letter-spacing:.08em; color:var(--ink-faint);}
+  .day-top h3{font-style:normal; font-weight:800; font-size:.78rem; line-height:1; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-faint);}
   .day-top .route-time{font:var(--font-mono); font-size:.78rem; color:var(--accent-3); font-variant-numeric:tabular-nums;}
-  .day-stop{font:800 1.15rem/1.2 var(--font-body); color:var(--ink);}
+  .day-stop{font-style:normal; font-weight:800; font-size:1.15rem; line-height:1.2; color:var(--ink);}
   .day-row{display:flex; gap:.55rem; align-items:flex-start; font-size:.92rem; color:var(--ink-soft); min-width:0;}
   .day-row > span{min-width:0;}
   .day-row svg{width:16px; height:16px; flex:none; margin-top:.15rem; color:var(--accent-2);}
-  .day-row .lbl{font:700 .66rem/1.5 var(--font-body); letter-spacing:.06em; text-transform:uppercase; color:var(--ink-faint); display:block;}
-  .activities-loading-note{font:italic 400 .66rem/1.5 var(--font-hand); letter-spacing:0; text-transform:none; color:var(--accent-3); opacity:.85;}
+  .day-row .lbl{font-style:normal; font-weight:700; font-size:.66rem; line-height:1.5; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-faint); display:block;}
+  .activities-loading-note{font-style:italic; font-weight:400; font-size:.66rem; line-height:1.5; font-family:var(--font-hand-family); letter-spacing:0; text-transform:none; color:var(--accent-3); opacity:.85;}
   .lodging-links{display:inline-flex; gap:.5rem; margin-top:.35rem; flex-wrap:wrap;}
   .lodging-link{
-    font:700 .72rem/1 var(--font-body); color:var(--accent-3); text-decoration:none;
+    font-style:normal; font-weight:700; font-size:.72rem; line-height:1; color:var(--accent-3); text-decoration:none;
     border:1px solid var(--line); border-radius:999px; padding:.32rem .7rem;
     transition:border-color .15s ease, color .15s ease;
   }
@@ -759,11 +762,11 @@
   }
   .photo-tile-icon svg{width:19px; height:19px;}
   .photo-tile-text{display:flex; flex-direction:column; gap:.05rem; min-width:0;}
-  .photo-tile-title{font:700 .85rem/1.25 var(--font-body); color:var(--ink);}
+  .photo-tile-title{font-style:normal; font-weight:700; font-size:.85rem; line-height:1.25; color:var(--ink);}
   .photo-tile-sub{font-size:.74rem; color:var(--ink-faint);}
   .photo-tile-wiki{
     align-self:center; flex:none; margin-right:.4rem;
-    font:700 .72rem/1 var(--font-body); color:var(--accent-3); text-decoration:none;
+    font-style:normal; font-weight:700; font-size:.72rem; line-height:1; color:var(--accent-3); text-decoration:none;
     white-space:nowrap;
   }
   .photo-tile-wiki:hover{color:var(--accent-text); text-decoration:underline;}
@@ -817,7 +820,7 @@
   .activity-card.has-image .activity-card-visual{cursor:zoom-in; position:relative;}
   .activity-card-img{width:100%; height:100%; object-fit:cover; display:block;}
   .activity-card-body{padding:.55rem .65rem .7rem;}
-  .activity-card-title{font:700 .82rem/1.25 var(--font-body); color:var(--ink);}
+  .activity-card-title{font-style:normal; font-weight:700; font-size:.82rem; line-height:1.25; color:var(--ink);}
   /* Quand le titre est un lien vers la page Wikipédia du lieu (voir applyActivityCardWikiLink dans
      app.js) : même poids visuel que le texte simple au repos, affordance de lien seulement au
      survol — pas besoin de crier "je suis cliquable" en permanence sur une carte qui l'est déjà
@@ -892,7 +895,7 @@
     display:inline-flex; align-items:center; gap:.6rem;
     background:var(--accent-3); color:var(--accent-ink);
     border:none; border-radius:999px; padding:.85rem 1.8rem;
-    font:800 .82rem/1 var(--font-body); text-transform:uppercase; letter-spacing:.07em;
+    font-style:normal; font-weight:800; font-size:.82rem; line-height:1; text-transform:uppercase; letter-spacing:.07em;
     cursor:pointer; transition:transform .15s ease, background .15s ease, box-shadow .15s ease;
     box-shadow:0 14px 26px -14px color-mix(in srgb, var(--accent-3) 70%, black 10%);
   }
@@ -909,7 +912,7 @@
   .again-row.show{display:flex;}
   .again{
     background:transparent; border:1.5px solid var(--line-strong); color:var(--ink-soft);
-    border-radius:999px; padding:.7rem 1.4rem; font:700 .78rem/1 var(--font-body);
+    border-radius:999px; padding:.7rem 1.4rem; font-style:normal; font-weight:700; font-size:.78rem; line-height:1;
     text-transform:uppercase; letter-spacing:.07em; cursor:pointer;
   }
   .again:hover{border-color:var(--accent); color:var(--accent);}
@@ -926,7 +929,7 @@
   .legal-page{max-width:760px;}
   .legal-back{
     align-self:flex-start; display:inline-flex; align-items:center; gap:.4rem;
-    font:700 .74rem/1 var(--font-body); text-transform:uppercase; letter-spacing:.06em;
+    font-style:normal; font-weight:700; font-size:.74rem; line-height:1; text-transform:uppercase; letter-spacing:.06em;
     color:var(--accent-3); text-decoration:none;
   }
   .legal-back:hover{color:var(--accent);}
@@ -941,7 +944,7 @@
   }
   .legal-updated{font:var(--font-hand); font-size:.82rem; color:var(--ink-faint);}
   .legal-card h2{
-    font:800 .85rem/1.3 var(--font-body); text-transform:uppercase; letter-spacing:.06em;
+    font-style:normal; font-weight:800; font-size:.85rem; line-height:1.3; text-transform:uppercase; letter-spacing:.06em;
     color:var(--accent-3); margin-top:.3rem;
   }
   .legal-card h2:first-of-type{margin-top:0;}
@@ -966,7 +969,7 @@
   color:var(--ink);
   border-radius:12px;
   padding:.9rem 1.1rem;
-  font:600 .9rem/1.4 var(--font-body);
+  font-style:normal; font-weight:600; font-size:.9rem; line-height:1.4;
 }
 .load-error.show{display:block;}
 /* Texte réservé aux lecteurs d'écran (annonce du résultat du tirage). */

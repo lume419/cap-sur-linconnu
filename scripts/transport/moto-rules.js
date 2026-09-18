@@ -120,7 +120,7 @@ module.exports = [
     scope: "voies express de la région de Delhi : Delhi-Meerut Expressway, Dwarka Expressway, Delhi-Gurgaon Expressway, UER-II, Badarpur Elevated Highway (voies de service autorisées)",
     detail: "La NHAI interdit ces axes aux deux-roues et trois-roues : Delhi-Meerut depuis janvier 2021, les autres depuis 2024. En mars 2024, All India Radio a relayé l'interdiction de la Dwarka Expressway.",
     near: { lat: 28.60, lon: 77.20, km: 45 },
-    source: 'https://www.newsonair.gov.in/nhai-prohibits-non-motorised-vehicles-on-dwarka-expressway-for-safety-enhances-measures-for-commuter-safety', date: D },
+    source: 'https://newsonair.gov.in/nhai-prohibits-non-motorised-vehicles-on-dwarka-expressway-for-safety-enhances-measures-for-commuter-safety', date: D },
 
   { type: 'noMotorway', country: 'IN', minCc: null, partial: true,
     scope: 'Delhi-Mumbai Expressway (NE-4), tous tronçons ouverts',

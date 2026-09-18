@@ -2630,6 +2630,14 @@
         }(firstLeg.stop, tile, photos));
       }
 
+      // Trajet plus long que la distance max entre étapes, imposé par l'éloignement minimum (voir overMaxLeg dans
+      // lib/trip-engine.js) : signalé plutôt que passé sous silence (8e audit du 18/09/2026).
+      if(firstLeg.overMaxLeg){
+        var overRow = document.createElement('div');
+        overRow.className = 'day-row tension-row tension-orange';
+        overRow.innerHTML = icon('warn') + '<span>' + escHtml(overMaxLegText(firstLeg.overMaxLeg)) + '</span>';
+        body.appendChild(overRow);
+      }
       if(firstLeg.tollInfo){
         var ti = firstLeg.tollInfo;
         var amountTxt = formatEuro(ti.amount);
@@ -3037,8 +3045,12 @@
     try { one = new Intl.PluralRules(localeTag()).select(n) === 'one'; } catch(e){ one = Math.abs(n) === 1; }
     return (one && tIfDefined(key + '1')) || t(key);
   }
+  function overMaxLegText(o){
+    return t('leg.overMaxLeg', {max: Math.round(Number(o.max)) || 0, min: Math.round(Number(o.min)) || 0});
+  }
   function pdfLegTexts(leg){
     var out = {};
+    if(leg.overMaxLeg) out.overMaxLeg = overMaxLegText(leg.overMaxLeg);
     if(leg.distanceKm != null && (leg.travelMin != null || leg.travelTime)){
       out.route = (leg.ferryInfo && leg.roadKm ? t('day.routeTime', {time: legDuration(leg.roadMin, leg.roadTime), km: leg.roadKm}) + ' + ' : '') +
         t(leg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: legDuration(leg.travelMin, leg.travelTime), km: leg.distanceKm});
@@ -3151,6 +3163,7 @@
           tollInfo: leg.tollInfo || null,
           chargeInfo: leg.chargeInfo || null,
           restrictions: leg.restrictions || null,
+          overMaxLeg: leg.overMaxLeg ? { max: leg.overMaxLeg.max, min: leg.overMaxLeg.min } : null,
           // Avertissement de zone déconseillée, comme à l'écran (jamais sur le retour, qui rejoint le départ).
           tension: leg.isReturn ? null : exportTension(leg.tension),
           ferryInfo: leg.ferryInfo ? { route: t(leg.ferryInfo.routeKey), amount: leg.ferryInfo.amount, priceStatus: leg.ferryInfo.priceStatus || null } : null,

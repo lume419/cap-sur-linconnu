@@ -67,6 +67,15 @@ function acquireLock(){
   return false;
 }
 
+// Rafraîchit la date du verrou s'il désigne bien cette construction : PID du parent en première ligne (verrou pris par
+// le serveur) ou notre propre PID (verrou pris par ce script lancé seul). Jamais le verrou d'un autre processus.
+function touchLock(){
+  try {
+    const pids = fs.readFileSync(LOCK, 'utf8').split('\n').map(function(l){ return parseInt(l, 10); });
+    if(pids[0] === process.ppid || pids.indexOf(process.pid) >= 0){ const now = new Date(); fs.utimesSync(LOCK, now, now); }
+  } catch(e){ /* verrou retiré entre-temps : rien à rafraîchir */ }
+}
+
 let lock = false;
 try {
   lock = acquireLock();
@@ -78,7 +87,11 @@ try {
     const tripEngine = require('../lib/trip-engine.js');
     const t0 = Date.now();
     let lines = 0;
-    const res = searchIndex.build(DATA_DIR, OUT_DIR, tripEngine.internals, function(){ lines++; });
+    // Battement de cœur à chaque fichier de pays (8e audit, 18/09/2026) : la construction est synchrone, aucun
+    // minuteur ne peut s'exécuter pendant qu'elle tourne. Sans ce rafraîchissement, un verrou de plus de 30 minutes
+    // était jugé orphelin alors que la construction vivait encore ; si le serveur parent meurt en cours de route,
+    // c'est aussi ce battement qui garde le verrou vivant tant que l'enfant travaille.
+    const res = searchIndex.build(DATA_DIR, OUT_DIR, tripEngine.internals, function(){ lines++; touchLock(); });
     const mem = process.memoryUsage();
     console.log('[build-search-index] ' + res.places + ' lieux, ' + res.entries + ' entrées (' + lines + ' fichiers de pays) en '
       + Math.round((Date.now() - t0) / 1000) + ' s — mémoire (RSS) en fin de construction ' + Math.round(mem.rss / 1048576) + ' Mo.');

@@ -1625,6 +1625,15 @@ function buildTripPdf(doc, trip){
       pdfBullet(doc, ctx, pdfClientText(lt.tension, pdfTensionText(legTension, false)), contentX, contentWidth2, { link: legTension.source, color: tensionColor, textColor: tensionColor, bold: true });
     }
 
+    // Trajet au-delà de la distance max entre étapes, imposé par l'éloignement minimum (voir overMaxLeg dans
+    // lib/trip-engine.js). Nombres seulement, bornés ; texte du navigateur sinon français.
+    if(leg.overMaxLeg && typeof leg.overMaxLeg === 'object'){
+      const maxKm = Math.round(Number(leg.overMaxLeg.max)), minKm = Math.round(Number(leg.overMaxLeg.min));
+      // Bornes du moteur (distance max 5 à 3 000 km, éloignement 3 000 km au plus) : une valeur hors bornes (requête
+      // forgée) n'affiche rien.
+      if(maxKm >= 5 && maxKm <= 3000 && minKm >= 1 && minKm <= 3000) legBullet(pdfClientText(lt.overMaxLeg, "Trajet plus long que votre distance maximale entre étapes (" + maxKm + " km) : c'est l'éloignement minimum demandé (" + minKm + " km) qui l'impose."),
+        contentX, contentWidth2, { color: PDF_ACCENT, textColor: PDF_ACCENT });
+    }
     if(leg.tollInfo){
       const t = leg.tollInfo;
       const amountTxt = (Math.round((Number(t.amount) || 0) * 10) / 10).toFixed(1).replace('.', ',');
@@ -1902,6 +1911,15 @@ function openDiskSearchIndex(){
   return diskSearchIndex;
 }
 
+// PID inscrit en première ligne du verrou de construction (NaN si absent ou illisible).
+function lockOwnerPid(){
+  try { return parseInt(fs.readFileSync(SEARCH_INDEX_LOCK, 'utf8').split('\n')[0], 10); } catch(e){ return NaN; }
+}
+// Rafraîchit la date du verrou s'il est bien le nôtre (battement de cœur, voir buildSearchIndexInChild).
+function touchOwnLock(){
+  try { if(lockOwnerPid() === process.pid){ var now = new Date(); fs.utimesSync(SEARCH_INDEX_LOCK, now, now); } } catch(e){}
+}
+
 function buildSearchIndexInChild(){
   return new Promise(function(resolve){
     fs.mkdirSync(path.dirname(SEARCH_INDEX_LOCK), { recursive: true });
@@ -1961,12 +1979,23 @@ function buildSearchIndexInChild(){
     // plus qu'un PID mort et un autre démarrage le jugeait orphelin — deux constructions simultanées dans le même
     // dossier. La 1re ligne reste le PID du serveur (contrat avec scripts/build-search-index.js, qui la compare à son ppid).
     if(child.pid){ try { fs.writeFileSync(SEARCH_INDEX_LOCK, process.pid + '\n' + child.pid); } catch(e){} }
+    // Battement de cœur (8e audit, 18/09/2026) : la date du verrou n'était posée qu'une fois, à sa création. Or tout
+    // verrou de plus de 30 minutes était jugé orphelin MÊME si son processus vivait encore — une construction longue
+    // (hébergement mutualisé lent) voyait donc un second serveur lancer une seconde construction dans le même dossier,
+    // les deux s'effaçant mutuellement. La date est désormais rafraîchie chaque minute tant que l'enfant travaille (et
+    // par l'enfant lui-même à chaque pays, voir scripts/build-search-index.js) : « plus de 30 minutes » veut dire
+    // « plus de 30 minutes sans signe de vie », ce que le seuil voulait dire dès le départ.
+    var heartbeat = setInterval(function(){ touchOwnLock(); }, 60000);
+    heartbeat.unref();
     function collect(chunk){ output = (output + chunk.toString()).slice(-2000); }
     child.stdout.on('data', collect);
     child.stderr.on('data', collect);
     child.on('error', function(err){ collect('erreur de lancement : ' + err.message); });
     child.on('close', function(code, signal){
-      try { fs.unlinkSync(SEARCH_INDEX_LOCK); } catch(e){}
+      clearInterval(heartbeat);
+      // Retiré seulement s'il porte encore NOTRE PID en première ligne : sinon on supprimait le verrou d'un autre
+      // processus qui l'aurait repris entre-temps (8e audit).
+      try { if(lockOwnerPid() === process.pid) fs.unlinkSync(SEARCH_INDEX_LOCK); } catch(e){}
       var ok = code === 0 && !!openDiskSearchIndex();
       startupStatus.build = (ok ? 'réussie' : 'ÉCHEC') + ' en ' + Math.round((Date.now() - t0) / 1000) + ' s'; // détail : journal du serveur
       console.log('[search-index] ' + startupStatus.build + ' (code ' + code + (signal ? ', signal ' + signal : '') + ') — ' + output.trim().split('\n').slice(-3).join(' | '));

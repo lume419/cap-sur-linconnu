@@ -13,9 +13,13 @@ module.exports = [
   { country: 'MX', level: 'orange', label: "Sud-ouest et sud du Tamaulipas (approximation par cercles)",
     match: { near: [p('Tamaulipas sud-ouest (Tula, Jaumave)', 23.2, -99.7, 60), p('Ciudad Mante', 22.75, -99.0, 40), p('Tampico-Altamira', 22.5, -98.2, 70)] },
     source: U('mexique'), date: '2026-03-11' },
-  { country: 'MX', level: 'red', label: "États de Guerrero et de Colima (hors Acapulco et Ixtapa-Zihuatanejo)",
+  // 7e audit (18/09/2026) : l'exception « Ixtapa-Zihuatanejo » était un cercle de 12 km qui neutralisait le rouge sur
+  // 53 lieux, dont une cinquantaine de hameaux de l'arrière-pays que la fiche laisse en rouge. Ramenée aux deux
+  // localités de la station balnéaire (coordonnées GeoNames des données du projet). La fiche ne reconnaît ces
+  // exceptions qu'« à la condition expresse de s'y rendre par la voie aérienne » : le libellé le rappelle.
+  { country: 'MX', level: 'red', label: "États de Guerrero et de Colima (hors ville d'Acapulco, en orange, et station balnéaire d'Ixtapa-Zihuatanejo — exceptions que France Diplomatie ne reconnaît qu'à la condition de s'y rendre par voie aérienne)",
     match: { regions: ['Guerrero', 'Colima'] },
-    except: { near: [p('Acapulco', 16.86, -99.88, 15), p('Ixtapa-Zihuatanejo', 17.64, -101.55, 12)] },
+    except: { near: [p('Acapulco', 16.86, -99.88, 15), p('Zihuatanejo', 17.6434, -101.5521, 5), p('Ixtapa', 17.6678, -101.6416, 4)] },
     source: U('mexique'), date: '2026-03-11' },
   { country: 'MX', level: 'red', label: "Sud du Michoacán, d'Uruapan à la côte (et sud-ouest de l'État de Mexico d'après la carte) — approximation par cercles",
     match: { near: [p('Apatzingán / Uruapan', 19.0, -102.4, 80), p('Lázaro Cárdenas', 18.3, -102.6, 60), p('Coalcomán', 18.7, -103.2, 40), p('Tierra Caliente (Huetamo)', 18.8, -101.3, 70), p('Tejupilco / Luvianos', 18.85, -100.3, 35)] },

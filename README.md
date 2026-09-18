@@ -3998,6 +3998,69 @@ deux localités de la station balnéaire (5 et 4 km, 13 lieux), et le libellé r
 ces exceptions qu'« à la condition expresse de s'y rendre par la voie aérienne » — condition qu'un itinéraire routier
 ne remplit jamais.
 
+### Huitième passe d'audit (18 septembre 2026)
+
+Huitième relecture complète en lecture seule, puis correction de ses six constats. Chaque correction a été mesurée avant
+et après, et la non-régression contrôlée sur l'ensemble : 1 140 tirages (5 par pays, 4 modes) donnent toujours
+**28 tirages vides, 0 traversée maritime par la route, 0 saut de masse terrestre sans ferry** ; 120 tirages sous
+contraintes (distance max entre étapes, rayon, jours) donnent 0 dépassement ; les 161 langues ont toutes leurs clés.
+
+**1. Péage facturé dans des pays qui n'en ont pas.** La tolérance d'une case voisine (voir « Septième passe d'audit »)
+ne regardait pas le pays : une étape suisse, slovène ou autrichienne longeant une frontière héritait des cases à péage
+françaises ou italiennes d'à côté, au barème de ces pays. Mesuré sur le vrai moteur : **100 % des étapes slovènes et
+90 % des étapes suisses** tirées recevaient un péage. Désormais chaque point échantillonné n'est facturé que si le
+pays du lieu le plus proche (`countryAtPoint`) est celui de la case, ET que ce pays est l'un des deux pays de l'étape
+(départ ou arrivée). Mesuré après : **0 étape facturée à tort sur 1 760 tirages dans 22 pays sans péage kilométrique** ;
+les 38 liaisons françaises de référence gardent leur rapport médian estimé / officiel (0,968 ; q25 0,86, q75 1,07) et
+les corridors ne bougent pas (Lyon → Marseille 33,7 €, Milan → Bologne 20,2 €, Tokyo → Nagoya 44,1 €, Chambéry → Turin
+17,0 € répartis FR + IT, Genève → Lyon 11,6 € côté français seulement, Genève → Lausanne 0 €, Corse et pointe
+bretonne 0 €).
+
+**2. Trois générateurs effaçaient des corrections.** Même piège qu'aux îles japonaises : l'exception mexicaine
+Ixtapa-Zihuatanejo du 7e audit et six adresses de sources (Donostia, Bergame, Alpe di Siusi, Shanghai, All India
+Radio, Cubacasas) n'existaient que dans `public/js/trip-data.js`, pas dans leurs fichiers sources
+(`scripts/tension-zones/ameriques.js`, `scripts/transport/van-rules.js`, `scripts/transport/moto-rules.js`,
+`scripts/lodging/lodging-afrique-ameriques-oceanie.js`). Sources mises à jour ; preuve : les quatre générateurs
+(zones à tension, transport, hébergement, îles) relancés reproduisent `trip-data.js` **à l'octet près**.
+
+**3. 39 déclarations CSS ignorées par le navigateur.** `font: 800 .92rem/1 var(--font-body)` est invalide : un
+raccourci `font` ne peut pas contenir un autre raccourci (`--font-body` vaut lui-même « 400 1em/1.55 … »). Le
+navigateur rejetait la déclaration entière : boutons, sur-titres et libellés n'avaient jamais la graisse, la taille ni
+l'interligne prévus. Remplacées par `font-style` / `font-weight` / `font-size` / `line-height` séparées, SANS
+`font-family` — la police reste héritée comme avant, ce qui préserve les polices propres au yi, au tibétain, à
+l'éthiopien et au tifinagh. Le seul cas en police manuscrite utilise une nouvelle variable `--font-hand-family`.
+Contrôlé à 320 px de large en français, allemand, finnois, tamoul, birman et arabe : aucun débordement.
+
+**4. Verrou de l'index : 30 minutes, puis plus rien.** Un verrou de plus de 30 minutes était jugé orphelin même si sa
+construction vivait encore ; sur un hébergement lent, un second démarrage lançait une seconde construction dans le
+même dossier. La date du verrou est désormais rafraîchie chaque minute par le serveur et à chaque fichier de pays par
+la construction elle-même : « plus de 30 minutes » veut dire « 30 minutes sans signe de vie ». Le serveur ne supprime
+plus le verrou que s'il porte encore son propre PID. Testé en conditions réelles (reconstruction complète de 178 s) :
+verrou rafraîchi en continu, retiré à la fin par son propriétaire, index identique (17 653 343 entrées).
+
+**5. La mer d'Åland traversée par la route.** Comme au Kvarken, l'archipel de Turku et les Åland forment une chaîne
+d'îlots continue sur la grille terre/mer, jusqu'à la côte suédoise : des étapes Turku → Suède passaient « par la
+route ». Trois segments de barrière, tracés entièrement en mer (0 point de terre vérifié), coupent désormais
+Turku ↔ Suède et Stockholm ↔ Helsinki sans toucher Stockholm ↔ Uppsala ni Turku ↔ Helsinki. Mesuré sur 240 tirages
+ciblés (Turku, Helsinki, Rauma, Stockholm, Uppsala, Norrtälje) : 2 traversées avant, **0 après**, aucun tirage vide.
+
+**6. Distance max entre étapes dépassée sans rien dire.** Avec un éloignement minimum renseigné, le premier trajet
+(et le retour d'un séjour à une étape) pouvait aller jusqu'à 1,4 fois cet éloignement, au-delà de la distance max
+entre étapes — même quand des étapes respectant les deux existaient. Le moteur cherche maintenant d'abord sous la
+distance max, et n'élargit qu'en dernier recours ; un dépassement restant est signalé sur le trajet concerné, à
+l'écran et dans le PDF (`leg.overMaxLeg`, traduit dans les 161 langues). Mesuré sur 60 tirages par cas :
+
+| distance max / éloignement | trajets au-delà du max, avant | après | dont signalés |
+| --- | --- | --- | --- |
+| 150 km / 110 km (voiture, 5 jours) | 7 | **0** | — |
+| 80 km / 60 km (vélo, 6 jours) | 8 | **0** | — |
+| 100 km / 90 km (moto, 5 jours) | 32 | **0** | — |
+| 150 km / 110 km (aller-retour dans la journée) | 6 | **0** | — |
+| 100 km / 110 km (moto : le max est plus court que l'éloignement) | 53 | 47 | 47 sur 47 |
+
+Aucun tirage vide dans aucun cas, avant comme après, et des temps de calcul inchangés. Seul le dernier cas, où les
+deux réglages sont contradictoires, garde des dépassements — tous annoncés au voyageur.
+
 ### PDF traduit dans les 161 langues (17 septembre 2026)
 
 Le PDF mélangeait le français du serveur et la langue de l'interface, avec les 14 polices standard PDF (Helvetica,
@@ -4059,8 +4122,9 @@ Tallinn → Helsinki, Rostock → Zélande, Dahab → Ras Gharib, Dhahran → Qa
   (lagune de Bardawil entre Gaza et Le Caire, lacs finlandais, estuaires du Sénégal) ; les vraies traversées sont refusées.
 - **Ponts et chaussées longs** (`FIXED_LINKS`, extrémités relevées sur OpenStreetMap) : Hong Kong–Zhuhai–Macao, baie de
   Hangzhou, Lake Pontchartrain, Chesapeake Bay, baie de Jiaozhou, Donghai, Øresund, Grand Belt, Confédération, Penang
-  (deux ponts), Rio–Niterói, Vasco de Gama, roi Fahd, Cheikh Jaber. **Barrière** (`BARRIERS`) : Kvarken, dont les îlots
-  forment une chaîne sur la grille alors qu'aucune route ne relie Umeå à Vaasa (ferry Wasaline).
+  (deux ponts), Rio–Niterói, Vasco de Gama, roi Fahd, Cheikh Jaber. **Barrières** (`BARRIERS`) : Kvarken, dont les îlots
+  forment une chaîne sur la grille alors qu'aucune route ne relie Umeå à Vaasa (ferry Wasaline) ; mer d'Åland (8e audit),
+  dont l'archipel de Turku et les Åland forment de même une chaîne continue jusqu'à la Suède.
 - **Retour d'un tirage interrompu** : `legAllowed` vérifie désormais aussi la masse terrestre, la frontière réelle et
   l'option ferry — le retour vers le départ pouvait sinon relier deux masses sans ferry (Calabre → Gozo).
 - **Limites** : la grille ignore les rivières sans pont et les reliefs ; un chemin terrestre n'est pas forcément une route

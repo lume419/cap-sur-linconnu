@@ -1247,7 +1247,7 @@ module.exports = [
       km: 1.2
     },
     detail: "ZBE du centre de Donostia (1,2 km², en vigueur depuis le 14 décembre 2024) : véhicules sans étiquette interdits 24 h/24, amende 200 € ; étiquette B interdite à partir de 2028.",
-    source: "https://www.donostia.eus/ataria/es/web/ige/vehiculos-afectados",
+    source: "https://www.donostia.eus/es/movilidad/zona-bajas-emisiones/vehiculos-afectados",
     date: "2026-09-17"
   },
   {
@@ -1559,7 +1559,7 @@ module.exports = [
       km: 0.6
     },
     detail: "ZTL permanente du centre historique de Città Alta (24 h/24) ; ZTL élargie « Città Alta e Colli » les dimanches et fériés 10h–24h et les soirs d'été.",
-    source: "https://www.comune.bergamo.it/page:c_a794:zona.traffico.limitata;quali.sono.ztl;centro.storico.citta.alta",
+    source: "https://www.comune.bergamo.it/node/748000",
     date: "2026-09-17"
   },
   {
@@ -1728,7 +1728,7 @@ module.exports = [
       km: 6
     },
     detail: "Route de l'Alpe di Siusi fermée aux véhicules privés de 9h à 17h pendant les saisons réglementées (arriver avant 9h pour les parkings, sinon télécabine ou bus).",
-    source: "https://www.seiseralm.it/en/info/getting-around/regolamentazione-del-traffico.html",
+    source: "https://www.seiseralm.it/en/info-service/mobility/access-to-seiser-alm.html",
     date: "2026-09-17"
   },
   {
@@ -1949,7 +1949,7 @@ module.exports = [
       km: 12
     },
     detail: "Shanghai : voitures à plaques non shanghaïennes interdites sur les voies express surélevées aux heures réglementées en semaine et, depuis mai 2021, dans le périphérique intérieur de 7h à 10h et de 16h à 19h (hors week-ends et fériés).",
-    source: "https://www.shanghai.gov.cn/nw48081/20210426/813cc9f11196498e86bfc1c96f428900.html",
+    source: "https://www.shanghai.gov.cn/nw12344/20210425/3d689cc0aab947598c4504c6e988801d.html",
     date: "2026-09-17"
   },
   {

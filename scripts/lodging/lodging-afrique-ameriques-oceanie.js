@@ -34,7 +34,7 @@ module.exports = [
           + "paramètres (location=, check_in=) renvoie « no results » sans coordonnées géocodées, et les pages ville exigent un slug "
           + "(/cuba/havana) → pas de modèle {town} fiable.",
         source: 'https://www.travelerstoday.com/articles/60588/20260724/cuba-loses-its-last-international-hotel-brands-what-travelers-need-now.htm' },
-      { name: 'CubaCasas.net', url: 'https://cubacasas.net/index.html', type: 'rentals',
+      { name: 'CubaCasas.net', url: 'https://www.cubacasas.net/index.html', type: 'rentals',
         searchByUrl: false,
         verified: "Annuaire de casas particulares (contact direct des propriétaires) en ligne ; ~45 pages ville en slug "
           + "(/cities/la_habana, /cities/trinidad, /cities/vinales…) ; page La Habana HTTP 200 (2026-09-17). Pas de recherche par URL.",
