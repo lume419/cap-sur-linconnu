@@ -1105,7 +1105,6 @@ ar;شرميلة;Sharmīlah
 en;Sharmilah;Sharmīlah
 en;Dirat Sharmelah;Sharmīlah
 en;Sharmelah;Sharmīlah
-en;Dīrat Sharmēlah,;Sharmīlah
 ar;طفيف;Tafif
 en;Aţ Ţēf;Tafif
 ar;الطيف;Tafif

@@ -450,7 +450,6 @@
 0;13.0167,0.9000;GA-06;Ogooué-Ivindo;Otouma
 0;13.7545,-0.4871;GA-02;Haut-Ogooué;Otcouandjoko
 0;10.0833,-0.6500;GA-03;Moyen-Ogooué;Otanda
-0;14.3448,-2.0431;GA-02;Haut-Ogooué;Otana
 0;13.8286,-1.0145;GA-02;Haut-Ogooué;Otala
 0;14.3704,-1.0886;GA-02;Haut-Ogooué;Ossouélé
 0;10.4833,-0.4000;GA-03;Moyen-Ogooué;Osso

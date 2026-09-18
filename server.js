@@ -124,7 +124,10 @@ const OUTBOUND_GROUPS = [
   { name: 'overpass', routes: ['/api/pois', '/api/hike'], max: 1, queue: 60, waitMs: 20000 },
   { name: 'photo', routes: ['/api/photo'], max: 3, queue: 150, waitMs: 20000 }
 ];
-const OUTBOUND_MAX_HOLD_MS = 30000;
+// 60 s (10e audit du 18/09/2026) : /api/hike peut durer 35 s (Visorando 10 s puis Overpass 25 s) et /api/photo jusqu'à
+// ~60 s dans le pire enchaînement ; avec 30 s, la place était rendue pendant que le travail continuait — le plafond
+// par IP était alors dépassé. Ce n'est qu'un filet : la place est normalement rendue à la fin de la réponse.
+const OUTBOUND_MAX_HOLD_MS = 60000;
 const OUTBOUND_ABORT_HOLD_MS = 5000; // client parti : durée restante accordée à l'appel sortant avant de rendre la place
 const outboundByIp = new Map(); // groupe|ip -> { active, waiting: [fonction de reprise] }
 app.use('/api/', function(req, res, next){
@@ -136,6 +139,8 @@ app.use('/api/', function(req, res, next){
   if(!state){ state = { active: 0, waiting: [] }; outboundByIp.set(key, state); }
   let started = false, finished = false, holdTimer = null;
   function start(){
+    // Client parti entre-temps (fermeture non encore traitée) : on ne lance rien, la place passe à la suivante.
+    if(res.destroyed || req.socket.destroyed){ started = true; state.active++; return release(); }
     started = true;
     state.active++;
     holdTimer = setTimeout(release, OUTBOUND_MAX_HOLD_MS); // filet : appel sortant anormalement long
@@ -162,7 +167,11 @@ app.use('/api/', function(req, res, next){
   // pendant 30 s après un simple changement de page (mesuré : 429 au bout de 20,02 s).
   res.on('finish', release);
   res.on('close', function(){
-    if(finished || !started || res.writableEnded) return;
+    if(finished || res.writableEnded) return;
+    // Abandonnée PENDANT L'ATTENTE (10e audit du 18/09/2026) : retirée de la file tout de suite. Avant, elle y restait,
+    // son appel sortant partait quand même à son tour (Overpass, Wikipédia : créneaux communs à tous), et sa place
+    // n'était rendue qu'au bout de 30 s — la requête suivante de la même IP recevait 429 après 20 s d'attente.
+    if(!started) return release();
     if(holdTimer) clearTimeout(holdTimer);
     holdTimer = setTimeout(release, OUTBOUND_ABORT_HOLD_MS);
     holdTimer.unref();
@@ -402,7 +411,29 @@ const LIMIT_VISORANDO = makeServiceLimiter('Visorando', 2, 8, 6000);
 const LIMIT_WIKIDATA = makeServiceLimiter('Wikidata', 2, 10, 6000);
 // Échec « transitoire » d'un service (réseau, délai, 429, 5xx, saturation) : jamais mis en cache, contrairement à une
 // réponse aboutie mais vide (404, page sans photo).
-function isTransientHttpStatus(status){ return status === 429 || status >= 500; }
+// 403 et 408 aussi (10e audit du 18/09/2026) : Wikipédia répond 403 quand il bloque une IP ou un agent — ce refus était
+// mis en cache 24 h comme « pas d'article », privant tous les visiteurs de photos pour ce lieu.
+function isTransientHttpStatus(status){ return status === 429 || status === 403 || status === 408 || status >= 500; }
+// Lecture BORNÉE du corps d'une réponse tierce (10e audit du 18/09/2026) : une réponse de 50 Mo était lue en entier
+// (jusqu'à 15 s et autant de mémoire). Une vraie réponse fait au plus quelques centaines de Ko (Overpass : ~2 Mo).
+const EXTERNAL_BODY_MAX_BYTES = 8 * 1024 * 1024;
+async function readBodyText(resp, maxBytes){
+  const max = maxBytes || EXTERNAL_BODY_MAX_BYTES;
+  const declared = Number(resp.headers.get('content-length'));
+  if(declared > max) throw new Error('réponse trop volumineuse (' + declared + ' octets)');
+  if(!resp.body) return '';
+  const reader = resp.body.getReader(), chunks = [];
+  let total = 0;
+  for(;;){
+    const r = await reader.read();
+    if(r.done) break;
+    total += r.value.length;
+    if(total > max){ try { await reader.cancel(); } catch(e){} throw new Error('réponse trop volumineuse (plus de ' + max + ' octets)'); }
+    chunks.push(r.value);
+  }
+  return Buffer.concat(chunks.map(c => Buffer.from(c.buffer, c.byteOffset, c.length))).toString('utf8');
+}
+async function readBodyJson(resp, maxBytes){ return JSON.parse(await readBodyText(resp, maxBytes)); }
 
 // Seules des lettres minuscules (2-3, sous-domaines Wikipédia standards, ex. "fr", "es", "pt") —
 // filet de sécurité avant d'insérer la valeur dans une URL, jamais un souci en usage normal
@@ -424,7 +455,7 @@ function fetchWikiSummary(title, lang){
     });
     if(isTransientHttpStatus(resp.status)) throw new Error('HTTP ' + resp.status);
     if(!resp.ok) return null;
-    return await resp.json(); // lecture du corps comprise dans le créneau du limiteur
+    return await readBodyJson(resp); // lecture du corps comprise dans le créneau du limiteur
   });
 }
 
@@ -458,13 +489,45 @@ async function fetchWikidataSitelink(qid, lang){
     });
     if(isTransientHttpStatus(resp.status)) throw new Error('HTTP ' + resp.status);
     if(!resp.ok) return null;
-    const data = await resp.json();
+    const data = await readBodyJson(resp);
     const link = data && data.entities && data.entities[qid] && data.entities[qid].sitelinks && data.entities[qid].sitelinks[sanitizeLangCode(lang) + 'wiki'];
     return link ? link.title : null;
   });
 }
 // ctx.failed passe à true au moindre échec transitoire (voir fetchWikiSummary) : /api/photo ne met alors pas en cache
 // un « pas de photo » qui ne serait dû qu'à une panne passagère.
+// Crédit d'une image Wikimedia (10e audit du 18/09/2026) : auteur et licence, que les mentions légales promettent
+// d'afficher avec l'image — l'API « summary » ne les donne pas. Métadonnées du fichier (imageinfo/extmetadata), servies
+// par le Wikipédia de la langue pour les fichiers de Commons comme pour les fichiers locaux. Texte seul (le champ Artist
+// est du HTML), longueurs bornées ; licence : lien https vers un hôte connu seulement. Échec : crédit absent, jamais
+// d'échec de la photo elle-même.
+const CREDIT_LICENSE_HOSTS = /^https:\/\/(creativecommons\.org|commons\.wikimedia\.org|[a-z-]+\.wikipedia\.org|www\.gnu\.org|en\.wikipedia\.org)\//;
+function stripHtmlText(html, max){
+  const txt = decodeHtmlEntities(String(html || '').slice(0, 4000).replace(/<[^>]*>/g, ' ')).replace(/\s+/g, ' ').trim();
+  return txt.length > max ? txt.slice(0, max - 1) + '…' : txt;
+}
+async function fetchImageCredit(imageUrl, lang){
+  // Hôtes des images : upload.wikimedia.org et thumb.wikimedia.org (vignettes de l'API REST de Wikipédia depuis 2026).
+  const m = /^https:\/\/(?:upload|thumb)\.wikimedia\.org\/wikipedia\/[a-z-]+\/(?:thumb\/)?[0-9a-f]\/[0-9a-f]{2}\/([^\/?#]+)/.exec(String(imageUrl || ''));
+  if(!m) return null;
+  let file;
+  try { file = decodeURIComponent(m[1]); } catch(e){ return null; }
+  return LIMIT_WIKIPEDIA.run(async function(){
+    const url = 'https://' + sanitizeLangCode(lang) + '.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo' +
+      '&iiprop=extmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CLicenseUrl&titles=' + encodeURIComponent('File:' + file);
+    const resp = await fetch(url, { signal: AbortSignal.timeout(8000), headers: {
+      'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)', 'Accept': 'application/json' } });
+    if(!resp.ok) return null;
+    const data = await readBodyJson(resp, 512 * 1024);
+    const page = data && data.query && Array.isArray(data.query.pages) ? data.query.pages[0] : null;
+    const meta = page && Array.isArray(page.imageinfo) && page.imageinfo[0] && page.imageinfo[0].extmetadata;
+    if(!meta) return null;
+    const author = meta.Artist ? stripHtmlText(meta.Artist.value, 120) : '';
+    const license = meta.LicenseShortName ? stripHtmlText(meta.LicenseShortName.value, 60) : '';
+    const licenseUrl = meta.LicenseUrl && CREDIT_LICENSE_HOSTS.test(String(meta.LicenseUrl.value)) ? String(meta.LicenseUrl.value).slice(0, 300) : null;
+    return (author || license) ? { author: author || null, license: license || null, licenseUrl: licenseUrl } : null;
+  });
+}
 async function resolvePlacePhoto(name, deptCode, country, lang, near, ctx){
   ctx = ctx || {};
   const first = await resolvePlacePhotoIn(name, deptCode, country, lang, near, null, ctx);
@@ -519,7 +582,10 @@ async function resolvePlacePhotoIn(name, deptCode, country, lang, near, titles, 
     // native), qui elle est toujours disponible — au prix d'un téléchargement un peu plus lourd.
     const image = originalSource || thumbSource;
     const imageFull = originalSource || thumbSource;
-    return { image: image, imageFull: imageFull, wikiUrl: wikiUrl, title: data.title || title };
+    let credit = null;
+    try { credit = await fetchImageCredit(imageFull, lang); } catch(e){ credit = null; }
+    return { image: image, imageFull: imageFull, wikiUrl: wikiUrl, title: data.title || title,
+      author: credit ? credit.author : null, license: credit ? credit.license : null, licenseUrl: credit ? credit.licenseUrl : null };
   }
   return bestNoImage || { image: null, imageFull: null, wikiUrl: null, title: null };
 }
@@ -540,7 +606,7 @@ function fetchWikiWikitext(title){
     });
     if(isTransientHttpStatus(resp.status)) throw new Error('HTTP ' + resp.status);
     if(!resp.ok) return null;
-    const data = await resp.json();
+    const data = await readBodyJson(resp);
     if(data.error || !data.parse) return null;
     return data.parse.wikitext || null;
   });
@@ -638,7 +704,12 @@ function extractMonumentsSection(wikitext){
   const section = m[1].slice(0, MONUMENT_SECTION_MAX_CHARS);
 
   const gallery = [];
-  const galleryBlock = section.match(/<gallery[^>]*>([\s\S]*?)<\/gallery>/i);
+  // Recherche linéaire (10e audit du 18/09/2026) : la regex /<gallery[^>]*>([\s\S]*?)<\/gallery>/ reprenait toute la
+  // section à chaque « <gallery » non fermée — coût quadratique (441 ms pour un article piégé de 40 Ko).
+  const lowerSection = section.toLowerCase();
+  const gStart = lowerSection.indexOf('<gallery'), gOpenEnd = gStart >= 0 ? section.indexOf('>', gStart) : -1;
+  const gEnd = gOpenEnd >= 0 ? lowerSection.indexOf('</gallery>', gOpenEnd) : -1;
+  const galleryBlock = gEnd >= 0 ? [null, section.slice(gOpenEnd + 1, gEnd)] : null;
   if(galleryBlock){
     for(const line of galleryBlock[1].split('\n')){
       const fm = line.match(/^\s*Fichier:([^|]+\.(?:jpe?g|png|gif))/i);
@@ -900,7 +971,7 @@ async function queryOverpass(url, query, timeoutMs){
       signal: controller.signal
     });
     if(!resp.ok) throw new Error('HTTP ' + resp.status);
-    const data = await resp.json();
+    const data = await readBodyJson(resp);
     if(isPartialOverpassResponse(data)) throw new Error('réponse partielle (' + data.remark + ')');
     return data;
   } finally {
@@ -1023,8 +1094,11 @@ const HTML_NAMED_ENTITIES = { amp:'&', quot:'"', lt:'<', gt:'>', nbsp:' ', thins
   Eacute:'É', Egrave:'È', Agrave:'À', Ccedil:'Ç', OElig:'Œ', oelig:'œ' };
 function decodeHtmlEntities(s){
   return String(s || '')
-    .replace(/&#(\d+);/g, (m, n) => String.fromCodePoint(+n))
-    .replace(/&([a-zA-Z]+);/g, (m, name) => (name in HTML_NAMED_ENTITIES) ? HTML_NAMED_ENTITIES[name] : m);
+    // Code hors Unicode laissé tel quel (« &#99999999; » levait une exception), entités hexadécimales comprises, et nom
+    // d'entité cherché dans la table elle-même seulement (« &constructor; » renvoyait une fonction) — 10e audit.
+    .replace(/&#(\d{1,7});/g, (m, n) => (+n > 0 && +n <= 0x10FFFF) ? String.fromCodePoint(+n) : m)
+    .replace(/&#x([0-9a-fA-F]{1,6});/g, (m, h) => { const n = parseInt(h, 16); return (n > 0 && n <= 0x10FFFF) ? String.fromCodePoint(n) : m; })
+    .replace(/&([a-zA-Z]+);/g, (m, name) => Object.prototype.hasOwnProperty.call(HTML_NAMED_ENTITIES, name) ? HTML_NAMED_ENTITIES[name] : m);
 }
 
 async function fetchVisorandoHikes(communeName){
@@ -1040,12 +1114,16 @@ async function fetchVisorandoHikes(communeName){
       });
       if(resp.status === 404) return null; // pas de page pour cette commune : aucune rando à proximité
       if(!resp.ok) throw new Error('HTTP ' + resp.status);
-      return await resp.text(); // lecture du corps comprise dans le délai
+      return await readBodyText(resp); // lecture du corps comprise dans le délai
     } finally {
       clearTimeout(timer);
     }
   });
   if(html === null) return [];
+  // Page qui n'est pas une page de lieu Visorando (défi anti-robot, page d'erreur servie en 200) : échec transitoire
+  // (10e audit du 18/09/2026) — elle était mise en cache 14 jours comme « aucune randonnée ». Une vraie page de lieu
+  // porte ses coordonnées en balises meta (voir plus bas).
+  if(!/itude" content="-?\d/.test(html)) throw new Error('page Visorando inattendue');
   const hikes = [];
   const seen = new Set();
   // Un bloc par rando listée ; on ne cherche le nom/lien/distance/durée/difficulté que DANS ce
@@ -1474,12 +1552,15 @@ function pdfChipRow(doc, ctx, items, x, maxWidth){
   const colors = [PDF_ACCENT_3, PDF_ACCENT_2, PDF_ACCENT];
   let cx = x, cy = doc.y;
   items.forEach(function(text, i){
+    // Budget de mise en page (10e audit du 18/09/2026) : ces jetons y échappaient — 8 statistiques de 80 caractères
+    // tibétains (2 Ko de corps) gelaient le process 5 à 10 s.
+    if(pdfTimeUp(ctx)) return;
     const w = Math.min(PdfText.textWidth(doc, text, { lang: ctx.lang, size: fontSize, bold: true }) + padX * 2, maxWidth);
     if(cx > x && cx + w > x + maxWidth){ cx = x; cy += h + gap; }
     const realX = pdfX(doc, ctx, cx, w);
     doc.roundedRect(realX, cy, w, h, h / 2).fill(colors[i % colors.length]);
     PdfText.drawText(doc, text, { x: realX + padX, y: cy + padY - 1, width: w - padX * 2 + 1, lang: ctx.lang, size: fontSize,
-      bold: true, color: '#FFFFFF', align: 'center', maxLines: 1 });
+      bold: true, color: '#FFFFFF', align: 'center', maxLines: 1, deadline: ctx.deadline });
     cx += w + gap;
   });
   doc.y = cy + h;
@@ -1494,8 +1575,10 @@ function pdfRunningHeader(doc, ctx, marginLeft, contentWidth, tripLabel){
   const half = contentWidth / 2;
   PdfText.drawText(doc, "CAP SUR L'INCONNU", { x: pdfX(doc, ctx, marginLeft, half), y: 11, width: half, lang: 'fr', size: 10,
     bold: true, color: PDF_ACCENT, align: ctx.rtl ? 'right' : 'left', maxLines: 1 });
-  PdfText.drawText(doc, clip(tripLabel, 60), { x: pdfX(doc, ctx, marginLeft + half, half), y: 12, width: half, lang: ctx.lang,
-    size: 8.5, color: PDF_INK_SOFT, align: ctx.rtl ? 'left' : 'right', maxLines: 1 });
+  if(!pdfTimeUp(ctx)){ // voir pdfChipRow (10e audit)
+    PdfText.drawText(doc, clip(tripLabel, 60), { x: pdfX(doc, ctx, marginLeft + half, half), y: 12, width: half, lang: ctx.lang,
+      size: 8.5, color: PDF_INK_SOFT, align: ctx.rtl ? 'left' : 'right', maxLines: 1, deadline: ctx.deadline });
+  }
   doc.y = doc.page.margins.top;
 }
 
@@ -1535,7 +1618,7 @@ function buildTripPdf(doc, trip){
   PdfText.drawText(doc, "CAP SUR L'INCONNU", { x: marginLeft, y: 24, width: contentWidth, lang: 'fr', size: 22, bold: true,
     color: '#FFFFFF', align: ctx.rtl ? 'right' : 'left', maxLines: 1 });
   PdfText.drawText(doc, pdfClientText(texts.subtitle, clip(trip.city, 80) + ' — itinéraire mystère', 160),
-    { x: marginLeft, y: 58, width: contentWidth, lang: lang, size: 12.5, color: '#FBE7D6', maxLines: 1 });
+    { x: marginLeft, y: 58, width: contentWidth, lang: lang, size: 12.5, color: '#FBE7D6', maxLines: 1, deadline: ctx.deadline });
   doc.y = 114;
   doc.x = marginLeft;
 
@@ -1765,6 +1848,9 @@ function buildTripPdf(doc, trip){
   }
 
   // Document tronqué faute de temps : signalé au lecteur plutôt que de laisser croire à un itinéraire complet.
+  // pdfTimeUp d'abord (10e audit du 18/09/2026) : si le budget s'est épuisé pendant le dernier paragraphe, rien n'avait
+  // encore posé ctx.truncated — la mention manquait et le pied de page (sources, attribution OSM) disparaissait.
+  pdfTimeUp(ctx);
   if(ctx.truncated){
     ctx.deadline = 0; // la mention elle-même s'écrit toujours
     pdfBullet(doc, ctx, pdfClientText(texts.truncated, 'Document tronqué : cet itinéraire contient trop de texte pour être mis en page en entier.', 200),
@@ -1812,7 +1898,18 @@ function pdfExportSlot(req, res, next){
 }
 // 32 ko (3e audit du 17/09/2026) : un export réel pèse 5 à 12 Ko (jusqu'à ~25 Ko pour 21 jours dans une écriture non
 // latine) ; 128 ko laissaient place à un corps forgé dont la seule mise en page bloquait le process ~20 s.
+// Retire récursivement les propriétés « toString » et « valueOf » d'un corps JSON (10e audit du 18/09/2026) : un objet
+// {"toString":1} fait lever String(), Number() ou une conversion en clé de propriété — 11 champs de l'export PDF
+// livraient ainsi un document coupé net, sans la mention « document tronqué » ni les sources. Un export réel n'en
+// contient jamais ; le corps est borné à 32 Ko (profondeur comprise).
+function stripConversionTraps(v, depth){
+  if(!v || typeof v !== 'object' || depth > 64) return;
+  if(Object.prototype.hasOwnProperty.call(v, 'toString')) delete v.toString;
+  if(Object.prototype.hasOwnProperty.call(v, 'valueOf')) delete v.valueOf;
+  for(const k of Object.keys(v)) stripConversionTraps(v[k], depth + 1);
+}
 app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpuBudgetGuard, pdfExportSlot, (req, res) => {
+  stripConversionTraps(req.body, 0);
   const trip = req.body;
   if(!trip || typeof trip !== 'object' || !Array.isArray(trip.legs) || trip.legs.length === 0 || trip.legs.length > 25){
     return res.status(400).json({ error: 'invalid trip data' });
@@ -1968,11 +2065,12 @@ function buildSearchIndexInChild(){
         acquired = true;
       } catch(e){
         if(e.code !== 'EEXIST') throw e;
-        var lockAge = Infinity, lockPid = NaN, lockAlive = false, lockPids = [];
+        var lockAge = Infinity, lockPid = NaN, lockAlive = false, lockPids = [], lockRaw = null;
         try {
           lockAge = Date.now() - fs.statSync(SEARCH_INDEX_LOCK).mtimeMs;
           // Deux lignes depuis le 7e audit : PID du serveur, puis PID de l'enfant qui construit (voir plus bas).
-          lockPids = fs.readFileSync(SEARCH_INDEX_LOCK, 'utf8').split('\n').map(function(l){ return parseInt(l, 10); });
+          lockRaw = fs.readFileSync(SEARCH_INDEX_LOCK, 'utf8');
+          lockPids = lockRaw.split('\n').map(function(l){ return parseInt(l, 10); });
           lockPid = lockPids[0];
         } catch(e2){ if(e2.code === 'ENOENT') continue; } // retiré entre-temps : nouvelle tentative
         lockPids.forEach(function(pid){
@@ -1999,7 +2097,9 @@ function buildSearchIndexInChild(){
           try {
             fs.renameSync(SEARCH_INDEX_LOCK, staleLock);
             // Pris entre-temps par un autre processus (contenu différent de celui examiné) : remis en place.
-            if(parseInt(fs.readFileSync(staleLock, 'utf8'), 10) !== lockPid && !(isNaN(lockPid) && !fs.readFileSync(staleLock, 'utf8'))){ try { fs.linkSync(staleLock, SEARCH_INDEX_LOCK); } catch(e5){} }
+            // Comparaison du contenu BRUT (10e audit du 18/09/2026) : avec les PID, un verrou illisible (« abc ») donnait
+            // NaN !== NaN, était remis en place à chaque démarrage et ne pouvait plus jamais être repris.
+            if(fs.readFileSync(staleLock, 'utf8') !== lockRaw){ try { fs.linkSync(staleLock, SEARCH_INDEX_LOCK); } catch(e5){} }
             fs.rmSync(staleLock, { force: true });
           } catch(e4){ if(e4.code !== 'ENOENT') throw e4; }
         }
@@ -2107,6 +2207,15 @@ app.get('/api/status', function(req, res){
 // une recherche à froid lit l'index sur disque de façon synchrone et coûte jusqu'à ~1 s, de quoi tenir le process
 // occupé en continu à quelques adresses si seul le budget par IP s'appliquait.
 const SEARCH_BUDGET_MIN_MS = 50;
+// Cache des résultats de recherche (10e audit du 18/09/2026) : une recherche courte et fréquente (« san » avec le pays
+// US, « sant » avec FR) coûte jusqu'à 1 s ; une trentaine d'appels venus d'adresses différentes suffisaient à épuiser
+// le budget de calcul global. L'index ne change pas pendant la vie du process : une réponse déjà calculée est rendue
+// telle quelle, sans calcul. 5 000 entrées au plus (quelques Mo), les plus anciennes sortent d'abord.
+// Limite assumée du budget global : le moteur est synchrone et tient ~3 Go en mémoire — le dupliquer dans des workers
+// pour isoler les calculs n'est pas possible sur l'hébergement mutualisé. Quelques adresses IP qui enchaînent des
+// tirages lourds (≈ 4 s chacun) peuvent donc encore occuper le process ; les quotas par IP en fixent le nombre minimal.
+const SEARCH_CACHE_MAX = 5000;
+const searchCache = new Map();
 app.get('/api/search-city', cpuBudgetGuard, function(req, res){
   var q = String(req.query.q || '');
   if(!q || q.length > 120){
@@ -2125,7 +2234,16 @@ app.get('/api/search-city', cpuBudgetGuard, function(req, res){
     var country = /^[A-Z]{2}$/.test(String(req.query.country || '')) ? String(req.query.country) : '';
     // lang : langue d'interface, pour choisir le nom alternatif affiché entre parenthèses.
     var lang = /^[a-zA-Z]{2,3}(-[a-zA-Z]{2,4})?$/.test(String(req.query.lang || '')) ? String(req.query.lang) : '';
-    res.json({ results: diskSearchIndex ? diskSearchIndex.search(q, limit, country, lang) : tripEngine.searchCity(q, limit, country, lang) });
+    var cacheKey = (diskSearchIndex ? 'd|' : 'm|') + q.trim().toLowerCase() + '|' + limit + '|' + country + '|' + lang;
+    var results = searchCache.get(cacheKey);
+    if(results){
+      searchCache.delete(cacheKey); searchCache.set(cacheKey, results); // récemment utilisée : en fin de file
+    } else {
+      results = diskSearchIndex ? diskSearchIndex.search(q, limit, country, lang) : tripEngine.searchCity(q, limit, country, lang);
+      searchCache.set(cacheKey, results);
+      if(searchCache.size > SEARCH_CACHE_MAX) searchCache.delete(searchCache.keys().next().value);
+    }
+    res.json({ results: results });
   } catch(err){
     console.warn('[search-city] erreur:', JSON.stringify(String(err && err.message)));
     res.status(500).json({ error: 'internal error', results: [] });
@@ -2294,6 +2412,13 @@ app.use(function(err, req, res, next){
 const httpServer = app.listen(PORT, () => {
   console.log(`Cap sur l'Inconnu — http://localhost:${PORT}`);
 });
+// Connexions lentes (10e audit du 18/09/2026) : une connexion ouverte sans envoyer un octet n'était jamais fermée, un
+// corps envoyé au compte-gouttes tenait plus de 5 minutes. En-têtes : 15 s ; requête complète (corps compris) : 30 s ;
+// socket inactif (aucun octet dans un sens ni dans l'autre) : 2 minutes — bien au-delà du plus long calcul (~5 s) et des
+// appels sortants attendus en file (60 s au plus, voir OUTBOUND_MAX_HOLD_MS).
+httpServer.headersTimeout = 15000;
+httpServer.requestTimeout = 30000;
+httpServer.setTimeout(120000, function(socket){ socket.destroy(); });
 // Port déjà pris, droits insuffisants… : sans écouteur 'error', Node relançait l'exception plus loin, sans message clair
 // (7e audit). Le process s'arrête, l'hébergeur (Passenger) le relance.
 httpServer.on('error', function(err){

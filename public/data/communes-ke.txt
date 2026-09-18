@@ -4297,7 +4297,6 @@
 0;36.9036,-1.2574;KE-05;Nairobi County;Dandora
 0;36.9940,-1.2702;KE-05;Nairobi County;Dandora
 0;39.2693,-3.6934;KE-28;Kwale County;Dambale
-0;41.3256,3.1597;KE-33;Mandera County;Damasa
 0;39.6243,-2.6811;KE-23;Kilifi County;Dakawachu
 0;39.7934,-3.0093;KE-23;Kilifi County;Dakacha
 0;36.6878,-1.2787;KE-22;Kiambu County;Dagoretti

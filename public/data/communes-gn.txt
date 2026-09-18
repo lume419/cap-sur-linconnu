@@ -5804,7 +5804,6 @@
 0;-10.5167,9.1333;GN-F;Faranah;Biricodou
 0;-10.4075,8.8992;GN-N;Nzérékoré Region;Biricodou
 0;-9.1333,11.6000;GN-K;Kankan Region;Biramféro
-0;-8.1667,12.0333;GN-K;Kankan Region;Biramadougou
 0;-8.1167,9.0167;GN-N;Nzérékoré Region;Biramadougou
 0;-8.5167,8.7500;GN-N;Nzérékoré Region;Biramadougou
 0;-8.3833,8.5667;GN-N;Nzérékoré Region;Biramadougou

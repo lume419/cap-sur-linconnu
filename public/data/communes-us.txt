@@ -4391,7 +4391,6 @@
 0;-87.5806,33.1985;35486;Alabama;Sommerville
 0;-85.9027,34.0751;35901;Alabama;Sonoma
 0;-86.7494,33.0746;35040;Alabama;South Calera
-0;-87.6681,34.7765;35660;Alabama;South Florence (historical)
 0;-86.0452,34.0018;35904;Alabama;South Gadsden
 0;-87.6350,34.2112;35565;Alabama;South Haleyville
 0;-87.4839,33.2329;35403;Alabama;South Holt
@@ -21305,7 +21304,6 @@
 0;-85.0647,39.5023;47012;Indiana;Blooming Grove
 327;-87.2497,39.8334;47832;Indiana;Bloomingdale
 84067;-86.5264,39.1653;47405;Indiana;Bloomington
-0;-85.7594,38.2706;40259;Indiana;Blooms Eddy (historical)
 0;-85.0047,38.9251;47019;Indiana;Blue
 0;-85.8047,38.5084;47126;Indiana;Blue Lick
 0;-85.6355,39.5192;46182;Indiana;Blue Ridge
@@ -26299,7 +26297,6 @@
 0;-83.1185,37.7082;41465;Kentucky;Hendricks
 4687;-88.6292,37.0395;42003;Kentucky;Hendron
 0;-82.4765,37.3115;41542;Kentucky;Henry Clay
-0;-86.9550,36.9750;42256;Kentucky;Henrysville (historical)
 0;-88.0556,37.6217;42459;Kentucky;Henshaw
 0;-86.3350,37.7920;40140;Kentucky;Hensley
 0;-83.6741,37.2379;40972;Kentucky;Hensley
@@ -35589,7 +35586,6 @@
 0;-76.5844,38.6654;20689;Maryland;Ireland Estates
 0;-75.8766,39.3276;21635;Maryland;Irelands Corner
 0;-75.7905,39.6457;21920;Maryland;Iron Hill
-0;-76.7205,38.7932;20773;Maryland;Iron Pot Landing (historical)
 0;-76.9719,39.4307;21784;Maryland;Irongate
 0;-77.4880,39.4459;21714;Maryland;Irongate
 0;-75.2310,38.2840;21841;Maryland;Ironshire
@@ -47821,7 +47817,6 @@
 0;-77.4430,34.7413;28540;North Carolina;Georgetown
 0;-80.2725,35.8249;27292;North Carolina;Georgetown Condominiums
 0;-80.4592,35.3140;28097;North Carolina;Georgeville
-0;-80.3028,36.5146;27053;North Carolina;Georges Mill (historical)
 0;-76.9630,35.4246;27814;North Carolina;Gerard Landing
 827;-80.2309,36.2629;27019;North Carolina;Germanton
 0;-76.4630,35.4318;27875;North Carolina;Germantown
@@ -48422,7 +48417,6 @@
 0;-80.5156,35.8151;27014;North Carolina;Jerusalem
 0;-80.3153,35.7310;27299;North Carolina;Jersey
 0;-76.9060,35.5121;27865;North Carolina;Jessama
-0;-80.3706,36.5257;27053;North Carolina;Jessup Mill (historical)
 0;-82.5473,35.2476;28793;North Carolina;Jeter Mountain Terrace
 0;-79.4428,34.6999;28352;North Carolina;Johns
 0;-78.6025,35.5210;27592;North Carolina;Johnson Crossroads
@@ -48452,7 +48446,6 @@
 0;-80.8226,35.3685;28070;North Carolina;Joplor
 0;-76.5600,36.3552;27946;North Carolina;Joppa
 0;-78.3069,35.6690;27527;North Carolina;Jordan
-0;-80.4001,36.5368;24076;North Carolina;Joyce Mill (historical)
 0;-81.5079,35.8674;28638;North Carolina;Joyceton
 0;-78.8544,35.9913;27703;North Carolina;Joyland
 0;-77.8647,35.8915;27878;North Carolina;Joyners Crossing
@@ -50755,7 +50748,6 @@
 0;-77.4794,34.7371;28540;North Carolina;Utopia Mobile Home Park
 0;-80.0037,35.4151;27371;North Carolina;Uwharrie
 0;-80.7184,35.9118;28634;North Carolina;V Point
-0;-80.3067,36.4188;27053;North Carolina;Vade Mecum (historical)
 4459;-81.5631,35.7407;28690;North Carolina;Valdese
 0;-81.9451,36.0971;28652;North Carolina;Vale
 0;-81.3973,35.5399;28168;North Carolina;Vale
@@ -61473,7 +61465,6 @@
 0;-87.5047,35.6551;37033;Tennessee;Aetna
 0;-87.3242,35.5612;38461;Tennessee;Aethra
 0;-82.7388,36.1940;37616;Tennessee;Afton
-0;-84.0235,36.2987;37705;Tennessee;Agee (historical)
 0;-83.9785,35.8176;37777;Tennessee;Airport Plaza
 0;-82.2785,36.5582;37621;Tennessee;Akard Addition
 0;-84.7513,35.6267;37381;Tennessee;Akeman Crossroad
@@ -62825,7 +62816,6 @@
 0;-86.3642,36.4292;37031;Tennessee;Desha
 0;-89.8137,35.5890;38015;Tennessee;Detroit
 0;-85.9625,35.7517;37190;Tennessee;Devenport
-0;-85.9630,35.7517;37190;Tennessee;Devenport (historical)
 0;-86.8894,36.0467;37221;Tennessee;Devonshire Manor
 0;-86.8556,35.2840;37047;Tennessee;Diana
 0;-85.7919,35.8120;38581;Tennessee;Dibrell
@@ -62942,7 +62932,6 @@
 0;-89.6492,35.2045;38028;Tennessee;Eads
 0;-83.9769,36.5520;37730;Tennessee;Eagan
 0;-87.9873,35.9134;38341;Tennessee;Eagle Creek
-0;-85.2361,36.4973;38573;Tennessee;Eagle Creek (historical)
 0;-84.7363,35.7712;37854;Tennessee;Eagle Furnace
 0;-88.5431,36.3195;38223;Tennessee;Eagle Hill
 0;-84.7536,35.7637;37337;Tennessee;Eagle Point
@@ -67398,7 +67387,6 @@
 0;-96.6705,31.2860;76653;Texas;Alto Springs
 0;-96.4894,33.2498;75454;Texas;Altoga
 15760;-98.3133,26.2873;78573;Texas;Alton
-5541;-98.3045,26.2953;78573;Texas;Alton North (historical)
 0;-98.2942,26.2484;78572;Texas;Alturas de Azahares Colonia
 0;-97.9647,29.2952;78160;Texas;Alum
 0;-97.2175,30.0677;78957;Texas;Alum Creek
@@ -72957,7 +72945,6 @@
 0;-98.2745,26.9200;78353;Texas;Tacubaya
 0;-95.1758,31.4291;75858;Texas;Tadmor
 3091;-97.3986,27.9789;78390;Texas;Taft
-1460;-97.4030,27.9739;78390;Texas;Taft Southwest (historical)
 0;-98.1742,26.2115;78589;Texas;Tagle Colonia Number 1
 513;-95.1047,33.3626;75487;Texas;Talco
 0;-99.7806,34.3495;79252;Texas;Talbert Crossing
@@ -84241,7 +84228,6 @@
 0;-82.3785,37.8587;25674;West Virginia;Selwyn
 0;-80.3212,39.3787;26361;West Virginia;Seminole
 0;-80.8418,37.5551;24935;West Virginia;Seminole
-0;-80.1926,38.8732;26237;West Virginia;Sellers (historical)
 0;-79.3762,38.8348;26884;West Virginia;Seneca Rocks
 0;-81.6232,38.1082;25181;West Virginia;Seth
 0;-80.4417,39.5667;26585;West Virginia;Seven Pines
@@ -122961,7 +122947,6 @@
 0;-71.4109,41.7332;02888;Rhode Island;Hoxsie
 0;-71.4937,41.8082;02919;Rhode Island;Hughesdale
 0;-71.2192,41.6359;02878;Rhode Island;The Hummocks
-0;-71.7140,41.9645;02859;Rhode Island;Huntsville (historical)
 0;-71.5148,41.6432;02818;Rhode Island;Ike Shippee Corner
 0;-71.4609,41.4748;02883;Rhode Island;Indian Lake Shores
 0;-71.7126,41.9640;02859;Rhode Island;Huntsville
@@ -157269,25 +157254,14 @@
 2556;-93.5589,38.7302;65305;Missouri;Whiteman Air Force Base
 0;-84.1751,39.6618;45459;Ohio;Woodbourne-Hyde Park
 1821;-84.0573,39.8111;45433;Ohio;Wright-Patterson AFB
-0;-80.3170,25.6258;33158;Florida;Cutler  (historical)
-0;-80.3476,25.5830;33189;Florida;Cutler Ridge  (historical)
 0;-80.1226,26.7291;33417;Florida;Cypress Lakes
 3113;-82.1939,28.3833;33523;Florida;Dade City North
 1052;-81.3113,29.0077;32721;Florida;De Land Southwest
-0;-80.1185,26.4840;33445;Florida;Dunes Road  (historical)
 0;-85.1094,35.0153;37421;Tennessee;East Brainerd
 1945;-82.5904,29.4593;32621;Florida;East Bronson
-0;-81.8414,26.6341;33916;Florida;East Dunbar  (historical)
 22753;-82.3788,27.9827;33610;Florida;East Lake-Orient Park
-0;-80.3401,25.6085;33157;Florida;East Perrine  (historical)
 694;-82.4173,29.3890;32696;Florida;East Williston
-0;-80.2005,26.0651;33314;Florida;Edgewater  (historical)
 2274;-86.5503,30.4591;32579;Florida;Eglin Air Force Base
-1791;-80.1794,26.0522;33004;Florida;Estates of Fort Lauderdale (historical)
-0;-85.7589,38.1105;40118;Kentucky;Fairdale  (historical)
-0;-85.5986,38.1581;40228;Kentucky;Fern Creek  (historical)
-0;-84.9483,32.3641;31905;Georgia;Fort Benning South  (historical)
-0;-79.0028,35.1372;28307;North Carolina;Fort Bragg  (historical)
 13685;-87.4606,36.6543;42223;Kentucky;Fort Campbell North
 10124;-85.9636,37.8911;40122;Kentucky;Fort Knox
 6474;-80.3593,27.4736;34947;Florida;Fort Pierce North
@@ -157298,91 +157272,53 @@
 4924;-81.6100,31.8722;31314;Georgia;Fort Stewart
 26116;-81.6474,28.3329;33897;Florida;Four Corners
 0;-80.6550,26.8048;33476;Florida;Fremd Village-Padgett Island
-0;-82.5973,27.8899;33716;Florida;Gandy  (historical)
-0;-81.9683,28.1162;33805;Florida;Gibsonia  (historical)
-0;-80.1779,26.1460;33311;Florida;Golden Heights  (historical)
 0;-80.1658,26.7005;33411;Florida;Golden Lakes
-0;-92.1849,34.8687;72120;Arkansas;Gravel Ridge  (historical)
 22079;-82.5259,28.1055;33624;Florida;Greater Northdale
-0;-80.3682,26.0494;33331;Florida;Green Meadow  (historical)
 0;-80.1849,26.3831;33434;Florida;Hamptons at Boca Raton
 0;-89.5950,35.2318;38060;Tennessee;Hickory Withe
 0;-80.1270,26.4671;33484;Florida;High Point
-0;-85.6386,38.1415;40228;Kentucky;Highview  (historical)
-0;-80.1815,26.3216;33073;Florida;Hillsboro Ranches  (historical)
 5201;-80.2204,27.2995;34958;Florida;Hutchinson Island South
 2401;-82.3769,28.8642;34453;Florida;Inverness Highlands North
 6542;-82.3371,28.8006;34451;Florida;Inverness Highlands South
-0;-80.3494,26.0542;33330;Florida;Ivanhoe Estates  (historical)
-0;-79.5012,36.1794;27202;North Carolina;Altamahaw-Ossipee  (historical)
 13343;-81.7434,30.1788;32073;Florida;Bellair-Meadowbrook Terrace
 0;-84.1507,33.4217;30253;Georgia;Blacksville
-0;-80.1290,26.2819;33064;Florida;Bonnie Loch-Woodsetter North  (historical)
 0;-89.3927,29.3193;70038;Louisiana;Boothville-Venice
 0;-82.2821,27.8377;33569;Florida;Boyette
-0;-80.2112,26.2036;33068;Florida;Broadview-Pompano Park  (historical)
 0;-92.1649,32.4798;71210;Louisiana;Brownsville-Bawcomville
-0;-85.6406,38.1889;40218;Kentucky;Buechel  (historical)
 0;-89.5011,29.3479;70041;Louisiana;Buras-Triumph
-0;-85.9582,33.6078;36260;Alabama;Bynum  (historical)
-0;-86.7285,33.4595;35243;Alabama;Cahaba Heights  (historical)
 23025;-84.2725,33.7267;30032;Georgia;Candler-McAfee
 0;-80.1279,26.7145;33417;Florida;Century Village
-0;-86.6505,33.6699;35235;Alabama;Chalkville  (historical)
-0;-80.2015,26.0544;33314;Florida;Chambers Estates  (historical)
-0;-80.1828,26.1012;33308;Florida;Chula Vista  (historical)
 5925;-80.7711,28.3594;32922;Florida;Cocoa West
-0;-80.1075,26.2672;33064;Florida;Collier Manor-Cresthaven  (historical)
 1373;-88.4515,33.6324;39705;Mississippi;Columbus Air Force Base
-0;-80.4241,26.0372;33332;Florida;Country Estates  (historical)
-0;-80.1324,26.2839;33064;Florida;Crystal Lake  (historical)
-0;-85.8445,38.1889;40216;Kentucky;Saint Dennis  (historical)
 5047;-81.0619,29.0493;32116;Florida;Samsula-Spruce Creek
 16582;-80.1869,26.3386;33428;Florida;Sandalfoot Cove
-0;-77.8414,34.2005;28409;North Carolina;Seagate  (historical)
 2671;-87.0074,32.3784;36702;Alabama;Selmont-West Selmont
 0;-80.9970,35.6200;28673;North Carolina;Sherrills Ford
 0;-89.4095,30.3191;39576;Mississippi;Shoreline Park
 2176;-82.4926,35.0347;29683;South Carolina;Slater-Marietta
 6554;-81.8521,27.1863;34266;Florida;Southeast Arcadia
-0;-80.2927,26.0604;33328;Florida;Sunshine Acres  (historical)
-0;-80.3305,26.0456;33330;Florida;Sunshine Ranches  (historical)
 0;-81.3457,27.3178;33852;Florida;Sylvan Shores
-0;-80.1226,26.2832;33064;Florida;Tedder  (historical)
-0;-80.0951,26.2109;33303;Florida;Terra Mar  (historical)
-0;-80.1595,26.1818;33309;Florida;Twin Lakes  (historical)
 2994;-85.6073,30.0853;32403;Florida;Tyndall Air Force Base
 3247;-87.6972,34.8770;35631;Alabama;Underwood-Petersville
 41163;-82.4390,28.0739;33613;Florida;University
-0;-85.8589,38.1050;40272;Kentucky;Valley Station  (historical)
 23092;-80.4131,27.6164;32961;Florida;Vero Beach South
-0;-80.2031,26.1939;33068;Florida;Village Park  (historical)
 0;-80.1552,26.4612;33446;Florida;Villages of Oriole
 1635;-81.9858,34.5164;29360;South Carolina;Watts Mills
 0;-82.3172,28.2469;33543;Florida;Wesley Chapel South
 3465;-85.8742,33.6525;36201;Alabama;West End-Cobb Town
 0;-91.5880,31.6216;71334;Louisiana;West Ferriday
-0;-80.1908,26.1439;33310;Florida;West Ken-Lark  (historical)
-0;-80.0947,26.6992;33409;Florida;Westgate-Belvedere Homes  (historical)
 0;-80.1874,26.3976;33496;Florida;Whisper Walk
-0;-82.0109,28.0482;33815;Florida;Winston  (historical)
 0;-88.5735,37.0403;42003;Kentucky;Woodlawn-Oakdale
 2600;-82.1656,28.2517;33542;Florida;Zephyrhills North
 5276;-82.1887,28.2149;33542;Florida;Zephyrhills South
 5865;-82.2056,28.2308;33541;Florida;Zephyrhills West
-0;-80.1199,26.2682;33064;Florida;Kendall Green  (historical)
 36154;-80.4388,25.7065;33193;Florida;Kendall West
 1777;-81.5659,30.7984;31547;Georgia;Kings Bay Base
 0;-77.7967,34.3172;28411;North Carolina;Kirkland
 1010;-81.4240,29.0007;32767;Florida;Lake Mack-Forest Hills
 5484;-81.2645,34.1205;29002;South Carolina;Lake Murray of Richland
-0;-80.3241,25.5738;33189;Florida;Lakes by the Bay  (historical)
 0;-80.1141,26.7386;33417;Florida;Lakeside Green
-0;-80.1265,26.2656;33061;Florida;Leisureville  (historical)
-0;-80.1287,26.2720;33064;Florida;Loch Lomond  (historical)
-0;-77.8666,34.1722;28409;North Carolina;Masonboro  (historical)
 229;-82.0599,26.6338;33991;Florida;Matlacha Isles-Matlacha Shores
-0;-80.2011,26.1091;33308;Florida;Melrose Park  (historical)
 1090;-88.6185,32.5505;39309;Mississippi;Meridian Station
 0;-82.4279,36.2883;37604;Tennessee;Midway
 0;-80.3948,33.9129;29151;South Carolina;Millwood
@@ -157391,36 +157327,18 @@
 886;-83.2165,30.9785;31699;Georgia;Moody A F B
 5337;-81.8093,30.5111;32011;Florida;Nassau Village-Ratliff
 10036;-82.6926,28.2603;34653;Florida;New Port Richey East
-0;-85.6877,38.1740;40201;Kentucky;Newburg  (historical)
-0;-80.1438,26.1922;33334;Florida;North Andrews Gardens  (historical)
-0;-80.4031,27.7965;32970;Florida;North Beach  (historical)
 8524;-82.5589,28.5501;34613;Florida;North Weeki Wachee
 10291;-81.1429,33.9809;29170;South Carolina;Oak Grove
-0;-80.1890,26.0489;33021;Florida;Oak Point  (historical)
-0;-85.6850,38.1392;40219;Kentucky;Okolona  (historical)
 0;-80.2690,25.9200;33054;Florida;Opa-locka North
-0;-80.1918,26.2057;33068;Florida;Palm Aire  (historical)
 21024;-82.3794,27.9239;33619;Florida;Palm River-Clair Mel
-0;-80.6915,32.3281;29905;South Carolina;Parris Island  (historical)
-0;-85.8550,38.1520;40258;Kentucky;Pleasure Ridge Park  (historical)
-0;-80.1033,26.2859;33064;Florida;Pompano Beach Highlands  (historical)
-0;-80.1163,26.2824;33064;Florida;Pompano Estates  (historical)
-7680;-79.0104,35.1713;28390;North Carolina;Pope Air Force Base (historical)
 0;-82.4959,34.7827;29673;South Carolina;Powderville
-0;-80.2454,26.2809;33065;Florida;Ramblewood East  (historical)
-0;-80.1726,26.0564;33004;Florida;Ravenswood Estates  (historical)
 1946;-86.6476,34.6839;35808;Alabama;Redstone Arsenal
-0;-80.1893,26.0972;33308;Florida;Riverland Village  (historical)
 1170;-83.5844,32.6091;31098;Georgia;Robins Air Force Base
-0;-80.1768,26.1547;33311;Florida;Rock Island  (historical)
-0;-80.3863,26.0457;33331;Florida;Rolling Oaks  (historical)
-0;-80.2742,26.0399;33024;Florida;Royal Palm Ranches  (historical)
 0;-97.4437,26.0741;78566;Texas;Chula Vista-Orason
 0;-122.5545,45.4122;97015;Oregon;Clackamas
 6326;-117.0830,46.3874;99403;Washington;Clarkston Heights-Vineland
 0;-109.9157,45.0175;59020;Montana;Cooke City-Silver Gate
 0;-104.8068,39.5589;80124;Colorado;Cottonwood
-0;-111.8503,40.6469;84117;Utah;Cottonwood West  (historical)
 0;-124.2170,41.7660;95532;California;Crescent City North
 150;-120.5776,39.7623;96106;California;C-Road
 0;-98.4131,26.2249;78560;Texas;Abram-Perezville
@@ -157435,11 +157353,9 @@
 2381;-121.8340,36.9606;95003;California;Aptos Hills-Larkin Valley
 599;-112.5942,42.8847;83202;Idaho;Arbon Valley
 92186;-121.3785,38.6025;95860;California;Arden-Arcade
-0;-97.8216,26.1345;78559;Texas;Arroyo Alto  (historical)
 0;-97.4860,26.2195;78568;Texas;Arroyo Gardens-La Tina Ranch
 1541;-122.6744,48.3381;98278;Washington;Ault Field
 6054;-122.7145,47.7227;98315;Washington;Bangor Trident Base
-0;-97.7871,26.4334;78569;Texas;Bausell and Ellis  (historical)
 0;-122.3258,38.0032;94564;California;Bayview-Montalvin
 1319;-121.3544,39.1092;95903;California;Beale Air Force Base
 2436;-124.1587,41.7525;95532;California;Bertsch-Oceanview
@@ -157456,7 +157372,6 @@
 10616;-117.3793,33.2284;92055;California;Camp Pendleton South
 0;-105.0905,40.3471;80537;Colorado;Campion
 2245;-103.3244,34.3969;88103;New Mexico;Cannon Air Force Base
-0;-104.8953,39.5282;80130;Colorado;Carriage Club  (historical)
 18762;-116.9688,32.7640;92020;California;Casa de Oro-Mount Helix
 1655;-105.0024,38.9435;80819;Colorado;Cascade-Chipita Park
 2534;-110.8154,33.4037;85532;Arizona;Central Heights-Midland City
@@ -157477,7 +157392,6 @@
 321;-106.1296,35.4366;87010;New Mexico;Los Cerrillos
 0;-106.7558,34.6631;87002;New Mexico;Los Trujillos-Gabaldon
 6094;-122.5755,38.0401;94903;California;Lucas Valley-Marinwood
-0;-97.7939,26.3972;78569;Texas;Lyford South  (historical)
 288;-94.6934,35.7794;74960;Oklahoma;Lyons Switch
 3472;-111.1830,47.5055;59405;Montana;Malmstrom Air Force Base
 0;-123.3023,46.9743;98559;Washington;Malone-Porter
@@ -157497,9 +157411,7 @@
 0;-119.3789,40.5808;89405;Nevada;Gerlach-Empire
 10159;-111.4369,33.3715;85119;Arizona;Gold Canyon
 379;-118.7225,45.6659;97801;Oregon;Gopher Flats
-0;-120.2009,37.8541;95305;California;Groveland-Big Oak Flat  (historical)
 9263;-105.1711,40.0633;80301;Colorado;Gunbarrel
-0;-123.3206,42.4162;97528;Oregon;Harbeck-Fruitdale  (historical)
 716;-109.6710,48.5630;59501;Montana;Havre North
 0;-122.6515,45.6861;98665;Washington;Hazel Dell North
 0;-122.6599,45.6720;98665;Washington;Hazel Dell South
@@ -157509,7 +157421,6 @@
 8227;-111.9216,46.6153;59635;Montana;Helena Valley Southeast
 7883;-112.0604,46.6629;59636;Montana;Helena Valley West Central
 1637;-112.1130,46.5967;59636;Montana;Helena West Side
-0;-104.8769,39.5439;80124;Colorado;Heritage Hills  (historical)
 0;-119.1272,46.1362;99337;Washington;Highland
 4027;-122.3451,37.5227;94497;California;Highlands-Baywood Park
 5197;-120.8504,37.4045;95324;California;Hilmar-Irwin
@@ -157533,32 +157444,27 @@
 11574;-122.2833,47.2784;98047;Washington;Lakeland South
 504;-97.8613,28.1244;78368;Texas;Lakeshore Gardens-Hidden Acres
 84;-104.9587,42.0971;82201;Wyoming;Lakeview North
-0;-99.4216,27.4985;78040;Texas;Larga Vista  (historical)
 8884;-122.7509,38.5134;95439;California;Larkfield-Wikiup
 0;-99.8323,28.7237;78839;Texas;Las Colonias
 0;-97.7366,26.2026;78552;Texas;Las Palmas-Juarez
 1569;-100.7835,29.3566;78843;Texas;Laughlin Air Force Base
-0;-122.1791,47.3300;98002;Washington;Lea Hill  (historical)
 1794;-106.3014,39.2576;80461;Colorado;Leadville North
 1443;-111.4406,36.8621;86040;Arizona;LeChee
 0;-119.8339,39.6760;89506;Nevada;Lemmon Valley-Golden Valley
 308;-119.0314,36.3788;93286;California;Lemon Cove
 7438;-119.9048,36.2633;93245;California;Lemoore Station
-0;-111.8251,40.6013;84093;Utah;Little Cottonwood Creek Valley  (historical)
 469;-106.0197,35.9929;87567;New Mexico;Cuartelez
 0;-97.5056,28.0114;78387;Texas;Del Sol-Loma Linda
 2645;-118.4153,37.3864;93515;California;Dixon Lane-Meadow Creek
 1108;-122.5999,45.7803;98604;Washington;Dollar Corner
 594;-105.6175,39.7647;80436;Colorado;Downieville-Lawson-Dumont
 0;-110.8995,32.1445;85707;Arizona;Drexel-Alvernon
-0;-97.4450,32.8982;76179;Texas;Eagle Mountain  (historical)
 0;-106.4870,39.6187;81658;Colorado;Eagle-Vail
 0;-114.5817,33.5938;92225;California;East Blythe
 29878;-122.1737,47.4105;98031;Washington;East Hill-Meridian
 14797;-110.2164,31.4538;85650;Arizona;Sierra Vista Southeast
 1224;-107.6140,35.0328;87049;New Mexico;Skyline-Ganipa
 1603;-119.3443,38.7842;89430;Nevada;Smith Valley
-0;-122.1924,48.1653;98259;Washington;Smokey Point  (historical)
 60;-95.1433,35.6206;74423;Oklahoma;Sour John
 0;-108.0150,43.9301;82401;Wyoming;South Flat
 0;-111.5098,40.7021;84098;Utah;South Snyderville Basin
@@ -157586,9 +157492,7 @@
 49;-110.5280,41.7520;83116;Wyoming;Oakley
 13415;-122.6001,45.4142;97267;Oregon;Oatfield
 1143;-106.0690,36.0508;87566;New Mexico;Ohkay Owingeh
-0;-97.7884,30.1296;78747;Texas;Onion Creek  (historical)
 0;-121.9700,36.9587;95062;California;Opal Cliffs
-0;-112.0157,40.6300;84118;Utah;Oquirrh  (historical)
 8280;-121.4752,39.5113;95966;California;Oroville East
 6220;-117.0798,47.7099;99025;Washington;Otis Orchards-East Farms
 0;-98.1036,27.8920;78372;Texas;Owl Ranch-Amargosa
@@ -157623,7 +157527,6 @@
 0;-120.1208,46.2350;98935;Washington;Satus
 0;-122.1584,47.8559;98012;Washington;Seattle Hill-Silver Firs
 32882;-104.7144,38.7473;80911;Colorado;Security-Widefield
-0;-117.2831,33.6390;92595;California;Sedco Hills  (historical)
 0;-106.7234,34.7339;87060;New Mexico;Tome Designated Place
 0;-111.0456,32.4048;85742;Arizona;Tortolita
 1205;-109.2157,36.3033;86556;Arizona;Tsaile
@@ -157642,7 +157545,6 @@
 8001;-122.7681,45.5161;97225;Oregon;West Haven-Sylvan
 0;-122.9916,46.1694;98632;Washington;West Longview
 5682;-121.0391,37.6175;95358;California;West Modesto
-0;-99.1082,28.8984;78061;Texas;West Pearsall  (historical)
 218;-94.6481,35.9133;74965;Oklahoma;West Peavine
 3840;-105.1785,39.7326;80401;Colorado;West Pleasant View
 0;-107.9961,44.0973;82401;Wyoming;West River
@@ -162917,7 +162819,6 @@
 33892;-105.1393,39.6164;80127;Colorado;Dakota Ridge
 17;-83.8414,36.4228;37866;Tennessee;Whiteoak Hollow
 0;-86.0103,34.0103;35902;Alabama;Gadsen
-0;-124.5930,48.3718;98357;Washington;Baadah Village (historical)
 35828;-158.0284,21.3533;96706;Hawaii;ʻEwa Gentry-West Loch
 21088;-157.9913,21.3153;96709;Hawaii;ʻEwa Beach-Iroquois Point
 2971;-158.0877,21.3138;96707;Hawaii;Kalaeloa-Campbell Industrial Park

@@ -3160,7 +3160,6 @@ sr;Отава;Ottawa
 ta;ஒட்டாவா;Ottawa
 uk;Оттава;Ottawa
 zh-TW;渥太華;Ottawa
-el;AA¬²±;Ottawa
 mzn;اوتآوآ;Ottawa
 sah;Оттава;Ottawa
 ka;ოტავა;Ottawa

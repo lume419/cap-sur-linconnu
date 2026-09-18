@@ -914,7 +914,6 @@
 0;49.6667,25.4000;SA-06;Eastern Province;At Turbaibil
 0;49.1833,25.4000;SA-06;Eastern Province;At Tuhaymīyah
 0;44.5435,27.3173;SA-08;Al-Qassim Region;Aţ Ţirāq
-0;43.8000,16.9833;SA;;Aţ Ţawīlah
 0;43.7500,25.5000;SA-08;Al-Qassim Region;Aţ Ţawīlah
 0;42.1280,25.9541;SA-13;Ha'il Region;Aţ Ţarfāwī
 0;39.8734,21.7067;SA-14;Mecca Region;Aţ Ţarfā’

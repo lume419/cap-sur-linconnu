@@ -59,12 +59,10 @@ cap-sur-linconnu/
 │       ├── communes-pt.txt     # ~16 500 lieux portugais, même format
 │       ├── communes-be.txt     # ~12 500 lieux belges, même format
 │       ├── aliases-ad.txt      # noms alternatifs multilingues (voir "Langues") pour l'Andorre
-│       │                        # (19 alias, dont 5 catalans — rattrapage catalan/basque/galicien/
-│       │                        # occitan, voir "Langues")
-│       ├── aliases-es.txt      # idem pour l'Espagne (2 815 alias, dont 465 basques et 422 catalans
-│       │                        # depuis le rattrapage — 1 700 avant)
-│       ├── aliases-pt.txt      # idem pour le Portugal (118 alias, dont 14 mirandais depuis le
-│       │                        # rattrapage)
+│       │                        # (catalan compris — rattrapage catalan/basque/galicien/occitan,
+│       │                        # voir "Langues")
+│       ├── aliases-es.txt      # idem pour l'Espagne (basque et catalan compris depuis le rattrapage)
+│       ├── aliases-pt.txt      # idem pour le Portugal (mirandais compris depuis le rattrapage)
 │       ├── aliases-be.txt      # idem pour la Belgique
 │       ├── communes-nl.txt     # ~7 000 lieux néerlandais, même format
 │       ├── aliases-nl.txt      # idem pour les Pays-Bas
@@ -86,39 +84,41 @@ cap-sur-linconnu/
 │       ├── aliases-mc.txt      # idem pour Monaco (1 alias : "Mùnegu", nom monégasque)
 │       ├── communes-mt.txt     # 191 lieux maltais (Malte + Gozo), même format
 │       ├── aliases-mt.txt      # idem pour Malte (alias FR/EN/ES/IT/DE/PT/NDS/MT/...)
-│       ├── communes-gg.txt     # 260 lieux guernesiais, même format (Sercq exclue, voir "Ferries")
+│       ├── communes-gg.txt     # 246 lieux guernesiais, même format (Sercq exclue, voir "Ferries")
 │       ├── aliases-gg.txt      # idem pour Guernesey
 │       ├── communes-je.txt     # 84 lieux jersiais, même format
 │       ├── aliases-je.txt      # idem pour Jersey (alias FR/EN/DE/NRF-JE/...)
 │       ├── communes-cz.txt     # ~16 400 lieux tchèques, même format (Prague/Plzeň corrigés)
-│       ├── aliases-cz.txt      # idem pour la République tchèque (817 alias, dont 751 en allemand)
+│       ├── aliases-cz.txt      # idem pour la République tchèque (allemand en tête)
 │       ├── communes-pl.txt     # ~45 400 lieux polonais, même format (Warszawa/Łódź/Bielsko-Biała corrigés)
-│       ├── aliases-pl.txt      # idem pour la Pologne (alias FR/EN/DE/CSB/RUE/..., 1 360 au total)
+│       ├── aliases-pl.txt      # idem pour la Pologne (alias FR/EN/DE/CSB/RUE/...)
 │       ├── communes-sk.txt     # ~4 985 lieux slovaques, même format (aucune correction nécessaire)
-│       ├── aliases-sk.txt      # idem pour la Slovaquie (86 alias, dont 18 en rusyn — Prešov)
+│       ├── aliases-sk.txt      # idem pour la Slovaquie (hongrois en tête, rusyn dans l'est du pays)
 │       ├── communes-hu.txt     # ~10 050 lieux hongrois, même format (aucune correction nécessaire)
-│       ├── aliases-hu.txt      # idem pour la Hongrie (333 alias, dont 323 en allemand)
+│       ├── aliases-hu.txt      # idem pour la Hongrie (allemand en tête)
 │       ├── communes-si.txt     # ~6 559 lieux slovènes, même format (aucune correction nécessaire)
-│       ├── aliases-si.txt      # idem pour la Slovénie (461 alias, dont 289 en italien — côte istrienne)
+│       ├── aliases-si.txt      # idem pour la Slovénie (dont l'italien de la côte istrienne)
 │       ├── communes-hr.txt     # ~11 323 lieux croates, même format (48 noms corrigés Ð->Đ, voir
 │       │                        # scripts/build-country-communes.js, confusion de caractère GeoNames)
-│       ├── aliases-hr.txt      # idem pour la Croatie (116 alias, dont 82 en italien — Istrie/Dalmatie)
+│       ├── aliases-hr.txt      # idem pour la Croatie (dont l'italien d'Istrie et de Dalmatie)
 │       ├── communes-ba.txt     # 374 lieux bosniens SEULEMENT (codes postaux Wikipedia, pas GeoNames
 │       │                        # — voir "Pays couverts" et scripts/build-ba-communes.js)
-│       ├── aliases-ba.txt      # idem pour la Bosnie-Herzégovine (12 alias)
-│       ├── communes-gb.txt     # 34 196 lieux britanniques, même format (codes postaux "outward"
+│       ├── aliases-ba.txt      # idem pour la Bosnie-Herzégovine
+│       ├── communes-gb.txt     # 34 195 lieux britanniques, même format (codes postaux "outward"
 │       │                        # GeoNames — districts, pas des codes complets, voir "Pays couverts")
-│       ├── aliases-gb.txt      # idem pour le Royaume-Uni (384 alias — 156 doublons gallois/gaéliques/
-│       │                        # corniques mal étiquetés "br"/"ca"/"eu"/... écartés, voir le
+│       ├── aliases-gb.txt      # idem pour le Royaume-Uni (doublons gallois/gaéliques/corniques
+│       │                        # mal étiquetés "br"/"ca"/"eu"/... écartés, voir le
 │       │                        # commentaire CELTIC_PROBE_LANGS dans scripts/build-aliases.js)
 │       ├── communes-ie.txt     # 7 181 lieux irlandais, même format (codes postaux GeoNames très
 │       │                        # grossiers pour l'Irlande — 139 "routing keys" Eircode nationaux
 │       │                        # seulement, contre 27 450 districts au Royaume-Uni ; huit exonymes
 │       │                        # anglais corrigés, voir NAME_OVERRIDES dans build-country-communes.js)
-│       ├── aliases-ie.txt      # idem pour l'Irlande (1 225 alias, dont 1 108 en irlandais/Gaeilge)
-│       ├── communes-im.txt     # 43 lieux mannois, même format (le plus petit pays couvert avec
-│       │                        # Monaco — aucune correction de nom nécessaire)
-│       ├── aliases-im.txt      # idem pour l'île de Man (19 alias, dont 13 en mannois/Gaelg)
+│       ├── aliases-ie.txt      # idem pour l'Irlande (irlandais/Gaeilge en tête)
+│       ├── communes-im.txt     # 43 lieux mannois, même format (aucune correction de nom nécessaire)
+│       ├── aliases-im.txt      # idem pour l'île de Man (mannois/Gaelg en tête)
+│       ├── …                   # un communes-XX.txt et un aliases-XX.txt par pays : 239 fichiers d'alias
+│       │                        # (France comprise), 1 718 291 alias au total au 18/09/2026 — voir
+│       │                        # "Noms alternatifs dans toutes les langues, pour tous les pays"
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 38 liaisons de péage françaises vérifiées, qui fixent le tarif €/km (7e audit)
 │                                # (non chargé par l'app — conservé comme référence/source)
@@ -131,23 +131,27 @@ serveur"), `GET /api/status` (état du démarrage, voir "Dépannage de l'héberg
 &country=…&lang=…`, qui va chercher une vraie photo sur Wikipédia — dans la langue du VISITEUR
 (`lang`), pas celle de la commune (voir plus bas), `GET /api/pois?lat=…&lon=…&country=…`, qui va
 chercher de vrais points d'intérêt sur OpenStreetMap autour d'une commune (voir "Activités
-réelles"), `GET /api/hike?name=…`, qui va chercher de vraies randonnées balisées sur Visorando pour
-une commune française (voir "Randonnées réelles"), et `POST /api/export-pdf`, qui génère le PDF
+réelles"), `GET /api/hike?name=…&lat=…&lon=…&country=…&lang=…`, qui va chercher de vraies
+randonnées balisées pour un lieu de n'importe quel pays couvert — coordonnées valides et pays connu
+exigés : Visorando dans les neuf pays qu'il couvre (France, Royaume-Uni, Allemagne, Belgique,
+Espagne, Suisse, Italie, Autriche, Portugal), sinon itinéraires balisés OpenStreetMap (voir
+"Randonnées réelles" et "Randonnées dans le monde entier"), et `POST /api/export-pdf`, qui génère le PDF
 téléchargeable de l'itinéraire affiché (voir "Export PDF"). Pas de base de données, pas de session,
 pas de donnée utilisateur conservée au-delà de la réponse — juste un petit cache en mémoire pour
 les routes photo, activités et randonnées.
 
 ## Pays couverts
 
-Un pays à la fois plutôt que tout d'un coup (à l'exception de quatre ajouts en date, voir plus bas)
-— France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
+**239 pays et territoires** sont couverts (`COUNTRIES` dans `public/js/trip-data.js`). Les premiers
+ont été ajoutés un par un — France, Andorre, Espagne, Portugal, Belgique, Pays-Bas,
 Luxembourg, Suisse, Allemagne, Italie, Autriche, Saint-Marin, Liechtenstein, Monaco, Malte, Guernesey,
 Jersey, République tchèque, Pologne, Slovaquie, Hongrie, Slovénie, Croatie, Bosnie-Herzégovine,
 Royaume-Uni, Irlande, île de Man, Danemark, Norvège, Suède, Finlande, îles Åland, Monténégro, Albanie,
 Kosovo, Serbie, Macédoine du Nord, Grèce, Bulgarie, Roumanie, Lettonie, Lituanie, Estonie, le
 Vatican, l'Islande, les îles Féroé, Gibraltar, la Moldavie, la Biélorussie, l'Ukraine, la Turquie,
 la Géorgie, l'Arménie, l'Azerbaïdjan, la Syrie, Chypre, le Liban, Israël, la Palestine, la Jordanie,
-l'Égypte et la Libye pour l'instant, d'autres viendront. Chaque pays
+l'Égypte et la Libye —, les suivants par lots régionaux (Maghreb, Afrique, Russie, péninsule
+Arabique, Asie, Océanie, Amériques, Antarctique : voir les sections datées plus bas). Chaque pays
 ajoute deux à trois choses, indépendamment des autres :
 
 1. **Un fichier `public/data/communes-XX.txt`** (même format compact que `communes.txt` — voir
@@ -254,7 +258,7 @@ ajoute deux à trois choses, indépendamment des autres :
      reste étant soit des zones postales numérotées internes à une ville ("Prishtina 3", "Peja 8"...),
      soit des centres de tri/transit ("Qendra tranzite postare", "Tuneli i parë"), soit de très petits
      hameaux absents du gazetteer GeoNames sous ce nom précis.
-   **La Serbie et la Macédoine du Nord**, dernier ajout en date, reviennent toutes les deux au
+   **La Serbie et la Macédoine du Nord**, ajoutées ensuite, reviennent toutes les deux au
    pipeline STANDARD (contrairement à leurs trois voisines balkaniques précédentes) : GeoNames publie
    un vrai fichier de codes postaux pour chacune, vérifié avant de commencer. **Serbie** : 9 256
    communes retenues sur 9 489 lieux bruts. Deux corrections `NAME_OVERRIDES` (échantillon des 400
@@ -274,7 +278,7 @@ ajoute deux à trois choses, indépendamment des autres :
    fichier `alternateNamesV2` n'en fournit aucun pour son propre geonameid (30 des 75 cas), sans quoi
    ces communes deviendraient introuvables en tapant leur vrai nom macédonien alors même que c'est ce
    nom-là que GeoNames leur donnait à l'origine.
-   **La Grèce, la Bulgarie et la Roumanie**, dernier ajout en date, se répartissent en deux cas très
+   **La Grèce, la Bulgarie et la Roumanie**, ajoutées ensuite, se répartissent en deux cas très
    différents. **La Bulgarie et la Roumanie** reviennent au pipeline STANDARD (comme la Serbie/la
    Macédoine du Nord juste avant) : GeoNames publie un vrai fichier de codes postaux pour chacune.
    **Bulgarie** : 6 047 communes retenues, AUCUNE correction `NAME_OVERRIDES` nécessaire (échantillon
@@ -300,7 +304,7 @@ ajoute deux à trois choses, indépendamment des autres :
    grandes villes/îles du pays) remplacent l'exonyme anglais ou la transcription GeoNames par la forme
    grecque translittérée usuelle : Athens -> Athína, Piraeus -> Peiraiás, Volos -> Vólos, Sparta ->
    Spárti, Mytilene -> Mytilíni, Zakynthos -> Zákynthos, Rhodes -> Ródos, Corfu -> Kérkyra.
-   **La Lettonie, la Lituanie et l'Estonie**, dernier ajout en date, reviennent toutes les trois au
+   **La Lettonie, la Lituanie et l'Estonie**, ajoutées ensuite, reviennent toutes les trois au
    pipeline STANDARD (comme la Bulgarie/la Roumanie juste avant) : GeoNames publie un vrai fichier
    de codes postaux pour chacune. **Lettonie** : 7 585 communes retenues, une seule correction
    `NAME_OVERRIDES` — mais la capitale elle-même : "Riga", champ `name` GeoNames SANS le macron sur
@@ -315,7 +319,7 @@ ajoute deux à trois choses, indépendamment des autres :
    de sa liste de noms alternatifs). **Estonie** : 6 916 communes retenues, AUCUNE correction
    nécessaire (échantillon des 100 plus grandes communes du pays déjà bon, diacritiques compris —
    Tallinn, Tartu, Pärnu, Kohtla-Järve, Rakvere, Kuressaare, Sillamäe, Võru, Jõhvi...).
-   **Le Vatican, l'Islande et les îles Féroé**, dernier ajout en date, reviennent eux aussi tous les
+   **Le Vatican, l'Islande et les îles Féroé**, ajoutés ensuite, reviennent eux aussi tous les
    trois au pipeline STANDARD : GeoNames publie un vrai fichier de codes postaux pour chacun, y compris
    pour le Vatican malgré sa taille minuscule. **Vatican** : une seule commune retenue (le pays tout
    entier n'en compte qu'une, code postal 00120) — une correction `NAME_OVERRIDES` malgré tout, la
@@ -329,7 +333,7 @@ ajoute deux à trois choses, indépendamment des autres :
    þ/ð/ö compris — Reykjavík, Kópavogur, Akureyri, Þingeyjarsveit...). **Îles Féroé** : 180 communes
    retenues, AUCUNE correction nécessaire non plus (échantillon exhaustif des 180 communes déjà bon,
    diacritiques féroïens ø/á/í/ú compris — Tórshavn, Klaksvík, Runavík, Tvøroyri...).
-   **Gibraltar, la Moldavie, la Biélorussie et l'Ukraine**, dernier ajout en date (les quatre en une
+   **Gibraltar, la Moldavie, la Biélorussie et l'Ukraine**, ajoutés ensuite (les quatre en une
    seule fois plutôt qu'un à la fois, exception au principe énoncé en tête de cette section — choix
    explicite de l'utilisateur), reviennent tous les quatre au pipeline STANDARD : GeoNames publie un
    vrai fichier de codes postaux pour chacun, vérifié avant de commencer, y compris pour Gibraltar
@@ -380,7 +384,7 @@ ajoute deux à trois choses, indépendamment des autres :
    internationales qui ne reconnaissent pas l'annexion russe de 2014 — utilisées telles quelles, sans
    exclusion ni retouche éditoriale, même logique que les localités transnistriennes conservées sous
    "MD" plus haut.
-   **La Turquie**, dernier ajout en date — exceptionnellement seule plutôt qu'en groupe de plusieurs
+   **La Turquie**, ajoutée ensuite — exceptionnellement seule plutôt qu'en groupe de plusieurs
    pays comme les ajouts précédents, mais le plus gros pays traité par ce script à ce jour (~52 800
    lieux bruts, contre ~45 400 pour l'Ukraine, le précédent record) — revient elle aussi au pipeline
    STANDARD, GeoNames publiant un vrai fichier de codes postaux pour ce pays. 52 620 communes
@@ -408,7 +412,7 @@ ajoute deux à trois choses, indépendamment des autres :
    même orthographe correcte en turc réel. Deux vraies îles reliées par ferry pour véhicules détectées
    via le champ "dept" (littéralement le nom de l'île pour ces deux-là dans GeoNames — voir "Ferries"
    plus bas) : Bozcaada et Gökçeada, dans le détroit des Dardanelles.
-   **La Géorgie**, dernier ajout en date — comme la Grèce/le Monténégro/le Kosovo/la Bosnie-
+   **La Géorgie**, ajoutée ensuite — comme la Grèce/le Monténégro/le Kosovo/la Bosnie-
    Herzégovine, GeoNames ne publie AUCUN fichier de codes postaux pour ce pays (téléchargement
    export/zip/GE.zip -> 404, vérifié), et contrairement à la Grèce (jeu de données tiers déjà
    géolocalisé) aucune source de ce genre n'a été trouvée : reconstruit à la place par rapprochement
@@ -616,7 +620,7 @@ ajoute deux à trois choses, indépendamment des autres :
    ici aussi, à l'échelle de quatre ouvrages plutôt que deux. `hasToll:false`, ces quatre péages réels
    restant documentés comme une limite assumée dans le commentaire de `COUNTRIES.FO` plutôt que
    silencieusement omis.
-   **Gibraltar et l'Ukraine**, dernier ajout, rejoignent le groupe `hasToll:false` mais pour deux
+   **Gibraltar et l'Ukraine**, ajoutés ensuite, rejoignent le groupe `hasToll:false` mais pour deux
    raisons distinctes. **Gibraltar** : aucun réseau autoroutier à péage ni vignette — cas le plus
    simple de toute cette table avec Monaco/Malte/Guernesey/Jersey (49,9 km de route au total,
    vérifié). **L'Ukraine** : AUCUN péage routier n'existe à ce jour (2026) dans le pays — le projet
@@ -636,7 +640,7 @@ ajoute deux à trois choses, indépendamment des autres :
    les véhicules légers modélisés ici (voiture/van/moto), c'est une vignette électronique à prix fixe
    par période (15 jours/30 jours/1 an) qui s'applique, rejoignant donc le même groupe que la
    Moldavie plutôt que celui de la France/l'Italie/la Croatie (barème €/km réel pour les voitures).
-   **La Turquie**, dernier ajout, rejoint plutôt le groupe France/Espagne/Italie/Croatie/Bosnie-
+   **La Turquie**, ajoutée ensuite, rejoint plutôt le groupe France/Espagne/Italie/Croatie/Bosnie-
    Herzégovine/Serbie/Macédoine du Nord/Grèce : un vrai réseau d'autoroutes (otoyol) à péage
    électronique proportionnel à la distance (HGS, paiement automatique par plaque), `hasToll:true`.
    Barème dérivé de l'autoroute Gebze-Orhangazi-İzmir (O-5, 384 km de section réellement autoroutière
@@ -654,7 +658,7 @@ ajoute deux à trois choses, indépendamment des autres :
    routes turque) — même logique que HAC/Putevi Srbije/JP za državni patišta ailleurs dans cette
    table, l'opérateur réellement responsable du barème utilisé pour le calcul plutôt que l'autorité
    nationale générale.
-   **La Géorgie**, dernier ajout en date, a `hasToll:false` — comme l'Ukraine/Gibraltar, aucun péage
+   **La Géorgie**, ajoutée ensuite, a `hasToll:false` — comme l'Ukraine/Gibraltar, aucun péage
    routier n'existe à ce jour pour les véhicules particuliers ; la seule route à péage du pays (rocade
    de contournement de Tbilissi, TBTR) est encore en construction et vise le fret de transit, et la
    Direction des routes a explicitement écarté toute extension aux grands axes nationaux
@@ -761,7 +765,7 @@ ajoute deux à trois choses, indépendamment des autres :
    n'a, à ce jour, aucun code ISO 4217 distinct — elle circule à parité stricte avec la couronne
    danoise dont elle n'est, monétairement, qu'une émission billet locale (les pièces restent
    exclusivement danoises), le territoire faisant partie du royaume du Danemark tout en étant hors UE.
-   **Gibraltar, la Moldavie, la Biélorussie et l'Ukraine**, dernier ajout, ont chacun besoin du
+   **Gibraltar, la Moldavie, la Biélorussie et l'Ukraine**, ajoutés ensuite, ont chacun besoin du
    champ. **Gibraltar** (`GIP`, la livre de Gibraltar) : parité FIXE 1:1 avec la livre sterling
    (billets/pièces britanniques ayant cours légal sur le territoire, l'inverse n'étant PAS vrai) mais
    un vrai code ISO 4217 propre malgré cette parité, contrairement à la couronne féroïenne — pays
@@ -795,7 +799,7 @@ ajoute deux à trois choses, indépendamment des autres :
    "₴" pour `UAH` (signe monétaire dédié de la hryvnia, U+20B4, normalisé de longue date et
    largement pris en charge — un vrai symbole comme "€"/"£" plutôt qu'une abréviation, contrairement
    aux trois précédents).
-   **La Turquie**, dernier ajout, a besoin du champ (`TRY`, la livre turque, hors zone euro, flottante
+   **La Turquie**, ajoutée ensuite, a besoin du champ (`TRY`, la livre turque, hors zone euro, flottante
    — 1 EUR ≈ 56,3 TRY début septembre 2026, xe.com/ecb.europa.eu). Istanbul (ville la plus chère du
    pays) : loyer vacances médian ~74-75 $/nuit (~70 €, airroi.com/investropa.com 2026, premier
    semestre), quartiers premium (Galata/Cihangir à Beyoğlu) ~95-160 $/nuit, quartiers plus abordables
@@ -808,7 +812,7 @@ ajoute deux à trois choses, indépendamment des autres :
    un symbole ADOPTÉ EN 2012 et normalisé Unicode depuis la même année (v6.2) — plus de dix ans de
    recul, largement pris en charge par toutes les polices système courantes, aucun risque de caractère
    manquant comparable.
-   **La Géorgie**, dernier ajout en date, a besoin du champ (`GEL`, le lari géorgien, hors zone euro,
+   **La Géorgie**, ajoutée ensuite, a besoin du champ (`GEL`, le lari géorgien, hors zone euro,
    flottante — 1 EUR ≈ 3,04 GEL début septembre 2026, xe.com/valutafx.com). Tbilissi (ville la plus
    chère du pays) : loyer vacances médian ~$49-58/nuit (airdna.co/airroi.com 2026), soit ~45 € aux
    taux courants. Palier "moyen" calé sur ce loyer médian converti au taux ci-dessus (~130 GEL), mêmes
@@ -823,7 +827,7 @@ ajoute deux à trois choses, indépendamment des autres :
    ici couvert, rejointe depuis par la Serbie et la Macédoine du Nord — leur péage reste affiché en €
    comme celui de la France ou de la Croatie, jamais en RSD/MKD/KM.
 
-**L'Arménie, l'Azerbaïdjan, la Syrie et Chypre**, dernier ajout en date (les quatre en une seule fois,
+**L'Arménie, l'Azerbaïdjan, la Syrie et Chypre**, ajoutés ensuite (les quatre en une seule fois,
 choix explicite de l'utilisateur comme pour Gibraltar/la Moldavie/la Biélorussie/l'Ukraine plus haut).
 **L'Arménie** : GeoNames n'a AUCUN fichier de codes postaux pour ce pays (export/zip/AM.zip -> 404,
 comme la Géorgie/le Monténégro/le Kosovo) — reconstruit depuis la liste officielle des 775 bureaux de
@@ -880,7 +884,7 @@ vérifiés avec la même rigueur que le reste de `FERRY_ROUTES`, elle n'a pas é
 plutôt que d'inventer un chiffre : Chypre reste pour l'instant un îlot autonome, comme l'Islande ou
 les îles Féroé. Devise : euro (zone euro depuis 2008), aucun champ `currency` nécessaire.
 
-**Le Liban, Israël, la Palestine, la Jordanie, l'Égypte et la Libye**, dernier ajout en date (les six
+**Le Liban, Israël, la Palestine, la Jordanie, l'Égypte et la Libye**, ajoutés ensuite (les six
 en une seule fois, choix explicite de l'utilisateur). AUCUN des six n'a de fichier de codes postaux
 GeoNames (`export/zip/{LB,IL,PS,JO,EG,LY}.zip` -> 404, vérifié pour chacun) — mais contrairement à la
 Syrie, la plupart ont un VRAI système de codes postaux, simplement sans source ouverte exploitable
@@ -985,8 +989,10 @@ tout simplement AUCUNE frontière) — même famille de bug que Chypre lors de l
 question d'adjacence terrestre plutôt qu'une mer à traverser. Corrigé par une liste BLANCHE de paires
 réellement adjacentes (poste-frontière ouvert identifié : Masnaa Liban-Syrie, Nasib/Jaber
 Syrie-Jordanie, Sheikh Hussein/Allenby/Wadi Araba Israël-Jordanie, Taba Israël-Égypte, checkpoints
-Israël-Palestine, Allenby Jordanie-Palestine, Amsaad/Ras Jdir Égypte-Libye, Rafah Égypte-Palestine),
-appliquée UNIQUEMENT quand au moins un des deux pays fait partie de ce dernier ajout — jamais aux
+Israël-Palestine, Allenby Jordanie-Palestine, Amsaad/Ras Jdir Égypte-Libye, Rafah Égypte-Palestine —
+depuis, la liste retient toute frontière franchie par une route, Liban-Israël et Syrie-Israël compris,
+voir « Zones à tension et frontières »),
+appliquée UNIQUEMENT quand au moins un des deux pays fait partie de cet ajout — jamais aux
 paires ne concernant que des pays déjà couverts avant lui (l'Arménie et la Syrie, par exemple, ne sont
 pas non plus adjacentes, mais ce cas reste hors du périmètre de ce correctif). Un second bug, plus
 subtil, a été détecté par un test automatisé de 180 trajets générés plutôt qu'en relisant le code :
@@ -1044,7 +1050,8 @@ Géorgie et postanskibroj pour le Monténégro, et avec la même réserve explic
 source officielle, AUCUNE licence déclarée sur le dépôt**. Contrôles passés avant adoption : 100 %
 des codes au format 4 chiffres, 0 point hors des limites de la Tunisie, 97 % des lieux GeoNames à
 moins de 15 km d'un point du jeu. **1 615 communes**, aucune correction de nom nécessaire.
-Les **îles Kerkennah** sont exclues par boîte de coordonnées : archipel sans aucune liaison routière
+Les **îles Kerkennah** sont exclues par boîte de coordonnées (depuis : réintégrées, 16 lieux et une liaison
+de ferry, voir « Kerkennah, Dalma, Coron et Busuanga ») : archipel sans aucune liaison routière
 avec le continent, aucun tarif de ferry par véhicule vérifié pour la ligne de Sfax, et le moteur
 traite toute la Tunisie comme une seule masse continentale — les laisser aurait recréé le bug de la
 traversée maritime "par la route" corrigé pour Ceuta/Melilla dans ce même lot. Djerba, elle, RESTE
@@ -1088,7 +1095,8 @@ source officielle possible pour l'autre, mais le marché parallèle s'échangeai
 Maroc-Sahara occidental et Algérie-Sahara occidental. **Maroc-Algérie n'y figure PAS** : la frontière
 terrestre est fermée depuis 1994 et l'Algérie a rompu ses relations diplomatiques avec le Maroc en
 août 2021 — aucun passage civil. Vérifié au tirage : un trajet partant d'Alger visite l'Algérie et la
-Tunisie, jamais le Maroc.
+Tunisie, jamais le Maroc. (Depuis : la paire Maroc-Algérie figure dans `ADJACENT_PAIRS` — une route
+franchit la frontière — et la fermeture relève des zones à tension, voir « Zones à tension et frontières ».)
 
 ### Afrique de l'Ouest : treize pays d'un coup (septembre 2026)
 
@@ -1204,6 +1212,9 @@ raison dans `lib/trip-engine.js` :
   Éthiopie-Somalie ; Djibouti-Somalie. Dans des zones de conflit, « aucune fermeture trouvée » n'est
   pas une preuve d'ouverture.
 
+(Depuis : toutes ces frontières, sauf Nigeria-Tchad, sans route, figurent dans `ADJACENT_PAIRS` ;
+fermetures et avis de sécurité relèvent des zones à tension, voir « Zones à tension et frontières ».)
+
 Conséquence visible et voulue : **le Tchad, la Centrafrique, le Soudan du Sud, l'Érythrée et la
 Somalie sont des îlots** — un trajet qui en part y reste. Vérifié au tirage (6 trajets de 7 jours,
 rayon 1 500 km, par capitale) : Niamey visite Niger, Nigeria et Bénin ; Cotonou Bénin, Togo et Nigeria ;
@@ -1248,6 +1259,9 @@ Digue. **L'enclave angolaise de Cabinda** est traitée de la même façon : aucu
 reste de l'Angola sans traverser la RD Congo. Au départ d'une très petite île (Petite-Terre à Mayotte,
 Likoma, Rodrigues), le trajet se limite à quelques kilomètres grâce au dernier recours ajouté avec le
 lot suivant (voir ci-dessous) ; La Digue, dont les lieux sont à moins de 2 km, reste sans trajet.
+(Depuis : Unguja, Pemba, Ukerewe, les Ssese, Mfangano, Likoma, Nosy Be, Bioko, Rodrigues et Petite-Terre sont
+reliées par ferry — `FERRY_ROUTES`, voir « Liaisons sans tarif fixe publié » — et Cabinda par la route via la RD Congo,
+voir « Zones à tension et frontières ». Les autres îles citées restent isolées.)
 
 **Deux bugs corrigés en chemin, antérieurs à ce lot :**
 - Les départements d'outre-mer étaient tous rangés dans la masse terrestre "continental", comme la
@@ -1290,6 +1304,9 @@ la RD Congo n'est reliée qu'à la Zambie et l'Angola qu'à la Namibie. Vérifi�
 jours par capitale) : Nairobi visite Kenya, Ouganda, Tanzanie ; Lusaka Zambie, RDC, Zimbabwe, Mozambique,
 Botswana ; Brazzaville, Libreville, Malabo, Moroni, Antananarivo, Port-Louis, Victoria, Saint-Denis et
 Mamoudzou ne quittent jamais leur territoire ; aucun péage à La Réunion ni à Mayotte.
+(Depuis : les frontières « fermées », « zones rouges » et « non établies » ci-dessus figurent dans `ADJACENT_PAIRS` ;
+seules les trois frontières sans route restent absentes, et le Congo, le Gabon et la Guinée équatoriale ne sont
+plus des îlots routiers — voir « Zones à tension et frontières ».)
 
 **Sécurité** (France Diplomatie, avis valides au 15 septembre 2026) : tourisme déconseillé dans toute
 la RD Congo, où une épidémie d'Ebola (souche Bundibugyo) touche sept provinces depuis mi-mai 2026 et
@@ -1355,7 +1372,8 @@ GeoNames range sous RU sont repris tels quels.
 
 **Aucune frontière routière retenue.** France Diplomatie déconseille formellement tout déplacement
 dans l'ensemble de la Russie (fiche du 10 septembre 2026) : toutes ses frontières tombent sous la règle
-« zone formellement déconseillée », quel que soit leur état — Finlande fermée depuis décembre 2023,
+« zone formellement déconseillée », quel que soit leur état (depuis : ces frontières figurent dans
+`ADJACENT_PAIRS` et l'avis relève des zones à tension, voir « Zones à tension et frontières ») — Finlande fermée depuis décembre 2023,
 Narva ouverte aux seuls piétons, Ukraine fermée, Azerbaïdjan fermée à l'entrée ; Norvège, Estonie,
 Lettonie, Lituanie, Pologne, Biélorussie et Géorgie ouvertes sous restrictions (voitures immatriculées
 en Russie interdites dans l'UE et en Norvège). La Russie est un réseau fermé ; vérifié au tirage : aucun
@@ -1403,7 +1421,8 @@ l'Azerbaïdjan. Musandam, exclave omanaise, est reliée au reste d'Oman par la r
 **Îles isolées**, boîtes vérifiées contre les lieux publiés : Qeshm, Hormuz, Larak, Kish, Kharg, Lavan et la
 Grande Tomb (Iran), Abou Moussa (rangée sous les Émirats par GeoNames, reprise telle quelle), Socotra, Abd
 al-Kuri et Kamaran (Yémen), Farasan (Arabie saoudite), Failaka (Koweït), Sir Bani Yas (Émirats). Masirah
-(Oman) est reliée par ferry (voir "Ferries").
+(Oman) est reliée par ferry (voir "Ferries"). (Depuis : Qeshm, Kish, Hormuz, Farasan, Failaka et Dalma le sont
+aussi — `FERRY_ROUTES` ; les autres îles citées restent isolées.)
 
 **Péages : aucun modélisé.** Salik (Dubaï) et Darb (Abou Dhabi) sont des portiques urbains à forfait par
 passage ; la chaussée du roi Fahd un forfait de 35 SAR ; les autoroutes iraniennes un forfait par tronçon
@@ -1432,9 +1451,10 @@ pays : les tuiles couvrent nativement le monde entier, il suffit que les nouvell
 des coordonnées valides.
 
 Optionnel : **des alias multilingues** pour saisir une ville dans une autre langue que son nom
-local (voir "Langues" ci-dessous, `scripts/build-aliases.js`) — non disponible pour la France (ses
-communes viennent de geo.api.gouv.fr, pas de GeoNames, aucun identifiant commun pour les relier aux
-noms alternatifs GeoNames).
+local (voir "Langues" ci-dessous, `scripts/build-aliases.js`), puis `scripts/build-all-aliases.js`,
+qui complète tous les pays dans toutes les langues d'interface — France comprise : ses communes viennent
+de geo.api.gouv.fr, sans identifiant GeoNames, et sont donc rattachées aux noms alternatifs par nom et
+proximité (voir "Noms alternatifs dans toutes les langues, pour tous les pays").
 
 ### Asie : trente-cinq pays et territoires (septembre 2026)
 
@@ -1755,7 +1775,8 @@ confiance plus faible, comme le sorabe/frison du Nord — et n'a, en plus, AUCUN
 91 entrées "lld" du fichier GeoNames alternateNamesV2 italien pointent toutes vers des sommets/massifs
 alpins, pas vers des communes, contrairement au sarde/frioulan qui ont une vraie toponymie de
 localités. Le ladin reste une langue d'interface complète, seule la recherche de ville par son nom
-ladin n'est pas possible (comme pour la France, qui n'a aucun alias du tout).
+ladin n'est pas possible (comme alors pour la France, qui n'avait aucun alias — depuis : `aliases-fr.txt`
+existe, voir "Noms alternatifs dans toutes les langues, pour tous les pays").
 
 L'Autriche, elle, n'a apporté aucune nouvelle langue : ses 6 langues minoritaires reconnues
 (Volksgruppengesetz — croate du Burgenland, tchèque, hongrois, romani, slovaque, slovène) sont
@@ -2016,11 +2037,12 @@ ensemble de langues (`scripts/build-aliases.js` relancé pour ces trois pays SEU
 `communes-XX.txt` restent inchangés, seuls leurs `aliases-XX.txt` ont été reconstruits) : 465 alias
 basques et 422 catalans apparaissent désormais pour l'Espagne (contre 1 700 alias au total avant ce
 rattrapage, tous langues déjà couvertes), 118 alias au Portugal (dont 14 mirandais), 19 alias en
-Andorre (dont 5 catalans — ex. "San Julià" pour "Sant Julià de Lòria"). La France, elle, n'a et
-n'aura jamais d'alias (voir plus bas "Saisir une ville dans une autre langue") : ses communes
+Andorre (dont 5 catalans — ex. "San Julià" pour "Sant Julià de Lòria"). La France, elle, n'avait
+alors aucun alias (voir plus bas "Saisir une ville dans une autre langue") : ses communes
 viennent de geo.api.gouv.fr, pas de GeoNames, aucun geonameid disponible pour les relier aux noms
-alternatifs — le catalan/l'occitan/le breton/le corse y servent donc uniquement à traduire
-l'interface, pas à chercher une ville par son nom régional.
+alternatifs — le catalan/l'occitan/le breton/le corse y servaient donc uniquement à traduire
+l'interface, pas à chercher une ville par son nom régional. (Depuis : `aliases-fr.txt`, rattaché par
+nom et proximité, voir "Noms alternatifs dans toutes les langues, pour tous les pays".)
 
 L'irlandais (Gaeilge) est arrivé avec l'Irlande, mais PAS pour la même raison que toutes les langues
 ci-dessus : c'est la PREMIÈRE langue officielle de la République d'Irlande à parts égales avec
@@ -2262,9 +2284,10 @@ Les activités (points d'intérêt OpenStreetMap) et les photos (Wikipédia) fon
 n'importe quel pays sans réglage supplémentaire — seule l'extraction de la section "Lieux et
 monuments" d'un article Wikipédia (voir "Activités réelles") reste, pour l'instant, spécifique au
 français (conventions de titres de section propres à Wikipédia FR) ; les randonnées Visorando
-restent, elles, propres à la France (pas de couverture internationale chez eux).
+restaient, elles, propres à la France (depuis : Visorando dans neuf pays et itinéraires OpenStreetMap
+ailleurs, voir "Randonnées dans le monde entier").
 
-### Serbie et Macédoine du Nord (dernier ajout balkanique)
+### Serbie et Macédoine du Nord (suite de la série balkanique)
 
 Le macédonien (makedonski, ISO 639-1 "mk") est arrivé avec la Macédoine du Nord elle-même. Langue
 slave méridionale écrite en cyrillique, proche du bulgare et, dans une moindre mesure, du serbe déjà
@@ -2297,7 +2320,7 @@ affiché mais PAS par leur vrai nom macédonien tapé au clavier — un angle mo
 rattrapage précis (recherche de "Арачиново" restant vide malgré la commune "Arachinovo" bien présente
 dans `communes-mk.txt`).
 
-### Grèce et Bulgarie (dernier ajout)
+### Grèce et Bulgarie
 
 Le grec (ISO 639-1 "el") est arrivé avec la Grèce elle-même. Aucune langue régionale ou minoritaire
 n'a été ajoutée séparément : la Grèce ne reconnaît officiellement aucune langue régionale (contrairement
@@ -2326,7 +2349,7 @@ générés pour la Grèce, dont 13 750 rien que pour `el` — de très loin le p
 pour un seul pays de toute cette série, la Bulgarie (5 784 alias) et la Roumanie (1 199 alias) restant,
 elles, dans la fourchette habituelle des pays au pipeline standard.
 
-### Lettonie, Lituanie et Estonie (dernier ajout)
+### Lettonie, Lituanie et Estonie
 
 Trois langues nationales arrivées avec leurs pays respectifs : le letton (ISO 639-1 "lv"), le
 lituanien ("lt") et l'estonien ("et"). Chacune des trois a aussi apporté une langue RÉGIONALE
@@ -2379,7 +2402,7 @@ isolé (nom d'une localité proche de la frontière estonienne). 304 alias au to
 664 pour la Lituanie, 431 pour l'Estonie — dans la fourchette habituelle des pays au pipeline
 standard, sans le pic observé pour la Grèce (voir ci-dessus).
 
-### Vatican, Islande et Îles Féroé (dernier ajout)
+### Vatican, Islande et Îles Féroé
 
 **Le Vatican n'apporte AUCUNE nouvelle langue** — cas inédit dans cette série, plus radical encore
 que la Roumanie plus haut (qui, elle, n'ajoutait aucune langue mais restait un pays de taille
@@ -2425,7 +2448,7 @@ et des mots lituaniens plutôt qu'une vraie communauté lituanienne locale (aucu
 corrobore un lien réel), non retirée pour rester fidèle à la donnée brute GeoNames comme pour
 toutes les autres tables d'alias de ce projet.
 
-**Gibraltar, la Moldavie, la Biélorussie et l'Ukraine**, dernier ajout en date, apportent CINQ
+**Gibraltar, la Moldavie, la Biélorussie et l'Ukraine**, ajoutés ensuite, apportent CINQ
 nouvelles langues — plus que le nombre de pays lui-même, chacune décidée d'après le statut légal
 réel du pays concerné plutôt qu'un choix éditorial, même règle que pour la Finlande/l'Irlande/la
 Bosnie-Herzégovine plus haut. **Gibraltar n'apporte aucune langue** : l'anglais (déjà couvert) est
@@ -2485,7 +2508,7 @@ supplémentaire qui ne change rien au nom CANONIQUE affiché, resté ukrainien p
 du pays — même logique que les alias serbes conservés pour des communes kosovares au nom canonique
 albanais).
 
-**La Turquie**, dernier ajout en date — exceptionnellement seule plutôt qu'en groupe, mais le pays le
+**La Turquie**, ajoutée ensuite — exceptionnellement seule plutôt qu'en groupe, mais le pays le
 plus peuplé jamais ajouté à ce projet (~85 millions d'habitants) — apporte **UNE SEULE** nouvelle
 langue : **le turc** (Türkçe, ISO 639-1 "tr"), SEULE langue d'Etat au titre de l'article 3 de la
 Constitution turque. Contrairement à tous les pays couverts jusqu'ici, la Turquie n'a ni signé ni
@@ -2515,7 +2538,7 @@ opérées par GESTAŞ (seul opérateur, quasi-monopole historique comme Île de 
 Bornholmslinjen/Destination Gotland déjà rencontrés plus haut) — voir "Ferries" plus bas pour le
 détail complet des tarifs.
 
-**La Géorgie**, dernier ajout en date, apporte **DEUX** nouvelles langues : **le géorgien** (ქართული,
+**La Géorgie**, ajoutée ensuite, apporte **DEUX** nouvelles langues : **le géorgien** (ქართული,
 ISO 639-1 "ka"), seule langue d'Etat sur l'ensemble du territoire (article 8 de la Constitution
 géorgienne), et **l'abkhaze** (Аҧсшәа, ISO 639-1 "ab") — le MÊME article 8 dispose que "la langue
 officielle de la République autonome d'Abkhazie est également l'abkhaze", un statut co-officiel
@@ -2549,7 +2572,7 @@ couvertes (anglais, ukrainien, turc...).
 
 Aucun ferry supplémentaire : la Géorgie n'a pas d'île habitée nécessitant une traversée en propre.
 
-**L'Arménie, l'Azerbaïdjan, la Syrie et Chypre**, dernier ajout en date, apportent **SIX** nouvelles
+**L'Arménie, l'Azerbaïdjan, la Syrie et Chypre**, ajoutés ensuite, apportent **SIX** nouvelles
 langues au total (Chypre elle-même n'en ajoute aucune : le grec et le turc, ses deux langues
 officielles, sont déjà couverts depuis respectivement la Grèce et la Turquie — voir "Pays couverts"
 ci-dessus). **L'arménien** (Հայերեն, ISO 639-1 "hy") depuis l'ajout de l'Arménie, seule langue d'Etat.
@@ -2596,7 +2619,9 @@ suffit à inverser la mise en page entière (marges, alignement du texte, ordre 
 sans toucher au balisage lui-même — comportement natif du navigateur, appliqué au chargement et à
 chaque changement de langue (`applyDirection()`, appelée aux côtés d'`applyStaticTranslations()`).
 
-**Alias** : pas de fichier alias pour l'Arménie ni pour la Syrie (comme la France). `aliases-az.txt`,
+**Alias** : pas de fichier alias pour l'Arménie ni pour la Syrie (comme la France) à ce stade (depuis :
+`aliases-am.txt`, `aliases-sy.txt` et `aliases-fr.txt` existent, voir "Noms alternatifs dans toutes les
+langues, pour tous les pays"). `aliases-az.txt`,
 10 623 alias (dont un correctif notable détecté en testant cet ajout : le nom "Baku" n'était d'abord
 rattaché qu'au nom canonique NON corrigé, laissant la recherche "Baku" introuvable après le
 renommage en "Bakı" — corrigé en répercutant les mêmes `NAME_OVERRIDES` dans `build-aliases.js`,
@@ -2610,7 +2635,7 @@ n'a pas d'Etat, le touroyo/le circassien encore moins), et l'arabe lui-même ret
 plutôt qu'un autre pays arabophone puisque c'est l'ajout de la Syrie qui a introduit cette langue
 dans l'interface — même mécanisme de repli que nds/hsb/frr vers l'Allemagne plus haut.
 
-**Le Liban, Israël, la Palestine, la Jordanie, l'Égypte et la Libye**, dernier ajout en date,
+**Le Liban, Israël, la Palestine, la Jordanie, l'Égypte et la Libye**, ajoutés ensuite,
 N'APPORTENT AUCUNE NOUVELLE LANGUE à l'interface — l'arabe, déjà couvert depuis la Syrie, reste la
 seule langue de ces six pays à remplir le critère "statut légal réel accordé par le pays lui-même"
 déjà appliqué à chaque ajout précédent. Revue systématique effectuée pour chacun, même méthode que
@@ -3612,7 +3637,7 @@ travail sans le créditer :
 
 - Seuls le **nom**, le **lien**, la **distance**, la **durée** et la **difficulté** de la
   randonnée sont récupérés (des faits, pas leur texte de description, ni leur trace GPS, ni leurs
-  photos) — voir `extractVisorandoHikes` dans `server.js`.
+  photos) — voir `fetchVisorandoHikes` (et `fetchVisorandoHikeList`, qui gère le cache) dans `server.js`.
 - La carte affichée dans l'app est un vrai lien cliquable (`<a target="_blank">`) qui **renvoie
   directement vers la page de cette randonnée précise** sur visorando.com (jamais vers une page de
   recherche), avec une mention explicite « Source : Visorando » sur la carte elle-même.
@@ -4135,6 +4160,92 @@ produisent le même avertissement générique (« certaines autoroutes ou voies 
 par pays. Avec un rayon de 3 000 km, environ un tirage sur six atteint le budget de temps de 4 s et le dit
 (`timedOut`) : c'est le garde-fou prévu, sans dégradation par rapport aux versions précédentes.
 
+### Dixième passe d'audit et suite de tests (18 septembre 2026)
+
+Six relectures indépendantes (relecture adversariale du commit précédent ; moteur testé par invariants sur ~8 600 tirages ;
+serveur route par route ; interface parcours par parcours dans les 161 langues ; données et documentation ; réalisme
+des chiffres confrontés aux sources officielles), puis correction. Pour la première fois, les CHIFFRES affichés ont été
+vérifiés contre le monde réel, et plus seulement la cohérence du code.
+
+**Suite de tests permanente** (`tests/`, voir `tests/README.md`) : `npm run test:quick` (~2 min), `npm test`
+(~5 min), `npm run test:full` (générateurs et 3 000 tirages compris). Elle reprend les vérifications de toutes les
+passes d'audit — invariants du moteur (jours, nuits par ville, distance max ou `overMaxLeg` justifié, éloignement,
+mer et frontières, ferries, zones à tension, péage, valeurs, retour, état), péage (pays sans barème jamais facturés,
+transits, 38 liaisons de référence), performances, serveur réel avec services tiers simulés (en-têtes, quotas, PDF,
+file des appels sortants, entrées forgées), 161 langues et empreintes CSP, générateurs reproduits à l'octet près. Elle
+a trouvé elle-même deux défauts pendant cette passe (transit alsacien, avertissement de borne après un ferry). Les
+passes précédentes corrigeaient avec des scripts écrits pour l'occasion, qui ne testaient que ce qu'ils corrigeaient :
+d'où les régressions des 8e et 9e audits.
+
+**Régressions du 9e audit, corrigées.**
+- Passe stricte avec ferry : la masse « continental » compte 253 liaisons, si bien que la passe tournait partout —
+  échecs faute de temps de 1 à 16 sur 50 tirages intérieurs. Elle n'est plus tentée que si un port est à moins de la
+  distance max par la route (`ferryPossibleFrom`) : 0 échec, et Calais ou Bastia gardent 0 dépassement évitable.
+- Péage de transit : un trajet intérieur ne traverse jamais un pays tiers (Osijek → Split au barème bosnien : 55
+  trajets croates sur 300), ni un trajet entre deux pays voisins (Saarbrücken → Bâle au barème français, 15,9 €).
+  Luxembourg → Genève, Barcelone → Gênes, Belgrade → Thessalonique restent facturés sur leur transit réel.
+- `overflow-wrap:anywhere` coupait des mots qui tenaient (« GENERATO / R ») : remplacé par `break-word`.
+- Pied de page du PDF : il pouvait encore disparaître sans la mention « document tronqué ».
+
+**Chiffres inventés ou faux, remplacés par des valeurs sourcées.**
+- Journées sur place : leur « petit trajet local » de 3 à 14 km était TIRÉ AU HASARD, affiché comme une vraie distance
+  et compté dans le kilométrage du voyage. Ces journées n'ont plus de trajet.
+- Recharge électrique : 25 à 40 min TIRÉES AU HASARD par arrêt → 28 min (médiane ev-database.org de quatre modèles
+  récents, recharge de 10 à 80 %, plage de référence de l'ADAC) ; marge 0,75 sans source → 0,70 (10 → 80 %) ; autonomie
+  320 km confirmée (ev-database.org). Sources détaillées dans `public/js/trip-data.js`.
+- Moto privée d'autoroute : 0,8 sans source → facteur mesuré par pays (`scripts/measure-moto-no-motorway.js`, relevé
+  Valhalla/OpenStreetMap dans `data/moto-no-motorway-valhalla.json`) : Corée 0,68, Taïwan 0,58, Viêt Nam 0,85,
+  Pakistan 0,87, Thaïlande, Indonésie et Sri Lanka 1,00. Limite : 5 trajets par pays.
+- Péage des 17 pays : barèmes recalculés sur les grilles officielles 2026 (sources et liaisons dans
+  `TOLL_RATE_BY_COUNTRY`), classes van et moto propres à chaque pays. Écarts corrigés : Portugal ×2,8 (le taux venait
+  de l'A22, gratuite depuis 2025), Turquie ÷4,4 (le taux venait d'une autoroute privée ; KGM retenu, autoroutes privées
+  désormais sous-estimées), Israël ×1,75, Bosnie-Herzégovine ÷1,7, Macédoine du Nord, Sénégal, Croatie, Japon ; moto au
+  tarif voiture en Espagne et en Italie, fourgon au tarif voiture au Japon, en Espagne, en Israël et en Azerbaïdjan,
+  fourgon ×2,5 à ×2,8 en Grèce et en Macédoine du Nord. Mesuré : Istanbul → Edirne 3,6 € (officiel ≈ 3 €, 15,9 € avant),
+  Lisbonne → Porto 32,1 € (25,05 €, 11,6 € avant), Tokyo → Nagoya 39,7 € (≈ 40 €), Belgrade → Niš 11,8 € (10,05 €).
+- Seuil « pas de péage sous 60 km », sans source : remplacé par une longueur facturée minimale d'une case de la grille
+  d'affilée (~28 km). Espagne : case exacte seulement (réseau payant clairsemé, bordé d'autovías gratuites) —
+  Madrid → Séville 15,3 → 8,6 €, Málaga → Grenade 7,3 → 0 €. Erreurs résiduelles connues, dues au trait à vol d'oiseau
+  (le moteur ne calcule pas d'itinéraire) : Madrid → Barcelone 20,3 € (A-2 gratuite réelle), Limoges → Brive 8,4 €
+  (A20 gratuite), Zagreb → Split et Athènes → Thessalonique sous-estimés ; AP-68 gratuite en Aragon et Navarre à partir
+  du 11/11/2026 non modélisée.
+- Hébergement : base 70/130/260 € sans source → 100/150/340 € (INE espagnol ramené à la moyenne de l'UE par l'indice
+  Eurostat « restaurants et hôtels »), ajustée au pays de l'étape dans la zone euro ; le plafond ne dépend plus de la
+  devise choisie (20 000 HUF ≈ 55 € ou 250 CHF ≈ 264 € pour une même nuit en France) : il est calculé pour le pays de
+  l'étape puis converti aux taux de la BCE (`lodgingPriceCap`, partagé par le serveur et le navigateur).
+- Ferries : aucun prix affiché sans grille officielle datée de l'exploitant. Prix sourcés ajoutés (Jadrolinija, Gozo
+  Channel, Caronte & Tourist, TESO, Doeksen, Wagenborg, Levante, Saronic Ferries, Skyros Shipping, GESTAŞ…) ; tarifs à
+  la réservation (Corse, Baléares, Sardaigne, Manche, Pirée, Ceuta, Melilla, Bornholm, Gotland…) : « tarif non
+  communiqué ». Plus aucune classe déduite d'une autre par un ratio. Vlieland et Schiermonnikoog, interdites aux
+  voitures des visiteurs, n'ont plus de liaison. Distances aberrantes corrigées (Corfou, Céphalonie, Ithaque, Andros,
+  Jersey). 25 bacs norvégiens gratuits l'hiver mais payants l'été : « tarif non communiqué ».
+- Données de lieux : 25 lieux rangés dans le mauvais pays, 132 lieux disparus « (historical) », 32 bases antarctiques
+  rangées en Argentine, Sercq, 7 fiches dont le nom était un commentaire d'éditeur, 8 noms indiens aux caractères perdus
+  (4 corrigés d'après GeoNames, 4 retirés) — corrigés dans les générateurs (`scripts/communes-corrections.js`) ;
+  alias nettoyés (caractères de direction invisibles, ponctuation parasite).
+
+**Serveur.** Jetons de statistiques, sous-titre et bandeau des pages du PDF soumis au budget (8 statistiques
+tibétaines gelaient le process 5 à 10 s) ; objets forgés neutralisés dans tout le corps de l'export ; requête
+abandonnée pendant son attente retirée de la file (elle bloquait son adresse 20 à 30 s) ; réponses tierces bornées à
+8 Mo ; refus 403 de Wikipédia et pages Visorando inattendues jamais mis en cache ; délais de connexion (en-têtes 15 s,
+requête 30 s, inactivité 2 min) ; verrou d'index illisible de nouveau récupérable ; recherches mises en cache ; codes
+postaux à tiret (« cn-110000 ») de nouveau trouvés ; crédit photo (auteur, licence) fourni par `/api/photo` ;
+entités HTML robustes. Limite assumée : le moteur est synchrone et tient ~3 Go en mémoire, il ne peut pas être isolé
+dans des workers sur l'hébergement mutualisé — quelques adresses qui enchaînent des tirages lourds peuvent encore
+occuper le process.
+
+**Moteur.** Budget de 4 s tenu (6,5 s mesurées avant) ; diagnostic « éloignement introuvable » conservé ; entrées
+typées strictement ; moto sur les îles taïwanaises ; avertissement de borne après un ferry ; zones à faibles émissions
+et à trafic limité rattachées à leur ville (10 zones sur 133 n'étaient jamais signalées ; ZBE d'Ourense placée à 30 km
+de la ville).
+
+**Interface.** Suggestion périmée sélectionnable, panneaux hors écran sur mobile, année des dates coupée, validation
+native du navigateur remplacée par une validation traduite, crédit photo complet, contrastes (bouton principal 4,77:1),
+devise sans stockage local, recherche de randonnée sans fin, nombres et duel arabe localisés, liens Airbnb et Booking
+dans la langue de l'interface, textes de carte traduits, accessibilité (dialogues, boutons ±, champs en erreur),
+impression, textes indicatifs trop longs. 12 nouvelles clés dans les 161 langues ; le yi reçoit le chinois pour ces
+clés, faute de traduction fiable.
+
 ### PDF traduit dans les 161 langues (17 septembre 2026)
 
 Le PDF mélangeait le français du serveur et la langue de l'interface, avec les 14 polices standard PDF (Helvetica,
@@ -4181,7 +4292,7 @@ Times) incapables d'afficher le cyrillique, le grec, l'arabe, les écritures d'A
 
 ### Pas de route à travers la mer (septembre 2026)
 
-Le moteur mesure les distances à vol d'oiseau × 1,17 et ne connaît que les masses terrestres : deux pays de la même masse
+Le moteur mesure les distances à vol d'oiseau × 1,17 (depuis : × 1,287, `ROAD_FACTOR`, voir « Septième passe d'audit ») et ne connaît que les masses terrestres : deux pays de la même masse
 (Croatie et Italie, Estonie et Finlande, Danemark et Allemagne…) étaient reliés PAR LA ROUTE à travers la mer. Mesuré le
 17/09/2026 sur 1 140 tirages réels (5 par pays) : 3,5 % des voyages contenaient une telle étape (Split → Pescara,
 Tallinn → Helsinki, Rostock → Zélande, Dahab → Ras Gharib, Dhahran → Qatar, lac Malawi…).
@@ -4212,7 +4323,8 @@ celle-ci (paires de ports réellement desservies quand elles sont connues). Avan
 journée).
 
 - **Données** : `FERRY_PORTS` dans `lib/ferry-ports.js` (réservé au serveur, jamais livré au navigateur), construit par `scripts/build-ferry-ports.js` depuis
-  `scripts/ferry-ports/ports-*.js` puis `scripts/ferry-ports/corrections.js` — les 702 liaisons, 1 559 ports, chacun avec
+  `scripts/ferry-ports/ports-*.js` puis `scripts/ferry-ports/corrections.js` — les 702 liaisons (699 de `FERRY_ROUTES`
+  et 3 de `SEA_CROSSINGS`), 1 559 ports (comptés par rive de liaison ; 1 154 emplacements distincts) au 18/09/2026, chacun avec
   la source qui établit que la ligne le dessert (URL des commentaires de FERRY_ROUTES, sites des opérateurs). Recherche
   d'un lieu : `node scripts/ferry-ports/find-port.js <PAYS> "<nom>"` (ou `--near lat,lon`).
 - **Coordonnées** : celles des données de lieux du projet (GeoNames et sources nationales), ou du **quai OpenStreetMap**
@@ -4235,7 +4347,7 @@ journée).
   à 71 km) gardent le centre de leur localité, cohérent avec les coordonnées des étapes ; une liaison regroupant plusieurs
   lignes (ex. Continent ↔ Grande-Bretagne) affiche le nom, la durée et le prix de sa ligne de référence (Douvres ↔ Calais)
   même quand la partie par la route est estimée via une autre paire réellement desservie (Rotterdam ↔ Hull) ; la partie
-  par la route est estimée à vol d'oiseau × 1,17 comme le reste du moteur ; `build-island-rules.js` vérifie à la fin que
+  par la route est estimée à vol d'oiseau × 1,287 (`ROAD_FACTOR`) comme le reste du moteur ; `build-island-rules.js` vérifie à la fin que
   toutes les liaisons ont leurs ports.
 - **Règles d'îles recalées sur les contours OpenStreetMap** (bandes de 0,01° de latitude, marge ~300 m) pour Olkhon
   (relation/2734482), K'gari (relation/6661024) et la Grande Île de Chiloé (relation/2711509) : les boîtes uniques
@@ -4251,8 +4363,9 @@ journée).
   7 km (durées non vérifiées) ; ports recalés sur leur quai pour Nagu (Prostvik), Arnö et Olkhon ; libellé de la liaison
   Continent ↔ Ikaria ajouté dans les 161 langues (il manquait partout).
 
-Une île n'est jamais reliée au continent par la route : le moteur de distance (vol d'oiseau × 1,17,
-voir `roadDistanceKm` dans `app.js`) n'a par nature aucune idée de la mer. Sans ce qui suit, un
+Une île n'est jamais reliée au continent par la route : le moteur de distance (vol d'oiseau × 1,287,
+`ROAD_FACTOR` — voir `roadDistanceKm` dans `lib/trip-engine.js` ; 1,17 n'est plus que le facteur des corridors
+autoroutiers, `TOLL_ROAD_FACTOR`, pour le péage) n'a par nature aucune idée de la mer. Sans ce qui suit, un
 trajet pouvait "traverser" la Méditerranée ou l'Atlantique comme une route normale, silencieusement
 faux. Décoché par défaut (comme "Autoroutes à péage autorisées", juste au-dessus dans le
 formulaire) — le tirage au sort reste alors confiné à la même masse continentale du début à la fin.
@@ -4283,7 +4396,9 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   — liaison non modélisée pour l'instant, limitation assumée plutôt qu'un oubli : hors du périmètre
   explicite de l'ajout du Royaume-Uni (Douvres-Calais, voir plus bas), à ajouter séparément si besoin.
   Sercq (Sark), dépendance du bailliage de Guernesey, est explicitement EXCLUE de
-  `communes-gg.txt` (voir `SARK_EXCLUDE_NAMES` dans `scripts/build-country-communes.js`) : l'île est
+  `communes-gg.txt` — d'abord par nom (`SARK_EXCLUDE_NAMES` dans `scripts/build-country-communes.js`), ce qui
+  laissait passer 14 hameaux de l'île, puis, depuis le 18/09/2026, par zone : la boîte de la règle d'île « sark »
+  (`SARK_BOX`, `scripts/communes-corrections.js`) : l'île est
   un site sans voiture (aucune liaison en ferry pour véhicules n'existe, pour personne), une
   destination réellement impossible pour tous les modes de transport couverts ici — contrairement
   aux îles Wadden, dont l'accès en voiture reste restreint en pratique mais bien réel.
@@ -4493,17 +4608,17 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   l'archipel (`c.country === 'FO'`), avec le même type de piège nominal que Póros/Skýros pour la
   Grèce — une localité appelée "Vágur" existe aussi au nord, sur Eysturoy (code 700), mais la
   détection par préfixe plutôt que par nom l'écarte sans ambiguïté (voir "Ferries" ci-dessus). Le
-  Vatican et l'Islande, eux, n'ont besoin d'aucune subdivision : le Vatican tient sur sa seule commune
-  et l'Islande, sans île périphérique modélisée (voir "Ferries" ci-dessus), reste entièrement
-  `continental`.
-- Limite connue : les petites îles françaises sans pont ni département propre (Belle-Île, Ouessant,
-  Groix...) ne sont pas détectées individuellement et restent traitées comme le continent le plus
-  proche — un cas rare (quelques dizaines de communes sur ~35 000) laissé de côté pour l'instant.
-  De même, les 9 îles de l'archipel des Açores sont regroupées sous une seule étiquette : un trajet
-  qui resterait entièrement dans les Açores pourrait proposer un trajet routier entre deux îles
-  différentes de l'archipel, alors qu'il faudrait en réalité un bateau/avion inter-îles — un cas
-  qui ne peut survenir qu'en partant soi-même d'une commune des Açores (jamais depuis le continent,
-  voir plus haut), donc rare en pratique. Limite similaire, plus étendue, pour la Croatie : une
+  Vatican, lui, n'a besoin d'aucune subdivision : il tient sur sa seule commune. L'Islande forme sa
+  propre masse `iceland` (et non `continental`), dont se détachent trois îles périphériques
+  modélisées depuis : Vestmannaeyjar, Grímsey et Hrísey (`landmassOf`, vérifié le 18/09/2026).
+- Limite levée depuis : les petites îles françaises sans pont ni département propre (Belle-Île,
+  Ouessant, Groix, Batz, Bréhat…) étaient d'abord traitées comme le continent le plus proche ; elles
+  ont aujourd'hui chacune leur masse (`belleIle`, `groix`, `ouessant`… via `ISLAND_RULES` dans
+  `public/js/trip-data.js`). De même, les 9 îles de l'archipel des Açores, d'abord regroupées sous
+  une seule étiquette, sont désormais 9 masses distinctes (`azores` pour São Miguel, `terceira`,
+  `faial`, `pico`, `saoJorge`, `graciosaAzores`, `santaMaria`, `floresAzores`, `corvo` —
+  vérifié avec `landmassOf` le 18/09/2026) ; seules Faial, Pico, São Jorge, Terceira et Graciosa sont
+  reliées entre elles par ferry (voir "Îles d'Europe et corrections"), les autres restent isolées. Limite similaire, plus étendue, pour la Croatie : une
   bonne douzaine de très petites îles à liaison locale réduite et population quasi nulle dans les
   données ne sont volontairement PAS modélisées (archipel de Zadar : Molat/Ist/Premuda/Silba/Olib/
   Iž/Rava/Zverinac ; archipel de Šibenik : Kaprije/Zlarin/Žirje/Prvić/Krapanj ; îles Élaphites près
@@ -4519,7 +4634,7 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   Límnos (pas de ligne voiture directe régulière à ce jour) — voir le commentaire au-dessus de
   `FERRY_ROUTES` dans `app.js`.
 
-**La Turquie**, dernier ajout en date, apporte deux vraies traversées pour véhicules dans le détroit
+**La Turquie**, ajoutée ensuite, apporte deux vraies traversées pour véhicules dans le détroit
 des Dardanelles, toutes deux opérées par GESTAŞ (seul opérateur, quasi-monopole historique comme Île
 de Man Steam Packet/Bornholmslinjen/Destination Gotland déjà rencontrés plus haut) — détectées via le
 champ "dept" de `communes-tr.txt` (littéralement le nom de l'île pour ces deux-là, voir `landmassOf`
@@ -4595,7 +4710,8 @@ continent (limite est ramenée à 33,205° E).
 elles, Açores, Elbe, Hébrides, île de Wight, Saaremaa, Föhr, îles norvégiennes, Marmara, Olkhon, Bijagós, Ko Phaluai…)
 et quelques boîtes étaient fausses (Kupang, Sadai, Liang) — **corrigé dans la section suivante**. Restent isolées lieu
 par lieu, faute de voitures sur place ou de bac à véhicules : Ko Phi Phi (aucune route carrossable) et les petites îles
-des Maldives (ferries publics pour passagers seulement) ; Kerkennah, Dalma et Coron n'ont aucun lieu dans les données.
+des Maldives (ferries publics pour passagers seulement) ; Kerkennah, Dalma et Coron n'ont aucun lieu dans les données
+(depuis : lieux ajoutés, voir « Kerkennah, Dalma, Coron et Busuanga »).
 
 **Matsu et Phú Quý (correction)** : Matsu était isolée lieu par lieu ; elle a désormais une masse par île ou groupe relié
 par la route — `nangan` (18 lieux), `beigan` (10), `xiju` (6), `dongju` (3), `dongyin` (Dongyin et Xiyin, reliées par
@@ -4897,8 +5013,9 @@ Frioul…) restent continentales.
 - **Mulifanua ↔ Salelologa** (Upolu ↔ Savai'i) — Samoa Shipping Corporation : voiture 95 WST (30,24 €), van 100 WST,
   moto 30 WST, passager 10 WST.
 - **Pago Pago ↔ Ta'u** et **Pago Pago ↔ Ofu** (Samoa américaines) — administration portuaire, MV Manu'atele : voiture
-  250 USD, véhicule large 500 USD, adulte 30 USD. **Aucun tarif moto publié : ces deux liaisons ne sont pas proposées à
-  moto** (prix `null` dans la grille ; le moteur ignore une liaison sans prix pour le mode de transport choisi).
+  250 USD, véhicule large 500 USD, adulte 30 USD. Aucun tarif moto publié (prix `null` dans la grille) : à l'époque,
+  ces deux liaisons n'étaient pas proposées à moto (depuis : elles le sont, sans prix et avec l'avertissement « tarif
+  non communiqué », voir `priceStatus` dans « Liaisons sans tarif fixe publié »).
 
 **Non retenues** — les îles concernées restent sans trajet par la mer :
 - **Australie** : Spirit of Tasmania (prix selon la demande) ; SeaLink (Kangaroo Island, Bruny, K'gari, Stradbroke) et
@@ -4965,7 +5082,8 @@ changeaient d'un mode à l'autre : étapes de 131 km en moyenne à vélo comme e
 calculées sur une autonomie fixe sans aucune borne réelle, rien pour les vans ni pour les motos.
 
 **Distance max entre les étapes** — nouveau champ du formulaire, **80 km à vélo** et **400 km** pour les autres modes par défaut
-(la valeur suit le mode tant que le visiteur ne l'a pas modifiée), sans minimum. Chaque trajet entre deux étapes ET le retour au
+(la valeur suit le mode tant que le visiteur ne l'a pas modifiée), de 10 à 3 000 km dans le formulaire (`min="10"`,
+`max="3000"` dans `public/index.html` ; le serveur ramène toute valeur reçue entre 5 et 3 000 km). Chaque trajet entre deux étapes ET le retour au
 départ restent sous cette distance routière (`LEG_CONSTRAINTS`, `legAllowed` dans lib/trip-engine.js) ; les traversées en ferry n'y
 sont pas soumises. Quand le tirage s'interrompt faute de candidat, les dernières étapes sont retirées tant que le retour dépasse la
 limite (c'était la source des étapes de plus de 1 000 km). Contrôle mondial après correction : **0 étape au-delà du maximum**
@@ -5101,9 +5219,10 @@ choix explicite remplace ce comportement par une seule devise fixe partout, sur 
 budget/logement affiché ET sur les liens Airbnb/Booking générés (jamais sur le péage, toujours
 affiché en euros quelle que soit la devise choisie ou le pays traversé — voir "Pays couverts").
 Mémorisé dans le `localStorage` du navigateur (`js/app.js`, clé `currency`, même mécanique que
-`lang`/`theme`), jamais envoyé au serveur. La liste proposée est RECONSTRUITE depuis `COUNTRIES`
-plutôt que codée à la main (`CURRENCY_OPTIONS`) : treize devises actuellement (EUR + les douze pays
-hors zone euro déjà couverts), un nouveau pays avec une nouvelle devise y apparaît automatiquement.
+`lang`/`theme`) ; la devise choisie accompagne la requête de tirage (`preferredCurrency`, pour les plafonds de prix
+et les liens d'hébergement calculés côté serveur), sans y être conservée. La liste proposée est RECONSTRUITE depuis `COUNTRIES`
+plutôt que codée à la main (`CURRENCY_OPTIONS`) : 152 devises au 18/09/2026 (EUR + toutes les devises des pays
+couverts, les mêmes que les clés de `BUDGET_PRICE_MAX` dans `public/js/trip-data.js`), un nouveau pays avec une nouvelle devise y apparaît automatiquement.
 Chaque entrée affiche son vrai symbole/abréviation d'usage courant (`CURRENCY_GLYPH`, ex. « CZK Kč »,
 « RSD дин. ») en plus du code ISO — un symbole SEUL resterait ambigu pour les trois couronnes
 nordiques qui partagent toutes « kr » (DKK/NOK/SEK) ou pour BAM/CHF, d'où le code toujours présent à
@@ -5124,7 +5243,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 ## Sources des données
 
 - Communes françaises : [geo.api.gouv.fr](https://geo.api.gouv.fr) (IGN / Etalab, licence ouverte).
-- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes/marocaines/algériennes/tunisiennes/sahraouies/mauritaniennes/maliennes/sénégalaises/gambiennes/capverdiennes/guinéennes/bissau-guinéennes/sierra-léonaises/libériennes/burkinabè/ivoiriennes/ghanéennes/togolaises/nigériennes/béninoises/nigérianes/tchadiennes/centrafricaines/soudanaises/sud-soudanaises/érythréennes/éthiopiennes/djiboutiennes/somaliennes/kényanes/ougandaises/tanzaniennes/rwandaises/burundaises/congolaises/gabonaises/équato-guinéennes/santoméennes/angolaises/zambiennes/malawites/mozambicaines/zimbabwéennes/botswanaises/namibiennes/sud-africaines/eswatiniennes/lésothiennes/comoriennes/malgaches/mauriciennes/seychelloises/camerounaises, de Sainte-Hélène, d'Ascension, de Tristan da Cunha et des Terres australes et antarctiques françaises/russes/du Svalbard et de Jan Mayen/saoudiennes/bahreïniennes/émiriennes/irakiennes/iraniennes/koweïtiennes/omanaises/qatariennes/yéménites : [GeoNames](https://www.geonames.org)
+- Communes andorranes/espagnoles/portugaises/belges/néerlandaises/luxembourgeoises/suisses/allemandes/italiennes/autrichiennes/saint-marinaises/liechtensteinoises/monégasques/maltaises/guernesiaises/jersiaises/tchèques/polonaises/slovaques/hongroises/slovènes/croates/bosniennes/britanniques/irlandaises/mannoises/danoises/norvégiennes/suédoises/finlandaises/ålandaises/albanaises/serbes/macédoniennes/bulgares/roumaines/lettonnes/lituaniennes/estoniennes/vaticanes/islandaises/féroïennes/gibraltariennes/moldaves/biélorusses/ukrainiennes/turques/monténégrines/kosovares/grecques/géorgiennes/arméniennes/azerbaïdjanaises/syriennes/chypriotes/libanaises/israéliennes/palestiniennes/jordaniennes/égyptiennes/libyennes/marocaines/algériennes/tunisiennes/sahraouies/mauritaniennes/maliennes/sénégalaises/gambiennes/capverdiennes/guinéennes/bissau-guinéennes/sierra-léonaises/libériennes/burkinabè/ivoiriennes/ghanéennes/togolaises/nigériennes/béninoises/nigérianes/tchadiennes/centrafricaines/soudanaises/sud-soudanaises/érythréennes/éthiopiennes/djiboutiennes/somaliennes/kényanes/ougandaises/tanzaniennes/rwandaises/burundaises/congolaises/gabonaises/équato-guinéennes/santoméennes/angolaises/zambiennes/malawites/mozambicaines/zimbabwéennes/botswanaises/namibiennes/sud-africaines/eswatiniennes/lésothiennes/comoriennes/malgaches/mauriciennes/seychelloises/camerounaises, de Sainte-Hélène, d'Ascension, de Tristan da Cunha et des Terres australes et antarctiques françaises/russes/du Svalbard et de Jan Mayen/saoudiennes/bahreïniennes/émiriennes/irakiennes/iraniennes/koweïtiennes/omanaises/qatariennes/yéménites/afghanes/kazakhes/kirghizes/ouzbèkes/tadjikes/turkmènes/bangladaises/bhoutanaises/indiennes/maldiviennes/népalaises/pakistanaises/srilankaises, du Territoire britannique de l'océan Indien/chinoises/hongkongaises/macanaises/nord-coréennes/sud-coréennes/japonaises/mongoles/taïwanaises/brunéiennes/cambodgiennes/indonésiennes/laotiennes/malaisiennes/birmanes/philippines/singapouriennes/thaïlandaises/est-timoraises/vietnamiennes, de l'île Christmas et des îles Cocos (`scripts/build-asie-communes.js`)/australiennes/néo-zélandaises/papouasiennes/salomonaises/vanuataises/fidjiennes/samoanes/tonguiennes/tuvaluanes/kiribatiennes/nauruanes/marshallaises/micronésiennes/paluanes/niuéennes/cookiennes/tokelauanes/guamiennes/mariannaises/samoanes américaines, des îles mineures éloignées des États-Unis, de Pitcairn, de l'île Norfolk et des îles Heard-et-MacDonald (`scripts/build-oceanie-communes.js`)/états-uniennes/canadiennes/mexicaines/groenlandaises/bermudiennes/guatémaltèques/béliziennes/salvadoriennes/honduriennes/nicaraguayennes/costaricaines/panaméennes/cubaines/jamaïcaines/haïtiennes/dominicaines/bahaméennes/kittitiennes/antiguaises/dominiquaises/saint-luciennes/vincentaises/barbadiennes/grenadiennes/trinidadiennes/portoricaines, des îles Vierges américaines et britanniques, des îles Turques-et-Caïques et Caïmans, d'Anguilla, de Montserrat, d'Aruba, de Curaçao, de Sint Maarten et des Pays-Bas caribéens/colombiennes/vénézuéliennes/guyaniennes/surinamaises/équatoriennes/péruviennes/boliviennes/brésiliennes/paraguayennes/uruguayennes/argentines/chiliennes, des Malouines et de la Géorgie du Sud-et-les îles Sandwich du Sud (`scripts/build-ameriques-communes.js`), bases scientifiques de l'Antarctique et île Bouvet (`scripts/build-antarctique-communes.js`) : [GeoNames](https://www.geonames.org)
   (licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)) — voir "Pays couverts" ci-dessus.
 - Codes postaux géorgiens (absents de GeoNames pour ce pays, voir "Pays couverts") : annuaire tiers
   [yell.ge](https://www.yell.ge) — PAS une source officielle ni sous licence ouverte explicite, choix

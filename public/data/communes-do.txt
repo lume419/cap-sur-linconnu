@@ -1592,7 +1592,6 @@
 0;-69.3354,19.2155;DO-20;Samaná;María Luisa
 0;-70.0667,19.1667;DO-06;Duarte Province;María Hernández
 0;-71.2710,19.4745;DO-26;Santiago Rodríguez;María García
-0;-71.8833,19.4333;DO-12;La Romana;María Bonita
 0;-70.0683,18.7997;DO-32;Monte Plata Province;Marcelo
 0;-69.5101,18.5080;DO-24;San Pedro de Macorís;Marantillo
 0;-71.0833,19.5333;DO-27;Valverde Province;Mao Adentro

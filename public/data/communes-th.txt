@@ -257,7 +257,6 @@
 0;98.7333,19.3833;TH-02;Chiang Mai;Ban Wang Masiu
 0;99.3500,7.6833;TH-65;Trang;Ban Wang Maprang
 0;99.7879,12.8249;TH-56;Phetchaburi;Ban Wang Malako
-0;98.0058,17.0860;TH-08;Tak;Ban Noe Khi
 0;99.4559,16.7350;TH-11;Kamphaeng Phet;Ban Na Wang Mai Daeng
 0;99.7888,8.5944;TH-64;Nakhon Si Thammarat;Ban Wang Lung
 0;99.7641,17.7641;TH-07;Phrae;Ban Wang Luek
@@ -8266,7 +8265,6 @@
 0;99.9181,18.0442;TH-07;Phrae;Ban Pak Ta
 0;99.8547,18.0147;TH-07;Phrae;Ban Pa Noi
 0;99.9469,18.0231;TH-07;Phrae;Ban Wang Ngoen
-0;96.6458,16.9156;TH-17;Nong Khai;Pyinmagon
 0;99.9430,15.9877;TH-16;Nakhon Sawan;Ban Dong Pa Chan Song
 0;99.9803,15.9694;TH-16;Nakhon Sawan;Ban Nong Wa
 0;99.9605,15.9433;TH-16;Nakhon Sawan;Ban Ta Sang Tai Song

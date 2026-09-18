@@ -929,7 +929,7 @@ gd;Bàgh a'Chaisteil;Castlebay
 gd;Caisteal Tarrais;Carstairs
 gd;An Còrsa Feàrna;Carsphairn
 ga;Ceathrú Aodha Dhuibh;Carryduff
-gd;Cair Ruairidh.;Carrutherstown
+gd;Cair Ruairidh;Carrutherstown
 ga;Carraig Fhearghais;Carrickfergus
 gd;Drochaid Chàrr;Carrbridge
 ga;Carn tSiadhail;Carnteel
@@ -6569,7 +6569,7 @@ az;Klaydbank;Clydebank
 fa;کلایدبنک;Clydebank
 zh;克萊德班克;Clydebank
 ru;Клайдбанк;Clydebank
-fa;کلون،;Clun
+fa;کلون;Clun
 ar;كليذرو;Clitheroe
 fa;کلیترو;Clitheroe
 bg;Клийвдън;Clevedon
@@ -8361,7 +8361,7 @@ fa;ردول، بدفوردشر;Radwell
 ja;シンフィン;Sinfin
 ja;リベル;Riber
 ja;サウス・ウィールド;South Weald
-he;דרום וילד‏;South Weald
+he;דרום וילד;South Weald
 ja;ゲートエイカー;Gateacre
 ru;Харперхей;Harpurhey
 hy;Հարփերհեյ;Harpurhey

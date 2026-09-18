@@ -253631,7 +253631,6 @@ zh;卢寨湾;Luzhaiwan
 zh;上漫龙;Shangmanlong
 zh;马老场;Malaochang
 zh;阿咪笼;Amilong
-zh;无名?;Wuming?
 zh;乌龟滩;Wuguitan
 zh;哈尼田;Hanitian
 zh;长岭岗苗寨;Changlinggang Miaozhai
@@ -273278,7 +273277,6 @@ zh;观音庙沟;Guanyinmiaogou
 zh;高门坎;Gaomenkan
 zh;阮家堰;Ruanjiayan
 zh;保安院;Bao’anyuan
-zh;?江;Qijiang
 zh;东梁寨;Dongliangzhaicun
 zh;东梁寨村;Dongliangzhaicun
 zh;三洞桥;Sandongqiaocun
@@ -273906,7 +273904,6 @@ zh;禹山寺村;Yushansicun
 zh;蒲马院;Pumayuan
 zh;板桥堰;Banqiaoyan
 zh;仙泥坡;Xiannipo
-zh;天?观;Tianyouguan
 zh;万洞桥;Wandongqiaocun
 zh;万洞桥村;Wandongqiaocun
 zh;练山湾;Lianshanwancun
@@ -348287,7 +348284,6 @@ zh;尖赤狭;Jianchixia
 zh;豆腐坑;Doufukeng
 zh;大铺坑;Dapukeng
 zh;茶圩;Chaxu
-en;Lo Lin Tan;Liulintan (historical)
 zh;樟二村;Zhang’ercun
 zh;上珠坂;Shangzhuban
 zh;上珠畈;Shangzhuban

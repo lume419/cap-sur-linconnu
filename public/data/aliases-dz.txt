@@ -277,7 +277,6 @@ ar;مشتة الركادة;Mechta Reggada
 ar;مشتة الرقادة;Mechta Reggada
 ar;مشتة أولاد الهادف;Mechta Ouled el Hadef
 ar;مازر;Mazzer
-ar;معسكر‎;Mascara
 de;Muaskar;Mascara
 es;Muaskar;Mascara
 ar;معسكر;Mascara
@@ -349,7 +348,7 @@ ar;فرعون;Feraoun
 ar;فنوغيل;Fenoughil
 ar;فاتيس;Fatis
 ru;Фатис;Fatis
-ar;السانية‎;Es Senia
+ar;السانية;Es Senia
 de;As-Sāniyya;Es Senia
 ar;النديد;Ennedid
 ar;الطارف;El Tarf
@@ -614,7 +613,6 @@ ru;Айн-эль-Мельх;’Aïn el Melh
 ru;Айн-эль-Хаммам;’Aïn el Hammam
 ru;Айн-эль-Белла;’Aïn el Bell
 ru;Айн-эль-Арбаа;Aïn el Arbaa
-ar;عين الدفلى‎;Aïn Defla
 ar;عين الدفلى;Aïn Defla
 ar;عين الدفلة;Aïn Defla
 en;Ain Defla;Aïn Defla

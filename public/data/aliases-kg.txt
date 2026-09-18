@@ -998,7 +998,6 @@ uz;Madi;Kurbantal-Mady
 fa;مدی;Kurbantal-Mady
 ru;Черик;Cherik
 ky;Черик;Cherik
-ru;Кум-Бел;Kum-Bel’ (not a PPL, delete?)
 ru;Gëlëgën;Gologon
 ru;Гёлёгён;Gologon
 ky;Гөлөгөн;Gologon
@@ -1601,7 +1600,6 @@ ky;Чычкан;Chychkan
 ru;Жениш;Chychkan
 ru;Чукурчак;Chukurchak
 ky;Чукурчак;Chukurchak
-ru;Чукур (Онлы Фиелдс... Делете?);Chukur (only fields... delete?)
 ru;Чёкё-Дёбё;Chëkë-Dëbë
 ky;Чөкө-Дөбө;Chëkë-Dëbë
 ru;Чет-Нура;Chet-Nura
@@ -1719,7 +1717,6 @@ ky;Бурана;Burana
 ru;Бурачаты;Burachaty
 ru;Бума;Buma
 ky;Бума;Buma
-ru;Булак;Bulak (Bulak = Source/Water, not inhabited, delete?)
 ru;Чатбазар;Chatbazar
 ky;Чат-Базар;Chatbazar
 ru;Боз-Бешик;Boz-Beshik

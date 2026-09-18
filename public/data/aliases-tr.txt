@@ -5621,7 +5621,7 @@ mrj;Урла;Urla
 ur;اورلا، ازمیر;Urla
 tk;Urfa;Şanlıurfa
 id;Sanli Urfa;Şanlıurfa
-ku;Riha‎;Şanlıurfa
+ku;Riha;Şanlıurfa
 am;Ուռհա;Şanlıurfa
 ar;شانلي أورفة;Şanlıurfa
 kk;Шанлыурфа;Şanlıurfa
@@ -6557,7 +6557,7 @@ tt;Велиҗанлы;Velicanlı
 ce;Велиджанли;Velicanlı
 fa;ولیکنلی، کزن;Velicanlı
 hy;Բերկրի;Muradiye
-ku;Bêgirî‎;Muradiye
+ku;Bêgirî;Muradiye
 ku;Paxanîk;Ağaçsaray
 ar;موغلا;Muğla
 fa;موغله;Muğla
@@ -8982,7 +8982,6 @@ fa;چاتال‌پینار;Çatalpınar
 tt;Чаталһөюк;Çatalhüyük
 ce;ЧаталхӀоьйуьк;Çatalhüyük
 fa;چاتال‌هویوک;Çatalhüyük
-he;Çatalhüyük”.;Çatalhüyük
 ku;Nîç;Çatalerik
 tt;Чаталчешме;Çatalçeşme
 ce;Чаталчешме;Çatalçeşme
@@ -9676,7 +9675,7 @@ ar;نتاكيّة;Antakya
 ar;أنطاكية;Antakya
 he;אנטיוכיה;Antakya
 ja;アンティオケイア;Antakya
-ar;انطاكيا‎;Antakya
+ar;انطاكيا;Antakya
 kk;Антакия;Antakya
 uz;Antakiya;Antakya
 ky;Антакия;Antakya
@@ -11749,7 +11748,6 @@ ce;БахӀчекоьй;Bahçeköy
 ja;バフチェキョイ;Bahçeköy
 ur;باہچےکوئے، سارییر;Bahçeköy
 tt;Бахчекөй;Bahçeköy
-uz;Bahçeköy,;Bahçeköy
 tt;Батча;Batça
 ce;Батча;Batça
 tt;Баһчеконак;Bahçekonak
@@ -11959,7 +11957,6 @@ ce;Акчакесе;Akçakese
 fa;اکساکس، گودول;Akçakese
 tt;Акчаалан;Akçaalan
 ce;Акчаалан;Akçaalan
-uz;Akçaalan,;Akçaalan
 fa;اکساالان، بالو;Akçaalan
 hy;Աբրանց;Akbulut
 hy;Աբրանիս;Akbulut

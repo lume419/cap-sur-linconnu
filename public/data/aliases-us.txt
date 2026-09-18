@@ -1118,7 +1118,6 @@ ja;スノー・ヒル;Snow Hill
 zh;雪山;Snow Hill
 ar;سومرفيل;Somerville
 zh;萨默维尔;Somerville
-en;South Florence;South Florence (historical)
 ar;سبانيش فورت;Spanish Fort
 zh;西班牙堡;Spanish Fort
 ru;Спаниш Форт;Spanish Fort
@@ -3261,7 +3260,7 @@ zh;匹尔斯堡;Fort Pierce
 ru;Форт Пирс;Fort Pierce
 ar;فورت والتون بيتش;Fort Walton Beach
 zh;华尔顿堡滩;Fort Walton Beach
-ru;Форт-Уолтон-Бич‎;Fort Walton Beach
+ru;Форт-Уолтон-Бич;Fort Walton Beach
 zh-Hant;華爾頓堡灘;Fort Walton Beach
 ko;포트월턴비치;Fort Walton Beach
 ja;フォートウォルトンビーチ;Fort Walton Beach
@@ -14069,9 +14068,6 @@ ja;アレン;Allen
 ko;앨런;Allen
 ar;اليتون;Alleyton
 ar;ألطون;Alton
-pt;Alton North;Alton North (historical)
-ht;Alton North;Alton North (historical)
-nl;Alton North;Alton North (historical)
 ar;ألفارادو;Alvarado
 ja;アルバラード;Alvarado
 ru;Алверейдо;Alvarado
@@ -15408,12 +15404,6 @@ ar;سوان;Swan
 ko;스위니;Sweeny
 ar;سويني;Sweeny
 ar;تافت;Taft
-de;Taft Southwest;Taft Southwest (historical)
-pt;Taft Southwest;Taft Southwest (historical)
-ht;Taft Southwest;Taft Southwest (historical)
-fr;Taft Southwest;Taft Southwest (historical)
-es;Taft Southwest;Taft Southwest (historical)
-nl;Taft Southwest;Taft Southwest (historical)
 ar;تالكو;Talco
 ar;تاتوم;Tatum
 ru;Тейтум;Tatum
@@ -23117,7 +23107,6 @@ zh;韦扎塔，明尼苏达州;Wayzata
 ja;ワイゼタ;Wayzata
 ar;ويلكم;Welcome
 ru;Уэлком;Welcome
-de;‎Welcome;Welcome
 zh;韋爾斯;Wells
 ar;ويلز;Wells
 ru;Уэнделл;Wendell
@@ -36877,7 +36866,6 @@ ru;Ист-Лейк-Ориент-Парк;East Lake-Orient Park
 zh;東湖-奧里恩特公園;East Lake-Orient Park
 ru;Ист-Уиллистон;East Williston
 zh;東威利斯頓;East Williston
-en;Fort Benning South CDP;Fort Benning South  (historical)
 zh;北坎貝爾堡;Fort Campbell North
 ar;فورت كامبل نورث;Fort Campbell North
 en;Ft Campbell;Fort Campbell North
@@ -65259,10 +65247,6 @@ fa;الیتون، تگزاس;Alleyton
 fa;التایر، تگزاس;Altair
 ur;الٹن، ٹیکساس;Alton
 fa;آلتن;Alton
-ceb;Alton North;Alton North (historical)
-hr;Alton North;Alton North (historical)
-fa;شمال التون، تگزاس;Alton North (historical)
-ca;Alton North;Alton North (historical)
 tt;Алверейдо;Alvarado
 uk;Алверейдо;Alvarado
 sr;Алварејдо;Alvarado
@@ -68726,19 +68710,6 @@ sr;Свини;Sweeny
 ce;Свини;Sweeny
 fa;سوینی، تگزاس;Sweeny
 fa;تفت، تگزاس;Taft
-tt;Тафт-Саутвест;Taft Southwest (historical)
-ceb;Taft Southwest;Taft Southwest (historical)
-ce;Тафт-Саутвест;Taft Southwest (historical)
-lld;Taft Southwest;Taft Southwest (historical)
-hr;Taft Southwest;Taft Southwest (historical)
-eu;Taft Southwest;Taft Southwest (historical)
-vi;Taft Southwest;Taft Southwest (historical)
-uk;Тафт-Саутвест;Taft Southwest (historical)
-ga;Taft Southwest;Taft Southwest (historical)
-fa;تافت ساوتوست;Taft Southwest (historical)
-pl;Taft Southwest;Taft Southwest (historical)
-ca;Taft Southwest;Taft Southwest (historical)
-sr;Тафт Саутвест;Taft Southwest (historical)
 tt;Талко;Talco
 uk;Талко;Talco
 sr;Талко;Talco
@@ -119680,7 +119651,7 @@ ce;Гиллсборо-Пайнс;Hillsboro Pines
 fa;هیلزبورو پاینز;Hillsboro Pines
 fa;لیژورویل;Leisureville
 fa;لاک لوموند;Loch Lomond
-fa;اوک پوینت،;Oak Point
+fa;اوک پوینت;Oak Point
 fa;پامپانو استیتس;Pompano Estates
 he;פומפאנו אסטייטס;Pompano Estates
 fa;ریونزوود استیتس;Ravenswood Estates

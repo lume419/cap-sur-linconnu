@@ -1,8 +1,12 @@
+fr;Dirck Gerritsz Laboratory;Rothera Research Station
 fr;SANAE IV;SANAE IV Station
+fr;Carlini Base;Jubany
+fr;Dallmann Laboratory;Jubany
 fr;Neumayer Station;Neumayer Station III
 fr;O Higgins;Base General Bernardo O'Higgins Riquelme
 fr;GARS-O'Higgins;Base General Bernardo O'Higgins Riquelme
 fr;Bernardo O'Higgins Station;Base General Bernardo O'Higgins Riquelme
+fr;German Antarctic Receiving Station;Base General Bernardo O'Higgins Riquelme
 fr;Progress 2 Station;Progress Station
 fr;Palmer;Palmer Station
 fr;Machu Picchu Research Station;Machu Picchu Base
@@ -13,8 +17,22 @@ fr;Law-Racovita Station;Law-Racoviță-Negoiță Station
 fr;Law - Racovita Station;Law-Racoviță-Negoiță Station
 fr;Faraday;Akademik Vernadsky Station
 fr;Vernadsky Station;Akademik Vernadsky Station
+fr;Vernadsky Research Base;Akademik Vernadsky Station
+fr;Brown Station;Almirante Brown Antarctic Base
+fr;General Artigas;Artigas
+fr;Belgrano II Base;Belgrano II
+fr;Arturo Prat Base;Captain Arturo Prat base
 fr;Commandante Ferraz Station;Comandante Ferraz Brazilian Antarctic Base
+fr;Comandante Ferraz;Comandante Ferraz Brazilian Antarctic Base
+fr;Gabriel de Castilla Base;Gabriel de Castilla Spanish Antarctic Station
+fr;Arctowski Station;Henryk Arctowski Polish Antarctic Station
+fr;Mendel Polar Station;J.G. Mendel Czech Antarctic Station
+fr;Juan Carlos I Antarctic Base;Juan Carlos I Spanish Antarctic Station
+fr;Maldonado Base;Maldonado Station
+fr;Marambio Base;Marambio Station
 fr;Escudero Station;Professor Julio Escudero base
+fr;Julio Escudero Station;Professor Julio Escudero base
+fr;San Martín Base;San Martín Station
 de;Amundsen-Scott-Südpolstation;Amundsen-Scott South Pole Station
 es;Base Amundsen-Scott;Amundsen-Scott South Pole Station
 pl;Amundsen-Scott;Amundsen-Scott South Pole Station
@@ -227,7 +245,6 @@ ja;ハリ;Halley Research Station
 en;Henryk Arctowski Polish Antarctic Station (Poland);Henryk Arctowski Polish Antarctic Station
 no;Henryk Arctowski-stasjonen (Polen);Henryk Arctowski Polish Antarctic Station
 no;Henryk Arctowski-stasjonen;Henryk Arctowski Polish Antarctic Station
-fr;Arctowski Station;Henryk Arctowski Polish Antarctic Station
 fr;Arctowski /Pol./;Henryk Arctowski Polish Antarctic Station
 en;Jinnah Antarctic Station (Pakistan);Jinnah Antarctic Station
 no;Jinnah-stasjonen (Pakistan);Jinnah Antarctic Station
@@ -782,3 +799,307 @@ pt;Estação de Pesquisas Machu Picchu;Machu Picchu Base
 fr;Concordia;Concordia Station
 fr;Base Antarctique Concordia;Concordia Station
 de;Station Dome Concordia;Concordia Station
+es;Base Orcadas;Orcadas Base
+zh-CN;奥尔卡达斯站;Orcadas Base
+mk;База Оркадас;Orcadas Base
+mk;Оркадас;Orcadas Base
+lv;Orkadasa;Orcadas Base
+tr;Orcadas Üssü;Orcadas Base
+eo;Stacio Orcadas;Orcadas Base
+fr;Base Antarctique Orcadas;Orcadas Base
+el;Βάση Ορκάδας;Orcadas Base
+it;Distaccamento navale Orcadas;Orcadas Base
+hu;Orcadas kutatóállomás;Orcadas Base
+nn;Orcadas-Basen;Orcadas Base
+ro;Baza Orcadas;Orcadas Base
+ko;오르카다스 기지;Orcadas Base
+id;Pangkalan Orkadas;Orcadas Base
+en;Orcadas;Orcadas Base
+pl;Stacja Badawcza Antarktyczna Arctowskiego;Henryk Arctowski Polish Antarctic Station
+pl;Stacja Antarktyczna Arctowskiego;Henryk Arctowski Polish Antarctic Station
+pl;Polska Stacja Antarktyczna im. Henryka Arctowskiego;Henryk Arctowski Polish Antarctic Station
+en;Henryk Arctowski Station;Henryk Arctowski Polish Antarctic Station
+en;Arctowski;Henryk Arctowski Polish Antarctic Station
+ru;Арцтовский;Henryk Arctowski Polish Antarctic Station
+uk;Арцтовський;Henryk Arctowski Polish Antarctic Station
+de;Arctowski-Station;Henryk Arctowski Polish Antarctic Station
+en;Henryk Arctowski;Henryk Arctowski Polish Antarctic Station
+fr;Base Antarctique Arctowski;Henryk Arctowski Polish Antarctic Station
+ar;محطة هنريك أركتوسكي;Henryk Arctowski Polish Antarctic Station
+es;Base Henryk Arctowski;Henryk Arctowski Polish Antarctic Station
+it;Stazione antartica polacca Henryk Arctowski;Henryk Arctowski Polish Antarctic Station
+lv;Arctovski;Henryk Arctowski Polish Antarctic Station
+nn;Henryk Arctowski-Stasjonen;Henryk Arctowski Polish Antarctic Station
+pt;Estação Antártica Polaca Henryk Arctowski;Henryk Arctowski Polish Antarctic Station
+fi;Henryk Arctowskin tutkimusasema;Henryk Arctowski Polish Antarctic Station
+es;Base General Artigas;Artigas
+es;Base Antártica General Artigas;Artigas
+pt-BR;Base Antártica General Artigas;Artigas
+ru;Артигас;Artigas
+uk;Артігас;Artigas
+de;Base Científica Antártica Artigas;Artigas
+it;Base Artigas;Artigas
+hr;Istraživačka baza Artigas;Artigas
+lv;Artigasa;Artigas
+ne;Artigas-Basis;Artigas
+nn;Artigas-Basen;Artigas
+es;Base Antártica Capitán Arturo Prat;Captain Arturo Prat base
+mk;База Капетан Артуро Прат;Captain Arturo Prat base
+mk;Капетан Артуро Прат;Captain Arturo Prat base
+es;Base Capitán Arturo Prat;Captain Arturo Prat base
+es;Capitán Arturo Prat;Captain Arturo Prat base
+de;Arturo-Prat0-Station;Captain Arturo Prat base
+fr;Base Navale Capitán Arturo Prat;Captain Arturo Prat base
+en;Captain Arturo Prat;Captain Arturo Prat base
+es;Base Belgrano II;Belgrano II
+ar;محطة الجنرال بلغرانو 2;Belgrano II
+ru;Бельграно II;Belgrano II
+el;Βάση Μπελγράνο II;Belgrano II
+de;Belgrano-II-Station;Belgrano II
+fr;Base Antarctique Belgrano II;Belgrano II
+it;Base dell'esercito generale Belgrano II;Belgrano II
+hu;Belgrano II kutatóállomás;Belgrano II
+nn;Belgrano II-basen;Belgrano II
+fi;General Belgrano II;Belgrano II
+ru;Беллинсгаузен;Bellingshausen Station
+en;Bellingshouse;Bellingshausen Station
+de;Bellinghausen;Bellingshausen Station
+zh-CN;别林斯高晋站;Bellingshausen Station
+en;Bellingshausen Base;Bellingshausen Station
+es;Base Bellingshausen;Bellingshausen Station
+fr;Base Antarctique Bellingshausen;Bellingshausen Station
+pt;Estação Bellingshausen;Bellingshausen Station
+nl;Station Bellingshausen;Bellingshausen Station
+bg;Белингсхаузен;Bellingshausen Station
+uk;Беллінсгаузен;Bellingshausen Station
+cv;Беллинсгаузен;Bellingshausen Station
+az;Bellinshauzen;Bellingshausen Station
+de;Bellingshausen-Station;Bellingshausen Station
+it;Stazione Bellingshausen;Bellingshausen Station
+lv;Belinshauzena;Bellingshausen Station
+lt;Belinshauzeno stotis;Bellingshausen Station
+nn;Bellingshausen-stasjonen;Bellingshausen Station
+tr;Bellingshausen İstasyonu;Bellingshausen Station
+ar;محطة بيلينغسهاوزن;Bellingshausen Station
+ja;ベリングスハウゼン;Bellingshausen Station
+en;Bellingshausen;Bellingshausen Station
+es;Base Carlini;Jubany
+en;Carlini Base;Jubany
+fr;Base Antarctique Carlini;Jubany
+mk;База Карлини;Jubany
+mk;Карлини;Jubany
+de;Carlini-Station;Jubany
+it;Stazione Carlini;Jubany
+lv;Karlini;Jubany
+lij;Bâze Carlini;Jubany
+hu;Carlini kutatóállomás;Jubany
+nn;Carlini-Stasjonen;Jubany
+en;Carlini;Jubany
+pt-BR;Estação Antártica Comandante Ferraz;Comandante Ferraz Brazilian Antarctic Base
+ar;محطة القائد فيراز;Comandante Ferraz Brazilian Antarctic Base
+ru;Команданте Феррас;Comandante Ferraz Brazilian Antarctic Base
+ja;コマンダンテ・フェラス;Comandante Ferraz Brazilian Antarctic Base
+uk;Команданте Ферраз;Comandante Ferraz Brazilian Antarctic Base
+lv;Komandanteferrasa;Comandante Ferraz Brazilian Antarctic Base
+it;Stazione Antarctica Comandante Ferraz;Comandante Ferraz Brazilian Antarctic Base
+mk;Командант Фераз;Comandante Ferraz Brazilian Antarctic Base
+mk;Антарктичката станица Командант Фераз;Comandante Ferraz Brazilian Antarctic Base
+tr;Comandante Ferraz Antarktika İstasyonu;Comandante Ferraz Brazilian Antarctic Base
+az;Komandante Ferras;Comandante Ferraz Brazilian Antarctic Base
+es;Base Comandante Ferraz;Comandante Ferraz Brazilian Antarctic Base
+nn;Comandante Ferraz-Basen;Comandante Ferraz Brazilian Antarctic Base
+cs;Výzkumná stanice Eco Nelson;Eco-Nelson
+en;CZ*ECO Nelson;Eco-Nelson
+en;Eco Nelson;Eco-Nelson
+es;Base Eco Nelson;Eco-Nelson
+lv;Ekonelsona;Eco-Nelson
+es;Base Julio Escudero;Professor Julio Escudero base
+es;Profesor Julio Escudero Base;Professor Julio Escudero base
+en;Professor Julio Escudero Antarctic Base;Professor Julio Escudero base
+en;Julio Escudero Station;Professor Julio Escudero base
+uk;Професор Хуліо Ескудеро;Professor Julio Escudero base
+es;Base Professor Julio Escudero;Professor Julio Escudero base
+lv;Hulioeskudero;Professor Julio Escudero base
+nn;Profesor Julio Escudero-basen;Professor Julio Escudero base
+en;Julio Escudero;Professor Julio Escudero base
+en;Great Wall;Great Wall Station
+zh-CH;长城南极站;Great Wall Station
+zh-Hant;長城南極站;Great Wall Station
+mk;Антарктички Голем Ѕид;Great Wall Station
+mk;Станица Антарктички Голем Ѕид;Great Wall Station
+uk;Великий мур;Great Wall Station
+fr;Grande Muraille;Great Wall Station
+es;Gran Muralla;Great Wall Station
+it;Grande Muraglia;Great Wall Station
+en;San Martin Base;San Martín Station
+es;Base San Martín;San Martín Station
+es;Base San Martin;San Martín Station
+uk;Сан-Мартін;San Martín Station
+mk;Сан Мартин;San Martín Station
+lv;Sanmartina;San Martín Station
+fr;Base Antarctique San Martin;San Martín Station
+it;Base dell'esercito generale San Martín;San Martín Station
+nn;San Martin-Basen;San Martín Station
+en;San Martin;San Martín Station
+en;GARS-O'Higgins;Base General Bernardo O'Higgins Riquelme
+es;Estación Alemana de Recepción Antártica;Base General Bernardo O'Higgins Riquelme
+en;Vernadsky;Akademik Vernadsky Station
+en;Vernadsky Base;Akademik Vernadsky Station
+fa;پایگاه پژوهشی ورندسکی;Akademik Vernadsky Station
+es;Base Vernadski;Akademik Vernadsky Station
+fr;Base antarctique Akademik-Vernadsky;Akademik Vernadsky Station
+pt;Estação Akademik Vernadsky;Akademik Vernadsky Station
+fr;Akademik Vernadsky;Akademik Vernadsky Station
+uk;Академік Вернадський;Akademik Vernadsky Station
+ru;Академик Вернадский;Akademik Vernadsky Station
+ar;محطة فيرنادسكي;Akademik Vernadsky Station
+ja;ベルナツキー基地;Akademik Vernadsky Station
+ja;ベルナツキ;Akademik Vernadsky Station
+be;Акадэмік Вярнадскі;Akademik Vernadsky Station
+lv;Vernadska;Akademik Vernadsky Station
+mk;Вернадски;Akademik Vernadsky Station
+tr;Akademik Vernadski;Akademik Vernadsky Station
+de;Wernadski-Station;Akademik Vernadsky Station
+it;Base di ricerca Vernads'kyj;Akademik Vernadsky Station
+no;Vernadskij;Akademik Vernadsky Station
+nn;Vernadskij-stasjonen;Akademik Vernadsky Station
+pl;Wiernadski;Akademik Vernadsky Station
+sl;Raziskovalna baza Vernadski;Akademik Vernadsky Station
+hy;Ակադեմիկոս Վերնադսկի;Akademik Vernadsky Station
+id;Pangkalan Penelitian Vernadsky;Akademik Vernadsky Station
+en;Marambio;Marambio Station
+fr;Base Antarctique Marambio;Marambio Station
+fa;پایگاه هوایی مارامبیو;Marambio Station
+mk;Марамбио;Marambio Station
+uk;Марамбіо;Marambio Station
+fa;ایستگاه سجونگ کبیر;King Sejong Station
+fr;Base Antarctique Du Roi Sejong;King Sejong Station
+zh-CN;世宗科學基地;King Sejong Station
+ko;세종과학기지;King Sejong Station
+pt;Estação Rei Sejong;King Sejong Station
+uk;Король Седжон;King Sejong Station
+lv;Sedžona;King Sejong Station
+it;Base Scientifica Sejong;King Sejong Station
+es;Base Rey Sejong;King Sejong Station
+nn;King Sejong-stasjonen;King Sejong Station
+en;King Sejong;King Sejong Station
+ar;محطة الأميرال براون;Almirante Brown Antarctic Base
+uk;Браун;Almirante Brown Antarctic Base
+eu;Brown Basea;Almirante Brown Antarctic Base
+es;Base Brown;Almirante Brown Antarctic Base
+es;Estación Científica Almirante Brown;Almirante Brown Antarctic Base
+es;Estación Brown;Almirante Brown Antarctic Base
+en;Brown;Almirante Brown Antarctic Base
+fr;Almirante Brown;Almirante Brown Antarctic Base
+fr;Base Antarctique Almirante-Brown;Almirante Brown Antarctic Base
+pt;Base Antártica Almirante Brown;Almirante Brown Antarctic Base
+it;Base ammiraglio Brown;Almirante Brown Antarctic Base
+lv;Brauna;Almirante Brown Antarctic Base
+hu;Brown kutatóállomás;Almirante Brown Antarctic Base
+nl;Antarctische basis Almirante Brown;Almirante Brown Antarctic Base
+nn;Almirante Brown-basen;Almirante Brown Antarctic Base
+en;Camara;Camara Base
+es;Cámara Base;Camara Base
+en;Cámara;Camara Base
+es;Base Cámara;Camara Base
+lv;Kamara;Camara Base
+hu;Cámara kutatóállomás;Camara Base
+nn;Cámara-basen;Camara Base
+es;Teniente Luis Carvajal Villaroel;Teniente Luis Carvajal Villaroel Antarctic Base
+es;Base Carvajal;Teniente Luis Carvajal Villaroel Antarctic Base
+en;Carvajal;Teniente Luis Carvajal Villaroel Antarctic Base
+es;Teniente Carvajal;Teniente Luis Carvajal Villaroel Antarctic Base
+it;Base tenente Luis Carvajal Villaroel;Teniente Luis Carvajal Villaroel Antarctic Base
+lv;Karvahala;Teniente Luis Carvajal Villaroel Antarctic Base
+nn;Teniente Luis Carvajal Villaroel-basen;Teniente Luis Carvajal Villaroel Antarctic Base
+de;Dallmann-Labor;Jubany
+en;Dallman;Jubany
+es;Laboratorio Dallmann;Jubany
+lv;Dalmana;Jubany
+en;Deception;Deception Station
+es;Base Decepción;Deception Station
+mk;Дисепшен;Deception Station
+lv;Desepsjona;Deception Station
+hu;Decepción kutatóállomás;Deception Station
+es;Decepción;Deception Station
+en;Dirck Gerritsz;Rothera Research Station
+nl;Dirck Gerritszlaboratorium;Rothera Research Station
+es;Laboratorio Dirck Gerritsz;Rothera Research Station
+es;Estación Científica Antártica Ruperto Elichiribehety;Ruperto Elichiribehety Antarctic Scientific Station
+en;Ruperto Elichiribehety;Ruperto Elichiribehety Antarctic Scientific Station
+en;Elichiribehety;Ruperto Elichiribehety Antarctic Scientific Station
+mk;Антарктичката научна станица Руперто Еличирибехети;Ruperto Elichiribehety Antarctic Scientific Station
+mk;Руперто Еличирибехети;Ruperto Elichiribehety Antarctic Scientific Station
+mk;Еличирибехети;Ruperto Elichiribehety Antarctic Scientific Station
+fr;Base Ruperto Elichiribehety;Ruperto Elichiribehety Antarctic Scientific Station
+en;Gabriel de Castilla;Gabriel de Castilla Spanish Antarctic Station
+mk;Базата Габриел де Кастиља;Gabriel de Castilla Spanish Antarctic Station
+mk;Габриел де Кастиља;Gabriel de Castilla Spanish Antarctic Station
+uk;Габріель де Кастилья;Gabriel de Castilla Spanish Antarctic Station
+eu;Gabriel de Castilla Basea;Gabriel de Castilla Spanish Antarctic Station
+lv;Gabrjela de Kastilja;Gabriel de Castilla Spanish Antarctic Station
+it;Base antartica spagnola dell'esercito Gabriel de Castilla;Gabriel de Castilla Spanish Antarctic Station
+no;Base Antártica Gabriel de Castilla;Gabriel de Castilla Spanish Antarctic Station
+de;Gabriel-de-Castilla-Station;Gabriel de Castilla Spanish Antarctic Station
+fr;Base Antarctique Gabriel de Castilla;Gabriel de Castilla Spanish Antarctic Station
+pt;Estação Antártica Espanhola Gabriel de Castilla;Gabriel de Castilla Spanish Antarctic Station
+en;Doctor Guillermo Mann;Doctor Guillermo Mann Base
+en;Guillermo Mann;Doctor Guillermo Mann Base
+es;Base Doctor Guillermo Mann;Doctor Guillermo Mann Base
+it;Base dottor Guillermo Mann;Doctor Guillermo Mann Base
+lv;Giljermomanna;Doctor Guillermo Mann Base
+en;Juan Carlos I;Juan Carlos I Spanish Antarctic Station
+es;Base Antártica Española Juan Carlos I;Juan Carlos I Spanish Antarctic Station
+mk;Хуан Карлос I;Juan Carlos I Spanish Antarctic Station
+en;Juan Carlos 1;Juan Carlos I Spanish Antarctic Station
+de;Juan-Carlos-I.-Station;Juan Carlos I Spanish Antarctic Station
+fr;Base antarctique Juan Carlos I;Juan Carlos I Spanish Antarctic Station
+ca;Base Antàrtica Joan Carles I;Juan Carlos I Spanish Antarctic Station
+eu;Juan Carlos I.a antartikar basea;Juan Carlos I Spanish Antarctic Station
+it;Base antartica spagnola Juan Carlos I;Juan Carlos I Spanish Antarctic Station
+lv;Huankarlosa I;Juan Carlos I Spanish Antarctic Station
+nn;Juan Carlos I-basen;Juan Carlos I Spanish Antarctic Station
+en;Julio Ripamonti;Julio Ripamonti Base
+es;Refugio Julio Ripamonti;Julio Ripamonti Base
+fr;base Julio Ripamonti;Julio Ripamonti Base
+pl;Ripamonti;Julio Ripamonti Base
+lv;Hulioripamonti;Julio Ripamonti Base
+en;Captain Pieter J. Lenie;Captain Pieter J. Lenie Base
+en;Pieter J. Lenie;Captain Pieter J. Lenie Base
+en;Lenie;Captain Pieter J. Lenie Base
+en;Copacabana Field Station;Captain Pieter J. Lenie Base
+es;Base Copacabana;Captain Pieter J. Lenie Base
+it;Stazione Pieter J. Lenie;Captain Pieter J. Lenie Base
+en;Pieter J. Lenie Field Station;Captain Pieter J. Lenie Base
+lv;Pīterlenī;Captain Pieter J. Lenie Base
+en;Maldonado;Maldonado Station
+es;Base Maldonado;Maldonado Station
+nn;Maldonado-Basen;Maldonado Station
+es;Base Pedro Vicente Maldonado;Maldonado Station
+it;Stazione Pedro Vicente Maldonado;Maldonado Station
+es;Estación Pedro Vincente Maldonado;Maldonado Station
+es;Base Aérea Teniente Benjamín Matienzo;Lieutenant Benjamín Matienzo Air Base
+en;Lieutenant Benjamín Matienzo;Lieutenant Benjamín Matienzo Air Base
+en;Base Matienzo;Lieutenant Benjamín Matienzo Air Base
+en;Matienzo;Lieutenant Benjamín Matienzo Air Base
+es;Estación Matienzo;Lieutenant Benjamín Matienzo Air Base
+mk;Матиенцо;Lieutenant Benjamín Matienzo Air Base
+lv;Matjenso;Lieutenant Benjamín Matienzo Air Base
+es;Base Melchior;Melchior Base
+en;Melchior;Melchior Base
+es;Estación Melchior;Melchior Base
+de;Melchior-Station;Melchior Base
+lv;Melhiora;Melchior Base
+hu;Melchior kutatóállomás;Melchior Base
+en;Mendel Station;J.G. Mendel Czech Antarctic Station
+en;Mendel;J.G. Mendel Czech Antarctic Station
+cs;Česká vědecká stanice Johanna Gregora Mendela;J.G. Mendel Czech Antarctic Station
+mk;Мендел;J.G. Mendel Czech Antarctic Station
+de;Mendel-Polarstation;J.G. Mendel Czech Antarctic Station
+lv;Mendela;J.G. Mendel Czech Antarctic Station
+fa;ایستگاه قطبی مندل;J.G. Mendel Czech Antarctic Station
+es;Base Johann Gregor Mendel;J.G. Mendel Czech Antarctic Station
+pt;Estação Polar Mendel;J.G. Mendel Czech Antarctic Station
+it;Stazione polare Mendel;J.G. Mendel Czech Antarctic Station
+eu;Mendel polo estazioa;J.G. Mendel Czech Antarctic Station
+cs;Mendelova polární stanice;J.G. Mendel Czech Antarctic Station

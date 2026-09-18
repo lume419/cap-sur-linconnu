@@ -52317,7 +52317,6 @@
 0;12.2083,9.2814;NG-35;Adamawa;Yoldi Kohi
 0;12.4010,9.3801;NG-35;Adamawa;Sabongari Yahayaji
 0;12.0852,9.4023;NG-35;Adamawa;Marware
-0;-5.2911,8.6603;NG-30;Kwara State;Niakaramadougou
 0;7.5220,6.4602;NG-47;Enugu State;New Haven
 0;12.0141,9.2448;NG-35;Adamawa;Kaurame Jauro Bakari
 0;11.5247,9.4824;NG-35;Adamawa;Balayafi

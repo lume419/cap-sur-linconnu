@@ -95,7 +95,7 @@ fr;Dingilérou;Dinguilérou
 ar;ديكتا;Dikta
 ar;ديكلا;Dikta
 ar;داقيسا;Dagésa
-ar;داغسا‎;Dagésa
+ar;داغسا;Dagésa
 ar;داقسا;Dagésa
 ar;داقيسة;Dagésa
 ar;أم ديريما;Dagésa
@@ -371,7 +371,7 @@ fr;Bebal;Bébala
 fr;Bebaïda;Bèmbaïda II
 fr;Béabo;Biabo
 fr;Béabé;Biabo
-ar;باتنة‎;Batna
+ar;باتنة;Batna
 ar;برداي;Bardaï
 en;Bardai;Bardaï
 es;Bardai;Bardaï

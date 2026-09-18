@@ -26,6 +26,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { excludePlace, fixName } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
 
 const POSTAL = new Set(['IN', 'ID', 'JP', 'KR', 'PH', 'BD', 'LK', 'SG']);
 const SINGLE_CODE = { IO: 'BBND 1ZZ', CX: '6798', CC: '6799' };
@@ -71,8 +72,10 @@ for(const country of COUNTRIES){
     if(c[6] !== 'P' || !KEEP_FEATURE_CODES.has(c[7]) || !c[1]) return;
     const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
     if(isNaN(lat) || isNaN(lon)) return;
+    const name = fixName(country, c[0], c[1]); // noms aux caractères perdus corrigés d'après la même fiche (voir communes-corrections.js)
+    if(excludePlace(country, c[0], name, lat, lon)) return;
     brut++;
-    const p = { name: c[1], lat, lon, admin1: c[10] || '', admin2: c[11] || '', admin3: c[12] || '', pop: parseInt(c[14], 10) || 0 };
+    const p = { name, lat, lon, admin1: c[10] || '', admin2: c[11] || '', admin3: c[12] || '', pop: parseInt(c[14], 10) || 0 };
     // Dédoublonnage identique au pipeline standard : même nom + coordonnées à ~1 km près.
     const k = p.name.toLowerCase() + '|' + lat.toFixed(2) + '|' + lon.toFixed(2);
     const prev = seen.get(k);

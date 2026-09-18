@@ -257,18 +257,27 @@
   // "réglage global mémorisé" que la langue (STORAGE_KEY 'lang' dans i18n.js) ou le thème
   // (STORAGE_KEY 'theme' dans theme.js), jamais lue/écrite ailleurs que via ces deux fonctions.
   var CURRENCY_STORAGE_KEY = 'currency';
+  // Choix de la page en cours, indépendant du stockage (10e audit du 18/09/2026) : sans localStorage (navigation privée
+  // stricte, stockage bloqué), le sélecteur de devise n'avait aucun effet, alors que la langue et le thème s'appliquent
+  // quand même à la page. undefined = rien choisi pendant cette visite (on lit alors la valeur mémorisée).
+  var sessionCurrency;
+  function isKnownCurrency(v){
+    // hasOwnProperty : une valeur stockée comme « constructor » ne doit pas passer pour une devise.
+    return !!v && Object.prototype.hasOwnProperty.call(CURRENCY_SYMBOL, v);
+  }
   function getPreferredCurrency(){
+    if(sessionCurrency !== undefined) return sessionCurrency;
     try {
       var v = localStorage.getItem(CURRENCY_STORAGE_KEY);
-      // hasOwnProperty : une valeur stockée comme « constructor » ne doit pas passer pour une devise.
-      return v && Object.prototype.hasOwnProperty.call(CURRENCY_SYMBOL, v) ? v : null;
+      return isKnownCurrency(v) ? v : null;
     } catch(e){ return null; } // stockage indisponible (navigation privée stricte...) : reste en auto
   }
   function setPreferredCurrency(code){
+    sessionCurrency = isKnownCurrency(code) ? code : null;
     try {
-      if(code) localStorage.setItem(CURRENCY_STORAGE_KEY, code);
+      if(sessionCurrency) localStorage.setItem(CURRENCY_STORAGE_KEY, sessionCurrency);
       else localStorage.removeItem(CURRENCY_STORAGE_KEY);
-    } catch(e){ /* pas grave : le choix s'appliquera pour cette page, juste pas mémorisé */ }
+    } catch(e){ /* pas grave : le choix s'applique pour cette page (sessionCurrency), juste pas mémorisé */ }
   }
   // Devise d'un pays donné : la préférence manuelle si le visiteur en a choisi une (voir plus haut),
   // sinon EUR par défaut (tous les pays actuels sauf ceux listés dans CURRENCY_SYMBOL/COUNTRIES) —
@@ -294,6 +303,21 @@
     var pref = getPreferredCurrency();
     if(pref) return pref;
     return (COUNTRIES[cc] && COUNTRIES[cc].currency) || 'EUR';
+  }
+  // Plafond de prix / nuit d'un logement : celui du PAYS de l'étape (TripData.lodgingPriceCap, partagé avec le moteur),
+  // converti dans la devise choisie quand un taux BCE existe — la devise renvoyée peut donc différer de la devise choisie.
+  // Repli sur l'ancienne grille par devise si trip-data.js ne fournit pas encore la fonction.
+  function lodgingCap(cc, budgetKey){
+    if(typeof TripData.lodgingPriceCap === 'function'){
+      try {
+        var r = TripData.lodgingPriceCap(cc, budgetKey, getPreferredCurrency());
+        if(r && r.currency && isFinite(r.max)) return r;
+      } catch(e){}
+    }
+    var currency = countryCurrency(cc);
+    var caps = TripData.BUDGET_PRICE_MAX[currency] || TripData.BUDGET_PRICE_MAX.EUR;
+    if(!TripData.BUDGET_PRICE_MAX[currency]) currency = 'EUR';
+    return { currency: currency, max: caps[budgetKey] != null ? caps[budgetKey] : caps.moyen };
   }
   // Liste des devises à proposer dans le sélecteur — RECONSTRUITE depuis COUNTRIES plutôt que
   // recopiée à la main (voir la demande d'origine, "en prenant en compte celles des pays déjà
@@ -346,8 +370,9 @@
     // "AUTO" tant qu'aucune devise n'est figée (aucun symbole unique ne le représenterait — la
     // devise varie d'une étape à l'autre) ; sinon CODE + symbole réel (voir CURRENCY_GLYPH), le code
     // toujours présent pour lever l'ambiguïté des trois "kr" (DKK/NOK/SEK, voir son commentaire).
+    // « Auto » traduit (clé du bouton de thème, même sens, déjà courte dans les 161 langues) — l'ancien 'AUTO' en dur.
     currencyButtonEl.querySelector('.currency-toggle-code').textContent =
-      pref ? pref + ' ' + (CURRENCY_GLYPH[pref] || '') : 'AUTO';
+      pref ? pref + ' ' + (CURRENCY_GLYPH[pref] || '') : t('theme.auto');
   }
   // returnFocus : rend le focus au bouton (fermeture au clavier ou après un choix), pas lors d'un clic ailleurs.
   function closeCurrencyPanel(returnFocus){
@@ -469,6 +494,9 @@
     var full = t('currency.buttonLabel') + ' — ' + (getPreferredCurrency() || t('currency.auto'));
     currencyButtonEl.setAttribute('aria-label', full);
     currencyButtonEl.title = full;
+    // Nom du panneau (role="dialog" sans nom au 10e audit) et libellé « Auto » du bouton dans la langue courante.
+    if(currencyPanelEl) currencyPanelEl.setAttribute('aria-label', t('currency.buttonLabel'));
+    renderCurrencyButton();
   }
   buildCurrencySwitcher();
   applyCurrencyPanelTexts();
@@ -564,17 +592,75 @@
   function safeUrl(u){ return /^https?:\/\//i.test(String(u || '')) ? escHtml(u) : '#'; }
   // Même contrôle pour une affectation directe de propriété (element.href = …), sans échappement HTML.
   function safeHref(u){ return /^https?:\/\//i.test(String(u || '')) ? String(u) : '#'; }
-  function openLightbox(imgUrl, caption, wikiUrl){
+
+  // ---- Crédit des photos (10e audit du 18/09/2026) ----
+  // Les mentions légales promettent « crédit affiché avec l'image » : chaque photo Wikimedia est suivie de son auteur et
+  // de sa licence quand le serveur les fournit (author, license, licenseUrl de /api/photo, null quand Wikimedia ne les
+  // donne pas ; artist/licenseShortName/filePage/descriptionUrl acceptés aussi), sinon d'un lien vers la page de
+  // description du fichier sur Commons (ou sur la Wikipédia qui l'héberge), où figurent l'auteur et la licence. Cette
+  // page se déduit de l'adresse de l'image elle-même : (upload|thumb).wikimedia.org/wikipedia/<projet>/[thumb/]x/xy/
+  // <fichier> ou commons.wikimedia.org/wiki/Special:FilePath/<fichier>. Les POI d'OpenStreetMap n'apportent que l'image.
+  function photoFilePage(imgUrl){
+    var u;
+    try { u = new URL(String(imgUrl || '')); } catch(e){ return null; }
+    if(u.protocol !== 'https:') return null;
+    var m;
+    // upload.wikimedia.org et thumb.wikimedia.org (nouvel hôte des vignettes de l'API REST de Wikipédia, 2026).
+    if(/^(upload|thumb)\.wikimedia\.org$/.test(u.hostname)){
+      m = u.pathname.match(/^\/wikipedia\/([a-z-]+)\/(?:thumb\/)?[0-9a-f]\/[0-9a-f]{2}\/([^\/]+)/);
+      if(!m) return null;
+      var host = m[1] === 'commons' ? 'commons.wikimedia.org' : (/^[a-z]{2,3}(-[a-z]+)?$/.test(m[1]) ? m[1] + '.wikipedia.org' : null);
+      return host ? 'https://' + host + '/wiki/File:' + m[2] : null;
+    }
+    if(u.hostname === 'commons.wikimedia.org'){
+      m = u.pathname.match(/^\/wiki\/Special:FilePath\/([^\/]+)$/);
+      return m ? 'https://commons.wikimedia.org/wiki/File:' + m[1] : null;
+    }
+    return null;
+  }
+  // Texte brut d'un champ éventuellement balisé (le champ « Artist » de Commons contient souvent un lien HTML) :
+  // DOMParser n'exécute aucun script et ne charge aucune image, contrairement à innerHTML sur un élément.
+  function plainText(s){
+    s = String(s == null ? '' : s);
+    if(!/[<&]/.test(s)) return s.trim();
+    try { return (new DOMParser().parseFromString(s, 'text/html').body.textContent || '').replace(/\s+/g, ' ').trim(); }
+    catch(e){ return s.replace(/<[^>]*>/g, '').trim(); }
+  }
+  function photoCreditInfo(data, imgUrl){
+    data = data || {};
+    var author = plainText(data.artist || data.author || '').slice(0, 120);
+    var license = plainText(data.license || data.licenseShortName || '').slice(0, 60);
+    var filePage = safeHref(data.filePage || data.descriptionUrl || '') !== '#' ? String(data.filePage || data.descriptionUrl)
+      : photoFilePage(imgUrl || data.imageFull || data.image);
+    return { author: author, license: license, licenseUrl: safeHref(data.licenseUrl) !== '#' ? String(data.licenseUrl) : null, filePage: filePage };
+  }
+  // HTML du crédit (textes échappés, liens http(s) seulement) ; chaîne vide si rien n'est connu.
+  function photoCreditHtml(info){
+    if(!info) return '';
+    if(info.author && info.license){
+      var lic = info.licenseUrl
+        ? '<a href="' + safeUrl(info.licenseUrl) + '" target="_blank" rel="noopener">' + escHtml(info.license) + '</a>'
+        : escHtml(info.license);
+      var txt = t('photo.credit', { author: escHtml(info.author), license: lic });
+      return info.filePage ? txt + ' <a href="' + safeUrl(info.filePage) + '" target="_blank" rel="noopener" aria-label="' +
+        escHtml(t('photo.creditLink')) + '">↗</a>' : txt;
+    }
+    return info.filePage ? '<a href="' + safeUrl(info.filePage) + '" target="_blank" rel="noopener">' + escHtml(t('photo.creditLink')) + ' ↗</a>' : '';
+  }
+  function openLightbox(imgUrl, caption, wikiUrl, credit){
     if(!imgUrl || safeHref(imgUrl) === '#') return;
     var el = ensureLightbox();
     var img = el.querySelector('.lightbox-img');
     img.src = imgUrl;
     img.alt = caption || '';
     var capEl = el.querySelector('.lightbox-caption');
+    var creditHtml = photoCreditHtml(credit || photoCreditInfo(null, imgUrl));
     capEl.innerHTML = (caption ? '<span>'+escHtml(caption)+'</span>' : '') +
-      (wikiUrl ? '<a href="'+safeUrl(wikiUrl)+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>' : '');
-    // Nom du lieu comme intitulé de la fenêtre (nom propre, rien à traduire).
-    if(caption) el.setAttribute('aria-label', caption); else el.removeAttribute('aria-label');
+      (wikiUrl ? '<a href="'+safeUrl(wikiUrl)+'" target="_blank" rel="noopener">'+escHtml(t('wiki.link'))+'</a>' : '') +
+      (creditHtml ? '<span class="lightbox-credit">' + creditHtml + '</span>' : '');
+    // Nom du lieu comme intitulé de la fenêtre (nom propre, rien à traduire) ; à défaut, « Photo réelle… » — un
+    // role="dialog" doit toujours avoir un nom (10e audit).
+    el.setAttribute('aria-label', caption || t('photo.real'));
     applyLightboxTexts();
     if(!el.classList.contains('show')) lightboxOpener = document.activeElement;
     el.classList.add('show');
@@ -601,7 +687,7 @@
   var TRANSPORT = TripData.TRANSPORT;
   // Recharge électrique : autonomie route réaliste retenue avant de viser une pause.
   var EV_RANGE_KM = TripData.EV_RANGE_KM;
-  var EV_CHARGE_MARGIN = TripData.EV_CHARGE_MARGIN; // on recharge avant d'atteindre 75% de l'autonomie annoncée
+  var EV_CHARGE_MARGIN = TripData.EV_CHARGE_MARGIN; // recharge de 10 à 80 % : 70 % de l'autonomie entre deux arrêts, voir trip-data.js
 
   // ---- Péage : barème dérivé des guides tarifaires officiels VINCI Autoroutes 2026 ----
   // Sources : ASF (public-content.vinci-autoroutes.com/PDF/Tarifs-peage-asf/ASF-Guide-tarifaire-2026-maj062026.pdf)
@@ -753,7 +839,6 @@
   var TOLL_RATE_BY_CLASS = TripData.TOLL_RATE_BY_CLASS;
   var TOLL_RATE_BY_COUNTRY = TripData.TOLL_RATE_BY_COUNTRY;
   var TOLL_SOURCE = TripData.TOLL_SOURCE;
-  var TOLL_MIN_DISTANCE_KM = TripData.TOLL_MIN_DISTANCE_KM; // en-deçà, le péage n'entre pas en ligne de compte
 
   // ---- Ferries : traversées maritimes réelles (Corse, Baléares, Canaries, îles grecques...) ----
   // Contrairement au réseau routier, une île n'est jamais reliée au continent par la route : le
@@ -1090,6 +1175,13 @@
     againBtn: document.getElementById('again-btn'),
     launchBtn: document.getElementById('launch-btn'),
     tollToggle: document.getElementById('toll-toggle'),
+    tollField: document.getElementById('toll-field'),
+    tollBikeHint: document.getElementById('toll-bike-hint'),
+    radiusField: document.getElementById('radius-field'),
+    radiusError: document.getElementById('radius-error'),
+    radiusLabel: document.getElementById('radius-label'),
+    legDistanceField: document.getElementById('leg-distance-field'),
+    legDistanceError: document.getElementById('leg-distance-error'),
     ferryToggle: document.getElementById('ferry-toggle'),
     tensionToggle: document.getElementById('tension-toggle')
   };
@@ -1172,10 +1264,7 @@
     els.dateEnd.min = isoDate(defaultStart); // même jour autorisé (virée sans nuitée)
     els.dateEnd.value = isoDate(defaultEnd);
   })();
-  function clearDatesError(){
-    els.datesField.classList.remove('invalid');
-    els.datesError.classList.remove('show');
-  }
+  function clearDatesError(){ clearFieldError(els.datesField, els.datesError); }
   // Convention standard (hôtellerie/voyage) : le nombre de nuits est l'écart en jours calendaires
   // entre arrivée et retour (0 si même jour = virée sans nuitée) ; le nombre de "jours" du séjour
   // est nuits + 1 (le jour d'arrivée compte, celui de retour aussi). Ex. du 7 au 9 = 2 nuits, 3 jours.
@@ -1192,8 +1281,8 @@
       var dur = tripNightsAndDays(start, end);
       var label = dur.nights === 0
         ? t('form.dates.oneDay')
-        : t(dur.nights === 1 ? 'form.dates.duration1' : 'form.dates.durationN', {days: dur.days, nights: dur.nights});
-      els.durationHint.textContent = label + (dur.capped ? t('form.dates.maxSuffix', {max: MAX_TRIP_DAYS}) : '');
+        : t(dur.nights === 1 ? 'form.dates.duration1' : 'form.dates.durationN', {days: formatNum(dur.days), nights: formatNum(dur.nights)});
+      els.durationHint.textContent = label + (dur.capped ? t('form.dates.maxSuffix', {max: formatNum(MAX_TRIP_DAYS)}) : '');
       clearDatesError();
     } else {
       els.durationHint.textContent = t('form.dates.placeholder');
@@ -1209,6 +1298,12 @@
     updateDatesHint();
   });
   els.dateEnd.addEventListener('change', updateDatesHint);
+  // Toute modification des dates retire l'erreur affichée (date passée, date manquante…) : elle sera recalculée à l'envoi.
+  // Le message « trop loin pour 1 jour » de la distance d'éloignement dépend aussi de la durée : retiré de même.
+  [els.dateStart, els.dateEnd].forEach(function(el){
+    el.addEventListener('input', function(){ clearDatesError(); clearMinDistanceError(); });
+    el.addEventListener('change', function(){ clearDatesError(); clearMinDistanceError(); });
+  });
   updateDatesHint();
   function getTripDays(){
     var start = parseIsoDate(els.dateStart.value);
@@ -1227,52 +1322,83 @@
     el.textContent = el.__message ? el.__message() : message;
   }
   function retranslateErrors(){
-    [els.cityError, els.minDistanceError, els.daysPerCityError].forEach(function(el){
+    [els.cityError, els.datesError, els.radiusError, els.minDistanceError, els.legDistanceError, els.daysPerCityError].forEach(function(el){
       if(el && el.__message && el.classList.contains('show')) el.textContent = el.__message();
     });
   }
-  function clearCityError(){
-    els.cityField.classList.remove('invalid');
-    els.cityError.classList.remove('show');
+  // Erreurs de champ accessibles (10e audit du 18/09/2026) : le champ fautif porte aria-invalid="true" et le message lui est
+  // relié par aria-describedby (ajouté à ce qui y figure déjà, retiré à l'effacement) — sinon un lecteur d'écran lisait le
+  // message une fois (role="alert") puis plus rien en revenant sur le champ.
+  function addDescribedBy(input, id){
+    var ids = (input.getAttribute('aria-describedby') || '').split(/\s+/).filter(Boolean);
+    if(ids.indexOf(id) === -1){ ids.push(id); input.setAttribute('aria-describedby', ids.join(' ')); }
   }
-  function showCityError(message){
-    setErrorText(els.cityError, message);
-    els.cityField.classList.add('invalid');
-    els.cityError.classList.add('show');
-    els.cityField.classList.remove('shake');
-    void els.cityField.offsetWidth; // restart shake animation
-    els.cityField.classList.add('shake');
-    els.city.focus();
+  function removeDescribedBy(input, id){
+    var ids = (input.getAttribute('aria-describedby') || '').split(/\s+/).filter(function(x){ return x && x !== id; });
+    if(ids.length) input.setAttribute('aria-describedby', ids.join(' ')); else input.removeAttribute('aria-describedby');
   }
+  function fieldInputs(field){ return Array.prototype.slice.call(field.querySelectorAll('input, select')); }
+  function clearFieldError(field, errEl){
+    if(!field || !errEl) return;
+    field.classList.remove('invalid');
+    errEl.classList.remove('show');
+    fieldInputs(field).forEach(function(input){
+      input.removeAttribute('aria-invalid');
+      // #city garde son lien permanent vers #city-error (posé dans index.html) : le message y est vide quand il est masqué.
+      if(input !== els.city) removeDescribedBy(input, errEl.id);
+    });
+  }
+  // inputs : champ(s) en cause (le premier reçoit le focus) ; par défaut tous ceux du bloc.
+  function showFieldError(field, errEl, message, inputs){
+    setErrorText(errEl, message);
+    inputs = inputs && inputs.length ? inputs : fieldInputs(field);
+    field.classList.add('invalid');
+    errEl.classList.add('show');
+    fieldInputs(field).forEach(function(input){
+      if(inputs.indexOf(input) !== -1){ input.setAttribute('aria-invalid', 'true'); addDescribedBy(input, errEl.id); }
+      else { input.removeAttribute('aria-invalid'); if(input !== els.city) removeDescribedBy(input, errEl.id); }
+    });
+    field.classList.remove('shake');
+    void field.offsetWidth; // relance l'animation
+    field.classList.add('shake');
+    try { inputs[0].focus(); } catch(e){}
+  }
+  function clearCityError(){ clearFieldError(els.cityField, els.cityError); }
+  function showCityError(message){ showFieldError(els.cityField, els.cityError, message, [els.city]); }
+  function showDatesError(message, input){ showFieldError(els.datesField, els.datesError, message, [input || els.dateStart]); }
 
   /* ---------- MIN-DISTANCE VALIDATION ---------- */
-  function clearMinDistanceError(){
-    els.minDistanceField.classList.remove('invalid');
-    els.minDistanceError.classList.remove('show');
-  }
-  function showMinDistanceError(message){
-    setErrorText(els.minDistanceError, message);
-    els.minDistanceField.classList.add('invalid');
-    els.minDistanceError.classList.add('show');
-    els.minDistanceField.classList.remove('shake');
-    void els.minDistanceField.offsetWidth;
-    els.minDistanceField.classList.add('shake');
-    els.minDistance.focus();
-  }
+  function clearMinDistanceError(){ clearFieldError(els.minDistanceField, els.minDistanceError); }
+  function showMinDistanceError(message, input){ showFieldError(els.minDistanceField, els.minDistanceError, message, [input || els.minDistance]); }
 
   /* ---------- MIN/MAX JOURS PAR VILLE VALIDATION ---------- */
-  function clearDaysPerCityError(){
-    els.daysPerCityField.classList.remove('invalid');
-    els.daysPerCityError.classList.remove('show');
+  function clearDaysPerCityError(){ clearFieldError(els.daysPerCityField, els.daysPerCityError); }
+  function showDaysPerCityError(message, input){ showFieldError(els.daysPerCityField, els.daysPerCityError, message, [input || els.minDaysPerCity]); }
+
+  /* ---------- RAYON ET DISTANCE ENTRE ÉTAPES ---------- */
+  function clearRadiusError(){ clearFieldError(els.radiusField, els.radiusError); }
+  function clearLegDistanceError(){ clearFieldError(els.legDistanceField, els.legDistanceError); }
+
+  // Validation propre du site, traduite (10e audit) : le formulaire est en novalidate — la validation native du navigateur
+  // (step/min/max) bloquait l'envoi avec une bulle dans la langue du NAVIGATEUR, et empêchait #dates-error de s'afficher.
+  // Bornes relues sur les attributs min/max des champs ; le pas (step) n'est pas imposé : une valeur comme 305 km est
+  // acceptée telle quelle. Renvoie null si tout va bien, sinon { input, message } pour le premier champ fautif.
+  function checkNumberRange(input, allowEmpty){
+    var raw = input.value;
+    if(input.validity && input.validity.badInput) raw = 'x'; // saisie non numérique (le navigateur renvoie alors '')
+    if(raw === '' && allowEmpty) return null;
+    var v = parseFloat(raw), min = parseFloat(input.min), max = parseFloat(input.max);
+    if(isFinite(v) && (!isFinite(min) || v >= min) && (!isFinite(max) || v <= max)) return null;
+    return { input: input, message: msg('form.error.range', function(){ return { min: formatNum(min), max: formatNum(max) }; }) };
   }
-  function showDaysPerCityError(message){
-    setErrorText(els.daysPerCityError, message);
-    els.daysPerCityField.classList.add('invalid');
-    els.daysPerCityError.classList.add('show');
-    els.daysPerCityField.classList.remove('shake');
-    void els.daysPerCityField.offsetWidth;
-    els.daysPerCityField.classList.add('shake');
-    els.minDaysPerCity.focus();
+  // Dates : manquante, passée, ou retour avant l'arrivée — chacune son message exact.
+  function checkDates(){
+    if(!els.dateStart.value || !parseIsoDate(els.dateStart.value)) return { input: els.dateStart, message: msg('form.dates.error.startRequired') };
+    if(!els.dateEnd.value || !parseIsoDate(els.dateEnd.value)) return { input: els.dateEnd, message: msg('form.dates.error.endRequired') };
+    var today = new Date(); today.setHours(0, 0, 0, 0);
+    if(parseIsoDate(els.dateStart.value) < today) return { input: els.dateStart, message: msg('form.dates.error.past') };
+    if(parseIsoDate(els.dateEnd.value) < parseIsoDate(els.dateStart.value)) return { input: els.dateEnd, message: msg('form.dates.error') };
+    return null;
   }
 
   /* ---------- CITY AUTOCOMPLETE (nom ou code postal) ---------- */
@@ -1427,6 +1553,9 @@
     if(els.city.value.trim()) clearCityError();
     updateBudgetHint(); // ville désélectionnée : retombe sur la devise par défaut (EUR)
     var query = els.city.value;
+    // Liste de la saisie PRÉCÉDENTE vidée dès la frappe (10e audit du 18/09/2026) : taper « Nantes » par-dessus « lyon »
+    // puis Flèche bas + Entrée avant l'arrivée des nouveaux résultats choisissait encore « Lyon ».
+    hideSuggestions();
     var mySeq = ++searchRequestSeq;
     clearTimeout(searchDebounceTimer);
     // 3 caractères minimum, ou 2 caractères idéographiques (北京, 東京 : voir SHORT_IDEOGRAPHIC_INDEX côté serveur).
@@ -1468,13 +1597,17 @@
   });
   els.city.addEventListener('keydown', function(e){
     if(!els.citySuggest.classList.contains('show')) return;
+    // Liste sans option sélectionnable (message « chargement… ») : les flèches ne sélectionnent rien.
+    if((e.key === 'ArrowDown' || e.key === 'ArrowUp') && !currentSuggestions.length){ e.preventDefault(); return; }
     if(e.key === 'ArrowDown'){
       e.preventDefault();
       activeSuggestIndex = Math.min(activeSuggestIndex+1, currentSuggestions.length-1);
       updateActiveSuggest();
     } else if(e.key === 'ArrowUp'){
       e.preventDefault();
-      activeSuggestIndex = Math.max(activeSuggestIndex-1, 0);
+      // Flèche haut sans option active : dernière option (comportement habituel d'une liste déroulante), au lieu de
+      // sélectionner la première comme la flèche bas (10e audit).
+      activeSuggestIndex = activeSuggestIndex < 0 ? currentSuggestions.length - 1 : Math.max(activeSuggestIndex-1, 0);
       updateActiveSuggest();
     } else if(e.key === 'Enter'){
       if(activeSuggestIndex >= 0 && currentSuggestions[activeSuggestIndex]){
@@ -1498,25 +1631,35 @@
       els.radiusValueDisplay.textContent = durationTxt;
       // Libellé long (swahili, tamoul, ourdou…) : texte réduit plutôt que coupé, puisque le nombre saisi est transparent
       // dans ce mode. Le même texte, en forme longue, est donné aux lecteurs d'écran (l'incrustation est aria-hidden).
-      fitRadiusDisplay();
-      els.radius.setAttribute('aria-label', formatDurationMin(h * 60) + ' — ' + t('form.radius.unitH'));
       els.radiusValueWrap.classList.add('show-duration');
       els.radiusUnit.textContent = t('form.radius.unitH');
+      fitRadiusDisplay();
+      // Valeur annoncée sous sa forme lisible (« 4 h et 30 min ») : aria-valuetext, et non aria-label, qui était ignoré
+      // puisque le champ est déjà nommé par aria-labelledby (10e audit du 18/09/2026).
+      els.radius.setAttribute('aria-valuetext', formatDurationMin(h * 60));
     } else {
       els.radiusValueWrap.classList.remove('show-duration');
-      els.radius.removeAttribute('aria-label'); // en km, l'unité est déjà annoncée par #radius-unit (aria-labelledby)
+      els.radiusValueWrap.classList.remove('two-lines');
+      // En km, la valeur est annoncée en nombre, l'unité par #radius-unit (aria-labelledby).
+      var km = parseFloat(els.radius.value);
+      if(isFinite(km)) els.radius.setAttribute('aria-valuetext', formatKm(km)); else els.radius.removeAttribute('aria-valuetext');
       els.radiusUnit.textContent = t('form.radius.unitKm');
     }
   }
   // Taille du libellé réduite pas à pas jusqu'à ce qu'il tienne dans le champ (« 11 ம.நே. 30 நிமி. » en tamoul, « saa 11
   // na dak 30 » en swahili) : le nombre saisi étant transparent dans ce mode, un texte coupé rendait la valeur illisible.
+  // 10e audit : la réduction descendait jusqu'à 0,5rem (8 px), illisible (tamoul à 320 px). Plancher à 0,72rem ; au-delà,
+  // le libellé passe sur deux lignes dans le champ (classe two-lines) plutôt que de rapetisser encore.
   function fitRadiusDisplay(){
     var el = els.radiusValueDisplay;
-    var sizes = ['', '0.82rem', '0.72rem', '0.64rem', '0.56rem', '0.5rem'];
+    els.radiusValueWrap.classList.remove('two-lines');
+    var sizes = ['', '0.86rem', '0.78rem', '0.72rem'];
     for(var i = 0; i < sizes.length; i++){
       el.style.fontSize = sizes[i];
       if(el.scrollWidth <= el.clientWidth + 1) return;
     }
+    els.radiusValueWrap.classList.add('two-lines');
+    el.style.fontSize = '0.72rem';
   }
   function setMode(mode){
     radiusMode = mode;
@@ -1580,6 +1723,89 @@
   els.legDistance.addEventListener('change', function(){ legDistanceEdited = els.legDistance.value !== ''; });
   els.transport.addEventListener('change', function(){ if(!legDistanceEdited) els.legDistance.value = defaultLegKm(); });
 
+  // Erreurs périmées effacées dès que le champ concerné change (10e audit du 18/09/2026) : « la distance minimale ne peut
+  // pas dépasser la maximale » restait affiché après correction, jusqu'au tirage suivant. Le message « trop loin pour un
+  // séjour aussi court » de la distance d'éloignement dépend aussi du rayon et du mode de transport (rayon en heures).
+  els.radius.addEventListener('input', function(){ clearRadiusError(); clearMinDistanceError(); });
+  [els.minDistance, els.maxDistance].forEach(function(el){ el.addEventListener('input', clearMinDistanceError); });
+  els.legDistance.addEventListener('input', clearLegDistanceError);
+  [els.minDaysPerCity, els.maxDaysPerCity].forEach(function(el){ el.addEventListener('input', clearDaysPerCityError); });
+  [els.modeKm, els.modeH].forEach(function(el){ el.addEventListener('click', function(){ clearRadiusError(); clearMinDistanceError(); }); });
+  els.transport.addEventListener('change', function(){ clearLegDistanceError(); clearMinDistanceError(); updateTollAvailability(); });
+
+  // Péage sans objet à vélo (10e audit) : l'interrupteur restait actif sans aucun effet. Désactivé, avec l'explication
+  // sous l'interrupteur (et reliée à lui pour les lecteurs d'écran) ; son état coché est conservé pour les autres modes.
+  function updateTollAvailability(){
+    var bike = els.transport.value === 'velo';
+    els.tollToggle.disabled = bike;
+    if(els.tollField) els.tollField.classList.toggle('is-disabled', bike);
+    if(els.tollBikeHint){
+      els.tollBikeHint.hidden = !bike;
+      if(bike) addDescribedBy(els.tollToggle, els.tollBikeHint.id); else removeDescribedBy(els.tollToggle, els.tollBikeHint.id);
+    }
+  }
+  updateTollAvailability();
+
+  // Boutons −/+ : nom accessible complet, « Diminuer — Distance max entre les étapes » (10e audit : huit boutons
+  // « Diminuer »/« Augmenter » impossibles à distinguer hors contexte visuel). Recalculé au changement de langue (la
+  // retraduction statique remet d'abord « Diminuer » seul via data-i18n-aria-label).
+  var STEP_BUTTON_LABELS = [
+    ['radius', 'form.radius.label', null],
+    ['min-distance', 'form.minDistance.label', 'form.minDistance.unitMin'],
+    ['max-distance', 'form.minDistance.label', 'form.minDistance.unitMax'],
+    ['leg-distance', 'form.legDistance.label', null],
+    ['min-days-per-city', 'form.daysPerCity.label', 'form.daysPerCity.unitMin'],
+    ['max-days-per-city', 'form.daysPerCity.label', 'form.daysPerCity.unitMax']
+  ];
+  function applyStepButtonLabels(){
+    STEP_BUTTON_LABELS.forEach(function(row){
+      var name = t(row[1]) + (row[2] ? ' (' + t(row[2]) + ')' : '');
+      var dec = document.getElementById(row[0] + '-dec'), inc = document.getElementById(row[0] + '-inc');
+      if(dec) dec.setAttribute('aria-label', t('form.radius.decAria') + ' — ' + name);
+      if(inc) inc.setAttribute('aria-label', t('form.radius.incAria') + ' — ' + name);
+    });
+  }
+  applyStepButtonLabels();
+
+  // Textes indicatifs (placeholder) des champs du formulaire : un placeholder ne passe jamais à la ligne et était coupé
+  // net quand il dépassait le champ (« Aucun minimum » en tamoul, « Ex. Brugge ou 8000 » en cornique à 320 px). Sa
+  // taille est réduite pas à pas jusqu'à ce qu'il tienne (mesure au canvas, même police que le rendu). Rappelé au
+  // changement de langue, au redimensionnement et quand le placeholder de la ville change.
+  var phCanvas = null;
+  function placeholderFits(input){
+    var cs = getComputedStyle(input, '::placeholder'), ics = getComputedStyle(input);
+    phCanvas = phCanvas || document.createElement('canvas').getContext('2d');
+    phCanvas.font = cs.fontStyle + ' ' + cs.fontWeight + ' ' + cs.fontSize + ' ' + cs.fontFamily;
+    var avail = input.clientWidth - parseFloat(ics.paddingLeft) - parseFloat(ics.paddingRight);
+    return phCanvas.measureText(input.placeholder).width <= avail + 0.5;
+  }
+  // Plancher de lisibilité à 0,72rem ; si le texte ne tient toujours pas, le champ affiche « — » (la valeur par défaut :
+  // aucune borne) et le texte complet reste en infobulle — l'étiquette et l'aide sous le champ disent déjà ce qu'il attend.
+  function fitPlaceholders(){
+    var sizes = ['', '0.86rem', '0.78rem', '0.72rem'];
+    Array.prototype.forEach.call(els.form.querySelectorAll('input[placeholder]'), function(input){
+      if(input.__fullPlaceholder !== undefined && input.placeholder === '—') input.placeholder = input.__fullPlaceholder;
+      input.removeAttribute('title');
+      if(!input.placeholder || !input.clientWidth) return;
+      for(var i = 0; i < sizes.length; i++){
+        if(sizes[i]) input.style.setProperty('--ph-size', sizes[i]); else input.style.removeProperty('--ph-size');
+        if(placeholderFits(input)) return;
+      }
+      if(input.type === 'number'){
+        input.__fullPlaceholder = input.placeholder;
+        input.title = input.placeholder;
+        input.placeholder = '—';
+        input.style.removeProperty('--ph-size');
+      }
+    });
+  }
+  var fitPlaceholdersTimer = null;
+  window.addEventListener('resize', function(){
+    clearTimeout(fitPlaceholdersTimer);
+    fitPlaceholdersTimer = setTimeout(fitPlaceholders, 100);
+  });
+  fitPlaceholders();
+
   /* ---------- FOURCHETTE DE PRIX DU BUDGET SÉLECTIONNÉ ---------- */
   // Affiche le plafond réellement utilisé pour préremplir les liens Airbnb/Booking (voir
   // buildLodgingLinks, BUDGET_PRICE_MAX) — "jusqu'à X €/CHF" reflète le filtre "0 à X" appliqué sur
@@ -1598,12 +1824,10 @@
     // devise pendant cette fenêtre appellerait sinon cette fonction avant que le formulaire existe.
     if(!els || !els.budget) return;
     var key = els.budget.value;
-    var currency = countryCurrency(selectedCity && selectedCity.country);
-    // Devise absente de BUDGET_PRICE_MAX (tables divergentes un jour) : repli sur l'euro plutôt qu'une erreur qui
-    // interromprait tout le script de la page.
-    var caps = BUDGET_PRICE_MAX[currency] || BUDGET_PRICE_MAX.EUR;
-    var max = caps[key];
-    els.budgetHint.textContent = t('form.budget.hint', {max: formatAmount(max), currency: CURRENCY_SYMBOL[currency] || currency});
+    // Plafond du PAYS de la ville de départ (moyenne de l'UE tant qu'aucune ville n'est choisie), converti dans la devise
+    // choisie quand un taux BCE existe — même calcul que le moteur pour les liens (TripData.lodgingPriceCap).
+    var cap = lodgingCap(selectedCity && selectedCity.country, key);
+    els.budgetHint.textContent = t('form.budget.hint', {max: formatAmount(cap.max), currency: CURRENCY_SYMBOL[cap.currency] || cap.currency});
   }
   els.budget.addEventListener('change', updateBudgetHint);
   updateBudgetHint();
@@ -1671,6 +1895,39 @@
     var v = Math.round(n*10)/10;
     try { return new Intl.NumberFormat(localeTag(), { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(v); }
     catch(e){ return v.toFixed(1); }
+  }
+  // Nombres entiers et distances dans la langue d'interface (10e audit du 18/09/2026) : chiffres et séparateurs de la
+  // locale (« 1 234 », « 1,234 », « ١٬٢٣٤ »), et « km » traduit par Intl (« км », « كم », « 公里 ») au lieu d'un « km » en dur.
+  function formatNum(n){
+    var v = Number(n);
+    if(!isFinite(v)) return '';
+    try { return new Intl.NumberFormat(localeTag(), { maximumFractionDigits: 1 }).format(v); } catch(e){ return String(v); }
+  }
+  function formatKm(n){
+    var v = Math.round(Number(n));
+    if(!isFinite(v)) return '';
+    try { return new Intl.NumberFormat(localeTag(), { style: 'unit', unit: 'kilometer', unitDisplay: 'short', maximumFractionDigits: 0 }).format(v); }
+    catch(e){ return formatNum(v) + ' km'; }
+  }
+  // Traduction d'une clé venue des DONNÉES (avertissements du moteur, liaison de ferry, types d'activité…) avant insertion
+  // en HTML : une clé inconnue revient telle quelle de t() — elle est alors échappée (10e audit : « <img onerror> » envoyé
+  // comme clé d'avertissement était inséré tel quel). Les traductions elles-mêmes ne contiennent aucun balisage (vérifié).
+  function tData(key, vars){
+    if(typeof key !== 'string' || !/^[A-Za-z][A-Za-z0-9_]*(\.[A-Za-z0-9_]+)+$/.test(key)) return escHtml(key);
+    var s;
+    try { s = t(key, vars); } catch(e){ s = key; }
+    return (typeof s !== 'string' || s === key) ? escHtml(key) : s;
+  }
+  // Source du barème de péage : le libellé français de trip-data.js (« autoroutes françaises 2026 ») est traduit ; les autres
+  // sont des noms propres d'opérateurs (Autostrade per l'Italia, HAC…), gardés tels quels.
+  function tollSourceLabel(cc){
+    var src = TOLL_SOURCE[cc];
+    if(!src) return '';
+    if(cc === 'FR'){
+      var year = (String(src).match(/\d{4}/) || [''])[0];
+      return t('toll.sourceFr', { year: year }).trim();
+    }
+    return src;
   }
 
   function effectiveRadiusKm(speed){
@@ -1786,7 +2043,7 @@
     var bits = [firstStop.name + (firstStop.cp ? ' (' + formatCpBadge(firstStop) + ')' : '')];
     if(firstStop.pop) bits.push(t('reveal.inhabitants', {n: firstStop.pop.toLocaleString(localeTag())}));
     if(firstStop.featuredCount){
-      bits.push(t(firstStop.featuredCount > 1 ? 'reveal.poiN' : 'reveal.poi1', {n: firstStop.featuredCount}));
+      bits.push(t(firstStop.featuredCount > 1 ? 'reveal.poiN' : 'reveal.poi1', {n: formatNum(firstStop.featuredCount)}));
     }
     els.revealRegion.textContent = bits.join(' · ');
   }
@@ -1803,9 +2060,9 @@
   }
 
   /* ---------- PÉAGE & RECHARGE : calcul par étape ---------- */
-  // Au-delà de TOLL_MIN_DISTANCE_KM, une portion du trajet emprunterait plausiblement une autoroute
-  // à péage. Le péage coché rend l'étape plus rapide (temps réduit) ; décoché, le temps annoncé
-  // correspond à l'itinéraire sans péage et on indique ce qui aurait pu être gagné.
+  // Le péage d'une étape est calculé par le moteur (lib/toll-grid.js : longueur minimale facturée d'affilée sur une
+  // autoroute à péage réelle), plus par un seuil de distance côté client. Depuis le 7e audit, cocher ou non le péage ne
+  // change plus la durée annoncée de l'étape : seul le montant change de sens (péage estimé si coché, péage évité si décoché — voir toll.enabled/toll.disabled).
 
   /* ---------- ITINERARY BUILD ---------- */
   // Liens de recherche réels (pas une réservation ni des résultats fabriqués) : cet artefact autonome
@@ -2182,16 +2439,30 @@
   // ci-dessous — cas d'un lieu venu de la galerie Wikipédia de la commune) et une image récupérée
   // après coup via /api/photo. Le titre devient aussi un lien direct vers la page (en plus du clic
   // sur l'image, qui ouvre l'agrandissement).
-  function applyActivityCardImage(cardEl, label, image, imageFull, wikiUrl){
+  function applyActivityCardImage(cardEl, label, image, imageFull, wikiUrl, photoData){
     var fullUrl = imageFull || image;
     var visual = cardEl.querySelector('.activity-card-visual');
     if(!visual) return;
     visual.innerHTML = '<img class="activity-card-img" src="'+safeUrl(image)+'" alt="'+escHtml(label)+'" referrerpolicy="no-referrer">';
     cardEl.classList.add('has-image');
+    // Crédit de la photo sous le type d'activité (voir photoCreditInfo) : auteur et licence, ou lien vers la page du fichier.
+    var credit = photoCreditInfo(photoData, fullUrl);
+    var creditHtml = photoCreditHtml(credit);
+    var body = cardEl.querySelector('.activity-card-body');
+    var oldCredit = cardEl.querySelector('.activity-card-credit');
+    if(oldCredit) oldCredit.remove();
+    if(body && creditHtml){
+      var creditEl = document.createElement('div');
+      creditEl.className = 'activity-card-credit';
+      creditEl.innerHTML = creditHtml;
+      body.appendChild(creditEl);
+    }
     var im = visual.querySelector('.activity-card-img');
     im.addEventListener('error', function(){
       cardEl.classList.remove('has-image');
       visual.innerHTML = icon('spark');
+      var c = cardEl.querySelector('.activity-card-credit');
+      if(c) c.remove();
     });
     // Agrandissement activable au clavier : la vignette se comporte comme un bouton (Entrée/Espace).
     visual.setAttribute('role', 'button');
@@ -2199,12 +2470,12 @@
     visual.setAttribute('aria-label', t('photo.enlargeAria', {name: label}));
     // Écouteurs posés une seule fois par vignette (cette fonction peut être rappelée sur la même carte) : ils lisent
     // la dernière image appliquée.
-    visual.__lightbox = { fullUrl: fullUrl, label: label, wikiUrl: wikiUrl };
+    visual.__lightbox = { fullUrl: fullUrl, label: label, wikiUrl: wikiUrl, credit: credit };
     if(!visual.__lightboxBound){
       visual.__lightboxBound = true;
       var openFromVisual = function(){
         var d = visual.__lightbox;
-        if(d && cardEl.classList.contains('has-image')) openLightbox(d.fullUrl, d.label, d.wikiUrl);
+        if(d && cardEl.classList.contains('has-image')) openLightbox(d.fullUrl, d.label, d.wikiUrl, d.credit);
       };
       visual.addEventListener('click', openFromVisual);
       visual.addEventListener('keydown', function(e){
@@ -2299,14 +2570,17 @@
       var card = document.createElement('div');
       card.className = 'activity-card';
       var label = optionLabel(opt);
-      var noteHtml = (opt.needsHike && canHike)
-        ? ' <span class="activities-loading-note">'+t('activities.loadingHike')+'</span>'
+      // opt.hikeSearched : recherche de randonnée terminée sans résultat (hikes: []) — la mention « recherche d'une vraie
+      // randonnée… » restait sinon affichée indéfiniment, y compris à chaque nouveau rendu (10e audit du 18/09/2026).
+      var noteHtml = (opt.needsHike && canHike && !opt.hikeSearched)
+        ? ' <span class="activities-loading-note">'+escHtml(t('activities.loadingHike'))+'</span>'
         : '';
       card.innerHTML =
         '<div class="activity-card-visual">'+icon(opt.isWalk ? 'walk' : 'spark')+'</div>'+
         '<div class="activity-card-body">'+
           '<div class="activity-card-title">'+escHtml(label)+'</div>'+
-          '<div class="activity-card-type">'+optionTypeLabel(opt)+noteHtml+'</div>'+
+          // Échappé (10e audit) : typeKey/typeI18nKey viennent des données ; une clé inconnue revient telle quelle de t().
+          '<div class="activity-card-type">'+escHtml(optionTypeLabel(opt))+noteHtml+'</div>'+
         '</div>';
       actList.appendChild(card);
       if(opt.image){
@@ -2314,7 +2588,7 @@
         // — voir server.js) — pas besoin d'un aller-retour /api/photo supplémentaire. opt.wikiUrl
         // (commune, ou page de description Commons/article dédié pour un POI OSM) sert de lien sur
         // le titre.
-        applyActivityCardImage(card, label, opt.image, opt.imageFull, opt.wikiUrl || null);
+        applyActivityCardImage(card, label, opt.image, opt.imageFull, opt.wikiUrl || null, opt);
       } else if(opt.isReal && opt.searchName){
         // Pour une vraie curiosité nommée (POI OSM sans photo déjà connue), on tente sa propre
         // photo Wikipédia (ex. l'intérieur d'un musée, le paysage d'un point de vue) — plutôt que
@@ -2323,7 +2597,7 @@
         fetchPlacePhoto(opt.searchName, dept, leg && leg.country, optNear(opt, leg)).then(function(cardEl, label){
           return function(data){
             if(!data) return;
-            if(data.image) applyActivityCardImage(cardEl, label, data.image, data.imageFull, data.wikiUrl);
+            if(data.image) applyActivityCardImage(cardEl, label, data.image, data.imageFull, data.wikiUrl, data);
             else applyActivityCardWikiLink(cardEl, data.wikiUrl);
           };
         }(card, label));
@@ -2343,7 +2617,15 @@
         var hikeGen = tripGeneration;
         hikePromise.then(function(cardEl, opt){
           return function(hike){
-            if(!hike || hikeGen !== tripGeneration) return;
+            if(hikeGen !== tripGeneration) return;
+            if(!hike){
+              // Aucune randonnée (liste vide ou déjà toutes proposées) : la suggestion générique reste, sans la mention de
+              // recherche en cours, ici et dans les rendus suivants (changement de langue ou de devise).
+              opt.hikeSearched = true;
+              var pending = cardEl.querySelector('.activities-loading-note');
+              if(pending) pending.remove();
+              return;
+            }
             // Carte déjà remplacée par les vrais POI avant l'arrivée de la randonnée, sans suggestion de balade à
             // compléter : la randonnée n'est pas affichée, elle est rendue à la file pour un autre jour.
             if(!cardEl.parentNode && leg && leg.activities && leg.activities.indexOf(opt) < 0 &&
@@ -2399,8 +2681,8 @@
   }
   function formatDayRangeLabel(startDay, endDay){
     return (endDay - startDay === 1)
-      ? t('day.rangeAnd', {a: startDay, b: endDay})
-      : t('day.rangeTo', {a: startDay, b: endDay});
+      ? t('day.rangeAnd', {a: formatNum(startDay), b: formatNum(endDay)})
+      : t('day.rangeTo', {a: formatNum(startDay), b: formatNum(endDay)});
   }
   // Titre d'un day-card à un seul jour (voir buildItinerary : labelKind/dayNum posés au moment de
   // la construction de l'itinéraire, résolus en texte ICI plutôt que figés dans `leg.label` à la
@@ -2411,8 +2693,8 @@
     switch(leg.labelKind){
       case 'single': return t('day.single');
       case 'returnBare': return t('day.return');
-      case 'day': return t('day.n', {n: leg.dayNum});
-      case 'dayReturn': return t('day.nReturn', {n: leg.dayNum});
+      case 'day': return t('day.n', {n: formatNum(leg.dayNum)});
+      case 'dayReturn': return t('day.nReturn', {n: formatNum(leg.dayNum)});
       default: return leg.label || '';
     }
   }
@@ -2434,7 +2716,9 @@
     if(r.country && (r.type === 'noMotorway' || r.type === 'noMotorwayCc' || r.type === 'partial')){
       try { name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || name; } catch(e){}
     }
-    var txt = t(r.kind + '.' + r.type, { name: escHtml(name), cc: r.minCc || '' });
+    // r.kind/r.type/r.minCc viennent du serveur : clé validée (tData), cylindrée numérique seulement (10e audit).
+    var cc = isFinite(Number(r.minCc)) && r.minCc !== '' && r.minCc != null ? formatNum(r.minCc) : '';
+    var txt = tData(String(r.kind) + '.' + String(r.type), { name: escHtml(name), cc: cc });
     var src = r.source ? ' <a href="' + safeUrl(r.source) + '" target="_blank" rel="noopener">' + t('restriction.source') + '</a>' : '';
     return icon('warn') + '<span>' + txt + src + '</span>';
   }
@@ -2444,18 +2728,43 @@
   // choisie dans le sélecteur, sinon celle du pays de l'étape), avec le plafond de prix correspondant. Seuls les
   // paramètres déjà présents dans l'URL sont modifiés (currency/price_max pour Airbnb ; selected_currency et le filtre
   // de prix nflt=price=DEVISE-0-MAX-1 pour Booking).
+  // Langue d'affichage d'Airbnb/Booking (10e audit du 18/09/2026 : les liens ouvraient toujours le site en français).
+  // Le domaine reste celui produit par le moteur (www.airbnb.fr, www.booking.com : seuls hôtes acceptés dans le PDF par
+  // le serveur) ; la langue passe par le paramètre locale= d'Airbnb et par le suffixe searchresults.<langue>.html de
+  // Booking. Langue retenue : celle de la locale d'interface (I18N.localeTag, qui retombe déjà sur la langue de contact
+  // du territoire : luxembourgeois -> allemand, sorabe -> allemand…), si la plateforme la propose ; sinon l'anglais.
+  var AIRBNB_LOCALES = ('af az bs ca cs cy da de et en es fr ga hr xh zu is it sw lv lt hu mt ms nl no pl pt ro sq sk sl sr ' +
+    'fi sv tl vi tr el bg be mk ru uk ka hy he ar hi th ko ja zh id bn ta mr kk mn').split(' ');
+  var BOOKING_LOCALES = { en: 'en-gb', de: 'de', nl: 'nl', fr: 'fr', es: 'es', ca: 'ca', it: 'it', pt: 'pt-pt', no: 'no', nb: 'no',
+    fi: 'fi', sv: 'sv', da: 'da', cs: 'cs', hu: 'hu', ro: 'ro', ja: 'ja', pl: 'pl', el: 'el', ru: 'ru', tr: 'tr', bg: 'bg', ar: 'ar',
+    ko: 'ko', he: 'he', lv: 'lv', uk: 'uk', hr: 'hr', id: 'id', ms: 'ms', th: 'th', et: 'et', lt: 'lt', sk: 'sk', sr: 'sr',
+    sl: 'sl', vi: 'vi', tl: 'tl', fil: 'tl', is: 'is' };
+  function platformLang(){
+    var tag = String(localeTag() || 'fr-FR');
+    var parts = tag.split('-'), primary = parts[0].toLowerCase();
+    var isHant = /-(Hant|TW|HK|MO)\b/i.test(tag);
+    return {
+      airbnb: primary === 'zh' ? (isHant ? 'zh-TW' : 'zh') : (AIRBNB_LOCALES.indexOf(primary) !== -1 ? primary : 'en'),
+      booking: primary === 'zh' ? (isHant ? 'zh-tw' : 'zh-cn') : (primary === 'pt' && /-BR\b/i.test(tag) ? 'pt-br' : (BOOKING_LOCALES[primary] || 'en-gb'))
+    };
+  }
   function lodgingUrlWithCurrency(url, country, budgetKey){
     var u;
     try { u = new URL(url); } catch(e){ return url; }
     if(!/^https?:$/.test(u.protocol)) return url;
-    var currency = countryCurrency(country);
-    var caps = BUDGET_PRICE_MAX[currency];
-    var priceMax = caps && budgetKey ? caps[budgetKey] : null;
+    // Devise ET plafond viennent de lodgingCap (plafond du pays de l'étape converti dans la devise choisie) : la devise
+    // renvoyée peut différer de celle choisie quand celle-ci n'a pas de taux BCE.
+    var cap = budgetKey ? lodgingCap(country, budgetKey) : { currency: countryCurrency(country), max: null };
+    var currency = cap.currency;
+    var priceMax = cap.max != null ? Math.round(cap.max) : null;
     var p = u.searchParams, changed = false;
+    var pl = platformLang();
     if(/(^|\.)airbnb\./i.test(u.hostname)){
       if(p.has('currency')){ p.set('currency', currency); changed = true; }
       if(priceMax != null && p.has('price_max')){ p.set('price_max', String(priceMax)); changed = true; }
+      p.set('locale', pl.airbnb); changed = true;
     } else if(/(^|\.)booking\.com$/i.test(u.hostname)){
+      if(/^\/searchresults\.[a-z-]+\.html$/i.test(u.pathname)){ u.pathname = '/searchresults.' + pl.booking + '.html'; changed = true; }
       // Toujours posée (le serveur ne la met pas) : affichage des prix dans la devise du filtre de prix ci-dessous.
       if(/^[A-Z]{3}$/.test(currency || '')){ p.set('selected_currency', currency); changed = true; }
       var nflt = p.get('nflt');
@@ -2500,7 +2809,7 @@
     (trip.notices || []).forEach(function(key){
       var note = document.createElement('div');
       note.className = 'day-row tension-row tension-orange';
-      note.innerHTML = icon('warn') + '<span>' + t(key) + '</span>';
+      note.innerHTML = icon('warn') + '<span>' + tData(key) + '</span>';
       els.days.appendChild(note);
     });
     if(trip.departureTension){
@@ -2554,9 +2863,9 @@
       // Étape avec traversée : partie par la route (jusqu'au port, puis depuis le port d'arrivée) + traversée, avec les
       // libellés existants des deux (déjà traduits dans toutes les langues).
       // textContent : aucun balisage dans ces libellés, rien à interpréter.
-      rt.textContent = (firstLeg.ferryInfo && firstLeg.roadKm ? t('day.routeTime', {time: legDuration(firstLeg.roadMin, firstLeg.roadTime), km: firstLeg.roadKm}) + ' + ' : '') +
-        t(firstLeg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: legDuration(firstLeg.travelMin, firstLeg.travelTime), km: firstLeg.distanceKm});
-      top.appendChild(h3); top.appendChild(rt);
+      rt.textContent = legRouteText(firstLeg);
+      top.appendChild(h3);
+      if(rt.textContent) top.appendChild(rt);
       body.appendChild(top);
 
       var stopEl = document.createElement('div');
@@ -2587,6 +2896,8 @@
             if(data && data.image){
               var articleUrl = data.wikiUrl || photoLinks.wiki;
               var fullUrl = data.imageFull || data.image;
+              var creditInfo = photoCreditInfo(data, fullUrl);
+              var creditHtml = photoCreditHtml(creditInfo);
               tileEl.className = 'photo-tile has-image';
               tileEl.innerHTML =
                 '<button type="button" class="photo-tile-imgwrap" aria-label="'+t('photo.enlargeAria', {name: escHtml(stopName)})+'">'+
@@ -2597,6 +2908,7 @@
                   '<span class="photo-tile-text">'+
                     '<span class="photo-tile-title">'+escHtml(stopName)+'</span>'+
                     '<span class="photo-tile-sub">'+t('photo.real')+'</span>'+
+                    (creditHtml ? '<span class="photo-tile-credit">'+creditHtml+'</span>' : '')+
                   '</span>'+
                   '<a class="photo-tile-wiki" href="'+safeUrl(articleUrl)+'" target="_blank" rel="noopener">'+t('wiki.link')+'</a>'+
                 '</div>';
@@ -2620,7 +2932,7 @@
               }
               var imgWrapBtn = tileEl.querySelector('.photo-tile-imgwrap');
               if(imgWrapBtn){
-                imgWrapBtn.addEventListener('click', function(){ openLightbox(fullUrl, stopName, articleUrl); });
+                imgWrapBtn.addEventListener('click', function(){ openLightbox(fullUrl, stopName, articleUrl, creditInfo); });
               }
             } else {
               var sub = tileEl.querySelector('.photo-tile-sub');
@@ -2646,7 +2958,7 @@
         var tollTxt = t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: amountTxt}) + ' ' + t('toll.estimateNote');
         // Barème du ou des pays traversés (ex. Autostrade per l'Italia), pas celui d'ASF pour tous.
         var tollSources = (Array.isArray(ti.countries) ? ti.countries : [firstLeg.country])
-          .map(function(c){ return TOLL_SOURCE[c]; }).filter(function(x, i, a){ return x && a.indexOf(x) === i; });
+          .map(tollSourceLabel).filter(function(x, i, a){ return x && a.indexOf(x) === i; });
         tollRow.innerHTML = icon('toll') + '<span><span class="lbl">'+escHtml(t('toll.label', {source: tollSources.join(' + ') || '—'}))+'</span>'+tollTxt+'</span>';
         body.appendChild(tollRow);
       }
@@ -2660,9 +2972,10 @@
         var fi = firstLeg.ferryInfo;
         var ferryRow = document.createElement('div');
         ferryRow.className = 'day-row';
+        // routeKey vient du serveur : clé validée et échappée si inconnue (tData, 10e audit).
         var ferryTxt = fi.amount === null
-          ? t('ferry.textNoPrice', { route: t(fi.routeKey), duration: formatDurationMin(fi.durationH * 60) })
-          : t('ferry.text', { route: t(fi.routeKey), amount: formatEuro(fi.amount), duration: formatDurationMin(fi.durationH * 60) });
+          ? t('ferry.textNoPrice', { route: tData(fi.routeKey), duration: formatDurationMin(fi.durationH * 60) })
+          : t('ferry.text', { route: tData(fi.routeKey), amount: formatEuro(fi.amount), duration: formatDurationMin(fi.durationH * 60) });
         ferryRow.innerHTML = icon('ferry') + '<span><span class="lbl">'+t('ferry.label')+'</span>'+ferryTxt+'</span>';
         body.appendChild(ferryRow);
         // Liaison réelle sans tarif fixe publié : avertissement dans le style des zones à tension (orange).
@@ -2681,13 +2994,18 @@
           var chargeTxt;
           if(c.real && c.stations){
             // Recharges sur des bornes réelles (Open Charge Map) : lieu habité le plus proche de chaque borne, lien carte.
+            // Coordonnées validées comme nombres (10e audit : s.lat/s.lon insérés tels quels dans l'attribut href).
             var places = c.stations.map(function(s){
-              return '<a href="https://www.openstreetmap.org/?mlat=' + s.lat + '&mlon=' + s.lon + '#map=15/' + s.lat + '/' + s.lon +
-                '" target="_blank" rel="noopener">' + escHtml(s.near || (s.lat.toFixed(3) + ', ' + s.lon.toFixed(3))) + '</a>';
-            }).join(', ');
-            chargeTxt = t(c.stops > 1 ? 'charge.realN' : 'charge.real1', {n: c.stops, min: c.minutes, places: places});
+              var la = Number(s.lat), lo = Number(s.lon);
+              var coordsOk = isFinite(la) && isFinite(lo) && Math.abs(la) <= 90 && Math.abs(lo) <= 180;
+              var label = escHtml(s.near || (coordsOk ? la.toFixed(3) + ', ' + lo.toFixed(3) : ''));
+              if(!coordsOk) return label;
+              return '<a href="https://www.openstreetmap.org/?mlat=' + la + '&amp;mlon=' + lo + '#map=15/' + la + '/' + lo +
+                '" target="_blank" rel="noopener">' + label + '</a>';
+            }).filter(Boolean).join(', ');
+            chargeTxt = t(c.stops > 1 ? 'charge.realN' : 'charge.real1', {n: formatNum(c.stops), min: formatNum(c.minutes), places: places});
           } else {
-            chargeTxt = t(c.stops > 1 ? 'charge.textN' : 'charge.text1', {n: c.stops, min: c.minutes});
+            chargeTxt = t(c.stops > 1 ? 'charge.textN' : 'charge.text1', {n: formatNum(c.stops), min: formatNum(c.minutes)});
           }
           chargeRow.innerHTML = icon('plug') + '<span><span class="lbl">'+t('charge.label')+'</span>'+chargeTxt+'</span>';
           body.appendChild(chargeRow);
@@ -2745,7 +3063,7 @@
         var loadingNoteHtml = leg.needsRealPOIs
           ? ' <span class="activities-loading-note">'+t('activities.loadingReal')+'</span>'
           : '';
-        var actLabelText = isMultiDay ? t('activities.day', {n: dayIdxInGroup + 1}) : t('activities.choice');
+        var actLabelText = isMultiDay ? t('activities.day', {n: formatNum(dayIdxInGroup + 1)}) : t('activities.choice');
         actLabelRow.innerHTML = icon('spark') + '<span class="lbl">'+actLabelText+loadingNoteHtml+'</span>';
         body.appendChild(actLabelRow);
 
@@ -2826,10 +3144,10 @@
     // Nombre de jours DEMANDÉ (un aller-retour d'une journée compte 1 jour, pas ses 2 legs aller + retour).
     var statsDays = trip.days || legs.length, statsCities = Object.keys(villes).length;
     var statsHtml =
-      '<span><b>'+statsDays+'</b> '+statsLabel(statsDays, 'stats.days')+'</span>'+
-      '<span><b>'+statsCities+'</b> '+statsLabel(statsCities, 'stats.cities')+'</span>'+
-      '<span><b>'+nights+'</b> '+statsLabel(nights, 'stats.nights')+'</span>'+
-      '<span><b>~'+totalKm+' km</b> '+t('stats.totalKm')+'</span>';
+      '<span><b>'+formatNum(statsDays)+'</b> '+statsLabel(statsDays, 'stats.days')+'</span>'+
+      '<span><b>'+formatNum(statsCities)+'</b> '+statsLabel(statsCities, 'stats.cities')+'</span>'+
+      '<span><b>'+formatNum(nights)+'</b> '+statsLabel(nights, 'stats.nights')+'</span>'+
+      '<span><b>~'+escHtml(formatKm(totalKm))+'</b> '+t('stats.totalKm')+'</span>';
     var tollLegs = legs.filter(function(l){return l.tollInfo;});
     if(tollLegs.length){
       var tollSum = tollLegs.reduce(function(s,l){return s+l.tollInfo.amount;},0);
@@ -2843,7 +3161,7 @@
         statsHtml += '<span><b>~'+formatEuro(ferrySum)+' €</b> '+t('stats.ferryTotal')+'</span>';
       }
       if(pricedFerries.length < ferryLegs.length){
-        statsHtml += '<span><b>'+(ferryLegs.length - pricedFerries.length)+'</b> '+t('stats.ferryUnpriced')+'</span>';
+        statsHtml += '<span><b>'+formatNum(ferryLegs.length - pricedFerries.length)+'</b> '+t('stats.ferryUnpriced')+'</span>';
       }
     }
     els.timelineStats.innerHTML = statsHtml;
@@ -2878,16 +3196,19 @@
 
   function ensureTripMap(){
     if(tripMap) return tripMap;
+    // role="region" : un aria-label sur un simple div sans rôle n'est annoncé par aucun lecteur d'écran (10e audit).
+    els.mapWrap.setAttribute('role', 'region');
     els.mapWrap.setAttribute('aria-label', t('map.ariaLabel'));
     tripMap = L.map(els.mapWrap, {
       scrollWheelZoom: false, // la molette scrolle la page tant qu'on n'a pas cliqué sur la carte
-      attributionControl: true
+      attributionControl: true,
+      zoomControl: false // recréé ci-dessous avec des libellés traduits (« Zoom in/out » en anglais sinon)
     });
     tripMap.attributionControl.setPrefix(false); // retire le lien "Leaflet" ajouté par défaut devant le crédit OSM
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 18,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors'
-    }).addTo(tripMap);
+    // Crédit OSM traduit (« © les contributeurs d'OpenStreetMap ») : ajouté au contrôle d'attribution plutôt qu'à la couche
+    // de tuiles, pour pouvoir le remplacer au changement de langue (voir applyMapTexts).
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18 }).addTo(tripMap);
+    applyMapTexts();
     // Convenience classique Leaflet : la molette ne zoome la carte qu'une fois qu'on a cliqué
     // dedans (sinon on ne peut plus faire défiler la page en passant la souris sur la carte).
     tripMap.on('click', function(){ tripMap.scrollWheelZoom.enable(); });
@@ -2896,6 +3217,18 @@
     return tripMap;
   }
 
+  // Textes de la carte dans la langue courante : boutons de zoom (titre et nom accessible) et crédit OpenStreetMap.
+  var mapZoomControl = null, mapAttributionHtml = null;
+  function applyMapTexts(){
+    if(!tripMap) return;
+    els.mapWrap.setAttribute('aria-label', t('map.ariaLabel'));
+    if(mapZoomControl) tripMap.removeControl(mapZoomControl);
+    mapZoomControl = L.control.zoom({ zoomInTitle: t('map.zoomIn'), zoomOutTitle: t('map.zoomOut') }).addTo(tripMap);
+    if(mapAttributionHtml) tripMap.attributionControl.removeAttribution(mapAttributionHtml);
+    mapAttributionHtml = escHtml(t('map.attribution', { osm: ' ' })).replace(' ',
+      '<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>');
+    tripMap.attributionControl.addAttribution(mapAttributionHtml);
+  }
   function tripDivIcon(className, html, size, anchor){
     return L.divIcon({ className: 'trip-pin-wrap', html: '<div class="'+className+'">'+html+'</div>', iconSize: size, iconAnchor: anchor });
   }
@@ -3035,32 +3368,46 @@
   // Lignes d'une étape pour le PDF, dans la langue d'interface : mêmes clés et mêmes valeurs que le journal de bord
   // (renderDays), en texte brut (noms de lieux non échappés, pas de liens : le serveur pose lui-même les liens autorisés).
   // Traduction, ou null si la clé n'existe pas encore (t() renverrait le nom de la clé, imprimé tel quel dans le PDF).
-  function tIfDefined(key, vars){ var s = t(key, vars); return s === key ? null : s; }
+  function tIfDefined(key, vars){
+    if(typeof key !== 'string') return null;
+    var s;
+    try { s = t(key, vars); } catch(e){ return null; }
+    return (typeof s !== 'string' || s === key) ? null : s;
+  }
   // Libellé d'une statistique du journal de bord, au singulier quand le compte vaut 1 (« 1 jour », « 1 ville »,
   // « 0 nuitée ») : le pluriel systématique donnait « 1 jours · 1 villes · 0 nuitées », y compris dans le PDF.
   // Intl.PluralRules décide de la forme selon la langue : le français dit « 0 nuitée » et « 1 jour » (catégorie « one »),
   // l'anglais « 0 nights » et « 1 day », le russe reprend le singulier pour 21, 31… Clé au singulier absente : pluriel.
+  // Langues à plusieurs formes plurielles (duel arabe…) : forme exacte fournie par I18N.plural quand elle existe.
   function statsLabel(n, key){
+    var exact = window.I18N.plural ? window.I18N.plural(key, n) : null;
+    if(exact) return exact;
     var one = false;
     try { one = new Intl.PluralRules(localeTag()).select(n) === 'one'; } catch(e){ one = Math.abs(n) === 1; }
     return (one && tIfDefined(key + '1')) || t(key);
   }
   function overMaxLegText(o){
-    return t('leg.overMaxLeg', {max: Math.round(Number(o.max)) || 0, min: Math.round(Number(o.min)) || 0});
+    return t('leg.overMaxLeg', {max: formatNum(Math.round(Number(o.max)) || 0), min: formatNum(Math.round(Number(o.min)) || 0)});
+  }
+  // « ~ 2 h 46 de route · 213 km » (+ la traversée pour un ferry), chiffres dans la langue d'interface. Chaîne vide pour une
+  // journée sans trajet (journées sur place : distanceKm/travelTime null depuis la modification du moteur du 18/09/2026) —
+  // ni « undefined » ni « NaN » à l'écran ou dans le PDF.
+  function legRouteText(leg){
+    if(!leg || leg.distanceKm == null || !isFinite(Number(leg.distanceKm)) || (leg.travelMin == null && !leg.travelTime)) return '';
+    return (leg.ferryInfo && leg.roadKm ? t('day.routeTime', {time: legDuration(leg.roadMin, leg.roadTime), km: formatNum(Math.round(leg.roadKm))}) + ' + ' : '') +
+      t(leg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: legDuration(leg.travelMin, leg.travelTime), km: formatNum(Math.round(leg.distanceKm))});
   }
   function pdfLegTexts(leg){
     var out = {};
     if(leg.overMaxLeg) out.overMaxLeg = overMaxLegText(leg.overMaxLeg);
-    if(leg.distanceKm != null && (leg.travelMin != null || leg.travelTime)){
-      out.route = (leg.ferryInfo && leg.roadKm ? t('day.routeTime', {time: legDuration(leg.roadMin, leg.roadTime), km: leg.roadKm}) + ' + ' : '') +
-        t(leg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: legDuration(leg.travelMin, leg.travelTime), km: leg.distanceKm});
-    }
+    var route = legRouteText(leg);
+    if(route) out.route = route;
     out.stop = t(leg.isReturn ? 'day.returnTo' : 'day.stepMystery', {stop: leg.stop + (leg.cp ? ' (' + formatCpBadge(leg) + ')' : '')});
     if(leg.tension && !leg.isReturn) out.tension = t('tension.label') + ' — ' + t(leg.tension.level === 'red' ? 'tension.red' : 'tension.orange');
     if(leg.tollInfo){
       var ti = leg.tollInfo;
       var tollSources = (Array.isArray(ti.countries) ? ti.countries : [leg.country])
-        .map(function(c){ return TOLL_SOURCE[c]; }).filter(function(x, i, a){ return x && a.indexOf(x) === i; });
+        .map(tollSourceLabel).filter(function(x, i, a){ return x && a.indexOf(x) === i; });
       out.toll = t('toll.label', {source: tollSources.join(' + ') || '—'}) + ' — ' +
         t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: formatEuro(ti.amount)}) + ' ' + t('toll.estimateNote');
     }
@@ -3068,8 +3415,11 @@
       var c = leg.chargeInfo;
       if(c.stops > 0){
         out.charge = t('charge.label') + ' — ' + (c.real && c.stations
-          ? t(c.stops > 1 ? 'charge.realN' : 'charge.real1', {n: c.stops, min: c.minutes, places: c.stations.map(function(s){ return s.near || (s.lat.toFixed(3) + ', ' + s.lon.toFixed(3)); }).join(', ')})
-          : t(c.stops > 1 ? 'charge.textN' : 'charge.text1', {n: c.stops, min: c.minutes}));
+          ? t(c.stops > 1 ? 'charge.realN' : 'charge.real1', {n: formatNum(c.stops), min: formatNum(c.minutes), places: c.stations.map(function(s){
+              var la = Number(s.lat), lo = Number(s.lon);
+              return s.near ? String(s.near) : (isFinite(la) && isFinite(lo) ? la.toFixed(3) + ', ' + lo.toFixed(3) : '');
+            }).filter(Boolean).join(', ')})
+          : t(c.stops > 1 ? 'charge.textN' : 'charge.text1', {n: formatNum(c.stops), min: formatNum(c.minutes)}));
       }
       if(c.noChargerNearArrival) out.noCharger = t('charge.noChargerNearArrival');
     }
@@ -3079,14 +3429,15 @@
         if(r.country && (r.type === 'noMotorway' || r.type === 'noMotorwayCc' || r.type === 'partial')){
           try { name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || name; } catch(e){}
         }
-        return t(r.kind + '.' + r.type, { name: name, cc: r.minCc || '' });
+        var cc = isFinite(Number(r.minCc)) && r.minCc !== '' && r.minCc != null ? formatNum(r.minCc) : '';
+        return tIfDefined(String(r.kind) + '.' + String(r.type), { name: name, cc: cc }) || '';
       });
     }
     if(leg.ferryInfo){
       var fi = leg.ferryInfo;
       out.ferry = t('ferry.label') + ' — ' + (fi.amount === null
-        ? t('ferry.textNoPrice', { route: t(fi.routeKey), duration: formatDurationMin(fi.durationH * 60) }) + ' ' + t(fi.priceStatus === 'variable' ? 'ferry.price.variable' : 'ferry.price.unknown')
-        : t('ferry.text', { route: t(fi.routeKey), amount: formatEuro(fi.amount), duration: formatDurationMin(fi.durationH * 60) }));
+        ? t('ferry.textNoPrice', { route: tIfDefined(fi.routeKey) || '', duration: formatDurationMin(fi.durationH * 60) }) + ' ' + t(fi.priceStatus === 'variable' ? 'ferry.price.variable' : 'ferry.price.unknown')
+        : t('ferry.text', { route: tIfDefined(fi.routeKey) || '', amount: formatEuro(fi.amount), duration: formatDurationMin(fi.durationH * 60) }));
     }
     if(leg.lodgingCheckIn) out.lodging = t('lodging.find', {range: formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut)});
     return out;
@@ -3108,18 +3459,18 @@
     // traductions ; il garde le français en repli et contrôle lui-même les liens et les montants).
     var pdfDays = currentTripData.days || legs.length, pdfCities = Object.keys(villes).length;
     var statsTexts = [
-      pdfDays + ' ' + statsLabel(pdfDays, 'stats.days'),
-      pdfCities + ' ' + statsLabel(pdfCities, 'stats.cities'),
-      nights + ' ' + statsLabel(nights, 'stats.nights'),
-      '~' + totalKm + ' km ' + t('stats.totalKm')
+      formatNum(pdfDays) + ' ' + statsLabel(pdfDays, 'stats.days'),
+      formatNum(pdfCities) + ' ' + statsLabel(pdfCities, 'stats.cities'),
+      formatNum(nights) + ' ' + statsLabel(nights, 'stats.nights'),
+      '~' + formatKm(totalKm) + ' ' + t('stats.totalKm')
     ];
     if(tollSummary) statsTexts.push('~' + formatEuro(tollSummary.amount) + ' € ' + t(tollSummary.enabled ? 'stats.tollEstimated' : 'stats.tollAvoided'));
     var ferryLegs = legs.filter(function(l){ return l.ferryInfo; });
     var pricedFerries = ferryLegs.filter(function(l){ return l.ferryInfo.amount !== null; });
     if(pricedFerries.length) statsTexts.push('~' + formatEuro(pricedFerries.reduce(function(s, l){ return s + l.ferryInfo.amount; }, 0)) + ' € ' + t('stats.ferryTotal'));
-    if(pricedFerries.length < ferryLegs.length) statsTexts.push((ferryLegs.length - pricedFerries.length) + ' ' + t('stats.ferryUnpriced'));
+    if(pricedFerries.length < ferryLegs.length) statsTexts.push(formatNum(ferryLegs.length - pricedFerries.length) + ' ' + t('stats.ferryUnpriced'));
     var noticeTexts = {};
-    (currentTripData.notices || []).forEach(function(key){ if(typeof key === 'string') noticeTexts[key] = t(key); });
+    (currentTripData.notices || []).forEach(function(key){ var txt = tIfDefined(key); if(txt) noticeTexts[key] = txt; });
     var depTension = currentTripData.departureTension;
     var generatedDate = '';
     try { generatedDate = new Date().toLocaleDateString(localeTag(), { day: 'numeric', month: 'long', year: 'numeric' }); } catch(e){}
@@ -3166,7 +3517,7 @@
           overMaxLeg: leg.overMaxLeg ? { max: leg.overMaxLeg.max, min: leg.overMaxLeg.min } : null,
           // Avertissement de zone déconseillée, comme à l'écran (jamais sur le retour, qui rejoint le départ).
           tension: leg.isReturn ? null : exportTension(leg.tension),
-          ferryInfo: leg.ferryInfo ? { route: t(leg.ferryInfo.routeKey), amount: leg.ferryInfo.amount, priceStatus: leg.ferryInfo.priceStatus || null } : null,
+          ferryInfo: leg.ferryInfo ? { route: tIfDefined(leg.ferryInfo.routeKey) || '', amount: leg.ferryInfo.amount, priceStatus: leg.ferryInfo.priceStatus || null } : null,
           checkInLabel: leg.lodgingCheckIn ? formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut) : null,
           lodgingLinks: exportLodgingLinks(leg.lodgingLinks, leg.country, budgetKey),
           activities: (leg.activities || []).map(function(opt){
@@ -3196,17 +3547,22 @@
     }
     var city = selectedCity.name;
     clearCityError();
+    // Dates : message exact (arrivée ou retour manquant, arrivée passée, retour avant l'arrivée) — voir checkDates.
+    var dateProblem = checkDates();
+    if(dateProblem){ showDatesError(dateProblem.message, dateProblem.input); return; }
     var days = getTripDays();
-    if(!days){
-      els.datesField.classList.add('invalid');
-      els.datesError.classList.add('show');
-      els.datesField.classList.remove('shake');
-      void els.datesField.offsetWidth;
-      els.datesField.classList.add('shake');
-      els.dateStart.focus();
-      return;
-    }
+    if(!days){ showDatesError(msg('form.dates.error'), els.dateEnd); return; }
     clearDatesError();
+    // Bornes des champs numériques (novalidate : plus de bulle native du navigateur).
+    clearRadiusError(); clearMinDistanceError(); clearLegDistanceError(); clearDaysPerCityError();
+    var rangeProblem = checkNumberRange(els.radius, false);
+    if(rangeProblem){ showFieldError(els.radiusField, els.radiusError, rangeProblem.message, [els.radius]); return; }
+    rangeProblem = checkNumberRange(els.minDistance, true) || checkNumberRange(els.maxDistance, true);
+    if(rangeProblem){ showMinDistanceError(rangeProblem.message, rangeProblem.input); return; }
+    rangeProblem = checkNumberRange(els.legDistance, true);
+    if(rangeProblem){ showFieldError(els.legDistanceField, els.legDistanceError, rangeProblem.message, [els.legDistance]); return; }
+    rangeProblem = checkNumberRange(els.minDaysPerCity, true) || checkNumberRange(els.maxDaysPerCity, true);
+    if(rangeProblem){ showDaysPerCityError(rangeProblem.message, rangeProblem.input); return; }
     var tripStart = parseIsoDate(els.dateStart.value);
     var budgetKey = els.budget.value;
     var transportKey = els.transport.value;
@@ -3220,14 +3576,13 @@
     var minDistanceKm = parseFloat(els.minDistance.value) || 0;
     var maxDistanceKm = parseFloat(els.maxDistance.value) || 0;
     var totalNights = Math.max(0, days - 1);
-    clearMinDistanceError();
     if(minDistanceKm > 0 && maxDistanceKm > 0 && minDistanceKm > maxDistanceKm){
-      showMinDistanceError(msg('error.minMaxDistance', {min: minDistanceKm, max: maxDistanceKm}));
+      showMinDistanceError(msg('error.minMaxDistance', function(){ return {min: formatNum(minDistanceKm), max: formatNum(maxDistanceKm)}; }));
       return;
     }
     if(minDistanceKm > 0 && minDistanceKm > maxRadiusKm && totalNights <= 1){
       var contextKey = totalNights === 0 ? 'error.minDistanceContextDay' : 'error.minDistanceContextNight';
-      showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {context: t(contextKey), min: minDistanceKm, radius: Math.round(maxRadiusKm)}; }));
+      showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {context: t(contextKey), min: formatNum(minDistanceKm), radius: formatNum(Math.round(maxRadiusKm))}; }));
       return;
     }
 
@@ -3237,9 +3592,8 @@
 
     var minDaysPerCity = parseInt(els.minDaysPerCity.value, 10) || 1;
     var maxDaysPerCity = parseInt(els.maxDaysPerCity.value, 10) || 3;
-    clearDaysPerCityError();
     if(minDaysPerCity > maxDaysPerCity){
-      showDaysPerCityError(msg('error.minMaxDaysPerCity', {min: minDaysPerCity, max: maxDaysPerCity}));
+      showDaysPerCityError(msg('error.minMaxDaysPerCity', function(){ return {min: formatNum(minDaysPerCity), max: formatNum(maxDaysPerCity)}; }));
       return;
     }
 
@@ -3298,14 +3652,14 @@
       if(legs.length === 0 && data.minDistanceUnreachable){
         var returnCapKm = data.returnCapKm;
         showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {
-          context: t(totalNights === 1 ? 'form.dates.duration1' : 'form.dates.durationN', {days: days, nights: totalNights}),
-          min: minDistanceKm, radius: returnCapKm }; }));
+          context: t(totalNights === 1 ? 'form.dates.duration1' : 'form.dates.durationN', {days: formatNum(days), nights: formatNum(totalNights)}),
+          min: formatNum(minDistanceKm), radius: formatNum(returnCapKm) }; }));
         return;
       }
       // Aucune étape assez éloignée ne respecte les autres réglages : le serveur ne propose plus d'itinéraire de secours
       // plus proche qui ignorerait la distance minimale.
       if(legs.length === 0 && data.minDistanceNotFound){
-        showMinDistanceError(msg('error.minDistanceNotFound', { min: minDistanceKm }));
+        showMinDistanceError(msg('error.minDistanceNotFound', function(){ return { min: formatNum(minDistanceKm) }; }));
         return;
       }
       if(legs.length === 0 && data.tensionBlocked){
@@ -3319,7 +3673,7 @@
       return;
     } finally {
       if(abortTimer) clearTimeout(abortTimer);
-      if(drawId === currentDrawId && !(legs && legs.length)){ setDrawButtonsDisabled(false); revealInProgress = false; }
+      if(drawId === currentDrawId && !(legs && legs.length)){ setDrawButtonsDisabled(false); revealInProgress = false; hideDisplayedTrip(); }
     }
     if(legs.length === 0){
       showCityError(msg('error.routeImpossible'));
@@ -3378,6 +3732,7 @@
       console.warn('[rendu] ' + (err && err.message));
       els.timelineStats.innerHTML = '';
       els.days.innerHTML = '';
+      hideDisplayedTrip();
       showCityError(msg('error.routeImpossible'));
       throw err;
     }
@@ -3409,6 +3764,27 @@
     }
   }
 
+  // Tirage échoué (quota, serveur occupé, délai, aucun itinéraire, erreur de rendu) : le voyage PRÉCÉDENT n'est plus affiché
+  // ni exportable (10e audit du 18/09/2026) — il restait à l'écran sous le message d'erreur, et « Exporter en PDF »
+  // exportait ce voyage périmé comme s'il répondait aux nouveaux réglages. La roulette revient à son état d'attente.
+  function hideDisplayedTrip(){
+    currentTripData = null;
+    currentTripLabel = '';
+    tripGeneration++; // réponses en retard (POI, randonnées) de l'ancien voyage ignorées
+    [els.mapCard, els.timeline, els.exportRow, els.packCard, els.againRow].forEach(function(el){ el.classList.remove('show'); });
+    els.days.innerHTML = '';
+    els.timelineStats.innerHTML = '';
+    els.stamp.classList.remove('show');
+    els.revealReal.classList.remove('show');
+    els.revealRegion.textContent = '';
+    els.compass.classList.remove('spin');
+    els.rouletteName.textContent = '???';
+    revealLabelKey = null;
+    els.rouletteLabel.hidden = true;
+    setRevealClue('reveal.clueIdle');
+    announceReveal('');
+    if(rouletteTimer){ clearTimeout(rouletteTimer); rouletteTimer = null; }
+  }
   // Tirage en cours (requête ou roulette) : un changement de langue ne doit pas remettre les libellés du voyage
   // précédent (« Destination confirmée », sa première étape) sur la roulette en cours.
   var revealInProgress = false;
@@ -3504,7 +3880,7 @@
   // première fois au chargement, puis à chaque changement de langue avec le reste ci-dessous.
   var heroLedeEl = document.querySelector('[data-i18n="hero.lede"]');
   function applyHeroLede(){
-    if(heroLedeEl) heroLedeEl.textContent = t('hero.lede', {maxDays: MAX_TRIP_DAYS, maxStops: MAX_STOPS});
+    if(heroLedeEl) heroLedeEl.textContent = t('hero.lede', {maxDays: formatNum(MAX_TRIP_DAYS), maxStops: formatNum(MAX_STOPS)});
   }
   applyHeroLede();
 
@@ -3537,10 +3913,50 @@
     retranslateErrors();
     retranslateReveal();
     applyLightboxTexts();
-    if(tripMap) els.mapWrap.setAttribute('aria-label', t('map.ariaLabel'));
+    applyMapTexts();
+    applyStepButtonLabels();
+    fitPlaceholders();
+    applyDocumentMeta();
+    applyThemeButtonLabel();
     if(exportInProgress) els.exportPdfBtn.textContent = t('export.generating');
     rerenderCurrentTrip();
   });
+
+  // <title> et meta description dans la langue d'interface (10e audit du 18/09/2026 : restaient en français). En français,
+  // les textes d'origine de index.html sont gardés tels quels (ce sont aussi ceux que lisent les moteurs de recherche).
+  var metaDescriptionEl = document.querySelector('meta[name="description"]');
+  var originalTitle = document.title;
+  var originalDescription = metaDescriptionEl ? metaDescriptionEl.getAttribute('content') : '';
+  function applyDocumentMeta(){
+    if(VISITOR_LANG === 'fr'){
+      document.title = originalTitle;
+      if(metaDescriptionEl) metaDescriptionEl.setAttribute('content', originalDescription);
+      return;
+    }
+    document.title = t('hero.title') + ' — ' + t('hero.eyebrow');
+    if(metaDescriptionEl) metaDescriptionEl.setAttribute('content', t('hero.lede', {maxDays: formatNum(MAX_TRIP_DAYS), maxStops: formatNum(MAX_STOPS)}));
+  }
+  applyDocumentMeta();
+
+  // Bouton de thème : nom accessible = libellé visible (« Clair ») suivi de l'action (« Changer de thème… ») — seul le
+  // title portait l'explication, et le nom annoncé se réduisait à « Clair » sans dire à quoi servait le bouton (10e audit).
+  // Couleur d'habillage du navigateur (meta theme-color) alignée sur le thème CHOISI, pas seulement sur celui du système.
+  var themeColorMetas = Array.prototype.slice.call(document.querySelectorAll('meta[name="theme-color"]'));
+  themeColorMetas.forEach(function(m){ m.__original = m.getAttribute('content'); });
+  var THEME_COLORS = { light: '#E4DFC9', dark: '#12191A' };
+  function applyThemeButtonLabel(){
+    Array.prototype.forEach.call(document.querySelectorAll('.theme-toggle-btn'), function(btn){
+      var cur = btn.getAttribute('data-theme-current') || 'auto';
+      btn.setAttribute('aria-label', t('theme.' + (THEME_COLORS[cur] ? cur : 'auto')) + ' — ' + t('theme.buttonTitle'));
+    });
+  }
+  function applyThemeColorMeta(){
+    var choice = document.documentElement.getAttribute('data-theme');
+    themeColorMetas.forEach(function(m){ m.setAttribute('content', THEME_COLORS[choice] || m.__original); });
+  }
+  window.addEventListener('theme:change', function(){ applyThemeButtonLabel(); applyThemeColorMeta(); });
+  applyThemeButtonLabel();
+  applyThemeColorMeta();
 
 })().catch(function(err){
   // Échec de l'initialisation (script de données absent, erreur inattendue…) : message visible dans #load-error

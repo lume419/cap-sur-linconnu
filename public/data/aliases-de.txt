@@ -18912,7 +18912,7 @@ zh;迈绍斯;Mayschoß
 ja;マイエン;Mayen
 sr;Мајен;Mayen
 uk;Майєн;Mayen
-fa;ماین،;Mayen
+fa;ماین;Mayen
 ru;Майен;Mayen
 zh;迈恩;Mayen
 ar;ماين;Mayen

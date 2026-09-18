@@ -28,6 +28,7 @@ const fs = require('fs');
 const path = require('path');
 const { COUNTRIES } = require('../public/js/trip-data.js');
 const { normalizeCityName } = require('../lib/trip-engine.js').internals;
+const { excludePlace } = require('./communes-corrections.js');
 
 const ROOT = path.join(__dirname, '..');
 const DATA = path.join(ROOT, 'public', 'data');
@@ -65,6 +66,53 @@ const GB_REGION_RESTRICTED_LANGS = (() => {
   return out;
 })();
 
+// NETTOYAGE DES NOMS ALTERNATIFS (septembre 2026, audit n° 10) — appliqué aux lignes EXISTANTES (y compris celles
+// écrites par les scripts d'alias par lot, que ce script relit toujours en dernier) comme aux lignes ajoutées.
+// GeoNames recopie parfois, depuis Wikipédia/Wikidata, des marques de direction INVISIBLES collées au nom (LRM U+200E,
+// RLM U+200F, enchâssements U+202A–U+202E, isolats U+2066–U+2069, ALM U+061C, BOM U+FEFF) — « غجر‎ », « Riha‎ »,
+// « ‎Welcome » —, plus rarement des caractères de contrôle C0/C1, et une ponctuation de liste restée collée au nom :
+// virgule finale (« ورګون, », « Tobar an Iarla, »), virgule arabe (« ماین، »), deux-points initial (« : ناعورة »),
+// point final après une écriture arabe/hébraïque (« مجدل شمس. »), guillemet fermant orphelin (« Çatalhüyük”. »). Ces
+// caractères rendent l'alias introuvable par une saisie normale et s'affichent de travers. Ils sont retirés ; l'alias
+// est écarté s'il devient vide, identique au nom publié ou doublon d'une autre ligne. CONSERVÉS volontairement :
+// ZWNJ/ZWJ (U+200C/U+200D, orthographe persane, ourdoue, indienne…), l'espace sans chasse U+200B (séparateur de mots
+// en birman, thaï, lao) et le point d'abréviation (« บ้าน สปก. », « Sopochina Ye. »).
+const ALIAS_CONTROL_RE = /[\u0000-\u001F\u007F\u061C\u200E\u200F\u202A-\u202E\u2066-\u2069\uFEFF]/g;
+// Caractère de contrôle C1 (U+0080–U+009F) = texte mal décodé (« Alto Igarap<U+0090> Açu », « <U+009F>AA¬²± » pour
+// Ottawa) : la lettre d'origine est perdue, l'alias est écarté plutôt que « réparé » (chaîne vide -> ligne retirée).
+const ALIAS_MOJIBAKE_RE = /[\u0080-\u009F]/;
+// ALIAS PARASITES (suite de l'audit n° 10) — même logique, alias écartés (chaîne vide) :
+//   - point d'interrogation (ASCII ou pleine chasse) : caractère perdu à l'encodage (« ?江 » pour Qijiang, « 天?观 ») ou
+//     doute du contributeur (« Hiisistö ? », « Plekka? », « 无名? » = « sans nom ? ») — jamais un vrai nom de lieu ;
+//   - trait d'union isolé en tête ou en fin : nom tronqué (« Odorovsi- », « ΑΓΙ- ΙΩΑΝΝ- », « -āleḩābād ») ;
+//   - commentaire d'éditeur (« no such place », « delete? », « not a PPL », « unknown », « not found ») : aucun cas
+//     restant dans les alias, gardé en garde-fou (le lieu TM « There's no such a place here. » et ses alias sont
+//     écartés à la source, voir communes-corrections.js).
+// Point final isolé (« Stettin. », « Cair Ruairidh. ») : le point est retiré, SAUF abréviation — dernier mot de moins de
+// 5 lettres (« orta mah. », « Sopochina Ye. »), autre point ou barre dans l'alias (« Waldkirchen/Erzgeb. »), dernier mot
+// début d'un mot du nom publié (« Neustadt Vogtl. » pour Neustadt Vogtland), écriture autre que latine/cyrillique/grecque
+// (« บ้าน สปก. », abréviation thaïe).
+// GARDÉS : « 无名坑 », « 無名 » (Nameless, Tennessee ; No Name, Colorado), « Безымянное » — vrais noms de lieux.
+const ALIAS_JUNK_RE = /[?\uFF1F]|^[-\u2010-\u2014]|[-\u2010-\u2014]$|\b(no such|delete\?|not a PPL|unknown|not found)\b/i;
+function cleanAliasText(text, canonical){
+  text = String(text || '');
+  if(ALIAS_MOJIBAKE_RE.test(text)) return '';
+  let t = text.replace(ALIAS_CONTROL_RE, '')
+    .replace(/^[\s:,\u060C\u061B]+/, '')
+    .replace(/[\s,\u060C\u061B]+$/, '')
+    .replace(/([\u0590-\u08FF])\.$/, '$1')
+    .replace(/^([^\u201C\u201D\u201E"]*)[\u201D"]\.$/, '$1')
+    .trim();
+  if(ALIAS_JUNK_RE.test(t)) return '';
+  const m = t.match(/([\p{Script=Latin}\p{Script=Cyrillic}\p{Script=Greek}]+)\.$/u);
+  if(m && m[1].length >= 5 && !/[./]/.test(t.slice(0, -1))){
+    const w = m[1].toLowerCase();
+    const abbrev = String(canonical || '').toLowerCase().split(/[\s\-\/]+/).some(x => x !== w && x.startsWith(w));
+    if(!abbrev) t = t.slice(0, -1).trim();
+  }
+  return t;
+}
+
 function eachLine(raw, fn){
   let pos = 0;
   while(pos < raw.length){
@@ -100,7 +148,7 @@ for(const cc of Object.keys(COUNTRIES)){
   });
 
   // Entrées GeoNames : par point (4 décimales) et, pour la classe P, par nom normalisé.
-  const byPoint = new Map(), pByName = new Map();
+  const byPoint = new Map(), pByName = new Map(), excludedNames = new Set();
   eachLine(fs.readFileSync(dumpPath, 'utf8'), line => {
     const c = line.split('\t');
     const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
@@ -108,6 +156,7 @@ for(const cc of Object.keys(COUNTRIES)){
     const e = { id: c[0], norm: normalizeCityName(c[1]), ascii: normalizeCityName(c[2]), cls: c[6], lat, lon };
     const k = lat.toFixed(4) + ',' + lon.toFixed(4);
     const l = byPoint.get(k); if(l) l.push(e); else byPoint.set(k, [e]);
+    if(c[6] === 'P' && excludePlace(cc, c[0], c[1], lat, lon)) excludedNames.add(c[1]);
     if(c[6] === 'P'){
       [e.norm, e.ascii].forEach((n, i) => { if(i && n === e.norm) return; const m = pByName.get(n); if(m) m.push(e); else pByName.set(n, [e]); });
     }
@@ -140,8 +189,34 @@ for(const cc of Object.keys(COUNTRIES)){
   // dans le nom). Rattachées au nom publié quand une ligne du même groupe le donne comme nom alternatif
   // (da;København;Copenhagen -> København), écartées sinon.
   const publishedNames = new Set(published.map(p => p.name));
+  const normByName = new Map(published.map(p => [p.name, p.norm]));
+  // Nettoyage des lignes existantes (voir cleanAliasText). Une ligne nettoyée qui retombe sur une ligne déjà présente
+  // (même langue, même nom normalisé, même lieu : « غجر‎ » à côté de « غجر ») est retirée ; les autres lignes ne sont
+  // jamais touchées, ni réordonnées.
+  const keyOf = (lang, text, name) => lang + '|' + normalizeCityName(text) + '|' + name;
+  const untouchedKeys = new Set();
+  existing.forEach(l => { const p = l.split(';'); if(p.length === 3 && cleanAliasText(p[1], p[2]) === p[1]) untouchedKeys.add(keyOf(p[0], p[1], p[2])); });
+  const cleanedKeys = new Set();
+  let cleanedAliases = 0, droppedDirty = 0, dedupDirty = 0;
+  existing = existing.map(l => {
+    const p = l.split(';');
+    if(p.length !== 3) return l;
+    const t = cleanAliasText(p[1], p[2]);
+    if(t === p[1]) return l;
+    const n = normalizeCityName(t);
+    if(!n || n === (normByName.get(p[2]) || normalizeCityName(p[2]))){ droppedDirty++; return null; }
+    const k = keyOf(p[0], t, p[2]);
+    if(untouchedKeys.has(k) || cleanedKeys.has(k)){ dedupDirty++; return null; }
+    cleanedKeys.add(k);
+    cleanedAliases++;
+    return p[0] + ';' + t + ';' + p[2];
+  }).filter(Boolean);
+  // Lieux écartés VOLONTAIREMENT par les générateurs de communes (scripts/communes-corrections.js : lieu rangé dans le
+  // mauvais pays, lieu disparu « (historical) », base antarctique sous AR, Sercq) : leurs lignes sont écartées, JAMAIS
+  // rattachées à un autre lieu — sinon « es;Almirante Brown;Brown Station » (base antarctique retirée de
+  // communes-ar.txt) serait rattachée à la ville d'Almirante Brown (province de Buenos Aires), homonyme sans rapport.
   const renameOrphan = new Map();
-  existing.forEach(l => { const p = l.split(';'); if(p.length === 3 && !publishedNames.has(p[2]) && publishedNames.has(p[1])) renameOrphan.set(p[2], p[1]); });
+  existing.forEach(l => { const p = l.split(';'); if(p.length === 3 && !publishedNames.has(p[2]) && !excludedNames.has(p[2]) && publishedNames.has(p[1])) renameOrphan.set(p[2], p[1]); });
   let fixedOrphans = 0, droppedOrphans = 0;
   existing = existing.map(l => {
     const p = l.split(';');
@@ -155,6 +230,7 @@ for(const cc of Object.keys(COUNTRIES)){
   }).filter(Boolean);
   existing = [...new Set(existing)];
   if(fixedOrphans || droppedOrphans) console.log(cc + ' : lignes orphelines rattachées ' + fixedOrphans + ', écartées ' + droppedOrphans);
+  if(cleanedAliases || droppedDirty || dedupDirty) console.log(cc + ' : alias nettoyés ' + cleanedAliases + ', écartés (vides ou égaux au nom) ' + droppedDirty + ', doublons d\'une ligne existante ' + dedupDirty);
   const seen = new Set(existing.map(l => { const p = l.split(';'); return p[0] + '|' + normalizeCityName(p[1]) + '|' + p[2]; }));
   const existingLangs = new Set(existing.map(l => l.split(';')[0]));
 
@@ -170,7 +246,7 @@ for(const cc of Object.keys(COUNTRIES)){
     const c = line.split('\t');
     const p = placeById.get(c[1]);
     if(!p) return;
-    const rawLang = c[2], text = c[3];
+    const rawLang = c[2], text = cleanAliasText(c[3], p.name);
     // Noms historiques (isHistoric) et familiers (isColloquial : « Ville-Lumière » pour Paris) exclus.
     if(!text || c[7] === '1' || c[6] === '1') return;
     const lang = remap[rawLang] || LANG_REMAP[rawLang] || rawLang;
@@ -193,7 +269,7 @@ for(const cc of Object.keys(COUNTRIES)){
   added.forEach(l => { const lg = l.slice(0, l.indexOf(';')); totals.byLang[lg] = (totals.byLang[lg] || 0) + 1; });
   console.log(cc + ' : ' + published.length + ' lieux, ' + placeById.size + ' rattachés (' + byCoords + ' par coordonnées, ' + byName +
     ' par nom), ' + existing.length + ' alias existants, +' + added.length + (DRY ? ' (mesure)' : ''));
-  if(!DRY && (added.length || fixedOrphans || droppedOrphans)){
+  if(!DRY && (added.length || fixedOrphans || droppedOrphans || cleanedAliases || droppedDirty || dedupDirty)){
     fs.writeFileSync(outPath, existing.concat(added).join('\n') + '\n', 'utf8');
   }
 }

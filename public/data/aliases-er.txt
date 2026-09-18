@@ -12,8 +12,8 @@ de;Umm Hādschar;Omhājer
 ar;نفاسيت;Nefasīt
 ti;ናቐፋ;Nak’fa
 ar;نقفا;Nak’fa
-ar;نقفة‎;Nak’fa
-ar;النقفة‎;Nak’fa
+ar;نقفة;Nak’fa
+ar;النقفة;Nak’fa
 ar;ناغفا;Nak’fa
 ar;ناكفا;Nak’fa
 fr;Massaoua;Massawa
@@ -25,7 +25,7 @@ ti;ምጽዋዕ;Massawa
 am;ምጽዋ;Massawa
 pt;Maçuá;Massawa
 ti;Mĭts’ĭwwa;Massawa
-ar;مسكول‎‎;Mescul
+ar;مسكول;Mescul
 ti;Mersa Tehlay;Mersa Tek’lay
 ti;መርሳ ጉልቡብ;Mersa Gulbub
 ti;መርሳ ፋጥማ;Mersa Fat’ma
@@ -67,7 +67,7 @@ nl;Ghinda;Ghinda’e
 fr;Ghinda;Ghinda’e
 it;Dembe;Gahtielay
 ar;فلفل;Filfil
-ar;علابرعد‎‎;Ela Beridi
+ar;علابرعد;Ela Beridi
 ti;‘Idī;Edd
 ar;إد;Edd
 ar;إدي;Edd

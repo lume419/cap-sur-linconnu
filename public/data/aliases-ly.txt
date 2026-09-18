@@ -76,7 +76,7 @@ fr;Al Bayda;Al Bayḑā’
 de;Al Bayda;Al Bayḑā’
 pt;Al Bayda;Al Bayḑā’
 ar;قرية البيضاء;Al Bayḑā’
-ar;الأبيار‎;Al Abyār
+ar;الأبيار;Al Abyār
 ar;الأبرق;Al Abraq
 de;Adschdabiya;Ajdabiya
 ar;شعبية إجدابيا;Ajdabiya
@@ -228,7 +228,6 @@ fr;Beni Ulid;Bani Walid
 ar;بني وليد;Bani Walid
 ar;قصر ليبيا;Bani Walid
 ar;قرية القيعان;Qaryat al Qī‘ān
-ar;الزنتان‎;Zintan
 ru;Эз-Зинтан;Zintan
 de;As-Sintan;Zintan
 fr;Zentan;Zintan

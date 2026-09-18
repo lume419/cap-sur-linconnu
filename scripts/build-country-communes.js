@@ -4,6 +4,7 @@
 // (communes-es.txt), pas dans chaque ligne — cohérent avec le choix "un fichier par pays".
 const fs = require('fs');
 const path = require('path');
+const { excludePlace } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
 
 const COUNTRIES = []; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
 // d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/
@@ -421,6 +422,13 @@ function cleanName(raw){ return (NAME_OVERRIDES[raw] || raw).replace(/Ð/g, 'Đ'
 // (2 lieux : Sercq elle-même et le manoir "La Seigneurie" qui s'y trouve) plutôt que par
 // coordonnées : la plus petite île du lot n'a pas de zone dédiée simple à borner sans risquer
 // d'exclure par erreur un lieu de Guernesey proprement dit.
+// CORRECTION (septembre 2026, audit n° 10) : l'exclusion par nom laissait passer les 14 autres hameaux de l'île (La
+// Collinette, Le Grand Fort, La Vaurocque…), publiés dans communes-gg.txt malgré « Sercq exclue » (README). Elle est
+// complétée par une ZONE (isSark dans communes-corrections.js, appliquée par excludePlace ci-dessous) : la même boîte
+// que la règle d'île « sark » de scripts/iles/iles-atlantique-nord.js, vérifiée sans risque pour Guernesey (côte est
+// à 2,52° O) et Herm (2,45° O). La liste de noms reste en place, inoffensive. Ce script ne peut plus être relancé
+// pour GG (aucun fichier postal GG dans scripts/postal) : le même filtre a été appliqué au fichier publié par le
+// script de l'audit, ligne pour ligne (14 lignes retirées, rien d'autre).
 const SARK_EXCLUDE_NAMES = new Set(['Sark', 'La Seigneurie']);
 // "Yomala" (geonameid 13527044, AX) est un doublon manifeste de la commune "Jomala" (geonameid
 // 3041760, même admin2 212/170, coordonnées à ~2 km, code de lieu PPLA2 identique) — une confusion
@@ -488,7 +496,7 @@ for(const country of COUNTRIES){
   // code, country, cc2, admin1, admin2, admin3, admin4, population, elevation, dem, timezone, mod
   const rows = dumpRaw.split('\n').filter(Boolean).map(line => line.split('\t'));
   const places = rows
-    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
+    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace(country, c[0], c[1], parseFloat(c[4]), parseFloat(c[5])))
     .map(c => ({
       name: cleanName((ASCIINAME_FALLBACK_COUNTRIES.has(country) && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1]),
       lat: parseFloat(c[4]),

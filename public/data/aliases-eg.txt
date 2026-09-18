@@ -182,7 +182,6 @@ ar;جهينة;Juhaynah
 en;Jirja;Girga
 ar;جرجا;Girga
 ru;Гирга;Girga
-ar;جراجوس‎;Jarājūs
 ar;جراجوس;Jarājūs
 en;Ezbet el-Burg;‘Izbat al Burj
 ar;عزبة البرج;‘Izbat al Burj

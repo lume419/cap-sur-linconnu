@@ -158,7 +158,6 @@ ru;Мадждаль-Шамс;Majdal Shams
 ar;مجدل الشمس;Majdal Shams
 he;מג’דל שמס;Majdal Shams
 he;מַגְ'דַל שַׁמְס;Majdal Shams
-ar;مجدل شمس.‎;Majdal Shams
 ar;معرة مصرين;Ma‘arratmişrīn
 ar;معرتمصرين;Ma‘arratmişrīn
 ar;قباسين;Qabbāsīn
@@ -179,7 +178,7 @@ uk;Кафранбель;Kafranbel
 ur;کفر نبل;Kafranbel
 ru;Кафранбель;Kafranbel
 ar;كفر لاها;Kafr Lāhā
-ar;الحولة‎‎;Kafr Lāhā
+ar;الحولة;Kafr Lāhā
 ar;كفر بهم;Kafr Buhum
 ar;الغانية;Kafr Buhum
 ar;الغسانية;Kafr Buhum

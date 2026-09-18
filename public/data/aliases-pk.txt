@@ -2746,7 +2746,7 @@ en;Badlot;Badio
 fa;بدلوت;Badio
 ur;بدلوٹ;Badio
 nl;Badlot;Badio
-sd;بدين‎;Badin
+sd;بدين;Badin
 ru;Бадин;Badin
 ur;بھدر;Bhaddar
 sd;بدو ملهي;Baddomalhi

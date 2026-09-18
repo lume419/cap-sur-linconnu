@@ -49,7 +49,7 @@ fr;Kouti;Nkoutie
 fr;Koutchankap;Nkounchankap
 fr;Koutaba;Nkoutaba
 pt;Kousseri;Kousséri
-ar;القصور‎;Kousséri
+ar;القصور;Kousséri
 ar;قصور;Kousséri
 ar;كوسيري;Kousséri
 fr;Koussam;Nkoussam

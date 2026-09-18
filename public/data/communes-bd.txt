@@ -38898,7 +38898,6 @@
 0;88.1707,25.8531;5130;Rangpur Division;Chowraogi
 0;88.2339,25.9576;5120;Rangpur Division;Alsla
 0;88.2413,25.9163;5120;Rangpur Division;Shialdangi
-0;88.2413,25.8511;5130;Rangpur Division;Unknown
 0;88.1637,25.9948;5120;Rangpur Division;Dimpukur
 0;88.2519,25.9981;5120;Rangpur Division;Durllabhpur
 0;88.2618,25.9975;5120;Rangpur Division;Chandan Chaha

@@ -5891,11 +5891,12 @@ module.exports = {
    "operator": "Norled",
    "durationH": 0.4,
    "distanceKm": 6,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -5906,7 +5907,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes », sauf Larsnes–Åram). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes », sauf Larsnes–Åram). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Møre og Romsdal (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "gossa",
@@ -5916,11 +5917,12 @@ module.exports = {
    "operator": "Fjord1",
    "durationH": 0.4,
    "distanceKm": 6,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -5931,7 +5933,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Møre og Romsdal (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -5941,11 +5943,12 @@ module.exports = {
    "operator": "Fjord1",
    "durationH": 0.4,
    "distanceKm": 7,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -5956,7 +5959,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Møre og Romsdal (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -5966,11 +5969,12 @@ module.exports = {
    "operator": "Fjord1",
    "durationH": 0.4,
    "distanceKm": 7,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -5981,7 +5985,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Møre og Romsdal (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -5991,11 +5995,12 @@ module.exports = {
    "operator": "Fjord1",
    "durationH": 0.3,
    "distanceKm": 4,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6006,7 +6011,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Møre og Romsdal (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6016,11 +6021,12 @@ module.exports = {
    "operator": "Fosen Linjen",
    "durationH": 0.3,
    "distanceKm": 4,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6031,7 +6037,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6041,11 +6047,12 @@ module.exports = {
    "operator": "Fosen Linjen",
    "durationH": 0.8,
    "distanceKm": 14,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6056,7 +6063,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6116,11 +6123,12 @@ module.exports = {
    "operator": "Fosen Linjen",
    "durationH": 0.5,
    "distanceKm": 27,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6131,7 +6139,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27 km à vol d'oiseau entre les terminaux OpenStreetMap de Dyrøy (node/13438193071) et de Sørburøy (node/11048045175), au lieu de 8 ; durée non vérifiée (ligne Dyrøy–Øyrekken à escales)."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27 km à vol d'oiseau entre les terminaux OpenStreetMap de Dyrøy (node/13438193071) et de Sørburøy (node/11048045175), au lieu de 8 ; durée non vérifiée (ligne Dyrøy–Øyrekken à escales). 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6141,11 +6149,12 @@ module.exports = {
    "operator": "FosenNamsos Sjø",
    "durationH": 0.3,
    "distanceKm": 5,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6156,7 +6165,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6166,11 +6175,12 @@ module.exports = {
    "operator": "FosenNamsos Sjø",
    "durationH": 0.2,
    "distanceKm": 2,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6181,7 +6191,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6191,11 +6201,12 @@ module.exports = {
    "operator": "Torghatten Trafikkselskap",
    "durationH": 0.3,
    "distanceKm": 5,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6206,7 +6217,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6216,11 +6227,12 @@ module.exports = {
    "operator": "Vidar Hop Skyssbåter",
    "durationH": 0.2,
    "distanceKm": 3,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6231,7 +6243,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6241,11 +6253,12 @@ module.exports = {
    "operator": "Boreal Sjø",
    "durationH": 0.4,
    "distanceKm": 8,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6256,7 +6269,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6266,11 +6279,12 @@ module.exports = {
    "operator": "Boreal Sjø",
    "durationH": 0.8,
    "distanceKm": 15,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6281,7 +6295,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6291,11 +6305,12 @@ module.exports = {
    "operator": "Barents",
    "durationH": 0.2,
    "distanceKm": 3,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6306,7 +6321,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6316,11 +6331,12 @@ module.exports = {
    "operator": "Boreal Sjø",
    "durationH": 0.3,
    "distanceKm": 5,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6331,7 +6347,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6341,11 +6357,12 @@ module.exports = {
    "operator": "Boreal Sjø",
    "durationH": 0.5,
    "distanceKm": 8,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6356,7 +6373,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6366,11 +6383,12 @@ module.exports = {
    "operator": "Torghatten Nord",
    "durationH": 0.6,
    "distanceKm": 10,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6381,7 +6399,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6391,11 +6409,12 @@ module.exports = {
    "operator": "Torghatten Nord",
    "durationH": 1.5,
    "distanceKm": 30,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6406,7 +6425,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6416,11 +6435,12 @@ module.exports = {
    "operator": "Torghatten Nord",
    "durationH": 2,
    "distanceKm": 40,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6431,7 +6451,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6441,11 +6461,12 @@ module.exports = {
    "operator": "Torghatten Nord",
    "durationH": 0.4,
    "distanceKm": 28,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6456,7 +6477,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27,8 km entre les quais (https://www.fergeruter.info/timetable/nordnesoy-kilboghamn_rodyoysambandet), au lieu de 7 ; durée non vérifiée (Rødøysambandet à escales)."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27,8 km entre les quais (https://www.fergeruter.info/timetable/nordnesoy-kilboghamn_rodyoysambandet), au lieu de 7 ; durée non vérifiée (Rødøysambandet à escales). 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6466,11 +6487,12 @@ module.exports = {
    "operator": "Torghatten Nord",
    "durationH": 0.3,
    "distanceKm": 5,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6481,7 +6503,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6491,11 +6513,12 @@ module.exports = {
    "operator": "Torghatten Nord",
    "durationH": 0.7,
    "distanceKm": 12,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6506,7 +6529,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6516,11 +6539,12 @@ module.exports = {
    "operator": "Torghatten Nord",
    "durationH": 1.2,
    "distanceKm": 22,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6531,7 +6555,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",
@@ -6541,11 +6565,12 @@ module.exports = {
    "operator": "Torghatten Nord",
    "durationH": 0.3,
    "distanceKm": 4,
+   "priceStatus": "variable",
    "priceByClass": {
-    "1": 0,
-    "2": 0,
-    "5": 0,
-    "foot": 0
+    "1": null,
+    "2": null,
+    "5": null,
+    "foot": null
    },
    "currency": "NOK",
    "original": {
@@ -6556,7 +6581,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",

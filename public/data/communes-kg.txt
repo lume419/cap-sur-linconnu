@@ -413,7 +413,6 @@
 0;78.3917,42.6233;KG-07;Issyk-Kul;Kurbu
 0;72.9167,40.5833;KG;;Kurbantal-Mady
 386;78.3288,42.5049;KG-07;Issyk-Kul;Cherik
-0;75.6667,41.7333;KG;;Kum-Bel’ (not a PPL, delete?)
 0;72.7234,41.1171;KG-03;Jalal-Abad Region;Gologon
 0;72.7774,40.9833;KG-03;Jalal-Abad Region;Kolot
 0;75.5061,41.3624;KG-04;Naryn Region;Kulanak
@@ -689,7 +688,6 @@
 0;77.8855,42.3114;KG-07;Issyk-Kul;Darkhan
 0;77.7852,42.2748;KG-07;Issyk-Kul;Chychkan
 0;71.1225,41.7826;KG-03;Jalal-Abad Region;Chukurchak
-0;72.7000,40.2500;KG;;Chukur (only fields... delete?)
 0;73.0045,40.9001;KG-03;Jalal-Abad Region;Chëkë-Dëbë
 0;76.1857,41.4552;KG-04;Naryn Region;Chet-Nura
 0;77.8487,42.7395;KG-07;Issyk-Kul;Chon-Uryukty
@@ -746,7 +744,6 @@
 0;75.2695,42.7503;KG-02;Chuy Region;Burana
 0;74.1995,40.3553;KG-08;Osh Region;Burachaty
 0;71.7952,41.6287;KG-03;Jalal-Abad Region;Buma
-0;73.6000,40.6667;KG;;Bulak (Bulak = Source/Water, not inhabited, delete?)
 0;72.5692,42.4839;KG-06;Talas Region;Chatbazar
 5237;77.9515,42.4325;KG-07;Issyk-Kul;Boz-Beshik
 0;77.1859,42.6595;KG-07;Issyk-Kul;Bosteri

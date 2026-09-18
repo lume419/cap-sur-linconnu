@@ -11611,7 +11611,6 @@ el;Παλιό Σκυλίτσι;Palaió Skyllítsi
 el;Παλαιό Σκυλίτσι;Palaió Skyllítsi
 el;Παλαιό Όλβιο;Palaió Ólvio
 el;Παλαιόν Όλβιον;Palaió Ólvio
-el;ΠΑΛΑΙ- ΚΕΡΑΜΙΔΙ-;Palaió Keramídi
 el;Παλαιό Κεραμίδι;Palaió Keramídi
 el;Παλαιόν Κεραμίδιον;Palaió Keramídi
 el;Παλαιό Κατράμι;Palaió Katrámi
@@ -13642,7 +13641,6 @@ el;Άγιος Χριστόφορος;Áyios Khristóforos
 en;Agios Christoforos;Áyios Khristóforos
 bg;Агиос Хараламбос;Ágios Charálampos
 el;Áyios Kharálambos;Ágios Charálampos
-el;ΑΓΙ- ΙΩΑΝΝ-;Káto Ágios Ioánnis
 el;Κάτω Άγιος Ιωάννης;Káto Ágios Ioánnis
 bg;Агиос Илиас;Ágios Ilías
 bg;Стара баня;Ágios Dimítrios

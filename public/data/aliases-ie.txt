@@ -12,7 +12,7 @@ ga;An Coireán;Waterville
 ga;Cnocán na Biolraí;Watergrasshill
 ga;Port Láirge;Waterford
 en;Waterford city;Waterford
-ga;Tobar an Iarla,;Waterfall
+ga;Tobar an Iarla;Waterfall
 ga;Baile an Bhiocáire;Vicarstown
 ga;Garraí Thancaird;Upton
 ga;Bealach an Tirialaigh;Tyrrellspass

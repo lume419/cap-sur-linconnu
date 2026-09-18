@@ -43,7 +43,7 @@
   "@type": "WebApplication",
   "name": "Cap sur l'inconnu",
   "url": "https://road.lume419.fr/",
-  "description": "Générateur de road trip surprise basé sur de vraies communes de France, d'Andorre, d'Espagne, du Portugal, de Belgique, des Pays-Bas, du Luxembourg, de Suisse, d'Allemagne, d'Italie, d'Autriche, de Saint-Marin, du Liechtenstein, de Monaco, de Malte, de Guernesey, de Jersey, de République tchèque, de Pologne, de Slovaquie, de Hongrie, de Slovénie, de Croatie, de Bosnie-Herzégovine, du Royaume-Uni, d'Irlande et de l'île de Man, de vrais points d'intérêt OpenStreetMap et les vrais tarifs de péage.",
+  "description": "Générateur de road trip surprise : un itinéraire tiré au sort jour par jour (jusqu'à 21 jours et 15 villes) sur de vrais lieux de 239 pays et territoires, avec de vrais points d'intérêt OpenStreetMap, de vraies traversées en ferry et les vrais tarifs de péage. Interface disponible en 161 langues.",
   "applicationCategory": "TravelApplication",
   "operatingSystem": "Any (navigateur web)",
   "inLanguage": "fr-FR",
@@ -84,7 +84,9 @@
 
   <p class="load-error" id="load-error" role="alert"></p>
 
-  <form class="dash" id="form">
+  <!-- novalidate (10e audit du 18/09/2026) : la validation native (step/min/max) bloquait l'envoi avec une bulle dans la
+       langue du NAVIGATEUR et empêchait #dates-error de s'afficher. La validation est faite par app.js, traduite. -->
+  <form class="dash" id="form" novalidate>
     <div class="dash-head">
       <h2 data-i18n="form.heading">Feuille de route</h2>
       <span id="clock" data-i18n="form.clockPlaceholder">— à remplir —</span>
@@ -136,12 +138,13 @@
       </div>
     </div>
 
-    <div class="toll-field">
+    <div class="toll-field" id="toll-field">
       <label class="toggle-label" for="toll-toggle">
         <input type="checkbox" id="toll-toggle" />
         <span class="toggle-track" aria-hidden="true"><span class="toggle-thumb"></span></span>
         <span class="toggle-text" data-i18n="form.toll.label">Autoroutes à péage autorisées</span>
       </label>
+      <span class="field-hint" id="toll-bike-hint" data-i18n="form.toll.bikeHint" hidden>Sans objet à vélo : les autoroutes sont interdites aux cyclistes.</span>
     </div>
 
     <div class="toll-field">
@@ -171,7 +174,7 @@
       <span class="field-hint" data-i18n="form.tent.hint">Coché : les nuitées à la belle étoile en budget économique sont remplacées par une formule cabane/yourte/gîte.</span>
     </div>
 
-    <div class="radius-field">
+    <div class="radius-field" id="radius-field">
       <label id="radius-label" style="font-weight:700; font-size:.68rem; line-height:1; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-soft);" data-i18n="form.radius.label">Limite de rayon</label>
       <div class="seg" role="group" aria-label="Type de limite" data-i18n-aria-label="form.radius.groupAria">
         <button type="button" id="mode-km" aria-pressed="true" data-i18n="form.radius.modeKm">Distance max (km)</button>
@@ -187,6 +190,7 @@
         <span class="unit" id="radius-unit" data-i18n="form.radius.unitKm">km autour du départ</span>
       </div>
       <span class="field-hint" id="radius-hint-line">S'applique uniquement au <strong>dernier trajet</strong> (le retour)</span>
+      <span class="field-error" id="radius-error" role="alert"></span>
     </div>
 
     <div class="field" id="min-distance-field">
@@ -224,7 +228,8 @@
         </div>
         <span class="unit" data-i18n="form.legDistance.unit">km par trajet au maximum</span>
       </div>
-      <span class="field-hint" data-i18n="form.legDistance.hint">Par défaut : 80 km à vélo, 400 km pour les autres modes. Les traversées en ferry ne comptent pas.</span>
+      <span class="field-hint" data-i18n="form.legDistance.hint">Par défaut : 80 km à vélo, 400 km pour les autres modes. Avec un ferry, seule la route jusqu'au port et depuis le port compte, pas la traversée.</span>
+      <span class="field-error" id="leg-distance-error" role="alert"></span>
     </div>
 
     <div class="field" id="days-per-city-field">

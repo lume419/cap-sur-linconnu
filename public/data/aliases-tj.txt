@@ -1521,7 +1521,7 @@ ru;Бурёбоф;Buryobof
 ru;Буйнак-Манир;Buynak-Manir
 tg;Бувед;Buved
 ru;Бувед;Buved
-fa;بستان‌قلعه‎;Bŭstonqal’a
+fa;بستان‌قلعه;Bŭstonqal’a
 tg;Бӯстонқалъа;Bŭstonqal’a
 ru;Бурма;Burma
 ru;Буре-Тишик;Bure-Tishik

@@ -37,6 +37,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { isAntarcticUnderAR, HISTORICAL_NAME_RE } = require('./communes-corrections.js');
 
 function readAdmin1Names(){
   const map = new Map();
@@ -70,7 +71,7 @@ function writeAll(cc, lines, aliases){
 }
 // Alias : noms alternatifs (non historiques) des entrées rattachées à chaque lieu publié, plus les noms principaux de
 // ces entrées quand ils diffèrent du nom publié.
-function buildAliases(cc, targetById, dumpById){
+function buildAliases(cc, targetById, dumpById, extraAltRows){
   const seen = new Set(), out = [];
   const add = (lang, alt, canonical) => {
     if(!alt || norm(alt) === norm(canonical)) return;
@@ -83,7 +84,7 @@ function buildAliases(cc, targetById, dumpById){
     const c = dumpById.get(id);
     if(c) add('fr', c[1], canonical);
   }
-  altRows(cc).forEach(c => {
+  altRows(cc).concat(extraAltRows || []).forEach(c => {
     const canonical = targetById.get(c[1]);
     const lang = langOf(c[2]);
     if(!canonical || !lang || c[7] === '1') return;
@@ -101,7 +102,17 @@ const km = (a, b) => {
 // ── ANTARCTIQUE ───────────────────────────────────────────────────────────────────────────────────
 {
   const dump = rows('AQ');
-  const dumpById = new Map(dump.map(c => [c[0], c]));
+  // BASES RANGÉES SOUS « AR » (septembre 2026, audit n° 10) : GeoNames range 32 bases de l'Antarctique sous le code
+  // AR, division « Tierra del Fuego » (revendication argentine, gelée par le traité sur l'Antarctique) ; elles étaient
+  // publiées dans communes-ar.txt, doublant pour la plupart une base déjà décrite ici. build-ameriques-communes.js les
+  // écarte désormais (tout lieu AR au sud de 60° S, voir communes-corrections.js) et elles sont reprises ICI : mêmes
+  // critères que ce que retenait le lot Amériques (classe P, hors « (historical) »), puis même règle de doublon que
+  // pour les entrées AQ entre elles, mais toujours APRÈS toutes les entrées AQ — une base déjà décrite sous AQ garde
+  // son nom et ses coordonnées publiés, l'entrée AR ne lui apporte que ses noms en alias ; une base absente d'AQ est
+  // ajoutée telle quelle.
+  const arDump = rows('AR').filter(c => c[6] === 'P' && c[1] && !HISTORICAL_NAME_RE.test(c[1]) && isAntarcticUnderAR('AR', parseFloat(c[4])));
+  const arIds = new Set(arDump.map(c => c[0]));
+  const dumpById = new Map(dump.concat(arDump).map(c => [c[0], c]));
   const HISTORIC = /\(historical\)|\/[A-Za-z. ]+\/\s*$/;
   // Stations météo gardées : seul point GeoNames d'une base habitée (Great Wall 6620755 est doublée par 8521030 STNB,
   // Jubany = Carlini, base argentine habitée, population 60 dans GeoNames).
@@ -115,12 +126,28 @@ const km = (a, b) => {
     if(c[7] === 'STNB') return !HISTORIC.test(c[1]);
     if(c[7] === 'STNM') return STNM_KEEP.has(c[0]);
     return false;
-  }).map(c => ({ c, id: c[0], name: c[1], lat: parseFloat(c[4]), lon: parseFloat(c[5]), pop: parseInt(c[14], 10) || 0,
-    ppl: c[7] !== 'STNB' && c[7] !== 'STNM', w: words(c[1]) }));
-  cands.sort((a, b) => (b.ppl - a.ppl) || (b.pop - a.pop) || (a.id.localeCompare(b.id)));
+  }).concat(arDump).map(c => ({ c, id: c[0], name: c[1], lat: parseFloat(c[4]), lon: parseFloat(c[5]), pop: parseInt(c[14], 10) || 0,
+    ppl: c[7] !== 'STNB' && c[7] !== 'STNM', ar: arIds.has(c[0]) ? 1 : 0, w: words(c[1]) }));
+  cands.sort((a, b) => (a.ar - b.ar) || (b.ppl - a.ppl) || (b.pop - a.pop) || (a.id.localeCompare(b.id)));
   const kept = [];
+  // Entrées AR que la règle générale range mal (vérifiées une par une) :
+  //   - fusionnées de force : Carlini Base (13353913) est la base argentine « Jubany », renommée Carlini en 2012 (500 m,
+  //     aucun mot commun) ; le laboratoire Dallmann (13526693) est un bâtiment de cette même base ; le laboratoire Dirck
+  //     Gerritsz (13526695) est le laboratoire néerlandais installé DANS Rothera (280 m) ; la German Antarctic Receiving
+  //     Station (13512718) est l'antenne GARS de la base O'Higgins — même longitude au mètre près, latitude saisie
+  //     « -62,195 » au lieu de « -63,32 » dans GeoNames (déjà décrite sous AQ : « GARS-O'Higgins », 13353925).
+  //   - jamais fusionnée : Julio Ripamonti (13526702), base chilienne de l'île Ardley, distincte de la base Escudero
+  //     (île du Roi-George, 2,2 km) — le seul mot commun est le prénom « Julio ».
+  const AR_MERGE_INTO = { '13353913': '6620760', '13526693': '6620760', '13526695': '12420904', '13512718': '13512709' };
+  const AR_NO_MERGE = new Set(['13526702']);
   for(const p of cands){
-    const dup = kept.find(k => km(k, p) < 0.1 || (km(k, p) < 3 && [...p.w].some(w => k.w.has(w))));
+    if(AR_MERGE_INTO[p.id]){
+      const target = kept.find(k => k.id === AR_MERGE_INTO[p.id]);
+      if(!target) throw new Error('base AQ absente pour la fusion de ' + p.name);
+      target.merged.push(p.id);
+      continue;
+    }
+    const dup = AR_NO_MERGE.has(p.id) ? null : kept.find(k => km(k, p) < 0.1 || (km(k, p) < 3 && [...p.w].some(w => k.w.has(w))));
     if(dup){ dup.merged.push(p.id); continue; }
     p.merged = [p.id];
     kept.push(p);
@@ -132,7 +159,8 @@ const km = (a, b) => {
   const lines = kept.map(k => line(k.c, k.pop, 'AQ', '', k.name));
   const targetById = new Map();
   kept.forEach(k => k.merged.forEach(id => targetById.set(id, k.name)));
-  writeAll('AQ', lines, buildAliases('AQ', targetById, dumpById));
+  writeAll('AQ', lines, buildAliases('AQ', targetById, dumpById, altRows('AR').filter(c => arIds.has(c[1]))));
+  console.log('  bases lues sous AR : ' + arDump.length + ', ajoutées : ' + kept.filter(k => k.ar).map(k => k.name).join(' | '));
   kept.filter(k => k.merged.length > 1).forEach(k => console.log('  fusion : ' + k.name + ' <- ' + k.merged.slice(1).map(id => dumpById.get(id)[1]).join(' | ')));
 }
 

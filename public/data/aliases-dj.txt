@@ -17,7 +17,7 @@ ar;لويادا;Loyada
 ar;لويعدا;Loyada
 ar;لاوياعادو;Loyada
 ar;أمبولي;Ambouli
-ar;حلحول‎;Holhol
+ar;حلحول;Holhol
 ar;هلهول;Holhol
 ar;درة;Dorra
 es;Yibuti;Djibouti
@@ -41,13 +41,12 @@ ar;علي عدي;‘Ali ‘Addé
 ar;أدي علي;‘Ali ‘Addé
 ar;ادي علي;‘Ali ‘Addé
 ar;عدي علي;‘Ali ‘Addé
-ar;وع‎;Ouê‘a
 ar;غالافي;Gâlâfi
 ar;بلبالا;Balbala
 ar;بالبالا;Balbala
 ar;غورابو;Gorabous
-ar;عنابة‎;Anaba
-ar;أسا هوغود‎;Assa Hougoud
+ar;عنابة;Anaba
+ar;أسا هوغود;Assa Hougoud
 ar;غيراري;Guirrari
 ar;فغال;Fagal
 ar;إغالو;Egahlou

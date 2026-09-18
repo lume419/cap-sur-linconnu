@@ -4541,7 +4541,7 @@ en;Vesëlaya Dolina;Vesela Dolyna
 ru;Весёлая Долина;Vesela Dolyna
 uk;Весела Долина;Vesela Dolyna
 et;Vessela Dolõna;Vesela Dolyna
-ro;Vesela Dolîna,;Vesela Dolyna
+ro;Vesela Dolîna;Vesela Dolyna
 fr;Vesséla Dolyna;Vesela Dolyna
 de;Wessela Dolyna;Vesela Dolyna
 ro;Cleaşniţa;Vesela Dolyna

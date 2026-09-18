@@ -231,7 +231,6 @@
 0;91.6086,27.3906;BT;;Jam Khar
 0;91.6445,27.3392;BT;;Ga Ling
 0;91.7090,27.7323;BT-24;Trashi Yangste;Drakhāng
-0;92.2160,27.6928;BT-19;Trashigang District;Māgo
 0;92.4052,27.5980;BT;;Gorjo
 0;92.1526,27.0378;BT-19;Trashigang District;Ānkāling
 0;91.2484,26.8177;BT-17;Samdrup Jongkhar;Nganglam New

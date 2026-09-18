@@ -310,7 +310,6 @@ fr;Boujniba (MU);Boujniba
 fr;Boujniba (Commune Urbaine);Boujniba
 ar;ابي الجعد (البلدية);Boujniba
 ru;Эр-Рашидия;Errachidia
-ar;الرشيدية‎;Errachidia
 es;Er-Rachidía;Errachidia
 it;Al-Rashidiyya;Errachidia
 ar;الرشيدية;Errachidia

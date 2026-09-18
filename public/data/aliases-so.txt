@@ -56,7 +56,7 @@ so;Mareeg;Mereeg
 nl;Mareeg;Mereeg
 ar;ميط;Maydh
 en;Merca;Marka
-ar;مركة‎;Marka
+ar;مركة;Marka
 am;ማርካ;Marka
 so;Mareero;Mareroo
 so;Buulo Mareer;Bulo Marer
@@ -101,7 +101,7 @@ pt;Hargeisa;Hargeysa
 en;Guriceel;Guriel
 en;Guri'el;Guriel
 en;Gobwen;Goobweyn
-ar;غاروي‎;Garoowe
+ar;غاروي;Garoowe
 de;Garowe;Garoowe
 fr;Garowe;Garoowe
 am;ጋሮወ;Garoowe
@@ -168,7 +168,7 @@ ha;Boosaaso;Bosaso
 om;Boosaaso;Bosaso
 pt;Boosaaso;Bosaso
 en;Boorama;Borama
-ar;بوراما‎;Borama
+ar;بوراما;Borama
 so;Boorama;Borama
 de;Boorama;Borama
 es;Boorama;Borama
@@ -188,7 +188,7 @@ ar;برغال;Bargaal
 nl;Bargal;Bargaal
 so;Balli Aur Barre;Balli Ahur Barre
 it;Baran;Badhan
-ar;برن‎‎، سناج;Badhan
+ar;برن، سناج;Badhan
 so;Baardheere;Bardera
 de;Baardheere;Bardera
 ar;أودينلي;Awdiinle

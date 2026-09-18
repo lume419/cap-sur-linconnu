@@ -12,7 +12,6 @@ ar;غجر;Ghajar
 he;ע'ג'ר;Ghajar
 ar;الغجر;Ghajar
 he;אל ע’גיר;Ghajar
-ar;غجر‎;Ghajar
 he;רג'ר;Ghajar
 de;Ghadschar;Ghajar
 ru;Гаджар;Ghajar
@@ -123,7 +122,6 @@ en;Yokneam Illit;Yoqne‘am ‘Illit
 he;יוקנעם עילית;Yoqne‘am ‘Illit
 he;ירכא;Yirkā
 ar;يركا;Yirkā
-ar;يركا‎;Yirkā
 he;יִרְכָּא;Yirkā
 he;ינון;Yinnon
 he;מסמיה ג;Yinnon
@@ -172,7 +170,7 @@ ru;Ягур;Yagur
 ar;ياغور;Yagur
 he;יפא;Yāfā
 he;יפיע;Yāfā
-ar;يافة الناصرة‎;Yāfā
+ar;يافة الناصرة;Yāfā
 ar;يفيع;Yāfā
 ar;يافا;Yāfā
 ar;يفّيَع;Yāfā
@@ -185,14 +183,13 @@ he;‘Uzeir;‘Uzayr
 he;עזיר;‘Uzayr
 ar;العزير;‘Uzayr
 ar;عزير;‘Uzayr
-ar;عزير‎;‘Uzayr
 he;עֻזֵיר;‘Uzayr
 en;Uzeir;‘Uzayr
 nl;Uzeir;‘Uzayr
 he;עוזייר;‘Uzayr
 he;אם אל קטוף;Umm el Quṭūf
 he;אום אל-קוטוף;Umm el Quṭūf
-ar;أمّ القـُطـُف‎;Umm el Quṭūf
+ar;أمّ القـُطـُف;Umm el Quṭūf
 he;אם אל פחם;Umm el Faḥm
 ar;أم الفحم;Umm el Faḥm
 ar;أُمَّ ٱلْفَحْم;Umm el Faḥm
@@ -205,7 +202,7 @@ he;אודים;Udim
 ru;Удим;Udim
 he;טובא זנגריה;Tūbā Zangarīya
 ar;طوبا الزنغرية;Tūbā Zangarīya
-ar;طوبه زنغرية‎;Tūbā Zangarīya
+ar;طوبه زنغرية;Tūbā Zangarīya
 ar;طوبا الزنغريه;Tūbā Zangarīya
 ar;طوبا زنغرية;Tūbā Zangarīya
 he;טוּבָּא-זַנְגָרִיָה;Tūbā Zangarīya
@@ -327,7 +324,6 @@ he;שפרעם;Shefar‘am
 ar;شفا عمرو;Shefar‘am
 ar;شفاعمرو;Shefar‘am
 en;Shefa-'Amr;Shefar‘am
-ar;شفاعمرو‎;Shefar‘am
 he;שְׁפַרְעָם;Shefar‘am
 he;Shavé Ẕiyyon;Shave Tsiyyon
 he;שבי ציון;Shave Tsiyyon
@@ -342,7 +338,7 @@ he;שַׁעַלְבִים;Sha‘alvim
 he;Sha‘av;Sha‘ab
 he;שעב;Sha‘ab
 he;שאב;Sha‘ab
-ar;شعب‎;Sha‘ab
+ar;شعب;Sha‘ab
 he;שַׁעַבּ;Sha‘ab
 he;שגב;‘Atsmon Segev
 he;עצמון שגב;‘Atsmon Segev
@@ -377,14 +373,14 @@ he;שדי חמד;Sde H̱emed
 he;סביון;Savyon
 he;סַבְיוֹן;Savyon
 he;צנדלה;Ṣandala
-ar;صندلة‎;Ṣandala
+ar;صندلة;Ṣandala
 he;סַנְדַלָה;Ṣandala
 he;צַנְדַלָה;Ṣandala
 he;ס'נדלה;Ṣandala
 ru;Сахнин;Sakhnīn
 he;סח’נין;Sakhnīn
 he;סכנין;Sakhnīn
-ar;سخنين‎;Sakhnīn
+ar;سخنين;Sakhnīn
 he;סַחְ'נִין;Sakhnīn
 he;סִכְנִין;Sakhnīn
 de;Sachnin;Sakhnīn
@@ -397,7 +393,6 @@ nl;Sachnin;Sakhnīn
 tr;Sakhnin;Sakhnīn
 he;סג’ור;Sājūr
 ar;ساجور;Sājūr
-ar;ساجور‎;Sājūr
 he;סָג'וּר;Sājūr
 he;סאג'ור;Sājūr
 he;רמנה;Rummāna
@@ -441,7 +436,6 @@ he;ריחניה;Riẖaniya
 ar;الريحانية;Riẖaniya
 ar;ريحانية;Riẖaniya
 he;רִיחָנִיָּה;Riẖaniya
-ar;الريحانية‎;Riẖaniya
 he;רביבים;Revivim
 he;רְבִיבִים;Revivim
 ru;Ревивим;Revivim
@@ -500,7 +494,7 @@ ru;Рамат-Ган;Ramat Gan
 ar;رمات غان;Ramat Gan
 el;Ραμάτ Γκαν;Ramat Gan
 he;רמה;Rama
-ar;الرامة‎;Rama
+ar;الرامة;Rama
 he;רָמָה;Rama
 he;ראמה;Rama
 en;Ra‘anana;Ra'anana
@@ -583,7 +577,7 @@ he;קדרון;Qidron
 he;קִדְרוֹן;Qidron
 he;קלנסוה;Qalansuwa
 en;Qalansawe;Qalansuwa
-ar;قلنسوة‎;Qalansuwa
+ar;قلنسوة;Qalansuwa
 he;קלנסווה;Qalansuwa
 he;Poriyya ‘Illit;Poria Illit
 he;פוריה עלית;Poria Illit
@@ -700,7 +694,7 @@ he;נין;Nayn
 he;Na‘im;Nayn
 he;נעים;Nayn
 he;ניין;Nayn
-ar;نين‎;Nayn
+ar;نين;Nayn
 de;Naïn;Nayn
 pt;Naim;Nayn
 fr;Naïm;Nayn
@@ -742,12 +736,11 @@ ar;نتسرات;Nazareth
 ar;ناصيرات;Nazareth
 he;נעורה;Nā‘ūra
 he;נָעוּרָה;Nā‘ūra
-ar;: ناعورة‎;Nā‘ūra
+ar;ناعورة;Nā‘ūra
 he;נחף;Naḥf
 en;Nahariya;Nahariyya
 en;Nahariyah;Nahariyya
 ru;Нагария;Nahariyya
-he;‏נהריה;Nahariyya
 de;Naharija;Nahariyya
 nl;Nahariya;Nahariyya
 ar;نهاريا;Nahariyya
@@ -762,7 +755,7 @@ ru;Наария;Nahariyya
 he;נען;Na‘an
 he;נַעַן;Na‘an
 he;מקיבלה;Muqeibila
-ar;مقيبلة‎;Muqeibila
+ar;مقيبلة;Muqeibila
 he;מֻקֵיבִּלָה;Muqeibila
 he;מוצא עלית;Motsa ‘Illit
 he;מצפה רמון;Mitzpe Ramon
@@ -778,7 +771,7 @@ he;מִשְׁמָרוֹת;Mishmarot
 tr;Mişmarot;Mishmarot
 ru;Мишмарот;Mishmarot
 he;משמר הנגב;Mishmar HaNegev
-he;מִשְׁמַר הַנֶּגֶב‎;Mishmar HaNegev
+he;מִשְׁמַר הַנֶּגֶב;Mishmar HaNegev
 de;Mischmar ha-Negev;Mishmar HaNegev
 ru;Мишмар-ха-Негев;Mishmar HaNegev
 fr;Mishmar-Hanegev;Mishmar HaNegev
@@ -867,12 +860,12 @@ he;מָאוֹר;Ma’or
 en;Maor;Ma’or
 he;מג’ד אל-כרום;Majd el Kurūm
 he;בית כרם;Majd el Kurūm
-ar;مجد الكروم‎;Majd el Kurūm
+ar;مجد الكروم;Majd el Kurūm
 he;מַגְ'ד אל-כֻּרוּם;Majd el Kurūm
 he;מע’ר;Maghār
 he;מג'אר;Maghār
 he;מראר;Maghār
-ar;المغار‎;Maghār
+ar;المغار;Maghār
 he;מַעָ'אר;Maghār
 he;מגל;Maggal
 ar;ماغل;Maggal
@@ -906,7 +899,7 @@ he;כּוֹכַב מִיכָאֵל;Kokhav Michael Sobell
 he;מיסר;Meisir
 he;H̱orbat Mesar;Meisir
 he;חרבת מיסר;Meisir
-ar;ميسر‎;Meisir
+ar;ميسر;Meisir
 he;מֵיסִר;Meisir
 en;Kefar Yonah;Kfar Yona
 en;Kefar Yona;Kfar Yona
@@ -984,7 +977,7 @@ he;כפר בילו;Kfar Bilu
 he;כְּפַר בִּילוּ;Kfar Bilu
 he;כוכב אנו אל היג’א;Kaukab Abū el Hījā
 he;Kawkab Abū el Hījā;Kaukab Abū el Hījā
-ar;كوكب أبو الهيجا‎;Kaukab Abū el Hījā
+ar;كوكب أبو الهيجا;Kaukab Abū el Hījā
 he;כַּוּכַּבּ אַבּוּ אל-הִיגַ'א;Kaukab Abū el Hījā
 en;Carmiel;Karmi’el
 en;Qiryat Karmiel;Karmi’el
@@ -995,7 +988,7 @@ ar;כפר יסיף;Kfar Yasif
 ar;كفر ياسيف;Kfar Yasif
 he;כַּפְר יָסִיף;Kfar Yasif
 he;כפר קסם;Kafr Qāsim
-ar;كفر قاسم‎;Kafr Qāsim
+ar;كفر قاسم;Kafr Qāsim
 he;כַּפְר קָאסִם;Kafr Qāsim
 he;כפר קרע;Kafr Qari‘
 ar;كفر قرع;Kafr Qari‘
@@ -1014,9 +1007,9 @@ ar;كفر كنا;Kafr Kannā
 ar;كفركنا;Kafr Kannā
 he;Kafr Kamā;Kafr Kammā
 he;כפר כמא;Kafr Kammā
-ar;كفر كما‎;Kafr Kammā
+ar;كفر كما;Kafr Kammā
 he;כפר ברא;Kafr Barā
-ar;كفر برا‎;Kafr Barā
+ar;كفر برا;Kafr Barā
 he;כַּפְר בַּרָא;Kafr Barā
 ru;Кафр-Бара;Kafr Barā
 en;Kafr Bara;Kafr Barā
@@ -1033,7 +1026,7 @@ he;כברי;Kabri
 he;כַּבְּרִי;Kabri
 ru;Кабри;Kabri
 he;ג’ולס;Jūlis
-ar;جولس‎;Jūlis
+ar;جولس;Jūlis
 he;ג'וּלִס;Jūlis
 he;ג’דידה מכר;Judeida Makr
 ar;مكر جديده;Judeida Makr
@@ -1047,11 +1040,11 @@ ar;لجش;Jīsh
 he;גּוּשׁ חָלָב;Jīsh
 he;ג’ת;Jatt
 he;תל גת;Jatt
-ar;جت‎;Jatt
+ar;جت;Jatt
 he;גַ'ת;Jatt
 he;ג’לג’וליה;Jaljūlya
 he;גלגל;Jaljūlya
-ar;جلجولية‎;Jaljūlya
+ar;جلجولية;Jaljūlya
 he;גַ׳לְג׳וּלְיָה;Jaljūlya
 de;Jaljulija;Jaljūlya
 ru;Джальджулия;Jaljūlya
@@ -1061,16 +1054,16 @@ tr;Jaljulia;Jaljūlya
 he;עספיא;‘Isfiyā
 he;H̱osefa;‘Isfiyā
 he;חוסיפה;‘Isfiyā
-ar;عسفيا‎;‘Isfiyā
+ar;عسفيا;‘Isfiyā
 he;‘Illut;‘Ilūṭ
 he;עלוט;‘Ilūṭ
 he;Illūt;‘Ilūṭ
-ar;عيلوط‎;‘Ilūṭ
+ar;عيلوط;‘Ilūṭ
 he;עִלּוּט;‘Ilūṭ
 he;עילוט;‘Ilūṭ
 he;אכסל;Iksāl
 he;כסלות תבור;Iksāl
-ar;إكسال‎;Iksāl
+ar;إكسال;Iksāl
 ar;اكسال;Iksāl
 he;אבטין;Ibṭīn
 ar;إبطن;Ibṭīn
@@ -1170,7 +1163,7 @@ he;גבעת חיים (איחוד);Giv‘at H̱ayyim Iẖud
 he;גבעת חיים איחוד;Giv‘at H̱ayyim Iẖud
 he;גבעת ברנר;Giv‘at Brenner
 he;גִּבְעַת בְּרֶנֶר;Giv‘at Brenner
-ar;غفعات برينر‎;Giv‘at Brenner
+ar;غفعات برينر;Giv‘at Brenner
 ru;Гиватаим;Givatayim
 en;Giv‘atayim;Givatayim
 he;גבעתים;Givatayim
@@ -1203,7 +1196,7 @@ he;גני תקוה;Ganei Tikva
 en;Gane Tikva;Ganei Tikva
 he;גני תיקווה;Ganei Tikva
 he;גני תקווה;Ganei Tikva
-ar;فسوطة‎;Fassūta
+ar;فسوطة;Fassūta
 he;פַסּוּטָה;Fassūta
 en;Even Yahuda;Even Yehuda
 en;Even Yehudah;Even Yehuda
@@ -1217,7 +1210,7 @@ en;Tirah;Eṭ Ṭīra
 he;א טירה;Eṭ Ṭīra
 he;טירה;Eṭ Ṭīra
 he;א טיבה;Eṭ Ṭaiyiba
-ar;الطيبة‎;Eṭ Ṭaiyiba
+ar;الطيبة;Eṭ Ṭaiyiba
 he;Eṭ Ṭaiyiba;Taiyiba
 he;א טיבה;Taiyiba
 he;טיבה;Taiyiba
@@ -1229,7 +1222,7 @@ he;א שיח’ דנון;Esh Sheikh Dannūn
 he;Esh Sheikh Dāwūd;Esh Sheikh Dannūn
 he;א שיח’ דאוד;Esh Sheikh Dannūn
 he;שייח' דנון;Esh Sheikh Dannūn
-ar;الشيخ دنون‎;Esh Sheikh Dannūn
+ar;الشيخ دنون;Esh Sheikh Dannūn
 he;א רינה;Ar Rayna
 he;ריינה;Ar Rayna
 he;עין יעקב;‘En Ya‘aqov
@@ -1271,7 +1264,7 @@ tr;Elişama;Elishama‘
 he;אל פרידיס;Furaydis
 he;פורידיס;Furaydis
 he;פארדיס;Furaydis
-ar;فريديس‎;Furaydis
+ar;فريديس;Furaydis
 he;פֻרֵידִיס;Furaydis
 de;Elat;Eilat
 ar;إيلات;Eilat
@@ -1304,11 +1297,11 @@ ru;Димона;Dimona
 ar;ديمونا;Dimona
 he;דבירה;Dvira
 he;דיר חנא;Deir Ḥannā
-ar;دير حنا‎;Deir Ḥannā
+ar;دير حنا;Deir Ḥannā
 he;דֵיר חַנָּא;Deir Ḥannā
 he;דיר אל-אסד;Deir el Asad
 he;דֵיר אֶל-אַסַד;Deir el Asad
-ar;دير الأسد‎;Deir el Asad
+ar;دير الأسد;Deir el Asad
 en;Daliyat at Karmil;Daliyat al Karmel
 en;Daliyat ad-Druz;Daliyat al Karmel
 en;Daliyat al-Karmil;Daliyat al Karmel
@@ -1321,8 +1314,8 @@ en;Dalyat el Karmel;Daliyat al Karmel
 en;Daliat al karmel;Daliyat al Karmel
 he;דליית אל כרמל;Daliyat al Karmel
 ar;دالية الكرمل;Daliyat al Karmel
-ar;دَالِيَةُ ٱلْكَرْمِل‎;Daliyat al Karmel
-ar;دَالِيَةِ ٱلْكَرْمِل‎;Daliyat al Karmel
+ar;دَالِيَةُ ٱلْكَرْمِل;Daliyat al Karmel
+ar;دَالِيَةِ ٱلْكَرْمِل;Daliyat al Karmel
 de;Ir haKarmel;Daliyat al Karmel
 pt;Cidade de Carmel;Daliyat al Karmel
 fr;Ir ha-Karmel;Daliyat al Karmel
@@ -1330,7 +1323,7 @@ es;Ciudad Carmel;Daliyat al Karmel
 nl;Carmel City;Daliyat al Karmel
 tr;Kurmul City;Daliyat al Karmel
 he;דבוריה;Dabbūrīya
-ar;دبورية‎;Dabbūrīya
+ar;دبورية;Dabbūrīya
 ru;Дабурия;Dabbūrīya
 en;Daburiyya;Dabbūrīya
 it;Daburiyya;Dabbūrīya
@@ -1348,7 +1341,7 @@ he;בקיעה;Buqei‘a
 he;Bukei’a;Buqei‘a
 he;פקיעין;Buqei‘a
 he;פְּקִיעִין;Buqei‘a
-ar;البقيعة‎;Buqei‘a
+ar;البقيعة;Buqei‘a
 he;אל-בוקיעה;Buqei‘a
 he;בצרון;Biẕẕaron
 he;ביצרון;Biẕẕaron
@@ -1411,7 +1404,7 @@ he;Bet H̱ilkiyya;Bet H̱ilqiyya
 he;בית השטה;Bet HaShitta
 he;בית השיטה;Bet HaShitta
 he;בית גברין;Bet Guvrin
-he;בני דקלים‎;Bet Guvrin
+he;בני דקלים;Bet Guvrin
 he;בית גמליאל;Bet Gamli’él
 he;בֵּית גַּמְלִיאֵל;Bet Gamli’él
 he;בית עזרא;Bet ‘Ezra
@@ -1520,7 +1513,7 @@ nl;Bareket;Bareqet
 tr;Bareket;Bareqet
 he;Bāqa el Gharbiyya;Bāqa el Gharbīya
 he;בקה אל ע’רביה;Bāqa el Gharbīya
-ar;باقة الغربية‎,;Bāqa el Gharbīya
+ar;باقة الغربية;Bāqa el Gharbīya
 he;באקה אל-גרביה;Bāqa el Gharbīya
 ru;Бака-аль-Гарбия;Bāqa el Gharbīya
 en;Baqa al-Gharbiyye;Bāqa el Gharbīya
@@ -1575,7 +1568,7 @@ he;עֲרוּגוֹת;‘Arugot
 he;‘Ar‘ara;‘Ara-‘Ar‘ara
 he;ערערה;‘Ara-‘Ar‘ara
 he;Ar’ara;‘Ara-‘Ar‘ara
-ar;عرعرة‎;‘Ara-‘Ar‘ara
+ar;عرعرة;‘Ara-‘Ar‘ara
 he;עַרְעָרָה;‘Ara-‘Ar‘ara
 en;Ar'ara;‘Ara-‘Ar‘ara
 he;עארה-ערערה;‘Ara-‘Ar‘ara
@@ -1600,7 +1593,7 @@ tr;Akka;Acre
 he;אחיטוב;Aẖituv
 he;אחיסמך;Aẖisamakh
 he;אחיעזר;Aẖi‘ezer
-ar;أحيعيزر‎;Aẖi‘ezer
+ar;أحيعيزر;Aẖi‘ezer
 en;Afule;Afula
 en;Afuli;Afula
 en;El ‘Affūle;Afula
@@ -1620,7 +1613,7 @@ es;Afikim;Afiqim
 nl;Afikim;Afiqim
 tr;Afikim;Afiqim
 he;אבו סנן;Abū Sinān
-ar;أبو سنان‎;Abū Sinān
+ar;أبو سنان;Abū Sinān
 he;אַבּוּ סְנָן;Abū Sinān
 de;Abu Sinan;Abū Sinān
 ru;Абу-Снан;Abū Sinān
@@ -1640,7 +1633,7 @@ ar;الشبلي;Shibli
 he;שיבלי;Shibli
 he;הושעיה;Hosha‘ya
 he;רומת היב;Rumat al-Hayb
-ar;رُمة الهـَيـْب‎;Rumat al-Hayb
+ar;رُمة الهـَيـْب;Rumat al-Hayb
 he;רומת אל-הייב;Rumat al-Hayb
 en;Rumat al-Heib;Rumat al-Hayb
 fr;Rumat al-Heib;Rumat al-Hayb
@@ -1648,7 +1641,7 @@ nl;Roumat al-Hayyib;Rumat al-Hayb
 he;רקפת;Raqqefet
 he;רַקֶּפֶת;Raqqefet
 he;סלמה;Salama
-ar;سلامة‎;Salama
+ar;سلامة;Salama
 ar;وادي سلامة;Salama
 ar;وادي سلامه;Salama
 en;Sallama;Salama
@@ -1688,7 +1681,7 @@ he;ערמשה;‘Aramsha
 he;’Arāmsha;‘Aramsha
 en;Arab al-Aramshe;‘Aramsha
 he;עַרַבּ אל-עַרָמִשָׁה;‘Aramsha
-ar;عرب العرامشة‎;‘Aramsha
+ar;عرب العرامشة;‘Aramsha
 he;עראמשה;‘Aramsha
 he;מרכז שפירא;Merkaz Shapira
 he;מֶרְכַּז שַׁפִּירָא;Merkaz Shapira
@@ -1705,14 +1698,12 @@ en;Bat Hefer;Bat H̱efer
 he;חריש;H̱arish
 he;חָרִישׁ;H̱arish
 he;זמר;Zemer
-ar;زيمر‎;Zemer
-he;זמר‎;Zemer
+ar;زيمر;Zemer
 ru;Земер;Zemer
 he;כרמי יוסף;Karmé Yosef
 he;כַּרְמֵי יוֹסֵף;Karmé Yosef
 he;עין נקובא;‘Ein Naqūbā
 ar;عين نقوبا;‘Ein Naqūbā
-ar;عين نقوبا‎;‘Ein Naqūbā
 he;עֵין נַקוּבָּא;‘Ein Naqūbā
 ru;Айн-Накуба;‘Ein Naqūbā
 en;Ein Naqquba;‘Ein Naqūbā
@@ -1728,7 +1719,7 @@ he;לקיה;Laqiyya
 he;לָקִיָּה;Laqiyya
 he;שגב שלום;Segev Shalom
 he;שקיב א סלם;Segev Shalom
-ar;شقيب السلام‎;Segev Shalom
+ar;شقيب السلام;Segev Shalom
 he;שֶׂגֶב שָׁלוֹם;Segev Shalom
 ru;Сегев-Шалом;Segev Shalom
 en;Shaqib al-Salam;Segev Shalom
@@ -1785,7 +1776,6 @@ en;Bar Yohai;Bar Yoẖay
 he;בַּר יוֹחַאי;Bar Yoẖay
 he;חמם;H̱amam
 he;חמאם;H̱amam
-ar;حمام‎;H̱amam
 he;חַמָּם;H̱amam
 ar;حمام;H̱amam
 he;תל שבע;Tel Sheva‘
@@ -1800,17 +1790,17 @@ he;גִּילוֹן;Gilon
 he;גן נר;Gan Ner
 he;גַּן נֵר;Gan Ner
 he;חרבת אבו תלול;Khirbat Abu Tulūl
-ar;أبو تلول‎;Khirbat Abu Tulūl
+ar;أبو تلول;Khirbat Abu Tulūl
 he;ערערה בנגב;‘Ar‘ara BaNegev
 he;עַרְעָרָה בַּנֶּגֶב;‘Ar‘ara BaNegev
-ar;عرعرة‎;‘Ar‘ara BaNegev
+ar;عرعرة;‘Ar‘ara BaNegev
 he;חורה;H̱ura
-ar;حورة‎;H̱ura
+ar;حورة;H̱ura
 en;Hura;H̱ura
 de;Hura;H̱ura
 ru;Хура;H̱ura
 he;כסיפה;Kuseifa
-ar;كسيفة‎;Kuseifa
+ar;كسيفة;Kuseifa
 he;כְּסֵיפָה;Kuseifa
 he;שהם;Shoham
 he;שוהם;Shoham
@@ -1821,10 +1811,10 @@ tr;Şoham;Shoham
 he;אלעד;El‘ad
 he;מתן;Matan
 he;כמאנה;Kammana
-ar;الكمانه‎;Kammana
+ar;الكمانه;Kammana
 he;מנשית זבדה;Manshīyet Zabda
-ar;منشية الزبدة‎;Manshīyet Zabda
-he;מנשייה זבדה‎;Manshīyet Zabda
+ar;منشية الزبدة;Manshīyet Zabda
+he;מנשייה זבדה;Manshīyet Zabda
 he;גבעת חיים מאחד;Giv‘at H̱ayyim Me’uẖad
 he;גבעת חיים (מאוחד);Giv‘at H̱ayyim Me’uẖad
 he;גבעות בר;Giv'ot Bar
@@ -1842,10 +1832,10 @@ he;יקנעם - מושבה;Yoqneam
 he;Yokneam;Yoqneam
 he;יָקְנְעָם;Yoqneam
 he;כסרא סומיע;Kisra - Sume'a
-ar;كسرا-سميع‎;Kisra - Sume'a
+ar;كسرا-سميع;Kisra - Sume'a
 he;כִּסְרָא-סֻמֵיע;Kisra - Sume'a
 he;מעלה עירון;Maale Iron
-ar;معاليه عيرون‎;Maale Iron
+ar;معاليه عيرون;Maale Iron
 he;צור יצחק;Tsur Itshak
 en;Tzur Yitzhak;Tsur Itshak
 he;צוּר יִצְחָק;Tsur Itshak
@@ -1857,20 +1847,20 @@ he;אום בטין;Umm Batin
 he;אל סייד;AlSayid Tribe
 ar;السي;AlSayid Tribe
 he;ביר הדאג';Bir Hadaj
-ar;بئر هداج‎;Bir Hadaj
+ar;بئر هداج;Bir Hadaj
 he;בנימינה-גבעת עדה;Binyamina-Giv'at Ada
 he;בִּנְיָמִינָה-גִּבְעַת עָדָה;Binyamina-Giv'at Ada
 he;דריג'את;Drijat
-ar;دريجات‎;Drijat
+ar;دريجات;Drijat
 he;יאנוח-ג'ת;Yanuh-Jat
-ar;يانوح-جت‎;Yanuh-Jat
+ar;يانوح-جت;Yanuh-Jat
 he;תרבין א-צאנע (יישוב);Tirabin al-Sana
-ar;ترابين‎;Tirabin al-Sana
+ar;ترابين;Tirabin al-Sana
 he;תראבין א-צאנע;Tirabin al-Sana
 ar;الشبلي - أم الغنم;Shibli–Umm al-Ghanam
 he;שבלי - אום אל-גנם;Shibli–Umm al-Ghanam
 he;שִׁבְּלִי-אֻם אל-עַ'נַם;Shibli–Umm al-Ghanam
-ar;بسمة‎;Basma
+ar;بسمة;Basma
 he;בסמה;Basma
 he;בסמ\ה;Basma
 cs;Tel Kacir;Tel Qatsir

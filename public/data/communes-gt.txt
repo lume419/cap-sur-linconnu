@@ -15946,7 +15946,6 @@
 0;-90.6181,16.9981;GT-12;Petén;Chinatal
 0;-90.3319,17.0196;GT-12;Petén;Nueva Vista Hermosa
 0;-90.2653,17.0110;GT-12;Petén;Buenos Aires
-0;-91.5923,14.0771;GT-20;Suchitepeque;Sisicapa (historical)
 0;-92.0053,15.1985;GT-17;San Marcos;San Pedro
 0;-92.0182,15.2088;GT-17;San Marcos;Sanajabá
 0;-90.7518,16.0601;GT-14;Quiché;Primavera

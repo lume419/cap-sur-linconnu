@@ -51,9 +51,9 @@ module.exports = {
     // ---------- Adriatique ----------
     { a: 'korcula', b: 'lastovo', routeKey: 'velaLukaUbli', name: 'Vela Luka ↔ Ubli (Lastovo)',
       operator: 'Jadrolinija, ligne 604 (Split – Vela Luka – Ubli)', durationH: 1.5, distanceKm: 26,
-      priceStatus: 'unknown', priceByClass: N,
-      source: 'https://www.jadrolinija.hr/hr/putovanje/split_-vela_luka_korcula_-_ubli_lastovo', date: D,
-      note: "Trajekt pour véhicules, toute l'année ; 1 h 30 entre Vela Luka et Lastovo (page Jadrolinija). Le tarif du tronçon Vela Luka-Ubli n'est affiché ni sur la page (chargé par la boutique en ligne) ni dans un document lisible ; le site putovnica.net renvoie 403." },
+      priceByClass: { 1: 31.4, 2: 47.6, 5: 12.2, foot: 6.7 },
+      source: 'https://www.jadrolinija.hr/download/984062e9182a906cc2cdf39238b38cec', date: '2026-09-18',
+      note: "Trajekt pour véhicules, toute l'année ; 1 h 30 entre Vela Luka et Lastovo (page Jadrolinija). Grille 2026 de la ligne 604 (T-604-Lastovo-Vela-Luka-Split-2026.pdf, lien de la page https://www.jadrolinija.hr/hr/putovanje/split_-vela_luka_korcula_-_ubli_lastovo), « CJENIK: VELA LUKA - UBLI », tarif saison (29.05-27.09) : voiture ≤5 m 31,40 €, >5 m 47,60 €, moto 12,20 €, passager 6,70 € ; hors saison 22,30/37,70/8,50/4,50 €. Conducteur payant." },
     // ---------- Méditerranée orientale : Chypre ----------
     { a: 'continental', b: 'cyprus', routeKey: 'tasucuGirne', name: 'Taşucu ↔ Girne (Kyrenia)',
       operator: 'Akgünler Denizcilik (et Filo Denizcilik)', durationH: 6, distanceKm: 120,

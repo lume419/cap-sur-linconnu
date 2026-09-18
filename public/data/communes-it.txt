@@ -15774,7 +15774,6 @@
 0;8.4833,46.0500;28854;Verbano-Cusio-Ossola;Alpe Busarasca
 0;8.4500,46.1000;28853;Verbano-Cusio-Ossola;Alpe Basso
 0;8.2333,46.0500;28846;Verbano-Cusio-Ossola;Alpe Basciumo
-0;8.4000,46.4000;28863;Verbano-Cusio-Ossola;Alpe Balma Rossa (? coordinate GPS ?)
 0;9.7667,46.2333;23020;Sondrio;Alpe Airale
 0;8.1333,46.1167;28842;Verbano-Cusio-Ossola;Alpe Agrosa
 0;9.9167,46.2667;23020;Sondrio;Alpe Acquanegra

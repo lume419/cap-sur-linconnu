@@ -2321,7 +2321,6 @@ bg;Одърне;Odarne
 bg;Одринци;Odrintsi
 bg;Одраница;Odranitsa
 bg;Одоровци;Odorovtsi
-bg;Odorovsi-;Odorovtsi
 bg;Одоровци-kashtata na baba Nadrjda;Odorovtsi
 bg;Османлар;Ocmanlar
 bg;Очуша;Ochusha

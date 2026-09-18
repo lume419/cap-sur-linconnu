@@ -14458,17 +14458,6 @@
 0;-63.6247,-30.2900;AR-05;Cordoba;Las Masitas
 0;-64.2917,-30.4173;AR-05;Cordoba;San Vicente
 0;-63.6597,-30.4296;AR-05;Cordoba;La Angostura
-35;-44.7380,-60.7380;AR-23;Tierra del Fuego;Orcadas Base
-40;-58.4732,-62.1598;AR-23;Tierra del Fuego;Arctowski Station
-9;-58.9046,-62.1843;AR-23;Tierra del Fuego;General Artigas
-30;-59.6641,-62.4790;AR-23;Tierra del Fuego;Arturo Prat Base
-24;-34.6271,-77.8742;AR-23;Tierra del Fuego;Belgrano II Base
-20;-58.9602,-62.1985;AR-23;Tierra del Fuego;Bellingshausen Station
-80;-58.6675,-62.2381;AR-23;Tierra del Fuego;Carlini Base
-35;-58.3907,-62.0851;AR-23;Tierra del Fuego;Comandante Ferraz
-5;-58.9806,-62.2430;AR-23;Tierra del Fuego;Eco-Nelson
-90;-58.9634,-62.2013;AR-23;Tierra del Fuego;Julio Escudero Station
-60;-58.9604,-62.2180;AR-23;Tierra del Fuego;Great Wall Station
 0;-64.8529,-24.4617;AR-10;Jujuy;Lavayén
 0;-65.9621,-22.5387;AR-10;Jujuy;Carahuasi
 0;-65.0424,-23.6108;AR-10;Jujuy;San Lucas
@@ -14545,27 +14534,6 @@
 0;-60.8130,-31.5461;AR-21;Santa Fe;Empalme San Carlos
 0;-60.6964,-33.0921;AR-21;Santa Fe;Arbilla
 0;-60.5060,-33.1304;AR-21;Santa Fe;Puerto Arroyo Seco
-19;-67.1013,-68.1300;AR-23;Tierra del Fuego;San Martín Base
-10;-57.9010,-62.1953;AR-23;Tierra del Fuego;German Antarctic Receiving Station
-30;-64.2578,-65.2458;AR-23;Tierra del Fuego;Vernadsky Research Base
-165;-56.6268,-64.2410;AR-23;Tierra del Fuego;Marambio Base
-68;-58.7883,-62.2228;AR-23;Tierra del Fuego;King Sejong Station
-12;-62.8709,-64.8955;AR-23;Tierra del Fuego;Brown Station
-20;-59.9186,-62.5949;AR-23;Tierra del Fuego;Camara Base
-46;-68.9144,-67.7612;AR-23;Tierra del Fuego;Teniente Luis Carvajal Villaroel Antarctic Base
-16;-58.6667,-62.2376;AR-23;Tierra del Fuego;Dallmann Laboratory
-18;-60.6978,-62.9753;AR-23;Tierra del Fuego;Deception Station
-10;-68.1280,-67.5708;AR-23;Tierra del Fuego;Dirck Gerritsz Laboratory
-7;-56.9907,-63.4025;AR-23;Tierra del Fuego;Ruperto Elichiribehety Antarctic Scientific Station
-33;-60.6753,-62.9770;AR-23;Tierra del Fuego;Gabriel de Castilla Base
-8;-60.7711,-62.4700;AR-23;Tierra del Fuego;Doctor Guillermo Mann Base
-27;-60.3880,-62.6631;AR-23;Tierra del Fuego;Juan Carlos I Antarctic Base
-4;-58.9342,-62.2101;AR-23;Tierra del Fuego;Julio Ripamonti Base
-2;-58.4458,-62.1783;AR-23;Tierra del Fuego;Captain Pieter J. Lenie Base
-32;-59.7414,-62.4491;AR-23;Tierra del Fuego;Maldonado Base
-12;-60.0714,-64.5494;AR-23;Tierra del Fuego;Lieutenant Benjamín Matienzo Air Base
-12;-62.9767,-64.3258;AR-23;Tierra del Fuego;Melchior Base
-20;-57.8822,-63.8006;AR-23;Tierra del Fuego;Mendel Polar Station
 0;-57.5083,-37.8571;AR-01;Buenos Aires;Frente Mar Beach
 0;-56.6788,-36.7633;AR-01;Buenos Aires;Nueva Atlantis
 116;-67.0516,-40.9460;AR-16;Rio Negro;Treneta

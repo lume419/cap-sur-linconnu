@@ -8062,7 +8062,6 @@
 0;-88.4333,14.9500;HN-16;Santa Bárbara Department;El Cuábano
 0;-86.6333,14.9333;HN-15;Olancho Department;El Cuábano
 0;-87.2308,13.9289;HN-08;Francisco Morazán Department;El Cruce
-0;-88.9333,15.3833;HN-06;Cortés Department;El Crique
 0;-85.9167,15.3000;HN-15;Olancho Department;El Crespo
 0;-87.0833,13.6500;HN-07;El Paraíso Department;El Credo
 0;-86.3000,14.7000;HN-15;Olancho Department;El Coyutepe
@@ -8130,7 +8129,6 @@
 0;-86.5167,15.0333;HN-15;Olancho Department;El Copante
 0;-88.7333,14.9667;HN-05;Copán Department;El Copante
 0;-87.5167,13.8500;HN-08;Francisco Morazán Department;El Copante
-0;-88.2167,13.4167;HN-10;Intibucá Department;El Copante
 0;-87.5833,13.7167;HN-08;Francisco Morazán Department;El Copalío
 0;-87.1167,13.4333;HN-02;Choluteca Department;El Copalillo
 0;-86.9833,13.6333;HN-07;El Paraíso Department;El Copal

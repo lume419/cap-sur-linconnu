@@ -51,7 +51,7 @@
   </header>
 
   <div class="legal-card">
-    <p class="legal-updated">Dernière mise à jour : 17 septembre 2026.</p>
+    <p class="legal-updated">Dernière mise à jour : 18 septembre 2026.</p>
 
     <h2>En résumé</h2>
     <p>Ce site ne demande aucun compte, aucun formulaire, aucun cookie, et n'installe aucun traceur ni
@@ -88,21 +88,28 @@
     vous identifierait. Le serveur calcule et répond, sans rien enregistrer ni journaliser au-delà
     de la réponse — même principe que l'export PDF ci-dessous.</p>
     <p>Limitation de débit : pour protéger le service contre les abus, le serveur garde <strong>en mémoire
-    vive uniquement</strong>, pendant une minute au plus, l'adresse IP d'origine des requêtes vers
-    <code>/api/</code>, avec l'heure de chaque requête et le temps de calcul consommé. Ces informations ne
-    sont jamais écrites sur disque, ni journalisées, ni transmises, et disparaissent à l'expiration de la
-    fenêtre ou au redémarrage du serveur. Base légale : intérêt légitime à assurer la disponibilité du
-    service (article 6.1.f du RGPD).</p>
+    vive uniquement</strong> l'adresse IP d'origine de certaines requêtes, avec l'heure de chaque requête :
+    les requêtes vers <code>/api/</code> (nombre de requêtes par minute, requêtes en cours vers les
+    services tiers, temps de calcul consommé) et les téléchargements des plus gros fichiers du site
+    (scripts et feuille de style, limités à 30 par minute). Ces compteurs portent sur la dernière minute ;
+    ils sont purgés toutes les minutes, si bien qu'une adresse IP peut rester en mémoire jusqu'à environ
+    deux minutes après votre dernière requête. Ces informations ne sont jamais écrites sur disque, ni
+    journalisées, ni transmises, et disparaissent au plus tard à ce nettoyage ou au redémarrage du serveur.
+    Base légale : intérêt légitime à assurer la disponibilité du service (article 6.1.f du RGPD).</p>
 
     <h2>Activités, randonnées et photos réelles</h2>
     <p>Pour proposer de vraies activités, randonnées et photos, le site interroge en tâche de fond
-    Wikipédia, OpenStreetMap et Visorando — mais toujours <strong>depuis son propre serveur</strong>,
+    Wikipédia, Wikidata (pour retrouver l'article d'un lieu dans votre langue), OpenStreetMap (serveurs
+    Overpass) et Visorando — mais toujours <strong>depuis son propre serveur</strong>,
     jamais directement depuis votre navigateur : ces services ne reçoivent donc que le nom d'une commune
     ou des coordonnées géographiques, jamais votre adresse IP ni aucune information vous concernant.
     Les requêtes correspondantes envoyées au serveur de ce site (<code>/api/photo</code>,
     <code>/api/pois</code>, <code>/api/hike</code>) contiennent le nom du lieu, ses coordonnées, son pays
     et, pour les photos et randonnées, la langue d'interface (pour choisir l'édition de Wikipédia et la
     langue des résultats).</p>
+    <p>Quand l'un de ces services échoue, le serveur note l'incident dans son journal d'erreurs, avec le
+    nom du lieu ou les coordonnées concernés — jamais votre adresse IP ni aucune information vous
+    concernant.</p>
     <p>Exception : les photographies de lieux sont chargées directement depuis les serveurs de
     <strong>Wikimedia Commons</strong> plutôt que d'être copiées sur ce site, afin de ne rien stocker
     inutilement. Votre navigateur contacte alors directement Wikimedia pour afficher l'image, ce qui leur

@@ -272,17 +272,14 @@ module.exports = [
   { key: 'brava|fogo', source: INTERILHAS + ' ; https://en.wikipedia.org/wiki/Vale_de_Cavaleiros (CV Interilhas, Vale de Cavaleiros/São Filipe ↔ Furna)',
     ports: { brava: [{ cc: 'CV', place: 'Furna' }], fogo: [{ cc: 'CV', place: 'São Filipe' }] } },
 
+  // Vlieland et Schiermonnikoog : aucune liaison (véhicules des visiteurs interdits, 10e audit du 18/09/2026).
   { key: 'continental|wadden-texel', source: 'https://www.teso.nl (TESO, Den Helder ↔ Texel/\'t Horntje)',
     ports: { continental: [{ cc: 'NL', place: 'Den Helder' }], 'wadden-texel': [{ cc: 'NL', place: 't Horntje' }] } },
-  { key: 'continental|wadden-vlieland', source: 'https://www.rederij-doeksen.nl (Rederij Doeksen, Harlingen ↔ Vlieland)',
-    ports: { continental: [{ cc: 'NL', place: 'Harlingen' }], 'wadden-vlieland': [{ cc: 'NL', place: 'Oost-Vlieland' }] } },
   { key: 'continental|wadden-terschelling', source: 'https://www.rederij-doeksen.nl (Rederij Doeksen, Harlingen ↔ West-Terschelling)',
     ports: { continental: [{ cc: 'NL', place: 'Harlingen' }], 'wadden-terschelling': [{ cc: 'NL', place: 'West-Terschelling' }] } },
   // Holwerd → Holwert (nom frison des données)
   { key: 'continental|wadden-ameland', source: 'https://www.wpd.nl (Wagenborg Passagiersdiensten, Holwerd ↔ Nes/Ameland)',
     ports: { continental: [{ cc: 'NL', place: 'Holwert' }], 'wadden-ameland': [{ cc: 'NL', place: 'Nes' }] } },
-  { key: 'continental|wadden-schiermonnikoog', source: 'https://www.wpd.nl (Wagenborg Passagiersdiensten, Lauwersoog ↔ Schiermonnikoog)',
-    ports: { continental: [{ cc: 'NL', place: 'Lauwersoog' }], 'wadden-schiermonnikoog': [{ cc: 'NL', place: 'Schiermonnikoog' }] } },
 
   { key: 'RU|RU-KGD', source: 'https://obl.ru/services/sea/parom/ (Oboronlogistika, Oust-Louga ↔ Baltiïsk)',
     ports: { RU: [{ cc: 'RU', place: 'Ust’-Luga' }], 'RU-KGD': [{ cc: 'RU', place: 'Baltiysk' }] } },

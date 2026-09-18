@@ -36,7 +36,7 @@ ar;أم خرق;Umm Kharaq
 ar;أم السلم;Umm as Salam
 ar;أم القلبان;Umm al Qulbān
 ar;ام الحوض;Umm al Ḩawḑ
-ar;طريف‎‎;Turaif
+ar;طريف;Turaif
 tr;Tureyf;Turaif
 fa;طریف;Turaif
 ar;الطوال;Aţ Ţuwāl
@@ -271,7 +271,7 @@ az;Hail;Ha'il
 de;Hail;Ha'il
 fa;حائل;Ha'il
 pt;Hail;Ha'il
-ar;حفر الباطن‎;Hafar Al-Batin
+ar;حفر الباطن;Hafar Al-Batin
 ru;Хафар Ал-Батин;Hafar Al-Batin
 ar;الحفير;Al Ḩufayr
 ar;هذلولة;Hadhlūlah
@@ -465,7 +465,7 @@ ar;القوارة;Al Quwārah
 ar;القرين;Al Qurayn
 fa;ال قریب;Al Qurayb
 ar;القنفذة;Al Qunfudhah
-ar;القيصومة‎‎;Qaisumah
+ar;القيصومة;Qaisumah
 en;Al Qaysumah;Qaisumah
 fa;القیصومة;Qaisumah
 ru;Эль-Кайсума;Qaisumah

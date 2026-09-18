@@ -16017,7 +16017,6 @@
 0;-3.4912,55.1966;DG11;Dumfries and Galloway;Courance
 0;-3.8266,53.0973;LL24;Conwy;Pentre Du
 0;-3.8431,53.0936;LL24;Conwy;Rhiwddolion
-0;-4.2716,55.8607;G1;Glasgow City;Stobcross (historical)
 0;-0.6359,51.7380;HP5;Buckinghamshire;Bellingdon
 0;-0.6530,51.7248;HP5;Buckinghamshire;Chartridge
 0;-0.6431,51.7319;HP5;Buckinghamshire;Asheridge

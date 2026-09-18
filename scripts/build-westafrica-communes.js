@@ -36,6 +36,7 @@
 // pour cela que le rattachement se fait par coordonnées et jamais par nom.
 const fs = require('fs');
 const path = require('path');
+const { excludePlace } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
 
 const COUNTRIES = ['MR', 'ML', 'SN', 'GM', 'CV', 'GN', 'GW', 'SL', 'LR', 'BF', 'CI', 'GH', 'TG'];
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
@@ -62,7 +63,7 @@ for(const country of COUNTRIES){
   const overrides = NAME_OVERRIDES_BY_COUNTRY[country] || {};
   const raw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
   const places = raw.split('\n').filter(Boolean).map(l => l.split('\t'))
-    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
+    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace(country, c[0], c[1], parseFloat(c[4]), parseFloat(c[5])))
     .map(c => ({
       name: overrides[c[1]] || c[1],
       lat: parseFloat(c[4]), lon: parseFloat(c[5]),

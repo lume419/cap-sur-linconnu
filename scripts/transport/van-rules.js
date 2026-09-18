@@ -1345,9 +1345,11 @@ module.exports = [
     type: "lez",
     country: "ES",
     name: "Ourense",
+    // Centre historique d'Ourense (10e audit du 18/09/2026) : le point précédent (42,194 ; -7,537) tombait ~30 km au
+    // sud-est de la ville, hors de toute commune — la zone n'était jamais signalée.
     near: {
-      lat: 42.194,
-      lon: -7.5371,
+      lat: 42.3363,
+      lon: -7.8637,
       km: 1
     },
     detail: "ZBE d'Ourense : accès sans étiquette environnementale ni permis municipal sanctionné de 200 € depuis le 1er juillet 2026.",

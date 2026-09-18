@@ -937,9 +937,25 @@
       'velo': {speed:15, tollClass:null, ferryClass:'foot'}
     };
 
+    // VOITURE ÉLECTRIQUE (sources vérifiées au 10e audit du 18/09/2026).
+    // Autonomie sur autoroute d'une voiture électrique moyenne récente : 320 km. ev-database.org, « Range of full electric
+    // vehicles » (https://ev-database.org/cheatsheet/range-electric-car) : « Average: 393 km » en conditions réelles
+    // mixtes ; ses fiches « Highway » (110 km/h constants, moyenne froid/doux) valent 0,81 à 0,83 fois la valeur mixte sur
+    // Tesla Model Y LR, Škoda Elroq 85, VW ID.3 Pro et Renault 5 52 kWh — 393 × 0,82 ≈ 323 km ; moyenne directe de leurs
+    // valeurs autoroute : 328 km.
     var EV_RANGE_KM = 320;
 
-    var EV_CHARGE_MARGIN = 0.75;
+    // Part de la batterie utilisée entre deux arrêts : 0,70, soit une recharge de 10 à 80 % — la plage de référence de
+    // l'ADAC pour la recharge rapide sur long trajet (« Schnellladen auf der Langstrecke », 18/03/2026 : au-delà de 80 %,
+    // « dauert das Laden unverhältnismäßig lange ») et celle des durées d'ev-database.org. Recharge tous les
+    // 320 × 0,70 = 224 km par la route. (0,75 auparavant, sans source.)
+    var EV_CHARGE_MARGIN = 0.70;
+
+    // Durée d'un arrêt de recharge rapide de 10 à 80 % : 28 min. Médiane des durées ev-database.org des quatre modèles
+    // ci-dessus (Model Y LR 27 min, Elroq 85 28 min, Renault 5 52 kWh 31 min, ID.3 Pro 24 min ; conditions idéales :
+    // batterie préchauffée, borne assez puissante). Aucune minute ajoutée pour se garer et brancher (aucune source). Le
+    // moteur TIRAIT AU HASARD 25 à 40 min par arrêt jusqu'au 10e audit : la durée affichée changeait d'un tirage à l'autre.
+    var EV_CHARGE_STOP_MIN = 28;
 
     // FRANCE — tarif au kilomètre d'autoroute à péage, recalibré au 7e audit (18/09/2026).
     // La valeur précédente (0,148 €/km) venait de 24 « liaisons Cofiroute » de public/data/toll-reference.json qui ne
@@ -954,96 +970,107 @@
     var TOLL_RATE_BY_CLASS = { 1: 0.104, 2: 0.160, 5: 0.063 };
 
     var TOLL_RATE_BY_COUNTRY = {
+      // CLASSES : 1 = voiture, 2 = « van » (fourgon aménagé ou camping-car de 3,5 t au plus, hauteur habituelle 2,5 à
+      // 2,9 m), 5 = moto. Chaque pays classe ces véhicules à sa façon (hauteur au premier essieu, hauteur hors tout,
+      // empattement, poids) : les rapports ci-dessous sont ceux de CHAQUE grille officielle. Jusqu'au 10e audit
+      // (18/09/2026), les rapports français (van ×1,54, moto ×0,60) étaient appliqués partout — faux en Espagne et en
+      // Italie (moto au tarif voiture), au Japon, en Israël et en Azerbaïdjan (fourgon au tarif voiture), en Grèce et en
+      // Macédoine du Nord (fourgon 2,5 à 2,8 fois la voiture). Taux de change : BCE du 18/09/2026 (voir ECB_EUR_RATES)
+      // ou banque centrale du pays, précisée ; tarifs 2026 relevés le 18/09/2026, sauf mention.
+      // FRANCE : voir TOLL_RATE_BY_CLASS ci-dessus. Classe 2 = 2 à 3 m de haut ; un fourgon de plus de 3 m est en classe 3
+      // (≈ ×2,4, APRR au 1/2/2026), non modélisée.
       FR: TOLL_RATE_BY_CLASS,
-      ES: { 1: 0.14, 2: 0.218, 5: 0.081 },
-      // Japon : barème NEXCO publié par le ministère (MLIT) — (150 JPY + 24,6 JPY/km) × 1,10 de taxe, soit 27,06 JPY/km
-      // (≈ 0,146 €/km à 185,92 JPY/€), part fixe de 165 JPY non modélisée ; coefficients officiels : véhicule moyen ×1,2
-      // (classe van), deux-roues ×0,8. Remises au-delà de 100 km non modélisées.
-      JP: { 1: 0.146, 2: 0.175, 5: 0.117 },
-      // Taïwan : péage électronique des autoroutes (Freeway Bureau) — 1,20 TWD/km pour les petits véhicules (≈ 0,0325 €/km),
-      // 20 premiers km quotidiens gratuits non modélisés ; les motos n'ont pas accès aux autoroutes (0).
-      TW: { 1: 0.0325, 2: 0.0325, 5: 0 },
-      PT: { 1: 0.036, 2: 0.056, 5: 0.021 },
-      IT: { 1: 0.086, 2: 0.133, 5: 0.050 },
-      HR: { 1: 0.060, 2: 0.090, 5: 0.030 },
-      BA: { 1: 0.097, 2: 0.150, 5: 0.056 },
-      RS: { 1: 0.055, 2: 0.083, 5: 0.028 },
-      MK: { 1: 0.048, 2: 0.068, 5: 0.029 },
-      GR: { 1: 0.064, 2: 0.096, 5: 0.032 },
-      // Turquie : dérivé de l'autoroute Gebze-Orhangazi-İzmir (O-5, 384 km de section réellement
-      // autoroutière hors bretelles de raccordement — ozaltin.com), en retirant le tarif du pont
-      // d'Osmangazi (structure isolée à péage FIXE au franchissement, jamais proportionnel à la
-      // distance — même limite déjà acceptée pour le Storebælt danois/le tunnel sous la Manche/le
-      // tunnel du Mont-Blanc : non modélisée en tant que telle, simplement exclue du calcul ci-dessous
-      // plutôt que traitée comme un ouvrage séparé). Tarifs au 1er juillet 2026 (plusieurs sources
-      // convergentes) : trajet complet catégorie 1 (voiture) 2 525 TL dont pont 1 170 TL -> partie
-      // autoroutière seule 1 355 TL / 384 km ≈ 3,53 TL/km ; catégorie 2 (minibus/véhicule léger
-      // utilitaire) 4 040 TL dont pont 1 870 TL -> 2 170 TL / 384 km ≈ 5,65 TL/km ; catégorie 6
-      // (motocyclette) 1 795 TL dont pont 820 TL -> 975 TL / 384 km ≈ 2,54 TL/km. Convertis au taux
-      // ~56,3 TRY/EUR retenu pour COUNTRIES.TR.currency.
-      TR: { 1: 0.063, 2: 0.101, 5: 0.045 },
-      // Azerbaïdjan : dérivé du barème officiel AAYDA pour la route M-1 Bakou-Quba (129 km, unique
-      // tronçon à péage réel du pays) — 0,093 AZN/km catégorie 1 (voiture), 0,05 AZN/km catégorie 6
-      // (moto), convertis au taux officiel de la Banque centrale d'Azerbaïdjan : 1 EUR = 1,9493 AZN au 17/09/2026
-      // (cbar.az/currency/rates). Le taux « ~1,85 » précédemment utilisé venait d'un relevé xe.com périmé et
-      // surestimait les trois classes d'environ 5 % (7e audit du 18/09/2026). Catégorie 2 (van) extrapolée au même
-      // ratio classe 2 / classe 1 que la grille française recalibrée (0,160/0,104 ≈ ×1,538), faute de tarif AAYDA
-      // dédié aux véhicules utilitaires légers dans les sources consultées.
-      AZ: { 1: 0.048, 2: 0.074, 5: 0.026 },
-      // Israël : la route 6 (Kvish Sderot Yisrael/Trans-Israel Highway, Derech Eretz Highways Ltd.)
-      // est tarifée AU TRONÇON (système "free-flow" sans barrière), pas au kilomètre — aucun barème
-      // officiel €/km n'existe. Approximation dérivée du tarif occasionnel "tous tronçons" (~34 ₪
-      // voiture, ~21,7 ₪ moto au 1er avril 2026, kvish6.co.il) rapporté à la longueur totale usuelle
-      // de la route 6 (~150 km, seule route de ce nom en Israël) : ~0,227 ₪/km voiture, ~0,145 ₪/km
-      // moto, convertis au taux ~3,5 ILS/EUR retenu pour COUNTRIES.IL.currency. Catégorie 2 (van)
-      // extrapolée au même ratio classe2/classe1 que la grille France (×1,554), aucun tarif "véhicule
-      // utilitaire" distinct publié pour la route 6. Précision plus faible que pour la Turquie/la
-      // Bosnie-Herzégovine (dont les corridors de référence ont une longueur officiellement publiée) :
-      // à corriger si une longueur exacte de route 6 ou un barème €/km officiel est identifié plus tard.
-      IL: { 1: 0.065, 2: 0.101, 5: 0.041 },
-      // Maroc : dérivé de la grille tarifaire officielle ADM (tableau HTML de adm.co.ma/fr/
-      // grille-tarifaire-sur-le-reseau, consulté le 16/09/2026 — le PDF téléchargeable depuis cette
-      // même page est PÉRIMÉ, il affiche encore les tarifs de janvier 2024, piège relevé et évité).
-      // Liaison retenue : CASABLANCA-RABAT, 25 / 36 / 43 MAD en classes 1 / 2 / 3, rapportée aux
-      // 62 km publiés par ADM pour cette section (PK Hay Riad 0+879 -> bifurcation Casablanca
-      // 57+580). C'est la seule liaison de la grille dont le tarif ET la distance officielle portent
-      // exactement sur la même section — les autres demanderaient d'additionner des lignes ou de
-      // supposer un PK de départ. Le chiffre de "86 km" très répandu en ligne pour Casa-Rabat
-      // n'apparaît sur aucune source ADM et n'a pas été utilisé.
-      // -> 0,403 / 0,581 / 0,694 MAD/km, convertis à 10,9367 MAD pour 1 EUR (cours de référence
-      // Bank Al-Maghrib du 15/09/2026). La classe 5 du projet (moto) reprend la classe 1 d'ADM, qui
-      // n'a pas de catégorie moto : une motocyclette entre dans sa classe 1 par définition (deux
-      // essieux, hauteur inférieure à 1,30 m).
-      MA: { 1: 0.037, 2: 0.053, 5: 0.037 },
-      // Tunisie : dérivé du calculateur officiel de la Société Tunisie Autoroutes
-      // (tunisieautoroutes.tn/tarif-peages/, consulté le 16/09/2026), barème du décret du
-      // 15 juillet 2025. Liaison retenue : A1 Sud M'SAKEN -> SFAX-NORD, 2,600 / 4,300 / 6,000 TND en
-      // classes 1 / 2 / 3, rapportée à 97 km calculés sur les PK des barrières publiés par la STA
-      // elle-même (M'saken PK 142, Sidi Salah PK 239). Ce tronçon est en péage FERMÉ, donc réellement
-      // proportionnel à la distance — contrairement à l'A1 Nord, en péage ouvert à barrières
-      // forfaitaires, dont le ratio au kilomètre n'aurait aucun sens pour un trajet partiel. Le site
-      // de la STA se contredit par ailleurs sur cette distance (94 km sur sa page Exploitation,
-      // 98 km sur sa page A1 Sud) : les PK ont été préférés aux deux, comme donnée la plus primaire.
-      // -> 0,0268 / 0,0443 / 0,0619 TND/km, convertis à 3,3730 TND pour 1 EUR (Banque Centrale de
-      // Tunisie, 14/09/2026). Classe 5 (moto) = classe 1 "véhicules légers" de la STA, qui n'a pas
-      // davantage de catégorie moto que le Maroc.
-      TN: { 1: 0.008, 2: 0.013, 5: 0.008 },
-      // Sénégal : SEUL pays du lot ouest-africain dont le péage soit proportionnel à la distance.
-      // Le tronçon Mbour-Fatick-Kaolack, ouvert le 22 août 2026, est en système FERMÉ (enregistrement
-      // à l'entrée, paiement à la sortie) : 3 000 FCFA pour un véhicule particulier sur 100 km, soit
-      // 30 FCFA/km, chiffre communiqué par la Société nationale Autoroutes du Sénégal le 24 août 2026
-      // en démentant une rumeur. Deux autres mesures indépendantes concordent : Dakar-Kaolack 6 500
-      // FCFA pour 184 km (35 FCFA/km) et Ila Touba Thiès-Touba 2 500 FCFA pour 113 km (22 FCFA/km).
-      // La valeur basse et la mieux documentée est retenue. Converti à 655,957 FCFA pour 1 EUR
-      // (parité FIXE, BCEAO) : 30 / 655,957 = 0,046 €/km en classe 1.
-      // Classes 2 et 5 : le concessionnaire Eiffage publie, pour la gare de Thiaroye sur
-      // Dakar-AIBD, moto 600 / véhicule léger 1 000 / camionnette 1 500 FCFA — soit 0,6× et 1,5× le
-      // tarif voiture. Ces rapports, propres à l'exploitant sénégalais, sont appliqués au tarif
-      // kilométrique ci-dessus faute de barème kilométrique publié par classe.
-      SN: { 1: 0.046, 2: 0.069, 5: 0.027 }
+      // ESPAGNE : fiches officielles du Ministerio de Transportes « Peajes vigentes desde el 01/01/2026 » (tarif Ligeros) :
+      // AP-68 Bilbao–Zaragoza 39,90 € / ≈ 294 km, AP-6 Villalba–Adanero 15,70 € / 69,6 km, AP-66 Campomanes–León
+      // 16,20 € / 77,9 km, AP-71 León–Astorga 6,20 € / 37,8 km, AP-9 Ferrol–Tui 28,10 € / 219,5 km, AP-53 7,25 € /
+      // 56,6 km, AP-46 4,35 € / 24,5 km, AP-7 Alicante–Cartagena 5,70 € / 76 km (longueurs usuelles, non publiées par
+      // les fiches) — moyenne pondérée par les km 0,144 €/km, médiane 0,150 : 0,145. Classes : « Ligeros » regroupe
+      // motocyclettes, voitures et « furgones y furgonetas de dos ejes » : van et moto au tarif voiture (×1,0).
+      // À venir : l'AP-68 devient gratuite en Aragon, La Rioja et Navarre le 11/11/2026 (non modélisé : la grille des
+      // voies à péage ne connaît pas les dates).
+      ES: { 1: 0.145, 2: 0.145, 5: 0.145 },
+      // JAPON : NEXCO — (150 JPY + 24,6 JPY/km, 29,52 en périphérie de Tōkyō et d'Ōsaka) × 1,10, remise longue distance
+      // −25 % de 100 à 200 km et −30 % au-delà (C-NEXCO, highwaypost.c-nexco.co.jp/faq/toll/findout/23.html). Médiane
+      // €/km de 9 trajets réels 普通車 de 35 à 468 km (tableaux C-NEXCO, NAVITIME, ATIS) : 0,133 €/km à 180,94 JPY/€
+      // (BCE). Van ≤ 3,5 t immatriculé 8, 4 ou 3ナンバー = 普通車 (×1,0 ; NEXCO West, MLIT 16/01/2024) ; moto = 軽自動車等
+      // (×0,8, ratios MLIT) : 0,106 €/km.
+      JP: { 1: 0.133, 2: 0.133, 5: 0.106 },
+      // TAÏWAN : Freeway Bureau (freeway.gov.tw/Rate.aspx) — 小型車 1,20 TWD/km, 0,90 au-delà de 200 km par jour, 20
+      // premiers km gratuits chaque jour. Médiane de 6 liaisons de l'autoroute 1 et 5 (formule officielle) : 0,0277 €/km à
+      // 36,452 TWD/€ (banque centrale CBC, 31,808 TWD/USD, et BCE 1,1460 USD/EUR). Fourgon ≤ 3,5 t = 小型車 (×1,0) ;
+      // aucune classe moto : les motos n'ont pas accès aux autoroutes à péage (0).
+      TW: { 1: 0.028, 2: 0.028, 5: 0 },
+      // PORTUGAL : grille officielle de l'IMT (taxas de portagem 2026, longueurs officielles des tronçons) : A1 Alverca–
+      // Carvalhos (Lisboa–Porto) 25,05 € / 277,7 km, A2 Fogueteiro–Paderne 23,80 € / 225,2 km, A6 15,15 € / 138,8 km,
+      // A4 Ermesinde–Geraldes 4,75 € / 48,3 km — médiane ≈ 0,100 €/km. L'ancien taux (0,036) venait de l'A22, gratuite
+      // depuis le 1/1/2025 comme l'A23, l'A24, l'A25, l'A28, l'A4 Transmontana et l'A13. Classes (IMT) : fourgon aménagé
+      // ≥ 1,10 m au premier essieu = classe 2 (×1,75 : A1 43,85 / 25,05 €) ; moto = classe 1 (la remise Via Verde moto
+      // de −30 % suppose un badge : non modélisée).
+      PT: { 1: 0.100, 2: 0.175, 5: 0.100 },
+      // ITALIE : Autostrade per l'Italia, tarifs au km au 1/1/2026 TVA comprise (autostrade.it, « come si calcola il
+      // pedaggio ») : classe A 0,07869 €/km en plaine, 0,09315 en montagne ; trajets réels 0,079 à 0,083 €/km
+      // (Altroconsumo 2026), concessionnaires plus chers ailleurs (A4 Novara–Milano 0,141) : 0,084. Classes : fourgon
+      // aménagé > 1,30 m au premier essieu = classe B (×1,02) ; moto = classe A (tarif voiture).
+      IT: { 1: 0.084, 2: 0.086, 5: 0.084 },
+      // CROATIE : grilles HAC (hac.hr/hr/cestarina/cjenik, A1 et A3), classe I — Lučko–Karlovac 2,80 € / 38 km,
+      // Zagreb istok–Okučani 7,80 € / 111,6 km, –Slavonski Brod 11,90 € / 170,8 km, –Lipovac 18,60 € / 263,7 km,
+      // Lučko–Dugopolje 26,40 € / ≈ 378 km : 0,070 €/km (paiement comptant ; −21,74 % avec le badge ENC, non modélisé).
+      // Classe II (deux essieux, plus de 1,90 m, ≤ 3,5 t : fourgon aménagé) ×1,53 ; classe IA (motos) ×0,60.
+      HR: { 1: 0.070, 2: 0.107, 5: 0.042 },
+      // BOSNIE-HERZÉGOVINE : aucune grille 2026 publiée. Grilles en vigueur : JP Autoceste FBiH (2021, décret 86/20 ;
+      // Sarajevo–Zenica sjever 7,00 KM / 60,8 km) et Autoputevi RS (octobre 2019 ; Banja Luka–Doboj 7,00 KM / 69,5 km,
+      // Gradiška–Banja Luka 3,50 KM / ≈ 32 km) : médiane ≈ 0,056 €/km à 1,95583 KM/€ (parité fixe). L'ancien taux (0,097)
+      // venait de tolls.eu. Fourgon : classe II des deux exploitants (×2,0) ; moto : ×1,0 en FBiH, ×0,5 en RS — 0,040.
+      BA: { 1: 0.056, 2: 0.112, 5: 0.040 },
+      // SERBIE : grille officielle JP Putevi Srbije « važi od 1. jula 2026 » (putevi-srbije.rs) — Beograd–Niš 1 180 RSD /
+      // ≈ 208 km, –Preševo 2 060 / ≈ 354 km, –Subotica 850 / ≈ 145 km, –Dimitrovgrad 1 800 / ≈ 300 km : médiane
+      // ≈ 5,85 RSD/km, 0,050 €/km à 117,40 RSD/€ (banque centrale NBS, 18/09/2026). Fourgon de plus de 1,90 m de haut et
+      // ≤ 3,5 t = K2 (×1,50) ; moto = K1-a (×0,50).
+      RS: { 1: 0.050, 2: 0.075, 5: 0.025 },
+      // MACÉDOINE DU NORD : tarif officiel par poste (roads.org.mk, cenovnik po delnici), catégorie IБ — Tabanovce–
+      // Gevgelija 380 MKD / ≈ 172 km, Petrovec–Gevgelija 360 / ≈ 150 km, Kumanovo–Miladinovci 60 / ≈ 25 km : ≈ 0,037 €/km
+      // à ≈ 61,5 MKD/€ (longueurs estimées, l'exploitant n'en publie pas). Fourgon de 1,80 m ou plus au-dessus de l'essieu
+      // avant = catégorie III (×2,8) ; moto = IA (×0,63).
+      MK: { 1: 0.037, 2: 0.104, 5: 0.023 },
+      // GRÈCE : Olympia Odos, grille officielle 2026 (Elefsina–Patras 13,80 € / ≈ 200 km) ; autres axes d'après la presse
+      // (newmoney.gr 12/01/2026, onlyauto.gr 14/09/2026) : Athènes–Thessalonique 36,15 € / ≈ 500 km, Moreas 11,75 € /
+      // ≈ 205 km, Ionia Odos 15,00 € / 196 km, Egnatia 30,45 € / 670 km, Nea Odos 3,90 € / 51 km — médiane 0,069 €/km.
+      // Fourgon de plus de 2,20 m = catégorie 3 (×2,52, Olympia Odos) ; moto = catégorie 1 (×0,70).
+      GR: { 1: 0.069, 2: 0.174, 5: 0.048 },
+      // TURQUIE : grilles officielles KGM au 1/1/2026 (kgm.gov.tr, OtoyolKopruUcret/2026Gecis_Ucret) — Mahmutbey–Edirne
+      // 168 TL / 211,9 km, Çamlıca–Akıncı 338 TL / 380,68 km, Işıkkent–Aydın 73 TL / 99,6 km, Güzelbahçe–Çeşme 53 TL /
+      // 56,3 km, Adana–Gaziantep 102 TL / 157 km : médiane 0,793 TL/km, 0,0142 €/km à 55,9077 TRY/€ (BCE). L'ancien taux
+      // (0,063) venait de l'O-5 privée, environ 4 fois plus chère : les autoroutes privées (O-5 İstanbul–İzmir, Kuzey
+      // Marmara, Ankara–Niğde, Aydın–Denizli ; ≈ 0,06 €/km) sont donc SOUS-estimées — la grille des voies à péage ne
+      // distingue pas l'exploitant. Classe 2 (empattement ≥ 3,20 m : fourgon aménagé) ×1,15 ; moto (classe 6) ×0,41.
+      TR: { 1: 0.0142, 2: 0.0163, 5: 0.0058 },
+      // AZERBAÏDJAN : AAYDA, route M-1 Bakou–Quba–frontière russe (129 km), 9,3 qəpik/km pour les voitures et les véhicules
+      // jusqu'à 3,5 t (Conseil tarifaire, 17/10/2023 ; toujours en vigueur en 2026), moto 5 qəpik/km (1/6/2026), à
+      // 1,9528 AZN/€ (banque centrale CBAR, 18/09/2026) : 0,0476 et 0,0256 €/km. Fourgon ≤ 3,5 t au tarif voiture.
+      AZ: { 1: 0.0476, 2: 0.0476, 5: 0.0256 },
+      // ISRAËL : route 6 (Derech Eretz, kvish6.co.il/Taarif.aspx, barème au 1/4/2026), tarifée au NOMBRE DE TRONÇONS et
+      // non au km : client occasionnel, 5 tronçons ou plus, 34,21 ILS pour Sorek–Iron (86 km) — 0,114 €/km à 3,4812 ILS/€
+      // (BCE). Véhicule ≤ 4 t (fourgon compris) au même tarif ; moto 21,70 ILS (×0,63). Limites : trajets courts plus chers
+      // au km (minimum de 3 tronçons), tronçons au sud de Sorek gratuits.
+      IL: { 1: 0.114, 2: 0.114, 5: 0.0725 },
+      // MAROC : grille ADM en ligne (adm.co.ma/fr/grille-tarifaire-sur-le-reseau) et points kilométriques officiels —
+      // Casablanca–Rabat 25 MAD / 62 km, Kénitra Nord–Tanger Med 89 / 223 km, Tamensourt–Amskroud 82 / 204 km,
+      // Nouaceur–Marrakech 83 / ≈ 186 km : médiane 0,4025 MAD/km, 0,0369 €/km à 10,9166 MAD/€ (Bank Al-Maghrib,
+      // 18/09/2026). Fourgon > 1,30 m à l'essieu avant = classe 2 (×1,56) ; moto : classe 1 (ADM n'a pas de classe moto).
+      MA: { 1: 0.0369, 2: 0.0576, 5: 0.0369 },
+      // TUNISIE : calculateur officiel de Tunisie Autoroutes (tunisieautoroutes.tn/tarif-peages, décret du 15/07/2025) —
+      // M'saken–Sfax Nord 2,6 TND / 94 km, M'saken–Gabès Nord 6,8 / 250 km, Sfax Nord–Gabès Nord 4,2 / 156 km, El Fejja–
+      // Balta 3,3 / ≈ 119 km, Sidi Thabet–Menzel Jemil 1,4 / 56 km : médiane 0,0272 TND/km, 0,0081 €/km à 3,3696 TND/€
+      // (BCT, 17/09/2026). Fourgon > 1,3 m à l'essieu avant = classe 2 (×1,60) ; moto : classe 1 supposée (aucune classe
+      // moto définie ; confiance faible).
+      TN: { 1: 0.0081, 2: 0.0129, 5: 0.0081 },
+      // SÉNÉGAL : SECAA (autoroutedelavenir.sn, Dakar–AIBD 2 000 FCFA / 42,5 km) et arrêté interministériel du 26/04/2019
+      // (Ila Touba Thiès–Touba 2 500 / 113 km, AIBD–Thiès 1 000 / 16 km, AIBD–Mbour 1 500 / ≈ 39 km) : médiane
+      // ≈ 42,8 FCFA/km, 0,065 €/km à 655,957 FCFA/€ (parité fixe). Camionnette fourgonnette = C3 (×1,5) ; moto = C1
+      // (×0,55). Confiance moyenne à faible (longueurs de presse, forte dispersion : 0,049 €/km sur Dakar–Touba).
+      SN: { 1: 0.065, 2: 0.0975, 5: 0.036 }
     };
 
-    var TOLL_MIN_DISTANCE_KM = 60;
     // Masses terrestres (landmassOf) où le barème du pays s'applique vraiment. Le péage était calculé pour tout le pays,
     // îles comprises : un trajet en Corse affichait ~13 € « évités » alors que l'île n'a aucune autoroute. Pays absent de
     // la liste : une seule masse terrestre (ou aucune île concernée), barème appliqué partout.
@@ -1067,22 +1094,22 @@
     // les pays. Noms propres d'opérateurs ou d'organismes, identiques dans toutes les langues.
     var TOLL_SOURCE = {
       FR: 'autoroutes françaises 2026',
-      ES: 'Autopistas/Abertis 2026',
-      PT: 'Ascendi / Via Verde 2026',
+      ES: 'Ministerio de Transportes 2026',
+      PT: 'IMT / Brisa 2026',
       IT: "Autostrade per l'Italia 2026",
       HR: 'HAC 2026',
-      BA: 'JP Autoceste FBiH / Autoputevi RS 2026',
+      BA: 'JP Autoceste FBiH 2021 / Autoputevi RS 2019',
       RS: 'Putevi Srbije 2026',
-      MK: 'roads.org.mk 2026',
-      GR: 'Olympia Odos / Egnatia Odos 2026',
-      TR: 'Otoyol A.Ş. O-5 2026',
-      AZ: 'AAYDA M-1',
+      MK: 'JP za državni patišta 2026',
+      GR: 'Olympia Odos 2026 et autres concessions',
+      TR: 'KGM 2026',
+      AZ: 'AAYDA M-1 2026',
       IL: 'Derech Eretz, Kvish 6 2026',
-      JP: 'NEXCO / MLIT',
-      TW: 'Freeway Bureau ETC',
+      JP: 'NEXCO 2026',
+      TW: 'Freeway Bureau 2026',
       MA: 'ADM 2026',
       TN: 'Tunisie Autoroutes 2025',
-      SN: 'Autoroutes du Sénégal 2026'
+      SN: 'SECAA / Ila Touba'
     };
 
     var HR_ISLAND_POSTCODES = {
@@ -1150,38 +1177,84 @@
     ];
 
     var FERRY_ROUTES = {
-      'continental|corsica': { routeKey:'ferry.route.corsica', durationH:8.5, distanceKm:250, priceByClass:{1:90, 2:140, 5:40, foot:40} },
-      'balearic|continental': { routeKey:'ferry.route.balearic', durationH:7.5, distanceKm:230, priceByClass:{1:135, 2:200, 5:55, foot:50} },
-      'canary|continental': { routeKey:'ferry.route.canary', durationH:41, distanceKm:1700, priceByClass:{1:280, 2:420, 5:130, foot:150} },
-      'continental|sardinia': { routeKey:'ferry.route.sardinia', durationH:11.5, distanceKm:280, priceByClass:{1:100, 2:150, 5:45, foot:45} },
-      'continental|sicily': { routeKey:'ferry.route.sicily', durationH:0.4, distanceKm:5, priceByClass:{1:35, 2:55, 5:12, foot:3} },
-      'malta|sicily': { routeKey:'ferry.route.malta', durationH:1.75, distanceKm:100, priceByClass:{1:120, 2:180, 5:54, foot:54} },
-      'gozo|malta': { routeKey:'ferry.route.gozo', durationH:0.42, distanceKm:6, priceByClass:{1:8, 2:12, 5:4, foot:2} },
-      'continental|jersey': { routeKey:'ferry.route.jersey', durationH:1.42, distanceKm:110, priceByClass:{1:115, 2:170, 5:50, foot:42} },
-      'continental|guernsey': { routeKey:'ferry.route.guernsey', durationH:2, distanceKm:155, priceByClass:{1:115, 2:170, 5:50, foot:42} },
-      'guernsey|jersey': { routeKey:'ferry.route.channelIslands', durationH:1.17, distanceKm:65, priceByClass:{1:75, 2:110, 5:35, foot:25} },
-      'continental|cres': { routeKey:'ferry.route.cres', durationH:0.33, distanceKm:5, priceByClass:{1:21, 2:31, 5:10, foot:4} },
-      'continental|rab': { routeKey:'ferry.route.rab', durationH:0.33, distanceKm:3, priceByClass:{1:18, 2:27, 5:9, foot:4} },
-      'continental|ugljan': { routeKey:'ferry.route.ugljan', durationH:0.42, distanceKm:5, priceByClass:{1:17, 2:26, 5:9, foot:4} },
-      'continental|dugiOtok': { routeKey:'ferry.route.dugiOtok', durationH:1.75, distanceKm:30, priceByClass:{1:29, 2:43, 5:14, foot:8} },
-      'brac|continental': { routeKey:'ferry.route.brac', durationH:0.83, distanceKm:18, priceByClass:{1:26, 2:39, 5:13, foot:7} },
-      'continental|solta': { routeKey:'ferry.route.solta', durationH:1, distanceKm:17, priceByClass:{1:24, 2:35, 5:12, foot:6} },
-      'continental|hvar': { routeKey:'ferry.route.hvar', durationH:0.5, distanceKm:5, priceByClass:{1:20, 2:30, 5:10, foot:4} },
-      'continental|vis': { routeKey:'ferry.route.vis', durationH:2.33, distanceKm:65, priceByClass:{1:52, 2:78, 5:26, foot:12} },
-      'continental|korcula': { routeKey:'ferry.route.korcula', durationH:0.33, distanceKm:3, priceByClass:{1:16, 2:24, 5:8, foot:4} },
-      'continental|mljet': { routeKey:'ferry.route.mljet', durationH:0.75, distanceKm:12, priceByClass:{1:26, 2:38, 5:13, foot:6} },
-      'continental|lastovo': { routeKey:'ferry.route.lastovo', durationH:4.5, distanceKm:110, priceByClass:{1:74, 2:111, 5:37, foot:12} },
+      // Liaisons revues le 18 septembre 2026 (10e audit) : les montants ronds d'origine (Corse 90/140/40/40 €, Baléares
+      // 135/200/55/50 €, etc.) n'avaient ni source ni date. Règle : prix = grille officielle publiée par l'exploitant (URL,
+      // date) pour les seules classes qu'elle contient ; sinon la liaison est gardée, sans prix (priceStatus 'variable' :
+      // « tarif non communiqué » à l'affichage). Aucune classe n'est plus déduite d'une autre par un ratio.
+      // Corse ↔ continent (Corsica Linea, La Méridionale, Corsica Ferries, Moby) : tarifs calculés à la réservation selon la
+      // date et le remplissage, aucune grille publique par véhicule. Durée/distance : ordre de grandeur d'une traversée de
+      // jour Marseille/Toulon/Nice–Bastia/Ajaccio.
+      'continental|corsica': { routeKey:'ferry.route.corsica', durationH:8.5, distanceKm:250, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Baléares ↔ continent (Baleària, Trasmed GLE) : tarification dynamique à la réservation, pas de grille publiée.
+      'balearic|continental': { routeKey:'ferry.route.balearic', durationH:7.5, distanceKm:230, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Canaries ↔ péninsule (Naviera Armas depuis Cadix, Baleària depuis Huelva) : tarification dynamique, pas de grille.
+      // Distance : orthodromie Cadix–Las Palmas (1 270 km), la route maritime n'étant pas publiée (avant : 1 700 km).
+      'canary|continental': { routeKey:'ferry.route.canary', durationH:41, distanceKm:1270, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Sardaigne ↔ continent (Moby, Tirrenia, Grimaldi, GNV, Corsica Ferries) : tarification dynamique, pas de grille.
+      'continental|sardinia': { routeKey:'ferry.route.sardinia', durationH:11.5, distanceKm:280, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Détroit de Messine, Villa San Giovanni ↔ Messine — Caronte & Tourist, https://www.carontetourist.it/it/stretto-messina/tariffe-auto
+      // (+ /tariffe-camper, /tariffe-moto-scooter, /tariffe-pedonali), « Tariffe valide dal 1° al 30 settembre 2026 », consultées
+      // le 18/09/2026, surcharge carburant (2,30 €) et ETS (0,60 €) comprises, révisées chaque mois. Aller simple ordinaire :
+      // auto 43,20 € et camper 61,90 € (« fino a 5 passeggeri » compris : prix véhicule ET occupants), moto/scooter 18,40 €,
+      // piéton 2,50 €. Distance : orthodromie Villa San Giovanni–Messine (8 km ; avant : 5 km).
+      'continental|sicily': { routeKey:'ferry.route.sicily', durationH:0.4, distanceKm:8, priceByClass:{1:43.2, 2:61.9, 5:18.4, foot:2.5} },
+      // Malte ↔ Sicile (Virtu Ferries, Valletta–Pozzallo, 1 h 45) : prix à la réservation selon la date, seules des offres
+      // promotionnelles sont publiées (virtuferries.com/offers) — pas de grille. Distance : orthodromie (97 km).
+      'malta|sicily': { routeKey:'ferry.route.malta', durationH:1.75, distanceKm:97, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Ċirkewwa ↔ Mġarr — Gozo Channel, https://www.gozochannel.com/ferry/fares/car-and-driver/ (et /motorcycle-and-driver/,
+      // /passenger/, pages mises à jour le 20/03/2026, consultées le 18/09/2026). Billets ALLER-RETOUR uniquement, payés au
+      // départ de Gozo : « Car and driver » ≤ 5,3 m 15,70 € ; conducteur + véhicule de 5,3 à 5,5 m 20,70 € (classe 2) ;
+      // « Motorcycle & rider » 8,15 € ; passager 4,65 €. Ramené à une traversée (moitié de l'aller-retour, passager déduit,
+      // même convention que Port Askaig–Feolin) : voiture 5,53 €, classe 2 8,03 €, moto 1,75 €, passager 2,33 €.
+      'gozo|malta': { routeKey:'ferry.route.gozo', durationH:0.42, distanceKm:6, priceByClass:{1:5.53, 2:8.03, 5:1.75, foot:2.33} },
+      // Îles Anglo-Normandes (Condor Ferries, Saint-Malo–Jersey/Guernesey et Jersey–Guernesey) : tarification dynamique à
+      // la réservation, pas de grille publiée. Distances corrigées : orthodromies entre ports (Saint-Malo–Saint-Hélier 61 km,
+      // Saint-Malo–Saint-Pierre-Port 98 km, Saint-Hélier–Saint-Pierre-Port 43 km ; avant 110/155/65 km, soit 77 km/h de
+      // moyenne pour Jersey).
+      'continental|jersey': { routeKey:'ferry.route.jersey', durationH:1.42, distanceKm:61, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      'continental|guernsey': { routeKey:'ferry.route.guernsey', durationH:2, distanceKm:98, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      'guernsey|jersey': { routeKey:'ferry.route.channelIslands', durationH:1.17, distanceKm:43, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Croatie — grilles officielles 2026 (PDF « cjenik » de chaque ligne, consultés le 18/09/2026). Classe 1 = « osobni
+      // automobil do 5,00 m », classe 2 = « osobni automobil preko 5,00 m i/ili iznad 2,00 m visine », classe 5 = « motocikl,
+      // moped », foot = « po osobi » ; conducteur payant en sus ; tarif de saison quand la grille en a deux (hors saison entre
+      // parenthèses). Durées : « putovanje u jednom smjeru traje … » de chaque grille, ou horaire. Distances : orthodromies.
+      // - Brestova ↔ Porozina (ligne 334), https://www.jadrolinija.hr/download/81f23f7a652f735091a0e42f12a19fd0, grille unique 2026 : 20,70 / 31,80 / 8,50 / 4,40 €, 20 min.
+      'continental|cres': { routeKey:'ferry.route.cres', durationH:0.33, distanceKm:6, priceByClass:{1:20.7, 2:31.8, 5:8.5, foot:4.4} },
+      // - Stinica ↔ Mišnjak (ligne 337, Rapska plovidba), grille publiée par l'Agence des lignes côtières (AZOLPP),
+      //   https://agencija-zolpp.hr/wp-content/uploads/2019/04/T-337-Misnjak-Stinica-2026.pdf : saison (01/05-29/09) 18,20 / 22,80 /
+      //   7,00 / 4,20 € (hors saison 12,70 / 20,00 / 4,70 / 2,50), 20 min.
+      'continental|rab': { routeKey:'ferry.route.rab', durationH:0.33, distanceKm:3, priceByClass:{1:18.2, 2:22.8, 5:7, foot:4.2} },
+      // - Zadar (Gaženica) ↔ Preko (ligne 431), https://www.jadrolinija.hr/download/2af5e0d51acd4ceda24b526f4549766c, grille unique : 17,30 / 25,70 / 7,60 / 3,80 €, 25 min.
+      'continental|ugljan': { routeKey:'ferry.route.ugljan', durationH:0.42, distanceKm:5, priceByClass:{1:17.3, 2:25.7, 5:7.6, foot:3.8} },
+      // - Zadar (Gaženica) ↔ Brbinj (ligne 434), https://www.jadrolinija.hr/download/132167cf67094c10716af73f934e625d, grille unique : 28,50 / 48,80 / 10,20 / 6,40 €, 1 h 35.
+      'continental|dugiOtok': { routeKey:'ferry.route.dugiOtok', durationH:1.58, distanceKm:30, priceByClass:{1:28.5, 2:48.8, 5:10.2, foot:6.4} },
+      // - Split ↔ Supetar (ligne 631), https://www.jadrolinija.hr/download/300e981f36a3892143a0d9bc412ae498, grille unique : 26,10 / 40,30 / 12,90 / 6,50 €, 50 min.
+      'brac|continental': { routeKey:'ferry.route.brac', durationH:0.83, distanceKm:18, priceByClass:{1:26.1, 2:40.3, 5:12.9, foot:6.5} },
+      // - Split ↔ Rogač (ligne 636), https://www.jadrolinija.hr/download/5d825fa68da13ab3a14bb9251b1eb43a : saison 23,50 / 40,30 / 11,90 / 5,70 € (18,20 / 32,90 / 9,10 / 4,40), 60 min.
+      'continental|solta': { routeKey:'ferry.route.solta', durationH:1, distanceKm:17, priceByClass:{1:23.5, 2:40.3, 5:11.9, foot:5.7} },
+      // - Drvenik ↔ Sućuraj (ligne 632), https://www.jadrolinija.hr/download/69cb877c1652c9a45c997d6b3f103b74 : saison 19,70 / 27,90 / 7,40 / 4,10 € (13,50 / 22,50 / 4,60 / 2,40), 30 min.
+      'continental|hvar': { routeKey:'ferry.route.hvar', durationH:0.5, distanceKm:6, priceByClass:{1:19.7, 2:27.9, 5:7.4, foot:4.1} },
+      // - Split ↔ Vis (ligne 602), https://www.jadrolinija.hr/download/b4d27ce7fa60ea98238d8976fc10a665 : saison 52,00 / 88,50 / 15,50 / 9,10 € (40,60 / 69,80 / 12,10 / 7,20), 2 h 20.
+      'continental|vis': { routeKey:'ferry.route.vis', durationH:2.33, distanceKm:65, priceByClass:{1:52, 2:88.5, 5:15.5, foot:9.1} },
+      // - Orebić ↔ Dominče (ligne 634), https://www.jadrolinija.hr/download/7321c0f9b33c02ac4b12851c4e2e2191 : saison 16,20 / 20,60 / 6,40 / 4,40 € (10,40 / 16,40 / 3,70 / 2,50), 20 min.
+      'continental|korcula': { routeKey:'ferry.route.korcula', durationH:0.33, distanceKm:5, priceByClass:{1:16.2, 2:20.6, 5:6.4, foot:4.4} },
+      // - Prapratno ↔ Sobra (ligne 832), https://www.jadrolinija.hr/download/b7de514704b98e8de65759c1f81a609a : saison 25,50 / 38,50 / 12,50 / 6,10 € (19,60 / 33,70 / 9,30 / 3,90), 40 min.
+      'continental|mljet': { routeKey:'ferry.route.mljet', durationH:0.67, distanceKm:12, priceByClass:{1:25.5, 2:38.5, 5:12.5, foot:6.1} },
+      // - Split ↔ Ubli via Vela Luka (ligne 604), https://www.jadrolinija.hr/download/984062e9182a906cc2cdf39238b38cec, tarif Split–Ubli : saison 73,70 / 122,10 / 24,90 /
+      //   11,50 € (55,90 / 96,10 / 19,10 / 8,60) ; 4 h 45 à 5 h 15 selon l'horaire (5 h retenues ; avant : 4 h 30).
+      'continental|lastovo': { routeKey:'ferry.route.lastovo', durationH:5, distanceKm:110, priceByClass:{1:73.7, 2:122.1, 5:24.9, foot:11.5} },
       // Douvres-Calais (DFDS/P&O Ferries/Irish Ferries) : la traversée de la Manche la plus courte et
       // la plus empruntée d'Europe, ~34 km, environ 1h30 — bien plus courte en distance que la plupart
       // des lignes ci-dessus mais pas la plus rapide en durée (trafic dense, manœuvres portuaires).
       // Tarif "voiture" de référence ~94 € l'aller (grilles publiques DFDS/P&O, tarif flexible standard
-      // hors promotion) ; classes 2/5/foot au même ratio que les traversées courtes comparables
-      // ci-dessus (Jersey/Guernesey). Landmasse "greatBritain" : l'Angleterre/l'Écosse/le pays de
+      // hors promotion) — montant repris sans URL ni date. Classes 2/5/foot, autrefois déduites par ratio de lignes
+      // elles-mêmes sans source, retirées (null) au 10e audit (18/09/2026). Landmasse "greatBritain" : l'Angleterre/l'Écosse/le pays de
       // Galles (voir landmassOf plus bas) — PAS l'Irlande du Nord, géographiquement sur l'île
       // d'Irlande et non sur celle de Grande-Bretagne (aucune ligne de ferry ne la relie encore ici :
       // en attendant l'ajout de l'Irlande, voir landmassOf, ses communes restent temporairement
       // injoignables depuis le reste du Royaume-Uni plutôt que faussement reliées par la route).
-      'continental|greatBritain': { routeKey:'ferry.route.doverCalais', durationH:1.5, distanceKm:34, priceByClass:{1:94, 2:140, 5:35, foot:25} },
+      // Douvres–Calais (DFDS, P&O, Irish Ferries) — 11e audit (18/09/2026) : tarification dynamique (prix « from » selon date et remplissage), aucune grille officielle : priceStatus 'variable' (avant : 94 € sans URL ni date).
+      'continental|greatBritain': { routeKey:'ferry.route.doverCalais', durationH:1.5, distanceKm:34, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Holyhead-Dublin (Stena Line/Irish Ferries), ~3h15, voiture dès ~179,50 € — préférée à
       // Fishguard-Rosslare (plus longue, ~3h30, et plus chère) : une seule ligne à modéliser entre les
       // deux masses "greatBritain"/"ireland", même logique que "préférer la traversée courte" déjà
@@ -1189,9 +1262,9 @@
       // L'Irlande (île) se relie ainsi à la Grande-Bretagne — PAS directement au continent : un trajet
       // France -> Irlande passerait par deux traversées distinctes, un jour différent chacune (Douvres-
       // Calais puis Holyhead-Dublin), cohérent avec le moteur d'étapes existant (chaque hop reste
-      // indépendant). Classe 5/foot au même ratio que les traversées longues comparables ci-dessus
-      // (Corse/Sardaigne).
-      'greatBritain|ireland': { routeKey:'ferry.route.holyheadDublin', durationH:3.25, distanceKm:110, priceByClass:{1:179.5, 2:265, 5:80, foot:45} },
+      // indépendant). Classes 2/5/foot, déduites par ratio de lignes sans source, retirées (null) au 10e audit.
+      // Holyhead–Dublin (Stena Line, Irish Ferries) — 11e audit (18/09/2026) : tarification dynamique, aucune grille officielle : priceStatus 'variable' (avant : 179,50 € « dès », sans URL ni date).
+      'greatBritain|ireland': { routeKey:'ferry.route.holyheadDublin', durationH:3.25, distanceKm:110, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Heysham ↔ Douglas — Isle of Man Steam Packet Company (seul opérateur, quasi-monopole depuis 1830),
       // https://www.steam-packet.com/routes-and-times/heysham-isle-of-man (2026-09-18) : « Duration: 3hrs 45mins »,
       // « Vessel: Manxman ». Corrigé au 7e audit : le commentaire décrivait le Manxman comme un « fast-craft » de
@@ -1199,37 +1272,41 @@
       // que 3 h 45 est la durée publiée de cette traversée (le navire rapide de la compagnie, le Manannan, ne dessert
       // pas Heysham). Voiture dès 98,50 £ l'aller (tarif dynamique annoncé « from »), soit 114,9 € au taux InforEuro de septembre 2026
       // (1 EUR = 0,8572 GBP), celui déjà retenu pour les autres liaisons britanniques. Relie l'île de Man à la Grande-Bretagne, comme l'Irlande — jamais
-      // directement au continent, même raisonnement que greatBritain|ireland ci-dessus.
-      'greatBritain|isleOfMan': { routeKey:'ferry.route.heyshamDouglas', durationH:3.75, distanceKm:130, priceByClass:{1:114.9, 2:175, 5:53, foot:35} },
+      // directement au continent, même raisonnement que greatBritain|ireland ci-dessus. Classes 2/5/foot (175/53/35 €) sans source,
+      // retirées (null) au 10e audit.
+      // 11e audit (18/09/2026) : 98,50 £ n'est qu'un prix d'appel « from » d'une tarification dynamique, pas une grille : priceStatus 'variable' (avant : 114,9 €).
+      'greatBritain|isleOfMan': { routeKey:'ferry.route.heyshamDouglas', durationH:3.75, distanceKm:130, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Ystad (Suède)-Rønne (Bornholmslinjen, seul opérateur), 1h20, 4 rotations/jour — SEULE vraie
       // ligne de ferry pour véhicules vers Bornholm depuis l'ajout du Danemark (l'ancienne ligne directe
       // Køge-Rønne a fermé au trafic véhicules il y a plusieurs années). Voiture (jusqu'à 5 passagers)
       // dès 599 DKK (~80 €, tarif "Flex" standard modifiable — pas le tarif "Lowprice" promotionnel non
       // remboursable à 99 DKK, même logique que le tarif flexible standard retenu pour Douvres-Calais),
-      // bornholmslinjen.com/prices. Classes 2/5/foot au même ratio que les traversées comparables
-      // ci-dessus. Landmasse "bornholm" (voir landmassOf plus bas, pays DK) reliée ici à "continental" —
+      // bornholmslinjen.com/prices. Classes 2/5/foot (ratio, non sourcées) retirées (null) au 10e audit. Distance : orthodromie
+      // Ystad–Rønne (67 km ; avant 90 km). Landmasse "bornholm" (voir landmassOf plus bas, pays DK) reliée ici à "continental" —
       // pas à un pays en particulier : Ystad est en Suède, mais "continental" désigne déjà toute la masse
       // continentale européenne connectée par la route (France, Allemagne, Pologne...), Suède comprise
       // dès son ajout, cohérent avec le fonctionnement déjà en place pour toutes les autres îles de cette
       // table.
-      'bornholm|continental': { routeKey:'ferry.route.bornholm', durationH:1.33, distanceKm:90, priceByClass:{1:80, 2:120, 5:32, foot:28} },
+      // 11e audit (18/09/2026) : https://www.bornholmslinjen.com/prices ne publie que des prix « From » (Lavpris dès 99 DKK, Flex dès 599 DKK…), tarification dynamique : priceStatus 'variable' (avant : 80 €).
+      'bornholm|continental': { routeKey:'ferry.route.bornholm', durationH:1.33, distanceKm:67, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Nynäshamn-Visby (Destination Gotland, seul opérateur), ~3h15, plusieurs rotations/jour. Voiture
       // (jusqu'à 5 passagers) dès 1250 SEK (~112 €, tarif standard "Alla+bilen" sur départs sélectionnés,
       // destinationgotland.se/priser-bokningsinfo) ; passager seul dès 399 SEK (~36 €, repris ici comme
-      // tarif "foot"). Classes 2/5 au même ratio que les traversées comparables ci-dessus. Une seule
+      // tarif "foot"). Classes 2/5 (ratio, non sourcées) retirées (null) au 10e audit. Une seule
       // vraie île suédoise modélisée : Öland est reliée au continent par un vrai pont routier depuis 1972
       // (Ölandsbron) — déjà "continental" dans ce modèle, sans entrée dédiée.
-      'continental|gotland': { routeKey:'ferry.route.gotland', durationH:3.25, distanceKm:150, priceByClass:{1:112, 2:168, 5:45, foot:36} },
+      // 11e audit (18/09/2026) : destinationgotland.se/priser-bokningsinfo ne publie que des prix « från » et le forfait promotionnel Alla+bilen (1 250 SEK, départs sélectionnés) : priceStatus 'variable' (avant : 112 / 36 €).
+      'continental|gotland': { routeKey:'ferry.route.gotland', durationH:3.25, distanceKm:150, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Turku-Mariehamn (Viking Line, seul opérateur avec liaison directe et régulière — Tallink Silja
       // dessert aussi Mariehamn mais uniquement en escale sur sa ligne Helsinki-Stockholm, pas de
       // liaison directe Turku-Mariehamn), MS Viking Grace (motorisation GNL), ~5h, 2 rotations/jour
-      // toute l'année. Voiture ~150 € (estimation, Viking Line ne publie pas de grille tarifaire simple
-      // pour les véhicules — vikingline.fi renvoie vers un moteur de réservation ; passager seul ~19 €,
-      // agrégateurs 2026). Classes 2/5 au même ratio que les traversées comparables ci-dessus. Landmasse
+      // toute l'année. Viking Line ne publie pas de grille tarifaire pour les véhicules (vikingline.fi renvoie vers un
+      // moteur de réservation) : liaison gardée SANS prix (priceStatus 'variable'). Avant le 10e audit : « ~150 € (estimation) »
+      // et classes 2/5 déduites par ratio, passager ~19 € d'agrégateurs non datés — tous retirés. Landmasse
       // "aland" (voir landmassOf plus bas, pays AX) reliée à "continental" — la Finlande elle-même,
       // n'ayant aucune île sans pont significative en dehors des Åland, n'a besoin d'aucune autre entrée
       // FERRY_ROUTES ni d'aucun cas landmassOf dédié.
-      'aland|continental': { routeKey:'ferry.route.aland', durationH:5, distanceKm:150, priceByClass:{1:150, 2:225, 5:65, foot:19} },
+      'aland|continental': { routeKey:'ferry.route.aland', durationH:5, distanceKm:150, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Grèce — de très loin le plus gros ajout en nombre de lignes de toute cette section (30 îles),
       // à la mesure du réseau réel : la Grèce a plus d'îles habitées reliées par ferry-voiture que
       // tous les autres pays couverts ici réunis. Rien n'est inventé : chaque ligne ci-dessous est une
@@ -1239,15 +1316,14 @@
       // Star Ferries/Minoan Lines/Seajets/ANEK-Superfast (Le Pirée, Égée), Levante Ferries (Ionienne),
       // KerkyraLines/Kerkyra Seaways (Corfou), Triton Ferries (Cythère), Hellenic Seaways/Alonissos
       // Skopelos Skiathos Shipping Company (Sporades) — agrégées via ferryhopper.com/ferryscanner.com/
-      // directferries.com, tarifs "voiture" basse saison 2026. Classe 2 (van) extrapolée au ratio ×1,5
-      // déjà utilisé pour la Corse/la Sardaigne/la Croatie faute de grille par catégorie officielle
-      // trouvée pour la quasi-totalité des lignes grecques ; classe 5 (moto) extrapolée à ×0,35 du
-      // tarif voiture (repli légèrement plus bas que le ×0,45 Corse/Sardaigne/Malte ou le ×0,5 croate/
-      // serbe, cohérent avec les rares tarifs "moto" affichés par les agrégateurs sur ces lignes
-      // longues, régulièrement sous 40% du tarif voiture) — présomption plutôt que grille vérifiée,
-      // même limite déjà assumée pour d'autres pays de cette table. Classe foot = vrai tarif passager
-      // publié quand trouvé (la majorité des lignes ci-dessous), estimé par comparaison avec une ligne
-      // de profil proche sinon (signalé au cas par cas).
+      // directferries.com, tarifs "voiture" basse saison 2026. 10e audit (18/09/2026) : les classes 2 (van, ×1,5) et 5
+      // (moto, ×0,35) étaient extrapolées du tarif voiture, sans grille : elles sont retirées (null) sur toutes les lignes
+      // grecques ; de même, tout montant voiture ou passager « estimé par comparaison » ou « par extrapolation » (signalé
+      // au cas par cas ci-dessous) est retiré. 11e audit (18/09/2026) : les montants relevés sur les agrégateurs (sans URL par ligne) ne
+      // sont plus utilisés — les chiffres cités dans les commentaires par ligne ci-dessous sont HISTORIQUES. Seules gardent un
+      // prix les lignes dont l'exploitant publie une grille : Levante Ferries (Zante, Céphalonie, Ithaque), Saronic Ferries
+      // (Égine, Poros), Skyros Shipping (Skýros). Les lignes du Pirée (Blue Star, Minoan, ANEK, Seajets…), Corfou (Kerkyra
+      // Lines/Seaways) et Cythère (Triton) n'ont que des prix de réservation : priceStatus 'variable'.
       //
       // ATTENTION - trois destinations RECONNUES par landmassOf/GR_ISLAND_PATTERNS mais SANS entrée
       // FERRY_ROUTES ci-dessous, volontairement : aucune vraie ligne de ferry pour VÉHICULES n'existe
@@ -1260,125 +1336,140 @@
       // spécifique — elles restent accessibles comme point de départ (recherche manuelle) uniquement.
       // Ikaria, elle, EST correctement reliée (voir plus bas) : sa ligne directe accepte bien les
       // véhicules, contrairement à Límnos.
-      'continental|crete': { routeKey:'ferry.route.crete', durationH:9.5, distanceKm:330, priceByClass:{1:100, 2:150, 5:35, foot:44} },
+      'continental|crete': { routeKey:'ferry.route.crete', durationH:9.5, distanceKm:330, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Héraklion (Minoan Lines/Blue Star Ferries/Seajets), ~9h30, plusieurs rotations/jour
       // toute l'année — la plus fréquentée de toutes les lignes grecques de cette table, cohérent avec
       // la Crète, plus grande île du pays. Voiture ~79-122,50 €, retenu ~100 € (médiane) ; passager
       // dès ~44 € (tarif Minoan conventionnel). Chania/Réthymnon, les deux autres grands ports crétois,
       // desservis par d'autres lignes comparables — celle d'Héraklion retenue comme représentative.
-      'continental|rhodes': { routeKey:'ferry.route.rhodes', durationH:14, distanceKm:460, priceByClass:{1:125, 2:188, 5:44, foot:46.5} },
+      'continental|rhodes': { routeKey:'ferry.route.rhodes', durationH:14, distanceKm:460, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Rhodes (Blue Star Ferries), la plus longue traversée directe régulière du Dodécanèse
       // depuis Le Pirée (12h50 au plus court, jusqu'à 22h avec escales intermédiaires — 14h retenu comme
       // représentatif). Voiture dès ~125 €, passager dès ~46,50 €.
-      'continental|kos': { routeKey:'ferry.route.kos', durationH:11, distanceKm:330, priceByClass:{1:115, 2:173, 5:40, foot:63} },
+      'continental|kos': { routeKey:'ferry.route.kos', durationH:11, distanceKm:330, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Kos (ANEK-Superfast/Blue Star Ferries/Seajets), 9h30-14h selon la ligne (11h retenu).
       // Passager 63-84 € (fourchette basse retenue) ; voiture non publiée précisément par les
       // agrégateurs consultés, estimée par comparaison avec les lignes Dodécanèse de profil proche
-      // (Kalymnos/Léros, juste après sur le même corridor).
-      'continental|kalymnos': { routeKey:'ferry.route.kalymnos', durationH:10, distanceKm:300, priceByClass:{1:120, 2:180, 5:42, foot:45} },
+      // (Kalymnos/Léros, juste après sur le même corridor). Voiture estimée : retirée (null) au 10e audit.
+      'continental|kalymnos': { routeKey:'ferry.route.kalymnos', durationH:10, distanceKm:300, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Kálymnos, 9h30-11h, passager dès ~76,50 €... valeur la plus basse trouvée mêlant
       // vraisemblablement un tarif "voiture + passager" combiné plutôt qu'un tarif passager pur — écarté
-      // au profit d'une estimation par comparaison avec Léros/Patmos (juste après), même corridor.
-      'continental|leros': { routeKey:'ferry.route.leros', durationH:11, distanceKm:280, priceByClass:{1:115, 2:173, 5:40, foot:43} },
+      // au profit d'une estimation par comparaison avec Léros/Patmos (juste après), même corridor. Estimations retirées
+      // au 10e audit : liaison sans prix (priceStatus 'variable').
+      'continental|leros': { routeKey:'ferry.route.leros', durationH:11, distanceKm:280, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Léros, 9h-13h (11h retenu), passager dès ~43 €. Voiture estimée par comparaison avec
-      // Kálymnos/Patmos, même corridor Dodécanèse nord.
-      'continental|patmos': { routeKey:'ferry.route.patmos', durationH:8, distanceKm:250, priceByClass:{1:110, 2:165, 5:39, foot:43} },
+      // Kálymnos/Patmos, même corridor Dodécanèse nord. Voiture estimée : retirée (null) au 10e audit.
+      'continental|patmos': { routeKey:'ferry.route.patmos', durationH:8, distanceKm:250, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Pátmos, 7h20-12h15 (8h retenu, plutôt vers la borne rapide), passager dès ~43 €.
-      // Voiture estimée par comparaison avec Kálymnos/Léros.
-      'continental|karpathos': { routeKey:'ferry.route.karpathos', durationH:17, distanceKm:400, priceByClass:{1:140, 2:210, 5:49, foot:50} },
+      // Voiture estimée par comparaison avec Kálymnos/Léros : retirée (null) au 10e audit.
+      'continental|karpathos': { routeKey:'ferry.route.karpathos', durationH:17, distanceKm:400, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Kárpathos (Blue Star Ferries, 3-4 rotations/semaine), la ligne directe la plus longue
       // en durée de toute cette table (13h30 au plus court, ~17h en moyenne avec escales — île la plus
       // reculée du Dodécanèse desservie ici). Passager 46,50-59 € (borne haute retenue, ~50 €) ; voiture
-      // estimée au-dessus de Rhodes (trajet plus long) par extrapolation du même profil tarifaire.
-      'continental|corfu': { routeKey:'ferry.route.corfu', durationH:1.33, distanceKm:10, priceByClass:{1:33, 2:50, 5:12, foot:8} },
+      // estimée au-dessus de Rhodes (trajet plus long) par extrapolation du même profil tarifaire : retirée (null) au 10e audit.
+      'continental|corfu': { routeKey:'ferry.route.corfu', durationH:1.33, distanceKm:33, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Igoumenitsa-Corfou (KerkyraLines/Kerkyra Seaways), la traversée la plus courte de toute cette
       // table avec les îles Wadden et le détroit de Messine — ~1h20, jusqu'à 25 rotations/jour en haute
-      // saison. Voiture 24-40,60 € (33 € retenu, médiane) ; passager ~6-10 € (8 € retenu).
-      'continental|kefalonia': { routeKey:'ferry.route.kefalonia', durationH:3.25, distanceKm:220, priceByClass:{1:53, 2:80, 5:19, foot:15.4} },
+      // saison. Voiture 24-40,60 € (33 € retenu, médiane) ; passager ~6-10 € (8 € retenu). Distance : orthodromie
+      // Igoumenitsa–Corfou (33 km ; avant 10 km pour 1 h 20).
+      // Levante Ferries, https://www.levanteferries.com/times/ (consultée le 18/09/2026, tarifs aller « après remise », modifiables sans préavis) : Patras–Sami voiture 52,90 €, moto ≤ 250 cm³ 18,80 €, passager 15,40 € ; camping-car au mètre : classe 2 null.
+      'continental|kefalonia': { routeKey:'ferry.route.kefalonia', durationH:3.25, distanceKm:95, priceByClass:{1:52.9, 2:null, 5:18.8, foot:15.4} },
       // Patras-Sami (Levante Ferries), ~3h-3h30. Tarif "2 adultes + 1 voiture" 83,69 € toutes directions
-      // confondues ; passager seul 15,40 € -> voiture seule ≈ 83,69 - 2×15,40 ≈ 53 €.
-      'continental|ithaca': { routeKey:'ferry.route.ithaca', durationH:4, distanceKm:250, priceByClass:{1:56, 2:84, 5:20, foot:17} },
+      // confondues ; passager seul 15,40 € -> voiture seule ≈ 83,69 - 2×15,40 ≈ 53 €. Distance : orthodromie Patras–Sami
+      // (95 km ; avant 220 km, soit 68 km/h de moyenne).
+      // Levante Ferries, https://www.levanteferries.com/times/ (consultée le 18/09/2026, tarifs aller « après remise », modifiables sans préavis) : Patras–Pisaetos voiture 52,90 €, moto ≤ 250 cm³ 19,80 €, passager 15,40 € ; camping-car au mètre : classe 2 null.
+      'continental|ithaca': { routeKey:'ferry.route.ithaca', durationH:4, distanceKm:106, priceByClass:{1:52.9, 2:null, 5:19.8, foot:15.4} },
       // Patras-Itháki (souvent via Sami/Kefalonia sur la même rotation), un peu plus longue que la
       // ligne directe vers Kefalonia — tarifs estimés par extrapolation proportionnelle à la distance
-      // supplémentaire, faute de grille publiée séparément pour Itháki seule.
-      'continental|zakynthos': { routeKey:'ferry.route.zakynthos', durationH:1.25, distanceKm:30, priceByClass:{1:39, 2:59, 5:14, foot:12.5} },
+      // supplémentaire, faute de grille publiée séparément pour Itháki seule. Estimations retirées au 10e audit (priceStatus
+      // 'variable'). Distance : orthodromies Patras–Sami (95 km) + Sami–Pisaetos (11 km) = 106 km (avant 250 km).
+      // Levante Ferries, https://www.levanteferries.com/times/ (consultée le 18/09/2026, tarifs aller « après remise », modifiables sans préavis) : Kyllini–Zante voiture 38,40 €, moto ≤ 250 cm³ 10,00 €, passager 13,50 € ; camping-car au mètre (15 €/m) : classe 2 null.
+      'continental|zakynthos': { routeKey:'ferry.route.zakynthos', durationH:1.25, distanceKm:30, priceByClass:{1:38.4, 2:null, 5:10, foot:13.5} },
       // Kyllini-Zakynthos (Levante Ferries), ~1h15, jusqu'à 7 rotations/jour en haute saison. Tarif
       // "2 adultes + 1 voiture" 64,30 € -> voiture seule ≈ 64,30 - 2×12,50 ≈ 39 € ; passager dès 12,50 €.
-      'continental|kythira': { routeKey:'ferry.route.kythira', durationH:1.25, distanceKm:40, priceByClass:{1:45, 2:68, 5:16, foot:12.5} },
+      'continental|kythira': { routeKey:'ferry.route.kythira', durationH:1.25, distanceKm:40, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Néapoli (Laconie, Péloponnèse)-Cythère (Triton Ferries), ~1h15, toute l'année. Tarif "2 adultes
       // + 1 voiture" 69,50 € (sens Néapoli->Cythère) -> voiture seule ≈ 69,50 - 2×12,50 ≈ 45 € ;
       // passager 10,50-12,50 €. Antikythira (code postal 80100, même préfixe "80" dans
       // GR_ISLAND_PATTERNS — voir plus haut) rejoint la même masse "kythira" : îlot minuscule (~20
       // habitants) desservi par la même rotation, sans ligne propre à modéliser.
-      'continental|lesvos': { routeKey:'ferry.route.lesvos', durationH:10.5, distanceKm:340, priceByClass:{1:123, 2:185, 5:43, foot:43} },
+      'continental|lesvos': { routeKey:'ferry.route.lesvos', durationH:10.5, distanceKm:340, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Mytilène (Blue Star Ferries), 8h46-12h15 (10h30 retenu). Voiture dès ~123 €, passager
       // dès ~43 €.
-      'chios|continental': { routeKey:'ferry.route.chios', durationH:7, distanceKm:280, priceByClass:{1:108, 2:162, 5:38, foot:40} },
+      'chios|continental': { routeKey:'ferry.route.chios', durationH:7, distanceKm:280, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Chios (Blue Star Ferries), 6h06-8h15 (7h retenu). Voiture dès ~108 €, passager dès ~40 €.
-      'continental|samos': { routeKey:'ferry.route.samos', durationH:8.5, distanceKm:310, priceByClass:{1:125, 2:188, 5:44, foot:55} },
+      'continental|samos': { routeKey:'ferry.route.samos', durationH:8.5, distanceKm:310, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Samos (Vathý ou Karlovássi selon la rotation, Blue Star Ferries), 7h30-10h25 (8h30
       // retenu). Voiture dès ~125 €, passager 49,70-60,50 € (55 € retenu, médiane).
-      'continental|ikaria': { routeKey:'ferry.route.ikaria', durationH:7, distanceKm:270, priceByClass:{1:115, 2:173, 5:40, foot:50} },
+      'continental|ikaria': { routeKey:'ferry.route.ikaria', durationH:7, distanceKm:270, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Ikaría (Ágios Kírykos), desservie sur le même corridor que Samos, juste avant sur la
       // rotation — durée et tarifs estimés légèrement EN DESSOUS de Samos par comparaison directe,
-      // faute de grille publiée séparément pour Ikaría seule.
-      'continental|syros': { routeKey:'ferry.route.syros', durationH:3.5, distanceKm:145, priceByClass:{1:74, 2:111, 5:26, foot:36.5} },
+      // faute de grille publiée séparément pour Ikaría seule. Estimations retirées au 10e audit (priceStatus 'variable').
+      'continental|syros': { routeKey:'ferry.route.syros', durationH:3.5, distanceKm:145, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Syros (Blue Star Ferries/Seajets), dès 2h en catamaran rapide (3h30 retenu, plus
       // proche du profil conventionnel dominant dans cette table). Passager dès 36,50 € ; tarif
       // "2 adultes + 1 voiture" 147 € -> voiture seule ≈ 147 - 2×36,50 ≈ 74 €.
-      'continental|tinos': { routeKey:'ferry.route.tinos', durationH:4, distanceKm:165, priceByClass:{1:70, 2:105, 5:25, foot:50} },
+      'continental|tinos': { routeKey:'ferry.route.tinos', durationH:4, distanceKm:165, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Tínos (Blue Star Ferries/Seajets), 2h25-5h30 (4h retenu). Passager dès 50 € ; voiture
       // 59-89 € (70 € retenu, médiane).
-      'continental|naxos': { routeKey:'ferry.route.naxos', durationH:5, distanceKm:190, priceByClass:{1:65, 2:98, 5:23, foot:42} },
+      'continental|naxos': { routeKey:'ferry.route.naxos', durationH:5, distanceKm:190, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Naxos (Blue Star Ferries), ~5h en ferry conventionnel. Passager 38-52,50 € (42 €
       // retenu) ; voiture estimée par comparaison avec Páros, ligne sœur du même corridor Cyclades
-      // centrales.
-      'continental|paros': { routeKey:'ferry.route.paros', durationH:4.5, distanceKm:166, priceByClass:{1:75, 2:113, 5:26, foot:51} },
+      // centrales — retirée (null) au 10e audit.
+      'continental|paros': { routeKey:'ferry.route.paros', durationH:4.5, distanceKm:166, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Páros (Blue Star Ferries), 4h-5h35 (4h30 retenu). Passager dès 51 € ; voiture estimée
-      // par comparaison avec Naxos/Syros, même corridor.
-      'andros|continental': { routeKey:'ferry.route.andros', durationH:2, distanceKm:120, priceByClass:{1:55, 2:83, 5:19, foot:30} },
+      // par comparaison avec Naxos/Syros, même corridor — retirée (null) au 10e audit.
+      'andros|continental': { routeKey:'ferry.route.andros', durationH:2, distanceKm:66, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Rafina-Ándros (souvent regroupée avec Le Pirée dans ce modèle par simplicité, comme les autres
       // lignes Cyclades ci-dessus), la plus courte des Cyclades modélisées ici — proximité directe avec
-      // l'Attique. Durée et tarifs estimés par comparaison avec Tínos, île voisine de profil proche.
-      'continental|mykonos': { routeKey:'ferry.route.mykonos', durationH:3.5, distanceKm:174, priceByClass:{1:128, 2:192, 5:45, foot:53} },
+      // l'Attique. Tarifs estimés par comparaison avec Tínos : retirés au 10e audit (priceStatus 'variable'). Distance :
+      // orthodromie Rafina–Gávrio (66 km ; avant 120 km, soit 60 km/h de moyenne).
+      'continental|mykonos': { routeKey:'ferry.route.mykonos', durationH:3.5, distanceKm:174, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Mýkonos (Blue Star Ferries/Seajets), 2h40-5h50 (3h30 retenu, Blue Star conventionnel
       // 4h40 à 53 €). Voiture dès ~128 €, nettement plus cher que Naxos/Páros à distance comparable —
       // île la plus demandée des Cyclades, prime de fréquentation plutôt qu'une erreur de saisie.
-      'continental|santorini': { routeKey:'ferry.route.santorini', durationH:8, distanceKm:240, priceByClass:{1:120, 2:180, 5:42, foot:60} },
+      'continental|santorini': { routeKey:'ferry.route.santorini', durationH:8, distanceKm:240, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Santorin (Blue Star Ferries/Seajets/Fast Ferries/Golden Star Ferries), 6h10-9h10 en
       // conventionnel (8h retenu). Voiture 108-131 € (120 € retenu) ; passager dès ~60 €.
-      'continental|milos': { routeKey:'ferry.route.milos', durationH:3.75, distanceKm:160, priceByClass:{1:83, 2:125, 5:29, foot:45} },
+      'continental|milos': { routeKey:'ferry.route.milos', durationH:3.75, distanceKm:160, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Mílos (Seajets/Aegean Sea Lines/Minoan Lines/ANEK Lines/Fast Ferries), 2h30-7h30 selon
       // la ligne (3h45 retenu, proche de la moyenne constatée). Voiture dès ~82,70 € ; passager 33-78,70 €
       // (45 € retenu, plutôt vers la borne basse).
-      'continental|ios': { routeKey:'ferry.route.ios', durationH:6, distanceKm:205, priceByClass:{1:95, 2:143, 5:33, foot:39} },
+      'continental|ios': { routeKey:'ferry.route.ios', durationH:6, distanceKm:205, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Íos, dès 4h35 pour la ligne la plus rapide (6h retenu, plus proche du profil
       // conventionnel dominant dans cette table). Voiture dès ~95 €, passager dès ~39 €.
-      'amorgos|continental': { routeKey:'ferry.route.amorgos', durationH:7, distanceKm:230, priceByClass:{1:118, 2:177, 5:41, foot:43} },
+      'amorgos|continental': { routeKey:'ferry.route.amorgos', durationH:7, distanceKm:230, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Le Pirée-Amorgós (Blue Star Ferries/Seajets), 4h35-9h30 (7h retenu). Voiture dès ~118 €,
       // passager dès ~43 €.
-      'aegina|continental': { routeKey:'ferry.route.aegina', durationH:0.67, distanceKm:31, priceByClass:{1:15, 2:23, 5:6, foot:9.5} },
+      // Saronic Ferries, https://www.sf.gr/en/fares (consultée le 18/09/2026) : Le Pirée–Égine voiture ≤ 4,5 m 29 €, > 4,5 m 32 € (classe 2), moto ≤ 250 cm³ 7 €, adulte 12 €.
+      'aegina|continental': { routeKey:'ferry.route.aegina', durationH:0.67, distanceKm:31, priceByClass:{1:29, 2:32, 5:7, foot:12} },
       // Le Pirée-Égine, la plus courte et la plus fréquente des liaisons du golfe Saronique (dès 40 min,
       // très nombreuses rotations/jour). Passager dès 9,50 € ; tarif "2 adultes + 1 voiture" 34 € ->
       // voiture seule ≈ 34 - 2×9,50 ≈ 15 €, cohérent avec une ligne aussi courte et concurrentielle.
-      'continental|poros': { routeKey:'ferry.route.poros', durationH:2.5, distanceKm:105, priceByClass:{1:32, 2:48, 5:13, foot:17} },
+      // Saronic Ferries, https://www.sf.gr/en/fares (consultée le 18/09/2026) : Le Pirée–Poros voiture ≤ 4,5 m 35 €, > 4,5 m 37 € (classe 2), moto ≤ 250 cm³ 9 €, adulte 17 €.
+      'continental|poros': { routeKey:'ferry.route.poros', durationH:2.5, distanceKm:105, priceByClass:{1:35, 2:37, 5:9, foot:17} },
       // Le Pirée-Poros (golfe Saronique), 1h-2h30 selon la ligne (2h30 retenu). Passager dès 17 € ;
-      // voiture estimée par comparaison avec Égine, à distance/tarif proportionnellement plus élevés.
-      'continental|skiathos': { routeKey:'ferry.route.skiathos', durationH:1.75, distanceKm:60, priceByClass:{1:91, 2:137, 5:32, foot:30} },
+      // voiture estimée par comparaison avec Égine, à distance/tarif proportionnellement plus élevés — retirée (null) au
+      // 10e audit.
+      'continental|skiathos': { routeKey:'ferry.route.skiathos', durationH:1.75, distanceKm:60, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Volos-Skiáthos (Hellenic Seaways/ASSS), 1h15-2h25 (1h45 retenu). Tarif "2 adultes + 1 voiture"
       // 150,60 € (sens Volos->Skiáthos) -> voiture seule ≈ 150,60 - 2×30 ≈ 91 € (passager estimé, non
       // publié séparément pour cette ligne précise) ; ligne alternative plus longue au départ d'Agios
       // Konstantinos (~3h, passager dès 37,50 €) écartée au profit de la plus courte, même logique que
-      // pour les autres choix de port "le plus court" de cette table.
-      'continental|skopelos': { routeKey:'ferry.route.skopelos', durationH:2.5, distanceKm:75, priceByClass:{1:105, 2:158, 5:37, foot:35} },
+      // pour les autres choix de port "le plus court" de cette table. 10e audit : le prix voiture dérivait d'un tarif
+      // passager estimé — voiture et passager retirés (priceStatus 'variable').
+      'continental|skopelos': { routeKey:'ferry.route.skopelos', durationH:2.5, distanceKm:75, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Volos-Skópelos, un peu plus loin que Skiáthos sur la même rotation Sporades — durée et tarifs
-      // estimés par extrapolation proportionnelle à la distance supplémentaire.
-      'alonissos|continental': { routeKey:'ferry.route.alonissos', durationH:4.75, distanceKm:100, priceByClass:{1:104, 2:156, 5:36, foot:35} },
+      // estimés par extrapolation proportionnelle à la distance supplémentaire — retirés au 10e audit (priceStatus 'variable').
+      'alonissos|continental': { routeKey:'ferry.route.alonissos', durationH:4.75, distanceKm:100, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Volos-Alónnisos (liaison directe, Hellenic Seaways/ASSS), 4h25-5h05 (4h45 retenu) — nettement
       // plus longue que Skiáthos/Skópelos, île la plus reculée des Sporades modélisées ici. Tarif
       // "2 adultes + 1 voiture" 173,70 € -> voiture seule ≈ 173,70 - 2×35 ≈ 104 € (passager estimé par
-      // comparaison avec Skópelos).
-      'continental|skyros': { routeKey:'ferry.route.skyros', durationH:1.75, distanceKm:70, priceByClass:{1:35, 2:53, 5:12, foot:8.5} },
+      // comparaison avec Skópelos). 10e audit : voiture dérivée d'un passager estimé — retirés (priceStatus 'variable').
+      // Skyros Shipping Co., ναυλολόγιο 2026 du F/B Achilleas, https://www.sne.gr/wp-content/uploads/2026/06/Ναυλολόγιο-2026.pdf
+      // (page https://www.sne.gr/times/, consultée le 18/09/2026) : tarif non subventionné — voiture ≤ 4,25 m 40 €, « Αγροτικά / Van » 55 €, moto ≤ 250 cm³
+      // 10 €, passager économique 20 € (rotations subventionnées : 26,10 / 38,20 / 5,30 / 8,70 €).
+      'continental|skyros': { routeKey:'ferry.route.skyros', durationH:1.75, distanceKm:70, priceByClass:{1:40, 2:55, 5:10, foot:20} },
       // Kými (Eubée)-Skýros (ASSS), la seule vraie ligne directe (pas de ligne directe régulière depuis
       // Le Pirée) — ~1h45, 2-3 rotations/jour. Voiture dès ~35 € (jusqu'à 3,70 m ; un peu plus pour les
       // véhicules plus longs, non modélisé ici faute de distinction de longueur ailleurs dans ce
@@ -1396,8 +1487,8 @@
       // est bien approuvé (Suðuroyartunnilin) mais son ouverture n'est pas attendue avant 2036 au plus
       // tôt : le ferry reste, à ce jour, l'unique traversée réelle. Tarif "voiture standard" (hors
       // tarif en ligne promotionnel, même logique que le tarif Flex retenu pour Bornholm) 229 DKK,
-      // passager 109 DKK (ssl.fo/en/prices/prices-ferries, 2026). Classe 2/5 au même ratio ×1,5/×0,4
-      // déjà utilisé pour Bornholm/Gotland (autres lignes danoises de cette table).
+      // passager 109 DKK (ssl.fo/en/prices/prices-ferries, 2026). Classes 2/5 (ratio ×1,5/×0,4, non sourcées) retirées
+      // (null) au 10e audit.
       // CORRIGÉ en septembre 2026 : les montants étaient saisis en DKK (229/344/92/109) alors que cette
       // table est en euros (affichage « ~229 € ») — soit un prix environ 7,5 fois trop élevé. Convertis à
       // la parité fixe de la couronne danoise (1 EUR ≈ 7,46 DKK, voir BUDGET_PRICE_MAX.DKK). Clé
@@ -1632,8 +1723,8 @@
       'corsica|sardinia': { routeKey:'ferry.route.bonifacioSantaTeresa', durationH:0.83, distanceKm:17, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Cagliari ↔ Palermo — Grimaldi Lines (juin-septembre 2026), autre compagnie le reste de l’année, https://www.grimaldi-lines.com/en/route/cagliari-palermo/ (2026-09-16) ; 1 départ/semaine, voitures et camping-cars acceptés ; Grimaldi précise que les départs jusqu'au 31/05/2026 et à partir du 01/10/2026 sont opérés par une autre compagnie. Tarif calculé à la réservation. Durée ~12 h. Distance orthodromique.
       'sardinia|sicily': { routeKey:'ferry.route.cagliariPalermo', durationH:12, distanceKm:389, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
-      // Vela Luka ↔ Ubli (Lastovo) — Jadrolinija, ligne 604 (Split – Vela Luka – Ubli), https://www.jadrolinija.hr/hr/putovanje/split_-vela_luka_korcula_-_ubli_lastovo (2026-09-16) ; Trajekt pour véhicules, toute l'année ; 1 h 30 entre Vela Luka et Lastovo (page Jadrolinija). Le tarif du tronçon Vela Luka-Ubli n'est affiché ni sur la page (chargé par la boutique en ligne) ni dans un document lisible ; le site putovnica.net renvoie 403.
-      'korcula|lastovo': { routeKey:'ferry.route.velaLukaUbli', durationH:1.5, distanceKm:26, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'unknown' },
+      // Vela Luka ↔ Ubli (Lastovo) — Jadrolinija, ligne 604 (Split – Vela Luka – Ubli), https://www.jadrolinija.hr/download/984062e9182a906cc2cdf39238b38cec (2026-09-18) ; Trajekt pour véhicules, toute l'année ; 1 h 30 entre Vela Luka et Lastovo (page Jadrolinija). Grille 2026 de la ligne 604 (T-604-Lastovo-Vela-Luka-Split-2026.pdf, lien de la page https://www.jadrolinija.hr/hr/putovanje/split_-vela_luka_korcula_-_ubli_lastovo), « CJENIK: VELA LUKA - UBLI », tarif saison (29.05-27.09) : voiture ≤5 m 31,40 €, >5 m 47,60 €, moto 12,20 €, passager 6,70 € ; hors saison 22,30/37,70/8,50/4,50 €. Conducteur payant.
+      'korcula|lastovo': { routeKey:'ferry.route.velaLukaUbli', durationH:1.5, distanceKm:26, priceByClass:{1:31.4, 2:47.6, 5:12.2, foot:6.7} },
       // Taşucu ↔ Girne (Kyrenia) — Akgünler Denizcilik (et Filo Denizcilik), https://www.feribotseferleri.com.tr/en/guides/tasucu-girne-arabali-feribot-ucret-evrak-2026 (2026-09-16) ; Ferry-voitures classique ~5-6 h, toute l'année (4 jours/semaine hors saison, quotidien l'été) ; prix « DYNAMIC », aucune grille standard publiée. Girne est au nord de Chypre, lieux présents dans communes-cy.txt (région Keryneia). Retenue car la plus courte et la plus fréquente pour la paire. ALTERNATIVE À GRILLE FIXE, même paire : Limassol ↔ Le Pirée (Scandro Holding, AF Marina, saisonnière 29 mai-1er septembre 2026, ~31 h, ~22 allers-retours), grille officielle https://scandroholding.com/wp-content/uploads/2026/04/PRICELIST-2026-ENG.pdf : véhicule ≤5 m 134,05 €, camping-car ≤5 m 140,63 €, moto 92,92 €, siège « Airbus » adulte 41,08 € (aller simple, taxes comprises).
       'continental|cyprus': { routeKey:'ferry.route.tasucuGirne', durationH:6, distanceKm:120, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Heraklion ↔ Athinios (Santorin) — Seajets, Minoan Lines, Blue Star Ferries, https://www.ferryhopper.com/en/ferry-routes/direct/heraklion-to-santorini (2026-09-16) ; Toute l'année, jusqu'à 3/jour ; véhicules acceptés (voitures et motos sur les rapides, camping-cars sur les conventionnels). Tarifs selon compagnie, navire et date. Durée 1 h 30 (rapide) à 4 h 30.
@@ -1946,60 +2037,60 @@
       'continental|husevagoy': { routeKey:'ferry.route.maloyHusevagoy', durationH:0.2, distanceKm:3, priceByClass:{1:0, 2:0, 5:0, foot:0} },
       // Barmsund ↔ Barmen — Vidar Hop Skyssbåter, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
       'barmoya|continental': { routeKey:'ferry.route.barmsundBarmen', durationH:0.1, distanceKm:1, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Larsnes ↔ Voksa (Sandsøya) — Norled, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes », sauf Larsnes–Åram). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|sandsoya': { routeKey:'ferry.route.larsnesVoksa', durationH:0.4, distanceKm:6, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Småge ↔ Finnøya — Fjord1, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'finnoyaAlesund|gossa': { routeKey:'ferry.route.smageFinnoya', durationH:0.4, distanceKm:6, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Molde ↔ Sekken — Fjord1, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|sekken': { routeKey:'ferry.route.moldeSekken', durationH:0.4, distanceKm:7, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Brattvåg ↔ Dryna (Midsund) — Fjord1, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|midsund': { routeKey:'ferry.route.brattvagDryna', durationH:0.4, distanceKm:7, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Hollingsholmen ↔ Aukra (Gossa) — Fjord1, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|gossa': { routeKey:'ferry.route.hollingsholmenAukra', durationH:0.3, distanceKm:4, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Garten ↔ Storfosna — Fosen Linjen, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|storfosna': { routeKey:'ferry.route.gartenStorfosna', durationH:0.3, distanceKm:4, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Garten ↔ Leksa — Fosen Linjen, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|leksa': { routeKey:'ferry.route.gartenLeksa', durationH:0.8, distanceKm:14, priceByClass:{1:0, 2:0, 5:0, foot:0} },
+      // Larsnes ↔ Voksa (Sandsøya) — Norled, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes », sauf Larsnes–Åram). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Møre og Romsdal (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|sandsoya': { routeKey:'ferry.route.larsnesVoksa', durationH:0.4, distanceKm:6, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Småge ↔ Finnøya — Fjord1, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Møre og Romsdal (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'finnoyaAlesund|gossa': { routeKey:'ferry.route.smageFinnoya', durationH:0.4, distanceKm:6, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Molde ↔ Sekken — Fjord1, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Møre og Romsdal (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|sekken': { routeKey:'ferry.route.moldeSekken', durationH:0.4, distanceKm:7, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Brattvåg ↔ Dryna (Midsund) — Fjord1, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Møre og Romsdal (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|midsund': { routeKey:'ferry.route.brattvagDryna', durationH:0.4, distanceKm:7, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Hollingsholmen ↔ Aukra (Gossa) — Fjord1, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Møre og Romsdal (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|gossa': { routeKey:'ferry.route.hollingsholmenAukra', durationH:0.3, distanceKm:4, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Garten ↔ Storfosna — Fosen Linjen, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|storfosna': { routeKey:'ferry.route.gartenStorfosna', durationH:0.3, distanceKm:4, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Garten ↔ Leksa — Fosen Linjen, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|leksa': { routeKey:'ferry.route.gartenLeksa', durationH:0.8, distanceKm:14, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Dyrøy ↔ Sula (Frøya) — Fosen Linjen, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
       'continental|sulaFroya': { routeKey:'ferry.route.dyroySula', durationH:1, distanceKm:18, priceByClass:{1:0, 2:0, 5:0, foot:0} },
       // Dyrøy ↔ Mausund — Fosen Linjen, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
       'continental|mausund': { routeKey:'ferry.route.dyroyMausund', durationH:0.6, distanceKm:10, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Dyrøy ↔ Sørburøy — Fosen Linjen, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27 km à vol d'oiseau entre les terminaux OpenStreetMap de Dyrøy (node/13438193071) et de Sørburøy (node/11048045175), au lieu de 8 ; durée non vérifiée (ligne Dyrøy–Øyrekken à escales).
-      'continental|sorburoya': { routeKey:'ferry.route.dyroySorburoy', durationH:0.5, distanceKm:27, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Levanger ↔ Hokstad (Ytterøya) — FosenNamsos Sjø, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|ytteroya': { routeKey:'ferry.route.levangerHokstad', durationH:0.3, distanceKm:5, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Ølhammeren ↔ Seierstad (Jøa) — FosenNamsos Sjø, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|joa': { routeKey:'ferry.route.olhammerenSeierstad', durationH:0.2, distanceKm:2, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Gutvik ↔ Skei (Leka) — Torghatten Trafikkselskap, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|leka': { routeKey:'ferry.route.gutvikSkei', durationH:0.3, distanceKm:5, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Brønnøysund ↔ Sauren/Stortorgnes (Torget) — Vidar Hop Skyssbåter, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|torget': { routeKey:'ferry.route.bronnoysundTorget', durationH:0.2, distanceKm:3, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Sandnessjøen ↔ Dønna — Boreal Sjø, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|donna': { routeKey:'ferry.route.sandnessjoenDonna', durationH:0.4, distanceKm:8, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Sandnessjøen ↔ Løkta — Boreal Sjø, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|lokta': { routeKey:'ferry.route.sandnessjoenLokta', durationH:0.8, distanceKm:15, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Solfjellsjøen ↔ Vandve — Barents, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|vandve': { routeKey:'ferry.route.solfjellsjoenVandve', durationH:0.2, distanceKm:3, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Nesna ↔ Hugla — Boreal Sjø, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|hugla': { routeKey:'ferry.route.nesnaHugla', durationH:0.3, distanceKm:5, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Nesna ↔ Tomma — Boreal Sjø, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|tomma': { routeKey:'ferry.route.nesnaTomma', durationH:0.5, distanceKm:8, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Stokkvågen ↔ Onøy — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|onoy': { routeKey:'ferry.route.stokkvaganOnoy', durationH:0.6, distanceKm:10, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Stokkvågen ↔ Lovund — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|lovund': { routeKey:'ferry.route.stokkvaganLovund', durationH:1.5, distanceKm:30, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Stokkvågen ↔ Træna — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|traena': { routeKey:'ferry.route.stokkvaganTraena', durationH:2, distanceKm:40, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Kilboghamn ↔ Nordnesøy — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27,8 km entre les quais (https://www.fergeruter.info/timetable/nordnesoy-kilboghamn_rodyoysambandet), au lieu de 7 ; durée non vérifiée (Rødøysambandet à escales).
-      'continental|nesoyaRodoy': { routeKey:'ferry.route.kilboghamnNordnesoy', durationH:0.4, distanceKm:28, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Ørnes ↔ Meløysund — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|meloya': { routeKey:'ferry.route.ornesMeloysund', durationH:0.3, distanceKm:5, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Ørnes ↔ Bolga — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'bolga|continental': { routeKey:'ferry.route.ornesBolga', durationH:0.7, distanceKm:12, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Ørnes ↔ Støtt — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'continental|stott': { routeKey:'ferry.route.ornesStott', durationH:1.2, distanceKm:22, priceByClass:{1:0, 2:0, 5:0, foot:0} },
-      // Sund ↔ Sørarnøy — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
-      'arnoyGildeskal|continental': { routeKey:'ferry.route.sundSorarnoy', durationH:0.3, distanceKm:4, priceByClass:{1:0, 2:0, 5:0, foot:0} },
+      // Dyrøy ↔ Sørburøy — Fosen Linjen, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27 km à vol d'oiseau entre les terminaux OpenStreetMap de Dyrøy (node/13438193071) et de Sørburøy (node/11048045175), au lieu de 8 ; durée non vérifiée (ligne Dyrøy–Øyrekken à escales). 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|sorburoya': { routeKey:'ferry.route.dyroySorburoy', durationH:0.5, distanceKm:27, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Levanger ↔ Hokstad (Ytterøya) — FosenNamsos Sjø, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|ytteroya': { routeKey:'ferry.route.levangerHokstad', durationH:0.3, distanceKm:5, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Ølhammeren ↔ Seierstad (Jøa) — FosenNamsos Sjø, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|joa': { routeKey:'ferry.route.olhammerenSeierstad', durationH:0.2, distanceKm:2, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Gutvik ↔ Skei (Leka) — Torghatten Trafikkselskap, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|leka': { routeKey:'ferry.route.gutvikSkei', durationH:0.3, distanceKm:5, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Brønnøysund ↔ Sauren/Stortorgnes (Torget) — Vidar Hop Skyssbåter, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|torget': { routeKey:'ferry.route.bronnoysundTorget', durationH:0.2, distanceKm:3, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Sandnessjøen ↔ Dønna — Boreal Sjø, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|donna': { routeKey:'ferry.route.sandnessjoenDonna', durationH:0.4, distanceKm:8, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Sandnessjøen ↔ Løkta — Boreal Sjø, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|lokta': { routeKey:'ferry.route.sandnessjoenLokta', durationH:0.8, distanceKm:15, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Solfjellsjøen ↔ Vandve — Barents, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|vandve': { routeKey:'ferry.route.solfjellsjoenVandve', durationH:0.2, distanceKm:3, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Nesna ↔ Hugla — Boreal Sjø, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|hugla': { routeKey:'ferry.route.nesnaHugla', durationH:0.3, distanceKm:5, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Nesna ↔ Tomma — Boreal Sjø, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|tomma': { routeKey:'ferry.route.nesnaTomma', durationH:0.5, distanceKm:8, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Stokkvågen ↔ Onøy — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|onoy': { routeKey:'ferry.route.stokkvaganOnoy', durationH:0.6, distanceKm:10, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Stokkvågen ↔ Lovund — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|lovund': { routeKey:'ferry.route.stokkvaganLovund', durationH:1.5, distanceKm:30, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Stokkvågen ↔ Træna — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|traena': { routeKey:'ferry.route.stokkvaganTraena', durationH:2, distanceKm:40, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Kilboghamn ↔ Nordnesøy — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27,8 km entre les quais (https://www.fergeruter.info/timetable/nordnesoy-kilboghamn_rodyoysambandet), au lieu de 7 ; durée non vérifiée (Rødøysambandet à escales). 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|nesoyaRodoy': { routeKey:'ferry.route.kilboghamnNordnesoy', durationH:0.4, distanceKm:28, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Ørnes ↔ Meløysund — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|meloya': { routeKey:'ferry.route.ornesMeloysund', durationH:0.3, distanceKm:5, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Ørnes ↔ Bolga — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'bolga|continental': { routeKey:'ferry.route.ornesBolga', durationH:0.7, distanceKm:12, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Ørnes ↔ Støtt — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'continental|stott': { routeKey:'ferry.route.ornesStott', durationH:1.2, distanceKm:22, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      // Sund ↔ Sørarnøy — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable.
+      'arnoyGildeskal|continental': { routeKey:'ferry.route.sundSorarnoy', durationH:0.3, distanceKm:4, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
       // Bodø ↔ Værøy — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes », sauf Bodø–Moskenes). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
       'continental|vaeroy': { routeKey:'ferry.route.bodoVaeroy', durationH:4, distanceKm:105, priceByClass:{1:0, 2:0, 5:0, foot:0} },
       // Bodø ↔ Røst — Torghatten Nord, https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (2026-09-16) ; Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes », sauf Bodø–Moskenes). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK.
@@ -2082,22 +2173,22 @@
       'nevis|stKitts': { routeKey:'ferry.route.majorsBayCadesBay', durationH:0.4, distanceKm:6.3, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'unknown' },
       // St. George's ↔ Tyrrel Bay — Tyrrel Bay Express (Pyxis Shipping), https://tyrrelbayexpress.com/ (2026-09-16) ; Navire passagers + véhicules (voitures, motos, camions), mardi/jeudi/samedi (départ Carriacou 5 h, Grenade 17 h). Tarifs uniquement dans le module de réservation (booking.pyxisshipping.com), non lisibles. Durée : estimation pour un navire mixte lent (non publiée). Osprey Lines (passagers seulement) ; Dolly C hors service depuis mars 2025.
       'carriacou|grenada': { routeKey:'ferry.route.stGeorgesTyrrelBay', durationH:4, distanceKm:54, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'unknown' },
-      // Kingstown ↔ Port Elizabeth — Bequia Express, https://bequiaexpress.com/fares/ (2026-09-16) ; Grille officielle aller simple, « vehicle fare includes driver » : voiture 60, minibus 80 (classe 2), moto 25 XCD, adulte 25 XCD ; véhicule seul = tarif − 25 (moto : 0). Admiral Ferries prend aussi des véhicules (tarif sur demande). Durée : ~1 h (estimation usuelle).
-      'bequia|stVincent': { routeKey:'ferry.route.kingstownPortElizabeth', durationH:1, distanceKm:16, priceByClass:{1:11.09, 2:17.43, 5:0, foot:7.92} },
+      // Kingstown ↔ Port Elizabeth — Bequia Express, https://bequiaexpress.com/fares/ (2026-09-16) ; Grille officielle aller simple, « vehicle fare includes driver » : voiture 60, minibus 80 (classe 2), moto 25 XCD, adulte 25 XCD ; véhicule seul = tarif − 25, sauf la moto : 25 XCD pilote COMPRIS = 7,92 € (le déduire du billet adulte donnait 0 ; corrigé au 10e audit du 18/09/2026). Admiral Ferries prend aussi des véhicules (tarif sur demande). Durée : ~1 h (estimation usuelle).
+      'bequia|stVincent': { routeKey:'ferry.route.kingstownPortElizabeth', durationH:1, distanceKm:16, priceByClass:{1:11.09, 2:17.43, 5:7.92, foot:7.92} },
       // Kingstown ↔ Canouan — Bequia Express, https://bequiaexpress.com/fares/ (2026-09-16) ; Grille officielle, conducteur inclus : voiture 200, minibus 250, moto 50 XCD ; adulte 60 XCD. Véhicule seul = tarif − 60 ; moto (50 < 60) incohérente → null. Service Kingstown → Canouan → Mayreau → Union lun/mer/jeu, retour mar/ven. Durée : estimation.
       'canouan|stVincent': { routeKey:'ferry.route.kingstownCanouan', durationH:3, distanceKm:52, priceByClass:{1:44.37, 2:60.22, 5:null, foot:19.02} },
       // Canouan ↔ Mayreau — Bequia Express, https://bequiaexpress.com/fares/ (2026-09-16) ; Grille officielle, conducteur inclus : voiture 100, minibus 120, moto 50 XCD ; adulte 25 XCD ; véhicule seul = tarif − 25. Durée : estimation.
       'canouan|mayreau': { routeKey:'ferry.route.canouanMayreau', durationH:0.75, distanceKm:10, priceByClass:{1:23.77, 2:30.11, 5:7.92, foot:7.92} },
       // Mayreau ↔ Clifton (Union Island) — Bequia Express, https://bequiaexpress.com/fares/ (2026-09-16) ; Grille officielle, conducteur inclus : voiture 50, minibus 40, moto 30 XCD ; adulte 20 XCD ; véhicule seul = tarif − 20. Durée : estimation.
       'mayreau|unionIsland': { routeKey:'ferry.route.mayreauUnionIsland', durationH:0.5, distanceKm:5.2, priceByClass:{1:9.51, 2:6.34, 5:3.17, foot:6.34} },
-      // Kingstown ↔ Clifton (Union Island) — Bequia Express, https://bequiaexpress.com/fares/ (2026-09-16) ; Grille officielle (tarif direct, même navire via Canouan et Mayreau), conducteur inclus : voiture 250, minibus 300, moto 70 XCD ; adulte 80 XCD ; véhicule seul = tarif − 80 ; moto (70 < 80) → null. Durée : estimation.
-      'stVincent|unionIsland': { routeKey:'ferry.route.kingstownUnionIsland', durationH:4.5, distanceKm:65, priceByClass:{1:53.88, 2:69.73, 5:null, foot:25.35} },
+      // Kingstown ↔ Clifton (Union Island) — Bequia Express, https://bequiaexpress.com/fares/ (2026-09-16) ; Grille officielle (tarif direct, même navire via Canouan et Mayreau), conducteur inclus : voiture 250, minibus 300, moto 70 XCD ; adulte 80 XCD ; véhicule seul = tarif − 80, sauf la moto : 70 XCD pilote COMPRIS = 22,18 € (seul tarif publié ; 10e audit du 18/09/2026). Durée : estimation.
+      'stVincent|unionIsland': { routeKey:'ferry.route.kingstownUnionIsland', durationH:4.5, distanceKm:65, priceByClass:{1:53.88, 2:69.73, 5:22.18, foot:25.35} },
       // Surgidero de Batabanó ↔ Nueva Gerona — Naviera Cubana Caribeña (ferry Perseverancia), https://www.granma.cu/cuba/2022-08-20/que-sabemos-del-nuevo-ferry-para-la-ruta-gerona-batabano ; https://www.cibercuba.com/noticias/2026-08-08-u1-e209363-s27061-nid337318-mientras-falta-transporte-publico-isla-juventud (2026-09-16) ; Ferry Perseverancia : ~400 passagers + véhicules et fret roulant, ~5 h (Granma). Service très irrégulier : appel à pièces pour réparer le moteur (mai 2026), réduit à UN aller-retour hebdomadaire depuis le 20 juin 2026 (carburant). Aucun tarif véhicules publié. À retirer si la ligne est déclarée suspendue.
       'cuba|islaDeLaJuventud': { routeKey:'ferry.route.batabanoNuevaGerona', durationH:5, distanceKm:107, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'unknown' },
       // Calica (Punta Venado) ↔ Cozumel — Transcaribe (Grupo Caribe) ; UltraCarga (Ultramar) opère aussi la ligne, https://transcaribe.net/en/rates/ (2026-09-16) ; Grille officielle Transcaribe (MXN, aller simple, conducteur inclus : « one operator per paid vehicle ») convertie au taux InforEuro sept. 2026 (1 EUR = 19,7327 MXN). Classe 1 : « compact family vehicle » au guichet sans réservation 950 MXN − passager supplémentaire 120 MXN = 830 MXN ; classe 2 : « family SUV » > 5,5 m (vans, Suburban) au guichet 2 780 − 120 = 2 660 MXN (réservation web plus chère : 1 450 / 3 200 MXN) ; classe 5 : moto 400 − 120 = 280 MXN. foot : le bac véhicules ne vend pas de billet piéton (passagers à pied : navettes rapides Playa del Carmen–Cozumel, autre ligne) → null. Durée ≈ 1 h (thisiscozumel.com) ; distance à vol d'oiseau terminal Punta Venado ↔ terminal de Cozumel (Nominatim).
       'cozumel|northAmerica': { routeKey:'ferry.route.calicaCozumel', durationH:1, distanceKm:20.9, priceByClass:{1:42.06, 2:134.8, 5:14.19, foot:null} },
-      // Punta Sam ↔ Isla Mujeres — UltraCarga (Ultramar), https://ultracarga.com/en/ruta-punta-sam-isla-mujeres/ (2026-09-16) ; Grille officielle UltraCarga (MXN, aller simple, taxes et conducteur inclus) au taux InforEuro sept. 2026 (19,7327 MXN). Classe 1 : « Family car, including driver » (≤ 5,5 m) 520 − passager adulte 290 = 230 MXN (tarif avec réservation 750 MXN) ; classe 2 : niveau 2 (6 m : Suburban, pick-up/fourgon) 1 150 − 290 = 860 MXN ; classe 5 : « Motorcycle with driver » 225 MXN, inférieur au billet adulte (290) → véhicule seul compté 0 ; foot : adulte non résident 290 MXN (résident Q. Roo 80). Durée ≈ 45 min (cancun-discounts.com) ; distance à vol d'oiseau Puerto Punta Sam ↔ Isla Mujeres (Nominatim).
-      'islaMujeres|northAmerica': { routeKey:'ferry.route.puntaSamIslaMujeres', durationH:0.75, distanceKm:7.5, priceByClass:{1:11.66, 2:43.58, 5:0, foot:14.7} },
+      // Punta Sam ↔ Isla Mujeres — UltraCarga (Ultramar), https://ultracarga.com/en/ruta-punta-sam-isla-mujeres/ (2026-09-16) ; Grille officielle UltraCarga (MXN, aller simple, taxes et conducteur inclus) au taux InforEuro sept. 2026 (19,7327 MXN). Classe 1 : « Family car, including driver » (≤ 5,5 m) 520 − passager adulte 290 = 230 MXN (tarif avec réservation 750 MXN) ; classe 2 : niveau 2 (6 m : Suburban, pick-up/fourgon) 1 150 − 290 = 860 MXN ; classe 5 : « Motorcycle with driver » 225 MXN = 11,40 €, pilote COMPRIS (seul tarif moto publié ; le déduire du billet adulte de 290 MXN donnait 0, corrigé au 10e audit du 18/09/2026) ; foot : adulte non résident 290 MXN (résident Q. Roo 80). Durée ≈ 45 min (cancun-discounts.com) ; distance à vol d'oiseau Puerto Punta Sam ↔ Isla Mujeres (Nominatim).
+      'islaMujeres|northAmerica': { routeKey:'ferry.route.puntaSamIslaMujeres', durationH:0.75, distanceKm:7.5, priceByClass:{1:11.66, 2:43.58, 5:11.4, foot:14.7} },
       // La Ceiba ↔ Roatán — Dream Ferries (Roatán Dream, Utila Ferry LLC), https://hondurasferry.com/ayuda-y-soporte/ (2026-09-16) ; Le Roatán Dream transporte les véhicules avec leurs passagers entre La Ceiba (muelle de cabotaje) et Roatán, aller et retour, « hasta 4 vehículos por día, máximo 2 por viaje », traversée ≈ 1 h 30 ; réservation par téléphone/WhatsApp, aucun tarif véhicule publié (taxe portuaire en sus) → unknown. Galaxy Wave (Safeway Maritime) ne prend pas de voitures. Utila : motos seulement (île isolée). Distance : tracé OSM « La Ceiba - Coxen Hole ».
       'northAmerica|roatan': { routeKey:'ferry.route.laCeibaRoatan', durationH:1.5, distanceKm:66, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'unknown' },
       // San Jorge ↔ Moyogalpa — Bacs privés sous tutelle EPN (Ferry Ometepe, Che Guevara, Rey Cocibolca…), https://ferryometepe.com/ (2026-09-16) ; Bacs véhicules quotidiens (≈ 9 départs, réservation obligatoire pour les véhicules) San Jorge ↔ Moyogalpa, et vers San José del Sur. Aucune grille officielle lisible : site EPN injoignable, ferryometepe.com « en développement » ; les montants circulant (500 C$ voiture « referenciales », 420–450 C$ en 2015–2020 sur des blogs) ne sont pas officiels → unknown. Durée ≈ 1 h ; distance : tracé OSM « San Jorge - Moyogalpa ».
@@ -2677,7 +2768,7 @@
       // Middle Strait ↔ Nilambur (Baratang) — Directorate of Shipping Services, A&N Administration, https://dss.andamannicobar.gov.in/docs/press/DSS_Passenger_Fares_2026-27.pdf (Order n° 216 du 26/02/2026, annexe 8) (2026-04-01) ; Tarifs 2026-27 en vigueur au 01/04/2026, hors taxes et droits portuaires. « Four Wheelers/LV without load » 190 ; classe 2 = « Heavy vehicle without load (minibus/tempo) » 375 ; deux-roues 65 ; passager 16 (même tarif habitants/non-habitants). Véhicule et passagers facturés séparément. Distance approximative (le pont en construction mesure 1,96 km). Liaison à supprimer quand le pont du Middle Strait ouvrira (objectif 31/12/2026).
       'middleNorthAndaman|southAndaman': { routeKey:'ferry.route.middleStraitNilambur', durationH:0.25, distanceKm:3, priceByClass:{1:1.71, 2:3.38, 5:0.59, foot:0.14} },
       // END AUTO FERRIES
-      'faroe|suduroy': { routeKey:'ferry.route.suduroy', durationH:2.08, distanceKm:65, priceByClass:{1:31, 2:46, 5:12, foot:15} },
+      'faroe|suduroy': { routeKey:'ferry.route.suduroy', durationH:2.08, distanceKm:65, priceByClass:{1:31, 2:null, 5:null, foot:15} },
       // Turquie, dernier ajout en date : deux vraies traversées pour véhicules dans le détroit des
       // Dardanelles, toutes deux opérées par GESTAŞ (seul opérateur, quasi-monopole historique comme
       // Île de Man Steam Packet/Bornholmslinjen/Destination Gotland déjà rencontrés ci-dessus) — voir
@@ -2686,13 +2777,18 @@
       // 2026, xe.com) — feribotseferleri.com.tr/canakkaleyiseviyoruz.com 2026. Classe 2 (véhicule
       // "moyen") directement tarifée séparément par l'opérateur (2 665 TL AR, ~24 €/aller) plutôt
       // qu'un ratio appliqué, contrairement à la plupart des lignes de cette table où seul le tarif
-      // "voiture" est publié.
-      'bozcaada|continental': { routeKey:'ferry.route.bozcaada', durationH:0.58, distanceKm:12, priceByClass:{1:21, 2:24, 5:9, foot:2} },
+      // "voiture" est publié. Moto (9 €) sans source : retirée (null) au 10e audit.
+      // 11e audit — GESTAŞ, grille officielle https://gdu.com.tr/ucret-tarifeleri (consultée le 18/09/2026, tarif en vigueur depuis le 11/07/2026), convertie à 56,1718 TRY/EUR (InforEuro 09/2026). Tous les billets Geyikli–Bozcaada sont des aller-retour :
+      // « Otomobil (1-7 Kişi) » 2 485 TL, « Orta Sınıf Araç » 3 065 TL, petite moto (< 250 cm³) 500 TL, passager 200 TL, moitié par traversée
+      // → 22,12 / 27,28 / 4,45 / 1,78 €. Les montants du commentaire ci-dessus (sites tiers) sont remplacés.
+      'bozcaada|continental': { routeKey:'ferry.route.bozcaada', durationH:0.58, distanceKm:12, priceByClass:{1:22.12, 2:27.28, 5:4.45, foot:1.78} },
       // Kabatepe-Gökçeada : 30 km, 1h15, voiture 1 400 TL aller-retour soit ~700 TL/~12 € l'aller —
-      // même source/même taux que Bozcaada ci-dessus. Classe 2/5 estimées au même ratio que Bozcaada
-      // (même opérateur, même type de navire), faute de tarif "véhicule moyen" publié séparément pour
-      // cette ligne précise.
-      'continental|gokceada': { routeKey:'ferry.route.gokceada', durationH:1.25, distanceKm:30, priceByClass:{1:12, 2:14, 5:5, foot:2} },
+      // même source/même taux que Bozcaada ci-dessus. Classes 2/5, autrefois estimées au ratio de Bozcaada faute de
+      // tarif publié pour cette ligne, retirées (null) au 10e audit.
+      // 11e audit — GESTAŞ, grille officielle https://gdu.com.tr/ucret-tarifeleri (consultée le 18/09/2026, tarif en vigueur depuis le 11/07/2026), convertie à 56,1718 TRY/EUR (InforEuro 09/2026). Kabatepe–Gökçeada, aller simple : « Otomobil (1-7 Kişi) » 1 400 TL (et non
+      // l'aller-retour comme indiqué ci-dessus), « Orta Sınıf Araç » 2 050 TL, petite moto 260 TL → 24,92 / 36,50 / 4,63 € ; passager 250 TL
+      // aller-retour → 2,23 €.
+      'continental|gokceada': { routeKey:'ferry.route.gokceada', durationH:1.25, distanceKm:30, priceByClass:{1:24.92, 2:36.5, 5:4.63, foot:2.23} },
       // ── CAP-VERT : neuf îles habitées, huit liaisons ────────────────────────────────────────
       // Premier pays du projet dont TOUT le territoire est insulaire. Sans ces liaisons, chaque île
       // serait un cul-de-sac. C'est aussi le seul jeu de données de tout le lot ouest-africain à
@@ -2731,19 +2827,33 @@
       'fogo|santiago': { routeKey:'ferry.route.cvFogo', durationH:4, distanceKm:113, priceByClass:{1:96, 2:171, 5:33, foot:27} },
       'brava|fogo': { routeKey:'ferry.route.cvBrava', durationH:1, distanceKm:19, priceByClass:{1:37, 2:60, 5:16, foot:9} }
     };
-    // Les cinq îles Wadden partagent toutes le même tarif (celui de TESO/Texel, voir "Ferries" du
-    // README) ; durée propre à chaque ligne (septembre 2026) : Den Helder–Texel ~20 min (TESO) ; Harlingen–Vlieland
-    // ~1 h 35 (veerboot Doeksen, https://vlieland.net/nl/rederij-doeksen) ; Harlingen–Terschelling ~2 h (veerboot,
-    // https://www.rederij-doeksen.nl/terschelling) ; Holwert–Ameland ~50 min et Lauwersoog–Schiermonnikoog ~45 min
-    // (veerboot Wagenborg, https://www.wpd.nl/veelgestelde-vragen). Distance : écart à vol d'oiseau entre les ports
-    // (minimum de la route maritime). Avant, toutes reprenaient les 20 min et 5 km de Texel.
+    // Îles Wadden (NL), revues au 10e audit (18/09/2026). Avant : le tarif TESO de Texel (18/27/9/6 €, sans source) était
+    // appliqué aux cinq îles. Désormais, une grille par exploitant, ramenée à UNE traversée (les billets sont des
+    // aller-retour : moitié du retour, tarif d'été, comme pour les autres billets aller-retour de cette table) :
+    // - Den Helder ↔ Texel — TESO, https://www.teso.nl/tickets-2/tarieven-voertuigen/ et /tarieven-voetgangers/ (18/09/2026) :
+    //   personenauto « incl. inzittenden » 48,00 € le retour (aller du vendredi au lundi ; 32,00 € du mardi au jeudi) -> 24 €,
+    //   occupants compris ; motor (2 personnes comprises) 14,00 € -> 7 € ; piéton 3,00 € -> 1,50 €. Les camping-cars et
+    //   véhicules longs paient au mètre (10 € le mètre) sans longueur de référence publiée : classe 2 null. ~20 min.
+    // - Harlingen ↔ West-Terschelling — Rederij Doeksen, https://www.rederij-doeksen.nl/tarieven-auto%E2%80%99s-en-motoren et
+    //   /tarieven/tarieven-voor-personen (18/09/2026), été (1/04-30/09/2026), « exclusief inzittenden » : voiture ≤ 6 m et
+    //   camper ≤ 6 m 215,16 € le retour -> 107,58 € ; moto 61,62 € -> 30,81 € ; adulte 36,90 € -> 18,45 €. ~2 h.
+    // - Holwerd ↔ Ameland — Wagenborg Passagiersdiensten, https://www.wpd.nl/tarieven-ameland (18/09/2026), été (1/04-30/09) :
+    //   « Voertuig tot 5,5 m » 136,70 € le retour -> 68,35 € (passagers en sus) ; motor 34,18 € -> 17,09 € ; adulte 21,16 €
+    //   (taxe de séjour de 2,08 € comprise) -> 10,58 €. Au-delà de 5,5 m, prix au mètre : classe 2 null. ~45 min.
+    // - Vlieland et Schiermonnikoog : AUCUNE liaison. Vlieland est « autoluw » : véhicules à moteur des visiteurs non admis
+    //   (https://www.rederij-doeksen.nl/tarieven-auto%E2%80%99s-en-motoren) ; Schiermonnikoog est fermée aux véhicules à
+    //   moteur des non-résidents depuis 1968, sauf dérogation communale (https://lokaleregelgeving.overheid.nl/CVDR452264/1).
+    //   Sans entrée FERRY_ROUTES, leurs masses (wadden-vlieland, wadden-schiermonnikoog) restent isolées : leurs lieux ne sont
+    //   plus proposés en road trip (même traitement qu'Hydra plus haut).
+    // Distance : écart à vol d'oiseau entre les ports. Durées : exploitants.
     var WADDEN_CROSSINGS = {
-      texel: { durationH:0.33, distanceKm:5 }, vlieland: { durationH:1.58, distanceKm:27 }, terschelling: { durationH:2, distanceKm:25 },
-      ameland: { durationH:0.83, distanceKm:12 }, schiermonnikoog: { durationH:0.75, distanceKm:9 }
+      texel: { durationH:0.33, distanceKm:5, priceByClass:{1:24, 2:null, 5:7, foot:1.5} },
+      terschelling: { durationH:2, distanceKm:25, priceByClass:{1:107.58, 2:107.58, 5:30.81, foot:18.45} },
+      ameland: { durationH:0.83, distanceKm:12, priceByClass:{1:68.35, 2:null, 5:17.09, foot:10.58} }
     };
-    WADDEN_ISLANDS.forEach(function(island){
+    Object.keys(WADDEN_CROSSINGS).forEach(function(island){
       FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:WADDEN_CROSSINGS[island].durationH,
-        distanceKm:WADDEN_CROSSINGS[island].distanceKm, priceByClass:{1:18, 2:27, 5:9, foot:6} };
+        distanceKm:WADDEN_CROSSINGS[island].distanceKm, priceByClass:WADDEN_CROSSINGS[island].priceByClass };
     });
 
     // ── TRAVERSÉES ENTRE ZONES (SEA_CROSSINGS) ────────────────────────────────────────────────
@@ -2758,6 +2868,9 @@
     // même masse terrestre. Ceuta et Melilla gardent donc leur frontière terrestre avec le Maroc,
     // tout en n'étant atteignables depuis l'Espagne péninsulaire que par ferry.
     //
+    // 11e audit (18/09/2026) : ni le tarif Baleària d'Algésiras–Ceuta (tarification dynamique à la réservation) ni le plafond
+    // contractuel de Málaga–Melilla n'ont pu être retrouvés dans une grille ou un document officiel daté : les deux traversées
+    // sont gardées SANS prix (priceStatus 'variable') ; les montants cités ci-dessous sont historiques.
     // Seules DEUX liaisons y figurent, et ce sont précisément les deux seules de toute la
     // Méditerranée occidentale dont le tarif PAR VÉHICULE soit publié plutôt que dynamique :
     // - Algésiras-Ceuta : 1h30 en ferry conventionnel (1h en navire rapide), 31,5 km, 10+ départs
@@ -2766,10 +2879,10 @@
     // - Málaga-Melilla : 6h30, 210 km, 6 rotations par semaine toute l'année (ligne d'intérêt
     //   public). Tarifs MAXIMAUX CONTRACTUELS, garantis jusqu'au 31/12/2027 : fauteuil standard
     //   50 €, véhicule de tourisme jusqu'à 5,5 × 2,2 × 2 m = 40 €.
-    // LIMITE ASSUMÉE, choix explicite de l'utilisateur : aucun opérateur ne publie de tarif MOTO sur
-    // ces deux lignes, ni de tarif utilitaire sur Melilla (le plafond contractuel ne couvre que le
-    // "véhicule de tourisme"). Ces classes reprennent donc le tarif VOITURE — un choix de
-    // modélisation, pas un tarif réel, et dont l'erreur va toujours vers la surestimation.
+    // Prix véhicule SEUL, conducteur et passagers en sus (fauteuil ou billet passager). Aucun opérateur ne publie de
+    // tarif MOTO sur ces deux lignes, ni de tarif utilitaire/camping-car sur Melilla (le plafond contractuel ne couvre
+    // que le "véhicule de tourisme") : ces classes, qui reprenaient le tarif voiture jusqu'au 10e audit (18/09/2026),
+    // sont désormais null — « tarif non communiqué » à l'affichage.
     // Les traversées Espagne-Maroc, France/Italie-Tunisie et Europe-Algérie existent bel et bien mais
     // ne sont PAS modélisées : toute l'Afrique du Nord partage la masse continentale eurasiatique via
     // le Sinaï, si bien qu'y ouvrir une liaison maritime rendrait aussi possible un trajet ROUTIER
@@ -3125,7 +3238,7 @@
       {"type":"lez","country":"ES","name":"Zaragoza","near":{"lat":41.6916,"lon":-0.9101,"km":2},"source":"https://www.zaragoza.es/sede/portal/movilidad/bajas-emisiones/faq"},
       {"type":"lez","country":"ES","name":"Sevilla – Isla de la Cartuja","near":{"lat":37.405,"lon":-6.005,"km":1.5},"source":"https://www.race.es/zonas-de-bajas-emisiones/mapa-zbe-sevilla"},
       {"type":"lez","country":"ES","name":"Palma","near":{"lat":39.5696,"lon":2.6502,"km":2},"source":"https://mobipalma.mobi/ca/informacio-zona-baixes-emissions-zbe-2/vehicles-estrangers/"},
-      {"type":"lez","country":"ES","name":"Ourense","near":{"lat":42.194,"lon":-7.5371,"km":1},"source":"https://www.motor16.com/las-ultimas-noticias/zbe-ourense-multa-200-euros/"},
+      {"type":"lez","country":"ES","name":"Ourense","near":{"lat":42.3363,"lon":-7.8637,"km":1},"source":"https://www.motor16.com/las-ultimas-noticias/zbe-ourense-multa-200-euros/"},
       {"type":"road","country":"ES","name":"Cap de Formentor (Mallorca)","near":{"lat":39.935,"lon":3.15,"km":12},"source":"https://www.conselldemallorca.es/es/noticia1/-/asset_publisher/0kVpLMnZrHVi/content/les-restriccions-de-circulaci%C3%B3-a-formentor-es-mantindran-de-l-1-de-juny-al-30-d-octubre-durant-el-2026/695139"},
       {"type":"road","country":"ES","name":"Lagos de Covadonga (CO-4)","near":{"lat":43.29,"lon":-5.03,"km":8},"source":"https://www.ctaconecta.com/es/noticias/detalle/Visitar-los-Lagos-de-Covadonga-en-2026/"},
       {"type":"lez","country":"IT","name":"Milano – Area B","near":{"lat":45.4642,"lon":9.1896,"km":8},"source":"https://www.comune.milano.it/en/argomenti/mobilita/area-b"},
@@ -3592,16 +3705,18 @@
       // (32 989 ₽ ≈ 328 €), minibus ou utilitaire jusqu'à 6 m 31 930 ₽ (≈ 387 €), moto 8 000 ₽ (≈ 97 €),
       // passager en cabine avec repas 9 420 ₽ (≈ 114 € ; aucune place sans cabine). Hors surcharge
       // carburant mensuelle (90 à 1 360 ₽ par mètre de véhicule), variable et non modélisée. ~38 h de
-      // traversée ; distance : orthodromie calculée (757 km), la route maritime n'étant pas publiée.
+      // traversée ; distance : orthodromie calculée (757 km), la route maritime n'étant pas publiée. Montants véhicule SEUL :
+    // le conducteur et chaque passager paient en plus une place en cabine (9 420 ₽, classe foot), aucune place sans cabine.
       // Traversée entre ZONES (comme Ceuta) : Kaliningrad partage la masse continentale européenne, mais
       // la traversée reste proposée en plus des routes par la Lituanie et la Pologne.
       'RU|RU-KGD': { routeKey:'ferry.route.kaliningrad', durationH:38, distanceKm:757, priceByClass:{1:328, 2:387, 5:97, foot:114} },
-      'ES|ES-CE': { routeKey:'ferry.route.ceuta', durationH:1.5, distanceKm:31.5, priceByClass:{1:50, 2:99, 5:50, foot:35} },
-      'ES|ES-ML': { routeKey:'ferry.route.melilla', durationH:6.5, distanceKm:210, priceByClass:{1:40, 2:40, 5:40, foot:50} }
+      'ES|ES-CE': { routeKey:'ferry.route.ceuta', durationH:1.5, distanceKm:31.5, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' },
+      'ES|ES-ML': { routeKey:'ferry.route.melilla', durationH:6.5, distanceKm:210, priceByClass:{1:null, 2:null, 5:null, foot:null}, priceStatus:'variable' }
     };
 
     var BUDGET_PRICE_MAX = {
-      EUR: { economique: 70, moyen: 130, confortable: 260 },
+      // Zone euro : moyenne de l'Union, voir LODGING_BASE_EUR (le plafond réel dépend du pays de l'étape, lodgingPriceCap).
+      EUR: { economique: 100, moyen: 150, confortable: 340 },
       CHF: { economique: 130, moyen: 250, confortable: 480 },
       GBP: { economique: 60, moyen: 120, confortable: 220 },
       CZK: { economique: 1000, moyen: 2000, confortable: 4000 },
@@ -3955,14 +4070,67 @@
       FKP: { economique: 60, moyen: 110, confortable: 220 }
     };
 
+    // PLAFOND DE PRIX D'HÉBERGEMENT (10e audit du 18/09/2026) — deux défauts corrigés :
+    // 1. La base en euros (70 / 130 / 260 € la nuit) était « un repère indicatif choisi », sans source. Elle est désormais
+    //    dérivée de la seule série officielle de prix par catégorie d'hôtel trouvée en Europe : l'Institut national de la
+    //    statistique espagnol (INE, table 2058, « ADR » = prix moyen par chambre occupée, moyenne des 12 mois de 2025 :
+    //    hostales 73 €, 2★ 84 €, 3★ 99,5 €, 4★ 128,5 €, 5★ 288 € ; https://www.ine.es/jaxiT3/Tabla.htm?t=2058), ramenée à la
+    //    moyenne de l'Union par l'indice de niveau des prix « Restaurants and hotels » d'Eurostat (prc_ppp_ind, catégorie
+    //    A0111, 2024, mis à jour le 10/07/2025 : Espagne 83,9 pour UE = 100) : 84 / 0,839 ≈ 100 € (hôtel 2★), 128,5 / 0,839
+    //    ≈ 150 € (4★), 288 / 0,839 ≈ 340 € (5★). Dans la zone euro, ce plafond moyen est ensuite ajusté au pays de l'étape
+    //    par ce même indice (LODGING_PLI_EUR) : une nuit « moyenne » vaut 113 € au Portugal, 185 € au Luxembourg.
+    //    Les autres devises gardent leur grille BUDGET_PRICE_MAX, calée sur les prix du pays (sources à chaque devise).
+    // 2. La devise CHOISIE par le visiteur désignait la grille utilisée : un séjour en France au niveau « moyen » était
+    //    plafonné à 20 000 HUF (~55 €) si l'on choisissait le forint, à 250 CHF (~264 €) si l'on choisissait le franc suisse.
+    //    Le plafond est désormais toujours celui du PAYS DE L'ÉTAPE, puis converti dans la devise choisie avec les taux de
+    //    référence de la BCE (ECB_EUR_RATES) ; une devise sans taux BCE garde la devise du pays de l'étape.
+    var LODGING_BASE_EUR = { economique: 100, moyen: 150, confortable: 340 };
+    // Eurostat prc_ppp_ind, A0111 « Restaurants and hotels », 2024 (UE = 100) — pays qui utilisent l'euro. Grèce : code
+    // Eurostat « EL ». Pays à l'euro absents de la série (Andorre, Monaco, Saint-Marin, Vatican, Kosovo, collectivités
+    // d'outre-mer) : moyenne de la zone euro (EA20), 101,8.
+    var LODGING_PLI_EUR = { BE: 124.2, BG: 53.2, DE: 112.1, EE: 98.3, IE: 129.3, GR: 86.4, ES: 83.9, FR: 110, HR: 95.4,
+      IT: 106.9, CY: 89, LV: 90.9, LT: 86.1, LU: 123.6, MT: 88.7, NL: 124.6, AT: 110, PT: 75.5, SI: 90.1, SK: 91.3,
+      FI: 126.8, ME: 65.5 };
+    var LODGING_PLI_EUR_DEFAULT = 101.8;
+    // Taux de référence de la BCE du 18/09/2026 (1 EUR = …), https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml.
+    var ECB_EUR_RATES = { date: '2026-09-18', rates: { USD: 1.1460, JPY: 180.94, CZK: 24.339, DKK: 7.4754, GBP: 0.85880,
+      HUF: 364.28, PLN: 4.3635, RON: 5.2647, SEK: 11.2915, CHF: 0.9462, ISK: 139.40, NOK: 10.8095, TRY: 55.9077,
+      AUD: 1.6095, BRL: 5.8857, CAD: 1.6056, CNY: 7.6755, HKD: 8.9903, IDR: 20424.81, ILS: 3.4812, INR: 109.8755,
+      KRW: 1590.76, MXN: 19.6855, MYR: 4.6763, NZD: 2.0068, PHP: 71.972, SGD: 1.4651, THB: 38.225, ZAR: 18.6482 } };
+    // Deux chiffres significatifs : un plafond « 157,3 € » ou « 2 781,6 CZK » ferait croire à une précision inexistante.
+    function roundCap(x){
+      if(!(x > 0)) return x;
+      var step = Math.pow(10, Math.max(0, Math.floor(Math.log(x) / Math.LN10) - 1));
+      return Math.round(x / step) * step;
+    }
+    // Plafond d'une nuit pour un séjour dans le pays « country » au palier « budgetKey », exprimé dans la devise choisie
+    // (« preferredCurrency ») si c'est possible, sinon dans celle du pays. Utilisé par le moteur (liens Airbnb/Booking) et
+    // par l'interface (réécriture des liens au changement de devise) : une seule règle.
+    function lodgingPriceCap(country, budgetKey, preferredCurrency){
+      var c = COUNTRIES[country];
+      var own = (c && c.currency) || 'EUR';
+      if(!Object.prototype.hasOwnProperty.call(BUDGET_PRICE_MAX, own)) own = 'EUR';
+      var key = Object.prototype.hasOwnProperty.call(LODGING_BASE_EUR, budgetKey) ? budgetKey : 'moyen';
+      var ownMax = own === 'EUR'
+        ? LODGING_BASE_EUR[key] * (Object.prototype.hasOwnProperty.call(LODGING_PLI_EUR, country) ? LODGING_PLI_EUR[country] : LODGING_PLI_EUR_DEFAULT) / 100
+        : BUDGET_PRICE_MAX[own][key];
+      var currency = own, max = ownMax;
+      if(preferredCurrency && preferredCurrency !== own){
+        var rOwn = own === 'EUR' ? 1 : ECB_EUR_RATES.rates[own];
+        var rPref = preferredCurrency === 'EUR' ? 1 : ECB_EUR_RATES.rates[preferredCurrency];
+        if(rOwn && rPref){ currency = preferredCurrency; max = ownMax / rOwn * rPref; }
+      }
+      return { currency: currency, max: roundCap(max) };
+    }
+
   var COUNTRY_LIST = Object.keys(COUNTRIES);
   var ALIAS_COUNTRY_LIST = COUNTRY_LIST.filter(function(cc){ return COUNTRIES[cc].aliasFile; });
 
   return {
     COUNTRIES: COUNTRIES, COUNTRY_LIST: COUNTRY_LIST, ALIAS_COUNTRY_LIST: ALIAS_COUNTRY_LIST,
-    TRANSPORT: TRANSPORT, EV_RANGE_KM: EV_RANGE_KM, EV_CHARGE_MARGIN: EV_CHARGE_MARGIN,
+    TRANSPORT: TRANSPORT, EV_RANGE_KM: EV_RANGE_KM, EV_CHARGE_MARGIN: EV_CHARGE_MARGIN, EV_CHARGE_STOP_MIN: EV_CHARGE_STOP_MIN,
     TOLL_RATE_BY_CLASS: TOLL_RATE_BY_CLASS, TOLL_RATE_BY_COUNTRY: TOLL_RATE_BY_COUNTRY, TOLL_SOURCE: TOLL_SOURCE,
-    TOLL_MIN_DISTANCE_KM: TOLL_MIN_DISTANCE_KM, TOLL_LANDMASSES: TOLL_LANDMASSES,
+    TOLL_LANDMASSES: TOLL_LANDMASSES,
     HR_ISLAND_POSTCODES: HR_ISLAND_POSTCODES, HR_POSTCODE_TO_ISLAND: HR_POSTCODE_TO_ISLAND,
     CV_CONCELHO_TO_ISLAND: CV_CONCELHO_TO_ISLAND,
     ISLAND_BOXES: ISLAND_BOXES,
@@ -3973,6 +4141,8 @@
     ISLAND_RULES: ISLAND_RULES,
     WADDEN_ISLANDS: WADDEN_ISLANDS, SARDINIA_PROVINCES: SARDINIA_PROVINCES, SICILY_PROVINCES: SICILY_PROVINCES,
     GR_POROS_MAINLAND_NAMES: GR_POROS_MAINLAND_NAMES, GR_ISLAND_PATTERNS: GR_ISLAND_PATTERNS,
-    FERRY_ROUTES: FERRY_ROUTES, SEA_CROSSINGS: SEA_CROSSINGS, BUDGET_PRICE_MAX: BUDGET_PRICE_MAX
+    FERRY_ROUTES: FERRY_ROUTES, SEA_CROSSINGS: SEA_CROSSINGS, BUDGET_PRICE_MAX: BUDGET_PRICE_MAX,
+    LODGING_BASE_EUR: LODGING_BASE_EUR, LODGING_PLI_EUR: LODGING_PLI_EUR, ECB_EUR_RATES: ECB_EUR_RATES,
+    lodgingPriceCap: lodgingPriceCap
   };
 });

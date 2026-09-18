@@ -3239,7 +3239,6 @@ pt;Agrovila 5 Bloco 3;Agrovila Cinco Bloco Três
 pt;Agrovila-8;Agrovila-Oito
 pt;Agrovila 5 Bloco 4;Agrovila Cinco Bloco Quatro
 pt;Igarapo Açu;Igarapé Açu
-pt;Alto Igarap Açu;Alto Igarapé Açu
 pt;Baixo Acara;Monte Sinai
 pt;São Raimundo;São Bento de Cima
 pt;Rio Fundo 3;Rio Fundo Três

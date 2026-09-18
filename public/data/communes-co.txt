@@ -8855,7 +8855,6 @@
 0;-73.9275,10.8813;CO-38;Magdalena Department;Hato de Manuel
 11431;-71.7637,6.1568;CO-32;Casanare Department;Municipio Hato Corozal
 0;-75.9833,8.5333;CO-12;Córdoba;Hato Chico
-0;-71.7833,8.0333;CO-32;Casanare Department;Hato Buenavista
 0;-71.5451,5.5774;CO-32;Casanare Department;Hato Boquerones
 600;-73.3083,6.5430;CO-26;Santander Department;Hato
 0;-73.7167,5.9833;CO-26;Santander Department;Hato
@@ -17747,7 +17746,6 @@
 0;-76.5803,3.0575;CO-09;Cauca Department;Barracón
 0;-76.6628,3.0600;CO-29;Valle del Cauca Department;San Francisco
 0;-76.5141,3.0332;CO-09;Cauca Department;San Antonio
-0;-72.8526,-2.4398;CO-01;Amazonas Department;Puerto Elvira
 0;-76.9556,6.9801;CO-11;Chocó;Villanueva
 1396;-76.8839,6.5564;CO-11;Chocó;Bellavista
 0;-73.1811,-0.6308;CO-01;Amazonas Department;Los Monos
@@ -28584,7 +28582,6 @@
 0;-76.6521,3.4599;CO-29;Valle del Cauca Department;Cristóbal Colón
 0;-76.6394,3.4429;CO-29;Valle del Cauca Department;La Honoraia
 0;-76.5011,2.8494;CO-29;Valle del Cauca Department;Verda Miravalle
-0;-65.5470,3.1745;CO-29;Valle del Cauca Department;La Esmeralda
 0;-75.3140,2.9273;CO-29;Valle del Cauca Department;Yolanda
 0;-76.5935,3.4302;CO-29;Valle del Cauca Department;Altamira
 0;-76.5945,3.4393;CO-29;Valle del Cauca Department;El Retén

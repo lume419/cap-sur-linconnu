@@ -7651,7 +7651,6 @@
 0;38.9556,-5.4615;TZ-18;Tanga;Handeru
 0;33.5396,-9.1710;TZ-09;Mbeya;Rungwe
 0;34.8198,-2.4360;TZ-08;Mara;Seronera
-0;39.2914,-7.9312;TZ-02;Pwani;Batja (historical)
 0;39.2393,-7.8049;TZ-02;Pwani;Pemba
 0;39.3661,-7.7976;TZ-02;Pwani;Ssuninga
 0;35.2167,-9.8833;TZ-04;Iringa;Ndolela

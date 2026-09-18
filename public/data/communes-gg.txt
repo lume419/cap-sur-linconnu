@@ -8,17 +8,14 @@
 0;-2.5167,49.5000;GY6;Guernsey Channel Islands;Paradis
 0;-2.5814,49.4306;GY8;Guernsey Channel Islands;Les Nicolles
 0;-2.5492,49.4503;GY6;Guernsey Channel Islands;Le Mont Durand
-0;-2.3553,49.4372;GY6;Guernsey Channel Islands;La Ville Roussel
 0;-2.5561,49.4714;GY6;Guernsey Channel Islands;La Ramée
 0;-2.6031,49.4578;GY1;Guernsey Channel Islands;King’s Mills
 0;-2.5747,49.4767;GY6;Guernsey Channel Islands;Houmets
 0;-2.6000,49.4333;GY8;Guernsey Channel Islands;Hautnez
 0;-2.5850,49.4866;GY6;Guernsey Channel Islands;Grandes Rocques
-0;-2.3700,49.4297;GY6;Guernsey Channel Islands;La Fregondée
 0;-2.5397,49.4336;GY6;Guernsey Channel Islands;Calais
 0;-2.2021,49.7221;GY10;Channel Islands;Braye
 0;-2.5500,49.4667;GY6;Guernsey Channel Islands;Braye
-0;-2.3694,49.4303;GY6;Guernsey Channel Islands;Beauregard
 0;-2.5633,49.4492;GY6;Guernsey Channel Islands;Bailiffs Cross
 0;-2.6672,49.4319;GY8;Guernsey Channel Islands;Pleinmont
 0;-2.6514,49.4286;GY8;Guernsey Channel Islands;Hougue Anthan
@@ -229,17 +226,6 @@
 0;-2.5717,49.4528;GY6;Guernsey Channel Islands;La Monnaie
 0;-2.5572,49.4589;GY6;Guernsey Channel Islands;Le Foulon
 0;-2.5875,49.4578;GY6;Guernsey Channel Islands;Woodlands
-0;-2.3583,49.4422;GY6;Guernsey Channel Islands;Le Fort
-0;-2.3592,49.4414;GY6;Guernsey Channel Islands;Le Grand Fort
-0;-2.3597,49.4417;GY6;Guernsey Channel Islands;La Tour
-0;-2.3575,49.4394;GY6;Guernsey Channel Islands;La Génétière
-0;-2.3772,49.4139;GY6;Guernsey Channel Islands;Duval
-0;-2.3761,49.4133;GY6;Guernsey Channel Islands;La Donnellerie
-0;-2.3631,49.4247;GY6;Guernsey Channel Islands;Le Clos Bourel
-0;-2.3658,49.4258;GY6;Guernsey Channel Islands;Le Dos d’Âne
-0;-2.3508,49.4292;GY6;Guernsey Channel Islands;La Forge
-0;-2.3533,49.4317;GY6;Guernsey Channel Islands;La Collinette
-0;-2.3656,49.4305;GY6;Guernsey Channel Islands;La Vaurocque
 0;-2.1798,49.7286;GY10;Channel Islands;Saye Farm
 0;-2.2089,49.7206;GY10;Channel Islands;Crabby
 0;-2.1997,49.7192;GY10;Channel Islands;Newtown

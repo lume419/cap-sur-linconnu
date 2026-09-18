@@ -124,7 +124,7 @@ ar;منزل عبد الرحمان;Menzel Abderhaman
 ar;منوبة;Manouba
 tr;Manuba;Manouba
 ru;Мануба;Manouba
-ar;ملولش‎;Melloulèche
+ar;ملولش;Melloulèche
 ar;مكثر;Maktar
 ar;مدنين;Medenine
 it;Medenina;Medenine
@@ -188,7 +188,6 @@ es;Bizerta;Bizerte
 ar;بنزرت;Bizerte
 it;Biserta;Bizerte
 ru;Бизерта;Bizerte
-ar;بنزرت,;Bizerte
 fr;Bizert;Bizerte
 pt;Bizerta;Bizerte
 ar;بني زلطن;Beni Zelten
@@ -211,7 +210,6 @@ ru;Сиди Хусайн;Sīdī Ḥusayn
 fr;Sayada;Seïada
 ar;صيادة;Seïada
 ar;السند;As Sanad
-ar;أريانة‎;Aryanah
 ar;أريانة;Aryanah
 tr;Aryana;Aryanah
 ru;Арьяна;Aryanah
@@ -265,7 +263,7 @@ ar;الحمامات;Hammamet
 ru;Хаммамет;Hammamet
 ru;Эль-Хамма;El Hamma
 ar;الحامة;El Hamma
-ar;الغريبة‬;Ghraiba
+ar;الغريبة;Ghraiba
 ar;فرنانة;Fernana
 ar;الفرنانة;Fernana
 ar;البقالطة;Bekalta

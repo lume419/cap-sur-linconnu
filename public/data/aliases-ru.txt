@@ -9563,7 +9563,6 @@ ru;Углянка;Uglyanka
 ru;Углянец;Uglyanets
 no;Ugljanets;Uglyanets
 ru;Углы;Ugly
-fi;Hiisistö ?;Uglovshchina
 ru;Угловой;Uglovoy
 fi;Kähy;Uglovo
 ru;Углово;Uglovo
@@ -21515,7 +21514,6 @@ ru;Савруха;Savrukha
 ru;Савросовка;Savrosovka
 ru;Савро-Мамышёво;Savro-Mamyshëvo
 ru;Саврасово;Savrasovo
-fi;Plekka?;Savoynavolok
 ru;Савойнаволок;Savoynavolok
 en;Savost'ye;Savost’ye
 no;Savostje;Savost’ye

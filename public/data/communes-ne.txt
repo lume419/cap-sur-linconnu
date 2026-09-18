@@ -12827,7 +12827,6 @@
 0;8.2389,13.3494;NE-04;Maradi Region;Hawandawaki
 0;1.9594,13.5839;NE-08;Niamey;Bitinkodji
 0;2.1078,13.5119;NE-08;Niamey;Niamey (Commune II)
-0;-9.7417,14.2653;NE-07;Zinder Region;Niagané
 0;5.3500,13.9833;NE-06;Tahoua Region;Allela
 0;7.3892,14.2617;NE-04;Maradi Region;Guidan Amoumoune
 0;8.9317,17.6072;NE-01;Agadez;Tabelot

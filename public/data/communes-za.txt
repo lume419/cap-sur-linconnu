@@ -5285,7 +5285,6 @@
 0;29.1037,-31.5916;ZA-05;Eastern Cape;Masameni
 0;24.6201,-25.8330;ZA-10;North West;Masamane
 0;28.3000,-31.9167;ZA-05;Eastern Cape;Masakane
-0;32.2000,-26.2833;ZA-02;KwaZulu-Natal;Masabe
 0;30.5828,-25.9426;ZA-07;Mpumalanga;Maryvale Farm
 0;21.0005,-29.2318;ZA-08;Northern Cape;Mary’s Rust
 0;25.5747,-31.5114;ZA-05;Eastern Cape;Maryland
@@ -7145,7 +7144,6 @@
 0;30.6935,-28.9901;ZA-02;KwaZulu-Natal;Kromberg
 0;27.8833,-25.5667;ZA-10;North West;Krokodilkraal
 0;31.8947,-25.3656;ZA-07;Mpumalanga;Krokodilbrug
-0;31.2167,-26.6833;ZA-08;Northern Cape;Kristal
 0;23.0000,-33.5333;ZA-11;Western Cape;Krigedam
 18255;29.2600,-26.2500;ZA-07;Mpumalanga;Kriel
 0;27.3667,-23.8667;ZA-09;Limpopo;Kremetartpan

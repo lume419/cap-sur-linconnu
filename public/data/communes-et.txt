@@ -2116,7 +2116,6 @@
 0;35.6500,8.0333;ET-51;Oromiya;Okotē
 0;41.0891,9.4076;ET-51;Oromiya;Ojo
 0;37.7000,12.8167;ET-46;Amhara;Oivela Mariam
-0;45.2000,5.2000;ET-52;Somali;Ohale
 0;39.6000,12.5833;ET-53;Tigray;Ogubari
 0;35.7000,7.2500;ET-SW;South West Ethiopia Peoples' Region;Ograka
 0;39.0000,8.0500;ET-51;Oromiya;Ogolcho

@@ -5794,7 +5794,6 @@ lv;Ščecina;Szczecin
 ru;Щецин;Szczecin
 sk;Štetín;Szczecin
 sr;Шчећин;Szczecin
-sv;Stettin.;Szczecin
 uk;Щецин;Szczecin
 zh;什切青;Szczecin
 be;Шчэцін;Szczecin

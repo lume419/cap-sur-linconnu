@@ -1,7 +1,7 @@
 ar;ضنحه;Danhah
 ar;ظنحة;Danhah
 ar;عزابات;Azhabat
-ar;‎‫اليفنه‬‎;Yafnah
+ar;اليفنه;Yafnah
 en;Warisan;Warīsān
 ar;ورسان;Warīsān
 ru;Варисан;Warīsān
@@ -213,7 +213,7 @@ ar;العراد;Al Araad
 en;Dirat Dafalas;Dafalas
 en;Defels;Dafalas
 en;Sheri;Shairi
-ar;‫اتمار;Atmar
+ar;اتمار;Atmar
 en;Mak Sikēk;Mak Sikek
 es;Mak Sikēk;Mak Sikek
 en;Deira al Tala;Tala
@@ -225,14 +225,14 @@ ar;ديرة صباح;Dirat Sabah
 ar;شِدفة;Sidfah
 ar;ديرة البعيبه;Dirat al-Ba'iybah
 ar;شرماتة;Sharmatah
-ar;إصفي‎;Esfai
+ar;إصفي;Esfai
 ar;الدفين;Al Dafain
 ar;حييله;Al Hayilah
 en;Motor City;Dubai Motor City
 ar;لهباب;Lahbab
 ar;ٱلْمَدَام;Al Madam
 ar;ضبعة;Dab‘ah
-ar;البقيل‬‎;Al Baqil
+ar;البقيل;Al Baqil
 ar;صخيبر;Sha'biyyat Sikhе̄bar
 ar;شعبية صخيبر;Sha'biyyat Sikhе̄bar
 ar;كنمت;Kanaan
@@ -241,12 +241,12 @@ ar;معيرك;Ma'yrik
 ar;واب صقر;Wab Saqar
 ar;ديره الغيل;Deira Al Ghayl
 ar;حلحل;Halhal
-ar;سلي‬‎;Slai Al-Ghalib
+ar;سلي;Slai Al-Ghalib
 ar;رفيصه;Ar Rafisah
 ar;شعبية إصفني;Esfini
-ar;اصفني‎;Esfini
+ar;اصفني;Esfini
 ar;غوب;Ghub
-ar;شعبية الوعب‎;Sha'biyyat Al Wa'ab
+ar;شعبية الوعب;Sha'biyyat Al Wa'ab
 kk;Умм-әл-Қувейн;Umm Al Quwain City
 uz;Umm Al Quwain;Umm Al Quwain City
 ky;Умм-аль-Кувейн;Umm Al Quwain City

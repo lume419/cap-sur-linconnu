@@ -845,7 +845,6 @@ uz;Farghona;Fergana
 ru;Фергана;Fergana
 uz;Farg'ona;Fergana
 uz;Фарғона;Fergana
-fa;فرغانه‎;Fergana
 de;Fargʻona;Fergana
 es;Ferganá;Fergana
 fr;Ferghana;Fergana

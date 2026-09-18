@@ -10092,7 +10092,6 @@
 0;33.1733,-24.2367;MZ-02;Gaza Province;Valente
 0;35.4803,-21.5142;MZ-03;Inhambane Province;Gustavo
 0;34.9083,-21.3458;MZ-03;Inhambane Province;Gustavo
-0;30.7000,-16.6667;MZ;;Guruve
 0;33.4869,-19.2861;MZ-10;Manica;Gurupira
 0;35.3686,-16.2422;MZ-09;Zambezia Province;Gurugunha
 0;36.6903,-16.6933;MZ-09;Zambezia Province;Munhungura

@@ -237,7 +237,6 @@
 382;56.4685,38.4323;TM-02;Balkan;Arapjyk
 0;59.5299,37.3457;TM-01;Ahal;Arapgala
 28653;58.5160,37.8875;TM-01;Ahal;Änew
-0;55.4500,38.8500;TM;;There's no such a place here.
 0;52.9833,39.8333;TM;;Allatepe
 0;54.6911,37.4889;TM-02;Balkan;Akyayla
 0;56.4734,38.3137;TM;;Ak-Kaya
@@ -1093,7 +1092,6 @@
 0;62.2000,40.4500;TM;;Sayat
 0;61.7238,41.1946;TM;;Sadyvar
 0;61.8500,40.2833;TM;;Pakmaksuidzhi
-0;60.3528,41.5362;TM;;Moskva
 0;61.8824,41.0494;TM;;Lebap
 0;62.3172,40.4246;TM-04;Lebap;Kyrançoba
 0;60.1089,41.8271;TM;;Kommunizm

@@ -7572,12 +7572,12 @@ zh;西羊稠;Xiyangchou
 zh;東飛沙;Dongfeisha
 zh;頂溝路;Dinggoulu
 zh;鱉潭;Bietan
-zh;寮仔　;Liaozi
+zh;寮仔;Liaozi
 zh;後寮埔;Houliaobu
 zh;瓊埔;Qiongbu
 zh;六戶仔;Liuhuzi
 zh;中港仔;Zhonggangzi
-zh;舊庄　;Jiuzhuang
+zh;舊庄;Jiuzhuang
 zh;溪子崙;Xizilun
 zh;西潭;Xitan
 zh;蕃仔寮;Fanziliao

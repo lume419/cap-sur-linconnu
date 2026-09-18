@@ -71182,7 +71182,6 @@ fa;چشمه بلند;Cheshmeh Boland
 fa;گزرینک بالا;Gazrīnek-e Bālā
 fa;ناوکان;Nāvkān
 fa;Nāhūkān;Nāvkān
-fa;-āleḩābād;Kash-e Şāleḩābād
 fa;کش صالح آباد;Kash-e Şāleḩābād
 fa;صالح آباد;Kash-e Şāleḩābād
 fa;گزاور;Gazāvar

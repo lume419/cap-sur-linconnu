@@ -26,6 +26,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { excludePlace } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
 
 const POSTAL = new Set(['US', 'MX', 'BM', 'CR', 'PA', 'HT', 'PR', 'VI', 'EC', 'PE', 'UY']);
 const SINGLE_CODE = { TC: 'TKCA 1ZZ', AI: 'AI-2640', FK: 'FIQQ 1ZZ', GS: 'SIQQ 1ZZ' };
@@ -65,6 +66,7 @@ for(const country of COUNTRIES){
     else if(c[6] !== 'P' || !KEEP_FEATURE_CODES.has(c[7]) || !c[1]) return;
     const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
     if(isNaN(lat) || isNaN(lon)) return;
+    if(excludePlace(country, c[0], c[1], lat, lon)) return;
     brut++;
     const p = { name: c[1], lat, lon, admin1: c[10] || '', admin2: c[11] || '', pop: parseInt(c[14], 10) || 0 };
     const k = p.name.toLowerCase() + '|' + lat.toFixed(2) + '|' + lon.toFixed(2);

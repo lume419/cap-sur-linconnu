@@ -28,7 +28,7 @@ es;Villa Cisneros;Dakhla
 ru;Дахла;Dakhla
 ar;الداخلة;Dakhla
 es;Dajla;Dakhla
-ar;مجيك‎;Mijek
+ar;مجيك;Mijek
 ar;فم الواد;Foum el Oued
 ar;دورة;Daoura
 ar;بئر الحلو;Bir Lehlou
@@ -54,7 +54,7 @@ ar;الفرسية;Farsia
 es;El Farsia;Farsia
 fr;Mehaires;Meharrize
 ar;محيرس;Meharrize
-ar;أم ادريكة‎;Oum Dreyga
+ar;أم ادريكة;Oum Dreyga
 ber;ⵓⵎ ⴷⵔⵉⴳⴰ;Oum Dreyga
 es;Um Dreiga;Oum Dreyga
 ar;الجريفية;Jraifia

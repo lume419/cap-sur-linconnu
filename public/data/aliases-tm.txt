@@ -327,7 +327,6 @@ pa;ਏਨਿਊ;Änew
 ps;اینیو;Änew
 pt;Aenew;Änew
 tg;Аенью;Änew
-ru;Тхереьс Но Суч А Пладже Хере.;There's no such a place here.
 ru;Аллатепе;Allatepe
 ru;Акяйла;Akyayla
 ru;Ак-Кая;Ak-Kaya

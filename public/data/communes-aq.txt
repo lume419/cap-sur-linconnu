@@ -24,22 +24,32 @@
 50;76.3903,-69.3808;AQ;;Progress Station
 46;76.1902,-69.4066;AQ;;Bharati Antarctic Station
 46;-64.0527,-64.7742;AQ;;Palmer Station
+46;-68.9144,-67.7612;AQ;;Teniente Luis Carvajal Villaroel Antarctic Base
 45;11.7319,-70.7667;AQ;;Maitri Station
 45;2.5351,-72.0117;AQ;;Troll Research Station
 30;-58.4699,-62.0915;AQ;;Machu Picchu Base
 30;106.8373,-78.4644;AQ;;Vostok Station
 26;77.1161,-80.4171;AQ;;Kunlun Station
+20;-59.9186,-62.5949;AQ;;Camara Base
+18;-60.6978,-62.9753;AQ;;Deception Station
 15;-62.8571,-64.8239;AQ;;González Videla Antarctic Base
 15;45.8416,-67.6658;AQ;;Molodyozhnaya Station
 13;-13.4073,-73.0423;AQ;;Aboa Station
 13;123.3446,-75.0996;AQ;;Concordia Station
 13;76.3808,-69.3886;AQ;;Law-Racoviță-Negoiță Station
+12;-60.0714,-64.5494;AQ;;Lieutenant Benjamín Matienzo Air Base
+12;-62.9767,-64.3258;AQ;;Melchior Base
+8;-60.7711,-62.4700;AQ;;Doctor Guillermo Mann Base
 8;100.6032,-66.2498;AQ;;Edgeworth David Base
+7;-56.9907,-63.4025;AQ;;Ruperto Elichiribehety Antarctic Scientific Station
 7;46.1585,-67.6579;AQ;;Vechernyaya Base
 6;-58.8518,-62.1692;AQ;;Collins Station
 6;0.0668,-75.0019;AQ;;Kohnen Station
 6;-71.5868,-74.8563;AQ;;Sky Blu
+5;-58.9806,-62.2430;AQ;;Eco-Nelson
 5;44.3167,-70.6833;AQ;;Mizuho Station
+4;-58.9342,-62.2101;AQ;;Julio Ripamonti Base
+2;-58.4458,-62.1783;AQ;;Captain Pieter J. Lenie Base
 0;-64.2557,-65.2456;AQ;;Akademik Vernadsky Station
 0;-62.8679,-64.8958;AQ;;Almirante Brown Antarctic Base
 0;-58.8617,-62.1750;AQ;;Artigas

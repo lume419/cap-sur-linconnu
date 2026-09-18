@@ -4067,10 +4067,10 @@ ru;Уштургаль;Oshtur Ghal
 fa;اروزگان;Uruzgān
 fa;وريسكی;Ōrīskī
 ru;Ургун;Arghun
-fa;اورگون‎‎;Urgun
+fa;اورگون;Urgun
 en;Orgun;Urgun
 en;Urgin;Urgun
-ps;ورګون‎,;Urgun
+ps;ورګون;Urgun
 ru;Ургун;Urgun
 ar;أرغون;Urgun
 kk;Ұрғұн;Urgun

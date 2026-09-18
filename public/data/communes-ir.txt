@@ -12031,7 +12031,6 @@
 0;45.8653,34.4844;IR-13;Kermanshah Province;Dūl-e Elyās
 0;45.9097,34.4106;IR-13;Kermanshah Province;Dolangān-e Pā’īn
 0;45.9190,34.4020;IR-13;Kermanshah Province;Dolangān-e Bālā
-0;45.2667,35.1333;IR-13;Kermanshah Province;Doāb
 0;46.2750,34.5540;IR-13;Kermanshah Province;Zengākeh
 0;46.0139,34.6431;IR-13;Kermanshah Province;Dangī-ye ‘Alī Beg
 0;46.0105,34.6322;IR-13;Kermanshah Province;Dangī-ye ‘Abbās
