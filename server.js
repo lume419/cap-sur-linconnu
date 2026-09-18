@@ -2086,7 +2086,14 @@ function buildSearchIndexInChild(){
           // moteur ni recherche (le moteur n'est lancé qu'après cette attente).
           var timer = setInterval(function(){
             waited += 10;
-            if(!searchIndexLockAlive() || waited > 30 * 60){ clearInterval(timer); resolve(!!openDiskSearchIndex()); }
+            if(!searchIndexLockAlive() || waited > 30 * 60){
+              clearInterval(timer);
+              var opened = !!openDiskSearchIndex();
+              // État de /api/status mis à jour (constaté en production le 18/09/2026 : il restait « construction en
+              // cours dans un autre processus » alors que l'index construit par l'autre processus était chargé).
+              startupStatus.build = opened ? 'construite par un autre processus' : 'attente terminée, index indisponible';
+              resolve(opened);
+            }
           }, 10000);
           return;
         }

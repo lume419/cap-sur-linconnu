@@ -44,7 +44,8 @@ RewriteRule ^node_modules(/.*)?$ /? [R=301,L]
 # pdf-fonts : polices Noto de l'export PDF (≈ 26 Mo, lues sur le disque par Node) — ajouté le 17/09/2026, renommé le
 # 18/09/2026. NE PAS bloquer « fonts » : /fonts/… est servi par Node depuis public/fonts/ (polices d'affichage du site
 # pour le tifinagh, l'éthiopien, le tibétain, le thâna et le yi) — le bloquer affiche ces écritures en carrés.
-RewriteRule ^(lib|scripts|cache|tmp|public|data|pdf-fonts|\.claude)(/.*)?$ /? [R=301,L]
+# tests : suite de tests (10e audit du 18/09/2026), constatée servie en 200 en production le jour de son ajout.
+RewriteRule ^(lib|scripts|cache|tmp|public|data|pdf-fonts|tests|\.claude)(/.*)?$ /? [R=301,L]
 RewriteRule ^(\.htaccess-security-block\.txt|\.gitignore|\.gitattributes|\.env.*)$ /? [R=301,L]
 
 # --- Journaux et cartes de sources à la racine (audit du 17/09/2026) ---
