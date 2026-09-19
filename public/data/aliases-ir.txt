@@ -90882,7 +90882,7 @@ ko;테헤란;Tehran
 lt;Teheranas;Tehran
 nn;Teheran;Tehran
 no;Teheran;Tehran
-os;Тæхран;Tehran
+os;Тӕхран;Tehran
 pl;Teheran;Tehran
 ro;Teheran;Tehran
 sk;Teherán;Tehran

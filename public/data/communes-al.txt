@@ -3535,7 +3535,7 @@
 0;19.5431,42.1467;4002;Bashkia Shkodër;Hysaj
 0;19.5658,42.1661;4002;Bashkia Shkodër;Vorfë e Sipërm
 0;19.5086,42.1047;4002;Bashkia Shkodër;Shtoji i Ri
-0;19.5875,42.1289;4012;Bashkia Shkodër;Milano
+0;19.5875,42.1289;4012;Bashkia Shkodër;Milan
 0;19.5542,42.1297;4002;Bashkia Shkodër;Kullat e Boksit
 0;19.5994,42.1453;4012;Bashkia Shkodër;Plisht
 0;19.6092,42.1625;4012;Bashkia Shkodër;Derraj

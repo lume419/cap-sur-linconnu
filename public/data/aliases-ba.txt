@@ -766,17 +766,13 @@ sr;Широки Бријег;Široki Brijeg
 ko;시로키브리예그;Široki Brijeg
 fa;شیروکی بریگ;Široki Brijeg
 ur;شیروکی بریئگ;Široki Brijeg
-ru;Сирoki Бриег;Široki Brijeg
 ar;سيروكي بريج;Široki Brijeg
-kk;Сирoki Бриег;Široki Brijeg
-ky;Сирoki Бриег;Široki Brijeg
+kk;Сирокі Бриег;Široki Brijeg
 hi;सिरोकी ब्रिजेग;Široki Brijeg
 bn;সিরোকি ব্রিজেগ;Široki Brijeg
 am;ስሮክي ብሪጅግ;Široki Brijeg
 pa;ਸਿਰੋਕੀ ਬ੍ਰਿਜੇਗ;Široki Brijeg
 ps;سیروکی بریجگ;Široki Brijeg
-tg;Сирoki Бриег;Široki Brijeg
-tt;Сирoki Бриег;Široki Brijeg
 lt;Laktašai;Laktaši
 sr;Лакташи;Laktaši
 ru;Лакташи;Laktaši
@@ -1384,7 +1380,7 @@ sl;Banjaluka;Banja Luka
 el;Μπάνια Λούκα;Banja Luka
 uk;Баня-Лука;Banja Luka
 mr;बंजा लुका;Banja Luka
-os;Баня-Лукæ;Banja Luka
+os;Баня-Лукӕ;Banja Luka
 lt;Bania Luka;Banja Luka
 ko;바냐루카;Banja Luka
 ar;بانيا لوكا;Banja Luka

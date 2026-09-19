@@ -4465,7 +4465,7 @@
 0;39.3365,26.7717;SA-05;Medina Region;Al Ḩazim
 0;39.3635,26.0690;SA-05;Medina Region;Al ‘Ishāsh
 0;39.1565,25.9178;SA-05;Medina Region;An Nūwaybigh wa an Nābigh
-0;39.4444,25.1815;SA-05;Medina Region;Wādī  al Ghars
+0;39.4444,25.1815;SA-05;Medina Region;Wādī al Ghars
 0;39.3282,25.2563;SA-05;Medina Region;Aş Şalşalah
 0;39.4215,26.0592;SA-05;Medina Region;Ḑuwayl
 0;38.7799,26.0221;SA-05;Medina Region;Maqţa‘ ar Raḩá

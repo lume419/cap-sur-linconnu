@@ -9337,7 +9337,7 @@ en;Diwaniya;Al Diwaniyah
 ru;Дивания;Al Diwaniyah
 ar;الديوانية;Al Diwaniyah
 en;Ad Diwaniyah;Al Diwaniyah
-az;Əd-Divаniyyə;Al Diwaniyah
+az;Əd-Divaniyyə;Al Diwaniyah
 ckb;دیوانیە;Al Diwaniyah
 de;Diwaniyya;Al Diwaniyah
 fr;Diwaniya;Al Diwaniyah
@@ -27773,7 +27773,7 @@ mn;Мосул хот;Mosul
 pa;ਮੋਸਲ;Mosul
 hy;Մոսուլ;Mosul
 ka;მოსული;Mosul
-ky;Мосeл;Mosul
+ky;Мосел;Mosul
 ml;മൊസൂൾ;Mosul
 ta;மோசுல்;Mosul
 th;โมซูล;Mosul

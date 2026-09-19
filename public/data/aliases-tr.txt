@@ -4150,7 +4150,7 @@ oc;Andrinòple;Edirne
 sl;Odrín;Edirne
 sq;Adrianopoja;Edirne
 tr;Aydıncık;Edincik
-ru;Дюзджe;Düzce
+ru;Дюздже;Düzce
 tr;Teikçet;Duygulu
 ru;Малюмсейит;Dutluca
 en;Dutha;Tunca
@@ -7186,7 +7186,7 @@ ce;Кайсери;Kayseri
 ckb;قەیسەری;Kayseri
 ky;Кайсери;Kayseri
 lrc;قیصریه;Kayseri
-tyv;Кaйсери;Kayseri
+tyv;Кайсери;Kayseri
 uz;Qayseri;Kayseri
 vep;Kaiseri;Kayseri
 hi;कायसेरी;Kayseri
@@ -8384,7 +8384,6 @@ pa;ਏਲਾਜਿਗ;Elazığ
 udm;Элязыг;Elazığ
 zh;埃拉泽;Elazığ
 ur;الازیغ;Elazığ
-kk;Елaztіг;Elazığ
 uz;Elazig;Elazığ
 ky;Элазыг;Elazığ
 hi;एलाज़िग;Elazığ
@@ -11331,7 +11330,7 @@ ps;ادرنه;Edirne
 tg;Эдирне;Edirne
 tt;Әдірне;Edirne
 ar;دوزجة;Düzce
-kk;Дүзджe;Düzce
+kk;Дүздже;Düzce
 uz;Dyuzje;Düzce
 ky;Дүзче;Düzce
 hi;ड्यूज़्स;Düzce
@@ -11341,7 +11340,7 @@ am;ዱዝጄ;Düzce
 ja;デュズジェ;Düzce
 pa;ਡੂਜ਼ਸੇ;Düzce
 ps;دوزجه;Düzce
-tg;Дюзджe;Düzce
+tg;Дюздже;Düzce
 tt;Дюзҗе;Düzce
 tt;Дүзенли;Düzenli
 ce;Дуьзенли;Düzenli
@@ -11569,7 +11568,7 @@ mhr;Бурсо;Bursa
 mn;Бурса;Bursa
 ab;Бурса;Bursa
 ckb;بورسا;Bursa
-os;Бурсæ;Bursa
+os;Бурсӕ;Bursa
 zh;布尔萨;Bursa
 ce;Бурса;Bursa
 ur;بورصہ;Bursa

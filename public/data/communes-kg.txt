@@ -1136,7 +1136,6 @@
 0;72.2589,41.0238;KG-03;Jalal-Abad Region;Dzhenish
 0;72.3055,41.0376;KG-03;Jalal-Abad Region;Kichi Byuogëndyu
 0;72.3261,41.0514;KG-03;Jalal-Abad Region;Dzhany-Aryk
-0;72.3546,41.0923;KG-03;Jalal-Abad Region;Kypchak-Talaa (duplicate, please delete)
 0;72.3734,41.0433;KG-03;Jalal-Abad Region;Chek
 0;72.3914,41.0428;KG-03;Jalal-Abad Region;Dzhazgak
 0;72.4517,41.0388;KG-03;Jalal-Abad Region;Boston

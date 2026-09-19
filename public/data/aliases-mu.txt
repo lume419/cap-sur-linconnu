@@ -192,13 +192,13 @@ uk;Шамарель;Chamarel
 ja;シャマレル;Chamarel
 ru;Центр де Флак;Centre de Flacq
 kk;Центр де Флак;Centre de Flacq
-uz;Sentр de Flacq;Centre de Flacq
+uz;Sentp de Flacq;Centre de Flacq
 ky;Центр де Флак;Centre de Flacq
 hi;सेंटर डे फ्लैक;Centre de Flacq
 bn;সেন্ট্রে দে ফ্ল্যাক;Centre de Flacq
 ur;سینٹر دے فلاک;Centre de Flacq
 am;ሴንተር ደ ፍላክ;Centre de Flacq
-az;Sent-dе Flack;Centre de Flacq
+az;Sent-de Flack;Centre de Flacq
 fa;سنتر د فلاک;Centre de Flacq
 ja;サントル・ド・フラック;Centre de Flacq
 pa;ਸੈਂਟਰ ਡੇ ਫ੍ਲੈਕ;Centre de Flacq

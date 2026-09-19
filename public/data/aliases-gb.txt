@@ -1365,7 +1365,6 @@ gd;Tolastadh a' Chaolais;Tolsta Chaolais
 cy;Llanffwyst;Llanfoist
 cy;Licswm;Lixwm
 kw;Kommperan;Perrancoombe
-en;Ostend;Oostende
 gd;Harrapul;Harrapool
 cy;Corntwn;Corntown
 cy;Tresigin;Sigingstone

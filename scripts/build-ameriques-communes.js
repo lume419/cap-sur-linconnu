@@ -26,7 +26,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { excludePlace } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
+const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
 
 const POSTAL = new Set(['US', 'MX', 'BM', 'CR', 'PA', 'HT', 'PR', 'VI', 'EC', 'PE', 'UY']);
 const SINGLE_CODE = { TC: 'TKCA 1ZZ', AI: 'AI-2640', FK: 'FIQQ 1ZZ', GS: 'SIQQ 1ZZ' };
@@ -66,9 +66,10 @@ for(const country of COUNTRIES){
     else if(c[6] !== 'P' || !KEEP_FEATURE_CODES.has(c[7]) || !c[1]) return;
     const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
     if(isNaN(lat) || isNaN(lon)) return;
-    if(excludePlace(country, c[0], c[1], lat, lon)) return;
+    const name = preparePlaceName(country, c[0], c[1]); // noms nettoyés (voir communes-corrections.js)
+    if(excludePlace(country, c[0], name, lat, lon)) return;
     brut++;
-    const p = { name: c[1], lat, lon, admin1: c[10] || '', admin2: c[11] || '', pop: parseInt(c[14], 10) || 0 };
+    const p = { name, lat, lon, admin1: c[10] || '', admin2: c[11] || '', pop: parseInt(c[14], 10) || 0 };
     const k = p.name.toLowerCase() + '|' + lat.toFixed(2) + '|' + lon.toFixed(2);
     const prev = seen.get(k);
     if(!prev || p.pop > prev.pop) seen.set(k, p);
@@ -89,7 +90,7 @@ for(const country of COUNTRIES){
   }
 
   let sansCode = 0, sansRegion = 0, parCanton = 0;
-  const lines = [];
+  let lines = [];
   for(const p of seen.values()){
     const region = (p.admin1 && p.admin1 !== '00') ? (admin1Names.get(country + '.' + p.admin1) || '') : '';
     let cp;
@@ -115,6 +116,7 @@ for(const country of COUNTRIES){
     }
     lines.push(`${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp};${region};${p.name}`);
   }
+  lines = dropNearDuplicates(lines); // quasi-doublons (voir communes-corrections.js)
   fs.writeFileSync(path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt'), lines.join('\n') + '\n', 'utf8');
   total += lines.length;
   console.log(country + ' : ' + brut + ' bruts -> ' + seen.size + ' dédoublonnés -> ' + lines.length + ' retenus' +

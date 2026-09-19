@@ -27,11 +27,16 @@ cap-sur-linconnu/
 ├── data/                  # données NON servies au navigateur (bloquées côté Apache et par Node)
 │   ├── charging-stations.txt  # bornes de recharge Open Charge Map (voiture électrique)
 │   ├── hiking.json            # portails de randonnée par pays (scripts/build-hiking-data.js)
-│   ├── toll-grid.json         # cases de 0,25° où une autoroute à péage existe (scripts/build-toll-grid.js)
-│   └── road-factor-osrm.json  # relevé des 128 itinéraires OSRM qui fixent ROAD_FACTOR et les vitesses
+│   ├── toll-grid.json         # cases de 0,25° où une autoroute à péage existe (scripts/build-toll-grid.js),
+│   │                            # et « freeCells » : cases où passe aussi une autoroute gratuite (--free)
+│   ├── road-factor-osrm.json  # relevé des 128 itinéraires OSRM qui fixent ROAD_FACTOR et la vitesse de référence
+│   ├── road-speed-by-country.json # vitesse moyenne par pays : 887 itinéraires OSRM, 150 pays (11e audit)
+│   ├── moto-no-motorway-valhalla.json # relevé Valhalla des facteurs de vitesse moto sans autoroute (10e audit)
+│   └── lodging-price-levels.json  # méthode, sources et calcul du plafond d'hébergement par pays (référence)
 ├── scripts/
-│   ├── build-toll-grid.js         # data/toll-grid.json : autoroutes à péage réelles (Overpass/OSM)
+│   ├── build-toll-grid.js         # data/toll-grid.json : autoroutes à péage réelles (Overpass/OSM) ; --free : gratuites
 │   ├── measure-road-factor.js     # mesure ROAD_FACTOR et la vitesse moyenne sur de vrais itinéraires OSRM
+│   ├── measure-road-speed-by-country.js # data/road-speed-by-country.json : même mesure, pays par pays
 │   ├── build-country-communes.js  # génère public/data/communes-XX.txt pour un nouveau pays (GeoNames)
 │   ├── build-aliases.js           # génère public/data/aliases-XX.txt (noms multilingues, GeoNames)
 │   ├── parse-ba-wiki-postal.js    # BOSNIE-HERZÉGOVINE SEULEMENT : extrait la liste Wikipedia des
@@ -79,9 +84,9 @@ cap-sur-linconnu/
 │       ├── communes-sm.txt     # 24 lieux saint-marinais, même format
 │       ├── aliases-sm.txt      # idem pour Saint-Marin (alias FR/EN/ES/IT/PT/DE/RM)
 │       ├── communes-li.txt     # 67 lieux liechtensteinois, même format
-│       ├── aliases-li.txt      # idem pour le Liechtenstein (1 alias : Gamprin-Bendern)
+│       ├── aliases-li.txt      # idem pour le Liechtenstein (162 alias, dont Gamprin-Bendern)
 │       ├── communes-mc.txt     # 1 lieu (Monaco lui-même — micro-Etat, pas de subdivision GeoNames)
-│       ├── aliases-mc.txt      # idem pour Monaco (1 alias : "Mùnegu", nom monégasque)
+│       ├── aliases-mc.txt      # idem pour Monaco (5 alias, dont "Mùnegu", nom monégasque)
 │       ├── communes-mt.txt     # 191 lieux maltais (Malte + Gozo), même format
 │       ├── aliases-mt.txt      # idem pour Malte (alias FR/EN/ES/IT/DE/PT/NDS/MT/...)
 │       ├── communes-gg.txt     # 246 lieux guernesiais, même format (Sercq exclue, voir "Ferries")
@@ -117,7 +122,7 @@ cap-sur-linconnu/
 │       ├── communes-im.txt     # 43 lieux mannois, même format (aucune correction de nom nécessaire)
 │       ├── aliases-im.txt      # idem pour l'île de Man (mannois/Gaelg en tête)
 │       ├── …                   # un communes-XX.txt et un aliases-XX.txt par pays : 239 fichiers d'alias
-│       │                        # (France comprise), 1 718 291 alias au total au 18/09/2026 — voir
+│       │                        # (France comprise), 1 717 801 alias au total au 19/09/2026 — voir
 │       │                        # "Noms alternatifs dans toutes les langues, pour tous les pays"
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 38 liaisons de péage françaises vérifiées, qui fixent le tarif €/km (7e audit)
@@ -434,7 +439,11 @@ ajoute deux à trois choses, indépendamment des autres :
    n'importe quel lieu sans correspondance dans ce pipeline.
 2. **Un réglage péage** (`TOLL_RATE_BY_COUNTRY` dans `public/js/trip-data.js` — un pays sans réseau autoroutier à
    péage significatif, comme l'Andorre ou le Luxembourg, a `hasToll:false` : aucun montant n'est
-   jamais affiché pour ce pays plutôt que d'en inventer un). L'Allemagne a aussi `hasToll:false`,
+   jamais affiché pour ce pays plutôt que d'en inventer un). **Attention** : les tarifs au kilomètre cités pays par
+   pays ci-dessous sont ceux de l'AJOUT de chaque pays. Tous ont été recalculés au 10e audit (18/09/2026) sur les
+   grilles officielles 2026, avec les classes van et moto propres à chaque pays : valeurs et sources en vigueur dans
+   les commentaires de `TOLL_RATE_BY_COUNTRY`, barème nommé à l'écran par `TOLL_SOURCE` (voir « Dixième passe
+   d'audit ») ; le montant est affiché en fourchette depuis le 11e audit (voir « Onzième passe d'audit »). L'Allemagne a aussi `hasToll:false`,
    pour la même raison — l'Autobahn est réellement gratuite pour tous les véhicules modélisés ici,
    seuls les poids lourds ≥3,5 t paient une redevance (LKW-Maut), hors du périmètre de l'app. La
    Suisse et l'Autriche ont `hasToll:false` pour une raison différente, tous les deux : leur réseau
@@ -443,7 +452,8 @@ ajoute deux à trois choses, indépendamment des autres :
    CHF/km ne peut en dériver, et l'app ne simule pas un abonnement (voir le commentaire de
    `COUNTRIES` dans `app.js` pour le détail). L'Italie, elle, a un vrai réseau à péage classique avec
    barrière comme la France — `hasToll:true`, tarif dérivé du barème officiel Autostrade per l'Italia
-   2026 (0,086 €/km retenu, entre les tarifs plaine/montagne). Pour la Suisse et l'Autriche (champ
+   2026 (0,086 €/km retenu à l'ajout, entre les tarifs plaine/montagne ; 0,084 €/km depuis le 10e audit, moto au tarif
+   voiture). Pour la Suisse et l'Autriche (champ
    `vignette` dans `COUNTRIES`, un objet `{url}` pointant vers la boutique OFFICIELLE — via.admin.ch,
    shop.asfinag.at — jamais un revendeur tiers), l'itinéraire affiche un petit rappel « pensez à la
    commander avant de partir » avec un lien direct, une seule fois par pays même si le trajet y
@@ -492,7 +502,8 @@ ajoute deux à trois choses, indépendamment des autres :
    Barème calculé sur Zagreb-Split/Dugopolje (A1, ~410 km, mojkalkulator.com.hr agrégeant les tarifs
    HAC 2026) : catégorie I (voiture) 24,50 €, IA (moto) 12,30 €, II (van/remorque) 36,70 € — soit
    0,060/0,090/0,030 €/km, des ratios ×1,5/×0,5 exacts par rapport à la classe 1 (pas une
-   extrapolation comme pour l'Italie/l'Espagne/le Portugal, de VRAIS ratios officiels). `hasToll:true`.
+   extrapolation comme pour l'Italie/l'Espagne/le Portugal, de VRAIS ratios officiels). `hasToll:true`. (Depuis le
+   10e audit : grilles HAC elles-mêmes, 0,070/0,107/0,042 €/km.)
    La Bosnie-Herzégovine rejoint elle aussi ce groupe à péage fermé, mais avec un réseau bien plus
    jeune et court (~200 km, corridor Vc encore en construction par tronçons) et DEUX gestionnaires
    sans grille tarifaire unique publiée (JP Autoceste FBiH côté Fédération, AD Autoputevi RS côté
@@ -500,7 +511,8 @@ ajoute deux à trois choses, indépendamment des autres :
    tronçon (les plus courts coûtant proportionnellement plus cher), moyenne ~0,19 KM/km — converti
    au taux de caisse d'émission FIXE (1 EUR = 1,95583 KM depuis 1997, jamais dévalué en 28 ans, voir
    point 3 ci-dessous) plutôt qu'à un taux flottant : ~0,097 €/km, classes 2/5 extrapolées au ratio
-   France/Espagne/Italie (×1,55/×0,58) faute de grille par catégorie ici. `hasToll:true`. Le
+   France/Espagne/Italie (×1,55/×0,58) faute de grille par catégorie ici. `hasToll:true`. (Depuis le 10e audit :
+   grilles des deux exploitants, JP Autoceste FBiH 2021 et Autoputevi RS 2019, 0,056 €/km, fourgon ×2, moto 0,040.) Le
    Royaume-Uni, lui, REJOINT le groupe "entièrement gratuit" (Belgique/Pays-Bas/Luxembourg/Allemagne/
    Saint-Marin/Liechtenstein/Monaco/Malte/Guernesey/Jersey) plutôt que le groupe à péage fermé de sa
    voisine croato-bosnienne : son réseau autoroutier (motorways) est intégralement gratuit, comme
@@ -573,14 +585,15 @@ ajoute deux à trois choses, indépendamment des autres :
    1 EUR) : ~0,055 €/km. La classe moto n'est pas extrapolée mais dérivée du RATIO réel observé sur
    les cinq liaisons (très exactement ×0,5 à chaque fois) ; la classe van/remorque, elle, faute de
    grille officielle trouvée malgré une recherche directe sur putevi-srbije.rs, reprend le ratio ×1,5
-   croate (le seul ratio RÉEL confirmé dans la région pour cette catégorie). **Macédoine du Nord** :
+   croate (le seul ratio RÉEL confirmé dans la région pour cette catégorie). (Depuis le 10e audit : grille officielle
+   Putevi Srbije du 1/7/2026, 0,050 €/km, fourgon K2 ×1,5, moto K1-a ×0,5.) **Macédoine du Nord** :
    péage aux gares plutôt qu'un ticket unique, mais bien proportionnel une fois les gares d'un trajet
    cumulées (Entreprise publique des routes d'État, roads.org.mk). Tarif retenu sur l'A1
    Skopje-Gevgelija (123 km, corridor principal vers la Grèce, 360 MKD catégorie 1B) -> 2,93 MKD/km,
    converti au cours cible OFFICIEL de la Banque nationale (ancrage de facto depuis 1997, ~61,5 MKD =
    1 EUR) : ~0,048 €/km. Contrairement à la Serbie, un vrai barème officiel par catégorie A été trouvé
    (roads.org.mk, quatre gares) : ratios moto/van réels ×0,60/×1,42, retenus tels quels plutôt que le
-   ratio croate.
+   ratio croate. (Depuis le 10e audit : ~0,037 €/km, fourgon en catégorie III ×2,8, moto ×0,63.)
    **La Grèce** rejoint elle aussi le groupe `hasToll:true` proportionnel à la distance (péage FERMÉ,
    comme la France/la Croatie/la Serbie) : trois liaisons réelles retenues (mydiodia.gr 2026) —
    Athènes-Patras, Athènes-Thessalonique et Thessalonique-Alexandroúpoli (corridor Egnatia Odos) —
@@ -589,7 +602,8 @@ ajoute deux à trois choses, indépendamment des autres :
    le ratio réel ×0,5 observé sur l'Attiki Odos (même ratio que la Serbie/la Croatie, cette fois
    confirmé par un vrai barème par catégorie plutôt que par simple analogie régionale) ; la classe
    van/remorque, faute de grille officielle distincte, extrapole le même ratio ×1,5 croate déjà
-   repris pour la Serbie. **La Bulgarie et la Roumanie**, elles, rejoignent le groupe à vignette
+   repris pour la Serbie. (Depuis le 10e audit : médiane de six axes, 0,069 €/km, fourgon de plus de 2,20 m ×2,52,
+   moto ×0,70.) **La Bulgarie et la Roumanie**, elles, rejoignent le groupe à vignette
    (Suisse/Autriche/République tchèque/Slovaquie/Hongrie/Slovénie) plutôt que le péage proportionnel :
    **Bulgarie**, vignette électronique obligatoire depuis 2019 (BGTOLL, bgtoll.bg) sur tout le réseau
    autoroutier et national — `hasToll:false`, `vignette.url` pointant vers la boutique officielle.
@@ -657,13 +671,19 @@ ajoute deux à trois choses, indépendamment des autres :
    autoroute précise pour le compte de la Karayolları Genel Müdürlüğü (KGM, direction générale des
    routes turque) — même logique que HAC/Putevi Srbije/JP za državni patišta ailleurs dans cette
    table, l'opérateur réellement responsable du barème utilisé pour le calcul plutôt que l'autorité
-   nationale générale.
+   nationale générale. **Remplacé au 10e audit** : l'O-5 privée coûte environ 4 fois le réseau public ; le barème est
+   désormais celui des grilles officielles KGM 2026 (0,0142 €/km, crédit « KGM 2026 »), les autoroutes privées étant
+   dès lors sous-estimées.
    **La Géorgie**, ajoutée ensuite, a `hasToll:false` — comme l'Ukraine/Gibraltar, aucun péage
    routier n'existe à ce jour pour les véhicules particuliers ; la seule route à péage du pays (rocade
    de contournement de Tbilissi, TBTR) est encore en construction et vise le fret de transit, et la
    Direction des routes a explicitement écarté toute extension aux grands axes nationaux
    (georgiatoday.ge, juin 2026) — aucune vignette non plus.
-3. **Une devise** (`currency` dans `COUNTRIES`, `app.js` — EUR par défaut si absent). La Suisse et le
+3. **Une devise** (`currency` dans `COUNTRIES`, `public/js/trip-data.js` — EUR par défaut si absent). **Attention** : les
+   paliers `BUDGET_PRICE_MAX.XXX` « calés » devise par devise décrits ci-dessous sont ceux de l'ajout de chaque pays.
+   Depuis le 11e audit (19/09/2026), le plafond d'hébergement est calculé par UNE seule méthode pour les 239 pays
+   (`lodgingPriceCap`, indice « restaurants et hôtels » du pays, voir « Hébergement ») puis converti dans la devise
+   voulue ; `BUDGET_PRICE_MAX` n'en est plus qu'une grille dérivée, gardée pour compatibilité. La Suisse et le
    Liechtenstein en ont besoin (`CHF` — le Liechtenstein utilise le franc suisse par union monétaire,
    pas l'euro), Guernesey et Jersey aussi (`GBP` — chacune a sa propre livre locale à parité fixe
    avec la livre sterling, jamais l'euro malgré la proximité géographique avec la France ; Airbnb/
@@ -819,9 +839,10 @@ ajoute deux à trois choses, indépendamment des autres :
    ratios 0,55×/2× que la Moldavie/la Biélorussie/l'Ukraine/la Turquie ci-dessus. `CURRENCY_GLYPH.GEL`
    utilise le vrai symbole "₾" : adopté par la Banque nationale de Géorgie en 2014, normalisé Unicode
    dès 2015 (v8.0) — plus de dix ans de recul, même niveau de sécurité que le "₺" turc ci-dessus.
-   La devise détermine le plafond de prix affiché pour le logement
-   (`BUDGET_PRICE_MAX`, un jeu de valeurs par devise, pas une simple conversion au taux de change) et
-   la devise des liens de recherche Airbnb/Booking générés — jamais le péage, toujours affiché en
+   La devise détermine la monnaie du plafond de prix affiché pour le logement (depuis le 11e audit, plafond
+   calculé pour le PAYS de l'étape puis converti au taux de change, `lodgingPriceCap` — et non plus un jeu de
+   valeurs par devise) et celle des liens de recherche Airbnb/Booking générés (si les plateformes l'acceptent,
+   `LODGING_LINK_CURRENCIES`, sinon la devise du pays, sinon l'euro) — jamais le péage, toujours affiché en
    euros quelle que soit la devise du pays (voir `toll.enabled`/`toll.disabled` dans `i18n.js`, non
    paramétrées par devise) ; la Bosnie-Herzégovine fut le premier pays `hasToll:true` hors zone euro
    ici couvert, rejointe depuis par la Serbie et la Macédoine du Nord — leur péage reste affiché en €
@@ -837,7 +858,8 @@ bureaux, dont Erevan renommée depuis "Etchmiadzin"/"Echmiadzin" vers son nom of
 "Vagharshapat"). `hasToll:false` (aucun péage réel — le seul dispositif ayant existé, un droit d'usage
 pour véhicules étrangers, a été aboli en 2018). Devise `AMD` (dram arménien), `CURRENCY_GLYPH` utilise
 le vrai symbole "֏" (U+058F, normalisé Unicode 6.1/2012). Pas de fichier alias pour cet ajout (comme
-la France). **L'Azerbaïdjan** : pipeline standard, GeoNames publie un vrai fichier de codes postaux —
+la France à l'époque ; depuis, `scripts/build-all-aliases.js` a créé `aliases-am.txt` et `aliases-fr.txt`, voir
+« Noms alternatifs dans toutes les langues, pour tous les pays »). **L'Azerbaïdjan** : pipeline standard, GeoNames publie un vrai fichier de codes postaux —
 4 277 communes retenues sur 5 018 dédoublonnées, treize corrections `NAME_OVERRIDES` parmi les plus
 grandes villes du pays (alphabet latin azerbaïdjanais officiel depuis 1991 — "Baku"->"Bakı",
 "Ganja"->"Gəncə"... voir `scripts/build-country-communes.js`). `hasToll:true` : un vrai péage
@@ -861,8 +883,9 @@ alternatifs GeoNames). `hasToll:false` (aucun péage en vigueur ; des corridors 
 privée sont à l'étude mi-2026, rien de construit). Devise `SYP` (nouvelle livre syrienne, introduite
 le 1er/3 janvier 2026, 100 anciennes livres = 1 nouvelle) — `CURRENCY_GLYPH` utilise l'abréviation
 arabe "ل.س" (aucun symbole Unicode dédié n'existe pour cette devise) ; palier `BUDGET_PRICE_MAX.SYP`
-documenté comme une estimation TRÈS prudente faute de taux de change ou de marché du logement
-touristique vérifiable après la guerre civile. Aucun ferry pour véhicule de tourisme identifié (la
+documenté à l'ajout comme une estimation TRÈS prudente faute de taux de change ou de marché du logement
+touristique vérifiable après la guerre civile (depuis le 11e audit : indice Banque mondiale ICP 2021 de la Syrie et
+taux InforEuro, voir « Hébergement »). Aucun ferry pour véhicule de tourisme identifié (la
 ligne Mersin-Lattaquié est un cargo Ro-Ro pour remorques, pas un ferry touristique). **Chypre** :
 pipeline standard, GeoNames publie un vrai fichier de codes postaux couvrant l'île entière (nord
 compris, mêmes coordonnées exactes entre le dump et le fichier de codes postaux pour Kyrénia/
@@ -881,8 +904,10 @@ Limassol-Le Pirée existe et opère à nouveau depuis 2022 (soutien du conseil d
 prolongé jusqu'en 2027), mais saisonnière (fin mai-début septembre) et portée par un unique opérateur
 privé ayant déjà changé de nom plusieurs fois depuis la reprise — faute de durée/tarif par véhicule
 vérifiés avec la même rigueur que le reste de `FERRY_ROUTES`, elle n'a pas été ajoutée à cette table
-plutôt que d'inventer un chiffre : Chypre reste pour l'instant un îlot autonome, comme l'Islande ou
-les îles Féroé. Devise : euro (zone euro depuis 2008), aucun champ `currency` nécessaire.
+plutôt que d'inventer un chiffre : Chypre était alors un îlot autonome, comme l'Islande ou
+les îles Féroé. (Depuis : Chypre est reliée à la Turquie par Taşucu ↔ Girne, sans prix affiché, et l'Islande et les
+Féroé au Danemark par Smyril Line — voir « Liaisons sans tarif fixe publié ». Limassol ↔ Le Pirée n'est toujours pas
+modélisée.) Devise : euro (zone euro depuis 2008), aucun champ `currency` nécessaire.
 
 **Le Liban, Israël, la Palestine, la Jordanie, l'Égypte et la Libye**, ajoutés ensuite (les six
 en une seule fois, choix explicite de l'utilisateur). AUCUN des six n'a de fichier de codes postaux
@@ -1496,14 +1521,17 @@ Afghanistan-Chine (col du Wakhjir), Bhoutan-Chine, Bangladesh-Myanmar.
 **Péages : Japon et Taïwan seulement.** Japon : barème NEXCO publié par le ministère (MLIT), 24,6 JPY/km + taxe
 (≈ 0,146 €/km), coefficients officiels 1,2 (véhicule moyen) et 0,8 (deux-roues). Taïwan : péage électronique au
 kilomètre du Freeway Bureau, 1,20 TWD/km (≈ 0,0325 €/km), motos interdites sur autoroute ; les 20 km quotidiens
-gratuits et la part fixe japonaise de 165 JPY ne sont pas modélisés. Ailleurs, forfaits par gare ou par tronçon (Inde,
+gratuits et la part fixe japonaise de 165 JPY ne sont pas modélisés. (Depuis le 10e audit : médiane de trajets réels
+calculés par les formules officielles, remises longue distance et km gratuits compris — Japon 0,133 €/km, fourgon au
+tarif voiture, moto ×0,8 ; Taïwan 0,028 €/km — voir `TOLL_RATE_BY_COUNTRY`.) Ailleurs, forfaits par gare ou par tronçon (Inde,
 Pakistan, Indonésie, Kazakhstan, Hong Kong, Bangladesh…) ou barèmes kilométriques connus seulement par la presse
 (Chine, Corée du Sud, Malaisie, Viêt Nam) : aucun péage modélisé.
 
 **Monnaies : 33 nouvelles** (AFN, KZT, KGS, UZS, TJS, TMT, BDT, BTN, INR, MVR, NPR, PKR, LKR, USD, CNY, HKD, MOP, KPW,
 KRW, JPY, MNT, TWD, BND, KHR, IDR, LAK, MYR, MMK, PHP, SGD, THB, VND, AUD), chacune avec son signe usuel (₹, ¥, ₩, ฿,
 ₫, ₱, ៛, ₭, ₮, ₸, ৳, ؋…). Dollar américain pour les Chagos et le Timor oriental, dollar australien pour Christmas et
-Cocos. Budgets : gamme euro (70 / 130 / 260) au taux InforEuro de septembre 2026, contrôlée contre les prix moyens
+Cocos. Budgets (à l'ajout ; depuis le 11e audit, plafond par pays calculé par une seule méthode, voir « Hébergement ») :
+gamme euro (70 / 130 / 260) au taux InforEuro de septembre 2026, contrôlée contre les prix moyens
 OFFICIELS publiés — Hong Kong (Tourism Commission) et Taïwan (Administration du tourisme) tombent dans "moyen", la
 Chine (ministère de la Culture et du Tourisme) dans "economique", Singapour (SingStat) au-dessus de "moyen".
 Montants indicatifs, écrits dans le code : won nord-coréen au taux de marché (aucun taux officiel publié), manat
@@ -1718,7 +1746,9 @@ norvégien, le suédois et le finnois, arrivés respectivement avec le Danemark,
 la Finlande (voir "Pays couverts" et plus bas, série des pays nordiques), et enfin le monténégrin et
 l'albanais, arrivés avec le Monténégro et l'Albanie — le kosovar n'existe pas en tant que langue
 distincte, le Kosovo héritant automatiquement de l'albanais (langue nationale des deux pays) et du
-serbe (déjà couvert), voir plus bas. Le
+serbe (déjà couvert), voir plus bas. Cette énumération s'arrête aux 49 premières langues : les suivantes sont
+arrivées avec chaque nouveau pays ou lot régional (sections datées ci-dessous), jusqu'aux **161 langues** actuelles
+— liste complète et ordre dans `SUPPORTED` (`public/js/i18n.js`). Le
 luxembourgeois est arrivé avec le Luxembourg (voir "Pays couverts") : c'est sa 3ᵉ langue officielle,
 aux côtés du français et de l'allemand déjà couverts. L'italien et le romanche sont arrivés avec la
 Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couverts) — le romanche
@@ -1728,8 +1758,9 @@ Suisse, ses 3ᵉ et 4ᵉ langues officielles (français et allemand déjà couve
 un drapeau — essayé d'abord en émoji Unicode, abandonné (aucune police d'émoji couleur fiable sur
 toutes les plateformes, Windows en particulier affiche souvent les deux lettres du code régional au
 lieu du drapeau fusionné) au profit de vraies images SVG hébergées localement
-(`public/img/flags/XX.svg`, une seule fois chacune même si plusieurs langues la réutilisent —
-55 fichiers au total pour 69 langues, plusieurs langues partageant le même fichier). Association LANGUE -> code de fichier dans `LANG_FLAGS`
+(`public/img/flags/XX.svg`, une seule fois chacune même si plusieurs langues la réutilisent — au 19/09/2026,
+124 drapeaux distincts pour les 161 langues, plusieurs langues partageant le même fichier ; le dossier compte 264
+fichiers, les autres servant aux drapeaux de pays des suggestions de ville). Association LANGUE -> code de fichier dans `LANG_FLAGS`
 (`public/js/i18n.js`). Priorité à un vrai drapeau RÉGIONAL reconnaissable quand le jeu d'icônes
 utilisé ([circle-flags](https://github.com/HatScripts/circle-flags)) en propose un dédié à l'aire
 linguistique exacte (demande explicite de l'utilisateur, "pour faciliter la lecture") — treize
@@ -1806,7 +1837,7 @@ même utilisé par Wikipédia pour ce même besoin, permet de les garder sépar�
 Guernesey/Jersey respectivement. Les trois sont réellement parlées, institutionnellement reconnues
 (Monaco : Comité national des traditions monégasques, orthographe codifiée depuis 1976 ; Jersey :
 Office du Jèrriais, panneaux routiers bilingues ; Guernesey : Guernsey Language Commission) et
-dotées d'un dictionnaire/d'une grammaire — donc incluses, contrairement au romanche/romagnol de
+dotées d'un dictionnaire/d'une grammaire — donc incluses, contrairement au romagnol de
 Saint-Marin ou à l'alémanique du Liechtenstein, qui n'ont ni statut officiel ni forme écrite
 standardisée. Mais AUCUNE des trois n'a d'édition Wikipédia dédiée ni de corpus numérique
 significatif (quelques centaines à quelques milliers de locuteurs, transmission essentiellement
@@ -1870,7 +1901,7 @@ langues effectivement reconnues, jamais un statut en cours de débat politique. 
 protégé lui aussi par la loi de 2005, est écarté pour une raison différente : il ne reste plus
 qu'UNE seule locutrice native en Pologne (les autres communautés vivant en Lituanie/Crimée) —
 une langue déjà pratiquement éteinte sur le territoire polonais, un cas encore plus extrême que
-le romanche/le sorabe déjà signalés comme peu dotés en ressources.
+le romanche ou le sorabe, déjà signalés comme peu dotés en ressources.
 
 La Slovaquie, comme l'Autriche et la République tchèque avant elle, n'apporte aucune nouvelle
 langue — mais avec une nuance intéressante. La loi slovaque n°184/1999 sur l'usage des langues
@@ -1978,6 +2009,8 @@ communauté totale d'environ 500 personnes aujourd'hui — worldjewishcongress.o
 n'a pas de décompte de locuteurs précis trouvé, mais un profil au moins aussi marginal que le ladino
 dans un pays où même celui-ci ne compte plus que deux locuteurs courants. Écartées toutes les deux
 pour ce motif, cohérent avec le précédent karaïm.
+
+Le bouton de sélection de la langue, à côté du bouton de thème, a un champ de recherche (pensé pour accueillir
 d'autres langues sans devenir illisible) ; le choix est mémorisé (`localStorage`, comme le thème)
 et, à défaut, détecté depuis la langue du navigateur. Un changement de langue en cours de session
 retraduit aussi bien le formulaire qu'un itinéraire déjà affiché, sans le retirer au sort (voir
@@ -2276,7 +2309,8 @@ que "Sevilla") : `scripts/build-aliases.js` télécharge le fichier GeoNames `al
 pays (noms alternatifs déjà étiquetés par langue ISO — la source faite pour ce besoin, plutôt qu'une
 petite table maintenue à la main) et produit `public/data/aliases-XX.txt` (une ligne par alias :
 `langue;alias;nom canonique`). Chargés au démarrage comme les fichiers de communes, ils élargissent
-simplement la recherche (`searchCommunes` dans `app.js`) : un alias reconnu, dans n'importe laquelle
+simplement la recherche (côté serveur depuis : index disque `lib/search-index.js`, repli `searchCommunes` dans
+`lib/trip-engine.js`, route `/api/search-city`) : un alias reconnu, dans n'importe laquelle
 des langues couvertes, résout vers la commune réelle avec son vrai nom local — jamais l'alias saisi,
 qui n'était qu'un moyen de la trouver.
 
@@ -3127,7 +3161,7 @@ Puis ouvrez `http://localhost:3000`. Le port peut être changé via la variable 
   automatique n'est possible puisque le fichier est servi depuis le dépôt. À comparer aux versions publiées sur
   [leafletjs.com](https://leafletjs.com) lors des audits, en même temps que les autres dépendances.
 
-**Mémoire** : avec ~4 millions de lieux (lot Asie), le serveur occupe ~3 Go une fois chargé (~1,8 Go quand l'index de
+**Mémoire** : avec ~4,8 millions de lieux (depuis le lot Amériques ; ~4 millions au lot Asie), le serveur occupe ~3 Go une fois chargé (~1,8 Go quand l'index de
 recherche sur disque est utilisé, voir plus bas) ; `npm start` passe `--max-old-space-size=8192` à Node. Prévoir au
 moins 4 Go de mémoire libre. Un lancement direct (`node server.js`, Passenger) n'applique PAS cette option : voir
 `NODE_OPTIONS` dans "Déployer sur un serveur privé".
@@ -3210,9 +3244,11 @@ détail des erreurs est dans le journal du serveur seulement.
 |---|---|---|
 | `public/data/*-bundle.txt` absent ou plus ancien que les données | `scripts/build-data-bundles.js` (postinstall) | le serveur concatène les fichiers de données au démarrage : plus lent, fonctionnel |
 | `cache/search-index/` absent ou périmé | `scripts/build-search-index.js` (postinstall) ou le serveur lui-même | construction dans un processus enfant au démarrage (plusieurs minutes en mutualisé), recherche en 503 pendant ce temps ; en cas d'échec, recherche en mémoire une fois le moteur chargé (~3 Go au lieu de ~1,8 Go) |
-| `cache/search-index.lock` resté après un arrêt brutal | — | ignoré si le processus dont il contient le PID n'existe plus ; sinon attente (30 min au plus). `scripts/build-search-index.js` sort sans rien faire tant qu'une construction est en cours |
+| `cache/search-index.lock` resté après un arrêt brutal | — | ignoré si le processus dont il contient le PID n'existe plus ou appartient à un autre compte (EPERM, hébergement mutualisé : jamais notre construction) ; sinon attente (30 min au plus). `scripts/build-search-index.js` sort sans rien faire tant qu'une construction est en cours |
 | `lib/land-grid.bin` (commité) | `scripts/build-land-grid.js` | plus aucun contrôle de mer : toutes les positions comptent comme « terre », des étapes par la route peuvent de nouveau traverser la mer |
 | `lib/ferry-ports.js` (commité) | `scripts/build-ferry-ports.js` | traversées estimées sans ports : partie par la route = distance à vol d'oiseau moins celle du ferry |
+| `data/toll-grid.json` (commité) | `scripts/build-toll-grid.js` (puis `--free` pour la couche des autoroutes gratuites) | sans le fichier : aucun péage estimé ; sans la clé `freeCells` : aucune case ambiguë, la borne basse du péage est alors plus haute (voir « Onzième passe d'audit ») |
+| `data/road-speed-by-country.json` (commité) | `scripts/measure-road-speed-by-country.js` | vitesse du mode sans correction par pays (80 km/h partout pour les modes motorisés) |
 | `data/charging-stations.txt` (commité) | `scripts/fetch-charging-stations.js` | voiture électrique : estimation par l'autonomie seule, signalée sur chaque étape (`chargers: 0`) |
 | « JavaScript heap out of memory » dans le journal, tirages indisponibles | — | `NODE_OPTIONS=--max-old-space-size=4096` (voir ci-dessus) |
 | Ancien code toujours servi après `git pull` | — | "Run NPM Install" puis "Restart" dans cPanel |
@@ -3288,7 +3324,7 @@ base de communes toujours plus grosse, ce passage retire cette base du navigateu
 ville et le tirage aléatoire de destination tournent désormais entièrement côté serveur, qui ne
 renvoie plus que le strict résultat (quelques suggestions de recherche, ou l'itinéraire déjà tiré).
 
-**Ce qui a rendu ça possible sans devoir porter les 61 langues côté serveur** : le moteur de tirage
+**Ce qui a rendu ça possible sans devoir porter les langues (61 à l'époque) côté serveur** : le moteur de tirage
 (`buildItinerary` et tout ce qu'il appelle — ferries, péages, masses continentales, nuits,
 activités) était déjà presque entièrement indépendant de la traduction. Seuls le libellé du jour
 ("Jour 3", "Retour"...) et la catégorie de logement affichée étaient résolus en texte AU MOMENT du
@@ -3299,7 +3335,8 @@ suffi de généraliser ce même mécanisme à 100 % des cas (le serveur ne renvo
 `dayNum` par étape, jamais de texte déjà traduit ; la catégorie de logement n'est plus renvoyée du
 tout, le client la recalcule lui-même à partir de `budgetKey`/`avoidTent`, qu'il connaît déjà) pour
 que le moteur de tirage devienne totalement agnostique à la langue — `lib/trip-engine.js` n'a
-besoin de charger ni `i18n.js` (1,14 Mo, 61 langues) ni quoi que ce soit qui en dépende.
+besoin de charger ni `i18n.js` (1,14 Mo et 61 langues à l'époque ; ~11,6 Mo et 161 langues au 19/09/2026) ni quoi
+que ce soit qui en dépende.
 
 **`public/js/trip-data.js`** (nouveau) porte les tables dont le moteur a besoin — pays, ferries,
 péages, budget, détection de masse continentale par pays — dans un fichier UMD minimal chargé à la
@@ -3669,7 +3706,7 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
   → `data/hiking.json`) : **79 portails dans 70 pays**, officiels de préférence (Suisse Rando, Wanderbares Deutschland,
   alpenvereinaktiv, Mapy.com, National Trails, Recreation.gov, Parcs Canada, DOC Nouvelle-Zélande, sentiers longue distance
   du ministère japonais de l'Environnement, Durunubi, SANParks, Jordan Trail…), affichés une fois par étape sous la forme
-  « Plus de randonnées : … ↗ » (traduit dans les 161 langues) ; 22 acceptent une recherche pré-remplie (ville ou
+  « Plus de randonnées : … ↗ » (traduit dans les 161 langues) ; 19 acceptent une recherche pré-remplie (ville ou
   coordonnées), les autres renvoient vers une page nationale. Portails bloqués par des contrôles anti-robots non retenus.
 - **Une randonnée par jour, jamais deux fois la même** : une seule case « randonnée » par journée (inchangé) ; file de
   randonnées par étape, et désormais registre des liens déjà proposés sur TOUT le voyage (`usedHikeUrls`), remis à zéro à
@@ -4168,7 +4205,7 @@ des chiffres confrontés aux sources officielles), puis correction. Pour la prem
 vérifiés contre le monde réel, et plus seulement la cohérence du code.
 
 **Suite de tests permanente** (`tests/`, voir `tests/README.md`) : `npm run test:quick` (~2 min), `npm test`
-(~5 min), `npm run test:full` (générateurs et 3 000 tirages compris). Elle reprend les vérifications de toutes les
+(~5 à 7 min), `npm run test:full` (générateurs et 3 000 tirages compris). Elle reprend les vérifications de toutes les
 passes d'audit — invariants du moteur (jours, nuits par ville, distance max ou `overMaxLeg` justifié, éloignement,
 mer et frontières, ferries, zones à tension, péage, valeurs, retour, état), péage (pays sans barème jamais facturés,
 transits, 38 liaisons de référence), performances, serveur réel avec services tiers simulés (en-têtes, quotas, PDF,
@@ -4245,6 +4282,94 @@ devise sans stockage local, recherche de randonnée sans fin, nombres et duel ar
 dans la langue de l'interface, textes de carte traduits, accessibilité (dialogues, boutons ±, champs en erreur),
 impression, textes indicatifs trop longs. 12 nouvelles clés dans les 161 langues ; le yi reçoit le chinois pour ces
 clés, faute de traduction fiable.
+
+### Onzième passe d'audit (19 septembre 2026)
+
+Nouvelle relecture complète (moteur, serveur, interface, données, réalisme des chiffres), puis correction. Le
+changement de fond porte sur le péage : après trois passes qui avaient chacune réglé un montant unique et régressé,
+il est désormais affiché comme une fourchette.
+
+**Péage en fourchette** (`tolledParts(…, opts)` dans `lib/toll-grid.js`, `amountMin` / `amountMax` posés par
+`finalizeLeg` dans `lib/trip-engine.js`). Le moteur ne calcule pas d'itinéraire : il suit le trait à vol d'oiseau et
+ne peut pas savoir si la vraie route prend l'autoroute payante ou la gratuite qui la longe (A47 et A7 entre Lyon et
+Saint-Étienne, A-2 et R-2 autour de Madrid). Les 8e, 9e et 10e passes ont chacune ajusté un montant unique — tolérance
+d'une case voisine, pas de transit entre pays voisins, case exacte pour l'Espagne, longueur minimale — et chacune
+échangeait des fausses factures contre des oublis. Deux estimations à la place :
+- **borne basse, « probable »** : case payante exacte seulement, au moins deux cases payantes d'affilée (~56 km), hors
+  cases ambiguës où passe aussi une autoroute gratuite — seconde couche `freeCells` de `data/toll-grid.json`,
+  construite par `node scripts/build-toll-grid.js --free` (voies `highway=motorway` sans `toll=yes` d'OpenStreetMap,
+  géométrie complète, voir l'en-tête du script ; 286 tuiles, 19/09/2026 : 1 775 cases, dont 751 ambiguës — 140 en
+  France, 77 en Espagne, 226 au Japon…). Une case ambiguë encadrée des deux côtés, le long du trait, par des cases payantes
+  sûres du même pays reste comptée : un simple croisement (A23 et A13 sur l'A1 portugaise, autoroutes d'Istanbul) ne fait
+  pas quitter l'axe payant ; en bout de trajet (départ de Madrid, de Barcelone), elle reste exclue ;
+- **borne haute, « possible »** : case payante ou voisine (~28 km autour du trait), transit par un pays tiers compris.
+
+Mesures de la passe : **les 39 autoroutes gratuites testées** ont une borne basse à 0 € (toutes étaient facturées
+avant) ; **18 des 20 trajets payants** comparés au prix officiel ont ce prix dans la fourchette (hors fourchette :
+Sfax → Gabès, trop court pour la grille, et Zagreb → Split, 0 à 9,2 € pour 24,5 € — le trait coupe par la Bosnie et
+la Lika, loin de l'A1). **Limite des cases ambiguës** : la borne basse tombe à 0 € sur des axes payants que le trait
+ne suit pas ou que des voies gratuites croisent souvent — Tokyo → Nagoya (le trait passe par les Alpes japonaises,
+loin de la Tōmei côtière), Bilbao → Saragosse, Oviedo → León ; la borne haute, elle, reste proche du prix officiel. Sur les 38 liaisons
+françaises de référence, le rapport borne haute / prix officiel reste centré (médiane 0,968, q25 0,86, q75 1,11,
+relevé du 19/09/2026). Règles abandonnées : « pas de transit entre pays voisins » (Lugano → Nice traverse réellement
+l'Italie), « case exacte seulement pour l'Espagne » et le seuil de 60 km. Affichage : « ~X € » quand les deux bornes
+diffèrent de moins de 10 % (ou de 0,50 €), « ~A à ~B € selon l'itinéraire » sinon, « jusqu'à ~X € (des autoroutes gratuites longent ce trajet) »
+quand la borne basse est nulle ; même logique pour l'option sans péage, le total du voyage et le PDF. **Limite** : sans
+itinéraire réel, la fourchette reste une estimation. La vraie solution est un routeur (Valhalla ou OSRM) hébergé par le
+projet, qui demande un serveur dédié (8 à 16 Go de mémoire rien que pour l'Europe) : impossible sur l'hébergement
+mutualisé actuel.
+
+**Vitesse par pays** — 80 km/h partout était faux hors d'Europe de l'Ouest (Oslo → Bergen affiché 4 h 55 pour 7 h 46 ;
+Mongolie, Mali ~40 km/h). `scripts/measure-road-speed-by-country.js` a relevé **887 itinéraires OSRM dans 150 pays**
+(`data/road-speed-by-country.json`, 3 à 6 par pays) ; la vitesse d'un trajet est celle du mode × (vitesse du pays ÷
+79,4 km/h), moyenne des pays de départ et d'arrivée (`countrySpeedFactor`), sauf à vélo. **Limites** : le facteur
+routier reste global (1,287) alors que le relevé donne 1,39 en Norvège et 1,9 à 2,0 au Kirghizistan et au Népal
+(fjords, montagnes : Oslo → Bergen reste trop court) ; OSRM est optimiste (Indonésie ~75 km/h, contre ~40 km/h selon
+Valhalla).
+
+**Hébergement** — une seule méthode pour les 239 pays (indice « restaurants et hôtels » d'Eurostat ou de la Banque
+mondiale, `data/lodging-price-levels.json` et `LODGING_PLI_SRC`), conversion dans les 152 devises (source de chaque
+taux dans `lodgingPriceCap.rateSources`), liens Airbnb et Booking dans une devise acceptée
+(`LODGING_LINK_CURRENCIES`) ; libellés des niveaux alignés sur la base (2★ ou auberge, 3-4★, 5★). Détail dans
+« Hébergement ».
+
+**Ferries** — chaque prix dit ce qu'il couvre (`priceCovers` : véhicule seul, avec conducteur, occupants compris, ou non
+précisé), durées non publiées marquées `durationEstimated` (« environ »), train-auto signalé comme tel (`mode: 'train'`,
+Sylt Shuttle) ; prix de presse restants retirés ou remplacés par des grilles officielles (GESTAŞ pour Bozcaada,
+Gökçeada et les îles de Marmara, avec la classe moto de plus de 250 cm³) ; Rhodes ↔ Chálki ajoutée.
+
+**Moteur.** Points d'intérêt « vedettes » limités à la vraie commune (même nom ET moins de 5 km : 279 homonymes dans le
+monde recevaient ceux d'une commune française, et leurs vrais points d'intérêt n'étaient jamais cherchés) ; zones à
+faibles émissions et à trafic limité de la ville de DÉPART et du retour signalées (`placeNorm` : la ZTL de Rome ne
+l'était jamais au départ de Rome) ; plus d'avertissements de trajet les jours passés sur place ; pays traversés par
+chaque trajet (`countriesCrossed`, 30 km d'affilée au moins) pour des rappels de vignette nommés ; aller-retour dans la
+journée limité à 9 h de trajet au total (règlement (CE) n° 561/2006, art. 6 — 75 allers-retours sur 260 dépassaient
+12 h) ; jusqu'à deux nouveaux essais avant d'annoncer « éloignement introuvable » ; recherche de lieux correcte près
+des pôles et de l'antiméridien (`rowLonSpan`) ; entrées typées ; aucun péage à Kinmen.
+
+**Serveur.** Temps de recherche imputé au budget même quand le client abandonne ; fin du PDF bornée (4 000 caractères
+distincts au plus par export, cache des glyphes vidé ensuite) ; place dans la file des appels sortants rendue à la fin
+réelle du traitement ; crédit photo réduit à du texte, liens analysés par nom d'hôte, échecs passagers jamais mis en
+cache ; URL de photo limitées à Wikimedia et Wikipédia ; revalidations 304 exclues du quota des gros fichiers (au 8e
+chargement dans la minute, `i18n.js` répondait 429) ; requêtes `/api/` émises par la page d'un autre site refusées
+(en-tête `Sec-Fetch-Site: cross-site`, posé par le navigateur lui-même) ; cache des randonnées réduit aux étiquettes
+utiles ; verrou d'index d'un autre compte (EPERM) ignoré ; nom du PDF encodé selon la RFC 5987 ; recherche des codes
+postaux à tiret courts (« cn-1… »).
+
+**Données.** Fiches dont le nom était un commentaire d'éditeur, lot WWF du Népal, séparateur « ; » dans les noms,
+`NAME_OVERRIDES` par pays, caractères de contrôle, alias en alphabets mêlés (873 corrigés, 97 retirés), quasi-doublons
+(`scripts/communes-corrections.js`, désormais appliqué par tous les générateurs de lieux) ; `data/hiking.json` (adresse
+finale du portail du CAI).
+
+**Interface.** Pluriels complets, montants formatés par `Intl`, rappels de vignette nommés, chiffres locaux, traductions
+(yi en écriture yi, kabyle, amazighe, breton, libellés de ferry dans ~150 langues…), accessibilité, devises, total
+« dont X km en ferry ».
+
+**Tests.** `tests/toll.test.js` suit le modèle en fourchette (autoroutes gratuites à borne basse nulle, grands
+corridors à borne basse positive, prix officiels dans la fourchette) ; le vérificateur d'invariants
+(`tests/helpers/engine.js`) applique la vitesse par pays, la devise des liens, la cohérence de la fourchette et les ZFE
+(ville hôte, point de départ compris). `npm test` : 75 tests réussis, 4 ignorés (générateurs, `test:full`), aucun
+échec (19/09/2026).
 
 ### PDF traduit dans les 161 langues (17 septembre 2026)
 
@@ -4370,18 +4495,27 @@ trajet pouvait "traverser" la Méditerranée ou l'Atlantique comme une route nor
 faux. Décoché par défaut (comme "Autoroutes à péage autorisées", juste au-dessus dans le
 formulaire) — le tirage au sort reste alors confiné à la même masse continentale du début à la fin.
 
+**À lire avec les audits suivants** : la liste ci-dessous décrit chaque ligne telle qu'elle a été ajoutée. Depuis le
+10e audit (18/09/2026), aucun prix n'est affiché sans grille officielle datée de l'exploitant : les prix relevés à
+l'époque sur les comparateurs ou la presse ont été retirés, et les traversées tarifées à la réservation s'affichent
+« tarif variable » ou « tarif non communiqué » (Corse, Baléares, Sardaigne, Malte ↔ Sicile, Manche, Douvres ↔ Calais,
+Holyhead ↔ Dublin, île de Man, Bornholm, Gotland, Åland, Le Pirée et la plupart des lignes grecques, Ceuta,
+Melilla…) ; depuis le 11e audit, chaque prix précise ce qu'il couvre (`priceCovers`) et les durées non publiées sont
+signalées comme estimées (`durationEstimated`). Les valeurs en vigueur sont dans `FERRY_ROUTES`
+(`public/js/trip-data.js` ; lignes des îles injectées depuis `scripts/iles/` par `scripts/build-island-rules.js`), voir « Onzième passe d'audit ».
+
 - **Coché**, le tirage peut inclure la **Corse**, les **Baléares**, les **Canaries**, les **îles
   Wadden** (Pays-Bas — Texel, Vlieland, Terschelling, Ameland, Schiermonnikoog), la **Sardaigne**,
   la **Sicile**, **Malte**, **Gozo**, **Jersey** ou **Guernesey**, reliées au continent (ou, pour
   Gozo/les îles Anglo-Normandes entre elles, à leur île voisine) par une vraie ligne de ferry réelle
-  (durée et tarif fixes par ligne, voir `FERRY_ROUTES` dans `app.js` — pas un calcul au km/heure
+  (durée et tarif fixes par ligne, voir `FERRY_ROUTES` dans `public/js/trip-data.js` — pas un calcul au km/heure
   comme la route, un ferry ne va pas plus vite avec un moteur plus puissant). Fonctionne pour tous
   les modes de transport, y compris le vélo (tarif piéton avec vélo, moins cher qu'une place
   véhicule) — contrairement au péage autoroutier, qui lui reste interdit au vélo. Pour les îles
   Wadden spécifiquement, un seul tarif (celui de TESO/Texel, la ligne la plus "classique" en
-  voiture) est réutilisé pour les quatre autres — leurs traversées réelles (Doeksen, Wagenborg) sont
-  nettement plus chères et l'accès en voiture souvent plus restreint en pratique : approximation
-  plus grossière que pour la Corse/les Baléares/les Canaries sur ces quatre-là spécifiquement. La
+  voiture) était réutilisé pour les quatre autres. (Depuis le 10e audit : chaque île a sa ligne, sa durée et sa
+  grille — TESO pour Texel, Doeksen pour Terschelling, Wagenborg pour Ameland — et Vlieland et Schiermonnikoog,
+  interdites aux voitures des visiteurs, n'ont plus de liaison.) La
   Sicile est un cas à part parmi les traversées longues : le détroit de Messine ne fait que ~3 km,
   une traversée courte (~20-25 min) bien plus proche du profil des îles Wadden que de la Corse —
   aucun pont routier n'existe à ce jour (2026), le projet "ponte sullo Stretto di Messina" étant
@@ -4393,8 +4527,8 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   Guernesey sont, elles aussi, deux masses distinctes reliées chacune au continent (Saint-Malo,
   Condor Ferries) ET reliées entre elles par une ligne inter-îles. Condor Ferries dessert aussi
   Jersey/Guernesey depuis Poole/Portsmouth, au Royaume-Uni (désormais couvert, voir "Pays couverts")
-  — liaison non modélisée pour l'instant, limitation assumée plutôt qu'un oubli : hors du périmètre
-  explicite de l'ajout du Royaume-Uni (Douvres-Calais, voir plus bas), à ajouter séparément si besoin.
+  — liaison non modélisée à l'époque ; depuis, Poole ↔ Guernesey et Poole ↔ Jersey le sont (tarif variable, voir
+  « Liaisons sans tarif fixe publié »).
   Sercq (Sark), dépendance du bailliage de Guernesey, est explicitement EXCLUE de
   `communes-gg.txt` — d'abord par nom (`SARK_EXCLUDE_NAMES` dans `scripts/build-country-communes.js`), ce qui
   laissait passer 14 hameaux de l'île, puis, depuis le 18/09/2026, par zone : la boîte de la règle d'île « sark »
@@ -4448,15 +4582,15 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   Sjælland a fermé au trafic véhicules. Identifiée par le préfixe de code postal danois `37`
   (3700-3790), exclusif aux 9 codes postaux de la commune de Bornholm (vérifié sur l'ensemble de
   `communes-dk.txt`). Autres îles danoises sans pont (Ærø, Samsø, Fanø, Læsø…) volontairement laissées
-  de côté pour l'instant — même limite assumée que pour la douzaine de petits îlots croates non
-  modélisés, voir plus haut.
+  de côté à l'époque (depuis : reliées, voir « Îles d'Europe et corrections »).
 - **Norvège** : AUCUNE nouvelle ligne modélisée dans ce passage, un choix délibéré plutôt qu'un oubli.
   Son littoral fjordé compte d'innombrables traversées réelles, mais la plupart sont des prolongements
   fonctionnels du réseau routier national (ex. les ferries de la E39, la "route côtière sans ferry" en
   projet) plutôt que de vraies escapades insulaires comparables à la Corse/aux Baléares/à Bornholm ; les
   rares îles véritablement significatives (Lofoten, Senja, Hitra/Frøya...) sont aujourd'hui reliées par
-  pont ou tunnel plutôt que par ferry. Toute la Norvège reste donc `continental` dans ce modèle — à
-  reconsidérer si une ligne précise s'avère pertinente dans un passage futur.
+  pont ou tunnel plutôt que par ferry. Toute la Norvège restait donc `continental` dans ce modèle. (Depuis : 61
+  îles norvégiennes sont des masses à part reliées par bac routier, grille nationale AutoPASS ou bacs gratuits — voir
+  « Îles d'Europe et corrections ».)
 - **Suède** : une seule île concernée, **Gotland** — Öland, elle, est reliée au continent par un vrai
   pont routier depuis 1972 (Ölandsbron), déjà `continental` sans entrée dédiée. Gotland n'a AUCUN pont :
   seule liaison réelle pour véhicules, **Nynäshamn ↔ Visby** (Destination Gotland, seul opérateur,
@@ -4502,8 +4636,9 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   Lésvos/Chíos/Sámos/Ikaría —, golfe Saronique — Égine/Póros), Igoumenitsa (Corfou), Patras/Kyllíni
   (Céphalonie/Ithaque/Zante, Ionienne), Néapoli en Laconie (Cythère), Vólos (Skiáthos/Skópelos/
   Alónnisos, Sporades) et Kými en Eubée (Skýros, seule île des Sporades sans ligne directe régulière
-  depuis Le Pirée). Chaque ligne a un vrai port, un vrai opérateur, une vraie durée et un vrai tarif
-  "voiture" sourcés (Blue Star Ferries/Minoan Lines/Seajets/ANEK-Superfast pour Le Pirée, Levante
+  depuis Le Pirée). Chaque ligne avait un vrai port, un vrai opérateur, une vraie durée et un tarif
+  "voiture" relevé (depuis le 10e audit, seules les lignes à grille officielle de l'exploitant — Saronic Ferries,
+  Skyros Shipping, Levante Ferries… — gardent un prix ; les autres s'affichent « tarif variable ») (Blue Star Ferries/Minoan Lines/Seajets/ANEK-Superfast pour Le Pirée, Levante
   Ferries pour l'Ionienne, KerkyraLines/Kerkyra Seaways pour Corfou, Triton Ferries pour Cythère,
   Hellenic Seaways/Alonissos Skopelos Skiathos Shipping Company pour les Sporades — agrégées via
   ferryhopper.com/ferryscanner.com/directferries.com, tarifs basse saison 2026 ; voir
@@ -4544,7 +4679,8 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   ~2h05, tarifs officiels non promotionnels 2026 : voiture 229 DKK, camping-car/van 344 DKK, moto
   92 DKK, piéton 109 DKK, ssl.fo/prices — **convertis en euros en septembre 2026** (31 / 46 / 12 / 15 €) :
   ces montants étaient jusque-là saisis tels quels en DKK dans une table en euros, et s'affichaient donc
-  « ~229 € », environ 7,5 fois trop cher). Identifiée par le préfixe de code postal féroïen `8`/`9`
+  « ~229 € », environ 7,5 fois trop cher ; depuis le 10e audit, seuls la voiture, 31 €, et le passager, 15 €, restent
+  affichés : les classes van et moto venaient d'un ratio non sourcé). Identifiée par le préfixe de code postal féroïen `8`/`9`
   (800-970, exclusif à Suðuroy, vérifié exhaustivement sur les 180 communes de `communes-fo.txt`) —
   avec un piège de nom évité : une autre localité s'appelle elle aussi "Vágur", mais au nord de
   l'archipel (code 700, sur Eysturoy) ; la détection par PRÉFIXE de code postal, pas par nom, l'écarte
@@ -4552,8 +4688,9 @@ formulaire) — le tirage au sort reste alors confiné à la même masse contine
   de l'archipel féroïen étaient rangés dans la masse terrestre "continental" — un trajet depuis Reykjavík
   ou Tórshavn pouvait « rouler » jusqu'au Royaume-Uni ou au continent (mesuré : 25 étapes hors d'Islande et
   57 hors des Féroé sur 15 tirages chacun). Chacun a désormais sa masse terrestre ("iceland", "faroe"),
-  et la ligne Smyril Line (Hirtshals-Tórshavn-Seyðisfjörður) n'est PAS modélisée : aucune grille
-  officielle 2026, tarification dynamique selon le remplissage. **Même correction pour les Orcades et les
+  et la ligne Smyril Line (Hirtshals-Tórshavn-Seyðisfjörður) n'était PAS modélisée : aucune grille
+  officielle 2026, tarification dynamique selon le remplissage. (Depuis : elle l'est, sans prix — « tarif variable »,
+  voir « Liaisons sans tarif fixe publié ».) **Même correction pour les Orcades et les
   Shetland** (codes postaux KW15-17 et ZE), qui étaient rattachées à la Grande-Bretagne par la route —
   elles sont maintenant reliées par les vraies traversées NorthLink Ferries (grille officielle 2026,
   moyenne saison, prix véhicule seul convertis à 0,8572 GBP/€) : Scrabster ↔ Stromness (voiture £74),
@@ -4645,9 +4782,12 @@ Suède. **Geyikli-Bozcaada** : 12 km, ~35 min, voiture 2 365 TL aller-retour soi
 qu'un ratio appliqué, contrairement à la plupart des lignes de cette table où seul le tarif "voiture"
 est publié. **Kabatepe-Gökçeada** : 30 km, 1h15, voiture 1 400 TL aller-retour soit ~12 € l'aller —
 même source/même taux ; classe 2/5 estimées au même ratio que Bozcaada (même opérateur, même type de
-navire), faute de tarif "véhicule moyen" publié séparément pour cette ligne précise. Les îles du sud
-de la mer de Marmara (Avşa, Marmara, Paşalimanı, Ekinlik — réseau GESTAŞ depuis Erdek) ne sont PAS
-modélisées ici — même limite assumée que pour les Açores/Madère portugaises ou les petites îles
+navire), faute de tarif "véhicule moyen" publié séparément pour cette ligne précise. (Depuis le 11e audit, ces
+chiffres de sites tiers sont remplacés par la grille officielle GESTAŞ, gdu.com.tr, en vigueur depuis le 11/07/2026 :
+Bozcaada 22,12 / 27,28 / 9,61 €, Gökçeada 24,92 / 36,50 / 11,75 € pour voiture / fourgon / moto de plus de 250 cm³ —
+couverture des occupants non précisée.) Les îles du sud
+de la mer de Marmara (Avşa, Marmara, Paşalimanı, Ekinlik — réseau GESTAŞ depuis Erdek) n'étaient PAS
+modélisées à l'époque (depuis, elles le sont, grille GESTAŞ) — même limite assumée que pour les Açores/Madère portugaises ou les petites îles
 croates/grecques ci-dessus : un archipel secondaire moins fréquenté par un vrai road trip que
 Bozcaada/Ténédos et Gökçeada/Imbros, bien plus connues. Anomalie GeoNames connue et non corrigée
 (hors périmètre de cet ajout) : une poignée de hameaux quasi inhabités de Gökçeada (Paşaçayırı,
@@ -4859,8 +4999,10 @@ tarif PAR VÉHICULE soit publié plutôt que dynamique. **Algésiras-Ceuta** : 1
 tarifs MAXIMAUX CONTRACTUELS garantis jusqu'au 31/12/2027 — fauteuil standard 50 €, véhicule de
 tourisme jusqu'à 5,5 × 2,2 × 2 m à 40 €. **Limite assumée, choix explicite de l'utilisateur** : aucun
 opérateur ne publie de tarif moto sur ces deux lignes, ni de tarif utilitaire sur Melilla (le plafond
-contractuel ne couvre que le "véhicule de tourisme") ; ces classes reprennent le tarif voiture — un
-choix de modélisation, pas un tarif réel, dont l'erreur va toujours vers la surestimation.
+contractuel ne couvre que le "véhicule de tourisme") ; ces classes reprenaient le tarif voiture — un
+choix de modélisation, pas un tarif réel, dont l'erreur allait toujours vers la surestimation. (Depuis le 10e audit,
+aucune classe n'est déduite d'une autre et les deux traversées s'affichent « tarif variable » : prix à la
+réservation, sans grille officielle datée pour chaque classe.)
 
 **Ce qui n'est PAS modélisé, et pourquoi.** Les traversées Espagne-Maroc (Algésiras-Tanger Med est
 l'une des plus fréquentées au monde), France/Italie-Tunisie et Europe-Algérie existent bel et bien.
@@ -4904,7 +5046,9 @@ Une vingtaine de liaisons examinées, **aucune n'a de grille tarifaire publiée 
   2021), Kigongo-Busisi (pont JP Magufuli, 2025), Kigamboni, Maputo-Catembe, Mohembo, Sendelingsdrift
   (pont d'Alexander Bay).
 
-Conséquence : toutes ces îles sont isolées (voir "Pays couverts"), et les deux Congo ne sont pas reliés.
+Conséquence : toutes ces îles étaient isolées (voir "Pays couverts"), et les deux Congo ne sont pas reliés. (Depuis,
+sans prix affiché : Mamoudzou ↔ Dzaoudzi, Dar es Salaam ↔ Zanzibar ↔ Pemba, Ankify ↔ Nosy Be, Port-Louis ↔ Rodrigues,
+bacs d'Ukerewe, des Ssese, de Mfangano et de Likoma, Malabo ↔ Bata — voir « Liaisons sans tarif fixe publié ».)
 
 ### Cameroun, Sainte-Hélène : aucune liaison modélisable (septembre 2026)
 
@@ -4924,7 +5068,8 @@ Conséquence : toutes ces îles sont isolées (voir "Pays couverts"), et les deu
   1er juillet 2026), calculé pour une voiture de 5 m (≈ 341 €) et un van de 6 m (≈ 409 €) — la longueur est
   un choix de modélisation ; moto 7 776,28 ₽ (≈ 77 €) ; passager en cabine 1 432 ₽ (≈ 14 €). 18-20 h.
 - Distances non publiées par les opérateurs : orthodromies calculées (757 et 264 km).
-- **Non modélisées** : Korsakov-Kouriles (grilles inaccessibles, zone frontière), Kem-Solovetski (passagers
+- **Non modélisées** à l'époque : Korsakov-Kouriles (grilles inaccessibles, zone frontière ; depuis : Korsakov ↔
+  Kounachir et Itouroup, « tarif non communiqué »), Kem-Solovetski (passagers
   seulement), bac de la Lena à Iakoutsk (tarif réglementé, mais sa modélisation supposerait de découper le
   réseau routier iakoute, non fait). **Svalbard** : aucune liaison régulière en 2026.
 
@@ -4932,7 +5077,8 @@ Conséquence : toutes ces îles sont isolées (voir "Pays couverts"), et les deu
 
 - **Shannah ↔ Masirah (Oman)** — Mwasalat, grille publiée : voiture 8,400 OMR (≈ 18,70 €), 4x4 10,500 (classe
   van), moto 4,200, passager 3,600 ; 1 h, 4 départs par jour.
-- **Non modélisées** : Shinas ↔ Khasab (inutile, Musandam étant accessible par la route, et plus d'horaire fixe
+- **Non modélisées** à l'époque (depuis, sans prix : Jazan ↔ Farasan, Bandar Pol ↔ Qeshm, Charak ↔ Kish, Bandar
+  Abbas ↔ Hormuz, Ras Al Ard ↔ Failaka, et Dalma — voir « Liaisons sans tarif fixe publié ») : Shinas ↔ Khasab (inutile, Musandam étant accessible par la route, et plus d'horaire fixe
   depuis la crise d'Ormuz) ; Jizan ↔ Farasan (gratuité officielle connue seulement jusqu'en 2024) ; toutes les
   liaisons iraniennes (tarifs révisés plusieurs fois par an sans grille 2026, suspension le 13 septembre 2026)
   et Iran-Émirats (commerce suspendu en août 2026) ; Dalma (grille partielle) ; Failaka (grille de 2016) ;
@@ -4977,7 +5123,10 @@ Durées et distances : horaires relevés quand ils sont publiés, sinon ordres d
 (signalés dans chaque note). Noms de liaisons en écriture latine, sauf en japonais, coréen, chinois, hakka et thaï
 pour les liaisons de leur pays.
 
-**Non retenues, faute de grille officielle lisible** — les îles concernées restent sans trajet par la mer : Jeju
+**Non retenues à l'époque, faute de grille officielle lisible** (depuis : grilles officielles trouvées pour Sado, Oki,
+Tsushima, Iki, Gotō, Yakushima, Tanegashima, Shōdoshima, Rishiri, Rebun, Matsu, Batam ↔ Bintan, Phú Quốc… et liaisons
+sans prix pour Wando ↔ Jeju, Xuwen ↔ Haikou, les rouliers philippins et indonésiens, Menumbok ↔ Labuan, Ko Chang, Cát
+Bà — voir « Liaisons sans tarif fixe publié ») — les îles concernées restaient sans trajet par la mer : Jeju
 (tarifs véhicules seulement dans la réservation en ligne), détroit de Qiongzhou vers Hainan (portails locaux
 seulement), Sado, Oki, Tsushima, Iki, Gotō, Tanegashima, Yakushima, Shōdoshima, Rishiri, Rebun, Kinmen, Matsu (non
 recherchées) ; Negros, Leyte-Samar, Siquijor, Guimaras, Palawan, Siargao, Sulu (FastCat hors ligne, Montenegro Lines
@@ -5017,7 +5166,10 @@ Frioul…) restent continentales.
   ces deux liaisons n'étaient pas proposées à moto (depuis : elles le sont, sans prix et avec l'avertissement « tarif
   non communiqué », voir `priceStatus` dans « Liaisons sans tarif fixe publié »).
 
-**Non retenues** — les îles concernées restent sans trajet par la mer :
+**Non retenues à l'époque** — les îles concernées restaient sans trajet par la mer (depuis, sans prix affiché :
+Spirit of Tasmania, Wellington ↔ Picton — l'île du Nord et l'île du Sud sont reliées —, Kangaroo Island, Bruny,
+K'gari, Stradbroke, Magnetic Island, French Island, Waiheke, Great Barrier, D'Urville, Fidji, Tonga, Belle-Île et
+Groix : voir « Liaisons sans tarif fixe publié ») :
 - **Australie** : Spirit of Tasmania (prix selon la demande) ; SeaLink (Kangaroo Island, Bruny, K'gari, Stradbroke) et
   Manta Ray, sites derrière une vérification anti-robot, non contournée ; Micat, Magnetic Island, French Island,
   Furneaux (pas de grille véhicules publiée).
@@ -5128,7 +5280,8 @@ l'export public d'**Open Charge Map** (`scripts/fetch-charging-stations.js`, arc
 première source visée : instances Overpass publiques saturées (504, « server too busy »), extraction impossible dans des délais
 raisonnables. Filtres : fournisseurs sous licence ouverte réutilisable sans clause non commerciale (contributeurs OCM CC BY 4.0,
 NREL domaine public, UK National Charge Point Registry OGL, NOBIL CC BY, Bundesnetzagentur CC BY, data.gouv.fr, opérateurs CC0…),
-fiche publiée, borne en service, accès public ou inconnu. Un trajet plus long que l'autonomie utile (320 km × 75 %) n'est retenu
+fiche publiée, borne en service, accès public ou inconnu. Un trajet plus long que l'autonomie utile (320 km × 70 %,
+recharge de 10 à 80 %, arrêts de 28 min — valeurs sourcées au 10e audit) n'est retenu
 que si une suite de bornes existe **à moins de 15 km de la ligne directe**, chaque arrêt étant la borne atteignable la plus
 avancée (`evPlan`) ; l'étape affiche le nombre d'arrêts, leur durée et le lieu habité le plus proche de chaque borne (lien vers
 la carte). Sans borne publique connue à moins de 20 km de l'arrivée : avertissement « prévoyez de recharger à l'hébergement ».
@@ -5150,7 +5303,9 @@ non listées, plusieurs pays sans entrée faute de règle ou de source.
 (Corée du Sud, Taïwan, Viêt Nam, Thaïlande, Indonésie, Pakistan, Sri Lanka), seuil de cylindrée (Japon ≥ 126 cm³, Philippines
 ≥ 400 cm³), voies rapides interdites localement (Inde ×6 — un seul avertissement par pays, le texte étant le même —, Chine, Cambodge, Laos, Bangladesh, Kenya, Ouganda, Mexico, São Paulo,
 Lima), villes (Yangon, Pékin pour les plaques extérieures, Canton, Shenzhen). Moto de tourisme supposée ≥ 500 cm³ : dans un pays
-dont le réseau est entièrement interdit, trajet calculé par les routes secondaires (vitesse × 0,8) et sans péage ; sinon simple
+dont le réseau est entièrement interdit, trajet calculé par les routes secondaires et sans péage (vitesse × un facteur
+mesuré par pays depuis le 10e audit : Corée 0,68, Taïwan 0,58, Viêt Nam 0,85, Pakistan 0,87, Thaïlande, Indonésie et
+Sri Lanka 1,00, 0,89 par défaut — `MOTO_NO_MOTORWAY_SPEED_FACTOR` dans lib/trip-engine.js) ; sinon simple
 avertissement (nom du pays dans la langue d'interface). `scripts/build-transport-rules.js` valide les deux fichiers et les injecte
 dans trip-data.js (marqueurs AUTO TRANSPORT RULES).
 
@@ -5188,6 +5343,22 @@ faibles pour la Syrie (témoignages) et la Corée du Nord (embargo et constat). 
 (contrôles anti-robots, non contournés), Avito, Agoda, Ctrip.com (connexion exigée), Goibibo, GoZayaan, iVIVU, Jabama,
 Eghamat24, Otaghak, Cuba Junky…
 
+**Plafond de prix par nuit (11e audit, 19/09/2026)** — une seule méthode, sourcée, pour les 239 pays (`lodgingPriceCap`
+dans `public/js/trip-data.js`, partagé par le serveur et le navigateur) : base UE de 100 / 150 / 340 € (2★ ou auberge,
+3-4★, 5★ — prix moyen par chambre de l'INE espagnol ramené à la moyenne de l'UE) × indice de niveau des prix
+« restaurants et hôtels » du pays de l'étape (Eurostat 2024 en Europe ; ailleurs Banque mondiale ICP 2021, à défaut
+2017, actualisé à 2024 et rebasé sur l'UE ; territoires sans indice : pays de rattachement ; sinon moyenne régionale du
+même groupe de revenu — source de chaque pays dans `LODGING_PLI_SRC`, calcul complet dans
+`data/lodging-price-levels.json`), arrondi à deux chiffres significatifs. Le résultat est converti dans la devise
+choisie : les 152 devises ont un taux, avec sa source (`lodgingPriceCap.rateSources` : BCE, parités fixes, banques
+centrales, InforEuro, voir « Sources des données »). Les liens Airbnb et Booking.com n'utilisent qu'une devise que
+ces plateformes acceptent (`LODGING_LINK_CURRENCIES` : l'euro et les 29 devises de référence de la BCE) : sinon la
+devise du pays de l'étape, sinon l'euro — une note le signale à l'écran et dans le PDF. Les anciennes grilles par
+devise (`BUDGET_PRICE_MAX`), qui mélangeaient des méthodes incompatibles, n'en sont plus qu'une vue dérivée.
+**Limites** : l'indice mesure les prix payés par les résidents ; dans les pays à bas revenu, les hôtels fréquentés par
+les touristes étrangers sont plus chers que le plafond (Égypte « moyen » ≈ 22 €), et les capitales chères dépassent la
+moyenne nationale.
+
 ## Export PDF
 
 Le bouton "Exporter cet itinéraire en PDF" (entre le journal de bord et le sac à préparer, une fois
@@ -5222,7 +5393,10 @@ Mémorisé dans le `localStorage` du navigateur (`js/app.js`, clé `currency`, m
 `lang`/`theme`) ; la devise choisie accompagne la requête de tirage (`preferredCurrency`, pour les plafonds de prix
 et les liens d'hébergement calculés côté serveur), sans y être conservée. La liste proposée est RECONSTRUITE depuis `COUNTRIES`
 plutôt que codée à la main (`CURRENCY_OPTIONS`) : 152 devises au 18/09/2026 (EUR + toutes les devises des pays
-couverts, les mêmes que les clés de `BUDGET_PRICE_MAX` dans `public/js/trip-data.js`), un nouveau pays avec une nouvelle devise y apparaît automatiquement.
+couverts ; chacune a un taux de conversion sourcé, `lodgingPriceCap.rates` dans `public/js/trip-data.js`), un nouveau
+pays avec une nouvelle devise y apparaît automatiquement. Les montants sont formatés par `Intl.NumberFormat` dans la
+langue d'interface ; un lien d'hébergement dans une devise que les plateformes refusent passe à la devise du pays ou à
+l'euro (voir « Hébergement »).
 Chaque entrée affiche son vrai symbole/abréviation d'usage courant (`CURRENCY_GLYPH`, ex. « CZK Kč »,
 « RSD дин. ») en plus du code ISO — un symbole SEUL resterait ambigu pour les trois couronnes
 nordiques qui partagent toutes « kr » (DKK/NOK/SEK) ou pour BAM/CHF, d'où le code toujours présent à
@@ -5335,37 +5509,22 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 - Police guèze : [Noto Sans Ethiopic](https://fonts.google.com/noto/specimen/Noto+Sans+Ethiopic)
   (même licence SIL OFL 1.1, hébergée localement, ~377 ko), nécessaire à l'affichage
   de l'amharique et du tigrinya.
-- Tarifs de péage (le libellé « Péage (barème …) » de chaque étape nomme désormais le barème du pays appliqué — `TOLL_SOURCE`
-  dans trip-data.js, ex. « Autostrade per l'Italia 2026 » en Italie — au lieu d'« ASF 2026 » pour tous les pays ; même
-  mention dans le PDF) : guides tarifaires officiels [VINCI Autoroutes](https://www.vinci-autoroutes.com/fr/)
-  (France — voir `public/data/toll-reference.json` pour le détail des 38 liaisons utilisées),
-  [Autopistas/Abertis](https://www.autopistas.com) (Espagne), [Ascendi](https://www.ascendi.pt) /
-  [Via Verde](https://www.vialivre.pt) (Portugal), [Autostrade per l'Italia](https://www.autostrade.it)
-  (Italie), [HAC](https://www.hac.hr) (Croatie — via mojkalkulator.com.hr pour l'agrégation des
-  tarifs 2026), JP Autoceste FBiH / AD Autoputevi RS (Bosnie-Herzégovine — via tolls.eu pour
-  l'agrégation des tarifs 2026), [Putevi Srbije](https://www.putevi-srbije.rs) (Serbie — via tolls.eu
-  pour l'agrégation des tarifs 2026), [Entreprise publique des routes d'État](https://roads.org.mk)
-  (Macédoine du Nord — via fuel-prices.eu/tolls.eu pour l'agrégation des tarifs 2026), [Olympia
-  Odos](https://www.olympiaodos.gr) / [Egnatia Odos](https://egnatia.eu/) (Grèce — via mydiodia.gr
-  pour l'agrégation des tarifs 2026), [Otoyol A.Ş.](https://isletme.otoyolas.com.tr/gecis-ucreti-hesapla/) (Turquie — via
-  plusieurs sources convergentes début septembre 2026 pour les tarifs 1er juillet 2026 de
-  l'autoroute Gebze-Orhangazi-İzmir/O-5), [AAYDA / Agence d'État des routes](https://www.aayda.gov.az)
-  (Azerbaïdjan — barème officiel de l'unique route à péage du pays, la M-1 Bakou-Quba),
-  Derech Eretz Highways (Israël — route 6/Kvish Sderot Yisrael, via kvish6.co.il) et Carmelton
-  (tunnels du Carmel à Haïfa), ces deux derniers tarifés AU TRONÇON et non au kilomètre, donc
-  convertis en €/km avec une précision plus faible que les autres pays (voir `trip-data.js`),
-  [ADM](https://www.adm.co.ma) (Maroc — grille tarifaire en ligne, liaison Casablanca-Rabat rapportée
-  aux 62 km publiés par ADM ; attention, le PDF téléchargeable depuis cette même page est périmé et
-  affiche encore les tarifs de janvier 2024, seul le tableau HTML est à jour),
-  [Société Tunisie Autoroutes](https://www.tunisieautoroutes.tn) (Tunisie — calculateur officiel,
-  barème du décret du 15 juillet 2025, liaison M'saken-Sfax rapportée aux PK publiés par la STA),
-  [Société nationale Autoroutes du Sénégal](https://autoroutesdusenegal.sn) et [SECAA/Eiffage](https://www.autoroutedelavenir.sn)
-  (Sénégal — tronçon fermé Mbour-Kaolack pour le tarif kilométrique, grille de la gare de Thiaroye
-  pour les rapports entre catégories) —
-  [MLIT / NEXCO](https://www.mlit.go.jp) (Japon — barème kilométrique des autoroutes nationales),
-  [Freeway Bureau](https://www.freeway.gov.tw) (Taïwan — péage électronique au kilomètre) —
-  voir "Pays couverts" pour la méthode de calcul hors de France (échantillon plus restreint que
-  pour la France).
+- Tarifs de péage (le libellé « Péage (barème …) » de chaque étape nomme le barème du pays appliqué — `TOLL_SOURCE`
+  dans trip-data.js, ex. « Autostrade per l'Italia 2026 » en Italie ; même mention dans le PDF). Grilles officielles
+  2026 relevées au 10e audit (sources, liaisons et calculs dans les commentaires de `TOLL_RATE_BY_COUNTRY`) :
+  [VINCI Autoroutes](https://www.vinci-autoroutes.com/fr/), Sanef et APRR (France — 38 liaisons de
+  `public/data/toll-reference.json`), [Ministerio de Transportes](https://www.transportes.gob.es) (Espagne, « Peajes
+  vigentes desde el 01/01/2026 »), IMT / Brisa (Portugal), [Autostrade per l'Italia](https://www.autostrade.it)
+  (Italie), [HAC](https://www.hac.hr) (Croatie), JP Autoceste FBiH 2021 / AD Autoputevi RS 2019 (Bosnie-Herzégovine,
+  aucune grille 2026 publiée), [Putevi Srbije](https://www.putevi-srbije.rs) (Serbie, grille du 1/7/2026),
+  [JP za državni patišta](https://roads.org.mk) (Macédoine du Nord), [Olympia Odos](https://www.olympiaodos.gr) et
+  presse pour les autres concessions (Grèce), [KGM](https://www.kgm.gov.tr) (Turquie — réseau public ; les autoroutes
+  privées, plus chères, sont sous-estimées), [AAYDA](https://www.aayda.gov.az) (Azerbaïdjan, M-1), Derech Eretz /
+  Kvish 6 (Israël, tarif au tronçon ramené au km), [ADM](https://www.adm.co.ma) (Maroc), [Société Tunisie
+  Autoroutes](https://www.tunisieautoroutes.tn) (Tunisie, décret du 15/07/2025), [SECAA](https://www.autoroutedelavenir.sn)
+  et arrêté de 2019 pour l'Ila Touba (Sénégal), NEXCO / [MLIT](https://www.mlit.go.jp) (Japon),
+  [Freeway Bureau](https://www.freeway.gov.tw) (Taïwan). Où le péage existe : voies `toll=yes` d'OpenStreetMap
+  (`data/toll-grid.json`, © contributeurs OpenStreetMap, ODbL) ; cases d'autoroute gratuite (`freeCells`) : même source.
 - Vignettes annuelles : boutiques officielles [via.admin.ch](https://via.admin.ch) (Suisse),
   [asfinag.at](https://www.asfinag.at) (Autriche), [edalnice.gov.cz](https://edalnice.gov.cz)
   (République tchèque), [eznamka.sk](https://eznamka.sk) (Slovaquie), [e-matrica.hu](https://nemzetiutdij.hu)
@@ -5379,9 +5538,28 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 - Photos et région de désambiguïsation : [Wikipédia](https://www.wikipedia.org) (API REST, dans la
   langue du visiteur — voir "Pays couverts" — images sous licence Wikimedia Commons, crédit affiché
   sous chaque photo) ; [geo.api.gouv.fr](https://geo.api.gouv.fr) pour les codes département français.
-- Randonnées : [Visorando](https://www.visorando.com) (France uniquement) — nom, distance, durée et
-  difficulté affichés à titre indicatif, lien direct vers leur page pour le tracé complet (voir
-  "Randonnées réelles" ci-dessus).
+- Randonnées : [Visorando](https://www.visorando.com) dans les neuf pays où il couvre réellement le terrain (France,
+  Royaume-Uni, Allemagne, Belgique, Espagne, Suisse, Italie, Autriche, Portugal — `visorandoCountries` de
+  `data/hiking.json`) — nom, distance, durée et difficulté affichés à titre indicatif, lien direct vers leur page pour
+  le tracé complet ; ailleurs, itinéraires balisés OpenStreetMap via Waymarked Trails, et 79 portails de référence dans
+  70 pays (voir "Randonnées réelles" et "Randonnées dans le monde entier" ci-dessus).
+- Vitesses moyennes par pays : itinéraires calculés par [OSRM](https://project-osrm.org) (router.project-osrm.org,
+  profil voiture) sur les données OpenStreetMap (ODbL) — `data/road-speed-by-country.json` (887 itinéraires, 150 pays)
+  et `data/road-factor-osrm.json` ; facteurs moto sans autoroute : [Valhalla](https://valhalla.github.io/valhalla/)
+  sur OpenStreetMap (`data/moto-no-motorway-valhalla.json`).
+- Plafond d'hébergement par pays (`lodgingPriceCap`, détail dans `data/lodging-price-levels.json`) : prix moyen par
+  chambre de l'[INE](https://www.ine.es/jaxiT3/Tabla.htm?t=2058) espagnol (base UE), indice de niveau des prix
+  « restaurants et hôtels » d'[Eurostat](https://ec.europa.eu/eurostat/databrowser/view/prc_ppp_ind/default/table)
+  (2024) et du [Programme de comparaison internationale de la Banque mondiale](https://www.worldbank.org/en/programs/icp)
+  (ICP 2021, à défaut 2017), actualisé par les indicateurs WDI de la Banque mondiale ; source de chaque pays dans
+  `LODGING_PLI_SRC`.
+- Taux de change (`lodgingPriceCap.rateSources` dans trip-data.js) : taux de référence de la
+  [BCE](https://www.ecb.europa.eu/stats/eurofxref/) du 18/09/2026 (29 devises), parités fixes publiées par les banques
+  centrales (francs CFA, franc comorien, escudo, dobra, mark convertible, devises arrimées au dollar…), taux officiels
+  datés de sept banques centrales (Mauritanie, Gambie, Guinée, Sierra Leone, Ghana, Cuba, Venezuela), taux de marché
+  indicatif pour le won nord-coréen, et taux comptable
+  [InforEuro](https://commission.europa.eu/funding-tenders/procedures-guidelines-tenders/information-contractors-and-beneficiaries/exchange-rate-inforeuro_fr)
+  de la Commission européenne (septembre 2026) pour toutes les autres.
 - Tarifs et durées de ferry : [Corsica Linea](https://www.corsicalinea.com) / [Corsica
   Ferries](https://www.corsica-ferries.fr) (Corse), [Baleària](https://www.balearia.com) (Baléares),
   [Naviera Armas/Baleària Canarias](https://armastrasmediterranea.com) (Canaries),
@@ -5397,13 +5575,15 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   ANEK-Superfast (Le Pirée ↔ Crète/Dodécanèse/Cyclades/Égée du Nord/golfe Saronique),
   [Levante Ferries](https://www.levanteferries.com) (Ionienne — Patras/Kyllíni), KerkyraLines/Kerkyra
   Seaways (Igoumenitsa ↔ Corfou), [Triton Ferries](https://tritonferries.gr/) (Néapoli ↔ Cythère),
-  Hellenic Seaways/Alonissos Skopelos Skiathos Shipping Company (Vólos/Kými ↔ Sporades) — agrégées via
-  [ferryhopper.com](https://www.ferryhopper.com)/[ferryscanner.com](https://www.ferryscanner.com/en/ferry)/
-  [directferries.com](https://www.directferries.com), tarifs basse saison 2026 —, [SSL/Strandfaraskip
+  Hellenic Seaways/Alonissos Skopelos Skiathos Shipping Company (Vólos/Kými ↔ Sporades) — tarifs relevés à l'époque
+  via ferryhopper.com/ferryscanner.com/directferries.com, RETIRÉS au 10e audit : ces lignes s'affichent désormais sans
+  prix (« tarif variable ») —, [SSL/Strandfaraskip
   Landsins](https://www.ssl.fo) (Tórshavn ↔ Tvøroyri, Suðuroy, îles Féroé — tarifs officiels non
   promotionnels 2026, ssl.fo/prices)
-  — voir "Ferries" ci-dessus pour la méthode (un ordre de grandeur indicatif par ligne, comme pour
-  les péages, pas un tarif garanti).
+  — voir "Ferries" ci-dessus. **Règle depuis le 10e audit** : un prix n'est affiché que s'il vient d'une grille
+  officielle datée de l'exploitant ou de l'autorité qui fixe le tarif (liste à jour dans les mentions légales,
+  source et date de chaque ligne dans les commentaires de `FERRY_ROUTES`), avec ce qu'il couvre (véhicule seul,
+  avec conducteur, occupants compris, ou non précisé) ; sinon « tarif variable » ou « tarif non communiqué ».
 
 Toutes ces données sont figées au moment de la génération de ce projet (2026). Pour les rafraîchir,
 relancez les mêmes sources et remplacez les fichiers dans `public/data/`.

@@ -42,7 +42,6 @@ el;Κρίστιανστεντ;Christiansted
 he;כריסטיאנסטד;Christiansted
 sr;Кристијанстед;Christiansted
 kk;Круз Бей;Cruz Bay
-uz;Kruз Bay;Cruz Bay
 ky;Круз Бей;Cruz Bay
 bn;ক্রুজ বে;Cruz Bay
 ur;کروز بے;Cruz Bay

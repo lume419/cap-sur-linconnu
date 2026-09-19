@@ -9242,7 +9242,6 @@ ja;河島;Kawashima
 ja;川原沢;Kawarazawa
 ja;川前町川前;Kawamaemachi-kawamae
 ja;川口新町;Kawaguchi-shinmachi
-ru;Камогаwа;Kamogawa
 ja;鴨川;Kamogawa
 ja;川桁;Kawageta
 ja;沢内川舟;Sawauchi-kawafune
@@ -10583,7 +10582,6 @@ ja;佐倉南;Sakuraminami
 ja;さくらみなみ;Sakuraminami
 ja;サクラミナミ;Sakuraminami
 ja;桜;Sakura
-ru;Cаку;Saku
 ja;さく;Saku
 ja;サク;Saku
 ja;咲来;Sakkuru

@@ -1976,7 +1976,7 @@ ja;ルィブニツァ;Rîbniţa
 fa;ریبنیتا;Rîbniţa
 ka;რიბნიცა;Rîbniţa
 ko;르브니차;Rîbniţa
-os;Рыбницæ;Rîbniţa
+os;Рыбницӕ;Rîbniţa
 ar;ريزينا;Rezina
 kk;Резина;Rezina
 ky;Резина;Rezina

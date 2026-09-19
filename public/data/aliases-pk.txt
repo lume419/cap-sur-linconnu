@@ -7086,7 +7086,6 @@ sr;Муридке;Muridke
 lt;Multanas;Multan
 be;Мултан;Multan
 el;Μουλτάν;Multan
-hr;Μultan;Multan
 he;מולטאן;Multan
 sr;Мултан;Multan
 uk;Мултан;Multan

@@ -446,7 +446,7 @@ ml;ദോഹ;Doha
 th;โดฮา;Doha
 bo;དྷོ་ཧ།;Doha
 be;Доха;Doha
-os;Дохæ;Doha
+os;Дохӕ;Doha
 ug;دوھا;Doha
 bn;দোহা;Doha
 cs;Dauhá;Doha

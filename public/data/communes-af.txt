@@ -19801,7 +19801,6 @@
 0;64.2763,35.6723;AF-07;Faryab;Ḩaydarī Khānah
 0;64.2789,35.6830;AF-07;Faryab;Ardz̧ūlīk-e Bālā
 0;64.2713,35.6897;AF-07;Faryab;Ardz̧ūlīk-e Pā’īn
-0;64.2450,35.6964;AF-07;Faryab;Şūfī Qal‘ah
 0;64.1441,35.6982;AF-07;Faryab;Būrghūn
 0;64.1439,35.7131;AF-07;Faryab;Balūch
 0;64.0904,35.7268;AF-07;Faryab;Chaychaktū

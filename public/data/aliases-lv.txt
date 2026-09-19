@@ -1503,7 +1503,7 @@ he;ריגה;Rīga
 ja;リガ;Rīga
 ka;რიგა;Rīga
 ko;리가;Rīga
-os;Ригæ;Rīga
+os;Ригӕ;Rīga
 ru;Рига;Rīga
 th;รีกา;Rīga
 uk;Рига;Rīga

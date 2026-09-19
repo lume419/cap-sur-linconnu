@@ -26,7 +26,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { excludePlace, fixName } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
+const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
 
 const POSTAL = new Set(['IN', 'ID', 'JP', 'KR', 'PH', 'BD', 'LK', 'SG']);
 const SINGLE_CODE = { IO: 'BBND 1ZZ', CX: '6798', CC: '6799' };
@@ -72,7 +72,9 @@ for(const country of COUNTRIES){
     if(c[6] !== 'P' || !KEEP_FEATURE_CODES.has(c[7]) || !c[1]) return;
     const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
     if(isNaN(lat) || isNaN(lon)) return;
-    const name = fixName(country, c[0], c[1]); // noms aux caractères perdus corrigés d'après la même fiche (voir communes-corrections.js)
+    // noms aux caractères perdus corrigés d'après la même fiche, puis nettoyés (« ; », espaces, alphabets mêlés — voir
+    // communes-corrections.js)
+    const name = preparePlaceName(country, c[0], c[1]);
     if(excludePlace(country, c[0], name, lat, lon)) return;
     brut++;
     const p = { name, lat, lon, admin1: c[10] || '', admin2: c[11] || '', admin3: c[12] || '', pop: parseInt(c[14], 10) || 0 };
@@ -132,7 +134,7 @@ for(const country of COUNTRIES){
   let parMunicipalite = 0, parLocalite = 0;
 
   let sansCode = 0, sansRegion = 0;
-  const lines = [];
+  let lines = [];
   for(const p of seen.values()){
     const region = (p.admin1 && p.admin1 !== '00') ? (admin1Names.get(country + '.' + p.admin1) || '') : '';
     let cp;
@@ -157,6 +159,7 @@ for(const country of COUNTRIES){
     }
     lines.push(`${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp};${region};${p.name}`);
   }
+  lines = dropNearDuplicates(lines); // quasi-doublons (voir communes-corrections.js)
   fs.writeFileSync(path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt'), lines.join('\n') + '\n', 'utf8');
   total += lines.length;
   console.log(country + ' : ' + brut + ' bruts -> ' + seen.size + ' dédoublonnés -> ' + lines.length + ' retenus' +

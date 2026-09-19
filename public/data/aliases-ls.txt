@@ -12,9 +12,6 @@ ar;مافيتينج;Mafeteng
 ar;هلوتسي;Hlotse
 ar;بوثا بوثي;Butha-Buthe
 ar;ثابا تسيكا;Thaba-Tseka
-ru;Тейатейанeng;Teyateyaneng
-kk;Тейатейанeng;Teyateyaneng
-ky;Тейатейанeng;Teyateyaneng
 hi;तेयातेयानeng;Teyateyaneng
 bn;তেয়াতেয়ানeng;Teyateyaneng
 ur;تیاتیانeng;Teyateyaneng
@@ -23,8 +20,6 @@ fa;تیاتیانeng;Teyateyaneng
 ja;テヤテヤネング;Teyateyaneng
 pa;ਤੇਯਾਤੇਯਾਨeང;Teyateyaneng
 ps;تیاتیانeng;Teyateyaneng
-tg;Тейатейанeng;Teyateyaneng
-tt;Тейатейанeng;Teyateyaneng
 ru;Рома;Roma
 zh;羅馬;Roma
 zh-Hans;罗马;Roma

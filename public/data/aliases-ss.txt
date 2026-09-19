@@ -348,7 +348,7 @@ ru;Зарзур;Zarzur
 ru;Вахлег;Vakhleg
 ru;Вакфер;Vakfeg
 ru;Хакмиок;Khaktiok
-ru;Джaнмока;Jantoka
+ru;Джанмока;Jantoka
 ru;Дама;Dama
 ru;Нила;Nila
 ru;Макейр;Makeyr

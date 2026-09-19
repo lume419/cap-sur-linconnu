@@ -38647,7 +38647,7 @@ th;มอนต์กอเมอรี;Montgomery
 ur;مونٹگمری، الاباما;Montgomery
 yue;蒙哥馬利;Montgomery
 kk;Монтгомери;Montgomery
-uz;Montgomerі;Montgomery
+uz;Montgomeri;Montgomery
 bn;মন্টগোমেরি;Montgomery
 am;ሞንትጎመሪ;Montgomery
 az;Montqomeri;Montgomery
@@ -41829,7 +41829,7 @@ sr;Каптива;Captiva
 ce;Каптива;Captiva
 fa;کاپتیوا;Captiva
 fa;کارابل، فلوریدا;Carrabelle
-sr;Kарабел;Carrabelle
+sr;Карабел;Carrabelle
 tt;Каррабелл;Carrabelle
 uk;Каррабелл;Carrabelle
 ce;Каррабелл;Carrabelle
@@ -44440,7 +44440,7 @@ ur;اٹلانٹا، جارجیا;Atlanta
 el;Ατλάντα;Atlanta
 kn;ಅಟ್ಲಾಂಟಾ;Atlanta
 ka;ატლანტა;Atlanta
-os;Атлантæ;Atlanta
+os;Атлантӕ;Atlanta
 bo;ཨ་ཊི་ལཱན་ཊཱ།;Atlanta
 te;అట్లాంటా;Atlanta
 ta;அட்லான்டா;Atlanta
@@ -49252,7 +49252,7 @@ ce;Тованда;Towanda
 fa;توواندا، کانزاس;Towanda
 he;טופיקה;Topeka
 hy;Տոպիկա;Topeka
-os;Топикæ;Topeka
+os;Топикӕ;Topeka
 uk;Топіка;Topeka
 mrj;Топика;Topeka
 el;Τοπίκα;Topeka
@@ -50630,7 +50630,7 @@ ur;گرینویل، کینٹکی;Greenville
 tt;Гатри;Guthrie
 uk;Гатрі;Guthrie
 ka;გუთრი;Guthrie
-sr;Гaтри;Guthrie
+sr;Гатри;Guthrie
 kk;Гутри;Guthrie
 ce;Гатри;Guthrie
 ky;Гутри;Guthrie
@@ -52867,7 +52867,7 @@ sr;Њу Ајбирија;New Iberia
 ur;نیو آئبیریا، لوزیانا;New Iberia
 bg;Ню Орлиънс;New Orleans
 ca;Nova Orleans;New Orleans
-cv;Çĕнĕ Орлеан;New Orleans
+cv;Ҫӗнӗ Орлеан;New Orleans
 gl;Nova Orleáns;New Orleans
 he;ניו אורלינס;New Orleans
 pl;Nowy Orlean;New Orleans
@@ -62663,7 +62663,7 @@ el;Οκλαχόμα Σίτι;Oklahoma City
 hy;Օկլահոմա Սիթի;Oklahoma City
 mk;Оклахома Сити;Oklahoma City
 be;Аклахома-Сіці;Oklahoma City
-os;Оклахомæ-Сити;Oklahoma City
+os;Оклахомӕ-Сити;Oklahoma City
 ga;Cathair Oklahoma;Oklahoma City
 az;Oklahoma Siti;Oklahoma City
 sgs;Oklahoma Sitės;Oklahoma City
@@ -66404,7 +66404,7 @@ fa;گالوستون، تگزاس;Galveston
 ml;ഗാൽ‌വെസ്റ്റൺ;Galveston
 mr;गॅल्व्हस्टन;Galveston
 sr;Галвестон;Galveston
-uk;Ґалвестoн;Galveston
+uk;Ґалвестон;Galveston
 tt;Генейдо;Ganado
 uk;Генейдо;Ganado
 sr;Ганејдо;Ganado
@@ -67956,7 +67956,7 @@ ce;Пикан-Гроув;Pecan Grove
 fa;پیکن گرو;Pecan Grove
 tt;Пикан-Гилл;Pecan Hill
 uk;Пікан-Гілл;Pecan Hill
-sr;Пeкан Хил;Pecan Hill
+sr;Пекан Хил;Pecan Hill
 ce;Пикан-Гилл;Pecan Hill
 fa;پیکان هیل، تگزاس;Pecan Hill
 tt;Пикан-Геп;Pecan Gap
@@ -68561,7 +68561,6 @@ fa;سیگوین، تگزاس;Seguin
 sr;Сегин;Seguin
 fa;سیمور، تگزاس;Seymour
 tt;Шейди-Голлоу;Shady Hollow
-bg;Шады Холлоw;Shady Hollow
 uk;Шейді-Голлоу;Shady Hollow
 sr;Шејди Холоу;Shady Hollow
 ce;Шейди-Голлоу;Shady Hollow
@@ -81089,7 +81088,7 @@ ur;الپنا، مشی گن;Alpena
 tt;Емаса;Amasa
 uk;Емаса;Amasa
 fa;اماسا;Amasa
-sr;Емaсо;Amasa
+sr;Емасо;Amasa
 ta;ஏன் ஆர்பர்;Ann Arbor
 mr;अॅन आर्बर;Ann Arbor
 sr;Ен Арбор;Ann Arbor
@@ -99659,7 +99658,7 @@ tt;Лаптон;Lupton
 ce;Лаптон;Lupton
 uk;Лаптон;Lupton
 fa;لوپتون;Lupton
-sr;Лaптон;Lupton
+sr;Лаптон;Lupton
 bg;Марикопа;Maricopa
 fa;ماریکوپا، آریزونا;Maricopa
 sr;Марикопа;Maricopa
@@ -106472,7 +106471,7 @@ hy;Արվադա;Arvada
 uk;Арвада;Arvada
 mr;आर्व्हाडा;Arvada
 ce;Арвада;Arvada
-os;Арвадæ;Arvada
+os;Арвадӕ;Arvada
 ky;Арвада;Arvada
 fa;اسپن، کلرادو;Aspen
 mr;अॅस्पेन;Aspen
@@ -109884,7 +109883,7 @@ fa;سکسمن، آلاسکا;Saxman
 be;Сітка;Sitka
 no;City and Borough of Sitka;Sitka
 mrj;Ситка;Sitka
-os;Ситкæ;Sitka
+os;Ситкӕ;Sitka
 hy;Սիտկա շրջան;Sitka
 fa;سیتکا، آلاسکا;Sitka
 uk;Ситка;Sitka
@@ -119402,7 +119401,7 @@ ml;ഉനലക്ലീറ്റ്;Unalakleet
 ce;Уналаклит;Unalakleet
 bg;Уналяска;Unalaska
 mrj;Уналашка;Unalaska
-os;Уналашкæ;Unalaska
+os;Уналашкӕ;Unalaska
 sr;Аналаска;Unalaska
 he;אנאלסקה;Unalaska
 uk;Уналаска;Unalaska
@@ -121328,7 +121327,7 @@ sr;Пајнхилс;The Pinehills
 tt;Риверленд;Riverland
 uk;Ріверленд;Riverland
 fa;ریورلند;Riverland
-sr;Риверлaнд;Riverland
+sr;Риверланд;Riverland
 tt;Те-Ранч;The Ranch
 uk;Те-Ранч;The Ranch
 fa;درنچ;The Ranch

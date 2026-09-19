@@ -2896,7 +2896,7 @@ zh;比卡尔;Vícar
 ru;Вера;Vera
 ru;Велес-Малага;Vélez-Málaga
 ar;فيليث-مالقة;Vélez-Málaga
-kk;Вeлес-Мaлага;Vélez-Málaga
+kk;Велес-Малага;Vélez-Málaga
 sr;Велез-Малага;Vélez-Málaga
 ja;ベレス＝マラガ;Vélez-Málaga
 uk;Велес-Малага;Vélez-Málaga
@@ -3809,7 +3809,7 @@ bg;Марбеля;Marbella
 lt;Marbelja;Marbella
 ja;マルベーリャ;Marbella
 uk;Марбелья;Marbella
-kk;Марбeлья;Marbella
+kk;Марбелья;Marbella
 zh;马贝拉;Marbella
 be;Марбелля;Marbella
 el;Μαρβέγια;Marbella
@@ -3849,7 +3849,7 @@ ko;말라가;Málaga
 el;Μάλαγα;Málaga
 ka;მალაგა;Málaga
 uk;Малага;Málaga
-os;Малагæ;Málaga
+os;Малагӕ;Málaga
 mk;Малага;Málaga
 az;Malaqa;Málaga
 mr;मलागा;Málaga
@@ -4283,7 +4283,7 @@ zh;加利斯特奥;Galisteo
 ru;Гальдар;Gáldar
 zh;福恩吉罗拉;Fuengirola
 ar;فوينخيرولا;Fuengirola
-kk;Фуэнхирoла;Fuengirola
+kk;Фуэнхирола;Fuengirola
 sr;Фуенхирола;Fuengirola
 uk;Фуенхірола;Fuengirola
 ru;Фуэнхирола;Fuengirola
@@ -5431,7 +5431,7 @@ bg;Сарагоса;Zaragoza
 th;ซาราโกซา;Zaragoza
 ko;사라고사;Zaragoza
 ka;სარაგოსა;Zaragoza
-os;Сарагосæ;Zaragoza
+os;Сарагосӕ;Zaragoza
 ug;Saragossa;Zaragoza
 sr;Сарагоса;Zaragoza
 az;Saraqosa;Zaragoza
@@ -6165,7 +6165,7 @@ lt;Santjago de Kompostela;Santiago de Compostela
 lv;Santjago de Kompostela;Santiago de Compostela
 mk;Сантјаго де Компостела;Santiago de Compostela
 mr;सांतियागो दे कोंपोस्तेला;Santiago de Compostela
-os;Сантьяго-де-Компостелæ;Santiago de Compostela
+os;Сантьяго-де-Компостелӕ;Santiago de Compostela
 pa;ਸਾਂਤੀਆਗੋ ਦੇ ਕੋਮਪੋਸਤੇਲਾ;Santiago de Compostela
 si;සන්තියාගෝ ඩි කොම්පොස්ටෙලා;Santiago de Compostela
 sr;Сантијаго де Компостела;Santiago de Compostela
@@ -6647,7 +6647,7 @@ ru;Памплона;Pamplona
 tl;Lungsod ng Iruñea;Pamplona
 ta;இருனியா;Pamplona
 th;ปัมโปลนา;Pamplona
-os;Памплонæ;Pamplona
+os;Памплонӕ;Pamplona
 uk;Памплона;Pamplona
 fa;پامپلونا;Pamplona
 hy;Պամպլոնա;Pamplona
@@ -6852,7 +6852,7 @@ uk;Нальда;Nalda
 ru;Нальда;Nalda
 zh;纳尔达;Nalda
 uk;Нахера;Nájera
-kk;Нáхера;Nájera
+kk;На́хера;Nájera
 he;נאחרה;Nájera
 ja;ナヘラ;Nájera
 ru;Нахера;Nájera
@@ -7186,7 +7186,7 @@ ba;Мадрид;Madrid
 bn;মাদ্রিদ;Madrid
 koi;Мадрид;Madrid
 bo;མ་ད་རིད།;Madrid
-ab;Мaдрид;Madrid
+ab;Мадрид;Madrid
 mn;Мадрид;Madrid
 haw;Makelika;Madrid
 ky;Мадрид;Madrid
@@ -7748,8 +7748,8 @@ uk;Фігеруела-де-Арріба;Figueruela de Arriba
 ru;Фигеруэла-де-Арриба;Figueruela de Arriba
 zh;上菲格鲁埃拉;Figueruela de Arriba
 ru;Фигейрас;Figueras
-bg;Фигерeс;Figueres
-sr;Фигерeс;Figueres
+bg;Фигерес;Figueres
+sr;Фигерес;Figueres
 ru;Фигерас;Figueres
 uk;Фермосельє;Fermoselle
 ru;Фермоселье;Fermoselle
@@ -8562,7 +8562,7 @@ hy;Բարսելոնա;Barcelona
 tl;Lungsod ng Barcelona;Barcelona
 uk;Барселона;Barcelona
 ur;برشلونہ;Barcelona
-os;Барселонæ;Barcelona
+os;Барселонӕ;Barcelona
 ckb;بارسێلۆنا;Barcelona
 ku;Barselona;Barcelona
 mzn;بارسلون;Barcelona

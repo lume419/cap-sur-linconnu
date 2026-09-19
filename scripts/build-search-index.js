@@ -35,7 +35,7 @@ function activeLockPid(){
   var alive = false;
   pids.forEach(function(p){
     if(!(p > 0) || alive) return;
-    try { process.kill(p, 0); alive = true; } catch(e){ alive = e.code === 'EPERM'; }
+    try { process.kill(p, 0); alive = true; } catch(e){ alive = false; } // EPERM : un autre compte, jamais notre processus (11e audit)
   });
   return alive ? pid : null;
 }
@@ -54,7 +54,7 @@ function acquireLock(){
       fs.renameSync(LOCK, stale);
       // Verrou actif pris entre-temps par un autre processus : remis en place.
       const stalePid = parseInt(fs.readFileSync(stale, 'utf8'), 10);
-      if(stalePid > 0 && stalePid !== process.pid){ try { process.kill(stalePid, 0); fs.linkSync(stale, LOCK); } catch(e2){ if(e2.code === 'EPERM'){ try { fs.linkSync(stale, LOCK); } catch(e3){} } } }
+      if(stalePid > 0 && stalePid !== process.pid){ try { process.kill(stalePid, 0); fs.linkSync(stale, LOCK); } catch(e2){ /* disparu, ou EPERM (autre compte) : pas notre verrou */ } }
       fs.rmSync(stale, { force: true });
     } catch(e){ if(e.code !== 'ENOENT') throw e; }
     try {
@@ -113,7 +113,7 @@ try {
     try {
       const pids = fs.readFileSync(LOCK, 'utf8').split('\n').map(function(l){ return parseInt(l, 10); });
       let parentAlive = false;
-      try { process.kill(pids[0], 0); parentAlive = true; } catch(e){ parentAlive = e.code === 'EPERM'; }
+      try { process.kill(pids[0], 0); parentAlive = true; } catch(e){ parentAlive = false; }
       if(pids[1] === process.pid && !parentAlive) fs.unlinkSync(LOCK);
     } catch(e){ /* déjà retiré */ }
   }

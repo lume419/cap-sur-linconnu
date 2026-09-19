@@ -133,12 +133,11 @@ bn;মারাদি;Maradi
 fa;مرادی;Maradi
 pa;ਮਾਰਾਦੀ;Maradi
 ps;مرادي;Maradi
-tg;Марadi;Maradi
 tt;Маради;Maradi
 ru;Магариа;Magaria
 ru;Доссо;Dosso
-kk;Досco;Dosso
-ky;Досcо;Dosso
+kk;Доссо;Dosso
+ky;Доссо;Dosso
 hi;डोस्सो;Dosso
 bn;ডসো;Dosso
 ur;ڈوسو;Dosso
@@ -146,8 +145,8 @@ fa;دوسو;Dosso
 ja;ドッソ;Dosso
 pa;ਡੋਸੋ;Dosso
 ps;دوسو;Dosso
-tg;Досco;Dosso
-tt;Досco;Dosso
+tg;Доссо;Dosso
+tt;Доссо;Dosso
 ru;Диффа;Diffa
 ja;ディファ;Diffa
 ko;디파;Diffa
@@ -160,8 +159,8 @@ ur;ڈیفا;Diffa
 fa;دیفا;Diffa
 pa;ਡਿੱਫਾ;Diffa
 ps;ديفا;Diffa
-tg;Диффa;Diffa
-tt;Диффa;Diffa
+tg;Диффа;Diffa
+tt;Диффа;Diffa
 bg;Билма;Bilma
 el;Μπίλμα;Bilma
 ja;ビルマ;Bilma

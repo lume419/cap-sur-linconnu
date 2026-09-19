@@ -144,9 +144,6 @@ pa;ਮਾਸਵਿੰਗੋ;Masvingo
 ps;ماسوينګو;Masvingo
 tg;Масвинго;Masvingo
 tt;Масвинго;Masvingo
-ru;Маронdera;Marondera
-kk;Маронdera;Marondera
-ky;Маронdera;Marondera
 hi;मारोंडेरा;Marondera
 bn;মারোন্ডেরা;Marondera
 ur;مارونڈیرا;Marondera
@@ -155,8 +152,6 @@ fa;مارونديرا;Marondera
 ja;マロンデラ;Marondera
 pa;ਮਾਰੋਂਡੇਰਾ;Marondera
 ps;مارونديرا;Marondera
-tg;Маронdera;Marondera
-tt;Маронdera;Marondera
 ru;Лупане;Lupane
 kk;Лупане;Lupane
 ky;Лупане;Lupane

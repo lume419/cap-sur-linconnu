@@ -39,7 +39,6 @@ ja;ブンタウ;Vũng Tàu
 ru;Вунгтау;Vũng Tàu
 ko;붕따우;Vũng Tàu
 en;Vi Thanh;Vị Thanh
-ru;Вi Тхань;Vị Thanh
 ar;في ثان;Vị Thanh
 kk;Ви Тхань;Vị Thanh
 tr;Vi Thanh;Vị Thanh
@@ -59,7 +58,6 @@ jv;Vi Thanh;Vị Thanh
 pa;ਵੀ ਥਾਨ;Vị Thanh
 ps;وی تان;Vị Thanh
 pt;Vi Thanh;Vị Thanh
-tg;Вi Тхань;Vị Thanh
 ru;Виньйен;Vĩnh Yên
 en;Vinh Tuy;Vĩnh Tuy
 vi;Xã Vĩnh Tế;Vĩnh Tế
@@ -2668,7 +2666,6 @@ zh;延山;Yên Sơn
 ru;Туонг Маи;Tương Mai
 uk;Хан Вінь Єн;Khánh Vĩnh Yên
 am;ቪ ታን;Vị Thanh
-tt;Вi Тхань;Vị Thanh
 am;ቪንህ ሎንግ;Vĩnh Long
 tt;Винь Лонг;Vĩnh Long
 bg;Вин;Vinh

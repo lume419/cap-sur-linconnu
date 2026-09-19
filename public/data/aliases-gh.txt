@@ -1636,14 +1636,14 @@ he;אקרה;Accra
 ja;アクラ;Accra
 ko;아크라;Accra
 lt;Akra;Accra
-os;Аккрæ;Accra
+os;Аккрӕ;Accra
 pl;Akra;Accra
 ru;Аккра;Accra
 sk;Akkra;Accra
 sl;Akra;Accra
 uk;Аккра;Accra
 mk;Акра;Accra
-el;΄Aκκρα;Accra
+el;΄Ακκρα;Accra
 am;አክራ;Accra
 eu;Akkra;Accra
 mr;आक्रा;Accra

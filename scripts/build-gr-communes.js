@@ -16,6 +16,9 @@
 // deux chiffres de 10 à 90, Crète/Rhodes/Thrace incluses), pas seulement l'agglomération d'Athènes.
 const fs = require('fs');
 const path = require('path');
+// Corrections communes à tous les générateurs de lieux (audit n° 11) : noms nettoyés, lieux écartés, quasi-doublons —
+// voir scripts/communes-corrections.js.
+const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
 
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 
@@ -90,10 +93,10 @@ const postalGrid = buildGrid(postalPoints);
 const dumpRaw = fs.readFileSync(path.join(__dirname, 'dump', 'GR_dump.txt'), 'utf8');
 const rows = dumpRaw.split('\n').filter(Boolean).map(line => line.split('\t'));
 const places = rows
-  .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
+  .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace('GR', c[0], preparePlaceName('GR', c[0], c[1]), parseFloat(c[4]), parseFloat(c[5])))
   .map(c => ({
     geonameid: c[0],
-    name: cleanName(c[1]),
+    name: preparePlaceName('GR', c[0], cleanName(c[1])),
     lat: parseFloat(c[4]),
     lon: parseFloat(c[5]),
     pop: parseInt(c[14], 10) || 0
@@ -113,13 +116,13 @@ const deduped = Array.from(seen.values());
 // build-aliases.js/build-me-communes.js), pour ne jamais faire pointer un alias vers une commune
 // absente de communes-gr.txt.
 const canonicalByGeonameId = {};
-const lines = deduped.map(p => {
+const lines = dropNearDuplicates(deduped.map(p => {
   const near = nearest(postalGrid, p.lat, p.lon, 30);
   const cp = near ? near.postcode : '';
   if(!cp) return null; // sans code postal on ne peut pas désambiguïser à l'affichage -> écarté
   canonicalByGeonameId[p.geonameid] = p.name;
   return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp};;${p.name}`;
-}).filter(Boolean);
+}).filter(Boolean));
 
 const outPath = path.join(__dirname, '..', 'public', 'data', 'communes-gr.txt');
 fs.writeFileSync(outPath, lines.join('\n') + '\n', 'utf8');

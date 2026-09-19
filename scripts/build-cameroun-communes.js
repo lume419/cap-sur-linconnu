@@ -5,6 +5,9 @@
 
 const fs = require('fs');
 const path = require('path');
+// Corrections communes à tous les générateurs de lieux (audit n° 11) : noms nettoyés, lieux écartés, quasi-doublons —
+// voir scripts/communes-corrections.js.
+const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
 
 const COUNTRIES = ['CM'];
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
@@ -31,9 +34,9 @@ for(const country of COUNTRIES){
   const overrides = NAME_OVERRIDES_BY_COUNTRY[country] || {};
   const raw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
   const places = raw.split('\n').filter(Boolean).map(l => l.split('\t'))
-    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
+    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace(country, c[0], preparePlaceName(country, c[0], c[1]), parseFloat(c[4]), parseFloat(c[5])))
     .map(c => ({
-      name: overrides[c[1]] || c[1],
+      name: preparePlaceName(country, c[0], overrides[c[1]] || c[1]),
       lat: parseFloat(c[4]), lon: parseFloat(c[5]),
       admin1: c[10] || '', pop: parseInt(c[14], 10) || 0
     }))
@@ -49,14 +52,14 @@ for(const country of COUNTRIES){
   const deduped = Array.from(seen.values());
 
   let sansRegion = 0;
-  const lines = deduped.map(p => {
+  const lines = dropNearDuplicates(deduped.map(p => {
     const region = (p.admin1 && p.admin1 !== '00') ? (admin1Names.get(country + '.' + p.admin1) || '') : '';
     if(!region){
       sansRegion++;
       return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${country};;${p.name}`;
     }
     return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${country}-${p.admin1};${region};${p.name}`;
-  });
+  }));
 
   const out = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');
   fs.writeFileSync(out, lines.join('\n') + '\n', 'utf8');

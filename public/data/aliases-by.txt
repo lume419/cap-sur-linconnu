@@ -55,7 +55,6 @@ ru;Зубовщина;Zubovshchina
 be;Zubawshchyna;Zubovshchina
 be;Зубаўшчына;Zubovshchina
 be;Зубава;Zubovo
-ru;Зубoвo;Zubovo
 ru;Зублище;Zublishche
 be;Зубкі;Zubki
 ru;Зубки;Zubki
@@ -69,7 +68,7 @@ be;Засінцы;Zasintsy
 ru;Засинцы;Zasintsy
 ru;Зосинцы;Zasintsy
 ru;Барки Вторые;Barki Vtoryye
-ru;Бoрки;Barki Vtoryye
+ru;Борки;Barki Vtoryye
 ru;Заря;Barki Vtoryye
 ru;Барки Первые;Barki Vtoryye
 ru;Зори;Zori
@@ -128,7 +127,7 @@ ru;Жуковичи;Zhukovichi
 be;Жукавец;Zhukavyets
 be;Жукнева;Zhuknyeva
 ru;Zhuknëvo;Zhuknyeva
-ru;Жукнëвo;Zhuknyeva
+ru;Жукнёво;Zhuknyeva
 ru;Жуки-Ложные;Zhuki-Lozhnyye
 ru;Жуки;Zhuki
 ru;Жукевичи;Zhukevichi
@@ -154,7 +153,7 @@ be;Жодзішкі;Zhodzishki
 en;Zhodzina;Horad Zhodzina
 pl;Żodino;Horad Zhodzina
 de;Schodsina;Horad Zhodzina
-be;Жодзiна;Horad Zhodzina
+be;Жодзіна;Horad Zhodzina
 ru;Жодино;Horad Zhodzina
 be;Горад Жодзіна;Horad Zhodzina
 be;Жмураўка;Zhmurawka
@@ -341,7 +340,6 @@ ru;Заречье;Zarech’ye
 ru;Заречье;Zazheche
 ru;Заозёрье;Zazezhe
 be;Заазер’е;Zaozër’ye
-ru;Заозëрье;Zaozër’ye
 ru;Зазёрье;Zazër’ye
 ru;Зайцы;Zaytsy
 ru;Зайцево;Zaytsevo
@@ -500,7 +498,7 @@ be;Зарэчча;Zarechcha
 ru;Заречанское Подберезье;Zarechanskoye Podberez’ye
 ru;Zarech’ye;Zarechanskoye Podberez’ye
 ru;Zarechenskoye Podberez’ye;Zarechanskoye Podberez’ye
-ru;Заречeнское Подберезье;Zarechanskoye Podberez’ye
+ru;Зареченское Подберезье;Zarechanskoye Podberez’ye
 ru;Zarech’ye;Zarzeche
 ru;Заречье;Zarzeche
 ru;Гоцк;Gotsk
@@ -836,7 +834,6 @@ ru;Юрьево;Yurove
 be;Юр’ева;Yurove
 ru;Юрцево;Yurtsevo
 be;Юрцава;Yurtsevo
-ru;Юрцeвo;Yurtsevo
 ru;Юровичи;Yurovichi
 pl;Jurkowszczyzna;Yurkovshchina
 ru;Юрковщина;Yurkovshchina
@@ -1365,7 +1362,6 @@ ru;Волова Гора;Volova Gora
 ru;Волотовки;Volotovki
 ru;Волосово;Volosovo
 be;Валосава;Volosovo
-ru;Вoлосoвo;Volosovo
 en;Volosovichi;Novyya Valosavichy
 ru;Нов.Волосовичи;Novyya Valosavichy
 be;Новыя Валосавічы;Novyya Valosavichy
@@ -1483,7 +1479,7 @@ ru;Вишов;Vishow
 be;Вішоў;Vishow
 be;Вішнеўка;Vishnyewka
 ru;Vishnëvka;Vishnyewka
-ru;Вишнëвка;Vishnyewka
+ru;Вишнёвка;Vishnyewka
 ru;Вишнево;Vishnevo
 en;Vishnevo;Vishnyeva
 ru;Вишнево;Vishnyeva
@@ -1552,7 +1548,7 @@ be;Відамля;Vidamlya
 be;Відзібор;Vidibor
 ru;Видибор;Vidibor
 ru;Видиничи;Vidinichi
-ru;Видeничи;Vidinichi
+ru;Виденичи;Vidinichi
 ru;Витчин;Vitchin
 ru;Вежнее;Veshneye
 ru;Вешнее;Veshneye
@@ -2223,7 +2219,7 @@ ru;Томино;Tomino
 be;Тамашоўка;Tomashovka
 ru;Tomashëvka;Tomashovka
 ru;Томашовка;Tomashovka
-ru;Томашëвка;Tomashovka
+ru;Томашёвка;Tomashovka
 ru;Толстый Лес;Tolstyy Les
 ru;Толстыки;Tolstyki
 ru;Толпино;Tolpino
@@ -2835,7 +2831,7 @@ be;Старыя Дзятлавічы;Staryya Dzyatlavichy
 ru;Дунцы;Duntsy
 ru;Старые Дороги;Staryye Dorogi
 be;Старыя Дарогі;Staryye Dorogi
-ru;Старыe Дароги;Staryye Dorogi
+ru;Старые Дароги;Staryye Dorogi
 be;Стары Дворац;Stary Dvorats
 ru;Старый Дворец;Stary Dvorats
 be;Stary Dvorac;Stary Dvorats
@@ -3081,7 +3077,6 @@ ru;Соколовка;Sokolovka
 ru;Соколовичи;Sokolovichi
 be;Сакалавічы;Sokolovichi
 be;Sakalovichy;Sokolovichi
-be;Сакалoвічы;Sokolovichi
 be;Сакольнікі;Sakol’niki
 ru;Sokol’niki;Sakol’niki
 ru;Сокольники;Sokol’niki
@@ -3130,7 +3125,6 @@ pl;Smorgonie;Smarhoń
 ru;Смоляны;Smolyany
 be;Смаляны;Smolyany
 be;Smalyany;Smolyany
-ru;Смoляны;Smolyany
 be;Смаляны;Smalyany
 ru;Малые Смолянцы;Malyye Smolyantsy
 ru;Смольянцы;Smol’yantsy
@@ -3202,7 +3196,7 @@ be;Слабудка;Slabudka
 ru;Первая Слободка;Pervaya Slobodka
 be;Слабодка;Slobodka
 be;Slabodka;Slobodka
-ru;Слaбодка;Slobodka
+ru;Слабодка;Slobodka
 ru;Тихонова Слобода;Tikhonova Sloboda
 be;Слабодка;Slabodka
 be;Слабада;Slabada
@@ -3466,7 +3460,7 @@ ru;Садовый;Shikhov
 be;Шыічы;Shyichy
 ru;Shibëki;Shybyoki
 ru;Шибёки;Shybyoki
-be;Шыбëкі;Shybyoki
+be;Шыбёкі;Shybyoki
 be;Шэйпічы;Sheypichy
 ru;Шейпичи;Sheypichi
 ru;Шейка;Sheyka
@@ -3692,7 +3686,6 @@ en;Sen'kovo;Sen’kovo
 ru;Сеньково;Sen’kovo
 be;Сенькава;Sen’kovo
 be;Syen’kava;Sen’kovo
-be;Сенькaвa;Sen’kovo
 ru;Сенкевичи;Sieńkavičy
 be;Сенькавічы;Sieńkavičy
 en;Senkenenta;Senkenyata
@@ -3929,7 +3922,7 @@ ru;Рыдзели;Rydeli
 ru;Ридели;Rydeli
 ru;Рыдели;Rydeli
 be;Rydzyeli;Rydeli
-be;Рыдзелi;Rydeli
+be;Рыдзелі;Rydeli
 ru;Рыдомль;Rydamlia
 be;Рыдамля;Rydamlia
 be;Рычоў;Rychow
@@ -3987,7 +3980,7 @@ be;Рудск;Rudsk
 ru;Рудошаны;Rudoshany
 be;Рудня-Жураўлёва;Rudnya-Zhurawlyova
 ru;Rudnya-Zhuravlëva;Rudnya-Zhurawlyova
-ru;Рудня-Журавлëва;Rudnya-Zhurawlyova
+ru;Рудня-Журавлёва;Rudnya-Zhurawlyova
 ru;Рудня-Викторинская;Rudnya-Viktorinskaya
 be;Валаўская Рудня;Valawskaya Rudnya
 ru;Валавская Рудня;Valawskaya Rudnya
@@ -4062,7 +4055,6 @@ en;Ruchayevka;Ruchayowka
 ru;Ручаевка;Ruchayowka
 be;Ручаёўка;Ruchayowka
 ru;Ruchayëvka;Ruchayowka
-ru;Ручаëвка;Ruchayowka
 be;Ручай;Ruchay
 ru;Рубилки;Rubilki
 be;Рубілкі;Rubilki
@@ -4079,7 +4071,7 @@ be;Rubyezh;Rubezh
 be;Рубель;Rubel’
 ru;Рубча;Rubcha
 ru;Большая Рубановка;Vyalikaya Rubanawka
-be;Вялiкая Рубанаўка;Vyalikaya Rubanawka
+be;Вялікая Рубанаўка;Vyalikaya Rubanawka
 ru;Руба;Ruba
 ru;Разважа;Razvazha
 ru;Рожно;Rozhno
@@ -4196,7 +4188,6 @@ sr;Рагачов;Rahachow
 uk;Рогачов;Rahachow
 pl;Rohaczów;Rahachow
 sv;Rahatjoŭ;Rahachow
-ru;Рогачëв;Rahachow
 ru;Рогач;Rogach
 ru;Рог;Rog
 en;Rog;Roh
@@ -4224,7 +4215,7 @@ ru;Ретимля;Retemlya
 ru;Решительный;Reshitel’nyy
 ru;Решетнёвка;Reshetnëvka
 ru;Репухово;Repukhovo
-ru;Репoхово;Repukhovo
+ru;Репохово;Repukhovo
 ru;Репники;Repniki
 be;Рэпля;Replya
 ru;Репля;Replya
@@ -4282,7 +4273,7 @@ ru;Ревок;Revok
 ru;Ревкутьевичи;Rawkutycze
 en;Ravetichi;Revyatichi
 ru;Раветичи;Revyatichi
-ru;Ревeтичи;Revyatichi
+ru;Реветичи;Revyatichi
 ru;Ратынцы;Ratyntsy
 ru;Ратутичи;Ratutichi
 ru;Рацевичи;Ratsevichi
@@ -4359,7 +4350,7 @@ en;Raditsy;Raditsa
 ru;Радица;Raditsa
 ru;Редишено;Redisheno
 ru;Радионовка;Radionovka
-ru;Рoдионовка;Radionovka
+ru;Родионовка;Radionovka
 be;Радзеж;Radezh
 ru;Радеж;Radezh
 en;Radeyeva;Radeyevo
@@ -4658,7 +4649,6 @@ ru;Постарини Первые;Postarini Pervyye
 ru;Посеничи;Posenichi
 ru;Новое Вейно;Veyno
 be;Talachyn;Tolochin
-be;Тaлaчын;Tolochin
 ru;Наховский;Nakhovskiy
 ru;Посёлок Доманово;Khutor Domanovo
 be;Паселічы;Poselichi
@@ -4998,7 +4988,6 @@ ru;Плотница;Plotnitsa
 be;Плотніца;Plotnitsa
 ru;Плоское;Ploskoye
 be;Плоскае;Ploskoye
-ru;Плоскoе;Ploskoye
 en;Ploskin';Ploskin’
 ru;Плоскинь;Ploskin’
 be;Плоскінь;Ploskin’
@@ -5274,7 +5263,7 @@ ru;Пацова  Слобода;Patsava Slabada
 be;Пацава Слабада;Patsava Slabada
 ru;Пицкуны;Pitskuny
 ru;Bol’shoye Patskovo;Vyalikaya Patskava
-be;Вялiкая Пацкава;Vyalikaya Patskava
+be;Вялікая Пацкава;Vyalikaya Patskava
 ru;Большое Пацково;Vyalikaya Patskava
 ru;Пацковичи;Patskovichi
 ru;Пацевичи;Patsevichi
@@ -5400,7 +5389,6 @@ be;Азёры;Azyory
 ru;Ozëry;Azyory
 be;Язёры;Yazyory
 be;Азерцы;Ozertsy
-ru;Oзерцы;Ozertsy
 ru;Азерцы;Azertsy
 en;Ozertso;Azyartso
 ru;Озерцо;Azyartso
@@ -6103,7 +6091,7 @@ ru;Норковичи;Norkovichi
 ru;Норкино;Norkino
 ru;Норки;Norki
 be;Narki;Norki
-be;Наркi;Norki
+be;Наркі;Norki
 ru;Ногородовичи;Nogorodovichi
 be;Naharodavichy;Nogorodovichi
 be;Нагародавічы;Nogorodovichi
@@ -6674,7 +6662,6 @@ be;Мір;Mir
 lt;Myrius;Mir
 sr;Мир;Mir
 uk;Мір;Mir
-sv;Mіr;Mir
 lv;Mira;Mir
 be;Новая Мётча;Novaya Myotcha
 ru;Novaya Mëtcha;Novaya Myotcha
@@ -6828,7 +6815,6 @@ en;Mezhëvo;Myezhava
 ru;Межево;Myezhava
 be;Межава;Myezhava
 be;Miežava;Myezhava
-ru;Межëвo;Myezhava
 ru;Меженин;Mezhenin
 ru;Мижречье;Mizhrech’ye
 be;Мижречье;Mizhrech’ye
@@ -7142,7 +7128,6 @@ ru;Малое Бахово;Maloye Bakhovo
 ru;Малосельцы;Malosel’tsy
 be;Маларыта;Malorita
 ru;Малорита;Malorita
-ru;Малoрита;Malorita
 en;Malodusha;Maladusha
 ru;Малодуша;Maladusha
 be;Маладуша;Maladusha
@@ -7204,7 +7189,7 @@ ru;Малашковичи;Malashkovichi
 ru;Малашки;Malashki
 ru;Малашенки;Malashenki
 be;Malashanki;Malashenki
-be;Малашанкi;Malashenki
+be;Малашанкі;Malashenki
 ru;Малаховцы;Malakhovtsy
 be;Malakhowtsy;Malakhovtsy
 be;Малахоўцы;Malakhovtsy
@@ -7569,7 +7554,7 @@ be;Лапацічы;Lapatsichy
 ru;Лопатичи;Lopatichi
 ru;Лонские;Lonskiye
 ru;Ломское;Lomskoye
-be;Лaмское;Lomskoye
+be;Ламское;Lomskoye
 en;Lomovichi;Lamavichy
 ru;Ломовичи;Lamavichy
 be;Ламавічы;Lamavichy
@@ -7970,7 +7955,7 @@ be;Курганне;Kurhannye
 ru;Kurgan’ye;Kurhannye
 ru;Курганы;Kurgany
 ru;Курейшино;Kureyshino
-ru;Курейшëво;Kureyshino
+ru;Курейшёво;Kureyshino
 ru;Куровичи;Kurovichi
 be;Kuravichy;Kurovichi
 be;Куравічы;Kurovichi
@@ -8786,7 +8771,6 @@ ru;Кокоричи;Kokorichi
 ru;Кохоновка;Kokhonovka
 ru;Коханово;Kokhanovo
 be;Коханава;Kokhanovo
-ru;Коханoвo;Kokhanovo
 ru;Кохановичи;Kokhanovichi
 be;Каханавічы;Kokhanovichi
 pl;Kochanowicze;Kokhanovichi
@@ -8932,7 +8916,7 @@ be;Клепачы;Klepachi
 ru;Клепачи Первые;Klepachi
 be;Клепачы;Klyepachy
 be;Кляны;Klyany
-ru;Клëны;Klyany
+ru;Клёны;Klyany
 ru;Клёновка;Klënovka
 ru;Клёновка;Klinovka
 ru;Кленовица;Klenovitsa
@@ -9230,7 +9214,7 @@ ru;Харлинцы;Kharlintsy
 ru;Харьковка;Khar’kovka
 ru;Харитоново;Kharitonovo
 ru;Хаританцы;Khoritantsy
-ru;Хoританцы;Khoritantsy
+ru;Хоританцы;Khoritantsy
 ru;Харчичи;Kharchichi
 ru;Хоронево;Khoronevo
 en;Khaneviche;Khanevichi
@@ -9700,7 +9684,7 @@ ru;Горавица;Goravitsa
 ru;Гураки;Guraki
 be;Гумны;Humny
 ru;Гумнище;Humnishche
-be;Humnіščy;Humnishche
+be;Humniščy;Humnishche
 ru;Гуменники;Gumenniki
 ru;Гулино;Gulino
 ru;Гулидово;Gulidovo
@@ -10055,7 +10039,7 @@ be;Halowchytsy;Golovchitsy
 be;Галоўчыцы;Golovchitsy
 ru;Головничи;Golovnichi
 be;Halownichy;Golovnichi
-be;Галоўнiчы;Golovnichi
+be;Галоўнічы;Golovnichi
 be;Галоўкі;Halowki
 ru;Головинцы;Golovintsy
 ru;Голович;Golovichi
@@ -10086,7 +10070,7 @@ ru;Старый Толочин;Staryy Tolochin
 ru;Голобурды;Goloburdy
 ru;Гольни;Gol’ni
 be;Halyni;Gol’ni
-be;Галынi;Gol’ni
+be;Галыні;Gol’ni
 ru;Гольмантишки;Gol’mantishki
 ru;Голицы;Golitsy
 ru;Голи;Goli
@@ -10329,8 +10313,8 @@ be;Галічы;Halichy
 ru;Галеевка;Galeyevka
 be;Галёва;Halyova
 ru;Galëvka;Halyowka
-ru;Галëвка;Halyowka
-be;Галëўка;Halyowka
+ru;Галёвка;Halyowka
+be;Галёўка;Halyowka
 be;Галяны;Halyany
 ru;Galëny;Halyany
 ru;Голёнки;Golënki
@@ -10371,7 +10355,6 @@ ru;Федотова Буда;Fedotova Buda
 be;Фядоры;Fyadory
 ru;Fëdory;Fyadory
 ru;Федоры;Fyadory
-ru;Фëдоры;Fyadory
 ru;Фёдоровка;Fëdorovka
 ru;Фёдорки;Fëdorki
 ru;Федьково;Fed’kovo
@@ -10468,7 +10451,7 @@ ru;Дятловичи;Dzyatlavichy
 be;Дзятлавічы;Dzyatlavichy
 be;Vyaliki Dzyatsel’;Bol’shoy Dyatel’
 ru;Большой Дятель;Bol’shoy Dyatel’
-be;Вялiкi Дзяцель;Bol’shoy Dyatel’
+be;Вялікі Дзяцель;Bol’shoy Dyatel’
 en;Dyakovichi;Dzyakavichy
 ru;Дяковичи;Dzyakavichy
 be;Дзякавічы;Dzyakavichy
@@ -10665,7 +10648,7 @@ be;Драгічаны;Drogichany
 ru;Дрогичаны;Drogichany
 be;Дрочава;Drochava
 ru;Drochëvo;Drochava
-ru;Дрочëво;Drochava
+ru;Дрочёво;Drochava
 ru;Дробыши;Drobyshi
 be;Drobyshy;Drobyshi
 be;Дробышы;Drobyshi
@@ -10770,7 +10753,7 @@ hu;Damacsava;Damachava
 sr;Дамачава;Damachava
 sr;Домачово;Damachava
 uk;Домачеве;Damachava
-ru;Домачëво;Damachava
+ru;Домачёво;Damachava
 de;Neubrow;Damachava
 ru;Должанка;Dolzhanka
 ru;Долуево;Doluyevo
@@ -10831,7 +10814,6 @@ ru;Добринево;Dobrinevo
 en;Dobryn';Dobryn’
 ru;Добрынь;Dobryn’
 be;Дабрынь;Dobryn’
-ru;Дoбрынь;Dobryn’
 ru;Добринь;Dobryn’
 be;Dabryn’;Dobryn’
 ru;Добруш;Dobrush
@@ -11323,7 +11305,7 @@ en;Chamodany;Staryye Chemodany
 ru;Ст.Чемоданы;Staryye Chemodany
 ru;Старые Чемоданы;Staryye Chemodany
 be;Staryya Chamadany;Staryye Chemodany
-be;Старыя Чaмaданы;Staryye Chemodany
+be;Старыя Чамаданы;Staryye Chemodany
 ru;Чамля;Chamlya
 ru;Чахец;Chakhets
 ru;Чачково;Chachkovo
@@ -11463,7 +11445,6 @@ lt;Buda Kašaliova;Buda-Kashalyova
 sr;Буда Кашаљова;Buda-Kashalyova
 uk;Буда-Кошельово;Buda-Kashalyova
 pl;Buda Koszelewska;Buda-Kashalyova
-ru;Буда-Кошелëво;Buda-Kashalyova
 ru;Кляпинская Буда;Klyapinskaya Buda
 en;Buda Gresskaya;Buda-Gresskaya
 ru;Буда-Гресская;Buda-Gresskaya
@@ -11774,7 +11755,7 @@ ru;Bol’shaya Ukholoda;Vyalikaya Ukhaloda
 ru;Трухановичи;Trukhanavichy
 ru;Bol’shoye Trukhanovichi;Trukhanavichy
 ru;Большой Трухановичи;Trukhanavichy
-be;Труханaвічы;Trukhanavichy
+be;Труханавічы;Trukhanavichy
 ru;Большие Стрелки;Vyalikiya Stralki
 be;Вялікія Сцяпанішкі;Vyalikiya Stsyapanishki
 ru;Bol’shiye Stepanishki;Vyalikiya Stsyapanishki
@@ -12085,7 +12066,6 @@ ru;Берёзовка;Berëzovka
 ru;Берёзки;Berëzki
 ru;Берёзовая Гора;Berëzovaya Gora
 en;Berëzovka;Byarozawka
-ru;Берëзовка;Byarozawka
 en;Berezovichi;Byarozavichy
 ru;Березовичи;Byarozavichy
 be;Бярозавічы;Byarozavichy
@@ -12372,7 +12352,6 @@ nl;Babrujsk;Bobruysk
 nl;Babroejsk;Bobruysk
 hr;Babrujsk;Bobruysk
 sr;Бабрујск;Bobruysk
-ru;Бoбруйск;Bobruysk
 ru;Бабий Лес;Babiy Les
 en;Babirovo;Babirova
 ru;Бабирово;Babirova
@@ -12442,7 +12421,7 @@ ru;Орлея;Orleya
 ru;Арабники;Arabniki
 ru;Аппалоновка;Appalonovka
 ru;Аполлоновка;Appalonovka
-ru;Аппoлоновка;Appalonovka
+ru;Апполоновка;Appalonovka
 ru;Аполины;Apoliny
 ru;Апидомы;Apidomy
 ru;Обчак;Obchak
@@ -12578,7 +12557,6 @@ ru;Подыще;Podyshche
 be;Калена;Koleno
 ru;Колено;Koleno
 be;Балбасава;Bolbasovo
-ru;Болбасoвo;Bolbasovo
 ru;Барсуки;Bolbasovo
 en;Zaslonava;Zaslonovo
 ru;Заслоново;Zaslonovo
@@ -12675,7 +12653,7 @@ ru;Новая Водва;Novaya Vodva
 ru;Речки Вторые;Rechki Vtoryye
 ru;Карбатовка;Karbatovka
 ru;Хатьково;Khat’kovo
-ru;Хoтьково;Khat’kovo
+ru;Хотьково;Khat’kovo
 ru;Дымово;Dymovo
 ru;Кавказ;Kavkaz
 ru;Кучарино;Kucharino
@@ -12719,7 +12697,7 @@ ru;Верба;Verba
 ru;Жовинник;Zhovinnik
 ru;Черноусы;Chernousy
 ru;Мишни;Mishni
-be;Мiшнi;Mishni
+be;Мішні;Mishni
 ru;Баньковщина;Ban’kovshchina
 ru;Сырская Буда;Syrskaya Buda
 ru;Вознесенск;Voznesensk
@@ -12761,7 +12739,7 @@ be;Шыркі;Shirki
 ru;Посад;Posad
 be;Пасад;Posad
 ru;Вакары;Vakary
-ru;Вакoры;Vakary
+ru;Вакоры;Vakary
 ru;Цыпки;Tsypki
 ru;Беленево;Belenevo
 be;Byalyenyeva;Belenevo
@@ -12782,7 +12760,7 @@ ru;Ромашково;Romashkovo
 be;Ramashkava;Romashkovo
 be;Рамашкава;Romashkovo
 be;Pagost;Pogost
-be;Пaгост;Pogost
+be;Пагост;Pogost
 ru;Нижняя Веровойша;Nizhnyaya Verovoysha
 ru;Тишь;Tish’
 ru;Блюев;Blyuyev
@@ -12794,11 +12772,11 @@ ru;Левково;Levkovo
 ru;Шапчино;Shapchino
 be;Белева;Byelyeva
 ru;Belëvo;Byelyeva
-ru;Белëвo;Byelyeva
+ru;Белёво;Byelyeva
 ru;Туминичи;Tuminichi
 ru;Брянцево;Bryantsevo
 be;Рацава;Ratsevo
-ru;Рацeвo;Ratsevo
+ru;Рацево;Ratsevo
 ru;Сметанка;Smetanka
 ru;Левки;Levki
 be;Lawki;Levki
@@ -12806,7 +12784,7 @@ be;Ляўкі;Levki
 ru;Малое Замошье;Maloye Zamosh’ye
 ru;Ust’ye;Vustsye
 ru;Корово;Korovo
-ru;Корeво;Korovo
+ru;Корево;Korovo
 ru;Ректа-Михайловка;Rekta-Mikhaylovka
 ru;Гришаны;Grishany
 ru;Родное Село;Rodnoye Selo
@@ -13055,7 +13033,7 @@ ru;Городня;Gorodnya
 be;Вайнілы;Vaynily
 ru;Войнилы;Vaynily
 ru;Иговка;Ihawka
-be;Iгаўка;Ihawka
+be;Ігаўка;Ihawka
 be;Лебядзёўка;Lyebyadzyowka
 ru;Lebedëvka;Lyebyadzyowka
 ru;Лебедёвка;Lyebyadzyowka
@@ -13169,7 +13147,7 @@ ru;Речица;Horad Rechytsa
 be;Горад Крычаў;Horad Krychaw
 ru;Кричев;Horad Krychaw
 ru;Фаниполь;Fanipol
-be;Фанiпаль;Fanipol
+be;Фаніпаль;Fanipol
 lt;Fanipalis;Fanipol
 be;Арэхаўскі;Arekhawski
 ru;Posëlok Orekhovskiy;Arekhawski
@@ -13250,7 +13228,7 @@ ru;Дуброва;Dubrava
 ru;Ольха;Ol’kha
 ru;Берестье;Berest’ye
 ru;Posëlok Berest’ye;Berest’ye
-ru;Посëлок Берестье;Berest’ye
+ru;Посёлок Берестье;Berest’ye
 ru;Гороховище;Gorokhovishche
 ru;Котелинчица;Kotelinchitsa
 ru;Пертыще;Pertyshche
@@ -13298,7 +13276,6 @@ ru;Токари;Tokari
 ru;Новая Жижма;Novaya Zhizhma
 ru;Кузьмы;Kuz’my
 ru;Дороши;Doroshi
-be;Агароднiкi;Ogorodniki
 ru;Гавья;Hawya
 be;Гаўя;Hawya
 ru;Шелути;Sheluti
@@ -13520,7 +13497,7 @@ ru;Марцули;Martsuli
 ru;Хохлово;Khokhlovo
 ru;Феликсово;Feliksovo
 be;Feliksava;Feliksovo
-be;Фелiксава;Feliksovo
+be;Феліксава;Feliksovo
 ru;Семашки;Semashki
 be;Syamashki;Semashki
 be;Сямашкі;Semashki
@@ -14722,9 +14699,8 @@ ru;Закий;Zakiy
 ru;Заслучино;Zasluchino
 ru;Кордики;Kordiki
 be;Kordziki;Kordiki
-be;Кордзiкi;Kordiki
+be;Кордзікі;Kordiki
 be;Zhukyevichy;Zhukevichi
-be;Жукевiчы;Zhukevichi
 ru;Злобовщина;Zlobovshchina
 be;Zlobawshchyna;Zlobovshchina
 be;Злобаўшчына;Zlobovshchina
@@ -15943,14 +15919,14 @@ be;Bushnyeva;Bushnëvo
 be;Бушнева;Bushnëvo
 ru;Сыпаная Гора;Sypanaya Gora
 be;Sypanaya Hara;Sypanaya Gora
-be;Сыпаная Гaра;Sypanaya Gora
+be;Сыпаная Гара;Sypanaya Gora
 ru;Дворцы;Dvortsy
 be;Dvartsy;Dvortsy
-be;Двaрцы;Dvortsy
+be;Дварцы;Dvortsy
 ru;Забогонники;Zabagoniki
 ru;Забагоники;Zabagoniki
 be;Zabahoniki;Zabagoniki
-be;Забaгонiкi;Zabagoniki
+be;Забагонікі;Zabagoniki
 ru;Корчики;Korchiki
 ru;Тополёво;Topolëvo
 be;Tapalyova;Topolëvo
@@ -16389,7 +16365,7 @@ ru;Волотынь;Volotyn’
 be;Valatyn’;Volotyn’
 be;Валатынь;Volotyn’
 be;Pyaski;Peski
-be;Пяскi;Peski
+be;Пяскі;Peski
 ru;Кубельники;Kubel’niki
 ru;Совхоз Берестовицкий;Sovkhoz Berestovitskiy
 be;Турья;Tur’ya
@@ -18078,7 +18054,6 @@ ru;Заячье;Zayach’ye
 ru;Чапаевка;Chapayevka
 ru;Чемерное;Chemernoye
 ru;Прочемышля;Prochëmyshlya
-ru;Прочëмышля;Prochëmyshlya
 ru;Прачемышля;Prochëmyshlya
 ru;Новая Дубровка;Dubrova
 ru;Николаевка;Mikolayevka
@@ -22118,15 +22093,14 @@ ru;Куртенки;Kurtenki
 ru;Старь;Star’
 be;Перамонт;Pyeramont
 ru;Перемонт;Pyeramont
-ru;Перeмонт;Pyeramont
 ru;Слабодище;Slabodishche
-ru;Слoбодище;Slabodishche
+ru;Слободище;Slabodishche
 ru;Разумово;Razumovo
 ru;Парихи;Parikhi
 ru;Платоны;Platony
 ru;Новязки;Novyazki
 ru;Навязки;Novyazki
-ru;Филëво;Filëvo
+ru;Филёво;Filëvo
 ru;Колпино;Kolpino
 ru;Пущеево;Pushcheyevo
 ru;Соловьёво;Solov’yëvo
@@ -22242,7 +22216,7 @@ ru;Парковая;Parkovaya
 ru;Шаньково;Shan’kovo
 ru;Засекли;Zasekli
 ru;Засеки;Zasekli
-ru;Рoгозно;Ragozino
+ru;Рогозно;Ragozino
 ru;Хлусово;Khlusovo
 ru;Подгайщина;Podgayshchina
 ru;Русаны;Rusany
@@ -22325,7 +22299,7 @@ be;Ляхаўка;Lyakhovka
 ru;Кулаковщина;Kulakovshchina
 ru;Новое Заозёрье;Novoye Zaozër’ye
 ru;Казеки;Kazeki
-ru;Кoзеки;Kazeki
+ru;Козеки;Kazeki
 ru;Прокшино;Prokshino
 be;Prokshyna;Prokshino
 be;Прокшына;Prokshino
@@ -22341,7 +22315,7 @@ be;Barki;Barki Pyershyya
 ru;Vperëd;Barki Pyershyya
 be;Баркі;Barki Pyershyya
 ru;Борки;Barki Pyershyya
-ru;Вперëд;Barki Pyershyya
+ru;Вперёд;Barki Pyershyya
 ru;Герасимовщина;Gerasimovshchina
 be;Вялікі Мяжнік;Vyaliki Myazhnik
 ru;Bol’shoy Mezhnik;Vyaliki Myazhnik
@@ -22368,7 +22342,7 @@ be;Тройца;Troytsa
 ru;Троица;Troytsa
 ru;Сисенево;Sisenevo
 ru;Хилец;Khilets
-ru;Богушeвка;Bogushovka
+ru;Богушевка;Bogushovka
 ru;Шатиловка;Shatilovka
 ru;Тушевая;Tushevaya
 ru;Лихачёво;Likhachëvo
@@ -22390,7 +22364,7 @@ ru;Дубровка;Dubrovo
 ru;Беланово;Belanovo
 ru;Брус;Brus
 ru;Большой Старый Шклов;Vyaliki Stary Shklow
-be;Вялiкi Стары Шклоў;Vyaliki Stary Shklow
+be;Вялікі Стары Шклоў;Vyaliki Stary Shklow
 ru;Малый Старый Шклов;Malyy Staryy Shklov
 ru;Сосновка Первая;Sosnovka Pervaya
 be;Аўсянка;Awsyanka
@@ -23004,7 +22978,6 @@ ru;Посёлок Шарнёво;Posëlok Sharnëvo
 ru;Киевец;Kiyevets
 ru;Шкорневка;Shkornevka
 be;Slabada;Sloboda
-be;Слaбaда;Sloboda
 ru;Посёлок Кирова;Posëlok Kirova
 ru;Кирова;Posëlok Kirova
 ru;Виктолино;Viktolino
@@ -23015,10 +22988,10 @@ ru;Ротань;Rotan’
 ru;Кленовичи;Klenovichi
 ru;Заболотское;Zabolotskoye
 ru;Ерошёвка;Yerashëvka
-ru;Ерaшёвка;Yerashëvka
+ru;Ерашёвка;Yerashëvka
 ru;Кутовец;Kutovets
 ru;Колыбаново;Kolybanovo
-ru;Кaлaбаново;Kolybanovo
+ru;Калабаново;Kolybanovo
 be;Замкі;Zamki
 ru;Замки;Zamki
 ru;Серп;Zamki
@@ -23064,7 +23037,7 @@ ru;Дайлидовка;Daylidovka
 ru;Белая Дуброва;Belaya Dubrova
 ru;Рыжанки;Ryzhanki
 ru;Хахловка;Khakhlovka
-ru;Хoхловка;Khakhlovka
+ru;Хохловка;Khakhlovka
 be;Нізкі Гарадзец;Nizki Haradzyets
 ru;Низкий Городец;Nizki Haradzyets
 ru;Отрадная;Otradnaya
@@ -23120,7 +23093,7 @@ be;Марцюхова;Martsyukhova
 ru;Мартюхово;Martsyukhova
 ru;Малое Гальцево;Maloye Gal’tsevo
 ru;Балашова;Balashova
-ru;Балашовo;Balashova
+ru;Балашово;Balashova
 ru;Острошапки;Ostroshapki
 ru;Горбачёво;Gorbachëvo
 ru;Козовка;Kozovka
@@ -23130,16 +23103,16 @@ ru;Posëlok Torfozavoda;Usvizh-Buk
 ru;Усвиж-Бук;Usvizh-Buk
 ru;Посёлок Торфозавода;Usvizh-Buk
 ru;Сухачёво;Sukhachëvo
-ru;Сухoчёво;Sukhachëvo
+ru;Сухочёво;Sukhachëvo
 ru;Резаны;Rezany
-ru;Рафaлово;Rafolovo
+ru;Рафалово;Rafolovo
 ru;Буторы;Butory
 ru;Габрилёво;Gabrilëvo
 ru;Раздольная;Razdol’naya
 ru;Шмидельщина;Shmidel’shchina
-ru;Шмeдельщина;Shmidel’shchina
+ru;Шмедельщина;Shmidel’shchina
 ru;Пиямонт;Piyamont
-ru;Пиaмонт;Piyamont
+ru;Пиамонт;Piyamont
 ru;Букарево Первое;Bukarevo Pervoye
 ru;Букарево Второе;Bukarevo Vtoroye
 ru;Свидерщина;Svidershchina
@@ -23155,7 +23128,7 @@ ru;Хотеничи;Khotenichi
 ru;Сивцево;Sivtsevo
 ru;Заднево;Zadnevo
 be;Zadnyeva;Zadnevo
-be;Задневa;Zadnevo
+be;Заднева;Zadnevo
 ru;Уголевщина;Ugolevshchina
 ru;Конопельчицы;Konopel’chitsy
 ru;Воскресенская;Voskresenskaya
@@ -23179,9 +23152,9 @@ ru;Гиримщина;Girimshchina
 ru;Лунная;Lunnaya
 ru;Кривое;Krivoye
 ru;Богриново;Bogrinovo
-ru;Бaгриново;Bogrinovo
+ru;Багриново;Bogrinovo
 ru;Чотово;Chotovo
-ru;Чëтово;Chotovo
+ru;Чётово;Chotovo
 ru;Лаговщина;Lagovshchina
 be;Lagawshchyna;Lagovshchina
 be;Лагаўшчына;Lagovshchina
@@ -23195,7 +23168,7 @@ ru;Каменное Кривое;Kamennoye Krivoye
 ru;Кривое;Kamennoye Krivoye
 ru;Синчуки;Sinchuki
 ru;Лужная;Luzhnaya
-ru;Лужнoe;Luzhnaya
+ru;Лужное;Luzhnaya
 ru;Загородье;Zagorod’ye
 be;Палявая;Palyavaya
 ru;Полевая;Palyavaya
@@ -23205,7 +23178,7 @@ ru;Гостыничи;Gostynichi
 ru;Красилово;Krasilovo
 ru;Ламиница;Laminshchina
 ru;Ламинщина;Laminshchina
-ru;Ламeнщина;Laminshchina
+ru;Ламенщина;Laminshchina
 ru;Новая Яблонка;Novaya Yablonka
 ru;Новая Яблоновка;Novaya Yablonka
 be;Нарцызава;Nartsyzava
@@ -23265,7 +23238,7 @@ ru;Любище;Lyubishche
 ru;Старое Полесье;Staroye Poles’ye
 ru;Весна;Vesna
 ru;Карниловка;Karnilovka
-ru;Кoрниловка;Karnilovka
+ru;Корниловка;Karnilovka
 ru;Тубушки;Tubushki
 ru;Каменщина;Kamenshchina
 ru;Микулинка;Mikulinka
@@ -23567,7 +23540,7 @@ ru;Поджелезница;Podzheleznitsa
 ru;Старое Полюдово;Staroye Polyudovo
 ru;Старые Денисовичи;Staryye Denisovichi
 ru;Новое Соколино;Novoye Sokolino
-ru;Новоcоколино;Novoye Sokolino
+ru;Новосоколино;Novoye Sokolino
 ru;Zabolot’ye Pervoye;Zabolot’ye Vtoroye
 ru;Волга;Zabolot’ye Vtoroye
 ru;Посёлок Заболотье;Zabolot’ye Vtoroye
@@ -24013,10 +23986,9 @@ ru;Ямицы;Yamitsy
 ru;Поддуброво;Poddubrovo
 ru;Подъяворка;Pod”yavorka
 ru;Bol’shiye Vorob’yevichi;Vyalikiya Vyerab”yevichy
-be;Вялiкiя Вераб’евічы;Vyalikiya Vyerab”yevichy
+be;Вялікія Вераб’евічы;Vyalikiya Vyerab”yevichy
 ru;Большие Воробьевичи;Vyalikiya Vyerab”yevichy
 ru;Malyya Hal’yni;Malyye Gol’ni
-ru;Малыя Галынi;Malyye Gol’ni
 be;Malyya Hol’ni;Malyye Gol’ni
 ru;Малые Гольни;Malyye Gol’ni
 be;Малыя Гольні;Malyye Gol’ni
@@ -24038,7 +24010,6 @@ ru;Сапуратовка;Sapuratovka
 ru;Коковщина;Kokovshchina
 ru;Барбаришки;Barbarishki
 ru;Альхимцы;Al’khimtsy
-ru;Василëво;Vasilëvo
 ru;Буковщина;Bukovshchina
 ru;Тетиновка;Tetinovka
 ru;Надречье;Nadrech’ye
@@ -24053,7 +24024,7 @@ ru;Репенщина;Repenshchina
 ru;Барнатовщина;Barnatovshchina
 ru;Друйка;Druyka
 ru;Лукъянцы;Luk”yantsy
-ru;Лесничëвка;Lesnichëvka
+ru;Лесничёвка;Lesnichëvka
 ru;Исачки;Isachki
 ru;Инели;Ineli
 ru;Даньковщина;Dan’kovshchina
@@ -24523,9 +24494,8 @@ ru;Дымна;Dymna
 ru;Гребелька;Grebel’ka
 ru;Лесничевка;Lesnichevka
 ru;Posëlok Lesnoy;Lesnoy
-ru;Посëлок Лесной;Lesnoy
 ru;Posëlok Beloye Ozero;Beloye Ozero
-ru;Посëлок Белое Озеро;Beloye Ozero
+ru;Посёлок Белое Озеро;Beloye Ozero
 ru;Турбаза Белое Озеро;Beloye Ozero
 ru;Королевские Вторые;Korolevskiye Vtoryye
 ru;Рийка;Riyka
@@ -24541,7 +24511,7 @@ ru;Столинский;Stolinskiy
 ru;Кринки;Krinki
 ru;Каролинка;Karolinka
 be;Hantsavichy;Gantsevich
-be;Ганцавічыi;Gantsevich
+be;Ганцавічыі;Gantsevich
 ru;Ганцевичи;Gantsevich
 ru;Шахновцы;Shakhnovtsy
 ru;Смоляки;Smolyaki

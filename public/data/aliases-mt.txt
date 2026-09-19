@@ -311,7 +311,7 @@ bg;Валета;Valletta
 bn;ভাল্লেত্তা;Valletta
 wo;Waleta;Valletta
 vep;Vallett;Valletta
-os;Валлеттæ;Valletta
+os;Валлеттӕ;Valletta
 cv;Валлетта;Valletta
 uk;Валлетта;Valletta
 ur;والیٹا;Valletta
@@ -1120,7 +1120,6 @@ fa;فگورا;Fgura
 ko;프구라;Fgura
 ur;فگورا;Fgura
 zh;弗古拉;Fgura
-ru;Динgli;Dingli
 ar;دينجلي;Dingli
 kk;Динглі;Dingli
 ky;Динглі;Dingli

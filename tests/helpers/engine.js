@@ -20,7 +20,8 @@ const TG = require(path.join(ROOT, 'lib', 'toll-grid.js'));
 
 const INTERNAL_FUNCS = ['reallyAdjacent', 'landmassOf', 'zoneOf', 'ferryRouteFor', 'seaCrossingFor', 'tensionOf', 'legAllowed',
   'ferryRoadParts', 'tollCountryOf', 'evPlan', 'countryAtPoint', 'insideCountry', 'roadCrossesWater', 'motoMotorwayBan',
-  'normalizeCityName', 'chargerNear', 'portZone', 'communeLandmass', 'borderReach', 'communeTension', 'finalizeLeg', 'parseCommunesFile'];
+  'normalizeCityName', 'chargerNear', 'portZone', 'communeLandmass', 'borderReach', 'communeTension', 'finalizeLeg', 'parseCommunesFile',
+  'countrySpeedFactor', 'placeNorm', 'zoneHostNorm'];
 const INTERNAL_VARS = ['COMMUNES', 'FEATURED', 'CHARGER_COUNT', 'TENSION_RULES_BY_COUNTRY', 'AVOID_TENSION', 'LEG_CONSTRAINTS',
   'LAST_TRIP_DIAGNOSTIC', 'TRIP_DEADLINE', 'TRIP_TIMED_OUT', 'TRIP_TIME_BUDGET_MS', 'MOTO_NO_MOTORWAY_SPEED_FACTOR', 'MOTO_NO_MOTORWAY_SPEED_FACTOR_DEFAULT'];
 
@@ -147,6 +148,12 @@ const REACH_AIR = TD.EV_RANGE_KM * TD.EV_CHARGE_MARGIN / ROAD;
 function fullBan(cc){ const b = cc && engine.__test.motoMotorwayBan(cc); return !!(b && b.fullBan); }
 // Facteur de vitesse d'une moto privée d'autoroute : même ordre de recherche de la règle que finalizeLeg (pays passé,
 // départ, arrivée) ; facteur mesuré par pays depuis le 10e audit (0,8 unique auparavant).
+// Facteur de vitesse du pays (relevé OSRM par pays, 11e audit) : vitesse du mode × facteur, sauf à vélo.
+function speedOf(N, from, to, cArg){
+  const A = engine.__test;
+  const f = (N.transportKey === 'velo' || !A.countrySpeedFactor) ? 1 : A.countrySpeedFactor(from, to, cArg);
+  return N.speed * f * (N.transportKey === 'moto' ? motoFactor(cArg, from, to) : 1);
+}
 function motoFactor(cArg, from, to){
   const A = engine.__test, mb = c => c && A.motoMotorwayBan(c);
   const ban = mb(cArg) || mb(from && from.country) || mb(to && to.country);
@@ -318,8 +325,11 @@ function check(params, res, elapsedMs){
       if(N.transportKey === 'moto' && r.kind !== 'moto') bad('restrictions', 'moyenne', 'restriction ' + r.kind + ' en moto');
       if(r.type === 'lez' || r.type === 'ztl' || r.type === 'cityBan'){
         const rules = (r.kind === 'van' ? TD.VAN_RULES : TD.MOTO_RULES).filter(x => x.type === r.type && x.name === r.name && x.near);
-        const inLeg = rules.some(x => hav(leg.lat, leg.lon, x.near.lat, x.near.lon) <= x.near.km + 0.01);
-        const inDep = i === 0 && rules.some(x => hav(depPt.lat, depPt.lon, x.near.lat, x.near.lon) <= x.near.km + 0.01);
+        // Dans le cercle, ou dans la ville hôte de la zone (même pays, même nom, 15 km au plus : zoneHostNorm, 10e/11e audits).
+        const inZone = (p, x) => hav(p.lat, p.lon, x.near.lat, x.near.lon) <= x.near.km + 0.01 ||
+          (A.zoneHostNorm && p.country === x.country && A.placeNorm(p) === A.zoneHostNorm(x) && hav(p.lat, p.lon, x.near.lat, x.near.lon) <= 15);
+        const inLeg = rules.some(x => inZone(Object.assign({ norm: leg.norm, stop: leg.stop }, leg), x));
+        const inDep = i === 0 && rules.some(x => inZone(depPt, x));
         if(!inLeg && !inDep) bad('restrictions', 'moyenne', 'zone ' + r.type + ' ' + r.name + ' signalée hors zone', { i });
       }
       if(r.type === 'noMotorway' || r.type === 'noMotorwayCc'){
@@ -328,7 +338,7 @@ function check(params, res, elapsedMs){
         if(r.country !== leg.country && r.country !== from.country) bad('restrictions', 'basse', 'interdiction moto ' + r.country + ' sans rapport avec le trajet', { i });
       }
     });
-    if(N.transportKey === 'van'){
+    if(N.transportKey === 'van' && (leg.distanceKm != null || leg.isReturn)){
       TD.VAN_RULES.filter(x => (x.type === 'lez' || x.type === 'ztl') && x.near && hav(leg.lat, leg.lon, x.near.lat, x.near.lon) <= x.near.km - 0.01).forEach(x => {
         if(!(leg.restrictions || []).some(r => r.type === x.type && r.name === x.name)) bad('restrictions', 'moyenne', 'zone van ' + x.name + ' non signalée', { i });
       });
@@ -346,7 +356,12 @@ function check(params, res, elapsedMs){
         if(leg.lodgingCheckIn !== ci || leg.lodgingCheckOut !== lco) bad('dates', 'moyenne', 'dates de logement ' + leg.lodgingCheckIn + '→' + leg.lodgingCheckOut + ' ≠ ' + ci + '→' + lco, { i });
         const L = leg.lodgingLinks || {};
         // Plafond de prix du pays de l'étape, dans la devise choisie si possible (lodgingPriceCap, partagé avec le client).
-        const capObj = TD.lodgingPriceCap(leg.country, N.budgetKey, N.pc);
+        let capObj = TD.lodgingPriceCap(leg.country, N.budgetKey, N.pc);
+        // Devise du lien acceptée par Airbnb/Booking (LODGING_LINK_CURRENCIES), sinon celle du pays, sinon l'euro (11e audit).
+        if(TD.LODGING_LINK_CURRENCIES && TD.LODGING_LINK_CURRENCIES.indexOf(capObj.currency) < 0){
+          const local = TD.lodgingPriceCap(leg.country, N.budgetKey, null);
+          capObj = TD.LODGING_LINK_CURRENCIES.indexOf(local.currency) >= 0 ? local : TD.lodgingPriceCap(leg.country, N.budgetKey, 'EUR');
+        }
         const cur = capObj.currency, pm = capObj.max;
         if(!/^[A-Z]{3}$/.test(cur) || !(pm > 0)) bad('dates', 'moyenne', 'plafond de prix invalide ' + cur + ' ' + pm, { i });
         const rule = TD.LODGING_RULES && TD.LODGING_RULES[leg.country];
@@ -434,13 +449,21 @@ function check(params, res, elapsedMs){
     // Durées
     ap('durees');
     if(!leg.ferryInfo){
-      const sp = N.speed * (N.transportKey === 'moto' ? motoFactor(A.tollCountryOf(cur), from, cur) : 1);
+      const sp = speedOf(N, from, cur, A.tollCountryOf(cur));
       const expMin = Math.round(leg.distanceKm / sp * 60 + (leg.chargeInfo ? leg.chargeInfo.minutes : 0));
       if(Math.abs(leg.travelMin - expMin) > 1) bad('durees', 'moyenne', 'travelMin ' + leg.travelMin + ' ≠ ' + expMin, { i });
       if(labelMin(leg.travelTime) !== leg.travelMin) bad('durees', 'basse', 'travelTime ' + leg.travelTime + ' ≠ travelMin ' + leg.travelMin, { i });
     } else if(leg.roadKm !== undefined){
-      const sp = N.speed * (N.transportKey === 'moto' ? motoFactor(null, from, cur) : 1);
-      const expMin = leg.roadKm / sp * 60 + (leg.chargeInfo ? leg.chargeInfo.minutes : 0);
+      // Parties routières d'un ferry : chacune à la vitesse de son pays (départ → port, port → arrivée).
+      let expMin, sp;
+      if(parts && parts.fromPort){
+        const sp1 = speedOf(N, from, parts.fromPort, A.tollCountryOf(from)), sp2 = speedOf(N, parts.toPort, cur, A.tollCountryOf(cur));
+        sp = Math.min(sp1, sp2);
+        expMin = Math.round(parts.fromKm) / sp1 * 60 + Math.round(parts.toKm) / sp2 * 60 + (leg.chargeInfo ? leg.chargeInfo.minutes : 0);
+      } else {
+        sp = speedOf(N, null, null, A.tollCountryOf(cur));
+        expMin = leg.roadKm / sp * 60 + (leg.chargeInfo ? leg.chargeInfo.minutes : 0);
+      }
       const tol = 2 + 60 / sp;
       if(Math.abs(leg.roadMin - expMin) > tol) bad('durees', 'basse', 'roadMin ' + leg.roadMin + ' ≠ ' + expMin.toFixed(1) + ' (ferry, parties routières)', { i });
       if(labelMin(leg.roadTime) !== leg.roadMin) bad('durees', 'basse', 'roadTime ' + leg.roadTime + ' ≠ roadMin ' + leg.roadMin, { i });
@@ -459,7 +482,9 @@ function check(params, res, elapsedMs){
         else if(leg.ferryInfo) segs = [];
         if(!segs.some(s => segHasTollCell(s[0], s[1], c))) bad('peage', 'haute', 'péage ' + c + ' sans voie à péage de ce pays sur le trajet', { i, from: from.name, to: cur.name });
       });
-      if(N.transportKey === 'moto' && (fullBan(from.country) || fullBan(cur.country))) bad('peage', 'moyenne', 'péage à moto dans un pays aux autoroutes interdites', { i });
+      // Pays du PÉAGE (11e audit) : un ferry Kitakyushu → Busan paie légitimement la route japonaise jusqu'au port,
+      // même si les autoroutes coréennes de l'arrivée sont interdites aux motos.
+      if(N.transportKey === 'moto' && (t.countries || []).some(fullBan)) bad('peage', 'moyenne', 'péage à moto dans un pays aux autoroutes interdites', { i });
       const base = leg.ferryInfo ? leg.roadKm : leg.distanceKm * 1.17 / ROAD;
       if(t.tolledKm > base + 1) bad('peage', 'moyenne', 'tolledKm ' + t.tolledKm + ' > distance facturable ' + base.toFixed(1), { i });
       const rates = (t.countries || []).map(c => (TD.TOLL_RATE_BY_COUNTRY[c] || {})[N.tollClass] || 0).filter(r => r > 0);
@@ -468,6 +493,9 @@ function check(params, res, elapsedMs){
         if(t.amount < lo || t.amount > hi) bad('peage', 'moyenne', 'montant ' + t.amount + ' hors [' + lo.toFixed(1) + ',' + hi.toFixed(1) + ']', { i });
       }
       if(!(t.amount > 0)) bad('peage', 'moyenne', 'montant nul', { i });
+      // Fourchette (11e audit) : borne basse ≤ borne haute, kilomètres de même.
+      if(!(t.amountMin >= 0 && t.amountMin <= t.amount + 0.05)) bad('peage', 'moyenne', 'fourchette incohérente ' + t.amountMin + ' à ' + t.amount, { i });
+      if(!(t.tolledKmMin >= 0 && t.tolledKmMin <= t.tolledKm + 1)) bad('peage', 'basse', 'tolledKmMin ' + t.tolledKmMin + ' > tolledKm ' + t.tolledKm, { i });
     }
 
     // Recharge (voiture électrique)

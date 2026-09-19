@@ -56,7 +56,6 @@ fa;رواماگانا;Rwamagana
 ja;ルワマガナ;Rwamagana
 pa;ਰਵਾਮਾਗਾਨਾ;Rwamagana
 ps;رواماګانا;Rwamagana
-tg;Рваmagana;Rwamagana
 tt;Рвамагана;Rwamagana
 pl;Ruhengeri;Musanze
 lt;Ruhengeris;Musanze

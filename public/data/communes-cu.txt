@@ -73,7 +73,6 @@
 0;-80.1907,21.8915;CU-08;Cienfuegos Province;Yaguanabo Arriba
 0;-75.8150,21.1026;CU-12;Holguín Province;Yaguajay
 42218;-79.2369,22.3269;CU-14;Sancti Spíritus Province;Yaguajay
-0;-75.8147,21.1027;CU-12;Holguín Province;Yaguajay
 0;-77.9017,20.7563;CU-05;Camagüey;Yaguabo
 0;-76.4221,20.6316;CU-12;Holguín Province;Yaguabo
 0;-76.4172,20.6196;CU-12;Holguín Province;Yaguabito
@@ -8489,7 +8488,6 @@
 0;-77.0750,21.2011;CU-13;Las Tunas Province;Cristino
 0;-75.8225,20.1506;CU-15;Santiago de Cuba Province;Cristina
 0;-80.4874,22.3391;CU-08;Cienfuegos Province;Cristalina
-0;-75.2694,20.4740;CU-12;Holguín Province;Palma Criolla
 0;-80.3662,22.9034;CU-16;Villa Clara Province;Crimea
 0;-81.1787,22.5556;CU-03;Matanzas Province;Crimea
 0;-78.7617,21.8808;CU-07;Ciego de Ávila Province;Grego
@@ -10168,7 +10166,6 @@
 0;-78.2770,21.7850;CU-05;Camagüey;Adela
 0;-78.2803,21.7947;CU-07;Ciego de Ávila Province;San Antonio
 0;-78.2567,21.7803;CU-07;Ciego de Ávila Province;El Colonel
-0;-78.2763,21.7477;CU-05;Camagüey;Delicia
 0;-78.4124,21.7539;CU-07;Ciego de Ávila Province;Ensilú
 0;-78.2556,21.7292;CU-05;Camagüey;Entrada Uno Catorce
 0;-78.2997,21.7139;CU-05;Camagüey;Yamagua
@@ -13455,7 +13452,6 @@
 0;-79.1722,22.2957;CU-14;Sancti Spíritus Province;La Garita
 0;-79.2170,22.3112;CU-14;Sancti Spíritus Province;La Gasolinera
 0;-79.2623,22.3286;CU-14;Sancti Spíritus Province;Vergara
-0;-79.0755,22.3151;CU-14;Sancti Spíritus Province;Aracelio Iglesias
 0;-79.0470,22.2195;CU-14;Sancti Spíritus Province;La Canoa Dos
 0;-79.0349,22.2296;CU-14;Sancti Spíritus Province;El Pastoreo
 0;-79.0331,22.2131;CU-14;Sancti Spíritus Province;Felicito Rodríguez

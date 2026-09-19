@@ -1267,7 +1267,6 @@
 0;87.0071,27.2499;NP-1;Koshi;Kukum
 0;87.0011,27.2376;NP-1;Koshi;Dhaje
 0;87.0081,27.2280;NP-1;Koshi;Wachhala
-0;87.0050,27.2217;NP-1;Koshi;Chapleti
 0;87.0040,27.2197;NP-1;Koshi;Chhop Narayan
 0;81.4419,29.0918;NP-7;Sudurpashchim Pradesh;Ambo
 0;87.0155,27.2246;NP-1;Koshi;Dumchha
@@ -2297,7 +2296,6 @@
 0;84.4133,27.6743;NP-3;Bagmati Province;Langku
 0;81.3891,28.9877;NP-7;Sudurpashchim Pradesh;Amgaira
 0;84.4040,27.6722;NP-3;Bagmati Province;SanoYajnapuri
-0;84.3950,27.6702;NP-3;Bagmati Province;Anandapur
 0;84.4118,27.6681;NP-3;Bagmati Province;Yajnapurichok
 0;84.4194,27.6674;NP-3;Bagmati Province;CancerHospitalArea
 0;84.4114,27.6603;NP-3;Bagmati Province;Swamichautara
@@ -2950,10 +2948,10 @@
 0;84.2433,27.5831;NP-3;Bagmati Province;Parsadhap
 0;84.1939,27.5682;NP-3;Bagmati Province;Androli
 0;84.1857,27.5850;NP-3;Bagmati Province;Sisabas
-0;84.1837,27.5790;NP-3;Bagmati Province;Parsa  Bajar
+0;84.1837,27.5790;NP-3;Bagmati Province;Parsa Bajar
 0;84.1813,27.5760;NP-3;Bagmati Province;Lokhani
 0;81.3175,29.0743;NP-7;Sudurpashchim Pradesh;Sagiban
-0;84.1864,27.5749;NP-3;Bagmati Province;Parsa  Bajar
+0;84.1864,27.5749;NP-3;Bagmati Province;Parsa Bajar
 0;84.1729,27.5743;NP-3;Bagmati Province;Bardaha
 0;84.1783,27.5705;NP-3;Bagmati Province;Bardaha Jogitol
 0;84.1934,27.5884;NP-3;Bagmati Province;Salbas
@@ -3392,7 +3390,6 @@
 0;80.4500,29.1305;NP-7;Sudurpashchim Pradesh;Bhunda
 0;80.4618,29.1295;NP-7;Sudurpashchim Pradesh;Kalaban
 0;80.4370,29.1290;NP-7;Sudurpashchim Pradesh;Selaning Syalchaudi
-0;80.4773,29.1273;NP-7;Sudurpashchim Pradesh;Dola
 0;80.6527,29.2912;NP-7;Sudurpashchim Pradesh;Dola
 0;80.6490,29.2825;NP-7;Sudurpashchim Pradesh;Thulikhali
 0;80.6321,29.2815;NP-7;Sudurpashchim Pradesh;Bheta
@@ -4929,7 +4926,7 @@
 0;81.6597,28.7364;NP-6;Karnali Pradesh;Kolopuliya
 0;81.6685,28.7334;NP-6;Karnali Pradesh;Tinkhali
 0;81.6611,28.7297;NP-6;Karnali Pradesh;Latali
-0;81.6668,28.7254;NP-6;Karnali Pradesh;Jyamire  Takura
+0;81.6668,28.7254;NP-6;Karnali Pradesh;Jyamire Takura
 0;81.6586,28.7240;NP-6;Karnali Pradesh;Kami Tol
 0;81.6670,28.7209;NP-6;Karnali Pradesh;Jilenge
 0;81.3755,28.9541;NP-7;Sudurpashchim Pradesh;Chisi
@@ -5207,7 +5204,7 @@
 0;81.7170,28.9778;NP-6;Karnali Pradesh;Damaikhoriya
 0;81.6684,28.9840;NP-6;Karnali Pradesh;Badaban
 0;81.6703,28.9948;NP-6;Karnali Pradesh;Dharmashala
-0;81.3508,28.9077;NP-7;Sudurpashchim Pradesh;Taduwa  Lek
+0;81.3508,28.9077;NP-7;Sudurpashchim Pradesh;Taduwa Lek
 0;81.6632,28.9925;NP-6;Karnali Pradesh;Gaurigaun
 0;81.6602,28.9787;NP-6;Karnali Pradesh;Katuseni
 0;81.6573,28.9715;NP-6;Karnali Pradesh;Gortigaun
@@ -5355,7 +5352,7 @@
 0;81.5369,28.9919;NP-6;Karnali Pradesh;Salmela
 0;81.5313,28.9887;NP-6;Karnali Pradesh;Sheripata
 0;81.5328,28.9856;NP-6;Karnali Pradesh;Thapagaun
-0;81.5417,28.9818;NP-6;Karnali Pradesh;Bage  Takura
+0;81.5417,28.9818;NP-6;Karnali Pradesh;Bage Takura
 0;81.5507,28.9806;NP-6;Karnali Pradesh;Kosedi
 0;81.5443,28.9773;NP-6;Karnali Pradesh;Gatad
 0;81.1977,28.9620;NP-7;Sudurpashchim Pradesh;Salkot
@@ -7347,7 +7344,7 @@
 0;81.4317,28.9440;NP-7;Sudurpashchim Pradesh;Sangurchalne
 0;83.1935,27.9648;NP-5;Lumbini Province;Balle Ghat
 0;82.1613,27.8676;NP-5;Lumbini Province;Sunpathari naka
-0;82.1495,27.8639;NP-5;Lumbini Province;Tallo  Sukaiya naka
+0;82.1495,27.8639;NP-5;Lumbini Province;Tallo Sukaiya naka
 0;82.1686,27.8634;NP-5;Lumbini Province;Siureni naka
 0;82.1854,27.8564;NP-5;Lumbini Province;Gambhira naka
 0;82.2022,27.8504;NP-5;Lumbini Province;Dagmara naka
@@ -8160,7 +8157,7 @@
 0;80.5289,29.6605;NP-7;Sudurpashchim Pradesh;Kumali
 0;83.0644,27.9316;NP-5;Lumbini Province;Dhanchaur
 0;80.5332,29.7039;NP-7;Sudurpashchim Pradesh;Kholsingaun
-0;80.5380,29.6981;NP-7;Sudurpashchim Pradesh;;Malekantha
+0;80.5380,29.6981;NP-7;Sudurpashchim Pradesh;Malekantha
 0;80.5273,29.7091;NP-7;Sudurpashchim Pradesh;Tikhadhar
 0;80.5197,29.6987;NP-7;Sudurpashchim Pradesh;Jhardebya
 0;80.5008,29.7051;NP-7;Sudurpashchim Pradesh;Panebanj
@@ -9393,7 +9390,7 @@
 0;84.8399,27.7662;NP-3;Bagmati Province;Chhepang
 0;84.8294,27.7639;NP-3;Bagmati Province;Kajitol
 0;84.8430,27.7631;NP-3;Bagmati Province;Deurali
-0;84.8319,27.7621;NP-3;Bagmati Province;Chhepang  Champarang
+0;84.8319,27.7621;NP-3;Bagmati Province;Chhepang Champarang
 0;84.8303,27.7596;NP-3;Bagmati Province;Lebang
 0;84.8544,27.7685;NP-3;Bagmati Province;Gadal
 0;84.8510,27.7677;NP-3;Bagmati Province;Ragsinbesi
@@ -10139,7 +10136,7 @@
 0;84.9446,27.9184;NP-3;Bagmati Province;Gairigaun
 0;84.9390,27.9149;NP-3;Bagmati Province;Sorhaghare
 0;84.9333,27.9120;NP-3;Bagmati Province;Bhandarigaun
-0;84.9000,27.9148;NP-3;Bagmati Province;Dhading  Besi
+0;84.9000,27.9148;NP-3;Bagmati Province;Dhading Besi
 0;83.1360,28.0417;NP-5;Lumbini Province;Bans Khola
 0;84.8960,27.9133;NP-3;Bagmati Province;Bich Bajar
 0;84.9070,27.9108;NP-3;Bagmati Province;Mathillo Bajar
@@ -13368,7 +13365,7 @@
 0;82.5944,28.9818;NP-6;Karnali Pradesh;Sangle Bagar
 0;82.6119,28.9810;NP-6;Karnali Pradesh;Churung
 0;82.6204,28.9781;NP-6;Karnali Pradesh;Karbagar
-0;82.5601,29.0181;NP-6;Karnali Pradesh;Poth  Bada
+0;82.5601,29.0181;NP-6;Karnali Pradesh;Poth Bada
 0;83.0969,27.8327;NP-5;Lumbini Province;Purano Gaun
 0;82.5917,29.0058;NP-6;Karnali Pradesh;Bagale Salla
 0;82.6512,28.9914;NP-6;Karnali Pradesh;Lahangaun
@@ -13678,7 +13675,7 @@
 0;83.2326,29.4520;NP-6;Karnali Pradesh;Maitgaun
 0;83.1050,27.8793;NP-5;Lumbini Province;Pach Pokhari
 0;83.2192,29.4315;NP-6;Karnali Pradesh;Maitgaun
-0;83.2663,29.5687;NP-6;Karnali Pradesh;Mengala  Bhanjyang
+0;83.2663,29.5687;NP-6;Karnali Pradesh;Mengala Bhanjyang
 0;83.2647,29.5068;NP-6;Karnali Pradesh;Chala Bhanjyang
 0;83.3141,29.5069;NP-6;Karnali Pradesh;Yanang Bhanjyang
 0;83.1863,29.5134;NP-6;Karnali Pradesh;Musi Goth
@@ -13712,7 +13709,7 @@
 0;80.9405,29.3148;NP-7;Sudurpashchim Pradesh;Chansi
 0;80.9323,29.3126;NP-7;Sudurpashchim Pradesh;Dhadelo
 0;80.9387,29.3098;NP-7;Sudurpashchim Pradesh;Tallo Chansi
-0;80.9284,29.3262;NP-7;Sudurpashchim Pradesh;Mallo Payal;
+0;80.9284,29.3262;NP-7;Sudurpashchim Pradesh;Mallo Payal
 0;80.9302,29.3248;NP-7;Sudurpashchim Pradesh;Tallo Payal
 0;80.9345,29.3240;NP-7;Sudurpashchim Pradesh;Dumrakot
 0;80.9380,29.3185;NP-7;Sudurpashchim Pradesh;Chund
@@ -13720,7 +13717,7 @@
 0;80.9288,29.3377;NP-7;Sudurpashchim Pradesh;Lakhado
 0;80.9340,29.3336;NP-7;Sudurpashchim Pradesh;Dumarigaun
 0;83.2012,28.0192;NP-5;Lumbini Province;Dahanel
-0;80.9256,29.3307;NP-7;Sudurpashchim Pradesh;Salgaun]
+0;80.9256,29.3307;NP-7;Sudurpashchim Pradesh;Salgaun
 0;80.9230,29.3144;NP-7;Sudurpashchim Pradesh;Simalgaun
 0;80.9226,29.3039;NP-7;Sudurpashchim Pradesh;Choyakmal
 0;80.9224,29.3275;NP-7;Sudurpashchim Pradesh;Baban Tank
@@ -14788,7 +14785,7 @@
 0;83.3875,28.2935;NP-4;Gandaki Pradesh;Philmeri
 0;81.0559,29.3812;NP-7;Sudurpashchim Pradesh;Dhung
 0;80.9506,29.3464;NP-7;Sudurpashchim Pradesh;Birkhet Kharka
-0;80.9464,29.3406;NP-7;Sudurpashchim Pradesh;Saun Nara]
+0;80.9464,29.3406;NP-7;Sudurpashchim Pradesh;Saun Nara
 0;80.9405,29.3426;NP-7;Sudurpashchim Pradesh;Katelgaun
 0;80.9365,29.3391;NP-7;Sudurpashchim Pradesh;Rokaya Nara
 0;80.9398,29.3320;NP-7;Sudurpashchim Pradesh;Biralkanda
@@ -15481,7 +15478,6 @@
 0;81.0113,29.0913;NP-7;Sudurpashchim Pradesh;Tallo Danda
 0;81.0114,29.0880;NP-7;Sudurpashchim Pradesh;Mallo Danda
 0;81.0026,29.0811;NP-7;Sudurpashchim Pradesh;Airlek
-0;81.0050,29.0768;NP-7;Sudurpashchim Pradesh;Airlek
 0;81.0150,29.1170;NP-7;Sudurpashchim Pradesh;Chamesera
 0;81.0140,29.1120;NP-7;Sudurpashchim Pradesh;Patalgaun
 0;81.0181,29.1069;NP-7;Sudurpashchim Pradesh;Patalkhet
@@ -18228,7 +18224,7 @@
 0;83.4390,28.0193;NP-5;Lumbini Province;Juhan
 0;83.1340,28.3580;NP-4;Gandaki Pradesh;Pyangkholagaun
 0;83.4402,28.0453;NP-5;Lumbini Province;Juhangaun
-0;83.4444,28.0507;NP-5;Lumbini Province;Parsauli  Maidan
+0;83.4444,28.0507;NP-5;Lumbini Province;Parsauli Maidan
 0;83.4302,28.0586;NP-5;Lumbini Province;Juniyagaun
 0;83.4375,28.0596;NP-5;Lumbini Province;Netagaun
 0;83.4363,28.0517;NP-5;Lumbini Province;Hemanta Pokhari
@@ -18286,7 +18282,7 @@
 0;83.1209,28.3696;NP-4;Gandaki Pradesh;Pakhapani
 0;83.3264,27.9761;NP-5;Lumbini Province;Bar Danda
 0;83.3194,27.9905;NP-5;Lumbini Province;Arjenbas
-0;83.3154,27.9863;NP-5;Lumbini Province;Bhutuk  Chaur
+0;83.3154,27.9863;NP-5;Lumbini Province;Bhutuk Chaur
 0;83.3355,28.1494;NP-5;Lumbini Province;Suwara
 0;83.3287,28.1462;NP-5;Lumbini Province;Khahare Pakha
 0;83.3221,28.1458;NP-5;Lumbini Province;Kurgha
@@ -18376,7 +18372,7 @@
 0;83.3668,28.0141;NP-5;Lumbini Province;Pallikot Gaun
 0;83.3577,28.0046;NP-5;Lumbini Province;Choiga Gaun
 0;83.3659,27.9938;NP-5;Lumbini Province;Khire Deurali
-0;83.3217,28.1168;NP-5;Lumbini Province;Ghyasi  Kharka
+0;83.3217,28.1168;NP-5;Lumbini Province;Ghyasi Kharka
 0;83.3103,28.1162;NP-5;Lumbini Province;Ramthum
 0;83.1465,28.3780;NP-4;Gandaki Pradesh;Dobhan Kharka
 0;83.3211,28.1138;NP-5;Lumbini Province;Charkhutte Phant
@@ -20967,7 +20963,7 @@
 0;82.1231,28.7621;NP-6;Karnali Pradesh;Rokagaun
 0;82.1218,28.7545;NP-6;Karnali Pradesh;Gamka
 0;82.1374,28.7551;NP-6;Karnali Pradesh;Sallibhir
-0;82.1445,28.7579;NP-6;Karnali Pradesh;Khal  Takura
+0;82.1445,28.7579;NP-6;Karnali Pradesh;Khal Takura
 0;82.0808,28.7626;NP-6;Karnali Pradesh;Aula Katiya
 0;82.0886,28.7548;NP-6;Karnali Pradesh;Khaltakura
 0;81.9438,28.7017;NP-6;Karnali Pradesh;Tata
@@ -21120,7 +21116,7 @@
 0;82.1877,28.6900;NP-6;Karnali Pradesh;Boharagaun
 0;82.1826,28.7472;NP-6;Karnali Pradesh;Pokhara
 0;82.1894,28.7429;NP-6;Karnali Pradesh;Purangaun
-0;82.1942,28.7418;NP-6;Karnali Pradesh;Jamnechaur]
+0;82.1942,28.7418;NP-6;Karnali Pradesh;Jamnechaur
 0;82.1670,28.7418;NP-6;Karnali Pradesh;Okharen
 0;82.1958,28.7398;NP-6;Karnali Pradesh;Bahunthan
 0;82.1986,28.7345;NP-6;Karnali Pradesh;Dar
@@ -23426,7 +23422,7 @@
 0;81.9724,29.3274;NP-6;Karnali Pradesh;Mahadev Bada
 0;81.9716,29.3382;NP-6;Karnali Pradesh;Chulelgaun
 0;81.9673,29.3419;NP-6;Karnali Pradesh;Thar Bista Bada
-0;81.9482,29.3521;NP-6;Karnali Pradesh;Agasthi  Bada Goth
+0;81.9482,29.3521;NP-6;Karnali Pradesh;Agasthi Bada Goth
 0;81.9639,29.3503;NP-6;Karnali Pradesh;Agasthi Bada
 0;82.0098,29.3621;NP-6;Karnali Pradesh;Buwa
 0;82.0066,29.3598;NP-6;Karnali Pradesh;Bhadechankha
@@ -24067,7 +24063,7 @@
 0;81.1104,28.6725;NP-7;Sudurpashchim Pradesh;Bhawanipur
 0;81.1085,28.6626;NP-7;Sudurpashchim Pradesh;Baghmara
 0;81.1182,28.6637;NP-7;Sudurpashchim Pradesh;Chainpur
-0;81.1140,28.6567;NP-7;Sudurpashchim Pradesh;Gulareni]
+0;81.1140,28.6567;NP-7;Sudurpashchim Pradesh;Gulareni
 0;81.1200,28.6544;NP-7;Sudurpashchim Pradesh;Bahunpur
 0;83.4009,28.2090;NP-4;Gandaki Pradesh;Musurbari
 0;81.1097,28.6493;NP-7;Sudurpashchim Pradesh;Tilka
@@ -25061,7 +25057,7 @@
 0;80.6982,28.6231;NP-7;Sudurpashchim Pradesh;A--Gaun
 0;80.6900,28.6176;NP-7;Sudurpashchim Pradesh;Nakkalipura
 0;80.7010,28.6164;NP-7;Sudurpashchim Pradesh;F--Gaun
-0;80.6832,28.6094;NP-7;Sudurpashchim Pradesh;Ex Military  Tola
+0;80.6832,28.6094;NP-7;Sudurpashchim Pradesh;Ex Military Tola
 0;80.7061,28.6249;NP-7;Sudurpashchim Pradesh;B--Gaun
 0;80.7201,28.6218;NP-7;Sudurpashchim Pradesh;E--Gaun
 0;80.6979,28.6272;NP-7;Sudurpashchim Pradesh;A-Gaun
@@ -26310,11 +26306,11 @@
 0;83.6181,28.1886;NP-4;Gandaki Pradesh;Ramche Pokhari
 0;80.0718,28.8535;NP-7;Sudurpashchim Pradesh;Deuralighat
 0;80.0821,28.8509;NP-7;Sudurpashchim Pradesh;Ambhoj
-0;80.0769,28.8392;NP-7;Sudurpashchim Pradesh;Dhami  Tol
+0;80.0769,28.8392;NP-7;Sudurpashchim Pradesh;Dhami Tol
 0;80.0714,28.8377;NP-7;Sudurpashchim Pradesh;Sundarnagar
 0;80.0864,28.8570;NP-7;Sudurpashchim Pradesh;Hurdaiya
 0;80.0826,28.8718;NP-7;Sudurpashchim Pradesh;Babathan
-0;80.0896,28.8825;NP-7;Sudurpashchim Pradesh;Nayangaun  Jagalat
+0;80.0896,28.8825;NP-7;Sudurpashchim Pradesh;Nayangaun Jagalat
 0;80.0932,28.8740;NP-7;Sudurpashchim Pradesh;Nayangaun
 0;80.0988,28.8611;NP-7;Sudurpashchim Pradesh;Dhakanaghat
 0;80.0937,28.8496;NP-7;Sudurpashchim Pradesh;Jangilath
@@ -27787,7 +27783,7 @@
 0;83.0980,27.5894;NP-5;Lumbini Province;Thumuhawa
 0;83.0853,27.6026;NP-5;Lumbini Province;Sagrahawa
 0;83.0828,27.4838;NP-5;Lumbini Province;Titirkhi
-0;83.0824,27.4779;NP-5;Lumbini Province;Sishaniya  Thula
+0;83.0824,27.4779;NP-5;Lumbini Province;Sishaniya Thula
 0;83.0670,27.4793;NP-5;Lumbini Province;Titirkhi
 0;83.0747,27.4689;NP-5;Lumbini Province;Rajawapur
 0;83.0611,27.4686;NP-5;Lumbini Province;Pakadi
@@ -28278,7 +28274,7 @@
 0;83.9614,28.2173;NP-4;Gandaki Pradesh;Khahare
 0;83.9692,28.2366;NP-4;Gandaki Pradesh;Jamunabot
 0;83.9540,28.2297;NP-4;Gandaki Pradesh;Lambidikhet
-0;83.9588,28.2286;NP-4;Gandaki Pradesh;Lamka  (Raniswara)
+0;83.9588,28.2286;NP-4;Gandaki Pradesh;Lamka (Raniswara)
 0;83.9530,28.2283;NP-4;Gandaki Pradesh;Sedi Bagar
 0;83.9480,28.2271;NP-4;Gandaki Pradesh;Chhahadidanda
 0;83.9554,28.2243;NP-4;Gandaki Pradesh;Sedidanda
@@ -28355,7 +28351,7 @@
 0;84.0852,28.2228;NP-4;Gandaki Pradesh;Kuikelgaun
 0;84.0733,28.2110;NP-4;Gandaki Pradesh;Gainedanda
 0;84.0884,28.2159;NP-4;Gandaki Pradesh;Deumadi
-0;84.0836,28.2106;NP-4;Gandaki Pradesh;Sarki  Maidan
+0;84.0836,28.2106;NP-4;Gandaki Pradesh;Sarki Maidan
 0;84.0747,28.2505;NP-4;Gandaki Pradesh;Chitre
 0;84.0776,28.2483;NP-4;Gandaki Pradesh;Barhabise
 0;84.0663,28.2465;NP-4;Gandaki Pradesh;Kaure
@@ -28751,7 +28747,7 @@
 0;83.9662,28.3791;NP-4;Gandaki Pradesh;Bhalaudi
 0;83.9539,28.3781;NP-4;Gandaki Pradesh;Sajumrokharka
 0;83.9639,28.3755;NP-4;Gandaki Pradesh;Karuwa
-0;84.0847,28.5393;NP-4;Gandaki Pradesh;Annapurna  IV
+0;84.0847,28.5393;NP-4;Gandaki Pradesh;Annapurna IV
 0;84.1328,28.2134;NP-4;Gandaki Pradesh;Bhadbesi
 0;84.1477,28.2121;NP-4;Gandaki Pradesh;Manjhbesi
 0;84.1573,28.2112;NP-4;Gandaki Pradesh;Bhadbesi
@@ -32029,7 +32025,6 @@
 0;86.4903,27.1385;NP-1;Koshi;Daimijawa
 0;86.4856,27.1361;NP-1;Koshi;Pokhre
 0;86.4918,27.1344;NP-1;Koshi;Dunde
-0;86.4962,27.1273;NP-1;Koshi;Chyantar
 0;86.5079,27.1395;NP-1;Koshi;Balchung
 0;86.5149,27.1327;NP-1;Koshi;Goruiure
 0;86.5267,27.1451;NP-1;Koshi;Okhlang
@@ -32724,7 +32719,6 @@
 0;86.6946,27.3918;NP-1;Koshi;Hangkhai
 0;86.7029,27.3865;NP-1;Koshi;Ambote
 0;86.7323,27.3813;NP-1;Koshi;Mawagaun
-0;86.7450,27.3795;NP-1;Koshi;Dhodre
 0;86.7399,27.3930;NP-1;Koshi;Kande
 0;83.0664,28.3651;NP-4;Gandaki Pradesh;Ghumaune
 0;86.7386,27.3890;NP-1;Koshi;Nepane
@@ -33719,7 +33713,7 @@
 0;84.6115,28.1823;NP-4;Gandaki Pradesh;Alkachaur
 0;84.6161,28.1809;NP-4;Gandaki Pradesh;Jalkeni
 0;80.3278,29.4387;NP-7;Sudurpashchim Pradesh;Sailoda
-0;84.6132,28.1759;NP-4;Gandaki Pradesh;Tribeni  Dobhan
+0;84.6132,28.1759;NP-4;Gandaki Pradesh;Tribeni Dobhan
 0;84.6133,28.1754;NP-4;Gandaki Pradesh;Dobhan
 0;84.6110,28.2010;NP-4;Gandaki Pradesh;Bichaur Marathagaun
 0;84.6102,28.1972;NP-4;Gandaki Pradesh;Nyaupanegaun
@@ -34526,7 +34520,6 @@
 0;84.2447,28.1254;NP-4;Gandaki Pradesh;Sami Bhanjyang
 0;80.7587,29.6235;NP-7;Sudurpashchim Pradesh;Luwakhari
 0;84.2505,28.1244;NP-4;Gandaki Pradesh;Sami Bhanjyang
-0;84.2483,28.1222;NP-4;Gandaki Pradesh;Kodale
 0;84.2468,28.1196;NP-4;Gandaki Pradesh;Simle
 0;84.2255,28.1302;NP-4;Gandaki Pradesh;Parajulibesi
 0;84.2311,28.1325;NP-4;Gandaki Pradesh;Parajuli
@@ -34536,7 +34529,7 @@
 0;84.2559,28.1278;NP-4;Gandaki Pradesh;Amdanda
 0;80.7750,29.6391;NP-7;Sudurpashchim Pradesh;Dhaulkada
 0;84.4715,28.1838;NP-4;Gandaki Pradesh;Gairigaun
-0;84.4703,28.1811;NP-4;Gandaki Pradesh;Gurung  Manjyang
+0;84.4703,28.1811;NP-4;Gandaki Pradesh;Gurung Manjyang
 0;84.4610,28.1805;NP-4;Gandaki Pradesh;Bagar
 0;84.4708,28.1775;NP-4;Gandaki Pradesh;Koiraldanda
 0;84.4609,28.1749;NP-4;Gandaki Pradesh;Kerabari
@@ -34707,7 +34700,7 @@
 0;84.4122,28.1715;NP-4;Gandaki Pradesh;Kamlukichhap
 0;84.4009,28.1701;NP-4;Gandaki Pradesh;Mulkot
 0;84.4128,28.1692;NP-4;Gandaki Pradesh;Nayangaun
-0;84.4138,28.1617;NP-4;Gandaki Pradesh;Nayangaun  Pakha
+0;84.4138,28.1617;NP-4;Gandaki Pradesh;Nayangaun Pakha
 0;84.3038,28.2777;NP-4;Gandaki Pradesh;Ghalegaun
 0;80.5259,29.4864;NP-7;Sudurpashchim Pradesh;Bhattegaun
 0;84.2857,28.2658;NP-4;Gandaki Pradesh;Khagum
@@ -37014,7 +37007,7 @@
 0;84.1737,28.5783;NP-4;Gandaki Pradesh;Chemyaukharka
 0;84.2267,28.5599;NP-4;Gandaki Pradesh;Talekhu
 0;84.2059,28.5275;NP-4;Gandaki Pradesh;Shingkar kharka
-0;84.1232,28.5379;NP-4;Gandaki Pradesh;Annapurna  II
+0;84.1232,28.5379;NP-4;Gandaki Pradesh;Annapurna II
 0;84.1428,28.6141;NP-4;Gandaki Pradesh;Pisangbeshi
 0;80.4011,29.5636;NP-7;Sudurpashchim Pradesh;Chauraha
 0;84.3672,28.4652;NP-4;Gandaki Pradesh;GHerang
@@ -37033,7 +37026,7 @@
 0;84.3668,28.4954;NP-4;Gandaki Pradesh;kyodo
 0;84.3620,28.5076;NP-4;Gandaki Pradesh;Kanrte (Khotro)
 0;84.3609,28.5190;NP-4;Gandaki Pradesh;Dharapanee
-0;83.9911,28.5871;NP-4;Gandaki Pradesh;Annapurna  III
+0;83.9911,28.5871;NP-4;Gandaki Pradesh;Annapurna III
 0;83.9760,28.7417;NP-4;Gandaki Pradesh;Ledar
 0;83.9757,28.7263;NP-4;Gandaki Pradesh;Yakkharka
 0;83.9927,28.6993;NP-4;Gandaki Pradesh;Ghyanchang
@@ -39224,7 +39217,7 @@
 0;81.7915,29.5023;NP-6;Karnali Pradesh;Lyachudi
 0;83.8971,29.1203;NP-4;Gandaki Pradesh;Saukre
 0;83.9085,29.1142;NP-4;Gandaki Pradesh;Maran
-0;83.8851,29.1263;NP-4;Gandaki Pradesh;Ghar  Gumba
+0;83.8851,29.1263;NP-4;Gandaki Pradesh;Ghar Gumba
 0;83.8840,29.1072;NP-4;Gandaki Pradesh;Muila Bhanjyang
 0;83.8996,29.0677;NP-4;Gandaki Pradesh;Chingel Bhanjyang
 0;80.4588,29.5665;NP-7;Sudurpashchim Pradesh;Barkawali
@@ -39341,7 +39334,7 @@
 0;83.6032,28.6616;NP-4;Gandaki Pradesh;Lhakyor
 0;83.5986,28.6666;NP-4;Gandaki Pradesh;Kokhethanti
 0;83.9386,29.1439;NP-4;Gandaki Pradesh;Sundala
-0;83.9382,29.1343;NP-4;Gandaki Pradesh;Sunda  Chhorten
+0;83.9382,29.1343;NP-4;Gandaki Pradesh;Sunda Chhorten
 0;80.4690,29.5445;NP-7;Sudurpashchim Pradesh;Hallek
 0;83.9184,29.2315;NP-4;Gandaki Pradesh;Lhaktung Dovan
 0;83.9179,29.1906;NP-4;Gandaki Pradesh;Sarkang
@@ -39350,7 +39343,7 @@
 0;83.9710,29.1799;NP-4;Gandaki Pradesh;Durang
 0;83.9388,29.1601;NP-4;Gandaki Pradesh;Thulungphat
 0;83.9220,29.1621;NP-4;Gandaki Pradesh;Panga
-0;83.9794,29.1744;NP-4;Gandaki Pradesh;Namaru  Dikha
+0;83.9794,29.1744;NP-4;Gandaki Pradesh;Namaru Dikha
 0;83.9708,29.1062;NP-4;Gandaki Pradesh;Dhigaun
 0;83.6677,28.7227;NP-4;Gandaki Pradesh;Kali Odar
 0;80.4588,29.5606;NP-7;Sudurpashchim Pradesh;Gurgaun
@@ -39555,10 +39548,10 @@
 0;83.5439,28.4142;NP-4;Gandaki Pradesh;Bukula
 0;83.5504,28.4073;NP-4;Gandaki Pradesh;Khapsindanda
 0;83.5545,28.4263;NP-4;Gandaki Pradesh;Deurali
-0;83.5411,28.4250;NP-4;Gandaki Pradesh;Dagnam  Kanchhi
+0;83.5411,28.4250;NP-4;Gandaki Pradesh;Dagnam Kanchhi
 0;83.5344,28.4298;NP-4;Gandaki Pradesh;Dagnam Jethi
 0;80.7165,29.4808;NP-7;Sudurpashchim Pradesh;Batokate
-0;83.5341,28.4261;NP-4;Gandaki Pradesh;Dagnam  Maili
+0;83.5341,28.4261;NP-4;Gandaki Pradesh;Dagnam Maili
 0;83.5223,28.4582;NP-4;Gandaki Pradesh;Darmija
 0;83.6242,28.5631;NP-4;Gandaki Pradesh;Kabre
 0;83.6356,28.5641;NP-4;Gandaki Pradesh;Kabre
@@ -44430,7 +44423,7 @@
 0;83.5365,27.8457;NP-5;Lumbini Province;Gansai
 0;83.5297,27.8463;NP-5;Lumbini Province;Gansal
 0;83.4401,27.8291;NP-5;Lumbini Province;Ghustung Lek
-0;83.4515,27.8164;NP-5;Lumbini Province;Bhudhi  Khatrikot
+0;83.4515,27.8164;NP-5;Lumbini Province;Bhudhi Khatrikot
 0;83.4547,27.8378;NP-5;Lumbini Province;Gnorli Kharka
 0;83.4358,27.8214;NP-5;Lumbini Province;Ghustung
 0;83.4628,27.8428;NP-5;Lumbini Province;Mohandi
@@ -44954,7 +44947,7 @@
 0;87.9457,27.2042;NP-1;Koshi;Kholaghari
 0;87.9602,27.2038;NP-1;Koshi;Sepi
 0;87.9409,27.2011;NP-1;Koshi;Bungsingdanda
-0;87.9751,27.1945;NP-1;Koshi;Naralang  Narayan
+0;87.9751,27.1945;NP-1;Koshi;Naralang Narayan
 0;87.9078,27.2220;NP-1;Koshi;Bikate
 0;87.9216,27.2165;NP-1;Koshi;Chheukharka
 0;87.9044,27.2160;NP-1;Koshi;Layongba
@@ -46468,7 +46461,7 @@
 0;83.7144,28.1770;NP-4;Gandaki Pradesh;Jitakot Maidan
 0;83.7218,28.1752;NP-4;Gandaki Pradesh;Mel Pokhari
 0;81.3172,29.2118;NP-7;Sudurpashchim Pradesh;Domarso
-0;81.1265,29.2894;NP-7;Sudurpashchim Pradesh;Khetikhola  Chhana
+0;81.1265,29.2894;NP-7;Sudurpashchim Pradesh;Khetikhola Chhana
 0;80.5731,29.5353;NP-7;Sudurpashchim Pradesh;Meldugra
 0;83.7133,28.1714;NP-4;Gandaki Pradesh;khanahar
 0;83.7127,28.1639;NP-4;Gandaki Pradesh;Kaduje
@@ -47742,7 +47735,6 @@
 0;80.4659,29.4624;NP-7;Sudurpashchim Pradesh;Seli
 0;82.9083,28.2909;NP-5;Lumbini Province;Majhbhir
 0;82.8962,28.2853;NP-5;Lumbini Province;Dingbungdanda
-0;82.9089,28.2850;NP-5;Lumbini Province;Majhbhir
 0;82.9041,28.2755;NP-5;Lumbini Province;Majhbhir
 0;82.9111,28.3052;NP-5;Lumbini Province;Kurtibhir
 0;82.9295,28.2830;NP-5;Lumbini Province;Sirbidhara
@@ -47815,7 +47807,7 @@
 0;82.8596,28.1387;NP-5;Lumbini Province;Majhkot
 0;82.8697,28.1418;NP-5;Lumbini Province;Bahundanda
 0;82.8751,28.1424;NP-5;Lumbini Province;Dhanchaur
-0;82.8545,28.1573;NP-5;Lumbini Province;Lamksyang  Neta
+0;82.8545,28.1573;NP-5;Lumbini Province;Lamksyang Neta
 0;80.4518,29.4581;NP-7;Sudurpashchim Pradesh;Malena
 0;82.8565,28.1545;NP-5;Lumbini Province;Ninnyukharka
 0;82.8726,28.1442;NP-5;Lumbini Province;Dhanchaur
@@ -48217,7 +48209,7 @@
 0;82.9699,28.3016;NP-5;Lumbini Province;Paharadanda
 0;82.9770,28.2960;NP-5;Lumbini Province;Dakhara
 0;82.9783,28.2914;NP-5;Lumbini Province;Shahi Bisauna
-0;82.9782,28.3260;NP-5;Lumbini Province;Mathillo  Bhegni
+0;82.9782,28.3260;NP-5;Lumbini Province;Mathillo Bhegni
 0;82.9694,28.3215;NP-5;Lumbini Province;Bhegni
 0;82.9686,28.3170;NP-5;Lumbini Province;Uttise
 0;82.9704,28.3139;NP-5;Lumbini Province;Tumpa
@@ -50571,9 +50563,8 @@
 0;82.8972,28.3788;NP-5;Lumbini Province;Chyana
 0;82.9394,28.3855;NP-5;Lumbini Province;Ghodakanya Kharka
 0;80.6468,29.4232;NP-7;Sudurpashchim Pradesh;Khod
-0;82.9233,28.3818;NP-5;Lumbini Province;Saribang  Kharka
+0;82.9233,28.3818;NP-5;Lumbini Province;Saribang Kharka
 0;82.8998,28.3777;NP-5;Lumbini Province;Guwakholagaun
-0;82.9166,28.3772;NP-5;Lumbini Province;Saribang Kharka
 0;82.9433,28.3770;NP-5;Lumbini Province;Charipani Kharka
 0;82.8419,28.3809;NP-5;Lumbini Province;Totke
 0;82.8742,28.4168;NP-5;Lumbini Province;Kharka
@@ -53435,7 +53426,6 @@
 0;82.2420,28.7019;NP-6;Karnali Pradesh;Badapani
 0;80.8155,29.4219;NP-7;Sudurpashchim Pradesh;Age Dhungo
 0;82.2378,28.7011;NP-6;Karnali Pradesh;Tarike
-0;82.2509,28.7006;NP-6;Karnali Pradesh;Pakraiya
 0;82.2413,28.6967;NP-6;Karnali Pradesh;Bhandarbanggaun
 0;82.2389,28.6946;NP-6;Karnali Pradesh;Bhandargan Jyula
 0;82.2468,28.6934;NP-6;Karnali Pradesh;Kamigaun
@@ -55614,7 +55604,6 @@
 0;82.2383,28.5040;NP-6;Karnali Pradesh;Thulo Jimali
 0;82.2450,28.5123;NP-6;Karnali Pradesh;Thadakholagaun
 0;81.0343,29.5195;NP-7;Sudurpashchim Pradesh;Thale
-0;82.2546,28.5089;NP-6;Karnali Pradesh;Thadakholagaun
 0;82.2184,28.4980;NP-6;Karnali Pradesh;Chyure Takura
 0;82.2253,28.4890;NP-6;Karnali Pradesh;Hile
 0;82.2394,28.4952;NP-6;Karnali Pradesh;Jimali
@@ -56204,7 +56193,6 @@
 0;82.3409,28.4780;NP-6;Karnali Pradesh;Painyarchaur
 0;82.3755,28.4923;NP-6;Karnali Pradesh;Patihalna
 0;82.3711,28.4981;NP-6;Karnali Pradesh;Sisneri
-0;82.3648,28.4981;NP-6;Karnali Pradesh;Bangtire
 0;82.3718,28.4949;NP-6;Karnali Pradesh;Malajun
 0;82.3681,28.4910;NP-6;Karnali Pradesh;Pokhara
 0;82.3722,28.4874;NP-6;Karnali Pradesh;Melta
@@ -56396,7 +56384,7 @@
 0;82.3025,28.3884;NP-6;Karnali Pradesh;Chorpani
 0;82.2900,28.3990;NP-6;Karnali Pradesh;Mayani
 0;82.2823,28.3986;NP-6;Karnali Pradesh;Dhoreni
-0;82.2739,28.3900;NP-6;Karnali Pradesh;Birma  Lek
+0;82.2739,28.3900;NP-6;Karnali Pradesh;Birma Lek
 0;80.9410,29.4512;NP-7;Sudurpashchim Pradesh;Lauda
 0;81.9878,28.4211;NP-6;Karnali Pradesh;Khaligaira
 0;81.9923,28.4201;NP-6;Karnali Pradesh;Pipalgaira
@@ -56488,7 +56476,7 @@
 0;82.1961,28.5375;NP-6;Karnali Pradesh;Takuragaun
 0;81.3264,29.5863;NP-7;Sudurpashchim Pradesh;Kadapani Goth
 0;82.2055,28.5352;NP-6;Karnali Pradesh;Gerepani
-0;82.2060,28.5426;NP-6;Karnali Pradesh;Syani  Panyari
+0;82.2060,28.5426;NP-6;Karnali Pradesh;Syani Panyari
 0;82.2003,28.5416;NP-6;Karnali Pradesh;Parikanda
 0;82.1937,28.5224;NP-6;Karnali Pradesh;Seripata
 0;82.2011,28.5160;NP-6;Karnali Pradesh;Bharne
@@ -65542,7 +65530,7 @@
 0;81.4021,28.8016;NP-6;Karnali Pradesh;Dab
 0;81.4034,28.7887;NP-6;Karnali Pradesh;Kalapani
 0;81.2251,29.5886;NP-7;Sudurpashchim Pradesh;Ghate Bagar
-0;81.4324,28.8458;NP-6;Karnali Pradesh;Sisne  Galpha
+0;81.4324,28.8458;NP-6;Karnali Pradesh;Sisne Galpha
 0;81.4183,28.8433;NP-6;Karnali Pradesh;Latikanda
 0;81.4259,28.8370;NP-6;Karnali Pradesh;Mathillo Khamari
 0;81.4180,28.8336;NP-6;Karnali Pradesh;Balle
@@ -65612,7 +65600,7 @@
 0;81.1959,28.8588;NP-6;Karnali Pradesh;Jamune
 0;81.1943,28.8500;NP-6;Karnali Pradesh;Bhogedamar
 0;81.1979,28.8499;NP-6;Karnali Pradesh;Malenga
-0;81.1400,28.9298;NP-6;Karnali Pradesh;Gotma]
+0;81.1400,28.9298;NP-6;Karnali Pradesh;Gotma
 0;81.1549,28.9263;NP-6;Karnali Pradesh;Jiruwa
 0;81.1642,28.9243;NP-6;Karnali Pradesh;Dhaute
 0;81.1371,28.9234;NP-6;Karnali Pradesh;Sugurbadhane
@@ -65962,7 +65950,7 @@
 0;81.9668,28.4195;NP-6;Karnali Pradesh;Dalle
 0;81.0944,29.6481;NP-7;Sudurpashchim Pradesh;Nauli
 0;81.9723,28.4154;NP-6;Karnali Pradesh;Tallo Lamidanda
-0;81.9738,28.4070;NP-6;Karnali Pradesh;Mathillo  Lamidanda
+0;81.9738,28.4070;NP-6;Karnali Pradesh;Mathillo Lamidanda
 0;81.9712,28.4043;NP-6;Karnali Pradesh;Dhulchigaira
 0;81.9745,28.4022;NP-6;Karnali Pradesh;Atako
 0;81.9731,28.3970;NP-6;Karnali Pradesh;Timure
@@ -66026,7 +66014,7 @@
 0;81.7286,28.6244;NP-6;Karnali Pradesh;Khalaskate
 0;81.2524,29.3348;NP-7;Sudurpashchim Pradesh;Bilami
 0;81.1478,29.0749;NP-7;Sudurpashchim Pradesh;Khaldanda
-0;81.3166,29.2711;NP-7;Sudurpashchim Pradesh;Suki  Jijyando
+0;81.3166,29.2711;NP-7;Sudurpashchim Pradesh;Suki Jijyando
 0;81.0754,29.6454;NP-7;Sudurpashchim Pradesh;Thakunnada
 0;81.7404,28.6214;NP-6;Karnali Pradesh;Garpan
 0;81.7486,28.6164;NP-6;Karnali Pradesh;Sireni
@@ -66211,7 +66199,7 @@
 0;81.2831,28.8500;NP-6;Karnali Pradesh;Kolgad
 0;81.3063,28.8490;NP-6;Karnali Pradesh;Dabu
 0;81.3137,28.8455;NP-6;Karnali Pradesh;Milan Choak
-0;81.3000,28.8421;NP-6;Karnali Pradesh;Jiunari  Tal
+0;81.3000,28.8421;NP-6;Karnali Pradesh;Jiunari Tal
 0;81.3089,28.8398;NP-6;Karnali Pradesh;Sanneghari
 0;81.2953,28.8354;NP-6;Karnali Pradesh;Raisal
 0;81.3197,28.8476;NP-6;Karnali Pradesh;Biurani
@@ -66375,7 +66363,6 @@
 0;81.7516,28.5169;NP-6;Karnali Pradesh;Pakhapani
 0;81.7507,28.5562;NP-6;Karnali Pradesh;Padampur
 0;81.7551,28.5433;NP-6;Karnali Pradesh;Dhanari
-0;81.7350,28.5008;NP-6;Karnali Pradesh;Purano Ramghat
 0;81.6892,29.5501;NP-7;Sudurpashchim Pradesh;Khopi
 0;81.9040,28.6021;NP-6;Karnali Pradesh;Tallo Nahagaun
 0;81.8970,28.5964;NP-6;Karnali Pradesh;Mathillo Nahagaun (kada)
@@ -66654,7 +66641,6 @@
 0;81.5780,28.6926;NP-6;Karnali Pradesh;Thari
 0;81.7664,29.4702;NP-7;Sudurpashchim Pradesh;Phuklu
 0;81.5979,28.6898;NP-6;Karnali Pradesh;Tusara
-0;81.5850,28.6867;NP-6;Karnali Pradesh;Thari
 0;81.5888,28.6810;NP-6;Karnali Pradesh;Aduwabari
 0;81.5653,28.6699;NP-6;Karnali Pradesh;Sirpata
 0;81.5573,28.6649;NP-6;Karnali Pradesh;Lekgaun
@@ -67291,7 +67277,7 @@
 0;81.9397,28.3986;NP-6;Karnali Pradesh;Nayan Ban
 0;81.9539,28.3956;NP-6;Karnali Pradesh;Juri Chuli
 0;81.9361,28.3953;NP-6;Karnali Pradesh;Chiuri Gauda
-0;81.9176,28.3952;NP-6;Karnali Pradesh;Tallo  Kanda
+0;81.9176,28.3952;NP-6;Karnali Pradesh;Tallo Kanda
 0;81.6894,29.8926;NP-7;Sudurpashchim Pradesh;Dhaulekharka
 0;81.9302,28.3939;NP-6;Karnali Pradesh;Tunichaur
 0;81.9492,28.3937;NP-6;Karnali Pradesh;Bhamchhare
@@ -68129,7 +68115,7 @@
 0;83.9174,28.1640;NP-4;Gandaki Pradesh;Dhunga Gade
 0;83.9169,28.1600;NP-4;Gandaki Pradesh;Karmidanda
 0;83.9271,28.1583;NP-4;Gandaki Pradesh;Seuli Bajar
-0;81.4126,29.5372;NP-7;Sudurpashchim Pradesh;Thanu  Goth
+0;81.4126,29.5372;NP-7;Sudurpashchim Pradesh;Thanu Goth
 0;83.9017,28.1651;NP-4;Gandaki Pradesh;Damgare
 0;83.8923,28.1641;NP-4;Gandaki Pradesh;Lamiswara
 0;83.8974,28.1619;NP-4;Gandaki Pradesh;Sarkigaun
@@ -68200,12 +68186,12 @@
 0;81.4548,29.5419;NP-7;Sudurpashchim Pradesh;Rahari
 0;83.6721,27.9328;NP-4;Gandaki Pradesh;Balpuk
 0;83.6784,27.9486;NP-4;Gandaki Pradesh;Phalang
-0;83.6792,27.9464;NP-4;Gandaki Pradesh;Tallo Galyang  Bajar
+0;83.6792,27.9464;NP-4;Gandaki Pradesh;Tallo Galyang Bajar
 0;83.6833,27.9451;NP-4;Gandaki Pradesh;Bhati
 0;83.6584,27.9465;NP-4;Gandaki Pradesh;Garangdi
 0;83.6533,27.9429;NP-4;Gandaki Pradesh;Thumka
 0;83.6481,27.9418;NP-4;Gandaki Pradesh;Pipal Bhanjyan
-0;83.6720,27.9441;NP-4;Gandaki Pradesh;Galyang  Bajar
+0;83.6720,27.9441;NP-4;Gandaki Pradesh;Galyang Bajar
 0;83.6648,27.9439;NP-4;Gandaki Pradesh;Rip
 0;83.6691,27.9427;NP-4;Gandaki Pradesh;Pakhrek
 0;81.4359,29.5250;NP-7;Sudurpashchim Pradesh;Rajwan Goth
@@ -68948,7 +68934,6 @@
 0;83.8544,28.1361;NP-4;Gandaki Pradesh;Naudanda
 0;83.8702,28.1357;NP-4;Gandaki Pradesh;Majhaswara
 0;83.8582,28.1332;NP-4;Gandaki Pradesh;Thulibesi
-0;83.8661,28.1281;NP-4;Gandaki Pradesh;Haripala
 0;83.8722,28.1274;NP-4;Gandaki Pradesh;Rankos
 0;81.6972,29.4431;NP-7;Sudurpashchim Pradesh;Huni
 0;83.8746,28.0955;NP-4;Gandaki Pradesh;Putalibazar
@@ -68984,7 +68969,6 @@
 0;83.7712,28.0950;NP-4;Gandaki Pradesh;Tinghare
 0;83.7642,28.0949;NP-4;Gandaki Pradesh;Thumki
 0;81.7055,29.4769;NP-7;Sudurpashchim Pradesh;Okhartola
-0;83.7661,28.0920;NP-4;Gandaki Pradesh;Tinghare
 0;83.7600,28.0919;NP-4;Gandaki Pradesh;Sota
 0;83.7657,28.0878;NP-4;Gandaki Pradesh;Chhapkharka
 0;83.7577,28.1060;NP-4;Gandaki Pradesh;Rapakot
@@ -69289,7 +69273,6 @@
 0;83.9550,28.1273;NP-4;Gandaki Pradesh;Pokhariswara
 0;83.9877,28.1278;NP-4;Gandaki Pradesh;Dangling
 0;83.9950,28.1276;NP-4;Gandaki Pradesh;Acharya
-0;84.0005,28.1319;NP-4;Gandaki Pradesh;Acharya
 0;81.5023,29.4860;NP-7;Sudurpashchim Pradesh;Chosyankot
 0;83.9441,28.1087;NP-4;Gandaki Pradesh;Hudi Bhanjyang
 0;83.9596,28.1079;NP-4;Gandaki Pradesh;Mulabari
@@ -69386,7 +69369,7 @@
 0;83.6933,27.9381;NP-4;Gandaki Pradesh;Bannedanda
 0;83.6966,27.9322;NP-4;Gandaki Pradesh;Kamlang
 0;83.7031,27.9501;NP-4;Gandaki Pradesh;Belauti Chhap
-0;83.6978,27.9483;NP-4;Gandaki Pradesh;Tulsi  Bhanjyang
+0;83.6978,27.9483;NP-4;Gandaki Pradesh;Tulsi Bhanjyang
 0;83.6957,27.9446;NP-4;Gandaki Pradesh;Saunepani
 0;83.7044,27.9326;NP-4;Gandaki Pradesh;Karamchaur
 0;81.4277,29.4287;NP-7;Sudurpashchim Pradesh;Odal
@@ -69421,7 +69404,7 @@
 0;83.7467,27.9872;NP-4;Gandaki Pradesh;Kalleri
 0;83.7429,27.9856;NP-4;Gandaki Pradesh;Gaswanra
 0;83.7778,27.9677;NP-4;Gandaki Pradesh;Agridanda
-0;81.4163,29.4354;NP-7;Sudurpashchim Pradesh;Tallo  Pata
+0;81.4163,29.4354;NP-7;Sudurpashchim Pradesh;Tallo Pata
 0;83.7840,27.9641;NP-4;Gandaki Pradesh;Byangtung
 0;83.7939,27.9623;NP-4;Gandaki Pradesh;Bharuwa
 0;83.7714,27.9568;NP-4;Gandaki Pradesh;Garhau Kalika Temple
@@ -69685,7 +69668,6 @@
 0;84.3052,27.8534;NP-4;Gandaki Pradesh;Ghyasingbas
 0;81.7558,29.4545;NP-7;Sudurpashchim Pradesh;Ghattepata
 0;84.3150,27.8494;NP-4;Gandaki Pradesh;Kusunde
-0;84.3106,27.8452;NP-4;Gandaki Pradesh;Kusunde
 0;84.2998,27.8328;NP-4;Gandaki Pradesh;Khalte
 0;84.3157,27.8594;NP-4;Gandaki Pradesh;Talbari
 0;84.3100,27.8562;NP-4;Gandaki Pradesh;Sanu Bhanjyang
@@ -71919,7 +71901,7 @@
 0;84.3406,28.0872;NP-4;Gandaki Pradesh;Ambote
 0;84.3301,28.0835;NP-4;Gandaki Pradesh;Baniyagaun
 0;84.3365,28.0928;NP-4;Gandaki Pradesh;Barkholagaun
-0;81.7335,29.5981;NP-7;Sudurpashchim Pradesh;Kaphalkhanda  Goth
+0;81.7335,29.5981;NP-7;Sudurpashchim Pradesh;Kaphalkhanda Goth
 0;84.3298,28.0863;NP-4;Gandaki Pradesh;Asimure
 0;84.3376,28.0862;NP-4;Gandaki Pradesh;Tinghare
 0;84.3377,28.0820;NP-4;Gandaki Pradesh;Chanaute
@@ -72776,7 +72758,7 @@
 0;87.5284,27.1710;NP-1;Koshi;Dhunge Sangu
 0;87.5159,27.1691;NP-1;Koshi;Patigaun
 0;87.5201,27.1820;NP-1;Koshi;Ambun
-0;87.5314,27.1754;NP-1;Koshi;Ambung  Puchhar
+0;87.5314,27.1754;NP-1;Koshi;Ambung Puchhar
 0;87.5369,27.1732;NP-1;Koshi;Halimela
 0;87.5080,27.1911;NP-1;Koshi;Phamphewa
 0;87.5211,27.1874;NP-1;Koshi;Dandagaun
@@ -73784,7 +73766,7 @@
 0;86.7650,26.7749;NP-1;Koshi;Kathitol
 0;86.7721,26.7713;NP-1;Koshi;Baluwai
 0;86.7707,26.7679;NP-1;Koshi;Habeli
-0;81.6996,28.0176;NP-5;Lumbini Province;Uchawa  Japharpurwa
+0;81.6996,28.0176;NP-5;Lumbini Province;Uchawa Japharpurwa
 0;86.7732,26.7677;NP-1;Koshi;Paschim Jogidaha
 0;86.7615,26.7703;NP-1;Koshi;Bairagitol
 0;86.7679,26.7631;NP-1;Koshi;Khoriyatol
@@ -75030,7 +75012,7 @@
 0;81.5988,28.1209;NP-5;Lumbini Province;Amritpur
 0;81.2779,29.2862;NP-7;Sudurpashchim Pradesh;Golaghat
 0;81.6110,28.1125;NP-5;Lumbini Province;Shiva Nagar
-0;81.6049,28.1067;NP-5;Lumbini Province;Khajura  Khurd
+0;81.6049,28.1067;NP-5;Lumbini Province;Khajura Khurd
 0;81.6054,28.0982;NP-5;Lumbini Province;Manpur
 0;81.5928,28.1156;NP-5;Lumbini Province;Almalpurwa
 0;81.5946,28.1077;NP-5;Lumbini Province;Khajurakala
@@ -75248,7 +75230,7 @@
 0;81.6260,28.0472;NP-5;Lumbini Province;Khatkanpurwa
 0;81.6260,28.0450;NP-5;Lumbini Province;Pirlipurwa
 0;81.6316,28.0524;NP-5;Lumbini Province;Bulbuliya
-0;81.6275,28.0647;NP-5;Lumbini Province;Gharbari  Tol
+0;81.6275,28.0647;NP-5;Lumbini Province;Gharbari Tol
 0;81.1342,29.2230;NP-7;Sudurpashchim Pradesh;Jukekholagaun
 0;81.6354,28.0665;NP-5;Lumbini Province;Ganeshpur
 0;81.6402,28.0626;NP-5;Lumbini Province;Phultekra
@@ -75609,7 +75591,6 @@
 0;84.8932,26.9762;NP-2;Madhesh;Musahrwa
 0;84.8956,26.9849;NP-2;Madhesh;Musaharwa
 0;85.0988,26.8750;NP-2;Madhesh;Lachhumanawa
-0;85.0979,26.8778;NP-2;Madhesh;Lachhumanawa
 0;85.0941,26.8987;NP-2;Madhesh;Kisunpur
 0;85.1480,26.9870;NP-2;Madhesh;Bisunpurwa
 0;85.1567,26.9974;NP-2;Madhesh;Daurawa
@@ -75718,7 +75699,7 @@
 0;85.1486,26.9503;NP-2;Madhesh;Bhagaha
 0;85.1542,26.9365;NP-2;Madhesh;Harnahiya
 0;85.1520,26.9473;NP-2;Madhesh;Bhatiniyan
-0;85.1380,26.9427;NP-2;Madhesh;Inarwa  Mal
+0;85.1380,26.9427;NP-2;Madhesh;Inarwa Mal
 0;85.1399,26.9321;NP-2;Madhesh;Laksmipur Koilidih
 0;84.9805,27.1052;NP-2;Madhesh;Goth
 0;81.2606,29.1327;NP-7;Sudurpashchim Pradesh;Pipaltoli
@@ -75885,7 +75866,6 @@
 0;85.1031,26.9905;NP-2;Madhesh;Belahi
 0;85.1044,27.0097;NP-2;Madhesh;Narahi
 0;85.0960,27.0165;NP-2;Madhesh;Sirsiya
-0;85.0950,27.0037;NP-2;Madhesh;Auniya
 0;85.2044,27.1847;NP-2;Madhesh;Majhitol
 0;85.2055,27.1790;NP-2;Madhesh;Tallo Yojanatol
 0;85.1959,27.2149;NP-2;Madhesh;Purbatol
@@ -86408,30 +86388,6 @@
 0;80.8148,29.1262;NP-7;Sudurpashchim Pradesh;Hãnegāũ
 0;88.1306,26.9382;NP-1;Koshi;Hile Bhañjyāṅ
 0;88.1316,26.8777;NP-1;Koshi;Antuḍā̃ḍā
-0;85.5275,27.1835;NP-3;Bagmati Province;Besi Tole Fishery Pond, Hariharpur-6
-0;85.8382,27.2516;NP-3;Bagmati Province;Chisapani Fishery Pond, Kamalamai-1
-0;85.8584,27.3040;NP-3;Bagmati Province;Simle Khola Fishery Pond, Ghyanglekh-1
-0;85.8480,27.3106;NP-3;Bagmati Province;Khattar Water Source Protection, Ghyanglekh-1
-0;85.7630,27.2041;NP-3;Bagmati Province;Jyamire Badala Chisapani Water Source Protection, Marin RM-5
-0;84.9977,27.4360;NP-3;Bagmati Province;PSC Meeting
-0;85.9126,27.2314;NP-3;Bagmati Province;PCC Meeeting, Kamalamai-4
-0;85.9129,27.2110;NP-3;Bagmati Province;Kamalamai Planning Working Workshop, Kamalamai-6
-0;85.7295,27.2635;NP-3;Bagmati Province;Marin RM Planning Workshop, Marin
-0;85.4983,27.2336;NP-3;Bagmati Province;Hariharpurgadhi RM Planning Workshop, Hariharpurgadhi
-0;85.8120,27.3196;NP-3;Bagmati Province;Ghyanglekh RM Planning Workshop, Gyanglekh-1
-0;85.5869,27.1689;NP-3;Bagmati Province;Kyan Sub-watershed planning workshop, Hariharpurgadhi
-0;85.8581,27.3168;NP-3;Bagmati Province;Simle Sub-watershed Planning workshop, Gyanglekh-1
-0;85.8605,27.2571;NP-3;Bagmati Province;DHungajor sub-watershed planning workshop, Kamalamai-1
-0;85.7646,27.2491;NP-3;Bagmati Province;Phulbari Sub-watershed planning workshop, Marin RM-5
-0;85.8133,27.2148;NP-3;Bagmati Province;Ghagar sub-watershed planning workshop, Kamalamai-1
-0;85.6309,27.2786;NP-3;Bagmati Province;Jalkeni Sakhauri sub-watershed planning workshop, Marin RM-2
-0;85.7476,27.2614;NP-3;Bagmati Province;Nursery support to DFO Marin
-0;85.9127,27.2058;NP-3;Bagmati Province;Nursery support to DFO Sindhuli
-0;86.5023,27.3159;NP-1;Koshi;Annual review and planning workshop, Okhaldhunga
-0;85.8559,27.2563;NP-3;Bagmati Province;Stakeholders consultations to validate and finalize project activities and sites
-0;85.8516,27.3064;NP-3;Bagmati Province;Assess trainings needs and, accordingly, develop curricula and materials , Gyanglekh-1
-0;85.9159,27.2124;NP-3;Bagmati Province;Participatory Assessment by consultancy, MaWRiN Project
-0;85.9159,27.2124;NP-3;Bagmati Province;Training Need Assessment by Consultancy, MaWRiN Project, PMU Office
 0;85.6087,27.4334;NP-3;Bagmati Province;Lokpā
 0;86.2032,27.0927;NP-3;Bagmati Province;Āmboṭe
 0;84.8195,28.0135;NP-3;Bagmati Province;Salyānṭār
@@ -86553,147 +86509,4 @@
 0;84.8926,27.5138;NP-3;Bagmati Province;Sunārswā̃rā
 0;85.1622,27.3899;NP-3;Bagmati Province;Belḍā̃ḍā
 0;82.7286,27.8304;NP-5;Lumbini Province;Deukhurī
-0;85.8892,27.2564;NP-3;Bagmati Province;Promotion for commercial production of high value/climate-resilient varieties of seeds and seedlings in collaboration with the private sectors/cooperatives, Dhungajor Sub-watershed
-0;85.7722,27.2472;NP-3;Bagmati Province;Promotion for commercial production of high value/climate-resilient varieties of seeds and seedlings in collaboration with the private sectors/cooperatives, Phulbari sub-watershed
-0;85.8098,27.2461;NP-3;Bagmati Province;Riverbank protection/ degraded land restoration through bamboo including vetiver/plantation/fencing/bioengineering
-0;85.8463,27.3195;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support
-0;85.8658,27.3250;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support,
-0;85.8419,27.3103;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support, Ranibaas CF, Ghyanglekh-1
-0;85.8699,27.3069;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support, Jhalkane CF
-0;85.8439,27.2490;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support, Jalwa CFUG
-0;85.8329,27.2493;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support, Betjhori CF
-0;85.8140,27.2482;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support, Saalghari CF, Kamlamai-1
-0;85.8235,27.2630;NP-3;Bagmati Province;Riverbank protection-Dhungajor Sub Watershed-Kafletar kanapa 1
-0;85.7509,27.2495;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support, Beteni, Marin-5
-0;85.8352,27.2485;NP-3;Bagmati Province;Riverbank protection-Dhungajor Sub Watershed-Hatibanda khahare Kamalamai 1
-0;85.8122,27.2184;NP-3;Bagmati Province;Riverbank protection-Gaghar Sub Watershed-Beltar khola kanapa 1
-0;85.7929,27.2422;NP-3;Bagmati Province;Riverbank protection-Gaghar Sub Watershed-Ghagar khola Marin 5
-0;85.8007,27.1898;NP-3;Bagmati Province;Riverbank protection-Gaghar Sub Watershed-Goth khola Tindoman kanapa 1
-0;85.8140,27.2099;NP-3;Bagmati Province;Riverbank protection-Gaghar Sub Watershed-Sirutar , Kanapa 1
-0;85.5290,27.2565;NP-3;Bagmati Province;Riverbank protection-Jalkeni Sakhauri Sub Watershed-Dhanaman khola Hariharpurgadi 4
-0;85.5670,27.2832;NP-3;Bagmati Province;Riverbank protection-Jalkeni Sakhauri Sub Watershed-Tamajor Khola, Hariharpurgadi 5
-0;85.7485,27.2334;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support, Laligurans CF, Marin-4
-0;85.6028,27.2805;NP-3;Bagmati Province;Riverbank protection-Jalkeni Sakhauri Sub Watershed-Chatiwan (Sindure Khola) Marin 2
-0;85.5653,27.2825;NP-3;Bagmati Province;Riverbank protection-Jalkeni Sakhauri Sub Watershed-Mahadeb syantan phat, Tamajor , Hariharpurgadi 5
-0;85.7241,27.2319;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support, Janakalyan CF, Marin-4
-0;85.5469,27.2715;NP-3;Bagmati Province;Riverbank protection-Jalkeni Sakhauri Sub Watershed-Bagauli khola simalpur Hariharpurgadi 4
-0;85.6775,27.2702;NP-3;Bagmati Province;Riverbank protection-Jalkeni Sakhauri Sub Watershed-Thulo garduha, Marin 2
-0;85.6039,27.2797;NP-3;Bagmati Province;Riverbank protection-Jalkeni Sakhauri Sub Watershed-Sindure Khola Marin 2 (Barkhe)
-0;85.5861,27.1660;NP-3;Bagmati Province;Riverbank protection-Kyan Sub Watershed-Bimire Chauri Hariharpurgadi 7
-0;85.6520,27.2029;NP-3;Bagmati Province;Riverbank protection-Kyan Sub Watershed-Dhoka khola Marin 3
-0;85.5882,27.1574;NP-3;Bagmati Province;Riverbank protection-Kyan Sub Watershed-Patharahi Khola Nayabasti Hariharpurgadi 7
-0;85.5362,27.1815;NP-3;Bagmati Province;Riverbank protection-Kyan Sub Watershed-Ragedoban Hariharpurgadi 6
-0;85.5761,27.1798;NP-3;Bagmati Province;Riverbank protection-Kyan Sub Watershed-Hariharpurgadi 8 Waiba kholsi moktan tol
-0;85.5858,27.1599;NP-3;Bagmati Province;Riverbank protection-Kyan Sub Watershed-Patharahi khola Hariharpurgadi 8
-0;85.7501,27.2494;NP-3;Bagmati Province;Riverbank protection-Phulbari Sub Watershed-Betini kholsi Marin 5
-0;85.8916,27.2581;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support, Jyamire, Kamalamai-4
-0;85.7358,27.2240;NP-3;Bagmati Province;Riverbank protection-Phulbari Sub Watershed-Lamidamar Marin 4 (Kaltan tole)
-0;85.7784,27.2394;NP-3;Bagmati Province;Riverbank protection-Phulbari Sub Watershed-Badala kholsi Marin 5 Lower Part
-0;85.7784,27.2394;NP-3;Bagmati Province;Riverbank protection-Phulbari Sub Watershed-Badala kholsi Marin 5 (Upper part)
-0;85.7228,27.2444;NP-3;Bagmati Province;Riverbank protection-Phulbari Sub Watershed-Dhakdhake, Marin 4
-0;85.6775,27.2702;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support, Darbardada CFUG, Marin-2
-0;85.6191,27.2031;NP-3;Bagmati Province;Riverbank protection-Kyan Sub Watershed-Deuta khola Marin 3
-0;85.8530,27.3144;NP-3;Bagmati Province;Riverbank protection-Simle Sub Watershed-Simle khola, Ghyanglekh 1
-0;85.8574,27.3041;NP-3;Bagmati Province;Riverbank protection-Simle Sub Watershed-Bhimsintar Ghyanglekh 1
-0;85.8585,27.3040;NP-3;Bagmati Province;Riverbank protection-Simle Sub Watershed-sulsule pakha Ghyanglekh 1
-0;85.8481,27.3137;NP-3;Bagmati Province;Riverbank protection-Simle Sub Watershed-Tin Ghare, Ghanglekh 1
-0;85.8106,27.2325;NP-3;Bagmati Province;Check dams-Gaghar Sub Watershed-Bhalu khola kamalamai 1
-0;85.8023,27.2460;NP-3;Bagmati Province;Check dams-Dhungajor Sub Watershed-Kamalamai 1 Jakhani Naya basti
-0;85.7884,27.2463;NP-3;Bagmati Province;Check dams-Gaghar Sub Watershed-Badimuhan khahare , Marin 5
-0;85.8007,27.1898;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support, Triveni CFUG, Kamalamai-1
-0;85.7887,27.2457;NP-3;Bagmati Province;Check dams-Gaghar Sub Watershed-Betini kholsi Marin 5
-0;85.8137,27.2472;NP-3;Bagmati Province;Check dams-Dhungajor Sub Watershed-Kamalamai 1 Badripur
-0;85.6809,27.2911;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support, Tudikhel CFUG, Marin-1
-0;85.6784,27.2730;NP-3;Bagmati Province;Check dams-Jalkeni Sakhauri Sub Watershed-Darbar kholsi, Marin 2
-0;85.6139,27.2715;NP-3;Bagmati Province;Check dams-Jalkeni Sakhauri Sub Watershed-Ramaul kholsi, Banka Tole, Marin 2
-0;85.6053,27.2766;NP-3;Bagmati Province;Check dams-Jalkeni Sakhauri Sub Watershed-Supari kholsi Marin 2
-0;85.5547,27.2762;NP-3;Bagmati Province;Check dams-Jalkeni Sakhauri Sub Watershed-Basudeb kholsi Hariharpurgadi 4
-0;85.5709,27.1760;NP-3;Bagmati Province;Check dams-Kyan Sub Watershed-Wangel kholsi Hariharpurgadi 8
-0;85.6386,27.1964;NP-3;Bagmati Province;Check dams-Kyan Sub Watershed-Bhitri Kholsi, Marin 3
-0;85.7523,27.2425;NP-3;Bagmati Province;Check dams-Phulbari Sub Watershed-Taruni kholsa Marin 5
-0;85.8323,27.2504;NP-3;Bagmati Province;Construction of the dugout well for irrigation and domestic purposes, Majhenidamar
-0;85.7362,27.1956;NP-3;Bagmati Province;Check dams-Phulbari Sub Watershed-Phulbari sir Marin 4
-0;85.7364,27.1922;NP-3;Bagmati Province;Check dams-Phulbari Sub Watershed-fulbari chure Marin 4
-0;85.5989,27.1677;NP-3;Bagmati Province;Check dams-Kyan Sub Watershed-Lungeli Kholsi Hariharpurgadi 7
-0;85.7718,27.2452;NP-3;Bagmati Province;Construction of the dugout well for irrigation and domestic purposes, Ghata Marin-5
-0;85.7269,27.2437;NP-3;Bagmati Province;Construction of the dugout well for irrigation and domestic purposes, Marin-4
-0;85.6612,27.2146;NP-3;Bagmati Province;Check dams-Kyan Sub Watershed-Falichure kholsi Marin 3
-0;85.8467,27.3204;NP-3;Bagmati Province;Check dams-Simle Sub Watershed-sukha Chauri school tole Ghyanglekh 1
-0;85.6998,27.2573;NP-3;Bagmati Province;Construction of the dugout well for irrigation and domestic purposes, Prasai Tole, Marin-4
-0;85.5811,27.1652;NP-3;Bagmati Province;Check dams-Kyan Sub Watershed-Tilbari kholsi Hariharpurgadi 8
-0;85.7600,27.2481;NP-3;Bagmati Province;Check dams-Phulbari Sub Watershed-Dumre khola , Marin 5
-0;85.8111,27.2097;NP-3;Bagmati Province;Conservation ponds -Gaghar Sub Watershed-Kasai danda kamalamai 1
-0;85.6209,27.2953;NP-3;Bagmati Province;Conservation ponds -Jalkeni Sakhauri Sub Watershed-Samari kholsi Marin 2
-0;85.6263,27.2917;NP-3;Bagmati Province;Conservation ponds -Jalkeni Sakhauri Sub Watershed-Sarpe khola Marin 2
-0;85.5660,27.2881;NP-3;Bagmati Province;Conservation ponds -Jalkeni Sakhauri Sub Watershed-Tudke phat... Hariharpurgadi 5
-0;85.5466,27.2663;NP-3;Bagmati Province;Conservation ponds -Jalkeni Sakhauri Sub Watershed-Lowaso Hariharpurgadi 4
-0;85.5977,27.1562;NP-3;Bagmati Province;Conservation ponds -Kyan Sub Watershed-Mathilo patharahi Hariharpurgadi 7
-0;85.6455,27.1691;NP-3;Bagmati Province;Conservation ponds -Kyan Sub Watershed-Bhutaha Hariharpurgadi 7
-0;85.5645,27.2833;NP-3;Bagmati Province;Fish Pond-Jalkeni Sakhauri Sub Watershed-Mahadeb phat Hariharpurgadi 5
-0;85.5858,27.1577;NP-3;Bagmati Province;Fish Pond-Kyan Sub Watershed-Damai Pakha Hariharpurgadi 8
-0;85.7891,27.2509;NP-3;Bagmati Province;Irrigation canals-Gaghar Sub Watershed-Badimuhan ,Marin 5
-0;85.8405,27.2529;NP-3;Bagmati Province;Irrigation canals-Dhungajor Sub Watershed-kamalamai 1 Darbetar Chisapani
-0;85.8463,27.2456;NP-3;Bagmati Province;Irrigation canals-Dhungajor Sub Watershed-Jalewa kanapa 1
-0;85.5290,27.2565;NP-3;Bagmati Province;Irrigation canals-Jalkeni Sakhauri Sub Watershed-Dhanaman khola Hariharpurgadi 4
-0;85.7198,27.2457;NP-3;Bagmati Province;Irrigation canals-Phulbari Sub Watershed-Paari Jute paani , Marin 4
-0;85.6809,27.2911;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support Namobuddha CFUG
-0;85.5670,27.2832;NP-3;Bagmati Province;Irrigation canals-Jalkeni Sakhauri Sub Watershed-Tamajor Khola.. Hariharpurgadi 5
-0;85.5854,27.1615;NP-3;Bagmati Province;Irrigation canals-Kyan Sub Watershed-Patharahiphat irrigation system Hariharpurgadi 8
-0;85.7591,27.2521;NP-3;Bagmati Province;Irrigation canals-Phulbari Sub Watershed-Betini sichai kulo Marin 5
-0;85.8628,27.3016;NP-3;Bagmati Province;Irrigation canals-Simle Sub Watershed-Simle khola Ghanglekh 1
-0;85.8560,27.3114;NP-3;Bagmati Province;Irrigation canals-Simle Sub Watershed-khani khola Ghyanglekh 1
-0;85.5645,27.2833;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support Himal CFUG
-0;85.8015,27.1831;NP-3;Bagmati Province;Restoration and protection of water sources /springs -Gaghar Sub Watershed-Thunuwa dhap kamalamai 1
-0;85.8390,27.2488;NP-3;Bagmati Province;Restoration and protection of water sources /springs -Dhungajor Sub Watershed-Kamalamai 1 Darbetar
-0;85.5660,27.2881;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support Hariyali CFUG
-0;85.6139,27.2715;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support Janheet CFUG
-0;85.6526,27.3133;NP-3;Bagmati Province;Restoration and protection of water sources /springs -Jalkeni Sakhauri Sub Watershed-Simal damar , Marin 2
-0;85.6581,27.2880;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support Ektasamari CFUG
-0;85.5349,27.1789;NP-3;Bagmati Province;Restoration and protection of water sources /springs -Kyan Sub Watershed-Rangidoban Hariharpurgadi 6
-0;85.8469,27.2451;NP-3;Bagmati Province;Sub-surface water harvesting and distribution-Dhungajor Sub Watershed-Jaleba khahare kanapa 1
-0;85.5646,27.2918;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support Lohasur CFUG
-0;85.8755,27.2537;NP-3;Bagmati Province;Sub-surface water harvesting and distribution-Dhungajor Sub Watershed-Maiti khola kamalamai 4
-0;85.5321,27.1803;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support Siddhartha CFUG
-0;85.6020,27.2810;NP-3;Bagmati Province;Sub-surface water harvesting and distribution-Jalkeni Sakhauri Sub Watershed-Hille khola , Marin 2
-0;85.7198,27.2457;NP-3;Bagmati Province;Sub-surface water harvesting and distribution-Phulbari Sub Watershed-Paari Jute paani , Marin 4
-0;85.5858,27.1599;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support Pathrahi CFUG
-0;85.5761,27.1797;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support Simkali CFUG
-0;85.6612,27.2146;NP-3;Bagmati Province;Upgradation of animal sheds for improved management of farmyard manure and stall feeding with fodder support Jan Kalyan CFUG
-0;85.8007,27.1898;NP-3;Bagmati Province;Renewal of CFOP, Triveni CF
-0;85.6475,27.1605;NP-3;Bagmati Province;Conservation ponds -Kyan Sub Watershed-Masino Khola, Tenjenbaari Hariharpurgadi 7
-0;85.5584,27.2408;NP-3;Bagmati Province;Renewal of CFOP, Salghari CF, Hariharpurgadi-4
-0;85.9213,27.2417;NP-3;Bagmati Province;Renewal of CFOP, Chyaukot CF
-0;85.8835,27.2163;NP-3;Bagmati Province;Renewal of CFOP, Kalikadevi CF
-0;85.9317,27.2447;NP-3;Bagmati Province;Renewal of CFOP, Gwang devi CF
-0;85.8997,27.1672;NP-3;Bagmati Province;Renewal of CFOP, Kamalamata CF
-0;85.9337,27.2515;NP-3;Bagmati Province;Renewal of CFOP, Jaldevi CF
-0;85.8914,27.2890;NP-3;Bagmati Province;Renewal of CFOP, Barahidevi CF
-0;85.5645,27.2833;NP-3;Bagmati Province;Fishery Pond of Mahadevfaat
-0;85.9137,27.2057;NP-3;Bagmati Province;Renewal of CFOP, Kamala CF
-0;85.5645,27.2833;NP-3;Bagmati Province;Fishery pond Mahadevphat HR-5
-0;85.5536,27.2874;NP-3;Bagmati Province;Commercial Farming of Tulsi Lagubitta Group
-0;85.5009,27.2313;NP-3;Bagmati Province;Developmental of grazing control and management plan, Mahendrajhyadi SDFO
-0;85.3243,27.6912;NP-3;Bagmati Province;PSC & PMU meeting & National Level Project Inception | DNPWC
-0;85.7037,27.2546;NP-3;Bagmati Province;Development of grazing control and management plan, Kalpabrikshya SDFO
-0;85.7296,27.2646;NP-3;Bagmati Province;Development of grazing control and management plan, Kapilakot SDFO
-0;85.8667,27.2594;NP-3;Bagmati Province;Developmental of grazing control and management plan, Mahadevsthan SDFO
-0;85.9590,27.2106;NP-3;Bagmati Province;Renewal of CFOP, Harithakur CF
-0;84.9110,27.2510;NP-2;Madhesh;Renewal of CFOP, Dhara bhanjhyang CF
-0;85.9089,27.2435;NP-3;Bagmati Province;Development of CFOP, Dhara Bhanjhyang CF
-0;85.8750,27.2799;NP-3;Bagmati Province;Renewal of CFOP Marin Thakur CF
-0;85.8810,27.2891;NP-3;Bagmati Province;Renewal of CFOP Maiwale CF
-0;85.8769,27.2397;NP-3;Bagmati Province;Compost Enterprises, Nawadurga CF
-0;85.9175,27.2762;NP-3;Bagmati Province;Construction of 13 recharge pits, Kalika devi CF
-0;85.9150,27.2747;NP-3;Bagmati Province;Construction of 13 recharge pits, Kalikadevi CF
-0;85.8700,27.2326;NP-3;Bagmati Province;Construction of 13 recharge pits, Nawadurga CF
-0;85.8798,27.2634;NP-3;Bagmati Province;Construction of 13 recharge pits, Panchakanya CF
-0;85.8795,27.2483;NP-3;Bagmati Province;Construction of 13 recharge pits, chure deurali CF
-0;85.9009,27.2823;NP-3;Bagmati Province;Construction of 13 recharge pits, Barahi devi CF
-0;85.9027,27.2488;NP-3;Bagmati Province;Fencing at Saatpatre CF
-0;85.9129,27.2066;NP-3;Bagmati Province;Compound wall construction at Siddheswor Forest Nursery
-0;85.9015,27.2703;NP-3;Bagmati Province;Fireline construction at Barahi devi CF
-0;85.8883,27.2490;NP-3;Bagmati Province;Fireline construction at Jaldevi CF
-0;85.8858,27.2442;NP-3;Bagmati Province;Fireline construction at Chure deurali CF
-0;85.8868,27.2613;NP-3;Bagmati Province;Fireline construction at Panchakanya CF
-0;85.9164,27.2794;NP-3;Bagmati Province;Fireline construction at Kalika devi CF
 0;85.4328,27.6872;NP-3;Bagmati Province;Milli̇̄

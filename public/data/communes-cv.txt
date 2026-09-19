@@ -485,7 +485,7 @@
 65;-25.1090,17.1154;CV-07;Ribeira Grande;Agriões
 0;-25.0917,17.1471;CV-07;Ribeira Grande;Vista
 123;-25.1644,17.0155;CV-21;Porto Novo;Vascona
-0;-25.0843,17.0424;CV-21;Porto Novo;Chã de  Alecrim
+0;-25.0843,17.0424;CV-21;Porto Novo;Chã de Alecrim
 34;-25.2197,17.0453;CV-21;Porto Novo;Covada Larga
 26;-25.0406,17.1675;CV-07;Ribeira Grande;Ciano
 21;-25.1118,17.1357;CV-07;Ribeira Grande;Chã de Baixo

@@ -669,7 +669,7 @@ lt;Temukas;Temuco
 uk;Темуко;Temuco
 sr;Темуко;Temuco
 bg;Темуко;Temuco
-mk;Тeмуко;Temuco
+mk;Темуко;Temuco
 ml;ടെമ്യൂകോ;Temuco
 sgs;Temuks;Temuco
 hy;Տեմուկո;Temuco
@@ -1034,7 +1034,7 @@ fa;کانستیتسیون، شیلی;Constitución
 sr;Конститусјон;Constitución
 fa;کانکن، شیلی;Concón
 sr;Конкон;Concón
-ab;Консeпcион;Concepción
+ab;Консепсион;Concepción
 am;ኮንሴፕሲዮን;Concepción
 az;Konsepsion;Concepción
 sgs;Konsepsjuons;Concepción
@@ -1042,7 +1042,7 @@ be;Кансепсьён;Concepción
 bg;Консепсион;Concepción
 bxr;Консепсьон;Concepción
 crh;Konsepsyon;Concepción
-cv;Консепçион;Concepción
+cv;Консепҫион;Concepción
 el;Κονσεπσιόν;Concepción
 fa;کنسپسیون، شیلی;Concepción
 he;קונספסיון;Concepción
@@ -1058,7 +1058,7 @@ mn;Консепшон;Concepción
 mr;कन्सेप्सियान;Concepción
 mrj;Консепсьон;Concepción
 os;Консепсьон;Concepción
-rue;Конceпсіон;Concepción
+rue;Консепсіон;Concepción
 sah;Консепсьон;Concepción
 sr;Консепсион;Concepción
 ta;கன்செப்சியான்;Concepción

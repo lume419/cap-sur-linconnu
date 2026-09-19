@@ -79,10 +79,13 @@
     <div class="eyebrow"><span class="dot"></span><span data-i18n="hero.eyebrow">Générateur de road trip mystère</span></div>
     <h1 class="title"><span data-i18n="hero.title">Cap sur l'inconnu</span><em data-i18n="hero.subtitle">votre prochaine escapade n'a pas encore de nom</em></h1>
     <p class="lede" data-i18n="hero.lede">Renseignez votre point de départ et vos contraintes. La machine tire au sort un itinéraire réel jour par jour — jusqu'à 21 jours et 15 villes.</p>
-    <p class="disclaimer" data-i18n="hero.disclaimer">Communes, distances, péages et points d'intérêt reposent sur des données officielles (IGN/GeoNames, guides tarifaires des sociétés d'autoroutes, OpenStreetMap). Les temps de trajet et prix restent des estimations — vérifiez toujours l'itinéraire réel et la disponibilité des hébergements avant de partir.</p>
+    <p class="disclaimer" data-i18n="hero.disclaimer">Lieux, points d'intérêt et barèmes de péage proviennent de sources officielles ou ouvertes (IGN/GeoNames, guides tarifaires des sociétés d'autoroutes, OpenStreetMap). Distances, temps de trajet, péages et prix sont des estimations — vérifiez toujours l'itinéraire réel et la disponibilité des hébergements avant de partir.</p>
   </header>
 
   <p class="load-error" id="load-error" role="alert"></p>
+
+  <!-- Repère principal (11e audit) : formulaire, tirage, carte, journal de bord, sac à préparer. -->
+  <main class="main" id="main">
 
   <!-- novalidate (10e audit du 18/09/2026) : la validation native (step/min/max) bloquait l'envoi avec une bulle dans la
        langue du NAVIGATEUR et empêchait #dates-error de s'afficher. La validation est faite par app.js, traduite. -->
@@ -97,7 +100,7 @@
         <label for="city" data-i18n="form.city.label">Ville de départ</label>
         <div class="suggest-wrap">
           <input type="text" id="city" placeholder="Chargement des communes…" data-i18n-placeholder="form.city.loadingPlaceholder" disabled autocomplete="off" aria-required="true"
-                 aria-describedby="city-error" role="combobox" aria-autocomplete="list"
+                 role="combobox" aria-autocomplete="list"
                  aria-expanded="false" aria-controls="city-suggest" />
           <ul class="suggest-list" id="city-suggest" role="listbox"></ul>
         </div>
@@ -118,11 +121,11 @@
       <div class="field">
         <label for="budget" data-i18n="form.budget.label">Budget global</label>
         <select id="budget">
-          <option value="economique" data-i18n="form.budget.economique">Économique</option>
-          <option value="moyen" selected data-i18n="form.budget.moyen">Moyen</option>
-          <option value="confortable" data-i18n="form.budget.confortable">Confortable</option>
+          <option value="economique">Économique — hôtel 2★ ou auberge</option>
+          <option value="moyen" selected>Moyen — hôtel 3-4★</option>
+          <option value="confortable">Confortable — hôtel 5★</option>
         </select>
-        <span class="field-hint" id="budget-hint">Jusqu'à 130 € / nuit (indicatif, 2 adultes) — utilisé pour préremplir les recherches Airbnb/Booking.</span>
+        <span class="field-hint" id="budget-hint">Jusqu'à 150 € / nuit (indicatif, 2 adultes) — utilisé pour préremplir les recherches Airbnb/Booking.</span>
       </div>
 
       <div class="field">
@@ -262,6 +265,8 @@
         <span data-i18n="form.launch.button">Lancer le générateur de road trip aléatoire</span>
       </button>
       <span class="launch-hint" data-i18n="form.launch.hint">Une destination secrète vous attend.</span>
+      <!-- Erreurs du tirage qui ne concernent aucun champ (quota, serveur occupé, délai, aucun itinéraire) : voir showFormError. -->
+      <p class="form-error" id="form-error" role="alert"></p>
     </div>
   </form>
 
@@ -287,7 +292,7 @@
   </section>
 
   <section class="map-card" id="map-card">
-    <h3 data-i18n="map.title">Carte du parcours</h3>
+    <h2 data-i18n="map.title">Carte du parcours</h2>
     <div class="map-wrap" id="map-wrap"></div>
     <p class="map-note" data-i18n="map.note">Fond de carte OpenStreetMap. Points positionnés aux coordonnées réelles des communes — le tracé relie les étapes à vol d'oiseau, la route suivie serpente davantage.</p>
   </section>
@@ -324,6 +329,7 @@
   <div class="again-row" id="again-row">
     <button type="button" class="again" id="again-btn" data-i18n="again.button">Retirer une autre destination</button>
   </div>
+  </main>
 
   <footer>
     <span id="footer-text" data-i18n="footer.text">Cap sur l'inconnu — générateur ludique, aucune donnée personnelle n'est conservée. Communes : IGN / geo.api.gouv.fr (Etalab) pour la France, GeoNames (licence CC-BY). Points d'intérêt et fond de carte : © les contributeurs d'OpenStreetMap (licence ODbL).</span>

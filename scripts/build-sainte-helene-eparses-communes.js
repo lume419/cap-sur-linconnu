@@ -21,6 +21,9 @@
 
 const fs = require('fs');
 const path = require('path');
+// Corrections communes à tous les générateurs de lieux (audit n° 11) : noms nettoyés, lieux écartés, quasi-doublons —
+// voir scripts/communes-corrections.js.
+const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
 
 const SH_POSTCODES = { '01': 'ASCN 1ZZ', '02': 'STHL 1ZZ', '03': 'TDCU 1ZZ' };
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
@@ -39,17 +42,18 @@ function rows(cc){
 }
 function write(cc, lines){
   const out = path.join(__dirname, '..', 'public', 'data', 'communes-' + cc.toLowerCase() + '.txt');
+  lines = dropNearDuplicates(lines); // quasi-doublons (voir communes-corrections.js)
   fs.writeFileSync(out, lines.join('\n') + '\n', 'utf8');
   console.log(cc + ' : ' + lines.length + ' lieux -> ' + out);
 }
 
 // ── SAINTE-HÉLÈNE, ASCENSION ET TRISTAN DA CUNHA ──────────────────────────────────────────────────
 {
-  const lines = rows('SH').filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7])).map(c => {
+  const lines = rows('SH').filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace('SH', c[0], preparePlaceName('SH', c[0], c[1]), parseFloat(c[4]), parseFloat(c[5]))).map(c => {
     const cp = SH_POSTCODES[c[10]];
     if(!cp) throw new Error('lieu sans île connue : ' + c[1]);
     const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
-    return `${parseInt(c[14], 10) || 0};${lon.toFixed(4)},${lat.toFixed(4)};${cp};${admin1Names.get('SH.' + c[10])};${c[1]}`;
+    return `${parseInt(c[14], 10) || 0};${lon.toFixed(4)},${lat.toFixed(4)};${cp};${admin1Names.get('SH.' + c[10])};${preparePlaceName('SH', c[0], c[1])}`;
   });
   write('SH', lines);
 }

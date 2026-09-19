@@ -458,7 +458,7 @@ fr;Tashkurgan;Tashqorghan
 de;Stätte der Steinernen Stadt;Tashqorghan
 en;Tashkurgan Town;Tashqorghan
 es;Tashkurgán;Tashqorghan
-hi;ताशक़ुरग़ान​;Tashqorghan
+hi;ताशक़ुरग़ान;Tashqorghan
 ug;تاشقۇرغان;Tashqorghan
 ru;Ташкурган;Tashqorghan
 zh;塔什库尔干镇;Tashqorghan
@@ -486361,7 +486361,7 @@ ka;ლჰასა;Lhasa
 mzn;لهاسا;Lhasa
 be;Лхаса;Lhasa
 ga;Lása;Lhasa
-os;Лхасæ;Lhasa
+os;Лхасӕ;Lhasa
 sr;Ласа;Lhasa
 mhr;Лхасе;Lhasa
 bxr;Һаса;Lhasa

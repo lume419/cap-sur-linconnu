@@ -727,7 +727,7 @@ ckb;کازابلانکا;Casablanca
 mzn;کازابلانکا;Casablanca
 vep;Kasablank;Casablanca
 pa;ਕਾਸਾਬਲਾਂਕਾ;Casablanca
-os;Касабланкæ;Casablanca
+os;Касабланкӕ;Casablanca
 be;Касабланка;Casablanca
 bn;কাসাব্লাংকা;Casablanca
 az;Kasablanka;Casablanca

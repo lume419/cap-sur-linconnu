@@ -172,7 +172,7 @@ ne;विशाखापत्तनम;Visakhapatnam
 or;ବିଶାଖାପାଟଣା;Visakhapatnam
 ur;وشاکھاپٹنم;Visakhapatnam
 zh;维沙卡帕特南;Visakhapatnam
-ky;Вишакхапатнaм;Visakhapatnam
+ky;Вишакхапатнам;Visakhapatnam
 ps;ويساکاپټنام;Visakhapatnam
 th;วิศาขาปัตตนัม;Visakhapatnam
 ar;فشاكاباتنم;Visakhapatnam
@@ -341,7 +341,7 @@ kn;ವಡೋದರಾ;Vadodara
 ne;वदोदरा;Vadodara
 ru;Вадодара;Vadodara
 zh;巴罗达;Vadodara
-ky;Вaдодaрa;Vadodara
+ky;Вадодара;Vadodara
 pa;ਵਡੋਦਰਾ;Vadodara
 ps;ودودره;Vadodara
 ur;وادودارا;Vadodara
@@ -9799,7 +9799,7 @@ ta;ஜிம் கார்பெட் தேசியப் பூங்க�
 te;జిమ్ కార్బెట్ నేషనల్ పార్క్;Jim Corbett National Park
 th;อุทยานแห่งชาติจิม คอร์เบตต์;Jim Corbett National Park
 ru;Корбетт;Jim Corbett National Park
-en;Navin;Navin  New Sama
+en;Navin;Navin New Sama
 hi;ग्रेटर नोएडा;Greater Noida
 ta;நொய்டா பெருநகர்;Greater Noida
 mr;ग्रेटर नोएडा;Greater Noida
@@ -10460,7 +10460,7 @@ tt;Вадодара;Vadodara
 el;Βαντόνταρα;Vadodara
 be;Вададара;Vadodara
 ca;Baroda;Vadodara
-os;Вадодарæ;Vadodara
+os;Вадодарӕ;Vadodara
 gl;Baroda;Vadodara
 he;ואדודארה;Vadodara
 sv;Vādippatti;Vadipatti
@@ -10740,7 +10740,7 @@ be;Пуна;Pune
 ca;Poona;Pune
 mk;Пуна;Pune
 bxr;Пуна;Pune
-os;Пунæ;Pune
+os;Пунӕ;Pune
 ckb;پوونە;Pune
 sr;Порт Блер;Port Blair
 he;פורט בלייר;Port Blair
@@ -11587,7 +11587,7 @@ hu;Kalkutta;Kolkata
 el;Καλκούτα;Kolkata
 sq;Kalkuta;Kolkata
 mhr;Колкате;Kolkata
-os;Калькуттæ;Kolkata
+os;Калькуттӕ;Kolkata
 af;Kalkutta;Kolkata
 hy;Կալկաթա;Kolkata
 uk;Колката;Kolkata
@@ -11945,3 +11945,4 @@ kn;ಧನುಷ್ಕೋಡಿ;Dhanushkodi
 ml;ധനുഷ്കോടി;Dhanushkodi
 ta;தனுஷ்கோடி;Dhanushkodi
 te;ధనుష్కోడి;Dhanushkodi
+hu;Rámesvaram;Rameswaram

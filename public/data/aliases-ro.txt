@@ -2143,7 +2143,7 @@ tr;Küstence;Constanţa
 be;Канстанца;Constanţa
 fa;کونستانسا;Constanţa
 ar;كونستانتسا;Constanţa
-os;Констанцæ;Constanţa
+os;Констанцӕ;Constanţa
 lt;Konstanca;Constanţa
 uk;Констанца;Constanţa
 tg;Константса;Constanţa

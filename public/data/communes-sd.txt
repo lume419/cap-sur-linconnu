@@ -7414,7 +7414,6 @@
 0;22.0470,12.6805;SD-47;Western Darfur;Safarna
 0;22.0352,12.6676;SD-47;Western Darfur;Tenang
 0;22.0593,12.6614;SD-47;Western Darfur;Doutoronge
-0;22.1602,12.7150;SD-47;Western Darfur;Dombarita
 0;22.1502,12.7460;SD-47;Western Darfur;Futou
 0;22.1719,12.7542;SD-47;Western Darfur;Dulunga
 0;22.1690,12.7725;SD-47;Western Darfur;Njalati

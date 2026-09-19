@@ -63,7 +63,6 @@
 0;168.6686,4.6107;96960;Ebon Atoll;Enilok
 0;168.6802,4.6059;96960;Ebon Atoll;Meidj
 0;168.9748,7.7521;96960;Jabat Island;Jabat
-0;167.3750,8.3146;96960;Lib Island;Lib
 0;172.0549,6.0161;96960;Mili Atoll;Likej
 0;172.1087,6.0916;96960;Mili Atoll;Wau
 0;169.5091,6.2343;96960;Jaluit Atoll;Populated Nanij Islands

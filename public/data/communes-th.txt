@@ -46261,7 +46261,6 @@
 0;100.8694,14.1250;TH-39;Pathum Thani;Ban Nong Samnak
 0;100.8252,14.0986;TH-39;Pathum Thani;Ban Saen Suk
 0;100.8470,14.1066;TH-39;Pathum Thani;Ban Nong Na Sanam
-0;100.8676,14.1272;TH-39;Pathum Thani;Ban Nong Samnak
 0;100.8470,14.1536;TH-39;Pathum Thani;Ban Nong Bua Luang
 0;100.8254,14.1800;TH-39;Pathum Thani;Ban Nong Bua Thong
 0;100.8924,14.1108;TH-39;Pathum Thani;Ban Nong Ngulueam
@@ -73265,7 +73264,6 @@
 0;100.5332,14.5409;TH-36;Phra Nakhon Si Ayutthaya;Ban Thai
 0;100.5317,14.5852;TH-36;Phra Nakhon Si Ayutthaya;Ban Khot Sung
 0;100.5113,14.5817;TH-36;Phra Nakhon Si Ayutthaya;Ban Nong Mo
-0;100.5505,14.6149;TH-36;Phra Nakhon Si Ayutthaya;Ban Phit Phian
 0;100.5078,14.6088;TH-36;Phra Nakhon Si Ayutthaya;Ban Pho Prasit
 0;100.7663,14.4412;TH-36;Phra Nakhon Si Ayutthaya;Ban Thamma Sin Sopha
 0;100.7609,14.4670;TH-36;Phra Nakhon Si Ayutthaya;Ban Khok Makluea
@@ -73737,7 +73735,6 @@
 0;103.6440,14.8384;TH-29;Surin;Ban Chok
 0;103.6589,14.8376;TH-29;Surin;Ban Khok Pa Chik
 0;103.6691,14.8350;TH-29;Surin;Ban Kuan
-0;103.6654,14.8422;TH-29;Surin;Ban Kuan
 0;103.6774,14.8432;TH-29;Surin;Ban Tha Ruea
 0;103.6448,14.8565;TH-29;Surin;Ban Khok Ta Phet
 0;103.6370,14.7715;TH-29;Surin;Ban Kanan

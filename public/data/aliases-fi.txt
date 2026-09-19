@@ -1923,7 +1923,7 @@ ru;Юля-Вяяри;Ylä-Vääri
 ru;Юлясиикаярви;Yläsiikajärvi
 ru;Юляпиха;Yläpiha
 ru;Юля-Партала;Ylä-Partala
-ru;ЫлäПää;Yläpää
+ru;ЫлӓПӓӓ;Yläpää
 ru;Юланумми;Ylänummi
 ru;Юлянне;Ylänne
 ru;Юляне;Yläne
@@ -2716,7 +2716,7 @@ ru;Тискарла;Tiskarla
 ru;Тирва;Tirva
 ru;Тирмонперя;Tirmonperä
 ru;Тирмо;Tirmo
-ru;Тирилä;Tirilä
+ru;Тирилӓ;Tirilä
 ru;Тиринкюля;Tirinkylä
 ru;Типасоя;Tipasoja
 ru;Тинаселкя;Tinaselkä
@@ -3853,7 +3853,7 @@ ru;Саириала;Sairiala
 ru;Саираланмяки;Sairalanmäki
 ru;Саирала;Sairala
 ru;Саираккала;Sairakkala
-ru;СаирааланмäКи;Sairaalanmäki
+ru;СаирааланмӓКи;Sairaalanmäki
 ru;Перялянперя;Perälänperä
 ru;Сяимен;Säimen
 ru;Саимаанранта;Saimaanranta
@@ -3927,7 +3927,7 @@ ru;Саалахти;Saalahti
 ru;Саксмяки;Sääksmäki
 ru;Сяякскоски;Sääkskoski
 ru;Сяяксярви;Sääksjärvi
-ru;СääКсйäРви;Sääksjärvi
+ru;СӓӓКсйӓРви;Sääksjärvi
 ru;Сяксъярви;Sääksjärvi
 ru;Саакоски;Saakoski
 ru;Рюютсяля;Ryytsälä
@@ -6293,7 +6293,7 @@ ru;Мерстола;Merstola
 ru;Меррасмяки;Merrasmäki
 ru;Мериляинен;Meriläinen
 ru;Мериля;Merilä
-ru;Мерилä;Merilä
+ru;Мерилӓ;Merilä
 is;Sastmola;Merikarvia
 ru;Мерикарвиа;Merikarvia
 ru;Мерикаарто;Merikaarto
@@ -7168,7 +7168,7 @@ ru;Ламминваара;Lamminvaara
 ru;Ламминперя;Lamminperä
 ru;Ламминмяки;Lamminmäki
 ru;Ламминмаа;Lamminmaa
-ru;Ламминкылä;Lamminkylä
+ru;Ламминкылӓ;Lamminkylä
 ru;Ламми;Lammi
 ru;Ламминкюля;Lamminkylä
 ru;Ламминкоски;Lamminkoski
@@ -9869,7 +9869,7 @@ ru;Холланти;Hollanti
 ru;Хёлклёт;Hölklöt
 ru;Холкко;Holkko
 ru;Холконперя;Holkko
-ru;ХöЛйäКкä;Höljäkkä
+ru;ХӧЛйӓКкӓ;Höljäkkä
 ru;Холя;Holja
 ru;Холисева;Holiseva
 ru;Холаппа;Holappa
@@ -10149,7 +10149,7 @@ ru;Хеиникюля;Heinikylä
 ru;Хеиникка;Heinikka
 ru;Хеиниярви;Heinijärvi
 ru;Хеиниеми;Heiniemi
-ru;МäКикылä;Mäkikylä
+ru;МӓКикылӓ;Mäkikylä
 ru;Хейнявеси;Heinävesi
 et;Heinävesi vald;Heinävesi
 zh;黑奈韋西;Heinävesi
@@ -11050,7 +11050,7 @@ ru;Аннала;Annala
 ru;Анккоинсало;Ankkoinsalo
 ru;Анкка;Ankka
 ru;Энкис;Änkis
-ru;ÄНкилäНсало;Änkilänsalo
+ru;ӒНкилӓНсало;Änkilänsalo
 ru;Энкиля;Änkilä
 ru;Анкеле;Ankele
 ru;Аняла;Anjala
@@ -12762,24 +12762,24 @@ ru;Ярхоинен;Jarhoinen
 ru;Равикюля;Ravikylä
 ru;Терваскангас;Tervaskangas
 ru;Эсколанмяки;Eskolanmäki
-ru;ТыккимäКи;Tykkimäki
+ru;ТыккимӓКи;Tykkimäki
 ru;Пярняс;Pärnäs
 ru;Виитакумпу;Viitakumpu
 ru;Мяйранкорпи;Mäyränkorpi
 ru;Марканкюля;Markankylä
-ru;МäЕнтауста;Mäentausta
-ru;Хирвелä;Hirvelä
+ru;МӓЕнтауста;Mäentausta
+ru;Хирвелӓ;Hirvelä
 ru;Лаутаро;Lautaro
 ru;Кауниснурми;Kaunisnurmi
 ru;Коряла;Korjala
 ru;Катаяхарью;Katajaharju
 ru;Канкаронмяки;Kankaronmäki
 ru;Вахтеронмяки;Vahteronmäki
-ru;МöРкöЛиня;Mörkölinja
+ru;МӧРкӧЛиня;Mörkölinja
 ru;Касаккакаллио;Kasakkakallio
 ru;Куусаанниеми;Kuusaanniemi
-ru;ВäКкäРä;Väkkärä
-ru;ТäХтее;Tähtee
+ru;ВӓКкӓРӓ;Väkkärä
+ru;ТӓХтее;Tähtee
 ru;Наукио;Naukio
 ru;Сопенпелто;Sopenpelto
 ru;Соппи;Soppi

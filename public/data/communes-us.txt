@@ -157230,7 +157230,6 @@
 0;-85.6897,38.3054;40025;Indiana;Oak Park
 4644;-95.9210,41.1202;68123;Nebraska;Offutt Air Force Base
 0;-83.4927,42.3731;48170;Michigan;Plymouth Township
-0;-83.2955,42.3948;48239;Michigan;Redford DUPLICATE OF https://www.geonames.org/5006917/redford.html
 722;-83.8369,43.4621;48724;Michigan;Robin Glen-Indiantown
 149;-90.5399,41.5172;61299;Illinois;Rock Island Arsenal
 24994;-84.0067,43.4600;48603;Michigan;Saginaw Township North

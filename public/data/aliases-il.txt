@@ -2692,7 +2692,7 @@ zh;海法;Haifa
 az;Hayfa;Haifa
 uz;Hayfa;Haifa
 uk;Хайфа;Haifa
-os;Хайфæ;Haifa
+os;Хайфӕ;Haifa
 th;ไฮฟา;Haifa
 sr;Хајфа;Haifa
 ml;ഹൈഫ;Haifa

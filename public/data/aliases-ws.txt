@@ -170,13 +170,13 @@ bg;Фагамало;Fagamalo
 ur;فاگامالو;Fagamalo
 bg;Авао;Avao
 bg;Ауала;Auala
-el;΄Aπια;Apia
+el;΄Απια;Apia
 el;Απία;Apia
 sah;Апиа;Apia
 ka;აპია;Apia
 ht;Apiya;Apia
 pa;ਆਪੀਆ;Apia
-os;Апиæ;Apia
+os;Апиӕ;Apia
 bo;ཨ་པི་ཡ།;Apia
 ur;آپیا;Apia
 uk;Апіа;Apia

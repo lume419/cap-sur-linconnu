@@ -14030,7 +14030,7 @@ hy;Գանծակ;Ashaghi Zurnabad
 tt;Зунуд;Zunud
 ce;Зунуд;Zunud
 fa;زونود;Zunud
-lez;ЦIехуьл;Zuxul
+lez;ЦӀехуьл;Zuxul
 tt;Зухул;Zuxul
 ce;Зухул;Zuxul
 fa;زوخول;Zuxul
@@ -14158,7 +14158,7 @@ fa;یوزباشی‌لار;Yuzbashilar
 ur;یوزبشلر;Yuzbashilar
 tt;Юхары Зейхур;Yuxarı Zeyxur
 ur;یکشاری ضے یشڑ;Yuxarı Zeyxur
-lez;ЦIийихуьр;Yuxarı Zeyxur
+lez;ЦӀийихуьр;Yuxarı Zeyxur
 ce;Йухари Зейхур;Yuxarı Zeyxur
 fa;یوخاری زیخور;Yuxarı Zeyxur
 tt;Юхары Тала;Yuxarı Tala
@@ -14168,7 +14168,7 @@ av;Эхеди Тала;Yuxarı Tala
 fa;یوخاری تالا;Yuxarı Tala
 tt;Юхары Таһирҗал;Yuxarı Tahircal
 ur;یکشاری طاہرکل;Yuxarı Tahircal
-lez;Агъа ТIигьиржал;Yuxarı Tahircal
+lez;Агъа ТӀигьиржал;Yuxarı Tahircal
 ce;Йухари ТахӀирджал;Yuxarı Tahircal
 fa;طاهرجال بالا;Yuxarı Tahircal
 tt;Юхары Өйсүзлү;Yuxarı Öysüzlü
@@ -15692,7 +15692,7 @@ zh;纳尔达兰;Nardaran
 ar;نارداران;Nardaran
 hy;Նարդարան;Nardaran
 zh-Hant;納爾達蘭;Nardaran
-cv;Нартăран;Nardaran
+cv;Нартӑран;Nardaran
 ja;ナルダラン;Nardaran
 fa;نارداران;Nardaran
 tt;Нәрәҗан;Neredzhan
@@ -16403,7 +16403,7 @@ hy;Կուշչի Արմավիր;Quşçu
 hy;Խաչակապ;Gushchu
 hy;Ղուշչի;Gushchu
 tt;Гусарчай;Qusarçay
-lez;КцIарвацI;Qusarçay
+lez;КцӀарвацӀ;Qusarçay
 ce;Гусарчай;Qusarçay
 fa;قوسارچای;Qusarçay
 tt;Гурузма;Quruzma
@@ -16443,7 +16443,7 @@ tt;Гурбанчы;Qurbançı
 ce;Гурбанчи;Qurbançı
 fa;قربان‌چی;Qurbançı
 tt;Гуллар;Qullar
-lez;ЛукIар;Qullar
+lez;ЛукӀар;Qullar
 ce;Гуллар;Qullar
 fa;قول‌لار، قوسار;Qullar
 tt;Гуләбәнд;Kulabend
@@ -16528,7 +16528,7 @@ ce;ГоругбагӀи;Qoruqbağı
 fa;قروق‌باغی;Qoruqbağı
 tt;Кортала;Kortala
 ce;Кортала;Kortala
-av;Кортала жамагIат;Kortala
+av;Кортала жамагӀат;Kortala
 fa;کورتالا;Kortala
 hy;Քյոլլու;Kollu
 tt;Гохмуг;Qoxmuq
@@ -16850,7 +16850,7 @@ tt;Гилаһоба;Gilahoba
 lez;Кьилегьуба;Gilahoba
 ce;ГилахӀоба;Gilahoba
 fa;گیلاه اوبا;Gilahoba
-lez;ЦIуру Худат къазмаяр;Kazmalar
+lez;ЦӀуру Худат къазмаяр;Kazmalar
 tt;Көһнә Худат газмалар;Kazmalar
 ce;КоьхӀнаь Худат газмалар;Kazmalar
 rw;Xudat Qazmalar;Kazmalar
@@ -18065,7 +18065,7 @@ hy;Ճալեթ;Calut
 ce;Джалут;Calut
 fa;جالوت;Calut
 tt;Җагар;Caqar
-lez;ЧIакъар;Caqar
+lez;ЧӀакъар;Caqar
 ce;Джагар;Caqar
 fa;جاقار;Caqar
 ceb;Dzagam;Zayam
@@ -20250,7 +20250,7 @@ tt;Атлыхан;Atlıxan
 lez;Атлухан;Atlıxan
 ce;Атлихан;Atlıxan
 fa;آتلیخان;Atlıxan
-lez;ЧIакъархъишлах;Caqarqışlaq
+lez;ЧӀакъархъишлах;Caqarqışlaq
 tt;Җагаргышлаг;Caqarqışlaq
 ce;Джагаргишлаг;Caqarqışlaq
 fa;جاقار قشلاق;Caqarqışlaq

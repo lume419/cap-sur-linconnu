@@ -43757,7 +43757,6 @@
 0;16.3576,51.6165;56-215;Góra County;Bełcz Wielki
 0;16.3087,51.5922;59-150;Polkowice County;Trzęsów
 0;16.6096,51.5940;56-210;Góra County;Sądowel
-0;19.6130,53.6003;14-200;Powiat iławski;Dom 957 m2 nad jeziorem Iławskim z basenem kręgielnią Nowa Wieś
 0;21.7187,52.3105;05-307;Powiat miński;Rąbierz-Kolonia
 0;16.3478,51.2299;59-230;Powiat legnicki;Szczedrzykowice
 0;21.7597,51.5555;26-922;Powiat kozienicki;Przewóz
@@ -44970,7 +44969,7 @@
 0;16.9716,53.7504;77-304;Powiat człuchowski;Przeręba
 0;17.1708,53.8250;77-320;Powiat człuchowski;Rudniki
 0;19.0196,53.7777;82-501;Powiat kwidzyński;Brokowo
-0;16.2343,53.8753;78-220;Powiat białogardzki;https://en.wikipedia.org/wiki/Motarzyn
+0;16.2343,53.8753;78-220;Powiat białogardzki;Motarzyn
 0;16.3035,53.8425;78-452;Powiat szczecinecki;Krosino
 0;16.5282,53.8530;78-450;Powiat szczecinecki;Sławno
 0;16.0481,53.6936;78-320;Powiat świdwiński;Toporzyk

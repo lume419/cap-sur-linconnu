@@ -3443,7 +3443,7 @@ sr;Макапа;Macapá
 th;มากาปา;Macapá
 uk;Макапа;Macapá
 uz;Makapa;Macapá
-ky;Макапá;Macapá
+ky;Макапа́;Macapá
 bn;ম্যাকাপা;Macapá
 ur;ماکاپا;Macapá
 am;ማካፓ;Macapá
@@ -3455,7 +3455,7 @@ pa;ਮਾਕਾਪਾ;Macapá
 ps;ماكابا;Macapá
 so;Makapa;Macapá
 sw;Makapa;Macapá
-tt;Макапá;Macapá
+tt;Макапа́;Macapá
 kk;Луис-Гомис;Luís Gomes
 hy;Լագոա;Lagoa
 kk;Лагоа;Lagoa
@@ -3509,7 +3509,7 @@ ka;ფორტალეზა;Fortaleza
 kk;Форталеза;Fortaleza
 mn;Форталеза;Fortaleza
 mr;फोर्तालेझा;Fortaleza
-os;Форталезæ;Fortaleza
+os;Форталезӕ;Fortaleza
 sr;Форталеза;Fortaleza
 th;ฟอร์ตาเลซา;Fortaleza
 uk;Форталеза;Fortaleza
@@ -4395,7 +4395,7 @@ mr;कुरितिबा;Curitiba
 mrj;Куритиба;Curitiba
 myv;Куритиба;Curitiba
 mzn;کوریتیبا;Curitiba
-os;Куритибæ;Curitiba
+os;Куритибӕ;Curitiba
 ps;كوريتيبا;Curitiba
 rn;Kuritiyba;Curitiba
 rue;Курыціба;Curitiba

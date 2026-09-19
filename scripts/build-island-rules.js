@@ -4,8 +4,13 @@
 // - landmass : masses terrestres par pays (îles sans pont ni tunnel routier), évaluées dans l'ordre par
 //   landmassOf (lib/trip-engine.js) ; types de match : regions, cpPrefix, box, near (voir matchTension) ;
 //   clé '*' = chaque lieu isolé seul.
-// - ferries : { a, b, routeKey, name, durationH, distanceKm, priceByClass: {1, 2, 5, foot} en EUROS (véhicule
-//   seul pour 1/2/5, passager pour foot), source, date, note } — uniquement des liaisons à tarif officiel publié.
+// - ferries : { a, b, routeKey, name, durationH, distanceKm, priceByClass: {1, 2, 5, foot} en EUROS (montant de
+//   la grille pour les véhicules 1/2/5, ce qu'il couvre étant dit par priceCovers ; un passager pour foot), source, date, note } — uniquement des liaisons à tarif officiel publié.
+//   Champs complémentaires (11e audit, 19/09/2026) — voir le commentaire en tête de FERRY_ROUTES dans trip-data.js :
+//   priceCovers ('vehicle' | 'vehicleAndDriver' | 'vehicleAndOccupants' | null, OBLIGATOIRE dès qu'une classe a un
+//   prix), priceCoversByClass (exceptions par classe 1/2/5), coversSource (d'où vient la règle : phrase de la grille ou
+//   URL ; recopié dans le commentaire généré), durationEstimated (true si la durée n'est pas publiée par l'exploitant),
+//   mode ('train' pour un train-auto).
 //
 // Le script VÉRIFIE avant d'écrire (pays connu, régions existantes, clés de ferry présentes dans les masses
 // définies ou 'continental', prix numériques) et affiche le nombre de lieux par masse terrestre.
@@ -116,10 +121,22 @@ ferries.forEach(x => {
   if(x.priceStatus && ['variable', 'unknown'].indexOf(x.priceStatus) === -1) errors.push(x._file + ' : ferry ' + x.routeKey + ' priceStatus invalide');
   ['1', '2', '5', 'foot'].forEach(k => { const v = (x.priceByClass || {})[k]; if(typeof v !== 'number' && v !== null && !(x.priceStatus && v === undefined)) errors.push(x._file + ' : ferry ' + x.routeKey + ' prix ' + k + ' manquant'); });
   if(!(x.durationH > 0) || !(x.distanceKm > 0)) errors.push(x._file + ' : ferry ' + x.routeKey + ' durée/distance');
+  // Couverture du prix : obligatoire (valeur ou null explicite) dès qu'une classe a un montant, avec sa justification.
+  const COVERS = ['vehicle', 'vehicleAndDriver', 'vehicleAndOccupants', null];
+  const priced = ['1', '2', '5', 'foot'].some(k => typeof (x.priceByClass || {})[k] === 'number');
+  if(priced && !('priceCovers' in x)) errors.push(x._file + ' : ferry ' + x.routeKey + ' priceCovers manquant (valeur ou null)');
+  if('priceCovers' in x && COVERS.indexOf(x.priceCovers) === -1) errors.push(x._file + ' : ferry ' + x.routeKey + ' priceCovers invalide');
+  if(priced && !x.coversSource) errors.push(x._file + ' : ferry ' + x.routeKey + ' coversSource manquant');
+  Object.entries(x.priceCoversByClass || {}).forEach(([k, v]) => { if(['1', '2', '5'].indexOf(k) === -1 || COVERS.indexOf(v) === -1) errors.push(x._file + ' : ferry ' + x.routeKey + ' priceCoversByClass invalide'); });
+  if('durationEstimated' in x && typeof x.durationEstimated !== 'boolean') errors.push(x._file + ' : ferry ' + x.routeKey + ' durationEstimated non booléen');
+  if('mode' in x && ['train'].indexOf(x.mode) === -1) errors.push(x._file + ' : ferry ' + x.routeKey + ' mode invalide');
+  if(priced && !x.source) errors.push(x._file + ' : ferry ' + x.routeKey + ' prix sans source');
+  if(priced && !/^\d{4}-\d{2}(-\d{2})?$/.test(String(x.date || ''))) errors.push(x._file + ' : ferry ' + x.routeKey + ' prix sans date (AAAA-MM[-JJ])');
 });
 if(errors.length){ console.log('ERREURS — rien n\'est écrit :\n' + errors.join('\n')); process.exit(1); }
 
-let s = fs.readFileSync(TRIP_DATA, 'utf8');
+const s0 = fs.readFileSync(TRIP_DATA, 'utf8');
+let s = s0;
 const rulesOut = Object.entries(landmass).map(([cc, v]) => {
   const o = { rules: v.rules.map(r => ({ key: r.key, match: r.match })) };
   if(v.default) o.default = v.default;
@@ -134,12 +151,22 @@ function price(x, k){ const v = (x.priceByClass || {})[k]; return typeof v === '
 const oneLine = v => String(v).replace(/[\r\n\u2028\u2029]/g, ' ');
 const ferryOut = ferries.map(x => {
   const key = [x.a, x.b].sort().join('|');
-  return '      // ' + oneLine(x.name) + ' — ' + oneLine(x.operator || '') + ', ' + oneLine(x.source) + ' (' + oneLine(x.date) + ')' + (x.note ? ' ; ' + oneLine(x.note) : '') + '\n' +
+  const cov = v => v === null ? 'null' : "'" + v + "'";
+  const byClass = Object.entries(x.priceCoversByClass || {});
+  return '      // ' + oneLine(x.name) + ' — ' + oneLine(x.operator || '') + ', ' + oneLine(x.source) + ' (' + oneLine(x.date) + ')' + (x.note ? ' ; ' + oneLine(x.note) : '') +
+    (x.coversSource ? ' ; Prix couvre : ' + oneLine(x.coversSource) : '') + '\n' +
     "      '" + key + "': { routeKey:'ferry.route." + x.routeKey + "', durationH:" + x.durationH + ', distanceKm:' + x.distanceKm +
     ', priceByClass:{1:' + price(x, 1) + ', 2:' + price(x, 2) + ', 5:' + price(x, 5) + ', foot:' + price(x, 'foot') + '}' +
-    (x.priceStatus ? ", priceStatus:'" + x.priceStatus + "'" : '') + ' },';
+    (x.priceStatus ? ", priceStatus:'" + x.priceStatus + "'" : '') +
+    ('priceCovers' in x ? ', priceCovers:' + cov(x.priceCovers) : '') +
+    (byClass.length ? ', priceCoversByClass:{' + byClass.map(([k, v]) => k + ':' + cov(v)).join(', ') + '}' : '') +
+    (x.durationEstimated ? ', durationEstimated:true' : '') +
+    (x.mode ? ", mode:'" + x.mode + "'" : '') + ' },';
 });
 s = s.replace(AUTO_FERRIES_RE, (m, a, b) => a + ferryOut.join('\n') + (ferryOut.length ? '\n' : '') + b.replace(/^\n/, ''));
+// trip-data.js est modifié en parallèle par d'autres scripts (autres blocs) : on n'écrit que si le fichier est encore
+// exactement celui qui a servi de base (relu juste avant l'écriture), sinon on s'arrête sans rien écraser.
+if(fs.readFileSync(TRIP_DATA, 'utf8') !== s0){ console.log('ERREUR — rien n\'est écrit : ' + TRIP_DATA + ' a changé pendant la génération, relancer.'); process.exit(1); }
 fs.writeFileSync(TRIP_DATA, s);
 fs.writeFileSync(path.join(__dirname, 'iles', '.ferry-names.json'), JSON.stringify(ferries.map(x => ({ routeKey: x.routeKey, name: x.name })), null, 1));
 Object.entries(counts).forEach(([cc, c]) => console.log(cc, JSON.stringify(c)));

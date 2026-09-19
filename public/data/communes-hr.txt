@@ -7615,7 +7615,7 @@
 0;16.3131,44.0383;22300;Šibensko-Kninska;Radulovići
 0;16.5014,43.8308;21233;Splitsko-Dalmatinska;Borkovići
 0;16.6964,43.7383;21238;Splitsko-Dalmatinska;Žanci
-0;16.6983,43.7339;21238;Splitsko-Dalmatinska;Milano
+0;16.6983,43.7339;21238;Splitsko-Dalmatinska;Milan
 0;16.2794,44.0400;22300;Šibensko-Kninska;Krčić
 0;16.6953,43.7308;21238;Splitsko-Dalmatinska;Han
 0;16.6817,43.7353;21238;Splitsko-Dalmatinska;Galzina

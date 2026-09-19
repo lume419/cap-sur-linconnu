@@ -15883,7 +15883,6 @@
 0;-5.5047,33.7434;MA-03;Fes-Meknes;Coopérative Sidi Addi Lmir
 0;-5.5050,33.7331;MA-03;Fes-Meknes;Coopérative Sidi Addi Joulyane
 0;-5.5087,33.7463;MA-03;Fes-Meknes;Coopérative Tariq
-0;-5.5443,33.6108;MA-03;Fes-Meknes;DELETE
 0;-5.5188,33.7199;MA-03;Fes-Meknes;Coopérative Sidi Mimoune
 0;-5.5148,33.7263;MA-03;Fes-Meknes;Douar Joulyane
 0;-5.5061,33.7257;MA-03;Fes-Meknes;Douar Ait Amer Ait Youssef

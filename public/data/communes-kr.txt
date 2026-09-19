@@ -20017,7 +20017,6 @@
 0;127.2577,34.9766;57914;Jeollanam-do;Gurumokjaegol
 0;127.0211,34.7344;59446;Jeollanam-do;Singi
 0;127.0220,34.7374;59446;Jeollanam-do;Gangsan
-0;127.0222,34.7450;59446;Jeollanam-do;Gangsan
 0;127.0099,34.7470;59307;Jeollanam-do;Uttong
 0;127.0073,34.7494;59307;Jeollanam-do;Sobong-gol
 0;127.0200,34.7208;59450;Jeollanam-do;Seongbong
@@ -50649,7 +50648,6 @@
 0;128.4734,36.4710;37314;Gyeongsangbuk-do;Saebaengi
 0;128.4960,36.4754;37314;Gyeongsangbuk-do;Hagwangsan
 0;128.5296,36.4804;37315;Gyeongsangbuk-do;Nureukdong
-0;128.5282,36.4850;37315;Gyeongsangbuk-do;Jungnidong
 0;128.5099,36.4947;37315;Gyeongsangbuk-do;Yullidong
 0;128.5118,36.4951;37315;Gyeongsangbuk-do;Bamsil
 0;128.5021,36.4993;37314;Gyeongsangbuk-do;Singidong
@@ -51564,7 +51562,6 @@
 0;127.1620,34.7667;59437;Jeollanam-do;Witdong
 0;127.1811,34.7535;59438;Jeollanam-do;Nogyechon
 0;127.1559,34.7487;59439;Jeollanam-do;Yonghodong
-0;127.1557,34.7418;59439;Jeollanam-do;Daehwachon
 0;127.1586,34.7438;59439;Jeollanam-do;Seokjang
 0;127.1624,34.7419;59439;Jeollanam-do;Gajanggol
 0;127.2084,34.7371;59466;Jeollanam-do;Sumun

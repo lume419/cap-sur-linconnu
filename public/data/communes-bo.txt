@@ -13905,7 +13905,7 @@
 0;-65.0341,-17.3627;BO-02;Cochabamba;Rio Blanco B
 0;-65.1437,-17.8650;BO-02;Cochabamba;Antakawa
 0;-65.0426,-17.9827;BO-02;Cochabamba;Molle Molle Potrero
-0;-65.0538,-17.9344;BO-02;Cochabamba;Waran  Wareal
+0;-65.0538,-17.9344;BO-02;Cochabamba;Waran Wareal
 0;-65.0627,-17.8231;BO-02;Cochabamba;Sauce Pila Pata
 0;-65.2967,-17.8041;BO-02;Cochabamba;Tunas Playa
 0;-65.3087,-17.7796;BO-02;Cochabamba;Tablon Julpa
@@ -21715,7 +21715,7 @@
 0;-66.7324,-18.0084;BO-02;Cochabamba;Matarkata
 0;-66.5934,-18.1317;BO-07;Potosí Department;Jutuma
 0;-66.8455,-18.0698;BO-05;Oruro;Cebada Mayu
-0;-67.7641,-18.0168;BO-05;Oruro;Kala  Suntura Iro Pampa
+0;-67.7641,-18.0168;BO-05;Oruro;Kala Suntura Iro Pampa
 0;-66.6071,-18.1168;BO-07;Potosí Department;Lacaya
 0;-66.8001,-18.0711;BO-02;Cochabamba;Pumuri
 0;-67.1787,-18.1558;BO-05;Oruro;Parinapata Uspitaya
@@ -22716,7 +22716,7 @@
 0;-62.7626,-17.2433;BO-08;Santa Cruz Department;Puerto Pérez
 0;-63.1567,-17.1224;BO-08;Santa Cruz Department;San Salvador
 0;-63.4879,-17.3285;BO-08;Santa Cruz Department;Paquio
-0;-63.3020,-17.3079;BO-08;Santa Cruz Department;Ecia  Puesto Mendez
+0;-63.3020,-17.3079;BO-08;Santa Cruz Department;Ecia Puesto Mendez
 0;-63.3926,-17.3339;BO-08;Santa Cruz Department;La Gran Flauta
 0;-62.8853,-17.0551;BO-08;Santa Cruz Department;Illimani
 0;-63.5250,-17.2998;BO-08;Santa Cruz Department;Burgos Grande
@@ -23854,7 +23854,7 @@
 0;-66.6370,-20.6797;BO-07;Potosí Department;Noel Mariaca
 0;-63.7473,-13.1169;BO-03;Beni Department;Puerto Chávez
 0;-68.0674,-17.2963;BO-04;La Paz Department;Payamaya
-0;-67.7865,-17.2405;BO-04;La Paz Department;Mallaque  Arcoloma
+0;-67.7865,-17.2405;BO-04;La Paz Department;Mallaque Arcoloma
 0;-69.2248,-17.2237;BO-04;La Paz Department;Antajarani
 0;-67.8413,-17.2418;BO-04;La Paz Department;Hisca Collo
 0;-68.1706,-17.2045;BO-04;La Paz Department;Zona Iricollo San Mateo
@@ -24114,7 +24114,7 @@
 0;-66.6040,-17.1711;BO-02;Cochabamba;Palta Loma
 0;-67.8133,-17.2523;BO-04;La Paz Department;Japuma
 0;-67.5299,-17.1726;BO-04;La Paz Department;Capinota
-0;-66.9148,-17.2408;BO-04;La Paz Department;Totor  Pampa
+0;-66.9148,-17.2408;BO-04;La Paz Department;Totor Pampa
 0;-66.6030,-17.2105;BO-02;Cochabamba;Tuini Chico
 0;-68.1325,-17.2550;BO-04;La Paz Department;Rosario
 0;-67.7927,-17.3142;BO-04;La Paz Department;Huaña Jahuira
@@ -24880,7 +24880,7 @@
 0;-67.9668,-14.0163;BO-04;La Paz Department;Machaj Marka
 0;-68.1541,-13.7731;BO-04;La Paz Department;Iturralde
 0;-68.1897,-13.7996;BO-04;La Paz Department;Bajo Satariapu
-0;-68.0533,-13.8929;BO-04;La Paz Department;Palma  Real
+0;-68.0533,-13.8929;BO-04;La Paz Department;Palma Real
 0;-68.0085,-13.9148;BO-04;La Paz Department;San Felipe
 0;-68.1426,-13.8635;BO-04;La Paz Department;El Patanal
 0;-67.5260,-13.9499;BO-04;La Paz Department;Cachichira

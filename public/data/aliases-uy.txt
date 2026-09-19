@@ -576,13 +576,13 @@ ka;რივერა;Rivera
 sr;Ривера;Rivera
 uk;Рівера;Rivera
 ur;ریویرا;Rivera
-kk;Риверa;Rivera
-ky;Риверa;Rivera
+kk;Ривера;Rivera
+ky;Ривера;Rivera
 am;ሪቬራ;Rivera
 pa;ਰਿਵੇਰਾ;Rivera
 ps;ریویرا;Rivera
-tg;Риверa;Rivera
-tt;Риверa;Rivera
+tg;Ривера;Rivera
+tt;Ривера;Rivera
 bg;Рисо;Risso
 fa;ریو برانکو، اروگوئه;Río Branco
 hy;Ռիո Բրանկո;Río Branco
@@ -629,12 +629,9 @@ ka;პაისანდუ;Paysandú
 kk;Пайсанду;Paysandú
 ur;پایساندو;Paysandú
 vep;Paisandu;Paysandú
-ky;Пайсандú;Paysandú
 am;ፓይሳንዱ;Paysandú
 pa;ਪਾਏਸਾਂਦੂ;Paysandú
 ps;پایسانډو;Paysandú
-tg;Пайсандú;Paysandú
-tt;Пайсандú;Paysandú
 fa;پاسو د لوس‌تروس;Paso de los Toros
 hy;Պասո դե լոս Տորոս;Paso de los Toros
 ur;پاسو دے لوس توروس;Paso de los Toros
@@ -877,8 +874,8 @@ bn;দুরাজনো;Durazno
 am;ዱራዝኖ;Durazno
 pa;ਦੁਰਾਜ਼ਨੋ;Durazno
 ps;دورازنو;Durazno
-tg;Дураснo;Durazno
-tt;Дураснo;Durazno
+tg;Дурасно;Durazno
+tt;Дурасно;Durazno
 fa;دولورس، اروگوئه;Dolores
 hy;Դոլորես;Dolores
 ka;დოლორესი;Dolores

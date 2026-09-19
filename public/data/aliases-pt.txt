@@ -451,7 +451,7 @@ ja;ファティマ;Fátima
 ru;Фатима;Fátima
 uk;Фатіма;Fátima
 zh-TW;花地瑪;Fátima
-os;Фатимæ;Fátima
+os;Фатимӕ;Fátima
 mzn;فاطیما;Fátima
 bg;Фатима;Fátima
 ko;파티마;Fátima
@@ -1052,7 +1052,7 @@ el;Άγκρα ντο Ερόϊσμο;Angra do Heroísmo
 fa;آنگرا دو هروئیسمو;Angra do Heroísmo
 ja;アングラ・ド・エロイズモ;Angra do Heroísmo
 ka;ანგრა-დუ-ეროიჟმუ;Angra do Heroísmo
-kk;Aнгра ду Эроижму;Angra do Heroísmo
+kk;Ангра ду Эроижму;Angra do Heroísmo
 lt;Angra do Heroišmas;Angra do Heroísmo
 mzn;آنگرا دو هروئیسمو;Angra do Heroísmo
 sr;Ангра до Ероизмо;Angra do Heroísmo
@@ -1076,7 +1076,7 @@ ja;ポンタ・デルガダ;Ponta Delgada
 ka;პონტა-დელგადა;Ponta Delgada
 ko;폰타델가다;Ponta Delgada
 mzn;پونتا دلگادا;Ponta Delgada
-os;Понтæ-Делгадæ;Ponta Delgada
+os;Понтӕ-Делгадӕ;Ponta Delgada
 sr;Понта Делгада;Ponta Delgada
 th;ปงตาแดลกาดา;Ponta Delgada
 uk;Понта-Делгада;Ponta Delgada

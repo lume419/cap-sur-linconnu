@@ -2076,7 +2076,7 @@ el;Συρακούσες;Siracusa
 uk;Сіракуза;Siracusa
 lt;Sirakūzai;Siracusa
 id;Sirakusa;Siracusa
-os;Сиракузæ;Siracusa
+os;Сиракузӕ;Siracusa
 br;Sirakuza;Siracusa
 hr;Sirakuza;Siracusa
 eu;Sirakusa;Siracusa
@@ -6083,7 +6083,7 @@ eu;Milan;Milano
 ta;மிலன்;Milano
 tl;Lungsod ng Milano;Milano
 ug;مىلان;Milano
-mn;Mилан;Milano
+mn;Милан;Milano
 ga;Milan;Milano
 bn;মিলান;Milano
 hy;Միլան;Milano
@@ -7869,7 +7869,7 @@ ar;كيري;Chieri
 zh;基耶里;Chieri
 bg;Киери;Chieri
 be;К'еры;Chieri
-sr;Кjери;Chieri
+sr;Кјери;Chieri
 el;Κιέρι;Chieri
 hy;Կիերի;Chieri
 ka;ჩიერი;Chieri
@@ -10619,14 +10619,14 @@ kk;Гаццо;Gazzo
 uk;Гаццо;Gazzo
 ru;Гаццо;Gazzo
 sl;Boneti;Bonetti
-ab;Пигяжжяньo;Pigazzano
+ab;Пигяжжяньо;Pigazzano
 crh;Pigattsano;Pigazzano
 fa;پیگازانو;Pigazzano
 ja;ピガッツァーノ;Pigazzano
 kk;Пигаццано;Pigazzano
 lv;Pigacāno;Pigazzano
 uk;Пігаццано;Pigazzano
-xal;Пигяжжяньo;Pigazzano
+xal;Пигяжжяньо;Pigazzano
 ru;Пигаццано;Pigazzano
 sl;Frletiči;Ferletti
 sl;Brni;Berne

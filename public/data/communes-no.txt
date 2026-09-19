@@ -7265,7 +7265,7 @@
 0;9.1455,59.6842;3680;Notodden;Årlifoss
 0;7.0667,58.3500;4480;Kvinesdal;Årlia
 0;5.0816,59.9896;5397;Austevoll;Årland
-0;6.1500,60.7333;5707;Voss;Aarhus
+0;6.1500,60.7333;5707;Voss;Århus
 30916;8.7725,58.4615;4801;Arendal;Arendal
 0;5.6333,61.4833;6806;Sunnfjord;Åreklett
 0;5.0000,61.6500;6900;Kinn;Årebrot
@@ -9948,7 +9948,7 @@
 0;10.6840,59.5045;1556;Vestby;Sollia
 0;10.6842,59.5207;1556;Vestby;Stenløkka
 0;10.7070,59.5239;1556;Vestby;Vollehagen
-0;10.7059,59.5341;1556;Vestby;Aarhus
+0;10.7059,59.5341;1556;Vestby;Århus
 0;10.1318,60.7922;2879;Søndre Land;Tranligrenda
 0;13.6420,68.0880;8352;Vestvågøy;Sandsund
 0;10.6560,59.5859;1545;Vestby;Okseryggen
@@ -10993,7 +10993,6 @@
 0;9.8516,58.9932;3297;Larvik;Ubbeskjær
 0;9.8888,58.9932;3297;Larvik;Jønne
 0;9.9952,58.9905;3294;Larvik;Brekke
-0;9.9103,58.9910;3297;Larvik;Gusland
 0;9.9228,58.9900;3294;Larvik;Snørsvall
 0;9.8570,58.9897;3297;Larvik;Langholt
 0;10.0129,58.9889;3290;Larvik;Jaren

@@ -5631,7 +5631,7 @@ ce;Цалка;Tsalka
 fa;تسالکا;Tsalka
 hy;Ծալկա;Tsalka
 mzn;تسالکا;Tsalka
-os;Цалкæ;Tsalka
+os;Цалкӕ;Tsalka
 zh;察爾卡;Tsalka
 ce;Цагвери;Tsaghveri
 os;Цъагъвери;Tsaghveri

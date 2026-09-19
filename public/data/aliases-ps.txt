@@ -498,7 +498,7 @@ zh;加沙;Gaza
 sr;Газа;Gaza
 zh;加薩;Gaza
 ckb;غەززە;Gaza
-os;Газæ;Gaza
+os;Газӕ;Gaza
 ur;غزہ;Gaza
 hy;Ղազա;Gaza
 fa;غزه;Gaza
@@ -516,7 +516,7 @@ af;Gasa;Gaza
 ku;Xeze;Gaza
 ta;காசா;Gaza
 ce;Газа;Gaza
-ky;Газa;Gaza
+ky;Газа;Gaza
 mk;Газа;Gaza
 ne;गाजा शहर;Gaza
 pa;ਗ਼ਜ਼ਾ ਸ਼ਹਿਰ;Gaza
@@ -596,7 +596,7 @@ ja;ラマッラー;Ramallah
 ko;라말라;Ramallah
 sr;Рамала;Ramallah
 gl;Ramala;Ramallah
-os;Рамаллæ;Ramallah
+os;Рамаллӕ;Ramallah
 hy;Ռամալա;Ramallah
 ca;Ramal·lah;Ramallah
 ur;رام اللہ;Ramallah

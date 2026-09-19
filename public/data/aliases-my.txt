@@ -1963,7 +1963,7 @@ ka;კუალა-ლუმპური;Kuala Lumpur
 lv;Kualalumpūra;Kuala Lumpur
 am;ኩዋላ ሉምፑር;Kuala Lumpur
 lt;Kvala Lumpūras;Kuala Lumpur
-os;Куалæ-Лумпур;Kuala Lumpur
+os;Куалӕ-Лумпур;Kuala Lumpur
 sah;Куала Лумпур;Kuala Lumpur
 ckb;کوالالومپور;Kuala Lumpur
 hy;Կուալա Լումպուր;Kuala Lumpur

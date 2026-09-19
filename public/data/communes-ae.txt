@@ -380,7 +380,7 @@
 0;55.7391,24.9108;AE-06;Sharjah;Rafadah
 0;55.7796,24.9648;AE-06;Sharjah;Al Dafain
 0;55.8163,25.2326;AE-06;Sharjah;As Saman
-4768;55.8843,25.1352;AE-06;Sharjah;Sha'biyyat Milе̄hah
+4768;55.8843,25.1352;AE-06;Sharjah;Sha'biyyat Milēhah
 0;56.1202,24.9155;AE-05;Ras Al Khaimah;Sha'biyyat Milāḩ
 0;56.1024,25.7981;AE-05;Ras Al Khaimah;Al Hayilah
 8561;55.2410,25.0459;AE-03;Dubai;Dubai Motor City
@@ -396,7 +396,7 @@
 0;56.0820,25.5067;AE-04;Fujairah;Ar Riwedah
 0;56.1763,25.4949;AE-04;Fujairah;Dab‘ah
 0;56.1592,25.6142;AE-04;Fujairah;Al Baqil
-0;56.1693,24.9268;AE-05;Ras Al Khaimah;Sha'biyyat Sikhе̄bar
+0;56.1693,24.9268;AE-05;Ras Al Khaimah;Sha'biyyat Sikhēbar
 0;55.8378,24.9766;AE-06;Sharjah;Sha'biyyat Al Khawālid
 0;56.1390,24.8834;AE-05;Ras Al Khaimah;As Simsimānīyah
 0;56.2754,25.0229;AE-04;Fujairah;Al Uqdah

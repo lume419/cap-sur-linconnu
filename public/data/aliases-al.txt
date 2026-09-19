@@ -1305,7 +1305,7 @@ bs;Tirana;Tiranë
 hu;Tirana;Tiranë
 tg;Тирана;Tiranë
 is;Tírana;Tiranë
-os;Тиранæ;Tiranë
+os;Тиранӕ;Tiranë
 ce;Тирана;Tiranë
 mhr;Тиране;Tiranë
 ckb;تیرانا;Tiranë

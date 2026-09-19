@@ -3491,7 +3491,7 @@
 0;-87.7253,13.4936;SV-07;La Union;Los Naranjos
 0;-89.6375,13.8731;SV-13;Sonsonate Department;Finca Mauritania
 0;-89.1072,13.3959;SV-06;La Paz Department;Playa El Pimental
-0;-88.9470,13.3545;SV-06;La Paz Department;San Luis la  Herradura
+0;-88.9470,13.3545;SV-06;La Paz Department;San Luis la Herradura
 0;-89.4945,14.2665;SV-11;Santa Ana Department;Azacualpa
 0;-88.4508,13.2143;SV;;Isla Rancho Viejo
 0;-88.4155,13.2401;SV-14;Usulutan;Puerto El Flor

@@ -1664,7 +1664,7 @@ is;Prag;Praha
 ka;პრაღა;Praha
 ko;프라하;Praha
 lv;Prāga;Praha
-os;Прагæ;Praha
+os;Прагӕ;Praha
 pl;Praga;Praha
 ro;Praga;Praha
 ru;Прага;Praha

@@ -41,7 +41,6 @@ my;Zigan;Zee Kan
 my;Zidaw;Zee Taw
 my;Zee Taw;Zidaw
 my;ဇီးတော;Zidaw
-my;​ဇောင်းလျားကုန်း;Zaung Hlar Kone
 my;ဇီဒမ်း;Zee Dam
 my;Zichaung;Zee Chaung
 my;ဇီးဖြူဆိပ်;Zee Hpyu Seik
@@ -97,7 +96,7 @@ my;ဇရပ်ကုန်းခင်;Za Yat Kone Khin
 my;ဇရပ်လှ;Za Yat Hla
 my;ဇရပ်ချောင်း;Za Yat Chaung
 my;ဇောတိက;Zaw Ti Ka
-my;​ဇောတိကုန်း;Zaw Ti Kone
+my;ဇောတိကုန်း;Zaw Ti Kone
 my;Zawngte;Zongte
 my;ဇောင်သဲ;Zongte
 my;ဇော်မတက်;Zaw Ma Tet
@@ -295,7 +294,7 @@ my;Yae Sone;Yezon
 my;ရေဆုံး;Yezon
 my;ရေစိုးချောင်း;Yae Soe Chaung
 my;Yezin;Yae Zin
-my;​ရေဆင်း;Yae Sin
+my;ရေဆင်း;Yae Sin
 my;Yeywa;Ye
 my;ရေယို;Yae Yo
 my;Yeyin;Yae Yin
@@ -310,7 +309,6 @@ my;ယင်းမာကုန်း;Yin Mar Kone
 ur;یتھپا;Yethpa
 my;ရေသိုးကြီး;Yae Thoe Gyi
 my;ရေသိုးကလေး;Yae Thoe Ka Lay
-my;​ရေသိုး;Yae Thoe
 my;ကရင်ရေသိုး;Kuyin Yae Thoe
 my;ရေသိုး;Yae Thoe
 my;Yethayauk;Yae Tha Yauk
@@ -320,7 +318,7 @@ my;ရဲသာ;Ye Thar
 my;ရက်ချောင်;Yet Chaung
 my;ရေတံခွန်;Yae Ta Khun
 my;ရထားကုန်း;Ya Htar Kone
-my;​ရေစို;Yae So
+my;ရေစို;Yae So
 my;Yeshin;Yae Shin
 my;ရေရှင်;Yae Shin
 my;Yeshan;Yae Shan
@@ -331,7 +329,7 @@ shn;ယေႇၸၵျူဝ်ႇ၊ ဝဵင်း;Yesagyo
 my;ရေစကြိုမြို့;Yesagyo
 ur;یسگیو;Yesagyo
 my;Yepadaing;Ye Pa Daing
-my;​ရေအိုးစဉ်;Yae Oe Sin
+my;ရေအိုးစဉ်;Yae Oe Sin
 my;Yenya-u;Yae Nyar U
 my;ရဲနွဲ့;Ye Nwet
 my;ရေနီကြီး;Yae Ni Gyi
@@ -344,7 +342,7 @@ my;ရေငံကြီး;Yae Ngan Gyi
 my;Yengan;Yae Ngan
 my;Yae Ngan;Yengan
 my;ရေငံ;Yengan
-my;​ရေနောက်;Yae Nauk
+my;ရေနောက်;Yae Nauk
 ur;یناتھا;Yenatha
 my;Yenatha;Yae Nant Thar
 ru;Енанджаун;Yenangyaung
@@ -358,7 +356,7 @@ my;ရဲမွန်;Ye Mun
 my;Yemon;Yae Mon
 my;ရေမုံ;Yae Mon
 my;ရေမကျီးတန်း;Yae Ma Gyi Tan
-my;​ရေမကျီးချောင်;Yae Ma Gyi Chaung
+my;ရေမကျီးချောင်;Yae Ma Gyi Chaung
 my;Yelegwe;Yae Lel Kwayt
 my;ရေလည်ကွေ့;Yae Lel Kwayt
 my;ရေလဲ;Yae Le
@@ -367,16 +365,14 @@ my;Yelaung;Yae Laung
 my;Yekha;Yae Khar
 my;ရေညှင်းချောင်း;Yae Hnyin Chaung
 my;ရဲလှ;Ye Hla
-my;​ရေချိုကြီး;Yae Cho Gyi
+my;ရေချိုကြီး;Yae Cho Gyi
 ur;یگیبہک;Yegyibauk
 my;Yegyi;Yae Kyi
 my;Yegyi;Ye Gyi
-my;​ရေကျော်ကြီး;Yae Kyaw Gyi
 my;ရေကျော်ကြီး;Yae Kyaw Gyi
 my;ရေကျော်တို;Yae Kyaw To
 my;ရေကျော်တိုး;Yae Kyaw Toe
 my;ရေကျော်;Yae Kyaw
-my;​ရေကျော်လေး;Yae Kyaw Lay
 my;အတွင်းရေကျော်;Ah Twin Yae Kyaw
 my;Yae Kyaw;Ye Gyaw
 my;Ah Twin Yae Kyaw;Ye Gyaw
@@ -406,13 +402,12 @@ my;Yedwinpyu;Yae Twin Hpyu
 my;ရေတွင်းဖြူ;Yae Twin Hpyu
 my;ရေတွင်းကျွန်း;Yae Twin Kyun
 my;Yedwingyi;Yae Twin Gyi
-my;​ရေတွင်းကုန်းရွာမ;Yae Twin Kone Ywar Ma
-my;​ရေတွင်းကုန်း;Yae Twin Kone
+my;ရေတွင်းကုန်းရွာမ;Yae Twin Kone Ywar Ma
 my;Yae Htwet;Yedwet
 my;ရေထွက်;Yedwet
 my;Yedaw;Yae Taw
 my;Yedaing;Ye Taing
-my;​ရေတာလေး;Yae Tar Lay
+my;ရေတာလေး;Yae Tar Lay
 my;Yecho;Yae Cho
 my;ရေချို;Yae Cho
 my;ရေချမ်းကြီး;Yae Chan Gyi
@@ -439,7 +434,7 @@ en;Yebôk;Yae Boke
 ur;یبوک;Yae Boke
 nl;Yebôk;Yae Boke
 my;ရေဘုတ်;Yae Boke
-my;​ရေပေါ်သဲ့;Yae Paw Theit
+my;ရေပေါ်သဲ့;Yae Paw Theit
 my;Yebawgyi;Ye Baw Gyi
 my;ရေပေါ်ကြီး;Yae Paw Gyi
 my;ရေပေါ်ကန်;Yae Paw Kan
@@ -1271,7 +1266,7 @@ my;Thawin;Tha Win
 my;သဝင်;Tha Win
 my;သာဝတ္တိ;Thar Wut Hti
 my;ထောင်မွန်;Htaung Mun
-my;​ရေသောင်တော;Yae Thaung Taw
+my;ရေသောင်တော;Yae Thaung Taw
 my;သောင်းဒရား;Thaung Da Rar
 my;သောင်တန်း;Thaung Tan
 my;တောင်ပြင်;Taung Pyin
@@ -1291,7 +1286,7 @@ my;သရခါ;Tha Ra Khar
 my;သာရဘွင်;Thar Ra Bwin
 my;Thapankaing;Tha Hpan Kaing
 my;Tha Hpan Chaung;Thapangyaung
-my;​သဖန်းချောင်း;Thapangyaung
+my;သဖန်းချောင်း;Thapangyaung
 my;Thapandaw;Tha Man Taw
 en;Thapandaung;Tha Hpan Daunt
 nl;Thapandaung;Tha Hpan Daunt
@@ -1522,7 +1517,7 @@ my;Teinbala;Htein Ba Lar
 my;ထိပ်ဝပြင်;Hteik Wa Pyin
 my;ထေးပလော်ခူ;Htay Pa Law Khu
 my;Htay Paw Khu;Htay Pa Law Khu
-my;​ထေးပေါ်ခူ;Htay Pa Law Khu
+my;ထေးပေါ်ခူ;Htay Pa Law Khu
 my;ထယ်လှော်;Htei Hlaw
 my;တဲကြီးကုန်း;Te Gyi Kone
 my;Tegyidaw;Tei Gyi Taw
@@ -1550,7 +1545,6 @@ my;Taywinbo;Tu Ywin Boet
 my;တရုတ်ထောက်;Ta Yoke Htauk
 my;တာရဲ;Tar Ye
 my;တောစွန်း;Taw Sun
-my;​တောစွန်း;Taw Sun
 my;Tawzu;Taw Su
 my;Tawzauk;Taw Zauk
 my;Tawywa;Taw
@@ -1573,13 +1567,13 @@ my;တောမ;Taw Ma
 my;Tawma;Taw Ma
 my;တောလယ်;Taw Lel
 my;တော်လတီရွာမ;Taw La Ti Ywar Ma
-my;​တော်လတဲ့;Taw La Teit
+my;တော်လတဲ့;Taw La Teit
 my;တော်လန်း;Taw Lan
-my;​တော်ချိုက်;Taw Chaik
+my;တော်ချိုက်;Taw Chaik
 my;တောကြား;Taw Kyar
 my;Tawku;Taw Ku
 my;တော်ကူး;Taw Ku
-my;​တော်ခရမ်း;Taw Kha Yan
+my;တော်ခရမ်း;Taw Kha Yan
 my;Tawkana;Taw Ka Nar
 my;တော်ကမူး;Taw Ka Mu
 my;တော်ခလူး;Taw Kha Lu
@@ -1647,7 +1641,7 @@ my;တောင်ဦး;Taung U
 my;တောင်ရင်းအင်း;Taung Yin Inn
 my;Taungyagan;Taung Yar Kan
 my;တောင်ယာကမ်း;Taung Yar Kan
-my;​တောင်ယာတန်း;Taung Yar Tan
+my;တောင်ယာတန်း;Taung Yar Tan
 my;တောင်ယာပြင်;Taung Yar Pyin
 my;တောင်ဝိုင်း;Taung Waing
 my;ထောင်တင်;Htaung Tin
@@ -1664,7 +1658,7 @@ my;Taungshe;Taung Shey
 my;တောင်ခြေ;Taung Chay
 my;တောင်ရှည်;Taung Shey
 my;တောင်းရှည်;Taung Shey
-my;​တောင်စမ်း;Taung San
+my;တောင်စမ်း;Taung San
 my;Taungpyu;Htaung Hpyu
 my;ထောင်ဖြူ;Htaung Hpyu
 my;တောင်ပြို;Taung Pyo
@@ -1676,7 +1670,6 @@ my;တောင်ပေါ်;Taung Paw
 my;တောင်ပတ်လည်;Taung Pat Lel
 my;တောင်ဖလု;Taung Hpa Lu
 my;တောင်ညို;Taung Nyo
-my;​တောင်ညို;Taung Nyo
 my;တောင်နီ;Taung Ni
 my;Taungngok;Taung Ngoke
 my;တောင်မြင့် ရွာသစ်;Taung Myint Ywar Thit
@@ -1745,7 +1738,6 @@ my;တောင်ချောက်;Taung Chauk
 my;Taungbyon;Taung Pyone
 my;တောင်ပြေ;Taung Pyay
 my;တောင်ပို့သာ;Taung Poet Thar
-my;​တောင်ပို့တရာ;Taung Poet Ta Yar
 my;Taungbon;Taung Pon
 my;တောင်ဘုံ;Taung Bon
 my;တောင်ပုတ်ကေ;Taung Poke Kay
@@ -1760,8 +1752,7 @@ my;Taungbaw;Taung Paw Ba Lon
 my;တောင်ပေါ်ဗလုံ;Taung Paw Ba Lon
 my;တောင်ပေါက်;Taung Pauk
 my;Taukshagon;Htauk Shar Kone
-my;​ထောက်ရှာ;Htauk Shar
-my;​ထောက်ကြံ့ကွင်း;Htauk Kyant Kwin
+my;ထောက်ရှာ;Htauk Shar
 my;တာအုပ်ခီး;Tar Oke Khee
 my;Tatywa;Tat
 my;တပ်;Tat
@@ -2012,7 +2003,7 @@ my;စုကလိမြို့;Sukali
 my;Suga;Su Kar
 my;ဆူးတွင်း;Su Twin
 my;Su Tat;Sudat
-my;​ဆူးတပ်;Sudat
+my;ဆူးတပ်;Sudat
 my;Subyugon;Su Hpyu Kone
 my;ဆူးဖြူကုန်း;Su Hpyu Kone
 my;Subyugan;Su Hpyu Kan
@@ -2236,7 +2227,7 @@ my;Shwewagyaung;Shwe War Chaung
 my;ရွှေဝါချောင်;Shwe War Chaung
 my;ရွှေဦးကွင်း;Shwe U Kwin
 my;ရွှေတော;Shwe Taw
-my;​ရွှေတောင်ပန်;Shwe Taung Pan
+my;ရွှေတောင်ပန်;Shwe Taung Pan
 my;Shwepyiyin;Shwe Pyayt Yin
 my;ရွှေပိုးဟပ်ရွာဟောင်း;Shwe Poe Hat Ywar Haung
 my;ရွှေဖလားကျ;Shwe Hpa Lar Kya
@@ -2245,16 +2236,16 @@ my;ရွှေအုပ်;Shwe Oke
 my;ရွှေညိုမ;Shwe Nyo Ma
 my;Shwe Nyaung Hpu;Shwenyaungbu
 my;ရွှေညောင်ဖူး;Shwenyaungbu
-my;​ရွှေနားကွင်း;Shwe Nar Kwin
-my;​ရွှေလူ;Shwe Lu
+my;ရွှေနားကွင်း;Shwe Nar Kwin
+my;ရွှေလူ;Shwe Lu
 my;ရွှေလင်ဘန်း;Shwe Lin Ban
 my;ရွှေလင်း;Shwe Lin
-my;​ရွှေလှေကွင်း;Shwe Hlay Kwin
+my;ရွှေလှေကွင်း;Shwe Hlay Kwin
 my;Shwele;Shwe Lay
 my;ရွှေလှေလေး;Shwe Hlay Lay
 my;Shwelaung-in;Shwe Laung Inn
 my;ရွှေလောင်းအင်း;Shwe Laung Inn
-my;​ရွှေလောင်းကျင်;Shwe Laung Kyin
+my;ရွှေလောင်းကျင်;Shwe Laung Kyin
 my;Shwelaung;Shwe Laung
 my;Shweku;Shwe Ku
 my;ရွှေခုံတိုင်;Shwe Khon Taing
@@ -2264,7 +2255,6 @@ my;Shwehle;Shwe Hlay
 my;ရွှေလှေ;Shwe Hlay
 my;ရွှေလှော်;Shwe Hlaw
 my;Shwegyin;Shwe Kyin
-my;​ရွှေပြည်;Shwe Pyi
 my;ရွှေကျော်;Shwe Kyaw
 my;ရွှေကျောင်းပြင်;Shwe Kyaung Pyin
 my;Shwegyaung;Shwe Chaung
@@ -2278,7 +2268,7 @@ my;ချောင်တင်းကွင်း;Chaung Tin Kwin
 my;ရွှေကုန်း;Shwe Kone
 my;Shwegēnyo;Shwe Ge Nyo
 my;ရွှေဂဲညို;Shwe Ge Nyo
-my;​ရွှေခဲအင်း;Shwe Khe Inn
+my;ရွှေခဲအင်း;Shwe Khe Inn
 my;ရွှေကဲ;Shwe Ke
 my;Shwedwingon;Shwe Twin Kone
 my;ရွှေတွင်းကုန်း;Shwe Twin Kone
@@ -2293,13 +2283,11 @@ my;ရွှေတောင်ကျော်;Shwe Taung Kyaw
 my;ရွှေတောင်ဘို;Shwe Taung Bo
 my;ရွှေတောင်;Shwe Taung
 my;Shwedaung;Shwe Taung
-my;​ရွှေတောင်;Shwe Taung
 my;ရွှေပြည်;Shwe Pyi
 my;ရွှေဘိုစု;Shwe Bo Su
 my;Shwe Bo Su;Shwe Bo Zu
 my;ရွှေဘိုစု;Shwe Bo Zu
 my;Shwebontha;Shwe Bon Thar
-my;​ရွှေပေး;Shwe Pay
 my;Shwebawgyun;Shwe Paw Kyun
 my;Shwebaw;Shwe Baw Kone
 my;ရွှေဘော်ကုန်း;Shwe Baw Kone
@@ -2346,7 +2334,7 @@ my;လျှော်ဖြူကုန်း;Hlyaw Hpyu Kone
 my;လျှော်ဖြူကန်;Hlyaw Hpyu Kan
 my;Shawbyubin;Hlyaw Hpyu Pin
 my;လျှော်ဖြူပင်;Hlyaw Hpyu Pin
-my;​ရှောပြာကုန်း;Shaw Pyar Kone
+my;ရှောပြာကုန်း;Shaw Pyar Kone
 my;လျှော်ပင်;Hlyaw Pin
 my;Shawbin;Sa Par Thin
 my;စပါးသင်;Sa Par Thin
@@ -2499,7 +2487,7 @@ my;Saungnainggwa;Saung Naing Gwa
 my;ဆောင်နိုင်ဂွ;Saung Naing Gwa
 my;Saungnaing;Saung Naing Gyi
 my;ဆောင်နိုင်ကြီး;Saung Naing Gyi
-my;​ဆောင်ဘုံ;Saung Bon
+my;ဆောင်ဘုံ;Saung Bon
 en;Saulang;Lang Jaw
 nl;Saulang;Lang Jaw
 my;လန်းဂျော;Lang Jaw
@@ -3195,7 +3183,6 @@ my;ဘုရားကုန်း;Hpa Yar Kone
 my;သာယာဝင်း;Thar Yar Win
 my;Hpa Yar Kone;Thar Yar Win
 my;ဘုရားကုန်း;Thar Yar Win
-my;​ပျော်ကုန်း;Pyaw Kone
 my;ဘုရားကလေး;Hpa Yar Ka Lay
 my;Payadu;Hpa Yar Htu
 my;ဘုရားထု;Hpa Yar Htu
@@ -3245,7 +3232,7 @@ zh-Hant;龐賓;Paungbyin
 shn;ၽွင်းပၢင်ႇ၊ ဝဵင်း;Paungbyin
 my;ဖောင်းပြင်မြို့;Paungbyin
 zh;庞宾;Paungbyin
-my;​ပေါင်;Paung
+my;ပေါင်;Paung
 ja;パウン;Paung
 shn;ပွင်ႇ၊ ဝဵင်း;Paung
 my;ပေါင်မြို့;Paung
@@ -3264,7 +3251,7 @@ my;ပေါက်တော;Pauktaw
 my;သူဌေးကုန်းပေါက်တော;Thu Htay Kone Pauk Taw
 my;ပုတ္တ;Poke Ta
 my;Pauktabin;Pauk Ta Pin
-my;​ပေါက်ဆိန်ပဲ့;Pauk Sein Peit
+my;ပေါက်ဆိန်ပဲ့;Pauk Sein Peit
 my;ပေါက်ပြိန်;Pauk Pyein
 my;ပေါက်ပြင်;Pauk Pyin
 my;Paukpinkwin;Pauk Pin Kwin
@@ -3276,7 +3263,6 @@ my;ပေါက်လေဝမြောက်;Pauk Lay Wa Myauk
 my;ပေါလောက်;Paw Lauk
 my;ပေါက်ကုန်း;Pauk Kone
 my;Paukkon;Pauk Kone
-my;​ပေါက်ကုန်း;Pauk Kone
 my;Pauk Kha Nee;Paukkani
 my;ပေါက်ခနီး;Paukkani
 my;Paukkan;Pauk Kan
@@ -3652,7 +3638,6 @@ my;ညောင်ဆိပ်;Nyaung Seik
 my;ညောင်ရမ်းစျေး;Nyaung Yan Zay
 my;Nyaungwun;Nyaung Wun
 my;Nyaungwin;Nyaung Wun
-my;​ညောင်ဝိုင်း;Nyaung Waing
 my;ညောင်ဝိုင်း;Nyaung Waing
 my;Nyaungwaing;Nyaung Waing
 de;Nyaung U;Nyaung-U
@@ -3675,7 +3660,7 @@ te;న్యాయుంగ్-యు;Nyaung-U
 th;ยอง อู;Nyaung-U
 ja;ニャウンウー;Nyaung-U
 shn;ၺွင်ႇဢူး၊ ဝဵင်း;Nyaung-U
-my;​ညောင်တခြမ်း;Nyaung Ta Chan
+my;ညောင်တခြမ်း;Nyaung Ta Chan
 my;ညောင်ရွှေမြို့;Nyaungshwe
 en;Yawnghwe;Nyaungshwe
 en;Nyaung Shwe;Nyaungshwe
@@ -3686,7 +3671,7 @@ my;Nyaungokpi;Nyaung Oke Hpee
 my;ညောင်အုပ်ဖီး;Nyaung Oke Hpee
 my;Nyaung-ok;Nyaung Oke
 my;ညောင်နီ;Nyaung Ni
-my;​ညောင်မှော်;Nyaung Hmaw
+my;ညောင်မှော်;Nyaung Hmaw
 my;ညောင်လူး;Nyaung Lu
 my;Nyaung Lein Kone;Nyaung Lein Gon
 my;ညောင်လိန်ကုန်း;Nyaung Lein Gon
@@ -3695,8 +3680,7 @@ my;ညောင်လေးပင်;Nyaung Lay Pin
 ru;Ньяунлебин;Nyaunglebin
 shn;ၺွင်ႇလေးပိၼ်ႇ၊ ဝဵင်း;Nyaunglebin
 my;ညောင်လေးပင်;Nyaunglebin
-my;​ညောင်လေးပင်;Nyaung Lay Pin
-my;​ညောင်လမ်းငူ;Nyaung Lan Ngu
+my;ညောင်လမ်းငူ;Nyaung Lan Ngu
 my;ညောင်လန်းကန်;Nyaung Lan Kan
 my;Nyaunglan;Nyaung Lan
 my;ညောင်လမ်း;Nyaung Lan
@@ -3714,7 +3698,6 @@ my;ညောင်ကုန်းလေး;Nyaung Kone Lay
 my;Nyaunggon;Nyaung Kone
 my;ညောင်ကုန်း;Nyaung Kone
 my;ညောင်ကန်;Nyaung Kan
-my;​ညောင်ကုန်း;Nyaung Kone
 my;Nyaunggon;Nyaung Kone Gyi
 my;ညောင်ကုန်းကြီး;Nyaung Kone Gyi
 my;Nyaung Kone;Nyaung Gon
@@ -3747,7 +3730,6 @@ my;Nyaungbinyo;Nyaung Pin Yoe
 my;ညောင်ပင်ဝိုင်း;Nyaung Pin Waing
 my;ညောင်ပင်သာ;Nyaung Pin Thar
 my;Nyaungbintha;Nyaung Pin Thar
-my;​ညောင်ပင်သာ;Nyaung Pin Thar
 my;ညောင်ပင်ဆိပ်;Nyaung Pin Seik
 my;ညောင်ပင်လယ်;Nyaung Pin Lel
 my;ညောင်ပင်ကွင်း;Nyaung Pin Kwin
@@ -4300,7 +4282,7 @@ my;Myetkha-in;Myet Khar Inn
 my;မျက်ခါးအင်း;Myet Khar Inn
 my;Myay Thin Twin;Mye-thindwin
 my;မြေသင်းတွင်း;Mye-thindwin
-my;​မြေနီကွင်း;Myay Ni Kwin
+my;မြေနီကွင်း;Myay Ni Kwin
 my;မြေနီကုန်း;Myay Ni Kone
 my;Mye-nidaung;Myay Ni Taung
 my;မြေနီတောင်;Myay Ni Taung
@@ -4330,19 +4312,19 @@ ur;میازیدی;Mya Zay Di
 nl;Myazedi;Mya Zay Di
 my;မြစေတီ;Mya Zay Di
 my;မြယာရိုး;Mya Yar Yoe
-my;​ရွှေမြယာကုန်း;Shwe Mya Yar Kone
+my;ရွှေမြယာကုန်း;Shwe Mya Yar Kone
 my;မျှော်တော်ဦး;Hmyaw Taw U
 my;မျောဂျောင်း;Myaw Jawng
 my;Myawadi;Mya Wa Di
 my;မြဝတီ;Myawaddy
 ur;میاؤنگزن;Myaungzin
 my;Myaung;Myaungywa
-my;​မြောင်;Myaungywa
+my;မြောင်;Myaungywa
 my;Myaung-u;Myaung U
 my;Myaung U;Myaungu
 my;မြောင်းဦး;Myaungu
 my;မြောင်သာ;Myaung Thar
-my;​မြောင်းတကာ;Myaung Ta Kar
+my;မြောင်းတကာ;Myaung Ta Kar
 my;မြောင်းတလုပ်;Myaung Ta Loke
 ru;Мяунгмья;Myaungmya
 my;မြောင်းမြမြို့;Myaungmya
@@ -4359,10 +4341,10 @@ my;Myauktaw;Myauk Taw
 my;မြောက်တော;Myauk Taw
 my;မျောက်တောင်;Myauk Taung
 my;မောင်းဆွဲ;Maung Swea
-my;​မြောက်စမ်း;Myauk San
+my;မြောက်စမ်း;Myauk San
 my;မြောက်ပြင်;Myauk Pyin
 my;မောက်ပြား;Mauk Pyar
-my;​မြောက်ပန်းကုန်း;Myauk Pan Kone
+my;မြောက်ပန်းကုန်း;Myauk Pan Kone
 ur;میاؤکناو;Myauknaw
 my;Myaukmigon;Myauk Mee Kone
 my;မြောက်မီးကုန်း;Myauk Mee Kone
@@ -4830,11 +4812,11 @@ my;Mayingyi;Ma Yin Gyi
 my;မရင်းကြီး;Ma Yin Gyi
 my;မူရွင်း;Mu Ywin
 my;မာယောဖိုလီ;Mar Yaw Hpo Li
-my;​မရောင့်ရဲ;Ma Yaunt Ye
+my;မရောင့်ရဲ;Ma Yaunt Ye
 my;မရမ်းကျင်း;Ma Yan Kyin
 my;မရမ်းချောင်း ကွာရီရွာသစ်;Ma Yan Chaung Kwar Yi Ywar Thit
 my;မရမ်းချောင်း;Ma Yan Chaung
-my;​မေဒါအိုင်;May Dar Aing
+my;မေဒါအိုင်;May Dar Aing
 my;မရမ်းကွင်း;Ma Yan Kwin
 my;မရမ်းဂွ;Ma Yan Gwa
 my;မရမ်းခုံ;Ma Yan Khon
@@ -4875,7 +4857,7 @@ my;မောတူဒိုး;Maw Tu Doe
 my;မာအိုဝမ်;Mauvom
 my;မအူ;Ma Au
 my;မောင်းရမ်း;Maung Yan
-my;​မောင်ဘလောက်;Maung Ba Lauk
+my;မောင်ဘလောက်;Maung Ba Lauk
 my;Maungmeshaung;Maung Mei Shaung
 my;မောင်မယ်ရှောင်;Maung Mei Shaung
 my;မောင်းမကန်;Maung Ma Kan
@@ -5316,7 +5298,7 @@ my;လယ်မ;Lel Ma
 my;Lema;Lel Ma
 my;လဲလူးအိုင်;Le Lu Aing
 my;Lay Lan Pin;Le Lan Bin
-my;​လေလံပင်;Le Lan Bin
+my;လေလံပင်;Le Lan Bin
 my;လေးကေ;Lay Kay
 my;လေဆင်း;Leising
 my;လေပီး;Leipi
@@ -5358,7 +5340,7 @@ my;Lel Kwet Gyi;Legwetkyi
 my;လယ်ကွက်ကြီး;Legwetkyi
 my;Le Gwa;Legwa
 my;လဲဂွ;Legwa
-my;​လေးဂွ;Lay Gwa
+my;လေးဂွ;Lay Gwa
 my;လှည်းကူး;Hle Ku
 my;လဲခုံကြီး;Le Khon Gyi
 my;လဲခုံလေး;Le Khon Lay
@@ -5369,7 +5351,7 @@ my;လယ်ကန်;Legan
 my;ချောင်းကျိုး;Chaung Kyoe
 my;လေးအိမ်တန်း;Lay Ein Tan
 my;လေးတူး;Lay Tu
-my;​လေးဒူး;Lay Du
+my;လေးဒူး;Lay Du
 my;လယ်တီချောင်;Lel Ti Chaung
 my;လယ်တောကြီး;Lel Taw Gyi
 my;လဲတော;Le Taw
@@ -5436,7 +5418,7 @@ my;လောင်းဒရိတ်;Laung Da Reik
 my;လောင်တန်း;Laungdan
 my;လဘော်ဝ;La Baw Wa
 my;လောက်ခုတ်;Lauk Hkoke
-my;​လောက်လေးချောင်း;Lauk Lay Chaung
+my;လောက်လေးချောင်း;Lauk Lay Chaung
 ur;لاتساون;Latsawn
 ur;لا-ٹای;La-tai
 my;လတာကြီး;La Tar Gyi
@@ -5489,7 +5471,7 @@ ur;لامونگ-گہت ونگ;Lamung-gahtawng
 my;လမုခို;La Mu Kho
 ur;لاموک;Lamuk
 my;လမုကြီး;La Mu Gyi
-my;​အောက်လမုတန်း;Auk La Mu Tan
+my;အောက်လမုတန်း;Auk La Mu Tan
 my;လမူးချေ;La Mu Chay
 my;လမူးမော်;La Mu Maw
 my;လမ်သုတ်;Lamtuk
@@ -5578,7 +5560,7 @@ my;Kywetalin;Kywe Ta Lin
 my;ကျွဲတလင်း;Kywe Ta Lin
 my;ကျွဲထိုး;Kywe Htoe
 my;ကျွဲရှင်း;Kywe Shin
-my;​ကြွေပုဂံချောင်း;Kyway Bagan Chaung
+my;ကြွေပုဂံချောင်း;Kyway Bagan Chaung
 my;ကျွဲအိုး;Kywe Oe
 my;ကျွဲနန်း;Kywe Nan
 my;Kywenadauk;Kywe Nwar Htauk
@@ -5784,7 +5766,7 @@ my;ကျီးပင်;Kyee Pin
 my;ကြိုးအောင်း;Kyoe Aung
 my;ကျီးသာအိုင့်;Kyee Thar Aint
 my;ကြီး;Kyee
-my;​ကျေးစာဥ;Kyay Sar U
+my;ကျေးစာဥ;Kyay Sar U
 my;ကျီရာပြင်;Kyi Yar Pyin
 my;ကြက်ရိုး;Kyet Yoe
 my;Kyetyettwin;Kyet Yet Twin
@@ -5848,15 +5830,13 @@ my;ကြေးတန်းကူး;Kyay Tan Ku
 my;ကျေးပင်;Kyay Pin
 my;ကြဲ;Kye
 my;Kyawzi;Kyaw Zi
-my;​ကျော်ဇံ;Kyaw Zan
 my;ကျော့ရွာ;Kyawt Ywar
 my;ကျော်နု;Kyaw Nu
 my;ကျော်ချောင်း;Kyaw Chaung
 my;ကျော်ကိုင်း;Kyaw Kaing
-my;​ကျောင်းစု;Kyaung Su
 my;Kyaungywa;Kyaung
 my;Kyaung;Kyaungywa
-my;​ကျောင်း;Kyaungywa
+my;ကျောင်း;Kyaungywa
 my;ကျောင်း;Kyaung
 my;Kyaungywa;Kyaung Ywar
 my;ကျောင်းရွာ;Kyaung Ywar
@@ -5871,7 +5851,6 @@ my;Kyaungnein;Kyaung Neint
 my;ကျောင်းနိမ့်;Kyaung Neint
 my;Kyaungnan;Kyaung Nan
 my;ဦးကြာမှိုင်းပတုတ်;U Kyar Hmaing Pa Toke
-my;​ကျောင်းကွင်း;Kyaung Kwin
 my;ကျောင်းကုန်း;Kyaung Kone
 my;Kyaunggon;Kyaung Kone
 shn;ၵျွင်းၵူင်း၊ ဝဵင်း;Kyaunggon
@@ -5883,7 +5862,7 @@ my;ကျောက်လုလင်;Kyauk Lu Lin
 my;ကျောင်းချောင်း;Kyaung Chaung
 my;Kyaungbyugan;Kyaung Hpyu Kan
 my;ကြောင်ဖြူကွင်း;Kyaung Hpyu Kwin
-my;​ကျောင်းအိုင်;Kyaung Aing
+my;ကျောင်းအိုင်;Kyaung Aing
 my;ကျောက်ရိုး;Kyauk Yoe
 my;Kyaukyin;Kyauk Yin
 my;Kyaukyedwin;Kyauk Yae Twin
@@ -5895,7 +5874,7 @@ my;Kyaukwutpyin;Kyauk Wut Pyin
 my;ကျောက်ဝပ်ပြင်;Kyauk Wut Pyin
 my;Kyauktwin;Kyauk Twin
 my;ကျောက်တွင်း;Kyauk Twin
-my;​ကျောက်ထပ်;Kyauk Htat
+my;ကျောက်ထပ်;Kyauk Htat
 my;ကျောက်ထုံး;Kyauk Htone
 my;Kyaukthinbaw;Kyauk Thin Baw
 my;ကျောက်သင်္ဘော;Kyauk Thin Baw
@@ -5915,7 +5894,6 @@ my;Kyauktakwa;Kyauk Ta Khwa
 my;ကျောက်တခွ;Kyauk Ta Khwa
 my;Kyauktaing;Kyauk Taing
 my;ကျောက်တိုင်;Kyauk Taing
-my;​ကျောက်တိုင်;Kyauk Taing
 my;ကျောက်တံခါး အောက်;Kyauk Ta Gar Lower
 my;Kyauktada;Kyauk Ta Dar
 my;ကျောက်စု;Kyauk Su
@@ -5943,7 +5921,6 @@ my;Kyauksaung;Kyauk Saung
 my;Kyauksaukkon;Kyauk Sauk Kone
 my;ကျောက်ဆောက်;Kyauk Sauk
 my;Kyauksarit;Kyauk Sa Yit
-my;​ကျောက်စရစ်ကုန်း;Kyauk Sa Yit Kone
 my;Kyauk Se;Kyauksa
 my;ကျောက်ဆည်;Kyauksa
 my;Kyaukpyugon;Kyauk Hpyu Kone
@@ -5961,7 +5938,7 @@ my;ကျောက်ပြင်သာ;Kyauk Pyin Thar
 my;ကျောက်ပြင်ဆိပ်;Kyauk Pyin Seik
 my;ကျောက်ပြောက်;Kyauk Pyauk
 my;Kyaukpyatthat;Kyauk Pyat That
-my;​ကျောက်ဖျာလေး;Kyauk Hpyar Lay
+my;ကျောက်ဖျာလေး;Kyauk Hpyar Lay
 my;Kyaukpya;Auk Kyauk Hpyar
 my;Kyaukpya;Kyauk Hpyar
 my;ကျောက်ဖျာ;Kyauk Hpyar
@@ -5973,7 +5950,6 @@ my;ကျောက်ပုံ;Kyauk Pon
 my;Kyauk Pon Kan;Kyaukpongan
 my;ကျောက်ပုံကန်;Kyaukpongan
 my;Kyaukpon;Kyauk Pon
-my;​ကျောက်ပုန်း;Kyauk Pone
 my;Kyaukpok;Kyauk Poke
 my;Kyaukpingan;Kyauk Pyin Kan
 my;ကျောက်ပြင်ကန်;Kyauk Pyin Kan
@@ -6019,12 +5995,12 @@ my;ကျောက်ကုန်း;Kyauk Kone
 my;ကျောက်ခုတ်;Kyauk Khoke
 my;ကျောက်ခေါင်းကွင်း;Kyauk Khaung Kwin
 my;ကျောက်ခမောက်;Kyauk Kha Mauk
-my;​ကျောက်ခဲကြီး;Kyauk Khe Gyi
+my;ကျောက်ခဲကြီး;Kyauk Khe Gyi
 my;ကျောက်ထရံ;Kyauk Hta Yan
 my;Kyaukkan;Kyauk Kan
 my;ကျောက်ကန်;Kyauk Kan
 my;ကျောက်ကလေး;Kyauk Ka Lay
-my;​ကျောက်ကလပ်;Kyauk Ka Lat
+my;ကျောက်ကလပ်;Kyauk Ka Lat
 my;Kyaukkahmauk;Kyauk Kha Mauk
 my;Kyaukka;Kyauk Kar Ywar Ma
 my;ကျောက္ကာရွာမ;Kyauk Kar Ywar Ma
@@ -6040,8 +6016,7 @@ my;Kyaukchaw;Kyauk Chaw
 my;ကျောက်ချော;Kyauk Chaw
 my;ကျောက်ဆုံ;Kyauk Son
 my;ကျောက်ချောင်း;Kyauk Chaung
-my;​ကျောက်ချောင်းလေး;Kyauk Chaung Lay
-my;​ကျောက်ချောင်း;Kyauk Chaung
+my;ကျောက်ချောင်းလေး;Kyauk Chaung Lay
 my;Kyaukchaung;Chauk Chaung
 my;ချောက်ချောင်း;Chauk Chaung
 my;Kyauk Chat;Kyaukchat
@@ -6476,7 +6451,7 @@ my;ခိန်းဇန်;Khiangzang
 my;ခိယန်းရွန်;Khiangrawn
 my;Khiangkan;Khiangkang
 my;ခီအန်ကန်း;Khiangkang
-my;​ခေနန်;Khay Nan
+my;ခေနန်;Khay Nan
 my;ခေးချီး;Khay Chee
 my;သာပဒေါင်း;Tar Pa Daung
 my;Khayon;Kha Yon
@@ -6586,7 +6561,7 @@ my;ကော်သူဒိုး;Kaw Thu Doe
 my;Kawthikhi;Khaw Ti Khee
 my;ခေါ်တိခီး;Khaw Ti Khee
 my;ထွီးကျော်လှ;Htwee Kyaw Hla
-my;​ကော့သင်း;Kawt Thin
+my;ကော့သင်း;Kawt Thin
 en;Kawthaung;Kawthoung
 fr;Kawthaung;Kawthoung
 es;Kawthaung;Kawthoung
@@ -6614,7 +6589,7 @@ my;Kawpanaw;Kawt Pa Naw
 my;ကော့ဖမွတ်;Kawt Hpa Mut
 my;ကော့ဖလွှတ်;Kawt Hpa Hlut
 my;ကော့ညိုင်း;Kawt Nyein
-my;​ကော့နွဲ့;Kawt Nwet
+my;ကော့နွဲ့;Kawt Nwet
 my;ကော့နွဲ;Kawt Nwe
 my;Kawnghkam;Kyaung Khan
 my;ကော့မြတ်ကြီး;Kawt Myat Gyi
@@ -6709,7 +6684,6 @@ my;ခေါင်းဒုက္ကာ;Khaung Doke Kar
 my;Kaungbinsi-myoma;Kaung Pin Si
 my;ကောင်းပင်စီ;Kaung Pin Si
 my;ကောက်ကျစ်;Kauk Kyit
-my;​ကောက်ကွေ့;Kauk Kwayt
 my;ကတွန်;Ka Tun
 my;ခတ္တိယရွာသစ်;Khat Hti Ya Ywar Thit
 my;တာမခန်;Tar Ma Hkan
@@ -7168,7 +7142,7 @@ my;In-ta-ga;Inn Ta Khar
 my;Inson;Inn Sone
 my;Inshe;Inn Shey
 my;အင်းရှည်;Inn Shey
-my;​တောအင်းစိန်;Taw Inn Sein
+my;တောအင်းစိန်;Taw Inn Sein
 ru;Инсеин;Insein
 my;အင်းပက်လက်;Inn Pet Let
 my;Inni;Inn Ni
@@ -7397,7 +7371,6 @@ my;ဖါနီ;Hpar Ni
 my;Hpanhpa;Hpan Hpa
 my;ဖံဖ;Hpan Hpa
 my;ဖန်ခိုင် ၁;Hpan Hkaing 1
-my;​ဖန်ခါးပင်;Hpan Khar Pin
 my;ဖလုံ;Hpa Lon
 my;ဖရော;Hpa Raw
 my;ဖလံ;Hpa Lan
@@ -7459,7 +7432,6 @@ my;နှစ်ခွ;Hnit Khwa
 my;ငှက်ကျ;Hnget Kya
 my;Hngetkadaung;Hnget Ka Taung
 my;Hnewe;Hne Wea
-my;​နှောကုန်း;Hnaw Kone
 my;Hnawgan;Hnaw Kan
 my;နှောပင်;Hnaw Pin
 my;နှော်;Hnaw
@@ -7473,7 +7445,7 @@ my;နှမ်းတောင်း;Hnan Taung
 my;နိုင်းခလောင်;Naing Kha Laung
 my;နှိထိအလ်;Hnahthial
 my;မျှော့ဝမ်း;Hmyawt Wan
-my;​မျှော်ချောင်း;Hmyaw Chaung
+my;မျှော်ချောင်း;Hmyaw Chaung
 my;Hmyaung-u;Hmyaung U
 my;မြှောင်းဦး;Hmyaung U
 my;မျှားချောင်း;Hmyar Chaung
@@ -7638,7 +7610,7 @@ ar;هنثادا;Hinthada
 te;హింతాడా;Hinthada
 th;ฮีนตาดะ;Hinthada
 ja;ヘンザダ;Hinthada
-my;​ဟေမန်;Hay Man
+my;ဟေမန်;Hay Man
 my;ဟဲလုံဟောင်း;He Long Haung
 my;Hele;He Lel
 en;Heinun;Hin Aun
@@ -7649,7 +7621,7 @@ my;ဟိန်းလတ်;Hein Lat
 ru;Хехо;Heho
 my;ဟော်ခမ်း;Haw Khan
 my;ဟောက်ဆင်;Hausen
-my;​ဟောက်ပီး;Haupi
+my;ဟောက်ပီး;Haupi
 my;ဟောင်ပါး;Hawng Par
 my;Haungnwe;Haung Nwet
 my;ဟတ္တလိုက်;Hat Ta Laik
@@ -7729,7 +7701,6 @@ my;Gwegyigon;Gway Gyi Kone
 my;Kwayt Gyi;Gwegyi
 my;ကွေ့ကြီး;Gwegyi
 my;ဂွေ့ကြီး;Gwayt Gyi
-my;​ဂွေ့ကြီး;Gwayt Gyi
 my;ဂွေးချောင်း;Gway Chaung
 my;Gwegon;Gway Kone
 my;Gway Kone;Gwegon
@@ -7737,7 +7708,6 @@ my;ဂွေးကုန်း;Gwegon
 my;Gwegan;Gway Kan
 my;ခွေးတောက်ကုန်း;Khway Tauk Kone
 my;ခွေးတောက်ခုံ;Khway Tauk Khon
-my;​ဂွေးတောက်ကုန်း;Gway Tauk Kone
 my;Khway Tauk Chaung;Nyaung Pin Hla
 my;ခွေးတောက်ချောင်း;Nyaung Pin Hla
 my;ခွေးတောက်ချောင်း;Khway Tauk Chaung
@@ -7828,7 +7798,6 @@ ja;ファラム;Falam
 shn;ၾလမ်း၊ ဝဵင်း;Falam
 ur;فالام، بورما;Falam
 my;Eywa;Aye
-my;​အေး;Aye
 my;အေး;Aye
 my;အရာတော်;Ah Yar Taw
 my;အေရာ;Aye Yar
@@ -7926,7 +7895,7 @@ my;ဒီးဒူးကုန်း;Dee Du Kone
 my;ဒေးဒနော;Day Da Naw
 my;ဒေးဒလူ;Day Da Lu
 my;ဒေဒါခို;Day Dar Kho
-my;​ဒေးပေါက်;Day Pauk
+my;ဒေးပေါက်;Day Pauk
 my;Debarein;Day Ba Rein
 my;ဒေးဗရိမ်း;Day Ba Rein
 my;ဒါးဆွဲ;Dar Swea
@@ -8023,7 +7992,6 @@ my;ထောင်ကလပ်;Htaung Ka Lat
 my;Daunggyigwe;Daunt Gyi Kwayt
 my;စက်ဒေါင့်ကြီး;Set Daunt Gyi
 my;ဒေါင့်ကြီး;Daunt Gyi
-my;​ဒေါင့်ကြီး;Daunt Gyi
 my;သခင်မကြီး;Daunt Gyi
 my;Daunggon;Daung Kone
 my;ဒေါင်းကုန်း;Daung Kone
@@ -8182,21 +8150,18 @@ my;Chaungzon;Chaung Son
 my;ချောင်းဆုံ;Chaung Son
 my;ချောင်းစောက်;Chaung Sauk
 my;ချောင်းဇောက်;Chaung Zauk
-my;​ချောင်းစောက်;Chaung Sauk
 my;Chaung-yung;Chaung Yaing
 my;ချောင်းရိုင်း;Chaung Yaing
 my;ချောင်းရင်း;Chaung Yin
 my;Chaungwin;Chaung Win
 my;ချောင်းဝင်;Chaung Win
-my;​ချောင်းကွေ့;Chaung Kwayt
+my;ချောင်းကွေ့;Chaung Kwayt
 my;Chaungwabyin;Chaung Wa Pyin
 my;ချောင်းဝပြင်;Chaung Wa Pyin
 my;ချောင်းဝ;Chaung Wa
-my;​ချောင်းဝ;Chaung Wa
 my;ချောင်းဦးမြို့;Chaung-u
 my;ဆောင်းဒူ;Saung Du
 my;ချောင်းသုံးခွ;Chaung Thone Gwa
-my;​ချောင်းသုံးခွ;Chaung Thone Gwa
 my;ချောင်းသစ်;Chaung Thit
 my;ချောင်းသာကြီး;Chaung Thar Gyi
 my;ကညင်ချောင်း တောင်;Ka Nyin Chaung South
@@ -8216,7 +8181,6 @@ my;Chaungle;Chaung Lel
 my;ချောင်းကဖက်;Chaung Ka Hpet
 my;ချောင်းကမ်းကြီး;Chaung Kan Gyi
 my;ချောင်းနှစ်ခွ;Chaung Hnit Khwa
-my;​ချောင်းနှစ်ခွ;Chaung Hnit Khwa
 my;ချောင်းမုံ;Chaung Mon
 my;Chaunghmun;Chaung Mon
 my;ချောင်းကြီးဝငယ်;Chaung Gyi Wa Nge
@@ -8251,7 +8215,7 @@ my;ချောက်ခွဲ;Chauk Khwe
 my;Chaukkan;Chauk Kan
 my;ချောက်ကန်;Chauk Kan
 my;ချောင်းကမ်း;Chaung Kan
-my;​ခြောက်အိမ်စု;Chauk Ein Su
+my;ခြောက်အိမ်စု;Chauk Ein Su
 ru;Чаук;Chauk
 my;ချောက်မြို့;Chauk
 th;เชาะ;Chauk
@@ -8276,7 +8240,7 @@ my;Byibôn;Pyayt Pon
 my;ဗျက်ကြီး;Byet Gyi
 my;ဗျက္ခ;Byet Kha
 my;ဗျောသလန်း;Byaw Tha Lan
-my;​ပြောင်းပြန်;Pyaung Pyan
+my;ပြောင်းပြန်;Pyaung Pyan
 my;ပျံချီ;Pyan Chi
 my;ဗြန့်ကြီး;Byant Gyi
 my;ဗျိုင်းသစ်;Byaing Thit
@@ -8436,7 +8400,7 @@ my;ဘောသပြေကန်;Baw Tha Pyay Kan
 my;ဘောနီ;Baw Ni
 my;ဘောနတ်ကြီး;Baw Nat Gyi
 my;Bawlon;Bawt Lone Lay
-my;​ဘောလည်;Baw Lel
+my;ဘောလည်;Baw Lel
 th;บอละแค;Bawlakhe
 shn;ဝေႃးလၶႄႉ၊ ဝဵင်း;Bawlakhe
 my;ဘော်လခဲမြို့;Bawlakhe
@@ -8604,7 +8568,7 @@ my;Auk-kyauk-wut;Auk Kyauk Wut
 my;အောက်ကျောက်ဝပ်;Auk Kyauk Wut
 my;အောက်ကမ္ဘာ;Auk Ka Bar
 my;အောက္ကဘာ;Auk Ka Bar
-my;​အောက်အင်း;Auk Inn
+my;အောက်အင်း;Auk Inn
 my;အာအိုမွန်;Auhmun
 my;အတွင်းပဒံ;Ah Twin Pa Dan
 my;အတွင်းပြင်;Ah Twin Pyin
@@ -8640,7 +8604,7 @@ my;Ah Se;Ase
 my;အစဲ;Ase
 my;အပြင်သဲဖြူ;Ah Pyin Thea Hpyu
 my;အဖျောက်;Ah Hpyauk
-my;​အပင်နှစ်ဆယ်;Ah Pin Hnit Se
+my;အပင်နှစ်ဆယ်;Ah Pin Hnit Se
 my;အဖောင်;Ah Hpaung
 my;အပေါက်ဝ;Ah Pauk Wa
 my;အပလုံ;Ah Pa Lon
@@ -8805,7 +8769,7 @@ en;Abaw;Ah Baw
 fa;اباو;Ah Baw
 nl;Abaw;Ah Baw
 my;ပျဉ်းမပင်;Pyin Ma Pin
-my;​ပေါင်းငူ;Paung Ngu
+my;ပေါင်းငူ;Paung Ngu
 my;ကျားဝင်း;Kyar Win
 my;ကြာတုံး;Kyar Tone
 my;သစ်ဝင်တန်း;Thit Win Tan
@@ -8845,11 +8809,11 @@ my;ကျုံတူး;Kyon Tu
 my;သူကြီးပတုတ်;Thu Gyi Pa Toke
 my;စွယ်တော်ကွင်း;Swei Taw Kwin
 my;ကုလားကြီးတဲစု;Ku Lar Gyi Te Su
-my;​ဒေါပုံစု;Daw Pon Su
+my;ဒေါပုံစု;Daw Pon Su
 my;ပန်းတောချောင်;Pan Taw Chaung
 my;တပိုးတန်း;Ta Poe Tan
 my;ဂွေးပင်ချောင်;Gway Pin Chaung
-my;​ရေခလာ;Yay Kha Lar
+my;ရေခလာ;Yay Kha Lar
 my;ဘုံလုံ;Bon Lon
 my;ကတုံးပေါ် မြောက်;Ka Tone Paw North
 my;ဩဘာညွန့်;Aw Bar Nyunt
@@ -8928,8 +8892,7 @@ my;ကျွဲလူးအိုင်;Kywe Lu Aing
 my;ရေဖြူတွင်း;Yae Hpyu Twin
 my;ဘိုးမြနေစု;Boe Mya Nay Su
 my;သမင်ကုန်း;Tha Min Kone
-my;​မှော်ကန်;Hmaw Kan
-my;​တောင်ချောင်;Taung Chaung
+my;မှော်ကန်;Hmaw Kan
 my;ဘုရားလေးငူ;Hpa Yar Lay Ngu
 my;ဘန့်ဘွေးငူ;Bant Bway Ngu
 my;ဘီးလင်း;Bee Lin
@@ -8975,7 +8938,7 @@ my;Kingyaung;Kin Chaung
 my;Kyaukatalôn;Kyauk Ta Lone
 my;ဝယ်လမ်း;Wei Lan
 my;ကွမ်သဲ;Kun Thea
-my;​ဒေါင်းရပ်;Daung Yat
+my;ဒေါင်းရပ်;Daung Yat
 my;Kawmupun;Kawt Mu Pun
 my;ကော့မုပွန်;Kawt Mu Pun
 my;ကော့ဂူ;Kawt Gu
@@ -9027,11 +8990,11 @@ my;နန်းစံခမ်း;Nan San Khan
 my;La-hkra-nge-hku;Saw Hki Daw
 my;ဆော်ခိဒေါ;Saw Hki Daw
 my;လွယ်ဝိန်း;Lwei Waing
-my;​ကျောက်ခဲကွင်း;Kyauk Khe Kwin
+my;ကျောက်ခဲကွင်း;Kyauk Khe Kwin
 my;အနမ်းဘို့ကုန်း;Ah Nan Boet Kone
 my;ပန်းတောကုန်း;Pan Taw Kone
-my;​ဒေါင်းမီးခွက်;Daung Mee Khwet
-my;​မြေစေးအိုင်;Myay Say Aing
+my;ဒေါင်းမီးခွက်;Daung Mee Khwet
+my;မြေစေးအိုင်;Myay Say Aing
 my;ဂွေးတောက်အိုင်;Gway Tauk Aing
 my;စစ်ပင်ဝဲ;Alegon
 my;သင်အင်း;Thin Inn
@@ -9042,23 +9005,19 @@ my;မဒေါ့ပင်;Ma Dawt Pin
 my;နှုတ်ခမ်းမွှေးသိုက်;Hnoke Khan Hmway Thaik
 my;ခရောင်;Kha Yaung
 my;မှန်ကုန်း;Hman Kone
-my;​ကျောက်တန်း;Kyauk Tan
-my;​ကျောက်အိုင်;Kyauk Aing
 my;ဇီးပင်ဝဲ;Zee Pin Wea
-my;​ကျောက်ကုဒင်;Kyauk Ku Din
-my;​ညောင်နှစ်ပင်;Nyaung Hnit Pin
+my;ကျောက်ကုဒင်;Kyauk Ku Din
 my;ကိုးလုံးကွင်းရွာမ;Koe Lone Kwin Ywar Ma
 my;သန္ဒေပင်;Than Day Pin
 my;ဂူကြီးကုန်း;Gu Gyi Kone
 my;သံတံတား;Than Tan Dar
-my;​ညောင်တံခါး;Nyaung Ta Gar
+my;ညောင်တံခါး;Nyaung Ta Gar
 my;ပြင်ထောင်ကွင်း;Pyin Htaung Kwin
 my;ကျီးပင်ဆိပ်;Kyee Pin Seik
 my;တလိုင်းကုန်း;Ta Laing Kone
 my;မိုးကြိုးပစ်;Moe Kyoe Pyit
 my;ဥတို;U To
 my;သုံးအိမ်တန်း;Thone Ein Tan
-my;​ရေကျော်;Yae Kyaw
 my;လှည်းကူးစု;Hle Ku Su
 my;လိပ်ချောင်းခြံကြီးစု;Leik Chaung Chan Gyi Su
 my;တမာပင်စု;Ta Mar Pin Su
@@ -9071,11 +9030,11 @@ my;ရေပြာချောင်း;Yae Pyar Chaung
 my;ကြာကန်စု;Kyar Kan Su
 my;သရက်ညိုပင်;Tha Yet Nyo Pin
 my;ရဲစု;Ye Su
-my;​ရေတာရှည်;Yae Tar Shey
+my;ရေတာရှည်;Yae Tar Shey
 my;ဝါးဖြူတော;War Hpyu Taw
-my;​ရေတွင်းကုန်းကြီး;Yae Twin Kone Gyi
-my;​ရေတွင်းကုန်းလေး;Yae Twin Kone Lay
-my;​အောက်ဝါးနက်ချောင်း ရွာဟောင်း;Auk War Net Chaung Ywar Haung
+my;ရေတွင်းကုန်းကြီး;Yae Twin Kone Gyi
+my;ရေတွင်းကုန်းလေး;Yae Twin Kone Lay
+my;အောက်ဝါးနက်ချောင်း ရွာဟောင်း;Auk War Net Chaung Ywar Haung
 my;ခါးကျိုး;Khar Kyoe
 my;ငါးခုံးမစမ်း;Ngar Khone Ma San
 my;စမ်းချောင်း;San Chaung
@@ -9085,27 +9044,26 @@ my;မှုန်တိုင်း;Hmon Taing
 my;Pe Nan Toke;Penandok
 my;ကံကြီးစု;Kan Gyi Su
 my;မြင်းတာ;Myin Tar
-my;​ပေါက်စောက်;Pauk Sauk
+my;ပေါက်စောက်;Pauk Sauk
 my;အင်းဒဝယ်;Inn Dawei
 my;သူငယ့်ချောင်;Thu Ngeit Chaung
 my;သနပ်ပြင်;Tha Nat Pyin
 my;ကျီးကန်းသိုက်;Kyee Kan Thaik
-my;​ဂျောင်;Gyaung
+my;ဂျောင်;Gyaung
 my;တွင်းတရာ;Twin Ta Yar
 my;အရှေ့ကုန်း;Ah Shey Kone
 my;ဘူးလယ်အင်း;Bu Lel Inn
-my;​မှော်လုံ;Hmaw Lon
-my;​တောရကျောင်း;Taw Ya Kyaung
+my;မှော်လုံ;Hmaw Lon
 my;မုဆိုးညောင်ပင်;Moke Soe Nyaung Pin
 my;ကင်ပွန်းခြုံ;Kin Pun Chon
 my;သာဓုကန်;Thar Du Kan
-my;​လေးဒေါင့်ကန်;Lay Daunt Kan
+my;လေးဒေါင့်ကန်;Lay Daunt Kan
 my;ကင်း;Kin
 my;မိချောင်းဝဲ;Mi Chaung Wea
 my;အလပ်ချောင်း;Ah Lat Chaung
 my;ကွန်တာ;Kun Tar
 my;ကုန်းတလိ;Kone Ta Li
-my;​ရေတလိ;Yae Ta Li
+my;ရေတလိ;Yae Ta Li
 my;အပြင်ပဒံ;Ah Pyin Pa Dan
 my;စက်ကလေး;Set Ka Lay
 ru;Сет Ка Лай;Set Ka Lay
@@ -9205,7 +9163,6 @@ my;ဒေါတငူး;Daw Ta Khu
 my;ဒေါငူရှေ့;Daw Ngu Shey
 my;ဒေါမူလဲ;Daw Mu Le
 my;တင်လွယ်;Tin Lwei
-my;​ဒေါတမော;Daw Ta Maw
 my;ဟွေပါလန်;Hway Par Lan
 my;ဝမ်ကန်;Wan Kan
 my;ဟိုစဲ့;Ho Seit
@@ -9498,7 +9455,7 @@ my;အံဒင်;An Din
 my;အံကစင်;An Ka Sin
 my;အောက်ရွာ;Auk Ywar
 my;အောင်ဗလကုန်း;Aung Bala Kone
-my;​အောင်ကန်သာ;Aung Kan Thar
+my;အောင်ကန်သာ;Aung Kan Thar
 my;အောင်သာယာ;Aung Thar Yar
 my;အောင်ဇေယျကွက်သစ်;Aung Zay Ya Kwet Thit
 my;အေးကမ္ဘာ;Aye Ka Bar
@@ -9649,7 +9606,6 @@ my;မြလေးချောင်;Mya Lay Chaung
 my;မြမာလာ;Mya Mar Lar
 my;မြောက်ပိုင်း;Myauk Paing
 my;မြောက်သူဌေးကုန်း;Myauk Thu Htay Kone
-my;​မြောက်ရွာ;Myauk Ywar
 my;မြင်းတပြေး;Myin Ta Pyay
 my;မြို့ဟောင်းကုန်း;Myo Haung Kone
 my;နိုင်လှုံ;Naing Hlon
@@ -9707,8 +9663,6 @@ my;တောင်ကမာ;Taung Ka Mar
 my;တောင်လေး;Taung Lay
 my;တောင်နား;Taung Nar
 my;တောင်ပိုင်း;Taung Paing
-my;​တောင်စွန်း;Taung Sun
-my;​တောင်သူကုန်း;Taung Thu Kone
 my;တောကြီး;Taw Gyi
 my;တော်ကပူး;Taw Ka Pu
 my;တော်ပကောက်;Taw Pa Kauk
@@ -9798,7 +9752,7 @@ my;ဆယ်လောန်;Selawn
 my;ခွန်းမွာလ်;Khuangmual
 my;သီးလုမ်;Tilum
 my;ဘွာလ်သဲ;Bualte
-my;​ဆွောင်းဒို;Suangdo
+my;ဆွောင်းဒို;Suangdo
 my;ငါမွာလ်;Ngamual
 my;မွန်ပီး;Hmunpi
 my;ကြီးကြိုင်;Cicai
@@ -9808,7 +9762,7 @@ my;ရှာလ်စီ;Sialsih
 my;ဗန်ဗား;Vangva
 my;စီသွေး;Sihtui
 my;ကဲလ်ကောင်;Kelkawng
-my;​ဇောင်ကောင်;Zawngkawng
+my;ဇောင်ကောင်;Zawngkawng
 my;လေးဒေါ့;Leidawh
 my;မှောင်ကွန်;Hmawngkawn
 my;ဘေကန်;Bekan
@@ -9936,7 +9890,7 @@ my;ဆူးပုတ်ကျင်း;Su Poke Kyin
 my;ခွေးခေါင်း;Khway Gaung
 my;လုံပန်း;Lon Pan
 my;ကိုဖေကြီး ၂;Ko Hpay Gyi 2
-my;​ရေကြိုင်ချောင်း;Yae Kyaing Chaung
+my;ရေကြိုင်ချောင်း;Yae Kyaing Chaung
 my;ခေါက်ပုံကျင်း;Khauk Pon Kyin
 my;စပ်စံကျင်း;Sat San Kyin
 my;ချိုင်လောင်း;Chaing Laung
@@ -10127,7 +10081,7 @@ my;ခွဲလုံသာ;Khwe Lon Thar
 my;ဘွေရှစ်;Boisip
 my;ရပ်ချောင်းဝ;Yat Chaung Wa
 my;တင်းဘုန်း;Tin Bone
-my;​ထေပန်း;Htay Pan
+my;ထေပန်း;Htay Pan
 my;မိန်ဟောင်း;Mein Haung
 my;ကန့်လေ;Kant Lay
 my;ရပ်ဒုတ်;Yatduk
@@ -10237,9 +10191,9 @@ my;ဝါတဲ;War Te
 my;ယာယော;Yayaw
 my;ရိန်းရောင်း;Rein Raung
 my;ဘန်းခွီ;Ban Khwi
-my;​ဖောင်ဖိုင်;Phaung Phai
+my;ဖောင်ဖိုင်;Phaung Phai
 my;လပုန်ကုန်း;La Pon Kone
-my;​အောက်ပြင်ဝ;Auk Pyin Wa
+my;အောက်ပြင်ဝ;Auk Pyin Wa
 my;ရိုးဖောင်;Yoe Hpaung
 my;မင်းခွဲ;Min Khwe
 my;လောင်းတင်;Laung Tin
@@ -10283,7 +10237,7 @@ my;ဟားလာဝ;Har Lar Wa
 my;ခေါက်ကောက်;Khauk Kauk
 my;အာကီကုန်း;Ahr Ki Kone
 my;ကွီစား;Kuica
-my;​ဘောင်;Baung
+my;ဘောင်;Baung
 my;ပလာရိုး;Palaro
 my;ဘဲချောင်းထဲ;Be Chaung The
 my;ဒီလောင်ကုန်း;Di Laung Kone
@@ -10308,14 +10262,14 @@ my;ဖြူခွီး;Hpyu Khwee
 my;ငဒက်သောင်;Nga Det Thaung
 my;ထုံကိန်း;Hton Kein
 my;ဘောသာ;Baw Thar
-my;​ယောင်ဝ;Yaung Wa
+my;ယောင်ဝ;Yaung Wa
 my;ဖွဲ့;Hpwet
 my;ဝါလောင်ကုန်း;War Laung Kone
 my;နှုံးဘူးကြီး;Hnone Bu Gyi
 my;ရိုင်းရိန်း;Rai Rein
 my;ပေါက်စဉ်;Pauk Sin
 my;အွမ်ဆွေး ခ;Amsoi B
-my;​ရေအေးချောင်း;Yae Aye Chaung
+my;ရေအေးချောင်း;Yae Aye Chaung
 my;ပန်းပါ;Pan Par
 my;ကိန်းယွင်း;Kein Ywin
 my;တွီကင်းအလောင်း;Twi Kin Ah Laung
@@ -10433,7 +10387,7 @@ my;လိုင်းဝတ်;Laing Wut
 my;Put Sar Chaung;Put Sar Chaung Rakhine
 my;ပွတ်စာချောင်း ရခိုင;Put Sar Chaung Rakhine
 my;ပွတ်စာချောင်း;Put Sar Chaung Rakhine
-my;​ဘွေရိန်း  ခ;Boiring B
+my;ဘွေရိန်း  ခ;Boiring B
 my;တရွန်အိုင်ချောင်းထဲ;Ta Ron Aing Chaung Hte
 my;အန်ထော;Angthaw
 my;Put Sar Chaung;Put Sar Chaung Khamee
@@ -10486,7 +10440,7 @@ my;ပြင်ဒိုင်း;Pyin Dai
 my;ဆတ္တလာဝ;Sat Ta Lar Wa
 my;တန်ကူ;Tangku
 my;ဘီလောင်းဝ;Bi Laung Wa
-my;​ရွှေတောင်;Soitaung
+my;ရွှေတောင်;Soitaung
 my;တိန်ဆီး;Tingsi
 my;ဆတ်တလိုင်ဝ;Sat Ta Laing Wa
 my;ဆတ်ချိုင်;Sat Chaing
@@ -10571,9 +10525,9 @@ my;သီဆဲင်း က;Tisen A
 my;လုံကျွဲပီး ခ;Lungcawipi B
 my;လောင်တလန်;Lawngtlang
 my;လေအွမ် က;Leium A
-my;​လောင်တလန် ခ;Lawngtlang B
+my;လောင်တလန် ခ;Lawngtlang B
 my;ငါလန်;Ngalang
-my;​လေအွမ် ခ;Leium B
+my;လေအွမ် ခ;Leium B
 my;ခွာဘုံ က;Khuabung A
 my;လေတပ်;Leitak
 my;လုံကျွေး;Lungcawi
@@ -10600,7 +10554,7 @@ my;ထာအို;Thau A
 my;အာကျီရ်;Arcirh
 my;ဟိုင်ရွန်း;Hairawn
 my;မွှန်ထာရ်;Hmunthar
-my;​ဒေါထက်;Dokthek
+my;ဒေါထက်;Dokthek
 my;ရမ်ထလို;Ramthlo
 my;ရာလ်လောန်;Rallawn
 my;ဇိုမွာလ်;Zomual
@@ -10696,7 +10650,6 @@ my;ပေတောကုန်း;Pay Taw Kone
 my;ရွှေဒါးရွှေကုန်း;Shwe Dar Shwe Kone
 my;ဆည်ကန်;Se Kan
 my;မြိုင်သာယာ;Myaing Thar Yar
-my;​အောင်ချမ်းသာ;Aung Chan Thar
 my;ဝဲခုံ;Wea Khon
 my;လယ်ကြီးကုန်း;Lel Gyi Kone
 my;ပင်းစု မြောက်;Pin Su South
@@ -10998,7 +10951,6 @@ my;ဖိုးနီကန်;Hpoe Ni Kan
 my;သဲပြင်တော;Thea Pyin Taw
 my;ကုန်းရှည်;Kone Shey
 my;မောင်းဂွက်တော;Maung Gwet Taw
-my;​ညောင်လှ;Nyaung Hla
 my;ကွမ်းဖလား;Kun Hpa Lar
 my;ကကျဲ;Ka Kye
 my;ထရိုင်းတော;Hta Yaing Taw
@@ -11027,7 +10979,7 @@ my;ဇက;Za Ka
 my;သန့်ရှင်းကုန်း;Thant Shin Kone
 my;ရွာသစ်ဥယျာဉ်;Ywar Thit U Yin
 my;မြေသန့်တောင်;Myay Thant Taung
-my;​ထောက်ဝ;Htauk Wa
+my;ထောက်ဝ;Htauk Wa
 my;တောင်ရှေ့;Taung Shey
 my;တောင်ပုံ၀;Taung Pon Wa
 my;ရှင်မိန်;Shin Mein
@@ -11096,7 +11048,6 @@ my;ရှားတောရွာသစ်;Shar Taw Ywar Thit
 my;ကံဦး;Kan U
 my;ဝက်ချောက်;Wet Chauk
 my;ဆူးဖြူကွတ်;Su Hpyu Kwet
-my;​ပေပင်ကုန်း;Pay Pin Kone
 my;ညောင်ပင်ပျို;Nyaung Pin Pyo
 my;ညောင်ပင်လျှို;Nyaung Pin Hlyo
 my;အင်ကြင်းစု;In Gyin Su
@@ -11270,7 +11221,7 @@ my;တောင်ကလပ်;Taung Ka Lat
 my;တောင်လှ;Taung Hla
 my;ငရန့်ကုန်း;Ngar Yant Kone
 my;ကန်နှစ်ဆင့်;Kan Hnit Sint
-my;​မြောင်းဝ;Myaung Wa
+my;မြောင်းဝ;Myaung Wa
 my;ထိန်လင်း;Htein Lin
 my;ထန်းတောဦး;Htan Taw U
 my;ကြပ်ထောင်;Kyat Htaung
@@ -11307,7 +11258,7 @@ my;ဝါးရုံကုန်းရွာသစ်;War Yon Kone Ywar Thit
 my;တက်မ;Tet Ma
 my;စပယ်ပင်;Sa Bai Pin
 my;ရွာလပ်;Ywar Lat
-my;​တောင်ချေ;Taung Chay
+my;တောင်ချေ;Taung Chay
 my;လက်ပံကျင်းသီးကုန်း;Let Pan Kyin Thee Kone
 my;လက်ပံကျင်းညောင်;Let Pan Kyin Nyaung
 my;လယ်ကြီးတောင်;Lel Gyi Taung
@@ -11321,7 +11272,6 @@ my;ကျောက်ပုံ မြောက်;Kyauk Pon North
 my;သင်ပေါင်း;Thin Paung
 my;ကျင်းခေါင်း;Kyin Gaung
 my;ရုန်းကျင်း;Yone Kyin
-my;​ရေငံ;Yae Ngan
 my;စမ်းစု;San Su
 my;ဖုံသာ;Hpon Thar
 my;ခဲကြီးကုန်း;Khe Gyi Kone
@@ -11516,7 +11466,6 @@ my;စားမြိန်တောင်;Sar Myein Taung
 my;အနောက်ရပ်;Ah Nauk Yat
 my;တညက်;Ta Nyet
 my;ကောင်းမှုသာရဖျက်;Kaung Hmu Thar Ra Hpyet
-my;​တောင်ပေါ်;Taung Paw
 my;ရွှေပေး;Shwe Bay
 my;မရင်းငယ်ဖျား;Ma Yin Nge Hpyar
 my;ကျောက်ဖြူတောင်;Kyauk Hpyu Taung
@@ -11666,7 +11615,7 @@ my;8-Maing Gaw Ra Khar;Eight Maing Gaw Ra Khar
 my;7-Maing Gaw Ra Khar;Seven Maing Gaw Ra Khar
 my;ဖန်းခါးပင်;Hpan Khar Pin
 my;လိမ်ပင်ကန်;Lein Pin Kan
-my;​ကျောက်ရေတွင်းရွာသစ်;Kyauk Yae Twin Ywar Thit
+my;ကျောက်ရေတွင်းရွာသစ်;Kyauk Yae Twin Ywar Thit
 my;မြွေပွေးကုန်း;Mway Pway Kone
 my;တမံကြီးကုန်း;Ta Man Gyi Kone
 my;ကျိုက္ကမော့;Kyaik Ka Mawt
@@ -11677,8 +11626,7 @@ my;မြိုင်သာယာ;Myaing Thar yar
 my;နရွဲချောင်;Na Ywe Chaung
 my;ကျုံချိုက်;Kyon Chaik
 my;သံတဲ;Than Te
-my;​တော်ကလုပ်;Taw Ka Loke
-my;​အောင်ဇေယျ;Aung Zay Ya
+my;တော်ကလုပ်;Taw Ka Loke
 my;War Kauk Taw;Wa Gauk Taw
 my;ဝါးကောက်တော;Wa Gauk Taw
 my;Htan Pin Kone;Htan Bin Gon
@@ -11702,9 +11650,7 @@ my;Sin Doe;Sin Do
 my;ဆင်ဒိုး;Sin Do
 my;Su Ka Let;Hsu Ka Lat
 my;ဆူးကလက်;Hsu Ka Lat
-my;​ဝါးတောစု;War Taw Su
 my;စွယ်တော်;Swei Taw
-my;​ငွေသောင်ယံ;Ngwe Thaung Yan
 my;မယ်ရကုန်း;Mei Ya Kone
 my;Ywar Thit Kone;Ywa Thit Kon
 my;ရွာသစ်ကုန်း;Ywa Thit Kon
@@ -11715,7 +11661,6 @@ my;အင်းကွက်;In Got
 my;ဆိပ်ကမ်းသာ;Seik Kan Thar
 my;မင်္ဂလွန်းကြခတ်ကုန်းလေး;Min Ga Lun Kya Khat Kone Lay
 my;အထက်ဆိပ်;Ah Htet Seik
-my;​ဗောဓိကုန်း;Baw Di Kone
 my;အေးမြသာယာ;Aye Mya Thar Yar
 my;အဝိုင်းချောင်း;Ah Waing Chaung
 my;အင့်ဟင်ကုန်း;Ink Hin Kone
@@ -11735,7 +11680,7 @@ my;ကြုံမရမ်း;Kyon Ma Yan
 my;အောက်တဲစု;Auk Te Su
 my;ပေါက်ပန်းဖြူစု;Pauk Pan Hpyu Su
 my;သပြုကန်;Tha Pyu Kan
-my;​ဗောဓိပင်စု;Baw Di Pin Su
+my;ဗောဓိပင်စု;Baw Di Pin Su
 my;တီတွတ်;Ti Tut
 my;ပလောဝ;Pa Law Wa
 my;အပျိုကြီးတဲစု;Ah Pyo Gyi Te Su
@@ -11768,7 +11713,6 @@ my;ကုန်းဘုရားပျို;Kone Hpa Yar Pyo
 my;ညောင်ပင်ကြီးတဲစု;Nyaung Pin Gyi Te Su
 my;တောင်အေး;Taung Aye
 my;ရိုးကန့်လန့်;Yoe Kant Lant
-my;​နောင်လုံ;Naung Lon
 my;Kyon Hpar;Kyon Pha
 my;ကျုံဖာ;Kyon Pha
 my;Chaung Wa;Chaung Wa Zu
@@ -11784,7 +11728,7 @@ my;Ta Ku Pon;Ta Gu Pon
 my;တကူပုံ;Ta Gu Pon
 my;ဆူးကလပ်ရာဘာခြံ;Su Ka Lat Rubber Chan
 my;Baw Kwin Su;Ball Lon Kwin
-my;​ဘောကွင်းစု;Ball Lon Kwin
+my;ဘောကွင်းစု;Ball Lon Kwin
 my;Bant Bway Aing;Ban Bwe Aing
 my;ဘန့်ဘွေးအိုင်;Ban Bwe Aing
 my;Pein Hne San;Pein Na San
@@ -11833,13 +11777,12 @@ my;ညောင်သုံးပင်;Nyaung Thone Pin
 my;ကော့မူ;Kawt Mu
 my;အိုင်လေး;Aing Lay
 my;ဝါးတရာ;War Ta Yar
-my;​တောညို;Taw Nyo
-my;​ပေါက်ကိုင်း;Pauk Kaing
+my;ပေါက်ကိုင်း;Pauk Kaing
 my;ရဘိန်းစု;Ya Bein Su
-my;​မောက်တင်ကုန်း;Mauk Tin Kone
+my;မောက်တင်ကုန်း;Mauk Tin Kone
 my;လတာ;La Tar
 my;ကမူ;Ka Mu
-my;​အောက်ဘောလည်;Auk Baw Lel
+my;အောက်ဘောလည်;Auk Baw Lel
 my;ရွာကန့်လန့်;Ywar Kant Lant
 my;ဘိုးပြာကုန်း;Boe Pyar Kone
 my;သလိပ်;Tha Leik
@@ -11861,20 +11804,19 @@ my;လမု;La Mu
 my;ညွန့်ပေါင်း;Nyunt Paung
 my;မမဲကုန်း;Ma Me Kone
 my;ကြို့ပင်ဝိုင်း;Kyoet Pin Waing
-my;​ဒေါ့ချိတ်;Dawt Cheik
+my;ဒေါ့ချိတ်;Dawt Cheik
 my;နဲသမိန်;Ne Tha Mein
 my;ကျွဲဂေါ;Kywe Gaw
 my;မြဂဲ;Mya Ge
 my;ခနောင်ပေါ်;Kha Naung Paw
 my;တရုပ်စု;Ta Yoke Su
-my;​ကျော်ဇောကုန်း;Kyaw Zaw Kone
+my;ကျော်ဇောကုန်း;Kyaw Zaw Kone
 my;ကျောင်းတိုင်စိတ်;Kyaung Taing Seik
-my;​မရွှေဥ;Ma Shwe U
-my;​ချောနဲကုန်း;Chaw Ne Kone
-my;​ရေကျော်ကုန်း;Yae Kyaw Kone
+my;မရွှေဥ;Ma Shwe U
+my;ချောနဲကုန်း;Chaw Ne Kone
 my;သောင်တော;Thaung Taw
 my;ရှမ်းတောလေး;Shan Taw Lay
-my;​ညောင်ပင်အင်း;Nyaung Pin Inn
+my;ညောင်ပင်အင်း;Nyaung Pin Inn
 my;မြောက်လုပ်ကုန်း;Myauk Loke Kone
 my;ကြိမ်ပိုက်ကြီး;Kyein Paik Gyi
 my;သံတဇာ;Than Ta Zar
@@ -11883,16 +11825,15 @@ my;ကျူတော;Kyu Taw
 my;ကုလားပုန်း;Ku Lar Pone
 my;ဝါးပတောစု;War Pa Taw Su
 my;တခွန်တိုင်;Ta Khun Taing
-my;​ကွေ့တန်းရှည်;Kwayt Tang Shey
+my;ကွေ့တန်းရှည်;Kwayt Tang Shey
 my;ကန့်လန့်ကုန်း;Kant Lant Kone
 my;ကန်ကုန်းကလေး;Kan Kone Ka Lay
 my;တိုက်စု;Taik Su
 my;Min Hla Lay;Taik Su
 my;မင်းလှလေး;Taik Su
 my;ကုန်းလှည်းဆိပ်;Kone Hle Seik
-my;​ဂွေ့တန်းရှည်;Gwayt Tan Shey
-my;​ချောင်စု;Chaung Su
-my;​သေနပ်ပင်စု;Tha Nat Pin Su
+my;ချောင်စု;Chaung Su
+my;သေနပ်ပင်စု;Tha Nat Pin Su
 my;ကတွယ်;Ka Twei
 my;သဲဖြူရွာသစ်;Thea Hpyu Ywar Thit
 my;တုံးလုံးဘို;Tone Lone Bo
@@ -11902,12 +11843,12 @@ my;ထူးလေးစု;Htu Lay Su
 my;အတွင်းသဲဖြူ;Ah Twin Thea Hpyu
 my;ဓနဲရိ;Da Ne Ri
 my;အေးရွာလေး;Aye Ywar Lay
-my;​ရေဒနဲရိ;Yae Da Ne Ri
+my;ရေဒနဲရိ;Yae Da Ne Ri
 my;မို့သင်;Moet Thin
-my;​ချောင်းညီအစ်ကို;Chaung Nyi Ah Ko
+my;ချောင်းညီအစ်ကို;Chaung Nyi Ah Ko
 my;ကရင်တော;Kayin Taw
 my;ပန်သပွတ်;Pan Tha Put
-my;​ရေကျော်ကလေး;Yae Kyaw Ka lay
+my;ရေကျော်ကလေး;Yae Kyaw Ka lay
 my;ဆန်ချောင်း;San Chaung
 my;သီတာအေး;Thi Dar Aye
 my;ကျိုက္ခနာ;Kyaik Kha Nar
@@ -11921,13 +11862,12 @@ my;တပ်ကြီးကုန်းတောင်ပိုင်း;Tat Gyi
 my;ကျွန်းချောင်း အနောက်;Kyun Chaung West
 my;ကျွန်းချောင်း အရှေ့;Kyun Chaung East
 my;သပြေဆိပ်ပေတရာ;Tha Pyay Seik Pay Ta Yar
-my;​ကြောင်ရှာကုန်း;Kyaung Shar Kone
 my;ကရို့ကုန်း;Ka Yoet Kone
-my;​ဗေကုန်းကြီး;Bay Kone Gyi
+my;ဗေကုန်းကြီး;Bay Kone Gyi
 my;ပသီ;Pa Thi
 my;ဗြူးကျင်း အနောက်;Byu Kyin West
 my;ဗြူးကျင်း အလယ်;Byu Kyin Middle
-my;​မြောက်ချောကုန်း;Myauk Chaw Kone
+my;မြောက်ချောကုန်း;Myauk Chaw Kone
 my;ပျော်ဘွယ်စု;Pyawbwe Su
 my;လိပ်ပုတ်တောရွာကြီး;Leik Poke Taw Ywar Gyi
 my;အစုလေး;Ah Su Lay
@@ -11937,16 +11877,12 @@ my;ကျွဲခေါင်းအင်း;Kywe Gaung Inn
 my;ကြိမ်ပိုက်;Kyein Paik
 my;ဦးပေါ်ကာကုန်း;U Paw Kar Kone
 my;လက်ပံဝဲ;Let Pan Wea
-my;​ကျောက်တွင်းကုန်း;Kyauk Twin Kone
-my;​မှော်ဘီချောင်းဝ;Hmaw Bi Chaung Wa
+my;မှော်ဘီချောင်းဝ;Hmaw Bi Chaung Wa
 my;အပြင်;Ah Pyin
-my;​ကျောင်းကုန်း;Kyaung Kone
-my;​အောက်ချိုင်း;Auk Chaing
-my;​ရေဂမူး;Yae Ga Mu
+my;ရေဂမူး;Yae Ga Mu
 my;ဆင်းကူး;Sin Ku
-my;​ညောင်ပင်;Nyaung Pin
-my;​ညောင်အင်းကုန်း;Nyaung Inn Kone
-my;​အောက်ဝါးနက်ချောင်း ရွာသစ်;Auk War Net Chaung Ywar Thit
+my;ညောင်အင်းကုန်း;Nyaung Inn Kone
+my;အောက်ဝါးနက်ချောင်း ရွာသစ်;Auk War Net Chaung Ywar Thit
 my;ဇီးပင်ဝဲ အောက်;Zee Pin Wea Lower
 my;ဆားဘို;Sar Bo
 my;ဘုရားကွင်း;Hpa Yar Kwin
@@ -11970,7 +11906,6 @@ my;သဲကုန်း ၂;Thea Kone 2
 my;စံပြမြိုင်;San Pya Myaing
 my;မြသီတာ;Mya Thi Dar
 my;ကမားတာ;Ka Mar Tar
-my;​အောက်ကျင်း;Auk Kyin
 my;အဂလ;Ah Ga La
 my;ရန်ကင်း;Yan Kin
 my;ကျွန်းလမု;Kyon La Mu
@@ -12158,9 +12093,8 @@ my;ကံလှ-ကုလားတန်း;Kan Hla-Ku Lar Tang
 my;ဗိုလ်ချုပ်;Bo Gyoke
 my;ဘယက်;Ba Yet
 my;ရင်းတိုက်လေးပင်;Yin Taik Lay Pin
-my;​ရေငုတ်ဝဲ;Yae Ngoke Wea
+my;ရေငုတ်ဝဲ;Yae Ngoke Wea
 my;ကြိုက်မန်းထော်;Kyaik Man Htaw
-my;​ချောင်းကျိုး;Chaung Kyoe
 my;သမ္ဘာန်ကျော်ရွာမ;Than Ban Kyaw Ywar Ma
 my;သမ္ဘာန်ကျော်အောက်စု;Than Ban Kyaw Auk Su
 my;သမ္ဘာန်ကျော်အထက်စု;Than Ban Kyaw Ah Htet Su
@@ -12168,43 +12102,37 @@ my;တဲစု;Te Su
 my;စမ်းတဲစု;San Te Su
 my;ကြာအင်းကုန်း;Kyar Inn Kone
 my;ငှက်ဆိုးကွင်းအနောက်စု;Hnget Soe Kwin Ah Nauk Su
-my;​ရေတွင်းဖြူ;Yae Twin Hpyu
 my;ဝန်အိုင်;Wun Aing
 my;သင်္ဃာန်းတော်;Thin Gan Taw
 my;ဆင်နင်းရိုး;Sin Nin Yoe
-my;​ရေပြန်;Yae Pyan
-my;​ရေပေါ်သောင်;Yae Paw Thaung
+my;ရေပြန်;Yae Pyan
 my;မအူကုန်း;Ma Au Kone
 my;အလယ်ကင်း;Ah Lel Kin
 my;သဲပြား;Thea Pyar
 my;အိုးဖိုတန်း;Oe Hpo Tan
-my;​ခွေးအိပ်ချောင်း;Khway Eik Chaung
 my;အင်ကုန်း;In Kone
-my;​ရေကန်စု;Yae Kan Su
 my;ဦးတို;U To
-my;​ညောင်လက်မောင်း;Nyaung Let Maung
+my;ညောင်လက်မောင်း;Nyaung Let Maung
 my;လက်ထုပ်ကုန်းကျောင်းစု;Let Htoke Kone Kyaung Su
 my;လက်ထုပ်ကုန်း;Let Htoke Kone
 my;လဟာဇောင်း;La Har Zaung
 my;အုန်းကုန်း;Ohn Kone
 my;စိန်စပ်;Sein Sat
-my;​တောက်တာကုန်း;Tauk Tar Kone
 my;ကန်သစ်စု;Kan Thit Su
 my;မြို့ကွက်;Myo Kwet
-my;​ခြောက်အိမ်တန်း;Chauk Ein Tan
-my;​တော်လတီတရုပ်စု;Taw La Ti Ta Yoke Su
+my;တော်လတီတရုပ်စု;Taw La Ti Ta Yoke Su
 my;တော်လတီကရင်စု;Taw La Ti Kayin Su
 my;ဆင်အိုင်;Sin Aing
 my;ပြည်တော်ဧ;Pyi Taw Aye
 my;ဇလုပ်ကုန်းရွာသစ်;Za Loke KoneYwar Thit
 my;ဇလုပ်ကုန်းရွာမ;Za Loke Kone Ywar Ma
 my;တင်းငုတ်ကြီး;Tin Ngoke Gyi
-my;​တောင်ရပ်ဇီးကုန်း;Taung Yat Zee Kone
+my;တောင်ရပ်ဇီးကုန်း;Taung Yat Zee Kone
 my;ဆဲ;Se
 my;မင်းမကုန်း;Min Ma Kone
 my;ထုံးစု;Htone Su
-my;​ခြောက်ချောကုန်း;Chauk Chaw Kone
-my;​တောင်ဘို့လှ;Taung Boet Hla
+my;ခြောက်ချောကုန်း;Chauk Chaw Kone
+my;တောင်ဘို့လှ;Taung Boet Hla
 my;စိုင်ခေါင်း;Saing Gaung
 my;ပိုးဒီကုန်း;Poe Di Kone
 my;တိုက်ကြီးကုန်း;Taik Gyi Kone
@@ -12230,7 +12158,6 @@ my;တဘူးဝ;Ta Bu Wa
 my;စိန်ဒစ်ချောင်း;Sein Dit Chaung
 my;ငါးအိမ်တန်း;Ngar Ein Tan
 my;သစ်စု;Thit Su
-my;​အောက်စု;Auk Su
 my;စပါးကြီးအိုင်;Sa Par Gyi Aing
 my;စလူဝိုင်း;Sa Lu Waing
 my;ပိန်းရှို;Pein Sho
@@ -12239,14 +12166,13 @@ my;စိန်ချောင်း;Sein Chaung
 my;ပနီပင်;Pa Ni Pin
 my;ဝက်ဖြူကုန်း;Wet Hpyu Kone
 my;ကျွဲဘုန်း;Kywe Bone
-my;​ချောက်တဲ;Chauk Te
-my;​ရေတွင်းကြီး;Yae Twin Gyi
+my;ချောက်တဲ;Chauk Te
 my;ခွေးအိပ်ချောင်း;Khway Eik Chaung
 my;ဗျိုင်းတောင်ကွင်း;Byaing Taung Kwin
 my;ဥက္ကံရွာမ;Oke Kan Ywar Ma
 my;အင်ပြင်ကုန်း;In Pyin Kone
-my;​ရေသိုးအောက်စု;Yae Thoe Auk Su
-my;​ချောင်းဘေးစု;Chaung Bay Su
+my;ရေသိုးအောက်စု;Yae Thoe Auk Su
+my;ချောင်းဘေးစု;Chaung Bay Su
 my;သက်သာ;Thet Thar
 my;ကွမ်းစဉ်တိုင်;Kun Sin Taing
 my;ခရုချောင်း;Kha Yu Chaung
@@ -12254,7 +12180,6 @@ my;သိန်ကုန်း;Thein Kone
 my;ဥက္ကံကံကုန်း;Oke Kan Kan Kone
 my;မအူကုန်;Ma Au Kone
 my;ငှက်ဆိုးအိုင်;Hnget Soe Aing
-my;​ရေလဲကြီး;Yae Le Gyi
 my;သာရဝေါ;Thar Ra Waw
 my;သံပုရာကုန်း;Than Pa Yar Kone
 my;ငါးလာချောင်း;Ngar Lar Chaung
@@ -12262,8 +12187,7 @@ my;အရှေ့စု;Ah Shey Su
 my;မိုးကုလား အရှေ့စု;Moe Ku Lar Ah Shey Su
 my;မိုးကုလား အနောက်စု;Moe Ku Lar Ah Nauk Su
 my;မိုးကုလား အလယ်စု;Moe Ku Lar Ah Lel Su
-my;​လေးအိမ်တန်း;Lay Ein Tan
-my;​ဂျောင်ဂျုံး;Gyaung Gyone
+my;ဂျောင်ဂျုံး;Gyaung Gyone
 my;ဇကာစု;Za Kar Su
 my;ဝါးဘိုးစု;War Boe Su
 my;သပြေတန်း အောက်;Tha Pyay Tan Lower
@@ -12284,21 +12208,17 @@ my;လက်ပန်ကုန်;Let Pan Kone
 my;လဟာမငယ်;La Har Ma Nge
 my;ကျွဲလမ်းစု;Kywe Lan Su
 my;ဗျိုက်စု;Byaik Su
-my;​ရေကြည်;Yae Kyi
-my;​တော်ကွဲ;Taw Kwe
-my;​ရွှေနားကွင်း အနောက်;Shwe Nar Kwin West
-my;​ရွှေနားကွင်း အရှေ့;Shwe Nar Kwin East
+my;တော်ကွဲ;Taw Kwe
+my;ရွှေနားကွင်း အနောက်;Shwe Nar Kwin West
+my;ရွှေနားကွင်း အရှေ့;Shwe Nar Kwin East
 my;ကြီးပင်လဟာ အနောက်;Kyee Pin La Har West
 my;တဘီးဇား;Ta Bee Zar
-my;​ညောင်ပင်ကုန်း;Nyaung Pin Kone
 my;ကြာအင်းလေး;Kyar Inn Lay
 my;ကြာအင်းကြီး;Kyar Inn Gyi
 my;ဝါဒလီညောင်ကုန်း;War Da Li Nyaung Kone
-my;​ချောင်းကမ်း;Chaung Kan
 my;ကင်းပတီးရွာသစ်;Kin Pa Tee Ywar Thit
-my;​ညောင်ချောင်း;Nyaung Chaung
-my;​ဒေါင့်ကွေး အနောက်;Daunt Kway West
-my;​ဒေါင့်ကွေး အလယ်;Daunt Kway Middle
+my;ဒေါင့်ကွေး အနောက်;Daunt Kway West
+my;ဒေါင့်ကွေး အလယ်;Daunt Kway Middle
 my;ဆင်စခန်း;Daunt Kway East
 my;သမ္ဘရာခုန် တောင်;Than Ba Yar Khon South
 my;သမ္ဘရာခုန် မြောက်;Than Ba Yar Khon North
@@ -12313,11 +12233,11 @@ my;စိုင်တမော့လေးဒူး;Saing Ta Mawt Lay Du
 my;စိုင်တမော့;Saing Ta Mawt
 my;မီးလောင်စု;Mee Laung Su
 my;ကလော့သော့;Ka Lawt Thawt
-my;​ဘေးမဲ့;Bay Meit
+my;ဘေးမဲ့;Bay Meit
 my;ရေဖြူအင်း အနောက်;Yae Hpyu Inn West
 my;ကရင်မှန်နီကုန်း;Kayin Hman Ni Kone
 my;ဗမာမှန်နီကုန်း;Ba Mar Hman Ni Kone
-my;​ဒေါ်မင်းချုပ်စု;Daw Min Choke Su
+my;ဒေါ်မင်းချုပ်စု;Daw Min Choke Su
 my;ဗမာကျွန်းချောင်း;Ba Mar Kyun Chaung
 my;စက်ကြီးရပ်;Set Gyi Yat
 my;ကရင်ကျွန်းချောင်း;Kayin Kyun Chaung
@@ -12327,37 +12247,36 @@ my;ဒုံးခိုက်;Don Khaik
 my;ဒီးဒုတ်ကွင်း;Dee Doke Kwin
 my;မအူကုန်;Ma Au Kon
 my;ကြီးပင်အင်း;Kyee Pin Inn
-my;​ချောင်းနား;Chaung Nar
-my;​ခြောက်တိုင်ကွေ့;Chauk Taing Kwayt
+my;ခြောက်တိုင်ကွေ့;Chauk Taing Kwayt
 my;ကျွန်းတောကုန်း;Kyun Taw Kone
 my;ကုန်းအင်း;Kone Inn
-my;​ကောက်ကွေးတန်း;Kauk Kway Tan
+my;ကောက်ကွေးတန်း;Kauk Kway Tan
 my;လွှစာအင်း;Hlwa Sar Inn
-my;​ရေနက်ကွေ့;Yae Net Kwayt
-my;​ဂေါ့;Gawt
+my;ရေနက်ကွေ့;Yae Net Kwayt
+my;ဂေါ့;Gawt
 my;သဲဝါ;Thea War
 my;ဘန့်ဘွေးကွင်း;Bant Bway Kwin
 my;လက်ပြန်ဒိုး;Let Pyan Doe
 my;အင်းလန်;Inn Lan
-my;​ရှော်ပုံ;Shaw Pon
+my;ရှော်ပုံ;Shaw Pon
 my;စာဖြူ;Sar Hpyu
 my;ဘွက်ကုန်း;Bwet Kone
 my;ဘွက်ကော့;Bwet Kawt
-my;​ပျော်ဘွယ်စု;Pyaw Bwe Su
+my;ပျော်ဘွယ်စု;Pyaw Bwe Su
 my;ရိုးလေး;Yoe Lay
-my;​ဂွေးကုန်းကမ်းနား;Gway Kone Kan Nar
-my;​ဘောလကွတ်;Baw La Kut
+my;ဂွေးကုန်းကမ်းနား;Gway Kone Kan Nar
+my;ဘောလကွတ်;Baw La Kut
 my;အညာပိုင်း;Ah Nyar Paing
 my;အထက်ပိုင်း;Ah Htet Paing
 my;သာလိကာ;Thar Li Kar
 my;ပါနောအိုင်;Par Naw Aing
 my;ကျောင်းကျုံ;Kyaung Kyon
-my;​အောက်အလဘုတ်;Auk Ah La Boke
+my;အောက်အလဘုတ်;Auk Ah La Boke
 my;အထက်အလဘုတ်;Ah Htet Ah La Boke
-my;​မြေတိုင်;Myay Taing
+my;မြေတိုင်;Myay Taing
 my;အထရောင်;Ah Hta Yaung
 my;ဘုံရှေကုန်း;Bon Shey Kone
-my;​ရွှေနံ့သာ;Shwe Nant Thar
+my;ရွှေနံ့သာ;Shwe Nant Thar
 my;စုံတဲပင်;Son Te Pin
 my;ကျောက်ဆောင်တက်;Kyaung Saung Tet
 my;ဂိုတောင်;Go Taung
@@ -12401,7 +12320,6 @@ my;မဲအင်း;Me Inn
 my;တက်သိမ်း;Tet Thame
 my;ပိုတက်;Po Tet
 my;တက်ရှိန်း;Tet Shein
-my;​ကျောက်ခွက်;Kyauk Khwet
 my;စက်ကုန်း;Set Kone
 my;အင်းသာ;Inn Thar
 my;ဖက်တဲကုန်း;Hpet Te Kone
@@ -12419,41 +12337,40 @@ my;၅၂ သစ်စက်;52 Thit Set
 my;ဆယ်သိန်း;Sal Thein
 my;နှမ်းခင်းကြီး;Hnan Khin Gyi
 my;ဆင်တဲကြီး;Sin Te Gyi
-my;​ဗောဓိမြိုင်;Baw Di Myaing
+my;ဗောဓိမြိုင်;Baw Di Myaing
 my;မန်ကျည်းမြောင်;Ma Gyi Myaung
 my;မြဂနိုင်;Mya Ga Naing
-my;​အောင်သပြေ;Aung Tha Pyay
 my;သာယာဝှမ်း;Thar Yar Whan
 my;သာယာစု;Thar Yar Su
 my;သန့်ဇင်လှ;Thant Zin Hla
 my;ရွှေကျ;Shwe Kya
 my;ကြိမ်တောမြှောင်;Kyein Taw Hmyaung
 my;ကျွန်းရောင်း;Kyun Yaung
-my;​ရွှေသင်ဖြူး;Shwe Thin Hpyu
-my;​ရွှေဗဟို;Shwe Ba Ho
+my;ရွှေသင်ဖြူး;Shwe Thin Hpyu
+my;ရွှေဗဟို;Shwe Ba Ho
 my;မုံနှစ်;Mon Hnit
 my;စည်သာအေး;Si Thar Aye
 my;ဝက်စု;Wet Su
-my;​ဖောင်းလောင်း;Hpaung Laung
+my;ဖောင်းလောင်း;Hpaung Laung
 my;ဇလောင်း မြောက်;Za Laung South
 my;ပင့်ရဲ;Pint Ye
 my;ဒိုးနွယ်လေး;Doe Nwe Lay
 my;ကြိုပင်;Kyoet Pin
-my;​အေးမြင့်သာယာ;Aye Myint Thar Yar
+my;အေးမြင့်သာယာ;Aye Myint Thar Yar
 my;တောက်ထိန်;Tauk Htein
 my;ကျောက်မီးကူ;Kyauk Mee Ku
 my;မွန်းတည့်ခွင် မြောက်;Mun Teit Khwin North
-my;​ရေပြာ;Yae Pyar
+my;ရေပြာ;Yae Pyar
 my;ဥသျှစ်ကုန်း;Oak Shit Kone
 my;ခါးပြတ်;Khar Pyat
-my;​ခေါမ;Khaw Ma
+my;ခေါမ;Khaw Ma
 my;ကြံဖိုစု;Kyan Hpo Su
 my;ပိုင်ခင်း;Paing Khin
-my;​ငွေလှံကုန်း;Ngwe Hlan Kone
+my;ငွေလှံကုန်း;Ngwe Hlan Kone
 my;ရန်အောင်;Yan Aung
 my;ရေအိုးစင်;Yae Oe Sin
-my;​ကျောက်ခဲအင်း;Kyauk Khe Inn
-my;​ညောင်ပင်ကြီးစု;Nyaung Pin Gyi Su
+my;ကျောက်ခဲအင်း;Kyauk Khe Inn
+my;ညောင်ပင်ကြီးစု;Nyaung Pin Gyi Su
 my;ရုံးပင်ဇောင်း;Yone Pin Zaung
 my;တောင်သာ;Taung Thar
 my;အောင်မင်္ဂလာ;Aung Min Ga Lar
@@ -12486,7 +12403,6 @@ my;ကနစိုး;Ka Na Soe
 my;ကြိုပင် အလယ်;Kyo Pin Middle
 my;စိုင်ခေါင်းရိုး;Saing Gaung Yoe
 my;ရန်အောင်မြင်;Yan Aung Myin
-my;​ပေါက်တော;Pauk Taw
 my;မရိုးအင်း;Ma Yoe Inn
 my;သက္ကယ်ချင်း;Thet Kei Chin
 my;ရွှေကျောင်းကုန်း;Shwe Kyaung Kone
@@ -12509,7 +12425,6 @@ my;စက်ရုံစု;Set Yon Su
 my;ချောင်းခုန်;Chaung Khon
 my;စီတိုးအောင်;Si Toe Aung
 my;အောက်ချိုင်း;Auk Chaing
-my;​ချောင်းသာ;Chaung Thar
 my;အောင်မြင်ကုန်း;Aung Myin Kone
 my;ရွေပြည်အေး;Shwe Pyi Aye
 my;သစ်ပုတ်ပင်;Thit Poke Pin
@@ -12524,7 +12439,6 @@ my;တောင်မြင့် အရှေ့;Taung Myint East
 my;ကြိုဇလုပ်;Kyo Za Loke
 my;ညောင်မုတ်ဆိပ်;Nyaung Moke Seik
 my;မြင်းဇောင်း;Myin Zaung
-my;​အောင်မြင်သာ;Aung Myin Thar
 my;သစ်ကိုးပင်;Thit Koe Pin
 my;သစ်ခေါက်ခွ;Thit Khauk Khwa
 my;အင်းတိုင်းသာ;Inn Taing Thar
@@ -12538,7 +12452,6 @@ my;ပေါက်မြိုင်;Pauk Myaing
 my;ဦးနီတဲစု;U Ni Te Su
 my;အောင်နန်းချို;Aung Nan Cho
 my;ကြံဖိုးစု;Kyan Hpoe Su
-my;​အောင်ချမ်းသာရွာသစ်;Aung Chan Thar Ywar Thit
 my;နနွင်းကျင်း;Na Nwin Kyin
 my;အင်ပင်တဲစု;In Pin Te Su
 my;ညောင်ပင်အိုင်;Nyaung Pin Aing
@@ -12582,7 +12495,6 @@ my;သပြေချောင်း;Tha Pyay Chaung
 my;ပုဇွန်ဆိပ်;Pu Zun Seik
 my;ရင်ခွဲပင်;Yin Khwe Pin
 my;အင်းတိမ်;Inn Tein
-my;​ခေတ်အေး;Khit Aye
 my;မသိမ်;Ma Thein
 my;အင်းကျင်းစု;Inn Kyin Su
 my;သပြေစမ်း;Tha Pyay San
@@ -12594,8 +12506,7 @@ my;ပန်းတော်ခါး;Pan Taw Khar
 my;ထုံးဘို;Htone Bo
 my;မအူလေးပင်;Ma Au Lay Pin
 my;ဇော်ဂျီတွင်း;Zaw Gyi Twin
-my;​လေသာ မြောက်;Lay Thar North
-my;​အောင်ပန်း;Aung Pan
+my;လေသာ မြောက်;Lay Thar North
 my;လေသာ တောင်;Lay Thar South
 my;၂၁ သစ်စက်;21 Thit Set
 my;ကံသာအေး;Kan Thar Aye
@@ -12616,10 +12527,9 @@ my;ကြိမ်ပင်;Kyein Pin
 my;စက်ရုံ;Set Yon
 my;ကူနှစ်လုံးဆည်စု;Ku Hnit Lone Se Su
 my;ပုရွက်ဆိပ်ကုန်း;Pu Ywet Seik Kone
-my;​ဂွေးတောက်ရိုး;Gway Tauk Yoe
+my;ဂွေးတောက်ရိုး;Gway Tauk Yoe
 my;တာတိုင်ကုန်း;Tar Taing Kone
 my;ကျောက်တလုံးကျောင်းစု;Kyauk Ta Lone Kyaung Su
-my;​ရွှေပြည်သာ;Shwe Pyi Thar
 my;ဂုံမင်းမျှောင်;Gon Min Hmyaung
 my;ထိန်ပြောင်;Htein Pyaung
 my;တဲတန်းသာ;Te Tan Thar
@@ -12649,13 +12559,13 @@ my;အောင်ဘိတ်သိတ်;Aung Beik Theik
 my;ကူသပိတ်;Ku Tha Peik
 my;ရွှေအုန်းပင်;Shwe Ohn Pin
 my;အောင်မြေယာ;Aung Myay Yar
-my;​ညောင်ခြောက်;Nyaung Chauk
+my;ညောင်ခြောက်;Nyaung Chauk
 my;ရှားချောင်း;Shar Chaung
 my;ရေလယ်ကွေ့;Yae Lel Kwayt
 my;အင်းတောသာ;Htein Taw
 my;သံမရဲ;Than Ma Ye
 my;ဝါးမျဉ်ခုံ;War Myin Khon
-my;​ခြောက်မိုင်;Chauk Maing
+my;ခြောက်မိုင်;Chauk Maing
 my;မြောင်းမြ;Myaung Mya
 my;ပဒေသာ;Pa Day Thar
 my;သာယာကြီး;Thar Yar Gyi
@@ -12663,10 +12573,8 @@ my;နန်းလွင်ဆန်း;Nan Lwin San
 my;ပြောင်ခေါင်းလေး;Pyaung Gaung Lay
 my;လက်မပင်;Let Ma Pin
 my;အောင်စီလာ;Aung Si Lar
-my;​ငွေတောင်;Ngwe Taung
 my;ရူခင်းသာတဲစု;Shu Khin Thar Te Su
 my;ရေလဲပေါက်;Yae Le Pauk
-my;​အောင်သုခ;Aung Thu Kha
 my;အင်တောသာ;In Taw Thar
 my;အလယ်ချောင်းဖုန်းဆိုး;Ah Lel Chaung Hpone Soe
 my;ဆပ်ပြာကျင်း;Sat Pyar Kyin
@@ -13523,7 +13431,7 @@ my;ဖြတ်လမ်းကူး;Hpyat Lan Ku
 my;နန်းချိန်ခွင်;Nan Chein Khwin
 my;မောင်ဘလောက် ရွာမ;Maung Ba Lauk Ywar Ma
 my;ဟယ်ဒိုး အောက်;Hei Doe Lower
-my;​သောခေါစော;Thaw Khaw Saw
+my;သောခေါစော;Thaw Khaw Saw
 my;သစ်ခွတောင်;Thit Khwa Taung
 my;မာဒေး;Mar Day
 my;ကသွီးဒီး;Ka Thwee Dee
@@ -13754,7 +13662,7 @@ my;ထယ်ရီကျွန်း;Htei Ri Kyun
 my;ထီးတော်တော်;Htee Taw Taw
 my;သောသဲခို;Thaw Thea Kho
 my;မိုးလာဝါး;Moe Lar War
-my;​လေးဖိုးထ အရှေ့;Lay Hpoe Hta East
+my;လေးဖိုးထ အရှေ့;Lay Hpoe Hta East
 my;ထီးလော်သေထ;Htee Law Thay Hta
 my;ရွှေဟဲ;Shwe He
 my;ဖိုးမူဒိုး;Hpoe Mu Doe
@@ -13949,7 +13857,7 @@ my;လော်စောဒေး;Law Saw Day
 my;ကွီးသောခယ်;Kwee Thaw Hkei
 my;တော်အေးဖေါ်;Taw Aye Hpaw
 my;တမိုးလာခီး;Ta Moe Lar Khee
-my;​စောခီးခို့;Saw Khee Khoet
+my;စောခီးခို့;Saw Khee Khoet
 my;မဲပရ အောက်;Me Pa Ra Lower
 my;မဲဖေါ;Me Hpaw
 my;ထီးစထ;Htee Sa Hta
@@ -14119,7 +14027,6 @@ my;အုံးထွဲ;Ohn Htwe
 my;ရွာစည်;Ywar Si
 my;ကုက္ကား;Koke Kar
 my;တောင်ဝင်;Taung Win
-my;​ရွှေဘို;Shwe Bo
 my;အိမ်သစ်;Ein Thit
 my;တောက်စုတ်;Tauk Soke
 my;ကျားခဲ;Kyar Khe
@@ -14156,12 +14063,11 @@ my;ခင်ပြင်;Khin Pyin
 my;လောင်းဘိုကြီး;Laung Bo Gyi
 my;ခွင်းချောင်း;Khwin Chaung
 my;ကြူသာ;Kyu Thar
-my;​မြေနီ;Myay Ni
 my;ပြင်လယ်;Pyin Lel
 my;ဝါးဘိုးချောင်;War Bo Chaung
 my;သာလင်း;Thar Lin
 my;လုံးကြီး အရှေ့;Lone Gyi East
-my;​ခွေးမဲကန်;Khway Me Kan
+my;ခွေးမဲကန်;Khway Me Kan
 my;ရေရှင်မ;Yae Shin Ma
 my;ကျောက်မ;Kyauk Ma
 my;ခေါင်းတုံ;Khaung Ton
@@ -14183,13 +14089,12 @@ my;ပြင်ကနုကုန်း;Pyin Ka Nu Kone
 my;အမတ်ကြီး;Ah Mat Gyi
 my;အောင်လှိုင်ဖျား;Aung Hlaing Hpyar
 my;ဘဝသစ် ၃;Ba Wa Thit 3
-my;​ချောင်းကြီး;Chaung Gyi
 my;ကံကြီးဘအေး;Kan Gyi Ba Aye
 my;ကျွဲဖြူ;Kywe Hpyu
 my;ဘဝသစ် ၁;Ba Wa Thit 1
 my;ဇွန်ချောင်း;Zun Chaung
 my;ဗလချိုက်;Ba La Chaik
-my;​တောကြိုး;Taw Kyoe
+my;တောကြိုး;Taw Kyoe
 my;သူရဲမ;Thu Ye Ma
 my;ကိုးတွင်း;Koe Twin
 my;အမတ်ကလေး;Ah Mat Ka Lay
@@ -14214,7 +14119,7 @@ my;ဝဲချောင်း;Wea Chaung
 my;မင်္ဂလာသောင်တန်း;Min Ga Lar Thaung Tan
 my;ဘအေးကုန်း;Ba Aye Kone
 my;အောက်ဆိပ်ကွင်း;Auk Seik Kwin
-my;​ငွေခဲ;Ngwe Hke
+my;ငွေခဲ;Ngwe Hke
 my;တော်တွတ်;Taw Tut
 my;ကြက်တယ်;Kyet Tai
 my;ဘောဂဝတီ;Baw Ga Wa Di
@@ -14232,7 +14137,6 @@ my;သပြေချိုင်;Tha Pyay Chaing
 my;နောက်မီး အနောက်;Nauk Mee West
 my;ကြိမ်ချောင်းဖျား;Kyein Chaung Hpyar
 my;ဇီးချိုင့်;Zee Chaik
-my;​နောက်ပြန်တိုး;Nauk Pyan Toe
 my;နောက်ဖေးကုန်း;Nauk Hpay Kone
 my;ကိုင်းသောင်;Kaing Thaung
 my;ပိတောင်ပင်ဆိပ်;Pi Tauk Pin Seik
@@ -14278,7 +14182,7 @@ my;ရေဝင်ကြီး;Yae Win Gyi
 my;နလင်ကျော်;Na Lin Kyaw
 my;တောင်ယာချောင်း;Taung Yar Chaung
 my;ဒရယ်ဖြူလေး;Da Yei Hpyu Lay
-my;​ချောင်းတာရှည်;Chaung Tar Shey
+my;ချောင်းတာရှည်;Chaung Tar Shey
 my;ရန်အေး;Yan Aye
 my;ခိုင်ရွှေဝါ;Khaing Shwe War
 my;ရိုးကြီးစု;Yoe Gyi Su
@@ -14306,8 +14210,8 @@ my;ဆင်ထွက်;Sin Htwet
 my;သိပ္ပံကုန်းကြီး;Theik Pan Kone Gyi
 my;မပွေးတန်း;Ma Pway Tan
 my;ကျက်သရေ;Kyet Tha Yae
-my;​ရေမနေကုန်း;Yae Ma Nay Kone
-my;​ရွှေထီး;Shwe Htee
+my;ရေမနေကုန်း;Yae Ma Nay Kone
+my;ရွှေထီး;Shwe Htee
 my;အထက်စု;Ah Htet Su
 my;ကံစုဲဒေါင့်;Kan Su Wea Daunt
 my;လှည်းလမ်း;Hle Lan
@@ -14322,7 +14226,7 @@ my;Ta Say;Tha Pyay
 my;တစ္ဆေ;Tha Pyay
 my;ကရင်မချောင်း;Kayin Ma Chaung
 my;မီးလောင်ကွင်း;Mee Laung Kwin
-my;​ဇောက်ချောင်း;Zauk Chaung
+my;ဇောက်ချောင်း;Zauk Chaung
 my;ဘိုးမိရေကျော်;Boe Mi Yae Kyaw
 my;ဗန်ဒါပင်;Ban Dar Pin
 my;အဝပြန်;Ah Wa Pyan
@@ -14336,7 +14240,7 @@ my;ချောင်းသာယာ;Caung Thar Yar
 my;ကုလားမကွင်း;Ku Lar Ma Kwin
 my;သပြေချောင်း;Tha Byay Chaung
 my;တာလူဖတော;Tar Lu Hpa Taw
-my;​ခေါင်းကြီးကျွန်း;Gaung Gyi Kyun
+my;ခေါင်းကြီးကျွန်း;Gaung Gyi Kyun
 my;အောင်စည်မင်္ဂလာ;Aung Si Min Ga Lar
 my;ဘိုးသင်ကုန်း;Boe Thin Kone
 my;အပြင်မရမ်း;Ah Pyin Ma Yan
@@ -14426,11 +14330,9 @@ my;ကဿမျှင်စာြဖူစု;Kat Tha Hmyin Sar Hpyu Su
 my;အပြင်ဘုတ်ချောင်း;Ah Pyin Boke Chaung
 my;ကံညီနောင်;Kan Nyi Naung
 my;ဦးနီအစု;U Ni Ah Su
-my;​ဘောစကိုင်း;Baw Sa Kaing
 my;အတွင်းဘုတ်ချောင်း;Ah Twin Boke Chaung
 my;လမုအုပ်ကလေး;La Mu Oke Ka Lay
 my;ကုလားမကွင်း;Ku La Ma Kwin
-my;​ရေဝေ;Yae Wai
 my;မြောက်လက်ကုန်း;Myauk Let Kone
 my;စခန်းကုန်း;Sa Khan Kone
 my;ရွှေထူး;Shwe Htu
@@ -14473,7 +14375,7 @@ my;အောက်ပြွန်;Auk Pyun
 my;ဖိုးထုံး;Hpoe Htone
 my;လိပ်ကွင်း;Leik Kwin
 my;တရုတ်ချောင်း;Ta Yoke Chaung
-my;​ဖောင်းမခ;Hpaung Ma Kha
+my;ဖောင်းမခ;Hpaung Ma Kha
 my;မကျီးချောင်း;Ma Gyi Chaung
 my;ကနွီ;Ka Nwi
 my;သံထိုးဝါး;Than Htoe War
@@ -14510,7 +14412,6 @@ my;ငါးဒန်တရာ;Ngar Dan Ta Yar
 my;ရခိုင်ကုန်း;Rakhine Kone
 my;တိုးလှ;Toe Hla
 my;မလေးကြီးကုန်း;Ma Lay Gyi Kone
-my;​ပေါ်တော်မူ;Paw Taw Mu
 my;မြစ်ပေါက်;Myit Pauk
 my;ဆင်တွင်းကုန်း;Sin Twin Kone
 my;ဇင်ပေါင်း;Zin Baung
@@ -14568,7 +14469,6 @@ my;ရေပေါ်လေး;Yae Paw Lay
 my;ရေဆိုင်ကုန်း;Yae Saing Kone
 my;အုန်းတပင်သုံးခွ;Ohn Ta Pin Thone Gwa
 my;တမန်ကြိုး;Ta Man Kyoe
-my;​ချောင်းဖျားစု;Chaung Hpyar Su
 my;ဓမ္မရက္ခိတ;Dhamma Rek Khi Ta
 my;မြစ်ပိုးကျုံစိန်;Myit Poe Kyon Sein
 my;မြစ်တန်းကြီး;Myit Tan Gyi
@@ -14612,7 +14512,7 @@ my;အညွန်;Ah Nyun
 my;ကတ္တီပါ;Ka Ti Par
 my;ငခူချောင်း;Nga Khu Chaung
 my;ထုံး;Htone
-my;​ကျောင်းကွဲ;Kyaung Kwe
+my;ကျောင်းကွဲ;Kyaung Kwe
 my;ယုဇန;Yu Za Na
 my;မာလိန်;Mar Lein
 my;နှစ်ပင်ဆိုင်;Hnit Pin Saing
@@ -14623,7 +14523,6 @@ my;မတော့ကန်;Ma Tawt Kan
 my;ဓမြချောင်း;Da Mya Chaung
 my;ဥက္ကံ;Oak Kan
 my;ရေကမြင်း;Yae Ka Myin
-my;​ကျောက်တံခါး;Kyauk Ta Gar
 my;ဇလပ်ထော်;Za Lat Htaw
 my;သပြေဆိပ်;Tha Pyay Seik
 my;ခရမ်းကွင်း;Kha Yan Kwin
@@ -14632,12 +14531,12 @@ my;သဲတောင်;Thea Taung
 my;Gway Kone;Gwe Gon
 my;ဂွေးကုန်း;Gwe Gon
 my;စိန်မှန်း;Sein Hman
-my;​ဗျူးရေကျော်;Byu Yae Kyaw
+my;ဗျူးရေကျော်;Byu Yae Kyaw
 my;မြစိမ်းကန်;Mya Sein Kan
 my;ပင်လယ်တိန်;Pin Lel Tain
 my;အမတ်;Ah Mat
 my;ကျွန်းကွင်းမြစ်ပိုးစု;Kyun Kwin Myit Poe Su
-my;​ခေတ်ဆန်း;Khit San
+my;ခေတ်ဆန်း;Khit San
 my;ညီနောင်ကြီး;Nyi Naung Gyi
 my;ကျားလေးချောင်း;Kyar Lay Chaung
 my;ကန့်ဘလာစု;Kant Ba Lar Su
@@ -14648,7 +14547,7 @@ my;မင်္ဂလာသောင်တန်း;Min Ga Lar Thaung Dan
 my;နုံးချောင်း;None Chaung
 my;ပတက်ဝ;Pa Tet Wa
 my;Thauk Kyar;Thauk Kya
-my;​သောကြာ;Thauk Kya
+my;သောကြာ;Thauk Kya
 my;Hpoe Shan Gyi;Pho Shan Gyi
 my;ဖိုးရှမ်းကြီး;Pho Shan Gyi
 my;လွှစင်ချောင်;Hlwa Sin Chaung
@@ -14657,7 +14556,7 @@ my;သမိန်ထောကုန်းတန်း;Tha Mein Htaw Kone Tan
 my;နှာခေါင်းချောင်းကြီး;Hnar Khaung Chaung Gyi
 my;ပေါင်တစ်ချောင်း;Paung Tit Chaung
 my;ညောင်လိန်ကျောင်းရှေ့ကုန်း;Nyaung Lein Kyaung Shey Kone
-my;​ဗေလုံဒေ့;Bay Lon Dayt
+my;ဗေလုံဒေ့;Bay Lon Dayt
 my;တမံချောင်း;Ta Man Chaung
 my;နတ်မောက်;Nat Mauk
 my;အကယ်ချောင်း;Ah Kei Chaung
@@ -14672,7 +14571,6 @@ my;ဗျိုင်းကဖီး;Byaing Ka Hpee
 my;ရွှေလဝင်း;Shwe La Win
 my;နှာခေါင်းချောင်းလေး;Hnar Khaung Chaung Lay
 my;ပန်းဖူးပုလဲတန်း;Pan Hpu Pale Tan
-my;​ပေချောင်း;Pay Chaung
 my;သကံငူ;Tha Kan Ngu
 my;ပတ္တမြားကုန်း;Pa Da Myar Kone
 my;သာယာချောင်;Thar Yar Chaung
@@ -14723,7 +14621,7 @@ my;Zee Hpyu Kone;Than Di Zi Byu Gon
 my;ဇီးဖြူကုန်း;Than Di Zi Byu Gon
 my;အခြံ;Ah Chan
 my;ဂုံမင်းမြစ်တန်း;Gon Min Myit Tan
-my;​ဗောဓိတစ်ထောင်;Bawdi Ta Htaung
+my;ဗောဓိတစ်ထောင်;Bawdi Ta Htaung
 my;မြစ်တို;Myit Toe
 my;ကျုံစိန်လေး;Kyon Sein Lay
 my;ဒေါင်းဦးတို;Daung U To
@@ -14750,7 +14648,7 @@ my;အောင်နက်;Aung Net
 my;ကုလားချောင်း;Ka Lar Chaung
 my;ကျားခြံ;Kyar Chan
 my;ဘူးတောင်းအထက်အောက်;Bu Taung Ah Htet Auk
-my;​လေးဆိပ်;Lay Seik
+my;လေးဆိပ်;Lay Seik
 my;Ka Dar;Ka Da
 my;ငွေဇင်ယော်;Ngwe Zin Yaw
 my;ကိုင်းတောဝ;Kaing Taw Wa
@@ -14829,7 +14727,6 @@ my;မျက်ခါး;Myet Kha Yo
 my;Shan Su;Shan Zu
 my;ရှမ်းစု;Shan Zu
 my;ဆင်ကွင်း;Sin Kwin
-my;​ရေနက်ချောင်း;Yae Net Chaung
 my;တဲစုကြီး;Te Su Gyi
 my;ပျဉ်းကတိုး;Pyin Ka Doe
 my;တော်ပေါင်စိန်;Taw Paung Sein
@@ -14838,7 +14735,7 @@ my;ကွန်ထော်;Kun Htaw
 my;ကွမ်းသီးချောင်းကြီး;Kun Thee Chaung Gyi
 my;Tha Byu Kone;Tha Byu Gon
 my;သဗြုကုန်း;Tha Byu Gon
-my;​ဖောင်ကွဲ;Hpaung Kwe
+my;ဖောင်ကွဲ;Hpaung Kwe
 my;အရှေ့သိုင်းချောင်း;Ah Shey Thaing Chaung
 my;ဦးမှုံ;U Hmon
 my;မြင်းကချောင်း;Myin Ka Chaung
@@ -14914,13 +14811,12 @@ my;မိချောင်းသိုက်;Mi Chaung Thaik
 my;သကန်ဂွကြီး;Tha Kan Gwa Gyi
 my;ဖုံးဆိုး;Hpone Soe
 my;ကျွန်းဘိုး;Kyun Boe
-my;​တောင်လိပ်ချောင်း;Taung Leik Chaung
+my;တောင်လိပ်ချောင်း;Taung Leik Chaung
 my;Nyaung Kar Yar;Nyaung Ka Ya
 my;ညောင်ကားယား;Nyaung Ka Ya
 my;နောက်ပြန်ဒိုး;Nauk Pyan Doe
 my;နတ်မှူး;Nat Hmu
 my;ပုဂံပုံ;Bagan Pon
-my;​ကျောက်ကြီး;Kyauk Gyi
 my;Ma Yan Wa;Ma Yan Gwa
 my;မရမ်းဝ;Ma Yan Gwa
 my;ဘေထုံတုံးလှဲချောင်း;Bay Htone Tone Hle Chaung
@@ -14929,13 +14825,12 @@ my;ဟင်းအိုးချောင်း;Hin Oe Chaung
 my;ဓနိပေါက်;Da Ni Pauk
 my;ညီနောင်ဝ;Nyi Naung Wa
 my;အနန်းချောင်း;Ah Nan Chaung
-my;​နောင်တော်ကြီး;Naung Taw Gyi
+my;နောင်တော်ကြီး;Naung Taw Gyi
 my;မရမ်းကွဲ;Ma Yan Kwe
 my;ထန်းပင်ကွင်း;Htan Pin Kwin
 my;ကုလားရိတ်;Ku Lar Yaik
 my;သဘော့ကုန်း;Tha Bawt Kone
 my;ဖျာပုံတမန်;Pyapon Ta Man
-my;​ချောင်းဖျား;Chaung Hpyar
 my;Za Lat Kone;Za Lat Kon
 my;ဇလပ်ကုန်း;Za Lat Kon
 my;တဆေငူ;Ta Say Ngu
@@ -15005,7 +14900,7 @@ my;ဂန်ချောင်း;Gan Chaung
 my;ငှက်ပြောချောင်း;Hnget Pyaw Chaung
 my;ကျောင်းအမချောင်း;Kyaung Ah Ma Chaung
 my;ကျောက်ဖျာကွင်း;Kyauk Hpyar Kwin
-my;​အေးရန်ကုန်;Aye Yangon
+my;အေးရန်ကုန်;Aye Yangon
 my;ထန်းကုန်းရွာသစ်;Htan Kone Ywar Thit
 my;ဂျပ်ချောင်း;Gyat Chaung
 my;La Mu Khwe;La Mu Gwe
@@ -15038,25 +14933,24 @@ my;ဒါးမလိမ်းချောင်းဝ;Dar Ma Lein Chaung Wa
 my;ခူလံ အနောက်;Khu La West
 my;ကျွဲခြံချောင်းဖျား;Kywe Chan Chaung Hpyar
 my;ထလွန်;Hta Lun
-my;​ကြီးပင်စု;Kyee Pin Su
+my;ကြီးပင်စု;Kyee Pin Su
 my;ထန်းညက်ချောင်း;Htan Nyet Chaung
 my;ပါတူချောင်;Par Tu Chaung
 my;ပေါ်တော်မူ;Paw Taw Mu
 my;အိုးလယ်ချောင်း;Oe Lel Chaung
 my;ရွှေပေး;Shwe Pay
-my;​ရွှေဘိုစု;Shwe Bo Su
 my;Taw Ka Mei Kone Tan;Kon Tan
 my;တော်ကမယ်ကုန်းတန်း;Kon Tan
 my;ငှက်ကျင်တန်း;Hnget Kyin Tan
 my;ကျုံကျိုက်;Kyon Kyaik
-my;​ရွှေမြကြီး;Shwe Mya Gyi
+my;ရွှေမြကြီး;Shwe Mya Gyi
 my;တမော့ကြီး;Ta Mawt Gyi
 my;ထီးလုံးဖြူ;Htee Lone Hpyu
 my;မှော်ဘီစု;Hmaw Bi Su
 my;ငလှကြီး;Nga Hla Gyi
 my;ကြိမ်နီချောင်းစု;Kyein Ni Chaung Su
 my;Pyaw Bwe;Pyaw Bwe Su
-my;​ပျော်ဘွယ်;Pyaw Bwe Su
+my;ပျော်ဘွယ်;Pyaw Bwe Su
 my;ဟံသာညွန့်;Han Thar Nyunt
 my;ထောက်ရှာကုန်း;Htauk Shar Kone
 my;ငရောင်ချောင်း;Nga Yaung Chaung
@@ -15070,7 +14964,7 @@ my;ရေနီချောင်း;Ye Ni Gyaung
 my;ဘာသာကုန်း;Bar Thar Kone
 my;Taw Hpa Yon Kone Tan;Kon Dan Lay
 my;တော်ဖရုံကုန်းတန်း;Kon Dan Lay
-my;​မှော်အိုင်;Hmaw Aing
+my;မှော်အိုင်;Hmaw Aing
 my;Nyaung Pin Kone;Nyaung Bin Kon
 my;ညောင်ပင်ကုန်း;Nyaung Bin Kon
 my;နွားရေကျော်ချောင်းဝ;Nwar Yae Kyaw Chaung Wa
@@ -15122,7 +15016,6 @@ my;ပုဇွန်ချောင်း;Pa Zun Gyaung
 my;မင်းဘူးစု;Min Bu Su
 my;လပွတ်ပြေး;La Put Pyay
 my;ဖိုးစွာ;Hpoe Swar
-my;​မှော်ဘီ;Hmaw Bi
 my;နွားရေကျော်ကျောင်းစု;Nwar Yae Kyaw Kyaung Su
 my;ပိတ္တာ;Peik Tar
 my;မက္ကနန်း;Met Ka Nan
@@ -15133,7 +15026,7 @@ my;ကမ်းရိုးတန်း;Kan Yoe Tan
 my;တော်မှတ်;Taw Hmat
 my;ကျုံဓနိ;Kyon Da Ni
 my;မဲဇလီဥတို;Me Za Li U Toe
-my;​အောင်ဘ;Aung Ba
+my;အောင်ဘ;Aung Ba
 my;Gwa Ka Lay;Gwa Ga Le
 my;ဂွကလေး;Gwa Ga Le
 my;ဧကတစ်ရာ;Aye Ka Tit Yar
@@ -15153,7 +15046,7 @@ my;တဲချောင်း;Te Chaung
 my;အလယ်စုဝဲချောင်းကလေး;Ah Lel Su Wea Chaung Ka Lay
 my;ကနစိုကွင်း;Ka Na So Kwin
 my;ဗိုင်းတောင့်ချောင်း;Baing Taunt Chaung
-my;​ရေကျော်တင်ဖျား;Yae Kyaw Tin Hpyar
+my;ရေကျော်တင်ဖျား;Yae Kyaw Tin Hpyar
 my;ကြက်ချေးချောင်း;Kyet Chay Chaung
 my;သံဖက်;Than Hpet
 my;ပန်းမောက်ခုံ;Pan Mauk Khon
@@ -15174,7 +15067,7 @@ my;တလဖုန်း;Ta La Hpone
 my;သစ်ပုတ်ကလေး;Thit Poke Ka Lay
 my;တဆေချောင်း;Ta Say Chaung
 my;Lay Ein Kone;Le Ein Gon
-my;​လေးအိမ်ကုန်း;Le Ein Gon
+my;လေးအိမ်ကုန်း;Le Ein Gon
 my;ဆန်းသစ်ဦး;San Thit U
 my;ဗန္ဓုလ;Ban Du La
 my;Taw Ka Man;Aseik Taw Ka Man
@@ -15211,7 +15104,7 @@ my;အုန်းသုံးပင်;Ohn Thone Pin
 my;Kayin Ni Su;Ka Yin Ni Zu
 my;ကရင်နီစု;Ka Yin Ni Zu
 my;Nyaung Pin Tan;Nyaung Bin Dan
-my;​ညောင်ပင်တန်း;Nyaung Bin Dan
+my;ညောင်ပင်တန်း;Nyaung Bin Dan
 my;ခနောင်ရှမ်းကွင်း;Kha Naung Shan Kwin
 my;ကျုံချင်;Kyon Chin
 my;ပျားမွတ်;Pyar Mut
@@ -15236,7 +15129,6 @@ my;မရဲ့ဝ;Ma Yeit Wa
 my;ဝါးသိမ်ခွ;War Thein Gwa
 my;တောင်ယာကွင်း;Taung Yar Kwin
 my;ဆပ်သွားဖူးကုန်း;Sat Thwar Hpu Kone
-my;​ညောင်တုံးစု;Nyaungdon Su
 my;ဒါးကျ;Dar Kya
 my;Hnar Khaung Chaung;Hna Hkaung Gyaung
 my;နှာခေါင်းချောင်း;Hna Hkaung Gyaung
@@ -15262,7 +15154,6 @@ my;တမော့ဝ;Ta Mawt Wa
 my;Lay;Le Ywa
 my;လေး;Le Ywa
 my;Chaung Hpyar;Chaung Phya
-my;​ချောင်းဖျား;Chaung Phya
 my;Pyin Htaung Su;Pyin Daung Zu
 my;ပျဉ်ထောင်စု;Pyin Daung Zu
 my;ချောင်းဖျား;Chaung Phya
@@ -15343,14 +15234,13 @@ my;ကုလားကြီးကွဲ;Ku Lar Gyi Kwe
 my;ဆင်ကွင်းရွာသစ်;Sin Kwin Ywar Thit
 my;မိချောင်းတရာ;Mi Chaung Ta Yar
 my;ကိုပိုက်အစု;Ko Paik Ah Su
-my;​တောင်ကလေး;Taung Ka Lay
 my;ဆုံချောင်း;Son Chaung
 my;ပန်းဘဲစုကွင်းချောင်း;Boe Pyar Chaung
 my;ဂန့်ဂေါ်စု;Gant Gaw Su
 my;ကညင်ကိုင်းချောင်းဖျား;Ka Nyin Kaing Chaung Hpyar
 my;သင်ပန်းချောင်း;Thin Pan Chaung
 my;ငပွေးတန်းစာဖြူ;Nga Pway Tan Sar Hpyu
-my;​အောက်ရွာကလေး;Auk Ywar Ka Lay
+my;အောက်ရွာကလေး;Auk Ywar Ka Lay
 my;ပိန်ကျော်;Pein Kyaw
 my;ဂျိုဝါဝ;Gyo War Wa
 my;ပေချောင်းကလေး;Pay Chaung Ka Lay
@@ -15432,7 +15322,7 @@ my;ပတုတ်;Pa Toke
 my;ကညင်ချောင်းကြီး;Ka Nyin Chaung Gyi
 my;ထိန်ပင်ကြက်ရှာ;Htein Pin Kyet Shar
 my;မီးဂူ;Mee Gu
-my;​စော်ကဲချောင်း;Saw Ke Chaung
+my;စော်ကဲချောင်း;Saw Ke Chaung
 my;မရမ်းကလေး;Ma Yan Ka Lay
 my;ကြာကွင်း;Kyar Kwin
 my;သပြုကွင်း;Tha Pyu Kwin
@@ -15468,12 +15358,11 @@ my;ဂွေးပင်ဆိပ်;Gway Pin Seik
 my;နောင်စခန်း;Naung Sa Khan
 my;ဘိုးလူဝ;Boe Lu Wa
 my;ထီတိုလိုအဖျား;Hti To Lo Ah Hpyar
-my;​သော်ကကွင်း;Thaw Ka Kwin
+my;သော်ကကွင်း;Thaw Ka Kwin
 my;ငှက်ပျောချောင်း;Hnget Pyaw Chaung
 my;ဝါးနွယ်ချောင်း;War Nwe Chaung
 my;သံကြိုးတိုင်;Than Kyoe Taing
 my;အုပ်ပုံချောင်း;Oke Pon Chaung
-my;​ဂွေးကုန်း;Gway Kone
 my;Thaing Chaung;Thaing Gyaung
 my;သိုင်းချောင်း;Thaing Gyaung
 my;Sit Kone;Sit Kon
@@ -15525,7 +15414,6 @@ my;ဓားမြချောင်း;Dar Mya Chaung
 my;ရှောက်ပင်ကွေ့;Shauk Pin Kwayt
 my;ကျခတ်စု;Kya Khat Su
 my;သရက်ချောင်းကုန်းစု;Tha Yet Chaung Kone Su
-my;​တောင်ချောင်း;Taung Chaung
 my;ကြပ်ခိုးစု;Kyat Khoe Su
 my;ဝဲချောင်းဝ;Wea Chaung Wa
 my;တဝါ;Ta War
@@ -15568,14 +15456,13 @@ my;သင်ငံ;Thin Ngan
 my;ဖို့ခမီဒေါင့်;Hpoet Kha Mi Daunt
 my;ဆိပ်ဖူးချောင်;Seik Hpu Chaung
 my;ကျည်စု;Kyi Su
-my;​ဂွေးပင်ကွင်း;Gway Pin Kwin
+my;ဂွေးပင်ကွင်း;Gway Pin Kwin
 my;ဆူးဂဏန်း;Su Ga Nan
 my;မရဲအုံးပင်စု;Ma Ye Ohn Pin Su
 my;ညောင်လမ်းအုပ်;Nyaung Lan Oke
 my;ညောင်တုံးစု;Nyaungdon Su
 my;ကုလားမချောင်း;Ku Lar Ma Chaung
 my;သရွတ်ကြီး;Tha Yut Gyi
-my;​ကျောက်ဖျာ;Kyauk Hpyar
 my;တရုပ်စုကျွန်းခြား;Ta Yoke Su Kyun Char
 my;ပုတီးရိုး;Pu Tee Yoe
 my;ပရိုက်;Pa Yaik
@@ -15605,9 +15492,8 @@ my;တပေတမော့;Ta Pay Ta Mawt
 my;မြို့ချောင်းလေး;Myo Chaung Lay
 my;အပြင်နှုံးကော်;Ah Pyin Hnone Kaw
 my;ဓားတစ်;Dar Tit
-my;​ဂွေးပင်ဆိပ်;Gway Pin Seik
 my;လေးအိမ်တန်းအညာစု;Lay Ein Tan Ah Nyar Su
-my;​ဘေသေးလိ;Bay Thay Li
+my;ဘေသေးလိ;Bay Thay Li
 my;လပွတ္တလုပ်ကြီး;Lat Put Ta Loke Gyi
 my;ရွာသစ်ကုန်း;Ywa Thit Kone
 my;မုဆိုးမ;Moke Soe Ma
@@ -15619,7 +15505,6 @@ my;အညာစု တောင်;Ah Nyar Su South
 my;ထီဆိပ်ဘုရားစု;Hti Seik Hpa Yar Su
 my;အရွဲ;Ah Ywea
 my;အောင်လှိုင်ကြီး;Aung Hlaing Gyi
-my;​ကျုံမငဲ့ချောင်းဖျား;Kyon Ma Ngeit Chaung Hpyar
 my;ညောင်ချောင်းလေး;Poe Laung
 my;ပဒေါက်ကုန်း;Pa Dauk Kone
 my;အေးချောင်း;Aye Chaung
@@ -15629,7 +15514,6 @@ my;သပြုပင်ဆိပ်;Tha Pyu Pin Seik
 my;ခေါင်းပေါင်းဖြူ;Gaung Paung Hpyu
 my;ကင်မွန်းချောင်;Kin Mun Chaung
 my;သူဇာဝ;Thu Zar Wa
-my;​ညောင်ပင်စု;Nyaung Pin Su
 my;ညောင်ပင်စု;Nyaung Pin Su
 my;အဂါး;Ah Gar
 my;ဆင်နင်းချောင်;Sin Nin Chaung
@@ -15637,7 +15521,6 @@ my;မင်းဘောချောင်း;Min Baw Chaung
 my;ကြောင်ရှာကွဲ;Kyaung Shar Kwe
 my;ဖျာပုံစု;Hpyar Pon Su
 my;မိုးကြိုးပန်း;Moe Kyoe Pan
-my;​ကျောက်တလုံး;Kyauk Ta Lone
 my;သရက်ချောင်းသင်္ဘောဆိပ်;Tha Yet Chaung Thin Baw Seik
 my;အုတ်ရှစ်ကလေး;Oke Shit Ka Lay
 my;မန်းချောင်း;Man Chaung
@@ -15655,7 +15538,6 @@ my;ရောင်ခြည်ဦး;Yaung Chi U
 my;ထိန်ကုလား;Htein Ku Lar
 my;အဟူး;Ah Hu
 my;သင်ပန်းချောင်;Thin Pan Chaung
-my;​ကြွေချိုင်;Kyway Chaing
 my;အိမ်ကြီးစု;Ein Gyi Su
 my;ဖောင်ရိုးချောင်း;Hpaung Yoe Chaung
 my;ရုံးချောင်း;Yone Chaung
@@ -15729,7 +15611,7 @@ my;ဘိုးခေါင်ချောင်း;Boe Khaung Chaung
 my;ကျေးသာတောင်;Kyay Thar Taung
 my;ဘုံလုံချောင်း;Bon Lon Chaung
 my;ချွန်းစု;Chun Su
-my;​ဂျောင်ရှေ;Gyaung Shey
+my;ဂျောင်ရှေ;Gyaung Shey
 my;အစုကြီး;Ah Su GYi
 my;ဖိုးခမှီဒေါင့်အောက်စု;Hpoe Kha Hmi Daunt Auk Su
 my;ကွန်ပလိုင်းရွာသစ်;Kun Pa Laing Ywar Thit
@@ -15755,7 +15637,6 @@ my;ထင်းပုံစု;Htin Pon Su
 my;ဂွေးချောင်းကြီး;Gway Chaung Gyi
 my;ပဒတ်လယ်နီ;Pa Dat Lel Ni
 my;ကြွက်နွယ်ချောင်း;Kywet Nwe Chaung
-my;​တောင်ကုန်း;Taung Kone
 my;အောင်ဗလ;Aung Ba La
 my;ကြက်မကုန်း;Kyet Ma Kone
 my;နတ်စင်ကျောင်းစု;Nat Sin Kyaung Su
@@ -15812,7 +15693,6 @@ my;ဆယ်ရွာ;Se Ywar
 my;အစုကြီးရွာသစ်;Ah Su Gyi Ywar Thit
 my;ပင်ကတိုင်း;Pin Ka Taing
 my;ဆင်ကျုံးကွင်း;Sin Kyone Kwin
-my;​ရေနံတောင်;Yae Nan Taung
 my;ရှမ်းတောကြီး;Shan Taw Gyi
 my;ဝါးတောလှဲ;War Taw Hle
 my;ဝန်ထောက်ကွင်း;Wun Htauk Kwin
@@ -15858,7 +15738,6 @@ my;မောင်ပေါက်ကုန်း;Maung Pauk Kone
 my;ဆန်တုန်;San Ton
 my;ချင်းမြောင်;Chin Myaung
 my;ကြာအင်းဇောင်း;Kyar Inn Zoung
-my;​ရှောက်ကုန်း;Shauk Kone
 my;အိုးဘိုကုန်း;Oe Bo Kone
 my;ကရင်ကုန်း;Kayin Kone
 my;ခတ္တိယ;Khat Ti Ya
@@ -15868,10 +15747,9 @@ my;ရေလယ်ကျင်း;Yae Lel Kyin
 my;ဘုရားနီတောင်;Hpa Yar Ni Taung
 my;အထက်ပန်းတော်;Ah Htet Pan Taw
 my;ကျော်ငုံ;Kyaw Ngon
-my;​မြောင်ကြီး;Myaung Gyi
+my;မြောင်ကြီး;Myaung Gyi
 my;ပေါက်ကုန်း;Gon Min Taw
 my;မြောက်အင်တိုင်း;Myauk Inn Taing
-my;​ဂွေးချို;Gway Cho
 my;တာစု;Tar Su
 my;လူပျိုတော်;Lu Pyo Taw
 my;သဲကော;Thea Kaw
@@ -15879,7 +15757,6 @@ my;အောက်ပန်းတော်;Auk Pan Taw
 my;မြန်မာသဖန်းပင်;Myanmar Tha Hpan Pin
 my;သရက်ပင်ဈေး;Tha Yet Pin Zay
 my;ကိုးပင်;Koe Pin
-my;​တော;Taw
 my;သရက်ခုံ;That Yet Khon
 my;မကျီးပေါက်ကုန်း;Ma Gyi Pauk Kone
 my;နတ်ပီတိ;Nat Pi Ti
@@ -15898,7 +15775,6 @@ my;ထုံးတဲစု;Htone Te Su
 my;လဲဝါကွင်း;Le War Kwin
 my;သီးပင်ရိုး;Thee Pin Yoe
 my;လက်ပံကွင်း;Let Pan Kwin
-my;​ပေတော;Pay Taw
 my;ကွင်းသာ;Kwin Thar
 my;ပန်းပင်ကုန်း;Pan Pin Kone
 my;ကြွက်နွယ်ကွင်း;Kywet Nwe Kwin
@@ -15953,20 +15829,20 @@ my;နတ်တောင်;Nat Taung
 my;ဇရစ်ထူ;Za Yit Htu
 my;ကြခတ်ကွင်း;Kya Khat Kwin
 my;ယိုးဒယားကွင်း;Yoe Da Yar Kwin
-my;​စောပြာ;Saw Pyar
+my;စောပြာ;Saw Pyar
 my;သရက်ပင်ကြီးစု;Tha Yet Pin Gyi Su
 my;ကညင်တိုင်း;Ka Nyin Taing
 my;ထုံးကြီးဖို;Htone Gyi Hpo
 my;စက်စက်ရို;Set Set Yo
 my;ကြပ်ကြီး;Kyat Gyi
 my;ခုနှစ်အိမ်တန်း;Khun Hnit Ein Tan
-my;​ပျဉ်းကိုးပင်;Pyin Koe Pin
-my;​ရေစမ်း;Yae San
+my;ပျဉ်းကိုးပင်;Pyin Koe Pin
+my;ရေစမ်း;Yae San
 my;တောင်ပေကုန်း;Taung Pay Kone
 my;သတ္တိကုန်း;That Ti Kone
 my;ရေနံ့သာ;Yae Nant Thar
 my;သံလွင်;Than Lwin
-my;​လေးဆယ်ကျော်;Lay Se Kyaw
+my;လေးဆယ်ကျော်;Lay Se Kyaw
 my;ငုက်ပျောတောကွင်း;Hnget Pyaw Taw Kwin
 my;ကျွန်းတုံး;Kyun Tone
 my;ရသာလေး;Ya Thar Lay
@@ -15983,7 +15859,7 @@ my;သစ်နက်စမ်း;Thit Net San
 my;ရထားကွင်း;Ya Htar Kwin
 my;ကွင်းလျှားဘက်;Kwin Hlyar Bet
 my;မှန်တန်း;Hman Tan
-my;​မျှော့ထူ;Hmyawt Htu
+my;မျှော့ထူ;Hmyawt Htu
 my;စပါယ်ရိုး;Sa Bai Yoe
 my;ကြီကြီး;Kyi Gyee
 my;ပြန့်သေ;Pyant Thay
@@ -15992,13 +15868,12 @@ my;ငပိလှမ်း;Nga Pi Hlan
 my;ရုပ်သေးတန်း;Yoke Thay Tan
 my;တောင်ပို့ပိ;Taung Poet Pi
 my;အရှေ့ဂရက်;Ah Shey Ga Yet
-my;​သောင်;Thaung
-my;​တောင်ကုန်းစခန်း;Taung Kone Sa Khan
+my;သောင်;Thaung
+my;တောင်ကုန်းစခန်း;Taung Kone Sa Khan
 my;ကြပ်ကုန်း;Kyat Kone
 my;လှည်းထောက်ကွင်း;Hle Htauk Kwin
 my;ဒရယ်ကုန်း;Da Yei Kone
 my;သပြုပင်;Tha Pyu Pin
-my;​သီတာ;Thi Dar
 my;ခတ်ချိုကုန်း;Khat Cho Kone
 my;အနောက်ဂရက်;Ah Nauk Ga Yet
 my;တောရွာ;Taw Ywar
@@ -16016,21 +15891,20 @@ my;လက်ပံစု;Let Pan Su
 my;ဂွေးပင်တောက်;Gway Pin Daunt
 my;ရေသိုးချောင်;Yae Thoe Chaung
 my;မဒေါ့မြှောင်;Ma Daunt Hmyaung
-my;​တောင်နှစ်လုံး;Taung Hnit Lone
+my;တောင်နှစ်လုံး;Taung Hnit Lone
 my;ကမ်းနားစု;Kan Nar Su
-my;​ကျောက်ခဲချောင်း;Kyauk Khe Chaung
-my;​ရေသိုးကုန်း;Yae Thoe Kone
+my;ကျောက်ခဲချောင်း;Kyauk Khe Chaung
+my;ရေသိုးကုန်း;Yae Thoe Kone
 my;ဒွါရစု;Dwar Ya Su
 my;ကုံးစု;Kone Su
 my;ဇရစ်ရိုးလေး;Za Yit Yoe Lay
 my;ကျွန်းတောက်;Kyun Tauk
-my;​ညောင်တုန်း;Nyaungdon
 my;ကညင်တောင်;Ka Nyin Taung
 my;ကြိမ်ချောင်း;Kyon Tone
 my;ဘွဲ့ငူတာပြင်;Bweit Ngu Tar Pyin
 my;ထန်းပင်ကျိုး;Htan Pin Kyoe
 my;ကရင်ကွင်းပေါက်;Kayin Kwin Pauk
-my;​တောလေး;Taw Lay
+my;တောလေး;Taw Lay
 my;အညာတန်း;Ah Nyar Tan
 my;ဂျိုချောင်း;Gyo Chaung
 my;ပန်းတင်ကုန်း;Pan Tin Kone
@@ -16038,7 +15912,7 @@ my;ကြက်ပေါင်;Kyet Paung
 my;အရှေ့ရွာသစ်;Ah Shey Ywar Thit
 my;ကြို့ကုန်း မြောက်;Kyoet Kone North
 my;သမင်ခြံ အရှေ့;Tha Min Chan East
-my;​ကျောက်ကြီးကွင်း;Kyauk Gyi Kwin
+my;ကျောက်ကြီးကွင်း;Kyauk Gyi Kwin
 my;တာနားစု;Tar Nar Su
 my;နွားရေတိုက်;Nwar Yae Taik
 my;တာကျိုး;Tar Kyoe
@@ -16047,7 +15921,7 @@ my;မကြီးလဟာ;Ma Gyi La Har
 my;ကျွဲရဲကြီး;Kywe Ye Gyi
 my;ဝါးတဲစု;War Te Su
 my;ကုန်းဒိုက်လျှား;Kone Daik Hlyar
-my;​ညောင်ပင်တန်း;Nyaung Pin Tan
+my;ညောင်ပင်တန်း;Nyaung Pin Tan
 my;ထန်းငါးပင်;Htan Ngar Pin
 my;ကျားခေါင်း;Kyar Gaung
 my;ကွင်းလယ်စု;Kwin Lel Su
@@ -16057,7 +15931,7 @@ my;ကိုက်ပါ;Kaik Par
 my;ဘုရားပု;Hpa Yar Pu
 my;သရက်ကွဲ;Tha Yet Kwe
 my;ကနုကလော;Ka Nu Ka Law
-my;​ညောင်ကွင်း;Nyaung Kwin
+my;ညောင်ကွင်း;Nyaung Kwin
 my;ကျိုက်ပါ;Kyaik Par
 my;ဝက်ငါးစီး;Wet Ngar See
 my;နွယ်ညိုချောင်း;Nwei Nyo Chaung
@@ -16076,26 +15950,25 @@ my;ကျောက်ခဲနီ;Kyauk Khe Ni
 my;ကမ္ဘားကြီး;Kan Bar Gyi
 my;ရေလဲချောင်းဖျား;Yae Le Chaung Hpyar
 my;ကုန်းစွန်း;Kone Sun
-my;​တောဂရက်;Taw Ga Yet
-my;​ခွေးကုတ်;Khway Koke
+my;တောဂရက်;Taw Ga Yet
+my;ခွေးကုတ်;Khway Koke
 my;ဒရယ်ကူး;Da Yei Ku
 my;ကြီးဂရက်;Kyee Ga Yet
 my;ကမ်းနားဒိုက်လျှား;Kan Nar Daik Hlyar
 my;စွတ်တမူ;Sut Ta Mu
-my;​တောဖျား;Taw Hpyar
+my;တောဖျား;Taw Hpyar
 my;လယ်တီစု;Lel Di Su
-my;​ညောင်ကုန်းရွာမ;Nyaung Kone Ywar Ma
+my;ညောင်ကုန်းရွာမ;Nyaung Kone Ywar Ma
 my;သရက်ရိုး;Tha Yet Yoe
 my;ဘုရားငူ;Hpa Yar Ngu
-my;​ကြို့ကုန်း;Kyoet Kone
 my;ရုံးပင်အောက်စု;Yone Pin Auk Su
 my;ကျုံပြတ်;Kyon Pyat
 my;အင်းဝိုင်း;Inn Waing
-my;​ဂွေးပင်ဒေါင့်;Gway Pin Daunt
-my;​တော်ဝ;Taw Wa
+my;ဂွေးပင်ဒေါင့်;Gway Pin Daunt
+my;တော်ဝ;Taw Wa
 my;စာနီစု;Sar Ni Su
-my;​ပေါက်လွှတ်;Pauk Hlut
-my;​ကျောင်းအမစု;Kyaung Ah Ma Su
+my;ပေါက်လွှတ်;Pauk Hlut
+my;ကျောင်းအမစု;Kyaung Ah Ma Su
 my;လှည်းတောက်ကုန်း;Hle Tauk Kone
 my;တစောင်းရိုး;Ta Saung Yoe
 my;ရေလဲကြီး;Yae Le Gyi
@@ -16103,28 +15976,26 @@ my;ကြာအင်း အရှေ့;Kyar Inn East
 my;တိုက်စွန်းအောက်အင်း;Taik Sun Auk Inn
 my;ဓနုံးကွင်းလေး;Da None Kwin Lay
 my;လယ်ဒီ;Lel Di
-my;​လေပွေကုန်း;Lay Pway Kone
+my;လေပွေကုန်း;Lay Pway Kone
 my;ကမ္ဘဲ့;Kan Beit
 my;ကျွန်းအင်း;Kyun Inn
 my;သစ်ဝမ်းပူ;Thit Wan Pu
-my;​ထန်းပင်ကုန်း;Htan Pin Kone
 my;သစ်ဆွဲလွဲ;Thit Swea Lwe
-my;​​အောက်စု;Auk Su
-my;​​ထောက်ကြန့်ကွင်း;Htauk Kyant Kwin
+my;ထောက်ကြန့်ကွင်း;Htauk Kyant Kwin
 my;ဘွာကြီးကျော;Bwar Gyi Kyaw
 my;ရုံးငူလေး;Yone Ngu Lay
 my;အင်းရပ် အရှေ့;Inn Yat East
-my;​တောင်စု;Taung Su
+my;တောင်စု;Taung Su
 my;ရွှေကညင်ပင်;Shwe Ka Nyin Pin
 my;ထိန်ငူကြီးရွာမ;Htein Ngu Gyi Ywar Ma
-my;​ရွှေရင်မျှော်;Shwe Yin Hmyaw
+my;ရွှေရင်မျှော်;Shwe Yin Hmyaw
 my;ဗြန့်ကြီး;Byant Gyi
 my;သူကြီးလူစု;Tha Gyi Lu Su
 my;အကယ်လေး;Ah Kei Lay
 my;ဘုမ္မဲဇာ;Bon Me Zar
 my;လက်တက်စု;Let Tet Su
 my;ဒိုးကုန်း;Doe Kone
-my;​ရွှေရောင်ချ;Shwe Yaung Cha
+my;ရွှေရောင်ချ;Shwe Yaung Cha
 my;ရှာဖြူရိုး;Shar Hpyu Yoe
 my;တဇောင်ရိုး;Ta Zaung Yoe
 my;ကျုံတိုင်း;Kyon Taing
@@ -16133,12 +16004,11 @@ my;ပတောကုန်း;Pa Taw Kone
 my;သရောသာ;Tha Yaw Thar
 my;ကြာအင်း အနောက်;Kyar Inn West
 my;ကန်ကလေး;Kan Ka Lay
-my;​တောင်တက်ကြီး;Taung Tet Gyi
-my;​တောတန်းကုန်း;Taw Tan Kone
+my;တောင်တက်ကြီး;Taung Tet Gyi
+my;တောတန်းကုန်း;Taw Tan Kone
 my;သရောလှ;Tha Yaw Hla
 my;ဂမုန်းကျော;Ga Mone Kyaw
-my;​ပေါက်ပင်ကွင်း;Pauk Pin Kwin
-my;​ရေပေါ်ကုန်း;Yae Paw Kone
+my;ရေပေါ်ကုန်း;Yae Paw Kone
 my;သဘော့ရိုး;Tha Bawt Yoe
 my;ကြခတ်ရိုး;Kya Khat Yoe
 my;လယ်တီ;Lel Ti
@@ -16146,7 +16016,6 @@ my;ဆပ်သွားအောက်စု;Sat Thwar Auk Su
 my;ဦးတူစု;U Tu Su
 my;ကျုံကသောင်;Kyon Ka Thaung
 my;ကျွတ်ကုန်း;Kyut Kone
-my;​မောင်နှမကုန်း;Maung Hnit Ma Kone
 my;ကိုင်းတာကြီး;Kaing Tar Gyi
 my;ဇီးငူ;Zee Ngu
 my;ဖြူစင်ကုန်း;Hpyu Sin Kone
@@ -16154,12 +16023,11 @@ my;စားကျက်ကုန်း;Sar Kyet Kone
 my;ထိန်တောကြီး;Htein Taw Gyi
 my;တောင်တန်း;Taung Tan
 my;လင်းလွန်းပင်;Lin Lun Pin
-my;​ရွာသစ်ကုန်း;Ywar Thit Kone
 my;ငှက်စပ်;Hnget Sat
 my;ရုံးငူကြီး;Yone Ngu Gyi
 my;ကုန်းစု;Kone Su
 my;ဓနော်ဝ;Da Naw Wa
-my;​ရှော်ဖြူချောင်;Shaw Hpyu Chaung
+my;ရှော်ဖြူချောင်;Shaw Hpyu Chaung
 my;ကမ်းနားညောင်ကုန်း;Kan Nar Nyaung Kone
 my;ဖူးမာလာ;Hpu Mar Lar
 my;အင်းကပ်ကလာ;Inn Kat Ka Lar
@@ -16167,18 +16035,18 @@ my;ရွာသစ်ကုန်းအရှ့;Ywar Thit Kone A Shey
 my;စိုင်ကြီးကွင်း;Saing Gyi Kwin
 my;ဝက်သေ;Wet Thay
 my;ကွင်းဝစု;Kwin Wa Su
-my;​ရှောကုန်း;Shaw Kone
+my;ရှောကုန်း;Shaw Kone
 my;ဝေလာဝေးချောင်းဖျား;Wai Lar Wai Chaung Hpyar
 my;ထွက်ချက်;Htwet Chet
 my;တဘူး;Ta Bu
-my;​တောင်ယာစု;Taung Yar Su
+my;တောင်ယာစု;Taung Yar Su
 my;ကုန်းကြီးစု;Kone Gyi Su
 my;ဂရက်ကျော် မြောက်;Ga Yet Kyaw North
 my;လင်ပန်းကျ;Lin Pan Kya
-my;​သောင်ရွာ;Thaung Ywar
+my;သောင်ရွာ;Thaung Ywar
 my;ကြာလက်ဆက်;Kyar Let Set
 my;တကုတ်ချောင်း;Ta Koke Chaung
-my;​အောင်ပန်းချောင်;Aung Pan Chaung
+my;အောင်ပန်းချောင်;Aung Pan Chaung
 my;သုံးဂွ;Thone Gwa
 my;တံခွန်တိုင်အစု;Ta Khun Taing Ah Su
 my;ဖိုးလေးဘိုစု;Hpoe Lay Bo Su
@@ -16205,17 +16073,17 @@ my;ထန်းပင်စု;Htan Pin Su
 my;သံဒင်းအိုင်;Than Din Aing
 my;တိုက်ကုံး;Taik Kone
 my;မကျီးပင်ကွင်း;Ma Gyi Pin Kwin
-my;​ဒေါင်းစု;Daung Su
+my;ဒေါင်းစု;Daung Su
 my;ဆိပ်ဖူးနီလေး;Seik Hpu Ni Lay
 my;ထမင်းဆုတ်ကုန်း;Hta Min Soke Kone
 my;ဝါးရုံချောင်း -ချောင်းဖျား;War Yon Chaung - Chaung Hpyar
 my;ပန်းတောရိုး;Pan Taw Yoe
 my;ညောင်ဝိုင်း မြောက်;Nyaung Waing North
-my;​ရွှေပန်းငူ;Shwe Pan Ngu
+my;ရွှေပန်းငူ;Shwe Pan Ngu
 my;လှေကျော်;Hlay Kyaw
 my;လယ်ဦးစု;Lel U Su
 my;အင်္ဂတေချောင်;Inn Ga Tay Chaung
-my;​နောင်ခူဘို;Naung Khu Bo
+my;နောင်ခူဘို;Naung Khu Bo
 my;လက်ပံချောင်း;Let Pan Chaung
 my;ကျွဲခေါင်းရိုး;Kywe Gaung Yoe
 my;ရွာသစ်ကုန်း အနောက်;Ywar Thit Kone West
@@ -16238,14 +16106,13 @@ my;သက်ရင်းကုန်း;Thet Yin Kone
 my;စွန်ပါ;Sun Par
 my;ပိန်းဂရက်ကလေး;Pein Ga Yet Ka Lay
 my;ကန့်လန့်;Kant Lant
-my;​အဟောင်းပင်ချိုင်;Ah Haung Pin Chaing
+my;အဟောင်းပင်ချိုင်;Ah Haung Pin Chaing
 my;ဆိပ်ဖူးနီကြီး;Seik Hpu Ni Gyi
 my;ဂနိမ်းရွာမ;Ga Nein Ywar Ma
 my;ကြာဂရက်;Kyar Ga Yet
 my;အစွန်;Ah Sun
-my;​ညောင်သုံးပင်;Nyaung Thone Pin
 my;ဝါးယားချောင်း;War Yar Chaung
-my;​ပျော်ဘွယ်ကုန်း;Pyaw Bwe Kone
+my;ပျော်ဘွယ်ကုန်း;Pyaw Bwe Kone
 my;ဝက်လာလေး;Wet Lar Lay
 my;မြတ်လှချောင်း;Myat Hla Chaung
 my;အောက်ကွင်းလေး;Auk Kwin Lay
@@ -16254,15 +16121,15 @@ my;ဂုံညင်းတန်း;Gon Nyin Tan
 my;ဖြတ်လမ်းကြီး;Hpyat Lan Gyi
 my;အငူကြီး;Ah Ngu Gyi
 my;ပိုက်တော်;Paik Taw
-my;​ဆောက်တလုံး;Sauk Ta Lone
+my;ဆောက်တလုံး;Sauk Ta Lone
 my;သင်္ကန်းကုန်း;Thin Gan Kone
 my;ငှက်ရိုး;Hnget Yoe
 my;ဦးဂျိုးလေးစု;U Gyoe Lay Su
-my;​ရွှေပန်းငူရပ်ကွက်သစ်;Shwe Pan Ngu Yat Kwet Thit
-my;​တောကျွဲကွင်း;Taw Kywe Kwin
+my;ရွှေပန်းငူရပ်ကွက်သစ်;Shwe Pan Ngu Yat Kwet Thit
+my;တောကျွဲကွင်း;Taw Kywe Kwin
 my;ဦးခွာအစု;U Khwar Ah Su
-my;​လှေဒါးချောင်;Hlay Dar Chaung
-my;​တောင်ကွင်း;Taung Kwin
+my;လှေဒါးချောင်;Hlay Dar Chaung
+my;တောင်ကွင်း;Taung Kwin
 my;ပျားဇလက်;Pyar Za Let
 my;ကန်းတန်း;Kan Tan
 my;နတ်ချောင်းစာဖြူစု;Nat Chaung Sar Hpyu Su
@@ -16277,21 +16144,17 @@ my;ဂျိုးအိုင်;Gyoe Aing
 my;လှေလမ်းပိုင်း;Hlay Lan Paing
 my;ခြားစု;Char Su
 my;အုံးတောစု;Ohn Taw Su
-my;​ဥတိုချောင်းဖျား;U To Chaung Hpyar
+my;ဥတိုချောင်းဖျား;U To Chaung Hpyar
 my;တံခွန်တိုင်စု;Ta Khun Taing Su
 my;မြလဲ;Mya Le
 my;ရာဒွီး;Radui
-my;​ညောင်;Nyaung
 my;ကိုးတစ်;Koe Tit
 my;လက်မွန်;Let Mun
 my;ကျွန်းကွင်း;Kyun Kwin
 my;ပတက်;Pa Tet
-my;​ရှောက်ချောင်း;Shauk Chaung
 my;ကျုံဓမင်း;Kyon Da Min
 my;မငေးကလေး;Ma Ngay Ka Lay
 my;ကုလားကြီး;Ku Lar Gyi
-my;​တောင်သလဲ;Taung Tha Le
-my;​ဝဲချောင်း;Wea Chaung
 my;ပကိတ်;Pa Keik
 my;ကမ်းဇောက်;Kan Zauk
 my;ဝက်ချောင်း;Wet Chaung
@@ -16302,7 +16165,7 @@ my;ကျားကွင်း အနောက်;Kyar Kwin West
 my;အရှေ့ကျွဲလမ်း;Ah Shey Kywe Lan
 my;လမ်းဝင်စု;Lan Win Su
 my;ကုန်းပတ္တော်;Kone Pat Taw
-my;​ကျောတန်းကြီး;Kyaw Tan Gyi
+my;ကျောတန်းကြီး;Kyaw Tan Gyi
 my;ကျိန်ပင်ဆယ်;Kyein Pin Se
 my;ချီပါချောင်;Chi Par Chaung
 my;ကကရန်ကြီး;Ka Ka Yan Gyi
@@ -16311,8 +16174,8 @@ my;သမ္ဘာချိုင်;Than Bar Chaing
 my;မန်းခမုတ်ကုန်း;Man Kha Moke Kone
 my;တဇင်ကုန်းကြီး;Ta Zin Kone Gyi
 my;မရမ်းပင်;Ma Yan Pin
-my;​ရေလျှံ;Yae Hlyan
-my;​ဂေါ်သူသောင်;Gaw Thu Thaung
+my;ရေလျှံ;Yae Hlyan
+my;ဂေါ်သူသောင်;Gaw Thu Thaung
 my;တာကြီးကုန်း;Tar Gyi Kone
 my;ကဝက်ချောင်းဖျား;Ka Wet Chaung Hpyar
 my;တာကုန်း;Tar Kone
@@ -16327,16 +16190,14 @@ my;လွှစင်ဆိပ်;Hlwa Sin Seik
 my;သင်္ကန်းငူ;Thin Gan Ngu
 my;ရှမ်းမမြောင်;Shan Ma Myaung
 my;ဝတ်သိုက်ကုန်း;Wut Thaik Kone
-my;​ရွှေကညင်ပင်;Shwe Ka Nyin Pin
 my;ကုလားပို;Ku Lar Po
 my;ကသဝင်စု;Kat Tha Win Su
 my;စမ်းချောက်ကြီး;San Chauk Gyi
 my;ကကလ;Ka Ka La
-my;​ကျောင်းကြီးစု;Kyaung Gyi Su
+my;ကျောင်းကြီးစု;Kyaung Gyi Su
 my;ကျုံတုံးကျွန်းကလေး;Kyon Tone Kyun Ka Lay
 my;အင်းတကော;Inn Ta Kaw
-my;​အေးမြ;Aye Mya
-my;​အလန်းကုန်း;Ah Lan Kone
+my;အေးမြ;Aye Mya
 my;ကတက်ရိုး;Ka Tet Yoe
 my;ကဒက်ကွဲ;Ka Det Kwe
 my;အောက်ချင်း;Auk Chin
@@ -16344,7 +16205,6 @@ my;တာတန်း;Tar Tan
 my;အပြင်လေးဘက်တွား;Ah Pyin Lay Bet Twar
 my;ကျောက်ထရံကြီး;Kyauk Hta Yan Gyi
 my;ဝဲဒေါင့် အနောက်;Wea Daunt West
-my;​ချောင်းသာကြီး;Chaung Thar Gyi
 my;တာပါတ် အရှေ့;Tar Pat East
 my;ကဝဲအင်းချောင်း;Ka Wea Inn Chaung
 my;ဘိုးဟင်းချောင်း;Boe Hin Chaung
@@ -16369,7 +16229,7 @@ my;ကွင်းစပ်;Kwin Sat
 my;ရန်ကင်းစံရာ;Yan Kin San Yar
 my;ပန်းပင်ဆိပ်;Pan Pin Seik
 my;ရေလဲကုန်းစု;Yae Le Kone Su
-my;​ရေကြို;Yae Kyo
+my;ရေကြို;Yae Kyo
 my;အင်းမရွာလေး;Inn Ma Ywar Lay
 my;ဒိုးစမ်း;Doe San
 my;လက်ျားစု;Let Kyar Su
@@ -16402,11 +16262,10 @@ my;ဘဝင်းဆိပ်;Ba Win Seik
 my;တောဆယ်;Taw Se
 my;ကရင်ပတ္တော်;Kayin Pat Taw
 my;ကိုင်းစု;Kaing Su
-my;​ဆင်ချောင်း;Sin Chaung
 my;ဂုံမင်းဆိပ်;Gon Min Seik
 my;ဗလီကွင်း;Ba Li Kwin
 my;ကျွန်းကျား;Kyun Kyar
-my;​ကျောင်းဆိပ်;Kyaung Seik
+my;ကျောင်းဆိပ်;Kyaung Seik
 my;ထုံးဝ;Htone Wa
 my;ကျောက်မျက်စု;Kyauk Myet Su
 my;ရေတွင်းရေကန်;Yae Twin Yae Kan
@@ -16437,7 +16296,7 @@ my;တန်းလျားကြီး;Tan Hlar Gyi
 my;မန်တိုင်ကုန်းစု;Man Taing Kone Su
 my;ကျွန်းပုလု;Kyun Pu Lu
 my;ဘုတ်ဆုံချောင်း;Boke Son Chaung
-my;​တောင်ယာကုန်း;Taung Yar Kone
+my;တောင်ယာကုန်း;Taung Yar Kone
 my;တာပါတ်ကလေး;Tar Pat Ka Lay
 my;ပိုက်တဲ;Paik Te
 my;ကွမ်းခြံကုန်း မြောက်;Kun Chan Kone North
@@ -16449,7 +16308,6 @@ my;ကျွန်းကြား အနောက်;Kyun Kyar West
 my;မတ်;Mat
 my;ဆန်လှည့်;San Hleit
 my;ကဇင်းကုန်း;Ka Zin Kone
-my;​တောင်ပတ်လည်;Taung Pat Lel
 my;ကညင်ဂဲ;Ka Nyin Ge
 my;အလမန်းချောင်း;Ah La Man Chaung
 my;ငုချောင်း;Ngu Chaung
@@ -16463,17 +16321,15 @@ my;ဂွေးပင်ကျ;Gway Pin Kya
 my;ကြွက်နီကုန်း;Kywet Ni Kone
 my;မောင်နှမကုန်း;Maung Hnit Ma Kone
 my;ရွှေကျီးကုန်း;Shwe Kyee Kone
-my;​ပေါက်ငူ;Pauk Ngu
+my;ပေါက်ငူ;Pauk Ngu
 my;မီးသွေးတိုက်;Mee Thway Taik
 my;ရွှေဂူ;Shwe Gu
 my;မနီကုန်း;Ma Ni Kone
-my;​သောင်တန်း;Thaung Tan
-my;​ဂွေးတောက်ကွင်း;Gway Tauk Kwin
-my;​ရေလဲတောင်;Yae Le Taung
+my;ရေလဲတောင်;Yae Le Taung
 my;အိုးဘို တောင်;Oe Bo South
 my;အဝစု;Ah Wa Su
 my;တလုတ်ကုန်း;Ta Loke Kone
-my;​အောက်ဒည်ကုန်း;Auk Dei Kone
+my;အောက်ဒည်ကုန်း;Auk Dei Kone
 my;တာဝကုန်းစု;Tar Wa Kone Su
 my;သာကျော်ကွင်း;Thar Kyaw Kwin
 my;စက္ကော့;Set Kawt
@@ -16505,7 +16361,7 @@ my;အင်းအင်းတကော;Inn Ta Kaw Ywar Ma Lay
 my;မြတ်ကြာစု;Myat Kyar Su
 my;အင်းမစက်ဘက်ကမ်း;Inn Ma Set Bet Kan
 my;ကုန်းစပါယ်ရုံ;Kone Sa Bai Yon
-my;​ရေဂလုတ်;Yae Ga Loke
+my;ရေဂလုတ်;Yae Ga Loke
 my;ကျုံတုံးကလေးရွာလေးဘက်;Kyon Tone Ka Lay Ywar Lay Bet
 my;မိုးပြာ;Moe Pyar
 my;ကျားရဲ;Kyar Ye
@@ -16527,14 +16383,12 @@ my;ဂရမ်းချောင်းဖျား;Ga Yan Chaung Hpyar
 my;သောင်ခုံ;Thaung Khon
 my;ကျီးပင်ရိုး;Kyee Pin Yoe
 my;လတာကြီးကွင်းချောင်း;La Tar Gyi Kwin Chaung
-my;​အောက်ကွင်း;Auk Kwin
 my;ကိုင်းလျားရှေ့;Kaing Hlar Shey
-my;​အနောက်ကျွဲလမ်း;Ah Nauk Kywe Lan
+my;အနောက်ကျွဲလမ်း;Ah Nauk Kywe Lan
 my;ရေလဲကမ်းနား;Yae Le Kan Nar
 my;မယ်တော်ပျံ;Mei Taw Pyan
 my;ဒေါဝါးမြန်မာစု;Daw War Myanmar Su
 my;အင်းမမြစ်ရိုးတန်း;Inn Ma Myit Yoe Tan
-my;​ညောင်ငူ;Nyaung Ngu
 my;ကပိုင်အရှေ့စု;Ka Paing Ah Shey Su
 my;ကံသာယာ;Kan Thar Yar
 my;ဂယက်ယား;Ga Yet Yar
@@ -16563,7 +16417,7 @@ my;ငုချောင်းဝ;Ngu Chaung Wa
 my;ကျုံတုံးဝ;Kyon Tone Wa
 my;ငှက်တောင်ချောင်း;Hnget Taung Chaung
 my;မီးသွေးချောင်း;Mee Thway Chaung
-my;​လေးလောင်း;Lay Laung
+my;လေးလောင်း;Lay Laung
 my;ဘိုးကြာကုန်း;Boe Kyar Kone
 my;ထားဝယ်မှိုင်းလေး;Dawei Hmaing Lay
 my;ကတက်ချောင်း;Ka Tet Chaung
@@ -16572,7 +16426,6 @@ my;မိချောင်းခြံ;Mi Chaung Chan
 my;အင်းတကော အရှေ့;Inn Ta Kaw East
 my;ကျိန်ခြုံ;Kyein Chon
 my;ဗြိုက်;Byaik
-my;​ရေကျော်ဝ;Yae Kyaw Wa
 my;မယ်သီလှကုန်း;Mei Thi Hla Kone
 my;မီးသွေးတိုက် အရှေ့;Mee Thway Taik East
 my;မီးသွေးတိုက် အနောက်;Mee Thway Taik West
@@ -18215,7 +18068,7 @@ my;ဒွ;Dwa
 my;ဒိုးတန်း;Doe Than
 my;အနောက်တံတားကြီး;Ah Nauk Ta Dar Gyi
 my;အိုင်ကြီးဒေါင့်;Aing Gyi Daunt
-my;​အောက်တောမ;Auk Taw Ma
+my;အောက်တောမ;Auk Taw Ma
 my;အောင်းကြီး;Aung Gyi
 my;အေးရွာသစ်;Aye Ywar Thit
 my;ဘယ်လက်;Bei Let
@@ -18224,14 +18077,13 @@ my;ဘိုးရှမ်းကုန်း;Boe Shan Kone
 my;ဘုတ်သိုး;Boke Thoe
 my;ဘုံရှည်ကုန်း အနောက်;Bon Shey Kone West
 my;ဘွတ်စိန်ဘု;But Sein Bu
-my;​ချောင်းခွ;Chaung Gwa
 my;ချောင်းကမ်း အလယ်;Chaung Kan Middle
 my;ဒေါ်ဆိုင်းအစု;Daw Saing Ah Su
 my;ဂုံညင်းတန်း ချင်း;Gon Hnyin Tan Chin
 my;ဂုံမင်းကွင်း အနောက်စု;Gon Min Kwin Ah Nauk Su
 my;ဂုံမင်းတာ;Gon Min Tar
 my;ဂွမြောင်;Gwa Myaung
-my;​ဂွေးပင်ကူး;Gway Pin Ku
+my;ဂွေးပင်ကူး;Gway Pin Ku
 my;ဂျေပူ အရှေ့;Gyay Pu East
 my;မှန်ပင်ထူး;Hman Pin Htu
 my;ဖအောင်း;Hpa Aung
@@ -18297,11 +18149,11 @@ my;ချားလျားကုန်း;Char Hlar Kone
 my;ချောင်းဖြောင့်;Chaung Hpyaunt
 my;ချောင်းဖြူ အနောက်;Chaung Hpyu West
 my;ချောင်းကောက်ကွေ့;Chaung Kauk Kwayt
-my;​ချောင်းမ;Chaung Ma
+my;ချောင်းမ;Chaung Ma
 my;ဒေးအိုးကုန်း;Day Oe Kone
 my;ဒီးဒူးပင်;Dee Du Pin
 my;ဂုံမင်းမြောင်တောင်စု;Gon Min Myaung Taung Su
-my;​ဂွေးသဲ;Gway Thea
+my;ဂွေးသဲ;Gway Thea
 my;ဟင်းလျာ ရှေ့;Hin Hlar East
 my;ဟင်္သာကန်;Hin Thar Kan
 my;ဖအောင်းစု;Hpa Aung Su
@@ -18342,7 +18194,7 @@ my;အရှေ့တောင်ရိုးကွင်း;Ah Shey Taung Yoe K
 my;အဝိုင်း;Ah Waing
 my;အိုင်တလုပ်;Aing Ta Loke
 my;အောင်ဘာလေစု;Aung Bar Lay Su
-my;​အောင်ကောင်းညွှန့်;Aung Kaung Nyunt
+my;အောင်ကောင်းညွှန့်;Aung Kaung Nyunt
 my;ဘဏ္ဍာကုန်း;Ban Dar Kone
 my;ဘန့်ဘွေးပင်;Bant Bway Pin
 my;ဘိုးသာအောင်ကုန်း;Boe Thar Aung Kone
@@ -18392,7 +18244,7 @@ my;အလယ်စိန်ကြီးရိုး;Ah Lel Sein Gyi Yoe
 my;အနောက် ဇီးကုန်း;Ah Nauk Zee Kone
 my;အနောက်လက်ခုပ်ပင်;Ah Nauk Let Khoke Pin
 my;ဘန်ဒါ;Ban Dar
-my;​ဘော်နှင်းစု;Baw Hnin Su
+my;ဘော်နှင်းစု;Baw Hnin Su
 my;ဗိုလ်ရုံတန်း;Bo Yon Tan
 my;ချောင်းကော;Chaung Kaw
 my;ဓမ္ဘိစု;Dam Bi Su
@@ -18469,7 +18321,6 @@ my;အောက်အိုင်ကြီး;Auk Aing Gyi
 my;အောက်ကိုင်းလေး;Auk Kaing Lay
 my;အောက်တင်းကုတ်;Auk Tin Koke
 my;အောင်းလောင်းစိန်;Aung Laung Sein
-my;​အောင်မြေ;Aung Myay
 my;အောင်မြေစွန်း;Aung Myay Sun
 my;ဘာနှောင်း;Bar Hnaung
 my;ဘဲကုန်း;Be Kone
@@ -18509,7 +18360,7 @@ my;ဒေါင်းသာယာကုန်း;Daung Thar Yar Kone
 my;ဒေါ်ငြိမ်းစု;Daw Nyein Su
 my;ဂဠုံ;Ga Lon
 my;ဂုံမင်းမြောင်ကျောင်းစု;Gon Min Myaung Kyaung Su
-my;​ဂွေပင်ကုန်း;Gway Pin Kone
+my;ဂွေပင်ကုန်း;Gway Pin Kone
 my;ဂျို့ပင်;Gyoet Pin
 my;လှည်းမှူး;Hle Hmu
 my;လွှဇင်ကုန်း;Hlwa Zin Kone
@@ -18528,7 +18379,7 @@ my;အောင်နှံကုန်း;Aung Hnan Kone
 my;အောင်နိုင်လေး;Aung Naing Lay
 my;ဘရင်းကုန်း;Ba Yin Kone
 my;ဘာလာတိုလာ;Bar Lar To Lar
-my;​ဘောင်တုတ်;Baung Toke
+my;ဘောင်တုတ်;Baung Toke
 my;ဘောမိကွင်း;Baw Mi Kwin
 my;ဘိုးအောင်ပန်းစု;Boe Aung Pan Su
 my;ဘို့လည်ကုန်း;Boet Lel Kone
@@ -18630,7 +18481,7 @@ my;ဂွေးပင်ခုံ;Gway Pin Khon
 my;ဂွေးတောက်ကွင်း တာစု;Gway Tauk Kwin Tar Su
 my;ဂျင်းစိမ်း;Gyin Sein
 my;ဟင်္သာချောင်အထက်စု အတွင်း;Hin Thar Chaung Ah Htet Su Ah Twin
-my;​လှေတော်ကွင်း;Hlay Taw Kwin
+my;လှေတော်ကွင်း;Hlay Taw Kwin
 my;လှေယဉ်ရွာသစ်;Hlay Yin Ywar Thit
 my;ဖရဲ;Hpa Ye
 my;ဖားအင်း;Hpar Inn

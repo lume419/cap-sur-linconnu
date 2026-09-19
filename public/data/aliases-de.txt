@@ -6698,7 +6698,7 @@ bn;উটার্সেন;Uetersen
 lv;Iterzene;Uetersen
 mk;Итерзен;Uetersen
 bg;Ютерзен;Uetersen
-cv;Утăрсан;Uetersen
+cv;Утӑрсан;Uetersen
 ru;Итерзен;Uetersen
 zu;I-Uetersen;Uetersen
 kk;Ютерзен;Uetersen

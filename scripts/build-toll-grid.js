@@ -19,6 +19,32 @@
 // Usage : node scripts/build-toll-grid.js [FR ES ...]   (sans argument : tous les pays de TOLL_RATE_BY_COUNTRY)
 // Les tuiles déjà obtenues sont conservées d'une exécution à l'autre (data/toll-grid.json est complété, jamais vidé) :
 // le script peut être relancé après un échec réseau sans tout refaire.
+//
+// SECONDE COUCHE — AUTOROUTES GRATUITES (19/09/2026) : node scripts/build-toll-grid.js --free [FR ES ...]
+// Clé "freeCells" { "i,j": "FR", ... } : même grille, même attribution de pays que "cells" ; tuiles faites dans
+// "freeTilesDone", métadonnées dans "freeSource"/"freeBuiltAt"/"freeCountries"/"ambiguousCountries". En mode --free,
+// "cells", "tilesDone", "countries", "source" et "builtAt" ne sont jamais modifiés.
+//   Pourquoi : le moteur estime le péage en fourchette. Dans une case où une autoroute gratuite longe la payante
+//   (radiales R-2..R-5 payantes / A-1..A-6 gratuites autour de Madrid, C-32/C-33 et AP-7 autour de Barcelone, A47
+//   gratuite et A7/A72 entre Lyon et Saint-Étienne…), rien ne dit laquelle le trajet emprunte : ces cases « ambiguës »
+//   (présentes dans "cells" ET dans "freeCells") ne comptent que dans la borne HAUTE, jamais dans la borne basse.
+//   Requête exacte, par tuile de 2° (mêmes tuiles, miroirs, pauses et découpage que la couche payante) :
+//     [out:json][timeout:240][bbox:S,O,N,E];way["highway"="motorway"]["toll"!="yes"]["toll:motorcar"!="yes"];out skel geom;
+//   `["toll"!="yes"]` retient aussi bien `toll=no` que l'absence de tag (vérifié sur la tuile de Madrid 40..42 N,
+//   -4..-2 : 4 814 voies sans tag, 49 en toll=no). `toll:motorcar=yes` sans `toll` (péage pour les voitures) est écarté
+//   pour ne pas passer pour gratuit. Les bretelles (`motorway_link`) sont écartées comme pour la couche payante.
+//   Contrairement à la couche payante (centre de chaque voie), on garde la GÉOMÉTRIE complète (`out skel geom`, sans
+//   tags) : une voie longue traverse plusieurs cases, et en oublier une ferait passer pour sûre une case ambiguë. Coût
+//   serveur équivalent (2 à 4 s par tuile sur Madrid), seule la réponse est plus lourde.
+//   Limites : une autoroute gratuite classée « trunk » (voie rapide à chaussées séparées : N-xxx espagnoles, RN à
+//   2×2 voies, superstrade italiennes…) manque — la case reste alors « payante sûre ». La couche ne distingue ni le
+//   sens de circulation ni la connexion entre voies : deux autoroutes qui se croisent dans une case la rendent ambiguë
+//   même si le trajet ne peut pas emprunter la gratuite ; un tronçon non taggué `toll` de l'autoroute concédée
+//   elle-même (traversée d'agglomération, section gratuite) rend aussi la case ambiguë.
+//   Constaté à la construction (19/09/2026, 286 tuiles, ~4 h, aucune tuile perdue) : l'A7 Vienne–Orange et l'A1
+//   Senlis–Bapaume sont « payantes sûres » sur toute leur longueur ; en revanche un tiers à deux tiers des cases de
+//   la Tōmei (déviations gratuites de la route nationale 1 classées motorway), de l'A1 portugaise (croisements A23,
+//   A13…) et de l'AP-68 (AP-1 devenue gratuite en 2018, A-1, Bilbao) sont ambiguës : la borne basse y est prudente.
 const fs = require('fs');
 const path = require('path');
 const TripData = require('../public/js/trip-data.js');
@@ -49,8 +75,11 @@ const MIN_TILE_DEG = 0.5; // en deçà, on n'insiste plus : la zone est refusée
 // courtes, elles tombent toujours dans la case de la voie qu'elles rejoignent.
 const HIGHWAYS = 'motorway';
 const HIGHWAYS_LIGHT = 'motorway';
+const FREE = process.argv.includes('--free'); // seconde couche : autoroutes gratuites (voir l'en-tête)
 
 function query(box, hw){
+  if(FREE) return '[out:json][timeout:240][bbox:' + box.join(',') + '];' +
+    'way["highway"="motorway"]["toll"!="yes"]["toll:motorcar"!="yes"];out skel geom;';
   return '[out:json][timeout:240][bbox:' + box.join(',') + '];' +
     'way["toll"="yes"]["highway"~"^(' + (hw || HIGHWAYS) + ')$"];out center;';
 }
@@ -65,7 +94,8 @@ const cellKey = (lat, lon) => Math.floor(lat / CELL_DEG) + ',' + Math.floor(lon 
 async function ask(box, hw){
   let lastErr;
   for(const url of ENDPOINTS){
-    for(const highways of (hw ? [hw] : [HIGHWAYS, HIGHWAYS_LIGHT])){
+    // (couche gratuite : une seule forme de requête, pas de repli)
+    for(const highways of (hw ? [hw] : FREE ? ['motorway'] : [HIGHWAYS, HIGHWAYS_LIGHT])){
       try {
         const r = await fetch(url, {
           method: 'POST',
@@ -76,7 +106,7 @@ async function ask(box, hw){
         if(!r.ok) throw new Error('HTTP ' + r.status);
         const j = await r.json();
         if(!j.elements) throw new Error('réponse sans éléments');
-        if(highways === HIGHWAYS_LIGHT) console.log('    (autoroutes seules)');
+        if(highways === HIGHWAYS_LIGHT && !FREE) console.log('    (autoroutes seules)');
         return j.elements;
       } catch(e){ lastErr = e; console.log('    ' + url.split('/')[2] + ' [' + highways + '] : ' + e.message); }
     }
@@ -124,7 +154,7 @@ function tilesFor(cc){
 }
 
 (async () => {
-  const wanted = process.argv.slice(2).map(s => s.toUpperCase());
+  const wanted = process.argv.slice(2).filter(s => s !== '--free').map(s => s.toUpperCase());
   const tollCountries = Object.keys(TripData.TOLL_RATE_BY_COUNTRY);
   const countries = tollCountries.filter(cc => !wanted.length || wanted.includes(cc));
   let out = { source: 'OpenStreetMap (Overpass, way[toll=yes]) — ODbL', builtAt: '', cellDeg: CELL_DEG, countries: {}, cells: {}, tilesDone: [] };
@@ -132,13 +162,23 @@ function tilesFor(cc){
     const old = JSON.parse(fs.readFileSync(OUT, 'utf8'));
     if(old.cellDeg === CELL_DEG && old.cells){ out = old; out.tilesDone = (old.tilesDone || []).filter(function(t){ var p = t.split(',').map(Number); return Math.abs(p[2] - p[0] - TILE_DEG) < 0.001; }); }
   } catch(e){ /* premier passage */ }
+  if(FREE && !Object.keys(out.cells).length){ console.log('--free : construire d\'abord la couche payante (clé "cells").'); return; }
+  // Couche traitée par cette exécution : "cells"/"tilesDone" (payante) ou "freeCells"/"freeTilesDone" (gratuite).
+  if(FREE){
+    out.freeSource = 'OpenStreetMap (Overpass, way[highway=motorway][toll!=yes][toll:motorcar!=yes], géométrie) — ODbL';
+    out.freeCells = out.freeCells || {};
+    out.freeTilesDone = out.freeTilesDone || [];
+  }
+  const layerCells = FREE ? out.freeCells : out.cells;
+  const layerTiles = FREE ? out.freeTilesDone : out.tilesDone;
+  const stamp = () => { const d = new Date().toISOString().slice(0, 10); if(FREE) out.freeBuiltAt = d; else out.builtAt = d; };
 
   console.log('attribution des cases aux pays depuis les lieux du dépôt…');
   const cellCountry = countryByCell(tollCountries);
   console.log(cellCountry.size + ' cases habitées connues pour les ' + tollCountries.length + ' pays à péage.');
 
   // Tuiles à interroger : celles des pays demandés, sans doublon, sans celles déjà obtenues.
-  const seen = new Set(out.tilesDone);
+  const seen = new Set(layerTiles);
   const todo = [];
   for(const cc of countries){
     for(const t of tilesFor(cc)){
@@ -148,7 +188,7 @@ function tilesFor(cc){
       todo.push(t);
     }
   }
-  console.log(todo.length + ' tuiles à interroger (' + out.tilesDone.length + ' déjà obtenues).');
+  console.log((FREE ? '[autoroutes gratuites] ' : '') + todo.length + ' tuiles à interroger (' + layerTiles.length + ' déjà obtenues).');
 
   // Une tuile refusée est redécoupée en quatre, jusqu'à MIN_TILE_DEG : la Provence ou la vallée du Rhône passent en
   // quarts là où le carré de 4° est systématiquement refusé.
@@ -183,11 +223,18 @@ function tilesFor(cc){
       try { elements = await collect(box, 0); }
       catch(e){ console.log('[' + num + '/' + todo.length + '] ' + box.join(',') + ' : échec, tuile à refaire plus tard'); await new Promise(r => setTimeout(r, PAUSE_MS)); continue; }
       let added = 0, horsPays = 0;
+      // Couche payante : le centre de chaque voie ; couche gratuite : chacun de ses points (géométrie complète).
+      const points = [];
       for(const el of elements){
-        const c = el.center || el;
-        if(typeof c.lat !== 'number' || typeof c.lon !== 'number') continue;
+        if(FREE && Array.isArray(el.geometry)) for(const g of el.geometry) points.push(g);
+        else points.push(el.center || el);
+      }
+      const vus = new Set();
+      for(const c of points){
+        if(!c || typeof c.lat !== 'number' || typeof c.lon !== 'number') continue;
         const k = cellKey(c.lat, c.lon);
-        if(out.cells[k]) continue;
+        if(layerCells[k] || vus.has(k)) continue;
+        vus.add(k);
         // Pays de la case, sinon d'une case voisine (voie à péage en limite d'habitat : pont, tunnel, viaduc).
         let cc = cellCountry.get(k);
         if(!cc){
@@ -195,14 +242,14 @@ function tilesFor(cc){
           for(let di = -1; di <= 1 && !cc; di++) for(let dj = -1; dj <= 1 && !cc; dj++) cc = cellCountry.get((i + di) + ',' + (j + dj));
         }
         if(!cc){ horsPays++; continue; } // hors des pays dont on connaît un barème : rien à facturer
-        out.cells[k] = cc;
+        layerCells[k] = cc;
         added++;
       }
-      out.tilesDone.push(box.join(','));
+      layerTiles.push(box.join(','));
       console.log('[' + num + '/' + todo.length + '] ' + box.join(',') + ' : ' + elements.length + ' voies, ' + added + ' cases ajoutées' + (horsPays ? ' (' + horsPays + ' hors pays à barème)' : ''));
       // Écriture à chaque tuile : une coupure réseau ne fait pas perdre le travail déjà fait.
       fs.mkdirSync(path.dirname(OUT), { recursive: true });
-      out.builtAt = new Date().toISOString().slice(0, 10);
+      stamp();
       fs.writeFileSync(OUT, JSON.stringify(out));
       await new Promise(r => setTimeout(r, PAUSE_MS));
     }
@@ -212,11 +259,18 @@ function tilesFor(cc){
   await worker();
 
   const parCc = {};
-  for(const k of Object.keys(out.cells)) parCc[out.cells[k]] = (parCc[out.cells[k]] || 0) + 1;
-  out.countries = parCc;
+  for(const k of Object.keys(layerCells)) parCc[layerCells[k]] = (parCc[layerCells[k]] || 0) + 1;
+  if(FREE){
+    out.freeCountries = parCc;
+    // Cases à la fois payantes et gratuites, par pays du barème (information : le moteur les recalcule lui-même).
+    const amb = {};
+    for(const k of Object.keys(out.cells)) if(out.freeCells[k]) amb[out.cells[k]] = (amb[out.cells[k]] || 0) + 1;
+    out.ambiguousCountries = amb;
+  } else out.countries = parCc;
   fs.writeFileSync(OUT, JSON.stringify(out));
-  console.log('\n' + Object.keys(out.cells).length + ' cases au total → ' + OUT + ' (' + Math.round(fs.statSync(OUT).size / 1024) + ' Ko)');
+  console.log('\n' + Object.keys(layerCells).length + ' cases au total → ' + OUT + ' (' + Math.round(fs.statSync(OUT).size / 1024) + ' Ko)');
   console.log(Object.keys(parCc).sort().map(cc => cc + ' ' + parCc[cc]).join(' | '));
   const vides = tollCountries.filter(cc => !parCc[cc]);
-  if(vides.length) console.log('AUCUNE voie à péage trouvée pour : ' + vides.join(', ') + ' — aucun péage ne sera facturé dans ces pays.');
+  if(FREE) console.log('ambiguës (payante et gratuite) : ' + Object.keys(out.ambiguousCountries).sort().map(cc => cc + ' ' + out.ambiguousCountries[cc]).join(' | '));
+  else if(vides.length) console.log('AUCUNE voie à péage trouvée pour : ' + vides.join(', ') + ' — aucun péage ne sera facturé dans ces pays.');
 })();

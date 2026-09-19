@@ -1006,7 +1006,7 @@ module.exports = {
   },
   "ferries": [
     {
-      "a": "continental", "b": "kerkennah", "routeKey": "sfaxSidiYoussef", "name": "Sfax ↔ Sidi Youssef (Kerkennah)",
+      "a": "continental", "b": "kerkennah", "routeKey": "sfaxSidiYoussef", "priceCovers": "vehicle", "coversSource": "grille SONOTRAK : conducteur non compris (billet passager)", "name": "Sfax ↔ Sidi Youssef (Kerkennah)",
       "operator": "SONOTRAK (Société Nouvelle de Transport de Kerkennah)", "durationH": 1.2, "distanceKm": 21,
       "priceByClass": { "1": 1.78, "2": 2.22, "5": 0.44, "foot": 0.3 },
       "currency": "TND", "original": { "car": 6, "van": 7.5, "moto": 1.5, "foot": 1 },
@@ -1015,7 +1015,7 @@ module.exports = {
       "note": "Aller simple TTC, conducteur non compris (billet passager 1 TND). Classe 2 = camionnette ou véhicule mixte 1-9 places (camping-car non listé). Moto = ligne « 125 cm³ » (1,5 TND ; moins de 125 cm³ : 1 TND). Grille scannée en arabe, lecture à confirmer. 10 départs par jour dans chaque sens ; 1 h à 1 h 20. Taux InforEuro septembre 2026 : 3,38015 TND/€."
     },
     {
-      "a": "continental", "b": "dalma", "routeKey": "alDhannaDalma", "name": "Jebel Al Dhanna ↔ Dalma",
+      "a": "continental", "b": "dalma", "routeKey": "alDhannaDalma", "priceCovers": null, "coversSource": "grille AD Maritime : inclusion du conducteur non précisée", "durationEstimated": true, "name": "Jebel Al Dhanna ↔ Dalma",
       "operator": "Abu Dhabi Maritime (AD Ports)", "durationH": 1, "distanceKm": 43,
       "priceByClass": { "1": 23.36, "2": 23.36, "5": null, "foot": 4.67 },
       "currency": "AED", "original": { "car": 100, "van": 100, "moto": null, "foot": 20 },
@@ -1024,7 +1024,7 @@ module.exports = {
       "note": "Aller simple : voiture ou 4x4 100 AED, camping-car 100 AED, adulte 20 AED (moins de 12 ans gratuit). Moto absente de la grille (tarif non communiqué). Conducteur vraisemblablement facturé à part (billets véhicule et passager distincts). 2 à 3 allers-retours par jour, réservation recommandée. Taux InforEuro septembre 2026 : 4,27995 AED/€."
     },
     {
-      "a": "luzon", "b": "busuanga", "routeKey": "manilaCoron", "name": "Manille ↔ Coron",
+      "a": "luzon", "b": "busuanga", "routeKey": "manilaCoron", "durationEstimated": true, "name": "Manille ↔ Coron",
       "operator": "2GO Travel (MV 2GO St. Francis Xavier)", "durationH": 13, "distanceKm": 300,
       "priceStatus": "variable", "priceByClass": { "1": null, "2": null, "5": null, "foot": null },
       "source": "https://travel.2go.com.ph (horaires) ; matrice MARINA des lignes desservies (mars 2026)",
@@ -1034,7 +1034,7 @@ module.exports = {
     {
       "a": "continental",
       "b": "olkhon",
-      "routeKey": "sakhyurtaOlkhon",
+      "routeKey": "sakhyurtaOlkhon", "priceCovers": "vehicleAndOccupants", "coversSource": "gratuit pour véhicules et passagers (VSRP)", "durationEstimated": true,
       "name": "Sakhiurta (MRS) ↔ Olkhon",
       "operator": "AO Vostochno-Sibirskoe retchnoe parokhodstvo (VSRP)",
       "durationH": 0.25,
@@ -1052,7 +1052,7 @@ module.exports = {
     {
       "a": "sakhalin",
       "b": "kunashir",
-      "routeKey": "korsakovYuzhnoKurilsk",
+      "routeKey": "korsakovYuzhnoKurilsk", "durationEstimated": true,
       "name": "Korsakov ↔ Ioujno-Kourilsk",
       "operator": "Sakhpasflot (Admiral Nevelskoy, Igor Farkhutdinov, Pavel Leonov)",
       "durationH": 19,
@@ -1071,7 +1071,7 @@ module.exports = {
     {
       "a": "sakhalin",
       "b": "iturup",
-      "routeKey": "korsakovKurilsk",
+      "routeKey": "korsakovKurilsk", "durationEstimated": true,
       "name": "Korsakov ↔ Kourilsk (Itouroup)",
       "operator": "Sakhpasflot (Admiral Nevelskoy, Igor Farkhutdinov, Pavel Leonov)",
       "durationH": 20,

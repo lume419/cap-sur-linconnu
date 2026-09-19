@@ -96138,7 +96138,7 @@
 0;35.6800,54.7636;249866;Kaluga Oblast;Rusino
 0;35.6286,54.7603;249866;Kaluga Oblast;Drokova
 0;35.7015,54.7518;249866;Kaluga Oblast;Dorokhi
-0;35.5941,54.7592;249866;Kaluga Oblast;Коltsovo
+0;35.5941,54.7592;249866;Kaluga Oblast;Koltsovo
 0;35.5405,54.8476;249892;Kaluga Oblast;Dernovo
 0;37.6664,54.8364;142263;Moscow Oblast;Kharino
 0;33.4153,53.7322;242760;Bryansk Oblast;Potapikha
@@ -172995,7 +172995,6 @@
 0;37.4567,56.4888;141825;Moscow Oblast;Nikol’skoye
 0;37.2895,56.3766;141830;Moscow Oblast;Popovskoye
 0;36.1632,51.5383;307055;Kursk Oblast;Osinovyy
-0;36.3751,51.5045;309025;Kursk Oblast;Yegorov
 0;37.2164,56.3753;141896;Moscow Oblast;Yurkino
 0;133.2147,44.9630;692205;Primorye;Krayevskiy
 0;133.1693,44.9012;692205;Primorye;Sungach

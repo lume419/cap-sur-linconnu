@@ -54,8 +54,10 @@ module.exports = {
     { country: 'AT', name: 'alpenvereinaktiv.com', url: 'https://www.alpenvereinaktiv.com/de/touren/#cat=Wanderung&zc=11.,{lon},{lat}', searchByUrl: true, official: true,
       verified: 'Innsbruck : randonnées recommandées des Alpes de Tux (Lizumer Hütte, Torjoch, Ramsjoch) (2026-09-17). Österreichischer Alpenverein / DAV / AVS',
       source: 'https://www.alpenvereinaktiv.com/de/touren/' },
-    { country: 'IT', name: 'Infomont – CAI', url: 'https://infomont.cai.it/', searchByUrl: false, official: true,
-      verified: 'Catasto digitale CAI (« APP del sentierista ») : carte et liste de 10 000 sentiers (2026-09-17). Pas de position dans l\'URL',
+    // URL : https://infomont.cai.it/ redirige (HTTP 3xx) vers la carte https://1.osm2cai.cai.it/?layer=4 — adresse finale
+    // reprise directement (constat du 11e audit, 2026-09-19 : data/hiking.json avait été corrigé à la main, ici reporté).
+    { country: 'IT', name: 'Infomont – CAI', url: 'https://1.osm2cai.cai.it/?layer=4', searchByUrl: false, official: true,
+      verified: 'Catasto digitale CAI (« APP del sentierista ») : carte et liste de 10 000 sentiers (2026-09-17 ; redirection de infomont.cai.it vérifiée le 2026-09-19). Pas de position dans l\'URL',
       source: 'https://www.cai.it/sentieri-e-rifugi/infomont/' },
     { country: 'ES', name: 'Mi Senda FEDME', url: 'https://misendafedme.es/buscador-de-senderos/', searchByUrl: false, official: true,
       verified: 'Buscador de senderos GR®, PR®, SL® homologués (localité, communauté autonome) ; formulaire POST (2026-09-17)',

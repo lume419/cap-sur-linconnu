@@ -13,6 +13,9 @@
 // de la capitale plutôt qu'à des communes distinctes — voir YEREVAN_CODE_RANGE plus bas).
 const fs = require('fs');
 const path = require('path');
+// Corrections communes à tous les générateurs de lieux (audit n° 11) : noms nettoyés, lieux écartés, quasi-doublons —
+// voir scripts/communes-corrections.js.
+const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
 
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 
@@ -21,10 +24,10 @@ function norm(s){ return s.trim().toLowerCase().replace(/\s+/g, ' '); }
 const dumpRaw = fs.readFileSync(path.join(__dirname, 'dump', 'AM_dump.txt'), 'utf8');
 const rows = dumpRaw.split('\n').filter(Boolean).map(line => line.split('\t'));
 const places = rows
-  .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
+  .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace('AM', c[0], preparePlaceName('AM', c[0], c[1]), parseFloat(c[4]), parseFloat(c[5])))
   .map(c => ({
     geonameid: c[0],
-    name: c[1],
+    name: preparePlaceName('AM', c[0], c[1]),
     lat: parseFloat(c[4]),
     lon: parseFloat(c[5]),
     pop: parseInt(c[14], 10) || 0
@@ -143,7 +146,7 @@ cpByName.forEach((entry, key) => {
 });
 
 const outPath = path.join(__dirname, '..', 'public', 'data', 'communes-am.txt');
-fs.writeFileSync(outPath, lines.join('\n') + '\n', 'utf8');
+fs.writeFileSync(outPath, dropNearDuplicates(lines).join('\n') + '\n', 'utf8'); // quasi-doublons (voir communes-corrections.js)
 console.log('AM : ', places.length, 'lieux bruts ->', deduped.length, 'dédoublonnés ->', lines.length,
   'avec code postal (', matched, 'noms rapprochés) ->', outPath);
 console.log(unparsed.length, 'lignes source non parsées :');

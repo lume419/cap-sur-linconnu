@@ -387,7 +387,7 @@ en;Trëkino;Trekino
 ru;Трекино;Trekino
 kk;Trekīno;Trekino
 kk;Трекино;Trekino
-ru;Трëхбратинский;Trëkhbratinskiy
+ru;Трёхбратинский;Trëkhbratinskiy
 en;Tortpishen;Dyurtpishen
 ru;Тортпшен;Dyurtpishen
 kk;Törtpshen;Dyurtpishen
@@ -671,7 +671,7 @@ ru;Сборный;Sbornyy
 ru;Сазды;Sazdy
 kk;Сазды;Sazdy
 ru;Сай-Утес;Say-Otes
-kk;Сайөтеc;Say-Otes
+kk;Сайөтес;Say-Otes
 ru;Сайхин;Saykhin
 ru;Сайқын;Saykhin
 kk;Сайқын;Saykhin
@@ -2417,10 +2417,10 @@ ru;Туруш;Turysh
 kk;Bīikzhal;Biikzhal
 ru;Биикжал;Biikzhal
 kk;Биікжал;Biikzhal
-kk;Мīялы;Miyaly
+kk;Мі̄ялы;Miyaly
 ru;Жаркамыс;Zharkamys
 ru;Дияр;Diyar
-kk;Дīяр;Diyar
+kk;Ді̄яр;Diyar
 ru;Султан;Sultan
 kk;Сұлтан;Sultan
 ru;Жаманкудук;Zhamankuduk
@@ -3074,7 +3074,6 @@ ru;Жанакала;Zhanakala
 en;Alakol';Alaköl
 ru;Алаколь;Alaköl
 kk;Zhangadäūir;Zhanadaur
-kk;Жаңадәуiр;Zhanadaur
 ru;Жанадаур;Zhanadaur
 kk;Жаңадәуір;Zhanadaur
 kk;Жаңадария;Zhanadar’ya
@@ -3627,7 +3626,7 @@ ru;Веселое;Vesyoloe
 ru;Vesëloye;Vesyoloe
 kk;Весёлое;Vesyoloe
 kk;Шатырбай;Shatyrbay
-ru;Вëселое;Shatyrbay
+ru;Вёселое;Shatyrbay
 ru;Bel’bulak;Belbulaq
 kk;Белбұлақ;Belbulaq
 ru;Веселовка;Veselovka
@@ -3882,7 +3881,6 @@ en;Ul'guli;Ul’guli
 ru;Ульгули;Ul’guli
 kk;Ülgili;Ul’guli
 kk;Үлгілі;Ul’guli
-kk;Үлгiлi;Ul’guli
 ru;Ульгеалган;Ul’gealgan
 ru;Ul’gi;Ülgi
 kk;Үлгі;Ülgi
@@ -4868,7 +4866,7 @@ ru;Шиликти;Shilikti
 kk;Шілікті;Chilikty
 ru;Чиликты;Chilikty
 kk;Shīlikemer;Shilikkemer
-kk;Шилiкемер;Shilikkemer
+kk;Шилікемер;Shilikkemer
 ru;Шиликкемер;Shilikkemer
 ru;Чиликимир;Shilikkemer
 kk;Ескі Шілік;Eski Shilik
@@ -5240,7 +5238,7 @@ ru;Салкынколь;Salkynkol’
 kk;Salqynköl;Salkynkol’
 kk;Салқынкөл;Salkynkol’
 ru;Саксаульский;Saksaul’skiy
-kk;Сексеуiл;Saksaul’skiy
+kk;Сексеуіл;Saksaul’skiy
 ru;Сакмариха;Sakmarikha
 ru;Сохновка;Sakhnovka
 kk;Сахновка;Sakhnovka
@@ -8493,7 +8491,7 @@ kk;Ūshakovskoe;Ushakovskoye
 kk;Ушаковское;Ushakovskoye
 ru;Ушаковское;Ushakovskoye
 kk;Üshinshi Īnternatsīonal;Tretiy Internatsional
-kk;Үшiншi Интернационал;Tretiy Internatsional
+kk;Үшінші Интернационал;Tretiy Internatsional
 ru;Третий Интернационал;Tretiy Internatsional
 ru;Толбухинское;Tolbukhinskoye
 kk;Tolbūkhīnskoe;Tolbukhinskoye
@@ -8569,7 +8567,7 @@ ru;Клочково;Klochkovo
 en;Kīrov;Kirovo
 kk;Кирово;Kīrovo
 ru;Кирово;Kīrovo
-kk;Iменi Кiрова;Imeni Kirova
+kk;Імені Кірова;Imeni Kirova
 kk;Алтынемел;Altynemel
 ru;Алтынэмель;Altynemel
 tg;Олтинемел;Altynemel
@@ -8838,7 +8836,7 @@ en;Fedorovka;Fyodorov
 ru;Fëdorovka;Fyodorov
 kk;Fyodorovka;Fyodorov
 ru;Фёдоровка;Fyodorov
-kk;Фëдоров;Fyodorov
+kk;Фёдоров;Fyodorov
 kk;Фёдоровка;Fyodorov
 en;Fedorovka;Fyodorovka
 ru;Федоровка;Fyodorovka
@@ -9519,11 +9517,9 @@ en;Birlikshil';Birlikshil
 ru;Бирликшиль;Birlikshil
 kk;Бірлікшіл;Birlikshil
 ru;Берлик;Birlik
-kk;Бiрлiк;Birlik
 ru;Бирлесу;Birlecu
 ru;Бирлестик;Birlestik
 kk;Бірлестік;Birlestik
-kk;Бірлестiк;Birlestik
 ru;Бикилек;Bikilek
 kk;Bekbaūly;Bikbauli
 kk;Bekbaūpy;Bikbauli
@@ -10384,7 +10380,7 @@ kk;Zhangaaqshīman;Novyy Akshman
 kk;Жаңаақшиман;Novyy Akshman
 ru;Новый Акшман;Novyy Akshman
 kk;Aqsenggir;Aksengir
-kk;Ақсеңгiр;Aksengir
+kk;Ақсеңгір;Aksengir
 ru;Аксенгир;Aksengir
 kk;Qosözen;Novyy
 kk;Қосөзен;Novyy
@@ -10523,7 +10519,7 @@ kk;Карасу;Chërnaya Rechka
 kk;Балатопар;Balatopar
 ru;Балатопар;Balatopar
 kk;Горный;Gornyy
-kk;Шилiбастау;Shīlibastaū
+kk;Шилібастау;Shīlibastaū
 kk;Tolqyn;Tolkyn
 ru;Толкын;Tolkyn
 kk;Толқын;Tolkyn
@@ -11856,7 +11852,7 @@ kk;Кіндікті;Kindikti
 kk;Кіші Қамқалы;Kishi Qamqaly
 ru;Малый Камкалы;Kishi Qamqaly
 kk;Shyrahak;Chiganak
-kk;Шыраhак;Chiganak
+kk;Шыраһак;Chiganak
 ru;Чиганак;Chiganak
 kk;Тайқоңыр;Tayqongyr
 kk;Shalgīnskīy;Shalginskiy
@@ -12021,7 +12017,7 @@ ru;Мынбаево;Mynbayevo
 kk;Myngbaev;Mynbayevo
 kk;Мыңбаев;Mynbayevo
 kk;Kürti;Kurty
-kk;Күртi;Kurty
+kk;Күрті;Kurty
 ru;Курты;Kurty
 ru;Екпинди;Ekpindi
 kk;Екпінді;Ekpindi
@@ -12530,7 +12526,7 @@ kk;Ақшоқат;Aqshoqat
 ru;Raz”yezd Uzynkuduk;Uzynqudyq
 ru;Разъезд Узынкудук;Uzynqudyq
 kk;Ұзынқұдық;Uzynqudyq
-kk;Жеңiс;Zhengic
+kk;Жеңіс;Zhengic
 ru;Совхоз Номер Один;Zhengic
 kk;Спатаев;Spataev
 ru;Спатаево;Spataev
@@ -14704,7 +14700,7 @@ ru;Жаугаш;Zhaugash
 kk;Мыңбаев;Myngbayev
 kk;Мерей;Merey
 kk;Qazaq SSR Elū Zhyl;Merey
-kk;Қазақ CСР Елу Жыл;Merey
+kk;Қазақ ССР Елу Жыл;Merey
 ru;Мерей;Merey
 ru;Узун-Агач;Uzun-Agach
 kk;Layköl;Lankol
@@ -14877,7 +14873,7 @@ kk;Zhalghyzaghash;Zhaltyzagash
 kk;Жалғызағаш;Zhaltyzagash
 ru;Турсынбике;Tursynbike
 ru;Жалтызагаш;Zhalghyzaghash
-kk;Арал Теңiзi;Aral Tengizi
+kk;Арал Теңізі;Aral Tengizi
 kk;Аққұлақ;Aqqulaq
 ru;Аккулак;Aqqulaq
 ru;Podsobnoye Khozyaystvo Aralsul’fata;Khan
@@ -15160,7 +15156,7 @@ kk;Mīyaly;Karagash
 kk;Миялы;Karagash
 ru;Vos’maya Skvazhina;Segizinshi Skvazhīna
 kk;Сегізінші Скважина;Segizinshi Skvazhīna
-ru;Воcьмая Скважина;Segizinshi Skvazhīna
+ru;Восьмая Скважина;Segizinshi Skvazhīna
 kk;Тоғыз;Toghyz
 ru;Тогыз;Toghyz
 kk;Plotīna;Plotina
@@ -17404,7 +17400,7 @@ sr;Араљск;Aral
 uk;Аральськ;Aral
 pl;Aralsk;Aral
 hu;Asztana;Astana
-el;Aστάνα;Astana
+el;Αστάνα;Astana
 pl;Ałmaty;Almaty
 bg;Алмати;Almaty
 et;Almatõ;Almaty

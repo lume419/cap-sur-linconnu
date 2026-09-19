@@ -7026,7 +7026,7 @@
 0;10.6076,55.8796;8305;Samsø Kommune;Samsø
 0;10.1266,56.7200;9560;Mariagerfjord Kommune;Weiss A/S
 0;10.0940,56.7311;9560;Mariagerfjord Kommune;Skydebane
-0;10.0878,56.7265;9560;Mariagerfjord Kommune;Huntinge  lodge
+0;10.0878,56.7265;9560;Mariagerfjord Kommune;Huntinge lodge
 0;10.1478,56.7420;9560;Mariagerfjord Kommune;Den hvide hest
 0;10.1468,56.7416;9560;Mariagerfjord Kommune;Visborg Forsamlingshus
 0;10.2604,56.7697;9560;Mariagerfjord Kommune;Hedens Forsamlingshus

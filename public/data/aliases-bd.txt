@@ -1977,7 +1977,7 @@ is;Dakka;Dhaka
 crh;Dakka;Dhaka
 rue;Дгака;Dhaka
 ce;Дакка;Dhaka
-os;Даккæ;Dhaka
+os;Даккӕ;Dhaka
 uk;Дакка;Dhaka
 udm;Дакка;Dhaka
 hu;Dakka;Dhaka

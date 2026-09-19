@@ -13084,7 +13084,6 @@
 0;44.4276,13.2342;YE-24;Laḩij;Al Minbar
 0;44.3663,13.2432;YE-24;Laḩij;Jabal al Marābiḩah
 0;44.3044,13.1903;YE-24;Laḩij;Al Uyayrī
-0;44.2954,13.1850;YE-24;Laḩij;Al Uyayrī
 0;44.3257,13.1642;YE-24;Laḩij;Am Daymah
 0;44.3470,13.1657;YE-24;Laḩij;Am Ja‘farīyab
 0;44.3159,13.1792;YE-24;Laḩij;Am Makāmiḩah
@@ -46969,7 +46968,6 @@
 0;44.0549,14.1185;YE-23;Ibb Governorate;Aḑ Ḑāribah
 0;44.0461,14.1165;YE-23;Ibb Governorate;Şa‘dān
 0;44.0465,14.1133;YE-23;Ibb Governorate;Ar Rifā‘ī
-0;44.0800,14.1250;YE-23;Ibb Governorate;Shurf al A‘dān
 0;44.0860,14.1183;YE-23;Ibb Governorate;Al Minjadah
 0;44.0862,14.1208;YE-23;Ibb Governorate;Al Aḑā‘
 0;44.0792,14.1109;YE-23;Ibb Governorate;Dār al Ḩajar
@@ -49690,7 +49688,6 @@
 0;43.8454,13.7718;YE-25;Ta‘izz;Al Kurayf
 0;43.8481,13.7774;YE-25;Ta‘izz;Al Mi‘lāmah
 0;43.8498,13.7785;YE-25;Ta‘izz;Ad Dumaynah
-0;43.8556,13.7761;YE-25;Ta‘izz;Al Kabsah
 0;43.8506,13.7726;YE-25;Ta‘izz;Juḩrānah
 0;43.8510,13.7501;YE-25;Ta‘izz;Al ‘Uqaybah al ‘Ulyā
 0;43.8432,13.7730;YE-25;Ta‘izz;Al Ḩimşī

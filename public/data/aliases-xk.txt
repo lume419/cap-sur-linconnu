@@ -253,7 +253,7 @@ uk;Приштина;Prishtinë
 el;Πρίστινα;Prishtinë
 kk;Приштина;Prishtinë
 vi;Priština;Prishtinë
-os;Приштинæ;Prishtinë
+os;Приштинӕ;Prishtinë
 udm;Приштина;Prishtinë
 be;Прышціна;Prishtinë
 tr;Priştine;Prishtinë

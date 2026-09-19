@@ -2454,7 +2454,6 @@ ms;Vinterbro;Vinterbru
 jv;Vinterbro;Vinterbru
 fa;الورساند;Alversund
 fa;وسس;Vassås
-no;Århus;Aarhus
 nb;Rørvika;Ráluokta
 ms;Rørvika;Ráluokta
 jv;Rørvika;Ráluokta

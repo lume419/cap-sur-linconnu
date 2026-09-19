@@ -9702,7 +9702,7 @@
 0;-64.4822,-36.5331;AR-11;La Pampa;Colonia Lagos
 0;-64.9201,-36.7078;AR-11;La Pampa;El Tropezón
 0;-67.4480,-36.8681;AR-11;La Pampa;Puesto Luján
-0;-64.2887,-37.3072;AR-11;La Pampa;Padre Ángel Buodo
+0;-64.2887,-37.3072;AR-11;La Pampa;Padre Ángel Buodo
 0;-63.9085,-37.9363;AR-11;La Pampa;Colonia Leven
 0;-63.3905,-38.3758;AR-11;La Pampa;La Colorada Chica
 0;-63.4729,-38.4098;AR-11;La Pampa;Loma de los Loros
@@ -9947,7 +9947,7 @@
 0;-65.3034,-28.3352;AR-02;Catamarca;Collagasta
 0;-65.3472,-28.5274;AR-02;Catamarca;Molle Pampa
 0;-64.9704,-29.4292;AR-02;Catamarca;Kilómetro 969
-0;-64.9357,-28.8775;AR-02;Catamarca;Puerta  de Córdoba
+0;-64.9357,-28.8775;AR-02;Catamarca;Puerta de Córdoba
 0;-65.6977,-27.9397;AR-02;Catamarca;La Higuera
 0;-65.7235,-27.9697;AR-02;Catamarca;Villa Collantes
 0;-66.4791,-28.1788;AR-02;Catamarca;Guanaco Yaco
@@ -13630,7 +13630,7 @@
 0;-63.7697,-33.6541;AR-05;Cordoba;Pavín
 0;-63.8100,-33.3007;AR-05;Cordoba;Colonia Alto Verde
 0;-63.8949,-32.9002;AR-05;Cordoba;Paso Gardien
-0;-63.4384,-33.4705;AR-05;Cordoba;Colonia  Maipú
+0;-63.4384,-33.4705;AR-05;Cordoba;Colonia Maipú
 0;-63.5091,-32.8545;AR-05;Cordoba;La Ñatita
 0;-63.7968,-32.7057;AR-05;Cordoba;Colonia Santo Tomás
 0;-62.4194,-33.1666;AR-05;Cordoba;Campo Nata

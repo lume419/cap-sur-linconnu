@@ -583,7 +583,7 @@ pl;Żylina;Žilina
 ru;Жилина;Žilina
 sr;Жилина;Žilina
 ar;جيلينا;Žilina
-os;Жилинæ;Žilina
+os;Жилинӕ;Žilina
 he;זילינה;Žilina
 uk;Жиліна;Žilina
 bg;Жилина;Žilina
@@ -995,7 +995,6 @@ hu;Prószék;Prosiek
 hu;Privigye;Prievidza
 ru;Прьевидза;Prievidza
 ar;بريفيدزا;Prievidza
-az;Priеvidzа;Prievidza
 be;Превідза;Prievidza
 bg;Приевидза;Prievidza
 ce;Прьевидза;Prievidza
@@ -1054,7 +1053,6 @@ fa;پیه‌شتانی;Piešťany
 ru;Пезинок;Pezinok
 hu;Bazin;Pezinok
 ar;بيزينوك;Pezinok
-az;Pеzinоk;Pezinok
 ja;ペジノク;Pezinok
 sr;Пезинок;Pezinok
 zh;佩濟諾克;Pezinok
@@ -1207,7 +1205,6 @@ ur;مودرا;Modra
 hu;Mere;Merovce
 ru;Мартин;Martin
 ar;مارتن;Martin
-az;Mаrtin;Martin
 be;Марцін;Martin
 bg;Мартин;Martin
 hu;Turócszentmárton;Martin
@@ -1229,7 +1226,7 @@ hu;Kiskereskény;Malé Krškany
 hu;Malacka;Malacky
 ru;Малацки;Malacky
 ar;مالاتسكي;Malacky
-az;Mаlаtski;Malacky
+az;Malatski;Malacky
 bg;Малацки;Malacky
 mk;Малацки;Malacky
 sr;Малацки;Malacky
@@ -1260,7 +1257,7 @@ ru;Липтовска-Сельница;Liptovská Sielnica
 hu;Léva;Levice
 ru;Левице;Levice
 ar;ليفيتسا;Levice
-az;Lеvitsе;Levice
+az;Levitse;Levice
 be;Левіцэ;Levice
 sr;Љевице;Levice
 zh;萊維采;Levice
@@ -1629,7 +1626,7 @@ ml;ബ്രാട്ടിസ്‌ലാവ;Bratislava
 tt;Братислава;Bratislava
 be;Браціслава;Bratislava
 bo;བ་ར་ཏིསི་ལ་བ།;Bratislava
-os;Братиславæ;Bratislava
+os;Братиславӕ;Bratislava
 udm;Братислава;Bratislava
 ta;பிராத்திஸ்லாவா;Bratislava
 ckb;براتسیلاڤا;Bratislava

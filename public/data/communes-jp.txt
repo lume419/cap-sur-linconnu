@@ -30072,7 +30072,6 @@
 0;139.3123,35.3873;259-1133;Kanagawa;Hachimandai
 0;139.3082,35.3843;259-1211;Kanagawa;Mawatashi
 0;139.3167,35.3769;259-1135;Kanagawa;Ōku
-0;139.3140,35.3810;259-1135;Kanagawa;Okazaki
 0;139.3224,35.3828;259-1125;Kanagawa;Shimohirama
 0;139.3237,35.3869;259-1125;Kanagawa;Kamihirama
 0;139.3179,35.3925;259-1132;Kanagawa;Sakuradai
@@ -39202,7 +39201,6 @@
 0;131.1317,32.7085;861-3916;Kumamoto;Shiobaru
 0;131.1292,32.7107;861-3916;Kumamoto;Toshio
 0;131.1278,32.7061;861-3916;Kumamoto;Yasukata
-0;131.1250,32.7141;861-3833;Kumamoto;Yasukata
 0;131.1245,32.7234;861-3915;Kumamoto;Naganari
 0;131.0719,32.6738;861-3801;Kumamoto;Omine
 0;131.0749,32.6741;861-3801;Kumamoto;Tochihara

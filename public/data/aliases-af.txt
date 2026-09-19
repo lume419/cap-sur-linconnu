@@ -5034,8 +5034,8 @@ ur;میمنہ;Maymana
 vi;Quận Maymana;Maymana
 pt;Meymaneh;Maymana
 ar;ميمنة;Maymana
-kk;Майманa;Maymana
-ky;Майманa;Maymana
+kk;Маймана;Maymana
+ky;Маймана;Maymana
 bn;মায়মানা;Maymana
 ja;マイマナ;Maymana
 pa;ਮੈਮਨਾ;Maymana
@@ -7083,12 +7083,11 @@ ru;Каланджой;Kalān Jōy
 fa;كلان جوی;Kalān Jōy
 fa;دهٔ كلان;Kalān Deh
 en;Kalan Deh;Kalān Deh
-ru;Калан-Деh;Kalān Deh
 ar;قلان ده;Kalān Deh
-kk;Қалан Деh;Kalān Deh
+kk;Қалан Деһ;Kalān Deh
 tr;Kalan Deh;Kalān Deh
 uz;Kalan Deh;Kalān Deh
-ky;Калан Деh;Kalān Deh
+ky;Калан Деһ;Kalān Deh
 id;Kalan Deh;Kalān Deh
 ms;Kalan Deh;Kalān Deh
 es;Kalan Deh;Kalān Deh
@@ -9129,7 +9128,6 @@ fa;ده جوزٔ حسنزی;Deh Jowz-e Ḩasanzaī
 fa;ده جوزٔ بارکزی;Deh Jowz-e Bārêkzaī
 ru;Dekhdzhamal’zai;Deh Jamāl Zā’ī
 en;Dehi;Dehī
-ru;Деhи;Dehī
 ar;ديهي;Dehī
 kk;Дехі;Dehī
 tr;Dehi;Dehī
@@ -17111,7 +17109,7 @@ uk;Меймене;Maymana
 pl;Majmana;Maymana
 sv;Meymaneh;Maymana
 am;ማይማና;Maymana
-tt;Майманa;Maymana
+tt;Маймана;Maymana
 am;ማይዳን ኁላህ;Maīdān Khūlah
 az;Maydan Hulah;Maīdān Khūlah
 tt;Майдан-Хула;Maīdān Khūlah
@@ -17217,7 +17215,7 @@ am;ቃንዳሃር;Kandahār
 az;Qəndəhər;Kandahār
 tt;Кандагар;Kandahār
 am;ካላን ደህ;Kalān Deh
-tt;Қалан Деh;Kalān Deh
+tt;Қалан Деһ;Kalān Deh
 am;ካላካን;Kalakān
 tt;Қалақан;Kalakān
 am;ካላፍጋን;Kalafgān
@@ -17361,7 +17359,7 @@ tt;Дуаб;Dūāb
 am;ዴ ናርኸል ከላይ;Dê Nārkhēl Kêlay
 tt;Де-Нарахель-Келай;Dê Nārkhēl Kêlay
 am;ደሂ;Dehī
-tt;Деhи;Dehī
+tt;Деһи;Dehī
 am;ደህ-ኢ ሳላህ;Deh-e Şalāḩ
 tt;Дех-е-Салах;Deh-e Şalāḩ
 am;ደህ-ኢ ኖው;Deh-e Now

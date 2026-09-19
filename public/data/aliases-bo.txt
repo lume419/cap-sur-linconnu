@@ -1764,7 +1764,7 @@ bg;Ла Игера;La Higuera
 fa;لا ایگرا، بولیوی;La Higuera
 ka;ლა-იგერა;La Higuera
 lt;La Igera;La Higuera
-os;Ла-Игерæ;La Higuera
+os;Ла-Игерӕ;La Higuera
 ur;لا ہیگویرا;La Higuera
 hy;Լա Իգերա;La Higuera
 uk;ГЕС Ла-Ігера;La Higuera

@@ -80,16 +80,12 @@ ps;بوالا;Buala
 tg;Буала;Buala
 tt;Буала;Buala
 ar;أوكي;Auki
-kk;Аuki;Auki
-ky;Аuki;Auki
 bn;আউকি;Auki
 ur;آکی;Auki
 am;አውክ;Auki
 fa;آوکی;Auki
 pa;ਅੌਕੀ;Auki
 ps;آوکي;Auki
-tg;Аuki;Auki
-tt;Аuki;Auki
 ar;لاتا;Lata
 kk;Лата;Lata
 ky;Лата;Lata

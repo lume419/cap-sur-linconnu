@@ -38839,7 +38839,6 @@
 0;97.5841,16.6797;MM-13;Mon;Kyon Kaing
 0;97.8943,15.2583;MM-13;Mon;Kyone Laung Ywar Thit
 0;97.7783,16.5084;MM-13;Mon;Kyun Kone
-0;97.9150,16.2847;MM-13;Mon;La Mu Kho
 0;97.7982,15.3611;MM-13;Mon;Lay Ein Su
 0;97.3774,16.8106;MM-13;Mon;Lay Ein Su
 0;97.9541,16.3097;MM-13;Mon;Lay Ein Su
@@ -43146,7 +43145,6 @@
 469;95.9198,17.0301;MM-17;Yangon;Ah Pyin Yae Kyaw
 0;95.9411,17.1325;MM-17;Yangon;Pan Taw
 0;95.9255,17.1392;MM-17;Yangon;Min Ga Lar Kone
-0;96.0150,17.0311;MM-17;Yangon;Dun Ta Peit
 0;96.0750,17.0288;MM-17;Yangon;Kwin Leik Poke
 0;96.0665,17.0272;MM-17;Yangon;Ah Htet Thea Kone
 0;96.0607,17.0475;MM-17;Yangon;Moe Gyoe Pyit Bu Tar Su
@@ -43848,7 +43846,6 @@
 0;96.1997,19.9588;MM-18;Nay Pyi Taw;Hpet Te Kone
 0;96.2328,19.9506;MM-18;Nay Pyi Taw;Kyan Te Su
 0;96.2490,19.9502;MM-18;Nay Pyi Taw;In Pin Khon
-0;96.2250,19.9494;MM-18;Nay Pyi Taw;Hpyoke Khwe
 0;96.1891,19.9485;MM-18;Nay Pyi Taw;Kyaung Su
 0;95.9188,19.9478;MM-18;Nay Pyi Taw;Le Wun
 0;95.9794,19.9467;MM-18;Nay Pyi Taw;Nyaung Pin Waing
@@ -44162,7 +44159,6 @@
 0;96.2428,20.0384;MM-18;Nay Pyi Taw;Tha Pyay Chaung
 0;95.9999,20.0355;MM-18;Nay Pyi Taw;Ywar Thar
 0;96.2343,20.0190;MM-18;Nay Pyi Taw;Zee Kone
-0;96.2455,19.9966;MM-18;Nay Pyi Taw;Win Pyan
 0;96.1917,19.9941;MM-18;Nay Pyi Taw;Pu Zun Seik
 0;95.9511,19.9933;MM-18;Nay Pyi Taw;Si Pin Thar
 0;96.2714,19.9893;MM-18;Nay Pyi Taw;Chaung Hpyar
@@ -44447,7 +44443,6 @@
 0;98.4374,27.3508;MM-04;Kachin State;Dar Bang Ah Htet
 0;97.4759,27.3481;MM-04;Kachin State;Pin Hsin
 0;97.4287,27.3451;MM-04;Kachin State;La Mae War Ji
-0;98.4449,27.3450;MM-04;Kachin State;War Hkan
 0;98.3688,27.3448;MM-04;Kachin State;Long Yein
 0;97.3842,27.3441;MM-04;Kachin State;Ma Jawt Wawt
 0;98.4367,27.3399;MM-04;Kachin State;Dar Bang Auk
@@ -47148,7 +47143,6 @@
 0;95.1604,16.2543;MM-03;Ayeyarwady;Myin Ka Chaung
 0;95.4001,16.2543;MM-03;Ayeyarwady;Mar Yar
 0;95.1281,16.2547;MM-03;Ayeyarwady;Ka Na So Chaung
-0;95.7810,16.2550;MM-03;Ayeyarwady;Lay Ein Dan
 0;95.4455,16.2551;MM-03;Ayeyarwady;Kun Yar Kan Ka Lay
 0;95.5119,16.2560;MM-03;Ayeyarwady;Nga Pi Tone Ka lay
 0;94.9047,16.2559;MM-03;Ayeyarwady;Ngar Hpei Ta Yar

@@ -13493,7 +13493,7 @@
 0;11.1023,51.4348;06536;Sachsen-Anhalt;Sittendorf
 0;13.3858,48.6647;94154;Lower Bavaria;Sittenberg
 0;11.2321,48.3310;85235;Upper Bavaria;Sittenbach
-0;12.9332,51.2058;04703;Sachsen;Sion
+0;12.9332,51.2058;04703;Sachsen;Sitten
 0;12.0678,48.7724;84097;Lower Bavaria;Sittelsdorf
 0;12.2198,51.2081;04460;Sachsen;Sittel
 0;6.3496,51.1358;41179;Reg.-Bez. Düsseldorf;Sittardheide

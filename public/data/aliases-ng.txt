@@ -829,7 +829,7 @@ ce;Варри;Warri
 fa;واری;Warri
 ja;ワリ;Warri
 ko;와리;Warri
-ky;Bаppи;Warri
+ky;Варри;Warri
 zh;瓦里;Warri
 ru;Уйо;Uyo
 kk;Уйо;Uyo
@@ -837,12 +837,10 @@ ky;Уйо;Uyo
 hi;उयो;Uyo
 bn;উয়ো;Uyo
 ur;یوو;Uyo
-az;Uyо;Uyo
 fa;ایو;Uyo
 ja;ウヨ;Uyo
 pa;ਯੂਯੋ;Uyo
 ps;اویو;Uyo
-tg;Uyо;Uyo
 tt;Уйо;Uyo
 ru;Уроми;Uromi
 bg;Уроми;Uromi

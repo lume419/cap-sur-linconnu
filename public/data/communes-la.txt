@@ -10801,7 +10801,6 @@
 0;105.8476,14.4223;LA-02;Champasak Province;Ban Gnai
 0;105.8618,14.4379;LA-02;Champasak Province;Ban Houaydokkèt
 0;105.8723,14.4350;LA-02;Champasak Province;Ban Phoubang
-0;105.8678,14.4430;LA-02;Champasak Province;Ban Phoubang
 0;105.8360,14.4434;LA-02;Champasak Province;Ban Veun-Tai
 0;105.8653,14.4681;LA-02;Champasak Province;Ban Oupaxa
 0;105.8706,14.5099;LA-02;Champasak Province;Ban Hinlat

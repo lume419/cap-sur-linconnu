@@ -44,9 +44,9 @@ ps;پيگس پيک;Piggs Peak
 tg;Пиггс-Пик;Piggs Peak
 tt;Пиггс-Пик;Piggs Peak
 zh;恩索科;Nsoko
-ru;Нхланганo;Nhlangano
-kk;Нхланганo;Nhlangano
-ky;Нхланганo;Nhlangano
+ru;Нхлангано;Nhlangano
+kk;Нхлангано;Nhlangano
+ky;Нхлангано;Nhlangano
 hi;नहलांगानो;Nhlangano
 bn;নহলাঙ্গানো;Nhlangano
 ur;نہلانگانو;Nhlangano
@@ -55,8 +55,8 @@ fa;نهلانگانو;Nhlangano
 ja;ンランガーノ;Nhlangano
 pa;ਨਹਲਾਂਗਾਨੋ;Nhlangano
 ps;نهلانګانو;Nhlangano
-tg;Нхланганo;Nhlangano
-tt;Нхланганo;Nhlangano
+tg;Нхлангано;Nhlangano
+tt;Нхлангано;Nhlangano
 bg;Мхламбаняци;Mhlambanyatsi
 uk;Мхламбаньятсі;Mhlambanyatsi
 ru;Мхламбаняци;Mhlambanyatsi

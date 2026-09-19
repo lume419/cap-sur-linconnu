@@ -38,6 +38,9 @@
 // précise réutilisable ici.
 const fs = require('fs');
 const path = require('path');
+// Corrections communes à tous les générateurs de lieux (audit n° 11) : noms nettoyés, lieux écartés, quasi-doublons —
+// voir scripts/communes-corrections.js.
+const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
 
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
 const GEORGIAN_SCRIPT_RE = /[Ⴀ-ჿ]/;
@@ -109,7 +112,8 @@ const places = [];
 for(const line of dumpLines){
   const c = line.split('\t');
   if(c[6] !== 'P' || !KEEP_FEATURE_CODES.has(c[7])) continue;
-  const geonameid = c[0], name = c[1];
+  const geonameid = c[0], name = preparePlaceName('GE', c[0], c[1]);
+  if(excludePlace('GE', geonameid, name, parseFloat(c[4]), parseFloat(c[5]))) continue;
   let ka = GEORGIAN_NAME_OVERRIDES[name] || kaByGid.get(geonameid);
   if(!ka){
     const embedded = (c[3] || '').split(',').find(n => GEORGIAN_SCRIPT_RE.test(n));
@@ -177,7 +181,7 @@ canonicalByGeonameId[tbilisi.geonameid] = tbilisi.name;
 matched++;
 
 const outPath = path.join(__dirname, '..', 'public', 'data', 'communes-ge.txt');
-fs.writeFileSync(outPath, lines.join('\n') + '\n', 'utf8');
+fs.writeFileSync(outPath, dropNearDuplicates(lines).join('\n') + '\n', 'utf8'); // quasi-doublons (voir communes-corrections.js)
 fs.writeFileSync(path.join(__dirname, 'ge-canonical-by-geonameid.json'), JSON.stringify(canonicalByGeonameId), 'utf8');
 console.log('GE :', places.length, 'lieux bruts (classe P) ->', placesByKaKey.size, 'noms géorgiens distincts ->',
   lines.length, 'avec code postal (', matched, 'noms rapprochés, dont Tbilissi en cas spécial) ->', outPath);

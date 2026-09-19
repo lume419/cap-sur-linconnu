@@ -614,7 +614,6 @@ pa;ਬੁਰਾਓ;Burao
 ps;بورائو;Burao
 tg;Бурао;Burao
 tt;Бурао;Burao
-ru;Бuale;Bu’aale
 kk;Буале;Bu’aale
 tr;Buale;Bu’aale
 uz;Buale;Bu’aale

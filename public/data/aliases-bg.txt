@@ -1500,7 +1500,6 @@ bg;Ръжево;Razhevo
 bg;Ръженово;Razhenovo
 bg;Ръжена;Razhena
 bg;Ръждавица;Razhdavitsa
-bg;Ръждaвица;Razhdavitsa
 bg;Ръждак;Razhdak
 bg;Раждак;Razhdak
 bg;Ръжавец;Razhavets
@@ -2424,7 +2423,6 @@ nl;Nessebar;Nesebar
 sr;Несебар;Nesebar
 en;Nessebur;Nesebar
 el;Νέσεμπαρ;Nesebar
-hr;Nеsebăr;Nesebar
 hu;Neszebar;Nesebar
 mk;Несебар;Nesebar
 pt;Nessebar;Nesebar
@@ -4934,7 +4932,6 @@ bg;Брежани;Brezhani
 bg;Брезен;Brezen
 bg;Брезе;Breze
 bg;Бреза;Breza
-bg;Брeстово;Brestovo
 bg;Брестово;Brestovo
 bg;Брестовица;Brestovitsa
 bg;Брестовец;Brestovets
@@ -5885,7 +5882,7 @@ ja;ヴラツァ;Vratsa
 kk;Враца;Vratsa
 tr;İvraca;Vratsa
 ko;브라차;Vratsa
-os;Врацæ;Vratsa
+os;Врацӕ;Vratsa
 he;וראצה;Vratsa
 ckb;ڤراتسا;Vratsa
 uk;Враца;Vratsa
@@ -5972,7 +5969,7 @@ ka;ვარნა;Varna
 hy;Վառնա;Varna
 uk;Варна;Varna
 fa;وارنا;Varna
-os;Варнæ;Varna
+os;Варнӕ;Varna
 ko;바르나;Varna
 mr;व्हर्ना;Varna
 th;วาร์นา;Varna
@@ -6178,7 +6175,7 @@ ru;Стражица;Strazhitsa
 ru;Стралджа;Straldzha
 ru;Стара-Загора;Stara Zagora
 tr;Eski Zağra;Stara Zagora
-os;Стара-Загорæ;Stara Zagora
+os;Стара-Загорӕ;Stara Zagora
 ko;스타라자고라;Stara Zagora
 uk;Стара Загора;Stara Zagora
 hy;Ստարա Զագորա;Stara Zagora
@@ -6394,7 +6391,7 @@ uk;Сілістра;Silistra
 ko;실리스트라;Silistra
 be;Сілістра;Silistra
 he;סיליסטרה;Silistra
-os;Силистрæ;Silistra
+os;Силистрӕ;Silistra
 ru;Силистра;Silistra
 zh;錫利斯特拉;Silistra
 ar;سيليسترا;Silistra
@@ -6955,7 +6952,7 @@ fa;مونتانا، بلغارستان;Montana
 he;מונטנה;Montana
 ja;モンタナ;Montana
 ko;몬타나;Montana
-os;Монтанæ;Montana
+os;Монтанӕ;Montana
 tr;Kutlu Viçe;Montana
 uk;Монтана;Montana
 ru;Монтана;Montana
@@ -7749,10 +7746,10 @@ bn;বয়চিনোভৎসি;Boychinovtsi
 ur;بویچینوفتسی;Boychinovtsi
 ru;Бов;Bov
 ru;Ботевград;Botevgrad
-ru;Боровo;Borovo
+ru;Борово;Borovo
 ar;بوروفو;Borovo
-kk;Боровo;Borovo
-ky;Боровo;Borovo
+kk;Борово;Borovo
+ky;Борово;Borovo
 hi;बोरोवो;Borovo
 bn;বোরোভো;Borovo
 ur;بوروو;Borovo

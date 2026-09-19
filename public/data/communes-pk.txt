@@ -76999,7 +76999,6 @@
 0;70.9788,31.1898;PK-04;Punjab;Muhammadwala
 0;70.9682,31.1916;PK-04;Punjab;Basti Kharl
 0;70.9766,31.1950;PK-04;Punjab;Basti Dhola
-0;70.9809,31.1850;PK-04;Punjab;Chak Ninety-nine
 0;70.9449,31.1699;PK-04;Punjab;Basti Lahorian
 0;70.9536,31.1623;PK-04;Punjab;Chah Ginjiwala
 0;70.9268,31.1800;PK-04;Punjab;Basti Shaukian
@@ -90751,7 +90750,6 @@
 0;72.2161,31.8350;PK-04;Punjab;Thathi Bakhsh Shāh
 0;72.1885,31.7851;PK-04;Punjab;Behlalpro
 0;72.1850,31.7749;PK-04;Punjab;Ahmadabad Janubi
-0;72.1950,31.7727;PK-04;Punjab;Shaikh Panja
 0;72.1984,31.9921;PK-04;Punjab;Dera Muhammad Hayat
 0;72.0277,31.7247;PK-04;Punjab;Mola Dad da Bhan
 0;72.0133,31.7187;PK-04;Punjab;Naian da Bhan

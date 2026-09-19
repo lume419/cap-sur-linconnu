@@ -326,9 +326,6 @@ fa;دیکگونیه;Dikgonye
 pl;Dikgonnye;Dikgonye
 fa;تستسبیو، بوتسوانا;Tsetsebjwe
 bg;Селека;Seleka
-ru;Джванeng;Jwaneng
-kk;Джванenг;Jwaneng
-ky;Джванeng;Jwaneng
 hi;ज्वानेंग;Jwaneng
 bn;জ্বানেং;Jwaneng
 ur;جوانینگ;Jwaneng
@@ -337,5 +334,3 @@ fa;جوانینگ;Jwaneng
 ja;ジワネング;Jwaneng
 pa;ਜ੍ਵਾਨੇਂਗ;Jwaneng
 ps;جوانینج;Jwaneng
-tg;Джванeng;Jwaneng
-tt;Джванeng;Jwaneng

@@ -4812,7 +4812,7 @@ el;Μανίλα;Manila
 am;ማኒላ;Manila
 sr;Манила;Manila
 be;Маніла;Manila
-os;Манилæ;Manila
+os;Манилӕ;Manila
 uk;Маніла;Manila
 ht;Manyl;Manila
 nah;Manillah;Manila

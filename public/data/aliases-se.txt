@@ -4087,7 +4087,7 @@ mk;Упсала;Uppsala
 mn;Өпсала;Uppsala
 mr;उप्साला;Uppsala
 ne;उप्साला;Uppsala
-os;Уппсалæ;Uppsala
+os;Уппсалӕ;Uppsala
 ta;உப்சாலா;Uppsala
 th;อุปซอลา;Uppsala
 uk;Уппсала;Uppsala
@@ -4415,7 +4415,7 @@ my;စတော့ဟုမ်းမြို့;Stockholm
 mzn;استکهلم;Stockholm
 tt;Стокгольм;Stockholm
 tg;Стокҳолм;Stockholm
-sah;Стокhольм;Stockholm
+sah;Стокһольм;Stockholm
 ta;ஸ்டாக்ஹோம்;Stockholm
 hi;स्टॉकहोम;Stockholm
 ht;Stokolm;Stockholm
@@ -4616,7 +4616,7 @@ el;Σιγκτούνα;Sigtuna
 fa;سیگتونا;Sigtuna
 ka;სიგტუნა;Sigtuna
 ko;시그투나;Sigtuna
-os;Сигтунæ;Sigtuna
+os;Сигтунӕ;Sigtuna
 uk;Сигтуна;Sigtuna
 zh;錫格蒂納;Sigtuna
 bg;Сифербо;Sifferbo

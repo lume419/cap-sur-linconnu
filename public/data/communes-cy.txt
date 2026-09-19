@@ -683,7 +683,7 @@
 0;33.0568,34.7129;4100;Lemesos;Ayios Athanasios (quarter)
 0;33.0719,34.6936;4100;Lemesos;Ayios Georgios Fragkoudi
 0;33.0675,34.7022;4100;Lemesos;Ayios Stylianos
-0;33.0567,34.7081;4100;Lemesos;Αpostle Lyke
+0;33.0567,34.7081;4100;Lemesos;Apostle Lyke
 0;33.0909,34.7035;4040;Lemesos;Germasogeia River
 0;33.0412,34.7117;4100;Lemesos;Panthea
 0;33.0509,34.7020;4000;Lemesos;Timios Prodromos
@@ -721,7 +721,7 @@
 0;33.1688,35.3326;9300;Keryneia;Agios Loukas
 0;33.1750,35.3324;9300;Keryneia;Agia Anastasia
 102;33.1724,35.3378;9300;Keryneia;Prodromos
-0;33.1716,35.3402;9300;Keryneia;Tourkiki Sιnikia
+0;33.1716,35.3402;9300;Keryneia;Tourkiki Sinikia
 0;33.3241,35.1744;2300;Lefkosia;Agios Georgios
 0;33.3218,35.1885;2681;Lefkosia;Agios Pavlos
 0;33.3886,35.0701;2220;Lefkosia;Agioi Konstantinos kai Eleni

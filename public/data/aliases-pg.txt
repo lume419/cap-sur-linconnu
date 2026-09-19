@@ -126,7 +126,7 @@ lt;Vevakas;Wewak
 uk;Вевак;Wewak
 ar;ويواك;Wewak
 kk;Уевак;Wewak
-ky;Веваk;Wewak
+ky;Вевак;Wewak
 bn;ওয়েওয়াক;Wewak
 ur;ویواک;Wewak
 am;ወውዋክ;Wewak

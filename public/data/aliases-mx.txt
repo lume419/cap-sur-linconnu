@@ -25088,7 +25088,7 @@ ka;პუებლა;Puebla
 lv;Puebla de Saragosa;Puebla
 mr;पुएब्ला;Puebla
 nn;Byen Puebla;Puebla
-os;Пуэблæ-де-Сарагосæ;Puebla
+os;Пуэблӕ-де-Сарагосӕ;Puebla
 pa;ਪੁਐਬਲਾ;Puebla
 ro;Puebla de los Ángeles;Puebla
 sr;Пуебла;Puebla
@@ -25166,7 +25166,7 @@ mr;वाशाका दे हुआरेझ;Oaxaca
 nn;Byen Oaxaca;Oaxaca
 am;ወሓካ ዴ ዋሬዝ;Oaxaca
 lt;Oachaka;Oaxaca
-os;Оахакæ-де-Хуарес;Oaxaca
+os;Оахакӕ-де-Хуарес;Oaxaca
 fa;اوآخاکا د خوارز;Oaxaca
 uk;Оахака-де-Хуарес;Oaxaca
 hy;Օախակա դե Խուարես;Oaxaca
@@ -25654,7 +25654,7 @@ lt;Tichuana;Tijuana
 mr;तिहुआना;Tijuana
 ml;ടീഹ്വാന;Tijuana
 sr;Тихуана;Tijuana
-os;Тихуанæ;Tijuana
+os;Тихуанӕ;Tijuana
 ce;Тихуана;Tijuana
 lv;Tihuana;Tijuana
 pa;ਤੀਖ਼ਵਾਨਾ;Tijuana
@@ -25814,7 +25814,7 @@ th;เกเรตาโร;Santiago de Querétaro
 ka;სანტიაგო-დე-კერეტარო;Santiago de Querétaro
 fa;کرتارو، کرتارو;Santiago de Querétaro
 he;קרטרו;Santiago de Querétaro
-ky;Kepeтapo;Santiago de Querétaro
+ky;Керетаро;Santiago de Querétaro
 ur;کوارتارو، کوارتارو;Santiago de Querétaro
 uz;Keretaro;Santiago de Querétaro
 kk;Сантьяго-де-Керетаро;Santiago de Querétaro
@@ -26066,7 +26066,7 @@ be;Гвадалахара;Guadalajara
 ka;გვადალახარა;Guadalajara
 nn;Guadalajara i Jalisco;Guadalajara
 bg;Гуадалахара;Guadalajara
-os;Гвадалахарæ;Guadalajara
+os;Гвадалахарӕ;Guadalajara
 lv;Gvadalahara;Guadalajara
 fa;گوادالاخارا، خالیسکو;Guadalajara
 gl;Guadalaxara;Guadalajara
@@ -26231,7 +26231,7 @@ fa;چیئوائوا٬ چیئوائوا;Chihuahua
 ka;ჩიუაუა;Chihuahua
 sr;Чивава;Chihuahua
 uk;Чіуауа;Chihuahua
-os;Чиуауæ;Chihuahua
+os;Чиуауӕ;Chihuahua
 ceb;Dakbayan sa Chihuahua;Chihuahua
 ur;چہواہوا;Chihuahua
 yue;芝華華市;Chihuahua

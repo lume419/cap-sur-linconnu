@@ -2121,7 +2121,7 @@ uk;Сан Педро де Йок;San Pedro de Lloc
 ka;პუკალიპა;Pucallpa
 lt;Pukalpa;Pucallpa
 mk;Пукалпа;Pucallpa
-os;Пукальпæ;Pucallpa
+os;Пукальпӕ;Pucallpa
 fa;پوکایپا;Pucallpa
 th;ปูไกปา;Pucallpa
 uk;Пукальпа;Pucallpa
@@ -2408,7 +2408,7 @@ mhr;Лиме;Lima
 ga;Líoma;Lima
 hy;Լիմա;Lima
 ug;لىما;Lima
-os;Лимæ;Lima
+os;Лимӕ;Lima
 uk;Ліма;Lima
 bo;ལི་མ།;Lima
 ab;Лима;Lima

@@ -3323,7 +3323,6 @@ sr;Шмарје при Сежани;Šmarje pri Sežani
 ru;Сма́рье при Е́льсах;Šmarje pri Jelšah
 ar;سمارجي بري جيلساه;Šmarje pri Jelšah
 kk;Смарье при Елсах;Šmarje pri Jelšah
-ky;Сmarье при Елсах;Šmarje pri Jelšah
 hi;स्मार्ये प्री जेल्साह;Šmarje pri Jelšah
 bn;স্মার্যে প্রী জেলসাহ;Šmarje pri Jelšah
 ur;سمارجے پری جیلسہ;Šmarje pri Jelšah
@@ -3333,7 +3332,6 @@ ja;スマルイェ・プリ・ジェルサフ;Šmarje pri Jelšah
 pa;ਸ੍ਮਾਰਯੇ ਪ੍ਰੀ ਜੇਲਸਾਹ;Šmarje pri Jelšah
 ps;سمارجې پري جیلساه;Šmarje pri Jelšah
 tg;Сарье при Елсах;Šmarje pri Jelšah
-tt;Сarье при Елсах;Šmarje pri Jelšah
 sl;Šmarje - Sap;Šmarje–Sap
 tt;Шмаре;Šmarje
 ce;Шмаре;Šmarje
@@ -4214,7 +4212,6 @@ sr;Равне при Шмартнем;Ravne pri Šmartnem
 uk;Равне прі Церкнем;Ravne pri Cerknem
 mk;Равне кај Церкно;Ravne pri Cerknem
 sr;Равне при Церкнем;Ravne pri Cerknem
-ru;Равне на Корошkem;Ravne na Koroškem
 ar;رافنه نا كوروسكيم;Ravne na Koroškem
 kk;Равне на Корошком;Ravne na Koroškem
 ky;Равне на Корошком;Ravne na Koroškem
@@ -6887,7 +6884,7 @@ sw;Lyublyana;Ljubljana
 ckb;لیوبلیانا;Ljubljana
 sah;Любляна;Ljubljana
 cv;Любляна;Ljubljana
-os;Люблянæ;Ljubljana
+os;Люблянӕ;Ljubljana
 az;Lyublyana;Ljubljana
 ga;Liúibleána;Ljubljana
 crh;Lüblâna;Ljubljana
@@ -11039,7 +11036,6 @@ tt;Крайна вас;Krajna Vas
 ce;Крайна вас;Krajna Vas
 uk;Крайна вас;Krajna Vas
 mk;Крајна Вас;Krajna Vas
-sr;Крајна bас;Krajna Vas
 tt;Плешивиця;Plešivica
 ce;Плешивиця;Plešivica
 uk;Плешивіца;Plešivica
@@ -11491,7 +11487,7 @@ hi;विडेम प्री पटुजु;Videm pri Ptuju
 bn;ভিডেম প্রি পটুজু;Videm pri Ptuju
 ur;ویڈیم پری پتوجو;Videm pri Ptuju
 am;ቪደም ፕሪ ፕቱዩ;Videm pri Ptuju
-az;Videm pri Ptujу;Videm pri Ptuju
+az;Videm pri Ptujy;Videm pri Ptuju
 fa;ویدم پری پتویو;Videm pri Ptuju
 ja;ヴィデム・プリ・プトゥユ;Videm pri Ptuju
 pa;ਵਿਡੇਮ ਪ੍ਰੀ ਪਤੁਜੂ;Videm pri Ptuju

@@ -1638,7 +1638,7 @@ ar;أوستزان;Oostzaan
 hy;Օստզան;Oostzaan
 ru;Остзан;Oostzaan
 fa;است‌واد;Oostwoud
-bg;Eaструм;Eastrum
+bg;Еаструм;Eastrum
 uk;Іструм;Eastrum
 bg;Остхем;Oosthem
 uk;Остем;Oosthem

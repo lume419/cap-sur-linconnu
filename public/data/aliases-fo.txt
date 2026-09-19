@@ -114,7 +114,7 @@ lt;Aduvikas;Æðuvík
 ru;Вестманна;Vestmanna
 be;Вестмана;Vestmanna
 hy;Վեստմանա;Vestmanna
-os;Вестманнæ;Vestmanna
+os;Вестманнӕ;Vestmanna
 zh;韦斯特曼纳;Vestmanna
 fa;ولبستتور;Velbastaður
 be;Вагур;Vágur
@@ -152,7 +152,7 @@ zh;托夫蒂尔;Toftir
 ja;トフティル;Toftir
 ru;Тьёрнувик;Tjørnuvík
 ja;チャアヌヴィク;Tjørnuvík
-os;Сиругётæ;Syðrugøta
+os;Сиругётӕ;Syðrugøta
 he;סיראדאלור;Syðradalur
 be;Востраў Свуйнай;Svínoy
 he;סוינוי;Svínoy
@@ -160,7 +160,7 @@ os;Свуйной;Svínoy
 uk;Свуйной;Svínoy
 ru;Свуйной;Svínoy
 zh;斯温岛;Svínoy
-os;Сумбæ;Sumba
+os;Сумбӕ;Sumba
 ru;Сумба;Sumba
 zh;松巴;Sumba
 zh;斯特雷姆内斯;Streymnes

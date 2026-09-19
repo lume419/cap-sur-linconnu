@@ -192,7 +192,6 @@ bn;জাঞ্জিবার;Zanzibar
 am;ዛንዚባር;Zanzibar
 pa;زنجبار;Zanzibar
 ps;زنجبار;Zanzibar
-tg;Зanjибор;Zanzibar
 ru;Вето;Wete
 hi;वेटे;Wete
 bn;ওয়েটে;Wete

@@ -1015,7 +1015,6 @@ ru;Верстаминай;Verstaminai
 ru;Веришкяй;Vėriškiai
 ru;Веребаяй;Verebiejai
 ru;Вепряй;Vepriai
-ru;Bяпряй;Vepriai
 ru;Вяпряй;Vepriai
 ru;Вянте;Ventė
 tt;Вәнта;Venta
@@ -2642,7 +2641,7 @@ ur;پالانگا;Palanga
 mdf;Паланга;Palanga
 ar;بالانغا;Palanga
 nb;Palanga bykommune;Palanga
-az;Pаlаnqа;Palanga
+az;Palanqa;Palanga
 fa;پالانگا;Palanga
 ckb;پاڵانگا;Palanga
 ru;Палайвис;Palaivis
@@ -4492,7 +4491,7 @@ he;דרוסקינינקאי;Druskininkai
 ja;ドルスキニンカイ;Druskininkai
 uk;Друскінінкай;Druskininkai
 zh;德魯斯基寧凱;Druskininkai
-az;Druskininkаy;Druskininkai
+az;Druskininkay;Druskininkai
 fa;دروسکینینکای;Druskininkai
 ur;دروسکیکینکائی;Druskininkai
 ru;Драсенай;Drąsėnai

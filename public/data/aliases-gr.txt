@@ -1097,7 +1097,6 @@ el;Τοπόλια;Topólia
 el;Τολόν;Tolón
 sv;Tolo;Tolón
 en;Tolo;Tolón
-el;Τολo;Tolón
 el;Τολό;Tolón
 el;Τολοφών;Tolofón
 el;Τιθορέα;Tithoréa
@@ -2090,7 +2089,7 @@ el;Αμπελώνας;Ampelónas
 el;Ρωμανός;Romanós
 el;Ρωμανό;Romanón
 el;Ρωμανού;Romanón
-el;Ρωμαίικo;Romaíïko
+el;Ρωμαίικο;Romaíïko
 el;Ρωμαίικον;Romaíïko
 el;Ρόκκα;Rókka
 el;Ροεινό;Roeinó
@@ -2232,7 +2231,6 @@ el;Ραψαίοι;Rapsaíoi
 el;Ράπι;Rápi
 el;Ράπιον;Rápi
 el;Ραπανιανά;Rapaniana
-el;PAΠANIANA;Rapaniana
 el;Ραντάτικα;Rantátika
 el;Ράμος;Rámos
 el;Ραμνή;Ramní
@@ -2420,7 +2418,6 @@ el;Πόθι;Póthi
 el;Πόθιον;Póthi
 el;Ποταμούλα Τριχωνίδος;Potamoúla Trichonídos
 el;Ποταμούλα Μεσολογγίου;Potamoúla Mesolongíou
-en;Potamoula Mesolοngiou;Potamoúla Mesolongíou
 el;Ποταμός;Potamós
 el;Potamós;Potamós Antikythíron
 el;Ποταμός Αντικυθήρων;Potamós Antikythíron
@@ -4253,7 +4250,7 @@ el;Μελικεναίικα;Melikenaíika
 el;Μέλιγος;Méligos
 el;Μελιγαλάς;Meligalás
 en;Melidoni;Melidhónion
-el;Mελιδονι;Melidhónion
+el;Μελιδονι;Melidhónion
 el;Μελιδόνι;Melidóni
 el;Melidónion;Melidóni
 el;Μελιδόνιον;Melidóni
@@ -5655,7 +5652,7 @@ el;Κομποθεκράτα;Kombothekráta
 en;Kompothekrata;Kombothekráta
 el;Κομποθέκλα;Kompothékla
 el;Κομποτάδες;Kompotádes
-el;Kόμποι;Kompi
+el;Κόμποι;Kompi
 el;Κομπηγάδι;Kompigádi
 el;Kompigádion;Kompigádi
 el;Κομπηγάδιον;Kompigádi
@@ -6538,7 +6535,7 @@ el;Κάτω Γραικικόν;Káto Graikikó
 el;Κάτω Γλυκόβρυση;Káto Glykóvrysi
 el;Κάτω Γατζέα;Káto Gatzéa
 el;Κάτω Γαρδενίτσα;Káto Gardenítsa
-el;Nέα Φιγαλεία;Káto Figália
+el;Νέα Φιγαλεία;Káto Figália
 el;Δρυμών;Drymónas
 el;Δρυμώνας;Drymónas
 el;Κάτω Ελούντα;Káto Eloúnda
@@ -9357,11 +9354,11 @@ el;Άνω Βαρδάτες;Áno Vardhátes
 en;Ano Vardates;Áno Vardhátes
 el;Άνω Βάλτες;Áno Váltes
 el;Άνω Βαλσαμόνερο;Áno Valsamónero
-el;Áno Tripádo;Áno Tripοdo
-el;Άνω Τριπάδο;Áno Tripοdo
-el;Áno Tripádon;Áno Tripοdo
-el;Άνω Τριπάδον;Áno Tripοdo
-el;Άνω Τρίποδο;Áno Tripοdo
+el;Áno Tripádo;Áno Tripodo
+el;Άνω Τριπάδο;Áno Tripodo
+el;Áno Tripádon;Áno Tripodo
+el;Άνω Τριπάδον;Áno Tripodo
+el;Άνω Τρίποδο;Áno Tripodo
 el;Άνω Ταρσός;Áno Tarsós
 el;Άνω Σούλι;Áno Soúli
 el;Άνω Σούλιον;Áno Soúli
@@ -9664,7 +9661,7 @@ el;Αμουργέλλαι;Amourgélles
 el;Αμούρι;Amoúri
 el;Αμούριον;Amoúri
 el;Αμοργιανοί;Amorgianoí
-el;Αμoργός;Amorgós
+el;Αμοργός;Amorgós
 el;Αμονακλιού;Amonakliós
 el;Αμονακλιός;Amonakliós
 el;Αμμόλοχος;Ammólochos
@@ -10905,7 +10902,7 @@ el;Σπήλαια;Spílaia
 mk;Жужелци;Spílaia
 el;Σπαρμός;Sparmós
 el;Σπανότοπος;Spanótopos
-el;Kιοσελέρ;Spanótopos
+el;Κιοσελέρ;Spanótopos
 el;Σωζόπολις;Sozópoli
 el;Σωζόπολη;Sozópoli
 mk;Српски Метох;Sozópoli
@@ -16821,7 +16818,7 @@ el;Κάμπος Νεμούτας;Kampos Nemoutas
 el;Κάμπος Νεράιδας;Kámpos Neráidas
 el;Καστανιά;Kataniá
 el;Βίλλια;Vília
-el;Αι Γιαννάκης;Ái Giαnnákis
+el;Αι Γιαννάκης;Ái Giannákis
 el;Φαναράς;Fanarás
 el;Κάτω Στρέφι;Káto Stréfi
 el;Κουτσουρούμπας;Koutsouroubas
@@ -16876,7 +16873,7 @@ el;Κεφαλές;Kefales
 el;Κάτω Μονοκαρυά;Kato Monokarya
 el;Νέος Παγώντας;Neos Pagóntas
 el;Κλιμάκι;Klimaki
-el;Αχλαδοπόταμο;Achlαdopotamo
+el;Αχλαδοπόταμο;Achladopotamo
 el;Νησέλια;Niselia
 el;Άγιοι Απόστολοι Λαύκου;Agioi Apostoloi
 el;Άγιο Πνεύμα;Agio Pnevma
@@ -16994,7 +16991,7 @@ el;Σιδηροδρομικός Σταθμός Ραψάνης;Perataria
 el;Περαταριά;Perataria
 el;Μαθητικές Κατασκηνώσεις Λάρισας;Mathitikes Kataskinosis Larisas
 el;Κατασκηνώσεις Αγίου Δημητρίου;Kataskinosis Agiou Dimitriou
-el;Μέλια;Melιa
+el;Μέλια;Melia
 el;Μηλότοπος;Mylótopos
 el;Φορτώσι;Fortosi
 el;Παναγία Πολυνερίου;Panagía
@@ -17283,7 +17280,7 @@ tr;Menekşe;Monemvasía
 tk;Benefşe;Monemvasía
 lt;Monemvasija;Monemvasía
 hy;Մոնեմվասիա;Monemvasía
-uk;Монемваcія;Monemvasía
+uk;Монемвасія;Monemvasía
 zh;莫奈姆瓦夏;Monemvasía
 ar;مونيمفاسيا;Monemvasía
 vi;Monemvassia;Monemvasía

@@ -94,14 +94,14 @@ nds;Copper Bank;San Fernando
 bg;Пунта Горда;Punta Gorda
 he;פונטה גורדה;Punta Gorda
 ur;پنتا گوردا، بیلیز;Punta Gorda
-kk;Пунта-Гордa;Punta Gorda
-ky;Пунта-Гордa;Punta Gorda
+kk;Пунта-Горда;Punta Gorda
+ky;Пунта-Горда;Punta Gorda
 bn;পুন্তা গর্ডা;Punta Gorda
 am;ፑንታ ጎርዳ;Punta Gorda
 fa;پونتاگوردا;Punta Gorda
 pa;ਪੁੰਟਾ ਗੋਰਡਾ;Punta Gorda
 ps;پونتا ګوردا;Punta Gorda
-tg;Пунта-Гордa;Punta Gorda
+tg;Пунта-Горда;Punta Gorda
 he;פלאסנסיה;Placencia
 kk;Оранж Уок;Orange Walk
 ky;Оранж Уок;Orange Walk

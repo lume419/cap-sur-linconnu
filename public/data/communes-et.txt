@@ -10188,7 +10188,6 @@
 0;43.4561,5.3142;ET-52;Somali;Beredale
 0;43.3042,9.0283;ET-52;Somali;Gilo
 0;43.0314,9.8289;ET-52;Somali;Harawa
-0;44.8200,8.7247;ET-52;Somali;Daba Gorayale
 0;44.9983,5.4339;ET-52;Somali;Bermagog
 37080;46.4333,6.5822;ET-52;Somali;Qorof
 0;47.0114,7.3797;ET-52;Somali;Demergog

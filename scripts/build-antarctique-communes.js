@@ -37,7 +37,10 @@
 
 const fs = require('fs');
 const path = require('path');
-const { isAntarcticUnderAR, HISTORICAL_NAME_RE } = require('./communes-corrections.js');
+// Audit n° 11 : noms nettoyés (preparePlaceName), noms-commentaires écartés (isJunkName) et quasi-doublons
+// (dropNearDuplicates) comme dans tous les générateurs de lieux. PAS excludePlace en bloc : il écarterait par
+// construction les bases rangées sous AR (isAntarcticUnderAR), que ce script reprend justement.
+const { isAntarcticUnderAR, HISTORICAL_NAME_RE, isJunkName, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
 
 function readAdmin1Names(){
   const map = new Map();
@@ -65,6 +68,7 @@ function line(c, pop, cp, region, name){
   return `${pop};${lon.toFixed(4)},${lat.toFixed(4)};${cp};${region || ''};${name}`;
 }
 function writeAll(cc, lines, aliases){
+  lines = dropNearDuplicates(lines);
   fs.writeFileSync(path.join(DATA, 'communes-' + cc.toLowerCase() + '.txt'), lines.join('\n') + '\n', 'utf8');
   fs.writeFileSync(path.join(DATA, 'aliases-' + cc.toLowerCase() + '.txt'), aliases.join('\n') + (aliases.length ? '\n' : ''), 'utf8');
   console.log(cc + ' : ' + lines.length + ' lieux, ' + aliases.length + ' alias');
@@ -126,8 +130,8 @@ const km = (a, b) => {
     if(c[7] === 'STNB') return !HISTORIC.test(c[1]);
     if(c[7] === 'STNM') return STNM_KEEP.has(c[0]);
     return false;
-  }).concat(arDump).map(c => ({ c, id: c[0], name: c[1], lat: parseFloat(c[4]), lon: parseFloat(c[5]), pop: parseInt(c[14], 10) || 0,
-    ppl: c[7] !== 'STNB' && c[7] !== 'STNM', ar: arIds.has(c[0]) ? 1 : 0, w: words(c[1]) }));
+  }).concat(arDump).map(c => ({ c, id: c[0], name: preparePlaceName(arIds.has(c[0]) ? 'AR' : 'AQ', c[0], c[1]), lat: parseFloat(c[4]), lon: parseFloat(c[5]), pop: parseInt(c[14], 10) || 0,
+    ppl: c[7] !== 'STNB' && c[7] !== 'STNM', ar: arIds.has(c[0]) ? 1 : 0, w: words(c[1]) })).filter(p => !isJunkName(p.name));
   cands.sort((a, b) => (a.ar - b.ar) || (b.ppl - a.ppl) || (b.pop - a.pop) || (a.id.localeCompare(b.id)));
   const kept = [];
   // Entrées AR que la règle générale range mal (vérifiées une par une) :
@@ -169,7 +173,8 @@ const km = (a, b) => {
   const dumpById = new Map(rows('BV').map(c => [c[0], c]));
   const c = dumpById.get('3371122');
   if(!c) throw new Error('Bouvetøya absente du dump');
-  writeAll('BV', [line(c, 0, 'BV', '', c[1])], buildAliases('BV', new Map([['3371122', c[1]]]), dumpById));
+  const name = preparePlaceName('BV', c[0], c[1]);
+  writeAll('BV', [line(c, 0, 'BV', '', name)], buildAliases('BV', new Map([['3371122', name]]), dumpById));
 }
 
 // ── TAAF ──────────────────────────────────────────────────────────────────────────────────────────
@@ -193,8 +198,9 @@ const km = (a, b) => {
     const c = dumpById.get(id);
     if(!c) throw new Error('entrée GeoNames absente : ' + id);
     extra.forEach(e => { if(!dumpById.has(e)) throw new Error('entrée GeoNames absente : ' + e); });
-    lines.push(line(c, withPop ? (parseInt(c[14], 10) || 0) : 0, 'TF-' + adm, admin1Names.get('TF.' + adm), c[1]));
-    [id, ...extra].forEach(e => targetById.set(e, c[1]));
+    const name = preparePlaceName('TF', c[0], c[1]);
+    lines.push(line(c, withPop ? (parseInt(c[14], 10) || 0) : 0, 'TF-' + adm, admin1Names.get('TF.' + adm), name));
+    [id, ...extra].forEach(e => targetById.set(e, name));
   }
   writeAll('TF', lines, buildAliases('TF', targetById, dumpById));
 }

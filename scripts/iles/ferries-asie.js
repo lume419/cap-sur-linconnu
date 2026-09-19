@@ -10,7 +10,7 @@ module.exports = {
     {
       "a": "honshu",
       "b": "sado",
-      "routeKey": "niigataRyotsu",
+      "routeKey": "niigataRyotsu", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot", "durationEstimated": true,
       "name": "Niigata ↔ Ryōtsu",
       "operator": "Sado Kisen",
       "durationH": 2.5,
@@ -35,7 +35,7 @@ module.exports = {
     {
       "a": "honshu",
       "b": "dogo",
-      "routeKey": "shichiruiSaigo",
+      "routeKey": "shichiruiSaigo", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot", "durationEstimated": true,
       "name": "Shichirui ↔ Saigō (Dōgo)",
       "operator": "Oki Kisen",
       "durationH": 2.5,
@@ -60,7 +60,7 @@ module.exports = {
     {
       "a": "honshu",
       "b": "tsushima",
-      "routeKey": "hakataIzuhara",
+      "routeKey": "hakataIzuhara", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot", "durationEstimated": true,
       "name": "Hakata ↔ Izuhara",
       "operator": "Kyushu Yusen",
       "durationH": 4.75,
@@ -85,7 +85,7 @@ module.exports = {
     {
       "a": "honshu",
       "b": "iki",
-      "routeKey": "karatsuIndoji",
+      "routeKey": "karatsuIndoji", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot", "durationEstimated": true,
       "name": "Karatsu ↔ Indōji (Iki)",
       "operator": "Kyushu Yusen",
       "durationH": 1.75,
@@ -110,7 +110,7 @@ module.exports = {
     {
       "a": "iki",
       "b": "tsushima",
-      "routeKey": "gonouraIzuhara",
+      "routeKey": "gonouraIzuhara", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot", "durationEstimated": true,
       "name": "Gōnoura ↔ Izuhara",
       "operator": "Kyushu Yusen",
       "durationH": 2.25,
@@ -135,7 +135,7 @@ module.exports = {
     {
       "a": "honshu",
       "b": "fukue",
-      "routeKey": "nagasakiFukue",
+      "routeKey": "nagasakiFukue", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot",
       "name": "Nagasaki ↔ Fukue",
       "operator": "Kyushu Shosen",
       "durationH": 3.2,
@@ -160,7 +160,7 @@ module.exports = {
     {
       "a": "honshu",
       "b": "nakadori",
-      "routeKey": "saseboArikawa",
+      "routeKey": "saseboArikawa", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot",
       "name": "Sasebo ↔ Arikawa (Nakadōri)",
       "operator": "Kyushu Shosen",
       "durationH": 2.6,
@@ -185,7 +185,7 @@ module.exports = {
     {
       "a": "honshu",
       "b": "yakushima",
-      "routeKey": "kagoshimaMiyanoura",
+      "routeKey": "kagoshimaMiyanoura", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot",
       "name": "Kagoshima ↔ Miyanoura (Yakushima)",
       "operator": "Orita Kisen (Ferry Yakushima 2)",
       "durationH": 4,
@@ -210,7 +210,7 @@ module.exports = {
     {
       "a": "honshu",
       "b": "tanegashima",
-      "routeKey": "kagoshimaNishinoomote",
+      "routeKey": "kagoshimaNishinoomote", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot",
       "name": "Kagoshima ↔ Nishinoomote (Tanegashima)",
       "operator": "Cosmo Line (Ferry Princess Wakasa)",
       "durationH": 3.5,
@@ -235,7 +235,7 @@ module.exports = {
     {
       "a": "honshu",
       "b": "shodoshima",
-      "routeKey": "takamatsuTonosho",
+      "routeKey": "takamatsuTonosho", "priceCovers": "vehicle", "coversSource": "véhicule seul : grille « un passager inclus » (adulte 700 JPY déduit) ; passagers au tarif foot",
       "name": "Takamatsu ↔ Tonoshō (Shōdoshima)",
       "operator": "Shikoku Ferry / Shōdoshima Ferry",
       "durationH": 1,
@@ -260,7 +260,7 @@ module.exports = {
     {
       "a": "hokkaido",
       "b": "rishiri",
-      "routeKey": "wakkanaiOshidomari",
+      "routeKey": "wakkanaiOshidomari", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot", "durationEstimated": true,
       "name": "Wakkanai ↔ Oshidomari (Rishiri)",
       "operator": "Heart Land Ferry",
       "durationH": 1.67,
@@ -285,7 +285,7 @@ module.exports = {
     {
       "a": "hokkaido",
       "b": "rebun",
-      "routeKey": "wakkanaiKafuka",
+      "routeKey": "wakkanaiKafuka", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot", "durationEstimated": true,
       "name": "Wakkanai ↔ Kafuka (Rebun)",
       "operator": "Heart Land Ferry",
       "durationH": 1.92,
@@ -310,7 +310,7 @@ module.exports = {
     {
       "a": "rishiri",
       "b": "rebun",
-      "routeKey": "oshidomariKafuka",
+      "routeKey": "oshidomariKafuka", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot", "durationEstimated": true,
       "name": "Oshidomari ↔ Kafuka",
       "operator": "Heart Land Ferry",
       "durationH": 0.75,
@@ -335,7 +335,7 @@ module.exports = {
     {
       "a": "hokkaido",
       "b": "okushiri",
-      "routeKey": "esashiOkushiri",
+      "routeKey": "esashiOkushiri", "priceCovers": "vehicle", "coversSource": "véhicule seul : la grille de l'exploitant inclut le billet 2e classe du conducteur, déduit ici (voir note) ; moto tarifée comme « bagage spécial », pilote en sus ; passagers au tarif foot", "durationEstimated": true,
       "name": "Esashi ↔ Okushiri",
       "operator": "Heart Land Ferry",
       "durationH": 2.17,
@@ -360,7 +360,7 @@ module.exports = {
     {
       "a": "okinawa",
       "b": "kumejima",
-      "routeKey": "nahaKanegusuku",
+      "routeKey": "nahaKanegusuku", "priceCovers": "vehicle", "coversSource": "véhicule seul : grille Kume Shōsen, billet du conducteur offert avec le véhicule (déduit) ; moto « bagage », pilote en sus", "durationEstimated": true,
       "name": "Naha (Tomari) ↔ Kanegusuku (Kumejima)",
       "operator": "Kume Shosen",
       "durationH": 3.5,
@@ -385,7 +385,7 @@ module.exports = {
     {
       "a": "continental",
       "b": "jeju",
-      "routeKey": "wandoJeju",
+      "routeKey": "wandoJeju", "durationEstimated": true,
       "name": "Wando ↔ Jeju",
       "operator": "Hanil Express (Silver Cloud, Gold Stella)",
       "durationH": 2.67,
@@ -404,7 +404,7 @@ module.exports = {
     {
       "a": "continental",
       "b": "ulleungdo",
-      "routeKey": "pohangSadong",
+      "routeKey": "pohangSadong", "priceCovers": "vehicle", "coversSource": "véhicule seul : grille Ulleung Cruise, véhicule facturé en fret, passagers en sus", "durationEstimated": true,
       "name": "Pohang (Yeongilman) ↔ Sadong (Ulleungdo)",
       "operator": "Ulleung Cruise (New Sea Pearl)",
       "durationH": 6.5,
@@ -429,7 +429,7 @@ module.exports = {
     {
       "a": "continental",
       "b": "hainan",
-      "routeKey": "xuwenHaikou",
+      "routeKey": "xuwenHaikou", "durationEstimated": true,
       "name": "Xuwen ↔ Haikou (Xinhai)",
       "operator": "Qiongzhou Strait Ferry (琼州海峡轮渡)",
       "durationH": 1.5,
@@ -486,7 +486,7 @@ module.exports = {
     {
       "a": "panay",
       "b": "negros",
-      "routeKey": "dumangasBanago",
+      "routeKey": "dumangasBanago", "durationEstimated": true,
       "name": "Dumangas ↔ Banago (Bacolod)",
       "operator": "FastCat, Montenegro Lines, Starlite, Seen Sam",
       "durationH": 1.5,
@@ -524,7 +524,7 @@ module.exports = {
     {
       "a": "negros",
       "b": "siquijor",
-      "routeKey": "dumagueteSiquijor",
+      "routeKey": "dumagueteSiquijor", "durationEstimated": true,
       "name": "Dumaguete ↔ Siquijor",
       "operator": "Montenegro Lines, Aleson Shipping, Lite Shipping",
       "durationH": 1.5,
@@ -562,7 +562,7 @@ module.exports = {
     {
       "a": "cebu",
       "b": "leyteSamar",
-      "routeKey": "polambatoPalompon",
+      "routeKey": "polambatoPalompon", "durationEstimated": true,
       "name": "Polambato (Bogo) ↔ Palompon",
       "operator": "Medallion Transport",
       "durationH": 2.5,
@@ -581,7 +581,7 @@ module.exports = {
     {
       "a": "bohol",
       "b": "leyteSamar",
-      "routeKey": "ubayBato",
+      "routeKey": "ubayBato", "durationEstimated": true,
       "name": "Ubay ↔ Bato",
       "operator": "Medallion Transport",
       "durationH": 2.5,
@@ -619,7 +619,7 @@ module.exports = {
     {
       "a": "luzon",
       "b": "marinduque",
-      "routeKey": "lucenaBalanacan",
+      "routeKey": "lucenaBalanacan", "durationEstimated": true,
       "name": "Lucena ↔ Balanacan",
       "operator": "Montenegro Lines, Starhorse Shipping",
       "durationH": 2.5,
@@ -657,7 +657,7 @@ module.exports = {
     {
       "a": "luzon",
       "b": "masbate",
-      "routeKey": "pilarMasbate",
+      "routeKey": "pilarMasbate", "durationEstimated": true,
       "name": "Pilar ↔ Masbate City",
       "operator": "Montenegro Lines",
       "durationH": 3,
@@ -676,7 +676,7 @@ module.exports = {
     {
       "a": "cebu",
       "b": "camotes",
-      "routeKey": "danaoConsuelo",
+      "routeKey": "danaoConsuelo", "durationEstimated": true,
       "name": "Danao ↔ Consuelo (Camotes)",
       "operator": "Jomalia Shipping",
       "durationH": 2,
@@ -695,7 +695,7 @@ module.exports = {
     {
       "a": "cebu",
       "b": "bantayan",
-      "routeKey": "hagnayaSantaFe",
+      "routeKey": "hagnayaSantaFe", "durationEstimated": true,
       "name": "Hagnaya ↔ Santa Fe (Bantayan)",
       "operator": "Island Shipping, Asian Marine Transport (Super Shuttle Ferry)",
       "durationH": 1,
@@ -733,7 +733,7 @@ module.exports = {
     {
       "a": "mindanao",
       "b": "dinagat",
-      "routeKey": "surigaoSanJose",
+      "routeKey": "surigaoSanJose", "durationEstimated": true,
       "name": "Surigao ↔ San Jose (Dinagat)",
       "operator": "Montenegro Lines",
       "durationH": 1.5,
@@ -790,7 +790,7 @@ module.exports = {
     {
       "a": "mindanao",
       "b": "jolo",
-      "routeKey": "zamboangaJolo",
+      "routeKey": "zamboangaJolo", "durationEstimated": true,
       "name": "Zamboanga ↔ Jolo",
       "operator": "Montenegro Lines (Ma. Rebecca), Aleson Shipping",
       "durationH": 4,
@@ -809,7 +809,7 @@ module.exports = {
     {
       "a": "luzon",
       "b": "tablas",
-      "routeKey": "batangasOdiongan",
+      "routeKey": "batangasOdiongan", "durationEstimated": true,
       "name": "Batangas ↔ Odiongan (Tablas)",
       "operator": "Montenegro Lines",
       "durationH": 8,
@@ -885,7 +885,7 @@ module.exports = {
     {
       "a": "luzon",
       "b": "palawan",
-      "routeKey": "manilaPuertoPrincesa",
+      "routeKey": "manilaPuertoPrincesa", "durationEstimated": true,
       "name": "Manila ↔ Puerto Princesa",
       "operator": "2GO",
       "durationH": 30,
@@ -904,7 +904,7 @@ module.exports = {
     {
       "a": "panay",
       "b": "palawan",
-      "routeKey": "iloiloPuertoPrincesa",
+      "routeKey": "iloiloPuertoPrincesa", "durationEstimated": true,
       "name": "Iloilo ↔ Puerto Princesa",
       "operator": "Montenegro Lines (MV Maria Erlinda)",
       "durationH": 26,
@@ -923,7 +923,7 @@ module.exports = {
     {
       "a": "sumatra",
       "b": "weh",
-      "routeKey": "uleeLheueBalohan",
+      "routeKey": "uleeLheueBalohan", "durationEstimated": true,
       "name": "Ulee Lheue ↔ Balohan (Sabang)",
       "operator": "ASDP Indonesia Ferry (KMP Aceh Hebat 2, KMP BRR)",
       "durationH": 2,
@@ -942,7 +942,7 @@ module.exports = {
     {
       "a": "sumatra",
       "b": "simeulue",
-      "routeKey": "calangSinabang",
+      "routeKey": "calangSinabang", "durationEstimated": true,
       "name": "Calang ↔ Sinabang",
       "operator": "ASDP Indonesia Ferry (KMP Aceh Hebat 1)",
       "durationH": 12,
@@ -961,7 +961,7 @@ module.exports = {
     {
       "a": "sumatra",
       "b": "nias",
-      "routeKey": "sibolgaGunungsitoli",
+      "routeKey": "sibolgaGunungsitoli", "durationEstimated": true,
       "name": "Sibolga ↔ Gunungsitoli",
       "operator": "ASDP Indonesia Ferry (KMP Jatra I, Jatra II)",
       "durationH": 10,
@@ -980,7 +980,7 @@ module.exports = {
     {
       "a": "sumatra",
       "b": "siberut",
-      "routeKey": "bungusSiberut",
+      "routeKey": "bungusSiberut", "durationEstimated": true,
       "name": "Bungus (Padang) ↔ Siberut (Maileppet)",
       "operator": "ASDP Indonesia Ferry (KMP Ambu-Ambu)",
       "durationH": 12,
@@ -999,7 +999,7 @@ module.exports = {
     {
       "a": "sumatra",
       "b": "sipora",
-      "routeKey": "bungusTuaPejat",
+      "routeKey": "bungusTuaPejat", "durationEstimated": true,
       "name": "Bungus (Padang) ↔ Tua Pejat",
       "operator": "ASDP Indonesia Ferry (KMP Gambolo, KMP Ambu-Ambu)",
       "durationH": 12,
@@ -1018,7 +1018,7 @@ module.exports = {
     {
       "a": "sumatra",
       "b": "pagai",
-      "routeKey": "bungusSikakap",
+      "routeKey": "bungusSikakap", "durationEstimated": true,
       "name": "Bungus (Padang) ↔ Sikakap",
       "operator": "ASDP Indonesia Ferry (KMP Gambolo, KMP Ambu-Ambu)",
       "durationH": 14,
@@ -1037,7 +1037,7 @@ module.exports = {
     {
       "a": "sumatra",
       "b": "bengkalis",
-      "routeKey": "sungaiSelariAirPutih",
+      "routeKey": "sungaiSelariAirPutih", "durationEstimated": true,
       "name": "Sungai Selari (Pakning) ↔ Air Putih (Bengkalis)",
       "operator": "UPT Dishub Riau / Pemkab Bengkalis (KMP Swarna Putri…)",
       "durationH": 0.75,
@@ -1056,7 +1056,7 @@ module.exports = {
     {
       "a": "sumatra",
       "b": "rupat",
-      "routeKey": "dumaiTanjungKapal",
+      "routeKey": "dumaiTanjungKapal", "durationEstimated": true,
       "name": "Dumai ↔ Tanjung Kapal (Rupat)",
       "operator": "UPT PP Wilayah 1 Dumai, Dishub Riau (KMP Swarna Bengawan, Muria…)",
       "durationH": 1,
@@ -1075,7 +1075,7 @@ module.exports = {
     {
       "a": "batam",
       "b": "bintan",
-      "routeKey": "telagaPunggurTanjungUban",
+      "routeKey": "telagaPunggurTanjungUban", "priceCovers": "vehicleAndOccupants", "coversSource": "billet véhicule indonésien : « pembelian tiket kendaraan sudah termasuk kendaraan berserta penumpang / muatan di atas kendaraan » (Satpel Lembar, BPTD NTB – Kemenhub, https://www.satpellembar.info/tarif/)", "durationEstimated": true,
       "name": "Telaga Punggur ↔ Tanjung Uban",
       "operator": "ASDP Indonesia Ferry",
       "durationH": 1,
@@ -1093,14 +1093,14 @@ module.exports = {
         "moto": 51000,
         "foot": 27000
       },
-      "source": "https://metropolis.batampos.co.id/asdp-diskon-tarif-penyeberangan-batam-bintan-hingga-30-persen-periode-20-juni-5-juli-2026/",
-      "date": "2026-06",
-      "note": "Tarifs normaux annoncés par ASDP (communiqué relayé par Batam Pos, juin 2026) : adulte 27 000, golongan II 51 000, IVA 309 000, VA 565 000 IDR ; remise temporaire du 20/06 au 5/07/2026 ignorée. Billet véhicule indonésien = occupants inclus. Durée ~1 h (ordre de grandeur) ; distance orthodromique."
+      "source": "https://asdp.id/siaran-pers/dorong-pariwisata-kepulauan-bintan-asdp-perkuat-konektivitas-telaga-punggur-tanjung-uban (communiqué de l'exploitant ASDP, 9/10/2025)",
+      "date": "2025-10-09",
+      "note": "11e audit (19/09/2026) : grille publiée par l'exploitant ASDP (communiqué du 9/10/2025 : adulte 27 000, golongan II 51 000 — « Motor 50cc », coquille pour < 500 cm³ —, IVA 309 000, VA 565 000 IDR), qui remplace la source de presse (Batam Pos) ; montants inchangés. Tarifs normaux annoncés par ASDP (communiqué relayé par Batam Pos, juin 2026) : adulte 27 000, golongan II 51 000, IVA 309 000, VA 565 000 IDR ; remise temporaire du 20/06 au 5/07/2026 ignorée. Billet véhicule indonésien = occupants inclus. Durée ~1 h (ordre de grandeur) ; distance orthodromique."
     },
     {
       "a": "bangka",
       "b": "belitung",
-      "routeKey": "sadaiTanjungRu",
+      "routeKey": "sadaiTanjungRu", "durationEstimated": true,
       "name": "Sadai ↔ Tanjung Ru",
       "operator": "ASDP / opérateurs privés (KMP Menumbing Raya, KMP Kuala Bate II)",
       "durationH": 5,
@@ -1119,7 +1119,7 @@ module.exports = {
     {
       "a": "bali",
       "b": "nusaPenida",
-      "routeKey": "padangbaiSampalan",
+      "routeKey": "padangbaiSampalan", "durationEstimated": true,
       "name": "Padangbai ↔ Sampalan (Nusa Penida)",
       "operator": "ASDP Indonesia Ferry (KMP Nusa Jaya Abadi)",
       "durationH": 1.5,
@@ -1138,7 +1138,7 @@ module.exports = {
     {
       "a": "java",
       "b": "borneo",
-      "routeKey": "surabayaBanjarmasin",
+      "routeKey": "surabayaBanjarmasin", "durationEstimated": true,
       "name": "Surabaya ↔ Banjarmasin",
       "operator": "Dharma Lautan Utama (KM Dharma Kartika 2, Dharma Rucitra 1)",
       "durationH": 20,
@@ -1157,7 +1157,7 @@ module.exports = {
     {
       "a": "borneo",
       "b": "pulauLaut",
-      "routeKey": "batulicinTanjungSerdang",
+      "routeKey": "batulicinTanjungSerdang", "durationEstimated": true,
       "name": "Batulicin ↔ Tanjung Serdang (Pulau Laut)",
       "operator": "ASDP Indonesia Ferry, filiales et Dharma Lautan Utama",
       "durationH": 0.75,
@@ -1176,7 +1176,7 @@ module.exports = {
     {
       "a": "borneo",
       "b": "sulawesi",
-      "routeKey": "batulicinGarongkong",
+      "routeKey": "batulicinGarongkong", "durationEstimated": true,
       "name": "Batulicin ↔ Garongkong (Barru)",
       "operator": "ASDP Indonesia Ferry (KMP Awu-Awu)",
       "durationH": 24,
@@ -1195,32 +1195,20 @@ module.exports = {
     {
       "a": "borneo",
       "b": "tarakan",
-      "routeKey": "sebawangTarakan",
+      "routeKey": "sebawangTarakan", "durationEstimated": true,
       "name": "Sebawang ↔ Tarakan",
       "operator": "ASDP Indonesia Ferry (KMP Manta)",
       "durationH": 4.5,
       "distanceKm": 89,
-      "priceByClass": {
-        "1": 63.02,
-        "2": 111.5,
-        "5": 9.21,
-        "foot": 3.93
-      },
-      "currency": "IDR",
-      "original": {
-        "car": 1300000,
-        "van": 2300000,
-        "moto": 190000,
-        "foot": 81000
-      },
+      "priceStatus": "variable", "priceByClass": { "1": null, "2": null, "5": null, "foot": null },
       "source": "https://www.detik.com/kalimantan/bisnis/d-8426612/rincian-tarif-penyeberangan-kapal-feri-tarakan-sebawang-mulai-6-april",
       "date": "2026-04-06",
-      "note": "Arrêté du gouverneur du Kalimantan du Nord n° 100.3.3.1/78/2026, en vigueur le 6/04/2026 (relayé par detik) : adulte économique 81 000, golongan II 190 000 (moto, conducteur et passager inclus), IVa 1 300 000, Va 2 300 000 IDR. Billet véhicule = occupants inclus. Distance 48 milles (publiée) ; durée ~4 h 30 (ordre de grandeur)."
+      "note": "Prix non retenus (11e audit, 19/09/2026) : l'arrêté du gouverneur du Kalimantan du Nord n° 100.3.3.1/78/2026 (confirmé par le communiqué ASDP du 9/04/2026, sans montants) est introuvable au JDIH provincial ; montants connus par la seule presse (detik, Antara). Relevé : Arrêté du gouverneur du Kalimantan du Nord n° 100.3.3.1/78/2026, en vigueur le 6/04/2026 (relayé par detik) : adulte économique 81 000, golongan II 190 000 (moto, conducteur et passager inclus), IVa 1 300 000, Va 2 300 000 IDR. Billet véhicule = occupants inclus. Distance 48 milles (publiée) ; durée ~4 h 30 (ordre de grandeur)."
     },
     {
       "a": "tarakan",
       "b": "nunukan",
-      "routeKey": "tarakanNunukan",
+      "routeKey": "tarakanNunukan", "durationEstimated": true,
       "name": "Tarakan ↔ Nunukan",
       "operator": "ASDP Indonesia Ferry (KMP Manta II)",
       "durationH": 6,
@@ -1239,7 +1227,7 @@ module.exports = {
     {
       "a": "sulawesi",
       "b": "selayar",
-      "routeKey": "biraPamatata",
+      "routeKey": "biraPamatata", "durationEstimated": true,
       "name": "Bira ↔ Pamatata (Selayar)",
       "operator": "ASDP Indonesia Ferry (KMP Takabonerate et autres)",
       "durationH": 2,
@@ -1258,7 +1246,7 @@ module.exports = {
     {
       "a": "sulawesi",
       "b": "muna",
-      "routeKey": "torobuluTampo",
+      "routeKey": "torobuluTampo", "durationEstimated": true,
       "name": "Torobulu ↔ Tampo (Muna)",
       "operator": "KMP Cendrawasih, KMP Nuku, KMP Tunu Pratama Jaya (UPTD Pelabuhan Torobulu)",
       "durationH": 3,
@@ -1277,7 +1265,7 @@ module.exports = {
     {
       "a": "ambon",
       "b": "seram",
-      "routeKey": "hunimuaWaipirit",
+      "routeKey": "hunimuaWaipirit", "priceCovers": "vehicleAndOccupants", "coversSource": "billet véhicule indonésien : « pembelian tiket kendaraan sudah termasuk kendaraan berserta penumpang / muatan di atas kendaraan » (Satpel Lembar, BPTD NTB – Kemenhub, https://www.satpellembar.info/tarif/)", "durationEstimated": true,
       "name": "Hunimua ↔ Waipirit",
       "operator": "ASDP Indonesia Ferry (KMP Erana, Inelika, Rokatenda, Terubuk)",
       "durationH": 1.5,
@@ -1302,7 +1290,7 @@ module.exports = {
     {
       "a": "ambon",
       "b": "buru",
-      "routeKey": "galalaNamlea",
+      "routeKey": "galalaNamlea", "priceCovers": "vehicleAndOccupants", "coversSource": "billet véhicule indonésien : « pembelian tiket kendaraan sudah termasuk kendaraan berserta penumpang / muatan di atas kendaraan » (Satpel Lembar, BPTD NTB – Kemenhub, https://www.satpellembar.info/tarif/)", "durationEstimated": true,
       "name": "Galala ↔ Namlea",
       "operator": "ASDP Indonesia Ferry",
       "durationH": 8,
@@ -1327,7 +1315,7 @@ module.exports = {
     {
       "a": "halmahera",
       "b": "morotai",
-      "routeKey": "tobeloDaruba",
+      "routeKey": "tobeloDaruba", "durationEstimated": true,
       "name": "Tobelo ↔ Daruba (Morotai)",
       "operator": "ASDP Indonesia Ferry (KMP Maming)",
       "durationH": 3.5,
@@ -1346,7 +1334,7 @@ module.exports = {
     {
       "a": "timor",
       "b": "flores",
-      "routeKey": "kupangLarantuka",
+      "routeKey": "kupangLarantuka", "durationEstimated": true,
       "name": "Kupang (Bolok) ↔ Larantuka",
       "operator": "ASDP Indonesia Ferry",
       "durationH": 14,
@@ -1365,7 +1353,7 @@ module.exports = {
     {
       "a": "timor",
       "b": "alor",
-      "routeKey": "kupangKalabahi",
+      "routeKey": "kupangKalabahi", "durationEstimated": true,
       "name": "Kupang (Bolok) ↔ Kalabahi",
       "operator": "ASDP Indonesia Ferry",
       "durationH": 16,
@@ -1384,7 +1372,7 @@ module.exports = {
     {
       "a": "timor",
       "b": "rote",
-      "routeKey": "bolokPantaiBaru",
+      "routeKey": "bolokPantaiBaru", "durationEstimated": true,
       "name": "Bolok (Kupang) ↔ Pantai Baru (Rote)",
       "operator": "ASDP Indonesia Ferry (KMP Cakalang II)",
       "durationH": 4,
@@ -1403,7 +1391,7 @@ module.exports = {
     {
       "a": "timor",
       "b": "sabu",
-      "routeKey": "kupangSeba",
+      "routeKey": "kupangSeba", "durationEstimated": true,
       "name": "Kupang (Bolok) ↔ Seba (Sabu)",
       "operator": "ASDP Indonesia Ferry (KMP Uma Kalada)",
       "durationH": 10,
@@ -1422,7 +1410,7 @@ module.exports = {
     {
       "a": "sumbawa",
       "b": "sumba",
-      "routeKey": "sapeWaikelo",
+      "routeKey": "sapeWaikelo", "durationEstimated": true,
       "name": "Sape ↔ Waikelo",
       "operator": "ASDP Indonesia Ferry (KMP Cakalang)",
       "durationH": 8,
@@ -1441,7 +1429,7 @@ module.exports = {
     {
       "a": "borneo",
       "b": "labuan",
-      "routeKey": "menumbokLabuan",
+      "routeKey": "menumbokLabuan", "durationEstimated": true,
       "name": "Menumbok ↔ Labuan",
       "operator": "Labuan Point Enterprise (Labuan Ferry), Binabalu (Galaxy Ferry)",
       "durationH": 1.5,
@@ -1460,7 +1448,7 @@ module.exports = {
     {
       "a": "continental",
       "b": "kohChang",
-      "routeKey": "aoThammachatSapparot",
+      "routeKey": "aoThammachatSapparot", "durationEstimated": true,
       "name": "Ao Thammachat ↔ Ao Sapparot (Ko Chang)",
       "operator": "Koh Chang Ferry",
       "durationH": 0.5,
@@ -1498,7 +1486,7 @@ module.exports = {
     {
       "a": "continental",
       "b": "phuQuoc",
-      "routeKey": "haTienBaiVong",
+      "routeKey": "haTienBaiVong", "priceCovers": null, "coversSource": "grille Thạnh Thới : inclusion du conducteur non précisée",
       "name": "Hà Tiên ↔ Bãi Vòng (Phú Quốc)",
       "operator": "Thạnh Thới",
       "durationH": 2.7,
@@ -1523,7 +1511,7 @@ module.exports = {
     {
       "a": "continental",
       "b": "catBa",
-      "routeKey": "dongBaiCaiVieng",
+      "routeKey": "dongBaiCaiVieng", "durationEstimated": true,
       "name": "Đồng Bài (Cát Hải) ↔ Cái Viềng (Cát Bà)",
       "operator": "Bến phà Đồng Bài",
       "durationH": 0.33,
@@ -1542,7 +1530,7 @@ module.exports = {
     {
       "a": "continental",
       "b": "bhola",
-      "routeKey": "laharhatVeduria",
+      "routeKey": "laharhatVeduria", "durationEstimated": true,
       "name": "Laharhat ↔ Veduria (Bhola)",
       "operator": "BIWTC",
       "durationH": 2,

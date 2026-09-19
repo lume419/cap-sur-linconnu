@@ -28,7 +28,7 @@ const fs = require('fs');
 const path = require('path');
 const { COUNTRIES } = require('../public/js/trip-data.js');
 const { normalizeCityName } = require('../lib/trip-engine.js').internals;
-const { excludePlace } = require('./communes-corrections.js');
+const { excludePlace, preparePlaceName, cleanPlaceName } = require('./communes-corrections.js');
 
 const ROOT = path.join(__dirname, '..');
 const DATA = path.join(ROOT, 'public', 'data');
@@ -94,16 +94,29 @@ const ALIAS_MOJIBAKE_RE = /[\u0080-\u009F]/;
 // (« บ้าน สปก. », abréviation thaïe).
 // GARDÉS : « 无名坑 », « 無名 » (Nameless, Tennessee ; No Name, Colorado), « Безымянное » — vrais noms de lieux.
 const ALIAS_JUNK_RE = /[?\uFF1F]|^[-\u2010-\u2014]|[-\u2010-\u2014]$|\b(no such|delete\?|not a PPL|unknown|not found)\b/i;
-function cleanAliasText(text, canonical){
+// AUDIT N° 11 — deux nettoyages de plus :
+//   - espace sans chasse U+200B EN TÊTE OU EN FIN d'alias (« <U+200B>ဇောင်းလျားကုန်း » en birman, « ताशक़ुरग़ान<U+200B> » en hindi) :
+//     jamais utile à cette place, il rend l'alias introuvable -> retiré. Les U+200B INTERNES (séparateurs de mots en
+//     birman, thaï, lao, khmer, tibétain : « ບ້ານ<U+200B>ກວານ ») restent ;
+//   - lettre d'un autre alphabet glissée dans un mot (« Грeнобль » : e latin dans un nom russe ; « Zоrоkіv » : о et і
+//     cyrilliques dans un nom latin ; « Мендосæ » : æ latin pour le ӕ ossète) : corrigée par fixMixedScript
+//     (scripts/communes-corrections.js) quand chaque lettre intruse a un sosie exact dans l'écriture majoritaire du mot
+//     (sosies propres à la langue de l'alias compris : һ, palotchka) ; sinon (« Шеллenbergг », « Калан-Деh » en russe)
+//     la graphie voulue est incertaine -> alias écarté.
+const { fixMixedScript } = require('./communes-corrections.js');
+function cleanAliasText(text, canonical, lang){
   text = String(text || '');
   if(ALIAS_MOJIBAKE_RE.test(text)) return '';
   let t = text.replace(ALIAS_CONTROL_RE, '')
-    .replace(/^[\s:,\u060C\u061B]+/, '')
-    .replace(/[\s,\u060C\u061B]+$/, '')
+    .replace(/^[\s\u200B:,\u060C\u061B]+/, '')
+    .replace(/[\s\u200B,\u060C\u061B]+$/, '')
     .replace(/([\u0590-\u08FF])\.$/, '$1')
     .replace(/^([^\u201C\u201D\u201E"]*)[\u201D"]\.$/, '$1')
     .trim();
   if(ALIAS_JUNK_RE.test(t)) return '';
+  const mixed = fixMixedScript(t, lang);
+  if(!mixed.ok) return '';
+  t = mixed.text;
   const m = t.match(/([\p{Script=Latin}\p{Script=Cyrillic}\p{Script=Greek}]+)\.$/u);
   if(m && m[1].length >= 5 && !/[./]/.test(t.slice(0, -1))){
     const w = m[1].toLowerCase();
@@ -156,7 +169,8 @@ for(const cc of Object.keys(COUNTRIES)){
     const e = { id: c[0], norm: normalizeCityName(c[1]), ascii: normalizeCityName(c[2]), cls: c[6], lat, lon };
     const k = lat.toFixed(4) + ',' + lon.toFixed(4);
     const l = byPoint.get(k); if(l) l.push(e); else byPoint.set(k, [e]);
-    if(c[6] === 'P' && excludePlace(cc, c[0], c[1], lat, lon)) excludedNames.add(c[1]);
+    // Nom tel que le générateur le teste (preparePlaceName, audit n° 11) ; le nom brut ET le nom préparé sont retenus.
+    if(c[6] === 'P'){ const pn = preparePlaceName(cc, c[0], c[1]); if(excludePlace(cc, c[0], pn, lat, lon)){ excludedNames.add(c[1]); excludedNames.add(pn); } }
     if(c[6] === 'P'){
       [e.norm, e.ascii].forEach((n, i) => { if(i && n === e.norm) return; const m = pByName.get(n); if(m) m.push(e); else pByName.set(n, [e]); });
     }
@@ -190,18 +204,27 @@ for(const cc of Object.keys(COUNTRIES)){
   // (da;København;Copenhagen -> København), écartées sinon.
   const publishedNames = new Set(published.map(p => p.name));
   const normByName = new Map(published.map(p => [p.name, p.norm]));
+  // Noms publiés nettoyés par les générateurs depuis l'audit n° 11 (cleanPlaceName : « Puerta  de Córdoba » -> « Puerta de
+  // Córdoba », « Коltsovo » -> « Koltsovo », « Salgaun] » -> « Salgaun ») : les lignes existantes qui portent encore
+  // l'ancien nom sont rattachées au nouveau (même lieu), au lieu de devenir orphelines.
+  existing = existing.map(l => {
+    const p = l.split(';');
+    if(p.length !== 3 || publishedNames.has(p[2])) return l;
+    const c = cleanPlaceName(p[2]);
+    return (c !== p[2] && publishedNames.has(c)) ? p[0] + ';' + p[1] + ';' + c : l;
+  });
   // Nettoyage des lignes existantes (voir cleanAliasText). Une ligne nettoyée qui retombe sur une ligne déjà présente
   // (même langue, même nom normalisé, même lieu : « غجر‎ » à côté de « غجر ») est retirée ; les autres lignes ne sont
   // jamais touchées, ni réordonnées.
   const keyOf = (lang, text, name) => lang + '|' + normalizeCityName(text) + '|' + name;
   const untouchedKeys = new Set();
-  existing.forEach(l => { const p = l.split(';'); if(p.length === 3 && cleanAliasText(p[1], p[2]) === p[1]) untouchedKeys.add(keyOf(p[0], p[1], p[2])); });
+  existing.forEach(l => { const p = l.split(';'); if(p.length === 3 && cleanAliasText(p[1], p[2], p[0]) === p[1]) untouchedKeys.add(keyOf(p[0], p[1], p[2])); });
   const cleanedKeys = new Set();
   let cleanedAliases = 0, droppedDirty = 0, dedupDirty = 0;
   existing = existing.map(l => {
     const p = l.split(';');
     if(p.length !== 3) return l;
-    const t = cleanAliasText(p[1], p[2]);
+    const t = cleanAliasText(p[1], p[2], p[0]);
     if(t === p[1]) return l;
     const n = normalizeCityName(t);
     if(!n || n === (normByName.get(p[2]) || normalizeCityName(p[2]))){ droppedDirty++; return null; }
@@ -246,7 +269,7 @@ for(const cc of Object.keys(COUNTRIES)){
     const c = line.split('\t');
     const p = placeById.get(c[1]);
     if(!p) return;
-    const rawLang = c[2], text = cleanAliasText(c[3], p.name);
+    const rawLang = c[2], text = cleanAliasText(c[3], p.name, c[2]);
     // Noms historiques (isHistoric) et familiers (isColloquial : « Ville-Lumière » pour Paris) exclus.
     if(!text || c[7] === '1' || c[6] === '1') return;
     const lang = remap[rawLang] || LANG_REMAP[rawLang] || rawLang;

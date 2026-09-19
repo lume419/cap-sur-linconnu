@@ -3482,7 +3482,6 @@
 0;-8.6836,7.6656;LR-09;Nimba;Bentonwin
 0;-10.9425,6.9839;LR-12;Grand Cape Mount County;Gbenii
 0;-7.7159,4.3878;LR-13;Maryland County;Big Town
-0;-11.0034,6.5871;LR-15;Bomi County;Duplicate
 0;-10.9667,6.5500;LR-15;Bomi County;Gbenang
 0;-9.4445,6.7061;LR-01;Bong County;Gbemgbe Farm
 0;-10.2333,6.9167;LR-01;Bong County;Gbeleta

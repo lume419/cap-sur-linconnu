@@ -105,9 +105,6 @@ ja;リベイラブラヴァ;Ribeira Brava
 pa;ਰਿਬੇਇਰਾ ਬਰਾਵਾ;Ribeira Brava
 ps;ریبیرا براوا;Ribeira Brava
 tg;Рибейра-Брава;Ribeira Brava
-ru;Тарrafal де Сан-Николау;Tarrafal de São Nicolau
-kk;Тарrafal де Сан-Николау;Tarrafal de São Nicolau
-ky;Тарrafal де Сан-Николау;Tarrafal de São Nicolau
 hi;तारराफल डी साओ निकोलाऊ;Tarrafal de São Nicolau
 bn;তারাফাল ডি সাও নিকোলাউ;Tarrafal de São Nicolau
 ur;تارافال ڈی ساؤ نکولاؤ;Tarrafal de São Nicolau
@@ -116,10 +113,6 @@ fa;تارافال دی ساو نیکولاو;Tarrafal de São Nicolau
 ja;タラファルデサンニコラウ;Tarrafal de São Nicolau
 pa;ਤਾਰਾਫਲ ਡੇ ਸਾਓ ਨਿਕੋਲਾਉ;Tarrafal de São Nicolau
 ps;تارافال دی ساو نکولاو;Tarrafal de São Nicolau
-tg;Тарrafal де Сан-Николау;Tarrafal de São Nicolau
-ru;Тарrafal;Tarrafal
-kk;Тарrafal;Tarrafal
-ky;Тарrafal;Tarrafal
 hi;तारराफल;Tarrafal
 bn;তারাফাল;Tarrafal
 ur;تارافال;Tarrafal
@@ -128,7 +121,6 @@ fa;تارافال;Tarrafal
 ja;タラファル;Tarrafal
 pa;ਤਾਰਾਫਲ;Tarrafal
 ps;تارافال;Tarrafal
-tg;Тарrafal;Tarrafal
 sv;Saint Philip;São Filipe
 zh;聖菲利普縣;São Filipe
 ru;Сан-Филипи;São Filipe

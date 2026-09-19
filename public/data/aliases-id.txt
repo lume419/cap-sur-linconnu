@@ -1354,7 +1354,7 @@ id;Cot Lale;Cot Lhelhe
 id;Rambong Reueuk;Rambong Reuyeuk
 id;Krurag Ceukeu;Krueng Ceuko
 id;Lhok;Kuta Baro
-id;Teungoh;Gampong  Teungoh
+id;Teungoh;Gampong Teungoh
 id;Macan;Macah
 id;Alue Kambok;Alue Kambuk
 id;Alue Ie Mamet;Alue Ie Mameh
@@ -3697,7 +3697,7 @@ sah;Дьакарта;Jakarta
 sl;Džakarta;Jakarta
 ka;ჯაკარტა;Jakarta
 mzn;جاکارتا;Jakarta
-os;Джакартæ;Jakarta
+os;Джакартӕ;Jakarta
 ba;Джакарта;Jakarta
 tpi;Sakata;Jakarta
 lt;Depokas;Depok

@@ -40,7 +40,6 @@ ps;تریزن;Triesen
 tg;Тризен;Triesen
 tt;Тризен;Triesen
 ja;シェレンベルク;Schellenberg
-ru;Шеллenbergг;Schellenberg
 ar;شيلينبرغ;Schellenberg
 kk;Шеллберг;Schellenberg
 ky;Шеллберг;Schellenberg

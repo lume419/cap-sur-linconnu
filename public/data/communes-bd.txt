@@ -33158,7 +33158,6 @@
 0;89.5847,23.2134;7510;Khulna Division;Phedi
 0;89.5735,23.2112;7513;Khulna Division;Sibānandapur
 0;89.5626,23.2113;7513;Khulna Division;Sibānandapur
-0;89.5606,23.2150;7513;Khulna Division;Sibānandapur
 0;89.5632,23.2198;7513;Khulna Division;Goālbāthān
 0;89.5686,23.2240;7513;Khulna Division;Hāndla
 0;89.5747,23.2186;7513;Khulna Division;Srirāmpur
@@ -36153,7 +36152,6 @@
 0;88.9853,24.2198;6420;Rajshahi Division;Longāpāra
 0;88.9967,24.2212;6420;Rajshahi Division;Bisanpur
 0;88.9917,24.2097;6420;Rajshahi Division;Bāodipur
-0;88.9958,24.2023;6420;Rajshahi Division;Baidaonath[ur
 0;88.9586,24.1840;6420;Rajshahi Division;Lālpur
 0;88.9765,24.1872;6420;Rajshahi Division;Buditirāmpur
 0;88.9549,24.1810;6420;Rajshahi Division;Mohaspur

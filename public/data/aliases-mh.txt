@@ -93,7 +93,6 @@ fa;لیکیپ;Likiep
 pa;ਲਿਕਿਏਪ;Likiep
 ps;لیکیپ;Likiep
 tg;Ликиеп;Likiep
-tt;Лikiep;Likiep
 ar;جابور;Jabor
 kk;Джабор;Jabor
 ky;Джабор;Jabor

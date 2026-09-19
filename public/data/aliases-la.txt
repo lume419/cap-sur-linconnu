@@ -451,7 +451,7 @@ lo;Ban Khomboutang;Ban Khamxan
 lo;Thin;Ban Aong
 lo;Ban Tinh;Ban Nahai
 lo;Ban Kwan;Ban Khoan
-lo;​ບ້ານ​ກວານ;Ban Khoan
+lo;ບ້ານ​ກວານ;Ban Khoan
 lo;ກວານ;Ban Khoan
 lo;ມ. ສີໂຄດຕະບອງ;Don Xing Xou
 lo;ເຊກອງ;Dark Man

@@ -616,7 +616,7 @@ uk;Бобо-Діуласо;Bobo-Dioulasso
 ru;Бобо-Диуласо;Bobo-Dioulasso
 zh;博博迪乌拉索;Bobo-Dioulasso
 fa;بوبو دیولاسو;Bobo-Dioulasso
-ky;Бобо-Диулаco шаары;Bobo-Dioulasso
+ky;Бобо-Диуласо шаары;Bobo-Dioulasso
 ur;بوبو-دیؤلاسو;Bobo-Dioulasso
 kk;Бобо-Диулассо;Bobo-Dioulasso
 hi;बोबो-डिउलासो;Bobo-Dioulasso

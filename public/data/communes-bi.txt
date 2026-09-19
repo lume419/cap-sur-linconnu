@@ -4014,7 +4014,6 @@
 0;29.4323,-3.2310;BI-09;Bubanza;Kayange
 0;29.4368,-3.2307;BI-09;Bubanza;Muzinda
 0;29.4533,-3.2304;BI-09;Bubanza;Karonge
-0;29.4433,-3.2311;BI-09;Bubanza;G@ufu
 0;29.3145,-3.2380;BI-09;Bubanza;Ninga
 0;29.4600,-3.2396;BI-09;Bubanza;Nyamivo
 0;29.4115,-3.2433;BI-09;Bubanza;Ruyange

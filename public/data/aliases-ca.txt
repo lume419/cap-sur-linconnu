@@ -3165,7 +3165,7 @@ sah;Оттава;Ottawa
 ka;ოტავა;Ottawa
 cv;Оттава;Ottawa
 pa;ਓਟਾਵਾ;Ottawa
-os;Оттавæ;Ottawa
+os;Оттавӕ;Ottawa
 ur;اوٹاوا;Ottawa
 az;Ottava;Ottawa
 bo;ཨོ་ཏ་ཝ།;Ottawa
@@ -3319,7 +3319,7 @@ sr;Редвотер;Redwater
 sr;Реџајна;Regina
 zh-TW;里賈納;Regina
 ta;ரெஜைனா;Regina
-os;Реджайнæ;Regina
+os;Реджайнӕ;Regina
 ka;რეჯაინა;Regina
 fa;رجاینا;Regina
 uk;Реджайна;Regina

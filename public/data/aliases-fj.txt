@@ -344,7 +344,7 @@ ta;சுவா;Suva
 ht;Souva;Suva
 bo;སུ་ཝ།;Suva
 hy;Սուվա;Suva
-os;Сувæ;Suva
+os;Сувӕ;Suva
 uk;Сува;Suva
 ur;سووا;Suva
 bg;Сува;Suva

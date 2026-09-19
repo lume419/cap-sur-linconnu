@@ -680,7 +680,7 @@ cv;Мерида;Mérida
 kk;Мерида;Mérida
 tt;Мерида;Mérida
 hy;Մերիդա;Mérida
-os;Меридæ;Mérida
+os;Меридӕ;Mérida
 sr;Мерида;Mérida
 uk;Меріда;Mérida
 yue;梅里達市;Mérida

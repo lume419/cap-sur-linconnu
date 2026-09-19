@@ -8994,8 +8994,8 @@ th;ยะรัง;Yarang
 ru;Яла;Yala
 th;ยะลา;Yala
 ar;ยะลา;Yala
-kk;Ялa;Yala
-ky;Ялa;Yala
+kk;Яла;Yala
+ky;Яла;Yala
 hi;यला;Yala
 bn;ইয়ালা;Yala
 ur;یالا;Yala
@@ -9003,7 +9003,7 @@ fa;یالا;Yala
 ja;ヤラー;Yala
 pa;ਯਾਲਾ;Yala
 ps;یالا;Yala
-tg;Ялa;Yala
+tg;Яла;Yala
 th;ยะหา;Yaha
 th;วิเศษชัยชาญ;Wiset Chaichan
 th;วิหารแดง;Wihan Daeng
@@ -44923,7 +44923,7 @@ am;ያሶቶን;Yasothon
 az;Yasotxon;Yasothon
 tt;Ясотхон;Yasothon
 am;ያላ;Yala
-tt;Ялa;Yala
+tt;Яла;Yala
 lt;Utaraditas;Uttaradit
 am;ኡትታራዲት;Uttaradit
 az;Uttardit;Uttaradit

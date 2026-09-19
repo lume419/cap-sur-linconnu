@@ -4,7 +4,8 @@
 // (communes-es.txt), pas dans chaque ligne — cohérent avec le choix "un fichier par pays".
 const fs = require('fs');
 const path = require('path');
-const { excludePlace } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
+// lieux mal rangés, disparus, Sercq, Antarctique ; noms nettoyés et quasi-doublons (audit n° 11) — voir ce fichier
+const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
 
 const COUNTRIES = []; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
 // d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/
@@ -401,6 +402,29 @@ const NAME_OVERRIDES = {
   'Larnaca': 'Larnaka',
   'Paphos': 'Pafos'
 };
+// PAYS VISÉ PAR CHAQUE ENTRÉE (audit n° 11) — la table ci-dessus était appliquée à TOUS les pays générés par ce script,
+// alors que chaque entrée ne vise qu'un pays (celui du commentaire qui la justifie) : « Turin », hameau écossais (GB) ou
+// irlandais (IE), devenait « Torino » ; « Sitten » (village de Saxe, DE) devenait « Sion » ; « Milan » (HR, AL) devenait
+// « Milano » ; « The Hague » (Grand Manchester, GB) « Den Haag » ; « Ostend » (Essex, GB) « Oostende » ; deux fermes
+// norvégiennes « Århus » (NO) « Aarhus ». Chaque renommage ne s'applique plus qu'au pays visé ; une entrée sans pays fait
+// échouer le script (garde-fou pour les ajouts futurs). Table IDENTIQUE dans build-country-communes.js et build-aliases.js.
+const NAME_OVERRIDES_COUNTRY = {
+  PT: ['Lisbon'], BE: ['Brussels', 'Antwerp', 'Ostend', 'Saint-Vith'], NL: ['The Hague'], CH: ['Geneva', 'Sitten'],
+  DE: ['Munich', 'Nuremberg'], IT: ['Rome', 'Milan', 'Naples', 'Turin', 'Genoa', 'Florence', 'Padua', 'Venice'], AT: ['Vienna'],
+  CZ: ['Prague', 'Pilsen'], PL: ['Warsaw', 'Lodz', 'Bielsko-Biala'],
+  IE: ['An Ros', 'Droichead Nua', 'An Muileann gCearr', 'Baile an Mhuilinn', 'Cill Fhíonáin', 'Cluain Meala', 'Trá Mhór', 'Leifear'],
+  DK: ['Copenhagen', 'Århus'], SE: ['Gothenburg'], FI: ['Hyvinge', 'Sibbo'], AL: ['Tirana'], RS: ['Belgrade', 'Knjazevac'],
+  RO: ['Bucharest'], LV: ['Riga'],
+  LT: ['Ukmerge', 'Telsiai', 'Taurage', 'Silute', 'Radviliskis', 'Plunge', 'Naujoji Akmene', 'Mazeikiai', 'Kupiskis', 'Birzai', 'Vilkaviskis'],
+  VA: ['Vatican City'], MD: ['Chisinau'], BY: ['Ryasno, Rjasno, Rasna'],
+  TR: ['Istanbul', 'Umraniye', 'İnegol', 'Sarigerme', 'Incekum', 'Kutuklu', 'Karaburcak', 'Alacami'],
+  AZ: ['Baku', 'Ganja', 'Sumgayit', 'Khirdalan', 'Sheki', 'Bilajari', 'Barda', 'Shamkhir', 'Aghjabadi', 'Shamakhi', 'Aghdam', 'Jalilabad', 'Imishli'],
+  CY: ['Limassol', 'Larnaca', 'Paphos']
+};
+const NAME_OVERRIDE_TARGET_COUNTRY = new Map();
+Object.keys(NAME_OVERRIDES_COUNTRY).forEach(cc => NAME_OVERRIDES_COUNTRY[cc].forEach(n => NAME_OVERRIDE_TARGET_COUNTRY.set(n, cc)));
+Object.keys(NAME_OVERRIDES).forEach(n => { if(!NAME_OVERRIDE_TARGET_COUNTRY.has(n)) throw new Error('NAME_OVERRIDES sans pays visé : ' + n); });
+NAME_OVERRIDE_TARGET_COUNTRY.forEach((cc, n) => { if(!NAME_OVERRIDES[n]) throw new Error('NAME_OVERRIDES_COUNTRY sans renommage : ' + n); });
 // Pas un exonyme mais une confusion de caractère systématique dans le dump GeoNames croate : 48
 // noms de communes (ex. "Sveti Ðurđ", "Ðurđenovac", "Ðeletovci") utilisent le Ð latin (Eth
 // islandais/féroïen, U+00D0) au lieu du VRAI Đ croate (D barré, U+0110) — les deux se ressemblent
@@ -409,7 +433,10 @@ const NAME_OVERRIDES = {
 // Remplacement global plutôt que 48 entrées NAME_OVERRIDES : appliqué à chaque nom lu du dump,
 // avant même NAME_OVERRIDES (voir cleanName plus bas), aucun risque de faux positif pour les
 // autres pays déjà générés (jamais régénérés à l'identique, voir COUNTRIES en haut de ce fichier).
-function cleanName(raw){ return (NAME_OVERRIDES[raw] || raw).replace(/Ð/g, 'Đ'); }
+function cleanName(raw, country){
+  const o = NAME_OVERRIDE_TARGET_COUNTRY.get(raw) === country ? NAME_OVERRIDES[raw] : null;
+  return (o || raw).replace(/Ð/g, 'Đ');
+}
 // Sercq (Sark), dépendance du bailliage de Guernesey, remonte dans le dump GeoNames sous le code
 // pays GG (elle n'a pas son propre code ISO) au même titre que les paroisses de Guernesey — mais
 // contrairement aux îles Wadden (voir FERRY_ROUTES/landmassOf dans app.js), qui ont toutes une VRAIE
@@ -496,9 +523,9 @@ for(const country of COUNTRIES){
   // code, country, cc2, admin1, admin2, admin3, admin4, population, elevation, dem, timezone, mod
   const rows = dumpRaw.split('\n').filter(Boolean).map(line => line.split('\t'));
   const places = rows
-    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace(country, c[0], c[1], parseFloat(c[4]), parseFloat(c[5])))
+    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace(country, c[0], preparePlaceName(country, c[0], c[1]), parseFloat(c[4]), parseFloat(c[5])))
     .map(c => ({
-      name: cleanName((ASCIINAME_FALLBACK_COUNTRIES.has(country) && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1]),
+      name: preparePlaceName(country, c[0], cleanName((ASCIINAME_FALLBACK_COUNTRIES.has(country) && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1], country)),
       lat: parseFloat(c[4]),
       lon: parseFloat(c[5]),
       admin1Code: c[10] || '',
@@ -529,6 +556,6 @@ for(const country of COUNTRIES){
   }).filter(Boolean);
 
   const outPath = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');
-  fs.writeFileSync(outPath, lines.join('\n') + '\n', 'utf8');
+  fs.writeFileSync(outPath, dropNearDuplicates(lines).join('\n') + '\n', 'utf8'); // quasi-doublons (voir communes-corrections.js)
   console.log(country, ': ', places.length, 'lieux bruts ->', deduped.length, 'dédoublonnés ->', lines.length, 'avec code postal ->', outPath);
 }

@@ -116,6 +116,8 @@
   a{color:var(--accent-3);}
   :focus-visible{outline:2.5px solid var(--focus); outline-offset:2px; border-radius:4px;}
 
+  /* <main> (11e audit) : même empilement que .wrap, dont il reprend les blocs centraux. */
+  .main{display:flex; flex-direction:column; gap:2.25rem; min-width:0;}
   .wrap{
     max-width:880px;
     margin:0 auto;
@@ -141,7 +143,9 @@
     font:var(--font-display);
     text-transform:uppercase;
     letter-spacing:.01em;
-    font-size:clamp(2.1rem, 5.4vw, 3.1rem);
+    /* 11e audit : à 320 px, 2,1rem coupait les mots longs du titre (« INCONNU », « UNBEKANNTE ») en deux sans tiret. */
+    font-size:clamp(1.55rem, 0.9rem + 4.4vw, 3.1rem);
+    hyphens:auto; -webkit-hyphens:auto;
     color:var(--ink);
     /* Mot plus long que l'écran (malayalam « അജ്ഞാതത്തിലേക്ക് » : 419 px pour 335 px à 375 px de large, shona, basque) :
        coupé plutôt que de faire défiler toute la page à l'horizontale (9e audit du 18/09/2026) — mais seulement lui
@@ -257,6 +261,17 @@
     color:var(--accent-text);
   }
   .field-error.show{display:block;}
+  /* Erreur du tirage sans champ en cause (voir showFormError dans app.js), sous le bouton de lancement. */
+  .form-error{display:none; margin:0; max-width:100%; text-align:center; font-style:normal; font-weight:700; font-size:.8rem; line-height:1.35; color:var(--accent-text);}
+  .form-error.show{display:block;}
+  /* Texte indicatif trop long pour le champ, replié en « — » (voir fitPlaceholders) : repris en clair sous le champ,
+     lisible au toucher (l'infobulle ne l'était qu'à la souris). */
+  .ph-help{display:block; font-style:normal; font-weight:400; font-size:.72rem; line-height:1.3; color:var(--ink-faint); overflow-wrap:break-word;}
+  .ph-help[hidden]{display:none;}
+  /* Mots trop longs pour un écran étroit : césure selon la langue de <html lang> plutôt qu'une coupure sans tiret. */
+  @media (max-width:480px){
+    body{hyphens:auto; -webkit-hyphens:auto;}
+  }
   .field-hint{
     font-style:normal; font-weight:400; font-size:.75rem; line-height:1.3;
     color:var(--ink-faint);
@@ -533,7 +548,8 @@
      ces boutons, dans la DA du site, remplacent ces flèches partout plutôt qu'à un seul endroit. */
   .step-btn{
     flex:none; width:2.4rem; height:2.4rem; border-radius:9px;
-    border:1px solid var(--line); background:var(--surface-2); color:var(--ink);
+    /* Contour à 3:1 au moins sur le fond de la carte (11e audit : --line donnait ~1,6:1, WCAG 1.4.11). */
+    border:1px solid var(--line-strong); background:var(--surface-2); color:var(--ink);
     font-style:normal; font-weight:700; font-size:1.3rem; line-height:1; cursor:pointer;
     display:flex; align-items:center; justify-content:center;
     transition:background .15s ease, border-color .15s ease;
@@ -689,7 +705,7 @@
     gap:.8rem;
   }
   .map-card.show{display:flex;}
-  .map-card h3{font-style:normal; font-weight:800; font-size:.8rem; line-height:1; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-soft);}
+  .map-card h2{margin:0; font-style:normal; font-weight:800; font-size:.8rem; line-height:1; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-soft);}
   .map-wrap{
     border:1px dashed var(--line);
     border-radius:12px;
@@ -793,6 +809,7 @@
     font-style:normal; font-weight:800; font-size:1.1rem; line-height:1;
   }
   .day-badge .num.final{background:var(--accent-fill);}
+  .day-badge .num.range{font-size:.78rem; letter-spacing:-.02em;} /* « 12–14 », chiffres de la langue compris */
   .day-badge .line{width:2px; flex:1; background:repeating-linear-gradient(var(--line-strong) 0 4px, transparent 4px 8px); min-height:14px;}
   /* min-width:0 partout ci-dessous : par défaut, un enfant de grid/flex ne rétrécit jamais en
      dessous de la largeur de son contenu le plus large (ex. le lien "Wikipédia ↗" en
@@ -812,7 +829,7 @@
   .lodging-links{display:inline-flex; gap:.5rem; margin-top:.35rem; flex-wrap:wrap;}
   .lodging-link{
     font-style:normal; font-weight:700; font-size:.72rem; line-height:1; color:var(--accent-3); text-decoration:none;
-    border:1px solid var(--line); border-radius:999px; padding:.32rem .7rem;
+    border:1px solid var(--line-strong); border-radius:999px; padding:.32rem .7rem; /* contour 3:1 (11e audit) */
     transition:border-color .15s ease, color .15s ease;
   }
   .lodging-link:hover{border-color:var(--accent-3); color:var(--accent-text);}
@@ -943,7 +960,7 @@
   .pack-progress.complete{background:var(--accent-3); border-color:var(--accent-3);}
   .pack-progress.complete svg{opacity:1; transform:scale(1);}
   .pack-head{display:flex; flex-direction:column; gap:.15rem; margin-bottom:1rem; padding-right:2.6rem;}
-  .pack-head h2{font:var(--font-display); text-transform:uppercase; font-size:1.15rem;}
+  .pack-head h2{font:var(--font-display); text-transform:uppercase; font-size:1.15rem; overflow-wrap:break-word; min-width:0;} /* mot kachoube plus large que la colonne à 320 px */
   .pack-head span{font:var(--font-hand); font-size:.85rem; color:var(--ink-faint);}
   .pack-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(min(220px, 100%),1fr)); gap:.5rem .9rem;} /* voir .field-grid */
   .pack-item{display:flex; align-items:center;}

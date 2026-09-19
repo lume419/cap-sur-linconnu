@@ -299,7 +299,7 @@ el;Όργα;Órga
 el;Ορά;Orá
 en;Ora, Cyprus;Orá
 el;Όμοδος;Ómodos
-el;Οδοú;Odoú
+el;Οδού;Odoú
 el;Νήσου;Nísou
 el;Οίκος;Oíkos
 el;Νικόκλεια;Nikókleia
@@ -524,7 +524,6 @@ el;Κούκλια;Kouklia
 el;Κουκά;Kouká
 el;Κορφή;Korfí
 el;Κορόβεια;Koróveia
-el;Kόρνος;Kórnos
 el;Κόρνος;Kórnos
 el;Κορνόκηπος;Kornókipos
 el;Κορμακίτης;Kormakítis
@@ -899,7 +898,7 @@ en;Ayios Athanasios;Ayios Athanasios (quarter)
 el;Άγιος Αθανάσιος;Ayios Athanasios (quarter)
 el;Άγιος Γεώργιος Φραγκούδη;Ayios Georgios Fragkoudi
 el;Άγιος Στυλιανός;Ayios Stylianos
-el;Απόστολος Λουκάς;Αpostle Lyke
+el;Απόστολος Λουκάς;Apostle Lyke
 el;Ποταμός Γερμασόγειας;Germasogeia River
 el;Πάνθεα;Panthea
 el;Τίμιος Πρόδρομος;Timios Prodromos
@@ -935,7 +934,7 @@ el;Άγιος Θεόδωρος;Agios Theodoros
 el;Άγιος Μηνάς;Agios Minas
 el;Αγία Αναστασία;Agia Anastasia
 el;Πρόδρομος;Prodromos
-el;Τουρκική Συνοικία;Tourkiki Sιnikia
+el;Τουρκική Συνοικία;Tourkiki Sinikia
 el;Άγιος Παύλος;Agios Pavlos
 el;Άγιοι Κωνσταντίνος και Ελένη;Agioi Konstantinos kai Eleni
 el;Άγιος Μάμας;Agios Mamas

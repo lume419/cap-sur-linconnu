@@ -5408,7 +5408,7 @@ zh;卢格;Lug
 uk;Луг;Lug
 fa;لوگ;Lug
 fa;لوزنیسا;Loznica
-os;Лозницæ;Loznica
+os;Лозницӕ;Loznica
 bg;Лозница;Loznica
 ko;로즈니차;Loznica
 ru;Лозница;Loznica

@@ -12,7 +12,7 @@ module.exports = {
   ferries: [
     {
       "a": "izena", "b": "okinawa",
-      "routeKey": "untenNakada",
+      "routeKey": "untenNakada", "priceCovers": "vehicle", "coversSource": "véhicule seul : grille communale « conducteur inclus » (adulte déduit) ; moto pilote en sus",
       "name": "Unten (Nakijin) ↔ Nakada",
       "operator": "Village d'Izena (フェリーいぜな尚円)",
       "durationH": 0.92,
@@ -26,7 +26,7 @@ module.exports = {
     },
     {
       "a": "iheya", "b": "okinawa",
-      "routeKey": "untenMaedomari",
+      "routeKey": "untenMaedomari", "priceCovers": "vehicle", "coversSource": "véhicule seul : grille communale « conducteur inclus » (adulte déduit) ; moto pilote en sus",
       "name": "Unten (Nakijin) ↔ Maedomari",
       "operator": "Village d'Iheya (フェリーいへやⅢ)",
       "durationH": 1.33,

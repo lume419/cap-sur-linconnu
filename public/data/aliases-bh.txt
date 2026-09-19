@@ -237,7 +237,7 @@ he;מנאמה;Manama
 id;Al-Manamah;Manama
 ja;マナーマ;Manama
 ko;마나마;Manama
-os;Манамæ;Manama
+os;Манамӕ;Manama
 sr;Манама;Manama
 uk;Манама;Manama
 el;Μανάμα;Manama

@@ -336,7 +336,7 @@ de;Ghardaia;Ghardaïa
 ar;غرداية;Ghardaïa
 ar;ولاية غرداية;Ghardaïa
 pt;Ghardaia;Ghardaïa
-kab;Taγerdayt;Ghardaïa
+kab;Taɣerdayt;Ghardaïa
 tr;Gardaya;Ghardaïa
 ru;Гардая;Ghardaïa
 es;Ghardaia;Ghardaïa

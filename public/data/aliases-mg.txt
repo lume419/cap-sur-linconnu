@@ -453,9 +453,9 @@ fa;میلانوآ;Milanoa
 fa;میکوبوکا;Mikoboka
 fa;میاری;Miary
 zh;米亞里;Miary
-ru;Миаринаривo;Miarinarivo
-kk;Миаринаривo;Miarinarivo
-ky;Миаринаривo;Miarinarivo
+ru;Миаринариво;Miarinarivo
+kk;Миаринариво;Miarinarivo
+ky;Миаринариво;Miarinarivo
 hi;मिअरिनारिवो;Miarinarivo
 bn;মিয়ারিনারিভো;Miarinarivo
 ur;میارینیریو;Miarinarivo
@@ -464,8 +464,8 @@ fa;میارینیریو;Miarinarivo
 ja;ミアリナリヴォ;Miarinarivo
 pa;ਮਿਅਰਿਨਾਰਿਵੋ;Miarinarivo
 ps;میارینریو;Miarinarivo
-tg;Миаринаривo;Miarinarivo
-tt;Миаринаривo;Miarinarivo
+tg;Миаринариво;Miarinarivo
+tt;Миаринариво;Miarinarivo
 fa;میانتسواریوو;Miantsoarivo
 bg;Миандрариво;Miandrarivo
 fa;میاندراریوو;Miandrarivo
@@ -743,8 +743,6 @@ fa;فنومبی;Fenomby
 fa;فنواوو;Fenoevo
 fa;فنروآئی‌ووب;Fenoarivobe
 ru;Фенуариву Атсинанана;Fenoarivo Atsinanana
-kk;Фенуаривu Атсинанана;Fenoarivo Atsinanana
-ky;Фенуаривu Атсинанана;Fenoarivo Atsinanana
 hi;फेनोरिवो अत्सिनानना;Fenoarivo Atsinanana
 bn;ফেনোয়ারিভো অত্সিননানা;Fenoarivo Atsinanana
 ur;فینواریوو ایتسینانانا;Fenoarivo Atsinanana
@@ -753,8 +751,6 @@ fa;فنواریوو اتسیننانا;Fenoarivo Atsinanana
 ja;フェノアリヴォ・アツィナナナ;Fenoarivo Atsinanana
 pa;ਫੇਨੋਅਰਿਵੋ ਅਤਸਿਨਾਨਾਨਾ;Fenoarivo Atsinanana
 ps;فينواريفو اتسينانانا;Fenoarivo Atsinanana
-tg;Фенуаривu Атсинанана;Fenoarivo Atsinanana
-tt;Фенуаривu Атсинанана;Fenoarivo Atsinanana
 fa;فنوآندالا;Fenoandala
 fa;فنوآمبانی;Fenoambany
 fa;فاسینتسارا;Fasintsara

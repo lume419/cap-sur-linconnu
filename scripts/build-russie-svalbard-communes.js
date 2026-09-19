@@ -40,6 +40,9 @@
 
 const fs = require('fs');
 const path = require('path');
+// Corrections communes à tous les générateurs de lieux (audit n° 11) : noms nettoyés, lieux écartés, quasi-doublons —
+// voir scripts/communes-corrections.js.
+const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
 
 const COUNTRIES = ['RU', 'SJ'];
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
@@ -93,8 +96,8 @@ for(const country of COUNTRIES){
 
   const places = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8')
     .split('\n').filter(Boolean).map(l => l.split('\t'))
-    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]))
-    .map(c => ({ id: c[0], name: c[1], lat: parseFloat(c[4]), lon: parseFloat(c[5]), admin1: c[10] || '', pop: parseInt(c[14], 10) || 0 }))
+    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace(country, c[0], preparePlaceName(country, c[0], c[1]), parseFloat(c[4]), parseFloat(c[5])))
+    .map(c => ({ id: c[0], name: preparePlaceName(country, c[0], c[1]), lat: parseFloat(c[4]), lon: parseFloat(c[5]), admin1: c[10] || '', pop: parseInt(c[14], 10) || 0 }))
     .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name);
 
   // Dédoublonnage identique au pipeline standard : même nom + coordonnées à ~1 km près.
@@ -133,7 +136,7 @@ for(const country of COUNTRIES){
   }).filter(Boolean);
 
   const out = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');
-  fs.writeFileSync(out, lines.join('\n') + '\n', 'utf8');
+  fs.writeFileSync(out, dropNearDuplicates(lines).join('\n') + '\n', 'utf8'); // quasi-doublons (voir communes-corrections.js)
   console.log(country + ' : ' + places.length + ' bruts -> ' + deduped.length + ' dédoublonnés -> ' + lines.length +
     ' avec code postal (dont ' + parNom + ' rattachés par nom ; ' + sansCode + ' écartés sans code)');
 }

@@ -597,7 +597,7 @@ zh-Hant;阿爾馬雷克;Olmaliq
 kaa;Almalıq;Olmaliq
 fr;Almalyk;Olmaliq
 zh-HK;阿爾馬雷克;Olmaliq
-uz;Оҳaнгарон;Ohangaron
+uz;Оҳангарон;Ohangaron
 ru;Ахангаран;Ohangaron
 ru;Нурота;Nurota
 kk;Нұрата;Nurota
@@ -940,7 +940,7 @@ ru;Чимган;Kyzyldzhar
 ru;Чигирик;Chighiriq
 uz;Чиғириқ;Chighiriq
 en;Charvak;Chorwoq
-ru;Чoрвoқ;Chorwoq
+ru;Чорвоқ;Chorwoq
 ru;Чаркесар;Chorkesar
 uz;Qoraqo‘yli;Chanak
 uz;Чолиш;Chalish

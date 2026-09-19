@@ -1209,7 +1209,7 @@ el;Σαντιάγο ντε Κούβα;Santiago de Cuba
 fa;سانتیاگو د کوبا;Santiago de Cuba
 ka;სანტიაგო-დე-კუბა;Santiago de Cuba
 lt;Kubos Santjagas;Santiago de Cuba
-os;Сантьяго-де-Кубæ;Santiago de Cuba
+os;Сантьяго-де-Кубӕ;Santiago de Cuba
 sr;Сантијаго де Куба;Santiago de Cuba
 uk;Сантьяго-де-Куба;Santiago de Cuba
 kk;Сантьяго-де-Куба;Santiago de Cuba
@@ -1365,7 +1365,7 @@ lij;LAvann-a;Havana
 sah;Хавана;Havana
 th;ฮาวานา;Havana
 cv;Гавана;Havana
-os;Гаванæ;Havana
+os;Гаванӕ;Havana
 tg;Ҳавана;Havana
 ta;அவானா;Havana
 mt;Ħavana;Havana
@@ -1381,7 +1381,7 @@ kk;Гавана;Havana
 mhr;Гаване;Havana
 mn;Гавана;Havana
 yue;夏灣拿;Havana
-ky;Гaванa;Havana
+ky;Гавана;Havana
 lrc;هاوانا;Havana
 my;ဟာဗားနားမြို့;Havana
 uz;Gavana;Havana

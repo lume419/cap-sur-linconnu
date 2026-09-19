@@ -3630,7 +3630,7 @@ mr;तुलूझ;Toulouse
 co;Tolosa;Toulouse
 am;ቱሉዝ;Toulouse
 ms;Lapangan Terbang Blagnac;Toulouse
-os;Тулузæ;Toulouse
+os;Тулузӕ;Toulouse
 kk;Тулуза;Toulouse
 mzn;تولوز;Toulouse
 mk;Тулуза;Toulouse
@@ -16587,7 +16587,7 @@ kv;Ницца;Nice
 mzn;نیس;Nice
 cv;Ницца;Nice
 vep;Nicc;Nice
-os;Ниццæ;Nice
+os;Ниццӕ;Nice
 uk;Ніцца;Nice
 ug;Nis;Nice
 mk;Ница;Nice
@@ -29171,7 +29171,6 @@ ar;غرونوبل;Grenoble
 bg;Гренобъл;Grenoble
 fa;گرونوبل;Grenoble
 ja;グルノーブル;Grenoble
-ru;Грeнобль;Grenoble
 lb;Grenobel;Grenoble
 ru;Гренобль;Grenoble
 he;גרנובל;Grenoble
@@ -38829,7 +38828,7 @@ sr;Кан;Cannes
 ar;كان;Cannes
 el;Κάννες;Cannes
 fa;کن;Cannes
-os;Каннтæ;Cannes
+os;Каннтӕ;Cannes
 ko;칸;Cannes
 hi;कैन;Cannes
 lv;Kannas;Cannes

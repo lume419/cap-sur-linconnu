@@ -1014,7 +1014,6 @@ de;Neu Sanskow;Zajączkówko
 de;Georgenhütte;Przeręba
 de;Eisenhammer;Rudniki
 de;Brakau;Brokowo
-de;Muttrin;https://en.wikipedia.org/wiki/Motarzyn
 de;Groß Krössin;Krosino
 de;Schofhütten;Sławno
 de;Bramstädt;Toporzyk
@@ -1685,7 +1684,7 @@ lt;Varšuva;Warszawa
 mk;Варшава;Warszawa
 ro;Varșovia;Warszawa
 na;Warsaw;Warszawa
-os;Варшавæ;Warszawa
+os;Варшавӕ;Warszawa
 ru;Варшава;Warszawa
 sk;Varšava;Warszawa
 sl;Varšava;Warszawa
@@ -4612,7 +4611,7 @@ lv;Bohotņica;Bochotnica
 mk;Бохотница;Bochotnica
 myv;Бохотница;Bochotnica
 ne;बोकोट्निका;Bochotnica
-os;Бохотницæ;Bochotnica
+os;Бохотницӕ;Bochotnica
 ps;بوښوتنيکا;Bochotnica
 sah;Бохотница;Bochotnica
 sr;Бохотњица;Bochotnica
@@ -5710,7 +5709,7 @@ zh;托爾克米茨科;Tolkmicko
 sr;Толкмицко;Tolkmicko
 fa;توومتسوو;Tłumaczów
 ru;Терешево;Tereszewo
-ab;Tенцынеҟ;Tenczynek
+ab;Тенцынеҟ;Tenczynek
 ru;Тчев;Tczew
 lt;Tčevas;Tczew
 lv;Tčeva;Tczew
@@ -6420,10 +6419,10 @@ zh;魯米亞;Rumia
 sr;Румија;Rumia
 ru;Рудзенице;Rudzienice
 ru;Руды;Rudy
-ab;Рyднo;Rudno
+ab;Рудно;Rudno
 ru;Рудно;Rudno
 ru;Рудна;Rudna
-ab;Рyдaвa;Rudawa
+ab;Рудава;Rudawa
 ru;Рудава;Rudawa
 lv;Ruda Slonska;Ruda Śląska
 ru;Руда-Сленска;Ruda Śląska
@@ -6690,7 +6689,6 @@ mr;पोझ्नान;Poznań
 ta;போசுனான்;Poznań
 sl;Poznanj;Poznań
 sr;Познањ;Poznań
-crh;Pоznan;Poznań
 lt;Poznanė;Poznań
 lv;Poznaņa;Poznań
 fa;پوزنان;Poznań
@@ -7108,16 +7106,16 @@ th;ออปอเล;Opole
 uk;Ополе;Opole
 fa;اوپوله;Opole
 zh;奥波莱;Opole
-kk;Опольe;Opole
-ky;Опольe;Opole
+kk;Ополье;Opole
+ky;Ополье;Opole
 hi;ओपोले;Opole
 bn;ওপোল;Opole
 ur;اوپول;Opole
 am;ኦፖሌ;Opole
 pa;ਓਪੋਲੇ;Opole
 ps;اوپول;Opole
-tg;Опольe;Opole
-tt;Опольe;Opole
+tg;Ополье;Opole
+tt;Ополье;Opole
 ru;Опоки;Opoczki
 ru;Опалене;Opalenie
 uk;Опалениця;Opalenica
@@ -8097,7 +8095,7 @@ mr;क्राकूफ;Kraków
 mn;Краков;Kraków
 mk;Краков;Kraków
 sq;Krakovi;Kraków
-crh;Krakоv;Kraków
+crh;Krakov;Kraków
 fa;کراکوف;Kraków
 ky;Краков;Kraków
 cv;Краков;Kraków
@@ -9578,7 +9576,7 @@ fa;بیتوم;Bytom
 bg;Битом;Bytom
 ko;비톰;Bytom
 he;ביטום;Bytom
-be;Бытaм;Bytom
+be;Бытам;Bytom
 lv;Bistšica Klodzka;Bystrzyca Kłodzka
 uk;Бистшиця-Клодзька;Bystrzyca Kłodzka
 sr;Бистрица Клодска;Bystrzyca Kłodzka
@@ -9990,3 +9988,4 @@ ru;Липково;Lipkowo
 pl;Jawor;Stary Jawor
 ru;Малта;Malta
 uk;Сад;Sad
+de;Muttrin;Motarzyn

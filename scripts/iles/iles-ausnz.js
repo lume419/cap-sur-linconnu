@@ -97,7 +97,7 @@ module.exports = {
     }
   },
   ferries: [
-    { a: 'australia', b: 'raymondIsland', routeKey: 'paynesvilleRaymondIsland', name: 'Paynesville ↔ Raymond Island',
+    { a: 'australia', b: 'raymondIsland', routeKey: 'paynesvilleRaymondIsland', "priceCovers": "vehicleAndOccupants", "coversSource": "grille East Gippsland : tarif par véhicule, occupants non facturés", name: 'Paynesville ↔ Raymond Island',
       operator: 'East Gippsland Shire Council', durationH: 0.07, distanceKm: 0.3,
       priceByClass: { 1: 5.56, 2: 5.56, 5: 2.78, foot: 0 },
       currency: 'AUD', original: { car: 9, van: 9, moto: 4.5, foot: 0 },

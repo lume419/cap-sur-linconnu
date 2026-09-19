@@ -350,8 +350,6 @@ de;Darchan;Darhan
 zh;达尔汗;Darhan
 mn;ᠳᠠᠷᠬᠠᠨ;Darhan
 ar;دارخان;Darhan
-kk;Дарhan;Darhan
-ky;Дарhan;Darhan
 hi;दारहान;Darhan
 bn;দারহান;Darhan
 ur;دارہان;Darhan
@@ -359,7 +357,7 @@ fa;دارهان;Darhan
 ja;ダルハン;Darhan
 pa;ਦਾਰਹਾਨ;Darhan
 ps;دارهان;Darhan
-tg;Дарxан;Darhan
+tg;Дархан;Darhan
 mn;Даланзадгад;Dalandzadgad
 ru;Даланзадгад;Dalandzadgad
 ar;دالانزادجاد;Dalandzadgad
@@ -456,7 +454,7 @@ ru;Баянхонгор;Bayanhongor
 de;Bayanchongor;Bayanhongor
 ar;باياهنغور;Bayanhongor
 kk;Баянхонгор;Bayanhongor
-ky;Баянhонгор;Bayanhongor
+ky;Баянһонгор;Bayanhongor
 hi;बयानहोंगोर;Bayanhongor
 bn;বায়ানহঙ্গর;Bayanhongor
 ur;بیان ہونگور;Bayanhongor
@@ -495,7 +493,6 @@ fa;اروایهیر;Arvayheer
 ja;アルバイヘール;Arvayheer
 pa;ਅਰਵਾਇਹੀਰ;Arvayheer
 ps;اروايهير;Arvayheer
-tg;Арвайhээр;Arvayheer
 ru;Аригийн-Дуган;Arigiin Dugang
 ru;Ар-Асгат;Ar-Asgat
 ru;Алтанбулаг;Altanbulag
@@ -518,7 +515,6 @@ tt;Улиасутай;Uliastay
 am;ኡላአንጎም;Ulaangom
 tt;Улаангом;Ulaangom
 am;ኦልጊ;Ölgii
-az;Öлгий;Ölgii
 tt;Өлгий;Ölgii
 am;ኮቭድ;Khovd
 az;Xovd;Khovd
@@ -587,7 +583,7 @@ sv;Darchan;Darhan
 pl;Darchan;Darhan
 uk;Дархан;Darhan
 am;ዳርሃን;Darhan
-tt;Дарhан;Darhan
+tt;Дарһан;Darhan
 am;ዳላንዛድጋድ;Dalandzadgad
 az;Dalanzadgad;Dalandzadgad
 tt;Даланзадгад;Dalandzadgad
@@ -610,7 +606,7 @@ am;ቡልጋን;Bulgan
 tt;Булган;Bulgan
 el;Μπερχ;Berh
 am;ባያንሆንጎር;Bayanhongor
-tt;Баянhонгор;Bayanhongor
+tt;Баянһонгор;Bayanhongor
 bg;Барун Урт;Baruun-Urt
 ka;ბარუუნ-ურტი;Baruun-Urt
 lt;Barun Urtas;Baruun-Urt
@@ -619,5 +615,5 @@ uk;Баруун-Урт;Baruun-Urt
 am;ባሩን-ኡርት;Baruun-Urt
 tt;Баруун-Урт;Baruun-Urt
 am;አርቫይሄር;Arvayheer
-tt;Арвайhээр;Arvayheer
+tt;Арвайһээр;Arvayheer
 lv;Argalanta;Argalant

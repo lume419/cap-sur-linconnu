@@ -18785,7 +18785,7 @@
 0;-4.0378,55.6637;ML10;South Lanarkshire;Sandford
 0;0.6328,51.4484;ME3;Kent;Middle Stoke
 0;0.6213,51.4461;ME3;Kent;Stoke
-0;0.7990,51.6402;CM0;Essex;Oostende
+0;0.7990,51.6402;CM0;Essex;Ostend
 0;0.6120,51.5690;SS7;Essex;Daws Heath
 0;0.8128,51.6414;CM0;Essex;Stoneyhills
 170;-0.5700,51.7166;HP5;Buckinghamshire;Orchard Leigh
@@ -23615,7 +23615,7 @@
 0;-0.7265,53.8861;YO42;East Riding of Yorkshire;Thorpe le Street
 0;-1.9673,54.2096;DL8;North Yorkshire;Woodale
 0;-2.1288,53.5072;OL8;Greater Manchester;Woodhouse Green
-0;-2.0024,53.4486;SK14;Greater Manchester;Den Haag
+0;-2.0024,53.4486;SK14;Greater Manchester;The Hague
 0;-1.9074,53.3357;SK23;Derbyshire;Wash
 0;-2.2913,53.2884;WA16;Cheshire;Little Warford
 0;-1.5674,54.1613;HG4;North Yorkshire;Sutton Grange
@@ -32407,7 +32407,7 @@
 0;-3.4914,56.1866;KY13;Fife;Coldrain
 0;-4.7015,56.8844;PH31;Highland;Tulloch
 0;-2.6110,57.0295;AB31;Aberdeenshire;Tillygarmond
-0;-2.7605,56.6646;DD8;Angus;Torino
+0;-2.7605,56.6646;DD8;Angus;Turin
 0;-4.6701,56.4246;FK20;Stirling;Auchtertyre
 0;-5.9046,56.5100;PA72;Argyll and Bute;Glen Forsa
 0;-3.9106,56.3645;PH6;Perth and Kinross;Strowan

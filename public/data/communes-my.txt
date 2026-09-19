@@ -15142,7 +15142,6 @@
 0;100.4794,5.8319;MY-02;Kedah;Kampung Guar Jumaat
 0;100.6285,5.8875;MY-02;Kedah;Kampung Bukit Cham
 0;100.6526,5.8666;MY-02;Kedah;Kampung Baharu
-0;100.3710,6.0050;MY-02;Kedah;Kampung Lahar Kelambu
 0;100.4201,5.9332;MY-02;Kedah;Kampung Simpang Tiga Sungai Daun
 0;100.4546,5.9278;MY-02;Kedah;Kampung Alor Pulai
 0;100.5478,5.9509;MY-02;Kedah;Kampung Sawa Besar

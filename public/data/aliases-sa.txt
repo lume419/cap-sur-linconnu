@@ -2996,7 +2996,7 @@ ar;مدر;Madar
 ar;القبيبة;Al Qubaybah
 ar;العشاش;Al ‘Ishāsh
 ar;النويبغ و النابغ;An Nūwaybigh wa an Nābigh
-ar;وادي الغرس;Wādī  al Ghars
+ar;وادي الغرس;Wādī al Ghars
 ar;الصلصلة;Aş Şalşalah
 ar;ضويل;Ḑuwayl
 ar;مقطع الرحى;Maqţa‘ ar Raḩá
@@ -3237,7 +3237,7 @@ ta;ஜித்தா;Jeddah
 el;Τζέντα;Jeddah
 sr;Џеда;Jeddah
 ur;جدہ;Jeddah
-os;Джиддæ;Jeddah
+os;Джиддӕ;Jeddah
 hy;Ջիդդա;Jeddah
 af;Djedda;Jeddah
 uk;Джидда;Jeddah
@@ -3502,7 +3502,7 @@ mk;Медина;Madinah
 lv;Medīna;Madinah
 th;มะดีนะฮ์;Madinah
 uz;Madina;Madinah
-os;Мединæ;Madinah
+os;Мединӕ;Madinah
 uk;Медіна;Madinah
 sr;Медина;Madinah
 kk;Медине;Madinah

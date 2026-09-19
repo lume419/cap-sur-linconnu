@@ -222,9 +222,7 @@ pa;ਸਾਨ ਮਿਗੁਏਲ;San Miguel
 ps;سان میگویل;San Miguel
 tg;Сан-Мигель;San Miguel
 tt;Сан-Мигель;San Miguel
-kk;Сан-Францisko;San Francisco
 uz;San Fransisko;San Francisco
-ky;Сан-Францisko;San Francisco
 bn;সান ফ্রান্সিস্কো;San Francisco
 ur;سان فرانسسکو;San Francisco
 am;ሳን ፍራንሲስኮ;San Francisco
@@ -232,8 +230,6 @@ az;San Fransisko;San Francisco
 fa;سان فرانسیسکو;San Francisco
 pa;ਸਾਨ ਫ੍ਰਾਂਸਿਸਕੋ;San Francisco
 ps;سان فرانسسکو;San Francisco
-tg;Сан-Францisko;San Francisco
-tt;Сан-Францisko;San Francisco
 el;Σάντα Τέκλα;Santa Tecla
 lt;Santa Tekla;Santa Tecla
 sr;Санта Текла;Santa Tecla

@@ -8,7 +8,7 @@ zh;懷爾德;Wilde
 zh-Hans;怀尔德;Wilde
 ar;وايلد;Wilde
 en;Villa Laguna Brava;Villa Laguna La Brava
-ru;Вилла Паранаситó;Villa Paranacito
+ru;Вилла Паранасито́;Villa Paranacito
 ar;فيلا بارانسيتو;Villa Paranacito
 hi;विला पारानसिटो;Villa Paranacito
 ja;ビジャパラナシト;Villa Paranacito
@@ -306,7 +306,7 @@ ja;ヌエストラ・セニョーラ・デル・ロサリオ・デ・カア・�
 pt;Nossa Senhora do Rosário de Caá Catí;Nuestra Señora del Rosario de Caá Catí
 zh;諾戈亞;Nogoyá
 en;Nogoya;Nogoyá
-ru;Ногойá;Nogoyá
+ru;Ногойа́;Nogoyá
 ar;نوجويا;Nogoyá
 fr;Nogoya;Nogoyá
 hi;नोगोया;Nogoyá
@@ -365,7 +365,6 @@ ja;メルセデス;Mercedes
 zh;梅爾塞德斯;Mercedes
 ar;مرسيدس;Mercedes
 en;Mburucuya;Mburucuyá
-ru;Мбуруküя;Mburucuyá
 ar;مبوروكويا;Mburucuyá
 es;Mburucuya;Mburucuyá
 fr;Mburucuya;Mburucuyá
@@ -3093,7 +3092,7 @@ ja;アドルフォ・ゴンサレス・チャベス;Adolfo Gonzáles Chaves
 pt;Adolfo Gonzales Chaves;Adolfo Gonzáles Chaves
 es;Acoite;Acoyte
 es;Achibarca;Archibarca
-ru;Абра Памpa;Abra Pampa
+ru;Абра Памра;Abra Pampa
 ar;أبرا بامبا;Abra Pampa
 hi;अब्रा पाम्पा;Abra Pampa
 ja;アブラ・パンパ;Abra Pampa
@@ -3386,16 +3385,16 @@ tt;Зарате;Zárate
 ka;ვილდე;Wilde
 uk;Вільде;Wilde
 fa;ویلده;Wilde
-kk;Вилла Паранаситo;Villa Paranacito
-ky;Вилла Паранаситo;Villa Paranacito
+kk;Вилла Паранасито;Villa Paranacito
+ky;Вилла Паранасито;Villa Paranacito
 bn;ভিলা পারানসিতো;Villa Paranacito
 ur;ویلا پارانسیتو;Villa Paranacito
 am;ቪላ ፓራናሲቶ;Villa Paranacito
 fa;ویلا پارانسیتو;Villa Paranacito
 pa;ਵਿਲਾ ਪਾਰਾਨਸੀਟੋ;Villa Paranacito
 ps;ویلا پارانسیتو;Villa Paranacito
-tg;Вилла Паранаситo;Villa Paranacito
-tt;Вилла Паранаситo;Villa Paranacito
+tg;Вилла Паранасито;Villa Paranacito
+tt;Вилла Паранасито;Villa Paranacito
 kk;Вильягуай;Villaguay
 ky;Вильягуай;Villaguay
 bn;ভিলাগুয়ে;Villaguay
@@ -3941,15 +3940,15 @@ tg;Оливос;Olivos
 tt;Оливос;Olivos
 fa;اوبرا;Oberá
 he;אוברה;Oberá
-kk;Оберá;Oberá
-ky;Оберá;Oberá
+kk;Обера́;Oberá
+ky;Обера́;Oberá
 bn;ওবেরা;Oberá
 ur;اوبیرا;Oberá
 am;ኦቤራ;Oberá
 pa;ਓਬੇਰਾ;Oberá
 ps;اوبیرا;Oberá
-tg;Оберá;Oberá
-tt;Оберá;Oberá
+tg;Обера́;Oberá
+tt;Обера́;Oberá
 kk;Нуэстра Сеньора дель Росарио де Каа Каті;Nuestra Señora del Rosario de Caá Catí
 ky;Нуэстра Сеньора дель Росарио де Каа Каті;Nuestra Señora del Rosario de Caá Catí
 bn;নুয়েস্ত্রা সেনোরা ডেল রোসারিও ডে কাআ কাতি;Nuestra Señora del Rosario de Caá Catí
@@ -3960,16 +3959,16 @@ pa;ਨੁਏਸਟ੍ਰਾ ਸੇਨਿਓਰਾ ਡੇਲ ਰੋਸਾਰੀ�
 ps;نویسٹرا سنیورا ډیل روسارو ډی کاا کاتی;Nuestra Señora del Rosario de Caá Catí
 tg;Нуэстра Сеньора дель Росарио де Каа Каті;Nuestra Señora del Rosario de Caá Catí
 tt;Нуэстра Сеньора дель Росарио де Каа Каті;Nuestra Señora del Rosario de Caá Catí
-kk;Ногойá;Nogoyá
-ky;Ногойá;Nogoyá
+kk;Ногойа́;Nogoyá
+ky;Ногойа́;Nogoyá
 bn;নোগোয়া;Nogoyá
 ur;نوگویا;Nogoyá
 am;ኖጐያ;Nogoyá
 fa;نوگویا;Nogoyá
 pa;ਨੋਗੋਯਾ;Nogoyá
 ps;نوگویا;Nogoyá
-tg;Ногойá;Nogoyá
-tt;Ногойá;Nogoyá
+tg;Ногойа́;Nogoyá
+tt;Ногойа́;Nogoyá
 fa;نکوچئا;Necochea
 lt;Nekočėja;Necochea
 ka;ნეკოჩეა;Necochea
@@ -4084,16 +4083,12 @@ ps;مرسیڈیز;Mercedes
 tg;Мерседес;Mercedes
 tt;Мерседес;Mercedes
 fa;مرسدس;Mercedes
-kk;Мбуруküя;Mburucuyá
-ky;Мбуруküя;Mburucuyá
 bn;ম্বুরুকুয়া;Mburucuyá
 ur;مبوروکویا;Mburucuyá
 am;ምቡሩኩያ;Mburucuyá
 fa;مبوروکویا;Mburucuyá
 pa;ਮ੍ਬੁਰੁਕੁਆ;Mburucuyá
 ps;مبوروکویا;Mburucuyá
-tg;Мбуруküя;Mburucuyá
-tt;Мбуруküя;Mburucuyá
 tt;Мартинес;Martínez
 ka;მარტინესი;Martínez
 uk;Мартінес;Martínez
@@ -4121,7 +4116,7 @@ tg;Мар дель Туйу;Mar del Tuyú
 tt;Мар дель Туйу;Mar del Tuyú
 bg;Мар дел Плата;Mar del Plata
 uk;Мар-дель-Плата;Mar del Plata
-os;Мар-дель-Платæ;Mar del Plata
+os;Мар-дель-Платӕ;Mar del Plata
 sr;Мар дел Плата;Mar del Plata
 fa;مار دل پلاتا;Mar del Plata
 ka;მარ-დელ-პლატა;Mar del Plata
@@ -4263,7 +4258,7 @@ tt;Лас Флорес;Las Flores
 bg;Ла Плата;La Plata
 fa;لا پلاتا;La Plata
 uk;Ла-Плата;La Plata
-os;Ла-Платæ;La Plata
+os;Ла-Платӕ;La Plata
 ka;ლა-პლატა;La Plata
 th;ลาปลาตา;La Plata
 bn;লা প্লাতা;La Plata
@@ -5058,7 +5053,7 @@ tg;Кампана;Campana
 tt;Кампана;Campana
 fa;بورساکو;Burzaco
 ka;ბურსაკო;Burzaco
-el;Μπουένος ΄Aιρες;Buenos Aires
+el;Μπουένος ΄Αιρες;Buenos Aires
 bg;Буенос Айрес;Buenos Aires
 uk;Буенос-Айрес;Buenos Aires
 os;Буэнос-Айрес;Buenos Aires
@@ -5141,7 +5136,6 @@ bg;Берисо;Berisso
 lt;Berisas;Berisso
 uk;Беріссо;Berisso
 kk;Берисо;Berisso
-uz;Berissо;Berisso
 ky;Берисо;Berisso
 bn;বেরিসো;Berisso
 ur;بیریسو;Berisso
@@ -5559,7 +5553,7 @@ bg;Виедма;Viedma
 el;Βιέδμα;Viedma
 ka;ვიედმა;Viedma
 fa;ویدما;Viedma
-os;Вьедмæ;Viedma
+os;Вьедмӕ;Viedma
 uk;Вєдма;Viedma
 he;ויידמה;Viedma
 hy;Վիեդմա;Viedma
@@ -6390,7 +6384,7 @@ tt;Сан-Франциско;San Francisco
 lt;Katamarka;Catamarca
 nn;San Fernando del Valle de Catamarca;Catamarca
 no;San Fernando del Valle de Catamarca;Catamarca
-os;Сан-Фернандо-дель-Валле-де-Катамаркæ;Catamarca
+os;Сан-Фернандо-дель-Валле-де-Катамаркӕ;Catamarca
 ka;სან-ფერნანდო-დელ-ვალიე-დე-კატამარკა;Catamarca
 bg;Сан Фернандо дел Вале де Катамарка;Catamarca
 uk;Сан-Фернандо-дель-Вайє-де-Катамарка;Catamarca
@@ -6715,16 +6709,16 @@ tg;Ринконада;Rinconada
 tt;Ринконада;Rinconada
 lt;Rekreo;Recreo
 hy;Ռեկրեո;Recreo
-kk;Рекреo;Recreo
-ky;Рекреo;Recreo
+kk;Рекрео;Recreo
+ky;Рекрео;Recreo
 bn;রিক্রিও;Recreo
 ur;ریکریو;Recreo
 am;ሬክሬዮ;Recreo
 fa;رکریو;Recreo
 pa;ਰੇਕ੍ਰਿਓ;Recreo
 ps;ریکریو;Recreo
-tg;Рекреo;Recreo
-tt;Рекреo;Recreo
+tg;Рекрео;Recreo
+tt;Рекрео;Recreo
 kk;Реалико;Realicó
 ky;Реалико;Realicó
 bn;রিয়েলিকো;Realicó
@@ -7225,7 +7219,7 @@ ka;მენდოსა;Mendoza
 lt;Mendosa;Mendoza
 lv;Mendosa;Mendoza
 oc;Vila de Mendoza;Mendoza
-os;Мендосæ;Mendoza
+os;Мендосӕ;Mendoza
 sr;Мендоза;Mendoza
 th;เมนโดซา;Mendoza
 uk;Мендоса;Mendoza
@@ -8219,7 +8213,7 @@ lv;Kordova;Córdoba
 be;Кордава;Córdoba
 sr;Кордоба;Córdoba
 mr;कोर्दोबा;Córdoba
-os;Кордовæ;Córdoba
+os;Кордовӕ;Córdoba
 fa;کوردوبا، آرژانتین;Córdoba
 ka;კორდოვა;Córdoba
 uk;Кордова;Córdoba
@@ -8720,7 +8714,7 @@ tg;Банадо-де-Ованта;Bañado de Ovanta
 tt;Банадо-де-Ованта;Bañado de Ovanta
 lt;Bahija Blanka;Bahía Blanca
 ka;ბაია-ბლანკა;Bahía Blanca
-os;Баия-Бланкæ;Bahía Blanca
+os;Баия-Бланкӕ;Bahía Blanca
 uk;Баїя-Бланка;Bahía Blanca
 sr;Баија Бланка;Bahía Blanca
 fa;باییا بلانکا;Bahía Blanca
@@ -8928,16 +8922,16 @@ pa;ਅਡੋਲਫੋ ਗੋਂਜ਼ਾਲੇਸ ਚਾਵੇਜ਼;Adolfo Gonz
 ps;ادولفو گونزالس چاويز;Adolfo Gonzáles Chaves
 tg;Адольфо Гонсалес Чавес;Adolfo Gonzáles Chaves
 tt;Адольфо Гонсалес Чавес;Adolfo Gonzáles Chaves
-kk;Абра Памpa;Abra Pampa
-ky;Абра Памpa;Abra Pampa
+kk;Абра Памра;Abra Pampa
+ky;Абра Памра;Abra Pampa
 bn;আব্রা পাম্পা;Abra Pampa
 ur;ابرا پامپا;Abra Pampa
 am;አብራ ፓምፓ;Abra Pampa
 fa;ابرا پامپا;Abra Pampa
 pa;ਅਬਰਾ ਪਾਂਪਾ;Abra Pampa
 ps;ابرا پامپا;Abra Pampa
-tg;Абра Памpa;Abra Pampa
-tt;Абра Памpa;Abra Pampa
+tg;Абра Памра;Abra Pampa
+tt;Абра Памра;Abra Pampa
 lt;El Čaltenas;El Chaltén
 os;Эль-Чалтен;El Chaltén
 fa;لا کامبرسیتا;La Cumbrecita

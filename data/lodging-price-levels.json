@@ -1,0 +1,4724 @@
+{
+ "genere": "2026-09-19",
+ "methode": "plafond (2 adultes, une nuit) = base UE × indice restaurants-hôtels du pays (UE = 100) / 100 × taux EUR -> devise, arrondi à 2 chiffres significatifs",
+ "base": {
+  "economique": 100,
+  "moyen": 150,
+  "confortable": 340,
+  "source": "INE table 2058 (moyenne 2025) / Eurostat A0111 Espagne 2024 = 83,9",
+  "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=2058"
+ },
+ "sources": {
+  "E": {
+   "nom": "Eurostat prc_ppp_ind, A0111 Restaurants and hotels, PLI_EU27_2020, 2024 (Kosovo 2022)",
+   "miseAJour": "2025-07-10",
+   "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/prc_ppp_ind?format=JSON&lang=EN&ppp_cat=A0111&na_item=PLI_EU27_2020&sinceTimePeriod=2019"
+  },
+  "W21": {
+   "nom": "Banque mondiale ICP 2021, 1111000 RESTAURANTS AND HOTELS, PX.WL (monde = 100)",
+   "miseAJour": "2024-08-04",
+   "url": "https://api.worldbank.org/v2/sources/90/country/all/series/1111000/classification/PX.WL/time/YR2021/data?format=json&per_page=1000",
+   "rebasage": {
+    "facteur": 0.8921310748548114,
+    "paysCommuns": 35,
+    "methode": "médiane de Eurostat 2024 / (ICP × actualisation)"
+   }
+  },
+  "W17": {
+   "nom": "Banque mondiale ICP 2017, 1111000 RESTAURANTS AND HOTELS, PX.WL",
+   "url": "https://api.worldbank.org/v2/sources/78/country/all/series/1111000/classification/PX.WL/time/YR2017/data?format=json&per_page=1000",
+   "rebasage": {
+    "facteur": 0.9810620571727754,
+    "paysCommuns": 35
+   }
+  },
+  "WG": {
+   "nom": "Banque mondiale ICP 2021, 1000000 GROSS DOMESTIC PRODUCT, PX.WL × médiane régionale du rapport restaurants-hôtels / PIB",
+   "url": "https://api.worldbank.org/v2/sources/90/country/all/series/1000000/classification/PX.WL/time/YR2021/data?format=json&per_page=1000",
+   "rapportsRegionaux": {
+    "ECS": 1.1939298829357583,
+    "MEA": 0.9212906700658967,
+    "SSF": 0.9648033468913004,
+    "LCN": 1.0168389728976754,
+    "EAS": 0.8649561050698009,
+    "SAS": 0.7987484690851498,
+    "NAC": 0.9199863493744341
+   }
+  },
+  "actualisation": {
+   "nom": "WDI : PA.NUS.PRVT.PP (à défaut PA.NUS.PPP) / PA.NUS.FCRF, 2024 (à défaut 2023, 2022) ÷ année de l'ICP",
+   "miseAJour": "2026-07-13",
+   "urls": [
+    "https://api.worldbank.org/v2/country/all/indicator/PA.NUS.PRVT.PP?format=json&date=2021:2025",
+    "https://api.worldbank.org/v2/country/all/indicator/PA.NUS.PPP?format=json&date=2021:2025",
+    "https://api.worldbank.org/v2/country/all/indicator/PA.NUS.FCRF?format=json&date=2021:2025"
+   ]
+  },
+  "regions": {
+   "nom": "Banque mondiale, région et groupe de revenu",
+   "url": "https://api.worldbank.org/v2/country?format=json&per_page=400"
+  },
+  "taux": {
+   "bce": {
+    "date": "2026-09-18",
+    "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
+   },
+   "inforeuro": {
+    "periode": "2026-09",
+    "url": "https://ec.europa.eu/budg/inforeuro/api/public/monthly-rates?lang=EN&year=2026&month=9"
+   },
+   "cuba": "https://www.bc.gob.cu/tasas-de-cambio",
+   "venezuela": "https://www.bcv.org.ve/"
+  }
+ },
+ "pays": {
+  "FR": {
+   "nom": "France",
+   "devise": "EUR",
+   "indiceUE100": 110,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 110,
+    "moyen": 165,
+    "confortable": 374
+   }
+  },
+  "AD": {
+   "nom": "Andorre",
+   "devise": "EUR",
+   "indiceUE100": 110.4,
+   "source": "WG",
+   "detail": {
+    "icpPib": 113.3,
+    "ratioRegion": 1.194,
+    "region": "ECS",
+    "maj": 0.915,
+    "majAn": 2024
+   },
+   "plafondEUR": {
+    "economique": 110.4,
+    "moyen": 165.6,
+    "confortable": 375.4
+   }
+  },
+  "ES": {
+   "nom": "Espagne",
+   "devise": "EUR",
+   "indiceUE100": 83.9,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 83.9,
+    "moyen": 125.8,
+    "confortable": 285.3
+   }
+  },
+  "PT": {
+   "nom": "Portugal",
+   "devise": "EUR",
+   "indiceUE100": 75.5,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 75.5,
+    "moyen": 113.3,
+    "confortable": 256.7
+   }
+  },
+  "BE": {
+   "nom": "Belgique",
+   "devise": "EUR",
+   "indiceUE100": 124.2,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 124.2,
+    "moyen": 186.3,
+    "confortable": 422.3
+   }
+  },
+  "NL": {
+   "nom": "Pays-Bas",
+   "devise": "EUR",
+   "indiceUE100": 124.6,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 124.6,
+    "moyen": 186.9,
+    "confortable": 423.6
+   }
+  },
+  "LU": {
+   "nom": "Luxembourg",
+   "devise": "EUR",
+   "indiceUE100": 123.6,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 123.6,
+    "moyen": 185.4,
+    "confortable": 420.2
+   }
+  },
+  "CH": {
+   "nom": "Suisse",
+   "devise": "CHF",
+   "indiceUE100": 170.8,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 170.8,
+    "moyen": 256.2,
+    "confortable": 580.7
+   }
+  },
+  "DE": {
+   "nom": "Allemagne",
+   "devise": "EUR",
+   "indiceUE100": 112.1,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 112.1,
+    "moyen": 168.2,
+    "confortable": 381.1
+   }
+  },
+  "IT": {
+   "nom": "Italie",
+   "devise": "EUR",
+   "indiceUE100": 106.9,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 106.9,
+    "moyen": 160.3,
+    "confortable": 363.5
+   }
+  },
+  "AT": {
+   "nom": "Autriche",
+   "devise": "EUR",
+   "indiceUE100": 110,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 110,
+    "moyen": 165,
+    "confortable": 374
+   }
+  },
+  "SM": {
+   "nom": "Saint-Marin",
+   "devise": "EUR",
+   "indiceUE100": 126,
+   "source": "WG",
+   "detail": {
+    "icpPib": 132.6,
+    "ratioRegion": 1.194,
+    "region": "ECS",
+    "maj": 0.892,
+    "majAn": 2024
+   },
+   "plafondEUR": {
+    "economique": 126,
+    "moyen": 189,
+    "confortable": 428.4
+   }
+  },
+  "LI": {
+   "nom": "Liechtenstein",
+   "devise": "CHF",
+   "indiceUE100": 170.8,
+   "source": "P:CH",
+   "detail": {
+    "pays": "CH"
+   },
+   "plafondEUR": {
+    "economique": 170.8,
+    "moyen": 256.2,
+    "confortable": 580.7
+   }
+  },
+  "MC": {
+   "nom": "Monaco",
+   "devise": "EUR",
+   "indiceUE100": 110,
+   "source": "P:FR",
+   "detail": {
+    "pays": "FR"
+   },
+   "plafondEUR": {
+    "economique": 110,
+    "moyen": 165,
+    "confortable": 374
+   }
+  },
+  "MT": {
+   "nom": "Malte",
+   "devise": "EUR",
+   "indiceUE100": 88.7,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 88.7,
+    "moyen": 133.1,
+    "confortable": 301.6
+   }
+  },
+  "GG": {
+   "nom": "Guernesey",
+   "devise": "GBP",
+   "indiceUE100": 101.1,
+   "source": "P:GB",
+   "detail": {
+    "pays": "GB"
+   },
+   "plafondEUR": {
+    "economique": 101.1,
+    "moyen": 151.7,
+    "confortable": 343.7
+   }
+  },
+  "JE": {
+   "nom": "Jersey",
+   "devise": "GBP",
+   "indiceUE100": 101.1,
+   "source": "P:GB",
+   "detail": {
+    "pays": "GB"
+   },
+   "plafondEUR": {
+    "economique": 101.1,
+    "moyen": 151.7,
+    "confortable": 343.7
+   }
+  },
+  "CZ": {
+   "nom": "République tchèque",
+   "devise": "CZK",
+   "indiceUE100": 74.1,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 74.1,
+    "moyen": 111.2,
+    "confortable": 251.9
+   }
+  },
+  "PL": {
+   "nom": "Pologne",
+   "devise": "PLN",
+   "indiceUE100": 91.7,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 91.7,
+    "moyen": 137.6,
+    "confortable": 311.8
+   }
+  },
+  "SK": {
+   "nom": "Slovaquie",
+   "devise": "EUR",
+   "indiceUE100": 91.3,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 91.3,
+    "moyen": 136.9,
+    "confortable": 310.4
+   }
+  },
+  "HU": {
+   "nom": "Hongrie",
+   "devise": "HUF",
+   "indiceUE100": 71.8,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 71.8,
+    "moyen": 107.7,
+    "confortable": 244.1
+   }
+  },
+  "SI": {
+   "nom": "Slovénie",
+   "devise": "EUR",
+   "indiceUE100": 90.1,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 90.1,
+    "moyen": 135.2,
+    "confortable": 306.3
+   }
+  },
+  "HR": {
+   "nom": "Croatie",
+   "devise": "EUR",
+   "indiceUE100": 95.4,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 95.4,
+    "moyen": 143.1,
+    "confortable": 324.4
+   }
+  },
+  "BA": {
+   "nom": "Bosnie-Herzégovine",
+   "devise": "BAM",
+   "indiceUE100": 74.6,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 74.6,
+    "moyen": 111.9,
+    "confortable": 253.6
+   }
+  },
+  "GB": {
+   "nom": "Royaume-Uni",
+   "devise": "GBP",
+   "indiceUE100": 101.1,
+   "source": "W21",
+   "detail": {
+    "icp": 131.4,
+    "maj": 0.863,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 101.1,
+    "moyen": 151.7,
+    "confortable": 343.7
+   }
+  },
+  "IE": {
+   "nom": "Irlande",
+   "devise": "EUR",
+   "indiceUE100": 129.3,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 129.3,
+    "moyen": 193.9,
+    "confortable": 439.6
+   }
+  },
+  "IM": {
+   "nom": "Île de Man",
+   "devise": "GBP",
+   "indiceUE100": 101.1,
+   "source": "P:GB",
+   "detail": {
+    "pays": "GB"
+   },
+   "plafondEUR": {
+    "economique": 101.1,
+    "moyen": 151.7,
+    "confortable": 343.7
+   }
+  },
+  "DK": {
+   "nom": "Danemark",
+   "devise": "DKK",
+   "indiceUE100": 147.6,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 147.6,
+    "moyen": 221.4,
+    "confortable": 501.8
+   }
+  },
+  "NO": {
+   "nom": "Norvège",
+   "devise": "NOK",
+   "indiceUE100": 140,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 140,
+    "moyen": 210,
+    "confortable": 476
+   }
+  },
+  "SE": {
+   "nom": "Suède",
+   "devise": "SEK",
+   "indiceUE100": 116.7,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 116.7,
+    "moyen": 175.1,
+    "confortable": 396.8
+   }
+  },
+  "FI": {
+   "nom": "Finlande",
+   "devise": "EUR",
+   "indiceUE100": 126.8,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 126.8,
+    "moyen": 190.2,
+    "confortable": 431.1
+   }
+  },
+  "AX": {
+   "nom": "Îles Åland",
+   "devise": "EUR",
+   "indiceUE100": 126.8,
+   "source": "P:FI",
+   "detail": {
+    "pays": "FI"
+   },
+   "plafondEUR": {
+    "economique": 126.8,
+    "moyen": 190.2,
+    "confortable": 431.1
+   }
+  },
+  "ME": {
+   "nom": "Monténégro",
+   "devise": "EUR",
+   "indiceUE100": 65.5,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 65.5,
+    "moyen": 98.3,
+    "confortable": 222.7
+   }
+  },
+  "AL": {
+   "nom": "Albanie",
+   "devise": "ALL",
+   "indiceUE100": 52.3,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 52.3,
+    "moyen": 78.5,
+    "confortable": 177.8
+   }
+  },
+  "XK": {
+   "nom": "Kosovo",
+   "devise": "EUR",
+   "indiceUE100": 51.1,
+   "source": "E22",
+   "detail": {
+    "year": 2022
+   },
+   "plafondEUR": {
+    "economique": 51.1,
+    "moyen": 76.7,
+    "confortable": 173.7
+   }
+  },
+  "RS": {
+   "nom": "Serbie",
+   "devise": "RSD",
+   "indiceUE100": 68.2,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 68.2,
+    "moyen": 102.3,
+    "confortable": 231.9
+   }
+  },
+  "MK": {
+   "nom": "Macédoine du Nord",
+   "devise": "MKD",
+   "indiceUE100": 49.5,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 49.5,
+    "moyen": 74.3,
+    "confortable": 168.3
+   }
+  },
+  "GR": {
+   "nom": "Grèce",
+   "devise": "EUR",
+   "indiceUE100": 86.4,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 86.4,
+    "moyen": 129.6,
+    "confortable": 293.8
+   }
+  },
+  "BG": {
+   "nom": "Bulgarie",
+   "devise": "EUR",
+   "indiceUE100": 53.2,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 53.2,
+    "moyen": 79.8,
+    "confortable": 180.9
+   }
+  },
+  "RO": {
+   "nom": "Roumanie",
+   "devise": "RON",
+   "indiceUE100": 68.5,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 68.5,
+    "moyen": 102.8,
+    "confortable": 232.9
+   }
+  },
+  "LV": {
+   "nom": "Lettonie",
+   "devise": "EUR",
+   "indiceUE100": 90.9,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 90.9,
+    "moyen": 136.3,
+    "confortable": 309.1
+   }
+  },
+  "LT": {
+   "nom": "Lituanie",
+   "devise": "EUR",
+   "indiceUE100": 86.1,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 86.1,
+    "moyen": 129.2,
+    "confortable": 292.7
+   }
+  },
+  "EE": {
+   "nom": "Estonie",
+   "devise": "EUR",
+   "indiceUE100": 98.3,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 98.3,
+    "moyen": 147.4,
+    "confortable": 334.2
+   }
+  },
+  "VA": {
+   "nom": "Vatican",
+   "devise": "EUR",
+   "indiceUE100": 106.9,
+   "source": "P:IT",
+   "detail": {
+    "pays": "IT"
+   },
+   "plafondEUR": {
+    "economique": 106.9,
+    "moyen": 160.3,
+    "confortable": 363.5
+   }
+  },
+  "IS": {
+   "nom": "Islande",
+   "devise": "ISK",
+   "indiceUE100": 167.3,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 167.3,
+    "moyen": 250.9,
+    "confortable": 568.8
+   }
+  },
+  "FO": {
+   "nom": "Îles Féroé",
+   "devise": "DKK",
+   "indiceUE100": 152.5,
+   "source": "WG",
+   "detail": {
+    "icpPib": 160.7,
+    "ratioRegion": 1.194,
+    "region": "ECS",
+    "maj": 0.891,
+    "majAn": 2024
+   },
+   "plafondEUR": {
+    "economique": 152.5,
+    "moyen": 228.8,
+    "confortable": 518.5
+   }
+  },
+  "GI": {
+   "nom": "Gibraltar",
+   "devise": "GIP",
+   "indiceUE100": 101.1,
+   "source": "P:GB",
+   "detail": {
+    "pays": "GB"
+   },
+   "plafondEUR": {
+    "economique": 101.1,
+    "moyen": 151.7,
+    "confortable": 343.7
+   }
+  },
+  "MD": {
+   "nom": "Moldavie",
+   "devise": "MDL",
+   "indiceUE100": 68.7,
+   "source": "W21",
+   "detail": {
+    "icp": 58.7,
+    "maj": 1.312,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 68.7,
+    "moyen": 103,
+    "confortable": 233.6
+   }
+  },
+  "BY": {
+   "nom": "Biélorussie",
+   "devise": "BYN",
+   "indiceUE100": 38,
+   "source": "W21",
+   "detail": {
+    "icp": 49.3,
+    "maj": 0.864,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 38,
+    "moyen": 57,
+    "confortable": 129.2
+   }
+  },
+  "UA": {
+   "nom": "Ukraine",
+   "devise": "UAH",
+   "indiceUE100": 33.7,
+   "source": "W21",
+   "detail": {
+    "icp": 44.5,
+    "maj": 0.848,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 33.7,
+    "moyen": 50.5,
+    "confortable": 114.6
+   }
+  },
+  "TR": {
+   "nom": "Turquie",
+   "devise": "TRY",
+   "indiceUE100": 68.9,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 68.9,
+    "moyen": 103.3,
+    "confortable": 234.3
+   }
+  },
+  "GE": {
+   "nom": "Géorgie",
+   "devise": "GEL",
+   "indiceUE100": 54.1,
+   "source": "W21",
+   "detail": {
+    "icp": 51.1,
+    "maj": 1.186,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 54.1,
+    "moyen": 81.2,
+    "confortable": 183.9
+   }
+  },
+  "AM": {
+   "nom": "Arménie",
+   "devise": "AMD",
+   "indiceUE100": 58.3,
+   "source": "W21",
+   "detail": {
+    "icp": 53.1,
+    "maj": 1.231,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 58.3,
+    "moyen": 87.5,
+    "confortable": 198.2
+   }
+  },
+  "AZ": {
+   "nom": "Azerbaïdjan",
+   "devise": "AZN",
+   "indiceUE100": 47.7,
+   "source": "W21",
+   "detail": {
+    "icp": 48.9,
+    "maj": 1.094,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 47.7,
+    "moyen": 71.5,
+    "confortable": 162.2
+   }
+  },
+  "SY": {
+   "nom": "Syrie",
+   "devise": "SYP",
+   "indiceUE100": 60.5,
+   "source": "W21",
+   "detail": {
+    "icp": 69.9,
+    "maj": 0.97,
+    "majAn": 2022,
+    "majSerie": "PIB"
+   },
+   "plafondEUR": {
+    "economique": 60.5,
+    "moyen": 90.8,
+    "confortable": 205.7
+   }
+  },
+  "CY": {
+   "nom": "Chypre",
+   "devise": "EUR",
+   "indiceUE100": 89,
+   "source": "E",
+   "detail": {
+    "year": 2024
+   },
+   "plafondEUR": {
+    "economique": 89,
+    "moyen": 133.5,
+    "confortable": 302.6
+   }
+  },
+  "LB": {
+   "nom": "Liban",
+   "devise": "LBP",
+   "indiceUE100": 44.7,
+   "source": "R:MEA-LMC",
+   "detail": {
+    "region": "MEA",
+    "revenu": "LMC",
+    "pays": [
+     "DJ",
+     "EG",
+     "MA",
+     "PK",
+     "PS",
+     "TN"
+    ],
+    "motif": "régime de change multiple en 2021 (1 507 LBP/USD officiel contre ~20 000 au marché) : indice ICP inexploitable"
+   },
+   "plafondEUR": {
+    "economique": 44.7,
+    "moyen": 67,
+    "confortable": 152
+   }
+  },
+  "IL": {
+   "nom": "Israël",
+   "devise": "ILS",
+   "indiceUE100": 149.4,
+   "source": "W21",
+   "detail": {
+    "icp": 215.2,
+    "maj": 0.778,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 149.4,
+    "moyen": 224.1,
+    "confortable": 508
+   }
+  },
+  "PS": {
+   "nom": "Palestine",
+   "devise": "ILS",
+   "indiceUE100": 104.3,
+   "source": "W21",
+   "detail": {
+    "icp": 116.9,
+    "maj": null,
+    "majAn": null,
+    "majSerie": null
+   },
+   "plafondEUR": {
+    "economique": 104.3,
+    "moyen": 156.4,
+    "confortable": 354.6
+   }
+  },
+  "JO": {
+   "nom": "Jordanie",
+   "devise": "JOD",
+   "indiceUE100": 51.2,
+   "source": "W21",
+   "detail": {
+    "icp": 61.4,
+    "maj": 0.933,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 51.2,
+    "moyen": 76.8,
+    "confortable": 174.1
+   }
+  },
+  "EG": {
+   "nom": "Égypte",
+   "devise": "EGP",
+   "indiceUE100": 15,
+   "source": "W21",
+   "detail": {
+    "icp": 28.9,
+    "maj": 0.584,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 15,
+    "moyen": 22.5,
+    "confortable": 51
+   }
+  },
+  "LY": {
+   "nom": "Libye",
+   "devise": "LYD",
+   "indiceUE100": 44.8,
+   "source": "WG",
+   "detail": {
+    "icpPib": 61.9,
+    "ratioRegion": 0.921,
+    "region": "MEA",
+    "maj": 0.882,
+    "majAn": 2024
+   },
+   "plafondEUR": {
+    "economique": 44.8,
+    "moyen": 67.2,
+    "confortable": 152.3
+   }
+  },
+  "MA": {
+   "nom": "Maroc",
+   "devise": "MAD",
+   "indiceUE100": 45.7,
+   "source": "W21",
+   "detail": {
+    "icp": 57.4,
+    "maj": 0.892,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 45.7,
+    "moyen": 68.5,
+    "confortable": 155.4
+   }
+  },
+  "DZ": {
+   "nom": "Algérie",
+   "devise": "DZD",
+   "indiceUE100": 32.5,
+   "source": "W21",
+   "detail": {
+    "icp": 33.6,
+    "maj": 1.082,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 32.5,
+    "moyen": 48.8,
+    "confortable": 110.5
+   }
+  },
+  "TN": {
+   "nom": "Tunisie",
+   "devise": "TND",
+   "indiceUE100": 29.2,
+   "source": "W21",
+   "detail": {
+    "icp": 33.2,
+    "maj": 0.986,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 29.2,
+    "moyen": 43.8,
+    "confortable": 99.3
+   }
+  },
+  "EH": {
+   "nom": "Sahara occidental",
+   "devise": "MAD",
+   "indiceUE100": 45.7,
+   "source": "P:MA",
+   "detail": {
+    "pays": "MA"
+   },
+   "plafondEUR": {
+    "economique": 45.7,
+    "moyen": 68.5,
+    "confortable": 155.4
+   }
+  },
+  "MR": {
+   "nom": "Mauritanie",
+   "devise": "MRU",
+   "indiceUE100": 51.3,
+   "source": "W21",
+   "detail": {
+    "icp": 56.9,
+    "maj": 1.01,
+    "majAn": 2023,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 51.3,
+    "moyen": 77,
+    "confortable": 174.4
+   }
+  },
+  "ML": {
+   "nom": "Mali",
+   "devise": "XOF",
+   "indiceUE100": 52.3,
+   "source": "W21",
+   "detail": {
+    "icp": 64.3,
+    "maj": 0.912,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 52.3,
+    "moyen": 78.5,
+    "confortable": 177.8
+   }
+  },
+  "SN": {
+   "nom": "Sénégal",
+   "devise": "XOF",
+   "indiceUE100": 54.3,
+   "source": "W21",
+   "detail": {
+    "icp": 65.8,
+    "maj": 0.925,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 54.3,
+    "moyen": 81.5,
+    "confortable": 184.6
+   }
+  },
+  "GM": {
+   "nom": "Gambie",
+   "devise": "GMD",
+   "indiceUE100": 39,
+   "source": "W21",
+   "detail": {
+    "icp": 45.7,
+    "maj": 0.957,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 39,
+    "moyen": 58.5,
+    "confortable": 132.6
+   }
+  },
+  "CV": {
+   "nom": "Cap-Vert",
+   "devise": "CVE",
+   "indiceUE100": 58.5,
+   "source": "W21",
+   "detail": {
+    "icp": 73.3,
+    "maj": 0.894,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 58.5,
+    "moyen": 87.8,
+    "confortable": 198.9
+   }
+  },
+  "GN": {
+   "nom": "Guinée",
+   "devise": "GNF",
+   "indiceUE100": 28.3,
+   "source": "W21",
+   "detail": {
+    "icp": 31.7,
+    "maj": null,
+    "majAn": null,
+    "majSerie": null
+   },
+   "plafondEUR": {
+    "economique": 28.3,
+    "moyen": 42.5,
+    "confortable": 96.2
+   }
+  },
+  "GW": {
+   "nom": "Guinée-Bissau",
+   "devise": "XOF",
+   "indiceUE100": 49.6,
+   "source": "W21",
+   "detail": {
+    "icp": 57.9,
+    "maj": 0.96,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 49.6,
+    "moyen": 74.4,
+    "confortable": 168.6
+   }
+  },
+  "SL": {
+   "nom": "Sierra Leone",
+   "devise": "SLE",
+   "indiceUE100": 34.6,
+   "source": "W21",
+   "detail": {
+    "icp": 47.4,
+    "maj": 0.818,
+    "majAn": 2023,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 34.6,
+    "moyen": 51.9,
+    "confortable": 117.6
+   }
+  },
+  "LR": {
+   "nom": "Liberia",
+   "devise": "LRD",
+   "indiceUE100": 60,
+   "source": "W21",
+   "detail": {
+    "icp": 69.9,
+    "maj": 0.962,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 60,
+    "moyen": 90,
+    "confortable": 204
+   }
+  },
+  "BF": {
+   "nom": "Burkina Faso",
+   "devise": "XOF",
+   "indiceUE100": 44.6,
+   "source": "W21",
+   "detail": {
+    "icp": 52.8,
+    "maj": 0.948,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 44.6,
+    "moyen": 66.9,
+    "confortable": 151.6
+   }
+  },
+  "CI": {
+   "nom": "Côte d'Ivoire",
+   "devise": "XOF",
+   "indiceUE100": 59.5,
+   "source": "W21",
+   "detail": {
+    "icp": 74.3,
+    "maj": 0.898,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 59.5,
+    "moyen": 89.3,
+    "confortable": 202.3
+   }
+  },
+  "GH": {
+   "nom": "Ghana",
+   "devise": "GHS",
+   "indiceUE100": 33.9,
+   "source": "W21",
+   "detail": {
+    "icp": 48.3,
+    "maj": 0.787,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 33.9,
+    "moyen": 50.9,
+    "confortable": 115.3
+   }
+  },
+  "TG": {
+   "nom": "Togo",
+   "devise": "XOF",
+   "indiceUE100": 61.3,
+   "source": "W21",
+   "detail": {
+    "icp": 74.2,
+    "maj": 0.926,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 61.3,
+    "moyen": 92,
+    "confortable": 208.4
+   }
+  },
+  "NE": {
+   "nom": "Niger",
+   "devise": "XOF",
+   "indiceUE100": 55.4,
+   "source": "W21",
+   "detail": {
+    "icp": 66.7,
+    "maj": 0.931,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 55.4,
+    "moyen": 83.1,
+    "confortable": 188.4
+   }
+  },
+  "BJ": {
+   "nom": "Bénin",
+   "devise": "XOF",
+   "indiceUE100": 43.7,
+   "source": "W21",
+   "detail": {
+    "icp": 58.9,
+    "maj": 0.832,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 43.7,
+    "moyen": 65.5,
+    "confortable": 148.6
+   }
+  },
+  "NG": {
+   "nom": "Nigeria",
+   "devise": "NGN",
+   "indiceUE100": 20.7,
+   "source": "W21",
+   "detail": {
+    "icp": 50.2,
+    "maj": 0.463,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 20.7,
+    "moyen": 31.1,
+    "confortable": 70.4
+   }
+  },
+  "TD": {
+   "nom": "Tchad",
+   "devise": "XAF",
+   "indiceUE100": 61.2,
+   "source": "W21",
+   "detail": {
+    "icp": 68,
+    "maj": 1.009,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 61.2,
+    "moyen": 91.8,
+    "confortable": 208.1
+   }
+  },
+  "CF": {
+   "nom": "République centrafricaine",
+   "devise": "XAF",
+   "indiceUE100": 72.3,
+   "source": "W21",
+   "detail": {
+    "icp": 92.9,
+    "maj": 0.872,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 72.3,
+    "moyen": 108.5,
+    "confortable": 245.8
+   }
+  },
+  "SD": {
+   "nom": "Soudan",
+   "devise": "SDG",
+   "indiceUE100": 38.4,
+   "source": "W21",
+   "detail": {
+    "icp": 28.7,
+    "maj": 1.5,
+    "majAn": 2022,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 38.4,
+    "moyen": 57.6,
+    "confortable": 130.6
+   }
+  },
+  "SS": {
+   "nom": "Soudan du Sud",
+   "devise": "SSP",
+   "indiceUE100": 45.3,
+   "source": "W21",
+   "detail": {
+    "icp": 50.7,
+    "maj": null,
+    "majAn": null,
+    "majSerie": null
+   },
+   "plafondEUR": {
+    "economique": 45.3,
+    "moyen": 68,
+    "confortable": 154
+   }
+  },
+  "ER": {
+   "nom": "Érythrée",
+   "devise": "ERN",
+   "indiceUE100": 44.7,
+   "source": "WG",
+   "detail": {
+    "icpPib": 51.9,
+    "ratioRegion": 0.965,
+    "region": "SSF",
+    "maj": null,
+    "majAn": null
+   },
+   "plafondEUR": {
+    "economique": 44.7,
+    "moyen": 67,
+    "confortable": 152
+   }
+  },
+  "ET": {
+   "nom": "Éthiopie",
+   "devise": "ETB",
+   "indiceUE100": 25.3,
+   "source": "W21",
+   "detail": {
+    "icp": 29.4,
+    "maj": 0.965,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 25.3,
+    "moyen": 38,
+    "confortable": 86
+   }
+  },
+  "DJ": {
+   "nom": "Djibouti",
+   "devise": "DJF",
+   "indiceUE100": 45.7,
+   "source": "W21",
+   "detail": {
+    "icp": 54.4,
+    "maj": 0.941,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 45.7,
+    "moyen": 68.5,
+    "confortable": 155.4
+   }
+  },
+  "SO": {
+   "nom": "Somalie",
+   "devise": "SOS",
+   "indiceUE100": 47.4,
+   "source": "W21",
+   "detail": {
+    "icp": 53.1,
+    "maj": null,
+    "majAn": null,
+    "majSerie": null
+   },
+   "plafondEUR": {
+    "economique": 47.4,
+    "moyen": 71.1,
+    "confortable": 161.2
+   }
+  },
+  "KE": {
+   "nom": "Kenya",
+   "devise": "KES",
+   "indiceUE100": 32.8,
+   "source": "W21",
+   "detail": {
+    "icp": 43.2,
+    "maj": 0.851,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 32.8,
+    "moyen": 49.2,
+    "confortable": 111.5
+   }
+  },
+  "UG": {
+   "nom": "Ouganda",
+   "devise": "UGX",
+   "indiceUE100": 51.5,
+   "source": "W21",
+   "detail": {
+    "icp": 60,
+    "maj": 0.962,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 51.5,
+    "moyen": 77.3,
+    "confortable": 175.1
+   }
+  },
+  "TZ": {
+   "nom": "Tanzanie",
+   "devise": "TZS",
+   "indiceUE100": 25.6,
+   "source": "W21",
+   "detail": {
+    "icp": 33.6,
+    "maj": 0.853,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 25.6,
+    "moyen": 38.4,
+    "confortable": 87
+   }
+  },
+  "RW": {
+   "nom": "Rwanda",
+   "devise": "RWF",
+   "indiceUE100": 42.7,
+   "source": "W21",
+   "detail": {
+    "icp": 51.5,
+    "maj": 0.93,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 42.7,
+    "moyen": 64,
+    "confortable": 145.2
+   }
+  },
+  "BI": {
+   "nom": "Burundi",
+   "devise": "BIF",
+   "indiceUE100": 34.1,
+   "source": "W21",
+   "detail": {
+    "icp": 35.6,
+    "maj": 1.072,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 34.1,
+    "moyen": 51.1,
+    "confortable": 115.9
+   }
+  },
+  "CD": {
+   "nom": "République démocratique du Congo",
+   "devise": "CDF",
+   "indiceUE100": 50.4,
+   "source": "W21",
+   "detail": {
+    "icp": 60.3,
+    "maj": 0.937,
+    "majAn": 2023,
+    "majSerie": "PIB"
+   },
+   "plafondEUR": {
+    "economique": 50.4,
+    "moyen": 75.6,
+    "confortable": 171.4
+   }
+  },
+  "CG": {
+   "nom": "République du Congo",
+   "devise": "XAF",
+   "indiceUE100": 43.9,
+   "source": "W21",
+   "detail": {
+    "icp": 56.2,
+    "maj": 0.875,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 43.9,
+    "moyen": 65.8,
+    "confortable": 149.3
+   }
+  },
+  "GA": {
+   "nom": "Gabon",
+   "devise": "XAF",
+   "indiceUE100": 52,
+   "source": "W21",
+   "detail": {
+    "icp": 67.5,
+    "maj": 0.863,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 52,
+    "moyen": 78,
+    "confortable": 176.8
+   }
+  },
+  "GQ": {
+   "nom": "Guinée équatoriale",
+   "devise": "XAF",
+   "indiceUE100": 56.2,
+   "source": "W21",
+   "detail": {
+    "icp": 71.9,
+    "maj": 0.876,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 56.2,
+    "moyen": 84.3,
+    "confortable": 191.1
+   }
+  },
+  "ST": {
+   "nom": "Sao Tomé-et-Principe",
+   "devise": "STN",
+   "indiceUE100": 71.5,
+   "source": "W21",
+   "detail": {
+    "icp": 62,
+    "maj": 1.293,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 71.5,
+    "moyen": 107.3,
+    "confortable": 243.1
+   }
+  },
+  "AO": {
+   "nom": "Angola",
+   "devise": "AOA",
+   "indiceUE100": 41.3,
+   "source": "W21",
+   "detail": {
+    "icp": 41.8,
+    "maj": 1.109,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 41.3,
+    "moyen": 62,
+    "confortable": 140.4
+   }
+  },
+  "ZM": {
+   "nom": "Zambie",
+   "devise": "ZMW",
+   "indiceUE100": 32.5,
+   "source": "W21",
+   "detail": {
+    "icp": 38.9,
+    "maj": 0.935,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 32.5,
+    "moyen": 48.8,
+    "confortable": 110.5
+   }
+  },
+  "MW": {
+   "nom": "Malawi",
+   "devise": "MWK",
+   "indiceUE100": 45.8,
+   "source": "W21",
+   "detail": {
+    "icp": 53.4,
+    "maj": 0.962,
+    "majAn": 2023,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 45.8,
+    "moyen": 68.7,
+    "confortable": 155.7
+   }
+  },
+  "MZ": {
+   "nom": "Mozambique",
+   "devise": "MZN",
+   "indiceUE100": 46.6,
+   "source": "W21",
+   "detail": {
+    "icp": 48,
+    "maj": 1.088,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 46.6,
+    "moyen": 69.9,
+    "confortable": 158.4
+   }
+  },
+  "ZW": {
+   "nom": "Zimbabwe",
+   "devise": "ZWG",
+   "indiceUE100": 45.6,
+   "source": "R:SSF-LMC",
+   "detail": {
+    "region": "SSF",
+    "revenu": "LMC",
+    "pays": [
+     "AO",
+     "BJ",
+     "CG",
+     "CI",
+     "CM",
+     "GH",
+     "GN",
+     "KE",
+     "KM",
+     "LS",
+     "MR",
+     "NA",
+     "NG",
+     "SN",
+     "ST",
+     "SZ",
+     "TG",
+     "TZ",
+     "ZM"
+    ],
+    "motif": "changements de monnaie (ZWL puis ZiG, 2024) : actualisation Banque mondiale incohérente"
+   },
+   "plafondEUR": {
+    "economique": 45.6,
+    "moyen": 68.4,
+    "confortable": 155
+   }
+  },
+  "BW": {
+   "nom": "Botswana",
+   "devise": "BWP",
+   "indiceUE100": 73.3,
+   "source": "W21",
+   "detail": {
+    "icp": 96.4,
+    "maj": 0.852,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 73.3,
+    "moyen": 110,
+    "confortable": 249.2
+   }
+  },
+  "NA": {
+   "nom": "Namibie",
+   "devise": "NAD",
+   "indiceUE100": 47.5,
+   "source": "W21",
+   "detail": {
+    "icp": 65.3,
+    "maj": 0.815,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 47.5,
+    "moyen": 71.3,
+    "confortable": 161.5
+   }
+  },
+  "ZA": {
+   "nom": "Afrique du Sud",
+   "devise": "ZAR",
+   "indiceUE100": 44.2,
+   "source": "W21",
+   "detail": {
+    "icp": 60.1,
+    "maj": 0.825,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 44.2,
+    "moyen": 66.3,
+    "confortable": 150.3
+   }
+  },
+  "SZ": {
+   "nom": "Eswatini",
+   "devise": "SZL",
+   "indiceUE100": 50,
+   "source": "W21",
+   "detail": {
+    "icp": 67.6,
+    "maj": 0.829,
+    "majAn": 2024,
+    "majSerie": "PIB"
+   },
+   "plafondEUR": {
+    "economique": 50,
+    "moyen": 75,
+    "confortable": 170
+   }
+  },
+  "LS": {
+   "nom": "Lesotho",
+   "devise": "LSL",
+   "indiceUE100": 50.6,
+   "source": "W21",
+   "detail": {
+    "icp": 66.6,
+    "maj": 0.851,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 50.6,
+    "moyen": 75.9,
+    "confortable": 172
+   }
+  },
+  "KM": {
+   "nom": "Comores",
+   "devise": "KMF",
+   "indiceUE100": 68,
+   "source": "W21",
+   "detail": {
+    "icp": 75.3,
+    "maj": 1.013,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 68,
+    "moyen": 102,
+    "confortable": 231.2
+   }
+  },
+  "MG": {
+   "nom": "Madagascar",
+   "devise": "MGA",
+   "indiceUE100": 26.6,
+   "source": "W21",
+   "detail": {
+    "icp": 31.8,
+    "maj": 0.935,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 26.6,
+    "moyen": 39.9,
+    "confortable": 90.4
+   }
+  },
+  "MU": {
+   "nom": "Maurice",
+   "devise": "MUR",
+   "indiceUE100": 69.8,
+   "source": "W21",
+   "detail": {
+    "icp": 82,
+    "maj": 0.953,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 69.8,
+    "moyen": 104.7,
+    "confortable": 237.3
+   }
+  },
+  "SC": {
+   "nom": "Seychelles",
+   "devise": "SCR",
+   "indiceUE100": 113.5,
+   "source": "W21",
+   "detail": {
+    "icp": 124.2,
+    "maj": 1.025,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 113.5,
+    "moyen": 170.3,
+    "confortable": 385.9
+   }
+  },
+  "CM": {
+   "nom": "Cameroun",
+   "devise": "XAF",
+   "indiceUE100": 50.6,
+   "source": "W21",
+   "detail": {
+    "icp": 60.2,
+    "maj": 0.942,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 50.6,
+    "moyen": 75.9,
+    "confortable": 172
+   }
+  },
+  "SH": {
+   "nom": "Sainte-Hélène, Ascension et Tristan da Cunha",
+   "devise": "SHP",
+   "indiceUE100": 101.1,
+   "source": "P:GB",
+   "detail": {
+    "pays": "GB"
+   },
+   "plafondEUR": {
+    "economique": 101.1,
+    "moyen": 151.7,
+    "confortable": 343.7
+   }
+  },
+  "TF": {
+   "nom": "Terres australes et antarctiques françaises",
+   "devise": "EUR",
+   "indiceUE100": 110,
+   "source": "P:FR",
+   "detail": {
+    "pays": "FR"
+   },
+   "plafondEUR": {
+    "economique": 110,
+    "moyen": 165,
+    "confortable": 374
+   }
+  },
+  "RU": {
+   "nom": "Russie",
+   "devise": "RUB",
+   "indiceUE100": 55.6,
+   "source": "W17",
+   "detail": {
+    "icp": 80,
+    "maj": 0.708,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 55.6,
+    "moyen": 83.4,
+    "confortable": 189
+   }
+  },
+  "SJ": {
+   "nom": "Svalbard et Jan Mayen",
+   "devise": "NOK",
+   "indiceUE100": 140,
+   "source": "P:NO",
+   "detail": {
+    "pays": "NO"
+   },
+   "plafondEUR": {
+    "economique": 140,
+    "moyen": 210,
+    "confortable": 476
+   }
+  },
+  "SA": {
+   "nom": "Arabie saoudite",
+   "devise": "SAR",
+   "indiceUE100": 62.6,
+   "source": "W21",
+   "detail": {
+    "icp": 76.2,
+    "maj": 0.921,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 62.6,
+    "moyen": 93.9,
+    "confortable": 212.8
+   }
+  },
+  "BH": {
+   "nom": "Bahreïn",
+   "devise": "BHD",
+   "indiceUE100": 57.9,
+   "source": "W21",
+   "detail": {
+    "icp": 71.8,
+    "maj": 0.904,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 57.9,
+    "moyen": 86.8,
+    "confortable": 196.9
+   }
+  },
+  "AE": {
+   "nom": "Émirats arabes unis",
+   "devise": "AED",
+   "indiceUE100": 93.1,
+   "source": "W21",
+   "detail": {
+    "icp": 111.1,
+    "maj": 0.94,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 93.1,
+    "moyen": 139.7,
+    "confortable": 316.5
+   }
+  },
+  "IQ": {
+   "nom": "Irak",
+   "devise": "IQD",
+   "indiceUE100": 53.2,
+   "source": "W21",
+   "detail": {
+    "icp": 55,
+    "maj": 1.083,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 53.2,
+    "moyen": 79.8,
+    "confortable": 180.9
+   }
+  },
+  "IR": {
+   "nom": "Iran",
+   "devise": "IRR",
+   "indiceUE100": 45.4,
+   "source": "R:MEA-UMC",
+   "detail": {
+    "region": "MEA",
+    "revenu": "UMC",
+    "pays": [
+     "DZ",
+     "IQ",
+     "JO",
+     "LY"
+    ],
+    "motif": "taux officiel 42 000 IRR/USD très éloigné du marché : actualisation incohérente"
+   },
+   "plafondEUR": {
+    "economique": 45.4,
+    "moyen": 68.1,
+    "confortable": 154.4
+   }
+  },
+  "KW": {
+   "nom": "Koweït",
+   "devise": "KWD",
+   "indiceUE100": 91.1,
+   "source": "W21",
+   "detail": {
+    "icp": 108.4,
+    "maj": 0.942,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 91.1,
+    "moyen": 136.7,
+    "confortable": 309.7
+   }
+  },
+  "OM": {
+   "nom": "Oman",
+   "devise": "OMR",
+   "indiceUE100": 55.8,
+   "source": "W21",
+   "detail": {
+    "icp": 69.5,
+    "maj": 0.899,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 55.8,
+    "moyen": 83.7,
+    "confortable": 189.7
+   }
+  },
+  "QA": {
+   "nom": "Qatar",
+   "devise": "QAR",
+   "indiceUE100": 89.4,
+   "source": "W21",
+   "detail": {
+    "icp": 106,
+    "maj": 0.946,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 89.4,
+    "moyen": 134.1,
+    "confortable": 304
+   }
+  },
+  "YE": {
+   "nom": "Yémen",
+   "devise": "YER",
+   "indiceUE100": 41.1,
+   "source": "R:MEA-LIC",
+   "detail": {
+    "region": "MEA",
+    "revenu": "LIC",
+    "pays": [
+     "AF",
+     "SY"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 41.1,
+    "moyen": 61.6,
+    "confortable": 139.7
+   }
+  },
+  "AF": {
+   "nom": "Afghanistan",
+   "devise": "AFN",
+   "indiceUE100": 21.7,
+   "source": "WG",
+   "detail": {
+    "icpPib": 26.4,
+    "ratioRegion": 0.921,
+    "region": "MEA",
+    "maj": null,
+    "majAn": null
+   },
+   "plafondEUR": {
+    "economique": 21.7,
+    "moyen": 32.5,
+    "confortable": 73.8
+   }
+  },
+  "KZ": {
+   "nom": "Kazakhstan",
+   "devise": "KZT",
+   "indiceUE100": 47.1,
+   "source": "W21",
+   "detail": {
+    "icp": 47,
+    "maj": 1.123,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 47.1,
+    "moyen": 70.7,
+    "confortable": 160.1
+   }
+  },
+  "KG": {
+   "nom": "Kirghizstan",
+   "devise": "KGS",
+   "indiceUE100": 49.9,
+   "source": "W21",
+   "detail": {
+    "icp": 50.3,
+    "maj": 1.111,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 49.9,
+    "moyen": 74.8,
+    "confortable": 169.7
+   }
+  },
+  "UZ": {
+   "nom": "Ouzbékistan",
+   "devise": "UZS",
+   "indiceUE100": 45.8,
+   "source": "W21",
+   "detail": {
+    "icp": 52.8,
+    "maj": 0.973,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 45.8,
+    "moyen": 68.7,
+    "confortable": 155.7
+   }
+  },
+  "TJ": {
+   "nom": "Tadjikistan",
+   "devise": "TJS",
+   "indiceUE100": 50,
+   "source": "W21",
+   "detail": {
+    "icp": 50.1,
+    "maj": 1.118,
+    "majAn": 2024,
+    "majSerie": "PIB"
+   },
+   "plafondEUR": {
+    "economique": 50,
+    "moyen": 75,
+    "confortable": 170
+   }
+  },
+  "TM": {
+   "nom": "Turkménistan",
+   "devise": "TMT",
+   "indiceUE100": 72.4,
+   "source": "WG",
+   "detail": {
+    "icpPib": 68,
+    "ratioRegion": 1.194,
+    "region": "ECS",
+    "maj": null,
+    "majAn": null
+   },
+   "plafondEUR": {
+    "economique": 72.4,
+    "moyen": 108.6,
+    "confortable": 246.2
+   }
+  },
+  "BD": {
+   "nom": "Bangladesh",
+   "devise": "BDT",
+   "indiceUE100": 29.3,
+   "source": "W21",
+   "detail": {
+    "icp": 39.5,
+    "maj": 0.831,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 29.3,
+    "moyen": 44,
+    "confortable": 99.6
+   }
+  },
+  "BT": {
+   "nom": "Bhoutan",
+   "devise": "BTN",
+   "indiceUE100": 21.7,
+   "source": "W21",
+   "detail": {
+    "icp": 28.2,
+    "maj": 0.863,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 21.7,
+    "moyen": 32.5,
+    "confortable": 73.8
+   }
+  },
+  "IN": {
+   "nom": "Inde",
+   "devise": "INR",
+   "indiceUE100": 31.5,
+   "source": "W21",
+   "detail": {
+    "icp": 39.1,
+    "maj": 0.903,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 31.5,
+    "moyen": 47.3,
+    "confortable": 107.1
+   }
+  },
+  "MV": {
+   "nom": "Maldives",
+   "devise": "MVR",
+   "indiceUE100": 56.7,
+   "source": "W21",
+   "detail": {
+    "icp": 69,
+    "maj": 0.921,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 56.7,
+    "moyen": 85,
+    "confortable": 192.8
+   }
+  },
+  "NP": {
+   "nom": "Népal",
+   "devise": "NPR",
+   "indiceUE100": 30.1,
+   "source": "W21",
+   "detail": {
+    "icp": 36.6,
+    "maj": 0.921,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 30.1,
+    "moyen": 45.1,
+    "confortable": 102.3
+   }
+  },
+  "PK": {
+   "nom": "Pakistan",
+   "devise": "PKR",
+   "indiceUE100": 28.1,
+   "source": "W21",
+   "detail": {
+    "icp": 35.4,
+    "maj": 0.892,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 28.1,
+    "moyen": 42.1,
+    "confortable": 95.5
+   }
+  },
+  "LK": {
+   "nom": "Sri Lanka",
+   "devise": "LKR",
+   "indiceUE100": 29.1,
+   "source": "W21",
+   "detail": {
+    "icp": 34.6,
+    "maj": 0.942,
+    "majAn": 2023,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 29.1,
+    "moyen": 43.6,
+    "confortable": 98.9
+   }
+  },
+  "IO": {
+   "nom": "Territoire britannique de l'océan Indien",
+   "devise": "USD",
+   "indiceUE100": 101.1,
+   "source": "P:GB",
+   "detail": {
+    "pays": "GB"
+   },
+   "plafondEUR": {
+    "economique": 101.1,
+    "moyen": 151.7,
+    "confortable": 343.7
+   }
+  },
+  "CN": {
+   "nom": "Chine",
+   "devise": "CNY",
+   "indiceUE100": 59.9,
+   "source": "W21",
+   "detail": {
+    "icp": 84.7,
+    "maj": 0.793,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 59.9,
+    "moyen": 89.8,
+    "confortable": 203.7
+   }
+  },
+  "HK": {
+   "nom": "Hong Kong",
+   "devise": "HKD",
+   "indiceUE100": 75.2,
+   "source": "W21",
+   "detail": {
+    "icp": 92.6,
+    "maj": 0.91,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 75.2,
+    "moyen": 112.8,
+    "confortable": 255.7
+   }
+  },
+  "MO": {
+   "nom": "Macao",
+   "devise": "MOP",
+   "indiceUE100": 65.8,
+   "source": "WG",
+   "detail": {
+    "icpPib": 96.9,
+    "ratioRegion": 0.865,
+    "region": "EAS",
+    "maj": 0.879,
+    "majAn": 2024
+   },
+   "plafondEUR": {
+    "economique": 65.8,
+    "moyen": 98.7,
+    "confortable": 223.7
+   }
+  },
+  "KP": {
+   "nom": "Corée du Nord",
+   "devise": "KPW",
+   "indiceUE100": 34.6,
+   "source": "R:EAS-LMC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "LMC",
+    "pays": [
+     "KH",
+     "LA",
+     "MM"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 34.6,
+    "moyen": 51.9,
+    "confortable": 117.6
+   }
+  },
+  "KR": {
+   "nom": "Corée du Sud",
+   "devise": "KRW",
+   "indiceUE100": 96.3,
+   "source": "W21",
+   "detail": {
+    "icp": 141.7,
+    "maj": 0.762,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 96.3,
+    "moyen": 144.4,
+    "confortable": 327.4
+   }
+  },
+  "JP": {
+   "nom": "Japon",
+   "devise": "JPY",
+   "indiceUE100": 86.9,
+   "source": "W21",
+   "detail": {
+    "icp": 147.9,
+    "maj": 0.658,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 86.9,
+    "moyen": 130.3,
+    "confortable": 295.5
+   }
+  },
+  "MN": {
+   "nom": "Mongolie",
+   "devise": "MNT",
+   "indiceUE100": 38.1,
+   "source": "W21",
+   "detail": {
+    "icp": 43.6,
+    "maj": 0.98,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 38.1,
+    "moyen": 57.1,
+    "confortable": 129.5
+   }
+  },
+  "TW": {
+   "nom": "Taïwan",
+   "devise": "TWD",
+   "indiceUE100": 88.2,
+   "source": "R:EAS-HIC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "HIC",
+    "pays": [
+     "AU",
+     "BN",
+     "HK",
+     "JP",
+     "KR",
+     "MO",
+     "NZ",
+     "SG"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 88.2,
+    "moyen": 132.3,
+    "confortable": 299.9
+   }
+  },
+  "BN": {
+   "nom": "Brunei",
+   "devise": "BND",
+   "indiceUE100": 53.1,
+   "source": "W21",
+   "detail": {
+    "icp": 66.1,
+    "maj": 0.901,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 53.1,
+    "moyen": 79.7,
+    "confortable": 180.5
+   }
+  },
+  "KH": {
+   "nom": "Cambodge",
+   "devise": "KHR",
+   "indiceUE100": 39.2,
+   "source": "W21",
+   "detail": {
+    "icp": 46.6,
+    "maj": 0.943,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 39.2,
+    "moyen": 58.8,
+    "confortable": 133.3
+   }
+  },
+  "ID": {
+   "nom": "Indonésie",
+   "devise": "IDR",
+   "indiceUE100": 34.4,
+   "source": "W21",
+   "detail": {
+    "icp": 44.8,
+    "maj": 0.861,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 34.4,
+    "moyen": 51.6,
+    "confortable": 117
+   }
+  },
+  "LA": {
+   "nom": "Laos",
+   "devise": "LAK",
+   "indiceUE100": 35.3,
+   "source": "W21",
+   "detail": {
+    "icp": 48,
+    "maj": 0.825,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 35.3,
+    "moyen": 53,
+    "confortable": 120
+   }
+  },
+  "MY": {
+   "nom": "Malaisie",
+   "devise": "MYR",
+   "indiceUE100": 22.9,
+   "source": "W21",
+   "detail": {
+    "icp": 30.5,
+    "maj": 0.844,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 22.9,
+    "moyen": 34.4,
+    "confortable": 77.9
+   }
+  },
+  "MM": {
+   "nom": "Myanmar",
+   "devise": "MMK",
+   "indiceUE100": 29.3,
+   "source": "WG",
+   "detail": {
+    "icpPib": 38,
+    "ratioRegion": 0.865,
+    "region": "EAS",
+    "maj": null,
+    "majAn": null
+   },
+   "plafondEUR": {
+    "economique": 29.3,
+    "moyen": 44,
+    "confortable": 99.6
+   }
+  },
+  "PH": {
+   "nom": "Philippines",
+   "devise": "PHP",
+   "indiceUE100": 36.8,
+   "source": "W21",
+   "detail": {
+    "icp": 48,
+    "maj": 0.86,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 36.8,
+    "moyen": 55.2,
+    "confortable": 125.1
+   }
+  },
+  "SG": {
+   "nom": "Singapour",
+   "devise": "SGD",
+   "indiceUE100": 61.5,
+   "source": "W21",
+   "detail": {
+    "icp": 69.7,
+    "maj": 0.989,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 61.5,
+    "moyen": 92.3,
+    "confortable": 209.1
+   }
+  },
+  "TH": {
+   "nom": "Thaïlande",
+   "devise": "THB",
+   "indiceUE100": 31.3,
+   "source": "W21",
+   "detail": {
+    "icp": 41.6,
+    "maj": 0.844,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 31.3,
+    "moyen": 47,
+    "confortable": 106.4
+   }
+  },
+  "TL": {
+   "nom": "Timor oriental",
+   "devise": "USD",
+   "indiceUE100": 34.6,
+   "source": "R:EAS-LMC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "LMC",
+    "pays": [
+     "KH",
+     "LA",
+     "MM"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 34.6,
+    "moyen": 51.9,
+    "confortable": 117.6
+   }
+  },
+  "VN": {
+   "nom": "Viêt Nam",
+   "devise": "VND",
+   "indiceUE100": 29.3,
+   "source": "W21",
+   "detail": {
+    "icp": 36,
+    "maj": 0.914,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 29.3,
+    "moyen": 44,
+    "confortable": 99.6
+   }
+  },
+  "CX": {
+   "nom": "Île Christmas",
+   "devise": "AUD",
+   "indiceUE100": 139.4,
+   "source": "P:AU",
+   "detail": {
+    "pays": "AU"
+   },
+   "plafondEUR": {
+    "economique": 139.4,
+    "moyen": 209.1,
+    "confortable": 474
+   }
+  },
+  "CC": {
+   "nom": "Îles Cocos",
+   "devise": "AUD",
+   "indiceUE100": 139.4,
+   "source": "P:AU",
+   "detail": {
+    "pays": "AU"
+   },
+   "plafondEUR": {
+    "economique": 139.4,
+    "moyen": 209.1,
+    "confortable": 474
+   }
+  },
+  "AU": {
+   "nom": "Australie",
+   "devise": "AUD",
+   "indiceUE100": 139.4,
+   "source": "W21",
+   "detail": {
+    "icp": 187.5,
+    "maj": 0.834,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 139.4,
+    "moyen": 209.1,
+    "confortable": 474
+   }
+  },
+  "NZ": {
+   "nom": "Nouvelle-Zélande",
+   "devise": "NZD",
+   "indiceUE100": 127.5,
+   "source": "W21",
+   "detail": {
+    "icp": 173.4,
+    "maj": 0.824,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 127.5,
+    "moyen": 191.3,
+    "confortable": 433.5
+   }
+  },
+  "PG": {
+   "nom": "Papouasie-Nouvelle-Guinée",
+   "devise": "PGK",
+   "indiceUE100": 34.6,
+   "source": "R:EAS-LMC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "LMC",
+    "pays": [
+     "KH",
+     "LA",
+     "MM"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 34.6,
+    "moyen": 51.9,
+    "confortable": 117.6
+   }
+  },
+  "SB": {
+   "nom": "Îles Salomon",
+   "devise": "SBD",
+   "indiceUE100": 34.6,
+   "source": "R:EAS-LMC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "LMC",
+    "pays": [
+     "KH",
+     "LA",
+     "MM"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 34.6,
+    "moyen": 51.9,
+    "confortable": 117.6
+   }
+  },
+  "VU": {
+   "nom": "Vanuatu",
+   "devise": "VUV",
+   "indiceUE100": 34.6,
+   "source": "R:EAS-LMC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "LMC",
+    "pays": [
+     "KH",
+     "LA",
+     "MM"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 34.6,
+    "moyen": 51.9,
+    "confortable": 117.6
+   }
+  },
+  "FJ": {
+   "nom": "Fidji",
+   "devise": "FJD",
+   "indiceUE100": 69.9,
+   "source": "W21",
+   "detail": {
+    "icp": 87.5,
+    "maj": 0.895,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 69.9,
+    "moyen": 104.8,
+    "confortable": 237.7
+   }
+  },
+  "WS": {
+   "nom": "Samoa",
+   "devise": "WST",
+   "indiceUE100": 40.3,
+   "source": "R:EAS-UMC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "UMC",
+    "pays": [
+     "CN",
+     "FJ",
+     "ID",
+     "MN",
+     "MY",
+     "PH",
+     "TH",
+     "VN"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 40.3,
+    "moyen": 60.5,
+    "confortable": 137
+   }
+  },
+  "TO": {
+   "nom": "Tonga",
+   "devise": "TOP",
+   "indiceUE100": 40.3,
+   "source": "R:EAS-UMC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "UMC",
+    "pays": [
+     "CN",
+     "FJ",
+     "ID",
+     "MN",
+     "MY",
+     "PH",
+     "TH",
+     "VN"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 40.3,
+    "moyen": 60.5,
+    "confortable": 137
+   }
+  },
+  "TV": {
+   "nom": "Tuvalu",
+   "devise": "AUD",
+   "indiceUE100": 40.3,
+   "source": "R:EAS-UMC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "UMC",
+    "pays": [
+     "CN",
+     "FJ",
+     "ID",
+     "MN",
+     "MY",
+     "PH",
+     "TH",
+     "VN"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 40.3,
+    "moyen": 60.5,
+    "confortable": 137
+   }
+  },
+  "KI": {
+   "nom": "Kiribati",
+   "devise": "AUD",
+   "indiceUE100": 34.6,
+   "source": "R:EAS-LMC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "LMC",
+    "pays": [
+     "KH",
+     "LA",
+     "MM"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 34.6,
+    "moyen": 51.9,
+    "confortable": 117.6
+   }
+  },
+  "NR": {
+   "nom": "Nauru",
+   "devise": "AUD",
+   "indiceUE100": 88.2,
+   "source": "R:EAS-HIC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "HIC",
+    "pays": [
+     "AU",
+     "BN",
+     "HK",
+     "JP",
+     "KR",
+     "MO",
+     "NZ",
+     "SG"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 88.2,
+    "moyen": 132.3,
+    "confortable": 299.9
+   }
+  },
+  "MH": {
+   "nom": "Îles Marshall",
+   "devise": "USD",
+   "indiceUE100": 40.3,
+   "source": "R:EAS-UMC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "UMC",
+    "pays": [
+     "CN",
+     "FJ",
+     "ID",
+     "MN",
+     "MY",
+     "PH",
+     "TH",
+     "VN"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 40.3,
+    "moyen": 60.5,
+    "confortable": 137
+   }
+  },
+  "FM": {
+   "nom": "États fédérés de Micronésie",
+   "devise": "USD",
+   "indiceUE100": 40.3,
+   "source": "R:EAS-UMC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "UMC",
+    "pays": [
+     "CN",
+     "FJ",
+     "ID",
+     "MN",
+     "MY",
+     "PH",
+     "TH",
+     "VN"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 40.3,
+    "moyen": 60.5,
+    "confortable": 137
+   }
+  },
+  "PW": {
+   "nom": "Palaos",
+   "devise": "USD",
+   "indiceUE100": 88.2,
+   "source": "R:EAS-HIC",
+   "detail": {
+    "region": "EAS",
+    "revenu": "HIC",
+    "pays": [
+     "AU",
+     "BN",
+     "HK",
+     "JP",
+     "KR",
+     "MO",
+     "NZ",
+     "SG"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 88.2,
+    "moyen": 132.3,
+    "confortable": 299.9
+   }
+  },
+  "NU": {
+   "nom": "Niue",
+   "devise": "NZD",
+   "indiceUE100": 127.5,
+   "source": "P:NZ",
+   "detail": {
+    "pays": "NZ"
+   },
+   "plafondEUR": {
+    "economique": 127.5,
+    "moyen": 191.3,
+    "confortable": 433.5
+   }
+  },
+  "CK": {
+   "nom": "Îles Cook",
+   "devise": "NZD",
+   "indiceUE100": 127.5,
+   "source": "P:NZ",
+   "detail": {
+    "pays": "NZ"
+   },
+   "plafondEUR": {
+    "economique": 127.5,
+    "moyen": 191.3,
+    "confortable": 433.5
+   }
+  },
+  "TK": {
+   "nom": "Tokelau",
+   "devise": "NZD",
+   "indiceUE100": 127.5,
+   "source": "P:NZ",
+   "detail": {
+    "pays": "NZ"
+   },
+   "plafondEUR": {
+    "economique": 127.5,
+    "moyen": 191.3,
+    "confortable": 433.5
+   }
+  },
+  "GU": {
+   "nom": "Guam",
+   "devise": "USD",
+   "indiceUE100": 126.7,
+   "source": "P:US",
+   "detail": {
+    "pays": "US"
+   },
+   "plafondEUR": {
+    "economique": 126.7,
+    "moyen": 190.1,
+    "confortable": 430.8
+   }
+  },
+  "MP": {
+   "nom": "Îles Mariannes du Nord",
+   "devise": "USD",
+   "indiceUE100": 126.7,
+   "source": "P:US",
+   "detail": {
+    "pays": "US"
+   },
+   "plafondEUR": {
+    "economique": 126.7,
+    "moyen": 190.1,
+    "confortable": 430.8
+   }
+  },
+  "AS": {
+   "nom": "Samoa américaines",
+   "devise": "USD",
+   "indiceUE100": 126.7,
+   "source": "P:US",
+   "detail": {
+    "pays": "US"
+   },
+   "plafondEUR": {
+    "economique": 126.7,
+    "moyen": 190.1,
+    "confortable": 430.8
+   }
+  },
+  "UM": {
+   "nom": "Îles mineures éloignées des États-Unis",
+   "devise": "USD",
+   "indiceUE100": 126.7,
+   "source": "P:US",
+   "detail": {
+    "pays": "US"
+   },
+   "plafondEUR": {
+    "economique": 126.7,
+    "moyen": 190.1,
+    "confortable": 430.8
+   }
+  },
+  "PN": {
+   "nom": "Pitcairn",
+   "devise": "NZD",
+   "indiceUE100": 127.5,
+   "source": "P:NZ",
+   "detail": {
+    "pays": "NZ"
+   },
+   "plafondEUR": {
+    "economique": 127.5,
+    "moyen": 191.3,
+    "confortable": 433.5
+   }
+  },
+  "NF": {
+   "nom": "Île Norfolk",
+   "devise": "AUD",
+   "indiceUE100": 139.4,
+   "source": "P:AU",
+   "detail": {
+    "pays": "AU"
+   },
+   "plafondEUR": {
+    "economique": 139.4,
+    "moyen": 209.1,
+    "confortable": 474
+   }
+  },
+  "HM": {
+   "nom": "Îles Heard-et-MacDonald",
+   "devise": "AUD",
+   "indiceUE100": 139.4,
+   "source": "P:AU",
+   "detail": {
+    "pays": "AU"
+   },
+   "plafondEUR": {
+    "economique": 139.4,
+    "moyen": 209.1,
+    "confortable": 474
+   }
+  },
+  "US": {
+   "nom": "États-Unis",
+   "devise": "USD",
+   "indiceUE100": 126.7,
+   "source": "W21",
+   "detail": {
+    "icp": 142,
+    "maj": 1,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 126.7,
+    "moyen": 190.1,
+    "confortable": 430.8
+   }
+  },
+  "CA": {
+   "nom": "Canada",
+   "devise": "CAD",
+   "indiceUE100": 122.9,
+   "source": "W21",
+   "detail": {
+    "icp": 150.8,
+    "maj": 0.913,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 122.9,
+    "moyen": 184.3,
+    "confortable": 417.9
+   }
+  },
+  "MX": {
+   "nom": "Mexique",
+   "devise": "MXN",
+   "indiceUE100": 80.2,
+   "source": "W21",
+   "detail": {
+    "icp": 84.3,
+    "maj": 1.067,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 80.2,
+    "moyen": 120.3,
+    "confortable": 272.7
+   }
+  },
+  "GL": {
+   "nom": "Groenland",
+   "devise": "DKK",
+   "indiceUE100": 125.1,
+   "source": "WG",
+   "detail": {
+    "icpPib": 132.9,
+    "ratioRegion": 1.194,
+    "region": "ECS",
+    "maj": 0.884,
+    "majAn": 2023
+   },
+   "plafondEUR": {
+    "economique": 125.1,
+    "moyen": 187.7,
+    "confortable": 425.3
+   }
+  },
+  "BM": {
+   "nom": "Bermudes",
+   "devise": "BMD",
+   "indiceUE100": 155.8,
+   "source": "W21",
+   "detail": {
+    "icp": 178.1,
+    "maj": 0.981,
+    "majAn": 2024,
+    "majSerie": "PIB"
+   },
+   "plafondEUR": {
+    "economique": 155.8,
+    "moyen": 233.7,
+    "confortable": 529.7
+   }
+  },
+  "GT": {
+   "nom": "Guatemala",
+   "devise": "GTQ",
+   "indiceUE100": 37,
+   "source": "W21",
+   "detail": {
+    "icp": 41.3,
+    "maj": 1.006,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 37,
+    "moyen": 55.5,
+    "confortable": 125.8
+   }
+  },
+  "BZ": {
+   "nom": "Belize",
+   "devise": "BZD",
+   "indiceUE100": 72.5,
+   "source": "W21",
+   "detail": {
+    "icp": 82.1,
+    "maj": 0.99,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 72.5,
+    "moyen": 108.8,
+    "confortable": 246.5
+   }
+  },
+  "SV": {
+   "nom": "Salvador",
+   "devise": "USD",
+   "indiceUE100": 65,
+   "source": "W21",
+   "detail": {
+    "icp": 75,
+    "maj": 0.972,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 65,
+    "moyen": 97.5,
+    "confortable": 221
+   }
+  },
+  "HN": {
+   "nom": "Honduras",
+   "devise": "HNL",
+   "indiceUE100": 71.1,
+   "source": "W21",
+   "detail": {
+    "icp": 78.3,
+    "maj": 1.018,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 71.1,
+    "moyen": 106.7,
+    "confortable": 241.7
+   }
+  },
+  "NI": {
+   "nom": "Nicaragua",
+   "devise": "NIO",
+   "indiceUE100": 44.8,
+   "source": "W21",
+   "detail": {
+    "icp": 48.3,
+    "maj": 1.039,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 44.8,
+    "moyen": 67.2,
+    "confortable": 152.3
+   }
+  },
+  "CR": {
+   "nom": "Costa Rica",
+   "devise": "CRC",
+   "indiceUE100": 86.6,
+   "source": "W21",
+   "detail": {
+    "icp": 89.2,
+    "maj": 1.088,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 86.6,
+    "moyen": 129.9,
+    "confortable": 294.4
+   }
+  },
+  "PA": {
+   "nom": "Panama",
+   "devise": "PAB",
+   "indiceUE100": 63.3,
+   "source": "W21",
+   "detail": {
+    "icp": 78.2,
+    "maj": 0.908,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 63.3,
+    "moyen": 95,
+    "confortable": 215.2
+   }
+  },
+  "CU": {
+   "nom": "Cuba",
+   "devise": "CUP",
+   "indiceUE100": 67.4,
+   "source": "R:LCN-UMC",
+   "detail": {
+    "region": "LCN",
+    "revenu": "UMC",
+    "pays": [
+     "AR",
+     "BR",
+     "BZ",
+     "CO",
+     "DM",
+     "DO",
+     "EC",
+     "GD",
+     "GT",
+     "JM",
+     "LC",
+     "MX",
+     "PE",
+     "PY",
+     "SR",
+     "SV",
+     "VC"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 67.4,
+    "moyen": 101.1,
+    "confortable": 229.2
+   }
+  },
+  "JM": {
+   "nom": "Jamaïque",
+   "devise": "JMD",
+   "indiceUE100": 66.7,
+   "source": "W21",
+   "detail": {
+    "icp": 72.6,
+    "maj": 1.031,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 66.7,
+    "moyen": 100,
+    "confortable": 226.8
+   }
+  },
+  "HT": {
+   "nom": "Haïti",
+   "devise": "HTG",
+   "indiceUE100": 74.6,
+   "source": "W17",
+   "detail": {
+    "icp": 45.2,
+    "maj": 1.684,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 74.6,
+    "moyen": 111.9,
+    "confortable": 253.6
+   }
+  },
+  "DO": {
+   "nom": "République dominicaine",
+   "devise": "DOP",
+   "indiceUE100": 69.1,
+   "source": "W21",
+   "detail": {
+    "icp": 79.3,
+    "maj": 0.977,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 69.1,
+    "moyen": 103.7,
+    "confortable": 234.9
+   }
+  },
+  "BS": {
+   "nom": "Bahamas",
+   "devise": "BSD",
+   "indiceUE100": 114.9,
+   "source": "W17",
+   "detail": {
+    "icp": 119,
+    "maj": 0.985,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 114.9,
+    "moyen": 172.3,
+    "confortable": 390.7
+   }
+  },
+  "KN": {
+   "nom": "Saint-Kitts-et-Nevis",
+   "devise": "XCD",
+   "indiceUE100": 101.1,
+   "source": "W21",
+   "detail": {
+    "icp": 119.9,
+    "maj": 0.946,
+    "majAn": 2023,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 101.1,
+    "moyen": 151.7,
+    "confortable": 343.7
+   }
+  },
+  "AG": {
+   "nom": "Antigua-et-Barbuda",
+   "devise": "XCD",
+   "indiceUE100": 84.2,
+   "source": "W21",
+   "detail": {
+    "icp": 91.1,
+    "maj": 1.036,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 84.2,
+    "moyen": 126.3,
+    "confortable": 286.3
+   }
+  },
+  "DM": {
+   "nom": "Dominique",
+   "devise": "XCD",
+   "indiceUE100": 64.3,
+   "source": "W21",
+   "detail": {
+    "icp": 75.1,
+    "maj": 0.96,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 64.3,
+    "moyen": 96.5,
+    "confortable": 218.6
+   }
+  },
+  "LC": {
+   "nom": "Sainte-Lucie",
+   "devise": "XCD",
+   "indiceUE100": 90,
+   "source": "W21",
+   "detail": {
+    "icp": 103.2,
+    "maj": 0.977,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 90,
+    "moyen": 135,
+    "confortable": 306
+   }
+  },
+  "VC": {
+   "nom": "Saint-Vincent-et-les-Grenadines",
+   "devise": "XCD",
+   "indiceUE100": 112,
+   "source": "W21",
+   "detail": {
+    "icp": 126.9,
+    "maj": 0.989,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 112,
+    "moyen": 168,
+    "confortable": 380.8
+   }
+  },
+  "BB": {
+   "nom": "Barbade",
+   "devise": "BBD",
+   "indiceUE100": 122,
+   "source": "W17",
+   "detail": {
+    "icp": 124.8,
+    "maj": 0.996,
+    "majAn": 2024,
+    "majSerie": "PIB"
+   },
+   "plafondEUR": {
+    "economique": 122,
+    "moyen": 183,
+    "confortable": 414.8
+   }
+  },
+  "GD": {
+   "nom": "Grenade",
+   "devise": "XCD",
+   "indiceUE100": 75.9,
+   "source": "W21",
+   "detail": {
+    "icp": 92.5,
+    "maj": 0.92,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 75.9,
+    "moyen": 113.8,
+    "confortable": 258.1
+   }
+  },
+  "TT": {
+   "nom": "Trinité-et-Tobago",
+   "devise": "TTD",
+   "indiceUE100": 125.4,
+   "source": "W21",
+   "detail": {
+    "icp": 146,
+    "maj": 0.963,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 125.4,
+    "moyen": 188.1,
+    "confortable": 426.4
+   }
+  },
+  "PR": {
+   "nom": "Porto Rico",
+   "devise": "USD",
+   "indiceUE100": 112.4,
+   "source": "WG",
+   "detail": {
+    "icpPib": 127.4,
+    "ratioRegion": 1.017,
+    "region": "LCN",
+    "maj": 0.972,
+    "majAn": 2024
+   },
+   "plafondEUR": {
+    "economique": 112.4,
+    "moyen": 168.6,
+    "confortable": 382.2
+   }
+  },
+  "VI": {
+   "nom": "Îles Vierges des États-Unis",
+   "devise": "USD",
+   "indiceUE100": 128,
+   "source": "WG",
+   "detail": {
+    "icpPib": 143.8,
+    "ratioRegion": 1.017,
+    "region": "LCN",
+    "maj": 0.981,
+    "majAn": 2022
+   },
+   "plafondEUR": {
+    "economique": 128,
+    "moyen": 192,
+    "confortable": 435.2
+   }
+  },
+  "TC": {
+   "nom": "Îles Turques-et-Caïques",
+   "devise": "USD",
+   "indiceUE100": 157.4,
+   "source": "W17",
+   "detail": {
+    "icp": 162.2,
+    "maj": 0.99,
+    "majAn": 2024,
+    "majSerie": "PIB"
+   },
+   "plafondEUR": {
+    "economique": 157.4,
+    "moyen": 236.1,
+    "confortable": 535.2
+   }
+  },
+  "KY": {
+   "nom": "Îles Caïmans",
+   "devise": "KYD",
+   "indiceUE100": 104.9,
+   "source": "W21",
+   "detail": {
+    "icp": 121.2,
+    "maj": 0.97,
+    "majAn": 2024,
+    "majSerie": "PIB"
+   },
+   "plafondEUR": {
+    "economique": 104.9,
+    "moyen": 157.3,
+    "confortable": 356.7
+   }
+  },
+  "VG": {
+   "nom": "Îles Vierges britanniques",
+   "devise": "USD",
+   "indiceUE100": 129.5,
+   "source": "W21",
+   "detail": {
+    "icp": 145.2,
+    "maj": null,
+    "majAn": null,
+    "majSerie": null
+   },
+   "plafondEUR": {
+    "economique": 129.5,
+    "moyen": 194.3,
+    "confortable": 440.3
+   }
+  },
+  "AI": {
+   "nom": "Anguilla",
+   "devise": "XCD",
+   "indiceUE100": 87.9,
+   "source": "R:ECCU",
+   "detail": {
+    "region": "ECCU",
+    "pays": [
+     "AG",
+     "DM",
+     "GD",
+     "KN",
+     "LC",
+     "VC"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021 ; moyenne des membres de l’Union monétaire des Caraïbes orientales mesurés"
+   },
+   "plafondEUR": {
+    "economique": 87.9,
+    "moyen": 131.8,
+    "confortable": 298.9
+   }
+  },
+  "MS": {
+   "nom": "Montserrat",
+   "devise": "XCD",
+   "indiceUE100": 87.9,
+   "source": "R:ECCU",
+   "detail": {
+    "region": "ECCU",
+    "pays": [
+     "AG",
+     "DM",
+     "GD",
+     "KN",
+     "LC",
+     "VC"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021 ; moyenne des membres de l’Union monétaire des Caraïbes orientales mesurés"
+   },
+   "plafondEUR": {
+    "economique": 87.9,
+    "moyen": 131.8,
+    "confortable": 298.9
+   }
+  },
+  "AW": {
+   "nom": "Aruba",
+   "devise": "AWG",
+   "indiceUE100": 90.9,
+   "source": "W21",
+   "detail": {
+    "icp": 104.1,
+    "maj": 0.979,
+    "majAn": 2024,
+    "majSerie": "PIB"
+   },
+   "plafondEUR": {
+    "economique": 90.9,
+    "moyen": 136.3,
+    "confortable": 309.1
+   }
+  },
+  "CW": {
+   "nom": "Curaçao",
+   "devise": "XCG",
+   "indiceUE100": 105.8,
+   "source": "W21",
+   "detail": {
+    "icp": 121.5,
+    "maj": 0.976,
+    "majAn": 2024,
+    "majSerie": "PIB"
+   },
+   "plafondEUR": {
+    "economique": 105.8,
+    "moyen": 158.7,
+    "confortable": 359.7
+   }
+  },
+  "SX": {
+   "nom": "Sint Maarten",
+   "devise": "XCG",
+   "indiceUE100": 124.4,
+   "source": "W17",
+   "detail": {
+    "icp": 128.5,
+    "maj": 0.987,
+    "majAn": 2024,
+    "majSerie": "PIB"
+   },
+   "plafondEUR": {
+    "economique": 124.4,
+    "moyen": 186.6,
+    "confortable": 423
+   }
+  },
+  "BQ": {
+   "nom": "Pays-Bas caribéens",
+   "devise": "USD",
+   "indiceUE100": 105.8,
+   "source": "P:CW",
+   "detail": {
+    "pays": "CW"
+   },
+   "plafondEUR": {
+    "economique": 105.8,
+    "moyen": 158.7,
+    "confortable": 359.7
+   }
+  },
+  "CO": {
+   "nom": "Colombie",
+   "devise": "COP",
+   "indiceUE100": 54.5,
+   "source": "W21",
+   "detail": {
+    "icp": 66.7,
+    "maj": 0.916,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 54.5,
+    "moyen": 81.8,
+    "confortable": 185.3
+   }
+  },
+  "VE": {
+   "nom": "Venezuela",
+   "devise": "VES",
+   "indiceUE100": 58,
+   "source": "R:LCN-LMC",
+   "detail": {
+    "region": "LCN",
+    "revenu": "LMC",
+    "pays": [
+     "BO",
+     "HN",
+     "HT",
+     "NI"
+    ],
+    "motif": "absent des programmes ICP 2017 et 2021"
+   },
+   "plafondEUR": {
+    "economique": 58,
+    "moyen": 87,
+    "confortable": 197.2
+   }
+  },
+  "GY": {
+   "nom": "Guyana",
+   "devise": "GYD",
+   "indiceUE100": 53.6,
+   "source": "W21",
+   "detail": {
+    "icp": 61.4,
+    "maj": 0.977,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 53.6,
+    "moyen": 80.4,
+    "confortable": 182.2
+   }
+  },
+  "SR": {
+   "nom": "Suriname",
+   "devise": "SRD",
+   "indiceUE100": 65.7,
+   "source": "W21",
+   "detail": {
+    "icp": 57.8,
+    "maj": 1.275,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 65.7,
+    "moyen": 98.5,
+    "confortable": 223.4
+   }
+  },
+  "EC": {
+   "nom": "Équateur",
+   "devise": "USD",
+   "indiceUE100": 66.1,
+   "source": "W21",
+   "detail": {
+    "icp": 79.8,
+    "maj": 0.928,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 66.1,
+    "moyen": 99.2,
+    "confortable": 224.7
+   }
+  },
+  "PE": {
+   "nom": "Pérou",
+   "devise": "PEN",
+   "indiceUE100": 65.1,
+   "source": "W21",
+   "detail": {
+    "icp": 69.5,
+    "maj": 1.051,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 65.1,
+    "moyen": 97.7,
+    "confortable": 221.3
+   }
+  },
+  "BO": {
+   "nom": "Bolivie",
+   "devise": "BOB",
+   "indiceUE100": 41.5,
+   "source": "W21",
+   "detail": {
+    "icp": 49.1,
+    "maj": 0.948,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 41.5,
+    "moyen": 62.3,
+    "confortable": 141.1
+   }
+  },
+  "BR": {
+   "nom": "Brésil",
+   "devise": "BRL",
+   "indiceUE100": 44.9,
+   "source": "W21",
+   "detail": {
+    "icp": 48.8,
+    "maj": 1.032,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 44.9,
+    "moyen": 67.3,
+    "confortable": 152.7
+   }
+  },
+  "PY": {
+   "nom": "Paraguay",
+   "devise": "PYG",
+   "indiceUE100": 38.9,
+   "source": "W21",
+   "detail": {
+    "icp": 47.2,
+    "maj": 0.923,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 38.9,
+    "moyen": 58.4,
+    "confortable": 132.3
+   }
+  },
+  "UY": {
+   "nom": "Uruguay",
+   "devise": "UYU",
+   "indiceUE100": 88.6,
+   "source": "W21",
+   "detail": {
+    "icp": 87.6,
+    "maj": 1.133,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 88.6,
+    "moyen": 132.9,
+    "confortable": 301.2
+   }
+  },
+  "AR": {
+   "nom": "Argentine",
+   "devise": "ARS",
+   "indiceUE100": 77.3,
+   "source": "W21",
+   "detail": {
+    "icp": 77.2,
+    "maj": 1.123,
+    "majAn": 2024,
+    "majSerie": "PIB"
+   },
+   "plafondEUR": {
+    "economique": 77.3,
+    "moyen": 116,
+    "confortable": 262.8
+   }
+  },
+  "CL": {
+   "nom": "Chili",
+   "devise": "CLP",
+   "indiceUE100": 70.8,
+   "source": "W21",
+   "detail": {
+    "icp": 102.1,
+    "maj": 0.777,
+    "majAn": 2024,
+    "majSerie": "PRVT"
+   },
+   "plafondEUR": {
+    "economique": 70.8,
+    "moyen": 106.2,
+    "confortable": 240.7
+   }
+  },
+  "FK": {
+   "nom": "Îles Malouines",
+   "devise": "FKP",
+   "indiceUE100": 101.1,
+   "source": "P:GB",
+   "detail": {
+    "pays": "GB"
+   },
+   "plafondEUR": {
+    "economique": 101.1,
+    "moyen": 151.7,
+    "confortable": 343.7
+   }
+  },
+  "GS": {
+   "nom": "Géorgie du Sud-et-les îles Sandwich du Sud",
+   "devise": "GBP",
+   "indiceUE100": 101.1,
+   "source": "P:GB",
+   "detail": {
+    "pays": "GB"
+   },
+   "plafondEUR": {
+    "economique": 101.1,
+    "moyen": 151.7,
+    "confortable": 343.7
+   }
+  },
+  "AQ": {
+   "nom": "Antarctique",
+   "devise": "EUR",
+   "indiceUE100": 100,
+   "source": "UE",
+   "detail": {},
+   "plafondEUR": {
+    "economique": 100,
+    "moyen": 150,
+    "confortable": 340
+   }
+  },
+  "BV": {
+   "nom": "Île Bouvet",
+   "devise": "NOK",
+   "indiceUE100": 140,
+   "source": "P:NO",
+   "detail": {
+    "pays": "NO"
+   },
+   "plafondEUR": {
+    "economique": 140,
+    "moyen": 210,
+    "confortable": 476
+   }
+  }
+ },
+ "taux": {
+  "AED": {
+   "unEuro": 4.208685,
+   "source": "parite-usd"
+  },
+  "AFN": {
+   "unEuro": 75.205,
+   "source": "inforeuro"
+  },
+  "ALL": {
+   "unEuro": 92.27,
+   "source": "inforeuro"
+  },
+  "AMD": {
+   "unEuro": 424,
+   "source": "inforeuro"
+  },
+  "AOA": {
+   "unEuro": 1071.565,
+   "source": "inforeuro"
+  },
+  "ARS": {
+   "unEuro": 1760.7127,
+   "source": "inforeuro"
+  },
+  "AUD": {
+   "unEuro": 1.6095,
+   "source": "bce"
+  },
+  "AWG": {
+   "unEuro": 2.05134,
+   "source": "parite-usd"
+  },
+  "AZN": {
+   "unEuro": 1.97931,
+   "source": "inforeuro"
+  },
+  "BAM": {
+   "unEuro": 1.95583,
+   "source": "parite-eur"
+  },
+  "BBD": {
+   "unEuro": 2.292,
+   "source": "parite-usd"
+  },
+  "BDT": {
+   "unEuro": 143.52908,
+   "source": "inforeuro"
+  },
+  "BHD": {
+   "unEuro": 0.430896,
+   "source": "parite-usd"
+  },
+  "BIF": {
+   "unEuro": 3486.5,
+   "source": "inforeuro"
+  },
+  "BMD": {
+   "unEuro": 1.146,
+   "source": "parite-usd"
+  },
+  "BND": {
+   "unEuro": 1.4651,
+   "source": "parite-sgd"
+  },
+  "BOB": {
+   "unEuro": 13.65142,
+   "source": "inforeuro"
+  },
+  "BRL": {
+   "unEuro": 5.8857,
+   "source": "bce"
+  },
+  "BSD": {
+   "unEuro": 1.146,
+   "source": "parite-usd"
+  },
+  "BTN": {
+   "unEuro": 109.8755,
+   "source": "parite-inr"
+  },
+  "BWP": {
+   "unEuro": 15.56784,
+   "source": "inforeuro"
+  },
+  "BYN": {
+   "unEuro": 3.5142,
+   "source": "inforeuro"
+  },
+  "BZD": {
+   "unEuro": 2.292,
+   "source": "parite-usd"
+  },
+  "CAD": {
+   "unEuro": 1.6056,
+   "source": "bce"
+  },
+  "CDF": {
+   "unEuro": 2674.25,
+   "source": "inforeuro"
+  },
+  "CHF": {
+   "unEuro": 0.9462,
+   "source": "bce"
+  },
+  "CLP": {
+   "unEuro": 1078.6075,
+   "source": "inforeuro"
+  },
+  "CNY": {
+   "unEuro": 7.6755,
+   "source": "bce"
+  },
+  "COP": {
+   "unEuro": 3671.9344,
+   "source": "inforeuro"
+  },
+  "CRC": {
+   "unEuro": 525.3962,
+   "source": "inforeuro"
+  },
+  "CUP": {
+   "unEuro": 764,
+   "source": "banque-centrale"
+  },
+  "CVE": {
+   "unEuro": 110.265,
+   "source": "parite-eur"
+  },
+  "CZK": {
+   "unEuro": 24.339,
+   "source": "bce"
+  },
+  "DJF": {
+   "unEuro": 203.66827,
+   "source": "parite-usd"
+  },
+  "DKK": {
+   "unEuro": 7.4754,
+   "source": "bce"
+  },
+  "DOP": {
+   "unEuro": 68.09725,
+   "source": "inforeuro"
+  },
+  "DZD": {
+   "unEuro": 155.0735,
+   "source": "inforeuro"
+  },
+  "EGP": {
+   "unEuro": 58.55382,
+   "source": "inforeuro"
+  },
+  "ERN": {
+   "unEuro": 17.55182,
+   "source": "inforeuro"
+  },
+  "ETB": {
+   "unEuro": 189.0275,
+   "source": "inforeuro"
+  },
+  "EUR": {
+   "unEuro": 1,
+   "source": "eur"
+  },
+  "FJD": {
+   "unEuro": 2.55451,
+   "source": "inforeuro"
+  },
+  "FKP": {
+   "unEuro": 0.8588,
+   "source": "parite-gbp"
+  },
+  "GBP": {
+   "unEuro": 0.8588,
+   "source": "bce"
+  },
+  "GEL": {
+   "unEuro": 3.04425,
+   "source": "inforeuro"
+  },
+  "GHS": {
+   "unEuro": 13.2525,
+   "source": "banque-centrale"
+  },
+  "GIP": {
+   "unEuro": 0.8588,
+   "source": "parite-gbp"
+  },
+  "GMD": {
+   "unEuro": 84.83,
+   "source": "banque-centrale"
+  },
+  "GNF": {
+   "unEuro": 10145.87,
+   "source": "banque-centrale"
+  },
+  "GTQ": {
+   "unEuro": 8.8871,
+   "source": "inforeuro"
+  },
+  "GYD": {
+   "unEuro": 243.79,
+   "source": "inforeuro"
+  },
+  "HKD": {
+   "unEuro": 8.9903,
+   "source": "bce"
+  },
+  "HNL": {
+   "unEuro": 31.23206,
+   "source": "inforeuro"
+  },
+  "HTG": {
+   "unEuro": 152.31955,
+   "source": "inforeuro"
+  },
+  "HUF": {
+   "unEuro": 364.28,
+   "source": "bce"
+  },
+  "IDR": {
+   "unEuro": 20424.81,
+   "source": "bce"
+  },
+  "ILS": {
+   "unEuro": 3.4812,
+   "source": "bce"
+  },
+  "INR": {
+   "unEuro": 109.8755,
+   "source": "bce"
+  },
+  "IQD": {
+   "unEuro": 1525.233,
+   "source": "inforeuro"
+  },
+  "IRR": {
+   "unEuro": 1600446.8,
+   "source": "inforeuro"
+  },
+  "ISK": {
+   "unEuro": 139.4,
+   "source": "bce"
+  },
+  "JMD": {
+   "unEuro": 184.7039,
+   "source": "inforeuro"
+  },
+  "JOD": {
+   "unEuro": 0.812514,
+   "source": "parite-usd"
+  },
+  "JPY": {
+   "unEuro": 180.94,
+   "source": "bce"
+  },
+  "KES": {
+   "unEuro": 150.785,
+   "source": "inforeuro"
+  },
+  "KGS": {
+   "unEuro": 101.84965,
+   "source": "inforeuro"
+  },
+  "KHR": {
+   "unEuro": 4747,
+   "source": "inforeuro"
+  },
+  "KMF": {
+   "unEuro": 491.96775,
+   "source": "parite-eur"
+  },
+  "KPW": {
+   "unEuro": 80334.6,
+   "source": "marche"
+  },
+  "KRW": {
+   "unEuro": 1590.76,
+   "source": "bce"
+  },
+  "KWD": {
+   "unEuro": 0.35727,
+   "source": "inforeuro"
+  },
+  "KYD": {
+   "unEuro": 0.955,
+   "source": "parite-usd"
+  },
+  "KZT": {
+   "unEuro": 540.175,
+   "source": "inforeuro"
+  },
+  "LAK": {
+   "unEuro": 26131.33,
+   "source": "inforeuro"
+  },
+  "LBP": {
+   "unEuro": 102567,
+   "source": "parite-usd"
+  },
+  "LKR": {
+   "unEuro": 382.8425,
+   "source": "inforeuro"
+  },
+  "LRD": {
+   "unEuro": 210.7383,
+   "source": "inforeuro"
+  },
+  "LSL": {
+   "unEuro": 18.6482,
+   "source": "parite-zar"
+  },
+  "LYD": {
+   "unEuro": 7.3848,
+   "source": "inforeuro"
+  },
+  "MAD": {
+   "unEuro": 10.78395,
+   "source": "inforeuro"
+  },
+  "MDL": {
+   "unEuro": 20.1606,
+   "source": "inforeuro"
+  },
+  "MGA": {
+   "unEuro": 5047.5,
+   "source": "inforeuro"
+  },
+  "MKD": {
+   "unEuro": 61.47,
+   "source": "inforeuro"
+  },
+  "MMK": {
+   "unEuro": 4616.4495,
+   "source": "inforeuro"
+  },
+  "MNT": {
+   "unEuro": 4190.3157,
+   "source": "inforeuro"
+  },
+  "MOP": {
+   "unEuro": 9.260009,
+   "source": "parite-hkd"
+  },
+  "MRU": {
+   "unEuro": 46.25,
+   "source": "banque-centrale"
+  },
+  "MUR": {
+   "unEuro": 54.535,
+   "source": "inforeuro"
+  },
+  "MVR": {
+   "unEuro": 18.00008,
+   "source": "inforeuro"
+  },
+  "MWK": {
+   "unEuro": 2020.1615,
+   "source": "inforeuro"
+  },
+  "MXN": {
+   "unEuro": 19.6855,
+   "source": "bce"
+  },
+  "MYR": {
+   "unEuro": 4.6763,
+   "source": "bce"
+  },
+  "MZN": {
+   "unEuro": 74.11,
+   "source": "inforeuro"
+  },
+  "NAD": {
+   "unEuro": 18.6482,
+   "source": "parite-zar"
+  },
+  "NGN": {
+   "unEuro": 1567.85,
+   "source": "inforeuro"
+  },
+  "NIO": {
+   "unEuro": 42.84624,
+   "source": "inforeuro"
+  },
+  "NOK": {
+   "unEuro": 10.8095,
+   "source": "bce"
+  },
+  "NPR": {
+   "unEuro": 175.8008,
+   "source": "parite-inr"
+  },
+  "NZD": {
+   "unEuro": 2.0068,
+   "source": "bce"
+  },
+  "OMR": {
+   "unEuro": 0.440637,
+   "source": "parite-usd"
+  },
+  "PAB": {
+   "unEuro": 1.146,
+   "source": "parite-usd"
+  },
+  "PEN": {
+   "unEuro": 3.90169,
+   "source": "inforeuro"
+  },
+  "PGK": {
+   "unEuro": 5.15633,
+   "source": "inforeuro"
+  },
+  "PHP": {
+   "unEuro": 71.972,
+   "source": "bce"
+  },
+  "PKR": {
+   "unEuro": 323.619,
+   "source": "inforeuro"
+  },
+  "PLN": {
+   "unEuro": 4.3635,
+   "source": "bce"
+  },
+  "PYG": {
+   "unEuro": 6899.7408,
+   "source": "inforeuro"
+  },
+  "QAR": {
+   "unEuro": 4.17144,
+   "source": "parite-usd"
+  },
+  "RON": {
+   "unEuro": 5.2647,
+   "source": "bce"
+  },
+  "RSD": {
+   "unEuro": 117.295,
+   "source": "inforeuro"
+  },
+  "RUB": {
+   "unEuro": 100.5727,
+   "source": "inforeuro"
+  },
+  "RWF": {
+   "unEuro": 1713.64,
+   "source": "inforeuro"
+  },
+  "SAR": {
+   "unEuro": 4.2975,
+   "source": "parite-usd"
+  },
+  "SBD": {
+   "unEuro": 9.36147,
+   "source": "inforeuro"
+  },
+  "SCR": {
+   "unEuro": 17.1759,
+   "source": "inforeuro"
+  },
+  "SDG": {
+   "unEuro": 4302.474,
+   "source": "inforeuro"
+  },
+  "SEK": {
+   "unEuro": 11.2915,
+   "source": "bce"
+  },
+  "SGD": {
+   "unEuro": 1.4651,
+   "source": "bce"
+  },
+  "SHP": {
+   "unEuro": 0.8588,
+   "source": "parite-gbp"
+  },
+  "SLE": {
+   "unEuro": 26.32,
+   "source": "banque-centrale"
+  },
+  "SOS": {
+   "unEuro": 665.945,
+   "source": "inforeuro"
+  },
+  "SRD": {
+   "unEuro": 44.0117,
+   "source": "inforeuro"
+  },
+  "SSP": {
+   "unEuro": 6561.3661,
+   "source": "inforeuro"
+  },
+  "STN": {
+   "unEuro": 24.5,
+   "source": "parite-eur"
+  },
+  "SYP": {
+   "unEuro": 141.74,
+   "source": "inforeuro"
+  },
+  "SZL": {
+   "unEuro": 18.6482,
+   "source": "parite-zar"
+  },
+  "THB": {
+   "unEuro": 38.225,
+   "source": "bce"
+  },
+  "TJS": {
+   "unEuro": 10.76978,
+   "source": "inforeuro"
+  },
+  "TMT": {
+   "unEuro": 4.011,
+   "source": "parite-usd"
+  },
+  "TND": {
+   "unEuro": 3.38015,
+   "source": "inforeuro"
+  },
+  "TOP": {
+   "unEuro": 2.755,
+   "source": "inforeuro"
+  },
+  "TRY": {
+   "unEuro": 55.9077,
+   "source": "bce"
+  },
+  "TTD": {
+   "unEuro": 7.9079,
+   "source": "inforeuro"
+  },
+  "TWD": {
+   "unEuro": 36.92675,
+   "source": "inforeuro"
+  },
+  "TZS": {
+   "unEuro": 3085,
+   "source": "inforeuro"
+  },
+  "UAH": {
+   "unEuro": 51.96271,
+   "source": "inforeuro"
+  },
+  "UGX": {
+   "unEuro": 4375.5,
+   "source": "inforeuro"
+  },
+  "USD": {
+   "unEuro": 1.146,
+   "source": "bce"
+  },
+  "UYU": {
+   "unEuro": 46.88054,
+   "source": "inforeuro"
+  },
+  "UZS": {
+   "unEuro": 13740.172,
+   "source": "inforeuro"
+  },
+  "VES": {
+   "unEuro": 974.41908,
+   "source": "banque-centrale"
+  },
+  "VND": {
+   "unEuro": 30362.615,
+   "source": "inforeuro"
+  },
+  "VUV": {
+   "unEuro": 135.235,
+   "source": "inforeuro"
+  },
+  "WST": {
+   "unEuro": 3.14166,
+   "source": "inforeuro"
+  },
+  "XAF": {
+   "unEuro": 655.957,
+   "source": "parite-eur"
+  },
+  "XCD": {
+   "unEuro": 3.0942,
+   "source": "parite-usd"
+  },
+  "XCG": {
+   "unEuro": 2.05134,
+   "source": "parite-usd"
+  },
+  "XOF": {
+   "unEuro": 655.957,
+   "source": "parite-eur"
+  },
+  "YER": {
+   "unEuro": 621.15405,
+   "source": "inforeuro"
+  },
+  "ZAR": {
+   "unEuro": 18.6482,
+   "source": "bce"
+  },
+  "ZMW": {
+   "unEuro": 22.1689,
+   "source": "inforeuro"
+  },
+  "ZWG": {
+   "unEuro": 30.85244,
+   "source": "inforeuro"
+  }
+ }
+}

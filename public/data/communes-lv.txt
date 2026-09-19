@@ -1701,7 +1701,6 @@
 0;27.2233,56.6013;LV-4611;Audriņu pag.;Mazā Puderova
 0;27.9834,56.4282;LV-5707;Briģu pag.;Mazpikava
 0;25.4703,56.9252;LV-5065;Mazozolu pag.;Mazozoli
-0;27.8390,56.6175;LV-5706;Blontu pag.;Mazā Medišova
 0;26.8511,56.0281;LV-5438;Ambeļu pag.;Mazkusiņi
 0;26.7003,55.9721;LV-5459;Maļinovas pag.;Mazkokini
 0;21.7780,57.0100;LV-3313;Īvandes pag.;Mazīvande

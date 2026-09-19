@@ -291,6 +291,14 @@ const NAME_OVERRIDES = {
   'Cluain Meala': 'Clonmel',
   'Trá Mhór': 'Tramore',
   'Leifear': 'Lifford',
+  // Six renommages absents de cette copie jusqu'à l'audit n° 11 (présents dans build-country-communes.js depuis
+  // l'ajout de DK/SE/FI/AL : voir les commentaires qui les justifient là-bas) — listes alignées.
+  'Copenhagen': 'København',
+  'Århus': 'Aarhus',
+  'Gothenburg': 'Göteborg',
+  'Hyvinge': 'Hyvinkää',
+  'Sibbo': 'Sipoo',
+  'Tirana': 'Tiranë',
   // Voir build-country-communes.js pour le détail (Belgrade/Beograd, diacritique manquant de
   // Knjazevac/Knjaževac) — même correction reproduite ici pour que les alias pointent vers le bon
   // nom canonique.
@@ -353,10 +361,36 @@ const NAME_OVERRIDES = {
   'Larnaca': 'Larnaka',
   'Paphos': 'Pafos'
 };
+// PAYS VISÉ PAR CHAQUE ENTRÉE (audit n° 11) — la table ci-dessus était appliquée à TOUS les pays générés par ce script,
+// alors que chaque entrée ne vise qu'un pays (celui du commentaire qui la justifie) : « Turin », hameau écossais (GB) ou
+// irlandais (IE), devenait « Torino » ; « Sitten » (village de Saxe, DE) devenait « Sion » ; « Milan » (HR, AL) devenait
+// « Milano » ; « The Hague » (Grand Manchester, GB) « Den Haag » ; « Ostend » (Essex, GB) « Oostende » ; deux fermes
+// norvégiennes « Århus » (NO) « Aarhus ». Chaque renommage ne s'applique plus qu'au pays visé ; une entrée sans pays fait
+// échouer le script (garde-fou pour les ajouts futurs). Table IDENTIQUE dans build-country-communes.js et build-aliases.js.
+const NAME_OVERRIDES_COUNTRY = {
+  PT: ['Lisbon'], BE: ['Brussels', 'Antwerp', 'Ostend', 'Saint-Vith'], NL: ['The Hague'], CH: ['Geneva', 'Sitten'],
+  DE: ['Munich', 'Nuremberg'], IT: ['Rome', 'Milan', 'Naples', 'Turin', 'Genoa', 'Florence', 'Padua', 'Venice'], AT: ['Vienna'],
+  CZ: ['Prague', 'Pilsen'], PL: ['Warsaw', 'Lodz', 'Bielsko-Biala'],
+  IE: ['An Ros', 'Droichead Nua', 'An Muileann gCearr', 'Baile an Mhuilinn', 'Cill Fhíonáin', 'Cluain Meala', 'Trá Mhór', 'Leifear'],
+  DK: ['Copenhagen', 'Århus'], SE: ['Gothenburg'], FI: ['Hyvinge', 'Sibbo'], AL: ['Tirana'], RS: ['Belgrade', 'Knjazevac'],
+  RO: ['Bucharest'], LV: ['Riga'],
+  LT: ['Ukmerge', 'Telsiai', 'Taurage', 'Silute', 'Radviliskis', 'Plunge', 'Naujoji Akmene', 'Mazeikiai', 'Kupiskis', 'Birzai', 'Vilkaviskis'],
+  VA: ['Vatican City'], MD: ['Chisinau'], BY: ['Ryasno, Rjasno, Rasna'],
+  TR: ['Istanbul', 'Umraniye', 'İnegol', 'Sarigerme', 'Incekum', 'Kutuklu', 'Karaburcak', 'Alacami'],
+  AZ: ['Baku', 'Ganja', 'Sumgayit', 'Khirdalan', 'Sheki', 'Bilajari', 'Barda', 'Shamkhir', 'Aghjabadi', 'Shamakhi', 'Aghdam', 'Jalilabad', 'Imishli'],
+  CY: ['Limassol', 'Larnaca', 'Paphos']
+};
+const NAME_OVERRIDE_TARGET_COUNTRY = new Map();
+Object.keys(NAME_OVERRIDES_COUNTRY).forEach(cc => NAME_OVERRIDES_COUNTRY[cc].forEach(n => NAME_OVERRIDE_TARGET_COUNTRY.set(n, cc)));
+Object.keys(NAME_OVERRIDES).forEach(n => { if(!NAME_OVERRIDE_TARGET_COUNTRY.has(n)) throw new Error('NAME_OVERRIDES sans pays visé : ' + n); });
+NAME_OVERRIDE_TARGET_COUNTRY.forEach((cc, n) => { if(!NAME_OVERRIDES[n]) throw new Error('NAME_OVERRIDES_COUNTRY sans renommage : ' + n); });
 // Même correction que build-country-communes.js (voir son commentaire pour le détail) : le dump
 // GeoNames croate confond le Ð latin (Eth, U+00D0) avec le VRAI Đ croate (D barré, U+0110) dans 48
 // noms de communes — remplacement global, sans risque pour les autres pays déjà générés.
-function cleanName(raw){ return (NAME_OVERRIDES[raw] || raw).replace(/Ð/g, 'Đ'); }
+function cleanName(raw, country){
+  const o = NAME_OVERRIDE_TARGET_COUNTRY.get(raw) === country ? NAME_OVERRIDES[raw] : null;
+  return (o || raw).replace(/Ð/g, 'Đ');
+}
 // Même exclusion que build-country-communes.js (voir son commentaire pour le détail) : Sercq n'a
 // aucune liaison en ferry pour véhicules, un alias y menant ne servirait donc à rien côté recherche
 // (la commune elle-même est absente de communes-gg.txt).
@@ -437,7 +471,7 @@ for(const country of COUNTRIES){
       // où rawName sert à synthétiser un alias "mk" quand aucun n'existe déjà dans le fichier
       // alternateNames pour ce geonameid précis).
       rawName: c[1],
-      name: cleanName((ASCIINAME_FALLBACK_COUNTRIES.has(country) && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1]),
+      name: cleanName((ASCIINAME_FALLBACK_COUNTRIES.has(country) && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1], country),
       lat: parseFloat(c[4]),
       lon: parseFloat(c[5]),
       admin1Code: c[10] || '',

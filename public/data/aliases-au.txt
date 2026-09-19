@@ -1727,7 +1727,7 @@ mr;ॲडलेड;Adelaide
 sr;Аделејд;Adelaide
 cv;Аделаида;Adelaide
 lv;Adelaida;Adelaide
-os;Аделаидæ;Adelaide
+os;Аделаидӕ;Adelaide
 ug;ئادېلايدې;Adelaide
 oc;Adelaïda;Adelaide
 eu;Adelaida;Adelaide
@@ -2781,7 +2781,7 @@ mhr;Канберре;Canberra
 sah;Канберра;Canberra
 ar;كانبرا;Canberra
 bg;Канбера;Canberra
-os;Канберрæ;Canberra
+os;Канберрӕ;Canberra
 bo;ཁན་པེ་ར།;Canberra
 ht;Kanbera;Canberra
 so;Kanbera;Canberra

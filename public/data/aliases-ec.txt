@@ -1070,7 +1070,7 @@ pl;Durán;Eloy Alfaro
 be;Куэнка;Cuenca
 he;קואנקה;Cuenca
 lt;Kuenka;Cuenca
-os;Куэнкæ;Cuenca
+os;Куэнкӕ;Cuenca
 uk;Куенка;Cuenca
 ka;კუენკა;Cuenca
 th;เกวงกา;Cuenca

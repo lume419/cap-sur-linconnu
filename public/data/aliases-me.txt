@@ -59,7 +59,7 @@ sr;Челуга;Čeluga
 it;Budua;Budva
 sr;Будва;Budva
 sr;Биоче;Bioče
-sr;Oпштина Бијело Поље;Bijelo Polje
+sr;Општина Бијело Поље;Bijelo Polje
 sr;Бијела;Bijela
 sr;Бечићи;Bečići
 it;Antivari;Bar
@@ -183,7 +183,7 @@ ka;პოდგორიცა;Podgorica
 ku;Podgorika;Podgorica
 uk;Подгориця;Podgorica
 ur;پوڈگوریکا;Podgorica
-os;Подгорицæ;Podgorica
+os;Подгорицӕ;Podgorica
 hy;Պոդգորիցա;Podgorica
 kk;Подгорица;Podgorica
 tg;Подгоритса;Podgorica

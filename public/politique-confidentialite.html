@@ -7,8 +7,8 @@
      elle-même, identique sur les trois pages du site). -->
 <script>(function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Politique de confidentialité — Cap sur l'Inconnu</title>
-<meta name="description" content="Politique de confidentialité du site Cap sur l'Inconnu : quelles données sont traitées, et pourquoi.">
+<title>Politique de confidentialité — Cap sur l'inconnu</title>
+<meta name="description" content="Politique de confidentialité du site Cap sur l'inconnu : quelles données sont traitées, et pourquoi.">
 <link rel="canonical" href="https://road.lume419.fr/politique-confidentialite">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%A7%AD%3C/text%3E%3C/svg%3E">
 <meta property="og:type" content="website">
@@ -16,7 +16,7 @@
 <meta property="og:locale" content="fr_FR">
 <meta property="og:url" content="https://road.lume419.fr/politique-confidentialite">
 <meta property="og:title" content="Politique de confidentialité — Cap sur l'inconnu">
-<meta property="og:description" content="Politique de confidentialité du site Cap sur l'Inconnu : quelles données sont traitées, et pourquoi.">
+<meta property="og:description" content="Politique de confidentialité du site Cap sur l'inconnu : quelles données sont traitées, et pourquoi.">
 <meta property="og:image" content="https://road.lume419.fr/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://road.lume419.fr/og-image.png">
@@ -26,7 +26,7 @@
   "@type": "WebPage",
   "name": "Politique de confidentialité — Cap sur l'inconnu",
   "url": "https://road.lume419.fr/politique-confidentialite",
-  "description": "Politique de confidentialité du site Cap sur l'Inconnu : quelles données sont traitées, et pourquoi.",
+  "description": "Politique de confidentialité du site Cap sur l'inconnu : quelles données sont traitées, et pourquoi.",
   "isPartOf": { "@type": "WebSite", "name": "Cap sur l'inconnu", "url": "https://road.lume419.fr/" },
   "inLanguage": "fr-FR"
 }
@@ -51,11 +51,11 @@
   </header>
 
   <div class="legal-card">
-    <p class="legal-updated">Dernière mise à jour : 18 septembre 2026.</p>
+    <p class="legal-updated">Dernière mise à jour : 19 septembre 2026.</p>
 
     <h2>En résumé</h2>
-    <p>Ce site ne demande aucun compte, aucun formulaire, aucun cookie, et n'installe aucun traceur ni
-    outil d'analyse d'audience. La feuille de route que vous remplissez (ville de départ, dates,
+    <p>Ce site ne demande aucun compte ni aucune donnée d'identité (nom, adresse e-mail, téléphone…), ne dépose
+    aucun cookie et n'installe aucun traceur ni outil d'analyse d'audience. La feuille de route que vous remplissez (ville de départ, dates,
     budget...) n'est jamais enregistrée sur le serveur : elle ne lui est transmise que le temps de calculer
     la réponse (voir « Génération de l'itinéraire » ci-dessous). Vos préférences d'affichage (langue,
     thème clair/sombre, devise) restent mémorisées dans votre navigateur (voir « Cookies et traceurs »
@@ -83,7 +83,7 @@
     champ ville, accompagné de la langue d'interface et du pays qui lui est associé (pour classer les
     suggestions), puis, une fois une ville choisie, vos réglages de formulaire (dates, budget, mode
     de transport, péages/ferries/tente/zones déconseillées, distances) et la devise que vous avez
-    éventuellement choisie (pour les liens d'hébergement) — jamais votre nom, votre adresse IP
+    éventuellement choisie (pour le plafond de prix et les liens d'hébergement) — jamais votre nom, votre adresse IP
     au-delà des journaux techniques d'hébergement déjà mentionnés plus bas, ni aucune donnée qui
     vous identifierait. Le serveur calcule et répond, sans rien enregistrer ni journaliser au-delà
     de la réponse — même principe que l'export PDF ci-dessous.</p>
@@ -91,11 +91,17 @@
     vive uniquement</strong> l'adresse IP d'origine de certaines requêtes, avec l'heure de chaque requête :
     les requêtes vers <code>/api/</code> (nombre de requêtes par minute, requêtes en cours vers les
     services tiers, temps de calcul consommé) et les téléchargements des plus gros fichiers du site
-    (scripts et feuille de style, limités à 30 par minute). Ces compteurs portent sur la dernière minute ;
+    (scripts et feuille de style, limités à 30 par minute ; une simple revalidation par votre navigateur d'un fichier déjà
+    en cache, réponse 304, n'est pas décomptée). Ces compteurs portent sur la dernière minute ;
     ils sont purgés toutes les minutes, si bien qu'une adresse IP peut rester en mémoire jusqu'à environ
     deux minutes après votre dernière requête. Ces informations ne sont jamais écrites sur disque, ni
     journalisées, ni transmises, et disparaissent au plus tard à ce nettoyage ou au redémarrage du serveur.
     Base légale : intérêt légitime à assurer la disponibilité du service (article 6.1.f du RGPD).</p>
+    <p>Protection contre l'utilisation par d'autres sites : le serveur lit l'en-tête technique
+    <code>Sec-Fetch-Site</code>, que votre navigateur ajoute lui-même à chaque requête pour indiquer si elle vient de ce
+    site ou de la page d'un autre site, et refuse les requêtes vers <code>/api/</code> venues d'un autre site. Cet en-tête
+    ne contient aucune donnée vous concernant (seulement « même site », « autre site »…) ; il n'est ni enregistré ni
+    journalisé.</p>
 
     <h2>Activités, randonnées et photos réelles</h2>
     <p>Pour proposer de vraies activités, randonnées et photos, le site interroge en tâche de fond
@@ -111,7 +117,8 @@
     nom du lieu ou les coordonnées concernés — jamais votre adresse IP ni aucune information vous
     concernant.</p>
     <p>Exception : les photographies de lieux sont chargées directement depuis les serveurs de
-    <strong>Wikimedia Commons</strong> plutôt que d'être copiées sur ce site, afin de ne rien stocker
+    <strong>Wikimedia Commons</strong> (le serveur n'accepte que des adresses d'images de Wikimedia ou de Wikipédia)
+    plutôt que d'être copiées sur ce site, afin de ne rien stocker
     inutilement. Votre navigateur contacte alors directement Wikimedia pour afficher l'image, ce qui leur
     transmet votre adresse IP — une conséquence technique inévitable de l'affichage d'une image hébergée
     ailleurs, comme sur la quasi-totalité des sites web. Le site est configuré pour ne pas transmettre

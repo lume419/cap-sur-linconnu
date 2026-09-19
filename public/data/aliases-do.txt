@@ -84,7 +84,7 @@ ru;Сальвалеон-де-Игуэй;Salvaleón de Higüey
 ar;سالفاليون دي هيغويي;Salvaleón de Higüey
 hi;सालवालियॉन डे हिगुएय;Salvaleón de Higüey
 ja;サルバレオン・デ・イグエイ;Salvaleón de Higüey
-ru;Салcедо;Salcedo
+ru;Салседо;Salcedo
 ar;سالسيدو;Salcedo
 hi;सलसेडो;Salcedo
 ja;サルセド;Salcedo
@@ -353,15 +353,15 @@ so;Salvaleon de Higueey;Salvaleón de Higüey
 sw;Salvaleon de Higueey;Salvaleón de Higüey
 tg;Сальвалеон-де-Игуэй;Salvaleón de Higüey
 tt;Salvaleon de Higueey;Salvaleón de Higüey
-kk;Салcедо;Salcedo
-ky;Салcедо;Salcedo
+kk;Салседо;Salcedo
+ky;Салседо;Salcedo
 bn;সালসেডো;Salcedo
 ur;سالسیڈو;Salcedo
 am;ሳልሴዶ;Salcedo
 fa;سالسیدو;Salcedo
 pa;ਸਾਲਸੇਡੋ;Salcedo
 ps;سالسیډو;Salcedo
-tg;Салcедо;Salcedo
+tg;Салседо;Salcedo
 kk;Сан-Игнасио-де-Сабанета;San Ignacio de Sabaneta
 ky;Сан-Игнасио-де-Сабанета;San Ignacio de Sabaneta
 bn;সান ইগনাসিও ডে সাবানেতা;San Ignacio de Sabaneta

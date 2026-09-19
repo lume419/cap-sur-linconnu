@@ -21903,7 +21903,6 @@
 0;130.1958,42.7531;KP-17;North Hamgyong;Kŭmdong-ni
 0;127.0414,41.6511;KP-01;Chagang;Kŭmdonggu
 0;129.4762,42.3265;KP-17;North Hamgyong;Kŭm-gol
-0;125.4750,40.4755;KP-11;P'yŏngan-bukto;Sŏngha-ri
 0;129.2833,40.9167;KP-17;North Hamgyong;Kŭmch’ŏn-ni
 0;129.1244,40.6911;KP-17;North Hamgyong;Kŭmch’ŏn-dong
 0;127.0933,41.5353;KP-13;Yanggang-do;Kŭmch’ang-ni

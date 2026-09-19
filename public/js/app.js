@@ -261,9 +261,17 @@
   // stricte, stockage bloqué), le sélecteur de devise n'avait aucun effet, alors que la langue et le thème s'appliquent
   // quand même à la page. undefined = rien choisi pendant cette visite (on lit alors la valeur mémorisée).
   var sessionCurrency;
+  // Devise proposée seulement si trip-data.js sait y convertir le plafond d'hébergement (11e audit du 19/09/2026 : le
+  // sélecteur listait des devises vers lesquelles rien n'était converti). Lu dans TripData au chargement, jamais une liste
+  // en dur : on demande à lodgingPriceCap un plafond dans cette devise pour un pays de la zone euro et on regarde si c'est
+  // bien elle qui revient. Depuis l'extension des taux (lodgingPriceCap.rateSources), toutes les devises le sont.
+  function isConvertibleCurrency(code){
+    if(code === 'EUR') return true;
+    try { var r = TripData.lodgingPriceCap('FR', 'moyen', code); return !!r && r.currency === code; } catch(e){ return false; }
+  }
   function isKnownCurrency(v){
     // hasOwnProperty : une valeur stockée comme « constructor » ne doit pas passer pour une devise.
-    return !!v && Object.prototype.hasOwnProperty.call(CURRENCY_SYMBOL, v);
+    return !!v && /^[A-Z]{3}$/.test(v) && CURRENCY_OPTIONS.indexOf(v) !== -1;
   }
   function getPreferredCurrency(){
     if(sessionCurrency !== undefined) return sessionCurrency;
@@ -279,13 +287,7 @@
       else localStorage.removeItem(CURRENCY_STORAGE_KEY);
     } catch(e){ /* pas grave : le choix s'applique pour cette page (sessionCurrency), juste pas mémorisé */ }
   }
-  // Devise d'un pays donné : la préférence manuelle si le visiteur en a choisi une (voir plus haut),
-  // sinon EUR par défaut (tous les pays actuels sauf ceux listés dans CURRENCY_SYMBOL/COUNTRIES) —
-  // CHF pour la Suisse/le Liechtenstein, GBP pour Guernesey/Jersey/l'île de Man/le Royaume-Uni, etc.
-  // (COUNTRIES[cc].currency). Utilisé pour le plafond de prix budget/logement (voir
-  // BUDGET_PRICE_MAX, updateBudgetHint, buildLodgingLinks) — jamais pour le péage/ferry, dont les
-  // montants restent TOUJOURS affichés en euros, même préférence de devise choisie ou pas (voir
-  // toll.enabled/toll.disabled dans i18n.js, non paramétrées par devise).
+  // Montants de péage et de ferry : toujours en euros (barèmes publiés en euros), quelle que soit la devise choisie.
   // vignette (CH/AT/CZ/SK) : URL de la BOUTIQUE OFFICIELLE de la vignette autoroutière du pays —
   // via.admin.ch (portail officiel de l'Office fédéral de la douane et de la sécurité des frontières,
   // pas un revendeur tiers) pour la Suisse, shop.asfinag.at (société publique gestionnaire des
@@ -305,19 +307,21 @@
     return (COUNTRIES[cc] && COUNTRIES[cc].currency) || 'EUR';
   }
   // Plafond de prix / nuit d'un logement : celui du PAYS de l'étape (TripData.lodgingPriceCap, partagé avec le moteur),
-  // converti dans la devise choisie quand un taux BCE existe — la devise renvoyée peut donc différer de la devise choisie.
-  // Repli sur l'ancienne grille par devise si trip-data.js ne fournit pas encore la fonction.
+  // converti dans la devise choisie (ou laissé dans celle du pays en mode automatique). Sert à l'indication de budget.
   function lodgingCap(cc, budgetKey){
-    if(typeof TripData.lodgingPriceCap === 'function'){
-      try {
-        var r = TripData.lodgingPriceCap(cc, budgetKey, getPreferredCurrency());
-        if(r && r.currency && isFinite(r.max)) return r;
-      } catch(e){}
+    return TripData.lodgingPriceCap(cc, budgetKey, getPreferredCurrency());
+  }
+  // Plafond utilisé dans les LIENS Airbnb/Booking : même règle que le moteur (buildLodgingLinks, lib/trip-engine.js) —
+  // devise choisie si les plateformes l'acceptent (TripData.LODGING_LINK_CURRENCIES), sinon celle du pays de l'étape si elle
+  // y figure, sinon l'euro.
+  function linkLodgingCap(cc, budgetKey){
+    var ok = TripData.LODGING_LINK_CURRENCIES || ['EUR'];
+    var cap = lodgingCap(cc, budgetKey);
+    if(ok.indexOf(cap.currency) < 0){
+      var local = TripData.lodgingPriceCap(cc, budgetKey, null);
+      cap = ok.indexOf(local.currency) >= 0 ? local : TripData.lodgingPriceCap(cc, budgetKey, 'EUR');
     }
-    var currency = countryCurrency(cc);
-    var caps = TripData.BUDGET_PRICE_MAX[currency] || TripData.BUDGET_PRICE_MAX.EUR;
-    if(!TripData.BUDGET_PRICE_MAX[currency]) currency = 'EUR';
-    return { currency: currency, max: caps[budgetKey] != null ? caps[budgetKey] : caps.moyen };
+    return cap;
   }
   // Liste des devises à proposer dans le sélecteur — RECONSTRUITE depuis COUNTRIES plutôt que
   // recopiée à la main (voir la demande d'origine, "en prenant en compte celles des pays déjà
@@ -328,10 +332,13 @@
   // champ `currency`). Toutes les devises dans l'ordre alphabétique du code ISO ; l'ordre affiché
   // (« Automatique », puis la devise du pays de la langue d'interface, puis les autres) est calculé
   // à l'ouverture du panneau (voir renderCurrencyList), la langue pouvant changer entre-temps.
+  // Seules les devises convertibles sont retenues (voir isConvertibleCurrency).
   var CURRENCY_OPTIONS = (function(){
     var set = { EUR: true };
     COUNTRY_LIST.forEach(function(cc){ set[COUNTRIES[cc].currency || 'EUR'] = true; });
-    return Object.keys(set).sort();
+    var rates = TripData.ECB_EUR_RATES && TripData.ECB_EUR_RATES.rates;
+    if(rates) Object.keys(rates).forEach(function(code){ if(/^[A-Z]{3}$/.test(code)) set[code] = true; });
+    return Object.keys(set).filter(isConvertibleCurrency).sort();
   })();
   // Devise du pays associé à la langue d'interface (I18N.country : de -> DE -> EUR, ja -> JP -> JPY…) ; EUR à défaut.
   function languageCurrency(){
@@ -521,7 +528,9 @@
     camera:'<path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13.5" r="3.3"/>',
     walk:'<path d="M3 19l6-11 4 6 2-3 6 8H3Z"/><circle cx="8" cy="6" r="1.6"/>',
     zoom:'<circle cx="11" cy="11" r="7"/><path d="M11 8v6M8 11h6"/><path d="M21 21l-4.3-4.3"/>',
-    close:'<path d="M6 6l12 12M18 6L6 18"/>'
+    close:'<path d="M6 6l12 12M18 6L6 18"/>',
+    // Train-auto (Sylt Shuttle) : voiture de chemin de fer sur ses rails.
+    train:'<rect x="5" y="4" width="14" height="12" rx="2.5"/><path d="M5 11h14M9 16l-2 4M15 16l2 4M8.5 13.5h.01M15.5 13.5h.01"/>'
   };
   function icon(name){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+ICONS[name]+'</svg>';}
 
@@ -1174,6 +1183,7 @@
     againRow: document.getElementById('again-row'),
     againBtn: document.getElementById('again-btn'),
     launchBtn: document.getElementById('launch-btn'),
+    formError: document.getElementById('form-error'),
     tollToggle: document.getElementById('toll-toggle'),
     tollField: document.getElementById('toll-field'),
     tollBikeHint: document.getElementById('toll-bike-hint'),
@@ -1273,15 +1283,28 @@
     var nights = Math.max(0, Math.min(MAX_TRIP_DAYS - 1, rawNights));
     return { nights: nights, days: nights + 1, capped: nights < rawNights };
   }
+  // Durée du séjour (« 3 jours (2 nuits) ») : « 1 jour » sans nuitée (11e audit : « 1 jours (0 nuits) » dans le message
+  // de distance d'éloignement). Langues à plusieurs formes plurielles (russe, polonais, tchèque… : « 3 дня », « 5 дней ») :
+  // nombre + forme exacte (I18N.plural, clés stats.days et dur.nights), dans l'ordre de la langue ; sinon les phrases
+  // traduites telles quelles.
+  function durationLabel(days, nights){
+    if(nights <= 0) return t('form.dates.oneDay');
+    var P = window.I18N.plural;
+    var dWord = P && P('stats.days', days), nWord = P && P('dur.nights', nights);
+    if(dWord && nWord){
+      return nounFirstLang()
+        ? dWord + ' ' + formatNum(days) + ' (' + nWord + ' ' + formatNum(nights) + ')'
+        : formatNum(days) + ' ' + dWord + ' (' + formatNum(nights) + ' ' + nWord + ')';
+    }
+    return t(nights === 1 ? 'form.dates.duration1' : 'form.dates.durationN', {days: formatNum(days), nights: formatNum(nights)});
+  }
   function updateDatesHint(){
     var start = parseIsoDate(els.dateStart.value);
     var end = parseIsoDate(els.dateEnd.value);
     if(start && end && end >= start){
       els.dateEnd.min = isoDate(start);
       var dur = tripNightsAndDays(start, end);
-      var label = dur.nights === 0
-        ? t('form.dates.oneDay')
-        : t(dur.nights === 1 ? 'form.dates.duration1' : 'form.dates.durationN', {days: formatNum(dur.days), nights: formatNum(dur.nights)});
+      var label = durationLabel(dur.days, dur.nights);
       els.durationHint.textContent = label + (dur.capped ? t('form.dates.maxSuffix', {max: formatNum(MAX_TRIP_DAYS)}) : '');
       clearDatesError();
     } else {
@@ -1322,7 +1345,7 @@
     el.textContent = el.__message ? el.__message() : message;
   }
   function retranslateErrors(){
-    [els.cityError, els.datesError, els.radiusError, els.minDistanceError, els.legDistanceError, els.daysPerCityError].forEach(function(el){
+    [els.cityError, els.datesError, els.radiusError, els.minDistanceError, els.legDistanceError, els.daysPerCityError, els.formError].forEach(function(el){
       if(el && el.__message && el.classList.contains('show')) el.textContent = el.__message();
     });
   }
@@ -1344,8 +1367,7 @@
     errEl.classList.remove('show');
     fieldInputs(field).forEach(function(input){
       input.removeAttribute('aria-invalid');
-      // #city garde son lien permanent vers #city-error (posé dans index.html) : le message y est vide quand il est masqué.
-      if(input !== els.city) removeDescribedBy(input, errEl.id);
+      removeDescribedBy(input, errEl.id);
     });
   }
   // inputs : champ(s) en cause (le premier reçoit le focus) ; par défaut tous ceux du bloc.
@@ -1356,7 +1378,7 @@
     errEl.classList.add('show');
     fieldInputs(field).forEach(function(input){
       if(inputs.indexOf(input) !== -1){ input.setAttribute('aria-invalid', 'true'); addDescribedBy(input, errEl.id); }
-      else { input.removeAttribute('aria-invalid'); if(input !== els.city) removeDescribedBy(input, errEl.id); }
+      else { input.removeAttribute('aria-invalid'); removeDescribedBy(input, errEl.id); }
     });
     field.classList.remove('shake');
     void field.offsetWidth; // relance l'animation
@@ -1365,6 +1387,20 @@
   }
   function clearCityError(){ clearFieldError(els.cityField, els.cityError); }
   function showCityError(message){ showFieldError(els.cityField, els.cityError, message, [els.city]); }
+  // Erreurs qui ne concernent pas la ville saisie (quota, serveur occupé, délai dépassé, aucun itinéraire, zones
+  // déconseillées, erreur de rendu) : affichées sous le bouton de tirage, sans marquer la ville invalide (11e audit — le
+  // champ ville était signalé fautif et recevait le focus pour une erreur du serveur). Le bouton garde le focus.
+  function showFormError(message){
+    if(!els.formError) return showCityError(message);
+    setErrorText(els.formError, message);
+    els.formError.classList.add('show');
+  }
+  function clearFormError(){
+    if(!els.formError) return;
+    els.formError.classList.remove('show');
+    els.formError.__message = null;
+    els.formError.textContent = '';
+  }
   function showDatesError(message, input){ showFieldError(els.datesField, els.datesError, message, [input || els.dateStart]); }
 
   /* ---------- MIN-DISTANCE VALIDATION ---------- */
@@ -1675,17 +1711,25 @@
   els.modeKm.addEventListener('click', function(){ setMode('km'); });
   els.modeH.addEventListener('click', function(){ setMode('h'); });
   els.radius.addEventListener('input', updateRadiusUnitLabel);
-  // En mode heures, le nombre décimal réel de l'input est rendu invisible (voir .show-duration
-  // en CSS) : taper dessus au clavier ne montrerait rien d'utile, et permettrait de sélectionner
-  // ce texte caché. On bloque donc la saisie clavier directe, en ne laissant passer que les
-  // touches qui pilotent le pas de 0,5h (flèches haut/bas) et la navigation (Tab) — l'ajustement
-  // de la valeur reste possible via ces flèches ou via les boutons +/- natifs du champ.
+  // En mode heures, le nombre décimal réel de l'input est rendu invisible (voir .show-duration en CSS) : la durée mise
+  // en forme (« 4 h 30 ») s'affiche à sa place et suit chaque saisie.
+  // 11e audit : Entrée n'envoyait plus le formulaire et aucun chiffre ne pouvait être saisi dans ce mode. Sont désormais
+  // acceptés les chiffres (décimale « . » ou « , ») et les touches d'édition ; tout le champ est sélectionné à l'arrivée du
+  // focus, pour qu'un nombre tapé remplace la valeur au lieu de s'y ajouter à l'aveugle (elle est masquée par l'affichage
+  // de la durée). Les lettres restent bloquées (le texte masqué ne doit pas se remplir de caractères invisibles).
   els.radius.addEventListener('keydown', function(e){
-    if(radiusMode !== 'h') return;
-    var allowed = ['Tab','ArrowUp','ArrowDown','Escape'];
-    if(allowed.indexOf(e.key) === -1){ e.preventDefault(); }
+    if(radiusMode !== 'h' || e.ctrlKey || e.metaKey || e.altKey) return;
+    var allowed = ['Tab','ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Escape','Enter','Backspace','Delete','Home','End','.',','];
+    if(allowed.indexOf(e.key) === -1 && !/^[0-9]$/.test(e.key)){ e.preventDefault(); }
   });
-  els.radius.addEventListener('paste', function(e){ if(radiusMode === 'h') e.preventDefault(); });
+  els.radius.addEventListener('focus', function(){
+    if(radiusMode === 'h'){ try { els.radius.select(); } catch(err){} }
+  });
+  els.radius.addEventListener('paste', function(e){
+    if(radiusMode !== 'h') return;
+    var txt = (e.clipboardData && e.clipboardData.getData('text')) || '';
+    if(!/^\s*[0-9]+([.,][0-9]+)?\s*$/.test(txt)) e.preventDefault();
+  });
   // Boutons +/- toujours tactiles, indépendants des flèches natives du champ (peu fiables, voire
   // absentes, sur mobile) et du champ lui-même (invisible en mode heures). Seul vrai moyen
   // d'ajuster la valeur au doigt.
@@ -1781,11 +1825,26 @@
   }
   // Plancher de lisibilité à 0,72rem ; si le texte ne tient toujours pas, le champ affiche « — » (la valeur par défaut :
   // aucune borne) et le texte complet reste en infobulle — l'étiquette et l'aide sous le champ disent déjà ce qu'il attend.
+  // 11e audit : l'infobulle (title) ne s'affiche pas au toucher — le texte replié est aussi écrit en clair sous le champ
+  // (span.ph-help, créé à la demande juste après la ligne du champ, masqué quand le texte tient dans le champ).
+  function placeholderHelpEl(input){
+    if(input.__phHelp) return input.__phHelp;
+    var row = input.closest('.stepper-row') || input;
+    var help = document.createElement('span');
+    help.className = 'ph-help';
+    help.id = input.id + '-ph-help';
+    help.hidden = true;
+    help.setAttribute('aria-hidden', 'true'); // même texte déjà annoncé par le champ (title)
+    row.parentNode.insertBefore(help, row.nextSibling);
+    input.__phHelp = help;
+    return help;
+  }
   function fitPlaceholders(){
     var sizes = ['', '0.86rem', '0.78rem', '0.72rem'];
     Array.prototype.forEach.call(els.form.querySelectorAll('input[placeholder]'), function(input){
       if(input.__fullPlaceholder !== undefined && input.placeholder === '—') input.placeholder = input.__fullPlaceholder;
       input.removeAttribute('title');
+      if(input.__phHelp){ input.__phHelp.hidden = true; input.__phHelp.textContent = ''; }
       if(!input.placeholder || !input.clientWidth) return;
       for(var i = 0; i < sizes.length; i++){
         if(sizes[i]) input.style.setProperty('--ph-size', sizes[i]); else input.style.removeProperty('--ph-size');
@@ -1796,6 +1855,9 @@
         input.title = input.placeholder;
         input.placeholder = '—';
         input.style.removeProperty('--ph-size');
+        var help = placeholderHelpEl(input);
+        help.textContent = input.__fullPlaceholder;
+        help.hidden = false;
       }
     });
   }
@@ -1807,15 +1869,50 @@
   fitPlaceholders();
 
   /* ---------- FOURCHETTE DE PRIX DU BUDGET SÉLECTIONNÉ ---------- */
-  // Affiche le plafond réellement utilisé pour préremplir les liens Airbnb/Booking (voir
-  // buildLodgingLinks, BUDGET_PRICE_MAX) — "jusqu'à X €/CHF" reflète le filtre "0 à X" appliqué sur
-  // ces liens, pas une fourchette contiguë entre paliers. La devise suit le pays de la ville de
-  // départ SÉLECTIONNÉE (selectedCity.country) quand elle est connue — un simple aperçu avant
-  // tirage, puisque chaque étape du séjour utilisera ensuite sa propre devise (voir
-  // buildLodgingLinks, appelé par commune) ; EUR par défaut tant qu'aucune ville n'est choisie.
+  // Affiche le plafond par nuit du pays de la ville de départ (TripData.lodgingPriceCap, filtre « 0 à X » des liens
+  // Airbnb/Booking), dans la devise CHOISIE (conversion possible vers toutes les devises, voir
+  // lodgingPriceCap.rateSources) ou, en mode automatique, dans celle du pays. Les liens eux-mêmes peuvent passer à une
+  // autre devise si les plateformes n'acceptent pas la devise choisie (voir linkLodgingCap). Moyenne de l'UE en euros
+  // tant qu'aucune ville n'est choisie.
   // Nombre au format de la langue d'interface (« 24 000 JPY » et non « 24000 JPY »).
-  function formatAmount(n){
-    try { return new Intl.NumberFormat(localeTag(), { maximumFractionDigits: 0 }).format(n); } catch(e){ return String(n); }
+  // Montant avec son symbole monétaire, mis en forme par Intl selon la langue d'interface (11e audit du 19/09/2026) :
+  // « 150 € », « €150 », « 150,00 € », « ١٥٠ € »… au lieu d'un « € » collé en dur après le nombre dans chaque phrase
+  // (l'anglais affichait « Up to 150 € »). Décimales : entières par défaut ; deux pour un petit montant non entier (péage,
+  // ferry arrondis au dixième : « 6,30 € » plutôt que « 6 € »). Devise inconnue d'Intl : nombre suivi du code ISO.
+  function formatMoney(n, currency, decimals){
+    var v = Number(n);
+    if(!isFinite(v)) return '';
+    currency = /^[A-Z]{3}$/.test(currency || '') ? currency : 'EUR';
+    if(decimals == null) decimals = (Math.abs(v) < 20 && Math.round(v) !== v) ? 2 : 0;
+    if(!decimals) v = Math.round(v);
+    try {
+      return new Intl.NumberFormat(localeTag(), { style: 'currency', currency: currency, minimumFractionDigits: decimals, maximumFractionDigits: decimals }).format(v);
+    } catch(e){ return formatNum(v) + ' ' + currency; }
+  }
+  // Montant estimé (« ~6,30 € »).
+  function approxMoney(n, currency, decimals){ return '~' + formatMoney(n, currency, decimals); }
+  // Décimales communes aux deux bornes d'une fourchette (« ~5,20 € à ~14,70 € », « ~20 € à ~34 € », jamais « ~19,70 € à ~34 € »).
+  function rangeDecimals(min, max){ return (Math.abs(max) < 20 && (Math.round(min) !== min || Math.round(max) !== max)) ? 2 : 0; }
+  // Fourchette compacte pour les statistiques (« ~5–12 € », « ~€5–12 ») : Intl.NumberFormat.formatRange quand le
+  // navigateur la connaît, sinon deux montants séparés par un tiret.
+  function approxMoneyRange(min, max, currency){
+    currency = currency || 'EUR';
+    var decimals = rangeDecimals(min, max);
+    var a = decimals ? min : Math.round(min), b = decimals ? max : Math.round(max);
+    try {
+      var nf = new Intl.NumberFormat(localeTag(), { style: 'currency', currency: currency, minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+      if(typeof nf.formatRange === 'function') return '~' + nf.formatRange(a, b);
+    } catch(e){}
+    return '~' + formatMoney(a, currency, decimals) + '–' + formatMoney(b, currency, decimals);
+  }
+  // Devise choisie que Airbnb/Booking ne proposent pas (voir linkLodgingCap) : les liens passent à la devise du pays de
+  // l'étape ou à l'euro — dit UNE fois (« Liens Airbnb/Booking en MAD, EUR : la devise choisie (XOF) n'y est pas
+  // proposée ») plutôt qu'un changement muet (11e audit). Rien en mode automatique.
+  function currencyLinkFallbackText(linkCurrencies){
+    var pref = getPreferredCurrency();
+    var list = (linkCurrencies || []).filter(function(c, i, a){ return c && c !== pref && a.indexOf(c) === i; });
+    if(!pref || !list.length) return '';
+    return t('currency.linkFallback', { currency: list.join(', '), chosen: pref });
   }
   function updateBudgetHint(){
     // Garde défensive : le sélecteur de devise (voir plus haut, "SÉLECTEUR DE DEVISE") est
@@ -1825,10 +1922,19 @@
     if(!els || !els.budget) return;
     var key = els.budget.value;
     // Plafond du PAYS de la ville de départ (moyenne de l'UE tant qu'aucune ville n'est choisie), converti dans la devise
-    // choisie quand un taux BCE existe — même calcul que le moteur pour les liens (TripData.lodgingPriceCap).
+    // choisie — même calcul que le moteur (TripData.lodgingPriceCap).
     var cap = lodgingCap(selectedCity && selectedCity.country, key);
-    els.budgetHint.textContent = t('form.budget.hint', {max: formatAmount(cap.max), currency: CURRENCY_SYMBOL[cap.currency] || cap.currency});
+    els.budgetHint.textContent = t('form.budget.hint', {amount: formatMoney(cap.max, cap.currency, 0)});
   }
+  // Niveaux de budget : nom du niveau suivi de la catégorie d'hébergement à laquelle son plafond correspond réellement
+  // (11e audit : « Économique » plafonné à ~100 €, prix moyen d'un hôtel 2★). La clé courte (budgetLabel) reste celle
+  // du sac à préparer et du PDF.
+  function applyBudgetOptionLabels(){
+    Array.prototype.forEach.call(els.budget.options, function(opt){
+      opt.textContent = budgetLabel(opt.value) + ' — ' + t('form.budget.' + opt.value + 'Desc');
+    });
+  }
+  applyBudgetOptionLabels();
   els.budget.addEventListener('change', updateBudgetHint);
   updateBudgetHint();
 
@@ -1854,6 +1960,15 @@
     var style = compact ? 'narrow' : 'short';
     totalMin = Math.max(0, Math.round(Number(totalMin) || 0));
     var h = Math.floor(totalMin / 60), m = totalMin % 60, loc = localeTag();
+    // Langue sans aucune donnée Intl dans le navigateur (birman, cinghalais) : unités écrites dans la langue plutôt que
+    // l'anglais de la locale de repli (11e audit).
+    var words = window.I18N.durationWords ? window.I18N.durationWords(VISITOR_LANG) : null;
+    if(words){
+      var bits = [];
+      if(h) bits.push(words.h.replace('{n}', formatNum(h)));
+      if(m || !h) bits.push(words.m.replace('{n}', formatNum(m)));
+      return bits.join(' ');
+    }
     try {
       if(typeof Intl.DurationFormat === 'function'){
         var parts = {};
@@ -1889,12 +2004,6 @@
     var hh = Math.floor(totalMin/60), mm = totalMin%60;
     if(hh<=0) return mm+' min';
     return hh+'h'+(mm? String(mm).padStart(2,'0'):'');
-  }
-  // Montant à une décimale, séparateur de la langue d'interface (« 25,8 » en français, « 25.8 » en anglais ou en japonais).
-  function formatEuro(n){
-    var v = Math.round(n*10)/10;
-    try { return new Intl.NumberFormat(localeTag(), { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(v); }
-    catch(e){ return v.toFixed(1); }
   }
   // Nombres entiers et distances dans la langue d'interface (10e audit du 18/09/2026) : chiffres et séparateurs de la
   // locale (« 1 234 », « 1,234 », « ١٬٢٣٤ »), et « km » traduit par Intl (« км », « كم », « 公里 ») au lieu d'un « km » en dur.
@@ -2062,7 +2171,7 @@
   /* ---------- PÉAGE & RECHARGE : calcul par étape ---------- */
   // Le péage d'une étape est calculé par le moteur (lib/toll-grid.js : longueur minimale facturée d'affilée sur une
   // autoroute à péage réelle), plus par un seuil de distance côté client. Depuis le 7e audit, cocher ou non le péage ne
-  // change plus la durée annoncée de l'étape : seul le montant change de sens (péage estimé si coché, péage évité si décoché — voir toll.enabled/toll.disabled).
+  // change plus la durée annoncée de l'étape : seul le montant change de sens (péage estimé si coché, péage évité si décoché — voir tollText).
 
   /* ---------- ITINERARY BUILD ---------- */
   // Liens de recherche réels (pas une réservation ni des résultats fabriqués) : cet artefact autonome
@@ -2752,9 +2861,9 @@
     var u;
     try { u = new URL(url); } catch(e){ return url; }
     if(!/^https?:$/.test(u.protocol)) return url;
-    // Devise ET plafond viennent de lodgingCap (plafond du pays de l'étape converti dans la devise choisie) : la devise
-    // renvoyée peut différer de celle choisie quand celle-ci n'a pas de taux BCE.
-    var cap = budgetKey ? lodgingCap(country, budgetKey) : { currency: countryCurrency(country), max: null };
+    // Devise ET plafond viennent de linkLodgingCap (plafond du pays de l'étape, dans la devise choisie si Airbnb/Booking
+    // l'acceptent, sinon celle du pays ou l'euro — même règle que le moteur).
+    var cap = budgetKey ? linkLodgingCap(country, budgetKey) : { currency: countryCurrency(country), max: null };
     var currency = cap.currency;
     var priceMax = cap.max != null ? Math.round(cap.max) : null;
     var p = u.searchParams, changed = false;
@@ -2799,6 +2908,51 @@
   function tripTotalKm(legs){
     return Math.round(legs.reduce(function(s, l){ return s + (Number(l.distanceKm) || 0) + (Number(l.roadKm) || 0); }, 0));
   }
+  // Kilomètres parcourus en ferry (distanceKm d'une étape avec traversée = la traversée ; roadKm = la route jusqu'au port).
+  function tripCurrencyNoRateText(trip){
+    if(!getPreferredCurrency()) return '';
+    var used = [];
+    trip.legs.forEach(function(l){
+      if(l.lodgingLinks && l.country && (l.lodgingLinks.airbnb || l.lodgingLinks.booking)) used.push(linkLodgingCap(l.country, trip.budgetKey).currency);
+    });
+    return currencyLinkFallbackText(used);
+  }
+  // Traversée (écran et PDF). Ce que couvre le tarif (priceCovers, 11e audit) : véhicule seul (+ tarif piéton par
+  // personne s'il est connu), véhicule et conducteur, tous les occupants, ou non précisé par la grille ; gratuit (bacs
+  // norvégiens…) ; tarif sans précision (vélo, moteur plus ancien : champ absent). Durée non publiée : « environ ».
+  // html : route déjà échappée/traduite par tData, montants échappés ; sinon texte brut pour le PDF.
+  function ferryLabel(fi){ return t(fi.mode === 'train' ? 'ferry.trainLabel' : 'ferry.label'); }
+  function ferryPriceText(fi){
+    var amt = Number(fi.amount);
+    if(amt === 0) return t('ferry.price.free');
+    var a = approxMoney(amt, 'EUR');
+    var foot = (fi.footAmount != null && isFinite(Number(fi.footAmount)) && Number(fi.footAmount) > 0) ? approxMoney(Number(fi.footAmount), 'EUR') : null;
+    if(!('priceCovers' in fi)) return a;
+    switch(fi.priceCovers){
+      case 'vehicle': return foot ? t('ferry.price.vehicle', { amount: a, foot: foot }) : t('ferry.price.vehicleOnly', { amount: a });
+      case 'vehicleAndDriver': return foot ? t('ferry.price.vehicleDriver', { amount: a, foot: foot }) : t('ferry.price.vehicleDriverOnly', { amount: a });
+      case 'vehicleAndOccupants': return t('ferry.price.allIncluded', { amount: a });
+      default: return t('ferry.price.unspecified', { amount: a });
+    }
+  }
+  function ferryText(fi, route, html){
+    var dur = formatDurationMin(fi.durationH * 60);
+    if(fi.durationEstimated) dur = t('ferry.durationApprox', { duration: dur });
+    if(html) dur = escHtml(dur);
+    if(fi.amount === null || fi.amount === undefined) return t('ferry.textNoPrice', { route: route, duration: dur });
+    var price = ferryPriceText(fi);
+    return t('ferry.textPriced', { route: route, price: html ? escHtml(price) : price, duration: dur });
+  }
+  // Libellé du total ferry : les montants additionnés ne couvrent pas tous la même chose (véhicule seul, conducteur
+  // compris, tous les occupants…) — dit honnêtement dès qu'un tarif ne comprend pas tous les passagers ou ne le précise pas.
+  function ferryTotalLabel(pricedLegs){
+    var mixed = pricedLegs.some(function(l){ var fi = l.ferryInfo; return Number(fi.amount) > 0 && ('priceCovers' in fi) && fi.priceCovers !== 'vehicleAndOccupants'; });
+    return t(mixed ? 'stats.ferryTotalVehicles' : 'stats.ferryTotal');
+  }
+  function tripFerryKm(legs){
+    // Train-auto (Sylt) exclu : ce ne sont pas des kilomètres « en ferry » (11e audit).
+    return Math.round(legs.reduce(function(s, l){ return s + (l.ferryInfo && l.ferryInfo.mode !== 'train' ? (Number(l.distanceKm) || 0) : 0); }, 0));
+  }
   // `trip` : le voyage affiché (voir currentTripData) — avertissements et zone de départ viennent de LUI, jamais d'une
   // réponse de tirage pas encore affichée.
   function renderDays(trip){
@@ -2812,13 +2966,21 @@
       note.innerHTML = icon('warn') + '<span>' + tData(key) + '</span>';
       els.days.appendChild(note);
     });
+    // Devise choisie non proposée par Airbnb/Booking : dit une seule fois pour tout le voyage (11e audit), au lieu de
+    // liens d'hébergement qui passaient sans explication à une autre devise.
+    var noRate = tripCurrencyNoRateText(trip);
+    if(noRate){
+      var rateNote = document.createElement('div');
+      rateNote.className = 'day-row tension-row tension-orange';
+      rateNote.innerHTML = icon('warn') + '<span>' + escHtml(noRate) + '</span>';
+      els.days.appendChild(rateNote);
+    }
     if(trip.departureTension){
       var depWarn = document.createElement('div');
       depWarn.className = 'day-row tension-row tension-' + trip.departureTension.level;
       depWarn.innerHTML = tensionRowHtml(trip.departureTension, 'tension.departure');
       els.days.appendChild(depWarn);
     }
-    var totalKm = tripTotalKm(legs);
     // Un seul rappel de vignette PAR PAYS pour tout l'itinéraire (pas à chaque jour/étape qui y
     // reste ou y repasse) — voir son affichage plus bas, dans la boucle groups.forEach. Remis à
     // zéro à chaque appel de renderDays, y compris depuis l'écouteur 'i18n:langchange' : le rappel
@@ -2841,8 +3003,10 @@
       var badge = document.createElement('div');
       badge.className = 'day-badge';
       var num = document.createElement('div');
-      num.className = 'num' + (firstLeg.isReturn? ' final':'');
-      num.textContent = firstLeg.isReturn ? '⟲' : (isMultiDay ? (group.startDay+'-'+group.endDay) : String(group.startDay));
+      num.className = 'num' + (firstLeg.isReturn? ' final':'') + (isMultiDay ? ' range' : '');
+      // Chiffres de la langue d'interface (١, ၁, ๑…), comme le reste du journal de bord (11e audit).
+      num.textContent = firstLeg.isReturn ? '⟲' : (isMultiDay ? (formatNum(group.startDay)+'–'+formatNum(group.endDay)) : formatNum(group.startDay));
+      num.setAttribute('aria-hidden', 'true');
       badge.appendChild(num);
       if(gIdx < groups.length-1){
         var line = document.createElement('div');
@@ -2952,10 +3116,9 @@
       }
       if(firstLeg.tollInfo){
         var ti = firstLeg.tollInfo;
-        var amountTxt = formatEuro(ti.amount);
         var tollRow = document.createElement('div');
         tollRow.className = 'day-row';
-        var tollTxt = t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: amountTxt}) + ' ' + t('toll.estimateNote');
+        var tollTxt = escHtml(tollText(ti)) + ' ' + t('toll.estimateNote');
         // Barème du ou des pays traversés (ex. Autostrade per l'Italia), pas celui d'ASF pour tous.
         var tollSources = (Array.isArray(ti.countries) ? ti.countries : [firstLeg.country])
           .map(tollSourceLabel).filter(function(x, i, a){ return x && a.indexOf(x) === i; });
@@ -2973,10 +3136,8 @@
         var ferryRow = document.createElement('div');
         ferryRow.className = 'day-row';
         // routeKey vient du serveur : clé validée et échappée si inconnue (tData, 10e audit).
-        var ferryTxt = fi.amount === null
-          ? t('ferry.textNoPrice', { route: tData(fi.routeKey), duration: formatDurationMin(fi.durationH * 60) })
-          : t('ferry.text', { route: tData(fi.routeKey), amount: formatEuro(fi.amount), duration: formatDurationMin(fi.durationH * 60) });
-        ferryRow.innerHTML = icon('ferry') + '<span><span class="lbl">'+t('ferry.label')+'</span>'+ferryTxt+'</span>';
+        var ferryTxt = ferryText(fi, tData(fi.routeKey), true);
+        ferryRow.innerHTML = icon(fi.mode === 'train' ? 'train' : 'ferry') + '<span><span class="lbl">'+escHtml(ferryLabel(fi))+'</span>'+ferryTxt+'</span>';
         body.appendChild(ferryRow);
         // Liaison réelle sans tarif fixe publié : avertissement dans le style des zones à tension (orange).
         if(fi.amount === null){
@@ -3026,15 +3187,18 @@
       // Rappel vignette : uniquement la première fois que ce pays apparaît dans l'itinéraire (voir
       // shownVignetteCountries plus haut) — un pays traversé plusieurs jours de suite, ou retraversé
       // plus tard dans le séjour, n'a besoin d'acheter qu'UNE seule vignette pour tout le trajet.
-      var vignetteCountry = firstLeg.country && COUNTRIES[firstLeg.country];
-      if(vignetteCountry && vignetteCountry.vignette && !shownVignetteCountries[firstLeg.country]){
-        shownVignetteCountries[firstLeg.country] = true;
+      // 11e audit : le rappel ne concernait que le pays d'ARRIVÉE de l'étape ; le pays de départ (premier jour) et les pays
+      // traversés connus (barèmes de péage traversés, et liste de pays traversés si le moteur la fournit) sont désormais
+      // couverts, chacun une seule fois et NOMMÉ (plusieurs pays à vignette peuvent se suivre sur un même trajet).
+      vignetteCountriesOfGroup(firstLeg, gIdx === 0 ? trip.cityCoord && trip.cityCoord.country : null).forEach(function(cc){
+        if(shownVignetteCountries[cc]) return;
+        shownVignetteCountries[cc] = true;
         var vignetteRow = document.createElement('div');
         vignetteRow.className = 'day-row';
-        vignetteRow.innerHTML = icon('toll') + '<span><span class="lbl">'+t('vignette.label')+'</span>'+t('vignette.notice')+
-          ' <a href="'+safeUrl(vignetteCountry.vignette.url)+'" target="_blank" rel="noopener">'+t('vignette.link')+'</a></span>';
+        vignetteRow.innerHTML = icon('toll') + '<span><span class="lbl">'+escHtml(vignetteLabel(cc))+'</span>'+t('vignette.notice')+
+          ' <a href="'+safeUrl(COUNTRIES[cc].vignette.url)+'" target="_blank" rel="noopener">'+t('vignette.link')+'</a></span>';
         body.appendChild(vignetteRow);
-      }
+      });
 
       // Une section "Activités possibles" PAR JOUR du séjour (pas une seule pour tout le groupe) :
       // chaque jour garde ses propres suggestions, distinctes des autres jours au même endroit
@@ -3138,33 +3302,99 @@
       els.days.appendChild(card);
     });
 
+    // Nombre de jours DEMANDÉ (un aller-retour d'une journée compte 1 jour, pas ses 2 legs aller + retour) : voir tripStatsParts.
+    // Mêmes morceaux que le PDF (tripStatsParts), ici avec la valeur en gras.
+    els.timelineStats.innerHTML = tripStatsParts(trip).map(function(p){
+      return '<span>' + (p.nounFirst ? escHtml(p.label) + ' <b>' + escHtml(p.value) + '</b>' : '<b>' + escHtml(p.value) + '</b> ' + escHtml(p.label)) +
+        (p.extra ? ' (' + escHtml(p.extra) + ')' : '') + '</span>';
+    }).join('');
+  }
+  // Statistiques du voyage (journal de bord et PDF) : { value, label, nounFirst }. nounFirst : langues où le nom précède
+  // le nombre (« siku 3 » en swahili, « iminsi 3 » en kinyarwanda…), repéré sur leur propre formule de durée
+  // (form.dates.durationN commence par le nom) — 11e audit : « 3 siku » était affiché.
+  function nounFirstLang(){ return !/^\s*\{days\}/.test(t('form.dates.durationN')); }
+  function tripStatsParts(trip){
+    var legs = trip.legs;
     var nights = legs.filter(function(l){return l.labelKind === 'day';}).length;
     var villes = {};
     legs.forEach(function(l){ if(!l.isReturn) villes[stopKey(l)]=true; });
-    // Nombre de jours DEMANDÉ (un aller-retour d'une journée compte 1 jour, pas ses 2 legs aller + retour).
     var statsDays = trip.days || legs.length, statsCities = Object.keys(villes).length;
-    var statsHtml =
-      '<span><b>'+formatNum(statsDays)+'</b> '+statsLabel(statsDays, 'stats.days')+'</span>'+
-      '<span><b>'+formatNum(statsCities)+'</b> '+statsLabel(statsCities, 'stats.cities')+'</span>'+
-      '<span><b>'+formatNum(nights)+'</b> '+statsLabel(nights, 'stats.nights')+'</span>'+
-      '<span><b>~'+escHtml(formatKm(totalKm))+'</b> '+t('stats.totalKm')+'</span>';
+    var nf = nounFirstLang();
+    var parts = [
+      { value: formatNum(statsDays), label: statsLabel(statsDays, 'stats.days'), nounFirst: nf },
+      { value: formatNum(statsCities), label: statsLabel(statsCities, 'stats.cities'), nounFirst: nf },
+      { value: formatNum(nights), label: statsLabel(nights, 'stats.nights'), nounFirst: nf }
+    ];
+    // Kilométrage : route et traversées confondues, la part en ferry précisée (11e audit : un trajet vers la Corse
+    // additionnait sans le dire 200 km de mer aux kilomètres de route).
+    var totalKm = tripTotalKm(legs), ferryKm = tripFerryKm(legs);
+    parts.push({ value: '~' + formatKm(totalKm), label: t('stats.totalKm'), nounFirst: false, extra: ferryKm > 0 ? t('stats.ferryKm', { km: formatKm(ferryKm) }) : null });
+    // Péage : somme des bornes basses et hautes de chaque étape (fourchette), même logique que chaque étape (tollRange).
     var tollLegs = legs.filter(function(l){return l.tollInfo;});
     if(tollLegs.length){
-      var tollSum = tollLegs.reduce(function(s,l){return s+l.tollInfo.amount;},0);
-      statsHtml += '<span><b>~'+formatEuro(tollSum)+' €</b> '+t(tollLegs[0].tollInfo.enabled ? 'stats.tollEstimated' : 'stats.tollAvoided')+'</span>';
+      var sumMin = 0, sumMax = 0;
+      tollLegs.forEach(function(l){ var r = tollRange(l.tollInfo); sumMin += r.min; sumMax += r.max; });
+      var enabled = !!tollLegs[0].tollInfo.enabled, kind = tollRangeKind(sumMin, sumMax);
+      if(kind === 'upTo') parts.push({ value: t('stats.upTo', { amount: approxMoney(sumMax, 'EUR') }), label: t(enabled ? 'stats.tollPossible' : 'stats.tollAvoided'), nounFirst: false });
+      else parts.push({ value: kind === 'single' ? approxMoney(sumMax, 'EUR') : approxMoneyRange(sumMin, sumMax, 'EUR'), label: t(enabled ? 'stats.tollEstimated' : 'stats.tollAvoided'), nounFirst: false });
     }
     var ferryLegs = legs.filter(function(l){return l.ferryInfo;});
     if(ferryLegs.length){
       var pricedFerries = ferryLegs.filter(function(l){return l.ferryInfo.amount !== null;});
       if(pricedFerries.length){
         var ferrySum = pricedFerries.reduce(function(s,l){return s+l.ferryInfo.amount;},0);
-        statsHtml += '<span><b>~'+formatEuro(ferrySum)+' €</b> '+t('stats.ferryTotal')+'</span>';
+        parts.push({ value: approxMoney(ferrySum, 'EUR'), label: ferryTotalLabel(pricedFerries), nounFirst: false });
       }
       if(pricedFerries.length < ferryLegs.length){
-        statsHtml += '<span><b>'+formatNum(ferryLegs.length - pricedFerries.length)+'</b> '+t('stats.ferryUnpriced')+'</span>';
+        parts.push({ value: formatNum(ferryLegs.length - pricedFerries.length), label: t('stats.ferryUnpriced'), nounFirst: false });
       }
     }
-    els.timelineStats.innerHTML = statsHtml;
+    return parts;
+  }
+  // Fourchette de péage d'une étape (11e audit du 19/09/2026) : le moteur renvoie une borne basse « probable » (amountMin)
+  // et une borne haute « possible » (amountMax, = amount). Réponse d'un moteur plus ancien, sans borne basse : montant unique.
+  function tollRange(ti){
+    var max = Number(ti.amountMax != null ? ti.amountMax : ti.amount);
+    if(!isFinite(max) || max < 0) max = 0;
+    var min = ti.amountMin != null ? Number(ti.amountMin) : max;
+    if(!isFinite(min)) min = max;
+    return { min: Math.max(0, Math.min(min, max)), max: max };
+  }
+  // 'upTo' : borne basse nulle (des routes gratuites longent le trajet) ; 'single' : bornes quasi égales (écart < 10 % ou
+  // < 0,50 €) ; 'range' sinon. La borne basse nulle passe en premier : un péage seulement possible n'est jamais annoncé
+  // comme certain, même minuscule.
+  function tollRangeKind(min, max){
+    if(!(min > 0)) return 'upTo';
+    if(max - min < 0.5 || max - min < 0.1 * max) return 'single';
+    return 'range';
+  }
+  // Phrase de péage d'une étape (écran et PDF). Péage décoché : mêmes trois cas, « sections à péage évitées », jamais une
+  // économie certaine quand la borne basse est nulle.
+  function tollText(ti){
+    var r = tollRange(ti), kind = tollRangeKind(r.min, r.max), on = !!ti.enabled;
+    if(kind === 'single') return t(on ? 'toll.estimated' : 'toll.avoided', { amount: approxMoney(r.max, 'EUR') });
+    if(kind === 'upTo') return t(on ? 'toll.possibleUpTo' : 'toll.avoidedUpTo', { max: approxMoney(r.max, 'EUR') });
+    var dec = rangeDecimals(r.min, r.max);
+    return t(on ? 'toll.estimatedRange' : 'toll.avoidedRange', { min: approxMoney(r.min, 'EUR', dec), max: approxMoney(r.max, 'EUR', dec) });
+  }
+  // Pays à vignette à rappeler sur une case du journal : pays de départ (première case seulement), pays traversés connus
+  // (barèmes de péage du trajet ; leg.transitCountries / leg.countriesCrossed si le moteur les fournit), puis pays d'arrivée.
+  function vignetteCountriesOfGroup(leg, departureCountry){
+    var list = [];
+    if(departureCountry) list.push(departureCountry);
+    [leg.transitCountries, leg.countriesCrossed, leg.tollInfo && leg.tollInfo.countries].forEach(function(arr){
+      if(Array.isArray(arr)) arr.forEach(function(c){ list.push(c); });
+    });
+    if(leg.country) list.push(leg.country);
+    return list.filter(function(cc, i, a){
+      return typeof cc === 'string' && a.indexOf(cc) === i && COUNTRIES[cc] && COUNTRIES[cc].vignette && COUNTRIES[cc].vignette.url;
+    });
+  }
+  // « Vignette autoroutière · Suisse » : nom du pays dans la langue d'interface (Intl.DisplayNames), sinon nom des données.
+  function vignetteLabel(cc){
+    var name = (COUNTRIES[cc] && COUNTRIES[cc].name) || cc;
+    try { name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(cc) || name; } catch(e){}
+    return t('vignette.label') + ' · ' + name;
   }
 
   /* ---------- RENDER: MAP ---------- */
@@ -3267,7 +3497,7 @@
     if(startLL){
       L.marker(startLL, {
         icon: tripDivIcon('trip-pin trip-pin-start',
-          '<div class="trip-pin-badge">D</div><div class="trip-pin-label">'+escHtml(city||t('map.departFallback'))+'</div>',
+          '<div class="trip-pin-badge">'+escHtml(t('map.departShort'))+'</div><div class="trip-pin-label">'+escHtml(city||t('map.departFallback'))+'</div>',
           [110, 50], [55, 13]),
         keyboard: false
       }).addTo(tripMapLayer);
@@ -3287,7 +3517,7 @@
       allPts.push(ll);
       L.marker(ll, {
         icon: tripDivIcon('trip-pin trip-pin-stop',
-          '<div class="trip-pin-badge">'+stopNum+'</div><div class="trip-pin-label">'+escHtml(leg.stop.split(' ').slice(0,2).join(' '))+'</div>',
+          '<div class="trip-pin-badge">'+escHtml(formatNum(stopNum))+'</div><div class="trip-pin-label">'+escHtml(leg.stop.split(' ').slice(0,2).join(' '))+'</div>',
           [110, 50], [55, 13]),
         keyboard: false
       }).addTo(tripMapLayer);
@@ -3408,8 +3638,7 @@
       var ti = leg.tollInfo;
       var tollSources = (Array.isArray(ti.countries) ? ti.countries : [leg.country])
         .map(tollSourceLabel).filter(function(x, i, a){ return x && a.indexOf(x) === i; });
-      out.toll = t('toll.label', {source: tollSources.join(' + ') || '—'}) + ' — ' +
-        t(ti.enabled ? 'toll.enabled' : 'toll.disabled', {amount: formatEuro(ti.amount)}) + ' ' + t('toll.estimateNote');
+      out.toll = t('toll.label', {source: tollSources.join(' + ') || '—'}) + ' — ' + tollText(ti) + ' ' + t('toll.estimateNote');
     }
     if(leg.chargeInfo){
       var c = leg.chargeInfo;
@@ -3435,9 +3664,8 @@
     }
     if(leg.ferryInfo){
       var fi = leg.ferryInfo;
-      out.ferry = t('ferry.label') + ' — ' + (fi.amount === null
-        ? t('ferry.textNoPrice', { route: tIfDefined(fi.routeKey) || '', duration: formatDurationMin(fi.durationH * 60) }) + ' ' + t(fi.priceStatus === 'variable' ? 'ferry.price.variable' : 'ferry.price.unknown')
-        : t('ferry.text', { route: tIfDefined(fi.routeKey) || '', amount: formatEuro(fi.amount), duration: formatDurationMin(fi.durationH * 60) }));
+      out.ferry = ferryLabel(fi) + ' — ' + ferryText(fi, tIfDefined(fi.routeKey) || '', false) +
+        (fi.amount === null ? ' ' + t(fi.priceStatus === 'variable' ? 'ferry.price.variable' : 'ferry.price.unknown') : '');
     }
     if(leg.lodgingCheckIn) out.lodging = t('lodging.find', {range: formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut)});
     return out;
@@ -3451,24 +3679,23 @@
     var villes = {};
     legs.forEach(function(l){ if(!l.isReturn) villes[stopKey(l)] = true; });
     var tollLegs = legs.filter(function(l){ return l.tollInfo; });
-    var tollSummary = tollLegs.length ? {
-      enabled: tollLegs[0].tollInfo.enabled,
-      amount: tollLegs.reduce(function(s,l){ return s + l.tollInfo.amount; }, 0)
-    } : null;
+    // Péage : fourchette (somme des bornes basses et hautes), amount = borne haute pour les serveurs qui ne lisent qu'elle.
+    var tollSummary = null;
+    if(tollLegs.length){
+      var tMin = 0, tMax = 0;
+      tollLegs.forEach(function(l){ var r = tollRange(l.tollInfo); tMin += r.min; tMax += r.max; });
+      tollSummary = { enabled: tollLegs[0].tollInfo.enabled, amount: Math.round(tMax * 10) / 10,
+        amountMin: Math.round(tMin * 10) / 10, amountMax: Math.round(tMax * 10) / 10 };
+    }
     // Textes du PDF dans la langue d'interface, composés avec les mêmes clés que la page (le serveur n'a pas les
-    // traductions ; il garde le français en repli et contrôle lui-même les liens et les montants).
-    var pdfDays = currentTripData.days || legs.length, pdfCities = Object.keys(villes).length;
-    var statsTexts = [
-      formatNum(pdfDays) + ' ' + statsLabel(pdfDays, 'stats.days'),
-      formatNum(pdfCities) + ' ' + statsLabel(pdfCities, 'stats.cities'),
-      formatNum(nights) + ' ' + statsLabel(nights, 'stats.nights'),
-      '~' + formatKm(totalKm) + ' ' + t('stats.totalKm')
-    ];
-    if(tollSummary) statsTexts.push('~' + formatEuro(tollSummary.amount) + ' € ' + t(tollSummary.enabled ? 'stats.tollEstimated' : 'stats.tollAvoided'));
-    var ferryLegs = legs.filter(function(l){ return l.ferryInfo; });
-    var pricedFerries = ferryLegs.filter(function(l){ return l.ferryInfo.amount !== null; });
-    if(pricedFerries.length) statsTexts.push('~' + formatEuro(pricedFerries.reduce(function(s, l){ return s + l.ferryInfo.amount; }, 0)) + ' € ' + t('stats.ferryTotal'));
-    if(pricedFerries.length < ferryLegs.length) statsTexts.push(formatNum(ferryLegs.length - pricedFerries.length) + ' ' + t('stats.ferryUnpriced'));
+    // traductions ; il garde le français en repli et contrôle lui-même les liens et les montants). Mêmes morceaux que le
+    // journal de bord (tripStatsParts) ; la part en ferry du kilométrage devient une pastille à part (le serveur coupe
+    // chaque pastille à 80 caractères).
+    var statsTexts = [];
+    tripStatsParts(currentTripData).forEach(function(p){
+      statsTexts.push(p.nounFirst ? p.label + ' ' + p.value : p.value + ' ' + p.label);
+      if(p.extra) statsTexts.push(p.extra);
+    });
     var noticeTexts = {};
     (currentTripData.notices || []).forEach(function(key){ var txt = tIfDefined(key); if(txt) noticeTexts[key] = txt; });
     var depTension = currentTripData.departureTension;
@@ -3486,8 +3713,18 @@
       packSub: t('pack.sub', { transport: transportLabel(transportKey), budget: budgetLabel(budgetKey) }),
       generated: tIfDefined('pdf.generated'),
       truncated: tIfDefined('pdf.truncated'), // mise en page arrêtée faute de temps côté serveur (voir PDF_BUILD_BUDGET_MS)
-      generatedDate: generatedDate
+      generatedDate: generatedDate,
+      // Devise choisie non proposée par Airbnb/Booking pour certaines étapes (voir tripCurrencyNoRateText) ; null sinon.
+      currencyNote: tripCurrencyNoRateText(currentTripData) || null
     };
+    // Rappels de vignette NOMMÉS, une fois par pays, sur la même étape qu'à l'écran (pays de départ sur la première, pays
+    // traversés connus, pays d'arrivée) : texts.vignette par étape, en plus du texte générique ci-dessus.
+    var pdfVignetteShown = {};
+    var legVignettes = legs.map(function(leg, idx){
+      return vignetteCountriesOfGroup(leg, idx === 0 ? currentTripData.cityCoord && currentTripData.cityCoord.country : null)
+        .filter(function(cc){ if(pdfVignetteShown[cc]) return false; pdfVignetteShown[cc] = true; return true; })
+        .map(function(cc){ return { country: cc, text: vignetteLabel(cc) + ' — ' + t('vignette.notice'), url: COUNTRIES[cc].vignette.url }; });
+    });
     return {
       lang: VISITOR_LANG,
       texts: texts,
@@ -3495,13 +3732,15 @@
       tripLabel: currentTripLabel,
       budgetLabel: budgetLabel(budgetKey),
       transportLabel: transportLabel(transportKey),
-      stats: { days: currentTripData.days || legs.length, cities: Object.keys(villes).length, nights: nights, totalKm: totalKm, toll: tollSummary },
+      stats: { days: currentTripData.days || legs.length, cities: Object.keys(villes).length, nights: nights, totalKm: totalKm, ferryKm: tripFerryKm(legs), toll: tollSummary },
       notices: currentTripData.notices || [],
       // Zone déconseillée au point de départ (même forme que tension sur chaque étape).
       departureTension: exportTension(currentTripData.departureTension),
-      legs: legs.map(function(leg){
+      legs: legs.map(function(leg, idx){
+        var legTexts = pdfLegTexts(leg);
+        if(legVignettes[idx].length) legTexts.vignettes = legVignettes[idx];
         return {
-          texts: pdfLegTexts(leg),
+          texts: legTexts,
           label: singleLegLabel(leg),
           stop: leg.stop,
           cpBadge: leg.cp ? formatCpBadge(leg) : null,
@@ -3517,7 +3756,9 @@
           overMaxLeg: leg.overMaxLeg ? { max: leg.overMaxLeg.max, min: leg.overMaxLeg.min } : null,
           // Avertissement de zone déconseillée, comme à l'écran (jamais sur le retour, qui rejoint le départ).
           tension: leg.isReturn ? null : exportTension(leg.tension),
-          ferryInfo: leg.ferryInfo ? { route: tIfDefined(leg.ferryInfo.routeKey) || '', amount: leg.ferryInfo.amount, priceStatus: leg.ferryInfo.priceStatus || null } : null,
+          ferryInfo: leg.ferryInfo ? { route: tIfDefined(leg.ferryInfo.routeKey) || '', amount: leg.ferryInfo.amount, priceStatus: leg.ferryInfo.priceStatus || null,
+            priceCovers: leg.ferryInfo.priceCovers === undefined ? null : leg.ferryInfo.priceCovers, footAmount: leg.ferryInfo.footAmount != null ? leg.ferryInfo.footAmount : null,
+            durationEstimated: !!leg.ferryInfo.durationEstimated, mode: leg.ferryInfo.mode || null } : null,
           checkInLabel: leg.lodgingCheckIn ? formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut) : null,
           lodgingLinks: exportLodgingLinks(leg.lodgingLinks, leg.country, budgetKey),
           activities: (leg.activities || []).map(function(opt){
@@ -3536,6 +3777,7 @@
 
   /* ---------- MAIN FLOW ---------- */
   async function generate(){
+    clearFormError();
     var typed = els.city.value.trim();
     if(!typed){
       showCityError(msg('form.city.error.required'));
@@ -3639,12 +3881,12 @@
       });
       data = await resp.json().catch(function(){ return {}; });
       if(drawId !== currentDrawId) return; // un tirage plus récent a pris le relais
-      if(resp.status === 429){ showCityError(msg('error.tooManyRequests')); return; }
-      if(resp.status === 503){ showCityError(msg('error.serverBusy')); return; }
+      if(resp.status === 429){ showFormError(msg('error.tooManyRequests')); return; }
+      if(resp.status === 503){ showFormError(msg('error.serverBusy')); return; }
       // Moteur arrêté faute de temps (réponse timedOut) : message dédié plutôt qu'« itinéraire impossible ».
-      if(data && data.timedOut){ showCityError(msg('error.drawTimeout')); return; }
+      if(data && data.timedOut){ showFormError(msg('error.drawTimeout')); return; }
       if(!resp.ok){
-        showCityError(msg('error.routeImpossible'));
+        showFormError(msg('error.routeImpossible'));
         return;
       }
       legs = data.legs || [];
@@ -3652,7 +3894,7 @@
       if(legs.length === 0 && data.minDistanceUnreachable){
         var returnCapKm = data.returnCapKm;
         showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {
-          context: t(totalNights === 1 ? 'form.dates.duration1' : 'form.dates.durationN', {days: formatNum(days), nights: formatNum(totalNights)}),
+          context: durationLabel(days, totalNights),
           min: formatNum(minDistanceKm), radius: formatNum(returnCapKm) }; }));
         return;
       }
@@ -3663,20 +3905,20 @@
         return;
       }
       if(legs.length === 0 && data.tensionBlocked){
-        showCityError(msg('error.tensionBlocked'));
+        showFormError(msg('error.tensionBlocked'));
         return;
       }
     } catch(err){
       if(drawId !== currentDrawId) return;
       // Délai dépassé côté navigateur (AbortController) : même message que le délai dépassé côté serveur.
-      showCityError(msg(err && err.name === 'AbortError' ? 'error.drawTimeout' : 'error.routeImpossible'));
+      showFormError(msg(err && err.name === 'AbortError' ? 'error.drawTimeout' : 'error.routeImpossible'));
       return;
     } finally {
       if(abortTimer) clearTimeout(abortTimer);
       if(drawId === currentDrawId && !(legs && legs.length)){ setDrawButtonsDisabled(false); revealInProgress = false; hideDisplayedTrip(); }
     }
     if(legs.length === 0){
-      showCityError(msg('error.routeImpossible'));
+      showFormError(msg('error.routeImpossible'));
       return;
     }
     var firstLeg = legs[0];
@@ -3733,7 +3975,7 @@
       els.timelineStats.innerHTML = '';
       els.days.innerHTML = '';
       hideDisplayedTrip();
-      showCityError(msg('error.routeImpossible'));
+      showFormError(msg('error.routeImpossible'));
       throw err;
     }
   }
@@ -3812,7 +4054,9 @@
   // dans un nom de fichier téléchargé — seuls les séparateurs et symboles réservés sont remplacés).
   function pdfFilename(label){
     var base = (label || 'itineraire').replace(/[\\/:*?"<>|]+/g, '-').replace(/\s+/g, ' ').trim();
-    return "Cap sur l'inconnu - " + base + ' - ' + pdfTimestamp() + '.pdf';
+    // Nom du site dans la langue d'interface (11e audit : toujours « Cap sur l'inconnu »), sans caractère réservé.
+    var site = String(t('hero.title') || "Cap sur l'inconnu").replace(/[\\/:*?"<>|]+/g, '-').trim();
+    return site + ' - ' + base + ' - ' + pdfTimestamp() + '.pdf';
   }
 
   // Export PDF : générée côté serveur (voir server.js, /api/export-pdf) et téléchargée directement
@@ -3908,6 +4152,7 @@
     applyHeroLede();
     els.city.placeholder = placeholderText();
     updateDatesHint();
+    applyBudgetOptionLabels();
     updateBudgetHint();
     updateRadiusUnitLabel();
     retranslateErrors();

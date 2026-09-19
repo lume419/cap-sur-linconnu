@@ -1022,7 +1022,7 @@ ru;Тыстамаа;Tõstamaa
 ru;Тырве;Tõrve
 ru;Тырвааугу;Tõrvaaugu
 ru;Тырва;Tõrva
-az;Tırvа;Tõrva
+az;Tırva;Tõrva
 be;Тырва;Tõrva
 cv;Тырва;Tõrva
 fa;توروا;Tõrva
@@ -1146,7 +1146,6 @@ ru;Тапупере;Tapupere
 ru;Тяпси;Täpsi
 ru;Тапику;Tapiku
 ru;Тапа;Tapa
-az;Tаpа;Tapa
 fa;تاپا;Tapa
 hy;Տապա;Tapa
 ka;ტაპა;Tapa
@@ -1310,7 +1309,7 @@ ru;Суурекырве;Suurekõrve
 ru;Суурекиви;Suurekivi
 ru;Суурейыэ;Suurejõe
 ru;Сууре-Яани;Suure-Jaani
-az;Suurе-Yaаni;Suure-Jaani
+az;Suure-Yaani;Suure-Jaani
 fa;سوره-یانی;Suure-Jaani
 hy;Սուուռե-Յաանի;Suure-Jaani
 ka;სუურე-იაანი;Suure-Jaani
@@ -1423,7 +1422,7 @@ ru;Симисти;Simisti
 ru;Силмси;Silmsi
 ru;Силлаотса;Sillaotsa
 ru;Силламяэ;Sillamäe
-az;Sillаmyae;Sillamäe
+az;Sillamyae;Sillamäe
 be;Сіламяэ;Sillamäe
 fa;سیلامائه;Sillamäe
 hy;Սիլլամյաե;Sillamäe
@@ -1783,7 +1782,6 @@ uk;Раквере;Rakvere
 ka;რაკვერე;Rakvere
 ru;Раквере;Rakvere
 zh;拉克韋雷;Rakvere
-az;Rаkvеrе;Rakvere
 ce;Раквере;Rakvere
 fa;راکوره;Rakvere
 hy;Ռակվեռե;Rakvere
@@ -1950,7 +1948,7 @@ ru;Пооле;Poole
 ru;Пёэгле;Pöögle
 ru;Пынни;Põnni
 ru;Пылва;Põlva
-az;Pılvа;Põlva
+az;Pılva;Põlva
 be;Пылва;Põlva
 fa;پولوا;Põlva
 he;פילבה;Põlva
@@ -1964,7 +1962,7 @@ myv;Пылва ош;Põlva
 ur;پولوا;Põlva
 ru;Пылула;Põlula
 ru;Пылтсамаа;Põltsamaa
-az;Pıltsаmаа;Põltsamaa
+az;Pıltsamaa;Põltsamaa
 be;Пылтсамаа;Põltsamaa
 fa;پولتساما;Põltsamaa
 hy;Պիլցամաա;Põltsamaa
@@ -2179,7 +2177,6 @@ ru;Пальясмаа;Paljasmaa
 ru;Паливере;Palivere
 ru;Пали;Pali
 ru;Палдиски;Paldiski
-az;Pаldiski;Paldiski
 ba;Палдиски;Paldiski
 fa;پالدیسکی;Paldiski
 hy;Պալդիսկի;Paldiski
@@ -2224,7 +2221,7 @@ ru;Пайкюла;Paiküla
 ru;Пяйдре;Päidre
 ru;Пяйдла;Päidla
 ru;Пайде;Paide
-az;Pаydе;Paide
+az;Payde;Paide
 be;Пайдэ;Paide
 fa;پایده;Paide
 he;פאידה;Paide
@@ -2470,7 +2467,7 @@ ja;ナルヴァ;Narva
 be;Нарва;Narva
 uk;Нарва;Narva
 ar;نارفا;Narva
-os;Нарвæ;Narva
+os;Нарвӕ;Narva
 udm;Нарва;Narva
 th;นาร์วา;Narva
 mrj;Нарва;Narva
@@ -2478,7 +2475,6 @@ vep;Narv;Narva
 fa;ناروا;Narva
 ko;나르바;Narva
 zh;纳尔瓦;Narva
-az;Nаrvа;Narva
 ce;Нарва;Narva
 hy;Նառվա;Narva
 mn;Нарва;Narva
@@ -3069,7 +3065,6 @@ uk;Курессааре;Kuressaare
 ko;쿠레사레;Kuressaare
 be;Курэссаарэ;Kuressaare
 zh;库雷萨雷;Kuressaare
-az;Kurеssааrе;Kuressaare
 fa;کورساره;Kuressaare
 hy;Կուռեսաառե;Kuressaare
 myv;Курессааре ош;Kuressaare
@@ -3093,7 +3088,6 @@ ru;Кунила;Kunila
 ru;Кунгла;Kungla
 ru;Кундруссааре;Kundrussaare
 ru;Куундра;Kuundra
-az;Kundа;Kunda
 fa;کوندا، استونی;Kunda
 hy;Կունդա;Kunda
 ka;კუნდა;Kunda
@@ -3469,7 +3463,6 @@ ru;Келнасе;Kelnase
 ru;Келламяэ;Kellamäe
 ru;Келба;Kelba
 ru;Кейла;Keila
-az;Kеilа;Keila
 fa;کیلا، استونی;Keila
 hy;Կեիլա;Keila
 ja;ケイラ;Keila
@@ -3597,7 +3590,7 @@ hy;Կեռդլա;Kärdla
 ja;カルドラ;Kärdla
 ka;კიარდლა;Kärdla
 ko;캐르들라;Kärdla
-os;Кярдлæ;Kärdla
+os;Кярдлӕ;Kärdla
 uk;Кярдла;Kärdla
 zh;凱爾德拉;Kärdla
 myv;Кярдла ош;Kärdla
@@ -4025,7 +4018,6 @@ ru;Хаапсипеа;Haapsipea
 ru;Хаапси;Haapsi
 ru;Хаапсе;Haapse
 ru;Хаапсалу;Haapsalu
-az;Hааpsаlu;Haapsalu
 be;Хаапсалу;Haapsalu
 cv;Хаапсалу;Haapsalu
 fa;هاپسالو;Haapsalu

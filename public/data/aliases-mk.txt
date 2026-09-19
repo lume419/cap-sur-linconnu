@@ -3829,10 +3829,8 @@ tg;Белциста;Belčišta
 tt;Белциста;Belčišta
 ru;Батинци;Batinci
 ru;Банско;Bansko
-ru;Арахинovo;Arachinovo
 ar;أراتشينوفو;Arachinovo
 kk;Арахиново;Arachinovo
-ky;Арахинovo;Arachinovo
 hi;अराचिनोवो;Arachinovo
 bn;আরাচিনোভো;Arachinovo
 ur;اراچنوو;Arachinovo

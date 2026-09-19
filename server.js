@@ -90,6 +90,11 @@ setInterval(function(){
 app.use('/api/', function(req, res, next){
   // Réponses propres au visiteur (langue, coordonnées, tirage) : jamais mises en commun par un proxy ou un CDN.
   res.setHeader('Cache-Control', 'no-store');
+  // Requête émise par une page d'un AUTRE site, d'après le navigateur lui-même (Sec-Fetch-Site, que le script d'une page
+  // ne peut pas modifier) : refusée (11e audit du 19/09/2026). Sans ce contrôle, une page tierce pouvait faire lancer
+  // recherches, photos et randonnées par les navigateurs de ses visiteurs — autant d'adresses IP que de visiteurs, les
+  // quotas par IP ne servaient plus à rien. Clients sans cet en-tête (outils, anciens navigateurs) : non concernés.
+  if(req.get('Sec-Fetch-Site') === 'cross-site') return res.status(403).json({ error: 'cross-site request' });
   const p = ('/api/' + req.path).toLowerCase().replace(/\/{2,}/g, '/');
   const rule = RATE_LIMITS.find(r => p.startsWith(r.prefix)) || RATE_LIMITS[RATE_LIMITS.length - 1];
   // IP (vérifié le 17/09/2026) : avec « trust proxy 1 », req.ip est la dernière adresse de X-Forwarded-For, celle
@@ -128,7 +133,6 @@ const OUTBOUND_GROUPS = [
 // ~60 s dans le pire enchaînement ; avec 30 s, la place était rendue pendant que le travail continuait — le plafond
 // par IP était alors dépassé. Ce n'est qu'un filet : la place est normalement rendue à la fin de la réponse.
 const OUTBOUND_MAX_HOLD_MS = 60000;
-const OUTBOUND_ABORT_HOLD_MS = 5000; // client parti : durée restante accordée à l'appel sortant avant de rendre la place
 const outboundByIp = new Map(); // groupe|ip -> { active, waiting: [fonction de reprise] }
 app.use('/api/', function(req, res, next){
   const p = ('/api/' + req.path).toLowerCase().replace(/\/{2,}/g, '/');
@@ -161,20 +165,17 @@ app.use('/api/', function(req, res, next){
     }
     if(state.active === 0 && state.waiting.length === 0) outboundByIp.delete(key);
   }
-  // Fin du traitement ('finish'), ou fermeture par le client ('close') : dans ce dernier cas la place n'est rendue
-  // qu'au bout de OUTBOUND_ABORT_HOLD_MS, le temps que l'appel sortant déjà lancé se termine. Rendre la place
-  // immédiatement annulerait la limite (il suffirait de couper la connexion) ; ne jamais la rendre bloquait la même IP
-  // pendant 30 s après un simple changement de page (mesuré : 429 au bout de 20,02 s).
-  res.on('finish', release);
+  // Place rendue à la FIN DU TRAITEMENT : quand la route appelle res.end() — même si le client est parti entre-temps,
+  // la réponse part alors dans le vide mais l'appel sortant est bien terminé (11e audit du 19/09/2026). Avant, une
+  // connexion coupée rendait la place au bout de 5 s alors que l'appel Overpass continuait jusqu'à 25 s : en coupant ses
+  // requêtes, une adresse occupait plusieurs créneaux Overpass à la fois (son plafond est 1). Filet : OUTBOUND_MAX_HOLD_MS.
+  const endResponse = res.end;
+  res.end = function(){ release(); return endResponse.apply(this, arguments); };
   res.on('close', function(){
     if(finished || res.writableEnded) return;
-    // Abandonnée PENDANT L'ATTENTE (10e audit du 18/09/2026) : retirée de la file tout de suite. Avant, elle y restait,
-    // son appel sortant partait quand même à son tour (Overpass, Wikipédia : créneaux communs à tous), et sa place
-    // n'était rendue qu'au bout de 30 s — la requête suivante de la même IP recevait 429 après 20 s d'attente.
+    // Abandonnée PENDANT L'ATTENTE (10e audit du 18/09/2026) : retirée de la file tout de suite, son appel n'est jamais
+    // lancé. Abandonnée pendant le traitement : la place est gardée jusqu'à la fin réelle de l'appel (voir res.end).
     if(!started) return release();
-    if(holdTimer) clearTimeout(holdTimer);
-    holdTimer = setTimeout(release, OUTBOUND_ABORT_HOLD_MS);
-    holdTimer.unref();
   });
   if(state.active < group.max) return start();
   if(state.waiting.length >= group.queue){
@@ -501,11 +502,25 @@ async function fetchWikidataSitelink(qid, lang){
 // par le Wikipédia de la langue pour les fichiers de Commons comme pour les fichiers locaux. Texte seul (le champ Artist
 // est du HTML), longueurs bornées ; licence : lien https vers un hôte connu seulement. Échec : crédit absent, jamais
 // d'échec de la photo elle-même.
-const CREDIT_LICENSE_HOSTS = /^https:\/\/(creativecommons\.org|commons\.wikimedia\.org|[a-z-]+\.wikipedia\.org|www\.gnu\.org|en\.wikipedia\.org)\//;
+// Texte seul (11e audit du 19/09/2026) : balises retirées sur tout le champ (borné à 20 000 caractères) AVANT toute
+// coupe — la coupe à 4 000 caractères laissait des balises tronquées (« <span title="… ») ; entités décodées ensuite,
+// puis plus aucun chevron (« &lt;img…&gt; » redevenait du balisage), ni caractère de contrôle ou de sens d'écriture.
 function stripHtmlText(html, max){
-  const txt = decodeHtmlEntities(String(html || '').slice(0, 4000).replace(/<[^>]*>/g, ' ')).replace(/\s+/g, ' ').trim();
+  let txt = String(html || '').slice(0, 20000).replace(/<[^>]*>?/g, ' ');
+  txt = decodeHtmlEntities(txt).replace(/[<>]/g, ' ').replace(/[\u0000-\u001F\u007F-\u009F\u200E\u200F\u202A-\u202E\u2066-\u2069]/g, '');
+  txt = txt.replace(/\s+/g, ' ').trim();
   return txt.length > max ? txt.slice(0, max - 1) + '…' : txt;
 }
+// URL https vers un hôte de la liste (expression sur le NOM D'HÔTE analysé, jamais sur le début de la chaîne), sinon null.
+function safeHttpsUrl(raw, hostRe, maxLen){
+  try {
+    const u = new URL(String(raw || ''));
+    if(u.protocol !== 'https:' || !hostRe.test(u.hostname) || u.href.length > (maxLen || 2000)) return null;
+    return u.href;
+  } catch(e){ return null; }
+}
+const WIKI_MEDIA_HOST_RE = /^([a-z0-9-]+\.)*(wikimedia|wikipedia)\.org$/;
+const LICENSE_HOST_RE = /^(creativecommons\.org|([a-z0-9-]+\.)*(wikimedia|wikipedia)\.org|www\.gnu\.org)$/;
 async function fetchImageCredit(imageUrl, lang){
   // Hôtes des images : upload.wikimedia.org et thumb.wikimedia.org (vignettes de l'API REST de Wikipédia depuis 2026).
   const m = /^https:\/\/(?:upload|thumb)\.wikimedia\.org\/wikipedia\/[a-z-]+\/(?:thumb\/)?[0-9a-f]\/[0-9a-f]{2}\/([^\/?#]+)/.exec(String(imageUrl || ''));
@@ -517,6 +532,8 @@ async function fetchImageCredit(imageUrl, lang){
       '&iiprop=extmetadata&iiextmetadatafilter=Artist%7CLicenseShortName%7CLicenseUrl&titles=' + encodeURIComponent('File:' + file);
     const resp = await fetch(url, { signal: AbortSignal.timeout(8000), headers: {
       'User-Agent': 'CapSurLInconnu/1.0 (road trip generator, personal use; https://github.com/lume419/cap-sur-linconnu)', 'Accept': 'application/json' } });
+    // Échec passager (429, 5xx, 403) : exception, pour que la photo ne soit pas mise en cache sans son crédit (11e audit).
+    if(isTransientHttpStatus(resp.status)) throw new Error('HTTP ' + resp.status);
     if(!resp.ok) return null;
     const data = await readBodyJson(resp, 512 * 1024);
     const page = data && data.query && Array.isArray(data.query.pages) ? data.query.pages[0] : null;
@@ -524,7 +541,7 @@ async function fetchImageCredit(imageUrl, lang){
     if(!meta) return null;
     const author = meta.Artist ? stripHtmlText(meta.Artist.value, 120) : '';
     const license = meta.LicenseShortName ? stripHtmlText(meta.LicenseShortName.value, 60) : '';
-    const licenseUrl = meta.LicenseUrl && CREDIT_LICENSE_HOSTS.test(String(meta.LicenseUrl.value)) ? String(meta.LicenseUrl.value).slice(0, 300) : null;
+    const licenseUrl = meta.LicenseUrl ? safeHttpsUrl(meta.LicenseUrl.value, LICENSE_HOST_RE, 300) : null;
     return (author || license) ? { author: author || null, license: license || null, licenseUrl: licenseUrl } : null;
   });
 }
@@ -564,7 +581,7 @@ async function resolvePlacePhotoIn(name, deptCode, country, lang, near, titles, 
     if(!wikiPlaceMatches(data, near)) continue; // homonyme ailleurs, ou article sans lieu
     const thumbSource = (data.thumbnail && data.thumbnail.source) || null;
     const originalSource = (data.originalimage && data.originalimage.source) || null;
-    const wikiUrl = (data.content_urls && data.content_urls.desktop && data.content_urls.desktop.page) || null;
+    const wikiUrl = safeHttpsUrl(data.content_urls && data.content_urls.desktop && data.content_urls.desktop.page, WIKI_MEDIA_HOST_RE);
     if(!thumbSource && !originalSource){
       // Une vraie page existe (ce n'est pas une homonymie), juste sans photo dessus — un lien vers
       // elle reste préférable à aucun lien du tout. Gardé de côté au cas où aucune tentative
@@ -580,10 +597,11 @@ async function resolvePlacePhotoIn(name, deptCode, country, lang, near, titles, 
     // anti-abus, HTTP 400 "Use thumbnail sizes listed on...") même quand l'image d'origine est bien
     // plus grande. La solution fiable est donc d'utiliser directement l'image d'origine (résolution
     // native), qui elle est toujours disponible — au prix d'un téléchargement un peu plus lourd.
-    const image = originalSource || thumbSource;
-    const imageFull = originalSource || thumbSource;
+    const image = safeHttpsUrl(originalSource || thumbSource, WIKI_MEDIA_HOST_RE);
+    const imageFull = image;
+    if(!image) continue; // URL d'image inattendue : ignorée (défense en profondeur, le client la refuserait aussi)
     let credit = null;
-    try { credit = await fetchImageCredit(imageFull, lang); } catch(e){ credit = null; }
+    try { credit = await fetchImageCredit(imageFull, lang); } catch(e){ credit = null; ctx.failed = true; }
     return { image: image, imageFull: imageFull, wikiUrl: wikiUrl, title: data.title || title,
       author: credit ? credit.author : null, license: credit ? credit.license : null, licenseUrl: credit ? credit.licenseUrl : null };
   }
@@ -1205,6 +1223,13 @@ function parseKm(v){
   const m = String(v || '').replace(',', '.').match(/^\s*(\d+(?:\.\d+)?)\s*(km)?\s*$/i);
   return m ? parseFloat(m[1]) : null;
 }
+function pickHikeTags(tags){
+  const out = {};
+  for(const k of Object.keys(tags)){
+    if(/^(name(:[a-z]{2,3})?|distance|network|sac_scale|osmc:symbol|ref|website|description|operator)$/.test(k) && typeof tags[k] === 'string') out[k] = tags[k].slice(0, 300);
+  }
+  return out;
+}
 async function fetchOsmHikes(lat, lon, lang){
   const cacheKey = lat.toFixed(2) + ',' + lon.toFixed(2);
   const cached = osmHikeCache.get(cacheKey);
@@ -1213,7 +1238,10 @@ async function fetchOsmHikes(lat, lon, lang){
     const query = '[out:json][timeout:25];relation["route"~"^(hiking|foot)$"]["name"](around:' + OSM_HIKE_RADIUS_M + ',' + lat + ',' + lon + ');out tags center 60;';
     const data = await queryOverpassMirrors(query, 'randonnées ' + lat + ',' + lon);
     if(!data) return null; // échec réseau : pas mis en cache
-    elements = (data.elements || []).map(e => ({ id: e.id, tags: e.tags || {}, lat: e.center && e.center.lat, lon: e.center && e.center.lon }));
+    // Étiquettes utiles seulement (11e audit du 19/09/2026) : le cache gardait TOUTES les étiquettes de 60 relations par
+    // entrée, sur 5 000 entrées — jusqu'à quelques centaines de Mo. Gardés : nom (et ses traductions), distance, réseau,
+    // difficulté, référence, site.
+    elements = (data.elements || []).map(e => ({ id: e.id, tags: pickHikeTags(e.tags || {}), lat: e.center && e.center.lat, lon: e.center && e.center.lon }));
     cacheSet(osmHikeCache, cacheKey, { elements, ts: Date.now() });
   }
   const out = [];
@@ -1663,6 +1691,10 @@ function buildTripPdf(doc, trip){
   Array.from(new Set((Array.isArray(trip.notices) ? trip.notices : []).filter(function(key){ return typeof key === 'string' && PDF_NOTICES.hasOwnProperty(key); }))).forEach(function(key){
     pdfBullet(doc, ctx, pdfClientText(noticeTexts[key], PDF_NOTICES[key]), marginLeft, contentWidth, { color: PDF_ACCENT_3 });
   });
+  // Liens d'hébergement dans une autre devise que celle choisie (11e audit, texte du navigateur seulement).
+  if(typeof texts.currencyNote === 'string' && texts.currencyNote.trim()){
+    pdfBullet(doc, ctx, clip(texts.currencyNote, 240), marginLeft, contentWidth, { color: PDF_ACCENT_3 });
+  }
   // Zones à tension (France Diplomatie) : départ, puis chaque étape — en tête, en gras, lien vers la fiche pays.
   let tensionShown = false;
   const departureTension = pdfTension(trip.departureTension);
@@ -1793,6 +1825,16 @@ function buildTripPdf(doc, trip){
     }
     // Rappel vignette : une seule fois par pays sur tout le PDF, comme côté web (voir
     // shownVignetteCountries plus haut).
+    // Rappels NOMMÉS envoyés par le navigateur (11e audit : pays de départ, pays traversés, pays d'arrivée), un par pays :
+    // seul le CODE pays du client est retenu, vérifié contre VIGNETTE_URLS — le lien est toujours celui du serveur.
+    const clientVignettes = Array.isArray(lt.vignettes) ? lt.vignettes.slice(0, 8) : [];
+    clientVignettes.forEach(function(v){
+      const cc = v && typeof v.country === 'string' ? v.country : '';
+      if(!Object.prototype.hasOwnProperty.call(VIGNETTE_URLS, cc) || shownVignetteCountries[cc]) return;
+      shownVignetteCountries[cc] = true;
+      legBullet(pdfClientText(v.text, 'Vignette autoroutière obligatoire (' + cc + ') — pensez à la commander avant de partir.', 200),
+        contentX, contentWidth2, { link: VIGNETTE_URLS[cc], color: PDF_ACCENT_3 });
+    });
     const vignetteUrl = leg.country && Object.prototype.hasOwnProperty.call(VIGNETTE_URLS, leg.country) && VIGNETTE_URLS[leg.country];
     if(vignetteUrl && !shownVignetteCountries[leg.country]){
       shownVignetteCountries[leg.country] = true;
@@ -1908,8 +1950,24 @@ function stripConversionTraps(v, depth){
   if(Object.prototype.hasOwnProperty.call(v, 'valueOf')) delete v.valueOf;
   for(const k of Object.keys(v)) stripConversionTraps(v[k], depth + 1);
 }
+// Nombre de caractères DISTINCTS dans les chaînes d'un corps JSON (au plus limit + 1 comptés).
+function distinctChars(v, set, limit, depth){
+  if(set.size > limit || depth > 64) return set;
+  if(typeof v === 'string'){ for(const ch of v){ set.add(ch); if(set.size > limit) break; } }
+  else if(v && typeof v === 'object'){ for(const k of Object.keys(v)) distinctChars(v[k], set, limit, depth + 1); }
+  return set;
+}
+// Au plus PDF_MAX_DISTINCT_CHARS caractères distincts par export (11e audit du 19/09/2026) : l'incorporation des polices
+// (doc.end, hors du budget de mise en page) coûte selon le nombre de glyphes distincts — 10 000 idéogrammes distincts
+// gelaient le process plusieurs secondes après la fin du budget. Un itinéraire réel de 21 jours en chinois en compte
+// environ 1 500.
+const PDF_MAX_DISTINCT_CHARS = 4000;
+const PDF_GLYPH_CACHE_MAX = 6000; // par police, voir PdfText.trimGlyphCaches
 app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpuBudgetGuard, pdfExportSlot, (req, res) => {
   stripConversionTraps(req.body, 0);
+  if(distinctChars(req.body, new Set(), PDF_MAX_DISTINCT_CHARS, 0).size > PDF_MAX_DISTINCT_CHARS){
+    return res.status(413).json({ error: 'too many distinct characters' });
+  }
   const trip = req.body;
   if(!trip || typeof trip !== 'object' || !Array.isArray(trip.legs) || trip.legs.length === 0 || trip.legs.length > 25){
     return res.status(400).json({ error: 'invalid trip data' });
@@ -1929,7 +1987,9 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpu
   });
   PdfText.registerFonts(doc);
   res.setHeader('Content-Type', 'application/pdf');
-  res.setHeader('Content-Disposition', "attachment; filename=\"itineraire.pdf\"; filename*=UTF-8''" + encodeURIComponent(filenameBase) + '.pdf');
+  // RFC 5987 : encodeURIComponent laisse ' ( ) * ! non encodés, que les analyseurs stricts refusent (« l'Ain ») — 11e audit.
+  const rfc5987 = encodeURIComponent(filenameBase).replace(/['()*!]/g, function(c){ return '%' + c.charCodeAt(0).toString(16).toUpperCase(); });
+  res.setHeader('Content-Disposition', "attachment; filename=\"itineraire.pdf\"; filename*=UTF-8''" + rfc5987 + '.pdf');
   doc.pipe(res);
   // Mise en page ET compression des pages sont synchrones dans pdfkit (doc.end() compris) : leur durée compte dans le
   // budget de calcul global.
@@ -1940,6 +2000,7 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpu
     console.warn('[export-pdf] erreur de mise en page:', JSON.stringify(String(err && err.message)));
   }
   doc.end();
+  PdfText.trimGlyphCaches(PDF_GLYPH_CACHE_MAX);
   cpuBudgetCharge(req, performance.now() - t0);
   // Calcul terminé (pdfkit est synchrone jusqu'à doc.end() compris) : il ne reste que l'envoi, qui ne coûte pas de
   // calcul. Le créneau est rendu tout de suite (voir pdfExportSlot).
@@ -2038,7 +2099,7 @@ function searchIndexLockAlive(){
   } catch(e){ return false; }
   if(age >= 30 * 60 * 1000) return false;
   if(!pids.length) return age < 5000;
-  return pids.some(function(pid){ try { process.kill(pid, 0); return true; } catch(e){ return e.code === 'EPERM'; } });
+  return pids.some(function(pid){ try { process.kill(pid, 0); return true; } catch(e){ return false; } }); // EPERM : processus d'un autre compte (hébergement mutualisé), jamais le nôtre — 11e audit
 }
 // PID inscrit en première ligne du verrou de construction (NaN si absent ou illisible).
 function lockOwnerPid(){
@@ -2075,7 +2136,7 @@ function buildSearchIndexInChild(){
         } catch(e2){ if(e2.code === 'ENOENT') continue; } // retiré entre-temps : nouvelle tentative
         lockPids.forEach(function(pid){
           if(!(pid > 0) || lockAlive) return;
-          try { process.kill(pid, 0); lockAlive = true; } catch(e3){ lockAlive = e3.code === 'EPERM'; }
+          try { process.kill(pid, 0); lockAlive = true; } catch(e3){ lockAlive = false; } // EPERM : un autre compte, jamais notre construction (11e audit)
         });
         if(!(lockPid > 0) && lockAge < 5000) lockAlive = true; // verrou vide tout juste créé (PID pas encore écrit) : pas un orphelin
         if(lockAge < 30 * 60 * 1000 && lockAlive){
@@ -2232,7 +2293,10 @@ app.get('/api/search-city', cpuBudgetGuard, function(req, res){
     return res.status(503).json({ error: 'not ready', results: [] });
   }
   var t0 = performance.now();
-  res.on('finish', function(){ var ms = performance.now() - t0; if(ms > SEARCH_BUDGET_MIN_MS) cpuBudgetCharge(req, ms); });
+  // Imputation au budget juste après le calcul (11e audit du 19/09/2026) : elle se faisait à l'envoi de la réponse
+  // ('finish'), qui n'a jamais lieu quand le client coupe la connexion — 40 recherches abandonnées d'une même adresse
+  // tournaient sans jamais être comptées. Voir chargeSearch plus bas.
+  function chargeSearch(){ var ms = performance.now() - t0; if(ms > SEARCH_BUDGET_MIN_MS) cpuBudgetCharge(req, ms); }
   try {
     var limitRaw = parseInt(req.query.limit, 10);
     var limit = (isFinite(limitRaw) && limitRaw > 0 && limitRaw <= 20) ? limitRaw : 8;
@@ -2247,6 +2311,7 @@ app.get('/api/search-city', cpuBudgetGuard, function(req, res){
       searchCache.delete(cacheKey); searchCache.set(cacheKey, results); // récemment utilisée : en fin de file
     } else {
       results = diskSearchIndex ? diskSearchIndex.search(q, limit, country, lang) : tripEngine.searchCity(q, limit, country, lang);
+      chargeSearch();
       searchCache.set(cacheKey, results);
       if(searchCache.size > SEARCH_CACHE_MAX) searchCache.delete(searchCache.keys().next().value);
     }
@@ -2359,6 +2424,14 @@ app.use(function(req, res, next){
     return res.status(429).type('text/plain').send('Too many requests');
   }
   hits.push(now);
+  // Revalidation (304, aucun octet de contenu) : décomptée (11e audit du 19/09/2026) — chaque chargement de page comptait
+  // 4 fichiers même en 304, et au 8e chargement dans la minute i18n.js répondait 429 : le site ne marchait plus, plus
+  // vite encore derrière une adresse partagée (entreprise, école, opérateur mobile).
+  res.on('finish', function(){
+    if(res.statusCode !== 304) return;
+    const i = hits.lastIndexOf(now);
+    if(i >= 0) hits.splice(i, 1);
+  });
   next();
 });
 

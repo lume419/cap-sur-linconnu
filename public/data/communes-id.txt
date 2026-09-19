@@ -105717,7 +105717,7 @@
 0;96.3080,4.2136;23671;Aceh;Blang Pouk
 0;96.3144,4.2071;23671;Aceh;Meurebo
 0;96.3197,4.2061;23671;Aceh;Alue Gajah
-0;96.3165,4.2015;23671;Aceh;Gampong  Teungoh
+0;96.3165,4.2015;23671;Aceh;Gampong Teungoh
 0;96.3078,4.1995;23671;Aceh;Tunung
 0;96.3052,4.1986;23671;Aceh;Lhok Remean
 0;96.3012,4.1878;23671;Aceh;Kabu
@@ -244194,7 +244194,6 @@
 0;113.6582,-8.1068;68153;East Java;Karangpring Lor
 0;113.6613,-8.1138;68153;East Java;Gendir Kulon
 0;113.6571,-8.1156;68153;East Java;Karangpring Tengah
-0;113.6450,-8.1175;68153;East Java;Kemiri
 0;113.6727,-8.1207;68114;East Java;Kebon Lor
 0;113.6720,-8.1125;68153;East Java;Gendir Wetan
 0;113.6766,-8.1090;68114;East Java;Klungkung

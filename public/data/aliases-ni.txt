@@ -463,7 +463,7 @@ az;Manaqua;Managua
 ta;மனாகுவா;Managua
 be;Манагуа;Managua
 pa;ਮਾਨਾਗੁਆ;Managua
-os;Манагуæ;Managua
+os;Манагуӕ;Managua
 hy;Մանագուա;Managua
 bo;མ་ན་གུ་འ།;Managua
 mr;मानाग्वा;Managua
@@ -523,7 +523,7 @@ be;Гранада;Granada
 bg;Гранада;Granada
 el;Γρανάδα;Granada
 ka;გრანადა;Granada
-os;Гранадæ;Granada
+os;Гранадӕ;Granada
 uk;Гранада;Granada
 ur;گرینادا، نکاراگوا;Granada
 kk;Гранада;Granada

@@ -260,7 +260,7 @@ pa;ਲੁਆਂਦਾ;Luanda
 uk;Луанда;Luanda
 ur;لواندا;Luanda
 ce;Луанда;Luanda
-os;Луандæ;Luanda
+os;Луандӕ;Luanda
 hy;Լուանդա;Luanda
 udm;Луанда;Luanda
 bn;লুয়ান্ডা;Luanda

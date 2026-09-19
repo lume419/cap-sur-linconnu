@@ -586,7 +586,7 @@ lt;Adis Abeba;Addis Ababa
 mg;Addis Abeba;Addis Ababa
 nn;Addis Abeba;Addis Ababa
 no;Addis Abeba;Addis Ababa
-os;Аддис-Абебæ;Addis Ababa
+os;Аддис-Абебӕ;Addis Ababa
 pl;Addis Abeba;Addis Ababa
 ru;Аддис-Абеба;Addis Ababa
 sk;Addis Abeba;Addis Ababa

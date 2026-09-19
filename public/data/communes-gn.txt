@@ -6771,7 +6771,7 @@
 0;-13.6975,10.0806;GN-D;Kindia;Tanene
 0;-13.9001,9.9521;GN-B;Boké Region;Koba
 0;-8.1586,9.0335;GN-N;Nzérékoré Region;Biramadou Bada
-0;-13.6564,9.5722;GN-04;Conakry;Carrefour  Hamdallaye
+0;-13.6564,9.5722;GN-04;Conakry;Carrefour Hamdallaye
 0;-11.3167,10.2167;GN-F;Faranah;Marela
 0;-13.3167,9.4333;GN-D;Kindia;Kakossa
 0;-13.3922,10.9454;GN-D;Kindia;Bergue

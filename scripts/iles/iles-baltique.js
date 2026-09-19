@@ -4374,7 +4374,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "aeroe",
-   "routeKey": "svendborgAeroeskoebing",
+   "routeKey": "svendborgAeroeskoebing", "priceCovers": "vehicle", "priceCoversByClass": {"2":null,"5":null}, "coversSource": "grille Ærøfærgerne : « personbil uden fører » ; autocamper et MC sans mention du conducteur", "durationEstimated": true,
    "name": "Svendborg ↔ Ærøskøbing (Ærø)",
    "operator": "Ærøfærgerne (Ærø Kommune)",
    "durationH": 1.25,
@@ -4399,57 +4399,57 @@ module.exports = {
   {
    "a": "continental",
    "b": "samsoe",
-   "routeKey": "houSaelvig",
+   "routeKey": "houSaelvig", "priceCovers": "vehicleAndOccupants", "coversSource": "grille Samsø : « bil inkl. op til ni personer », « autocamper inkl. ni personer », « MC inkl. to personer »", "durationEstimated": true,
    "name": "Hou ↔ Sælvig (Samsø)",
    "operator": "Samsø Rederi (Samsø Kommune)",
    "durationH": 1,
    "distanceKm": 23,
    "priceByClass": {
-    "1": 54.72,
-    "2": 54.72,
-    "5": 10.3,
+    "1": 68.9,
+    "2": 68.9,
+    "5": 24.48,
     "foot": 14.18
    },
    "currency": "DKK",
    "original": {
-    "1": 409,
-    "2": 409,
-    "5": 77,
+    "1": 515,
+    "2": 515,
+    "5": 183,
     "foot": 106
    },
    "source": "https://www.tilsamsoe.dk/priser-ruten-hou-samso/",
    "date": "2026-09-16",
-   "note": "Période « Standard » (27 juin – 9 août 2026, haute saison), enkeltbillet : bil ≤6 m inkl. op til ni personer 515 ; autocamper ≤6 m inkl. ni personer 515 ; MC inkl. to personer 183 ; voksen købt online 106 DKK. Conducteur (106) déduit : 409 / 409 / 77. Période « Billig » (reste de l’année) : bil 262, MC 128, voksen 66. Kalundborg–Ballen non retenue (une liaison par paire). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 7,4748 DKK."
+   "note": "Période « Standard » (27 juin – 9 août 2026, haute saison), enkeltbillet : bil ≤6 m inkl. op til ni personer 515 ; autocamper ≤6 m inkl. ni personer 515 ; MC inkl. to personer 183 ; voksen købt online 106 DKK. Tarifs repris tels quels, occupants compris (11e audit, 19/09/2026 ; avant : conducteur déduit, 409 / 409 / 77, ce qui laissait les huit autres occupants inclus). Période « Billig » (reste de l’année) : bil 262, MC 128, voksen 66. Kalundborg–Ballen non retenue (une liaison par paire). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 7,4748 DKK."
   },
   {
    "a": "continental",
    "b": "laesoe",
-   "routeKey": "frederikshavnLaesoe",
+   "routeKey": "frederikshavnLaesoe", "priceCovers": "vehicleAndOccupants", "priceCoversByClass": {"5":"vehicle"}, "coversSource": "grille Læsøfærgen : personbil et autocamper « inkl. 7 personer » ; « motorcykel ekskl. fører »",
    "name": "Frederikshavn ↔ Vesterø Havn (Læsø)",
    "operator": "Læsøfærgen (Læsø Kommune)",
    "durationH": 1.5,
    "distanceKm": 30,
    "priceByClass": {
-    "1": 58.2,
-    "2": 70.24,
+    "1": 69.57,
+    "2": 81.61,
     "5": 18.06,
     "foot": 11.37
    },
    "currency": "DKK",
    "original": {
-    "1": 435,
-    "2": 525,
+    "1": 520,
+    "2": 610,
     "5": 135,
     "foot": 85
    },
    "source": "https://www.laesoe-line.dk/files/downloads/Fartplan%20og%20prisliste%20L%C3%A6s%C3%B8f%C3%A6rgen%202026.pdf",
    "date": "2026-09-16",
-   "note": "Prisliste 2026, enkeltrejser, « Standard » (toute l’année) : personbil <1,9 m inkl. 7 personer 520 ; autocamper <6 m inkl. 7 personer 610 ; motorcykel ekskl. fører 135 ; voksen 85 DKK. Conducteur (85) déduit des tarifs « inkl. 7 personer ». Traversée 90 min (fiche horaire) ; distance : ordre de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 7,4748 DKK."
+   "note": "Prisliste 2026, enkeltrejser, « Standard » (toute l’année) : personbil <1,9 m inkl. 7 personer 520 ; autocamper <6 m inkl. 7 personer 610 ; motorcykel ekskl. fører 135 ; voksen 85 DKK. Tarifs « inkl. 7 personer » repris tels quels, occupants compris (11e audit, 19/09/2026 ; avant : conducteur déduit, 435 / 525) ; moto hors conducteur. Traversée 90 min (fiche horaire) ; distance : ordre de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 7,4748 DKK."
   },
   {
    "a": "continental",
    "b": "fanoe",
-   "routeKey": "esbjergNordby",
+   "routeKey": "esbjergNordby", "priceCovers": "vehicleAndOccupants", "coversSource": "grille FanøLinjen : « lav bil … inkl. op til 9 personer »", "durationEstimated": true,
    "name": "Esbjerg ↔ Nordby (Fanø)",
    "operator": "FanøLinjen (Molslinjen, pour Fanø Kommune)",
    "durationH": 0.2,
@@ -4474,7 +4474,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "anholt",
-   "routeKey": "grenaaAnholt",
+   "routeKey": "grenaaAnholt", "priceCovers": "vehicle", "priceCoversByClass": {"2":null,"5":null}, "coversSource": "grille Anholtfærgen : « bil under 6 m ekskl. chauffør » ; camping-car et MC sans mention", "durationEstimated": true,
    "name": "Grenaa ↔ Anholt",
    "operator": "Grenaa-Anholt Færgefart (Norddjurs Kommune)",
    "durationH": 2.75,
@@ -4499,7 +4499,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "sejeroe",
-   "routeKey": "havnsoeSejeroe",
+   "routeKey": "havnsoeSejeroe", "priceCovers": "vehicle", "priceCoversByClass": {"5":null}, "coversSource": "grille Sejerøfærgen : « bil ekskl. fører », « autocamper ekskl. fører » ; MC sans mention", "durationEstimated": true,
    "name": "Havnsø ↔ Sejerø",
    "operator": "Sejerøbugtens Færger (Kalundborg Kommune)",
    "durationH": 1,
@@ -4524,7 +4524,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "furDk",
-   "routeKey": "brandenFur",
+   "routeKey": "brandenFur", "priceCovers": "vehicleAndOccupants", "coversSource": "grille Furfærgen : toutes les personnes voyagent gratuitement", "durationEstimated": true,
    "name": "Branden ↔ Fur",
    "operator": "Furfærgen (Skive Kommune)",
    "durationH": 0.05,
@@ -4549,7 +4549,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "fejoe",
-   "routeKey": "kragenaesFejoe",
+   "routeKey": "kragenaesFejoe", "priceCovers": "vehicle", "priceCoversByClass": {"2":null,"5":null}, "coversSource": "grille Lolland Færgefart : « biler ekskl. fører » ; campingvogn/autocamper et MC sans mention", "durationEstimated": true,
    "name": "Kragenæs ↔ Fejø",
    "operator": "Lolland Færgefart (Lolland Kommune)",
    "durationH": 0.25,
@@ -4574,7 +4574,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "femoe",
-   "routeKey": "kragenaesFemoe",
+   "routeKey": "kragenaesFemoe", "priceCovers": "vehicle", "priceCoversByClass": {"2":null,"5":null}, "coversSource": "grille Lolland Færgefart : « biler ekskl. fører » ; campingvogn/autocamper et MC sans mention", "durationEstimated": true,
    "name": "Kragenæs ↔ Femø",
    "operator": "Lolland Færgefart (Lolland Kommune)",
    "durationH": 0.83,
@@ -4599,7 +4599,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "askoe",
-   "routeKey": "bandholmAskoe",
+   "routeKey": "bandholmAskoe", "priceCovers": "vehicle", "priceCoversByClass": {"2":null,"5":null}, "coversSource": "grille Lolland Færgefart : « biler ekskl. fører » ; campingvogn/autocamper et MC sans mention", "durationEstimated": true,
    "name": "Bandholm ↔ Askø",
    "operator": "Lolland Færgefart (Lolland Kommune)",
    "durationH": 0.6,
@@ -4624,7 +4624,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "endelave",
-   "routeKey": "snaptunEndelave",
+   "routeKey": "snaptunEndelave", "priceCovers": "vehicle", "priceCoversByClass": {"5":null}, "coversSource": "grille Endelavefærgen : « bil uden fører » (bas et haut) ; MC sans mention", "durationEstimated": true,
    "name": "Snaptun ↔ Endelave",
    "operator": "Endelavefærgen (Horsens Kommune)",
    "durationH": 1.17,
@@ -4649,7 +4649,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "oroe",
-   "routeKey": "holbaekOroe",
+   "routeKey": "holbaekOroe", "priceCovers": "vehicle", "coversSource": "grille Orø-færgen : takster « ekskl. fører »", "durationEstimated": true,
    "name": "Holbæk ↔ Orø",
    "operator": "Færgefarten Orø-Holbæk (Holbæk Kommune)",
    "durationH": 0.9,
@@ -4674,32 +4674,32 @@ module.exports = {
   {
    "a": "continental",
    "b": "venoe",
-   "routeKey": "kleppenVenoe",
+   "routeKey": "kleppenVenoe", "priceCovers": "vehicleAndOccupants", "coversSource": "grille Venø : « car incl. max. 8 passengers », « motorcycle incl. passenger »",
    "name": "Kleppen ↔ Venø",
    "operator": "Venø Færgefart (Struer Kommune)",
    "durationH": 0.05,
    "distanceKm": 0.3,
    "priceByClass": {
-    "1": 4.35,
-    "2": 4.35,
-    "5": 2.34,
+    "1": 6.02,
+    "2": 6.02,
+    "5": 4.01,
     "foot": 1.67
    },
    "currency": "DKK",
    "original": {
-    "1": 32.5,
-    "2": 32.5,
-    "5": 17.5,
+    "1": 45,
+    "2": 45,
+    "5": 30,
     "foot": 12.5
    },
    "source": "https://venoefaergefart.dk/en/ferry-service-prices/",
    "date": "2026-09-16",
-   "note": "Prix « RETURN » : car incl. max. 8 passengers 90 ; motorcycle incl. passenger 60 ; adult 25 DKK. Conducteur (25) déduit puis division par deux : 32,5 / 17,5 ; piéton 12,5. Pas de tarif camping-car distinct (véhicules <3 500 kg) : tarif voiture. 2 min. Conversion InforEuro septembre 2026 : 1 EUR = 7,4748 DKK."
+   "note": "Prix « RETURN » : car incl. max. 8 passengers 90 ; motorcycle incl. passenger 60 ; adult 25 DKK. Division par deux, occupants compris : 45 / 30 ; piéton 12,5 (11e audit, 19/09/2026 ; avant : conducteur déduit, 32,5 / 17,5). Pas de tarif camping-car distinct (véhicules <3 500 kg) : tarif voiture. 2 min. Conversion InforEuro septembre 2026 : 1 EUR = 7,4748 DKK."
   },
   {
    "a": "continental",
    "b": "agersoe",
-   "routeKey": "stigsnaesAgersoe",
+   "routeKey": "stigsnaesAgersoe", "priceCovers": "vehicle", "coversSource": "grille Agersø/Omø : « uden fører og passagerer »", "durationEstimated": true,
    "name": "Stigsnæs ↔ Agersø",
    "operator": "Agersø Omø Færgerne (Slagelse Kommune)",
    "durationH": 0.25,
@@ -4724,7 +4724,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "omoe",
-   "routeKey": "stigsnaesOmoe",
+   "routeKey": "stigsnaesOmoe", "priceCovers": "vehicle", "coversSource": "grille Agersø/Omø : « uden fører og passagerer »", "durationEstimated": true,
    "name": "Stigsnæs ↔ Omø",
    "operator": "Agersø Omø Færgerne (Slagelse Kommune)",
    "durationH": 1,
@@ -4749,7 +4749,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "egholm",
-   "routeKey": "aalborgEgholm",
+   "routeKey": "aalborgEgholm", "priceCovers": "vehicle", "coversSource": "grille Egholmfærgen : « uden fører » pour voitures et moto", "durationEstimated": true,
    "name": "Aalborg ↔ Egholm",
    "operator": "Egholmfærgen (Aalborg Kommune)",
    "durationH": 0.17,
@@ -4774,7 +4774,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "strynoe",
-   "routeKey": "rudkoebingStrynoe",
+   "routeKey": "rudkoebingStrynoe", "priceCovers": null, "coversSource": "grille : inclusion du conducteur non précisée", "durationEstimated": true,
    "name": "Rudkøbing ↔ Strynø",
    "operator": "Strynø-Rudkøbing Færgefart (Langeland Kommune)",
    "durationH": 0.75,
@@ -4799,7 +4799,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "avernakoe",
-   "routeKey": "faaborgAvernakoe",
+   "routeKey": "faaborgAvernakoe", "priceCovers": "vehicle", "priceCoversByClass": {"5":null}, "coversSource": "grille Ø-Færgen : « alle køretøjer under 6 m ekskl. fører » ; MC sans mention", "durationEstimated": true,
    "name": "Faaborg ↔ Avernakø",
    "operator": "Ø-Færgen (Faaborg-Midtfyn Kommune)",
    "durationH": 0.5,
@@ -4824,7 +4824,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "lyoe",
-   "routeKey": "faaborgLyoe",
+   "routeKey": "faaborgLyoe", "priceCovers": "vehicle", "priceCoversByClass": {"5":null}, "coversSource": "grille Ø-Færgen : « alle køretøjer under 6 m ekskl. fører » ; MC sans mention", "durationEstimated": true,
    "name": "Faaborg ↔ Lyø",
    "operator": "Ø-Færgen (Faaborg-Midtfyn Kommune)",
    "durationH": 0.8,
@@ -4849,7 +4849,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "drejoe",
-   "routeKey": "svendborgDrejoe",
+   "routeKey": "svendborgDrejoe", "priceCovers": null, "coversSource": "grille : inclusion du conducteur non précisée", "durationEstimated": true,
    "name": "Svendborg ↔ Drejø (via Skarø)",
    "operator": "M/F Højestene (Svendborg Havn)",
    "durationH": 1.25,
@@ -4874,7 +4874,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "skaroe",
-   "routeKey": "svendborgSkaroe",
+   "routeKey": "svendborgSkaroe", "priceCovers": null, "coversSource": "grille : inclusion du conducteur non précisée", "durationEstimated": true,
    "name": "Svendborg ↔ Skarø",
    "operator": "M/F Højestene (Svendborg Havn)",
    "durationH": 0.6,
@@ -4899,7 +4899,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "hjarnoe",
-   "routeKey": "snaptunHjarnoe",
+   "routeKey": "snaptunHjarnoe", "durationEstimated": true,
    "name": "Snaptun ↔ Hjarnø",
    "operator": "Hjarnø Færgefart (Hedensted Kommune)",
    "durationH": 0.1,
@@ -4925,7 +4925,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "baagoe",
-   "routeKey": "assensBaagoe",
+   "routeKey": "assensBaagoe", "priceCovers": "vehicle", "priceCoversByClass": {"5":null}, "coversSource": "grille Bågøfærgen : « bil/bus/campingvogn … ekskl. fører » ; MC sans mention", "durationEstimated": true,
    "name": "Assens ↔ Bågø",
    "operator": "Bågøfærgen (Assens Havn)",
    "durationH": 0.67,
@@ -4950,7 +4950,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "barsoe",
-   "routeKey": "barsoeLanding",
+   "routeKey": "barsoeLanding", "priceCovers": "vehicle", "coversSource": "grille Aabenraa : « privat biler … ekskl. fører » ; moto gratuite, pilote au tarif passager", "durationEstimated": true,
    "name": "Barsø Landing ↔ Barsø",
    "operator": "Barsøfærgen (Aabenraa Kommune)",
    "durationH": 0.1,
@@ -4975,7 +4975,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "sylt",
-   "routeKey": "niebuellWesterland",
+   "routeKey": "niebuellWesterland", "priceCovers": "vehicleAndOccupants", "coversSource": "Sylt Shuttle (train-auto) : tarif par véhicule, passagers inclus", "durationEstimated": true, "mode": "train",
    "name": "Niebüll ↔ Westerland (Sylt Shuttle)",
    "operator": "DB Sylt Shuttle",
    "durationH": 0.75,
@@ -5000,7 +5000,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "foehr",
-   "routeKey": "dagebuellWyk",
+   "routeKey": "dagebuellWyk", "priceCovers": null, "coversSource": "seul le tarif passager est publié", "durationEstimated": true,
    "name": "Dagebüll ↔ Wyk auf Föhr",
    "operator": "W.D.R. (Wyker Dampfschiffs-Reederei)",
    "durationH": 0.83,
@@ -5026,7 +5026,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "amrum",
-   "routeKey": "dagebuellWittduen",
+   "routeKey": "dagebuellWittduen", "priceCovers": null, "coversSource": "seul le tarif passager est publié", "durationEstimated": true,
    "name": "Dagebüll ↔ Wittdün (Amrum)",
    "operator": "W.D.R. (Wyker Dampfschiffs-Reederei)",
    "durationH": 2,
@@ -5052,7 +5052,7 @@ module.exports = {
   {
    "a": "foehr",
    "b": "amrum",
-   "routeKey": "wykWittduen",
+   "routeKey": "wykWittduen", "durationEstimated": true,
    "name": "Wyk (Föhr) ↔ Wittdün (Amrum)",
    "operator": "W.D.R. (Wyker Dampfschiffs-Reederei)",
    "durationH": 0.75,
@@ -5078,7 +5078,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "pellworm",
-   "routeKey": "strucklahnungshoernPellworm",
+   "routeKey": "strucklahnungshoernPellworm", "priceCovers": "vehicle", "coversSource": "grille NPDG : tarif Pkw « personnes non comprises »", "durationEstimated": true,
    "name": "Strucklahnungshörn ↔ Pellworm",
    "operator": "NPDG (Neue Pellwormer Dampfschiffahrts-GmbH)",
    "durationH": 0.6,
@@ -5103,7 +5103,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "borkum",
-   "routeKey": "emdenBorkum",
+   "routeKey": "emdenBorkum", "priceCovers": "vehicle", "coversSource": "véhicule seul : grille AG EMS « inkl. Fahrer », adulte déduit ; moto non tarifée", "durationEstimated": true,
    "name": "Emden ↔ Borkum",
    "operator": "AG EMS",
    "durationH": 2,
@@ -5128,7 +5128,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "norderney",
-   "routeKey": "norddeichNorderney",
+   "routeKey": "norddeichNorderney", "durationEstimated": true,
    "name": "Norddeich ↔ Norderney",
    "operator": "AG Reederei Norden-Frisia",
    "durationH": 0.9,
@@ -5154,7 +5154,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "saaremaa",
-   "routeKey": "virtsuKuivastu",
+   "routeKey": "virtsuKuivastu", "priceCovers": "vehicle", "coversSource": "véhicule seul : praamid.ee, le billet véhicule n'inclut pas le conducteur", "durationEstimated": true,
    "name": "Virtsu ↔ Kuivastu (Muhu/Saaremaa)",
    "operator": "TS Laevad (Praamid.ee)",
    "durationH": 0.5,
@@ -5179,7 +5179,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "hiiumaa",
-   "routeKey": "rohukylaHeltermaa",
+   "routeKey": "rohukylaHeltermaa", "priceCovers": "vehicle", "coversSource": "véhicule seul : praamid.ee, le billet véhicule n'inclut pas le conducteur", "durationEstimated": true,
    "name": "Rohuküla ↔ Heltermaa (Hiiumaa)",
    "operator": "TS Laevad (Praamid.ee)",
    "durationH": 1.5,
@@ -5204,7 +5204,7 @@ module.exports = {
   {
    "a": "hiiumaa",
    "b": "saaremaa",
-   "routeKey": "soruTriigi",
+   "routeKey": "soruTriigi", "durationEstimated": true,
    "name": "Sõru (Hiiumaa) ↔ Triigi (Saaremaa)",
    "operator": "Saaremaa vald / exploitant sous contrat",
    "durationH": 1,
@@ -5230,7 +5230,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "vormsi",
-   "routeKey": "rohukylaSviby",
+   "routeKey": "rohukylaSviby", "durationEstimated": true,
    "name": "Rohuküla ↔ Sviby (Vormsi)",
    "operator": "Kihnu Veeteed",
    "durationH": 1.5,
@@ -5256,7 +5256,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "kihnu",
-   "routeKey": "munalaidKihnu",
+   "routeKey": "munalaidKihnu", "durationEstimated": true,
    "name": "Munalaid ↔ Kihnu",
    "operator": "Kihnu Veeteed",
    "durationH": 1,
@@ -5282,7 +5282,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "ruhnu",
-   "routeKey": "parnuRuhnu",
+   "routeKey": "parnuRuhnu", "durationEstimated": true,
    "name": "Pärnu ↔ Ruhnu",
    "operator": "Tuule Liinid (catamaran Runö)",
    "durationH": 3,
@@ -5308,7 +5308,7 @@ module.exports = {
   {
    "a": "saaremaa",
    "b": "abruka",
-   "routeKey": "roomassaareAbruka",
+   "routeKey": "roomassaareAbruka", "durationEstimated": true,
    "name": "Roomassaare ↔ Abruka",
    "operator": "Saaremaa Liinid (petit navire ABRO)",
    "durationH": 0.5,
@@ -5334,7 +5334,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "neringa",
-   "routeKey": "klaipedaSmiltyne",
+   "routeKey": "klaipedaSmiltyne", "priceCovers": "vehicleAndOccupants", "coversSource": "grille Smiltynės perkėla : les passagers d'un véhicule n'achètent pas de billet", "durationEstimated": true,
    "name": "Klaipėda ↔ Smiltynė (isthme de Courlande)",
    "operator": "AB Smiltynės perkėla",
    "durationH": 0.1,
@@ -5359,7 +5359,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "tysnes",
-   "routeKey": "halhjemVage",
+   "routeKey": "halhjemVage", "priceCovers": "vehicleAndOccupants", "coversSource": "grille AutoPASS : conducteur compris, passagers gratuits", "durationEstimated": true,
    "name": "Halhjem ↔ Våge (Tysnes)",
    "operator": "Fjord1",
    "durationH": 0.6,
@@ -5384,7 +5384,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "austevoll",
-   "routeKey": "krokeideHufthamar",
+   "routeKey": "krokeideHufthamar", "priceCovers": "vehicleAndOccupants", "coversSource": "grille AutoPASS : conducteur compris, passagers gratuits", "durationEstimated": true,
    "name": "Krokeide ↔ Hufthamar (Austevoll)",
    "operator": "Fjord1",
    "durationH": 0.6,
@@ -5409,7 +5409,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "huglo",
-   "routeKey": "jektevikNordhuglo",
+   "routeKey": "jektevikNordhuglo", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Jektevik ↔ Nordhuglo (Huglo)",
    "operator": "Fjord1",
    "durationH": 0.3,
@@ -5434,7 +5434,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "varaldsoy",
-   "routeKey": "gjermundshamnVaraldsoy",
+   "routeKey": "gjermundshamnVaraldsoy", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Gjermundshamn ↔ Varaldsøy",
    "operator": "Fjord1",
    "durationH": 0.4,
@@ -5459,7 +5459,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "fjelberg",
-   "routeKey": "sydnesFjelberg",
+   "routeKey": "sydnesFjelberg", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Sydnes ↔ Fjelberg",
    "operator": "Fjord1",
    "durationH": 0.3,
@@ -5484,7 +5484,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "kvitsoy",
-   "routeKey": "mekjarvikKvitsoy",
+   "routeKey": "mekjarvikKvitsoy", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Mekjarvik ↔ Kvitsøy",
    "operator": "Boreal Sjø",
    "durationH": 0.5,
@@ -5509,7 +5509,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "utsira",
-   "routeKey": "haugesundUtsira",
+   "routeKey": "haugesundUtsira", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Haugesund ↔ Utsira",
    "operator": "Rutebåten Utsira",
    "durationH": 1.2,
@@ -5534,7 +5534,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "ombo",
-   "routeKey": "ryfylkeferjenOmbo",
+   "routeKey": "ryfylkeferjenOmbo", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Ryfylkeferjen (Ombo)",
    "operator": "Kolumbus",
    "durationH": 0.8,
@@ -5559,7 +5559,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "hidra",
-   "routeKey": "launesKvellandstrand",
+   "routeKey": "launesKvellandstrand", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Launes ↔ Kvellandstrand (Hidra)",
    "operator": "Agder fylkeskommune",
    "durationH": 0.2,
@@ -5584,7 +5584,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "andabeloy",
-   "routeKey": "abelnesAndabeloy",
+   "routeKey": "abelnesAndabeloy", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Abelnes ↔ Andabeløy",
    "operator": "Boreal Sjø",
    "durationH": 0.1,
@@ -5609,7 +5609,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "skatoy",
-   "routeKey": "krageroSkatoy",
+   "routeKey": "krageroSkatoy", "durationEstimated": true,
    "name": "Kragerø ↔ Skåtøy",
    "operator": "Kragerø Fjordbåtselskap (Farte)",
    "durationH": 0.15,
@@ -5635,7 +5635,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "sandoyaPorsgrunn",
-   "routeKey": "brevikSandoya",
+   "routeKey": "brevikSandoya", "durationEstimated": true,
    "name": "Brevik ↔ Sandøya",
    "operator": "Brevik Fergeselskap (Farte)",
    "durationH": 0.2,
@@ -5661,7 +5661,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "fedje",
-   "routeKey": "saevroyFedje",
+   "routeKey": "saevroyFedje", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Sævrøy ↔ Fedje",
    "operator": "Fjord1",
    "durationH": 0.4,
@@ -5686,7 +5686,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "leroy",
-   "routeKey": "klokkarvikLeroy",
+   "routeKey": "klokkarvikLeroy", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Klokkarvik ↔ Lerøy",
    "operator": "Skyss",
    "durationH": 0.2,
@@ -5711,7 +5711,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "hisaroy",
-   "routeKey": "mjanesHisaroy",
+   "routeKey": "mjanesHisaroy", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Mjånes ↔ Hisarøy",
    "operator": "Wergeland-Halsvik",
    "durationH": 0.2,
@@ -5736,7 +5736,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "solund",
-   "routeKey": "rutledalKrakhella",
+   "routeKey": "rutledalKrakhella", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Rutledal ↔ Krakhella (Solund)",
    "operator": "Fjord1",
    "durationH": 0.9,
@@ -5761,7 +5761,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "losna",
-   "routeKey": "rutledalLosna",
+   "routeKey": "rutledalLosna", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Rysjedalsvika/Rutledal ↔ Losna",
    "operator": "Fjord1",
    "durationH": 0.7,
@@ -5786,7 +5786,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "vaerlandet",
-   "routeKey": "askvollVaerlandet",
+   "routeKey": "askvollVaerlandet", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Askvoll ↔ Værlandet",
    "operator": "Fjord1",
    "durationH": 0.7,
@@ -5811,7 +5811,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "atloy",
-   "routeKey": "askvollGjervik",
+   "routeKey": "askvollGjervik", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Askvoll ↔ Gjervik (Atløy)",
    "operator": "Fjord1",
    "durationH": 0.3,
@@ -5836,7 +5836,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "husevagoy",
-   "routeKey": "maloyHusevagoy",
+   "routeKey": "maloyHusevagoy", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Måløy ↔ Husevågøy",
    "operator": "Fjord1",
    "durationH": 0.2,
@@ -5861,7 +5861,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "barmoya",
-   "routeKey": "barmsundBarmen",
+   "routeKey": "barmsundBarmen", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Barmsund ↔ Barmen",
    "operator": "Vidar Hop Skyssbåter",
    "durationH": 0.1,
@@ -5886,7 +5886,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "sandsoya",
-   "routeKey": "larsnesVoksa",
+   "routeKey": "larsnesVoksa", "durationEstimated": true,
    "name": "Larsnes ↔ Voksa (Sandsøya)",
    "operator": "Norled",
    "durationH": 0.4,
@@ -5912,7 +5912,7 @@ module.exports = {
   {
    "a": "gossa",
    "b": "finnoyaAlesund",
-   "routeKey": "smageFinnoya",
+   "routeKey": "smageFinnoya", "durationEstimated": true,
    "name": "Småge ↔ Finnøya",
    "operator": "Fjord1",
    "durationH": 0.4,
@@ -5938,7 +5938,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "sekken",
-   "routeKey": "moldeSekken",
+   "routeKey": "moldeSekken", "durationEstimated": true,
    "name": "Molde ↔ Sekken",
    "operator": "Fjord1",
    "durationH": 0.4,
@@ -5964,7 +5964,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "midsund",
-   "routeKey": "brattvagDryna",
+   "routeKey": "brattvagDryna", "durationEstimated": true,
    "name": "Brattvåg ↔ Dryna (Midsund)",
    "operator": "Fjord1",
    "durationH": 0.4,
@@ -5990,7 +5990,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "gossa",
-   "routeKey": "hollingsholmenAukra",
+   "routeKey": "hollingsholmenAukra", "durationEstimated": true,
    "name": "Hollingsholmen ↔ Aukra (Gossa)",
    "operator": "Fjord1",
    "durationH": 0.3,
@@ -6016,7 +6016,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "storfosna",
-   "routeKey": "gartenStorfosna",
+   "routeKey": "gartenStorfosna", "durationEstimated": true,
    "name": "Garten ↔ Storfosna",
    "operator": "Fosen Linjen",
    "durationH": 0.3,
@@ -6042,7 +6042,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "leksa",
-   "routeKey": "gartenLeksa",
+   "routeKey": "gartenLeksa", "durationEstimated": true,
    "name": "Garten ↔ Leksa",
    "operator": "Fosen Linjen",
    "durationH": 0.8,
@@ -6068,7 +6068,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "sulaFroya",
-   "routeKey": "dyroySula",
+   "routeKey": "dyroySula", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Dyrøy ↔ Sula (Frøya)",
    "operator": "Fosen Linjen",
    "durationH": 1,
@@ -6093,7 +6093,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "mausund",
-   "routeKey": "dyroyMausund",
+   "routeKey": "dyroyMausund", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Dyrøy ↔ Mausund",
    "operator": "Fosen Linjen",
    "durationH": 0.6,
@@ -6118,7 +6118,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "sorburoya",
-   "routeKey": "dyroySorburoy",
+   "routeKey": "dyroySorburoy", "durationEstimated": true,
    "name": "Dyrøy ↔ Sørburøy",
    "operator": "Fosen Linjen",
    "durationH": 0.5,
@@ -6144,7 +6144,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "ytteroya",
-   "routeKey": "levangerHokstad",
+   "routeKey": "levangerHokstad", "durationEstimated": true,
    "name": "Levanger ↔ Hokstad (Ytterøya)",
    "operator": "FosenNamsos Sjø",
    "durationH": 0.3,
@@ -6170,7 +6170,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "joa",
-   "routeKey": "olhammerenSeierstad",
+   "routeKey": "olhammerenSeierstad", "durationEstimated": true,
    "name": "Ølhammeren ↔ Seierstad (Jøa)",
    "operator": "FosenNamsos Sjø",
    "durationH": 0.2,
@@ -6196,7 +6196,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "leka",
-   "routeKey": "gutvikSkei",
+   "routeKey": "gutvikSkei", "durationEstimated": true,
    "name": "Gutvik ↔ Skei (Leka)",
    "operator": "Torghatten Trafikkselskap",
    "durationH": 0.3,
@@ -6222,7 +6222,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "torget",
-   "routeKey": "bronnoysundTorget",
+   "routeKey": "bronnoysundTorget", "durationEstimated": true,
    "name": "Brønnøysund ↔ Sauren/Stortorgnes (Torget)",
    "operator": "Vidar Hop Skyssbåter",
    "durationH": 0.2,
@@ -6248,7 +6248,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "donna",
-   "routeKey": "sandnessjoenDonna",
+   "routeKey": "sandnessjoenDonna", "durationEstimated": true,
    "name": "Sandnessjøen ↔ Dønna",
    "operator": "Boreal Sjø",
    "durationH": 0.4,
@@ -6274,7 +6274,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "lokta",
-   "routeKey": "sandnessjoenLokta",
+   "routeKey": "sandnessjoenLokta", "durationEstimated": true,
    "name": "Sandnessjøen ↔ Løkta",
    "operator": "Boreal Sjø",
    "durationH": 0.8,
@@ -6300,7 +6300,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "vandve",
-   "routeKey": "solfjellsjoenVandve",
+   "routeKey": "solfjellsjoenVandve", "durationEstimated": true,
    "name": "Solfjellsjøen ↔ Vandve",
    "operator": "Barents",
    "durationH": 0.2,
@@ -6326,7 +6326,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "hugla",
-   "routeKey": "nesnaHugla",
+   "routeKey": "nesnaHugla", "durationEstimated": true,
    "name": "Nesna ↔ Hugla",
    "operator": "Boreal Sjø",
    "durationH": 0.3,
@@ -6352,7 +6352,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "tomma",
-   "routeKey": "nesnaTomma",
+   "routeKey": "nesnaTomma", "durationEstimated": true,
    "name": "Nesna ↔ Tomma",
    "operator": "Boreal Sjø",
    "durationH": 0.5,
@@ -6378,7 +6378,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "onoy",
-   "routeKey": "stokkvaganOnoy",
+   "routeKey": "stokkvaganOnoy", "durationEstimated": true,
    "name": "Stokkvågen ↔ Onøy",
    "operator": "Torghatten Nord",
    "durationH": 0.6,
@@ -6404,7 +6404,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "lovund",
-   "routeKey": "stokkvaganLovund",
+   "routeKey": "stokkvaganLovund", "durationEstimated": true,
    "name": "Stokkvågen ↔ Lovund",
    "operator": "Torghatten Nord",
    "durationH": 1.5,
@@ -6430,7 +6430,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "traena",
-   "routeKey": "stokkvaganTraena",
+   "routeKey": "stokkvaganTraena", "durationEstimated": true,
    "name": "Stokkvågen ↔ Træna",
    "operator": "Torghatten Nord",
    "durationH": 2,
@@ -6456,7 +6456,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "nesoyaRodoy",
-   "routeKey": "kilboghamnNordnesoy",
+   "routeKey": "kilboghamnNordnesoy", "durationEstimated": true,
    "name": "Kilboghamn ↔ Nordnesøy",
    "operator": "Torghatten Nord",
    "durationH": 0.4,
@@ -6482,7 +6482,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "meloya",
-   "routeKey": "ornesMeloysund",
+   "routeKey": "ornesMeloysund", "durationEstimated": true,
    "name": "Ørnes ↔ Meløysund",
    "operator": "Torghatten Nord",
    "durationH": 0.3,
@@ -6508,7 +6508,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "bolga",
-   "routeKey": "ornesBolga",
+   "routeKey": "ornesBolga", "durationEstimated": true,
    "name": "Ørnes ↔ Bolga",
    "operator": "Torghatten Nord",
    "durationH": 0.7,
@@ -6534,7 +6534,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "stott",
-   "routeKey": "ornesStott",
+   "routeKey": "ornesStott", "durationEstimated": true,
    "name": "Ørnes ↔ Støtt",
    "operator": "Torghatten Nord",
    "durationH": 1.2,
@@ -6560,7 +6560,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "arnoyGildeskal",
-   "routeKey": "sundSorarnoy",
+   "routeKey": "sundSorarnoy", "durationEstimated": true,
    "name": "Sund ↔ Sørarnøy",
    "operator": "Torghatten Nord",
    "durationH": 0.3,
@@ -6586,7 +6586,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "vaeroy",
-   "routeKey": "bodoVaeroy",
+   "routeKey": "bodoVaeroy", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Bodø ↔ Værøy",
    "operator": "Torghatten Nord",
    "durationH": 4,
@@ -6611,7 +6611,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "rost",
-   "routeKey": "bodoRost",
+   "routeKey": "bodoRost", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Bodø ↔ Røst",
    "operator": "Torghatten Nord",
    "durationH": 4,
@@ -6636,7 +6636,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "vengsoya",
-   "routeKey": "bellvikVengsoy",
+   "routeKey": "bellvikVengsoy", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Bellvik ↔ Vengsøy",
    "operator": "Torghatten Nord",
    "durationH": 0.3,
@@ -6661,7 +6661,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "rebbenesoya",
-   "routeKey": "mikkelvikBromnes",
+   "routeKey": "mikkelvikBromnes", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Mikkelvik ↔ Bromnes (Rebbenesøy)",
    "operator": "Torghatten Nord",
    "durationH": 0.5,
@@ -6686,7 +6686,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "karlsoy",
-   "routeKey": "hansnesKarlsoy",
+   "routeKey": "hansnesKarlsoy", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Hansnes ↔ Karlsøy",
    "operator": "Torghatten Nord",
    "durationH": 0.6,
@@ -6711,7 +6711,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "vannoya",
-   "routeKey": "hansnesVannoy",
+   "routeKey": "hansnesVannoy", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Hansnes ↔ Vannøy",
    "operator": "Torghatten Nord",
    "durationH": 1,
@@ -6736,7 +6736,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "reinoya",
-   "routeKey": "hansnesReinoy",
+   "routeKey": "hansnesReinoy", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Hansnes ↔ Stakkvik (Reinøy)",
    "operator": "Torghatten Nord",
    "durationH": 0.3,
@@ -6761,7 +6761,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "uloya",
-   "routeKey": "rotsundHavnnes",
+   "routeKey": "rotsundHavnnes", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Rotsund ↔ Havnnes (Uløya)",
    "operator": "Torghatten Nord",
    "durationH": 0.3,
@@ -6786,7 +6786,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "laukoya",
-   "routeKey": "storsteinNikkeby",
+   "routeKey": "storsteinNikkeby", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Storstein ↔ Nikkeby (Laukøya)",
    "operator": "Torghatten Nord",
    "durationH": 0.4,
@@ -6811,7 +6811,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "arnoyaSkjervoy",
-   "routeKey": "storsteinLauksundskaret",
+   "routeKey": "storsteinLauksundskaret", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Storstein ↔ Lauksundskaret (Arnøya)",
    "operator": "Torghatten Nord",
    "durationH": 0.3,
@@ -6836,7 +6836,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "soroya",
-   "routeKey": "oksfjordHasvik",
+   "routeKey": "oksfjordHasvik", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Øksfjord ↔ Hasvik (Sørøya)",
    "operator": "Boreal Sjø",
    "durationH": 1,
@@ -6861,7 +6861,7 @@ module.exports = {
   {
    "a": "gotland",
    "b": "faro",
-   "routeKey": "farosundsleden",
+   "routeKey": "farosundsleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Fårösund ↔ Fårö (Fårösundsleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.15,
@@ -6886,7 +6886,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "holmon",
-   "routeKey": "holmoleden",
+   "routeKey": "holmoleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Norrfjärden ↔ Holmön (Holmöleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.75,
@@ -6911,7 +6911,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "ivo",
-   "routeKey": "ivoleden",
+   "routeKey": "ivoleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Barum ↔ Ivö (Ivöleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.1,
@@ -6936,7 +6936,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "graso",
-   "routeKey": "grasoleden",
+   "routeKey": "grasoleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Öregrund ↔ Gräsö (Gräsöleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.15,
@@ -6961,7 +6961,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "yxlan",
-   "routeKey": "furusundsleden",
+   "routeKey": "furusundsleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Furusund ↔ Yxlan (Furusundsleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.1,
@@ -6986,7 +6986,7 @@ module.exports = {
   {
    "a": "blido",
    "b": "yxlan",
-   "routeKey": "blidoleden",
+   "routeKey": "blidoleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Yxlan ↔ Blidö (Blidöleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.1,
@@ -7011,7 +7011,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "ljustero",
-   "routeKey": "ljusteroleden",
+   "routeKey": "ljusteroleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Östanå ↔ Ljusterö (Ljusteröleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.15,
@@ -7036,7 +7036,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "rindo",
-   "routeKey": "vaxholmsleden",
+   "routeKey": "vaxholmsleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Vaxholm ↔ Rindö (Vaxholmsleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.1,
@@ -7061,7 +7061,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "arno",
-   "routeKey": "arnoleden",
+   "routeKey": "arnoleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Oknön ↔ Arnö (Arnöleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.1,
@@ -7086,7 +7086,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "ockero",
-   "routeKey": "honoleden",
+   "routeKey": "honoleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Lilla Varholmen ↔ Hönö (Hönöleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.2,
@@ -7111,7 +7111,7 @@ module.exports = {
   {
    "a": "bjorkoOckero",
    "b": "continental",
-   "routeKey": "bjorkoleden",
+   "routeKey": "bjorkoleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Lilla Varholmen ↔ Björkö (Björköleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.2,
@@ -7136,7 +7136,7 @@ module.exports = {
   {
    "a": "nordo",
    "b": "ockero",
-   "routeKey": "nordoleden",
+   "routeKey": "nordoleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Burö ↔ Knippla/Rörö (Nordöleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.4,
@@ -7161,7 +7161,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "lyr",
-   "routeKey": "lyrleden",
+   "routeKey": "lyrleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Lyresten ↔ Lyr (Lyrleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.1,
@@ -7186,7 +7186,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "hamburgo",
-   "routeKey": "hamburgsundsleden",
+   "routeKey": "hamburgsundsleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Hamburgsund ↔ Hamburgö (Hamburgsundsleden)",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.05,
@@ -7211,7 +7211,7 @@ module.exports = {
   {
    "a": "bohusMalmon",
    "b": "continental",
-   "routeKey": "bohusMalmonleden",
+   "routeKey": "bohusMalmonleden", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Tullboden ↔ Bohus-Malmön",
    "operator": "Trafikverket Färjerederiet",
    "durationH": 0.05,
@@ -7236,7 +7236,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "visingso",
-   "routeKey": "visingsoleden",
+   "routeKey": "visingsoleden", "priceCovers": "vehicle", "coversSource": "véhicule seul : grille « personbil/husbil inklusive förare », piéton déduit", "durationEstimated": true,
    "name": "Gränna ↔ Visingsö (Visingsöleden)",
    "operator": "Jönköpings kommun (Trafikverket Färjerederiet)",
    "durationH": 0.4,
@@ -7261,7 +7261,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "orno",
-   "routeKey": "dalaroOrno",
+   "routeKey": "dalaroOrno", "priceCovers": "vehicle", "coversSource": "véhicule seul : « bil och förare » (conducteur déduit)", "durationEstimated": true,
    "name": "Dalarö ↔ Ornö (Hässelmara)",
    "operator": "Ornö Sjötrafik (Ornöfärjans Samfällighetsförening)",
    "durationH": 0.5,
@@ -7286,7 +7286,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "hogmarso",
-   "routeKey": "svartnoHogmarso",
+   "routeKey": "svartnoHogmarso", "durationEstimated": true,
    "name": "Svartnö ↔ Högmarsö",
    "operator": "bac privé (Norrtälje)",
    "durationH": 0.1,
@@ -7312,7 +7312,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "nagu",
-   "routeKey": "pargasNagu",
+   "routeKey": "pargasNagu", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Lillmälö (Pargas) ↔ Prostvik (Nagu)",
    "operator": "Finferries (bac routier / maantielautta)",
    "durationH": 0.25,
@@ -7337,7 +7337,7 @@ module.exports = {
   {
    "a": "korpo",
    "b": "nagu",
-   "routeKey": "naguKorpo",
+   "routeKey": "naguKorpo", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Pärnäs (Nagu) ↔ Retais (Korpo)",
    "operator": "Finferries (bac routier / maantielautta)",
    "durationH": 0.15,
@@ -7362,7 +7362,7 @@ module.exports = {
   {
    "a": "houtskar",
    "b": "korpo",
-   "routeKey": "korpoHoutskar",
+   "routeKey": "korpoHoutskar", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Galtby (Korpo) ↔ Kittuis (Houtskär)",
    "operator": "Finferries (bac routier / maantielautta)",
    "durationH": 0.5,
@@ -7387,7 +7387,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "inio",
-   "routeKey": "kustaviInio",
+   "routeKey": "kustaviInio", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Heponiemi (Kustavi) ↔ Kannvik (Iniö)",
    "operator": "Finferries (bac routier / maantielautta)",
    "durationH": 0.3,
@@ -7412,7 +7412,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "velkua",
-   "routeKey": "palvaVelkua",
+   "routeKey": "palvaVelkua", "priceCovers": "vehicleAndOccupants", "coversSource": "traversée gratuite pour tous", "durationEstimated": true,
    "name": "Palva ↔ Velkuanmaa",
    "operator": "Finferries (bac routier / maantielautta)",
    "durationH": 0.15,
@@ -7437,7 +7437,7 @@ module.exports = {
   {
    "a": "houtskar",
    "b": "inio",
-   "routeKey": "mossalaDalen",
+   "routeKey": "mossalaDalen", "durationEstimated": true,
    "name": "Mossala (Houtskär) ↔ Dalen (Iniö)",
    "operator": "Skärgårdsvägen (liaison subventionnée)",
    "durationH": 1,
@@ -7463,7 +7463,7 @@ module.exports = {
   {
    "a": "continental",
    "b": "hitis",
-   "routeKey": "kasnasRosala",
+   "routeKey": "kasnasRosala", "durationEstimated": true,
    "name": "Kasnäs ↔ Rosala/Hitis",
    "operator": "Finferries (navire de liaison)",
    "durationH": 0.75,
