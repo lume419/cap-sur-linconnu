@@ -2360,7 +2360,6 @@ ja;差木地;Sashikiji
 ja;佐敷;Sashiki
 ja;さしき;Sashiki
 ja;サシキ;Sashiki
-ja;(佐敷町;Sashiki
 ja;佐世保市;Sasebo
 ko;사세보 시;Sasebo
 ru;Сасебо;Sasebo
@@ -5701,7 +5700,6 @@ ja;鹿島;Kashima-shi
 ja;加治木町;Kajiki
 ja;Kajiki-chō;Kajiki
 ja;鰍沢;Kajikazawa
-ja;(鰍沢町;Kajikazawa
 ja;鮖谷;Kajikatani
 ja;貝塚市;Kaizuka
 ja;貝塚;Kaizuka

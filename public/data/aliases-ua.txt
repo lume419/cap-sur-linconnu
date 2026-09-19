@@ -12377,7 +12377,6 @@ ru;Рубашкино;Rubashkino
 uk;Рубашкине;Rubashkyne
 ru;Рубашкине;Rubashkyne
 en;Rubanyy Most;Rubanyi Mist
-ru;Рубаный_мост;Rubanyi Mist
 uk;Рубаний Міст;Rubanyi Mist
 uk;Миронівщина;Myronivshchyna
 ru;Миронивщина;Myronivshchyna
@@ -14461,7 +14460,6 @@ uk;Нова Січ;Pokrovske
 ru;Новая Сечь;Pokrovske
 ru;Покровский;Pokrovskiy
 en;Pokrovskaya Bagachka;Pokrovska Bahachka
-ru;Покровская_богачка;Pokrovska Bahachka
 uk;Pokrovs’ka Bahachka;Pokrovska Bahachka
 uk;Покровська Багачка;Pokrovska Bahachka
 ru;Покровская;Pokrovskaya
@@ -16523,7 +16521,6 @@ ru;Острица;Ostrytsya
 ro;Ostrița;Ostrytsya
 ru;Остре;Ostre
 en;Ostraya-Mogila;Hostra Mohyla
-ru;Острая_могила;Hostra Mohyla
 uk;Гостра Могила;Hostra Mohyla
 ru;Остра Гора;Ostra Gora
 ru;Остра;Ostra
@@ -19739,7 +19736,6 @@ ru;Мушкутинци;Mushkutyntsi
 uk;Мушкарів;Mushkariv
 ru;Мушкаров;Mushkariv
 en;Mushina Greblya;Mushyna Hreblia
-ru;Мушина_гребля;Mushyna Hreblia
 uk;Mushyna Hreblya;Mushyna Hreblia
 uk;Мушина Гребля;Mushyna Hreblia
 uk;Муровані Курилівці;Murovani Kurylivtsi
@@ -20632,7 +20628,6 @@ uk;Михайленки;Mykhaylenky
 uk;Mykhailenky;Mykhaylenky
 ru;Михайленки;Mykhaylenky
 en;Mikhal'china Sloboda;Yasna Poliana
-ru;Михальчина_слобода;Yasna Poliana
 uk;Mikal’china Sloboda;Yasna Poliana
 uk;Михальче;Mykhalche
 pl;Michalcze;Mykhalche
@@ -23097,7 +23092,6 @@ ru;Липцы;Lyptsi
 uk;Липці;Lyptsi
 ru;Липськие;Lips’kiye
 en;Lipovyy Rog;Lypiv Rih
-ru;Липов_рог;Lypiv Rih
 uk;Липів Ріг;Lypiv Rih
 uk;Липове;Lypove
 ru;Липове;Lypove
@@ -23894,7 +23888,6 @@ ru;Кустолово-Суходилка;Kustolovo-Sukhodilka
 uk;Кустолове Перше;Kustolove Pershe
 ru;Кустолово Первое;Kustolove Pershe
 en;Kustolovo-Kushchi;Kustolovi Kushchi
-ru;Кустоловы_кущи;Kustolovi Kushchi
 uk;Кустолові Кущі;Kustolovi Kushchi
 uk;Куснища;Kusnyshcha
 ru;Куснища;Kusnyshcha
@@ -24662,7 +24655,6 @@ ru;Кривеньке;Kryvenke
 uk;Кривчик;Kryvchyk
 ru;Кривчик;Kryvchyk
 en;Krivaya Ruda;Kryva Ruda
-ru;Кривая_руда;Kryva Ruda
 uk;Крива Руда;Kryva Ruda
 ru;Кривая Руда;Krivaya Ruda
 uk;Крива Лука;Kryva Luka
@@ -28704,7 +28696,6 @@ ru;Каменнополь;Kamyanopil
 uk;Kam”yane-Sluchans’ke;Kamiane-Sluchanske
 uk;Кам’яне-Случанське;Kamiane-Sluchanske
 en;Kamennaya Yaruga;Kamiana Yaruha
-ru;Каменная_яруга;Kamiana Yaruha
 uk;Kam”yana Yaruha;Kamiana Yaruha
 uk;Кам’яна Яруга;Kamiana Yaruha
 uk;Кам’яна Криниця;Kamiana Krynytsia

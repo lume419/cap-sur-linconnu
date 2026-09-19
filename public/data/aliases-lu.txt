@@ -222,7 +222,6 @@ lb;Huldang;Huldange
 de;Huldingen;Huldange
 lb;Huewel;Hovelange
 de;Hovelingen;Hovelange
-lb;Hueschtert);Hostert
 lb;Houschter-Déckt;Hoscheiderdickt
 lb;Houschent;Hoscheid
 lb;Holztem;Holzthum
@@ -410,7 +409,6 @@ lb;Aassel;Assel
 lb;Uespelt;Aspelt
 lb;Ueschdref;Arsdorf
 lb;Aansebuerg;Ansembourg
-de;Ansemburg);Ansembourg
 de;Ansemburg;Ansembourg
 lb;Angelsbierg;Angelsberg
 lb;Alzeng;Alzingen
@@ -420,7 +418,6 @@ lb;Allënster;Altlinster
 lb;Alschent;Alscheid
 lb;Ohn;Ahn
 lb;Bech-Maacher;Bech-Kleinmacher
-lb;Bech-Maacher);Bech-Kleinmacher
 de;Wallendorferbrück;Wallendorf-Pont
 lb;Wallenduerfer-Bréck;Wallendorf-Pont
 lb;Sennengerbierg;Senningerberg

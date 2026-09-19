@@ -3620,7 +3620,6 @@ sr;Ивајловград;Ivaylovgrad
 pl;Iwajłowgrad;Ivaylovgrad
 bg;Ивайло;Ivaylo
 bg;Иваняне;Ivanyane
-bg;Иван_Вазово;Ivan-Vazovo
 bg;Иванци;Ivantsi
 bg;Ивански;Ivanski
 bg;Иваншница;Ivanshnitsa

@@ -2339,7 +2339,6 @@ en;Temrivichi;Tsyemravichy
 ru;Темровичи;Tsyemravichy
 be;Цемравічы;Tsyemravichy
 en;Tëmnyy Les;Tsyomny Lyes
-ru;Темный_лес;Tsyomny Lyes
 be;Цёмны Лес;Tsyomny Lyes
 ru;Тёмный Лес;Tsyomny Lyes
 ru;Темнолесье;Temnoles’ye
@@ -10466,7 +10465,6 @@ ru;Дворец;Dvorets
 ru;Старые Дворяниновичи;Staryye Dvoryaninovichi
 be;Дварцы;Dvartsy
 ru;Малые Дворцы;Malyye Dvortsy
-ru;Дворное_село;Dvornoye Selo
 be;Дворнае Сяло;Dvornoye Selo
 ru;Дворное Село;Dvornoye Selo
 ru;Дворново;Dvornovo
@@ -10773,7 +10771,6 @@ ru;Долговичи;Dowhavichy
 be;Доўгавічы;Dowhavichy
 be;Даўгаполле;Dawhapollye
 ru;Долгополье;Dawhapollye
-ru;Долгий_мох;Dolgiy Mokh
 ru;Долгий Мох;Dolgiy Mokh
 be;Даўгінава;Dolginovo
 ru;Долгиново;Dolginovo
@@ -12126,11 +12123,9 @@ ru;Бенин;Benin
 be;Бенін;Benin
 ru;Бенейки;Beneyki
 ru;Бенёвичи;Benëvichi
-ru;Белый_переезд;Belyy Pereyezd
 ru;Белый Переезд;Belyy Pereyezd
 ru;Белый Мох;Belyy Mokh
 ru;Белый Камень;Belyy Kamen’
-ru;Белый_двор;Belyy Dvor
 ru;Белый Двор;Belyy Dvor
 ru;Белыновичи;Belynovichi
 be;Byalynavichy;Belynovichi

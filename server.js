@@ -1666,7 +1666,9 @@ function pdfClientList(v, maxItems, maxLen){
 // le PDF écrivait toujours « 3 » ou « R ». Chaîne courte (12 caractères au plus), sans caractère de contrôle ni de
 // sens d'écriture (un badge ne doit pas réordonner la ligne), entièrement dessinable avec les polices du PDF (13e audit,
 // voir pdfClientBadge) ; sinon null et le libellé calculé ici.
-const PDF_BADGE_BAD_RE = /[\p{Cc}\u061C\u200E\u200F\u202A-\u202E\u2066-\u2069\u2028\u2029]/u;
+// Caractères invisibles aussi (14e audit du 19/09/2026) : un badge fait seulement d'espaces sans chasse, de joints ou de
+// traits d'union conditionnels (U+200B, U+200D, U+2060, U+00AD, U+FEFF…) passait canRender et laissait un rond vide.
+const PDF_BADGE_BAD_RE = /[\p{Cc}\p{Cf}\u061C\u200E\u200F\u202A-\u202E\u2066-\u2069\u2028\u2029]/u;
 // Textes de secours du péage (12e audit du 19/09/2026, utilisés seulement sans texte du navigateur) : fourchette de la
 // 11e passe, même règle que tollRange / tollRangeKind de public/js/app.js. Borne haute = amountMax, sinon amount ; borne
 // basse = amountMin, sinon la borne haute (moteur plus ancien : montant unique). 'upTo' : borne basse nulle (des routes
@@ -1757,7 +1759,9 @@ function buildTripPdf(doc, trip){
     if(sDays) statsBits.push(sDays + (sDays > 1 ? ' jours' : ' jour'));
     if(sCities) statsBits.push(sCities + (sCities > 1 ? ' villes' : ' ville'));
     if(sNights != null) statsBits.push(sNights + (sNights > 1 ? ' nuitées' : ' nuitée'));
-    if(statNum(stats.totalKm)) statsBits.push('~' + pdfDistText(statNum(stats.totalKm), unit) + ' au total');
+    // Un seul arrondi (14e audit) : 4,4 km arrondis à 4 puis convertis donnaient « 2 mi » là où l'écran écrit « 3 mi ».
+    const totalKmRaw = Number(stats.totalKm);
+    if(statNum(stats.totalKm)) statsBits.push('~' + pdfDistText(totalKmRaw, unit) + ' au total');
     if(stats.toll && typeof stats.toll === 'object' && isFinite(Number(stats.toll.amountMax != null ? stats.toll.amountMax : stats.toll.amount))){
       // Fourchette (11e passe, voir pdfTollRange) : mêmes trois cas que les statistiques de l'écran.
       const r = pdfTollRange(stats.toll), on = !!stats.toll.enabled;
@@ -2139,22 +2143,29 @@ function pdfErrorKind(err){
   return name + (code ? ' (' + code + ')' : '');
 }
 app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpuBudgetGuard, pdfExportSlot, (req, res) => {
+  // Réponse d'erreur avant toute mise en page : le créneau d'export est rendu tout de suite (14e audit du 19/09/2026).
+  // Avant, il ne l'était qu'à « finish »/« close » ou au bout de PDF_SLOT_MAX_MS : une réponse 400 mise en attente derrière
+  // une grosse réponse non lue, sur une connexion enchaînée, bloquait l'export de tout le monde ~5 s (503 « busy »).
+  const fail = function(code, body){
+    if(res.locals.releasePdfSlot) res.locals.releasePdfSlot();
+    return res.status(code).json(body);
+  };
   // Polices du PDF illisibles (fichiers absents, dossier non déployé) : service indisponible, 503 et non 500 (12e audit du
   // 19/09/2026) — l'échec ne dépend pas de la requête. Détail (code d'erreur seul) dans le journal et /api/status.
   try { PdfText.loadFonts(); } catch(err){
     console.warn('[export-pdf] polices indisponibles :', (err && err.code) || 'erreur');
     res.setHeader('Retry-After', '60');
     res.setHeader('Cache-Control', 'no-store');
-    return res.status(503).json({ error: 'pdf fonts unavailable' });
+    return fail(503, { error: 'pdf fonts unavailable' });
   }
-  if(depthExceeds(req.body, BODY_MAX_DEPTH, 0)) return res.status(400).json({ error: 'invalid trip data' });
+  if(depthExceeds(req.body, BODY_MAX_DEPTH, 0)) return fail(400, { error: 'invalid trip data' });
   stripConversionTraps(req.body, 0);
   if(distinctChars(req.body, new Set(), PDF_MAX_DISTINCT_CHARS, 0).size > PDF_MAX_DISTINCT_CHARS){
-    return res.status(413).json({ error: 'too many distinct characters' });
+    return fail(413, { error: 'too many distinct characters' });
   }
   const trip = req.body;
   if(!trip || typeof trip !== 'object' || !Array.isArray(trip.legs) || trip.legs.length === 0 || trip.legs.length > 25){
-    return res.status(400).json({ error: 'invalid trip data' });
+    return fail(400, { error: 'invalid trip data' });
   }
   // Chaînes seulement (un objet profond faisait échouer String() hors du try ci-dessous : erreur 500).
   trip.tripLabel = typeof trip.tripLabel === 'string' ? trip.tripLabel : '';

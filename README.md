@@ -4283,6 +4283,69 @@ dans la langue de l'interface, textes de carte traduits, accessibilité (dialogu
 impression, textes indicatifs trop longs. 12 nouvelles clés dans les 161 langues ; le yi reçoit le chinois pour ces
 clés, faute de traduction fiable.
 
+### Quatorzième passe d'audit (19 septembre 2026)
+
+Relecture complète en quatre volets. Première passe où aucune correction de la précédente n'avait introduit de
+régression qui fausse un résultat : l'outil de comparaison et la consigne « chercher dans les chemins parallèles » ont
+porté. Les défauts restants étaient surtout **anciens** (ports, distances de ferry, aller-retour sous 15 km, Póros) ou
+liés aux **miles** tout juste ajoutés. Chaque correction a son test ; les changements du moteur ont été passés à l'outil
+de comparaison (fdd68aa → 14e passe, section « Comparaison » ci-dessous).
+
+**Moteur.**
+- Aller-retour dans la journée : la distance annoncée « hors de portée, X km au plus » est celle du **plus lointain lieu
+  atteignable** (mêmes filtres que les candidats, vitesse moyenne du départ et de l'arrivée), et non plus le plafond du
+  seul pays de départ — Bamako annonçait 196 km alors qu'un aller-retour de 261 km vers la Guinée fonctionnait (Kayes,
+  Sarajevo, Bihać de même). Aucun lieu atteignable du tout : « introuvable », jamais un plafond sans lieu réel.
+- Plancher de 15 km de l'aller-retour abaissé à la moitié de la distance max ou de l'étape max quand elles sont plus
+  courtes (Lyon, 10 km au plus : tirage vide sans explication).
+- Moto : un port reçoit le pays du lieu habité le plus proche pour la règle « trajet intérieur » (Kota Bharu → Langkawi
+  par Kuala Perlis recevait l'interdiction thaïlandaise) ; la vitesse des parties routières n'en dépend pas.
+- Vérificateur des tests : contrôle désormais les diagnostics de l'aller-retour (plafond annoncé sous l'éloignement
+  demandé) et sa durée totale (≤ 9 h).
+
+**Outil de comparaison** (`tests/compare-engine.js`) : moto en vrai transit (Viêt Nam, Thaïlande, Pakistan), 22 trajets
+directs avec traversée, hébergement (plafonds et liens), recharges, couverture du prix des ferries et pays traversés
+comparés ; étiquettes « moto interdite » calculées par le moteur (la Malaisie était marquée à tort) ; fichiers de code et
+de données différents listés en tête ; alerte de ralentissement global (médiane, p90, total) ; option `--temps-reel`
+(budget de 4 s de la production, section séparée, dépend de la machine) ; nettoyage automatique des extractions et
+rapports (`--clean`) ; faux positif « tension au départ » supprimé. Détail dans `tests/README.md`.
+
+**Comparaison fdd68aa → 14e passe** (360 tirages, 1 561 trajets directs, 3 585 cas d'hébergement) : 55 tirages changés,
+tous des allers-retours d'une journée et tous voulus — plafonds annoncés corrigés près d'un pays plus rapide (Bamako
+196 → 263 km, Kayes 196 → 251, Sarajevo 237 → 316, Bihać 237 → 329), îles trop petites passées d'« introuvable » à
+« hors de portée » avec la vraie distance maximale sur l'île (Bastia, Palma, Naha, La Réunion, Honolulu), petites
+distances de Lyon qui trouvent un lieu ; Mopti et Kharkiv à 350 km (électrique, moto) passent de « hors de portée,
+196/256 km » à « introuvable », car ce n'est pas la durée qui bloque (bornes de recharge, zones à tension) et le plafond
+annoncé ne correspondait à aucun lieu. Aucun trajet direct ni plafond d'hébergement changé ; aucune alerte de temps
+globale (médiane 16 → 16 ms) ; Séoul à moto, 350 km, conclut en 0,6 s au lieu de 0,16 s (recherche du lieu le plus
+lointain dans une région très dense, chemin d'échec seulement).
+
+**Serveur.** Le créneau d'export PDF est rendu dès une réponse d'erreur (400, 413, 503) : une réponse non lue sur une
+connexion enchaînée le gardait ~5 s (503 pour tout le monde, surtout sans Apache devant) ; badges faits de caractères
+invisibles refusés ; total en miles des textes de secours arrondi une seule fois.
+
+**Miles et interface.** Valeurs des champs de distance au dixième en miles (12,5 km → 7.8 mi, plus « 8 » puis « 13 » au
+retour), bornes converties vers l'extérieur (toute valeur valide en km le reste en miles : un rayon de 20 km était refusé
+en anglais), contrôle sur la valeur affichée et sur celle envoyée ; valeurs par défaut sur le pas (185 et 250 mi) ;
+message de bornes avec l'unité ; `autocomplete="off"` et remise à zéro des champs avant conversion (Firefox restaurait
+une valeur en miles lue comme des km). Randonnées Visorando : difficulté (4 niveaux) et durée traduites dans les 161
+langues, au lieu du français partout. Touroyo et adyguéen : repli sur des locales de leur écriture (`tr-TR`, `ru-RU`),
+plus de dates en arabe. Arabe : duel sans le nombre (« ليلتان »), signe « ٪ ». **À relire** : difficultés de randonnée
+dans les langues rares (yi en repli chinois) ; ~1 800 noms de liaisons mêlant deux écritures (« Континент ↔ Ródos »)
+dans 41 langues, non modifiés faute de forme locale certaine.
+
+**Données.** Le Pirée ↔ Póros 58 km (somme des orthodromies de la ligne par Égine et Méthana, au lieu de 105 km sans
+source) ; Galatás n'est plus apparié à la grille du Pirée, ni Vasilikí aux lignes de Patras (bacs courts non modélisés,
+faute de durée et de prix sourcés). Distances dites orthodromiques recalculées entre les ports de `lib/ferry-ports.js`
+(Bangka ↔ Belitung 88 km au lieu de 159, Ko Chang 5,9, Rupat 8,7, Muna 34, Rote 54…), écarts de plus de 1,5 fois
+l'orthodromie corrigés en eau libre (Skýros 43, Omø, Ombo, Hunimua), Anticosti 91 km par la Pointe Ouest ; les autres
+gardés avec une note quand la ligne droite traverse des terres. Durées : Mýkonos 4 h 40 (Blue Star), Kýthnos 2,2 h,
+Koufonisia 1,5 h. Alias : 115 lignes retirées (« _ », parenthèses ou crochets non appariés, « * », orphelines), dont
+plusieurs rattachées au mauvais lieu. Lieux : 138 doublons en écriture locale écartés dans des fichiers romanisés (姫路 à
+1,4 km de Himeji…), Emboque et Ō-maki renommés. **En attente** : quais de Saint-Laurent-du-Maroni (61 km du centroïde
+utilisé) et de Moorea, et 11 autres ports listés (`PORTS_FAR_OK`) — aucun quai OpenStreetMap sur le disque ; Croatie et
+Espagne (fichiers postaux absents).
+
 ### Treizième passe d'audit (19 septembre 2026)
 
 Relecture complète en quatre volets, sans faille de sécurité ni violation d'invariant (~2 000 tirages). La plupart des

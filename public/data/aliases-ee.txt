@@ -144,7 +144,6 @@ de;Randen;Rannu
 sv;Strandbyn;Ranna
 sv;Åsbyn;Ranna
 de;Wesenberg;Rakvere
-et;Rakvere_vald;Rakvere
 sr;Раквере;Rakvere
 bg;Раквере;Rakvere
 en;Raikküla Parish;Raikküla
@@ -177,7 +176,6 @@ de;Bockenhof;Puka
 bg;Пълва;Põlva
 sr;Пилва;Põlva
 de;Oberpahlen;Põltsamaa
-et;Põltsamaa_vald;Põltsamaa
 lt;Peltsama;Põltsamaa
 sr;Пилцама;Põltsamaa
 sv;Päts;Pedase
@@ -199,7 +197,6 @@ bg;Палдиски;Paldiski
 sr;Палдиски;Paldiski
 sgs;Paldiskis;Paldiski
 de;Weissenstein;Paide
-et;Paide_vald;Paide
 bg;Пайде;Paide
 sr;Паиде;Paide
 sr;Отепја;Otepää

@@ -7,6 +7,12 @@
 // - pairs : paires de ports réellement desservies en 2026 (sites des opérateurs, ferryhopper), dans l'ordre des rives.
 // Non recalés, faute de meilleure localité : Saint-Laurent-du-Maroni (lieu = centre de la commune, quai du bac à 61 km) et
 // Surumatra (Kurupukari, quai à 71 km) ; les étapes utilisent ces mêmes coordonnées, l'estimation reste cohérente.
+// 14e audit du 19/09/2026 : toujours non recalés, faute de coordonnées de quai dans le dépôt (aucun élément OpenStreetMap
+// relevé ; pas de scripts/dump/GF_dump.txt ni PF_dump.txt ; communes.txt ne donne que le centre des communes) :
+// Saint-Laurent-du-Maroni (centre de la commune, 4,9478 ; -54,0105, à 61 km d'Albina pour un bac de 2 km) et Moorea
+// (centre de la commune « Moorea-Maiao », -17,506 ; -149,9179, 38,8 km de Papeete pour une traversée de 20 km, quai de
+// Vaiare sur l'autre côte de l'île). Liste complète des ports trop éloignés de l'autre rive : tests/data.test.js
+// (PORTS_FAR_OK), à recaler dès qu'un quai OpenStreetMap est relevé (champ quays ci-dessous).
 module.exports = {
  "routes": [
   {
@@ -814,6 +820,23 @@ module.exports = {
   }
  ],
  "pairs": {
+  // 14e audit du 19/09/2026 — Le Pirée ↔ Póros : la rive continentale porte aussi Galatás (0,5 km de Póros), port du bac
+  // Galatás ↔ Póros. Sans paires, un trajet depuis le Péloponnèse partait de Galatás avec la durée (2 h 30) et la grille
+  // Saronic Ferries (35 €) de la ligne du Pirée, pour une traversée de quelques minutes. Aucune durée ni aucun prix
+  // sourcés de ce bac dans le dépôt (seule mention : greeka.com, citée par ports-lot1.js, sans horaire ni tarif relevés) :
+  // il ne peut pas devenir une liaison propre (clé continental|poros déjà prise, un seul jeu de durée et de prix par
+  // clé). Galatás reste listé (port réel) mais n'est jamais apparié ; limite : le trajet par Galatás n'est pas proposé.
+  "continental|poros": {
+   "pairs": [
+    [
+     "Peiraiás",
+     "Póros"
+    ]
+   ],
+   "sources": [
+    "https://www.sf.gr/en/fares (Saronic Ferries, Le Pirée–Póros, grille reprise dans trip-data.js)"
+   ]
+  },
   "continental|corsica": {
    "pairs": [
     [
@@ -1361,6 +1384,10 @@ module.exports = {
     "https://www.ferryhopper.com/en/ferries/greece/crete"
    ]
   },
+  // 14e audit du 19/09/2026 — paire Vasilikí (Leucade) ↔ Fiskárdo (Céphalonie) retirée : traversée de ~19 km d'orthodromie à
+  // laquelle s'appliquaient la durée et la grille de la ligne de Patras (liaison de ~100 km), même défaut que Galatás ↔
+  // Póros (voir continental|poros). Aucune durée ni aucun prix de cette traversée dans le dépôt : Vasilikí reste listé,
+  // jamais apparié ; limite : le trajet par Leucade n'est pas proposé.
   "continental|kefalonia": {
    "pairs": [
     [
@@ -1378,16 +1405,16 @@ module.exports = {
     [
      "Astakós",
      "Sámi"
-    ],
-    [
-     "Vasilikí",
-     "Fiskárdo"
     ]
    ],
    "sources": [
     "https://www.ferryhopper.com/en/ferries/greece/kefalonia"
    ]
   },
+  // 14e audit du 19/09/2026 — paire Vasilikí (Leucade) ↔ Fríkes (Ithaque) retirée : traversée de ~19 km d'orthodromie à
+  // laquelle s'appliquaient la durée et la grille de la ligne de Patras (liaison de ~100 km), même défaut que Galatás ↔
+  // Póros (voir continental|poros). Aucune durée ni aucun prix de cette traversée dans le dépôt : Vasilikí reste listé,
+  // jamais apparié ; limite : le trajet par Leucade n'est pas proposé.
   "continental|ithaca": {
    "pairs": [
     [
@@ -1400,10 +1427,6 @@ module.exports = {
     ],
     [
      "Astakós",
-     "Fríkes"
-    ],
-    [
-     "Vasilikí",
      "Fríkes"
     ]
    ],

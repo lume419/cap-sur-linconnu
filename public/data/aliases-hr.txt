@@ -1947,7 +1947,6 @@ ru;Сливно;Slivno
 hr;Martinovci;Savski Bok
 hr;Pižinovac;Pižnovac
 ru;Влака;Vlaka
-sr;Vilak);Bair
 hr;Šarić Struga;Šarića Struga
 sr;Ораховље;Orahovlje
 hr;Podmelnica;Slunj Podmelnica

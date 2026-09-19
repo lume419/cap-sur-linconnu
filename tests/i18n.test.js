@@ -6,6 +6,7 @@
 //   - script inline des pages HTML : empreinte sha256 autorisée par la CSP de server.js, aucun gestionnaire on*.
 //   - 13e audit du 19/09/2026 : noms de liaisons sans copie de l'arabe ou du russe, aucune unité écrite en dur dans les
 //     phrases de distance (km / mi).
+//   - 14e audit du 19/09/2026 : niveaux de difficulté des randonnées traduits.
 'use strict';
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
@@ -243,4 +244,17 @@ test('distances : aucune unité écrite en dur dans les phrases, modèles unit.k
     if(['da', 'no', 'sv', 'fi', 'is', 'fo'].includes(l) && /^mil$/i.test(S[l]['unit.mi'])) bad.push(l + ' unit.mi : mil scandinave');
   }
   assert.equal(bad.length, 0, report(bad, 40));
+});
+
+// 14e audit du 19/09/2026 : niveaux de difficulté des randonnées Visorando (« Facile », « Moyenne », « Difficile »,
+// « Très difficile ») traduits dans chaque langue — quatre libellés distincts, jamais les formes françaises propres.
+test('randonnées : quatre niveaux de difficulté distincts et traduits dans chaque langue', () => {
+  const keys = ['easy', 'medium', 'hard', 'veryHard'].map(k => 'hike.difficulty.' + k);
+  const bad = [];
+  for(const l of langs){
+    const v = keys.map(k => S[l][k]);
+    if(new Set(v).size !== 4) bad.push(l + ' : libellés non distincts ' + JSON.stringify(v));
+    if(l !== 'fr' && (v[1] === 'Moyenne' || v[3] === 'Très difficile')) bad.push(l + ' : forme française ' + JSON.stringify(v));
+  }
+  assert.equal(bad.length, 0, report(bad));
 });

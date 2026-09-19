@@ -909,7 +909,6 @@ az;Komandante Ferras;Comandante Ferraz Brazilian Antarctic Base
 es;Base Comandante Ferraz;Comandante Ferraz Brazilian Antarctic Base
 nn;Comandante Ferraz-Basen;Comandante Ferraz Brazilian Antarctic Base
 cs;Výzkumná stanice Eco Nelson;Eco-Nelson
-en;CZ*ECO Nelson;Eco-Nelson
 en;Eco Nelson;Eco-Nelson
 es;Base Eco Nelson;Eco-Nelson
 lv;Ekonelsona;Eco-Nelson

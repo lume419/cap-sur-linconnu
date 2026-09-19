@@ -4728,7 +4728,7 @@ module.exports = {
    "name": "Stigsnæs ↔ Omø",
    "operator": "Agersø Omø Færgerne (Slagelse Kommune)",
    "durationH": 1,
-   "distanceKm": 15,
+   "distanceKm": 8.3,
    "priceByClass": {
     "1": 11.57,
     "2": 11.57,
@@ -4744,7 +4744,7 @@ module.exports = {
    },
    "source": "https://aofaerger.slagelse.dk/da/priser/priser-for-omoe-faergen-2026-pr-1-maj/",
    "date": "2026-09-16",
-   "note": "Priser 2026 pr. 1. maj, tur/retur sans conducteur : biler 173 ; motorcykel 32 ; voksen 73 DKK → moitié. Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 7,4748 DKK."
+   "note": "Priser 2026 pr. 1. maj, tur/retur sans conducteur : biler 173 ; motorcykel 32 ; voksen 73 DKK → moitié. Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 7,4748 DKK. 14e audit du 19/09/2026 : distance de 15 km sans source, plus de 1,5 fois l'orthodromie entre les ports de lib/ferry-ports.js (8,3 km) sur une traversée en eau libre (aucune terre sur la ligne droite, grille lib/land-grid.bin) : orthodromie retenue, 8.3 km."
   },
   {
    "a": "continental",
@@ -5538,7 +5538,7 @@ module.exports = {
    "name": "Ryfylkeferjen (Ombo)",
    "operator": "Kolumbus",
    "durationH": 0.8,
-   "distanceKm": 15,
+   "distanceKm": 8,
    "priceByClass": {
     "1": 0,
     "2": 0,
@@ -5554,7 +5554,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 14e audit du 19/09/2026 : distance de 15 km sans source ; les trois traversées desservies (paires de scripts/ferry-ports/corrections.js) mesurent 8,0, 5,4, 5,8 km d'orthodromie, en eau libre : la plus longue est retenue, 8 km."
   },
   {
    "a": "continental",
@@ -6555,7 +6555,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable. 14e audit du 19/09/2026 : distance non publiée de 22 km, 1,7 fois l'orthodromie entre les ports de lib/ferry-ports.js (13,0 km) ; route réelle non mesurable hors ligne (îlots et chenaux plus fins que la grille lib/land-grid.bin, ~10 km ; ports approchés par le centre des localités) : ordre de grandeur gardé, à vérifier."
   },
   {
    "a": "continental",

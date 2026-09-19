@@ -433,7 +433,7 @@ module.exports = {
       "name": "Xuwen ↔ Haikou (Xinhai)",
       "operator": "Qiongzhou Strait Ferry (琼州海峡轮渡)",
       "durationH": 1.5,
-      "distanceKm": 20,
+      "distanceKm": 27,
       "priceStatus": "unknown",
       "priceByClass": {
         "1": null,
@@ -443,7 +443,7 @@ module.exports = {
       },
       "source": "https://m.gmw.cn/2026-01/27/content_1304320237.htm ; https://m.haikou.bendibao.com/traffic/43267.shtm",
       "date": "2026-01-27",
-      "note": "Ferries rouliers passagers + véhicules (Guangming Daily, questions-réponses sur la traversée de 2026 : billets véhicules et voitures électriques). Montants (petite voiture 413,5 CNY sortie / 415,5 CNY entrée conducteur inclus, passager 41,5 CNY) repris seulement par des portails locaux, vente par l'application officielle : aucune grille officielle lisible. Durée ~1 h 30 (ordre de grandeur) ; distance orthodromique."
+      "note": "Ferries rouliers passagers + véhicules (Guangming Daily, questions-réponses sur la traversée de 2026 : billets véhicules et voitures électriques). Montants (petite voiture 413,5 CNY sortie / 415,5 CNY entrée conducteur inclus, passager 41,5 CNY) repris seulement par des portails locaux, vente par l'application officielle : aucune grille officielle lisible. Durée ~1 h 30 (ordre de grandeur) ; distance orthodromique. 14e audit du 19/09/2026 : distance dite « orthodromique » mais de 20 km, alors que l'orthodromie entre les ports de la liaison (lib/ferry-ports.js) vaut 26,8 km : distance recalculée, 27 km (minimum de la route réelle)."
     },
     {
       "a": "luzon",
@@ -471,7 +471,7 @@ module.exports = {
       "name": "Liloan ↔ Lipata",
       "operator": "Montenegro Lines, FastCat, GT Express, Philharbor",
       "durationH": 3.5,
-      "distanceKm": 63,
+      "distanceKm": 53,
       "priceStatus": "unknown",
       "priceByClass": {
         "1": null,
@@ -481,7 +481,7 @@ module.exports = {
       },
       "source": "https://marina.gov.ph/wp-content/uploads/2026/04/Philippine-Nautical-Highway-Matrix-MAR-2026.pdf",
       "date": "2026-03",
-      "note": "Liaison RoRo listée « SERVED » dans la matrice officielle MARINA (RRTS / Philippine Nautical Highway, « as of March 2026 »), qui ne publie que des taux indicatifs par passager-mille ou par mètre linéaire, pas de prix par véhicule ; sites des opérateurs hors ligne (FastCat) ou derrière une vérification anti-robot (Montenegro Lines, non contournée). Durée 3 h 30 (matrice) ; San Ricardo (Benit)-Lipata plus court (1 h) mais Liloan plus fréquenté. Distance orthodromique."
+      "note": "Liaison RoRo listée « SERVED » dans la matrice officielle MARINA (RRTS / Philippine Nautical Highway, « as of March 2026 »), qui ne publie que des taux indicatifs par passager-mille ou par mètre linéaire, pas de prix par véhicule ; sites des opérateurs hors ligne (FastCat) ou derrière une vérification anti-robot (Montenegro Lines, non contournée). Durée 3 h 30 (matrice) ; San Ricardo (Benit)-Lipata plus court (1 h) mais Liloan plus fréquenté. Distance orthodromique. 14e audit du 19/09/2026 : distance dite « orthodromique » mais de 63 km, alors que l'orthodromie entre les ports de la liaison (lib/ferry-ports.js) vaut 53,3 km : distance recalculée, 53 km (minimum de la route réelle)."
     },
     {
       "a": "panay",
@@ -604,7 +604,7 @@ module.exports = {
       "name": "Iloilo ↔ Jordan (Guimaras)",
       "operator": "F.F. Cruz Shipping",
       "durationH": 0.5,
-      "distanceKm": 4,
+      "distanceKm": 5.6,
       "priceStatus": "unknown",
       "priceByClass": {
         "1": null,
@@ -614,7 +614,7 @@ module.exports = {
       },
       "source": "https://marina.gov.ph/wp-content/uploads/2026/04/Philippine-Nautical-Highway-Matrix-MAR-2026.pdf",
       "date": "2026-03",
-      "note": "Liaison RoRo listée « SERVED » dans la matrice officielle MARINA (RRTS / Philippine Nautical Highway, « as of March 2026 »), qui ne publie que des taux indicatifs par passager-mille ou par mètre linéaire, pas de prix par véhicule ; sites des opérateurs hors ligne (FastCat) ou derrière une vérification anti-robot (Montenegro Lines, non contournée). RoRo MV Felipe / Felipe III, 3 NM, 30 min (matrice) ; départ Lapuz/Iloilo. Distance orthodromique arrondie."
+      "note": "Liaison RoRo listée « SERVED » dans la matrice officielle MARINA (RRTS / Philippine Nautical Highway, « as of March 2026 »), qui ne publie que des taux indicatifs par passager-mille ou par mètre linéaire, pas de prix par véhicule ; sites des opérateurs hors ligne (FastCat) ou derrière une vérification anti-robot (Montenegro Lines, non contournée). RoRo MV Felipe / Felipe III, 3 NM, 30 min (matrice) ; départ Lapuz/Iloilo. Distance orthodromique arrondie. 14e audit du 19/09/2026 : distance « orthodromique arrondie » de 4 km remplacée par la distance publiée par la matrice MARINA, 3 NM = 5,6 km (orthodromie entre les ports de lib/ferry-ports.js : 5,5 km, centres de localités)."
     },
     {
       "a": "luzon",
@@ -1041,7 +1041,7 @@ module.exports = {
       "name": "Sungai Selari (Pakning) ↔ Air Putih (Bengkalis)",
       "operator": "UPT Dishub Riau / Pemkab Bengkalis (KMP Swarna Putri…)",
       "durationH": 0.75,
-      "distanceKm": 14,
+      "distanceKm": 11,
       "priceStatus": "unknown",
       "priceByClass": {
         "1": null,
@@ -1051,7 +1051,7 @@ module.exports = {
       },
       "source": "https://riaupos.co/riau/bengkalis/09/09/2026/218407/kapal-ro-ro-masuk-docking-pelayanan-penyeberangan-bengkalis-dikeluhkan-pengguna/",
       "date": "2026-09-09",
-      "note": "RoRo toutes les heures 6:30-23:30, files de véhicules en 2026 (Riau Pos, RRI). Aucune grille officielle lisible. Durée ~45 min (ordre de grandeur) ; distance orthodromique."
+      "note": "RoRo toutes les heures 6:30-23:30, files de véhicules en 2026 (Riau Pos, RRI). Aucune grille officielle lisible. Durée ~45 min (ordre de grandeur) ; distance orthodromique. 14e audit du 19/09/2026 : distance dite « orthodromique » mais de 14 km, alors que l'orthodromie entre les ports de la liaison (lib/ferry-ports.js) vaut 11,3 km : distance recalculée, 11 km (minimum de la route réelle)."
     },
     {
       "a": "sumatra",
@@ -1060,7 +1060,7 @@ module.exports = {
       "name": "Dumai ↔ Tanjung Kapal (Rupat)",
       "operator": "UPT PP Wilayah 1 Dumai, Dishub Riau (KMP Swarna Bengawan, Muria…)",
       "durationH": 1,
-      "distanceKm": 18,
+      "distanceKm": 8.7,
       "priceStatus": "unknown",
       "priceByClass": {
         "1": null,
@@ -1070,7 +1070,7 @@ module.exports = {
       },
       "source": "https://www.siberriau.com/read-8189-2026-03-20-roro-dumairupat-mulai-beroperasi-pukul-1330-wib-pada-1-syawal.html",
       "date": "2026-03-20",
-      "note": "RoRo quotidien (11 rotations). Montants relevés par un site local non daté (adulte 11 000, voiture IVa 158 000 IDR) sans grille officielle : non retenus. Durée ~1 h (ordre de grandeur) ; distance orthodromique."
+      "note": "RoRo quotidien (11 rotations). Montants relevés par un site local non daté (adulte 11 000, voiture IVa 158 000 IDR) sans grille officielle : non retenus. Durée ~1 h (ordre de grandeur) ; distance orthodromique. 14e audit du 19/09/2026 : distance dite « orthodromique » mais de 18 km, alors que l'orthodromie entre les ports de la liaison (lib/ferry-ports.js) vaut 8,7 km : distance recalculée, 8,7 km (minimum de la route réelle)."
     },
     {
       "a": "batam",
@@ -1079,7 +1079,7 @@ module.exports = {
       "name": "Telaga Punggur ↔ Tanjung Uban",
       "operator": "ASDP Indonesia Ferry",
       "durationH": 1,
-      "distanceKm": 8,
+      "distanceKm": 11,
       "priceByClass": {
         "1": 14.98,
         "2": 27.39,
@@ -1095,7 +1095,7 @@ module.exports = {
       },
       "source": "https://asdp.id/siaran-pers/dorong-pariwisata-kepulauan-bintan-asdp-perkuat-konektivitas-telaga-punggur-tanjung-uban (communiqué de l'exploitant ASDP, 9/10/2025)",
       "date": "2025-10-09",
-      "note": "Grille : communiqué de l'exploitant ASDP du 9/10/2025 (source ci-dessus) — adulte 27 000, golongan II 51 000 (« Motor 50cc » dans le communiqué, coquille pour < 500 cm³), IVA 309 000, VA 565 000 IDR. 11e audit (19/09/2026) : ce communiqué a remplacé la source de presse d'origine (Batam Pos, juin 2026, qui relayait les mêmes « tarifs normaux » annoncés par ASDP) ; montants inchangés, remise temporaire du 20/06 au 5/07/2026 ignorée. 12e audit (19/09/2026) : note réécrite, l'ancienne formulation laissait croire à deux sources contradictoires (une seule grille, deux dates de publication, mêmes montants) ; contenu du communiqué non revérifié hors ligne. Billet véhicule indonésien = occupants inclus. Durée ~1 h (ordre de grandeur) ; distance orthodromique."
+      "note": "Grille : communiqué de l'exploitant ASDP du 9/10/2025 (source ci-dessus) — adulte 27 000, golongan II 51 000 (« Motor 50cc » dans le communiqué, coquille pour < 500 cm³), IVA 309 000, VA 565 000 IDR. 11e audit (19/09/2026) : ce communiqué a remplacé la source de presse d'origine (Batam Pos, juin 2026, qui relayait les mêmes « tarifs normaux » annoncés par ASDP) ; montants inchangés, remise temporaire du 20/06 au 5/07/2026 ignorée. 12e audit (19/09/2026) : note réécrite, l'ancienne formulation laissait croire à deux sources contradictoires (une seule grille, deux dates de publication, mêmes montants) ; contenu du communiqué non revérifié hors ligne. Billet véhicule indonésien = occupants inclus. Durée ~1 h (ordre de grandeur) ; distance orthodromique. 14e audit du 19/09/2026 : distance dite « orthodromique » mais de 8 km, alors que l'orthodromie entre les ports de la liaison (lib/ferry-ports.js) vaut 11,4 km : distance recalculée, 11 km (minimum de la route réelle)."
     },
     {
       "a": "bangka",
@@ -1104,7 +1104,7 @@ module.exports = {
       "name": "Sadai ↔ Tanjung Ru",
       "operator": "ASDP / opérateurs privés (KMP Menumbing Raya, KMP Kuala Bate II)",
       "durationH": 5,
-      "distanceKm": 159,
+      "distanceKm": 88,
       "priceStatus": "unknown",
       "priceByClass": {
         "1": null,
@@ -1114,7 +1114,7 @@ module.exports = {
       },
       "source": "https://bangka.tribunnews.com/lokal/1686511/tarif-penyeberangan-sadai-belitung-dipastikan-tetap-tiga-armada-siap-layani-penumpang ; https://hubdat.dephub.go.id/id/bptd/babel/satuan-pelayanan/pelabuhan-tanjung-ru/",
       "date": "2026",
-      "note": "Ferries rouliers Sadai (Bangka Selatan) - Tanjung Ru (Belitung Timur) ; tarifs « inchangés, conformes aux dispositions officielles » sans montants publiés. Durée ~5 h (ordre de grandeur) ; distance orthodromique. Sadai (et la pointe sud-est de Bangka) rangée dans la masse bangka par iles-insulinde.js (correction du 16/09/2026)."
+      "note": "Ferries rouliers Sadai (Bangka Selatan) - Tanjung Ru (Belitung Timur) ; tarifs « inchangés, conformes aux dispositions officielles » sans montants publiés. Durée ~5 h (ordre de grandeur) ; distance orthodromique. Sadai (et la pointe sud-est de Bangka) rangée dans la masse bangka par iles-insulinde.js (correction du 16/09/2026). 14e audit du 19/09/2026 : distance dite « orthodromique » mais de 159 km, alors que l'orthodromie entre les ports de la liaison (lib/ferry-ports.js) vaut 88,1 km : distance recalculée, 88 km (minimum de la route réelle)."
     },
     {
       "a": "bali",
@@ -1250,7 +1250,7 @@ module.exports = {
       "name": "Torobulu ↔ Tampo (Muna)",
       "operator": "KMP Cendrawasih, KMP Nuku, KMP Tunu Pratama Jaya (UPTD Pelabuhan Torobulu)",
       "durationH": 3,
-      "distanceKm": 50,
+      "distanceKm": 34,
       "priceStatus": "unknown",
       "priceByClass": {
         "1": null,
@@ -1260,7 +1260,7 @@ module.exports = {
       },
       "source": "https://sultra.antaranews.com/berita/529574/pelabuhan-torobulu-konsel-siapkan-empat-kapal-feri-layani-mudik-2026",
       "date": "2026-03",
-      "note": "Trois ferries sur Torobulu-Tampo pour le Lebaran 2026, 2 à 6 rotations/jour, traversée 2 h 30-3 h 30 (Antara). Aucune grille officielle lisible. Distance orthodromique."
+      "note": "Trois ferries sur Torobulu-Tampo pour le Lebaran 2026, 2 à 6 rotations/jour, traversée 2 h 30-3 h 30 (Antara). Aucune grille officielle lisible. Distance orthodromique. 14e audit du 19/09/2026 : distance dite « orthodromique » mais de 50 km, alors que l'orthodromie entre les ports de la liaison (lib/ferry-ports.js) vaut 34,4 km : distance recalculée, 34 km (minimum de la route réelle)."
     },
     {
       "a": "ambon",
@@ -1269,7 +1269,7 @@ module.exports = {
       "name": "Hunimua ↔ Waipirit",
       "operator": "ASDP Indonesia Ferry (KMP Erana, Inelika, Rokatenda, Terubuk)",
       "durationH": 1.5,
-      "distanceKm": 36,
+      "distanceKm": 20,
       "priceByClass": {
         "1": 14.71,
         "2": 20.09,
@@ -1285,7 +1285,7 @@ module.exports = {
       },
       "source": "https://www.asdp.id/siaran-pers/asdp-resmi-berlakukan-penyesuaian-tarif-di-lintasan-galala-namlea-dan-hunimua-waipirit-ambon ; https://www.asdp.id/siaran-pers/mulai-juni-penyeberangan-hunimua%E2%80%93waipirit-beroperasi-24-jam-tiap-akhir-pekan",
       "date": "2026-06",
-      "note": "Grille ASDP (arrêté du gouverneur des Moluques n° 1625/2024, en vigueur le 20/09/2024) : adulte 27 500, golongan II 63 000, IVA 303 445, VA 414 475 IDR ; aucune révision trouvée depuis ; service 24 h le week-end depuis le 1er juin 2026. Mention « (PP) » dans le communiqué supposée désigner la ligne, pas un aller-retour (montants cohérents avec un aller simple). Billet véhicule = occupants inclus. Durée ~1 h 30 (ordre de grandeur). Liang (port de Hunimua) rangé dans la masse ambon par iles-insulinde.js (correction du 16/09/2026)."
+      "note": "Grille ASDP (arrêté du gouverneur des Moluques n° 1625/2024, en vigueur le 20/09/2024) : adulte 27 500, golongan II 63 000, IVA 303 445, VA 414 475 IDR ; aucune révision trouvée depuis ; service 24 h le week-end depuis le 1er juin 2026. Mention « (PP) » dans le communiqué supposée désigner la ligne, pas un aller-retour (montants cohérents avec un aller simple). Billet véhicule = occupants inclus. Durée ~1 h 30 (ordre de grandeur). Liang (port de Hunimua) rangé dans la masse ambon par iles-insulinde.js (correction du 16/09/2026). 14e audit du 19/09/2026 : distance de 36 km sans source, plus de 1,5 fois l'orthodromie entre les ports de lib/ferry-ports.js (19,8 km) sur une traversée en eau libre (aucune terre sur la ligne droite, grille lib/land-grid.bin) : orthodromie retenue, 20 km."
     },
     {
       "a": "ambon",
@@ -1376,7 +1376,7 @@ module.exports = {
       "name": "Bolok (Kupang) ↔ Pantai Baru (Rote)",
       "operator": "ASDP Indonesia Ferry (KMP Cakalang II)",
       "durationH": 4,
-      "distanceKm": 71,
+      "distanceKm": 54,
       "priceStatus": "unknown",
       "priceByClass": {
         "1": null,
@@ -1386,7 +1386,7 @@ module.exports = {
       },
       "source": "https://kupang.tribunnews.com/bisnis/979467/jadwal-kapal-fery-asdp-kupang-hari-ini-minggu-13-september-2026-kupang-laranuka-jam-1400-wita",
       "date": "2026-09-13",
-      "note": "Départ 9:00 vers Pantai Baru (Pos Kupang, septembre 2026). Aucune grille officielle lisible. Durée ~4 h (ordre de grandeur) ; distance orthodromique."
+      "note": "Départ 9:00 vers Pantai Baru (Pos Kupang, septembre 2026). Aucune grille officielle lisible. Durée ~4 h (ordre de grandeur) ; distance orthodromique. 14e audit du 19/09/2026 : distance dite « orthodromique » mais de 71 km, alors que l'orthodromie entre les ports de la liaison (lib/ferry-ports.js) vaut 53,8 km : distance recalculée, 54 km (minimum de la route réelle)."
     },
     {
       "a": "timor",
@@ -1452,7 +1452,7 @@ module.exports = {
       "name": "Ao Thammachat ↔ Ao Sapparot (Ko Chang)",
       "operator": "Koh Chang Ferry",
       "durationH": 0.5,
-      "distanceKm": 13,
+      "distanceKm": 5.9,
       "priceStatus": "unknown",
       "priceByClass": {
         "1": null,
@@ -1462,7 +1462,7 @@ module.exports = {
       },
       "source": "https://kohchangferries.com/ferry-koh-chang/ ; https://explorekohchang.com/koh-chang/how-to-get-to-koh-chang/koh-chang-ferries/",
       "date": "2026-09",
-      "note": "Ferry voitures + passagers toutes les heures environ (6:30-18:30) ; Centrepoint suspendu depuis 2024. Montants (voiture 120 à 200 THB, passager 80 à 90) divergents et repris seulement par des sites d'information, aucune grille de l'opérateur ou d'une autorité. Durée ~30 min ; distance orthodromique."
+      "note": "Ferry voitures + passagers toutes les heures environ (6:30-18:30) ; Centrepoint suspendu depuis 2024. Montants (voiture 120 à 200 THB, passager 80 à 90) divergents et repris seulement par des sites d'information, aucune grille de l'opérateur ou d'une autorité. Durée ~30 min ; distance orthodromique. 14e audit du 19/09/2026 : distance dite « orthodromique » mais de 13 km, alors que l'orthodromie entre les ports de la liaison (lib/ferry-ports.js) vaut 5,9 km : distance recalculée, 5,9 km (minimum de la route réelle)."
     },
     {
       "a": "continental",
@@ -1534,7 +1534,7 @@ module.exports = {
       "name": "Laharhat ↔ Veduria (Bhola)",
       "operator": "BIWTC",
       "durationH": 2,
-      "distanceKm": 15,
+      "distanceKm": 11,
       "priceStatus": "unknown",
       "priceByClass": {
         "1": null,
@@ -1544,7 +1544,7 @@ module.exports = {
       },
       "source": "https://www.bssnews.net/special-stories/400040 ; https://en.wikipedia.org/wiki/Bhola_Bridge",
       "date": "2026",
-      "note": "Bac roulier BIWTC Barishal-Bhola (bancs de sable perturbant la navigation près de Bheduria, BSS). Grille BIWTC par véhicule citée en ligne mais portail biwtc.portal.gov.bd hors service (« Domain is not available ») : non lisible. Nouvelle ligne Kanchpur-Ilisha (8 h) à l'essai depuis le 27/08/2026, non retenue. Durée 1 h 30-2 h ; distance orthodromique."
+      "note": "Bac roulier BIWTC Barishal-Bhola (bancs de sable perturbant la navigation près de Bheduria, BSS). Grille BIWTC par véhicule citée en ligne mais portail biwtc.portal.gov.bd hors service (« Domain is not available ») : non lisible. Nouvelle ligne Kanchpur-Ilisha (8 h) à l'essai depuis le 27/08/2026, non retenue. Durée 1 h 30-2 h ; distance orthodromique. 14e audit du 19/09/2026 : distance dite « orthodromique » mais de 15 km, alors que l'orthodromie entre les ports de la liaison (lib/ferry-ports.js) vaut 11,5 km : distance recalculée, 11 km (minimum de la route réelle)."
     },
     {
       "a": "continental",

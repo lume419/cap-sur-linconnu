@@ -306,7 +306,7 @@
 26459;-70.9848,-33.6797;CL-12;Santiago Metropolitan;El Monte
 0;-70.9667,-29.9667;CL-07;Coquimbo Region;El Molle
 0;-70.7849,-34.7441;CL-08;O'Higgins Region;El Encanche
-0;-71.7673,-35.7441;CL-11;Maule Region;El # Emboque
+0;-71.7673,-35.7441;CL-11;Maule Region;Emboque
 0;-71.1643,-30.9835;CL-07;Coquimbo Region;El Chivato
 12277;-72.0261,-36.8983;CL-18;Ñuble;El Carmen
 0;-72.4884,-47.1102;CL-02;Aysén;El Baño

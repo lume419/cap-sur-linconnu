@@ -945,7 +945,6 @@ en;Pīr Khel;Pir Khel
 en;Pīrān;Palosai Piran
 en;Plosai Pīrān;Palosai Piran
 pa;ਚੱਕ 126 ਗ. ਬ. ਸ਼ਹਿਰੁਆਨਾ;Chak 126 GB Sheroana
-ur;(پنڈی ہاشم (باڑہ;Pindi Hashim
 pa;ਪਿੰਡੀ ਭੱਟੀਆਂ;Pindi Bhattian
 ceb;Pindi Bhattiān;Pindi Bhattian
 fa;پندی بهتیان;Pindi Bhattian

@@ -281,7 +281,7 @@ module.exports = {
       operator: 'TABSA (Yaghan)', durationH: 30, distanceKm: 480,
       priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
       source: 'https://www.exploraislanavarino.com/en/como-llegar-a-puerto-williams-isla-navarino/', date: '2026-09-16',
-      note: 'Ferry Yaghan hebdomadaire, transporte des véhicules ; tarif véhicules non publié (site TABSA en application JavaScript illisible). Passager adulte 151 110 CLP en siège de cabine (2026).' },
+      note: 'Ferry Yaghan hebdomadaire, transporte des véhicules ; tarif véhicules non publié (site TABSA en application JavaScript illisible). Passager adulte 151 110 CLP en siège de cabine (2026). 14e audit du 19/09/2026 : distance non publiée de 480 km, 1,6 fois l\'orthodromie entre les ports de lib/ferry-ports.js (291,8 km) ; la ligne droite traverse des terres (îles ou presqu\'îles, grille lib/land-grid.bin), la route maritime est donc plus longue que l\'orthodromie : ordre de grandeur gardé, non vérifiable hors ligne.' },
     // ---------------- Malouines ----------------
     { a: 'eastFalkland', b: 'westFalkland', routeKey: 'newHavenPortHoward', "priceCovers": "vehicle", "coversSource": "grille Workboat : seul le conducteur de véhicule commercial est gratuit (conducteur non inclus)", "durationEstimated": true, name: 'New Haven ↔ Port Howard',
       operator: 'Workboat Services Ltd (MV Concordia Bay)', durationH: 1.5, distanceKm: 22,
@@ -324,7 +324,7 @@ module.exports = {
       operator: 'Transport & Harbours Department', durationH: 0.75, distanceKm: 18,
       priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
       source: 'https://dpi.gov.gy/ferrypass-to-be-launched-for-leguan-wakenaam-passengers/', date: '2026-09-16',
-      note: 'Idem Leguan : ferry véhicules T&HD, tarif non publié.' },
+      note: 'Idem Leguan : ferry véhicules T&HD, tarif non publié. 14e audit du 19/09/2026 : distance non publiée de 18 km, 1,5 fois l\'orthodromie entre les ports de lib/ferry-ports.js (11,8 km) ; route réelle non mesurable hors ligne (îlots et chenaux plus fins que la grille lib/land-grid.bin, ~10 km ; ports approchés par le centre des localités) : ordre de grandeur gardé, à vérifier.' },
     { a: 'guyanaCoast', b: 'bartica', routeKey: 'parikaBartica', "durationEstimated": true, name: 'Parika ↔ Bartica',
       operator: 'Transport & Harbours Department (MV Makouria, MV Malali)', durationH: 3.5, distanceKm: 60,
       priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },

@@ -32292,7 +32292,6 @@ ru;Дюбен;Düben
 ky;Дюбен;Düben
 ja;デューベン;Düben
 fa;دوبن;Düben
-pl;Düben);Düben
 mk;Дибен;Düben
 ba;Дюбен;Düben
 ba;Дройсиг;Droyßig

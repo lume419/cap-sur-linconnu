@@ -508,6 +508,34 @@ test('13e audit, point 5 : corps imbriqué au-delà de 64 niveaux refusé (400),
   assert.equal(ok.status, 200);
 });
 
+test('14e audit : une réponse d\'erreur non lue ne garde pas le créneau d\'export PDF', { timeout: 60000 }, async () => {
+  // Connexion enchaînée (HTTP/1.1) qui ne lit jamais : un gros fichier puis un export invalide. La réponse 400 attend
+  // derrière le fichier, « finish » ne se déclenche pas : avant, le créneau restait pris ~5 s (503 pour tout le monde).
+  const net = require('net');
+  const ip = freshIp();
+  const sock = net.connect(srv.port, '127.0.0.1');
+  sock.pause();
+  await new Promise(r => sock.on('connect', r));
+  const body = '{}';
+  sock.write('GET /js/i18n.js HTTP/1.1\r\nHost: localhost\r\nAccept-Encoding: identity\r\nX-Forwarded-For: ' + ip + '\r\n\r\n' +
+    'POST /api/export-pdf HTTP/1.1\r\nHost: localhost\r\nContent-Type: application/json\r\nContent-Length: ' + body.length +
+    '\r\nX-Forwarded-For: ' + ip + '\r\n\r\n' + body);
+  try {
+    await sleep(600);
+    const valid = { lang: 'fr', city: 'Lyon', legs: [{ label: 'Jour 1', stop: 'A' }, { label: 'Retour', isReturn: true }] };
+    const r = await H.post('/api/export-pdf', valid);
+    assert.equal(r.status, 200, 'export d\'un autre visiteur refusé (' + r.status + ') pendant qu\'une réponse d\'erreur attend');
+  } finally { sock.destroy(); }
+});
+
+test('14e audit : badge fait de caractères invisibles refusé (repli sur le numéro)', { timeout: 60000 }, async () => {
+  const r = await H.postPatient('/api/export-pdf', { lang: 'fr', city: 'Lyon',
+    legs: [{ label: 'Jour 1', stop: 'A', badge: '\u200B\u200D' }, { label: 'Retour', isReturn: true, badge: '\u00AD' }] });
+  assert.equal(r.status, 200);
+  const txt = flatText(r.body);
+  assert.ok(/\b1\b/.test(txt) && /\bR\b/.test(txt), 'replis « 1 » et « R » absents : ' + txt.slice(0, 200));
+});
+
 // --------------------------------------------------------------------------------------------- appels sortants
 test('file des appels sortants : des requêtes abandonnées en attente ne bloquent pas l\'adresse', { timeout: 120000 }, async t => {
   srv.setMock({ delayMs: { overpass: 3000 }, wiki: 'status:404' });

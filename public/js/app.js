@@ -532,7 +532,6 @@
   // reste telle quelle.
   var KM_PER_MILE = 1.609344;
   var MILE_COUNTRIES = { GB: true, US: true };
-  function isDistanceUnit(v){ return v === 'km' || v === 'mi'; }
   function unitForLang(code){ return MILE_COUNTRIES[window.I18N.country(code)] ? 'mi' : 'km'; }
   function distanceUnit(){ return unitForLang(VISITOR_LANG); }
   // Conversions : affichage (km -> unité) et saisie (unité -> km, arrondi au dixième, jamais plus précis que le moteur).
@@ -566,6 +565,23 @@
   function hikeDistanceText(raw){
     var m = String(raw == null ? '' : raw).match(/^\s*(\d+(?:[.,]\d+)?)\s*km\s*$/i);
     return m ? formatDistance(parseFloat(m[1].replace(',', '.')), 1) : (raw || '');
+  }
+  // Durée et difficulté d'une randonnée Visorando (14e audit du 19/09/2026) : le serveur les renvoie telles que la page
+  // française les publie (« 5h20 », « 45min », « Moyenne ») et elles restaient en français dans toutes les langues, à
+  // l'écran comme dans le PDF. Durée remise en forme par formatDurationMin ; difficulté : les quatre seules valeurs
+  // retenues par le serveur (title="Facile|Moyenne|Difficile|Très difficile", voir fetchVisorandoHikes dans server.js)
+  // associées à une clé traduite. Toute autre valeur est gardée telle quelle.
+  function hikeDurationText(raw){
+    var s = String(raw == null ? '' : raw);
+    var m = s.match(/^\s*(\d{1,2})\s*h\s*(?:(\d{1,2})\s*(?:min)?)?\s*$/i);
+    if(m && (!m[2] || +m[2] < 60)) return formatDurationMin(+m[1] * 60 + (+m[2] || 0));
+    m = s.match(/^\s*(\d{1,3})\s*min\s*$/i);
+    return m ? formatDurationMin(+m[1]) : s;
+  }
+  var HIKE_DIFFICULTY_KEYS = { 'Facile': 'hike.difficulty.easy', 'Moyenne': 'hike.difficulty.medium', 'Difficile': 'hike.difficulty.hard', 'Très difficile': 'hike.difficulty.veryHard' };
+  function hikeDifficultyText(raw){
+    var key = Object.prototype.hasOwnProperty.call(HIKE_DIFFICULTY_KEYS, raw) ? HIKE_DIFFICULTY_KEYS[raw] : null;
+    return key ? t(key) : (raw == null ? '' : String(raw));
   }
 
   // Plus aucune donnée volumineuse n'est chargée ici au démarrage — voir README, section
@@ -1363,9 +1379,11 @@
     var P = window.I18N.plural;
     var dWord = P && P('stats.days', days), nWord = P && P('dur.nights', nights);
     if(dWord && nWord){
+      // Duel arabe sans nombre devant (« ٣ أيام (ليلتان) », 14e audit du 19/09/2026 : voir dualWithoutNumber).
+      var d = dualWithoutNumber(days) ? dWord : null, n = dualWithoutNumber(nights) ? nWord : null;
       return nounFirstLang()
-        ? dWord + ' ' + formatNum(days) + ' (' + nWord + ' ' + formatNum(nights) + ')'
-        : formatNum(days) + ' ' + dWord + ' (' + formatNum(nights) + ' ' + nWord + ')';
+        ? (d || dWord + ' ' + formatNum(days)) + ' (' + (n || nWord + ' ' + formatNum(nights)) + ')'
+        : (d || formatNum(days) + ' ' + dWord) + ' (' + (n || formatNum(nights) + ' ' + nWord) + ')';
     }
     return t(nights === 1 ? 'form.dates.duration1' : 'form.dates.durationN', {days: formatNum(days), nights: formatNum(nights)});
   }
@@ -1509,8 +1527,14 @@
     if(input.validity && input.validity.badInput) raw = 'x'; // saisie non numérique (le navigateur renvoie alors '')
     if(raw === '' && allowEmpty) return null;
     var v = parseFloat(raw), min = parseFloat(input.min), max = parseFloat(input.max);
-    if(isFinite(v) && (!isFinite(min) || v >= min) && (!isFinite(max) || v <= max)) return null;
-    return { input: input, message: msg('form.error.range', function(){ return { min: formatNum(min), max: formatNum(max) }; }) };
+    // Champ de distance (14e audit du 19/09/2026) : la valeur réellement envoyée, en km, doit aussi tenir dans les bornes du
+    // moteur (voir unitFieldBounds : toute valeur affichée dans les bornes du champ y tient), et le message donne les
+    // bornes avec leur unité (« between 12.4 mi and 745.7 mi », et non « between 13 and 745 »).
+    var spec = distanceFieldSpec(input), km = spec && isFinite(v) ? distanceFieldKm(input) : null;
+    if(isFinite(v) && (!isFinite(min) || v >= min) && (!isFinite(max) || v <= max) && (!spec || (km >= spec.min && km <= spec.max))) return null;
+    return { input: input, message: msg('form.error.range', function(){
+      return spec ? { min: formatDistanceValue(min, fieldDistanceUnit, 1), max: formatDistanceValue(max, fieldDistanceUnit, 1) } : { min: formatNum(min), max: formatNum(max) };
+    }) };
   }
   // Dates : manquante, passée, ou retour avant l'arrivée — chacune son message exact.
   function checkDates(){
@@ -1783,9 +1807,19 @@
     el.style.fontSize = '0.72rem';
   }
   // Champs de distance du formulaire dans l'unité d'affichage (13e audit du 19/09/2026) : le visiteur saisit des miles
-  // quand l'unité est le mile ; bornes et pas convertis depuis les valeurs en kilomètres ci-dessous (celles d'index.html),
-  // arrondis vers l'intérieur (20 km -> 13 mi, 1 200 km -> 745 mi : jamais hors des bornes du moteur) ; pas de 10 km ->
-  // 5 mi. fieldDistanceUnit : unité dans laquelle les champs sont exprimés à cet instant (le HTML arrive en km).
+  // quand l'unité est le mile ; bornes et pas convertis depuis les valeurs en kilomètres ci-dessous (celles d'index.html) ;
+  // pas de 10 km -> 5 mi. fieldDistanceUnit : unité dans laquelle les champs sont exprimés à cet instant (le HTML arrive
+  // en km).
+  // 14e audit du 19/09/2026 : les bornes en miles étaient arrondies vers l'intérieur (20 km -> 13 mi) mais la valeur au
+  // plus proche (20 km -> 12 mi) : une valeur valide en km devenait invalide en miles (tirage refusé). Règle retenue :
+  //   - valeur affichée au dixième près (12,5 km -> 7.8 mi, 305 km -> 189.5 mi, et non 8 / 190 : l'écran, la valeur
+  //     envoyée et les messages, eux aussi au dixième, disent la même chose) ; sans décimale quand elle est entière ;
+  //   - bornes en miles arrondies au dixième VERS L'EXTÉRIEUR (20 km -> 12.4 mi, 1 200 km -> 745.7 mi) : toute valeur
+  //     valide en km reste dans les bornes une fois convertie (l'arrondi au dixième est monotone) ;
+  //   - une valeur en miles comprise dans ces bornes est ramenée dans celles du moteur au moment de la conversion en km
+  //     (12.4 mi = 19,96 km -> 20 km, 745.7 mi = 1 200,1 km -> 1 200 km) : elle reste valide une fois revenue en km ;
+  //   - valeurs par défaut en miles arrondies au pas (300 km -> 185 mi, 400 km -> 250 mi, 80 km -> 50 mi, et non 186 / 249,
+  //     que les boutons −/+ décalaient : 249 -> 254), la valeur envoyée étant celle affichée (185 mi = 297,7 km).
   var RADIUS_KM_FIELD = { value: 300, min: 20, max: 1200, step: 10 };
   var DISTANCE_KM_FIELDS = [
     { el: els.minDistance, min: 0, max: 3000, step: 10 },
@@ -1795,25 +1829,52 @@
   var fieldDistanceUnit = 'km';
   function unitFieldBounds(b, unit){
     if(unit !== 'mi') return { value: b.value, min: b.min, max: b.max, step: b.step };
-    return { value: b.value != null ? Math.round(b.value / KM_PER_MILE) : null, min: Math.ceil(b.min / KM_PER_MILE),
-      max: Math.floor(b.max / KM_PER_MILE), step: Math.max(1, Math.round(b.step / KM_PER_MILE / 5) * 5) };
+    var step = Math.max(1, Math.round(b.step / KM_PER_MILE / 5) * 5);
+    return { value: b.value != null ? Math.round(b.value / KM_PER_MILE / step) * step : null,
+      min: Math.floor(b.min / KM_PER_MILE * 10 + 1e-9) / 10, max: Math.ceil(b.max / KM_PER_MILE * 10 - 1e-9) / 10, step: step };
   }
   function applyFieldBounds(input, b){ input.min = b.min; input.max = b.max; input.step = b.step; }
+  // Bornes en km d'un champ de distance (null : autre champ, ou rayon en heures).
+  function distanceFieldSpec(input){
+    if(input === els.radius) return radiusMode === 'km' ? RADIUS_KM_FIELD : null;
+    for(var i = 0; i < DISTANCE_KM_FIELDS.length; i++) if(DISTANCE_KM_FIELDS[i].el === input) return DISTANCE_KM_FIELDS[i];
+    return null;
+  }
+  // Texte d'un champ de distance : au dixième près, sans « .0 ».
+  function distanceFieldText(v){ return String(Math.round(Number(v) * 10) / 10); }
   // Valeur d'un champ en kilomètres (null si vide ou invalide). La valeur exacte en km d'une conversion précédente est
   // gardée tant que le visiteur n'a pas retouché le champ : km -> mi -> km rend 300, pas 299.
   function distanceFieldKm(input){
     if(input.__km != null && input.value === input.__shown) return input.__km;
     var v = parseFloat(input.value);
-    return isFinite(v) ? distanceUnitToKm(v, fieldDistanceUnit) : null;
+    if(!isFinite(v)) return null;
+    var km = distanceUnitToKm(v, fieldDistanceUnit);
+    // Miles : valeur comprise dans les bornes affichées (arrondies vers l'extérieur) ramenée dans celles du moteur.
+    var spec = distanceFieldSpec(input);
+    if(spec && fieldDistanceUnit === 'mi'){
+      var b = unitFieldBounds(spec, 'mi');
+      if(v >= b.min && km < spec.min) km = spec.min;
+      if(v <= b.max && km > spec.max) km = spec.max;
+    }
+    return km;
   }
   function setDistanceFieldKm(input, km, unit){
-    var shown = String(Math.round(kmToDistanceUnit(km, unit)));
+    var shown = distanceFieldText(kmToDistanceUnit(km, unit));
     input.value = shown;
-    input.__km = km; input.__shown = shown;
+    input.__km = km; input.__shown = shown; input.__defaultKm = null;
+  }
+  // Valeur par défaut (rayon, distance max entre étapes) : arrondie au pas en miles, envoyée telle qu'affichée
+  // (185 mi -> 297,7 km) ; retrouvée exacte (300 km) au retour en km tant que le visiteur n'y a pas touché.
+  function defaultDistanceValue(km, unit){ return unitFieldBounds({ value: km, step: 10 }, unit).value; }
+  function setDefaultDistanceField(input, km, unit){
+    var shown = defaultDistanceValue(km, unit);
+    setDistanceFieldKm(input, unit === 'mi' ? distanceUnitToKm(shown, 'mi') : km, unit);
+    input.__defaultKm = km;
   }
   function convertDistanceFields(to){
     var inputs = DISTANCE_KM_FIELDS.map(function(f){ return f.el; }).concat(radiusMode === 'km' ? [els.radius] : []);
     inputs.forEach(function(input){
+      if(input.__defaultKm != null && input.value === input.__shown){ setDefaultDistanceField(input, input.__defaultKm, to); return; }
       var km = input.value === '' ? null : distanceFieldKm(input);
       if(km != null) setDistanceFieldKm(input, km, to);
     });
@@ -1827,8 +1888,9 @@
     els.modeH.setAttribute('aria-pressed', mode==='h');
     if(mode==='km'){
       applyFieldBounds(els.radius, unitFieldBounds(RADIUS_KM_FIELD, fieldDistanceUnit));
-      setDistanceFieldKm(els.radius, RADIUS_KM_FIELD.value, fieldDistanceUnit);
+      setDefaultDistanceField(els.radius, RADIUS_KM_FIELD.value, fieldDistanceUnit);
     } else {
+      els.radius.__defaultKm = null;
       els.radius.value = 4; els.radius.min=0.5; els.radius.max=12; els.radius.step=0.5;
     }
     updateRadiusUnitLabel();
@@ -1865,7 +1927,11 @@
     var min = parseFloat(el.min), max = parseFloat(el.max);
     var cur = parseFloat(el.value);
     if(isNaN(cur)) cur = min; // champ vide ("Aucun minimum"...) : on part du plancher du champ
-    var next = Math.min(max, Math.max(min, cur + dir*step));
+    // Valeur recalée sur la grille du pas (14e audit du 19/09/2026) : en miles, bornes (12.4) et valeurs converties
+    // (186.4) tombent hors du pas de 5, et les boutons donnaient 186.4 -> 191.4. Désormais 186.4 -> 190 / 185.
+    var q = cur / step, onGrid = Math.abs(q - Math.round(q)) < 1e-9;
+    var next = onGrid ? cur + dir*step : (dir > 0 ? Math.ceil(q) : Math.floor(q)) * step;
+    next = Math.min(max, Math.max(min, next));
     next = Math.round(next*100)/100; // évite les artefacts d'arrondi flottant (ex. 0.5+0.1*3)
     el.value = next;
     el.dispatchEvent(new Event('input', {bubbles:true}));
@@ -1883,29 +1949,39 @@
   els.maxDaysPerCityInc.addEventListener('click', function(){ stepNumberField(els.maxDaysPerCity, 1); });
   // Distance max entre les étapes : 80 km à vélo, 400 km sinon, tant que le visiteur n'a pas saisi sa propre valeur ;
   // la valeur par défaut suit alors le mode de transport choisi.
-  // Valeur affichée dans l'unité des champs (80 km -> 50 mi, 400 km -> 249 mi), valeur exacte gardée en km.
+  // Valeur affichée dans l'unité des champs, arrondie au pas en miles (80 km -> 50 mi, 400 km -> 250 mi : voir
+  // setDefaultDistanceField), envoyée telle qu'affichée.
   var DEFAULT_LEG_KM = { 'velo': 80 };
   var DEFAULT_LEG_KM_OTHER = 400;
   var legDistanceEdited = false;
   function defaultLegKm(){ return DEFAULT_LEG_KM[els.transport.value] || DEFAULT_LEG_KM_OTHER; }
-  setDistanceFieldKm(els.legDistance, defaultLegKm(), fieldDistanceUnit);
+  // Valeurs restaurées par le navigateur (14e audit du 19/09/2026) : Firefox remet les valeurs des champs d'une page
+  // rechargée AVANT app.js, alors que fieldDistanceUnit vaut encore 'km' — des miles restaurés auraient été relus comme
+  // des kilomètres (186 mi -> 186 km). Les champs de distance portent autocomplete="off" (index.html), qui désactive
+  // cette restauration, et sont de plus remis ici à leurs valeurs du HTML (en km) avant la conversion dans l'unité de la
+  // langue (syncDistanceUnit, plus bas). Retour arrière depuis le cache (bfcache, événement pageshow persisted) : la page
+  // entière, script compris, est restaurée telle quelle — champs et fieldDistanceUnit restent cohérents.
+  DISTANCE_KM_FIELDS.forEach(function(f){ f.el.value = ''; f.el.__km = null; f.el.__defaultKm = null; });
+  setDefaultDistanceField(els.radius, RADIUS_KM_FIELD.value, fieldDistanceUnit);
+  setDefaultDistanceField(els.legDistance, defaultLegKm(), fieldDistanceUnit);
   els.legDistanceDec.addEventListener('click', function(){ legDistanceEdited = true; stepNumberField(els.legDistance, -1); });
   els.legDistanceInc.addEventListener('click', function(){ legDistanceEdited = true; stepNumberField(els.legDistance, 1); });
   els.legDistance.addEventListener('change', function(){ legDistanceEdited = els.legDistance.value !== ''; });
-  els.transport.addEventListener('change', function(){ if(!legDistanceEdited) setDistanceFieldKm(els.legDistance, defaultLegKm(), fieldDistanceUnit); });
+  els.transport.addEventListener('change', function(){ if(!legDistanceEdited) setDefaultDistanceField(els.legDistance, defaultLegKm(), fieldDistanceUnit); });
 
   // Textes qui portent l'unité ou une distance (attribut data-i18n-unit d'index.html : étiquettes « {unit} au moins »,
   // aide « {bike} à vélo, {other} pour les autres modes ») : composés ici, i18n.js ne connaît pas l'unité.
   function applyDistanceUnitTexts(){
     var vars = distanceUnitVars();
-    vars.bike = formatDistance(DEFAULT_LEG_KM.velo);
-    vars.other = formatDistance(DEFAULT_LEG_KM_OTHER);
+    // Valeurs par défaut telles qu'affichées dans le champ (14e audit du 19/09/2026 : l'aide disait 249 mi, le champ 250).
+    vars.bike = formatDistanceValue(defaultDistanceValue(DEFAULT_LEG_KM.velo, fieldDistanceUnit), fieldDistanceUnit);
+    vars.other = formatDistanceValue(defaultDistanceValue(DEFAULT_LEG_KM_OTHER, fieldDistanceUnit), fieldDistanceUnit);
     Array.prototype.forEach.call(document.querySelectorAll('[data-i18n-unit]'), function(el){
       el.textContent = t(el.getAttribute('data-i18n-unit'), vars);
     });
   }
-  // Unité changée (sélecteur, ou langue d'interface en mode automatique) : champs convertis, erreurs de distance
-  // retirées (elles citaient des valeurs dans l'ancienne unité), textes et nom des boutons −/+ recomposés.
+  // Unité changée (elle suit la langue d'interface : voir unitForLang) : champs convertis, erreurs de distance retirées
+  // (elles citaient des valeurs dans l'ancienne unité), textes et nom des boutons −/+ recomposés.
   function syncDistanceUnit(){
     var unit = distanceUnit();
     if(unit !== fieldDistanceUnit){
@@ -1961,7 +2037,7 @@
     });
   }
   applyStepButtonLabels();
-  // Unité de distance de la page (automatique ou choisie) : champs, étiquettes et bouton du sélecteur.
+  // Unité de distance de la page (celle de la langue d'interface) : champs et étiquettes.
   syncDistanceUnit();
 
   // Textes indicatifs (placeholder) des champs du formulaire : un placeholder ne passe jamais à la ligne et était coupé
@@ -2797,8 +2873,8 @@
   function hikeCardHtml(hike){
     var metaBits = [];
     if(hike.distance) metaBits.push(escHtml(hikeDistanceText(hike.distance)));
-    if(hike.duration) metaBits.push(escHtml(hike.duration));
-    if(hike.difficulty) metaBits.push(escHtml(hike.difficulty));
+    if(hike.duration) metaBits.push(escHtml(hikeDurationText(hike.duration)));
+    if(hike.difficulty) metaBits.push(escHtml(hikeDifficultyText(hike.difficulty)));
     return '<div class="activity-card-visual">'+icon('walk')+'</div>'+
       '<div class="activity-card-body">'+
         '<div class="activity-card-title">'+escHtml(hike.name)+'</div>'+
@@ -3532,7 +3608,7 @@
     // Nombre de jours DEMANDÉ (un aller-retour d'une journée compte 1 jour, pas ses 2 legs aller + retour) : voir tripStatsParts.
     // Mêmes morceaux que le PDF (tripStatsParts), ici avec la valeur en gras.
     els.timelineStats.innerHTML = tripStatsParts(trip).map(function(p){
-      return '<span>' + (p.nounFirst ? escHtml(p.label) + ' <b>' + escHtml(p.value) + '</b>' : '<b>' + escHtml(p.value) + '</b> ' + escHtml(p.label)) +
+      return '<span>' + (p.nounFirst ? escHtml(p.label) + ' <b>' + escHtml(p.value) + '</b>' : '<b>' + escHtml(p.value) + '</b>' + (p.label ? ' ' + escHtml(p.label) : '')) +
         (p.extra ? ' (' + escHtml(p.extra) + ')' : '') + '</span>';
     }).join('');
   }
@@ -3540,6 +3616,15 @@
   // le nombre (« siku 3 » en swahili, « iminsi 3 » en kinyarwanda…), repéré sur leur propre formule de durée
   // (form.dates.durationN commence par le nom) — 11e audit : « 3 siku » était affiché.
   function nounFirstLang(){ return !/^\s*\{days\}/.test(t('form.dates.durationN')); }
+  // Duel arabe (14e audit du 19/09/2026) : « مدينتان », « ليلتان » disent déjà « deux » — « ٢ مدينتان » répétait le nombre
+  // (CLDR écrit « يومان », « ميلان » sans chiffre). Forme exacte de I18N.plural seulement (PLURALS.ar), n = 2.
+  function dualWithoutNumber(n){ return VISITOR_LANG === 'ar' && Number(n) === 2; }
+  // Pastille « nombre + nom » des statistiques ; duel arabe : le nom seul, en gras à la place du nombre.
+  function countPart(n, key, nf){
+    var label = statsLabel(n, key);
+    if(dualWithoutNumber(n) && window.I18N.plural && window.I18N.plural(key, n)) return { value: label, label: '', nounFirst: false };
+    return { value: formatNum(n), label: label, nounFirst: nf };
+  }
   function tripStatsParts(trip){
     var legs = trip.legs;
     var nights = legs.filter(function(l){return l.labelKind === 'day';}).length;
@@ -3547,11 +3632,7 @@
     legs.forEach(function(l){ if(!l.isReturn) villes[stopKey(l)]=true; });
     var statsDays = trip.days || legs.length, statsCities = Object.keys(villes).length;
     var nf = nounFirstLang();
-    var parts = [
-      { value: formatNum(statsDays), label: statsLabel(statsDays, 'stats.days'), nounFirst: nf },
-      { value: formatNum(statsCities), label: statsLabel(statsCities, 'stats.cities'), nounFirst: nf },
-      { value: formatNum(nights), label: statsLabel(nights, 'stats.nights'), nounFirst: nf }
-    ];
+    var parts = [countPart(statsDays, 'stats.days', nf), countPart(statsCities, 'stats.cities', nf), countPart(nights, 'stats.nights', nf)];
     // Kilométrage : route et traversées confondues, la part en ferry précisée (11e audit : un trajet vers la Corse
     // additionnait sans le dire 200 km de mer aux kilomètres de route).
     var totalKm = tripTotalKm(legs), ferryKm = tripFerryKm(legs);
@@ -3581,7 +3662,7 @@
     }
     var unpriced = ferryLegs.filter(function(l){ return !hasPrice(l); }).length;
     if(unpriced){
-      parts.push({ value: formatNum(unpriced), label: statsLabel(unpriced, 'stats.ferryUnpriced'), nounFirst: false });
+      parts.push(countPart(unpriced, 'stats.ferryUnpriced', false));
     }
     var paidTrains = legs.filter(function(l){ return l.ferryInfo && l.ferryInfo.mode === 'train' && paid(l); });
     if(paidTrains.length){
@@ -3962,7 +4043,7 @@
     // chaque pastille à 140 caractères, 12e audit).
     var statsTexts = [];
     tripStatsParts(currentTripData).forEach(function(p){
-      statsTexts.push(p.nounFirst ? p.label + ' ' + p.value : p.value + ' ' + p.label);
+      statsTexts.push(p.nounFirst ? p.label + ' ' + p.value : (p.value + ' ' + p.label).trim());
       if(p.extra) statsTexts.push(p.extra);
     });
     var noticeTexts = {};
@@ -4044,7 +4125,7 @@
           activities: (leg.activities || []).map(function(opt){
             return opt.hikeUrl ? {
               label: opt.hikeName,
-              typeLabel: [hikeDistanceText(opt.hikeDistance), opt.hikeDuration, opt.hikeDifficulty].filter(Boolean).join(' · ') || t('hike.defaultType'),
+              typeLabel: [hikeDistanceText(opt.hikeDistance), hikeDurationText(opt.hikeDuration), hikeDifficultyText(opt.hikeDifficulty)].filter(Boolean).join(' · ') || t('hike.defaultType'),
               source: opt.hikeSource || 'Visorando', hikeUrl: opt.hikeUrl,
               sourceLabel: t('hike.sourceLabel', { source: opt.hikeSource || 'Visorando' }).replace(/\s*↗\s*$/, '')
             } : { label: optionLabel(opt), typeLabel: optionTypeLabel(opt), source: null, hikeUrl: null };

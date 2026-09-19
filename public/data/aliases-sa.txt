@@ -8,8 +8,6 @@ ar;ينبع;Yanbu
 ru;Янбу;Yanbu
 ar;أوثال;Ūthāl
 ar;وعلان;Wa‘lān
-ar;وادي_الدواسر_(محافظة);Wadi ad-Dawasir
-fa;وادی_الدواسر;Wadi ad-Dawasir
 ar;محافظة وادي الدواسر;Wadi ad-Dawasir
 ar;أثيثية;Uthaythiyah
 ar;عشيرة;‘Ushayrah

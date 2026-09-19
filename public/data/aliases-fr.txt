@@ -9199,7 +9199,6 @@ ur;سینٹ-گیورگس-دو-ویورے;Saint-Georges-du-Vièvre
 zh;圣若尔热迪维耶夫尔;Saint-Georges-du-Vièvre
 en;Saint-Georges-dOrques;Saint-Georges-d'Orques
 fr;Saint-Georges;Saint-Georges-d'Oléron
-fr;St_Georges_D_Oleron;Saint-Georges-d'Oléron
 kk;Сен-Жорж-де-Грозее;Saint-Georges-des-Groseillers
 uk;Сен-Жорж-де-Грозеє;Saint-Georges-des-Groseillers
 ur;سینٹ-گیورگس-دس-گروسیلیرس;Saint-Georges-des-Groseillers
@@ -27337,7 +27336,6 @@ zh;若尔代;Jauldes
 uk;Жожак;Jaujac
 ru;Жожак;Jaujac
 zh;若雅克;Jaujac
-es;zzLapurdi-) Jatsu;Jatxou
 eu;Jatsu;Jatxou
 br;Jatsu;Jatxou
 ca;Jatsu;Jatxou

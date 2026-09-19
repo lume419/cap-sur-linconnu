@@ -8923,7 +8923,6 @@ no;Usmyn;Usmyn’
 ru;Усман-Ташлы;Usman-Tashly
 no;Usman-Tasjly;Usman-Tashly
 ru;Усманские Выселки;Usmanskiye Vyselki
-ru;Усманские_выселки;Usmanskiye Vyselki
 ru;Усманово;Usmanovo
 ru;Усмановский;Usmanovskiy
 ru;Усманка;Usmanka
@@ -48266,7 +48265,6 @@ ru;Кривое Колено;Krivoye Koleno
 no;Krivoje;Krivoye
 ru;Кривое;Krivoye
 ru;Кривой Бузан;Krivoy Buzan
-no;Krivoj_buzan;Krivoy Buzan
 no;Krivojar;Krivoyar
 ru;Кривояр;Krivoyar
 ru;Кривой;Krivoy
@@ -48553,7 +48551,6 @@ ru;Красн.Яр;Krasnyy Yar
 no;Krasn.Jar;Krasnyy Yar
 no;Krasnojarskij;Krasnoyarskiy
 ru;Красноярский;Krasnoyarskiy
-no;Krasnyj_jar;Krasnyy Yar
 no;Krasnyj Jag;Krasnyy Yag
 ru;Красный Яг;Krasnyy Yag
 ru;Красный Выборжец;Krasnyy Vyborzhets
@@ -64871,7 +64868,6 @@ ru;Чисти;Chisti
 en;Chisten'kiy;Chisten’kiy
 no;Tsjistenkij;Chisten’kiy
 ru;Чистенький;Chisten’kiy
-ru;Чистая_поляна;Chistaya Polyana
 ru;Чистая Поляна;Chistaya Polyana
 no;Tsjistaja Dubrova;Chistaya Dubrova
 ru;Чистая Дуброва;Chistaya Dubrova
@@ -124347,7 +124343,6 @@ fa;یفرموف;Yefremov
 ar;ييفريموف;Yefremov
 zh;葉夫列莫夫;Yefremov
 bg;Язиково;Yazykovo
-zh;亞濟科沃_;Yazykovo
 hy;Յազիկովո;Yazykovo
 ko;야바스;Yavas
 hu;Javasz;Yavas
@@ -124492,7 +124487,6 @@ sl;Voronež;Voronezh
 ja;ヴォロネジ;Voronezh
 hr;Voronjež;Voronezh
 hr;Volžski;Volzhskiy
-zh;伏尔加斯基_;Volzhskiy
 ar;فولجسكي;Volzhskiy
 hy;Վոլժսկիյ;Volzhskiy
 ja;ヴォルシスキー;Volzhskiy
@@ -125083,7 +125077,6 @@ hu;Sztyerlitamak;Sterlitamak
 ja;ステルリタマク;Sterlitamak
 hy;Ստեռլիտամակ;Sterlitamak
 bg;Ставрово;Stavrovo
-zh;斯塔夫罗沃_;Stavrovo
 ar;ستافروبول;Stavropol
 ky;Ставрополь;Stavropol
 hi;स्तावरोपोल;Stavropol
@@ -125298,7 +125291,6 @@ hr;Mihajlovsk;Mikhaylovsk
 hy;Շոնգույ;Shonguy
 ca;Xkurinskaia;Shkurinskaya
 hu;Spicino;Shipitsyno
-zh;希皮齐诺_;Shipitsyno
 hy;Շիպիցինո;Shipitsyno
 tg;Шиписино;Shipitsyno
 fa;شیپیتسینو;Shipitsyno
@@ -125742,7 +125734,6 @@ ja;ラメンスコエ;Ramenskoye
 zh;拉緬斯科耶;Ramenskoye
 bg;Радищево;Radishchevo
 hu;Ragyiscsevo;Radishchevo
-zh;拉季謝沃_;Radishchevo
 hy;Ռադիշչևո;Radishchevo
 bg;Питалово;Pytalovo
 hr;Pitalovo;Pytalovo
@@ -126063,7 +126054,6 @@ ja;パヴロフスク;Pavlovsk
 ko;파블롭스크;Pavlovsk
 fa;پاولوفسک، اوبلاست وورونژ;Pavlovsk
 bg;Павлово;Pavlovo
-zh;巴甫洛沃_;Pavlovo
 hy;Պավլովո;Pavlovo
 sr;Павлово;Pavlovo
 bg;Панковка;Pankovka
@@ -126115,7 +126105,6 @@ ko;오르스크;Orsk
 fa;اورسک;Orsk
 ar;أورسك;Orsk
 zh;奧爾斯克;Orsk
-zh;奥尔沙_;Orsha
 sr;Орша;Orsha
 ja;オレンブルク;Orenburg
 ko;오렌부르크;Orenburg
@@ -126273,7 +126262,6 @@ hsb;Nowotroick;Novotroitsk
 tr;Novotroytsk;Novotroitsk
 bg;Новоспаское;Novospasskoye
 hu;Novoszpasszkoje;Novospasskoye
-zh;新斯帕斯科耶_;Novospasskoye
 hy;Նովոսպասկոե;Novospasskoye
 he;נובוספאסקויה;Novospasskoye
 hr;Novošahtinsk;Novoshakhtinsk
@@ -126438,7 +126426,6 @@ hy;Նիկոլաևկա;Nikolayevka
 fa;نیکولایفکا;Nikolayevka
 bg;Николаевка;Nikolayevka
 hu;Nyikolajevka;Nikolayevka
-zh;尼古拉耶夫卡_;Nikolayevka
 ja;ネヴィンノムイスク;Nevinnomyssk
 ko;네비노미스크;Nevinnomyssk
 ar;نافينوميسك;Nevinnomyssk
@@ -126704,7 +126691,6 @@ fa;موروزوفسک;Morozovsk
 hsb;Morozowsk;Morozovsk
 hy;Մորոզովսկ;Morozovsk
 zh;莫羅佐夫斯克;Morozovsk
-zh;莫尔多沃_;Mordovo
 hy;Մորդովո;Mordovo
 hu;Moksan;Mokshan
 zh;莫克尚;Mokshan
@@ -126766,7 +126752,6 @@ hy;Մեզմայ;Mezmay
 ca;Mezmai;Mezmay
 bg;Междуреченск;Mezhdurechensk
 hu;Mezsdurecsenszk;Mezhdurechensk
-zh;梅日杜列琴斯克_;Mezhdurechensk
 ar;ميشتشوفسك;Meshchovsk
 bg;Мешчовск;Meshchovsk
 fa;مشچوفسک;Meshchovsk
@@ -126797,7 +126782,6 @@ hsb;Mjednogorsk;Mednogorsk
 zh;梅德諾戈爾斯克;Mednogorsk
 bg;Майна;Mayna
 hu;Majna;Mayna
-zh;邁納_;Mayna
 hy;Մայնա;Mayna
 hy;Մայկոր;Maykor
 he;מייקופ;Maykop
@@ -126917,7 +126901,6 @@ sr;Лисково;Lyskovo
 tg;Лисково;Lyskovo
 zh;雷斯科沃;Lyskovo
 tg;Луковская;Lukovskaya
-zh;卢基诺_;Lukino
 hy;Լուկինո;Lukino
 ar;لوخوفايتسي;Lukhovitsy
 fa;لوخوویتسی;Lukhovitsy
@@ -127116,7 +127099,6 @@ tg;Кулой;Kuloy
 fa;کولوی;Kuloy
 ur;کولوے;Kuloy
 bg;Кулотино;Kulotino
-zh;库洛季诺_;Kulotino
 sr;Кулотино;Kulotino
 hy;Կուլմետովո;Kul’metovo
 ar;كولباكي;Kulebaki
@@ -127188,7 +127170,6 @@ hy;Կրասնիյ Բոր;Krasnyy Bor
 oc;Krasny Bor;Krasnyy Bor
 ca;Krasny Bor;Krasnyy Bor
 sr;Красни Бор;Krasnyy Bor
-zh;红博尔_;Krasnyy Bor
 ar;كراسنوزنامينسك;Krasnoznamensk
 fa;کراسنوزنامنسک، کالینینگراد;Krasnoznamensk
 hsb;Krasnoznamjensk;Krasnoznamensk
@@ -127276,7 +127257,6 @@ ar;كراسافينو;Krasavino
 fa;کراساوینو;Krasavino
 hsb;Krasawino;Krasavino
 zh;克拉薩維諾;Krasavino
-zh;科兹洛沃_;Kozlovo
 sr;Козлово;Kozlovo
 ar;كوفيلكينو;Kovylkino
 bg;Ковилкино;Kovylkino
@@ -127469,7 +127449,6 @@ fa;کیرس، روسیه;Kirs
 zh;基爾斯;Kirs
 hu;Kirsz;Kirs
 af;Kirofski;Kirovskiy
-zh;基洛夫斯基_;Kirovskiy
 hy;Կիրովսկիյ;Kirovskiy
 tg;Кировский;Kirovskiy
 ar;كيروفسك;Kirovsk
@@ -127813,7 +127792,6 @@ am;ካሊኒንግራድ;Kaliningrad
 pa;ਕਾਲਿਨਿਨਗ੍ਰਾਡ;Kaliningrad
 tg;Калининград;Kaliningrad
 ar;كلينن أؤل;Kalininaul
-zh;卡拉什尼科沃_;Kalashnikovo
 ca;Kalašnikovo;Kalashnikovo
 sr;Калашњиково;Kalashnikovo
 ar;كالاتش-نا-دونو;Kalach-na-Donu
@@ -128041,7 +128019,6 @@ hsb;Gorodec;Gorodets
 sr;Городец;Gorodets
 hy;Գորնի;Gornyy
 ar;غورنيي;Gornyy
-zh;戈尔内_;Gornyy
 ar;غورنوزافودسك;Gornozavodsk
 fa;گورنوزاوودسک، پرم;Gornozavodsk
 hsb;Gornozawodsk;Gornozavodsk
@@ -128258,7 +128235,6 @@ hy;Դուգնա;Dugna
 bg;Дубровка;Dubrovka
 hy;Դուբրովկա;Dubrovka
 sr;Дубровка;Dubrovka
-zh;杜布罗夫卡_;Dubrovka
 ja;ドゥブロフカ;Dubrovka
 ar;دوبوفكا;Dubovka
 fa;دوبوفکا، استان ولگوگراد;Dubovka
@@ -128753,7 +128729,6 @@ hy;Բավտուգայ;Bavtugay
 ca;Babtugai;Bavtugay
 hr;Batajsk;Bataysk
 hu;Basmakovo;Bashmakovo
-zh;巴什马科沃_;Bashmakovo
 hy;Բաշմակովո;Bashmakovo
 ar;باشماكوفو، بينزا;Bashmakovo
 ca;Baixmakovo;Bashmakovo
@@ -129400,7 +129375,6 @@ ar;تارا;Tara
 fa;تارا، روسیه;Tara
 zh;塔拉;Tara
 hu;Talmenka;Tal’menka
-zh;塔利缅卡_;Tal’menka
 hy;Տալմենկա;Tal’menka
 ar;تاليتسا;Talitsa
 el;Τάλιτσα;Talitsa
@@ -129420,7 +129394,6 @@ hu;Szurgut;Surgut
 zh;蘇爾古特;Surgut
 ur;سورگوت;Surgut
 hy;Ստրելկա;Strelka
-zh;斯特列尔卡_;Strelka
 ar;سريدنورالسك;Sredneuralsk
 bg;Среднеуралск;Sredneuralsk
 el;Σρεντνεουράλσκ;Sredneuralsk
@@ -129429,7 +129402,6 @@ hsb;Srednjeuralsk;Sredneuralsk
 sr;Средњеураљск;Sredneuralsk
 zh;中烏拉爾斯克;Sredneuralsk
 hy;Սպասկ;Spassk
-zh;斯帕斯克_;Spassk
 zh;索西瓦;Sos’va
 hy;Սոսվա;Sos’va
 tg;Сосва;Sos’va
@@ -129669,7 +129641,6 @@ hy;Մոսկալենկի;Moskalënki
 zh-Hant;莫斯卡連基;Moskalënki
 ja;モスカレンキ;Moskalënki
 hu;Moskovo;Moshkovo
-zh;莫什科沃_;Moshkovo
 hy;Մոշկովո;Moshkovo
 hsb;Moškowo;Moshkovo
 hy;Մորտկա;Mortka
@@ -129677,7 +129648,6 @@ zh;莫尔特卡;Mortka
 hy;Մոխնատուշկա;Mokhnatushka
 fa;موخناتوشکا;Mokhnatushka
 hu;Miskino;Mishkino
-zh;米什基诺_;Mishkino
 hy;Միշկինո;Mishkino
 ar;مينوسينسك;Minusinsk
 ca;Minussinsk;Minusinsk
@@ -129807,7 +129777,6 @@ hu;Krutyinka;Krutinka
 zh;克鲁京卡;Krutinka
 hy;Կրուտինկա;Krutinka
 hy;Կրասնիյ Յար;Krasnyy Yar
-zh;红亚尔_;Krasnyy Yar
 hu;Krasznozjorszkoje;Krasnozërskoye
 zh;克拉斯诺焦尔斯科耶;Krasnozërskoye
 hy;Կրասնոզյորսկոե;Krasnozërskoye
@@ -129962,7 +129931,6 @@ ro;Ișim;Ishim
 hr;Išim;Ishim
 hy;Իրշա;Irsha
 ca;Irxa;Irsha
-zh;伊尔沙_;Irsha
 sr;Ирбит;Irbit
 ar;إيربيت;Irbit
 el;Ιρμπίτ;Irbit
@@ -130090,7 +130058,6 @@ ko;보고톨;Bogotol
 sr;Боготол;Bogotol
 zh;波戈托爾;Bogotol
 hu;Blagovescsenka;Blagoveshchenka
-zh;布拉戈维申卡_;Blagoveshchenka
 ar;بلاغوفيشتشينكا;Blagoveshchenka
 hy;Բլագովեշչենկա;Blagoveshchenka
 el;Μπισκ;Biysk
@@ -130118,7 +130085,6 @@ ko;벨로쿠리하;Belokurikha
 sr;Белокуриха;Belokurikha
 ur;بیلوکوریخا;Belokurikha
 zh;別洛庫里哈;Belokurikha
-zh;别洛戈尔斯克_;Belogorsk
 ar;بيلوغورسك;Belogorsk
 hy;Բելոգորսկ;Belogorsk
 el;Μπαρναούλ;Barnaul
@@ -130275,10 +130241,8 @@ tg;Северск;Seversk
 zh;謝韋爾斯克;Seversk
 hsb;Sewjersk;Seversk
 hy;Մալինովսկիյ;Malinovskiy
-zh;马利诺夫斯基_;Malinovskiy
 fa;نوویه زوری;Novyye Zori
 ar;اسمولينو;Smolino
-zh;佐洛京卡_;Zolotinka
 hy;Զոլոտինկա;Zolotinka
 ja;ゾロチンカ;Zolotinka
 ar;زيما;Zima
@@ -130638,7 +130602,6 @@ ko;키렌스크;Kirensk
 tg;Киренск;Kirensk
 zh;基廉斯克;Kirensk
 sr;Киренск;Kirensk
-zh;霍尔_;Khor
 hy;Խոր;Khor
 ja;ホール町;Khor
 ar;خيلوك;Khilok
@@ -130693,7 +130656,6 @@ hy;Կարիմսկոե;Karymskoye
 ja;カルィムスコエ;Karymskoye
 hy;Կալանգույ;Kalanguy
 zh;卡兰圭;Kalanguy
-zh;伊塔卡_;Itaka
 hy;Իտակա;Itaka
 ja;イタカ;Itaka
 el;Ιρκούτσκ;Irkutsk
@@ -130807,7 +130769,6 @@ pa;ਬਿਰੋਬਿਧਾਨ;Birobidzhan
 ps;بیروبیجان;Birobidzhan
 tg;Биробиджан;Birobidzhan
 bg;Бира;Bira
-zh;比拉_;Bira
 ar;بيرا، جيفريج;Bira
 hy;Բիրա;Bira
 ja;ビラ町;Bira

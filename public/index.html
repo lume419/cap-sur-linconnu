@@ -69,7 +69,6 @@
   <div class="theme-toggle-row">
     <div class="lang-switcher" id="lang-switcher"></div>
     <div class="currency-switcher" id="currency-switcher"></div>
-    <!-- Unité de distance (km / mi), construite par app.js : voir « SÉLECTEUR D'UNITÉ DE DISTANCE ». -->
     <button type="button" class="theme-toggle-btn" data-theme-current="auto" title="Changer de thème (auto / clair / sombre)">
       <svg aria-hidden="true" focusable="false" class="theme-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 000 18V3z" fill="currentColor" stroke="none"/></svg>
       <span class="theme-toggle-label">Auto</span>
@@ -178,6 +177,9 @@
       <span class="field-hint" data-i18n="form.tent.hint">Coché : les nuitées à la belle étoile en budget économique sont remplacées par une formule cabane/yourte/gîte.</span>
     </div>
 
+    <!-- autocomplete="off" sur les quatre champs de distance (14e audit du 19/09/2026) : Firefox restaurait leurs valeurs
+         avant app.js, qui les aurait relues en km alors qu'elles pouvaient être en miles (voir app.js, « Valeurs restaurées
+         par le navigateur »). -->
     <div class="radius-field" id="radius-field">
       <label id="radius-label" style="font-weight:700; font-size:.68rem; line-height:1; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-soft);" data-i18n="form.radius.label">Limite de rayon</label>
       <div class="seg" role="group" aria-label="Type de limite" data-i18n-aria-label="form.radius.groupAria">
@@ -187,7 +189,7 @@
       <div class="radius-input">
         <button type="button" class="step-btn" id="radius-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
         <div class="radius-value-wrap" id="radius-value-wrap">
-          <input type="number" id="radius" aria-labelledby="radius-label radius-unit" min="20" max="1200" value="300" step="10" />
+          <input type="number" id="radius" autocomplete="off" aria-labelledby="radius-label radius-unit" min="20" max="1200" value="300" step="10" />
           <span class="radius-value-display" id="radius-value-display" aria-hidden="true"></span>
         </div>
         <button type="button" class="step-btn" id="radius-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
@@ -203,7 +205,7 @@
         <div class="input-unit">
           <div class="stepper-row">
             <button type="button" class="step-btn" id="min-distance-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
-            <input type="number" id="min-distance" aria-labelledby="min-distance-label min-distance-unit" min="0" max="3000" step="10" placeholder="Aucun minimum" data-i18n-placeholder="form.minDistance.minPlaceholder" />
+            <input type="number" id="min-distance" autocomplete="off" aria-labelledby="min-distance-label min-distance-unit" min="0" max="3000" step="10" placeholder="Aucun minimum" data-i18n-placeholder="form.minDistance.minPlaceholder" />
             <button type="button" class="step-btn" id="min-distance-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
           </div>
           <span class="unit" id="min-distance-unit" data-i18n-unit="form.minDistance.unitMin">km au moins</span>
@@ -211,7 +213,7 @@
         <div class="input-unit">
           <div class="stepper-row">
             <button type="button" class="step-btn" id="max-distance-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
-            <input type="number" id="max-distance" aria-labelledby="min-distance-label max-distance-unit" min="0" max="3000" step="10" placeholder="Aucun maximum" data-i18n-placeholder="form.minDistance.maxPlaceholder" />
+            <input type="number" id="max-distance" autocomplete="off" aria-labelledby="min-distance-label max-distance-unit" min="0" max="3000" step="10" placeholder="Aucun maximum" data-i18n-placeholder="form.minDistance.maxPlaceholder" />
             <button type="button" class="step-btn" id="max-distance-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
           </div>
           <span class="unit" id="max-distance-unit" data-i18n-unit="form.minDistance.unitMax">km au maximum</span>
@@ -227,7 +229,7 @@
       <div class="input-unit">
         <div class="stepper-row">
           <button type="button" class="step-btn" id="leg-distance-dec" aria-label="Diminuer" data-i18n-aria-label="form.radius.decAria">−</button>
-          <input type="number" id="leg-distance" min="10" max="3000" step="10" value="400" />
+          <input type="number" id="leg-distance" autocomplete="off" min="10" max="3000" step="10" value="400" />
           <button type="button" class="step-btn" id="leg-distance-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
         </div>
         <span class="unit" data-i18n-unit="form.legDistance.unit">km par trajet au maximum</span>

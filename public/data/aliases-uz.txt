@@ -95,7 +95,6 @@ pa;ਸ਼ਾਹਰੀਸਬਜ਼;Shahrisabz
 th;ชาฮ์รือซัปส์;Shahrisabz
 ru;Шахимардан;Shohimardon
 ky;Shaymardan;Shohimardon
-ru;Шахимардан);Shohimardon
 fr;Chakhimardan;Shohimardon
 kk;Шахимардан;Shohimardon
 zh;沙希马尔丹;Shohimardon

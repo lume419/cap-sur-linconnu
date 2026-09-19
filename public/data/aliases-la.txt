@@ -43,7 +43,6 @@ ja;サムヌア;Xam Nua
 pa;ਖਾਮ ਨੁਆ;Xam Nua
 ps;خام نوا;Xam Nua
 tg;Сам Нуа;Xam Nua
-nl;Khwaeng_Savannakhet;Savannakhet
 ja;サワンナケート県;Savannakhet
 nl;Khwaeng Savannakhet;Savannakhet
 th;แขวงสะหวันนะเขต;Savannakhet

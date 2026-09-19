@@ -22684,7 +22684,6 @@
 0;-63.6331,-17.0252;BO-08;Santa Cruz Department;Las Petas
 0;-62.9483,-17.1613;BO-08;Santa Cruz Department;Los Ángeles
 0;-63.1582,-17.1440;BO-08;Santa Cruz Department;Faja Bolívar
-17;-63.5358,-17.2562;BO-08;Santa Cruz Department;Organización Territorial de Base Comunidad Arroyo*
 0;-63.6644,-17.0499;BO-08;Santa Cruz Department;Rancho Grande
 0;-62.9344,-17.0265;BO-08;Santa Cruz Department;Nuevo Amanecer
 0;-62.6073,-17.3051;BO-08;Santa Cruz Department;Unificada

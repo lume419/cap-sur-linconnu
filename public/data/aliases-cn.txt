@@ -76568,7 +76568,6 @@ zh;顶松柏坑;Dingsongbaikeng
 zh;九溪澳;Jiuxi’ao
 zh;蒲羌坑;Puqiangkeng
 zh;后头村;Houtoucun
-zh;城郊乡;城郊
 zh;坎顶;Kandingcun
 zh;坎顶村;Kandingcun
 zh;莆顶;Pudingcun

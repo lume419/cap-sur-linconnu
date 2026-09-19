@@ -21,9 +21,9 @@ Les fichiers s'exécutent l'un après l'autre : chaque processus charge le moteu
 - `perf.test.js` : durées de tirage et part de `timedOut` comparées aux seuils de `LIMITS` en tête du fichier. À lancer sur une machine peu chargée.
 - `server.test.js` : `server.js` réel sur un port libre (`PORT`) : en-têtes de sécurité, `/data`, fichiers sources et dépôt jamais servis (réponse 4xx, quelle que soit l'écriture du chemin), quota des gros fichiers, export PDF (valide, budget de temps, écritures complexes, objets forgés → PDF complet avec pied de page), créneau PDF, file des appels sortants, `generate-trip` avec entrées forgées (jamais 500). Le serveur est arrêté à la fin, même en cas d'échec.
 - `i18n.test.js` : 161 langues, clés et `{paramètres}` du français, pas de HTML ni de guillemet double, listes, empreinte CSP des scripts inline.
-- `engine-regressions.test.js` (12e audit) : un test par défaut corrigé — vitesse du continent jamais appliquée aux îles et à l'outre-mer (≤ 80 km/h de moyenne, témoin continental), aller-retour dans la journée à la vitesse du pays (Lyon 380 km, plafond annoncé, Oulan-Bator diagnostiqué), diagnostic « éloignement introuvable » conservé quand un nouvel essai manque de temps (horloge simulée), pays traversés par les parties routières d'un ferry, moto dans un pays seulement traversé, borne haute du péage jamais « ~0 € » ; puis (13e audit) vélo à 15 km/h en aller-retour partout (plafond 67 km), îles des pays lents jamais plus rapides que leur continent, aller-retour Paris calculé en moins de 600 ms, électrique et moto « hors de portée » sans nouveaux essais, moto en trajet intérieur sans transit (Kangar → Melor) et en vrai transit ralentie (Nanning → Luang Prabang par le Viêt Nam). Les tirages à graine y tournent sous une horloge ralentie ×10 : le résultat ne dépend pas de la charge de la machine.
+- `engine-regressions.test.js` (12e audit) : un test par défaut corrigé — vitesse du continent jamais appliquée aux îles et à l'outre-mer (≤ 80 km/h de moyenne, témoin continental), aller-retour dans la journée à la vitesse du pays (Lyon 380 km, plafond annoncé, Oulan-Bator diagnostiqué), diagnostic « éloignement introuvable » conservé quand un nouvel essai manque de temps (horloge simulée), pays traversés par les parties routières d'un ferry, moto dans un pays seulement traversé, borne haute du péage jamais « ~0 € » ; puis (13e audit) vélo à 15 km/h en aller-retour partout (plafond 67 km), îles des pays lents jamais plus rapides que leur continent, aller-retour Paris calculé en moins de 600 ms, électrique et moto « hors de portée » sans nouveaux essais, moto en trajet intérieur sans transit (Kangar → Melor) et en vrai transit ralentie (Nanning → Luang Prabang par le Viêt Nam). Puis (14e audit) : distance annoncée « hors de portée » = plus lointain lieu atteignable (Bamako, près de la Guinée), aller-retour avec distance ou étape max sous 15 km (Lyon), moto vers un port du même pays sans transit. Les tirages à graine y tournent sous une horloge ralentie ×10 : le résultat ne dépend pas de la charge de la machine.
 - `ui.test.js` (12e audit) : fonctions d'`app.js` exécutées avec le vrai `i18n.js`, sans navigateur — plages de dates en droite-à-gauche, « 21 jours max » et pluriels (1, 2, 5, 21, 22 en ru, uk, pl, cs, lt, ar), total ferry sans train-auto ni « ~0 € », tarif par personne, route vide dans les 161 langues, pas de vignette à vélo, plage de prix en japonais, liste des devises, `badge` des étapes du PDF.
-- `data.test.js` (12e audit, ~15 s, sans moteur) : aucune marque d'absence de nom (« Ninguno », « Sin Nombre »…) ni nom corrigé encore publié, exceptions « en attente » (HR, ES : fichiers postaux absents du disque) toujours justifiées, aucun « _ » final ni mélange latin + CJK, aucun alias orphelin, ferries ≤ 60 km/h (hors train-auto et exception documentée) ; reproduction de `lib/ferry-ports.js` avec `TEST_GENERATORS=1` ou `test:full`.
+- `data.test.js` (12e audit, ~15 s, sans moteur) : aucune marque d'absence de nom (« Ninguno », « Sin Nombre »…) ni nom corrigé encore publié, exceptions « en attente » (HR, ES : fichiers postaux absents du disque) toujours justifiées, aucun « _ », parenthèse ou crochet non apparié, « * », nom réduit à un nombre, mélange latin + CJK, fête népalaise ni bloc de développement indien (13e audit), aucun alias orphelin ni refusé par `isJunkName` (14e audit), doublons en écriture locale écartés avec leur double romanisé publié (14e audit) ; ferries ≤ 60 km/h (hors train-auto et exception documentée), durées estimées ≤ 35 km/h jusqu'à 45 km et ≤ 45 km/h au-delà (`FAST_ESTIMATED_OK`, 13e audit), cohérence ferries ↔ ports (14e audit : distance > 1,5 × l'orthodromie, note « orthodromique » fausse de plus de 15 %, ports éloignés de plus de 1,5 × la distance + 5 km, paire de ports trop courte ; exceptions `DISTANCE_DETOUR_OK`, `ORTHO_CLAIM_OK`, `PORTS_FAR_OK`, `PAIR_SHORT_OK` qui doivent rester nécessaires) ; reproduction de `lib/ferry-ports.js` avec `TEST_GENERATORS=1` ou `test:full`.
 - `generators.test.js` (désactivé par défaut, `TEST_GENERATORS=1` ou `test:full`) : `build-tension-zones`, `build-transport-rules`, `build-lodging-rules`, `build-island-rules` reproduisent `public/js/trip-data.js` à l'octet près. Ils tournent dans une copie temporaire ; le dépôt n'est jamais modifié.
 - `helpers/` : chargement du moteur avec accès à ses fonctions internes (compilation en mémoire, sans modifier `lib/`) et vérificateur d'invariants (aligné sur le 11e audit : vitesse par pays `countrySpeedFactor`, devise des liens d'hébergement `LODGING_LINK_CURRENCIES`, cohérence de la fourchette de péage, ZFE rattachées à leur ville, point de départ compris), client HTTP brut, `fetch` simulé, démarrage du serveur, extraction du texte d'un PDF.
 
@@ -55,10 +55,17 @@ Un changement inattendu est une régression jusqu'à preuve du contraire.
 | `npm run test:compare -- 3d53524` | `3d53524` | répertoire de travail |
 | `node tests/compare-engine.js 3d53524 a8aa4bc` | `3d53524` | `a8aa4bc` |
 
-Options : `--fail-on-diff` (code de sortie 1 s'il y a une différence ; sinon toujours 0, c'est un outil de revue),
-`--sequential` / `--parallel` (par défaut les deux moteurs tournent en parallèle si plus de 20 Go de mémoire sont libres),
-`--all` (résumé sans filtrage). `COMPARE_TIRAGES` : nombre de tirages (300 par défaut, dont 161 cas ciblés toujours joués).
-Durée : ~70 s en parallèle (mesuré le 19/09/2026), ~2 min l'un après l'autre ; ~3,5 Go de mémoire par moteur.
+Options : `--fail-on-diff` (code de sortie 1 si un tirage, un trajet direct, un plafond d'hébergement ou le temps global a
+changé ; le temps réel n'y entre pas), `--sequential` / `--parallel` (par défaut en parallèle si plus de 20 Go sont
+libres), `--all` (résumé sans filtrage), `--temps-reel` (voir plus bas), `--clean` (nettoyage seul). Variables :
+`COMPARE_TIRAGES` (360 par défaut, dont 228 cas ciblés toujours joués), `COMPARE_GARDER_JOURS` (7),
+`COMPARE_GARDER_RAPPORTS` (10).
+Durée : ~105 s en parallèle avec `--temps-reel`, ~65 s sans (mesuré le 19/09/2026) ; ~3,5 Go de mémoire par moteur.
+
+Nettoyage (14e audit) : à chaque lancement, et seul avec `--clean`, sont supprimés les extractions `<commit>\` inutilisées
+depuis plus de `COMPARE_GARDER_JOURS` jours (fichier `.dernier-usage` ; jamais une extraction utilisée depuis moins d'une
+heure), les dossiers `run-*\` de plus d'un jour et les rapports au-delà des `COMPARE_GARDER_RAPPORTS` plus récents. La
+taille du dossier est affichée avant et après, et en fin de rapport.
 
 Fonctionnement : l'ancien moteur est extrait par `git show` (jamais de checkout, le répertoire de travail n'est pas
 touché) dans `%TEMP%\cap-sur-linconnu-compare\<commit>\` : `lib/`, `public/js/trip-data.js` et `data/*.json` toujours
@@ -69,16 +76,21 @@ périmé ne fausse donc rien). Chaque moteur tourne dans son propre processus et
 Le dossier `%TEMP%\cap-sur-linconnu-compare\` peut être effacé à tout moment (copies reconstruites au besoin).
 
 Ce qui est comparé :
-- **Tirages** (`generateTrip`), jeu FIXE : 74 départs (pays rapides FR/DE/ES/IT, pays lents MN/ML/BA/MG/PH/NP, îles
-  mesurées ou non — Corse, Mayotte, La Réunion, Cebu, Mindanao, Bali, Okinawa, Hokkaido, Majorque, Sardaigne, Crète,
-  Tasmanie, Hawaï —, autoroutes interdites aux motos KR/TW/TH/VN/MY/ID/PK, zones à tension, frontières, grand Nord,
-  antiméridien Fidji/Tonga/Tchoukotka, pays à péage et sans péage) × 6 modes × 16 profils (1 jour avec ou sans
-  rayon/éloignement min/max, 2-3, 7, 14 et 21 jours, étapes max, ferries et zones à tension décochés, péage décoché), plus
-  161 cas ciblés (aller-retour Paris, vélo avec éloignement dans des pays rapides et lents, électrique et moto au-delà de
-  180 et 360 km, îles de pays lents, moto dans un pays seulement traversé, ferry avec parties routières, Puli). Chaque tirage a une
-  graine fixe et tourne sous une horloge ralentie ×10 (budget de 4 s → 40 s réelles) : le résultat ne dépend pas de la charge.
-- **Trajets directs** (`finalizeLeg`) : 190 paires de lieux (57 paires nommées — îles, outre-mer, frontières, moto interdite —
-  et paires des plus grandes villes de 54 pays) × 6 modes : durée, péage, recharges, sans l'aléa du tirage.
+- **Tirages** (`generateTrip`), jeu FIXE : 74 départs et plus (pays rapides et lents, îles mesurées ou non, frontières,
+  grand Nord, antiméridien, pays à péage et sans péage) × 6 modes × 16 profils, chaque tirage à graine fixe sous une
+  horloge ralentie ×10 (budget de 4 s → 40 s réelles). Étiquette « moto-interdite » calculée avec `motoMotorwayBan` du
+  moteur (interdiction nationale totale : KR, TW, VN, TH, ID, PK, LK ; pas la Malaisie). 228 cas ciblés, dont (14e audit) :
+  - moto en vrai transit : Viêt Nam entre la Chine et le Laos (Nanning, Kunming, Luang Prabang), Thaïlande entre la
+    Birmanie et le Laos (Myawaddy), plus un témoin intérieur (Kota Bharu) ;
+  - aller-retour près d'un pays plus rapide : Bamako, Kayes, Sarajevo, Bihać, 250 à 370 km, voiture et moto ;
+  - petites distances : Lyon, max 10 km, étape max 5 km ;
+  - cas de production Mutang, Bella Vista et Nanma, 5 jours, éloignement 649 km.
+- **Trajets directs** : paires nommées, frontalières, moto en transit (par VN, TH, PK) et 22 étapes avec traversée, jouées
+  comme `finalizeHop` du moteur (`directHop`). Six modes plus « voiture-thermique sans péage ». Sont comparés : durée,
+  partie routière, péage (avec `enabled`), recharge (bornes, arrêts, minutes), traversée (`priceCovers`, `footAmount`,
+  `durationEstimated`, `mode`), pays traversés, restrictions.
+- **Hébergement** : `lodgingPriceCap` et liens `buildLodgingLinks` (devise, plafond, plateformes) pour chaque pays × palier
+  × devise (aucune, EUR, USD, JPY, XOF). Dans les tirages : dates et liens de chaque étape.
 
 Lire le rapport (sortie standard, recopié avec le JSON détaillé dans `%TEMP%\cap-sur-linconnu-compare\rapport-*.txt|json`) :
 - **Tirages : n / N changés, par nature** : `diagnostic` (tirage vide ou non, `minDistanceUnreachable` + `returnCapKm`,
@@ -95,11 +107,27 @@ Lire le rapport (sortie standard, recopié avec le JSON détaillé dans `%TEMP%\
   îles d'un pays lent passées à la vitesse du mode, par exemple), péages et recharges changés, puis le détail.
 - **Détail des tirages changés** : pour chacun, l'identifiant (`départ|mode|profil|paramètres|graine`) et les lignes
   « ancien → nouveau ».
+- **Fichiers lus par le moteur qui diffèrent** (en tête) : code (`lib/`, `trip-data.js`) et données (`communes*.txt`,
+  `featured.txt`, `data/*.json`, bornes), avec +/− lignes ; les `aliases-*.txt`, non lus par l'outil, sont mis à part.
+  Distingue un changement de code d'un changement de données.
+- **Couverture** : tirages moto en vrai transit, avec traversée, avec bornes réelles, et trajets directs moto-transit ou
+  avec traversée, pour chaque moteur. « AUCUN » veut dire que les cas ciblés ne couvrent plus le chemin.
+- **Transitions de diagnostic** : le plafond annoncé est joint quand il change (« bamako 1j min 330 (plafond 196→263) »).
+- **Tension au départ** : comparée seulement si les deux résultats la portent ; un diagnostic devenu itinéraire est compté
+  dans « diagnostic ».
+- **Temps de calcul global** (14e audit) : en plus du seuil par tirage, médiane, p90 et total, sur tous les tirages et sur
+  ceux au résultat inchangé. « !!! RALENTISSEMENT GÉNÉRAL » si la médiane ou le p90 augmente d'au moins 25 % (et de plus de
+  5 ms / 20 ms), ou le total d'au moins 20 % (et de plus de 2 s) ; par catégorie (au moins 8 tirages) : +30 %. Même version
+  des deux côtés : médiane ×1,00, p90 ×0,96, total ×1,01, aucune alerte (19/09/2026).
+- **TEMPS RÉEL** (`--temps-reel`) : 24 cas ciblés rejoués avec l'horloge normale et le budget de 4 s de la production. Ce
+  résultat **dépend de la machine et de sa charge** : section séparée, hors de `--fail-on-diff`.
 
 Validation (13e audit) : `node tests/compare-engine.js 3d53524 a8aa4bc` fait apparaître les régressions du 12e audit —
 allers-retours à vélo dont le plafond ou le diagnostic change selon le pays, îles de pays lents plus rapides (Cebu, Bali),
 temps de calcul des allers-retours depuis Paris, allers-retours électriques/moto passant de `minDistanceUnreachable` à
-`minDistanceNotFound`. Pour rejouer un tirage : `runSteady(moteur, paramètres, graine)` (`tests/helpers/compare.js`).
+`minDistanceNotFound`. Validation (14e audit) : `node tests/compare-engine.js a8aa4bc --temps-reel` montre 12 tirages moto
+en vrai transit, 168 trajets directs avec traversée, aucune « tension au départ » parasite, les plafonds d'aller-retour de
+Bamako, Kayes, Sarajevo et Bihać et les petites distances de Lyon. Pour rejouer un tirage : `runSteady(moteur, paramètres, graine)` (`tests/helpers/compare.js`).
 
 ## En cas d'échec
 

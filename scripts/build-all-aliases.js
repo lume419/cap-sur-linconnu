@@ -103,7 +103,7 @@ const ALIAS_JUNK_RE = /[?\uFF1F]|^[-\u2010-\u2014]|[-\u2010-\u2014]$|\b(no such|
 //     (scripts/communes-corrections.js) quand chaque lettre intruse a un sosie exact dans l'écriture majoritaire du mot
 //     (sosies propres à la langue de l'alias compris : һ, palotchka) ; sinon (« Шеллenbergг », « Калан-Деh » en russe)
 //     la graphie voulue est incertaine -> alias écarté.
-const { fixMixedScript } = require('./communes-corrections.js');
+const { fixMixedScript, isJunkName } = require('./communes-corrections.js');
 function cleanAliasText(text, canonical, lang){
   text = String(text || '');
   if(ALIAS_MOJIBAKE_RE.test(text)) return '';
@@ -113,7 +113,15 @@ function cleanAliasText(text, canonical, lang){
     .replace(/([\u0590-\u08FF])\.$/, '$1')
     .replace(/^([^\u201C\u201D\u201E"]*)[\u201D"]\.$/, '$1')
     .trim();
-  if(ALIAS_JUNK_RE.test(t)) return '';
+  // 14e audit du 19/09/2026 : mêmes refus que pour les noms de lieux (isJunkName, communes-corrections.js), appliqués aux
+  // lignes existantes comme aux ajouts. 113 lignes publiées étaient concernées : 98 avec « _ » (titre Wikipédia recopié,
+  // « Ист_Лансинг », « 巴甫洛沃_ » ; plusieurs rattachées au MAUVAIS lieu : « ky;Ист_Лансинг;East Tawas » (East Lansing),
+  // « et;Rakvere_vald;Rakvere » (commune rurale, pas la ville ; de même Põltsamaa_vald, Paide_vald), « nl;Khwaeng_Savannakhet »
+  // (province), « ms;Mukim_Penyabong » (mukim), « ar;وادي_الدواسر_(محافظة) » (gouvernorat)), 14 avec une parenthèse non
+  // appariée (« zzLapurdi-) Jatsu » pour Jatxou, « Vilak) » pour Bair, « (佐敷町 », « 景島（Isla Vista)社群 ») et 1 avec un crochet
+  // non apparié (« [چانهاسن، مینه‌سوتا »). Écartés, jamais « réparés » (espace à la place du « _ », parenthèse retirée :
+  // supposition, et la forme propre existe presque toujours déjà dans une autre ligne).
+  if(ALIAS_JUNK_RE.test(t) || isJunkName(t)) return '';
   const mixed = fixMixedScript(t, lang);
   if(!mixed.ok) return '';
   t = mixed.text;
@@ -299,8 +307,8 @@ for(const cc of Object.keys(COUNTRIES)){
     if(cc === 'GB' && GB_REGION_RESTRICTED_LANGS[rawLang] && !GB_REGION_RESTRICTED_LANGS[rawLang].has(p.region || '')) return;
     if(/[;\n\r]/.test(text)) return;
     // 13e audit du 19/09/2026 : « _ » = caractère de saisie (voir UNDERSCORE_RE dans communes-corrections.js) ; les
-    // AJOUTS qui en contiennent sont écartés (« حدود الربعة _ الربعة », YE). Les lignes existantes ne sont pas touchées
-    // (~100 lignes avec « _ » dans l'ensemble des aliases-xx.txt, à revoir une à une).
+    // AJOUTS qui en contiennent sont écartés (« حدود الربعة _ الربعة », YE). 14e audit du 19/09/2026 : les lignes
+    // existantes aussi, par cleanAliasText (isJunkName) ; ce test reste en garde-fou.
     if(text.includes('_')) return;
     const k = lang + '|' + norm + '|' + p.name;
     if(seen.has(k)) return;

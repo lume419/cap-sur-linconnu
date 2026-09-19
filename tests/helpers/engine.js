@@ -158,7 +158,9 @@ function motoFactor(cArg, from, to){
   const A = engine.__test, mb = c => c && A.motoMotorwayBan(c);
   let ban = mb(cArg) || mb(from && from.country) || mb(to && to.country);
   // Pays seulement traversé (12e audit) : même règle que finalizeLeg.
-  if(!(ban && ban.fullBan) && from && to && from.lat != null && to.lat != null && from.country !== to.country){
+  // Pays d'un port (sans champ country) : lieu habité le plus proche, comme le moteur (14e audit).
+  const ccOf = p => p.country || A.countryAtPoint(p.lat, p.lon);
+  if(!(ban && ban.fullBan) && from && to && from.lat != null && to.lat != null && ccOf(from) !== ccOf(to)){
     const b2 = A.countriesAlong(from, to).map(mb).filter(b => b && b.fullBan)[0];
     if(b2) ban = b2;
   }
@@ -240,6 +242,20 @@ function check(params, res, elapsedMs){
     if(unreach && !res.minDistanceUnreachable && !isolated) bad('diagMinDistanceUnreachable', 'moyenne', 'éloignement inatteignable non signalé', { legsN: legs.length });
     if(!unreach && res.minDistanceUnreachable) bad('diagMinDistanceUnreachable', 'moyenne', 'minDistanceUnreachable signalé à tort');
     if(res.minDistanceUnreachable && res.returnCapKm !== returnCap) bad('diagMinDistanceUnreachable', 'basse', 'returnCapKm ' + res.returnCapKm + ' ≠ ' + returnCap);
+  }
+  // Aller-retour dans la journée (14e audit du 19/09/2026 : aucun de ses diagnostics n'était contrôlé, d'où un plafond
+  // annoncé trop bas près d'un pays plus rapide, Bamako « 196 km » pour 261 km faisables) :
+  //   - « hors de portée » : plafond annoncé positif et strictement sous l'éloignement demandé ;
+  //   - tirage réussi : aller + retour (route, traversées, recharges) dans DAY_TRIP_MAX_HOURS (9 h), aller ≥ éloignement.
+  if(N.days <= 1){
+    ap('diagDayTrip');
+    if(res.minDistanceUnreachable && !(res.returnCapKm > 0 && res.returnCapKm < N.minD))
+      bad('diagDayTrip', 'moyenne', 'aller-retour : returnCapKm ' + res.returnCapKm + ' incohérent avec l\'éloignement ' + N.minD);
+    if(legs.length){
+      const h = l => ((l.travelMin || 0) + (l.ferryInfo && l.roadMin ? l.roadMin : 0)) / 60;
+      const total = legs.reduce((sum, l) => sum + h(l), 0);
+      if(total > 9 + 0.05) bad('diagDayTrip', 'haute', 'aller-retour de ' + total.toFixed(2) + ' h (> 9 h)');
+    }
   }
   if(!legs.length) return { v, applied, empty: true };
 
@@ -535,7 +551,7 @@ function check(params, res, elapsedMs){
   // Moto : chaque pays aux autoroutes interdites traversé a son avertissement
   if(N.transportKey === 'moto'){
     ap('restrictions');
-    // Pays traversés compris (12e audit : Thaïlande entre Kota Bharu et Bukit Kayu Hitam, jamais signalée).
+    // Pays traversés compris (12e audit ; vrai transit : Nanning → Luang Prabang par le Viêt Nam).
     // Seulement pour un trajet entre deux pays (13e audit : un trajet intérieur n'a aucun transit, comme pour le péage).
     let prevC = dep.country;
     const crossedAll = [];

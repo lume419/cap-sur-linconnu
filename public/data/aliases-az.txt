@@ -3715,7 +3715,6 @@ ru;Юхары Тала;Yuxarı Tala
 ka;იუხარი-თალა;Yuxarı Tala
 ru;Юхары-Таирджал;Yuxarı Tahircal
 ka;იუხარი-თაჰირჯალი;Yuxarı Tahircal
-ru;Юхары_шильян;Yuxarı Şilyan
 ru;Саламабад;Yuxarı Salamabad
 ru;Юхары-Салахлы;Yuxarı Salahlı
 en;Yuxarı Öksüzlü;Yuxarı Öysüzlü
@@ -4088,7 +4087,6 @@ az;Qultəpə;Tekeshykhy
 ru;Gyul’tepe;Tekeshykhy
 ka;თექეშიხი;Tekeshykhy
 en;Tǝzǝ Şilyan;Təzə Şilyan
-ru;Таза_шильян;Təzə Şilyan
 ka;თაზანოვჯი;Tazanovdzhi
 ru;Тазановджи;Tazanovdzhi
 en;Tǝzǝkǝnd;Tazakend
@@ -4137,7 +4135,6 @@ co;Tərkeş;Terkesh
 az;Tərkeş;Terkesh
 rm;Tərkeş;Terkesh
 nl;Tərkeş;Terkesh
-ru;Тап_каракоюнлу;Tap Qaraqoyunlu
 ru;Тапкаракоюнлу;Tap Qaraqoyunlu
 ka;თაფ-ყარაქოიუნლუ;Tap Qaraqoyunlu
 tr;Tapkarakoyunlu;Tap Qaraqoyunlu
@@ -5814,7 +5811,6 @@ ru;Гиригли;Qırıqlı
 ru;Кырыклы;Qırıqlı
 ru;Еныканд;Yenikənd
 en;Qıraq Kǝsǝmǝn;Kyrakh Kesaman
-ru;Кырых_кесаман;Kyrakh Kesaman
 el;Κιραγκλιντζέκ;Kyraglydzhek
 ka;ქურახლიჯექი;Kyraglydzhek
 ru;Кыраглыджек;Kyraglydzhek
@@ -7072,10 +7068,8 @@ fr;Geuytépé;Karamanlu
 tr;Göytəpə;Karamanlu
 ru;Гойнуян;Göynüyən
 en;Göylǝrdağ;Geoglyar-Dag
-ru;Гейляр_Даг;Geoglyar-Dag
 az;Göylər Dağ;Geoglyar-Dag
 en;Göylǝr Çöl;Kishlak Geoglyar
-ru;Гейляр_Чель;Kishlak Geoglyar
 az;Çöl Göylər;Kishlak Geoglyar
 ka;გიოილარ-ჩიოლი;Kishlak Geoglyar
 fr;Tcholgoylar;Kishlak Geoglyar
@@ -7781,7 +7775,6 @@ fr;Yukhary-Dashkesan;Dashkasan
 az;Yuxarı-Daşkəsən;Dashkasan
 de;Yukhary-Dashkesan;Dashkasan
 pt;Yukhary-Dashkesan;Dashkasan
-ru;Даш_салахлы;Daş Salahlı
 ka;დაშ-სალაჰლი;Daş Salahlı
 ru;Дашджа;Daşca
 ka;დაშჯა;Daşca
@@ -8094,7 +8087,6 @@ ka;ბოზავანდი;Bozavand
 ru;Бозаванд;Bozavand
 ru;Бозахлар;Bozakhlar
 en;Böyük Dǝhnǝ;Byuyuk-Dakhne
-ru;Беюк_дахна;Byuyuk-Dakhne
 it;Böyük Dəhnə;Byuyuk-Dakhne
 fr;Böyük Dəhnə;Byuyuk-Dakhne
 az;Böyük Dəhnə;Byuyuk-Dakhne
@@ -8555,7 +8547,6 @@ ka;ყიზმეიდანი;Qızmeydan
 ka;ასთაფი;Astaf
 ru;Астаф;Astaf
 en;Əsrik Cırdaxan;Asrikdzhyrdakhan
-ru;Асрик_джырдахан;Asrikdzhyrdakhan
 az;Aspərəsti;Asparasty
 el;Εσπερεστί;Asparasty
 en;Əspərəsti;Asparasty

@@ -108,7 +108,6 @@ zh;格拉西克里克;Grassy Creek
 zh;加斯基爾;Gaskill
 zh;因格拉姆;Ingram
 zh;基姆珀;Kimper
-zh;利特爾錫安_;Little Zion
 zh;洛特;Lot
 zh;瑪麗愛麗絲;Mary Alice
 ko;퍼듀카;Paducah
@@ -1450,7 +1449,6 @@ zh-Hans;布恩维尔;Booneville
 zh;布恩維爾;Booneville
 ja;ブーンビル;Booneville
 zh;鮑曼;Bowman
-zh;博伊德_;Boyd
 ru;Брадфорд;Bradford
 ko;브래드퍼드;Bradford
 zh;布拉德福德;Bradford
@@ -1906,7 +1904,6 @@ ko;허티그;Huttig
 zh;哈蒂格;Huttig
 ar;هوتيغ;Huttig
 zh;艾達;Ida
-zh;因德克斯_;Index
 zh;印第安灣;Indian Bay
 zh;伊凡;Ivan
 ru;Джэксонвилл;Jacksonville
@@ -1977,7 +1974,6 @@ pt;Parkers-Iron Springs;Landmark
 zh;蘭馬克;Landmark
 nl;Parkers-Iron Springs;Landmark
 zh;萊恩堡;Laneburg
-zh;拉魯_;Larue
 zh;拉瓦卡;Lavaca
 ar;لافاكا;Lavaca
 zh;洛森;Lawson
@@ -2011,7 +2007,6 @@ ko;리틀록;Little Rock
 hi;लिटल रॉक;Little Rock
 zh;洛卡斯特格羅夫;Locust Grove
 ar;لوغان;Logan
-zh;洛根_;Logan
 ar;لونوكي;Lonoke
 ru;Лонок;Lonoke
 zh;洛斯特布里奇村;Lost Bridge Village
@@ -2143,7 +2138,6 @@ zh-Hant;北小巖城;North Little Rock
 zh;北小石城;North Little Rock
 ja;ノースリトルロック;North Little Rock
 zh;北俄亥俄;Northern Ohio
-zh;諾伍德_;Norwood
 zh;南伯萊恩;Number Nine
 zh;奧克哈芬;Oakhaven
 ar;أواكهيفين;Oakhaven
@@ -2272,7 +2266,6 @@ zh;羅斯;Ross
 zh;羅弗;Rover
 ru;Раселвил;Russellville
 zh;薩德爾;Saddle
-zh;薩費爾_;Saffell
 zh;塞奇;Sage
 ru;Сент-Чарльз;Saint Charles
 en;St. Joe;Saint Joe
@@ -18313,22 +18306,13 @@ zh-Hant;温斯羅普;Winthrop
 zh;温斯罗普;Winthrop
 zh;怀奥塔;Wiota
 ar;ويوتا;Wiota
-zh;沃登_;Woden
 ar;ودين;Woden
-zh;伍德拜恩_;Woodbine
-zh;伍德本_;Woodburn
 ar;ودبورن;Woodburn
-zh;伍德沃德_;Woodward
 zh;伍爾斯托克;Woolstock
 ar;وولستوك;Woolstock
-zh;沃辛顿_;Worthington
-zh;怀俄明_;Wyoming
-zh;耶鲁_;Yale
 zh;耶特;Yetter
 ar;يتير;Yetter
 ja;イェッター;Yetter
-zh;约克镇_;Yorktown
-zh;齐灵_;Zearing
 ar;زيرينغ;Zearing
 zh;茲溫格爾;Zwingle
 ar;زوينغل;Zwingle
@@ -22764,7 +22748,6 @@ ar;رايس;Rice
 ru;Райс;Rice
 zh;賴斯;Rice
 ar;ريتشفيلد;Richfield
-zh;里士满_;Richmond
 ru;Ричвилл;Richville
 ar;ريتشفيل;Richville
 zh;里奇伍德;Richwood
@@ -25388,7 +25371,6 @@ ar;ويتلي هايهتس;Wheatley Heights
 ar;البحيرة البيضاء;White Lake
 ja;ホワイトレイク;White Lake
 ja;ホワイト・プレインズ;White Plains
-ja;ホワイト・プレインズ_;White Plains
 ar;وايت بلينس;White Plains
 ko;화이트플레인스;White Plains
 ru;Уайт-Плейнс;White Plains
@@ -29076,7 +29058,6 @@ ar;إرويندالي;Irwindale
 ru;Ирвиндейл;Irwindale
 ja;アイラビスタ;Isla Vista
 ru;Айла-Виста;Isla Vista
-zh-Hant;景島（Isla Vista)社群;Isla Vista
 ko;아일라비스타;Isla Vista
 zh;伊斯拉維斯塔;Isla Vista
 ar;إسليتون;Isleton
@@ -30204,7 +30185,6 @@ zh;聖安東尼奧高地;San Antonio Heights
 ar;سان أنطونيو هايهتس;San Antonio Heights
 zh;聖阿爾多;San Ardo
 zh;聖貝尼托;San Benito
-ja;サンバーナーディーノ_;San Bernardino
 ko;샌버너디노;San Bernardino
 ja;サンバーナーディーノ;San Bernardino
 ar;سان بيرناردينو، كاليفورنيا;San Bernardino
@@ -37722,7 +37702,6 @@ ur;کلیولینڈ، الاباما;Cleveland
 fa;کلینتون;Clinton
 ckb;کلیۆ، ئەلاباما;Clio
 fa;کلیو، آلاباما;Clio
-sr;Клајо Алабама);Clio
 uk;Кліо;Clio
 fa;کلاپتن;Clopton
 fa;کودن;Coden
@@ -81569,7 +81548,6 @@ ur;مشرقی تواز، مشی گن;East Tawas
 sr;Ист Тавас;East Tawas
 kk;Ист Лансинг;East Tawas
 ce;Ист-Тавас;East Tawas
-ky;Ист_Лансинг;East Tawas
 fa;تواز شرقی، میشیگان;East Tawas
 fa;ایست‌پوینت، میشیگان;Eastpointe
 kk;Истпойнт;Eastpointe
@@ -83605,7 +83583,6 @@ he;צ'מפלין;Champlin
 ur;چینڈلر، مینیسوٹا;Chandler
 ky;Чандлэр;Chandler
 fa;چندلر، مینه‌سوتا;Chandler
-fa;[چانهاسن، مینه‌سوتا;Chanhassen
 kk;Чанхассэн;Chanhassen
 sr;Чанхасен;Chanhassen
 uk;Шангассен;Chanhassen
@@ -100676,7 +100653,6 @@ si;බර්කර්ලි;Berkeley
 ce;Беркли;Berkeley
 kn;ಬರ್ಕೆಲಿ;Berkeley
 ta;பெர்க்லி;Berkeley
-ky;Беркли_;Berkeley
 te;బర్కిలీ;Berkeley
 tg;Беркли;Berkeley
 th;เบิร์กลีย์;Berkeley

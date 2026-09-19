@@ -108,7 +108,7 @@ module.exports = {
       priceStatus: 'unknown',
       priceByClass: { 1: null, 2: null, 5: null, foot: null },
       source: 'https://fijipocketguide.com/how-to-take-the-ferry-to-the-lomaiviti-islands/', date: '2026-09-16',
-      note: "Roulier quotidien (départ Natovi 16 h 00, arrivée Buresala 16 h 50), service bus + ferry depuis Suva ; véhicules acceptés (Fiji Pocket Guide, levukafiji.com). Véhicules facturés au fret, sans grille publiée." },
+      note: "Roulier quotidien (départ Natovi 16 h 00, arrivée Buresala 16 h 50), service bus + ferry depuis Suva ; véhicules acceptés (Fiji Pocket Guide, levukafiji.com). Véhicules facturés au fret, sans grille publiée. 14e audit du 19/09/2026 : distance non publiée de 27 km, 1,6 fois l'orthodromie entre les ports de lib/ferry-ports.js (16,4 km) ; route réelle non mesurable hors ligne (îlots et chenaux plus fins que la grille lib/land-grid.bin, ~10 km ; ports approchés par le centre des localités) : ordre de grandeur gardé, à vérifier." },
     { a: 'vanuaLevu', b: 'taveuni', routeKey: 'natuvuTaveuni', "durationEstimated": true, name: 'Natuvu (Buca Bay) ↔ Taveuni',
       operator: 'Goundar Shipping', durationH: 1.75, distanceKm: 21,
       priceStatus: 'unknown',

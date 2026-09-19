@@ -42,7 +42,7 @@ module.exports = {
       operator: 'Moby Lines (Ichnusa Lines selon la saison)', durationH: 0.83, distanceKm: 17,
       priceStatus: 'variable', priceByClass: N,
       source: 'https://www.moby.it/rotte/traghetti-sardegna/santa-teresa-bonifacio-santa-teresa/', date: D,
-      note: "Voitures, fourgons et camping-cars acceptés ; ~50 min ; prix « a partire da » variables selon saison et disponibilité, aucune grille fixe publiée. Distance orthodromique." },
+      note: "Voitures, fourgons et camping-cars acceptés ; ~50 min ; prix « a partire da » variables selon saison et disponibilité, aucune grille fixe publiée. Distance orthodromique. 14e audit du 19/09/2026 : distance orthodromique vérifiée : Bonifacio (bourg et port, GeoNames 3031801, 41,38723 ; 9,15667) – Santa Teresa Gallura (lib/ferry-ports.js) = 16,7 km ; le port de Bonifacio de lib/ferry-ports.js est le centre de la commune, 5,1 km au nord-est du bourg, d'où 20,4 km entre les ports du fichier." },
     { a: 'sardinia', b: 'sicily', routeKey: 'cagliariPalermo', "durationEstimated": true, name: 'Cagliari ↔ Palermo',
       operator: 'Grimaldi Lines (juin-septembre 2026), autre compagnie le reste de l’année', durationH: 12, distanceKm: 389,
       priceStatus: 'variable', priceByClass: N,

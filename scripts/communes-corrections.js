@@ -214,6 +214,79 @@ const JUNK_IDS = {
   [8740817, 'Garhbeta II (community development block)'], [8740821, 'Keshiari (community development block)'],
   [8740824, 'Debra (community development block)'], [8740826, 'Sohela (Community Development Block)']
 ].forEach(([id, n]) => { JUNK_IDS[id] = ['IN', n, 'bloc de développement (subdivision administrative), pas un lieu habité (PPLL du 06/01/2024)']; });
+// 14e audit du 19/09/2026 — DOUBLONS EN ÉCRITURE LOCALE SEULE dans des fichiers romanisés (JP, KR, KP, CN, IR) : fiche P
+// dont le nom n'a aucune lettre latine (« 姫路 », « 尼崎 », « 하의 », « دهان »…), sans forme latine sur la fiche (asciiname =
+// lecture chinoise « zhen lu » pour 姫路, ou rien), ET dont le nom exact (ou suivi de 市/町) est un alternatename d'une
+// AUTRE fiche P publiée, à nom latin, à moins de 2 km : c'est le même lieu, publié deux fois (la seconde fois sous un nom
+// que la recherche romanisée ne trouve pas). Relevé par balayage de tous les noms sans lettre latine de ces cinq fichiers
+// contre scripts/dump/XX_dump.txt ; le doublon romanisé reste publié. Japon : lot 7302970-7303001 du 21/06/2010 (villes
+// de Himeji, Amagasaki, Matsuyama…, 0,2 à 1,9 km du centre GeoNames de la ville). [geonameid, nom, geonameid du lieu
+// romanisé gardé, son nom, distance en km]. Non démontrables (aucune fiche romanisée publiée ne porte le nom), GARDÉS et
+// listés dans le README (14e passe) : JP 平泉, 六甲, 御影 (fiches romanisées Hiraizumi, Rokkocho, Mikage en PPLX, non
+// publiées) ; KP 2 ; CN 14 ; IR 10. JP 大馬木 : corrigé par NAME_FIXES (forme romanisée sur la fiche).
+const LOCAL_SCRIPT_DUPLICATES = {
+  JP: [
+    [7302970, "志布志", 1852588, "Shibushi", 0.98], [7302974, "三次", 1856698, "Miyoshi", 0.62], [7302976, "出雲", 1861084, "Izumo", 1.09],
+    [7302977, "松江", 1857550, "Matsue", 1.7], [7302978, "境港", 1853174, "Sakaiminato", 1.11], [7302979, "姫路", 1862627, "Himeji", 1.44],
+    [7302983, "芦屋", 1864985, "Ashiya", 0.77], [7302984, "尼崎", 1865387, "Amagasaki", 0.21], [7302985, "梅田", 6697671, "Umeda", 0.24],
+    [7302989, "清水", 1852416, "Shimizumachi", 0.56], [7302990, "沼津", 1854902, "Numazu", 0.63], [7302991, "熱海", 1864945, "Atami", 1.85],
+    [7303001, "松山市", 1926099, "Matsuyama", 0.83]
+  ],
+  KR: [
+    [6394638, "하의", 6395304, "Hagui", 0.04], [6395751, "새편", 6396036, "Saep’yŏn", 0], [6395752, "세련동", 6396042, "Seryeondong", 0.08],
+    [6395753, "소서호", 6396043, "Soseoho", 0], [6395754, "동역", 6396044, "Dongyeok", 0], [6395756, "목우촌", 6396045, "Moguchon", 0],
+    [6395762, "노동", 6396034, "Nodong", 0], [6395763, "사동", 6396048, "Sadong", 0], [6395764, "원서장", 6396058, "Wonseochang", 0.05],
+    [6395767, "지동", 6396064, "Jidong", 0], [6395768, "노하", 6396066, "Noha", 0.08], [6395775, "금곡", 6396061, "Kŭmgok", 0],
+    [6395776, "배부치기", 6396079, "Paebuch’igi", 0], [6395777, "뱀골", 6396081, "Paem-gol", 0], [6395778, "안태", 6396082, "Ant’ae", 0],
+    [6395779, "부호리", 6396049, "Puho-ri", 0], [6395780, "남관", 6396050, "Namgwan", 0], [6395781, "장생이", 6396052, "Changsaengi", 0],
+    [6395782, "장활", 6396053, "Changhwal", 0], [6395786, "등넘어", 6396057, "Deungneomeo", 0], [6395788, "계천", 6396028, "Gyecheon", 0],
+    [6395789, "율리", 6396029, "Yulli", 0], [6395790, "화암", 6396030, "Hwaam", 0], [6395791, "외지", 6396032, "Oeji", 0],
+    [6395797, "새마을", 6396069, "Acheon", 0], [6395798, "송호", 6396071, "Songho", 0], [6395799, "신복", 6396072, "Sinbok", 0.05],
+    [6395800, "용산", 6396041, "Yongsan", 0], [6395801, "사동", 6396074, "Sadeung", 0], [6395802, "부곡", 6396075, "Bugok", 0],
+    [6395803, "도림정", 6396076, "Dorimjeong", 0], [6395805, "노송", 6396090, "Nosong", 0.07], [6395806, "봉고지", 6396089, "Bunggoji", 0.33],
+    [6395807, "춘동", 6396085, "Chundong", 0.05], [6395808, "흑암", 6396092, "Heugam", 0.06], [6395809, "마봉", 6396093, "Mabong", 0],
+    [6395810, "영선", 6396088, "Yeongseon", 0], [6395811, "용흥", 6396086, "Yongheung", 0.19], [6395812, "남산", 6396087, "Namsan", 0.05],
+    [6395815, "선덕", 6396097, "Seondeok", 0.08], [6395816, "달산", 6396096, "Dalsan", 0.06], [6395817, "향양", 6396095, "Hyangyang", 0.17],
+    [6395821, "월하", 6396098, "Wolha", 0], [6395830, "용정", 6396102, "Yongjŏng", 0], [6395831, "남천", 6395981, "Namch’ŏn", 0],
+    [6395843, "금산", 6396062, "Kŭmsan", 0], [6395844, "호천", 6396065, "Hoch’ŏn", 0], [6395845, "신금", 6396103, "Sin’gŭm", 0],
+    [6395847, "목신", 6396038, "Moksin", 0], [6395849, "대흥", 6396039, "Taehŭng", 0], [6395899, "두주", 6396109, "Dunju", 0.12],
+    [6395900, "조산", 6395896, "Josan", 0.57], [6395902, "당산골", 6396118, "Dangsangol", 0], [6395903, "서원", 6396117, "Sŏwŏn", 0],
+    [6395904, "거오", 6396113, "Koŏ", 0], [6395905, "월곡", 6396112, "Wŏlgok", 0], [6395906, "원덕", 6396111, "Wondeok", 0],
+    [6395907, "평촌", 6396110, "Pyŏng-ch’on", 0], [6395908, "망녕골", 6396120, "Mangnyeonggol", 0], [6395910, "오류동", 6396122, "Oryu-dong", 0],
+    [6395911, "가곡", 6396123, "Kagok", 0], [6395912, "신죽", 6396124, "Sinjuk", 0], [6395913, "한천", 6396125, "Hanch’ŏn", 0],
+    [6395921, "대운", 6396129, "Daeun", 0.28], [6395924, "신기", 6396033, "Singi", 0], [6395925, "선진", 6396132, "Seonjin", 0.05],
+    [6395933, "신월", 6395755, "Sinwol", 0.29]
+  ],
+  KP: [
+    [6275742, "지개골", 6275656, "Chigaegol", 0.12], [6275743, "석간말", 6275657, "Sŏkkanmal", 0.04], [6275744, "지성촌", 6275658, "Chisŏngch’on", 0.15],
+    [6275745, "요동", 6275659, "Yo-dong", 0.05], [6275747, "미촌", 6275661, "Mich’on", 0.13], [6275748, "장골", 6275662, "Changgol", 0.25],
+    [6275749, "귀대동", 6275663, "Kwidae-dong", 0.39], [6275750, "문골", 6275664, "Mun'gol", 0.2], [6275751, "아론말", 6275665, "Aronmal", 0.08],
+    [6275752, "새골", 6275666, "Saegol", 0.52], [6275753, "이장골", 6275667, "Ijangdong", 0.87], [6275754, "곧은골", 6275668, "Kodŭn'gol", 0.52],
+    [6275756, "월봉동", 6275670, "Wŏlbong-dong", 0.62], [6275758, "덕동", 6275672, "Tŏk-tong", 0.18], [6275760, "살구벌말", 6275674, "Salgubŏlmal", 0.2],
+    [6275761, "학성동", 6275675, "Haksŏng-dong", 0.1], [6275763, "홍촌", 6275677, "Hongch’on", 0.19], [6275764, "용연동", 6275678, "Yongyŏn-dong", 0.13],
+    [6275765, "언서골", 6275679, "Yŏnsŏgol", 0.29], [6275766, "웃고인", 6275680, "Ukkoin", 0.31], [6275767, "가촌", 6275681, "Kach’on", 0.13],
+    [6275768, "탑동", 6275682, "T’ap-tong", 0.15], [6275769, "아랫말", 6275683, "Araenmal", 0.18], [6275770, "가래나무말", 6275684, "Karaenamumal", 0.28],
+    [6275771, "대륜촌", 6275685, "Taeryunch’on", 0.09], [6275774, "남산골", 6275688, "Namsan", 0.07], [6275777, "원골", 6275691, "Wŏn'gol", 0.36],
+    [6275780, "풍전리", 6275694, "P'ungjŏn-dong", 0.28], [6275781, "간촌", 6275695, "Kanch’on", 0.4], [6275782, "이동", 6275696, "I-dong", 0.72],
+    [6275783, "운니리", 6275697, "Unni-ri", 0.17], [6275784, "고방", 6275699, "Kobang", 0.31], [6275785, "웃돗골", 6275700, "Uttotkol", 0.94],
+    [6275786, "판자골", 6275701, "P'anjagol", 0], [6275793, "주암골", 6275708, "Chuamgol", 0.16], [6275796, "중간재", 6275711, "Chungganjae", 0.07],
+    [6275797, "도장골", 6275712, "Tojanggol", 0.1], [6275801, "운암", 6275716, "Unam", 0.15], [6275802, "괘전골", 6275717, "Kwaejŏn'gol", 0.14],
+    [6275804, "길흥", 6275720, "Kirhŭng", 0.12], [6275805, "초바웃골", 6275721, "Ch'obautkol", 0.03], [6275809, "장재동", 6275725, "Changjae-dong", 0.15],
+    [6275811, "천을", 6275727, "Ch’ŏnŭl", 0], [6275812, "임연", 6275729, "Imyŏn", 0], [6275813, "미동", 6275730, "Mi-dong", 0.09],
+    [6275814, "간동", 6275731, "Kan-dong", 0.1], [6275815, "진구지", 6275732, "Chin’guji", 0.62], [6275817, "박달", 6275734, "Paktal", 1.29],
+    [6275818, "거차리", 6275735, "Kŏch’a-ri", 0], [6275819, "간동", 6275736, "Kan-dong", 0.1], [6275820, "관터", 6275737, "Kwant’ŏ", 0.06],
+    [6275821, "거류동", 6275740, "Kŏryu-dong", 0.51]
+  ],
+  CN: [
+    [7011353, "城郊", 7003510, "Chengjiao", 0], [7056451, "高庄", 7056450, "Gumu Gaozhuang", 0.24], [12339813, "兴龙庄村", 12339812, "Xinglongzhuangcun", 0]
+  ],
+  IR: [
+    [7011497, "محمّد آباد گوری", 35293, "Rūstā-ye Faşlī-ye Deh Kheẕrī", 0.09], [7011502, "قلعه سنگ", 35334, "Rūstā-ye Faşlī-ye Ḩoseynābād-e Sangī", 0.04], [7049104, "دهان", 1114744, "Dahān", 0.4]
+  ]
+};
+Object.entries(LOCAL_SCRIPT_DUPLICATES).forEach(([cc, rows]) => rows.forEach(([id, n, keptId, keptName, km]) => {
+  JUNK_IDS[id] = [cc, n, 'doublon en écriture locale de « ' + keptName + ' » (fiche ' + keptId + ', ' + km + ' km), qui porte ce nom en alternatename'];
+}));
 function isJunkId(country, geonameid){
   const e = JUNK_IDS[geonameid];
   return !!(e && e[0] === country);
@@ -300,17 +373,28 @@ const NAME_FIXES = {
   '1392425': ['PK', 'Basti Nizam_ud_din', 'Tibbi Nizāmuddīn', 'alternatenames + altnames/PK.txt 4817793 (en)'],
   // « Ḩudūd ar Rab‘ah _ Ar Rab‘ah » (« limites d'Ar Rab‘ah _ Ar Rab‘ah ») ; alternatename « Ar Rab‘ah »
   // (altnames/YE.txt 3382676) ; les autres « Ar Rab‘ah » publiés sont d'autres lieux (le plus proche à 25 km).
-  '7359228': ['YE', 'Ḩudūd ar Rab‘ah _ Ar Rab‘ah', 'Ar Rab‘ah', 'alternatenames + altnames/YE.txt 3382676']
+  '7359228': ['YE', 'Ḩudūd ar Rab‘ah _ Ar Rab‘ah', 'Ar Rab‘ah', 'alternatenames + altnames/YE.txt 3382676'],
+  // 14e audit du 19/09/2026 — symbole de saisie « # » dans le nom : alternatenames de la fiche « El # Emboque,Emboque ».
+  '3891438': ['CL', 'El # Emboque', 'Emboque', 'alternatenames de la fiche (« Emboque »)'],
+  // - nom en kanji seul dans le fichier romanisé du Japon ; la fiche donne sa forme romanisée (alternatenames « O-maki,
+  //   da ma mu, Ō-maki, 大馬木 », Hepburn avec macron comme le reste de communes-jp.txt).
+  '1854180': ['JP', '大馬木', 'Ō-maki', 'alternatenames de la fiche (« Ō-maki »)']
 };
 function fixName(country, geonameid, name){
   const e = NAME_FIXES[geonameid];
   return (e && e[0] === country && e[1] === name) ? e[2] : name;
 }
 const LOST_CHARS_RE = /\?/;
+// 14e audit du 19/09/2026 — astérisque : marque de renvoi ou de saisie, jamais d'un toponyme. Un seul nom publié,
+// « Organización Territorial de Base Comunidad Arroyo* » (BO 12520896, PPL de 2025) : asciiname et alternatenames portent
+// le même « * », aucune forme propre sur la fiche -> lieu écarté (retirer le signe serait une supposition sur ce qu'il
+// renvoie). « # » n'est PAS un motif : « Larpea #1 », « Larpea #2 » (LR) sont des numéros de villages ; « El # Emboque »
+// (CL) est corrigé par NAME_FIXES.
+const INPUT_SYMBOL_RE = /\*/;
 function isJunkName(name){
   name = name || '';
   return !name || EDITOR_COMMENT_NAME_RE.test(name) || PLACEHOLDER_NAMES.has(name) || PLACEHOLDER_QUALIFIED_RE.test(name) ||
-    LOST_CHARS_RE.test(name) || BROKEN_BRACKET_RE.test(name) || hasUnbalancedParen(name) || UNDERSCORE_RE.test(name);
+    LOST_CHARS_RE.test(name) || BROKEN_BRACKET_RE.test(name) || hasUnbalancedParen(name) || UNDERSCORE_RE.test(name) || INPUT_SYMBOL_RE.test(name);
 }
 
 // Filtre commun, appelé par chaque générateur sur chaque ligne du dump : true = lieu écarté.
@@ -463,6 +547,6 @@ function dropNearDuplicates(lines){
 }
 
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
-  PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId,
+  PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, INPUT_SYMBOL_RE,
   BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, excludePlace,
   fixMixedScript, cleanPlaceName, preparePlaceName, dropNearDuplicates };

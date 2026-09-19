@@ -14,7 +14,6 @@ hi;सोफ्रिएर;Soufrière
 de;Soufriere;Soufrière
 ja;スーフリエール;Soufrière
 ru;Солсбери;Salisbury
-zh;索爾茲伯里_;Salisbury
 ja;ソールズベリー;Salisbury
 ru;Сент-Джозеф;Saint Joseph
 ar;سانت جوزيف;Saint Joseph

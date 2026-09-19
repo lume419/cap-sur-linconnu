@@ -3788,7 +3788,6 @@ ru;Кырдамы;Türkmeşen
 tr;Kırbaş;Kazım Karabekirpaşa
 ru;Корьяна;Kirazlık
 ru;Кинали;Kınalı
-ru;Килитташ_ке;Kilittaşı
 ru;Тирегис;Kılıçtaşı
 ru;Кетениги;Keteniği
 tr;Kestanesayvanı;Fındıklı

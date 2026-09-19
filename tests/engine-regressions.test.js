@@ -54,10 +54,12 @@ test('aller-retour dans la journée : plafond à la vitesse du pays', () => {
     const r = runSteady(base(H.dep('Lyon', 'FR'), { minDistanceKm: 380 }), seed);
     assert.ok(!r.minDistanceUnreachable, 'Lyon 380 km annoncé hors de portée (graine ' + seed + ')');
   }
-  // Au-delà, le plafond annoncé est celui du pays : 4,5 h × 80 km/h × facteur français, pas 360.
+  // Au-delà, le plafond annoncé suit la vitesse du pays (~424 km en France, pas 360) ; depuis le 14e audit, c'est la
+  // distance du plus lointain lieu atteignable, à quelques km près de ce plafond théorique.
   const r = runSteady(base(H.dep('Lyon', 'FR'), { minDistanceKm: 480 }), 1);
   assert.equal(r.minDistanceUnreachable, true);
-  assert.equal(r.returnCapKm, Math.floor(4.5 * 80 * E.__test.countrySpeedFactor(H.dep('Lyon', 'FR'), null, 'FR')));
+  const theo = Math.floor(4.5 * 80 * E.__test.countrySpeedFactor(H.dep('Lyon', 'FR'), null, 'FR'));
+  assert.ok(r.returnCapKm > 380 && r.returnCapKm < 480, 'plafond annoncé ' + r.returnCapKm + ' km (théorique France ' + theo + ')');
   // Oulan-Bator (~41 km/h), 250 km : tirage vide AVEC un diagnostic (rien n'était dit avant).
   const ub = runSteady(base(H.dep('Ulaanbaatar', 'MN') || H.dep('Ulan Bator', 'MN'), { minDistanceKm: 250 }), 1);
   assert.equal(ub.legs.length, 0);
@@ -128,7 +130,8 @@ test('13e audit : vélo, aller-retour dans la journée à 15 km/h partout (jamai
   for(const d of [H.dep('Paris', 'FR'), ub]){
     const x = runSteady(base(d, { transportKey: 'velo', minDistanceKm: 90, avoidTension: false }), 1);
     assert.equal(x.minDistanceUnreachable, true, d.name + ' : 90 km à vélo devrait être hors de portée');
-    assert.equal(x.returnCapKm, 67, d.name + ' : plafond vélo ' + x.returnCapKm);
+    // 4,5 h × 15 km/h = 67 km au plus ; annoncé : le plus lointain lieu atteignable (14e audit), donc ≤ 67.
+    assert.ok(x.returnCapKm > 50 && x.returnCapKm <= 67, d.name + ' : plafond vélo ' + x.returnCapKm);
   }
 });
 
@@ -171,4 +174,36 @@ test('13e audit : moto, trajet intérieur jamais averti pour un pays seulement l
   const fMY = E.__test.countrySpeedFactor(a, b, 'MY');
   // Vitesse de la moto = celle de la voiture (aucune interdiction en Malaisie), pas le facteur thaïlandais.
   assert.equal(moto.travelMin, car.travelMin, 'moto ralentie sur un trajet intérieur malaisien (facteur ' + fMY + ')');
+});
+
+// ------------------------------------------------------------------ 14e audit (19/09/2026)
+test('14e audit : aller-retour près d\'un pays plus rapide, distance annoncée = plus lointain lieu atteignable', () => {
+  // Bamako : « hors de portée, 196 km » alors qu'un aller-retour de 261 km vers la Guinée fonctionnait.
+  const bamako = H.dep('Bamako', 'ML');
+  const ok = runSteady(base(bamako, { minDistanceKm: 250, avoidTension: false }), 1);
+  assert.ok(!ok.minDistanceUnreachable, 'Bamako 250 km annoncé hors de portée (' + ok.returnCapKm + ' km)');
+  const far = runSteady(base(bamako, { minDistanceKm: 600, avoidTension: false }), 1);
+  assert.equal(far.minDistanceUnreachable, true);
+  assert.ok(far.returnCapKm >= 250, 'plafond annoncé ' + far.returnCapKm + ' km, sous un aller-retour faisable (~261 km)');
+  // Le plafond annoncé doit lui-même être faisable : un tirage à cette distance n'est pas « hors de portée ».
+  const at = runSteady(base(bamako, { minDistanceKm: far.returnCapKm - 5, avoidTension: false }), 1);
+  assert.ok(!at.minDistanceUnreachable, 'plafond annoncé ' + far.returnCapKm + ' km mais ' + (far.returnCapKm - 5) + ' km hors de portée');
+});
+
+test('14e audit : aller-retour avec une distance max ou une étape max sous 15 km', () => {
+  // Lyon, 1 jour, 10 km au plus : tirage vide sans explication (plancher fixe de 15 km).
+  const r = runSteady(base(H.dep('Lyon', 'FR'), { maxDistanceKm: 10 }), 1);
+  assert.ok(r.legs.length > 0, 'Lyon 1 jour, 10 km max : aucun lieu (' + JSON.stringify(Object.keys(r)) + ')');
+  assert.ok(r.legs[0].distanceKm <= 10.5, 'étape à ' + r.legs[0].distanceKm + ' km pour 10 km max');
+});
+
+test('14e audit : moto, partie routière vers un port dans le même pays sans transit', () => {
+  // Kota Bharu → Kuala Perlis (port de Langkawi) : la route reste malaisienne ; le port sans pays faisait passer ce trajet
+  // pour un trajet entre deux pays (interdiction thaïlandaise appliquée).
+  const a = P('Kota Bharu', 'MY');
+  const port = { lat: 6.3997, lon: 100.1297 }; // Kuala Perlis
+  const km = Math.round(H.hav(a.lat, a.lon, port.lat, port.lon) * 1.287);
+  const withCountry = I.finalizeLeg(km, 80, 'moto', true, 'MY', a, Object.assign({ country: 'MY' }, port));
+  const car = I.finalizeLeg(km, 80, 'voiture-thermique', true, 'MY', a, Object.assign({ country: 'MY' }, port));
+  assert.equal(withCountry.travelMin, car.travelMin, 'moto ralentie sur une route intérieure vers le port');
 });

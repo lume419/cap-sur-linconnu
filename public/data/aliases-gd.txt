@@ -1,6 +1,5 @@
 zh;上拉坦特;Upper La Tante
 ja;チボリ;Tivoli
-zh;蒂沃利_;Tivoli
 de;St. George's;Saint George's
 en;St. George's;Saint George's
 fr;Saint-Georges;Saint George's

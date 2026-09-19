@@ -12,6 +12,10 @@
 //   - énumérations (Intl.ListFormat de la langue elle-même, style long), séparateurs japonais, pluriels sgs/lv/is/mk,
 //     chiffres de la langue dans les traductions ;
 //   - kilomètres / miles : conversions exactes, unité automatique, aucun « km » affiché quand l'unité est le mile.
+// 14e audit du 19/09/2026 :
+//   - champs de distance en miles : bornes valides dans les deux sens, valeur affichée = envoyée = citée, message de
+//     bornes avec l'unité (161 langues), restauration des valeurs par le navigateur, pas de 5 mi ;
+//   - durée et difficulté des randonnées Visorando traduites ; touroyo et adyguéen sans repli arabe ; duel arabe.
 'use strict';
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
@@ -44,9 +48,12 @@ const FNS = ['isoDate', 'parseIsoDate', 'formatFrDate', 'formatDateRange', 'form
   'withoutEmptyRoute', 'ferryText', 'ferryTotalLabel', 'formatDurationMin', 'fmtHours', 'tripStatsParts', 'vignetteCountriesOfGroup',
   'durationLabel', 'maxDaysSuffix', 'groupLegsByStay', 'dayBadgeText', 'tripLabelText',
   // Unité de distance (13e audit).
-  'isDistanceUnit', 'unitForLang',
+  'unitForLang',
   'distanceUnit', 'kmToDistanceUnit', 'distanceUnitToKm', 'formatDistanceValue', 'formatDistance', 'distanceUnitVars', 'hikeDistanceText',
   'unitFieldBounds', 'distanceFieldKm', 'setDistanceFieldKm',
+  // Champs de distance, bornes, pas, randonnées, duel arabe (14e audit du 19/09/2026).
+  'applyFieldBounds', 'distanceFieldSpec', 'distanceFieldText', 'defaultDistanceValue', 'setDefaultDistanceField', 'convertDistanceFields',
+  'checkNumberRange', 'msg', 'stepNumberField', 'hikeDurationText', 'hikeDifficultyText', 'dualWithoutNumber', 'countPart',
   // Corps envoyé à /api/export-pdf et ses dépendances.
   'buildTripExportPayload', 'pdfLegBadges', 'transportHasToll', 'pdfLegTexts', 'legRouteText', 'legDuration', 'legMinutes', 'overMaxLegText',
   'noChargerText', 'tollText', 'tollSourceLabel', 'exportTension', 'exportLodgingLinks', 'singleLegLabel', 'formatCpBadge', 'optionLabel',
@@ -70,14 +77,20 @@ function sandbox(){
     'var TRANSPORT = { "voiture-thermique": { tollClass: 1, ferryClass: 1 }, "velo": { tollClass: null, ferryClass: "foot" } };',
     'var COUNTRIES = { CH: { name: "Suisse", vignette: { url: "https://www.via.admin.ch/shop/" } }, FR: { name: "France" } };',
     'var TOLL_SOURCE = { FR: "autoroutes françaises 2026" }, KNOWN_POI_TYPES = { museum: 1 }, CURRENCY_OPTIONS = ["EUR"];',
-    'var sessionCurrency, sessionDistanceUnit, currentTripData = null, currentTripLabel = "", fieldDistanceUnit = "km";',
-    'var els = { packGrid: { querySelectorAll: function(){ return []; } } };',
-    ['ROUTE_MARK', 'approxMarkCache', 'KM_PER_MILE', 'MILE_COUNTRIES', 'CURRENCY_STORAGE_KEY', 'CHARGER_NEAR_STOP_KM'].map(extractVar).join('\n'),
+    'var sessionCurrency, currentTripData = null, currentTripLabel = "", fieldDistanceUnit = "km", radiusMode = "km";',
+    // Champs factices (valeur texte, bornes min/max/step comme les attributs d'un <input type="number">).
+    'var fakeInput = function(){ return { value: "", min: "", max: "", step: "", dispatchEvent: function(){} }; };',
+    'var els = { packGrid: { querySelectorAll: function(){ return []; } }, radius: fakeInput(), minDistance: fakeInput(), maxDistance: fakeInput(), legDistance: fakeInput() };',
+    'var Event = function(){};',
+    ['ROUTE_MARK', 'approxMarkCache', 'KM_PER_MILE', 'MILE_COUNTRIES', 'CURRENCY_STORAGE_KEY', 'CHARGER_NEAR_STOP_KM', 'RADIUS_KM_FIELD',
+      'HIKE_DIFFICULTY_KEYS'].map(extractVar).join('\n'),
+    APP.match(/^  var DISTANCE_KM_FIELDS = \[[\s\S]*?\n  \];/m)[0],
     FNS.map(extract).join('\n'),
     // Unité forcée par les tests (setUnit) : l'application la tire de la langue seule (unitForLang), sans réglage.
     'var UNIT_OVERRIDE = null, __distanceUnit = distanceUnit; distanceUnit = function(){ return UNIT_OVERRIDE || __distanceUnit(); };',
     'window.__app = {' + FNS.map(n => n + ': ' + n).join(', ') + ', setLang: function(l){ window.I18N.set(l); VISITOR_LANG = l; },' +
-      ' setUnit: function(u){ UNIT_OVERRIDE = u; }, setFieldUnit: function(u){ fieldDistanceUnit = u; },' +
+      ' setUnit: function(u){ UNIT_OVERRIDE = u; }, setFieldUnit: function(u){ fieldDistanceUnit = u; }, fieldUnit: function(){ return fieldDistanceUnit; },' +
+      ' els: els, DISTANCE_KM_FIELDS: DISTANCE_KM_FIELDS, RADIUS_KM_FIELD: RADIUS_KM_FIELD, HIKE_DIFFICULTY_KEYS: HIKE_DIFFICULTY_KEYS,' +
       ' setTrip: function(trip){ currentTripData = trip; } };'
   ].join('\n');
   vm.runInContext(glue, ctx);
@@ -337,18 +350,20 @@ test('conversions km ↔ mi exactes (1 mi = 1,609344 km)', () => {
   A.setFieldUnit('mi');
   assert.equal(A.distanceFieldKm({ value: '100' }), 160.9);
   assert.equal(A.distanceFieldKm({ value: '' }), null);
-  // Valeur convertie par le site (300 km -> 186 mi) : la valeur exacte en km est renvoyée tant qu'elle n'est pas retouchée.
+  // Valeur convertie par le site (300 km -> 186.4 mi, au dixième depuis le 14e audit) : la valeur exacte en km est
+  // renvoyée tant qu'elle n'est pas retouchée.
   const input = { value: '300' };
   A.setDistanceFieldKm(input, 300, 'mi');
-  assert.equal(input.value, '186');
+  assert.equal(input.value, '186.4');
   assert.equal(A.distanceFieldKm(input), 300);
   input.value = '100';
   assert.equal(A.distanceFieldKm(input), 160.9);
   A.setFieldUnit('km');
   assert.equal(A.distanceFieldKm({ value: '305' }), 305);
-  // Bornes des champs converties vers l'intérieur (jamais hors de celles du moteur), pas de 10 km -> 5 mi.
-  assert.deepEqual(JSON.parse(JSON.stringify(A.unitFieldBounds({ value: 300, min: 20, max: 1200, step: 10 }, 'mi'))), { value: 186, min: 13, max: 745, step: 5 });
-  assert.deepEqual(JSON.parse(JSON.stringify(A.unitFieldBounds({ min: 10, max: 3000, step: 10 }, 'mi'))), { value: null, min: 7, max: 1864, step: 5 });
+  // Bornes des champs arrondies au dixième vers l'extérieur (14e audit : voir le test des bornes), pas de 10 km -> 5 mi,
+  // valeur par défaut arrondie au pas (300 km -> 185 mi).
+  assert.deepEqual(JSON.parse(JSON.stringify(A.unitFieldBounds({ value: 300, min: 20, max: 1200, step: 10 }, 'mi'))), { value: 185, min: 12.4, max: 745.7, step: 5 });
+  assert.deepEqual(JSON.parse(JSON.stringify(A.unitFieldBounds({ min: 10, max: 3000, step: 10 }, 'mi'))), { value: null, min: 6.2, max: 1864.2, step: 5 });
   // Affichage : 160,9 km -> 100 mi ; arrondi à l'entier comme les km.
   A.setLang('en');
   A.setUnit('mi');
@@ -484,4 +499,272 @@ test('numéro de jour (champ `badge` du PDF) : chiffres de la langue, plage, ret
   assert.deepEqual(Array.from(A.groupLegsByStay(legs), g => A.dayBadgeText(g)), ['1', '2–4', '⟲']);
   // Chaque étape du corps envoyé à /api/export-pdf porte ce libellé (buildTripExportPayload, objet legs[i]).
   assert.match(APP, /badge: legBadges\[idx\] \|\| null,/);
+});
+
+// ---- 14e audit du 19/09/2026 : champs de distance en miles, randonnées, replis de locale, duel arabe ----
+// Champs remis à zéro dans l'unité donnée (bornes appliquées comme au chargement de la page).
+function resetFields(unit){
+  A.setFieldUnit('km');
+  const all = A.DISTANCE_KM_FIELDS.concat([Object.assign({ el: A.els.radius }, A.RADIUS_KM_FIELD)]);
+  for(const f of all){
+    f.el.value = ''; f.el.__km = null; f.el.__shown = null; f.el.__defaultKm = null;
+    A.applyFieldBounds(f.el, A.unitFieldBounds(f, 'km'));
+  }
+  if(unit === 'mi') A.convertDistanceFields('mi');
+  return all;
+}
+const typeIn = (input, text) => { input.value = String(text); };
+const tenth = v => Math.round(v * 10) / 10;
+
+test('miles : une valeur valide en km le reste en miles, et inversement (bornes de tous les champs de distance)', () => {
+  const bad = [];
+  const fields = resetFields('km');
+  const names = ['distance min', 'distance max', 'étape', 'rayon'];
+  fields.forEach((f, i) => {
+    const name = names[i];
+    // km -> mi : bornes du moteur et valeurs voisines (au dixième), saisies en km puis converties.
+    const kmValues = [];
+    for(let v = f.min; v <= f.min + 30; v = tenth(v + 0.1)) kmValues.push(v);
+    for(let v = f.max - 30; v <= f.max; v = tenth(v + 0.1)) kmValues.push(v);
+    for(let v = f.min; v <= f.max; v += 7) kmValues.push(v);
+    for(const km of kmValues){
+      resetFields('km');
+      typeIn(f.el, km);
+      if(A.checkNumberRange(f.el, true)) bad.push(name + ' ' + km + ' km refusé en km');
+      A.convertDistanceFields('mi');
+      if(A.checkNumberRange(f.el, true)) bad.push(name + ' ' + km + ' km -> « ' + f.el.value + ' » mi refusé (bornes ' + f.el.min + '–' + f.el.max + ')');
+      if(A.distanceFieldKm(f.el) !== km) bad.push(name + ' ' + km + ' km -> ' + A.distanceFieldKm(f.el) + ' km envoyés');
+    }
+    // mi -> km : bornes affichées en miles et valeurs voisines, saisies en miles puis converties.
+    resetFields('mi');
+    const lo = parseFloat(f.el.min), hi = parseFloat(f.el.max);
+    const miValues = [];
+    for(let v = lo; v <= lo + 20; v = tenth(v + 0.1)) miValues.push(v);
+    for(let v = tenth(hi - 20); v <= hi; v = tenth(v + 0.1)) miValues.push(v);
+    for(const mi of miValues){
+      resetFields('mi');
+      typeIn(f.el, mi);
+      if(A.checkNumberRange(f.el, true)){ bad.push(name + ' ' + mi + ' mi refusé en miles'); continue; }
+      const km = A.distanceFieldKm(f.el);
+      if(!(km >= f.min && km <= f.max)) bad.push(name + ' ' + mi + ' mi -> ' + km + ' km hors des bornes du moteur');
+      A.convertDistanceFields('km');
+      if(A.checkNumberRange(f.el, true)) bad.push(name + ' ' + mi + ' mi -> « ' + f.el.value + ' » km refusé');
+    }
+    // Hors bornes : refusé dans les deux unités.
+    resetFields('mi');
+    if(lo > 0){ typeIn(f.el, tenth(lo - 0.1)); if(!A.checkNumberRange(f.el, true)) bad.push(name + ' : ' + f.el.value + ' mi accepté'); }
+    typeIn(f.el, tenth(hi + 0.1));
+    if(!A.checkNumberRange(f.el, true)) bad.push(name + ' : ' + f.el.value + ' mi accepté');
+    resetFields('km');
+    typeIn(f.el, f.max + 0.1);
+    if(!A.checkNumberRange(f.el, true)) bad.push(name + ' : ' + f.el.value + ' km accepté');
+  });
+  // Cas de l'audit : 20 km -> 12.4 mi, accepté (le minimum affiché était 13 mi et la valeur 12 : tirage refusé).
+  resetFields('km'); typeIn(A.els.radius, 20); A.convertDistanceFields('mi');
+  assert.equal(A.els.radius.value, '12.4');
+  assert.equal(A.els.radius.min, 12.4);
+  assert.equal(A.checkNumberRange(A.els.radius, false), null);
+  resetFields('km');
+  assert.deepEqual(bad.slice(0, 20), []);
+});
+
+test('miles : valeur affichée = valeur envoyée = valeur des messages, aller-retours de langue avec des valeurs non entières', () => {
+  A.setLang('en');
+  A.setUnit('mi');
+  const bad = [];
+  const shownKm = input => A.formatDistance(A.distanceFieldKm(input), 1);
+  const shownField = (input, unit) => A.formatDistanceValue(parseFloat(input.value), unit, 1);
+  // Saisie en km (non entière), passage en miles, retour en km : la saisie revient telle quelle.
+  for(const km of [12.5, 305, 20.3, 0.5, 99.9, 1199.9, 2999.9, 186.4]){
+    resetFields('km');
+    typeIn(A.els.maxDistance, km);
+    A.convertDistanceFields('mi');
+    // Le message cite la distance envoyée au dixième, comme le champ l'affiche (« 189.5 mi » ; le champ disait « 190 »).
+    if(shownKm(A.els.maxDistance) !== shownField(A.els.maxDistance, 'mi')) bad.push(km + ' km : champ « ' + A.els.maxDistance.value + ' », message « ' + shownKm(A.els.maxDistance) + ' »');
+    if(A.distanceFieldKm(A.els.maxDistance) !== km) bad.push(km + ' km envoyé ' + A.distanceFieldKm(A.els.maxDistance));
+    A.convertDistanceFields('km');
+    if(A.els.maxDistance.value !== String(km)) bad.push(km + ' km -> mi -> km : « ' + A.els.maxDistance.value + ' »');
+  }
+  // Saisie en miles, passage en km puis retour : même texte, et la valeur envoyée ne change pas.
+  for(const mi of [7.8, 7.5, 189.5, 100, 12.4, 0.3, 1864.1]){
+    resetFields('mi');
+    typeIn(A.els.minDistance, mi);
+    const km = A.distanceFieldKm(A.els.minDistance);
+    if(shownKm(A.els.minDistance) !== shownField(A.els.minDistance, 'mi')) bad.push(mi + ' mi : message « ' + shownKm(A.els.minDistance) + ' »');
+    A.convertDistanceFields('km');
+    if(A.distanceFieldKm(A.els.minDistance) !== km) bad.push(mi + ' mi : ' + km + ' km puis ' + A.distanceFieldKm(A.els.minDistance));
+    A.convertDistanceFields('mi');
+    if(A.els.minDistance.value !== String(mi)) bad.push(mi + ' mi -> km -> mi : « ' + A.els.minDistance.value + ' »');
+  }
+  // Cas de l'audit : 12,5 km affiché « 7.8 » (et non « 8 », puis « 13 » au retour en km).
+  resetFields('km'); typeIn(A.els.legDistance, 12.5); A.convertDistanceFields('mi');
+  assert.equal(A.els.legDistance.value, '7.8');
+  A.convertDistanceFields('km');
+  assert.equal(A.els.legDistance.value, '12.5');
+  resetFields('km');
+  A.setUnit(null);
+  A.setLang('fr');
+  assert.deepEqual(bad, []);
+});
+
+test('message de bornes : avec l\'unité pour les champs de distance, dans les 161 langues', () => {
+  const bad = [];
+  for(const l of W.I18N.SUPPORTED){
+    A.setLang(l);
+    for(const unit of ['km', 'mi']){
+      if(unit === 'mi' && A.unitForLang(l) !== 'mi') continue; // les miles ne s'affichent que dans les langues en miles
+      resetFields(unit);
+      typeIn(A.els.radius, 1);
+      const p = A.checkNumberRange(A.els.radius, false);
+      const s = p && p.message();
+      const min = A.formatDistanceValue(parseFloat(A.els.radius.min), unit, 1), max = A.formatDistanceValue(parseFloat(A.els.radius.max), unit, 1);
+      if(!s || s.indexOf(min) < 0 || s.indexOf(max) < 0) bad.push(l + ' : « ' + s + ' » (attendu ' + min + ' / ' + max + ')');
+      if(s && (/\{\w+\}/.test(s) || /\.\./.test(s))) bad.push(l + ' : « ' + s + ' »');
+    }
+  }
+  // Champ sans unité (jours par ville) : nombres seuls.
+  A.setLang('fr');
+  const days = { value: '30', min: '1', max: '20' };
+  assert.equal(A.checkNumberRange(days, true).message(), W.I18N.t('form.error.range', { min: '1', max: '20' }));
+  A.setLang('en');
+  resetFields('mi'); typeIn(A.els.radius, 5);
+  assert.equal(A.checkNumberRange(A.els.radius, false).message(), 'Enter a value between 12.4 mi and 745.7 mi.');
+  resetFields('km');
+  A.setLang('fr');
+  assert.deepEqual(bad, []);
+});
+
+test('valeurs restaurées par le navigateur : autocomplete="off" et champs remis à leurs valeurs en km avant la conversion', () => {
+  const html = fs.readFileSync(path.join(__dirname, '..', 'public', 'index.html'), 'utf8');
+  for(const id of ['radius', 'min-distance', 'max-distance', 'leg-distance']){
+    const m = html.match(new RegExp('<input[^>]*id="' + id + '"[^>]*>'));
+    assert.ok(m && /autocomplete="off"/.test(m[0]), id + ' : autocomplete="off" absent');
+  }
+  const reset = APP.indexOf("DISTANCE_KM_FIELDS.forEach(function(f){ f.el.value = '';");
+  const radius = APP.indexOf('setDefaultDistanceField(els.radius, RADIUS_KM_FIELD.value, fieldDistanceUnit);', reset);
+  const sync = APP.indexOf('\n  syncDistanceUnit();');
+  assert.ok(reset > 0 && radius > reset && sync > radius, 'remise à zéro des champs de distance avant syncDistanceUnit()');
+});
+
+test('pas de 5 mi : valeurs par défaut sur le pas, envoyées telles qu\'affichées ; boutons −/+ recalés sur la grille', () => {
+  resetFields('km');
+  A.setFieldUnit('mi');
+  for(const [input, km, shown] of [[A.els.radius, 300, '185'], [A.els.legDistance, 400, '250'], [A.els.legDistance, 80, '50']]){
+    A.setDefaultDistanceField(input, km, 'mi');
+    assert.equal(input.value, shown, km + ' km');
+    assert.equal(A.distanceFieldKm(input), A.distanceUnitToKm(Number(shown), 'mi'), km + ' km : valeur envoyée = valeur affichée');
+  }
+  // Aller-retour : valeur par défaut exacte en km tant qu'elle n'est pas retouchée.
+  A.setFieldUnit('km');
+  A.setDefaultDistanceField(A.els.radius, 300, 'km');
+  A.setDefaultDistanceField(A.els.legDistance, 400, 'km');
+  A.convertDistanceFields('mi');
+  assert.equal(A.els.radius.value, '185');
+  assert.equal(A.els.legDistance.value, '250');
+  A.convertDistanceFields('km');
+  assert.equal(A.els.radius.value, '300');
+  assert.equal(A.els.legDistance.value, '400');
+  // Valeur par défaut retouchée : convertie comme une saisie.
+  A.convertDistanceFields('mi');
+  typeIn(A.els.radius, 190);
+  A.convertDistanceFields('km');
+  assert.equal(A.els.radius.value, String(A.distanceUnitToKm(190, 'mi')));
+  // Aide « 50 mi à vélo, 250 mi pour les autres modes » : la valeur du champ.
+  assert.equal(A.defaultDistanceValue(400, 'mi'), 250);
+  assert.equal(A.defaultDistanceValue(80, 'mi'), 50);
+  assert.equal(A.defaultDistanceValue(400, 'km'), 400);
+  // Boutons −/+ : recalés sur la grille du pas, dans les bornes.
+  resetFields('mi');
+  const r = A.els.radius;
+  const step = (v, dir) => { r.value = String(v); A.stepNumberField(r, dir); return String(r.value); };
+  assert.equal(step('186.4', 1), '190');
+  assert.equal(step('186.4', -1), '185');
+  assert.equal(step('185', 1), '190');
+  assert.equal(step('249', 1), '250');
+  assert.equal(step('12.4', -1), '12.4');
+  assert.equal(step('12.4', 1), '15');
+  assert.equal(step('745.7', 1), '745.7');
+  assert.equal(step('745.7', -1), '745');
+  resetFields('km');
+  assert.equal(step('305', 1), '310');
+  assert.equal(step('300', 1), '310');
+  assert.equal(step('20', -1), '20');
+  resetFields('km');
+});
+
+test('randonnées Visorando : durée et difficulté dans la langue d\'affichage (écran et PDF)', () => {
+  // Valeurs réellement retenues par le serveur (server.js, fetchVisorandoHikes) : exactement celles associées à une clé.
+  const server = fs.readFileSync(path.join(__dirname, '..', 'server.js'), 'utf8');
+  const m = server.match(/title="\((Facile\|[^)]+)\)"/);
+  assert.ok(m, 'expression de la difficulté introuvable dans server.js');
+  const values = m[1].split('|');
+  assert.deepEqual(Object.keys(A.HIKE_DIFFICULTY_KEYS).sort(), values.slice().sort());
+  const bad = [];
+  for(const l of W.I18N.SUPPORTED){
+    A.setLang(l);
+    for(const raw of values){
+      const s = A.hikeDifficultyText(raw);
+      // Clé traduite (« Facile », « Difficile » s'écrivent aussi ainsi en italien) ; « Moyenne », forme française, jamais ailleurs.
+      if(!s || /\{/.test(s) || s !== W.I18N.t(A.HIKE_DIFFICULTY_KEYS[raw]) || (l !== 'fr' && s === 'Moyenne')) bad.push(l + ' ' + raw + ' : « ' + s + ' »');
+    }
+    if(A.hikeDurationText('5h20') !== A.formatDurationMin(320)) bad.push(l + ' 5h20 : « ' + A.hikeDurationText('5h20') + ' »');
+  }
+  A.setLang('fr');
+  assert.equal(A.hikeDurationText('45min'), A.formatDurationMin(45));
+  assert.equal(A.hikeDurationText('3h'), A.formatDurationMin(180));
+  assert.equal(A.hikeDurationText('5h 20'), A.formatDurationMin(320));
+  assert.equal(A.hikeDurationText('2 jours'), '2 jours', 'valeur inconnue gardée telle quelle');
+  assert.equal(A.hikeDifficultyText('Extrême'), 'Extrême', 'valeur inconnue gardée telle quelle');
+  // PDF : ligne de la randonnée en anglais, sans mot français.
+  A.setLang('en');
+  const trip = fakeTrip('voiture-thermique');
+  Object.assign(trip.legs[0].activities[0], { hikeDuration: '5h20', hikeDifficulty: 'Moyenne' });
+  A.setTrip(trip);
+  const label = A.buildTripExportPayload().legs[0].activities[0].typeLabel;
+  assert.ok(label.indexOf(W.I18N.t('hike.difficulty.medium')) >= 0 && !/Moyenne/.test(label), label);
+  assert.ok(label.indexOf(A.formatDurationMin(320)) >= 0, label);
+  A.setTrip(null);
+  A.setLang('fr');
+  // Écran : même mise en forme dans la carte de la randonnée.
+  assert.match(APP, /metaBits\.push\(escHtml\(hikeDurationText\(hike\.duration\)\)\)/);
+  assert.match(APP, /metaBits\.push\(escHtml\(hikeDifficultyText\(hike\.difficulty\)\)\)/);
+  assert.deepEqual(bad, []);
+});
+
+test('touroyo et adyguéen : dates et montants dans une locale de leur écriture, sans marque bidi', () => {
+  const bad = [];
+  for(const [l, script] of [['tru', /\p{Script=Latin}/u], ['ady', /\p{Script=Cyrillic}/u]]){
+    A.setLang(l);
+    const range = A.formatStayRange('2026-09-20', '2026-09-23');
+    if(/[؀-ۿ]/.test(range) || !script.test(range)) bad.push(l + ' dates : « ' + range + ' »');
+    for(const s of [A.formatMoney(12.5, 'EUR'), A.formatMoney(1234, 'EUR'), A.approxMoneyRange(5.2, 14.7, 'EUR')]){
+      if(/[‎‏؜‪-‮⁦-⁩]/.test(s) || /[٠-٩]/.test(s)) bad.push(l + ' montant : ' + JSON.stringify(s));
+    }
+    if(/^ar/.test(W.I18N.localeTag(l))) bad.push(l + ' : locale ' + W.I18N.localeTag(l));
+  }
+  A.setLang('fr');
+  assert.deepEqual(bad, []);
+});
+
+test('arabe : duel sans nombre répété, signe « ٪ »', () => {
+  A.setLang('ar');
+  assert.ok(A.dualWithoutNumber(2) && !A.dualWithoutNumber(3));
+  const dur = A.durationLabel(3, 2);
+  assert.ok(/ليلتان/.test(dur) && !/٢\s*ليلتان/.test(dur), dur);
+  assert.ok(!/٢\s*يومان/.test(A.durationLabel(2, 1)), A.durationLabel(2, 1));
+  assert.deepEqual(JSON.parse(JSON.stringify(A.countPart(2, 'stats.cities', false))), { value: 'مدينتان', label: '', nounFirst: false });
+  assert.equal(A.countPart(3, 'stats.cities', false).value, '٣');
+  assert.equal(A.formatDistanceValue(2, 'mi'), 'ميلان');
+  const two = A.pluralPhrase('charge.textN', 2, { n: '٢', min: '٣٠' });
+  assert.ok(/^توقفا/.test(two), two);
+  assert.ok(/^٥ /.test(A.pluralPhrase('charge.textN', 5, { n: '٥', min: '٣٠' })));
+  const pack = W.I18N.tl('pack.voitureElectrique').join(' ');
+  assert.ok(/٢٠٪/.test(pack) && !/%/.test(pack), pack);
+  // Pastilles du journal de bord : jamais « ٢ مدينتان » ni « ٢ ليلتان ».
+  const legs = [leg('A', { country: 'FR' }), leg('B', { lat: 46, country: 'FR' }), leg('Lyon', { lat: 47, isReturn: true, labelKind: 'dayReturn' })];
+  const parts = A.tripStatsParts({ legs, days: 3, transportKey: 'voiture-thermique' });
+  assert.ok(parts.every(p => !/٢\s*(مدينتان|ليلتان)/.test(p.value + ' ' + p.label)), JSON.stringify(parts));
+  A.setLang('fr');
+  assert.equal(A.durationLabel(3, 2), '3 jours (2 nuits)');
+  assert.deepEqual(JSON.parse(JSON.stringify(A.countPart(2, 'stats.cities', false))), { value: '2', label: W.I18N.t('stats.cities'), nounFirst: false });
 });

@@ -1763,7 +1763,6 @@ ru;Перлинг;Perling
 ta;வேளை;Mukim Pulai
 zh;蒲來;Mukim Pulai
 ru;Муким Пулаи;Mukim Pulai
-ms;Mukim_Penyabong;Penyabong
 ru;Бандар Махкота Черас;Bandar Mahkota Cheras
 en;Tioman;Mukim Tioman
 zh-Hant;壟尾;Paya Terubong

@@ -1087,7 +1087,6 @@ ga;Baile an Bheileogaigh;Bellewstown
 ga;Cill Dheirge;Killerrig
 ga;Fionnbhrú;Whitehall
 ga;Cois Bá;Bayside
-ga;Baile an Tirialaigh);Tyrrelstown
 ga;Béal Átha Leice;Ballylickey
 ga;Ros Ó gCairbre;Rosscarbery
 de;Ross Carbery;Rosscarbery

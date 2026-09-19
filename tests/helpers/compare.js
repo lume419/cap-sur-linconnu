@@ -8,17 +8,27 @@
 // Contenu :
 //   - loadEngineAt(root, sources) : charge le moteur d'une racine quelconque (copie extraite de git ou dépôt), avec la
 //     même compilation en mémoire que tests/helpers/engine.js (ligne d'export __test ajoutée, aucun fichier modifié) ;
-//   - buildTirages(n), PAIRS_NAMED, PAIRS_COUNTRIES : jeu de tirages et de trajets FIXE et reproductible ;
+//   - buildTirages(n), PAIRS_NAMED, PAIRS_CROSS, PAIRS_MOTO_TRANSIT, PAIRS_FERRY, PAIRS_COUNTRIES : jeu de tirages et de
+//     trajets FIXE et reproductible ;
 //   - runWorker(job) : exécute le jeu avec un moteur et renvoie les résultats résumés (un processus par moteur) ;
-//   - compareRuns(a, b) et formatReport(rapport) : différences, temps de calcul, résumé par catégorie.
+//   - compareRuns(a, b) et formatReport(rapport) : différences, couverture, temps de calcul (alerte globale), résumé par
+//     catégorie, trajets directs, hébergement, temps réel.
+// 14e audit du 19/09/2026 : moto en vrai transit, étapes avec traversée dans les trajets directs (directHop), hébergement,
+// bornes, couverture du prix des ferries, pays traversés et restrictions comparés ; aller-retour près d'un pays plus rapide et
+// petites distances ; tension au départ comparée seulement si les deux résultats la portent ; alerte de ralentissement
+// global ; option --temps-reel (voir tests/compare-engine.js).
 'use strict';
 const fs = require('fs');
 const path = require('path');
 const Module = require('module');
 
 // Mêmes noms que tests/helpers/engine.js (13e audit : repris ici car ce fichier-là charge toujours le moteur du dépôt).
+// 14e audit du 19/09/2026 : fonctions de l'étape avec traversée (même enchaînement que finalizeHop de buildItinerary, voir
+// directHop), restrictions, pays d'un point et liens d'hébergement, pour les trajets directs. Absente d'une ancienne version :
+// undefined (le travailleur saute alors la mesure et le signale).
 const INTERNAL_FUNCS = ['landmassOf', 'zoneOf', 'tollCountryOf', 'motoMotorwayBan', 'normalizeCityName', 'finalizeLeg',
-  'countrySpeedFactor', 'countriesAlong'];
+  'countrySpeedFactor', 'countriesAlong', 'seaCrossingFor', 'ferryRouteFor', 'ferryRoadParts', 'finalizeFerryLeg',
+  'restrictionsForLeg', 'roadDistanceKm', 'countryAtPoint', 'buildLodgingLinks'];
 const INTERNAL_VARS = ['COMMUNES', 'LAST_TRIP_DIAGNOSTIC', 'TRIP_TIME_BUDGET_MS', 'CHARGER_COUNT'];
 
 function compilePatchedAt(root){
@@ -58,10 +68,13 @@ function mulberry32(a){ return function(){ a |= 0; a = a + 0x6D2B79F5 | 0; let t
 function hashStr(s){ let h = 2166136261; for(let i = 0; i < s.length; i++){ h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
 // Graine fixe ET horloge ralentie ×10 (comme runSteady de tests/engine-regressions.test.js) : le budget de 4 s devient
 // 40 s réelles, le résultat ne dépend pas de la charge de la machine. Le temps mesuré est le temps RÉEL du calcul.
-function runSteady(E, params, seed){
+// slow = 1 (14e audit du 19/09/2026, option --temps-reel) : horloge normale, budget de 4 s comme en production — le
+// résultat dépend alors de la machine et de sa charge.
+function runSteady(E, params, seed, slow){
+  const k = slow === undefined ? 10 : slow;
   const NATIVE_RANDOM = Math.random, realNow = Date.now, t0 = realNow();
   Math.random = mulberry32(seed);
-  Date.now = () => t0 + (realNow() - t0) / 10;
+  if(k !== 1) Date.now = () => t0 + (realNow() - t0) / k;
   const h0 = process.hrtime.bigint();
   try {
     const res = E.generateTrip(params);
@@ -104,15 +117,17 @@ const DEPARTURES = [
   ['naha', 'Naha', 'JP', ['ile', 'peage']], ['sapporo', 'Sapporo', 'JP', ['ile', 'peage']], ['palma', 'Palma', 'ES', ['ile']],
   ['cagliari', 'Cagliari', 'IT', ['ile']], ['irakleion', 'Irákleion', 'GR', ['ile']], ['reykjavik', 'Reykjavík', 'IS', ['ile', 'grand-nord']],
   ['hobart', 'Hobart', 'AU', ['ile']], ['honolulu', 'Honolulu', 'US', ['ile']],
-  // Autoroutes interdites aux motos
-  ['seoul', 'Seoul', 'KR', ['moto-interdite', 'peage']], ['busan', 'Busan', 'KR', ['moto-interdite', 'peage']],
-  ['taipei', 'Taipei', 'TW', ['moto-interdite', 'peage']], ['puli', 'Puli', 'TW', ['moto-interdite']],
-  ['bangkok', 'Bangkok', 'TH', ['moto-interdite']], ['chiangmai', 'Chiang Mai', 'TH', ['moto-interdite', 'frontiere']],
-  ['hanoi', 'Hanoi', 'VN', ['moto-interdite', 'frontiere']], ['hcmc', 'Ho Chi Minh City', 'VN', ['moto-interdite']],
-  ['kualalumpur', 'Kuala Lumpur', 'MY', ['moto-interdite', 'peage']], ['kotabharu', 'Kota Bharu', 'MY', ['moto-interdite', 'frontiere']],
-  ['jakarta', 'Jakarta', 'ID', ['moto-interdite', 'peage', 'lent']], ['karachi', 'Karachi', 'PK', ['moto-interdite']],
+  // Autoroutes interdites aux motos, et pays voisins. Étiquette « moto-interdite » CALCULÉE par le travailleur avec
+  // motoMotorwayBan du moteur (interdiction nationale totale), plus écrite à la main (14e audit du 19/09/2026 : Kuala
+  // Lumpur et Kota Bharu la portaient à tort, la Malaisie n'interdit pas ses autoroutes aux motos).
+  ['seoul', 'Seoul', 'KR', ['peage']], ['busan', 'Busan', 'KR', ['peage']],
+  ['taipei', 'Taipei', 'TW', ['peage']], ['puli', 'Puli', 'TW', []],
+  ['bangkok', 'Bangkok', 'TH', []], ['chiangmai', 'Chiang Mai', 'TH', ['frontiere']],
+  ['hanoi', 'Hanoi', 'VN', ['frontiere']], ['hcmc', 'Ho Chi Minh City', 'VN', []],
+  ['kualalumpur', 'Kuala Lumpur', 'MY', ['peage']], ['kotabharu', 'Kota Bharu', 'MY', ['frontiere']],
+  ['jakarta', 'Jakarta', 'ID', ['peage', 'lent']], ['karachi', 'Karachi', 'PK', []],
   // Zones à tension
-  ['kharkiv', 'Kharkiv', 'UA', ['tension']], ['peshawar', 'Peshawar', 'PK', ['tension', 'moto-interdite']],
+  ['kharkiv', 'Kharkiv', 'UA', ['tension']], ['peshawar', 'Peshawar', 'PK', ['tension']],
   ['goma', 'Goma', 'CD', ['tension', 'frontiere']], ['beyrouth', 'Beyrouth', 'LB', ['tension']],
   // Grand Nord, antiméridien
   ['tromso', 'Tromsø', 'NO', ['grand-nord', 'ferry']], ['rovaniemi', 'Rovaniemi', 'FI', ['grand-nord']],
@@ -121,6 +136,18 @@ const DEPARTURES = [
   ['suva', 'Suva', 'FJ', ['ile', 'antimeridien']], ['labasa', 'Labasa', 'FJ', ['ile', 'antimeridien']],
   ['nukualofa', 'Nuku‘alofa', 'TO', ['ile', 'antimeridien']], ['christchurch', 'Christchurch', 'NZ', ['ile']],
 ];
+// Départs des SEULS cas ciblés (14e audit du 19/09/2026) : hors de la rotation des tirages ordinaires, pour ne pas en
+// changer la composition. Même format que DEPARTURES.
+const TARGET_DEPARTURES = [
+  // Pays lents voisins d'un pays plus rapide : plafond annoncé de l'aller-retour (returnCapKm).
+  ['kayes', 'Kayes', 'ML', ['lent', 'frontiere']], ['bihac', ['Bihać', 'Bihac'], 'BA', ['lent', 'frontiere']],
+  // Moto en vrai transit (pays à autoroutes interdites seulement traversé, départ et arrivée dans deux autres pays).
+  ['nanning', 'Nanning', 'CN', ['frontiere']], ['kunming', 'Kunming', 'CN', ['frontiere']],
+  ['myawaddy', 'Myawaddy', 'MM', ['frontiere']], ['luangprabang', 'Luang Prabang', 'LA', ['frontiere']],
+  // Cas de production : itinéraire sous horloge ×10, « éloignement introuvable » en temps réel (voir --temps-reel).
+  ['mutang', 'Mutang', 'CN', []], ['bellavista', 'Bella Vista', 'BZ', []], ['nanma', 'Nanma', 'CN', []],
+];
+function departureOf(key){ return DEPARTURES.find(x => x[0] === key) || TARGET_DEPARTURES.find(x => x[0] === key); }
 const MODES = ['voiture-thermique', 'voiture-hybride', 'voiture-electrique', 'van', 'moto', 'velo'];
 
 // Profils : nom, classe de durée, paramètres selon le mode (le vélo a ses propres échelles de distance).
@@ -145,14 +172,14 @@ const PROFILES = [
 ];
 
 // Cas ciblés, toujours joués : chemins où les 12e et 13e audits ont introduit des régressions.
-//   [départ, mode, nom, paramètres, graine]
+//   [départ, mode, nom, paramètres, graine, options] — options.rt : joué aussi en temps réel avec --temps-reel (14e audit).
 const TARGETED = [];
 (function(){
   // Aller-retour dans la journée depuis Paris : temps de calcul (×7 au 12e audit).
-  for(const s of [1, 2, 3]) TARGETED.push(['paris', 'voiture-thermique', 'cible-1j-perf', { days: 1 }, s]);
+  for(const s of [1, 2, 3]) TARGETED.push(['paris', 'voiture-thermique', 'cible-1j-perf', { days: 1 }, s, { rt: s === 1 }]);
   TARGETED.push(['paris', 'voiture-electrique', 'cible-1j-perf', { days: 1 }, 1]);
-  TARGETED.push(['lyon', 'voiture-thermique', 'cible-1j-min380', { days: 1, minDistanceKm: 380 }, 1]);
-  TARGETED.push(['lyon', 'voiture-thermique', 'cible-1j-min480', { days: 1, minDistanceKm: 480 }, 1]);
+  TARGETED.push(['lyon', 'voiture-thermique', 'cible-1j-min380', { days: 1, minDistanceKm: 380 }, 1, { rt: true }]);
+  TARGETED.push(['lyon', 'voiture-thermique', 'cible-1j-min480', { days: 1, minDistanceKm: 480 }, 1, { rt: true }]);
   // Vélo aller-retour avec éloignement : plafond de la journée (33 km à 15 km/h) — ne dépend pas du pays.
   for(const d of ['paris', 'lyon', 'berlin', 'madrid', 'ulanbator', 'bamako', 'sarajevo', 'antananarivo', 'cebu', 'manila'])
     for(const km of [20, 30, 36, 45]) TARGETED.push([d, 'velo', 'cible-velo-1j-min' + km, { days: 1, minDistanceKm: km }, 1]);
@@ -173,8 +200,42 @@ const TARGETED = [];
   // Îles de pays lents et outre-mer : vitesse du pays ou du mode.
   for(const d of ['cebu', 'davao', 'denpasar', 'naha', 'sapporo', 'ajaccio', 'mamoudzou', 'reunion', 'palma', 'antananarivo'])
     for(const m of ['voiture-thermique', 'moto']) TARGETED.push([d, m, 'cible-ile-3j', { days: 3, maxRadiusKm: 200 }, 1]);
-  // Moto : pays seulement traversé (Kota Bharu → Thaïlande, 12e audit).
-  TARGETED.push(['kotabharu', 'moto', 'cible-moto-traverse', { days: 5, maxRadiusKm: 1500, maxLegKm: 800, minDaysPerCity: 1, maxDaysPerCity: 1, avoidTension: false }, 10]);
+  // Moto : pays seulement traversé (12e audit). 14e audit du 19/09/2026 : Kota Bharu → Bukit Kayu Hitam (graine 10) passe
+  // par la Thaïlande mais reste un trajet INTÉRIEUR (Malaisie → Malaisie : aucun transit depuis le 13e audit) — gardé
+  // comme cas témoin sous ce nom. Les VRAIS transits (départ et arrivée dans deux pays sans interdiction, pays traversé à
+  // autoroutes interdites aux motos d'après motoMotorwayBan et countriesAlong du moteur) sont les tirages ci-dessous,
+  // graines choisies le 19/09/2026 parce qu'elles en produisent un : Viêt Nam entre la Chine et le Laos, Thaïlande entre
+  // la Birmanie et le Laos. Aucun transit possible par la Corée du Sud, Taïwan ou le Sri Lanka (pas de voisin par la
+  // route) ; Malaisie → Cambodge/Laos par la Thaïlande et Inde → Afghanistan par le Pakistan : aucun sur 60 graines
+  // (trajets directs seulement, voir PAIRS_MOTO_TRANSIT). Le rapport compte les tirages avec transit réel (« Couverture »).
+  TARGETED.push(['kotabharu', 'moto', 'cible-moto-interieur-via-TH', { days: 5, maxRadiusKm: 1500, maxLegKm: 800, minDaysPerCity: 1, maxDaysPerCity: 1, avoidTension: false }, 10]);
+  const T5 = { days: 5, maxRadiusKm: 1200, maxLegKm: 900, minDaysPerCity: 1, maxDaysPerCity: 1, avoidTension: false };
+  for(const s of [16, 35]) TARGETED.push(['nanning', 'moto', 'cible-moto-transit-VN-5j', T5, s]);
+  for(const s of [7, 50]) TARGETED.push(['nanning', 'moto', 'cible-moto-transit-VN-2j', { days: 2, minDistanceKm: 700, maxLegKm: 1200, avoidTension: false }, s, { rt: s === 7 }]);
+  for(const s of [17, 43]) TARGETED.push(['kunming', 'moto', 'cible-moto-transit-VN-5j', T5, s]);
+  for(const s of [7, 55]) TARGETED.push(['luangprabang', 'moto', 'cible-moto-transit-VN-3j', { days: 3, minDistanceKm: 500, maxLegKm: 1000, avoidTension: false }, s]);
+  for(const s of [24, 55]) TARGETED.push(['myawaddy', 'moto', 'cible-moto-transit-TH-5j', Object.assign({}, T5, { maxRadiusKm: 900, maxLegKm: 700 }), s]);
+  for(const s of [9, 14]) TARGETED.push(['myawaddy', 'moto', 'cible-moto-transit-TH-3j', { days: 3, minDistanceKm: 400, maxLegKm: 800, avoidTension: false }, s]);
+  // Même tirage en voiture (témoin : aucune restriction, autoroutes permises).
+  TARGETED.push(['nanning', 'voiture-thermique', 'cible-moto-transit-VN-2j-temoin-voiture', { days: 2, minDistanceKm: 700, maxLegKm: 1200, avoidTension: false }, 7]);
+  // Aller-retour dans la journée PRÈS D'UN PAYS PLUS RAPIDE (14e audit) : plafond annoncé (returnCapKm) d'un départ de pays
+  // lent dont la zone atteignable déborde sur un voisin plus rapide (Mali → Sénégal/Guinée, Bosnie → Croatie).
+  for(const d of ['bamako', 'kayes', 'sarajevo', 'bihac'])
+    for(const km of [250, 290, 330, 370]) for(const m of ['voiture-thermique', 'moto'])
+      TARGETED.push([d, m, 'cible-1j-lent-voisin-min' + km, { days: 1, minDistanceKm: km }, 1, { rt: km === 330 }]);
+  // Distance max / étape max de moins de 15 km (plancher de 15 km de l'aller-retour, 14e audit).
+  for(const m of ['voiture-thermique', 'velo']){
+    TARGETED.push(['lyon', m, 'cible-1j-petit-max10', { days: 1, maxDistanceKm: 10 }, 1]);
+    TARGETED.push(['lyon', m, 'cible-1j-petit-etape5', { days: 1, maxLegKm: 5 }, 1]);
+    TARGETED.push(['lyon', m, 'cible-1j-petit-max10-etape5', { days: 1, maxDistanceKm: 10, maxLegKm: 5 }, 1]);
+    TARGETED.push(['lyon', m, 'cible-1j-petit-rayon10', { days: 1, maxRadiusKm: 10 }, 1]);
+    TARGETED.push(['lyon', m, 'cible-3j-petit-etape5', { days: 3, maxLegKm: 5 }, 1]);
+  }
+  // Cas de production (14e audit) : itinéraire sous horloge ×10, « éloignement introuvable » en temps réel avec le
+  // budget de 4 s. Joués aussi en temps réel avec --temps-reel.
+  for(const d of ['mutang', 'bellavista', 'nanma'])
+    for(const m of ['voiture-thermique', 'voiture-hybride', 'voiture-electrique', 'moto'])
+      TARGETED.push([d, m, 'cible-prod-5j-min649', { days: 5, minDistanceKm: 649 }, 1, { rt: true }]);
   // Ferries avec parties routières (Stuttgart/Bratislava au 12e audit).
   TARGETED.push(['bratislava', 'voiture-thermique', 'cible-ferry-12j', { days: 12, maxRadiusKm: 1500, maxLegKm: 1500, minDistanceKm: 700, maxDistanceKm: 1500, minDaysPerCity: 2, maxDaysPerCity: 3 }, 1]);
   TARGETED.push(['puli', 'voiture-thermique', 'cible-puli-8j', { days: 8, ferryEnabled: false, maxRadiusKm: 3000, minDistanceKm: 1500 }, 70104]);
@@ -186,7 +247,7 @@ function durationClass(days){ return days === 1 ? '1j' : days <= 3 ? '2-3j' : da
 // choisi par une rotation différente de celle des modes, pour croiser modes, durées et options.
 function buildTirages(n){
   const out = [];
-  TARGETED.forEach(t => out.push({ dep: t[0], mode: t[1], profile: t[2], extra: t[3], seed: t[4] }));
+  TARGETED.forEach(t => out.push({ dep: t[0], mode: t[1], profile: t[2], extra: t[3], seed: t[4], rt: !!(t[5] && t[5].rt) }));
   const rest = Math.max(0, n - out.length);
   const per = Math.max(1, Math.ceil(rest / DEPARTURES.length));
   let count = 0;
@@ -205,7 +266,9 @@ function buildTirages(n){
 }
 
 // ------------------------------------------------------------------------------------------------ trajets directs
-// Paires nommées : îles de pays lents ou rapides, outre-mer, continents, frontières, moto interdite.
+// Paires nommées : îles de pays lents ou rapides, outre-mer, continents, frontières. Le suffixe « moto-interdite » (pays
+// d'une extrémité) ou « moto-transit » (pays seulement traversé) du groupe est CALCULÉ par le travailleur avec
+// motoMotorwayBan et countriesAlong du moteur (14e audit du 19/09/2026 : plus d'étiquette écrite à la main, voir DEPARTURES).
 const PAIRS_NAMED = [
   ['Cebu City', 'Toledo', 'PH', 'ile-lent'], ['Cebu City', 'Bogo', 'PH', 'ile-lent'], ['Lapu-Lapu', 'Toledo', 'PH', 'ile-lent'],
   ['Manila', 'Baguio', 'PH', 'lent'], ['Davao', 'Cagayan de Oro', 'PH', 'ile-lent'],
@@ -220,15 +283,41 @@ const PAIRS_NAMED = [
   ['Sarajevo', 'Mostar', 'BA', 'lent'], ['Sarajevo', 'Tuzla', 'BA', 'lent'], ['Banja Luka', 'Sarajevo', 'BA', 'lent'],
   ['Paris', 'Lyon', 'FR', 'rapide'], ['Lyon', 'Marseille', 'FR', 'rapide'], ['Paris', 'Rouen', 'FR', 'rapide'], ['Berlin', 'München', 'DE', 'rapide'],
   ['Hamburg', 'Bremen', 'DE', 'rapide'], ['Madrid', 'Valencia', 'ES', 'rapide'], ['Milano', 'Bologna', 'IT', 'rapide'],
-  ['Seoul', 'Daejeon', 'KR', 'moto-interdite'], ['Taipei', 'Taichung', 'TW', 'moto-interdite'], ['Bangkok', 'Pattaya', 'TH', 'moto-interdite'],
-  ['Hanoi', ['Haiphong', 'Hai Phong', 'Hải Phòng'], 'VN', 'moto-interdite'], ['Kuala Lumpur', 'Ipoh', 'MY', 'moto-interdite'], ['Karachi', 'Hyderabad', 'PK', 'moto-interdite'],
+  ['Seoul', 'Daejeon', 'KR', 'continent'], ['Taipei', 'Taichung', 'TW', 'continent'], ['Bangkok', 'Pattaya', 'TH', 'continent'],
+  ['Hanoi', ['Haiphong', 'Hai Phong', 'Hải Phòng'], 'VN', 'continent'], ['Kuala Lumpur', 'Ipoh', 'MY', 'continent'], ['Karachi', 'Hyderabad', 'PK', 'continent'],
   ['Anchorage', 'Fairbanks', 'US', 'grand-nord'], ['Tromsø', 'Narvik', 'NO', 'grand-nord'], ['Rovaniemi', 'Oulu', 'FI', 'grand-nord'],
 ];
 // Paires frontalières : [nom, pays, nom, pays, étiquette].
 const PAIRS_CROSS = [
   ['Strasbourg', 'FR', 'Freiburg', 'DE', 'frontiere'], ['Lille', 'FR', 'Bruxelles', 'BE', 'frontiere'], ['Genève', 'CH', 'Annecy', 'FR', 'frontiere'],
-  ['Wien', 'AT', 'Bratislava', 'SK', 'frontiere'], ['Kota Bharu', 'MY', 'Hat Yai', 'TH', 'moto-interdite'], ['Ciudad Juárez', 'MX', 'Chihuahua', 'MX', 'peage'],
+  ['Wien', 'AT', 'Bratislava', 'SK', 'frontiere'], ['Kota Bharu', 'MY', 'Hat Yai', 'TH', 'frontiere'], ['Ciudad Juárez', 'MX', 'Chihuahua', 'MX', 'peage'],
   ['Ljubljana', 'SI', 'Zagreb', 'HR', 'frontiere'], ['Salzburg', 'AT', 'München', 'DE', 'frontiere'], ['Basel', 'CH', 'Mulhouse', 'FR', 'frontiere'],
+];
+// Moto en VRAI transit (14e audit du 19/09/2026) : [nom, pays, nom, pays, étiquette]. Vérifié le 19/09/2026 avec
+// countriesAlong et motoMotorwayBan du moteur : aucune des deux extrémités n'est dans un pays à autoroutes interdites
+// (interdiction nationale totale), le trait traverse un tel pays. Kota Bharu → Siem Reap : témoin (le trait passe par
+// le golfe de Thaïlande, aucun transit). Le groupe reçoit « moto-transit » seulement si le moteur le confirme.
+const PAIRS_MOTO_TRANSIT = [
+  ['Nanning', 'CN', 'Luang Prabang', 'LA', 'transit-VN'], ['Nanning', 'CN', 'Vientiane', 'LA', 'transit-VN'],
+  ['Kunming', 'CN', 'Vientiane', 'LA', 'transit-VN'], ['Nanning', 'CN', 'Phnom Penh', 'KH', 'transit-VN'],
+  ['Alor Setar', 'MY', 'Battambang', 'KH', 'transit-TH'], ['Alor Setar', 'MY', 'Vientiane', 'LA', 'transit-TH'],
+  ['Myawaddy', 'MM', 'Vientiane', 'LA', 'transit-TH'], ['Amritsar', 'IN', 'Kabul', 'AF', 'transit-PK'],
+  ['Amritsar', 'IN', 'Jalalabad', 'AF', 'transit-PK'], ['Zahedan', 'IR', 'Kandahar', 'AF', 'transit-PK'],
+  ['Kota Bharu', 'MY', 'Siem Reap', 'KH', 'temoin-sans-transit'],
+];
+// Étapes avec TRAVERSÉE (14e audit) : [nom, pays, nom, pays, étiquette]. Jouées par directHop, même enchaînement que
+// finalizeHop de buildItinerary (traversée entre zones, puis liaison entre masses terrestres, sinon finalizeLeg) :
+// finalizeFerryLeg avec ses parties routières, péages, recharges, pays traversés et couverture du prix. Liaison vérifiée
+// le 19/09/2026 (ferryRouteFor / seaCrossingFor) ; une paire sans liaison est jouée quand même (étape par la route).
+const PAIRS_FERRY = [
+  ['Bastia', 'FR', 'Nice', 'FR', 'ferry'], ['Nice', 'FR', 'Bastia', 'FR', 'ferry'], ['Ajaccio', 'FR', 'Marseille', 'FR', 'ferry'],
+  ['Palma', 'ES', 'Barcelona', 'ES', 'ferry'], ['Stuttgart', 'DE', 'Cagliari', 'IT', 'ferry-transit'], ['Bratislava', 'SK', 'Palermo', 'IT', 'ferry-transit'],
+  ['Olbia', 'IT', 'Livorno', 'IT', 'ferry'], ['Palermo', 'IT', 'Napoli', 'IT', 'ferry'], ['Naha', 'JP', 'Kagoshima', 'JP', 'ferry'],
+  ['Hakodate', 'JP', 'Aomori', 'JP', 'ferry'], ['Denpasar', 'ID', 'Surabaya', 'ID', 'ferry'], ['Cebu City', 'PH', 'Tagbilaran', 'PH', 'ferry'],
+  ['Ceuta', 'ES', 'Algeciras', 'ES', 'ferry-zone'], ['Hobart', 'AU', 'Melbourne', 'AU', 'ferry'], ['Wellington', 'NZ', 'Christchurch', 'NZ', 'ferry'],
+  ['Jeju', 'KR', 'Seoul', 'KR', 'ferry'], ['Magong', 'TW', 'Taipei', 'TW', 'ferry'], ['Dzaoudzi', 'FR', 'Mamoudzou', 'FR', 'ferry'],
+  ['London', 'GB', 'Paris', 'FR', 'ferry'], ['Dublin', 'IE', 'Liverpool', 'GB', 'ferry'], ['Split', 'HR', 'Supetar', 'HR', 'ferry'],
+  ['Visby', 'SE', 'Stockholm', 'SE', 'ferry'],
 ];
 // Pays des paires automatiques : les plus grandes villes du pays, appariées deux à deux (20 à 500 km par la route).
 const PAIRS_COUNTRIES = ['FR', 'DE', 'ES', 'IT', 'PT', 'GB', 'IE', 'NL', 'BE', 'CH', 'AT', 'PL', 'CZ', 'HU', 'RO', 'HR', 'GR', 'TR', 'NO', 'SE',
@@ -238,27 +327,103 @@ const PAIRS_PER_COUNTRY = 3;
 
 // ------------------------------------------------------------------------------------------------ résumé d'un tirage
 function round1(x){ return typeof x === 'number' ? Math.round(x * 10) / 10 : x; }
-function summarizeLeg(l){
-  const o = { stop: l.stop, cc: l.country, day: l.dayNum, km: l.distanceKm, min: l.travelMin };
+// 14e audit du 19/09/2026 : résumé élargi — péage avec tollInfo.enabled, traversée avec la couverture du prix (priceCovers,
+// footAmount, durationEstimated, mode, priceStatus, durationH), recharge avec les bornes (stations : lieu proche et
+// position arrondie), hébergement (dates, devise et plafond des liens, plateformes). Partagé par les tirages et les trajets
+// directs (summarizeLegInfo).
+function summarizeToll(t){ return t ? [round1(t.amountMin), round1(t.amount), (t.countries || []).join('+'), t.enabled === undefined ? null : !!t.enabled] : null; }
+function summarizeFerry(f){
+  if(!f) return null;
+  const o = { route: f.routeKey, amount: f.amount === undefined ? null : f.amount };
+  ['priceStatus', 'priceCovers', 'footAmount', 'durationEstimated', 'mode', 'durationH'].forEach(k => { if(f[k] !== undefined && f[k] !== null) o[k] = f[k]; });
+  return o;
+}
+function summarizeCharge(c){
+  if(!c) return null;
+  const o = { stops: c.stops, min: c.minutes, real: !!c.real };
+  if(c.noChargerNearArrival) o.noCharger = true;
+  if(c.stations && c.stations.length) o.stations = c.stations.map(s => (s.near || '?') + '@' + (+s.lat).toFixed(2) + ',' + (+s.lon).toFixed(2));
+  return o;
+}
+// Liens d'hébergement : devise et plafond lus dans les URL (paramètres currency/price_max d'Airbnb, nflt de Booking.com),
+// plateformes présentes, plateformes locales. Même lecture pour les deux versions.
+function summarizeLodgingLinks(links){
+  if(!links) return null;
+  const o = { platforms: Object.keys(links).sort().join('+') };
+  const air = links.airbnb && String(links.airbnb);
+  if(air){ const cur = air.match(/[?&]currency=([A-Z]{3})/), max = air.match(/[?&]price_max=(\d+(?:\.\d+)?)/); o.airbnb = (cur ? cur[1] : '?') + ' ' + (max ? max[1] : '?'); }
+  const bk = links.booking && String(links.booking);
+  if(bk){ const m = decodeURIComponent(bk).match(/price=([A-Z]{3})-0-(\d+(?:\.\d+)?)/); o.booking = m ? m[1] + ' ' + m[2] : '?'; }
+  if(links.local) o.local = links.local.map(p => p.name).join('+');
+  return o;
+}
+function summarizeLegInfo(l, o){
+  o = o || {};
   if(l.roadKm !== undefined){ o.roadKm = l.roadKm; o.roadMin = l.roadMin; }
-  if(l.tollInfo) o.toll = [round1(l.tollInfo.amountMin), round1(l.tollInfo.amount), (l.tollInfo.countries || []).join('+')];
-  if(l.ferryInfo) o.ferry = [l.ferryInfo.routeKey, l.ferryInfo.amount === undefined ? null : l.ferryInfo.amount];
-  if(l.chargeInfo) o.charge = [l.chargeInfo.stops, l.chargeInfo.minutes, !!l.chargeInfo.noChargerNearArrival];
+  if(l.tollInfo) o.toll = summarizeToll(l.tollInfo);
+  if(l.ferryInfo) o.ferry = summarizeFerry(l.ferryInfo);
+  if(l.chargeInfo) o.charge = summarizeCharge(l.chargeInfo);
   if(l.restrictions && l.restrictions.length) o.warn = l.restrictions.map(r => r.kind + ':' + r.type + ':' + (r.country || r.name || '')).sort();
   if(l.countriesCrossed && l.countriesCrossed.length) o.crossed = l.countriesCrossed.slice().sort();
+  return o;
+}
+function summarizeLeg(l){
+  const o = summarizeLegInfo(l, { stop: l.stop, cc: l.country, day: l.dayNum, km: l.distanceKm, min: l.travelMin });
   if(l.overMaxLeg) o.over = 1;
   if(l.tension) o.tension = l.tension.level || 1;
+  if(l.checkIn || l.lodgingLinks) o.lodg = { dates: (l.checkIn || '') + '/' + (l.checkOut || ''), stay: l.lodgingCheckIn ? l.lodgingCheckIn + '/' + l.lodgingCheckOut : null, links: summarizeLodgingLinks(l.lodgingLinks) };
   return o;
 }
 function summarizeResult(res){
   const legs = res.legs || [];
-  return {
-    diag: { minDistanceUnreachable: !!res.minDistanceUnreachable, returnCapKm: res.returnCapKm === undefined ? null : res.returnCapKm,
-      minDistanceNotFound: !!res.minDistanceNotFound, timedOut: !!res.timedOut, tensionBlocked: !!res.tensionBlocked,
-      departureTension: res.departureTension ? (res.departureTension.level || 1) : null },
-    legs: legs.map(summarizeLeg),
-    notices: (res.notices || []).slice().sort(),
-  };
+  const diag = { minDistanceUnreachable: !!res.minDistanceUnreachable, returnCapKm: res.returnCapKm === undefined ? null : res.returnCapKm,
+    minDistanceNotFound: !!res.minDistanceNotFound, timedOut: !!res.timedOut, tensionBlocked: !!res.tensionBlocked };
+  // Tension au départ : seulement si le résultat porte la donnée (14e audit : un résultat vide — diagnostic — n'a pas de
+  // departureTension ; « null → red » quand un diagnostic devenait un itinéraire était un faux positif).
+  if(Object.prototype.hasOwnProperty.call(res, 'departureTension')) diag.departureTension = res.departureTension ? (res.departureTension.level || 1) : null;
+  return { diag, legs: legs.map(summarizeLeg), notices: (res.notices || []).slice().sort() };
+}
+
+// Couverture d'un tirage (14e audit) : ce que le tirage exerce vraiment, pour vérifier que le jeu couvre bien les chemins
+// visés (moto en vrai transit, traversées, bornes réelles). banFull(cc) : interdiction nationale totale (motoMotorwayBan).
+function coverageOf(res, depCc, mode, banFull){
+  const cov = {};
+  let prev = { country: depCc };
+  (res.legs || []).forEach(l => {
+    if(l.distanceKm == null && !l.isReturn){ prev = l; return; }
+    if(l.ferryInfo) cov.ferry = 1;
+    if(l.chargeInfo && l.chargeInfo.stations && l.chargeInfo.stations.length) cov.bornes = 1;
+    if(mode === 'moto' && prev.country && l.country && prev.country !== l.country && !banFull(prev.country) && !banFull(l.country) &&
+      (l.countriesCrossed || []).some(cc => cc !== prev.country && cc !== l.country && banFull(cc))) cov.motoTransit = 1;
+    if(mode === 'moto' && prev.country === l.country && (l.countriesCrossed || []).some(cc => cc !== l.country && banFull(cc))) cov.motoInterieurVia = 1;
+    prev = l;
+  });
+  return cov;
+}
+
+// Étape directe, même enchaînement que finalizeHop (buildItinerary) : traversée entre zones (Ceuta/Melilla…), sinon
+// liaison entre masses terrestres, sinon finalizeLeg. Pays traversés : ceux de l'étape avec traversée, sinon countriesAlong
+// (comme generateTrip, pas pour le vélo). Restrictions van/moto : restrictionsForLeg comme generateTrip.
+function directHop(A, TD, mode, a, b, km, tollEnabled){
+  const speed = TD.TRANSPORT[mode].speed;
+  let leg = null;
+  if(A.zoneOf && A.seaCrossingFor && A.ferryRoadParts && A.finalizeFerryLeg){
+    const fz = A.zoneOf(a), tz = A.zoneOf(b), crossing = A.seaCrossingFor(fz, tz);
+    if(crossing) leg = A.finalizeFerryLeg(mode, crossing, A.ferryRoadParts(a, b, fz, tz, crossing), speed, tollEnabled, a, b);
+    else {
+      const fl = A.landmassOf(a), tl = A.landmassOf(b);
+      const route = fl !== tl && A.ferryRouteFor ? A.ferryRouteFor(fl, tl) : null;
+      if(route) leg = A.finalizeFerryLeg(mode, route, A.ferryRoadParts(a, b, fl, tl, route), speed, tollEnabled, a, b);
+    }
+  }
+  if(!leg) leg = A.finalizeLeg(km, speed, mode, tollEnabled, A.tollCountryOf ? A.tollCountryOf(b) : b.country, a, b);
+  if(mode !== 'velo' && !leg.ferryInfo && A.countriesAlong) leg.countriesCrossed = A.countriesAlong(a, b);
+  if((mode === 'van' || mode === 'moto') && A.restrictionsForLeg){
+    // to.countriesCrossed : posé par generateTrip avant restrictionsForLeg, qui y lit les pays seulement traversés.
+    const r = A.restrictionsForLeg(mode, a, Object.assign({}, b, { countriesCrossed: leg.countriesCrossed || [] }), {});
+    if(r.length) leg.restrictions = r;
+  }
+  return leg;
 }
 
 // ------------------------------------------------------------------------------------------------ travailleur
@@ -285,36 +450,68 @@ async function runWorker(job, log){
   log('moteur chargé en ' + Math.round(loadMs / 1000) + ' s, ' + Math.round(process.memoryUsage().rss / 1048576) + ' Mo');
   const byCc = new Map();
   for(const c of A.COMMUNES){ let a = byCc.get(c.country); if(!a) byCc.set(c.country, a = []); a.push(c); }
+  // Interdiction nationale totale des autoroutes aux motos, d'après CE moteur (14e audit : étiquettes calculées).
+  const banFull = cc => { const b = cc && A.motoMotorwayBan ? A.motoMotorwayBan(cc) : null; return !!(b && b.fullBan); };
+  const missingFn = INTERNAL_FUNCS.filter(n => typeof A[n] !== 'function');
 
   // Tirages
   const tirages = buildTirages(job.n);
-  const out = { label: job.label, root: job.root, loadMs, budgetMs: A.TRIP_TIME_BUDGET_MS, chargers: A.CHARGER_COUNT, tirages: [], legs: [], missing: [] };
+  const out = { label: job.label, root: job.root, loadMs, budgetMs: A.TRIP_TIME_BUDGET_MS, chargers: A.CHARGER_COUNT, tirages: [], legs: [], lodging: [], realtime: null, missing: [], missingFn };
   const depCache = new Map();
-  const tStart = Date.now();
-  tirages.forEach((t, i) => {
-    const d = DEPARTURES.find(x => x[0] === t.dep);
+  const paramsOf = t => {
+    const d = departureOf(t.dep);
     if(!depCache.has(t.dep)) depCache.set(t.dep, findPlaceIn(byCc, A, d[1], d[2]));
     const place = depCache.get(t.dep);
-    if(!place){ out.missing.push('départ ' + t.dep); return; }
-    const params = Object.assign({ departureCity: depObj(place), days: 1, budgetKey: 'moyen', transportKey: t.mode, tollEnabled: true,
-      ferryEnabled: true, avoidTent: false, avoidTension: true, tripStart: '2026-10-01' }, t.extra);
+    if(!place) return null;
+    return { d, place, params: Object.assign({ departureCity: depObj(place), days: 1, budgetKey: 'moyen', transportKey: t.mode, tollEnabled: true,
+      ferryEnabled: true, avoidTent: false, avoidTension: true, tripStart: '2026-10-01' }, t.extra) };
+  };
+  const tagsOf = d => d[3].concat(banFull(d[2]) ? ['moto-interdite'] : []);
+  const tStart = Date.now();
+  tirages.forEach((t, i) => {
+    const p = paramsOf(t);
+    if(!p){ out.missing.push('départ ' + t.dep); return; }
+    const { d, place, params } = p;
     let r;
     try { r = runSteady(E, params, t.seed); }
-    catch(e){ out.tirages.push({ id: t.id, dep: t.dep, cc: d[2], tags: d[3], mode: t.mode, profile: t.profile, days: params.days, error: String(e && e.stack || e).slice(0, 500) }); return; }
-    out.tirages.push({ id: t.id, dep: t.dep, cc: d[2], tags: d[3], mode: t.mode, profile: t.profile, days: params.days,
-      depPt: pt(place), ms: Math.round(r.ms), sum: summarizeResult(r.res) });
+    catch(e){ out.tirages.push({ id: t.id, dep: t.dep, cc: d[2], tags: tagsOf(d), mode: t.mode, profile: t.profile, days: params.days, error: String(e && e.stack || e).slice(0, 500) }); return; }
+    out.tirages.push({ id: t.id, dep: t.dep, cc: d[2], tags: tagsOf(d), mode: t.mode, profile: t.profile, days: params.days,
+      depPt: pt(place), ms: Math.round(r.ms), sum: summarizeResult(r.res), cov: coverageOf(r.res, d[2], t.mode, banFull) });
     if((i + 1) % 25 === 0) log((i + 1) + '/' + tirages.length + ' tirages, ' + Math.round((Date.now() - tStart) / 1000) + ' s');
   });
 
-  // Appels directs de finalizeLeg : durée, péage, recharge sans l'aléa du tirage.
+  // Temps réel (14e audit, option --temps-reel) : sous-ensemble des cas ciblés rejoué avec l'horloge NORMALE (budget de
+  // 4 s comme en production). Dépend de la machine et de sa charge (et de l'autre moteur s'ils tournent en parallèle).
+  if(job.realtime){
+    out.realtime = [];
+    tirages.filter(t => t.rt).forEach(t => {
+      const p = paramsOf(t);
+      if(!p) return;
+      try {
+        const r = runSteady(E, p.params, t.seed, 1);
+        out.realtime.push({ id: t.id, ms: Math.round(r.ms), sum: summarizeResult(r.res) });
+      } catch(e){ out.realtime.push({ id: t.id, error: String(e && e.message || e).slice(0, 300) }); }
+    });
+    log('temps réel : ' + out.realtime.length + ' tirages');
+  }
+
+  // Appels directs : durée, péage, recharge, traversée, pays, restrictions, sans l'aléa du tirage.
   const pairs = [];
   PAIRS_NAMED.forEach(p => pairs.push([p[0], p[2], p[1], p[2], p[3]]));
   PAIRS_CROSS.forEach(p => pairs.push(p));
+  PAIRS_MOTO_TRANSIT.forEach(p => pairs.push(p));
+  PAIRS_FERRY.forEach(p => pairs.push(p));
   const resolved = [];
+  // Suffixe du groupe calculé avec le moteur : « moto-interdite » (pays d'une extrémité), « moto-transit » (pays traversé).
+  const motoSuffix = (a, b) => {
+    if(banFull(a.country) || banFull(b.country)) return ' moto-interdite';
+    if(a.country !== b.country && A.countriesAlong && A.countriesAlong(a, b).some(cc => cc !== a.country && cc !== b.country && banFull(cc))) return ' moto-transit';
+    return '';
+  };
   pairs.forEach(p => {
     const a = findPlaceIn(byCc, A, p[0], p[1]), b = findPlaceIn(byCc, A, p[2], p[3]);
     if(!a || !b){ out.missing.push('paire ' + p[0] + ' → ' + p[2] + ' (' + p[1] + ')'); return; }
-    resolved.push({ a, b, group: p[1] + ' ' + p[4] });
+    resolved.push({ a, b, group: p[1] + ' ' + p[4] + motoSuffix(a, b) });
   });
   PAIRS_COUNTRIES.forEach(cc => {
     const list = (byCc.get(cc) || []).filter(c => c.pop >= 20000)
@@ -323,36 +520,49 @@ async function runWorker(job, log){
     for(let i = 0; i + 1 < list.length && n < PAIRS_PER_COUNTRY; i += 2){
       const km = hav(list[i].lat, list[i].lon, list[i + 1].lat, list[i + 1].lon) * 1.287;
       if(km < 20 || km > 500) continue;
-      resolved.push({ a: list[i], b: list[i + 1], group: cc + ' auto' }); n++;
+      resolved.push({ a: list[i], b: list[i + 1], group: cc + ' auto' + motoSuffix(list[i], list[i + 1]) }); n++;
     }
   });
-  const fl = A.finalizeLeg, seenPair = new Set();
+  const seenPair = new Set();
+  // Variante « sans péage » de la voiture thermique : tollInfo.enabled (14e audit).
+  const variants = MODES.map(m => [m, m, true]).concat([['voiture-thermique', 'voiture-thermique sans péage', false]]);
   resolved.forEach(({ a, b, group }) => {
     const pk = a.name + '|' + a.country + '|' + b.name + '|' + b.country;
     if(seenPair.has(pk)) return; // paire nommée aussi tirée parmi les grandes villes du pays
     seenPair.add(pk);
     const km = Math.round(hav(a.lat, a.lon, b.lat, b.lon) * 1.287);
-    for(const mode of MODES){
-      const id = a.name + ' (' + a.country + ') → ' + b.name + ' (' + b.country + ') | ' + mode;
+    for(const [mode, modeLabel, toll] of variants){
+      const id = a.name + ' (' + a.country + ') → ' + b.name + ' (' + b.country + ') | ' + modeLabel;
       try {
-        const country = A.tollCountryOf ? A.tollCountryOf(b) : b.country;
         const h0 = process.hrtime.bigint();
-        const leg = fl(km, TD.TRANSPORT[mode].speed, mode, true, country, a, b);
+        const leg = directHop(A, TD, mode, a, b, km, toll);
         const ms = Number(process.hrtime.bigint() - h0) / 1e6;
-        out.legs.push({ id, group, mode, km, min: leg.travelMin, ms: Math.round(ms * 10) / 10,
-          toll: leg.tollInfo ? [round1(leg.tollInfo.amountMin), round1(leg.tollInfo.amount), (leg.tollInfo.countries || []).join('+')] : null,
-          charge: leg.chargeInfo ? [leg.chargeInfo.stops, leg.chargeInfo.minutes] : null });
-      } catch(e){ out.legs.push({ id, group, mode, km, error: String(e && e.message || e).slice(0, 300) }); }
+        out.legs.push(Object.assign({ id, group, mode: modeLabel, km, min: leg.travelMin, ms: Math.round(ms * 10) / 10 }, summarizeLegInfo(leg)));
+      } catch(e){ out.legs.push({ id, group, mode: modeLabel, km, error: String(e && e.message || e).slice(0, 300) }); }
     }
   });
+
+  // Hébergement (14e audit) : plafond lodgingPriceCap et liens buildLodgingLinks par pays × palier × devise choisie.
+  if(typeof TD.lodgingPriceCap === 'function'){
+    const budgets = Object.keys(TD.LODGING_BASE_EUR || { petit: 1, moyen: 1, confort: 1 });
+    const currencies = [null, 'EUR', 'USD', 'JPY', 'XOF'];
+    Object.keys(TD.COUNTRIES || {}).sort().forEach(cc => budgets.forEach(bk => currencies.forEach(cur => {
+      const id = cc + '|' + bk + '|' + (cur || 'pays');
+      try {
+        const cap = TD.lodgingPriceCap(cc, bk, cur);
+        const links = A.buildLodgingLinks ? summarizeLodgingLinks(A.buildLodgingLinks('Ville', '2026-10-01', '2026-10-03', bk, cc, cur)) : null;
+        out.lodging.push({ id, cc, cap: cap ? cap.currency + ' ' + cap.max : null, links });
+      } catch(e){ out.lodging.push({ id, cc, error: String(e && e.message || e).slice(0, 200) }); }
+    })));
+  }
   out.totalMs = Date.now() - t0;
   out.rssMb = Math.round(process.memoryUsage().rss / 1048576);
-  log('terminé : ' + out.tirages.length + ' tirages, ' + out.legs.length + ' trajets directs, ' + Math.round(out.totalMs / 1000) + ' s');
+  log('terminé : ' + out.tirages.length + ' tirages, ' + out.legs.length + ' trajets directs, ' + out.lodging.length + ' plafonds d\'hébergement, ' + Math.round(out.totalMs / 1000) + ' s');
   return out;
 }
 
 // ------------------------------------------------------------------------------------------------ comparaison
-const KINDS = ['erreur', 'depart', 'diagnostic', 'nbEtapes', 'etapes', 'distances', 'durees', 'peages', 'ferries', 'recharge', 'avertissements', 'pays', 'tension'];
+const KINDS = ['erreur', 'depart', 'diagnostic', 'nbEtapes', 'etapes', 'distances', 'durees', 'peages', 'ferries', 'recharge', 'hebergement', 'avertissements', 'pays', 'tension'];
 const J = x => JSON.stringify(x === undefined ? null : x);
 function fmtMin(m){ return m == null ? '—' : Math.floor(m / 60) + 'h' + String(m % 60).padStart(2, '0'); }
 function diagStr(d, n){
@@ -375,12 +585,15 @@ function compareTirage(a, b){
     if(J(a.error) !== J(b.error)){ kinds.add('erreur'); det.push('erreur : ' + (a.error || 'aucune').split('\n')[0] + ' → ' + (b.error || 'aucune').split('\n')[0]); }
     return { kinds: [...kinds], det };
   }
-  if(J(a.depPt) !== J(b.depPt)){ kinds.add('depart'); det.push('départ résolu différemment : ' + J(a.depPt) + ' → ' + J(b.depPt)); }
+  if(a.depPt && b.depPt && J(a.depPt) !== J(b.depPt)){ kinds.add('depart'); det.push('départ résolu différemment : ' + J(a.depPt) + ' → ' + J(b.depPt)); }
   const da = a.sum.diag, db = b.sum.diag, la = a.sum.legs, lb = b.sum.legs;
   let trans = null;
   const diagKeys = ['minDistanceUnreachable', 'returnCapKm', 'minDistanceNotFound', 'timedOut', 'tensionBlocked'];
   if(diagKeys.some(k => da[k] !== db[k]) || (!la.length) !== (!lb.length)){ kinds.add('diagnostic'); det.push('diagnostic : ' + diagStr(da, la.length) + ' → ' + diagStr(db, lb.length)); trans = diagShort(da, la.length) + ' → ' + diagShort(db, lb.length); }
-  if(da.departureTension !== db.departureTension){ kinds.add('tension'); det.push('tension au départ : ' + da.departureTension + ' → ' + db.departureTension); }
+  // Tension au départ : seulement si les DEUX résultats portent la donnée (14e audit du 19/09/2026). Un diagnostic (tirage
+  // vide) ne la porte pas : son passage à un itinéraire est déjà compté dans « diagnostic ».
+  const has = (o, k) => Object.prototype.hasOwnProperty.call(o, k);
+  if(has(da, 'departureTension') && has(db, 'departureTension') && da.departureTension !== db.departureTension){ kinds.add('tension'); det.push('tension au départ : ' + da.departureTension + ' → ' + db.departureTension); }
   if(J(a.sum.notices) !== J(b.sum.notices)){ kinds.add('avertissements'); det.push('avis : ' + J(a.sum.notices) + ' → ' + J(b.sum.notices)); }
   if(la.length !== lb.length && la.length && lb.length){ kinds.add('nbEtapes'); det.push('trajets : ' + la.length + ' → ' + lb.length); }
   const route = l => l.map(x => x.stop + (x.cc ? '/' + x.cc : '')).join(' → ');
@@ -399,6 +612,7 @@ function compareTirage(a, b){
       if(J(x.toll) !== J(y.toll)){ kinds.add('peages'); det.push(w + 'péage ' + J(x.toll) + ' → ' + J(y.toll)); }
       if(J(x.ferry) !== J(y.ferry)){ kinds.add('ferries'); det.push(w + 'ferry ' + J(x.ferry) + ' → ' + J(y.ferry)); }
       if(J(x.charge) !== J(y.charge)){ kinds.add('recharge'); det.push(w + 'recharge ' + J(x.charge) + ' → ' + J(y.charge)); }
+      if(J(x.lodg) !== J(y.lodg)){ kinds.add('hebergement'); det.push(w + 'hébergement ' + J(x.lodg) + ' → ' + J(y.lodg)); }
       if(J(x.warn) !== J(y.warn) || x.over !== y.over){ kinds.add('avertissements'); det.push(w + 'avertissements ' + J(x.warn) + (x.over ? ' overMaxLeg' : '') + ' → ' + J(y.warn) + (y.over ? ' overMaxLeg' : '')); }
       if(J(x.crossed) !== J(y.crossed)){ kinds.add('pays'); det.push(w + 'pays traversés ' + J(x.crossed) + ' → ' + J(y.crossed)); }
       if(x.tension !== y.tension){ kinds.add('tension'); det.push(w + 'tension ' + J(x.tension) + ' → ' + J(y.tension)); }
@@ -407,10 +621,46 @@ function compareTirage(a, b){
   return { kinds: [...kinds], det, trans };
 }
 
-function median(a){ if(!a.length) return null; const s = a.slice().sort((x, y) => x - y), m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; }
+// Trajet direct : mêmes natures que les tirages (14e audit : traversée, pays, restrictions, péage avec enabled, bornes).
+const LEG_FIELDS = [['durees', ['min', 'roadMin']], ['distances', ['roadKm']], ['peages', ['toll']], ['recharge', ['charge']],
+  ['ferries', ['ferry']], ['pays', ['crossed']], ['avertissements', ['warn']]];
+function compareLeg(x, y){
+  const kinds = [], det = [];
+  if(J(x.error) !== J(y.error)){ kinds.push('erreur'); det.push('erreur ' + (x.error || '—') + ' → ' + (y.error || '—')); }
+  LEG_FIELDS.forEach(([k, fields]) => {
+    const ch = fields.filter(f => J(x[f]) !== J(y[f]));
+    if(!ch.length) return;
+    kinds.push(k);
+    ch.forEach(f => det.push(f === 'min' || f === 'roadMin' ? f + ' ' + fmtMin(x[f]) + ' → ' + fmtMin(y[f]) : f + ' ' + J(x[f]) + ' → ' + J(y[f])));
+  });
+  return { kinds, det };
+}
 
-// Seuil de ralentissement : ×1,5 ET +200 ms (le bruit de mesure d'un tirage court dépasse facilement ×1,5).
+function median(a){ if(!a.length) return null; const s = a.slice().sort((x, y) => x - y), m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; }
+function quantile(a, q){ if(!a.length) return null; const s = a.slice().sort((x, y) => x - y); return s[Math.min(s.length - 1, Math.floor(q * s.length))]; }
+function timeStats(a){ return { n: a.length, median: median(a), p90: quantile(a, 0.9), total: a.reduce((s, x) => s + x, 0) }; }
+
+// Seuil de ralentissement PAR TIRAGE : ×1,5 ET +200 ms (le bruit de mesure d'un tirage court dépasse facilement ×1,5).
 const SLOW_RATIO = 1.5, SLOW_MS = 200;
+// Seuils GLOBAUX (14e audit du 19/09/2026) : un ralentissement général de ~40 % ne franchit presque jamais le seuil par
+// tirage. Alerte si, sur les tirages communs aux deux moteurs, la médiane OU le 90e centile augmente d'au moins 25 % (et
+// de plus de 5 ms / 20 ms), OU le total d'au moins 20 % (et de plus de 2 s). Par catégorie (au moins 8 tirages) : médiane
+// ou total +30 % (et +10 ms / +1 s). Mêmes seuils dans l'autre sens pour « plus rapide ». Moteurs lancés en parallèle,
+// les deux mesures subissent la même charge ; deux lancements du même moteur diffèrent de ±20 % par tirage, mais pas les
+// agrégats : « node tests/compare-engine.js fdd68aa fdd68aa » (même version des deux côtés, 19/09/2026) donne médiane ×1,00,
+// p90 ×0,96, total ×1,01, aucune alerte globale ni par catégorie.
+const GLOBAL_TIMING = { median: [1.25, 5], p90: [1.25, 20], total: [1.20, 2000] };
+const GROUP_TIMING = { minN: 8, median: [1.30, 10], total: [1.30, 1000] };
+function timingAlert(sa, sb, th){
+  const out = [];
+  ['median', 'p90', 'total'].forEach(k => {
+    if(!th[k] || sa[k] == null || sb[k] == null) return;
+    const [ratio, abs] = th[k];
+    if(sb[k] >= sa[k] * ratio && sb[k] - sa[k] > abs) out.push({ k, dir: 'lent', ratio: sb[k] / Math.max(1e-9, sa[k]) });
+    else if(sa[k] >= sb[k] * ratio && sa[k] - sb[k] > abs) out.push({ k, dir: 'rapide', ratio: sb[k] / Math.max(1e-9, sa[k]) });
+  });
+  return out;
+}
 
 function compareRuns(A, B){
   const mapB = new Map(B.tirages.map(t => [t.id, t]));
@@ -427,7 +677,8 @@ function compareRuns(A, B){
     if(!b){ onlyA.push(a.id); return; }
     mapB.delete(a.id);
     const c = compareTirage(a, b);
-    const row = { id: a.id, dep: a.dep, cc: a.cc, tags: a.tags, mode: a.mode, profile: a.profile, days: a.days, kinds: c.kinds, det: c.det, trans: c.trans, msA: a.ms, msB: b.ms };
+    const row = { id: a.id, dep: a.dep, cc: a.cc, tags: a.tags, mode: a.mode, profile: a.profile, days: a.days, kinds: c.kinds, det: c.det, trans: c.trans, msA: a.ms, msB: b.ms,
+      capA: a.sum ? a.sum.diag.returnCapKm : null, capB: b.sum ? b.sum.diag.returnCapKm : null };
     rows.push(row);
     if(a.ms != null && b.ms != null){
       if(b.ms > a.ms * SLOW_RATIO && b.ms - a.ms > SLOW_MS) slow.push(row);
@@ -441,6 +692,19 @@ function compareRuns(A, B){
   });
   const onlyB = [...mapB.keys()];
 
+  // Temps : tirages communs aux deux moteurs (tous, puis inchangés seulement), et alerte globale / par catégorie.
+  const both = rows.filter(r => r.msA != null && r.msB != null);
+  const stat = list => ({ A: timeStats(list.map(r => r.msA)), B: timeStats(list.map(r => r.msB)) });
+  const tAll = stat(both), tSame = stat(both.filter(r => !r.kinds.length));
+  const globalAlert = timingAlert(tAll.A, tAll.B, GLOBAL_TIMING);
+  const groupAlerts = [];
+  Object.keys(groups).forEach(k => {
+    const g = groups[k];
+    if(g.msA.length < GROUP_TIMING.minN) return;
+    const al = timingAlert(timeStats(g.msA), timeStats(g.msB), GROUP_TIMING);
+    if(al.length){ g.alert = al; groupAlerts.push(k); }
+  });
+
   // Trajets directs
   const legB = new Map(B.legs.map(l => [l.id, l]));
   const legRows = [], legGroups = {}, legOnlyA = [];
@@ -448,33 +712,86 @@ function compareRuns(A, B){
     const y = legB.get(x.id);
     if(!y){ legOnlyA.push(x.id); return; }
     legB.delete(x.id);
-    const kinds = [];
-    if(J(x.error) !== J(y.error)) kinds.push('erreur');
-    if(x.min !== y.min) kinds.push('durees');
-    if(J(x.toll) !== J(y.toll)) kinds.push('peages');
-    if(J(x.charge) !== J(y.charge)) kinds.push('recharge');
+    const c = compareLeg(x, y);
     const ratio = (x.min > 0 && y.min > 0) ? y.min / x.min : null;
-    const row = { id: x.id, group: x.group, mode: x.mode, km: x.km, minA: x.min, minB: y.min, ratio, tollA: x.toll, tollB: y.toll, chargeA: x.charge, chargeB: y.charge, kinds, msA: x.ms, msB: y.ms, errA: x.error, errB: y.error };
+    const row = { id: x.id, group: x.group, mode: x.mode, km: x.km, minA: x.min, minB: y.min, ratio, kinds: c.kinds, det: c.det, msA: x.ms, msB: y.ms };
     legRows.push(row);
     // Groupe × (motorisés | vélo) : les cinq modes motorisés changent en général ensemble, une ligne suffit.
     for(const key of [x.group + (x.mode === 'velo' ? ' | vélo' : ' | motorisés'), 'mode ' + x.mode]){
-      const g = legGroups[key] || (legGroups[key] = { n: 0, dur: 0, toll: 0, charge: 0, ratios: [] });
-      g.n++; if(kinds.includes('durees')) g.dur++; if(kinds.includes('peages')) g.toll++; if(kinds.includes('recharge')) g.charge++;
-      if(ratio != null && kinds.includes('durees')) g.ratios.push(ratio);
+      const g = legGroups[key] || (legGroups[key] = { n: 0, kinds: {}, ratios: [] });
+      g.n++; c.kinds.forEach(k => { g.kinds[k] = (g.kinds[k] || 0) + 1; });
+      if(ratio != null && c.kinds.includes('durees')) g.ratios.push(ratio);
     }
   });
+
+  // Hébergement : plafonds et liens par pays × palier × devise.
+  const lodB = new Map((B.lodging || []).map(l => [l.id, l]));
+  const lodRows = [];
+  (A.lodging || []).forEach(x => {
+    const y = lodB.get(x.id);
+    if(!y) return;
+    lodB.delete(x.id);
+    const kinds = [];
+    if(J(x.error) !== J(y.error)) kinds.push('erreur');
+    if(x.cap !== y.cap) kinds.push('plafond');
+    if(J(x.links) !== J(y.links)) kinds.push('liens');
+    if(kinds.length) lodRows.push({ id: x.id, cc: x.cc, kinds, capA: x.cap, capB: y.cap, linksA: x.links, linksB: y.links, errA: x.error, errB: y.error });
+  });
+
+  // Couverture : ce que les tirages exercent vraiment, par moteur.
+  const covOf = T => {
+    const c = { motoTransit: [], motoInterieurVia: [], ferry: 0, bornes: 0 };
+    T.tirages.forEach(t => {
+      if(!t.cov) return;
+      if(t.cov.motoTransit) c.motoTransit.push(t.id);
+      if(t.cov.motoInterieurVia) c.motoInterieurVia.push(t.id);
+      if(t.cov.ferry) c.ferry++;
+      if(t.cov.bornes) c.bornes++;
+    });
+    c.legGroups = {};
+    T.legs.forEach(l => { const m = l.group.match(/moto-(transit|interdite)$/); if(m) c.legGroups[m[0]] = (c.legGroups[m[0]] || 0) + 1; if(l.ferry) c.legGroups.ferry = (c.legGroups.ferry || 0) + 1; });
+    return c;
+  };
+
+  // Temps réel (--temps-reel) : pour chaque moteur, résultat en temps réel contre résultat sous horloge ×10 ; puis ancien
+  // contre nouveau en temps réel.
+  let realtime = null;
+  if(A.realtime && B.realtime){
+    const steadyA = new Map(A.tirages.map(t => [t.id, t])), steadyB = new Map(B.tirages.map(t => [t.id, t]));
+    const rtB = new Map(B.realtime.map(t => [t.id, t]));
+    const outcome = t => t.error ? 'erreur' : (t.sum.legs.length ? t.sum.legs.length + ' trajets' : diagShort(t.sum.diag, 0));
+    const rrows = [];
+    A.realtime.forEach(ra => {
+      const rb = rtB.get(ra.id), sa = steadyA.get(ra.id), sb = steadyB.get(ra.id);
+      if(!rb || !sa || !sb) return;
+      const vsA = compareTirage(sa, ra), vsB = compareTirage(sb, rb), ab = compareTirage(ra, rb), abSteady = compareTirage(sa, sb);
+      rrows.push({ id: ra.id, msA: ra.ms, msB: rb.ms, steadyA: outcome(sa), realA: outcome(ra), steadyB: outcome(sb), realB: outcome(rb),
+        diffA: vsA.kinds, diffB: vsB.kinds, diffAB: ab.kinds, detAB: ab.det, abOnlyRealtime: J(ab.det) !== J(abSteady.det), budgetA: ra.ms >= 0.95 * (A.budgetMs || 4000), budgetB: rb.ms >= 0.95 * (B.budgetMs || 4000) });
+    });
+    realtime = { rows: rrows, budgetMs: [A.budgetMs, B.budgetMs] };
+  }
 
   const msA = A.tirages.filter(t => t.ms != null).map(t => t.ms), msB = B.tirages.filter(t => t.ms != null).map(t => t.ms);
   return {
     labels: [A.label, B.label],
-    meta: { A: { loadMs: A.loadMs, totalMs: A.totalMs, rssMb: A.rssMb, chargers: A.chargers, missing: A.missing },
-      B: { loadMs: B.loadMs, totalMs: B.totalMs, rssMb: B.rssMb, chargers: B.chargers, missing: B.missing } },
+    meta: { A: { loadMs: A.loadMs, totalMs: A.totalMs, rssMb: A.rssMb, chargers: A.chargers, missing: A.missing, missingFn: A.missingFn || [] },
+      B: { loadMs: B.loadMs, totalMs: B.totalMs, rssMb: B.rssMb, chargers: B.chargers, missing: B.missing, missingFn: B.missingFn || [] } },
     tirages: { n: rows.length, changed: rows.filter(r => r.kinds.length).length, onlyA, onlyB, rows },
     timing: { medianA: median(msA), medianB: median(msB), maxA: Math.max(0, ...msA), maxB: Math.max(0, ...msB),
-      totalA: msA.reduce((s, x) => s + x, 0), totalB: msB.reduce((s, x) => s + x, 0), slow, fast },
+      totalA: msA.reduce((s, x) => s + x, 0), totalB: msB.reduce((s, x) => s + x, 0), slow, fast,
+      all: tAll, same: tSame, globalAlert, groupAlerts },
     groups,
     legs: { n: legRows.length, changed: legRows.filter(r => r.kinds.length).length, onlyA: legOnlyA, onlyB: [...legB.keys()], rows: legRows, groups: legGroups },
+    lodging: { n: (A.lodging || []).length, changed: lodRows.length, onlyB: [...lodB.keys()], rows: lodRows },
+    coverage: { A: covOf(A), B: covOf(B) },
+    realtime,
   };
+}
+
+// Nombre de différences qui comptent pour --fail-on-diff (le temps réel, qui dépend de la machine, n'y entre pas).
+function diffCount(R){
+  return R.tirages.changed + R.legs.changed + R.lodging.changed + R.timing.slow.length + R.timing.globalAlert.filter(a => a.dir === 'lent').length +
+    R.tirages.onlyA.length + R.tirages.onlyB.length;
 }
 
 // ------------------------------------------------------------------------------------------------ rapport texte
@@ -484,25 +801,44 @@ function formatReport(R, opts){
   const L = [];
   const pct = (a, n) => n ? Math.round(100 * a / n) + ' %' : '—';
   const f0 = x => x == null ? '—' : String(Math.round(x));
+  const kindsStr = o => KINDS.concat(['plafond', 'liens']).filter(k => o[k]).map(k => k + ' ' + o[k]).join(', ');
   L.push('=== Comparaison du moteur : ' + R.labels[0] + '  →  ' + R.labels[1] + ' ===');
   for(const k of ['A', 'B']){
     const m = R.meta[k];
     L.push((k === 'A' ? 'ancien  ' : 'nouveau ') + ': chargement ' + Math.round(m.loadMs / 1000) + ' s, total ' + Math.round(m.totalMs / 1000) + ' s, ' + m.rssMb + ' Mo, bornes ' + m.chargers +
-      (m.missing.length ? ', introuvables : ' + m.missing.join(', ') : ''));
+      (m.missing.length ? ', introuvables : ' + m.missing.join(', ') : '') +
+      (m.missingFn.length ? ', fonctions absentes de cette version (mesures sautées) : ' + m.missingFn.join(', ') : ''));
   }
+
+  // Fichiers différents entre les deux versions (14e audit) : code ou données ?
+  if(R.files){
+    const F = R.files;
+    L.push('');
+    L.push('--- Fichiers lus par le moteur qui diffèrent : ' + F.code.length + ' de code, ' + F.data.length + ' de données' + (F.other.length ? ', ' + F.other.length + ' autre(s) non lu(s) par l\'outil' : '') + ' ---');
+    const line = f => '  ' + f.status.padEnd(2) + ' ' + f.path + (f.add != null ? '  (+' + f.add + ' −' + f.del + ' lignes)' : '');
+    if(F.code.length){ L.push('code :'); F.code.forEach(f => L.push(line(f))); }
+    if(F.data.length){ L.push('données :'); F.data.forEach(f => L.push(line(f))); }
+    if(F.other.length){ L.push('autres (non lus par le moteur ou reconstruits par l\'outil) :'); F.other.slice(0, 20).forEach(f => L.push(line(f))); }
+    if(!F.code.length && !F.data.length) L.push('  aucun : toute différence ci-dessous vient d\'ailleurs (horloge, ordre de chargement…) — à examiner.');
+    else if(!F.code.length) L.push('  → seules les DONNÉES ont changé : les différences ci-dessous viennent des données.');
+    else if(!F.data.length) L.push('  → seul le CODE a changé.');
+  }
+
   const T = R.tirages;
   L.push('');
   L.push('--- Tirages : ' + T.changed + ' / ' + T.n + ' changés (' + pct(T.changed, T.n) + ')' +
     (T.onlyA.length ? ', ' + T.onlyA.length + ' seulement dans l\'ancien' : '') + (T.onlyB.length ? ', ' + T.onlyB.length + ' seulement dans le nouveau' : ''));
   const kindTot = {};
   T.rows.forEach(r => r.kinds.forEach(k => { kindTot[k] = (kindTot[k] || 0) + 1; }));
-  L.push('par nature : ' + (KINDS.filter(k => kindTot[k]).map(k => k + ' ' + kindTot[k]).join(', ') || 'aucune différence'));
+  L.push('par nature : ' + (kindsStr(kindTot) || 'aucune différence'));
   [['seulement dans l\'ancien', T.onlyA],['seulement dans le nouveau', T.onlyB]].forEach(([w, l]) => { if(l.length) L.push(w + ' : ' + l.slice(0, 20).join(' ; ')); });
   // Transitions de diagnostic, par mode : « tous les vélos passent à minDistanceUnreachable » se lit ici d'un coup d'œil.
   const trans = {};
   T.rows.filter(r => r.trans && r.trans.indexOf('étapes → étapes') < 0).forEach(r => {
     const k = r.trans + '  [' + r.mode + ']';
-    (trans[k] = trans[k] || []).push(r.dep + (r.days === 1 ? ' 1j' : ' ' + r.days + 'j') + ((r.id.match(/"minDistanceKm":(\d+)/) || [])[1] ? ' min ' + r.id.match(/"minDistanceKm":(\d+)/)[1] : ''));
+    // Plafond annoncé (returnCapKm) joint quand il change (14e audit : « bamako 1j min 330 (plafond 196→263) »).
+    const cap = (r.capA != null || r.capB != null) && r.capA !== r.capB ? ' (plafond ' + r.capA + '→' + r.capB + ')' : '';
+    (trans[k] = trans[k] || []).push(r.dep + (r.days === 1 ? ' 1j' : ' ' + r.days + 'j') + ((r.id.match(/"minDistanceKm":(\d+)/) || [])[1] ? ' min ' + r.id.match(/"minDistanceKm":(\d+)/)[1] : '') + cap);
   });
   const tk = Object.keys(trans).sort();
   if(tk.length){
@@ -510,10 +846,31 @@ function formatReport(R, opts){
     tk.forEach(k => L.push('  ' + String(trans[k].length).padStart(3) + '  ' + k + ' : ' + trans[k].slice(0, 12).join(', ') + (trans[k].length > 12 ? '…' : '')));
   }
 
+  // Couverture (14e audit) : chemins réellement exercés par le jeu.
+  const CV = R.coverage;
+  if(CV){
+    L.push('');
+    L.push('--- Couverture (ancien / nouveau) ---');
+    L.push('  tirages moto en VRAI transit (pays à autoroutes interdites seulement traversé) : ' + CV.A.motoTransit.length + ' / ' + CV.B.motoTransit.length +
+      (CV.B.motoTransit.length ? '  [' + CV.B.motoTransit.slice(0, 6).map(id => id.split('|').slice(0, 3).join('|') + '|' + id.split('|').pop()).join(' ; ') + ']' : '  ← AUCUN : cas ciblés à revoir'));
+    L.push('  tirages moto intérieurs passant par un tel pays (aucun transit appliqué) : ' + CV.A.motoInterieurVia.length + ' / ' + CV.B.motoInterieurVia.length);
+    L.push('  tirages avec traversée : ' + CV.A.ferry + ' / ' + CV.B.ferry + ' ; avec bornes réelles : ' + CV.A.bornes + ' / ' + CV.B.bornes);
+    L.push('  trajets directs : moto-transit ' + (CV.A.legGroups['moto-transit'] || 0) + ' / ' + (CV.B.legGroups['moto-transit'] || 0) +
+      ', moto-interdite ' + (CV.A.legGroups['moto-interdite'] || 0) + ' / ' + (CV.B.legGroups['moto-interdite'] || 0) +
+      ', avec traversée ' + (CV.A.legGroups.ferry || 0) + ' / ' + (CV.B.legGroups.ferry || 0));
+  }
+
   const TM = R.timing;
   L.push('');
   L.push('--- Temps de calcul (réel, horloge du moteur ralentie ×10) : médiane ' + f0(TM.medianA) + ' → ' + f0(TM.medianB) + ' ms, max ' +
     f0(TM.maxA) + ' → ' + f0(TM.maxB) + ' ms, total ' + Math.round(TM.totalA / 1000) + ' → ' + Math.round(TM.totalB / 1000) + ' s');
+  const st = (s, lab) => '  ' + lab.padEnd(28) + 'n ' + s.A.n + ', médiane ' + f0(s.A.median) + ' → ' + f0(s.B.median) + ' ms, p90 ' + f0(s.A.p90) + ' → ' + f0(s.B.p90) +
+    ' ms, total ' + (s.A.total / 1000).toFixed(1) + ' → ' + (s.B.total / 1000).toFixed(1) + ' s' + (s.A.total ? ' (×' + (s.B.total / s.A.total).toFixed(2) + ')' : '');
+  L.push(st(TM.all, 'tirages communs'));
+  L.push(st(TM.same, 'dont résultat inchangé'));
+  if(TM.globalAlert.length) TM.globalAlert.forEach(a => L.push('  !!! ' + (a.dir === 'lent' ? 'RALENTISSEMENT GÉNÉRAL' : 'accélération générale') + ' : ' + a.k + ' ×' + a.ratio.toFixed(2)));
+  else L.push('  alerte globale : aucune (seuils : médiane ou p90 ×' + GLOBAL_TIMING.median[0] + ', total ×' + GLOBAL_TIMING.total[0] + ')');
+  if(TM.groupAlerts.length) L.push('  catégories plus lentes/rapides (médiane ou total ×' + GROUP_TIMING.median[0] + ', ≥ ' + GROUP_TIMING.minN + ' tirages) : ' + TM.groupAlerts.length + ', voir le résumé par catégorie');
   L.push('ralentis (> ×' + SLOW_RATIO + ' et > +' + SLOW_MS + ' ms) : ' + TM.slow.length + (TM.slow.length ? '' : ' — aucun'));
   TM.slow.sort((a, b) => (b.msB - b.msA) - (a.msB - a.msA)).slice(0, 40).forEach(r =>
     L.push('  ' + r.msA + ' → ' + r.msB + ' ms (×' + (r.msB / Math.max(1, r.msA)).toFixed(1) + ')  ' + r.id));
@@ -531,37 +888,65 @@ function formatReport(R, opts){
   });
   keys.forEach(k => {
     const g = R.groups[k];
-    if(k.startsWith('pays ') && !g.changed && !opts.all) return; // pays sans changement : omis (--all pour tout voir)
-    const kinds = KINDS.filter(x => g.kinds[x]).map(x => x + ' ' + g.kinds[x]).join(', ');
+    if(k.startsWith('pays ') && !g.changed && !g.alert && !opts.all) return; // pays sans changement : omis (--all pour tout voir)
+    const kinds = kindsStr(g.kinds);
     const mA = median(g.msA), mB = median(g.msB);
     const flag = (g.changed === g.n && g.n > 1) ? '  ← TOUS changés' : '';
-    const tflag = (mA != null && mB > mA * SLOW_RATIO && mB - mA > SLOW_MS / 2) ? '  ← plus lent' : (mA != null && mA > mB * SLOW_RATIO && mA - mB > SLOW_MS / 2) ? '  ← plus rapide' : '';
+    const tflag = g.alert ? '  ← plus ' + g.alert[0].dir + ' (' + g.alert.map(a => a.k + ' ×' + a.ratio.toFixed(2)).join(', ') + ')' : '';
     L.push('  ' + k.padEnd(34) + String(g.changed).padStart(4) + ' / ' + String(g.n).padEnd(4) + (kinds ? ' ' + kinds : '') + '  [' + f0(mA) + ' → ' + f0(mB) + ' ms]' + flag + tflag);
   });
 
   const LG = R.legs;
   L.push('');
-  L.push('--- Trajets directs (finalizeLeg) : ' + LG.changed + ' / ' + LG.n + ' changés' +
+  L.push('--- Trajets directs (finalizeLeg / finalizeFerryLeg) : ' + LG.changed + ' / ' + LG.n + ' changés' +
     (LG.onlyA.length ? ', ' + LG.onlyA.length + ' seulement dans l\'ancien' : '') + (LG.onlyB.length ? ', ' + LG.onlyB.length + ' seulement dans le nouveau' : ''));
   [['seulement dans l\'ancien', LG.onlyA],['seulement dans le nouveau', LG.onlyB]].forEach(([w, l]) => { if(l.length) L.push('  ' + w + ' : ' + l.slice(0, 12).join(' ; ')); });
-  L.push('  groupe | mode                           durée chg / n   rapport durée nouveau/ancien (médiane, min–max)   péage chg   recharge chg');
+  L.push('  groupe | mode                           n      rapport durée nouveau/ancien (médiane, min–max)   natures changées');
   Object.keys(LG.groups).sort((a, b) => (a.startsWith('mode ') ? 0 : 1) - (b.startsWith('mode ') ? 0 : 1) || (a < b ? -1 : 1)).forEach(k => {
     const g = LG.groups[k];
-    if(!k.startsWith('mode ') && !g.dur && !g.toll && !g.charge && !opts.all) return;
+    const nat = kindsStr(g.kinds);
+    if(!k.startsWith('mode ') && !nat && !opts.all) return;
     const r = g.ratios.length ? '×' + median(g.ratios).toFixed(3) + ' (' + Math.min(...g.ratios).toFixed(3) + '–' + Math.max(...g.ratios).toFixed(3) + ')' +
       (median(g.ratios) < 0.98 ? ' plus rapide' : median(g.ratios) > 1.02 ? ' plus lent' : '') : '';
-    L.push('  ' + k.padEnd(38) + String(g.dur).padStart(3) + ' / ' + String(g.n).padEnd(4) + ' ' + r.padEnd(44) + String(g.toll).padStart(6) + String(g.charge).padStart(12));
+    L.push('  ' + k.padEnd(38) + String(g.n).padEnd(6) + ' ' + r.padEnd(44) + (nat || '—'));
   });
   const changedLegs = LG.rows.filter(r => r.kinds.length);
   if(changedLegs.length){
     L.push('  détail (' + Math.min(changedLegs.length, maxRows) + ' premiers) :');
     changedLegs.slice(0, maxRows).forEach(r => {
-      const p = [];
-      if(r.kinds.includes('erreur')) p.push('erreur ' + (r.errA || '—') + ' → ' + (r.errB || '—'));
-      if(r.kinds.includes('durees')) p.push(fmtMin(r.minA) + ' → ' + fmtMin(r.minB) + (r.ratio ? ' (×' + r.ratio.toFixed(3) + ')' : ''));
-      if(r.kinds.includes('peages')) p.push('péage ' + J(r.tollA) + ' → ' + J(r.tollB));
-      if(r.kinds.includes('recharge')) p.push('recharge ' + J(r.chargeA) + ' → ' + J(r.chargeB));
-      L.push('    ' + r.id + ', ' + r.km + ' km : ' + p.join(' ; '));
+      L.push('    ' + r.id + ', ' + r.km + ' km' + (r.ratio && r.kinds.includes('durees') ? ' (×' + r.ratio.toFixed(3) + ')' : '') + ' : ' + r.det.join(' ; ').slice(0, 600));
+    });
+  }
+
+  const LD = R.lodging;
+  if(LD){
+    L.push('');
+    L.push('--- Hébergement (lodgingPriceCap, buildLodgingLinks : pays × palier × devise) : ' + LD.changed + ' / ' + LD.n + ' changés' + (LD.onlyB.length ? ', ' + LD.onlyB.length + ' seulement dans le nouveau' : ''));
+    if(LD.changed){
+      const byCc = {};
+      LD.rows.forEach(r => { byCc[r.cc] = (byCc[r.cc] || 0) + 1; });
+      L.push('  pays : ' + Object.keys(byCc).sort().map(c => c + ' ' + byCc[c]).join(', '));
+      LD.rows.slice(0, 40).forEach(r => L.push('    ' + r.id + ' [' + r.kinds.join(', ') + '] ' + (r.kinds.includes('plafond') ? r.capA + ' → ' + r.capB + ' ' : '') +
+        (r.kinds.includes('liens') ? J(r.linksA) + ' → ' + J(r.linksB) : '') + (r.kinds.includes('erreur') ? (r.errA || '—') + ' → ' + (r.errB || '—') : '')));
+    }
+  }
+
+  // Temps réel (14e audit, --temps-reel) : dépend de la machine, séparé du reste et hors de --fail-on-diff.
+  const RT = R.realtime;
+  if(RT){
+    const nA = RT.rows.filter(r => r.diffA.length).length, nB = RT.rows.filter(r => r.diffB.length).length, nAB = RT.rows.filter(r => r.diffAB.length).length,
+      nABrt = RT.rows.filter(r => r.abOnlyRealtime).length;
+    L.push('');
+    L.push('--- TEMPS RÉEL (horloge normale, budget ' + RT.budgetMs.join(' / ') + ' ms comme en production — DÉPEND DE LA MACHINE ET DE SA CHARGE) ---');
+    L.push('  ' + RT.rows.length + ' cas ; temps réel ≠ horloge ×10 : ' + nA + ' (ancien), ' + nB + ' (nouveau) ; ancien ≠ nouveau en temps réel : ' + nAB + ' (dont ' + nABrt + ' autrement qu\'à ×10)' +
+      ' ; budget atteint : ' + RT.rows.filter(r => r.budgetA).length + ' / ' + RT.rows.filter(r => r.budgetB).length);
+    // Détail : seulement ce que l'horloge ×10 ne montre pas (réel ≠ ×10, budget atteint, écart ancien/nouveau propre au
+    // temps réel) — les écarts ancien/nouveau identiques à ceux de l'horloge ×10 sont déjà listés plus haut.
+    RT.rows.filter(r => r.diffA.length || r.diffB.length || r.abOnlyRealtime || r.budgetA || r.budgetB || opts.all).forEach(r => {
+      L.push('  * ' + r.id);
+      L.push('      ancien  : ×10 ' + r.steadyA + ' | réel ' + r.realA + ' (' + r.msA + ' ms' + (r.budgetA ? ', budget atteint' : '') + ')' + (r.diffA.length ? '  ← réel ≠ ×10 [' + r.diffA.join(', ') + ']' : ''));
+      L.push('      nouveau : ×10 ' + r.steadyB + ' | réel ' + r.realB + ' (' + r.msB + ' ms' + (r.budgetB ? ', budget atteint' : '') + ')' + (r.diffB.length ? '  ← réel ≠ ×10 [' + r.diffB.join(', ') + ']' : ''));
+      if(r.abOnlyRealtime) L.push('      ancien → nouveau en temps réel, autrement qu\'à ×10 [' + r.diffAB.join(', ') + '] : ' + r.detAB.slice(0, 2).join(' ; ').slice(0, 300));
     });
   }
 
@@ -578,5 +963,6 @@ function formatReport(R, opts){
   return L.join('\n');
 }
 
-module.exports = { loadEngineAt, compilePatchedAt, buildBundle, runSteady, buildTirages, runWorker, compareRuns, compareTirage, formatReport,
-  summarizeResult, DEPARTURES, MODES, PROFILES, TARGETED, PAIRS_NAMED, PAIRS_CROSS, PAIRS_COUNTRIES, KINDS, SLOW_RATIO, SLOW_MS };
+module.exports = { loadEngineAt, compilePatchedAt, buildBundle, runSteady, buildTirages, runWorker, compareRuns, compareTirage, compareLeg, formatReport, diffCount,
+  summarizeResult, directHop, coverageOf, DEPARTURES, TARGET_DEPARTURES, MODES, PROFILES, TARGETED, PAIRS_NAMED, PAIRS_CROSS, PAIRS_MOTO_TRANSIT, PAIRS_FERRY,
+  PAIRS_COUNTRIES, KINDS, SLOW_RATIO, SLOW_MS, GLOBAL_TIMING, GROUP_TIMING };

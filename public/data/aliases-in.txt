@@ -10348,7 +10348,6 @@ te;తార్నాక;Tarnaka
 ur;تارناکا;Tarnaka
 ru;Фусро;Phusro
 ta;நாம்சாய்;Namsai
-bn;দক্ষিনেশ্বর);Dakshineswar
 bn;फदनपुरा;Fadanpura
 mr;फुरूस;Furus
 hi;गिद्धौर;Gidhaur

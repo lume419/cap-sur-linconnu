@@ -62501,9 +62501,7 @@
 0;56.9854,30.4312;IR-29;Kerman;Aḩmadābād
 0;56.9851,30.2797;IR-29;Kerman;Shahrak-e Alghadīr
 0;56.9787,30.2645;IR-29;Kerman;Shahrak-e Jahād
-0;56.8308,30.3623;IR-29;Kerman;محمّد آباد گوری
 0;56.8148,30.3280;IR-29;Kerman;دهنه
-0;56.8436,30.3713;IR-29;Kerman;قلعه سنگ
 0;56.9854,30.4312;IR-29;Kerman;احمد آباد
 0;56.5229,30.4252;IR-29;Kerman;Deh-e Tū Kūh
 0;56.5203,30.4204;IR-29;Kerman;Deh-e Āqā Khān
@@ -63028,7 +63026,6 @@
 0;60.1530,26.9746;IR-04;Sistan and Baluchestan;Sīrchāh
 0;60.0239,26.8908;IR-04;Sistan and Baluchestan;Havābandar
 0;60.4067,26.5525;IR-04;Sistan and Baluchestan;Gavāy
-0;60.2766,26.6269;IR-04;Sistan and Baluchestan;دهان
 0;60.4191,26.5597;IR-04;Sistan and Baluchestan;گوانی
 0;59.8785,27.8696;IR-04;Sistan and Baluchestan;Dārī
 0;59.8758,27.8657;IR-04;Sistan and Baluchestan;Konār Sūkht

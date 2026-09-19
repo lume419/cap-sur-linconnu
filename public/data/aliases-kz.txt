@@ -339,7 +339,6 @@ ru;Урда;Orda
 en;Ul'kenkandyk;Kaydyk
 ru;Кандык;Kaydyk
 en;Ul'kenenbek;Ulken-Yenbek
-ru;Улкен_енбек;Ulken-Yenbek
 kk;Ülken Engbek;Ulken-Yenbek
 kk;Үлкен Еңбек;Ulken-Yenbek
 ru;Улкен-Енбек;Ulken-Yenbek
@@ -664,7 +663,6 @@ ru;Сенек;Senek
 kk;Sengek;Senek
 kk;Сеңек;Senek
 en;Semīglavyy Mar;Semiglavyy Mar
-ru;Семиглавый_мар;Semiglavyy Mar
 kk;Семиглавый Мар;Semiglavyy Mar
 kk;Сығанды;Syghandy
 ru;Сборный;Sbornyy

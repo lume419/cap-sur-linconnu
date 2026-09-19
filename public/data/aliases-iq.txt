@@ -8778,7 +8778,6 @@ ku;ئاغجەلەر;Aghceler
 ar;العكوبة;Al ‘Akūbah
 ar;عولا كوجيلان;‘Awlā Kawjīlān
 ku;‘Ebdełłe Gocîlan;‘Awlā Kawjīlān
-ku;A_Gojilan;‘Awlā Kawjīlān
 ku;عبداللە گۆجيلان;‘Awlā Kawjīlān
 ar;عبداللە كوجيلان;‘Awlā Kawjīlān
 ar;النعمانية;An Nu‘mānīyah
