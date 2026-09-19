@@ -6,6 +6,12 @@
 //   - pauses recharge et traversées à tarif inconnu au bon pluriel ;
 //   - total ferry sans train-auto ni traversées gratuites, tarif piéton « par personne » ;
 //   - route inconnue sans séparateur orphelin ; aucune vignette à vélo ; numéro de jour du PDF (`badge`).
+// 13e audit du 19/09/2026 :
+//   - corps envoyé à /api/export-pdf (buildTripExportPayload) : numéro de JOUR de chaque étape, pas de texts.vignette à
+//     vélo, transportKey et distanceUnit ;
+//   - énumérations (Intl.ListFormat de la langue elle-même, style long), séparateurs japonais, pluriels sgs/lv/is/mk,
+//     chiffres de la langue dans les traductions ;
+//   - kilomètres / miles : conversions exactes, unité automatique, aucun « km » affiché quand l'unité est le mile.
 'use strict';
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
@@ -32,11 +38,20 @@ function extractVar(name){
   return m[0];
 }
 
-const FNS = ['isoDate', 'parseIsoDate', 'formatFrDate', 'formatDateRange', 'formatStayRange', 'formatNum', 'formatKm', 'formatMoney',
-  'approxMoney', 'rangeDecimals', 'approxMoneyRange', 'formatList', 'tIfDefined', 'statsLabel', 'pluralPhrase', 'chargeStopsText',
+const FNS = ['isoDate', 'parseIsoDate', 'formatFrDate', 'formatDateRange', 'formatStayRange', 'formatNum', 'formatMoney',
+  'approxMark', 'approxMoney', 'rangeDecimals', 'approxMoneyRange', 'formatList', 'tIfDefined', 'statsLabel', 'pluralPhrase', 'chargeStopsText',
   'nounFirstLang', 'stopKey', 'tripTotalKm', 'tripFerryKm', 'tollRange', 'tollRangeKind', 'ferryLabel', 'ferryFootFare', 'ferryPriceText',
   'withoutEmptyRoute', 'ferryText', 'ferryTotalLabel', 'formatDurationMin', 'fmtHours', 'tripStatsParts', 'vignetteCountriesOfGroup',
-  'durationLabel', 'maxDaysSuffix', 'groupLegsByStay', 'dayBadgeText', 'tripLabelText'];
+  'durationLabel', 'maxDaysSuffix', 'groupLegsByStay', 'dayBadgeText', 'tripLabelText',
+  // Unité de distance (13e audit).
+  'isDistanceUnit', 'unitForLang',
+  'distanceUnit', 'kmToDistanceUnit', 'distanceUnitToKm', 'formatDistanceValue', 'formatDistance', 'distanceUnitVars', 'hikeDistanceText',
+  'unitFieldBounds', 'distanceFieldKm', 'setDistanceFieldKm',
+  // Corps envoyé à /api/export-pdf et ses dépendances.
+  'buildTripExportPayload', 'pdfLegBadges', 'transportHasToll', 'pdfLegTexts', 'legRouteText', 'legDuration', 'legMinutes', 'overMaxLegText',
+  'noChargerText', 'tollText', 'tollSourceLabel', 'exportTension', 'exportLodgingLinks', 'singleLegLabel', 'formatCpBadge', 'optionLabel',
+  'optionTypeLabel', 'poiTypeLabel', 'camelFromDash', 'transportLabel', 'budgetLabel', 'vignetteLabel', 'tripCurrencyNoRateText',
+  'currencyLinkFallbackText', 'getPreferredCurrency', 'isKnownCurrency'];
 
 function sandbox(){
   let src = fs.readFileSync(path.join(PUB, 'i18n.js'), 'utf8');
@@ -53,10 +68,17 @@ function sandbox(){
     'var t = window.I18N.t, localeTag = function(c){ return window.I18N.localeTag(c); };',
     'var VISITOR_LANG = "fr", MAX_TRIP_DAYS = 21;',
     'var TRANSPORT = { "voiture-thermique": { tollClass: 1, ferryClass: 1 }, "velo": { tollClass: null, ferryClass: "foot" } };',
-    'var COUNTRIES = { CH: { vignette: { url: "https://www.via.admin.ch/shop/" } }, FR: {} };',
-    extractVar('ROUTE_MARK'),
+    'var COUNTRIES = { CH: { name: "Suisse", vignette: { url: "https://www.via.admin.ch/shop/" } }, FR: { name: "France" } };',
+    'var TOLL_SOURCE = { FR: "autoroutes françaises 2026" }, KNOWN_POI_TYPES = { museum: 1 }, CURRENCY_OPTIONS = ["EUR"];',
+    'var sessionCurrency, sessionDistanceUnit, currentTripData = null, currentTripLabel = "", fieldDistanceUnit = "km";',
+    'var els = { packGrid: { querySelectorAll: function(){ return []; } } };',
+    ['ROUTE_MARK', 'approxMarkCache', 'KM_PER_MILE', 'MILE_COUNTRIES', 'CURRENCY_STORAGE_KEY', 'CHARGER_NEAR_STOP_KM'].map(extractVar).join('\n'),
     FNS.map(extract).join('\n'),
-    'window.__app = {' + FNS.map(n => n + ': ' + n).join(', ') + ', setLang: function(l){ window.I18N.set(l); VISITOR_LANG = l; } };'
+    // Unité forcée par les tests (setUnit) : l'application la tire de la langue seule (unitForLang), sans réglage.
+    'var UNIT_OVERRIDE = null, __distanceUnit = distanceUnit; distanceUnit = function(){ return UNIT_OVERRIDE || __distanceUnit(); };',
+    'window.__app = {' + FNS.map(n => n + ': ' + n).join(', ') + ', setLang: function(l){ window.I18N.set(l); VISITOR_LANG = l; },' +
+      ' setUnit: function(u){ UNIT_OVERRIDE = u; }, setFieldUnit: function(u){ fieldDistanceUnit = u; },' +
+      ' setTrip: function(trip){ currentTripData = trip; } };'
   ].join('\n');
   vm.runInContext(glue, ctx);
   return ctx.window;
@@ -78,13 +100,16 @@ test('plages de dates : formatRange de la langue, jamais de flèche « → » (�
   A.setLang('fr');
 });
 
-test('en-tête du PDF : dates localisées, plus de dates ISO ni de « date → date »', () => {
+test('en-tête du PDF : dates localisées, plus de dates ISO ni de « date → date », flèche dans le sens de lecture', () => {
   const trip = { city: 'Lyon', legs: [{ stop: 'Annecy' }], days: 3, startIso: '2026-09-20', endIso: '2026-09-22' };
-  for(const l of ['fr', 'ar', 'fa', 'ja']){
+  for(const l of ['fr', 'ja', ...RTL]){
     A.setLang(l);
     const s = A.tripLabelText(trip);
     assert.ok(!/\d{4}-\d{2}-\d{2}/.test(s), l + ' : date ISO dans « ' + s + ' »');
-    assert.equal((s.match(/→/g) || []).length, 1, l + ' : une seule flèche (départ → étape) dans « ' + s + ' »');
+    // Écriture de droite à gauche : « ← » (13e audit du 19/09/2026), sinon « → » ; une seule flèche (départ, étape).
+    const [want, not] = RTL.includes(l) ? ['←', '→'] : ['→', '←'];
+    assert.equal((s.match(new RegExp(want, 'g')) || []).length, 1, l + ' : une seule flèche ' + want + ' dans « ' + s + ' »');
+    assert.ok(s.indexOf(not) < 0, l + ' : flèche ' + not + ' dans « ' + s + ' »');
   }
   A.setLang('fr');
   assert.match(A.tripLabelText(trip), /^Lyon → Annecy · 20.*22 sept\. 2026$/);
@@ -219,12 +244,235 @@ test('fourchette de prix japonaise : pas de « ~ » collé à un séparateur « 
   assert.match(A.approxMoneyRange(5.2, 14.7, 'EUR'), /^~5,20/);
 });
 
-test('liste des devises : Intl.ListFormat de la langue', () => {
+test('liste des devises : Intl.ListFormat de la langue elle-même (style long), sinon virgule', () => {
   A.setLang('fr');
   assert.equal(A.formatList(['MAD', 'EUR']), 'MAD et EUR');
   A.setLang('ja');
   assert.ok(!/, /.test(A.formatList(['MAD', 'EUR'])), A.formatList(['MAD', 'EUR']));
+  // Style long : « MAD en EUR », pas « MAD & EUR » (style court) en néerlandais.
+  A.setLang('nl');
+  assert.equal(A.formatList(['MAD', 'EUR']), 'MAD en EUR');
+  // 13e audit du 19/09/2026 : la conjonction d'une AUTRE langue (locale de repli) n'est jamais utilisée — kabyle « et »
+  // (français), oromo « እና » (amharique), amazighe « و » (arabe). Soit les règles de la langue elle-même, soit « , ».
+  const bad = [];
+  for(const [l, foreign] of [['kab', /\bet\b/], ['om', /እና|\bet\b/], ['zgh', /و|\bet\b/], ['rw', /\bet\b/], ['lij', /\bet\b/]]){
+    A.setLang(l);
+    const s = A.formatList(['MAD', 'EUR']);
+    const tag = W.I18N.localeTag(l);
+    const own = tag.split('-')[0] === l && Intl.ListFormat.supportedLocalesOf([tag], { localeMatcher: 'lookup' }).length;
+    const want = own ? new Intl.ListFormat(tag, { style: 'long', type: 'conjunction' }).format(['MAD', 'EUR']) : 'MAD, EUR';
+    if(s !== want || foreign.test(s)) bad.push(l + ' : « ' + s + ' » (attendu « ' + want + ' »)');
+  }
   A.setLang('fr');
+  assert.deepEqual(bad, []);
+});
+
+test('route inconnue : séparateurs japonais « ― » et « ・ » retirés avec elle', () => {
+  const M = '';
+  assert.equal(A.withoutEmptyRoute(M + ' ― 2時間 ― ~75 €'), '2時間 ― ~75 €');
+  assert.equal(A.withoutEmptyRoute('カートレイン・' + M), 'カートレイン');
+  assert.equal(A.withoutEmptyRoute('フェリー ― ' + M + ' ― 2時間'), 'フェリー ― 2時間');
+  assert.equal(A.withoutEmptyRoute('A・B'), 'A・B', 'sans repère : texte inchangé');
+});
+
+test('pluriels : samogitien (2), letton, islandais, macédonien (21) au bon nombre', () => {
+  const bad = [];
+  A.setLang('sgs');
+  // Règles du lituanien imposées (PLURAL_LOCALE_FORCE) : 2 = « few ».
+  if(A.statsLabel(2, 'stats.days') !== 'dienos') bad.push('sgs 2 jours : ' + A.statsLabel(2, 'stats.days'));
+  if(!/^2 numatomos įkrovimo pertraukos/.test(A.chargeStopsText(false, 2, 30))) bad.push('sgs 2 pauses : ' + A.chargeStopsText(false, 2, 30));
+  if(!/^21 įkrovimo pertrauka /.test(A.chargeStopsText(true, 21, 30, 'X'))) bad.push('sgs 21 pauses réelles : ' + A.chargeStopsText(true, 21, 30, 'X'));
+  const want21 = { lv: ['21 aptuvena uzlādes pauze', null], ltg: ['21 aptuvena uzlādes pauze', '21 uzlādes pauze '],
+    is: ['21 áætluð hleðslupása', '21 hleðslupása '], mk: ['21 проценета пауза', '21 пауза за полнење'] };
+  for(const [l, [text, real]] of Object.entries(want21)){
+    A.setLang(l);
+    const s = A.chargeStopsText(false, 21, 30), r = A.chargeStopsText(true, 21, 30, 'X');
+    if(s.indexOf(text) !== 0) bad.push(l + ' 21 : « ' + s + ' »');
+    if(real && r.indexOf(real) !== 0) bad.push(l + ' 21 réel : « ' + r + ' »');
+    // 5 (ou 11 en letton, catégorie « zero ») : pluriel inchangé.
+    const five = A.chargeStopsText(false, l === 'lv' || l === 'ltg' ? 11 : 5, 30);
+    if(five !== W.I18N.t('charge.textN', { n: A.formatNum(l === 'lv' || l === 'ltg' ? 11 : 5), min: '30' })) bad.push(l + ' pluriel : « ' + five + ' »');
+  }
+  A.setLang('fr');
+  assert.deepEqual(bad, []);
+});
+
+test('chiffres de la langue : aucun chiffre latin écrit en dur quand formatNum en produit d\'autres', () => {
+  const bad = [];
+  let checked = 0;
+  for(const l of W.I18N.SUPPORTED){
+    A.setLang(l);
+    const one = A.formatNum(1);
+    if(one === '1') continue;
+    checked++;
+    for(const [key, vars] of [['form.dates.oneDay'], ['form.dates.duration1', { days: A.formatNum(2), nights: one }], ['charge.text1', { min: A.formatNum(30) }],
+      ['charge.real1', { min: A.formatNum(30), places: 'X' }], ['reveal.poi1'], ['error.minDistanceContextDay'], ['error.minDistanceContextNight'],
+      ['form.budget.moyenDesc'], ['lodging.moyen']]){
+      const s = W.I18N.t(key, vars);
+      // Seule exception : un nombre à l'intérieur d'un texte en écriture latine (« otel 2-3★ » en touroyo, écrit en latin).
+      if(/[0-9]/.test(s.replace(/[A-Za-zÀ-ɏ][  ]?[0-9][0-9–-]*/g, ''))) bad.push(l + ' ' + key + ' : « ' + s + ' »');
+    }
+    // Adresse, normes et textes latins intacts.
+    if(W.I18N.t('footer.translationDisclaimer').indexOf('lume419') < 0) bad.push(l + ' : adresse de contact modifiée');
+    if(W.I18N.tl('pack.voitureElectrique').some(x => /Type [^2]/.test(x))) bad.push(l + ' : « Type 2 » modifié');
+  }
+  A.setLang('fr');
+  assert.ok(checked >= 8, 'langues à chiffres propres : ' + checked);
+  assert.deepEqual(bad, []);
+});
+
+// ---- Kilomètres / miles (13e audit du 19/09/2026) ----
+test('unité selon la langue choisie : miles pour les langues du Royaume-Uni et des États-Unis, km ailleurs', () => {
+  for(const l of ['en', 'cy', 'gd', 'sco', 'kw', 'haw']) assert.equal(A.unitForLang(l), 'mi', l);
+  for(const l of ['fr', 'de', 'es', 'ga', 'gv', 'nrf-je', 'nrf-gg', 'ar', 'ja', 'pt', 'ch']) assert.equal(A.unitForLang(l), 'km', l);
+  // distanceUnit() suit la langue d'interface, sans aucun réglage.
+  A.setLang('en'); assert.equal(A.distanceUnit(), 'mi');
+  A.setLang('fr'); assert.equal(A.distanceUnit(), 'km');
+});
+
+test('conversions km ↔ mi exactes (1 mi = 1,609344 km)', () => {
+  assert.equal(A.distanceUnitToKm(100, 'mi'), 160.9);
+  assert.equal(A.distanceUnitToKm(305, 'km'), 305, 'en km : valeur saisie envoyée telle quelle');
+  // Formulaire : 100 mi saisis -> 160,9 km envoyés au serveur.
+  A.setFieldUnit('mi');
+  assert.equal(A.distanceFieldKm({ value: '100' }), 160.9);
+  assert.equal(A.distanceFieldKm({ value: '' }), null);
+  // Valeur convertie par le site (300 km -> 186 mi) : la valeur exacte en km est renvoyée tant qu'elle n'est pas retouchée.
+  const input = { value: '300' };
+  A.setDistanceFieldKm(input, 300, 'mi');
+  assert.equal(input.value, '186');
+  assert.equal(A.distanceFieldKm(input), 300);
+  input.value = '100';
+  assert.equal(A.distanceFieldKm(input), 160.9);
+  A.setFieldUnit('km');
+  assert.equal(A.distanceFieldKm({ value: '305' }), 305);
+  // Bornes des champs converties vers l'intérieur (jamais hors de celles du moteur), pas de 10 km -> 5 mi.
+  assert.deepEqual(JSON.parse(JSON.stringify(A.unitFieldBounds({ value: 300, min: 20, max: 1200, step: 10 }, 'mi'))), { value: 186, min: 13, max: 745, step: 5 });
+  assert.deepEqual(JSON.parse(JSON.stringify(A.unitFieldBounds({ min: 10, max: 3000, step: 10 }, 'mi'))), { value: null, min: 7, max: 1864, step: 5 });
+  // Affichage : 160,9 km -> 100 mi ; arrondi à l'entier comme les km.
+  A.setLang('en');
+  A.setUnit('mi');
+  assert.equal(A.formatDistance(160.9), '100 mi');
+  assert.equal(A.formatDistance(80), '50 mi');
+  assert.equal(A.formatDistance(400), '249 mi');
+  A.setUnit('km');
+  assert.equal(A.formatDistance(160.9), '161 km');
+  assert.equal(A.formatDistance(12.46, 1), '12.5 km');
+  A.setUnit(null);
+  A.setLang('fr');
+  // Le formulaire envoie des kilomètres : distances lues par distanceFieldKm, jamais la valeur brute du champ.
+  assert.match(APP, /var minDistanceKm = distanceFieldKm\(els\.minDistance\) \|\| 0;/);
+  assert.match(APP, /var maxDistanceKm = distanceFieldKm\(els\.maxDistance\) \|\| 0;/);
+  assert.match(APP, /var maxLegKm = distanceFieldKm\(els\.legDistance\) \|\| defaultLegKm\(\);/);
+  assert.match(APP, /if\(radiusMode === 'km'\) return distanceFieldKm\(els\.radius\)/);
+});
+
+test('miles au bon nombre dans les langues où le mot s\'accorde (arabe, ukrainien, macédonien)', () => {
+  A.setUnit('mi');
+  const want = { ar: [[2 * 1.609344, 'ميلان'], [5 * 1.609344, 'أميال'], [21 * 1.609344, 'ميلًا']], uk: [[1.609344, 'миля'], [3 * 1.609344, 'милі'], [5 * 1.609344, 'миль']],
+    mk: [[21 * 1.609344, 'милја'], [5 * 1.609344, 'милји']] };
+  const bad = [];
+  for(const [l, rows] of Object.entries(want)){
+    A.setLang(l);
+    for(const [km, word] of rows){ const s = A.formatDistance(km); if(s.indexOf(word) < 0) bad.push(l + ' : « ' + s + ' » (attendu « ' + word + ' »)'); }
+  }
+  A.setUnit(null);
+  A.setLang('fr');
+  assert.deepEqual(bad, []);
+});
+
+// Voyage fictif : 3 nuits au même endroit, une étape avec traversée, recharge sans borne à l'arrivée, randonnée, retour.
+function fakeTrip(transportKey){
+  const hike = { hikeName: 'Tour du lac', hikeUrl: 'https://www.visorando.com/randonnee-x/', hikeDistance: '12,5 km', hikeDuration: '3h15', hikeSource: 'Visorando' };
+  const legs = [
+    leg('Annecy', { country: 'FR', distanceKm: 160.9, travelMin: 120, travelTime: '2h', labelKind: 'day', dayNum: 1, activities: [hike],
+      overMaxLeg: { max: 80, min: 150 }, chargeInfo: { stops: 1, minutes: 30, noChargerNearArrival: true } }),
+    leg('Bastia', { lat: 42.7, country: 'FR', distanceKm: 180, roadKm: 42, roadMin: 40, travelMin: 360, travelTime: '6h', labelKind: 'day', dayNum: 2,
+      ferryInfo: { routeKey: 'ferry.route.corsica', amount: 120, durationH: 6, priceCovers: 'vehicleAndOccupants' } }),
+    leg('Bastia', { lat: 42.7, country: 'FR', distanceKm: null, travelMin: null, labelKind: 'day', dayNum: 3 }),
+    leg('Bastia', { lat: 42.7, country: 'FR', distanceKm: null, travelMin: null, labelKind: 'day', dayNum: 4 }),
+    leg('Lyon', { lat: 45.76, country: 'FR', distanceKm: 300, travelMin: 200, travelTime: '3h20', isReturn: true, labelKind: 'dayReturn', dayNum: 5 })
+  ];
+  return { legs, city: 'Lyon', budgetKey: 'moyen', transportKey, cityCoord: { lat: 45.76, lon: 4.84, country: 'CH' }, days: 5, notices: [],
+    departureTension: null, startIso: '2026-09-20', endIso: '2026-09-24' };
+}
+function payloadTexts(p){
+  const out = [];
+  const walk = v => { if(typeof v === 'string') out.push(v); else if(Array.isArray(v)) v.forEach(walk); else if(v && typeof v === 'object') Object.values(v).forEach(walk); };
+  walk(p.texts); p.legs.forEach(l => { walk(l.texts); walk(l.activities.map(a => a.typeLabel)); });
+  return out;
+}
+
+test('PDF : numéro du jour sur chaque étape d\'un séjour, retour « ⟲ », transportKey et distanceUnit', () => {
+  for(const [l, want] of [['fr', ['1', '2', '3', '4', '⟲']], ['ar', ['١', '٢', '٣', '٤', '⟲']], ['mr', ['१', '२', '३', '४', '⟲']]]){
+    A.setLang(l);
+    A.setTrip(fakeTrip('voiture-thermique'));
+    const p = A.buildTripExportPayload();
+    assert.deepEqual(p.legs.map(x => x.badge), want, l);
+    assert.equal(p.transportKey, 'voiture-thermique');
+    assert.equal(p.distanceUnit, 'km');
+  }
+  // L'écran garde la plage du séjour.
+  A.setLang('fr');
+  assert.deepEqual(Array.from(A.groupLegsByStay(fakeTrip('velo').legs), g => A.dayBadgeText(g)), ['1', '2–4', '⟲']);
+  A.setTrip(null);
+});
+
+test('PDF : aucun rappel de vignette à vélo (ni texte générique, ni par étape)', () => {
+  A.setLang('fr');
+  A.setTrip(fakeTrip('velo'));
+  let p = A.buildTripExportPayload();
+  assert.equal(p.texts.vignette, undefined, 'texts.vignette envoyé à vélo');
+  assert.ok(p.legs.every(l => !l.texts.vignettes), 'rappel par étape à vélo');
+  assert.equal(p.transportKey, 'velo');
+  A.setTrip(fakeTrip('voiture-thermique'));
+  p = A.buildTripExportPayload();
+  assert.ok(p.texts.vignette && /vignette/i.test(p.texts.vignette), 'texte générique en voiture');
+  assert.ok(p.legs[0].texts.vignettes && p.legs[0].texts.vignettes[0].country === 'CH', 'rappel nommé (pays de départ) en voiture');
+  A.setTrip(null);
+});
+
+test('miles : aucun « km » affiché (écran, formulaire, PDF), dans plusieurs langues', () => {
+  const bad = [];
+  for(const l of W.I18N.SUPPORTED){
+    A.setLang(l);
+    A.setUnit('mi');
+    const kmTok = W.I18N.t('unit.km'), miTok = W.I18N.t('unit.mi');
+    const esc = kmTok.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = /[㐀-鿿]/.test(kmTok) ? new RegExp(esc) : new RegExp('(^|[^\\p{L}\\p{M}])' + esc + '(?![\\p{L}\\p{M}])', 'u');
+    A.setTrip(fakeTrip('voiture-electrique'));
+    const p = A.buildTripExportPayload();
+    assert.equal(p.distanceUnit, 'mi');
+    const shown = payloadTexts(p)
+      .concat(A.tripStatsParts(fakeTrip('voiture-electrique')).map(x => x.value + ' ' + x.label + ' ' + (x.extra || '')))
+      .concat(['form.radius.modeKm', 'form.radius.unitKm', 'form.minDistance.unitMin', 'form.minDistance.unitMax', 'form.legDistance.unit']
+        .map(k => W.I18N.t(k, A.distanceUnitVars())))
+      .concat([W.I18N.t('form.legDistance.hint', { bike: A.formatDistance(80), other: A.formatDistance(400) }),
+        W.I18N.t('error.minMaxDistance', { min: A.formatDistance(321.9, 1), max: A.formatDistance(160.9, 1) }),
+        W.I18N.t('error.minDistanceTooFar', { context: W.I18N.t('error.minDistanceContextDay'), min: A.formatDistance(321.9, 1), radius: A.formatDistance(300) }),
+        W.I18N.t('error.minDistanceNotFound', { min: A.formatDistance(321.9, 1) }), A.noChargerText(), A.hikeDistanceText('12,5 km')]);
+    for(const s of shown){
+      if(re.test(s)) bad.push(l + ' : « ' + s + ' »');
+      // {date} et {sources} du pied de page du PDF sont remplis par le serveur.
+      if(/\{(?!date\}|sources\})\w+\}/.test(s)) bad.push(l + ' : paramètre non remplacé « ' + s + ' »');
+    }
+    const all = shown.join(' | ');
+    if(all.indexOf(miTok) < 0 && !W.I18N.plural('unit.miN', 100)) bad.push(l + ' : unité « ' + miTok + ' » jamais affichée');
+    // Étapes : la route (100 mi = 160,9 km) et la randonnée (12,5 km = 7,8 mi) dans l'unité et la langue d'affichage.
+    if(p.legs[0].texts.route.indexOf(A.formatDistanceValue(100, 'mi')) < 0) bad.push(l + ' route : « ' + p.legs[0].texts.route + ' »');
+    if(p.legs[0].activities[0].typeLabel.indexOf(A.formatDistanceValue(7.8, 'mi', 1)) < 0) bad.push(l + ' rando : « ' + p.legs[0].activities[0].typeLabel + ' »');
+  }
+  A.setUnit(null);
+  A.setTrip(null);
+  A.setLang('fr');
+  assert.deepEqual(bad, []);
+});
+
+test('montant seul : même marque d\'approximation que les fourchettes (« ≈ » en japonais)', () => {
+  A.setLang('ja');
+  assert.ok(/^≈/.test(A.approxMoney(87, 'EUR')), A.approxMoney(87, 'EUR'));
+  A.setLang('fr');
+  assert.ok(/^~/.test(A.approxMoney(87, 'EUR')), A.approxMoney(87, 'EUR'));
 });
 
 test('numéro de jour (champ `badge` du PDF) : chiffres de la langue, plage, retour', () => {

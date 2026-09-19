@@ -6121,7 +6121,7 @@ module.exports = {
    "routeKey": "dyroySorburoy", "durationEstimated": true,
    "name": "Dyrøy ↔ Sørburøy",
    "operator": "Fosen Linjen",
-   "durationH": 0.5,
+   "durationH": 1.4,
    "distanceKm": 27,
    "priceStatus": "variable",
    "priceByClass": {
@@ -6139,7 +6139,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27 km à vol d'oiseau entre les terminaux OpenStreetMap de Dyrøy (node/13438193071) et de Sørburøy (node/11048045175), au lieu de 8 ; durée non vérifiée (ligne Dyrøy–Øyrekken à escales). 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27 km à vol d'oiseau entre les terminaux OpenStreetMap de Dyrøy (node/13438193071) et de Sørburøy (node/11048045175), au lieu de 8 ; durée non vérifiée (ligne Dyrøy–Øyrekken à escales). 13e audit du 19/09/2026 : 0,5 h pour 27 km donnait 54 km/h, vitesse d'un navire rapide, pas d'un bac à escales ; horaire absent du dépôt : durée recalculée avec la vitesse médiane des 51 liaisons de la base à durée publiée (durationEstimated absent, hors train-auto) longues de 15 à 45 km, 19,0 km/h -> 27 / 19,0 = 1,42 h, arrondie à 1,4 h (même règle que Kilboghamn ↔ Nordnesøy au 12e audit). Estimation, toujours marquée durationEstimated. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Trøndelag (01/06-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",

@@ -4,6 +4,8 @@
 //   - listes (LISTS) complètes dans chaque langue ;
 //   - aucune valeur restée en anglais (hors emprunts documentés), noms d'îles des liaisons en ferry traduits ;
 //   - script inline des pages HTML : empreinte sha256 autorisée par la CSP de server.js, aucun gestionnaire on*.
+//   - 13e audit du 19/09/2026 : noms de liaisons sans copie de l'arabe ou du russe, aucune unité écrite en dur dans les
+//     phrases de distance (km / mi).
 'use strict';
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
@@ -192,6 +194,53 @@ test('noms d\'îles des liaisons en ferry traduits (pas de « Balearic Islands �
       if(ex === 'latin' ? isLatin(island) : (Array.isArray(ex) && ex.includes(l))) continue;
       bad.push(l + ' ' + k + ' : « ' + S[l][k] + ' »');
     }
+  }
+  assert.equal(bad.length, 0, report(bad, 40));
+});
+
+// 13e audit du 19/09/2026 : noms de liaisons recopiés d'une autre langue — persan et sorani copiés de l'arabe (« جزر
+// البليار », lettres arabes ك/ي), langues de Russie restées en russe (« Балеарские острова »), mer des Wadden (« Ваддензе »)
+// au lieu des îles, « واردن » (R en trop).
+test('noms de liaisons : pas de copie de l\'arabe en persan/sorani ni du russe dans les langues de Russie', () => {
+  const bad = [];
+  const keys = frKeys.filter(k => k.startsWith('ferry.route.'));
+  for(const l of ['fa', 'ckb']){
+    for(const k of keys){
+      const v = S[l][k];
+      if(/[كيىة]/.test(v)) bad.push(l + ' ' + k + ' : lettre arabe « ' + v + ' »');
+      if(/[؀-ۿ]/.test(S.ar[k]) && v === S.ar[k]) bad.push(l + ' ' + k + ' : copie de l\'arabe « ' + v + ' »');
+    }
+  }
+  for(const l of ['tt', 'ba', 'sah', 'ce', 'myv', 'mdf', 'udm']){
+    for(const k of keys){
+      // Groupe d'îles, île, détroit : toujours dans la syntaxe de la langue (un nom propre seul peut être identique).
+      if(/остров|Ваддензе/.test(S.ru[k]) && S[l][k] === S.ru[k]) bad.push(l + ' ' + k + ' : copie du russe « ' + S[l][k] + ' »');
+    }
+  }
+  for(const l of langs){
+    const w = S[l]['ferry.route.wadden'];
+    if(/Ваддензе|واردن/.test(w)) bad.push(l + ' ferry.route.wadden : « ' + w + ' »');
+  }
+  assert.equal(bad.length, 0, report(bad, 40));
+});
+
+// 13e audit du 19/09/2026 : les phrases qui citaient « km » reçoivent l'unité ({unit}) ou une distance déjà mise en
+// forme ({dist}, {min}…) ; aucun jeton km ne doit y rester, dans aucune langue, et chaque langue a ses modèles
+// « nombre + unité » pour les kilomètres et les miles.
+test('distances : aucune unité écrite en dur dans les phrases, modèles unit.kmN / unit.miN dans chaque langue', () => {
+  const KEYS = ['form.radius.modeKm', 'form.radius.unitKm', 'form.minDistance.unitMin', 'form.minDistance.unitMax', 'form.legDistance.unit',
+    'form.legDistance.hint', 'day.routeTime', 'day.crossingTime', 'leg.overMaxLeg', 'charge.noChargerNearArrival', 'error.minMaxDistance',
+    'error.minDistanceTooFar', 'error.minDistanceNotFound'];
+  const bad = [];
+  for(const l of langs){
+    const km = S[l]['unit.km'], esc = km.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // Écritures sans espaces (chinois, tibétain) : jeton cherché tel quel ; ailleurs, mot entier.
+    const re = /[㐀-鿿ༀ-࿿]/.test(km) ? new RegExp(esc) : new RegExp('(^|[^\\p{L}\\p{M}])' + esc + '(?![\\p{L}\\p{M}])', 'u');
+    for(const k of KEYS) if(re.test(S[l][k].replace(/\{\w+\}/g, ' '))) bad.push(l + ' ' + k + ' : « ' + S[l][k] + ' »');
+    for(const k of ['unit.kmN', 'unit.miN']) if(placeholders(S[l][k]) !== '{n}') bad.push(l + ' ' + k + ' : « ' + S[l][k] + ' »');
+    if(!S[l]['unit.mi'] || S[l]['unit.mi'] === km) bad.push(l + ' unit.mi : « ' + S[l]['unit.mi'] + ' »');
+    // Jamais le « mil » scandinave (10 km) seul pour le mile anglo-saxon.
+    if(['da', 'no', 'sv', 'fi', 'is', 'fo'].includes(l) && /^mil$/i.test(S[l]['unit.mi'])) bad.push(l + ' unit.mi : mil scandinave');
   }
   assert.equal(bad.length, 0, report(bad, 40));
 });

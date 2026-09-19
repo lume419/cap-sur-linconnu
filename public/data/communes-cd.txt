@@ -31578,7 +31578,6 @@
 0;18.8161,-7.4917;CD-19;Kwango;Tshiwalwa
 0;18.0543,-7.5100;CD-19;Kwango;Mofikiya
 0;18.1764,-7.5267;CD-19;Kwango;Kawoko
-0;18.1709,-7.5411;CD-19;Kwango;Mwana-Uta_Kambundi
 0;18.0245,-7.9618;CD-19;Kwango;Kahidiki
 0;18.1678,-7.9257;CD-19;Kwango;Katshota
 0;18.3863,-7.9213;CD-19;Kwango;Tshishimbi

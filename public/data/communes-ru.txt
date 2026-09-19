@@ -5880,7 +5880,7 @@
 17359;59.8723,51.0353;462780;Orenburg Oblast;Yasnyy
 0;40.0197,48.0728;347890;Rostov;Yasnyy
 0;43.5381,45.6139;356542;Stavropol Kray;Yasnyy
-0;40.9214,44.4581;352531;Krasnodar Krai;Yasnyy))
+0;40.9214,44.4581;352531;Krasnodar Krai;Yasnyy
 0;40.1167,52.6167;393077;Tambov Oblast;Yasnoye Utro
 0;45.9244,55.2555;607586;Nizhny Novgorod Oblast;Yasnoye
 0;21.5433,55.1735;238613;Kaliningrad Oblast;Yasnoye
@@ -14646,7 +14646,7 @@
 0;41.3905,53.3571;393844;Tambov Oblast;Troitskiye Roslyai
 0;38.9449,55.0911;140479;Moscow Oblast;Troitskiye Ozerki
 0;38.9586,54.9216;140500;Moscow Oblast;Troitskiye Borki
-0;44.7631,44.0269;357871;Stavropol Kray;Troitskiy))
+0;44.7631,44.0269;357871;Stavropol Kray;Troitskiy
 0;52.7500,56.9167;427025;Udmurtiya Republic;Troitskiy
 0;56.2926,56.4560;617825;Perm Krai;Troitsk
 0;46.2333,55.1000;429024;Chuvash Republic;Troitskiy

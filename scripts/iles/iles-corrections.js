@@ -1016,12 +1016,12 @@ module.exports = {
     },
     {
       "a": "continental", "b": "dalma", "routeKey": "alDhannaDalma", "priceCovers": null, "coversSource": "grille AD Maritime : inclusion du conducteur non précisée", "durationEstimated": true, "name": "Jebel Al Dhanna ↔ Dalma",
-      "operator": "Abu Dhabi Maritime (AD Ports)", "durationH": 1, "distanceKm": 43,
+      "operator": "Abu Dhabi Maritime (AD Ports)", "durationH": 2.3, "distanceKm": 43,
       "priceByClass": { "1": 23.36, "2": 23.36, "5": null, "foot": 4.67 },
       "currency": "AED", "original": { "car": 100, "van": 100, "moto": null, "foot": 20 },
       "source": "https://www.admaritime.ae (page Tariffs et FAQ du portail de réservation tickets.admaritime.ae)",
       "date": "2026-09-16",
-      "note": "Aller simple : voiture ou 4x4 100 AED, camping-car 100 AED, adulte 20 AED (moins de 12 ans gratuit). Moto absente de la grille (tarif non communiqué). Conducteur vraisemblablement facturé à part (billets véhicule et passager distincts). 2 à 3 allers-retours par jour, réservation recommandée. Taux InforEuro septembre 2026 : 4,27995 AED/€."
+      "note": "Aller simple : voiture ou 4x4 100 AED, camping-car 100 AED, adulte 20 AED (moins de 12 ans gratuit). Moto absente de la grille (tarif non communiqué). Conducteur vraisemblablement facturé à part (billets véhicule et passager distincts). 2 à 3 allers-retours par jour, réservation recommandée. Taux InforEuro septembre 2026 : 4,27995 AED/€. 13e audit du 19/09/2026 : 1 h pour 43 km (43 km/h), sans durée sourcée ni type de navire documenté (la source ne donne que la grille) ; horaire absent du dépôt : durée recalculée avec la vitesse médiane des 51 liaisons de la base à durée publiée (durationEstimated absent, hors train-auto) longues de 15 à 45 km, 19,0 km/h -> 43 / 19,0 = 2,26 h, arrondie à 2,3 h (même règle que Kilboghamn ↔ Nordnesøy au 12e audit). Estimation, toujours marquée durationEstimated."
     },
     {
       "a": "luzon", "b": "busuanga", "routeKey": "manilaCoron", "durationEstimated": true, "name": "Manille ↔ Coron",

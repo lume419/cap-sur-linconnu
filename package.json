@@ -9,6 +9,7 @@
     "test": "node tests/run.js",
     "test:quick": "node tests/run.js --quick",
     "test:full": "node tests/run.js --full",
+    "test:compare": "node tests/compare-engine.js",
     "build-bundles": "node scripts/build-data-bundles.js && node --max-old-space-size=1024 scripts/build-search-index.js",
     "postinstall": "(node scripts/build-data-bundles.js || echo [postinstall] build-data-bundles a echoue -- non bloquant, voir server.js pour le repli) && (node --max-old-space-size=1024 scripts/build-search-index.js || echo [postinstall] build-search-index a echoue -- non bloquant, recherche en memoire apres chargement du moteur)"
   },

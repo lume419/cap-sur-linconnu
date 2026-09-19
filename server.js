@@ -1412,6 +1412,7 @@ app.get('/api/photo', async (req, res) => {
 // hébergement mutualisé. Le client envoie l'état ACTUEL du voyage tel qu'affiché à l'écran (voir
 // buildTripExportPayload dans app.js — POI réels et randonnée Visorando déjà résolus si trouvés) ;
 // le serveur ne fait que la mise en page. Rien n'est conservé ni journalisé au-delà de la réponse.
+// Journal : en cas d'erreur, son type seulement, jamais son message (13e audit du 19/09/2026, voir pdfErrorKind).
 
 // Liens cliquables du PDF (audit du 17/09/2026) : https seulement, vers les hôtes que l'application produit elle-même —
 // un lien arbitraire envoyé par un client ferait du PDF « officiel » du site un porteur d'hameçonnage. Ensemble calculé
@@ -1492,7 +1493,14 @@ function clip(s, max){
   // et un corps de 32 Ko de « x\n » produisait 198 pages. Tout texte venu du client passe
   // par ici (directement ou par pdfClientText / pdfClientList / pdfClientBadge).
   s = s.replace(/[\r\n\u2028\u2029]+/g, ' ');
-  return s.length > max ? s.slice(0, max - 1) + '…' : s;
+  if(s.length <= max) return s;
+  // Coupure entre deux points de code (13e audit du 19/09/2026) : slice coupait en unités UTF-16 et laissait la moitié
+  // haute d'un emoji (paire de substitution) avant « … », dessinée comme un carré vide. La borne reste en unités UTF-16
+  // (même taille maximale qu'avant pour tous les appelants) ; on recule d'une unité si la coupure tombe dans une paire.
+  let end = max - 1;
+  const last = s.charCodeAt(end - 1);
+  if(end > 0 && last >= 0xD800 && last <= 0xDBFF) end--;
+  return s.slice(0, end) + '…';
 }
 
 // Palette approximative des tokens CSS du site (voir public/css/style.css, thème clair) — pdfkit
@@ -1656,8 +1664,8 @@ function pdfClientList(v, maxItems, maxLen){
 // Libellé du badge d'une étape fourni par le navigateur (champ `badge` de chaque élément de trip.legs, 12e audit du
 // 19/09/2026) : l'écran affiche les chiffres de la langue (« ३ », « ٣ »), « ⟲ » pour le retour et des plages « 3–5 »,
 // le PDF écrivait toujours « 3 » ou « R ». Chaîne courte (12 caractères au plus), sans caractère de contrôle ni de
-// sens d'écriture (un badge ne doit pas réordonner la ligne), puis les mêmes filtres que les autres textes (clip) ;
-// sinon null et le libellé calculé ici.
+// sens d'écriture (un badge ne doit pas réordonner la ligne), entièrement dessinable avec les polices du PDF (13e audit,
+// voir pdfClientBadge) ; sinon null et le libellé calculé ici.
 const PDF_BADGE_BAD_RE = /[\p{Cc}\u061C\u200E\u200F\u202A-\u202E\u2066-\u2069\u2028\u2029]/u;
 // Textes de secours du péage (12e audit du 19/09/2026, utilisés seulement sans texte du navigateur) : fourchette de la
 // 11e passe, même règle que tollRange / tollRangeKind de public/js/app.js. Borne haute = amountMax, sinon amount ; borne
@@ -1680,8 +1688,28 @@ function pdfClientBadge(v){
   if(typeof v !== 'string') return null;
   const s = v.trim();
   if(!s || Array.from(s).length > 12 || PDF_BADGE_BAD_RE.test(s)) return null;
-  return clip(s, 12);
+  // 13e audit du 19/09/2026 :
+  // - libellé dont un caractère n'a de glyphe dans AUCUNE police du PDF (« ⟲ » du retour, emoji) : refusé, le libellé
+  //   calculé ici (« R », numéro) le remplace — sinon le rond affichait un carré vide (glyphe .notdef). Les chiffres des
+  //   161 langues de l'interface et le tiret « – » des plages sont tous couverts (vérifié avec Intl.NumberFormat) ;
+  // - plus de clip(s, 12) : la longueur est déjà bornée à 12 POINTS DE CODE ci-dessus, et clip, qui compte en unités
+  //   UTF-16, coupait 7 emoji (14 unités) au milieu d'une paire de substitution. Sauts de ligne et caractères de contrôle
+  //   sont déjà refusés par PDF_BADGE_BAD_RE ; une moitié de paire isolée l'est par PdfText.canRender.
+  if(!PdfText.canRender(s)) return null;
+  return s;
 }
+
+// Distances écrites par le serveur lui-même (13e audit du 19/09/2026) : textes de secours seulement — les textes traduits
+// du navigateur, prioritaires, sont déjà dans l'unité choisie. payload.distanceUnit = 'mi' : valeur convertie (1 mi =
+// 1,609344 km) puis arrondie à l'unité, comme les kilomètres ; toute autre valeur : kilomètres. Les valeurs reçues et
+// les bornes contrôlées restent en kilomètres. Recensement des distances écrites par le serveur dans le PDF : total
+// (pastille), distance d'étape et partie routière d'une traversée, distance max / éloignement minimum (overMaxLeg),
+// rayon de recherche des bornes (noCharger). Hors PDF, seule /api/pois écrit une distance (« 12 km », randonnées
+// OpenStreetMap) : donnée transmise au navigateur, qui la met en forme lui-même.
+const KM_PER_MILE = 1.609344;
+function pdfDistanceUnit(v){ return v === 'mi' ? 'mi' : 'km'; }
+function pdfDist(km, unit){ return Math.round(unit === 'mi' ? km / KM_PER_MILE : km); }
+function pdfDistText(km, unit){ return pdfDist(km, unit) + ' ' + unit; }
 
 function buildTripPdf(doc, trip){
   const marginLeft = doc.page.margins.left;
@@ -1691,6 +1719,14 @@ function buildTripPdf(doc, trip){
   const lang = typeof trip.lang === 'string' && PDF_LANGS.has(trip.lang) ? trip.lang : 'fr';
   const ctx = { lang: lang, rtl: PdfText.isRtlLang(lang), deadline: performance.now() + PDF_BUILD_BUDGET_MS, truncated: false };
   const texts = (trip.texts && typeof trip.texts === 'object' && !Array.isArray(trip.texts)) ? trip.texts : {};
+  // Unité des distances (payload.distanceUnit, voir pdfDistText) et mode de transport (payload.transportKey : clé de
+  // TRANSPORT dans public/js/trip-data.js, ignorée sinon) — 13e audit du 19/09/2026.
+  const unit = pdfDistanceUnit(trip.distanceUnit);
+  const transportKey = typeof trip.transportKey === 'string' && Object.prototype.hasOwnProperty.call(TripData.TRANSPORT, trip.transportKey)
+    ? trip.transportKey : null;
+  // Mode sans classe de péage (vélo : tollClass null) : aucune autoroute, donc aucun rappel de vignette autoroutière — le
+  // PDF en affichait une (Suisse, Autriche…) pour un voyage à vélo.
+  const noVignette = !!transportKey && TripData.TRANSPORT[transportKey].tollClass == null;
 
   // Pages 2+ (si l'itinéraire déborde) : bandeau réduit, voir pdfRunningHeader. La page 1 existe
   // déjà à la construction du document (pdfkit l'ajoute avant qu'on ait pu s'abonner à
@@ -1721,7 +1757,7 @@ function buildTripPdf(doc, trip){
     if(sDays) statsBits.push(sDays + (sDays > 1 ? ' jours' : ' jour'));
     if(sCities) statsBits.push(sCities + (sCities > 1 ? ' villes' : ' ville'));
     if(sNights != null) statsBits.push(sNights + (sNights > 1 ? ' nuitées' : ' nuitée'));
-    if(statNum(stats.totalKm)) statsBits.push('~' + statNum(stats.totalKm) + ' km au total');
+    if(statNum(stats.totalKm)) statsBits.push('~' + pdfDistText(statNum(stats.totalKm), unit) + ' au total');
     if(stats.toll && typeof stats.toll === 'object' && isFinite(Number(stats.toll.amountMax != null ? stats.toll.amountMax : stats.toll.amount))){
       // Fourchette (11e passe, voir pdfTollRange) : mêmes trois cas que les statistiques de l'écran.
       const r = pdfTollRange(stats.toll), on = !!stats.toll.enabled;
@@ -1806,9 +1842,9 @@ function buildTripPdf(doc, trip){
       const routeWord = leg.ferryInfo ? ' de traversée · ' : ' de route · ';
       // Étape avec traversée : partie par la route jusqu'au port et depuis le port d'arrivée, avant la traversée.
       const roadKm = Math.round(Number(leg.roadKm));
-      const roadPart = leg.ferryInfo && roadKm > 0 && roadKm < 100000 && leg.roadTime ? '~ ' + clip(leg.roadTime, 20) + ' de route · ' + roadKm + ' km + ' : '';
-      const km = Math.round(Number(leg.distanceKm));
-      pdfText(doc, ctx, pdfClientText(lt.route, roadPart + '~ ' + clip(leg.travelTime, 20) + routeWord + (isFinite(km) ? km : '') + ' km', 160),
+      const roadPart = leg.ferryInfo && roadKm > 0 && roadKm < 100000 && leg.roadTime ? '~ ' + clip(leg.roadTime, 20) + ' de route · ' + pdfDistText(Number(leg.roadKm), unit) + ' + ' : '';
+      const km = Number(leg.distanceKm);
+      pdfText(doc, ctx, pdfClientText(lt.route, roadPart + '~ ' + clip(leg.travelTime, 20) + routeWord + (isFinite(km) ? pdfDist(km, unit) : '') + ' ' + unit, 160),
         contentX, contentWidth2, { size: 9, color: PDF_INK_SOFT });
     }
     const stopLabel = (isReturn ? 'Retour vers ' : 'Étape mystère : ') + clip(leg.stop, 100) +
@@ -1828,7 +1864,7 @@ function buildTripPdf(doc, trip){
       const maxKm = Math.round(Number(leg.overMaxLeg.max)), minKm = Math.round(Number(leg.overMaxLeg.min));
       // Bornes du moteur (distance max 5 à 3 000 km, éloignement 3 000 km au plus) : une valeur hors bornes (requête
       // forgée) n'affiche rien.
-      if(maxKm >= 5 && maxKm <= 3000 && minKm >= 1 && minKm <= 3000) legBullet(pdfClientText(lt.overMaxLeg, "Trajet plus long que votre distance maximale entre étapes (" + maxKm + " km) : c'est l'éloignement minimum demandé (" + minKm + " km) qui l'impose."),
+      if(maxKm >= 5 && maxKm <= 3000 && minKm >= 1 && minKm <= 3000) legBullet(pdfClientText(lt.overMaxLeg, "Trajet plus long que votre distance maximale entre étapes (" + pdfDistText(maxKm, unit) + ") : c'est l'éloignement minimum demandé (" + pdfDistText(minKm, unit) + ") qui l'impose."),
         contentX, contentWidth2, { color: PDF_ACCENT, textColor: PDF_ACCENT });
     }
     if(leg.tollInfo){
@@ -1865,7 +1901,7 @@ function buildTripPdf(doc, trip){
           ' (~' + Math.round(c.minutes) + ' min au total) sur borne rapide.'), contentX, contentWidth2);
       }
       if(c.noChargerNearArrival){
-        legBullet(pdfClientText(lt.noCharger, 'Aucune borne publique connue à moins de 20 km de l\'arrivée : prévoyez de recharger à l\'hébergement.'), contentX, contentWidth2, { color: PDF_ACCENT_3 });
+        legBullet(pdfClientText(lt.noCharger, 'Aucune borne publique connue à moins de ' + pdfDistText(20, unit) + ' de l\'arrivée : prévoyez de recharger à l\'hébergement.'), contentX, contentWidth2, { color: PDF_ACCENT_3 });
       }
     }
     if(Array.isArray(leg.restrictions)){
@@ -1930,7 +1966,8 @@ function buildTripPdf(doc, trip){
     // shownVignetteCountries plus haut).
     // Rappels NOMMÉS envoyés par le navigateur (11e audit : pays de départ, pays traversés, pays d'arrivée), un par pays :
     // seul le CODE pays du client est retenu, vérifié contre VIGNETTE_URLS — le lien est toujours celui du serveur.
-    const clientVignettes = Array.isArray(lt.vignettes) ? lt.vignettes.slice(0, 8) : [];
+    // Aucun rappel (ni nommé, ni de repli) pour un mode sans péage (vélo, voir noVignette plus haut).
+    const clientVignettes = !noVignette && Array.isArray(lt.vignettes) ? lt.vignettes.slice(0, 8) : [];
     clientVignettes.forEach(function(v){
       const cc = v && typeof v.country === 'string' ? v.country : '';
       if(!Object.prototype.hasOwnProperty.call(VIGNETTE_URLS, cc) || shownVignetteCountries[cc]) return;
@@ -1938,7 +1975,7 @@ function buildTripPdf(doc, trip){
       legBullet(pdfClientText(v.text, 'Vignette autoroutière obligatoire (' + cc + ') — pensez à la commander avant de partir.', 200),
         contentX, contentWidth2, { link: VIGNETTE_URLS[cc], color: PDF_ACCENT_3 });
     });
-    const vignetteUrl = leg.country && Object.prototype.hasOwnProperty.call(VIGNETTE_URLS, leg.country) && VIGNETTE_URLS[leg.country];
+    const vignetteUrl = !noVignette && leg.country && Object.prototype.hasOwnProperty.call(VIGNETTE_URLS, leg.country) && VIGNETTE_URLS[leg.country];
     if(vignetteUrl && !shownVignetteCountries[leg.country]){
       shownVignetteCountries[leg.country] = true;
       legBullet(pdfClientText(texts.vignette, 'Vignette autoroutière obligatoire dans ce pays — pensez à la commander avant de partir.'),
@@ -2050,6 +2087,17 @@ function pdfExportSlot(req, res, next){
 // {"toString":1} fait lever String(), Number() ou une conversion en clé de propriété — 11 champs de l'export PDF
 // livraient ainsi un document coupé net, sans la mention « document tronqué » ni les sources. Un export réel n'en
 // contient jamais ; le corps est borné à 32 Ko (profondeur comprise).
+// Profondeur d'imbrication d'un corps JSON au-delà de laquelle il est refusé (13e audit du 19/09/2026) : stripConversionTraps
+// et distinctChars s'arrêtent à 64 niveaux ; un « toString » placé plus profond (70 tableaux imbriqués dans
+// tollInfo.amountMax) faisait lever Number() en pleine mise en page — PDF livré coupé, sans pied de page ni mention
+// « document tronqué ». Aucun export légitime ne dépasse une dizaine de niveaux.
+const BODY_MAX_DEPTH = 64;
+function depthExceeds(v, max, depth){
+  if(!v || typeof v !== 'object') return false;
+  if(depth > max) return true;
+  for(const k of Object.keys(v)) if(depthExceeds(v[k], max, depth + 1)) return true;
+  return false;
+}
 function stripConversionTraps(v, depth){
   if(!v || typeof v !== 'object' || depth > 64) return;
   if(Object.prototype.hasOwnProperty.call(v, 'toString')) delete v.toString;
@@ -2081,6 +2129,15 @@ function distinctChars(v, set, limit, depth){
 // environ 1 500.
 const PDF_MAX_DISTINCT_CHARS = 4000;
 const PDF_GLYPH_CACHE_MAX = 6000; // par police, voir PdfText.trimGlyphCaches
+// Erreur de l'export PDF réduite à son TYPE et à son code (13e audit du 19/09/2026) : le message était journalisé, or
+// un message d'erreur peut reprendre un extrait des données traitées (texte envoyé par le navigateur), alors que la
+// politique de confidentialité affirme que l'export PDF n'est « ni enregistré, ni journalisé ». Nom de constructeur et
+// code système seulement, filtrés, jamais le message ni la pile.
+function pdfErrorKind(err){
+  const name = err && typeof err.name === 'string' && /^[A-Za-z]{1,40}$/.test(err.name) ? err.name : 'Erreur';
+  const code = err && typeof err.code === 'string' && /^[A-Z0-9_]{1,40}$/.test(err.code) ? err.code : '';
+  return name + (code ? ' (' + code + ')' : '');
+}
 app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpuBudgetGuard, pdfExportSlot, (req, res) => {
   // Polices du PDF illisibles (fichiers absents, dossier non déployé) : service indisponible, 503 et non 500 (12e audit du
   // 19/09/2026) — l'échec ne dépend pas de la requête. Détail (code d'erreur seul) dans le journal et /api/status.
@@ -2090,6 +2147,7 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpu
     res.setHeader('Cache-Control', 'no-store');
     return res.status(503).json({ error: 'pdf fonts unavailable' });
   }
+  if(depthExceeds(req.body, BODY_MAX_DEPTH, 0)) return res.status(400).json({ error: 'invalid trip data' });
   stripConversionTraps(req.body, 0);
   if(distinctChars(req.body, new Set(), PDF_MAX_DISTINCT_CHARS, 0).size > PDF_MAX_DISTINCT_CHARS){
     return res.status(413).json({ error: 'too many distinct characters' });
@@ -2123,9 +2181,14 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpu
   try {
     buildTripPdf(doc, trip);
   } catch(err){
-    console.warn('[export-pdf] erreur de mise en page:', JSON.stringify(String(err && err.message)));
+    console.warn('[export-pdf] erreur de mise en page :', pdfErrorKind(err));
   }
-  doc.end();
+  // doc.end() dans un try lui aussi (13e audit) : une erreur levée ici partait vers le gestionnaire d'erreurs, en-têtes
+  // déjà envoyés, puis vers celui d'Express, qui journalise la pile complète (message compris).
+  try { doc.end(); } catch(err){
+    console.warn('[export-pdf] erreur de finalisation :', pdfErrorKind(err));
+    res.destroy();
+  }
   PdfText.trimGlyphCaches(PDF_GLYPH_CACHE_MAX);
   cpuBudgetCharge(req, performance.now() - t0);
   // Calcul terminé (pdfkit est synchrone jusqu'à doc.end() compris) : il ne reste que l'envoi, qui ne coûte pas de
@@ -2618,9 +2681,16 @@ app.use(function(req, res){
 
 // Toute erreur non traitée (JSON invalide, URL mal encodée…) : réponse courte, jamais la page d'erreur d'Express.
 app.use(function(err, req, res, next){
-  if(res.headersSent) return next(err);
+  // Export PDF (13e audit du 19/09/2026) : type d'erreur seulement, jamais le message (voir pdfErrorKind) — y compris en-têtes
+  // déjà envoyés, où next(err) laisserait Express journaliser la pile complète.
+  const isPdfExport = /^\/api\/export-pdf\/?$/i.test(req.path); // routage insensible à la casse
+  if(res.headersSent){
+    if(!isPdfExport) return next(err);
+    console.error('[erreur]', req.method, JSON.stringify(req.path), pdfErrorKind(err));
+    return res.destroy();
+  }
   const status = err && err.status >= 400 && err.status < 500 ? err.status : 500;
-  if(status === 500) console.error('[erreur]', req.method, JSON.stringify(req.path), JSON.stringify(String(err && err.message)));
+  if(status === 500) console.error('[erreur]', req.method, JSON.stringify(req.path), isPdfExport ? pdfErrorKind(err) : JSON.stringify(String(err && err.message)));
   res.status(status).json({ error: status === 500 ? 'internal error' : 'bad request' });
 });
 

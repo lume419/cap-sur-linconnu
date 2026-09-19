@@ -72,7 +72,7 @@ const NAME_OVERRIDES = {
 const dumpRaw = fs.readFileSync(path.join(__dirname, 'dump', 'SY_dump.txt'), 'utf8');
 const rows = dumpRaw.split('\n').filter(Boolean).map(line => line.split('\t'));
 const places = rows
-  .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace('SY', c[0], preparePlaceName('SY', c[0], c[1]), parseFloat(c[4]), parseFloat(c[5])))
+  .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace('SY', c[0], preparePlaceName('SY', c[0], NAME_OVERRIDES[c[1]] || c[1]), parseFloat(c[4]), parseFloat(c[5]))) // 13e audit du 19/09/2026 : filtre sur le nom publié (renommages compris), voir communes-corrections.js
   .map(c => ({
     name: preparePlaceName('SY', c[0], NAME_OVERRIDES[c[1]] || c[1]),
     lat: parseFloat(c[4]),

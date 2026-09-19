@@ -1,12 +1,15 @@
-// Contrôles des données publiées (12e audit du 19/09/2026) — rapides, sans charger le moteur (sauf le dernier test,
+// Contrôles des données publiées (12e audit du 19/09/2026, complétés au 13e audit du 19/09/2026) — rapides, sans charger le moteur (sauf le dernier test,
 // désactivé par défaut comme tests/generators.test.js) :
 //   - aucun nom de lieu qui signifie « aucun nom » ni commentaire d'éditeur (scripts/communes-corrections.js : isJunkName,
 //     PLACEHOLDER_NAMES, PLACEHOLDER_QUALIFIED_RE) dans public/data/communes*.txt ;
 //   - aucune fiche corrigée (NAME_FIXES) ou écartée une à une (JUNK_IDS) encore publiée sous son ancien nom ;
 //   - aucun alias orphelin (nom canonique absent des lieux publiés du pays), dans tous les pays ;
-//   - aucun nom terminé par « _ » ni mêlant lettres latines et caractères chinois, japonais ou coréens ;
+//   - aucun nom contenant « _ » (13e audit du 19/09/2026 : tout « _ », plus seulement en fin de nom) ni mêlant lettres
+//     latines et caractères chinois, japonais ou coréens ;
+//   - (13e audit du 19/09/2026) aucune parenthèse non appariée, aucun nom réduit à un nombre, aucune fête népalaise
+//     « Fair (…) » ni bloc administratif indien « (community development block) » ;
 //   - vitesse implicite de chaque ferry (distanceKm / durationH) d'au plus 60 km/h, sauf train-auto ou exception
-//     documentée ;
+//     documentée ; pour les durées ESTIMÉES (durationEstimated), 35 km/h jusqu'à 45 km et 45 km/h au-delà (13e audit) ;
 //   - scripts/build-ferry-ports.js reproduit lib/ferry-ports.js à l'octet près (TEST_GENERATORS=1 ou test:full).
 // Exceptions « en attente » : lignes des pays que leur générateur ne peut pas régénérer hors ligne (fichiers postaux
 // GeoNames absents de scripts/postal/) ; la correction est en place dans communes-corrections.js et s'appliquera à la
@@ -35,6 +38,29 @@ const FAST_FERRY_OK = {
   'balearic|ibiza': 'Palma ↔ Ibiza, ~2 h publiées par Baleària pour le navire rapide (≈ 62 km/h, 34 nœuds)'
 };
 const MAX_FERRY_KMH = 60;
+// 13e audit du 19/09/2026 — durées ESTIMÉES (durationEstimated : durée non publiée par l'exploitant) : un bac ou un ferry
+// conventionnel ne tient pas plus de ~35 km/h de moyenne sur une traversée courte (manœuvres de port comprises), ni plus
+// de ~45 km/h (≈ 24 nœuds) sur une longue ; au-delà, c'est la durée d'un navire rapide. Dyrøy ↔ Sørburøy (54 km/h)
+// passait sous le seul seuil de 60 km/h. Exceptions : liaisons où un navire RAPIDE PRENANT LES VÉHICULES, ou une durée
+// publiée, est documenté (note de la liaison ou commentaire de trip-data.js), vérifiées une à une.
+const MAX_EST_SHORT_KM = 45, MAX_EST_SHORT_KMH = 35, MAX_EST_KMH = 45;
+const FAST_ESTIMATED_OK = {
+  'crete|santorini': 'Seajets : voitures et motos sur les navires rapides (note de la liaison), 1 h 30 à 4 h 30',
+  'continental|serifos': '2 h = durée des navires rapides (SEAJETS, Fast Ferries) selon Ferryhopper, véhicules acceptés',
+  'continental|sifnos': 'SEAJETS (navires rapides prenant voitures et motos, voir Heraklion ↔ Santorin) parmi les exploitants',
+  'lesvos|limnos': 'Seajets (navires rapides prenant les véhicules), ~2 h 50 publiées',
+  'continental|sikinos': 'Fast Ferries, SEAJETS (navires rapides prenant les véhicules)',
+  'koufonisia|naxos': 'SEAJETS (navires rapides prenant les véhicules) ; 35 min = durée la plus courte publiée',
+  'greatBritain|guernsey': 'Condor Voyager, navire rapide transportant voitures, caravanes et camping-cars (note de la liaison)',
+  'continental|guernsey': 'Condor Ferries (même flotte rapide que Poole ↔ Guernesey), distance orthodromique corrigée',
+  'guernsey|jersey': 'Condor Ferries (même flotte rapide), distance orthodromique corrigée',
+  'malta|sicily': 'Virtu Ferries Valletta–Pozzallo, 1 h 45 publiée',
+  'bornholm|continental': 'Bornholmslinjen Ystad–Rønne, 1 h 20 publiée',
+  'continental|gotland': 'Destination Gotland Nynäshamn–Visby, ~3 h 15 publiées',
+  'continental|mykonos': 'Le Pirée–Mýkonos 2 h 40 à 5 h 50 publiées (Seajets / Blue Star), 3 h 30 retenu',
+  'syros|tinos': '~35 min cités par la source pour le ro-pax Blue Star Naxos (22 km)',
+  'miquelon|saintPierre': '36 km/h, à peine au-dessus du seuil ; horaire SPM Ferries absent du dépôt : durée laissée telle quelle, à vérifier'
+};
 
 // Fichier de lieux de chaque pays (France : communes.txt), d'après COUNTRIES.
 const FILES = Object.keys(TripData.COUNTRIES).map(cc => ({ cc, file: TripData.COUNTRIES[cc].file, alias: TripData.COUNTRIES[cc].aliasFile }))
@@ -71,6 +97,9 @@ test('lieux : aucune marque d\'absence de nom ni commentaire d\'éditeur', () =>
   // Garde-fous du filtre lui-même : les formes relevées par le 12e audit sont reconnues, les vrais noms voisins non.
   for(const n of ['Ninguno', 'Ninguno [CERESO]', 'Ninguno (Ejido Villa Hermosa)', 'Sin Nombre', 'NONE', 'Unknown', 'Kumoh_student']) assert.ok(C.isJunkName(n), n);
   for(const n of ['El Ninguno', 'None', 'No Name', 'Nameless', 'Bezimenne', 'Name']) assert.ok(!C.isJunkName(n), n);
+  // 13e audit du 19/09/2026 : parenthèses non appariées et soulignés.
+  for(const n of ['Yasnyy))', 'ADK (Complexe', 'Baindada Market(Friday', 'Bada Dashai)', 'Fair(Chaitra Dashai&', ')(', 'Ke_Gaun', 'Orile_Imo']) assert.ok(C.isJunkName(n), n);
+  for(const n of ['Shushica e Vogël', 'El Molino [Ranchería]', 'Rāyāt [2]', 'Ar Rab‘ah', 'Fair (Kartik)', 'Neturia', 'Santa Cruz (Lagos (Norte))']) assert.ok(!C.isJunkName(n), n);
 });
 
 test('lieux : fiches corrigées ou écartées une à une absentes sous leur ancien nom', () => {
@@ -96,14 +125,32 @@ test('lieux : exceptions « en attente » couvertes par une correction et toujou
   assert.deepEqual(bad, []);
 });
 
-test('lieux : aucun nom terminé par « _ » ni mêlant latin et chinois, japonais ou coréen', () => {
+// Vrais noms de lieux contenant « _ » (pays -> noms), vérifiés un à un : aucun à ce jour (13e audit du 19/09/2026 — les
+// 9 noms publiés relevés étaient tous des erreurs de saisie, voir communes-corrections.js, section 5).
+const UNDERSCORE_OK = {};
+test('lieux : aucun « _ » dans un nom, aucun nom mêlant latin et chinois, japonais ou coréen', () => {
   const CJK = /[぀-ヿ㐀-鿿豈-﫿가-힯]/, LATIN = /[A-Za-zÀ-ɏ]/;
   const bad = [];
   for(const { cc, file } of FILES){
     for(const n of published.get(cc)){
       if(isPending(cc, n)) continue;
-      if(/_\s*$/.test(n)) bad.push(file + ' : ' + JSON.stringify(n) + ' (« _ » final)');
+      if(n.includes('_') && !(UNDERSCORE_OK[cc] || []).includes(n)) bad.push(file + ' : ' + JSON.stringify(n) + ' (« _ »)');
       else if(CJK.test(n) && LATIN.test(n)) bad.push(file + ' : ' + JSON.stringify(n) + ' (latin + CJK)');
+    }
+  }
+  assert.deepEqual(bad, []);
+});
+
+// 13e audit du 19/09/2026.
+test('lieux : parenthèses appariées, aucun nom réduit à un nombre, ni fête (NP) ni bloc administratif (IN)', () => {
+  const bad = [];
+  for(const { cc, file } of FILES){
+    for(const n of published.get(cc)){
+      if(isPending(cc, n)) continue;
+      if(C.hasUnbalancedParen(n)) bad.push(file + ' : ' + JSON.stringify(n) + ' (parenthèse non appariée)');
+      else if(/^\d+$/.test(n)) bad.push(file + ' : ' + JSON.stringify(n) + ' (nombre seul)');
+      else if(cc === 'NP' && /^(?:Annual )?Fair\b/i.test(n)) bad.push(file + ' : ' + JSON.stringify(n) + ' (fête, pas un lieu)');
+      else if(cc === 'IN' && /community development block/i.test(n)) bad.push(file + ' : ' + JSON.stringify(n) + ' (bloc administratif)');
     }
   }
   assert.deepEqual(bad, []);
@@ -140,6 +187,21 @@ test('ferries : vitesse implicite (distance / durée) d\'au plus ' + MAX_FERRY_K
   }
   assert.deepEqual(bad, []);
   assert.deepEqual(Object.keys(FAST_FERRY_OK).filter(k => !seen.has(k)), [], 'exception devenue inutile : la retirer de FAST_FERRY_OK');
+});
+
+// 13e audit du 19/09/2026 (voir FAST_ESTIMATED_OK).
+test('ferries : durées estimées d\'au plus ' + MAX_EST_SHORT_KMH + ' km/h jusqu\'à ' + MAX_EST_SHORT_KM + ' km, ' + MAX_EST_KMH + ' km/h au-delà', () => {
+  const bad = [], seen = new Set();
+  const all = Object.assign({}, TripData.FERRY_ROUTES, TripData.SEA_CROSSINGS);
+  for(const [k, r] of Object.entries(all)){
+    if(!r.durationEstimated || r.mode === 'train') continue;
+    const v = r.distanceKm / r.durationH, max = r.distanceKm <= MAX_EST_SHORT_KM ? MAX_EST_SHORT_KMH : MAX_EST_KMH;
+    if(v <= max) continue;
+    if(FAST_ESTIMATED_OK[k]) seen.add(k);
+    else bad.push(k + ' : ' + r.distanceKm + ' km en ' + r.durationH + ' h (estimée) = ' + v.toFixed(1) + ' km/h > ' + max);
+  }
+  assert.deepEqual(bad, []);
+  assert.deepEqual(Object.keys(FAST_ESTIMATED_OK).filter(k => !seen.has(k)), [], 'exception devenue inutile : la retirer de FAST_ESTIMATED_OK');
 });
 
 // build-ferry-ports.js charge le moteur et écrit en dur dans ../lib/ferry-ports.js : exécuté dans une COPIE temporaire

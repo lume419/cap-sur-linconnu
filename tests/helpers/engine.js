@@ -158,7 +158,7 @@ function motoFactor(cArg, from, to){
   const A = engine.__test, mb = c => c && A.motoMotorwayBan(c);
   let ban = mb(cArg) || mb(from && from.country) || mb(to && to.country);
   // Pays seulement traversé (12e audit) : même règle que finalizeLeg.
-  if(!(ban && ban.fullBan) && from && to && from.lat != null && to.lat != null){
+  if(!(ban && ban.fullBan) && from && to && from.lat != null && to.lat != null && from.country !== to.country){
     const b2 = A.countriesAlong(from, to).map(mb).filter(b => b && b.fullBan)[0];
     if(b2) ban = b2;
   }
@@ -340,7 +340,9 @@ function check(params, res, elapsedMs){
       if(r.type === 'noMotorway' || r.type === 'noMotorwayCc'){
         if(motoSeen[r.country]) bad('restrictions', 'basse', 'interdiction moto ' + r.country + ' répétée');
         motoSeen[r.country] = true;
-        if(r.country !== leg.country && r.country !== from.country) bad('restrictions', 'basse', 'interdiction moto ' + r.country + ' sans rapport avec le trajet', { i });
+        // Pays seulement traversé d'un trajet entre deux pays (12e/13e audits) : légitime.
+        const crossed = from.country !== leg.country && (leg.countriesCrossed || []).includes(r.country);
+        if(r.country !== leg.country && r.country !== from.country && !crossed) bad('restrictions', 'basse', 'interdiction moto ' + r.country + ' sans rapport avec le trajet', { i });
       }
     });
     if(N.transportKey === 'van' && (leg.distanceKm != null || leg.isReturn)){
@@ -534,7 +536,11 @@ function check(params, res, elapsedMs){
   if(N.transportKey === 'moto'){
     ap('restrictions');
     // Pays traversés compris (12e audit : Thaïlande entre Kota Bharu et Bukit Kayu Hitam, jamais signalée).
-    const countries = new Set([dep.country].concat(legs.map(l => l.country), ...legs.map(l => l.countriesCrossed || [])));
+    // Seulement pour un trajet entre deux pays (13e audit : un trajet intérieur n'a aucun transit, comme pour le péage).
+    let prevC = dep.country;
+    const crossedAll = [];
+    legs.forEach(l => { if(l.distanceKm == null && !l.isReturn) return; if(prevC !== l.country) crossedAll.push(...(l.countriesCrossed || [])); prevC = l.country; });
+    const countries = new Set([dep.country].concat(legs.map(l => l.country), crossedAll));
     countries.forEach(cc => { if(A.motoMotorwayBan(cc) && !motoSeen[cc]) bad('restrictions', 'moyenne', 'pays ' + cc + ' aux autoroutes interdites aux motos sans avertissement'); });
   }
   ap('notices');

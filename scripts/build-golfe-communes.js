@@ -45,7 +45,7 @@ for(const country of COUNTRIES){
   const raw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
   const places = raw.split('\n').filter(Boolean).map(l => l.split('\t'))
     .filter(c => (c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7])) || (EXTRA_GEONAME_IDS[country] && EXTRA_GEONAME_IDS[country].has(c[0])))
-    .filter(c => !excludePlace(country, c[0], preparePlaceName(country, c[0], c[1]), parseFloat(c[4]), parseFloat(c[5])))
+    .filter(c => !excludePlace(country, c[0], preparePlaceName(country, c[0], overrides[c[1]] || c[1]), parseFloat(c[4]), parseFloat(c[5]))) // 13e audit du 19/09/2026 : filtre sur le nom publié (renommages compris), voir communes-corrections.js
     .map(c => ({
       name: preparePlaceName(country, c[0], overrides[c[1]] || c[1]),
       lat: parseFloat(c[4]), lon: parseFloat(c[5]),

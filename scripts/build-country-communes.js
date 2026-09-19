@@ -7,7 +7,9 @@ const path = require('path');
 // lieux mal rangés, disparus, Sercq, Antarctique ; noms nettoyés et quasi-doublons (audit n° 11) — voir ce fichier
 const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
 
-const COUNTRIES = []; // dump/ et postal/ ne contiennent que les fichiers des pays en cours
+// 13e audit du 19/09/2026 : ONLY_COUNTRY=AL (ou AL,TR…) régénère ces seuls pays, à condition que scripts/dump/XX_dump.txt
+// ET scripts/postal/XX_postal.txt soient sur le disque (liste vide par défaut, comme avant).
+const COUNTRIES = (process.env.ONLY_COUNTRY || '').split(',').filter(Boolean); // dump/ et postal/ ne contiennent que les fichiers des pays en cours
 // d'ajout — AD/ES/PT/BE/NL/LU/CH/DE/IT/AT/SM/LI/MC/MT/GG/JE/CZ/PL/SK/HU/SI/HR/BA/GB/IE/IM/DK/NO/SE/
 // FI/AX/AL/RS/MK/RO/BG/LV/LT/EE/VA/IS/FO/GI/MD/BY/UA/TR/GE/AZ/CY sont déjà générés et commités
 // (public/data/communes-ad|es|pt|be|nl|lu|ch|de|it|at|sm|li|mc|mt|gg|je|cz|pl|sk|hu|si|hr|ba|gb|ie|
@@ -523,7 +525,7 @@ for(const country of COUNTRIES){
   // code, country, cc2, admin1, admin2, admin3, admin4, population, elevation, dem, timezone, mod
   const rows = dumpRaw.split('\n').filter(Boolean).map(line => line.split('\t'));
   const places = rows
-    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace(country, c[0], preparePlaceName(country, c[0], c[1]), parseFloat(c[4]), parseFloat(c[5])))
+    .filter(c => c[6] === 'P' && KEEP_FEATURE_CODES.has(c[7]) && !excludePlace(country, c[0], preparePlaceName(country, c[0], cleanName((ASCIINAME_FALLBACK_COUNTRIES.has(country) && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1], country)), parseFloat(c[4]), parseFloat(c[5]))) // 13e audit du 19/09/2026 : filtre sur le nom publié (renommages compris), voir communes-corrections.js
     .map(c => ({
       name: preparePlaceName(country, c[0], cleanName((ASCIINAME_FALLBACK_COUNTRIES.has(country) && MK_CYRILLIC_RE.test(c[1])) ? c[2] : c[1], country)),
       lat: parseFloat(c[4]),

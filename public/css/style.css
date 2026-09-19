@@ -861,7 +861,7 @@
   .photo-tile-title{font-style:normal; font-weight:700; font-size:.85rem; line-height:1.25; color:var(--ink);}
   .photo-tile-sub{font-size:.74rem; color:var(--ink-faint);}
   .photo-tile-wiki{
-    align-self:center; flex:none; margin-right:.4rem;
+    align-self:center; flex:none; margin-inline-end:.4rem; /* bord de fin, à gauche en écriture de droite à gauche (13e audit du 19/09/2026) */
     font-style:normal; font-weight:700; font-size:.72rem; line-height:1; color:var(--accent-3); text-decoration:none;
     white-space:nowrap;
   }

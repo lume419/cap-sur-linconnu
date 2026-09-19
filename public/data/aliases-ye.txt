@@ -5584,7 +5584,6 @@ ar;المعربد;Al Mu‘arbid
 ar;المكال;Al Makāl
 ar;الداخلية;Al Qaryah
 ar;أقراض;Aqrāḑ
-ar;حدود الربعة _ الربعة;Ḩudūd ar Rab‘ah _ Ar Rab‘ah
 ar;السبلة;As Sabalah
 ar;الشصر;Ash Shaşr
 ar;بلد فليم;Balad Fulaym

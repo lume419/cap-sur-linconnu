@@ -67,6 +67,13 @@
 // n'ont pas été retouchés : « Zorkovac_ », « Donja_Podgora », « Gornje_Zagorje » (HR), « XXX » et « Test » (ES)
 // restent publiés jusqu'à la prochaine régénération avec GeoNames HR_postal / ES_postal ; les corrections sont en place
 // ci-dessous (NAME_FIXES, JUNK_IDS) et tests/data.test.js les tient pour « en attente » tant qu'elles le sont.
+// 13e audit du 19/09/2026 : parenthèses non appariées (hasUnbalancedParen), tout « _ » dans un nom, fêtes népalaises
+// « Fair (…) », blocs administratifs indiens et nom « 17 » (ZW) — voir les sections 5 et 6. Régénérés : RU
+// (build-russie-svalbard), AL (build-country-communes, ONLY_COUNTRY ajouté, AL_postal.txt présent), CI
+// (build-westafrica), NG (build-sahel-corne), CD et ZW (build-afrique-australe), YE (build-golfe), NP, IN et PK
+// (build-asie), chacun reproduit à l'octet près AVANT la correction. Tous les générateurs jugent désormais le nom
+// PUBLIÉ (renommages propres au générateur compris) : aucune sortie n'a changé (générateurs relancés, et comparaison ligne
+// à ligne des décisions pour les pays non régénérables : ES, HR, IT, DE…, BA).
 
 // geonameid -> [pays du dump, nom, pays réel, 'doublon' | 'absent', détail]
 const WRONG_COUNTRY = {
@@ -175,8 +182,38 @@ const JUNK_IDS = {
   // Nom latin suivi de caractères chinois qui n'en sont pas la transcription (« 父听过 », « fu ting guo » : « père a
   // entendu ») ; la fiche ne donne aucune autre forme. Garder « Qiancheli » seul serait une supposition : écarté,
   // comme les noms à caractères perdus (section 6).
-  '1554185': ['CN', 'Qiancheli-父听过', 'nom incertain (suffixe chinois sans rapport, aucune autre forme)']
+  '1554185': ['CN', 'Qiancheli-父听过', 'nom incertain (suffixe chinois sans rapport, aucune autre forme)'],
+  // 13e audit du 19/09/2026 — nom réduit à un nombre : « 17 » (PPL de 2017, Masvingo), aucun autre nom sur la fiche
+  // (ni asciiname différent, ni alternatename, rien dans altnames/ZW.txt) ; seul nom purement numérique de tous les
+  // fichiers publiés. Numéro de parcelle ou de village de réinstallation probable, mais le nom réel est inconnu : écarté.
+  '11523315': ['ZW', '17', 'nom réduit à un nombre, aucune autre forme sur la fiche']
 };
+// 13e audit du 19/09/2026 — fiches qui ne sont PAS des lieux habités, vérifiées une à une dans scripts/dump/ :
+// - Népal : 22 fêtes saisies comme lieux (PPLL, import des 17 et 18/10/2019, le même que « Salgaun] » et « Ke_Gaun ») —
+//   « Fair (Shivaratri) », « Fair(Paus 15) », « Annual Fair (Shrawan) », « Fair » seul… : le nom est celui d'une fête
+//   (Shivaratri, Kartik, Maghe Sankranti, Janai Purnima…) ou « foire », jamais celui d'un village ; aucun autre nom sur
+//   les fiches. « Bada Dashai) » (8001519, fiche suivante, 0,1 km) est la fin coupée de « Fair(Chaitra Dashai& Bada
+//   Dashai) » (8001518) ; elle est écartée par hasUnbalancedParen. Aucune autre fiche NP du dump ne contient « Fair ».
+// - Inde : 8 blocs de développement (« Neturia (community development block) », « Salboni (community development
+//   block », « Sohela (Community Development Block) »…), subdivisions administratives saisies en PPLL le 06/01/2024
+//   (plage 8740807-8740826), plus « Khejuri II » (8740812, même plage, même date, PPLL) : le chiffre romain est celui du
+//   bloc (Khejuri I et II, Purba Medinipur), aucun village ne porte ce nom. Le chef-lieu du bloc, quand il existe comme
+//   lieu, a sa propre fiche (Sohela, Debra, Neturia, Contai… publiés à part). NON retenus, même plage : Gaisilet
+//   (8740827) et Khaprakhol (8740839), qui sont aussi des villages.
+[
+  [7945577, 'Fair (Baishakhe Purnima)'], [7945588, 'Fair (Kartik)'], [7945775, 'Fair (Kartik)'], [7945781, 'Fair (Bhadra)'],
+  [7950829, 'Annual Fair (Shrawan)'], [7958461, 'Fair (Shivaratri)'], [7960244, 'Fair(Haribodhani Ekadashi'], [7960251, 'Fair(Paus 15)'],
+  [7966049, 'Fair(Phagu Purnima)'], [7966050, 'Fair(Phagu Purnima)'], [7966570, 'Fair(Chaitra-Astami)'], [7966582, 'Fair(Fhagu Fullmoon)'],
+  [7966607, 'Fair(Shivaratri)'], [7966871, 'Fair(Chaitra Fullmoon)'], [7978532, 'Fair (Janaipurnima to naw'], [7978623, 'Fair (Maghe Shankranti)'],
+  [7979115, 'Fair (Chaitra-Astami)'], [8000733, 'Fair'], [8001381, 'Fair'], [8001518, 'Fair(Chaitra Dashai&'],
+  [8004353, 'Fair(Baishakh Sankranti)'], [8004378, 'Fair']
+].forEach(([id, n]) => { JUNK_IDS[id] = ['NP', n, 'fête, pas un lieu habité (PPLL, import des 17-18/10/2019)']; });
+[
+  [8740807, 'Neturia (community development block)'], [8740810, 'Contai III (community development block'],
+  [8740812, 'Khejuri II'], [8740813, 'Narayangarh (community development block)'], [8740815, 'Salboni (community development block'],
+  [8740817, 'Garhbeta II (community development block)'], [8740821, 'Keshiari (community development block)'],
+  [8740824, 'Debra (community development block)'], [8740826, 'Sohela (Community Development Block)']
+].forEach(([id, n]) => { JUNK_IDS[id] = ['IN', n, 'bloc de développement (subdivision administrative), pas un lieu habité (PPLL du 06/01/2024)']; });
 function isJunkId(country, geonameid){
   const e = JUNK_IDS[geonameid];
   return !!(e && e[0] === country);
@@ -185,6 +222,27 @@ function isJunkId(country, geonameid){
 // « [ » à la place d'une lettre, probablement « p », voisine sur le clavier — supposition, donc lieu écarté comme pour
 // « ? » plus bas) ou morceau de note (« 50 km.] [ROAD… »).
 const BROKEN_BRACKET_RE = /\[[^\]]*$|^[^\[]*\]/;
+// Parenthèse non appariée (13e audit du 19/09/2026) : « ( » jamais refermée ou « ) » sans « ( » avant elle. Nom coupé à
+// la saisie (« ADK (Complexe » CI 12687451, « Baindada Market(Friday » NP 7955393, « Fair(Chaitra Dashai& » /
+// « Bada Dashai) » NP 8001518-8001519, un nom en deux fiches) ou doublée (« Yasnyy)) », « Troitskiy)) » RU,
+// « Shushicë)) » AL). Corrigé par NAME_FIXES quand la fiche donne la forme propre (asciiname ou alternatename), sinon
+// lieu écarté — reconstituer la fin d'un nom serait une supposition. Parenthèses imbriquées appariées gardées. Seuls ces
+// 11 noms étaient publiés (balayage de tous les fichiers communes-*.txt).
+function hasUnbalancedParen(name){
+  let depth = 0;
+  for(const ch of String(name || '')){
+    if(ch === '(') depth++;
+    else if(ch === ')' && --depth < 0) return true;
+  }
+  return depth !== 0;
+}
+// Souligné (13e audit du 19/09/2026) : caractère de saisie (espace ou séparateur remplacé), jamais d'un toponyme.
+// 9 noms publiés : 3 en Croatie (NAME_FIXES, en attente de régénération), « Basti Nizam_ud_din » (PK) et « Ḩudūd ar Rab‘ah
+// _ Ar Rab‘ah » (YE), corrigés par NAME_FIXES d'après la fiche ; « Ke_Gaun » (NP 7956662 et 7956663, deux fiches à 2 km,
+// PPLL de 2019), « Orile_Imo » (NG 6826378) et « Mwana-Uta_Kambundi » (CD 8447944) : aucune autre forme sur la fiche
+// (asciiname identique, aucun alternatename, rien dans scripts/altnames/) — mettre une espace ou un tiret à la place serait
+// une supposition : écartés. Test : tests/data.test.js (UNDERSCORE_OK, vide).
+const UNDERSCORE_RE = /_/;
 // Lot népalais d'activités de projet (audit n° 11) : un contributeur a versé dans GeoNames, sous la classe P (PPL, PPLF,
 // PPLL, PPLS), les sites d'activités du projet MaWRiN (WWF, Sindhuli / Okhaldhunga, 2025-2026) — « Participatory
 // Assessment by consultancy, MaWRiN Project », « PSC Meeting », « Check dams-Gaghar Sub Watershed-… », « Upgradation of
@@ -230,7 +288,19 @@ const NAME_FIXES = {
   '1556529': ['CN', 'Damatou大码头', 'Damatou', 'asciiname « Damatou da ma tou » : 大码头 = Damatou'],
   '11962197': ['KR', 'Goam-ri 고암리', 'Goam-ri', 'asciiname « Goam-ri goamli » : 고암리 = Goam-ri'],
   // - nom remplacé par « XXX » (vandalisme ou test) : l'asciiname de la même fiche a gardé le nom d'origine.
-  '3126127': ['ES', 'XXX', 'Casa Blanca', 'asciiname de la fiche (« Casa Blanca »)']
+  '3126127': ['ES', 'XXX', 'Casa Blanca', 'asciiname de la fiche (« Casa Blanca »)'],
+  // 13e audit du 19/09/2026 — parenthèses non appariées et soulignés (voir hasUnbalancedParen et UNDERSCORE_RE), forme
+  // propre donnée par la MÊME fiche :
+  '468660': ['RU', 'Yasnyy))', 'Yasnyy', 'asciiname de la fiche (« Yasnyy »)'],
+  '481559': ['RU', 'Troitskiy))', 'Troitskiy', 'asciiname de la fiche (« Troitskiy »)'],
+  // asciiname « Shushice)) » (même défaut) ; seul alternatename : « Shushica » (forme définie albanaise), repris
+  // aussi dans altnames/AL.txt 1354363. Rien ne donne « Shushicë » sans parenthèses : la forme de la fiche est retenue.
+  '3184026': ['AL', 'Shushicë))', 'Shushica', 'alternatenames + altnames/AL.txt 1354363'],
+  // alternatenames « Basti Nizam_ud_din, Tibbi Nizamuddin, Tibbi Nizāmuddīn » ; altnames/PK.txt 4817793 (en).
+  '1392425': ['PK', 'Basti Nizam_ud_din', 'Tibbi Nizāmuddīn', 'alternatenames + altnames/PK.txt 4817793 (en)'],
+  // « Ḩudūd ar Rab‘ah _ Ar Rab‘ah » (« limites d'Ar Rab‘ah _ Ar Rab‘ah ») ; alternatename « Ar Rab‘ah »
+  // (altnames/YE.txt 3382676) ; les autres « Ar Rab‘ah » publiés sont d'autres lieux (le plus proche à 25 km).
+  '7359228': ['YE', 'Ḩudūd ar Rab‘ah _ Ar Rab‘ah', 'Ar Rab‘ah', 'alternatenames + altnames/YE.txt 3382676']
 };
 function fixName(country, geonameid, name){
   const e = NAME_FIXES[geonameid];
@@ -240,7 +310,7 @@ const LOST_CHARS_RE = /\?/;
 function isJunkName(name){
   name = name || '';
   return !name || EDITOR_COMMENT_NAME_RE.test(name) || PLACEHOLDER_NAMES.has(name) || PLACEHOLDER_QUALIFIED_RE.test(name) ||
-    LOST_CHARS_RE.test(name) || BROKEN_BRACKET_RE.test(name);
+    LOST_CHARS_RE.test(name) || BROKEN_BRACKET_RE.test(name) || hasUnbalancedParen(name) || UNDERSCORE_RE.test(name);
 }
 
 // Filtre commun, appelé par chaque générateur sur chaque ligne du dump : true = lieu écarté.
@@ -394,5 +464,5 @@ function dropNearDuplicates(lines){
 
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
   PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId,
-  BROKEN_BRACKET_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, excludePlace,
+  BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, excludePlace,
   fixMixedScript, cleanPlaceName, preparePlaceName, dropNearDuplicates };

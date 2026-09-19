@@ -69,6 +69,7 @@
   <div class="theme-toggle-row">
     <div class="lang-switcher" id="lang-switcher"></div>
     <div class="currency-switcher" id="currency-switcher"></div>
+    <!-- Unité de distance (km / mi), construite par app.js : voir « SÉLECTEUR D'UNITÉ DE DISTANCE ». -->
     <button type="button" class="theme-toggle-btn" data-theme-current="auto" title="Changer de thème (auto / clair / sombre)">
       <svg aria-hidden="true" focusable="false" class="theme-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 000 18V3z" fill="currentColor" stroke="none"/></svg>
       <span class="theme-toggle-label">Auto</span>
@@ -180,7 +181,7 @@
     <div class="radius-field" id="radius-field">
       <label id="radius-label" style="font-weight:700; font-size:.68rem; line-height:1; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-soft);" data-i18n="form.radius.label">Limite de rayon</label>
       <div class="seg" role="group" aria-label="Type de limite" data-i18n-aria-label="form.radius.groupAria">
-        <button type="button" id="mode-km" aria-pressed="true" data-i18n="form.radius.modeKm">Distance max (km)</button>
+        <button type="button" id="mode-km" aria-pressed="true" data-i18n-unit="form.radius.modeKm">Distance max (km)</button>
         <button type="button" id="mode-h" aria-pressed="false" data-i18n="form.radius.modeH">Temps de trajet retour max (h)</button>
       </div>
       <div class="radius-input">
@@ -190,7 +191,7 @@
           <span class="radius-value-display" id="radius-value-display" aria-hidden="true"></span>
         </div>
         <button type="button" class="step-btn" id="radius-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
-        <span class="unit" id="radius-unit" data-i18n="form.radius.unitKm">km autour du départ</span>
+        <span class="unit" id="radius-unit">km autour du départ</span>
       </div>
       <span class="field-hint" id="radius-hint-line">S'applique uniquement au <strong>dernier trajet</strong> (le retour)</span>
       <span class="field-error" id="radius-error" role="alert"></span>
@@ -205,7 +206,7 @@
             <input type="number" id="min-distance" aria-labelledby="min-distance-label min-distance-unit" min="0" max="3000" step="10" placeholder="Aucun minimum" data-i18n-placeholder="form.minDistance.minPlaceholder" />
             <button type="button" class="step-btn" id="min-distance-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
           </div>
-          <span class="unit" id="min-distance-unit" data-i18n="form.minDistance.unitMin">km au moins</span>
+          <span class="unit" id="min-distance-unit" data-i18n-unit="form.minDistance.unitMin">km au moins</span>
         </div>
         <div class="input-unit">
           <div class="stepper-row">
@@ -213,7 +214,7 @@
             <input type="number" id="max-distance" aria-labelledby="min-distance-label max-distance-unit" min="0" max="3000" step="10" placeholder="Aucun maximum" data-i18n-placeholder="form.minDistance.maxPlaceholder" />
             <button type="button" class="step-btn" id="max-distance-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
           </div>
-          <span class="unit" id="max-distance-unit" data-i18n="form.minDistance.unitMax">km au maximum</span>
+          <span class="unit" id="max-distance-unit" data-i18n-unit="form.minDistance.unitMax">km au maximum</span>
         </div>
       </div>
       <span class="field-hint" data-i18n="form.minDistance.hintMin">Minimum : la première étape sera à au moins cette distance. </span>
@@ -229,9 +230,9 @@
           <input type="number" id="leg-distance" min="10" max="3000" step="10" value="400" />
           <button type="button" class="step-btn" id="leg-distance-inc" aria-label="Augmenter" data-i18n-aria-label="form.radius.incAria">+</button>
         </div>
-        <span class="unit" data-i18n="form.legDistance.unit">km par trajet au maximum</span>
+        <span class="unit" data-i18n-unit="form.legDistance.unit">km par trajet au maximum</span>
       </div>
-      <span class="field-hint" data-i18n="form.legDistance.hint">Par défaut : 80 km à vélo, 400 km pour les autres modes. Avec un ferry, seule la route jusqu'au port et depuis le port compte, pas la traversée.</span>
+      <span class="field-hint" data-i18n-unit="form.legDistance.hint">Par défaut : 80 km à vélo, 400 km pour les autres modes. Avec un ferry, seule la route jusqu'au port et depuis le port compte, pas la traversée.</span>
       <span class="field-error" id="leg-distance-error" role="alert"></span>
     </div>
 

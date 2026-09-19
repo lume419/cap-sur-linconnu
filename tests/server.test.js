@@ -363,6 +363,151 @@ test('12e audit, point 9 : textes de secours du péage en fourchette (« jusqu\'
   assert.deepEqual(want.filter(w => !txt.includes(w)), [], txt.slice(0, 600));
 });
 
+// --------------------------------------------------------------------------------------------- 13e audit (19/09/2026)
+// Glyphes .notdef (carré vide) dessinés dans un PDF : pdfkit écrit chaque glyphe par son numéro dans le sous-ensemble de
+// police incorporé, où le glyphe 0 est toujours .notdef — un code « 0000 » dans une chaîne hexadécimale d'un opérateur
+// TJ/Tj est donc un caractère sans glyphe. (Le texte extrait ne suffit pas : la table ToUnicode rend « ⟲ » même dessiné
+// en carré vide.)
+function notdefCount(buf){
+  const zlib = require('zlib');
+  let n = 0;
+  for(const m of buf.toString('latin1').matchAll(/<<([\s\S]*?)>>\s*stream\r?\n([\s\S]*?)endstream/g)){
+    if(/\/(Length1|Subtype\s*\/(Image|Type0|CIDFontType)|Type\s*\/(XObject|Metadata))/.test(m[1])) continue;
+    let data = Buffer.from(m[2], 'latin1');
+    if(/FlateDecode/.test(m[1])){ try { data = zlib.inflateSync(data); } catch(e){ continue; } }
+    const s = data.toString('latin1');
+    if(!/\bT[Jj]\b/.test(s)) continue;
+    for(const op of s.matchAll(/\[([^\]]*)\]\s*TJ|<([0-9a-fA-F]+)>\s*Tj/g)){
+      const hexes = op[1] !== undefined ? [...op[1].matchAll(/<([0-9a-fA-F]*)>/g)].map(x => x[1]) : [op[2]];
+      for(const h of hexes) for(let i = 0; i + 4 <= h.length; i += 4) if(h.slice(i, i + 4) === '0000') n++;
+    }
+  }
+  return n;
+}
+// Moitié isolée d'une paire de substitution (demi-emoji).
+function hasLoneSurrogate(s){
+  for(let i = 0; i < s.length; i++){
+    const c = s.charCodeAt(i);
+    if(c >= 0xD800 && c <= 0xDBFF){ const d = s.charCodeAt(i + 1); if(d >= 0xDC00 && d <= 0xDFFF){ i++; continue; } return true; }
+    if(c >= 0xDC00 && c <= 0xDFFF) return true;
+  }
+  return false;
+}
+
+test('13e audit, point 1 : badge « ⟲ » du retour -> « R », aucun glyphe manquant ; chiffres des 161 langues acceptés', { timeout: 120000 }, async () => {
+  // Chiffres de chaque langue de l'interface (même lecture de SUPPORTED que server.js) et tiret des plages : dessinables.
+  const PdfText = require(path.join(ROOT, 'lib', 'pdf-text.js'));
+  const src = fs.readFileSync(path.join(ROOT, 'public', 'js', 'i18n.js'), 'utf8').slice(0, 20000);
+  const langs = src.match(/var SUPPORTED = \[([^\]]*)\]/)[1].split(',').map(x => x.trim().replace(/^'|'$/g, '')).filter(Boolean);
+  assert.ok(langs.length >= 150, langs.length + ' langues');
+  const refused = langs.map(l => {
+    let nf;
+    try { nf = new Intl.NumberFormat(l); } catch(e){ nf = new Intl.NumberFormat('fr'); }
+    return [l, nf.format(1234567890) + chr(0x2013) + nf.format(9)];
+  }).filter(x => !PdfText.canRender(x[1])).map(x => x.join(':'));
+  assert.deepEqual(refused, []);
+  assert.equal(PdfText.canRender(chr(0x27F2)), false);
+  const deva3 = chr(0x969);
+  const legs = [
+    { label: 'Premier', badge: chr(0x663) + chr(0x2013) + chr(0x665) },
+    { label: 'Deuxieme', badge: deva3 },
+    { label: 'Retour', isReturn: true, badge: chr(0x27F2) }
+  ];
+  await sleep(1500);
+  const r = await H.postPatient('/api/export-pdf', { lang: 'fr', city: 'Lyon', legs });
+  assert.deepEqual(checkPdf(r, 'badge retour', PDF_TIME_LIMIT_MS), []);
+  assert.equal(notdefCount(r.body), 0, 'glyphe manquant (.notdef) dans le PDF');
+  const lines = pdfText(r.body).split('\n').map(s => s.trim());
+  assert.ok(lines.includes('R'), 'badge « R » absent : ' + JSON.stringify(lines.filter(l => l.length <= 3)));
+  assert.ok(!lines.join(' ').includes(chr(0x27F2)), 'badge « ⟲ » repris');
+  assert.ok(lines.includes(deva3), 'chiffre devanagari refusé');
+  // Témoin : « ⟲ » dans un autre texte est bien dessiné en .notdef (la méthode de contrôle détecte le défaut).
+  await sleep(1500);
+  const t = await H.postPatient('/api/export-pdf', { lang: 'fr', city: 'Lyon', legs: [{ label: 'x', texts: { stop: 'avant ' + chr(0x27F2) + ' apres' } }] });
+  assert.ok(notdefCount(t.body) >= 1, 'contrôle .notdef inopérant');
+});
+
+test('13e audit, point 3 : 7 emoji en badge, emoji coupé par clip -> jamais de demi-caractère', { timeout: 120000 }, async () => {
+  const emoji = chr(0x1F600);
+  const legs = [
+    { label: 'a'.repeat(118) + emoji + 'b', badge: emoji.repeat(7) },
+    { label: 'Deuxieme', badge: 'OK' + emoji },
+    { label: 'Retour', isReturn: true }
+  ];
+  await sleep(1500);
+  const r = await H.postPatient('/api/export-pdf', { lang: 'fr', city: 'Lyon', legs });
+  assert.deepEqual(checkPdf(r, 'emoji', PDF_TIME_LIMIT_MS), []);
+  const txt = pdfText(r.body);
+  assert.ok(!hasLoneSurrogate(txt), 'demi-caractère dans le texte du PDF');
+  assert.equal(notdefCount(r.body), 0, 'glyphe manquant (.notdef) dans le PDF');
+  const lines = txt.split('\n').map(s => s.trim());
+  assert.ok(lines.includes('1') && lines.includes('2'), 'numéro de repli absent : ' + JSON.stringify(lines.filter(l => l.length <= 3)));
+  assert.ok(txt.replace(/\s+/g, '').includes('a'.repeat(118) + chr(0x2026)), 'libellé coupé ailleurs qu\'avant l\'emoji');
+});
+
+test('13e audit, point 2 : vélo -> aucun rappel de vignette ; voiture -> rappel présent', { timeout: 120000 }, async () => {
+  const C = require(path.join(ROOT, 'public', 'js', 'trip-data.js')).COUNTRIES;
+  const vignetteHrefs = new Set(Object.keys(C).filter(cc => C[cc].vignette && C[cc].vignette.url).map(cc => new URL(C[cc].vignette.url).href));
+  const chHref = new URL(C.CH.vignette.url).href;
+  const body = transportKey => ({ lang: 'fr', city: 'Lyon', transportKey, legs: [
+    { label: 'Jour 1', stop: 'Berne', country: 'CH', texts: { vignettes: [{ country: 'CH', text: 'Vignette suisse' }, { country: 'AT', text: 'Vignette autrichienne' }] } },
+    { label: 'Jour 2', stop: 'Vienne', country: 'AT' },
+    { label: 'Retour', stop: 'Lyon', isReturn: true }
+  ] });
+  await sleep(1500);
+  const velo = await H.postPatient('/api/export-pdf', body('velo'));
+  assert.deepEqual(checkPdf(velo, 'vélo', PDF_TIME_LIMIT_MS), []);
+  assert.deepEqual(pdfUris(velo.body).filter(u => vignetteHrefs.has(u)), [], 'lien de vignette dans un PDF à vélo');
+  assert.ok(!/Vignette/i.test(flatText(velo.body)), 'rappel de vignette dans un PDF à vélo');
+  await sleep(1500);
+  const car = await H.postPatient('/api/export-pdf', body('voiture-thermique'));
+  assert.ok(pdfUris(car.body).includes(chHref), 'lien de vignette absent en voiture');
+  // Clé inconnue : ignorée (comportement d'avant, rappel présent).
+  await sleep(1500);
+  const unknown = await H.postPatient('/api/export-pdf', body('trottinette'));
+  assert.ok(pdfUris(unknown.body).includes(chHref), 'clé de transport inconnue non ignorée');
+});
+
+test('13e audit, point 4 : distanceUnit « mi » -> textes de secours en miles, autre valeur -> km', { timeout: 120000 }, async () => {
+  const body = distanceUnit => ({ lang: 'fr', city: 'Lyon', distanceUnit, stats: { days: 2, totalKm: 1609 }, legs: [
+    { label: 'Jour 1', stop: 'A', distanceKm: 161, travelTime: '2h', overMaxLeg: { max: 300, min: 483 },
+      chargeInfo: { stops: 0, noChargerNearArrival: true } },
+    { label: 'Jour 2', stop: 'B', distanceKm: 40.2, travelTime: '3h', roadKm: 80.47, roadTime: '1h',
+      ferryInfo: { route: 'X - Y', amount: 50 } },
+    { label: 'Retour', stop: 'Lyon', isReturn: true }
+  ] });
+  await sleep(1500);
+  const mi = flatText((await H.postPatient('/api/export-pdf', body('mi'))).body);
+  const wantMi = ['~1000 mi au total', '~ 2h de route · 100 mi', '~ 1h de route · 50 mi + ~ 3h de traversée · 25 mi',
+    'distance maximale entre étapes (186 mi)', 'éloignement minimum demandé (300 mi)', 'à moins de 12 mi de'];
+  assert.deepEqual(wantMi.filter(w => !mi.includes(w)), [], mi.slice(0, 900));
+  assert.ok(!/\d km\b/.test(mi), 'distance en km restante : ' + mi.slice(0, 900));
+  await sleep(1500);
+  const km = flatText((await H.postPatient('/api/export-pdf', body('xx'))).body);
+  const wantKm = ['~1609 km au total', '~ 2h de route · 161 km', '~ 1h de route · 80 km + ~ 3h de traversée · 40 km',
+    'distance maximale entre étapes (300 km)', 'éloignement minimum demandé (483 km)', 'à moins de 20 km de'];
+  assert.deepEqual(wantKm.filter(w => !km.includes(w)), [], km.slice(0, 900));
+  assert.ok(!/\d mi\b/.test(km), 'distance en miles avec distanceUnit « xx »');
+});
+
+test('13e audit, point 5 : corps imbriqué au-delà de 64 niveaux refusé (400), journal sans texte envoyé', { timeout: 120000 }, async () => {
+  // Avant : un « toString » imbriqué au-delà de la profondeur nettoyée par stripConversionTraps (64) faisait lever
+  // Number() en pleine mise en page -> PDF coupé sans pied de page. Refusé désormais avant toute mise en page.
+  let deep = { toString: 1, marque: 'SECRET-CLIENT-13' };
+  for(let i = 0; i < 70; i++) deep = [deep];
+  const before = fs.readFileSync(srv.serverLog, 'utf8').length;
+  await sleep(1500);
+  const r = await H.postPatient('/api/export-pdf', { lang: 'fr', city: 'Lyon', legs: [{ label: 'SECRET-LABEL-13', tollInfo: { enabled: true, amountMax: deep } }] });
+  assert.equal(r.status, 400);
+  await sleep(500);
+  const log = fs.readFileSync(srv.serverLog, 'utf8').slice(before);
+  const lines = log.split('\n').filter(l => /export-pdf|erreur/i.test(l));
+  assert.ok(!/SECRET|Cannot convert|primitive/.test(log), 'texte client ou message d\'erreur dans le journal : ' + JSON.stringify(lines));
+  // Témoin : le même contenu à faible profondeur passe (200).
+  const ok = await H.postPatient('/api/export-pdf', { lang: 'fr', city: 'Lyon', legs: [{ label: 'x', tollInfo: { enabled: true, amountMax: 12 } }] });
+  assert.equal(ok.status, 200);
+});
+
 // --------------------------------------------------------------------------------------------- appels sortants
 test('file des appels sortants : des requêtes abandonnées en attente ne bloquent pas l\'adresse', { timeout: 120000 }, async t => {
   srv.setMock({ delayMs: { overpass: 3000 }, wiki: 'status:404' });

@@ -13483,7 +13483,6 @@
 0;82.7449,29.0520;NP-6;Karnali Pradesh;Khati Bada
 0;82.7463,29.0562;NP-6;Karnali Pradesh;Bhutingra
 0;82.7842,29.0495;NP-6;Karnali Pradesh;Chhal
-0;82.7783,29.0482;NP-6;Karnali Pradesh;Fair (Baishakhe Purnima)
 0;82.7902,29.0504;NP-6;Karnali Pradesh;Kareli Kanda
 0;82.6778,29.0819;NP-6;Karnali Pradesh;Balangchaur
 0;82.6893,29.0765;NP-6;Karnali Pradesh;Ghodakhor
@@ -13494,7 +13493,6 @@
 0;82.8599,29.1519;NP-6;Karnali Pradesh;Gumba
 0;82.8779,29.1614;NP-6;Karnali Pradesh;Pugma
 0;82.9310,29.1723;NP-6;Karnali Pradesh;Rigmagaun
-0;82.9312,29.1702;NP-6;Karnali Pradesh;Fair (Kartik)
 0;82.9434,29.1456;NP-6;Karnali Pradesh;Maduwa
 0;82.8410,29.1415;NP-6;Karnali Pradesh;Punikha
 0;82.7921,29.2393;NP-6;Karnali Pradesh;Kanchauni Lek
@@ -13680,13 +13678,11 @@
 0;83.3141,29.5069;NP-6;Karnali Pradesh;Yanang Bhanjyang
 0;83.1863,29.5134;NP-6;Karnali Pradesh;Musi Goth
 0;82.7909,29.0275;NP-6;Karnali Pradesh;Tripurakot
-0;82.7908,29.0253;NP-6;Karnali Pradesh;Fair (Kartik)
 0;82.8184,29.0099;NP-6;Karnali Pradesh;Maddu
 0;82.8263,29.0059;NP-6;Karnali Pradesh;Rum
 0;82.8355,28.9976;NP-6;Karnali Pradesh;Rumbata
 0;83.1976,28.0225;NP-5;Lumbini Province;Bhir
 0;82.8529,28.9940;NP-6;Karnali Pradesh;Ratakhola
-0;82.8311,29.0042;NP-6;Karnali Pradesh;Fair (Bhadra)
 0;82.8007,29.0302;NP-6;Karnali Pradesh;Galligaun
 0;82.8001,29.0217;NP-6;Karnali Pradesh;Galligadgaun
 0;82.8083,29.0190;NP-6;Karnali Pradesh;Ralligaun
@@ -18661,7 +18657,6 @@
 0;82.0978,29.7048;NP-6;Karnali Pradesh;Chauthala
 0;82.1189,29.6588;NP-6;Karnali Pradesh;Jogimara
 0;82.1167,29.6405;NP-6;Karnali Pradesh;Changkheli Lagna
-0;82.1822,29.6929;NP-6;Karnali Pradesh;Annual Fair (Shrawan)
 0;81.9753,29.8115;NP-6;Karnali Pradesh;Byapcha
 0;81.9770,29.8044;NP-6;Karnali Pradesh;Kallas
 0;81.9974,29.8015;NP-6;Karnali Pradesh;Hyapse Lagna
@@ -23138,7 +23133,6 @@
 0;87.8461,26.5893;NP-1;Koshi;Chandradagi
 0;87.8430,26.5988;NP-1;Koshi;Shibugaun
 0;87.8525,26.6223;NP-1;Koshi;Baisabari
-0;87.8459,26.6181;NP-1;Koshi;Baindada Market(Friday
 0;87.8384,26.6087;NP-1;Koshi;Srilanka
 0;87.8934,26.5938;NP-1;Koshi;Chapramari
 0;83.5286,28.1495;NP-4;Gandaki Pradesh;Majuwa
@@ -24376,8 +24370,6 @@
 0;80.5408,28.9423;NP-7;Sudurpashchim Pradesh;Halaude
 0;80.5324,28.9354;NP-7;Sudurpashchim Pradesh;Chauki
 0;80.5393,28.9344;NP-7;Sudurpashchim Pradesh;Halaude
-0;80.7554,28.5984;NP-7;Sudurpashchim Pradesh;Ke_Gaun
-0;80.7745,28.5934;NP-7;Sudurpashchim Pradesh;Ke_Gaun
 0;80.7605,28.5884;NP-7;Sudurpashchim Pradesh;Bhitariya
 0;80.7935,28.5848;NP-7;Sudurpashchim Pradesh;Badka Muda
 0;80.8062,28.5912;NP-7;Sudurpashchim Pradesh;Nawalpur
@@ -26132,7 +26124,6 @@
 0;81.6504,29.0759;NP-6;Karnali Pradesh;Mudi Katiya
 0;81.6202,29.2627;NP-6;Karnali Pradesh;Budhisain
 0;81.6187,29.2602;NP-6;Karnali Pradesh;Rampur
-0;83.6465,28.1803;NP-4;Gandaki Pradesh;Fair (Shivaratri)
 0;81.6201,29.2717;NP-6;Karnali Pradesh;Laharala
 0;81.6087,29.2657;NP-6;Karnali Pradesh;Majina
 0;81.6079,29.2604;NP-6;Karnali Pradesh;Hipkot
@@ -27874,14 +27865,12 @@
 0;84.1588,28.2195;NP-4;Gandaki Pradesh;Dobhan
 0;84.1486,28.2161;NP-4;Gandaki Pradesh;Kasyari
 0;84.1531,28.2139;NP-4;Gandaki Pradesh;Thumsikot
-0;84.1541,28.2131;NP-4;Gandaki Pradesh;Fair(Haribodhani Ekadashi
 0;84.1465,28.2410;NP-4;Gandaki Pradesh;Chhelang
 0;83.2310,28.4786;NP-4;Gandaki Pradesh;Rampu Kharka
 0;84.1446,28.2443;NP-4;Gandaki Pradesh;Purano Bhachok
 0;84.1469,28.2328;NP-4;Gandaki Pradesh;Tase
 0;84.1674,28.2500;NP-4;Gandaki Pradesh;Jhaure
 0;84.1595,28.2429;NP-4;Gandaki Pradesh;Bhachok
-0;84.1617,28.2415;NP-4;Gandaki Pradesh;Fair(Paus 15)
 0;84.1574,28.2391;NP-4;Gandaki Pradesh;Bhattedanda
 0;84.1495,28.2685;NP-4;Gandaki Pradesh;Kurlung
 0;84.1585,28.2583;NP-4;Gandaki Pradesh;Jhaure
@@ -33612,7 +33601,6 @@
 0;84.2332,28.2427;NP-4;Gandaki Pradesh;Tallochara
 0;84.2274,28.2364;NP-4;Gandaki Pradesh;Kyole
 0;84.2155,28.2330;NP-4;Gandaki Pradesh;Baluwa
-0;84.2168,28.2322;NP-4;Gandaki Pradesh;Fair(Phagu Purnima)
 0;84.2450,28.2480;NP-4;Gandaki Pradesh;Bhoje
 0;84.2321,28.2491;NP-4;Gandaki Pradesh;Chara
 0;83.5555,28.2563;NP-4;Gandaki Pradesh;Sigana Thapathar
@@ -34122,7 +34110,6 @@
 0;84.5865,28.1873;NP-4;Gandaki Pradesh;Thulo Kapre
 0;84.5929,28.1838;NP-4;Gandaki Pradesh;Sano Kapre
 0;84.5991,28.1809;NP-4;Gandaki Pradesh;Digaun
-0;84.6089,28.1759;NP-4;Gandaki Pradesh;Fair(Chaitra-Astami)
 0;84.6018,28.1714;NP-4;Gandaki Pradesh;Taji
 0;84.5895,28.1683;NP-4;Gandaki Pradesh;Samghaderi
 0;84.6031,28.1667;NP-4;Gandaki Pradesh;Jamune
@@ -34134,7 +34121,6 @@
 0;84.6017,28.1595;NP-4;Gandaki Pradesh;Keureni Digaun
 0;84.5976,28.1572;NP-4;Gandaki Pradesh;Muge
 0;84.5990,28.1549;NP-4;Gandaki Pradesh;Muge-Bajar
-0;84.6003,28.1540;NP-4;Gandaki Pradesh;Fair(Fhagu Fullmoon)
 0;84.5774,28.1500;NP-4;Gandaki Pradesh;Gharedhunga
 0;84.5837,28.1550;NP-4;Gandaki Pradesh;Olsedanda
 0;84.5808,28.1430;NP-4;Gandaki Pradesh;Kuyele
@@ -34159,7 +34145,6 @@
 0;84.2217,28.1714;NP-4;Gandaki Pradesh;Bhantbesi
 0;84.2244,28.1611;NP-4;Gandaki Pradesh;Ram Bajar
 0;84.2295,28.1622;NP-4;Gandaki Pradesh;Karaputar
-0;84.2276,28.1596;NP-4;Gandaki Pradesh;Fair(Shivaratri)
 0;80.5102,29.4444;NP-7;Sudurpashchim Pradesh;Batsara
 0;84.2518,28.1836;NP-4;Gandaki Pradesh;Pipaldali
 0;84.2554,28.1792;NP-4;Gandaki Pradesh;Pipaldali
@@ -34416,7 +34401,6 @@
 0;84.5236,28.1987;NP-4;Gandaki Pradesh;Upallo Pachok
 0;84.5379,28.1953;NP-4;Gandaki Pradesh;Phrumche
 0;84.5274,28.1912;NP-4;Gandaki Pradesh;Kainchi
-0;84.5578,28.1887;NP-4;Gandaki Pradesh;Fair(Chaitra Fullmoon)
 0;84.5437,28.1872;NP-4;Gandaki Pradesh;Simrodanda
 0;84.4007,28.1313;NP-4;Gandaki Pradesh;Hadetar
 0;80.7435,29.6112;NP-7;Sudurpashchim Pradesh;Chankeli
@@ -45913,7 +45897,6 @@
 0;83.6451,28.1619;NP-4;Gandaki Pradesh;Sat kuriya
 0;83.6443,28.1605;NP-4;Gandaki Pradesh;Campus
 0;83.6437,28.1592;NP-4;Gandaki Pradesh;Phalebas
-0;83.6468,28.1588;NP-4;Gandaki Pradesh;Fair (Janaipurnima to naw
 0;81.2515,28.9652;NP-7;Sudurpashchim Pradesh;Bedpani
 0;80.5175,29.4504;NP-7;Sudurpashchim Pradesh;Gatteda
 0;83.6471,28.1681;NP-4;Gandaki Pradesh;Hadichaur
@@ -46003,7 +45986,6 @@
 0;83.6852,28.2049;NP-4;Gandaki Pradesh;Khadalnithar
 0;83.6814,28.2018;NP-4;Gandaki Pradesh;Modibeni
 0;80.5778,29.4514;NP-7;Sudurpashchim Pradesh;Panakot
-0;83.6826,28.2014;NP-4;Gandaki Pradesh;Fair (Maghe Shankranti)
 0;83.6825,28.2010;NP-4;Gandaki Pradesh;(Shivaratri)
 0;83.6880,28.2014;NP-4;Gandaki Pradesh;Deupuja
 0;83.6847,28.2032;NP-4;Gandaki Pradesh;Seudichaur
@@ -46488,7 +46470,6 @@
 0;83.7316,28.2158;NP-4;Gandaki Pradesh;Khore
 0;83.7352,28.2084;NP-4;Gandaki Pradesh;Batulechaur
 0;83.7418,28.2084;NP-4;Gandaki Pradesh;Khoriyapani
-0;83.7377,28.2080;NP-4;Gandaki Pradesh;Fair (Chaitra-Astami)
 0;83.7285,28.2077;NP-4;Gandaki Pradesh;Tindhunge
 0;83.7254,28.2518;NP-4;Gandaki Pradesh;Gijang
 0;83.7401,28.2644;NP-4;Gandaki Pradesh;Thang
@@ -67710,7 +67691,6 @@
 0;83.8355,28.0126;NP-4;Gandaki Pradesh;Bhimalswara
 0;83.8239,28.0237;NP-4;Gandaki Pradesh;Banethok
 0;83.8232,28.0222;NP-4;Gandaki Pradesh;Devipuje Dhunga
-0;83.8225,28.0215;NP-4;Gandaki Pradesh;Fair
 0;81.4833,29.4012;NP-7;Sudurpashchim Pradesh;Budhako Dar
 0;83.8204,28.0215;NP-4;Gandaki Pradesh;Chautari
 0;83.8229,28.0193;NP-4;Gandaki Pradesh;Singarkotdanda
@@ -68351,7 +68331,6 @@
 0;83.7861,27.9059;NP-4;Gandaki Pradesh;Pokhari Chhap
 0;83.7826,27.9026;NP-4;Gandaki Pradesh;Manthum
 0;83.7841,27.8982;NP-4;Gandaki Pradesh;Joginamsa
-0;83.7862,27.8964;NP-4;Gandaki Pradesh;Fair
 0;83.7882,27.8959;NP-4;Gandaki Pradesh;(Kartic Thulo Ekadashi)
 0;83.7887,27.8951;NP-4;Gandaki Pradesh;Sivalaya Temple
 0;83.9302,27.9501;NP-4;Gandaki Pradesh;Namtarsing
@@ -68486,8 +68465,6 @@
 0;83.8688,27.9983;NP-4;Gandaki Pradesh;Gahate
 0;83.8714,27.9939;NP-4;Gandaki Pradesh;Gophadi
 0;83.8718,27.9922;NP-4;Gandaki Pradesh;Manakamana Temple
-0;83.8718,27.9914;NP-4;Gandaki Pradesh;Fair(Chaitra Dashai&
-0;83.8730,27.9910;NP-4;Gandaki Pradesh;Bada Dashai)
 0;81.3644,29.1184;NP-7;Sudurpashchim Pradesh;Kaulekharka
 0;81.3000,29.4166;NP-7;Sudurpashchim Pradesh;Dogada
 0;83.6483,27.9607;NP-4;Gandaki Pradesh;Gowadi
@@ -71288,7 +71265,6 @@
 0;84.1362,27.8563;NP-4;Gandaki Pradesh;Pipaltar
 0;84.1314,27.8511;NP-4;Gandaki Pradesh;Jhyapultar
 0;84.1269,27.8496;NP-4;Gandaki Pradesh;Ghumarighat
-0;84.1295,27.8491;NP-4;Gandaki Pradesh;Fair(Baishakh Sankranti)
 0;81.3844,29.4692;NP-7;Sudurpashchim Pradesh;Kurela
 0;84.1263,27.8710;NP-4;Gandaki Pradesh;Korke
 0;84.1290,27.8644;NP-4;Gandaki Pradesh;Bataulitar
@@ -71312,7 +71288,6 @@
 0;84.1492,27.8921;NP-4;Gandaki Pradesh;Gairathok
 0;81.3947,29.4942;NP-7;Sudurpashchim Pradesh;Khaye
 0;84.1506,27.8889;NP-4;Gandaki Pradesh;Dihi
-0;84.1513,27.8869;NP-4;Gandaki Pradesh;Fair
 0;84.1358,27.8931;NP-4;Gandaki Pradesh;Ramjakot
 0;84.1299,27.8889;NP-4;Gandaki Pradesh;Beltari
 0;84.1381,27.8884;NP-4;Gandaki Pradesh;Bahundanda

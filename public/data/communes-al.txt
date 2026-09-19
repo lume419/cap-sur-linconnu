@@ -2227,7 +2227,7 @@
 0;19.7294,41.0875;2511;Bashkia Kavajë;Sinametaj
 0;19.6994,41.0689;2511;Bashkia Kavajë;Sinaballaj
 0;19.9247,41.8681;4607;Bashkia Mirditë;Simon
-0;19.9667,41.0167;3017;Bashkia Elbasan;Shushicë))
+0;19.9667,41.0167;3017;Bashkia Elbasan;Shushica
 0;19.9333,41.4142;1042;Bashkia Tiranë;Kodër-Shupal
 0;19.7078,41.6558;4701;Bashkia Kurbin;Shullaz
 0;19.4694,40.7044;9314;Bashkia Fier;Shtyllas

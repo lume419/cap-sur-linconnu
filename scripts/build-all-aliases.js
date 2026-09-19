@@ -214,14 +214,20 @@ for(const cc of Object.keys(COUNTRIES)){
   // -> « Damatou », « Zorkovac_ » -> « Zorkovac ») : ancien nom de la fiche -> nouveau nom, s'il est publié.
   const fixedNameOf = new Map();
   Object.values(NAME_FIXES).forEach(e => { if(e[0] === cc) fixedNameOf.set(e[1], e[2]); });
-  let renamedClean = 0;
+  let renamedClean = 0, droppedRenamed = 0;
   existing = existing.map(l => {
     const p = l.split(';');
     if(p.length !== 3 || publishedNames.has(p[2])) return l;
     const c = fixedNameOf.has(p[2]) ? cleanPlaceName(fixedNameOf.get(p[2])) : cleanPlaceName(p[2]);
-    if(c !== p[2] && publishedNames.has(c)){ renamedClean++; return p[0] + ';' + p[1] + ';' + c; }
+    if(c !== p[2] && publishedNames.has(c)){
+      // 13e audit du 19/09/2026 : l'alias qui devient identique au nouveau nom (« en;Tibbi Nizāmuddīn », PK, nom corrigé
+      // d'après ce même alias) ou qui porte le même défaut que l'ancien nom (« _ » : « حدود الربعة _ الربعة », YE) est
+      // écarté au lieu d'être rattaché (mêmes règles que pour les noms de lieux).
+      if(normalizeCityName(p[1]) === normalizeCityName(c) || p[1].includes('_')){ droppedRenamed++; return null; }
+      renamedClean++; return p[0] + ';' + p[1] + ';' + c;
+    }
     return l;
-  });
+  }).filter(l => l !== null);
   // Nettoyage des lignes existantes (voir cleanAliasText). Une ligne nettoyée qui retombe sur une ligne déjà présente
   // (même langue, même nom normalisé, même lieu : « غجر‎ » à côté de « غجر ») est retirée ; les autres lignes ne sont
   // jamais touchées, ni réordonnées.
@@ -262,6 +268,7 @@ for(const cc of Object.keys(COUNTRIES)){
   }).filter(Boolean);
   existing = [...new Set(existing)];
   if(renamedClean) console.log(cc + ' : lignes rattachées au nom nettoyé ou corrigé ' + renamedClean);
+  if(droppedRenamed) console.log(cc + ' : lignes de l’ancien nom écartées (égales au nouveau nom ou avec « _ ») ' + droppedRenamed);
   if(fixedOrphans || droppedOrphans) console.log(cc + ' : lignes orphelines rattachées ' + fixedOrphans + ', écartées ' + droppedOrphans);
   if(cleanedAliases || droppedDirty || dedupDirty) console.log(cc + ' : alias nettoyés ' + cleanedAliases + ', écartés (vides ou égaux au nom) ' + droppedDirty + ', doublons d\'une ligne existante ' + dedupDirty);
   const seen = new Set(existing.map(l => { const p = l.split(';'); return p[0] + '|' + normalizeCityName(p[1]) + '|' + p[2]; }));
@@ -291,6 +298,10 @@ for(const cc of Object.keys(COUNTRIES)){
     if(celticNames && !CELTIC_PROBE_LANGS.has(rawLang) && celticNames.has(norm)) return;
     if(cc === 'GB' && GB_REGION_RESTRICTED_LANGS[rawLang] && !GB_REGION_RESTRICTED_LANGS[rawLang].has(p.region || '')) return;
     if(/[;\n\r]/.test(text)) return;
+    // 13e audit du 19/09/2026 : « _ » = caractère de saisie (voir UNDERSCORE_RE dans communes-corrections.js) ; les
+    // AJOUTS qui en contiennent sont écartés (« حدود الربعة _ الربعة », YE). Les lignes existantes ne sont pas touchées
+    // (~100 lignes avec « _ » dans l'ensemble des aliases-xx.txt, à revoir une à une).
+    if(text.includes('_')) return;
     const k = lang + '|' + norm + '|' + p.name;
     if(seen.has(k)) return;
     seen.add(k);
@@ -302,7 +313,7 @@ for(const cc of Object.keys(COUNTRIES)){
   added.forEach(l => { const lg = l.slice(0, l.indexOf(';')); totals.byLang[lg] = (totals.byLang[lg] || 0) + 1; });
   console.log(cc + ' : ' + published.length + ' lieux, ' + placeById.size + ' rattachés (' + byCoords + ' par coordonnées, ' + byName +
     ' par nom), ' + existing.length + ' alias existants, +' + added.length + (DRY ? ' (mesure)' : ''));
-  if(!DRY && (added.length || renamedClean || fixedOrphans || droppedOrphans || cleanedAliases || droppedDirty || dedupDirty)){
+  if(!DRY && (added.length || renamedClean || droppedRenamed || fixedOrphans || droppedOrphans || cleanedAliases || droppedDirty || dedupDirty)){
     fs.writeFileSync(outPath, existing.concat(added).join('\n') + '\n', 'utf8');
   }
 }

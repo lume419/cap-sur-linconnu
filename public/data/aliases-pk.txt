@@ -4995,7 +4995,6 @@ en;Basti Khar;Basti Khando
 en;Mohānewāli;Mahantrewala
 en;Āra Akbar Shāh;Ara Akbar
 en;Āri Akbar Shāh;Ara Akbar
-en;Tibbi Nizāmuddīn;Basti Nizam_ud_din
 en;Sarlewāla;Sheriwala
 en;Jhandīrwāla;Jhandirwala
 en;Tārpur;Basti Tarpur

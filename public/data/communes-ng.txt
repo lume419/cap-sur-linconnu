@@ -33144,7 +33144,6 @@
 0;3.5149,6.8085;NG-16;Ogun State;Oga
 0;3.5131,6.8716;NG-16;Ogun State;Igbein
 0;3.5570,6.8736;NG-16;Ogun State;Rasusi
-0;3.5602,6.9229;NG-16;Ogun State;Orile_Imo
 0;3.5772,6.8942;NG-16;Ogun State;Kajola
 0;3.5747,6.9495;NG-16;Ogun State;Oduatayo
 0;3.5862,6.9567;NG-16;Ogun State;Olojo

@@ -16226,7 +16226,7 @@
 0;44.4575,14.4771;YE-11;Dhamār;Al Wāsiţah
 0;44.4794,14.3290;YE-11;Dhamār;An Nawfah
 0;44.2793,14.3637;YE-11;Dhamār;Aqrāḑ
-0;44.2806,14.4719;YE-20;Al Bayda;Ḩudūd ar Rab‘ah _ Ar Rab‘ah
+0;44.2806,14.4719;YE-20;Al Bayda;Ar Rab‘ah
 0;44.4160,14.4328;YE-11;Dhamār;Ar Rukay‘
 0;44.3364,14.3248;YE-11;Dhamār;As Sabalah
 0;44.4058,14.4096;YE-20;Al Bayda;Aş Şarm

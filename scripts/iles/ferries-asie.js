@@ -1161,7 +1161,7 @@ module.exports = {
       "name": "Batulicin ↔ Tanjung Serdang (Pulau Laut)",
       "operator": "ASDP Indonesia Ferry, filiales et Dharma Lautan Utama",
       "durationH": 0.75,
-      "distanceKm": 33,
+      "distanceKm": 8.5,
       "priceStatus": "unknown",
       "priceByClass": {
         "1": null,
@@ -1171,7 +1171,7 @@ module.exports = {
       },
       "source": "https://kalsel.antaranews.com/berita/493081/asdp-batulicin-siapkan-delapan-kapal-untuk-kelancaran-nataru",
       "date": "2025-12",
-      "note": "Huit ferries pour Noël/Nouvel An 2026, jusqu'à 12 rotations/jour, voitures et motos. Aucune grille officielle lisible. Durée ~45 min (ordre de grandeur) ; distance orthodromique."
+      "note": "Huit ferries pour Noël/Nouvel An 2026, jusqu'à 12 rotations/jour, voitures et motos. Aucune grille officielle lisible. Durée ~45 min (ordre de grandeur) ; distance orthodromique. 13e audit du 19/09/2026 : distance corrigée à 8,5 km, orthodromie entre les deux ports de la liaison dans lib/ferry-ports.js (Batulicin -3,4202 ; 116,0061 et Tanjungserdang -3,4833 ; 116,05, localités GeoNames), au lieu de 33 km — 33 km en 45 min donnaient 44 km/h, invraisemblable pour un roulier (8,5 km en 45 min : 11 km/h)."
     },
     {
       "a": "borneo",

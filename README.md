@@ -4283,6 +4283,73 @@ dans la langue de l'interface, textes de carte traduits, accessibilité (dialogu
 impression, textes indicatifs trop longs. 12 nouvelles clés dans les 161 langues ; le yi reçoit le chinois pour ces
 clés, faute de traduction fiable.
 
+### Treizième passe d'audit (19 septembre 2026)
+
+Relecture complète en quatre volets, sans faille de sécurité ni violation d'invariant (~2 000 tirages). La plupart des
+défauts trouvés étaient des **régressions de la 12e passe** : chaque correction avait été vérifiée sur le cas qui la
+motivait (voiture, pays rapide), jamais sur les variantes (vélo, pays lents, voiture électrique, temps de calcul).
+
+**Nouvel outil : comparaison de versions du moteur** (`npm run test:compare -- <réf git>`, `tests/compare-engine.js`,
+détail dans `tests/README.md`). Il joue les mêmes ~300 tirages (74 départs, 6 modes, 16 profils, graines fixes,
+horloge ralentie ×10) et ~1 140 trajets directs avec le moteur d'un commit et avec le répertoire de travail, puis liste
+chaque différence de diagnostic, d'étapes, de durées, de péage, d'avertissements et de temps de calcul, résumée par mode,
+pays et type de lieu. Validé sur 3d53524 → a8aa4bc : il retrouve les quatre régressions de la 12e passe. **Règle : tout
+changement listé doit être voulu et expliqué avant un commit.** Pour cette passe, a8aa4bc → 13e passe : 73 tirages
+changés sur 300, tous attendus (vélo, électrique et moto en aller-retour, îles des pays lents, moto en trajet
+intérieur), aucun tirage ralenti, 14 accélérés (Paris électrique 400 km : 8,6 s → 0,4 s).
+
+**Moteur (régressions de la 12e passe).**
+- Vélo : l'aller-retour dans la journée prenait la vitesse routière du pays (limite annoncée 34 km au lieu de 67 à
+  Oulan-Bator) ; il roule à 15 km/h partout, comme dans `finalizeLeg`.
+- Îles non mesurées des pays lents : jamais plus rapides que le continent du pays (`Math.min(1, facteur)`) — Cebu,
+  Bali, Zanzibar, Okinawa roulaient à 80 km/h, plus vite que Luçon, Java ou Honshu.
+- Aller-retour 7 à 8 fois plus lent à calculer : masse terrestre du départ recalculée pour chaque candidat ; mémorisée
+  désormais (`pointLandmass`, WeakMap, aucun champ ajouté aux étapes).
+- Voiture électrique et moto : le plafond de l'aller-retour compte les recharges minimales et le ralentissement de la
+  moto privée d'autoroute ; un tirage qui a contrôlé tous ses candidats n'est plus rejoué (`exhaustive`). Paris en
+  électrique, 400 km : « hors de portée » en 0,4 s au lieu d'« éloignement introuvable » après 4 à 9 s.
+- Moto : un trajet intérieur (même pays au départ et à l'arrivée) n'a aucun transit, comme pour le péage — Kangar →
+  Melor (Malaisie) recevait « autoroutes interdites en Thaïlande ». Le cas du test de la 12e passe (Kota Bharu →
+  Bukit Kayu Hitam) était lui-même un trajet intérieur malaisien : remplacé par Nanning → Luang Prabang (par le Viêt Nam).
+
+**Serveur.** Pastille du retour : « ⟲ » n'existe dans aucune police du PDF (carré vide) — tout libellé non dessinable
+est refusé (`PdfText.canRender`), repli « R » ; badges coupés par points de code (plus de demi-emoji) ; aucune vignette
+rappelée à vélo (`transportKey` validé contre `TRANSPORT`) ; distances du PDF en miles si `distanceUnit` vaut `mi` ;
+journal d'erreur du PDF réduit au type d'erreur (jamais de texte envoyé) ; corps JSON imbriqué au-delà de 64 niveaux
+refusé (400) avant toute mise en page — un « toString » placé plus profond produisait un PDF coupé sans pied de page.
+
+**Interface.** Numéro du jour de chaque étape dans le PDF (au lieu de la plage « 1–3 » répétée) ; listes de devises
+seulement avec les règles de la langue d'interface elle-même (« MAD et EUR » en kabyle, « እና » en oromo, « & » en
+néerlandais) ; ~1 390 noms de liaisons corrigés (persan et sorani copiés de l'arabe, sept langues de Russie restées en
+russe, « Wadden » et « Grande-Bretagne » mal rendus) ; pluriels du samogitien et des recharges en letton, latgalien,
+islandais et macédonien ; chiffres de la langue dans les phrases traduites (`withLocalDigits`) ; chiffres européens
+forcés pour le touroyo et l'adyguéen, qui retombaient sur l'arabe de Syrie (١٢٣) ; séparateurs japonais ; flèche de
+l'en-tête du PDF en droite-à-gauche ; accessibilité des pages légales.
+
+**Miles.** L'unité suit la **langue choisie**, sans sélecteur : miles pour les langues dont le pays associé (drapeau de
+la langue) est le Royaume-Uni (Traffic Signs Regulations and General Directions 2016) ou les États-Unis (MUTCD, FHWA) —
+anglais, gallois, gaélique écossais, scots, cornique, hawaïen —, kilomètres pour toutes les autres. Conséquence assumée :
+l'anglais est en miles pour tous ses lecteurs, y compris ceux de pays métriques. Changer de langue convertit les champs
+du formulaire et réaffiche le voyage. Toutes les distances affichées, le formulaire (saisi dans l'unité, toujours envoyé
+en km) et le PDF suivent l'unité ; 1 mile = 1,609344 km (accord international de 1959). Unité traduite dans les 161
+langues (`unit.*`, 13 phrases réécrites avec `{unit}`/`{dist}`, accord selon le nombre en arabe, ukrainien, biélorusse,
+bulgare, macédonien ; jamais le « mil » scandinave de 10 km), utile aux tests et à une éventuelle extension. Île de Man,
+Jersey et Guernesey (signalisation en miles) restent en km faute de texte officiel vérifié. **À relire par des
+locuteurs** : quelques noms de liaisons (erzya, mokcha, oudmourte, khmer, kinyarwanda, zhuang, yi).
+
+**Données.** Durées de ferry estimées invraisemblables pour le type de navire, recalculées par la médiane des liaisons à
+durée publiée de même longueur (19,0 km/h de 15 à 45 km) : Dyrøy ↔ Sørburøy 1,4 h (au lieu de 0,5), Égine 1,6 h,
+Angistri 1,8 h, Fourni 0,9 h, Lipsi 2,3 h, Agathonisi 1,4 h, Nisyros–Tilos 1,6 h, Symi 2,1 h, Kastellorizo 4,8 h, Ágios
+Efstrátios 2 h, Psérimos 0,7 h, Dalma 2,3 h, Formentera 1 h ; distances entre ports corrigées pour Pulau Laut (8,5 km au
+lieu de 33) et les Îles-de-la-Madeleine (119 km au lieu de 215). Nouveau contrôle : durée estimée ≤ 35 km/h jusqu'à
+45 km, ≤ 45 km/h au-delà, sauf navire rapide transportant les véhicules documenté. Lieux : parenthèses non appariées et
+tout « _ » filtrés (Yasnyy, Troitskiy, Shushica, Tibbi Nizāmuddīn, Ar Rab‘ah corrigés d'après la fiche GeoNames ; noms
+coupés sans autre forme écartés), 22 fêtes népalaises « Fair (…) », 9 blocs de développement indiens et « 17 »
+(Zimbabwe) écartés ; les générateurs filtrent le nom réellement publié. Péage : Azerbaïdjan « AAYDA M-1 2023 (moto
+2026) », Sénégal « SECAA / Ila Touba 2019 ». Syrie : calcul complet de l'indice (69,9 × 0,97 × 0,892 = 60,5).
+**En attente** : Croatie et Espagne (fichiers postaux absents) ; durée Saint-Pierre ↔ Miquelon à vérifier ; ~100 alias
+anciens contenant « _ » à revoir.
+
 ### Douzième passe d'audit (19 septembre 2026)
 
 Relecture complète en quatre volets (moteur et péage, sécurité du serveur, interface et traductions, données et

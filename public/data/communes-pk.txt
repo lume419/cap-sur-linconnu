@@ -54549,7 +54549,7 @@
 0;70.9515,30.2462;PK-04;Punjab;Ghaneriwala
 0;70.9853,30.2491;PK-04;Punjab;Katimar
 0;70.9675,30.1438;PK-04;Punjab;Jalwala
-0;70.9827,30.2403;PK-04;Punjab;Basti Nizam_ud_din
+0;70.9827,30.2403;PK-04;Punjab;Tibbi Nizāmuddīn
 0;70.9715,30.2420;PK-04;Punjab;Berinwala
 0;70.9562,30.2428;PK-04;Punjab;Sheriwala
 0;70.9313,30.2365;PK-04;Punjab;Rao Bela

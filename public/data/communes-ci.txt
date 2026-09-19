@@ -10732,7 +10732,6 @@
 3563;-6.9345,4.7500;CI-76;Bas-Sassandra District;Pont-Néro
 3580;-6.4631,5.0616;CI-76;Bas-Sassandra District;Boignikro
 3584;-6.7238,5.8140;CI-76;Bas-Sassandra District;Gnanmangui
-3592;-7.0957,6.1949;CI-76;Bas-Sassandra District;ADK (Complexe
 3637;-6.4381,6.1521;CI-76;Bas-Sassandra District;Gadago
 3669;-6.5588,5.0676;CI-76;Bas-Sassandra District;Brazzaville
 3765;-6.7270,5.7362;CI-76;Bas-Sassandra District;Pokouagui

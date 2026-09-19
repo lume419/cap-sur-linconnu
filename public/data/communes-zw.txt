@@ -1787,7 +1787,6 @@
 0;28.5239,-17.6310;ZW-02;Midlands Province;Madzivazvido
 0;31.0973,-17.7664;ZW-04;Mashonaland East Province;Westgate
 0;29.3407,-18.6770;ZW-02;Midlands Province;Zhombe
-0;31.3786,-20.7721;ZW-08;Masvingo Province;17
 0;29.2677,-18.2064;ZW-02;Midlands Province;Siamwanja
 0;32.5994,-19.0187;ZW-01;Manicaland;Mutekairi Dangamvura
 0;31.0107,-17.8679;ZW-04;Mashonaland East Province;Bexley Circle

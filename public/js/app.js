@@ -509,6 +509,65 @@
   applyCurrencyPanelTexts();
   window.addEventListener('i18n:langchange', applyCurrencyPanelTexts);
 
+  /* ---------- UNITÉ DE DISTANCE : KILOMÈTRES OU MILES ---------- */
+  // 13e audit du 19/09/2026 : le site n'affichait que des kilomètres. Les visiteurs des pays où la signalisation routière
+  // donne les distances en miles les voient désormais en miles :
+  //   - Royaume-Uni : The Traffic Signs Regulations and General Directions 2016 (SI 2016/362) — distances des panneaux
+  //     routiers en miles (et yards) ;
+  //   - États-Unis : Manual on Uniform Traffic Control Devices (MUTCD, Federal Highway Administration) — distances de la
+  //     signalisation en miles (unités usuelles américaines).
+  // Libéria et Birmanie, souvent cités comme non métriques : aucune source officielle solide vérifiée pour leur
+  // signalisation routière, ils restent en kilomètres. 1 mile = 1,609344 km EXACTEMENT (accord international sur le yard
+  // et la livre de 1959 : 1 yard = 0,9144 m, 1 mile = 1 760 yards).
+  // Unité fixée par la LANGUE D'INTERFACE choisie (demande du 19/09/2026, sans sélecteur) : miles quand le pays associé
+  // à la langue (I18N.country, d'après son drapeau) est le Royaume-Uni ou les États-Unis — anglais, gallois, gaélique
+  // écossais, scots, cornique (drapeaux britanniques), hawaïen (drapeau des États-Unis) ; kilomètres pour toutes les autres.
+  // Conséquence assumée : l'anglais (drapeau britannique) est en miles pour tous ses lecteurs, y compris ceux de pays
+  // métriques (Australie, Inde, Irlande…) ; l'irlandais (drapeau irlandais) reste en kilomètres. Île de Man, Jersey,
+  // Guernesey (manxois, jersiais, guernesiais) : signalisation en miles, mais aucun texte officiel vérifié ici — km.
+  // Tout ce qui est affiché suit l'unité (étapes, total, ferry, recharges, randonnées, messages d'erreur, champs du
+  // formulaire, textes du PDF) ; les données et le serveur restent en kilomètres : les champs sont convertis en km avant
+  // l'envoi. Aucune vitesse n'est affichée. Péage : aucun tarif au kilomètre n'est affiché (seulement des montants par
+  // étape) ; la mention « estimation au kilomètre » (toll.estimateNote) décrit les barèmes publiés, qui sont au km, et
+  // reste telle quelle.
+  var KM_PER_MILE = 1.609344;
+  var MILE_COUNTRIES = { GB: true, US: true };
+  function isDistanceUnit(v){ return v === 'km' || v === 'mi'; }
+  function unitForLang(code){ return MILE_COUNTRIES[window.I18N.country(code)] ? 'mi' : 'km'; }
+  function distanceUnit(){ return unitForLang(VISITOR_LANG); }
+  // Conversions : affichage (km -> unité) et saisie (unité -> km, arrondi au dixième, jamais plus précis que le moteur).
+  function kmToDistanceUnit(km, unit){ return (unit || distanceUnit()) === 'mi' ? Number(km) / KM_PER_MILE : Number(km); }
+  function distanceUnitToKm(v, unit){
+    var n = Number(v);
+    if((unit || distanceUnit()) !== 'mi') return n;
+    return Math.round(n * KM_PER_MILE * 10) / 10;
+  }
+  // Distance mise en forme dans la langue d'interface : « 213 km », « 132 mi », « 132 миль », « ١٣٢ ميلًا » — modèle
+  // unit.kmN / unit.miN de la langue (forme exacte par nombre quand l'unité s'écrit en toutes lettres, I18N.plural),
+  // nombre arrondi à l'entier (decimals : 1 pour une randonnée ou une valeur saisie).
+  function formatDistanceValue(v, unit, decimals){
+    var p = Math.pow(10, decimals || 0);
+    var r = Math.round(Number(v) * p) / p;
+    if(!isFinite(r)) return '';
+    var key = unit === 'mi' ? 'unit.miN' : 'unit.kmN';
+    var tpl = (window.I18N.plural && window.I18N.plural(key, r)) || t(key);
+    return tpl.replace('{n}', formatNum(r));
+  }
+  function formatDistance(km, decimals){
+    var n = Number(km);
+    if(km == null || km === '' || !isFinite(n)) return '';
+    var unit = distanceUnit();
+    return formatDistanceValue(kmToDistanceUnit(n, unit), unit, decimals);
+  }
+  // Paramètre {unit} des étiquettes (« km autour du départ », « mi autour du départ »).
+  function distanceUnitVars(){ return { unit: t('unit.' + distanceUnit()) }; }
+  // Distance d'une randonnée (Visorando : « 12,5 km » ; OpenStreetMap : « 12.3 km ») remise en forme dans l'unité et la
+  // langue d'affichage ; tout autre texte est gardé tel quel.
+  function hikeDistanceText(raw){
+    var m = String(raw == null ? '' : raw).match(/^\s*(\d+(?:[.,]\d+)?)\s*km\s*$/i);
+    return m ? formatDistance(parseFloat(m[1].replace(',', '.')), 1) : (raw || '');
+  }
+
   // Plus aucune donnée volumineuse n'est chargée ici au démarrage — voir README, section
   // "Recherche et tirage aléatoire côté serveur" : le champ "ville de départ" s'active
   // immédiatement (voir plus bas), la recherche interroge /api/search-city et le tirage
@@ -1702,10 +1761,10 @@
     } else {
       els.radiusValueWrap.classList.remove('show-duration');
       els.radiusValueWrap.classList.remove('two-lines');
-      // En km, la valeur est annoncée en nombre, l'unité par #radius-unit (aria-labelledby).
-      var km = parseFloat(els.radius.value);
-      if(isFinite(km)) els.radius.setAttribute('aria-valuetext', formatKm(km)); else els.radius.removeAttribute('aria-valuetext');
-      els.radiusUnit.textContent = t('form.radius.unitKm');
+      // En distance, la valeur est annoncée avec son unité (km ou mi, celle des champs : voir fieldDistanceUnit).
+      var dv = parseFloat(els.radius.value);
+      if(isFinite(dv)) els.radius.setAttribute('aria-valuetext', formatDistanceValue(dv, fieldDistanceUnit, 1)); else els.radius.removeAttribute('aria-valuetext');
+      els.radiusUnit.textContent = t('form.radius.unitKm', distanceUnitVars());
     }
   }
   // Taille du libellé réduite pas à pas jusqu'à ce qu'il tienne dans le champ (« 11 ம.நே. 30 நிமி. » en tamoul, « saa 11
@@ -1723,12 +1782,52 @@
     els.radiusValueWrap.classList.add('two-lines');
     el.style.fontSize = '0.72rem';
   }
+  // Champs de distance du formulaire dans l'unité d'affichage (13e audit du 19/09/2026) : le visiteur saisit des miles
+  // quand l'unité est le mile ; bornes et pas convertis depuis les valeurs en kilomètres ci-dessous (celles d'index.html),
+  // arrondis vers l'intérieur (20 km -> 13 mi, 1 200 km -> 745 mi : jamais hors des bornes du moteur) ; pas de 10 km ->
+  // 5 mi. fieldDistanceUnit : unité dans laquelle les champs sont exprimés à cet instant (le HTML arrive en km).
+  var RADIUS_KM_FIELD = { value: 300, min: 20, max: 1200, step: 10 };
+  var DISTANCE_KM_FIELDS = [
+    { el: els.minDistance, min: 0, max: 3000, step: 10 },
+    { el: els.maxDistance, min: 0, max: 3000, step: 10 },
+    { el: els.legDistance, min: 10, max: 3000, step: 10 }
+  ];
+  var fieldDistanceUnit = 'km';
+  function unitFieldBounds(b, unit){
+    if(unit !== 'mi') return { value: b.value, min: b.min, max: b.max, step: b.step };
+    return { value: b.value != null ? Math.round(b.value / KM_PER_MILE) : null, min: Math.ceil(b.min / KM_PER_MILE),
+      max: Math.floor(b.max / KM_PER_MILE), step: Math.max(1, Math.round(b.step / KM_PER_MILE / 5) * 5) };
+  }
+  function applyFieldBounds(input, b){ input.min = b.min; input.max = b.max; input.step = b.step; }
+  // Valeur d'un champ en kilomètres (null si vide ou invalide). La valeur exacte en km d'une conversion précédente est
+  // gardée tant que le visiteur n'a pas retouché le champ : km -> mi -> km rend 300, pas 299.
+  function distanceFieldKm(input){
+    if(input.__km != null && input.value === input.__shown) return input.__km;
+    var v = parseFloat(input.value);
+    return isFinite(v) ? distanceUnitToKm(v, fieldDistanceUnit) : null;
+  }
+  function setDistanceFieldKm(input, km, unit){
+    var shown = String(Math.round(kmToDistanceUnit(km, unit)));
+    input.value = shown;
+    input.__km = km; input.__shown = shown;
+  }
+  function convertDistanceFields(to){
+    var inputs = DISTANCE_KM_FIELDS.map(function(f){ return f.el; }).concat(radiusMode === 'km' ? [els.radius] : []);
+    inputs.forEach(function(input){
+      var km = input.value === '' ? null : distanceFieldKm(input);
+      if(km != null) setDistanceFieldKm(input, km, to);
+    });
+    DISTANCE_KM_FIELDS.forEach(function(f){ applyFieldBounds(f.el, unitFieldBounds(f, to)); });
+    if(radiusMode === 'km') applyFieldBounds(els.radius, unitFieldBounds(RADIUS_KM_FIELD, to));
+    fieldDistanceUnit = to;
+  }
   function setMode(mode){
     radiusMode = mode;
     els.modeKm.setAttribute('aria-pressed', mode==='km');
     els.modeH.setAttribute('aria-pressed', mode==='h');
     if(mode==='km'){
-      els.radius.value = 300; els.radius.min=20; els.radius.max=1200; els.radius.step=10;
+      applyFieldBounds(els.radius, unitFieldBounds(RADIUS_KM_FIELD, fieldDistanceUnit));
+      setDistanceFieldKm(els.radius, RADIUS_KM_FIELD.value, fieldDistanceUnit);
     } else {
       els.radius.value = 4; els.radius.min=0.5; els.radius.max=12; els.radius.step=0.5;
     }
@@ -1784,14 +1883,40 @@
   els.maxDaysPerCityInc.addEventListener('click', function(){ stepNumberField(els.maxDaysPerCity, 1); });
   // Distance max entre les étapes : 80 km à vélo, 400 km sinon, tant que le visiteur n'a pas saisi sa propre valeur ;
   // la valeur par défaut suit alors le mode de transport choisi.
+  // Valeur affichée dans l'unité des champs (80 km -> 50 mi, 400 km -> 249 mi), valeur exacte gardée en km.
   var DEFAULT_LEG_KM = { 'velo': 80 };
+  var DEFAULT_LEG_KM_OTHER = 400;
   var legDistanceEdited = false;
-  function defaultLegKm(){ return DEFAULT_LEG_KM[els.transport.value] || 400; }
-  els.legDistance.value = defaultLegKm();
+  function defaultLegKm(){ return DEFAULT_LEG_KM[els.transport.value] || DEFAULT_LEG_KM_OTHER; }
+  setDistanceFieldKm(els.legDistance, defaultLegKm(), fieldDistanceUnit);
   els.legDistanceDec.addEventListener('click', function(){ legDistanceEdited = true; stepNumberField(els.legDistance, -1); });
   els.legDistanceInc.addEventListener('click', function(){ legDistanceEdited = true; stepNumberField(els.legDistance, 1); });
   els.legDistance.addEventListener('change', function(){ legDistanceEdited = els.legDistance.value !== ''; });
-  els.transport.addEventListener('change', function(){ if(!legDistanceEdited) els.legDistance.value = defaultLegKm(); });
+  els.transport.addEventListener('change', function(){ if(!legDistanceEdited) setDistanceFieldKm(els.legDistance, defaultLegKm(), fieldDistanceUnit); });
+
+  // Textes qui portent l'unité ou une distance (attribut data-i18n-unit d'index.html : étiquettes « {unit} au moins »,
+  // aide « {bike} à vélo, {other} pour les autres modes ») : composés ici, i18n.js ne connaît pas l'unité.
+  function applyDistanceUnitTexts(){
+    var vars = distanceUnitVars();
+    vars.bike = formatDistance(DEFAULT_LEG_KM.velo);
+    vars.other = formatDistance(DEFAULT_LEG_KM_OTHER);
+    Array.prototype.forEach.call(document.querySelectorAll('[data-i18n-unit]'), function(el){
+      el.textContent = t(el.getAttribute('data-i18n-unit'), vars);
+    });
+  }
+  // Unité changée (sélecteur, ou langue d'interface en mode automatique) : champs convertis, erreurs de distance
+  // retirées (elles citaient des valeurs dans l'ancienne unité), textes et nom des boutons −/+ recomposés.
+  function syncDistanceUnit(){
+    var unit = distanceUnit();
+    if(unit !== fieldDistanceUnit){
+      convertDistanceFields(unit);
+      clearRadiusError(); clearMinDistanceError(); clearLegDistanceError();
+    }
+    applyDistanceUnitTexts();
+    updateRadiusUnitLabel();
+    applyStepButtonLabels();
+  }
+
 
   // Erreurs périmées effacées dès que le champ concerné change (10e audit du 18/09/2026) : « la distance minimale ne peut
   // pas dépasser la maximale » restait affiché après correction, jusqu'au tirage suivant. Le message « trop loin pour un
@@ -1829,13 +1954,15 @@
   ];
   function applyStepButtonLabels(){
     STEP_BUTTON_LABELS.forEach(function(row){
-      var name = t(row[1]) + (row[2] ? ' (' + t(row[2]) + ')' : '');
+      var name = t(row[1]) + (row[2] ? ' (' + t(row[2], distanceUnitVars()) + ')' : '');
       var dec = document.getElementById(row[0] + '-dec'), inc = document.getElementById(row[0] + '-inc');
       if(dec) dec.setAttribute('aria-label', t('form.radius.decAria') + ' — ' + name);
       if(inc) inc.setAttribute('aria-label', t('form.radius.incAria') + ' — ' + name);
     });
   }
   applyStepButtonLabels();
+  // Unité de distance de la page (automatique ou choisie) : champs, étiquettes et bouton du sélecteur.
+  syncDistanceUnit();
 
   // Textes indicatifs (placeholder) des champs du formulaire : un placeholder ne passe jamais à la ligne et était coupé
   // net quand il dépassait le champ (« Aucun minimum » en tamoul, « Ex. Brugge ou 8000 » en cornique à 320 px). Sa
@@ -1916,7 +2043,21 @@
     } catch(e){ return formatNum(v) + ' ' + currency; }
   }
   // Montant estimé (« ~6,30 € »).
-  function approxMoney(n, currency, decimals){ return '~' + formatMoney(n, currency, decimals); }
+  // 13e audit du 19/09/2026 : même marque d'approximation que les fourchettes (approxMoneyRange) — « ≈ » dans les langues
+  // dont le séparateur de plage est un tilde (japonais « €5 ～ €14 », coréen « €5~€14 »), où « ~€87 » se lisait comme le
+  // début d'une plage ; « ~ » ailleurs.
+  var approxMarkCache = {};
+  function approxMark(){
+    var tag = localeTag();
+    if(approxMarkCache[tag]) return approxMarkCache[tag];
+    var mark = '~';
+    try {
+      var nf = new Intl.NumberFormat(tag, { style: 'currency', currency: 'EUR' });
+      if(typeof nf.formatRange === 'function' && /[~～〜]/.test(nf.formatRange(5, 14))) mark = '≈';
+    } catch(e){}
+    return (approxMarkCache[tag] = mark);
+  }
+  function approxMoney(n, currency, decimals){ return approxMark() + formatMoney(n, currency, decimals); }
   // Décimales communes aux deux bornes d'une fourchette (« ~5,20 € à ~14,70 € », « ~20 € à ~34 € », jamais « ~19,70 € à ~34 € »).
   function rangeDecimals(min, max){ return (Math.abs(max) < 20 && (Math.round(min) !== min || Math.round(max) !== max)) ? 2 : 0; }
   // Fourchette compacte pour les statistiques (« ~5–12 € », « ~€5–12 ») : Intl.NumberFormat.formatRange quand le
@@ -1934,7 +2075,7 @@
         return (/[~～〜]/.test(range) ? '≈' : '~') + range;
       }
     } catch(e){}
-    return '~' + formatMoney(a, currency, decimals) + '–' + formatMoney(b, currency, decimals);
+    return approxMark() + formatMoney(a, currency, decimals) + '–' + formatMoney(b, currency, decimals);
   }
   // Devise choisie que Airbnb/Booking ne proposent pas (voir linkLodgingCap) : les liens passent à la devise du pays de
   // l'étape ou à l'euro — dit UNE fois (« Liens Airbnb/Booking en MAD, EUR : la devise choisie (XOF) n'y est pas
@@ -1947,9 +2088,18 @@
   }
   // Énumération dans la langue d'interface (« MAD et EUR », « MAD، EUR », « MAD、EUR ») : Intl.ListFormat, sinon virgules
   // (12e audit du 19/09/2026 : « , » écrit en dur, y compris en arabe ou en japonais).
+  // 13e audit du 19/09/2026 : Intl.ListFormat seulement si le navigateur a les règles de la LANGUE D'INTERFACE elle-même
+  // (supportedLocalesOf, correspondance « lookup ») — pas celles de la locale de repli de localeTag(), qui écrivaient la
+  // conjonction d'une autre langue (« MAD et EUR » en kabyle, kinyarwanda, monégasque ; « MAD እና EUR » en oromo ;
+  // « MAD وEUR » en amazighe). Style « long » : le style « short » abrège la conjonction (« MAD & EUR » en néerlandais,
+  // breton, féroïen). Sinon, simple virgule.
   function formatList(items){
     try {
-      if(typeof Intl.ListFormat === 'function') return new Intl.ListFormat(localeTag(), { style: 'short', type: 'conjunction' }).format(items);
+      var tag = localeTag();
+      if(typeof Intl.ListFormat === 'function' && tag.split('-')[0] === String(VISITOR_LANG).split('-')[0] &&
+         Intl.ListFormat.supportedLocalesOf([tag], { localeMatcher: 'lookup' }).length){
+        return new Intl.ListFormat(tag, { style: 'long', type: 'conjunction' }).format(items);
+      }
     } catch(e){}
     return items.join(', ');
   }
@@ -2045,17 +2195,14 @@
     return hh+'h'+(mm? String(mm).padStart(2,'0'):'');
   }
   // Nombres entiers et distances dans la langue d'interface (10e audit du 18/09/2026) : chiffres et séparateurs de la
-  // locale (« 1 234 », « 1,234 », « ١٬٢٣٤ »), et « km » traduit par Intl (« км », « كم », « 公里 ») au lieu d'un « km » en dur.
+  // locale (« 1 234 », « 1,234 », « ١٬٢٣٤ »).
+  // Distances : formatDistance (13e audit du 19/09/2026), qui remplace formatKm — unité km ou mi, écrite par les
+  // traductions du site (unit.kmN / unit.miN) plutôt que par Intl, dont la locale de repli donnait l'unité d'une AUTRE
+  // langue (russe pour l'abkhaze, arabe pour l'amazighe…).
   function formatNum(n){
     var v = Number(n);
     if(!isFinite(v)) return '';
     try { return new Intl.NumberFormat(localeTag(), { maximumFractionDigits: 1 }).format(v); } catch(e){ return String(v); }
-  }
-  function formatKm(n){
-    var v = Math.round(Number(n));
-    if(!isFinite(v)) return '';
-    try { return new Intl.NumberFormat(localeTag(), { style: 'unit', unit: 'kilometer', unitDisplay: 'short', maximumFractionDigits: 0 }).format(v); }
-    catch(e){ return formatNum(v) + ' km'; }
   }
   // Traduction d'une clé venue des DONNÉES (avertissements du moteur, liaison de ferry, types d'activité…) avant insertion
   // en HTML : une clé inconnue revient telle quelle de t() — elle est alors échappée (10e audit : « <img onerror> » envoyé
@@ -2078,9 +2225,10 @@
     return src;
   }
 
+  // Rayon en kilomètres (champ en km ou en miles, voir fieldDistanceUnit ; mode heures : durée × vitesse du mode).
   function effectiveRadiusKm(speed){
-    var v = parseFloat(els.radius.value) || (radiusMode==='km'?300:4);
-    return radiusMode==='km' ? v : v*speed;
+    if(radiusMode === 'km') return distanceFieldKm(els.radius) || RADIUS_KM_FIELD.value;
+    return (parseFloat(els.radius.value) || 4) * speed;
   }
 
   // Distance réelle (vol d'oiseau, corrigé d'un facteur route de 1,17 — même méthode que pour les péages)
@@ -2648,7 +2796,7 @@
   }
   function hikeCardHtml(hike){
     var metaBits = [];
-    if(hike.distance) metaBits.push(escHtml(hike.distance));
+    if(hike.distance) metaBits.push(escHtml(hikeDistanceText(hike.distance)));
     if(hike.duration) metaBits.push(escHtml(hike.duration));
     if(hike.difficulty) metaBits.push(escHtml(hike.difficulty));
     return '<div class="activity-card-visual">'+icon('walk')+'</div>'+
@@ -2833,6 +2981,13 @@
     if(group.legs[0].isReturn) return '⟲';
     return group.legs.length > 1 ? formatNum(group.startDay) + '–' + formatNum(group.endDay) : formatNum(group.startDay);
   }
+  // Pastille de chaque étape du PDF (13e audit du 19/09/2026) : le PDF dessine une pastille PAR JOUR, et recevait pour
+  // chacun la plage du séjour (« 1–3 » trois fois de suite). Chaque étape porte désormais son propre numéro de jour
+  // (position dans le voyage, comme startDay/endDay de groupLegsByStay), chiffres de la langue ; « ⟲ » pour le retour,
+  // que le serveur remplace par « R » (aucune police du PDF ne le dessine). L'écran garde la plage (dayBadgeText).
+  function pdfLegBadges(legs){
+    return legs.map(function(leg, idx){ return leg.isReturn ? '⟲' : formatNum(idx + 1).slice(0, 12); });
+  }
   function formatDayRangeLabel(startDay, endDay){
     return (endDay - startDay === 1)
       ? t('day.rangeAnd', {a: formatNum(startDay), b: formatNum(endDay)})
@@ -2994,7 +3149,8 @@
   function withoutEmptyRoute(s){
     if(s.indexOf(ROUTE_MARK) < 0) return s;
     // Séparateurs : tirets (« —— » chinois compris), point médian, deux-points, virgules latine, arabe et chinoise.
-    var sep = '[—–·:：،,，、-]+';
+    // 13e audit du 19/09/2026 : barre horizontale « ― » (U+2015) et point médian katakana « ・ » (U+30FB) du japonais.
+    var sep = '[—–―·・:：،,，、-]+';
     var after = new RegExp(ROUTE_MARK + '\\s*' + sep + '\\s*'), before = new RegExp('\\s*' + sep + '\\s*' + ROUTE_MARK);
     s = after.test(s) ? s.replace(after, ' ') : before.test(s) ? s.replace(before, ' ') : s.replace(ROUTE_MARK, ' ');
     return s.replace(/ {2,}/g, ' ').trim();
@@ -3245,7 +3401,7 @@
         if(c.noChargerNearArrival){
           var noCharger = document.createElement('div');
           noCharger.className = 'day-row tension-row tension-orange';
-          noCharger.innerHTML = icon('warn') + '<span>' + t('charge.noChargerNearArrival') + '</span>';
+          noCharger.innerHTML = icon('warn') + '<span>' + escHtml(noChargerText()) + '</span>';
           body.appendChild(noCharger);
         }
       }
@@ -3399,7 +3555,9 @@
     // Kilométrage : route et traversées confondues, la part en ferry précisée (11e audit : un trajet vers la Corse
     // additionnait sans le dire 200 km de mer aux kilomètres de route).
     var totalKm = tripTotalKm(legs), ferryKm = tripFerryKm(legs);
-    parts.push({ value: '~' + formatKm(totalKm), label: t('stats.totalKm'), nounFirst: false, extra: ferryKm > 0 ? t('stats.ferryKm', { km: formatKm(ferryKm) }) : null });
+    // Unité d'affichage (km ou mi, voir formatDistance) ; le paramètre garde son nom historique {km}. Même marque
+    // d'approximation que les montants (approxMark : « ≈ » en japonais et en coréen).
+    parts.push({ value: approxMark() + formatDistance(totalKm), label: t('stats.totalKm'), nounFirst: false, extra: ferryKm > 0 ? t('stats.ferryKm', { km: formatDistance(ferryKm) }) : null });
     // Péage : somme des bornes basses et hautes de chaque étape (fourchette), même logique que chaque étape (tollRange).
     var tollLegs = legs.filter(function(l){return l.tollInfo;});
     if(tollLegs.length){
@@ -3461,8 +3619,13 @@
   // (barèmes de péage du trajet ; leg.transitCountries / leg.countriesCrossed si le moteur les fournit), puis pays d'arrivée.
   // Vélo (aucun barème de péage, tollClass null) : jamais sur autoroute, aucune vignette à rappeler (12e audit du
   // 19/09/2026 : le rappel s'affichait à vélo, faute de filtre sur le mode de transport).
+  // Mode de transport soumis aux péages et vignettes (classe de péage connue) ; faux pour le vélo. Mode inconnu : vrai
+  // (comportement d'avant, jamais un rappel retiré à tort).
+  function transportHasToll(transportKey){
+    return !(transportKey && TRANSPORT[transportKey] && TRANSPORT[transportKey].tollClass == null);
+  }
   function vignetteCountriesOfGroup(leg, departureCountry, transportKey){
-    if(transportKey && TRANSPORT[transportKey] && TRANSPORT[transportKey].tollClass == null) return [];
+    if(!transportHasToll(transportKey)) return [];
     var list = [];
     if(departureCountry) list.push(departureCountry);
     [leg.transitCountries, leg.countriesCrossed, leg.tollInfo && leg.tollInfo.countries].forEach(function(arr){
@@ -3718,15 +3881,20 @@
     return pluralPhrase('charge.textN', stops, vars) || t('charge.textN', vars);
   }
   function overMaxLegText(o){
-    return t('leg.overMaxLeg', {max: formatNum(Math.round(Number(o.max)) || 0), min: formatNum(Math.round(Number(o.min)) || 0)});
+    return t('leg.overMaxLeg', {max: formatDistance(Number(o.max) || 0), min: formatDistance(Number(o.min) || 0)});
   }
+  // Aucune borne publique près de l'arrivée : rayon de recherche du moteur (CHARGER_NEAR_STOP_KM de lib/trip-engine.js,
+  // 20 km), dit dans l'unité d'affichage (13e audit du 19/09/2026 : « 20 km » écrit en dur dans chaque traduction).
+  var CHARGER_NEAR_STOP_KM = 20;
+  function noChargerText(){ return t('charge.noChargerNearArrival', { dist: formatDistance(CHARGER_NEAR_STOP_KM) }); }
   // « ~ 2 h 46 de route · 213 km » (+ la traversée pour un ferry), chiffres dans la langue d'interface. Chaîne vide pour une
   // journée sans trajet (journées sur place : distanceKm/travelTime null depuis la modification du moteur du 18/09/2026) —
   // ni « undefined » ni « NaN » à l'écran ou dans le PDF.
   function legRouteText(leg){
     if(!leg || leg.distanceKm == null || !isFinite(Number(leg.distanceKm)) || (leg.travelMin == null && !leg.travelTime)) return '';
-    return (leg.ferryInfo && leg.roadKm ? t('day.routeTime', {time: legDuration(leg.roadMin, leg.roadTime), km: formatNum(Math.round(leg.roadKm))}) + ' + ' : '') +
-      t(leg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: legDuration(leg.travelMin, leg.travelTime), km: formatNum(Math.round(leg.distanceKm))});
+    // {dist} : distance déjà mise en forme dans l'unité d'affichage (13e audit du 19/09/2026 : « {km} km » en dur).
+    return (leg.ferryInfo && leg.roadKm ? t('day.routeTime', {time: legDuration(leg.roadMin, leg.roadTime), dist: formatDistance(leg.roadKm)}) + ' + ' : '') +
+      t(leg.ferryInfo ? 'day.crossingTime' : 'day.routeTime', {time: legDuration(leg.travelMin, leg.travelTime), dist: formatDistance(leg.distanceKm)});
   }
   function pdfLegTexts(leg){
     var out = {};
@@ -3751,7 +3919,7 @@
             }).filter(Boolean).join(', '))
           : chargeStopsText(false, c.stops, c.minutes));
       }
-      if(c.noChargerNearArrival) out.noCharger = t('charge.noChargerNearArrival');
+      if(c.noChargerNearArrival) out.noCharger = noChargerText();
     }
     if(leg.restrictions && leg.restrictions.length){
       out.restrictions = leg.restrictions.map(function(r){
@@ -3807,7 +3975,6 @@
       stats: statsTexts,
       notices: noticeTexts,
       departureTension: depTension ? t('tension.label') + ' — ' + t('tension.departure') + ' ' + t(depTension.level === 'red' ? 'tension.red' : 'tension.orange') : null,
-      vignette: t('vignette.label') + ' — ' + t('vignette.notice'),
       lodgingNone: t('lodging.noPlatform'),
       endMission: t('end.label') + ' — ' + t('end.text'),
       packTitle: t('pack.title'),
@@ -3818,14 +3985,13 @@
       // Devise choisie non proposée par Airbnb/Booking pour certaines étapes (voir tripCurrencyNoRateText) ; null sinon.
       currencyNote: tripCurrencyNoRateText(currentTripData) || null
     };
+    // Vignette autoroutière (13e audit du 19/09/2026) : le texte générique n'est plus envoyé pour un mode sans classe de
+    // péage (vélo) — le serveur rappelait alors une vignette à un cycliste, interdit d'autoroute (vignetteCountriesOfGroup
+    // renvoie déjà une liste vide dans ce cas, le rappel par étape n'apparaissait donc pas).
+    if(transportHasToll(transportKey)) texts.vignette = t('vignette.label') + ' — ' + t('vignette.notice');
     // Rappels de vignette NOMMÉS, une fois par pays, sur la même étape qu'à l'écran (pays de départ sur la première, pays
     // traversés connus, pays d'arrivée) : texts.vignette par étape, en plus du texte générique ci-dessus.
-    // Numéro de jour affiché à l'écran pour l'étape (même regroupement par séjour que renderDays), 12 caractères au plus.
-    var legBadges = [];
-    groupLegsByStay(legs).forEach(function(group){
-      var badge = dayBadgeText(group).slice(0, 12);
-      group.legs.forEach(function(){ legBadges.push(badge); });
-    });
+    var legBadges = pdfLegBadges(legs);
     var pdfVignetteShown = {};
     var legVignettes = legs.map(function(leg, idx){
       return vignetteCountriesOfGroup(leg, idx === 0 ? currentTripData.cityCoord && currentTripData.cityCoord.country : null, transportKey)
@@ -3835,6 +4001,11 @@
     return {
       lang: VISITOR_LANG,
       texts: texts,
+      // 13e audit du 19/09/2026 (contrat avec server.js) : mode de transport (le serveur ne rappelle plus de vignette à
+      // vélo) et unité des distances affichées ('km' ou 'mi' : textes de secours du serveur dans la même unité). Les
+      // champs numériques (stats.totalKm, legs[i].distanceKm…) restent en kilomètres.
+      transportKey: transportKey,
+      distanceUnit: distanceUnit(),
       city: city,
       tripLabel: tripLabelText(currentTripData) || currentTripLabel,
       budgetLabel: budgetLabel(budgetKey),
@@ -3873,7 +4044,7 @@
           activities: (leg.activities || []).map(function(opt){
             return opt.hikeUrl ? {
               label: opt.hikeName,
-              typeLabel: [opt.hikeDistance, opt.hikeDuration, opt.hikeDifficulty].filter(Boolean).join(' · ') || t('hike.defaultType'),
+              typeLabel: [hikeDistanceText(opt.hikeDistance), opt.hikeDuration, opt.hikeDifficulty].filter(Boolean).join(' · ') || t('hike.defaultType'),
               source: opt.hikeSource || 'Visorando', hikeUrl: opt.hikeUrl,
               sourceLabel: t('hike.sourceLabel', { source: opt.hikeSource || 'Visorando' }).replace(/\s*↗\s*$/, '')
             } : { label: optionLabel(opt), typeLabel: optionTypeLabel(opt), source: null, hikeUrl: null };
@@ -3924,22 +4095,24 @@
     var maxRadiusKm = Math.max(20, effectiveRadiusKm(speed));
     var cityCoord = { lat: selectedCity.lat, lon: selectedCity.lon, dept: selectedCity.dept, cp: selectedCity.cp, allCps: selectedCity.allCps, country: selectedCity.country };
 
-    var minDistanceKm = parseFloat(els.minDistance.value) || 0;
-    var maxDistanceKm = parseFloat(els.maxDistance.value) || 0;
+    // Toujours en kilomètres vers le serveur, quelle que soit l'unité de saisie (13e audit du 19/09/2026 : 100 mi saisis ->
+    // 160,9 km envoyés). Messages : distances dans l'unité d'affichage, au dixième près (valeur saisie).
+    var minDistanceKm = distanceFieldKm(els.minDistance) || 0;
+    var maxDistanceKm = distanceFieldKm(els.maxDistance) || 0;
     var totalNights = Math.max(0, days - 1);
     if(minDistanceKm > 0 && maxDistanceKm > 0 && minDistanceKm > maxDistanceKm){
-      showMinDistanceError(msg('error.minMaxDistance', function(){ return {min: formatNum(minDistanceKm), max: formatNum(maxDistanceKm)}; }));
+      showMinDistanceError(msg('error.minMaxDistance', function(){ return {min: formatDistance(minDistanceKm, 1), max: formatDistance(maxDistanceKm, 1)}; }));
       return;
     }
     if(minDistanceKm > 0 && minDistanceKm > maxRadiusKm && totalNights <= 1){
       var contextKey = totalNights === 0 ? 'error.minDistanceContextDay' : 'error.minDistanceContextNight';
-      showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {context: t(contextKey), min: formatNum(minDistanceKm), radius: formatNum(Math.round(maxRadiusKm))}; }));
+      showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {context: t(contextKey), min: formatDistance(minDistanceKm, 1), radius: formatDistance(maxRadiusKm)}; }));
       return;
     }
 
     // Distance max entre étapes : le premier trajet peut la dépasser quand une distance d'éloignement est renseignée
     // (voir legAllowed côté serveur).
-    var maxLegKm = parseFloat(els.legDistance.value) || defaultLegKm();
+    var maxLegKm = distanceFieldKm(els.legDistance) || defaultLegKm();
 
     var minDaysPerCity = parseInt(els.minDaysPerCity.value, 10) || 1;
     var maxDaysPerCity = parseInt(els.maxDaysPerCity.value, 10) || 3;
@@ -4004,13 +4177,13 @@
         var returnCapKm = data.returnCapKm;
         showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {
           context: durationLabel(days, totalNights),
-          min: formatNum(minDistanceKm), radius: formatNum(returnCapKm) }; }));
+          min: formatDistance(minDistanceKm, 1), radius: formatDistance(returnCapKm) }; }));
         return;
       }
       // Aucune étape assez éloignée ne respecte les autres réglages : le serveur ne propose plus d'itinéraire de secours
       // plus proche qui ignorerait la distance minimale.
       if(legs.length === 0 && data.minDistanceNotFound){
-        showMinDistanceError(msg('error.minDistanceNotFound', function(){ return { min: formatNum(minDistanceKm) }; }));
+        showMinDistanceError(msg('error.minDistanceNotFound', function(){ return { min: formatDistance(minDistanceKm, 1) }; }));
         return;
       }
       if(legs.length === 0 && data.tensionBlocked){
@@ -4173,7 +4346,11 @@
       if(trip.days > 1 && d2 && d2 > d1) dates = formatDateRange(d1, d2, opts);
       else { try { dates = d1.toLocaleDateString(localeTag(), opts); } catch(e){ dates = trip.startIso; } }
     }
-    return trip.city + ' → ' + trip.legs[0].stop + (dates ? ' · ' + dates : '');
+    // Flèche dans le sens de lecture (13e audit du 19/09/2026) : « → » écrit en dur pointait à rebours dans l'en-tête du
+    // PDF en arabe, persan, sorani, ourdou et divehi. En écriture de droite à gauche, « ← » : dans l'ordre logique
+    // « départ ← étape », l'algorithme bidirectionnel place le départ à droite et la flèche pointe vers l'étape.
+    var arrow = (window.I18N.isRtl && window.I18N.isRtl(VISITOR_LANG)) ? ' ← ' : ' → ';
+    return trip.city + arrow + trip.legs[0].stop + (dates ? ' · ' + dates : '');
   }
   function pdfFilename(label){
     var base = (label || 'itineraire').replace(/[\\/:*?"<>|]+/g, '-').replace(/\s+/g, ' ').trim();
@@ -4269,6 +4446,7 @@
 
   window.addEventListener('i18n:langchange', function(){
     VISITOR_LANG = window.I18N.current();
+    syncDistanceUnit(); // l'unité suit la langue : kilomètres <-> miles, champs du formulaire convertis
     // L'horloge porte data-i18n (texte d'attente) : la retraduction statique la remettait à « — à remplir — »
     // jusqu'au rechargement ; on la recalcule dans la nouvelle langue.
     tickClock();

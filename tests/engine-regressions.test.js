@@ -93,14 +93,14 @@ test('ferry : pays traversés par les parties routières (rappels de vignette)',
   }
 });
 
-test('moto : pays seulement traversé aux autoroutes interdites, signalé', () => {
-  // Kota Bharu (Malaisie) → Bukit Kayu Hitam : le trait traverse la Thaïlande (autoroutes interdites aux motos).
-  const r = runSteady(base(H.dep('Kota Bharu', 'MY'), { days: 5, transportKey: 'moto', maxRadiusKm: 1500, maxLegKm: 800, minDaysPerCity: 1,
-    maxDaysPerCity: 1, avoidTension: false }), 10);
-  const th = r.legs.filter(l => (l.countriesCrossed || []).includes('TH'));
-  assert.ok(th.length, 'aucun trajet par la Thaïlande (graine à revoir)');
-  const warned = r.legs.some(l => (l.restrictions || []).some(x => x.kind === 'moto' && x.country === 'TH'));
-  assert.ok(warned, 'Thaïlande traversée sans avertissement');
+test('moto : pays seulement traversé aux autoroutes interdites, appliqué (trajet entre deux pays)', () => {
+  // Nanning (Chine) → Luang Prabang (Laos) : le trait traverse le nord du Viêt Nam (autoroutes interdites aux motos).
+  // (Le cas du 12e audit, Kota Bharu → Bukit Kayu Hitam, était un trajet intérieur malaisien : voir le test du 13e audit.)
+  const a = P('Nanning', 'CN'), b = P('Luang Prabang', 'LA');
+  assert.ok(E.__test.countriesAlong(a, b).includes('VN'), 'Viêt Nam absent des pays traversés : ' + JSON.stringify(E.__test.countriesAlong(a, b)));
+  const km = Math.round(H.hav(a.lat, a.lon, b.lat, b.lon) * 1.287);
+  const moto = I.finalizeLeg(km, 80, 'moto', true, 'LA', a, b), car = I.finalizeLeg(km, 80, 'voiture-thermique', true, 'LA', a, b);
+  assert.ok(moto.travelMin > car.travelMin, 'moto non ralentie par l\'interdiction vietnamienne (' + moto.travelMin + ' / ' + car.travelMin + ' min)');
 });
 
 test('péage : jamais « jusqu\'à ~0 € » (borne haute arrondie au dixième > 0)', () => {
@@ -116,4 +116,59 @@ test('péage : jamais « jusqu\'à ~0 € » (borne haute arrondie au dixième >
     }
   }
   assert.deepEqual(bad, []);
+});
+
+// ------------------------------------------------------------------ 13e audit (19/09/2026) : régressions du 12e audit
+test('13e audit : vélo, aller-retour dans la journée à 15 km/h partout (jamais la vitesse routière du pays)', () => {
+  // Oulan-Bator, 40 km : 2 h 40 par trajet à vélo, possible — annoncé « hors de portée, 34 km » au 12e audit.
+  const ub = H.dep('Ulaanbaatar', 'MN') || H.dep('Ulan Bator', 'MN');
+  const r = runSteady(base(ub, { transportKey: 'velo', minDistanceKm: 40, maxDistanceKm: 60, avoidTension: false }), 1);
+  assert.ok(!r.minDistanceUnreachable, 'Oulan-Bator à vélo, 40 km : annoncé hors de portée (' + r.returnCapKm + ' km)');
+  // Plafond identique partout : 4,5 h × 15 km/h = 67 km (Paris comme Oulan-Bator).
+  for(const d of [H.dep('Paris', 'FR'), ub]){
+    const x = runSteady(base(d, { transportKey: 'velo', minDistanceKm: 90, avoidTension: false }), 1);
+    assert.equal(x.minDistanceUnreachable, true, d.name + ' : 90 km à vélo devrait être hors de portée');
+    assert.equal(x.returnCapKm, 67, d.name + ' : plafond vélo ' + x.returnCapKm);
+  }
+});
+
+test('13e audit : îles des pays lents jamais plus rapides que leur continent mesuré', () => {
+  const cases = [['Cebu City', 'Bogo', 'PH', 'Manila', 'Baguio'], ['Naha', 'Nago', 'JP', 'Tokyo', 'Nagoya'], ['Denpasar', 'Singaraja', 'ID', 'Jakarta', 'Bandung']];
+  const bad = [];
+  for(const [a, b, cc, ma, mb] of cases){
+    const pa = H.findPlace(a, cc), pb = H.findPlace(b, cc);
+    if(!pa || !pb) { bad.push('introuvable : ' + a + ' / ' + b); continue; }
+    const island = avgSpeed(pa, pb), f = E.__test.countrySpeedFactor(H.findPlace(ma, cc), H.findPlace(mb, cc), cc);
+    if(island > 80 * Math.min(1, f) + 0.5) bad.push(a + ' → ' + b + ' : ' + island.toFixed(1) + ' km/h (continent × ' + f.toFixed(3) + ')');
+  }
+  assert.deepEqual(bad, []);
+});
+
+test('13e audit : aller-retour dans la journée calculé en moins de 600 ms (Paris, rayon 600 km)', () => {
+  // 12e audit : ~1,1 s (masse terrestre du départ recalculée pour chaque candidat), contre ~0,15 s avant.
+  const t0 = Date.now();
+  runSteady(base(H.dep('Paris', 'FR'), { maxRadiusKm: 600 }), 3);
+  const ms = Date.now() - t0;
+  assert.ok(ms < 600, 'aller-retour Paris : ' + ms + ' ms');
+});
+
+test('13e audit : électrique et moto, aller-retour impossible diagnostiqué « hors de portée », sans nouveaux essais', () => {
+  // Paris en électrique, 400 km : une recharge de 28 min par trajet, ~9,4 h aller-retour. Séoul à moto (autoroutes
+  // interdites), 260 km : limite réelle ~237 km.
+  for(const [d, mode, km] of [[H.dep('Paris', 'FR'), 'voiture-electrique', 400], [H.dep('Seoul', 'KR') || H.dep('Seoul-si', 'KR'), 'moto', 260]]){
+    const t0 = Date.now();
+    const r = run(base(d, { transportKey: mode, minDistanceKm: km, avoidTension: false }), 1);
+    assert.equal(r.minDistanceUnreachable, true, d.name + ' ' + mode + ' ' + km + ' km : ' + JSON.stringify(Object.keys(r)));
+    assert.ok(Date.now() - t0 < 1500, d.name + ' : ' + (Date.now() - t0) + ' ms');
+  }
+});
+
+test('13e audit : moto, trajet intérieur jamais averti pour un pays seulement longé', () => {
+  // Kangar → Melor (Malaisie → Malaisie) : le trait longe la Thaïlande, la route reste malaisienne.
+  const a = P('Kangar', 'MY'), b = P('Melor', 'MY');
+  const km = Math.round(H.hav(a.lat, a.lon, b.lat, b.lon) * 1.287);
+  const moto = I.finalizeLeg(km, 80, 'moto', true, 'MY', a, b), car = I.finalizeLeg(km, 80, 'voiture-thermique', true, 'MY', a, b);
+  const fMY = E.__test.countrySpeedFactor(a, b, 'MY');
+  // Vitesse de la moto = celle de la voiture (aucune interdiction en Malaisie), pas le facteur thaïlandais.
+  assert.equal(moto.travelMin, car.travelMin, 'moto ralentie sur un trajet intérieur malaisien (facteur ' + fMY + ')');
 });
