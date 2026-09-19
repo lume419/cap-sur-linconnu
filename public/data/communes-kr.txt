@@ -45584,7 +45584,6 @@
 0;128.8342,36.1300;39056;Gyeongsangbuk-do;Bareungol
 0;128.8396,36.1517;39054;Gyeongsangbuk-do;Byeongpungam
 0;128.8258,36.1449;39054;Gyeongsangbuk-do;Daein
-0;128.3941,36.1451;39177;Gyeongsangbuk-do;Kumoh_student
 0;128.3359,36.0053;39913;Gyeongsangbuk-do;Gasadong
 0;128.3215,35.9984;39913;Gyeongsangbuk-do;Naegak
 0;128.3231,35.9985;39913;Gyeongsangbuk-do;Oegak
@@ -55837,7 +55836,7 @@
 0;126.4621,35.2676;57032;Jeollanam-do;Songchon
 0;126.4684,35.4787;56407;Jeollabuk-do;Yongdu
 0;129.0549,35.1518;47283;Busan;Pusanjin-gu
-0;126.6748,36.5898;32242;Chungcheongnam-do;Goam-ri 고암리
+0;126.6748,36.5898;32242;Chungcheongnam-do;Goam-ri
 0;126.5901,35.6118;56344;Jeollabuk-do;Ibam
 0;126.5355,35.6836;56342;Jeollabuk-do;Bangpo
 0;126.5021,35.6571;56339;Jeollabuk-do;Sobaukkeut

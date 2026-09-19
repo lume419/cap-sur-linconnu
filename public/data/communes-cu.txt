@@ -669,8 +669,6 @@
 0;-77.1773,20.9024;CU-13;Las Tunas Province;Sirven
 0;-79.6837,22.0093;CU-14;Sancti Spíritus Province;Sipiabo
 0;-80.7333,22.7667;CU-03;Matanzas Province;Sin Nombre de Cerice
-0;-82.8500,22.7333;CU-AR;Artemisa;Sin Nombre
-0;-80.0567,22.5663;CU-16;Villa Clara Province;Sin Nombre
 0;-76.0000,20.9667;CU-12;Holguín Province;Sindicato
 0;-79.7667,22.5833;CU-16;Villa Clara Province;Sinaloa
 0;-82.7178,22.7847;CU-AR;Artemisa;Simpatía
@@ -13599,7 +13597,6 @@
 0;-82.9306,22.9489;CU-AR;Artemisa;La Victoria
 0;-82.9537,22.9447;CU-AR;Artemisa;Buena Vista
 0;-82.9745,22.9304;CU-AR;Artemisa;Guasimal
-0;-82.9767,22.9238;CU-AR;Artemisa;Sin Nombre
 0;-82.9695,22.9246;CU-AR;Artemisa;El Cuartón de Miguel
 0;-82.9779,22.9804;CU-AR;Artemisa;El Cuarentenario
 0;-82.9523,22.9430;CU-AR;Artemisa;La Josefa

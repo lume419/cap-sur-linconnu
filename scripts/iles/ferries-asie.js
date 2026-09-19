@@ -1095,7 +1095,7 @@ module.exports = {
       },
       "source": "https://asdp.id/siaran-pers/dorong-pariwisata-kepulauan-bintan-asdp-perkuat-konektivitas-telaga-punggur-tanjung-uban (communiqué de l'exploitant ASDP, 9/10/2025)",
       "date": "2025-10-09",
-      "note": "11e audit (19/09/2026) : grille publiée par l'exploitant ASDP (communiqué du 9/10/2025 : adulte 27 000, golongan II 51 000 — « Motor 50cc », coquille pour < 500 cm³ —, IVA 309 000, VA 565 000 IDR), qui remplace la source de presse (Batam Pos) ; montants inchangés. Tarifs normaux annoncés par ASDP (communiqué relayé par Batam Pos, juin 2026) : adulte 27 000, golongan II 51 000, IVA 309 000, VA 565 000 IDR ; remise temporaire du 20/06 au 5/07/2026 ignorée. Billet véhicule indonésien = occupants inclus. Durée ~1 h (ordre de grandeur) ; distance orthodromique."
+      "note": "Grille : communiqué de l'exploitant ASDP du 9/10/2025 (source ci-dessus) — adulte 27 000, golongan II 51 000 (« Motor 50cc » dans le communiqué, coquille pour < 500 cm³), IVA 309 000, VA 565 000 IDR. 11e audit (19/09/2026) : ce communiqué a remplacé la source de presse d'origine (Batam Pos, juin 2026, qui relayait les mêmes « tarifs normaux » annoncés par ASDP) ; montants inchangés, remise temporaire du 20/06 au 5/07/2026 ignorée. 12e audit (19/09/2026) : note réécrite, l'ancienne formulation laissait croire à deux sources contradictoires (une seule grille, deux dates de publication, mêmes montants) ; contenu du communiqué non revérifié hors ligne. Billet véhicule indonésien = occupants inclus. Durée ~1 h (ordre de grandeur) ; distance orthodromique."
     },
     {
       "a": "bangka",

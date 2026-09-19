@@ -30,7 +30,7 @@ cap-sur-linconnu/
 │   ├── toll-grid.json         # cases de 0,25° où une autoroute à péage existe (scripts/build-toll-grid.js),
 │   │                            # et « freeCells » : cases où passe aussi une autoroute gratuite (--free)
 │   ├── road-factor-osrm.json  # relevé des 128 itinéraires OSRM qui fixent ROAD_FACTOR et la vitesse de référence
-│   ├── road-speed-by-country.json # vitesse moyenne par pays : 887 itinéraires OSRM, 150 pays (11e audit)
+│   ├── road-speed-by-country.json # vitesse moyenne par pays : 887 itinéraires OSRM dans 153 pays, vitesse propre pour 150 (11e audit)
 │   ├── moto-no-motorway-valhalla.json # relevé Valhalla des facteurs de vitesse moto sans autoroute (10e audit)
 │   └── lodging-price-levels.json  # méthode, sources et calcul du plafond d'hébergement par pays (référence)
 ├── scripts/
@@ -4283,6 +4283,60 @@ dans la langue de l'interface, textes de carte traduits, accessibilité (dialogu
 impression, textes indicatifs trop longs. 12 nouvelles clés dans les 161 langues ; le yi reçoit le chinois pour ces
 clés, faute de traduction fiable.
 
+### Douzième passe d'audit (19 septembre 2026)
+
+Relecture complète en quatre volets (moteur et péage, sécurité du serveur, interface et traductions, données et
+documentation), sans faille grave ni violation d'invariant sur ~6 000 tirages. Une vingtaine de défauts réels, dont
+quatre **régressions de la 11e passe** : la vitesse par pays et les pays traversés avaient été ajoutés au calcul
+principal sans reprendre les chemins parallèles (aller-retour dans la journée, parties routières des ferries, îles).
+Chaque correction a désormais son test permanent (`tests/engine-regressions.test.js`, `tests/ui.test.js`,
+`tests/data.test.js`, points « 12e audit » de `tests/server.test.js` et `tests/i18n.test.js`).
+
+**Moteur.**
+- Vitesse du pays appliquée seulement sur les **masses terrestres mesurées** (champ `landmass` de chaque itinéraire de
+  `data/road-speed-by-country.json`, `SPEED_LANDMASSES`) : ailleurs, vitesse du mode. Mamoudzou → Kani-Kéli (Mayotte)
+  roulait à 96,7 km/h de moyenne, Bastia → Ajaccio à 93,9, Saint-Denis → Saint-Pierre (La Réunion) à 93,5 — au-dessus
+  de la limite légale sur des routes à double sens.
+- Aller-retour dans la journée : filtre et plafond à la vitesse du pays (`dayDrive0`, `dayCapKm`). Lyon avec 380 km
+  d'éloignement était refusé (8,1 h réelles) ; Oulan-Bator, 250 km, rendait un tirage vide sans explication.
+- Nouveaux essais « éloignement introuvable » : un essai qui manque de temps ne remplace plus le diagnostic du premier
+  tirage (36 « délai dépassé » sur 500 tirages étaient des « éloignement introuvable »).
+- Pays traversés par les parties routières d'un ferry (`countriesCrossed`, rappels de vignette : Stuttgart → Sardaigne
+  par Gênes et la Suisse) ; moto : interdiction d'autoroute d'un pays seulement traversé appliquée et signalée
+  (Kota Bharu → Bukit Kayu Hitam par la Thaïlande) ; jamais « jusqu'à ~0 € » de péage.
+- **Limite documentée, péage** : en Macédoine du Nord, en Israël, en Tunisie et au Sénégal, toutes les cases à péage
+  (sauf une au Sénégal) portent aussi une autoroute gratuite ; la borne basse y reste le plus souvent à 0 € (« jusqu'à
+  ~X € »). Ignorer la couche gratuite dans ces pays a été essayé et écarté : en Israël l'ambiguïté est réelle (Tel Aviv
+  → Haïfa par l'autoroute 2, gratuite, passait à « 6,7 € probable »), et rien dans les données ne distingue ce cas
+  d'un tronçon payant non tagué. Ces pays sont listés par `/api/status`.
+
+**Serveur.** Rappels de vignette du PDF construits depuis `trip-data.js` (Bulgarie, Roumanie, Moldavie et Biélorussie
+manquaient) ; limite de 4 000 caractères distincts comptée après normalisation NFC (et en double pour la police grasse
+incorporée à part) ; sauts de ligne des textes du navigateur neutralisés (32 Ko de « x\n » faisaient 198 pages) ;
+liens du PDF écrits sous leur forme analysée, `\`, `@`, identifiants et ports refusés ; `/api/status` n'expose plus que
+des codes d'erreur (jamais un chemin), export 503 si les polices manquent ; 404 texte court au lieu de la page
+d'Express ; pastilles jusqu'à 140 caractères ; numéros de jour du PDF identiques à l'écran (champ `badge` de chaque
+étape) ; textes de secours du PDF à jour (fourchette de péage, train-auto, ce que couvre un prix de ferry) ; place des
+appels sortants gardée 125 s (pire cas réel de `/api/photo` : 122 s).
+
+**Interface.** Noms d'îles et de liaisons restés en anglais traduits dans ~77 langues (Baléares, Canaries, Corse,
+Sardaigne, Sicile, Crète, Wadden, Douvres–Calais, Guernesey, lien Wikipédia) et test « aucune valeur identique à
+l'anglais » avec liste d'exceptions ; « 21 jours max » et compteurs de traversées et de recharges aux bons pluriels ;
+train-auto hors du total ferry, traversées gratuites sans « ~0 € » ; tarif piéton ou vélo « par personne » ; plages de
+dates localisées (`formatRange`) en droite-à-gauche ; pas de vignette à vélo ; listes de devises par `Intl.ListFormat` ;
+accessibilité (icônes décoratives masquées, panneaux en `inset-inline-end`).
+
+**Données et documentation.** 322 lieux écartés ou renommés (313 « Ninguno » au Mexique, dont des prisons, « Sin Nombre »
+à Cuba, « NONE » au Népal, noms d'utilisateurs, suffixes chinois ou coréens collés) par `scripts/communes-corrections.js`
+(`PLACEHOLDER_NAMES`, `PLACEHOLDER_QUALIFIED_RE`, `JUNK_IDS`, `NAME_FIXES`) ; alias orphelins (Émirats) et leur cause
+dans `build-all-aliases.js` ; ordre déterministe de `lib/ferry-ports.js` ; bac Kilboghamn ↔ Nordnesøy à 1,5 h
+(médiane des bacs norvégiens de 15 à 45 km à durée publiée, 19 km/h) au lieu de 0,4 h ; mentions légales exactes
+(années réelles des grilles de péage, liens et non tarifs de vignette, 32 pays sans Airbnb/Booking fourni) ; indice
+d'hébergement de la Syrie documenté comme probablement surévalué. **En attente** : la Croatie et l'Espagne ne peuvent
+être régénérées sans leurs fichiers postaux GeoNames (absents du disque) ; « Zorkovac_ », « Donja_Podgora »,
+« Gornje_Zagorje », « XXX » et « Test » y restent publiés jusque-là, les corrections étant prêtes et suivies par
+`tests/data.test.js`.
+
 ### Onzième passe d'audit (19 septembre 2026)
 
 Nouvelle relecture complète (moteur, serveur, interface, données, réalisme des chiffres), puis correction. Le
@@ -4304,7 +4358,9 @@ d'une case voisine, pas de transit entre pays voisins, case exacte pour l'Espagn
   pas quitter l'axe payant ; en bout de trajet (départ de Madrid, de Barcelone), elle reste exclue ;
 - **borne haute, « possible »** : case payante ou voisine (~28 km autour du trait), transit par un pays tiers compris.
 
-Mesures de la passe : **les 39 autoroutes gratuites testées** ont une borne basse à 0 € (toutes étaient facturées
+Mesures de la passe : **les 39 trajets sur autoroutes gratuites mesurés pendant l'audit** ont une borne basse à 0 € (le test
+permanent `tests/toll.test.js`, « autoroutes gratuites : borne basse à 0 € », en reprend 27 : 14 en France, 4 au Portugal,
+4 en Italie, 4 en Espagne, 1 en Israël) (toutes étaient facturées
 avant) ; **18 des 20 trajets payants** comparés au prix officiel ont ce prix dans la fourchette (hors fourchette :
 Sfax → Gabès, trop court pour la grille, et Zagreb → Split, 0 à 9,2 € pour 24,5 € — le trait coupe par la Bosnie et
 la Lika, loin de l'A1). **Limite des cases ambiguës** : la borne basse tombe à 0 € sur des axes payants que le trait
@@ -4320,8 +4376,9 @@ projet, qui demande un serveur dédié (8 à 16 Go de mémoire rien que pour l'E
 mutualisé actuel.
 
 **Vitesse par pays** — 80 km/h partout était faux hors d'Europe de l'Ouest (Oslo → Bergen affiché 4 h 55 pour 7 h 46 ;
-Mongolie, Mali ~40 km/h). `scripts/measure-road-speed-by-country.js` a relevé **887 itinéraires OSRM dans 150 pays**
-(`data/road-speed-by-country.json`, 3 à 6 par pays) ; la vitesse d'un trajet est celle du mode × (vitesse du pays ÷
+Mongolie, Mali ~40 km/h). `scripts/measure-road-speed-by-country.js` a relevé **887 itinéraires OSRM dans 153 pays**
+(`data/road-speed-by-country.json`) ; vitesse propre retenue pour 150 pays (883 itinéraires, 4 à 6 par pays : 6 pour 138
+pays, 5 pour 7, 4 pour 5) — RD Congo, Qatar et Trinité-et-Tobago (2, 1 et 1 itinéraires, sous le minimum de 3) n'en ont pas ; la vitesse d'un trajet est celle du mode × (vitesse du pays ÷
 79,4 km/h), moyenne des pays de départ et d'arrivée (`countrySpeedFactor`), sauf à vélo. **Limites** : le facteur
 routier reste global (1,287) alors que le relevé donne 1,39 en Norvège et 1,9 à 2,0 au Kirghizistan et au Népal
 (fjords, montagnes : Oslo → Bergen reste trop court) ; OSRM est optimiste (Indonésie ~75 km/h, contre ~40 km/h selon
@@ -5325,7 +5382,7 @@ plateformes locales réelles avec un modèle d'URL de recherche **vérifié sur 
   Singapour (lois sur les locations courtes), Booking en Chine et en Turquie (interdit pour les réservations depuis la
   Turquie), petites îles et pays à très faible offre (Tuvalu, Tokelau, Pitcairn, Kiribati, Nauru, Sainte-Hélène, Malouines,
   Érythrée, Soudan, Tchad…).
-- **Plateformes locales (37)** : Sutochno et Ostrovok (Russie, Biélorussie), Jajiga, Alibaba.ir et SnappTrip (Iran),
+- **Plateformes locales (37 entrées pour 33 plateformes distinctes, dans 26 pays)** : Sutochno et Ostrovok (Russie, Biélorussie), Jajiga, Alibaba.ir et SnappTrip (Iran),
   HalaSyria (Syrie), TatilBudur et Jolly (Turquie), Gathern (Arabie saoudite), Trip.com (Chine, Hong Kong, Macao), Jalan et
   Rakuten Travel (Japon), Yeogi Eottae et NOL/Yanolja (Corée du Sud), AsiaYo (Taïwan), OYO et MakeMyTrip (Inde), Traveloka
   et tiket.com (Indonésie), Homestay.com et CubaCasas.net (Cuba), LekkeSlaap (Afrique du Sud), Hotels.ng (Nigeria), Stayz
@@ -5356,7 +5413,7 @@ ces plateformes acceptent (`LODGING_LINK_CURRENCIES` : l'euro et les 29 devises 
 devise du pays de l'étape, sinon l'euro — une note le signale à l'écran et dans le PDF. Les anciennes grilles par
 devise (`BUDGET_PRICE_MAX`), qui mélangeaient des méthodes incompatibles, n'en sont plus qu'une vue dérivée.
 **Limites** : l'indice mesure les prix payés par les résidents ; dans les pays à bas revenu, les hôtels fréquentés par
-les touristes étrangers sont plus chers que le plafond (Égypte « moyen » ≈ 22 €), et les capitales chères dépassent la
+les touristes étrangers sont plus chers que le plafond (Égypte « moyen » : 23 €, 1 300 EGP), et les capitales chères dépassent la
 moyenne nationale.
 
 ## Export PDF
@@ -5544,7 +5601,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   le tracé complet ; ailleurs, itinéraires balisés OpenStreetMap via Waymarked Trails, et 79 portails de référence dans
   70 pays (voir "Randonnées réelles" et "Randonnées dans le monde entier" ci-dessus).
 - Vitesses moyennes par pays : itinéraires calculés par [OSRM](https://project-osrm.org) (router.project-osrm.org,
-  profil voiture) sur les données OpenStreetMap (ODbL) — `data/road-speed-by-country.json` (887 itinéraires, 150 pays)
+  profil voiture) sur les données OpenStreetMap (ODbL) — `data/road-speed-by-country.json` (887 itinéraires dans 153 pays, vitesse propre pour 150)
   et `data/road-factor-osrm.json` ; facteurs moto sans autoroute : [Valhalla](https://valhalla.github.io/valhalla/)
   sur OpenStreetMap (`data/moto-no-motorway-valhalla.json`).
 - Plafond d'hébergement par pays (`lodgingPriceCap`, détail dans `data/lodging-price-levels.json`) : prix moyen par

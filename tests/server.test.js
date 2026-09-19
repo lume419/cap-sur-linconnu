@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 const { startServer } = require('./helpers/server.js');
 const { client, freshIp, missingSecurityHeaders } = require('./helpers/http.js');
-const { pdfText, isCompletePdf } = require('./helpers/pdf-text.js');
+const { pdfText, pageCount, isCompletePdf } = require('./helpers/pdf-text.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const PDF_TIME_LIMIT_MS = 6000; // budget de mise en page du serveur (3,5 s) + marge pour la compression et l'envoi
@@ -231,6 +231,136 @@ test('export PDF : corps invalides refusés proprement (jamais 500)', { timeout:
   const bad = [];
   for(const [b, exp] of cases){ const r = await H.postPatient('/api/export-pdf', b); if(r.status !== exp) bad.push(b.slice(0, 30) + ' -> ' + r.status + ' (attendu ' + exp + ')'); }
   assert.deepEqual(bad, []);
+});
+
+// --------------------------------------------------------------------------------------------- 12e audit (19/09/2026)
+// Liens (/URI) écrits dans un PDF : chaînes littérales de pdfkit, parenthèses et barres obliques inverses échappées.
+function pdfUris(buf){
+  return [...buf.toString('latin1').matchAll(/\/URI\s*\(((?:\\[\s\S]|[^\\)])*)\)/g)].map(m => m[1].replace(/\\([\\()])/g, '$1'));
+}
+const flatText = buf => pdfText(buf).replace(/\s+/g, ' ');
+// Pas de caractère d'échappement \u dans ce fichier : les caractères spéciaux sont construits par leur code.
+const chr = cp => String.fromCodePoint(cp);
+
+test('12e audit, point 1 : pays à vignette du PDF = ceux de trip-data.js (source unique)', { timeout: 120000 }, async () => {
+  const C = require(path.join(ROOT, 'public', 'js', 'trip-data.js')).COUNTRIES;
+  const expected = Object.keys(C).filter(cc => C[cc].vignette && C[cc].vignette.url).sort();
+  assert.ok(['BG', 'RO', 'MD', 'BY', 'CH'].every(cc => expected.includes(cc)), 'trip-data.js : ' + expected.join(','));
+  assert.ok(expected.length <= 24);
+  const legs = expected.map(cc => ({ label: 'Etape ' + cc, stop: cc, country: cc }));
+  legs.push({ label: 'Retour', stop: 'Lyon', isReturn: true });
+  await sleep(1500);
+  const r = await H.postPatient('/api/export-pdf', { lang: 'fr', city: 'Lyon', legs });
+  assert.deepEqual(checkPdf(r, 'vignettes', PDF_TIME_LIMIT_MS), []);
+  const uris = new Set(pdfUris(r.body));
+  const missing = expected.filter(cc => !uris.has(new URL(C[cc].vignette.url).href));
+  assert.deepEqual(missing, [], 'rappel de vignette absent du PDF');
+});
+
+test('12e audit, point 2 : caractères distincts comptés après NFC (jamos décomposés -> 413)', { timeout: 60000 }, async () => {
+  let pre = '', dec = '';
+  for(let i = 0; i < 3000; i++) pre += chr(0xAC00 + i);
+  for(let i = 3000; i < 4100; i++) dec += chr(0xAC00 + i).normalize('NFD');
+  assert.ok(new Set(pre + dec).size < 4000 && new Set((pre + dec).normalize('NFC')).size > 4000, 'jeu d\'essai');
+  const r = await H.postPatient('/api/export-pdf', { lang: 'ko', legs: [{ label: 'a', texts: { stop: pre + dec } }] });
+  assert.equal(r.status, 413, 'statut ' + r.status);
+});
+
+test('12e audit, point 3 : sauts de ligne des textes client -> nombre de pages borné', { timeout: 120000 }, async () => {
+  const body = sep => ({ lang: 'fr', city: 'Lyon',
+    legs: Array.from({ length: 8 }, (_, i) => ({ label: ('x' + sep).repeat(55), stop: 'S' + i,
+      activities: Array.from({ length: 6 }, () => ({ label: ('x' + sep).repeat(65) })) })),
+    packing: Array.from({ length: 30 }, () => ('x' + sep).repeat(55)) });
+  await sleep(2000);
+  const nl = await H.postPatient('/api/export-pdf', body('\n'));
+  await sleep(2000);
+  const sp = await H.postPatient('/api/export-pdf', body(' '));
+  assert.deepEqual(checkPdf(nl, 'sauts de ligne', PDF_TIME_LIMIT_MS), []);
+  const pNl = pageCount(nl.body), pSp = pageCount(sp.body);
+  assert.ok(pNl <= pSp + 1 && pNl <= 10, pNl + ' pages avec des sauts de ligne, ' + pSp + ' avec des espaces');
+});
+
+test('12e audit, point 4 : liens du PDF écrits sous leur forme analysée, jamais de \\, @, espace ou tabulation', { timeout: 120000 }, async () => {
+  const good = 'https://www.booking.com/searchresults.html?ss=Lyon';
+  const leg = { label: 'a', stop: 'b', checkInLabel: '20 août', country: 'FR',
+    tension: { level: 'orange', source: ' https://www.diplomatie.gouv.fr/fr/conseils aux voyageurs/' },
+    lodgingLinks: { booking: 'https://www.booking.com\\@evil.example/phish', airbnb: '\thttps://www.airbnb.fr/s/Ly\ton',
+      local: [{ name: 'Local', url: good }, { name: 'Faux', url: 'https://user:pw@www.booking.com/' }, { name: 'Esp', url: ' https://www.booking.com/a b' }] },
+    activities: [{ label: 'Rando', hikeUrl: 'https://www.visorando.com/x\\y' }, { label: 'Rando2', hikeUrl: 'https://www.visorando.com/@evil.example' }],
+    restrictions: [{ kind: 'van', type: 'lez', name: 'Z', source: 'https://www.booking.com/\t@evil' }] };
+  await sleep(1500);
+  const r = await H.postPatient('/api/export-pdf', { lang: 'fr', city: 'Lyon', legs: [leg] });
+  assert.deepEqual(checkPdf(r, 'liens', PDF_TIME_LIMIT_MS), []);
+  const uris = pdfUris(r.body);
+  assert.ok(uris.includes(good), 'lien valide absent : ' + JSON.stringify(uris));
+  assert.deepEqual(uris.filter(u => /[\\@\s]/.test(u) || /[^\x21-\x7e]/.test(u)), []);
+});
+
+test('12e audit, point 5 : /api/status sans chemin de fichier', { timeout: 30000 }, async () => {
+  const r = await H.get('/api/status');
+  assert.equal(r.status, 200);
+  const body = r.body.toString('utf8');
+  assert.ok(!/[A-Za-z]:[\\/]|\\\\|\/(home|usr|var|tmp|opt|srv|Users)\//.test(body), body);
+  const j = JSON.parse(body);
+  assert.ok(!/[\\/]/.test(String(j.pdfFonts || '')), 'pdfFonts : ' + j.pdfFonts);
+});
+
+test('12e audit, point 6 : chemin inconnu -> 404 texte court, jamais « Cannot GET »', { timeout: 30000 }, async () => {
+  const bad = [];
+  for(const [m, p] of [['GET', '/nope'], ['GET', '/js/nope.js'], ['POST', '/nope'], ['HEAD', '/nope/x']]){
+    const r = await H.method(m, p);
+    const body = r.body.toString('utf8');
+    if(r.status !== 404 || /Cannot|<html|<pre/i.test(body)) bad.push(m + ' ' + p + ' -> ' + r.status + ' ' + body.slice(0, 60));
+  }
+  const api = await H.get('/api/nope');
+  if(api.status !== 404 || !/json/.test(api.headers['content-type'] || '')) bad.push('/api/nope -> ' + api.status + ' ' + api.headers['content-type']);
+  assert.deepEqual(bad, []);
+});
+
+test('12e audit, point 7 : pastille de 120 caractères non tronquée', { timeout: 60000 }, async () => {
+  let chip = 'ferry vehicules passagers en plus tarif pour le vehicule seul';
+  while(chip.length < 108) chip += ' mot' + chip.length;
+  chip = (chip + ' FINPASTILLE').slice(0, 120);
+  assert.equal(chip.length, 120);
+  await sleep(1500);
+  const r = await H.postPatient('/api/export-pdf', { lang: 'fr', legs: [{ label: 'a' }], texts: { stats: ['court', chip] } });
+  assert.deepEqual(checkPdf(r, 'pastille', PDF_TIME_LIMIT_MS), []);
+  assert.ok(flatText(r.body).includes(chip), 'pastille tronquée');
+});
+
+test('12e audit, point 8 : libellé de badge du navigateur repris, badge invalide ignoré', { timeout: 60000 }, async () => {
+  const legs = [
+    { label: 'Premier', badge: 'BDGOK' },
+    { label: 'Deuxieme', badge: 'Y'.repeat(13) },
+    { label: 'Troisieme', badge: 'QQ' + chr(0x202E) + 'ZZ' },
+    { label: 'Quatrieme', badge: 'WW1\nWW2' },
+    { label: 'Cinquieme', badge: { toString: 1 } },
+    { label: 'Retour', isReturn: true, badge: 42 }
+  ];
+  await sleep(1500);
+  const r = await H.postPatient('/api/export-pdf', { lang: 'fr', city: 'Lyon', legs });
+  assert.deepEqual(checkPdf(r, 'badges', PDF_TIME_LIMIT_MS), []);
+  const lines = pdfText(r.body).split('\n').map(s => s.trim());
+  assert.ok(lines.includes('BDGOK'), 'badge client absent');
+  const txt = lines.join(' ');
+  assert.ok(!txt.includes('YYYYYYYYYYYYY') && !txt.includes('QQ') && !txt.includes('WW1'), 'badge invalide repris');
+  assert.ok(['2', '3', '4', '5', 'R'].every(b => lines.includes(b)), 'libellé de repli absent : ' + JSON.stringify(lines.filter(l => l.length <= 2)));
+});
+
+test('12e audit, point 9 : textes de secours du péage en fourchette (« jusqu\'à »)', { timeout: 60000 }, async () => {
+  const legs = [
+    { label: 'a', tollInfo: { enabled: true, amount: 12.4, amountMin: 0, amountMax: 12.4 } },
+    { label: 'b', tollInfo: { enabled: true, amount: 12, amountMin: 5, amountMax: 12 } },
+    { label: 'c', tollInfo: { enabled: false, amount: 12, amountMin: 11.8, amountMax: 12 } },
+    { label: 'Retour', isReturn: true }
+  ];
+  await sleep(1500);
+  const r = await H.postPatient('/api/export-pdf', { lang: 'fr', legs, stats: { toll: { enabled: true, amount: 36.4, amountMin: 0, amountMax: 36.4 } } });
+  assert.deepEqual(checkPdf(r, 'péage', PDF_TIME_LIMIT_MS), []);
+  const txt = flatText(r.body);
+  const want = ["jusqu'à ~36,4 € de péage possible", "Péage possible : jusqu'à ~12,4 € selon l'itinéraire", "Péage estimé : ~5,0 à ~12,0 € selon l'itinéraire",
+    'Option sans péage : sections à péage évitées (~12,0 €)'];
+  assert.deepEqual(want.filter(w => !txt.includes(w)), [], txt.slice(0, 600));
 });
 
 // --------------------------------------------------------------------------------------------- appels sortants

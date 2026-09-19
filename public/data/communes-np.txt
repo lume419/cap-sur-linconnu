@@ -37324,7 +37324,6 @@
 0;80.5397,29.5849;NP-7;Sudurpashchim Pradesh;Basaur
 0;87.5197,26.6290;NP-1;Koshi;Bihibare
 0;87.5287,26.6274;NP-1;Koshi;Dahidhap
-0;87.5315,26.6566;NP-1;Koshi;NONE
 0;87.5173,26.6409;NP-1;Koshi;Pachisbigha
 0;87.5067,26.6393;NP-1;Koshi;Chanditol
 0;87.5241,26.6373;NP-1;Koshi;Dahipari

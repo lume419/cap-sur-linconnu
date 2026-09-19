@@ -86,7 +86,11 @@
     éventuellement choisie (pour le plafond de prix et les liens d'hébergement) — jamais votre nom, votre adresse IP
     au-delà des journaux techniques d'hébergement déjà mentionnés plus bas, ni aucune donnée qui
     vous identifierait. Le serveur calcule et répond, sans rien enregistrer ni journaliser au-delà
-    de la réponse — même principe que l'export PDF ci-dessous.</p>
+    de la réponse — même principe que l'export PDF ci-dessous. Deux précisions : pour accélérer les
+    recherches suivantes, les 5 000 dernières recherches de ville distinctes (texte tapé mis en minuscules,
+    langue, pays et résultats) restent en mémoire vive, sans adresse IP ni lien avec qui les a tapées, jusqu'à
+    ce que de plus récentes les remplacent ou que le serveur redémarre ; et en cas d'erreur interne, le serveur
+    note dans son journal d'erreurs le type de requête et le message d'erreur, jamais votre adresse IP.</p>
     <p>Limitation de débit : pour protéger le service contre les abus, le serveur garde <strong>en mémoire
     vive uniquement</strong> l'adresse IP d'origine de certaines requêtes, avec l'heure de chaque requête :
     les requêtes vers <code>/api/</code> (nombre de requêtes par minute, requêtes en cours vers les

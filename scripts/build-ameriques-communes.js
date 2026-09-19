@@ -57,8 +57,12 @@ fs.readFileSync(path.join(__dirname, 'admin1CodesASCII.txt'), 'utf8').split('\n'
   const f = l.split('\t'); if(f[0] && f[1]) admin1Names.set(f[0], f[1]);
 });
 
+// ONLY_COUNTRY=MX : reconstruit un seul pays (les autres fichiers restent intacts ; 12e audit du 19/09/2026, même
+// option que build-asie-communes.js).
+const ONLY_COUNTRY = process.env.ONLY_COUNTRY || '';
 let total = 0;
 for(const country of COUNTRIES){
+  if(ONLY_COUNTRY && country !== ONLY_COUNTRY) continue;
   const seen = new Map(); let brut = 0;
   fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8').split('\n').forEach(line => {
     const c = line.split('\t');

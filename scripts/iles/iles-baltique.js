@@ -6459,7 +6459,7 @@ module.exports = {
    "routeKey": "kilboghamnNordnesoy", "durationEstimated": true,
    "name": "Kilboghamn ↔ Nordnesøy",
    "operator": "Torghatten Nord",
-   "durationH": 0.4,
+   "durationH": 1.5,
    "distanceKm": 28,
    "priceStatus": "variable",
    "priceByClass": {
@@ -6477,7 +6477,7 @@ module.exports = {
    },
    "source": "https://autopassferje.no/en/free-ferries-from-july-1st-2022/",
    "date": "2026-09-16",
-   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27,8 km entre les quais (https://www.fergeruter.info/timetable/nordnesoy-kilboghamn_rodyoysambandet), au lieu de 7 ; durée non vérifiée (Rødøysambandet à escales). 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
+   "note": "Liaison gratuite pour tous (liste officielle AutoPASS des bacs gratuits, « all routes »). Durée/distance : ordres de grandeur. Conversion InforEuro septembre 2026 : 1 EUR = 10,8595 NOK. Distance corrigée (17/09/2026) : 27,8 km entre les quais (https://www.fergeruter.info/timetable/nordnesoy-kilboghamn_rodyoysambandet), au lieu de 7 ; durée non vérifiée (Rødøysambandet à escales). 12e audit (19/09/2026) : 0,4 h pour 28 km donnait 70 km/h, vitesse d'un navire rapide, pas d'un bac à escales ; horaire absent du dépôt et aucune liaison norvégienne de la base n'a de durée sourcée (59 sur 59 estimées) : durée recalculée avec la vitesse médiane des 51 liaisons de la base à durée publiée (durationEstimated absent, hors train-auto) longues de 15 à 45 km, 19,0 km/h -> 28 / 19,0 = 1,47 h, arrondie à 1,5 h (médiane des 160 liaisons à durée publiée : 19,6 km/h, même arrondi). Estimation, toujours marquée durationEstimated. 11e audit (18/09/2026) : ligne soumise aux « summer rates 2026 » de Nordland (01/05-31/08/2026, https://autopassferje.no/summer-rates-2026/) — tarif majoré en été, y compris sur les bacs normalement gratuits, montant non publié par liaison : gratuité non garantie, priceStatus variable."
   },
   {
    "a": "continental",

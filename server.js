@@ -132,7 +132,11 @@ const OUTBOUND_GROUPS = [
 // 60 s (10e audit du 18/09/2026) : /api/hike peut durer 35 s (Visorando 10 s puis Overpass 25 s) et /api/photo jusqu'à
 // ~60 s dans le pire enchaînement ; avec 30 s, la place était rendue pendant que le travail continuait — le plafond
 // par IP était alors dépassé. Ce n'est qu'un filet : la place est normalement rendue à la fin de la réponse.
-const OUTBOUND_MAX_HOLD_MS = 60000;
+// 125 s (12e audit du 19/09/2026) : 60 s ne couvraient toujours pas /api/photo. Pire enchaînement, d'après les délais du
+// code (attente du limiteur + délai de l'appel) : deux titres dans la langue du visiteur sans photo (2 × (8 + 10) s),
+// résumé anglais (8 + 10 s), lien Wikidata (6 + 10 s), article local sans photo (8 + 10 s), puis article anglais avec
+// photo et crédit ((8 + 10) + (8 + 8) s) = 122 s. /api/hike (35 s) et /api/pois restent en deçà.
+const OUTBOUND_MAX_HOLD_MS = 125000;
 const outboundByIp = new Map(); // groupe|ip -> { active, waiting: [fonction de reprise] }
 app.use('/api/', function(req, res, next){
   const p = ('/api/' + req.path).toLowerCase().replace(/\/{2,}/g, '/');
@@ -1439,29 +1443,37 @@ const PDF_LINK_HOSTS = (function(){
   (HIKING_DATA.portals || []).forEach(function(p){ if(p && typeof p.url === 'string') addUrl(p.url.replace(/\{[a-z]+\}/g, 'x')); });
   return hosts;
 })();
+// Lien écrit dans le PDF = forme ANALYSÉE (URL.href), jamais la chaîne reçue (12e audit du 19/09/2026) : le contrôle
+// portait sur new URL(u) mais c'est u qui était écrit — « https://www.booking.com\@evil.example/phish » (hôte
+// booking.com pour l'analyseur WHATWG, evil.example pour d'autres), une tabulation ou une espace en tête passaient tels
+// quels jusqu'au lecteur PDF. Refusés aussi : barre oblique inverse et « @ » n'importe où (sans usage dans les liens
+// produits par l'application, ils ne servent qu'à tromper un autre analyseur ou le lecteur), identifiant ou mot de
+// passe, port explicite, et toute forme analysée non ASCII ou contenant une espace.
 function parseHttpsUrl(u){
-  if(typeof u !== 'string' || u.length >= 500) return null;
+  if(typeof u !== 'string' || u.length >= 500 || /[\\@]/.test(u)) return null;
   let p;
   try { p = new URL(u); } catch(e){ return null; }
   if(p.protocol !== 'https:' || p.username || p.password || p.port) return null;
+  if(!/^[\x21-\x7e]+$/.test(p.href) || /[\\@]/.test(p.href)) return null;
   return p;
 }
-function isAllowedPdfLink(u){
+// Lien autorisé du PDF (voir PDF_LINK_HOSTS) : sa forme analysée, sinon null.
+function pdfLink(u){
   const p = parseHttpsUrl(u);
-  if(!p) return false;
+  if(!p) return null;
   const host = p.hostname.toLowerCase();
-  return PDF_LINK_HOSTS.has(host) || PDF_LINK_HOST_PATTERNS.some(re => re.test(host));
+  return (PDF_LINK_HOSTS.has(host) || PDF_LINK_HOST_PATTERNS.some(re => re.test(host))) ? p.href : null;
 }
-// Zones à tension : source France Diplomatie uniquement.
-function isDiplomatieUrl(u){
+// Zones à tension : source France Diplomatie uniquement (forme analysée, voir parseHttpsUrl), sinon null.
+function diplomatieLink(u){
   const p = parseHttpsUrl(u);
-  return !!p && /^(?:www\.)?diplomatie\.gouv\.fr$/i.test(p.hostname);
+  return p && /^(?:www\.)?diplomatie\.gouv\.fr$/i.test(p.hostname) ? p.href : null;
 }
 // Niveau de tension envoyé par le client ({level:'red'|'orange', source?}) : validé strictement, sinon ignoré.
 function pdfTension(t){
   if(!t || typeof t !== 'object' || Array.isArray(t)) return null;
   if(t.level !== 'red' && t.level !== 'orange') return null;
-  return { level: t.level, source: isDiplomatieUrl(t.source) ? t.source : null };
+  return { level: t.level, source: diplomatieLink(t.source) };
 }
 function pdfTensionText(tension, isDeparture){
   const where = isDeparture ? 'Point de départ situé en zone ' : 'Étape située en zone ';
@@ -1476,6 +1488,10 @@ function clip(s, max){
   // Chaînes, nombres et booléens seulement (9e audit du 18/09/2026) : un objet forgé ({"toString":1}) faisait lever
   // String() en pleine mise en page du PDF, livré alors coupé net, sans la mention « document tronqué ».
   s = (typeof s === 'string') ? s : (typeof s === 'number' || typeof s === 'boolean') ? String(s) : '';
+  // Sauts de ligne remplacés par une espace (12e audit du 19/09/2026) : drawText fait de chaque « \n » un paragraphe,
+  // et un corps de 32 Ko de « x\n » produisait 198 pages. Tout texte venu du client passe
+  // par ici (directement ou par pdfClientText / pdfClientList / pdfClientBadge).
+  s = s.replace(/[\r\n\u2028\u2029]+/g, ' ');
   return s.length > max ? s.slice(0, max - 1) + '…' : s;
 }
 
@@ -1511,17 +1527,21 @@ const PDF_MAX_BULLETS_PER_LEG = 20;
 // la mention « document tronqué ». Un export réel coûte 0,1 à 2,2 s selon l'écriture (dzongkha puis bengali les plus lents).
 const PDF_BUILD_BUDGET_MS = 3500;
 
-// Boutiques OFFICIELLES de vignette autoroutière (pas de revendeur tiers) — même URLs que
-// COUNTRIES[cc].vignette côté client (public/js/app.js) ; dupliquées ici plutôt qu'importées, ce
-// fichier n'ayant pas accès au module client-side (voir buildTripPdf pour l'usage).
-const VIGNETTE_URLS = {
-  CH: 'https://via.admin.ch/shop/',
-  AT: 'https://shop.asfinag.at/en/',
-  CZ: 'https://edalnice.gov.cz/en/simple-purchase',
-  SK: 'https://eznamka.sk/selfcare/purchase',
-  HU: 'https://ematrica.nemzetiutdij.hu/',
-  SI: 'https://evinjeta.dars.si/'
-};
+// Boutiques OFFICIELLES de vignette autoroutière (pas de revendeur tiers) : COUNTRIES[cc].vignette.url de
+// public/js/trip-data.js, la même donnée que l'écran (source unique, 12e audit du 19/09/2026). L'ancienne copie en dur
+// ici — justifiée par un commentaire faux, trip-data.js étant déjà importé plus haut — ne connaissait que six pays : la
+// Bulgarie, la Roumanie, la Moldavie et la Biélorussie n'avaient aucun rappel de vignette dans le PDF. Chaque lien passe
+// par les mêmes contrôles que les autres liens du PDF (https, sans identifiant ni port, forme analysée) ; un lien
+// invalide dans la donnée retire le pays plutôt que d'écrire un lien douteux. Voir buildTripPdf pour l'usage.
+const VIGNETTE_URLS = (function(){
+  const out = Object.create(null);
+  Object.keys(TripDataCountries).forEach(function(cc){
+    const v = TripDataCountries[cc] && TripDataCountries[cc].vignette;
+    const p = v && parseHttpsUrl(v.url);
+    if(/^[A-Z]{2}$/.test(cc) && p) out[cc] = p.href;
+  });
+  return out;
+})();
 
 // Fond crème (--bg du site) plutôt qu'une page blanche brute — posé sous tout le reste à chaque
 // nouvelle page (page 1 explicitement, pages suivantes via pdfRunningHeader/'pageAdded').
@@ -1578,20 +1598,29 @@ function pdfBullet(doc, ctx, text, x, width, opts){
 function pdfChipRow(doc, ctx, items, x, maxWidth){
   const padX = 8, padY = 4.5, fontSize = 9, h = fontSize + padY * 2 + 2, gap = 6;
   const colors = [PDF_ACCENT_3, PDF_ACCENT_2, PDF_ACCENT];
-  let cx = x, cy = doc.y;
+  let cx = x, cy = doc.y, rowH = h;
   items.forEach(function(text, i){
     // Budget de mise en page (10e audit du 18/09/2026) : ces jetons y échappaient — 8 statistiques de 80 caractères
     // tibétains (2 Ko de corps) gelaient le process 5 à 10 s.
     if(pdfTimeUp(ctx)) return;
-    const w = Math.min(PdfText.textWidth(doc, text, { lang: ctx.lang, size: fontSize, bold: true }) + padX * 2, maxWidth);
-    if(cx > x && cx + w > x + maxWidth){ cx = x; cy += h + gap; }
+    const fullW = PdfText.textWidth(doc, text, { lang: ctx.lang, size: fontSize, bold: true }) + padX * 2;
+    const w = Math.min(fullW, maxWidth);
+    // Pastille plus large que la page (12e audit du 19/09/2026, pastilles portées à 140 caractères) : sur plusieurs
+    // lignes (3 au plus) au lieu d'une seule ligne coupée net — fond agrandi de la hauteur des lignes en plus.
+    const lineOpts = { x: 0, y: 0, width: w - padX * 2 + 1, lang: ctx.lang, size: fontSize, bold: true, measureOnly: true };
+    const extraH = fullW > maxWidth
+      ? PdfText.drawText(doc, text, Object.assign({}, lineOpts, { maxLines: 3 })) - PdfText.drawText(doc, text, Object.assign({}, lineOpts, { maxLines: 1 }))
+      : 0;
+    const chipH = h + Math.max(0, extraH);
+    if(cx > x && cx + w > x + maxWidth){ cx = x; cy += rowH + gap; rowH = h; }
     const realX = pdfX(doc, ctx, cx, w);
-    doc.roundedRect(realX, cy, w, h, h / 2).fill(colors[i % colors.length]);
+    doc.roundedRect(realX, cy, w, chipH, h / 2).fill(colors[i % colors.length]);
     PdfText.drawText(doc, text, { x: realX + padX, y: cy + padY - 1, width: w - padX * 2 + 1, lang: ctx.lang, size: fontSize,
-      bold: true, color: '#FFFFFF', align: 'center', maxLines: 1, deadline: ctx.deadline });
+      bold: true, color: '#FFFFFF', align: 'center', maxLines: extraH > 0 ? 3 : 1, deadline: ctx.deadline });
+    rowH = Math.max(rowH, chipH);
     cx += w + gap;
   });
-  doc.y = cy + h;
+  doc.y = cy + rowH;
 }
 
 // Bandeau de marque affiché en haut de chaque page suivant la première (qui a le grand bandeau
@@ -1624,6 +1653,35 @@ function pdfClientText(v, fallback, max){
 function pdfClientList(v, maxItems, maxLen){
   return Array.isArray(v) ? v.filter(s => typeof s === 'string' && s.trim()).slice(0, maxItems).map(s => clip(s, maxLen)) : null;
 }
+// Libellé du badge d'une étape fourni par le navigateur (champ `badge` de chaque élément de trip.legs, 12e audit du
+// 19/09/2026) : l'écran affiche les chiffres de la langue (« ३ », « ٣ »), « ⟲ » pour le retour et des plages « 3–5 »,
+// le PDF écrivait toujours « 3 » ou « R ». Chaîne courte (12 caractères au plus), sans caractère de contrôle ni de
+// sens d'écriture (un badge ne doit pas réordonner la ligne), puis les mêmes filtres que les autres textes (clip) ;
+// sinon null et le libellé calculé ici.
+const PDF_BADGE_BAD_RE = /[\p{Cc}\u061C\u200E\u200F\u202A-\u202E\u2066-\u2069\u2028\u2029]/u;
+// Textes de secours du péage (12e audit du 19/09/2026, utilisés seulement sans texte du navigateur) : fourchette de la
+// 11e passe, même règle que tollRange / tollRangeKind de public/js/app.js. Borne haute = amountMax, sinon amount ; borne
+// basse = amountMin, sinon la borne haute (moteur plus ancien : montant unique). 'upTo' : borne basse nulle (des routes
+// gratuites longent le trajet) ; 'single' : écart de moins de 0,50 € ou de moins de 10 % ; 'range' sinon. Nombres bornés.
+function pdfTollRange(t){
+  const num = v => { const n = Number(v); return isFinite(n) ? Math.min(Math.max(n, 0), 100000) : null; };
+  const max = num(t.amountMax != null ? t.amountMax : t.amount) || 0;
+  const minRaw = t.amountMin != null ? num(t.amountMin) : max;
+  const min = Math.min(minRaw == null ? max : minRaw, max);
+  const kind = !(min > 0) ? 'upTo' : (max - min < 0.5 || max - min < 0.1 * max) ? 'single' : 'range';
+  return { min: min, max: max, kind: kind };
+}
+function pdfEuro(n){ return (Math.round(n * 10) / 10).toFixed(1).replace('.', ','); }
+// « ~X € » (montant unique : borne haute, comme l'écran) ou « ~A à ~B € ».
+function pdfTollAmountText(r){
+  return r.kind === 'range' ? '~' + pdfEuro(r.min) + ' à ~' + pdfEuro(r.max) + ' €' : '~' + pdfEuro(r.max) + ' €';
+}
+function pdfClientBadge(v){
+  if(typeof v !== 'string') return null;
+  const s = v.trim();
+  if(!s || Array.from(s).length > 12 || PDF_BADGE_BAD_RE.test(s)) return null;
+  return clip(s, 12);
+}
 
 function buildTripPdf(doc, trip){
   const marginLeft = doc.page.margins.left;
@@ -1652,7 +1710,9 @@ function buildTripPdf(doc, trip){
 
   // ---- Jetons de statistiques ----
   const stats = trip.stats || {};
-  let statsBits = pdfClientList(texts.stats, 8, 80);
+  // 140 caractères par pastille (12e audit du 19/09/2026) : 80 coupaient au milieu d'un mot les traductions réelles de
+  // « ferry (véhicules ; passagers en plus…) » (bulgare 85, lituanien 91, maya yucatèque 100 caractères).
+  let statsBits = pdfClientList(texts.stats, 8, 140);
   if(!statsBits || !statsBits.length){
     statsBits = [];
     // Nombres uniquement (une chaîne de 400 Ko passait telle quelle dans la mise en page).
@@ -1662,9 +1722,11 @@ function buildTripPdf(doc, trip){
     if(sCities) statsBits.push(sCities + (sCities > 1 ? ' villes' : ' ville'));
     if(sNights != null) statsBits.push(sNights + (sNights > 1 ? ' nuitées' : ' nuitée'));
     if(statNum(stats.totalKm)) statsBits.push('~' + statNum(stats.totalKm) + ' km au total');
-    if(stats.toll && isFinite(Number(stats.toll.amount))){
-      const tollAmountTxt = (Math.round(Number(stats.toll.amount) * 10) / 10).toFixed(1).replace('.', ',');
-      statsBits.push('~' + tollAmountTxt + ' € de péage ' + (stats.toll.enabled ? 'estimé' : 'évités'));
+    if(stats.toll && typeof stats.toll === 'object' && isFinite(Number(stats.toll.amountMax != null ? stats.toll.amountMax : stats.toll.amount))){
+      // Fourchette (11e passe, voir pdfTollRange) : mêmes trois cas que les statistiques de l'écran.
+      const r = pdfTollRange(stats.toll), on = !!stats.toll.enabled;
+      if(r.kind === 'upTo') statsBits.push("jusqu'à ~" + pdfEuro(r.max) + ' € de péage ' + (on ? 'possible' : 'évités'));
+      else statsBits.push(pdfTollAmountText(r) + ' de péage ' + (on ? 'estimé' : 'évités'));
     }
   }
   if(statsBits.length) pdfChipRow(doc, ctx, statsBits, marginLeft, contentWidth);
@@ -1724,7 +1786,17 @@ function buildTripPdf(doc, trip){
       doc.lineWidth(1.3).moveTo(badgeCX, prevBadgeCY + 9).lineTo(badgeCX, badgeCY - 9).stroke(PDF_LINE_STRONG);
     }
     doc.circle(badgeCX, badgeCY, 9).fill(isReturn ? PDF_ACCENT : PDF_ACCENT_3);
-    PdfText.drawText(doc, isReturn ? 'R' : String(idx + 1), { x: badgeCX - 9, y: badgeCY - 6.5, width: 18, lang: 'fr', size: 9,
+    // Libellé de l'écran (leg.badge, voir pdfClientBadge), sinon « R » ou le numéro. Réduit pour tenir dans le rond
+    // (« 12–14 », chiffres d'autres écritures) : 9 pt, jusqu'à 5 pt.
+    const clientBadge = pdfClientBadge(leg.badge);
+    const badgeText = clientBadge || (isReturn ? 'R' : String(idx + 1));
+    const badgeLang = clientBadge ? lang : 'fr';
+    let badgeSize = 9;
+    if(clientBadge){
+      const bw = PdfText.textWidth(doc, badgeText, { lang: badgeLang, size: 9, bold: true });
+      if(bw > 16) badgeSize = Math.max(5, 9 * 16 / bw);
+    }
+    PdfText.drawText(doc, badgeText, { x: badgeCX - 11, y: badgeCY - badgeSize * 0.72, width: 22, lang: badgeLang, size: badgeSize,
       bold: true, color: '#FFFFFF', align: 'center', maxLines: 1 });
     prevBadgeCY = badgeCY;
 
@@ -1761,11 +1833,20 @@ function buildTripPdf(doc, trip){
     }
     if(leg.tollInfo){
       const t = leg.tollInfo;
-      const amountTxt = (Math.round((Number(t.amount) || 0) * 10) / 10).toFixed(1).replace('.', ',');
-      const tollTxt = (t.enabled
-        ? 'Péage estimé : ~' + amountTxt + ' € si vous empruntez les sections à péage de ce trajet.'
-        : 'Sans péage (option décochée) : les sections à péage de ce trajet coûteraient environ ' + amountTxt + ' €.') +
-        ' Estimation au kilomètre : le montant réel dépend des sections réellement empruntées.';
+      // Fourchette (11e passe) : mêmes phrases que l'écran en français (toll.estimated / estimatedRange / possibleUpTo et
+      // leurs variantes « option sans péage », public/js/i18n.js).
+      const r = pdfTollRange(t), on = !!t.enabled;
+      let tollTxt;
+      if(r.kind === 'upTo'){
+        tollTxt = on ? "Péage possible : jusqu'à ~" + pdfEuro(r.max) + " € selon l'itinéraire (des autoroutes gratuites longent ce trajet)."
+          : "Option sans péage : sections à péage évitées (jusqu'à ~" + pdfEuro(r.max) + " € selon l'itinéraire ; des autoroutes gratuites longent aussi ce trajet).";
+      } else if(r.kind === 'range'){
+        tollTxt = on ? 'Péage estimé : ' + pdfTollAmountText(r) + " selon l'itinéraire."
+          : 'Option sans péage : sections à péage évitées (' + pdfTollAmountText(r) + " selon l'itinéraire).";
+      } else {
+        tollTxt = on ? 'Péage estimé : ' + pdfTollAmountText(r) + '.' : 'Option sans péage : sections à péage évitées (' + pdfTollAmountText(r) + ').';
+      }
+      tollTxt += ' Estimation au kilomètre : le montant réel dépend des sections réellement empruntées.';
       // Barème des pays concernés : codes vérifiés contre TOLL_SOURCE, jamais de texte venu du client.
       const tollSources = (Array.isArray(t.countries) ? t.countries : []).slice(0, 5)
         .map(c => Object.prototype.hasOwnProperty.call(TripDataTollSource, c) ? TripDataTollSource[c] : null)
@@ -1807,19 +1888,41 @@ function buildTripPdf(doc, trip){
         // Remplacement par fonction : dans une chaîne de remplacement, « $' », « $& »… venus du client étaient interprétés.
         const name = clip(r.name || '', 80), cc = String(Number(r.minCc) || '');
         const text = tpl.replace('{name}', function(){ return name; }).replace('{cc}', function(){ return cc; });
-        legBullet(pdfClientText(restrictionTexts[ri], text), contentX, contentWidth2, { link: isAllowedPdfLink(r.source) ? r.source : null, color: PDF_ACCENT_3 });
+        legBullet(pdfClientText(restrictionTexts[ri], text), contentX, contentWidth2, { link: pdfLink(r.source), color: PDF_ACCENT_3 });
       });
     }
     if(leg.ferryInfo){
       const f = leg.ferryInfo;
-      let ferryTxt;
-      if(typeof f.amount === 'number'){
-        const amountTxt = (Math.round(f.amount * 10) / 10).toFixed(1).replace('.', ',');
-        ferryTxt = 'Traversée en ferry (' + clip(f.route || '', 60) + ') : ~' + amountTxt + ' €.';
+      // Textes de secours de la 11e passe (12e audit du 19/09/2026), mêmes phrases que l'écran en français (ferryLabel,
+      // ferryPriceText, ferryText de public/js/app.js) : train-auto (mode 'train'), ce que couvre le tarif (priceCovers,
+      // tarif piéton footAmount), durée « environ » quand elle n'est pas publiée (durationEstimated). La durée n'est
+      // écrite que si le navigateur envoie durationH (heures, nombre borné) ; priceCovers absent ou inconnu : montant seul.
+      const ferryLabel = f.mode === 'train' ? 'Train-auto' : 'Traversée en ferry';
+      const route = clip(f.route || '', 60);
+      const durH = Number(f.durationH);
+      let dur = '';
+      if(typeof f.durationH === 'number' && durH > 0 && durH < 100){
+        const totalMin = Math.round(durH * 60), h = Math.floor(totalMin / 60), m = totalMin % 60;
+        dur = (h ? h + ' h' : '') + (h && m ? ' ' : '') + (m || !h ? m + ' min' : '');
+        if(f.durationEstimated === true) dur = 'environ ' + dur;
+      }
+      const amount = typeof f.amount === 'number' && isFinite(f.amount) && f.amount >= 0 && f.amount < 100000 ? f.amount : null;
+      let ferryTxt = ferryLabel + (route ? ' — ' + route : '');
+      if(amount !== null){
+        const a = '~' + pdfEuro(amount) + ' €';
+        const footN = Number(f.footAmount);
+        const foot = typeof f.footAmount === 'number' && footN > 0 && footN < 100000 ? '~' + pdfEuro(footN) + ' €' : null;
+        let price;
+        if(amount === 0) price = 'gratuit';
+        else if(f.priceCovers === 'vehicle') price = foot ? a + ' pour le véhicule, + ' + foot + ' par personne' : a + ' pour le véhicule, passagers en plus';
+        else if(f.priceCovers === 'vehicleAndDriver') price = foot ? a + ' véhicule et conducteur, + ' + foot + ' par passager' : a + ' véhicule et conducteur, autres passagers en plus';
+        else if(f.priceCovers === 'vehicleAndOccupants') price = a + ', occupants compris';
+        else price = a;
+        ferryTxt += ' — ' + price + (dur ? ' · ' + dur + ' de traversée' : '') + '.';
       } else {
         // Liaison réelle sans tarif fixe publié (voir priceStatus dans lib/trip-engine.js).
-        ferryTxt = 'Traversée en ferry (' + clip(f.route || '', 60) + ') : ' + (f.priceStatus === 'variable'
-          ? 'tarif variable, vérifiez avant votre voyage.' : 'tarif non communiqué, renseignez-vous avant votre trajet.');
+        ferryTxt += (dur ? ' · ' + dur + ' de traversée' : '') + '. ' + (f.priceStatus === 'variable'
+          ? 'Tarif variable, vérifiez avant votre voyage.' : 'Tarif non communiqué, renseignez-vous avant votre trajet.');
       }
       legBullet(pdfClientText(lt.ferry, ferryTxt), contentX, contentWidth2);
     }
@@ -1846,7 +1949,7 @@ function buildTripPdf(doc, trip){
       if(!act || !act.label) return;
       const text = clip(act.label, 140) + (act.typeLabel ? ' — ' + clip(act.typeLabel, 80) : '') +
         (act.source ? ' (' + pdfClientText(act.sourceLabel, 'Source : ' + clip(act.source, 30), 60) + ')' : '');
-      const link = isAllowedPdfLink(act.hikeUrl) ? act.hikeUrl : null;
+      const link = pdfLink(act.hikeUrl);
       legBullet(text, contentX, contentWidth2, { link: link, color: link ? PDF_ACCENT_3 : PDF_ACCENT_2 });
     });
     if(leg.lodgingLinks && leg.checkInLabel){
@@ -1855,15 +1958,18 @@ function buildTripPdf(doc, trip){
       // pas une par nuit (voir buildTripExportPayload côté client).
       const links = leg.lodgingLinks;
       const lodgingLabel = pdfClientText(lt.lodging, 'Logement · ' + clip(leg.checkInLabel, 40), 120);
-      if(isAllowedPdfLink(links.airbnb)) legBullet(lodgingLabel + ' — Airbnb', contentX, contentWidth2, { link: links.airbnb });
-      if(isAllowedPdfLink(links.booking)) legBullet(lodgingLabel + ' — Booking.com', contentX, contentWidth2, { link: links.booking });
+      // Forme analysée des liens (voir pdfLink), jamais la chaîne reçue.
+      const airbnbLink = pdfLink(links.airbnb), bookingLink = pdfLink(links.booking);
+      if(airbnbLink) legBullet(lodgingLabel + ' — Airbnb', contentX, contentWidth2, { link: airbnbLink });
+      if(bookingLink) legBullet(lodgingLabel + ' — Booking.com', contentX, contentWidth2, { link: bookingLink });
       // Plateformes locales (pays où Airbnb ou Booking.com est absent ou faible).
-      // Liens hors des hôtes attendus (voir isAllowedPdfLink) : ligne omise, pas seulement le lien.
-      const localLinks = (Array.isArray(links.local) ? links.local.slice(0, 4) : []).filter(p => p && isAllowedPdfLink(p.url));
+      // Liens hors des hôtes attendus (voir pdfLink) : ligne omise, pas seulement le lien.
+      const localLinks = (Array.isArray(links.local) ? links.local.slice(0, 4) : [])
+        .map(p => p ? { name: p.name, link: pdfLink(p.url) } : null).filter(p => p && p.link);
       localLinks.forEach(function(p){
-        legBullet(lodgingLabel + ' — ' + clip(p.name || '', 40), contentX, contentWidth2, { link: p.url });
+        legBullet(lodgingLabel + ' — ' + clip(p.name || '', 40), contentX, contentWidth2, { link: p.link });
       });
-      if(!isAllowedPdfLink(links.airbnb) && !isAllowedPdfLink(links.booking) && !localLinks.length){
+      if(!airbnbLink && !bookingLink && !localLinks.length){
         legBullet(pdfClientText(texts.lodgingNone, 'Aucune plateforme de réservation en ligne connue ici : contactez directement les hébergements ou l\'office du tourisme.'), contentX, contentWidth2);
       }
     }
@@ -1950,10 +2056,22 @@ function stripConversionTraps(v, depth){
   if(Object.prototype.hasOwnProperty.call(v, 'valueOf')) delete v.valueOf;
   for(const k of Object.keys(v)) stripConversionTraps(v[k], depth + 1);
 }
-// Nombre de caractères DISTINCTS dans les chaînes d'un corps JSON (au plus limit + 1 comptés).
+// Nombre de glyphes DISTINCTS que demanderaient les chaînes d'un corps JSON (au plus limit + 1 comptés).
+// 12e audit du 19/09/2026, deux corrections :
+// - comptés sur le texte normalisé NFC, celui que drawText met réellement en page (lib/pdf-text.js) : des syllabes
+//   coréennes envoyées en jamos décomposés passaient la limite (3 967 caractères bruts distincts, 6 076 après NFC) ;
+// - un caractère que la police à variante grasse séparée sait dessiner (latin, grec, cyrillique… voir
+//   PdfText.hasBoldVariant) compte deux fois, une par police incorporée : il peut être écrit en gras et en maigre.
 function distinctChars(v, set, limit, depth){
   if(set.size > limit || depth > 64) return set;
-  if(typeof v === 'string'){ for(const ch of v){ set.add(ch); if(set.size > limit) break; } }
+  if(typeof v === 'string'){
+    for(const ch of v.normalize('NFC')){
+      if(set.has(ch)) continue;
+      set.add(ch);
+      if(PdfText.hasBoldVariant(ch)) set.add('gras|' + ch);
+      if(set.size > limit) break;
+    }
+  }
   else if(v && typeof v === 'object'){ for(const k of Object.keys(v)) distinctChars(v[k], set, limit, depth + 1); }
   return set;
 }
@@ -1964,6 +2082,14 @@ function distinctChars(v, set, limit, depth){
 const PDF_MAX_DISTINCT_CHARS = 4000;
 const PDF_GLYPH_CACHE_MAX = 6000; // par police, voir PdfText.trimGlyphCaches
 app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpuBudgetGuard, pdfExportSlot, (req, res) => {
+  // Polices du PDF illisibles (fichiers absents, dossier non déployé) : service indisponible, 503 et non 500 (12e audit du
+  // 19/09/2026) — l'échec ne dépend pas de la requête. Détail (code d'erreur seul) dans le journal et /api/status.
+  try { PdfText.loadFonts(); } catch(err){
+    console.warn('[export-pdf] polices indisponibles :', (err && err.code) || 'erreur');
+    res.setHeader('Retry-After', '60');
+    res.setHeader('Cache-Control', 'no-store');
+    return res.status(503).json({ error: 'pdf fonts unavailable' });
+  }
   stripConversionTraps(req.body, 0);
   if(distinctChars(req.body, new Set(), PDF_MAX_DISTINCT_CHARS, 0).size > PDF_MAX_DISTINCT_CHARS){
     return res.status(413).json({ error: 'too many distinct characters' });
@@ -2396,7 +2522,9 @@ engineStartup.then(precompressStaticFiles).catch(function(err){ console.warn('[p
       PdfText.warmUp();
       startupStatus.pdfFonts = 'prêtes en ' + Math.round((Date.now() - t0) / 100) / 10 + ' s';
     } catch(err){
-      startupStatus.pdfFonts = 'ÉCHEC : ' + err.message;
+      // Code d'erreur seul (12e audit du 19/09/2026), comme landGrid / tollGrid : le message contenait le chemin absolu
+      // du fichier manquant, exposé à tous par /api/status. Message complet : journal du serveur seulement.
+      startupStatus.pdfFonts = 'ÉCHEC (' + ((err && err.code) || 'erreur') + ')';
       console.warn('[pdf] polices :', err.message);
     }
   });
@@ -2481,6 +2609,13 @@ app.use(express.static(path.join(__dirname, 'public'), {
   }
 }));
 
+// Chemin inconnu hors /api (12e audit du 19/09/2026) : 404 texte court, comme /data. Sans ce gestionnaire, Express
+// servait sa page HTML « Cannot GET … », contrairement à ce qu'annonçait le commentaire ci-dessous. Les routes /api
+// inconnues ont leur propre 404 JSON (plus haut).
+app.use(function(req, res){
+  res.status(404).type('text/plain').send('Not found');
+});
+
 // Toute erreur non traitée (JSON invalide, URL mal encodée…) : réponse courte, jamais la page d'erreur d'Express.
 app.use(function(err, req, res, next){
   if(res.headersSent) return next(err);
@@ -2495,7 +2630,9 @@ const httpServer = app.listen(PORT, () => {
 // Connexions lentes (10e audit du 18/09/2026) : une connexion ouverte sans envoyer un octet n'était jamais fermée, un
 // corps envoyé au compte-gouttes tenait plus de 5 minutes. En-têtes : 15 s ; requête complète (corps compris) : 30 s ;
 // socket inactif (aucun octet dans un sens ni dans l'autre) : 2 minutes — bien au-delà du plus long calcul (~5 s) et des
-// appels sortants attendus en file (60 s au plus, voir OUTBOUND_MAX_HOLD_MS).
+// appels sortants attendus en file (20 s d'attente au plus, voir OUTBOUND_GROUPS). Limite connue (12e audit du
+// 19/09/2026) : le pire enchaînement de /api/photo (122 s, voir OUTBOUND_MAX_HOLD_MS) ne produit aucun octet pendant
+// son calcul et peut dépasser ces 2 minutes — la connexion est alors coupée, la place rendue à la fin réelle de l'appel.
 httpServer.headersTimeout = 15000;
 httpServer.requestTimeout = 30000;
 httpServer.setTimeout(120000, function(socket){ socket.destroy(); });

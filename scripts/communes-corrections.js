@@ -61,6 +61,12 @@
 // fichier publié n'est plus reproductible à l'identique). Pour ces trois générateurs, le code est corrigé ET le même
 // traitement est appliqué aux fichiers publiés par un script de l'audit (lignes visées seulement) ; à la prochaine
 // régénération, le générateur donnera le même résultat.
+// 12e audit du 19/09/2026 : MX et CU (build-ameriques-communes.js, ONLY_COUNTRY ajouté), NP, KR et CN
+// (build-asie-communes.js) régénérés — reproduits à l'octet près AVANT la correction, puis seules les lignes visées ont
+// changé. HR et ES (build-country-communes.js, fichiers postaux absents) NE SONT PAS régénérés et leurs fichiers publiés
+// n'ont pas été retouchés : « Zorkovac_ », « Donja_Podgora », « Gornje_Zagorje » (HR), « XXX » et « Test » (ES)
+// restent publiés jusqu'à la prochaine régénération avec GeoNames HR_postal / ES_postal ; les corrections sont en place
+// ci-dessous (NAME_FIXES, JUNK_IDS) et tests/data.test.js les tient pour « en attente » tant qu'elles le sont.
 
 // geonameid -> [pays du dump, nom, pays réel, 'doublon' | 'absent', détail]
 const WRONG_COUNTRY = {
@@ -140,7 +146,41 @@ function isSark(country, lat, lon){
 //    bas pour le lot népalais ; crochets seulement NON appariés (BROKEN_BRACKET_RE) — « El Molino [Ranchería] » (MX) et
 //    « Rāyāt [2] » (IQ) sont gardés.
 const EDITOR_COMMENT_NAME_RE = /delete\?|\bdelete\b|\bduplicate\b|\bplease\b|no such a? ?place|not a PPL|not inhabited|\(\?[^)]*\?\)|https?:\/\/|www\.|\(historical region\)|ROAD DESTINATION|@|\d\s?m2\b|\d\s?m²/i;
-const PLACEHOLDER_NAMES = new Set(['Unknown', 'Wuming?']);
+//    12e audit du 19/09/2026 — marques d'absence de nom restées publiées, relevées par un balayage de TOUS les fichiers
+//    communes-*.txt (nom complet seulement, avec ou sans précision entre crochets ou parenthèses ; chaque fiche relue
+//    dans scripts/dump/) :
+//    - « Ninguno » (« aucun ») : 313 lieux au Mexique — « Ninguno » seul (114) ou suivi de la description INEGI de ce
+//      qui se trouve au point : « Ninguno [CERESO] » (prison), « Ninguno [Gasolinera] », « Ninguno [Granja] », nom d'un
+//      particulier (« Ninguno [Juan Vargas] »)… Ce n'est pas un nom de localité : écartés. « El Ninguno » (Sinaloa),
+//      vrai nom, gardé ;
+//    - « Sin Nombre » (« sans nom ») : 3 lieux à Cuba (fiches 3536093, 3536098, 12343665 ; les autres fiches « Sin
+//      Nombre » du dump sont des lieux-dits LCTY ou un cours d'eau, jamais publiés) ;
+//    - « NONE » (NP 7969823, PPLL, aucun autre nom sur la fiche). « None » (casse ordinaire) N'EST PAS retenu : commune
+//      du Piémont (IT 3172215), None au Timor occidental (ID), Naune/None (JP) ;
+//    - bruit isolé (identifiant d'utilisateur au lieu d'un nom, aucun autre nom sur la fiche) : « Autonomia_clinicsf25 »
+//      (MX 13631709, PPLL de 2026, doublon d'une fiche CTRM « clinique » au même point), « Kumoh_student » (KR 10942872,
+//      doublon d'une fiche AREA au même point : étudiants de l'université Kumoh, Gumi).
+//    Faux positifs vérifiés et GARDÉS (vrais toponymes) : « No Name » (Colorado, US 8479302, 123 hab.), « Nameless »
+//    (Tennessee), « Bezimenne » (UA), « Adsız » (TR), « Name » (CN, « 那么 »), « Nada », « Nil », « Na », « Nom »,
+//    « Lugar », « Ville », « Place », « Village », « Todo », « Temp » (RU, « Темп »), « Sample », « Blank » (US)…
+//    Aucune forme « Sin nombre », « Sem nome », « Sans nom », « Unnamed », « Без названия », « 无名 », « N/A » ou « - »
+//    seule dans les fichiers publiés.
+const PLACEHOLDER_NAMES = new Set(['Unknown', 'Wuming?', 'Ninguno', 'Sin Nombre', 'NONE', 'Autonomia_clinicsf25', 'Kumoh_student']);
+// Marque d'absence de nom suivie d'une précision (« Ninguno [CERESO] », « Ninguno (Ejido Villa Hermosa) »).
+const PLACEHOLDER_QUALIFIED_RE = /^(?:Ninguno|Sin Nombre)\s*(?:\[[^\]]*\]|\([^)]*\))$/;
+// Fiches écartées une à une (12e audit du 19/09/2026), geonameid -> [pays, nom, motif] :
+const JUNK_IDS = {
+  // Fiche de test : ferme (PPLF) créée en 2015 sous le nom « Test », sans aucun autre nom, en pleine campagne de Jaén.
+  '10792572': ['ES', 'Test', 'fiche de test (PPLF de 2015, aucun autre nom)'],
+  // Nom latin suivi de caractères chinois qui n'en sont pas la transcription (« 父听过 », « fu ting guo » : « père a
+  // entendu ») ; la fiche ne donne aucune autre forme. Garder « Qiancheli » seul serait une supposition : écarté,
+  // comme les noms à caractères perdus (section 6).
+  '1554185': ['CN', 'Qiancheli-父听过', 'nom incertain (suffixe chinois sans rapport, aucune autre forme)']
+};
+function isJunkId(country, geonameid){
+  const e = JUNK_IDS[geonameid];
+  return !!(e && e[0] === country);
+}
 // Crochet non apparié : caractère perdu à la saisie (« Baidaonath[ur » BD, « Bādar[ar Kālusan », « Suppam[ālaiyam » IN :
 // « [ » à la place d'une lettre, probablement « p », voisine sur le clavier — supposition, donc lieu écarté comme pour
 // « ? » plus bas) ou morceau de note (« 50 km.] [ROAD… »).
@@ -176,7 +216,21 @@ const NAME_FIXES = {
   // Audit n° 11 : champ « name » = adresse Wikipédia du lieu ; le nom est celui de l'article (village de Motarzyn,
   // gmina Białogard ; alias allemand « Muttrin » sur la même fiche). Sans cette correction, le lieu serait écarté par
   // EDITOR_COMMENT_NAME_RE (https://).
-  '12451017': ['PL', 'https://en.wikipedia.org/wiki/Motarzyn', 'Motarzyn', 'nom de l\'article Wikipédia cité par la fiche ; alias « Muttrin »']
+  '12451017': ['PL', 'https://en.wikipedia.org/wiki/Motarzyn', 'Motarzyn', 'nom de l\'article Wikipédia cité par la fiche ; alias « Muttrin »'],
+  // 12e audit du 19/09/2026 — soulignés et doublons d'écriture dans le champ « name » ; la forme propre vient de la MÊME
+  // fiche :
+  // - lot croate du 2023-03-11 : « _ » à la place de l'espace ou en fin de nom ; forme croate officielle dans
+  //   « alternatenames » (altnames/HR.txt, langue hr, isPreferredName = 1) ;
+  '12514110': ['HR', 'Zorkovac_', 'Zorkovac', 'alternatenames + altnames/HR.txt 17475236 (hr, nom préféré)'],
+  '12509524': ['HR', 'Donja_Podgora', 'Donja Podgora', 'alternatenames + altnames/HR.txt 17469806 (hr, nom préféré)'],
+  '12514105': ['HR', 'Gornje_Zagorje', 'Gornje Zagorje', 'alternatenames + altnames/HR.txt 17470514 (hr, nom préféré)'],
+  // - nom latin suivi du même nom dans l'écriture locale : l'asciiname de la fiche (« Damatou da ma tou », « Goam-ri
+  //   goamli ») montre que « 大码头 » (dà mǎ tóu) et « 고암리 » (Goam-ri) sont la transcription du nom latin -> nom latin seul,
+  //   comme le reste des fichiers CN et KR ;
+  '1556529': ['CN', 'Damatou大码头', 'Damatou', 'asciiname « Damatou da ma tou » : 大码头 = Damatou'],
+  '11962197': ['KR', 'Goam-ri 고암리', 'Goam-ri', 'asciiname « Goam-ri goamli » : 고암리 = Goam-ri'],
+  // - nom remplacé par « XXX » (vandalisme ou test) : l'asciiname de la même fiche a gardé le nom d'origine.
+  '3126127': ['ES', 'XXX', 'Casa Blanca', 'asciiname de la fiche (« Casa Blanca »)']
 };
 function fixName(country, geonameid, name){
   const e = NAME_FIXES[geonameid];
@@ -185,12 +239,13 @@ function fixName(country, geonameid, name){
 const LOST_CHARS_RE = /\?/;
 function isJunkName(name){
   name = name || '';
-  return !name || EDITOR_COMMENT_NAME_RE.test(name) || PLACEHOLDER_NAMES.has(name) || LOST_CHARS_RE.test(name) || BROKEN_BRACKET_RE.test(name);
+  return !name || EDITOR_COMMENT_NAME_RE.test(name) || PLACEHOLDER_NAMES.has(name) || PLACEHOLDER_QUALIFIED_RE.test(name) ||
+    LOST_CHARS_RE.test(name) || BROKEN_BRACKET_RE.test(name);
 }
 
 // Filtre commun, appelé par chaque générateur sur chaque ligne du dump : true = lieu écarté.
 function excludePlace(country, geonameid, name, lat, lon){
-  return isWrongCountry(country, geonameid) || HISTORICAL_NAME_RE.test(name || '') || isJunkName(name) ||
+  return isWrongCountry(country, geonameid) || isJunkId(country, geonameid) || HISTORICAL_NAME_RE.test(name || '') || isJunkName(name) ||
     isProjectBatch(country, geonameid) || isAntarcticUnderAR(country, lat) || isSark(country, lat, lon);
 }
 
@@ -338,5 +393,6 @@ function dropNearDuplicates(lines){
 }
 
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
+  PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId,
   BROKEN_BRACKET_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, excludePlace,
   fixMixedScript, cleanPlaceName, preparePlaceName, dropNearDuplicates };

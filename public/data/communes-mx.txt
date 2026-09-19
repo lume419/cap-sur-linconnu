@@ -80368,7 +80368,6 @@
 2500;-97.9403,19.0683;75113;Puebla;Apango de Zaragoza
 2496;-102.2764,21.9564;20358;Aguascalientes;Cartagena [Fraccionamiento]
 2492;-97.5439,18.8764;75500;Puebla;Bellavista de Victoria (San José Bellavista)
-2487;-99.2294,18.7578;62790;Morelos;Ninguno [Centro de Readaptación Social de Atlacholoaya]
 2487;-94.9881,17.3861;96970;Veracruz;Suchilapan del Río
 2482;-98.9909,19.4161;56353;México;Polígonos
 2482;-98.0106,18.9411;75221;Puebla;San Jerónimo Almoloya
@@ -80526,7 +80525,6 @@
 2016;-93.0053,18.1392;86240;Tabasco;Taxco
 2011;-92.3806,15.2994;30910;Chiapas;Belisario Domínguez
 2011;-99.1594,19.5925;54957;México;Sierra de Guadalupe
-2010;-105.9403,28.6097;31064;Chihuahua;Ninguno [CERESO]
 2008;-99.3664,17.6433;39193;Guerrero;Acatempa
 2008;-98.1600,20.1881;43728;Hidalgo;Chimalapa
 2007;-97.9406,20.0075;73312;Puebla;Xoxonacatla
@@ -80822,7 +80820,6 @@
 1543;-103.2828,19.6908;49655;Jalisco;Soyatlán de Afuera
 1543;-99.3298,19.4852;53229;México;La Rosa
 1541;-96.5472,18.4975;68424;Oaxaca;Arroyo de Enmedio
-1539;-100.3603,20.6736;76118;Querétaro;Ninguno [CERESO]
 1537;-100.6344,18.3425;40677;Guerrero;Querendas
 1535;-97.5808,19.8742;73680;Puebla;Santa Cruz Xaltetela
 1534;-100.9197,20.5222;38294;Guanajuato;El Chinaco (El Pujido)
@@ -82510,7 +82507,6 @@
 790;-104.2658,23.9161;34857;Durango;La Constancia
 790;-99.6775,19.2325;50255;México;Barrio Santa María
 790;-101.4317,19.2058;61673;Michoacán;Las Joyas (El Poblado)
-790;-96.7053,16.9211;71316;Oaxaca;Ninguno
 790;-92.6597,17.5875;86885;Tabasco;Lomas Alegres 1ra. Sección
 790;-96.7078,19.8669;93954;Veracruz;Dos Arroyos
 789;-92.9149,17.0148;29775;Chiapas;Tierra Colorada
@@ -84356,7 +84352,6 @@
 554;-92.5197,17.5544;29910;Chiapas;Cerro Misopa
 554;-106.7908,28.3933;31580;Chihuahua;Guadalupe Victoria (Santa Lucía)
 554;-99.6247,20.3753;42412;Hidalgo;Sabina Grande
-554;-101.7467,21.8911;47548;Jalisco;Ninguno [Granja]
 554;-99.3014,19.4128;52774;México;Arenal
 554;-101.1317,19.7772;58893;Michoacán;Terranova
 554;-99.3462,18.5747;62653;Morelos;Cajones
@@ -88266,7 +88261,6 @@
 334;-95.0808,17.6911;96144;Veracruz;Ejido Nicolás Bravo
 334;-96.4775,18.6578;95209;Veracruz;Mata Coyol
 333;-92.8308,16.6975;29367;Chiapas;Ajtetic Bajo
-333;-106.4578,31.4950;32605;Chihuahua;Ninguno [CERESO]
 333;-100.2831,20.9803;37995;Guanajuato;El Zorrillo
 333;-99.0461,16.6636;41851;Guerrero;El Líbano
 333;-98.2548,16.7364;41710;Guerrero;Plan Juste
@@ -88638,7 +88632,6 @@
 321;-103.8569,19.6139;49769;Jalisco;Puerta del Petacal (El Petacal)
 321;-100.2833,19.9414;61048;Michoacán;Las Pilas
 321;-100.4344,19.1194;61592;Michoacán;El Naranjo (Los Limones)
-321;-99.1728,18.6217;62980;Morelos;Ninguno [Centro de Readaptación Social]
 321;-97.2114,16.5456;71453;Oaxaca;Río Nube
 321;-95.7606,16.9672;70288;Oaxaca;Pueblo Nuevo (Buenavista)
 321;-96.9344,18.5349;75922;Puebla;Ojo de Agua
@@ -89858,7 +89851,6 @@
 283;-96.0344,18.0739;68440;Oaxaca;Fuente Villa
 283;-97.3831,20.0023;73926;Puebla;San Francisco Atecacalax
 283;-100.1256,20.0875;76893;Querétaro;Barrio Presa del Tecolote (El Lindero)
-283;-100.0600,20.4272;76815;Querétaro;Ninguno [Granja]
 283;-100.8822,22.1767;78439;San Luis Potosí;Ejido Soledad
 283;-100.8975,21.6903;79508;San Luis Potosí;La Loma del Tejocote (La Loma)
 283;-99.0764,22.5403;89960;Tamaulipas;Morelos (La Loma)
@@ -89926,7 +89918,6 @@
 281;-100.7428,20.6913;38216;Guanajuato;La Merced
 281;-101.0183,20.3358;38483;Guanajuato;Colonia de la Cruz
 281;-100.5494,21.1050;37917;Guanajuato;La Huerta
-281;-98.5556,17.5625;41300;Guerrero;Ninguno [Unidad Habitacional]
 281;-103.2039,19.5925;49676;Jalisco;Morelos (Santa Rosa)
 281;-104.0225,20.1994;48540;Jalisco;Las Calaveras (Ejido Tenextitlán)
 281;-100.2244,18.7021;51514;México;El Malpaso
@@ -92130,7 +92121,6 @@
 229;-91.8053,16.9494;29952;Chiapas;Chavarico las Palmas
 229;-92.4175,16.6494;29472;Chiapas;Guadalupe Shuncalá
 229;-106.9408,26.8542;33186;Chihuahua;Agua Azul
-229;-105.5851,26.9429;33903;Chihuahua;Ninguno [CERESO]
 229;-100.7636,20.0553;38737;Guanajuato;El Tenorio
 229;-100.6639,20.8019;37886;Guanajuato;Elvira
 229;-101.0481,21.1672;37828;Guanajuato;Ojo de Agua de Cervantes
@@ -92943,7 +92933,6 @@
 212;-92.6200,16.6889;29250;Chiapas;San Antonio de los Baños
 212;-92.2489,15.0030;30818;Chiapas;Teotihuacán del Valle
 212;-92.2542,16.1556;30116;Chiapas;Linda Flor
-212;-107.5930,27.8524;33201;Chihuahua;Ninguno
 212;-106.8858,28.6219;31607;Chihuahua;Campo Número Quince
 212;-104.3636,23.6100;34973;Durango;Paura
 212;-104.5097,22.5031;34990;Durango;Fortines (Los Fortines)
@@ -96512,7 +96501,6 @@
 158;-106.9936,28.7203;31613;Chihuahua;Campo Número Ciento Tres
 158;-105.3125,27.6108;33693;Chihuahua;El Molino
 158;-103.6614,25.4908;35170;Durango;San Antonio (La Hortaliza)
-158;-100.8522,20.5783;38126;Guanajuato;Ninguno [La Ladrillera]
 158;-100.7408,21.2844;37876;Guanajuato;El Tepozán
 158;-100.8331,21.4994;37864;Guanajuato;Puerta de Marcial (San Isidro de la Cruz)
 158;-98.8860,17.6269;41137;Guerrero;San Miguel Ahuelican
@@ -97510,7 +97498,6 @@
 146;-106.9264,26.3808;33484;Chihuahua;Corre Coyote
 146;-106.8658,25.8847;33474;Chihuahua;El Rincón del Comanche
 146;-100.7406,21.2581;37815;Guanajuato;Noria Nueva
-146;-101.7022,21.2114;37234;Guanajuato;Ninguno [Las Ladrilleras]
 146;-101.0697,20.4850;36888;Guanajuato;San Martín
 146;-101.7558,20.8183;36459;Guanajuato;El Guaje
 146;-100.5047,21.0564;37990;Guanajuato;La Soledad
@@ -99889,7 +99876,6 @@
 122;-96.8183,18.6514;95086;Veracruz;Manantiales de los Altos
 122;-102.4483,22.4728;98660;Zacatecas;El Palmarito
 122;-104.1647,22.9419;34980;Zacatecas;El Puentillo (El Jaralillo)
-121;-112.2433,27.2838;23911;Baja California Sur;Ninguno [CERESO]
 121;-109.8722,22.9083;23454;Baja California Sur;Punta Arena
 121;-91.3383,18.1747;24317;Campeche;Belisario Domínguez
 121;-103.3092,25.4381;27477;Coahuila;Santa Cecilia
@@ -100277,7 +100263,6 @@
 118;-100.5772,18.4192;40673;Guerrero;San Blas
 118;-99.0413,17.3727;41118;Guerrero;Olingachacatlán (Camposanto Viejo)
 118;-99.4901,18.6722;40391;Guerrero;El Transformador
-118;-99.6817,18.7620;40380;Guerrero;Ninguno
 118;-98.6595,20.2279;43569;Hidalgo;Lagunilla
 118;-102.3889,20.6319;47187;Jalisco;El Laurel (El Monte)
 118;-102.2281,20.8911;47197;Jalisco;Piedra Amarilla
@@ -103223,7 +103208,6 @@
 95;-98.2344,20.4635;43449;Hidalgo;Agua Escondida
 95;-99.4589,20.7111;42357;Hidalgo;El Organal
 95;-103.7081,20.8836;45399;Jalisco;Agua Prieta
-95;-104.3453,19.7050;48922;Jalisco;Ninguno [CEINJURE]
 95;-104.2281,19.4294;48960;Jalisco;Las Marías
 95;-102.0481,21.3289;47534;Jalisco;Ojo de Agua
 95;-101.9828,21.3381;47536;Jalisco;San Pablo de Nazas
@@ -103595,7 +103579,6 @@
 93;-102.3386,23.1614;98471;Zacatecas;Gonzalo López Maldonado
 93;-102.7525,22.6144;99510;Zacatecas;Colonia Pedro Ruiz González (La Magueyera)
 92;-102.3622,21.9486;20933;Aguascalientes;Unión de Ladrilleros
-92;-89.4022,18.4933;24640;Campeche;Ninguno [Unidad Habitacional]
 92;-90.3075,17.8992;24346;Campeche;Balankax
 92;-92.7950,16.5875;29377;Chiapas;El Chilar
 92;-92.8789,17.4075;29707;Chiapas;Nanchital
@@ -103669,7 +103652,6 @@
 92;-101.1372,19.8464;58887;Michoacán;La Concepción (La Conchita)
 92;-100.5828,19.1933;61548;Michoacán;San Juan de Dios
 92;-102.2628,19.9739;59665;Michoacán;Guanajuatillo (Colonia el Edén)
-92;-98.7400,18.5033;62952;Morelos;Ninguno [CBTA]
 92;-99.2302,19.0095;62510;Morelos;Rincón del Bosque (La Palma)
 92;-99.0763,18.8288;62739;Morelos;Barranca del Muerto
 92;-104.7331,22.0436;63534;Nayarit;La Ciénega
@@ -104070,7 +104052,6 @@
 89;-106.3611,25.6719;35635;Durango;El Gato de Arriba
 89;-105.0397,25.0072;34424;Durango;Sitio Alto (Las Pomas)
 89;-100.9981,21.0858;37844;Guanajuato;Los Avilés
-89;-101.3156,20.8428;36268;Guanajuato;Ninguno [Gasolinera]
 89;-100.5708,20.2633;38560;Guanajuato;Santa Rosa
 89;-101.4336,21.8144;37633;Guanajuato;Carmen del Norte
 89;-101.7825,20.9161;36310;Guanajuato;San Buenaventura Tres Mezquites
@@ -104181,7 +104162,6 @@
 89;-104.2336,22.6239;34993;Zacatecas;Bajío del Tablero
 89;-101.8803,22.0975;98900;Zacatecas;El Bautismo
 88;-102.2756,22.0319;20355;Aguascalientes;Urbivilla del Vergel [Fraccionamiento]
-88;-112.2158,27.2085;23911;Baja California Sur;Ninguno [CINE]
 88;-109.6651,23.5333;23560;Baja California Sur;Colonia María Sandéz Viuda de González
 88;-109.9414,22.9625;23462;Baja California Sur;Colonia Pueblo Nuevo
 88;-92.8833,15.2200;30586;Chiapas;El Herrado
@@ -105860,7 +105840,6 @@
 78;-102.2000,21.1811;47105;Jalisco;San José de Olivares
 78;-103.3828,19.3506;49910;Jalisco;La Bombita
 78;-103.4400,20.4842;45640;Jalisco;Las Peñas
-78;-105.0642,19.8186;48486;Jalisco;Ninguno [Aserradero]
 78;-103.2775,20.1956;49440;Jalisco;Puerto Corona
 78;-101.9275,21.2228;47533;Jalisco;El Zapote (El Tecolote)
 78;-103.3072,19.5542;49647;Jalisco;Coamecatila
@@ -106701,7 +106680,6 @@
 74;-102.3086,22.6933;98705;Zacatecas;Los Insurgentes (La Puerta de Fierro)
 73;-102.0608,22.0936;20700;Aguascalientes;La Loma (Tanque de las Palmitas)
 73;-102.8072,21.7897;20862;Aguascalientes;La Fragua
-73;-114.9897,32.6503;21921;Baja California;Ninguno (Ejido Villa Hermosa)
 73;-115.3675,32.6250;21378;Baja California;Calderas
 73;-116.8661,32.4386;22115;Baja California;Los Olivos
 73;-89.5192,19.4831;24663;Campeche;El Pedregal
@@ -108306,7 +108284,6 @@
 66;-103.0539,23.8436;98400;Zacatecas;Bajo de Moya
 66;-102.9519,21.8528;99630;Zacatecas;El Salto
 65;-116.6269,32.5367;21517;Baja California;La Luz
-65;-109.7452,23.1301;23581;Baja California Sur;Ninguno [Centro de Rehabilitación]
 65;-92.1008,16.7278;30193;Chiapas;Nueva Esperanza
 65;-92.8614,17.4172;29700;Chiapas;Acapulco
 65;-92.1176,17.2329;29949;Chiapas;Salto del Tigre
@@ -108884,7 +108861,6 @@
 63;-107.7947,24.7850;80330;Sinaloa;El Embute
 63;-108.8903,26.7122;85777;Sonora;La Cuesta del Carrizal
 63;-98.8083,22.4383;89940;Tamaulipas;Los Dorados
-63;-98.8786,24.2281;87733;Tamaulipas;Ninguno
 63;-97.1503,19.7889;93700;Veracruz;Paxtepec
 63;-97.0550,19.9014;93698;Veracruz;El Jardín
 63;-97.1467,19.3558;91260;Veracruz;El Rosario
@@ -109038,7 +109014,6 @@
 62;-101.7689,19.1797;61835;Michoacán;Las Maravillas
 62;-101.0172,19.0994;61923;Michoacán;Puerto los Amoles
 62;-103.1314,18.8650;60843;Michoacán;Las Pilas
-62;-102.0886,19.8511;59791;Michoacán;Ninguno
 62;-100.6522,19.8031;61217;Michoacán;Agua Fría (Pízcuaro)
 62;-101.3350,18.6597;61966;Michoacán;Atzímbaro
 62;-101.1975,19.3878;58483;Michoacán;El Terranate
@@ -109191,7 +109166,6 @@
 61;-107.3021,26.2275;33486;Chihuahua;Las Casas
 61;-107.2515,26.2919;33486;Chihuahua;El Puerto Blanco
 61;-107.3002,26.4874;33488;Chihuahua;Los Tarros
-61;-107.5075,28.5611;31684;Chihuahua;Ninguno [CERESO]
 61;-107.8996,27.0744;33440;Chihuahua;Potrero Velducea
 61;-99.3206,19.3431;05050;Mexico City;Rancho Santa Laura
 61;-99.0162,19.1813;12700;Mexico City;Zacatonco
@@ -109685,7 +109659,6 @@
 59;-92.3754,17.1994;29932;Chiapas;J. Mariano Abarca
 59;-92.7225,16.9617;29869;Chiapas;Chiquinch'En los Tulipanes
 59;-106.7590,26.8192;33575;Chihuahua;Güichagoachi
-59;-107.0638,26.8383;33183;Chihuahua;Ninguno [Aeropuerto]
 59;-107.0915,26.7288;33187;Chihuahua;Bajío de los Negros
 59;-107.1532,25.9844;33477;Chihuahua;Arroyo Chiquito
 59;-107.1932,26.0194;33477;Chihuahua;El Arenal
@@ -111374,7 +111347,6 @@
 52;-115.0506,32.2744;21250;Baja California;Colonia Hidalgo (González Ortega Dos)
 52;-115.6494,32.6022;21384;Baja California;Colonia Sonora
 52;-117.0944,32.4250;22566;Baja California;Los Delfines
-52;-117.0061,32.3339;22740;Baja California;Ninguno [Instituto Bíblico Bautista]
 52;-110.1586,23.3509;23361;Baja California Sur;La Zacatosa
 52;-110.2900,24.0939;23303;Baja California Sur;El Cañón
 52;-100.9502,29.2913;26307;Coahuila;Colonia Humberto Moreira
@@ -111805,7 +111777,6 @@
 51;-100.6100,19.4272;61137;Michoacán;Los Fresnos
 51;-101.0417,18.5950;61976;Michoacán;San Rafael
 51;-101.3306,18.5375;61963;Michoacán;La Compuerta
-51;-100.4781,19.7067;61280;Michoacán;Ninguno
 51;-100.4136,19.9303;61263;Michoacán;San Juanito
 51;-100.2711,19.8797;61273;Michoacán;El Aguaje (Cuartel Aguaje)
 51;-101.2031,19.5828;58343;Michoacán;La Ciénega (Torrecillas de Atécuaro)
@@ -111878,7 +111849,6 @@
 51;-99.1122,21.2053;76395;Querétaro;La Reforma
 51;-100.1411,20.4919;76714;Querétaro;Las Torres
 51;-99.9606,21.0931;76478;Querétaro;La Era
-51;-100.0539,20.4244;76815;Querétaro;Ninguno [Unión de Artesanos la Corregidora]
 51;-99.9955,20.3668;76845;Querétaro;Prados de San Juan Bautista
 51;-100.0275,20.5086;76814;Querétaro;Ampliación la Loma
 51;-99.1375,22.1883;79280;San Luis Potosí;La Perla
@@ -111944,7 +111914,6 @@
 51;-103.1194,23.0842;99190;Zacatecas;Los Ríos
 51;-103.5500,22.4517;99420;Zacatecas;La Masa
 51;-101.9431,22.1569;98900;Zacatecas;Colonia Buenavista
-50;-102.3556,21.8392;20200;Aguascalientes;Ninguno [Centro de Neuropsiquiatría]
 50;-102.2725,22.1328;20687;Aguascalientes;El Cerrito
 50;-89.9819,19.4900;24096;Campeche;El Paraíso
 50;-91.5828,18.3339;24323;Campeche;Valle de Solidaridad
@@ -112973,7 +112942,6 @@
 47;-101.3786,19.8700;58866;Michoacán;Suro
 47;-100.3256,20.0722;61002;Michoacán;Chamacuero
 47;-101.1858,18.6983;61957;Michoacán;San José del Palmar
-47;-100.9772,19.7864;58970;Michoacán;Ninguno
 47;-100.4453,19.4511;61473;Michoacán;Los Núñez
 47;-102.2972,18.0906;60960;Michoacán;Lomas de las Cenizas
 47;-102.4789,18.0231;60977;Michoacán;El Mirador
@@ -114168,7 +114136,6 @@
 43;-103.1986,19.5844;49654;Jalisco;La Parota
 43;-103.2431,19.1939;49883;Jalisco;Los Negros (Los Negros de Arriba)
 43;-102.5556,20.6772;47728;Jalisco;La Estrella (La Ermita)
-43;-102.7925,20.8642;47714;Jalisco;Ninguno [Kilómetro Diez Granjas Camarena]
 43;-102.7997,20.8164;45478;Jalisco;La Esperanza
 43;-103.4806,20.4703;45650;Jalisco;Huertas Productivas de Jalisco
 43;-103.4036,20.5725;45604;Jalisco;El Colomo
@@ -115643,7 +115610,6 @@
 39;-102.7019,21.0219;47384;Jalisco;Palo Caído
 39;-102.8819,21.1644;47303;Jalisco;El Faro
 39;-103.3889,20.8517;45130;Jalisco;Los Patios
-39;-103.4567,20.8194;45190;Jalisco;Ninguno
 39;-103.1533,20.6725;45437;Jalisco;La Lenteja
 39;-99.1511,19.6840;54860;México;Ex-Hacienda la Corregidora (La Corregidora)
 39;-99.1600,19.6854;54850;México;Xaltipa (Jaltipa)
@@ -115796,7 +115762,6 @@
 39;-111.9528,30.6492;83794;Sonora;Los Verdes
 39;-113.4969,31.3694;83557;Sonora;San Rafael
 39;-114.9703,32.2511;83513;Sonora;Arturo Celaya (Taller Bustamante)
-39;-114.8886,32.3814;83515;Sonora;Ninguno [Islita]
 39;-97.4278,25.4181;87395;Tamaulipas;La Misión (El Rincón del Chile)
 39;-99.8781,23.6094;67904;Tamaulipas;Servando Canales (La Arena)
 39;-98.0417,25.9889;88993;Tamaulipas;Brecha 116 con Vía de FFCC
@@ -115900,7 +115865,6 @@
 38;-106.8020,27.0078;33563;Chihuahua;Sahuaroachi
 38;-107.6935,27.1541;33410;Chihuahua;Ocorare
 38;-107.6205,26.8522;33413;Chihuahua;Sireachi
-38;-106.7511,29.9064;31881;Chihuahua;Ninguno
 38;-108.5630,27.7419;33367;Chihuahua;Los Llanitos
 38;-108.5616,27.7843;33367;Chihuahua;Los Alamillos de Loreto
 38;-106.3924,27.9533;33148;Chihuahua;Labor de San Isidro
@@ -115975,7 +115939,6 @@
 38;-99.1679,17.3337;39267;Guerrero;Totoapa
 38;-99.7459,18.5744;40318;Guerrero;La Ciénega
 38;-101.0436,17.2894;40909;Guerrero;El Rincón
-38;-98.7837,17.1849;41540;Guerrero;Ninguno
 38;-100.9871,18.4562;40760;Guerrero;El Coco
 38;-101.4549,18.4689;40772;Guerrero;Los Nopales
 38;-98.8214,17.2925;41424;Guerrero;Plan del Guayabo
@@ -116424,7 +116387,6 @@
 37;-102.7892,20.7786;47690;Jalisco;Chispeadero de Abajo
 37;-103.5194,20.5386;45654;Jalisco;La Esperanza
 37;-103.3914,20.5606;45647;Jalisco;El Tulito (El Tule)
-37;-103.2725,20.4931;45679;Jalisco;Ninguno [Parque Industrial Aeropuerto]
 37;-103.9667,19.6136;49758;Jalisco;La Loma
 37;-103.2039,20.6403;45404;Jalisco;Plan de Guajes
 37;-103.9383,19.9139;48769;Jalisco;Santa Gertrudis
@@ -117312,7 +117274,6 @@
 35;-101.0739,19.9678;58846;Michoacán;El Cerrito
 35;-101.5428,18.5147;61887;Michoacán;El Potrero Grande
 35;-102.0592,19.2464;60237;Michoacán;Gutiérrez de Velasco [Vivero]
-35;-101.8175,18.9508;61854;Michoacán;Ninguno
 35;-101.2617,18.5472;61969;Michoacán;Ojo de Agua
 35;-100.9786,18.8219;61946;Michoacán;El Reparito
 35;-101.4456,18.5967;61964;Michoacán;El Bejuco (Los Bejucos)
@@ -117340,7 +117301,6 @@
 35;-99.0797,18.6047;62986;Morelos;Los Dormidos
 35;-98.9986,18.9283;62545;Morelos;Rancho de Cartón Kilómetro 10
 35;-98.9114,18.9894;62832;Morelos;Barrio San Marcos (El Moral)
-35;-98.9139,18.9775;62830;Morelos;Ninguno (Entrada a la ESCA)
 35;-98.8344,18.8706;62824;Morelos;El Izote
 35;-105.2536,22.4906;63403;Nayarit;Las Higueras
 35;-104.2753,20.6822;63969;Nayarit;La Lima
@@ -117515,7 +117475,6 @@
 34;-116.6961,31.7225;22794;Baja California;Puerto Escondido
 34;-116.6119,31.5542;22785;Baja California;Los Pirules
 34;-116.5797,31.6844;22790;Baja California;Rancho Companetlán
-34;-115.3425,32.5139;21215;Baja California;Ninguno (Colonia Colorado Número Cuatro)
 34;-109.7602,23.8607;23354;Baja California Sur;La Línea
 34;-89.8833,20.1286;24902;Campeche;Yaxhaltún
 34;-103.1470,25.4669;27475;Coahuila;Redención Agraria
@@ -117688,7 +117647,6 @@
 34;-100.7946,17.6785;40909;Guerrero;Puerto Escondido
 34;-100.0216,18.3183;40408;Guerrero;El Duraznal
 34;-100.0098,18.4310;40400;Guerrero;El Sabinito
-34;-98.1497,16.9439;41780;Guerrero;Ninguno
 34;-98.9026,17.1871;41408;Guerrero;Barranca Lima
 34;-98.4097,17.0803;41666;Guerrero;Tierra Colorada Sur
 34;-98.2244,20.1848;43727;Hidalgo;El Valle
@@ -118142,7 +118100,6 @@
 33;-98.7941,17.9673;41027;Guerrero;El Reparo
 33;-98.8075,17.9022;41027;Guerrero;Tlanitzingo
 33;-101.1249,17.3736;40833;Guerrero;Cayacalito
-33;-101.2777,17.5600;40855;Guerrero;Ninguno [Tabiquerías]
 33;-99.6658,18.7517;40380;Guerrero;Llano Chiquito
 33;-99.4014,16.8638;39963;Guerrero;Los Otates
 33;-99.5064,16.8034;39981;Guerrero;Río Playa
@@ -118642,7 +118599,6 @@
 32;-103.8300,21.1217;46402;Jalisco;Belén
 32;-103.7364,20.9586;46403;Jalisco;Potrerillos
 32;-103.5000,20.4478;45645;Jalisco;San Cayetano (La Hacienda del Oro)
-32;-103.5883,20.5069;45640;Jalisco;Ninguno
 32;-103.3853,21.9383;46175;Jalisco;San Francisco
 32;-102.9831,19.6669;49575;Jalisco;Nogales de Añil (Los Nogales)
 32;-102.6267,21.2317;47369;Jalisco;El Laurel
@@ -119707,7 +119663,6 @@
 30;-99.1464,18.6217;62984;Morelos;La Maroma
 30;-98.9675,18.9408;62544;Morelos;Rancho Correa
 30;-98.9764,18.9641;62540;Morelos;La Mixtepec
-30;-105.1264,21.1761;63708;Nayarit;Ninguno
 30;-104.5703,22.0650;63536;Nayarit;Las Peñas Coloradas
 30;-104.9642,22.3142;63543;Nayarit;El Roblito
 30;-104.8536,22.5658;63544;Nayarit;Las Guitarras
@@ -119791,7 +119746,6 @@
 30;-97.9473,20.2776;73080;Puebla;La Cueva de la Mona
 30;-97.9867,20.0097;73312;Puebla;La Ferrería
 30;-99.8858,20.6572;76655;Querétaro;Arboledas
-30;-100.2486,20.6569;76249;Querétaro;Ninguno [Banco de Arenilla la Griega]
 30;-100.1681,20.5578;76722;Querétaro;Ejido Santiago Atepetlac
 30;-99.9422,21.0836;76478;Querétaro;La Escondida
 30;-100.4589,20.7239;76226;Querétaro;La Rica [Fraccionamiento Campestre Ecológico]
@@ -119800,7 +119754,6 @@
 30;-87.7008,18.7572;77976;Quintana Roo;El Makulí
 30;-88.9767,19.4499;77896;Quintana Roo;Los Lagartos
 30;-88.9944,19.1969;77915;Quintana Roo;Cuatro Banderas
-30;-88.1097,19.0744;77925;Quintana Roo;Ninguno [Corredor Frutícola]
 30;-101.4075,22.2758;78457;San Luis Potosí;Rancho de la Cruz
 30;-100.7253,23.7556;78537;San Luis Potosí;El Sauz
 30;-99.1361,22.1422;79280;San Luis Potosí;San Isidro
@@ -120341,7 +120294,6 @@
 29;-101.2964,21.9853;78493;San Luis Potosí;San Jerónimo
 29;-101.8661,23.0461;78649;San Luis Potosí;Las Amapolas
 29;-99.0342,21.3300;79920;San Luis Potosí;La Primavera
-29;-108.8868,25.7849;81255;Sinaloa;Ninguno [Zona Industrial]
 29;-105.9201,23.4240;82653;Sinaloa;Santa Rosa
 29;-106.5168,24.2869;80794;Sinaloa;El Pino
 29;-107.0625,24.4190;80449;Sinaloa;El Aguaje
@@ -120471,7 +120423,6 @@
 28;-91.7939,18.4769;24208;Campeche;Ribera Boca Chica
 28;-90.7942,18.2706;24357;Campeche;Ignacio Magdaleno
 28;-100.8789,25.4542;25354;Coahuila;Los Portales
-28;-100.9334,25.4945;25350;Coahuila;Ninguno [Centro Inspectorial Recreativo]
 28;-103.1956,25.9633;27923;Coahuila;Cántabro Progreso [El Veintiocho]
 28;-101.5125,27.9053;26342;Coahuila;Colonia Avelino Treviño Menchaca
 28;-103.8093,27.9941;27603;Coahuila;La Gloria
@@ -122424,7 +122375,6 @@
 25;-100.4328,21.0839;37993;Guanajuato;Granja María Luisa
 25;-100.4339,21.0322;37997;Guanajuato;Eugenio González (Fracciones la Alameda)
 25;-100.5858,21.1614;37917;Guanajuato;Purísima del Charco
-25;-101.0475,20.6078;38255;Guanajuato;Ninguno [La Bodega]
 25;-101.5300,20.9725;36288;Guanajuato;El Monte del Bajío
 25;-101.3469,20.9672;36160;Guanajuato;La Joya
 25;-100.7414,20.2361;38709;Guanajuato;Las Fuentes (Los Ticos)
@@ -124025,7 +123975,6 @@
 23;-103.4806,18.3292;60885;Michoacán;El Cangrejal (Ticuixila)
 23;-102.9775,18.3039;60897;Michoacán;El Higueral (La Higuerita)
 23;-103.4600,18.3336;60885;Michoacán;Guayabal
-23;-101.6944,19.2097;61830;Michoacán;Ninguno
 23;-102.0642,18.4906;60936;Michoacán;Cobanito
 23;-102.7486,18.2158;60926;Michoacán;Las Lomas
 23;-102.1636,18.3739;60923;Michoacán;Coacuyulito
@@ -124360,7 +124309,6 @@
 22;-102.3153,21.7653;20160;Aguascalientes;Presa de Guadalupe
 22;-102.2250,21.7939;20266;Aguascalientes;Sal si Puedes
 22;-102.1772,21.8236;20344;Aguascalientes;El Caracol (La Mesa)
-22;-102.3725,21.8825;20319;Aguascalientes;Ninguno [Centro de Readaptación de Mínima Seguridad]
 22;-102.1572,21.7339;20284;Aguascalientes;Ojos de Agua la Estancia
 22;-102.7153,22.0100;20880;Aguascalientes;Paredes
 22;-102.7767,21.7969;20854;Aguascalientes;Arroyo del Ángel
@@ -125006,7 +124954,6 @@
 22;-113.5492,31.3822;83556;Sonora;Lomas Campestres
 22;-108.9639,29.1147;85600;Sonora;La Junta de Gocopa (La Junta)
 22;-114.9114,32.3017;83514;Sonora;La Compuerta
-22;-114.9131,32.2047;83513;Sonora;Ninguno [José Luis Murillo]
 22;-91.2978,17.5100;86911;Tabasco;El Calabazal
 22;-99.4447,23.3761;87946;Tamaulipas;Monterredondo (La Zumbadora)
 22;-99.4964,24.6244;87875;Tamaulipas;La Peñita
@@ -125131,7 +125078,6 @@
 21;-116.5831,32.4647;21400;Baja California;San Carlos
 21;-116.2000,32.5806;21511;Baja California;Familia Regalado
 21;-116.7603,32.4608;22460;Baja California;El Cachanilla [Establo]
-21;-116.7264,32.3889;22180;Baja California;Ninguno
 21;-117.0942,32.4136;22560;Baja California;Campo Torres
 21;-116.9114,32.1867;22710;Baja California;Marena Cove [Kilómetro Cincuenta y Uno y Medio]
 21;-111.6318,25.0231;23677;Baja California Sur;Revolución Mexicana Lote 42
@@ -125185,7 +125131,6 @@
 21;-91.6789,16.2683;30173;Chiapas;San Ramón
 21;-91.6389,16.3569;30185;Chiapas;Las Maravillas
 21;-92.4836,14.9386;30673;Chiapas;Santa Anita
-21;-92.3289,15.3567;30902;Chiapas;Ninguno
 21;-92.3042,15.3228;30900;Chiapas;Monte los Olivos
 21;-91.8031,16.8881;29950;Chiapas;Las Piedrecitas
 21;-91.7225,16.9233;29950;Chiapas;La Unión Uno
@@ -125813,7 +125758,6 @@
 21;-111.5894,28.9797;83333;Sonora;Rosario Perlette
 21;-109.3125,29.8661;84460;Sonora;Jalisco
 21;-109.0331,27.9153;85714;Sonora;El Nogal (Curúpaco)
-21;-114.8600,32.4142;83515;Sonora;Ninguno [David Verdugo]
 21;-91.5414,18.0406;86940;Tabasco;Graciela Pintado de Madrazo
 21;-91.2714,17.7939;86955;Tabasco;La Gloria
 21;-93.6875,18.2067;86478;Tabasco;Puerto Escondido
@@ -126659,7 +126603,6 @@
 20;-100.1831,20.2761;76874;Querétaro;El Baño
 20;-99.6744,21.1178;76337;Querétaro;La Mojonera
 20;-100.4306,20.5328;76902;Querétaro;Privada Tierras Negras
-20;-99.4772,21.2000;76346;Querétaro;Ninguno [Avícola la Presa]
 20;-100.2164,20.6350;76040;Querétaro;Agua Caliente
 20;-100.2778,20.5756;76246;Querétaro;Palo Blanco
 20;-100.1783,20.4753;76700;Querétaro;Narconón México
@@ -127667,7 +127610,6 @@
 19;-101.0003,21.7808;79530;San Luis Potosí;Los Ángeles
 19;-100.6028,22.7425;78974;San Luis Potosí;Las Minitas
 19;-99.0136,21.4364;79910;San Luis Potosí;La Ladera
-19;-100.8700,22.6417;78957;San Luis Potosí;Ninguno
 19;-98.8167,21.3297;79976;San Luis Potosí;Rogelio García Baldemar
 19;-109.1502,25.9424;81312;Sinaloa;Buenos Aires
 19;-108.0347,25.2669;81540;Sinaloa;Guayparime
@@ -128020,7 +127962,6 @@
 18;-92.2144,17.3292;29902;Chiapas;El Hormiguero
 18;-92.3353,17.3444;29920;Chiapas;La Florida
 18;-93.0903,16.6694;29075;Chiapas;Adelita
-18;-92.4210,15.1422;30680;Chiapas;Ninguno
 18;-92.5069,16.3244;30203;Chiapas;San José Río Blanco
 18;-92.5278,16.4278;30206;Chiapas;El Tesoro
 18;-92.7639,16.2064;30363;Chiapas;Las Margaritas
@@ -128424,7 +128365,6 @@
 18;-103.5981,20.9194;45189;Jalisco;Rancho Bonito
 18;-103.5569,20.9208;45189;Jalisco;La Capilla
 18;-103.5344,20.8139;45184;Jalisco;La Reserva
-18;-103.5183,20.7297;45221;Jalisco;Ninguno [Granja]
 18;-103.0556,20.5233;45466;Jalisco;El Escalofrío (San Miguel)
 18;-100.3580,18.7322;51535;México;Cerro los Casahuates
 18;-100.1878,18.7216;51515;México;Barranca del Veladero
@@ -128479,9 +128419,7 @@
 18;-102.0197,19.1569;61735;Michoacán;Almacén
 18;-100.7892,19.4253;61233;Michoacán;Santa Ana
 18;-100.6353,19.4986;61246;Michoacán;La Pitahaya
-18;-101.4953,19.9003;58383;Michoacán;Ninguno
 18;-101.0217,18.8133;61959;Michoacán;Ajunuato
-18;-102.2531,19.9253;59900;Michoacán;Ninguno
 18;-100.5428,19.4483;61487;Michoacán;Barbecho Colorado
 18;-101.1086,19.2847;58494;Michoacán;Ceiba Mocha
 18;-101.0639,19.2747;58496;Michoacán;El Sauz
@@ -128690,7 +128628,6 @@
 18;-99.5750,20.9131;76550;Querétaro;Familia González Guerrero (Campo Alegre)
 18;-99.9369,20.4053;76830;Querétaro;La Divina Providencia
 18;-100.0594,20.4178;76824;Querétaro;Lindavista
-18;-99.9681,20.5503;76780;Querétaro;Ninguno [Granja]
 18;-88.8876,18.4598;77984;Quintana Roo;El Cocal
 18;-87.0936,21.0713;77506;Quintana Roo;Los Coquitos
 18;-87.6167,20.6675;77714;Quintana Roo;Banco de Cenotes
@@ -129664,7 +129601,6 @@
 17;-100.4894,23.8751;67928;Nuevo León;San Esteban
 17;-100.4124,23.5143;67937;Nuevo León;El Chapulín
 17;-100.4474,23.2551;67908;Nuevo León;El Coyonoxtle
-17;-100.4688,23.9170;67920;Nuevo León;Ninguno
 17;-100.0953,24.6095;67870;Nuevo León;Las Lagunitas
 17;-100.2172,24.9201;67857;Nuevo León;Las Placetas
 17;-99.7047,25.2764;67400;Nuevo León;San Ángel
@@ -129909,7 +129845,6 @@
 17;-109.8200,27.4417;85205;Sonora;Las Pitahayas
 17;-109.9278,27.5375;85203;Sonora;Francisco Castro Ochoa
 17;-110.7033,30.3583;84674;Sonora;El Baicimaco (Agua del Cerro)
-17;-110.7652,27.9640;85520;Sonora;Ninguno [Abelardo Galáz Preciado]
 17;-109.6278,30.8722;84327;Sonora;El Nogal
 17;-111.7275,29.1014;83333;Sonora;Los Cuatro (Palermo)
 17;-111.3911,28.8231;83334;Sonora;Unión de Crédito Agrícola de Hermosillo
@@ -130147,7 +130082,6 @@
 16;-90.6231,18.1556;24343;Campeche;Tres Hermanos
 16;-100.8395,25.4381;25355;Coahuila;Calabacillas
 16;-100.4083,25.2520;25375;Coahuila;El Altamar
-16;-100.9009,25.4417;25354;Coahuila;Ninguno [Maderas y Empaques Industriales Forestales]
 16;-100.8392,25.4502;25355;Coahuila;El Arenal (Severiano Amador Capetillo)
 16;-101.6040,26.5058;25898;Coahuila;Santo Domingo
 16;-101.9176,26.8292;27655;Coahuila;Eliseo Mendoza Berrueto
@@ -130438,7 +130372,6 @@
 16;-100.9011,19.9617;38775;Guanajuato;El Cuije
 16;-100.5556,21.0022;37888;Guanajuato;Marroquín Chiquito
 16;-100.6528,21.0122;37888;Guanajuato;Loma Linda
-16;-100.7017,20.9631;37884;Guanajuato;Ninguno [Permacultura]
 16;-100.8128,20.4558;38078;Guanajuato;Efraín Hernández
 16;-100.8300,20.5725;38110;Guanajuato;Granjita el Fresno (Benjamín Patiño Serrano)
 16;-101.8478,20.6328;36497;Guanajuato;El Jaralillo
@@ -130636,7 +130569,6 @@
 16;-104.2142,22.2006;46074;Jalisco;El Maguey
 16;-104.1931,22.0372;46076;Jalisco;Los Robles
 16;-104.1692,21.9997;46078;Jalisco;Tescalame
-16;-104.1044,22.0217;46065;Jalisco;Ninguno
 16;-103.9044,22.1744;46053;Jalisco;Cerro de la Puerta
 16;-104.1050,21.9436;46063;Jalisco;Charco Largo
 16;-104.0450,22.2522;46057;Jalisco;Ciénega de las Higueras
@@ -130847,7 +130779,6 @@
 16;-100.3805,24.1334;67921;Nuevo León;Valle Hermoso
 16;-100.4264,24.9203;67864;Nuevo León;Las Vegas de San Isidro
 16;-100.3225,24.8031;67850;Nuevo León;La Curva (María)
-16;-100.1186,24.8073;67850;Nuevo León;Ninguno
 16;-98.6756,25.9356;67012;Nuevo León;Carta Blanca (El Negro)
 16;-99.1333,25.6990;67030;Nuevo León;Agua Fría
 16;-99.6711,25.2811;67400;Nuevo León;Pedregal de las Brisas
@@ -131523,7 +131454,6 @@
 15;-108.3485,27.6438;33367;Chihuahua;Basigochi
 15;-105.3835,28.0927;33633;Chihuahua;Santo Domingo
 15;-105.3630,28.1270;33633;Chihuahua;Agua Azul
-15;-107.6117,30.0463;31870;Chihuahua;Ninguno
 15;-107.1471,27.5963;33197;Chihuahua;Nahujirachi
 15;-107.0032,27.4538;33197;Chihuahua;Guasinachi
 15;-106.9688,26.8636;33186;Chihuahua;Bajichi
@@ -131582,7 +131512,6 @@
 15;-106.7238,27.5112;33170;Chihuahua;La Boquilla
 15;-107.9207,30.3758;31806;Chihuahua;La Curva (Buena Fe)
 15;-107.9286,30.3936;31850;Chihuahua;Seminario Menor (El Buen Pastor)
-15;-106.2646,27.0457;33550;Chihuahua;Ninguno
 15;-107.9121,27.2783;33422;Chihuahua;El Yerbanís
 15;-107.8602,27.2669;33422;Chihuahua;Puerto Guasachique
 15;-107.9705,27.5549;33397;Chihuahua;Jochi
@@ -131887,7 +131816,6 @@
 15;-104.0717,22.2192;46056;Jalisco;Tres Palomas
 15;-104.2447,22.0042;46070;Jalisco;El Cuerno (Los Cuernos)
 15;-104.2064,22.0286;46078;Jalisco;Santa María
-15;-104.0861,22.1842;46056;Jalisco;Ninguno [Estación]
 15;-103.9736,22.3075;46050;Jalisco;Piedra China
 15;-104.2350,22.2461;46080;Jalisco;Metatitas
 15;-104.0425,22.3047;46050;Jalisco;Los Huizaches
@@ -131897,7 +131825,6 @@
 15;-104.7167,19.7881;48825;Jalisco;La Subida Blanca
 15;-103.1978,20.5194;45680;Jalisco;El Sabino
 15;-103.4303,21.0042;45250;Jalisco;Las Codornices
-15;-103.4261,21.1292;45259;Jalisco;Ninguno
 15;-101.9425,21.0472;47595;Jalisco;La Angostura
 15;-101.9494,21.0264;47595;Jalisco;El Comedero
 15;-102.2753,21.2892;47010;Jalisco;Loma del Estribo
@@ -132037,7 +131964,6 @@
 15;-101.2550,19.5572;58346;Michoacán;Patambo
 15;-101.2406,19.6533;58197;Michoacán;Don Chema Mondragón
 15;-101.2078,19.4897;58353;Michoacán;Palo Amarillo
-15;-101.2614,19.7064;58337;Michoacán;Ninguno
 15;-101.2536,18.9931;61914;Michoacán;La Mocha
 15;-102.2564,18.9583;60794;Michoacán;Cueramo Alto
 15;-101.6233,19.4992;61605;Michoacán;Llano de la Virgen
@@ -132047,7 +131973,6 @@
 15;-102.0053,20.3144;59426;Michoacán;Chemita (Benjamín Rojas) [Granja Porcícola]
 15;-102.0083,19.9239;58762;Michoacán;El Espinal
 15;-100.8175,19.6411;58994;Michoacán;El Trompillo
-15;-101.5219,19.6575;58420;Michoacán;Ninguno
 15;-101.7203,19.3747;61815;Michoacán;Japito
 15;-100.4428,19.2492;61595;Michoacán;San Malaquías
 15;-102.3814,19.7900;59776;Michoacán;Las Cañas
@@ -132132,7 +132057,6 @@
 15;-99.6597,24.7856;67828;Nuevo León;El Castillo
 15;-99.6686,24.7789;67800;Nuevo León;Los Barbarines (Kilómetro Catorce)
 15;-99.6620,25.8906;66827;Nuevo León;Los Martínez
-15;-100.2942,25.9456;65513;Nuevo León;Ninguno
 15;-100.3381,26.0664;65530;Nuevo León;Kilómetro Tres
 15;-100.3364,26.1423;65533;Nuevo León;El Deiby
 15;-100.4567,26.0028;65600;Nuevo León;Los Rodríguez
@@ -132304,7 +132228,6 @@
 15;-100.7750,22.1092;78423;San Luis Potosí;La Presilla
 15;-101.0481,22.5358;78400;San Luis Potosí;Jesús María
 15;-101.0197,22.4742;78405;San Luis Potosí;San Antonio
-15;-100.8478,22.0289;78425;San Luis Potosí;Ninguno [Comedor 57]
 15;-99.5153,21.4900;79797;San Luis Potosí;Mesa del Aguacate
 15;-100.4886,21.8839;79570;San Luis Potosí;El Cedrito
 15;-100.7000,21.8433;79563;San Luis Potosí;Las Pachonas
@@ -133075,7 +132998,6 @@
 14;-100.9292,21.2353;37824;Guanajuato;El Espejo
 14;-100.8847,21.2706;37806;Guanajuato;El Coyotillo
 14;-100.9175,21.1942;37838;Guanajuato;Rancho los Otates
-14;-100.9419,21.1417;37800;Guanajuato;Ninguno [Centro de Desarrollo Agropecuario]
 14;-101.2614,21.1450;36245;Guanajuato;Joyas de la Loba
 14;-101.3139,20.9939;36265;Guanajuato;La Colmena [Relleno Sanitario]
 14;-101.3464,20.7100;36586;Guanajuato;El Naranjo
@@ -133487,7 +133409,6 @@
 14;-99.3711,18.7825;62607;Morelos;Terrero Grande
 14;-98.7708,18.8931;62855;Morelos;La Higuera
 14;-98.7533,18.8833;62855;Morelos;La Rosita (Rancho el Paraíso)
-14;-99.2725,18.6443;62676;Morelos;Ninguno [Deportivo Oxford]
 14;-99.2628,18.6514;62670;Morelos;Colonia Aeródromo
 14;-99.1207,18.9715;62526;Morelos;Cuitzcuixcatla (Kilómetro 14.5)
 14;-99.1178,18.9906;62520;Morelos;Monte Castillo
@@ -133819,7 +133740,6 @@
 14;-109.2111,27.1853;85227;Sonora;El Tecolote
 14;-109.0447,27.9056;85714;Sonora;Jesús García de Nacozari (Curúpaco)
 14;-114.9289,32.3586;83516;Sonora;Consuelo Viuda de Alcántar
-14;-114.9125,32.2239;83513;Sonora;Ninguno [Carlos Sotelo Zúñiga]
 14;-111.5931,30.4767;83930;Sonora;Las Galeras
 14;-111.4178,30.6542;83817;Sonora;La Nopalera (Familia Sandoval)
 14;-108.7919,28.3011;33350;Sonora;Ciénega del Trigo (Trigo Colón Trigo Moreno)
@@ -134101,7 +134021,6 @@
 13;-115.1467,32.2842;21738;Baja California;Familia Sandoval (Ejido Aguascalientes)
 13;-114.8433,30.9742;21850;Baja California;Familia Zúñiga (Colonia Francisco Villa)
 13;-115.1333,32.3619;21720;Baja California;Los García (Veracruz Marítimo)
-13;-115.3389,32.5961;21378;Baja California;Ninguno (Ejido Islas Agrarias A)
 13;-115.0558,32.6283;21910;Baja California;Familia Cervantes Tejeda
 13;-115.1667,32.2197;21730;Baja California;San Jorge
 13;-116.6714,32.5478;21520;Baja California;Rancho Méndez
@@ -134392,7 +134311,6 @@
 13;-107.5855,27.5482;33196;Chihuahua;Bajío Largo
 13;-107.5044,27.5346;33195;Chihuahua;Baliguchi (Bariguchachi)
 13;-107.1941,26.6827;33187;Chihuahua;Tepozanes
-13;-107.4096,26.7663;33188;Chihuahua;Ninguno
 13;-106.9746,27.3755;33190;Chihuahua;Remochique (Paraje)
 13;-107.7080,27.3227;33196;Chihuahua;Guarabo
 13;-106.9832,27.2272;33190;Chihuahua;Remochique
@@ -134854,7 +134772,6 @@
 13;-103.2628,19.2261;49883;Jalisco;El Cangrejo
 13;-103.2822,19.3142;49874;Jalisco;Los Llanitos (De Venado)
 13;-104.1616,20.1974;48570;Jalisco;Buenavista
-13;-104.1444,20.2081;48570;Jalisco;Ninguno [Granjas]
 13;-102.5003,21.4989;47224;Jalisco;El Pando
 13;-102.6675,20.9125;47660;Jalisco;El Dos
 13;-102.5994,20.8533;47680;Jalisco;Nopalera de González (La Nopalera)
@@ -134946,7 +134863,6 @@
 13;-102.9925,18.4169;60865;Michoacán;La Maromera
 13;-103.0564,18.3961;60865;Michoacán;Los Nácares
 13;-103.1003,18.6122;60855;Michoacán;Puerto del Novillo
-13;-101.0672,19.6817;61312;Michoacán;Ninguno
 13;-102.3917,20.0689;59595;Michoacán;El Atrancón
 13;-103.2781,18.6778;60824;Michoacán;El Ahijadero
 13;-103.3889,18.7214;60826;Michoacán;El Saucito
@@ -135366,7 +135282,6 @@
 13;-109.8903,27.3542;85208;Sonora;Rancho Grande
 13;-109.9917,27.3367;85200;Sonora;Casa del Sanjero
 13;-109.8506,27.2433;85208;Sonora;Juan Salvador Esquer
-13;-109.8897,27.8147;85023;Sonora;Ninguno
 13;-110.8294,28.8922;83177;Sonora;Rosario
 13;-110.6369,30.5381;84670;Sonora;6 de Enero
 13;-109.8208,30.2458;84510;Sonora;El Tápiro (La Puerta del Sol)
@@ -135392,9 +135307,7 @@
 13;-114.9706,32.2953;83513;Sonora;Francisca Herrera
 13;-114.9183,32.3575;83515;Sonora;José Aguirre
 13;-114.9714,32.2386;83513;Sonora;Rancho Cortés
-13;-114.8514,32.4625;83517;Sonora;Ninguno [Ernesto Javier Cázares]
 13;-110.8678,29.3628;83376;Sonora;Los Cochitos
-13;-111.1264,30.5589;84603;Sonora;Ninguno [Francisco Mendoza]
 13;-109.9533,27.1150;85207;Sonora;Familia Brambila Flores (Bloque 2306)
 13;-91.1800,17.9050;86955;Tabasco;La Huasteca
 13;-91.3078,17.7008;86973;Tabasco;La Gloria
@@ -135726,7 +135639,6 @@
 12;-114.7486,32.6781;21970;Baja California;Familia Zúñiga (Colonia Grupo Reforma)
 12;-115.0397,32.4267;21139;Baja California;Rancho Alvídrez (Colonia Rodríguez)
 12;-115.1083,32.4758;21820;Baja California;Rancho Ceballos (Colonia Grupo Dos Tubos)
-12;-115.1353,32.1486;21731;Baja California;Ninguno (Colonia Camacho)
 12;-115.3567,32.5292;21215;Baja California;Familia Hernández
 12;-115.6158,32.6397;21280;Baja California;San José
 12;-116.5208,32.5181;21530;Baja California;El Indio Tul
@@ -135753,7 +135665,6 @@
 12;-110.1773,23.3552;23039;Baja California Sur;El Potrero
 12;-110.1640,23.3656;23300;Baja California Sur;La Huertita
 12;-110.0407,23.6634;23312;Baja California Sur;La Palmilla
-12;-110.2140,23.4697;23310;Baja California Sur;Ninguno [COPLAMAR]
 12;-109.9162,22.9903;23456;Baja California Sur;El Corral de Piedra
 12;-109.7798,22.9750;23405;Baja California Sur;Villa del Mar
 12;-91.1850,18.4003;24317;Campeche;San Manuel
@@ -136228,7 +136139,6 @@
 12;-104.5011,22.9578;34984;Durango;Entronque de Llano Grande
 12;-104.3183,22.6148;34993;Durango;Los Bosques
 12;-104.3599,22.6253;34993;Durango;Penillas
-12;-104.5641,22.7650;34993;Durango;Ninguno
 12;-104.8976,22.8503;34985;Durango;Zopilotes
 12;-104.3756,22.6250;34993;Durango;Cerro de la Silla
 12;-104.8572,22.9089;34987;Durango;Los Zapotes
@@ -136574,7 +136484,6 @@
 12;-103.9650,21.9675;46065;Jalisco;El Mezquite
 12;-104.0228,21.9789;46065;Jalisco;El Banco
 12;-104.1653,22.3208;46087;Jalisco;Tierra Blanca
-12;-104.0997,22.2736;46057;Jalisco;Ninguno [Estación]
 12;-104.2244,22.3967;46083;Jalisco;La Manga
 12;-104.0250,22.3053;46050;Jalisco;Los Pinabetes
 12;-104.0336,22.2961;46050;Jalisco;José Candelario
@@ -136855,7 +136764,6 @@
 12;-102.1644,19.3356;60236;Michoacán;La Escondida
 12;-102.3389,19.5631;60200;Michoacán;Gachupín
 12;-102.1144,19.3417;60234;Michoacán;La Rosa de San Juan (El Palmito)
-12;-102.3464,20.0639;59715;Michoacán;Ninguno
 12;-100.6458,19.8731;58966;Michoacán;Ojo de Agua
 12;-101.9258,19.3839;61707;Michoacán;El Colorado
 12;-100.4403,19.4078;61537;Michoacán;El Asoleadero
@@ -136876,7 +136784,6 @@
 12;-99.2872,18.6447;62676;Morelos;Loma de Plaza
 12;-98.8383,18.6117;62925;Morelos;Rancho la Huerta
 12;-98.8208,18.6517;62925;Morelos;Colonia Francisco I. Madero
-12;-98.8853,18.6236;62923;Morelos;Ninguno [DICONSA]
 12;-99.0614,18.9897;62524;Morelos;Escalontlajco (El Mirador)
 12;-99.1883,18.6769;62776;Morelos;La Tarjea
 12;-99.1647,18.6531;62980;Morelos;Granja Velarde (Campo el Texcal el Alto)
@@ -137301,7 +137208,6 @@
 12;-110.6953,30.1519;84824;Sonora;La Otra Banda
 12;-113.4869,31.4039;83560;Sonora;Las Lágrimas
 12;-114.8903,32.4367;83517;Sonora;Santiago Orejel
-12;-114.9261,32.2197;83513;Sonora;Ninguno [Antonia Torres]
 12;-114.9056,32.3731;83516;Sonora;Familia Monroy
 12;-110.8683,29.3969;83366;Sonora;La Virgen
 12;-110.4964,31.0628;84633;Sonora;El Colorado
@@ -137703,9 +137609,7 @@
 11;-111.6822,25.0781;23620;Baja California Sur;Salvatierra Longoria
 11;-113.1286,27.6471;23980;Baja California Sur;La Cueva
 11;-113.0277,27.6109;23980;Baja California Sur;Palo de Rayo
-11;-113.4601,27.6398;23938;Baja California Sur;Ninguno [Comisión Nacional del Agua]
 11;-112.1702,27.1690;23910;Baja California Sur;La Salina
-11;-112.2441,27.3108;23911;Baja California Sur;Ninguno [Los Yonkes]
 11;-110.7599,24.9981;23143;Baja California Sur;Nopoló
 11;-110.1411,23.8576;23211;Baja California Sur;El Palmarito
 11;-110.0207,23.4357;23351;Baja California Sur;Santo Domingo
@@ -137735,7 +137639,6 @@
 11;-90.8842,18.6208;24368;Campeche;Herradero
 11;-91.0036,18.4375;24366;Campeche;El Zacatecano
 11;-89.3267,18.4967;24643;Campeche;San Nicolás
-11;-89.1653,18.8189;77955;Campeche;Ninguno
 11;-91.0133,17.9867;24336;Campeche;Las Margaritas Dos
 11;-91.0467,18.1731;24333;Campeche;San Pablo
 11;-90.6211,18.1208;24348;Campeche;Laguna San Ramón I
@@ -138175,7 +138078,6 @@
 11;-108.2119,27.7444;33367;Chihuahua;Huasarochi
 11;-108.3744,27.7160;33367;Chihuahua;El Roble
 11;-99.3167,19.3631;52766;Mexico City;Paraje Cerro de los Padres
-11;-99.3396,19.3035;05730;Mexico City;Ninguno
 11;-99.0240,19.1735;12920;Mexico City;Tamasquiti
 11;-99.0306,19.2194;12200;Mexico City;Teuhtli
 11;-99.0637,19.1976;12250;Mexico City;Camino a la Granja
@@ -138332,14 +138234,12 @@
 11;-101.0392,20.3933;38488;Guanajuato;El Cortijo
 11;-100.6461,20.3053;38564;Guanajuato;Tepetates
 11;-100.4628,20.0122;38586;Guanajuato;Los Duraznos
-11;-100.5242,20.1439;38578;Guanajuato;Ninguno [Gasolinera]
 11;-101.6119,21.0475;37685;Guanajuato;La Huaracha
 11;-101.7603,21.0267;37470;Guanajuato;San Martín (Camilo Macías García)
 11;-101.7628,21.1250;37357;Guanajuato;El Divisadero
 11;-101.6158,21.0369;37685;Guanajuato;Granja la Soledad
 11;-101.6489,21.0389;37689;Guanajuato;Joel Amézquita Horta
 11;-101.7333,21.1728;37358;Guanajuato;Villa Felicidad
-11;-101.5886,21.1256;37675;Guanajuato;Ninguno [Club Cinegético]
 11;-101.5556,21.0919;37680;Guanajuato;Fraccionamiento Campestre del Sol
 11;-101.5917,21.0114;37685;Guanajuato;Granja San Rafael
 11;-101.6339,21.3200;47526;Guanajuato;Los Afligidos
@@ -139018,7 +138918,6 @@
 11;-100.4599,23.6509;67936;Nuevo León;El Puertecito
 11;-99.0358,25.8765;67002;Nuevo León;Las Ánimas
 11;-99.0058,25.9040;66953;Nuevo León;El Coyote
-11;-99.8403,25.7776;66790;Nuevo León;Ninguno
 11;-100.6389,25.0234;67866;Nuevo León;El Tirón (El Centenario)
 11;-100.0764,24.6767;67878;Nuevo León;El Ranchito
 11;-100.0316,24.6920;67878;Nuevo León;Santa Fe el Pozo (El Pozo)
@@ -139222,12 +139121,10 @@
 11;-100.4631,20.7639;76139;Querétaro;Arroyo de los Tepetates
 11;-99.5517,20.9106;76555;Querétaro;Las Ovejas
 11;-99.4597,21.0228;76575;Querétaro;El Bordo
-11;-100.0514,20.4219;76824;Querétaro;Ninguno [Canteras Rey-Val]
 11;-99.9650,20.4061;76804;Querétaro;Ex-Hacienda Santa Cruz
 11;-99.9183,20.6267;76667;Querétaro;Los Lobos (Pérez Moreno)
 11;-99.9656,21.0100;76628;Querétaro;La Redonda
 11;-99.9331,20.9111;76633;Querétaro;Familia Dimas
-11;-88.2305,19.2959;77196;Quintana Roo;Ninguno
 11;-86.8021,21.2208;77520;Quintana Roo;Casa Tangara
 11;-86.8033,21.2192;77520;Quintana Roo;Jesús Alberto López Camino
 11;-88.4548,18.5764;77963;Quintana Roo;Valher
@@ -139237,7 +139134,6 @@
 11;-87.7689,18.6075;77973;Quintana Roo;El Jabín
 11;-88.8876,18.4605;77984;Quintana Roo;Los Mangos
 11;-87.6158,20.6628;77714;Quintana Roo;Laguna Chabela
-11;-87.6201,20.6618;77714;Quintana Roo;Ninguno
 11;-87.0243,20.7716;77723;Quintana Roo;La Santísima
 11;-87.9793,20.3724;77786;Quintana Roo;Ek Che
 11;-89.0786,18.9453;77907;Quintana Roo;Cuatro Hermanos
@@ -139356,7 +139252,6 @@
 11;-107.3708,24.4194;80454;Sinaloa;Eureka Canners [Envasadora]
 11;-107.5264,24.9226;80305;Sinaloa;Granja la Fama
 11;-107.4913,24.6606;80300;Sinaloa;Campo Canán (Tierras Prometidas)
-11;-107.1122,24.4346;80475;Sinaloa;Ninguno
 11;-107.4456,24.6611;80194;Sinaloa;La Fortuna [Invernadero]
 11;-107.4508,24.7558;80300;Sinaloa;Kilómetro Dos y Medio
 11;-107.2844,24.5776;80063;Sinaloa;Las Amapas
@@ -139430,7 +139325,6 @@
 11;-109.8969,27.6094;85218;Sonora;El Bagao [Establo]
 11;-109.9228,27.6469;85218;Sonora;Armando Borbón
 11;-110.6919,27.9494;85527;Sonora;Playa del Sol
-11;-110.7292,27.9528;85524;Sonora;Ninguno
 11;-109.6281,27.0419;85285;Sonora;Caral
 11;-109.5944,26.9000;85286;Sonora;Unión de Sociedades Cooperativas la Esperanza
 11;-110.9225,27.9892;85500;Sonora;San Jesús
@@ -139447,10 +139341,8 @@
 11;-109.7764,27.2556;85234;Sonora;El Gachupín
 11;-109.7261,27.3342;85233;Sonora;Elsa
 11;-109.5114,27.0325;85226;Sonora;Los Parosis
-11;-109.4842,27.0833;85229;Sonora;Ninguno [Los Briseño]
 11;-109.7522,27.2242;85234;Sonora;Campo Ignacio Pablos
 11;-108.7275,28.9717;85606;Sonora;El Recodo
-11;-114.9700,32.2267;83513;Sonora;Ninguno [Cruz Gallegos]
 11;-114.8636,32.4467;83517;Sonora;Las Carretas
 11;-114.9028,32.3783;83516;Sonora;Genaro Casillas
 11;-114.9614,32.1961;21810;Sonora;Ranchos Flores
@@ -139894,7 +139786,6 @@
 10;-115.1522,32.4539;21720;Baja California;Los Pinos
 10;-115.1886,32.3897;21700;Baja California;Margarito Medina (Ejido Nuevo León)
 10;-115.6097,32.5892;21384;Baja California;Rancho Viejo (Progreso Cuarta Sección)
-10;-115.2075,32.5156;21620;Baja California;Ninguno
 10;-115.4389,32.5611;21397;Baja California;Valle de San Joaquín
 10;-114.7675,32.6503;21970;Baja California;Familia Ortiz
 10;-116.6536,32.4019;21472;Baja California;Rancho Camarena
@@ -139923,7 +139814,6 @@
 10;-111.1136,25.0783;23640;Baja California Sur;Los Tres Potrillos
 10;-111.5697,26.5843;23887;Baja California Sur;La Ramadita
 10;-112.7439,26.8754;23917;Baja California Sur;Santa Ana
-10;-112.2497,27.3233;23911;Baja California Sur;Ninguno [Campamento de la SCT]
 10;-112.9099,27.2882;23930;Baja California Sur;Piedras Negras
 10;-111.0946,24.4607;23150;Baja California Sur;Agua Amarga
 10;-110.1490,24.0151;23060;Baja California Sur;Los Tejones
@@ -139957,7 +139847,6 @@
 10;-109.7746,23.4792;23510;Baja California Sur;El Delirio
 10;-111.3969,25.6749;23895;Baja California Sur;La Altagracia
 10;-111.5149,25.8306;23893;Baja California Sur;Los Corrales
-10;-90.5489,19.7972;24099;Campeche;Ninguno [Depósito de Explosivos]
 10;-90.4572,19.8803;24560;Campeche;El Mirador
 10;-91.6731,18.7119;24327;Campeche;San Benito
 10;-91.5869,18.2586;24323;Campeche;La Aurora
@@ -140678,7 +140567,6 @@
 10;-100.6161,20.8178;37887;Guanajuato;San Pedro de las Flores (La Luz del Tigre)
 10;-100.5378,20.8733;37883;Guanajuato;Fracción San José el Alto
 10;-100.5717,20.9067;37885;Guanajuato;Granja R Número 21
-10;-100.7003,20.9050;37897;Guanajuato;Ninguno [Fábrica de Quesos]
 10;-100.7233,20.9167;37740;Guanajuato;Casa del Anciano
 10;-100.6031,20.4367;38523;Guanajuato;La Campanita
 10;-100.5533,20.3811;38535;Guanajuato;Granja Número 16
@@ -140768,7 +140656,6 @@
 10;-101.2139,21.3108;37606;Guanajuato;Rancho el Varal
 10;-101.3786,21.2681;37620;Guanajuato;Canterita
 10;-101.2297,21.7478;37610;Guanajuato;El Grano (Carmelo García)
-10;-101.1333,21.3525;37604;Guanajuato;Ninguno [Granja Avícola]
 10;-101.3472,21.2664;37620;Guanajuato;La Presa del Muerto
 10;-101.7633,20.9028;36454;Guanajuato;Los Alacranes
 10;-101.8164,20.9150;36452;Guanajuato;Santa Elena
@@ -140811,7 +140698,6 @@
 10;-98.8291,17.7150;41135;Guerrero;Polaica
 10;-98.8876,17.7394;41150;Guerrero;Quimixtepec
 10;-100.5831,18.2624;40731;Guerrero;El Paraje de la Laguna
-10;-98.4464,17.3514;41670;Guerrero;Ninguno
 10;-100.1629,18.1712;40511;Guerrero;El Mango
 10;-100.1887,18.2068;40511;Guerrero;El Cajete
 10;-99.1518,18.4664;62988;Guerrero;Agua Salada
@@ -141540,7 +141426,6 @@
 10;-100.2278,26.1462;65520;Nuevo León;Los Temporales
 10;-100.5633,25.4856;25363;Nuevo León;Los Domingos
 10;-100.2184,25.4723;67303;Nuevo León;Las Nubes
-10;-99.8700,26.4856;65430;Nuevo León;Ninguno
 10;-96.5503,18.5686;68424;Oaxaca;Maravillas
 10;-96.5550,18.5272;68424;Oaxaca;Rancho los López
 10;-96.6417,18.5392;68424;Oaxaca;Los Caracoles
@@ -141740,12 +141625,10 @@
 10;-100.2003,20.7053;76260;Querétaro;Rancho Medina
 10;-100.3239,20.5133;76246;Querétaro;Familia Nieves
 10;-100.1703,20.5450;76720;Querétaro;Estación el Ahorcado
-10;-100.1603,20.5308;76705;Querétaro;Ninguno [Agroindustrias Siglo Veintiuno]
 10;-100.1572,20.5294;76705;Querétaro;Rancho del Carmen
 10;-100.5406,20.7353;76227;Querétaro;Los Muertos
 10;-100.4397,20.7164;76233;Querétaro;Rancho de los Guardados
 10;-99.5739,20.9050;76557;Querétaro;Las Peritas
-10;-100.0531,20.4611;76815;Querétaro;Ninguno [Al Este de San Germán]
 10;-99.9678,20.4197;76804;Querétaro;Hermanos Jiménez [Granja]
 10;-100.0114,20.3986;76803;Querétaro;Barrio la Concepción
 10;-99.9000,20.9694;76624;Querétaro;El Puerto del Álamo
@@ -141982,11 +141865,8 @@
 10;-113.3014,31.6108;83565;Sonora;José María Dávila
 10;-109.6044,27.3564;85232;Sonora;Las Palmitas
 10;-114.9611,32.3222;83516;Sonora;Asunción Ávila Ruiz
-10;-114.8369,32.4494;83517;Sonora;Ninguno [Jorge Segura Ornelas]
 10;-114.8453,32.2411;83514;Sonora;25 de Enero (Productora)
-10;-114.8789,32.4231;83515;Sonora;Ninguno [Carlos Duarte]
 10;-110.9208,29.3681;83375;Sonora;Los Gordos
-10;-111.1219,30.5536;84603;Sonora;Ninguno [Miguel Ballesteros]
 10;-108.7720,28.2705;33350;Sonora;Aserradero el Porvenir
 10;-110.1989,27.3006;85518;Sonora;La Doce (Bloque 1217)
 10;-91.3897,17.9658;86944;Tabasco;El Carmen
@@ -142550,7 +142430,6 @@
 9;-110.2620,24.0620;23070;Baja California Sur;Los Angelitos
 9;-110.1971,23.3662;23039;Baja California Sur;La Argentina
 9;-109.9453,23.9678;23230;Baja California Sur;El Milagro
-9;-110.2084,23.4839;23310;Baja California Sur;Ninguno [Almacén y Molino Forrajero]
 9;-110.2067,24.1316;23085;Baja California Sur;Los Tesitos
 9;-110.2288,23.4715;23308;Baja California Sur;El Quinto
 9;-109.4959,23.1556;23542;Baja California Sur;Las Destiladeras
@@ -142912,7 +142791,6 @@
 9;-93.7793,17.1675;29604;Chiapas;Isla Colorada
 9;-93.3789,17.1642;29617;Chiapas;El Chichonal (Los Volcanes)
 9;-93.4331,17.1056;29604;Chiapas;Nuevo Yomono
-9;-93.4039,16.9931;29148;Chiapas;Ninguno
 9;-93.3436,17.2519;29613;Chiapas;El Rincón
 9;-93.4553,15.8417;30500;Chiapas;El Progreso (Sin Pensar)
 9;-93.6811,16.0994;30500;Chiapas;El Naranjo
@@ -143309,7 +143187,6 @@
 9;-104.3997,22.8625;34980;Durango;Ceja de Pericos
 9;-104.6946,22.8976;34985;Durango;Los Aires
 9;-104.7394,23.0578;34986;Durango;El Rincón
-9;-104.6647,22.7215;34986;Durango;Ninguno
 9;-104.6533,23.0822;34986;Durango;La Mesita
 9;-104.6508,23.0817;34986;Durango;Las Cebollas
 9;-106.0825,26.4595;35415;Durango;Navarro de Abajo
@@ -143656,7 +143533,6 @@
 9;-104.3144,19.7675;48917;Jalisco;La Limonera
 9;-104.5022,20.1256;48155;Jalisco;El Membrillito
 9;-104.5044,20.0328;48086;Jalisco;El Terrero
-9;-104.3467,20.1456;48050;Jalisco;Ninguno [Maquiladora]
 9;-103.7142,21.8900;46140;Jalisco;La Lechería
 9;-103.9439,21.7783;46153;Jalisco;Las Planillas
 9;-103.9689,21.9078;46152;Jalisco;Ciénega las Isabeles
@@ -143664,7 +143540,6 @@
 9;-104.0333,21.8983;46152;Jalisco;La Huazima
 9;-105.3108,20.3844;48445;Jalisco;Parajes de las Palomas
 9;-104.4531,19.7583;48944;Jalisco;Las Nueces
-9;-104.6656,19.2164;48972;Jalisco;Ninguno [Aeropista]
 9;-103.4650,19.7303;49060;Jalisco;Palos Altos
 9;-103.2483,22.0553;46237;Jalisco;Ejido Tortugas
 9;-104.4647,20.1367;48155;Jalisco;Cuescomata
@@ -143692,7 +143567,6 @@
 9;-105.0958,19.5897;48869;Jalisco;Crucero a Villas Polinesia (San Francisco)
 9;-105.0917,19.7281;48868;Jalisco;Las Piedras de Amolar
 9;-103.2469,20.4164;45877;Jalisco;La Ilusión
-9;-103.2414,20.4339;45654;Jalisco;Ninguno [Embotelladora de Occidente]
 9;-103.2289,20.3708;45850;Jalisco;Rancho Gálvez (La Gigantera)
 9;-103.2319,20.3717;45850;Jalisco;Rancho San Carlos
 9;-103.2683,20.8606;45260;Jalisco;Agua Santa
@@ -143862,7 +143736,6 @@
 9;-102.8689,21.0911;47337;Jalisco;Camarena [Las Granjas Hy Line]
 9;-103.5508,20.2283;45758;Jalisco;El Centenario
 9;-103.5483,20.8017;45184;Jalisco;El Agua Caliente
-9;-103.6428,20.6969;45180;Jalisco;Ninguno
 9;-103.5692,20.9392;45189;Jalisco;La Guayaba Agria
 9;-103.3228,20.7661;45158;Jalisco;El Potrero
 9;-102.8769,20.4669;45986;Jalisco;Los Charcos
@@ -143969,7 +143842,6 @@
 9;-102.7742,19.6722;59958;Michoacán;Torrecillas
 9;-102.6967,19.6369;59957;Michoacán;Plaza Quemada
 9;-101.0500,19.9694;58845;Michoacán;Isla de Tarambecho
-9;-102.2403,19.6514;60240;Michoacán;Ninguno
 9;-100.9644,19.6297;61304;Michoacán;La Mora
 9;-101.0278,19.5733;61328;Michoacán;El Cuartel
 9;-101.0472,19.7597;61305;Michoacán;La Casa del Encanto
@@ -144011,7 +143883,6 @@
 9;-101.0817,19.4403;58498;Michoacán;El Ojo de Agua del Venado
 9;-101.0636,19.4622;61365;Michoacán;Peña de León (Mesa la Bola)
 9;-100.4661,19.9206;61254;Michoacán;Loma de Huaracha
-9;-100.4200,19.8936;61252;Michoacán;Ninguno
 9;-102.2475,18.1164;60965;Michoacán;El Guayabito (El Guayabo)
 9;-102.1983,18.0858;60996;Michoacán;La Paz
 9;-102.5631,18.1194;60975;Michoacán;Los Zapotillos
@@ -144416,7 +144287,6 @@
 9;-99.5328,21.0219;76335;Querétaro;Las Vegas
 9;-100.1397,20.6306;76295;Querétaro;Rancho San Fernando
 9;-100.1467,20.9258;76272;Querétaro;El Cilguero (Pueblo Nuevo)
-9;-99.9719,20.7144;76280;Querétaro;Ninguno [Blockera San Martín]
 9;-100.4272,20.5036;76902;Querétaro;Buenos Aires
 9;-100.4617,20.5658;76910;Querétaro;Familia Rodríguez Hernández
 9;-99.7764,20.5597;76697;Querétaro;La Esperanza
@@ -144457,7 +144327,6 @@
 9;-87.4308,20.9044;77366;Quintana Roo;Los Aluxes
 9;-87.1534,20.6684;77716;Quintana Roo;Los Cayuyas
 9;-87.3834,20.2928;77774;Quintana Roo;El Lagunero
-9;-87.3821,20.3213;77774;Quintana Roo;Ninguno
 9;-87.4023,20.2521;77774;Quintana Roo;Dreams Tulum
 9;-101.2161,22.4822;78454;San Luis Potosí;La Pila
 9;-99.1458,21.6906;79770;San Luis Potosí;La Cueva (El Rezago)
@@ -144562,9 +144431,6 @@
 9;-99.3347,22.3283;79317;San Luis Potosí;Peña Amarilla
 9;-99.3733,22.5242;79314;San Luis Potosí;Campamento SCT
 9;-109.0440,25.9394;81304;Sinaloa;Granja Ahome
-9;-108.8676,25.8141;81249;Sinaloa;Ninguno [Ojai]
-9;-109.0600,25.8366;81277;Sinaloa;Ninguno [Campo de Víctor Jesús Soto Gámez]
-9;-108.9655,25.8482;81228;Sinaloa;Ninguno [Rosalba Váldez Zacarías]
 9;-107.2173,25.4212;80543;Sinaloa;Los Carricitos
 9;-107.3701,25.9710;80610;Sinaloa;Los Arrayanes (Arroyo de la Higuera)
 9;-107.2914,25.6448;80670;Sinaloa;Las Higueras
@@ -144608,7 +144474,6 @@
 9;-108.8259,26.0481;81803;Sinaloa;Campo de Fabián Valenzuela (La Huerta)
 9;-108.5548,25.4325;81120;Sinaloa;Tamazula III
 9;-108.4365,25.3341;81190;Sinaloa;Pochotíos
-9;-108.7235,25.7849;81113;Sinaloa;Ninguno [Campo Padilla]
 9;-108.7745,25.6621;81110;Sinaloa;Campo el Rosario (Campo Robles)
 9;-108.6515,25.6734;81122;Sinaloa;Compañía Agrícola Fátima (Radas)
 9;-108.7630,25.7525;81121;Sinaloa;La Huerta (Los Juncos)
@@ -144644,7 +144509,6 @@
 9;-108.1625,26.2305;81943;Sinaloa;La Cañita
 9;-107.8712,25.9813;81973;Sinaloa;Los Platanitos (Barranco el Sotaco)
 9;-107.7990,24.7040;80338;Sinaloa;El Capiro
-9;-107.6765,24.6894;80337;Sinaloa;Ninguno [Granja]
 9;-107.7049,24.8074;80348;Sinaloa;Granja Bachoco Pollo 16
 9;-107.5814,24.7691;80374;Sinaloa;Santa Rita
 9;-109.2944,31.1072;84306;Sonora;Las Águilas
@@ -144726,15 +144590,10 @@
 9;-109.6056,27.5889;85737;Sonora;El Guayacán
 9;-109.2839,27.7458;85715;Sonora;Progenitora Núcleo Dos (Bachoco)
 9;-109.0125,27.9481;85714;Sonora;La Tortuga
-9;-114.8222,32.4264;83470;Sonora;Ninguno [Miguel Monroy]
 9;-114.9144,32.2803;83514;Sonora;Amalia Lira Bejarano
-9;-114.8692,32.4447;83517;Sonora;Ninguno [Estéfana Loroña]
 9;-114.9225,32.3456;83515;Sonora;Guadalupe Torres
 9;-114.8911,32.4236;83515;Sonora;José Eugenio Fímbres
-9;-114.8842,32.4286;83515;Sonora;Ninguno [Juan Vargas]
-9;-114.8717,32.4247;83515;Sonora;Ninguno [Raquel López Martínez]
 9;-115.0150,32.2786;83513;Sonora;Manuel Ernesto Duarte
-9;-114.8867,32.4544;83517;Sonora;Ninguno [María de la Luz Cervantes]
 9;-110.8858,29.3833;83376;Sonora;La Perla
 9;-109.7564,29.2186;84709;Sonora;Conrado Encinas
 9;-111.1342,30.5533;84603;Sonora;El Carmen
@@ -144745,7 +144604,6 @@
 9;-111.4147,30.6828;83810;Sonora;Palo Verde
 9;-109.0236,28.3556;85785;Sonora;Cabañas de Ofelia
 9;-109.8444,27.1225;85295;Sonora;Predio de la Familia Siqueiros
-9;-109.7533,27.1889;85294;Sonora;Ninguno
 9;-110.1947,27.3500;85516;Sonora;El Alhuate
 9;-110.2078,27.4081;85516;Sonora;Los Pinitos
 9;-110.2564,27.3361;85516;Sonora;San Martín
@@ -145277,7 +145135,6 @@
 9;-103.5078,23.7686;99119;Zacatecas;El Tulipán (El Coyote)
 9;-102.9225,21.8711;99630;Zacatecas;Rancho los Simones (Rancho de los Burros)
 9;-103.4969,21.6367;99735;Zacatecas;Zapacueca
-9;-103.3183,21.6686;99750;Zacatecas;Ninguno
 9;-103.1311,22.3203;46299;Zacatecas;El Molino
 9;-103.3044,21.3919;99806;Zacatecas;La Laguna Blanca
 9;-103.5028,21.3764;99800;Zacatecas;El Conejo
@@ -145458,7 +145315,6 @@
 8;-110.2143,23.4757;23310;Baja California Sur;El Paso [Restaurante]
 8;-110.9341,24.9939;23130;Baja California Sur;El Tunalito
 8;-111.0819,24.3776;23150;Baja California Sur;La Pasadita
-8;-110.2952,23.7904;23250;Baja California Sur;Ninguno
 8;-110.9562,24.5965;23154;Baja California Sur;Santa Elena
 8;-109.5998,23.2747;23440;Baja California Sur;Los Aguajitos
 8;-109.9923,22.9489;23595;Baja California Sur;El Mangle
@@ -145574,7 +145430,6 @@
 8;-103.6025,19.1744;28650;Colima;La Curva
 8;-103.7392,19.1058;28647;Colima;Ignacio Carrillo
 8;-103.6728,19.2231;28170;Colima;Tiburcio Velasco Valencia
-8;-103.6367,19.1831;28650;Colima;Ninguno [Avícola y Ganadera de Jalisco Dos]
 8;-103.7572,19.3456;28457;Colima;Rancho Blanco
 8;-103.7183,19.3725;28459;Colima;Loma Alta
 8;-104.2200,19.0444;28887;Colima;La Piedrera (La Báscula)
@@ -145595,7 +145450,6 @@
 8;-103.8375,18.9936;28100;Colima;Santa María
 8;-103.6889,18.7858;28947;Colima;Francisco Rojas (Corral de Chivas)
 8;-103.8411,18.8283;28906;Colima;Mocambo Dos
-8;-103.8325,19.0036;28920;Colima;Ninguno
 8;-103.7306,19.2942;28979;Colima;Lagunas Cuatas
 8;-103.7825,19.2778;28984;Colima;Los Cafetos
 8;-92.6519,15.4606;30596;Chiapas;Las Cadenas
@@ -145618,7 +145472,6 @@
 8;-92.5853,15.6336;30996;Chiapas;Las Maravillas
 8;-93.9769,16.1108;30465;Chiapas;El Recuerdo
 8;-93.9856,16.2433;30455;Chiapas;Los Chahuites
-8;-92.1806,15.6403;30135;Chiapas;Ninguno
 8;-93.2844,16.7731;29130;Chiapas;El Calvario
 8;-93.3200,16.9000;29133;Chiapas;Santa Cruz (Las Cruces)
 8;-93.3956,16.8694;29140;Chiapas;Santa Rosa (La Fábrica)
@@ -146778,7 +146631,6 @@
 8;-98.4508,20.7058;43218;Hidalgo;Ixtlahuipita
 8;-98.5792,19.8790;43851;Hidalgo;Rancho la Luz
 8;-103.5817,20.4206;45700;Jalisco;Las Alberquitas [Balneario]
-8;-103.6578,19.9353;49300;Jalisco;Ninguno [Estación de Microondas]
 8;-103.6819,20.8353;45390;Jalisco;La Cofradía
 8;-103.9128,20.5817;46710;Jalisco;Rancho la Galera
 8;-102.3389,20.7831;47189;Jalisco;Las Ánimas (Santa Isabel)
@@ -146886,7 +146738,6 @@
 8;-101.9911,21.3411;47536;Jalisco;El Capricho
 8;-101.8972,21.3317;47530;Jalisco;Las Arboledas [Granja]
 8;-101.8386,21.4219;47520;Jalisco;El Oasis
-8;-101.9008,21.3728;47450;Jalisco;Ninguno [Nutrición Agropecuaria]
 8;-102.9519,19.4650;49977;Jalisco;Maíz Cimarrón
 8;-102.9669,19.5961;49979;Jalisco;Los Rosillos
 8;-102.8631,19.6061;49970;Jalisco;El Calóndrigo
@@ -146939,7 +146790,6 @@
 8;-102.9217,19.6744;49575;Jalisco;El Guayabito
 8;-102.8167,19.7378;49578;Jalisco;La Fábrica
 8;-102.8328,19.6919;49574;Jalisco;Cuesta del Burro
-8;-102.8700,19.9242;49570;Jalisco;Ninguno
 8;-103.4486,21.1011;45259;Jalisco;Los Pretiles
 8;-101.9947,21.0169;47593;Jalisco;Las Aburradas
 8;-102.0778,21.0367;47597;Jalisco;El Carmen
@@ -146972,7 +146822,6 @@
 8;-102.3350,20.8883;47196;Jalisco;La Escondida
 8;-102.5189,20.9664;47160;Jalisco;Huizache Chino
 8;-102.3125,21.0183;47154;Jalisco;La Loma Uno
-8;-102.3244,21.0142;47143;Jalisco;Ninguno [Crucero San Miguel-San Julián Kilómetro Siete]
 8;-103.4850,19.8069;49120;Jalisco;Rancho del Puente de Mendoza
 8;-104.8575,20.8747;46996;Jalisco;Pie de la Cuesta
 8;-104.6714,20.8694;46970;Jalisco;Las Juntas
@@ -147179,7 +147028,6 @@
 8;-103.2436,18.5386;60856;Michoacán;La Lima
 8;-103.1478,18.5886;60856;Michoacán;La Guayabillera
 8;-102.8592,18.3858;60867;Michoacán;La Palmita
-8;-101.5836,19.8142;58400;Michoacán;Ninguno
 8;-100.2858,20.0369;61036;Michoacán;San Jerónimo
 8;-102.7872,19.7631;59954;Michoacán;Las Capulinas (Los Capulines)
 8;-102.7697,19.7589;59954;Michoacán;El Atascoso
@@ -147443,7 +147291,6 @@
 8;-100.0497,24.7165;67878;Nuevo León;Los Álamos
 8;-100.6681,25.8814;66042;Nuevo León;El Detalle
 8;-100.3564,25.6081;66290;Nuevo León;Chipinque
-8;-100.3903,25.8214;66085;Nuevo León;Ninguno
 8;-100.3081,25.8411;65517;Nuevo León;El Chaparral
 8;-100.1661,25.9081;65760;Nuevo León;El Tule
 8;-100.1128,25.8801;65760;Nuevo León;El Rodeo
@@ -147748,7 +147595,6 @@
 8;-88.2956,18.6532;77943;Quintana Roo;Ramón
 8;-88.1995,18.8228;77923;Quintana Roo;El Potrillo
 8;-88.4893,18.5723;77010;Quintana Roo;Las Bugambilias
-8;-87.8528,18.3011;77970;Quintana Roo;Ninguno
 8;-86.9242,20.8531;77533;Quintana Roo;Paraíso
 8;-86.9931,21.0889;77534;Quintana Roo;Avance Agroindustrial
 8;-86.9394,20.8555;77533;Quintana Roo;El Pájaro Loco
@@ -147791,7 +147637,6 @@
 8;-98.9633,21.9564;79270;San Luis Potosí;La Bolsa
 8;-99.0617,21.8225;79033;San Luis Potosí;Campo del Capulín
 8;-98.9383,22.1344;79275;San Luis Potosí;Lino Lárraga (La Unión)
-8;-98.9492,21.9219;79270;San Luis Potosí;Ninguno [Club Águilas]
 8;-98.9981,21.9500;79253;San Luis Potosí;Cambeses
 8;-101.1522,23.0314;78573;San Luis Potosí;Las Tinajitas
 8;-101.0122,23.1822;78574;San Luis Potosí;Charco Prieto
@@ -147859,7 +147704,6 @@
 8;-98.6331,22.0831;79225;San Luis Potosí;Rancho las Auras
 8;-98.7569,22.2344;79219;San Luis Potosí;Santa Lucía
 8;-98.7114,22.3194;79214;San Luis Potosí;El Murciélago
-8;-98.7286,22.1381;79206;San Luis Potosí;Ninguno
 8;-98.8269,22.1542;79216;San Luis Potosí;Ejido Estación Tamuín
 8;-98.5817,22.0078;92000;San Luis Potosí;El Rosario (Hermanos Banda)
 8;-98.8447,21.9492;79227;San Luis Potosí;Dora Celia Purata
@@ -148058,7 +147902,6 @@
 8;-110.9275,28.3731;85503;Sonora;5 de Marzo (Cerro Prieto)
 8;-110.9011,27.9881;85500;Sonora;Los Laureles (Aranjuez)
 8;-110.9197,27.9947;85500;Sonora;Las Cotorras [Ladrillera]
-8;-110.9181,27.9717;85503;Sonora;Ninguno [José González Parodi]
 8;-110.4694,27.5883;85513;Sonora;La Huepa
 8;-111.1306,29.0328;83323;Sonora;San Juanero
 8;-110.8553,29.0644;83303;Sonora;La Cuesta [Engorda]
@@ -148079,7 +147922,6 @@
 8;-110.8392,30.8489;84126;Sonora;Rancho Teófilo López (Kilómetro Sesenta)
 8;-111.1339,30.7664;84176;Sonora;Charco Hondo
 8;-109.5222,27.2081;85233;Sonora;Agiabampo [Rancho]
-8;-109.5081,27.0600;85228;Sonora;Ninguno [Abraham Mendívil Portillo]
 8;-109.5153,27.0492;85225;Sonora;Las Dos Palmas
 8;-109.4517,27.1078;85229;Sonora;Huerta Aguilera
 8;-109.5200,27.1692;85239;Sonora;Empaque de Juan Carlos Cuevas
@@ -148090,21 +147932,13 @@
 8;-112.1028,30.7003;83724;Sonora;El Mayo
 8;-113.3964,31.5319;83565;Sonora;El Pinacate
 8;-109.3806,27.8219;85715;Sonora;Progenitora Núcleo Tres
-8;-114.8528,32.4628;83517;Sonora;Ninguno [Hermanos Adame]
-8;-114.9439,32.2419;83513;Sonora;Ninguno [Hortencia Pérez]
-8;-114.9408,32.1861;21810;Sonora;Ninguno [Beto Solorio]
 8;-114.9217,32.3181;83515;Sonora;Federico Acosta
-8;-114.9561,32.1786;21810;Sonora;Ninguno [José Matilde Cázares Ambriz]
 8;-114.9250,32.2758;83513;Sonora;José Valenzuela Alcaraz
-8;-114.9267,32.2383;83513;Sonora;Ninguno [Juana Zambrano Ramírez]
 8;-114.9367,32.2608;83513;Sonora;María Luisa Reyna
 8;-114.9065,32.4436;83517;Sonora;Miguel Alberto Cruz Cota
 8;-114.9467,32.2631;83513;Sonora;Ramón Cruz
 8;-114.9419,32.2046;21810;Sonora;Rancho Ritche
-8;-114.8742,32.4439;83517;Sonora;Ninguno [Roberto Salgado]
 8;-114.9711,32.2378;83513;Sonora;San Marcos
-8;-114.8664,32.4100;83515;Sonora;Ninguno [Oscar López]
-8;-114.8197,32.4767;83419;Sonora;Ninguno [Timoteo Gómez]
 8;-114.6567,32.4450;83520;Sonora;Taller Vazquez
 8;-110.8825,29.3347;83376;Sonora;Agrícola el Bacame
 8;-110.9258,29.5211;83367;Sonora;Las Playitas
@@ -148155,7 +147989,6 @@
 8;-97.9906,22.9436;89677;Tamaulipas;La Huerta
 8;-98.0128,22.5211;89600;Tamaulipas;El Tercer Mundo (7 de Abril) [Centro de Investigaciones Agrícolas]
 8;-98.1192,22.4972;89620;Tamaulipas;Emmanuel
-8;-98.1436,22.6719;89607;Tamaulipas;Ninguno
 8;-98.8256,26.3372;88444;Tamaulipas;Rubén Álvarez
 8;-99.0158,23.9047;87235;Tamaulipas;El Control
 8;-99.1169,24.0725;87799;Tamaulipas;Magueyes
@@ -148829,7 +148662,6 @@
 7;-102.1561,21.8053;20386;Aguascalientes;El Chiflido
 7;-102.3506,21.7089;20136;Aguascalientes;El Esfuerzo
 7;-102.3619,21.8322;20371;Aguascalientes;Potrero del Molino
-7;-102.3436,21.8411;20200;Aguascalientes;Ninguno [Productora de Semillas y Cereales]
 7;-102.3881,21.7278;20375;Aguascalientes;Costa Chica
 7;-102.1481,22.0044;20324;Aguascalientes;La Curva
 7;-102.2714,21.9408;20126;Aguascalientes;El Bajío [Rancho]
@@ -148977,7 +148809,6 @@
 7;-111.6831,25.2275;23700;Baja California Sur;Fernando de la Toba Lote 56
 7;-111.8369,25.0575;23730;Baja California Sur;Guadalajara Lote 2-A
 7;-111.1886,25.3885;23897;Baja California Sur;El Carrizalito
-7;-111.6818,25.0652;23620;Baja California Sur;Ninguno
 7;-112.3964,27.0133;23912;Baja California Sur;La Enramada de San Javier
 7;-112.6664,26.9017;23916;Baja California Sur;San Quintín
 7;-112.5156,27.0880;23921;Baja California Sur;Las Higueras
@@ -149017,7 +148848,6 @@
 7;-110.3430,24.0993;23205;Baja California Sur;El Guayabo
 7;-110.5920,24.2208;23020;Baja California Sur;Boca del Cajón de los Reyes
 7;-109.9924,23.6992;23038;Baja California Sur;La Palmilla
-7;-110.3870,24.0966;23090;Baja California Sur;Ninguno [Hospital Psiquiátrico]
 7;-110.1656,23.3202;23360;Baja California Sur;Tortuga del Sol
 7;-110.2808,23.5043;23308;Baja California Sur;El Chamizal
 7;-110.3461,24.0983;23205;Baja California Sur;El Rodeo
@@ -149106,8 +148936,6 @@
 7;-90.7503,18.8186;24419;Campeche;Moycruz [Triturados]
 7;-90.5894,18.5228;24338;Campeche;El Nanzal
 7;-90.4139,18.3775;24344;Campeche;Chuncopó (Las Bugambilias)
-7;-90.9658,18.3531;24357;Campeche;Ninguno
-7;-89.1908,18.4806;24643;Campeche;Ninguno [FAYP]
 7;-89.3836,18.5058;24640;Campeche;Colonia Fundadores
 7;-90.4836,18.1239;24345;Campeche;El Chechén
 7;-90.4878,17.8639;24347;Campeche;La Providencia
@@ -149129,7 +148957,6 @@
 7;-90.4967,18.1058;24342;Campeche;La Estampa
 7;-90.5089,18.0267;24348;Campeche;El Teniente
 7;-90.6394,18.1028;24348;Campeche;Las Piedras
-7;-90.7422,18.3053;24333;Campeche;Ninguno
 7;-100.8901,29.2694;26300;Coahuila;Pablo Hernández
 7;-100.8768,29.2680;26300;Coahuila;Abelardo Pérez Colunga
 7;-100.8969,29.2633;26308;Coahuila;Amalio Valenzuela Vázquez (La Nogalera)
@@ -149256,7 +149083,6 @@
 7;-103.8247,18.8147;28140;Colima;El Jinete
 7;-103.8725,18.8900;28190;Colima;El Pedazo (Rafael Arámbula)
 7;-103.9072,18.9033;28936;Colima;Los Tamarindos
-7;-103.9039,19.0217;28307;Colima;Ninguno [Campamento de Ejidatarios]
 7;-103.8619,18.8458;28159;Colima;El Jobero
 7;-103.8164,19.3053;28950;Colima;Abel Díaz Chávez
 7;-103.7200,19.3306;28454;Colima;El Limoncito
@@ -149326,7 +149152,6 @@
 7;-92.0500,17.6017;29963;Chiapas;Rancho Alegre
 7;-92.1103,17.7611;29985;Chiapas;La Paz (Calatrava)
 7;-92.0736,17.7603;29980;Chiapas;El Mangal
-7;-92.0261,17.6772;29980;Chiapas;Ninguno
 7;-92.1708,17.7431;29960;Chiapas;El Capitán
 7;-94.0125,16.4819;30425;Chiapas;Cinco Cerros
 7;-93.9056,16.5681;30420;Chiapas;El Santuario
@@ -149355,7 +149180,6 @@
 7;-94.1061,16.4256;30425;Chiapas;La Vainilla
 7;-93.8297,16.6425;30417;Chiapas;Monte Carlo
 7;-93.1361,17.0881;29655;Chiapas;Pocop
-7;-93.1547,17.1233;29650;Chiapas;Ninguno
 7;-92.1578,16.0619;30108;Chiapas;Las Flores
 7;-92.2047,16.2494;30033;Chiapas;Concepción Hoja Verde
 7;-92.1875,16.3431;30105;Chiapas;Los Pocitos
@@ -149589,7 +149413,6 @@
 7;-93.2531,15.5917;30545;Chiapas;Rancho Alegre
 7;-93.1589,15.8008;30556;Chiapas;San Antonio
 7;-93.3141,15.6689;30547;Chiapas;San Martín
-7;-93.0075,15.4944;30567;Chiapas;Ninguno
 7;-93.2917,15.6514;30555;Chiapas;San Nicolás
 7;-93.2950,15.7447;30558;Chiapas;Santa Lucía
 7;-93.1597,15.7547;30540;Chiapas;El Triunfo
@@ -150386,7 +150209,6 @@
 7;-101.7067,21.0661;37490;Guanajuato;Granja la Palma
 7;-101.5956,20.9664;37684;Guanajuato;Granja Fracción Uno
 7;-101.7239,21.0447;37660;Guanajuato;San Jerónimo del Bajío
-7;-101.7547,21.2031;37105;Guanajuato;Ninguno [Club Cinegético]
 7;-101.7225,21.0294;37660;Guanajuato;Granja Carmelita
 7;-101.7506,21.1933;37458;Guanajuato;Granja los Pinos (Rancho Oñate)
 7;-101.7594,21.2072;37105;Guanajuato;Granja los Padilla
@@ -150395,7 +150217,6 @@
 7;-101.7314,21.1703;37358;Guanajuato;Granja el Turpial (Campo Alegre)
 7;-101.6039,21.1431;37233;Guanajuato;Jorge Ulit
 7;-101.5636,21.0881;37680;Guanajuato;El Tusco
-7;-101.7122,21.0578;37666;Guanajuato;Ninguno [Curtiduría]
 7;-101.5739,21.0808;37683;Guanajuato;Rancho los Juanes
 7;-101.6825,21.0833;37470;Guanajuato;El Río
 7;-101.7228,21.1569;37358;Guanajuato;San José de las Piletas (Cerro Gordo)
@@ -150659,7 +150480,6 @@
 7;-98.6005,19.9263;43855;Hidalgo;Ojo de Agua
 7;-99.3089,20.7705;42344;Hidalgo;Peña Colorada
 7;-102.8858,20.7808;45479;Jalisco;Las Amapolas
-7;-102.8897,20.7328;45475;Jalisco;Ninguno [Granja Rancho Nuevo]
 7;-102.9167,20.7883;45470;Jalisco;El Saltillo
 7;-103.5844,20.3939;45700;Jalisco;La Soledad
 7;-103.9325,20.6936;46732;Jalisco;Mazocaui [Granja]
@@ -150685,8 +150505,6 @@
 7;-104.2108,20.3258;48199;Jalisco;La Natividad
 7;-104.4997,20.2842;48135;Jalisco;El Pescadito
 7;-102.5667,20.5397;47779;Jalisco;El Charcón
-7;-102.6322,20.5458;47767;Jalisco;Ninguno [PAGOSA]
-7;-102.5458,20.5236;47779;Jalisco;Ninguno [Rastro Nuevo Municipal]
 7;-104.3825,19.8678;48909;Jalisco;El Aguacate
 7;-104.2397,19.7933;48743;Jalisco;La Calera
 7;-104.2856,19.7989;48915;Jalisco;La Cañada
@@ -150701,7 +150519,6 @@
 7;-102.4381,20.4067;47925;Jalisco;Rancho la Parota
 7;-102.5733,20.2767;47918;Jalisco;Casa Blanca
 7;-102.5633,20.2911;47918;Jalisco;Las Marías
-7;-102.4500,20.3608;47924;Jalisco;Ninguno [Agroquímicos y Fertilizantes]
 7;-103.7781,21.8450;46140;Jalisco;Arroyo de Agua
 7;-103.8203,21.8186;46145;Jalisco;El Aguacatillo
 7;-103.9581,21.7761;46153;Jalisco;Barranca del Huichol
@@ -150750,7 +150567,6 @@
 7;-102.1000,21.5019;47294;Jalisco;El Olivo [Las Casetas]
 7;-102.0439,21.5856;47288;Jalisco;El Centro
 7;-102.3925,21.4997;47293;Jalisco;El Montecillo
-7;-102.3989,21.3903;47119;Jalisco;Ninguno
 7;-102.2539,21.5303;47270;Jalisco;Río de la Tiza
 7;-102.2850,21.6575;20399;Jalisco;Los Alteños Tres
 7;-102.3892,21.5839;47223;Jalisco;Rancho San Lucas
@@ -150830,7 +150646,6 @@
 7;-104.1561,22.3086;46087;Jalisco;La Mojonera
 7;-104.1192,22.0086;46065;Jalisco;El Aire
 7;-103.6933,22.3494;46045;Jalisco;La Ermita
-7;-103.8847,22.0900;46068;Jalisco;Ninguno [Aserradero de los Coconos]
 7;-103.8750,22.1058;46068;Jalisco;Las Peñitas
 7;-104.0797,22.1481;46055;Jalisco;Platanar
 7;-104.2361,22.3469;46083;Jalisco;Campatibala
@@ -151178,7 +150993,6 @@
 7;-101.2450,19.6542;58197;Michoacán;Kopla [Gasolinería]
 7;-101.2625,19.7092;58337;Michoacán;Colonia Benigno Serrato
 7;-101.3836,19.6689;58331;Michoacán;El Pedregal
-7;-101.1717,19.6636;58090;Michoacán;Ninguno
 7;-102.1725,18.9906;61776;Michoacán;La Jitomatera
 7;-101.2628,19.0942;61918;Michoacán;Los Bancos
 7;-101.1083,19.0975;61905;Michoacán;El Pinzán Dulce
@@ -151211,7 +151025,6 @@
 7;-100.7792,18.6228;61987;Michoacán;El Voladero
 7;-101.7317,19.4236;61810;Michoacán;Tepamio
 7;-101.7633,19.3150;61813;Michoacán;Chiralillo (La Lagunilla)
-7;-101.6567,19.3917;61800;Michoacán;Ninguno
 7;-101.5603,19.4250;61627;Michoacán;Los Cedritos
 7;-100.3306,19.2625;61597;Michoacán;Yerbabuena
 7;-101.4108,19.1578;61663;Michoacán;Agua Dulce
@@ -151316,7 +151129,6 @@
 7;-99.2669,18.8100;62593;Morelos;Colonia Loma Bonita
 7;-99.2281,18.7344;62790;Morelos;Ampliación Cazahuatera
 7;-99.2278,18.8028;62790;Morelos;Real del Puente (El Gallito)
-7;-99.2203,18.7703;62796;Morelos;Ninguno [Conducciones y Caminos Constructora]
 7;-99.0392,18.9117;62737;Morelos;El Nixcomil
 7;-98.9669,18.8958;62736;Morelos;La Coaxiolotera
 7;-98.8678,18.8658;62824;Morelos;Agua Zarca
@@ -151351,7 +151163,6 @@
 7;-104.8289,22.2350;63549;Nayarit;El Metate
 7;-104.3978,22.2292;63533;Nayarit;Zapopan
 7;-104.3022,22.2972;63535;Nayarit;La Tristeza
-7;-104.7622,21.8928;63538;Nayarit;Ninguno
 7;-104.6308,22.1386;63538;Nayarit;El Carrizal
 7;-104.6081,22.1267;63547;Nayarit;Peñitas
 7;-104.4400,22.2067;63533;Nayarit;Los Corpos
@@ -151812,7 +151623,6 @@
 7;-88.5300,19.2889;77176;Quintana Roo;Los Lagartos
 7;-88.2468,19.5766;77108;Quintana Roo;San Pedro Nuevo
 7;-87.8604,19.8484;77156;Quintana Roo;La Maravilla
-7;-86.8023,21.2229;77520;Quintana Roo;Ninguno
 7;-86.8025,21.2225;77520;Quintana Roo;Villas Mar
 7;-88.8892,18.4594;77984;Quintana Roo;Seis Hermanos (El Ranchito)
 7;-88.3647,18.5128;77025;Quintana Roo;Santa María
@@ -151958,7 +151768,6 @@
 7;-101.2769,22.9111;78930;San Luis Potosí;La Esquina
 7;-101.1381,23.0075;78573;San Luis Potosí;San Martín
 7;-100.9386,22.8306;78936;San Luis Potosí;Rancho los Pinos
-7;-101.1058,23.0400;78933;San Luis Potosí;Ninguno
 7;-101.3253,21.9508;78496;San Luis Potosí;La Candelaria
 7;-101.2247,22.0358;78495;San Luis Potosí;Florencio Ruiz
 7;-101.3269,21.9436;78496;San Luis Potosí;San Benito
@@ -152062,7 +151871,6 @@
 7;-108.4982,25.5731;81045;Sinaloa;Campo Balta
 7;-108.7346,25.6876;81121;Sinaloa;Campo el Durán
 7;-108.4871,25.5791;81020;Sinaloa;Campo la Cruz
-7;-108.8089,25.7609;81066;Sinaloa;Ninguno [Campo Rufino Felíx]
 7;-108.6518,25.6761;81122;Sinaloa;Farmers Best (Agrícola Alex) [Empaque]
 7;-108.4717,25.6229;81103;Sinaloa;Rancho Cuevas
 7;-108.3893,25.6423;81102;Sinaloa;El Choyal
@@ -152224,25 +152032,16 @@
 7;-109.1228,27.9544;85714;Sonora;El Pinalito
 7;-114.9972,32.2514;83513;Sonora;Campo Salvador
 7;-114.8903,32.4561;83517;Sonora;Lucrecia Viuda de Lara
-7;-114.8653,32.4481;83517;Sonora;Ninguno [Amada Castro]
 7;-114.9253,32.2658;83513;Sonora;Guillermina Lira
 7;-114.9341,32.3926;83516;Sonora;Isabel Navarro
 7;-114.9411,32.2600;83513;Sonora;Isidro Zavala
-7;-114.8250,32.4267;83470;Sonora;Ninguno [J. Dolores Monroy Patiño]
 7;-114.9289,32.3394;83515;Sonora;Josefina Esqueda
-7;-114.9733,32.1558;83510;Sonora;Ninguno [Margarita Orozco González]
-7;-114.9639,32.2003;21810;Sonora;Ninguno [María de Jesús Cázares]
-7;-114.8336,32.4331;83517;Sonora;Ninguno [Guillermo León]
 7;-114.9272,32.2650;83513;Sonora;Miguel Montaño Man
-7;-114.9208,32.2081;83513;Sonora;Ninguno [Ramona Padrón Rodríguez]
 7;-114.9605,32.3110;83516;Sonora;Reynaldo Quiroz
 7;-114.9500,32.3875;83516;Sonora;Rubén Gaxiola Romo
 7;-114.9664,32.3008;83513;Sonora;Salomón Carbajal
-7;-114.8336,32.4578;83403;Sonora;Ninguno [Justina Valenzuela Mendoza]
 7;-114.8969,32.4592;83517;Sonora;Moisés Sánchez Espinoza
-7;-114.9250,32.2019;21810;Sonora;Ninguno [Javier Martínez Pimentel]
 7;-110.9500,29.3806;83374;Sonora;La Luna (Viñedos San Martín)
-7;-111.1225,30.5656;84602;Sonora;Ninguno [José Guadalupe Valenzuela Tapia]
 7;-111.1739,30.5131;84611;Sonora;María Jesús Torres
 7;-111.5347,30.4417;83930;Sonora;Ejido San Rafael
 7;-110.4114,29.4431;84905;Sonora;Hacienda la Cabaña
@@ -152404,7 +152203,6 @@
 7;-97.9325,23.4622;87696;Tamaulipas;El Mirador (Las Mulas)
 7;-97.9711,23.3864;87695;Tamaulipas;Sierra Mojada
 7;-98.1728,23.7672;87679;Tamaulipas;El Centenario
-7;-97.7397,23.7875;87670;Tamaulipas;Ninguno [Centro de Investigación Acuícolas y Pecuarias]
 7;-97.9608,23.3369;87694;Tamaulipas;La Clínica (Los Felinos)
 7;-98.1553,23.7775;87679;Tamaulipas;La Gata
 7;-98.2867,23.8544;87679;Tamaulipas;El Milagro
@@ -153277,7 +153075,6 @@
 6;-115.2872,32.4878;21160;Baja California;Parcela Setenta y Cuatro (Ejido Guanajuato)
 6;-115.1019,32.3883;21821;Baja California;Rancho de los Ayala (Veracruz Dos)
 6;-115.5886,32.5836;21188;Baja California;Rancho de Rojo (Colonia Progreso)
-6;-114.9000,32.6656;21395;Baja California;Ninguno (Rodrigo y Pérez)
 6;-115.0747,32.5139;21254;Baja California;Familia Hernández (Ejido Jiquilpan)
 6;-114.8842,32.6253;21960;Baja California;Tres Valles (Ejido Morelos) [Aerofumigaciones]
 6;-115.4364,32.4881;21700;Baja California;Rancho Nachita (Colonia Cerro Prieto)
@@ -153508,7 +153305,6 @@
 6;-92.3158,18.6192;24157;Campeche;San Joaquín
 6;-90.9633,18.8350;24310;Campeche;El Dorado
 6;-91.6000,18.2850;24323;Campeche;El Esfuerzo
-6;-90.9942,18.8128;24313;Campeche;Ninguno [Palmicultores del Milenio del Estado de Campeche]
 6;-91.3192,18.2769;24154;Campeche;San José
 6;-91.2328,18.2303;24337;Campeche;El Divino Niño
 6;-91.3903,18.0803;24304;Campeche;Los Corrales
@@ -153567,7 +153363,6 @@
 6;-90.9669,17.9739;24335;Campeche;El Mirador
 6;-90.8097,18.2481;24333;Campeche;El Julián
 6;-90.3817,17.9472;24346;Campeche;El Retazo
-6;-90.5564,17.9219;24347;Campeche;Ninguno
 6;-90.8033,18.2561;24357;Campeche;San Miguel
 6;-101.3240,27.0678;25547;Coahuila;Buena Suerte (Los García)
 6;-101.4076,27.1833;25545;Coahuila;Lupita
@@ -153579,7 +153374,6 @@
 6;-100.9137,28.3172;26540;Coahuila;Los Pinos (González)
 6;-100.7534,25.3848;25352;Coahuila;El Cascajal
 6;-100.6045,25.3953;25360;Coahuila;Cinco Hermanos (San Vicente)
-6;-100.8956,25.4600;25354;Coahuila;Ninguno [Asociación Ganadera]
 6;-100.8295,25.4445;25355;Coahuila;La Noria
 6;-100.8264,25.4442;25355;Coahuila;La Rosita
 6;-100.6128,25.4267;25369;Coahuila;Vista Hermosa
@@ -154644,7 +154438,6 @@
 6;-105.9488,28.6023;31064;Chihuahua;Lomas de Oriente
 6;-106.2323,28.1301;31054;Chihuahua;Santa Fe del Trébol
 6;-106.2413,29.0191;31150;Chihuahua;Las Moras
-6;-106.4038,29.0447;31050;Chihuahua;Ninguno
 6;-108.3816,27.3738;33365;Chihuahua;San Juan de Dios
 6;-108.4519,27.3160;33365;Chihuahua;El Frijolar
 6;-108.3908,27.3116;33365;Chihuahua;El Pedregal
@@ -154745,7 +154538,6 @@
 6;-107.1257,25.9891;33477;Chihuahua;Los Resumideros
 6;-106.9179,25.9738;33473;Chihuahua;Piedras de Amolar
 6;-107.3129,26.4372;33484;Chihuahua;La Lajita
-6;-106.6418,26.1455;33490;Chihuahua;Ninguno
 6;-107.8204,26.3480;33487;Chihuahua;Los Borreguitos
 6;-107.7101,26.3116;33487;Chihuahua;El Rosado
 6;-107.7693,26.2550;33487;Chihuahua;Boca de Arroyo
@@ -154852,7 +154644,6 @@
 6;-107.9838,26.5474;81774;Chihuahua;Puerto del Platanito
 6;-107.6533,26.7319;33451;Chihuahua;El Carrizal
 6;-107.5244,26.6231;33488;Chihuahua;Mesa de Cenón
-6;-109.0289,28.2577;85713;Chihuahua;Ninguno [Corrales]
 6;-108.8491,28.1763;33350;Chihuahua;El Saucito
 6;-108.7550,28.1321;33350;Chihuahua;Los Naranjitos
 6;-107.4860,29.0802;31967;Chihuahua;Ventura Ranch
@@ -155225,7 +155016,6 @@
 6;-100.5853,20.5247;38188;Guanajuato;Tío Julio
 6;-100.7356,20.5139;38197;Guanajuato;Rancho Magdalena (Jaime Bárcenas)
 6;-100.6250,20.6097;38175;Guanajuato;El Mogote (La Concepción)
-6;-100.7167,20.5325;38198;Guanajuato;Ninguno [Deshuesadero]
 6;-100.6878,20.5258;38195;Guanajuato;Los Alcanfores
 6;-100.6567,20.5317;38195;Guanajuato;Entrada al Cerro de las Brujas
 6;-100.7900,20.4186;38028;Guanajuato;San Agustín
@@ -155310,7 +155100,6 @@
 6;-101.3411,20.8014;36810;Guanajuato;Granja la Cuchilla (Elías Granados)
 6;-101.0664,20.3294;38486;Guanajuato;El Sapo
 6;-101.0594,20.3492;38486;Guanajuato;El Gallero [La Ladrillera]
-6;-101.0558,20.3619;38474;Guanajuato;Ninguno [Torno y Taller]
 6;-100.5297,20.1406;38578;Guanajuato;La Quebradora
 6;-100.5056,20.3056;38554;Guanajuato;Ebodio Sánchez Hernández
 6;-101.5822,21.0350;37680;Guanajuato;Pomona
@@ -155328,7 +155117,6 @@
 6;-101.4897,21.2097;37664;Guanajuato;Puerto del Aire
 6;-101.7389,21.1761;37156;Guanajuato;Entrada a la Noria
 6;-101.5551,21.0767;37680;Guanajuato;Zamora
-6;-101.5125,21.0519;37683;Guanajuato;Ninguno
 6;-101.3814,21.4411;37625;Guanajuato;El Orégano
 6;-101.4864,21.5728;37645;Guanajuato;El Conejo
 6;-101.4717,21.6614;37643;Guanajuato;El Establo
@@ -155725,7 +155513,6 @@
 6;-105.2875,20.4708;48425;Jalisco;Las Pintadas
 6;-105.2800,20.4828;48425;Jalisco;Rancho los Veranos
 6;-104.4311,19.5983;48945;Jalisco;Tacubaya
-6;-104.4519,19.6211;48943;Jalisco;Ninguno [Unión Agrícola Regional Costa de Jalisco]
 6;-104.3808,19.5925;48945;Jalisco;La Huertita
 6;-104.5803,19.2053;48995;Jalisco;Rancho Morán
 6;-104.6972,19.2403;48980;Jalisco;Noble
@@ -156022,7 +155809,6 @@
 6;-103.3439,20.5103;45653;Jalisco;Rancho el Conejo
 6;-103.2228,20.4575;45870;Jalisco;Granja de Manuel Ornelas
 6;-104.9161,19.9892;48491;Jalisco;La Loma
-6;-105.3178,19.9794;48456;Jalisco;Ninguno [Campamento de la Estrella]
 6;-105.5283,20.0869;48462;Jalisco;Agua Dulce
 6;-104.8636,19.9172;48840;Jalisco;El Carrizalillo
 6;-105.2528,19.9433;48456;Jalisco;La Quinta
@@ -156280,7 +156066,6 @@
 6;-103.3667,18.6503;60825;Michoacán;Bugambilias
 6;-103.3653,18.7700;60820;Michoacán;El Potrero Grande
 6;-103.2536,18.6619;60824;Michoacán;Las Playas
-6;-103.3631,18.7606;60820;Michoacán;Ninguno
 6;-101.5878,18.5483;40865;Michoacán;El Cúzaro
 6;-101.5525,18.8778;61697;Michoacán;Barranca del Perro
 6;-101.5700,18.5217;40864;Michoacán;El Ranchito
@@ -156377,7 +156162,6 @@
 6;-101.6692,19.3156;61804;Michoacán;El Membrillo
 6;-101.7100,19.3450;61812;Michoacán;La Haciendita
 6;-100.3586,19.2975;61597;Michoacán;Pozo Azul
-6;-102.4731,19.8328;59516;Michoacán;Ninguno
 6;-102.2044,19.8711;59762;Michoacán;Cuitzillo
 6;-101.1436,19.7761;58893;Michoacán;Rancho del Señor Tapia
 6;-101.1686,19.7931;58880;Michoacán;Los Postes
@@ -156582,7 +156366,6 @@
 6;-105.3319,20.7781;63732;Nayarit;Don Layo
 6;-105.2858,20.7436;63737;Nayarit;Rancho Victoria
 6;-105.1694,20.8508;48290;Nayarit;Rómulo Bernal
-6;-105.2383,20.7517;63737;Nayarit;Ninguno
 6;-100.4039,25.9467;65653;Nuevo León;Casa Rosa (Los Olivos)
 6;-99.6664,26.2976;65834;Nuevo León;Agua Blanca
 6;-99.8698,26.3228;65815;Nuevo León;La Purísima
@@ -157136,7 +156919,6 @@
 6;-86.9345,20.5400;77600;Quintana Roo;Luis Alcérreca
 6;-88.3979,19.3818;77104;Quintana Roo;San Jorge
 6;-88.0892,20.0758;77118;Quintana Roo;Xijun Kah
-6;-88.5766,19.4389;77178;Quintana Roo;Ninguno [Corredor Frutícola Uno]
 6;-88.1396,19.6089;77108;Quintana Roo;Las Isabeles
 6;-88.2745,19.3463;77104;Quintana Roo;San Valentín
 6;-86.8025,21.2257;77520;Quintana Roo;La Proa
@@ -157151,7 +156933,6 @@
 6;-88.2252,18.6126;77926;Quintana Roo;La Cueva del Negro
 6;-88.3496,18.5177;77025;Quintana Roo;San Isidro Dos
 6;-88.4843,18.5172;77965;Quintana Roo;Valerio Chuayo Villamil
-6;-88.6770,18.5516;77953;Quintana Roo;Ninguno
 6;-87.7266,18.7626;77976;Quintana Roo;Rancho Israel
 6;-88.9898,18.7041;77903;Quintana Roo;Rancho Alegre
 6;-88.5679,18.5176;77985;Quintana Roo;Alfredo Barradas Domínguez
@@ -157393,12 +157174,10 @@
 6;-109.0460,25.6824;81270;Sinaloa;El Encanto (Rancho del Temo)
 6;-109.0702,25.9363;81308;Sinaloa;Nuevo Hogar
 6;-109.0113,25.8248;81247;Sinaloa;San Rafael
-6;-108.9057,25.8107;81249;Sinaloa;Ninguno [Campo Alfonso Reyes]
 6;-108.9035,25.8108;81249;Sinaloa;El Gallo
 6;-109.0516,25.6941;81270;Sinaloa;Campo Murrieta
 6;-109.0284,25.9850;81304;Sinaloa;Kilómetro Veintiuno
 6;-109.0113,26.3987;85259;Sinaloa;La Línea
-6;-109.3006,25.9772;81330;Sinaloa;Ninguno [Empaque Carrillo]
 6;-108.9469,26.3055;81343;Sinaloa;Campo los Brígidos
 6;-108.0826,25.3068;81642;Sinaloa;Campo Gaxiola
 6;-108.1201,25.3917;81610;Sinaloa;Laguna del Monte
@@ -157563,7 +157342,6 @@
 6;-107.8417,25.7704;81977;Sinaloa;Los Mautos
 6;-108.0481,26.1619;81976;Sinaloa;Tepomena
 6;-107.7846,26.0311;81930;Sinaloa;La Canoa
-6;-108.4525,25.8558;81986;Sinaloa;Ninguno
 6;-107.9344,25.9323;81950;Sinaloa;El Tulito
 6;-108.2732,26.2245;81943;Sinaloa;El Manantial
 6;-107.8042,25.9617;81973;Sinaloa;El Mango (Las Cañadas)
@@ -157682,7 +157460,6 @@
 6;-110.7097,30.3344;84660;Sonora;La Ladrillera
 6;-110.6383,30.5625;84670;Sonora;Los Pozos
 6;-110.6483,28.0253;85530;Sonora;Complementación Ejido Baca Calderón
-6;-110.5732,27.9210;85507;Sonora;Ninguno [Diego Bojórquez Quezada]
 6;-109.6961,27.0169;85284;Sonora;Campo Marcos Aguilera
 6;-109.6894,27.0444;85284;Sonora;El Corral de Ramón Jesús
 6;-109.7239,27.2069;85283;Sonora;Joel Navarro Montoya
@@ -157778,28 +157555,16 @@
 6;-108.9661,29.0261;85600;Sonora;Los Alisos
 6;-108.7678,28.7161;85619;Sonora;El Duraznito
 6;-108.7939,28.6383;85619;Sonora;Zaragoza
-6;-114.9436,32.2097;83513;Sonora;Ninguno [Alejandro García]
-6;-114.8061,32.4872;83419;Sonora;Ninguno [Enriqueta Guevara]
-6;-114.8528,32.4611;83517;Sonora;Ninguno [Isidoro García]
 6;-114.8911,32.4489;83517;Sonora;Queta Chicuate
-6;-114.8294,32.4669;83419;Sonora;Ninguno [Félix Jaques]
 6;-114.8650,32.4489;83517;Sonora;El Herrero
-6;-114.8728,32.4206;83515;Sonora;Ninguno [Alba Aída Pérez]
 6;-114.9469,32.2672;83513;Sonora;Cruz Ochoa
 6;-114.9344,32.3956;83516;Sonora;Empaque Azteca
 6;-115.0142,32.2511;83513;Sonora;Empaque Valenzuela
 6;-114.9089,32.4194;83515;Sonora;Fernando Graciano
-6;-114.8836,32.4506;83517;Sonora;Ninguno [Guillermo Rojas]
-6;-114.9178,32.2333;83513;Sonora;Ninguno [Abraham Reyna Cota]
 6;-114.8903,32.3350;83514;Sonora;José Toledo
-6;-114.8358,32.4217;83470;Sonora;Ninguno [Amador Lara]
-6;-114.9269,32.2367;83513;Sonora;Ninguno [María Zúñiga]
 6;-114.9717,32.2967;83513;Sonora;Rancho de Arturo
 6;-115.0150,32.2844;83513;Sonora;Rancho Reyes
 6;-114.9292,32.3956;83516;Sonora;Josefina Galindo
-6;-114.9328,32.2253;83513;Sonora;Ninguno [Reynaldo Reyna]
-6;-114.9344,32.2286;83513;Sonora;Ninguno [Arnulfo García Reyna]
-6;-114.8710,32.4190;83515;Sonora;Ninguno [Gonzalo Caballero]
 6;-110.8867,29.3717;83376;Sonora;Rancho Aldana
 6;-110.9378,29.3681;83375;Sonora;Viñedo Escondido
 6;-109.6164,29.2175;84710;Sonora;El Peñasco
@@ -157885,7 +157650,6 @@
 6;-98.2311,23.0594;89670;Tamaulipas;Jorge Blanquechip
 6;-98.2936,22.8569;89673;Tamaulipas;El Texano
 6;-98.1172,22.4875;89620;Tamaulipas;Las Tres Hermanas
-6;-98.1994,22.4694;89606;Tamaulipas;Ninguno
 6;-98.0711,22.5022;89604;Tamaulipas;Tope Borrego
 6;-99.0142,24.9983;67448;Tamaulipas;Medina
 6;-98.9014,24.8778;88896;Tamaulipas;San Andrés
@@ -157923,13 +157687,10 @@
 6;-99.3056,24.0269;87840;Tamaulipas;El Henequén
 6;-99.2547,24.3019;87803;Tamaulipas;El Divisadero
 6;-99.1314,24.1594;87799;Tamaulipas;El Dorado
-6;-99.2778,24.0222;87840;Tamaulipas;Ninguno
 6;-99.0108,23.3106;87200;Tamaulipas;La Palma
 6;-99.0772,23.1272;87208;Tamaulipas;Conrado Castillo III (La Josefeña)
 6;-99.0808,23.2744;87206;Tamaulipas;El Tanque
 6;-98.9908,23.4067;87200;Tamaulipas;Ezequiel Castillo Cedillo
-6;-99.0019,23.5506;87024;Tamaulipas;Ninguno
-6;-98.7806,23.1253;87229;Tamaulipas;Ninguno
 6;-99.4906,24.6286;87875;Tamaulipas;Las Palmas
 6;-98.9878,22.7119;89840;Tamaulipas;Brecha Canales
 6;-99.0694,22.7592;89914;Tamaulipas;La Herradura
@@ -157959,7 +157720,6 @@
 6;-97.4786,25.3908;87587;Tamaulipas;Isla de los Leones
 6;-97.8170,25.4967;87394;Tamaulipas;El Mayito
 6;-97.5753,25.6950;87390;Tamaulipas;María Teresa
-6;-97.5997,25.6667;87440;Tamaulipas;Ninguno
 6;-97.6569,25.6836;87350;Tamaulipas;Tres Hermanas
 6;-97.6542,25.6669;87350;Tamaulipas;Rancho 820
 6;-97.7644,26.0231;87315;Tamaulipas;El Ciruelo (Abel García Balderas)
@@ -158051,7 +157811,6 @@
 6;-97.8264,23.4192;87696;Tamaulipas;El Noventa
 6;-98.0267,23.8900;87670;Tamaulipas;El Chamalito
 6;-98.1247,24.0703;87770;Tamaulipas;El Pollo (El Pollito)
-6;-98.2169,23.7242;87679;Tamaulipas;Ninguno [Planta Briqueteadora]
 6;-97.8753,23.4850;87696;Tamaulipas;El Texano
 6;-98.3300,23.7861;87679;Tamaulipas;El Filetito
 6;-98.1681,23.8094;87679;Tamaulipas;El Mogote
@@ -158783,9 +158542,7 @@
 6;-89.3578,21.1044;97446;Yucatán;La Comunidad
 6;-88.5861,21.1975;97624;Yucatán;Santa Rosa
 6;-88.7014,21.1942;97625;Yucatán;Los Almendros
-6;-88.7861,21.1928;97620;Yucatán;Ninguno [Vivero]
 6;-87.9378,20.7889;97774;Yucatán;Colonchán
-6;-87.6572,20.8600;97774;Yucatán;Ninguno
 6;-88.1394,20.4644;97760;Yucatán;San José Che
 6;-89.8561,20.7522;97816;Yucatán;San Luis Tres
 6;-88.8039,21.3353;97605;Yucatán;San Pablo
@@ -158948,7 +158705,6 @@
 6;-103.5869,22.3061;99400;Zacatecas;Corral de Piedra
 6;-103.5128,22.2772;99400;Zacatecas;El Mirador
 6;-103.1614,21.2789;99994;Zacatecas;Rancho el Dulce
-6;-103.1725,21.2711;99993;Zacatecas;Ninguno
 6;-102.7356,21.4092;99919;Zacatecas;Paso de Carreta
 6;-102.8239,21.5406;99915;Zacatecas;El Cedro
 6;-102.8361,21.3636;99904;Zacatecas;Arboledas
@@ -159184,7 +158940,6 @@
 5;-115.7094,31.3803;22917;Baja California;San José
 5;-115.6264,31.3586;22917;Baja California;Lote Ciento Dieciséis
 5;-116.6481,31.5408;22795;Baja California;El Burro
-5;-115.9686,30.6547;22925;Baja California;Ninguno
 5;-115.6989,30.0619;22960;Baja California;Rancho Zaragoza
 5;-114.7211,30.9325;21850;Baja California;El Faro Beach
 5;-115.3061,32.6411;21395;Baja California;Familia Becerril
@@ -159373,7 +159128,6 @@
 5;-111.1055,24.8284;23701;Baja California Sur;San Juanito Nuevo
 5;-110.3179,23.8248;23250;Baja California Sur;San Miguel del Triángulo
 5;-110.0123,23.3564;23351;Baja California Sur;Santa Cecilia
-5;-110.3116,24.0407;23088;Baja California Sur;Ninguno [Invernadero]
 5;-111.0983,24.4245;23150;Baja California Sur;La Pimientilla
 5;-110.9613,24.2762;23170;Baja California Sur;Kilómetro 91
 5;-109.7181,23.6833;23330;Baja California Sur;Baja Bananas [Taller]
@@ -159426,7 +159180,6 @@
 5;-109.6982,23.2833;23522;Baja California Sur;La Ilusión
 5;-109.8433,22.9097;23473;Baja California Sur;La Rivera (Cabo del Sol)
 5;-110.0283,23.0240;23580;Baja California Sur;El Agua de Paloma
-5;-109.6920,23.6409;23330;Baja California Sur;Ninguno
 5;-109.9381,23.0456;23593;Baja California Sur;Los Morritos
 5;-109.9875,23.1406;23586;Baja California Sur;El Parralito
 5;-109.8552,22.9243;23467;Baja California Sur;Los Cerritos
@@ -159542,14 +159295,12 @@
 5;-91.1844,18.4011;24317;Campeche;Tierra Prometida
 5;-91.7936,18.1919;24207;Campeche;El Castillo
 5;-91.8014,18.2025;24324;Campeche;La Guadalupe
-5;-91.8094,18.2306;24207;Campeche;Ninguno
 5;-91.6353,18.3408;24323;Campeche;Macgregor
 5;-92.4072,18.6506;24130;Campeche;El Girasol de Ciudad del Carmen
 5;-91.1783,18.3683;24317;Campeche;Floralma
 5;-91.9619,18.5969;24170;Campeche;Las Palmitas
 5;-91.0158,18.8194;24313;Campeche;Los Rosales
 5;-90.5861,19.2300;24411;Campeche;Los Pinedas
-5;-90.3047,19.0114;24443;Campeche;Ninguno [Pronagra]
 5;-90.8742,18.9583;24410;Campeche;La Cañada
 5;-90.7467,19.3186;24400;Campeche;Los Laureles
 5;-90.5244,19.0628;24400;Campeche;El Rosario
@@ -159590,7 +159341,6 @@
 5;-89.2389,18.4869;24643;Campeche;El Edén
 5;-89.3206,18.4972;24643;Campeche;El Iris
 5;-89.3203,18.4967;24643;Campeche;Los 3 Martínez
-5;-89.3847,18.5064;24640;Campeche;Ninguno [Ecohabitat]
 5;-90.1158,18.6947;24658;Campeche;La Montaña [UMA]
 5;-90.5942,17.8661;24347;Campeche;Alvarín
 5;-90.9983,18.0572;24336;Campeche;Casa Blanca
@@ -159860,7 +159610,6 @@
 5;-103.8694,18.8833;28134;Colima;Humberto Moreno
 5;-103.8244,18.7839;28140;Colima;El Guayabal
 5;-103.9114,18.9289;28120;Colima;Alberto Gudiño
-5;-103.9181,18.9358;28934;Colima;Ninguno [Pozo Cinco SARH]
 5;-103.7306,18.7614;28900;Colima;Valle Viejo
 5;-103.8908,18.9119;28133;Colima;Loma Bonita
 5;-103.7875,18.8997;28944;Colima;La Mina
@@ -160031,7 +159780,6 @@
 5;-92.1925,16.3208;30105;Chiapas;La Cabaña
 5;-92.1814,16.0875;30108;Chiapas;Santa Emilia
 5;-92.1803,16.3519;30105;Chiapas;La Independencia
-5;-92.0792,16.2772;30107;Chiapas;Ninguno
 5;-92.1412,16.1987;30093;Chiapas;Los Girasoles
 5;-92.0775,16.2081;30074;Chiapas;San Antonio el Milagro
 5;-92.1619,16.1097;30100;Chiapas;San Isidro
@@ -161153,7 +160901,6 @@
 5;-104.8958,27.3919;33970;Chihuahua;Rancho el Olivo
 5;-104.8739,27.1147;33970;Chihuahua;El Retiro
 5;-104.8638,27.2987;33970;Chihuahua;El Sicomoro
-5;-104.5019,26.8309;33977;Chihuahua;Ninguno
 5;-104.9147,27.0940;33970;Chihuahua;San Jacinto
 5;-104.9700,27.0958;33970;Chihuahua;La Noria
 5;-106.4631,31.3454;32605;Chihuahua;El Coyote
@@ -161201,7 +160948,6 @@
 5;-105.4827,28.2438;33038;Chihuahua;Rancho de los López
 5;-105.4780,28.2480;33038;Chihuahua;Granja Pita
 5;-105.3844,28.2794;33068;Chihuahua;Rancho la Antena
-5;-105.4630,28.3441;33130;Chihuahua;Ninguno [Engorda de Becerros]
 5;-105.4981,28.3704;33130;Chihuahua;Los Soto
 5;-105.5127,28.2691;33038;Chihuahua;Rancho los Sánchez
 5;-105.4638,28.3583;33130;Chihuahua;Las Anitas
@@ -161620,7 +161366,6 @@
 5;-100.5875,20.8733;37887;Guanajuato;La Chingada
 5;-100.5592,20.4264;38534;Guanajuato;El Maguey
 5;-100.5958,20.3728;38525;Guanajuato;La Peña Blanca
-5;-100.5069,20.5150;38514;Guanajuato;Ninguno [Granja Porcina]
 5;-100.4964,20.5942;38183;Guanajuato;Colunga
 5;-100.5200,20.5608;38185;Guanajuato;El Rayo
 5;-100.5847,20.6658;38170;Guanajuato;La Peña
@@ -161670,7 +161415,6 @@
 5;-100.9336,21.2925;37823;Guanajuato;Rancho la Vía Seca
 5;-100.8689,21.3214;37874;Guanajuato;El Tapatío
 5;-100.9533,21.1556;37806;Guanajuato;El Garambullo
-5;-100.8997,21.1700;37804;Guanajuato;Ninguno [Sanatorio]
 5;-100.9464,21.0244;37848;Guanajuato;San Ramón
 5;-101.2767,21.0425;36246;Guanajuato;Presa de la Soledad
 5;-101.3292,21.0403;36243;Guanajuato;San Ignacio de Purísima
@@ -161682,7 +161426,6 @@
 5;-101.3433,20.6381;36595;Guanajuato;Granja San Fernando
 5;-101.3742,20.6144;36846;Guanajuato;Rancho San Isidro
 5;-101.2875,20.6144;36844;Guanajuato;La Bota del Monte
-5;-101.3386,20.7931;36810;Guanajuato;Ninguno [Empacadora de Zanahorias]
 5;-101.3472,20.7628;36817;Guanajuato;Las Margaritas
 5;-101.3517,20.8011;36813;Guanajuato;El Llanito
 5;-101.3597,20.5933;36840;Guanajuato;Granja San Isidro (Manuel Granados Banda)
@@ -161746,7 +161489,6 @@
 5;-101.0922,20.5328;36883;Guanajuato;Harinera
 5;-101.1606,20.6222;36863;Guanajuato;El Refugio
 5;-101.1231,20.5578;36883;Guanajuato;La Carmelita
-5;-101.1467,20.5511;36885;Guanajuato;Ninguno [Fábrica de Helados]
 5;-101.2483,20.6231;36875;Guanajuato;El Aroma
 5;-101.0850,20.4925;36887;Guanajuato;Antonio González Puente
 5;-101.2708,20.5094;36878;Guanajuato;Juan Diosdado Pérez
@@ -161755,7 +161497,6 @@
 5;-101.1567,20.5478;36885;Guanajuato;Carmen León Sánchez
 5;-101.0842,20.5383;36883;Guanajuato;Rancho de Don Mariano
 5;-100.8850,20.2403;38900;Guanajuato;Eduardo Mercado
-5;-100.8383,20.2356;38919;Guanajuato;Ninguno [Gasolinera]
 5;-100.9839,20.2833;38911;Guanajuato;Miguel Ruiz Ruiz
 5;-100.7025,21.3564;37876;Guanajuato;El Suspiro
 5;-100.8956,21.3519;37874;Guanajuato;Efraín Méndez Moncada
@@ -161877,7 +161618,6 @@
 5;-101.7432,18.5505;40865;Guerrero;La Arocuera
 5;-98.9608,18.0485;41061;Guerrero;Tlapanalco
 5;-99.1237,17.8906;41060;Guerrero;El Terrero
-5;-98.6475,17.3825;41499;Guerrero;Ninguno
 5;-100.2679,17.0944;40981;Guerrero;Pie de la Cuesta
 5;-100.1041,17.1342;40981;Guerrero;La Bugambilia
 5;-100.2341,17.0214;40982;Guerrero;Los Mangos
@@ -161934,7 +161674,6 @@
 5;-99.9916,17.8083;39130;Guerrero;La Uva
 5;-99.9375,17.7489;39141;Guerrero;Las Joyas
 5;-99.3593,18.3206;40133;Guerrero;Rancho Agua Zarca
-5;-99.5101,18.3602;40050;Guerrero;Ninguno [La Granja Porcina]
 5;-99.5171,18.3693;40034;Guerrero;Ranchito Hermanos Ayala Bandera
 5;-99.5219,18.3736;40034;Guerrero;Colonia Tonalapita Sur
 5;-101.2960,18.0163;40892;Guerrero;Las Cuevas (Cuevitas)
@@ -162116,7 +161855,6 @@
 5;-104.2772,20.1719;48577;Jalisco;Rancho las Águilas
 5;-102.4322,20.4103;47925;Jalisco;Palo Dulce
 5;-102.6033,20.2978;47900;Jalisco;Grafoler [Granja]
-5;-102.5233,20.4192;47920;Jalisco;Ninguno [Granja Tres Sacamecate]
 5;-102.4289,20.4119;47925;Jalisco;Rancho Pancho Ballesteros
 5;-103.7392,21.8661;46140;Jalisco;El Mirador de Bolaños
 5;-103.7369,21.8633;46140;Jalisco;Borrotillos (Borotillo)
@@ -162145,7 +161883,6 @@
 5;-103.4586,19.7414;49060;Jalisco;Rancho la Curva
 5;-103.5128,19.6361;49100;Jalisco;La Cascada
 5;-103.5597,19.7119;49109;Jalisco;Camichines Uno
-5;-103.5389,19.6583;49100;Jalisco;Ninguno [Rancho AVICOV]
 5;-103.4672,19.7683;49120;Jalisco;Rancho las Primaveras
 5;-103.4556,19.7389;49060;Jalisco;Rancho Salvador Solórzano
 5;-103.4433,19.6856;49615;Jalisco;Rancho San Agustín
@@ -162192,7 +161929,6 @@
 5;-102.1567,21.5511;47270;Jalisco;Rancho las Trojas
 5;-102.0175,21.5489;47288;Jalisco;Rancho de la Cruz
 5;-104.0775,20.7842;46500;Jalisco;San Juan (El Ideal Nueve Hermanos)
-5;-104.0839,20.7781;46500;Jalisco;Ninguno [Granja Banamichi Número Ocho]
 5;-104.1519,20.7731;46530;Jalisco;San Pedreño
 5;-104.1372,20.7700;46503;Jalisco;Bárcenas
 5;-104.1389,20.7689;46503;Jalisco;La Jota
@@ -162259,7 +161995,6 @@
 5;-101.8444,21.4053;47520;Jalisco;La Providencia
 5;-101.7578,21.2719;47527;Jalisco;El Mojino
 5;-102.0267,21.7667;47506;Jalisco;El Seijo
-5;-101.7608,21.4950;47525;Jalisco;Ninguno
 5;-101.8311,21.4919;47510;Jalisco;Rancho Vista Alegre
 5;-103.9222,20.9039;46409;Jalisco;Las Navajas
 5;-102.6661,19.4631;59967;Jalisco;La Cieneguita
@@ -162269,7 +162004,6 @@
 5;-102.8064,19.4956;49994;Jalisco;Agua del Pinto
 5;-104.9994,20.6694;48328;Jalisco;El Calabozo
 5;-104.6794,20.3592;46955;Jalisco;El Ocotillo
-5;-104.8547,20.5717;46943;Jalisco;Ninguno [Aserradero Potrerillos]
 5;-104.7122,20.3711;46955;Jalisco;San Carlos
 5;-104.7822,20.5386;46907;Jalisco;Los Tejabanes
 5;-104.7819,20.5392;46907;Jalisco;San José
@@ -162475,11 +162209,9 @@
 5;-102.7361,20.5086;47748;Jalisco;La Puerquera
 5;-102.7831,20.5164;47747;Jalisco;El Guamúchil
 5;-102.6878,20.5392;47743;Jalisco;Las Caleras
-5;-102.7953,20.5503;47730;Jalisco;Ninguno [Camposanto]
 5;-102.6783,20.5653;47740;Jalisco;Las Cuestas [Granjas]
 5;-104.0403,19.7072;48770;Jalisco;Govea
 5;-103.4597,19.5153;49820;Jalisco;El Calabozo (Rancho de Mejía)
-5;-103.3875,19.5728;49635;Jalisco;Ninguno [Aserradero]
 5;-103.3469,19.4603;49915;Jalisco;Crucero de San Pedro
 5;-102.1506,21.1589;47576;Jalisco;Mesa del Rodeo (La Borrasca)
 5;-101.9725,21.1392;47574;Jalisco;La Pitahaya
@@ -162844,7 +162576,6 @@
 5;-100.6444,18.8789;61373;Michoacán;El Timbinillo
 5;-100.9422,19.2475;61397;Michoacán;El Inventario
 5;-100.9567,19.2431;61396;Michoacán;El Rincón
-5;-102.0497,19.9753;58755;Michoacán;Ninguno
 5;-102.6211,19.6211;59975;Michoacán;El Aventadero
 5;-102.5739,18.5578;60917;Michoacán;El Ocaso
 5;-102.5378,18.6983;60918;Michoacán;La Yácata (La Chachalaca)
@@ -163232,7 +162963,6 @@
 5;-99.5272,24.9500;67825;Nuevo León;El Paraíso
 5;-99.5511,24.7756;67755;Nuevo León;Valle Verde
 5;-99.6050,24.8989;67825;Nuevo León;La Ley del Monte
-5;-99.4631,24.8778;67817;Nuevo León;Ninguno
 5;-99.3547,25.0303;67816;Nuevo León;San Francisco
 5;-99.6478,24.7231;67800;Nuevo León;Santa Verónica
 5;-100.0367,25.8734;66700;Nuevo León;Beto Santamaría
@@ -163250,7 +162980,6 @@
 5;-99.9281,25.0509;67619;Nuevo León;Los Arizpe
 5;-99.9253,25.2059;67600;Nuevo León;Pablo Alvarado Guerra (Camino del Agua)
 5;-99.9317,25.1203;67617;Nuevo León;El Ranchito de René
-5;-100.3048,25.5875;64987;Nuevo León;Ninguno
 5;-99.7084,26.4970;65449;Nuevo León;Porfirio Ábrego
 5;-100.0534,25.7070;66670;Nuevo León;El Mezquite
 5;-99.8525,25.7384;66790;Nuevo León;Rancho Nuevo (Los Garza)
@@ -163818,7 +163547,6 @@
 5;-88.4306,18.6222;77937;Quintana Roo;Masay Mara
 5;-88.2559,18.6124;77926;Quintana Roo;Catorce Hermanos (Santa Lucía)
 5;-89.1047,18.4703;77987;Quintana Roo;La Güera
-5;-88.5542,18.3892;77985;Quintana Roo;Ninguno
 5;-88.9361,18.5036;77984;Quintana Roo;Mirador
 5;-88.6497,18.2500;77984;Quintana Roo;Los Pinos
 5;-89.0022,18.4577;77984;Quintana Roo;El Potrillo
@@ -163943,7 +163671,6 @@
 5;-98.9578,21.9692;79270;San Luis Potosí;Isidro Rodríguez Hernández
 5;-98.9811,22.1886;79284;San Luis Potosí;Joaquín Peralta
 5;-98.9506,21.7578;79265;San Luis Potosí;El Rincón
-5;-98.9878,22.0372;79025;San Luis Potosí;Ninguno [Granja]
 5;-99.0047,21.9042;79060;San Luis Potosí;Eufemio Cruz
 5;-99.0661,21.9275;79254;San Luis Potosí;Dos Caminos
 5;-98.9772,22.0550;79095;San Luis Potosí;Roberto López García
@@ -164134,7 +163861,6 @@
 5;-108.8919,25.8716;81360;Sinaloa;Campo los Botetes
 5;-108.9056,25.8456;81361;Sinaloa;Granja Poreco
 5;-109.3223,25.9828;81330;Sinaloa;Huacaporo
-5;-109.0624,25.8386;81277;Sinaloa;Ninguno [Deportivo Radio Sistema del Noroeste]
 5;-108.7947,25.7930;81383;Sinaloa;La Doscientos [Pista Aérea]
 5;-109.0521,25.6785;81270;Sinaloa;Tepa
 5;-108.1692,25.3731;81622;Sinaloa;Las Flores
@@ -164242,7 +163968,6 @@
 5;-106.6537,24.1908;82723;Sinaloa;La Cañita
 5;-106.7395,24.1956;82721;Sinaloa;San Rafael
 5;-106.6846,24.2095;82720;Sinaloa;El Apomo
-5;-106.7417,24.1472;82721;Sinaloa;Ninguno
 5;-105.7592,22.8319;82420;Sinaloa;La Verdolaga (Colonia Guadalupe)
 5;-105.8593,22.7445;82530;Sinaloa;El Rodeo
 5;-105.8024,22.8086;82534;Sinaloa;Chemo Lerma
@@ -164268,7 +163993,6 @@
 5;-108.5346,25.4427;81049;Sinaloa;Rancho Victoria
 5;-108.4060,25.4800;81107;Sinaloa;Campo de Peñuelas
 5;-108.7395,25.7201;81127;Sinaloa;Volkart [Despepitadora Algodonera]
-5;-108.7101,25.7660;81045;Sinaloa;Ninguno [Campo Sergio León]
 5;-108.7383,25.7176;81127;Sinaloa;Campo Serrano
 5;-108.4471,25.6204;81103;Sinaloa;Aviación del Caimanero
 5;-108.6619,25.6587;81065;Sinaloa;Campo Santa Elena
@@ -164305,7 +164029,6 @@
 5;-107.7263,25.0199;80954;Sinaloa;Norobato (Campo Sacrificio)
 5;-107.9567,25.4818;80893;Sinaloa;Los Becos
 5;-107.7177,24.9375;80956;Sinaloa;El Saucito
-5;-107.8921,25.0633;80965;Sinaloa;Ninguno
 5;-107.6421,24.9576;80304;Sinaloa;San Antonio
 5;-107.6607,25.1505;80930;Sinaloa;Rancho Doña Cira
 5;-105.4780,23.1079;82860;Sinaloa;El Aguacate
@@ -164320,7 +164043,6 @@
 5;-105.7242,23.0801;82880;Sinaloa;Los Ciruelares
 5;-106.1479,23.0844;82210;Sinaloa;Casas Blancas
 5;-105.8804,23.0148;82850;Sinaloa;Granja San Rafael
-5;-105.7235,23.0423;82880;Sinaloa;Ninguno
 5;-105.9807,22.8894;82872;Sinaloa;La Quinta
 5;-105.8064,23.0751;82803;Sinaloa;El Cardón (La Ceiba)
 5;-105.8476,22.9193;82876;Sinaloa;Las Palmeras (Rancho Nolbe)
@@ -164604,7 +164326,6 @@
 5;-109.5056,27.0839;85228;Sonora;El Cumbro
 5;-109.3039,27.3006;85235;Sonora;Graciano Sánchez (Yorigibe)
 5;-109.4142,26.9669;85224;Sonora;Lolita
-5;-109.4639,27.0039;85224;Sonora;Ninguno [Pedro Almada]
 5;-109.2708,27.0819;85238;Sonora;El Alamito
 5;-109.4989,26.9986;85226;Sonora;La Bomba
 5;-109.7869,27.2755;85229;Sonora;Arroyo Cocoraque (Ladrillera)
@@ -164646,22 +164367,16 @@
 5;-109.7783,28.7033;85620;Sonora;Agua Nueva
 5;-114.9925,32.2514;83513;Sonora;Efraín Démara García
 5;-115.0047,32.2508;83513;Sonora;El Pony
-5;-114.9408,32.2414;83513;Sonora;Ninguno [Sergio Muñoz]
-5;-114.8603,32.4316;83517;Sonora;Ninguno [Antonio Márquez Herrera]
 5;-114.9219,32.2569;83513;Sonora;Armando Montaño
-5;-114.8550,32.4419;83517;Sonora;Ninguno [Bertha López]
 5;-114.9253,32.2128;83513;Sonora;Los Urías
 5;-114.9289,32.2600;83513;Sonora;Consuelo Cruz
 5;-114.9706,32.2947;83513;Sonora;Bonfil [Gasolinera]
 5;-114.9178,32.2808;83514;Sonora;Gustavo Lira Pino
-5;-114.9483,32.1883;21810;Sonora;Ninguno [Isabel Fernández Martínez]
 5;-114.9808,32.3183;21801;Sonora;Javier Reyes
 5;-114.9111,32.3067;83515;Sonora;José Luis Lugo Bejarano
-5;-114.9439,32.2497;83513;Sonora;Ninguno [Macaria Torres Esquivel]
 5;-114.9289,32.4283;21138;Sonora;Pedro Camarillo
 5;-114.9708,32.3169;83516;Sonora;Ramón Fajardo
 5;-114.8467,32.4408;83517;Sonora;Rancho Díaz
-5;-114.7925,32.4803;83419;Sonora;Ninguno [Parcela Veintiséis]
 5;-114.8075,32.4842;83419;Sonora;La Mora
 5;-114.8556,32.2497;83514;Sonora;Productora Padre Kino
 5;-110.9292,29.3636;83375;Sonora;Campo CESUES
@@ -164669,7 +164384,6 @@
 5;-110.8892,29.3533;83376;Sonora;Hipódromo los Mezquites
 5;-111.2233,30.4381;84610;Sonora;Santa Rita
 5;-111.1606,30.3339;83910;Sonora;Dos de Mayo (La Loma)
-5;-111.1486,30.5528;84603;Sonora;Ninguno [Manuel Estrella Medina]
 5;-111.5306,31.4608;83870;Sonora;Los Panchos
 5;-109.6450,28.7650;85640;Sonora;La Máquina
 5;-109.8833,28.4194;85580;Sonora;El Tunal
@@ -166289,7 +166003,6 @@
 4;-102.2861,22.0547;20305;Aguascalientes;La Unión
 4;-102.2444,22.0656;20600;Aguascalientes;Los Arcos
 4;-102.2408,21.9844;20350;Aguascalientes;Días Divertidos [Parque]
-4;-102.2822,22.0664;20305;Aguascalientes;Ninguno [Taller]
 4;-116.4519,31.5639;22795;Baja California;Rancho Granados Collins
 4;-116.6897,31.9158;22860;Baja California;Rancho Barreda
 4;-116.5883,32.0553;22839;Baja California;Aguaje Escondido
@@ -166614,7 +166327,6 @@
 4;-110.3125,23.9067;23084;Baja California Sur;Los Juanitos
 4;-110.0020,23.3514;23351;Baja California Sur;La Aplanada
 4;-110.0551,23.8978;23284;Baja California Sur;Las Cabras
-4;-110.7368,23.9281;23300;Baja California Sur;Ninguno
 4;-110.3589,24.1010;23205;Baja California Sur;La Huerta de Marvella
 4;-110.3597,24.1083;23205;Baja California Sur;González [Mini Súper]
 4;-109.7712,23.6283;23333;Baja California Sur;Ángel de la Guarda
@@ -166666,7 +166378,6 @@
 4;-109.8634,22.9739;23473;Baja California Sur;Agüita Escondida
 4;-109.6163,23.5789;23570;Baja California Sur;San Nicolás
 4;-109.9217,22.9892;23456;Baja California Sur;La Amistad
-4;-109.6028,23.6142;23570;Baja California Sur;Ninguno
 4;-109.5964,23.5881;23570;Baja California Sur;Vianey [Restaurante]
 4;-109.5963,23.5893;23570;Baja California Sur;Mi Buena Fortuna
 4;-109.8345,22.9176;23473;Baja California Sur;Buena Vista
@@ -166750,7 +166461,6 @@
 4;-91.1044,18.8728;24313;Campeche;El Búfalo
 4;-91.7247,17.9489;86998;Campeche;Venecia
 4;-91.8025,18.1964;24207;Campeche;Hawai
-4;-91.4131,18.1389;24317;Campeche;Ninguno
 4;-92.3239,18.6258;24130;Campeche;Los Laureles
 4;-91.0917,18.4661;24314;Campeche;El Sacrificio
 4;-91.6919,17.9925;24307;Campeche;San Paulino
@@ -166766,7 +166476,6 @@
 4;-92.3014,18.6292;24157;Campeche;La Escondida
 4;-91.0133,18.8097;24313;Campeche;La Granja
 4;-91.4994,18.1364;86940;Campeche;María Elena
-4;-92.2164,18.6197;24157;Campeche;Ninguno [Vulcanizadora]
 4;-91.0631,18.9164;24313;Campeche;El Sacrificio
 4;-90.8989,18.7875;24313;Campeche;Las Torcazas
 4;-90.9008,18.7831;24313;Campeche;Monte Horeb
@@ -166776,7 +166485,6 @@
 4;-91.6444,18.3794;24323;Campeche;Las Tranquitas
 4;-92.2356,18.6214;24157;Campeche;Los Manguitos
 4;-91.0400,18.5875;24315;Campeche;Los Tucanes [Restaurante]
-4;-91.0086,18.8314;24313;Campeche;Ninguno [Criadores Asociados Sala de Corte]
 4;-90.7253,19.0383;24414;Campeche;Holail
 4;-90.9056,18.9297;24410;Campeche;La Aguada
 4;-90.7314,19.1650;24413;Campeche;Las Arboledas
@@ -166816,7 +166524,6 @@
 4;-91.8064,18.1956;24207;Campeche;Santa Martha
 4;-91.8681,18.5297;24155;Campeche;Los Gavilanes
 4;-91.9214,18.0533;24206;Campeche;Texas
-4;-90.7583,18.5294;24354;Campeche;Ninguno [Ganadera Uno]
 4;-90.7664,18.4067;24356;Campeche;El Limón
 4;-90.9278,18.6253;24367;Campeche;Pachuca
 4;-90.6600,18.5911;24353;Campeche;San Juan
@@ -166828,7 +166535,6 @@
 4;-90.7375,18.6556;24369;Campeche;Rancho Alegre
 4;-90.2672,18.6492;24370;Campeche;Rivera Medina
 4;-90.2678,18.6492;24370;Campeche;Santa Verónica
-4;-90.8294,18.6169;24368;Campeche;Ninguno [J y L]
 4;-89.3364,18.9214;24643;Campeche;La Ceiba
 4;-89.3450,18.4989;24640;Campeche;El Toro
 4;-89.3131,18.4969;24643;Campeche;Félix
@@ -166951,7 +166657,6 @@
 4;-103.2779,25.8125;27914;Coahuila;María de Lourdes Encina Bernal
 4;-103.2761,25.7893;27916;Coahuila;Oscar Javier Campos Sifuentes
 4;-103.3086,25.8625;27926;Coahuila;Francisco Rodríguez Delgado
-4;-101.4737,26.9822;25747;Coahuila;Ninguno [Ciudad Sanitaria]
 4;-101.4598,26.9764;25600;Coahuila;La Esperanza (Jaime Mario Castellanos Córdova)
 4;-101.5015,26.9036;25618;Coahuila;San Isidro [Confinamiento Industrial]
 4;-101.4967,26.9893;25800;Coahuila;Alberto Villa Arias
@@ -166996,7 +166701,6 @@
 4;-101.3365,26.9383;25740;Coahuila;Roberto Valdez
 4;-100.9187,28.3730;26510;Coahuila;Hacienda Cuajimulco
 4;-100.8748,28.4475;26506;Coahuila;Lunas, Flores y Rosas
-4;-100.8926,28.4264;26506;Coahuila;Ninguno [Lienzo Charro]
 4;-101.6823,27.9872;26345;Coahuila;José Martínez
 4;-101.5387,27.9055;26342;Coahuila;Altamira
 4;-101.5334,27.9105;26342;Coahuila;El Nuevo Paraíso
@@ -167023,7 +166727,6 @@
 4;-100.5673,28.6489;26083;Coahuila;Casa Blanca
 4;-100.5893,28.7014;26086;Coahuila;Jorge Flores Vázquez
 4;-101.1854,27.3878;25450;Coahuila;San Andrés
-4;-100.8698,25.6003;25902;Coahuila;Ninguno [Forrajes y Engordas Técnicas]
 4;-101.4245,26.1825;25946;Coahuila;Sacrificio (San Luis)
 4;-100.8864,25.5187;25949;Coahuila;La Cañada Dos (Cañada de Arriba)
 4;-101.1398,25.7978;25923;Coahuila;El Chilar [Granja Porcícola]
@@ -167098,7 +166801,6 @@
 4;-103.7475,19.2006;28629;Colima;Follajes Tropicales
 4;-103.7717,19.1042;28130;Colima;Calhidra de Occidente
 4;-103.7744,19.0844;28134;Colima;Calhidra la Gloria
-4;-103.7672,19.1294;28504;Colima;Ninguno [CECAF AC]
 4;-103.5272,19.1869;28630;Colima;El Huérfano
 4;-103.6758,19.2253;28170;Colima;Amador Macías
 4;-103.7461,19.2269;28085;Colima;Germán Torres
@@ -167135,8 +166837,6 @@
 4;-103.6656,18.9108;28735;Colima;La Pedregosa (Rucha)
 4;-104.5447,19.2325;28834;Colima;Las Parotas
 4;-104.2997,19.0236;28809;Colima;Rancho del Coco (Víctor Cernas)
-4;-104.2036,19.0758;28887;Colima;Ninguno [Trituradora del Municipio]
-4;-104.3469,19.1400;28865;Colima;Ninguno [Centro de Espectáculos Santiago]
 4;-104.3436,19.1514;28239;Colima;Marcos Mendía Jiménez (Los Loros)
 4;-104.1892,19.1011;28858;Colima;Pedro Martínez
 4;-104.2142,19.0400;28887;Colima;Rafael Vera
@@ -167164,7 +166864,6 @@
 4;-103.7969,18.8222;28120;Colima;Rancho Beltrán
 4;-103.7972,19.0239;28100;Colima;El Padre
 4;-103.7311,18.7700;28900;Colima;Tranquilino Contreras
-4;-103.8467,18.9075;28143;Colima;Ninguno [Zona de Tolerancia]
 4;-103.7650,18.7814;28900;Colima;Beto Gudiño
 4;-103.9425,18.9514;28330;Colima;El Columpio (Sergio Navarro)
 4;-103.8400,18.8864;28134;Colima;Don Raúl
@@ -167198,7 +166897,6 @@
 4;-92.6925,15.2114;30584;Chiapas;La Vega
 4;-92.7903,15.3786;30583;Chiapas;Las Dorias
 4;-92.7646,15.2017;30585;Chiapas;La Valdiviana
-4;-92.8314,15.1361;30585;Chiapas;Ninguno
 4;-92.8136,15.2936;30587;Chiapas;Santa Rosa
 4;-92.6833,15.2569;30584;Chiapas;La Loma
 4;-92.7992,15.3811;30583;Chiapas;El Recuerdo
@@ -167598,7 +167296,6 @@
 4;-91.7497,17.4772;29960;Chiapas;Agua Clara
 4;-92.1617,17.5483;29907;Chiapas;Nuevo Progreso
 4;-92.2111,17.6972;29960;Chiapas;Santa Isabel
-4;-91.9042,17.4092;29968;Chiapas;Ninguno
 4;-91.8292,17.7731;29962;Chiapas;Muzquiz
 4;-91.8639,17.7614;29962;Chiapas;El Pirata
 4;-91.8875,17.6561;29964;Chiapas;Santa Margarita
@@ -168147,7 +167844,6 @@
 4;-106.5622,26.4566;33573;Chihuahua;El Chihuite
 4;-106.5472,26.3997;33573;Chihuahua;Las Joyas
 4;-106.3905,26.2859;33570;Chihuahua;La Lagunita
-4;-106.7918,26.9825;33563;Chihuahua;Ninguno
 4;-106.3494,26.5344;33570;Chihuahua;La Impregnadora
 4;-106.8175,26.9403;33565;Chihuahua;La Culebra 2
 4;-106.4353,27.0644;33566;Chihuahua;El Ojito
@@ -168177,7 +167873,6 @@
 4;-107.6419,27.9796;33217;Chihuahua;Noritari
 4;-107.6538,28.0655;31698;Chihuahua;Bajío Redondo
 4;-107.6013,27.9566;33217;Chihuahua;Barrio de la Cruz
-4;-107.5925,27.9844;33217;Chihuahua;Ninguno
 4;-107.5597,27.7178;33237;Chihuahua;Rojusarare
 4;-107.8044,27.6117;33233;Chihuahua;Los Trigos
 4;-107.4833,29.8457;31899;Chihuahua;Rancho el Manzano
@@ -168216,7 +167911,6 @@
 4;-108.0671,30.3374;31857;Chihuahua;El Milagro
 4;-108.0712,30.3523;31857;Chihuahua;La Manga
 4;-107.9414,30.4604;31710;Chihuahua;Primera Vista
-4;-108.0095,30.6126;31803;Chihuahua;Ninguno
 4;-108.0587,30.3285;31857;Chihuahua;Las Tinajas de San Francisco
 4;-107.9912,30.3580;31852;Chihuahua;La Victoria
 4;-108.0897,30.3189;31857;Chihuahua;El Matadero
@@ -168260,7 +167954,6 @@
 4;-106.9497,28.1070;33259;Chihuahua;Loma Linda
 4;-106.9227,28.1766;33243;Chihuahua;Talayote
 4;-107.0299,28.1432;33257;Chihuahua;La Esperanza
-4;-106.8608,28.3124;33253;Chihuahua;Ninguno
 4;-106.2671,28.8345;31370;Chihuahua;El Peñasco
 4;-106.2438,28.9352;31214;Chihuahua;Rancho Granja Roja
 4;-106.2430,29.0327;31150;Chihuahua;San Carlos Dos
@@ -168485,7 +168178,6 @@
 4;-106.4514,31.3626;32380;Chihuahua;El Pistacho
 4;-106.5905,31.5810;32108;Chihuahua;Plazuela de Acuña [Granja Porcícola]
 4;-106.6490,31.5352;32675;Chihuahua;El Terán
-4;-106.4505,31.3668;32380;Chihuahua;Ninguno [Viveros Forestales]
 4;-105.4250,28.6229;32953;Chihuahua;El Dorado (Peña Blanca)
 4;-105.4668,28.3907;32950;Chihuahua;Rancho Gallardo
 4;-105.4356,28.4553;32952;Chihuahua;Rancho de Franco
@@ -168514,7 +168206,6 @@
 4;-105.6243,26.7444;33960;Chihuahua;El Mezteño
 4;-105.5759,28.3967;33130;Chihuahua;Los Granados
 4;-105.4641,28.3566;33130;Chihuahua;Los Márquez
-4;-105.5146,28.3980;33130;Chihuahua;Ninguno [Campo Agrícola Experimental]
 4;-105.4786,28.3889;32950;Chihuahua;Las Victorias
 4;-105.5251,28.3963;33130;Chihuahua;Las Moras
 4;-105.5015,28.3806;33130;Chihuahua;San Felipe de Jesús
@@ -168530,7 +168221,6 @@
 4;-105.4736,28.2532;33038;Chihuahua;Granja Bunsow
 4;-105.5069,28.2463;33050;Chihuahua;Granja de Michelle
 4;-105.5454,28.3637;33130;Chihuahua;Rancho los Muñiz
-4;-105.6339,28.3793;31104;Chihuahua;Ninguno [Trituradora]
 4;-105.4706,28.3507;33130;Chihuahua;Santa Martha
 4;-105.4786,28.3303;33130;Chihuahua;Rancho las Borregas
 4;-105.4364,28.3736;32957;Chihuahua;La Enramadita
@@ -168621,7 +168311,6 @@
 4;-106.0388,27.9138;33151;Chihuahua;El Peral
 4;-106.1341,27.8202;33153;Chihuahua;El Milagro
 4;-106.1305,27.9683;33150;Chihuahua;Los Sosa
-4;-106.1269,27.9674;33150;Chihuahua;Ninguno
 4;-106.1475,28.0021;33159;Chihuahua;Mankaren [Restaurante]
 4;-106.2786,27.7936;33153;Chihuahua;El Peral
 4;-105.3374,28.1374;33633;Chihuahua;La Luz
@@ -168638,7 +168327,6 @@
 4;-105.3010,28.0058;33637;Chihuahua;Rancho Santa Librada
 4;-105.3102,28.0380;33637;Chihuahua;Los Ramos
 4;-105.3110,28.0483;33637;Chihuahua;La Fe
-4;-105.4882,27.8633;33645;Chihuahua;Ninguno [Campo de Golf]
 4;-105.3230,28.0221;33637;Chihuahua;Rancho el Canal
 4;-105.3180,28.0299;33637;Chihuahua;Granja María Elena
 4;-105.3374,28.1899;33633;Chihuahua;Ranchito Don Trini González
@@ -168993,7 +168681,6 @@
 4;-100.7358,19.9872;38785;Guanajuato;Víctor Ávila Ávalos
 4;-100.7539,20.1333;38735;Guanajuato;Ernesto Arturo Coss Tirado
 4;-100.7164,20.0508;38630;Guanajuato;José Luis Chávez Zúñiga
-4;-100.7317,20.0558;38600;Guanajuato;Ninguno [Centro Botanero]
 4;-100.6564,20.9867;37759;Guanajuato;Marlusa
 4;-100.7392,20.9678;37888;Guanajuato;Ojo de Agua (Ameyalli)
 4;-100.6272,21.0714;37890;Guanajuato;La Esperanza
@@ -244711,7 +244398,6 @@
 0;-102.2606,22.1249;20687;Aguascalientes;Granja Oscar
 0;-102.7477,21.9770;20882;Aguascalientes;El Paso del Ganado
 0;-102.3059,22.2724;20423;Aguascalientes;El Atravesaño
-0;-99.2780,19.3617;05240;Mexico City;Autonomia_clinicsf25
 0;-116.2407,31.2258;22904;Baja California;El Pinito
 0;-115.1458,32.2586;21738;Baja California;Barrancas
 0;-116.3359,32.3811;21573;Baja California;Nejí Parte Baja

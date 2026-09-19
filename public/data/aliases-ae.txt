@@ -233,8 +233,8 @@ ar;لهباب;Lahbab
 ar;ٱلْمَدَام;Al Madam
 ar;ضبعة;Dab‘ah
 ar;البقيل;Al Baqil
-ar;صخيبر;Sha'biyyat Sikhе̄bar
-ar;شعبية صخيبر;Sha'biyyat Sikhе̄bar
+ar;صخيبر;Sha'biyyat Sikhēbar
+ar;شعبية صخيبر;Sha'biyyat Sikhēbar
 ar;كنمت;Kanaan
 ar;المرح;Al Marah
 ar;معيرك;Ma'yrik

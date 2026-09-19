@@ -202,7 +202,11 @@ if(CHECK || ONLY) process.exit(0);
 // Clé de propriété : entre apostrophes si elle ne contient que des caractères sûrs (sortie inchangée pour toutes les
 // clés actuelles), sinon chaîne JSON échappée — jamais de texte brut entre apostrophes.
 const quoteKey = k => /^[A-Za-z0-9|-]+$/.test(k) ? "'" + k + "'" : JSON.stringify(k);
-const body = allKeys.filter(k => entries[k]).map(k => {
+// Ordre des liaisons : tri explicite des clés (12e audit du 19/09/2026). Il suivait l'ordre de FERRY_ROUTES dans
+// trip-data.js, que build-island-rules.js peut changer d'une régénération à l'autre (« faroe|suduroy » et
+// « continental|sakhalin » avaient changé de place) : lib/ferry-ports.js n'était plus reproduit à l'octet près. Le
+// moteur ne lit FERRY_PORTS que par clé : l'ordre n'a aucun effet sur les trajets.
+const body = allKeys.filter(k => entries[k]).sort((a, b) => (a < b ? -1 : a > b ? 1 : 0)).map(k => {
   const s = entries[k].sides;
   return '  ' + quoteKey(k) + ': { ' + Object.keys(s).map(side => quoteKey(side) + ': ' + JSON.stringify(s[side])).join(', ') +
     (entries[k].pairs ? ", pairs: " + JSON.stringify(entries[k].pairs) : '') + ' }';

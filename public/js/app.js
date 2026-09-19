@@ -447,7 +447,7 @@
     currencyButtonEl.setAttribute('aria-haspopup', 'listbox');
     currencyButtonEl.setAttribute('aria-expanded', 'false');
     currencyButtonEl.innerHTML =
-      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+      '<svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
         '<circle cx="12" cy="12" r="9"/><path d="M9 15.5c0 1 1.2 1.8 3 1.8s3-.8 3-1.8-1.2-1.5-3-1.8-3-1-3-1.8 1.2-1.7 3-1.7 3 .7 3 1.7"/>' +
         '<path d="M12 6.7V6M12 18v-.7"/>' +
       '</svg>' +
@@ -532,7 +532,8 @@
     // Train-auto (Sylt Shuttle) : voiture de chemin de fer sur ses rails.
     train:'<rect x="5" y="4" width="14" height="12" rx="2.5"/><path d="M5 11h14M9 16l-2 4M15 16l2 4M8.5 13.5h.01M15.5 13.5h.01"/>'
   };
-  function icon(name){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+ICONS[name]+'</svg>';}
+  // Icônes décoratives (le texte voisin porte le sens) : masquées aux lecteurs d'écran (12e audit du 19/09/2026).
+  function icon(name){return '<svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+ICONS[name]+'</svg>';}
 
   // Étiquette de locale pour Intl/toLocaleDateString (horloge, dates formatées, nombre d'habitants...) :
   // calculée par i18n.js pour la langue d'interface (voir I18N.localeTag). Avant septembre 2026, une table
@@ -1259,10 +1260,21 @@
   // Une seule ligne "Trouver un logement" par séjour (voir buildItinerary), pas une par nuit :
   // le libellé doit donc pouvoir couvrir une plage ("20 août → 22 août") plutôt qu'une seule date
   // quand le séjour dure plus d'une nuit.
+  // Plage de dates dans la langue d'interface (12e audit du 19/09/2026) : Intl.DateTimeFormat#formatRange (« 20–22 août »,
+  // « ٢٠–٢٢ أغسطس », « 8月20日～22日 »), qui connaît l'ordre et le séparateur de chaque langue — la flèche « → » écrite en
+  // dur pointait à rebours en arabe, persan, ourdou, sorani et divehi (écriture de droite à gauche). Sans formatRange :
+  // deux dates séparées par un tiret demi-cadratin, sans direction.
+  function formatDateRange(d1, d2, opts){
+    try {
+      var dtf = new Intl.DateTimeFormat(localeTag(), opts);
+      if(typeof dtf.formatRange === 'function') return dtf.formatRange(d1, d2);
+      return dtf.format(d1) + ' – ' + dtf.format(d2);
+    } catch(e){ return isoDate(d1) + ' – ' + isoDate(d2); }
+  }
   function formatStayRange(checkIn, checkOut){
     var d1 = parseIsoDate(checkIn), d2 = parseIsoDate(checkOut);
     var nights = (d1 && d2) ? Math.round((d2 - d1) / 86400000) : 1;
-    return nights > 1 ? (formatFrDate(checkIn) + ' → ' + formatFrDate(checkOut)) : formatFrDate(checkIn);
+    return nights > 1 ? formatDateRange(d1, d2, {day: 'numeric', month: 'short'}) : formatFrDate(checkIn);
   }
   (function initDates(){
     var today = new Date();
@@ -1298,6 +1310,20 @@
     }
     return t(nights === 1 ? 'form.dates.duration1' : 'form.dates.durationN', {days: formatNum(days), nights: formatNum(nights)});
   }
+  // « — 21 jours max » (12e audit du 19/09/2026) : la phrase traduite porte le pluriel générique du mot « jours »
+  // (stats.days : « дней », « zile », « dienas »…), faux pour 21 dans bien des langues (« 21 день », « 21 de zile »,
+  // « 21 diena », « 21 dan », « 21 يومًا »). Quand I18N.plural connaît la forme exacte pour ce nombre, elle remplace ce
+  // mot (mot entier seulement) ; sinon la phrase reste telle quelle.
+  function maxDaysSuffix(){
+    var txt = t('form.dates.maxSuffix', {max: formatNum(MAX_TRIP_DAYS)});
+    var exact = window.I18N.plural ? window.I18N.plural('stats.days', MAX_TRIP_DAYS) : null;
+    var generic = t('stats.days');
+    if(!exact || exact === generic) return txt;
+    try {
+      var esc = generic.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return txt.replace(new RegExp('(^|[^\\p{L}\\p{M}])' + esc + '(?![\\p{L}\\p{M}])', 'u'), function(m, before){ return before + exact; });
+    } catch(e){ return txt; }
+  }
   function updateDatesHint(){
     var start = parseIsoDate(els.dateStart.value);
     var end = parseIsoDate(els.dateEnd.value);
@@ -1305,7 +1331,7 @@
       els.dateEnd.min = isoDate(start);
       var dur = tripNightsAndDays(start, end);
       var label = durationLabel(dur.days, dur.nights);
-      els.durationHint.textContent = label + (dur.capped ? t('form.dates.maxSuffix', {max: formatNum(MAX_TRIP_DAYS)}) : '');
+      els.durationHint.textContent = label + (dur.capped ? maxDaysSuffix() : '');
       clearDatesError();
     } else {
       els.durationHint.textContent = t('form.dates.placeholder');
@@ -1901,7 +1927,12 @@
     var a = decimals ? min : Math.round(min), b = decimals ? max : Math.round(max);
     try {
       var nf = new Intl.NumberFormat(localeTag(), { style: 'currency', currency: currency, minimumFractionDigits: decimals, maximumFractionDigits: decimals });
-      if(typeof nf.formatRange === 'function') return '~' + nf.formatRange(a, b);
+      if(typeof nf.formatRange === 'function'){
+        var range = nf.formatRange(a, b);
+        // Séparateur de plage en tilde (japonais : « €5.20 ～ €14.70 ») : un « ~ » d'approximation devant se lisait comme
+        // une deuxième plage (« ~€5.20 ～ €14.70 », 12e audit du 19/09/2026) — marque d'approximation « ≈ » à la place.
+        return (/[~～〜]/.test(range) ? '≈' : '~') + range;
+      }
     } catch(e){}
     return '~' + formatMoney(a, currency, decimals) + '–' + formatMoney(b, currency, decimals);
   }
@@ -1912,7 +1943,15 @@
     var pref = getPreferredCurrency();
     var list = (linkCurrencies || []).filter(function(c, i, a){ return c && c !== pref && a.indexOf(c) === i; });
     if(!pref || !list.length) return '';
-    return t('currency.linkFallback', { currency: list.join(', '), chosen: pref });
+    return t('currency.linkFallback', { currency: formatList(list), chosen: pref });
+  }
+  // Énumération dans la langue d'interface (« MAD et EUR », « MAD، EUR », « MAD、EUR ») : Intl.ListFormat, sinon virgules
+  // (12e audit du 19/09/2026 : « , » écrit en dur, y compris en arabe ou en japonais).
+  function formatList(items){
+    try {
+      if(typeof Intl.ListFormat === 'function') return new Intl.ListFormat(localeTag(), { style: 'short', type: 'conjunction' }).format(items);
+    } catch(e){}
+    return items.join(', ');
   }
   function updateBudgetHint(){
     // Garde défensive : le sélecteur de devise (voir plus haut, "SÉLECTEUR DE DEVISE") est
@@ -2788,6 +2827,12 @@
     });
     return groups;
   }
+  // Pastille du numéro de jour (journal de bord et, depuis le 12e audit du 19/09/2026, chaque étape du PDF : champ
+  // `badge`) : « ⟲ » pour le retour, « 3–5 » pour un séjour de plusieurs jours, chiffres de la langue d'interface.
+  function dayBadgeText(group){
+    if(group.legs[0].isReturn) return '⟲';
+    return group.legs.length > 1 ? formatNum(group.startDay) + '–' + formatNum(group.endDay) : formatNum(group.startDay);
+  }
   function formatDayRangeLabel(startDay, endDay){
     return (endDay - startDay === 1)
       ? t('day.rangeAnd', {a: formatNum(startDay), b: formatNum(endDay)})
@@ -2908,7 +2953,6 @@
   function tripTotalKm(legs){
     return Math.round(legs.reduce(function(s, l){ return s + (Number(l.distanceKm) || 0) + (Number(l.roadKm) || 0); }, 0));
   }
-  // Kilomètres parcourus en ferry (distanceKm d'une étape avec traversée = la traversée ; roadKm = la route jusqu'au port).
   function tripCurrencyNoRateText(trip){
     if(!getPreferredCurrency()) return '';
     var used = [];
@@ -2922,10 +2966,18 @@
   // norvégiens…) ; tarif sans précision (vélo, moteur plus ancien : champ absent). Durée non publiée : « environ ».
   // html : route déjà échappée/traduite par tData, montants échappés ; sinon texte brut pour le PDF.
   function ferryLabel(fi){ return t(fi.mode === 'train' ? 'ferry.trainLabel' : 'ferry.label'); }
-  function ferryPriceText(fi){
+  // Tarif piéton (voyage à vélo : classe 'foot' du moteur, sans priceCovers) : un prix PAR PERSONNE, à dire comme tel à
+  // l'écran, dans le PDF et dans le total (12e audit du 19/09/2026 : « ~12 € » seul laissait croire à un prix pour tous).
+  function ferryFootFare(fi, transportKey){
+    if(!fi || fi.mode === 'train') return false;
+    if(fi.fareClass) return fi.fareClass === 'foot';
+    return !('priceCovers' in fi) && !!(TRANSPORT[transportKey] && TRANSPORT[transportKey].ferryClass === 'foot');
+  }
+  function ferryPriceText(fi, transportKey){
     var amt = Number(fi.amount);
     if(amt === 0) return t('ferry.price.free');
     var a = approxMoney(amt, 'EUR');
+    if(ferryFootFare(fi, transportKey)) return t('ferry.price.perPerson', { amount: a });
     var foot = (fi.footAmount != null && isFinite(Number(fi.footAmount)) && Number(fi.footAmount) > 0) ? approxMoney(Number(fi.footAmount), 'EUR') : null;
     if(!('priceCovers' in fi)) return a;
     switch(fi.priceCovers){
@@ -2935,20 +2987,37 @@
       default: return t('ferry.price.unspecified', { amount: a });
     }
   }
-  function ferryText(fi, route, html){
+  // Route inconnue (clé absente des traductions) : phrase sans la route ni le séparateur qui la suit ou la précède
+  // (12e audit du 19/09/2026 : « Train-auto —  — ~75 € » dans le PDF). La route est remplacée par un repère, retiré avec
+  // la ponctuation voisine, quelle que soit sa place dans la phrase traduite.
+  var ROUTE_MARK = '\u0001';
+  function withoutEmptyRoute(s){
+    if(s.indexOf(ROUTE_MARK) < 0) return s;
+    // Séparateurs : tirets (« —— » chinois compris), point médian, deux-points, virgules latine, arabe et chinoise.
+    var sep = '[—–·:：،,，、-]+';
+    var after = new RegExp(ROUTE_MARK + '\\s*' + sep + '\\s*'), before = new RegExp('\\s*' + sep + '\\s*' + ROUTE_MARK);
+    s = after.test(s) ? s.replace(after, ' ') : before.test(s) ? s.replace(before, ' ') : s.replace(ROUTE_MARK, ' ');
+    return s.replace(/ {2,}/g, ' ').trim();
+  }
+  function ferryText(fi, route, html, transportKey){
     var dur = formatDurationMin(fi.durationH * 60);
     if(fi.durationEstimated) dur = t('ferry.durationApprox', { duration: dur });
     if(html) dur = escHtml(dur);
-    if(fi.amount === null || fi.amount === undefined) return t('ferry.textNoPrice', { route: route, duration: dur });
-    var price = ferryPriceText(fi);
-    return t('ferry.textPriced', { route: route, price: html ? escHtml(price) : price, duration: dur });
+    var r = route || ROUTE_MARK;
+    if(fi.amount === null || fi.amount === undefined) return withoutEmptyRoute(t('ferry.textNoPrice', { route: r, duration: dur }));
+    var price = ferryPriceText(fi, transportKey);
+    return withoutEmptyRoute(t('ferry.textPriced', { route: r, price: html ? escHtml(price) : price, duration: dur }));
   }
   // Libellé du total ferry : les montants additionnés ne couvrent pas tous la même chose (véhicule seul, conducteur
   // compris, tous les occupants…) — dit honnêtement dès qu'un tarif ne comprend pas tous les passagers ou ne le précise pas.
-  function ferryTotalLabel(pricedLegs){
+  // Tarifs piétons (vélo) : total par personne (12e audit).
+  function ferryTotalLabel(pricedLegs, transportKey){
+    if(pricedLegs.length && pricedLegs.every(function(l){ return ferryFootFare(l.ferryInfo, transportKey); })) return t('stats.ferryTotalPerPerson');
     var mixed = pricedLegs.some(function(l){ var fi = l.ferryInfo; return Number(fi.amount) > 0 && ('priceCovers' in fi) && fi.priceCovers !== 'vehicleAndOccupants'; });
     return t(mixed ? 'stats.ferryTotalVehicles' : 'stats.ferryTotal');
   }
+  // Kilomètres parcourus en ferry (distanceKm d'une étape avec traversée = la traversée ; roadKm = la route jusqu'au port).
+  // Commentaire remis au-dessus de sa fonction (12e audit du 19/09/2026 : il précédait tripCurrencyNoRateText).
   function tripFerryKm(legs){
     // Train-auto (Sylt) exclu : ce ne sont pas des kilomètres « en ferry » (11e audit).
     return Math.round(legs.reduce(function(s, l){ return s + (l.ferryInfo && l.ferryInfo.mode !== 'train' ? (Number(l.distanceKm) || 0) : 0); }, 0));
@@ -3005,7 +3074,7 @@
       var num = document.createElement('div');
       num.className = 'num' + (firstLeg.isReturn? ' final':'') + (isMultiDay ? ' range' : '');
       // Chiffres de la langue d'interface (١, ၁, ๑…), comme le reste du journal de bord (11e audit).
-      num.textContent = firstLeg.isReturn ? '⟲' : (isMultiDay ? (formatNum(group.startDay)+'–'+formatNum(group.endDay)) : formatNum(group.startDay));
+      num.textContent = dayBadgeText(group);
       num.setAttribute('aria-hidden', 'true');
       badge.appendChild(num);
       if(gIdx < groups.length-1){
@@ -3135,8 +3204,10 @@
         var fi = firstLeg.ferryInfo;
         var ferryRow = document.createElement('div');
         ferryRow.className = 'day-row';
-        // routeKey vient du serveur : clé validée et échappée si inconnue (tData, 10e audit).
-        var ferryTxt = ferryText(fi, tData(fi.routeKey), true);
+        // routeKey vient du serveur : traduction connue échappée, sinon phrase sans route (12e audit du 19/09/2026 ;
+        // la clé brute s'affichait auparavant, échappée par tData).
+        var ferryRoute = tIfDefined(fi.routeKey);
+        var ferryTxt = ferryText(fi, ferryRoute ? escHtml(ferryRoute) : '', true, trip.transportKey);
         ferryRow.innerHTML = icon(fi.mode === 'train' ? 'train' : 'ferry') + '<span><span class="lbl">'+escHtml(ferryLabel(fi))+'</span>'+ferryTxt+'</span>';
         body.appendChild(ferryRow);
         // Liaison réelle sans tarif fixe publié : avertissement dans le style des zones à tension (orange).
@@ -3164,9 +3235,9 @@
               return '<a href="https://www.openstreetmap.org/?mlat=' + la + '&amp;mlon=' + lo + '#map=15/' + la + '/' + lo +
                 '" target="_blank" rel="noopener">' + label + '</a>';
             }).filter(Boolean).join(', ');
-            chargeTxt = t(c.stops > 1 ? 'charge.realN' : 'charge.real1', {n: formatNum(c.stops), min: formatNum(c.minutes), places: places});
+            chargeTxt = chargeStopsText(true, c.stops, c.minutes, places);
           } else {
-            chargeTxt = t(c.stops > 1 ? 'charge.textN' : 'charge.text1', {n: formatNum(c.stops), min: formatNum(c.minutes)});
+            chargeTxt = chargeStopsText(false, c.stops, c.minutes);
           }
           chargeRow.innerHTML = icon('plug') + '<span><span class="lbl">'+t('charge.label')+'</span>'+chargeTxt+'</span>';
           body.appendChild(chargeRow);
@@ -3190,7 +3261,7 @@
       // 11e audit : le rappel ne concernait que le pays d'ARRIVÉE de l'étape ; le pays de départ (premier jour) et les pays
       // traversés connus (barèmes de péage traversés, et liste de pays traversés si le moteur la fournit) sont désormais
       // couverts, chacun une seule fois et NOMMÉ (plusieurs pays à vignette peuvent se suivre sur un même trajet).
-      vignetteCountriesOfGroup(firstLeg, gIdx === 0 ? trip.cityCoord && trip.cityCoord.country : null).forEach(function(cc){
+      vignetteCountriesOfGroup(firstLeg, gIdx === 0 ? trip.cityCoord && trip.cityCoord.country : null, trip.transportKey).forEach(function(cc){
         if(shownVignetteCountries[cc]) return;
         shownVignetteCountries[cc] = true;
         var vignetteRow = document.createElement('div');
@@ -3338,16 +3409,25 @@
       if(kind === 'upTo') parts.push({ value: t('stats.upTo', { amount: approxMoney(sumMax, 'EUR') }), label: t(enabled ? 'stats.tollPossible' : 'stats.tollAvoided'), nounFirst: false });
       else parts.push({ value: kind === 'single' ? approxMoney(sumMax, 'EUR') : approxMoneyRange(sumMin, sumMax, 'EUR'), label: t(enabled ? 'stats.tollEstimated' : 'stats.tollAvoided'), nounFirst: false });
     }
-    var ferryLegs = legs.filter(function(l){return l.ferryInfo;});
-    if(ferryLegs.length){
-      var pricedFerries = ferryLegs.filter(function(l){return l.ferryInfo.amount !== null;});
-      if(pricedFerries.length){
-        var ferrySum = pricedFerries.reduce(function(s,l){return s+l.ferryInfo.amount;},0);
-        parts.push({ value: approxMoney(ferrySum, 'EUR'), label: ferryTotalLabel(pricedFerries), nounFirst: false });
-      }
-      if(pricedFerries.length < ferryLegs.length){
-        parts.push({ value: formatNum(ferryLegs.length - pricedFerries.length), label: t('stats.ferryUnpriced'), nounFirst: false });
-      }
+    // Ferries (12e audit du 19/09/2026) : le train-auto (Sylt) a sa propre pastille, hors du total « de ferry » et du
+    // décompte des traversées à tarif inconnu ; les traversées gratuites (bacs norvégiens…) n'entrent pas dans le total
+    // (« ~0 € de ferry » s'affichait quand toutes l'étaient — la gratuité reste dite sur chaque étape) ; tarifs piétons
+    // (vélo) : total par personne. Montant non nul : null/undefined = inconnu.
+    var hasPrice = function(l){ return l.ferryInfo.amount !== null && l.ferryInfo.amount !== undefined && isFinite(Number(l.ferryInfo.amount)); };
+    var paid = function(l){ return hasPrice(l) && Number(l.ferryInfo.amount) > 0; };
+    var sumOf = function(arr){ return arr.reduce(function(s, l){ return s + Number(l.ferryInfo.amount); }, 0); };
+    var ferryLegs = legs.filter(function(l){ return l.ferryInfo && l.ferryInfo.mode !== 'train'; });
+    var paidFerries = ferryLegs.filter(paid);
+    if(paidFerries.length){
+      parts.push({ value: approxMoney(sumOf(paidFerries), 'EUR'), label: ferryTotalLabel(paidFerries, trip.transportKey), nounFirst: false });
+    }
+    var unpriced = ferryLegs.filter(function(l){ return !hasPrice(l); }).length;
+    if(unpriced){
+      parts.push({ value: formatNum(unpriced), label: statsLabel(unpriced, 'stats.ferryUnpriced'), nounFirst: false });
+    }
+    var paidTrains = legs.filter(function(l){ return l.ferryInfo && l.ferryInfo.mode === 'train' && paid(l); });
+    if(paidTrains.length){
+      parts.push({ value: approxMoney(sumOf(paidTrains), 'EUR'), label: t('stats.trainTotal'), nounFirst: false });
     }
     return parts;
   }
@@ -3379,7 +3459,10 @@
   }
   // Pays à vignette à rappeler sur une case du journal : pays de départ (première case seulement), pays traversés connus
   // (barèmes de péage du trajet ; leg.transitCountries / leg.countriesCrossed si le moteur les fournit), puis pays d'arrivée.
-  function vignetteCountriesOfGroup(leg, departureCountry){
+  // Vélo (aucun barème de péage, tollClass null) : jamais sur autoroute, aucune vignette à rappeler (12e audit du
+  // 19/09/2026 : le rappel s'affichait à vélo, faute de filtre sur le mode de transport).
+  function vignetteCountriesOfGroup(leg, departureCountry, transportKey){
+    if(transportKey && TRANSPORT[transportKey] && TRANSPORT[transportKey].tollClass == null) return [];
     var list = [];
     if(departureCountry) list.push(departureCountry);
     [leg.transitCountries, leg.countriesCrossed, leg.tollInfo && leg.tollInfo.countries].forEach(function(arr){
@@ -3616,6 +3699,24 @@
     try { one = new Intl.PluralRules(localeTag()).select(n) === 'one'; } catch(e){ one = Math.abs(n) === 1; }
     return (one && tIfDefined(key + '1')) || t(key);
   }
+  // Phrase à compteur dont la forme dépend du nombre (12e audit du 19/09/2026) : modèle exact de I18N.plural (russe,
+  // polonais, arabe… : « 2 остановки », « 5 остановок », « 21 остановка »), {paramètres} remplacés ici ; null sinon.
+  function pluralPhrase(key, n, vars){
+    var tpl = window.I18N.plural ? window.I18N.plural(key, n) : null;
+    if(!tpl) return null;
+    return tpl.replace(/\{(\w+)\}/g, function(m, k){ return (vars && vars[k] != null) ? String(vars[k]) : m; });
+  }
+  // Pauses recharge (écran et PDF) : phrase au singulier pour une pause, sinon forme plurielle exacte quand la langue en
+  // a plusieurs, sinon la phrase au pluriel traduite. places : lieux des bornes réelles (HTML déjà échappé à l'écran).
+  function chargeStopsText(real, stops, minutes, places){
+    var vars = {n: formatNum(stops), min: formatNum(minutes), places: places};
+    if(real){
+      if(stops <= 1) return t('charge.real1', vars);
+      return pluralPhrase('charge.realN', stops, vars) || t('charge.realN', vars);
+    }
+    if(stops <= 1) return t('charge.text1', vars);
+    return pluralPhrase('charge.textN', stops, vars) || t('charge.textN', vars);
+  }
   function overMaxLegText(o){
     return t('leg.overMaxLeg', {max: formatNum(Math.round(Number(o.max)) || 0), min: formatNum(Math.round(Number(o.min)) || 0)});
   }
@@ -3644,11 +3745,11 @@
       var c = leg.chargeInfo;
       if(c.stops > 0){
         out.charge = t('charge.label') + ' — ' + (c.real && c.stations
-          ? t(c.stops > 1 ? 'charge.realN' : 'charge.real1', {n: formatNum(c.stops), min: formatNum(c.minutes), places: c.stations.map(function(s){
+          ? chargeStopsText(true, c.stops, c.minutes, c.stations.map(function(s){
               var la = Number(s.lat), lo = Number(s.lon);
               return s.near ? String(s.near) : (isFinite(la) && isFinite(lo) ? la.toFixed(3) + ', ' + lo.toFixed(3) : '');
-            }).filter(Boolean).join(', ')})
-          : t(c.stops > 1 ? 'charge.textN' : 'charge.text1', {n: formatNum(c.stops), min: formatNum(c.minutes)}));
+            }).filter(Boolean).join(', '))
+          : chargeStopsText(false, c.stops, c.minutes));
       }
       if(c.noChargerNearArrival) out.noCharger = t('charge.noChargerNearArrival');
     }
@@ -3664,7 +3765,7 @@
     }
     if(leg.ferryInfo){
       var fi = leg.ferryInfo;
-      out.ferry = ferryLabel(fi) + ' — ' + ferryText(fi, tIfDefined(fi.routeKey) || '', false) +
+      out.ferry = ferryLabel(fi) + ' — ' + ferryText(fi, tIfDefined(fi.routeKey) || '', false, currentTripData && currentTripData.transportKey) +
         (fi.amount === null ? ' ' + t(fi.priceStatus === 'variable' ? 'ferry.price.variable' : 'ferry.price.unknown') : '');
     }
     if(leg.lodgingCheckIn) out.lodging = t('lodging.find', {range: formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut)});
@@ -3690,7 +3791,7 @@
     // Textes du PDF dans la langue d'interface, composés avec les mêmes clés que la page (le serveur n'a pas les
     // traductions ; il garde le français en repli et contrôle lui-même les liens et les montants). Mêmes morceaux que le
     // journal de bord (tripStatsParts) ; la part en ferry du kilométrage devient une pastille à part (le serveur coupe
-    // chaque pastille à 80 caractères).
+    // chaque pastille à 140 caractères, 12e audit).
     var statsTexts = [];
     tripStatsParts(currentTripData).forEach(function(p){
       statsTexts.push(p.nounFirst ? p.label + ' ' + p.value : p.value + ' ' + p.label);
@@ -3719,9 +3820,15 @@
     };
     // Rappels de vignette NOMMÉS, une fois par pays, sur la même étape qu'à l'écran (pays de départ sur la première, pays
     // traversés connus, pays d'arrivée) : texts.vignette par étape, en plus du texte générique ci-dessus.
+    // Numéro de jour affiché à l'écran pour l'étape (même regroupement par séjour que renderDays), 12 caractères au plus.
+    var legBadges = [];
+    groupLegsByStay(legs).forEach(function(group){
+      var badge = dayBadgeText(group).slice(0, 12);
+      group.legs.forEach(function(){ legBadges.push(badge); });
+    });
     var pdfVignetteShown = {};
     var legVignettes = legs.map(function(leg, idx){
-      return vignetteCountriesOfGroup(leg, idx === 0 ? currentTripData.cityCoord && currentTripData.cityCoord.country : null)
+      return vignetteCountriesOfGroup(leg, idx === 0 ? currentTripData.cityCoord && currentTripData.cityCoord.country : null, transportKey)
         .filter(function(cc){ if(pdfVignetteShown[cc]) return false; pdfVignetteShown[cc] = true; return true; })
         .map(function(cc){ return { country: cc, text: vignetteLabel(cc) + ' — ' + t('vignette.notice'), url: COUNTRIES[cc].vignette.url }; });
     });
@@ -3729,7 +3836,7 @@
       lang: VISITOR_LANG,
       texts: texts,
       city: city,
-      tripLabel: currentTripLabel,
+      tripLabel: tripLabelText(currentTripData) || currentTripLabel,
       budgetLabel: budgetLabel(budgetKey),
       transportLabel: transportLabel(transportKey),
       stats: { days: currentTripData.days || legs.length, cities: Object.keys(villes).length, nights: nights, totalKm: totalKm, ferryKm: tripFerryKm(legs), toll: tollSummary },
@@ -3741,6 +3848,7 @@
         if(legVignettes[idx].length) legTexts.vignettes = legVignettes[idx];
         return {
           texts: legTexts,
+          badge: legBadges[idx] || null,
           label: singleLegLabel(leg),
           stop: leg.stop,
           cpBadge: leg.cp ? formatCpBadge(leg) : null,
@@ -3758,7 +3866,8 @@
           tension: leg.isReturn ? null : exportTension(leg.tension),
           ferryInfo: leg.ferryInfo ? { route: tIfDefined(leg.ferryInfo.routeKey) || '', amount: leg.ferryInfo.amount, priceStatus: leg.ferryInfo.priceStatus || null,
             priceCovers: leg.ferryInfo.priceCovers === undefined ? null : leg.ferryInfo.priceCovers, footAmount: leg.ferryInfo.footAmount != null ? leg.ferryInfo.footAmount : null,
-            durationEstimated: !!leg.ferryInfo.durationEstimated, mode: leg.ferryInfo.mode || null } : null,
+            durationEstimated: !!leg.ferryInfo.durationEstimated, mode: leg.ferryInfo.mode || null,
+            durationH: typeof leg.ferryInfo.durationH === 'number' ? leg.ferryInfo.durationH : null } : null, // texte de secours du PDF (12e audit)
           checkInLabel: leg.lodgingCheckIn ? formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut) : null,
           lodgingLinks: exportLodgingLinks(leg.lodgingLinks, leg.country, budgetKey),
           activities: (leg.activities || []).map(function(opt){
@@ -3990,9 +4099,9 @@
       currentTripData = { legs: legs, city: city, budgetKey: budgetKey, transportKey: transportKey, cityCoord: cityCoord,
         firstStop: firstStopInfo, days: days, notices: tripNotices, departureTension: tripDepartureTension,
         startIso: tripStartIso, endIso: tripEndIso };
-      // Nom du PDF et en-tête de page : départ → première destination (elle change à chaque tirage) et dates ISO,
-      // un format neutre qui ne dépend d'aucune langue (voir pdfFilename).
-      currentTripLabel = city + ' → ' + firstLeg.stop + ' · ' + tripStartIso + (days > 1 && tripEndIso ? ' → ' + tripEndIso : '');
+      // Nom du PDF et en-tête de page : départ → première destination (elle change à chaque tirage) et dates (voir
+      // tripLabelText, recomposé à l'export dans la langue du moment).
+      currentTripLabel = tripLabelText(currentTripData);
       renderDays(currentTripData);
       renderMap(legs, city, cityCoord);
       renderPacking(budgetKey, transportKey);
@@ -4052,6 +4161,20 @@
   // Nom de fichier local uniquement (pas d'URL à slugifier) : on garde surtout des caractères
   // "sûrs" pour un système de fichiers (accents inclus, la plupart des OS actuels les gèrent bien
   // dans un nom de fichier téléchargé — seuls les séparateurs et symboles réservés sont remplacés).
+  // « Départ → première étape · 20–22 sept. 2026 » : en-tête des pages du PDF et nom du fichier. Dates dans la langue
+  // d'interface (12e audit du 19/09/2026 : dates ISO et « date → date » écrits en dur, flèche à rebours dans les langues de
+  // droite à gauche) — plage via formatDateRange, recomposée à l'export (la langue a pu changer depuis le tirage).
+  function tripLabelText(trip){
+    if(!trip || !trip.legs || !trip.legs.length) return '';
+    var d1 = parseIsoDate(trip.startIso), d2 = parseIsoDate(trip.endIso);
+    var dates = '';
+    if(d1){
+      var opts = {day: 'numeric', month: 'short', year: 'numeric'};
+      if(trip.days > 1 && d2 && d2 > d1) dates = formatDateRange(d1, d2, opts);
+      else { try { dates = d1.toLocaleDateString(localeTag(), opts); } catch(e){ dates = trip.startIso; } }
+    }
+    return trip.city + ' → ' + trip.legs[0].stop + (dates ? ' · ' + dates : '');
+  }
   function pdfFilename(label){
     var base = (label || 'itineraire').replace(/[\\/:*?"<>|]+/g, '-').replace(/\s+/g, ' ').trim();
     // Nom du site dans la langue d'interface (11e audit : toujours « Cap sur l'inconnu »), sans caractère réservé.
@@ -4092,7 +4215,7 @@
       var url = URL.createObjectURL(blob);
       var a = document.createElement('a');
       a.href = url;
-      a.download = pdfFilename(currentTripLabel);
+      a.download = pdfFilename(payload.tripLabel);
       document.body.appendChild(a);
       a.click();
       a.remove();

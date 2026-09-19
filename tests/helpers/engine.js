@@ -21,7 +21,7 @@ const TG = require(path.join(ROOT, 'lib', 'toll-grid.js'));
 const INTERNAL_FUNCS = ['reallyAdjacent', 'landmassOf', 'zoneOf', 'ferryRouteFor', 'seaCrossingFor', 'tensionOf', 'legAllowed',
   'ferryRoadParts', 'tollCountryOf', 'evPlan', 'countryAtPoint', 'insideCountry', 'roadCrossesWater', 'motoMotorwayBan',
   'normalizeCityName', 'chargerNear', 'portZone', 'communeLandmass', 'borderReach', 'communeTension', 'finalizeLeg', 'parseCommunesFile',
-  'countrySpeedFactor', 'placeNorm', 'zoneHostNorm'];
+  'countrySpeedFactor', 'placeNorm', 'zoneHostNorm', 'countriesAlong'];
 const INTERNAL_VARS = ['COMMUNES', 'FEATURED', 'CHARGER_COUNT', 'TENSION_RULES_BY_COUNTRY', 'AVOID_TENSION', 'LEG_CONSTRAINTS',
   'LAST_TRIP_DIAGNOSTIC', 'TRIP_DEADLINE', 'TRIP_TIMED_OUT', 'TRIP_TIME_BUDGET_MS', 'MOTO_NO_MOTORWAY_SPEED_FACTOR', 'MOTO_NO_MOTORWAY_SPEED_FACTOR_DEFAULT'];
 
@@ -156,7 +156,12 @@ function speedOf(N, from, to, cArg){
 }
 function motoFactor(cArg, from, to){
   const A = engine.__test, mb = c => c && A.motoMotorwayBan(c);
-  const ban = mb(cArg) || mb(from && from.country) || mb(to && to.country);
+  let ban = mb(cArg) || mb(from && from.country) || mb(to && to.country);
+  // Pays seulement traversé (12e audit) : même règle que finalizeLeg.
+  if(!(ban && ban.fullBan) && from && to && from.lat != null && to.lat != null){
+    const b2 = A.countriesAlong(from, to).map(mb).filter(b => b && b.fullBan)[0];
+    if(b2) ban = b2;
+  }
   if(!ban || !ban.fullBan) return 1;
   const F = A.MOTO_NO_MOTORWAY_SPEED_FACTOR, D = A.MOTO_NO_MOTORWAY_SPEED_FACTOR_DEFAULT;
   if(typeof F === 'number') return F;
@@ -528,7 +533,8 @@ function check(params, res, elapsedMs){
   // Moto : chaque pays aux autoroutes interdites traversé a son avertissement
   if(N.transportKey === 'moto'){
     ap('restrictions');
-    const countries = new Set([dep.country].concat(legs.map(l => l.country)));
+    // Pays traversés compris (12e audit : Thaïlande entre Kota Bharu et Bukit Kayu Hitam, jamais signalée).
+    const countries = new Set([dep.country].concat(legs.map(l => l.country), ...legs.map(l => l.countriesCrossed || [])));
     countries.forEach(cc => { if(A.motoMotorwayBan(cc) && !motoSeen[cc]) bad('restrictions', 'moyenne', 'pays ' + cc + ' aux autoroutes interdites aux motos sans avertissement'); });
   }
   ap('notices');
