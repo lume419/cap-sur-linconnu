@@ -16979,7 +16979,7 @@ el;Μαχαιριά;Macheria
 el;Τσαΐρι;Tsairi
 el;Μετόχι Προδρόμου;Metochi Prodromou
 el;Κολύμποι;Kolimbi
-el;Παραθεριστικος Συνεταιρισμος Υπαλλήλων  ΔΕΗ Κομοτηνής;Almyros
+el;Παραθεριστικος Συνεταιρισμος Υπαλλήλων ΔΕΗ Κομοτηνής;Almyros
 el;Δασικό Χωριό;Dasiko Khorio
 el;Στιβάρι;Stivari
 el;Πετσοφάς;Petsofas

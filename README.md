@@ -4283,6 +4283,70 @@ dans la langue de l'interface, textes de carte traduits, accessibilité (dialogu
 impression, textes indicatifs trop longs. 12 nouvelles clés dans les 161 langues ; le yi reçoit le chinois pour ces
 clés, faute de traduction fiable.
 
+### Quinzième passe d'audit (19 septembre 2026)
+
+Relecture complète en quatre volets, sans faille de sécurité ni violation d'invariant. **Trois régressions de la 14e
+passe**, toutes dans l'aller-retour d'une journée, avaient échappé aux tests et à l'outil de comparaison : chaque test
+vérifiait le cas corrigé (Bamako en voiture, 5 km sous le plafond), aucun ne **rejouait** la distance annoncée. S'y
+ajoutait un défaut ancien et grave des ferries. Correctifs, puis nouveaux contrôles qui les auraient attrapés :
+
+**Moteur.**
+- Distance annoncée « hors de portée, X km » **réellement faisable** : les lieux plus proches que l'éloignement sont
+  triés du plus lointain au plus proche et soumis au contrôle exact du tirage (`reachableMax0`, `DAY_REACH_TRIES`).
+  Au 14e audit, X venait d'un filtre de durée optimiste : redemander à X renvoyait « X − 1 », jusqu'à 109 fois (Lewe,
+  Birmanie, en électrique : 328 km annoncés pour 221 faisables). Quand le tirage au hasard échoue, un second passage
+  essaie les lieux les plus proches de l'éloignement, y compris les plus petits (sinon un lieu de moins de 15 habitants
+  pouvait donner X sans être retenu au tirage suivant, Xarardheere).
+- Filtre des zones à tension : « hors de portée » avec le filtre actif est confirmé par le second tirage sans filtre
+  (Sharm el-Sheikh à moto, 190 km, annonçait « hors de portée » alors que seul le filtre bloquait : désormais « zones à
+  tension ») ; « introuvable » avec le filtre mais « hors de portée » sans lui devient « hors de portée » (Moscou 600,
+  Kyiv, Téhéran, Caracas 500, Kaboul 400 — la durée bloque de toute façon ; la distance annoncée peut alors être en zone
+  déconseillée, où le tirage répond « zones à tension »).
+- « Hors de portée » exige qu'un lieu existe à la distance demandée : île trop petite (Bastia, Palma, Naha, La Réunion,
+  Honolulu), « introuvable » au lieu de « augmentez la durée ». Très petite île sans éloignement (Jamestown,
+  Longyearbyen) : dernier recours à 2 km. Recherche de l'aller-retour bornée au plafond de vitesse (`rMax0`).
+- **Ferries : paire de ports éloignée de la ligne de référence** (`ferryRouteForPair`). Une liaison porte une durée,
+  une distance et une grille de prix, celles de sa ligne sourcée, mais n'importe quelle paire de ports autorisée pouvait
+  être choisie : Gênes → Palerme recevait « 24 min, 8 km, 43,2 € » (détroit de Messine), Santander → Portsmouth 1 h 30
+  (Douvres–Calais), Astakós → Sámi 3 h 15 et 52,90 € (Patras). Quand l'orthodromie de la paire choisie s'écarte de plus
+  de ×1,5 (et 5 km) de celle de la paire de référence, la traversée est estimée : distance = orthodromie, durée =
+  distance ÷ vitesse médiane des liaisons à durée publiée de même longueur (`ferryMedianSpeed`), prix inconnu, « environ »
+  affiché. Les liaisons à une seule paire (lignes à détour) ne sont jamais touchées. Gênes → Palerme : 790 km, ~29 h
+  (estimation prudente : les navires rapides de nuit sont plus rapides que la médiane).
+
+**Contrôles ajoutés.**
+- **Contre-épreuve** dans la campagne d'invariants (`tests/engine-invariants.test.js`) et dans l'outil de comparaison :
+  chaque aller-retour « hors de portée, X km » est rejoué à X km (même graine) ; un itinéraire, ou (filtre actif) « zones
+  à tension », est attendu. Comparaison f624b64 → 15e passe : ancien moteur 50 / 57 contre-épreuves faisables, nouveau
+  55 / 55.
+- Vérificateur : traversées estimées recalculées à partir des ports choisis (même règle ×1,5 + 5 km).
+- Outil de comparaison : cas ciblés zones à tension, distance annoncée, petites îles, traversées estimées (9 trajets
+  directs, témoins sur les lignes de référence inchangés) ; rapports en heure locale ; `--clean --force`.
+- Comparaison f624b64 → 15e passe (380 tirages, 1 610 trajets directs, 3 585 cas d'hébergement) : 34 tirages changés, tous
+  des allers-retours d'une journée ou des traversées estimées, tous voulus ; 63 trajets directs changés (les 9 traversées
+  estimées × 7 modes) ; aucun cas d'hébergement ; aucun tirage ralenti.
+
+**Interface et serveur.** Miles : une saisie en km juste hors bornes est ramenée dans les bornes au passage en miles (au
+lieu d'un champ affiché valide mais refusé) ; recliquer le bouton de limite de rayon déjà actif ne l'efface plus ; pluriels
+du bandeau de révélation (lieux trouvés, habitants) en russe, ukrainien, polonais, tchèque, lituanien, arabe (duel sans le
+nombre)… ; touroyo et adyguéen : durées au format neutre « 2 h 46 min » et dates en chiffres (au lieu du turc et du
+russe de leur locale de repli) ; message « trop loin » au dixième ; « 20 % » avec l'espace de la langue (d'après
+`Intl.NumberFormat`) ; texte de secours du PDF sans « ~0 mi » ; noms faits de points (« .. ») refusés avant tout appel à
+Wikipédia. **À relire** : formes haut-sorabes et tournures maltaises, ruthènes, cachoubes, gaéliques.
+
+**Données.** 101 des 115 alias retirés à la 14e passe sont réparés et à nouveau publiés (`repairAliasTypography` : « _ »
+final retiré, « _ » remplacé par une espace, parenthèse orpheline retirée) ; restent écartés les alias rattachés à une
+autre entité (« Rakvere_vald », « Ист_Лансинг » → East Tawas…) et les graphies incertaines. 7 lieux publiés deux fois au
+même point retirés (`SAME_POINT_DUPLICATES` : 3 en Chine, 2 en Iran, 平泉 et Yanagidamen au Japon, ce dernier fusionné
+dans Ō-maki — même code postal 699-1941), leurs noms restant trouvables comme alias. Paires de ports sans source retirées
+(Astakós ↔ Fríkes, Kyllíni ↔ Sámi). Espaces doubles des alias supprimées. Mentions légales : attribution OpenStreetMap
+des quais de ferry et des contours d'îles (Olkhon, K'gari, Chiloé), Natural Earth (grille terre / eau). Corrections
+de la section « Quatorzième passe » : Kharkiv à moto passait d'un plafond de 286 km (256 en électrique), Bamako en
+électrique à 236 km, 19 distances de ferry corrigées (et non 20). **Limites** : « Yanagidamen » n'est plus cherchable ;
+des alias de subdivisions (« … vald », « Khwaeng … », « Mukim … ») restent rattachés à la ville homonyme ; 六甲 et 御影
+restent publiés faute de preuve ; aller-retour avec une distance max de 1 à 3 km ou depuis Parintins : tirage vide avec
+le message générique.
+
 ### Quatorzième passe d'audit (19 septembre 2026)
 
 Relecture complète en quatre volets. Première passe où aucune correction de la précédente n'avait introduit de

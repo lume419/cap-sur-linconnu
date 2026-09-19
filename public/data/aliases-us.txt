@@ -121694,3 +121694,15 @@ bg;Скуо Вали;Olympic Valley
 sr;Олимпик Вали;Olympic Valley
 ce;Скво-Велли;Olympic Valley
 he;אולימפיק ואלי;Olympic Valley
+zh;利特爾錫安;Little Zion
+sr;Клајо Алабама;Clio
+zh;博伊德;Boyd
+zh;拉魯;Larue
+zh;薩費爾;Saffell
+zh;沃登;Woden
+zh;伍德沃德;Woodward
+zh;耶鲁;Yale
+zh;约克镇;Yorktown
+zh;齐灵;Zearing
+fa;چانهاسن، مینه‌سوتا;Chanhassen
+ky;Беркли;Berkeley

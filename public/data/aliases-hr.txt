@@ -2096,3 +2096,4 @@ hr;Podstrana – Mutogras;Podstrana - Mutogras
 hr;Podstrana – Sita;Podstrana - Sita
 hr;Sveta Marija na Krasu - Madonna del Carso;Sveta Marija na Krasu
 ru;Либерполис;Liberpolis
+sr;Vilak;Bair

@@ -7,6 +7,7 @@
 //   - 13e audit du 19/09/2026 : noms de liaisons sans copie de l'arabe ou du russe, aucune unité écrite en dur dans les
 //     phrases de distance (km / mi).
 //   - 14e audit du 19/09/2026 : niveaux de difficulté des randonnées traduits.
+//   - 15e audit du 19/09/2026 : espace avant « % » telle que CLDR la donne pour la langue.
 'use strict';
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
@@ -32,9 +33,9 @@ function loadI18n(){
   ctx.window.addEventListener = () => {}; ctx.window.dispatchEvent = () => {};
   vm.createContext(ctx);
   vm.runInContext(src, ctx);
-  return { S: ctx.window.__S, L: ctx.window.__L, langs: Array.from(ctx.window.I18N.SUPPORTED) };
+  return { S: ctx.window.__S, L: ctx.window.__L, langs: Array.from(ctx.window.I18N.SUPPORTED), I18N: ctx.window.I18N };
 }
-const { S, L, langs } = loadI18n();
+const { S, L, langs, I18N } = loadI18n();
 const frKeys = Object.keys(S.fr);
 const placeholders = s => (String(s).match(/\{(\w+)\}/g) || []).sort().join(',');
 const report = (list, max) => list.length + ' problème(s) :\n  ' + list.slice(0, max || 25).join('\n  ') + (list.length > (max || 25) ? '\n  …' : '');
@@ -257,4 +258,31 @@ test('randonnées : quatre niveaux de difficulté distincts et traduits dans cha
     if(l !== 'fr' && (v[1] === 'Moyenne' || v[3] === 'Très difficile')) bad.push(l + ' : forme française ' + JSON.stringify(v));
   }
   assert.equal(bad.length, 0, report(bad));
+});
+
+// 15e audit du 19/09/2026 : « Marge de 20% » en français. Pourcentages écrits avec l'espace (insécable) que CLDR met
+// avant le signe dans la langue elle-même (Intl.NumberFormat(…, {style: 'percent'}), locale résolue de la même langue) ;
+// sans objet pour les langues sans données CLDR propres, les pourcentages placés avant le nombre (« %20 » turc) et les
+// suffixes collés (« 20%-im » groenlandais).
+test('pourcentages : espace insécable avant « % » dans les langues dont CLDR en met une', () => {
+  const bad = [];
+  let checked = 0;
+  for(const l of langs){
+    let nf;
+    try { nf = new Intl.NumberFormat(I18N.localeTag(l), { style: 'percent' }); } catch(e){ continue; }
+    if(nf.resolvedOptions().locale.split('-')[0] !== l.split('-')[0]) continue;
+    const m = nf.format(0.2).match(/^\D*\p{Nd}+([\s  ]*)[%٪]/u);
+    if(!m || !m[1]) continue;
+    const values = [];
+    Object.values(S[l]).forEach(v => values.push(v));
+    Object.values(L[l]).forEach(list => list.forEach(v => values.push(v)));
+    for(const v of values){
+      const re = /\p{Nd}+([\s  ]?)[%٪](?!-)/gu;
+      let x;
+      while((x = re.exec(v))){ checked++; if(x[1] !== m[1]) bad.push(l + ' : « ' + v.slice(Math.max(0, x.index - 10), x.index + x[0].length + 10) + ' » (attendu ' + JSON.stringify(m[1]) + ')'); }
+    }
+  }
+  assert.ok(checked >= 25, checked + ' pourcentages contrôlés seulement');
+  assert.equal(bad.length, 0, report(bad));
+  assert.ok(L.fr['pack.voitureElectrique'].some(v => /20 %/.test(v)), 'français : « 20 % » attendu');
 });

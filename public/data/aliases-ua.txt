@@ -54971,3 +54971,11 @@ zh;索菲伊夫斯卡博爾夏希夫卡;Sofiivska Borschahivka
 hy;Սոֆիևսկայա Բորշչագովկա;Sofiivska Borschahivka
 ja;ソフィエフカ;Sofiyivka
 ja;ドクチャエヴォ;Dokuchayeve
+ru;Покровская богачка;Pokrovska Bahachka
+ru;Острая могила;Hostra Mohyla
+ru;Мушина гребля;Mushyna Hreblia
+ru;Михальчина слобода;Yasna Poliana
+ru;Липов рог;Lypiv Rih
+ru;Кустоловы кущи;Kustolovi Kushchi
+ru;Кривая руда;Kryva Ruda
+ru;Каменная яруга;Kamiana Yaruha

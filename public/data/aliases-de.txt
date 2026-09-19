@@ -1489,7 +1489,7 @@ de;Klein Garnholt;Klein Grauholt
 hsb;Gogolowk;Klein Gaglow
 de;Klein-Fulkum;Klein Fulkum
 nds;Lüttjenfüeste;Klein Förste
-nds;Lütschen  Füerste;Klein Förste
+nds;Lütschen Füerste;Klein Förste
 hsb;Mała Boršć;Kleinförstchen
 nds;Lüttjen Eikeln;Klein Eicklingen
 nds;Lüttschen Ederße;Klein Eddesse

@@ -572,7 +572,7 @@ tr;Bukit Mertarajam;Bukit Mertajam
 ms;Bandar Sungai Bakap;Sungai Bakap
 ta;சுங்கை பாக்காப்;Sungai Bakap
 zh;双溪峇甲;Sungai Bakap
-hi;नीबोंग  टेबल;Nibong Tebal
+hi;नीबोंग टेबल;Nibong Tebal
 ru;Нибонг-Тебал;Nibong Tebal
 bn;নিবং তেবাল;Nibong Tebal
 zh-Hant;高淵;Nibong Tebal

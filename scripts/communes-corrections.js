@@ -221,9 +221,13 @@ const JUNK_IDS = {
 // que la recherche romanisée ne trouve pas). Relevé par balayage de tous les noms sans lettre latine de ces cinq fichiers
 // contre scripts/dump/XX_dump.txt ; le doublon romanisé reste publié. Japon : lot 7302970-7303001 du 21/06/2010 (villes
 // de Himeji, Amagasaki, Matsuyama…, 0,2 à 1,9 km du centre GeoNames de la ville). [geonameid, nom, geonameid du lieu
-// romanisé gardé, son nom, distance en km]. Non démontrables (aucune fiche romanisée publiée ne porte le nom), GARDÉS et
-// listés dans le README (14e passe) : JP 平泉, 六甲, 御影 (fiches romanisées Hiraizumi, Rokkocho, Mikage en PPLX, non
-// publiées) ; KP 2 ; CN 14 ; IR 10. JP 大馬木 : corrigé par NAME_FIXES (forme romanisée sur la fiche).
+// romanisé gardé, son nom, distance en km]. JP 大馬木 : corrigé par NAME_FIXES (forme romanisée sur la fiche).
+// 15e audit du 19/09/2026 — correction de ce commentaire, qui disait « non démontrables, listés dans le README » : 平泉 EST
+// démontrable (voir SAME_POINT_DUPLICATES ci-dessous) et aucune liste ne figurait dans le README. Restent GARDÉS, faute
+// de preuve (balayage de tous les noms sans lettre latine publiés en JP, KR, KP, CN, IR contre scripts/dump/, fiches
+// romanisées publiées à moins de 2 km) : JP 六甲 (7302981 ; fiches Rokkocho et Rokkō-eki = quartier PPLX et gare, non
+// publiés) et 御影 (7302982 ; Mikage 11777295 en PPLX, non publié ; Mikagechō-mikage, publié, est à 0,23 km et ne porte
+// ni 御影 ni 御影町) ; les autres noms locaux de KP, CN et IR n'ont aucune fiche romanisée publiée au même point.
 const LOCAL_SCRIPT_DUPLICATES = {
   JP: [
     [7302970, "志布志", 1852588, "Shibushi", 0.98], [7302974, "三次", 1856698, "Miyoshi", 0.62], [7302976, "出雲", 1861084, "Izumo", 1.09],
@@ -286,6 +290,39 @@ const LOCAL_SCRIPT_DUPLICATES = {
 };
 Object.entries(LOCAL_SCRIPT_DUPLICATES).forEach(([cc, rows]) => rows.forEach(([id, n, keptId, keptName, km]) => {
   JUNK_IDS[id] = [cc, n, 'doublon en écriture locale de « ' + keptName + ' » (fiche ' + keptId + ', ' + km + ' km), qui porte ce nom en alternatename'];
+}));
+// 15e audit du 19/09/2026 — DOUBLONS AU MÊME POINT, même principe que LOCAL_SCRIPT_DUPLICATES (le lieu reste publié une
+// fois, sous son nom romanisé), mais la preuve que les deux noms désignent le même lieu vient d'ailleurs que les
+// alternatenames de la fiche gardée. Critère, vérifié fiche par fiche dans scripts/dump/ : les deux fiches P ont les
+// MÊMES coordonnées (écart ≤ 0,01 km) ET l'équivalence des noms est donnée par GeoNames lui-même — asciiname de la fiche
+// écartée = transcription pinyin du nom gardé (« xiong ji dai » = Xiongjidai), ou une TROISIÈME fiche porte les deux
+// formes. Balayage de tous les noms sans lettre latine publiés en JP, KR, KP, CN et IR : ces six cas seulement.
+// [geonameid écarté, nom publié, geonameid gardé, nom gardé, distance en km, preuve]. Le nom écarté reste trouvable :
+// build-all-aliases.js rattache la fiche écartée au lieu gardé et en reprend les alternatenames (« zh;雄鸡埭;Xiongjidai »,
+// « ja;平泉;Tateishi », « ja;大馬木;Ō-maki »…).
+const SAME_POINT_DUPLICATES = {
+  CN: [
+    [7506579, '雄鸡埭', 7332719, 'Xiongjidai', 0.01, 'asciiname « xiong ji dai » = Xiongjidai'],
+    [8366070, '蓮湖', 8066000, 'Lianhu', 0, 'asciiname « lian hu » = Lianhu ; la fiche gardée porte 莲湖 (forme simplifiée de 蓮湖)'],
+    [11145855, '东坑', 11145170, 'Dongkeng', 0, 'asciiname « dong keng » = Dongkeng ; 东坑 porté par d\'autres fiches Dongkeng (1812424…)']
+  ],
+  IR: [
+    [7011509, 'احمد آباد', 7011479, 'Aḩmadābād', 0, 'fiche 35419 (ferme Aḩmadābād à 0,3 km) : Aḩmadābād et احمد آباد'],
+    [7049105, 'گوانی', 7049041, 'Gavānī', 0, 'fiche 1336185 (ferme Gavānī à 0,5 km) : Gavānī et گوانی']
+  ],
+  JP: [
+    // Tateishi (7 252 hab.) porte « Hiraizumi » en alternatename ; 平泉 = Hiraizumi d'après les fiches 11776759
+    // (Hiraizumi, PPLX, alt 平泉) et 2112731 (Hiraizumi-cho, ADM3, alt 平泉町, Hiraizumi).
+    [2112732, '平泉', 2110812, 'Tateishi', 0, 'Tateishi porte « Hiraizumi » ; fiches 11776759 et 2112731 : 平泉 = Hiraizumi'],
+    // Deux fiches PPL au même point (35,1167 N ; 133,05 E), même code postal publié 699-1941, que le fichier postal Japan
+    // Post (scripts/postal/JP_postal.txt) nomme « Omaki » ; Yanagidamen porte « Ōmaki » et « Omaki » en alternatenames.
+    // Gardé : Ō-maki (1854180, ex-大馬木, nom de la localité postale) ; « Yanagidamen » n'a aucun nom rattaché à une
+    // langue sur sa fiche et ne peut donc pas devenir un alias.
+    [1848564, 'Yanagidamen', 1854180, 'Ō-maki', 0, 'même point, Yanagidamen porte « Ōmaki » ; code postal 699-1941 = Omaki (Japan Post)']
+  ]
+};
+Object.entries(SAME_POINT_DUPLICATES).forEach(([cc, rows]) => rows.forEach(([id, n, keptId, keptName, km, proof]) => {
+  JUNK_IDS[id] = [cc, n, 'doublon au même point de « ' + keptName + ' » (fiche ' + keptId + ', ' + km + ' km) : ' + proof];
 }));
 function isJunkId(country, geonameid){
   const e = JUNK_IDS[geonameid];
@@ -395,6 +432,54 @@ function isJunkName(name){
   name = name || '';
   return !name || EDITOR_COMMENT_NAME_RE.test(name) || PLACEHOLDER_NAMES.has(name) || PLACEHOLDER_QUALIFIED_RE.test(name) ||
     LOST_CHARS_RE.test(name) || BROKEN_BRACKET_RE.test(name) || hasUnbalancedParen(name) || UNDERSCORE_RE.test(name) || INPUT_SYMBOL_RE.test(name);
+}
+
+// 15e audit du 19/09/2026 — RÉPARATION TYPOGRAPHIQUE DES ALIAS, appliquée par build-all-aliases.js (cleanAliasText)
+// AVANT le refus par isJunkName. La 14e passe avait écarté 115 lignes d'alias publiées (« _ », parenthèse ou crochet
+// orphelin, « * ») sans les réparer ; 82 d'entre elles n'avaient AUCUNE forme propre ailleurs (vérifié ligne par ligne
+// dans scripts/altnames/ et scripts/dump/ : « Юхары_шильян » est le seul nom russe de Yuxarı Şilyan, « 伏尔加斯基_ » le seul
+// nom chinois de Volzhskiy, « (佐敷町 » le seul « 佐敷町 » de Sashiki…) : le village n'était plus trouvable dans ces langues.
+// Règles, dans cet ordre, retenues parce qu'elles sont PUREMENT TYPOGRAPHIQUES (aucune lettre ajoutée ni devinée) :
+//   1. « _ » final retiré : reste d'un titre Wikipédia dont la précision a été coupée (« 伏尔加斯基_ » pour
+//      « 伏尔加斯基_(萨马拉州) », « Беркли_ », « サンバーナーディーノ_ ») — le nom qui précède est complet ;
+//   2. « _ » restant remplacé par une espace : convention des titres MediaWiki, où « _ » EST l'espace (« Иван_Вазово » =
+//      « Иван Вазово », « St_Georges_D_Oleron ») — sauf « _ » collé à une espace (séparateur entre deux noms : aucune
+//      réparation) ;
+//   3. parenthèse ou crochet orphelin EN TÊTE ou EN FIN, seul signe de ce type dans l'alias, retiré (« (佐敷町 »,
+//      « Hueschtert) », « Baile an Tirialaigh) », « [چانهاسن، مینه‌سوتا ») : le nom est entier, seul le signe est en trop.
+// Le résultat passe ensuite par TOUS les contrôles habituels (isJunkName, égalité au nom publié, doublon d'une ligne
+// existante : « Ansemburg) » retombe sur « Ansemburg », déjà publié, et disparaît).
+// NON réparés (restent écartés) :
+//   - parenthèse orpheline AU MILIEU (« zzLapurdi-) Jatsu », « 景島（Isla Vista)社群 ») ou deuxième parenthèse non
+//     appariée (« (پنڈی ہاشم (باڑہ ») : il faudrait deviner où la parenthèse fermait ;
+//   - « * » (un seul alias, « CZ*ECO Nelson » pour Eco-Nelson, AQ) : le retirer donne « CZECO Nelson », qui n'est pas un
+//     nom — réparation non sûre, et cette forme ne figure sur aucune fiche GeoNames (la station n'a pas de fiche P dans
+//     scripts/dump/AQ_dump.txt) ; les formes propres « Eco Nelson », « Base Eco Nelson » sont déjà publiées ;
+//   - ALIAS_REPAIR_REJECT ci-dessous : lignes dont la forme réparée désigne une AUTRE entité que le lieu publié (commune
+//     rurale, province, gouvernorat, autre ville) ou dont la graphie voulue reste incertaine (forme abrégée ou tronquée).
+const ALIAS_REPAIR_REJECT = new Map([
+  ['Rakvere_vald', 'commune rurale de Rakvere (vald), pas la ville (EE)'],
+  ['Põltsamaa_vald', 'commune rurale de Põltsamaa (vald), pas la ville (EE)'],
+  ['Paide_vald', 'commune rurale de Paide (vald), pas la ville (EE)'],
+  ['Khwaeng_Savannakhet', 'province (khwaeng) de Savannakhet, pas la ville (LA)'],
+  ['Mukim_Penyabong', 'mukim (subdivision) de Penyabong, pas le village (MY)'],
+  ['وادي_الدواسر_(محافظة)', 'gouvernorat (محافظة) de Wadi ad-Dawasir, pas la ville (SA)'],
+  ['Ист_Лансинг', 'East Lansing, autre ville : nom recopié par erreur sur la fiche d\'East Tawas (US 4991692)'],
+  ['Килитташ_ке', 'fin tronquée ou abrégée (« ке »), aucune autre forme russe sur la fiche (TR 743330)'],
+  ['A_Gojilan', 'initiale abrégée (« A » pour ‘Awlā ou ‘Abd Allah ?), graphie voulue incertaine (IQ 98837)']
+]);
+const ORPHAN_HEAD_RE = /^[(\[]/, ORPHAN_TAIL_RE = /[)\]]$/;
+function repairAliasTypography(text){
+  let t = String(text || '');
+  if(ALIAS_REPAIR_REJECT.has(t)) return t;
+  // « _ » contre une espace : séparateur entre deux noms, pas une espace MediaWiki (« حدود الربعة _ الربعة », YE : « limites
+  // d'Ar Rab‘ah _ Ar Rab‘ah », écarté au 13e audit) -> aucune réparation, l'alias reste écarté.
+  if(/\s_|_\s/.test(t)) return t;
+  if(t.includes('_')) t = t.replace(/_+$/, '').replace(/_+/g, ' ').replace(/\s{2,}/g, ' ').trim();
+  const signs = (t.match(/[()\[\]（）]/g) || []).length;
+  if(signs === 1 && ORPHAN_HEAD_RE.test(t)) t = t.slice(1).trim();
+  else if(signs === 1 && ORPHAN_TAIL_RE.test(t)) t = t.slice(0, -1).trim();
+  return t;
 }
 
 // Filtre commun, appelé par chaque générateur sur chaque ligne du dump : true = lieu écarté.
@@ -547,6 +632,6 @@ function dropNearDuplicates(lines){
 }
 
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
-  PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, INPUT_SYMBOL_RE,
+  PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES, INPUT_SYMBOL_RE, ALIAS_REPAIR_REJECT, repairAliasTypography,
   BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, excludePlace,
   fixMixedScript, cleanPlaceName, preparePlaceName, dropNearDuplicates };

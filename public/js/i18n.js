@@ -15426,9 +15426,9 @@
       'reveal.clueReduced': "Post reali qed jistenniek.",
       'reveal.confirmed': 'Destinazzjoni miġbuda',
       'reveal.stamp': 'Destinazzjoni kkonfermata',
-      'reveal.inhabitants': '{n} residenti',
+      'reveal.inhabitants': "Residenti: {n}",
       'reveal.poi1': 'Post wieħed ta\' interess reali misjub',
-      'reveal.poiN': '{n} postijiet ta\' interess reali misjuba',
+      'reveal.poiN': "Postijiet ta' interess reali misjuba: {n}",
 
       'map.title': 'Mappa tar-rotta',
       'map.note': "Sfond OpenStreetMap. Il-punti jitqiegħdu fil-koordinati reali tal-bliet — il-linja tgħaqqad it-tappi bħal tir tal-għasfur, ir-rotta reali ddur aktar.",
@@ -19489,9 +19489,9 @@
       'reveal.clueReduced': 'Prôwdzëwi môl na cebie żdże.',
       'reveal.confirmed': 'Cél wëlosowóny',
       'reveal.stamp': 'Cél pòcwierdzony',
-      'reveal.inhabitants': '{n} mieszkańców',
+      'reveal.inhabitants': "Mieszkańców: {n}",
       'reveal.poi1': '1 prôwdzewi môl interesu nalazłi',
-      'reveal.poiN': '{n} prôwdzewëch môlów interesu nalazłëch',
+      'reveal.poiN': "Prôwdzewëch môlów interesu: {n}",
 
       'map.title': 'Karta trasë',
       'map.note': 'Spódk OpenStreetMap. Pùnktë są zrëchtowóné na prôwdzewëch kòordinatach gardów — linijô łączi krokë jak lot ptôka, prôwdzewô droga wiãcy wije sã.',
@@ -20503,9 +20503,9 @@
       'reveal.clueReduced': 'Правдиве місце на тя чекать.',
       'reveal.confirmed': 'Ціль вылосована',
       'reveal.stamp': 'Ціль потверджена',
-      'reveal.inhabitants': '{n} жытелів',
+      'reveal.inhabitants': "Жытелів: {n}",
       'reveal.poi1': '1 правдиве місце інтересу найдене',
-      'reveal.poiN': '{n} правдивых місць інтересу найденых',
+      'reveal.poiN': "Правдивых місць інтересу: {n}",
 
       'map.title': 'Мапа трасы',
       'map.note': 'Тло OpenStreetMap. Пункты суть положены на правдивых координатах міст — лінія лучить крокы як лет птаха, правдива дорога сі більше вивать.',
@@ -32651,9 +32651,9 @@
       'reveal.clueReduced': "Tha àite fìor a' feitheamh ort.",
       'reveal.confirmed': "Ceann-uidhe air a thaghadh",
       'reveal.stamp': "Ceann-uidhe air a dhearbhadh",
-      'reveal.inhabitants': "{n} neach-còmhnaidh",
+      'reveal.inhabitants': "Luchd-còmhnaidh: {n}",
       'reveal.poi1': "1 fhìor àite inntinneach air a lorg",
-      'reveal.poiN': "{n} fìor àite inntinneach air an lorg",
+      'reveal.poiN': "Fìor àiteachan inntinneach air an lorg: {n}",
 
       'map.title': "Mapa na Slighe",
       'map.note': "Cùl-raon OpenStreetMap. Tha na puingean suidhichte aig fìor cho-chomharran nam bailtean — tha an loidhne a' ceangal nan stadan mar a dh'itealaicheas am fitheach, tha an fhìor shlighe a' lùbadh barrachd.",
@@ -72138,7 +72138,7 @@
       'reveal.clueReduced': 'مكان حقيقي بانتظارك.',
       'reveal.confirmed': 'تم سحب الوجهة',
       'reveal.stamp': 'تم تأكيد الوجهة',
-      'reveal.inhabitants': '{n} نسمة',
+      'reveal.inhabitants': "عدد السكان: {n}",
       'reveal.poi1': 'تم العثور على معلم واحد حقيقي',
       'reveal.poiN': 'تم العثور على {n} معالم حقيقية',
 
@@ -160878,6 +160878,11 @@
   // Valeurs-listes (items du sac à préparer, activités génériques...) : séparées de STRINGS
   // (valeurs scalaires) pour ne pas mélanger deux formes différentes derrière la même fonction de
   // lookup — voir tl() plus bas.
+  // 15e audit du 19/09/2026 : « 20 % » de pack.voitureElectrique écrit avec l'espace insécable que CLDR met avant le
+  // signe (Intl.NumberFormat(…, {style: 'percent'}) dans la locale de la langue elle-même : fr, es, de, lb, nds, hsb, ca,
+  // gl, oc — espace fine —, br, cs, sk, hr, da, no, sv, fi, mk, ro, lt, fo, be, ru, zgh, tt, ce, ckb, tk, dz, qu, qu-EC) ;
+  // « 20% » ailleurs. Langues sans données CLDR propres (corse, créoles, tahitien…) : laissées telles quelles, de même que
+  // le groenlandais (suffixe collé « 20%-im »). Vérifié par tests/i18n.test.js.
   var LISTS = {
     fr: {
       'pack.base': ['Trousse à pharmacie', 'Gourde réutilisable', 'Chargeur & batterie externe', "Espèces d'appoint", 'Playlist de route'],
@@ -160886,7 +160891,7 @@
       'pack.confortable': ['Une tenue correcte pour le restaurant du soir', 'Trousse de toilette complète'],
       'pack.voitureThermique': ['Carte grise et permis à jour', 'Trousse de secours'],
       'pack.voitureHybride': ['Carte grise et permis à jour', 'Trousse de secours'],
-      'pack.voitureElectrique': ['Câble de recharge Type 2', 'Appli multi-réseaux de bornes de recharge (ex. Chargemap)', "Marge de 20% sur l'autonomie annoncée"],
+      'pack.voitureElectrique': ['Câble de recharge Type 2', 'Appli multi-réseaux de bornes de recharge (ex. Chargemap)', "Marge de 20\u00a0% sur l'autonomie annoncée"],
       'pack.van': ["Jerrican d'eau potable", 'Cartouche de gaz de camping', 'Cales de mise à niveau'],
       'pack.moto': ['Casque et gants', 'Combinaison ou surpantalon pluie', 'Sangles élastiques pour bagages'],
       'pack.velo': ['Kit anti-crevaison complet', 'Sacoches étanches', 'Batterie externe pour le GPS']
@@ -160910,7 +160915,7 @@
       'pack.confortable': ['Un conjunto decente para cenar fuera', 'Neceser completo'],
       'pack.voitureThermique': ['Permiso de circulación y carnet en vigor', 'Botiquín de urgencia'],
       'pack.voitureHybride': ['Permiso de circulación y carnet en vigor', 'Botiquín de urgencia'],
-      'pack.voitureElectrique': ['Cable de carga Tipo 2', 'App multirred de puntos de carga (ej. Chargemap)', '20% de margen sobre la autonomía anunciada'],
+      'pack.voitureElectrique': ['Cable de carga Tipo 2', 'App multirred de puntos de carga (ej. Chargemap)', '20\u00a0% de margen sobre la autonomía anunciada'],
       'pack.van': ['Garrafa de agua potable', 'Cartucho de gas de camping', 'Calzos de nivelación'],
       'pack.moto': ['Casco y guantes', 'Traje o pantalón de lluvia', 'Correas elásticas para el equipaje'],
       'pack.velo': ['Kit completo antipinchazos', 'Alforjas impermeables', 'Batería externa para el GPS']
@@ -160946,7 +160951,7 @@
       'pack.confortable': ['Ein passendes Outfit fürs Abendessen', 'Vollständige Kulturtasche'],
       'pack.voitureThermique': ['Gültiger Fahrzeugschein und Führerschein', 'Erste-Hilfe-Set'],
       'pack.voitureHybride': ['Gültiger Fahrzeugschein und Führerschein', 'Erste-Hilfe-Set'],
-      'pack.voitureElectrique': ['Typ-2-Ladekabel', 'Multi-Netzwerk-Lade-App (z. B. Chargemap)', '20% Reserve auf die angegebene Reichweite'],
+      'pack.voitureElectrique': ['Typ-2-Ladekabel', 'Multi-Netzwerk-Lade-App (z. B. Chargemap)', '20\u00a0% Reserve auf die angegebene Reichweite'],
       'pack.van': ['Trinkwasserkanister', 'Camping-Gaskartusche', 'Unterlegkeile'],
       'pack.moto': ['Helm und Handschuhe', 'Regenkombi oder Überhose', 'Elastische Gepäckspanngurte'],
       'pack.velo': ['Komplettes Pannenset', 'Wasserdichte Packtaschen', 'Externer Akku fürs GPS']
@@ -160958,7 +160963,7 @@
       'pack.confortable': ['Eng anstänneg Kleedung fir owes Iessen ze goen', 'Komplett Necessaire'],
       'pack.voitureThermique': ['Gëlteg Fahrzeugschäin a Führerschäin', 'Éischt-Hëllef-Set'],
       'pack.voitureHybride': ['Gëlteg Fahrzeugschäin a Führerschäin', 'Éischt-Hëllef-Set'],
-      'pack.voitureElectrique': ['Typ-2-Luedkabel', 'Multi-Netzwierk-Lued-App (z.B. Chargemap)', '20% Marge op der ugëfte Reechwäit'],
+      'pack.voitureElectrique': ['Typ-2-Luedkabel', 'Multi-Netzwierk-Lued-App (z.B. Chargemap)', '20\u00a0% Marge op der ugëfte Reechwäit'],
       'pack.van': ['Kanister mat Drénkwaasser', 'Camping-Gaskartusch', 'Ausgläichskeeën'],
       'pack.moto': ['Helm a Handschueh', 'Reekombi oder Iwwerhose', 'Elastesch Gepäckspanngurten'],
       'pack.velo': ['Komplett Flécksset', 'Waasserdicht Packtaschen', 'Extern Batterie fir de GPS']
@@ -160994,7 +160999,7 @@
       'pack.confortable': ['En passen Tüüg för’t Aftenäten buten', 'Vulle Waschtasch'],
       'pack.voitureThermique': ['Gellen Fohrtüügschien un Führerschien', 'Erste-Hülp-Kassen'],
       'pack.voitureHybride': ['Gellen Fohrtüügschien un Führerschien', 'Erste-Hülp-Kassen'],
-      'pack.voitureElectrique': ['Typ-2-Ladekabel', 'Multi-Netz-App för Ladestatschonen (t.B. Chargemap)', '20% Reserv op de angeven Reekwiet'],
+      'pack.voitureElectrique': ['Typ-2-Ladekabel', 'Multi-Netz-App för Ladestatschonen (t.B. Chargemap)', '20\u00a0% Reserv op de angeven Reekwiet'],
       'pack.van': ['Kanister mit Drinkwater', 'Camping-Gaskartusch', 'Utglieksblöck'],
       'pack.moto': ['Helm un Handschoh', 'Regenpack oder Överbüx', 'Elastisch Gepäckbänner'],
       'pack.velo': ['Komplett Reparatursett', 'Waterdicht Packtaschen', 'Extern Batterie för’t GPS']
@@ -161006,7 +161011,7 @@
       'pack.confortable': ['Přihódny wobleček za wječer we hosćencu', 'Dospołna toaletna torba'],
       'pack.voitureThermique': ['Płaćiwe dokumenty a wodźerski lisć', 'Prěnja pomoc'],
       'pack.voitureHybride': ['Płaćiwe dokumenty a wodźerski lisć', 'Prěnja pomoc'],
-      'pack.voitureElectrique': ['Nabijenski kabl typ 2', 'Aplikacija za wjacore syće nabijenskich stacijow (na př. Chargemap)', '20% rezerwy na podatej sylnosći'],
+      'pack.voitureElectrique': ['Nabijenski kabl typ 2', 'Aplikacija za wjacore syće nabijenskich stacijow (na př. Chargemap)', '20\u00a0% rezerwy na podatej sylnosći'],
       'pack.van': ['Kanister ze pitnej wodu', 'Camping-plinowa kartuša', 'Wurunwanske klince'],
       'pack.moto': ['Helm a rukajcy', 'Dešćowy wobleček abo nadchołowcy', 'Elastiske pasy za tobołu'],
       'pack.velo': ['Dospołny sett přećiwo defektam', 'Wodoodpustne tobole', 'Eksterna baterija za GPS']
@@ -161150,7 +161155,7 @@
       'pack.confortable': ['Roba adequada per al sopar al restaurant', 'Necesser complet'],
       'pack.voitureThermique': ['Permís de circulació i carnet vigents', 'Farmaciola'],
       'pack.voitureHybride': ['Permís de circulació i carnet vigents', 'Farmaciola'],
-      'pack.voitureElectrique': ['Cable de càrrega Tipus 2', "Aplicació multixarxa de punts de càrrega (ex. Chargemap)", "Marge del 20% sobre l'autonomia anunciada"],
+      'pack.voitureElectrique': ['Cable de càrrega Tipus 2', "Aplicació multixarxa de punts de càrrega (ex. Chargemap)", "Marge del 20\u00a0% sobre l'autonomia anunciada"],
       'pack.van': ["Bidó d'aigua potable", 'Càrtutx de gas de càmping', 'Falques de nivellació'],
       'pack.moto': ['Casc i guants', 'Vestit o sobrepantalons de pluja', "Corretges elàstiques per a l'equipatge"],
       'pack.velo': ['Kit antipunxades complet', 'Alforges impermeables', 'Bateria externa per al GPS']
@@ -161174,7 +161179,7 @@
       'pack.confortable': ['Roupa axeitada para a cea no restaurante', 'Necesser de aseo completo'],
       'pack.voitureThermique': ['Documentación do coche e carné en vigor', 'Botiquín'],
       'pack.voitureHybride': ['Documentación do coche e carné en vigor', 'Botiquín'],
-      'pack.voitureElectrique': ['Cable de carga Tipo 2', 'Aplicación multirrede de puntos de carga (ex. Chargemap)', 'Marxe do 20% sobre a autonomía anunciada'],
+      'pack.voitureElectrique': ['Cable de carga Tipo 2', 'Aplicación multirrede de puntos de carga (ex. Chargemap)', 'Marxe do 20\u00a0% sobre a autonomía anunciada'],
       'pack.van': ['Bidón de auga potábel', 'Bombona de gas de camping', 'Cuñas de nivelación'],
       'pack.moto': ['Casco e luvas', 'Traxe ou sobrepantalón de choiva', 'Correas elásticas para a equipaxe'],
       'pack.velo': ['Kit completo antifuraduras', 'Alforxas estancas', 'Batería externa para o GPS']
@@ -161186,7 +161191,7 @@
       'pack.confortable': ['Una tenguda corrècta pel restaurant del ser', 'Necesser de tualeta complèt'],
       'pack.voitureThermique': ['Papièrs de la veitura e permís a jorn', 'Trossa de pharmacia'],
       'pack.voitureHybride': ['Papièrs de la veitura e permís a jorn', 'Trossa de pharmacia'],
-      'pack.voitureElectrique': ['Cable de recarga Tipe 2', "Aplicacion multiret de bornas de recarga (ex. Chargemap)", "Marge de 20% sus l'autonomia anonciada"],
+      'pack.voitureElectrique': ['Cable de recarga Tipe 2', "Aplicacion multiret de bornas de recarga (ex. Chargemap)", "Marge de 20\u202f% sus l'autonomia anonciada"],
       'pack.van': ["Bidon d'aiga potabla", 'Cartocha de gas de camping', 'Calas de mesa a nivèl'],
       'pack.moto': ['Casco e gants', 'Combinason o sobrebraga de pluèja', 'Sangas elasticas pels bagatges'],
       'pack.velo': ['Kit complèt antipónchadura', 'Sacòchas estancas', 'Batariá extèrna pel GPS']
@@ -161198,7 +161203,7 @@
       'pack.confortable': ["Un dilhad dereat evit koan er preti", "Boestl-glanidigezh klok"],
       'pack.voitureThermique': ["Kartenn-dre ha lañvaz a-vremañ", "Boestl-sikour kentañ"],
       'pack.voitureHybride': ["Kartenn-dre ha lañvaz a-vremañ", "Boestl-sikour kentañ"],
-      'pack.voitureElectrique': ["Kabl adleuniañ Rizh 2", "Arload liesrouedad ar savennoù adleuniañ (d.s. Chargemap)", "Marj a 20% war an hedad diskleriet"],
+      'pack.voitureElectrique': ["Kabl adleuniañ Rizh 2", "Arload liesrouedad ar savennoù adleuniañ (d.s. Chargemap)", "Marj a 20\u00a0% war an hedad diskleriet"],
       'pack.van': ["Bidon dour evet", "Boutailhad gaz kampiñ", "Kalioù kevatalaat"],
       'pack.moto': ["Kasked ha maneier", "Gwiskamant pe bragoù-glav", "Korreennoù elastik evit ar bagajoù"],
       'pack.velo': ["Kit klok a-enep toull-tenn", "Sac'hadoù dour-startijenn", "Bateri diavaez evit ar GPS"]
@@ -161306,7 +161311,7 @@
       'pack.confortable': ['Slušný outfit na večeři venku', 'Kompletní hygienické potřeby'],
       'pack.voitureThermique': ['Technický průkaz a platný řidičský průkaz', 'Lékárnička'],
       'pack.voitureHybride': ['Technický průkaz a platný řidičský průkaz', 'Lékárnička'],
-      'pack.voitureElectrique': ['Nabíjecí kabel typu 2', 'Aplikace pro nabíjení ve více sítích (např. Chargemap)', '20% rezerva na uváděný dojezd'],
+      'pack.voitureElectrique': ['Nabíjecí kabel typu 2', 'Aplikace pro nabíjení ve více sítích (např. Chargemap)', '20\u00a0% rezerva na uváděný dojezd'],
       'pack.van': ['Kanystr na pitnou vodu', 'Kempingová plynová bomba', 'Vyrovnávací klíny'],
       'pack.moto': ['Přilba a rukavice', 'Nepromokavá kombinéza nebo návleky', 'Elastické popruhy na zavazadla'],
       'pack.velo': ['Kompletní sada na opravu defektu', 'Nepromokavé brašny', 'Externí baterie pro GPS']
@@ -161330,7 +161335,7 @@
       'pack.confortable': ['Slušný outfit na večeru vonku', 'Kompletná sada hygienických potrieb'],
       'pack.voitureThermique': ['Technický preukaz a platný vodičský preukaz', 'Lekárnička'],
       'pack.voitureHybride': ['Technický preukaz a platný vodičský preukaz', 'Lekárnička'],
-      'pack.voitureElectrique': ['Nabíjací kábel typu 2', 'Aplikácia na nabíjanie vo viacerých sieťach (napr. Chargemap)', '20% rezerva na uvádzaný dojazd'],
+      'pack.voitureElectrique': ['Nabíjací kábel typu 2', 'Aplikácia na nabíjanie vo viacerých sieťach (napr. Chargemap)', '20\u00a0% rezerva na uvádzaný dojazd'],
       'pack.van': ['Kanister na pitnú vodu', 'Kempingová plynová bomba', 'Vyrovnávacie kliny'],
       'pack.moto': ['Prilba a rukavice', 'Nepremokavá kombinéza alebo návleky', 'Elastické popruhy na batožinu'],
       'pack.velo': ['Kompletná sada na opravu defektu', 'Nepremokavé brašne', 'Externá batéria pre GPS']
@@ -161367,7 +161372,7 @@
       'pack.confortable': ['Lijepa odjeća za večeru', 'Potpuni pribor za osobnu higijenu'],
       'pack.voitureThermique': ['Prometna dozvola i važeća vozačka dozvola', 'Komplet prve pomoći'],
       'pack.voitureHybride': ['Prometna dozvola i važeća vozačka dozvola', 'Komplet prve pomoći'],
-      'pack.voitureElectrique': ['Kabel za punjenje tipa 2', 'Aplikacija za punjenje s više mreža (npr. Chargemap)', '20 % rezerve na predviđenom dometu'],
+      'pack.voitureElectrique': ['Kabel za punjenje tipa 2', 'Aplikacija za punjenje s više mreža (npr. Chargemap)', '20\u00a0% rezerve na predviđenom dometu'],
       'pack.van': ['Kanistar za pitku vodu', 'Boca plina za kampiranje', 'Klinovi za niveliranje'],
       'pack.moto': ['Kaciga i rukavice', 'Kišna odjeća ili kišne hlače', 'Elastične trake za prtljagu'],
       'pack.velo': ['Potpuni komplet za popravak defekta', 'Nepromočive bisage', 'Vanjska baterija za GPS']
@@ -161406,7 +161411,7 @@
       'pack.confortable': ['Pænt tøj til en middag', 'Fuldt toiletgrej'],
       'pack.voitureThermique': ['Registreringsattest og gyldigt kørekort', 'Førstehjælpskasse'],
       'pack.voitureHybride': ['Registreringsattest og gyldigt kørekort', 'Førstehjælpskasse'],
-      'pack.voitureElectrique': ['Ladekabel type 2', 'App til flere ladenetværk (f.eks. Chargemap)', '20 % reserve på den opgivne rækkevidde'],
+      'pack.voitureElectrique': ['Ladekabel type 2', 'App til flere ladenetværk (f.eks. Chargemap)', '20\u00a0% reserve på den opgivne rækkevidde'],
       'pack.van': ['Dunk til drikkevand', 'Campinggasflaske', 'Nivelleringskiler'],
       'pack.moto': ['Styrthjelm og handsker', 'Regntøj eller regnbukser', 'Elastiske bagagestropper'],
       'pack.velo': ['Komplet punkteringssæt', 'Vandtætte cykeltasker', 'Ekstern batteri til GPS']
@@ -161419,7 +161424,7 @@
       'pack.confortable': ['Pene klær til middag', 'Fullstendig toalettutstyr'],
       'pack.voitureThermique': ['Vognkort og gyldig førerkort', 'Førstehjelpsskrin'],
       'pack.voitureHybride': ['Vognkort og gyldig førerkort', 'Førstehjelpsskrin'],
-      'pack.voitureElectrique': ['Ladekabel type 2', 'App for flere ladenettverk (f.eks. Chargemap)', '20 % reserve på oppgitt rekkevidde'],
+      'pack.voitureElectrique': ['Ladekabel type 2', 'App for flere ladenettverk (f.eks. Chargemap)', '20\u00a0% reserve på oppgitt rekkevidde'],
       'pack.van': ['Kanne til drikkevann', 'Campinggassflaske', 'Nivelleringskiler'],
       'pack.moto': ['Styrthjelm og hansker', 'Regntøy eller regnbukser', 'Elastiske bagasjestropper'],
       'pack.velo': ['Komplett punkteringssett', 'Vanntette sykkelvesker', 'Ekstern batteri til GPS']
@@ -161432,7 +161437,7 @@
       'pack.confortable': ['Fina kläder till middagen', 'Komplett toalettartiklar'],
       'pack.voitureThermique': ['Registreringsbevis och giltigt körkort', 'Förbandslåda'],
       'pack.voitureHybride': ['Registreringsbevis och giltigt körkort', 'Förbandslåda'],
-      'pack.voitureElectrique': ['Laddkabel typ 2', 'App för flera laddnätverk (t.ex. Chargemap)', '20 % reserv på uppgiven räckvidd'],
+      'pack.voitureElectrique': ['Laddkabel typ 2', 'App för flera laddnätverk (t.ex. Chargemap)', '20\u00a0% reserv på uppgiven räckvidd'],
       'pack.van': ['Dunk för dricksvatten', 'Campinggasflaska', 'Nivelleringskilar'],
       'pack.moto': ['Hjälm och handskar', 'Regnkläder eller regnbyxor', 'Elastiska bagageremmar'],
       'pack.velo': ['Komplett punkteringssats', 'Vattentäta cykelväskor', 'Extern batteri till GPS']
@@ -161445,7 +161450,7 @@
       'pack.confortable': ['Siistit vaatteet illalliselle', 'Täydelliset toilettitarvikkeet'],
       'pack.voitureThermique': ['Rekisteriote ja voimassa oleva ajokortti', 'Ensiapulaukku'],
       'pack.voitureHybride': ['Rekisteriote ja voimassa oleva ajokortti', 'Ensiapulaukku'],
-      'pack.voitureElectrique': ['Tyypin 2 latauskaapeli', 'Sovellus useille latausverkoille (esim. Chargemap)', '20 %:n varmuusvara ilmoitetusta toimintamatkasta'],
+      'pack.voitureElectrique': ['Tyypin 2 latauskaapeli', 'Sovellus useille latausverkoille (esim. Chargemap)', '20\u00a0%:n varmuusvara ilmoitetusta toimintamatkasta'],
       'pack.van': ['Kanisteri juomavedelle', 'Retkikaasupullo', 'Tasauskiilat'],
       'pack.moto': ['Kypärä ja käsineet', 'Sadeasu tai sadehousut', 'Joustavat matkatavarahihnat'],
       'pack.velo': ['Täydellinen rengasrikkosarja', 'Vedenpitävät satulalaukut', 'Ulkoinen akku GPS:lle']
@@ -161484,7 +161489,7 @@
       'pack.confortable': ["Пристојна облека за вечера во ресторан", "Комплетен прибор за хигиена"],
       'pack.voitureThermique': ["Сообраќајна дозвола и важечка возачка дозвола", "Прибор за прва помош"],
       'pack.voitureHybride': ["Сообраќајна дозвола и важечка возачка дозвола", "Прибор за прва помош"],
-      'pack.voitureElectrique': ["Кабел за полнење тип 2", "Апликација за повеќе мрежи на полначки (на пр. Chargemap)", "Резерва од 20% на пријавениот домет"],
+      'pack.voitureElectrique': ["Кабел за полнење тип 2", "Апликација за повеќе мрежи на полначки (на пр. Chargemap)", "Резерва од 20\u00a0% на пријавениот домет"],
       'pack.van': ["Канистер за питка вода", "Боца камп-гас", "Клинови за нивелирање"],
       'pack.moto': ["Кацига и ракавици", "Комбинезон или панталони за дожд", "Еластични ремени за багаж"],
       'pack.velo': ["Комплетен прибор за поправка на дупната гума", "Водоотпорни бисаги", "Надворешна батерија за GPS"]
@@ -161496,7 +161501,7 @@
       'pack.confortable': ["O ținută corectă pentru cina la restaurant", "Trusă de toaletă completă"],
       'pack.voitureThermique': ["Talonul mașinii și permisul valabil", "Trusă de prim ajutor"],
       'pack.voitureHybride': ["Talonul mașinii și permisul valabil", "Trusă de prim ajutor"],
-      'pack.voitureElectrique': ["Cablu de încărcare Tip 2", "Aplicație multi-rețea pentru stații de încărcare (ex. Chargemap)", "Marjă de 20% față de autonomia anunțată"],
+      'pack.voitureElectrique': ["Cablu de încărcare Tip 2", "Aplicație multi-rețea pentru stații de încărcare (ex. Chargemap)", "Marjă de 20\u00a0% față de autonomia anunțată"],
       'pack.van': ["Canistră de apă potabilă", "Butelie de gaz de camping", "Cale de nivelare"],
       'pack.moto': ["Cască și mănuși", "Combinezon sau pantaloni de ploaie", "Chingi elastice pentru bagaje"],
       'pack.velo': ["Trusă completă anti-pană", "Genți impermeabile", "Baterie externă pentru GPS"]
@@ -161544,7 +161549,7 @@
       'pack.confortable': ['Tinkami drabužiai vakarienei restorane', 'Pilnas tualeto reikmenų rinkinys'],
       'pack.voitureThermique': ['Techninis pasas ir galiojantis vairuotojo pažymėjimas', 'Vaistinėlė'],
       'pack.voitureHybride': ['Techninis pasas ir galiojantis vairuotojo pažymėjimas', 'Vaistinėlė'],
-      'pack.voitureElectrique': ['2 tipo įkrovimo kabelis', 'Kelių įkrovimo tinklų programėlė (pvz., Chargemap)', '20% atsarga nuo nurodyto ridos nuotolio'],
+      'pack.voitureElectrique': ['2 tipo įkrovimo kabelis', 'Kelių įkrovimo tinklų programėlė (pvz., Chargemap)', '20\u00a0% atsarga nuo nurodyto ridos nuotolio'],
       'pack.van': ["Geriamo vandens kanistras", 'Kempingo dujų balionėlis', 'Išlyginimo pleištai'],
       'pack.moto': ['Šalmas ir pirštinės', 'Lietaus kombinezonas ar kelnės', 'Elastinės bagažo juostos'],
       'pack.velo': ['Pilnas skylių taisymo rinkinys', 'Vandeniui atsparūs krepšiai', 'Išorinė baterija GPS']
@@ -161616,7 +161621,7 @@
       'pack.confortable': ['Hóskandi klæði til kvøldmat á matstovu', 'Fullkomið lítilhýsi-sett'],
       'pack.voitureThermique': ['Skráseting og galdandi koyrikort', 'Fyrstuhjálparskrín'],
       'pack.voitureHybride': ['Skráseting og galdandi koyrikort', 'Fyrstuhjálparskrín'],
-      'pack.voitureElectrique': ['Slag 2 hleðslusnodda', 'Fleiri-net hleðslustøð appur (t.d. Chargemap)', '20% marginur av upplýsta ferðaflenginum'],
+      'pack.voitureElectrique': ['Slag 2 hleðslusnodda', 'Fleiri-net hleðslustøð appur (t.d. Chargemap)', '20\u00a0% marginur av upplýsta ferðaflenginum'],
       'pack.van': ["Drekkivatnbrúsi", 'Tjaldingargasflaska', 'Javnandi flísar'],
       'pack.moto': ['Hjálmur og hanskar', 'Regnbúnaður ella regnbrøkur', 'Sperrandi farangursbond'],
       'pack.velo': ['Fult sett til at gera við sprongdum ringum', 'Vatnheldar tøskur', 'Eyka orkugoymsla til GPS']
@@ -161643,7 +161648,7 @@
       'pack.confortable': ['Прыгожая вопратка для вячэры', 'Поўны набор прыналежнасцяў для гігіены'],
       'pack.voitureThermique': ['Пасведчанне аб рэгістрацыі і сапраўдныя правы', 'Аптэчка першай дапамогі'],
       'pack.voitureHybride': ['Пасведчанне аб рэгістрацыі і сапраўдныя правы', 'Аптэчка першай дапамогі'],
-      'pack.voitureElectrique': ['Кабель для зарадкі тыпу 2', 'Дадатак мультысеткавай зарадкі (напр. Chargemap)', '20 % запасу ад разлічанага пробегу'],
+      'pack.voitureElectrique': ['Кабель для зарадкі тыпу 2', 'Дадатак мультысеткавай зарадкі (напр. Chargemap)', '20\u00a0% запасу ад разлічанага пробегу'],
       'pack.van': ['Каністра для пітной вады', 'Балон з газам для кемпінгу', 'Клінья для выраўноўвання'],
       'pack.moto': ['Шлем і пальчаткі', 'Плашч-дажджавік або дажджавыя штаны', 'Эластычныя стужкі для багажу'],
       'pack.velo': ['Поўны набор для рамонту праколаў', 'Вадаадпорныя веласіпедныя сумкі', 'Знешні акумулятар для GPS']
@@ -161657,7 +161662,7 @@
       'pack.confortable': ['Красивая одежда для ужина', 'Полный набор туалетных принадлежностей'],
       'pack.voitureThermique': ['Свидетельство о регистрации и действующие права', 'Аптечка первой помощи'],
       'pack.voitureHybride': ['Свидетельство о регистрации и действующие права', 'Аптечка первой помощи'],
-      'pack.voitureElectrique': ['Кабель для зарядки типа 2', 'Приложение мультисетевой зарядки (напр. Chargemap)', '20 % запаса от расчётного пробега'],
+      'pack.voitureElectrique': ['Кабель для зарядки типа 2', 'Приложение мультисетевой зарядки (напр. Chargemap)', '20\u00a0% запаса от расчётного пробега'],
       'pack.van': ['Канистра для питьевой воды', 'Баллон с газом для кемпинга', 'Клинья для выравнивания'],
       'pack.moto': ['Шлем и перчатки', 'Дождевик или дождевые штаны', 'Эластичные ленты для багажа'],
       'pack.velo': ['Полный набор для ремонта проколов', 'Водонепроницаемые велосипедные сумки', 'Внешний аккумулятор для GPS']
@@ -161812,7 +161817,7 @@
       'pack.confortable': ["ⵜⵉⵎⵍⵙⵉⵜ ⵉⵛⵏⴰⵏ ⵉ ⵉⵎⵏⵙⵉ", "ⵜⴰⵢⵍⵍⵉⵜ ⵏ ⵓⵣⴷⴷⵉⴳ ⵜⴰⵎⵎⵉⴷⵜ"],
       'pack.voitureThermique': ["ⵜⴰⴽⴰⵕⴹⴰ ⵏ ⵜⴽⵕⵕⵓⵙⵜ ⴷ ⵜⵓⵔⴰⴳⵜ", "ⵜⴰⵢⵍⵍⵉⵜ ⵏ ⵜⴰⵍⵍⴰⵍⵜ"],
       'pack.voitureHybride': ["ⵜⴰⴽⴰⵕⴹⴰ ⵏ ⵜⴽⵕⵕⵓⵙⵜ ⴷ ⵜⵓⵔⴰⴳⵜ", "ⵜⴰⵢⵍⵍⵉⵜ ⵏ ⵜⴰⵍⵍⴰⵍⵜ"],
-      'pack.voitureElectrique': ["ⴰⴽⴰⴱⵍ ⵏ ⵓⵛⴰⵕⵊⵉ ⴰⵏⴰⵡ 2", "ⴰⵙⵏⴰⵙ ⵏ ⵜⴳⵊⴷⴰ (ⴰⵎⴷⵢⴰ Chargemap)", "ⵜⴰⵎⴰ ⵏ 20% ⵅⴼ ⵜⵣⵎⵎⴰⵔ"],
+      'pack.voitureElectrique': ["ⴰⴽⴰⴱⵍ ⵏ ⵓⵛⴰⵕⵊⵉ ⴰⵏⴰⵡ 2", "ⴰⵙⵏⴰⵙ ⵏ ⵜⴳⵊⴷⴰ (ⴰⵎⴷⵢⴰ Chargemap)", "ⵜⴰⵎⴰ ⵏ 20\u00a0% ⵅⴼ ⵜⵣⵎⵎⴰⵔ"],
       'pack.van': ["ⴰⵇⴱⵓⵛ ⵏ ⵡⴰⵎⴰⵏ ⵏ ⵜⵉⵙⵙⵉ", "ⵜⴰⴽⴰⵕⵟⵓⵛⵜ ⵏ ⵓⴳⴰⵣ", "ⵉⴽⵓⵍⵏ ⵏ ⵓⵙⵡⵉ"],
       'pack.moto': ["ⵜⴰⴽⵓⵎⴱⵓⵜ ⴷ ⵉⵇⴼⴼⴰⴼⵏ", "ⵜⵉⵎⵍⵙⵉⵜ ⵏ ⵓⵏⵥⴰⵕ", "ⵉⵛⵔⴰⴹⵏ ⵉ ⵍⴱⴰⴳⴰⵊ"],
       'pack.velo': ["ⴽⵉⵜ ⴰⵎⵎⵉⴷ ⵎⴳⴰⵍ ⵜⴰⴼⵙⵙⵉ", "ⵜⵉⵢⵓⴳⵉⵏ ⵓⵔ ⵜⵜⴰⵊⵊⴰⵏⵜ ⴰⵎⴰⵏ", "ⵜⴰⴱⴰⵟⵕⵉ ⵜⵓⴼⴼⵉⵖⵜ ⵉ GPS"]
@@ -162088,7 +162093,7 @@
       'pack.confortable': ["Ресторанга бару өчен килешле кием", "Тулы гигиена җыелмасы"],
       'pack.voitureThermique': ["Машина документлары һәм гамәлдәге йөртүче таныклыгы", "Беренче ярдәм аптечкасы"],
       'pack.voitureHybride': ["Машина документлары һәм гамәлдәге йөртүче таныклыгы", "Беренче ярдәм аптечкасы"],
-      'pack.voitureElectrique': ["Type 2 корылтау кабеле", "Күп челтәрле корылтау кушымтасы (мәсәлән, Chargemap)", "Күрсәтелгән йөреш запасына 20% өстәмә"],
+      'pack.voitureElectrique': ["Type 2 корылтау кабеле", "Күп челтәрле корылтау кушымтасы (мәсәлән, Chargemap)", "Күрсәтелгән йөреш запасына 20\u00a0% өстәмә"],
       'pack.van': ["Эчә торган су өчен канистра", "Туристик газ баллоны", "Тигезләү такталары"],
       'pack.moto': ["Шлем һәм бияләйләр", "Яңгыр костюмы яки өстән кия торган чалбар", "Йөк өчен эластик каешлар"],
       'pack.velo': ["Тишелгән камераны ремонтлау өчен тулы җыелма", "Су үткәрми торган велосумкалар", "GPS өчен тышкы аккумулятор"]
@@ -162124,7 +162129,7 @@
       'pack.confortable': ["Ресторане ваха хаза бедар", "Гигиенин юьззина гӏирсаш"],
       'pack.voitureThermique': ["Машенан техпаспорт а, лелаш долу водительски удостоверени а", "Аптечка"],
       'pack.voitureHybride': ["Машенан техпаспорт а, лелаш долу водительски удостоверени а", "Аптечка"],
-      'pack.voitureElectrique': ["Type 2 зарядкин кабель", "Дукха сетийн зарядкин приложени (масала, Chargemap)", "Гайтинчу автономех 20% запас"],
+      'pack.voitureElectrique': ["Type 2 зарядкин кабель", "Дукха сетийн зарядкин приложени (масала, Chargemap)", "Гайтинчу автономех 20\u00a0% запас"],
       'pack.van': ["Молу хин канистр", "Туристийн газан баллон", "Машен нисйан подкладкаш"],
       'pack.moto': ["Шлем а, каранаш а", "Догӏанан костюм я тӏехула юху хеча", "Эластични бухкарш"],
       'pack.velo': ["Шина тоян юьззина гӏирс", "Хи чекх ца долу велосипедан тӏоьрмигаш", "GPS-на арахьара аккумулятор"]
@@ -162184,7 +162189,7 @@
       'pack.confortable': ["جلێکی شیاو بۆ نانخواردنی ئێوارە لە دەرەوە", "کەلوپەلی تەواوی پاکوخاوێنی"],
       'pack.voitureThermique': ["ناسنامەی ئۆتۆمبێل و مۆڵەتی شۆفێریی کارا", "کیسەی فریاگوزاریی سەرەتایی"],
       'pack.voitureHybride': ["ناسنامەی ئۆتۆمبێل و مۆڵەتی شۆفێریی کارا", "کیسەی فریاگوزاریی سەرەتایی"],
-      'pack.voitureElectrique': ["کێبڵی بارگاویکردنی Type 2", "ئەپی بارگاویکردنی چەند تۆڕی (بۆ نموونە Chargemap)", "٢٠٪ پەراوێز لەسەر مەودای ڕاگەیەنراو"],
+      'pack.voitureElectrique': ["کێبڵی بارگاویکردنی Type 2", "ئەپی بارگاویکردنی چەند تۆڕی (بۆ نموونە Chargemap)", "٢٠\u00a0٪ پەراوێز لەسەر مەودای ڕاگەیەنراو"],
       'pack.van': ["دەبەی ئاوی خواردنەوە", "بوتڵی غازی کەمپ", "پارچەی ڕێکخستنی ئاستی ئۆتۆمبێل"],
       'pack.moto': ["کڵاوی پاراستن و دەستکێش", "جلی باران یان پانتۆڵی دژە ئاو", "پەتی لاستیکی بۆ بەستنی بار"],
       'pack.velo': ["کیتی تەواوی چاککردنی پەنچەری", "جانتای لاتەنیشتی دژە ئاو", "پاتری دەرەکی بۆ GPS"]
@@ -162244,7 +162249,7 @@
       'pack.confortable': ["Agşamlyk nahara çykmak üçin laýyk eşik", "Doly gigiýena toplumy"],
       'pack.voitureThermique': ["Ulagyň tehniki pasporty we hereket edýän sürüjilik şahadatnamasy", "Ilkinji kömek gutusy"],
       'pack.voitureHybride': ["Ulagyň tehniki pasporty we hereket edýän sürüjilik şahadatnamasy", "Ilkinji kömek gutusy"],
-      'pack.voitureElectrique': ["Type 2 zarýadlaýyş kabeli", "Köp torly zarýadlaýyş programmasy (meselem, Chargemap)", "Görkezilen ýöreýiş aralygyna 20% ätiýaçlyk"],
+      'pack.voitureElectrique': ["Type 2 zarýadlaýyş kabeli", "Köp torly zarýadlaýyş programmasy (meselem, Chargemap)", "Görkezilen ýöreýiş aralygyna 20\u00a0% ätiýaçlyk"],
       'pack.van': ["Agyz suwy üçin kanistr", "Kemping üçin gaz ballonçasy", "Deňleýji goýmalar"],
       'pack.moto': ["Kaska we ellik", "Ýagyn geýimi ýa-da suw geçirmeýän balak", "Ýük üçin elastik guşaklar"],
       'pack.velo': ["Doly deşik bejeriş toplumy", "Suw geçirmeýän welosiped sumkalary", "GPS üçin daşky batareýa"]
@@ -162460,7 +162465,7 @@
       'pack.confortable': ["ཕྱི་ཁར་ཞོ་ལྟོ་ཟ་ནིའི་དོན་ལུ་གྱོན་ཆས་ལེགས་ཤོམ", "ལུས་གཙང་ཅ་ཆས་ཆ་ཚང"],
       'pack.voitureThermique': ["སྣུམ་འཁོར་ཐོ་བཀོད་ལག་ཁྱེར་དང་ནུས་ཅན་འཁོར་ལོ་ལག་ཁྱེར", "དང་པོའི་སྨན་བཅོས་སྒྲོམ"],
       'pack.voitureHybride': ["སྣུམ་འཁོར་ཐོ་བཀོད་ལག་ཁྱེར་དང་ནུས་ཅན་འཁོར་ལོ་ལག་ཁྱེར", "དང་པོའི་སྨན་བཅོས་སྒྲོམ"],
-      'pack.voitureElectrique': ["Type 2 གློག་བསྐྱར་སྐུད་པ", "ཡོངས་འབྲེལ་མང་རབས་ཀྱི་གློག་བསྐྱར་ཉེར་སྤྱོད་ (དཔེར་ན་ Chargemap)", "བཀོད་ཡོད་པའི་ཁྱབ་ཚད་ལས་ 20% ཉེར་མཁོ་བཞག"],
+      'pack.voitureElectrique': ["Type 2 གློག་བསྐྱར་སྐུད་པ", "ཡོངས་འབྲེལ་མང་རབས་ཀྱི་གློག་བསྐྱར་ཉེར་སྤྱོད་ (དཔེར་ན་ Chargemap)", "བཀོད་ཡོད་པའི་ཁྱབ་ཚད་ལས་ 20\u00a0% ཉེར་མཁོ་བཞག"],
       'pack.van': ["འཐུང་ཆུའི་ཆུ་ཟོམ", "ཕྱི་ཁར་ཐབ་ཆས་ཀྱི་རླུང་སྣུམ་བུམ་པ", "སྣུམ་འཁོར་སྙོམས་སྒྲིག་ཤིང་དུམ"],
       'pack.moto': ["མགོ་ཁེབས་དང་ལག་ཤུབས", "ཆར་ཝའི་གྱོན་ཆས་ཡང་ན་ཆར་ཝའི་དོར་མ", "ཅ་ལ་བསྡམ་ནིའི་རྒྱང་ཐག"],
       'pack.velo': ["འཁོར་ལོ་ཧོལ་བཅོས་ཀྱི་ཅ་ཆས་ཆ་ཚང", "ཆུ་མི་འཛུལ་བའི་རྐང་འཁོར་ཁུག", "GPS གི་དོན་ལུ་ཉེར་མཁོའི་གློག་སྒམ"]
@@ -162676,7 +162681,7 @@
       'pack.confortable': ["Hawapi mikhunapaq sumaq p'acha", "Hunt'asqa mayllakuna q'ipi"],
       'pack.voitureThermique': ["Antawa qillqa, kamachisqa purichiy qillqapas", "Hampi q'ipi"],
       'pack.voitureHybride': ["Antawa qillqa, kamachisqa purichiy qillqapas", "Hampi q'ipi"],
-      'pack.voitureElectrique': ["Type 2 hunt'achina waskha", "Achka llikapaq hunt'achina ruwana (kayhina Chargemap)", "Nisqa puriy karu kayninmanta 20% yapa"],
+      'pack.voitureElectrique': ["Type 2 hunt'achina waskha", "Achka llikapaq hunt'achina ruwana (kayhina Chargemap)", "Nisqa puriy karu kayninmanta 20\u00a0% yapa"],
       'pack.van': ["Upyana yaku hatun p'uyñu", "Yanunapaq gas p'uyñu", "Antawata pampachanapaq sayachinakuna"],
       'pack.moto': ["Uma hark'ana, maki p'achakunapas", "Para p'acha utaq para wara", "Q'ipi watana chutaq waskhakuna"],
       'pack.velo': ["T'uqusqa llantata allichinapaq llapan", "Mana yaku yaykuq q'ipikuna", "GPSpaq hawa kallpa waqaychaq"]
@@ -162688,7 +162693,7 @@
       'pack.confortable': ["Kanchapi mikunapak sumak churana", "Hunta mayllarina kipi"],
       'pack.voitureThermique': ["Antawapak killka, kamachishka antawa pushana killkapash", "Hampi kipi"],
       'pack.voitureHybride': ["Antawapak killka, kamachishka antawa pushana killkapash", "Hampi kipi"],
-      'pack.voitureElectrique': ["Type 2 huntachina waska", "Tawka ñanpak huntachina hillay (shina: Chargemap)", "Nishka purina karukaypi 20% yapa"],
+      'pack.voitureElectrique': ["Type 2 huntachina waska", "Tawka ñanpak huntachina hillay (shina: Chargemap)", "Nishka purina karukaypi 20\u00a0% yapa"],
       'pack.van': ["Upyana yaku hatun puru", "Yanunapak gas puru", "Antawata pampachinkapak sayachinakuna"],
       'pack.moto': ["Uma harkana, maki churanakunapash", "Tamya churana, mana kashpaka tamya wara", "Kipita watana chutarik waskakuna"],
       'pack.velo': ["Llanta allichinapak tukuy hillaykuna", "Mana yaku yaykuk kipikuna", "GPSpak hawa ushay wakaychik"]
@@ -163158,6 +163163,106 @@
   counterForms('be', { 'unit.miN': { one: '{n}\u00a0міля', few: '{n}\u00a0мілі', many: '{n}\u00a0міль', other: '{n}\u00a0мілі' } });
   counterForms('uk', { 'unit.miN': { one: '{n}\u00a0миля', few: '{n}\u00a0милі', many: '{n}\u00a0миль', other: '{n}\u00a0милі' } });
   counterForms('ar', { 'unit.miN': { zero: '{n}\u00a0ميل', one: '{n}\u00a0ميل', two: 'ميلان', few: '{n}\u00a0أميال', many: '{n}\u00a0ميلًا', other: '{n}\u00a0ميل' } });
+  // 15e audit du 19/09/2026 : nombre d'habitants (reveal.inhabitants) et de lieux repérés (reveal.poiN) de la première
+  // étape, au bon pluriel (voir revealCountTexts dans app.js) — « 2 настоящих интересных точек », « 21 жителей »,
+  // « 3 obyvatel », « 22 mieszkańców », « تم العثور على ٢ معالم » s'affichaient. Formes « other » des langues slaves de
+  // l'Est et du polonais, « many » du tchèque, du slovaque et du lituanien : nombres fractionnaires (jamais atteints ici,
+  // données par complétude). Roumain : « de » à partir de 20 (« 21 de locuitori »). Arabe : duel sans nombre (« معلمين »
+  // dit déjà « deux », voir dualWithoutNumber), pluriel de 3 à 10, singulier accusatif de 11 à 99 ; habitants tournés en
+  // « عدد السكان: {n} » dans ses chaînes (le mot « نسمة » change de forme selon le nombre). Maltais, rusyn, kachoube et
+  // gaélique écossais : tournure « Libellé : {n} » dans leurs chaînes (formes plurielles non vérifiées). Haut-sorabe :
+  // formes à faire relire par un locuteur, comme ses autres compteurs. Langues aux règles CLDR complexes dont le nom reste
+  // invariable après un nombre (breton, irlandais, mannois, gallois, cornique ; langues turques, abkhaze, adyguéen,
+  // mordves, oudmourte ; filipino) et istro-roumain (règles d'accord inconnues ici) : phrases traduites inchangées.
+  counterForms('ru', {
+    'reveal.inhabitants': around(slavic('житель', 'жителя', 'жителей', 'жителя'), '{n} '),
+    'reveal.poiN': slavic('{n} настоящая интересная точка найдена', '{n} настоящие интересные точки найдены', '{n} настоящих интересных точек найдено',
+      '{n} настоящей интересной точки найдено')
+  });
+  counterForms('uk', {
+    'reveal.inhabitants': around(slavic('мешканець', 'мешканці', 'мешканців', 'мешканця'), '{n} '),
+    'reveal.poiN': slavic('{n} справжня цікава точка знайдена', '{n} справжні цікаві точки знайдено', '{n} справжніх цікавих точок знайдено',
+      '{n} справжньої цікавої точки знайдено')
+  });
+  counterForms('be', {
+    'reveal.inhabitants': around(slavic('жыхар', 'жыхары', 'жыхароў', 'жыхара'), '{n} '),
+    'reveal.poiN': slavic('{n} сапраўдны цікавы пункт знойдзены', '{n} сапраўдныя цікавыя пункты знойдзены', '{n} сапраўдных цікавых пунктаў знойдзена',
+      '{n} сапраўднага цікавага пункта знойдзена')
+  });
+  counterForms('pl', {
+    'reveal.inhabitants': around(slavic('mieszkaniec', 'mieszkańcy', 'mieszkańców', 'mieszkańca'), '{n} '),
+    'reveal.poiN': slavic('{n} prawdziwe ciekawe miejsce znalezione', '{n} prawdziwe ciekawe miejsca znalezione', '{n} prawdziwych ciekawych miejsc znalezionych',
+      '{n} prawdziwego ciekawego miejsca')
+  });
+  counterForms('cs', {
+    'reveal.inhabitants': around(slavic('obyvatel', 'obyvatelé', 'obyvatele', 'obyvatel'), '{n} '),
+    'reveal.poiN': slavic('{n} skutečné zajímavé místo nalezeno', '{n} skutečná zajímavá místa nalezena', '{n} skutečného zajímavého místa nalezeno',
+      '{n} skutečných zajímavých míst nalezeno')
+  });
+  counterForms('sk', {
+    'reveal.inhabitants': around(slavic('obyvateľ', 'obyvatelia', 'obyvateľa', 'obyvateľov'), '{n} '),
+    'reveal.poiN': slavic('{n} skutočné zaujímavé miesto nájdené', '{n} skutočné zaujímavé miesta nájdené', '{n} skutočného zaujímavého miesta',
+      '{n} skutočných zaujímavých miest nájdených')
+  });
+  counterForms('sl', {
+    'reveal.inhabitants': around({ one: 'prebivalec', two: 'prebivalca', few: 'prebivalci', other: 'prebivalcev' }, '{n} '),
+    'reveal.poiN': { one: '{n} prava zanimiva točka najdena', two: '{n} pravi zanimivi točki najdeni', few: '{n} prave zanimive točke najdene',
+      other: '{n} pravih zanimivih točk najdenih' }
+  });
+  counterForms('hsb', {
+    'reveal.inhabitants': around({ one: 'wobydler', two: 'wobydlerjej', few: 'wobydlerjo', other: 'wobydlerjow' }, '{n} '),
+    'reveal.poiN': { one: '{n} realny wobhladowanski dypk namakany', two: '{n} realnej wobhladowanskej dypkaj namakanej',
+      few: '{n} realne wobhladowanske dypki namakane', other: '{n} realnych wobhladowanskich dypkow namakanych' }
+  });
+  counterForms('hr', {
+    'reveal.inhabitants': around(slavic('stanovnik', 'stanovnika', 'stanovnika', 'stanovnika'), '{n} '),
+    'reveal.poiN': slavic('{n} prava zanimljiva točka pronađena', '{n} prave zanimljive točke pronađene', '{n} pravih zanimljivih točaka pronađeno',
+      '{n} pravih zanimljivih točaka pronađeno')
+  });
+  ['bs', 'cnr'].forEach(function(l){
+    counterForms(l, {
+      'reveal.inhabitants': around(slavic('stanovnik', 'stanovnika', 'stanovnika', 'stanovnika'), '{n} '),
+      'reveal.poiN': slavic('{n} prava zanimljiva tačka pronađena', '{n} prave zanimljive tačke pronađene', '{n} pravih zanimljivih tačaka pronađeno',
+        '{n} pravih zanimljivih tačaka pronađeno')
+    });
+  });
+  counterForms('sr', {
+    'reveal.inhabitants': around(slavic('становник', 'становника', 'становника', 'становника'), '{n} '),
+    'reveal.poiN': slavic('{n} права занимљива тачка пронађена', '{n} праве занимљиве тачке пронађене', '{n} правих занимљивих тачака пронађено',
+      '{n} правих занимљивих тачака пронађено')
+  });
+  counterForms('ro', {
+    'reveal.inhabitants': around({ one: 'locuitor', few: 'locuitori', other: 'de locuitori' }, '{n} '),
+    'reveal.poiN': { one: '{n} punct de interes real reperat', few: '{n} puncte de interes reale reperate', other: '{n} de puncte de interes reale reperate' }
+  });
+  // Lituanien et samogitien (chaînes en lituanien standard) : one (1, 21…), few (2-9, 22-29…), many, other (10-20, 30…).
+  ['lt', 'sgs'].forEach(function(l){
+    counterForms(l, {
+      'reveal.inhabitants': around(slavic('gyventojas', 'gyventojai', 'gyventojo', 'gyventojų'), '{n} '),
+      'reveal.poiN': slavic('rasta {n} tikra lankytina vieta', 'rastos {n} tikros lankytinos vietos', 'rasta {n} tikros lankytinos vietos',
+        'rasta {n} tikrų lankytinų vietų')
+    });
+  });
+  // Letton et latgalien (chaînes en letton standard) : singulier après 1, 21, 31… (sauf 11).
+  ['lv', 'ltg'].forEach(function(l){
+    counterForms(l, {
+      'reveal.inhabitants': { zero: '{n} iedzīvotāji', one: '{n} iedzīvotājs', other: '{n} iedzīvotāji' },
+      'reveal.poiN': { zero: 'atrastas {n} reālas apskates vietas', one: 'atrasta {n} reāla apskates vieta', other: 'atrastas {n} reālas apskates vietas' }
+    });
+  });
+  // Islandais et macédonien : singulier après 21, 31… (sauf 11).
+  counterForms('is', {
+    'reveal.inhabitants': { one: '{n} íbúi', other: '{n} íbúar' },
+    'reveal.poiN': { one: '{n} raunverulegur áhugaverður staður fundinn', other: '{n} raunverulegir áhugaverðir staðir fundnir' }
+  });
+  counterForms('mk', {
+    'reveal.inhabitants': { one: '{n} жител', other: '{n} жители' },
+    'reveal.poiN': { one: '{n} вистинска знаменитост пронајдена', other: '{n} вистински знаменитости пронајдени' }
+  });
+  counterForms('ar', {
+    'reveal.poiN': { zero: 'تم العثور على {n} معلم حقيقي', one: 'تم العثور على {n} معلم حقيقي', two: 'تم العثور على معلمين حقيقيين',
+      few: 'تم العثور على {n} معالم حقيقية', many: 'تم العثور على {n} معلمًا حقيقيًا', other: 'تم العثور على {n} معلم حقيقي' }
+  });
   // Règles d'accord : celles de la langue elle-même si le navigateur les connaît (Chrome a les règles du maltais ou du
   // sorabe sans en avoir les dates : localeTag() y renvoie l'anglais de Malte, aux règles anglaises), sinon celles d'une
   // langue voisine (kachoube -> polonais, rusyn -> ukrainien, monténégrin -> serbe latin, sorabe -> slovène : mêmes
@@ -163183,14 +163288,30 @@
   }
   // Durées (« 2 h 46 min ») des langues dont le navigateur n'a aucune donnée Intl et que localeTag() fait retomber sur
   // l'anglais (11e audit : « 2 hr, 46 min » en birman et en cinghalais) : unités écrites dans la langue.
+  // 15e audit du 19/09/2026 : touroyo (tru -> tr-TR) et adyguéen (ady -> ru-RU, voir localeTag) recevaient les durées de
+  // leur locale de repli, dans une autre langue (« 2 sa. 46 dk. », « 2 ч 46 мин »). Aucune donnée CLDR pour ces deux
+  // langues, et leurs mots de l'heure et de la minute ne sont pas connus ici avec certitude : format neutre, chiffres et
+  // symboles internationaux (SI) de l'heure et de la minute, « 2 h 46 min » — ni turc, ni russe.
+  var NEUTRAL_DURATION = { h: '{n} h', m: '{n} min' };
   var DURATION_WORDS = {
     my: { h: '{n} နာရီ', m: '{n} မိနစ်' },
-    si: { h: 'පැය {n}', m: 'මිනිත්තු {n}' }
+    si: { h: 'පැය {n}', m: 'මිනිත්තු {n}' },
+    tru: NEUTRAL_DURATION,
+    ady: NEUTRAL_DURATION
   };
   function durationWords(code){
     code = code || lang;
     var tag = localeTag(code);
     return (DURATION_WORDS[code] && tag.split('-')[0] !== code.split('-')[0]) ? DURATION_WORDS[code] : null;
+  }
+  // Mois en chiffres (15e audit du 19/09/2026) : pour les mêmes langues, les noms de mois de la locale de repli étaient
+  // turcs ou russes (« 20–23 Eyl », « 20–23 сент. »). Dates écrites en chiffres (jour et mois : « 20.09–23.09 »), dans
+  // l'ordre et avec les séparateurs de la locale de repli, sans aucun mot d'une autre langue ; jour de la semaine omis.
+  // Seulement tant que le navigateur n'a pas de données propres à la langue (même condition que durationWords).
+  var NUMERIC_DATE_LANGS = { tru: true, ady: true };
+  function numericDates(code){
+    code = code || lang;
+    return !!NUMERIC_DATE_LANGS[code] && localeTag(code).split('-')[0] !== code.split('-')[0];
   }
   function plural(key, n){
     var forms = PLURALS[lang] && PLURALS[lang][key];
@@ -163521,6 +163642,7 @@
     // Écriture de droite à gauche (13e audit du 19/09/2026 : sens de la flèche de l'en-tête du PDF, voir tripLabelText).
     isRtl: function(code){ return !!RTL_LANGS[code || lang]; },
     durationWords: durationWords,
+    numericDates: numericDates,
     applyStaticTranslations: applyStaticTranslations
   };
 })();

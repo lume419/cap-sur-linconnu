@@ -55,3 +55,4 @@ el;Μπογκλέ;Bogles
 fa;بوگولس;Bogles
 el;Μπεκ Μουί;Becke Moui
 fa;بک مویی;Becke Moui
+zh;蒂沃利;Tivoli

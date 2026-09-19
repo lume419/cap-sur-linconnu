@@ -1970,7 +1970,7 @@ en;Belle Cote;Belle Côte
 fr;Baie-des-Hérons;Heron Bay
 en;Dysart et al;United Townships of Dysart, Dudley, Harcourt, Guilford, Harburn, Bruton, Havelock, Eyre and Clyde
 en;Dysart and Others;United Townships of Dysart, Dudley, Harcourt, Guilford, Harburn, Bruton, Havelock, Eyre and Clyde
-ur;105 مائل  ہاؤس;105 Mile House
+ur;105 مائل ہاؤس;105 Mile House
 ur;فورٹ سینٹ جیمز;Fort St. James
 lt;Abotsfordas;Abbotsford
 sr;Аботсфорд;Abbotsford

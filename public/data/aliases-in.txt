@@ -11945,3 +11945,4 @@ ml;ധനുഷ്കോടി;Dhanushkodi
 ta;தனுஷ்கோடி;Dhanushkodi
 te;ధనుష్కోడి;Dhanushkodi
 hu;Rámesvaram;Rameswaram
+bn;দক্ষিনেশ্বর;Dakshineswar

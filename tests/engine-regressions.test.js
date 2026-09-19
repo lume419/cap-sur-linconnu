@@ -185,9 +185,10 @@ test('14e audit : aller-retour près d\'un pays plus rapide, distance annoncée 
   const far = runSteady(base(bamako, { minDistanceKm: 600, avoidTension: false }), 1);
   assert.equal(far.minDistanceUnreachable, true);
   assert.ok(far.returnCapKm >= 250, 'plafond annoncé ' + far.returnCapKm + ' km, sous un aller-retour faisable (~261 km)');
-  // Le plafond annoncé doit lui-même être faisable : un tirage à cette distance n'est pas « hors de portée ».
-  const at = runSteady(base(bamako, { minDistanceKm: far.returnCapKm - 5, avoidTension: false }), 1);
-  assert.ok(!at.minDistanceUnreachable, 'plafond annoncé ' + far.returnCapKm + ' km mais ' + (far.returnCapKm - 5) + ' km hors de portée');
+  // Le plafond annoncé doit lui-même être faisable : un tirage À cette distance trouve un itinéraire (15e audit : la
+  // contre-épreuve à X − 5 laissait passer un plafond infaisable).
+  const at = runSteady(base(bamako, { minDistanceKm: far.returnCapKm, avoidTension: false }), 1);
+  assert.ok(at.legs.length > 0, 'plafond annoncé ' + far.returnCapKm + ' km, mais aucun itinéraire à cette distance');
 });
 
 test('14e audit : aller-retour avec une distance max ou une étape max sous 15 km', () => {
@@ -206,4 +207,53 @@ test('14e audit : moto, partie routière vers un port dans le même pays sans tr
   const withCountry = I.finalizeLeg(km, 80, 'moto', true, 'MY', a, Object.assign({ country: 'MY' }, port));
   const car = I.finalizeLeg(km, 80, 'voiture-thermique', true, 'MY', a, Object.assign({ country: 'MY' }, port));
   assert.equal(withCountry.travelMin, car.travelMin, 'moto ralentie sur une route intérieure vers le port');
+});
+
+// ------------------------------------------------------------------ 15e audit (19/09/2026)
+test('15e audit : chaque « hors de portée, X km » d\'un aller-retour est faisable à X km (tous modes)', () => {
+  // Lewe (Birmanie) en électrique annonçait 328 km pour 221 faisables : redemander à X renvoyait X − 1, 109 fois.
+  const cases = [['Lewe', 'MM', 'voiture-electrique', 344], ['Xarardheere', 'SO', 'voiture-electrique', 434], ['Jasdan', 'IN', 'moto', 377],
+    ['Lyon', 'FR', 'voiture-thermique', 480], ['Paris', 'FR', 'velo', 90], ['Bamako', 'ML', 'voiture-thermique', 600]];
+  const bad = [];
+  for(const [n, cc, mode, km] of cases){
+    const d = H.dep(n, cc); if(!d){ bad.push('introuvable ' + n); continue; }
+    const r = runSteady(base(d, { transportKey: mode, minDistanceKm: km, avoidTension: false }), 1);
+    if(!r.minDistanceUnreachable) continue;
+    const again = runSteady(base(d, { transportKey: mode, minDistanceKm: r.returnCapKm, avoidTension: false }), 1);
+    if(!again.legs.length) bad.push(n + ' ' + mode + ' : X = ' + r.returnCapKm + ' annoncé, infaisable (' + JSON.stringify(Object.keys(again)) + ' ' + (again.returnCapKm || '') + ')');
+  }
+  assert.deepEqual(bad, []);
+});
+
+test('15e audit : aller-retour et zones à tension (filtre actif)', () => {
+  // Moscou 600 km : « introuvable » au lieu de « hors de portée » (14e passe) ; Sharm el-Sheikh à moto 190 km : « hors
+  // de portée » alors que seul le filtre des zones bloquait.
+  const moscou = runSteady(base(H.dep('Moscow', 'RU') || H.dep('Moskva', 'RU'), { minDistanceKm: 600 }), 1);
+  assert.equal(moscou.minDistanceUnreachable, true, 'Moscou 600 km : ' + JSON.stringify(Object.keys(moscou)));
+  const sharm = runSteady(base(H.dep('Sharm el-Sheikh', 'EG') || H.dep('Sharm ash Shaykh', 'EG'), { transportKey: 'moto', minDistanceKm: 190 }), 1);
+  assert.ok(!sharm.minDistanceUnreachable, 'Sharm el-Sheikh 190 km : « hors de portée » alors que le filtre des zones bloque');
+});
+
+test('15e audit : aller-retour depuis une très petite île, sans éloignement', () => {
+  const d = H.dep('Jamestown', 'SH');
+  assert.ok(d, 'Jamestown introuvable');
+  const r = runSteady(base(d, {}), 1);
+  assert.ok(r.legs.length > 0 || r.minDistanceNotFound || r.minDistanceUnreachable, 'tirage vide sans explication : ' + JSON.stringify(Object.keys(r)));
+});
+
+test('15e audit : ferry, paire de ports éloignée de la ligne de référence estimée (jamais la durée ni le prix d\'une autre ligne)', () => {
+  const A = E.__test;
+  const hop = (a, b) => {
+    const la = A.landmassOf(a), lb = A.landmassOf(b), route = A.ferryRouteFor(la, lb);
+    assert.ok(route, 'aucune liaison ' + la + ' ↔ ' + lb);
+    return A.finalizeFerryLeg('voiture-thermique', route, A.ferryRoadParts(a, b, la, lb, route), 80, true, a, b);
+  };
+  // Gênes → Palerme : ligne de référence = détroit de Messine (8 km, 24 min, grille Caronte).
+  const gp = hop(P('Genova', 'IT'), P('Palermo', 'IT'));
+  assert.ok(gp.distanceKm > 300, 'Gênes → Palerme : traversée de ' + gp.distanceKm + ' km');
+  assert.equal(gp.ferryInfo.amount, null, 'prix de la ligne de Messine appliqué');
+  assert.equal(gp.ferryInfo.durationEstimated, true);
+  // Témoin : la ligne de référence elle-même garde ses données publiées.
+  const vm = hop(P('Villa San Giovanni', 'IT'), P('Messina', 'IT'));
+  assert.ok(vm.distanceKm < 20 && typeof vm.ferryInfo.amount === 'number', 'Messine : données publiées perdues (' + vm.distanceKm + ' km, ' + vm.ferryInfo.amount + ')');
 });

@@ -228,3 +228,4 @@ pa;ਬੇਰੇਕੁਆ;Berekua
 ps;بيريكوا;Berekua
 tg;Берекуа;Berekua
 tt;Берекуа;Berekua
+zh;索爾茲伯里;Salisbury

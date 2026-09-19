@@ -793,7 +793,7 @@ be;Апер-Хат;Upper Hutt
 yue;上哈特;Upper Hutt
 bn;আপার হাট;Upper Hutt
 si;අපර් හට;Upper Hutt
-kn;ಅಪ್ಪರ್  ಹಟ್ಟ್;Upper Hutt
+kn;ಅಪ್ಪರ್ ಹಟ್ಟ್;Upper Hutt
 ta;அப்பர் ஹட்;Upper Hutt
 gu;અપર હટ;Upper Hutt
 te;ఉప్పెర్ హాట్;Upper Hutt

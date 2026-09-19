@@ -63304,7 +63304,7 @@ ru;Долгая-Поляна;Dolgaya Polyana
 no;Dolgaja-Poljana;Dolgaya Polyana
 en;Sos'va;Sos’va
 ru;Долгая Паберега;Sos’va
-no;Dolgaja  Paberega;Sos’va
+no;Dolgaja Paberega;Sos’va
 ru;Сосьва;Sos’va
 ru;Долгая Лука;Dolgaya Luka
 no;Dolgaja Luka;Dolgaya Luka
@@ -68227,7 +68227,7 @@ ru;Большой Каменник;Bol’shoy Kamennik
 no;Bolsjoj Kamennik;Bol’shoy Kamennik
 ru;Большой Каменец;Bol’shoy Kamenets
 en;Bol'shoy Izberdey;Bol’shoy Izberdey
-no;Bolsjoj  Izberdej;Bol’shoy Izberdey
+no;Bolsjoj Izberdej;Bol’shoy Izberdey
 ru;Большой Избердей;Bol’shoy Izberdey
 ru;Большой Ихтиал;Bol’shoy Ikhtial
 ru;Верхний Гулюм;Verkhniy Gulyum
@@ -131260,3 +131260,36 @@ sk;Lesnoj;Lesnoy
 sr;Лесној;Lesnoy
 zh;列斯諾伊;Lesnoy
 hy;Բաևկա;Bayevo
+zh;亞濟科沃;Yazykovo
+zh;伏尔加斯基;Volzhskiy
+zh;斯塔夫罗沃;Stavrovo
+zh;希皮齐诺;Shipitsyno
+zh;拉季謝沃;Radishchevo
+zh;奥尔沙;Orsha
+zh;新斯帕斯科耶;Novospasskoye
+zh;尼古拉耶夫卡;Nikolayevka
+zh;莫尔多沃;Mordovo
+zh;邁納;Mayna
+zh;卢基诺;Lukino
+zh;库洛季诺;Kulotino
+no;Krivoj buzan;Krivoy Buzan
+zh;红博尔;Krasnyy Bor
+zh;科兹洛沃;Kozlovo
+zh;基洛夫斯基;Kirovskiy
+zh;卡拉什尼科沃;Kalashnikovo
+zh;戈尔内;Gornyy
+zh;杜布罗夫卡;Dubrovka
+zh;巴什马科沃;Bashmakovo
+zh;塔利缅卡;Tal’menka
+zh;斯特列尔卡;Strelka
+zh;斯帕斯克;Spassk
+zh;莫什科沃;Moshkovo
+zh;米什基诺;Mishkino
+zh;红亚尔;Krasnyy Yar
+zh;伊尔沙;Irsha
+zh;布拉戈维申卡;Blagoveshchenka
+zh;马利诺夫斯基;Malinovskiy
+zh;佐洛京卡;Zolotinka
+zh;霍尔;Khor
+zh;伊塔卡;Itaka
+zh;比拉;Bira

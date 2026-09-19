@@ -964,8 +964,8 @@ nn;Å i Lofoten;Å, Moskenes
 sv;Å;Å, Moskenes
 ru;А и Лофотен;Å, Moskenes
 ur;یٹتیرن;Ytteren
-ur;یٹرے  رمسے;Ytre Ramse
-ur;یٹرے  وپپیڈل;Ytre Oppedal
+ur;یٹرے رمسے;Ytre Ramse
+ur;یٹرے وپپیڈل;Ytre Oppedal
 bg;Вос;Voss
 et;Vossi vald;Voss
 ja;ヴォス;Voss

@@ -573,7 +573,7 @@ ru;Орфорд;Orford
 ru;Орбост;Orbost
 ja;オーボスト;Orbost
 ru;Орандж;Orange
-de;Orange  (State of New South Wales);Orange
+de;Orange (State of New South Wales);Orange
 hi;ऑरेंज;Orange
 zh-Hans;奥兰治;Orange
 zh;奧蘭治;Orange

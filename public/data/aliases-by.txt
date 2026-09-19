@@ -5258,7 +5258,7 @@ ru;Павелково;Pavelkovo
 ru;Паулье;Paul’ye
 ru;Павкштелы;Pavkshtely
 en;Patsova-Sloboda;Patsava Slabada
-ru;Пацова  Слобода;Patsava Slabada
+ru;Пацова Слобода;Patsava Slabada
 be;Пацава Слабада;Patsava Slabada
 ru;Пицкуны;Pitskuny
 ru;Bol’shoye Patskovo;Vyalikaya Patskava

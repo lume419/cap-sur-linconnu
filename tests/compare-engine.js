@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Outil de COMPARAISON DE VERSIONS du moteur (13e audit du 19/09/2026, complété au 14e audit du 19/09/2026) — voir
+// Outil de COMPARAISON DE VERSIONS du moteur (13e audit du 19/09/2026, complété aux 14e et 15e audits du 19/09/2026) — voir
 // tests/README.md, section « Comparer deux versions du moteur ».
 //
 //   npm run test:compare                      ancien = HEAD, nouveau = répertoire de travail
@@ -13,9 +13,19 @@
 //   --all            résumé complet (pays et groupes sans changement compris)
 //   --temps-reel     rejoue aussi les cas ciblés marqués « rt » avec l'horloge NORMALE (budget de 4 s comme en production) :
 //                    résumé séparé, dépendant de la machine, hors de --fail-on-diff (14e audit)
-//   --clean          nettoie le dossier temporaire (voir plus bas) et s'arrête
-// Variables : COMPARE_TIRAGES (nombre de tirages, 360 par défaut, cas ciblés compris), COMPARE_GARDER_JOURS (7 : âge
-// maximal d'une extraction inutilisée), COMPARE_GARDER_RAPPORTS (10 : nombre de rapports gardés).
+//   --clean          nettoie le dossier temporaire (voir plus bas) et s'arrête. ATTENTION : seul, --clean NE supprime
+//                    PAS une extraction utilisée depuis moins de COMPARE_GARDER_JOURS jours (celle du dernier lancement
+//                    reste donc) ; il supprime les extractions plus anciennes, les dossiers run-*/ de plus d'un jour et les
+//                    rapports au-delà des COMPARE_GARDER_RAPPORTS plus récents.
+//   --clean --force  supprime en plus TOUTES les extractions et tous les dossiers run-*/, quel que soit leur âge (ne pas
+//                    le lancer pendant une autre comparaison) ; les rapports restent élagués comme avec --clean (15e audit)
+//   --aide, --help   affiche cette aide
+// Variables : COMPARE_TIRAGES (nombre de tirages, 380 par défaut, cas ciblés compris — 15e audit : 360 → 380 pour garder
+// 132 tirages ordinaires malgré les 20 cas ciblés ajoutés), COMPARE_GARDER_JOURS (7 : âge maximal d'une extraction
+// inutilisée), COMPARE_GARDER_RAPPORTS (10 : nombre de rapports gardés, le nouveau compris).
+// Contre-épreuve (15e audit du 19/09/2026) : chaque « hors de portée, X km » (ancien et nouveau moteur) est rejoué à
+// minDistanceKm = X ; une contre-épreuve échouée du NOUVEAU moteur compte dans --fail-on-diff (voir tests/helpers/compare.js).
+// Horodatage des rapports : heure LOCALE (15e audit : c'était l'heure UTC, sans le dire), fuseau indiqué dans le rapport.
 //
 // Principe : l'ANCIEN moteur est extrait de git (git show, jamais de checkout : le répertoire de travail n'est pas touché)
 // dans os.tmpdir()/cap-sur-linconnu-compare/<commit>/ : lib/, public/js/trip-data.js et data/*.json toujours (petits,
@@ -29,7 +39,8 @@
 // seul avec --clean, sont supprimés les extractions <commit>/ inutilisées depuis plus de COMPARE_GARDER_JOURS jours (date
 // du fichier .dernier-usage, mise à jour à chaque usage ; jamais une extraction utilisée depuis moins d'une heure, qui peut
 // servir à un autre lancement en cours), les dossiers de travail run-*/ de plus d'un jour (lancement interrompu) et les
-// rapports au-delà des COMPARE_GARDER_RAPPORTS plus récents. La taille du dossier est affichée avant et après.
+// rapports au-delà des COMPARE_GARDER_RAPPORTS plus récents (15e audit : élagués APRÈS l'écriture du nouveau rapport). La
+// taille du dossier est affichée avant et après.
 'use strict';
 const fs = require('fs');
 const os = require('os');
@@ -56,7 +67,7 @@ if(process.argv[2] === '--worker'){
 const args = process.argv.slice(2);
 const flags = new Set(args.filter(a => a.startsWith('--')));
 const refs = args.filter(a => !a.startsWith('--'));
-const N = Math.max(1, parseInt(process.env.COMPARE_TIRAGES || '360', 10) || 360);
+const N = Math.max(1, parseInt(process.env.COMPARE_TIRAGES || '380', 10) || 380);
 const intEnv = (name, def) => { const v = parseInt(process.env[name], 10); return isFinite(v) && v >= 0 ? v : def; };
 const KEEP_DAYS = intEnv('COMPARE_GARDER_JOURS', 7), KEEP_REPORTS = intEnv('COMPARE_GARDER_RAPPORTS', 10);
 
@@ -89,7 +100,10 @@ function lastUse(dir){
   try { return fs.statSync(dir).mtimeMs; } catch(e){ return 0; }
 }
 function markUsed(dir){ fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(path.join(dir, USAGE_MARK), new Date().toISOString()); }
-function cleanBase(protect){
+// opts.reports : élaguer aussi les rapports (15e audit du 19/09/2026 : fait APRÈS l'écriture du nouveau rapport, sinon il
+// en restait COMPARE_GARDER_RAPPORTS + 1) ; opts.force (--clean --force) : toutes les extractions et dossiers run-*/.
+function cleanBase(protect, opts){
+  opts = opts || {};
   if(!fs.existsSync(BASE)) return { before: 0, after: 0, removed: [] };
   const before = sizeOf(BASE), now = Date.now(), removed = [];
   const rm = (name, why) => { const p = path.join(BASE, name), s = sizeOf(p); fs.rmSync(p, { recursive: true, force: true }); removed.push(name + ' (' + mo(s) + ', ' + why + ')'); };
@@ -99,11 +113,17 @@ function cleanBase(protect){
     if(e.isDirectory() && /^[0-9a-f]{12}$/.test(e.name)){
       if(protect.has(e.name)) return;
       const age = now - lastUse(p);
-      if(age > Math.max(KEEP_DAYS * 86400e3, 3600e3)) rm(e.name, 'inutilisée depuis ' + (age / 86400e3).toFixed(1) + ' j');
+      if(opts.force) rm(e.name, 'forcé, utilisée il y a ' + (age / 86400e3).toFixed(1) + ' j');
+      else if(age > Math.max(KEEP_DAYS * 86400e3, 3600e3)) rm(e.name, 'inutilisée depuis ' + (age / 86400e3).toFixed(1) + ' j');
     } else if(e.isDirectory() && /^run-/.test(e.name)){
-      if(now - fs.statSync(p).mtimeMs > 86400e3) rm(e.name, 'lancement interrompu');
+      if(opts.force) rm(e.name, 'forcé');
+      else if(now - fs.statSync(p).mtimeMs > 86400e3) rm(e.name, 'lancement interrompu');
     }
   });
+  if(opts.reports) pruneReports(entries, rm);
+  return { before, after: sizeOf(BASE), removed };
+}
+function pruneReports(entries, rm){
   // Rapports : paires .txt/.json d'un même nom, les plus récents d'abord (horodatage dans le nom et date du fichier).
   const reports = new Map();
   entries.filter(e => e.isFile() && /^rapport-.*\.(txt|json)$/.test(e.name)).forEach(e => {
@@ -112,7 +132,24 @@ function cleanBase(protect){
     r.files.push(e.name); r.t = Math.max(r.t, t); reports.set(stem, r);
   });
   [...reports.entries()].sort((a, b) => b[1].t - a[1].t).slice(KEEP_REPORTS).forEach(([, r]) => r.files.forEach(f => rm(f, 'ancien rapport')));
+}
+// Élagage des rapports seul, après l'écriture du nouveau (15e audit).
+function cleanReports(){
+  if(!fs.existsSync(BASE)) return { before: 0, after: 0, removed: [] };
+  const before = sizeOf(BASE), removed = [];
+  const rm = (name, why) => { const p = path.join(BASE, name), s = sizeOf(p); fs.rmSync(p, { force: true }); removed.push(name + ' (' + mo(s) + ', ' + why + ')'); };
+  pruneReports(fs.readdirSync(BASE, { withFileTypes: true }), rm);
   return { before, after: sizeOf(BASE), removed };
+}
+// Horodatage LOCAL (15e audit du 19/09/2026 : toISOString donnait l'heure UTC sans le dire) : « 20260919-143512 » et
+// fuseau « UTC+02:00 ».
+function localStamp(d){
+  const p = n => String(n).padStart(2, '0');
+  return d.getFullYear() + p(d.getMonth() + 1) + p(d.getDate()) + '-' + p(d.getHours()) + p(d.getMinutes()) + p(d.getSeconds());
+}
+function tzLabel(d){
+  const off = -d.getTimezoneOffset(), a = Math.abs(off);
+  return 'UTC' + (off >= 0 ? '+' : '−') + String(Math.floor(a / 60)).padStart(2, '0') + ':' + String(a % 60).padStart(2, '0');
 }
 function logClean(c){
   process.stderr.write('[compare] dossier temporaire ' + BASE + ' : ' + mo(c.before) + (c.removed.length ? ' → ' + mo(c.after) + ' après nettoyage (' + c.removed.length +
@@ -201,7 +238,18 @@ function runJob(side, tag, runDir){
 
 async function main(){
   const t0 = Date.now();
-  if(flags.has('--clean')){ logClean(cleanBase(new Set())); return; }
+  if(flags.has('--aide') || flags.has('--help')){
+    // Aide : l'en-tête de ce fichier (15e audit du 19/09/2026).
+    const head = fs.readFileSync(__filename, 'utf8').split('\n').slice(1);
+    console.log(head.slice(0, head.findIndex(l => !l.startsWith('//'))).map(l => l.replace(/^\/\/ ?/, '')).join('\n'));
+    return;
+  }
+  if(flags.has('--clean')){
+    const force = flags.has('--force');
+    logClean(cleanBase(new Set(), { reports: true, force }));
+    if(!force) process.stderr.write('[compare] --clean seul garde les extractions utilisées depuis moins de ' + KEEP_DAYS + ' j (et toujours depuis moins d\'une heure) ; --clean --force pour tout supprimer\n');
+    return;
+  }
   const oldRef = resolveRef(refs[0] || 'HEAD');
   const newRef = refs[1] ? resolveRef(refs[1]) : null;
   fs.mkdirSync(BASE, { recursive: true });
@@ -210,7 +258,7 @@ async function main(){
   const A = prepareRef(oldRef);
   const B = newRef ? prepareRef(newRef) : prepareWorktree();
   const files = changedFiles(oldRef.sha, newRef && newRef.sha);
-  const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\..*/, '').replace('T', '-');
+  const startDate = new Date(t0), stamp = localStamp(startDate);
   const runDir = path.join(BASE, 'run-' + stamp);
   fs.mkdirSync(runDir, { recursive: true });
   const parallel = flags.has('--parallel') || (!flags.has('--sequential') && os.freemem() > 20 * 1024 ** 3);
@@ -224,12 +272,17 @@ async function main(){
   R.files = files;
   R.parallel = parallel;
   R.durationMs = Date.now() - t0;
-  const text = C.formatReport(R, { all: flags.has('--all') }) + '\nDurée totale : ' + Math.round(R.durationMs / 1000) + ' s' + (parallel ? ' (moteurs en parallèle)' : '') +
-    '\nDossier temporaire : ' + mo(sizeOf(BASE)) + ' (' + BASE + ' ; node tests/compare-engine.js --clean pour nettoyer)';
+  R.startedAt = stamp + ' ' + tzLabel(startDate);
+  const text = C.formatReport(R, { all: flags.has('--all') }) + '\nLancé le ' + startDate.toLocaleString('fr-FR') + ' (heure locale, ' + tzLabel(startDate) + ')' +
+    '\nDurée totale : ' + Math.round(R.durationMs / 1000) + ' s' + (parallel ? ' (moteurs en parallèle)' : '') +
+    '\nDossier temporaire : ' + mo(sizeOf(BASE)) + ' (' + BASE + ' ; node tests/compare-engine.js --clean pour nettoyer, --clean --force pour tout supprimer)';
   const name = 'rapport-' + oldRef.short + '-vs-' + (newRef ? newRef.short : 'travail') + '-' + stamp;
   const jsonFile = path.join(BASE, name + '.json'), txtFile = path.join(BASE, name + '.txt');
   fs.writeFileSync(jsonFile, JSON.stringify(R, null, 1));
   fs.writeFileSync(txtFile, text);
+  // Élagage des rapports APRÈS l'écriture du nouveau (15e audit : il en restait COMPARE_GARDER_RAPPORTS + 1).
+  const pr = cleanReports();
+  if(pr.removed.length) logClean(pr);
   console.log(text);
   console.log('Rapport : ' + txtFile + '\nJSON détaillé : ' + jsonFile);
   if(flags.has('--fail-on-diff') && C.diffCount(R)) process.exitCode = 1;

@@ -3035,3 +3035,4 @@ ru;Клохдов;Cloughduv
 ru;Тиньюр;Tinure
 bg;Тинуре;Tinure
 gd;An Currach Dearg;Curraghderrig
+ga;Baile an Tirialaigh;Tyrrelstown

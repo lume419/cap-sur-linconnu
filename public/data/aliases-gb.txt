@@ -1789,7 +1789,7 @@ zh-Hant;西柯爾比;West Kirby
 ur;ویسٹ کیربی;West Kirby
 kn;ವೆಸ್ಟ್ ಕಿರ್ಬಿ;West Kirby
 ko;웨스트 커비;West Kirby
-ta;மேற்கு  கிர்பி;West Kirby
+ta;மேற்கு கிர்பி;West Kirby
 zh;西柯比;West Kirby
 gu;પશ્ચિમ કિર્બી;West Kirby
 te;వెస్ట్ కిర్బీ;West Kirby
@@ -4463,7 +4463,7 @@ kn;ಲಾಂಟ್ವಿಟ್ ಫಾರ್ಡ್ರೆ;Llantwit Fardre
 ko;랜트윗 파드레;Llantwit Fardre
 ta;லாண்ட்விட் பார்டரே;Llantwit Fardre
 gu;લેન્ટવિટ ફાર્ડ્રે;Llantwit Fardre
-te;ల్లంట్విత్  ఫర్దర్;Llantwit Fardre
+te;ల్లంట్విత్ ఫర్దర్;Llantwit Fardre
 ja;ラントウィット・ファードレー;Llantwit Fardre
 fa;لانتوئیت فاردره;Llantwit Fardre
 ar;لانتريسانت;Llantrisant
@@ -5531,7 +5531,7 @@ kn;ಗ್ರೇಟ್ ಬರ್ಸ್ಟ್ಡ್;Great Burstead
 ko;그레이트 버스테드;Great Burstead
 lt;Didysis Burstedas;Great Burstead
 bn;গ্রেট বারস্টিড;Great Burstead
-ta;கிரேட்  பர்ஸ்டீட்;Great Burstead
+ta;கிரேட் பர்ஸ்டீட்;Great Burstead
 gu;ગ્રેટ બર્સટેડ;Great Burstead
 zh-Hans;大博斯达;Great Burstead
 te;గ్రేట్ బస్ట్స్టెడ్;Great Burstead

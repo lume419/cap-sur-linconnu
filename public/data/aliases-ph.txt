@@ -777,7 +777,7 @@ bn;সান পাব্লু;San Pablo
 si;සැන් පැබ්ලෝ;San Pablo
 kn;ಸ್ಯಾನ್ ಪಾಬ್ಲೊ;San Pablo
 ko;상파울로;San Pablo
-ta;சான்  பப்லோ;San Pablo
+ta;சான் பப்லோ;San Pablo
 gu;સેન પબ્લો;San Pablo
 te;సాన్ పాబ్లో;San Pablo
 th;ซานปาโบล;San Pablo
@@ -856,7 +856,7 @@ bn;সান হোসে;San Jose
 si;සැන් ජෝස්;San Jose
 kn;ಸ್ಯಾನ್ ಜೋಸ್;San Jose
 ko;산 호세;San Jose
-ta;சான்  ஜோஸ்;San Jose
+ta;சான் ஜோஸ்;San Jose
 gu;સેન જોસ;San Jose
 te;శాన్ జోస్;San Jose
 th;ซาน โจซ;San Jose
@@ -2308,7 +2308,7 @@ bn;লা কার্লোট্যাঁ;La Carlota
 si;ලා කාර්ලොටා;La Carlota
 kn;ಲಾ ಕಾರ್ಲೋಟಾ;La Carlota
 ko;라 칼로타;La Carlota
-ta;ல  கார்லோடா;La Carlota
+ta;ல கார்லோடா;La Carlota
 gu;લા કાર્લોટા;La Carlota
 te;లా కార్లోటా;La Carlota
 th;ลา คาโลต้า;La Carlota

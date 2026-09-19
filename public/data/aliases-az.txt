@@ -20302,3 +20302,12 @@ hy;Թաթար;Tatar
 hy;Թաթարասի;Tatar
 hy;Նոր Սեյսուլան;Yeni Qaralar
 hy;Շատախ;Shadakh
+ru;Юхары шильян;Yuxarı Şilyan
+ru;Таза шильян;Təzə Şilyan
+ru;Тап каракоюнлу;Tap Qaraqoyunlu
+ru;Кырых кесаман;Kyrakh Kesaman
+ru;Гейляр Даг;Geoglyar-Dag
+ru;Гейляр Чель;Kishlak Geoglyar
+ru;Даш салахлы;Daş Salahlı
+ru;Беюк дахна;Byuyuk-Dakhne
+ru;Асрик джырдахан;Asrikdzhyrdakhan

@@ -1388,15 +1388,14 @@ module.exports = {
   // laquelle s'appliquaient la durée et la grille de la ligne de Patras (liaison de ~100 km), même défaut que Galatás ↔
   // Póros (voir continental|poros). Aucune durée ni aucun prix de cette traversée dans le dépôt : Vasilikí reste listé,
   // jamais apparié ; limite : le trajet par Leucade n'est pas proposé.
+  // 15e audit du 19/09/2026 — paire Kyllíni ↔ Sámi retirée : aucune source du dépôt ne la donne (source de la liaison,
+  // ports-lot1.js : « Kyllini ↔ Poros, Patras/Astakos ↔ Sami, Vasiliki ↔ Fiskardo » ; grille Levante Ferries citée dans
+  // trip-data.js : Patras–Sami ; aucune ligne Kyllíni–Sámi dans scripts/iles). Kyllíni reste apparié à Póros.
   "continental|kefalonia": {
    "pairs": [
     [
      "Kyllíni",
      "Póros"
-    ],
-    [
-     "Kyllíni",
-     "Sámi"
     ],
     [
      "Pátra",
@@ -1415,6 +1414,9 @@ module.exports = {
   // laquelle s'appliquaient la durée et la grille de la ligne de Patras (liaison de ~100 km), même défaut que Galatás ↔
   // Póros (voir continental|poros). Aucune durée ni aucun prix de cette traversée dans le dépôt : Vasilikí reste listé,
   // jamais apparié ; limite : le trajet par Leucade n'est pas proposé.
+  // 15e audit du 19/09/2026 — paire Astakós ↔ Fríkes retirée : la source de la liaison (ports-lot1.js) ne donne que
+  // « Patras, Astakos ↔ Pisaetos ; Vasiliki ↔ Frikes » — Fríkes n'est desservi que depuis Vasilikí (Leucade), jamais depuis
+  // Astakós. Fríkes reste listé, sans paire (comme Vasilikí).
   "continental|ithaca": {
    "pairs": [
     [
@@ -1424,10 +1426,6 @@ module.exports = {
     [
      "Astakós",
      "Aetós"
-    ],
-    [
-     "Astakós",
-     "Fríkes"
     ]
    ],
    "sources": [

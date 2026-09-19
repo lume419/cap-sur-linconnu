@@ -21,7 +21,7 @@ const TG = require(path.join(ROOT, 'lib', 'toll-grid.js'));
 const INTERNAL_FUNCS = ['reallyAdjacent', 'landmassOf', 'zoneOf', 'ferryRouteFor', 'seaCrossingFor', 'tensionOf', 'legAllowed',
   'ferryRoadParts', 'tollCountryOf', 'evPlan', 'countryAtPoint', 'insideCountry', 'roadCrossesWater', 'motoMotorwayBan',
   'normalizeCityName', 'chargerNear', 'portZone', 'communeLandmass', 'borderReach', 'communeTension', 'finalizeLeg', 'parseCommunesFile',
-  'countrySpeedFactor', 'placeNorm', 'zoneHostNorm', 'countriesAlong'];
+  'countrySpeedFactor', 'placeNorm', 'zoneHostNorm', 'countriesAlong', 'finalizeFerryLeg', 'ferryMedianSpeed'];
 const INTERNAL_VARS = ['COMMUNES', 'FEATURED', 'CHARGER_COUNT', 'TENSION_RULES_BY_COUNTRY', 'AVOID_TENSION', 'LEG_CONSTRAINTS',
   'LAST_TRIP_DIAGNOSTIC', 'TRIP_DEADLINE', 'TRIP_TIMED_OUT', 'TRIP_TIME_BUDGET_MS', 'MOTO_NO_MOTORWAY_SPEED_FACTOR', 'MOTO_NO_MOTORWAY_SPEED_FACTOR_DEFAULT'];
 
@@ -421,11 +421,24 @@ function check(params, res, elapsedMs){
       if(!route) bad('ferry', 'haute', 'ferry sans liaison entre ' + fromLm + ' et ' + toLm, { i });
       else {
         if(leg.ferryInfo.routeKey !== route.routeKey) bad('ferry', 'moyenne', 'routeKey ' + leg.ferryInfo.routeKey + ' ≠ ' + route.routeKey, { i });
-        const amt = route.priceByClass ? route.priceByClass[N.ferryClass] : null;
+        // Paire de ports éloignée de la paire de référence (15e audit) : traversée ESTIMÉE — distance = orthodromie de la
+        // paire, durée = distance ÷ vitesse médiane des lignes publiées de même longueur, prix inconnu. Recalculé ici à
+        // partir des ports choisis (même règle ×1,5 + 5 km que le moteur).
+        const fp = A.ferryRoadParts(from, cur, sea ? fromZ : fromLm, sea ? toZ : toLm, route);
+        const pairKm = fp && fp.fromPort ? hav(fp.fromPort.lat, fp.fromPort.lon, fp.toPort.lat, fp.toPort.lon) : null;
+        const refKm = fp ? fp.refSeaKm : null;
+        const estimated = pairKm > 0 && refKm > 0 && route.distanceKm > 0 && (pairKm > refKm * 1.5 + 5 || pairKm * 1.5 + 5 < refKm);
+        const amt = estimated ? null : (route.priceByClass ? route.priceByClass[N.ferryClass] : null);
         const expAmt = typeof amt === 'number' ? amt : null;
-        if(leg.ferryInfo.amount !== expAmt) bad('ferry', 'moyenne', 'montant ferry ' + leg.ferryInfo.amount + ' ≠ ' + expAmt, { i });
+        if(leg.ferryInfo.amount !== expAmt) bad('ferry', 'moyenne', 'montant ferry ' + leg.ferryInfo.amount + ' ≠ ' + expAmt + (estimated ? ' (traversée estimée)' : ''), { i });
         if(expAmt === null && ['variable', 'unknown'].indexOf(leg.ferryInfo.priceStatus) < 0) bad('ferry', 'basse', 'priceStatus absent', { i });
-        if(leg.distanceKm !== route.distanceKm || leg.travelMin !== Math.round(route.durationH * 60)) bad('ferry', 'moyenne', 'distance/durée de traversée incohérentes', { i });
+        let expKm = route.distanceKm, expH = route.durationH;
+        if(estimated){
+          expKm = Math.max(1, Math.round(pairKm));
+          expH = Math.round(expKm / A.ferryMedianSpeed(expKm) * 10) / 10;
+          if(!leg.ferryInfo.durationEstimated) bad('ferry', 'moyenne', 'traversée estimée non marquée durationEstimated', { i });
+        }
+        if(leg.distanceKm !== expKm || leg.travelMin !== Math.round(expH * 60)) bad('ferry', 'moyenne', 'distance/durée de traversée incohérentes' + (estimated ? ' (estimée : ' + expKm + ' km)' : ''), { i });
         if(labelMin(leg.travelTime) !== leg.travelMin) bad('durees', 'basse', 'travelTime ferry ' + leg.travelTime + ' ≠ ' + leg.travelMin, { i });
       }
     } else {

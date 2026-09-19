@@ -10387,7 +10387,7 @@ my;လိုင်းဝတ်;Laing Wut
 my;Put Sar Chaung;Put Sar Chaung Rakhine
 my;ပွတ်စာချောင်း ရခိုင;Put Sar Chaung Rakhine
 my;ပွတ်စာချောင်း;Put Sar Chaung Rakhine
-my;ဘွေရိန်း  ခ;Boiring B
+my;ဘွေရိန်း ခ;Boiring B
 my;တရွန်အိုင်ချောင်းထဲ;Ta Ron Aing Chaung Hte
 my;အန်ထော;Angthaw
 my;Put Sar Chaung;Put Sar Chaung Khamee

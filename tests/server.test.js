@@ -627,3 +627,54 @@ test('generate-trip et en-têtes : corps trop gros, mauvais type de contenu -> 4
   }
   assert.deepEqual(bad, []);
 });
+
+// --------------------------------------------------------------------------------------------- 15e audit du 19/09/2026
+test('15e audit : total de secours du PDF jamais arrondi à 0 (0,5-0,8 km en miles) ; traversée estimée « environ », tarif inconnu', { timeout: 120000 }, async () => {
+  const body = (distanceUnit, totalKm) => ({ lang: 'fr', city: 'Lyon', distanceUnit, stats: { days: 2, totalKm }, legs: [
+    { label: 'Jour 1', stop: 'A', distanceKm: 40, travelTime: '1h30', roadKm: 10, roadTime: '15min',
+      ferryInfo: { route: 'X - Y', amount: null, priceStatus: 'unknown', durationEstimated: true, durationH: 1.5 } },
+    { label: 'Retour', stop: 'Lyon', isReturn: true }
+  ] });
+  const bad = [];
+  for(const [unit, km, want] of [['mi', 0.5, null], ['mi', 0.8, null], ['mi', 0.81, '~1 mi au total'], ['mi', 1.6, '~1 mi au total'], ['xx', 0.6, '~1 km au total'], ['xx', 2, '~2 km au total']]){
+    await sleep(1500);
+    const r = await H.postPatient('/api/export-pdf', body(unit, km));
+    const txt = flatText(r.body);
+    if(r.status !== 200){ bad.push(unit + ' ' + km + ' -> ' + r.status); continue; }
+    if(/~\s*0 (mi|km) au total/.test(txt)) bad.push(unit + ' ' + km + ' km : total arrondi à 0 (' + txt.slice(0, 300) + ')');
+    if(want && !txt.includes(want)) bad.push(unit + ' ' + km + ' km : « ' + want + ' » absent (' + txt.slice(0, 300) + ')');
+    if(!txt.includes('environ 1 h 30 min de traversée') || !txt.includes('Tarif non communiqué')) bad.push(unit + ' : traversée estimée mal décrite (' + txt.slice(0, 600) + ')');
+    if(/X - Y[^.]*€/.test(txt)) bad.push(unit + ' : prix affiché pour une traversée estimée');
+  }
+  assert.deepEqual(bad, []);
+});
+
+test('15e audit : nom « .. », « . » ou fait de points et d\'espaces -> réponse normale sans aucun appel sortant', { timeout: 120000 }, async () => {
+  srv.setMock({});
+  const names = ['..', '.', '...', '%20..%20', '.%09.', '%2E%2E', '%2e', '.%20.', '%C2%A0.%C2%A0'];
+  const bad = [];
+  for(const n of names){
+    const t0 = Date.now();
+    const paths = ['/api/photo?name=' + n + '&lang=fr&lat=45.76&lon=4.83', '/api/photo?name=' + n + '&lang=fr&dept=69&country=FR',
+      '/api/pois?lat=45.7' + names.indexOf(n) + '&lon=4.83&country=FR&name=' + n + '&dept=69',
+      '/api/hike?name=' + n + '&country=FR&lat=45.76&lon=4.83&lang=fr'];
+    for(const p of paths){
+      const r = await H.get(p, { ip: freshIp(), timeout: 30000 });
+      let json = null;
+      try { json = JSON.parse(r.body.toString('utf8')); } catch(e){}
+      if(r.status !== 200 || !json) bad.push(p + ' -> ' + r.status + ' ' + r.body.toString('utf8').slice(0, 80));
+      else if(json.image || (json.pois && json.pois.length) || (json.hikes && json.hikes.length) || (json.portals && json.portals.length)) bad.push(p + ' -> ' + JSON.stringify(json).slice(0, 120));
+    }
+    await sleep(300);
+    const calls = srv.outbound(t0);
+    if(calls.length) bad.push(JSON.stringify(n) + ' : ' + calls.length + ' appel(s) sortant(s), ex. ' + calls[0].url);
+  }
+  // Nom ordinaire : les appels sortants ont bien lieu (le filtre ne bloque pas tout).
+  const t1 = Date.now();
+  const ok = await H.get('/api/photo?name=Lyon15&lang=fr&lat=45.76&lon=4.83', { ip: freshIp(), timeout: 30000 });
+  assert.equal(ok.status, 200);
+  await sleep(300);
+  assert.ok(srv.outbound(t1, 'wiki').length >= 1, 'aucun appel Wikipédia pour un nom ordinaire');
+  assert.ok(srv.outbound(t1, 'wiki').every(c => !/\/summary\/(\.|%2e)/i.test(c.url)));
+  assert.deepEqual(bad, []);
+});

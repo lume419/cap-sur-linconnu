@@ -1680,7 +1680,7 @@ es;La Cañiza;A Cañiza
 ca;la Canyada de Beric;La Cañada de Verich
 es;La Bola;A Bola
 es;la Bisbal;la Bisbal d'Empordà
-ca;la  Bisbal;la Bisbal d'Empordà
+ca;la Bisbal;la Bisbal d'Empordà
 en;La Bisbal;la Bisbal d'Empordà
 es;La Bisbal del Ampurdán;la Bisbal d'Empordà
 es;Labastida;Bastida / Labastida
@@ -2370,7 +2370,7 @@ eu;Arroitz;Arróniz
 eu;Arronategi;Arranotegi
 eu;Arroagoia;Arroa Goia
 es;Arrona;Arroa Goia
-es;Arrona  de Arriba;Arroa Goia
+es;Arrona de Arriba;Arroa Goia
 eu;Arroa Goikoa;Arroa Goia
 eu;Arrizabalaga;Arrizala
 es;Arriondas;Les Arriondes

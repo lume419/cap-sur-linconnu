@@ -831,7 +831,7 @@ ur;لا فلوریستا، یوراگوئے;La Floresta
 hy;Լա Կորոնիլիա;La Coronilla
 ur;لا کورونیلا;La Coronilla
 hy;Խոսե Էնրիկե Ռոդո;José Enrique Rodó
-ur;جویر دے  ویانا;Javier de Viana
+ur;جویر دے ویانا;Javier de Viana
 hy;Խեներալ Էնրիկե Մարտինես;General Enrique Martínez
 fa;فرای بنتوس;Fray Bentos
 bg;Фрай Бентос;Fray Bentos

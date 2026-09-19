@@ -448,8 +448,15 @@ function sanitizeLangCode(raw){
   return /^[a-z]{2,3}$/.test(code) ? code : 'fr';
 }
 
+// Nom fait seulement de points et d'espaces (15e audit du 19/09/2026) : « .. » ou « . » passait tel quel dans le chemin
+// de l'URL Wikipédia (encodeURIComponent laisse les points), et la normalisation d'URL en faisait un AUTRE chemin
+// (« /page/summary/.. » -> « /page/ »). « %2E » n'y change rien : la norme URL le traite aussi comme un point dans ces
+// segments. Refusés : réponse normale (sans photo, sans lieu, sans randonnée) et aucun appel sortant.
+function isDotsOnlyName(name){ return /^[.\s]+$/.test(String(name || '')); }
+
 // null = pas d'article exploitable (404…) ; exception = échec transitoire (réseau, délai, 429, 5xx, service saturé).
 function fetchWikiSummary(title, lang){
+  if(isDotsOnlyName(title)) return Promise.resolve(null); // voir isDotsOnlyName
   return LIMIT_WIKIPEDIA.run(async function(){
     const resp = await fetch('https://' + sanitizeLangCode(lang) + '.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(title), {
       signal: AbortSignal.timeout(10000),
@@ -1082,7 +1089,7 @@ async function fetchRealPOIs(lat, lon){
     // lien du tout pour un lieu sans image trouvée.
     if(!poi.wikiUrl && el.tags.wikipedia){
       const wpMatch = String(el.tags.wikipedia).match(/^([a-z-]{2,})\s*:\s*(.+)$/i);
-      if(wpMatch) poi.wikiUrl = 'https://' + wpMatch[1].toLowerCase() + '.wikipedia.org/wiki/' + encodeURIComponent(wpMatch[2].trim().replace(/ /g, '_'));
+      if(wpMatch && !isDotsOnlyName(wpMatch[2])) poi.wikiUrl = 'https://' + wpMatch[1].toLowerCase() + '.wikipedia.org/wiki/' + encodeURIComponent(wpMatch[2].trim().replace(/ /g, '_'));
     }
     pois.push(poi);
   }
@@ -1298,6 +1305,8 @@ app.get('/api/hike', async (req, res) => {
   if(!Object.prototype.hasOwnProperty.call(TripDataCountries, country) || !coordsOk){
     return res.status(400).json({ error: 'invalid place', hikes: [] });
   }
+  // « .. », « . » : aucun appel sortant ni lien de portail (voir isDotsOnlyName, 15e audit du 19/09/2026).
+  if(isDotsOnlyName(name)) return res.json({ hikes: [], portals: [] });
   const useVisorando = (HIKING_DATA.visorandoCountries || ['FR']).includes(country);
   let hikes = [];
   if(useVisorando){
@@ -1348,6 +1357,8 @@ app.get('/api/pois', async (req, res) => {
   if(name.length > 120){
     return res.status(400).json({ error: 'invalid name', pois: [] });
   }
+  // « .. », « . » : réponse vide, aucun appel sortant (voir isDotsOnlyName, 15e audit du 19/09/2026).
+  if(isDotsOnlyName(name)) return res.json({ pois: [] });
   // Clé par nom+département plutôt que seules les coordonnées arrondies : plus fiable pour ne
   // jamais confondre deux communes proches, et cohérent avec la recherche Wikipédia (par nom).
   const cacheKey = lat.toFixed(2) + ',' + lon.toFixed(2) + '|' + cacheKeyPart(name) + '|' + cacheKeyPart(dept) + '|' + country;
@@ -1381,6 +1392,8 @@ app.get('/api/photo', async (req, res) => {
   if(!name || name.length > 120){
     return res.status(400).json({ error: 'invalid name' });
   }
+  // « .. », « . » : pas de photo, aucun appel sortant (voir isDotsOnlyName, 15e audit du 19/09/2026).
+  if(isDotsOnlyName(name)) return res.json({ image: null, imageFull: null, wikiUrl: null, title: null });
   // Point de référence (lieu OSM, étape ou commune) et rayon selon sa précision : voir wikiPlaceMatches.
   const nLat = parseFloat(req.query.lat), nLon = parseFloat(req.query.lon);
   const kind = Object.prototype.hasOwnProperty.call(PHOTO_NEAR_KM, req.query.kind) ? req.query.kind : 'stop';
@@ -1761,7 +1774,9 @@ function buildTripPdf(doc, trip){
     if(sNights != null) statsBits.push(sNights + (sNights > 1 ? ' nuitées' : ' nuitée'));
     // Un seul arrondi (14e audit) : 4,4 km arrondis à 4 puis convertis donnaient « 2 mi » là où l'écran écrit « 3 mi ».
     const totalKmRaw = Number(stats.totalKm);
-    if(statNum(stats.totalKm)) statsBits.push('~' + pdfDistText(totalKmRaw, unit) + ' au total');
+    // 15e audit du 19/09/2026 : 0,5 à 0,8 km donnaient « ~0 mi au total » (arrondi dans l'unité affichée) — total omis
+    // quand il s'arrondit à 0 dans cette unité, comme en km sous 0,5 km.
+    if(statNum(stats.totalKm) && pdfDist(totalKmRaw, unit) >= 1) statsBits.push('~' + pdfDistText(totalKmRaw, unit) + ' au total');
     if(stats.toll && typeof stats.toll === 'object' && isFinite(Number(stats.toll.amountMax != null ? stats.toll.amountMax : stats.toll.amount))){
       // Fourchette (11e passe, voir pdfTollRange) : mêmes trois cas que les statistiques de l'écran.
       const r = pdfTollRange(stats.toll), on = !!stats.toll.enabled;

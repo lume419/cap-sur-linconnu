@@ -17,6 +17,15 @@
 // bornes, couverture du prix des ferries, pays traversés et restrictions comparés ; aller-retour près d'un pays plus rapide et
 // petites distances ; tension au départ comparée seulement si les deux résultats la portent ; alerte de ralentissement
 // global ; option --temps-reel (voir tests/compare-engine.js).
+// 15e audit du 19/09/2026 : trois régressions de la 14e passe avaient échappé à l'outil — distance annoncée « hors de
+// portée, X km » infaisable (redemander à X renvoyait X − 1), départ dans un pays couvert par le filtre des zones à tension
+// « introuvable » au lieu de « hors de portée » (Moscou, Kyiv, Téhéran, Caracas, Kaboul), Sharm el-Sheikh à moto « hors de
+// portée » alors que seul le filtre des zones bloquait — et un défaut ancien : une paire de ports d'une liaison recevait la
+// durée, la distance et le prix de la ligne de référence (Gênes → Palerme « 24 min, 8 km, 43 € » = détroit de Messine).
+// Ajouts : CONTRE-ÉPREUVE de chaque « hors de portée, X km » (même tirage rejoué à minDistanceKm = X, voir runWorker),
+// cas ciblés correspondants, traversées résumées avec leur distance et leur marque « estimée d'après la paire »
+// (pairEstimated du moteur, ou déduite : distance/durée différentes de toutes celles de la liaison), trajets directs
+// Gênes → Palerme & co. avec témoins sur les paires de référence.
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -28,7 +37,9 @@ const Module = require('module');
 // undefined (le travailleur saute alors la mesure et le signale).
 const INTERNAL_FUNCS = ['landmassOf', 'zoneOf', 'tollCountryOf', 'motoMotorwayBan', 'normalizeCityName', 'finalizeLeg',
   'countrySpeedFactor', 'countriesAlong', 'seaCrossingFor', 'ferryRouteFor', 'ferryRoadParts', 'finalizeFerryLeg',
-  'restrictionsForLeg', 'roadDistanceKm', 'countryAtPoint', 'buildLodgingLinks'];
+  'restrictionsForLeg', 'roadDistanceKm', 'countryAtPoint', 'buildLodgingLinks',
+  // 15e audit du 19/09/2026 : traversée estimée d'après la paire de ports (absente avant le 15e audit).
+  'ferryRouteForPair'];
 const INTERNAL_VARS = ['COMMUNES', 'LAST_TRIP_DIAGNOSTIC', 'TRIP_TIME_BUDGET_MS', 'CHARGER_COUNT'];
 
 function compilePatchedAt(root){
@@ -146,6 +157,18 @@ const TARGET_DEPARTURES = [
   ['myawaddy', 'Myawaddy', 'MM', ['frontiere']], ['luangprabang', 'Luang Prabang', 'LA', ['frontiere']],
   // Cas de production : itinéraire sous horloge ×10, « éloignement introuvable » en temps réel (voir --temps-reel).
   ['mutang', 'Mutang', 'CN', []], ['bellavista', 'Bella Vista', 'BZ', []], ['nanma', 'Nanma', 'CN', []],
+  // 15e audit du 19/09/2026. Pays couverts par le filtre des zones à tension, grands éloignements (« introuvable » au lieu
+  // de « hors de portée » à la 14e passe) ; Sharm el-Sheikh (« hors de portée » alors que seul le filtre bloquait), Brouta.
+  ['moscou', 'Moscow', 'RU', ['tension']], ['kyiv', 'Kyiv', 'UA', ['tension']], ['teheran', 'Tehran', 'IR', ['tension']],
+  ['caracas', 'Caracas', 'VE', ['tension']], ['kaboul', 'Kabul', 'AF', ['tension', 'lent']],
+  ['sharm', 'Sharm el-Sheikh', 'EG', ['tension', 'cote']], ['brouta', 'Brouta', 'CI', ['tension']],
+  // Distance annoncée infaisable à la 14e passe (contre-épreuve : redemander à X renvoyait X − 1).
+  ['lewe', 'Lewe', 'MM', ['lent']], ['xarardheere', 'Xarardheere', 'SO', ['lent', 'cote']],
+  ['calumboyan', 'Calumboyan', 'PH', ['ile', 'lent', 'ile-lent']], ['leganes', 'Leganes', 'PH', ['ile', 'lent', 'ile-lent']],
+  ['jasdan', 'Jasdan', 'IN', []],
+  // Très petites îles : aller-retour sans éloignement.
+  ['jamestown', 'Jamestown', 'SH', ['ile']], ['longyearbyen', 'Longyearbyen', 'SJ', ['ile', 'grand-nord']],
+  ['parintins', 'Parintins', 'BR', ['ile']],
 ];
 function departureOf(key){ return DEPARTURES.find(x => x[0] === key) || TARGET_DEPARTURES.find(x => x[0] === key); }
 const MODES = ['voiture-thermique', 'voiture-hybride', 'voiture-electrique', 'van', 'moto', 'velo'];
@@ -239,6 +262,21 @@ const TARGETED = [];
   // Ferries avec parties routières (Stuttgart/Bratislava au 12e audit).
   TARGETED.push(['bratislava', 'voiture-thermique', 'cible-ferry-12j', { days: 12, maxRadiusKm: 1500, maxLegKm: 1500, minDistanceKm: 700, maxDistanceKm: 1500, minDaysPerCity: 2, maxDaysPerCity: 3 }, 1]);
   TARGETED.push(['puli', 'voiture-thermique', 'cible-puli-8j', { days: 8, ferryEnabled: false, maxRadiusKm: 3000, minDistanceKm: 1500 }, 70104]);
+  // 15e audit du 19/09/2026. Départ dans un pays couvert par le filtre des zones à tension, filtre ACTIF (profil par
+  // défaut), éloignement au-delà du plafond de la journée : « hors de portée » attendu (la 14e passe répondait
+  // « introuvable »). Sharm el-Sheikh à moto 190 km : seul le filtre des zones bloque, « hors de portée » est faux.
+  for(const [d, km] of [['moscou', 600], ['kyiv', 500], ['teheran', 500], ['kharkiv', 500], ['caracas', 500], ['kaboul', 400], ['brouta', 300]])
+    TARGETED.push([d, 'voiture-thermique', 'cible-1j-tension-loin-min' + km, { days: 1, minDistanceKm: km }, 1]);
+  TARGETED.push(['sharm', 'moto', 'cible-1j-tension-loin-min190', { days: 1, minDistanceKm: 190 }, 1]);
+  // Distance annoncée infaisable à la 14e passe (la contre-épreuve de l'ancien moteur doit échouer, celle du nouveau passer).
+  TARGETED.push(['lewe', 'voiture-electrique', 'cible-1j-annonce-min344', { days: 1, minDistanceKm: 344 }, 1]);
+  TARGETED.push(['xarardheere', 'voiture-electrique', 'cible-1j-annonce-min434', { days: 1, minDistanceKm: 434 }, 1]);
+  TARGETED.push(['calumboyan', 'voiture-electrique', 'cible-1j-annonce-min457', { days: 1, minDistanceKm: 457 }, 1]);
+  TARGETED.push(['leganes', 'voiture-thermique', 'cible-1j-annonce-min237', { days: 1, minDistanceKm: 237 }, 1]);
+  TARGETED.push(['jasdan', 'moto', 'cible-1j-annonce-min377', { days: 1, minDistanceKm: 377 }, 1]);
+  // Très petites îles, aller-retour sans éloignement ; Lyon avec une distance max de 1 et 3 km.
+  for(const d of ['jamestown', 'longyearbyen', 'parintins']) TARGETED.push([d, 'voiture-thermique', 'cible-1j-petite-ile', { days: 1 }, 1]);
+  for(const m of ['voiture-thermique', 'velo']) for(const km of [1, 3]) TARGETED.push(['lyon', m, 'cible-1j-petit-max' + km, { days: 1, maxDistanceKm: km }, 1]);
 })();
 
 function durationClass(days){ return days === 1 ? '1j' : days <= 3 ? '2-3j' : days <= 7 ? '4-7j' : days <= 14 ? '8-14j' : '15-21j'; }
@@ -318,6 +356,14 @@ const PAIRS_FERRY = [
   ['Jeju', 'KR', 'Seoul', 'KR', 'ferry'], ['Magong', 'TW', 'Taipei', 'TW', 'ferry'], ['Dzaoudzi', 'FR', 'Mamoudzou', 'FR', 'ferry'],
   ['London', 'GB', 'Paris', 'FR', 'ferry'], ['Dublin', 'IE', 'Liverpool', 'GB', 'ferry'], ['Split', 'HR', 'Supetar', 'HR', 'ferry'],
   ['Visby', 'SE', 'Stockholm', 'SE', 'ferry'],
+  // 15e audit du 19/09/2026 : paire de ports éloignée de la ligne de référence de la liaison (la 14e passe leur donnait la
+  // durée, la distance et le prix de la ligne de référence) — traversée estimée attendue (pairEstimated). Témoins sur la
+  // paire de référence (Villa San Giovanni → Messine, Douvres → Calais) : inchangés attendus. « Nom@lat,lon » : lieu du
+  // nom le plus proche de ce point (Póros de Céphalonie, pas celui du golfe Saronique).
+  ['Genova', 'IT', 'Palermo', 'IT', 'ferry-paire'], ['Santander', 'ES', 'Portsmouth', 'GB', 'ferry-paire'],
+  ['Astakós', 'GR', 'Sámi', 'GR', 'ferry-paire'], ['Kyllíni', 'GR', 'Póros@38.15,20.77', 'GR', 'ferry-paire'],
+  ['Thessaloníki', 'GR', 'Skiáthos', 'GR', 'ferry-paire'],
+  ['Villa San Giovanni', 'IT', 'Messina', 'IT', 'ferry-temoin'], ['Dover', 'GB', 'Calais', 'FR', 'ferry-temoin'],
 ];
 // Pays des paires automatiques : les plus grandes villes du pays, appariées deux à deux (20 à 500 km par la route).
 const PAIRS_COUNTRIES = ['FR', 'DE', 'ES', 'IT', 'PT', 'GB', 'IE', 'NL', 'BE', 'CH', 'AT', 'PL', 'CZ', 'HU', 'RO', 'HR', 'GR', 'TR', 'NO', 'SE',
@@ -332,10 +378,30 @@ function round1(x){ return typeof x === 'number' ? Math.round(x * 10) / 10 : x; 
 // position arrondie), hébergement (dates, devise et plafond des liens, plateformes). Partagé par les tirages et les trajets
 // directs (summarizeLegInfo).
 function summarizeToll(t){ return t ? [round1(t.amountMin), round1(t.amount), (t.countries || []).join('+'), t.enabled === undefined ? null : !!t.enabled] : null; }
-function summarizeFerry(f){
+// 15e audit du 19/09/2026 : distance de la traversée (km, distanceKm de l'étape) et marques de la traversée estimée
+// d'après la paire de ports — pairEstimated : champ du moteur (ferryInfo, ou ferryRouteForPair dans directHop) ;
+// pairEst : DÉDUITE par l'outil, la paire (distance, durée) n'est celle d'aucune liaison de FERRY_ROUTES / SEA_CROSSINGS de
+// même routeKey (FERRY_REFS, rempli par runWorker avec les données de CE moteur). La déduction vaut pour les deux versions
+// et pour les tirages, dont les étapes ne portent pas le champ de la route.
+let FERRY_REFS = null;
+function setFerryRefs(TD){
+  FERRY_REFS = new Map();
+  [TD.FERRY_ROUTES, TD.SEA_CROSSINGS].forEach(tab => Object.keys(tab || {}).forEach(k => {
+    const r = tab[k];
+    if(!r || !r.routeKey) return;
+    let s = FERRY_REFS.get(r.routeKey);
+    if(!s) FERRY_REFS.set(r.routeKey, s = new Set());
+    s.add(r.distanceKm + '|' + r.durationH);
+  }));
+}
+function summarizeFerry(f, seaKm){
   if(!f) return null;
   const o = { route: f.routeKey, amount: f.amount === undefined ? null : f.amount };
   ['priceStatus', 'priceCovers', 'footAmount', 'durationEstimated', 'mode', 'durationH'].forEach(k => { if(f[k] !== undefined && f[k] !== null) o[k] = f[k]; });
+  if(seaKm !== undefined) o.km = seaKm;
+  if(f.pairEstimated) o.pairEstimated = true;
+  const refs = FERRY_REFS && FERRY_REFS.get(f.routeKey);
+  if(refs && seaKm !== undefined && !refs.has(seaKm + '|' + f.durationH)) o.pairEst = true;
   return o;
 }
 function summarizeCharge(c){
@@ -361,7 +427,7 @@ function summarizeLegInfo(l, o){
   o = o || {};
   if(l.roadKm !== undefined){ o.roadKm = l.roadKm; o.roadMin = l.roadMin; }
   if(l.tollInfo) o.toll = summarizeToll(l.tollInfo);
-  if(l.ferryInfo) o.ferry = summarizeFerry(l.ferryInfo);
+  if(l.ferryInfo) o.ferry = summarizeFerry(l.ferryInfo, l.distanceKm);
   if(l.chargeInfo) o.charge = summarizeCharge(l.chargeInfo);
   if(l.restrictions && l.restrictions.length) o.warn = l.restrictions.map(r => r.kind + ':' + r.type + ':' + (r.country || r.name || '')).sort();
   if(l.countriesCrossed && l.countriesCrossed.length) o.crossed = l.countriesCrossed.slice().sort();
@@ -406,15 +472,22 @@ function coverageOf(res, depCc, mode, banFull){
 // (comme generateTrip, pas pour le vélo). Restrictions van/moto : restrictionsForLeg comme generateTrip.
 function directHop(A, TD, mode, a, b, km, tollEnabled){
   const speed = TD.TRANSPORT[mode].speed;
-  let leg = null;
+  let leg = null, route = null, parts = null;
   if(A.zoneOf && A.seaCrossingFor && A.ferryRoadParts && A.finalizeFerryLeg){
     const fz = A.zoneOf(a), tz = A.zoneOf(b), crossing = A.seaCrossingFor(fz, tz);
-    if(crossing) leg = A.finalizeFerryLeg(mode, crossing, A.ferryRoadParts(a, b, fz, tz, crossing), speed, tollEnabled, a, b);
+    if(crossing){ route = crossing; parts = A.ferryRoadParts(a, b, fz, tz, crossing); }
     else {
       const fl = A.landmassOf(a), tl = A.landmassOf(b);
-      const route = fl !== tl && A.ferryRouteFor ? A.ferryRouteFor(fl, tl) : null;
-      if(route) leg = A.finalizeFerryLeg(mode, route, A.ferryRoadParts(a, b, fl, tl, route), speed, tollEnabled, a, b);
+      route = fl !== tl && A.ferryRouteFor ? A.ferryRouteFor(fl, tl) : null;
+      if(route) parts = A.ferryRoadParts(a, b, fl, tl, route);
     }
+    if(route) leg = A.finalizeFerryLeg(mode, route, parts, speed, tollEnabled, a, b);
+  }
+  // Traversée estimée d'après la paire (15e audit du 19/09/2026) : le moteur pose pairEstimated sur la ROUTE, pas sur
+  // ferryInfo — relu ici avec ferryRouteForPair (même appel que finalizeFerryLeg), absent avant le 15e audit.
+  if(leg && leg.ferryInfo && leg.ferryInfo.pairEstimated === undefined && A.ferryRouteForPair){
+    const r2 = A.ferryRouteForPair(route, parts);
+    if(r2 && r2.pairEstimated) leg.ferryInfo.pairEstimated = true;
   }
   if(!leg) leg = A.finalizeLeg(km, speed, mode, tollEnabled, A.tollCountryOf ? A.tollCountryOf(b) : b.country, a, b);
   if(mode !== 'velo' && !leg.ferryInfo && A.countriesAlong) leg.countriesCrossed = A.countriesAlong(a, b);
@@ -427,12 +500,16 @@ function directHop(A, TD, mode, a, b, km, tollEnabled){
 }
 
 // ------------------------------------------------------------------------------------------------ travailleur
+// « Nom@lat,lon » (15e audit du 19/09/2026) : parmi les lieux de ce nom, le plus proche du point (homonymes : Póros de
+// Céphalonie). Sinon : le plus peuplé.
 function findPlaceIn(byCc, A, names, cc){
   const list = byCc.get(cc) || [];
-  for(const name of [].concat(names)){
-    const q = A.normalizeCityName(name);
-    const hit = list.filter(c => c.norm === q).sort((a, b) => b.pop - a.pop)[0] ||
-      list.filter(c => c.norm.indexOf(q) === 0).sort((a, b) => b.pop - a.pop)[0];
+  for(const raw of [].concat(names)){
+    const at = String(raw).match(/^(.*)@(-?[\d.]+),(-?[\d.]+)$/);
+    const q = A.normalizeCityName(at ? at[1] : raw);
+    const order = at ? (a, b) => hav(a.lat, a.lon, +at[2], +at[3]) - hav(b.lat, b.lon, +at[2], +at[3]) : (a, b) => b.pop - a.pop;
+    const hit = list.filter(c => c.norm === q).sort(order)[0] ||
+      list.filter(c => c.norm.indexOf(q) === 0).sort(order)[0];
     if(hit) return hit;
   }
   return null;
@@ -446,6 +523,7 @@ async function runWorker(job, log){
   const E = await loadEngineAt(job.root, job.sources);
   const A = E.__test;
   const TD = require(path.join(job.root, 'public', 'js', 'trip-data.js'));
+  setFerryRefs(TD); // traversées estimées d'après la paire, déduites (15e audit, voir summarizeFerry)
   const loadMs = Date.now() - t0;
   log('moteur chargé en ' + Math.round(loadMs / 1000) + ' s, ' + Math.round(process.memoryUsage().rss / 1048576) + ' Mo');
   const byCc = new Map();
@@ -479,6 +557,36 @@ async function runWorker(job, log){
       depPt: pt(place), ms: Math.round(r.ms), sum: summarizeResult(r.res), cov: coverageOf(r.res, d[2], t.mode, banFull) });
     if((i + 1) % 25 === 0) log((i + 1) + '/' + tirages.length + ' tirages, ' + Math.round((Date.now() - tStart) / 1000) + ' s');
   });
+
+  // CONTRE-ÉPREUVE (15e audit du 19/09/2026) : chaque tirage qui répond « hors de portée » (minDistanceUnreachable) avec
+  // une distance annoncée returnCapKm = X est rejoué à minDistanceKm = X, même graine, même horloge ×10. Un itinéraire est
+  // attendu : X est affiché à l'utilisateur comme la distance faisable. À la 14e passe, redemander à X renvoyait « hors
+  // de portée, X − 1 » (Lewe en électrique : 328 km annoncés, 221 faisables). Joué pour CHAQUE moteur ; un échec du
+  // nouveau moteur compte dans --fail-on-diff. farKm : lieu le plus éloigné du départ, en distance ROUTIÈRE estimée
+  // (roadDistanceKm du moteur, l'unité de minDistanceKm ; à vol d'oiseau sans cette fonction) — information seulement.
+  out.counter = [];
+  const byId = new Map(tirages.map(t => [t.id, t]));
+  const tCounter = Date.now();
+  const farOf = (p0, l) => A.roadDistanceKm ? A.roadDistanceKm(p0.lat, p0.lon, l.lat, l.lon) : hav(p0.lat, p0.lon, l.lat, l.lon);
+  out.tirages.forEach(r => {
+    if(!r.sum || !r.sum.diag.minDistanceUnreachable) return;
+    const X = r.sum.diag.returnCapKm, t = byId.get(r.id), p = t && paramsOf(t);
+    if(!p) return;
+    if(!(X > 0)){ out.counter.push({ id: r.id, X, skipped: 'returnCapKm ' + X }); return; }
+    const params2 = Object.assign({}, p.params, { minDistanceKm: X });
+    try {
+      const c = runSteady(E, params2, t.seed);
+      const s = summarizeResult(c.res), d = s.diag;
+      const farKm = (c.res.legs || []).reduce((m, l) => typeof l.lat === 'number' && !l.isReturn ? Math.max(m, Math.round(farOf(p.place, l))) : m, 0);
+      // Réussite : un itinéraire, OU (filtre des zones actif) « bloqué par les zones à tension » — X vient alors du second
+      // tirage sans filtre (départ dans une zone déconseillée : Moscou, Kyiv, Mogadiscio…) et c'est bien le filtre qui
+      // bloque à X ; même règle que la campagne d'invariants (tests/engine-invariants.test.js).
+      const tensionOk = !!d.tensionBlocked && p.params.avoidTension !== false;
+      out.counter.push({ id: r.id, X, ms: Math.round(c.ms), n: s.legs.length, ok: (s.legs.length > 0 && !d.minDistanceUnreachable && !d.minDistanceNotFound) || tensionOk,
+        outcome: diagStr(d, s.legs.length), farKm: farKm || null });
+    } catch(e){ out.counter.push({ id: r.id, X, ok: false, error: String(e && e.message || e).slice(0, 300) }); }
+  });
+  log('contre-épreuves : ' + out.counter.length + ' (' + out.counter.filter(c => c.ok === false).length + ' échouée(s)), ' + Math.round((Date.now() - tCounter) / 1000) + ' s');
 
   // Temps réel (14e audit, option --temps-reel) : sous-ensemble des cas ciblés rejoué avec l'horloge NORMALE (budget de
   // 4 s comme en production). Dépend de la machine et de sa charge (et de l'autre moteur s'ils tournent en parallèle).
@@ -579,6 +687,18 @@ function diagShort(d, n){
   return d.minDistanceUnreachable ? 'minDistanceUnreachable' : d.minDistanceNotFound ? 'minDistanceNotFound' : d.timedOut ? 'timedOut' :
     d.tensionBlocked ? 'tensionBlocked' : n ? 'étapes' : 'vide sans diagnostic';
 }
+// Issue d'un tirage en une ligne (15e audit du 19/09/2026, résumé des cas ciblés) : « hors de portée 263 km », « 2 trajets ».
+function outcomeOf(t){
+  if(t.error) return 'erreur';
+  const d = t.sum.diag, n = t.sum.legs.length;
+  if(d.minDistanceUnreachable) return 'hors de portée ' + d.returnCapKm + ' km';
+  if(d.minDistanceNotFound) return 'introuvable';
+  if(d.tensionBlocked) return 'bloqué (zones à tension)';
+  if(d.timedOut && !n) return 'temps écoulé';
+  return n ? n + ' trajet(s)' + (d.timedOut ? ', temps écoulé' : '') : 'vide sans diagnostic';
+}
+// Cas ciblés résumés en tête du rapport (15e audit) : ancien → nouveau pour chacun.
+const SUMMARY_PROFILES = /^cible-1j-(tension-loin-min|annonce-min|petite-ile$|petit-max[13]$)/;
 function compareTirage(a, b){
   const kinds = new Set(), det = [];
   if(a.error || b.error){
@@ -678,7 +798,7 @@ function compareRuns(A, B){
     mapB.delete(a.id);
     const c = compareTirage(a, b);
     const row = { id: a.id, dep: a.dep, cc: a.cc, tags: a.tags, mode: a.mode, profile: a.profile, days: a.days, kinds: c.kinds, det: c.det, trans: c.trans, msA: a.ms, msB: b.ms,
-      capA: a.sum ? a.sum.diag.returnCapKm : null, capB: b.sum ? b.sum.diag.returnCapKm : null };
+      capA: a.sum ? a.sum.diag.returnCapKm : null, capB: b.sum ? b.sum.diag.returnCapKm : null, outA: outcomeOf(a), outB: outcomeOf(b) };
     rows.push(row);
     if(a.ms != null && b.ms != null){
       if(b.ms > a.ms * SLOW_RATIO && b.ms - a.ms > SLOW_MS) slow.push(row);
@@ -771,8 +891,38 @@ function compareRuns(A, B){
     realtime = { rows: rrows, budgetMs: [A.budgetMs, B.budgetMs] };
   }
 
+  // Contre-épreuves (15e audit du 19/09/2026), par moteur : distance annoncée X infaisable = échec.
+  const counterOf = T => {
+    const list = T.counter || null;
+    if(!list) return null;
+    return { tested: list.filter(c => !c.skipped).length, skipped: list.filter(c => c.skipped), failed: list.filter(c => c.ok === false), passed: list.filter(c => c.ok) };
+  };
+  const counter = { A: counterOf(A), B: counterOf(B) };
+
+  // Traversées (15e audit) : trajets directs avec traversée (une ligne par paire, voiture thermique) et traversées
+  // estimées d'après la paire, par moteur (trajets directs et tirages).
+  const est = f => !!(f && (f.pairEstimated || f.pairEst));
+  const legA = new Map(A.legs.map(l => [l.id, l]));
+  const ferryRows = [];
+  B.legs.forEach(y => {
+    const x = legA.get(y.id);
+    if(y.mode !== 'voiture-thermique' || !((x && x.ferry) || y.ferry)) return;
+    ferryRows.push({ id: y.id.replace(/ \| voiture-thermique$/, ''), group: y.group, a: x ? { min: x.min, ferry: x.ferry || null } : null, b: { min: y.min, ferry: y.ferry || null },
+      changed: !x || J(x.ferry) !== J(y.ferry) || x.min !== y.min });
+  });
+  const estOf = T => {
+    const legs = T.legs.filter(l => l.mode === 'voiture-thermique' && est(l.ferry));
+    const tir = [];
+    T.tirages.forEach(t => (t.sum ? t.sum.legs : []).forEach((l, i) => { if(est(l.ferry)) tir.push({ id: t.id, i, stop: l.stop, km: l.km, min: l.min, ferry: l.ferry }); }));
+    // Désaccord entre le champ du moteur et la déduction de l'outil (information).
+    const mismatch = T.legs.filter(l => l.ferry && l.mode === 'voiture-thermique' && l.ferry.pairEstimated !== undefined && !!l.ferry.pairEstimated !== !!l.ferry.pairEst).map(l => l.id);
+    return { direct: legs.map(l => l.id), directEngine: legs.filter(l => l.ferry.pairEstimated).length, tirages: tir, mismatch };
+  };
+  const ferries = { rows: ferryRows, est: { A: estOf(A), B: estOf(B) } };
+
   const msA = A.tirages.filter(t => t.ms != null).map(t => t.ms), msB = B.tirages.filter(t => t.ms != null).map(t => t.ms);
   return {
+    counter, ferries,
     labels: [A.label, B.label],
     meta: { A: { loadMs: A.loadMs, totalMs: A.totalMs, rssMb: A.rssMb, chargers: A.chargers, missing: A.missing, missingFn: A.missingFn || [] },
       B: { loadMs: B.loadMs, totalMs: B.totalMs, rssMb: B.rssMb, chargers: B.chargers, missing: B.missing, missingFn: B.missingFn || [] } },
@@ -789,9 +939,11 @@ function compareRuns(A, B){
 }
 
 // Nombre de différences qui comptent pour --fail-on-diff (le temps réel, qui dépend de la machine, n'y entre pas).
+// 15e audit du 19/09/2026 : plus les contre-épreuves ÉCHOUÉES du NOUVEAU moteur (une distance annoncée infaisable est un
+// défaut, pas un changement ; celles de l'ancien moteur sont seulement listées).
 function diffCount(R){
   return R.tirages.changed + R.legs.changed + R.lodging.changed + R.timing.slow.length + R.timing.globalAlert.filter(a => a.dir === 'lent').length +
-    R.tirages.onlyA.length + R.tirages.onlyB.length;
+    R.tirages.onlyA.length + R.tirages.onlyB.length + (R.counter && R.counter.B ? R.counter.B.failed.length : 0);
 }
 
 // ------------------------------------------------------------------------------------------------ rapport texte
@@ -822,6 +974,44 @@ function formatReport(R, opts){
     if(!F.code.length && !F.data.length) L.push('  aucun : toute différence ci-dessous vient d\'ailleurs (horloge, ordre de chargement…) — à examiner.');
     else if(!F.code.length) L.push('  → seules les DONNÉES ont changé : les différences ci-dessous viennent des données.');
     else if(!F.data.length) L.push('  → seul le CODE a changé.');
+  }
+
+  // Contre-épreuves (15e audit du 19/09/2026) : « hors de portée, X km » rejoué à minDistanceKm = X.
+  const CE = R.counter;
+  if(CE && (CE.A || CE.B)){
+    const failB = CE.B ? CE.B.failed.length : 0, failAny = failB + (CE.A ? CE.A.failed.length : 0);
+    L.push('');
+    L.push((failAny ? '!!! ' : '--- ') + 'CONTRE-ÉPREUVES « hors de portée, X km » rejouées à minDistanceKm = X (même graine, même horloge) : ' +
+      ['A', 'B'].map(k => (k === 'A' ? 'ancien ' : 'nouveau ') + (CE[k] ? (CE[k].tested - CE[k].failed.length) + ' / ' + CE[k].tested + ' faisables' : '—')).join(', ') +
+      (failB ? ' — ' + failB + ' DISTANCE(S) ANNONCÉE(S) INFAISABLE(S) DANS LE NOUVEAU MOTEUR (comptées dans --fail-on-diff)' : '') + (failAny ? ' !!!' : ' ---'));
+    ['A', 'B'].forEach(k => {
+      const c = CE[k];
+      if(!c) return;
+      if(c.skipped.length) L.push('  ' + (k === 'A' ? 'ancien' : 'nouveau') + ' : ' + c.skipped.length + ' sans distance annoncée (returnCapKm ≤ 0) : ' + c.skipped.slice(0, 6).map(s => s.id.split('|').slice(0, 3).join('|')).join(' ; '));
+      if(!c.failed.length) return;
+      L.push('  !!! ' + (k === 'A' ? 'ANCIEN' : 'NOUVEAU') + ' moteur, ' + c.failed.length + ' contre-épreuve(s) échouée(s) (X infaisable) :');
+      c.failed.slice(0, 60).forEach(f => L.push('    !!! ' + f.id + ' : annoncé ' + f.X + ' km → rejoué à ' + f.X + ' km : ' + (f.error ? 'erreur ' + f.error : f.outcome)));
+      if(c.failed.length > 60) L.push('    … ' + (c.failed.length - 60) + ' autres (voir le JSON)');
+    });
+    // Contre-épreuves réussies dont le lieu le plus lointain est en deçà de X (distance routière estimée) : information.
+    ['A', 'B'].forEach(k => {
+      const c = CE[k];
+      const short = c ? c.passed.filter(p => p.farKm != null && p.farKm < p.X - 1) : [];
+      if(short.length) L.push('  ' + (k === 'A' ? 'ancien' : 'nouveau') + ' : ' + short.length + ' réussie(s) avec un lieu le plus lointain < X (distance routière estimée, information) : ' +
+        short.slice(0, 8).map(p => p.id.split('|').slice(0, 3).join('|') + ' X ' + p.X + ' → ' + p.farKm).join(' ; '));
+    });
+  }
+
+  // Cas ciblés du 15e audit (19/09/2026) : issue ancien → nouveau, et contre-épreuve de chaque moteur.
+  const sumRows = R.tirages.rows.filter(r => SUMMARY_PROFILES.test(r.profile));
+  if(sumRows.length){
+    const ceOf = (k, id) => { const c = CE && CE[k] && CE[k].failed.concat(CE[k].passed).find(x => x.id === id); return c ? (c.ok ? ' [contre-épreuve OK]' : ' [!!! contre-épreuve ÉCHOUÉE : ' + (c.outcome || c.error) + ']') : ''; };
+    L.push('');
+    L.push('--- Cas ciblés du 15e audit (zones à tension, distance annoncée, petites îles, distance max 1-3 km) : ancien → nouveau ---');
+    sumRows.forEach(r => {
+      const km = (r.id.match(/"minDistanceKm":(\d+)/) || [])[1], mx = (r.id.match(/"maxDistanceKm":(\d+)/) || [])[1];
+      L.push('  ' + (r.kinds.length ? '← ' : '  ') + (r.dep + ' ' + r.mode + (km ? ' min ' + km : '') + (mx ? ' max ' + mx : '')).padEnd(44) + r.outA + ceOf('A', r.id) + '  →  ' + r.outB + ceOf('B', r.id));
+    });
   }
 
   const T = R.tirages;
@@ -918,6 +1108,32 @@ function formatReport(R, opts){
     });
   }
 
+  // Traversées (15e audit du 19/09/2026) : trajets directs avec traversée, et traversées estimées d'après la paire.
+  const FE = R.ferries;
+  if(FE){
+    const fStr = t => {
+      if(!t) return 'absent';
+      const f = t.ferry;
+      if(!f) return 'pas de traversée (' + fmtMin(t.min) + ')';
+      return f.route + ' ' + (f.km != null ? f.km + ' km ' : '') + fmtMin(t.min) + ', ' + (f.amount != null ? f.amount + ' €' : (f.priceStatus === 'variable' ? 'prix variable' : 'prix inconnu')) +
+        (f.pairEstimated ? ', ESTIMÉE (pairEstimated)' : f.pairEst ? ', ESTIMÉE (déduite)' : '');
+    };
+    L.push('');
+    L.push('--- Traversées estimées d\'après la paire de ports (ancien / nouveau) : trajets directs ' + FE.est.A.direct.length + ' / ' + FE.est.B.direct.length +
+      ' (dont champ pairEstimated du moteur ' + FE.est.A.directEngine + ' / ' + FE.est.B.directEngine + ')' +
+      ', étapes de tirages ' + FE.est.A.tirages.length + ' / ' + FE.est.B.tirages.length + ' ---');
+    ['A', 'B'].forEach(k => { if(FE.est[k].mismatch.length) L.push('  ' + (k === 'A' ? 'ancien' : 'nouveau') + ' : champ du moteur ≠ déduction de l\'outil pour ' + FE.est[k].mismatch.join(' ; ')); });
+    FE.est.B.tirages.slice(0, 12).forEach(e => L.push('  nouveau, tirage ' + e.id.split('|').slice(0, 3).join('|') + '|' + e.id.split('|').pop() + ' #' + (e.i + 1) + ' ' + e.stop + ' : ' +
+      fStr({ min: e.min, ferry: e.ferry })));
+    L.push('  trajets directs avec traversée (voiture thermique ; distance, durée, prix de la traversée, estimation) — « ← » : changé :');
+    FE.rows.slice().sort((a, b) => (a.group < b.group ? -1 : a.group > b.group ? 1 : 0) || (a.id < b.id ? -1 : 1)).forEach(r => {
+      if(!r.changed && !opts.all && !/ferry-(paire|temoin)/.test(r.group)) return;
+      L.push('    ' + (r.changed ? '← ' : '  ') + r.id + ' [' + r.group + '] : ' + fStr(r.a) + (r.changed ? '  →  ' + fStr(r.b) : '  (inchangé)'));
+    });
+    const hidden = FE.rows.filter(r => !r.changed && !/ferry-(paire|temoin)/.test(r.group)).length;
+    if(hidden && !opts.all) L.push('    … ' + hidden + ' autre(s) inchangé(s) (--all pour tout voir)');
+  }
+
   const LD = R.lodging;
   if(LD){
     L.push('');
@@ -963,6 +1179,6 @@ function formatReport(R, opts){
   return L.join('\n');
 }
 
-module.exports = { loadEngineAt, compilePatchedAt, buildBundle, runSteady, buildTirages, runWorker, compareRuns, compareTirage, compareLeg, formatReport, diffCount,
+module.exports = { loadEngineAt, compilePatchedAt, buildBundle, runSteady, buildTirages, runWorker, compareRuns, compareTirage, compareLeg, formatReport, diffCount, outcomeOf, setFerryRefs,
   summarizeResult, directHop, coverageOf, DEPARTURES, TARGET_DEPARTURES, MODES, PROFILES, TARGETED, PAIRS_NAMED, PAIRS_CROSS, PAIRS_MOTO_TRANSIT, PAIRS_FERRY,
   PAIRS_COUNTRIES, KINDS, SLOW_RATIO, SLOW_MS, GLOBAL_TIMING, GROUP_TIMING };

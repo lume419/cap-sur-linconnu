@@ -63340,3 +63340,7 @@ ja;やませどまり;Yamasedomari
 ja;ヤマセドマリ;Yamasedomari
 ja;上ノ沢;Kaminosawa
 ja;三島村;Mishima
+ja;佐敷町;Sashiki
+ja;大馬木;Ō-maki
+ja;鰍沢町;Kajikazawa
+ja;平泉;Tateishi

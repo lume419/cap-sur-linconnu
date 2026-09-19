@@ -367,7 +367,7 @@ ur;آ کلیوم;A Kleum
 fa;آ آلائو;A Alao
 ur;آ آلاؤ;A Alao
 en;Ban Houayxay;Ban Houakhoua
-ru;Бан  Хойяксяу;Ban Houakhoua
+ru;Бан Хойяксяу;Ban Houakhoua
 lo;Ban Pabóng;Ban Pabông
 lo;Ban Xaichaloun;Ban Xaichaleun
 en;Huay Xai;Ban Houayxay

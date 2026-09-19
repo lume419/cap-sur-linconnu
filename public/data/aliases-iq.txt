@@ -24065,7 +24065,7 @@ ar;اسماعيل حسن;Ismā‘īl Ḩasan
 ar;محمد هميلي;Muḩammad Humaylī
 ar;كريم سداد;Karīm Sadād
 ar;محمد العباس علي;Muḩammad al ‘Abbās ‘Alī
-ar;الجماهير  و دارا محمد علي;Al Jamāhīr wa Dārā Muḩammad ‘Alī
+ar;الجماهير و دارا محمد علي;Al Jamāhīr wa Dārā Muḩammad ‘Alī
 ar;الطليعه;Aţ Ţalī‘ah
 ar;عبد القادر بك;‘Abd al Qādir Bak
 ar;بان صنديق;Bān Şandīq

@@ -3110,7 +3110,7 @@ kn;ರಾಸ್ ತನುರಾ;Ras Tanura
 ko;라스 타누라;Ras Tanura
 mr;रास तनुरा;Ras Tanura
 el;Ρας Τανούρα;Ras Tanura
-ta;ராஸ்  தணுரா;Ras Tanura
+ta;ராஸ் தணுரா;Ras Tanura
 gu;રાસ તાનુરા;Ras Tanura
 te;రాస్ తనురా;Ras Tanura
 th;ราส ทานูรา;Ras Tanura
@@ -3624,3 +3624,4 @@ uk;Аба-ед-Дуд;Aba Ad Dud
 he;ניאום;Neom
 hi;नियोम;Neom
 zh;新未來城;Neom
+fa;وادی الدواسر;Wadi ad-Dawasir

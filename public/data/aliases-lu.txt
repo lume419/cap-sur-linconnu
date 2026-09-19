@@ -771,3 +771,4 @@ ur;بیخ;Bech
 ru;Бех;Bech
 bg;Ассел;Assel
 el;Άσσελ;Assel
+lb;Hueschtert;Hostert

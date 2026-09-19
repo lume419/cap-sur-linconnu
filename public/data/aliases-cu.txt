@@ -703,7 +703,6 @@ es;Punta San Juan;Máximo Gómez
 es;La Oriental;Oriental
 es;Veguita de San Cayetano;San Cayetano
 es;Veguitas de San Cayetano;San Cayetano
-es;Entronque  Lebanon;Entronque Lebanón
 es;Santa Rosa Tres;El Tres de Santa Rosa
 es;Las Doce;El Doce
 es;El Veinte;El Veinte de Soroa

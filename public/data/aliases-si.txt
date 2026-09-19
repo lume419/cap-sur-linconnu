@@ -1733,7 +1733,7 @@ tt;Велике Жабле;Velike Žablje
 ce;Велике Жабле;Velike Žablje
 bg;Велике Жабле;Velike Žablje
 uk;Веліке Жаблє;Velike Žablje
-fa;ولیک  ژابلیژه;Velike Žablje
+fa;ولیک ژابلیژه;Velike Žablje
 mk;Велике Жабље;Velike Žablje
 sr;Велике Жабље;Velike Žablje
 tt;Велике Врхе;Velike Vrhe

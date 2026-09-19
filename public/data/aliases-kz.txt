@@ -17491,3 +17491,4 @@ rn;Жанауйым;Zhanauyym
 rn;Бель;Qyrghyzstan
 ru;Raz”yezd Nomer Trista Dvenadtsat’;Nömir Üsh Zhüz On Ekinshi Ayyryq
 ru;Разъезд Номер Триста Двенадцать;Nömir Üsh Zhüz On Ekinshi Ayyryq
+ru;Семиглавый мар;Semiglavyy Mar

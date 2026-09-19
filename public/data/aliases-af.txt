@@ -17032,7 +17032,7 @@ tt;Пашмул;Pāshmūl
 am;ፓሳባንድ;Pasāband
 tt;Пасабанд;Pasāband
 uk;Перваре;Parwarah
-af;Panj Deh-e Muḩammad  ‘Az̧īm Khān;Panj Deh-e Muhammad 'Azim Khan
+af;Panj Deh-e Muḩammad ‘Az̧īm Khān;Panj Deh-e Muhammad 'Azim Khan
 am;ፓንጃብ;Panjāb
 az;Pəncab;Panjāb
 tt;Панджаб;Panjāb
@@ -17600,7 +17600,7 @@ sw;Ziruk Alaqahdari;Zīṟūk ‘Alāqahdārī
 tt;Зирук Алакахдари;Zīṟūk ‘Alāqahdārī
 af;Muḩammad ‘Omar;Muhammad 'Omar
 af;Muḩammad ‘Omar Khān;Muhammad 'Omar Khan
-af;Muḩammad  ‘Alam Khān;Muhammad 'Alam Khan
+af;Muḩammad ‘Alam Khān;Muhammad 'Alam Khan
 af;Mīrzā Muḩammad Sa‘īd;Mirza Muhammad Sa'id
 af;Ḩājī Muḩammad A‘z̧am;Haji Muhammad A'zam
 am;ኩሻክ;Kushkak
@@ -17639,7 +17639,7 @@ tt;Дахан-е Жаф;Dahan-e Jarf
 am;ማይዳንሻህር;Maydanshakhr
 tt;Майданшахр;Maydanshakhr
 am;ዱ ላይናህ;Dū Laīnah
-af;Muḩammad  Ya‘qūb;Muhammad Ya'qub
+af;Muḩammad Ya‘qūb;Muhammad Ya'qub
 am;ቃራም ቆል;Qaram Qōl
 am;ፑል-ኢ ሂሳር;Pul-e Ḩişār
 am;ታቅቻህ ხანህ;Ţāqchah Khānah

@@ -134,6 +134,19 @@ function runCampaign(){
       res.emptyKinds[kind] = (res.emptyKinds[kind] || 0) + 1;
     }
     for(const x of c.v) res.violations.push(Object.assign({ seed, ms, dep: where, params }, x));
+    // CONTRE-ÉPREUVE (15e audit du 19/09/2026) : un aller-retour « hors de portée, X km » est rejoué à X km, même graine.
+    // X doit être faisable (itinéraire trouvé, ou seulement bloqué par les zones à tension). Au 14e audit, X venait d'un
+    // filtre optimiste : redemander à X renvoyait « hors de portée, X − 1 » (jusqu'à 109 fois de suite).
+    if(params.days <= 1 && r.minDistanceUnreachable && r.returnCapKm > 0){
+      const again = Object.assign({}, params, { minDistanceKm: r.returnCapKm });
+      let r2 = null;
+      try { r2 = H.withSeed(seed, () => E.generateTrip(again)); } catch(e){ r2 = { error: e.message }; }
+      res.replays = (res.replays || 0) + 1;
+      if(!r2 || r2.error || !(r2.legs && r2.legs.length || r2.tensionBlocked || r2.timedOut)){
+        res.violations.push({ inv: 'contreEpreuve', sev: 'haute', seed, dep: where, params,
+          msg: 'hors de portée, ' + r.returnCapKm + ' km annoncés, mais ' + r.returnCapKm + ' km redemandés : ' + JSON.stringify(r2 && Object.keys(r2).filter(k => k !== 'legs' && k !== 'spinPool')) + (r2 && r2.returnCapKm ? ' ' + r2.returnCapKm : '') });
+      }
+    }
   }
   return res;
 }
@@ -145,7 +158,7 @@ test('campagne de tirages aléatoires à graine (' + TRIPS + ' tirages, graine '
   fs.writeFileSync(file, campaign.violations.map(x => JSON.stringify(x)).join('\n'));
   const ts = campaign.times.slice().sort((a, b) => a - b);
   t.diagnostic(campaign.trips + ' tirages en ' + Math.round((Date.now() - t0) / 1000) + ' s ; vides ' + campaign.empties + ' ' + JSON.stringify(campaign.emptyKinds) +
-    ' ; médiane ' + ts[ts.length >> 1] + ' ms, max ' + ts[ts.length - 1] + ' ms ; ' + campaign.violations.length + ' violation(s) -> ' + file);
+    ' ; médiane ' + ts[ts.length >> 1] + ' ms, max ' + ts[ts.length - 1] + ' ms ; contre-épreuves ' + (campaign.replays || 0) + ' ; ' + campaign.violations.length + ' violation(s) -> ' + file);
   // La campagne doit produire des itinéraires (un moteur qui renverrait toujours des étapes vides passerait tout le reste).
   assert.ok(campaign.trips - campaign.empties >= campaign.trips * 0.4, 'trop de tirages vides : ' + campaign.empties + '/' + campaign.trips);
 });

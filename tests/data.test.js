@@ -13,6 +13,9 @@
 //   - (14e audit du 19/09/2026) distance de chaque ferry cohérente avec l'orthodromie entre ses ports, ports proches
 //     l'un de l'autre, aucune paire de ports beaucoup plus courte que la liaison ; aucun alias refusé par isJunkName ;
 //     doublons en écriture locale écartés avec leur double romanisé publié ;
+//   - (15e audit du 19/09/2026) alias réparés (« _ », parenthèse orpheline) publiés, lignes mal rattachées toujours
+//     écartées ; aucune espace double dans les alias et les noms ; doublons au même point écartés, nom écarté trouvable
+//     comme alias ; paires de ports non documentées absentes ; mentions légales OpenStreetMap et Natural Earth ;
 //   - scripts/build-ferry-ports.js reproduit lib/ferry-ports.js à l'octet près (TEST_GENERATORS=1 ou test:full).
 // Exceptions « en attente » : lignes des pays que leur générateur ne peut pas régénérer hors ligne (fichiers postaux
 // GeoNames absents de scripts/postal/) ; la correction est en place dans communes-corrections.js et s'appliquera à la
@@ -318,17 +321,113 @@ test('alias : aucun alias refusé par isJunkName (« _ », parenthèse ou croche
   for(const n of ['Ист-Лансинг', 'Rakvere vald', 'Larpea #1', '景島', 'Santa Cruz (Lagos (Norte))']) assert.ok(!C.isJunkName(n), n);
 });
 
+// 15e audit du 19/09/2026 : réparation typographique des alias AVANT le refus (communes-corrections.js,
+// repairAliasTypography) — les 82 lignes retirées par la 14e passe sans forme propre ailleurs sont revenues sous leur
+// forme réparée ; les lignes mal rattachées ou incertaines (ALIAS_REPAIR_REJECT) restent écartées, réparées ou non.
+const aliasLines = new Map();
+function aliasSet(cc){
+  if(!aliasLines.has(cc)){
+    const f = TripData.COUNTRIES[cc].aliasFile;
+    aliasLines.set(cc, new Set(f && fs.existsSync(path.join(DATA, f)) ? fs.readFileSync(path.join(DATA, f), 'utf8').split('\n').filter(Boolean) : []));
+  }
+  return aliasLines.get(cc);
+}
+test('alias : formes réparées publiées (« _ », parenthèse orpheline), formes mal rattachées toujours écartées', () => {
+  const R = C.repairAliasTypography;
+  for(const [raw, fixed] of [['伏尔加斯基_', '伏尔加斯基'], ['Иван_Вазово', 'Иван Вазово'], ['St_Georges_D_Oleron', 'St Georges D Oleron'],
+    ['(佐敷町', '佐敷町'], ['Hueschtert)', 'Hueschtert'], ['[چانهاسن، مینه‌سوتا', 'چانهاسن، مینه‌سوتا'], ['Клајо Алабама)', 'Клајо Алабама']]){
+    assert.equal(R(raw), fixed, raw);
+    assert.ok(!C.isJunkName(R(raw)), raw);
+  }
+  // Non réparables : parenthèse au milieu ou deuxième parenthèse non appariée, « * », lignes de ALIAS_REPAIR_REJECT.
+  for(const raw of ['zzLapurdi-) Jatsu', '(پنڈی ہاشم (باڑہ', 'حدود الربعة _ الربعة', '景島（Isla Vista)社群', 'CZ*ECO Nelson', ...C.ALIAS_REPAIR_REJECT.keys()]) assert.ok(C.isJunkName(R(raw)), raw);
+  const bad = [];
+  for(const l of ['ru;Юхары шильян;Yuxarı Şilyan', 'ru;Асрик джырдахан;Asrikdzhyrdakhan', 'bg;Иван Вазово;Ivan-Vazovo', 'zh;伏尔加斯基;Volzhskiy',
+    'zh;比拉;Bira', 'ru;Кривая руда;Kryva Ruda', 'zh;约克镇;Yorktown', 'ky;Беркли;Berkeley', 'ja;佐敷町;Sashiki', 'ja;鰍沢町;Kajikazawa',
+    'fa;چانهاسن، مینه‌سوتا;Chanhassen', 'lb;Hueschtert;Hostert', 'ga;Baile an Tirialaigh;Tyrrelstown', 'bn;দক্ষিনেশ্বর;Dakshineswar',
+    'zh;索爾茲伯里;Salisbury', 'zh;蒂沃利;Tivoli', 'fa;وادی الدواسر;Wadi ad-Dawasir', 'fr;St Georges D Oleron;Saint-Georges-d\'Oléron']){
+    const cc = { 'Yuxarı Şilyan': 'AZ', Asrikdzhyrdakhan: 'AZ', 'Ivan-Vazovo': 'BG', Volzhskiy: 'RU', Bira: 'RU', 'Kryva Ruda': 'UA', Yorktown: 'US',
+      Berkeley: 'US', Sashiki: 'JP', Kajikazawa: 'JP', Chanhassen: 'US', Hostert: 'LU', Tyrrelstown: 'IE', Dakshineswar: 'IN', Salisbury: 'DM',
+      Tivoli: 'GD', 'Wadi ad-Dawasir': 'SA', 'Saint-Georges-d\'Oléron': 'FR' }[l.split(';')[2]];
+    if(!aliasSet(cc).has(l)) bad.push(cc + ' : ligne réparée absente ' + JSON.stringify(l));
+  }
+  // (« nl;Khwaeng Savannakhet;Savannakhet », écrit avec une espace dans GeoNames, était déjà publié avant la 14e passe :
+  // non visé ici, voir le README.)
+  for(const [cc, l] of [['EE', 'et;Rakvere vald;Rakvere'], ['US', 'ky;Ист Лансинг;East Tawas'],
+    ['MY', 'ms;Mukim Penyabong;Penyabong'], ['YE', 'ar;حدود الربعة الربعة;Ar Rab‘ah'], ['TR', 'ru;Килитташ ке;Kilittaşı'], ['AQ', 'en;CZECO Nelson;Eco-Nelson']]){
+    if(aliasSet(cc).has(l)) bad.push(cc + ' : ligne mal rattachée ou incertaine publiée ' + JSON.stringify(l));
+  }
+  assert.deepEqual(bad, []);
+});
+
+// 15e audit du 19/09/2026 : espaces multiples (« la  Bisbal », « Orange  (State of New South Wales) », espace + espace
+// insécable) ou espace en tête / en fin, dans les alias comme dans les noms publiés.
+test('alias et lieux : aucune espace double, ni en tête ni en fin', () => {
+  const bad = [];
+  const BAD_SPACE = /\s{2,}|^\s|\s$/;
+  for(const { cc, alias } of FILES){
+    for(const n of published.get(cc)) if(BAD_SPACE.test(n)) bad.push(cc + ' lieu ' + JSON.stringify(n));
+    if(!alias || !fs.existsSync(path.join(DATA, alias))) continue;
+    eachLine(path.join(DATA, alias), (l, i) => { const p = l.split(';'); if(BAD_SPACE.test(p[1] || '') || BAD_SPACE.test(p[2] || '')) bad.push(alias + ':' + i + ' ' + JSON.stringify(l)); });
+  }
+  assert.deepEqual(bad, []);
+  assert.ok(aliasSet('ES').has('ca;la Bisbal;la Bisbal d\'Empordà') && aliasSet('AU').has('de;Orange (State of New South Wales);Orange'), 'forme à une espace absente');
+});
+
 // 14e audit du 19/09/2026 : doublons en écriture locale seule (JP, KR, KP, CN, IR) — chaque fiche écartée a bien son
-// double romanisé publié (sinon l'écarter ferait disparaître le lieu).
+// double romanisé publié (sinon l'écarter ferait disparaître le lieu). 15e audit du 19/09/2026 : idem pour les doublons au
+// même point (SAME_POINT_DUPLICATES), et le nom écarté reste trouvable comme alias du lieu gardé (build-all-aliases.js).
 test('lieux : doublons en écriture locale écartés, lieu romanisé correspondant toujours publié', () => {
   const bad = [];
-  for(const [cc, rows] of Object.entries(C.LOCAL_SCRIPT_DUPLICATES)){
-    for(const [id, n, keptId, keptName] of rows){
-      if(!C.JUNK_IDS[id] || C.JUNK_IDS[id][0] !== cc) bad.push(cc + ' ' + id + ' ' + n + ' : absent de JUNK_IDS');
-      if(!published.get(cc) || !published.get(cc).has(keptName)) bad.push(cc + ' ' + keptId + ' ' + keptName + ' : doublon gardé non publié');
+  for(const table of [C.LOCAL_SCRIPT_DUPLICATES, C.SAME_POINT_DUPLICATES]){
+    for(const [cc, rows] of Object.entries(table)){
+      const texts = new Set([...aliasSet(cc)].filter(l => l.split(';')[2] !== undefined).map(l => { const p = l.split(';'); return p[1] + '|' + p[2]; }));
+      for(const [id, n, keptId, keptName] of rows){
+        if(!C.JUNK_IDS[id] || C.JUNK_IDS[id][0] !== cc) bad.push(cc + ' ' + id + ' ' + n + ' : absent de JUNK_IDS');
+        if(!published.get(cc) || !published.get(cc).has(keptName)) bad.push(cc + ' ' + keptId + ' ' + keptName + ' : doublon gardé non publié');
+        if(published.get(cc) && published.get(cc).has(n)) bad.push(cc + ' ' + id + ' ' + n + ' : doublon encore publié');
+        // « Yanagidamen » (JP 1848564) : aucun nom rattaché à une langue sur sa fiche, ne peut pas devenir un alias.
+        if(/[A-Za-z]/.test(n)) continue;
+        if(!texts.has(n + '|' + keptName) && !texts.has(n.replace(/市$/, '') + '|' + keptName)) bad.push(cc + ' ' + n + ' : introuvable, aucun alias de ' + keptName);
+      }
     }
   }
   assert.deepEqual(bad, []);
+  // 大馬木 (JP 1854180, publié « Ō-maki » par NAME_FIXES) : trouvable par son nom en kanji.
+  assert.ok(aliasSet('JP').has('ja;大馬木;Ō-maki'), 'ja;大馬木;Ō-maki absent');
+});
+
+// 15e audit du 19/09/2026 : paires de ports sans ligne réelle documentée retirées (scripts/ferry-ports/corrections.js) —
+// Astakós ↔ Fríkes (la source ne donne que « Astakos ↔ Pisaetos ; Vasiliki ↔ Frikes ») et Kyllíni ↔ Sámi (source :
+// « Kyllini ↔ Poros »).
+test('ferries : paires de ports non documentées absentes', () => {
+  const hv = (a, b, c, d) => { const r = Math.PI / 180, x = Math.sin((c - a) * r / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin((d - b) * r / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)); };
+  // [liaison, rive 1, point du port 1, rive 2, point du port 2] : points à moins de 3 km des localités concernées.
+  for(const [key, s0, p0, s1, p1, label] of [
+    ['continental|ithaca', 'continental', [38.5356, 21.0814], 'ithaca', [38.4584, 20.6639], 'Astakós ↔ Fríkes'],
+    ['continental|kefalonia', 'continental', [37.9354, 21.145], 'kefalonia', [38.2508, 20.6469], 'Kyllíni ↔ Sámi']
+  ]){
+    const p = FERRY_PORTS[key];
+    assert.ok(p && p.pairs, key + ' : paires absentes');
+    const i0 = p[s0].findIndex(q => hv(q[0], q[1], p0[0], p0[1]) < 3), i1 = p[s1].findIndex(q => hv(q[0], q[1], p1[0], p1[1]) < 3);
+    assert.ok(i0 >= 0 && i1 >= 0, key + ' : port introuvable');
+    assert.ok(!p.pairs.some(([a, b]) => a === i0 && b === i1), key + ' : paire ' + label + ' encore desservie');
+  }
+  const C2 = require(path.join(ROOT, 'scripts', 'ferry-ports', 'corrections.js'));
+  assert.ok(C2.pairs['continental|ithaca'].pairs.some(pr => pr.join('|') === 'Astakós|Aetós'), 'Astakós ↔ Aetós (Pisaetos) doit rester');
+});
+
+// 15e audit du 19/09/2026 : attributions des mentions légales pour les données réellement utilisées — quais de ferry et
+// contours d'îles OpenStreetMap (ODbL), grille terre / eau Natural Earth (lib/land-grid.bin, domaine public).
+test('mentions légales : OpenStreetMap (quais, contours d\'îles) et Natural Earth cités', () => {
+  const html = fs.readFileSync(path.join(ROOT, 'public', 'mentions-legales.html'), 'utf8');
+  const item = html.split('<li>').find(x => /Ports de ferry et îles/.test(x)) || '';
+  for(const w of ['ferry_terminal', 'Olkhon', 'K’gari', 'Chiloé', 'OpenStreetMap', 'ODbL']) assert.ok(item.includes(w), 'mentions légales, ports et îles : « ' + w + ' » absent');
+  // Chaque relation OSM citée par un contour d'île doit être couverte par la mention (Olkhon, K'gari, Chiloé).
+  const rel = new Set();
+  for(const f of fs.readdirSync(path.join(ROOT, 'scripts', 'iles'))) (fs.readFileSync(path.join(ROOT, 'scripts', 'iles', f), 'utf8').match(/relation\/\d+/g) || []).forEach(r => rel.add(r));
+  assert.deepEqual([...rel].sort(), ['relation/2711509', 'relation/2734482', 'relation/6661024'], 'nouveau contour OSM : le citer dans les mentions légales');
+  if(fs.existsSync(path.join(ROOT, 'lib', 'land-grid.bin'))) assert.ok(/Natural Earth[\s\S]{0,200}domaine public/.test(html), 'Natural Earth (lib/land-grid.bin) non cité');
 });
 
 // build-ferry-ports.js charge le moteur et écrit en dur dans ../lib/ferry-ports.js : exécuté dans une COPIE temporaire

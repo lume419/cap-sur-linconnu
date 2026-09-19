@@ -487790,3 +487790,5 @@ mk;Такцер;Taktser
 cs;Tagccher;Taktser
 he;טקטסר;Taktser
 sr;Сјуџоу;Xuzhou
+zh;雄鸡埭;Xiongjidai
+zh;蓮湖;Lianhu

@@ -1255,7 +1255,7 @@ es;Campesina Tajibo 2;Campesina Tajibo Dos
 es;Indígena 1 de Mayo;Indígena Primero de Mayo
 es;10 de Enero;Diez de Enero
 es;Indígena Guayacán;Indígena Guayacán Uno
-es;Indígena Guayacán  1;Indígena Guayacán Uno
+es;Indígena Guayacán 1;Indígena Guayacán Uno
 es;Menonita;Tinto del Este
 es;Campesina Tajibo 1;Campesina Tajibo Uno
 es;Colonia Menonita Hohenau 2;Colonia Menonita Hohenau Dos
@@ -1606,7 +1606,7 @@ ur;سن جوسی دے چیقویتوس;San José de Chiquitos
 kn;ಸ್ಯಾನ್ ಜೋಸ್ ಡಿ ಚುಕ್ವಿಟೋಸ್;San José de Chiquitos
 mr;सॅन होझ डी चिक्तिओस;San José de Chiquitos
 el;Σαν Χοσέ ντε Τσικουίτος;San José de Chiquitos
-ta;சான்  ஜோஸ் டே  சிகுய்ட்டோஸ்;San José de Chiquitos
+ta;சான் ஜோஸ் டே சிகுய்ட்டோஸ்;San José de Chiquitos
 gu;સાન જોસ ડે ચિક્વિટોસ;San José de Chiquitos
 te;శాన్ జోస్ డి చికిటోస్;San José de Chiquitos
 th;ซานโฆเซเดชิกิโตส;San José de Chiquitos

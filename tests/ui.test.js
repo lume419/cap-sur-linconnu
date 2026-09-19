@@ -16,6 +16,11 @@
 //   - champs de distance en miles : bornes valides dans les deux sens, valeur affichée = envoyée = citée, message de
 //     bornes avec l'unité (161 langues), restauration des valeurs par le navigateur, pas de 5 mi ;
 //   - durée et difficulté des randonnées Visorando traduites ; touroyo et adyguéen sans repli arabe ; duel arabe.
+// 15e audit du 19/09/2026 :
+//   - miles : valeur saisie juste hors bornes en km (19,96 km…) jamais affichée dans les bornes et refusée quand même ;
+//   - bouton du mode de rayon déjà actif : saisie gardée ; habitants et lieux repérés au bon pluriel ;
+//   - touroyo et adyguéen : durées et dates sans mot turc ou russe ; rayon du message « trop loin » au dixième ;
+//   - traversée ESTIMÉE (paire de ports) : « environ », tarif inconnu, à l'écran et dans le PDF.
 'use strict';
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
@@ -54,6 +59,8 @@ const FNS = ['isoDate', 'parseIsoDate', 'formatFrDate', 'formatDateRange', 'form
   // Champs de distance, bornes, pas, randonnées, duel arabe (14e audit du 19/09/2026).
   'applyFieldBounds', 'distanceFieldSpec', 'distanceFieldText', 'defaultDistanceValue', 'setDefaultDistanceField', 'convertDistanceFields',
   'checkNumberRange', 'msg', 'stepNumberField', 'hikeDurationText', 'hikeDifficultyText', 'dualWithoutNumber', 'countPart',
+  // Mode du rayon, pluriels de l'annonce, dates en chiffres (15e audit du 19/09/2026).
+  'setMode', 'revealCountTexts', 'numericDatesLang', 'numericDateText', 'localeDateText',
   // Corps envoyé à /api/export-pdf et ses dépendances.
   'buildTripExportPayload', 'pdfLegBadges', 'transportHasToll', 'pdfLegTexts', 'legRouteText', 'legDuration', 'legMinutes', 'overMaxLegText',
   'noChargerText', 'tollText', 'tollSourceLabel', 'exportTension', 'exportLodgingLinks', 'singleLegLabel', 'formatCpBadge', 'optionLabel',
@@ -80,7 +87,10 @@ function sandbox(){
     'var sessionCurrency, currentTripData = null, currentTripLabel = "", fieldDistanceUnit = "km", radiusMode = "km";',
     // Champs factices (valeur texte, bornes min/max/step comme les attributs d'un <input type="number">).
     'var fakeInput = function(){ return { value: "", min: "", max: "", step: "", dispatchEvent: function(){} }; };',
-    'var els = { packGrid: { querySelectorAll: function(){ return []; } }, radius: fakeInput(), minDistance: fakeInput(), maxDistance: fakeInput(), legDistance: fakeInput() };',
+    'var els = { packGrid: { querySelectorAll: function(){ return []; } }, radius: fakeInput(), minDistance: fakeInput(), maxDistance: fakeInput(), legDistance: fakeInput(),',
+    '  modeKm: { setAttribute: function(){} }, modeH: { setAttribute: function(){} } };',
+    // Effets de bord de setMode sans DOM : erreurs retirées comptées, étiquette d'unité ignorée.
+    'var modeClears = 0; function clearRadiusError(){ modeClears++; } function clearMinDistanceError(){} function updateRadiusUnitLabel(){}',
     'var Event = function(){};',
     ['ROUTE_MARK', 'approxMarkCache', 'KM_PER_MILE', 'MILE_COUNTRIES', 'CURRENCY_STORAGE_KEY', 'CHARGER_NEAR_STOP_KM', 'RADIUS_KM_FIELD',
       'HIKE_DIFFICULTY_KEYS'].map(extractVar).join('\n'),
@@ -91,7 +101,7 @@ function sandbox(){
     'window.__app = {' + FNS.map(n => n + ': ' + n).join(', ') + ', setLang: function(l){ window.I18N.set(l); VISITOR_LANG = l; },' +
       ' setUnit: function(u){ UNIT_OVERRIDE = u; }, setFieldUnit: function(u){ fieldDistanceUnit = u; }, fieldUnit: function(){ return fieldDistanceUnit; },' +
       ' els: els, DISTANCE_KM_FIELDS: DISTANCE_KM_FIELDS, RADIUS_KM_FIELD: RADIUS_KM_FIELD, HIKE_DIFFICULTY_KEYS: HIKE_DIFFICULTY_KEYS,' +
-      ' setTrip: function(trip){ currentTripData = trip; } };'
+      ' setTrip: function(trip){ currentTripData = trip; }, radiusMode: function(){ return radiusMode; }, modeClears: function(){ return modeClears; } };'
   ].join('\n');
   vm.runInContext(glue, ctx);
   return ctx.window;
@@ -735,8 +745,10 @@ test('touroyo et adyguéen : dates et montants dans une locale de leur écriture
   const bad = [];
   for(const [l, script] of [['tru', /\p{Script=Latin}/u], ['ady', /\p{Script=Cyrillic}/u]]){
     A.setLang(l);
+    // 15e audit du 19/09/2026 : dates en chiffres (plus de mois turcs ou russes, voir le test « touroyo et adyguéen :
+    // durées et dates » plus bas) — l'écriture n'est plus contrôlée sur la plage, faute de lettres.
     const range = A.formatStayRange('2026-09-20', '2026-09-23');
-    if(/[؀-ۿ]/.test(range) || !script.test(range)) bad.push(l + ' dates : « ' + range + ' »');
+    if(/[؀-ۿ]/.test(range) || (!script.test(range) && range !== '20.09–23.09')) bad.push(l + ' dates : « ' + range + ' »');
     for(const s of [A.formatMoney(12.5, 'EUR'), A.formatMoney(1234, 'EUR'), A.approxMoneyRange(5.2, 14.7, 'EUR')]){
       if(/[‎‏؜‪-‮⁦-⁩]/.test(s) || /[٠-٩]/.test(s)) bad.push(l + ' montant : ' + JSON.stringify(s));
     }
@@ -767,4 +779,174 @@ test('arabe : duel sans nombre répété, signe « ٪ »', () => {
   A.setLang('fr');
   assert.equal(A.durationLabel(3, 2), '3 jours (2 nuits)');
   assert.deepEqual(JSON.parse(JSON.stringify(A.countPart(2, 'stats.cities', false))), { value: '2', label: W.I18N.t('stats.cities'), nounFirst: false });
+});
+
+// ---- 15e audit du 19/09/2026 ----
+test('miles : valeur saisie juste hors bornes en km -> jamais affichée dans les bornes et refusée quand même', () => {
+  const bad = [];
+  const names = ['distance min', 'distance max', 'étape', 'rayon'];
+  // Cas de l'audit (19,96 et 1 200,05 km au rayon, −0,04 et 3 000,04 km aux distances, 9,97 km à l'étape) et voisins.
+  const cases = [[3, 19.96], [3, 19.99], [3, 1200.05], [3, 1200.04], [0, -0.04], [1, -0.04], [1, 3000.04], [0, 3000.04], [2, 9.97], [2, 3000.04],
+    [3, 5000], [3, 1], [1, 5000], [2, 2]];
+  for(const [i, km] of cases){
+    const f = resetFields('km')[i];
+    typeIn(f.el, km);
+    A.convertDistanceFields('mi');
+    const shown = parseFloat(f.el.value), lo = parseFloat(f.el.min), hi = parseFloat(f.el.max);
+    const inShownBounds = shown >= lo && shown <= hi;
+    const problem = A.checkNumberRange(f.el, true);
+    const sent = A.distanceFieldKm(f.el);
+    // Affichée dans les bornes : acceptée, et la valeur envoyée tient dans celles du moteur ; sinon refusée.
+    if(inShownBounds && problem) bad.push(names[i] + ' ' + km + ' km -> « ' + f.el.value + ' » mi refusé : ' + problem.message());
+    if(inShownBounds && !(sent >= f.min && sent <= f.max)) bad.push(names[i] + ' ' + km + ' km -> ' + sent + ' km envoyés');
+    if(!inShownBounds && !problem) bad.push(names[i] + ' ' + km + ' km -> « ' + f.el.value + ' » mi accepté hors bornes');
+  }
+  // Valeur valide : toujours exacte au retour en km (comportement du 14e audit inchangé).
+  resetFields('km'); typeIn(A.els.radius, 20); A.convertDistanceFields('mi');
+  assert.equal(A.distanceFieldKm(A.els.radius), 20);
+  A.convertDistanceFields('km');
+  assert.equal(A.els.radius.value, '20');
+  resetFields('km');
+  assert.deepEqual(bad, []);
+});
+
+test('mode du rayon : recliquer le bouton déjà actif garde la saisie et l\'erreur ; changement de mode inchangé', () => {
+  resetFields('km');
+  assert.equal(A.radiusMode(), 'km');
+  typeIn(A.els.radius, 250);
+  const clears0 = A.modeClears();
+  A.setMode('km');
+  assert.equal(A.els.radius.value, '250', 'saisie effacée en recliquant « km »');
+  assert.equal(A.modeClears(), clears0, 'erreur retirée sans changement de mode');
+  A.setMode('h');
+  assert.equal(A.radiusMode(), 'h');
+  assert.equal(String(A.els.radius.value), '4');
+  assert.equal(A.modeClears(), clears0 + 1);
+  typeIn(A.els.radius, 6.5);
+  A.setMode('h');
+  assert.equal(A.els.radius.value, '6.5', 'saisie effacée en recliquant « h »');
+  A.setMode('km');
+  assert.equal(A.radiusMode(), 'km');
+  assert.equal(A.els.radius.value, '300');
+  assert.equal(A.distanceFieldKm(A.els.radius), 300);
+  resetFields('km');
+});
+
+test('annonce de la première étape : habitants et lieux repérés au bon pluriel (ru, uk, pl, cs, lt, ro, sl, ar…)', () => {
+  const said = (l, pop, poi) => { A.setLang(l); return A.revealCountTexts({ pop, featuredCount: poi }); };
+  const cases = [
+    ['ru', 21, 2, ['21 житель', '2 настоящие интересные точки найдены']], ['ru', 22, 5, ['22 жителя', '5 настоящих интересных точек найдено']],
+    ['ru', 25, 21, ['25 жителей', '21 настоящая интересная точка найдена']],
+    ['uk', 21, 3, ['21 мешканець', '3 справжні цікаві точки знайдено']], ['uk', 1, 5, ['1 мешканець', '5 справжніх цікавих точок знайдено']],
+    ['be', 23, 2, ['23 жыхары', '2 сапраўдныя цікавыя пункты знойдзены']],
+    ['pl', 22, 2, ['22 mieszkańcy', '2 prawdziwe ciekawe miejsca znalezione']], ['pl', 21, 5, ['21 mieszkańców', '5 prawdziwych ciekawych miejsc znalezionych']],
+    ['cs', 3, 2, ['3 obyvatelé', '2 skutečná zajímavá místa nalezena']], ['sk', 4, 3, ['4 obyvatelia', '3 skutočné zaujímavé miesta nájdené']],
+    ['lt', 21, 2, ['21 gyventojas', 'rastos 2 tikros lankytinos vietos']], ['lt', 12, 10, ['12 gyventojų', 'rasta 10 tikrų lankytinų vietų']],
+    ['lv', 21, 21, ['21 iedzīvotājs', 'atrasta 21 reāla apskates vieta']], ['is', 21, 31, ['21 íbúi', '31 raunverulegur áhugaverður staður fundinn']],
+    ['sl', 102, 2, ['102 prebivalca', '2 pravi zanimivi točki najdeni']], ['hr', 21, 3, ['21 stanovnik', '3 prave zanimljive točke pronađene']],
+    ['sr', 21, 2, ['21 становник', '2 праве занимљиве тачке пронађене']], ['mk', 21, 21, ['21 жител', '21 вистинска знаменитост пронајдена']],
+    ['ro', 19, 20, ['19 locuitori', '20 de puncte de interes reale reperate']], ['ro', 25, 2, ['25 de locuitori', '2 puncte de interes reale reperate']],
+    ['ar', 150, 2, ['عدد السكان: ١٥٠', 'تم العثور على معلمين حقيقيين']], ['ar', 150, 3, [null, 'تم العثور على ٣ معالم حقيقية']],
+    ['ar', 150, 11, [null, 'تم العثور على ١١ معلمًا حقيقيًا']], ['fr', 1234, 2, ['1 234 habitants', '2 points d\'intérêt réels repérés']],
+    ['fr', 50, 1, ['50 habitants', '1 point d\'intérêt réel repéré']]
+  ];
+  const bad = [];
+  for(const [l, pop, poi, want] of cases){
+    const got = said(l, pop, poi).map(s => s.replace(/[  ]/g, ' '));
+    want.forEach((w, i) => { if(w !== null && got[i] !== w) bad.push(l + ' ' + [pop, poi][i] + ' : « ' + got[i] + ' » (attendu « ' + w + ' »)'); });
+  }
+  // Toutes les langues aux règles CLDR complexes (duel, few, singulier après 21) : forme par nombre, tournure
+  // « Libellé : {n} », ou langue dont le nom reste invariable après un nombre (liste documentée dans i18n.js).
+  const INVARIANT = ['br', 'ga', 'gv', 'cy', 'kw', 'ruo', 'gag', 'crh', 'ab', 'ady', 'myv', 'mdf', 'udm', 'fil'];
+  for(const l of W.I18N.SUPPORTED){
+    const pr = new Intl.PluralRules(W.I18N.localeTag(l)), cats = pr.resolvedOptions().pluralCategories;
+    if(!(cats.includes('few') || cats.includes('two') || pr.select(21) === 'one') || INVARIANT.includes(l)) continue;
+    A.setLang(l);
+    for(const key of ['reveal.inhabitants', 'reveal.poiN']){
+      const exact = W.I18N.plural(key, 2) && W.I18N.plural(key, 21) && W.I18N.plural(key, 5);
+      const neutral = /[:：]\s*\{n\}\s*$/.test(W.I18N.t(key));
+      if(!exact && !neutral) bad.push(l + ' ' + key + ' : ni forme par nombre, ni « Libellé : {n} » (« ' + W.I18N.t(key) + ' »)');
+    }
+  }
+  // Jamais de {paramètre} restant, dans aucune langue.
+  for(const l of W.I18N.SUPPORTED){
+    for(const n of [1, 2, 3, 5, 11, 21, 22, 101, 102]){
+      const s = said(l, n, n).join(' | ');
+      if(/\{\w+\}/.test(s)) bad.push(l + ' ' + n + ' : « ' + s + ' »');
+    }
+  }
+  // Duel arabe : jamais « ٢ » devant le nom.
+  A.setLang('ar');
+  assert.ok(!/٢\s*معل/.test(A.revealCountTexts({ featuredCount: 2 })[0]));
+  // Écran : la phrase passe par revealCountTexts.
+  assert.match(APP, /bits\.push\.apply\(bits, revealCountTexts\(firstStop\)\);/);
+  A.setLang('fr');
+  assert.deepEqual(bad, []);
+});
+
+test('touroyo et adyguéen : durées et dates sans mot turc ou russe (format neutre)', () => {
+  const bad = [];
+  for(const l of ['tru', 'ady']){
+    A.setLang(l);
+    const texts = { durée: A.formatDurationMin(166), heures: A.formatDurationMin(120), minutes: A.formatDurationMin(45), rayon: A.formatDurationMin(270, true),
+      plage: A.formatStayRange('2026-09-20', '2026-09-23'), nuit: A.formatStayRange('2026-09-05', '2026-09-06'),
+      horloge: A.localeDateText(new Date(2026, 8, 19), { weekday: 'long', day: 'numeric', month: 'long' }),
+      généré: A.localeDateText(new Date(2026, 8, 19), { day: 'numeric', month: 'long', year: 'numeric' }),
+      pdf: A.formatDateRange(new Date(2026, 8, 28), new Date(2026, 9, 2), { day: 'numeric', month: 'short', year: 'numeric' }) };
+    for(const [k, s] of Object.entries(texts)){
+      // Aucune lettre (ni turque, ni cyrillique) hors symboles h / min.
+      if(/[A-Za-zÀ-ɏЀ-ӿ]/.test(s.replace(/\bh\b|\bmin\b/g, ''))) bad.push(l + ' ' + k + ' : « ' + s + ' »');
+    }
+    assert.equal(texts.durée, '2 h 46 min');
+    assert.equal(texts.minutes, '45 min');
+    assert.equal(texts.plage, '20.09–23.09');
+    assert.equal(texts.nuit, '05.09');
+    assert.equal(texts.horloge, '19.09');
+    assert.equal(texts.généré, '19.09.2026');
+    assert.equal(texts.pdf, '28.09.2026–02.10.2026');
+  }
+  // Langues de repli elles-mêmes, et langues à données Intl : noms de mois inchangés.
+  A.setLang('ru'); assert.match(A.formatStayRange('2026-09-20', '2026-09-23'), /сент/); assert.ok(!A.numericDatesLang());
+  A.setLang('tr'); assert.match(A.formatStayRange('2026-09-20', '2026-09-23'), /Eyl/);
+  A.setLang('fr'); assert.match(A.formatStayRange('2026-09-20', '2026-09-23'), /sept/);
+  assert.deepEqual(bad, []);
+});
+
+test('message « trop loin » : rayon au dixième, comme la distance minimale', () => {
+  // Les deux messages error.minDistanceTooFar (rayon du formulaire, limite de retour renvoyée par le serveur).
+  const calls = APP.split("msg('error.minDistanceTooFar'").slice(1).map(s => s.slice(0, 400));
+  assert.equal(calls.length, 2);
+  for(const c of calls){
+    const m = c.match(/radius: formatDistance\(([^)]*)\)/);
+    assert.ok(m && /,\s*1$/.test(m[1]), 'rayon sans décimale : ' + (m && m[0]));
+  }
+  A.setLang('en'); A.setUnit('mi');
+  assert.equal(A.formatDistance(20, 1).replace(/ /g, ' '), '12.4 mi');
+  A.setUnit(null); A.setLang('fr');
+});
+
+test('traversée ESTIMÉE (paire de ports) : « environ », tarif inconnu, à l\'écran et dans le PDF', () => {
+  const fi = { routeKey: 'ferry.route.corsica', amount: null, priceStatus: 'unknown', durationEstimated: true, durationH: 4.5, priceCovers: null };
+  for(const l of ['fr', 'en', 'ru', 'ar']){
+    A.setLang(l);
+    const s = A.ferryText(fi, W.I18N.t('ferry.route.corsica'), false, 'voiture-thermique');
+    const approx = W.I18N.t('ferry.durationApprox', { duration: A.formatDurationMin(270) });
+    assert.ok(s.indexOf(approx) >= 0, l + ' : « ' + s + ' » sans « ' + approx + ' »');
+    assert.ok(!/[0-9٠-٩]\s*€/.test(s), l + ' : prix affiché « ' + s + ' »');
+    const trip = fakeTrip('voiture-thermique');
+    trip.legs[1].ferryInfo = Object.assign({}, fi);
+    A.setTrip(trip);
+    const p = A.buildTripExportPayload();
+    const ferry = p.legs[1].texts.ferry;
+    assert.ok(ferry.indexOf(approx) >= 0 && ferry.indexOf(W.I18N.t('ferry.price.unknown')) >= 0, l + ' PDF : « ' + ferry + ' »');
+    assert.equal(p.legs[1].ferryInfo.durationEstimated, true);
+    assert.equal(p.legs[1].ferryInfo.amount, null);
+    assert.equal(p.legs[1].ferryInfo.priceStatus, 'unknown');
+    assert.equal(p.legs[1].ferryInfo.durationH, 4.5);
+    // Statistiques : aucune pastille de total ferry en euros (seule traversée à tarif inconnu).
+    const ferryTotal = W.I18N.t('stats.ferryTotal');
+    assert.ok(!A.tripStatsParts(trip).some(x => x.label === ferryTotal), l + ' : total ferry affiché pour un tarif inconnu');
+    A.setTrip(null);
+  }
+  A.setLang('fr');
 });

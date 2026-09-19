@@ -1306,7 +1306,7 @@
 
   function tickClock(){
     var d = new Date();
-    els.clock.textContent = d.toLocaleDateString(localeTag(),{weekday:'long', day:'numeric', month:'long'});
+    els.clock.textContent = localeDateText(d, {weekday:'long', day:'numeric', month:'long'});
   }
   tickClock();
 
@@ -1330,7 +1330,19 @@
   function formatFrDate(iso){
     var d = parseIsoDate(iso);
     if(!d) return '';
-    return d.toLocaleDateString(localeTag(), {day:'numeric', month:'short'});
+    return localeDateText(d, {day:'numeric', month:'short'});
+  }
+  // Dates en chiffres (15e audit du 19/09/2026, voir I18N.numericDates) : touroyo et adyguéen, sans données de dates dans
+  // le navigateur, recevaient les noms de mois de leur locale de repli (« Eyl » turc, « сент. » russe). Jour et mois sur
+  // deux chiffres, dans l'ordre jour.mois de ces deux locales de repli (turc et russe : « 20.09 », « 20.09.2026 »), écrits
+  // ici plutôt que par Intl : sans année, ICU mélange « 05/09 » et « 20.9 – 23.9 » en turc. Jour de la semaine omis.
+  function numericDatesLang(){ return !!(window.I18N.numericDates && window.I18N.numericDates(VISITOR_LANG)); }
+  function numericDateText(d, opts){
+    var p = function(n){ return (n < 10 ? '0' : '') + n; };
+    return p(d.getDate()) + '.' + p(d.getMonth() + 1) + (opts && opts.year ? '.' + d.getFullYear() : '');
+  }
+  function localeDateText(d, opts){
+    return numericDatesLang() ? numericDateText(d, opts) : d.toLocaleDateString(localeTag(), opts);
   }
   // Une seule ligne "Trouver un logement" par séjour (voir buildItinerary), pas une par nuit :
   // le libellé doit donc pouvoir couvrir une plage ("20 août → 22 août") plutôt qu'une seule date
@@ -1340,6 +1352,7 @@
   // dur pointait à rebours en arabe, persan, ourdou, sorani et divehi (écriture de droite à gauche). Sans formatRange :
   // deux dates séparées par un tiret demi-cadratin, sans direction.
   function formatDateRange(d1, d2, opts){
+    if(numericDatesLang()) return numericDateText(d1, opts) + '–' + numericDateText(d2, opts);
     try {
       var dtf = new Intl.DateTimeFormat(localeTag(), opts);
       if(typeof dtf.formatRange === 'function') return dtf.formatRange(d1, d2);
@@ -1858,10 +1871,17 @@
     }
     return km;
   }
+  // 15e audit du 19/09/2026 : la valeur exacte n'est gardée que si elle tient dans les bornes du moteur. Une saisie juste
+  // hors bornes (19,96 km dans le rayon, 1 200,05 km, −0,04 km, 9,97 km pour l'étape) s'affichait arrondie DANS les bornes
+  // en miles (« 12.4 », « 745.7 », « 0 », « 6.2 ») mais restait refusée, avec le message « between 12.4 mi and 745.7 mi » :
+  // incompréhensible. Hors bornes, la valeur affichée est désormais celle relue (distanceFieldKm) : valeur affichée =
+  // valeur envoyée = valeur contrôlée, comme pour une saisie directe en miles.
   function setDistanceFieldKm(input, km, unit){
     var shown = distanceFieldText(kmToDistanceUnit(km, unit));
+    var spec = distanceFieldSpec(input);
     input.value = shown;
-    input.__km = km; input.__shown = shown; input.__defaultKm = null;
+    input.__km = (spec && (km < spec.min || km > spec.max)) ? null : km;
+    input.__shown = shown; input.__defaultKm = null;
   }
   // Valeur par défaut (rayon, distance max entre étapes) : arrondie au pas en miles, envoyée telle qu'affichée
   // (185 mi -> 297,7 km) ; retrouvée exacte (300 km) au retour en km tant que le visiteur n'y a pas touché.
@@ -1882,8 +1902,14 @@
     if(radiusMode === 'km') applyFieldBounds(els.radius, unitFieldBounds(RADIUS_KM_FIELD, to));
     fieldDistanceUnit = to;
   }
+  // 15e audit du 19/09/2026 : recliquer le bouton déjà actif remettait le rayon à sa valeur par défaut (la saisie était
+  // perdue) et effaçait l'erreur affichée. Mode inchangé : rien à faire (aucun appel d'initialisation ne passe par ici :
+  // l'état de départ vient d'index.html et de setDefaultDistanceField plus bas). Les erreurs du rayon et de la distance
+  // d'éloignement ne sont retirées qu'à un vrai changement de mode (elles citaient des bornes de l'autre mode).
   function setMode(mode){
+    if(mode === radiusMode) return;
     radiusMode = mode;
+    clearRadiusError(); clearMinDistanceError();
     els.modeKm.setAttribute('aria-pressed', mode==='km');
     els.modeH.setAttribute('aria-pressed', mode==='h');
     if(mode==='km'){
@@ -2001,7 +2027,7 @@
   [els.minDistance, els.maxDistance].forEach(function(el){ el.addEventListener('input', clearMinDistanceError); });
   els.legDistance.addEventListener('input', clearLegDistanceError);
   [els.minDaysPerCity, els.maxDaysPerCity].forEach(function(el){ el.addEventListener('input', clearDaysPerCityError); });
-  [els.modeKm, els.modeH].forEach(function(el){ el.addEventListener('click', function(){ clearRadiusError(); clearMinDistanceError(); }); });
+  // Changement de mode du rayon : erreurs retirées par setMode lui-même (15e audit du 19/09/2026 : plus au simple clic).
   els.transport.addEventListener('change', function(){ clearLegDistanceError(); clearMinDistanceError(); updateTollAvailability(); });
 
   // Péage sans objet à vélo (10e audit) : l'interrupteur restait actif sans aucun effet. Désactivé, avec l'explication
@@ -2413,11 +2439,23 @@
     els.stamp.textContent = t('reveal.stamp');
     // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France).
     var bits = [firstStop.name + (firstStop.cp ? ' (' + formatCpBadge(firstStop) + ')' : '')];
-    if(firstStop.pop) bits.push(t('reveal.inhabitants', {n: firstStop.pop.toLocaleString(localeTag())}));
-    if(firstStop.featuredCount){
-      bits.push(t(firstStop.featuredCount > 1 ? 'reveal.poiN' : 'reveal.poi1', {n: formatNum(firstStop.featuredCount)}));
-    }
+    // Nombre d'habitants et de lieux repérés au bon pluriel (15e audit du 19/09/2026 : « 2 настоящих интересных точек »,
+    // « 21 жителей », « تم العثور على ٢ معالم ») : forme exacte de I18N.plural quand la langue en a plusieurs (duel arabe
+    // écrit sans nombre, voir dualWithoutNumber), sinon la phrase traduite.
+    bits.push.apply(bits, revealCountTexts(firstStop));
     els.revealRegion.textContent = bits.join(' · ');
+  }
+  function revealCountTexts(firstStop){
+    var out = [];
+    if(firstStop.pop){
+      var popVars = {n: firstStop.pop.toLocaleString(localeTag())};
+      out.push(pluralPhrase('reveal.inhabitants', firstStop.pop, popVars) || t('reveal.inhabitants', popVars));
+    }
+    if(firstStop.featuredCount){
+      var c = firstStop.featuredCount, vars = {n: formatNum(c)};
+      out.push(c > 1 ? (pluralPhrase('reveal.poiN', c, vars) || t('reveal.poiN', vars)) : t('reveal.poi1', vars));
+    }
+    return out;
   }
   function finishReveal(firstStop, drawId, onDone){
     setRevealLabel('reveal.confirmed');
@@ -4050,7 +4088,7 @@
     (currentTripData.notices || []).forEach(function(key){ var txt = tIfDefined(key); if(txt) noticeTexts[key] = txt; });
     var depTension = currentTripData.departureTension;
     var generatedDate = '';
-    try { generatedDate = new Date().toLocaleDateString(localeTag(), { day: 'numeric', month: 'long', year: 'numeric' }); } catch(e){}
+    try { generatedDate = localeDateText(new Date(), { day: 'numeric', month: 'long', year: 'numeric' }); } catch(e){}
     var texts = {
       subtitle: tIfDefined('pdf.subtitle', { city: city }),
       stats: statsTexts,
@@ -4185,9 +4223,11 @@
       showMinDistanceError(msg('error.minMaxDistance', function(){ return {min: formatDistance(minDistanceKm, 1), max: formatDistance(maxDistanceKm, 1)}; }));
       return;
     }
+    // Rayon cité au dixième, comme la distance minimale (15e audit du 19/09/2026 : « 12 mi » pour un rayon de 12.4 mi,
+    // à côté d'une distance minimale de « 12.5 mi »). Idem pour la limite de retour renvoyée par le serveur, plus bas.
     if(minDistanceKm > 0 && minDistanceKm > maxRadiusKm && totalNights <= 1){
       var contextKey = totalNights === 0 ? 'error.minDistanceContextDay' : 'error.minDistanceContextNight';
-      showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {context: t(contextKey), min: formatDistance(minDistanceKm, 1), radius: formatDistance(maxRadiusKm)}; }));
+      showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {context: t(contextKey), min: formatDistance(minDistanceKm, 1), radius: formatDistance(maxRadiusKm, 1)}; }));
       return;
     }
 
@@ -4258,7 +4298,7 @@
         var returnCapKm = data.returnCapKm;
         showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {
           context: durationLabel(days, totalNights),
-          min: formatDistance(minDistanceKm, 1), radius: formatDistance(returnCapKm) }; }));
+          min: formatDistance(minDistanceKm, 1), radius: formatDistance(returnCapKm, 1) }; }));
         return;
       }
       // Aucune étape assez éloignée ne respecte les autres réglages : le serveur ne propose plus d'itinéraire de secours
@@ -4425,7 +4465,7 @@
     if(d1){
       var opts = {day: 'numeric', month: 'short', year: 'numeric'};
       if(trip.days > 1 && d2 && d2 > d1) dates = formatDateRange(d1, d2, opts);
-      else { try { dates = d1.toLocaleDateString(localeTag(), opts); } catch(e){ dates = trip.startIso; } }
+      else { try { dates = localeDateText(d1, opts); } catch(e){ dates = trip.startIso; } }
     }
     // Flèche dans le sens de lecture (13e audit du 19/09/2026) : « → » écrit en dur pointait à rebours dans l'en-tête du
     // PDF en arabe, persan, sorani, ourdou et divehi. En écriture de droite à gauche, « ← » : dans l'ordre logique

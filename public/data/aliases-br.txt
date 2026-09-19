@@ -2108,7 +2108,7 @@ pt;Seringal Triunfo;Grande Triunfo
 ru;Вилена;Vilhena
 ru;Рондония;Rondônia
 ru;Ору-Прету-ду-Уэсти;Ouro Preto do Oeste
-pt;Seringal Independencia,  Nova Olinda;Nova Olinda
+pt;Seringal Independencia, Nova Olinda;Nova Olinda
 pt;Fazenda Nova Olinda;Nova Olinda
 ru;Жи Парана;Ji Paraná
 ru;Жара;Jaru

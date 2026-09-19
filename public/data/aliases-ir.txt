@@ -91521,3 +91521,4 @@ uz;Ray;Rey
 pl;Rej;Rey
 sv;Rayy;Rey
 zh;雷伊;Rey
+fa;گوانی;Gavānī

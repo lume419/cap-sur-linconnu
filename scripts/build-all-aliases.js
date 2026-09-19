@@ -103,7 +103,7 @@ const ALIAS_JUNK_RE = /[?\uFF1F]|^[-\u2010-\u2014]|[-\u2010-\u2014]$|\b(no such|
 //     (scripts/communes-corrections.js) quand chaque lettre intruse a un sosie exact dans l'écriture majoritaire du mot
 //     (sosies propres à la langue de l'alias compris : һ, palotchka) ; sinon (« Шеллenbergг », « Калан-Деh » en russe)
 //     la graphie voulue est incertaine -> alias écarté.
-const { fixMixedScript, isJunkName } = require('./communes-corrections.js');
+const { fixMixedScript, isJunkName, repairAliasTypography, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES } = require('./communes-corrections.js');
 function cleanAliasText(text, canonical, lang){
   text = String(text || '');
   if(ALIAS_MOJIBAKE_RE.test(text)) return '';
@@ -113,14 +113,25 @@ function cleanAliasText(text, canonical, lang){
     .replace(/([\u0590-\u08FF])\.$/, '$1')
     .replace(/^([^\u201C\u201D\u201E"]*)[\u201D"]\.$/, '$1')
     .trim();
+  // 15e audit du 19/09/2026 : espaces multiples réduites à une seule (32 alias publiés : « la  Bisbal », « Lütschen  Füerste »,
+  // « Orange  (State of New South Wales) » — la précision entre parenthèses, donnée telle quelle par GeoNames, est gardée —,
+  // dont 4 où l'une des deux espaces était insécable : « Muḩammad  ‘Alam Khān ») : l'alias s'affichait de travers et ne se
+  // trouvait pas toujours par une saisie à une seule espace.
+  t = t.replace(/\s{2,}/g, ' ');
+  // 15e audit du 19/09/2026 : réparation purement typographique AVANT le refus (« _ » final retiré, « _ » -> espace,
+  // parenthèse ou crochet orphelin en tête ou en fin retiré ; règles, exceptions et cas non réparés : repairAliasTypography
+  // et ALIAS_REPAIR_REJECT dans communes-corrections.js).
+  t = repairAliasTypography(t);
   // 14e audit du 19/09/2026 : mêmes refus que pour les noms de lieux (isJunkName, communes-corrections.js), appliqués aux
-  // lignes existantes comme aux ajouts. 113 lignes publiées étaient concernées : 98 avec « _ » (titre Wikipédia recopié,
+  // lignes existantes comme aux ajouts. 115 lignes publiées avaient été retirées (le commentaire disait 113) : 98 avec « _ » (titre Wikipédia recopié,
   // « Ист_Лансинг », « 巴甫洛沃_ » ; plusieurs rattachées au MAUVAIS lieu : « ky;Ист_Лансинг;East Tawas » (East Lansing),
   // « et;Rakvere_vald;Rakvere » (commune rurale, pas la ville ; de même Põltsamaa_vald, Paide_vald), « nl;Khwaeng_Savannakhet »
   // (province), « ms;Mukim_Penyabong » (mukim), « ar;وادي_الدواسر_(محافظة) » (gouvernorat)), 14 avec une parenthèse non
   // appariée (« zzLapurdi-) Jatsu » pour Jatxou, « Vilak) » pour Bair, « (佐敷町 », « 景島（Isla Vista)社群 ») et 1 avec un crochet
-  // non apparié (« [چانهاسن، مینه‌سوتا »). Écartés, jamais « réparés » (espace à la place du « _ », parenthèse retirée :
-  // supposition, et la forme propre existe presque toujours déjà dans une autre ligne).
+  // non apparié (« [چانهاسن، مینه‌سوتا »), 1 avec « * » (« CZ*ECO Nelson ») et 1 devenue orpheline (« zh;城郊乡;城郊 », lieu écarté
+  // comme doublon). Le 14e audit les écartait sans réparation en affirmant que « la forme propre existe presque toujours
+  // déjà dans une autre ligne » : c'était FAUX (15e audit du 19/09/2026) — 82 des 115 lignes n'avaient aucune forme propre
+  // ailleurs. Elles sont désormais réparées ci-dessus quand la réparation est sûre.
   if(ALIAS_JUNK_RE.test(t) || isJunkName(t)) return '';
   const mixed = fixMixedScript(t, lang);
   if(!mixed.ok) return '';
@@ -170,11 +181,14 @@ for(const cc of Object.keys(COUNTRIES)){
 
   // Entrées GeoNames : par point (4 décimales) et, pour la classe P, par nom normalisé.
   const byPoint = new Map(), pByName = new Map(), excludedNames = new Set();
+  const dupIds = new Set([].concat(LOCAL_SCRIPT_DUPLICATES[cc] || [], SAME_POINT_DUPLICATES[cc] || []).map(r => String(r[2])));
+  const dupCoords = new Map();
   eachLine(fs.readFileSync(dumpPath, 'utf8'), line => {
     const c = line.split('\t');
     const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
     if(isNaN(lat) || isNaN(lon)) return;
     const e = { id: c[0], norm: normalizeCityName(c[1]), ascii: normalizeCityName(c[2]), cls: c[6], lat, lon };
+    if(dupIds.has(c[0])) dupCoords.set(c[0], { lat, lon });
     const k = lat.toFixed(4) + ',' + lon.toFixed(4);
     const l = byPoint.get(k); if(l) l.push(e); else byPoint.set(k, [e]);
     // Nom tel que le générateur le teste (preparePlaceName, audit n° 11) ; le nom brut ET le nom préparé sont retenus.
@@ -201,6 +215,21 @@ for(const cc of Object.keys(COUNTRIES)){
       if(best){ e = best; byName++; }
     }
     if(e && !placeById.has(e.id)) placeById.set(e.id, p);
+  }
+
+  // 15e audit du 19/09/2026 — doublons écartés par les générateurs de lieux (LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES
+  // de communes-corrections.js) : la fiche écartée et la fiche gardée désignent le même lieu. Les deux sont rattachées au
+  // lieu publié sous le nom gardé (le plus proche de la fiche gardée, à moins de 2 km), pour que les noms de la fiche
+  // écartée restent trouvables comme alias (« 平泉 » -> Tateishi ; « 大馬木 » -> Ō-maki, dont la fiche n'était rattachée à
+  // rien : son nom publié vient de NAME_FIXES).
+  for(const [id, , keptId, keptName] of [].concat(LOCAL_SCRIPT_DUPLICATES[cc] || [], SAME_POINT_DUPLICATES[cc] || [])){
+    const k = dupCoords.get(String(keptId));
+    if(!k) continue;
+    let best = null, bestKm = 2;
+    for(const p of published) if(p.name === keptName){ const d = km(k.lat, k.lon, p.lat, p.lon); if(d < bestKm){ bestKm = d; best = p; } }
+    if(!best) continue;
+    if(!placeById.has(String(keptId))) placeById.set(String(keptId), best);
+    if(!placeById.has(String(id))) placeById.set(String(id), best);
   }
 
   // Fichier existant : gardé, et sert au dédoublonnage.
