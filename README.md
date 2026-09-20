@@ -134,7 +134,7 @@ cap-sur-linconnu/
 │                                # (non chargé par l'app — conservé comme référence/source)
 ```
 
-Le serveur sert les fichiers statiques et sept routes dynamiques : `GET /api/search-city` et
+Le serveur sert les fichiers statiques et sept routes dynamiques : `GET` et `POST /api/search-city` et
 `POST /api/generate-trip` (recherche de ville et tirage, voir "Recherche et tirage aléatoire côté
 serveur"), `GET /api/status` (état du démarrage, voir "Dépannage de l'hébergement"),
 `GET /api/photo?name=…&dept=…
@@ -3356,8 +3356,11 @@ premier démarrage du process (communes/alias parsés, index spatial construit),
 texte brut déjà lu pour les bundles `/data/` ci-dessus (aucune double lecture de fichier). Exposé
 via deux routes dans `server.js` :
 
-- `GET /api/search-city?q=...&limit=...` — remplace l'ancienne recherche locale `searchCommunes`
-  (même comportement : préfixe de nom local, de code postal, ou d'alias multilingue).
+- `GET /api/search-city?q=...&limit=...` et `POST /api/search-city` (mêmes champs dans un corps JSON de 2 ko au
+  plus) — remplacent l'ancienne recherche locale `searchCommunes` (même comportement : préfixe de nom local, de code
+  postal, ou d'alias multilingue). Le navigateur utilise le POST depuis le 20/09/2026 : le pare-feu de l'hébergement
+  bloque certaines URL contenant de l'écriture arabe avant qu'elles n'atteignent Node (voir « Dix-septième passe
+  d'audit »). Les deux méthodes partagent quotas, budget de calcul et cache.
 - `POST /api/generate-trip` — remplace l'appel local à `buildItinerary`. Revalide intégralement
   les paramètres reçus (coordonnées, nombre de jours, clés de budget/transport...) : cette route
   devient la vraie frontière de confiance, ce que le formulaire validait déjà côté client mais
@@ -3799,6 +3802,16 @@ lieu** — c'est-à-dire la première chose que fait un visiteur.
   couvraient déjà toutes les écritures. Les caractères distincts culminent à 466 (japonais), soit 12 % du plafond.
 
 **Serveur.**
+- **La recherche de ville passe en POST** (correctif du 20/09/2026, après déploiement) : le pare-feu de l'hébergement
+  (o2switch PowerBoost) répond **404 à la place du site** pour certaines URL contenant de l'écriture arabe — la
+  requête n'atteint jamais Node, et `/?x=تهران` suffit à le reproduire sur la page d'accueil, alors que `/?x=tehran`
+  répond 200. Mesuré sur les 25 plus grandes villes dont le nom arabe est publié : **7 bloquées** (Mumbai, Mexico,
+  Karachi, Delhi, Moscou, Ho Chi Minh-Ville, Harbin), soit 28 %, sur 1 347 villes de plus de 300 000 habitants
+  concernées. Aucun motif commun ne sépare les saisies bloquées des autres (sous-chaîne, lettre, longueur, encodage :
+  tous cherchés) — un pare-feu à score, vraisemblablement. Le même texte passe dans le **corps** d'un POST, vérifié en
+  production : la saisie y voyage donc désormais, et la route sert les deux méthodes (le GET reste, il marche pour la
+  plupart des saisies et aucun client tiers n'est cassé). Trouvé au passage et corrigé : un champ qui n'est pas une
+  chaîne (`{"q":{"toString":1}}`) faisait lever `String()` — 500 au lieu de 400.
 - **La mise en page du PDF ne bloque plus le site** : elle est **synchrone** (pdfkit, `doc.end()` compris) et coûte de
   0,1 à 3,1 s ; tant qu'elle tournait dans le processus qui répond, le serveur ne répondait plus à personne pendant ce
   temps — recherche de ville, tirage, photos, tout. Mesure sur le voyage maximal en dzongkha, en interrogeant

@@ -1002,6 +1002,52 @@ test('17e audit, point 1 : export PDF d\'un voyage MAXIMAL (21 jours, 15 villes)
   assert.deepEqual(truncatedLangs, [], 'mise en page écourtée : le voyage n\'est pas rendu en entier dans ces langues');
 });
 
+// ------------------------------------------------- recherche de ville en POST (17e audit du 20/09/2026)
+// En production, le pare-feu de l'hébergement répond 404 À LA PLACE du site pour certaines URL contenant de
+// l'écriture arabe : la requête n'atteint jamais Node, et 7 des 25 plus grandes villes dont le nom arabe est publié
+// étaient introuvables (Mumbai, Mexico, Karachi, Delhi, Moscou, Ho Chi Minh-Ville, Harbin). Le même texte passe dans
+// le CORPS d'un POST. Ces contrôles vérifient que le POST rend EXACTEMENT ce que rend le GET, quelle que soit
+// l'écriture, et qu'il n'ouvre aucune porte (corps aberrant, saisie trop longue, quotas).
+test('17e audit : /api/search-city en POST rend le même résultat que le GET, dans toutes les écritures', { timeout: 120000 }, async () => {
+  const saisies = ['Lyon', 'Zürich', 'تهران', 'القاهرة', 'مومباي', 'موسكو', 'Москва', '北京', 'Αθήνα', '100-0002', 'cn-22', 'علی\u200cآباد کشمر'];
+  const écarts = [];
+  for(const q of saisies){
+    const g = await H.get('/api/search-city?q=' + encodeURIComponent(q) + '&limit=8&country=FR&lang=fr');
+    const p = await H.post('/api/search-city', JSON.stringify({ q: q, limit: 8, country: 'FR', lang: 'fr' }), { headers: 'Content-Type: application/json\r\n' });
+    if(g.status !== 200 || p.status !== 200){ écarts.push(q + ' : GET ' + g.status + ', POST ' + p.status); continue; }
+    const rg = JSON.parse(g.body.toString('utf8')).results, rp = JSON.parse(p.body.toString('utf8')).results;
+    if(JSON.stringify(rg) !== JSON.stringify(rp)) écarts.push(q + ' : GET ' + rg.length + ' résultats, POST ' + rp.length + ' — contenus différents');
+    if(!rg.length) écarts.push(q + ' : aucun résultat (la saisie devrait trouver un lieu)');
+  }
+  assert.deepEqual(écarts, []);
+});
+
+test('17e audit : /api/search-city en POST — corps aberrants refusés, mêmes bornes que le GET', { timeout: 120000 }, async () => {
+  const bad = [];
+  const cas = [
+    ['corps vide', '', 400], ['corps non objet', '"Lyon"', 400], ['tableau', '["Lyon"]', 400],
+    ['sans q', '{"limit":8}', 400], ['q vide', '{"q":""}', 400], ['q non chaîne', '{"q":{"toString":1}}', 400],
+    ['q de 121 caractères', JSON.stringify({ q: 'a'.repeat(121) }), 400],
+    ['q de 120 caractères', JSON.stringify({ q: 'a'.repeat(120) }), 200]
+  ];
+  for(const [label, corps, attendu] of cas){
+    const r = await H.post('/api/search-city', corps);
+    if(r.status !== attendu) bad.push(label + ' : ' + r.status + ' au lieu de ' + attendu + ' (' + r.body.toString('utf8').slice(0, 60) + ')');
+  }
+  // Corps plus gros que la limite de 2 ko : refusé avant d'atteindre la recherche.
+  const gros = await H.post('/api/search-city', JSON.stringify({ q: 'Lyon', x: 'a'.repeat(4000) }));
+  if(gros.status !== 413) bad.push('corps de 4 ko : ' + gros.status + ' au lieu de 413');
+  // Les quotas portent sur le CHEMIN, pas sur la méthode : le POST est compté comme le GET.
+  const ip = freshIp();
+  let vu429 = false;
+  for(let i = 0; i < 70 && !vu429; i++){
+    const r = await H.post('/api/search-city', JSON.stringify({ q: 'Lyon' + i }), { ip: ip });
+    if(r.status === 429) vu429 = true;
+  }
+  if(!vu429) bad.push('aucun 429 après 70 recherches en POST depuis la même adresse : le quota ne s\'applique pas');
+  assert.deepEqual(bad, []);
+});
+
 // ------------------------------------------------------- export PDF déporté dans un fil de travail (17e audit)
 // La mise en page est synchrone : tant qu'elle tournait dans le processus qui répond, le site entier se taisait
 // pendant 0,1 à 3,1 s à chaque export. Ces deux contrôles vérifient ce qui compte : le serveur RÉPOND pendant un

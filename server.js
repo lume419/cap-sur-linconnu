@@ -1985,8 +1985,21 @@ const SEARCH_BUDGET_MIN_MS = 50;
 // tirages lourds (≈ 4 s chacun) peuvent donc encore occuper le process ; les quotas par IP en fixent le nombre minimal.
 const SEARCH_CACHE_MAX = 5000;
 const searchCache = new Map();
-app.get('/api/search-city', cpuBudgetGuard, function(req, res){
-  var q = String(req.query.q || '');
+// La saisie voyage dans le CORPS d'un POST, plus dans l'URL (17e audit du 20/09/2026). Constaté en production : le
+// pare-feu de l'hébergement (o2switch PowerBoost) répond 404 À LA PLACE du site pour certaines URL contenant de
+// l'écriture arabe — la requête n'atteint jamais Node. Mesuré sur les 25 plus grandes villes dont le nom arabe est
+// publié : 7 bloquées (Mumbai, Mexico, Karachi, Delhi, Moscou, Ho Chi Minh-Ville, Harbin), soit 28 %, alors que le
+// dépôt compte 1 347 villes de plus de 300 000 habitants dans cette écriture. Aucun motif commun ne sépare les
+// saisies bloquées des autres (sous-chaîne, lettre, longueur, encodage : tous cherchés), et le même texte passe sans
+// problème dans le CORPS d'un POST — c'est donc l'URL seule qu'il inspecte, et le corps qui règle le problème.
+// Le GET reste servi : il marche pour l'immense majorité des saisies, et rien ne justifie de casser un client tiers.
+// Mêmes quotas pour les deux (RATE_LIMITS porte sur le chemin, pas sur la méthode) et même budget de calcul.
+// Chaînes SEULEMENT (comme clip pour le PDF, 9e audit du 18/09/2026) : en POST, un champ peut être n'importe quel
+// objet JSON, et String({toString:1}) lève une TypeError — 500 au lieu de 400, trouvé par le test des corps
+// aberrants. En GET, un paramètre répété arrivait en tableau et devenait « a,b » : refusé de la même façon.
+function texteSimple(v){ return typeof v === 'string' ? v : (typeof v === 'number' || typeof v === 'boolean') ? String(v) : ''; }
+function searchCityHandler(req, res, params){
+  var q = texteSimple(params.q);
   if(!q || q.length > 120){
     return res.status(400).json({ error: 'invalid query', results: [] });
   }
@@ -1999,13 +2012,13 @@ app.get('/api/search-city', cpuBudgetGuard, function(req, res){
   // tournaient sans jamais être comptées. Voir chargeSearch plus bas.
   function chargeSearch(){ var ms = performance.now() - t0; if(ms > SEARCH_BUDGET_MIN_MS) cpuBudgetCharge(req, ms); }
   try {
-    var limitRaw = parseInt(req.query.limit, 10);
+    var limitRaw = parseInt(params.limit, 10);
     var limit = (isFinite(limitRaw) && limitRaw > 0 && limitRaw <= 20) ? limitRaw : 8;
     // Pays prioritaire (celui de la langue d'interface) : ses lieux passent avant tous les autres, triés entre eux
     // par population comme le reste.
-    var country = /^[A-Z]{2}$/.test(String(req.query.country || '')) ? String(req.query.country) : '';
+    var country = /^[A-Z]{2}$/.test(texteSimple(params.country)) ? texteSimple(params.country) : '';
     // lang : langue d'interface, pour choisir le nom alternatif affiché entre parenthèses.
-    var lang = /^[a-zA-Z]{2,3}(-[a-zA-Z]{2,4})?$/.test(String(req.query.lang || '')) ? String(req.query.lang) : '';
+    var lang = /^[a-zA-Z]{2,3}(-[a-zA-Z]{2,4})?$/.test(texteSimple(params.lang)) ? texteSimple(params.lang) : '';
     var cacheKey = (diskSearchIndex ? 'd|' : 'm|') + q.trim().toLowerCase() + '|' + limit + '|' + country + '|' + lang;
     var results = searchCache.get(cacheKey);
     if(results){
@@ -2021,6 +2034,15 @@ app.get('/api/search-city', cpuBudgetGuard, function(req, res){
     console.warn('[search-city] erreur:', JSON.stringify(String(err && err.message)));
     res.status(500).json({ error: 'internal error', results: [] });
   }
+}
+app.get('/api/search-city', cpuBudgetGuard, function(req, res){
+  searchCityHandler(req, res, req.query);
+});
+// 2 ko : la saisie est bornée à 120 caractères, les autres champs à quelques octets — au-delà, ce n'est pas une
+// recherche de ville. Un corps absent ou mal formé donne le même « invalid query » qu'une saisie vide.
+app.post('/api/search-city', cpuBudgetGuard, express.json({ limit: '2kb' }), function(req, res){
+  var b = req.body;
+  searchCityHandler(req, res, (b && typeof b === 'object' && !Array.isArray(b)) ? b : {});
 });
 
 // Tirage synchrone : le moteur borne lui-même sa durée (réponse `timedOut: true`, étapes vides, relayée telle quelle au

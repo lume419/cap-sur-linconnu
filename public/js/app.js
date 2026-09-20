@@ -1757,8 +1757,15 @@
     if(trimmedQuery.length < 3 && !(trimmedQuery.length === 2 && /^[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af\uf900-\ufaff]{2}$/.test(trimmedQuery))){ renderSuggestions([]); return; }
     function runSearch(){
       // country : pays de la langue d'interface (I18N.country), dont les villes passent en tête des suggestions.
-      fetch('/api/search-city?q=' + encodeURIComponent(query) + '&limit=20&country=' + encodeURIComponent(window.I18N.country()) +
-        '&lang=' + encodeURIComponent(window.I18N.current()))
+      // La saisie part dans le CORPS, pas dans l'URL (17e audit du 20/09/2026) : le pare-feu de l'hébergement répond
+      // 404 à la place du site pour certaines URL contenant de l'écriture arabe — 28 % des grandes villes dont le nom
+      // arabe est publié étaient introuvables, la requête n'arrivant jamais au serveur. Le corps, lui, passe. Voir
+      // searchCityHandler dans server.js, qui sert toujours le GET par ailleurs.
+      fetch('/api/search-city', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ q: query, limit: 20, country: window.I18N.country(), lang: window.I18N.current() })
+      })
         .then(function(r){
           // 503 : soit le serveur vient de démarrer et charge encore ses ~4 millions de lieux (jusqu'à une minute
           // ou plus), soit il est surchargé ({error:'busy'}). 429 : trop de recherches en une minute.
