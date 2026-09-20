@@ -670,7 +670,6 @@ ky;Инонго;Inongo
 hi;इनोंगो;Inongo
 bn;ইনোঙ্গো;Inongo
 ur;انونگو;Inongo
-am;ইনองጎ;Inongo
 fa;اینونگو;Inongo
 ja;イノンゴ;Inongo
 pa;ਇਨੋਂਗੋ;Inongo

@@ -40,7 +40,6 @@ de;South Hill Dorf;South Hill Village
 ja;サウスヒルビレッジ;South Hill Village
 pt;Vila South Hill;South Hill Village
 ru;Сэнди-Граунд-Виллидж;Sandy Ground Village
-ar;قرية سانdy جراوند;Sandy Ground Village
 es;Pueblo Sandy Ground;Sandy Ground Village
 fr;Village de Sandy Ground;Sandy Ground Village
 hi;सैंडी ग्राउंड विलेज;Sandy Ground Village

@@ -66,7 +66,6 @@ ky;Суттунга;Sottunga
 hi;सोत्तुंगा;Sottunga
 bn;সোত্তুঙ্গা;Sottunga
 ur;سوتونگا;Sottunga
-am;ሶትTUNGA;Sottunga
 fa;سوتونگا;Sottunga
 ja;ソットゥンガ;Sottunga
 pa;ਸੋਤੁੰਗਾ;Sottunga

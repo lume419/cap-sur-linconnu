@@ -4,14 +4,12 @@ fr;Sibinda;Sibbinda
 es;Sibinda;Sibbinda
 nl;Sibinda;Sibbinda
 en;Kapupahedi;Ncogco
-ar;كاتيما مولিلو;Katima Mulilo
 en;Diyogha;Dryogha
 zu;Diyogha;Dryogha
 nl;Diyogha;Dryogha
 ar;ويندهوك;Windhoek
 pt;Vinduque;Windhoek
 ar;سواكوبموند;Swakopmund
-ar;رونdu;Rundu
 ar;ريهوبوث;Rehoboth
 ar;أوتجيوارونغو;Otjiwarongo
 ar;أوشيكانغو;Oshikango

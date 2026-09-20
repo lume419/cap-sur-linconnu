@@ -3166,8 +3166,10 @@ Puis ouvrez `http://localhost:3000`. Le port peut être changé via la variable 
   automatique n'est possible puisque le fichier est servi depuis le dépôt. À comparer aux versions publiées sur
   [leafletjs.com](https://leafletjs.com) lors des audits, en même temps que les autres dépendances.
 
-**Mémoire** : avec ~4,8 millions de lieux (depuis le lot Amériques ; ~4 millions au lot Asie), le serveur occupe ~3 Go une fois chargé (~1,8 Go quand l'index de
-recherche sur disque est utilisé, voir plus bas) ; `npm start` passe `--max-old-space-size=8192` à Node. Prévoir au
+**Mémoire** : avec ~4,8 millions de lieux (depuis le lot Amériques ; ~4 millions au lot Asie), le serveur occupe ~3 Go une fois chargé (**2,11 Go en régime stable quand l'index de
+recherche sur disque est utilisé**, mesuré le 21/09/2026 toutes les 5 s pendant trois minutes, 2,35 Go au pic pendant
+le chargement du moteur — la valeur de ~1,8 Go qui figurait ici datait d'avant la croissance des données et le fil de
+l'export ; voir plus bas) ; `npm start` passe `--max-old-space-size=8192` à Node. Prévoir au
 moins 4 Go de mémoire libre. Un lancement direct (`node server.js`, Passenger) n'applique PAS cette option : voir
 `NODE_OPTIONS` dans "Déployer sur un serveur privé".
 
@@ -3729,6 +3731,164 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
 
 > Les passes d'audit sont listées de la plus récente à la plus ancienne. Les passes 4, 5 et 6 n'ont jamais eu de section ici : elles manquent au README, pas au dépôt (17e audit du 20/09/2026).
 
+### Dix-huitième passe d'audit (21 septembre 2026)
+
+Relecture complète en cinq volets (serveur, moteur, données, interface, tests), chaque auditeur relisant tout son
+domaine et pas seulement les correctifs récents. **Une régression grave introduite par la 17e passe elle-même** : le
+service PDF, ajouté pour sortir la mise en page du fil principal, n'avait ni file bornée ni détection d'abandon — 200
+requêtes d'export lancées puis coupées immobilisaient le site **39,5 secondes**, alors que la 17e passe l'avait écrit
+pour empêcher exactement cela. Côté données, deux motifs jamais cherchés jusqu'ici : **139 coordonnées « bouchon »**
+(latitude ET longitude à l'entier exact) et **1 592 faux codes postaux** (un identifiant interne GeoNames affiché comme
+code). Et, surtout, un défaut de **recherche** vieux de toutes les passes précédentes : 40 696 lieux portent une
+apostrophe que le normalisateur ne connaissait pas (79 de plus un tiret demi-cadratin), et n'étaient trouvables qu'en
+tapant exactement le même caractère.
+
+**Serveur et PDF.**
+- **File d'export bornée et abandon détecté** (régression de la 17e passe). `PdfService` empilait sans limite : la file
+  est désormais bornée (`PDF_FILE_MAX`, 4 par défaut), chaque travail a un délai de réponse (`PDF_REPONSE_MAX_MS`,
+  15 s) et la file **jette les travaux dont le client est parti** avant de les lancer (`res.on('close')` fournit le
+  prédicat). Le temps déjà dépensé par un fil mort est imputé au demandeur (`err.msDépensé`), une file pleine répond
+  503 `busy`. Reproduction avant correctif : 200 exports sur une fenêtre de 150–240 s, gel de **39 515 ms** ; après,
+  aucun gel. Quatre tests ont été ajoutés — rafale d'exports abandonnés, travail abandonné sans mise en page, file
+  bornée, perte du fil qui ne touche que le travail en cours — vérifiés en désactivant chaque protection, puis les
+  deux à la fois (la défense en profondeur masquait l'échec quand on n'en retirait qu'une).
+- **Mémoire des polices du PDF** : `trimGlyphCaches` vidait `font._glyphs` mais pas le `__layoutMemo` de la même
+  police — or une mise en forme mémorisée **retient** les objets glyphe. Mesuré : **54 Mo** encore retenus après 30
+  exports, par un cache de 605 entrées qui n'avait jamais atteint son seuil de 3 000. Les deux caches d'une police se
+  vident maintenant ensemble, avec un filet séparé si les mises en forme s'accumulent seules.
+- **413 : le message dit lequel.** Tout corps trop volumineux répondait « itinéraire trop volumineux », y compris une
+  recherche de ville de 3 ko. Le message dépend maintenant de la route ; test des deux côtés.
+- **Recherches courtes : le reliquat n'est plus offert.** Une recherche de moins de 50 ms ne coûtait rien au budget de
+  calcul, et rien n'empêchait d'en enchaîner. Les millisecondes sous le seuil s'additionnent par adresse et sont
+  imputées dès qu'elles le franchissent : même total facturé, aucune recherche ordinaire isolée ne pèse.
+- **Gros fichiers statiques : un plafond d'octets** en plus des 30 requêtes par minute. Les quatre fichiers visés vont
+  de 6 ko à 11 Mo non compressés : les mêmes 30 requêtes valaient 0,2 Mo ou 330 Mo selon celui qu'on demandait. Le
+  plafond (220 Mo/min/adresse) est hors de portée d'un navigateur — une page complète tire ~1,2 Mo compressés — mais
+  coupe à dix-huit lectures d'`i18n.js` non compressé. Les 304 ne portent aucun octet et ne comptent pas.
+- **Journal de la recherche borné** à 200 caractères : le message peut reprendre la saisie du visiteur.
+- **Sensibilité à la casse des règles Apache** : vérifiée en production plutôt que supposée — `/server.js` répond 301
+  (règle appliquée), `/Server.js` et `/LIB/trip-engine.js` répondent 404 sur un système de fichiers sensible à la
+  casse. Rien à corriger ; noté dans `.htaccess-security-block.txt` pour ne pas rouvrir le sujet.
+
+**Moteur.**
+- **Antiméridien** : `countriesAlong` et `distToSegmentKm` soustrayaient des longitudes sans repasser par ±180°. Un
+  trajet Anadyr → Alaska traversait des pays inventés et se voyait appliquer des restrictions qui n'avaient pas lieu
+  d'être. Les longitudes sont maintenant ramenées relativement au début du segment (`lonDeltaDeg`, `normLonDeg`).
+- **Paire de ports choisie à la vitesse DU MODE** (`ferryRoadParts`). Le commentaire annonçait « celle du mode » depuis
+  la 16e passe, mais le code prenait 80 km/h quel que soit le transport : à vélo (15 km/h), le critère « temps total »
+  troquait jusqu'à 150 km de route contre des heures de mer, en valorisant ces kilomètres **5,3 fois trop vite**.
+  Valletta → Catania choisissait 112 km de route alors qu'une paire à 0 km existe — et l'étape était ensuite refusée,
+  ses 112 km dépassant le plafond de 80 km du vélo. Idem Mariehamn → Stockholm, Dublin → Liverpool.
+- **Tarif de péage** : `tollInfo.rate` rendait le barème du pays, pas le taux réellement appliqué ; c'est maintenant le
+  montant divisé par les kilomètres facturés.
+- **`returnCapExact: false`** sur le chemin du plafond multi-journées, qui prétendait avoir conclu sans l'avoir fait.
+- **Code mort** : `dayCapKm` était calculé, raboté par une boucle pouvant tourner des centaines de fois, et jamais lu.
+- **Traversées de 300 km et plus : la limite est chiffrée.** Sur les 699 liaisons, 160 seulement portent une durée
+  publiée, et la classe la plus longue n'en compte que **sept** (17,2 à 36,0 km/h, médiane 27,1) — elle sert pourtant à
+  estimer 26 des 33 liaisons de cette longueur. Sur 1 000 km, l'écart entre la plus lente et la plus rapide de ces sept
+  vaut 21 heures. C'est écrit dans le code, et un test surveille le seuil de cinq lignes en dessous duquel une classe
+  bascule en silence sur la médiane toutes distances confondues.
+- **Commentaire faux** : le raisonnement du rayon de recherche citait encore 1,17 comme facteur routier, remplacé par
+  1,287 (`ROAD_FACTOR`) depuis la 7e passe. Le code était juste, le nombre cité ne l'était plus.
+
+**Recherche : les apostrophes et les tirets que personne ne tape.** Le normalisateur ne connaissait que le trait
+d'union, l'apostrophe droite et l'apostrophe courbe. Or les données publiées comptent **40 570 lieux** portant une
+apostrophe modificative (`Chervonyy Donets‘`, `Jaganʻ`), **150** un accent grave (`T`lminci`), **79** un tiret
+demi-cadratin (`Nago–Torbole`), 47 un point médian (`Compostel·la`), et **17 004 alias** des harakat arabes
+(`مَاَلقَة`) — aucun clavier ne produit ces caractères à la place des ordinaires. Conséquence mesurée :
+**14 335 lieux** d'un même pays portent le même nom écrit avec deux apostrophes différentes ; au Yémen, les
+**232 groupes** réunis par ce correctif réunissent **tous** deux graphies d'un seul nom (`Shay\`ān` et `Shay‘ān`,
+`Ar Rubū\`` et `Ar Rubū‘`) — chercher l'une ne rendait jamais les lieux écrits avec l'autre. La famille est maintenant
+complète, le point médian et les harakat sont retirés sans couper le mot, et l'empreinte du normalisateur
+(`normSignature`) traverse chacun de ces caractères : sans cela, l'index déjà construit serait resté « valide » avec
+des clés périmées — exactement le défaut que cette empreinte avait été écrite pour empêcher, au 17e audit.
+
+Ce changement ne touche QUE la recherche, et c'est mesuré : l'outil de comparaison rend **5 tirages changés sur 380**
+entre le dépôt et cette passe, et les **mêmes 5** avec la nouvelle normalisation remise à son ancien état — elle n'en
+explique donc aucun. Les cinq viennent des autres correctifs : quatre traversent l'Autriche, la Tchéquie ou la
+Slovaquie, d'où quatre lieux à coordonnée bouchon ont disparu, et le cinquième (Dublin à vélo) change parce que la
+paire de ports se choisit maintenant à la vitesse du vélo. Aucun trajet direct (0 / 1 610), aucun plafond
+d'hébergement (0 / 3 585), et les 55 contre-épreuves « hors de portée » passent des deux côtés.
+
+**Données.**
+- **139 coordonnées « bouchon »** (latitude ET longitude à l'entier exact) écartées, dans 55 pays. GeoNames publie cinq
+  décimales : la probabilité qu'un lieu réel tombe sur deux entiers exacts est de l'ordre de 1 sur 10 milliards.
+  Exemples vérifiés : Seminyak (ID) publié à « −5 / 120 », en mer de Florès, alors que le vrai Seminyak de Bali est
+  publié 750 km plus loin ; Scarborough (CA) à « 60 / −96 », dans la toundra du Manitoba. Aucune position n'a été
+  inventée pour les remplacer : la fiche est écartée.
+- **Conséquence assumée, et corrigée** : le seul lieu publié de l'île norvégienne de Hisarøy, `Nyhamar`, portait une
+  telle coordonnée (61,0000 ; 5,0000). L'île n'a plus aucun lieu, et la liaison `continental|hisaroy` perdait son port.
+  Plutôt qu'inventer un point, le terminal est relevé sur OpenStreetMap (nœud 4334643364, `amenity=ferry_terminal`, à
+  2,4 km d'Eivindvik) : la liaison reste sourcée de bout en bout. Contrôle complet : plus aucune coordonnée de port
+  n'est un couple d'entiers.
+- **1 592 faux codes postaux** : pour huit pays sans codes publiés, les générateurs écrivaient une étiquette
+  « XX-`admin1` » où `admin1` était en réalité un identifiant interne GeoNames à 6-8 chiffres — le visiteur lisait
+  « KZ-12510143 » sous le nom de sa ville (KZ 1 418 lieux, soit 10,6 % du pays, GL 79, ML 37, CK 29, KY 15, MV 6,
+  MO 5, SC 3). Au-delà de quatre chiffres, l'étiquette retombe sur le code pays seul.
+- **72 alias à écritures mêlées dans un même mot** écartés : « ጉልያንتሲ » (Gulyantsi en amharique, deux lettres arabes au
+  milieu), « اوسترავა » (Ostrava en persan, fin en géorgien), « ইমพფondo » (cinq écritures dans un mot). Entre
+  l'éthiopien et le géorgien, aucune lettre ne se ressemble : ce sont des bouillies de translittérations automatiques,
+  qu'aucun clavier ne saisit. L'usage réel du chinois, du japonais et du coréen — un nom propre latin accolé aux
+  idéogrammes, « 密歇根州Oscoda地區 », « Talmage镇 » — est reconnu et gardé (19 lignes) ; une minuscule isolée ou une
+  lettre pleine chasse au milieu du kana ne l'est pas (« クランj », « ほんまちひがｈし »).
+- **12 alias dont la langue déclarée contredisait l'écriture** : « am;Ուռհա » (l'arménien d'Urfa déclaré amharique),
+  « ko;លង្វែក » (khmer déclaré coréen), « el;สะเมิง » (thaï déclaré grec). Ils sont **réétiquetés**, pas écartés :
+  **sept** l'ont été et sont la seule graphie locale publiée pour leur lieu — « ta;කුරුවිට » est même le seul alias de
+  Kuruwita, l'écarter aurait fait disparaître le nom singhalais d'une ville du Sri Lanka. Les **cinq** autres
+  retombaient sur une ligne déjà correcte (au caractère près pour trois, à la casse près pour deux) et ont été
+  dédoublonnés. La règle généralise le contrôle lao/khmer/birman/thaï de la 16e passe, qui ne couvrait que quatre
+  écritures et écartait la ligne. Défaut trouvé en chemin : un pays dont la SEULE modification était un réétiquetage
+  n'était pas réécrit sur le disque — la condition d'écriture du générateur ne listait pas ce compteur.
+- **14 alias orphelins** des lieux écartés plus haut, retirés par la même régénération.
+
+**Interface.**
+- « Aucune langue trouvée » était un `<li>` nu dans une `role="listbox"`, donc **ignoré** : la liste paraissait vide. Il
+  porte maintenant `role="option"` et `aria-disabled`, comme le fait déjà la recherche de ville juste à côté.
+- **Le pays entre dans le nom accessible d'une suggestion.** Le drapeau est décoratif et `title` n'est qu'une
+  description : « Lyon » annonçait cinq « Lyons » et un code postal sans dire lequel est en France — alors que le
+  drapeau avait justement été ajouté pour lever l'homonymie.
+- **Coupure réseau pendant un export** : le message « réessayez dans un instant » était un conseil faux ; c'est le
+  message réseau qui s'affiche, comme pour le tirage depuis la 16e passe.
+- **La liste des devises se parcourt en tapant le code.** 153 options, aucun champ de recherche (celui des langues en a
+  un pour ses 161) : atteindre « ZAR » demandait environ 150 appuis sur Flèche bas. Les frappes s'accumulent une
+  seconde, une lettre répétée fait défiler, la recherche reboucle — règles usuelles d'une listbox.
+
+**Mentions légales**, trois manques réels.
+- Les **24 polices incorporées dans chaque PDF** (23 familles Noto) n'étaient citées nulle part — le mot « PDF »
+  n'apparaissait pas une fois sur la page —, dont **Noto Sans CJK © Adobe**, absent des cinq polices d'affichage
+  listées. L'OFL exige que sa notice accompagne la redistribution, et un PDF diffusé en est une. Un test compare le
+  nombre de familles annoncé au contenu réel de `pdf-fonts/`.
+- « Ailleurs, aucun code postal » était **faux pour 21 pays** où un fichier GeoNames existe : il a été mesuré (14,8 %
+  de couverture en Chine, 44 % au Canada, 68,8 % en Thaïlande, 69 % au Brésil…) puis écarté sous 90 %, pour ne pas
+  afficher un vrai code à certains et une étiquette à d'autres dans le même pays. La page le dit.
+- **ev-database.org et l'ADAC**, sources de l'autonomie (320 km) et de la recharge (28 min) affichées dans chaque
+  trajet électrique, étaient cités dans ce README mais pas sur la page publique.
+
+**Tests.** Le vérificateur d'invariants rejouait `ferryRoadParts` **sans la vitesse du mode** et déclarait donc fausses
+les étapes ferry à vélo dès que le moteur a commencé à en tenir compte (Victoria/MT, graine 1002049 : « roadKm 45 ≠ 87 »,
+« roadMin 176 ≠ 348 ») — le contrôle et le moteur ne calculaient plus la même chose. Ajoutés par ailleurs, tous démontrés
+par mutation : quatre tests de déni de service et un test du message 413 par route ; deux tests d'ordre visuel bidi ;
+l'analyse réelle du script d'`app.js` et des identifiants HTML ; le nom du pays dans une suggestion (texte calculé de
+l'option, pas un attribut) ; la règle d'écriture des langues de repli sur 110 langues ; les coordonnées « bouchon », les
+codes postaux qui sont des identifiants, la nécessité de chaque exception `SCATTERED`, la citation des polices du PDF ;
+deux tests d'antiméridien et la vitesse du mode sur une étape ferry ; les classes de vitesse des ferries ; la recherche
+au clavier du sélecteur de devise. Deux trous de couverture ont par ailleurs été comblés : **les bundles** — que le
+serveur et `tests/search.test.js` chargent à la place des fichiers de pays — n'étaient comparés à rien, si bien qu'un
+fichier modifié sans reconstruction laissait les deux lire l'ancienne donnée en silence ; et **les dates de la
+campagne d'invariants**, écrites en dur (2026, 2027, 2031), qui seraient sorties de la fenêtre acceptée par
+`parseIsoDate` en 2028 — 60 % des tirages seraient alors silencieusement repartis de la date du jour, sans qu'aucun
+test ne bronche. Elles suivent maintenant le calendrier, et un contrôle fige l'intention de chaque cas. Enfin, le
+dossier temporaire des tests ne grossit plus sans fin : chaque serveur de test y écrit trois fichiers nommés d'après
+son port, que plus rien ne relit ensuite — 395 s'y étaient accumulés (9,2 Mo, dont 130 fichiers de contrôle vides).
+Les traces de plus de sept jours sont effacées au premier appel du processus ; les récentes restent, puisque c'est là
+que pointe le message d'un test qui vient d'échouer.
+
+**Non traité, et pourquoi.** 837 paires d'homonymes à moins de 300 mètres subsistent : le dédoublonnage compare le nom
+et le point arrondi à 0,01°, et deux fiches de part et d'autre d'une limite d'arrondi passent toutes les deux ; les
+corriger demande de rejouer les 21 générateurs de lieux sur les dumps, hors du périmètre de cette passe.
+`build-ba-communes.js` reste inexécutable hors ligne (source postale absente du dépôt), comme documenté depuis la
+13e passe.
+
 ### Dix-septième passe d'audit (20 septembre 2026)
 
 Relecture complète en quatre volets, chaque auditeur relisant tout son domaine et pas seulement les correctifs récents.
@@ -3816,7 +3976,7 @@ lieu** — c'est-à-dire la première chose que fait un visiteur.
   0,1 à 3,1 s ; tant qu'elle tournait dans le processus qui répond, le serveur ne répondait plus à personne pendant ce
   temps — recherche de ville, tirage, photos, tout. Mesure sur le voyage maximal en dzongkha, en interrogeant
   `/api/status` pendant l'export : **2 réponses, 391 ms au pire** avant, **10 réponses, 16 ms de médiane et 18 ms au
-  pire** après. Le code de mise en page est sorti tel quel de `server.js` vers `lib/trip-pdf.js` (666 lignes, pas une
+  pire** après. Le code de mise en page est sorti tel quel de `server.js` vers `lib/trip-pdf.js` (666 lignes déplacées, pas une
   ligne changée : les PDF des 12 écritures témoins sont identiques octet pour octet, hors date et identifiant du
   document), et un **fil de travail** (`lib/pdf-worker.js`, piloté par `lib/pdf-service.js`) l'exécute. Le fil lit et
   préchauffe les 24 polices une fois au démarrage (~1,6 s, ~140 Mo) ; le processus principal **ne les charge plus du
@@ -3885,7 +4045,10 @@ d'itinéraire avec traversée (garde ajoutée), et le test d'index disque accept
 machine peu chargée. Le contrôle des 161 langues exige maintenant un document entier ; s'il casse un jour, c'est cette
 marge qui aura disparu. Le budget peut désormais être relevé sans conséquence pour les autres visiteurs (il ne borne
 plus que le document du demandeur, la mise en page ne bloquant plus le serveur) : il ne l'a pas été, faute d'en avoir
-besoin. Le fil de travail coûte ~250 Mo de mémoire, dont ~140 Mo de polices que le processus principal ne porte plus. Le cache
+besoin. Le fil de travail coûte **63 Mo** : palier mesuré sur la mémoire du processus au moment où il charge ses polices
+(2 279 -> 2 342 Mo), et non les ~250 Mo annoncés au 17e audit — ce chiffre-là était déduit du coût des polices dans un
+processus séparé, alors qu'un fil de travail partage l'essentiel de son environnement d'exécution avec le processus
+qui l'héberge, et que le processus principal, lui, ne charge plus les polices du tout. Le cache
 de mise en forme garde au plus 6 000 mises en forme par police, vidé par `trimGlyphCaches` comme les caches de
 glyphes. Les trois fiches aux coordonnées fausses sont
 écartées, pas corrigées : « Katingan » n'existe donc plus en Papouasie-Nouvelle-Guinée (le seul Katingan papou connu de

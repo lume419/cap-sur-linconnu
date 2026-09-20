@@ -18268,7 +18268,6 @@
 0;-121.0130,49.6317;CA-02;British Columbia;Coquihalla
 0;-79.9524,43.2638;CA-08;Ontario;Dundas
 0;-80.1452,43.3200;CA-08;Ontario;Westfield Heritage Village
-0;-96.0000,60.0000;CA-03;Manitoba;Scarborough
 0;-71.3543,47.0111;CA-10;Quebec;Stoneham
 1339;-69.4072,48.3519;CA-10;Quebec;Les Escoumins
 0;-92.4256,48.7240;CA-08;Ontario;Seine River

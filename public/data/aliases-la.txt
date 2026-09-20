@@ -118,7 +118,6 @@ tg;Паксе;Pakse
 lo;Ban Paknamkading;Pakkading
 lo;Ban Navit;Navid
 ru;Муангсай;Muang Xay
-ar;مواng ساي;Muang Xay
 kk;Муанг Сай;Muang Xay
 ky;Муанг Сай;Muang Xay
 hi;मुआंग साय;Muang Xay
@@ -127,7 +126,6 @@ ur;موانگ ساے;Muang Xay
 fa;موانگ ساه;Muang Xay
 ja;ムアンサイ;Muang Xay
 pa;ਮੁਆਂਗ ਸਾਏ;Muang Xay
-ps;مواang ساي;Muang Xay
 tg;Муанг Сай;Muang Xay
 de;Sayaboury;Sainyabuli
 en;Xaignabouli;Sainyabuli
@@ -151,7 +149,6 @@ ru;Тхатенг;Ban Thatèng
 lo;ໂພນສະຫວັນ;Muang Phônsavan
 en;Muang Phonsavan;Muang Phônsavan
 ru;Муанг Фонсаван;Muang Phônsavan
-ar;مواng فونسافان;Muang Phônsavan
 kk;Муанг Фонсаван;Muang Phônsavan
 tr;Muang Phonsavan;Muang Phônsavan
 uz;Muang Phonsavan;Muang Phônsavan
@@ -168,12 +165,10 @@ fa;موانگ فونساوان;Muang Phônsavan
 ja;ムアンフォンサワン;Muang Phônsavan
 jv;Muang Phonsavan;Muang Phônsavan
 pa;ਮੁਆਂਗ ਫੋਂਸਾਵਾਨ;Muang Phônsavan
-ps;مواang فونسافان;Muang Phônsavan
 pt;Muang Phonsavan;Muang Phônsavan
 tg;Муанг Фонсаван;Muang Phônsavan
 en;Muang Phon-Hong;Muang Phôn-Hông
 ru;Муанг Фон-Хонг;Muang Phôn-Hông
-ar;مواng فون-هونج;Muang Phôn-Hông
 kk;Муанг Фон-Хонг;Muang Phôn-Hông
 tr;Muang Phon-Hong;Muang Phôn-Hông
 uz;Muang Phon-Hong;Muang Phôn-Hông
@@ -190,7 +185,6 @@ fa;موانگ فون-هانگ;Muang Phôn-Hông
 ja;ムアンフォンホン;Muang Phôn-Hông
 jv;Muang Phon-Hong;Muang Phôn-Hông
 pa;ਮੁਆਂਗ ਫੋਨ-ਹਾਂਗ;Muang Phôn-Hông
-ps;مواang فون-هونج;Muang Phôn-Hông
 pt;Muang Phon-Hong;Muang Phôn-Hông
 tg;Муанг Фон-Хонг;Muang Phôn-Hông
 ru;Паксонг;Pakxong
@@ -487,7 +481,6 @@ vep;Vjentjan;Vientiane
 uk;Сам Неуа;Xam Nua
 am;ዛም ኑዋ;Xam Nua
 tt;Сам Нуа;Xam Nua
-am;ሳቫናხት;Savannakhet
 tt;Саваннахет;Savannakhet
 am;ሳላቫን;Salavan
 tt;Саланван;Salavan

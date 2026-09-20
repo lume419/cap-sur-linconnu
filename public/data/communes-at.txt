@@ -2241,7 +2241,6 @@
 0;13.7383,48.3751;4722;Politischer Bezirk Grieskirchen;Untertreßleinsbach
 0;9.6512,47.3494;6844;Politischer Bezirk Feldkirch;Altach Goststraße
 234;15.8667,47.2167;8222;Politischer Bezirk Hartberg-Fürstenfeld;Untertiefenbach
-0;16.0000,47.0000;8313;Politischer Bezirk Südoststeiermark;Untertiefenbach
 0;15.3931,48.1467;3383;Politischer Bezirk Melk;Unterthurnhofen
 12;15.6167,48.8833;2095;Politischer Bezirk Horn;Unterthürnau
 206;15.8874,48.1704;3051;Politischer Bezirk Sankt Pölten;Unterthurm
@@ -9475,7 +9474,6 @@
 865;16.2807,47.6613;2802;Politischer Bezirk Wiener Neustadt;Hochwolkersdorf
 0;14.1631,47.7985;4571;Politischer Bezirk Kirchdorf an der Krems;Hochwart
 18;13.2199,46.6495;9632;Politischer Bezirk Hermagor;Hochwart
-0;11.0000,47.0000;6450;Politischer Bezirk Imst;Hochwald
 1129;15.1333,47.1000;8570;Politischer Bezirk Voitsberg;Hochtregist
 0;15.4333,47.2167;8102;Politischer Bezirk Graz-Umgebung;Hochstrasse
 0;15.9892,48.1388;3032;Politischer Bezirk Sankt Pölten;Hochstrass
@@ -10464,7 +10462,6 @@
 180;15.5340,48.2410;3110;Politischer Bezirk Sankt Pölten;Griechenberg
 83;14.1000,46.5167;9182;Politischer Bezirk Villach Land;Greuth
 1695;15.0255,47.9852;3264;Politischer Bezirk Scheibbs;Gresten
-32;13.0000,48.0000;5112;Politischer Bezirk Salzburg-Umgebung;Gressenberg
 286;15.1167,46.8000;8530;Politischer Bezirk Deutschlandsberg;Gressenberg
 51;15.2167,47.7000;8632;Politischer Bezirk Bruck-Mürzzuschlag;Greith
 35;15.6167,47.6667;8691;Politischer Bezirk Bruck-Mürzzuschlag;Greith

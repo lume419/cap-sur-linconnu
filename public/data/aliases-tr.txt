@@ -5621,7 +5621,7 @@ ur;اورلا، ازمیر;Urla
 tk;Urfa;Şanlıurfa
 id;Sanli Urfa;Şanlıurfa
 ku;Riha;Şanlıurfa
-am;Ուռհա;Şanlıurfa
+hy;Ուռհա;Şanlıurfa
 ar;شانلي أورفة;Şanlıurfa
 kk;Шанлыурфа;Şanlıurfa
 uz;Shanliurfa;Şanlıurfa

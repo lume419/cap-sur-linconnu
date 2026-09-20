@@ -3740,7 +3740,6 @@ ky;Босилово;Bosilovo
 hi;बोसिलोवो;Bosilovo
 bn;বোসিলোভো;Bosilovo
 ur;بوسیلوو;Bosilovo
-am;ቦስิሎቮ;Bosilovo
 fa;بوسیلوو;Bosilovo
 ja;ボシロヴォ;Bosilovo
 pa;ਬੋਸਿਲੋਵੋ;Bosilovo

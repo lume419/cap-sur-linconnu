@@ -321,7 +321,6 @@ ne;Dhīk;Ḍhikgāḍgāũ
 ru;Дхаран;Dharān
 en;Dhankuta;Dhankutā
 ru;Дханкута;Dhankutā
-ar;ধনকوتा;Dhankutā
 kk;Данкута;Dhankutā
 tr;Dhankuta;Dhankutā
 uz;Dhankuta;Dhankutā

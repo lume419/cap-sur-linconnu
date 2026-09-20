@@ -2264,7 +2264,6 @@ hy;Սուինդոն;Swindon
 uk;Свіндон;Swindon
 bg;Суонзи;Swansea
 ja;スウォンジ;Swansea
-ja;スウæォンジ;Swansea
 ru;Суонси;Swansea
 zh;斯旺西;Swansea
 ar;سوانزي;Swansea

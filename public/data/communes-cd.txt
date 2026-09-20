@@ -4267,7 +4267,6 @@
 0;28.5667,0.0333;CD-11;North Kivu;Muli-Matiso
 0;28.0167,-7.3167;CD-29;Tanganyika;Mulima
 0;26.5833,-4.0833;CD-10;Maniema;Mulima
-0;26.0000,-7.0000;CD-15;Haut-Lomami;Mulengi-Numbi
 0;26.0528,-7.0206;CD-15;Haut-Lomami;Mulengi-Lungu
 0;25.2883,-9.1512;CD-15;Haut-Lomami;Mulengi
 0;24.5649,-7.7246;CD-15;Haut-Lomami;Mulengi
@@ -4628,7 +4627,6 @@
 0;23.5743,0.9510;CD-30;Tshopo;Mosite
 0;24.2667,2.7667;CD-13;Bas-Uele;Mosila
 0;29.3814,0.0698;CD-11;North Kivu;Mosenda
-0;22.0000,-1.0000;CD-31;Tshuapa;Mosefo
 0;26.4668,-6.2107;CD-29;Tanganyika;Masombi
 0;28.2667,0.1667;CD-11;North Kivu;Moriso
 0;30.1472,4.0489;CD-16;Haut-Uele;Mordja
@@ -11224,7 +11222,6 @@
 0;20.3333,-2.3833;CD-24;Mai-Ndombe;Eandja
 0;30.0667,-7.6167;CD-29;Tanganyika;Dzunguluka
 0;27.6627,2.3167;CD-16;Haut-Uele;Dzuma
-0;30.0000,4.0000;CD-16;Haut-Uele;Dzoga
 0;29.6333,2.0500;CD-17;Ituri;Dzansiri
 0;30.5833,2.1000;CD-17;Ituri;Dzakwa
 0;30.5696,3.3390;CD-17;Ituri;Dzakaye

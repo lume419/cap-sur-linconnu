@@ -203,7 +203,6 @@ pa;ویٹے;Wete
 ps;ویته;Wete
 hi;व्वावा;Vwawa
 bn;ভওয়াওয়া;Vwawa
-ur;ووावا;Vwawa
 am;ቮዋዋ;Vwawa
 fa;ووافا;Vwawa
 ja;ヴワワ;Vwawa

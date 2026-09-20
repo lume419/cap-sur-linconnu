@@ -2351,7 +2351,6 @@
 0;45.7831,32.0350;IQ-16;Wasit;Mirzābād
 0;45.5056,35.3200;IQ-05;Sulaymaniyah;Mīr Yāsīn
 0;44.0655,37.1243;IQ-11;Erbil;Meroz
-0;43.0000,36.0000;IQ-15;Nineveh;Mirsīdah
 0;44.6205,36.1425;IQ-05;Sulaymaniyah;Mīr Sayyid
 0;42.2257,36.4708;IQ-15;Nineveh;Mīr Qāsim
 0;41.9255,36.3635;IQ-15;Nineveh;Mīhrkān

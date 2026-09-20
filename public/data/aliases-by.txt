@@ -24672,7 +24672,6 @@ ms;Mogilev;Mahilyow
 hi;मोगिलेव;Mahilyow
 bn;মোগিলেভ;Mahilyow
 ur;موگیلیف;Mahilyow
-am;ሞግილev;Mahilyow
 az;Mogilev;Mahilyow
 fa;موگیلف;Mahilyow
 ha;Mogilev;Mahilyow

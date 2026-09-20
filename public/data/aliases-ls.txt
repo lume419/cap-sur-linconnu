@@ -1,4 +1,3 @@
-ar;تيايتيانeng;Teyateyaneng
 ar;قوتينج;Quthing
 en;Qacha's Nek;Qacha’s Nek
 pt;Qacha's Nek;Qacha’s Nek
@@ -12,14 +11,7 @@ ar;مافيتينج;Mafeteng
 ar;هلوتسي;Hlotse
 ar;بوثا بوثي;Butha-Buthe
 ar;ثابا تسيكا;Thaba-Tseka
-hi;तेयातेयानeng;Teyateyaneng
-bn;তেয়াতেয়ানeng;Teyateyaneng
-ur;تیاتیانeng;Teyateyaneng
-am;ተያተያነング;Teyateyaneng
-fa;تیاتیانeng;Teyateyaneng
 ja;テヤテヤネング;Teyateyaneng
-pa;ਤੇਯਾਤੇਯਾਨeང;Teyateyaneng
-ps;تیاتیانeng;Teyateyaneng
 ru;Рома;Roma
 zh;羅馬;Roma
 zh-Hans;罗马;Roma

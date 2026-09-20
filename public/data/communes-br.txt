@@ -29806,7 +29806,6 @@
 0;-54.4333,-21.4167;BR-11;Mato Grosso do Sul;Bela Vista
 0;-46.9833,-21.4000;BR-15;Minas Gerais;Bela Vista
 0;-46.6167,-21.3500;BR-15;Minas Gerais;Bela Vista
-0;-46.0000,-21.0000;BR-15;Minas Gerais;Bela Vista
 0;-41.9167,-20.9833;BR-21;Rio de Janeiro;Bela Vista
 0;-46.5333,-20.9500;BR-15;Minas Gerais;Bela Vista
 0;-47.4667,-20.8833;BR-27;São Paulo;Bela Vista

@@ -5296,7 +5296,6 @@ kk;Вилла-Басилио-Ниевас;Villa Basilio Nievas
 ky;Вилла-Басилио-Ниевас;Villa Basilio Nievas
 bn;ভিলা বাসিলিও নিয়েভাস;Villa Basilio Nievas
 ur;ویلا باسیلیو نیوواس;Villa Basilio Nievas
-am;ቪላ ባስილዮ ኒየቫስ;Villa Basilio Nievas
 fa;ویلا باسیلیو نیواس;Villa Basilio Nievas
 pa;ਵਿਲਾ ਬਾਸੀਲੀਓ ਨੀਏਵਾਸ;Villa Basilio Nievas
 ps;ویلا باسیلیو نیواس;Villa Basilio Nievas
@@ -7440,7 +7439,6 @@ ur;لاس ہیراس;Las Heras
 am;ላስ ሄራስ;Las Heras
 fa;لاس هراس;Las Heras
 pa;ਲਾਸ ਹੇਰਾਸ;Las Heras
-ps;لاس هیرास;Las Heras
 tg;Лас-Эрас;Las Heras
 hy;Լաս Կոլորադաս;Las Coloradas
 lt;Las Koloradasas;Las Coloradas
@@ -7494,7 +7492,6 @@ kk;Ла-Пуэрта;La Puerta
 ky;Ла-Пуэрта;La Puerta
 bn;লা পুয়ার্তা;La Puerta
 ur;لا پویرٹا;La Puerta
-am;ላ ፑエርታ;La Puerta
 fa;لا پورتا;La Puerta
 pa;ਲਾ ਪਲਾਟਾ;La Puerta
 ps;لا پویرتا;La Puerta
@@ -8511,7 +8508,6 @@ uz;Karlos Tejedor;Carlos Tejedor
 ky;Карлос Техедор;Carlos Tejedor
 bn;কার্লোস তেজেদর;Carlos Tejedor
 ur;کارلوس ٹیجیڈور;Carlos Tejedor
-am;ካርሎስ ቴხዶር;Carlos Tejedor
 az;Karlos Tejedor;Carlos Tejedor
 fa;کارلوس تخدور;Carlos Tejedor
 pa;ਕਾਰਲੋਸ ਟੇਜੇਡੋਰ;Carlos Tejedor

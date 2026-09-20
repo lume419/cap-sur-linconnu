@@ -3907,7 +3907,6 @@
 0;-64.6223,10.1501;VE-02;Anzoátegui;Provisor
 0;-72.6000,8.8333;VE-23;Zulia;Providencia
 0;-67.4469,8.6342;VE-12;Guárico;La Providencia
-0;-70.0000,8.0000;VE-05;Barinas;Providencia
 0;-71.3833,7.6833;VE-05;Barinas;Providencia
 0;-71.3833,10.4000;VE-23;Zulia;Proa del Norte
 0;-71.4667,10.5500;VE-23;Zulia;Pringamozal
@@ -8964,7 +8963,6 @@
 0;-63.8667,6.8500;VE-06;Bolívar;Hato Bucaral
 0;-70.9833,9.6833;VE-23;Zulia;Hato Blanco
 0;-67.2960,8.7819;VE-12;Guárico;Hato Becerra
-0;-68.0000,9.0000;VE-08;Cojedes;Hato Bartolomé
 0;-68.5333,9.5667;VE-08;Cojedes;Hato Apure
 0;-70.2434,11.9387;VE-11;Falcón;Hato Abajo
 0;-71.6833,10.6500;VE-23;Zulia;Hato Abajo

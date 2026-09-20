@@ -152,7 +152,13 @@ function isSark(country, lat, lon){
 //    « Projecto de Assentamento » (BR) et « Project Colony » (IN) sont de vrais lieux habités — voir PROJECT_BATCH plus
 //    bas pour le lot népalais ; crochets seulement NON appariés (BROKEN_BRACKET_RE) — « El Molino [Ranchería] » (MX) et
 //    « Rāyāt [2] » (IQ) sont gardés.
-const EDITOR_COMMENT_NAME_RE = /delete\?|\bdelete\b|\bduplicate\b|\bplease\b|no such a? ?place|not a PPL|not inhabited|\(\?[^)]*\?\)|https?:\/\/|www\.|\(historical region\)|ROAD DESTINATION|@|\d\s?m2\b|\d\s?m²/i;
+// « not permanent » ajouté au 18e audit du 21/09/2026 : FM 7627387 publiait « Kapingamarangi Settlement not
+// permanent » — le champ « nom » de la fiche EST la note de son éditeur. Et le point (7,62 N / 155,16 E) est l'île
+// d'Oroluk, à 730 km de Kapingamarangi (atoll à 1,067 N), dont le village est publié par ailleurs (fiche 7626849) :
+// ni le nom ni la position n'étaient exploitables. Seul cas des 4,8 millions de noms publiés, mais la famille était
+// déjà connue — « not inhabited » et « not a PPL » figuraient ici depuis longtemps ; c'est la tournure qui manquait.
+// Le contrôle d'isolement de tests/data.test.js ne pouvait pas le voir : 340 km entre cases de 1°, sous son seuil.
+const EDITOR_COMMENT_NAME_RE = /delete\?|\bdelete\b|\bduplicate\b|\bplease\b|no such a? ?place|not a PPL|not inhabited|not permanent|\(\?[^)]*\?\)|https?:\/\/|www\.|\(historical region\)|ROAD DESTINATION|@|\d\s?m2\b|\d\s?m²/i;
 //    12e audit du 19/09/2026 — marques d'absence de nom restées publiées, relevées par un balayage de TOUS les fichiers
 //    communes-*.txt (nom complet seulement, avec ou sans précision entre crochets ou parenthèses ; chaque fiche relue
 //    dans scripts/dump/) :
@@ -545,10 +551,35 @@ function repairAliasTypography(text, ignoreReject){
   return t;
 }
 
+// COORDONNÉE « BOUCHON » : latitude ET longitude à l'entier exact (18e audit du 21/09/2026). Le 17e audit avait
+// identifié ce motif sur une fiche — BH Magsha, « 26 / 40 », en Arabie saoudite alors que tout Bahreïn est vers
+// 50,5° E — et l'avait écartée à la main, sans passer le critère sur les autres pays. Il y en avait 139, dans
+// 55 pays. Ce ne sont pas des arrondis : GeoNames publie 5 décimales, la probabilité qu'un lieu réel tombe sur deux
+// entiers exacts est de l'ordre de 1 sur 10 milliards, soit zéro cas attendu sur 4,8 millions de lieux — et les 139
+// correspondent bien à une fiche dont les deux champs sont entiers dans le dump. Exemples vérifiés : ID Seminyak
+// publié à « -5 / 120 » (mer de Florès) alors que le vrai Seminyak de Bali est publié par ailleurs à 750 km de là ;
+// CA Scarborough à « 60 / -96 » (toundra du Manitoba), le seul Scarborough du dump étant le borough de Toronto ;
+// TZ « China » à « -3 / 33 ». 68 des 139 sont des doublons fantômes d'un lieu correct déjà publié, 71 sont la seule
+// fiche de ce nom dans leur pays — dans les deux cas le point publié est faux, et la vraie position n'est sur
+// aucune source du dépôt : la fiche est écartée, jamais déplacée (aucune coordonnée inventée).
+function isPlaceholderCoord(lat, lon){ return Number.isInteger(lat) && Number.isInteger(lon); }
+// ÉTIQUETTE DE RÉGION « XX-<admin1> » (18e audit du 21/09/2026). Quand un pays n'a pas de codes postaux publiés,
+// les générateurs écrivent une étiquette informelle « XX-<code admin1 GeoNames> » dans la colonne du code postal.
+// Pour huit pays, ce « code admin1 » est en réalité un IDENTIFIANT INTERNE GeoNames à 6-8 chiffres : le visiteur
+// lisait « KZ-12510143 » sous le nom de sa ville. 1 592 lieux étaient concernés (KZ 1 418, soit 10,6 % du pays,
+// GL 79, ML 37, CK 29, KY 15, MV 6, MO 5, SC 3). Le nom lisible de la division est déjà dans la colonne voisine
+// (« KZ-12510143;Abai Region;Granitnoye »), et admin1CodesASCII.txt confirme l'équivalence : ces identifiants
+// n'apportent donc rien et ne sont pas des codes. Au-delà de quatre chiffres, l'étiquette retombe sur le code pays
+// seul — exactement ce que les générateurs font déjà pour un lieu sans région. Les vrais codes admin1 numériques
+// courts (« IR-42 », « BH-16 », « PG-15 »…) ne sont pas touchés.
+function regionLabel(country, admin1){
+  if(!admin1 || admin1 === '00') return country;
+  return /^\d{5,}$/.test(String(admin1)) ? country : country + '-' + admin1;
+}
 // Filtre commun, appelé par chaque générateur sur chaque ligne du dump : true = lieu écarté.
 function excludePlace(country, geonameid, name, lat, lon){
   return isWrongCountry(country, geonameid) || isJunkId(country, geonameid) || HISTORICAL_NAME_RE.test(name || '') || isJunkName(name) ||
-    isProjectBatch(country, geonameid) || isAntarcticUnderAR(country, lat) || isSark(country, lat, lon);
+    isProjectBatch(country, geonameid) || isAntarcticUnderAR(country, lat) || isSark(country, lat, lon) || isPlaceholderCoord(lat, lon);
 }
 
 // 7. LETTRES D'UN AUTRE ALPHABET GLISSÉES DANS UN MOT (audit n° 11) — « Áno Tripοdo » (omicron grec au milieu d'un nom
@@ -652,6 +683,95 @@ function fixMixedScript(text, lang){
   return { text: ok ? out : text, ok, changed: ok && changed };
 }
 
+// 7 bis. DEUX ÉCRITURES DANS UN MÊME MOT, SANS SOSIE POSSIBLE (18e audit du 21/09/2026). fixMixedScript ne connaît que
+//    le latin, le cyrillique et le grec, qui partagent des lettres sosies : il sait donc réparer « Коltsovo ». Entre
+//    l'éthiopien et le géorgien, entre l'arabe et le bengali, aucune lettre ne se ressemble — un mot qui mêle ces
+//    écritures est une bouillie de deux translittérations automatiques, jamais un nom. GeoNames en publie : « ጉልያንتሲ »
+//    (Gulyantsi en amharique, avec deux lettres arabes au milieu), « اوسترავა » (Ostrava en persan, fin en géorgien),
+//    « ইমพფondo » (Impfondo, cinq écritures dans un mot). Ces alias ne se saisissent avec AUCUN clavier : ni le clavier
+//    amharique ni le clavier arabe ne produisent le mot entier. Ils sont écartés, jamais réparés (la graphie visée est
+//    indevinable). Mesure sur les alias publiés avant cette passe : 90 lignes à mot mêlé, dont 71 écartées par cette
+//    règle et 19 gardées par l'exception ci-dessous. Aucun NOM DE LIEU publié n'est concerné (contrôle sur les 4,8
+//    millions de lieux : zéro), la règle ne s'applique donc qu'aux alias.
+//    EXCEPTION, latin collé à du chinois, du japonais ou du coréen : c'est l'usage réel de ces langues, qui accolent un
+//    nom propre latin aux idéogrammes sans espace — « 密歇根州Oscoda地區 » (l'Oscoda du Michigan), « Talmage镇 » (le
+//    bourg de Talmage), « カリフォルニア州Daggett », « Jinnah Antarctic基地 ». La suite latine doit alors ressembler à un
+//    nom propre : lettres ASCII commençant par une majuscule (ou une initiale isolée, « レアンドロNアレム » pour Leandro
+//    N. Alem). Une minuscule isolée ou une lettre pleine chasse trahit au contraire une translittération abîmée et
+//    l'alias est écarté : « クランj » (Kranj), « スウæォンジ » (Swansea), « ほんまちひがｈし », « 一Ｏ九队青年点 » (un Ｏ
+//    latin pleine chasse à la place du zéro chinois 〇).
+const MIXED_WORD_SCRIPTS = [
+  ['Cjk', /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}]/u],
+  ['Latn', /\p{Script=Latin}/u], ['Cyrl', /\p{Script=Cyrillic}/u], ['Grek', /\p{Script=Greek}/u],
+  ['Arab', /\p{Script=Arabic}/u], ['Hebr', /\p{Script=Hebrew}/u], ['Deva', /\p{Script=Devanagari}/u],
+  ['Thai', /\p{Script=Thai}/u], ['Laoo', /\p{Script=Lao}/u], ['Mymr', /\p{Script=Myanmar}/u], ['Khmr', /\p{Script=Khmer}/u],
+  ['Geor', /\p{Script=Georgian}/u], ['Armn', /\p{Script=Armenian}/u], ['Ethi', /\p{Script=Ethiopic}/u],
+  ['Beng', /\p{Script=Bengali}/u], ['Taml', /\p{Script=Tamil}/u], ['Knda', /\p{Script=Kannada}/u],
+  ['Telu', /\p{Script=Telugu}/u], ['Mlym', /\p{Script=Malayalam}/u], ['Guru', /\p{Script=Gurmukhi}/u],
+  ['Gujr', /\p{Script=Gujarati}/u], ['Orya', /\p{Script=Oriya}/u], ['Sinh', /\p{Script=Sinhala}/u],
+  ['Tibt', /\p{Script=Tibetan}/u], ['Syrc', /\p{Script=Syriac}/u], ['Thaa', /\p{Script=Thaana}/u],
+  ['Cher', /\p{Script=Cherokee}/u], ['Cans', /\p{Script=Canadian_Aboriginal}/u], ['Mong', /\p{Script=Mongolian}/u],
+  ['Yiii', /\p{Script=Yi}/u], ['Tfng', /\p{Script=Tifinagh}/u], ['Nkoo', /\p{Script=Nko}/u], ['Vaii', /\p{Script=Vai}/u],
+  ['Adlm', /\p{Script=Adlam}/u], ['Osge', /\p{Script=Osage}/u], ['Java', /\p{Script=Javanese}/u], ['Bali', /\p{Script=Balinese}/u],
+  ['Bugi', /\p{Script=Buginese}/u], ['Cham', /\p{Script=Cham}/u], ['Tale', /\p{Script=Tai_Le}/u], ['Talu', /\p{Script=New_Tai_Lue}/u],
+  ['Lana', /\p{Script=Tai_Tham}/u], ['Batk', /\p{Script=Batak}/u], ['Sund', /\p{Script=Sundanese}/u]
+];
+// Nom propre latin accolé à du CJK : ASCII, initiale majuscule (« Oscoda », « CDP », « N »).
+const CJK_LATIN_WORD_RE = /^[A-Z][A-Za-z'\u2019.-]*$/;
+function hasMixedScriptWord(text){
+  const mots = String(text || '').match(/[\p{L}\p{M}]+/gu);
+  if(!mots) return false;
+  for(const mot of mots){
+    const vues = MIXED_WORD_SCRIPTS.filter(function(e){ return e[1].test(mot); }).map(function(e){ return e[0]; });
+    if(vues.length < 2) continue;
+    if(vues.length === 2 && vues.indexOf('Cjk') >= 0 && vues.indexOf('Latn') >= 0){
+      const suites = mot.match(/\p{Script=Latin}+/gu) || [];
+      if(suites.every(function(x){ return CJK_LATIN_WORD_RE.test(x); })) continue;
+    }
+    return true;
+  }
+  return false;
+}
+
+// 7 ter. LANGUE DÉCLARÉE CONTREDITE PAR L'ÉCRITURE (18e audit du 21/09/2026). Certaines écritures ne servent qu'à UNE
+//    langue de la liste du projet : le géorgien au géorgien, l'arménien à l'arménien, le singhalais au singhalais…
+//    Quand un alias est écrit ENTIÈREMENT dans une de ces écritures et déclaré dans une AUTRE langue qui a elle aussi
+//    son écriture propre, l'étiquette est fausse de façon certaine : « am;Ուռհա;Şanlıurfa » (Ourha, le nom arménien
+//    d'Urfa, déclaré amharique), « ko;លង្វែក;Longveaek » (khmer déclaré coréen), « el;สะเมิง;Samoeng » (thaï déclaré
+//    grec), « ta;කුරුවිට;Kuruwita » (singhalais déclaré tamoul). La ligne est RÉÉTIQUETÉE, pas écartée : sur les douze
+//    cas relevés, neuf sont la seule graphie locale publiée pour leur lieu — « ta;කුරුවිට » est même le seul alias de
+//    Kuruwita, l'écarter aurait fait disparaître le nom singhalais d'une ville du Sri Lanka. Les trois autres retombent
+//    sur une ligne déjà correcte et sont alors dédoublonnées.
+//    La règle ne s'applique QUE dans les deux sens sûrs : écriture exclusive d'une seule langue (donc ni le latin, ni
+//    le cyrillique, ni l'arabe, ni le han, ni l'éthiopien — partagés entre plusieurs langues) ET langue déclarée
+//    possédant elle-même une écriture exclusive (sinon une translittération latine légitime, « ja;Tokyo », serait prise
+//    pour une erreur). Elle généralise le contrôle lao/khmer/birman/thaï de build-all-aliases.js, qui écartait la ligne.
+const SCRIPT_ONE_LANG = { ka: /\p{Script=Georgian}/u, hy: /\p{Script=Armenian}/u, el: /\p{Script=Greek}/u,
+  th: /\p{Script=Thai}/u, lo: /\p{Script=Lao}/u, my: /\p{Script=Myanmar}/u, km: /\p{Script=Khmer}/u,
+  si: /\p{Script=Sinhala}/u, ta: /\p{Script=Tamil}/u, te: /\p{Script=Telugu}/u, kn: /\p{Script=Kannada}/u,
+  ml: /\p{Script=Malayalam}/u, gu: /\p{Script=Gujarati}/u, or: /\p{Script=Oriya}/u, pa: /\p{Script=Gurmukhi}/u,
+  dv: /\p{Script=Thaana}/u, ko: /\p{Script=Hangul}/u };
+// Langues à écriture propre qui ne permettent PAS de conclure dans l'autre sens (plusieurs langues par écriture) :
+// leur présence suffit à savoir que la langue déclarée est fausse, pas à deviner laquelle.
+const SCRIPT_MANY_LANGS = { am: /\p{Script=Ethiopic}/u, ti: /\p{Script=Ethiopic}/u, he: /\p{Script=Hebrew}/u,
+  yi: /\p{Script=Hebrew}/u, bn: /\p{Script=Bengali}/u, as: /\p{Script=Bengali}/u, bo: /\p{Script=Tibetan}/u,
+  dz: /\p{Script=Tibetan}/u };
+function aliasLangFromScript(text, lang){
+  const t = String(text || '');
+  const attendue = SCRIPT_ONE_LANG[lang] || SCRIPT_MANY_LANGS[lang];
+  if(!attendue || attendue.test(t)) return null;          // langue sans écriture propre, ou écriture conforme
+  let trouvée = null;
+  for(const code of Object.keys(SCRIPT_ONE_LANG)){
+    if(!SCRIPT_ONE_LANG[code].test(t)) continue;
+    if(trouvée) return null;                              // deux écritures : cas de 7 bis, pas de réétiquetage
+    trouvée = code;
+  }
+  if(!trouvée) return null;
+  // Aucune lettre d'une autre écriture (latin, cyrillique, han…) : sinon la graphie est mêlée, pas mal étiquetée.
+  if(/\p{L}/u.test(t.replace(new RegExp(SCRIPT_ONE_LANG[trouvée].source, 'gu'), ''))) return null;
+  return trouvée;
+}
+
 // 8. NOM PROPRE À PUBLIER (audit n° 11), appliqué par chaque générateur au nom du dump (après NAME_FIXES et ses propres
 //    renommages), AVANT excludePlace et le dédoublonnage. Ne change rien aux noms ordinaires :
 //    - caractère de contrôle C1 (U+0080–U+009F) collé à une lettre accentuée : octet parasite d'un double encodage
@@ -696,5 +816,5 @@ function dropNearDuplicates(lines){
 
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
   PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES, INPUT_SYMBOL_RE, ALIAS_REPAIR_REJECT, repairAliasTypography, repairAliasLoose,
-  BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, excludePlace,
-  fixMixedScript, cleanPlaceName, preparePlaceName, dropNearDuplicates };
+  BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, isPlaceholderCoord, regionLabel, excludePlace,
+  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates };

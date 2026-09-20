@@ -1529,7 +1529,6 @@
 0;63.9500,39.3167;UZ-02;Bukhara;Buralang Eski
 0;65.7500,39.1167;UZ-08;Qashqadaryo;Burkhana
 0;66.7000,38.8000;UZ-08;Qashqadaryo;Burikapchigay
-0;68.0000,40.0000;UZ;;Burg
 0;66.4667,39.8167;UZ;;Burany
 0;66.5036,39.9189;UZ-10;Samarqand Region;Burankhodzha
 0;67.7460,38.1772;UZ-12;Surxondaryo Region;Bulyak
@@ -5387,7 +5386,6 @@
 0;72.2794,40.4681;UZ-01;Andijan Region;Kichik Nayman
 0;72.6037,40.8489;UZ-01;Andijan Region;Teshiktosh
 0;62.4841,40.7191;UZ;;Kishlak
-0;67.0000,39.0000;UZ;;Chupanata
 0;66.9167,39.6360;UZ;;Sattepo
 0;56.1820,44.7806;UZ;;Daut-ata
 0;71.5325,41.0126;UZ-06;Namangan;Arg‘in

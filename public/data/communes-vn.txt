@@ -1673,7 +1673,6 @@
 0;106.4333,10.1333;VN-86;Vinh Long;Xóm Chồi
 0;105.2167,9.3667;VN-96;Ca Mau;Xóm Chọ Hội
 0;105.8167,17.8167;VN-44;Quang Tri;Xóm Chin Tum
-0;107.0000,11.0000;VN-75;Dong Nai;Xóm Chính Lợi
 0;104.8667,21.4500;VN-15;Lao Cai;Xóm Chính
 0;105.3500,20.3167;VN-38;Thanh Hóa Province;Xóm Chinh
 0;105.2000,20.3000;VN-38;Thanh Hóa Province;Xóm Chính
@@ -11756,7 +11755,6 @@
 0;105.6833,20.3333;VN-25;Phu Tho;Liên Thôn
 0;105.5167,21.4333;VN-25;Phu Tho;Liễn Sơn
 0;105.4833,20.2333;VN-38;Thanh Hóa Province;Liên Sợn
-0;106.0000,20.0000;VN-38;Thanh Hóa Province;Lien Qui
 0;105.6000,20.8333;VN-25;Phu Tho;Liên Quế
 0;103.7890,21.0308;VN-14;Sơn La Province;Bản Liên Phương
 0;106.3167,20.1333;VN-37;Ninh Binh;Liên Phú
@@ -13635,7 +13633,6 @@
 0;106.0000,21.9333;VN-19;Thai Nguyen;Kouei Tcho
 0;105.9000,22.1333;VN-19;Thai Nguyen;Kouei Tchao
 0;105.2268,22.4867;VN-08;Tuyen Quang;Khuối Cha
-0;106.0000,22.0000;VN-19;Thai Nguyen;Kouei Tcha
 0;105.6500,22.4833;VN-19;Thai Nguyen;Kouei Tauo
 0;105.5667,22.0833;VN-19;Thai Nguyen;Kouei Tau
 0;105.3833,22.0833;VN-08;Tuyen Quang;Kouei Tat

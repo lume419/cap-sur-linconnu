@@ -15,7 +15,7 @@
 5063;55.7534,-4.3200;SC-07;Baie Sainte Anne;Baie Sainte Anne
 149;55.6845,-4.3052;SC-14;Grand Anse Praslin;Anse Kerlan
 4344;55.7221,-4.3311;SC-14;Grand Anse Praslin;Grand'Anse
-200;55.2526,-4.4860;SC-11876017;Outer Islands;Silhouette Island
+200;55.2526,-4.4860;SC;Outer Islands;Silhouette Island
 4685;55.5220,-4.6860;SC-01;Anse-aux-Pins;Anse aux Pins
 3750;55.5131,-4.6732;SC-20;Pointe La Rue;Pointe La Rue
 4795;55.4754,-4.7497;SC-06;Baie Lazare;Baie Lazare
@@ -33,7 +33,7 @@
 0;55.5034,-4.6394;SC-18;Mont Fleuri;South Point
 0;55.4643,-4.6588;SC-19;Plaisance;Fairview
 3828;55.4688,-4.6401;SC-30;Roche Caiman;Roche Caïman
-152;55.2441,-4.3934;SC-11876017;Outer Islands;North Island
+152;55.2441,-4.3934;SC;Outer Islands;North Island
 6209;55.4643,-4.6044;SC;;Perseverance
 4236;55.4547,-4.6136;SC-26;La Rivière Anglaise;English River
 60;53.6709,-5.6903;SC-02;Anse Boileau;Desroches
@@ -41,5 +41,5 @@
 12;46.4720,-9.4228;SC;;Aldabra
 20;46.5128,-9.7346;SC;;Assumption
 0;51.1620,-10.1216;SC;;Farquhar
-0;56.2727,-7.1355;SC-11876017;Outer Islands;Coetivy
+0;56.2727,-7.1355;SC;Outer Islands;Coetivy
 0;55.4321,-4.5917;SC-08;Beau Vallon;Victoria - Mahe

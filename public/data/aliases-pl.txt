@@ -9116,7 +9116,6 @@ ky;Гданськ;Gdańsk
 hi;गदान्स्क;Gdańsk
 bn;গদানস্ক;Gdańsk
 ur;گڈانسک;Gdańsk
-am;გდანስክ;Gdańsk
 pa;ਗਡਾਨਸਕ;Gdańsk
 ps;گډانسک;Gdańsk
 tg;Гданськ;Gdańsk

@@ -1886,7 +1886,6 @@ hi;ओस्त्रावा;Ostrava
 bn;ওস্ট্রাভা;Ostrava
 ur;اسٹراوا;Ostrava
 am;ኦስትራቫ;Ostrava
-fa;اوسترავا;Ostrava
 pa;ਓਸਤ੍ਰਾਵਾ;Ostrava
 ps;استرافا;Ostrava
 tg;Острава;Ostrava

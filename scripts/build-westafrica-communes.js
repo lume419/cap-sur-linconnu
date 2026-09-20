@@ -36,7 +36,7 @@
 // pour cela que le rattachement se fait par coordonnées et jamais par nom.
 const fs = require('fs');
 const path = require('path');
-const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
+const { excludePlace, preparePlaceName, dropNearDuplicates, regionLabel } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
 
 const COUNTRIES = ['MR', 'ML', 'SN', 'GM', 'CV', 'GN', 'GW', 'SL', 'LR', 'BF', 'CI', 'GH', 'TG'];
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
@@ -85,7 +85,7 @@ for(const country of COUNTRIES){
     if(!p.admin1 || p.admin1 === '00'){ sansRegion++; return null; }
     const region = admin1Names.get(country + '.' + p.admin1) || '';
     if(!region){ sansRegion++; return null; }
-    return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${country}-${p.admin1};${region};${p.name}`;
+    return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${regionLabel(country, p.admin1)};${region};${p.name}`;
   }).filter(Boolean));
 
   const out = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');

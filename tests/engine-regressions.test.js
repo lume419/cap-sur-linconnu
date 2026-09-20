@@ -401,3 +401,71 @@ test('17e audit : « hors de portée, X km » dit s’il a conclu — X exact, o
   assert.ok(run(Object.assign({}, p, { minDistanceKm: approche.returnCapKm }), SEED).legs.length > 0,
     'plafond approché (' + approche.returnCapKm + ' km) infaisable');
 });
+
+test('18e audit : antiméridien — une étape à cheval sur 180° n\'invente pas de pays traversé', () => {
+  // Défaut trouvé au 18e audit : « to.lon - from.lon » vaut ~349° au lieu de ~-11° pour une étape à cheval sur
+  // l'antiméridien, et le trait échantillonné faisait le tour du globe. Une étape de 594 km INTERNE à la Tchoukotka
+  // annonçait « Finlande traversée » ; d'autres annonçaient l'Islande, le Canada, les États-Unis, la Suède. Pire,
+  // distToSegmentKm mesurait la distance d'une zone de restriction à ce segment fantôme : un rappel de restriction
+  // ISLANDAISE (routes F du Hálendi) se posait sur un trajet arctique russe.
+  const pt = (c, cc) => ({ lat: c.lat, lon: c.lon, country: cc });
+  const couples = [['Vilyuneyskaya', 'Sireniki'], ['Vayegi', 'Vankarem'], ['Vayegi', 'Nunligran'],
+    ['Beringovskiy', 'Vankarem'], ['Lamutskoye', 'Nunligran'], ['Vilyuneyskaya', 'Vankarem']];
+  const bad = [];
+  for(const [a, b] of couples){
+    const A = P(a, 'RU'), B = P(b, 'RU');
+    const cc = H.engine.__test.countriesAlong({ lat: A.lat, lon: A.lon, country: 'RU' }, { lat: B.lat, lon: B.lon, country: 'RU' });
+    const étrangers = cc.filter(x => x !== 'RU');
+    if(étrangers.length) bad.push(a + ' → ' + b + ' : ' + JSON.stringify(cc));
+  }
+  assert.deepEqual(bad, []);
+  // Témoins : un VRAI franchissement de frontière doit continuer d'être vu, sinon la correction aurait tout éteint.
+  assert.deepEqual(H.engine.__test.countriesAlong(pt(P('Lyon', 'FR'), 'FR'), pt(P('Torino', 'IT'), 'IT')), ['FR', 'IT']);
+  assert.deepEqual(H.engine.__test.countriesAlong(pt(P('Paris', 'FR'), 'FR'), pt(P('Milano', 'IT'), 'IT')).sort(), ['CH', 'FR', 'IT']);
+});
+
+test('18e audit : antiméridien — la distance d\'un point à un segment ne fait pas le tour du globe', () => {
+  // distToSegmentKm sert à décider si une zone de restriction (route, tunnel, col) touche une étape. Sur un segment
+  // à cheval sur 180°, il mesurait ~349° de large au lieu de ~11° : n'importe quel point du globe pouvait s'en
+  // trouver « proche ». Contrôle : un segment tchouktche, et un point islandais à la même latitude.
+  const seg = { aLat: 64.5, aLon: 175.0, bLat: 64.5, bLon: -175.0 }; // 10° de large en passant par 180°
+  const islande = { lat: 64.85, lon: -18.5 };                        // centre de la règle « routes F » du Hálendi
+  const d = H.engine.__test.distToSegmentKm(islande.lat, islande.lon, seg.aLat, seg.aLon, seg.bLat, seg.bLon);
+  assert.ok(d > 3000, 'l\'Islande est à ' + Math.round(d) + ' km d\'un segment tchouktche : le segment fait encore le tour du globe');
+  // Un point AU MILIEU du segment, lui, doit être à quelques kilomètres — sinon le calcul ne mesure plus rien.
+  const milieu = H.engine.__test.distToSegmentKm(64.5, 180, seg.aLat, seg.aLon, seg.bLat, seg.bLon);
+  assert.ok(milieu < 5, 'le milieu du segment en est à ' + Math.round(milieu) + ' km');
+  // Témoin sans antiméridien : inchangé par la correction (Lyon, segment Paris–Marseille).
+  const témoin = H.engine.__test.distToSegmentKm(45.76, 4.84, 48.85, 2.35, 43.30, 5.37);
+  assert.ok(témoin > 50 && témoin < 200, 'témoin continental : ' + Math.round(témoin) + ' km');
+});
+
+test('18e audit : paire de ports choisie à la vitesse du MODE, pas à 80 km/h en dur', () => {
+  // Le 16e audit a introduit le choix de la paire de ports sur le TEMPS total (route + traversée) et son commentaire
+  // annonçait « vitesse routière : celle du mode ». Le code prenait 80 km/h quel que soit le transport : à vélo
+  // (15 km/h), les kilomètres de route étaient valorisés 5,3 fois trop vite, et le moteur troquait jusqu'à 150 km de
+  // route contre des heures de mer. Pire que la durée : l'étape était ensuite REFUSÉE par legAllowed, ses 112 km de
+  // route dépassant le plafond d'étape du vélo (80 km par défaut) — alors qu'une paire à 0 km de route existe.
+  const I = H.engine.__test;
+  const cas = [['Valletta', 'MT', 'Catania', 'IT'], ['Mariehamn', 'AX', 'Stockholm', 'SE'], ['Dublin', 'IE', 'Liverpool', 'GB']];
+  const bad = [];
+  for(const [a, ca, b, cb] of cas){
+    const A = P(a, ca), B = P(b, cb);
+    const fromLm = I.landmassOf(A), toLm = I.landmassOf(B);
+    const route = I.ferryRouteFor(fromLm, toLm);
+    assert.ok(route, a + ' → ' + b + ' : aucune liaison de ferry');
+    const velo = I.ferryRoadParts({ lat: A.lat, lon: A.lon }, { lat: B.lat, lon: B.lon }, fromLm, toLm, route, 15);
+    const auto = I.ferryRoadParts({ lat: A.lat, lon: A.lon }, { lat: B.lat, lon: B.lon }, fromLm, toLm, route, 90);
+    if(!(velo.km <= 80)) bad.push(a + ' → ' + b + ' à vélo : ' + Math.round(velo.km) + ' km de route (plafond d\'étape 80)');
+    if(!(velo.km <= auto.km)) bad.push(a + ' → ' + b + ' : le vélo prend plus de route que la voiture (' + Math.round(velo.km) + ' / ' + Math.round(auto.km) + ')');
+  }
+  assert.deepEqual(bad, []);
+  // Témoin : en voiture, la paire retenue ne change pas (c'est le gain du 16e audit qu'il ne faut pas perdre).
+  const rc = P('Reggio Calabria', 'IT') || P('Reggio di Calabria', 'IT'), me = P('Messina', 'IT');
+  const lmA = I.landmassOf(rc), lmB = I.landmassOf(me);
+  const r = I.ferryRouteFor(lmA, lmB);
+  if(r){
+    const p = I.ferryRoadParts({ lat: rc.lat, lon: rc.lon }, { lat: me.lat, lon: me.lon }, lmA, lmB, r, 90);
+    assert.ok(p.km < 40, 'détroit de Messine en voiture : ' + Math.round(p.km) + ' km de route');
+  }
+});

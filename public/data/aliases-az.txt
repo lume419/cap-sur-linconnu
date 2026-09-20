@@ -12251,7 +12251,7 @@ ky;Хожалы;Khojaly
 hi;खोजाली;Khojaly
 bn;খোজালি;Khojaly
 ur;خوجالی;Khojaly
-am;ხოჯალი;Khojaly
+ka;ხოჯალი;Khojaly
 ja;ホジャリ;Khojaly
 pa;ਖੋਜਾਲੀ;Khojaly
 ps;خوجالی;Khojaly
@@ -12571,7 +12571,6 @@ ms;Imishli;İmişli
 hi;इमिश्ली;İmişli
 bn;ইমিশলি;İmişli
 ur;امشلی;İmişli
-am;ইमishሊ;İmişli
 fa;امیشلی;İmişli
 ha;Imishli;İmişli
 ja;イミシュリ;İmişli

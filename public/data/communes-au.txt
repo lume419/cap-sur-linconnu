@@ -1516,7 +1516,6 @@
 0;143.8500,-37.6667;3357;Victoria;Yarrowee
 0;151.9333,-29.8500;2370;New South Wales;Yarrow Creek
 0;141.2000,-36.3000;3419;Victoria;Yarrock
-0;149.0000,-31.0000;2396;New South Wales;Yarrigan
 70;149.5167,-30.3500;2388;New South Wales;Yarrie Lake
 7630;145.9997,-36.0192;3730;Victoria;Yarrawonga
 0;144.0353,-36.1827;3575;Victoria;Yarrawalla South

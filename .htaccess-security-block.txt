@@ -48,6 +48,13 @@ RewriteRule ^node_modules(/.*)?$ /? [R=301,L]
 RewriteRule ^(lib|scripts|cache|tmp|public|data|pdf-fonts|tests|\.claude)(/.*)?$ /? [R=301,L]
 RewriteRule ^(\.htaccess-security-block\.txt|\.gitignore|\.gitattributes|\.env.*)$ /? [R=301,L]
 
+# --- Sensibilité à la casse de ces règles (18e audit du 21/09/2026) ---
+# Les motifs ci-dessus sont sensibles à la casse (aucun drapeau NC), ce qui pourrait laisser croire que « /Server.js »
+# ou « /LIB/trip-engine.js » passent à travers. Vérifié en production le 21/09/2026, une requête chacun : /server.js
+# répond 301 (règle appliquée), /Server.js et /LIB/trip-engine.js répondent 404 avec un corps de 9 octets. Le système
+# de fichiers du serveur est sensible à la casse : aucun fichier ne porte ces noms, il n'y a donc rien à servir et
+# rien à bloquer. Le drapeau NC n'est pas ajouté pour ne pas élargir des règles déjà larges sans nécessité démontrée.
+
 # --- Journaux et cartes de sources à la racine (audit du 17/09/2026) ---
 # Fichiers *.log (journaux Node/Passenger éventuellement écrits à la racine) et *.map (cartes de sources) : jamais
 # utiles au navigateur, ils peuvent révéler chemins, erreurs ou code. Redirigés vers l'accueil comme les autres.

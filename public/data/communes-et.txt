@@ -6803,7 +6803,6 @@
 0;37.2000,9.1167;ET-51;Oromiya;Deso
 0;37.6667,9.0000;ET-51;Oromiya;Deso
 0;39.8167,13.6000;ET-53;Tigray;Dēsi’ā
-0;37.0000,7.0000;ET-SW;South West Ethiopia Peoples' Region;Deshē
 0;38.2801,14.3801;ET-53;Tigray;Desēt
 270400;39.6333,11.1333;ET-46;Amhara;Dessie
 0;38.1500,8.6333;ET-51;Oromiya;Desē
@@ -10672,7 +10671,6 @@
 0;34.5200,10.1667;ET-47;Bīnshangul Gumuz;Assosa Maekel
 0;35.1667,10.1667;ET-47;Bīnshangul Gumuz;Oda Godere
 0;34.7500,10.1700;ET-47;Bīnshangul Gumuz;Komesha
-0;36.0000,10.0000;ET-47;Bīnshangul Gumuz;Yaso
 0;35.8333,9.7500;ET-47;Bīnshangul Gumuz;Kamashi zone
 98100;38.6746,7.3547;ET-51;Oromiya;Arsi Negele
 0;38.2170,6.0090;ET-56;South Ethiopia Regional State;Kochere

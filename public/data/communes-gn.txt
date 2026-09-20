@@ -5996,7 +5996,6 @@
 0;-9.9167,12.0000;GN-K;Kankan Region;Bassakori
 0;-8.7500,8.1500;GN-N;Nzérékoré Region;Bassaïta
 0;-8.0000,9.1333;GN-N;Nzérékoré Region;Bassadougou
-0;-10.0000,9.0000;GN-F;Faranah;Bassa
 0;-10.9667,12.0000;GN-F;Faranah;Basanto
 0;-10.3500,9.8333;GN-K;Kankan Region;Barsan
 0;-10.5333,9.4167;GN-F;Faranah;Baroua

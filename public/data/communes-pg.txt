@@ -7913,7 +7913,6 @@
 0;141.5475,-5.2832;PG-06;Western Province;Golgubip
 0;147.0847,-6.1499;PG-14;Morobe Province;Golangke
 0;144.4907,-4.9294;PG-12;Madang Province;Gokto
-0;145.0000,-6.0000;PG-08;Chimbu Province;Gokogu
 0;144.8833,-5.9167;PG-08;Chimbu Province;Gokane
 0;142.1000,-7.0000;PG-06;Western Province;Goiyobom
 0;144.7311,-7.3759;PG-02;Gulf Province;Goivari

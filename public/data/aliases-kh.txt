@@ -3409,7 +3409,7 @@ km;Doung;Rung
 km;ព្រែកលួង;Preaek Luong
 ru;Ловек;Longveaek
 pt;Lovek;Longveaek
-ko;លង្វែក;Longveaek
+km;លង្វែក;Longveaek
 zh-HK;洛韋;Longveaek
 en;Longvek;Longveaek
 it;Lovek;Longveaek

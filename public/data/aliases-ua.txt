@@ -53628,7 +53628,7 @@ ja;イズマイール;Izmayil
 hy;Իզմայիլ;Izmayil
 fa;ایزمائیل;Izmayil
 tr;İzmail;Izmayil
-he;Ισμαήλιο;Izmayil
+el;Ισμαήλιο;Izmayil
 he;איסקה;Izky
 ce;Иза;Iza
 hy;Իզա;Iza

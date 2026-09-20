@@ -1,9 +1,9 @@
-112051;113.5569,22.1558;MO-11875159;Our Lady of Carmo;Taipa
+112051;113.5569,22.1558;MO;Our Lady of Carmo;Taipa
 649335;113.5461,22.2006;MO;;Macau
-22125;113.5511,22.1197;MO-11875161;Saint Francis Xavier;Lai Chi Van
+22125;113.5511,22.1197;MO;Saint Francis Xavier;Lai Chi Van
 134;113.5678,22.1192;MO;;Heisha
-36384;113.5519,22.1181;MO-11875161;Saint Francis Xavier;Luhuan
-24000;113.5564,22.1614;MO-11875159;Our Lady of Carmo;Zhuojiacun
-850;113.5814,22.1331;MO-11875161;Saint Francis Xavier;Jiu’ao
+36384;113.5519,22.1181;MO;Saint Francis Xavier;Luhuan
+24000;113.5564,22.1614;MO;Our Lady of Carmo;Zhuojiacun
+850;113.5814,22.1331;MO;Saint Francis Xavier;Jiu’ao
 300;113.5631,22.1408;MO;;Cotai
 52200;113.5473,22.1909;MO;;Sé

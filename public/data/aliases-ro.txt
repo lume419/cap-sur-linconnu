@@ -2362,17 +2362,14 @@ uz;Breila;Brăila
 tr;Berâil;Brăila
 uk;Бреїла;Brăila
 ru;Брэила;Brăila
-ar;براila;Brăila
 kk;Браила;Brăila
 ky;Браила;Brăila
 hi;ब्राइला;Brăila
 bn;ব্রাইলা;Brăila
 ur;براءیلا;Brăila
 am;ብራይላ;Brăila
-fa;براIلا;Brăila
 ja;ブライラ;Brăila
 pa;ਬ੍ਰਾਈਲਾ;Brăila
-ps;براila;Brăila
 tg;Браила;Brăila
 tt;Браила;Brăila
 ru;Брад;Brad

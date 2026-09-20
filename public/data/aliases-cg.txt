@@ -136,7 +136,6 @@ ky;Импфондо;Impfondo
 hi;इम्फोंडो;Impfondo
 bn;ইম্পফন্ডো;Impfondo
 ur;امپفوندو;Impfondo
-am;ইምพფondo;Impfondo
 fa;امپفوندو;Impfondo
 ja;インプフォンド;Impfondo
 pa;ਇਮਪਫੋਂਡੋ;Impfondo

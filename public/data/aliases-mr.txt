@@ -921,7 +921,6 @@ ur;عیون الاترس;Ayoun El Atrous
 am;አዮን ኤል ሐጋር;Ayoun El Atrous
 fa;عیون الاترس;Ayoun El Atrous
 ja;アユン・エル・アトルース;Ayoun El Atrous
-pa;ਅਯੌਨ ਅਲ ਅਤ್ਰੋਸ;Ayoun El Atrous
 ps;عیون الاترس;Ayoun El Atrous
 tg;Айун-эль-Атрус;Ayoun El Atrous
 tt;Айун-эль-Атрус;Ayoun El Atrous

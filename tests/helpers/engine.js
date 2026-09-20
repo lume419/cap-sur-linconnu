@@ -21,7 +21,8 @@ const TG = require(path.join(ROOT, 'lib', 'toll-grid.js'));
 const INTERNAL_FUNCS = ['reallyAdjacent', 'landmassOf', 'zoneOf', 'ferryRouteFor', 'seaCrossingFor', 'tensionOf', 'legAllowed',
   'ferryRoadParts', 'tollCountryOf', 'evPlan', 'countryAtPoint', 'insideCountry', 'roadCrossesWater', 'motoMotorwayBan',
   'normalizeCityName', 'chargerNear', 'portZone', 'communeLandmass', 'borderReach', 'communeTension', 'finalizeLeg', 'parseCommunesFile',
-  'countrySpeedFactor', 'placeNorm', 'zoneHostNorm', 'countriesAlong', 'finalizeFerryLeg', 'ferryMedianSpeed', 'ferryRouteForPair'];
+  'countrySpeedFactor', 'placeNorm', 'zoneHostNorm', 'countriesAlong', 'finalizeFerryLeg', 'ferryMedianSpeed', 'ferryRouteForPair',
+  'distToSegmentKm', 'parseIsoDate'];
 const INTERNAL_VARS = ['COMMUNES', 'FEATURED', 'CHARGER_COUNT', 'TENSION_RULES_BY_COUNTRY', 'AVOID_TENSION', 'LEG_CONSTRAINTS',
   'LAST_TRIP_DIAGNOSTIC', 'TRIP_DEADLINE', 'TRIP_TIMED_OUT', 'TRIP_TIME_BUDGET_MS', 'MOTO_NO_MOTORWAY_SPEED_FACTOR', 'MOTO_NO_MOTORWAY_SPEED_FACTOR_DEFAULT'];
 
@@ -241,7 +242,13 @@ function check(params, res, elapsedMs){
     ap('diagMinDistanceUnreachable');
     if(unreach && !res.minDistanceUnreachable && !isolated) bad('diagMinDistanceUnreachable', 'moyenne', 'éloignement inatteignable non signalé', { legsN: legs.length });
     if(!unreach && res.minDistanceUnreachable) bad('diagMinDistanceUnreachable', 'moyenne', 'minDistanceUnreachable signalé à tort');
+    // Ce contrôle REDÉRIVE la formule du moteur : il attrape un changement de formule d'un côté seulement, il ne
+    // dit rien de la justesse du chiffre (18e audit du 21/09/2026 — il ne pouvait pas voir que le 17e avait
+    // déclaré ce plafond « exact »). Ce que le sens du champ garantit, en revanche, est contrôlable et l'est
+    // ci-dessous : pour un séjour, returnCapKm est la contrainte de retour CHOISIE par le visiteur, donc jamais
+    // au-dessus d'elle, et ce n'est pas une distance mesurée — returnCapExact doit valoir faux.
     if(res.minDistanceUnreachable && res.returnCapKm !== returnCap) bad('diagMinDistanceUnreachable', 'basse', 'returnCapKm ' + res.returnCapKm + ' ≠ ' + returnCap);
+    if(res.minDistanceUnreachable && res.returnCapExact !== false) bad('diagMinDistanceUnreachable', 'moyenne', 'plafond d\'un séjour annoncé comme mesuré (returnCapExact ' + res.returnCapExact + ') : ce n\'est que la contrainte de retour choisie');
   }
   // Aller-retour dans la journée (14e audit du 19/09/2026 : aucun de ses diagnostics n'était contrôlé, d'où un plafond
   // annoncé trop bas près d'un pays plus rapide, Bamako « 196 km » pour 261 km faisables) :
@@ -424,7 +431,7 @@ function check(params, res, elapsedMs){
         // Paire de ports éloignée de la paire de référence (15e audit) : traversée ESTIMÉE — distance = orthodromie de la
         // paire, durée = distance ÷ vitesse médiane des lignes publiées de même longueur, prix inconnu. Recalculé ici à
         // partir des ports choisis (même règle ×1,5 + 5 km que le moteur).
-        const fp = A.ferryRoadParts(from, cur, sea ? fromZ : fromLm, sea ? toZ : toLm, route);
+        const fp = A.ferryRoadParts(from, cur, sea ? fromZ : fromLm, sea ? toZ : toLm, route, N.speed);
         const pairKm = fp && fp.fromPort ? hav(fp.fromPort.lat, fp.fromPort.lon, fp.toPort.lat, fp.toPort.lon) : null;
         const refKm = fp ? fp.refSeaKm : null;
         const estimated = pairKm > 0 && refKm > 0 && route.distanceKm > 0 && (pairKm > refKm * 1.5 + 5 || pairKm * 1.5 + 5 < refKm);
@@ -460,7 +467,9 @@ function check(params, res, elapsedMs){
     let parts = null;
     if(leg.ferryInfo && route){
       const fs_ = sea ? fromZ : fromLm, ts_ = sea ? toZ : toLm;
-      parts = A.ferryRoadParts(from, cur, fs_, ts_, route);
+      // N.speed : vitesse du mode, comme finalizeHop (18e audit du 21/09/2026). La paire de ports se choisit sur le
+      // temps total ; à 80 km/h au lieu de 15 km/h à vélo, le contrôle recomposait une AUTRE paire que le moteur.
+      parts = A.ferryRoadParts(from, cur, fs_, ts_, route, N.speed);
       ap('ferryRoadKm');
       if(leg.roadKm !== undefined && Math.abs(leg.roadKm - Math.round(parts.km)) > 1) bad('ferryRoadKm', 'basse', 'roadKm ' + leg.roadKm + ' ≠ ' + Math.round(parts.km), { i });
       if(parts.fromPort){

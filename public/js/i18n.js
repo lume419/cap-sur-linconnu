@@ -163759,6 +163759,12 @@
     if(matches.length === 0){
       var empty = document.createElement('li');
       empty.className = 'lang-option-empty';
+      // role="option" + aria-disabled (18e audit du 21/09/2026) : une liste role="listbox" n'admet que des
+      // « option » ou des « group », un enfant générique y est simplement IGNORÉ — la liste paraissait vide au
+      // lieu d'annoncer « aucune langue trouvée ». app.js fait déjà exactement cela pour les messages de la
+      // recherche de ville (voir renderSuggestMessage) ; c'est ici que l'asymétrie s'était glissée.
+      empty.setAttribute('role', 'option');
+      empty.setAttribute('aria-disabled', 'true');
       empty.textContent = t('lang.searchNoResults');
       listEl.appendChild(empty);
       return;
@@ -163905,16 +163911,16 @@
   // (russe dans l'ex-URSS, anglais ailleurs à défaut de seconde langue officielle).
   var LOCALE_FALLBACK = {
     lb: 'de-LU', rm: 'de-CH', mt: 'en-MT', eu: 'es-ES', gl: 'es-ES', ga: 'en-IE', gv: 'en-IM', cy: 'en-GB', gd: 'en-GB',
-    sq: 'en-AL', mk: 'en-MK', is: 'en-IS', fo: 'da-FO', be: 'ru-BY', ka: 'en-GE', hy: 'ru-AM', so: 'ar-SO', ky: 'ru-KG',
-    mn: 'ru-MN', ne: 'en-NP', si: 'en-LK', my: 'en-MM', lo: 'en-LA', km: 'en-KH',
+    sq: 'en-AL', mk: 'bg-BG', is: 'en-IS', fo: 'da-FO', be: 'ru-BY', ka: 'en-GE', hy: 'ru-AM', so: 'en-KE', ky: 'ru-KG',
+    mn: 'ru-MN', ne: 'hi-IN', si: 'en-LK', my: 'en-MM', lo: 'en-LA', km: 'en-KH',
     nds: 'de-DE', hsb: 'de-DE', frr: 'de-DE', sc: 'it-IT', fur: 'it-IT', lld: 'it-IT', lij: 'fr-MC',
-    'nrf-je': 'en-JE', 'nrf-gg': 'en-GG', csb: 'pl-PL', rue: 'pl-PL', ruo: 'hr-HR', oc: 'fr-FR', br: 'fr-FR', co: 'fr-FR',
-    mwl: 'pt-PT', kw: 'en-GB', sco: 'en-GB', ltg: 'lv-LV', vro: 'et-EE', sgs: 'lt-LT', gag: 'ro-MD', crh: 'uk-UA',
-    ab: 'ru-RU', cnr: 'sr-Latn-ME', ku: 'ar-SY', tru: 'tr-TR', ady: 'ru-RU', zgh: 'ar-MA', kab: 'fr-DZ',
-    ha: 'fr-NE', om: 'am-ET', ti: 'am-ET', sg: 'fr-CF', crs: 'fr-SC', rw: 'fr-RW', mg: 'fr-MG',
+    'nrf-je': 'en-JE', 'nrf-gg': 'en-GG', csb: 'pl-PL', rue: 'uk-UA', ruo: 'hr-HR', oc: 'fr-FR', br: 'fr-FR', co: 'fr-FR',
+    mwl: 'pt-PT', kw: 'en-GB', sco: 'en-GB', ltg: 'lv-LV', vro: 'et-EE', sgs: 'lt-LT', gag: 'ro-MD', crh: 'tr-TR',
+    ab: 'ru-RU', cnr: 'sr-Latn-ME', ku: 'tr-TR', tru: 'tr-TR', ady: 'ru-RU', zgh: 'ar-MA', kab: 'fr-DZ',
+    ha: 'fr-NE', om: 'en-KE', ti: 'am-ET', sg: 'fr-CF', crs: 'fr-SC', rw: 'fr-RW', mg: 'fr-MG',
     nso: 'en-ZA', st: 'en-ZA', tn: 'en-ZA', ss: 'en-SZ', nr: 'en-ZA', ve: 'en-ZA', ts: 'en-ZA', sn: 'en-ZW', xh: 'en-ZA', zu: 'en-ZA', af: 'en-ZA',
     tt: 'ru-RU', ba: 'ru-RU', sah: 'ru-RU', ce: 'ru-RU', myv: 'ru-RU', mdf: 'ru-RU', udm: 'ru-RU',
-    ckb: 'ar-IQ', kaa: 'uz-UZ', tg: 'ru-TJ', tk: 'ru-TM', hak: 'zh-Hant-TW', za: 'zh-CN', ii: 'zh-CN',
+    ckb: 'ar-IQ', kaa: 'uz-UZ', tg: 'ru-TJ', tk: 'tr-TR', hak: 'zh-Hant-TW', za: 'zh-CN', ii: 'zh-CN',
     dz: 'en-BT', dv: 'en-MV', tet: 'pt-TL', jv: 'id-ID', mi: 'en-NZ', sm: 'en-WS', ty: 'fr-PF', mrq: 'fr-PF',
     haw: 'en-US', ht: 'fr-HT', 'pap-AW': 'nl-AW', 'pap-CW': 'nl-CW', qu: 'es-PE', 'qu-EC': 'es-EC', gn: 'es-PY',
     ch: 'en-GU', pau: 'en-PW', mh: 'en-MH', kl: 'da-GL', ay: 'es-BO', yua: 'es-MX', quc: 'es-GT', cak: 'es-GT', kek: 'es-GT'
@@ -163934,6 +163940,31 @@
   //   - tru -> tr-TR : touroyo écrit ici en alphabet latin ; langue du Tur Abdin (province de Mardin, sud-est de la
   //     Turquie), dont il tire son nom (ṭuroyo, « de la montagne ») — le turc y est la langue de contact en écriture
   //     latine. Choix de repli d'affichage (dates, nombres), pas une affirmation sur la langue des lecteurs.
+  // 18e audit du 21/09/2026 : la règle « repli dans une locale de la MÊME ÉCRITURE » avait été appliquée à tru et
+  // ady seulement, alors que quatre autres langues tombaient dans le même piège. Corrigées ici, avec la même
+  // justification — écriture d'abord, langue de contact ensuite :
+  //   - ku (kurmandji, alphabet LATIN) : ar-SY -> tr-TR. En arabe, l'interface affichait « ٦ roj٣ bajar٥ şev »,
+  //     des mois en arabe (« ٢٣–٢٦ أيلول ») et des noms de pays en arabe au milieu d'un texte kurde en latin ;
+  //   - so (somali, alphabet LATIN) : ar-SO -> en-KE. Même dégât (« ٦ maalmood », « ٢٣–٢٦ سبتمبر ») ; l'anglais
+  //     du Kenya est la locale latine la plus proche largement présente dans les données ICU réduites ;
+  //   - crh (tatar de Crimée, alphabet LATIN officiel en Ukraine depuis 2021) : uk-UA -> tr-TR. Le repli imposait
+  //     le cyrillique (« 23–28 вер. 2026 р. »), c'est-à-dire l'écriture que la langue a abandonnée ; le turc lui
+  //     est la langue la plus proche en écriture latine ;
+  //   - rue (rusyn, alphabet CYRILLIQUE) : pl-PL -> uk-UA. Le repli polonais donnait « 23–28 wrz 2026 » en latin
+  //     sous une interface cyrillique.
+  // Ces quatre-là ne mordent que sur les navigateurs à données ICU réduites — ceux-là mêmes pour qui
+  // LOCALE_FALLBACK existe. Avec l'ICU complet, ku-SY, so-SO, crh et rue sont reconnus et le repli ne sert pas.
+  // La règle a ensuite été passée sur les 110 langues à repli (balayage : écriture du nom propre de la langue
+  // contre celle des mois que produirait sa locale de repli), ce qui en a sorti quatre autres :
+  //   - om (oromo, LATIN) : am-ET -> en-KE. Les mois sortaient en guèze (« ሴፕቴምበር ») sous un texte en latin ;
+  //   - tk (turkmène, LATIN depuis 1993) : ru-TM -> tr-TR. Mois en cyrillique (« сентябрь ») ;
+  //   - mk (macédonien, CYRILLIQUE) : en-MK -> bg-BG. Mois en latin sous un texte cyrillique ; le bulgare est la
+  //     langue la plus proche en cyrillique, et ses mois sont quasi identiques (« септември ») ;
+  //   - ne (népali, DEVANAGARI) : en-NP -> hi-IN. Mois en latin sous un texte en devanagari.
+  // Restent des discordances ASSUMÉES, faute de mieux — aucune locale n'existe dans l'écriture de la langue
+  // (dv thâna, dz tibétain, ka géorgien, km khmer, lo lao, my birman, si singhalais, ii yi, zgh tifinagh), ou la
+  // langue de contact est réellement lue par ce public dans son écriture à elle (za -> zh-CN, hy -> ru-AM, comme
+  // ady -> ru-RU). tests/i18n.test.js les liste et vérifie qu'aucune ne devient inutile.
   function localeTag(code){
     code = code || lang;
     if(localeCache[code]) return localeCache[code];

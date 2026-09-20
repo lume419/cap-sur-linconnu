@@ -5,7 +5,7 @@
 0;73.1756,6.7649;MV-37;Haa Dhaalu Atholhu;Hanimaadhoo
 0;73.1500,-0.7000;MV-01;Seenu;Gan
 0;73.0125,5.7645;MV-44;Raa Atoll;Hulhudhuffaaru
-2156;72.9689,3.7571;MV-10346475;Southern Ari Atoll;Mahibadhoo
+2156;72.9689,3.7571;MV;Southern Ari Atoll;Mahibadhoo
 2808;73.0708,5.1033;MV-31;Baa Atholhu;Eydhafushi
 1562;72.8944,2.6707;MV-32;Dhaalu Atholhu;Kudahuvadhoo
 453;72.9649,3.0792;MV-33;Faafu Atholhu;Magoodhoo
@@ -24,8 +24,8 @@
 1100;73.0956,2.1877;MV-46;Thaa Atholhu;Veymandoo
 541;73.5470,3.4718;MV-47;Vaavu Atholhu;Felidhoo
 0;73.0821,6.6658;MV-37;Haa Dhaalu Atholhu;Nolhivaram
-0;72.7964,3.4841;MV-10346475;Southern Ari Atoll;Nalaguraidhu
-0;72.9540,3.8496;MV-10346475;Southern Ari Atoll;Vilamendhoo
+0;72.7964,3.4841;MV;Southern Ari Atoll;Nalaguraidhu
+0;72.9540,3.8496;MV;Southern Ari Atoll;Vilamendhoo
 0;73.0366,3.2138;MV-33;Faafu Atholhu;Filitheyo Island
 0;73.5389,2.8538;MV-41;Meemu Atholhu;Hakuraa Huraa
 0;73.5753,2.8843;MV-41;Meemu Atholhu;Medhufushi
@@ -80,7 +80,7 @@
 0;73.5394,3.4886;MV-47;Vaavu Atholhu;Tinadu
 0;73.2274,-0.5947;MV-01;Seenu;Hulumido
 0;72.8645,4.2151;MV-30;Northern Ari Atoll;Ukulhas
-0;72.9554,3.6077;MV-10346475;Southern Ari Atoll;Dhangethi
+0;72.9554,3.6077;MV;Southern Ari Atoll;Dhangethi
 0;72.9921,4.2625;MV-30;Northern Ari Atoll;Rasdhoo
 0;72.9975,4.8731;MV-31;Baa Atholhu;Goidhoo
 0;73.5708,4.3097;MV-38;Kaafu Atoll;Himmafushi
@@ -102,7 +102,7 @@
 0;73.4993,4.7355;MV-38;Kaafu Atoll;Gaafaru
 1801;73.6527,4.3742;MV-38;Kaafu Atoll;Thulusdhoo
 0;72.8958,6.9825;MV-36;Haa Alifu Atholhu;Hoarafushi
-0;72.8196,3.6513;MV-10346475;Southern Ari Atoll;Maamigili
+0;72.8196,3.6513;MV;Southern Ari Atoll;Maamigili
 0;72.9852,3.1168;MV-33;Faafu Atholhu;Bileiydhoo
 0;73.0029,3.2695;MV-33;Faafu Atholhu;Feeali
 0;72.9254,3.0615;MV-33;Faafu Atholhu;Dharanboodhoo
@@ -116,4 +116,4 @@
 0;72.9147,2.9477;MV-32;Dhaalu Atholhu;Maagau Island Town
 0;72.9925,5.2705;MV-31;Baa Atholhu;Keyodhoo
 0;73.3925,4.2175;MV-38;Kaafu Atoll;Atoll
-0;72.7232,3.6178;MV-10346475;Southern Ari Atoll;Rangali Island
+0;72.7232,3.6178;MV;Southern Ari Atoll;Rangali Island

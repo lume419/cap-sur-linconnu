@@ -13438,7 +13438,6 @@
 516;-73.2224,-16.4007;04470;Arequipa;La Planchada
 90;-76.0385,-13.4845;11740;Ica;La Pinta
 344;-76.7982,-11.3722;15205;Lima region;La Perla
-107;-77.0000,-11.0000;15255;Lima region;La Perla
 0;-75.2200,-15.2527;11420;Ica;La Pedregosa
 0;-71.1023,-16.0667;04210;Arequipa;La Patera
 103;-70.8530,-17.0837;18100;Moquegua Department;La Pascana

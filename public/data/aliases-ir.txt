@@ -1070,7 +1070,6 @@ fa;كَيانِ بَر آفتاب;Kīān Barāftāb
 fa;جازستان;Manţaqeh-ye Jāzestān
 fa;منطقه جازستان;Manţaqeh-ye Jāzestān
 fa;جان مُحَمَّد خُسرُو;Jān Moḩammad Khosrow
-fa;جَلدان;Jaldān
 fa;هَلوَر;Halvar
 fa;هلاکدر;Manţaqeh-ye Halākadar
 fa;منطقه هلاکدر;Manţaqeh-ye Halākadar

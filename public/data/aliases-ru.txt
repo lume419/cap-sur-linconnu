@@ -44642,7 +44642,6 @@ ru;Лисичино;Lisichino
 ru;Лисичиха;Lisichikha
 ru;Лишутино;Lishutino
 ru;Лишняги;Lishnyagi
-ru;Лишнева;Lishneva
 ru;Лишки;Lishki
 ru;Лишенино;Lishenino
 ru;Лисенки;Lisenki
@@ -92211,7 +92210,6 @@ no;Mal.Syry;Malyye Syry
 ru;Малые Сыры;Malyye Syry
 ru;Малые Плесики;Malyye Plesiki
 ru;Малые Нори;Malyye Nori
-ru;Малые Малюки;Malyye Malyuki
 ru;Мал.Кныши;Malyye Knyshi
 no;Mal.Knysji;Malyye Knyshi
 ru;Малые Кныши;Malyye Knyshi
@@ -125082,7 +125080,6 @@ ky;Ставрополь;Stavropol
 hi;स्तावरोपोल;Stavropol
 bn;স্টাভ্রোপল;Stavropol
 ur;سٹاوروپول;Stavropol
-am;ስታVሮፖል;Stavropol
 fa;استاوروپول;Stavropol
 ja;スタヴロポリ;Stavropol
 pa;ਸਟਾਵਰੋਪੋਲ;Stavropol
@@ -130314,7 +130311,6 @@ ky;Владивосток;Vladivostok
 ta;விலாடிவொஸ்டொக்;Vladivostok
 th;วลาดีวอสตอค;Vladivostok
 bn;ভ্লাদিভোস্টক;Vladivostok
-am;vladimir ვოსტოค;Vladivostok
 pa;ਵਲਾਡੀਵੋਸਟੋਕ;Vladivostok
 ps;ولادیووسٹوک;Vladivostok
 tg;Владивосток;Vladivostok

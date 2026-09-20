@@ -370,6 +370,7 @@
   // visible à chaque chargement de page (signalé par l'utilisateur), alors que le sélecteur de
   // langue juste à côté (indépendant, construit par i18n.js) apparaît lui immédiatement.
   var currencySwitcherRoot = null, currencyPanelEl = null, currencyListEl = null, currencyButtonEl = null;
+  var currencyTypeBuf = '', currencyTypeAt = 0; // recherche au clavier (voir currencyTypeAheadIndex)
 
   function renderCurrencyButton(){
     if(!currencyButtonEl) return;
@@ -389,6 +390,24 @@
     if(wasOpen && returnFocus === true && currencyButtonEl) currencyButtonEl.focus();
   }
   function currencyOptions(){ return currencyListEl ? Array.prototype.slice.call(currencyListEl.querySelectorAll('.currency-option')) : []; }
+  // RECHERCHE AU CLAVIER (18e audit du 21/09/2026). Le sélecteur de devise aligne 153 options ; le sélecteur de langue,
+  // qui en a 161, a un champ de recherche, mais celui-ci n'avait que les flèches : atteindre « ZAR » demandait 150
+  // appuis sur Flèche bas. Taper « z », « a », « r » y mène directement, comme dans toute liste déroulante du système.
+  // Règles usuelles d'une listbox : les frappes s'accumulent tant qu'elles s'enchaînent (une seconde), une lettre seule
+  // répétée fait défiler les options qui commencent par elle, la recherche repart du début de la liste si la fin ne
+  // donne rien. Rendue pure (libellés, position, tampon) pour être vérifiable sans navigateur — voir tests/ui.test.js.
+  function currencyTypeAheadIndex(labels, from, buffer){
+    if(!buffer) return -1;
+    var b = buffer.toLowerCase();
+    // Une seule lettre : on part de l'option SUIVANTE pour faire défiler les homonymes ; plusieurs lettres : on repart
+    // de l'option courante, que la frappe précédente vient peut-être de désigner.
+    var début = b.length === 1 ? from + 1 : from;
+    for(var i = 0; i < labels.length; i++){
+      var j = (début + i % labels.length + labels.length) % labels.length;
+      if(String(labels[j] || '').toLowerCase().indexOf(b) === 0) return j;
+    }
+    return -1;
+  }
   function focusCurrencyOption(idx){
     var opts = currencyOptions();
     if(opts.length) opts[Math.max(0, Math.min(opts.length - 1, idx))].focus();
@@ -497,6 +516,15 @@
       else if(e.key === 'ArrowUp'){ e.preventDefault(); focusCurrencyOption(idx - 1); }
       else if(e.key === 'Home'){ e.preventDefault(); focusCurrencyOption(0); }
       else if(e.key === 'End'){ e.preventDefault(); focusCurrencyOption(opts.length - 1); }
+      else if(e.key && e.key.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey && e.key.trim()){
+        // Espace exclu (e.key.trim()) : l'option s'en sert déjà pour valider le choix.
+        var maintenant = Date.now();
+        if(maintenant - currencyTypeAt > 1000) currencyTypeBuf = '';
+        currencyTypeAt = maintenant;
+        currencyTypeBuf += e.key;
+        var cible = currencyTypeAheadIndex(opts.map(function(o){ return o.textContent; }), idx, currencyTypeBuf);
+        if(cible >= 0){ e.preventDefault(); focusCurrencyOption(cible); }
+      }
     });
     currencyButtonEl.addEventListener('keydown', function(e){
       if(e.key === 'ArrowDown' && !currencyPanelEl.classList.contains('show')){ e.preventDefault(); openCurrencyPanel(); }
@@ -1545,8 +1573,15 @@
   // champ ville était signalé fautif et recevait le focus pour une erreur du serveur). Le bouton garde le focus.
   function showFormError(message){
     if(!els.formError) return showCityError(message);
-    setErrorText(els.formError, message);
+    // RENDRE VISIBLE D'ABORD, écrire ensuite (18e audit du 21/09/2026). Le texte était posé pendant que la région
+    // portait encore « display:none » : une région role="alert" absente du rendu n'est PAS dans l'arbre
+    // d'accessibilité, l'insertion n'y déclenche donc aucune annonce, et rendre visible une région DÉJÀ remplie
+    // n'est pas annoncé de façon fiable (NVDA, JAWS, VoiceOver). Le quota, le serveur occupé, le délai dépassé, la
+    // coupure réseau et l'itinéraire impossible passaient tous par là : rien n'était lu à voix haute.
+    // L'écriture est reportée à la tâche suivante pour que la technologie d'assistance ait vu la région apparaître
+    // avant que son contenu ne change.
     els.formError.classList.add('show');
+    setTimeout(function(){ if(els.formError.classList.contains('show')) setErrorText(els.formError, message); }, 0);
   }
   function clearFormError(){
     if(!els.formError) return;
@@ -1674,9 +1709,19 @@
       cpSpan.textContent = formatCpBadge(r);
       // Nom du pays dans la langue d'interface (COUNTRIES[..].name est en français) — voir countryDisplayName.
       var countryName = countryDisplayName(r.country, (COUNTRIES[r.country] && COUNTRIES[r.country].name) || '');
-      if(countryName) li.setAttribute('title', countryName); // survol/lecteur d'écran : nom du pays en clair, pas seulement le drapeau
+      if(countryName) li.setAttribute('title', countryName); // survol : nom du pays en clair, pas seulement le drapeau
+      // …et dans le NOM ACCESSIBLE (18e audit du 21/09/2026). Le drapeau est une image décorative et « title » n'est
+      // qu'une DESCRIPTION, que les lecteurs d'écran ne lisent pas par défaut dans une liste et qui n'existe pas au
+      // toucher : une saisie « Lyon » annonçait cinq « Lyons » suivis d'un code postal, sans moyen de savoir lequel
+      // est en France. Le nom du pays est donc ajouté au contenu de l'option, hors écran.
       li.appendChild(nameSpan);
       li.appendChild(cpSpan);
+      if(countryName){
+        var paysSpan = document.createElement('span');
+        paysSpan.className = 'visually-hidden';
+        paysSpan.textContent = ' ' + countryName;
+        li.appendChild(paysSpan);
+      }
       li.addEventListener('mousedown', function(e){ e.preventDefault(); selectCommune(r); });
       els.citySuggest.appendChild(li);
     });
@@ -1775,10 +1820,16 @@
               return body && body.error === 'busy' ? { busy: true } : { loading: true };
             });
           }
-          return r.ok ? r.json() : { results: [] };
+          // Tout autre refus (400, 404, 500…) : DIRE que la recherche a échoué (18e audit du 21/09/2026). La liste
+          // se refermait sans un mot, exactement comme pour « cette ville n'existe pas » — c'est ce qui a rendu si
+          // long le diagnostic du 404 posé par le pare-feu de l'hébergement à la 17e passe : côté visiteur, une
+          // panne d'infrastructure et une saisie sans résultat se ressemblaient trait pour trait.
+          if(!r.ok) return { échec: true };
+          return r.json();
         })
         .then(function(data){
           if(mySeq !== searchRequestSeq) return; // une saisie plus récente (ou la fermeture de la liste) a pris le relais
+          if(data.échec){ renderSuggestMessage(t('error.network')); return; }
           if(data.tooMany){ renderSuggestMessage(t('error.tooManyRequests')); return; }
           if(data.loading || data.busy){
             renderSuggestMessage(t(data.busy ? 'error.serverBusy' : 'form.city.loadingPlaceholder'));
@@ -1792,7 +1843,8 @@
           }
           renderSuggestions(data.results || []);
         })
-        .catch(function(){ if(mySeq === searchRequestSeq) renderSuggestions([]); });
+        // Panne réseau : même traitement que le tirage depuis la 16e passe — on le dit, au lieu de refermer la liste.
+        .catch(function(){ if(mySeq === searchRequestSeq) renderSuggestMessage(t('error.network')); });
     }
     searchDebounceTimer = setTimeout(runSearch, 150);
   });
@@ -4643,8 +4695,13 @@
         // 17e audit du 20/09/2026 : 413 (corps refusé, itinéraire trop volumineux — voir la limite de taille dans
         // server.js) affichait « réessayez dans un instant », un conseil FAUX : réessayer à l'identique redonnera 413.
         // Message dédié qui dit quoi changer (raccourcir le voyage, enlever des étapes).
+        // 18e audit du 21/09/2026 : une COUPURE RÉSEAU affichait « Échec de la génération du PDF — réessayez dans
+        // un instant », alors que le tirage, lui, sait dire « Serveur injoignable : vérifiez votre connexion »
+        // depuis la 16e passe. Une requête qui n'a jamais abouti n'a pas de statut : c'est ce qui la distingue.
         var status = err && err.status;
-        els.exportHint.textContent = status === 429 ? t('error.tooManyRequests') : status === 503 ? t('error.serverBusy')
+        var réseau = !status && err && err.name !== 'AbortError';
+        els.exportHint.textContent = réseau ? t('error.network')
+          : status === 429 ? t('error.tooManyRequests') : status === 503 ? t('error.serverBusy')
           : status === 413 ? t('export.tooLarge') : t('export.error');
         setTimeout(function(){ els.exportHint.textContent = t('export.hint'); }, 6000);
       }

@@ -325,7 +325,6 @@
 0;-75.9000,5.7500;CO-02;Antioquia;Versalles
 0;-73.4338,5.6565;CO-36;Boyacá;Versalles
 0;-74.5923,5.1371;CO-33;Cundinamarca;Versalles
-0;-74.0000,5.0000;CO-33;Cundinamarca;Versalles
 3542;-76.1988,4.5747;CO-29;Valle del Cauca Department;Versalles
 0;-76.3833,4.3167;CO-29;Valle del Cauca Department;Vernaza
 0;-73.8000,8.7167;CO-10;Cesar Department;Vergel
@@ -1912,7 +1911,6 @@
 0;-75.7981,5.2290;CO-37;Caldas Department;San Pedro
 0;-74.5000,5.0333;CO-33;Cundinamarca;San Pedro
 0;-73.9539,5.0257;CO-33;Cundinamarca;San Pedro
-0;-75.0000,5.0000;CO-28;Tolima Department;San Pedro
 0;-74.6000,4.9833;CO-33;Cundinamarca;San Pedro
 0;-74.8833,4.9333;CO-28;Tolima Department;San Pedro
 0;-74.4500,4.9000;CO-33;Cundinamarca;San Pedro
@@ -7565,7 +7563,6 @@
 0;-70.1306,3.2461;CO-15;Guainía Department;La Frontera
 0;-71.7167,4.6167;CO-19;Meta Department;La Fría
 0;-76.4746,3.7603;CO-29;Valle del Cauca Department;La Fresneda
-0;-74.0000,5.0000;CO-33;Cundinamarca;La Fragüita
 0;-74.2208,4.6996;CO-33;Cundinamarca;La Fragua
 0;-74.1500,10.4667;CO-38;Magdalena Department;La Fortuna
 0;-74.5167,10.1667;CO-38;Magdalena Department;La Fortuna
@@ -8409,7 +8406,6 @@
 0;-78.1206,1.3390;CO-20;Nariño;Junín
 0;-73.9465,-0.8093;CO-01;Amazonas Department;Junín
 0;-75.8500,6.8333;CO-02;Antioquia;Junco
-0;-74.0000,5.0000;CO-33;Cundinamarca;Juncalito
 0;-74.7494,10.7100;CO-04;Atlántico;Juncalejo
 0;-72.0053,12.2334;CO-17;La Guajira Department;Junain
 0;-76.6467,2.4775;CO-09;Cauca Department;Julumito
@@ -11745,7 +11741,6 @@
 0;-75.0000,10.0667;CO-35;Bolívar;Corral El Totumo
 0;-72.8500,10.7333;CO-17;La Guajira Department;Corralejo
 0;-73.9000,5.3000;CO-33;Cundinamarca;Corralejas
-0;-74.0000,5.0000;CO-33;Cundinamarca;Corralejas
 0;-73.0539,10.8209;CO-17;La Guajira Department;Corral de Piedra
 0;-71.5402,6.4542;CO-03;Arauca Department;Corozo Largo
 0;-74.6833,5.3833;CO-33;Cundinamarca;Corozo

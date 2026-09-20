@@ -4255,7 +4255,6 @@ ru;Таллахасси;Tallahassee
 ko;탤러해시;Tallahassee
 ar;تالاهاسي;Tallahassee
 zh;塔拉赫西;Tallahassee
-hi;तल्लाहाসी;Tallahassee
 ar;تاماراك;Tamarac
 zh;塔玛拉克;Tamarac
 ru;Тамарак;Tamarac
@@ -70215,7 +70214,6 @@ pa;ਰਿਚਮੰਡ;Richmond
 ps;ریچمنډ;Richmond
 tg;Ричмонд;Richmond
 sr;Ричландс;Richlands
-ur;رچلینڈs، ورجینیا;Richlands
 tt;Райнер;Riner
 ce;Райнер;Riner
 uk;Райнер;Riner
@@ -112511,7 +112509,6 @@ fa;اوفیم، مونتانا;Opheim
 tt;Орчерд-Гоумс;Orchard Homes
 uk;Орчерд-Гоумс;Orchard Homes
 fa;اورچرد هوم، مونتانا;Orchard Homes
-ur;آرچرڈ ہومs، مونٹانا;Orchard Homes
 sr;Очард Хоумс;Orchard Homes
 tt;Овандо;Ovando
 uk;Овандо;Ovando

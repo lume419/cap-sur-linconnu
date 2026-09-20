@@ -221,7 +221,6 @@ fa;اورادنیا;Uradeniya
 fa;اوپکوت;Upcot
 ta;அப்கொட்;Upcot
 ru;Унаватуна;Unawatuna
-ta;උණවටුන;Unawatuna
 si;උණවටුන;Unawatuna
 fa;اوناواتونا;Unawatuna
 ur;اناواتونا;Unawatuna
@@ -1063,7 +1062,7 @@ fa;لالپه;Lalpe
 ur;لالپی;Lalpe
 fa;لابوگولا;Labugolla
 ur;لابوگولا;Labugolla
-ta;කුරුවිට;Kuruwita
+si;කුරුවිට;Kuruwita
 ru;Курунегала;Kurunegala
 ta;குருணாகல்;Kurunegala
 ja;クルネーガラ;Kurunegala

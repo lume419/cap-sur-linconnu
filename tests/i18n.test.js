@@ -30,7 +30,7 @@ function loadI18n(){
   let src = fs.readFileSync(path.join(PUB, 'js', 'i18n.js'), 'utf8');
   const i = src.lastIndexOf('window.I18N = {');
   assert.ok(i > 0, 'window.I18N introuvable dans i18n.js');
-  src = src.slice(0, i) + 'window.__S = STRINGS; window.__L = LISTS; ' + src.slice(i);
+  src = src.slice(0, i) + 'window.__S = STRINGS; window.__L = LISTS; window.__F = LOCALE_FALLBACK; window.__N = LANG_NAMES; ' + src.slice(i);
   const fakeEl = () => ({ setAttribute(){}, getAttribute(){ return null; }, classList: { add(){}, remove(){}, contains(){ return false; } }, appendChild(){}, addEventListener(){},
     querySelector(){ return fakeEl(); }, querySelectorAll(){ return []; }, style: {} });
   const ctx = { window: {}, navigator: { languages: ['fr'] }, localStorage: { getItem: () => null, setItem(){} },
@@ -39,9 +39,9 @@ function loadI18n(){
   ctx.window.addEventListener = () => {}; ctx.window.dispatchEvent = () => {};
   vm.createContext(ctx);
   vm.runInContext(src, ctx);
-  return { S: ctx.window.__S, L: ctx.window.__L, langs: Array.from(ctx.window.I18N.SUPPORTED), I18N: ctx.window.I18N };
+  return { S: ctx.window.__S, L: ctx.window.__L, F: ctx.window.__F, N: ctx.window.__N, langs: Array.from(ctx.window.I18N.SUPPORTED), I18N: ctx.window.I18N };
 }
-const { S, L, langs, I18N } = loadI18n();
+const { S, L, F: LOCALE_FALLBACK_T, N: LANG_NAMES_T, langs, I18N } = loadI18n();
 const frKeys = Object.keys(S.fr);
 const placeholders = s => (String(s).match(/\{(\w+)\}/g) || []).sort().join(',');
 const report = (list, max) => list.length + ' problème(s) :\n  ' + list.slice(0, max || 25).join('\n  ') + (list.length > (max || 25) ? '\n  …' : '');
@@ -591,4 +591,47 @@ test('17e audit : sélecteur de langue — un seul motif ARIA (bouton + listbox)
   const filtered = list.querySelectorAll('.lang-option');
   assert.ok(filtered.length >= 1 && filtered.length < 20, filtered.length + ' résultats pour « deutsch »');
   assert.ok(filtered.every(o => o.getAttribute('role') === 'option'));
+});
+
+// --------------------------------------------------------- 18e audit du 21/09/2026 : écriture des replis
+// La 14e passe a corrigé le touroyo et l'adyguéen, dont la locale de repli imposait une écriture étrangère aux
+// dates, aux nombres et aux noms de pays (« ٦ roj٣ bajar » en kurde). Elle n'a pas passé la règle sur les autres :
+// le 18e audit a retrouvé le même défaut sur ku et so, et un balayage l'a retrouvé sur crh, rue, om, tk, mk et ne.
+// Ce contrôle l'applique désormais aux 110 langues à repli d'un coup.
+test('18e audit : locale de repli — jamais une écriture étrangère à celle de la langue', () => {
+  const F = LOCALE_FALLBACK_T;
+  assert.ok(F && Object.keys(F).length > 80, 'LOCALE_FALLBACK non exposée par i18n.js');
+  const SCRIPTS = [['latin', /\p{Script=Latin}/u], ['cyrillique', /\p{Script=Cyrillic}/u], ['grec', /\p{Script=Greek}/u],
+    ['arabe', /\p{Script=Arabic}/u], ['hébreu', /\p{Script=Hebrew}/u], ['guèze', /\p{Script=Ethiopic}/u],
+    ['devanagari', /\p{Script=Devanagari}/u], ['bengali', /\p{Script=Bengali}/u], ['tamoul', /\p{Script=Tamil}/u],
+    ['thaï', /\p{Script=Thai}/u], ['lao', /\p{Script=Lao}/u], ['khmer', /\p{Script=Khmer}/u], ['birman', /\p{Script=Myanmar}/u],
+    ['tibétain', /\p{Script=Tibetan}/u], ['géorgien', /\p{Script=Georgian}/u], ['arménien', /\p{Script=Armenian}/u],
+    ['thâna', /\p{Script=Thaana}/u], ['tifinagh', /\p{Script=Tifinagh}/u], ['yi', /\p{Script=Yi}/u],
+    ['singhalais', /\p{Script=Sinhala}/u], ['han', /\p{Script=Han}/u], ['hangul', /\p{Script=Hangul}/u],
+    ['kana', /\p{Script=Hiragana}|\p{Script=Katakana}/u], ['malayalam', /\p{Script=Malayalam}/u]];
+  const écriture = t => { for(const [nom, re] of SCRIPTS) if(re.test(String(t || ''))) return nom; return '?'; };
+  // Discordances ASSUMÉES : aucune locale n'existe dans l'écriture de la langue, ou la langue de contact est
+  // réellement lue par ce public. Chacune doit rester nécessaire — une entrée devenue inutile fait échouer le test.
+  const ASSUMÉES = {
+    dv: 'thâna : aucune locale ICU dans cette écriture', dz: 'tibétain : idem', ka: 'géorgien : idem',
+    km: 'khmer : idem', lo: 'lao : idem', my: 'birman : idem', si: 'singhalais : idem', ii: 'yi : idem',
+    zgh: 'tifinagh : idem (l\'arabe du Maroc est la langue de contact)',
+    za: 'le zhuang est écrit en latin mais ses locuteurs du Guangxi lisent le chinois, langue de contact réelle',
+    hy: 'l\'arménien a sa propre écriture ; à défaut de locale ICU, le russe est la langue de contact en Arménie'
+  };
+  const noms = LANG_NAMES_T;
+  assert.ok(noms && Object.keys(noms).length > 100, 'LANG_NAMES non exposée par i18n.js');
+  const date = new Date(Date.UTC(2026, 8, 23));
+  const bad = [], inutiles = [];
+  for(const code of Object.keys(F)){
+    let mois;
+    try { mois = new Intl.DateTimeFormat(F[code], { month: 'long' }).format(date); } catch(e){ mois = ''; }
+    const eLangue = écriture(noms[code] || code), eMois = écriture(mois);
+    const accord = eLangue === eMois;
+    if(!accord && !ASSUMÉES[code]) bad.push(code + ' (' + (noms[code] || '') + ') : écriture ' + eLangue +
+      ', mais « ' + mois + ' » en ' + eMois + ' via ' + F[code]);
+    if(accord && ASSUMÉES[code]) inutiles.push(code);
+  }
+  assert.deepEqual(bad, []);
+  assert.deepEqual(inutiles, [], 'exception devenue inutile : la retirer de ASSUMÉES');
 });

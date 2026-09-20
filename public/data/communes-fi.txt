@@ -6301,7 +6301,6 @@
 0;24.5649,60.1006;02420;Helsinki;Långvik
 0;23.1749,59.9628;10820;Raaseporin;Långstrand
 0;22.8989,63.8078;68550;Kokkola;Långö
-0;22.0000,63.0000;66400;Kyrönmaa;Långö
 0;22.4647,60.0512;25870;Åboland-Turunmaa;Långnäs
 0;21.6885,62.9658;65470;Vaasa;Långmossen
 0;22.7776,63.4928;66930;Jakobstadsregionen;Långholm
@@ -7471,7 +7470,6 @@
 0;23.3031,63.3236;62470;Seinäjoki;Kivijärvi
 1010;25.0784,63.1198;43800;Saarijärvi-Viitasaari;Kivijärvi
 0;25.0500,63.0667;43840;Saarijärvi-Viitasaari;Kivijärvi
-0;25.0000,63.0000;43660;Saarijärvi-Viitasaari;Kivijärvi
 0;24.3833,62.7833;43560;Saarijärvi-Viitasaari;Kivijärvi
 0;21.8833,61.7500;29880;Pohjois-Satakunta;Kivijärvi
 0;21.8892,60.9677;23880;Vakka-Suomi;Kivijärvi
@@ -7536,7 +7534,6 @@
 0;24.7142,65.0087;90480;Oulu;Kirkonkylä
 0;29.0000,64.9500;89600;Kehys-Kainuu;Kirkonkylä
 0;23.9264,62.7902;63501;Järviseutu;Kirkonkylä
-0;23.0000,63.0000;62101;Seinäjoki;Kirkonkylä
 0;30.3885,62.1900;82601;Keski-Karjala;Kirkkoniemi
 0;28.9000,63.5833;75710;Pielisen Karjala;Kirkkola
 0;26.0167,61.6667;19601;Lahti;Kirkkola
@@ -8301,7 +8298,6 @@
 1083;22.8959,63.6254;68800;Jakobstadsregionen;Kållby
 0;25.3226,60.2963;01151;Helsinki;Kallbäck
 0;23.1678,61.6123;39100;Tampere;Kalkunmäki
-0;26.0000,61.0000;16160;Lahti;Kalkkola
 0;25.6706,61.2972;17240;Lahti;Kalkkinen
 0;24.4719,65.9025;94460;Kemi-Tornio;Kalkkimaa
 0;22.7986,60.2056;25701;Åboland-Turunmaa;Kalkila

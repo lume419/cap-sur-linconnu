@@ -922,7 +922,7 @@ lv;Hulioeskudero;Professor Julio Escudero base
 nn;Profesor Julio Escudero-basen;Professor Julio Escudero base
 en;Julio Escudero;Professor Julio Escudero base
 en;Great Wall;Great Wall Station
-zh-CH;长城南极站;Great Wall Station
+zh-CN;长城南极站;Great Wall Station
 zh-Hant;長城南極站;Great Wall Station
 mk;Антарктички Голем Ѕид;Great Wall Station
 mk;Станица Антарктички Голем Ѕид;Great Wall Station

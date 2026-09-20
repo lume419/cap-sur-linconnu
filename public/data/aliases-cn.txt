@@ -113680,8 +113680,6 @@ zh;昂俄尔;Ngangngur
 zh;昂嘎;Nganggar
 zh;昂嘎;Angga
 zh;曲努公社;Angga
-zh;昂拉;Ngala
-zh;绿合;Ngala
 zh;八崩;Parboin
 zh;沙日克;Parboin
 zh;八仓;Bagcang
@@ -114755,7 +114753,6 @@ zh;都扎;Dugzhag
 zh;美莫;Dugzhag
 zh;堆村;Doicun
 zh;拉洛公社;Doicun
-zh;堆巴;Toiba
 bo;Tüna;Duina
 zh;堆纳;Duina
 zh;堆水;Doisig
@@ -114778,7 +114775,6 @@ zh;夺琼;Doqung
 zh;夺西;Doxu
 zh;火拉公社;Doxu
 zh;多巴;Doba
-zh;多堡;Dobug
 zh;多崩库;Dobungkug
 zh;索堆公社;Dobungkug
 zh;多布俄穷;Tobo’ngoinqung
@@ -114864,8 +114860,6 @@ zh;绒辖区;Camgyai
 bo;Cangqên;Cangqin
 zh;仓钦;Cangqin
 zh;乃日公社;Cangqin
-bo;Cêlam;Celang
-zh;测郎;Celang
 bo;Cêrrong;Cerong
 zh;策容;Cerong
 bo;Cêngo;Cengguo
@@ -115182,7 +115176,6 @@ zh;达当;Datang
 bo;Dadê;Dade
 zh;达都;Dando
 zh;都公社;Dando
-zh;达夺卡;Dadoka
 zh;达多;Dadog
 zh;其日;Dadog
 zh;达多日瓦;Dadoruwa
@@ -120260,8 +120253,6 @@ zh;德玛公社;Sago
 zh;萨炯;Sajum
 zh;巴岭公社;Sajum
 zh;萨库多;Sakugdo
-zh;萨莱;Salhai
-zh;秋措多公社;Salhai
 zh;萨鲁;Salu
 zh;萨马;Samar
 zh;萨马塘;Samartang
@@ -140037,7 +140028,6 @@ zh;谢尔塔拉二队;Xie’ertala Erdui
 zh;市和平五队;Shiheping Wudui
 zh;黑水沟子;Heishui Gouzi
 zh;大船口;Dachuankou
-zh;一Ｏ九队青年点;Yilingjiudui Qingniandian
 zh;铁路青年点;Tielu Qianniaodian
 zh;蒙古屯;Menggutun
 zh;友谊三队农业点;Youyi Sandui Nongyedian

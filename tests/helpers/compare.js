@@ -475,11 +475,12 @@ function directHop(A, TD, mode, a, b, km, tollEnabled){
   let leg = null, route = null, parts = null;
   if(A.zoneOf && A.seaCrossingFor && A.ferryRoadParts && A.finalizeFerryLeg){
     const fz = A.zoneOf(a), tz = A.zoneOf(b), crossing = A.seaCrossingFor(fz, tz);
-    if(crossing){ route = crossing; parts = A.ferryRoadParts(a, b, fz, tz, crossing); }
+    // speed en sixième argument comme finalizeHop (18e audit du 21/09/2026) : la paire de ports dépend de la vitesse du mode.
+    if(crossing){ route = crossing; parts = A.ferryRoadParts(a, b, fz, tz, crossing, speed); }
     else {
       const fl = A.landmassOf(a), tl = A.landmassOf(b);
       route = fl !== tl && A.ferryRouteFor ? A.ferryRouteFor(fl, tl) : null;
-      if(route) parts = A.ferryRoadParts(a, b, fl, tl, route);
+      if(route) parts = A.ferryRoadParts(a, b, fl, tl, route, speed);
     }
     if(route) leg = A.finalizeFerryLeg(mode, route, parts, speed, tollEnabled, a, b);
   }

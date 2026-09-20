@@ -354,7 +354,7 @@
 0;-10.4949,14.5313;ML-03;Kayes;Waguibougou
 0;-9.5447,14.7016;ML-03;Kayes;Wagnimou
 0;-5.1573,14.4932;ML-04;Mopti;Waganzana
-0;2.0368,15.4500;ML-12070577;Ménaka;Wagaman
+0;2.0368,15.4500;ML;Ménaka;Wagaman
 0;-9.1442,14.4547;ML-03;Kayes;Wagadou
 0;-11.1310,13.0099;ML-03;Kayes;Wafou
 0;-5.3351,13.7970;ML-05;Ségou;Wadié
@@ -1010,7 +1010,7 @@
 0;-0.5800,16.9206;ML-09;Gao;Taoussa
 0;-10.5999,14.3584;ML-03;Kayes;Taoura
 0;-3.3223,14.1081;ML-04;Mopti;Taounougou
-3019;-3.9792,22.6769;ML-12070575;Taoudénit;Taoudenni
+3019;-3.9792,22.6769;ML;Taoudénit;Taoudenni
 0;-8.0103,13.7279;ML-07;Koulikoro;Tao Tomo
 0;-7.9881,13.6854;ML-07;Koulikoro;Tao
 0;-2.9987,14.3148;ML-04;Mopti;Tantouma
@@ -1142,7 +1142,7 @@
 0;0.0570,16.1168;ML-09;Gao;Tachara
 0;0.2061,17.7294;ML-09;Gao;Tabrichat
 0;-8.4020,12.3366;ML-07;Koulikoro;Tabou
-0;2.1009,15.3826;ML-12070577;Ménaka;Tabonkort
+0;2.1009,15.3826;ML;Ménaka;Tabonkort
 0;-2.0497,15.0288;ML-04;Mopti;Tabi
 0;-4.8862,13.8756;ML-04;Mopti;Tabatou
 0;-5.2142,13.6079;ML-05;Ségou;Tabara
@@ -3360,7 +3360,7 @@
 0;-10.1786,14.1429;ML-03;Kayes;Mendié
 0;-11.5361,14.4484;ML-03;Kayes;Ménayéréka
 0;-11.3681,12.7109;ML-03;Kayes;Ménankoto
-14085;2.3961,15.9199;ML-12070577;Ménaka;Ménaka
+14085;2.3961,15.9199;ML;Ménaka;Ménaka
 0;-6.2043,12.2165;ML-07;Koulikoro;Mèna
 0;-5.2401,11.9397;ML-06;Sikasso;Ména
 0;-7.6308,11.4511;ML-06;Sikasso;Ména
@@ -8171,7 +8171,7 @@
 0;-0.2492,16.7428;ML-09;Gao;Argaga
 0;-8.6135,14.8611;ML-03;Kayes;Archâni
 0;-2.2510,16.8244;ML-08;Tombouctou;Arbichi
-4026;-3.5265,18.9048;ML-12070575;Taoudénit;Araouane
+4026;-3.5265,18.9048;ML;Taoudénit;Araouane
 0;-4.1721,15.4621;ML-04;Mopti;Aranga
 0;-3.3777,16.3779;ML-08;Tombouctou;Araham
 0;0.0014,16.1652;ML-09;Gao;Arabou
@@ -8205,7 +8205,7 @@
 0;0.6011,18.0400;ML-09;Gao;Anefis i-n-Darane
 0;-3.1717,16.3360;ML-08;Tombouctou;Andjébí
 0;-3.4000,14.0536;ML-04;Mopti;Andiama
-18688;3.0175,15.4275;ML-12070577;Ménaka;Andéranboukan
+18688;3.0175,15.4275;ML;Ménaka;Andéranboukan
 0;-3.6297,13.5657;ML-04;Mopti;Hamdallaye
 0;-3.0588,14.1341;ML-04;Mopti;Andakaga
 0;-3.3336,15.5318;ML-04;Mopti;Andagoye
@@ -8259,7 +8259,7 @@
 0;-2.1487,14.4748;ML-04;Mopti;Akoumbouro
 0;-6.9771,14.8702;ML-07;Koulikoro;Akor
 0;-0.2636,16.7100;ML-09;Gao;Akarankom
-0;2.0319,15.3717;ML-12070577;Ménaka;Akabar
+0;2.0319,15.3717;ML;Ménaka;Akabar
 0;-3.5039,16.2195;ML-08;Tombouctou;Akaban
 0;-4.2333,15.4040;ML-04;Mopti;Aka
 0;-11.6512,15.0894;ML-03;Kayes;Aïté
@@ -9164,15 +9164,15 @@
 0;-8.8131,12.7671;ML-03;Kayes;Missira
 0;-8.9807,12.7623;ML-03;Kayes;Niémafè
 0;1.7500,19.1167;ML-10;Kidal;Abeïbara
-0;2.4395,16.6176;ML-12070577;Ménaka;Tidarméné
-8714;3.1411,15.9594;ML-12070577;Ménaka;Inékar
+0;2.4395,16.6176;ML;Ménaka;Tidarméné
+8714;3.1411,15.9594;ML;Ménaka;Inékar
 22100;-0.4606,15.5461;ML-09;Gao;I-n-Tillit
 10599;-6.9506,15.4975;ML-01;Bamako;Abdel Begrou
 0;-1.3436,16.9972;ML-08;Tombouctou;Bassarey
 0;-0.7400,16.7747;ML-09;Gao;Kalessouk
 0;-0.2233,16.6358;ML-09;Gao;Aljanagounga
 0;-1.5440,17.0473;ML-09;Gao;Kèrmachoy
-0;3.1563,16.2232;ML-12070577;Ménaka;Ouaritoufoulout
+0;3.1563,16.2232;ML;Ménaka;Ouaritoufoulout
 0;-8.5439,15.0166;ML-07;Koulikoro;Moriba
 0;-8.9029,15.4477;ML-07;Koulikoro;Binéou
 0;-11.6039,14.9151;ML-03;Kayes;Sanbalake
@@ -9438,7 +9438,7 @@
 0;0.7163,15.3341;ML-09;Gao;Doubel
 0;0.7541,15.3334;ML-09;Gao;Korikoïko
 0;0.7212,15.2624;ML-09;Gao;Gala
-0;1.9885,15.3554;ML-12070577;Ménaka;Akabar
+0;1.9885,15.3554;ML;Ménaka;Akabar
 0;-9.9745,15.0313;ML-03;Kayes;Bouli Kadiéré
 0;-9.9078,15.0706;ML-03;Kayes;Birouéli
 0;-9.8347,15.0335;ML-03;Kayes;Koliabe
@@ -9747,7 +9747,7 @@
 0;-4.0070,14.0672;ML-04;Mopti;Wassou
 0;-4.1216,14.0669;ML-04;Mopti;Gourel-Baouri
 0;-4.1551,14.0114;ML-04;Mopti;Tandiama
-0;-4.0093,22.6452;ML-12070575;Taoudénit;Agorgot
+0;-4.0093,22.6452;ML;Taoudénit;Agorgot
 0;-7.4229,15.3578;ML-07;Koulikoro;Jeumwèl
 0;-7.4970,15.3223;ML-07;Koulikoro;Kanou
 0;-6.5468,15.4169;ML-07;Koulikoro;Samakou
@@ -13675,12 +13675,12 @@
 0;-3.3525,13.7453;ML-04;Mopti;Libé-Habbe
 0;-3.6807,14.1359;ML-04;Mopti;Dogo-Guillado
 0;-3.5171,13.6141;ML-04;Mopti;Dokono
-0;1.9344,15.5251;ML-12070577;Ménaka;In Araban
+0;1.9344,15.5251;ML;Ménaka;In Araban
 0;-4.0797,15.1845;ML-04;Mopti;Koffel
 0;-4.1061,14.1657;ML-04;Mopti;Djongue-Ouro
 0;-2.9787,14.0591;ML-04;Mopti;Sana
 0;-2.8110,14.3199;ML-04;Mopti;Batourou
-0;1.6920,16.0986;ML-12070577;Ménaka;Oudeini
+0;1.6920,16.0986;ML;Ménaka;Oudeini
 0;-3.2245,14.0702;ML-04;Mopti;Birakana
 0;-3.0426,14.0908;ML-04;Mopti;Kenewe
 0;-3.1198,14.1172;ML-04;Mopti;Goroboro
@@ -13768,7 +13768,7 @@
 0;-3.4064,13.7863;ML-04;Mopti;Sodogara-Kouroukoud
 0;-3.2123,13.7850;ML-04;Mopti;Koumbourou
 0;-3.1885,13.7930;ML-04;Mopti;Waissagou
-0;2.9665,15.4690;ML-12070577;Ménaka;Tadayné
+0;2.9665,15.4690;ML;Ménaka;Tadayné
 0;-6.0248,14.6874;ML-05;Ségou;K3 Rattenga
 0;-5.7289,13.6048;ML-05;Ségou;Fakourou-Were
 0;-5.7060,13.6192;ML-05;Ségou;Bachi-Were
@@ -14091,8 +14091,8 @@
 0;-3.6822,14.1307;ML-04;Mopti;Dogo-Leye
 0;-3.6054,14.1247;ML-04;Mopti;Wanda
 0;-3.5327,14.1844;ML-04;Mopti;Endé-Toro
-0;2.4986,15.7560;ML-12070577;Ménaka;Inkiringouya
-0;2.2444,15.7492;ML-12070577;Ménaka;Tabatolte N'alher
+0;2.4986,15.7560;ML;Ménaka;Inkiringouya
+0;2.2444,15.7492;ML;Ménaka;Tabatolte N'alher
 0;-3.0774,14.4582;ML-04;Mopti;Djonkodjou
 0;-3.1114,14.4335;ML-04;Mopti;Dangoboro
 0;-3.1465,14.4673;ML-04;Mopti;Sobane-Da
@@ -14111,18 +14111,18 @@
 0;-3.9386,14.0752;ML-04;Mopti;Diengueni-Fulbe
 0;0.3916,15.1493;ML-09;Gao;Tadjalalt
 0;-2.5900,17.6700;ML-08;Tombouctou;Al Amal
-0;3.3791,15.6063;ML-12070577;Ménaka;In Chinnana
+0;3.3791,15.6063;ML;Ménaka;In Chinnana
 0;-6.0100,14.5600;ML-05;Ségou;Tientienbougou
 0;-3.5533,16.5264;ML-08;Tombouctou;Koromia
 0;-5.6052,14.9822;ML-05;Ségou;Lougui
 0;-5.4800,15.3800;ML-05;Ségou;Kolima
-0;2.7025,15.4383;ML-12070577;Ménaka;Tagalalte
+0;2.7025,15.4383;ML;Ménaka;Tagalalte
 0;-5.5989,15.4270;ML-05;Ségou;Hal Hamassouka
 0;-4.2006,15.8407;ML-08;Tombouctou;Dondoro
-0;2.1833,16.4850;ML-12070577;Ménaka;Inkadewane
-0;2.1900,16.4926;ML-12070577;Ménaka;Izingaze
-0;2.2062,15.7514;ML-12070577;Ménaka;Tibinkar
-0;2.5612,15.6525;ML-12070577;Ménaka;Tabangout
+0;2.1833,16.4850;ML;Ménaka;Inkadewane
+0;2.1900,16.4926;ML;Ménaka;Izingaze
+0;2.2062,15.7514;ML;Ménaka;Tibinkar
+0;2.5612,15.6525;ML;Ménaka;Tabangout
 0;-4.0973,13.8196;ML-05;Ségou;Mamadaga
 0;-4.5449,14.1193;ML-04;Mopti;Tounga
 0;-3.4400,14.2800;ML-04;Mopti;Tama
@@ -14133,18 +14133,18 @@
 0;-3.4614,14.0578;ML-04;Mopti;Kessagourou
 0;0.4700,15.7200;ML-09;Gao;Wiha
 0;0.2637,15.1835;ML-09;Gao;Iminhadj
-0;3.2672,16.1469;ML-12070577;Ménaka;Emis-Emis
-0;3.3891,16.1534;ML-12070577;Ménaka;Inbohanane
-0;2.4116,15.8429;ML-12070577;Ménaka;Charbale
+0;3.2672,16.1469;ML;Ménaka;Emis-Emis
+0;3.3891,16.1534;ML;Ménaka;Inbohanane
+0;2.4116,15.8429;ML;Ménaka;Charbale
 0;-3.6962,14.2084;ML-04;Mopti;Eguela Leye
 0;1.8002,20.2600;ML-10;Kidal;Talhandak
 0;0.3363,15.2060;ML-09;Gao;Tafagadod
-0;1.9613,15.8578;ML-12070577;Ménaka;Taghatert
-0;2.4856,15.7632;ML-12070577;Ménaka;In Marwalane
-0;2.5376,15.8047;ML-12070577;Ménaka;Essailal
-0;2.4993,15.7800;ML-12070577;Ménaka;Tikmert
-0;2.4499,15.8128;ML-12070577;Ménaka;Ezéli
-0;2.4542,15.8245;ML-12070577;Ménaka;Tafiyet
+0;1.9613,15.8578;ML;Ménaka;Taghatert
+0;2.4856,15.7632;ML;Ménaka;In Marwalane
+0;2.5376,15.8047;ML;Ménaka;Essailal
+0;2.4993,15.7800;ML;Ménaka;Tikmert
+0;2.4499,15.8128;ML;Ménaka;Ezéli
+0;2.4542,15.8245;ML;Ménaka;Tafiyet
 0;1.0187,19.0760;ML-10;Kidal;Intechaq
 0;-6.0094,14.4713;ML-05;Ségou;Pando Camp
 0;-6.0127,14.4606;ML-05;Ségou;Madina UP5
@@ -14159,7 +14159,7 @@
 0;-2.8883,14.3162;ML-04;Mopti;Domadognou
 0;-2.8680,14.3895;ML-04;Mopti;Djemde 2
 0;-2.4867,16.7752;ML-08;Tombouctou;Didi
-0;-3.2500,16.6300;ML-12070577;Ménaka;Dag Bohdel
+0;-3.2500,16.6300;ML;Ménaka;Dag Bohdel
 0;-0.4363,16.2107;ML-09;Gao;Amasrakad
 0;-3.6599,14.3769;ML-04;Mopti;Tabagolo
 0;-5.2223,14.7324;ML-04;Mopti;Kare
@@ -14179,7 +14179,7 @@
 0;-2.6962,16.7420;ML-08;Tombouctou;Tiherdjen
 0;-2.8492,16.7441;ML-08;Tombouctou;Tindjambane
 0;-2.2656,16.8391;ML-08;Tombouctou;Er-Intadjeft
-0;2.2320,16.9295;ML-12070577;Ménaka;Tadamakat
+0;2.2320,16.9295;ML;Ménaka;Tadamakat
 0;-2.7433,16.7042;ML-08;Tombouctou;Bellasao Bozo
 0;-2.7480,16.7092;ML-08;Tombouctou;Bellasao Kel Tinag
 0;-2.7518,16.7152;ML-08;Tombouctou;Hassi Ould Aldoknan 1
@@ -14198,15 +14198,15 @@
 0;0.8197,20.5460;ML-10;Kidal;Ikadawatane
 0;0.0939,16.0795;ML-09;Gao;Kobé
 0;0.1259,16.0134;ML-09;Gao;Hamidadji
-0;2.9620,15.6872;ML-12070577;Ménaka;Touhaye
+0;2.9620,15.6872;ML;Ménaka;Touhaye
 0;1.5582,18.7735;ML-10;Kidal;Tanainait
 0;0.6562,15.1195;ML-09;Gao;Hondonine
 0;0.7309,21.3229;ML-10;Kidal;In-Afarak
 0;1.3268,19.4295;ML-10;Kidal;Intiwiké
 0;-7.6179,14.3303;ML-07;Koulikoro;Namatiguila
 0;-3.6108,14.4473;ML-04;Mopti;Antaba
-0;3.4337,16.0387;ML-12070577;Ménaka;Ghazaraghane
-0;2.5858,17.6375;ML-12070577;Ménaka;Achibogo
+0;3.4337,16.0387;ML;Ménaka;Ghazaraghane
+0;2.5858,17.6375;ML;Ménaka;Achibogo
 0;-11.0783,13.3663;ML-03;Kayes;Soufourou
 0;-11.1209,13.1265;ML-03;Kayes;Diakoula
 0;-11.1771,13.0212;ML-03;Kayes;Kouroudji

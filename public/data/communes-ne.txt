@@ -4968,7 +4968,6 @@
 0;4.0309,13.2228;NE-03;Dosso Region;Djakata
 0;12.3084,21.0160;NE-01;Agadez;Djado
 0;8.4863,14.4114;NE-07;Zinder Region;Djadjaé
-0;7.0000,14.0000;NE-04;Maradi Region;Djadja
 0;13.0784,13.5342;NE-02;Diffa;Djaboulam II
 0;12.9111,21.0910;NE-01;Agadez;Djaba
 0;13.0139,14.0639;NE-02;Diffa;Njitchimba
@@ -6636,7 +6635,6 @@
 0;2.3522,13.7149;NE-09;Tillabéri Region;Bangou Bobo
 0;2.3441,13.6107;NE-09;Tillabéri Region;Tokobinkani Peul
 0;2.4447,13.5427;NE-09;Tillabéri Region;Falink Kaïna
-0;1.0000,15.0000;NE-06;Tahoua Region;Labézanga
 0;3.5722,15.3878;NE-09;Tillabéri Region;Ekrafane
 0;3.5000,15.0000;NE-06;Tahoua Region;Tchi-m Berkaouane
 0;5.4008,15.1015;NE-06;Tahoua Region;Barmou

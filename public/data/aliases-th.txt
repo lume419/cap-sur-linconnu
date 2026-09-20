@@ -1908,7 +1908,6 @@ th;อู่ทอง;U Thong
 th;อุ้มผาง;Umphang
 ru;Транг;Trang
 th;ตรัง;Trang
-ar;ترัง;Trang
 kk;Тран;Trang
 ky;Транг;Trang
 hi;ट्रांग;Trang
@@ -9192,7 +9191,6 @@ ur;سونگکھلا;Songkhla
 kk;Сонғқла;Songkhla
 hi;सोंगखला;Songkhla
 bn;সংখলা;Songkhla
-fa;سongخلا;Songkhla
 ja;ソンクラー;Songkhla
 pa;ਸੋਂਗਖਲਾ;Songkhla
 ps;سونگخلا;Songkhla
@@ -9291,15 +9289,12 @@ th;สังขะ;Sangkha
 th;สนามชัยเขต;Sanam Chai Khet
 th;สมุทรสงคราม;Samut Songkhram
 ru;Самут Сонгкрам;Samut Songkhram
-ar;سامت سongخرام;Samut Songkhram
 kk;Самут Сонғқрам;Samut Songkhram
 hi;समुत सोंगक्रम;Samut Songkhram
 bn;সামুত সংগক্রম;Samut Songkhram
 ur;سمت سونگ خرام;Samut Songkhram
-fa;سامت سongخرام;Samut Songkhram
 ja;サムットソンクラム;Samut Songkhram
 pa;ਸਮੁਤ ਸੋਂਗਖ੍ਰਾਮ;Samut Songkhram
-ps;سامت سongخرام;Samut Songkhram
 tg;Самут Сонғқрам;Samut Songkhram
 th;สมุทรสาคร;Samut Sakhon
 ru;Самут Сахон;Samut Sakhon
@@ -9796,7 +9791,6 @@ ps;ناخون باتوم;Nakhon Pathom
 tg;Нақхон Патһом;Nakhon Pathom
 th;นครนายก;Nakhon Nayok
 ru;Накхон Найок;Nakhon Nayok
-ar;نखون نايوك;Nakhon Nayok
 kk;Нахон Найок;Nakhon Nayok
 ky;Нахон Найок;Nakhon Nayok
 hi;नखोन नायोक;Nakhon Nayok
@@ -44845,7 +44839,6 @@ uk;Сукхотхай;Sukhothai
 am;ሱኾታይ;Sukhothai
 az;Sukhotay;Sukhothai
 tt;Сукхотай;Sukhothai
-el;สะเมิง;Samoeng
 am;ራቻቡሪ;Ratchaburi
 az;Raçaburi;Ratchaburi
 tt;Рачабури;Ratchaburi
@@ -44973,7 +44966,6 @@ gl;Ayutthaya;Phra Nakhon Si Ayutthaya
 no;Ayutthaya;Phra Nakhon Si Ayutthaya
 sl;Ajuthaja;Phra Nakhon Si Ayutthaya
 fi;Ayutthaya;Phra Nakhon Si Ayutthaya
-am;ፍራ ናኆን ሲ አዩትhያ;Phra Nakhon Si Ayutthaya
 am;ፍሬ;Phrae
 hu;Phitszanulok;Phitsanulok
 lt;Phitsanulokas;Phitsanulok

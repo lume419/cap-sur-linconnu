@@ -89,7 +89,6 @@ hi;व्लासेनिका;Vlasenica
 bn;ভ্লাসেনিকা;Vlasenica
 ur;وولاسینکا;Vlasenica
 am;ቭላሴኒካ;Vlasenica
-fa;وlaسنیتسا;Vlasenica
 pa;ਵਲਾਸੇਨਿਕਾ;Vlasenica
 ps;وولاسینکا;Vlasenica
 tg;Власеница;Vlasenica
@@ -770,7 +769,6 @@ ar;سيروكي بريج;Široki Brijeg
 kk;Сирокі Бриег;Široki Brijeg
 hi;सिरोकी ब्रिजेग;Široki Brijeg
 bn;সিরোকি ব্রিজেগ;Široki Brijeg
-am;ስሮክي ብሪጅግ;Široki Brijeg
 pa;ਸਿਰੋਕੀ ਬ੍ਰਿਜੇਗ;Široki Brijeg
 ps;سیروکی بریجگ;Široki Brijeg
 lt;Laktašai;Laktaši

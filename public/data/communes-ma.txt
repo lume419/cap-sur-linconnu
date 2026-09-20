@@ -2852,7 +2852,6 @@
 0;-6.8057,31.0269;MA-08;Drâa-Tafilalet;Taferghoust
 0;-6.3982,30.6825;MA-08;Drâa-Tafilalet;Tafergâlt
 0;-4.6395,33.4753;MA-03;Fes-Meknes;Taferdoust
-0;-9.0000,30.0000;MA-09;Souss-Massa;Taferbiount
 0;-4.9100,32.3100;MA-08;Drâa-Tafilalet;Tafenta
 0;-8.1834,30.4324;MA-09;Souss-Massa;Tafinkracht
 0;-4.0376,32.3152;MA-08;Drâa-Tafilalet;Tafendast
@@ -5516,7 +5515,6 @@
 0;-2.6332,34.5170;MA-02;Oriental;Mdar
 0;-8.6645,32.1725;MA-07;Marrakesh-Safi;Douar Lemdafra
 0;-5.3800,32.3500;MA-08;Drâa-Tafilalet;Mchitt
-0;-9.0000,32.0000;MA-07;Marrakesh-Safi;Mbarek Ben Khalifa
 0;-3.7138,32.6368;MA-02;Oriental;Mazzer
 0;-9.3163,31.3778;MA-07;Marrakesh-Safi;Mazza
 0;-4.4614,34.7761;MA-01;Tanger-Tetouan-Al Hoceima;Mazouz

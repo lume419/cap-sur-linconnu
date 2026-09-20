@@ -2073,7 +2073,6 @@
 0;33.4701,14.9359;SD-38;Al Jazirah;Kire‘at Aj Ja‘aliyyīn
 0;30.9333,18.0667;SD-43;Northern State;Kerat
 0;31.6500,12.9000;SD-56;North Kordofan;Kenisal
-0;25.0000,12.0000;SD-49;Southern Darfur;Kelma
 0;24.3102,13.0875;SD-61;Central Darfur;Kelling
 0;33.6743,16.9616;SD-53;River Nile;Hillat Kali
 0;33.2833,19.4833;SD-53;River Nile;Kelesaikal

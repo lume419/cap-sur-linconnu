@@ -60,8 +60,17 @@ const DATA = path.join(__dirname, '..', 'public', 'data');
 
 // Codes de langue réels seulement (GeoNames mêle « link », « wkdt », « unlc », « icao »… aux langues).
 const NOT_LANGS = new Set(['link', 'wkdt', 'unlc', 'post', 'iata', 'icao', 'faac', 'abbr', 'fr_1793', 'tcid']);
+// Codes de langue manifestement fautifs dans la source (18e audit du 21/09/2026). Le champ « langue » d'alternate
+// names est libre chez GeoNames, et scripts/altnames/AR.txt:64464 porte « zh-CH » pour « 长城南极站 » (station
+// Grande-Muraille) : CH est la Suisse, le texte est du chinois simplifié et la fiche le donne comme nom préféré —
+// coquille pour « zh-CN ». Une seule ligne dans tout le dépôt. Le 17e audit l'avait ajoutée à la liste FERMÉE des
+// codes acceptés de tests/data.test.js, alors que le commentaire de cette liste dit exactement l'inverse : « tout
+// nouveau code doit être ajouté ici sciemment (celui de GeoNames est un champ libre où traînent des étiquettes
+// fausses) ». Corrigée ici plutôt qu'admise là-bas.
+const LANG_CODE_FIXES = { 'zh-CH': 'zh-CN' };
 function langOf(code){
   if(!code) return 'fr';
+  if(LANG_CODE_FIXES[code]) code = LANG_CODE_FIXES[code];
   if(NOT_LANGS.has(code) || !/^[a-z]{2,3}(-[A-Za-z]{2,4})?$/.test(code)) return null;
   return code;
 }

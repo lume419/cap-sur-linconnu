@@ -2877,7 +2877,6 @@
 0;32.4129,0.4191;UG-C;Central Region;Kikubampanga
 0;32.5500,1.3667;UG-C;Central Region;Kikoyera
 0;32.7667,1.4167;UG-C;Central Region;Kikota
-0;30.0000,0.0000;UG-W;Western Region;Kikorongo
 0;30.6500,0.7000;UG-W;Western Region;Kikoroba
 0;31.6333,0.2833;UG-C;Central Region;Kikonoka
 0;32.6157,1.5833;UG-N;Northern Region;Kikongoro

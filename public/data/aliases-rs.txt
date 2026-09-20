@@ -5272,7 +5272,6 @@ fa;پتلوواچا;Petlovača
 fa;پیینوویچ;Pejinović
 ar;بیسنجي;Pećinci
 he;פצינצי;Pećinci
-hi;पेcइन्cइ;Pećinci
 ur;بیسنجي;Pećinci
 el;Πάουνε;Paune
 fa;پائونه;Paune

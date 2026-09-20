@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 // Corrections communes à tous les générateurs de lieux (audit n° 11) : noms nettoyés, lieux écartés, quasi-doublons —
 // voir scripts/communes-corrections.js.
-const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
+const { excludePlace, preparePlaceName, dropNearDuplicates, regionLabel } = require('./communes-corrections.js');
 
 const COUNTRIES = ['CM'];
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
@@ -58,7 +58,7 @@ for(const country of COUNTRIES){
       sansRegion++;
       return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${country};;${p.name}`;
     }
-    return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${country}-${p.admin1};${region};${p.name}`;
+    return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${regionLabel(country, p.admin1)};${region};${p.name}`;
   }));
 
   const out = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');

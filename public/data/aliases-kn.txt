@@ -85,7 +85,6 @@ kk;Сэнди-Пойнт-Таун;Sandy Point Town
 ky;Сэнди-Пойнт-Таун;Sandy Point Town
 bn;স্যান্ডি পয়েন্ট টাউন;Sandy Point Town
 ur;سینڈی پوائنٹ ٹاؤن;Sandy Point Town
-am;ሳንዲ ፖይንት タウን;Sandy Point Town
 fa;شهر سندی پوینت;Sandy Point Town
 pa;ਸੈਂਡੀ ਪੁਆਇੰਟ ਟਾਊਨ;Sandy Point Town
 ps;سندي پوينټ ښار;Sandy Point Town

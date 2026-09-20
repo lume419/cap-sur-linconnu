@@ -225,7 +225,6 @@ ru;Амина;Amina
 ru;Алтамира;Altamira
 ru;Санто Доминго Оесте;Santo Domingo Oeste
 ru;Санто-Доминго-Эсте;Santo Domingo Este
-ar;سانتو دومينغو إيسте;Santo Domingo Este
 hi;सांतो डोमिंगो एस्ते;Santo Domingo Este
 ja;サントドミンゴエステ;Santo Domingo Este
 ur;یاسکا ارربہ;Yásica Arriba

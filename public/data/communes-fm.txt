@@ -369,7 +369,6 @@
 438;160.7030,6.2059;96941;Pohnpei State;Pingelap Village
 0;160.7033,6.2059;96941;Pohnpei State;Pingelap
 61;159.7627,6.6928;96941;Pohnpei State;Mokil Village
-0;155.1597,7.6196;96941;Pohnpei State;Kapingamarangi Settlement not permanent
 0;157.7764,7.0765;96941;Pohnpei State;Pakin Village
 407;153.1189,5.9220;96942;Chuuk;Namoluk Village
 0;153.1520,5.9240;96942;Chuuk;Namoluk

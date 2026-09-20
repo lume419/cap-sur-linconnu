@@ -8,7 +8,6 @@ en;Yumoa;Yimoa
 ar;يولا;Yola
 am;ዮላ;Yola
 en;Yiko;Guduikko
-ar;ينагوا;Yenagoa
 am;ዬናጓ;Yenagoa
 en;Yelwa Kahum;Yelwa
 en;Sote;Yaran Sote
@@ -505,7 +504,6 @@ pt;Avka;Awka
 en;Atuma;Atumo
 en;Atuar;Atuar-Etiti
 en;Ashama;Asama
-ar;أساба;Asaba
 am;አሳባ;Asaba
 en;Arnado Debb;Arnado-Debb0
 en;Arabishi;Ara

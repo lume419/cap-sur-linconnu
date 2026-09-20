@@ -4610,7 +4610,6 @@ bg;Дебнево;Debnevo
 bg;Дебеляново;Debelyanovo
 bg;Дебелцово;Debeltsovo
 bg;Дебелт;Debelt
-bg;Дебели рът;Debeli Rat
 bg;Дебели Лаг;Debeli Lag
 bg;Дебелец;Debelets
 bg;Дебел дял;Debel Dyal
@@ -7374,7 +7373,6 @@ ky;Гюлянци;Gulyantsi
 hi;गुल्यांत्सी;Gulyantsi
 bn;গুলিয়ান্তসি;Gulyantsi
 ur;گولیانتسی;Gulyantsi
-am;ጉልያንتሲ;Gulyantsi
 fa;گولیانتسی;Gulyantsi
 ja;グリャンツィ;Gulyantsi
 pa;ਗੁਲਿਆਨਤਸੀ;Gulyantsi

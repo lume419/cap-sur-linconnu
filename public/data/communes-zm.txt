@@ -2972,7 +2972,6 @@
 0;25.0667,-11.2667;ZM-06;North-Western;Samanjata
 0;23.8000,-16.8333;ZM-01;Western Province;Samani
 0;23.9167,-16.9333;ZM-01;Western Province;Samango
-0;24.0000,-17.0000;ZM-01;Western Province;Samanga
 0;23.8598,-16.9120;ZM-01;Western Province;Samanga
 0;24.3167,-14.6167;ZM-01;Western Province;Samandanji
 0;23.7333,-15.3000;ZM-01;Western Province;Samalulu
@@ -4247,7 +4246,6 @@
 0;32.6167,-10.0833;ZM-10;Muchinga;Namata
 0;30.6667,-12.8667;ZM-02;Central Province;Namasupeli
 0;24.5833,-16.8833;ZM-01;Western Province;Namasiku
-0;23.0000,-16.0000;ZM-01;Western Province;Namasiku
 0;22.6000,-15.4333;ZM-01;Western Province;Namasiku
 0;22.5500,-15.2333;ZM-01;Western Province;Namasiku
 0;22.7833,-15.2167;ZM-01;Western Province;Namasiku

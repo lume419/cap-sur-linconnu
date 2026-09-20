@@ -4179,7 +4179,6 @@
 0;9.3041,4.2187;CM-09;South-West;Lissoka
 0;10.9740,6.6572;CM-07;North-West;Lus
 0;13.8833,4.2667;CM-04;East;Loupa
-0;10.0000,4.0000;CM-05;Littoral;Loungahé
 0;11.5833,2.9667;CM-14;South;Loun
 0;11.6667,3.6167;CM-11;Centre;Loum II
 0;11.6833,3.6333;CM-11;Centre;Loum I
@@ -6220,7 +6219,6 @@
 0;13.3667,3.7167;CM-04;East;Djolempoum
 0;13.5000,9.2167;CM-13;North;Djola
 0;15.2852,10.3514;CM-12;Far North;Djokoydi
-0;14.0000,4.0000;CM-04;East;Djoknéboum
 4813;14.7000,6.8333;CM-10;Adamaoua;Djohong
 0;14.6472,11.9685;CM-12;Far North;Djogone
 0;13.2143,8.3992;CM-13;North;Djogo

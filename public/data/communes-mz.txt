@@ -8088,7 +8088,6 @@
 0;35.3417,-23.4567;MZ-03;Inhambane Province;Mahocha
 0;32.1333,-25.6167;MZ-04;Maputo Province;Mahobane
 0;35.4375,-22.1686;MZ-03;Inhambane Province;Mahoa
-0;33.0000,-24.0000;MZ;;Mahlazene
 0;39.6164,-11.8797;MZ-01;Cabo Delgado Province;Mahiunga
 0;37.7178,-12.8503;MZ-07;Niassa Province;Mahique
 0;32.3833,-25.6333;MZ-04;Maputo Province;Mahimbela
@@ -10590,7 +10589,6 @@
 0;32.1556,-24.4294;MZ-04;Maputo Province;Fotiche
 0;36.0950,-17.5839;MZ-09;Zambezia Province;Fotinho
 0;35.0061,-21.9950;MZ-03;Inhambane Province;Fotine
-0;35.0000,-22.0000;MZ;;Fotine
 0;33.3825,-22.5850;MZ-03;Inhambane Province;Fostine
 0;35.2983,-22.0817;MZ-03;Inhambane Province;Julamo
 0;34.7903,-21.4867;MZ-03;Inhambane Province;Fortuna
@@ -12176,7 +12174,6 @@
 0;34.9286,-20.6692;MZ-05;Sofala;Chiloane
 0;32.8383,-24.3531;MZ-02;Gaza Province;Chilengue
 0;32.4511,-23.5028;MZ-02;Gaza Province;Chilemeque
-0;32.0000,-24.0000;MZ;;Chilembene
 0;32.4281,-23.4386;MZ-02;Gaza Province;Chilembe
 0;35.1422,-17.5447;MZ-08;Tete;Chilembe
 0;31.9592,-15.8586;MZ-08;Tete;Chilema

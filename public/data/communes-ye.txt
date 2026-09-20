@@ -23885,7 +23885,6 @@
 4;43.4540,16.0921;YE-22;Ḩajjah;Al Ghurzah
 6;43.4489,16.0951;YE-22;Ḩajjah;Sha‘b al ‘Ujrī
 0;47.2287,15.9136;YE-04;Muhafazat Hadramaout;Al Abr
-0;48.0000,15.0000;YE-04;Muhafazat Hadramaout;Sah
 6;43.3855,16.1299;YE-22;Ḩajjah;Al Muḑbāb
 31;43.3724,16.1087;YE-22;Ḩajjah;Al Qariyīn
 9;43.3521,16.0874;YE-22;Ḩajjah;Al Maḩdādah as Suflá

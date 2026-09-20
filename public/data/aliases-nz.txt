@@ -592,7 +592,6 @@ kk;Данидин;Dunedin
 ky;Данидин;Dunedin
 bn;ডানেডিন;Dunedin
 ur;ڈنیڈن;Dunedin
-am;ዱንედን;Dunedin
 fa;دانیدین;Dunedin
 pa;ਡਨੇਡਿਨ;Dunedin
 ps;ډنډن;Dunedin
@@ -692,7 +691,6 @@ bn;গ্রেমাউথ;Greymouth
 ur;گریماؤتھ;Greymouth
 am;ግሬማውዝ;Greymouth
 fa;گریماوت;Greymouth
-pa;ਗ੍ਰੇਮਾؤਥ;Greymouth
 ps;گريماوت;Greymouth
 tg;Грейсмут;Greymouth
 tt;Грейсмут;Greymouth

@@ -428,7 +428,6 @@
 0;117.1167,5.6500;MY-16;Sabah;Telupid
 0;117.0500,5.5000;MY-16;Sabah;Kaling
 0;117.4000,4.6333;MY-16;Sabah;Luasong
-0;118.0000,5.0000;MY-16;Sabah;Lahad Datu
 0;118.3667,4.6500;MY-16;Sabah;Mantandak
 0;118.2278,4.9772;MY-16;Sabah;Silam
 0;118.4500,4.6833;MY-16;Sabah;Lakai Lakai

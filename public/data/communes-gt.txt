@@ -4399,7 +4399,6 @@
 0;-89.8847,14.9118;GT-05;El Progreso;El Espíritu Santo
 0;-89.7157,14.5262;GT-10;Jalapa;El Espinal
 0;-90.9958,14.7427;GT-03;Chimaltenango;El Escudero
-0;-90.0000,14.0000;GT-11;Jutiapa;El Escondido
 0;-89.6629,14.9012;GT-22;Zacapa;El Encinal
 0;-90.2855,14.7647;GT-05;El Progreso;El Encinal
 0;-90.2044,13.8033;GT-11;Jutiapa;El Embarcadero

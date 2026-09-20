@@ -582,7 +582,12 @@ const CP_RE = /^[0-9A-Z]+(?:[ -][0-9A-Z]+)*$/;  // ni minuscule, ni séparateur 
 const CP_LEN = [2, 11];
 // Pays dont les lieux sont, par nature, des points isolés à des milliers de kilomètres les uns des autres
 // (stations polaires, confettis d'archipels) : le contrôle d'isolement n'y a pas de sens.
-const SCATTERED = new Set(['AQ', 'TF', 'UM', 'SH', 'SJ', 'BV', 'HM', 'GS', 'IO', 'PN', 'NF', 'CX', 'CC', 'TK', 'NU', 'WF']);
+// 18e audit du 21/09/2026 : cette liste en comptait 16, dont 11 qui ne servaient à rien (BV, HM, GS, IO, PN, NF,
+// CX, CC, TK, NU — aucun de leurs lieux n'était signalé) et une, WF, qui ne correspond à AUCUN pays du projet
+// (Wallis-et-Futuna est publié sous FR, région 986). Une exception inutile n'est pas neutre : elle soustrait tout
+// un pays au contrôle des coordonnées fausses. Les cinq qui restent sont vérifiées ci-dessous, comme toutes les
+// autres listes de ce fichier — une entrée devenue inutile fait échouer le test.
+const SCATTERED = new Set(['AQ', 'TF', 'UM', 'SH', 'SJ']);
 const ISOLATED_KM = 400, ISOLATED_MAX_PLACES = 3;
 // Lieux légitimement isolés de tous les autres lieux de leur pays, vérifiés un à un : atolls, stations polaires,
 // dépendances lointaines. Ce contrôle a aussi trouvé trois VRAIES erreurs de coordonnées héritées de GeoNames
@@ -618,7 +623,7 @@ const ISOLATED_OK = {
 };
 
 const BOUNDS = (() => {
-  const badCoord = [], badPop = [], dupLine = [], badCp = [], isolated = [];
+  const badCoord = [], badPop = [], dupLine = [], badCp = [], isolated = [], bouchon = [], idCommeCp = [];
   const hv = (a, b, c, d) => { const r = Math.PI / 180, x = Math.sin((c - a) * r / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin((d - b) * r / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)); };
   for(const { cc, file } of FILES){
     const seen = new Map(), cells = new Map();
@@ -636,6 +641,8 @@ const BOUNDS = (() => {
       const lon = Number(ll[0]), lat = Number(ll[1]);
       if(ll.length !== 2 || !/^-?\d+(\.\d+)?$/.test(ll[0]) || !/^-?\d+(\.\d+)?$/.test(ll[1])) badCoord.push(where + ' : coordonnées ' + JSON.stringify(p[1]));
       else if(!(lat >= -90 && lat <= 90) || !(lon >= -180 && lon <= 180)) badCoord.push(where + ' : latitude ' + lat + ', longitude ' + lon + ' hors bornes');
+      // Coordonnée « bouchon » de GeoNames : latitude ET longitude à l'entier exact (18e audit du 21/09/2026).
+      else if(Number.isInteger(lat) && Number.isInteger(lon)) bouchon.push(where + ' : ' + nameOf(line) + ' à ' + lat + ' / ' + lon);
       else {
         const k = Math.floor(lat) + '|' + Math.floor(lon);
         let e = cells.get(k);
@@ -651,6 +658,8 @@ const BOUNDS = (() => {
         if(/^0+$/.test(cp)) badCp.push(where + ' : code postal ' + JSON.stringify(cp) + ' (que des zéros)');
         const m = /^([A-Z]{2})-/.exec(cp);
         if(m && m[1] !== cc) badCp.push(where + ' : code postal ' + cp + ' dans le fichier de ' + cc);
+        // « XX-<6 chiffres et plus » : identifiant interne GeoNames pris pour un code (18e audit du 21/09/2026).
+        if(/^[A-Z]{2}-\d{5,}$/.test(cp)) idCommeCp.push(where + ' : ' + cp + ' (' + nameOf(line) + ')');
       }
     });
     // Lieu isolé : sa case de 1° ne contient que quelques lieux ET la case occupée la plus proche du MÊME pays est
@@ -665,12 +674,31 @@ const BOUNDS = (() => {
       if(best > ISOLATED_KM) for(const n of c.names) isolated.push({ cc, name: n, km: Math.round(best), at: c.lat + ',' + c.lon });
     }
   }
-  return { badCoord, badPop, dupLine, badCp, isolated };
+  return { badCoord, badPop, dupLine, badCp, isolated, bouchon, idCommeCp };
 })();
 
 test('lieux : latitude et longitude bien formées et dans les bornes du globe', () => {
   assert.deepEqual(BOUNDS.badCoord.slice(0, 20), []);
   assert.equal(BOUNDS.badCoord.length, 0);
+});
+
+test('lieux : aucune coordonnée « bouchon » (latitude ET longitude à l\'entier exact)', () => {
+  // 18e audit du 21/09/2026. Le 17e avait écarté à la main une fiche de ce type (BH Magsha, « 26 / 40 », en Arabie
+  // saoudite) sans passer le critère sur les autres pays : il en restait 139, dans 55 pays — Seminyak publié en mer
+  // de Florès à 750 km de Bali, un « Scarborough » dans la toundra du Manitoba, un lieu nommé « China » en Tanzanie.
+  // GeoNames publie 5 décimales : deux entiers exacts, c'est une valeur bouchon, pas un arrondi (probabilité d'un
+  // vrai lieu : de l'ordre de 1 sur 10 milliards, soit aucun cas attendu sur 4,8 millions).
+  assert.deepEqual(BOUNDS.bouchon.slice(0, 20), []);
+  assert.equal(BOUNDS.bouchon.length, 0);
+});
+
+test('lieux : aucun « code postal » qui soit un identifiant interne GeoNames', () => {
+  // 18e audit du 21/09/2026 : 1 592 lieux affichaient « KZ-12510143 » (10,6 % du Kazakhstan, plus GL, ML, CK, KY,
+  // MV, MO, SC) — l'identifiant de la division, pas un code. Le nom lisible était déjà dans la colonne voisine.
+  // L'étiquette retombe désormais sur le code pays seul (voir regionLabel dans scripts/communes-corrections.js) ;
+  // les vrais codes admin1 numériques courts (IR-42, BH-16, PG-15) ne sont pas touchés.
+  assert.deepEqual(BOUNDS.idCommeCp.slice(0, 20), []);
+  assert.equal(BOUNDS.idCommeCp.length, 0);
 });
 
 test('lieux : population plausible (entier, au plus ' + POP_MAX + ')', () => {
@@ -689,6 +717,40 @@ test('lieux : code postal bien formé et rattaché au bon pays', () => {
   // Garde-fous du filtre : les formes réellement publiées passent, les formes absurdes non.
   for(const cp of ['69001', 'CN-22', '3020-578', '100-0002', 'EC4N', 'K1A 0B1']) assert.ok(CP_RE.test(cp) && cp.length >= CP_LEN[0] && cp.length <= CP_LEN[1], cp);
   for(const cp of ['-69001', '69001-', '69 001 ', 'cn-22', '6', '69001#', '69001--2']) assert.ok(!(CP_RE.test(cp) && cp.length >= CP_LEN[0] && cp.length <= CP_LEN[1]), cp);
+});
+
+test('lieux : les pays soustraits au contrôle d\'isolement en ont tous besoin', () => {
+  // Rejoue l'algorithme d'isolement sur les seuls pays de SCATTERED : chacun doit produire au moins un lieu que le
+  // contrôle signalerait, sinon l'exception ne sert plus qu'à cacher d'éventuelles coordonnées fausses.
+  const hv = (a, b, c, d) => { const r = Math.PI / 180, x = Math.sin((c - a) * r / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin((d - b) * r / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)); };
+  const inutiles = [], inexistants = [];
+  for(const cc of SCATTERED){
+    const f = FILES.find(x => x.cc === cc);
+    if(!f){ inexistants.push(cc); continue; }
+    const cells = new Map();
+    eachLine(path.join(DATA, f.file), line => {
+      const p = line.split(';');
+      const ll = (p[1] || '').split(',');
+      const lon = Number(ll[0]), lat = Number(ll[1]);
+      if(!isFinite(lat) || !isFinite(lon)) return;
+      const k = Math.floor(lat) + '|' + Math.floor(lon);
+      if(!cells.has(k)) cells.set(k, { lat: Math.floor(lat) + 0.5, lon: Math.floor(lon) + 0.5, n: 0 });
+      cells.get(k).n++;
+    });
+    const arr = [...cells.values()];
+    let signalé = false;
+    if(arr.length >= 2){
+      for(const c of arr){
+        if(c.n > ISOLATED_MAX_PLACES) continue;
+        let best = Infinity;
+        for(const o of arr) if(o !== c) best = Math.min(best, hv(c.lat, c.lon, o.lat, o.lon));
+        if(best > ISOLATED_KM){ signalé = true; break; }
+      }
+    }
+    if(!signalé) inutiles.push(cc);
+  }
+  assert.deepEqual(inexistants, [], 'pays absent des fichiers publiés : le retirer de SCATTERED');
+  assert.deepEqual(inutiles, [], 'exception devenue inutile : la retirer de SCATTERED (le contrôle d\'isolement n\'y signale rien)');
 });
 
 test('lieux : aucun lieu isolé de son pays (coordonnées hors du pays déclaré)', () => {
@@ -722,7 +784,7 @@ const ALIAS_LANGS = new Set([
   'rn', 'ro', 'ru', 'rue', 'rw', 'sah', 'sc', 'sco', 'sd', 'se', 'sg', 'sgs', 'shn', 'si', 'sk', 'sl', 'sm', 'sn',
   'so', 'sq', 'sr', 'srn', 'ss', 'st', 'su', 'sv', 'sw', 'syr', 'ta', 'te', 'tet', 'tg', 'th', 'ti', 'tk', 'tl', 'tn',
   'to', 'tpi', 'tr', 'ts', 'tt', 'tum', 'tw', 'ty', 'tyv', 'udm', 'ug', 'uk', 'ur', 'uz', 've', 'vep', 'vi', 'vro',
-  'wo', 'xal', 'xh', 'xmf', 'yo', 'yue', 'za', 'zgh', 'zh', 'zh-CH', 'zh-CN', 'zh-HK', 'zh-Hans', 'zh-Hant', 'zh-TW',
+  'wo', 'xal', 'xh', 'xmf', 'yo', 'yue', 'za', 'zgh', 'zh', 'zh-CN', 'zh-HK', 'zh-Hans', 'zh-Hant', 'zh-TW',
   'zu'
 ]);
 const ALIAS_BOUNDS = (() => {
@@ -835,6 +897,54 @@ test('ferries : prix voiture d\'au plus ' + FERRY_CAR_MAX_EUR + ' € et au plus
   assert.deepEqual(Object.keys(FERRY_CLASS_ORDER_OK).filter(k => !seenOrder.has(k)), [], 'exception devenue inutile : la retirer de FERRY_CLASS_ORDER_OK');
 });
 
+test('ferries : chaque classe de distance garde au moins 5 durées publiées (sinon la vitesse médiane bascule en silence)', () => {
+  // La durée d'une traversée ESTIMÉE vaut distance ÷ vitesse médiane des liaisons PUBLIÉES de même longueur
+  // (ferryMedianSpeed, lib/trip-engine.js). Sous CINQ liaisons dans une classe, le moteur retombe sans rien dire sur la
+  // médiane de toutes les distances confondues — une traversée de 1 000 km serait alors estimée à la vitesse d'un bac
+  // de 10 km. Ce contrôle rend le seuil visible : la classe la plus longue ne tient aujourd'hui qu'à SEPT liaisons
+  // (18e audit du 21/09/2026), deux de moins et l'estimation des traversées de 300 km et plus changerait en silence.
+  const CLASSES = [15, 45, 100, 300, Infinity];
+  const SEUIL = 5; // même seuil que ferryMedianSpeed
+  const parClasse = CLASSES.map(() => []);
+  for(const r of Object.values(TripData.FERRY_ROUTES)){
+    if(!r || r.durationEstimated || r.mode === 'train' || !(r.distanceKm > 0) || !(r.durationH > 0)) continue;
+    let c = 0; while(r.distanceKm >= CLASSES[c]) c++;
+    parClasse[c].push(r.distanceKm / r.durationH);
+  }
+  const nom = i => i === 0 ? 'moins de 15 km' : CLASSES[i] === Infinity ? '300 km et plus' : CLASSES[i - 1] + ' à ' + CLASSES[i] + ' km';
+  const maigres = parClasse.map((a, i) => ({ i, n: a.length })).filter(x => x.n < SEUIL);
+  assert.deepEqual(maigres.map(x => nom(x.i) + ' : ' + x.n + ' liaison(s)'), [],
+    'classe sous le seuil de ' + SEUIL + ' : la vitesse médiane y retombe sur celle de toutes les distances. Effectifs : ' +
+    parClasse.map((a, i) => nom(i) + '=' + a.length).join(', '));
+});
+
+test('bundles : communes-bundle.txt et aliases-bundle.txt reflètent les fichiers de pays', () => {
+  // Le serveur charge le moteur DEPUIS les bundles, et tests/search.test.js aussi : un fichier de pays modifié sans
+  // reconstruction laissait les deux lire l'ancienne donnée sans que rien ne le signale (18e audit du 21/09/2026).
+  // Les bundles ne sont pas commités (ils sont reconstruits par postinstall) : le test ne s'applique que s'ils sont
+  // présents, et dit alors comment les régénérer.
+  for(const [bundle, champ] of [['communes-bundle.txt', 'file'], ['aliases-bundle.txt', 'aliasFile']]){
+    const p = path.join(DATA, bundle);
+    if(!fs.existsSync(p)){ console.log('[tests] ' + bundle + ' absent : contrôle ignoré (npm run build-bundles)'); continue; }
+    const parts = fs.readFileSync(p, 'utf8').split(/###([A-Z]{2})###\n/);
+    const vu = new Map();
+    for(let i = 1; i < parts.length; i += 2) vu.set(parts[i], parts[i + 1]);
+    const écarts = [];
+    for(const cc of Object.keys(TripData.COUNTRIES)){
+      const f = TripData.COUNTRIES[cc][champ];
+      const chemin = f && path.join(DATA, f);
+      const attendu = chemin && fs.existsSync(chemin) ? fs.readFileSync(chemin, 'utf8') : null;
+      const dans = vu.get(cc);
+      vu.delete(cc);
+      if(attendu === null){ if(dans !== undefined) écarts.push(cc + ' : présent dans le bundle, aucun fichier'); continue; }
+      if(dans === undefined){ écarts.push(cc + ' : absent du bundle'); continue; }
+      if(dans.replace(/\n+$/, '') !== attendu.replace(/\n+$/, '')) écarts.push(cc + ' : contenu différent du fichier');
+    }
+    for(const cc of vu.keys()) écarts.push(cc + ' : section inconnue dans le bundle');
+    assert.deepEqual(écarts, [], bundle + ' périmé — relancer « npm run build-bundles »');
+  }
+});
+
 // ------------------------------------------------------------------------------------------ péages : barème par pays
 // Seule la France était ancrée (38 liaisons de référence, tests/toll.test.js) : les seize autres barèmes pouvaient
 // être multipliés ou divisés par dix sans qu'aucun test ne bouge. Fourchette par classe, large mais dimensionnée :
@@ -902,4 +1012,21 @@ test('générateur build-ferry-ports.js : lib/ferry-ports.js reproduit à l\'oct
     for(const j of junctions) try { fs.unlinkSync(j); } catch(e){ try { fs.rmdirSync(j); } catch(e2){} }
     try { fs.rmSync(TMP, { recursive: true, force: true }); } catch(e){}
   }
+});
+
+test('mentions légales : les polices incorporées dans les PDF sont citées avec leur licence', () => {
+  // 18e audit du 21/09/2026 : la page citait les 5 polices d'AFFICHAGE du site (public/fonts/) et pas une seule des
+  // 24 de pdf-fonts/, pourtant INCORPORÉES dans chaque PDF téléchargé — dont Noto Sans CJK © Adobe, absent des cinq.
+  // L'OFL exige que sa notice accompagne la redistribution, et incorporer une police dans un document diffusé en est
+  // une. Le mot « PDF » n'apparaissait pas une seule fois sur la page.
+  const page = fs.readFileSync(path.join(ROOT, 'public', 'mentions-legales.html'), 'utf8');
+  assert.ok(/Polices incorporées dans les PDF/i.test(page), 'les polices du PDF ne sont pas citées');
+  assert.ok(/Open Font License/i.test(page), 'licence des polices absente');
+  assert.ok(/Adobe/.test(page), 'Noto Sans CJK © Adobe non cité');
+  // Et le compte annoncé doit correspondre au dossier : 23 familles pour 24 fichiers (NotoSans a une variante grasse).
+  const fichiers = fs.readdirSync(path.join(ROOT, 'pdf-fonts')).filter(f => /\.(ttf|otf)$/i.test(f));
+  const familles = new Set(fichiers.map(f => f.replace(/-(Regular|Bold)\.(ttf|otf)$/i, '')));
+  assert.equal(fichiers.length, 24, 'nombre de fichiers de police changé : mettre la page à jour');
+  assert.ok(new RegExp('les ' + familles.size + ' familles').test(page),
+    'la page annonce un nombre de familles différent des ' + familles.size + ' de pdf-fonts/');
 });

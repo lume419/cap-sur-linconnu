@@ -54,7 +54,6 @@ mg;Manambotra Sud;Manambotra Atsimo
 it;Manambotra Sud;Manambotra Atsimo
 fr;Manambotra Sud;Manambotra Atsimo
 nl;Manambotra Sud;Manambotra Atsimo
-ar;مانakارا;Manakara
 ar;مينتيرانو;Maintirano
 ar;ماهامبو;Mahambo
 ar;ماجنكا;Mahajanga
@@ -746,7 +745,6 @@ ru;Фенуариву Атсинанана;Fenoarivo Atsinanana
 hi;फेनोरिवो अत्सिनानना;Fenoarivo Atsinanana
 bn;ফেনোয়ারিভো অত্সিননানা;Fenoarivo Atsinanana
 ur;فینواریوو ایتسینانانا;Fenoarivo Atsinanana
-am;ፌኖአሪቮ ዓጽinannana;Fenoarivo Atsinanana
 fa;فنواریوو اتسیننانا;Fenoarivo Atsinanana
 ja;フェノアリヴォ・アツィナナナ;Fenoarivo Atsinanana
 pa;ਫੇਨੋਅਰਿਵੋ ਅਤਸਿਨਾਨਾਨਾ;Fenoarivo Atsinanana

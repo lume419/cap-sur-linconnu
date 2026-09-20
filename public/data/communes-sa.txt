@@ -367,7 +367,6 @@
 115537;42.6052,20.0005;SA-11;'Asir Region;Bīshah
 0;45.5807,26.4276;SA-10;Riyadh Region;Al Qā‘īyah
 0;42.8000,21.2333;SA;;Qa‘iya
-0;43.0000,17.0000;SA-17;Jazan Region;Qa‘ima
 0;42.9766,16.7194;SA-17;Jazan Region;Al Qā’im
 0;42.5333,18.2167;SA;;Qā’id
 0;44.7667,26.8500;SA-10;Riyadh Region;Qahr

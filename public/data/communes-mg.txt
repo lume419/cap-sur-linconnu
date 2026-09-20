@@ -716,7 +716,6 @@
 0;46.6333,-16.9833;MG-43;Betsiboka;Tsinjovary
 0;44.9167,-16.2500;MG-44;Melaky;Tsinjovary
 0;47.4000,-16.1167;MG-42;Sofia;Tsinjovary
-0;46.0000,-22.0000;MG-24;Ihorombe;Tsinjoroba
 0;46.7500,-21.5333;MG-21;Upper Matsiatra;Tsinjoroa
 0;43.6667,-23.3000;MG-51;Atsimo-Andrefana;Tsinjoriaka
 0;44.4500,-22.6000;MG-51;Atsimo-Andrefana;Tsinjoravy
@@ -3240,7 +3239,6 @@
 0;48.8333,-18.9500;MG-31;Atsinanana;Ranomafana
 0;46.9833,-18.5667;MG-11;Analamanga;Ranomafana
 0;49.5500,-14.3667;MG-72;Sava;Ranomafana
-0;49.0000,-18.0000;MG-31;Atsinanana;Ranolalina
 0;49.6333,-15.8667;MG-32;Analanjirofo;Ranolalina
 0;45.3833,-22.5667;MG-24;Ihorombe;Ferme de Ranohira
 0;45.4141,-22.5558;MG-24;Ihorombe;Ranohira
@@ -10878,7 +10876,6 @@
 0;49.4833,-14.3000;MG-72;Sava;Beanantsindra
 0;49.6167,-14.0500;MG-72;Sava;Beanantsindra
 0;46.2333,-25.0500;MG-52;Androy;Beanantara
-0;48.0000,-22.0000;MG-26;Fitovinany Region;Beanana
 0;45.6833,-20.4167;MG-54;Menabe;Beanana
 0;47.8333,-20.1667;MG-31;Atsinanana;Beanana
 0;48.5333,-20.0500;MG-31;Atsinanana;Beanana
@@ -17379,7 +17376,6 @@
 0;45.2333,-25.1667;MG-52;Androy;Anananjaha
 0;45.4667,-25.4000;MG-52;Androy;Ananakirihitsy
 0;45.2667,-25.3167;MG-52;Androy;Ananakevitra
-0;45.0000,-25.0000;MG-52;Androy;Ananakengitra
 0;45.4833,-24.5833;MG-52;Androy;Ananakaraka
 0;45.2500,-25.1667;MG-52;Androy;Ananakarahitsy
 0;45.5167,-25.3500;MG-52;Androy;Ananakania Est
@@ -21393,7 +21389,6 @@
 0;49.8833,-14.2333;MG-72;Sava;Ambodiampana
 0;49.6167,-13.6500;MG-72;Sava;Ambodiampana
 0;48.0333,-21.5333;MG-27;Vatovavy Region;Ambodiampaly
-0;49.0000,-19.0000;MG-31;Atsinanana;Ambodiampaly
 0;46.7833,-18.8333;MG-13;Itasy;Ambodiampaly
 0;49.2500,-18.5167;MG-31;Atsinanana;Ambodiampaly
 0;49.2500,-18.0167;MG-31;Atsinanana;Ambodiampaly
@@ -22487,7 +22482,6 @@
 0;46.6667,-21.6167;MG-21;Upper Matsiatra;Ambatolahy
 0;46.8000,-21.4667;MG-21;Upper Matsiatra;Ambatolahy
 0;46.5000,-21.1000;MG-21;Upper Matsiatra;Ambatolahy
-0;47.0000,-21.0000;MG-21;Upper Matsiatra;Ambatolahy
 0;46.5167,-20.9667;MG-21;Upper Matsiatra;Ambatolahy
 0;47.0500,-20.7500;MG-22;Amoron'i Mania;Ambatolahy
 0;46.8333,-20.6000;MG-22;Amoron'i Mania;Ambatolahy

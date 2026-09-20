@@ -26,7 +26,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
+const { excludePlace, preparePlaceName, dropNearDuplicates, regionLabel } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
 
 const POSTAL = new Set(['IN', 'ID', 'JP', 'KR', 'PH', 'BD', 'LK', 'SG']);
 const SINGLE_CODE = { IO: 'BBND 1ZZ', CX: '6798', CC: '6799' };
@@ -154,7 +154,7 @@ for(const country of COUNTRIES){
     } else if(SINGLE_CODE[country]){
       cp = SINGLE_CODE[country];
     } else {
-      cp = region ? country + '-' + p.admin1 : country;
+      cp = region ? regionLabel(country, p.admin1) : country;
       if(!region) sansRegion++;
     }
     lines.push(`${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp};${region};${p.name}`);

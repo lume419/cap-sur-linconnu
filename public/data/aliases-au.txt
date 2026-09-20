@@ -1432,7 +1432,6 @@ uz;Pert;Perth
 ky;Перт;Perth
 bn;পার্থ;Perth
 ur;پرتھ;Perth
-am;ፐርత;Perth
 az;Pert;Perth
 pa;ਪਰਥ;Perth
 ps;پرت;Perth

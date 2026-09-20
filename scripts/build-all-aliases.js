@@ -17,8 +17,17 @@
 //   2. sinon (France : communes IGN ; Arménie, Syrie : reconstructions) même nom normalisé, entrée de classe P la plus
 //      proche à moins de 10 km.
 //
-// FILTRES REPRIS : dsb -> hsb (sorabe) ; nrf -> nrf-je / nrf-gg (Jersey, Guernesey) ; pap -> pap-AW (Aruba) / pap-CW
-// (Curaçao, Bonaire) ; au Royaume-Uni, en Irlande et à Man, noms celtiques recopiés sous une autre langue écartés, et au
+// FILTRES REPRIS : dsb -> hsb (sorabe) ; nrf -> nrf-je (Jersey) ; pap -> pap-AW (Aruba) ;
+// 18e audit du 21/09/2026 : cette ligne annonçait aussi « nrf-gg (Guernesey) » et « pap-CW (Curaçao, Bonaire) ».
+// Ces deux branches du remappage ne se déclenchent JAMAIS — 0 ligne produite — parce que les sources n'ont rien à
+// leur donner : scripts/altnames/GG.txt ne contient aucune entrée « nrf », et les 5 entrées « pap » de CW et les 4
+// de BQ désignent le pays, l'aéroport ou une montagne, jamais un lieu publié. Le code des deux branches est
+// conservé (il coûte une ligne et servira si les sources s'étoffent), mais il ne fallait pas le décrire comme
+// produisant quelque chose.
+// À noter aussi, effet de bord assumé du remappage pap -> pap-AW : public/data/aliases-aw.txt publie la même forme
+// deux fois (« pap;Pos Chikito;Pos Chiquito » et « pap-AW;Pos Chikito;Pos Chiquito »), la clé de dédoublonnage
+// contenant la langue. Sans conséquence pour la recherche (même nom, même lieu) ni pour l'affichage (pap-AW est
+// choisi pour une interface en papiamento d'Aruba, pap sinon). au Royaume-Uni, en Irlande et à Man, noms celtiques recopiés sous une autre langue écartés, et au
 // Royaume-Uni, gallois / gaélique écossais / cornique / irlandais limités à leur aire (voir build-aliases.js).
 //
 // Usage : node scripts/build-all-aliases.js [--dry] [--min-pop=N] [CC ...]
@@ -122,13 +131,11 @@ const ALIAS_JUNK_RE = /[?\uFF1F]|^[-\u2010-\u2014]|[-\u2010-\u2014]$|\b(no such|
 //     (scripts/communes-corrections.js) quand chaque lettre intruse a un sosie exact dans l'écriture majoritaire du mot
 //     (sosies propres à la langue de l'alias compris : һ, palotchka) ; sinon (« Шеллenbergг », « Калан-Деh » en russe)
 //     la graphie voulue est incertaine -> alias écarté.
-const { fixMixedScript, isJunkName, repairAliasTypography, repairAliasLoose, ALIAS_REPAIR_REJECT, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES } = require('./communes-corrections.js');
-// 16e audit du 20/09/2026 — bornes des quatre écritures d'Asie du Sud-Est propres à UNE seule langue d'interface (voir
-// cleanAliasText). Le tibétain, le cyrillique, l'arabe… sont volontairement absents : ils servent à plusieurs langues.
-const SCRIPT_LANGS = { lo: [0x0E80, 0x0EFF], km: [0x1780, 0x17FF], my: [0x1000, 0x109F], th: [0x0E00, 0x0E7F] };
-const SCRIPT_LANG_LIST = Object.keys(SCRIPT_LANGS);
-// Caractères qui ne disent rien de l'écriture : espaces, ponctuation, chiffres.
-const SCRIPT_IGNORE_RE = /[\s.,;:()\[\]'’\-\u2010-\u2014\/0-9\u00AD\u200B-\u200F\u2060\uFEFF]/;
+const { fixMixedScript, hasMixedScriptWord, aliasLangFromScript, isJunkName, repairAliasTypography, repairAliasLoose, ALIAS_REPAIR_REJECT, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES } = require('./communes-corrections.js');
+// Écritures propres à UNE seule langue : le 16e audit du 20/09/2026 n'en bornait que quatre (lao, khmer, birman,
+// thaï) pour écarter les alias mal étiquetés ; depuis le 18e du 21/09/2026 la table vit dans communes-corrections.js
+// (SCRIPT_ONE_LANG, dix-sept écritures) et la ligne est réétiquetée au lieu d'être écartée. Le cyrillique, l'arabe,
+// l'éthiopien… restent volontairement absents : ils servent à plusieurs langues.
 function cleanAliasText(text, canonical, lang){
   text = String(text || '');
   if(ALIAS_MOJIBAKE_RE.test(text)) return '';
@@ -165,26 +172,22 @@ function cleanAliasText(text, canonical, lang){
   // Et ce que la 15e passe a réellement publié : 74 lignes remises (forme réparée absente avant, présente après),
   // 26 dont la forme réparée était déjà trouvable sous une autre ligne (rien d'ajouté) et 15 toujours écartées.
   if(ALIAS_JUNK_RE.test(t) || isJunkName(t)) return '';
-  // 16e audit du 20/09/2026 — LANGUE CONTREDITE PAR L'ÉCRITURE. Le lao, le khmer, le birman et le thaï ont chacun leur
-  // écriture, qu'aucune des trois autres n'emploie : un alias écrit ENTIÈREMENT dans l'une d'elles et déclaré dans une
-  // AUTRE de ces quatre langues est une étiquette fausse de GeoNames, pas un exonyme. Un seul cas publié
-  // (aliases-il.txt:1985, « km;ເຢຣູຊາເລັམ;Yerushalayim » = Jérusalem en lao) : la fiche 281184 porte la MÊME chaîne sous
-  // « lo » (id 11319030, publiée à la ligne suivante) et n'a aucun nom khmer. La ligne mal étiquetée est écartée ; la
-  // bonne reste. Balayage de tous les alias publiés : aucun autre cas.
-  if(SCRIPT_LANGS[lang]){
-    const seen = new Set();
-    for(const ch of t){
-      if(SCRIPT_IGNORE_RE.test(ch)) continue;
-      const c = ch.codePointAt(0);
-      let s = null;
-      for(const g of SCRIPT_LANG_LIST) if(c >= SCRIPT_LANGS[g][0] && c <= SCRIPT_LANGS[g][1]) s = g;
-      seen.add(s);
-    }
-    if(seen.size === 1){ const only = [...seen][0]; if(only && only !== lang) return ''; }
-  }
+  // LANGUE CONTREDITE PAR L'ÉCRITURE (16e audit du 20/09/2026, élargi au 18e du 21/09/2026). Le lao, le khmer, le
+  // birman et le thaï ont chacun leur écriture, qu'aucune des trois autres n'emploie : un alias écrit ENTIÈREMENT
+  // dans l'une d'elles et déclaré dans une AUTRE de ces quatre langues est une étiquette fausse de GeoNames, pas un
+  // exonyme. Un seul cas publié alors (aliases-il.txt:1985, « km;ເຢຣູຊາເລັມ;Yerushalayim » = Jérusalem en lao) : la
+  // fiche 281184 porte la MÊME chaîne sous « lo » (id 11319030, publiée à la ligne suivante) et n'a aucun nom khmer.
+  // Le 16e audit écartait la ligne ; la 18e passe la RÉÉTIQUETTE (aliasLangFromScript, communes-corrections.js,
+  // règle 7 ter), sur dix-sept écritures et plus seulement quatre — écarter aurait fait disparaître neuf graphies
+  // locales sur les douze cas relevés. Le réétiquetage se fait à l'appel (voir plus bas), pas ici : cleanAliasText
+  // ne rend que le texte.
   const mixed = fixMixedScript(t, lang);
   if(!mixed.ok) return '';
   t = mixed.text;
+  // 18e audit du 21/09/2026 : deux écritures dans un même mot, sans lettre sosie possible (hasMixedScriptWord,
+  // communes-corrections.js, règle 7 bis) — « ጉልያንتሲ », « اوسترავا », « クランj ». Contrôlé APRÈS fixMixedScript, qui
+  // vient peut-être de ramener le mot à une seule écriture.
+  if(hasMixedScriptWord(t)) return '';
   const m = t.match(/([\p{Script=Latin}\p{Script=Cyrillic}\p{Script=Greek}]+)\.$/u);
   if(m && m[1].length >= 5 && !/[./]/.test(t.slice(0, -1))){
     const w = m[1].toLowerCase();
@@ -361,6 +364,27 @@ for(const cc of Object.keys(COUNTRIES)){
     cleanedAliases++;
     return p[0] + ';' + t + ';' + p[2];
   }).filter(Boolean);
+  // Langue déclarée contredite par l'écriture (18e audit du 21/09/2026, règle 7 ter de communes-corrections.js) :
+  // « am;Ուռհա;Şanlıurfa » est de l'arménien étiqueté amharique. La ligne est réétiquetée, et retirée seulement si la
+  // bonne étiquette existe déjà pour le même texte et le même lieu (« ta;උණවටුන » à côté de « si;උණවටුන »).
+  let relabelled = 0, dedupRelabelled = 0;
+  {
+    const clés = new Set(existing.map(l => { const p = l.split(';'); return p.length === 3 ? keyOf(p[0], p[1], p[2]) : l; }));
+    existing = existing.map(l => {
+      const p = l.split(';');
+      if(p.length !== 3) return l;
+      const bonne = aliasLangFromScript(p[1], p[0]);
+      if(!bonne || bonne === p[0] || !LANGS.has(bonne)) return l;
+      const k = keyOf(bonne, p[1], p[2]);
+      clés.delete(keyOf(p[0], p[1], p[2]));
+      if(clés.has(k)){ dedupRelabelled++; return null; }
+      clés.add(k);
+      relabelled++;
+      console.log(cc + ' : alias réétiqueté ' + p[0] + ' -> ' + bonne + ' — ' + l);
+      return bonne + ';' + p[1] + ';' + p[2];
+    }).filter(Boolean);
+  }
+
   // Lieux écartés VOLONTAIREMENT par les générateurs de communes (scripts/communes-corrections.js : lieu rangé dans le
   // mauvais pays, lieu disparu « (historical) », base antarctique sous AR, Sercq) : leurs lignes sont écartées, JAMAIS
   // rattachées à un autre lieu — sinon « es;Almirante Brown;Brown Station » (base antarctique retirée de
@@ -437,6 +461,7 @@ for(const cc of Object.keys(COUNTRIES)){
   if(droppedRenamed) console.log(cc + ' : lignes de l’ancien nom écartées (égales au nouveau nom ou avec « _ ») ' + droppedRenamed);
   if(fixedOrphans || droppedOrphans) console.log(cc + ' : lignes orphelines rattachées ' + fixedOrphans + ', écartées ' + droppedOrphans);
   if(cleanedAliases || droppedDirty || dedupDirty) console.log(cc + ' : alias nettoyés ' + cleanedAliases + ', écartés (vides ou égaux au nom) ' + droppedDirty + ', doublons d\'une ligne existante ' + dedupDirty);
+  if(relabelled || dedupRelabelled) console.log(cc + ' : alias réétiquetés d\'après leur écriture ' + relabelled + ', doublons après réétiquetage ' + dedupRelabelled);
   const seen = new Set(existing.map(l => { const p = l.split(';'); return p[0] + '|' + normalizeCityName(p[1]) + '|' + p[2]; }));
   const existingLangs = new Set(existing.map(l => l.split(';')[0]));
 
@@ -453,7 +478,10 @@ for(const cc of Object.keys(COUNTRIES)){
     const rawLang = c[2], text = cleanAliasText(c[3], p.name, c[2]);
     // Noms historiques (isHistoric) et familiers (isColloquial : « Ville-Lumière » pour Paris) exclus.
     if(!text || c[7] === '1' || c[6] === '1') return;
-    const lang = remap[rawLang] || LANG_REMAP[rawLang] || rawLang;
+    // Réétiquetage d'après l'écriture (18e audit du 21/09/2026) appliqué APRÈS les remaps du pays, pour ne pas défaire
+    // un remap voulu : il ne se déclenche que si l'écriture contredit la langue obtenue (voir aliasLangFromScript).
+    const langRemap = remap[rawLang] || LANG_REMAP[rawLang] || rawLang;
+    const lang = aliasLangFromScript(text, langRemap) || langRemap;
     if(!LANGS.has(lang)) return;
     // Langue nouvelle pour ce pays : seuil de population éventuel (--min-pop).
     if(MIN_POP && !existingLangs.has(lang) && p.pop < MIN_POP) return;
@@ -477,7 +505,9 @@ for(const cc of Object.keys(COUNTRIES)){
   added.forEach(l => { const lg = l.slice(0, l.indexOf(';')); totals.byLang[lg] = (totals.byLang[lg] || 0) + 1; });
   console.log(cc + ' : ' + published.length + ' lieux, ' + placeById.size + ' rattachés (' + byCoords + ' par coordonnées, ' + byName +
     ' par nom), ' + existing.length + ' alias existants, +' + added.length + (DRY ? ' (mesure)' : ''));
-  if(!DRY && (added.length || renamedClean || droppedRenamed || fixedOrphans || droppedOrphans || cleanedAliases || droppedDirty || dedupDirty || withdrawn)){
+  // relabelled et dedupRelabelled compris (18e audit du 21/09/2026) : un pays dont la SEULE modification est un
+  // réétiquetage — le Sri Lanka, « ta;කුරුවිට » devenu « si;කුරුවිට » — ne s'écrivait pas, la correction restait en mémoire.
+  if(!DRY && (added.length || renamedClean || droppedRenamed || fixedOrphans || droppedOrphans || cleanedAliases || droppedDirty || dedupDirty || relabelled || dedupRelabelled || withdrawn)){
     fs.writeFileSync(outPath, existing.concat(added).join('\n') + '\n', 'utf8');
   }
 }

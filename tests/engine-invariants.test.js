@@ -14,6 +14,7 @@ const { FULL, num, outFile, summarize } = require('./helpers/config.js');
 const TRIPS = num('TEST_TRIPS', FULL ? 3000 : 300);
 const SEED = num('TEST_SEED', 1);
 const TARGET_SEEDS = FULL ? 12 : 4; // tirages par cas ciblé
+const AN = new Date().getFullYear(); // voir les dates tirées plus bas : elles suivent le calendrier
 
 // Départs particuliers : îles, enclaves et exclaves, micro-États, zones à tension, antiméridien, grand Nord, outre-mer.
 const SPECIAL = [
@@ -95,7 +96,11 @@ function runCampaign(){
     p.transportKey = pick(['voiture-thermique', 'voiture-hybride', 'voiture-electrique', 'voiture-electrique', 'van', 'moto', 'moto', 'velo', 'velo']);
     p.tollEnabled = R() < 0.7; p.ferryEnabled = R() < 0.75; p.avoidTent = R() < 0.3;
     const at = R(); p.avoidTension = at < 0.6 ? true : at < 0.85 ? false : undefined;
-    const ts = R(); p.tripStart = ts < 0.6 ? '2026-' + String(1 + Math.floor(R() * 12)).padStart(2, '0') + '-' + String(1 + Math.floor(R() * 28)).padStart(2, '0') : ts < 0.7 ? '2026-02-31' : ts < 0.8 ? '2031-05-01' : ts < 0.9 ? '2027-12-31' : undefined;
+    // Années RELATIVES à l'année en cours (18e audit du 21/09/2026) : elles étaient écrites en dur (2026, 2027,
+    // 2031). parseIsoDate n'accepte que l'année précédente à trois ans plus tard — en 2028, « 2026-.. » serait
+    // devenu invalide et 60 % de la campagne serait silencieusement repartie à la date du jour, sans que rien
+    // n'échoue. AN + 5 reste hors fenêtre quelle que soit l'année, AN-02-31 reste une date inexistante.
+    const ts = R(); p.tripStart = ts < 0.6 ? AN + '-' + String(1 + Math.floor(R() * 12)).padStart(2, '0') + '-' + String(1 + Math.floor(R() * 28)).padStart(2, '0') : ts < 0.7 ? AN + '-02-31' : ts < 0.8 ? (AN + 5) + '-05-01' : ts < 0.9 ? (AN + 1) + '-12-31' : undefined;
     p.maxRadiusKm = pick([undefined, 20, 50, 100, 150, 300, 300, 500, 800, 1500, 3000]);
     p.minDistanceKm = R() < 0.5 ? 0 : pick([15, 30, 60, 100, 150, 250, 400, 600, 1000, 2000, 3000]);
     p.maxDistanceKm = R() < 0.5 ? 0 : pick([30, 60, 100, 150, 250, 400, 600, 1000, 2000, 3000]);
@@ -196,7 +201,7 @@ test('invariant : autres contrôles (dates, durées, distances, recharge, restri
 
 // ------------------------------------------------------------------------------------------ vérificateur lui-même
 const base = (d, extra) => Object.assign({ departureCity: d, days: 7, budgetKey: 'moyen', transportKey: 'voiture-thermique', tollEnabled: true, ferryEnabled: true,
-  avoidTent: false, avoidTension: true, tripStart: '2026-10-01' }, extra || {});
+  avoidTent: false, avoidTension: true, tripStart: AN + '-10-01' }, extra || {});
 const run = (p, seed) => H.withSeed(seed, () => E.generateTrip(p));
 
 test('le vérificateur détecte des défauts injectés (sinon les invariants ne prouveraient rien)', () => {
@@ -365,3 +370,15 @@ for(const [name, mk, extra] of TARGETED){
     assert.equal(problems.length, 0, summarize(problems, 4));
   });
 }
+
+test('18e audit : les dates tirées par la campagne restent valides d\'une année sur l\'autre', () => {
+  // parseIsoDate n'accepte qu'entre l'année précédente et trois ans plus tard. Les dates de la campagne étaient
+  // écrites en dur : à partir de 2028, celle qui couvre 60 % des tirages serait devenue invalide et le moteur
+  // serait reparti de la date du jour — sans qu'aucun test ne bronche. Ce contrôle fige l'INTENTION de chaque cas.
+  const A = H.engine.__test;
+  const an = new Date().getFullYear();
+  assert.ok(A.parseIsoDate(an + '-07-14'), 'l\'année en cours doit être acceptée');
+  assert.ok(A.parseIsoDate((an + 1) + '-12-31'), 'l\'année suivante doit être acceptée');
+  assert.equal(A.parseIsoDate(an + '-02-31'), null, 'le 31 février doit être refusé, pas reporté');
+  assert.equal(A.parseIsoDate((an + 5) + '-05-01'), null, 'cinq ans plus tard doit rester hors fenêtre');
+});

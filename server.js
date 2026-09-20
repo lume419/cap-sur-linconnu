@@ -1687,6 +1687,11 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: PDF_MAX_BODY }
   // La mise en page part dans le fil de travail : la boucle d'événements de CE processus reste libre pendant ce
   // temps-là (17e audit du 20/09/2026). Le document n'est plus diffusé au fil de sa création mais envoyé d'un bloc —
   // quelques centaines de kilo-octets, sans commune mesure avec le bénéfice.
+  // Demandeur parti ? Le service abandonne le travail AVANT de le calculer (18e audit du 21/09/2026) : sans cela,
+  // des exports envoyés puis aussitôt abandonnés empilaient des mises en page que plus personne n'attendait —
+  // c'est le cœur de la faille de déni de service corrigée ce jour-là (voir l'en-tête de lib/pdf-service.js).
+  let connexionFermée = false;
+  res.on('close', function(){ if(!res.writableEnded) connexionFermée = true; });
   let resultat;
   try {
     resultat = await PdfService.build({
@@ -1694,8 +1699,14 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: PDF_MAX_BODY }
       title: "Cap sur l'inconnu - " + filenameBase,
       lang: typeof trip.lang === 'string' && PDF_LANGS.has(trip.lang) ? trip.lang : 'fr',
       glyphMax: PDF_GLYPH_CACHE_MAX
-    });
+    }, function(){ return connexionFermée; });
   } catch(err){
+    // Temps déjà dépensé avant l'échec (fil expiré, fil mort en cours de route) : imputé quand même, sinon un
+    // export qui échoue serait gratuit — et c'est justement le chemin qu'emprunte un abus (18e audit).
+    if(err && err.msDépensé > 0) cpuBudgetCharge(req, err.msDépensé);
+    // File pleine : le service refuse tout de suite plutôt que d'accepter un travail qu'il ne tiendra pas. Même
+    // réponse que le créneau d'export déjà pris.
+    if(err && err.busy) return sendBusy(res, 2);
     // Ni le fil ni le repli n'ont abouti (polices illisibles des deux côtés, mémoire) : l'échec ne dépend pas de la
     // requête, donc 503 comme pour les polices absentes.
     console.warn('[export-pdf] échec de la mise en page :', pdfErrorKind(err));
@@ -1704,10 +1715,13 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: PDF_MAX_BODY }
     return fail(503, { error: 'pdf unavailable' });
   }
   if(resultat.erreur) console.warn('[export-pdf] erreur de mise en page :', typeof resultat.erreur === 'string' ? resultat.erreur : pdfErrorKind(resultat.erreur));
-  // Temps de calcul du FIL imputé au quota de l'adresse demandeuse : déporter le travail ne doit pas le rendre gratuit.
+  // Temps de calcul RÉELLEMENT dépensé (fil et repli additionnés) imputé au quota de l'adresse demandeuse :
+  // déporter le travail ne doit pas le rendre gratuit.
   cpuBudgetCharge(req, resultat.ms);
   // Calcul terminé : il ne reste que l'envoi, qui ne coûte pas de calcul. Le créneau est rendu tout de suite.
   if(res.locals.releasePdfSlot) res.locals.releasePdfSlot();
+  // Travail abandonné parce que le demandeur était parti : il n'y a plus personne à qui répondre.
+  if(resultat.abandonné) return res.end();
   if(!resultat.pdf || !resultat.pdf.length){
     console.warn('[export-pdf] document vide');
     res.setHeader('Retry-After', '60');
@@ -1962,7 +1976,14 @@ app.get('/api/status', function(req, res){
     tripsReady: tripEngine.isReady(),
     chargers: startupStatus.chargers || 0,
     precompressed: startupStatus.precompressed || null,
-    pdfFonts: startupStatus.pdfFonts || null,
+    // État VIVANT du fil de l'export : au 18e audit, cette ligne rendait la valeur figée au démarrage et annonçait
+    // « polices prêtes » pendant que le fil était mort et que tous les exports repartaient en repli — le seul point
+    // de diagnostic à distance mentait précisément quand il fallait s'en servir.
+    pdfFonts: (function(){
+      const e = PdfService.status();
+      if(e.fontsError) return 'ÉCHEC (' + e.fontsError + ')';
+      return e.statut + (e.enCours || e.enAttente ? ' · en cours ' + (e.enCours ? 1 : 0) + ', en attente ' + e.enAttente : '');
+    })(),
     // Grille terre/mer : « indisponible » signifie qu'aucune traversée maritime n'est détectée (7e audit) — une
     // information à connaître de l'extérieur, le contrôle échouant alors en silence.
     landGrid: landGrid.status(),
@@ -1976,6 +1997,23 @@ app.get('/api/status', function(req, res){
 // une recherche à froid lit l'index sur disque de façon synchrone et coûte jusqu'à ~1 s, de quoi tenir le process
 // occupé en continu à quelques adresses si seul le budget par IP s'appliquait.
 const SEARCH_BUDGET_MIN_MS = 50;
+// …mais le reliquat n'est plus PERDU (18e audit du 21/09/2026) : une recherche de 49 ms ne coûtait rien, et rien
+// n'empêchait d'en enchaîner — seul le quota de requêtes par adresse bornait alors la charge, jamais le budget de
+// calcul, alors que c'est lui qui protège le processus. Les millisecondes sous le seuil s'additionnent maintenant par
+// adresse et sont imputées dès qu'elles franchissent SEARCH_BUDGET_MIN_MS : le total facturé est le même qu'avec des
+// recherches longues, et une recherche ordinaire isolée continue de ne rien peser. La table est bornée à
+// SEARCH_CRUMBS_MAX adresses : au-delà, la plus anciennement insérée sort, ce qui offre au plus 50 ms à celui qui
+// reviendrait après avoir été évincé — sans horloge ni balayage supplémentaires.
+const searchCrumbs = new Map();
+const SEARCH_CRUMBS_MAX = 20000;
+function chargeSearchMs(req, ms){
+  if(ms > SEARCH_BUDGET_MIN_MS) return cpuBudgetCharge(req, ms);
+  const ip = cpuBudgetIpOf(req);
+  const cumul = (searchCrumbs.get(ip) || 0) + ms;
+  if(cumul > SEARCH_BUDGET_MIN_MS){ searchCrumbs.delete(ip); return cpuBudgetCharge(req, cumul); }
+  if(searchCrumbs.size >= SEARCH_CRUMBS_MAX && !searchCrumbs.has(ip)) searchCrumbs.delete(searchCrumbs.keys().next().value);
+  searchCrumbs.set(ip, cumul);
+}
 // Cache des résultats de recherche (10e audit du 18/09/2026) : une recherche courte et fréquente (« san » avec le pays
 // US, « sant » avec FR) coûte jusqu'à 1 s ; une trentaine d'appels venus d'adresses différentes suffisaient à épuiser
 // le budget de calcul global. L'index ne change pas pendant la vie du process : une réponse déjà calculée est rendue
@@ -2010,7 +2048,7 @@ function searchCityHandler(req, res, params){
   // Imputation au budget juste après le calcul (11e audit du 19/09/2026) : elle se faisait à l'envoi de la réponse
   // ('finish'), qui n'a jamais lieu quand le client coupe la connexion — 40 recherches abandonnées d'une même adresse
   // tournaient sans jamais être comptées. Voir chargeSearch plus bas.
-  function chargeSearch(){ var ms = performance.now() - t0; if(ms > SEARCH_BUDGET_MIN_MS) cpuBudgetCharge(req, ms); }
+  function chargeSearch(){ chargeSearchMs(req, performance.now() - t0); }
   try {
     var limitRaw = parseInt(params.limit, 10);
     var limit = (isFinite(limitRaw) && limitRaw > 0 && limitRaw <= 20) ? limitRaw : 8;
@@ -2031,7 +2069,10 @@ function searchCityHandler(req, res, params){
     }
     res.json({ results: results });
   } catch(err){
-    console.warn('[search-city] erreur:', JSON.stringify(String(err && err.message)));
+    // Message BORNÉ à 200 caractères (18e audit du 21/09/2026) : il peut reprendre la saisie du visiteur, et rien ne
+    // limitait sa longueur dans le journal de l'hébergeur. JSON.stringify échappe déjà les retours à la ligne, donc
+    // aucune ligne ne peut être forgée ; seule la taille restait libre.
+    console.warn('[search-city] erreur:', JSON.stringify(String(err && err.message).slice(0, 200)));
     res.status(500).json({ error: 'internal error', results: [] });
   }
 }
@@ -2127,11 +2168,20 @@ engineStartup.then(precompressStaticFiles).catch(function(err){ console.warn('[p
 // limiteur ne couvrait que /api/ — un client refusant la compression (Accept-Encoding: identity) pouvait en tirer
 // autant de fois qu'il voulait. 30 requêtes par minute et par IP sur ces fichiers, bien au-delà d'un usage réel (le
 // navigateur les met en cache et les revalide).
+// 18e audit du 21/09/2026 : le quota comptait des REQUÊTES, pas des octets — les quatre fichiers visés vont de 6 ko
+// (style.css) à 11 Mo (i18n.js non compressé), et les mêmes 30 requêtes valaient donc 0,2 Mo ou 330 Mo selon celui
+// qu'on demandait. Un plafond d'octets par minute et par adresse s'y ajoute, réglé assez haut pour qu'aucun
+// navigateur ne l'atteigne : une page complète tire environ 1,2 Mo compressés, soit plus de cent chargements par
+// minute avant d'y toucher, mais seulement dix-huit lectures d'i18n.js non compressé. Les 304 de revalidation ne
+// portent aucun octet et ne comptent donc ni en requêtes (déjà le cas) ni en octets.
 const BIG_STATIC_RE = /^\/(js\/(i18n|trip-data|app)\.js|css\/style\.css)$/;
 const bigStaticHits = new Map();
+const BIG_STATIC_BYTES_MAX = 220 * 1024 * 1024; // par minute et par adresse
+const bigStaticBytes = new Map();
 setInterval(function(){
   const now = Date.now();
   for(const [ip, hits] of bigStaticHits){ if(!hits.length || now - hits[hits.length - 1] > 60000) bigStaticHits.delete(ip); }
+  for(const [ip, o] of bigStaticBytes){ if(now - o.t > 60000) bigStaticBytes.delete(ip); }
 }, 60000).unref();
 // Test sur le chemin DÉCODÉ et normalisé, sans tenir compte de la casse (9e audit du 18/09/2026) : « /js/%6918n.js »,
 // « /js//i18n.js » ou « /css/../js/i18n.js » échappaient au quota, puis express.static les servait quand même.
@@ -2142,7 +2192,9 @@ app.use(function(req, res, next){
   let hits = bigStaticHits.get(ip);
   if(!hits){ hits = []; bigStaticHits.set(ip, hits); }
   while(hits.length && now - hits[0] > 60000) hits.shift();
-  if(hits.length >= 30){
+  let octets = bigStaticBytes.get(ip);
+  if(!octets || now - octets.t > 60000){ octets = { t: now, n: 0 }; bigStaticBytes.set(ip, octets); }
+  if(hits.length >= 30 || octets.n >= BIG_STATIC_BYTES_MAX){
     res.setHeader('Retry-After', '60');
     return res.status(429).type('text/plain').send('Too many requests');
   }
@@ -2151,9 +2203,15 @@ app.use(function(req, res, next){
   // 4 fichiers même en 304, et au 8e chargement dans la minute i18n.js répondait 429 : le site ne marchait plus, plus
   // vite encore derrière une adresse partagée (entreprise, école, opérateur mobile).
   res.on('finish', function(){
-    if(res.statusCode !== 304) return;
-    const i = hits.lastIndexOf(now);
-    if(i >= 0) hits.splice(i, 1);
+    if(res.statusCode === 304){
+      const i = hits.lastIndexOf(now);
+      if(i >= 0) hits.splice(i, 1);
+      return;
+    }
+    // Octets réellement servis : Content-Length quand il est posé (express.static le pose toujours), sinon rien —
+    // mieux vaut ne rien compter qu'un chiffre inventé.
+    const n = Number(res.getHeader('Content-Length'));
+    if(isFinite(n) && n > 0) octets.n += n;
   });
   next();
 });
@@ -2228,7 +2286,12 @@ app.use(function(err, req, res, next){
   // itinéraire redonnerait le même 413. Même forme que le 413 de trop de caractères distincts (« too many distinct
   // characters »), déjà rendu par la route elle-même.
   const tooLarge = status === 413 || (err && err.type === 'entity.too.large');
-  res.status(tooLarge ? 413 : status).json({ error: tooLarge ? 'trip too large' : (status === 500 ? 'internal error' : 'bad request') });
+  // Message PROPRE À LA ROUTE (18e audit du 21/09/2026) : tout corps trop gros répondait « trip too large », y
+  // compris sur /api/search-city, où « itinéraire trop volumineux » ne veut rien dire. Le client n'affiche ce
+  // message tel quel que pour l'export (export.tooLarge) ; ailleurs, il lui suffit de savoir que la requête a été
+  // refusée.
+  const pdfTrop = tooLarge && isPdfExport;
+  res.status(tooLarge ? 413 : status).json({ error: pdfTrop ? 'trip too large' : tooLarge ? 'request too large' : (status === 500 ? 'internal error' : 'bad request') });
 });
 
 const httpServer = app.listen(PORT, () => {

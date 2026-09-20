@@ -299,7 +299,7 @@ ru;Хачик;Khachik
 ce;Хачик;Khachik
 uk;Хачік;Khachik
 pl;Chaczik;Khachik
-ml;காசிக்;Khachik
+ta;காசிக்;Khachik
 az;Xaçik;Khachik
 hy;Kech’ut;Kechut
 hy;Կեչուտ;Kechut
@@ -855,7 +855,6 @@ he;ואראשאפאט;Vagharshapat
 da;Vagharsjapat;Vagharshapat
 tr;Eçmiadzin;Vagharshapat
 hy;Էջմիածին;Vagharshapat
-ka;Էջմիածին;Vagharshapat
 hy;Վաղարշափաթ;Vagharshapat
 hy;Էչմիաձին, Իեջմիածին;Vagharshapat
 ar;إتشميادزين;Vagharshapat
@@ -1616,7 +1615,6 @@ ky;Ванадзор;Vanadzor
 hi;वनादज़ोर;Vanadzor
 bn;ভানাদজোর;Vanadzor
 ur;وناديزور;Vanadzor
-am;ቫናձոր;Vanadzor
 en;Khashdirak;Khashtarak
 ru;Хаштарак;Khashtarak
 az;Həştərək;Khashtarak
@@ -1742,7 +1740,7 @@ ky;Иджеван;Ijevan
 hi;इजेवान;Ijevan
 bn;ইজেভান;Ijevan
 ur;اجیوان;Ijevan
-am;ծաղկ;Ijevan
+hy;ծաղկ;Ijevan
 ps;اجیوان;Ijevan
 tg;Иджеван;Ijevan
 tt;Иджеван;Ijevan
@@ -1770,7 +1768,6 @@ tr;Razdan;Hrazdan
 ky;Раздан;Hrazdan
 hi;ह्राज़दान;Hrazdan
 bn;হ্রাজদান;Hrazdan
-am;հրազդան;Hrazdan
 ja;フラズダン;Hrazdan
 ps;هرازدان;Hrazdan
 tg;Раздан;Hrazdan
@@ -1796,7 +1793,6 @@ ky;Армавир;Armavir
 hi;अर्मावीर;Armavir
 bn;আর্মাভির;Armavir
 ur;آرماویر;Armavir
-am;արմավիր;Armavir
 pa;ਆਰਮਾਵੀਰ;Armavir
 ps;آرماویر;Armavir
 tg;Армавир;Armavir
@@ -1845,7 +1841,6 @@ ky;Гюмрі;Gyumri
 hi;ग्युमरी;Gyumri
 bn;গিউমরি;Gyumri
 ur;گیومری;Gyumri
-am;գյուმրի;Gyumri
 pa;ਗਯੂਮਰੀ;Gyumri
 ps;گیومری;Gyumri
 tg;Гюмрӣ;Gyumri

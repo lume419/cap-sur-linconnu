@@ -40699,7 +40699,6 @@ ja;フットノ;Futtono
 ja;かみおちあい;Kamiochiai
 ja;カミオチアイ;Kamiochiai
 ja;本町東;Honmachi-higashi
-ja;ほんまちひがｈし;Honmachi-higashi
 ja;ホンマチヒガシ;Honmachi-higashi
 ja;本町西;Honmachi-nishi
 ja;ほんまちにし;Honmachi-nishi
@@ -58587,7 +58586,6 @@ ja;喜登牛;Kitoushi
 ja;きとうし;Kitoushi
 ja;キトウシ;Kitoushi
 ja;東喜登牛;Higashikitoushi
-ja;ひがしｋとうし;Higashikitoushi
 ja;ヒガシキトウシ;Higashikitoushi
 ja;南喜登牛;Minamikitoushi
 ja;みなみきとうし;Minamikitoushi

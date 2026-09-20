@@ -2718,7 +2718,6 @@ be;Тханьхаа;Thanh Hóa
 bg;Тхан Хоа;Thanh Hóa
 tt;Таньһоа;Thanh Hóa
 sr;Тањ Хоа;Thanh Hóa
-hy;Թhանհոա;Thanh Hóa
 ka;თანჰუაია;Thanh Hóa
 am;ታን ሆዋ;Thanh Hóa
 am;ታይ ንጉዬን;Thái Nguyên

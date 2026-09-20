@@ -27,7 +27,7 @@ const fs = require('fs');
 const path = require('path');
 // Corrections communes à tous les générateurs de lieux (audit n° 11) : noms nettoyés, lieux écartés, quasi-doublons —
 // voir scripts/communes-corrections.js.
-const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
+const { excludePlace, preparePlaceName, dropNearDuplicates, regionLabel } = require('./communes-corrections.js');
 
 const POSTAL = new Set(['AU', 'NZ', 'GU']);
 const SINGLE_CODE = { PW: '96940', AS: '96799', NU: '9974', NR: 'NRU68', PN: 'PCRN 1ZZ', NF: '2899', HM: '7151' };
@@ -106,7 +106,7 @@ for(const country of COUNTRIES){
       cp = ADMIN1_CODE[country][p.admin1] || ADMIN1_CODE[country]['*'];
       if(!cp) throw new Error(country + ' : division sans code ' + p.admin1 + ' (' + p.name + ')');
     } else {
-      cp = region ? country + '-' + p.admin1 : country;
+      cp = region ? regionLabel(country, p.admin1) : country;
       if(!region) sansRegion++;
     }
     lines.push(`${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp};${region};${p.name}`);

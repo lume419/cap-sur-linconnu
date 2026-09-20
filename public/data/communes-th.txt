@@ -10774,7 +10774,6 @@
 0;104.2299,17.8519;TH-73;Nakhon Phanom;Ban Pa Wan
 0;101.8906,16.5306;TH-26;Chaiyaphum;Ban Pa Wan
 0;103.0913,17.0237;TH-76;Udon Thani;Ban Pa Wai
-0;101.0000,17.0000;TH-12;Phitsanulok;Ban Pa Wai
 0;102.8537,15.8082;TH-22;Khon Kaen;Ban Pa Wai
 0;104.9805,14.9699;TH-75;Ubon Ratchathani;Ban Pa Wai
 0;104.2361,14.8068;TH-30;Si Sa Ket;Ban Pa-ung
@@ -16782,9 +16781,7 @@
 0;100.2762,16.2191;TH-13;Phichit;Ban Yan Khat
 0;102.9667,15.4000;TH-28;Buriram;Ban Yang (2)
 0;102.8783,14.8561;TH-28;Buriram;Ban Yang Phatthana
-0;100.0000,14.0000;TH-53;Nakhon Pathom;Ban Yang (2)
 0;102.8754,14.8588;TH-28;Buriram;Ban Yang Mai
-0;100.0000,14.0000;TH-53;Nakhon Pathom;Ban Yang (1)
 0;101.3197,12.9017;TH-47;Rayong;Ban Yang Yong
 0;102.2949,15.8734;TH-26;Chaiyaphum;Ban Yang Wai
 0;101.9614,14.6886;TH-27;Nakhon Ratchasima;Ban Yang Tia

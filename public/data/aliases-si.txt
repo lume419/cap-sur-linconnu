@@ -6288,7 +6288,6 @@ ky;Марковци;Markovci
 hi;मार्कोव्त्सी;Markovci
 bn;মার্কোভত্সি;Markovci
 ur;مارکووتسی;Markovci
-am;ማርኮቭツኢ;Markovci
 az;Markovtsi;Markovci
 fa;مارکووتسی;Markovci
 ja;マルコフツィ;Markovci
@@ -7448,7 +7447,6 @@ bn;ক্রঞ্জ;Kranj
 ur;کرانج;Kranj
 am;ክራንጅ;Kranj
 fa;کرانج;Kranj
-ja;クランj;Kranj
 pa;ਕ੍ਰਾਂਜ;Kranj
 ps;کرانج;Kranj
 tg;Крань;Kranj

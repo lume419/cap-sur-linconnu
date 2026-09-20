@@ -1726,7 +1726,6 @@
 1405;-88.2414,15.6341;HN-06;Cortés Department;Río Chiquito
 0;-85.6667,15.5333;HN-15;Olancho Department;Río Chiquito
 0;-87.8167,15.3833;HN-18;Yoro Department;Río Chiquito
-0;-88.0000,15.0000;HN-06;Cortés Department;Río Chiquito
 0;-86.7167,14.9667;HN-15;Olancho Department;Río Chiquito
 0;-87.3167,14.7000;HN-04;Comayagua Department;Río Chiquito
 0;-87.3667,13.7667;HN-08;Francisco Morazán Department;Río Chiquito
@@ -6346,7 +6345,6 @@
 0;-88.0333,15.0333;HN-06;Cortés Department;El Zapote
 970;-87.8500,15.0167;HN-06;Cortés Department;El Zapote
 0;-87.4833,15.0167;HN-18;Yoro Department;El Zapote
-0;-88.0000,15.0000;HN-06;Cortés Department;El Zapote
 0;-88.3167,14.9833;HN-16;Santa Bárbara Department;El Zapote
 0;-89.1333,14.9667;HN-05;Copán Department;El Zapote
 0;-88.2333,14.9667;HN-16;Santa Bárbara Department;El Zapote
@@ -10175,7 +10173,6 @@
 0;-87.1500,14.8333;HN-08;Francisco Morazán Department;Agua Dulce
 0;-87.2500,14.8000;HN-04;Comayagua Department;Agua Dulce
 0;-87.8333,14.6000;HN-04;Comayagua Department;Agua Dulce
-0;-87.0000,14.0000;HN-08;Francisco Morazán Department;Agua Dulce
 0;-87.0811,13.5953;HN-07;El Paraíso Department;Agua Dulce
 0;-87.7667,15.0500;HN-06;Cortés Department;Agua dela Reina
 0;-87.4167,15.3833;HN-18;Yoro Department;Agua Colorada

@@ -15795,7 +15795,6 @@
 0;97.2502,20.1873;MM-11;Shan State;Nyaungbintha
 0;96.1723,20.1195;MM-18;Nay Pyi Taw;Nyaung Pin Thar
 0;94.5065,20.0359;MM-15;Magway;Nyaungbintha
-0;95.0000,20.0000;MM-15;Magway;Nyaungbintha
 0;95.5167,19.9058;MM-15;Magway;Nyaungbintha
 0;95.3910,19.7049;MM-15;Magway;Nyaungbintha
 0;94.8488,19.6065;MM-15;Magway;Nyaungbintha
@@ -25644,7 +25643,6 @@
 0;92.8350,20.4805;MM-01;Rakhine;Kyein Thar
 23581;94.4900,18.0061;MM-01;Rakhine;Kyeintali
 0;97.1114,17.2441;MM-13;Mon;Kyein Hpan
-0;96.0000,17.0000;MM-17;Yangon;Kyein Ni San
 0;95.0049,15.8629;MM-03;Ayeyarwady;Kyeinnigale
 0;98.6177,11.0692;MM-12;Tanintharyi Region;Kyein Ni Taung
 0;95.0022,16.3246;MM-03;Ayeyarwady;Kyein Ni
@@ -27699,7 +27697,6 @@
 0;95.6192,20.7010;MM-08;Mandalay Region;Kone Tan
 0;92.6867,20.4676;MM-01;Rakhine;Kon Tan
 0;92.7268,20.2880;MM-01;Rakhine;Ah Ngu Maw Kone Tan
-0;95.0000,20.0000;MM-15;Magway;Kondan
 0;95.5459,16.2870;MM-03;Ayeyarwady;Koe Ein Tan
 0;94.3024,16.0345;MM-03;Ayeyarwady;Kone Tan
 0;96.7667,19.0000;MM-05;Kayin State;Kondaing

@@ -1083,20 +1083,217 @@ test('17e audit : le serveur répond pendant un export PDF (mise en page déport
 
 test('17e audit : le fil de travail et le repli interne rendent le MÊME document', { timeout: 300000 }, async () => {
   // Le service est testé directement : c'est le seul moyen d'exercer le repli, qui ne se déclenche autrement que
-  // lorsque le fil meurt. stop() coupe le fil pour de bon, donc l'ordre compte : le fil d'abord, le repli ensuite.
-  const PdfService = require(path.join(ROOT, 'lib', 'pdf-service.js'));
+  // lorsque le fil meurt. Le repli est obtenu comme en vrai — en laissant le délai de réponse expirer (18e audit du
+  // 21/09/2026) — et non plus par stop(), qui refuse désormais tout nouveau travail (le serveur s'arrête).
   const travail = { trip: maxTripPayload('dz'), title: 'Cap sur l\'inconnu - essai', lang: 'dz', glyphMax: 6000 };
-  const parLeFil = await PdfService.build(travail);
-  assert.equal(parLeFil.source, 'fil', 'le fil n\'a pas fait le travail (statut ' + JSON.stringify(PdfService.status()) + ')');
+  const chemin = path.join(ROOT, 'lib', 'pdf-service.js');
+
+  const Fil = require(chemin);
+  const parLeFil = await Fil.build(travail);
+  assert.equal(parLeFil.source, 'fil', 'le fil n\'a pas fait le travail (statut ' + JSON.stringify(Fil.status()) + ')');
   assert.ok(parLeFil.pdf && parLeFil.pdf.length > 50000, 'document vide ou minuscule (' + (parLeFil.pdf && parLeFil.pdf.length) + ' o)');
   assert.ok(parLeFil.ms > 0, 'temps de calcul du fil non rapporté : il ne serait plus imputé au quota de l\'adresse');
-  await PdfService.stop();
-  const parLeRepli = await PdfService.build(travail);
-  assert.equal(parLeRepli.source, 'local', 'le repli ne s\'est pas déclenché après l\'arrêt du fil');
-  assert.ok(parLeRepli.ms > 0, 'temps de calcul du repli non rapporté');
-  // Seuls la date de création et l'identifiant du document changent d'un export à l'autre, par construction.
-  const sansHorodatage = b => b.toString('latin1').replace(/\(D:\d{14}Z?\)/g, '(D:X)').replace(/\/ID\s*\[[^\]]*\]/g, '/ID[X]');
-  assert.equal(sansHorodatage(parLeFil.pdf), sansHorodatage(parLeRepli.pdf), 'le fil et le repli ne rendent pas le même document');
+  await Fil.stop();
+
+  // Seconde instance, avec un délai de réponse ramené à 60 ms : la mise en page (~0,3 à 3 s) ne peut pas tenir
+  // dedans, le fil est donc perdu en cours de travail et le travail repart en repli — le chemin réel.
+  delete require.cache[require.resolve(chemin)];
+  process.env.PDF_REPONSE_MAX_MS = '60';
+  const Repli = require(chemin);
+  delete process.env.PDF_REPONSE_MAX_MS;
+  try {
+    const parLeRepli = await Repli.build(travail);
+    assert.equal(parLeRepli.source, 'local', 'le repli ne s\'est pas déclenché alors que le fil a expiré');
+    assert.ok(parLeRepli.ms > 0, 'temps de calcul du repli non rapporté');
+    // Seuls la date de création et l'identifiant du document changent d'un export à l'autre, par construction.
+    const sansHorodatage = b => b.toString('latin1').replace(/\(D:\d{14}Z?\)/g, '(D:X)').replace(/\/ID\s*\[[^\]]*\]/g, '/ID[X]');
+    assert.equal(sansHorodatage(parLeFil.pdf), sansHorodatage(parLeRepli.pdf), 'le fil et le repli ne rendent pas le même document');
+  } finally {
+    await Repli.stop();
+    delete require.cache[require.resolve(chemin)];
+  }
+});
+
+// ------------------------------------------------- faille de déni de service du 18e audit (21/09/2026)
+// 200 exports envoyés puis aussitôt abandonnés (connexion coupée, chacun depuis une adresse différente et donc sous
+// son quota) empilaient 200 mises en page dans le fil ; au premier dépassement du délai de réponse, TOUS les travaux
+// en vol étaient rejetés d'un coup et repartaient en mise en page SYNCHRONE dans le processus principal — 69
+// d'affilée, boucle d'événements figée 39 s (mesuré). Trois garanties le corrigent, une par test ci-dessous.
+
+test('18e audit : une rafale d\'exports abandonnés ne coûte rien — le suivant reste rapide', { timeout: 300000 }, async () => {
+  const corps = JSON.stringify(maxTripPayload('dz'));
+  await H.postPatient('/api/export-pdf', corps, { timeout: 120000 }); // chauffe
+  const seul = Date.now();
+  const témoin = await H.postPatient('/api/export-pdf', corps, { timeout: 120000 });
+  const seulMs = Date.now() - seul;
+  assert.equal(témoin.status, 200, 'export témoin refusé');
+
+  // 40 exports envoyés puis coupés 15 ms après, chacun depuis une adresse neuve.
+  const net = require('net');
+  const abandonner = ip => new Promise(resolve => {
+    const c = net.connect(srv.port, '127.0.0.1', () => {
+      c.write('POST /api/export-pdf HTTP/1.1\r\nHost: localhost\r\nX-Forwarded-For: ' + ip +
+        '\r\nContent-Type: application/json\r\nContent-Length: ' + Buffer.byteLength(corps) + '\r\n\r\n');
+      c.write(corps);
+      setTimeout(() => { c.destroy(); resolve(); }, 15);
+    });
+    c.on('error', () => resolve());
+  });
+  for(let i = 0; i < 40; i++){ abandonner('10.77.' + ((i >> 8) & 255) + '.' + (i & 255)); await new Promise(r => setTimeout(r, 12)); }
+
+  // Un export légitime juste après doit rester du même ordre de grandeur : si les 40 travaux abandonnés avaient été
+  // mis en page, il attendrait leur tour (mesuré à l'époque : plusieurs dizaines de secondes).
+  const t0 = Date.now();
+  const après = await H.postPatient('/api/export-pdf', corps, { timeout: 120000 });
+  const aprèsMs = Date.now() - t0;
+  assert.equal(après.status, 200, 'export refusé après la rafale : ' + après.body.toString('utf8').slice(0, 100));
+  assert.ok(isCompletePdf(après.body), 'PDF incomplet après la rafale');
+  const plafond = Math.max(4000, seulMs * 4);
+  assert.ok(aprèsMs < plafond, 'export après 40 abandons : ' + aprèsMs + ' ms (seul : ' + seulMs + ' ms, plafond ' +
+    plafond + ') — les travaux abandonnés sont encore calculés');
+});
+
+test('18e audit : un travail dont le demandeur est parti est abandonné SANS être mis en page', { timeout: 300000 }, async () => {
+  // Deux protections rendent la rafale d'exports abandonnés inoffensive : la file bornée et l'abandon des travaux
+  // sans destinataire. Le test précédent les éprouve ensemble (il échoue si les deux sautent) ; celui-ci isole la
+  // seconde, pour qu'aucune des deux ne puisse disparaître en silence.
+  const chemin = path.join(ROOT, 'lib', 'pdf-service.js');
+  delete require.cache[require.resolve(chemin)];
+  process.env.PDF_FILE_MAX = '64'; // file large : seul l'abandon peut épargner le travail
+  const S = require(chemin);
+  delete process.env.PDF_FILE_MAX;
+  try {
+    const travail = { trip: maxTripPayload('dz'), title: 'essai', lang: 'dz', glyphMax: 6000 };
+    const enCours = S.build(travail);                       // occupe le fil
+    const partis = [S.build(travail, () => true), S.build(travail, () => true), S.build(travail, () => true)];
+    const t0 = Date.now();
+    const r = await Promise.all([enCours].concat(partis));
+    const ms = Date.now() - t0;
+    assert.ok(r[0].pdf && r[0].pdf.length > 50000, 'le travail légitime n\'a pas abouti');
+    for(let i = 1; i < 4; i++){
+      assert.equal(r[i].source, 'abandonné', 'travail ' + i + ' mis en page alors que son demandeur était parti (' + r[i].source + ')');
+      assert.equal(r[i].ms, 0, 'travail ' + i + ' : du temps de calcul a été dépensé pour personne (' + r[i].ms + ' ms)');
+      assert.equal(r[i].pdf, null, 'travail ' + i + ' : un document a été produit pour personne');
+    }
+    // Trois documents en moins : l'ensemble doit coûter à peu près le temps d'UN seul export.
+    assert.ok(ms < 20000, 'quatre travaux dont trois abandonnés ont pris ' + ms + ' ms');
+  } finally {
+    await S.stop();
+    delete require.cache[require.resolve(chemin)];
+  }
+});
+
+test('18e audit : file d\'attente bornée — au-delà, « busy » tout de suite, jamais d\'empilement', { timeout: 300000 }, async () => {
+  const corps = JSON.stringify(maxTripPayload('dz'));
+  await H.postPatient('/api/export-pdf', corps, { timeout: 120000 }); // chauffe
+  // 10 exports SIMULTANÉS, adresses distinctes (chacune sous son quota de 10/min).
+  const réponses = await Promise.all(Array.from({ length: 10 }, (v, i) =>
+    H.post('/api/export-pdf', corps, { ip: '10.88.0.' + i })));
+  const codes = réponses.map(r => r.status).sort();
+  const inattendus = codes.filter(c => c !== 200 && c !== 503);
+  assert.deepEqual(inattendus, [], 'statuts inattendus : ' + JSON.stringify(codes));
+  assert.ok(codes.includes(503), 'aucun refus : 10 exports simultanés ont tous été acceptés (' + JSON.stringify(codes) + ')');
+  assert.ok(codes.includes(200), 'aucun export n\'a abouti (' + JSON.stringify(codes) + ')');
+  // Le service reste sain juste après : un export ordinaire repasse.
+  const après = await H.postPatient('/api/export-pdf', corps, { timeout: 120000 });
+  assert.equal(après.status, 200, 'service cassé après la rafale simultanée');
+});
+
+test('18e audit : la perte du fil ne concerne QUE le travail en cours, jamais la file', { timeout: 300000 }, async () => {
+  // Trois travaux enfilés d'un coup, avec un délai de réponse de 60 ms : le premier expire (le fil est tué et le
+  // travail repart en repli), les deux suivants doivent être menés à bien par le fil SUIVANT. Avant le 18e audit,
+  // la mort du fil rejetait tous les travaux en vol d'un coup — 1 expiration pour 69 replis, mesuré.
+  const chemin = path.join(ROOT, 'lib', 'pdf-service.js');
+  delete require.cache[require.resolve(chemin)];
+  process.env.PDF_REPONSE_MAX_MS = '60';
+  const S = require(chemin);
+  delete process.env.PDF_REPONSE_MAX_MS;
+  try {
+    const travail = { trip: maxTripPayload('dz'), title: 'essai', lang: 'dz', glyphMax: 6000 };
+    const r = await Promise.all([S.build(travail), S.build(travail), S.build(travail)]);
+    // AUCUN travail ne doit être REJETÉ : c'est la garantie. Avant le 18e audit, la perte du fil rejetait d'un
+    // coup tous les travaux en vol — Promise.all aurait échoué ici au lieu de rendre trois documents. Que le
+    // travail reparte dans le fil suivant ou en repli importe peu : ce qui compte est qu'il ne soit ni perdu ni
+    // déversé en masse, et que les mises en page restent sérialisées.
+    assert.equal(r.length, 3);
+    r.forEach((x, i) => assert.ok(x.pdf && x.pdf.length > 50000, 'travail ' + i + ' sans document (' + x.source + ')'));
+    // Chacun a coûté du temps, et ce temps est rendu : c'est lui qui est imputé au quota de l'adresse.
+    r.forEach((x, i) => assert.ok(x.ms > 0, 'travail ' + i + ' : temps de calcul non rapporté'));
+  } finally {
+    await S.stop();
+    delete require.cache[require.resolve(chemin)];
+  }
+});
+
+test('18e audit : le PDF écrit les écritures de droite à gauche dans le bon ordre VISUEL', () => {
+  // Trou trouvé au 18e audit : neutraliser la remise en ordre visuelle de lib/pdf-text.js (visualOrder) ne faisait
+  // échouer AUCUN des tests du PDF — tout l'arabe, l'hébreu, le persan et le divehi seraient sortis à l'envers dans
+  // un document par ailleurs « complet, signé, sans glyphe manquant ». Tous les contrôles portaient sur la PRÉSENCE
+  // du texte, jamais sur sa place.
+  // L'oracle n'est pas une capture du rendu actuel (qui figerait le défaut s'il existait) mais bidi-js, une
+  // implémentation INDÉPENDANTE de la règle L2 d'UAX #9 : on compare la ligne rendue par le moteur de mise en page
+  // à la chaîne réordonnée par la bibliothèque.
+  const PdfText = require(path.join(ROOT, 'lib', 'pdf-text.js'));
+  const PDFDocument = require(path.join(ROOT, 'node_modules', 'pdfkit'));
+  const bidi = require('bidi-js')();
+  const doc = new PDFDocument({ size: 'A4' });
+  doc.on('data', () => {});
+  PdfText.registerFonts(doc);
+  // Des lignes courtes (pas de coupure) mêlant écriture de droite à gauche, latin et chiffres — exactement ce que
+  // produit un export : « ~ 3 h 45 de route · 309 km », « Étape 3 — Lyon », un nom latin au milieu d'une phrase.
+  const cas = [
+    ['ar', 'من باريس إلى ليون'],
+    ['ar', 'محطة غامضة: Bavans'],
+    ['ar', '309 كم'],
+    ['ar', 'العودة إلى Lyon'],
+    ['he', 'תחנה מסתורית: Lyon'],
+    ['fa', 'از تهران تا کاشان'],
+    ['dv', 'ދަތުރު Lyon'],
+    ['fr', 'Étape 3 — Lyon, 465 km']
+  ];
+  const bad = [];
+  for(const [lang, texte] of cas){
+    const rendu = PdfText._visualLines(doc, texte, { width: 480, size: 10, lang: lang });
+    const attendu = bidi.getReorderedString(texte, bidi.getEmbeddingLevels(texte, PdfText.isRtlLang(lang) ? 'rtl' : 'ltr'));
+    if(rendu.length !== 1){ bad.push(lang + ' ' + JSON.stringify(texte) + ' : ' + rendu.length + ' lignes au lieu d\'une'); continue; }
+    if(rendu[0] !== attendu) bad.push(lang + ' ' + JSON.stringify(texte) + '\n      rendu   ' + JSON.stringify(rendu[0]) + '\n      attendu ' + JSON.stringify(attendu));
+  }
+  doc.end();
+  assert.deepEqual(bad, []);
+  // Témoin : sur une écriture de gauche à droite, l'ordre visuel est l'ordre logique — si le contrôle ci-dessus
+  // passait en rendant toujours le texte tel quel, celui-ci ne prouverait rien, d'où les cas RTL qui précèdent.
+  const latin = PdfText._visualLines(doc, 'Lyon 69001', { width: 480, size: 10, lang: 'fr' });
+  assert.deepEqual(latin, ['Lyon 69001']);
+});
+
+test('18e audit : le PDF RÉELLEMENT dessiné place les segments dans l\'ordre visuel', () => {
+  // Le contrôle précédent porte sur _visualLines ; celui-ci porte sur drawText, c'est-à-dire sur ce qui est
+  // vraiment écrit dans le document — les deux fonctions remettent les segments en ordre chacune de leur côté, une
+  // seule mutation ne casserait donc que l'une des deux. On lit le flux de contenu du PDF : les segments y
+  // apparaissent dans l'ordre où ils ont été dessinés, donc dans l'ordre VISUEL.
+  // L'égalité stricte avec la chaîne réordonnée n'est pas exploitable (la mise en forme arabe fusionne et
+  // décompose des lettres, « إ » se relit « ا ») : on vérifie donc ce qui distingue sans ambiguïté les deux ordres
+  // — par quel mot la ligne COMMENCE, et de quel côté tombe le segment latin.
+  const PdfText = require(path.join(ROOT, 'lib', 'pdf-text.js'));
+  const PDFDocument = require(path.join(ROOT, 'node_modules', 'pdfkit'));
+  const texte = 'من باريس إلى Lyon 465 كم'; // « de Paris à Lyon, 465 km »
+  const doc = new PDFDocument({ size: 'A4', compress: false });
+  const morceaux = [];
+  doc.on('data', c => morceaux.push(c));
+  PdfText.registerFonts(doc);
+  PdfText.drawText(doc, texte, { x: 50, y: 60, width: 480, lang: 'ar', size: 10 });
+  doc.end();
+  return new Promise(resolve => doc.on('end', () => {
+    const dessiné = pdfText(Buffer.concat(morceaux)).replace(/\s+/g, '');
+    // En ordre visuel, la ligne commence par le DERNIER mot logique (« كم », rendu « مك ») ; en ordre logique elle
+    // commencerait par « من ». Les deux premiers caractères suffisent à trancher.
+    assert.ok(dessiné.startsWith('مك'), 'la ligne arabe ne commence pas par son dernier mot logique : ' + JSON.stringify(dessiné.slice(0, 12)));
+    const iLatin = dessiné.indexOf('Lyon');
+    assert.ok(iLatin > 0, 'segment latin absent du document : ' + JSON.stringify(dessiné.slice(0, 40)));
+    // Et il tombe APRÈS « مك » : deux caractères arabes seulement le précèdent.
+    assert.equal(iLatin, 2, 'le segment latin n\'est pas à sa place visuelle (indice ' + iLatin + ' dans ' + JSON.stringify(dessiné) + ')');
+    resolve();
+  }));
 });
 
 test('17e audit : mise en forme mémorisée — chaque appel reçoit une copie, le rendu ne bouge pas', () => {
@@ -1379,4 +1576,17 @@ test('17e audit, point 10 : nom de fichier sans marque bidi invisible ni flèche
   if(!decoded.includes(chr(0x2192))) bad.push('flèche « → » absente : ' + decoded);
   if(!decoded.endsWith('.pdf')) bad.push('extension absente : ' + decoded);
   assert.deepEqual(bad, []);
+});
+
+test('18e audit : un corps trop gros dit lequel — « itinéraire » pour l\'export, pas pour la recherche', async () => {
+  // Le gestionnaire d'erreurs répondait « trip too large » à TOUT corps trop volumineux : une recherche de ville de
+  // 3 ko recevait « itinéraire trop volumineux », qui ne veut rien dire. Le client n'affiche le message tel quel que
+  // pour l'export (export.tooLarge, traduit dans les 161 langues).
+  const gros = JSON.stringify({ q: 'Lyon', x: 'a'.repeat(4000) });
+  const r = await H.post('/api/search-city', gros);
+  assert.equal(r.status, 413);
+  assert.equal(JSON.parse(r.body.toString('utf8')).error, 'request too large');
+  const pdf = await H.post('/api/export-pdf', JSON.stringify({ legs: [], x: 'a'.repeat(300000) }));
+  assert.equal(pdf.status, 413);
+  assert.equal(JSON.parse(pdf.body.toString('utf8')).error, 'trip too large');
 });

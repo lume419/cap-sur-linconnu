@@ -5960,7 +5960,6 @@
 0;39.0667,-9.8333;TZ-07;Lindi;Chindundu
 0;32.5833,-9.0333;TZ-32;Songwe;Chindi
 0;36.1000,-6.1333;TZ-03;Dodoma;Chinangali
-0;33.0000,-3.0000;TZ-12;Mwanza;China
 0;30.8167,-1.5000;TZ-19;Kagera;Chimpisi
 0;38.9833,-5.4000;TZ-18;Tanga;Chimbe Chimbe
 0;39.3167,-6.0500;TZ-22;Zanzibar North;Chimba Mawele

@@ -4948,7 +4948,6 @@ ms;Mir Bachah Kot;Mīr Bachah Kōṯ
 es;Mir Bachah Kot;Mīr Bachah Kōṯ
 fr;Mir Bachah Kot;Mīr Bachah Kōṯ
 hi;मीर बचाह कोट;Mīr Bachah Kōṯ
-bn;মিर বাচা কোট;Mīr Bachah Kōṯ
 ur;مير بچا کوٹ;Mīr Bachah Kōṯ
 de;Mir Bachah Kot;Mīr Bachah Kōṯ
 ja;ミル・バチャ・コット;Mīr Bachah Kōṯ
@@ -17642,7 +17641,6 @@ am;ዱ ላይናህ;Dū Laīnah
 af;Muḩammad Ya‘qūb;Muhammad Ya'qub
 am;ቃራም ቆል;Qaram Qōl
 am;ፑል-ኢ ሂሳር;Pul-e Ḩişār
-am;ታቅቻህ ხანህ;Ţāqchah Khānah
 am;ማርች;March
 am;ዚራኪ;Zīrakī
 am;ዓሊአባድ;‘Alīābād

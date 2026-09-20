@@ -1401,3 +1401,102 @@ test('17e audit : sélecteur de devise — un seul motif ARIA (bouton + listbox)
   assert.equal(panel.getAttribute('role'), null, 'le panneau a retrouvé un rôle');
   assert.ok(/EUR/.test(button.getAttribute('aria-label')), 'devise choisie absente du nom du bouton : ' + button.getAttribute('aria-label'));
 });
+
+// ------------------------------------------------------------- 18e audit du 21/09/2026 : la page elle-même
+// Trou trouvé par l'audit : coller une erreur de syntaxe à la fin de public/js/app.js laissait les 63 tests
+// d'interface au vert. Ils n'exécutent que des fonctions EXTRAITES par leur texte (voir extract ci-dessus) et ne
+// chargent jamais le fichier entier ; server.test.js, lui, se contente de vérifier que GET /js/app.js répond 200.
+// Le script principal du site pouvait donc être inchargeable sans que rien ne bronche.
+
+test('18e audit : les scripts du navigateur s\'analysent (aucune erreur de syntaxe)', () => {
+  const mauvais = [];
+  for(const f of ['app.js', 'i18n.js', 'theme.js', 'trip-data.js']){
+    const src = fs.readFileSync(path.join(PUB, f), 'utf8');
+    try { new vm.Script(src, { filename: f }); } catch(err){ mauvais.push(f + ' : ' + err.message); }
+  }
+  assert.deepEqual(mauvais, []);
+});
+
+test('18e audit : index.html charge bien les scripts, et tous les éléments lus par app.js existent', () => {
+  const HTML = fs.readFileSync(path.join(__dirname, '..', 'public', 'index.html'), 'utf8');
+  // 1. Les scripts de la page. Sans app.js, le site s'affiche et ne fait plus rien ; sans i18n.js, aucun texte.
+  const manquants = ['js/i18n.js', 'js/theme.js', 'js/trip-data.js', 'js/app.js']
+    .filter(src => HTML.indexOf('src="' + src) < 0 && HTML.indexOf("src='" + src) < 0);
+  assert.deepEqual(manquants, [], 'script(s) absent(s) de index.html');
+
+  // 2. Les identifiants d'éléments. app.js les lit par document.getElementById ; un identifiant renommé d'un seul
+  // côté donne « null » au chargement et casse la page sans le moindre message.
+  const idsHtml = new Set();
+  for(const m of HTML.matchAll(/\bid=["']([^"']+)["']/g)) idsHtml.add(m[1]);
+  const lus = new Set();
+  for(const m of APP.matchAll(/getElementById\(\s*['"]([^'"]+)['"]\s*\)/g)) lus.add(m[1]);
+  assert.ok(lus.size > 50, 'trop peu d\'identifiants relevés dans app.js (' + lus.size + ') : le relevé ne marche plus');
+  const absents = [...lus].filter(id => !idsHtml.has(id)).sort();
+  assert.deepEqual(absents, [], 'identifiant(s) lus par app.js et absents de index.html');
+});
+
+test('18e audit : une suggestion de ville nomme son pays, pas seulement son drapeau', () => {
+  // Le drapeau est une image décorative (alt="", aria-hidden) et le nom du pays n'était que dans « title » —
+  // c'est-à-dire une DESCRIPTION, que les lecteurs d'écran ne lisent pas par défaut dans une liste et qui n'existe
+  // pas au toucher. Une saisie « Lyon » annonçait cinq « Lyons » suivis d'un code postal, sans dire lequel est en
+  // France, alors que le drapeau avait justement été ajouté pour distinguer les homonymes (18e audit du 21/09/2026).
+  // renderSuggestions est exécutée pour de vrai dans un DOM factice : c'est le NOM ACCESSIBLE calculé qu'on lit,
+  // c'est-à-dire le texte de l'option, pas la présence d'un attribut.
+  const dom = fakeDom();
+  const suggest = dom.el('ul'), city = dom.el('input');
+  const ctx = {
+    document: { createElement: dom.el },
+    els: { citySuggest: suggest, city: city },
+    currentSuggestions: null, activeSuggestIndex: -1,
+    COUNTRIES: { FR: { name: 'France' }, US: { name: 'États-Unis' } },
+    countryDisplayName: (cc, repli) => repli,          // pas d'Intl ici : le nom des données suffit
+    formatCpBadge: r => r.cp,
+    selectCommune: () => {}
+  };
+  ctx.window = { I18N: { country: () => 'FR', current: () => 'fr' } };
+  const src = extract('renderSuggestions');
+  vm.createContext(ctx);
+  vm.runInContext('(' + src.trim().replace(/^function/, 'function') + ')', ctx); // contrôle de syntaxe
+  vm.runInContext(src.trim() + '\nthis.renderSuggestions = renderSuggestions;', ctx);
+  ctx.renderSuggestions([
+    { name: 'Lyon', cp: '69001', allCps: ['69001'], country: 'FR', dept: '69', lat: 45.75, lon: 4.85, pop: 519127 },
+    { name: 'Lyons', cp: '60534', allCps: ['60534'], country: 'US', dept: 'Illinois', lat: 41.81, lon: -87.81, pop: 10722 }
+  ]);
+  const texte = e => {
+    let t = e.textContent || '';
+    (e.children || []).forEach(c => { t += ' ' + texte(c); });
+    return t.replace(/\s+/g, ' ').trim();
+  };
+  const options = suggest.children;
+  assert.equal(options.length, 2, 'suggestions non construites');
+  assert.ok(/France/.test(texte(options[0])), 'pays absent du nom de la première option : ' + JSON.stringify(texte(options[0])));
+  assert.ok(/États-Unis/.test(texte(options[1])), 'pays absent du nom de la seconde option : ' + JSON.stringify(texte(options[1])));
+  // Hors écran : le pays ne doit pas s'ajouter au texte VISIBLE.
+  const cachés = options[0].querySelectorAll('.visually-hidden');
+  assert.equal(cachés.length, 1, 'le nom du pays doit être dans un élément hors écran');
+  assert.equal((cachés[0].textContent || '').trim(), 'France');
+});
+
+test('18e audit : la liste des devises se parcourt en tapant le code (153 options, aucun champ de recherche)', () => {
+  // Le sélecteur de LANGUE a un champ de recherche pour ses 161 options ; celui des DEVISES en aligne 153 et n'avait
+  // que les flèches — atteindre « ZAR » demandait environ 150 appuis sur Flèche bas. currencyTypeAheadIndex est la
+  // fonction pure derrière la recherche au clavier : elle est exécutée telle qu'elle est écrite dans app.js.
+  const ctx = {};
+  vm.createContext(ctx);
+  vm.runInContext(extract('currencyTypeAheadIndex').replace(/^  /gm, '') + '\nthis.f = currencyTypeAheadIndex;', ctx);
+  const f = ctx.f;
+  // Liste réaliste : « Automatique » en tête, puis les codes suivis de leur symbole.
+  const l = ['Automatique', 'EUR €', 'AUD $', 'CAD $', 'CHF CHF', 'CNY ¥', 'EGP £', 'EUR €', 'USD $', 'ZAR R'];
+  assert.equal(f(l, 0, 'z'), 9, 'une lettre doit mener directement à ZAR');
+  assert.equal(f(l, 0, 'ch'), 4, 'deux lettres : CHF');
+  assert.equal(f(l, 0, 'c'), 3, 'une lettre depuis l\'option 0 : la PREMIÈRE option suivante en C (CAD)');
+  assert.equal(f(l, 3, 'c'), 4, 'même lettre répétée : on passe à la suivante (CHF)');
+  assert.equal(f(l, 4, 'c'), 5, 'puis CNY');
+  assert.equal(f(l, 5, 'c'), 3, 'après la dernière, la recherche reboucle au début (CAD)');
+  assert.equal(f(l, 4, 'chf'), 4, 'plusieurs lettres : on reste sur l\'option que la frappe désigne déjà');
+  assert.equal(f(l, 0, 'xyz'), -1, 'aucune correspondance : aucun déplacement');
+  assert.equal(f(l, 0, ''), -1, 'tampon vide : aucun déplacement');
+  assert.equal(f(l, 0, 'Z'), 9, 'la casse est ignorée');
+  assert.equal(f(l, 0, 'a'), 2, 'AUD, et non « Automatique » : la recherche part de l\'option SUIVANTE');
+  assert.equal(f(l, 2, 'a'), 0, 'depuis AUD, la lettre a ramène à « Automatique »');
+});

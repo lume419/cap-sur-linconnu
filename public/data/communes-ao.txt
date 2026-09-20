@@ -6075,7 +6075,6 @@
 0;18.4000,-12.9167;AO-14;Moxico;Mossenzi
 0;12.9167,-16.1667;AO-13;Namibe;Morros do Tchitundulo
 0;14.4489,-10.5489;AO-06;Kwanza Sul;Morimbo
-0;14.0000,-12.0000;AO-01;Benguela;Moreira
 0;14.1500,-12.9833;AO-01;Benguela;Morais
 0;13.2592,-14.6654;AO-13;Namibe;Mutipa
 0;18.0000,-11.9667;AO-02;Bíe;Monte Esperança

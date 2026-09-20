@@ -8930,7 +8930,6 @@ ru;Каллиала;Kalliala
 ru;Каллела;Kallela
 ru;Каллбякк;Kallbäck
 ru;Калкунмяки;Kalkunmäki
-ru;Калккола;Kalkkola
 ru;Калккинен;Kalkkinen
 ru;Калккима;Kalkkimaa
 ru;Калкила;Kalkila
