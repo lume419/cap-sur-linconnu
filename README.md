@@ -22,7 +22,10 @@ cap-sur-linconnu/
 │   ├── search-index.js    # index de recherche sur disque (cache/search-index/, voir plus bas)
 │   ├── land-grid.js       # grille terre/eau lib/land-grid.bin (voir "Pas de route à travers la mer")
 │   ├── toll-grid.js       # où le péage existe vraiment (data/toll-grid.json, OpenStreetMap)
-│   ├── pdf-text.js        # mise en page du PDF : polices Noto, écritures RTL, coupure des lignes
+│   ├── pdf-text.js        # texte du PDF : polices Noto, écritures RTL, coupure des lignes, mise en forme mémorisée
+│   ├── trip-pdf.js        # mise en page de l'export (sortie de server.js au 17e audit) : liens, textes, géométrie
+│   ├── pdf-worker.js      # fil de travail qui exécute cette mise en page HORS du processus qui répond
+│   ├── pdf-service.js     # pilote le fil : file, temps de calcul rendu à l'appelant, repli interne, arrêt
 │   └── ferry-ports.js     # GÉNÉRÉ par scripts/build-ferry-ports.js : ports des liaisons de ferry
 ├── data/                  # données NON servies au navigateur (bloquées côté Apache et par Node)
 │   ├── charging-stations.txt  # bornes de recharge Open Charge Map (voiture électrique)
@@ -3780,11 +3783,35 @@ lieu** — c'est-à-dire la première chose que fait un visiteur.
   (`{"error":"trip too large"}`) que l'interface affiche tel quel, au lieu de « réessayez dans un instant ».
 - **Corps de l'export allégé** côté navigateur : les champs facultatifs vides ne sont plus sérialisés (ils pesaient le
   plus lourd), à information affichée identique.
+- **Mise en forme OpenType mémorisée**, et c'est ce qui rend le voyage maximal **complet dans les 161 langues**.
+  Quatre écritures n'y arrivaient pas : le budget de mise en page de 3,5 s tombait avant la dernière journée et le
+  document sortait signé mais amputé (hindi 13 villes sur 15, marathi 10, bengali 10, **dzongkha 5**). Profil
+  processeur d'un export en dzongkha : **90 % du temps dans fontkit** (`applyChainingContext` 31 %,
+  `coverageSequenceMatches` 25 %, `applyLookups` 20 %), 3 % dans notre code — un bloc de texte coûtait 3,6 ms en
+  français contre **60 ms en dzongkha**. pdfkit a bien un cache de mise en forme, mais il le court-circuite dès qu'on
+  lui passe des fonctionnalités OpenType, ce que nous faisons toujours (sans elles, l'arabe et l'hébreu sortent dans
+  le désordre). Le cache est donc posé sur les polices fontkit partagées : coût divisé par ~2,4 sur du texte neuf
+  (les mêmes syllabes reviennent sans cesse, et `breakLines` mesure chaque syllabe séparément) et ramené à presque
+  rien sur du texte déjà vu. Résultat mesuré sur les 161 langues : **aucune langue écourtée**, pire temps **3,1 s**
+  (contre 3,9), 22 pages au plus. Le budget n'a pas été relevé : c'est le garde-fou anti-déni de service.
 - **Contrôle sur les 161 langues** : 200, document complet (`%PDF-` … `%%EOF`), pied de page présent, **aucun glyphe
-  manquant**, 7 à 19 pages, pire temps 3,6 s. `lib/pdf-text.js` n'a eu besoin d'aucune correction : les polices
+  manquant**, et le voyage rendu en entier. `lib/pdf-text.js` n'a eu besoin d'aucune police supplémentaire : elles
   couvraient déjà toutes les écritures. Les caractères distincts culminent à 466 (japonais), soit 12 % du plafond.
 
 **Serveur.**
+- **La mise en page du PDF ne bloque plus le site** : elle est **synchrone** (pdfkit, `doc.end()` compris) et coûte de
+  0,1 à 3,1 s ; tant qu'elle tournait dans le processus qui répond, le serveur ne répondait plus à personne pendant ce
+  temps — recherche de ville, tirage, photos, tout. Mesure sur le voyage maximal en dzongkha, en interrogeant
+  `/api/status` pendant l'export : **2 réponses, 391 ms au pire** avant, **10 réponses, 16 ms de médiane et 18 ms au
+  pire** après. Le code de mise en page est sorti tel quel de `server.js` vers `lib/trip-pdf.js` (666 lignes, pas une
+  ligne changée : les PDF des 12 écritures témoins sont identiques octet pour octet, hors date et identifiant du
+  document), et un **fil de travail** (`lib/pdf-worker.js`, piloté par `lib/pdf-service.js`) l'exécute. Le fil lit et
+  préchauffe les 24 polices une fois au démarrage (~1,6 s, ~140 Mo) ; le processus principal **ne les charge plus du
+  tout** — il reçoit du fil la liste des 2 965 points de code à variante grasse, seule chose dont il avait besoin pour
+  compter les caractères distincts d'un export. Garanties : un export aboutit même si le fil meurt (repli dans le
+  processus principal, qui lit alors les polices à son tour), le **temps de calcul du fil reste imputé au quota de
+  l'adresse demandeuse** (sans quoi déporter le travail aurait vidé la protection anti-abus de sa substance), un seul
+  export à la fois, et le fil est arrêté avec le serveur.
 - **Clé de cache par région hors de France** : le nom de département servait de clé sans canonisation hors de France —
   « illinois » et « Illinois » avaient deux entrées, et la première servait un résultat vide à la seconde. Source unique
   (`wikiDeptName`) partagée par les photos, les monuments et les deux clés de cache ; la canonisation corse est gardée.
@@ -3841,10 +3868,13 @@ maintenant aux 161 langues.
 `tests/data.test.js` était morte (`ja;` sans corps), deux des huit cas de ferry n'étaient jamais exécutés faute
 d'itinéraire avec traversée (garde ajoutée), et le test d'index disque acceptait un index absent.
 
-**Limites.** Sur un voyage **extrême** (21 jours, 15 villes, toutes les mentions), deux écritures (dzongkha, bengali)
-épuisent le budget de mise en page de 3,5 s avant la dernière journée : le PDF est livré complet et signé, avec la
-mention « document tronqué » traduite, mais ne porte que 7 villes sur 15 (dzongkha) et 14 sur 15 (bengali). Le budget
-processeur n'a pas été relevé : c'est le garde-fou anti-déni de service. Les trois fiches aux coordonnées fausses sont
+**Limites.** La marge de mise en page du voyage extrême est mince : 3,1 s mesurées pour 3,5 s de budget, sur une
+machine peu chargée. Le contrôle des 161 langues exige maintenant un document entier ; s'il casse un jour, c'est cette
+marge qui aura disparu. Le budget peut désormais être relevé sans conséquence pour les autres visiteurs (il ne borne
+plus que le document du demandeur, la mise en page ne bloquant plus le serveur) : il ne l'a pas été, faute d'en avoir
+besoin. Le fil de travail coûte ~250 Mo de mémoire, dont ~140 Mo de polices que le processus principal ne porte plus. Le cache
+de mise en forme garde au plus 6 000 mises en forme par police, vidé par `trimGlyphCaches` comme les caches de
+glyphes. Les trois fiches aux coordonnées fausses sont
 écartées, pas corrigées : « Katingan » n'existe donc plus en Papouasie-Nouvelle-Guinée (le seul Katingan papou connu de
 GeoNames est un dispensaire, classe S, jamais publié).
 

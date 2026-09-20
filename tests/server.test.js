@@ -709,8 +709,12 @@ function serverFns(names, consts){
     out.push(lines.slice(i, j + 1).join('\n'));
     found.push(n);
   }
-  // PdfText : distinctChars s'en sert (hasBoldVariant) — même module que celui chargé par server.js.
-  const ctx = { module: { exports: {} }, console, PdfText: require(path.join(ROOT, 'lib', 'pdf-text.js')) };
+  // PdfText : plusieurs fonctions extraites s'en servent — même module que celui chargé par server.js.
+  // PdfService : depuis le 17e audit, distinctChars lui demande si un caractère a une variante grasse (il répond sans
+  // charger les polices, grâce à la liste que le fil de travail lui envoie). Ici, pas de fil à démarrer pour si peu :
+  // on répond avec les polices elles-mêmes, ce que le service fait aussi quand il n'a pas de fil.
+  const PdfText = require(path.join(ROOT, 'lib', 'pdf-text.js'));
+  const ctx = { module: { exports: {} }, console, PdfText: PdfText, PdfService: { hasBoldVariant: PdfText.hasBoldVariant } };
   vm.createContext(ctx);
   vm.runInContext(out.join('\n') + '\nmodule.exports = { ' + found.concat(consts || []).join(', ') + ' };', ctx);
   return ctx.module.exports;
@@ -991,6 +995,132 @@ test('17e audit, point 1 : export PDF d\'un voyage MAXIMAL (21 jours, 15 villes)
   t.diagnostic('10 plus grosses : ' + sizes.slice(0, 10).map(x => x[0] + ' ' + x[1]).join(', '));
   t.diagnostic('pire temps ' + maxMs + ' ms, pages max ' + maxPages + ' ; mise en page écourtée (budget de temps) : ' + (truncatedLangs.join(', ') || 'aucune'));
   assert.deepEqual(problems, []);
+  // Le voyage doit tenir ENTIER, dans toutes les langues. Avant la mise en forme mémorisée (voir memoiseLayout dans
+  // lib/pdf-text.js), quatre langues épuisaient le budget de mise en page avant la dernière journée et rendaient un
+  // document signé mais incomplet : hi 13/15 villes, mr 10/15, bn 10/15, dz 5/15. Le contrôle dépend de la vitesse de
+  // la machine, comme perf.test.js : s'il casse, c'est que la marge (3,1 s mesurées pour 3,5 s de budget) a disparu.
+  assert.deepEqual(truncatedLangs, [], 'mise en page écourtée : le voyage n\'est pas rendu en entier dans ces langues');
+});
+
+// ------------------------------------------------------- export PDF déporté dans un fil de travail (17e audit)
+// La mise en page est synchrone : tant qu'elle tournait dans le processus qui répond, le site entier se taisait
+// pendant 0,1 à 3,1 s à chaque export. Ces deux contrôles vérifient ce qui compte : le serveur RÉPOND pendant un
+// export, et le document rendu par le fil est le MÊME que celui du repli interne.
+
+test('17e audit : le serveur répond pendant un export PDF (mise en page déportée dans un fil)', { timeout: 300000 }, async () => {
+  const body = JSON.stringify(maxTripPayload('dz')); // l'écriture la plus coûteuse à mettre en page
+  await H.postPatient('/api/export-pdf', body, { timeout: 120000 }); // chauffe : fil démarré, caches remplis
+  const délais = [];
+  let fini = false;
+  const sonde = (async () => {
+    while(!fini){
+      const t = Date.now();
+      try { await fetch('http://127.0.0.1:' + srv.port + '/api/status', { headers: { 'X-Forwarded-For': '10.9.9.9' } }); } catch(e){}
+      délais.push(Date.now() - t);
+      await new Promise(r => setTimeout(r, 20));
+    }
+  })();
+  const r = await H.postPatient('/api/export-pdf', body, { timeout: 120000 });
+  fini = true;
+  await sonde;
+  assert.equal(r.status, 200, 'export refusé : ' + r.body.toString('utf8').slice(0, 120));
+  assert.ok(isCompletePdf(r.body), 'PDF incomplet');
+  délais.sort((a, b) => a - b);
+  const pire = délais[délais.length - 1];
+  // Mesure du 20/09/2026 : 16 ms de médiane et 18 ms au pire avec le fil, contre 391 ms quand la mise en page tournait
+  // dans le processus principal (et bien plus sur un cache froid : la mise en page va jusqu'à 3,1 s). Le seuil est
+  // large pour ne pas dépendre de la charge de la machine ; il attrape le retour du blocage, pas une lenteur passagère.
+  assert.ok(délais.length >= 3, 'trop peu de sondes pendant l\'export (' + délais.length + ') : le serveur ne répondait pas');
+  assert.ok(pire < 200, '/api/status a mis ' + pire + ' ms pendant un export : la mise en page bloque de nouveau la boucle ' +
+    '(médiane ' + délais[délais.length >> 1] + ' ms sur ' + délais.length + ' sondes)');
+});
+
+test('17e audit : le fil de travail et le repli interne rendent le MÊME document', { timeout: 300000 }, async () => {
+  // Le service est testé directement : c'est le seul moyen d'exercer le repli, qui ne se déclenche autrement que
+  // lorsque le fil meurt. stop() coupe le fil pour de bon, donc l'ordre compte : le fil d'abord, le repli ensuite.
+  const PdfService = require(path.join(ROOT, 'lib', 'pdf-service.js'));
+  const travail = { trip: maxTripPayload('dz'), title: 'Cap sur l\'inconnu - essai', lang: 'dz', glyphMax: 6000 };
+  const parLeFil = await PdfService.build(travail);
+  assert.equal(parLeFil.source, 'fil', 'le fil n\'a pas fait le travail (statut ' + JSON.stringify(PdfService.status()) + ')');
+  assert.ok(parLeFil.pdf && parLeFil.pdf.length > 50000, 'document vide ou minuscule (' + (parLeFil.pdf && parLeFil.pdf.length) + ' o)');
+  assert.ok(parLeFil.ms > 0, 'temps de calcul du fil non rapporté : il ne serait plus imputé au quota de l\'adresse');
+  await PdfService.stop();
+  const parLeRepli = await PdfService.build(travail);
+  assert.equal(parLeRepli.source, 'local', 'le repli ne s\'est pas déclenché après l\'arrêt du fil');
+  assert.ok(parLeRepli.ms > 0, 'temps de calcul du repli non rapporté');
+  // Seuls la date de création et l'identifiant du document changent d'un export à l'autre, par construction.
+  const sansHorodatage = b => b.toString('latin1').replace(/\(D:\d{14}Z?\)/g, '(D:X)').replace(/\/ID\s*\[[^\]]*\]/g, '/ID[X]');
+  assert.equal(sansHorodatage(parLeFil.pdf), sansHorodatage(parLeRepli.pdf), 'le fil et le repli ne rendent pas le même document');
+});
+
+test('17e audit : mise en forme mémorisée — chaque appel reçoit une copie, le rendu ne bouge pas', () => {
+  // memoiseLayout (lib/pdf-text.js) garde le résultat de la mise en forme OpenType d'un texte. Or pdfkit MODIFIE ce
+  // résultat : layoutRun multiplie chaque position par l'échelle du document (1000 / unitsPerEm) et ajoute à chacune
+  // un champ advanceWidth. Rendre deux fois le MÊME objet le ferait donc mettre à l'échelle deux fois.
+  // Aujourd'hui le dégât est dormant : les 24 polices embarquées ont toutes unitsPerEm = 1000, donc une échelle de 1,
+  // et multiplier deux fois par 1 ne change rien — un contrôle qui comparerait deux PDF ne verrait RIEN. Il suffirait
+  // d'ajouter une police en 2048 unités (la valeur la plus courante pour une TrueType) pour que chaque texte déjà mis
+  // en forme sorte au double de son espacement. Le contrôle porte donc sur le contrat lui-même : un appelant qui
+  // modifie ce qu'il reçoit ne doit pas abîmer l'appelant suivant.
+  const PdfText = require(path.join(ROOT, 'lib', 'pdf-text.js'));
+  const police = PdfText.loadFonts().find(f => f.name === 'NotoSerifTibetan').font; // écriture à mise en forme lourde
+  const texte = 'བཀྲ་ཤིས་བདེ་ལེགས།';
+  const a = police.layout(texte);
+  assert.ok(a.positions.length > 1, 'texte non mis en forme (' + a.positions.length + ' positions)');
+  const avant = a.positions.map(p => p.xAdvance);
+  const largeurAvant = a.advanceWidth;
+  // L'appelant (pdfkit) modifie ce qu'il a reçu : mise à l'échelle et champ ajouté.
+  a.positions.forEach(p => { p.xAdvance *= 7; p.advanceWidth = 123; });
+  const b = police.layout(texte);
+  assert.notEqual(b, a, 'deux appels rendent le MÊME objet : le premier appelant abîme le second');
+  assert.deepEqual(b.positions.map(p => p.xAdvance), avant, 'positions héritées de la modification du premier appelant');
+  assert.ok(b.positions.every(p => p.advanceWidth === undefined), 'champ ajouté par le premier appelant encore présent');
+  // La copie doit rester un vrai GlyphRun : advanceWidth et bbox sont des ACCESSEURS qui recalculent depuis les
+  // positions (une copie en objet plat les figerait, et les largeurs mesurées deviendraient fausses après mise à
+  // l'échelle par pdfkit).
+  assert.equal(b.advanceWidth, largeurAvant);
+  assert.equal(Object.getPrototypeOf(b), Object.getPrototypeOf(a), 'la copie a perdu le prototype de GlyphRun');
+  b.positions.forEach(p => { p.xAdvance *= 3; });
+  assert.equal(b.advanceWidth, largeurAvant * 3, 'advanceWidth ne suit plus les positions : ce n\'est plus un accesseur');
+  // Les glyphes, eux, ne sont jamais modifiés par pdfkit (il n'y lit qu'id, advanceWidth et codePoints) : ils restent
+  // partagés, et c'est voulu — les copier coûterait cher pour rien.
+  assert.equal(b.glyphs[0], a.glyphs[0], 'glyphes copiés inutilement');
+});
+
+// Et le rendu complet ne bouge pas : mêmes opérateurs de position et de tracé au deuxième passage (cache chaud) qu'au
+// premier. Ce contrôle-ci ne verrait pas la mise à l'échelle double décrite plus haut (échelle de 1), mais il attrape
+// tout ce qui casserait le rendu autrement : glyphes réordonnés, positions perdues, texte vide.
+test('17e audit : mise en forme mémorisée — le tracé du cache chaud est identique à celui du cache froid', () => {
+  const PdfText = require(path.join(ROOT, 'lib', 'pdf-text.js'));
+  const PDFDocument = require(path.join(ROOT, 'node_modules', 'pdfkit'));
+  const cas = [['dz', 'བཀྲ་ཤིས་བདེ་ལེགས། ཐིམ་ཕུ།'], ['bn', 'ঢাকা থেকে চট্টগ্রাম ৩৫০ কিলোমিটার'], ['hi', 'दिल्ली से आगरा २३० किलोमीटर'],
+    ['ar', 'من باريس إلى ليون ٤٦٥ كم'], ['fr', 'Étape 3 — Lyon, 465 km']];
+  const trace = (lang, texte) => {
+    const doc = new PDFDocument({ size: 'A4', compress: false });
+    const morceaux = [];
+    doc.on('data', c => morceaux.push(c));
+    PdfText.registerFonts(doc);
+    PdfText.drawText(doc, texte, { x: 50, y: 60, width: 480, lang: lang, size: 10 });
+    doc.end();
+    return new Promise(resolve => doc.on('end', () => {
+      const brut = Buffer.concat(morceaux).toString('latin1');
+      resolve((brut.match(/[-\d.]+ [-\d.]+ Td|<[0-9a-fA-F]*> Tj|\[[^\]]*\] TJ/g) || []).join('|'));
+    }));
+  };
+  return (async () => {
+    const bad = [];
+    for(const [lang, texte] of cas){
+      const premier = await trace(lang, texte);
+      const second = await trace(lang, texte);
+      const troisieme = await trace(lang, texte);
+      assert.ok(premier.length > 20, lang + ' : rien de dessiné');
+      if(second !== premier || troisieme !== premier) bad.push(lang + ' : tracé différent au 2e ou 3e passage');
+      const w = [1, 2].map(() => { const d = new PDFDocument({ size: 'A4' }); d.on('data', () => {}); PdfText.registerFonts(d);
+        const x = PdfText.textWidth(d, texte, { size: 10, lang: lang }); d.end(); return x; });
+      if(Math.abs(w[0] - w[1]) > 1e-9) bad.push(lang + ' : largeur ' + w[0] + ' puis ' + w[1]);
+    }
+    assert.deepEqual(bad, []);
+  })();
 });
 
 test('17e audit, point 2 : corps d\'export — le voyage maximal passe, au-delà de la limite un message propre', { timeout: 180000 }, async () => {
