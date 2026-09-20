@@ -54974,7 +54974,6 @@ ja;ドクチャエヴォ;Dokuchayeve
 ru;Покровская богачка;Pokrovska Bahachka
 ru;Острая могила;Hostra Mohyla
 ru;Мушина гребля;Mushyna Hreblia
-ru;Михальчина слобода;Yasna Poliana
 ru;Липов рог;Lypiv Rih
 ru;Кустоловы кущи;Kustolovi Kushchi
 ru;Кривая руда;Kryva Ruda

@@ -8,6 +8,8 @@
 //     phrases de distance (km / mi).
 //   - 14e audit du 19/09/2026 : niveaux de difficulté des randonnées traduits.
 //   - 15e audit du 19/09/2026 : espace avant « % » telle que CLDR la donne pour la langue.
+//   - 16e audit du 20/09/2026 : message de coupure réseau (error.network) dans les 161 langues ; « % » placé AVANT le
+//     nombre là où CLDR le place ainsi (kurde, basque…).
 'use strict';
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
@@ -285,4 +287,54 @@ test('pourcentages : espace insécable avant « % » dans les langues dont CLDR 
   assert.ok(checked >= 25, checked + ' pourcentages contrôlés seulement');
   assert.equal(bad.length, 0, report(bad));
   assert.ok(L.fr['pack.voitureElectrique'].some(v => /20 %/.test(v)), 'français : « 20 % » attendu');
+});
+
+// 16e audit du 20/09/2026 : message dédié à la COUPURE RÉSEAU du tirage (error.network). Un échec de fetch de
+// /api/generate-trip affichait error.routeImpossible (« élargissez le rayon ») alors que la requête n'était jamais
+// arrivée — conseil faux. Le message doit exister, être traduit et rester distinct dans les 161 langues.
+test('coupure réseau : error.network présent, traduit et distinct de error.routeImpossible dans les 161 langues', () => {
+  const bad = [];
+  for(const l of langs){
+    const v = S[l] && S[l]['error.network'];
+    if(typeof v !== 'string' || !v.trim()){ bad.push(l + ' : clé absente ou vide'); continue; }
+    if(v === S[l]['error.routeImpossible']) bad.push(l + ' : identique à error.routeImpossible');
+    if(l !== 'fr' && v === S.fr['error.network']) bad.push(l + ' : resté en français');
+    if(v === S[l]['error.serverBusy'] || v === S[l]['error.drawTimeout']) bad.push(l + ' : identique à un autre message d\'erreur');
+  }
+  assert.equal(bad.length, 0, report(bad));
+  // Le message est bien celui que le navigateur affiche en cas d'échec réseau (voir le catch du tirage dans app.js).
+  const app = fs.readFileSync(path.join(PUB, 'js', 'app.js'), 'utf8');
+  assert.ok(app.includes("'error.network'"), 'app.js n\'utilise pas error.network');
+});
+
+// 16e audit du 20/09/2026 : la 15e passe ne contrôlait que les langues qui écrivent le « % » APRÈS le nombre. Là où
+// CLDR le place AVANT (kurde « %20 », basque « % 20 », turc, gagaouze…), « 20% » à l'anglaise passait inaperçu.
+test('pourcentages : signe avant le nombre là où CLDR le place ainsi, avec son espace', () => {
+  const bad = [];
+  let checked = 0;
+  for(const l of langs){
+    let nf;
+    try { nf = new Intl.NumberFormat(I18N.localeTag(l), { style: 'percent' }); } catch(e){ continue; }
+    if(nf.resolvedOptions().locale.split('-')[0] !== l.split('-')[0]) continue;
+    const m = nf.format(0.2).match(/^([%٪])(\s*)\p{Nd}/u);
+    if(!m) continue; // signe placé après le nombre : déjà contrôlé par le test précédent
+    const values = [];
+    Object.values(S[l]).forEach(v => values.push(v));
+    Object.values(L[l]).forEach(list => list.forEach(v => values.push(v)));
+    const around = (v, i, len) => v.slice(Math.max(0, i - 12), i + len + 12);
+    for(const v of values){
+      // Nombre suivi du signe : écriture de l'anglais, pas celle de cette langue.
+      const after = /\p{Nd}\s?[%٪](?!-)/gu;
+      let x;
+      while((x = after.exec(v))) bad.push(l + ' : « ' + around(v, x.index, x[0].length) + ' » (attendu « ' + m[1] + m[2] + '20 »)');
+      // Signe placé avant, mais sans l'espace (ou avec un autre) que CLDR donne pour la langue.
+      const before = /([%٪])(\s*)(?=\p{Nd})/gu;
+      while((x = before.exec(v))){ checked++; if(x[2] !== m[2]) bad.push(l + ' : « ' + around(v, x.index, x[0].length) + ' » (espace attendu ' + JSON.stringify(m[2]) + ')'); }
+    }
+  }
+  assert.ok(checked >= 1, checked + ' pourcentage(s) contrôlé(s) : aucune langue à signe placé avant');
+  assert.equal(bad.length, 0, report(bad));
+  // Témoins : kurde sans espace, basque avec l'espace insécable de CLDR.
+  assert.ok(L.ku['pack.voitureElectrique'].some(v => v.includes('%20')), 'kurde : « %20 » attendu');
+  assert.ok(L.eu['pack.voitureElectrique'].some(v => v.includes('% 20')), 'basque : « % 20 » attendu');
 });

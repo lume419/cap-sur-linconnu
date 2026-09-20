@@ -90898,7 +90898,7 @@ ka;თეირანი;Tehran
 lv;Teherāna;Tehran
 tg;Теҳрон;Tehran
 am;ቴህራን;Tehran
-bo;ཏེ་ཧི་རན​།;Tehran
+bo;ཏེ་ཧི་རན།;Tehran
 eu;Teheran;Tehran
 he;טהראן;Tehran
 hu;Teherán;Tehran

@@ -21,7 +21,7 @@ const TG = require(path.join(ROOT, 'lib', 'toll-grid.js'));
 const INTERNAL_FUNCS = ['reallyAdjacent', 'landmassOf', 'zoneOf', 'ferryRouteFor', 'seaCrossingFor', 'tensionOf', 'legAllowed',
   'ferryRoadParts', 'tollCountryOf', 'evPlan', 'countryAtPoint', 'insideCountry', 'roadCrossesWater', 'motoMotorwayBan',
   'normalizeCityName', 'chargerNear', 'portZone', 'communeLandmass', 'borderReach', 'communeTension', 'finalizeLeg', 'parseCommunesFile',
-  'countrySpeedFactor', 'placeNorm', 'zoneHostNorm', 'countriesAlong', 'finalizeFerryLeg', 'ferryMedianSpeed'];
+  'countrySpeedFactor', 'placeNorm', 'zoneHostNorm', 'countriesAlong', 'finalizeFerryLeg', 'ferryMedianSpeed', 'ferryRouteForPair'];
 const INTERNAL_VARS = ['COMMUNES', 'FEATURED', 'CHARGER_COUNT', 'TENSION_RULES_BY_COUNTRY', 'AVOID_TENSION', 'LEG_CONSTRAINTS',
   'LAST_TRIP_DIAGNOSTIC', 'TRIP_DEADLINE', 'TRIP_TIMED_OUT', 'TRIP_TIME_BUDGET_MS', 'MOTO_NO_MOTORWAY_SPEED_FACTOR', 'MOTO_NO_MOTORWAY_SPEED_FACTOR_DEFAULT'];
 
@@ -435,7 +435,10 @@ function check(params, res, elapsedMs){
         let expKm = route.distanceKm, expH = route.durationH;
         if(estimated){
           expKm = Math.max(1, Math.round(pairKm));
-          expH = Math.round(expKm / A.ferryMedianSpeed(expKm) * 10) / 10;
+          // Vitesse de la ligne tant que la paire reste du même ordre (au plus le double), médiane au-delà (16e audit).
+          const lineSpeed = route.durationH > 0 ? route.distanceKm / route.durationH : 0;
+          const v = (lineSpeed > 0 && pairKm <= refKm * 2 && refKm <= pairKm * 2) ? lineSpeed : A.ferryMedianSpeed(expKm);
+          expH = Math.round(expKm / v * 10) / 10;
           if(!leg.ferryInfo.durationEstimated) bad('ferry', 'moyenne', 'traversée estimée non marquée durationEstimated', { i });
         }
         if(leg.distanceKm !== expKm || leg.travelMin !== Math.round(expH * 60)) bad('ferry', 'moyenne', 'distance/durée de traversée incohérentes' + (estimated ? ' (estimée : ' + expKm + ' km)' : ''), { i });

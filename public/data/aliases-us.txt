@@ -21017,7 +21017,7 @@ zh-Hans;埃尔伍德;Ironwood
 zh;埃爾伍德;Ironwood
 ja;アイアンウッド;Ironwood
 ar;إشبيمينغ;Ishpeming
-ru;Иш­пе­минг;Ishpeming
+ru;Ишпеминг;Ishpeming
 zh;伊什珀明;Ishpeming
 ar;إيثاكا;Ithaca
 ja;イサカ;Ithaca
@@ -26861,7 +26861,7 @@ zh-Hans;布鲁克菲尔德;Brookfield
 zh;布魯克菲爾德;Brookfield
 ar;براونز لاك;Browns Lake
 ar;سيداربورغ;Cedarburg
-ru;Си­дар­берг;Cedarburg
+ru;Сидарберг;Cedarburg
 ja;シーダーバーグ;Cedarburg
 ar;تشيتيك;Chetek
 ru;Четек;Chetek
@@ -95861,7 +95861,7 @@ fa;مانسن، پنسیلوانیا;Monessen
 sr;Монесен;Monessen
 tt;Монессен;Monessen
 be;Манесен;Monessen
-uk;Монес­сен;Monessen
+uk;Монессен;Monessen
 ka;მონსენი;Monessen
 ur;مونیسن، پنسلوانیا;Monessen
 ce;Монессен;Monessen
@@ -121695,7 +121695,6 @@ sr;Олимпик Вали;Olympic Valley
 ce;Скво-Велли;Olympic Valley
 he;אולימפיק ואלי;Olympic Valley
 zh;利特爾錫安;Little Zion
-sr;Клајо Алабама;Clio
 zh;博伊德;Boyd
 zh;拉魯;Larue
 zh;薩費爾;Saffell

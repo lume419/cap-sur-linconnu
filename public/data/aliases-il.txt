@@ -1982,8 +1982,7 @@ ce;Къудс-ГӀала;Yerushalayim
 yue;耶路撒冷;Yerushalayim
 ba;Иерусалим;Yerushalayim
 bxr;Иерусалим;Yerushalayim
-km;ເຢ​ຣູ​ຊາ​ເລັມ;Yerushalayim
-lo;ເຢ​ຣູ​ຊາ​ເລັມ;Yerushalayim
+lo;ເຢຣູຊາເລັມ;Yerushalayim
 mi;Hiruharama;Yerushalayim
 ne;जेरुसेलम;Yerushalayim
 xh;IJerusalem;Yerushalayim

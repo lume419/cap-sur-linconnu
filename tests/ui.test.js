@@ -21,6 +21,11 @@
 //   - bouton du mode de rayon déjà actif : saisie gardée ; habitants et lieux repérés au bon pluriel ;
 //   - touroyo et adyguéen : durées et dates sans mot turc ou russe ; rayon du message « trop loin » au dixième ;
 //   - traversée ESTIMÉE (paire de ports) : « environ », tarif inconnu, à l'écran et dans le PDF.
+// 16e audit du 20/09/2026 :
+//   - annonce du tirage aux lecteurs d'écran entièrement dans la nouvelle langue après un changement de langue ;
+//   - noms de pays jamais en turc ni en russe pour le touroyo et l'adyguéen (suggestions, moto, vignette) ;
+//   - plage de dates à cheval sur deux années : année écrite ; coupure réseau du tirage : message dédié ;
+//   - traversée estimée : test réécrit pour pouvoir échouer (voir le commentaire devant ce test).
 'use strict';
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
@@ -61,6 +66,8 @@ const FNS = ['isoDate', 'parseIsoDate', 'formatFrDate', 'formatDateRange', 'form
   'checkNumberRange', 'msg', 'stepNumberField', 'hikeDurationText', 'hikeDifficultyText', 'dualWithoutNumber', 'countPart',
   // Mode du rayon, pluriels de l'annonce, dates en chiffres (15e audit du 19/09/2026).
   'setMode', 'revealCountTexts', 'numericDatesLang', 'numericDateText', 'localeDateText',
+  // Annonce aux lecteurs d'écran et noms de pays (16e audit du 20/09/2026).
+  'announceReveal', 'setRevealLabel', 'updateRevealTexts', 'retranslateReveal', 'escHtml', 'safeUrl', 'icon', 'tData', 'restrictionRowHtml',
   // Corps envoyé à /api/export-pdf et ses dépendances.
   'buildTripExportPayload', 'pdfLegBadges', 'transportHasToll', 'pdfLegTexts', 'legRouteText', 'legDuration', 'legMinutes', 'overMaxLegText',
   'noChargerText', 'tollText', 'tollSourceLabel', 'exportTension', 'exportLodgingLinks', 'singleLegLabel', 'formatCpBadge', 'optionLabel',
@@ -87,13 +94,19 @@ function sandbox(){
     'var sessionCurrency, currentTripData = null, currentTripLabel = "", fieldDistanceUnit = "km", radiusMode = "km";',
     // Champs factices (valeur texte, bornes min/max/step comme les attributs d'un <input type="number">).
     'var fakeInput = function(){ return { value: "", min: "", max: "", step: "", dispatchEvent: function(){} }; };',
+    // Éléments de la roulette et région annoncée (16e audit du 20/09/2026) : seul leur TEXTE compte ici.
+    'var fakeNode = function(){ return { textContent: "", hidden: false, classList: { add: function(){}, remove: function(){} } }; };',
+    'var revealLive = fakeNode();',
+    'document.getElementById = function(id){ return id === "reveal-announce" ? revealLive : null; };',
+    'var ICONS = { warn: "" };',
     'var els = { packGrid: { querySelectorAll: function(){ return []; } }, radius: fakeInput(), minDistance: fakeInput(), maxDistance: fakeInput(), legDistance: fakeInput(),',
-    '  modeKm: { setAttribute: function(){} }, modeH: { setAttribute: function(){} } };',
+    '  modeKm: { setAttribute: function(){} }, modeH: { setAttribute: function(){} },',
+    '  rouletteLabel: fakeNode(), rouletteClue: fakeNode(), revealRegion: fakeNode(), stamp: fakeNode() };',
     // Effets de bord de setMode sans DOM : erreurs retirées comptées, étiquette d'unité ignorée.
     'var modeClears = 0; function clearRadiusError(){ modeClears++; } function clearMinDistanceError(){} function updateRadiusUnitLabel(){}',
     'var Event = function(){};',
     ['ROUTE_MARK', 'approxMarkCache', 'KM_PER_MILE', 'MILE_COUNTRIES', 'CURRENCY_STORAGE_KEY', 'CHARGER_NEAR_STOP_KM', 'RADIUS_KM_FIELD',
-      'HIKE_DIFFICULTY_KEYS'].map(extractVar).join('\n'),
+      'HIKE_DIFFICULTY_KEYS', 'revealLabelKey', 'revealClueKey', 'revealInProgress'].map(extractVar).join('\n'),
     APP.match(/^  var DISTANCE_KM_FIELDS = \[[\s\S]*?\n  \];/m)[0],
     FNS.map(extract).join('\n'),
     // Unité forcée par les tests (setUnit) : l'application la tire de la langue seule (unitForLang), sans réglage.
@@ -101,7 +114,8 @@ function sandbox(){
     'window.__app = {' + FNS.map(n => n + ': ' + n).join(', ') + ', setLang: function(l){ window.I18N.set(l); VISITOR_LANG = l; },' +
       ' setUnit: function(u){ UNIT_OVERRIDE = u; }, setFieldUnit: function(u){ fieldDistanceUnit = u; }, fieldUnit: function(){ return fieldDistanceUnit; },' +
       ' els: els, DISTANCE_KM_FIELDS: DISTANCE_KM_FIELDS, RADIUS_KM_FIELD: RADIUS_KM_FIELD, HIKE_DIFFICULTY_KEYS: HIKE_DIFFICULTY_KEYS,' +
-      ' setTrip: function(trip){ currentTripData = trip; }, radiusMode: function(){ return radiusMode; }, modeClears: function(){ return modeClears; } };'
+      ' setTrip: function(trip){ currentTripData = trip; }, radiusMode: function(){ return radiusMode; }, modeClears: function(){ return modeClears; },' +
+      ' announce: function(){ return revealLive.textContent; } };'
   ].join('\n');
   vm.runInContext(glue, ctx);
   return ctx.window;
@@ -925,28 +939,155 @@ test('message « trop loin » : rayon au dixième, comme la distance minimale', 
   A.setUnit(null); A.setLang('fr');
 });
 
+// 16e audit du 20/09/2026 : ce test ne pouvait pas échouer. La fixture portait « priceCovers: null » — jamais produit
+// pour une traversée estimée — ce qui faisait basculer l'étiquette du total vers stats.ferryTotalVehicles (voir
+// ferryTotalLabel) : la dernière assertion (« aucune pastille stats.ferryTotal ») ne pouvait donc jamais se déclencher.
+// Et le contrôle du prix cherchait « chiffre + € », une écriture que l'anglais (« ~€55 ») ou le japonais n'emploient
+// pas. Chaque texte est désormais comparé à celui que la langue doit produire, et l'absence de prix est contrôlée sur
+// le montant que la langue écrirait réellement.
 test('traversée ESTIMÉE (paire de ports) : « environ », tarif inconnu, à l\'écran et dans le PDF', () => {
-  const fi = { routeKey: 'ferry.route.corsica', amount: null, priceStatus: 'unknown', durationEstimated: true, durationH: 4.5, priceCovers: null };
-  for(const l of ['fr', 'en', 'ru', 'ar']){
+  const fi = { routeKey: 'ferry.route.corsica', amount: null, priceStatus: 'unknown', durationEstimated: true, durationH: 4.5 };
+  const MONEY_SIGNS = /[€$£¥₽₺₩﷼]/;
+  for(const l of ['fr', 'en', 'ru', 'ar', 'ja']){
     A.setLang(l);
-    const s = A.ferryText(fi, W.I18N.t('ferry.route.corsica'), false, 'voiture-thermique');
+    const route = W.I18N.t('ferry.route.corsica');
     const approx = W.I18N.t('ferry.durationApprox', { duration: A.formatDurationMin(270) });
+    const s = A.ferryText(fi, route, false, 'voiture-thermique');
+    // Texte EXACT de la langue : durée « environ … » et pas la moindre trace de prix.
+    assert.equal(s, A.withoutEmptyRoute(W.I18N.t('ferry.textNoPrice', { route: route, duration: approx })), l + ' écran');
     assert.ok(s.indexOf(approx) >= 0, l + ' : « ' + s + ' » sans « ' + approx + ' »');
-    assert.ok(!/[0-9٠-٩]\s*€/.test(s), l + ' : prix affiché « ' + s + ' »');
+    assert.ok(!MONEY_SIGNS.test(s), l + ' : symbole monétaire dans « ' + s + ' »');
+    // Montant tel que CETTE langue l'écrirait (« ~55 € », « ~€55 », « ~￥55 ») : absent, où qu'il soit placé.
+    assert.ok(s.indexOf(A.approxMoney(55, 'EUR')) < 0, l + ' : montant affiché « ' + s + ' »');
+
     const trip = fakeTrip('voiture-thermique');
     trip.legs[1].ferryInfo = Object.assign({}, fi);
     A.setTrip(trip);
     const p = A.buildTripExportPayload();
     const ferry = p.legs[1].texts.ferry;
-    assert.ok(ferry.indexOf(approx) >= 0 && ferry.indexOf(W.I18N.t('ferry.price.unknown')) >= 0, l + ' PDF : « ' + ferry + ' »');
+    assert.equal(ferry, A.ferryLabel(fi) + ' — ' + s + ' ' + W.I18N.t('ferry.price.unknown'), l + ' PDF');
+    assert.ok(!MONEY_SIGNS.test(ferry), l + ' PDF : symbole monétaire dans « ' + ferry + ' »');
     assert.equal(p.legs[1].ferryInfo.durationEstimated, true);
     assert.equal(p.legs[1].ferryInfo.amount, null);
     assert.equal(p.legs[1].ferryInfo.priceStatus, 'unknown');
     assert.equal(p.legs[1].ferryInfo.durationH, 4.5);
-    // Statistiques : aucune pastille de total ferry en euros (seule traversée à tarif inconnu).
-    const ferryTotal = W.I18N.t('stats.ferryTotal');
-    assert.ok(!A.tripStatsParts(trip).some(x => x.label === ferryTotal), l + ' : total ferry affiché pour un tarif inconnu');
+    // Statistiques : AUCUNE pastille de total en argent, quelle que soit l'étiquette choisie par ferryTotalLabel
+    // (ferryTotal / ferryTotalVehicles / ferryTotalPerPerson), mais bien le décompte des traversées sans tarif.
+    const parts = A.tripStatsParts(trip);
+    const moneyLabels = ['stats.ferryTotal', 'stats.ferryTotalVehicles', 'stats.ferryTotalPerPerson', 'stats.trainTotal'].map(k => W.I18N.t(k));
+    const money = parts.filter(x => moneyLabels.indexOf(x.label) >= 0);
+    assert.equal(money.length, 0, l + ' : total en argent affiché pour un tarif inconnu : ' + JSON.stringify(parts));
+    assert.ok(!parts.some(x => MONEY_SIGNS.test(x.value)), l + ' : montant dans les statistiques : ' + JSON.stringify(parts));
+    const unpriced = A.statsLabel(1, 'stats.ferryUnpriced');
+    assert.ok(parts.some(x => x.label === unpriced || x.value === unpriced), l + ' : traversée sans tarif non comptée : ' + JSON.stringify(parts));
     A.setTrip(null);
   }
   A.setLang('fr');
+});
+
+// --------------------------------------------------------------------------------------------- 16e audit du 20/09/2026
+
+test('16e audit : annonce du tirage aux lecteurs d\'écran entièrement dans la NOUVELLE langue', () => {
+  // L'écouteur 'i18n:langchange' appelle retranslateReveal AVANT rerenderCurrentTrip : l'annonce était reconstruite à
+  // partir du texte encore affiché dans l'ANCIENNE langue, avec un préfixe déjà traduit — deux langues mêlées.
+  const firstStop = { name: 'Lyon', cp: '69001', pop: 21, featuredCount: 2 };
+  A.setTrip({ firstStop: firstStop, legs: [], transportKey: 'voiture-thermique' });
+  const bad = [];
+  for(const l of ['ru', 'ja', 'ar', 'lt', 'tru']){
+    // État après un tirage fait en français : la région affichée est en français.
+    A.setLang('fr');
+    A.updateRevealTexts(firstStop);
+    A.announceReveal(W.I18N.t('reveal.confirmed') + ' — ' + A.els.revealRegion.textContent);
+    const frRegion = A.els.revealRegion.textContent;
+    const frCounts = A.revealCountTexts(firstStop);
+    // Changement de langue.
+    A.setLang(l);
+    A.retranslateReveal();
+    const expected = W.I18N.t('reveal.confirmed') + ' — ' +
+      [firstStop.name + ' (' + A.formatCpBadge(firstStop) + ')'].concat(A.revealCountTexts(firstStop)).join(' · ');
+    const got = A.announce();
+    if(got !== expected) bad.push(l + ' : « ' + got + ' » au lieu de « ' + expected + ' »');
+    // Aucun reste du français dans l'annonce (ni dans la région affichée).
+    frCounts.forEach(function(txt){
+      if(got.indexOf(txt) >= 0) bad.push(l + ' : morceau français « ' + txt + ' » dans « ' + got + ' »');
+    });
+    if(A.els.revealRegion.textContent === frRegion && l !== 'fr') bad.push(l + ' : région affichée restée en français');
+  }
+  A.setTrip(null);
+  A.setLang('fr');
+  assert.deepEqual(bad, []);
+});
+
+test('16e audit : noms de pays jamais en turc ni en russe pour le touroyo et l\'adyguéen', () => {
+  // Intl.DisplayNames répond dans la LOCALE DE REPLI pour ces deux langues (tr-TR, ru-RU) : « Fransa », « Швейцария »
+  // apparaissaient dans l'infobulle des suggestions, l'avertissement moto et l'étiquette de vignette.
+  const bad = [];
+  const restriction = { kind: 'moto', type: 'noMotorway', country: 'FR', name: 'France', source: 'https://example.test/a' };
+  for(const l of ['tru', 'ady']){
+    A.setLang(l);
+    const tag = W.I18N.localeTag(l);
+    const fallbackFr = new Intl.DisplayNames([tag], { type: 'region' }).of('FR');
+    const fallbackCh = new Intl.DisplayNames([tag], { type: 'region' }).of('CH');
+    const html = A.restrictionRowHtml(restriction);
+    if(fallbackFr !== 'France' && html.indexOf(fallbackFr) >= 0) bad.push(l + ' moto : « ' + fallbackFr + ' » dans « ' + html + ' »');
+    if(html.indexOf('France') < 0) bad.push(l + ' moto : nom des données absent de « ' + html + ' »');
+    const vign = A.vignetteLabel('CH');
+    if(fallbackCh !== 'Suisse' && vign.indexOf(fallbackCh) >= 0) bad.push(l + ' vignette : « ' + vign + ' »');
+    if(vign.indexOf('Suisse') < 0) bad.push(l + ' vignette : nom de COUNTRIES absent de « ' + vign + ' »');
+    // Aucune lettre turque ou cyrillique dans le nom de pays rendu (le reste de la phrase est dans la langue).
+    if(/Fransa|Франция|İsviçre|Швейцария/.test(html + ' ' + vign)) bad.push(l + ' : nom de pays d\'une langue tierce');
+  }
+  // Témoins : les langues dont le navigateur a les données gardent bien le nom traduit.
+  A.setLang('en');
+  if(A.vignetteLabel('CH').indexOf('Switzerland') < 0) bad.push('en : « Switzerland » attendu dans « ' + A.vignetteLabel('CH') + ' »');
+  if(A.restrictionRowHtml(restriction).indexOf('France') < 0) bad.push('en : « France » attendu');
+  A.setLang('ru');
+  if(A.vignetteLabel('CH').indexOf('Швейцария') < 0) bad.push('ru : « Швейцария » attendu dans « ' + A.vignetteLabel('CH') + ' »');
+  if(A.restrictionRowHtml(restriction).indexOf('Франция') < 0) bad.push('ru : « Франция » attendu');
+  A.setLang('fr');
+  assert.deepEqual(bad, []);
+});
+
+test('16e audit : plage de dates à cheval sur deux années (touroyo, adyguéen) — année écrite', () => {
+  const bad = [];
+  for(const l of ['tru', 'ady']){
+    A.setLang(l);
+    const across = A.formatStayRange('2026-12-31', '2027-01-02');
+    if(across !== '31.12.2026–02.01.2027') bad.push(l + ' : « ' + across + ' » au lieu de « 31.12.2026–02.01.2027 »');
+    // Même année : l'année reste omise (inchangé depuis la 15e passe).
+    const same = A.formatStayRange('2026-09-20', '2026-09-23');
+    if(same !== '20.09–23.09') bad.push(l + ' : « ' + same + ' » au lieu de « 20.09–23.09 »');
+    // Année demandée par l'appelant (en-tête du PDF) : toujours écrite.
+    const pdf = A.formatDateRange(new Date(2026, 8, 28), new Date(2026, 9, 2), { day: 'numeric', month: 'short', year: 'numeric' });
+    if(pdf !== '28.09.2026–02.10.2026') bad.push(l + ' PDF : « ' + pdf + ' »');
+    // Aucune lettre d'une langue tierce.
+    if(/[A-Za-zÀ-ɏЀ-ӿ]/.test(across)) bad.push(l + ' : lettre dans « ' + across + ' »');
+  }
+  // Langues à données Intl : Intl écrit déjà les deux années lui-même.
+  A.setLang('fr');
+  assert.match(A.formatStayRange('2026-12-31', '2027-01-02'), /2026[\s\S]*2027/);
+  assert.deepEqual(bad, []);
+});
+
+test('16e audit : coupure réseau du tirage — message dédié, jamais « élargissez le rayon »', () => {
+  // fetch ne rejette que sur un échec RÉSEAU (serveur injoignable, connexion perdue) ou un abandon volontaire : le
+  // tirage n'a alors pas eu lieu, et « réessayez, ou élargissez le rayon » envoyait sur une fausse piste.
+  const i = APP.indexOf("await fetch('/api/generate-trip'");
+  assert.ok(i > 0, 'appel de /api/generate-trip introuvable dans app.js');
+  const m = APP.slice(i).match(/\n\s*\}\s*catch\s*\(err\)\s*\{([\s\S]*?)\n\s*\}\s*finally\s*\{/);
+  assert.ok(m, 'bloc catch du tirage introuvable');
+  const body = m[1].split('\n').filter(x => !/^\s*\/\//.test(x)).join('\n'); // commentaires retirés
+  assert.ok(body.includes('error.network'), 'message de coupure réseau absent du catch : ' + body);
+  assert.ok(!body.includes('error.routeImpossible'), 'error.routeImpossible encore affiché sur un échec réseau : ' + body);
+  assert.ok(body.includes('error.drawTimeout'), 'abandon volontaire (AbortError) : message de délai attendu');
+  // Message réellement traduit et distinct, dans toutes les langues (voir aussi tests/i18n.test.js).
+  const bad = [];
+  for(const l of Array.from(W.I18N.SUPPORTED)){
+    A.setLang(l);
+    const s = A.msg('error.network')();
+    if(!s || s === 'error.network') bad.push(l + ' : non traduit');
+    else if(s === A.msg('error.routeImpossible')()) bad.push(l + ' : identique à error.routeImpossible');
+  }
+  A.setLang('fr');
+  assert.deepEqual(bad, []);
 });

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Lanceur de la suite de tests (voir tests/README.md).
 //   node tests/run.js                 suite standard (tout sauf les générateurs), tailles par défaut
-//   node tests/run.js --quick         i18n + péages + invariants du moteur réduits (~3 min)
+//   node tests/run.js --quick         i18n + péages + invariants du moteur réduits (~1 min ; 56 s le 20/09/2026)
 //   node tests/run.js --full          tout, tailles complètes, générateurs compris (TEST_FULL=1)
 //   node tests/run.js toll server     seulement les fichiers dont le nom contient « toll » ou « server »
 // Autres options transmises telles quelles à node --test (ex. --test-name-pattern="péage").

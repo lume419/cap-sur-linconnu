@@ -485,7 +485,7 @@ cy;Llangrannog;Llangranog
 cy;Llangatwg Lingoed;Llangattock Lingoed
 ca;Llanfihangel;Llanfihangel-yng-Ngwynfa
 cy;Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch;Llanfairpwllgwyngyll
-nl;Llanfairpwll­gwyngyllgogerychwyrndrobwllllantysiliogogogoch;Llanfairpwllgwyngyll
+nl;Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch;Llanfairpwllgwyngyll
 cy;Llandrindod;Llandrindod Wells
 cy;Llanymddyfri;Llandovery
 cy;Llan-lwy;Llandeloy
@@ -4486,7 +4486,7 @@ lt;Langevnis;Llangefni
 uk;Ллангевні;Llangefni
 zh;蘭蓋夫尼;Llangefni
 ru;Лангевни;Llangefni
-et;Llanfair­pwllgwyn­gyllgo­gery­chwyrn­drobwll­llanty­silio­gogo­goch;Llanfairpwllgwyngyll
+et;Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch;Llanfairpwllgwyngyll
 ja;ランヴァイル・プルグウィンギル・ゴゲリフウィルンドロブル・ランティシリオゴゴゴホ;Llanfairpwllgwyngyll
 ko;랜바이어푸흘귄기흘;Llanfairpwllgwyngyll
 ru;Лланвайр-Пуллгвингилл;Llanfairpwllgwyngyll
@@ -6028,7 +6028,7 @@ zh;伊灵;Ealing
 ko;일링;Ealing
 ur;ایلنگ، لندن;Ealing
 fa;ایلینگ;Ealing
-ru;Дай­зу­эрт;Dysart
+ru;Дайзуэрт;Dysart
 zh;戴撒;Dysart
 ja;ダイザート;Dysart
 fa;دایسارت، فایف;Dysart

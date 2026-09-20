@@ -5,7 +5,7 @@ Aucun service externe n'est sollicité, et jamais la production : le serveur de 
 
 | Commande | Contenu | Durée indicative |
 |---|---|---|
-| `npm run test:quick` | i18n, péages, invariants du moteur (100 tirages) | ~2 min |
+| `npm run test:quick` | i18n, péages, invariants du moteur (100 tirages) | ~1 min (56 s mesurées le 20/09/2026 ; la ligne annonçait ~2 min, `tests/run.js` ~3 min) |
 | `npm test` | tout sauf les générateurs, tailles par défaut | ~5 à 7 min (314 s mesurées le 19/09/2026 ; + 2 à 5 min si le serveur doit reconstruire son index de recherche) |
 | `npm run test:full` | tout, tailles complètes, générateurs compris | 30 à 60 min |
 | `node tests/run.js toll server` | seulement les fichiers dont le nom contient `toll` ou `server` | — |
@@ -38,6 +38,8 @@ Les fichiers s'exécutent l'un après l'autre : chaque processus charge le moteu
 | `TEST_PERF_REP` | tirages par départ et par cas de performance | 4 (10) |
 | `TEST_GENERATORS=1` | active `generators.test.js` | — |
 | `TEST_VERBOSE=1` | durée de chargement du moteur | — |
+
+Trois contrôles permanents ajoutés au 16e audit dans `data.test.js` : aucun alias ne contient de caractère invisible (U+200B, U+00AD, U+2060, U+180E, U+FEFF, marques de direction), les ZWNJ/ZWJ devant au contraire rester ; aucun alias lao, khmer, birman ou thaï n'est déclaré dans une autre de ces quatre écritures ; un alias de fusion n'est publié que si le nom gardé est porté par un seul lieu du pays. `engine-regressions.test.js` ajoute : distance annoncée = la PLUS GRANDE faisable, aucune paire de ports de route comparable plus rapide au total, péage d'une étape avec traversée cohérent avec ses kilomètres ; la contre-épreuve de `engine-invariants.test.js` vérifie aussi que X est maximal (X + 15 km ne doit donner aucun itinéraire).
 
 ## Comparer deux versions du moteur (`npm run test:compare`)
 
@@ -79,13 +81,16 @@ Ce qui est comparé :
 - **Tirages** (`generateTrip`), jeu FIXE : 74 départs et plus (pays rapides et lents, îles mesurées ou non, frontières,
   grand Nord, antiméridien, pays à péage et sans péage) × 6 modes × 16 profils, chaque tirage à graine fixe sous une
   horloge ralentie ×10 (budget de 4 s → 40 s réelles). Étiquette « moto-interdite » calculée avec `motoMotorwayBan` du
-  moteur (interdiction nationale totale : KR, TW, VN, TH, ID, PK, LK ; pas la Malaisie). 228 cas ciblés, dont (14e audit) :
+  moteur (interdiction nationale totale : KR, TW, VN, TH, ID, PK, LK ; pas la Malaisie). 248 cas ciblés (16e audit du
+  20/09/2026 : cette ligne disait 228 ; `TARGETED` de `tests/helpers/compare.js` en compte 248, comme la ligne
+  `COMPARE_TIRAGES` plus haut), dont (14e audit) :
   - moto en vrai transit : Viêt Nam entre la Chine et le Laos (Nanning, Kunming, Luang Prabang), Thaïlande entre la
     Birmanie et le Laos (Myawaddy), plus un témoin intérieur (Kota Bharu) ;
   - aller-retour près d'un pays plus rapide : Bamako, Kayes, Sarajevo, Bihać, 250 à 370 km, voiture et moto ;
   - petites distances : Lyon, max 10 km, étape max 5 km ;
   - cas de production Mutang, Bella Vista et Nanma, 5 jours, éloignement 649 km.
-- **Trajets directs** : paires nommées, frontalières, moto en transit (par VN, TH, PK) et 22 étapes avec traversée, jouées
+- **Trajets directs** : paires nommées (48), frontalières (9), moto en transit (11, par VN, TH, PK) et 29 étapes avec
+  traversée (`PAIRS_FERRY` ; 16e audit du 20/09/2026 : cette ligne disait 22, avant les 7 paires ajoutées à la 15e passe), jouées
   comme `finalizeHop` du moteur (`directHop`). Six modes plus « voiture-thermique sans péage ». Sont comparés : durée,
   partie routière, péage (avec `enabled`), recharge (bornes, arrêts, minutes), traversée (`priceCovers`, `footAmount`,
   `durationEstimated`, `mode`), pays traversés, restrictions.

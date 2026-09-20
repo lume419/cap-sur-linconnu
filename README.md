@@ -122,7 +122,9 @@ cap-sur-linconnu/
 │       ├── communes-im.txt     # 43 lieux mannois, même format (aucune correction de nom nécessaire)
 │       ├── aliases-im.txt      # idem pour l'île de Man (mannois/Gaelg en tête)
 │       ├── …                   # un communes-XX.txt et un aliases-XX.txt par pays : 239 fichiers d'alias
-│       │                        # (France comprise), 1 717 801 alias au total au 19/09/2026 — voir
+│       │                        # (France comprise), 1 717 755 alias au total au 20/09/2026 (1 717 762
+│       │                        # avant la 16e passe : le chiffre annoncé, 1 717 801, dépassait de
+│       │                        # 39 lignes le contenu réel des fichiers) — voir
 │       │                        # "Noms alternatifs dans toutes les langues, pour tous les pays"
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 38 liaisons de péage françaises vérifiées, qui fixent le tarif €/km (7e audit)
@@ -4204,7 +4206,8 @@ serveur route par route ; interface parcours par parcours dans les 161 langues ;
 des chiffres confrontés aux sources officielles), puis correction. Pour la première fois, les CHIFFRES affichés ont été
 vérifiés contre le monde réel, et plus seulement la cohérence du code.
 
-**Suite de tests permanente** (`tests/`, voir `tests/README.md`) : `npm run test:quick` (~2 min), `npm test`
+**Suite de tests permanente** (`tests/`, voir `tests/README.md`) : `npm run test:quick` (~1 min ; 56 s mesurées le
+20/09/2026 — le README annonçait ~2 min et `tests/run.js` ~3 min), `npm test`
 (~5 à 7 min), `npm run test:full` (générateurs et 3 000 tirages compris). Elle reprend les vérifications de toutes les
 passes d'audit — invariants du moteur (jours, nuits par ville, distance max ou `overMaxLeg` justifié, éloignement,
 mer et frontières, ferries, zones à tension, péage, valeurs, retour, état), péage (pays sans barème jamais facturés,
@@ -4283,6 +4286,67 @@ dans la langue de l'interface, textes de carte traduits, accessibilité (dialogu
 impression, textes indicatifs trop longs. 12 nouvelles clés dans les 161 langues ; le yi reçoit le chinois pour ces
 clés, faute de traduction fiable.
 
+### Seizième passe d'audit (20 septembre 2026)
+
+Relecture complète en quatre volets, chaque auditeur relisant tout son domaine et pas seulement les correctifs récents.
+Aucune faille de sécurité, aucune violation d'invariant. **Quatre régressions de la 15e passe** et plusieurs défauts
+anciens. Leçon de la passe : mes tests vérifiaient qu'un résultat EXISTE, jamais qu'il est le MEILLEUR — c'est ce qui a
+laissé la distance annoncée osciller entre trop haute (14e passe) et trop basse (15e).
+
+**Moteur.**
+- **Distance annoncée « hors de portée, X km »** : parcours de tous les lieux du plus lointain au plus proche jusqu'au
+  premier faisable (`DAY_REACH_TRIES_MAX` essais exacts au plus), au lieu de 12 essais plus 12 échantillons dont le
+  premier succès faisait foi — Leganes annonçait 161 km alors que 199 km marche, Calumboyan 109 pour 208, écart jusqu'à
+  172 km sur 10 % des cas. Coût mesuré inchangé (chemin d'échec < 1 s).
+- **Choix de la paire de ports d'un ferry** : sur le TEMPS TOTAL (route + traversée) et non plus sur la seule route,
+  entre paires de route comparable (`FERRY_PAIR_ROAD_MARGIN_KM` = 150 km) — depuis que chaque paire porte sa durée
+  (15e passe), gagner 20 km de route pouvait coûter des heures de mer (Reggio Calabria, Malte, Åland, Baléares, Samos :
+  17 couples relevés, jusqu'à +11 h). La marge évite l'excès inverse : Gênes → Palerme ne devient pas 1 100 km de route
+  jusqu'au détroit de Messine.
+- **Traversée estimée** : vitesse de la LIGNE elle-même tant que la paire reste du même ordre (au plus le double),
+  médiane des liaisons de même longueur au-delà — Dunkerque ↔ Douvres (73 km, référence Calais 43 km) passait à ~3 h 30
+  au lieu de ~2 h 30.
+- **Péage d'une étape avec traversée** : les deux parties routières sont additionnées non arrondies puis arrondies une
+  fois (2,2 € pour 28 km à 0,084 €/km auparavant, jusqu'à faire échouer un invariant une fois sur ~8 900 tirages).
+- **Noms comparés** : caractères invisibles retirés (`INVISIBLE_RE` : U+200B, U+200C/D, U+00AD, U+FEFF…) — un alias qui
+  en contient était introuvable, et un nom persan saisi avec ou sans liant ne correspondait pas à la même graphie.
+
+**Contrôles ajoutés.** La contre-épreuve de la campagne d'invariants vérifie maintenant que X est le MAXIMUM : au-delà
+(X + 15 km, sous l'éloignement demandé), plus aucun itinéraire ne doit exister. `tests/engine-regressions.test.js`
+contrôle en plus qu'aucune autre paire de ports de route comparable n'est plus rapide au total, et que le péage d'une
+étape avec traversée reste cohérent avec ses kilomètres. Les tests de la 15e passe qui ne pouvaient pas échouer ont été
+réécrits (traversée estimée : mutation vérifiée).
+
+**Serveur.** **Empoisonnement des caches par la casse** (défaut ancien) : la clé de cache était mise en minuscules alors
+que le nom partait tel quel à Wikipédia, qui n'ignore la casse que sur la première lettre — demander « tHOIRY » mettait
+en cache un résultat vide servi ensuite à tous pour « Thoiry » (24 h pour les photos, 14 jours pour les points
+d'intérêt) ; la clé suit désormais la même canonisation que le titre, et le code de département corse est normalisé de
+la même façon dans les deux routes. Distances des textes de secours du PDF bornées (plus de « 0 mi », de valeur négative
+ni de 6,2e+307) ; `commonsFileUrl` refuse les valeurs qui ne désignent pas un fichier (« .. », « Category:… ») ;
+`/api/photo` refuse les titres d'espace de noms.
+
+**Interface.** Annonce pour lecteur d'écran reconstruite après le réaffichage (elle mêlait deux langues après un
+changement de langue) ; touroyo et adyguéen : noms de pays, vignettes et restrictions n'utilisent plus la locale de
+repli turque ou russe, et une plage de dates à cheval sur deux années porte l'année ; un échec réseau affiche un message
+dédié (`error.network`, traduit dans les 161 langues) au lieu de « élargissez le rayon » ; espace avant « % » en kurde
+et en basque selon CLDR.
+
+**Données.** **Régression de la 15e passe** : un alias ne désigne son lieu que par son nom, donc rattacher le nom d'une
+fiche fusionnée au nom gardé le rattachait à TOUS ses homonymes — « 平泉 » renvoyait les 15 Tateishi du Japon, et pour
+« 蓮湖 », « 东坑 » et « احمد آباد » le bon lieu ne sortait même pas. Le rattachement n'est plus fait que si le nom gardé
+est unique dans le pays (85 fusions abandonnées, lignes déjà écrites retirées) ; « Михальчина слобода » écarté (le vrai
+lieu existe à 4,85 km). 19 alias portant un caractère invisible corrigés, un alias en écriture lao déclaré khmer écarté.
+Mentions légales : 30 fournisseurs de bornes nommés avec leur licence et leur nombre de bornes, deux exceptions
+explicitées (Mobie.pt, ICAEN), wikitexte de Wikipédia crédité ; sources complétées dans le README (Open Charge Map,
+ev-database, ADAC, Natural Earth, usages OpenStreetMap). Chiffres recomptés (74 alias réellement republiés et non 101,
+1 717 755 alias, 248 cas ciblés, 29 étapes avec traversée, `test:quick` en 56 s) et trois passages périmés corrigés
+(comportement des ferries d'avant `ferryRouteForPair`, îles grecques « laissées de côté » qui sont reliées, Kharkiv et
+Mopti revenus à « hors de portée »).
+
+**Limites.** Les noms locaux 平泉 et 蓮湖 ne sont plus cherchables : un alias ne peut pas désigner une fiche précise.
+Les bornes Mobie.pt et ICAEN restent dans les données, seule leur mention change. « kk;Ист Лансинг;East Tawas » reste
+publié : c'est une donnée GeoNames erronée, pas un artefact.
+
 ### Quinzième passe d'audit (19 septembre 2026)
 
 Relecture complète en quatre volets, sans faille de sécurité ni violation d'invariant. **Trois régressions de la 14e
@@ -4320,8 +4384,12 @@ ajoutait un défaut ancien et grave des ferries. Correctifs, puis nouveaux contr
   à tension », est attendu. Comparaison f624b64 → 15e passe : ancien moteur 50 / 57 contre-épreuves faisables, nouveau
   55 / 55.
 - Vérificateur : traversées estimées recalculées à partir des ports choisis (même règle ×1,5 + 5 km).
-- Outil de comparaison : cas ciblés zones à tension, distance annoncée, petites îles, traversées estimées (9 trajets
-  directs, témoins sur les lignes de référence inchangés) ; rapports en heure locale ; `--clean --force`.
+- Outil de comparaison : cas ciblés zones à tension, distance annoncée, petites îles, traversées estimées — 7 paires de
+  ports ajoutées à `PAIRS_FERRY` (`tests/helpers/compare.js`) : 5 marquées `ferry-paire` (Gênes ↔ Palerme,
+  Santander ↔ Portsmouth, Astakós ↔ Sámi, Kyllíni ↔ Póros, Thessalonique ↔ Skiáthos) et 2 témoins `ferry-temoin` sur les
+  lignes de référence, attendus inchangés (Villa San Giovanni ↔ Messine, Douvres ↔ Calais) ; rapports en heure locale ;
+  `--clean --force`. *(16e passe : ce point annonçait « 9 trajets directs » ; le code en compte 7. Les « 9 traversées
+  estimées » de la ligne suivante, elles, sont un résultat de comparaison, pas le nombre de paires ajoutées.)*
 - Comparaison f624b64 → 15e passe (380 tirages, 1 610 trajets directs, 3 585 cas d'hébergement) : 34 tirages changés, tous
   des allers-retours d'une journée ou des traversées estimées, tous voulus ; 63 trajets directs changés (les 9 traversées
   estimées × 7 modes) ; aucun cas d'hébergement ; aucun tirage ralenti.
@@ -4334,11 +4402,15 @@ russe de leur locale de repli) ; message « trop loin » au dixième ; « 20 % �
 `Intl.NumberFormat`) ; texte de secours du PDF sans « ~0 mi » ; noms faits de points (« .. ») refusés avant tout appel à
 Wikipédia. **À relire** : formes haut-sorabes et tournures maltaises, ruthènes, cachoubes, gaéliques.
 
-**Données.** 101 des 115 alias retirés à la 14e passe sont réparés et à nouveau publiés (`repairAliasTypography` : « _ »
-final retiré, « _ » remplacé par une espace, parenthèse orpheline retirée) ; restent écartés les alias rattachés à une
-autre entité (« Rakvere_vald », « Ист_Лансинг » → East Tawas…) et les graphies incertaines. 7 lieux publiés deux fois au
+**Données.** 74 des 115 alias retirés à la 14e passe sont réparés et à nouveau publiés (`repairAliasTypography` : « _ »
+final retiré, « _ » remplacé par une espace, parenthèse orpheline retirée) ; 26 de plus étaient déjà trouvables sous une
+autre ligne (rien n'est ajouté pour eux) et 15 restent écartés — alias rattachés à une autre entité (« Rakvere_vald »,
+« Ист_Лансинг » → East Tawas…) ou graphies incertaines. *(16e passe : ce paragraphe annonçait « 101 … à nouveau
+publiés », un chiffre qui mélangeait les lignes ajoutées et celles qui existaient déjà ; recompte par comparaison des
+fichiers d'alias entre `fdd68aa`, `f624b64` et `60d0b50`.)* 7 lieux publiés deux fois au
 même point retirés (`SAME_POINT_DUPLICATES` : 3 en Chine, 2 en Iran, 平泉 et Yanagidamen au Japon, ce dernier fusionné
-dans Ō-maki — même code postal 699-1941), leurs noms restant trouvables comme alias. Paires de ports sans source retirées
+dans Ō-maki — même code postal 699-1941), leurs noms restant trouvables comme alias *(16e passe : faux pour quatre
+d'entre eux, voir la section suivante)*. Paires de ports sans source retirées
 (Astakós ↔ Fríkes, Kyllíni ↔ Sámi). Espaces doubles des alias supprimées. Mentions légales : attribution OpenStreetMap
 des quais de ferry et des contours d'îles (Olkhon, K'gari, Chiloé), Natural Earth (grille terre / eau). Corrections
 de la section « Quatorzième passe » : Kharkiv à moto passait d'un plafond de 286 km (256 en électrique), Bamako en
@@ -4380,7 +4452,14 @@ tous des allers-retours d'une journée et tous voulus — plafonds annoncés cor
 « hors de portée » avec la vraie distance maximale sur l'île (Bastia, Palma, Naha, La Réunion, Honolulu), petites
 distances de Lyon qui trouvent un lieu ; Mopti et Kharkiv à 350 km (électrique, moto) passent de « hors de portée,
 196/256 km » à « introuvable », car ce n'est pas la durée qui bloque (bornes de recharge, zones à tension) et le plafond
-annoncé ne correspondait à aucun lieu. Aucun trajet direct ni plafond d'hébergement changé ; aucune alerte de temps
+annoncé ne correspondait à aucun lieu. *(**Périmé — 16e audit du 20/09/2026.** Ce changement a été ANNULÉ par la
+15e passe, et l'erratum de celle-ci ne corrigeait que les kilomètres. Le code actuel répond de nouveau « hors de
+portée » pour ces deux cas, avec le plafond du lieu le plus lointain réellement atteignable : voir le commentaire de
+`runTrip` dans `lib/trip-engine.js` — « Kharkiv ou Mopti en électrique ou à moto, 350 km : l'outil de comparaison les
+montrait passer à “introuvable”, avec de nouveaux essais voués à l'échec » — et, dans la section de la quinzième passe,
+« “introuvable” avec le filtre mais “hors de portée” sans lui devient “hors de portée” ». Les kilomètres annoncés ici
+(196/256) sont ceux de la 14e passe ; la 15e passe les corrige à 286 km pour Kharkiv à moto et 256 en électrique.)*
+Aucun trajet direct ni plafond d'hébergement changé ; aucune alerte de temps
 globale (médiane 16 → 16 ms) ; Séoul à moto, 350 km, conclut en 0,6 s au lieu de 0,16 s (recherche du lieu le plus
 lointain dans une région très dense, chemin d'échec seulement).
 
@@ -4720,11 +4799,18 @@ journée).
 - **Affichage** : une étape avec ferry montre la partie par la route puis la traversée (« ~ 2h13 de route · 38 km + ~ 8h30
   de traversée · 250 km »), sur le site comme dans le PDF, avec les libellés déjà traduits ; le total du voyage l'inclut.
 - **Limites** : Saint-Laurent-du-Maroni (lieu = centre de la vaste commune, quai à 61 km) et Surumatra (Kurupukari, quai
-  à 71 km) gardent le centre de leur localité, cohérent avec les coordonnées des étapes ; une liaison regroupant plusieurs
-  lignes (ex. Continent ↔ Grande-Bretagne) affiche le nom, la durée et le prix de sa ligne de référence (Douvres ↔ Calais)
-  même quand la partie par la route est estimée via une autre paire réellement desservie (Rotterdam ↔ Hull) ; la partie
+  à 71 km) gardent le centre de leur localité, cohérent avec les coordonnées des étapes ; la partie
   par la route est estimée à vol d'oiseau × 1,287 (`ROAD_FACTOR`) comme le reste du moteur ; `build-island-rules.js` vérifie à la fin que
   toutes les liaisons ont leurs ports.
+  *(Corrigé au 16e audit du 20/09/2026 : ce point décrivait encore le comportement d'avant la 15e passe — « une liaison
+  regroupant plusieurs lignes affiche le nom, la durée et le prix de sa ligne de référence (Douvres ↔ Calais) même quand
+  la partie par la route est estimée via une autre paire réellement desservie (Rotterdam ↔ Hull) ». Ce n'est plus vrai :
+  `ferryRouteForPair` (`lib/trip-engine.js`) compare l'orthodromie de la paire de ports choisie à celle de la paire de
+  référence de la liaison, et au-delà d'un écart de ×1,5 (et 5 km) remplace la traversée par une ESTIMATION —
+  distance = orthodromie de la paire choisie, durée = distance ÷ vitesse de la ligne tant que les deux paires restent du
+  même ordre, sinon ÷ vitesse médiane des liaisons de même longueur, prix inconnu, « environ » affiché. Voir « Ferries :
+  paire de ports éloignée de la ligne de référence » dans la section de la quinzième passe. Les liaisons à une seule
+  paire de ports, elles, ne sont jamais touchées : leur paire EST la référence.)*
 - **Règles d'îles recalées sur les contours OpenStreetMap** (bandes de 0,01° de latitude, marge ~300 m) pour Olkhon
   (relation/2734482), K'gari (relation/6661024) et la Grande Île de Chiloé (relation/2711509) : les boîtes uniques
   d'avant englobaient la rive continentale d'en face (quais de MRS/Sakhiurta et de Pargua) ou laissaient la pointe sud
@@ -4909,7 +4995,22 @@ signalées comme estimées (`durationEstimated`). Les valeurs en vigueur sont da
   croates) : Cyclades mineures (Sífnos, Sérifos, Kýthnos, Kéa, Antíparos, Anáfi, Síkinos, Folégandros,
   Kímolos), Dodécanèse mineur (Lipsí, Tílos, Sými, Kásos, Astypálaia, Kastellórizo), mer Égée du Nord
   (Ágios Efstrátios, Foúrnoi) et petites îles ioniennes (Paxoí, Meganísi, Kálamos) — toutes restent
-  accessibles comme point de départ (recherche manuelle) mais jamais comme étape reliée. Leucade, elle,
+  accessibles comme point de départ (recherche manuelle) mais jamais comme étape reliée.
+
+  > **Périmé — corrigé au 16e audit du 20/09/2026.** Les deux paragraphes ci-dessus décrivent l'état
+  > d'avant le changement de règle « toute ligne qui existe en 2026 et transporte des véhicules est
+  > modélisée » (voir « Liaisons sans tarif fixe publié : 156 lignes ajoutées » plus bas). Depuis,
+  > **19 des 20 îles listées comme « laissées de côté » ont une entrée dans `FERRY_ROUTES`**, toutes
+  > sans prix : `continental|sifnos`, `continental|serifos`, `continental|kythnos`, `continental|kea`,
+  > `continental|sikinos`, `continental|folegandros`, `continental|paxos`, `continental|meganisi`,
+  > `antiparos|paros`, `anafi|santorini`, `kimolos|milos`, `kalymnos|lipsi`, `nisyros|tilos`,
+  > `rhodes|tilos`, `rhodes|symi`, `karpathos|kasos`, `astypalaia|continental`, `kastellorizo|rhodes`,
+  > `agEfstratios|limnos` et `fourni|ikaria`. **Seule Kálamos** reste sans liaison (masse `kalamos`
+  > reconnue, aucune entrée) : c'est la seule à rester un cul-de-sac. De même, **Límnos est désormais
+  > reliée** (`continental|limnos` Kavála ↔ Mýrina, `lesvos|limnos`, `agEfstratios|limnos`) : la phrase
+  > « SANS ligne » ne vaut plus que pour Hydra et Spetses.
+
+  Leucade, elle,
   n'a besoin d'aucun traitement particulier : reliée au continent par une digue routière depuis les
   années 1980, jamais par ferry, déjà `continental` sans exception à coder — comme Eubée (pont de
   Chalcis) ou Öland pour la Suède plus haut.
@@ -5736,9 +5837,35 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
   `featured.txt` pour ~300 communes françaises, interrogés en direct via `/api/pois` pour les autres
   (voir "Activités réelles" ci-dessus), dans tous les pays couverts — © les contributeurs
   d'OpenStreetMap, licence [ODbL](https://opendatacommons.org/licenses/odbl/).
+- Points d'intérêt, suite (16e audit du 20/09/2026) : la section « Lieux et monuments » de l'article de la commune sur
+  [fr.wikipedia.org](https://fr.wikipedia.org) (wikitexte lu en direct par l'API MediaWiki, `fetchWikiWikitext` dans
+  `server.js`) complète Overpass — noms des monuments et lien vers l'article seulement, contenu sous licence
+  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), © les contributeurs de Wikipédia (auteurs dans
+  l'historique de chaque article).
 - Fond de carte : tuiles [OpenStreetMap](https://www.openstreetmap.org) standard, chargées via
   [Leaflet](https://leafletjs.com) (licence BSD-2-Clause, hébergé localement) — © les contributeurs
   d'OpenStreetMap, licence ODbL.
+- Ports de ferry, contours d'îles et accès routier (16e audit du 20/09/2026, déjà cités dans les mentions légales) :
+  [OpenStreetMap](https://www.openstreetmap.org) — terminaux `amenity=ferry_terminal`, extrémités de `route=ferry`,
+  polygones `place=island` et relations d'Olkhon, de K'gari et de la Grande Île de Chiloé, réseau routier des îles
+  (`scripts/ferry-ports/`, `scripts/iles/`, `lib/ferry-ports.js`) — © les contributeurs d'OpenStreetMap,
+  licence [ODbL](https://opendatacommons.org/licenses/odbl/).
+- Grille terre / eau (16e audit du 20/09/2026) : [Natural Earth](https://www.naturalearthdata.com) au 1:10 000 000
+  (`ne_10m_land`, `ne_10m_minor_islands`, `ne_10m_lakes`, **domaine public**), convertie en grille de 0,05° par
+  `scripts/build-land-grid.js` (`lib/land-grid.bin`) — sert à refuser un trajet par la route qui traverserait la mer.
+- Bornes de recharge pour véhicules électriques (16e audit du 20/09/2026) : export public
+  [ocm-export](https://github.com/openchargemap/ocm-export) d'[Open Charge Map](https://openchargemap.org), filtré sur
+  l'indicateur `IsOpenDataLicensed` du fournisseur (clause non commerciale exclue) par
+  `scripts/fetch-charging-stations.js` — 222 512 positions dans `data/charging-stations.txt`. Liste nominative des
+  fournisseurs, de leur licence et de leur nombre de bornes dans les mentions légales (`public/mentions-legales.html`),
+  l'attribution CC BY exigeant de les nommer ; y compris les deux cas litigieux (Mobie.pt, 703 bornes, « Public Data
+  redistributed by agreement » ; ICAEN, 2 bornes, « General public data »), marqués open data par Open Charge Map sans
+  licence ouverte nommée.
+- Voiture électrique — autonomie et recharge (16e audit du 20/09/2026) :
+  [ev-database.org](https://ev-database.org/cheatsheet/range-electric-car) (autonomie moyenne et fiches « Highway » de
+  quatre modèles récents : 320 km retenus, 28 min pour une recharge de 10 à 80 %) et l'[ADAC](https://www.adac.de)
+  (« Schnellladen auf der Langstrecke », 18/03/2026 : plage de référence 10–80 %) — chiffres et calculs dans
+  `public/js/trip-data.js` (`EV_RANGE_KM`, `EV_CHARGE_MARGIN`, `EV_CHARGE_STOP_MIN`).
 - Drapeaux du sélecteur de langue : [circle-flags](https://github.com/HatScripts/circle-flags) par
   HatScripts (licence MIT, hébergé localement — `public/img/flags/`, 264 fichiers SVG (169 Ko), dont dix-neuf
   drapeaux RÉGIONAUX — Tatarstan, Bachkortostan, Sakha, Tchétchénie, Mordovie et Oudmourtie ajoutés en dernier) — voir "Langues" ci-dessus. **Exception** : le drapeau amazigh

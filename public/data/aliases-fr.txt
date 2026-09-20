@@ -49594,4 +49594,3 @@ co;E Ville di Petrabugnu;Ville-di-Pietrabugno
 kk;Вилле-ди-Пьетрабуньйо;Ville-di-Pietrabugno
 uk;Вілле-ді-Пєтрабуньйо;Ville-di-Pietrabugno
 ru;Вилле-ди-Пьетрабуньо;Ville-di-Pietrabugno
-fr;St Georges D Oleron;Saint-Georges-d'Oléron

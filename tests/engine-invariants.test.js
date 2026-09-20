@@ -142,6 +142,18 @@ function runCampaign(){
       let r2 = null;
       try { r2 = H.withSeed(seed, () => E.generateTrip(again)); } catch(e){ r2 = { error: e.message }; }
       res.replays = (res.replays || 0) + 1;
+      // Et X doit être le MAXIMUM : au-delà (X + 15 km, sous l'éloignement demandé), plus aucun itinéraire (16e audit du
+      // 20/09/2026 — au 15e, seuls 24 lieux étaient contrôlés et X pouvait être très en dessous : Leganes annonçait
+      // 161 km alors que 199 km marchait).
+      const up = r.returnCapKm + 25; // précision du balayage par tranches (voir DAY_REACH_BUCKET_KM)
+      if(up < params.minDistanceKm){
+        let r3 = null;
+        try { r3 = H.withSeed(seed, () => E.generateTrip(Object.assign({}, params, { minDistanceKm: up }))); } catch(e){ r3 = null; }
+        if(r3 && r3.legs && r3.legs.length){
+          res.violations.push({ inv: 'contreEpreuve', sev: 'moyenne', seed, dep: where, params,
+            msg: 'hors de portée, ' + r.returnCapKm + ' km annoncés, mais ' + up + ' km donne un itinéraire (' + Math.round(r3.legs[0].distanceKm) + ' km)' });
+        }
+      }
       if(!r2 || r2.error || !(r2.legs && r2.legs.length || r2.tensionBlocked || r2.timedOut)){
         res.violations.push({ inv: 'contreEpreuve', sev: 'haute', seed, dep: where, params,
           msg: 'hors de portée, ' + r.returnCapKm + ' km annoncés, mais ' + r.returnCapKm + ' km redemandés : ' + JSON.stringify(r2 && Object.keys(r2).filter(k => k !== 'legs' && k !== 'spinPool')) + (r2 && r2.returnCapKm ? ' ' + r2.returnCapKm : '') });

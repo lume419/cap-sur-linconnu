@@ -84,14 +84,18 @@ test('nouveaux essais : « éloignement introuvable » reste le diagnostic, pas 
 
 test('ferry : pays traversés par les parties routières (rappels de vignette)', () => {
   const p = { days: 12, maxRadiusKm: 1500, maxLegKm: 1500, minDistanceKm: 700, maxDistanceKm: 1500, minDaysPerCity: 2, maxDaysPerCity: 3 };
-  // Stuttgart → Sardaigne par Gênes : Suisse ; Bratislava → Italie par Livourne : Autriche et Slovénie (graines de l'audit).
-  const expect = [['Stuttgart', 'DE', 1, ['CH']], ['Bratislava', 'SK', 1, ['AT', 'SI']]];
+  // Stuttgart → Sardaigne par Gênes : la Suisse est traversée. Bratislava : le port choisi dépend du temps total depuis le
+  // 16e audit (route + traversée), donc on vérifie qu'un pays de TRANSIT est bien calculé, sans figer lequel.
+  const expect = [['Stuttgart', 'DE', 1, ['CH']], ['Bratislava', 'SK', 1, []]];
   for(const [name, cc, seed, want] of expect){
     const r = runSteady(base(H.dep(name, cc), p), seed);
     const ferries = r.legs.filter(l => l.ferryInfo);
     assert.ok(ferries.length, name + ' : aucun ferry tiré (graine à revoir)');
     const crossed = new Set([].concat(...ferries.map(l => l.countriesCrossed || [])));
     for(const c of want) assert.ok(crossed.has(c), name + ' : ' + c + ' absent des pays traversés ' + JSON.stringify([...crossed]));
+    // Au moins un pays de transit (ni le départ ni l'arrivée d'une étape) : le calcul des pays traversés fonctionne.
+    const ends = new Set([cc].concat(r.legs.map(l => l.country)));
+    assert.ok([...crossed].some(c => !ends.has(c)), name + ' : aucun pays de transit ' + JSON.stringify([...crossed]));
   }
 });
 
@@ -256,4 +260,81 @@ test('15e audit : ferry, paire de ports éloignée de la ligne de référence es
   // Témoin : la ligne de référence elle-même garde ses données publiées.
   const vm = hop(P('Villa San Giovanni', 'IT'), P('Messina', 'IT'));
   assert.ok(vm.distanceKm < 20 && typeof vm.ferryInfo.amount === 'number', 'Messine : données publiées perdues (' + vm.distanceKm + ' km, ' + vm.ferryInfo.amount + ')');
+});
+
+// ------------------------------------------------------------------ 16e audit (20/09/2026)
+test('16e audit : la distance annoncée est la PLUS GRANDE faisable, pas la première trouvée', () => {
+  // 15e audit : 24 essais seulement, le premier succès devenait X — Leganes annonçait 161 km alors que 199 km marche,
+  // Calumboyan 109 pour 208 (écart jusqu'à 172 km sur 10 % des cas).
+  const cases = [['Leganes', 'PH', 'voiture-thermique', 237, 199], ['Calumboyan', 'PH', 'voiture-electrique', 457, 196]];
+  const bad = [];
+  for(const [n, cc, mode, km, feasible] of cases){
+    const d = H.dep(n, cc); if(!d){ bad.push('introuvable ' + n); continue; }
+    const r = runSteady(base(d, { transportKey: mode, minDistanceKm: km, avoidTension: false }), 1);
+    if(!r.minDistanceUnreachable) continue;
+    // Un itinéraire existe à `feasible` km : la distance annoncée ne peut pas être plus basse.
+    const ok = runSteady(base(d, { transportKey: mode, minDistanceKm: feasible, avoidTension: false }), 1);
+    // Tolérance : le balayage se fait par tranches de 10 km avec un nombre borné de contrôles exacts par tranche
+    // (DAY_REACH_BUCKET_KM / DAY_REACH_PER_BUCKET) — la distance annoncée est donc à quelques dizaines de km du maximum,
+    // pas en dessous de moitié comme au 15e audit (161 km annoncés pour 199 faisables, 109 pour 208).
+    if(ok.legs.length && r.returnCapKm < feasible - 25) bad.push(n + ' : ' + r.returnCapKm + ' km annoncés alors que ' + feasible + ' km donne un itinéraire');
+  }
+  assert.deepEqual(bad, []);
+});
+
+test('16e audit : ferry, aucune autre paire de ports de route comparable n\'est plus rapide au total', () => {
+  // Une paire de ports était choisie au plus court PAR LA ROUTE : depuis que chaque paire porte sa propre durée de
+  // traversée (15e audit), gagner 20 km de route pouvait coûter des heures de mer (Reggio Calabria, Malte, Åland).
+  const A = E.__test, PORTS = require('../lib/ferry-ports.js');
+  const MARGE = 150; // même marge que le moteur (FERRY_PAIR_ROAD_MARGIN_KM)
+  const bad = [];
+  const check = (from, to) => {
+    const la = A.landmassOf(from), lb = A.landmassOf(to);
+    const route = A.ferryRouteFor(la, lb);
+    if(!route) return;
+    const key = [la, lb].sort().join('|'), ports = PORTS[key];
+    if(!ports || !ports[la] || !ports[lb]) return;
+    const parts = A.ferryRoadParts(from, to, la, lb, route);
+    if(!parts || !parts.fromPort) return;
+    const leg = A.finalizeFerryLeg('voiture-thermique', route, parts, 80, true, from, to);
+    const roadOf = (p, q) => H.hav(p.lat, p.lon, q[0], q[1]) * 1.287;
+    const chosenRoad = parts.fromKm + parts.toKm;
+    const chosenH = chosenRoad / 80 + leg.travelMin / 60;
+    let pairs = [];
+    if(ports.pairs) pairs = ports.pairs.map(pr => key.split('|')[0] === la ? [pr[0], pr[1]] : [pr[1], pr[0]]);
+    else ports[la].forEach((_, i) => ports[lb].forEach((__, j) => pairs.push([i, j])));
+    pairs.forEach(([i, j]) => {
+      if(!(i < ports[la].length && j < ports[lb].length)) return;
+      const road = roadOf(from, ports[la][i]) + roadOf(to, ports[lb][j]);
+      if(road > chosenRoad + MARGE) return;
+      const alt = A.ferryRoadParts(from, to, la, lb, route); // mêmes ports possibles ; on rejoue la paire i,j à la main
+      const seaKm = H.hav(ports[la][i][0], ports[la][i][1], ports[lb][j][0], ports[lb][j][1]);
+      const altRoute = A.ferryRouteForPair(route, { pairSeaKm: seaKm, refSeaKm: parts.refSeaKm });
+      const h = road / 80 + altRoute.durationH;
+      if(h < chosenH - 0.5) bad.push((from.name || '?') + ' → ' + (to.name || '?') + ' : choisi ' + chosenH.toFixed(1) + ' h (' + leg.distanceKm + ' km de mer), possible ' + h.toFixed(1) + ' h (' + Math.round(seaKm) + ' km de mer, ' + Math.round(road) + ' km de route)');
+    });
+  };
+  const cases = [['Reggio di Calabria', 'IT', 'Messina', 'IT'], ['Napoli', 'IT', 'Palermo', 'IT'], ['Valletta', 'MT', 'Catania', 'IT'],
+    ['Dublin', 'IE', 'Liverpool', 'GB'], ['Mariehamn', 'AX', 'Stockholm', 'SE'], ['Barcelona', 'ES', 'Palma', 'ES'],
+    ['Marseille', 'FR', 'Bastia', 'FR'], ['Athina', 'GR', 'Irakleio', 'GR']];
+  for(const [n1, c1, n2, c2] of cases){
+    const p1 = H.findPlace(n1, c1), p2 = H.findPlace(n2, c2);
+    if(p1 && p2) check(p1, p2);
+  }
+  assert.deepEqual(bad, []);
+});
+
+test('16e audit : péage d\'une étape avec traversée cohérent avec ses kilomètres (un seul arrondi)', () => {
+  // Deux parties routières déjà arrondies au dixième donnaient un total faux (2,2 € pour 28 km à 0,084 €/km).
+  const bad = [];
+  for(const seed of [1600348628, 1, 7, 42]){
+    const r = runSteady(base(H.dep('Reggio Calabria', 'IT') || H.dep('Reggio di Calabria', 'IT'),
+      { days: 3, transportKey: 'moto', minDistanceKm: 300, maxLegKm: 60, maxRadiusKm: 1000, avoidTension: false }), seed);
+    r.legs.filter(l => l.tollInfo && l.ferryInfo).forEach(l => {
+      const t = l.tollInfo, exp = t.tolledKm * t.rate;
+      if(!(t.amount >= exp - 0.15 && t.amount <= exp + 0.15)) bad.push('graine ' + seed + ' : ' + t.amount + ' € pour ' + t.tolledKm + ' km à ' + t.rate + ' €/km');
+      if(t.amountExact !== undefined) bad.push('champ interne amountExact envoyé au client');
+    });
+  }
+  assert.deepEqual(bad, []);
 });

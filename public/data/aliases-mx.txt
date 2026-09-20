@@ -25128,7 +25128,7 @@ si;ප්ලයා දෙල් කර්මෙන්;Playa del Carmen
 sr;Плаја дел Кармен;Playa del Carmen
 kn;ಪ್ಲಾಯಾ ಡೆಲ್ ಕಾರ್ಮೆನ್;Playa del Carmen
 ta;பிளாயா டெல் கார்மென்;Playa del Carmen
-gu;પ્લાયા ​​ડેલ કાર્મેન;Playa del Carmen
+gu;પ્લાયા ડેલ કાર્મેન;Playa del Carmen
 te;ప్లాయా డెల్ కార్మెన్;Playa del Carmen
 th;ปลายาเดลการ์เมน;Playa del Carmen
 ckb;پلایا دێل کارمێن;Playa del Carmen

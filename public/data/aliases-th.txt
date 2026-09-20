@@ -2058,7 +2058,7 @@ yue;布吉市;Phuket
 ja;テーサバーンナコーン・プーケット;Phuket
 ko;푸껫;Phuket
 ar;فوكيت;Phuket
-bo;པུ་ཁེཊ་གྲོང་ཁྱེར​།;Phuket
+bo;པུ་ཁེཊ་གྲོང་ཁྱེར།;Phuket
 ta;புக்கிட்;Phuket
 th;เทศบาลนครภูเก็ต;Phuket
 ur;پھوکیت;Phuket

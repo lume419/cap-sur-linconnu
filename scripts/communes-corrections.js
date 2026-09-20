@@ -296,10 +296,19 @@ Object.entries(LOCAL_SCRIPT_DUPLICATES).forEach(([cc, rows]) => rows.forEach(([i
 // alternatenames de la fiche gardée. Critère, vérifié fiche par fiche dans scripts/dump/ : les deux fiches P ont les
 // MÊMES coordonnées (écart ≤ 0,01 km) ET l'équivalence des noms est donnée par GeoNames lui-même — asciiname de la fiche
 // écartée = transcription pinyin du nom gardé (« xiong ji dai » = Xiongjidai), ou une TROISIÈME fiche porte les deux
-// formes. Balayage de tous les noms sans lettre latine publiés en JP, KR, KP, CN et IR : ces six cas seulement.
-// [geonameid écarté, nom publié, geonameid gardé, nom gardé, distance en km, preuve]. Le nom écarté reste trouvable :
-// build-all-aliases.js rattache la fiche écartée au lieu gardé et en reprend les alternatenames (« zh;雄鸡埭;Xiongjidai »,
-// « ja;平泉;Tateishi », « ja;大馬木;Ō-maki »…).
+// formes.
+// 16e audit du 20/09/2026 — ce commentaire annonçait « ces six cas seulement » alors que la liste en compte SEPT (3 en
+// Chine, 2 en Iran, 2 au Japon), et le septième, Yanagidamen, ne relève d'aucun des deux critères énoncés : il tient au
+// FICHIER POSTAL. Les critères retenus sont donc, au choix :
+//   a. asciiname de la fiche écartée = transcription pinyin du nom gardé (CN, les 3 cas) ;
+//   b. une TROISIÈME fiche, au même endroit, porte les deux formes (IR, les 2 cas ; JP 平泉, fiches 11776759 et 2112731) ;
+//   c. les deux fiches partagent le code postal publié et le fichier Japan Post (scripts/postal/JP_postal.txt) nomme
+//      cette localité postale du nom gardé, que l'autre fiche porte aussi en alternatename (JP Yanagidamen / Ō-maki).
+// Balayage de tous les noms sans lettre latine publiés en JP, KR, KP, CN et IR : ces sept cas seulement.
+// [geonameid écarté, nom publié, geonameid gardé, nom gardé, distance en km, preuve]. Le nom écarté ne redevient
+// trouvable que si le nom GARDÉ est unique dans le pays (16e audit, voir build-all-aliases.js) : c'est le cas de
+// « zh;雄鸡埭;Xiongjidai », « fa;گوانی;Gavānī » et « ja;大馬木;Ō-maki », pas de 蓮湖, 东坑, احمد آباد ni 平泉, dont les noms
+// gardés (Lianhu, Dongkeng, Aḩmadābād, Tateishi) désignent 16, 138, 172 et 15 lieux publiés.
 const SAME_POINT_DUPLICATES = {
   CN: [
     [7506579, '雄鸡埭', 7332719, 'Xiongjidai', 0.01, 'asciiname « xiong ji dai » = Xiongjidai'],
@@ -457,6 +466,12 @@ function isJunkName(name){
 //     scripts/dump/AQ_dump.txt) ; les formes propres « Eco Nelson », « Base Eco Nelson » sont déjà publiées ;
 //   - ALIAS_REPAIR_REJECT ci-dessous : lignes dont la forme réparée désigne une AUTRE entité que le lieu publié (commune
 //     rurale, province, gouvernorat, autre ville) ou dont la graphie voulue reste incertaine (forme abrégée ou tronquée).
+// 16e audit du 20/09/2026 — POURQUOI PAS DE RÈGLE GÉNÉRALE « la forme réparée doit figurer dans les alternatenames de la
+// fiche » : mesurée sur les 115 lignes retirées à la 14e passe, elle n'en garderait que 32 (20 à la lettre près). Elle
+// écarterait 83 réparations pourtant sûres et utiles — tous les « _ » finaux des titres chinois (« 伏尔加斯基_ » ->
+// « 伏尔加斯基 », seul nom chinois de Volzhskiy), les parenthèses orphelines japonaises (« (佐敷町 » -> « 佐敷町 ») et les
+// titres russes (« Иван_Вазово ») : un titre Wikipédia n'est presque jamais recopié tel quel en alternatename. Les cas
+// où « _ » ne remplace PAS une espace restent donc traités un par un, ci-dessous, avec leur preuve.
 const ALIAS_REPAIR_REJECT = new Map([
   ['Rakvere_vald', 'commune rurale de Rakvere (vald), pas la ville (EE)'],
   ['Põltsamaa_vald', 'commune rurale de Põltsamaa (vald), pas la ville (EE)'],
@@ -466,12 +481,31 @@ const ALIAS_REPAIR_REJECT = new Map([
   ['وادي_الدواسر_(محافظة)', 'gouvernorat (محافظة) de Wadi ad-Dawasir, pas la ville (SA)'],
   ['Ист_Лансинг', 'East Lansing, autre ville : nom recopié par erreur sur la fiche d\'East Tawas (US 4991692)'],
   ['Килитташ_ке', 'fin tronquée ou abrégée (« ке »), aucune autre forme russe sur la fiche (TR 743330)'],
-  ['A_Gojilan', 'initiale abrégée (« A » pour ‘Awlā ou ‘Abd Allah ?), graphie voulue incertaine (IQ 98837)']
+  ['A_Gojilan', 'initiale abrégée (« A » pour ‘Awlā ou ‘Abd Allah ?), graphie voulue incertaine (IQ 98837)'],
+  // 16e audit du 20/09/2026 — trois formes ajoutées, toutes publiées par la 15e passe et fausses :
+  //   - « Михальчина_слобода » est le seul nom russe de la fiche UA 701271 (Yasna Poliana) ; or Mykhalchyna Sloboda
+  //     EXISTE, fiche 816779 (publiée dans communes-ua.txt ligne 21961, Novhorod-Siverskyi), à 4,85 km. Même motif
+  //     qu'« Ист_Лансинг » : titre wiki d'une AUTRE localité recopié sur la fiche. « Yasna Poliana » désignant 12 lieux
+  //     publiés, la recherche de « Михальчина слобода » renvoyait 9 d'entre eux dans ses dix premiers résultats, le vrai
+  //     village n'arrivant qu'en 4e position (mesuré sur lib/search-index.js avant correction) ;
+  //   - « St_Georges_D_Oleron » : ici « _ » remplace les traits d'union ET l'apostrophe de « Saint-Georges-d'Oléron »
+  //     (fiche FR 2979916, qui porte Saint-Georges-d'Oléron, Saint-Georges-d'Oleron, Saint-Georges), pas des espaces ;
+  //     « St Georges D Oleron » ne figure sur aucune fiche ;
+  //   - « Клајо Алабама) » : la parenthèse OUVRANTE manque (titre serbe « Клајо (Алабама) »). La fiche US 4055879 porte
+  //     la même troncature en latin (« Klajo Alabama) »), et ses autres formes montrent une virgule perdue
+  //     (« klyw  alabama », « کلیو، آلاباما ») : retirer la parenthèse fermante donne une forme qui n'existe nulle part.
+  ['Михальчина_слобода', 'Mykhalchyna Sloboda, autre village : nom recopié par erreur sur la fiche de Yasna Poliana (UA 701271) ; la vraie fiche est 816779'],
+  ['St_Georges_D_Oleron', '« _ » y remplace les traits d\'union et l\'apostrophe de Saint-Georges-d\'Oléron (FR 2979916), pas des espaces'],
+  ['Клајо Алабама)', 'parenthèse ouvrante perdue (« Клајо (Алабама) ») ou virgule (« Clio, Alabama ») : forme voulue incertaine (US 4055879)']
 ]);
 const ORPHAN_HEAD_RE = /^[(\[]/, ORPHAN_TAIL_RE = /[)\]]$/;
-function repairAliasTypography(text){
+// 16e audit du 20/09/2026 — la réparation SANS la liste de refus : sert à retrouver, dans les fichiers déjà publiés, la
+// forme qu'une ligne refusée avait prise à la 15e passe (« Михальчина слобода », « St Georges D Oleron »,
+// « Клајо Алабама »), pour la retirer au lieu de la laisser derrière (build-all-aliases.js).
+function repairAliasLoose(text){ return repairAliasTypography(text, true); }
+function repairAliasTypography(text, ignoreReject){
   let t = String(text || '');
-  if(ALIAS_REPAIR_REJECT.has(t)) return t;
+  if(!ignoreReject && ALIAS_REPAIR_REJECT.has(t)) return t;
   // « _ » contre une espace : séparateur entre deux noms, pas une espace MediaWiki (« حدود الربعة _ الربعة », YE : « limites
   // d'Ar Rab‘ah _ Ar Rab‘ah », écarté au 13e audit) -> aucune réparation, l'alias reste écarté.
   if(/\s_|_\s/.test(t)) return t;
@@ -632,6 +666,6 @@ function dropNearDuplicates(lines){
 }
 
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
-  PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES, INPUT_SYMBOL_RE, ALIAS_REPAIR_REJECT, repairAliasTypography,
+  PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES, INPUT_SYMBOL_RE, ALIAS_REPAIR_REJECT, repairAliasTypography, repairAliasLoose,
   BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, excludePlace,
   fixMixedScript, cleanPlaceName, preparePlaceName, dropNearDuplicates };

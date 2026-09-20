@@ -387,7 +387,7 @@ sr;Бејрут;Beyrouth
 sv;Beirut;Beyrouth
 bo;པེ་རུ་ཐེ།;Beyrouth
 et;Beirut;Beyrouth
-hy;Բեյ­րութ;Beyrouth
+hy;Բեյրութ;Beyrouth
 tg;Бейрут;Beyrouth
 is;Beirút;Beyrouth
 or;ବିରୁଟ;Beyrouth

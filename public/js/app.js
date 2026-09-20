@@ -1352,7 +1352,13 @@
   // dur pointait à rebours en arabe, persan, ourdou, sorani et divehi (écriture de droite à gauche). Sans formatRange :
   // deux dates séparées par un tiret demi-cadratin, sans direction.
   function formatDateRange(d1, d2, opts){
-    if(numericDatesLang()) return numericDateText(d1, opts) + '–' + numericDateText(d2, opts);
+    // 16e audit du 20/09/2026 : une plage à cheval sur deux années s'écrivait « 31.12–02.01 », sans le moindre repère
+    // d'année — Intl l'ajoute de lui-même dans les autres langues. Année portée par les DEUX dates dès qu'elles
+    // diffèrent (« 31.12.2026–02.01.2027 »), et toujours quand l'appelant la demande.
+    if(numericDatesLang()){
+      var yearOpts = ((opts && opts.year) || d1.getFullYear() !== d2.getFullYear()) ? { year: 'numeric' } : null;
+      return numericDateText(d1, yearOpts) + '–' + numericDateText(d2, yearOpts);
+    }
     try {
       var dtf = new Intl.DateTimeFormat(localeTag(), opts);
       if(typeof dtf.formatRange === 'function') return dtf.formatRange(d1, d2);
@@ -1636,8 +1642,12 @@
       cpSpan.className = 'suggest-cp';
       cpSpan.textContent = formatCpBadge(r);
       // Nom du pays dans la langue d'interface (COUNTRIES[..].name est en français).
+      // 16e audit du 20/09/2026 : sans données propres à la langue dans le navigateur (touroyo, adyguéen),
+      // Intl.DisplayNames répond dans la LOCALE DE REPLI — « Fransa » en turc, « Франция » en russe, au milieu d'une
+      // infobulle par ailleurs dans la langue. Même condition que les dates en chiffres (15e passe, voir
+      // numericDatesLang) : on garde alors le nom de COUNTRIES plutôt qu'un mot d'une langue tierce.
       var countryName = (COUNTRIES[r.country] && COUNTRIES[r.country].name) || '';
-      try { if(r.country) countryName = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || countryName; } catch(e){}
+      try { if(r.country && !numericDatesLang()) countryName = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || countryName; } catch(e){}
       if(countryName) li.setAttribute('title', countryName); // survol/lecteur d'écran : nom du pays en clair, pas seulement le drapeau
       li.appendChild(nameSpan);
       li.appendChild(cpSpan);
@@ -2423,7 +2433,12 @@
     if(revealLabelKey) els.rouletteLabel.textContent = t(revealLabelKey);
     if(revealClueKey) els.rouletteClue.textContent = t(revealClueKey);
     // Région annoncée aux lecteurs d'écran : sinon elle restait dans la langue du tirage (texte périmé à la lecture).
-    if(!revealInProgress && currentTripData && els.revealRegion.textContent){
+    // 16e audit du 20/09/2026 : l'annonce était RECONSTRUITE à partir du texte déjà affiché, encore dans l'ANCIENNE
+    // langue — retranslateReveal est appelée AVANT rerenderCurrentTrip (donc avant updateRevealTexts) dans l'écouteur
+    // 'i18n:langchange'. « Destination confirmée — Лион · 21 житель » mêlait les deux langues. Le texte de la région est
+    // donc refait d'abord, depuis les données de l'étape (updateRevealTexts -> revealCountTexts), l'annonce ensuite.
+    if(!revealInProgress && currentTripData && currentTripData.firstStop){
+      updateRevealTexts(currentTripData.firstStop);
       announceReveal(t('reveal.confirmed') + ' — ' + els.revealRegion.textContent);
     }
   }
@@ -3135,8 +3150,10 @@
   // Avertissement de circulation (van / moto) : même style que les zones à tension (orange), lien vers la source.
   function restrictionRowHtml(r){
     // Règle nationale (moto) : nom du pays dans la langue d'interface quand le navigateur le connaît.
+    // 16e audit du 20/09/2026 : pour le touroyo et l'adyguéen, Intl.DisplayNames répondait dans la locale de repli
+    // (« Fransa », « Франция ») — le nom reçu du serveur est gardé tel quel dans ce cas (voir numericDatesLang).
     var name = r.name || '';
-    if(r.country && (r.type === 'noMotorway' || r.type === 'noMotorwayCc' || r.type === 'partial')){
+    if(r.country && !numericDatesLang() && (r.type === 'noMotorway' || r.type === 'noMotorwayCc' || r.type === 'partial')){
       try { name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || name; } catch(e){}
     }
     // r.kind/r.type/r.minCc viennent du serveur : clé validée (tData), cylindrée numérique seulement (10e audit).
@@ -3756,9 +3773,11 @@
     });
   }
   // « Vignette autoroutière · Suisse » : nom du pays dans la langue d'interface (Intl.DisplayNames), sinon nom des données.
+  // 16e audit du 20/09/2026 : même réserve qu'aux deux autres emplois d'Intl.DisplayNames — pour le touroyo et
+  // l'adyguéen, il répondait dans la locale de repli (« İsviçre », « Швейцария »), voir numericDatesLang.
   function vignetteLabel(cc){
     var name = (COUNTRIES[cc] && COUNTRIES[cc].name) || cc;
-    try { name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(cc) || name; } catch(e){}
+    try { if(!numericDatesLang()) name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(cc) || name; } catch(e){}
     return t('vignette.label') + ' · ' + name;
   }
 
@@ -4043,7 +4062,8 @@
     if(leg.restrictions && leg.restrictions.length){
       out.restrictions = leg.restrictions.map(function(r){
         var name = r.name || '';
-        if(r.country && (r.type === 'noMotorway' || r.type === 'noMotorwayCc' || r.type === 'partial')){
+        // Même réserve qu'à l'écran (voir restrictionRowHtml, 16e audit du 20/09/2026).
+        if(r.country && !numericDatesLang() && (r.type === 'noMotorway' || r.type === 'noMotorwayCc' || r.type === 'partial')){
           try { name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || name; } catch(e){}
         }
         var cc = isFinite(Number(r.minCc)) && r.minCc !== '' && r.minCc != null ? formatNum(r.minCc) : '';
@@ -4314,7 +4334,10 @@
     } catch(err){
       if(drawId !== currentDrawId) return;
       // Délai dépassé côté navigateur (AbortController) : même message que le délai dépassé côté serveur.
-      showFormError(msg(err && err.name === 'AbortError' ? 'error.drawTimeout' : 'error.routeImpossible'));
+      // 16e audit du 20/09/2026 : tout AUTRE échec de fetch est une coupure réseau (serveur injoignable, connexion
+      // perdue, requête bloquée) — la requête n'est même pas arrivée. « Impossible de construire un itinéraire […]
+      // élargissez le rayon » (error.routeImpossible) envoyait sur une fausse piste : un message dédié dit quoi faire.
+      showFormError(msg(err && err.name === 'AbortError' ? 'error.drawTimeout' : 'error.network'));
       return;
     } finally {
       if(abortTimer) clearTimeout(abortTimer);

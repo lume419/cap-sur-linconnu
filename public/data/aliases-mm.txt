@@ -7921,7 +7921,7 @@ my;ဒေါတမော;Daw Ta Maw
 my;ဒေါတမကြီး;Daw Ta Ma Gyi
 my;ဒေါတကလဲ;Daw Ta Ka Le
 my;ဒေါတထော;Daw Ta Htaw
-my;ဒေါတ​ဆေး;Daw Ta Say
+my;ဒေါတဆေး;Daw Ta Say
 my;ဒေါဖာ;Daw Hpar
 my;ဒေါတဒါး;Daw Ta Dar
 my;ဒေါတချရွာသစ်;Daw Ta Cha Ywar Thit
@@ -9650,7 +9650,7 @@ my;ရွှေရောင်ပြ;Shwe Yaung Pya
 my;ဆင်ဖြူကျွန်း;Sin Hpyu Kyun
 my;ဆင်စု;Sin Su
 my;ဆင်တွင်း;Sin Twin
-my;စုံပ​ရောက်;Son Pa Yauk
+my;စုံပရောက်;Son Pa Yauk
 my;စွပ္ပလောင်း;Sut Pa Laung
 my;တကာကျိုက်;Ta Kar Kyaik
 my;တကေးချောင်းဖျား;Ta Kay Chaung Hpyar
@@ -10280,7 +10280,7 @@ my;အောက်ငရှား;Auk Nga Shar
 my;လှီရုံး;Hli Yone
 my;မကြိုင်;Ma Kyaing
 my;ကြုတ်;Kyuk
-my;အွယ်​ရေး;Anigai
+my;အွယ်ရေး;Anigai
 my;ထိုရှိုင်း;Hto Shine
 my;ငတိန်း;Nga Tein
 my;ဝရဲ;Vaye
@@ -14493,7 +14493,6 @@ my;၅ ကွက် အရှေ့;5 Kwet East
 my;အောက်ကုန်း;Auk Kone
 my;ညီနောင်;Nyi Naung
 my;လိပ်အိုင်;Leik Aing
-my;ဆပ်​ချောင်း;Sat Chaung
 my;ထုံးဘူးကျအညာစု;Htone Bu Kya Ah Nyar Su
 my;မှော်ချောင်း;Hmaw Chaung
 my;အိမ်တော်ယာစခမ်း;Ein Taw Yar Sa Khan
@@ -15403,7 +15402,7 @@ my;La Mu Lay;La Mu Gale
 my;လမုလေး;La Mu Gale
 my;သပြုဆိပ်;Tha Byu Zeik
 my;Tha Pyu Seik;Tha Byu Zeik
-my;ဂွေးချောင်း​လေး;Gway Chaung Lay
+my;ဂွေးချောင်းလေး;Gway Chaung Lay
 my;ကျုံခရမ်း;Kyon Kha Yan
 my;Nauk Pyan Doe;Kyon Kha Yan
 my;နောက်ပြန်ဒိုး;Kyon Kha Yan

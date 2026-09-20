@@ -75,9 +75,21 @@ const GB_REGION_RESTRICTED_LANGS = (() => {
 // point final après une écriture arabe/hébraïque (« مجدل شمس. »), guillemet fermant orphelin (« Çatalhüyük”. »). Ces
 // caractères rendent l'alias introuvable par une saisie normale et s'affichent de travers. Ils sont retirés ; l'alias
 // est écarté s'il devient vide, identique au nom publié ou doublon d'une autre ligne. CONSERVÉS volontairement :
-// ZWNJ/ZWJ (U+200C/U+200D, orthographe persane, ourdoue, indienne…), l'espace sans chasse U+200B (séparateur de mots
-// en birman, thaï, lao) et le point d'abréviation (« บ้าน สปก. », « Sopochina Ye. »).
-const ALIAS_CONTROL_RE = /[\u0000-\u001F\u007F\u061C\u200E\u200F\u202A-\u202E\u2066-\u2069\uFEFF]/g;
+// ZWNJ/ZWJ (U+200C/U+200D, orthographe persane, ourdoue, indienne…) et le point d'abréviation (« บ้าน สปก. »,
+// « Sopochina Ye. »). L'espace sans chasse U+200B était gardée elle aussi (séparateur de mots en birman, thaï, lao) :
+// elle ne l'est plus, voir le 16e audit ci-dessous.
+// 16e audit du 20/09/2026 — ESPACE SANS CHASSE ET TRAIT D'UNION CONDITIONNEL RETIRÉS PARTOUT, plus seulement en tête et
+// en fin (audit n° 11). L'audit n° 11 gardait les U+200B INTERNES en les prenant pour des séparateurs de mots utiles ;
+// ils ne le sont pas ici : normalizeCityName (lib/trip-engine.js) ne les retire pas, donc la saisie normale sans espace
+// sans chasse ne retrouvait aucun de ces alias. 12 lignes publiées en portaient (aliases-il 1985-1986, ir 90901, la 453,
+// mm 7924/9653/10283/14496/15406, mx 25131, th 2061, vn 14), et 7 autres portaient un trait d'union conditionnel U+00AD,
+// tout aussi invisible et jamais tapé (gb 488/4489/6031, lb 390, us 21020/26864/95864 : « Дай­зу­эрт », « Монес­сен »).
+// Sont donc retirés U+200B, U+00AD, U+2060 (gluon de mots) et U+180E. Les ZWNJ/ZWJ (U+200C/U+200D), eux, RESTENT : ils
+// font partie de l'orthographe persane, ourdoue et indienne et sont réellement saisis (Maj+Espace sur un clavier
+// persan) ; les retirer rendrait ces alias introuvables à la saisie normale, l'inverse du but recherché. Les retirer DES
+// DEUX CÔTÉS demanderait normalizeCityName (lib/trip-engine.js) et l'index de recherche (lib/search-index.js), hors
+// périmètre de cette passe.
+const ALIAS_CONTROL_RE = /[\u0000-\u001F\u007F\u00AD\u061C\u180E\u200B\u200E\u200F\u202A-\u202E\u2060\u2066-\u2069\uFEFF]/g;
 // Caractère de contrôle C1 (U+0080–U+009F) = texte mal décodé (« Alto Igarap<U+0090> Açu », « <U+009F>AA¬²± » pour
 // Ottawa) : la lettre d'origine est perdue, l'alias est écarté plutôt que « réparé » (chaîne vide -> ligne retirée).
 const ALIAS_MOJIBAKE_RE = /[\u0080-\u009F]/;
@@ -97,13 +109,20 @@ const ALIAS_JUNK_RE = /[?\uFF1F]|^[-\u2010-\u2014]|[-\u2010-\u2014]$|\b(no such|
 // AUDIT N° 11 — deux nettoyages de plus :
 //   - espace sans chasse U+200B EN TÊTE OU EN FIN d'alias (« <U+200B>ဇောင်းလျားကုန်း » en birman, « ताशक़ुरग़ान<U+200B> » en hindi) :
 //     jamais utile à cette place, il rend l'alias introuvable -> retiré. Les U+200B INTERNES (séparateurs de mots en
-//     birman, thaï, lao, khmer, tibétain : « ບ້ານ<U+200B>ກວານ ») restent ;
+//     birman, thaï, lao, khmer, tibétain : « ບ້ານ<U+200B>ກວານ ») restaient ; ils sont retirés eux aussi depuis le
+//     16e audit (ALIAS_CONTROL_RE ci-dessus), pour la même raison : la saisie normale ne les contient pas ;
 //   - lettre d'un autre alphabet glissée dans un mot (« Грeнобль » : e latin dans un nom russe ; « Zоrоkіv » : о et і
 //     cyrilliques dans un nom latin ; « Мендосæ » : æ latin pour le ӕ ossète) : corrigée par fixMixedScript
 //     (scripts/communes-corrections.js) quand chaque lettre intruse a un sosie exact dans l'écriture majoritaire du mot
 //     (sosies propres à la langue de l'alias compris : һ, palotchka) ; sinon (« Шеллenbergг », « Калан-Деh » en russe)
 //     la graphie voulue est incertaine -> alias écarté.
-const { fixMixedScript, isJunkName, repairAliasTypography, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES } = require('./communes-corrections.js');
+const { fixMixedScript, isJunkName, repairAliasTypography, repairAliasLoose, ALIAS_REPAIR_REJECT, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES } = require('./communes-corrections.js');
+// 16e audit du 20/09/2026 — bornes des quatre écritures d'Asie du Sud-Est propres à UNE seule langue d'interface (voir
+// cleanAliasText). Le tibétain, le cyrillique, l'arabe… sont volontairement absents : ils servent à plusieurs langues.
+const SCRIPT_LANGS = { lo: [0x0E80, 0x0EFF], km: [0x1780, 0x17FF], my: [0x1000, 0x109F], th: [0x0E00, 0x0E7F] };
+const SCRIPT_LANG_LIST = Object.keys(SCRIPT_LANGS);
+// Caractères qui ne disent rien de l'écriture : espaces, ponctuation, chiffres.
+const SCRIPT_IGNORE_RE = /[\s.,;:()\[\]'’\-\u2010-\u2014\/0-9\u00AD\u200B-\u200F\u2060\uFEFF]/;
 function cleanAliasText(text, canonical, lang){
   text = String(text || '');
   if(ALIAS_MOJIBAKE_RE.test(text)) return '';
@@ -130,9 +149,33 @@ function cleanAliasText(text, canonical, lang){
   // appariée (« zzLapurdi-) Jatsu » pour Jatxou, « Vilak) » pour Bair, « (佐敷町 », « 景島（Isla Vista)社群 ») et 1 avec un crochet
   // non apparié (« [چانهاسن، مینه‌سوتا »), 1 avec « * » (« CZ*ECO Nelson ») et 1 devenue orpheline (« zh;城郊乡;城郊 », lieu écarté
   // comme doublon). Le 14e audit les écartait sans réparation en affirmant que « la forme propre existe presque toujours
-  // déjà dans une autre ligne » : c'était FAUX (15e audit du 19/09/2026) — 82 des 115 lignes n'avaient aucune forme propre
-  // ailleurs. Elles sont désormais réparées ci-dessus quand la réparation est sûre.
+  // déjà dans une autre ligne » : c'était FAUX (15e audit du 19/09/2026).
+  // 16e audit du 20/09/2026 — « 82 des 115 » était juste mais la règle de comptage manquait, et elle change le chiffre du
+  // simple au double. Recompte sur les trois lectures possibles de « la forme propre existe déjà dans une autre ligne »,
+  // dans le fichier d'alias du pays AVANT la 14e passe (commit fdd68aa) :
+  //   - aucune autre ligne au même texte normalisé, toutes langues et tous lieux confondus : 82 des 115 ;
+  //   - aucune autre ligne au même texte normalisé POUR LE MÊME LIEU : 86 ;
+  //   - aucune autre ligne au même texte normalisé pour le même lieu ET dans la même langue : 89.
+  // Et ce que la 15e passe a réellement publié : 74 lignes remises (forme réparée absente avant, présente après),
+  // 26 dont la forme réparée était déjà trouvable sous une autre ligne (rien d'ajouté) et 15 toujours écartées.
   if(ALIAS_JUNK_RE.test(t) || isJunkName(t)) return '';
+  // 16e audit du 20/09/2026 — LANGUE CONTREDITE PAR L'ÉCRITURE. Le lao, le khmer, le birman et le thaï ont chacun leur
+  // écriture, qu'aucune des trois autres n'emploie : un alias écrit ENTIÈREMENT dans l'une d'elles et déclaré dans une
+  // AUTRE de ces quatre langues est une étiquette fausse de GeoNames, pas un exonyme. Un seul cas publié
+  // (aliases-il.txt:1985, « km;ເຢຣູຊາເລັམ;Yerushalayim » = Jérusalem en lao) : la fiche 281184 porte la MÊME chaîne sous
+  // « lo » (id 11319030, publiée à la ligne suivante) et n'a aucun nom khmer. La ligne mal étiquetée est écartée ; la
+  // bonne reste. Balayage de tous les alias publiés : aucun autre cas.
+  if(SCRIPT_LANGS[lang]){
+    const seen = new Set();
+    for(const ch of t){
+      if(SCRIPT_IGNORE_RE.test(ch)) continue;
+      const c = ch.codePointAt(0);
+      let s = null;
+      for(const g of SCRIPT_LANG_LIST) if(c >= SCRIPT_LANGS[g][0] && c <= SCRIPT_LANGS[g][1]) s = g;
+      seen.add(s);
+    }
+    if(seen.size === 1){ const only = [...seen][0]; if(only && only !== lang) return ''; }
+  }
   const mixed = fixMixedScript(t, lang);
   if(!mixed.ok) return '';
   t = mixed.text;
@@ -222,12 +265,27 @@ for(const cc of Object.keys(COUNTRIES)){
   // lieu publié sous le nom gardé (le plus proche de la fiche gardée, à moins de 2 km), pour que les noms de la fiche
   // écartée restent trouvables comme alias (« 平泉 » -> Tateishi ; « 大馬木 » -> Ō-maki, dont la fiche n'était rattachée à
   // rien : son nom publié vient de NAME_FIXES).
+  // 16e audit du 20/09/2026 — RÉGRESSION DE LA 15e PASSE : un alias ne désigne son lieu QUE par son nom (« langue;alias;nom
+  // publié »). Rattacher le nom de la fiche écartée au nom gardé le rattache donc à TOUS les homonymes du pays : « 平泉 »
+  // renvoyait les 15 Tateishi du Japon, « 蓮湖 » les 16 Lianhu de Chine, « 东坑 » 138 Dongkeng, « احمد آباد » 172 Aḩmadābād —
+  // et pour ces trois derniers le bon lieu ne sortait même pas, un homonyme plus peuplé de la même province le masquant.
+  // Le rattachement n'est donc fait que si le nom gardé est UNIQUE parmi les lieux publiés du pays (« Xiongjidai »,
+  // « Gavānī », « Ō-maki » : un seul lieu chacun). Sinon aucun alias n'est créé, et les lignes que la 15e passe avait
+  // écrites sont retirées (mergeWithdraw plus bas) : LIMITE ASSUMÉE — le nom local de ces quatre fiches écartées n'est
+  // plus cherchable, faute d'un format d'alias qui désignerait le lieu par son geonameid.
+  const mergeRejectedIds = new Set(), mergeRejectedName = new Map();
   for(const [id, , keptId, keptName] of [].concat(LOCAL_SCRIPT_DUPLICATES[cc] || [], SAME_POINT_DUPLICATES[cc] || [])){
     const k = dupCoords.get(String(keptId));
     if(!k) continue;
+    const homonyms = published.filter(p => p.name === keptName);
     let best = null, bestKm = 2;
-    for(const p of published) if(p.name === keptName){ const d = km(k.lat, k.lon, p.lat, p.lon); if(d < bestKm){ bestKm = d; best = p; } }
+    for(const p of homonyms){ const d = km(k.lat, k.lon, p.lat, p.lon); if(d < bestKm){ bestKm = d; best = p; } }
     if(!best) continue;
+    if(homonyms.length > 1){
+      mergeRejectedIds.add(String(id)); mergeRejectedName.set(String(id), keptName);
+      console.log(cc + ' : fusion ' + id + ' -> « ' + keptName + ' » abandonnée, ' + homonyms.length + ' lieux publiés portent ce nom');
+      continue;
+    }
     if(!placeById.has(String(keptId))) placeById.set(String(keptId), best);
     if(!placeById.has(String(id))) placeById.set(String(id), best);
   }
@@ -304,6 +362,60 @@ for(const cc of Object.keys(COUNTRIES)){
     return p[0] + ';' + p[1] + ';' + target;
   }).filter(Boolean);
   existing = [...new Set(existing)];
+  const alt = fs.readFileSync(altPath, 'utf8');
+  const remap = LANG_REMAP_BY_COUNTRY[cc] || {};
+  const langOf = raw => remap[raw] || LANG_REMAP[raw] || raw;
+  // 16e audit du 20/09/2026 — RETRAIT DES LIGNES QUE LA 15e PASSE AVAIT ÉCRITES À TORT. Ce script est ADDITIF : cesser
+  // d'écrire une ligne fausse ne la fait pas disparaître du fichier publié. Deux sources, reconstituées depuis
+  // scripts/altnames/XX.txt :
+  //   - fusions abandonnées ci-dessus (le nom gardé n'est pas unique dans le pays) : « langue;nom de la fiche
+  //     écartée;nom gardé » (« ja;平泉;Tateishi », « zh;蓮湖;Lianhu »…) ;
+  //   - noms alternatifs refusés par ALIAS_REPAIR_REJECT (communes-corrections.js) : la 15e passe en publiait la forme
+  //     réparée (« ru;Михальчина слобода;Yasna Poliana », « fr;St Georges D Oleron;… », « sr;Клајо Алабама;Clio »)
+  //     avant que le refus ne soit ajouté ; repairAliasLoose redonne cette forme.
+  // Une ligne n'est retirée que si AUCUN nom alternatif accepté du pays ne la produit par ailleurs : « nl;Khwaeng
+  // Savannakhet;Savannakhet » (nom alternatif à espace, id 1924571) et « sr;Ист Лансинг;East Lansing » (fiche 4991640,
+  // la bonne ville) sont donc gardés, alors que « kk;Ист Лансинг;East Tawas » l'est aussi — c'est un nom alternatif
+  // GeoNames à part entière (id 18563388), pas une réparation, et le corriger sortirait de cette passe.
+  const withdraw = new Map();
+  eachLine(alt, line => {
+    const c = line.split('\t');
+    if(!c[3]) return;
+    const lang = langOf(c[2]);
+    if(!LANGS.has(lang)) return;
+    if(mergeRejectedIds.has(c[1])){
+      const name = mergeRejectedName.get(c[1]);
+      const t = cleanAliasText(c[3], name, c[2]);
+      if(t) withdraw.set(lang + ';' + t + ';' + name, 'fusion abandonnée (homonymes)');
+    }
+    if(ALIAS_REPAIR_REJECT.has(c[3])){
+      const p = placeById.get(c[1]);
+      if(!p) return;
+      const t = cleanAliasText(repairAliasLoose(c[3]), p.name, c[2]);
+      if(t) withdraw.set(lang + ';' + t + ';' + p.name, 'réparation refusée (' + ALIAS_REPAIR_REJECT.get(c[3]) + ')');
+    }
+  });
+  let withdrawn = 0;
+  if(withdraw.size){
+    const keep = new Set();
+    eachLine(alt, line => {
+      const c = line.split('\t');
+      if(!c[3] || ALIAS_REPAIR_REJECT.has(c[3])) return;
+      const p = placeById.get(c[1]);
+      if(!p) return;
+      const t = cleanAliasText(c[3], p.name, c[2]);
+      if(!t) return;
+      const k = langOf(c[2]) + ';' + t + ';' + p.name;
+      if(withdraw.has(k)) keep.add(k);
+    });
+    keep.forEach(k => withdraw.delete(k));
+    existing = existing.filter(l => {
+      if(!withdraw.has(l)) return true;
+      withdrawn++;
+      console.log(cc + ' : ligne retirée, ' + withdraw.get(l) + ' — ' + l);
+      return false;
+    });
+  }
   if(renamedClean) console.log(cc + ' : lignes rattachées au nom nettoyé ou corrigé ' + renamedClean);
   if(droppedRenamed) console.log(cc + ' : lignes de l’ancien nom écartées (égales au nouveau nom ou avec « _ ») ' + droppedRenamed);
   if(fixedOrphans || droppedOrphans) console.log(cc + ' : lignes orphelines rattachées ' + fixedOrphans + ', écartées ' + droppedOrphans);
@@ -311,13 +423,11 @@ for(const cc of Object.keys(COUNTRIES)){
   const seen = new Set(existing.map(l => { const p = l.split(';'); return p[0] + '|' + normalizeCityName(p[1]) + '|' + p[2]; }));
   const existingLangs = new Set(existing.map(l => l.split(';')[0]));
 
-  const alt = fs.readFileSync(altPath, 'utf8');
   let celticNames = null;
   if(CELTIC_CHECK.has(cc)){
     celticNames = new Set();
     eachLine(alt, line => { const c = line.split('\t'); if(CELTIC_PROBE_LANGS.has(c[2]) && c[3]) celticNames.add(normalizeCityName(c[3])); });
   }
-  const remap = LANG_REMAP_BY_COUNTRY[cc] || {};
   const added = [];
   eachLine(alt, line => {
     const c = line.split('\t');
@@ -350,7 +460,7 @@ for(const cc of Object.keys(COUNTRIES)){
   added.forEach(l => { const lg = l.slice(0, l.indexOf(';')); totals.byLang[lg] = (totals.byLang[lg] || 0) + 1; });
   console.log(cc + ' : ' + published.length + ' lieux, ' + placeById.size + ' rattachés (' + byCoords + ' par coordonnées, ' + byName +
     ' par nom), ' + existing.length + ' alias existants, +' + added.length + (DRY ? ' (mesure)' : ''));
-  if(!DRY && (added.length || renamedClean || droppedRenamed || fixedOrphans || droppedOrphans || cleanedAliases || droppedDirty || dedupDirty)){
+  if(!DRY && (added.length || renamedClean || droppedRenamed || fixedOrphans || droppedOrphans || cleanedAliases || droppedDirty || dedupDirty || withdrawn)){
     fs.writeFileSync(outPath, existing.concat(added).join('\n') + '\n', 'utf8');
   }
 }

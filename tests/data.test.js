@@ -322,8 +322,15 @@ test('alias : aucun alias refusé par isJunkName (« _ », parenthèse ou croche
 });
 
 // 15e audit du 19/09/2026 : réparation typographique des alias AVANT le refus (communes-corrections.js,
-// repairAliasTypography) — les 82 lignes retirées par la 14e passe sans forme propre ailleurs sont revenues sous leur
-// forme réparée ; les lignes mal rattachées ou incertaines (ALIAS_REPAIR_REJECT) restent écartées, réparées ou non.
+// repairAliasTypography) ; les lignes mal rattachées ou incertaines (ALIAS_REPAIR_REJECT) restent écartées, réparées ou non.
+// 16e audit du 20/09/2026 : le commentaire disait « les 82 lignes retirées par la 14e passe sans forme propre ailleurs
+// sont revenues sous leur forme réparée », ce qui mélangeait deux comptes. Les vrais chiffres, recomptés sur les
+// 115 lignes que la 14e passe avait retirées (diff fdd68aa → f624b64) :
+//   - 82 n'avaient, dans le fichier d'alias de leur pays AVANT la 14e passe, aucune autre ligne au même texte normalisé
+//     (toutes langues et tous lieux confondus) ; 86 en s'en tenant au même lieu, 89 au même lieu ET à la même langue ;
+//   - la 15e passe en a effectivement REMIS 74 (forme réparée absente avant, présente après) ; 26 de plus étaient déjà
+//     trouvables sous une autre ligne (rien d'ajouté) et 15 restent écartées.
+// La 16e passe en retire 3 de plus (St_Georges_D_Oleron, Клајо Алабама), Михальчина_слобода : voir ALIAS_REPAIR_REJECT).
 const aliasLines = new Map();
 function aliasSet(cc){
   if(!aliasLines.has(cc)){
@@ -334,10 +341,17 @@ function aliasSet(cc){
 }
 test('alias : formes réparées publiées (« _ », parenthèse orpheline), formes mal rattachées toujours écartées', () => {
   const R = C.repairAliasTypography;
-  for(const [raw, fixed] of [['伏尔加斯基_', '伏尔加斯基'], ['Иван_Вазово', 'Иван Вазово'], ['St_Georges_D_Oleron', 'St Georges D Oleron'],
-    ['(佐敷町', '佐敷町'], ['Hueschtert)', 'Hueschtert'], ['[چانهاسن، مینه‌سوتا', 'چانهاسن، مینه‌سوتا'], ['Клајо Алабама)', 'Клајо Алабама']]){
+  for(const [raw, fixed] of [['伏尔加斯基_', '伏尔加斯基'], ['Иван_Вазово', 'Иван Вазово'], ['Юхары_шильян', 'Юхары шильян'],
+    ['(佐敷町', '佐敷町'], ['Hueschtert)', 'Hueschtert'], ['[چانهاسن، مینه‌سوتا', 'چانهاسن، مینه‌سوتا']]){
     assert.equal(R(raw), fixed, raw);
     assert.ok(!C.isJunkName(R(raw)), raw);
+  }
+  // 16e audit du 20/09/2026 : repairAliasLoose donne la forme que la 15e passe avait publiée pour une ligne désormais
+  // refusée — c'est elle que build-all-aliases.js retire des fichiers déjà écrits.
+  for(const [raw, loose] of [['St_Georges_D_Oleron', 'St Georges D Oleron'], ['Клајо Алабама)', 'Клајо Алабама'],
+    ['Михальчина_слобода', 'Михальчина слобода'], ['Ист_Лансинг', 'Ист Лансинг']]){
+    assert.equal(C.repairAliasLoose(raw), loose, raw);
+    assert.equal(R(raw), raw, raw);
   }
   // Non réparables : parenthèse au milieu ou deuxième parenthèse non appariée, « * », lignes de ALIAS_REPAIR_REJECT.
   for(const raw of ['zzLapurdi-) Jatsu', '(پنڈی ہاشم (باڑہ', 'حدود الربعة _ الربعة', '景島（Isla Vista)社群', 'CZ*ECO Nelson', ...C.ALIAS_REPAIR_REJECT.keys()]) assert.ok(C.isJunkName(R(raw)), raw);
@@ -345,18 +359,103 @@ test('alias : formes réparées publiées (« _ », parenthèse orpheline), form
   for(const l of ['ru;Юхары шильян;Yuxarı Şilyan', 'ru;Асрик джырдахан;Asrikdzhyrdakhan', 'bg;Иван Вазово;Ivan-Vazovo', 'zh;伏尔加斯基;Volzhskiy',
     'zh;比拉;Bira', 'ru;Кривая руда;Kryva Ruda', 'zh;约克镇;Yorktown', 'ky;Беркли;Berkeley', 'ja;佐敷町;Sashiki', 'ja;鰍沢町;Kajikazawa',
     'fa;چانهاسن، مینه‌سوتا;Chanhassen', 'lb;Hueschtert;Hostert', 'ga;Baile an Tirialaigh;Tyrrelstown', 'bn;দক্ষিনেশ্বর;Dakshineswar',
-    'zh;索爾茲伯里;Salisbury', 'zh;蒂沃利;Tivoli', 'fa;وادی الدواسر;Wadi ad-Dawasir', 'fr;St Georges D Oleron;Saint-Georges-d\'Oléron']){
+    'zh;索爾茲伯里;Salisbury', 'zh;蒂沃利;Tivoli', 'fa;وادی الدواسر;Wadi ad-Dawasir']){
     const cc = { 'Yuxarı Şilyan': 'AZ', Asrikdzhyrdakhan: 'AZ', 'Ivan-Vazovo': 'BG', Volzhskiy: 'RU', Bira: 'RU', 'Kryva Ruda': 'UA', Yorktown: 'US',
       Berkeley: 'US', Sashiki: 'JP', Kajikazawa: 'JP', Chanhassen: 'US', Hostert: 'LU', Tyrrelstown: 'IE', Dakshineswar: 'IN', Salisbury: 'DM',
-      Tivoli: 'GD', 'Wadi ad-Dawasir': 'SA', 'Saint-Georges-d\'Oléron': 'FR' }[l.split(';')[2]];
+      Tivoli: 'GD', 'Wadi ad-Dawasir': 'SA' }[l.split(';')[2]];
     if(!aliasSet(cc).has(l)) bad.push(cc + ' : ligne réparée absente ' + JSON.stringify(l));
   }
   // (« nl;Khwaeng Savannakhet;Savannakhet », écrit avec une espace dans GeoNames, était déjà publié avant la 14e passe :
   // non visé ici, voir le README.)
+  // 16e audit du 20/09/2026 : trois formes réparées de plus sont refusées ET retirées des fichiers déjà publiés
+  // (« sr;Ист Лансинг;East Lansing », fiche 4991640, reste publiée : c'est la bonne ville, pas une réparation).
   for(const [cc, l] of [['EE', 'et;Rakvere vald;Rakvere'], ['US', 'ky;Ист Лансинг;East Tawas'],
-    ['MY', 'ms;Mukim Penyabong;Penyabong'], ['YE', 'ar;حدود الربعة الربعة;Ar Rab‘ah'], ['TR', 'ru;Килитташ ке;Kilittaşı'], ['AQ', 'en;CZECO Nelson;Eco-Nelson']]){
+    ['MY', 'ms;Mukim Penyabong;Penyabong'], ['YE', 'ar;حدود الربعة الربعة;Ar Rab‘ah'], ['TR', 'ru;Килитташ ке;Kilittaşı'], ['AQ', 'en;CZECO Nelson;Eco-Nelson'],
+    ['FR', 'fr;St Georges D Oleron;Saint-Georges-d\'Oléron'], ['US', 'sr;Клајо Алабама;Clio'], ['UA', 'ru;Михальчина слобода;Yasna Poliana']]){
     if(aliasSet(cc).has(l)) bad.push(cc + ' : ligne mal rattachée ou incertaine publiée ' + JSON.stringify(l));
   }
+  if(!aliasSet('US').has('sr;Ист Лансинг;East Lansing')) bad.push('US : « sr;Ист Лансинг;East Lansing » retirée à tort');
+  if(!aliasSet('UA').has('uk;Михальчина Слобода;Mykhalchyna Sloboda')) bad.push('UA : « uk;Михальчина Слобода;Mykhalchyna Sloboda » retirée à tort');
+  assert.deepEqual(bad, []);
+});
+
+// 16e audit du 20/09/2026 — CARACTÈRES INVISIBLES DANS LES ALIAS. Espace sans chasse U+200B, trait d'union conditionnel
+// U+00AD, gluon de mots U+2060, séparateur mongol U+180E, BOM U+FEFF, marques de direction : aucun clavier ne les tape et
+// normalizeCityName ne les retire pas, donc l'alias qui en porte un est introuvable. 19 lignes publiées en portaient un
+// (12 avec U+200B, 7 avec U+00AD) ; build-all-aliases.js les retire partout (ALIAS_CONTROL_RE). ZWNJ et ZWJ
+// (U+200C/U+200D) sont au contraire GARDÉS : orthographe persane, ourdoue et indienne, réellement saisie.
+test('alias : aucun caractère invisible (U+200B, U+00AD, U+FEFF…), ZWNJ et ZWJ gardés', () => {
+  const INVISIBLE = /[­؜᠎​‎‏‪-‮⁠⁦-⁩﻿]/;
+  const bad = [];
+  let zwnj = 0;
+  for(const { alias } of FILES){
+    if(!alias || !fs.existsSync(path.join(DATA, alias))) continue;
+    eachLine(path.join(DATA, alias), (l, i) => {
+      if(INVISIBLE.test(l)) bad.push(alias + ':' + i + ' ' + JSON.stringify(l));
+      if(/[‌‍]/.test(l)) zwnj++;
+    });
+  }
+  assert.deepEqual(bad, []);
+  assert.ok(zwnj > 100, 'les ZWNJ/ZWJ doivent rester (' + zwnj + ' lignes)');
+});
+
+// 16e audit du 20/09/2026 — LANGUE CONTREDITE PAR L'ÉCRITURE. Lao, khmer, birman et thaï ont chacun leur écriture,
+// qu'aucune des trois autres n'emploie : un alias écrit entièrement dans l'une et déclaré dans une autre de ces quatre
+// langues est une étiquette fausse de GeoNames (« km;ເຢຣູຊາເລັມ;Yerushalayim », lao, écarté ; la fiche 281184 porte la
+// même chaîne sous « lo », qui reste publiée).
+test('alias : lao / khmer / birman / thaï jamais déclarés dans une autre de ces quatre langues', () => {
+  const R = { lo: [0x0E80, 0x0EFF], km: [0x1780, 0x17FF], my: [0x1000, 0x109F], th: [0x0E00, 0x0E7F] };
+  const LANGS = Object.keys(R);
+  const IGNORE = /[\s.,;:()\[\]'’\-‐-—\/0-9]/;
+  const bad = [];
+  for(const { alias } of FILES){
+    if(!alias || !fs.existsSync(path.join(DATA, alias))) continue;
+    eachLine(path.join(DATA, alias), (l, i) => {
+      const p = l.split(';');
+      if(p.length !== 3 || !LANGS.includes(p[0])) return;
+      const seen = new Set();
+      for(const ch of p[1]){
+        if(IGNORE.test(ch)) continue;
+        const c = ch.codePointAt(0);
+        let s = null;
+        for(const g of LANGS) if(c >= R[g][0] && c <= R[g][1]) s = g;
+        seen.add(s);
+      }
+      const only = seen.size === 1 ? [...seen][0] : null;
+      if(only && only !== p[0]) bad.push(alias + ':' + i + ' ' + JSON.stringify(l) + ' (écriture ' + only + ')');
+    });
+  }
+  assert.deepEqual(bad, []);
+  assert.ok(aliasSet('IL').has('lo;ເຢຣູຊາເລັມ;Yerushalayim'), 'la ligne lao de Jérusalem doit rester');
+});
+
+// 16e audit du 20/09/2026 — FUSIONS DE FICHES : un alias ne désigne son lieu que par son NOM. Le nom de la fiche écartée
+// (LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES) n'est donc rattaché au nom gardé que si ce nom est UNIQUE parmi les
+// lieux publiés du pays ; sinon l'alias vaudrait pour tous les homonymes (« 平泉 » renvoyait les 15 Tateishi du Japon,
+// « 蓮湖 » les 16 Lianhu de Chine, sans le bon lieu dans les dix premiers résultats).
+test('alias de fusion : seulement quand le nom gardé est unique dans le pays', () => {
+  const bad = [];
+  // Nombre de lieux publiés portant chaque nom gardé (le fichier en compte plusieurs, published ne garde qu'un jeu de noms).
+  const counts = new Map();
+  for(const [cc, rows] of Object.entries(C.SAME_POINT_DUPLICATES).concat(Object.entries(C.LOCAL_SCRIPT_DUPLICATES))){
+    const want = new Set(rows.map(r => r[3]));
+    const m = new Map();
+    eachLine(path.join(DATA, TripData.COUNTRIES[cc].file), l => { const n = nameOf(l); if(want.has(n)) m.set(n, (m.get(n) || 0) + 1); });
+    counts.set(cc, m);
+  }
+  for(const [cc, rows] of Object.entries(C.SAME_POINT_DUPLICATES).concat(Object.entries(C.LOCAL_SCRIPT_DUPLICATES))){
+    for(const [, name, , keptName] of rows){
+      const n = counts.get(cc).get(keptName) || 0;
+      // Le nom de la fiche écartée peut rester publié pour une AUTRE raison (une autre fiche homonyme le porte en nom
+      // alternatif : « zh;东坑;Dongkeng »). Seuls les cas nommés ci-dessous, tous issus de la 15e passe, sont garantis.
+      if(n > 1 && ['平泉', '蓮湖'].includes(name) && aliasSet(cc).has('ja;' + name + ';' + keptName))
+        bad.push(cc + ' : « ' + name + ' » rattaché à « ' + keptName + ' » (' + n + ' homonymes)');
+    }
+  }
+  for(const [cc, l] of [['CN', 'zh;雄鸡埭;Xiongjidai'], ['IR', 'fa;گوانی;Gavānī'], ['JP', 'ja;大馬木;Ō-maki']])
+    if(!aliasSet(cc).has(l)) bad.push(cc + ' : alias de fusion attendu absent ' + JSON.stringify(l));
+  for(const [cc, l] of [['JP', 'ja;平泉;Tateishi'], ['CN', 'zh;蓮湖;Lianhu']])
+    if(aliasSet(cc).has(l)) bad.push(cc + ' : alias de fusion publié malgré les homonymes ' + JSON.stringify(l));
   assert.deepEqual(bad, []);
 });
 
@@ -377,17 +476,25 @@ test('alias et lieux : aucune espace double, ni en tête ni en fin', () => {
 // 14e audit du 19/09/2026 : doublons en écriture locale seule (JP, KR, KP, CN, IR) — chaque fiche écartée a bien son
 // double romanisé publié (sinon l'écarter ferait disparaître le lieu). 15e audit du 19/09/2026 : idem pour les doublons au
 // même point (SAME_POINT_DUPLICATES), et le nom écarté reste trouvable comme alias du lieu gardé (build-all-aliases.js).
+// 16e audit du 20/09/2026 : ce dernier contrôle ne vaut QUE si le nom gardé est unique parmi les lieux publiés du pays.
+// Sinon l'alias vaudrait pour tous les homonymes (« 平泉 » -> les 15 Tateishi du Japon) et il n'est plus écrit : le nom
+// de la fiche écartée n'est alors plus cherchable, limite assumée faute d'un format d'alias désignant un geonameid.
 test('lieux : doublons en écriture locale écartés, lieu romanisé correspondant toujours publié', () => {
   const bad = [];
   for(const table of [C.LOCAL_SCRIPT_DUPLICATES, C.SAME_POINT_DUPLICATES]){
     for(const [cc, rows] of Object.entries(table)){
       const texts = new Set([...aliasSet(cc)].filter(l => l.split(';')[2] !== undefined).map(l => { const p = l.split(';'); return p[1] + '|' + p[2]; }));
+      const want = new Set(rows.map(r => r[3]));
+      const homonyms = new Map();
+      eachLine(path.join(DATA, TripData.COUNTRIES[cc].file), l => { const n = nameOf(l); if(want.has(n)) homonyms.set(n, (homonyms.get(n) || 0) + 1); });
       for(const [id, n, keptId, keptName] of rows){
         if(!C.JUNK_IDS[id] || C.JUNK_IDS[id][0] !== cc) bad.push(cc + ' ' + id + ' ' + n + ' : absent de JUNK_IDS');
         if(!published.get(cc) || !published.get(cc).has(keptName)) bad.push(cc + ' ' + keptId + ' ' + keptName + ' : doublon gardé non publié');
         if(published.get(cc) && published.get(cc).has(n)) bad.push(cc + ' ' + id + ' ' + n + ' : doublon encore publié');
         // « Yanagidamen » (JP 1848564) : aucun nom rattaché à une langue sur sa fiche, ne peut pas devenir un alias.
         if(/[A-Za-z]/.test(n)) continue;
+        // Nom gardé porté par plusieurs lieux publiés : aucun alias attendu (16e audit).
+        if((homonyms.get(keptName) || 0) > 1) continue;
         if(!texts.has(n + '|' + keptName) && !texts.has(n.replace(/市$/, '') + '|' + keptName)) bad.push(cc + ' ' + n + ' : introuvable, aucun alias de ' + keptName);
       }
     }

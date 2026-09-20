@@ -11,7 +11,7 @@ ru;Хан Винь Ен;Khánh Vĩnh Yên
 mn;Хан Вин Йен;Khánh Vĩnh Yên
 ar;خانه فينه ين;Khánh Vĩnh Yên
 km;ខាន់ វិញ យ៉េន;Khánh Vĩnh Yên
-lo;ຄານ​ວິນ​ວຽນ;Khánh Vĩnh Yên
+lo;ຄານວິນວຽນ;Khánh Vĩnh Yên
 th;คานห์ วินห์ เยน;Khánh Vĩnh Yên
 my;ခန်းဗီးယန်း;Khánh Vĩnh Yên
 vi;Yen My;Yên Mỹ

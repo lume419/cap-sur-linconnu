@@ -367,10 +367,18 @@ function cacheSet(map, key, value){
   while(map.size > CACHE_MAX_ENTRIES) map.delete(map.keys().next().value);
 }
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24h
-// Clé de cache normalisée (casse, forme Unicode, espaces) : « Ajaccio », « ajaccio » et « Ajaccio␠» ne font plus
+// Clé de cache normalisée (forme Unicode, espaces) : « Ajaccio », « ajaccio » et « Ajaccio␠» ne font plus
 // trois appels ni trois entrées.
+// 16e audit du 20/09/2026 : la clé n'est PLUS mise entièrement en minuscules. Le nom part tel quel vers Wikipédia, qui
+// n'ignore la casse que sur la PREMIÈRE lettre d'un titre : « tHOIRY » et « Thoiry » sont deux articles différents (le
+// premier n'existe pas). Le résultat VIDE de « tHOIRY » était donc resservi à « Thoiry » — 24 h pour /api/photo, 14 j
+// pour /api/pois. Seule la première lettre est canonisée, exactement comme le fait Wikipédia : clé et titre coïncident
+// (« ajaccio » et « Ajaccio » gardent bien une seule entrée), les autres lettres restent distinctes.
 function cacheKeyPart(s){
-  return String(s == null ? '' : s).normalize('NFC').trim().toLowerCase();
+  const v = String(s == null ? '' : s).normalize('NFC').trim();
+  if(!v) return v;
+  const first = String.fromCodePoint(v.codePointAt(0));
+  return first.toUpperCase() + v.slice(first.length);
 }
 
 // Appels sortants simultanés limités PAR SERVICE (audit du 17/09/2026) : sans limite, une rafale de requêtes (même sous
@@ -453,6 +461,12 @@ function sanitizeLangCode(raw){
 // (« /page/summary/.. » -> « /page/ »). « %2E » n'y change rien : la norme URL le traite aussi comme un point dans ces
 // segments. Refusés : réponse normale (sans photo, sans lieu, sans randonnée) et aucun appel sortant.
 function isDotsOnlyName(name){ return /^[.\s]+$/.test(String(name || '')); }
+
+// Titre d'un AUTRE espace de noms de Wikipédia (« File:… », « Utilisateur:X/brouillon », « Category:… », « Special:… ») :
+// jamais un lieu, et modifiable par n'importe qui — fetchCommuneMonuments les refuse depuis longtemps, /api/photo les
+// envoyait encore tels quels (16e audit du 20/09/2026). Préfixe de lettres suivi de « : », en tête du nom seulement :
+// un vrai nom de commune ou de lieu n'en a pas.
+function isNamespaceTitle(name){ return /^\s*:?\s*\p{L}[\p{L}\p{M} _-]{0,32}\s*:/u.test(String(name || '')); }
 
 // null = pas d'article exploitable (404…) ; exception = échec transitoire (réseau, délai, 429, 5xx, service saturé).
 function fetchWikiSummary(title, lang){
@@ -823,8 +837,22 @@ function matchGalleryImages(items, gallery, excludeWords){
   }
   return result;
 }
+// Nom qui désigne bien un FICHIER de Commons (16e audit du 20/09/2026). Une étiquette OpenStreetMap
+// « wikimedia_commons = .. » (ou « . », ou « Category:Église de X », valeur pourtant courante) produisait une URL
+// Special:FilePath que Commons résout en PAGE HTML — servie ensuite au navigateur comme si c'était une image (et
+// enregistrée telle quelle dans le PDF). Même garde que isDotsOnlyName, plus le refus d'un autre espace de noms
+// (« Category: », « Creator: »… ; le préfixe « File:/Fichier: » est retiré par l'appelant) et d'un nom sans extension.
+function isCommonsFileName(filename){
+  const f = String(filename == null ? '' : filename).trim();
+  if(!f || f.length > 240) return false;
+  if(isDotsOnlyName(f)) return false; // voir isDotsOnlyName : « .. » sort du chemin après normalisation d'URL
+  if(f.indexOf(':') >= 0 || f.indexOf('/') >= 0) return false;
+  return /\.[a-z0-9]{2,5}$/i.test(f); // un vrai nom de fichier Commons se termine par une extension
+}
+// null quand le nom ne désigne pas un fichier : l'appelant n'ajoute alors ni image ni lien.
 function commonsFileUrl(filename){
-  return 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(filename);
+  if(!isCommonsFileName(filename)) return null;
+  return 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(String(filename).trim());
 }
 
 // Même logique d'essais que resolvePlacePhoto : "Nom (Département)" d'abord si connu (convention
@@ -887,7 +915,8 @@ async function fetchAllRealPOIs(lat, lon, name, deptCode, country){
       seen.add(key);
       const file = imageByIdx.get(idx);
       const entry = { name: itemName, type: inferMonumentType(itemName), wikiUrl: wikiResult.pageUrl || null };
-      if(file){ entry.image = commonsFileUrl(file); entry.imageFull = entry.image; }
+      const fileUrl = file ? commonsFileUrl(file) : null; // null : le nom ne désigne pas un fichier (voir commonsFileUrl)
+      if(fileUrl){ entry.image = fileUrl; entry.imageFull = fileUrl; }
       combined.push(entry);
     });
   }
@@ -1078,11 +1107,15 @@ async function fetchRealPOIs(lat, lon){
     // vers l'image brute (déjà utilisée pour `image`).
     const commonsTag = el.tags.wikimedia_commons;
     if(commonsTag){
-      const filename = String(commonsTag).replace(/^(file|fichier):/i, '');
+      const filename = String(commonsTag).replace(/^(file|fichier):/i, '').trim();
+      // Étiquette qui ne désigne pas un fichier (« .. », « Category:… ») : ni image ni lien (16e audit du 20/09/2026,
+      // voir commonsFileUrl) — l'URL produite retombait sur une page HTML servie comme image.
       const url = commonsFileUrl(filename);
-      poi.image = url;
-      poi.imageFull = url;
-      poi.wikiUrl = 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(filename);
+      if(url){
+        poi.image = url;
+        poi.imageFull = url;
+        poi.wikiUrl = 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(filename);
+      }
     }
     // Repli : le tag "wikipedia" (format "langue:Titre") pointe vers un vrai article Wikipédia
     // dédié quand il existe, même sans photo Commons associée — un lien reste préférable à aucun
@@ -1384,22 +1417,30 @@ app.get('/api/pois', async (req, res) => {
 
 app.get('/api/photo', async (req, res) => {
   const name = String(req.query.name || '').normalize('NFC').trim();
-  const dept = String(req.query.dept || '').normalize('NFC').trim().slice(0, 40);
+  const deptRaw = String(req.query.dept || '').normalize('NFC').trim().slice(0, 40);
   // Code pays à deux lettres seulement (2e audit du 17/09/2026) : une valeur libre allongeait la clé de cache.
   const countryRaw = String(req.query.country || '').trim().toUpperCase();
   const country = /^[A-Z]{2}$/.test(countryRaw) ? countryRaw : '';
+  // Code de département canonisé (16e audit du 20/09/2026) : les clés de DEPARTMENTS sont en majuscules (« 2A », « 2B »),
+  // donc « 2a » ne désignait AUCUN département — l'article « Nom (Corse-du-Sud) » n'était pas tenté — alors que la clé de
+  // cache, mise en minuscules, était la même que celle de « 2A ». Deux comportements pour une seule entrée : le résultat
+  // vide de l'un était resservi à l'autre. Comme /api/pois (voir plus haut), la valeur est ramenée à la forme des clés.
+  const deptFr = !country || country === 'FR';
+  const dept = (deptFr && Object.prototype.hasOwnProperty.call(DEPARTMENTS, deptRaw.toUpperCase())) ? deptRaw.toUpperCase() : deptRaw;
   const lang = sanitizeLangCode(req.query.lang);
   if(!name || name.length > 120){
     return res.status(400).json({ error: 'invalid name' });
   }
   // « .. », « . » : pas de photo, aucun appel sortant (voir isDotsOnlyName, 15e audit du 19/09/2026).
-  if(isDotsOnlyName(name)) return res.json({ image: null, imageFull: null, wikiUrl: null, title: null });
+  // « File:… », « Utilisateur:… » : idem (voir isNamespaceTitle, 16e audit du 20/09/2026).
+  if(isDotsOnlyName(name) || isNamespaceTitle(name)) return res.json({ image: null, imageFull: null, wikiUrl: null, title: null });
   // Point de référence (lieu OSM, étape ou commune) et rayon selon sa précision : voir wikiPlaceMatches.
   const nLat = parseFloat(req.query.lat), nLon = parseFloat(req.query.lon);
   const kind = Object.prototype.hasOwnProperty.call(PHOTO_NEAR_KM, req.query.kind) ? req.query.kind : 'stop';
   const near = (isFinite(nLat) && isFinite(nLon) && Math.abs(nLat) <= 90 && Math.abs(nLon) <= 180)
     ? { lat: nLat, lon: nLon, km: PHOTO_NEAR_KM[kind] } : null;
-  // Clé normalisée (voir cacheKeyPart) : le nom envoyé à Wikipédia reste celui reçu, seule la clé ignore la casse.
+  // Clé normalisée (voir cacheKeyPart) : le nom envoyé à Wikipédia reste celui reçu, et la clé garde la casse — seule la
+  // première lettre est canonisée, comme Wikipédia le fait sur ses titres (16e audit du 20/09/2026).
   const cacheKey = cacheKeyPart(name) + '|' + cacheKeyPart(dept) + '|' + country + '|' + lang + '|' + (near ? nLat.toFixed(2) + ',' + nLon.toFixed(2) + ',' + kind : '-');
   const cached = photoCache.get(cacheKey);
   if(cached && (Date.now() - cached.ts) < CACHE_TTL_MS){
@@ -1858,12 +1899,17 @@ function buildTripPdf(doc, trip){
     doc.y = dayTop;
     pdfText(doc, ctx, clip(leg.label, 120), contentX, contentWidth2, { size: 12.5, bold: true, color: PDF_ACCENT_3 });
     if(leg.distanceKm != null && leg.travelTime){
-      const routeWord = leg.ferryInfo ? ' de traversée · ' : ' de route · ';
+      const routeWord = leg.ferryInfo ? ' de traversée' : ' de route';
+      // 16e audit du 20/09/2026 : mêmes bornes que le total de l'en-tête (voir plus haut) pour les distances du texte de
+      // SECOURS d'une étape — « 0 mi » (0,5 à 0,8 km convertis), les valeurs négatives et « 6.21e+307 mi » (1e+308 km)
+      // sortaient encore pour distanceKm comme pour roadKm. Distance écrite seulement si 0 < km < 100000 ET si elle ne
+      // s'arrondit pas à 0 dans l'unité affichée ; sinon rien du tout, sans séparateur orphelin.
+      const legDistText = v => { const n = Number(v); return (isFinite(n) && n > 0 && n < 100000 && pdfDist(n, unit) >= 1) ? pdfDistText(n, unit) : null; };
       // Étape avec traversée : partie par la route jusqu'au port et depuis le port d'arrivée, avant la traversée.
-      const roadKm = Math.round(Number(leg.roadKm));
-      const roadPart = leg.ferryInfo && roadKm > 0 && roadKm < 100000 && leg.roadTime ? '~ ' + clip(leg.roadTime, 20) + ' de route · ' + pdfDistText(Number(leg.roadKm), unit) + ' + ' : '';
-      const km = Number(leg.distanceKm);
-      pdfText(doc, ctx, pdfClientText(lt.route, roadPart + '~ ' + clip(leg.travelTime, 20) + routeWord + (isFinite(km) ? pdfDist(km, unit) : '') + ' ' + unit, 160),
+      const roadDist = leg.ferryInfo && leg.roadTime ? legDistText(leg.roadKm) : null;
+      const roadPart = roadDist ? '~ ' + clip(leg.roadTime, 20) + ' de route · ' + roadDist + ' + ' : '';
+      const legDist = legDistText(leg.distanceKm);
+      pdfText(doc, ctx, pdfClientText(lt.route, roadPart + '~ ' + clip(leg.travelTime, 20) + routeWord + (legDist ? ' · ' + legDist : ''), 160),
         contentX, contentWidth2, { size: 9, color: PDF_INK_SOFT });
     }
     const stopLabel = (isReturn ? 'Retour vers ' : 'Étape mystère : ') + clip(leg.stop, 100) +

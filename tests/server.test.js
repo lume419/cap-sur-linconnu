@@ -7,6 +7,7 @@
 const { test, before, after } = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('fs');
+const vm = require('vm');
 const path = require('path');
 const { startServer } = require('./helpers/server.js');
 const { client, freshIp, missingSecurityHeaders } = require('./helpers/http.js');
@@ -676,5 +677,137 @@ test('15e audit : nom « .. », « . » ou fait de points et d\'espaces -> répo
   await sleep(300);
   assert.ok(srv.outbound(t1, 'wiki').length >= 1, 'aucun appel Wikipédia pour un nom ordinaire');
   assert.ok(srv.outbound(t1, 'wiki').every(c => !/\/summary\/(\.|%2e)/i.test(c.url)));
+  assert.deepEqual(bad, []);
+});
+
+// --------------------------------------------------------------------------------------------- 16e audit du 20/09/2026
+
+// Fonctions PURES de server.js, sans rien démarrer : source extraite (déclarations de premier niveau) et exécutée dans
+// un bac à sable — comme tests/ui.test.js le fait pour app.js. Un nom absent est simplement ignoré (le test échoue
+// alors sur le comportement, pas sur l'extraction).
+function serverFns(names){
+  const lines = fs.readFileSync(path.join(ROOT, 'server.js'), 'utf8').split('\n');
+  const out = [], found = [];
+  for(const n of names){
+    const i = lines.findIndex(l => l.startsWith('function ' + n + '('));
+    if(i < 0) continue;
+    const j = /\}\s*$/.test(lines[i]) ? i : lines.findIndex((l, k) => k > i && l === '}');
+    if(j < i) continue;
+    out.push(lines.slice(i, j + 1).join('\n'));
+    found.push(n);
+  }
+  const ctx = { module: { exports: {} }, console };
+  vm.createContext(ctx);
+  vm.runInContext(out.join('\n') + '\nmodule.exports = { ' + found.join(', ') + ' };', ctx);
+  return ctx.module.exports;
+}
+
+test('16e audit : une étiquette wikimedia_commons qui ne désigne pas un fichier ne produit plus d\'URL d\'image', () => {
+  const F = serverFns(['isDotsOnlyName', 'isCommonsFileName', 'commonsFileUrl']);
+  const call = v => { try { return F.commonsFileUrl(v); } catch(e){ return 'exception ' + e.message; } };
+  const bad = [];
+  // « .. », « . », un espace de noms, un chemin, un nom sans extension : Special:FilePath rendrait une PAGE HTML.
+  for(const v of ['..', '.', ' . ', '...', 'Category:Église de Thoiry', 'Creator:X', 'Category:Thoiry.jpg', 'a/b.jpg', 'Thoiry', '', null]){
+    const u = call(v);
+    if(u !== null) bad.push(JSON.stringify(v) + ' -> ' + JSON.stringify(u));
+  }
+  // Témoins : de vrais noms de fichiers restent acceptés, et le nom est bien encodé dans le chemin.
+  for(const v of ['Thoiry.jpg', 'Église Saint-Pierre (Thoiry).JPG', 'X.png', 'Vue d\'ensemble.jpeg']){
+    const u = call(v);
+    if(!/^https:\/\/commons\.wikimedia\.org\/wiki\/Special:FilePath\/[^\s]+$/.test(String(u))) bad.push('refusé à tort : ' + JSON.stringify(v) + ' -> ' + JSON.stringify(u));
+  }
+  assert.deepEqual(bad, []);
+});
+
+test('16e audit : casse du nom — un résultat vide n\'empoisonne plus le cache d\'une autre casse', { timeout: 180000 }, async () => {
+  // Wikipédia n'ignore la casse que sur la PREMIÈRE lettre d'un titre : « tHOIRY16 » et « Thoiry16 » sont deux articles
+  // différents. Le vide mis en cache pour l'un ne doit plus être servi à l'autre pendant 24 h.
+  const q = n => '/api/photo?name=' + encodeURIComponent(n) + '&lang=fr&lat=45.76&lon=4.83';
+  srv.setMock({ wiki: 'status:404' });
+  const empty = await H.get(q('tHOIRY16'), { ip: freshIp(), timeout: 30000 });
+  assert.equal(empty.status, 200);
+  assert.equal(JSON.parse(empty.body.toString('utf8')).image, null, 'le témoin « tHOIRY16 » devait rester sans photo');
+  srv.setMock({});
+  await sleep(300);
+
+  const t0 = Date.now();
+  const r = await H.get(q('Thoiry16'), { ip: freshIp(), timeout: 30000 });
+  await sleep(300);
+  const j = JSON.parse(r.body.toString('utf8'));
+  assert.ok(j.image, '« Thoiry16 » a reçu le résultat vide mis en cache pour « tHOIRY16 » : ' + JSON.stringify(j));
+  assert.ok(srv.outbound(t0, 'wiki').length >= 1, 'aucun appel Wikipédia pour « Thoiry16 » (entrée de cache partagée avec « tHOIRY16 »)');
+
+  // La seule différence de casse que Wikipédia ignore VRAIMENT (première lettre) partage toujours une entrée : pas de
+  // cache doublé pour rien.
+  const t1 = Date.now();
+  const same = await H.get(q('thoiry16'), { ip: freshIp(), timeout: 30000 });
+  await sleep(300);
+  assert.equal(JSON.parse(same.body.toString('utf8')).image, j.image);
+  assert.deepEqual(srv.outbound(t1, 'wiki'), [], '« thoiry16 » n\'a pas réutilisé l\'entrée de « Thoiry16 »');
+});
+
+test('16e audit : code de département en minuscules (« 2a ») traité comme « 2A »', { timeout: 120000 }, async () => {
+  // « 2a » n'était pas une clé de DEPARTMENTS : la désambiguïsation « Nom (Corse-du-Sud) » n'était pas tentée, alors que
+  // la clé de cache (mise en minuscules) était la même que celle de « 2A ».
+  srv.setMock({});
+  const t0 = Date.now();
+  const r = await H.get('/api/photo?name=Cargese16&lang=fr&dept=2a&country=FR&lat=41.99&lon=8.59', { ip: freshIp(), timeout: 30000 });
+  assert.equal(r.status, 200);
+  await sleep(300);
+  const titles = srv.outbound(t0, 'wiki').map(c => { try { return decodeURIComponent(c.url); } catch(e){ return c.url; } });
+  assert.ok(titles.some(u => u.includes('Cargese16 (Corse-du-Sud)')),
+    '« dept=2a » n\'a pas tenté la désambiguïsation corse : ' + JSON.stringify(titles));
+});
+
+test('16e audit : distances des textes de secours du PDF — jamais « 0 mi », ni négatif, ni 1e+308', { timeout: 120000 }, async () => {
+  const legs = [
+    { label: 'Jour 1', stop: 'A', distanceKm: 0.8, travelTime: '10min' },            // 0,5 mi -> arrondi à 0
+    { label: 'Jour 2', stop: 'B', distanceKm: -50, travelTime: '1h' },               // valeur négative
+    { label: 'Jour 3', stop: 'C', distanceKm: 1e308, travelTime: '2h' },             // 6.21e+307 mi
+    { label: 'Jour 4', stop: 'D', distanceKm: 0, travelTime: '5min' },               // distance nulle
+    { label: 'Jour 5', stop: 'E', distanceKm: 40, travelTime: '3h', roadKm: 0.8, roadTime: '15min',
+      ferryInfo: { route: 'X - Y', amount: 50 } },                                   // partie routière à 0 mi
+    { label: 'Jour 6', stop: 'F', distanceKm: 161, travelTime: '2h' },               // témoin : 100 mi
+    { label: 'Retour', stop: 'Lyon', isReturn: true }
+  ];
+  await sleep(1500);
+  const r = await H.postPatient('/api/export-pdf', { lang: 'fr', city: 'Lyon', distanceUnit: 'mi', stats: { days: 6, totalKm: 1609 }, legs });
+  assert.equal(r.status, 200);
+  const txt = flatText(r.body);
+  const bad = [];
+  if(/(^|[^\d.,])0 mi\b/.test(txt)) bad.push('« 0 mi » présent');
+  if(/-\s*\d+\s*mi\b/.test(txt)) bad.push('distance négative présente');
+  if(/e\+\d{2,}/.test(txt)) bad.push('distance en notation exponentielle présente');
+  // Séparateur orphelin : « de route · » sans rien derrière.
+  if(/de (route|traversée)\s*·\s*(·|$|~)/.test(txt)) bad.push('séparateur « · » sans distance');
+  // Témoins : la durée reste écrite pour ces étapes, et la distance valable est toujours là.
+  for(const w of ['~ 10min de route', '~ 1h de route', '~ 2h de route', '~ 2h de route · 100 mi', '~ 3h de traversée · 25 mi']){
+    if(!txt.includes(w)) bad.push('témoin absent : « ' + w + ' »');
+  }
+  // Partie routière d'une traversée dont la distance s'arrondit à 0 : bloc entier omis, jamais « 15min de route · 0 mi ».
+  if(/15min de route/.test(txt)) bad.push('partie routière à 0 mi conservée');
+  assert.deepEqual(bad, [], txt.slice(0, 900));
+});
+
+test('16e audit : /api/photo refuse les titres d\'un autre espace de noms, sans appel sortant', { timeout: 120000 }, async () => {
+  srv.setMock({});
+  const bad = [];
+  for(const n of ['File:X.jpg', 'Fichier:X.jpg', 'Utilisateur:Bob', 'Category:Foo', 'Spécial:Recherche', 'Discussion:Lyon']){
+    const t0 = Date.now();
+    const r = await H.get('/api/photo?name=' + encodeURIComponent(n) + '&lang=fr&lat=45.76&lon=4.83', { ip: freshIp(), timeout: 30000 });
+    let j = null;
+    try { j = JSON.parse(r.body.toString('utf8')); } catch(e){}
+    if(r.status !== 200 || !j) bad.push(n + ' -> ' + r.status);
+    else if(j.image || j.wikiUrl) bad.push(n + ' -> ' + JSON.stringify(j).slice(0, 120));
+    await sleep(300);
+    const calls = srv.outbound(t0);
+    if(calls.length) bad.push(JSON.stringify(n) + ' : ' + calls.length + ' appel(s) sortant(s), ex. ' + calls[0].url);
+  }
+  // Témoin : un nom ordinaire passe toujours.
+  const t1 = Date.now();
+  const ok = await H.get('/api/photo?name=Lyon16b&lang=fr&lat=45.76&lon=4.83', { ip: freshIp(), timeout: 30000 });
+  assert.equal(ok.status, 200);
+  await sleep(300);
+  if(!srv.outbound(t1, 'wiki').length) bad.push('aucun appel Wikipédia pour un nom ordinaire');
   assert.deepEqual(bad, []);
 });

@@ -1132,6 +1132,7 @@
 
       'error.tooManyRequests': 'Trop de demandes en peu de temps : réessayez dans une minute.',
       'error.serverBusy': 'Le serveur est très sollicité : réessayez dans quelques instants.',
+      'error.network': 'Serveur injoignable : vérifiez votre connexion internet, puis réessayez.',
       'error.drawTimeout': 'Ce tirage prenait trop de temps : essayez un rayon ou une distance plus petits.',
       'error.minDistanceNotFound': "Aucun itinéraire trouvé qui s'éloigne d'au moins {min} tout en respectant vos autres réglages (rayon de retour, distance entre étapes, ferries…). Réduisez la distance minimale ou assouplissez ces réglages.",
       'theme.auto': 'Auto',
@@ -2140,6 +2141,7 @@
 
       'error.tooManyRequests': 'Too many requests in a short time: please try again in a minute.',
       'error.serverBusy': 'The server is very busy: please try again in a few moments.',
+      'error.network': 'Cannot reach the server: check your internet connection, then try again.',
       'error.drawTimeout': 'This draw was taking too long: try a smaller radius or distance.',
       'error.minDistanceNotFound': 'No itinerary found that gets at least {min} away while respecting your other settings (return radius, distance between stops, ferries…). Lower the minimum distance or relax these settings.',
       'theme.auto': 'Auto',
@@ -3148,6 +3150,7 @@
 
       'error.tooManyRequests': 'Demasiadas solicitudes en poco tiempo: inténtalo de nuevo dentro de un minuto.',
       'error.serverBusy': 'El servidor está muy solicitado: inténtalo de nuevo dentro de unos instantes.',
+      'error.network': 'No se puede contactar con el servidor: comprueba tu conexión a internet y vuelve a intentarlo.',
       'error.drawTimeout': 'Este sorteo estaba tardando demasiado: prueba con un radio o una distancia más pequeños.',
       'error.minDistanceNotFound': 'No se ha encontrado ningún itinerario que se aleje al menos {min} respetando tus demás ajustes (radio de vuelta, distancia entre etapas, ferris…). Reduce la distancia mínima o flexibiliza estos ajustes.',
       'theme.auto': 'Auto',
@@ -4156,6 +4159,7 @@
 
       'error.tooManyRequests': 'Demasiados pedidos em pouco tempo: tente novamente dentro de um minuto.',
       'error.serverBusy': 'O servidor está muito solicitado: tente novamente dentro de alguns instantes.',
+      'error.network': 'Não foi possível contactar o servidor: verifique a sua ligação à internet e tente novamente.',
       'error.drawTimeout': 'Este sorteio estava a demorar demasiado: experimente um raio ou uma distância mais pequenos.',
       'error.minDistanceNotFound': 'Não foi encontrado nenhum itinerário que se afaste pelo menos {min} respeitando as suas outras definições (raio de regresso, distância entre etapas, ferries…). Reduza a distância mínima ou flexibilize estas definições.',
       'theme.auto': 'Auto',
@@ -5164,6 +5168,7 @@
 
       'error.tooManyRequests': 'Te veel verzoeken in korte tijd: probeer het over een minuut opnieuw.',
       'error.serverBusy': 'De server is erg druk: probeer het over enkele ogenblikken opnieuw.',
+      'error.network': 'De server is niet bereikbaar: controleer je internetverbinding en probeer het opnieuw.',
       'error.drawTimeout': 'Deze loting duurde te lang: probeer een kleinere straal of afstand.',
       'error.minDistanceNotFound': 'Geen route gevonden die minstens {min} wegvoert en tegelijk je andere instellingen respecteert (terugkeerstraal, afstand tussen etappes, veerboten…). Verlaag de minimumafstand of versoepel deze instellingen.',
       'theme.auto': 'Auto',
@@ -6172,6 +6177,7 @@
 
       'error.tooManyRequests': 'Zu viele Anfragen in kurzer Zeit: Versuche es in einer Minute erneut.',
       'error.serverBusy': 'Der Server ist stark ausgelastet: Versuche es in wenigen Augenblicken erneut.',
+      'error.network': 'Der Server ist nicht erreichbar: Prüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.',
       'error.drawTimeout': 'Diese Auslosung hat zu lange gedauert: Versuche einen kleineren Radius oder eine kürzere Entfernung.',
       'error.minDistanceNotFound': 'Keine Route gefunden, die sich mindestens {min} entfernt und dabei deine übrigen Einstellungen einhält (Rückfahrradius, Entfernung zwischen Etappen, Fähren…). Verringere die Mindestentfernung oder lockere diese Einstellungen.',
       'theme.auto': 'Auto',
@@ -7182,6 +7188,7 @@
 
       'error.tooManyRequests': 'Ze vill Ufroen a kuerzer Zäit: probéier et an enger Minutt nach eng Kéier.',
       'error.serverBusy': 'De Server ass staark iwwerlaascht: probéier et an e puer Momenter nach eng Kéier.',
+      'error.network': 'De Server ass net erreechbar: kuckt Är Internetverbindung no a probéiert et nach eng Kéier.',
       'error.drawTimeout': 'Dës Zéiwung huet ze laang gedauert: probéier e méi klenge Radius oder eng méi kuerz Distanz.',
       'error.minDistanceNotFound': "Keng Streck fonnt, déi sech op d'mannst {min} ewechbeweegt an dobäi Är aner Astellungen respektéiert (Réckradius, Distanz tëscht den Etappen, Fähren…). Reduzéiert d'Mindestdistanz oder lackert dës Astellungen.",
       'theme.auto': 'Auto',
@@ -8192,6 +8199,7 @@
 
       'error.tooManyRequests': 'Troppe richieste in poco tempo: riprova tra un minuto.',
       'error.serverBusy': 'Il server è molto sollecitato: riprova tra qualche istante.',
+      'error.network': 'Server non raggiungibile: controlla la connessione a internet e riprova.',
       'error.drawTimeout': 'Questa estrazione stava impiegando troppo tempo: prova con un raggio o una distanza più piccoli.',
       'error.minDistanceNotFound': 'Nessun itinerario trovato che si allontani di almeno {min} rispettando le altre impostazioni (raggio di ritorno, distanza tra le tappe, traghetti…). Riduci la distanza minima oppure allenta queste impostazioni.',
       'theme.auto': 'Auto',
@@ -9206,6 +9214,7 @@
 
       'error.tooManyRequests': 'Memia bleras dumondas en curt temp: emprova anc ina giada en ina minuta.',
       'error.serverBusy': 'Il server è fitg surchargià: emprova anc ina giada en in pèr mumaints.',
+      'error.network': "Il server n'è betg cuntanschibel: controllai Vossa connexiun a internet ed empruvai anc ina giada.",
       'error.drawTimeout': 'Questa tratga ha durà memia ditg: emprova cun in radius u ina distanza pli pitschna.',
       'error.minDistanceNotFound': "Nagin itinerari chattà che s'allontanescha almain {min} e respectescha tuttina tes auters parameters (radius da retur, distanza tranter las etappas, ferrys…). Reducescha la distanza minimala u allentescha quests parameters.",
       'theme.auto': 'Auto',
@@ -10218,6 +10227,7 @@
 
       'error.tooManyRequests': 'To veel Anfragen in korte Tiet: proböör dat in een Minuut nochmaal.',
       'error.serverBusy': 'De Server hett banni veel to doon: proböör dat in en poor Ogenblicken nochmaal.',
+      'error.network': 'De Server is nich to faten: kiek dien Internetverbinnen na un versöök dat nochmal.',
       'error.drawTimeout': 'Dit Utloosen hett to lang duert: proböör dat mit en lütteren Radius oder Afstand.',
       'error.minDistanceNotFound': 'Keen Reis funnen, de sik tominnst {min} wegmaakt un liekers dien annern Instellen inhollt (Torüchreis-Radius, Afstand twischen de Etappen, Fähren…). Maak de Minimum-Afstand lütter oder maak disse Instellen nich so streng.',
       'theme.auto': 'Auto',
@@ -11232,6 +11242,7 @@
 
       'error.tooManyRequests': 'Přewjele naprašowanjow w krótkim času: spytaj za mjeńšinu hišće raz.',
       'error.serverBusy': 'Serwer je jara přećežany: spytaj za wokomik hišće raz.',
+      'error.network': 'Serwer docpějomny njeje: přepruwujće swoje internetowe zwjazanje a spytajće hišće raz.',
       'error.drawTimeout': 'Tute wupytowanje traješe předołho: spytaj mjeńši radius abo krótšu distancu.',
       'error.minDistanceNotFound': 'Njeje so žana čara namakała, kotraž so znajmjeńša {min} wotdali a při tym twoje druhe nastajenja wobkedźbuje (wróćny radius, distanca mjez etapami, promy…). Pomjeńš minimalnu distancu abo zmjechč tute nastajenja.',
       'theme.auto': 'Awto',
@@ -12247,6 +12258,7 @@
 
       'error.tooManyRequests': 'Tu följ önjfrååge önj kort tidj: pruuwe nochiinsen önj en minuut.',
       'error.serverBusy': 'Di server heet swåår wat tu douen: pruuwe nochiinsen önj en påår uugenblake.',
+      'error.network': 'De server as ei tu beräiken: luke efter dan internetforbaaning an prow noch iinjsen.',
       'error.drawTimeout': 'Dåt lucht düüred tu loong: pruuwe en lätjeren radius of distans.',
       'error.minDistanceNotFound': 'Nian reise fünjen, wat tuminst {min} fuurtfeert an likes dan din öödern iinstelangen iinhäält (trochkamst-radius, distans twesche dai etappen, fähren…). Lütje dan minimum-distans of mååg dö iinstelangen luuser.',
       'theme.auto': 'Auto',
@@ -13259,6 +13271,7 @@
 
       'error.tooManyRequests': 'Tropu rechestas in pagu tempus: torra a proare intre unu minutu.',
       'error.serverBusy': 'Su server est meda impreadu: torra a proare intre pagos momentos.',
+      'error.network': 'Su server non est acuntatàbile: controlla sa connessione a internet e torra a proare.',
       'error.drawTimeout': 'Custa sorte fiat leende tropu tempus: proa cun unu ràdiu o una distàntzia prus pitica.',
       'error.minDistanceNotFound': "Perunu itinerariu agatadu chi s'allontanet de a su mancu {min} rispetende is àteras impostatziones tuas (ràdiu de torrada, distàntzia intre is etapas, traghetos…). Diminui sa distàntzia mìnima o allenta custas impostatziones.",
       'theme.auto': 'Auto',
@@ -14270,6 +14283,7 @@
 
       'error.tooManyRequests': 'Masse richiestis in pôc timp: torne prove ca di un minût.',
       'error.serverBusy': 'Il servidôr al è une vore cjariât: torne prove ca di cualchi moment.',
+      'error.network': 'Il server nol è rivabil: controle la tô conession a internet e torne a provâ.',
       'error.drawTimeout': 'Cheste gjavade a sorte e stave doprant masse timp: prove cuntun rai o une distance plui piçule.',
       'error.minDistanceNotFound': 'Nissun itinerari cjatât che si slontani almancul {min} rispietant lis altris impostazions (rai di tornade, distance tra lis tapis, traghets…). Deduç la distance minime o slargje chestis impostazions.',
       'theme.auto': 'Auto',
@@ -15285,6 +15299,7 @@
 
       'error.tooManyRequests': 'Massa richestes te puech temp: pröa n outa dedò danter n menut.',
       'error.serverBusy': 'L server é dret cruzià: pröa n outa dedò danter pueć momenc.',
+      'error.network': 'L server ne se lascia nia arjonjer: controlea la tua conescion a internet y proa danora.',
       'error.drawTimeout': 'Chësta tirada a sort dorova massa temp: pröa cun n rajo o na distanza plü pitla.',
       'error.minDistanceNotFound': 'Nia giaté n itinerar che se slontana almanco {min} respetan tües atres impostaziuns (rajo de retorn, distanza danter les tapes, traghec…). Manuësc la distanza minima o slarjea chëstes impostaziuns.',
       'theme.auto': 'Auto',
@@ -16297,6 +16312,7 @@
 
       'error.tooManyRequests': 'Wisq talbiet fi żmien qasir: erġa\' pprova fi ftit minuta.',
       'error.serverBusy': 'Is-server għandu ħafna xogħol: erġa\' pprova fi ftit mumenti.',
+      'error.network': 'Is-server ma jistax jintlaħaq: iċċekkja l-konnessjoni tal-internet u erġa pprova.',
       'error.drawTimeout': 'Dan l-ġbid kien qed jieħu wisq ħin: ipprova raġġ jew distanza iżgħar.',
       'error.minDistanceNotFound': "Ma nstab l-ebda itinerarju li jmur mill-inqas {min} 'il bogħod filwaqt li jirrispetta s-settings l-oħra tiegħek (raġġ tar-ritorn, distanza bejn it-tappi, laneċ…). Naqqas id-distanza minima jew irrilassa dawn is-settings.",
       'theme.auto': 'Awto',
@@ -17320,6 +17336,7 @@
 
       'error.tooManyRequests': 'Tròppe domande in pöco tempo: riprovâ tra un menûo.',
       'error.serverBusy': 'U server u l\'é mutu impegnòu: riprovâ tra quarche momentu.',
+      'error.network': 'U server u nun è ragiungìbile: cuntrolà a cunessiun a internet e pruvà turna.',
       'error.drawTimeout': 'Stu tiraggiu u ghe metéva tròppu tempo: provâ cun un raggiu ò una distansa ciù picena.',
       'error.minDistanceNotFound': "Nisciun itinerariu trovòu ch'o s'allontann-e à-a mancu {min} rispetando e atre impostaçioin (raggiu de ritorno, distansa tra e tappe, traghetti…). Diminuisci a distansa mìnima ò allarga ste impostaçioin.",
       'theme.auto': 'Auto',
@@ -18330,6 +18347,7 @@
 
       'error.tooManyRequests': 'Trop d\'d\'mandes en peu d\'temps : êprouvez acouo dans eune minute.',
       'error.serverBusy': 'L\'sèrveux est bein occupé : êprouvez acouo dans quiques moments.',
+      'error.network': "Ou n'peut pon attaindre lé serveux: vérifyis tan branchement à l'întèrnet, pis èrcommenche.",
       'error.drawTimeout': 'Chu tithage-chîn prenait trop d\'temps : êprouvez un rayon ou eune distance pus p\'tits.',
       'error.minDistanceNotFound': "Pon d'itinéthaithe trouvé qui s'êloigne d'au moîns {min} tout en r'spectant vos autres réglages (rayon d'r'tou, distance entre les bonds, bâtés…). Diminuez la distance minimonm ou êlarguissez ces réglages.",
       'theme.auto': 'Auto',
@@ -19344,6 +19362,7 @@
 
       'error.tooManyRequests': 'Trop d\'d\'mandes en p\'tit d\'temps : êprouviez accouo dans eune minute.',
       'error.serverBusy': 'L\'sèrveur est bein occupé : êprouviez accouo dans quiques moments.',
+      'error.network': "Ou n'peut pas attaindre l'serveux: vérifyis tan branchement à l'întèrnet, pis r'cominche.",
       'error.drawTimeout': 'Ch\'tithage-chin prenait trop d\'temps : êprouviez un rayon ou eune distance pus p\'tits.',
       'error.minDistanceNotFound': "Pon d'itinéraithe trouvé qui s'êloigne d'au mens {min} tout en r'spectant vos autres réglages (rayon d'r'vénue, distance entre les bonds, batés…). Amoindraissiez la distance minimum ou êlarguissiez ces réglages.",
       'theme.auto': 'Auto',
@@ -20360,6 +20379,7 @@
 
       'error.tooManyRequests': 'Za wiele zapitań w krótczim czasu: sprobùjta znowa za minutã.',
       'error.serverBusy': 'Serwer je baro òbłożony: sprobùjta znowa za chwilkã.',
+      'error.network': 'Serwer je nieòsygalny: sprôwdzë swòje jinternetowé sparłãczenié ë spróbùjë jesz rôz.',
       'error.drawTimeout': 'To losowanié trwało za dłëgò: sprobùjta mniészi prómień abò mniészą dalekòsc.',
       'error.minDistanceNotFound': 'Nie nalazło sã żódnej trasë, co jidze przënômni {min} dalek ë przestrzégô wastnëch jinszich nastôwów (prómień pòwrotu, dalekòsc midzë krokama, promë…). Zmiészëta minimalną dalekòsc abò złagòdzëta te nastôwë.',
       'theme.auto': 'Auto',
@@ -21374,6 +21394,7 @@
 
       'error.tooManyRequests': 'Барз велё запытів за короткый час: спробуй знову за минуту.',
       'error.serverBusy': 'Сервер є барз перетяженый: спробуй знову за хвильку.',
+      'error.network': 'Сервер ся не дасть досягнути: провірьте своє інтернетове зъєдинїня і спробуйте зась.',
       'error.drawTimeout': 'Тото лосованя тривало задовго: спробуй менший радіус або меншу дистанцію.',
       'error.minDistanceNotFound': 'Не найдена жадна траса, котра бы ся оддалила принайменше на {min} і притім дотримала вашы іншы наставлїня (радіус повороту, дистанція меджи кроками, пороми…). Зменшіть мінімальну дистанцію або ослабте тоты наставлїня.',
       'theme.auto': 'Авто',
@@ -22393,6 +22414,7 @@
 
       'error.tooManyRequests': 'Preveć cereri în puțin timp: încearcă din nou într-un minut.',
       'error.serverBusy': 'Serveru e foarte ocupat: încearcă din nou în câteva momente.',
+      'error.network': "Serveru nu se poate ajunje: control't legătura ta la internet ši prova iera.",
       'error.drawTimeout': 'Ăst sorț a durat preveć: încearcă o rază sau o distanță mai mică.',
       'error.minDistanceNotFound': 'Nu s-a găsit niciun traseu care să meargă la cel puțin {min} respectând celelalte setări (raza de întoarcere, distanța între etape, feriboturi…). Micșorează distanța minimă sau relaxează aceste setări.',
       'theme.auto': 'Auto',
@@ -23409,6 +23431,7 @@
 
       'error.tooManyRequests': 'Massa sol·licituds en poc temps: torna-ho a provar d\'aquí a un minut.',
       'error.serverBusy': 'El servidor està molt sol·licitat: torna-ho a provar d\'aquí a uns instants.',
+      'error.network': 'No es pot contactar amb el servidor: comprova la teva connexió a internet i torna-ho a provar.',
       'error.drawTimeout': 'Aquest sorteig trigava massa: prova amb un radi o una distància més petits.',
       'error.minDistanceNotFound': "No s'ha trobat cap itinerari que s'allunyi com a mínim {min} respectant la resta d'ajustos (radi de tornada, distància entre etapes, ferris…). Redueix la distància mínima o flexibilitza aquests ajustos.",
       'theme.auto': 'Auto',
@@ -24419,6 +24442,7 @@
 
       'error.tooManyRequests': 'Eskaera gehiegi denbora laburrean: saiatu berriro minutu bat barru.',
       'error.serverBusy': 'Zerbitzaria oso lanpetuta dago: saiatu berriro une batzuk barru.',
+      'error.network': 'Ezin da zerbitzariarekin konektatu: egiaztatu interneteko konexioa eta saiatu berriro.',
       'error.drawTimeout': 'Zozketa honek denbora gehiegi behar zuen: saiatu erradio edo distantzia txikiagoarekin.',
       'error.minDistanceNotFound': 'Ez da aurkitu gutxienez {min} urruntzen den ibilbiderik zure gainerako ezarpenak errespetatuz (itzulera-erradioa, etapen arteko distantzia, ferryak…). Murriztu gutxieneko distantzia edo malgutu ezarpen horiek.',
       'theme.auto': 'Auto',
@@ -25428,6 +25452,7 @@
 
       'error.tooManyRequests': 'Demasiadas solicitudes en pouco tempo: téntao de novo dentro dun minuto.',
       'error.serverBusy': 'O servidor está moi solicitado: téntao de novo dentro duns intres.',
+      'error.network': 'Non se pode contactar co servidor: comproba a túa conexión a internet e téntao de novo.',
       'error.drawTimeout': 'Este sorteo estaba a tardar demasiado: proba cun raio ou unha distancia máis pequenos.',
       'error.minDistanceNotFound': 'Non se atopou ningún itinerario que se afaste polo menos {min} respectando os teus outros axustes (raio de volta, distancia entre etapas, ferris…). Reduce a distancia mínima ou flexibiliza estes axustes.',
       'theme.auto': 'Auto',
@@ -26441,6 +26466,7 @@
 
       'error.tooManyRequests': 'Tròp de demandas en pauc de temps: ensaja tornarmai dins una minuta.',
       'error.serverBusy': 'Lo servidor es fòrça solicitat: ensaja tornarmai dins qualques moments.',
+      'error.network': 'Se pòt pas contactar lo servidor: verificatz vòstra connexion a internet e tornatz ensajar.',
       'error.drawTimeout': 'Aqueste tirat a sòrt preniá tròp de temps: ensaja un rai o una distància mai pichons.',
       'error.minDistanceNotFound': "Cap d'itinerari trobat que s'alunhe d'almens {min} en respectant tos autres reglatges (rai de retorn, distància entre las etapas, ferris…). Demesís la distància minimala o assopla aqueles reglatges.",
       'theme.auto': 'Auto',
@@ -27453,6 +27479,7 @@
 
       'error.tooManyRequests': 'Re a c\'houlennoù e nebeut a amzer: klaskit en-dro a-benn ur vunutenn.',
       'error.serverBusy': 'Soubinet eo ar servijer: klaskit en-dro a-benn un nebeud prantadoù.',
+      'error.network': "N'eus ket tu da dizhout ar servijer: gwiriit ho kevreadenn internet ha klaskit en-dro.",
       'error.drawTimeout': 'Re hir e oa an tennañ d\'ar sord-mañ: klaskit gant ur skin pe un hed bihanoc\'h.',
       'error.minDistanceNotFound': "N'eus bet kavet hent ebet a bellafe d'an nebeutañ {min} en ur zoujañ d'ho arventennoù all (skin distro, hed etre ar poentoù, bagoù-treizh…). Digreskit an hed izelañ pe gwevnit an arventennoù-se.",
       'theme.auto': 'Emgefre',
@@ -28463,6 +28490,7 @@
 
       'error.tooManyRequests': 'Troppu dumande in pocu tempu: pruvate torna trà un minutu.',
       'error.serverBusy': 'U servitore hè assai sullicitatu: pruvate torna trà qualchì stonda.',
+      'error.network': 'U servu ùn hè micca righjuntu: cuntrollate a vostra cunnessione à internet è pruvate torna.',
       'error.drawTimeout': 'Stu sorteghju pigliava troppu tempu: pruvate cù un raghju o una distanza più chjuchi.',
       'error.minDistanceNotFound': "Nisun itinerariu trovu chì s'alluntanessi d'almenu {min} rispettendu i vostri altri paràmetri (raghju di ritornu, distanza trà e tappe, traghji…). Diminuite a distanza minima o allargate sti paràmetri.",
       'theme.auto': 'Auto',
@@ -29473,6 +29501,7 @@
 
       'error.tooManyRequests': 'Demasiados pedidos an pouco tiempo: anda outra beç daqui a un minuto.',
       'error.serverBusy': 'L serbidor stá mui ocupado: anda outra beç daqui a uns sturdidos.',
+      'error.network': 'Nun se puode chegar al servidor: berifica la tua ligaçon a la anternete i tenta outra beç.',
       'error.drawTimeout': 'Este sorteio staba a demorar demasiado: sprimenta un raio ó ua distança mais pequeinos.',
       'error.minDistanceNotFound': "Nun se achou nengun itinerário que s'afaste al menos {min} respeitando las outras cunfiguraçones (raio de buolta, distança antre etapas, barcos…). Deminui la distança mínima ó alarga essas cunfiguraçones.",
       'theme.auto': 'Auto',
@@ -30487,6 +30516,7 @@
 
       'error.tooManyRequests': 'An iomarca iarratas i mbeagán ama: bain triail eile as i gceann nóiméid.',
       'error.serverBusy': 'Tá an freastalaí an-ghnóthach: bain triail eile as i gceann cúpla nóiméad.',
+      'error.network': 'Ní féidir teagmháil a dhéanamh leis an bhfreastalaí: seiceáil do cheangal idirlín agus bain triail eile as.',
       'error.drawTimeout': 'Bhí an crannchur seo ag tógáil rófhada: bain triail as ga nó achar níos lú.',
       'error.minDistanceNotFound': 'Níor aimsíodh aon chúrsa a théann {min} ar a laghad ar shiúl agus do shocruithe eile á n-urramú (ga fillte, achar idir stadanna, farantóirí…). Laghdaigh an íosachar nó scaoil na socruithe sin.',
       'theme.auto': 'Uath',
@@ -31502,6 +31532,7 @@
 
       'error.tooManyRequests': 'Rouyr aghinyn ayns tammylt beg: prow reesht ayns minnid.',
       'error.serverBusy': 'Ta\'n frithailagh feer ghoaldagh: prow reesht ayns tammylt beg.',
+      'error.network': 'Cha nod eh roshtyn er y ghreie-shirveish: jeeagh er dty chiangley eddyr-voggyl as prow reesht.',
       'error.drawTimeout': 'Va\'n reih shoh goaill rouyr traa: prow kerrin ny foddaghys ny sloo.',
       'error.minDistanceNotFound': 'Cha dooar cuirse erbee ta goll ec y chooid sloo {min} ersooyl as ny reaghyssyn elley ayd y chooilleeney (kerrin chyndaa, foddaghys eddyr chessyn, baatyn…). Sloo yn foddaghys sloo, ny jean ny reaghyssyn shoh ny sloo creoi.',
       'theme.auto': 'Auto',
@@ -32512,6 +32543,7 @@
 
       'error.tooManyRequests': 'Gormod o geisiadau mewn byr amser: ceisiwch eto ymhen munud.',
       'error.serverBusy': 'Mae\'r gweinydd yn brysur iawn: ceisiwch eto ymhen ychydig eiliadau.',
+      'error.network': 'Methu cyrraedd y gweinydd: gwiriwch eich cysylltiad rhyngrwyd a rhowch gynnig arall arni.',
       'error.drawTimeout': 'Roedd y dewis hwn yn cymryd gormod o amser: rhowch gynnig ar radiws neu bellter llai.',
       'error.minDistanceNotFound': "Ni chafwyd hyd i lwybr sy'n mynd o leiaf {min} i ffwrdd gan barchu eich gosodiadau eraill (radiws dychwelyd, pellter rhwng arosfannau, fferïau…). Lleihewch y pellter lleiaf neu llaciwch y gosodiadau hyn.",
       'theme.auto': 'Awto',
@@ -33522,6 +33554,7 @@
 
       'error.tooManyRequests': 'Cus a chus iarrtasan ann an ùine ghoirid: feuch a-rithist an ceann mionaid.',
       'error.serverBusy': 'Tha am frithealaiche glè thrang: feuch a-rithist an ceann greiseag.',
+      'error.network': 'Cha ghabh am frithealaiche ruigsinn: thoir sùil air a cheangal-eadarlìn agad is feuch a-rithist.',
       'error.drawTimeout': 'Bha an taghadh seo a\' toirt cus ùine: feuch rèidhis no astar nas lugha.',
       'error.minDistanceNotFound': 'Cha deach slighe a lorg a thèid co-dhiù {min} air falbh agus a ghèilleas do na roghainnean eile agad (rèidhis tillidh, astar eadar stadan, aiseagan…). Lùghdaich an t-astar as lugha no fuasgail na roghainnean seo.',
       'theme.auto': 'Fèin-obrachail',
@@ -34533,6 +34566,7 @@
 
       'error.tooManyRequests': 'Re a govynnow yn berr a dermyn: assayewgh arta a-berth yn mynysen.',
       'error.serverBusy': 'An servyor yw pur vysi: assayewgh arta a-berth yn nebes prysyow.',
+      'error.network': 'Ny yllir drehedhes an servyer: checkya agas kesstagenn kesrosweyth ha assayewgh arta.',
       'error.drawTimeout': 'An dewis ma a gemeri re a dermyn: assayewgh radius po hyrnedh le.',
       'error.minDistanceNotFound': "Ny veu kevys fordh vyth a wra mos dhe'n lyha {min} dhe-ves ha sevel orth agas settyansow erel (radius dehweles, hyrnedh ynter savow, gorholyon…). Leheugh an hyrnedh lyha po lowsyewgh an settyansow ma.",
       'theme.auto': 'Auto',
@@ -35545,6 +35579,7 @@
 
       'error.tooManyRequests': 'Ower mony requests in a wee while: try again in a minute.',
       'error.serverBusy': 'The server\'s awfy thrang: try again in a wee while.',
+      'error.network': 'Canna win at the server: check yer internet connection, syne gie it anither shot.',
       'error.drawTimeout': 'This drawin wis takkin ower lang: try a smawer radius or distance.',
       'error.minDistanceNotFound': 'Nae route fund that gets at least {min} awa while keepin tae yer ither settins (return radius, distance atween staps, ferries…). Lower the minimum distance or slacken aff thir settins.',
       'theme.auto': 'Auto',
@@ -36555,6 +36590,7 @@
 
       'error.tooManyRequests': 'Příliš mnoho požadavků v krátké době: zkuste to znovu za minutu.',
       'error.serverBusy': 'Server je velmi vytížený: zkuste to znovu za chvíli.',
+      'error.network': 'Server je nedostupný: zkontrolujte připojení k internetu a zkuste to znovu.',
       'error.drawTimeout': 'Toto losování trvalo příliš dlouho: zkuste menší okruh nebo kratší vzdálenost.',
       'error.minDistanceNotFound': 'Nenalezena žádná trasa, která by se vzdálila alespoň o {min} a zároveň respektovala vaše ostatní nastavení (okruh návratu, vzdálenost mezi zastávkami, trajekty…). Snižte minimální vzdálenost nebo tato nastavení uvolněte.',
       'theme.auto': 'Auto',
@@ -37564,6 +37600,7 @@
 
       'error.tooManyRequests': 'Zbyt wiele żądań w krótkim czasie: spróbuj ponownie za minutę.',
       'error.serverBusy': 'Serwer jest bardzo obciążony: spróbuj ponownie za chwilę.',
+      'error.network': 'Serwer jest nieosiągalny: sprawdź połączenie z internetem i spróbuj ponownie.',
       'error.drawTimeout': 'To losowanie trwało zbyt długo: spróbuj z mniejszym promieniem lub mniejszą odległością.',
       'error.minDistanceNotFound': 'Nie znaleziono trasy, która oddala się o co najmniej {min} i jednocześnie spełnia pozostałe ustawienia (promień powrotu, odległość między przystankami, promy…). Zmniejsz minimalną odległość lub złagodź te ustawienia.',
       'theme.auto': 'Auto',
@@ -38573,6 +38610,7 @@
 
       'error.tooManyRequests': 'Príliš veľa požiadaviek v krátkom čase: skúste to znova o minútu.',
       'error.serverBusy': 'Server je veľmi vyťažený: skúste to znova o chvíľu.',
+      'error.network': 'Server je nedostupný: skontrolujte pripojenie na internet a skúste to znova.',
       'error.drawTimeout': 'Toto žrebovanie trvalo príliš dlho: skúste menší okruh alebo kratšiu vzdialenosť.',
       'error.minDistanceNotFound': 'Nenašla sa žiadna trasa, ktorá by sa vzdialila aspoň o {min} a zároveň rešpektovala vaše ostatné nastavenia (okruh návratu, vzdialenosť medzi zastávkami, trajekty…). Znížte minimálnu vzdialenosť alebo tieto nastavenia uvoľnite.',
       'theme.auto': 'Auto',
@@ -39583,6 +39621,7 @@
 
       'error.tooManyRequests': 'Túl sok kérés rövid idő alatt: próbáld újra egy perc múlva.',
       'error.serverBusy': 'A szerver nagyon leterhelt: próbáld újra néhány pillanat múlva.',
+      'error.network': 'A kiszolgáló nem érhető el: ellenőrizze az internetkapcsolatát, majd próbálja újra.',
       'error.drawTimeout': 'Ez a sorsolás túl sokáig tartott: próbálj kisebb sugarat vagy távolságot.',
       'error.minDistanceNotFound': 'Nem található olyan útvonal, amely legalább {min} távolságra eltávolodna, és közben megfelelne a többi beállításodnak (visszatérési sugár, megállók közti távolság, kompok…). Csökkentsd a minimális távolságot, vagy lazíts ezeken a beállításokon.',
       'theme.auto': 'Auto',
@@ -40593,6 +40632,7 @@
 
       'error.tooManyRequests': 'Preveč zahtev v kratkem času: poskusite znova čez minuto.',
       'error.serverBusy': 'Strežnik je zelo obremenjen: poskusite znova čez nekaj trenutkov.',
+      'error.network': 'Strežnik ni dosegljiv: preverite internetno povezavo in poskusite znova.',
       'error.drawTimeout': 'To žrebanje je trajalo predolgo: poskusite z manjšim radijem ali krajšo razdaljo.',
       'error.minDistanceNotFound': 'Ni bilo mogoče najti poti, ki bi se oddaljila vsaj {min} in hkrati upoštevala vaše druge nastavitve (radij vrnitve, razdalja med postajami, trajekti…). Zmanjšajte najmanjšo razdaljo ali omilite te nastavitve.',
       'theme.auto': 'Samodejno',
@@ -41604,6 +41644,7 @@
 
       'error.tooManyRequests': 'Previše zahtjeva u kratkom vremenu: pokušajte ponovno za minutu.',
       'error.serverBusy': 'Poslužitelj je jako opterećen: pokušajte ponovno za nekoliko trenutaka.',
+      'error.network': 'Poslužitelj nije dostupan: provjerite internetsku vezu i pokušajte ponovno.',
       'error.drawTimeout': 'Ovo izvlačenje trajalo je predugo: pokušajte s manjim radijusom ili udaljenošću.',
       'error.minDistanceNotFound': 'Nije pronađena ruta koja se udaljava barem {min}, a poštuje vaše ostale postavke (radijus povratka, udaljenost između postaja, trajekti…). Smanjite minimalnu udaljenost ili ublažite te postavke.',
       'theme.auto': 'Auto',
@@ -42617,6 +42658,7 @@
 
       'error.tooManyRequests': 'Previše zahtjeva u kratkom vremenu: pokušajte ponovo za minutu.',
       'error.serverBusy': 'Server je jako opterećen: pokušajte ponovo za nekoliko trenutaka.',
+      'error.network': 'Server nije dostupan: provjerite internetsku vezu i pokušajte ponovo.',
       'error.drawTimeout': 'Ovo izvlačenje je trajalo predugo: pokušajte s manjim radijusom ili udaljenošću.',
       'error.minDistanceNotFound': 'Nije pronađena ruta koja se udaljava barem {min}, a poštuje vaše ostale postavke (radijus povratka, udaljenost između stanica, trajekti…). Smanjite minimalnu udaljenost ili ublažite te postavke.',
       'theme.auto': 'Auto',
@@ -43631,6 +43673,7 @@
 
       'error.tooManyRequests': 'Превише захтева у кратком времену: покушајте поново за минут.',
       'error.serverBusy': 'Сервер је веома оптерећен: покушајте поново за неколико тренутака.',
+      'error.network': 'Сервер није доступан: проверите интернет везу и покушајте поново.',
       'error.drawTimeout': 'Ово извлачење је трајало предуго: покушајте са мањим радијусом или удаљеношћу.',
       'error.minDistanceNotFound': 'Није пронађена рута која се удаљава бар {min}, а поштује ваша остала подешавања (радијус повратка, удаљеност између станица, трајекти…). Смањите минималну удаљеност или ублажите та подешавања.',
       'theme.auto': 'Ауто',
@@ -44641,6 +44684,7 @@
 
       'error.tooManyRequests': 'For mange forespørgsler på kort tid: prøv igen om en minut.',
       'error.serverBusy': 'Serveren er meget belastet: prøv igen om et øjeblik.',
+      'error.network': 'Serveren kan ikke nås: tjek din internetforbindelse, og prøv igen.',
       'error.drawTimeout': 'Denne udtrækning tog for lang tid: prøv en mindre radius eller afstand.',
       'error.minDistanceNotFound': 'Ingen rute fundet, der kommer mindst {min} væk og samtidig overholder dine øvrige indstillinger (hjemkomstradius, afstand mellem stop, færger…). Sænk minimumsafstanden, eller løsn disse indstillinger.',
       'theme.auto': 'Auto',
@@ -45660,6 +45704,7 @@
 
       'error.tooManyRequests': 'For mange forespørsler på kort tid: prøv igjen om et minutt.',
       'error.serverBusy': 'Serveren er svært belastet: prøv igjen om noen øyeblikk.',
+      'error.network': 'Serveren kan ikke nås: sjekk internettforbindelsen din, og prøv på nytt.',
       'error.drawTimeout': 'Denne trekningen tok for lang tid: prøv en mindre radius eller avstand.',
       'error.minDistanceNotFound': 'Fant ingen rute som kommer minst {min} unna og samtidig respekterer de andre innstillingene dine (hjemkomstradius, avstand mellom stopp, ferger…). Senk minimumsavstanden, eller lemp på disse innstillingene.',
       'theme.auto': 'Auto',
@@ -46674,6 +46719,7 @@
 
       'error.tooManyRequests': 'För många förfrågningar på kort tid: försök igen om en minut.',
       'error.serverBusy': 'Servern är hårt belastad: försök igen om en stund.',
+      'error.network': 'Servern kan inte nås: kontrollera din internetanslutning och försök igen.',
       'error.drawTimeout': 'Denna dragning tog för lång tid: prova en mindre radie eller ett kortare avstånd.',
       'error.minDistanceNotFound': 'Ingen rutt hittades som kommer minst {min} bort och samtidigt följer dina övriga inställningar (hemkomstradie, avstånd mellan stopp, färjor…). Sänk minimiavståndet, eller lätta på dessa inställningar.',
       'theme.auto': 'Auto',
@@ -47689,6 +47735,7 @@
 
       'error.tooManyRequests': 'Liian monta pyyntöä lyhyessä ajassa: yritä uudelleen minuutin kuluttua.',
       'error.serverBusy': 'Palvelin on hyvin kuormittunut: yritä uudelleen hetken kuluttua.',
+      'error.network': 'Palvelimeen ei saada yhteyttä: tarkista internetyhteytesi ja yritä uudelleen.',
       'error.drawTimeout': 'Tämä arvonta kesti liian kauan: kokeile pienempää sädettä tai etäisyyttä.',
       'error.minDistanceNotFound': 'Ei löytynyt reittiä, joka veisi vähintään {min} päähän ja noudattaisi silti muita asetuksiasi (paluusäde, pysähdysten välinen etäisyys, lautat…). Pienennä vähimmäisetäisyyttä tai löysää näitä asetuksia.',
       'theme.auto': 'Auto',
@@ -48710,6 +48757,7 @@
 
       'error.tooManyRequests': 'Shumë kërkesa në një kohë të shkurtër: provoni përsëri pas një minute.',
       'error.serverBusy': 'Serveri është shumë i ngarkuar: provoni përsëri pas pak çastesh.',
+      'error.network': 'Serveri nuk arrihet: kontrolloni lidhjen tuaj me internetin dhe provoni sërish.',
       'error.drawTimeout': 'Ky short po zgjaste shumë: provoni një rreze ose distancë më të vogël.',
       'error.minDistanceNotFound': 'Nuk u gjet asnjë itinerar që largohet të paktën {min} duke respektuar cilësimet e tjera (rrezja e kthimit, distanca ndërmjet ndalesave, tragetet…). Uleni distancën minimale ose lehtësoni këto cilësime.',
       'theme.auto': 'Auto',
@@ -49733,6 +49781,7 @@
 
       'error.tooManyRequests': 'Previše zahtjeva u kratkom vremenu: pokušajte ponovo za minut.',
       'error.serverBusy': 'Server je jako opterećen: pokušajte ponovo za nekoliko trenutaka.',
+      'error.network': 'Server nije dostupan: provjerite internet vezu i pokušajte ponovo.',
       'error.drawTimeout': 'Ovo izvlačenje je trajalo predugo: pokušajte s manjim radijusom ili udaljenošću.',
       'error.minDistanceNotFound': 'Nije pronađena ruta koja se udaljava barem {min}, a poštuje vaše ostale postavke (radijus povratka, udaljenost između stanica, trajekti…). Smanjite minimalnu udaljenost ili ublažite te postavke.',
       'theme.auto': 'Auto',
@@ -50751,6 +50800,7 @@
 
       'error.tooManyRequests': 'Премногу барања за кратко време: обидете се повторно за една минута.',
       'error.serverBusy': 'Серверот е многу оптоварен: обидете се повторно за неколку моменти.',
+      'error.network': 'Серверот е недостапен: проверете ја интернет врската и обидете се повторно.',
       'error.drawTimeout': 'Ова извлекување траеше предолго: обидете се со помал радиус или растојание.',
       'error.minDistanceNotFound': 'Не е пронајдена рута што се оддалечува барем {min}, а ги почитува другите поставки (радиус на враќање, растојание меѓу етапите, трајекти…). Намалете го минималното растојание или олабавете ги овие поставки.',
       'theme.auto': 'Авто',
@@ -51766,6 +51816,7 @@
 
       'error.tooManyRequests': 'Prea multe cereri într-un timp scurt: încercați din nou peste un minut.',
       'error.serverBusy': 'Serverul este foarte solicitat: încercați din nou în câteva clipe.',
+      'error.network': 'Serverul nu poate fi contactat: verificați conexiunea la internet și încercați din nou.',
       'error.drawTimeout': 'Această tragere la sorți dura prea mult: încercați o rază sau o distanță mai mică.',
       'error.minDistanceNotFound': 'Nu s-a găsit niciun traseu care să se îndepărteze cu cel puțin {min} respectând celelalte setări (raza de întoarcere, distanța între etape, feriboturi…). Reduceți distanța minimă sau relaxați aceste setări.',
       'theme.auto': 'Auto',
@@ -52781,6 +52832,7 @@
 
       'error.tooManyRequests': 'Πάρα πολλά αιτήματα σε σύντομο χρόνο: δοκιμάστε ξανά σε ένα λεπτό.',
       'error.serverBusy': 'Ο διακομιστής είναι πολύ φορτωμένος: δοκιμάστε ξανά σε λίγες στιγμές.',
+      'error.network': 'Δεν είναι δυνατή η σύνδεση με τον διακομιστή: ελέγξτε τη σύνδεσή σας στο διαδίκτυο και δοκιμάστε ξανά.',
       'error.drawTimeout': 'Αυτή η κλήρωση διαρκούσε πολύ: δοκιμάστε μικρότερη ακτίνα ή απόσταση.',
       'error.minDistanceNotFound': 'Δεν βρέθηκε διαδρομή που να απομακρύνεται τουλάχιστον {min} τηρώντας τις υπόλοιπες ρυθμίσεις σας (ακτίνα επιστροφής, απόσταση μεταξύ στάσεων, φέρι…). Μειώστε την ελάχιστη απόσταση ή χαλαρώστε αυτές τις ρυθμίσεις.',
       'theme.auto': 'Αυτόματο',
@@ -53798,6 +53850,7 @@
 
       'error.tooManyRequests': 'Твърде много заявки за кратко време: опитайте отново след минута.',
       'error.serverBusy': 'Сървърът е силно натоварен: опитайте отново след няколко мига.',
+      'error.network': 'Сървърът е недостъпен: проверете интернет връзката си и опитайте отново.',
       'error.drawTimeout': 'Жребият отнемаше твърде много време: опитайте с по-малък радиус или разстояние.',
       'error.minDistanceNotFound': 'Не е намерен маршрут, който да се отдалечава на най-малко {min} и да спазва останалите ви настройки (радиус за връщане, разстояние между спирките, фериботи…). Намалете минималното разстояние или облекчете тези настройки.',
       'theme.auto': 'Авто',
@@ -54812,6 +54865,7 @@
 
       'error.tooManyRequests': 'Pārāk daudz pieprasījumu īsā laikā: mēģiniet vēlreiz pēc minūtes.',
       'error.serverBusy': 'Serveris ir ļoti noslogots: mēģiniet vēlreiz pēc brīža.',
+      'error.network': 'Serveris nav sasniedzams: pārbaudiet interneta savienojumu un mēģiniet vēlreiz.',
       'error.drawTimeout': 'Šī izloze ilga pārāk ilgi: izmēģiniet mazāku rādiusu vai attālumu.',
       'error.minDistanceNotFound': 'Netika atrasts maršruts, kas attālinātos vismaz {min} un vienlaikus ievērotu pārējos iestatījumus (atgriešanās rādiuss, attālums starp pieturas punktiem, prāmji…). Samaziniet minimālo attālumu vai atvieglojiet šos iestatījumus.',
       'theme.auto': 'Auto',
@@ -55825,6 +55879,7 @@
 
       'error.tooManyRequests': 'Per daug užklausų per trumpą laiką: bandykite dar kartą po minutės.',
       'error.serverBusy': 'Serveris labai apkrautas: bandykite dar kartą po kelių akimirkų.',
+      'error.network': 'Serveris nepasiekiamas: patikrinkite interneto ryšį ir bandykite dar kartą.',
       'error.drawTimeout': 'Šis traukimas užtruko per ilgai: pabandykite mažesnį spindulį arba atstumą.',
       'error.minDistanceNotFound': 'Nerasta maršruto, kuris nutoltų bent {min} ir kartu atitiktų kitus jūsų nustatymus (grįžimo spindulys, atstumas tarp stotelių, keltai…). Sumažinkite minimalų atstumą arba sušvelninkite šiuos nustatymus.',
       'theme.auto': 'Auto',
@@ -56839,6 +56894,7 @@
 
       'error.tooManyRequests': 'Liiga palju päringuid lühikese aja jooksul: proovige minuti pärast uuesti.',
       'error.serverBusy': 'Server on väga koormatud: proovige mõne hetke pärast uuesti.',
+      'error.network': 'Server ei ole kättesaadav: kontrollige internetiühendust ja proovige uuesti.',
       'error.drawTimeout': 'See loosimine võttis liiga kaua aega: proovige väiksemat raadiust või vahemaad.',
       'error.minDistanceNotFound': 'Ei leitud marsruuti, mis kaugeneks vähemalt {min} ja järgiks samal ajal teie muid seadeid (tagasisõidu raadius, vahemaa peatuste vahel, praamid…). Vähendage minimaalset vahemaad või leevendage neid seadeid.',
       'theme.auto': 'Auto',
@@ -57856,6 +57912,7 @@
 
       'error.tooManyRequests': 'Par daudz pīprasejumu eisā laikā: paraugit vēļreiz piec minutis.',
       'error.serverBusy': 'Serveris ir cīši nūslūgōts: paraugit vēļreiz piec breiža.',
+      'error.network': 'Servers nav sasnīdzams: puorbaudit interneta savīnuojumu i myginit vēlreiz.',
       'error.drawTimeout': 'Itei izlūze vylkōs par ilgi: paraugit mozōku rādiusu voi attōlumu.',
       'error.minDistanceNotFound': 'Nav atrasts maršruts, kas attālinātos vismaz {min} i vienlaikus ievērotu pārējos iestatījumus (atgriešanās rādiuss, attuolums storp pīturys punktim, prāmji…). Samaziniet minimālo attālumu voi atvieglojiet šos iestatījumus.',
       'theme.auto': 'Auto',
@@ -58873,6 +58930,7 @@
 
       'error.tooManyRequests': 'Pall\'o hulga päringit lühküq aja seen: proovigõq minoti peräst vahtsõst.',
       'error.serverBusy': 'Server om väega koormat: proovigõq mõnõ hetke peräst vahtsõst.',
+      'error.network': 'Server olõ-i kättesaadav: kaeq internetiütendüst ja pruuvi vahtsõst.',
       'error.drawTimeout': 'Seo loosiminõ võtt\' pall\'o aigo: proovigõq väikumbat raadiust vai vaihtamaad.',
       'error.minDistanceNotFound': 'Ei leitud marsruuti, mis kaugeneks vähemalt {min} ja järgiks samal ajal teie muid seadeid (tagasisõidu raadius, vahemaa etappõ vahel, praamid…). Vähendage minimaalset vahemaad vai leevendage neid seadeid.',
       'theme.auto': 'Auto',
@@ -59891,6 +59949,7 @@
 
       'error.tooManyRequests': 'Par daug ožklausū par trumpa čiesa: bandīkėt da sīkė po minotės.',
       'error.serverBusy': 'Serveris labā apkrauts: bandīkėt da sīkė po kelių akimirku.',
+      'error.network': 'Servers nipasėikamos: patikrinkėt interneta rīšī i bandīkėt so nauje.',
       'error.drawTimeout': 'Šėts traukėms ožtroka par ėlgā: pabandīkėt mažesnė spindolė ar atstuma.',
       'error.minDistanceNotFound': 'Nerasta maršruto, katros nutoltų bent {min} ir kartu atitiktų kitus jūsų nustatymus (grįžimo spindulys, atstoms tarp etapu, keltai…). Sumažinkite minimalų atstumą arba sušvelninkite šiuos nustatymus.',
       'theme.auto': 'Auto',
@@ -60902,6 +60961,7 @@
 
       'error.tooManyRequests': 'Of margar beiðnir á stuttum tíma: reyndu aftur eftir eina mínútu.',
       'error.serverBusy': 'Netþjónninn er undir miklu álagi: reyndu aftur eftir smástund.',
+      'error.network': 'Ekki næst í netþjóninn: athugaðu nettenginguna og reyndu aftur.',
       'error.drawTimeout': 'Þessi útdráttur tók of langan tíma: prófaðu minni radíus eða styttri fjarlægð.',
       'error.minDistanceNotFound': 'Engin leið fannst sem fer að minnsta kosti {min} í burtu og virðir jafnframt aðrar stillingar þínar (heimferðarradíus, fjarlægð milli áfanga, ferjur…). Minnkaðu lágmarksfjarlægðina eða slakaðu á þessum stillingum.',
       'theme.auto': 'Sjálfvirkt',
@@ -61917,6 +61977,7 @@
 
       'error.tooManyRequests': 'Ov nógvar fyrispurningar á stuttari tíð: royn aftur um eina minutt.',
       'error.serverBusy': 'Ambætarin er sera nógv brúktur: royn aftur um eina løtu.',
+      'error.network': 'Tað ber ikki til at røkka ambætaranum: kanna netsambandið og royn aftur.',
       'error.drawTimeout': 'Hesin útdrátturin tók ov langa tíð: royn ein minni radius ella styttri fjarlægd.',
       'error.minDistanceNotFound': 'Eingin leið funnin, sum fjarlægist minst {min} og samstundis virðir tínar aðrar stillingar (heimferðarradius, fjarlægd millum steðgir, ferjur…). Minka minstu fjarlægdina ella lætta um hesar stillingar.',
       'theme.auto': 'Sjálvvirkið',
@@ -62925,6 +62986,7 @@
 
       'error.tooManyRequests': 'Kısa vakıtta pek çok istek: bir minuttan sora tekrar deneyin.',
       'error.serverBusy': 'Server pek yüklü: birkaç momenttan sora tekrar deneyin.',
+      'error.network': 'Servera baalanmıer: kontrol et internet baalantını hem bir kerä dä denä.',
       'error.drawTimeout': 'Bu çekiliş pek uzun sürdü: taa küçük bir radius osa uzaklık deneyin.',
       'error.minDistanceNotFound': 'Hiç bir rota bulunmadı, ani en az {min} uzaklaşsın hem başka ayarlarınızı da korusun (dönmäk radiusu, etaplar arasında uzaklık, feribotlar…). Minimum uzaklıı azaltın ya da bu ayarları yımışadın.',
       'theme.auto': 'Avto',
@@ -63934,6 +63996,7 @@
 
       'error.tooManyRequests': 'Занадта шмат запытаў за кароткі час: паспрабуйце зноў праз хвіліну.',
       'error.serverBusy': 'Сервер вельмі загружаны: паспрабуйце зноў праз некалькі імгненняў.',
+      'error.network': 'Сервер недаступны: праверце злучэнне з інтэрнэтам і паспрабуйце яшчэ раз.',
       'error.drawTimeout': 'Жараб\'ёўка доўжылася занадта доўга: паспрабуйце меншы радыус або адлегласць.',
       'error.minDistanceNotFound': 'Не знойдзена маршруту, які аддаляецца на мінімальную адлегласць ({min}) і пры гэтым улічвае астатнія вашы налады (радыус вяртання, адлегласць паміж этапамі, паромы…). Паменшыце мінімальную адлегласць або аслабце гэтыя налады.',
       'theme.auto': 'Аўта',
@@ -64943,6 +65006,7 @@
 
       'error.tooManyRequests': 'Слишком много запросов за короткое время: попробуйте снова через минуту.',
       'error.serverBusy': 'Сервер сильно загружен: попробуйте снова через несколько мгновений.',
+      'error.network': 'Сервер недоступен: проверьте подключение к интернету и попробуйте ещё раз.',
       'error.drawTimeout': 'Жеребьёвка заняла слишком много времени: попробуйте меньший радиус или расстояние.',
       'error.minDistanceNotFound': 'Не найден маршрут, который удаляется минимум на {min} и при этом соблюдает остальные ваши настройки (радиус возвращения, расстояние между этапами, паромы…). Уменьшите минимальное расстояние или ослабьте эти настройки.',
       'theme.auto': 'Авто',
@@ -65952,6 +66016,7 @@
 
       'error.tooManyRequests': 'Забагато запитів за короткий час: спробуйте ще раз за хвилину.',
       'error.serverBusy': 'Сервер дуже завантажений: спробуйте ще раз за кілька митей.',
+      'error.network': 'Сервер недоступний: перевірте підключення до інтернету та спробуйте ще раз.',
       'error.drawTimeout': 'Жеребкування тривало надто довго: спробуйте менший радіус або відстань.',
       'error.minDistanceNotFound': 'Не знайдено маршруту, який віддаляється на мінімальну відстань ({min}) і водночас дотримується інших ваших налаштувань (радіус повернення, відстань між зупинками, пороми…). Зменшіть мінімальну відстань або послабте ці налаштування.',
       'theme.auto': 'Авто',
@@ -66961,6 +67026,7 @@
 
       'error.tooManyRequests': 'Qısqa vaqıtta pek çoq talap: bir daqqadan sonra yañıdan deñeñiz.',
       'error.serverBusy': 'Server pek yüklü: bir qaç andan sonra yañıdan deñeñiz.',
+      'error.network': 'Server irişilmey: internet bağlantıñıznı teşkeriñiz ve kene deñeñiz.',
       'error.drawTimeout': 'Bu qura tartuv pek uzun sürdi: daa kiçik radius ya da mesafe deñeñiz.',
       'error.minDistanceNotFound': 'Başqa sazlamalarıñıznı (qaytış radiusı, toqtavlar arasında mesafe, feribotlar…) saqlap, en az {min} uzaqlaşqan bir yol tapılmadı. Minimum mesafeni azaltıñız ya da bu sazlamalarnı yımşatıñız.',
       'theme.auto': 'Avto',
@@ -67970,6 +68036,7 @@
 
       'error.tooManyRequests': 'Kısa sürede çok fazla istek: bir dakika sonra tekrar deneyin.',
       'error.serverBusy': 'Sunucu çok yoğun: birkaç saniye sonra tekrar deneyin.',
+      'error.network': 'Sunucuya ulaşılamıyor: internet bağlantınızı denetleyin ve yeniden deneyin.',
       'error.drawTimeout': 'Bu çekiliş çok uzun sürdü: daha küçük bir yarıçap veya mesafe deneyin.',
       'error.minDistanceNotFound': 'Diğer ayarlarınıza (dönüş yarıçapı, duraklar arası mesafe, feribotlar…) uyarak en az {min} uzaklaşan bir güzergah bulunamadı. Minimum mesafeyi azaltın ya da bu ayarları esnetin.',
       'theme.auto': 'Otomatik',
@@ -68979,6 +69046,7 @@
 
       'error.tooManyRequests': 'ძალიან ბევრი მოთხოვნა მცირე დროში: სცადეთ ერთ წუთში.',
       'error.serverBusy': 'სერვერი ძალიან დატვირთულია: სცადეთ რამდენიმე წამში.',
+      'error.network': 'სერვერთან დაკავშირება ვერ ხერხდება: შეამოწმეთ ინტერნეტთან კავშირი და სცადეთ თავიდან.',
       'error.drawTimeout': 'ეს წილისყრა ძალიან დიდხანს გრძელდა: სცადეთ უფრო მცირე რადიუსი ან მანძილი.',
       'error.minDistanceNotFound': 'არ მოიძებნა მარშრუტი, რომელიც მინიმალურ მანძილზე ({min}) დაგაშორებთ და ამავდროულად დაიცავს თქვენს დანარჩენ პარამეტრებს (დაბრუნების რადიუსი, მანძილი გაჩერებებს შორის, ბორნები…). შეამცირეთ მინიმალური მანძილი ან შეარბილეთ ეს პარამეტრები.',
       'theme.auto': 'ავტო',
@@ -69983,6 +70051,7 @@
 
       'error.tooManyRequests': 'Аамҭа кьаҿк азы ааҳәарақәа рацәоуп: минуҭк ашьҭахь иеиҭашәхәаԥш.',
       'error.serverBusy': 'Асервер даара иҭаҵоуп: иаартым ашьҭахь иеиҭашәхәаԥш.',
+      'error.network': 'Асервер иахьӡом: гәаҭа интернет аҿакра, нас еиҭаҽанаҧш.',
       'error.drawTimeout': 'Алхра аамҭа рацәа аанахәон: арадиус ма ацәыхара еиҵоу шәхәаԥш.',
       'error.minDistanceNotFound': 'Иԥшаам маршрутк {min} инаркны ихыҵуа, шәпараметрқәа егьырҭ ирыхәаԥшуа (ааныҟәара арадиус, аҭыгыларҭақәа рыбжьара ара, апаромқәа…). Аминимум ара шәыҵыр мамзаргьы ари апараметрқәа шәырмарыр.',
       'theme.auto': 'Авто',
@@ -70995,6 +71064,7 @@
 
       'error.tooManyRequests': 'Չափազանց շատ հարցումներ կարճ ժամանակում. փորձեք կրկին մեկ րոպեից։',
       'error.serverBusy': 'Սերվերը խիստ ծանրաբեռնված է. փորձեք կրկին մի քանի ակնթարթից։',
+      'error.network': 'Սերվերը հասանելի չէ. ստուգեք ձեր ինտերնետ կապը և կրկին փորձեք։',
       'error.drawTimeout': 'Այս վիճակահանությունը չափազանց երկար տևեց. փորձեք ավելի փոքր շառավիղ կամ հեռավորություն։',
       'error.minDistanceNotFound': 'Չգտնվեց երթուղի, որը կհեռանա առնվազն {min}՝ պահպանելով ձեր մյուս կարգավորումները (վերադարձի շառավիղ, կանգառների միջև հեռավորություն, լաստանավեր…)։ Նվազեցրեք նվազագույն հեռավորությունը կամ մեղմացրեք այս կարգավորումները։',
       'theme.auto': 'Ավտո',
@@ -72002,6 +72072,7 @@
 
       'error.tooManyRequests': 'Qısa müddətdə həddindən artıq sorğu: bir dəqiqədən sonra yenidən cəhd edin.',
       'error.serverBusy': 'Server çox yüklüdür: bir neçə andan sonra yenidən cəhd edin.',
+      'error.network': 'Serverə qoşulmaq mümkün olmadı: internet bağlantınızı yoxlayın və yenidən cəhd edin.',
       'error.drawTimeout': 'Bu püşkatma çox uzun çəkdi: daha kiçik radius və ya məsafə sınayın.',
       'error.minDistanceNotFound': 'Digər ayarlarınıza (qayıdış radiusu, dayanacaqlar arasında məsafə, bərələr…) əməl etməklə ən az {min} uzaqlaşan marşrut tapılmadı. Minimum məsafəni azaldın, ya da bu ayarları yumşaldın.',
       'theme.auto': 'Avto',
@@ -73009,6 +73080,7 @@
 
       'error.tooManyRequests': 'طلبات كثيرة جدًا في وقت قصير: أعد المحاولة بعد دقيقة.',
       'error.serverBusy': 'الخادم مشغول جدًا: أعد المحاولة بعد لحظات.',
+      'error.network': 'تعذّر الوصول إلى الخادم: تحقّق من اتصالك بالإنترنت ثم أعد المحاولة.',
       'error.drawTimeout': 'استغرق هذا السحب وقتًا طويلًا جدًا: جرّب نصف قطر أو مسافة أصغر.',
       'error.minDistanceNotFound': 'لم يُعثر على مسار يبتعد {min} على الأقل مع احترام إعداداتك الأخرى (نطاق العودة، المسافة بين المحطات، العبّارات…). قلّل المسافة الدنيا أو خفّف هذه الإعدادات.',
       'theme.auto': 'تلقائي',
@@ -74016,6 +74088,7 @@
 
       'error.tooManyRequests': 'Di demeke kurt de gelek daxwaz: piştî deqeyekê dîsa biceribîne.',
       'error.serverBusy': 'Pêşkêşkar pir mijûl e: piştî çend kêliyan dîsa biceribîne.',
+      'error.network': 'Nagihîje rajekar: girêdana xwe ya înternetê kontrol bike û dîsa biceribîne.',
       'error.drawTimeout': 'Ev kişandin pir dirêj ajot: radîus an dûrahiyeke piçûktir biceribîne.',
       'error.minDistanceNotFound': 'Tu rêwîtiyek nehat dîtin ku herî kêm {min} dûr bikeve û di heman demê de rêz li mîhengên te yên din bigire (radîusa vegerê, dûrahiya di navbera qonaxan de, keştî…). Dûrahiya herî kêm kêm bike an van mîhengan sist bike.',
       'theme.auto': 'Otomatîk',
@@ -75023,6 +75096,7 @@
 
       'error.tooManyRequests': 'Zayid ṭlobe b-zabno zcuro: nisyono ḥreno bar dqiqa.',
       'error.serverBusy': 'U-server ṭamo maṣrufo-yo: nisyono ḥreno bar ḥa-zabno zcuro.',
+      'error.network': 'Lo mṣayele l ḥawyo: ḥur cal u qtoco d internet, w ṭrai naqla ḥreto.',
       'error.drawTimeout': 'U-baḥyoro griš zabno ṭamo: nisyono radius aw ruḥqo zcuro.',
       'error.minDistanceNotFound': 'Layt urḥo d-mašḥḥatla d-rḥuq raq {min} w natro u šarkayde d-hdorayk (radius d-durayo, ruḥqo bayn qṭace, safine…). Zcur ruḥqo raq, aw rafi hani hdorayke.',
       'theme.auto': 'Otomatik',
@@ -76030,6 +76104,7 @@
 
       'error.tooManyRequests': 'Зэман кӀэщӀым лъэӀу куэдыщэ къэкӀуащ: дакъикъэ дэкӀмэ уегъажьэ.',
       'error.serverBusy': 'Серверыр иным хуэдизу зэщӀэхъуащ: зэман кӀэщӀ дэкӀмэ уегъажьэ.',
+      'error.network': 'Серверым ущыхьэ хъурэп: интернет зэпыщIэныгъэр къэгъэунэфы, етIанэ джыри зыкъэгъэхъу.',
       'error.drawTimeout': 'Хэхыныгъэм зэман куэд ихьащ: радиус е зэпэӀухьэ цӀыкӀу къыхэх.',
       'error.minDistanceNotFound': 'НэгъуэщӀзэгъэпэщыкӀэхэр (къэкӀуэжын радиус, зыгъэувыӀэпӀэхэм я зэхуакум жыжьагъ, кхъухьышхуэхэр…) хъумэжу {min} нэхъ мащӀэ дыдэу ежьэ гъогуанэ къэгъуэтакъым. ЗэпэӀухьэ нэхъ мащӀэ дыдэр гъэмэщӀэ, е а зэгъэпэщыкӀэхэр щабэ щӀы.',
       'theme.auto': 'Авто',
@@ -77016,6 +77091,7 @@
 
       'error.tooManyRequests': 'ⵜⵓⵜⵔⵉⵡⵉⵏ ⴰⵟⵟⴰⵚ ⴳ ⵢⴰⵏ ⵓⵣⵎⵣ ⴰⵎⵥⵥⵢⴰⵏ: ⴰⵔⵎ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ ⴷⴼⴼⵉⵔ ⵢⴰⵜ ⵜⵓⵙⴷⵉⴷⵜ.',
       'error.serverBusy': 'ⴰⵇⴷⴷⴰⵛ ⵉⵜⵜⵓⵙⵎⵔⵙ ⴰⵟⵟⴰⵚ: ⴰⵔⵎ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ ⴷⴼⴼⵉⵔ ⴽⵔⴰ ⵏ ⵜⵙⴷⵉⴷⵉⵏ.',
+      'error.network': 'ⵓⵔ ⵉⵣⵎⵉⵔ ⴰⴷ ⵢⴰⵡⴹ ⵙ ⵓⵙⵎⵉⴽⵍ: ⵙⵏⵉⵇⴷ ⴰⵣⴷⴰⵢ ⵏⵏⴽ ⵏ ⵓⵏⵜⵉⵔⵏⵉⵜ ⵜⵄⴰⵡⴷⴷ ⴰⵔⵎ.',
       'error.drawTimeout': 'ⴰⵙⵙⵓⴼⵖ ⴰⴷ ⵉⵟⵟⵓⵍ ⴰⵟⵟⴰⵚ: ⴰⵔⵎ ⴰⵣⵢⴰⵔ ⵏⵖ ⴰⵎⵛⵡⴰⵕ ⵉⵎⵥⵥⵉⵏ.',
       'error.minDistanceNotFound': 'ⵓⵔ ⵉⵜⵜⵓⴼⴰ ⴽⵔⴰ ⵏ ⵓⴱⵔⵉⴷ ⵉⴱⵄⴷⵏ ⵎⴰ ⴷⵔⵓⵙ {min} ⵙ ⵓⵙⵏⵓⵎⵎⵍ ⵏ ⵜⵙⵖⴰⵍ ⵏⵏⴽ ⵢⴰⴹⵏⵉⵏ (ⴰⵣⵢⴰⵔ ⵏ ⵜⵓⵖⴰⵍⵉⵏ, ⴰⵎⵛⵡⴰⵕ ⴳⵔ ⵉⵙⴱⴷⴷⵏ, ⵉⴱⴰⴱⵓⵕⵏ…). ⵙⵉⴳⵣ ⴰⵎⵛⵡⴰⵕ ⴰⴷⴷⴰⵢ ⵏⵖ ⵙⵍⵓⵍⵓ ⵜⵉⵙⵖⴰⵍ ⴰⴷ.',
       'theme.auto': 'ⴰⵡⵜⵓ',
@@ -78002,6 +78078,7 @@
 
       'error.tooManyRequests': 'Aṭas n yissutar deg kra n wakud: ɛreḍ tikkelt-nniḍen deffir tesdat.',
       'error.serverBusy': 'Aqeddac yeččur aṭas: ɛreḍ tikkelt-nniḍen deffir kra n tesdatin.',
+      'error.network': 'Ur nezmir ara ad naweḍ ɣer uqeddac: senqed tuqqna-inek ɣer internet syin ɛreḍ tikkelt nniḍen.',
       'error.drawTimeout': 'Talalit-agi tṭul aṭas: ɛreḍ azyar neɣ amecwaṛ meẓẓiyen.',
       'error.minDistanceNotFound': 'Ulac abrid i yettwafen ara yebɛden ma drus {min} mi ara yeqqadar iɣewwaṛen-nniḍen (azyar n tuɣalin, amecwaṛ gar yiḥbasen, ibabuṛen…). Snegzi amecwaṛ adday neɣ sishel iɣewwaṛen-agi.',
       'theme.auto': 'Awurman',
@@ -78988,6 +79065,7 @@
 
       'error.tooManyRequests': 'Buƙatu sun yi yawa cikin ɗan lokaci: a sake gwadawa bayan minti ɗaya.',
       'error.serverBusy': 'Sabar tana da aiki sosai: a sake gwadawa nan da ɗan lokaci.',
+      'error.network': 'Ba a iya isa ga uwar garke ba: duba haɗin intanet ɗinka sannan ka sake gwadawa.',
       'error.drawTimeout': 'Wannan zaɓe ya ɗauki lokaci mai tsawo: a gwada rage iyakar nisa ko nisan tafiya.',
       'error.minDistanceNotFound': 'Ba a sami hanyar da za ta yi nisa aƙalla {min} tare da mutunta sauran saitunanku ba (nisan dawowa, nisa tsakanin zango, jiragen ruwa…). Ku rage mafi ƙarancin nisa ko ku sassauta waɗannan saitunan.',
       'theme.auto': 'Kai tsaye',
@@ -79974,6 +80052,7 @@
 
       'error.tooManyRequests': 'Codsiyo aad u badan muddo gaaban gudaheed: isku day mar kale daqiiqad kadib.',
       'error.serverBusy': 'Seerfarku aad buu u mashquulsan yahay: isku day mar kale waxyar kadib.',
+      'error.network': 'Lama gaari karo serferka: hubi xiriirkaaga internetka kadibna mar kale isku day.',
       'error.drawTimeout': 'Doorashadani waqti dheer bay qaadatay: isku day xadka masaafada ama masaafo ka yar.',
       'error.minDistanceNotFound': 'Lama helin waddo ka fogaata ugu yaraan {min} iyadoo la ixtiraamayo dejimahaaga kale (xadka soo laabashada, masaafada u dhexeysa joogsiyada, doonyaha…). Yaree masaafada ugu yar ama dabci dejimahan.',
       'theme.auto': 'Otomaatig',
@@ -80960,6 +81039,7 @@
 
       'error.tooManyRequests': 'በአጭር ጊዜ ውስጥ በጣም ብዙ ጥያቄዎች፦ ከአንድ ደቂቃ በኋላ እንደገና ይሞክሩ።',
       'error.serverBusy': 'አገልጋዩ በጣም ተጨናንቋል፦ ከጥቂት ጊዜ በኋላ እንደገና ይሞክሩ።',
+      'error.network': 'አገልጋዩ ላይ መድረስ አልተቻለም፦ የበይነመረብ ግንኙነትዎን ያረጋግጡ እና እንደገና ይሞክሩ።',
       'error.drawTimeout': 'ይህ ዕጣ ማውጣት በጣም ረጅም ጊዜ ወሰደ፦ ያነሰ የርቀት ገደብ ወይም ርቀት ይሞክሩ።',
       'error.minDistanceNotFound': 'ሌሎች ቅንብሮችዎን (የመመለሻ ርቀት፣ በማረፊያዎች መካከል ያለ ርቀት፣ ጀልባዎች…) እያከበረ ቢያንስ {min} የሚርቅ መንገድ አልተገኘም። ዝቅተኛውን ርቀት ይቀንሱ ወይም እነዚህን ቅንብሮች ያላሉ።',
       'theme.auto': 'ራስ-ሰር',
@@ -81946,6 +82026,7 @@
 
       'error.tooManyRequests': 'Gaaffiiwwan baay\'een yeroo gabaabaa keessatti dhufan: daqiiqaa tokko booda irra deebi\'ii yaali.',
       'error.serverBusy': 'Sarvariin baay\'ee dhiphateera: yeroo muraasa booda irra deebi\'ii yaali.',
+      'error.network': "Saarvara bira gahuun hin danda'amne: walqunnamtii interneetii kee mirkaneessi, itti fufiitii irra deebi'ii yaali.",
       'error.drawTimeout': 'Filannoon kun yeroo dheeraa fudhate: daangaa fageenyaa ykn fageenya xiqqaa yaali.',
       'error.minDistanceNotFound': "Karaan qindaa'ina keessan kaan (fageenya deebii, fageenya dhaabbiiwwan gidduu, bidiruuwwan…) eeggachaa yoo xiqqaate {min} fagaatu hin argamne. Fageenya xiqqaa hir'isi ykn qindaa'inoota kana laaffisi.",
       'theme.auto': 'Ofumaan',
@@ -82932,6 +83013,7 @@
 
       'error.tooManyRequests': 'ኣብ ሓጺር እዋን ኣዝዩ ብዙሕ ሕቶታት ቀሪቡ፡ ድሕሪ ሓንቲ ደቒቕ ደጊምካ ፈትን።',
       'error.serverBusy': 'እቲ ሰርቨር ኣዝዩ ተጸሚዱ ኣሎ፡ ድሕሪ ቁሩብ ደጊምካ ፈትን።',
+      'error.network': 'ናብ ሰርቨር ክትበጽሕ ኣይተኻእለን፦ ናይ ኢንተርነት ርክብካ ኣረጋግጽ ደሓር ከኣ እንደገና ፈትን።',
       'error.drawTimeout': 'እዚ ዕጫ ኣዝዩ ነዊሕ ግዜ ይወስድ ነበረ፡ ዝነኣሰ ደረት ርሕቀት ወይ ዝሓጸረ ርሕቀት ፈትን።',
       'error.minDistanceNotFound': 'ካልኦት ምድላዋትካ (ርሕቀት ምምላስ፣ ርሕቀት ኣብ መንጎ መዕረፊታት፣ ጃልባታት…) እናኸበረ እንተወሓደ {min} ዝርሕቕ መገዲ ኣይተረኽበን። ዝተሓተ ርሕቀት ኣጉድል ወይ ነዞም ምድላዋት ኣላሕልሕ።',
       'theme.auto': 'ኣውቶ',
@@ -83918,6 +84000,7 @@
 
       'error.tooManyRequests': 'Âhûndängö ahon ndö mingi na yâ ti kêtê ngoi: tara ni ngbanga na pekô ti miniti ôko.',
       'error.serverBusy': 'Serveur ayeke na kua mingi: tara ni ngbanga na pekô ti kêtê ngoi.',
+      'error.network': 'Alingbi ti wara serveur pëpe: bâ lege ti mo ti internet, na tara nga.',
       'error.drawTimeout': 'Soro so ayeke mû ngoi mingi ahon ndö: tara na yongôro so kêtê.',
       'error.minDistanceNotFound': 'A wara lêgë oko pëpe so ague yongôro {min} na lo bata âsarango ti mo so ndë (yongôro ti kîri, yongôro na popo ti âlôndo, âbâtoo…). Zîa yongôro so kêtê kêtê, wala zîa âsarango ni ague nzönî.',
       'theme.auto': 'Auto',
@@ -84904,6 +84987,7 @@
 
       'error.tooManyRequests': 'Maombi mengi mno kwa muda mfupi: jaribu tena baada ya dakika moja.',
       'error.serverBusy': 'Seva ina shughuli nyingi sana: jaribu tena baada ya muda mfupi.',
+      'error.network': 'Seva haipatikani: angalia muunganisho wako wa intaneti kisha ujaribu tena.',
       'error.drawTimeout': 'Bahati nasibu hii ilikuwa inachukua muda mrefu mno: jaribu eneo au umbali mdogo zaidi.',
       'error.minDistanceNotFound': 'Hakuna ratiba iliyopatikana inayokwenda angalau {min} huku ikiheshimu mipangilio yako mingine (eneo la kurudi, umbali kati ya vituo, feri…). Punguza umbali wa chini au legeza mipangilio hii.',
       'theme.auto': 'Otomatiki',
@@ -85890,6 +85974,7 @@
 
       'error.tooManyRequests': 'Ibisabwa byinshi cyane mu gihe gito: ongera ugerageze nyuma y\'umunota umwe.',
       'error.serverBusy': 'Seriveri ifite akazi kenshi cyane: ongera ugerageze mu kanya gato.',
+      'error.network': 'Ntibishoboka kugera kuri seriveri: reba ihuza rya interineti maze wongere ugerageze.',
       'error.drawTimeout': 'Iyi tombola yatwaraga igihe kirekire cyane: gerageza intera ntarengwa ntoya cyangwa intera ngufi.',
       'error.minDistanceNotFound': "Nta rugendo rwabonetse rujya nibura {min} kure kandi rwubahiriza andi mahitamo yawe (intera yo kugaruka, intera hagati y'aho uhagarara, amato…). Gabanya intera ntoya cyangwa woroshye ayo mahitamo.",
       'theme.auto': 'Byikora',
@@ -86876,6 +86961,7 @@
 
       'error.tooManyRequests': 'Fangatahana be loatra tao anatin\'ny fotoana fohy: andramo indray afaka iray minitra.',
       'error.serverBusy': 'Be asa loatra ny mpizara: andramo indray afaka kelikely.',
+      'error.network': 'Tsy tratra ny mpizara: hamarino ny fifandraisanao aminny aterineto dia andramo indray.',
       'error.drawTimeout': 'Naharitra loatra ity fisafidianana ity: andramo fetran\'ny halavirana na halavirana kely kokoa.',
       'error.minDistanceNotFound': "Tsy nahitana dia manalavitra {min} farafahakeliny sady manaja ireo fandrindrana hafa (fetran'ny fiverenana, halavirana eo anelanelan'ny fijanonana, sambo fitaterana…). Ahenao ny halavirana farafahakeliny na alefaho ireo fandrindrana ireo.",
       'theme.auto': 'Ho azy',
@@ -87862,6 +87948,7 @@
 
       'error.tooManyRequests': 'Tro bokou demann dan en pti letan: reesey dan en minit.',
       'error.serverBusy': 'Server i tro okipe: reesey dan en pti moman.',
+      'error.network': 'Pa kapab arive lo server: verifye ou konneksyon internet apre esey ankor.',
       'error.drawTimeout': 'Sa tiraz ti pe pran tro bokou letan: esey en rayon oubyen en distans pli pti.',
       'error.minDistanceNotFound': "Pa'n trouv okenn itinerer ki al omwen {min} lwen e respekte ou lezot reglaz (rayon retour, distans ant bann letap, ferry…). Redwir distans minimonm, oubyen fer sa bann reglaz pli fleksib.",
       'theme.auto': 'Oto',
@@ -88848,6 +88935,7 @@
 
       'error.tooManyRequests': 'Te veel versoeke in \'n kort tyd: probeer oor \'n minuut weer.',
       'error.serverBusy': 'Die bediener is baie besig: probeer oor \'n paar oomblikke weer.',
+      'error.network': 'Kan nie die bediener bereik nie: kontroleer jou internetverbinding en probeer weer.',
       'error.drawTimeout': 'Hierdie trekking het te lank geduur: probeer \'n kleiner radius of afstand.',
       'error.minDistanceNotFound': 'Geen roete is gevind wat minstens {min} ver gaan en steeds jou ander instellings nakom nie (terugkeerradius, afstand tussen stoppunte, veerbote…). Verlaag die minimum afstand of verslap hierdie instellings.',
       'theme.auto': 'Outo',
@@ -89834,6 +89922,7 @@
 
       'error.tooManyRequests': 'Izicelo eziningi kakhulu esikhathini esifushane: zama futhi ngemva komzuzu owodwa.',
       'error.serverBusy': 'Iseva imatasa kakhulu: zama futhi ngemva kwesikhashana.',
+      'error.network': 'Ayifinyeleleki iseva: hlola uxhumano lwakho lwe-inthanethi bese uzama futhi.',
       'error.drawTimeout': 'Lokhu kukhetha bekuthatha isikhathi eside kakhulu: zama umkhawulo webanga omncane noma ibanga elincane.',
       'error.minDistanceNotFound': 'Awukho umzila otholakele ohamba okungenani {min} ube uhlonipha ezinye izilungiselelo zakho (ibanga lokubuya, ibanga phakathi kwezitobhi, izikebhe…). Nciphisa ibanga elincane noma uxegise lezi zilungiselelo.',
       'theme.auto': 'Zenzakalela',
@@ -90820,6 +90909,7 @@
 
       'error.tooManyRequests': 'Izicelo ezininzi kakhulu ngexesha elifutshane: zama kwakhona emva komzuzu omnye.',
       'error.serverBusy': 'Iseva ixakeke kakhulu: zama kwakhona emva kwexeshana.',
+      'error.network': 'Ayifikeleleki iseva: khangela unxibelelwano lwakho lwe-intanethi uze uzame kwakhona.',
       'error.drawTimeout': 'Oku kukhetha bekuthatha ixesha elide kakhulu: zama umda womgama omncinane okanye umgama omncinane.',
       'error.minDistanceNotFound': 'Akufumanekanga ndlela ihamba ubuncinane i-{min} kwaye ihlonipha ezinye iisetingi zakho (umda wokubuya, umgama phakathi kweendawo zokumisa, iinqanawa…). Nciphisa umgama omncinane okanye uthambise ezi setingi.',
       'theme.auto': 'Ngokuzenzekela',
@@ -91806,6 +91896,7 @@
 
       'error.tooManyRequests': 'Dikgopelo tše dintši kudu ka nako ye kopana: leka gape ka morago ga motsotso o tee.',
       'error.serverBusy': 'Seva e swaregile kudu: leka gape ka morago ga nakwana.',
+      'error.network': 'Seva ga e fihlelelege: lekola kgokagano ya gago ya inthanete gomme o leke gape.',
       'error.drawTimeout': 'Kgetho ye e be e tšea nako ye telele kudu: leka moedi wa bokgole goba bokgole bjo bonnyane.',
       'error.minDistanceNotFound': 'Ga go a hwetšwa leeto leo le yago bonnyane bja {min} kgole mola le hlompha dipeakanyo tša gago tše dingwe (bokgole bja go boa, bokgole magareng ga maemo, diferi…). Fokotša bokgole bjo bonnyane goba o nolofatše dipeakanyo tše.',
       'theme.auto': 'Othomatiki',
@@ -92792,6 +92883,7 @@
 
       'error.tooManyRequests': 'Dikopo tse ngata haholo ka nako e kgutshwane: leka hape kamora motsotso o le mong.',
       'error.serverBusy': 'Seva e phathahane haholo: leka hape kamora nakwana.',
+      'error.network': 'Sebeletsi ha se fihlellehe: hlahloba khokahano ya hao ya inthanete ebe o leka hape.',
       'error.drawTimeout': 'Kgetho ena e ne e nka nako e telele haholo: leka moedi wa bohole kapa bohole bo bonyane.',
       'error.minDistanceNotFound': 'Ha ho a fumanwa leeto le yang bohole ba bonyane ba {min} ha le ntse le hlompha disetting tsa hao tse ding (bohole ba ho kgutla, bohole pakeng tsa dibaka tsa ho ema, diferi…). Fokotsa bohole bo bonyane kapa o nolofatse disetting tsena.',
       'theme.auto': 'Othomatiki',
@@ -93778,6 +93870,7 @@
 
       'error.tooManyRequests': 'Dikopo di dintsi thata mo nakong e khutshwane: leka gape morago ga motsotso o le mongwe.',
       'error.serverBusy': 'Seva e tshwaregile thata: leka gape morago ga sebakanyana.',
+      'error.network': 'Seabi ga se fitlhelelege: tlhola kgolagano ya gago ya inthanete mme o leke gape.',
       'error.drawTimeout': 'Tlhopho e e ne e tsaya lobaka lo loleele thata: leka molelwane wa kgakala kgotsa kgakala e e bonnye.',
       'error.minDistanceNotFound': 'Ga go a bonwa loeto lo lo yang kgakala ka {min} bonnye mme lo tlotla dithulaganyo tsa gago tse dingwe (kgakala ya go boa, kgakala magareng ga maemo, diferi…). Fokotsa kgakala e e bonnye kgotsa o nolofatse dithulaganyo tseno.',
       'theme.auto': 'Othomatiki',
@@ -94764,6 +94857,7 @@
 
       'error.tooManyRequests': 'Tikhalo letinyenti kakhulu ngesikhatsi lesifishane: phindza uzame emvakwemzuzu munye.',
       'error.serverBusy': 'Iseva imatasatasa kakhulu: phindza uzame emvakwesikhashana.',
+      'error.network': 'Sigcini asitfolakali: hlola luchumano lwakho lwe-inthanethi bese uyetama futsi.',
       'error.drawTimeout': 'Loku kukhetsa bekutsatsa sikhatsi lesidze kakhulu: zama umkhawulo webubanti lomncane noma libanga lelincane.',
       'error.minDistanceNotFound': 'Ayikatfolakali indlela lehamba libanga lelingenani le-{min} iphindze ihloniphe letinye tilungiselelo takho (bubanti bekubuya, libanga emkhatsini wetindzawo tekuma, imikhumbi…). Nciphisa libanga lelincane noma wehlise lotilungiselelo.',
       'theme.auto': 'Kutentekela',
@@ -95750,6 +95844,7 @@
 
       'error.tooManyRequests': 'Iimbawo ezinengi khulu ngesikhathi esifitjhani: lingeka godu ngemva komzuzu owodwa.',
       'error.serverBusy': 'Iseva imatasa khulu: lingeka godu ngemva kwesikhatjhana.',
+      'error.network': 'Iseva ayifinyeleleki: hlola ukuxhumana kwakho kwe-inthanethi bese uzama godu.',
       'error.drawTimeout': 'Ukukhetha lokhu bekuthatha isikhathi eside khulu: lingeka umkhawulo webubanzi omncani namkha ibanga elincani.',
       'error.minDistanceNotFound': 'Akutholakalanga indlela ekhamba ibanga elingaba ngu-{min} okungenani begodu ihlonipha ezinye iinlungiselelo zakho (ububanzi bokubuya, ibanga hlangana neendawo zokujama, iinkepe…). Nciphisa ibanga elincani namkha uthambise iinlungiselelo lezi.',
       'theme.auto': 'Ngokuzenzakalela',
@@ -96736,6 +96831,7 @@
 
       'error.tooManyRequests': 'Khumbelo nnzhi vhukuma nga tshifhinga tshipfufhi: lingani hafhu nga murahu ha minithi nthihi.',
       'error.serverBusy': 'Seva yo farea vhukuma: lingani hafhu nga murahu ha tshifhinganyana.',
+      'error.network': 'A hu koni u swikelela sefha: sedzani vhukwamani hanu ha inthanethe nahone ni lingedze hafhu.',
       'error.drawTimeout': 'U nanga uhu ho vha hu tshi dzhia tshifhinga tshilapfu vhukuma: lingani mukanganyo wa tshikhala kana tshikhala tshiṱuku.',
       'error.minDistanceNotFound': 'A ho ngo wanala nḓila ine ya ya kule nga {min} u ya nṱha i tshi khou ṱhonifha maitele aṋu maṅwe (tshikhala tsha u vhuya, tshikhala vhukati ha fhethu ha u ima, zwikepe…). Fhungudzani tshikhala tsha fhasisa kana ni leludze maitele aya.',
       'theme.auto': 'Othomathiki',
@@ -97722,6 +97818,7 @@
 
       'error.tooManyRequests': 'Swikombelo swo tala ngopfu hi nkarhi wo koma: ringeta nakambe endzhaku ka minete yin\'we.',
       'error.serverBusy': 'Sevha yi khomekile ngopfu: ringeta nakambe endzhakunyana.',
+      'error.network': 'A swi koteki ku fikelela seva: kambela vuhlanganisi bya wena bya inthanete kutani u ringeta nakambe.',
       'error.drawTimeout': 'Ku hlawula loku a ku teka nkarhi wo leha ngopfu: ringeta mpimo wa mpfhuka kumbe mpfhuka lowutsongo.',
       'error.minDistanceNotFound': "A ku kumiwanga riendzo leri yaka ekule hi {min} hi ku tsongo naswona ri xixima swiletelo swa wena swin'wana (mpfhuka wo vuya, mpfhuka exikarhi ka swiyimo, swikepe…). Hunguta mpfhuka wa le hansi kumbe u olovisa swiletelo leswi.",
       'theme.auto': 'Otomatiki',
@@ -98708,6 +98805,7 @@
 
       'error.tooManyRequests': 'Zvikumbiro zvakawandisa munguva pfupi: edza zvakare mushure meminiti imwe.',
       'error.serverBusy': 'Sevha yakabatikana zvikuru: edza zvakare mushure menguva shoma.',
+      'error.network': 'Sevha haisi kuwanikwa: tarisa kubatana kwako kweindaneti wobva waedza zvakare.',
       'error.drawTimeout': 'Kusarudza uku kwaitora nguva yakareba zvakanyanya: edza muganhu wechinhambwe kana chinhambwe chidiki.',
       'error.minDistanceNotFound': 'Hapana rwendo rwawanikwa runoenda kure {min} pashoma ruchiremekedza zvimwe zvirongwa zvako (chinhambwe chekudzoka, chinhambwe pakati penzvimbo dzekumira, zvikepe…). Deredza chinhambwe chidiki kana kuti sununguka pazvirongwa izvi.',
       'theme.auto': 'Otomatiki',
@@ -99694,6 +99792,7 @@
 
       'error.tooManyRequests': 'Кыска вакыт эчендә артык күп сорау: бер минуттан соң яңадан тырышып карагыз.',
       'error.serverBusy': 'Сервер бик йөкләнгән: берничә мизгелдән соң яңадан тырышып карагыз.',
+      'error.network': 'Серверга тоташып булмады: интернет тоташуыгызны тикшерегез һәм яңадан кабатлагыз.',
       'error.drawTimeout': 'Бу жирәбә артык озак барды: кечерәк радиус яки ераклык сайлап карагыз.',
       'error.minDistanceNotFound': 'Башка көйләүләрегезне (кайту радиусы, тукталышлар арасындагы ераклык, паромнар…) саклап, кимендә {min} ераклашкан маршрут табылмады. Минималь ераклыкны киметегез яки бу көйләүләрне йомшартыгыз.',
       'theme.auto': 'Авто',
@@ -100680,6 +100779,7 @@
 
       'error.tooManyRequests': 'Ҡыҫҡа ваҡыт эсендә артыҡ күп һорау: бер минуттан һуң яңынан тырышып ҡарағыҙ.',
       'error.serverBusy': 'Сервер бик йөкләнгән: бер аҙҙан яңынан тырышып ҡарағыҙ.',
+      'error.network': 'Серверға тоташып булманы: интернет тоташыуығыҙҙы тикшерегеҙ һәм ҡабат ҡарағыҙ.',
       'error.drawTimeout': 'Был шобаҡ артыҡ оҙаҡ барҙы: бәләкәйерәк радиус йәки ара һайлап ҡарағыҙ.',
       'error.minDistanceNotFound': 'Башҡа көйләүҙәрегеҙҙе (ҡайтыу радиусы, туҡталыштар араһындағы ара, паромдар…) һаҡлап, кәмендә {min} алыҫлашҡан маршрут табылманы. Минималь араны кәметегеҙ йәки был көйләүҙәрҙе йомшартығыҙ.',
       'theme.auto': 'Авто',
@@ -101666,6 +101766,7 @@
 
       'error.tooManyRequests': 'Кылгас кэм иһигэр наһаа элбэх көрдөһүү: биир мүнүүтэ буолан баран хос боруобалааҥ.',
       'error.serverBusy': 'Сиэрбэр наһаа үлэлээх: сотору буолан баран хос боруобалааҥ.',
+      'error.network': 'Сиэрбэргэ холбоммот: интэриниэккэ холбонууну бэрэбиэркэлээ уонна хат оҥор.',
       'error.drawTimeout': 'Бу талыы наһаа уһуннук барда: кыра радиуһу эбэтэр ыраахы боруобалааҥ.',
       'error.minDistanceNotFound': 'Атын туруорууларгытын (төннүү радиуһа, тохтобуллар икки ардыгар ыраах, паромнар…) тутуһан, саатар {min} тэйэр маршрут көстүбэтэ. Саамай кыра ыраахы аччатыҥ эбэтэр бу туруоруулары чэпчэтиҥ.',
       'theme.auto': 'Авто',
@@ -102652,6 +102753,7 @@
 
       'error.tooManyRequests': 'Кӏеззиг хенахь дукха дехарш: цхьа минот яьлча юха хьажа.',
       'error.serverBusy': 'Сервер дукха мохь болуш ю: жимма хан яьлча юха хьажа.',
+      'error.network': 'Серверца зIе ца хили: интернет юкъаметтиг талла, тIаккха юха а гIерта.',
       'error.drawTimeout': 'Харжамо дукха хан оьцура: кегийра радиус я генаралла хьажа.',
       'error.minDistanceNotFound': 'Кхин долу нисдарш (цӏехьадерзаран радиус, сацаран меттигашна юкъара генаралла, паромаш…) ларйина, лаххара а {min} генаделла некъ ца карийна. Уггар жима генаралла жимъе я и нисдарш кӏеда де.',
       'theme.auto': 'Авто',
@@ -103638,6 +103740,7 @@
 
       'error.tooManyRequests': 'Кувалмо шкас пек ламо вешемат: варчтадо ещё вейке минутадо мейле.',
       'error.serverBusy': 'Серверэсь пек саезь: варчтадо ещё зярс.',
+      'error.network': 'Серверэнтень а сови: варштык интернетс сюлмавомат ды теик одов.',
       'error.drawTimeout': 'Те кочкамось пек кувать ютась: варчтадо седе вишка радиус эли васолмо.',
       'error.minDistanceNotFound': 'А муевсь кинть, конась ютавтсы седе аволь малав {min} ды ванстсы лия ладсематнеть (мрдамонь радиус, лоткамо таркатнень ютксо васолмо, паромт…). Вишкалгавтодо седе вишка васолмонть эли чавдолгавтодо неть ладсематнень.',
       'theme.auto': 'Авто',
@@ -104624,6 +104727,7 @@
 
       'error.tooManyRequests': 'Кувать аф шкас пяк лама вешемат: варчада нинге вейке минутада мейле.',
       'error.serverBusy': 'Серверть лангса пяк оцю нагрузка: варчада нинге кржа мельце.',
+      'error.network': 'Серверти аф пачкоди: ванк интернетс сюлмафтомать и тик одукс.',
       'error.drawTimeout': 'Тя кочкамась пяк кувать мольсь: варчада сяда ёмла радиус али ичкозкс.',
       'error.minDistanceNotFound': 'Аф муеви ки, кона тусьше аф сяда маласа {min} и ванфтсы лия ладяфксне (меки самань радиус, лоткама вастнень ёткса ичкозкс, паромт…). Ёмлаптада сяда ёмла ичкозксть али нюрьгемптеда нят ладяфкснень.',
       'theme.auto': 'Авто',
@@ -105610,6 +105714,7 @@
 
       'error.tooManyRequests': 'Вакчи дыр куспын туж трос куронъёс: одӥг минут ортчыса выльысь турттэлэ.',
       'error.serverBusy': 'Серверлэн ужез туж трос: вакчи дыр ортчыса выльысь турттэлэ.',
+      'error.network': 'Серверен герӟаськыны уг луы: эскере интернетэн герӟаськонтэс но нош ик утчалэ.',
       'error.drawTimeout': 'Та шӧп кыскон туж кема мынӥз: пичигес радиус яке кемалась бырйыса турттэлэ.',
       'error.minDistanceNotFound': 'Мукет тупатъянъёсты (бертон радиус, дугдон интыос куспын кемалась, паромъёс…) утьыса, ӧжыт ке но {min} кыдёке кошкись маршрут шедьтымтэ. Ӧжытгес кемаласез ӧжытэтэлэ яке та тупатъянъёсты небзытэлэ.',
       'theme.auto': 'Авто',
@@ -106596,6 +106701,7 @@
 
       'error.tooManyRequests': 'درخواست‌های بسیار زیاد در مدت کوتاه: یک دقیقه بعد دوباره تلاش کنید.',
       'error.serverBusy': 'سرور بسیار شلوغ است: چند لحظه بعد دوباره تلاش کنید.',
+      'error.network': 'دسترسی به سرور ممکن نشد: اتصال اینترنت خود را بررسی کنید و دوباره تلاش کنید.',
       'error.drawTimeout': 'این قرعه‌کشی بیش از حد طول می‌کشید: شعاع یا فاصلهٔ کوچک‌تری را امتحان کنید.',
       'error.minDistanceNotFound': 'هیچ برنامهٔ سفری پیدا نشد که دست‌کم {min} دور شود و در عین حال سایر تنظیمات شما (شعاع بازگشت، فاصلهٔ میان توقف‌ها، کشتی‌ها…) را رعایت کند. حداقل فاصله را کم کنید یا این تنظیمات را انعطاف‌پذیرتر کنید.',
       'theme.auto': 'خودکار',
@@ -107582,6 +107688,7 @@
 
       'error.tooManyRequests': 'داواکاریی زۆر لە ماوەیەکی کورتدا: دوای خولەکێک دووبارە ھەوڵ بدەرەوە.',
       'error.serverBusy': 'ڕاژەکار زۆر قەرەباڵغە: دوای چەند ساتێک دووبارە ھەوڵ بدەرەوە.',
+      'error.network': 'پەیوەندی بە ڕاژەکارەوە نەکرا: پەیوەندی ئینتەرنێتەکەت بپشکنە و دووبارە هەوڵ بدە.',
       'error.drawTimeout': 'ئەم تیروپشکە زۆر کاتی دەخایاند: نیوەتیرە یان دووریی بچووکتر تاقی بکەرەوە.',
       'error.minDistanceNotFound': 'ھیچ ڕێڕەوێک نەدۆزرایەوە کە لانیکەم {min} دوور بکەوێتەوە و ھاوکات ڕێکخستنەکانی ترت ڕەچاو بکات (نیوەتیرەی گەڕانەوە، دووری نێوان وێستگەکان، کەشتییەکان…). کەمترین دووری کەم بکەرەوە یان ئەم ڕێکخستنانە نەرمتر بکە.',
       'theme.auto': 'خۆکار',
@@ -108568,6 +108675,7 @@
 
       'error.tooManyRequests': 'Қысқа уақытта тым көп сұраныс: бір минуттан кейін қайталап көріңіз.',
       'error.serverBusy': 'Сервер қатты жүктелген: біраздан кейін қайталап көріңіз.',
+      'error.network': 'Серверге қосылу мүмкін болмады: интернет байланысын тексеріп, қайта көріңіз.',
       'error.drawTimeout': 'Бұл таңдау тым ұзаққа созылды: радиусты немесе қашықтықты кішірейтіп көріңіз.',
       'error.minDistanceNotFound': 'Басқа баптауларыңызды (қайту радиусы, аялдамалар арасындағы қашықтық, паромдар…) сақтай отырып, кемінде {min} алысқа кететін маршрут табылмады. Ең аз қашықтықты азайтыңыз немесе бұл баптауларды жұмсартыңыз.',
       'theme.auto': 'Авто',
@@ -109554,6 +109662,7 @@
 
       'error.tooManyRequests': 'Кыска убакытта өтө көп суроо: бир мүнөттөн кийин кайра аракет кылыңыз.',
       'error.serverBusy': 'Сервер өтө жүктөлгөн: бир аздан кийин кайра аракет кылыңыз.',
+      'error.network': 'Серверге туташуу мүмкүн болбоду: интернет байланышын текшерип, кайра аракет кылыңыз.',
       'error.drawTimeout': 'Бул тандоо өтө көпкө созулду: радиусту же аралыкты кичирейтип көрүңүз.',
       'error.minDistanceNotFound': 'Башка жөндөөлөрүңүздү (кайтуу радиусу, аялдамалардын ортосундагы аралык, паромдор…) сактап, кеминде {min} алыстаган маршрут табылган жок. Эң аз аралыкты азайтыңыз же бул жөндөөлөрдү жумшартыңыз.',
       'theme.auto': 'Авто',
@@ -110540,6 +110649,7 @@
 
       'error.tooManyRequests': 'Дар муддати кӯтоҳ дархостҳо аз ҳад зиёданд: пас аз як дақиқа боз кӯшиш кунед.',
       'error.serverBusy': 'Сервер хеле банд аст: пас аз чанд лаҳза боз кӯшиш кунед.',
+      'error.network': 'Ба сервер пайваст шудан нашуд: пайвасти интернетро санҷед ва боз кӯшиш кунед.',
       'error.drawTimeout': 'Ин қуръакашӣ аз ҳад зиёд тӯл кашид: радиус ё масофаи хурдтарро санҷед.',
       'error.minDistanceNotFound': 'Масире ёфт нашуд, ки на камтар аз {min} дур равад ва ҳамзамон дигар танзимоти шуморо (радиуси бозгашт, масофа байни истгоҳҳо, паромҳо…) риоя кунад. Масофаи ҳадди ақалро кам кунед ё ин танзимотро нармтар кунед.',
       'theme.auto': 'Худкор',
@@ -111526,6 +111636,7 @@
 
       'error.tooManyRequests': 'Qisqa vaqt ichida juda koʻp soʻrov: bir daqiqadan soʻng qayta urinib koʻring.',
       'error.serverBusy': 'Server juda band: birozdan soʻng qayta urinib koʻring.',
+      'error.network': 'Serverga ulanib boʻlmadi: internet aloqangizni tekshiring va qayta urinib koʻring.',
       'error.drawTimeout': 'Bu qurʼa juda uzoq davom etdi: kichikroq radius yoki masofani sinab koʻring.',
       'error.minDistanceNotFound': 'Boshqa sozlamalaringizni (qaytish radiusi, bekatlar orasidagi masofa, paromlar…) saqlagan holda kamida {min} uzoqlashadigan marshrut topilmadi. Minimal masofani kamaytiring yoki bu sozlamalarni yumshating.',
       'theme.auto': 'Avto',
@@ -112512,6 +112623,7 @@
 
       'error.tooManyRequests': 'Gysga wagtda örän köp haýyş: bir minutdan soň täzeden synanyşyň.',
       'error.serverBusy': 'Serwer örän köp işli: birsalymdan täzeden synanyşyň.',
+      'error.network': 'Sere birigip bolmady: internet birikmäňizi barlaň we gaýtadan synanyşyň.',
       'error.drawTimeout': 'Bu bije örän uzak dowam etdi: has kiçi radiusy ýa-da aralygy synap görüň.',
       'error.minDistanceNotFound': 'Beýleki sazlamalaryňyzy (gaýdyş radiusy, duralgalaryň arasyndaky aralyk, paromlar…) berjaý edip, azyndan {min} daşlaşýan ugur tapylmady. Iň az aralygy azaldyň ýa-da bu sazlamalary ýumşadyň.',
       'theme.auto': 'Awto',
@@ -113498,6 +113610,7 @@
 
       'error.tooManyRequests': 'Qısqa waqıt ishinde júdá kóp soraw: bir minuttan soń qayta urınıp kóriń.',
       'error.serverBusy': 'Server júdá bánt: birazdan soń qayta urınıp kóriń.',
+      'error.network': 'Serverge jalganıp bolmadı: internet baylanısıńızdı tekseriń hám qayta urınıp kóriń.',
       'error.drawTimeout': 'Bul tańlaw júdá uzaqqa sozıldı: kishirek radius yamasa aralıqtı sınap kóriń.',
       'error.minDistanceNotFound': 'Basqa sazlawlarıńızdı (qaytıw radiusı, toqtawlar arasındaǵı aralıq, paromlar…) saqlaǵan halda keminde {min} uzaqlaytuǵın marshrut tabılmadı. Minimal aralıqtı azaytıń yamasa bul sazlawlardı jumsartıń.',
       'theme.auto': 'Avto',
@@ -114484,6 +114597,7 @@
 
       'error.tooManyRequests': 'Богино хугацаанд хэт олон хүсэлт ирлээ: нэг минутын дараа дахин оролдоно уу.',
       'error.serverBusy': 'Сервер хэт ачаалалтай байна: хэсэг хугацааны дараа дахин оролдоно уу.',
+      'error.network': 'Сервертэй холбогдож чадсангүй: интернэт холболтоо шалгаад дахин оролдоно уу.',
       'error.drawTimeout': 'Энэ сугалаа хэт удаж байна: радиус эсвэл зайг багасгаж үзнэ үү.',
       'error.minDistanceNotFound': 'Бусад тохиргоогоо (буцах радиус, зогсоол хоорондын зай, гатлага онгоцнууд…) хангасан, дор хаяж {min} холдох маршрут олдсонгүй. Хамгийн бага зайг багасгах эсвэл эдгээр тохиргоог зөөлрүүлнэ үү.',
       'theme.auto': 'Авто',
@@ -115470,6 +115584,7 @@
 
       'error.tooManyRequests': '短时间内请求过多：请一分钟后再试。',
       'error.serverBusy': '服务器非常繁忙：请稍后再试。',
+      'error.network': '无法连接服务器：请检查网络连接后重试。',
       'error.drawTimeout': '本次抽取耗时过长：请尝试更小的半径或距离。',
       'error.minDistanceNotFound': '未找到既能走出至少 {min}、又符合您其他设置（返程半径、各站之间距离、渡轮等）的行程。请降低最小距离，或放宽这些设置。',
       'theme.auto': '自动',
@@ -116456,6 +116571,7 @@
 
       'error.tooManyRequests': '短時間內請求過多：請一分鐘後再試。',
       'error.serverBusy': '伺服器非常忙碌：請稍後再試。',
+      'error.network': '無法連線至伺服器：請檢查網路連線後再試一次。',
       'error.drawTimeout': '本次抽選耗時過長：請嘗試較小的半徑或距離。',
       'error.minDistanceNotFound': '找不到既能走到至少 {min}外、又符合您其他設定（回程半徑、各站之間距離、渡輪等）的行程。請降低最短距離，或放寬這些設定。',
       'theme.auto': '自動',
@@ -117442,6 +117558,7 @@
 
       'error.tooManyRequests': '短時間肚項請求忒多：請一分鐘過後再試看。',
       'error.serverBusy': '伺服器當無閒：請等一下再試看。',
+      'error.network': '無法連上伺服器：請查看network連線後再試一擺。',
       'error.drawTimeout': '這擺抽籤用忒久時間：請試看較細个範圍抑係距離。',
       'error.minDistanceNotFound': '尋毋到做得行到離出發地至少{min}、又合你其他設定（轉來範圍、每站中間个距離、渡輪等）个行程。請減少最短距離，抑係放寬這兜設定。',
       'theme.auto': '自動',
@@ -118428,6 +118545,7 @@
 
       'error.tooManyRequests': 'Youq ndaw seizgan dinj gouz lai lai: gvaq it faencung caiq sawq.',
       'error.serverBusy': 'Fugvugi haemq mbouj hoengq: gvaq di caiq sawq.',
+      'error.network': 'Mbouj ndaej lienzciep fuzcwzgi: cingj genjcaz lienzciep vangjloz gvaqlaeng caiq sawq.',
       'error.drawTimeout': 'Baez genj neix yungh seizgan nanz lai: sawq buenqging roxnaeuz gyae iq di.',
       'error.minDistanceNotFound': 'Ra mbouj raen lohsienq ndaej bae gyae ceiq noix {min} caemhcaiq hab gij sezdingh wnq mwngz (buenqging dauqma, gyang giz dingz gyae, ruzdoh…). Cingj gemj noix gyae ceiq noix, roxnaeuz langh soeng gij sezdingh neix.',
       'theme.auto': 'Swhdoengh',
@@ -119414,6 +119532,7 @@
 
       'error.tooManyRequests': '짧은 시간에 요청이 너무 많습니다. 1분 후에 다시 시도하세요.',
       'error.serverBusy': '서버가 매우 혼잡합니다. 잠시 후 다시 시도하세요.',
+      'error.network': '서버에 연결할 수 없습니다. 인터넷 연결을 확인한 뒤 다시 시도해 주세요.',
       'error.drawTimeout': '추첨 시간이 너무 오래 걸렸습니다. 더 작은 반경이나 거리로 시도해 보세요.',
       'error.minDistanceNotFound': '다른 설정(복귀 반경, 경유지 간 거리, 페리 등)을 지키면서 최소 {min} 이상 멀어지는 여행 일정을 찾지 못했습니다. 최소 거리를 줄이거나 이 설정들을 완화해 보세요.',
       'theme.auto': '자동',
@@ -120400,6 +120519,7 @@
 
       'error.tooManyRequests': '短時間にリクエストが多すぎます。1分後にもう一度お試しください。',
       'error.serverBusy': 'サーバーが大変混み合っています。しばらくしてからもう一度お試しください。',
+      'error.network': 'サーバーに接続できません。インターネット接続を確認してから、もう一度お試しください。',
       'error.drawTimeout': '抽選に時間がかかりすぎました。範囲または距離を小さくしてお試しください。',
       'error.minDistanceNotFound': '他の設定（帰路の範囲、立ち寄り地間の距離、フェリーなど）を守りつつ、{min}以上離れる旅程が見つかりませんでした。最小距離を短くするか、これらの設定を緩めてください。',
       'theme.auto': '自動',
@@ -121386,6 +121506,7 @@
 
       'error.tooManyRequests': 'कम समय में बहुत अधिक अनुरोध: एक मिनट बाद फिर से प्रयास करें।',
       'error.serverBusy': 'सर्वर बहुत व्यस्त है: कुछ क्षण बाद फिर से प्रयास करें।',
+      'error.network': 'सर्वर से संपर्क नहीं हो सका: अपना इंटरनेट कनेक्शन जाँचें और फिर से कोशिश करें।',
       'error.drawTimeout': 'इस चयन में बहुत अधिक समय लग रहा था: छोटा दायरा या कम दूरी आज़माएँ।',
       'error.minDistanceNotFound': 'आपकी अन्य सेटिंग्स (वापसी दायरा, पड़ावों के बीच दूरी, फ़ेरी…) का पालन करते हुए कम से कम {min} दूर जाने वाला कोई यात्रा-कार्यक्रम नहीं मिला। न्यूनतम दूरी घटाएँ, या इन सेटिंग्स में ढील दें।',
       'theme.auto': 'स्वतः',
@@ -122372,6 +122493,7 @@
 
       'error.tooManyRequests': 'थोड्या वेळात खूप विनंत्या आल्या: एका मिनिटाने पुन्हा प्रयत्न करा.',
       'error.serverBusy': 'सर्व्हरवर सध्या खूप ताण आहे: थोड्या वेळाने पुन्हा प्रयत्न करा.',
+      'error.network': 'सर्व्हरशी संपर्क होऊ शकला नाही: तुमचे इंटरनेट कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.',
       'error.drawTimeout': 'ही सोडत खूप वेळ घेत होती: लहान त्रिज्या किंवा कमी अंतर वापरून पाहा.',
       'error.minDistanceNotFound': 'तुमच्या इतर सेटिंग्जचे (परतीची त्रिज्या, टप्प्यांमधील अंतर, फेरीबोटी…) पालन करत किमान {min} दूर जाणारा प्रवास-आराखडा सापडला नाही. किमान अंतर कमी करा किंवा या सेटिंग्ज शिथिल करा.',
       'theme.auto': 'स्वयंचलित',
@@ -123358,6 +123480,7 @@
 
       'error.tooManyRequests': 'छोटो समयमा धेरै अनुरोध भए: एक मिनेटपछि फेरि प्रयास गर्नुहोस्।',
       'error.serverBusy': 'सर्भर अहिले अत्यन्त व्यस्त छ: केही क्षणपछि फेरि प्रयास गर्नुहोस्।',
+      'error.network': 'सर्भरमा पुग्न सकिएन: आफ्नो इन्टरनेट जडान जाँच्नुहोस् र फेरि प्रयास गर्नुहोस्।',
       'error.drawTimeout': 'यो गोलाप्रथामा धेरै समय लागिरहेको थियो: सानो दायरा वा कम दूरी प्रयास गर्नुहोस्।',
       'error.minDistanceNotFound': 'तपाईंका अन्य सेटिङहरू (फर्कने दायरा, बिसौनीहरूबीचको दूरी, फेरी…) पालना गर्दै कम्तीमा {min} टाढा जाने यात्रा-योजना भेटिएन। न्यूनतम दूरी घटाउनुहोस् वा यी सेटिङहरू खुकुलो पार्नुहोस्।',
       'theme.auto': 'स्वचालित',
@@ -124344,6 +124467,7 @@
 
       'error.tooManyRequests': 'অল্প সময়ে অনেক বেশি অনুরোধ: এক মিনিট পরে আবার চেষ্টা করুন।',
       'error.serverBusy': 'সার্ভার এখন খুব ব্যস্ত: কিছুক্ষণ পরে আবার চেষ্টা করুন।',
+      'error.network': 'সার্ভারে পৌঁছানো যায়নি: আপনার ইন্টারনেট সংযোগ পরীক্ষা করে আবার চেষ্টা করুন।',
       'error.drawTimeout': 'এই লটারিতে অনেক বেশি সময় লাগছিল: ছোট ব্যাসার্ধ বা কম দূরত্ব দিয়ে চেষ্টা করুন।',
       'error.minDistanceNotFound': 'আপনার অন্যান্য সেটিংস (ফেরার ব্যাসার্ধ, যাত্রাবিরতিগুলোর মধ্যে দূরত্ব, ফেরি…) মেনে অন্তত {min} দূরে যায় এমন কোনো ভ্রমণপথ পাওয়া যায়নি। ন্যূনতম দূরত্ব কমান, অথবা এই সেটিংস শিথিল করুন।',
       'theme.auto': 'স্বয়ংক্রিয়',
@@ -125330,6 +125454,7 @@
 
       'error.tooManyRequests': 'குறுகிய நேரத்தில் அதிகமான கோரிக்கைகள்: ஒரு நிமிடம் கழித்து மீண்டும் முயலுங்கள்.',
       'error.serverBusy': 'சேவையகம் மிகவும் பரபரப்பாக உள்ளது: சில கணங்கள் கழித்து மீண்டும் முயலுங்கள்.',
+      'error.network': 'சேவையகத்தை அடைய முடியவில்லை: உங்கள் இணைய இணைப்பைச் சரிபார்த்து மீண்டும் முயலவும்.',
       'error.drawTimeout': 'இந்தக் குலுக்கல் அதிக நேரம் எடுத்தது: சிறிய ஆரம் அல்லது குறைந்த தொலைவை முயலுங்கள்.',
       'error.minDistanceNotFound': 'உங்கள் பிற அமைப்புகளை (திரும்பும் ஆரம், நிறுத்தங்களுக்கு இடையிலான தொலைவு, படகுகள்…) மதித்து, குறைந்தது {min} தொலைவு செல்லும் பயணத்திட்டம் எதுவும் கிடைக்கவில்லை. குறைந்தபட்சத் தொலைவைக் குறையுங்கள், அல்லது இந்த அமைப்புகளைத் தளர்த்துங்கள்.',
       'theme.auto': "தானியங்கி",
@@ -126316,6 +126441,7 @@
 
       'error.tooManyRequests': 'കുറഞ്ഞ സമയത്തിനുള്ളിൽ വളരെയധികം അഭ്യർഥനകൾ: ഒരു മിനിറ്റിനു ശേഷം വീണ്ടും ശ്രമിക്കുക.',
       'error.serverBusy': 'സെർവർ ഇപ്പോൾ വളരെ തിരക്കിലാണ്: അൽപനിമിഷങ്ങൾക്കു ശേഷം വീണ്ടും ശ്രമിക്കുക.',
+      'error.network': 'സെർവറിൽ എത്താനായില്ല: നിങ്ങളുടെ ഇന്റർനെറ്റ് കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.',
       'error.drawTimeout': 'ഈ നറുക്കെടുപ്പിന് വളരെയധികം സമയമെടുത്തു: ചെറിയ ആരപരിധിയോ കുറഞ്ഞ ദൂരമോ പരീക്ഷിക്കുക.',
       'error.minDistanceNotFound': 'നിങ്ങളുടെ മറ്റ് ക്രമീകരണങ്ങൾ (മടക്ക ആരപരിധി, ഇടത്താവളങ്ങൾക്കിടയിലെ ദൂരം, ഫെറികൾ…) പാലിച്ചുകൊണ്ട് കുറഞ്ഞത് {min} ദൂരെ പോകുന്ന യാത്രാപദ്ധതി കണ്ടെത്താനായില്ല. കുറഞ്ഞ ദൂരം കുറയ്ക്കുക, അല്ലെങ്കിൽ ഈ ക്രമീകരണങ്ങളിൽ ഇളവ് വരുത്തുക.',
       'theme.auto': 'സ്വയമേവ',
@@ -127302,6 +127428,7 @@
 
       'error.tooManyRequests': 'مختصر وقت میں بہت زیادہ درخواستیں: ایک منٹ بعد دوبارہ کوشش کریں۔',
       'error.serverBusy': 'سرور پر اس وقت بہت زیادہ بوجھ ہے: چند لمحوں بعد دوبارہ کوشش کریں۔',
+      'error.network': 'سرور تک رسائی ممکن نہیں: اپنا انٹرنیٹ کنکشن دیکھیں اور دوبارہ کوشش کریں۔',
       'error.drawTimeout': 'اس قرعہ اندازی میں بہت زیادہ وقت لگ رہا تھا: چھوٹا دائرہ یا کم فاصلہ آزمائیں۔',
       'error.minDistanceNotFound': 'آپ کی دیگر ترتیبات (واپسی کا دائرہ، پڑاؤ کے درمیان فاصلہ، فیریاں…) کی پابندی کرتے ہوئے کم از کم {min} دور جانے والا کوئی سفری منصوبہ نہیں ملا۔ کم از کم فاصلہ کم کریں، یا ان ترتیبات میں نرمی کریں۔',
       'theme.auto': 'خودکار',
@@ -128288,6 +128415,7 @@
 
       'error.tooManyRequests': 'ކުރު ވަގުތުކޮޅެއްގައި ވަރަށް ގިނަ އެދުންތަކެއް: އެއް މިނެޓު ފަހުން އަލުން މަސައްކަތްކުރައްވާ.',
       'error.serverBusy': 'ސާވަރު މިހާރު ވަރަށް ބުރަ: ކުޑަ ވަގުތުކޮޅަކުން އަލުން މަސައްކަތްކުރައްވާ.',
+      'error.network': 'ސާވަރާ ގުޅޭ ގޮތެއް ނުވި: އިންޓަނެޓް ގުޅުން ޗެކްކޮށް އަލުން މަސައްކަތްކުރޭ.',
       'error.drawTimeout': 'މި ގުރުއަތަށް ވަރަށް ގިނަ ވަގުތު ނަގަމުން ދިޔައީ: ކުޑަ ދާއިރާއެއް ނުވަތަ ކުޑަ ދުރުމިނެއް ބޭނުންކޮށްލައްވާ.',
       'error.minDistanceNotFound': 'ތިޔަބޭފުޅާގެ އެހެން ސެޓިންގްތައް (އެނބުރި އައުމުގެ ދާއިރާ، ހުއްޓުންތަކުގެ ދެމެދު ދުރުމިން، ފެރީތައް…) ހިފެހެއްޓިގެން، މަދުވެގެން {min} ދުރަށް ދާ ދަތުރުގެ ތާވަލެއް ނުފެނުނު. މަދުވެގެން ދުރުމިން ކުޑަކުރައްވާ، ނުވަތަ މި ސެޓިންގްތައް ލުއިކުރައްވާ.',
       'theme.auto': 'އޮޓޯ',
@@ -129274,6 +129402,7 @@
 
       'error.tooManyRequests': 'කෙටි කාලයක් තුළ ඉල්ලීම් වැඩි ගණනක්: මිනිත්තුවකින් නැවත උත්සාහ කරන්න.',
       'error.serverBusy': 'සේවාදායකය දැනට ඉතා කාර්යබහුලයි: මොහොතකින් නැවත උත්සාහ කරන්න.',
+      'error.network': 'සේවාදායකයට සම්බන්ධ විය නොහැකි විය: ඔබේ අන්තර්ජාල සම්බන්ධතාවය පරීක්ෂා කර නැවත උත්සාහ කරන්න.',
       'error.drawTimeout': 'මෙම අහඹු තේරීමට වැඩි කාලයක් ගත විය: කුඩා අරයක් හෝ අඩු දුරක් උත්සාහ කරන්න.',
       'error.minDistanceNotFound': 'ඔබේ අනෙකුත් සැකසුම් (ආපසු ගමන් අරය, නැවතුම් අතර දුර, ෆෙරි…) පිළිපදිමින් අවම වශයෙන් {min}ක් දුරට යන ගමන් සැලැස්මක් හමු නොවීය. අවම දුර අඩු කරන්න, නැතහොත් මෙම සැකසුම් ලිහිල් කරන්න.',
       'theme.auto': 'ස්වයංක්‍රීය',
@@ -130260,6 +130389,7 @@
 
       'error.tooManyRequests': 'དུས་ཚོད་ཐུང་ཀུ་ཅིག་ནང་ཞུ་བ་མང་དྲགས་སོང་ — སྐར་མ་གཅིག་གི་ཤུལ་ལས་ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།',
       'error.serverBusy': 'ཞབས་ཏོག་འཕྲུལ་ཆས་ལུ་ད་ལྟོ་ལཱ་མང་དྲགས་ཡོདཔ་ཨིན — ཡུད་ཙམ་ཅིག་གི་ཤུལ་ལས་ལོག་འབད་རྩོལ་བསྐྱེད་གནང་།',
+      'error.network': 'སར་བར་ལུ་འབྲེལ་མཐུད་འབད་མ་ཚུགས། ཁྱོད་ཀྱི་ཨིན་ཊར་ནེཊ་འབྲེལ་མཐུད་བལྟ་སྟེ་ལོག་འབད་རྐྱབས།',
       'error.drawTimeout': 'གང་བྱུང་སྦེ་འདེམས་ནི་འདི་ལུ་དུས་ཚོད་ཧེང་བཀལ་རིངམ་སོང་ — ཁྱབ་ཚད་ཆུང་བ་ཡང་ན་བར་ཐག་ཐུང་བ་ཅིག་ལུ་འབད་རྩོལ་བསྐྱེད་གནང་།',
       'error.minDistanceNotFound': 'ཁྱོད་ཀྱི་སྒྲིག་སྟངས་གཞན་ (ལོག་འོང་ནིའི་ཁྱབ་ཚད་ བར་བཞུགས་ཚུ་གི་བར་ན་བར་ཐག་ གྲུ་གཟིངས…) ཚུ་ལུ་བརྩི་འཇོག་འབད་དེ་ ཉུང་མཐའ་ {min} ཐག་རིང་སར་འགྱོ་མི་ལམ་འགྲུལ་མ་ཐོབ། ཉུང་མཐའི་བར་ཐག་མར་ཕབ་ནི། ཡང་ན་སྒྲིག་སྟངས་འདི་ཚུ་ལྷོད་བཏང་ནི་འབད་གནང་།',
       'theme.auto': 'རང་བཞིན',
@@ -131246,6 +131376,7 @@
 
       'error.tooManyRequests': 'အချိန်တိုအတွင်း တောင်းဆိုမှု များလွန်းပါသည် — တစ်မိနစ်အကြာတွင် ထပ်ကြိုးစားပါ။',
       'error.serverBusy': 'ဆာဗာ အလွန်အလုပ်များနေပါသည် — ခဏအကြာတွင် ထပ်ကြိုးစားပါ။',
+      'error.network': 'ဆာဗာသို့ မဆက်သွယ်နိုင်ပါ။ အင်တာနက်ချိတ်ဆက်မှုကို စစ်ဆေးပြီး ထပ်ကြိုးစားပါ။',
       'error.drawTimeout': 'ဤကျပန်းရွေးချယ်မှုသည် အချိန်အလွန်ကြာနေပါသည် — အချင်းဝက် သို့မဟုတ် အကွာအဝေးကို လျှော့၍ ကြိုးစားပါ။',
       'error.minDistanceNotFound': 'သင်၏ အခြား ဆက်တင်များ (အပြန် အချင်းဝက်၊ ခရီးစခန်းများကြား အကွာအဝေး၊ ဖယ်ရီများ…) ကို လိုက်နာလျက် အနည်းဆုံး {min} ဝေးသော ခရီးစဉ် မတွေ့ပါ။ အနည်းဆုံး အကွာအဝေးကို လျှော့ပါ သို့မဟုတ် ဤဆက်တင်များကို ဖြေလျှော့ပါ။',
       'theme.auto': 'အလိုအလျောက်',
@@ -132232,6 +132363,7 @@
 
       'error.tooManyRequests': 'มีคำขอมากเกินไปในเวลาสั้น ๆ — โปรดลองอีกครั้งในอีกหนึ่งนาที',
       'error.serverBusy': 'เซิร์ฟเวอร์มีผู้ใช้งานหนาแน่นมาก — โปรดลองอีกครั้งในอีกสักครู่',
+      'error.network': 'เชื่อมต่อเซิร์ฟเวอร์ไม่ได้: ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วลองอีกครั้ง',
       'error.drawTimeout': 'การสุ่มครั้งนี้ใช้เวลานานเกินไป — ลองลดรัศมีหรือระยะทางลง',
       'error.minDistanceNotFound': 'ไม่พบเส้นทางที่ไปไกลอย่างน้อย {min} โดยยังเป็นไปตามการตั้งค่าอื่นของคุณ (รัศมีขากลับ ระยะทางระหว่างจุดแวะ เรือเฟอร์รี…) โปรดลดระยะทางขั้นต่ำ หรือผ่อนปรนการตั้งค่าเหล่านี้',
       'theme.auto': 'อัตโนมัติ',
@@ -133218,6 +133350,7 @@
 
       'error.tooManyRequests': 'ມີຄຳຮ້ອງຂໍຫຼາຍເກີນໄປໃນເວລາສັ້ນໆ — ກະລຸນາລອງໃໝ່ໃນອີກໜຶ່ງນາທີ.',
       'error.serverBusy': 'ເຊີບເວີກຳລັງຫຍຸ້ງຫຼາຍ — ກະລຸນາລອງໃໝ່ໃນອີກບໍ່ດົນ.',
+      'error.network': 'ບໍ່ສາມາດຕິດຕໍ່ເຊີບເວີໄດ້: ກວດເບິ່ງການເຊື່ອມຕໍ່ອິນເຕີເນັດຂອງທ່ານແລ້ວລອງໃໝ່.',
       'error.drawTimeout': 'ການສຸ່ມຄັ້ງນີ້ໃຊ້ເວລາດົນເກີນໄປ — ລອງຫຼຸດລັດສະໝີ ຫຼື ໄລຍະທາງລົງ.',
       'error.minDistanceNotFound': 'ບໍ່ພົບເສັ້ນທາງທີ່ໄປໄກຢ່າງໜ້ອຍ {min} ໂດຍຍັງເປັນໄປຕາມການຕັ້ງຄ່າອື່ນຂອງທ່ານ (ລັດສະໝີຂາກັບ, ໄລຍະທາງລະຫວ່າງຈຸດແວະ, ເຮືອເຟີຣີ…). ກະລຸນາຫຼຸດໄລຍະທາງຂັ້ນຕ່ຳ ຫຼື ຜ່ອນຜັນການຕັ້ງຄ່າເຫຼົ່ານີ້.',
       'theme.auto': 'ອັດຕະໂນມັດ',
@@ -134204,6 +134337,7 @@
 
       'error.tooManyRequests': 'សំណើច្រើនពេកក្នុងរយៈពេលខ្លី — សូមព្យាយាមម្ដងទៀតក្នុងរយៈពេលមួយនាទី។',
       'error.serverBusy': 'ម៉ាស៊ីនមេកំពុងមមាញឹកខ្លាំង — សូមព្យាយាមម្ដងទៀតបន្តិចទៀត។',
+      'error.network': 'មិនអាចភ្ជាប់ទៅម៉ាស៊ីនមេបានទេ៖ ពិនិត្យការតភ្ជាប់អ៊ីនធឺណិតរបស់អ្នក រួចព្យាយាមម្ដងទៀត។',
       'error.drawTimeout': 'ការចាប់ឆ្នោតនេះចំណាយពេលយូរពេក — សូមសាកល្បងកាំ ឬចម្ងាយតូចជាងនេះ។',
       'error.minDistanceNotFound': 'រកមិនឃើញផ្លូវធ្វើដំណើរដែលទៅឆ្ងាយយ៉ាងតិច {min} ហើយនៅតែគោរពការកំណត់ផ្សេងទៀតរបស់អ្នក (កាំត្រឡប់ ចម្ងាយរវាងចំណត សាឡាង…) ទេ។ សូមបន្ថយចម្ងាយអប្បបរមា ឬបន្ធូរការកំណត់ទាំងនេះ។',
       'theme.auto': 'ស្វ័យប្រវត្តិ',
@@ -135190,6 +135324,7 @@
 
       'error.tooManyRequests': 'Quá nhiều yêu cầu trong thời gian ngắn: hãy thử lại sau một phút.',
       'error.serverBusy': 'Máy chủ đang quá tải: hãy thử lại sau giây lát.',
+      'error.network': 'Không kết nối được tới máy chủ: hãy kiểm tra kết nối internet rồi thử lại.',
       'error.drawTimeout': 'Lần bốc thăm này mất quá nhiều thời gian: hãy thử bán kính hoặc khoảng cách nhỏ hơn.',
       'error.minDistanceNotFound': 'Không tìm thấy lộ trình nào đi xa ít nhất {min} mà vẫn tuân thủ các cài đặt khác của bạn (bán kính quay về, khoảng cách giữa các điểm dừng, phà…). Hãy giảm khoảng cách tối thiểu hoặc nới lỏng các cài đặt này.',
       'theme.auto': 'Tự động',
@@ -136176,6 +136311,7 @@
 
       'error.tooManyRequests': 'Pedidu barak liuliu iha tempu badak: koko fali iha minutu ida nia laran.',
       'error.serverBusy': 'Servidór okupadu tebes: koko fali iha momentu badak.',
+      'error.network': 'La bele hetan servidor: haree ita-nia ligasaun internet no koko fali.',
       'error.drawTimeout': 'Sorteiu ne\'e han tempu naruk liuliu: koko ho raiu ka distánsia ne\'ebé ki\'ik liu.',
       'error.minDistanceNotFound': "La hetan roteiru ida ne'ebé ba dook pelumenus {min} no respeita ita-nia konfigurasaun seluk (raiu fila, distánsia entre paragen sira, ró…). Hamenus distánsia mínimu, ka halo konfigurasaun hirak-ne'e sai flexível liután.",
       'theme.auto': 'Automátiku',
@@ -137162,6 +137298,7 @@
 
       'error.tooManyRequests': 'Terlalu banyak permintaan dalam waktu singkat: coba lagi dalam satu menit.',
       'error.serverBusy': 'Server sedang sangat sibuk: coba lagi beberapa saat lagi.',
+      'error.network': 'Tidak dapat menghubungi server: periksa koneksi internet Anda lalu coba lagi.',
       'error.drawTimeout': 'Pengundian ini memakan waktu terlalu lama: coba radius atau jarak yang lebih kecil.',
       'error.minDistanceNotFound': 'Tidak ditemukan rencana perjalanan yang menjauh setidaknya {min} sekaligus mematuhi pengaturan Anda yang lain (radius pulang, jarak antarpersinggahan, feri…). Kurangi jarak minimum atau longgarkan pengaturan tersebut.',
       'theme.auto': 'Otomatis',
@@ -138148,6 +138285,7 @@
 
       'error.tooManyRequests': 'Terlalu banyak permintaan dalam masa yang singkat: cuba lagi dalam seminit.',
       'error.serverBusy': 'Pelayan sedang sangat sibuk: cuba lagi sebentar nanti.',
+      'error.network': 'Pelayan tidak dapat dihubungi: semak sambungan internet anda dan cuba lagi.',
       'error.drawTimeout': 'Cabutan ini mengambil masa terlalu lama: cuba radius atau jarak yang lebih kecil.',
       'error.minDistanceNotFound': 'Tiada jadual perjalanan ditemui yang pergi sekurang-kurangnya {min} sambil mematuhi tetapan anda yang lain (radius pulang, jarak antara persinggahan, feri…). Kurangkan jarak minimum atau longgarkan tetapan ini.',
       'theme.auto': 'Auto',
@@ -139134,6 +139272,7 @@
 
       'error.tooManyRequests': 'Panyuwunan kathahen wonten ing wekdal ingkang cekak: mangga cobi malih setunggal menit malih.',
       'error.serverBusy': 'Server saweg sibuk sanget: mangga cobi malih sakedhap malih.',
+      'error.network': 'Server ora bisa digayuh: priksanen sambungan internet sampeyan banjur coba maneh.',
       'error.drawTimeout': 'Undhian punika dangu sanget: mangga cobi radius utawi tebih ingkang langkung alit.',
       'error.minDistanceNotFound': 'Boten wonten rute ingkang kapanggih ingkang tebihipun paling sekedhik {min} sarta tetep nuruti setelan panjenengan sanesipun (radius wangsul, tebih ing antawisipun papan mampir, kapal feri…). Kirangi tebih minimal, utawi longgaraken setelan punika.',
       'theme.auto': 'Otomatis',
@@ -140120,6 +140259,7 @@
 
       'error.tooManyRequests': 'Labis na dami ng kahilingan sa maikling panahon: subukang muli makalipas ang isang minuto.',
       'error.serverBusy': 'Lubhang abala ang server: subukang muli sa ilang sandali.',
+      'error.network': 'Hindi maabot ang server: tingnan ang iyong koneksyon sa internet at subukang muli.',
       'error.drawTimeout': 'Labis na tumagal ang bunutang ito: sumubok ng mas maliit na radyus o distansiya.',
       'error.minDistanceNotFound': 'Walang nahanap na itineraryo na lumalayo nang hindi bababa sa {min} habang iginagalang ang iba pang setting (radyus ng pagbabalik, layo sa pagitan ng mga hintuan, ferry…). Bawasan ang pinakamaikling distansiya, o gawing maluwag ang mga setting na ito.',
       'theme.auto': 'Awto',
@@ -141106,6 +141246,7 @@
 
       'error.tooManyRequests': 'He nui rawa ngā tono i te wā poto: whakamātau anō ā tētahi meneti.',
       'error.serverBusy': 'He tino pukumahi te tūmau: whakamātau anō ākuanei.',
+      'error.network': 'Kāore e taea te toro atu ki te tūmau: tirohia tō hononga ipurangi ka ngana anō.',
       'error.drawTimeout': 'I roa rawa tēnei tohu matapōkere: whakamātauria he pūtoro, he tawhiti rānei e iti iho ana.',
       'error.minDistanceNotFound': 'Kāore he ara haerenga i kitea e haere ana kia {min} te tawhiti, neke atu rānei, me te ū ki ō tautuhinga kē (pūtoro hokinga, tawhiti i waenga i ngā tūnga, waka kōpiko…). Whakaitia te tawhiti mōkito, whakangāwaritia rānei ēnei tautuhinga.',
       'theme.auto': 'Aunoa',
@@ -142092,6 +142233,7 @@
 
       'error.tooManyRequests': 'Ua tele naua talosaga i se taimi puʻupuʻu: toe taumafai i le isi minute.',
       'error.serverBusy': 'Ua matuā pisi le masini tautua: toe taumafai i sina taimi.',
+      'error.network': 'E le mafai ona oo atu i le server: siaki lau fesootaiga i le initaneti ona toe taumafai lea.',
       'error.drawTimeout': 'Ua umi tele lenei filifiliga: taumafai i se tapulaʻa laʻititi o le mamao.',
       'error.minDistanceNotFound': 'E leai se malaga na maua e alu ese i le itiiti ifo {min} a o loʻo usitaia isi au faʻatulagaga (mamao toe foʻi, mamao i le va o taofiga, vaʻa laʻu pasese…). Faʻaitiitia le mamao maualalo, pe faʻamāmā nei faʻatulagaga.',
       'theme.auto': 'Otometi',
@@ -143078,6 +143220,7 @@
 
       'error.tooManyRequests': 'E rahi roa te mau aniraʻa i roto i te tau poto: ʻa tāmata faʻahou i te hōʻē miniti.',
       'error.serverBusy': 'E rahi roa te ʻohipa a te mātini tāvini: ʻa tāmata faʻahou i muri aʻe.',
+      'error.network': 'Eita e nehenehe e tae i te tavana roro uira: a hiopoa i ta oe taamuraa itenete e a tamata faahou.',
       'error.drawTimeout': 'Ua maoro roa teie maʻiti: ʻa tāmata i te hōʻē ātea iti aʻe.',
       'error.minDistanceNotFound': 'ʻAita i ʻitehia te hōʻē ʻeʻa tere e haere ātea atu i te {min} i te mea iti roa ma te faʻatura i tō ʻoe mau faʻanahoraʻa ʻē atu (ātea hoʻiraʻa, ātea i rotopū i te mau vāhi faʻaeaʻa, pahī…). ʻA faʻaiti i te ātea iti roa, ʻaore rā ʻa faʻamāmā i teie mau faʻanahoraʻa.',
       'theme.auto': 'Ātōmatī',
@@ -144064,6 +144207,7 @@
 
       'error.tooManyRequests': 'Nui loa nā noi i loko o ka manawa pōkole: e hoʻāʻo hou ma hope o hoʻokahi minuke.',
       'error.serverBusy': 'Paʻahana loa ke kikowaena pūnaewele: e hoʻāʻo hou ma hope iki.',
+      'error.network': 'Hiki ʻole ke hoʻopili i ke kikowaena: e nānā i kāu pilina pūnaewele a hoʻāʻo hou.',
       'error.drawTimeout': 'Ua lōʻihi loa kēia koho ʻana: e hoʻāʻo i ka palena mamao liʻiliʻi aʻe.',
       'error.minDistanceNotFound': 'ʻAʻole i loaʻa kekahi ala huakaʻi e hele ana i {min} ma ka liʻiliʻi loa me ka mālama pū i kāu mau hoʻonohonoho ʻē aʻe (palena mamao hoʻi, mamao ma waena o nā kū, nā moku halihali…). E hōʻemi i ka mamao liʻiliʻi loa, a i ʻole e hoʻomāmā i kēia mau hoʻonohonoho.',
       'theme.auto': 'ʻAkomi',
@@ -145050,6 +145194,7 @@
 
       'error.tooManyRequests': 'Twòp demann nan yon ti tan: eseye ankò nan yon minit.',
       'error.serverBusy': 'Sèvè a okipe anpil: eseye ankò nan kèk ti moman.',
+      'error.network': 'Nou pa ka jwenn sèvè a: tcheke koneksyon entènèt ou epi eseye ankò.',
       'error.drawTimeout': 'Tiraj sa a t ap pran twòp tan: eseye yon reyon oswa yon distans ki pi piti.',
       'error.minDistanceNotFound': 'Nou pa jwenn okenn itinerè ki ale omwen {min} lwen pandan l respekte lòt paramèt ou yo (reyon retou, distans ant etap yo, bato…). Bese distans minimòm lan, oswa bay plis lage nan paramèt sa yo.',
       'theme.auto': 'Oto',
@@ -146036,6 +146181,7 @@
 
       'error.tooManyRequests': 'Hopi peticion den un tempo cortico: purba atrobe den un minuut.',
       'error.serverBusy': 'E servidor ta hopi ocupa: purba atrobe den un rato.',
+      'error.network': 'No por yega na e server: kontrolá bo koneksion di internet i purba atrobe.',
       'error.drawTimeout': 'E sorteo aki tabata tuma hopi tempo: purba un radio of distancia mas chikito.',
       'error.minDistanceNotFound': 'No a haya ningun itinerario cu ta bai por lo menos {min} leu y ainda respeta bo otro ajustenan (radio di bolbe, distancia entre paradanan, barconan…). Baha e distancia minimo, of hacie e ajustenan aki menos stricto.',
       'theme.auto': 'Automatico',
@@ -147022,6 +147168,7 @@
 
       'error.tooManyRequests': 'Hopi petishon den un tempu kortiku: purba atrobe den un minüt.',
       'error.serverBusy': 'E sirbidó ta hopi okupá: purba atrobe den un ratu.',
+      'error.network': 'No por yega na e serbidó: kontrolá bo konekshon di internet i purba atrobe.',
       'error.drawTimeout': 'E sorteo aki tabata tuma hopi tempu: purba un radio òf distansia mas chikí.',
       'error.minDistanceNotFound': 'No a haña ningun itinerario ku ta bai por lo ménos {min} leu i ainda respetá bo otro ahustenan (radio di bolbe, distansia entre paradanan, barkunan…). Baha e distansia mínimo, òf hasi e ahustenan aki ménos strikto.',
       'theme.auto': 'Outomátiko',
@@ -148008,6 +148155,7 @@
 
       'error.tooManyRequests': 'Pisi pachallapi ancha achkha mañakuykuna: huk minutumanta wakmanta ruway.',
       'error.serverBusy': 'Servidorqa ancha llamk\'ayniyuqmi: huk ratullamanta wakmanta ruway.',
+      'error.network': 'Manam servidorman chayaytaqa atinchu: internet tinkiyniykita qhaway, hinaspa yapamanta ruwariy.',
       'error.drawTimeout': 'Kay akllayqa ancha unaytam tardarqa: aswan huch\'uy karu kay saywata utaq karu kayta churay.',
       'error.minDistanceNotFound': "Manam tarikunchu {min} karuman riq ñanta, huk churasqaykikunata hunt'aspa (kutimuy saywa, samanakuna chawpipi karu kay, wamp'ukuna…). Aswan pisi karu kayta pisiyachiy, utaq kay churasqakunata llamp'uyachiy.",
       'theme.auto': 'Kikillanmanta',
@@ -148994,6 +149142,7 @@
 
       'error.tooManyRequests': 'Uchilla pachapi yapa achka mañaykuna: shuk minutu kipa kutin rurapay.',
       'error.serverBusy': 'Servidorka yapa llamkaywanmi kan: ashalla kipa kutin rurapay.',
+      'error.network': 'Mana servidorman chayaytaka ushanchu: kikinpak internet tinkita rikuy, chaymanta kutin rurapay.',
       'error.drawTimeout': 'Kay akllayka yapa unaytami karka: ashtawan uchilla karukaypak saywata, mana kashpaka karukayta churapay.',
       'error.minDistanceNotFound': 'Mana tarinchu {min} karuman rik ñanta, shuk churashkaykikunata paktachishpa (tikrana saywa, samanakuna chawpipi karukay, wampukuna…). Ashtawan uchilla karukayta uchillayachiy, mana kashpaka kay churashkakunata llampuyachiy.',
       'theme.auto': 'Kikinllamanta',
@@ -149980,6 +150129,7 @@
 
       'error.tooManyRequests': 'Hetaiterei mba\'ejerure ára mbykymíme: eha\'ã jey peteĩ aravo\'i rire.',
       'error.serverBusy': 'Mohendaha guasu omba\'apoiterei hína: eha\'ã jey sapy\'ami rire.',
+      'error.network': 'Ndaikatúi ñañemoirũ servidor ndive: ehecha nde internet jeikuaa ha eñeha ambue jey.',
       'error.drawTimeout': 'Ko poravo ohasaiterei ára: eha\'ã mombyrykue paha michĩvéva térã mombyrykue michĩvéva.',
       'error.minDistanceNotFound': "Ndojejuhúi tape oho {min} sa'ivérõ ha omomba'éva ne ñemboheko ambuépe (mombyrykue jevy, mombyrykue tenda ha tenda mbytépe, yga guasu…). Emomichĩ mombyrykue michĩvéva, térã emboporãve ko'ã ñemboheko.",
       'theme.auto': 'Ijehegui',
@@ -150966,6 +151116,7 @@
 
       'error.tooManyRequests': 'ꄮꄉꑞꇁꐯꀋꎭ — ꋍꃅꂨꇬꊠꏂ。',
       'error.serverBusy': 'ꃚꃶꏾꊿꀋꎭ — ꎴꉷꊠꏂ。',
+      'error.network': 'ꀋꉆꀋꉆ ꌐꎖꏦ ꄀꈁ: ꆏꃅ ꀋꅉ ꀊꆨꄮꈯ ꇬꄷ ꀋꆹ ꂘꅍ.',
       'error.drawTimeout': 'ꌕꏢꍲꄮꄉꎭꀋ — ꀠꏢꑣꍝꆏꊠꏂ。',
       'error.minDistanceNotFound': 'ꀋꂓꊫꌐꉬ {min}ꁧꑣꊠ，ꉢꇬꆏꀋꈌꑳ（ꏂꏦꀠꏢ，ꍈꏦꏸꆹ，ꇐꄖ…）。ꊏꎴꏸꆹꏦꎴ，ꉷꀠꏢꊠꏦ。',
       'theme.auto': 'ꀋꐚꇐ',
@@ -151952,6 +152103,7 @@
 
       'error.tooManyRequests': 'Meggai na kinalamten gi dididi na tiempo: chagi ta\'lo gi un minutu.',
       'error.serverBusy': 'Mappot i server pa\'go: chagi ta\'lo gi ti apmam.',
+      'error.network': 'Ti siña makonekta gi server: chekka i koneksion-mu gi internet ya intento ta-lo.',
       'error.drawTimeout': 'Ha tagåhan i ayek este: chagi un dikike\' mås na radio pat distånsia.',
       'error.minDistanceNotFound': "Ti ma sodda' un chalan ni hånao gi menos {min} ya ha rispeta i pumalo' na setting-mu (radion bira, distånsian entalo' i pinara siha, batko siha…). Na'dikike' i minimun distånsia, pat na'suhayo' esti siha na setting.",
       'theme.auto': 'Otomåtiko',
@@ -152938,6 +153090,7 @@
 
       'error.tooManyRequests': 'Ng betok a kerekur er a kekedeb el taem: bo ke mo er ngii er a ta el minit.',
       'error.serverBusy': 'Ng betok a urereor er a server: bo ke mo er ngii el kot.',
+      'error.network': 'Ng diak el sebechel el mo er a server: momes er a omerellem el mo er a internet e luut el mosaod.',
       'error.drawTimeout': 'A ika el melilt a mle mekesai el taem: bo ke mo er a kekedeb el cheroid.',
       'error.minDistanceNotFound': 'Ng diak a mlo er a sils el omerael el mo er a {min} me a oururt er a bebil er a ulekerngel (cheroid er a remei, cheroid er a beluu me a beluu, mlai…). Mengekere a kekere el cheroid, me a mengelou a ulekerngel.',
       'theme.auto': 'Otomatik',
@@ -153924,6 +154077,7 @@
 
       'error.tooManyRequests': 'Elōn̄ lukkuun kajjitōk ilo juon iien jidik: bar kajjeon̄e ilo juon minit.',
       'error.serverBusy': 'Server eo ej lukkuun bōkāro: bar kajjeon̄e ilo iien eo tok.',
+      'error.network': 'Ejjab maroñ tōpar server eo: lale connection in internet eo am innem bar kajjioñ.',
       'error.drawTimeout': 'Kāālōt in ear aitok an iien: kajjeon̄e juon ettoļo̧k eo edik lok.',
       'error.minDistanceNotFound': 'Ejjeļo̧k jambo eo ear lo̧k eo ej etal {min} im kōjparok kōmņmōn ko jet am (ettoļo̧k in jepļaak, ettoļo̧k ikōtaan bukwōn ko, tima ko…). Kōdiklo̧k ettoļo̧k edik tata, ak kōmeļeļo̧k kōmņmōn kein.',
       'theme.auto': 'Otomatik',
@@ -154910,6 +155064,7 @@
 
       'error.tooManyRequests': 'Nui ʻoa te tau tono i te tau poto: a tāmata hakahou i te hoʻe miniti.',
       'error.serverBusy': 'Nui ʻoa te hana a te mātini: a tāmata hakahou.',
+      'error.network': 'Aoe e tae i te tavana uira: a hakaite i to oe tauamuana itenete a tamata hou.',
       'error.drawTimeout': 'Ua mamau ʻoa tēnei vae: a tāmata i te mamao iti atu.',
       'error.minDistanceNotFound': 'ʻAʻe i kite ʻia te aʻa heʻe mamao {min} me te tapu i tō ʻoe tau hakatika ʻē (mamao hoki, mamao mai te vāhi hakatū ʻi te vāhi hakatū, pahī…). A hakaiti i te mamao iti ʻoa, me a hakamāmā i tēnei tau hakatika.',
       'theme.auto': 'Otomati',
@@ -155896,6 +156051,7 @@
 
       'error.tooManyRequests': 'Piffissami naatsumi qinnutit amerlavallaarput: minutsip ataatsip qaangiunnerani misileeqqiguk.',
       'error.serverBusy': 'Qarasaasiaq sullissivik ulapputivoq: sivitsunngitsukkut misileeqqiguk.',
+      'error.network': 'Aaqqissuisoq attaveqarfigineqarsinnaanngilaq: internetimut attaveqarnerit misissugit uterlutillu misileqqikkit.',
       'error.drawTimeout': 'Nalaatsornikkut toqqaaneq sivisuallaarpoq: ungasissutsip killinga minnerusoq imaluunniit ungasissuseq minnerusoq misiliguk.',
       'error.minDistanceNotFound': 'Angalanissaq minnerpaamik {min} ungasitsigisumut ingerlasoq allanillu aaqqissuussinitit (angerlarnermi killigititaq, unikkallarfiit akornanni ungasissuseq, umiarsuit…) malittoq nassaarineqanngilaq. Ungasissuseq minnerpaaq annikillisiguk, imaluunniit aaqqissuussinerit taakku kivillisikkit.',
       'theme.auto': 'Nammineq',
@@ -156882,6 +157038,7 @@
 
       'error.tooManyRequests': 'Jisk\'a pachanx walja mayiwinakaw utji: mä minutut wasitat yant\'ma.',
       'error.serverBusy': 'Servidorax wali irnaqaskiwa: mä juk\'at wasitat yant\'ma.',
+      'error.network': 'Janiw servidoraru puriñjamäkiti: internet chinuñama uñakipma ukatsti wasitat yant asim.',
       'error.drawTimeout': 'Aka ajllisiñax sinti jaya pachanaqaskänwa: juk\'a jayapa jark\'awi jan ukax juk\'a jayap yant\'ma.',
       'error.minDistanceNotFound': "Janiw mä thakhis jikxataskiti {min} jayar saraski ukat yaqha wakicht'awinakam phuqhaski (kutt'añ muyu, sayt'awinak taypin jayapa, wapurunaka…). Minimu jayap juk'achma, jan ukax aka wakicht'awinak llamp'uchma.",
       'theme.auto': 'Pachpa',
@@ -157868,6 +158025,7 @@
 
       'error.tooManyRequests': 'Ya\'ab k\'áatchi\'ob ichil jump\'íit k\'iin: ka\'a tuunt ichil jump\'éel minuutoj.',
       'error.serverBusy': 'Le servidoro\' jach ya\'ab u meyaj: ka\'a tuunt ichil jump\'íit.',
+      'error.network': "Ma tu páajtal u k'uchul tak le servidoro: ila' a much'k'ajil internet ka a ka' tuukul.",
       'error.drawTimeout': 'Le yéeyaja\' táan u xáantal: tuunt jump\'éel chan xuul u náachil wa jump\'éel chan náachil.',
       'error.minDistanceNotFound': "Ma' kaxta'ab mix jump'éel bej ku bin tak {min} yéetel ku tsikbesik u láak' a nu'ukbesajil (u náachil suut, u náachil ichil kúuchilo'ob, nojoch chemo'ob…). Chichankúuns u asab chichan náachil, wa ch'a'ak u sáasilil le nu'ukbesajo'oba'.",
       'theme.auto': 'Tu juunal',
@@ -158854,6 +159012,7 @@
 
       'error.tooManyRequests': 'K\'i taq tz\'onob\'al pa jun ch\'uti ramaj: chab\'ana\' chik jumul chi rij jun minut.',
       'error.serverBusy': 'Ri servidor k\'o k\'i uchak: chab\'ana\' chik jumul pa jun ch\'uti ramaj.',
+      'error.network': "Man kuriq ta ri servidor: chaway ri asamajib'al internet k'ate k'u ri' chatik'ij chik.",
       'error.drawTimeout': 'Wa\' cha\'oj xuk\'am k\'i ramaj: chatojtob\'ej jun ch\'uti uk\'ulb\'at ri najtajil o jun ch\'uti najtajil.',
       'error.minDistanceNotFound': "Man xriqitaj ta jun b'e ri kab'e {min} naj xuquje' kukoj ri jujun chik ab'anikil (najtajil re tzalijem, najtajil chi kikojol ri uxlanib'al, jukub'…). Chaqasaj ri ko'ol najtajil, o chab'ana' chi ma tijin ta ri ab'anikil ri'.",
       'theme.auto': 'Utukel',
@@ -159840,6 +159999,7 @@
 
       'error.tooManyRequests': 'Janila k\'iy taq k\'utunïk pa jun ch\'uti ramaj: tab\'ana\' chik jun mul chi rij jun minut.',
       'error.serverBusy': 'Ri servidor janila k\'o rusamaj: tab\'ana\' chik jun mul pa jun ch\'uti ramaj.',
+      'error.network': "Man nilitäj ta ri servidor: tatzu ri awokisab'al internet k'a ri' tatojtob'ej chik.",
       'error.drawTimeout': 'Re cha\'oj re\' xuk\'ëx janila q\'ij: tatojtob\'ej jun ch\'utin ruk\'isib\'äl runajtil o jun ch\'utin runajtil.',
       'error.minDistanceNotFound': "Man xrïl ta jun b'ey ri nib'e {min} näj chuqa' nrajo' ri ch'aqa' chik runuk'ulem (runajtil tzolin, runajtil chi kikojol ri uxlanib'äl, jukub'…). Taqasaj ri ko'öl runajtil, o tab'ana' chi man k'ayew ta ri runuk'ulem re'.",
       'theme.auto': 'Ruyonil',
@@ -160826,6 +160986,7 @@
 
       'error.tooManyRequests': 'Nab\'al li tz\'aamanb\'il sa\' jun ch\'ina hoonal: chab\'aanu wi\' chik chirix jun minuut.',
       'error.serverBusy': 'Li servidor k\'ajo\' xk\'anjel: chab\'aanu wi\' chik sa\' jun ch\'ina hoonal.',
+      'error.network': "Ink'a nataw li servidor: ilomak lee xk'anjelob'aal internet ut chab'aanu wi' chik.",
       'error.drawTimeout': 'Li sik\'ok a\'in naxk\'am nab\'al li hoonal: chayal jun ch\'ina xraqik li najtil malaj jun ch\'ina najtil.',
       'error.minDistanceNotFound': "Ink'a' xtawman jun b'e li naxik {min} najt ut naxk'e xwankilal li jalan chik aak'anjel (najtil re sutq'ijik, najtil sa' xyanqeb' li hilanib'aal, jukub'…). Chaakach'inob'resi li kach'in najtil, malaj chaab'aanu naab'al xsaqenal li k'anjel a'in.",
       'theme.auto': 'Xjunes',
@@ -161167,7 +161328,7 @@
       'pack.confortable': ['Gaueko jatetxerako arropa egokia', 'Garbiketa kit osoa'],
       'pack.voitureThermique': ['Zirkulazio agiriak eta baimena eguneratuta', 'Lehen sorospen kita'],
       'pack.voitureHybride': ['Zirkulazio agiriak eta baimena eguneratuta', 'Lehen sorospen kita'],
-      'pack.voitureElectrique': ['2 motako kargatze-kablea', 'Kargatze-puntuen aplikazio multisarea (adib. Chargemap)', 'Iragarritako autonomiaren %20ko marjina'],
+      'pack.voitureElectrique': ['2 motako kargatze-kablea', 'Kargatze-puntuen aplikazio multisarea (adib. Chargemap)', 'Iragarritako autonomiaren % 20ko marjina'],
       'pack.van': ['Edateko ur bidoia', 'Kanpineko gas bonbona', 'Nibelatzeko kunak'],
       'pack.moto': ['Kaskoa eta eskularruak', 'Euri-jantzia edo euri-galtzak', 'Ekipajerako uhal elastikoak'],
       'pack.velo': ['Pintxadura aurkako kit osoa', 'Zorro urtezinak', 'GPSrako kanpo bateria']
@@ -161781,7 +161942,7 @@
       'pack.confortable': ['Cilên guncaw ji bo xwarina êvarê li xwaringehê', 'Çenteya paqijiyê ya temam'],
       'pack.voitureThermique': ['Belgeya wesayîtê û ehliyeta derbasdar', 'Çenteya alîkariya yekem'],
       'pack.voitureHybride': ['Belgeya wesayîtê û ehliyeta derbasdar', 'Çenteya alîkariya yekem'],
-      'pack.voitureElectrique': ['Kabloya şarjê ya Type 2', 'Sepana stasyonên şarjê ya pir-torî (mînak Chargemap)', 'Marjeke 20% li ser menzîla ragihandî'],
+      'pack.voitureElectrique': ['Kabloya şarjê ya Type 2', 'Sepana stasyonên şarjê ya pir-torî (mînak Chargemap)', 'Marjeke %20 li ser menzîla ragihandî'],
       'pack.van': ['Bidona ava vexwarinê', 'Kartûşa gaza kampê', 'Blokên hevsengkirinê'],
       'pack.moto': ['Kask û destik', 'Kincê baranê an şalwarê baranê', 'Bendên lastîkî ji bo barê'],
       'pack.velo': ['Kîta temam a tamîrkirina qulbûna tekerê', 'Çenteyên bisiklêtê yên avnegir', 'Bataryaya derve ji bo GPS']
