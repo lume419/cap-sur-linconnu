@@ -444,6 +444,19 @@
     currencyButtonEl = document.createElement('button');
     currencyButtonEl.type = 'button';
     currencyButtonEl.className = 'currency-toggle-btn';
+    // Sémantique ARIA (17e audit du 20/09/2026, même correction qu'au 17e pour le sélecteur de langue — voir le
+    // commentaire devant buildSwitcher dans js/i18n.js) : le bouton annonçait aria-haspopup="listbox" alors que le
+    // panneau portait role="dialog". Deux motifs pour un seul composant : un lecteur d'écran annonçait « dialogue »,
+    // puis « liste ». L'ensemble est ramené au SEUL motif réellement implémenté — bouton → liste d'options à focus
+    // glissant :
+    //   - le bouton garde aria-haspopup="listbox" et désigne la liste par aria-controls ;
+    //   - le panneau n'est plus qu'un conteneur de mise en page, sans rôle (display:none quand il est fermé : rien
+    //     n'en sort dans l'arbre d'accessibilité), et donc sans aria-label — personne n'annonce celui d'un <div>
+    //     sans rôle ;
+    //   - la liste porte role="listbox" et le nom accessible du composant (voir applyCurrencyPanelTexts), les
+    //     options role="option".
+    // Pas de champ de recherche ici (une trentaine d'options au plus) : aucun role="combobox" à retirer.
+    // Aucun changement de comportement : mêmes classes, mêmes écouteurs, même navigation au clavier.
     currencyButtonEl.setAttribute('aria-haspopup', 'listbox');
     currencyButtonEl.setAttribute('aria-expanded', 'false');
     currencyButtonEl.innerHTML =
@@ -455,7 +468,6 @@
 
     currencyPanelEl = document.createElement('div');
     currencyPanelEl.className = 'currency-panel';
-    currencyPanelEl.setAttribute('role', 'dialog');
 
     currencyListEl = document.createElement('ul');
     currencyListEl.className = 'currency-option-list';
@@ -501,8 +513,10 @@
     var full = t('currency.buttonLabel') + ' — ' + (getPreferredCurrency() || t('currency.auto'));
     currencyButtonEl.setAttribute('aria-label', full);
     currencyButtonEl.title = full;
-    // Nom du panneau (role="dialog" sans nom au 10e audit) et libellé « Auto » du bouton dans la langue courante.
-    if(currencyPanelEl) currencyPanelEl.setAttribute('aria-label', t('currency.buttonLabel'));
+    // Nom accessible du composant : porté par la LISTE depuis le 17e audit du 20/09/2026, le panneau n'ayant plus de
+    // rôle (il le portait depuis le 10e audit, quand il était encore un « dialogue »). Puis libellé « Auto » du bouton
+    // dans la langue courante.
+    if(currencyListEl) currencyListEl.setAttribute('aria-label', t('currency.buttonLabel'));
     renderCurrencyButton();
   }
   buildCurrencySwitcher();
@@ -1341,6 +1355,23 @@
     var p = function(n){ return (n < 10 ? '0' : '') + n; };
     return p(d.getDate()) + '.' + p(d.getMonth() + 1) + (opts && opts.year ? '.' + d.getFullYear() : '');
   }
+  // Nom d'un pays dans la langue d'interface — Intl.DisplayNames, sinon le nom des données (COUNTRIES[..].name, en
+  // FRANÇAIS) ou celui reçu du serveur. Factorisé au 17e audit du 20/09/2026 pour les quatre emplois (infobulle des
+  // suggestions, avertissement moto à l'écran et dans le PDF, étiquette de vignette).
+  // La 16e passe avait coupé Intl.DisplayNames pour le touroyo et l'adyguéen, au motif qu'il répond dans la LOCALE DE
+  // REPLI : c'était remplacer un nom lisible par un mot d'une TROISIÈME langue, encore moins lisible. Le repli de ces
+  // deux langues n'est pas quelconque (voir LOCALE_FALLBACK dans i18n.js) : c'est la langue de contact de leurs
+  // locuteurs, DANS LEUR PROPRE ÉCRITURE — russe (cyrillique) pour l'adyguéen de la république d'Adyguée, turc (latin)
+  // pour le touroyo du Tur Abdin. « Швейцария » et « İsviçre » sont donc lus par ce public ; « Suisse » ne l'est pas.
+  // Le principe retenu : jamais un mot d'une langue tierce MOINS lisible que l'alternative — ici le repli gagne, alors
+  // que pour les dates et les durées (numericDatesLang, durationWords) le format neutre en chiffres gagne, parce qu'il
+  // se passe entièrement de mots. Aucune exception par langue : Intl.DisplayNames pour tout le monde.
+  function countryDisplayName(cc, fallback){
+    var name = fallback || (COUNTRIES[cc] && COUNTRIES[cc].name) || cc || '';
+    if(!cc) return name;
+    try { name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(cc) || name; } catch(e){}
+    return name;
+  }
   function localeDateText(d, opts){
     return numericDatesLang() ? numericDateText(d, opts) : d.toLocaleDateString(localeTag(), opts);
   }
@@ -1641,13 +1672,8 @@
       var cpSpan = document.createElement('span');
       cpSpan.className = 'suggest-cp';
       cpSpan.textContent = formatCpBadge(r);
-      // Nom du pays dans la langue d'interface (COUNTRIES[..].name est en français).
-      // 16e audit du 20/09/2026 : sans données propres à la langue dans le navigateur (touroyo, adyguéen),
-      // Intl.DisplayNames répond dans la LOCALE DE REPLI — « Fransa » en turc, « Франция » en russe, au milieu d'une
-      // infobulle par ailleurs dans la langue. Même condition que les dates en chiffres (15e passe, voir
-      // numericDatesLang) : on garde alors le nom de COUNTRIES plutôt qu'un mot d'une langue tierce.
-      var countryName = (COUNTRIES[r.country] && COUNTRIES[r.country].name) || '';
-      try { if(r.country && !numericDatesLang()) countryName = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || countryName; } catch(e){}
+      // Nom du pays dans la langue d'interface (COUNTRIES[..].name est en français) — voir countryDisplayName.
+      var countryName = countryDisplayName(r.country, (COUNTRIES[r.country] && COUNTRIES[r.country].name) || '');
       if(countryName) li.setAttribute('title', countryName); // survol/lecteur d'écran : nom du pays en clair, pas seulement le drapeau
       li.appendChild(nameSpan);
       li.appendChild(cpSpan);
@@ -3149,13 +3175,10 @@
   function escHtml(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(ch){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]; }); }
   // Avertissement de circulation (van / moto) : même style que les zones à tension (orange), lien vers la source.
   function restrictionRowHtml(r){
-    // Règle nationale (moto) : nom du pays dans la langue d'interface quand le navigateur le connaît.
-    // 16e audit du 20/09/2026 : pour le touroyo et l'adyguéen, Intl.DisplayNames répondait dans la locale de repli
-    // (« Fransa », « Франция ») — le nom reçu du serveur est gardé tel quel dans ce cas (voir numericDatesLang).
+    // Règle nationale (moto) : nom du pays dans la langue d'interface quand le navigateur le connaît (voir
+    // countryDisplayName), sinon le nom reçu du serveur.
     var name = r.name || '';
-    if(r.country && !numericDatesLang() && (r.type === 'noMotorway' || r.type === 'noMotorwayCc' || r.type === 'partial')){
-      try { name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || name; } catch(e){}
-    }
+    if(r.type === 'noMotorway' || r.type === 'noMotorwayCc' || r.type === 'partial') name = countryDisplayName(r.country, name);
     // r.kind/r.type/r.minCc viennent du serveur : clé validée (tData), cylindrée numérique seulement (10e audit).
     var cc = isFinite(Number(r.minCc)) && r.minCc !== '' && r.minCc != null ? formatNum(r.minCc) : '';
     var txt = tData(String(r.kind) + '.' + String(r.type), { name: escHtml(name), cc: cc });
@@ -3772,13 +3795,10 @@
       return typeof cc === 'string' && a.indexOf(cc) === i && COUNTRIES[cc] && COUNTRIES[cc].vignette && COUNTRIES[cc].vignette.url;
     });
   }
-  // « Vignette autoroutière · Suisse » : nom du pays dans la langue d'interface (Intl.DisplayNames), sinon nom des données.
-  // 16e audit du 20/09/2026 : même réserve qu'aux deux autres emplois d'Intl.DisplayNames — pour le touroyo et
-  // l'adyguéen, il répondait dans la locale de repli (« İsviçre », « Швейцария »), voir numericDatesLang.
+  // « Vignette autoroutière · Suisse » : nom du pays dans la langue d'interface (Intl.DisplayNames), sinon nom des
+  // données — voir countryDisplayName.
   function vignetteLabel(cc){
-    var name = (COUNTRIES[cc] && COUNTRIES[cc].name) || cc;
-    try { if(!numericDatesLang()) name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(cc) || name; } catch(e){}
-    return t('vignette.label') + ' · ' + name;
+    return t('vignette.label') + ' · ' + countryDisplayName(cc, (COUNTRIES[cc] && COUNTRIES[cc].name) || cc);
   }
 
   /* ---------- RENDER: MAP ---------- */
@@ -4062,10 +4082,8 @@
     if(leg.restrictions && leg.restrictions.length){
       out.restrictions = leg.restrictions.map(function(r){
         var name = r.name || '';
-        // Même réserve qu'à l'écran (voir restrictionRowHtml, 16e audit du 20/09/2026).
-        if(r.country && !numericDatesLang() && (r.type === 'noMotorway' || r.type === 'noMotorwayCc' || r.type === 'partial')){
-          try { name = new Intl.DisplayNames([localeTag()], { type: 'region' }).of(r.country) || name; } catch(e){}
-        }
+        // Même nom qu'à l'écran (voir restrictionRowHtml et countryDisplayName).
+        if(r.type === 'noMotorway' || r.type === 'noMotorwayCc' || r.type === 'partial') name = countryDisplayName(r.country, name);
         var cc = isFinite(Number(r.minCc)) && r.minCc !== '' && r.minCc != null ? formatNum(r.minCc) : '';
         return tIfDefined(String(r.kind) + '.' + String(r.type), { name: name, cc: cc }) || '';
       });
@@ -4076,6 +4094,23 @@
         (fi.amount === null ? ' ' + t(fi.priceStatus === 'variable' ? 'ferry.price.variable' : 'ferry.price.unknown') : '');
     }
     if(leg.lodgingCheckIn) out.lodging = t('lodging.find', {range: formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut)});
+    return out;
+  }
+  // Corps de l'export allégé (17e audit du 20/09/2026) : tous les champs FACULTATIFS étaient sérialisés même vides
+  // (« "roadKm":null,"roadTime":null,"tollInfo":null,"chargeInfo":null,"restrictions":null,"overMaxLeg":null,
+  // "tension":null,"ferryInfo":null,"checkInLabel":null,"cpBadge":null… » sur chaque étape, plus cinq nuls dans chaque
+  // ferryInfo et deux dans chaque activité). Le serveur ne compare jamais à null : il teste la présence
+  // (truthiness, `typeof x === 'string'`, `typeof x === 'number'`, `Array.isArray`, `!= null`) — une clé ABSENTE s'y lit
+  // exactement comme une clé à null, le contrat de /api/export-pdf est donc inchangé et aucune information affichée
+  // dans le PDF n'est retirée. Sur un long voyage, cela retire plusieurs kilo-octets d'un corps qui bute déjà sur la
+  // limite de taille de /api/export-pdf (réponse 413, voir export.tooLarge).
+  // `keep` : clés gardées même à null, quand le null lui-même fait partie du contrat lisible (ferryInfo.amount = null
+  // signifie « traversée réelle dont le tarif n'est pas publié », voir server.js et le texte de secours du PDF).
+  function compact(o, keep){
+    var out = {};
+    Object.keys(o).forEach(function(k){
+      if(o[k] !== undefined && (o[k] !== null || (keep && keep.indexOf(k) >= 0))) out[k] = o[k];
+    });
     return out;
   }
   function buildTripExportPayload(){
@@ -4128,6 +4163,7 @@
     // péage (vélo) — le serveur rappelait alors une vignette à un cycliste, interdit d'autoroute (vignetteCountriesOfGroup
     // renvoie déjà une liste vide dans ce cas, le rappel par étape n'apparaissait donc pas).
     if(transportHasToll(transportKey)) texts.vignette = t('vignette.label') + ' — ' + t('vignette.notice');
+    texts = compact(texts); // clés facultatives vides (departureTension, currencyNote, truncated…) : voir compact
     // Rappels de vignette NOMMÉS, une fois par pays, sur la même étape qu'à l'écran (pays de départ sur la première, pays
     // traversés connus, pays d'arrivée) : texts.vignette par étape, en plus du texte générique ci-dessus.
     var legBadges = pdfLegBadges(legs);
@@ -4137,7 +4173,7 @@
         .filter(function(cc){ if(pdfVignetteShown[cc]) return false; pdfVignetteShown[cc] = true; return true; })
         .map(function(cc){ return { country: cc, text: vignetteLabel(cc) + ' — ' + t('vignette.notice'), url: COUNTRIES[cc].vignette.url }; });
     });
-    return {
+    return compact({
       lang: VISITOR_LANG,
       texts: texts,
       // 13e audit du 19/09/2026 (contrat avec server.js) : mode de transport (le serveur ne rappelle plus de vignette à
@@ -4149,20 +4185,24 @@
       tripLabel: tripLabelText(currentTripData) || currentTripLabel,
       budgetLabel: budgetLabel(budgetKey),
       transportLabel: transportLabel(transportKey),
-      stats: { days: currentTripData.days || legs.length, cities: Object.keys(villes).length, nights: nights, totalKm: totalKm, ferryKm: tripFerryKm(legs), toll: tollSummary },
+      stats: compact({ days: currentTripData.days || legs.length, cities: Object.keys(villes).length, nights: nights, totalKm: totalKm, ferryKm: tripFerryKm(legs), toll: tollSummary }),
       notices: currentTripData.notices || [],
       // Zone déconseillée au point de départ (même forme que tension sur chaque étape).
       departureTension: exportTension(currentTripData.departureTension),
       legs: legs.map(function(leg, idx){
         var legTexts = pdfLegTexts(leg);
         if(legVignettes[idx].length) legTexts.vignettes = legVignettes[idx];
-        return {
+        // Séjour : le serveur n'affiche les liens d'hébergement QUE s'il a aussi la plage de dates
+        // (`if(leg.lodgingLinks && leg.checkInLabel)`). Sans plage, les liens (2 à 4 URL complètes par étape) ne
+        // servaient à rien et pesaient le plus lourd du corps — ils ne sont plus envoyés dans ce cas (17e audit).
+        var checkInLabel = leg.lodgingCheckIn ? formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut) : null;
+        return compact({
           texts: legTexts,
           badge: legBadges[idx] || null,
           label: singleLegLabel(leg),
           stop: leg.stop,
           cpBadge: leg.cp ? formatCpBadge(leg) : null,
-          isReturn: !!leg.isReturn,
+          isReturn: leg.isReturn ? true : null, // false = valeur par défaut du serveur : inutile de l'écrire
           distanceKm: leg.distanceKm,
           travelTime: leg.travelTime,
           roadKm: leg.roadKm || null,
@@ -4174,24 +4214,24 @@
           overMaxLeg: leg.overMaxLeg ? { max: leg.overMaxLeg.max, min: leg.overMaxLeg.min } : null,
           // Avertissement de zone déconseillée, comme à l'écran (jamais sur le retour, qui rejoint le départ).
           tension: leg.isReturn ? null : exportTension(leg.tension),
-          ferryInfo: leg.ferryInfo ? { route: tIfDefined(leg.ferryInfo.routeKey) || '', amount: leg.ferryInfo.amount, priceStatus: leg.ferryInfo.priceStatus || null,
+          ferryInfo: leg.ferryInfo ? compact({ route: tIfDefined(leg.ferryInfo.routeKey) || '', amount: leg.ferryInfo.amount, priceStatus: leg.ferryInfo.priceStatus || null,
             priceCovers: leg.ferryInfo.priceCovers === undefined ? null : leg.ferryInfo.priceCovers, footAmount: leg.ferryInfo.footAmount != null ? leg.ferryInfo.footAmount : null,
-            durationEstimated: !!leg.ferryInfo.durationEstimated, mode: leg.ferryInfo.mode || null,
-            durationH: typeof leg.ferryInfo.durationH === 'number' ? leg.ferryInfo.durationH : null } : null, // texte de secours du PDF (12e audit)
-          checkInLabel: leg.lodgingCheckIn ? formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut) : null,
-          lodgingLinks: exportLodgingLinks(leg.lodgingLinks, leg.country, budgetKey),
+            durationEstimated: leg.ferryInfo.durationEstimated ? true : null, mode: leg.ferryInfo.mode || null,
+            durationH: typeof leg.ferryInfo.durationH === 'number' ? leg.ferryInfo.durationH : null }, ['amount']) : null, // texte de secours du PDF (12e audit)
+          checkInLabel: checkInLabel,
+          lodgingLinks: checkInLabel ? exportLodgingLinks(leg.lodgingLinks, leg.country, budgetKey) : null,
           activities: (leg.activities || []).map(function(opt){
             return opt.hikeUrl ? {
               label: opt.hikeName,
               typeLabel: [hikeDistanceText(opt.hikeDistance), hikeDurationText(opt.hikeDuration), hikeDifficultyText(opt.hikeDifficulty)].filter(Boolean).join(' · ') || t('hike.defaultType'),
               source: opt.hikeSource || 'Visorando', hikeUrl: opt.hikeUrl,
               sourceLabel: t('hike.sourceLabel', { source: opt.hikeSource || 'Visorando' }).replace(/\s*↗\s*$/, '')
-            } : { label: optionLabel(opt), typeLabel: optionTypeLabel(opt), source: null, hikeUrl: null };
+            } : { label: optionLabel(opt), typeLabel: optionTypeLabel(opt) };
           })
-        };
+        });
       }),
       packing: Array.prototype.map.call(els.packGrid.querySelectorAll('.check-text'), function(el){ return el.textContent; })
-    };
+    });
   }
 
   /* ---------- MAIN FLOW ---------- */
@@ -4281,8 +4321,8 @@
     // « Retirer une autre destination ») : réactivés en cas d'erreur, ou une fois le voyage affiché (showDrawnTrip).
     // Avant (2e audit du 17/09/2026), ils l'étaient dès la réponse : un nouveau tirage lancé pendant la roulette arrêtait
     // celle-ci, et s'il échouait (429, 503…), l'écran restait bloqué sur « Tirage en cours » sans aucun voyage affiché.
-    setDrawButtonsDisabled(true);
-    revealInProgress = true;
+    // Boutons désactivés, tirage marqué en cours et annonce de l'ANCIEN voyage retirée (voir beginDraw).
+    beginDraw();
     // Délai maximal côté navigateur : sans réponse au bout de DRAW_TIMEOUT_MS, la requête est abandonnée.
     var abortCtrl = typeof AbortController === 'function' ? new AbortController() : null;
     var abortTimer = abortCtrl ? setTimeout(function(){ abortCtrl.abort(); }, DRAW_TIMEOUT_MS) : null;
@@ -4341,7 +4381,7 @@
       return;
     } finally {
       if(abortTimer) clearTimeout(abortTimer);
-      if(drawId === currentDrawId && !(legs && legs.length)){ setDrawButtonsDisabled(false); revealInProgress = false; hideDisplayedTrip(); }
+      if(drawId === currentDrawId && !(legs && legs.length)) endFailedDraw();
     }
     if(legs.length === 0){
       showFormError(msg('error.routeImpossible'));
@@ -4354,6 +4394,12 @@
     var tripNotices = data.notices || [];
     var tripDepartureTension = data.departureTension || null;
 
+    // 17e audit du 20/09/2026 : tout ce qui suit était HORS de tout try/catch, alors que le finally ci-dessus ne rend
+    // les boutons QUE lorsque le tirage n'a produit aucune étape. Une exception dans prefetchLegAssets, dans
+    // scrollIntoView ou dans le lancement de la roulette (runReveal) laissait donc « Lancer » et « Retirer une autre
+    // destination » désactivés DÉFINITIVEMENT — plus aucun tirage possible sans recharger la page —, revealInProgress
+    // bloqué à true et l'écran à moitié effacé, sans le moindre message. Même filet que pour le rendu (showDrawnTrip).
+    try {
     // L'itinéraire complet est déjà connu ici, avant même le début de l'animation — autant lancer
     // dès maintenant les requêtes (photos, vrais points d'intérêt) dont renderDays() aura besoin
     // dans quelques secondes, une fois la roulette terminée.
@@ -4389,6 +4435,13 @@
       Promise.race([assetsReady, new Promise(function(resolve){ setTimeout(resolve, Math.max(0, preloadDeadline - Date.now())); })])
         .then(function(){ if(drawId === currentDrawId) showDrawnTrip(); });
     });
+    } catch(err){
+      console.warn('[tirage] ' + (err && err.message));
+      if(drawId !== currentDrawId) return; // un tirage plus récent a pris le relais : c'est à lui de rendre les boutons
+      endFailedDraw();
+      showFormError(msg('error.routeImpossible'));
+      return;
+    }
     function showDrawnTrip(){
       try { showDrawnTripNow(); } finally { setDrawButtonsDisabled(false); revealInProgress = false; }
     }
@@ -4460,6 +4513,24 @@
     els.launchBtn.disabled = disabled;
     els.againBtn.disabled = disabled;
   }
+  // Début et fin ratée d'un tirage, au même endroit (17e audit du 20/09/2026) — appelés par generate().
+  // beginDraw : la région annoncée aux lecteurs d'écran (#reveal-announce, aria-live) était vidée seulement au DÉBUT DE
+  // LA ROULETTE (runReveal), c'est-à-dire après la réponse du serveur. Entre le clic et la réponse — plusieurs secondes,
+  // jusqu'à DRAW_TIMEOUT_MS —, puis après un tirage qui échoue sans toucher au voyage affiché, elle gardait
+  // « Destination confirmée — Lyon · … » : l'ancien voyage, annoncé comme s'il venait d'être tiré. Elle est vidée dès
+  // le départ, avec la désactivation des boutons.
+  function beginDraw(){
+    setDrawButtonsDisabled(true);
+    revealInProgress = true;
+    announceReveal('');
+  }
+  // endFailedDraw : tirage abandonné (erreur réseau, réponse d'erreur, exception pendant le lancement de la roulette) —
+  // boutons rendus, écran remis à l'état « aucun voyage ».
+  function endFailedDraw(){
+    setDrawButtonsDisabled(false);
+    revealInProgress = false;
+    hideDisplayedTrip();
+  }
   els.form.addEventListener('submit', function(e){
     e.preventDefault();
     if(els.launchBtn.disabled) return; // requête de tirage déjà en cours
@@ -4493,14 +4564,32 @@
     // Flèche dans le sens de lecture (13e audit du 19/09/2026) : « → » écrit en dur pointait à rebours dans l'en-tête du
     // PDF en arabe, persan, sorani, ourdou et divehi. En écriture de droite à gauche, « ← » : dans l'ordre logique
     // « départ ← étape », l'algorithme bidirectionnel place le départ à droite et la flèche pointe vers l'étape.
+    // 17e audit du 20/09/2026 : encore faut-il que la flèche prenne le sens du PARAGRAPHE. Sans isolat, deux noms en
+    // alphabet LATIN (le cas courant, « Lyon ← Moffans ») forment une seule séquence de gauche à droite : la règle N1 de
+    // l'algorithme bidirectionnel donne la direction L à la flèche, coincée entre deux runs L, et le voyage se lit à
+    // l'envers en ar, fa, ckb, ur et dv. Symétriquement, deux noms ARABES dans une interface de gauche à droite
+    // donnaient « موفان → ليون », à rebours aussi. Chaque nom est donc isolé par FSI (U+2068) … PDI (U+2069) : il compte
+    // alors comme un caractère neutre, la flèche prend la direction du paragraphe (règle N2) et pointe toujours du
+    // départ vers l'étape, quelles que soient les écritures en présence. Les isolats sont invisibles et de largeur nulle
+    // (polices du PDF comprises, voir lib/pdf-text.js qui applique le même algorithme via bidi-js).
     var arrow = (window.I18N.isRtl && window.I18N.isRtl(VISITOR_LANG)) ? ' ← ' : ' → ';
-    return trip.city + arrow + trip.legs[0].stop + (dates ? ' · ' + dates : '');
+    return isolate(trip.city) + arrow + isolate(trip.legs[0].stop) + (dates ? ' · ' + isolate(dates) : '');
   }
+  // Nom propre isolé du reste de la phrase pour l'algorithme bidirectionnel (17e audit du 20/09/2026, voir
+  // tripLabelText) : « premier caractère fort » (FSI) plutôt que LRI/RLI, l'écriture du nom n'étant pas connue ici.
+  var BIDI_FSI = '\u2068', BIDI_PDI = '\u2069';
+  function isolate(s){ return BIDI_FSI + String(s == null ? '' : s) + BIDI_PDI; }
   function pdfFilename(label){
-    var base = (label || 'itineraire').replace(/[\\/:*?"<>|]+/g, '-').replace(/\s+/g, ' ').trim();
+    // Nom de fichier : lu de GAUCHE À DROITE par le système de fichiers et par le navigateur, quelle que soit la langue
+    // de l'interface (17e audit du 20/09/2026). La flèche de l'en-tête y est donc remise à « → », qui, avec les isolats
+    // de tripLabelText, nomme toujours le départ en premier — « ← » aurait désigné l'étape avec des noms latins.
+    var base = (label || 'itineraire').replace(/←/g, '→').replace(/[\\/:*?"<>|]+/g, '-').replace(/\s+/g, ' ').trim();
     // Nom du site dans la langue d'interface (11e audit : toujours « Cap sur l'inconnu »), sans caractère réservé.
     var site = String(t('hero.title') || "Cap sur l'inconnu").replace(/[\\/:*?"<>|]+/g, '-').trim();
-    return site + ' - ' + base + ' - ' + pdfTimestamp() + '.pdf';
+    // Les trois morceaux sont isolés à leur tour : sans cela, un nom de site en écriture de droite à gauche
+    // (« نحو المجهول ») entraînait tout ce qui suit — itinéraire ET horodatage — dans son sens de lecture, et le nom du
+    // fichier s'affichait à l'envers dans la liste des téléchargements.
+    return isolate(site) + ' - ' + isolate(base) + ' - ' + isolate(pdfTimestamp()) + '.pdf';
   }
 
   // Export PDF : générée côté serveur (voir server.js, /api/export-pdf) et téléchargée directement
@@ -4544,8 +4633,12 @@
     }).catch(function(err){
       if(els.exportHint){
         // Quota (429) ou serveur occupé (503) : mêmes messages que pour un tirage, plus parlants qu'une erreur générique.
+        // 17e audit du 20/09/2026 : 413 (corps refusé, itinéraire trop volumineux — voir la limite de taille dans
+        // server.js) affichait « réessayez dans un instant », un conseil FAUX : réessayer à l'identique redonnera 413.
+        // Message dédié qui dit quoi changer (raccourcir le voyage, enlever des étapes).
         var status = err && err.status;
-        els.exportHint.textContent = status === 429 ? t('error.tooManyRequests') : status === 503 ? t('error.serverBusy') : t('export.error');
+        els.exportHint.textContent = status === 429 ? t('error.tooManyRequests') : status === 503 ? t('error.serverBusy')
+          : status === 413 ? t('export.tooLarge') : t('export.error');
         setTimeout(function(){ els.exportHint.textContent = t('export.hint'); }, 6000);
       }
     }).then(function(){

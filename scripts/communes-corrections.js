@@ -305,10 +305,16 @@ Object.entries(LOCAL_SCRIPT_DUPLICATES).forEach(([cc, rows]) => rows.forEach(([i
 //   c. les deux fiches partagent le code postal publié et le fichier Japan Post (scripts/postal/JP_postal.txt) nomme
 //      cette localité postale du nom gardé, que l'autre fiche porte aussi en alternatename (JP Yanagidamen / Ō-maki).
 // Balayage de tous les noms sans lettre latine publiés en JP, KR, KP, CN et IR : ces sept cas seulement.
-// [geonameid écarté, nom publié, geonameid gardé, nom gardé, distance en km, preuve]. Le nom écarté ne redevient
-// trouvable que si le nom GARDÉ est unique dans le pays (16e audit, voir build-all-aliases.js) : c'est le cas de
-// « zh;雄鸡埭;Xiongjidai », « fa;گوانی;Gavānī » et « ja;大馬木;Ō-maki », pas de 蓮湖, 东坑, احمد آباد ni 平泉, dont les noms
-// gardés (Lianhu, Dongkeng, Aḩmadābād, Tateishi) désignent 16, 138, 172 et 15 lieux publiés.
+// [geonameid écarté, nom publié, geonameid gardé, nom gardé, distance en km, preuve]. Le nom écarté n'est rattaché au
+// nom gardé PAR LA FUSION que si celui-ci est unique dans le pays (16e audit, voir build-all-aliases.js) : c'est le cas
+// de « zh;雄鸡埭;Xiongjidai », « fa;گوانی;Gavānī » et « ja;大馬木;Ō-maki », pas de 蓮湖, 东坑, احمد آباد ni 平泉, dont les
+// noms gardés (Lianhu, Dongkeng, Aḩmadābād, Tateishi) désignent 16, 138, 172 et 15 lieux publiés.
+// 17e audit du 20/09/2026 — la phrase disait « le nom écarté ne redevient trouvable que si… », ce qui est faux pour
+// deux de ces quatre : « zh;东坑;Dongkeng » et « fa;احمد آباد;Aḩmadābād » sont TOUJOURS publiés, non par la fusion mais
+// comme noms alternatifs GeoNames de fiches homonymes gardées. Ces deux noms restent donc cherchables — ils renvoient
+// simplement les 138 Dongkeng ou les 172 Aḩmadābād sans que le bon lieu en ressorte. Seuls 蓮湖 et 平泉 ont vraiment
+// disparu de la recherche. Même remarque pour les 85 lignes de fusion à homonymes des autres tables (surtout KR/KP) :
+// 83 gardent un alias publié d'une autre provenance, voir tests/data.test.js.
 const SAME_POINT_DUPLICATES = {
   CN: [
     [7506579, '雄鸡埭', 7332719, 'Xiongjidai', 0.01, 'asciiname « xiong ji dai » = Xiongjidai'],
@@ -333,6 +339,29 @@ const SAME_POINT_DUPLICATES = {
 Object.entries(SAME_POINT_DUPLICATES).forEach(([cc, rows]) => rows.forEach(([id, n, keptId, keptName, km, proof]) => {
   JUNK_IDS[id] = [cc, n, 'doublon au même point de « ' + keptName + ' » (fiche ' + keptId + ', ' + km + ' km) : ' + proof];
 }));
+// 17e audit du 20/09/2026 — COORDONNÉES FAUSSES. Trouvées par le nouveau contrôle « lieu isolé de son pays » de
+// tests/data.test.js : trois fiches GeoNames placées à des centaines ou des milliers de kilomètres du pays qui les
+// publie. Ce ne sont pas des noms douteux (les filtres ci-dessus ne les voient pas), mais des POINTS faux : gardés,
+// ils envoient un voyage à l'autre bout du monde. La coordonnée réelle n'étant connue pour aucun des trois, ils sont
+// écartés plutôt que déplacés — jamais de valeur inventée. Chaque cas est prouvé par la fiche elle-même, pas par une
+// connaissance générale. [geonameid, pays, nom, preuve]
+[
+  // Fuseau « Asia/Pontianak » : la SEULE fiche indonésienne des 21 957 de PG_dump.txt (toutes les autres sont en
+  // Pacific/Port_Moresby, Pacific/Bougainville ou Pacific/Guadalcanal). Le point tombe au Kalimantan central (Bornéo),
+  // à 4 400 km de la Nouvelle-Irlande sous laquelle la fiche est rangée (admin1 15). Le Katingan de Nouvelle-Irlande
+  // existe bien : fiche 2094448 « Katingan Aid Post and Mission », à -3,28 / 152,05 — mais c'est un dispensaire
+  // (classe S), pas un lieu habité, donc non publié ; écarter 2094449 retire le nom de Papouasie, ce qui est correct
+  // puisque le point publié était en Indonésie.
+  [2094449, 'PG', 'Katingan', 'fuseau Asia/Pontianak, seul de tout PG_dump.txt : point au Kalimantan (Bornéo), 4 400 km de la Nouvelle-Irlande déclarée'],
+  // Latitude et longitude à l'entier exact (26 / 40), fuseau « Asia/Riyadh » : la SEULE fiche des 1 515 de BH_dump.txt
+  // qui ne soit pas en Asia/Bahrain. Le point tombe en Arabie saoudite (région de Haïl), à 1 000 km de Bahreïn dont
+  // tous les autres lieux sont vers 50,5° E. Coordonnée bouchon : la vraie position de Muqsha' n'est pas sur la fiche.
+  [290331, 'BH', 'Magsha', 'coordonnées 26 / 40 à l\'entier exact et fuseau Asia/Riyadh, seul de tout BH_dump.txt : point en Arabie saoudite, 1 000 km de Bahreïn'],
+  // Point en plein océan Pacifique (9,49 N / 90,35 O), à 660 km de la côte et à 900 km du reste du Guatemala. La fiche
+  // est un doublon mal orthographié (« Cuchumantan » au lieu de « Cuchumatán ») de 3588308, publiée, elle, au bon
+  // endroit : 15,5085 / -91,6038, Huehuetenango. Écarter le doublon ne retire donc aucun lieu réel.
+  [6942034, 'GT', 'Todos Santos Cuchumantan', 'point en mer (9,49 N / 90,35 O, 660 km au large) ; doublon mal orthographié de la fiche 3588308, publiée à Huehuetenango']
+].forEach(([id, cc, n, proof]) => { JUNK_IDS[id] = [cc, n, 'coordonnées fausses : ' + proof]; });
 function isJunkId(country, geonameid){
   const e = JUNK_IDS[geonameid];
   return !!(e && e[0] === country);

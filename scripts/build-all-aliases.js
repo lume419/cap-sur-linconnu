@@ -84,11 +84,17 @@ const GB_REGION_RESTRICTED_LANGS = (() => {
 // sans chasse ne retrouvait aucun de ces alias. 12 lignes publiées en portaient (aliases-il 1985-1986, ir 90901, la 453,
 // mm 7924/9653/10283/14496/15406, mx 25131, th 2061, vn 14), et 7 autres portaient un trait d'union conditionnel U+00AD,
 // tout aussi invisible et jamais tapé (gb 488/4489/6031, lb 390, us 21020/26864/95864 : « Дай­зу­эрт », « Монес­сен »).
-// Sont donc retirés U+200B, U+00AD, U+2060 (gluon de mots) et U+180E. Les ZWNJ/ZWJ (U+200C/U+200D), eux, RESTENT : ils
-// font partie de l'orthographe persane, ourdoue et indienne et sont réellement saisis (Maj+Espace sur un clavier
-// persan) ; les retirer rendrait ces alias introuvables à la saisie normale, l'inverse du but recherché. Les retirer DES
-// DEUX CÔTÉS demanderait normalizeCityName (lib/trip-engine.js) et l'index de recherche (lib/search-index.js), hors
-// périmètre de cette passe.
+// Sont donc retirés U+200B, U+00AD, U+2060 (gluon de mots) et U+180E. Les ZWNJ/ZWJ (U+200C/U+200D), eux, RESTENT DANS
+// LES FICHIERS : ils font partie de l'orthographe persane, ourdoue et indienne, ils sont réellement saisis
+// (Maj+Espace sur un clavier persan) et c'est la forme correcte à afficher entre parenthèses.
+// 17e audit du 20/09/2026 — CE QUI SUIVAIT ÉTAIT FAUX : « les retirer DES DEUX CÔTÉS demanderait normalizeCityName
+// (lib/trip-engine.js) et l'index de recherche (lib/search-index.js), hors périmètre de cette passe ». Le MÊME commit
+// a justement ajouté INVISIBLE_RE à normalizeCityName, et cette expression couvre U+200B–U+200F, donc AUSSI le ZWNJ et
+// le ZWJ : depuis la 16e passe, les deux côtés (saisie et alias) sont bien normalisés sans caractère invisible, et
+// « علی‌آباد کشمر » comme « علیآباد کشمر » retrouvent le même lieu. Ce qui a cassé, ce n'est pas le périmètre mais la
+// SYNCHRONISATION : l'index sur disque, construit avec l'ancien normalisateur, gardait les anciennes clés et
+// 3 416 alias persans et ourdous sont devenus introuvables sans erreur visible. L'index porte depuis une empreinte du
+// normalisateur (meta.normSignature, lib/search-index.js) et tests/search.test.js vérifie les deux formes.
 const ALIAS_CONTROL_RE = /[\u0000-\u001F\u007F\u00AD\u061C\u180E\u200B\u200E\u200F\u202A-\u202E\u2060\u2066-\u2069\uFEFF]/g;
 // Caractère de contrôle C1 (U+0080–U+009F) = texte mal décodé (« Alto Igarap<U+0090> Açu », « <U+009F>AA¬²± » pour
 // Ottawa) : la lettre d'origine est perdue, l'alias est écarté plutôt que « réparé » (chaîne vide -> ligne retirée).
@@ -271,8 +277,19 @@ for(const cc of Object.keys(COUNTRIES)){
   // et pour ces trois derniers le bon lieu ne sortait même pas, un homonyme plus peuplé de la même province le masquant.
   // Le rattachement n'est donc fait que si le nom gardé est UNIQUE parmi les lieux publiés du pays (« Xiongjidai »,
   // « Gavānī », « Ō-maki » : un seul lieu chacun). Sinon aucun alias n'est créé, et les lignes que la 15e passe avait
-  // écrites sont retirées (mergeWithdraw plus bas) : LIMITE ASSUMÉE — le nom local de ces quatre fiches écartées n'est
-  // plus cherchable, faute d'un format d'alias qui désignerait le lieu par son geonameid.
+  // écrites sont retirées (withdraw plus bas).
+  // 17e audit du 20/09/2026 — LE COMPTE ET LA CONSÉQUENCE ÉTAIENT FAUX. Le commentaire annonçait « ces quatre fiches »
+  // et « le nom local n'est plus cherchable » :
+  //   - ce ne sont pas quatre fiches mais 85 lignes de fusion sur 145 dont le nom gardé porte des homonymes (surtout
+  //     KR et KP, où des dizaines de noms de quartiers sont identiques : 64 Singi, 47 Yongsan, 39 Sadong…) ;
+  //   - 83 de ces 85 noms restent PARFAITEMENT cherchables, parce que la même ligne est produite par ailleurs comme
+  //     nom alternatif GeoNames d'une fiche homonyme gardée : « zh;东坑;Dongkeng » et « fa;احمد آباد;Aḩmadābād » sont
+  //     toujours publiés, et withdraw ne les retire pas (il ne retire une ligne que si aucun autre nom alternatif
+  //     accepté du pays ne la produit). Ce qui est vrai, c'est que la saisie renvoie alors les 138 Dongkeng ou les
+  //     172 Aḩmadābād sans distinguer le bon : le nom est cherchable, le LIEU ne l'est pas ;
+  //   - deux seulement ne sont vraiment plus cherchables : « 平泉 » (Tateishi) et « 蓮湖 » (Lianhu).
+  // Ce partage est verrouillé par tests/data.test.js (« alias de fusion : seulement quand le nom gardé est unique
+  // dans le pays »). La limite de fond reste la même : aucun format d'alias ne désigne le lieu par son geonameid.
   const mergeRejectedIds = new Set(), mergeRejectedName = new Map();
   for(const [id, , keptId, keptName] of [].concat(LOCAL_SCRIPT_DUPLICATES[cc] || [], SAME_POINT_DUPLICATES[cc] || [])){
     const k = dupCoords.get(String(keptId));

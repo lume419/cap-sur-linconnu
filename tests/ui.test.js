@@ -26,6 +26,16 @@
 //   - noms de pays jamais en turc ni en russe pour le touroyo et l'adyguéen (suggestions, moto, vignette) ;
 //   - plage de dates à cheval sur deux années : année écrite ; coupure réseau du tirage : message dédié ;
 //   - traversée estimée : test réécrit pour pouvoir échouer (voir le commentaire devant ce test).
+// 17e audit du 20/09/2026 :
+//   - en-tête et nom du PDF : ORDRE VISUEL (bidi-js) de « départ → étape » avec des noms latins ET des noms arabes,
+//     dans les deux sens d'écriture — isolats FSI…PDI ;
+//   - noms de pays du touroyo et de l'adyguéen : le repli de leur propre écriture, jamais le nom français des données ;
+//   - export refusé faute de place (413) : message dédié traduit dans les 161 langues ;
+//   - corps envoyé à /api/export-pdf : plus aucun champ facultatif vide, sans rien retirer de ce qu'imprime le PDF ;
+//   - tirage échoué : boutons rendus (le lancement de la roulette n'est plus hors try/catch) et annonce de l'ancien
+//     voyage vidée dès le début du tirage ;
+//   - sémantique ARIA du sélecteur de DEVISE (un seul motif bouton + listbox, comme celle du sélecteur de langue),
+//     navigation au clavier comprise.
 'use strict';
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
@@ -65,14 +75,18 @@ const FNS = ['isoDate', 'parseIsoDate', 'formatFrDate', 'formatDateRange', 'form
   'applyFieldBounds', 'distanceFieldSpec', 'distanceFieldText', 'defaultDistanceValue', 'setDefaultDistanceField', 'convertDistanceFields',
   'checkNumberRange', 'msg', 'stepNumberField', 'hikeDurationText', 'hikeDifficultyText', 'dualWithoutNumber', 'countPart',
   // Mode du rayon, pluriels de l'annonce, dates en chiffres (15e audit du 19/09/2026).
-  'setMode', 'revealCountTexts', 'numericDatesLang', 'numericDateText', 'localeDateText',
+  'setMode', 'revealCountTexts', 'setRevealClue', 'numericDatesLang', 'numericDateText', 'localeDateText',
   // Annonce aux lecteurs d'écran et noms de pays (16e audit du 20/09/2026).
   'announceReveal', 'setRevealLabel', 'updateRevealTexts', 'retranslateReveal', 'escHtml', 'safeUrl', 'icon', 'tData', 'restrictionRowHtml',
   // Corps envoyé à /api/export-pdf et ses dépendances.
   'buildTripExportPayload', 'pdfLegBadges', 'transportHasToll', 'pdfLegTexts', 'legRouteText', 'legDuration', 'legMinutes', 'overMaxLegText',
   'noChargerText', 'tollText', 'tollSourceLabel', 'exportTension', 'exportLodgingLinks', 'singleLegLabel', 'formatCpBadge', 'optionLabel',
   'optionTypeLabel', 'poiTypeLabel', 'camelFromDash', 'transportLabel', 'budgetLabel', 'vignetteLabel', 'tripCurrencyNoRateText',
-  'currencyLinkFallbackText', 'getPreferredCurrency', 'isKnownCurrency'];
+  'currencyLinkFallbackText', 'getPreferredCurrency', 'isKnownCurrency',
+  // 17e audit du 20/09/2026 : isolats bidi de l'en-tête/nom du PDF, nom de pays commun aux quatre emplois, corps
+  // d'export allégé, début et fin ratée d'un tirage.
+  'isolate', 'compact', 'countryDisplayName', 'pdfFilename', 'pdfTimestamp', 'hideDisplayedTrip', 'setDrawButtonsDisabled',
+  'beginDraw', 'endFailedDraw'];
 
 function sandbox(){
   let src = fs.readFileSync(path.join(PUB, 'i18n.js'), 'utf8');
@@ -99,14 +113,20 @@ function sandbox(){
     'var revealLive = fakeNode();',
     'document.getElementById = function(id){ return id === "reveal-announce" ? revealLive : null; };',
     'var ICONS = { warn: "" };',
+    // Nœuds sans texte (hideDisplayedTrip ne fait que retirer des classes dessus) et boutons de tirage (17e audit).
+    'var fakeBox = function(){ return { textContent: "", innerHTML: "", classList: { add: function(){}, remove: function(){} } }; };',
     'var els = { packGrid: { querySelectorAll: function(){ return []; } }, radius: fakeInput(), minDistance: fakeInput(), maxDistance: fakeInput(), legDistance: fakeInput(),',
     '  modeKm: { setAttribute: function(){} }, modeH: { setAttribute: function(){} },',
-    '  rouletteLabel: fakeNode(), rouletteClue: fakeNode(), revealRegion: fakeNode(), stamp: fakeNode() };',
+    '  rouletteLabel: fakeNode(), rouletteClue: fakeNode(), revealRegion: fakeNode(), stamp: fakeNode(),',
+    '  mapCard: fakeBox(), timeline: fakeBox(), exportRow: fakeBox(), packCard: fakeBox(), againRow: fakeBox(), days: fakeBox(),',
+    '  timelineStats: fakeBox(), revealReal: fakeBox(), compass: fakeBox(), rouletteName: fakeBox(),',
+    '  launchBtn: { disabled: false }, againBtn: { disabled: false } };',
     // Effets de bord de setMode sans DOM : erreurs retirées comptées, étiquette d'unité ignorée.
     'var modeClears = 0; function clearRadiusError(){ modeClears++; } function clearMinDistanceError(){} function updateRadiusUnitLabel(){}',
     'var Event = function(){};',
+    'var tripGeneration = 0, rouletteTimer = null;',
     ['ROUTE_MARK', 'approxMarkCache', 'KM_PER_MILE', 'MILE_COUNTRIES', 'CURRENCY_STORAGE_KEY', 'CHARGER_NEAR_STOP_KM', 'RADIUS_KM_FIELD',
-      'HIKE_DIFFICULTY_KEYS', 'revealLabelKey', 'revealClueKey', 'revealInProgress'].map(extractVar).join('\n'),
+      'HIKE_DIFFICULTY_KEYS', 'revealLabelKey', 'revealClueKey', 'revealInProgress', 'BIDI_FSI'].map(extractVar).join('\n'),
     APP.match(/^  var DISTANCE_KM_FIELDS = \[[\s\S]*?\n  \];/m)[0],
     FNS.map(extract).join('\n'),
     // Unité forcée par les tests (setUnit) : l'application la tire de la langue seule (unitForLang), sans réglage.
@@ -149,8 +169,11 @@ test('en-tête du PDF : dates localisées, plus de dates ISO ni de « date → d
     assert.ok(s.indexOf(not) < 0, l + ' : flèche ' + not + ' dans « ' + s + ' »');
   }
   A.setLang('fr');
-  assert.match(A.tripLabelText(trip), /^Lyon → Annecy · 20.*22 sept\. 2026$/);
-  assert.match(A.tripLabelText(Object.assign({}, trip, { days: 1, endIso: '2026-09-20' })), /^Lyon → Annecy · 20 sept\. 2026$/);
+  // 17e audit du 20/09/2026 : chaque nom est désormais entouré d'isolats bidi (FSI … PDI), invisibles et de largeur
+  // nulle — ils sont retirés ici pour comparer le texte lisible (leur rôle est vérifié par le test du 17e audit).
+  const plain = s => s.replace(/[\u2068\u2069]/g, '');
+  assert.match(plain(A.tripLabelText(trip)), /^Lyon → Annecy · 20.*22 sept\. 2026$/);
+  assert.match(plain(A.tripLabelText(Object.assign({}, trip, { days: 1, endIso: '2026-09-20' }))), /^Lyon → Annecy · 20 sept\. 2026$/);
 });
 
 test('« — 21 jours max » et durée du séjour : forme exacte du nombre 21', () => {
@@ -1018,35 +1041,10 @@ test('16e audit : annonce du tirage aux lecteurs d\'écran entièrement dans la 
   assert.deepEqual(bad, []);
 });
 
-test('16e audit : noms de pays jamais en turc ni en russe pour le touroyo et l\'adyguéen', () => {
-  // Intl.DisplayNames répond dans la LOCALE DE REPLI pour ces deux langues (tr-TR, ru-RU) : « Fransa », « Швейцария »
-  // apparaissaient dans l'infobulle des suggestions, l'avertissement moto et l'étiquette de vignette.
-  const bad = [];
-  const restriction = { kind: 'moto', type: 'noMotorway', country: 'FR', name: 'France', source: 'https://example.test/a' };
-  for(const l of ['tru', 'ady']){
-    A.setLang(l);
-    const tag = W.I18N.localeTag(l);
-    const fallbackFr = new Intl.DisplayNames([tag], { type: 'region' }).of('FR');
-    const fallbackCh = new Intl.DisplayNames([tag], { type: 'region' }).of('CH');
-    const html = A.restrictionRowHtml(restriction);
-    if(fallbackFr !== 'France' && html.indexOf(fallbackFr) >= 0) bad.push(l + ' moto : « ' + fallbackFr + ' » dans « ' + html + ' »');
-    if(html.indexOf('France') < 0) bad.push(l + ' moto : nom des données absent de « ' + html + ' »');
-    const vign = A.vignetteLabel('CH');
-    if(fallbackCh !== 'Suisse' && vign.indexOf(fallbackCh) >= 0) bad.push(l + ' vignette : « ' + vign + ' »');
-    if(vign.indexOf('Suisse') < 0) bad.push(l + ' vignette : nom de COUNTRIES absent de « ' + vign + ' »');
-    // Aucune lettre turque ou cyrillique dans le nom de pays rendu (le reste de la phrase est dans la langue).
-    if(/Fransa|Франция|İsviçre|Швейцария/.test(html + ' ' + vign)) bad.push(l + ' : nom de pays d\'une langue tierce');
-  }
-  // Témoins : les langues dont le navigateur a les données gardent bien le nom traduit.
-  A.setLang('en');
-  if(A.vignetteLabel('CH').indexOf('Switzerland') < 0) bad.push('en : « Switzerland » attendu dans « ' + A.vignetteLabel('CH') + ' »');
-  if(A.restrictionRowHtml(restriction).indexOf('France') < 0) bad.push('en : « France » attendu');
-  A.setLang('ru');
-  if(A.vignetteLabel('CH').indexOf('Швейцария') < 0) bad.push('ru : « Швейцария » attendu dans « ' + A.vignetteLabel('CH') + ' »');
-  if(A.restrictionRowHtml(restriction).indexOf('Франция') < 0) bad.push('ru : « Франция » attendu');
-  A.setLang('fr');
-  assert.deepEqual(bad, []);
-});
+// Le test « noms de pays jamais en turc ni en russe pour le touroyo et l'adyguéen » de la 16e passe est REMPLACÉ par
+// celui du 17e audit plus bas : il exigeait le nom FRANÇAIS des données (« Suisse », « France ») dans ces deux
+// interfaces, ce qui était pire que le repli — le russe et le turc sont leurs langues de contact, dans leur propre
+// écriture. Le nouveau test vérifie le repli aux quatre emplacements et garde les mêmes témoins (en, ru).
 
 test('16e audit : plage de dates à cheval sur deux années (touroyo, adyguéen) — année écrite', () => {
   const bad = [];
@@ -1090,4 +1088,316 @@ test('16e audit : coupure réseau du tirage — message dédié, jamais « élar
   }
   A.setLang('fr');
   assert.deepEqual(bad, []);
+});
+
+// --------------------------------------------------------------------------------------------- 17e audit du 20/09/2026
+
+// Sens de lecture de la flèche « départ → étape » : c'est l'ORDRE VISUEL rendu par l'algorithme bidirectionnel
+// (bidi-js, la bibliothèque même dont se sert le PDF, voir lib/pdf-text.js) qui est vérifié ici, pas la chaîne logique.
+const bidi = require('bidi-js')();
+function visual(s, dir){ return bidi.getReorderedString(s, bidi.getEmbeddingLevels(s, dir)); }
+// « le départ est-il bien à l'origine de la flèche ? » : dans l'ordre visuel, en écriture de droite à gauche le départ
+// est à DROITE de « ← » (donc après lui dans la chaîne visuelle), sinon à gauche de « → ».
+function arrowReadsForward(label, city, stop, rtl){
+  const dir = rtl ? 'rtl' : 'ltr';
+  const v = visual(label, dir);
+  const i = v.indexOf(visual(city, dir)), j = v.indexOf(visual(stop, dir)), a = v.search(/[←→]/);
+  assert.ok(i >= 0 && j >= 0 && a >= 0, 'ordre visuel illisible : ' + JSON.stringify(v));
+  return rtl ? (j < a && a < i) : (i < a && a < j);
+}
+test('17e audit : en-tête du PDF — la flèche pointe du départ vers l\'étape, noms latins ET noms arabes', () => {
+  // Sans isolat, « Lyon ← Moffans » (noms LATINS, le cas courant) forme une seule séquence de gauche à droite en
+  // arabe : la flèche désignait le DÉPART. Symétriquement « ليون → موفان » se lisait à rebours en français.
+  const NAMES = [['Lyon', 'Moffans'], ['ليون', 'موفان'], ['Lyon', 'موفان']];
+  const bad = [];
+  for(const l of ['fr', 'ja', ...RTL]){
+    A.setLang(l);
+    const rtl = RTL.includes(l);
+    for(const [city, stop] of NAMES){
+      const label = A.tripLabelText({ city: city, legs: [{ stop: stop }], days: 3, startIso: '2026-09-20', endIso: '2026-09-22' });
+      // Chaque nom est isolé (FSI … PDI) : c'est ce qui rend la flèche indépendante de l'écriture des noms.
+      if(label.indexOf('\u2068' + city + '\u2069') < 0 || label.indexOf('\u2068' + stop + '\u2069') < 0) bad.push(l + ' : nom non isolé dans ' + JSON.stringify(label));
+      if(!arrowReadsForward(label, city, stop, rtl)) bad.push(l + ' « ' + city + ' vers ' + stop + ' » : flèche à rebours, ordre visuel ' + JSON.stringify(visual(label, rtl ? 'rtl' : 'ltr')));
+      // Une seule flèche, dans le sens de l'écriture de l'interface.
+      const [want, not] = rtl ? ['←', '→'] : ['→', '←'];
+      if((label.match(new RegExp(want, 'g')) || []).length !== 1 || label.indexOf(not) >= 0) bad.push(l + ' : flèches dans ' + JSON.stringify(label));
+      // Nom de fichier : toujours lu de gauche à droite, le départ doit y rester en tête dans les deux écritures.
+      const file = A.pdfFilename(label);
+      if(file.indexOf('←') >= 0) bad.push(l + ' nom de fichier : « ← » conservé dans « ' + file + ' »');
+      if(!arrowReadsForward(file, city, stop, false)) bad.push(l + ' nom de fichier : départ pas en tête, ordre visuel ' + JSON.stringify(visual(file, 'ltr')));
+      if(!/\.pdf$/.test(file)) bad.push(l + ' nom de fichier : « ' + file + ' »');
+    }
+  }
+  A.setLang('fr');
+  // Les isolats sont invisibles et de largeur nulle : le texte lisible est inchangé.
+  const plain = A.tripLabelText({ city: 'Lyon', legs: [{ stop: 'Annecy' }], days: 3, startIso: '2026-09-20', endIso: '2026-09-22' })
+    .replace(/[\u2068\u2069]/g, '');
+  assert.match(plain, /^Lyon → Annecy · 20.*22 sept\. 2026$/);
+  assert.deepEqual(bad, []);
+});
+
+test('17e audit : noms de pays du touroyo et de l\'adyguéen — le repli lisible de leur écriture, jamais le français', () => {
+  // La 16e passe coupait Intl.DisplayNames pour ces deux langues et laissait le nom FRANÇAIS de COUNTRIES
+  // (« Suisse », « France ») dans une interface cyrillique ou latine : un mot d'une troisième langue, moins lisible que
+  // le repli (russe pour ady, turc pour tru — langue de contact DANS LA MÊME ÉCRITURE, voir LOCALE_FALLBACK).
+  const bad = [];
+  const restriction = { kind: 'moto', type: 'noMotorway', country: 'FR', name: 'France', source: 'https://example.test/a' };
+  for(const l of ['tru', 'ady']){
+    A.setLang(l);
+    const tag = W.I18N.localeTag(l);
+    const fallbackFr = new Intl.DisplayNames([tag], { type: 'region' }).of('FR');
+    const fallbackCh = new Intl.DisplayNames([tag], { type: 'region' }).of('CH');
+    // Le repli est écrit dans la même écriture que l'interface (latin pour tru, cyrillique pour ady) : c'est ce qui le
+    // rend plus lisible que le nom français des données.
+    const script = l === 'ady' ? /^[\p{Script=Cyrillic}\s.'-]+$/u : /^[\p{Script=Latin}\p{M}\s.'-]+$/u;
+    if(!script.test(fallbackCh)) bad.push(l + ' : repli hors de l\'écriture de la langue (« ' + fallbackCh + ' »)');
+    if(fallbackCh === 'Suisse' || fallbackFr === 'France') bad.push(l + ' : repli identique au français, test sans objet');
+    const html = A.restrictionRowHtml(restriction);
+    if(html.indexOf(fallbackFr) < 0) bad.push(l + ' moto : « ' + fallbackFr + ' » attendu dans « ' + html + ' »');
+    const vign = A.vignetteLabel('CH');
+    if(vign.indexOf(fallbackCh) < 0) bad.push(l + ' vignette : « ' + fallbackCh + ' » attendu dans « ' + vign + ' »');
+    if(vign.indexOf('Suisse') >= 0) bad.push(l + ' vignette : nom FRANÇAIS resté dans « ' + vign + ' »');
+    // Infobulle des suggestions : même nom qu'à l'écran.
+    if(A.countryDisplayName('CH', 'Suisse') !== fallbackCh) bad.push(l + ' infobulle : « ' + A.countryDisplayName('CH', 'Suisse') + ' »');
+    // Corps du PDF : même nom que l'avertissement moto de l'écran.
+    const pdfName = A.pdfLegTexts({ stop: 'X', restrictions: [restriction] }).restrictions[0];
+    if(pdfName.indexOf(fallbackFr) < 0) bad.push(l + ' PDF : « ' + fallbackFr + ' » attendu dans « ' + pdfName + ' »');
+  }
+  // Témoins inchangés : les langues à données Intl gardent leur nom traduit, jamais celui des données.
+  A.setLang('en');
+  if(A.vignetteLabel('CH').indexOf('Switzerland') < 0) bad.push('en : « Switzerland » attendu dans « ' + A.vignetteLabel('CH') + ' »');
+  A.setLang('ru');
+  if(A.vignetteLabel('CH').indexOf('Швейцария') < 0) bad.push('ru : « Швейцария » attendu dans « ' + A.vignetteLabel('CH') + ' »');
+  if(A.restrictionRowHtml(restriction).indexOf('Франция') < 0) bad.push('ru : « Франция » attendu');
+  // Pays inconnu (code vide) : le nom des données reste le repli.
+  A.setLang('fr');
+  if(A.countryDisplayName('', 'Suisse') !== 'Suisse') bad.push('sans code pays : repli perdu');
+  assert.deepEqual(bad, []);
+});
+
+test('17e audit : export refusé faute de place (413) — message dédié, jamais « réessayez dans un instant »', () => {
+  // Le catch de l'export ne distinguait que 429 et 503 : un corps refusé par le serveur (413) tombait sur export.error
+  // (« réessayez dans un instant »), conseil faux puisque réessayer à l'identique redonnera 413.
+  const i = APP.indexOf("fetch('/api/export-pdf'");
+  assert.ok(i > 0, 'appel de /api/export-pdf introuvable dans app.js');
+  const slice = APP.slice(i, i + 3000);
+  const body = slice.split('\n').filter(x => !/^\s*\/\//.test(x)).join('\n');
+  const line = body.match(/els\.exportHint\.textContent = [\s\S]*?;/);
+  assert.ok(line, 'choix du message d\'erreur de l\'export introuvable');
+  assert.ok(/status === 413/.test(line[0]), 'le code 413 n\'est pas distingué : ' + line[0]);
+  assert.ok(/export\.tooLarge/.test(line[0]), 'export.tooLarge non utilisé pour le 413 : ' + line[0]);
+  // Le code HTTP de la réponse est bien transmis au catch.
+  assert.ok(/httpErr\.status = r\.status/.test(slice), 'le code HTTP n\'est pas transmis au catch');
+  // Message traduit, distinct des autres, dans les 161 langues.
+  const bad = [];
+  for(const l of Array.from(W.I18N.SUPPORTED)){
+    A.setLang(l);
+    const s = W.I18N.t('export.tooLarge');
+    if(!s || s === 'export.tooLarge') bad.push(l + ' : non traduit');
+    else if(s === W.I18N.t('export.error')) bad.push(l + ' : identique à export.error');
+    else if(s === W.I18N.t('error.serverBusy') || s === W.I18N.t('error.tooManyRequests')) bad.push(l + ' : identique à un autre message');
+  }
+  A.setLang('fr');
+  assert.deepEqual(bad, []);
+});
+
+test('17e audit : corps de l\'export allégé — aucun champ facultatif vide, information du PDF intacte', () => {
+  A.setLang('fr');
+  A.setTrip(fakeTrip('voiture-thermique'));
+  const p = A.buildTripExportPayload();
+  // Aucune clé à null/undefined nulle part, SAUF ferryInfo.amount (null = « traversée réelle sans tarif publié », que
+  // le serveur et le texte de secours du PDF lisent comme tel).
+  const nulls = [];
+  (function walk(v, path){
+    if(Array.isArray(v)) return v.forEach((x, i) => walk(x, path + '[' + i + ']'));
+    if(!v || typeof v !== 'object') return;
+    Object.keys(v).forEach(function(k){
+      if(v[k] === null || v[k] === undefined){ if(k !== 'amount') nulls.push(path + '.' + k); }
+      else walk(v[k], path + '.' + k);
+    });
+  })(p, '');
+  assert.deepEqual(nulls, [], 'champs vides encore envoyés');
+  // Rien de ce qui est imprimé n'a disparu : textes, pastilles, étapes, liens.
+  assert.equal(p.legs.length, 5);
+  assert.ok(p.texts.vignette && p.texts.subtitle && p.texts.packTitle && p.texts.generated);
+  assert.deepEqual(p.legs.map(x => x.badge), ['1', '2', '3', '4', '⟲']);
+  assert.ok(p.legs[0].texts.stop && p.legs[0].label && p.legs[0].stop === 'Annecy');
+  assert.ok(p.legs[0].texts.overMaxLeg && p.legs[0].overMaxLeg.max === 80);
+  assert.equal(p.legs[1].ferryInfo.amount, 120);
+  assert.ok(p.legs[0].activities[0].hikeUrl && p.legs[0].activities[0].sourceLabel);
+  // Le serveur déduit le retour de !!leg.isReturn : la clé absente y vaut false, comme avant.
+  assert.equal(p.legs[4].isReturn, true);
+  assert.equal(!!p.legs[0].isReturn, false);
+  // Les liens d'hébergement ne partent plus sans la plage de dates (le serveur les ignore alors, voir buildTripPdf).
+  p.legs.forEach(function(l, i){ assert.ok(!l.lodgingLinks || l.checkInLabel, 'étape ' + i + ' : liens de logement sans plage de dates'); });
+  A.setTrip(null);
+});
+
+test('17e audit : un tirage qui échoue rend les boutons et vide l\'annonce de l\'ancien voyage', () => {
+  // (a) Tout ce qui suit la requête (prefetchLegAssets, scrollIntoView, runReveal) était hors de tout try/catch : une
+  //     exception y laissait « Lancer » et « Retirer une autre destination » désactivés définitivement.
+  const g = APP.indexOf('  async function generate(){');
+  assert.ok(g > 0, 'generate() introuvable');
+  const gen = APP.slice(g, APP.indexOf('\n  function hideDisplayedTrip(', g));
+  const tail = gen.slice(gen.indexOf('} finally {'));
+  const code = tail.slice(0, tail.indexOf('function showDrawnTrip(')).split('\n').filter(x => !/^\s*\/\//.test(x)).join('\n');
+  assert.ok(/\n\s*try \{/.test(code), 'le lancement de la roulette est encore hors try/catch');
+  assert.ok(/prefetchLegAssets/.test(code) && /runReveal\(/.test(code), 'le try ne couvre pas prefetchLegAssets/runReveal');
+  const rescue = code.slice(code.lastIndexOf('} catch(err){'));
+  assert.ok(/endFailedDraw\(\)/.test(rescue), 'les boutons ne sont pas rendus en cas d\'exception : ' + rescue);
+  assert.ok(/showFormError/.test(rescue), 'aucun message affiché en cas d\'exception');
+  // (b) L'annonce aux lecteurs d'écran est vidée dès le DÉBUT du tirage, pas seulement au début de la roulette.
+  assert.ok(/beginDraw\(\);/.test(gen.slice(0, gen.indexOf("await fetch('/api/generate-trip'"))), 'beginDraw() n\'est pas appelé avant la requête');
+  // Comportement : une ancienne annonce est présente, un tirage commence -> annonce vidée, boutons désactivés ; il
+  // échoue -> boutons rendus, annonce toujours vide, voyage précédent oublié.
+  A.setLang('fr');
+  A.announceReveal('Destination confirmée — Lyon · 21 habitants');
+  assert.notEqual(A.announce(), '');
+  A.beginDraw();
+  assert.equal(A.announce(), '', 'annonce de l\'ancien voyage gardée pendant le tirage');
+  assert.equal(A.els.launchBtn.disabled, true);
+  assert.equal(A.els.againBtn.disabled, true);
+  A.setTrip(fakeTrip('voiture-thermique'));
+  A.endFailedDraw();
+  assert.equal(A.els.launchBtn.disabled, false, 'bouton « Lancer » resté désactivé');
+  assert.equal(A.els.againBtn.disabled, false);
+  assert.equal(A.announce(), '');
+  assert.equal(A.buildTripExportPayload(), null, 'le voyage précédent est resté en mémoire');
+});
+
+// --------------------------------------------------------------------------------------------- 17e audit du 20/09/2026
+// Sélecteur de DEVISE (buildCurrencySwitcher dans app.js) : même contrôle que celui posé au 17e audit sur le sélecteur
+// de LANGUE (voir tests/i18n.test.js, « 17e audit : sélecteur de langue — un seul motif ARIA »). Le composant est monté
+// ici dans un DOM factice minimal — assez pour rejouer le clic d'ouverture et la navigation au clavier — afin de
+// vérifier que les rôles annoncés forment UN SEUL motif cohérent (bouton -> listbox) et que rien du clavier n'a bougé.
+function fakeDom(){
+  const dom = { activeElement: null };
+  function matches(e, sel){ return sel.charAt(0) === '.' && String(e.className || '').split(/\s+/).indexOf(sel.slice(1)) >= 0; }
+  function findAll(e, sel, out){
+    (e.children || []).forEach(function(c){ if(matches(c, sel)) out.push(c); findAll(c, sel, out); });
+    return out;
+  }
+  function el(tag){
+    const e = {
+      tagName: tag, attrs: {}, children: [], handlers: {}, className: '', id: '', style: {}, textContent: '', hidden: false,
+      setAttribute(k, v){ e.attrs[k] = String(v); },
+      getAttribute(k){ return Object.prototype.hasOwnProperty.call(e.attrs, k) ? e.attrs[k] : null; },
+      removeAttribute(k){ delete e.attrs[k]; },
+      appendChild(c){ e.children.push(c); c.parent = e; return c; },
+      addEventListener(t, fn){ (e.handlers[t] = e.handlers[t] || []).push(fn); },
+      fire(t, ev){ (e.handlers[t] || []).forEach(fn => fn(Object.assign({ preventDefault(){}, target: e }, ev))); },
+      focus(){ dom.activeElement = e; },
+      contains(n){ for(let p = n; p; p = p.parent) if(p === e) return true; return false; },
+      querySelector(sel){ return findAll(e, sel, [])[0] || null; },
+      querySelectorAll(sel){ return findAll(e, sel, []); }
+    };
+    e.classList = { set: {}, add(c){ e.classList.set[c] = true; }, remove(c){ delete e.classList.set[c]; }, contains(c){ return !!e.classList.set[c]; } };
+    Object.defineProperty(e, 'innerHTML', {
+      get(){ return ''; },
+      set(v){
+        e.children = [];
+        const m = String(v).match(/<(\w+)[^>]*class="([^"]+)"/);
+        if(m){ const c = el(m[1]); c.className = m[2]; e.appendChild(c); }
+      }
+    });
+    return e;
+  }
+  dom.el = el;
+  return dom;
+}
+// Le sélecteur de devise vit dans app.js (fichier trop gros et trop dépendant du réseau pour être exécuté en entier) :
+// ses fonctions sont extraites comme le reste du fichier (extract/extractVar), avec juste assez de colle pour que
+// buildCurrencySwitcher tourne — le vrai i18n.js, quelques devises, aucun moteur.
+function loadCurrencySwitcher(){
+  const src = fs.readFileSync(path.join(PUB, 'i18n.js'), 'utf8');
+  const dom = fakeDom();
+  const root = dom.el('div');
+  root.id = 'currency-switcher';
+  const docHandlers = {};
+  const ctx = {
+    navigator: { languages: ['fr'] }, localStorage: { getItem: () => null, setItem(){}, removeItem(){} },
+    document: {
+      readyState: 'complete', documentElement: dom.el('html'), querySelectorAll: () => [],
+      getElementById: id => (id === 'currency-switcher' ? root : null), createElement: dom.el,
+      addEventListener(t, fn){ (docHandlers[t] = docHandlers[t] || []).push(fn); }
+    },
+    CustomEvent: function(){}, Intl, console, setTimeout: fn => fn()
+  };
+  Object.defineProperty(ctx.document, 'activeElement', { get: () => dom.activeElement });
+  ctx.window = { addEventListener(){}, dispatchEvent(){} };
+  vm.createContext(ctx);
+  vm.runInContext(src, ctx);
+  const glue = [
+    'var t = window.I18N.t;',
+    // Devises et pays réduits au nécessaire : CURRENCY_OPTIONS est normalement calculé depuis TripData (non chargé ici).
+    'var CURRENCY_OPTIONS = ["CHF", "EUR", "GBP", "JPY", "USD"];',
+    'var COUNTRIES = { FR: { currency: "EUR" }, JP: { currency: "JPY" } };',
+    'function updateBudgetHint(){}',
+    'function rerenderCurrentTrip(){}',
+    'var sessionCurrency;',
+    ['CURRENCY_GLYPH', 'CURRENCY_STORAGE_KEY', 'currencySwitcherRoot'].map(extractVar).join('\n'),
+    ['isKnownCurrency', 'getPreferredCurrency', 'setPreferredCurrency', 'languageCurrency', 'renderCurrencyButton',
+      'closeCurrencyPanel', 'currencyOptions', 'focusCurrencyOption', 'openCurrencyPanel', 'chooseCurrency',
+      'renderCurrencyList', 'buildCurrencySwitcher', 'applyCurrencyPanelTexts'].map(extract).join('\n'),
+    'buildCurrencySwitcher(); applyCurrencyPanelTexts();',
+    'window.__cur = { chosen: function(){ return getPreferredCurrency(); } };'
+  ].join('\n');
+  vm.runInContext(glue, ctx);
+  return { root, button: root.children[0], panel: root.children[1], dom, cur: ctx.window.__cur,
+    fireDoc: (type, ev) => (docHandlers[type] || []).forEach(fn => fn(Object.assign({ preventDefault(){}, target: dom.el('div') }, ev))) };
+}
+test('17e audit : sélecteur de devise — un seul motif ARIA (bouton + listbox), clavier inchangé', () => {
+  const { root, button, panel, dom, cur, fireDoc } = loadCurrencySwitcher();
+  assert.equal(root.children.length, 2, 'bouton + panneau attendus');
+  const list = panel.children[0];
+  // Le bouton annonce une listbox : l'élément qu'il désigne DOIT en être une.
+  assert.equal(button.getAttribute('aria-haspopup'), 'listbox');
+  assert.equal(button.getAttribute('aria-expanded'), 'false');
+  assert.ok(button.getAttribute('aria-label'), 'le bouton n\'a pas de nom accessible');
+  assert.equal(button.getAttribute('aria-controls'), list.id, 'le bouton ne désigne pas la liste');
+  assert.equal(list.getAttribute('role'), 'listbox');
+  assert.ok(list.getAttribute('aria-label'), 'la listbox n\'a pas de nom accessible');
+  // Plus de rôle concurrent : le panneau n'est qu'un conteneur de mise en page (caché par CSS quand il est fermé), et
+  // un aria-label sur un <div> sans rôle n'est annoncé par personne.
+  assert.equal(panel.getAttribute('role'), null, 'le panneau porte encore un rôle');
+  assert.equal(panel.getAttribute('aria-label'), null, 'aria-label sur le panneau sans rôle');
+  // Ouverture au clic : la liste se remplit d'options, toutes enfants de la listbox.
+  button.fire('click');
+  assert.equal(button.getAttribute('aria-expanded'), 'true');
+  assert.ok(panel.classList.contains('show'));
+  const options = list.querySelectorAll('.currency-option');
+  assert.equal(options.length, 6, options.length + ' options (« automatique » + 5 devises)');
+  assert.ok(options.every(o => o.getAttribute('role') === 'option' && o.parent === list), 'options hors de la listbox');
+  assert.equal(options.filter(o => o.getAttribute('aria-selected') === 'true').length, 1, 'une seule option sélectionnée attendue');
+  assert.ok(options.every(o => o.getAttribute('tabindex') === '-1'), 'focus glissant : tabindex="-1" sur chaque option');
+  // Clavier inchangé : le focus part sur l'option active, puis bas/haut, Fin/Début ; Échap referme et rend le focus.
+  const is = (el, want, what) => assert.ok(el === want, what + ' : ' + (el && (el.className || el.tagName)));
+  is(dom.activeElement, options[0], 'focus à l\'ouverture (option active = « automatique »)');
+  list.fire('keydown', { key: 'ArrowDown' });
+  is(dom.activeElement, options[1], 'flèche bas dans la liste');
+  list.fire('keydown', { key: 'End' });
+  is(dom.activeElement, options[options.length - 1], 'touche Fin');
+  list.fire('keydown', { key: 'ArrowUp' });
+  is(dom.activeElement, options[options.length - 2], 'flèche haut dans la liste');
+  list.fire('keydown', { key: 'Home' });
+  is(dom.activeElement, options[0], 'touche Début');
+  fireDoc('keydown', { key: 'Escape' });
+  assert.equal(button.getAttribute('aria-expanded'), 'false', 'Échap ne referme plus le panneau');
+  is(dom.activeElement, button, 'Échap ne rend plus le focus au bouton');
+  // Flèche bas sur le bouton fermé : ouvre la liste. Entrée sur une option : choisit la devise et referme.
+  button.fire('keydown', { key: 'ArrowDown' });
+  assert.equal(button.getAttribute('aria-expanded'), 'true', 'flèche bas sur le bouton n\'ouvre plus la liste');
+  const opts2 = list.querySelectorAll('.currency-option');
+  // Ordre de la liste : « automatique », puis la devise du pays de la langue d'interface (fr -> FR -> EUR), puis les autres.
+  opts2[1].fire('keydown', { key: 'Enter' });
+  assert.equal(cur.chosen(), 'EUR', 'Entrée sur une option ne choisit plus la devise');
+  assert.equal(button.getAttribute('aria-expanded'), 'false', 'le panneau reste ouvert après un choix');
+  // Le choix se reflète dans la liste et dans le nom accessible du bouton, sans changer les rôles.
+  button.fire('click');
+  const opts3 = list.querySelectorAll('.currency-option');
+  assert.equal(opts3.filter(o => o.getAttribute('aria-selected') === 'true').length, 1);
+  assert.ok(opts3.every(o => o.getAttribute('role') === 'option'));
+  assert.equal(list.getAttribute('role'), 'listbox');
+  assert.equal(panel.getAttribute('role'), null, 'le panneau a retrouvé un rôle');
+  assert.ok(/EUR/.test(button.getAttribute('aria-label')), 'devise choisie absente du nom du bouton : ' + button.getAttribute('aria-label'));
 });

@@ -10,6 +10,10 @@
 //   - 15e audit du 19/09/2026 : espace avant « % » telle que CLDR la donne pour la langue.
 //   - 16e audit du 20/09/2026 : message de coupure réseau (error.network) dans les 161 langues ; « % » placé AVANT le
 //     nombre là où CLDR le place ainsi (kurde, basque…).
+//   - 17e audit du 20/09/2026 : registre (tutoiement / vouvoiement) et ponctuation de error.network alignés sur ceux
+//     que MESURE le dictionnaire lui-même ; pourcentages des six langues que les deux tests précédents sautaient
+//     (bs, sr, uk sans espace CLDR ; cnr, gag, crh sans données Intl propres) ; sémantique ARIA du sélecteur de langue
+//     (un seul motif bouton + listbox), navigation au clavier comprise.
 'use strict';
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
@@ -266,6 +270,9 @@ test('randonnées : quatre niveaux de difficulté distincts et traduits dans cha
 // avant le signe dans la langue elle-même (Intl.NumberFormat(…, {style: 'percent'}), locale résolue de la même langue) ;
 // sans objet pour les langues sans données CLDR propres, les pourcentages placés avant le nombre (« %20 » turc) et les
 // suffixes collés (« 20%-im » groenlandais).
+// 17e audit du 20/09/2026 : le test SAUTAIT les langues dont CLDR ne met AUCUNE espace (`!m[1]`), c'est-à-dire
+// exactement celles qui écrivaient « 20 % » à tort (bosniaque, serbe, ukrainien). L'espace attendue peut être vide :
+// seules les langues qui placent le signe AVANT le nombre sont laissées au test suivant.
 test('pourcentages : espace insécable avant « % » dans les langues dont CLDR en met une', () => {
   const bad = [];
   let checked = 0;
@@ -274,7 +281,7 @@ test('pourcentages : espace insécable avant « % » dans les langues dont CLDR 
     try { nf = new Intl.NumberFormat(I18N.localeTag(l), { style: 'percent' }); } catch(e){ continue; }
     if(nf.resolvedOptions().locale.split('-')[0] !== l.split('-')[0]) continue;
     const m = nf.format(0.2).match(/^\D*\p{Nd}+([\s  ]*)[%٪]/u);
-    if(!m || !m[1]) continue;
+    if(!m) continue; // signe placé AVANT le nombre : laissé au test suivant
     const values = [];
     Object.values(S[l]).forEach(v => values.push(v));
     Object.values(L[l]).forEach(list => list.forEach(v => values.push(v)));
@@ -337,4 +344,251 @@ test('pourcentages : signe avant le nombre là où CLDR le place ainsi, avec son
   // Témoins : kurde sans espace, basque avec l'espace insécable de CLDR.
   assert.ok(L.ku['pack.voitureElectrique'].some(v => v.includes('%20')), 'kurde : « %20 » attendu');
   assert.ok(L.eu['pack.voitureElectrique'].some(v => v.includes('% 20')), 'basque : « % 20 » attendu');
+});
+
+// --------------------------------------------------------------------------------------------- 17e audit du 20/09/2026
+
+// Registre (tutoiement / vouvoiement) DOMINANT de chaque dictionnaire, mesuré sur ses propres impératifs : pour chaque
+// langue, les deux colonnes donnent le même verbe aux deux personnes, tel qu'il est réellement écrit ailleurs dans le
+// dictionnaire. Le registre attendu de error.network n'est donc pas décrété ici : il est celui que la mesure donne.
+// (La 16e passe avait ajouté error.network dans les 161 langues ; dans ces quatorze-là, la phrase tutoyait un
+// dictionnaire qui vouvoie, ou l'inverse.)
+const IMPERATIVES = {
+  de:  { T: ['prüfe', 'versuche', 'gib', 'denk', 'verringere', 'vergrößere', 'verlängere', 'lockere', 'erkundige'],
+         V: ['prüfen', 'versuchen', 'geben', 'verringern', 'vergrößern', 'verlängern', 'lockern', 'erkundigen'] },
+  lb:  { T: ['kuck', 'probéier', 'kontrolléier', 'vergréisser', 'reduzéier', 'verlänger', 'iwwerpréif', 'informéier', 'gëff', 'denk', 'lacker'],
+         V: ['kuckt', 'probéiert', 'kontrolléiert', 'vergréissert', 'reduzéiert', 'verlängert', 'iwwerpréift', 'informéiert', 'gitt', 'denkt', 'lackert'] },
+  rm:  { T: ['controllescha', 'emprova', 'endatescha', 'indica', 'augmentescha', 'reducescha', 'engrondescha', 'allentescha'],
+         V: ['controllai', 'empruvai', 'endatai', 'indichai', 'verifitgai', 'augmentai', 'reducai', 'engrondai'] },
+  hsb: { T: ['přepruwuj', 'spytaj', 'zapodaj', 'podaj', 'pomjeńš', 'powjetši', 'podlěš', 'zmjechč', 'přeswědč'],
+         V: ['přepruwujće', 'spytajće', 'zapodajće', 'podajće', 'pomjeńšće', 'powjetšće', 'informujće'] },
+  csb: { T: ['sprawdzë', 'sprôwdzë', 'sprobùjë', 'spróbùjë', 'sprobùj', 'zwiãkszë', 'zmiészë', 'wpiszë', 'dowiédzë', 'złagòdzë', 'skrócë', 'rëmôj'],
+         V: ['sprawdzëta', 'sprôwdzëta', 'sprôwdzëwôjta', 'sprobùjta', 'spróbùjta', 'zwiãkszëta', 'zmiészëta', 'wpiszta', 'dowiédzta', 'złagòdzëta', 'skrócta', 'rëmôjta'] },
+  rue: { T: ['перевір', 'спробуй', 'впиши', 'збільш', 'зменш', 'памятай', 'провір'],
+         V: ['перевірьте', 'спробуйте', 'впишіть', 'збільшіть', 'зменшіть', 'звідайте', 'продовжте', 'ослабте', 'провірьте'] },
+  oc:  { T: ['verifica', 'ensaja', 'pica', 'aumenta', 'demesís', 'indica', 'pensa', 'assopla'],
+         V: ['verificatz', 'ensajatz', 'picatz', 'aumentatz', 'demesissètz', 'indicatz', 'pensatz', 'tornatz'] },
+  vro: { T: ['kaeq', 'pruuvi', 'kae', 'proovi', 'küsü', 'kirota'],
+         V: ['kaegõq', 'kaegõ', 'proovigõq', 'proovige', 'küsügeq', 'kirotagõ', 'sisestage', 'kontrollige', 'suurendage', 'vähendage', 'ärge'] },
+  gag: { T: ['bak', 'denä', 'dene', 'yaz', 'büyüt', 'azalt', 'unutma'],
+         V: ['bakınız', 'deneyin', 'yazın', 'büyütün', 'azaltın', 'unutmayın', 'sorunuz'] },
+  ab:  { T: ['гәаҭа', 'еиҭаҽанаҧш', 'хәаԥш'],
+         V: ['ишәгәаҭа', 'иеиҭашәхәаԥш', 'шәрыхәаԥш', 'шәыҳаракыр', 'шәыҵыр', 'шәхәаԥш', 'шәгәыҵымыз', 'шәдыр'] },
+  sah: { T: ['бэрэбиэркэлээ', 'боруобалаа', 'оҥор', 'киллэр', 'кэҥэт', 'аччат', 'уһат', 'чэпчэт', 'ыйыт', 'умнума'],
+         V: ['бэрэбиэркэлээҥ', 'боруобалааҥ', 'оҥоруҥ', 'киллэриҥ', 'кэҥэтиҥ', 'аччатыҥ', 'уһатыҥ', 'чэпчэтиҥ', 'ыйытыҥ', 'умнумаҥ'] },
+  myv: { T: ['варштык', 'теик', 'ванок', 'варчтак', 'кевкстек'],
+         V: ['ваннодо', 'варчтадо', 'сёрмадодо', 'кевкстедэ', 'ванстодо', 'вишкалгавтодо', 'келейгавтодо', 'кувакалгавтодо', 'чавдолгавтодо'] },
+  mdf: { T: ['ванк', 'тик', 'варчак', 'кизефтть'],
+         V: ['ваннынк', 'ваныда', 'варчада', 'сёрматтада', 'кизефтьда', 'ванфтада', 'ёмлаптада', 'келеептада', 'кувакаптада', 'нюрьгемптеда'] },
+  hu:  { T: ['ellenőrizd', 'próbáld', 'próbálj', 'csökkentsd', 'növeld', 'szélesítsd', 'lazíts', 'adj', 'add'],
+         V: ['ellenőrizze', 'próbálja', 'próbáljon', 'csökkentse', 'növelje', 'szélesítse', 'tájékozódjon', 'adjon'] },
+  // Jersiais et guernesiais : vouvoyés d'un bout à l'autre, error.network était leur seule phrase tutoyée.
+  'nrf-je': { T: ['vérifyis', 'èrcommenche', 'êprouve'], V: ['vérifiez', 'êprouvez', 'pensez', 'êlarguissez'] },
+  'nrf-gg': { T: ['vérifyis', 'r\'cominche', 'êprouve'], V: ['vérifiez', 'êprouviez', 'pensez', 'êlarguissiez'] }
+};
+const NO_LETTER_BEFORE = '(?<![\\p{L}\\p{M}])', NO_LETTER_AFTER = '(?![\\p{L}\\p{M}])';
+function allValues(l){
+  const out = [];
+  Object.values(S[l]).forEach(v => out.push(v));
+  Object.values(L[l]).forEach(list => list.forEach(v => out.push(v)));
+  return out;
+}
+function countForms(values, words){
+  const re = new RegExp(NO_LETTER_BEFORE + '(?:' + words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')' + NO_LETTER_AFTER, 'giu');
+  let n = 0;
+  for(const v of values){ let m; re.lastIndex = 0; while((m = re.exec(v))) n++; }
+  return n;
+}
+test('17e audit : error.network suit le registre dominant de son dictionnaire (mesuré sur ses impératifs)', () => {
+  const bad = [];
+  for(const [l, forms] of Object.entries(IMPERATIVES)){
+    const values = allValues(l);
+    const others = values.filter(v => v !== S[l]['error.network']);
+    const t = countForms(others, forms.T), v = countForms(others, forms.V);
+    if(t === v){ bad.push(l + ' : registre dominant indécis (T=' + t + ', V=' + v + ') — table à revoir'); continue; }
+    const dominant = t > v ? 'T' : 'V';
+    const net = S[l]['error.network'];
+    const inNet = { T: countForms([net], forms.T), V: countForms([net], forms.V) };
+    if(inNet.T + inNet.V === 0){ bad.push(l + ' : aucun impératif reconnu dans « ' + net + ' »'); continue; }
+    if(inNet[dominant] === 0 || inNet[dominant === 'T' ? 'V' : 'T'] > 0){
+      bad.push(l + ' : registre ' + (dominant === 'T' ? 'tutoiement' : 'vouvoiement') + ' attendu (T=' + t + ', V=' + v +
+        ' ailleurs) — « ' + net + ' »');
+    }
+  }
+  assert.equal(bad.length, 0, report(bad));
+});
+
+test('17e audit : ponctuation de error.network — espacement du deux-points et signes de l\'écriture', () => {
+  const bad = [];
+  // Jersiais et guernesiais suivent l'espacement FRANÇAIS (« mot : mot ») : 46 deux-points sur 47 le respectaient,
+  // error.network était le seul collé (« serveux: »).
+  for(const l of ['nrf-je', 'nrf-gg', 'fr']){
+    const spaced = allValues(l).filter(v => /\S[  ] ?:(\s|$)/.test(v)).length;
+    const stuck = allValues(l).filter(v => /\p{L}:(\s|$)/u.test(v));
+    if(spaced < 10) bad.push(l + ' : espacement français non mesurable (' + spaced + ' deux-points espacés)');
+    stuck.forEach(v => bad.push(l + ' : deux-points collé « ' + v.slice(0, 70) + ' »'));
+  }
+  // Yi du Sichuan : ponctuation pleine largeur partout (。、：，), error.network était la seule chaîne en ASCII.
+  const yiFull = allValues('ii').filter(v => /[。、：，]/.test(v)).length;
+  assert.ok(yiFull > 50, 'ii : ponctuation pleine largeur non dominante (' + yiFull + ')');
+  const yiNet = S.ii['error.network'];
+  if(/[:.]/.test(yiNet.replace(/[A-Za-z0-9]+\.[A-Za-z]/g, ''))) bad.push('ii : ponctuation ASCII dans « ' + yiNet + ' »');
+  if(!/。$/.test(yiNet)) bad.push('ii : la phrase ne se termine pas par « 。 » — « ' + yiNet + ' »');
+  if(yiNet.indexOf('：') < 0) bad.push('ii : deux-points pleine largeur attendu — « ' + yiNet + ' »');
+  assert.equal(bad.length, 0, report(bad));
+});
+
+// 17e audit du 20/09/2026 : les deux tests de pourcentage ci-dessus laissaient passer six langues.
+//   - bs, sr, uk : CLDR ne met AUCUNE espace (« 20% »), et le test précédent sautait justement les langues sans espace
+//     (`if(!m || !m[1]) continue`) — il ne les saute plus (voir son commentaire) ;
+//   - cnr, gag, crh : Intl ne résout pas leur étiquette dans leur propre langue, les deux tests les écartent donc.
+//     Leur référence est nommée ici, avec sa justification, et reste calculée par Intl.NumberFormat.
+const PERCENT_REFERENCE = {
+  // Monténégrin : Intl résout cnr-ME en sr-ME, la locale CLDR du Monténégro — même convention, « 20% ».
+  cnr: 'sr-ME',
+  // Gagaouze et tatar de Crimée : langues turciques écrites ici en alphabet latin d'usage turc. Leur étiquette Intl
+  // retombe sur le roumain de Moldavie et l'ukrainien, d'une autre tradition typographique ; la convention de leur
+  // propre écriture est celle du turc, signe AVANT le nombre et collé (« %20 »).
+  gag: 'tr', crh: 'tr'
+};
+test('17e audit : pourcentages des langues que les deux tests précédents sautaient (bs, sr, uk, cnr, gag, crh)', () => {
+  const bad = [];
+  let checked = 0;
+  for(const [l, ref] of Object.entries(PERCENT_REFERENCE)){
+    const nf = new Intl.NumberFormat(ref, { style: 'percent' });
+    const model = nf.format(0.2); // « 20% » ou « %20 »
+    const values = allValues(l).filter(v => /[%٪]/.test(v));
+    assert.ok(values.length, l + ' : aucun pourcentage à contrôler');
+    for(const v of values){
+      checked++;
+      const got = v.match(/(?:\p{Nd}+[\s  ]*[%٪]|[%٪][\s  ]*\p{Nd}+)/u);
+      if(!got || got[0].replace(/\p{Nd}+/gu, '20') !== model) bad.push(l + ' : « ' + v + ' » (attendu « ' + model + ' », référence ' + ref + ')');
+    }
+  }
+  // bs, sr, uk sont désormais couverts par le test « espace insécable avant % » : on vérifie juste ici qu'ils y sont
+  // bien soumis (CLDR de leur propre langue, sans espace) et qu'ils l'écrivent comme lui.
+  for(const l of ['bs', 'sr', 'uk']){
+    const nf = new Intl.NumberFormat(I18N.localeTag(l), { style: 'percent' });
+    assert.equal(nf.resolvedOptions().locale.split('-')[0], l, l + ' : Intl ne résout plus cette langue dans la sienne');
+    const model = nf.format(0.2);
+    for(const v of allValues(l).filter(x => /[%٪]/.test(x))){
+      checked++;
+      const got = v.match(/\p{Nd}+[\s  ]*[%٪]/u);
+      if(!got || got[0].replace(/\p{Nd}+/gu, '20') !== model) bad.push(l + ' : « ' + v + ' » (attendu « ' + model + ' »)');
+    }
+  }
+  assert.ok(checked >= 6, checked + ' pourcentages contrôlés seulement');
+  assert.equal(bad.length, 0, report(bad));
+  // Témoins : le turc, référence de gag/crh, colle bien le signe devant ; le français garde son espace insécable.
+  assert.equal(new Intl.NumberFormat('tr', { style: 'percent' }).format(0.2), '%20');
+  assert.ok(L.fr['pack.voitureElectrique'].some(v => /20 %|20 %/.test(v)), 'français : « 20 % » attendu');
+});
+
+// Sélecteur de langue : le composant est construit entièrement en JS (buildSwitcher dans i18n.js). Il est monté ici
+// dans un DOM factice minimal — assez pour rejouer le clic d'ouverture et la navigation au clavier — afin de vérifier
+// que les rôles ARIA annoncés forment UN SEUL motif cohérent (bouton -> listbox), et que rien du clavier n'a bougé.
+function fakeDom(){
+  const dom = { activeElement: null };
+  function matches(e, sel){ return sel.charAt(0) === '.' && String(e.className || '').split(/\s+/).indexOf(sel.slice(1)) >= 0; }
+  function findAll(e, sel, out){
+    (e.children || []).forEach(function(c){ if(matches(c, sel)) out.push(c); findAll(c, sel, out); });
+    return out;
+  }
+  function el(tag){
+    const e = {
+      tagName: tag, attrs: {}, children: [], handlers: {}, className: '', id: '', style: {}, textContent: '', hidden: false,
+      setAttribute(k, v){ e.attrs[k] = String(v); },
+      getAttribute(k){ return Object.prototype.hasOwnProperty.call(e.attrs, k) ? e.attrs[k] : null; },
+      removeAttribute(k){ delete e.attrs[k]; },
+      appendChild(c){ e.children.push(c); c.parent = e; return c; },
+      addEventListener(t, fn){ (e.handlers[t] = e.handlers[t] || []).push(fn); },
+      fire(t, ev){ (e.handlers[t] || []).forEach(fn => fn(Object.assign({ preventDefault(){}, target: e }, ev))); },
+      focus(){ dom.activeElement = e; },
+      contains(n){ for(let p = n; p; p = p.parent) if(p === e) return true; return false; },
+      querySelector(sel){ return findAll(e, sel, [])[0] || null; },
+      querySelectorAll(sel){ return findAll(e, sel, []); }
+    };
+    e.classList = { set: {}, add(c){ e.classList.set[c] = true; }, remove(c){ delete e.classList.set[c]; }, contains(c){ return !!e.classList.set[c]; } };
+    Object.defineProperty(e, 'innerHTML', {
+      get(){ return ''; },
+      set(v){
+        e.children = [];
+        const m = String(v).match(/<(\w+)[^>]*class="([^"]+)"/);
+        if(m){ const c = el(m[1]); c.className = m[2]; e.appendChild(c); }
+      }
+    });
+    return e;
+  }
+  dom.el = el;
+  return dom;
+}
+function loadSwitcher(){
+  const src = fs.readFileSync(path.join(PUB, 'js', 'i18n.js'), 'utf8');
+  const dom = fakeDom();
+  const root = dom.el('div');
+  root.id = 'lang-switcher';
+  const ctx = {
+    window: {}, navigator: { languages: ['fr'] }, localStorage: { getItem: () => null, setItem(){} },
+    document: {
+      readyState: 'complete', documentElement: dom.el('html'), querySelectorAll: () => [], addEventListener(){},
+      getElementById: id => (id === 'lang-switcher' ? root : null), createElement: dom.el
+    },
+    CustomEvent: function(){}, Intl, console, setTimeout: fn => fn()
+  };
+  Object.defineProperty(ctx.document, 'activeElement', { get: () => dom.activeElement });
+  ctx.window.addEventListener = () => {};
+  ctx.window.dispatchEvent = () => {};
+  vm.createContext(ctx);
+  vm.runInContext(src, ctx);
+  return { root, button: root.children[0], panel: root.children[1], dom };
+}
+test('17e audit : sélecteur de langue — un seul motif ARIA (bouton + listbox), clavier inchangé', () => {
+  const { root, button, panel, dom } = loadSwitcher();
+  assert.equal(root.children.length, 2, 'bouton + panneau attendus');
+  const search = panel.children[0], list = panel.children[1];
+  // Le bouton annonce une listbox : l'élément qu'il désigne DOIT en être une.
+  assert.equal(button.getAttribute('aria-haspopup'), 'listbox');
+  assert.equal(button.getAttribute('aria-expanded'), 'false');
+  assert.equal(button.getAttribute('aria-controls'), list.id, 'le bouton ne désigne pas la liste');
+  assert.equal(list.getAttribute('role'), 'listbox');
+  assert.ok(list.getAttribute('aria-label'), 'la listbox n\'a pas de nom accessible');
+  // Plus de rôle concurrent : ni « dialogue » sur le panneau, ni « liste déroulante » sur le champ de recherche (le
+  // focus clavier quitte réellement le champ pour se poser sur les options — ce n'est pas le motif combobox).
+  assert.equal(panel.getAttribute('role'), null, 'le panneau porte encore un rôle');
+  assert.equal(search.getAttribute('role'), null, 'le champ de recherche porte encore un rôle');
+  assert.equal(search.getAttribute('aria-expanded'), null, 'aria-expanded sur le champ de recherche');
+  assert.ok(search.getAttribute('aria-label'), 'le champ de recherche n\'a pas de nom accessible');
+  assert.equal(search.getAttribute('aria-controls'), list.id, 'le champ de recherche ne désigne plus la liste qu\'il filtre');
+  // Ouverture : la liste se remplit d'options, toutes enfants de la listbox.
+  button.fire('click');
+  assert.equal(button.getAttribute('aria-expanded'), 'true');
+  assert.ok(panel.classList.contains('show'));
+  const options = list.querySelectorAll('.lang-option');
+  assert.ok(options.length >= 100, options.length + ' options');
+  assert.ok(options.every(o => o.getAttribute('role') === 'option' && o.parent === list), 'options hors de la listbox');
+  assert.equal(options.filter(o => o.getAttribute('aria-selected') === 'true').length, 1, 'une seule option sélectionnée attendue');
+  assert.ok(options.every(o => o.getAttribute('tabindex') === '-1'), 'focus glissant : tabindex="-1" sur chaque option');
+  // Clavier inchangé : flèche bas depuis la recherche -> première option ; bas/haut ; Fin/Début ; Échap referme.
+  const is = (el, want, what) => assert.ok(el === want, what + ' : ' + (el && (el.className || el.tagName)));
+  search.fire('keydown', { key: 'ArrowDown' });
+  is(dom.activeElement, options[0], 'flèche bas depuis la recherche');
+  list.fire('keydown', { key: 'ArrowDown' });
+  is(dom.activeElement, options[1], 'flèche bas dans la liste');
+  list.fire('keydown', { key: 'ArrowUp' });
+  is(dom.activeElement, options[0], 'flèche haut dans la liste');
+  list.fire('keydown', { key: 'End' });
+  is(dom.activeElement, options[options.length - 1], 'touche Fin');
+  list.fire('keydown', { key: 'Home' });
+  is(dom.activeElement, options[0], 'touche Début');
+  list.fire('keydown', { key: 'ArrowUp' });
+  is(dom.activeElement, search, 'flèche haut depuis la première option revient à la recherche');
+  search.fire('keydown', { key: 'Escape' });
+  assert.equal(button.getAttribute('aria-expanded'), 'false', 'Échap ne referme plus le panneau');
+  // Recherche : la liste est filtrée, les options restent des options de la même listbox.
+  button.fire('click');
+  search.value = 'deutsch';
+  search.fire('input');
+  const filtered = list.querySelectorAll('.lang-option');
+  assert.ok(filtered.length >= 1 && filtered.length < 20, filtered.length + ' résultats pour « deutsch »');
+  assert.ok(filtered.every(o => o.getAttribute('role') === 'option'));
 });

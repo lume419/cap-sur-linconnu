@@ -94,7 +94,11 @@ app.use('/api/', function(req, res, next){
   // ne peut pas modifier) : refusée (11e audit du 19/09/2026). Sans ce contrôle, une page tierce pouvait faire lancer
   // recherches, photos et randonnées par les navigateurs de ses visiteurs — autant d'adresses IP que de visiteurs, les
   // quotas par IP ne servaient plus à rien. Clients sans cet en-tête (outils, anciens navigateurs) : non concernés.
-  if(req.get('Sec-Fetch-Site') === 'cross-site') return res.status(403).json({ error: 'cross-site request' });
+  // Comparaison INSENSIBLE À LA CASSE et blancs coupés (17e audit du 20/09/2026) : la valeur d'un en-tête HTTP n'est
+  // pas normalisée par Node, « Cross-Site » ou « cross-site » (avec une espace de tête) passaient à travers alors que
+  // la RFC 6265bis/Fetch les décrit comme le même jeton. Les navigateurs écrivent bien « cross-site » en minuscules,
+  // mais un client qui vise le contournement, lui, choisit son écriture.
+  if(String(req.get('Sec-Fetch-Site') || '').trim().toLowerCase() === 'cross-site') return res.status(403).json({ error: 'cross-site request' });
   const p = ('/api/' + req.path).toLowerCase().replace(/\/{2,}/g, '/');
   const rule = RATE_LIMITS.find(r => p.startsWith(r.prefix)) || RATE_LIMITS[RATE_LIMITS.length - 1];
   // IP (vérifié le 17/09/2026) : avec « trust proxy 1 », req.ip est la dernière adresse de X-Forwarded-For, celle
@@ -361,10 +365,14 @@ const photoCache = new Map();
 // Caches en mémoire BORNÉS (audit de septembre 2026) : au-delà de CACHE_MAX_ENTRIES, l'entrée la plus ancienne est
 // retirée — sans borne, des requêtes aux paramètres toujours différents faisaient grossir la mémoire indéfiniment.
 const CACHE_MAX_ENTRIES = 5000;
-function cacheSet(map, key, value){
+// `max` : plafond PROPRE à ce cache (17e audit du 20/09/2026) — une entrée bien plus lourde que les autres (les
+// relations OpenStreetMap d'osmHikeCache) ne doit pas se compter en milliers comme une réponse photo de quelques
+// centaines d'octets.
+function cacheSet(map, key, value, max){
   if(map.has(key)) map.delete(key);
   map.set(key, value);
-  while(map.size > CACHE_MAX_ENTRIES) map.delete(map.keys().next().value);
+  const limit = max || CACHE_MAX_ENTRIES;
+  while(map.size > limit) map.delete(map.keys().next().value);
 }
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24h
 // Clé de cache normalisée (forme Unicode, espaces) : « Ajaccio », « ajaccio » et « Ajaccio␠» ne font plus
@@ -374,6 +382,14 @@ const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24h
 // premier n'existe pas). Le résultat VIDE de « tHOIRY » était donc resservi à « Thoiry » — 24 h pour /api/photo, 14 j
 // pour /api/pois. Seule la première lettre est canonisée, exactement comme le fait Wikipédia : clé et titre coïncident
 // (« ajaccio » et « Ajaccio » gardent bien une seule entrée), les autres lettres restent distinctes.
+// 17e audit du 20/09/2026 : cette canonisation ne vaut QUE pour le début d'un titre Wikipédia. Le nom d'un lieu occupe
+// bien le début du titre (« Thoiry », « Thoiry (Yvelines) ») : sa première lettre est donc canonisée par Wikipédia, et
+// la clé doit l'être aussi. Le département/la région, lui, est écrit entre parenthèses AU MILIEU du titre, où Wikipédia
+// ne canonise plus rien : hors de France, où c'est du texte libre venu des données (voir resolvePlacePhotoIn),
+// « Nom (illinois) » et « Nom (Illinois) » sont deux articles DIFFÉRENTS. Leur appliquer cacheKeyPart les réunissait
+// sous une seule entrée : le résultat VIDE de l'un (article inexistant) était resservi à l'autre pendant 24 h, à tous
+// les visiteurs. Le département passe donc désormais par wikiDeptName (ci-dessous), qui rend exactement la chaîne
+// envoyée à Wikipédia — jamais retouchée.
 function cacheKeyPart(s){
   const v = String(s == null ? '' : s).normalize('NFC').trim();
   if(!v) return v;
@@ -466,7 +482,11 @@ function isDotsOnlyName(name){ return /^[.\s]+$/.test(String(name || '')); }
 // jamais un lieu, et modifiable par n'importe qui — fetchCommuneMonuments les refuse depuis longtemps, /api/photo les
 // envoyait encore tels quels (16e audit du 20/09/2026). Préfixe de lettres suivi de « : », en tête du nom seulement :
 // un vrai nom de commune ou de lieu n'en a pas.
-function isNamespaceTitle(name){ return /^\s*:?\s*\p{L}[\p{L}\p{M} _-]{0,32}\s*:/u.test(String(name || '')); }
+// 17e audit du 20/09/2026 : un SOULIGNÉ en tête contournait le contrôle. MediaWiki remplace « _ » par une espace dans
+// un titre puis coupe les blancs de début et de fin : « _File:X.jpg », « __Fichier:X.jpg » ou « _ Category:Foo »
+// désignent exactement « File:X.jpg », « Fichier:X.jpg » et « Category:Foo ». Ils passaient et déclenchaient un appel
+// sortant vers un titre d'un autre espace de noms. Le nom subit donc la même transformation avant le contrôle.
+function isNamespaceTitle(name){ return /^\s*:?\s*\p{L}[\p{L}\p{M} _-]{0,32}\s*:/u.test(String(name || '').replace(/_/g, ' ').trim()); }
 
 // null = pas d'article exploitable (404…) ; exception = échec transitoire (réseau, délai, 429, 5xx, service saturé).
 function fetchWikiSummary(title, lang){
@@ -586,12 +606,24 @@ async function resolvePlacePhoto(name, deptCode, country, lang, near, ctx){
   if(first.wikiUrl) return first;
   return await resolvePlacePhotoIn(name, null, country, 'en', near, [name], ctx);
 }
+// Désambiguïsateur RÉELLEMENT écrit entre parenthèses dans le titre Wikipédia (« Nom (Yvelines) », « Nom (Illinois) »),
+// ou null quand aucune parenthèse n'est ajoutée. En France : nom du département, tiré de DEPARTMENTS par son code
+// canonisé (les clés sont en majuscules : « 2a » désigne bien la Corse-du-Sud) ; ailleurs : le nom de région, déjà en
+// clair dans les données, envoyé tel quel. Une SEULE définition (17e audit du 20/09/2026), partagée avec les clés de
+// cache de /api/photo et /api/pois pour qu'elles contiennent exactement ce qui part vers Wikipédia.
+// hasOwnProperty : « constructor » ou « __proto__ » ne doivent pas être pris pour un département.
+function wikiDeptName(deptCode, country){
+  const raw = String(deptCode == null ? '' : deptCode).normalize('NFC').trim();
+  if(!raw) return null;
+  if(!country || country === 'FR'){
+    const code = raw.toUpperCase();
+    return Object.prototype.hasOwnProperty.call(DEPARTMENTS, code) ? DEPARTMENTS[code] : null;
+  }
+  return raw;
+}
 async function resolvePlacePhotoIn(name, deptCode, country, lang, near, titles, ctx){
   ctx = ctx || {};
-  // hasOwnProperty : « constructor » ou « __proto__ » ne doivent pas être pris pour un département.
-  const deptName = (!country || country === 'FR')
-    ? (deptCode && Object.prototype.hasOwnProperty.call(DEPARTMENTS, deptCode) ? DEPARTMENTS[deptCode] : null)
-    : (deptCode || null);
+  const deptName = wikiDeptName(deptCode, country);
   const attempts = titles ? titles.slice() : [];
   if(!titles){
     if(deptName) attempts.push(name + ' (' + deptName + ')');
@@ -860,7 +892,7 @@ function commonsFileUrl(filename){
 // ctx.failed : échec transitoire (voir fetchWikiSummary), le résultat de /api/pois n'est alors pas mis en cache.
 async function fetchCommuneMonuments(name, deptCode, lat, lon, ctx){
   ctx = ctx || {};
-  const deptName = deptCode && Object.prototype.hasOwnProperty.call(DEPARTMENTS, deptCode) ? DEPARTMENTS[deptCode] : null;
+  const deptName = wikiDeptName(deptCode, 'FR'); // section « Lieux et monuments » : Wikipédia en français seulement
   const attempts = [];
   if(deptName) attempts.push(name + ' (' + deptName + ')');
   attempts.push(name);
@@ -1261,16 +1293,34 @@ const OSM_HIKE_RADIUS_M = 15000;
 const VISORANDO_MAX_OFFSET_KM = 25;
 const OSM_HIKE_MAX_KM = 40;
 const OSM_HIKE_CACHE_TTL_MS = 14 * 24 * 60 * 60 * 1000;
+// Plafond PROPRE à ce cache (17e audit du 20/09/2026) : une entrée y vaut 60 relations avec leurs étiquettes, pas une
+// petite réponse JSON comme dans photoCache ou poiCache. Au plafond commun de 5 000 entrées, le seul osmHikeCache
+// pouvait occuper plusieurs centaines de Mo (jusqu'à quelques Go avec les étiquettes retirées ci-dessous). 400 entrées
+// = 400 zones de 15 km déjà consultées, largement de quoi servir les étapes d'une même journée et les visiteurs qui se
+// suivent sur les mêmes régions, pour au plus ~6 Mo (400 × 60 relations × ~250 o d'étiquettes gardées).
+const OSM_HIKE_CACHE_MAX = 400;
 const osmHikeCache = new Map();
 const HIKE_NETWORK_RANK = { lwn: 0, rwn: 1, nwn: 2, iwn: 3 };
 function parseKm(v){
   const m = String(v || '').replace(',', '.').match(/^\s*(\d+(?:\.\d+)?)\s*(km)?\s*$/i);
   return m ? parseFloat(m[1]) : null;
 }
+// Étiquettes RÉELLEMENT relues plus bas (17e audit du 20/09/2026) : fetchOsmHikes n'utilise que `name`,
+// `name:<langue>` (le nom dans la langue du visiteur), `distance` (itinéraires de plus d'une journée écartés) et
+// `network` (ordre local -> régional -> national). `sac_scale`, `osmc:symbol`, `ref`, `website`, `description` et
+// `operator` étaient gardés en cache 14 jours sans jamais être relus : la randonnée renvoyée a `difficulty: null`, et
+// ni le lien (Waymarked Trails, construit depuis l'identifiant) ni le texte affiché ne s'en servent. Avec 60 relations
+// par entrée, ces six étiquettes coupées à 300 caractères pesaient jusqu'à ~100 ko par entrée à elles seules —
+// multiplié par le plafond du cache. `description` seule (souvent plusieurs centaines de caractères en OSM) en
+// représentait l'essentiel. Valeurs ramenées à 120 caractères : un nom d'itinéraire réel tient largement dedans
+// (« Europäischer Fernwanderweg E5 — Abschnitt Oberstdorf–Meran » : 58), et un nom plus long serait de toute façon
+// coupé à l'affichage.
+const HIKE_TAG_RE = /^(name(:[a-z]{2,3})?|distance|network)$/;
+const HIKE_TAG_MAX_LEN = 120;
 function pickHikeTags(tags){
   const out = {};
   for(const k of Object.keys(tags)){
-    if(/^(name(:[a-z]{2,3})?|distance|network|sac_scale|osmc:symbol|ref|website|description|operator)$/.test(k) && typeof tags[k] === 'string') out[k] = tags[k].slice(0, 300);
+    if(HIKE_TAG_RE.test(k) && typeof tags[k] === 'string') out[k] = tags[k].slice(0, HIKE_TAG_MAX_LEN);
   }
   return out;
 }
@@ -1282,11 +1332,11 @@ async function fetchOsmHikes(lat, lon, lang){
     const query = '[out:json][timeout:25];relation["route"~"^(hiking|foot)$"]["name"](around:' + OSM_HIKE_RADIUS_M + ',' + lat + ',' + lon + ');out tags center 60;';
     const data = await queryOverpassMirrors(query, 'randonnées ' + lat + ',' + lon);
     if(!data) return null; // échec réseau : pas mis en cache
-    // Étiquettes utiles seulement (11e audit du 19/09/2026) : le cache gardait TOUTES les étiquettes de 60 relations par
-    // entrée, sur 5 000 entrées — jusqu'à quelques centaines de Mo. Gardés : nom (et ses traductions), distance, réseau,
-    // difficulté, référence, site.
+    // Étiquettes utiles seulement (11e audit du 19/09/2026, resserré au 17e du 20/09/2026) : le cache gardait TOUTES les
+    // étiquettes de 60 relations par entrée, sur 5 000 entrées — jusqu'à quelques centaines de Mo. Gardés désormais :
+    // seulement ce que fetchOsmHikes relit (voir pickHikeTags), avec un plafond d'entrées à part.
     elements = (data.elements || []).map(e => ({ id: e.id, tags: pickHikeTags(e.tags || {}), lat: e.center && e.center.lat, lon: e.center && e.center.lon }));
-    cacheSet(osmHikeCache, cacheKey, { elements, ts: Date.now() });
+    cacheSet(osmHikeCache, cacheKey, { elements, ts: Date.now() }, OSM_HIKE_CACHE_MAX);
   }
   const out = [];
   const seenNames = new Set();
@@ -1394,7 +1444,14 @@ app.get('/api/pois', async (req, res) => {
   if(isDotsOnlyName(name)) return res.json({ pois: [] });
   // Clé par nom+département plutôt que seules les coordonnées arrondies : plus fiable pour ne
   // jamais confondre deux communes proches, et cohérent avec la recherche Wikipédia (par nom).
-  const cacheKey = lat.toFixed(2) + ',' + lon.toFixed(2) + '|' + cacheKeyPart(name) + '|' + cacheKeyPart(dept) + '|' + country;
+  // 17e audit du 20/09/2026 : la clé contient EXACTEMENT ce qui part vers Wikipédia — le nom avec sa seule première
+  // lettre canonisée (comme Wikipédia le fait sur ses titres, voir cacheKeyPart) et le désambiguïsateur tel qu'il sera
+  // écrit entre parenthèses (voir wikiDeptName ; hors de France, fetchCommuneMonuments n'est pas tentée, le département
+  // ne part nulle part et ne distingue donc plus deux entrées). MÊME condition que fetchAllRealPOIs (`!country ||
+  // country === 'FR'`) : un pays VIDE vaut France et le département compte alors, sans quoi deux départements
+  // partageraient une entrée.
+  const cacheKey = lat.toFixed(2) + ',' + lon.toFixed(2) + '|' + cacheKeyPart(name) + '|' +
+    (!country || country === 'FR' ? (wikiDeptName(dept, 'FR') || '') : '') + '|' + country;
   const cached = poiCache.get(cacheKey);
   if(cached && (Date.now() - cached.ts) < POI_CACHE_TTL_MS){
     return res.json({ pois: cached.pois });
@@ -1439,9 +1496,16 @@ app.get('/api/photo', async (req, res) => {
   const kind = Object.prototype.hasOwnProperty.call(PHOTO_NEAR_KM, req.query.kind) ? req.query.kind : 'stop';
   const near = (isFinite(nLat) && isFinite(nLon) && Math.abs(nLat) <= 90 && Math.abs(nLon) <= 180)
     ? { lat: nLat, lon: nLon, km: PHOTO_NEAR_KM[kind] } : null;
+  // Sans point de référence, la réponse est VIDE quoi qu'il arrive (17e audit du 20/09/2026) : wikiPlaceMatches écarte
+  // tout article quand `near` est absent (voir VÉRIFICATION DES SOURCES), donc resolvePlacePhoto rend « pas de photo »
+  // après avoir tout de même interrogé Wikipédia, Wikidata et Commons — des appels sortants garantis inutiles, dont le
+  // résultat vide occupait ensuite une entrée de cache 24 h. Réponse immédiate, aucun appel, rien à mettre en cache.
+  if(!near) return res.json({ image: null, imageFull: null, wikiUrl: null, title: null });
   // Clé normalisée (voir cacheKeyPart) : le nom envoyé à Wikipédia reste celui reçu, et la clé garde la casse — seule la
-  // première lettre est canonisée, comme Wikipédia le fait sur ses titres (16e audit du 20/09/2026).
-  const cacheKey = cacheKeyPart(name) + '|' + cacheKeyPart(dept) + '|' + country + '|' + lang + '|' + (near ? nLat.toFixed(2) + ',' + nLon.toFixed(2) + ',' + kind : '-');
+  // première lettre est canonisée, comme Wikipédia le fait sur ses titres (16e audit du 20/09/2026). Le département,
+  // lui, entre dans la clé tel qu'il sera écrit entre parenthèses dans le titre (voir wikiDeptName, 17e audit du
+  // 20/09/2026) : hors de France c'est du texte libre, que Wikipédia ne canonise pas.
+  const cacheKey = cacheKeyPart(name) + '|' + (wikiDeptName(dept, country) || '') + '|' + country + '|' + lang + '|' + nLat.toFixed(2) + ',' + nLon.toFixed(2) + ',' + kind;
   const cached = photoCache.get(cacheKey);
   if(cached && (Date.now() - cached.ts) < CACHE_TTL_MS){
     return res.json(cached.data);
@@ -1904,7 +1968,16 @@ function buildTripPdf(doc, trip){
       // SECOURS d'une étape — « 0 mi » (0,5 à 0,8 km convertis), les valeurs négatives et « 6.21e+307 mi » (1e+308 km)
       // sortaient encore pour distanceKm comme pour roadKm. Distance écrite seulement si 0 < km < 100000 ET si elle ne
       // s'arrondit pas à 0 dans l'unité affichée ; sinon rien du tout, sans séparateur orphelin.
-      const legDistText = v => { const n = Number(v); return (isFinite(n) && n > 0 && n < 100000 && pdfDist(n, unit) >= 1) ? pdfDistText(n, unit) : null; };
+      // 17e audit du 20/09/2026 : la borne haute était contrôlée sur la valeur BRUTE, pas sur celle qui est écrite.
+      // 99 999,6 km passait (< 100 000) puis s'arrondissait à « 100000 km » — la valeur même que la borne devait
+      // interdire. Les deux bornes portent désormais sur le nombre affiché : au moins 1, strictement moins de 100 000,
+      // dans l'unité d'affichage.
+      const legDistText = v => {
+        const n = Number(v);
+        if(!isFinite(n) || n <= 0) return null;
+        const shown = pdfDist(n, unit);
+        return (shown >= 1 && shown < 100000) ? pdfDistText(n, unit) : null;
+      };
       // Étape avec traversée : partie par la route jusqu'au port et depuis le port d'arrivée, avant la traversée.
       const roadDist = leg.ferryInfo && leg.roadTime ? legDistText(leg.roadKm) : null;
       const roadPart = roadDist ? '~ ' + clip(leg.roadTime, 20) + ' de route · ' + roadDist + ' + ' : '';
@@ -2194,6 +2267,25 @@ function distinctChars(v, set, limit, depth){
 // environ 1 500.
 const PDF_MAX_DISTINCT_CHARS = 4000;
 const PDF_GLYPH_CACHE_MAX = 6000; // par police, voir PdfText.trimGlyphCaches
+// Taille maximale du corps de /api/export-pdf (17e audit du 20/09/2026). L'ancienne limite de 32 ko refusait en 413
+// l'export d'un vrai voyage dans une vingtaine de langues : une écriture indienne, tibétaine, birmane, khmère ou
+// singhalaise coûte 3 octets par caractère en UTF-8 (contre 1 en français), et un mot y est souvent plus long.
+// MESURE (tests/server.test.js, « PDF dans les 161 langues ») sur un voyage MAXIMAL — 21 journées, 15 villes, voiture
+// électrique avec pauses recharge sur bornes réelles, traversée en ferry, péage, vignette, restrictions van ET moto,
+// zone à tension, randonnée et deux POI par jour, hébergement — construit avec les VRAIES traductions de
+// public/js/i18n.js pour chacune des 161 langues :
+//     minimum 61 094 o (ii)   médiane 69 926 o   maximum 117 947 o (dz, puis my 117 373, ta 116 189, ml 111 496).
+// Limite retenue : pire cas × 2 arrondi à la puissance de deux supérieure -> 117 947 × 2 = 235 894 -> 256 ko. Marge de
+// 2,2 fois le pire cas mesuré, de quoi absorber un allongement des traductions ou des noms de lieux sans nouveau 413.
+// Protection contre le déni de service conservée : le corps reste borné (legs.length <= 25, PDF_MAX_DISTINCT_CHARS,
+// clip() sur chaque texte à la mise en page), l'export est limité à 10 par minute et par adresse (RATE_LIMITS), un
+// seul export à la fois (pdfExportSlot) et le budget de calcul global (cpuBudgetGuard) encadre l'ensemble — 256 ko
+// analysés coûtent moins d'une milliseconde, sans commune mesure avec la mise en page elle-même.
+// Limite connue, sans rapport avec la taille du corps : sur ce voyage MAXIMAL, les deux écritures les plus coûteuses à
+// mettre en page (dzongkha, bengali) épuisent le budget de PDF_BUILD_BUDGET_MS (3,5 s) avant la dernière journée. Le
+// PDF est bien produit, complet et signé de son pied de page, avec la mention « document tronqué » dans la langue du
+// lecteur (texts.truncated) — mais il ne porte alors que 7 à 14 des 15 villes. Un voyage réel, moins chargé, tient.
+const PDF_MAX_BODY = '256kb';
 // Erreur de l'export PDF réduite à son TYPE et à son code (13e audit du 19/09/2026) : le message était journalisé, or
 // un message d'erreur peut reprendre un extrait des données traitées (texte envoyé par le navigateur), alors que la
 // politique de confidentialité affirme que l'export PDF n'est « ni enregistré, ni journalisé ». Nom de constructeur et
@@ -2203,7 +2295,7 @@ function pdfErrorKind(err){
   const code = err && typeof err.code === 'string' && /^[A-Z0-9_]{1,40}$/.test(err.code) ? err.code : '';
   return name + (code ? ' (' + code + ')' : '');
 }
-app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpuBudgetGuard, pdfExportSlot, (req, res) => {
+app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: PDF_MAX_BODY }), cpuBudgetGuard, pdfExportSlot, (req, res) => {
   // Réponse d'erreur avant toute mise en page : le créneau d'export est rendu tout de suite (14e audit du 19/09/2026).
   // Avant, il ne l'était qu'à « finish »/« close » ou au bout de PDF_SLOT_MAX_MS : une réponse 400 mise en attente derrière
   // une grosse réponse non lue, sur une connexion enchaînée, bloquait l'export de tout le monde ~5 s (503 « busy »).
@@ -2233,8 +2325,18 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: '32kb' }), cpu
   trip.city = typeof trip.city === 'string' ? trip.city : '';
   // Demi-caractères retirés (emoji coupé par clip, ou envoyé tel quel) : encodeURIComponent les refuse (erreur 500).
   // toWellFormed : l'ancienne regex laissait passer deux demi-caractères bas consécutifs (« \udc00\udc00 » : erreur 500).
+  // 17e audit du 20/09/2026 : le libellé reçu porte maintenant des marques d'ordre BIDIRECTIONNEL invisibles
+  // (isolats FSI U+2068 … PDI U+2069 posés autour de chaque nom propre par tripLabelText d'app.js) et, en écriture de
+  // droite à gauche, une flèche « ← ». Un nom de fichier, lui, se lit de gauche à droite dans le gestionnaire de
+  // fichiers et la liste des téléchargements : la flèche y est remise à « → » (comme le fait déjà pdfFilename côté
+  // navigateur — avec les isolats du libellé, elle nomme toujours le départ en premier) et toutes les marques de
+  // direction sont retirées, sans quoi elles ressortaient en « %E2%81%A8 » au milieu du nom encodé en RFC 5987, sans
+  // rien afficher. L'EN-TÊTE du document, lui, garde le libellé intact (voir tripLabel dans buildTripPdf) : c'est du
+  // texte mis en page, où ces marques font justement leur travail.
   const filenameBase = clip(trip.tripLabel || trip.city || 'itineraire', 60).toWellFormed().replace(/\uFFFD/g, '')
-    .replace(/[\\/:*?"<>|]+/g, '-') || 'itineraire';
+    .replace(/\u2190/g, '\u2192')
+    .replace(/[\u200E\u200F\u061C\u202A-\u202E\u2066-\u2069]/g, '')
+    .replace(/[\\/:*?"<>|]+/g, '-').trim() || 'itineraire';
   const doc = new PDFDocument({
     size: 'A4',
     margins: { top: 50, bottom: 50, left: 55, right: 55 },
@@ -2763,7 +2865,12 @@ app.use(function(err, req, res, next){
   }
   const status = err && err.status >= 400 && err.status < 500 ? err.status : 500;
   if(status === 500) console.error('[erreur]', req.method, JSON.stringify(req.path), isPdfExport ? pdfErrorKind(err) : JSON.stringify(String(err && err.message)));
-  res.status(status).json({ error: status === 500 ? 'internal error' : 'bad request' });
+  // Corps trop gros (17e audit du 20/09/2026) : message PROPRE À LA CAUSE, que le client affiche tel quel (« itinéraire
+  // trop volumineux »), au lieu du « bad request » générique qui devenait un « réessayez » sans effet — réessayer le même
+  // itinéraire redonnerait le même 413. Même forme que le 413 de trop de caractères distincts (« too many distinct
+  // characters »), déjà rendu par la route elle-même.
+  const tooLarge = status === 413 || (err && err.type === 'entity.too.large');
+  res.status(tooLarge ? 413 : status).json({ error: tooLarge ? 'trip too large' : (status === 500 ? 'internal error' : 'bad request') });
 });
 
 const httpServer = app.listen(PORT, () => {

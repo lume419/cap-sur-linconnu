@@ -40,7 +40,10 @@ const path = require('path');
 // Audit n° 11 : noms nettoyés (preparePlaceName), noms-commentaires écartés (isJunkName) et quasi-doublons
 // (dropNearDuplicates) comme dans tous les générateurs de lieux. PAS excludePlace en bloc : il écarterait par
 // construction les bases rangées sous AR (isAntarcticUnderAR), que ce script reprend justement.
-const { isAntarcticUnderAR, HISTORICAL_NAME_RE, isJunkName, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
+// 17e audit du 20/09/2026 : repairAliasTypography ajouté — les ALIAS étaient écrits sans aucun des filtres appliqués
+// aux noms de lieux (voir buildAliases).
+const { isAntarcticUnderAR, HISTORICAL_NAME_RE, isJunkName, preparePlaceName, dropNearDuplicates,
+  repairAliasTypography } = require('./communes-corrections.js');
 
 function readAdmin1Names(){
   const map = new Map();
@@ -75,10 +78,23 @@ function writeAll(cc, lines, aliases){
 }
 // Alias : noms alternatifs (non historiques) des entrées rattachées à chaque lieu publié, plus les noms principaux de
 // ces entrées quand ils diffèrent du nom publié.
+// 17e audit du 20/09/2026 — ces alias étaient écrits SANS le filtre des noms-commentaires, alors que
+// scripts/build-all-aliases.js l'applique à tous les autres pays et que tests/data.test.js l'exige de tous les
+// fichiers publiés. Résultat : régénérer l'Antarctique seul remettait « en;CZ*ECO Nelson;Eco-Nelson »
+// (scripts/altnames/AR.txt:64448, préfixe de catalogue « CZ* » collé au nom) et laissait le dépôt en échec sur
+// « alias : aucun alias refusé par isJunkName ». Même enchaînement que build-all-aliases.js : réparation
+// typographique d'abord, refus ensuite — « CZ*ECO Nelson » n'est pas réparable (le « * » retiré donnerait
+// « CZECO Nelson », qui n'est pas un nom : voir communes-corrections.js), il est donc écarté ; les formes propres
+// « Eco Nelson », « Base Eco Nelson », « Výzkumná stanice Eco Nelson » restent publiées.
 function buildAliases(cc, targetById, dumpById, extraAltRows){
   const seen = new Set(), out = [];
+  const rejected = [];
   const add = (lang, alt, canonical) => {
-    if(!alt || norm(alt) === norm(canonical)) return;
+    if(!alt) return;
+    const fixed = repairAliasTypography(alt);
+    if(!fixed || isJunkName(fixed)){ rejected.push(lang + ';' + alt + ';' + canonical); return; }
+    alt = fixed;
+    if(norm(alt) === norm(canonical)) return;
     const k = lang + '|' + norm(alt) + '|' + canonical;
     if(seen.has(k)) return;
     seen.add(k);
@@ -94,6 +110,7 @@ function buildAliases(cc, targetById, dumpById, extraAltRows){
     if(!canonical || !lang || c[7] === '1') return;
     add(lang, c[3], canonical);
   });
+  if(rejected.length) console.log(cc + ' : ' + rejected.length + ' alias écartés (isJunkName) — ' + rejected.join(' | '));
   return out;
 }
 const km = (a, b) => {

@@ -274,10 +274,8 @@ test('16e audit : la distance annoncée est la PLUS GRANDE faisable, pas la prem
     if(!r.minDistanceUnreachable) continue;
     // Un itinéraire existe à `feasible` km : la distance annoncée ne peut pas être plus basse.
     const ok = runSteady(base(d, { transportKey: mode, minDistanceKm: feasible, avoidTension: false }), 1);
-    // Tolérance : le balayage se fait par tranches de 10 km avec un nombre borné de contrôles exacts par tranche
-    // (DAY_REACH_BUCKET_KM / DAY_REACH_PER_BUCKET) — la distance annoncée est donc à quelques dizaines de km du maximum,
-    // pas en dessous de moitié comme au 15e audit (161 km annoncés pour 199 faisables, 109 pour 208).
-    if(ok.legs.length && r.returnCapKm < feasible - 25) bad.push(n + ' : ' + r.returnCapKm + ' km annoncés alors que ' + feasible + ' km donne un itinéraire');
+    // Depuis le 17e audit le balayage est exhaustif : la distance annoncée est le maximum, sans tolérance.
+    if(ok.legs.length && r.returnCapKm < feasible) bad.push(n + ' : ' + r.returnCapKm + ' km annoncés alors que ' + feasible + ' km donne un itinéraire');
   }
   assert.deepEqual(bad, []);
 });
@@ -291,11 +289,11 @@ test('16e audit : ferry, aucune autre paire de ports de route comparable n\'est 
   const check = (from, to) => {
     const la = A.landmassOf(from), lb = A.landmassOf(to);
     const route = A.ferryRouteFor(la, lb);
-    if(!route) return;
+    if(!route) return false;
     const key = [la, lb].sort().join('|'), ports = PORTS[key];
-    if(!ports || !ports[la] || !ports[lb]) return;
+    if(!ports || !ports[la] || !ports[lb]) return false;
     const parts = A.ferryRoadParts(from, to, la, lb, route);
-    if(!parts || !parts.fromPort) return;
+    if(!parts || !parts.fromPort) return false;
     const leg = A.finalizeFerryLeg('voiture-thermique', route, parts, 80, true, from, to);
     const roadOf = (p, q) => H.hav(p.lat, p.lon, q[0], q[1]) * 1.287;
     const chosenRoad = parts.fromKm + parts.toKm;
@@ -314,13 +312,19 @@ test('16e audit : ferry, aucune autre paire de ports de route comparable n\'est 
       if(h < chosenH - 0.5) bad.push((from.name || '?') + ' → ' + (to.name || '?') + ' : choisi ' + chosenH.toFixed(1) + ' h (' + leg.distanceKm + ' km de mer), possible ' + h.toFixed(1) + ' h (' + Math.round(seaKm) + ' km de mer, ' + Math.round(road) + ' km de route)');
     });
   };
-  const cases = [['Reggio di Calabria', 'IT', 'Messina', 'IT'], ['Napoli', 'IT', 'Palermo', 'IT'], ['Valletta', 'MT', 'Catania', 'IT'],
+  // Noms exacts de la base (17e audit : « Reggio di Calabria » et « Irakleio » ne correspondaient à aucun lieu utile —
+  // deux des huit cas ne s'exécutaient donc jamais, dont celui que le commentaire cite en exemple).
+  const cases = [['Reggio Calabria', 'IT', 'Messina', 'IT'], ['Napoli', 'IT', 'Palermo', 'IT'], ['Valletta', 'MT', 'Catania', 'IT'],
     ['Dublin', 'IE', 'Liverpool', 'GB'], ['Mariehamn', 'AX', 'Stockholm', 'SE'], ['Barcelona', 'ES', 'Palma', 'ES'],
-    ['Marseille', 'FR', 'Bastia', 'FR'], ['Athina', 'GR', 'Irakleio', 'GR']];
+    ['Marseille', 'FR', 'Bastia', 'FR'], ['Athína', 'GR', 'Chaniá', 'GR']];
+  let joues = 0;
   for(const [n1, c1, n2, c2] of cases){
     const p1 = H.findPlace(n1, c1), p2 = H.findPlace(n2, c2);
-    if(p1 && p2) check(p1, p2);
+    assert.ok(p1 && p2, 'lieu introuvable : ' + n1 + ' / ' + n2);
+    if(check(p1, p2) !== false) joues++;
   }
+  // Sans ce garde-fou, un test qui ne compare plus aucune paire passerait à vide (17e audit).
+  assert.ok(joues >= 6, 'seulement ' + joues + ' cas joués sur ' + cases.length);
   assert.deepEqual(bad, []);
 });
 
@@ -337,4 +341,63 @@ test('16e audit : péage d\'une étape avec traversée cohérent avec ses kilom�
     });
   }
   assert.deepEqual(bad, []);
+});
+
+test('17e audit : l\'index de recherche est refusé quand le normalisateur de noms a changé', () => {
+  // La 16e passe a modifié normalizeCityName (retrait des liants U+200C/U+200D) sans invalider l'index déjà construit :
+  // ses clés ne correspondaient plus aux requêtes et 3 416 alias persans, ourdous et bengalis sont devenus introuvables,
+  // sans le moindre avertissement. meta.json porte désormais une empreinte du normalisateur, comparée à l'ouverture.
+  const SI = require('../lib/search-index.js');
+  const vraie = SI.normSignature(E.__test);
+  assert.ok(vraie && vraie.length > 5, 'empreinte du normalisateur vide');
+  // Un normalisateur qui garde les liants (l'ancien comportement) doit donner une empreinte DIFFÉRENTE.
+  const ancien = { normalizeCityName: function(x){ return String(x).trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[-'’]/g, ' ').replace(/\s+/g, ' ').trim(); } };
+  assert.notEqual(SI.normSignature(ancien), vraie, 'un normalisateur différent donne la même empreinte : l\'index périmé resterait accepté');
+  // Et l'empreinte est stable d'un appel à l'autre (sinon l'index serait reconstruit à chaque démarrage).
+  assert.equal(SI.normSignature(E.__test), vraie);
+});
+
+test('17e audit : « hors de portée, X km » dit s’il a conclu — X exact, ou plafond approché assumé', () => {
+  // La distance annoncée vient d'un balayage BORNÉ par un budget de temps (DAY_REACH_MS et le budget du tirage). Quand
+  // il va au bout, X est le maximum exact et la campagne d'invariants l'exige (contre-épreuve à X + 5 km). Quand le
+  // budget tombe au milieu, un filet échantillonne le reste et X n'est plus qu'un minorant : Tallinn en van
+  // (graine 1002629) annonçait 276 km pour 299 faisables lors de la campagne, et le même tirage rend 298 km sur un
+  // moteur chaud. Sans le drapeau, la contre-épreuve aurait échoué sur la CHARGE de la machine ; avec un drapeau
+  // toujours vrai, elle aurait cessé de contrôler quoi que ce soit. Ce test verrouille les DEUX branches.
+  const p = base({ name: 'Tallinn', cp: '10153', lat: 59.437, lon: 24.7535, dept: 'Tallinn', country: 'EE', allCps: ['10153'] },
+    { transportKey: 'van', budgetKey: 'confortable', avoidTent: true, tripStart: '2026-10-02',
+      maxRadiusKm: 300, minDistanceKm: 600, maxDistanceKm: 3000, minDaysPerCity: 1, maxDaysPerCity: 3, preferredCurrency: 'JPY' });
+  const SEED = 1002629;
+  run(p, SEED); // chauffe : le tout premier tirage d'un processus est assez lent pour épuiser le budget du balayage
+
+  // 1. Balayage mené à son terme : X est le maximum, et X + 5 km ne donne plus rien.
+  const r = run(p, SEED);
+  assert.equal(r.minDistanceUnreachable, true, 'Tallinn 600 km : ' + JSON.stringify(Object.keys(r)));
+  assert.equal(r.returnCapExact, true, 'balayage non conclu sur un moteur chaud (cap ' + r.returnCapKm + ')');
+  assert.ok(run(Object.assign({}, p, { minDistanceKm: r.returnCapKm }), SEED).legs.length > 0, 'X annoncé (' + r.returnCapKm + ' km) infaisable');
+  assert.equal(run(Object.assign({}, p, { minDistanceKm: r.returnCapKm + 5 }), SEED).legs.length, 0,
+    'X + 5 km donne encore un itinéraire : X (' + r.returnCapKm + ') n\'est pas le maximum');
+
+  // 2. Budget épuisé pendant le balayage : le moteur le DIT (returnCapExact false) et n'annonce plus qu'un minorant.
+  // Un bond unique de +2 s est posé sur le n-ième appel à Date.now() du tirage ; entre le calcul de l'échéance du
+  // balayage et sa première vérification, il le coupe net. Le rang dépend du chemin de code, pas de la machine : il est
+  // donc reproductible, mais il se déplace si le moteur change — d'où le balayage de rangs ci-dessous plutôt qu'une
+  // valeur en dur (mesuré le 20/09/2026 : 17 900 à 18 400).
+  const vrai = Date.now;
+  let approche = null;
+  for(let k = 16000; k <= 20000 && !approche; k += 200){
+    let n = 0;
+    Date.now = () => { n++; return vrai() + (n > k ? 2000 : 0); };
+    let rk = null;
+    try { rk = run(p, SEED); } catch(e){ rk = null; } finally { Date.now = vrai; }
+    if(rk && rk.minDistanceUnreachable && rk.returnCapExact === false) approche = rk;
+  }
+  assert.ok(approche, 'aucun rang de 16 000 à 20 000 ne coupe le balayage : le drapeau returnCapExact ne peut plus être faux ' +
+    '(soit il est figé à vrai — la contre-épreuve de la campagne ne contrôlerait plus rien —, soit le chemin de code a changé ' +
+    'et la plage de rangs est à revoir)');
+  // Un plafond approché reste un MINORANT utilisable : jamais au-dessus du maximum, et toujours faisable.
+  assert.ok(approche.returnCapKm > 0 && approche.returnCapKm <= r.returnCapKm,
+    'plafond approché ' + approche.returnCapKm + ' km au-dessus du maximum ' + r.returnCapKm + ' km');
+  assert.ok(run(Object.assign({}, p, { minDistanceKm: approche.returnCapKm }), SEED).legs.length > 0,
+    'plafond approché (' + approche.returnCapKm + ' km) infaisable');
 });

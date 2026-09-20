@@ -6488,7 +6488,6 @@
 0;146.0003,-4.7233;PG-12;Madang Province;Katom
 0;149.2181,-9.0126;PG-04;Oro Province;Katokato
 0;141.6000,-5.1833;PG-18;Sandaun Province;Katobip
-0;112.9571,-1.1170;PG-15;New Ireland;Katingan
 0;147.8333,-6.4833;PG-14;Morobe Province;Katika
 0;145.7220,-6.2631;PG-09;Eastern Highlands Province;Katigi
 0;145.0510,-4.8235;PG-12;Madang Province;Katiati

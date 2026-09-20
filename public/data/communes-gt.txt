@@ -6139,7 +6139,6 @@
 0;-90.1958,13.8919;GT-11;Jutiapa;La Barranquilla
 0;-90.1028,13.8601;GT-11;Jutiapa;Casas de Teja
 0;-92.1833,15.3000;GT-05;El Progreso;Pavencul
-0;-90.3516,9.4924;GT-02;Baja Verapaz;Todos Santos Cuchumantan
 0;-88.7576,15.8271;GT-09;Izabal Department;Aldea Río Dulce
 0;-90.8375,17.1688;GT-12;Petén;Lagunitas
 0;-90.7550,17.2563;GT-12;Petén;El Caribe

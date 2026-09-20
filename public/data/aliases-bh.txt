@@ -117,7 +117,6 @@ ar;اَلْقُرَيَّة;Al Qurayyah
 ar;اَلْقَرْيَة;Al Qaryah
 ar;اَلْقَدَم;Al Qadam
 ar;اَلْمُوَيْلِغَة;Al Muwaylighah
-ar;مقشع اليمن;Magsha
 ar;اَلْمُحَرَّق;Al Muharraq
 de;Muharraq;Al Muharraq
 ar;محرق;Al Muharraq

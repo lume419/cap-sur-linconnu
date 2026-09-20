@@ -3,6 +3,8 @@
 // server.js reconstruit son index de recherche dans cache/) + ~1 min de tests.
 // Le serveur est arrêté à la fin, même en cas d'échec (after + arrêt à la sortie du processus).
 // Journal du serveur : dossier temporaire des tests (voir la première ligne de diagnostic).
+// 17e audit du 20/09/2026 : l'export PDF du voyage MAXIMAL est contrôlé sur un échantillon de langues par défaut, et
+// sur les 161 avec TEST_FULL=1 (node tests/run.js --full) — ~2,5 min d'exports supplémentaires.
 'use strict';
 const { test, before, after } = require('node:test');
 const assert = require('node:assert/strict');
@@ -12,6 +14,7 @@ const path = require('path');
 const { startServer } = require('./helpers/server.js');
 const { client, freshIp, missingSecurityHeaders } = require('./helpers/http.js');
 const { pdfText, pageCount, isCompletePdf } = require('./helpers/pdf-text.js');
+const { FULL } = require('./helpers/config.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const PDF_TIME_LIMIT_MS = 6000; // budget de mise en page du serveur (3,5 s) + marge pour la compression et l'envoi
@@ -227,8 +230,10 @@ test('export PDF : objets forgés dans tous les champs -> PDF complet avec pied 
 });
 
 test('export PDF : corps invalides refusés proprement (jamais 500)', { timeout: 120000 }, async () => {
+  // 300 000 caractères : au-delà de PDF_MAX_BODY (256 ko, 17e audit du 20/09/2026 — c'était 40 000 pour l'ancienne
+  // limite de 32 ko, une taille qu'un vrai voyage dépasse pourtant dans une vingtaine de langues).
   const cases = [['{bad', 400], ['null', 400], ['[]', 400], ['{"legs":[]}', 400], [JSON.stringify({ legs: Array(26).fill({ label: 'a' }) }), 400],
-    [JSON.stringify({ legs: [{ label: 'x'.repeat(40000) }] }), 413]];
+    [JSON.stringify({ legs: [{ label: 'x'.repeat(300000) }] }), 413]];
   const bad = [];
   for(const [b, exp] of cases){ const r = await H.postPatient('/api/export-pdf', b); if(r.status !== exp) bad.push(b.slice(0, 30) + ' -> ' + r.status + ' (attendu ' + exp + ')'); }
   assert.deepEqual(bad, []);
@@ -685,9 +690,17 @@ test('15e audit : nom « .. », « . » ou fait de points et d\'espaces -> répo
 // Fonctions PURES de server.js, sans rien démarrer : source extraite (déclarations de premier niveau) et exécutée dans
 // un bac à sable — comme tests/ui.test.js le fait pour app.js. Un nom absent est simplement ignoré (le test échoue
 // alors sur le comportement, pas sur l'extraction).
-function serverFns(names){
+// `consts` (17e audit du 20/09/2026) : constantes de premier niveau déclarées sur UNE ligne (`const NOM = …;`), reprises
+// telles quelles — les fonctions extraites s'en servent (pickHikeTags et son motif d'étiquettes, cacheSet et son
+// plafond par défaut).
+function serverFns(names, consts){
   const lines = fs.readFileSync(path.join(ROOT, 'server.js'), 'utf8').split('\n');
   const out = [], found = [];
+  for(const n of consts || []){
+    const line = lines.find(l => l.startsWith('const ' + n + ' = '));
+    assert.ok(line, 'constante ' + n + ' introuvable dans server.js');
+    out.push(line);
+  }
   for(const n of names){
     const i = lines.findIndex(l => l.startsWith('function ' + n + '('));
     if(i < 0) continue;
@@ -696,9 +709,10 @@ function serverFns(names){
     out.push(lines.slice(i, j + 1).join('\n'));
     found.push(n);
   }
-  const ctx = { module: { exports: {} }, console };
+  // PdfText : distinctChars s'en sert (hasBoldVariant) — même module que celui chargé par server.js.
+  const ctx = { module: { exports: {} }, console, PdfText: require(path.join(ROOT, 'lib', 'pdf-text.js')) };
   vm.createContext(ctx);
-  vm.runInContext(out.join('\n') + '\nmodule.exports = { ' + found.join(', ') + ' };', ctx);
+  vm.runInContext(out.join('\n') + '\nmodule.exports = { ' + found.concat(consts || []).join(', ') + ' };', ctx);
   return ctx.module.exports;
 }
 
@@ -809,5 +823,384 @@ test('16e audit : /api/photo refuse les titres d\'un autre espace de noms, sans 
   assert.equal(ok.status, 200);
   await sleep(300);
   if(!srv.outbound(t1, 'wiki').length) bad.push('aucun appel Wikipédia pour un nom ordinaire');
+  assert.deepEqual(bad, []);
+});
+
+// --------------------------------------------------------------------------------------------- 17e audit du 20/09/2026
+
+// ---- Charge utile d'export PDF d'un voyage MAXIMAL, dans une langue donnée ----
+// Équivalent sans navigateur de buildTripExportPayload (public/js/app.js) : mêmes champs, mêmes clés de traduction,
+// lues dans le VRAI public/js/i18n.js. 21 journées (la dernière est le retour), 15 villes distinctes, voiture
+// électrique avec pauses recharge sur bornes réelles, traversée en ferry, péage, vignette, restrictions van ET moto,
+// zone à tension, randonnée résolue + 2 POI par jour (buildActivityOptions en produit 3), hébergement avec ses liens.
+// Sert à mesurer le pire cas du corps envoyé à /api/export-pdf et à vérifier qu'il passe dans les 161 langues.
+const MAX_TRIP_CITIES = ['Ljubljana', 'Bled', 'Trieste', 'Portoroz', 'Rijeka', 'Zadar', 'Split', 'Dubrovnik', 'Mostar',
+  'Sarajevo', 'Kotor', 'Podgorica', 'Shkoder', 'Tirana', 'Ohrid'];
+const MAX_TRIP_CC = ['SI', 'IT', 'HR', 'BA', 'ME', 'AL', 'MK', 'RS', 'BG', 'RO', 'HU', 'AT', 'SK', 'CZ', 'PL'];
+const MAX_TRIP_VIGNETTES = ['SI', 'AT', 'CH', 'CZ', 'SK', 'HU', 'RO', 'BG', 'MD', 'BY'];
+const MAX_TRIP_DAYS = 21;
+let i18nSandbox = null;
+function loadI18nForPdf(){
+  if(i18nSandbox) return i18nSandbox;
+  let src = fs.readFileSync(path.join(ROOT, 'public', 'js', 'i18n.js'), 'utf8');
+  const i = src.lastIndexOf('window.I18N = {');
+  assert.ok(i > 0, 'window.I18N introuvable dans i18n.js');
+  src = src.slice(0, i) + 'window.__L = LISTS; ' + src.slice(i);
+  const fakeEl = () => ({ setAttribute(){}, getAttribute(){ return null; }, classList: { add(){}, remove(){}, contains(){ return false; } },
+    appendChild(){}, addEventListener(){}, querySelector(){ return fakeEl(); }, querySelectorAll(){ return []; }, style: {}, textContent: '' });
+  const ctx = { window: {}, navigator: { languages: ['fr'] }, localStorage: { getItem: () => null, setItem(){} },
+    document: { readyState: 'complete', documentElement: fakeEl(), querySelectorAll: () => [], getElementById: () => null, createElement: fakeEl, addEventListener(){} },
+    CustomEvent: function(){}, Intl, console };
+  ctx.window.addEventListener = () => {}; ctx.window.dispatchEvent = () => {};
+  vm.createContext(ctx);
+  vm.runInContext(src, ctx);
+  i18nSandbox = { I18N: ctx.window.I18N, L: ctx.window.__L, langs: Array.from(ctx.window.I18N.SUPPORTED) };
+  return i18nSandbox;
+}
+function maxTripPayload(lang){
+  const { I18N, L } = loadI18nForPdf();
+  I18N.set(lang);
+  const t = (k, v) => I18N.t(k, v);
+  let nf;
+  try { nf = new Intl.NumberFormat(lang); } catch(e){ nf = new Intl.NumberFormat('fr'); }
+  const num = n => nf.format(n), dist = n => num(n) + ' km', money = n => '~' + num(n) + ' €';
+  const dateOf = d => { try { return new Intl.DateTimeFormat(nf.resolvedOptions().locale, { day: 'numeric', month: 'long', year: 'numeric' }).format(d); } catch(e){ return '4 juillet 2026'; } };
+  const range = dateOf(new Date(Date.UTC(2026, 6, 4))) + ' – ' + dateOf(new Date(Date.UTC(2026, 6, 5)));
+  const noticeKeys = ['van.notice', 'charge.dataNote', 'days.overMaxPerCity'];
+  const notices = {};
+  noticeKeys.forEach(k => { notices[k] = t(k); });
+  const texts = {
+    subtitle: t('pdf.subtitle', { city: MAX_TRIP_CITIES[0] }),
+    stats: [num(MAX_TRIP_DAYS) + ' ' + t('stats.days'), num(15) + ' ' + t('stats.cities'), num(MAX_TRIP_DAYS - 1) + ' ' + t('stats.nights'),
+      '~' + dist(6480) + ' ' + t('stats.totalKm'), t('stats.ferryKm', { km: dist(412) }),
+      t('stats.upTo', { amount: money(186.4) }) + ' ' + t('stats.tollPossible'), money(342) + ' ' + t('stats.ferryTotalVehicles'),
+      num(2) + ' ' + t('stats.ferryUnpriced'), money(58) + ' ' + t('stats.trainTotal')],
+    notices: notices,
+    departureTension: t('tension.label') + ' — ' + t('tension.departure') + ' ' + t('tension.red'),
+    lodgingNone: t('lodging.noPlatform'),
+    endMission: t('end.label') + ' — ' + t('end.text'),
+    packTitle: t('pack.title'),
+    packSub: t('pack.sub', { transport: t('transport.voitureElectrique.label'), budget: t('form.budget.confortable') }),
+    generated: t('pdf.generated'),
+    truncated: t('pdf.truncated'),
+    generatedDate: dateOf(new Date(Date.UTC(2026, 6, 4))),
+    currencyNote: t('currency.linkFallback', { currency: 'EUR', chosen: 'CHF' }),
+    vignette: t('vignette.label') + ' — ' + t('vignette.notice')
+  };
+  const legs = [];
+  for(let i = 0; i < MAX_TRIP_DAYS; i++){
+    const isReturn = i === MAX_TRIP_DAYS - 1;
+    const city = MAX_TRIP_CITIES[i % MAX_TRIP_CITIES.length], country = MAX_TRIP_CC[i % MAX_TRIP_CC.length];
+    const lt = {
+      overMaxLeg: t('leg.overMaxLeg', { max: dist(320), min: dist(480) }),
+      route: t('day.routeTime', { time: num(1) + ' h ' + num(20), dist: dist(96) }) + ' + ' + t('day.crossingTime', { time: num(3) + ' h ' + num(30), dist: dist(213) }),
+      stop: t(isReturn ? 'day.returnTo' : 'day.stepMystery', { stop: city + ' (' + num(21000 + i) + ')' }),
+      toll: t('toll.label', { source: 'ASFA + AISCAT' }) + ' — ' + t('toll.estimatedRange', { min: money(12.3), max: money(24.6) }) + ' ' + t('toll.estimateNote'),
+      charge: t('charge.label') + ' — ' + t('charge.realN', { n: num(3), min: num(75), places: 'Postojna, Vrhnika, Logatec' }),
+      noCharger: t('charge.noChargerNearArrival', { dist: dist(20) }),
+      restrictions: [t('van.lez', { name: city }), t('moto.noMotorwayCc', { name: city, cc: num(125) })],
+      ferry: t('ferry.label') + ' — ' + t('ferry.textPriced', { route: 'Split — Ancona', price: t('ferry.price.vehicle', { amount: money(96), foot: money(42) }),
+        duration: t('ferry.durationApprox', { duration: num(11) + ' h' }) }) + ' ' + t('ferry.price.variable'),
+      lodging: t('lodging.find', { range: range })
+    };
+    if(!isReturn) lt.tension = t('tension.label') + ' — ' + t('tension.orange');
+    if(i < MAX_TRIP_VIGNETTES.length){
+      lt.vignettes = [{ country: MAX_TRIP_VIGNETTES[i], text: t('vignette.label') + ' — ' + t('vignette.notice'),
+        url: 'https://www.evignette.example/' + MAX_TRIP_VIGNETTES[i].toLowerCase() }];
+    }
+    legs.push({
+      texts: lt, badge: num(i + 1), label: t(isReturn ? 'day.nReturn' : 'day.n', { n: num(i + 1) }), stop: city,
+      cpBadge: String(21000 + i), isReturn: isReturn, distanceKm: 213.4, travelTime: num(3) + ' h ' + num(30),
+      roadKm: 96.2, roadTime: num(1) + ' h ' + num(20), country: country,
+      tollInfo: { enabled: true, amount: 24.6, amountMin: 12.3, amountMax: 24.6, countries: [country, 'IT'] },
+      chargeInfo: { stops: 3, minutes: 75, real: true, noChargerNearArrival: true,
+        stations: [{ near: 'Postojna', lat: 45.7768, lon: 14.2075 }, { near: 'Vrhnika', lat: 45.9667, lon: 14.2939 }, { near: 'Logatec', lat: 45.9174, lon: 14.2261 }] },
+      restrictions: [{ kind: 'van', type: 'lez', name: city, country: country }, { kind: 'moto', type: 'noMotorwayCc', name: city, country: country, minCc: 125 }],
+      overMaxLeg: { max: 320, min: 480 },
+      tension: isReturn ? null : { level: 'orange', source: 'https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/conseils-par-pays-destination/' + city.toLowerCase() + '/' },
+      ferryInfo: { route: 'Split — Ancona', amount: 96, priceStatus: 'variable', priceCovers: 'vehicle', footAmount: 42,
+        durationEstimated: true, mode: 'ferry', durationH: 11 },
+      checkInLabel: range,
+      lodgingLinks: { airbnb: 'https://www.airbnb.fr/s/' + encodeURIComponent(city) + '/homes?currency=EUR&price_max=180',
+        booking: 'https://www.booking.com/searchresults.html?ss=' + encodeURIComponent(city) + '&selected_currency=EUR&nflt=price%3DEUR-0-180-1',
+        local: [{ name: 'Booking ' + city, url: 'https://www.booking.com/city/' + country.toLowerCase() + '/' + city.toLowerCase() + '.html' }] },
+      activities: [{ label: 'Sentier des cretes de ' + city, source: 'OpenStreetMap',
+          typeLabel: [num(12) + ' km', num(4) + ' h ' + num(30), t('hike.difficulty.medium')].join(' · '),
+          hikeUrl: 'https://hiking.waymarkedtrails.org/#route?id=1234567',
+          sourceLabel: t('hike.sourceLabel', { source: 'OpenStreetMap' }).replace(/\s*↗\s*$/, '') },
+        { label: 'Muzej sodobne umetnosti (' + city + ')', typeLabel: t('poiType.museum'), source: null, hikeUrl: null },
+        { label: 'Stari grad (' + city + ')', typeLabel: t('poiType.castle'), source: null, hikeUrl: null }]
+    });
+  }
+  const lists = L[lang] || L.fr;
+  const packing = [].concat(lists['pack.base'] || [], lists['pack.voitureElectrique'] || [], lists['pack.confortable'] || []);
+  return {
+    lang: lang, texts: texts, transportKey: 'voiture-electrique', distanceUnit: 'km', city: MAX_TRIP_CITIES[0],
+    tripLabel: MAX_TRIP_CITIES[0] + ' → ' + MAX_TRIP_CITIES[1] + ' · 2026-07-04 → 2026-07-24',
+    budgetLabel: t('form.budget.confortable'), transportLabel: t('transport.voitureElectrique.label'),
+    stats: { days: MAX_TRIP_DAYS, cities: 15, nights: MAX_TRIP_DAYS - 1, totalKm: 6480.4, ferryKm: 412.6,
+      toll: { enabled: true, amount: 186.4, amountMin: 92.1, amountMax: 186.4 } },
+    notices: noticeKeys,
+    departureTension: { level: 'red', source: 'https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs/' },
+    legs: legs, packing: packing.length ? packing : ['Carte', 'Lampe']
+  };
+}
+
+// Échantillon par défaut : les 12 plus grosses charges utiles mesurées (écritures birmane, tibétaine, tamoule,
+// malayalam, géorgienne, bengalie, devanagari, khmère, singhalaise, thaïe) plus une langue de chaque autre famille
+// (latine, CJK, arabe RTL, thâna RTL, éthiopienne, yi, tifinagh, cyrillique, grecque, arménienne, vietnamienne, venda).
+const PDF_SAMPLE_LANGS = ['dz', 'my', 'ta', 'ml', 'ka', 'bn', 'mr', 'ne', 'km', 'si', 'hi', 'th',
+  'fr', 'ja', 'ko', 'zh-Hant', 'ar', 'dv', 'am', 'ii', 'zgh', 'ru', 'el', 'hy', 'vi', 've'];
+
+test('17e audit, point 1 : export PDF d\'un voyage MAXIMAL (21 jours, 15 villes) — 200, document complet, aucun glyphe manquant',
+  { timeout: FULL ? 1800000 : 600000 }, async t => {
+  const { langs } = loadI18nForPdf();
+  assert.equal(langs.length, 161, langs.length + ' langues dans i18n.js');
+  const list = FULL ? langs : PDF_SAMPLE_LANGS;
+  t.diagnostic(FULL ? 'les 161 langues' : list.length + ' langues sur 161 (TEST_FULL=1 / node tests/run.js --full pour les 161)');
+  const problems = [], sizes = [], truncatedLangs = [];
+  let maxMs = 0, maxPages = 0;
+  for(const lang of list){
+    const body = JSON.stringify(maxTripPayload(lang));
+    const bytes = Buffer.byteLength(body, 'utf8');
+    sizes.push([lang, bytes]);
+    const r = await H.postPatient('/api/export-pdf', body, { timeout: 120000 });
+    if(r.status !== 200){ problems.push(lang + ' (' + bytes + ' o) : statut ' + r.status + ' ' + r.body.toString('utf8').slice(0, 90)); continue; }
+    if(!/application\/pdf/.test(r.headers['content-type'] || '')){ problems.push(lang + ' : Content-Type ' + r.headers['content-type']); continue; }
+    if(!isCompletePdf(r.body)){ problems.push(lang + ' : PDF incomplet (sans %PDF- ou %%EOF, ' + r.body.length + ' o)'); continue; }
+    const raw = pdfText(r.body);
+    // Pied de page : noms de sources, identiques dans toutes les langues (voir `sources` de buildTripPdf).
+    const txt = raw.replace(/\s+/g, ' ');
+    if(!txt.includes('OpenStreetMap') || !txt.includes('Open Charge Map')) problems.push(lang + ' : pied de page (sources, attribution OpenStreetMap) absent');
+    const nd = notdefCount(r.body);
+    if(nd) problems.push(lang + ' : ' + nd + ' glyphe(s) manquant(s) (.notdef)');
+    const pages = pageCount(r.body);
+    if(pages < 3 || pages > 40) problems.push(lang + ' : ' + pages + ' pages');
+    if(r.ms > PDF_TIME_LIMIT_MS) problems.push(lang + ' : ' + r.ms + ' ms > ' + PDF_TIME_LIMIT_MS + ' ms');
+    // Toutes les villes ne tiennent pas toujours : le budget de mise en page (PDF_BUILD_BUDGET_MS, 3,5 s) peut écourter
+    // le document dans les écritures les plus coûteuses. Le lecteur en est alors averti (texts.truncated) et le pied de
+    // page reste présent — signalé en diagnostic, ce n'est pas un échec de l'export.
+    const cities = MAX_TRIP_CITIES.filter(c => raw.replace(/\s+/g, '').includes(c)).length;
+    if(cities < MAX_TRIP_CITIES.length) truncatedLangs.push(lang + ' (' + cities + '/' + MAX_TRIP_CITIES.length + ')');
+    maxMs = Math.max(maxMs, r.ms);
+    maxPages = Math.max(maxPages, pages);
+  }
+  sizes.sort((a, b) => b[1] - a[1]);
+  const all = sizes.map(x => x[1]).sort((a, b) => a - b);
+  t.diagnostic('corps : min ' + all[0] + ' o, médiane ' + all[Math.floor(all.length / 2)] + ' o, max ' + all[all.length - 1] + ' o (' + sizes[0][0] + ')');
+  t.diagnostic('10 plus grosses : ' + sizes.slice(0, 10).map(x => x[0] + ' ' + x[1]).join(', '));
+  t.diagnostic('pire temps ' + maxMs + ' ms, pages max ' + maxPages + ' ; mise en page écourtée (budget de temps) : ' + (truncatedLangs.join(', ') || 'aucune'));
+  assert.deepEqual(problems, []);
+});
+
+test('17e audit, point 2 : corps d\'export — le voyage maximal passe, au-delà de la limite un message propre', { timeout: 180000 }, async () => {
+  const bad = [];
+  // Le pire cas mesuré (~118 ko, dzongkha) doit passer : c'est tout l'objet de la nouvelle limite.
+  const worst = JSON.stringify(maxTripPayload('dz'));
+  assert.ok(Buffer.byteLength(worst) > 100000, 'charge utile maximale trop petite : ' + Buffer.byteLength(worst) + ' o');
+  const ok = await H.postPatient('/api/export-pdf', worst, { timeout: 120000 });
+  if(ok.status !== 200) bad.push('voyage maximal (' + Buffer.byteLength(worst) + ' o) -> ' + ok.status + ' ' + ok.body.toString('utf8').slice(0, 90));
+  // Au-delà de la limite : 413 avec un message PROPRE À LA CAUSE, que le client peut afficher (« itinéraire trop
+  // volumineux ») au lieu du « bad request » générique, qui devenait un « réessayez » sans effet.
+  await sleep(1000);
+  const tooBig = await H.postPatient('/api/export-pdf', JSON.stringify({ lang: 'fr', legs: [{ label: 'x'.repeat(300000) }] }), { timeout: 60000 });
+  if(tooBig.status !== 413) bad.push('300 ko -> ' + tooBig.status);
+  else {
+    let j = null;
+    try { j = JSON.parse(tooBig.body.toString('utf8')); } catch(e){}
+    if(!j || j.error !== 'trip too large') bad.push('413 sans message propre : ' + tooBig.body.toString('utf8').slice(0, 120));
+  }
+  assert.deepEqual(bad, []);
+});
+
+test('17e audit, point 3 : caractères distincts d\'un vrai voyage loin de la limite (birman, tamoul, dzongkha, coréen)', { timeout: 120000 }, () => {
+  const F = serverFns(['distinctChars'], ['PDF_MAX_DISTINCT_CHARS']);
+  const counts = {};
+  for(const lang of ['my', 'ta', 'dz', 'ko', 'ja', 'zh', 'zh-Hant']){
+    counts[lang] = F.distinctChars(maxTripPayload(lang), new Set(), F.PDF_MAX_DISTINCT_CHARS, 0).size;
+  }
+  const over = Object.entries(counts).filter(([, n]) => n >= F.PDF_MAX_DISTINCT_CHARS / 2);
+  assert.deepEqual(over, [], 'trop près de PDF_MAX_DISTINCT_CHARS (' + F.PDF_MAX_DISTINCT_CHARS + ') : ' + JSON.stringify(counts));
+  assert.ok(counts.my > 40 && counts.ja > 100, 'comptage inopérant : ' + JSON.stringify(counts));
+});
+
+test('17e audit, point 4 : hors de France, deux graphies de région = deux articles Wikipédia, deux entrées de cache', { timeout: 180000 }, async () => {
+  // Wikipédia ne canonise QUE la première lettre d'un titre : « Ville17 (illinois) » et « Ville17 (Illinois) » sont
+  // deux articles différents. La clé de cache mettait la région en capitale initiale : une seule entrée pour les deux,
+  // et le résultat VIDE de l'une était resservi à l'autre pendant 24 h.
+  const q = dept => '/api/photo?name=Ville17&dept=' + encodeURIComponent(dept) + '&country=US&lang=fr&lat=45.76&lon=4.83';
+  srv.setMock({ wiki: 'status:404' });
+  const empty = await H.get(q('illinois'), { ip: freshIp(), timeout: 30000 });
+  assert.equal(empty.status, 200);
+  assert.equal(JSON.parse(empty.body.toString('utf8')).image, null, 'le témoin « illinois » devait rester sans photo');
+  srv.setMock({});
+  await sleep(300);
+
+  const t0 = Date.now();
+  const r = await H.get(q('Illinois'), { ip: freshIp(), timeout: 30000 });
+  await sleep(300);
+  const j = JSON.parse(r.body.toString('utf8'));
+  const titles = srv.outbound(t0, 'wiki').map(c => { try { return decodeURIComponent(c.url); } catch(e){ return c.url; } });
+  assert.ok(j.image, '« Illinois » a reçu le résultat vide mis en cache pour « illinois » : ' + JSON.stringify(j));
+  assert.ok(titles.some(u => u.includes('Ville17 (Illinois)')), 'la région n\'est pas partie telle quelle vers Wikipédia : ' + JSON.stringify(titles));
+  assert.ok(!titles.some(u => u.includes('Ville17 (illinois)')), 'graphie confondue : ' + JSON.stringify(titles));
+
+  // Canonisation française conservée : « 2a » et « 2A » désignent le même département, donc une seule entrée.
+  const fr = c => '/api/photo?name=Cargese17&dept=' + c + '&country=FR&lang=fr&lat=41.99&lon=8.59';
+  const t1 = Date.now();
+  const a = await H.get(fr('2A'), { ip: freshIp(), timeout: 30000 });
+  await sleep(300);
+  assert.ok(srv.outbound(t1, 'wiki').some(c => decodeURIComponent(c.url).includes('Cargese17 (Corse-du-Sud)')), 'désambiguïsation corse absente');
+  const t2 = Date.now();
+  const b = await H.get(fr('2a'), { ip: freshIp(), timeout: 30000 });
+  await sleep(300);
+  assert.equal(JSON.parse(b.body.toString('utf8')).image, JSON.parse(a.body.toString('utf8')).image);
+  assert.deepEqual(srv.outbound(t2, 'wiki'), [], '« 2a » n\'a pas réutilisé l\'entrée de « 2A »');
+});
+
+test('17e audit, point 5 : cache des randonnées — seules les étiquettes relues sont gardées, plafond propre au cache', () => {
+  const F = serverFns(['pickHikeTags', 'cacheSet'], ['HIKE_TAG_RE', 'HIKE_TAG_MAX_LEN', 'CACHE_MAX_ENTRIES', 'OSM_HIKE_CACHE_MAX']);
+  const tags = { name: 'Sentier', 'name:de': 'Weg', 'name:fr': 'Sentier', distance: '12.5', network: 'lwn',
+    sac_scale: 'mountain_hiking', 'osmc:symbol': 'red:red:white_bar', ref: 'E5', website: 'https://example.org/x',
+    description: 'd'.repeat(400), operator: 'DAV', wikidata: 'Q42', 'name:de:long': 'x' };
+  assert.deepEqual(Object.keys(F.pickHikeTags(tags)).sort(), ['distance', 'name', 'name:de', 'name:fr', 'network']);
+  // Valeurs raccourcies : plus de 300 caractères gardés par étiquette.
+  assert.equal(F.pickHikeTags({ name: 'n'.repeat(500) }).name.length, F.HIKE_TAG_MAX_LEN);
+  assert.ok(F.HIKE_TAG_MAX_LEN <= 150, 'HIKE_TAG_MAX_LEN = ' + F.HIKE_TAG_MAX_LEN);
+  // Poids d'une entrée (60 relations) avant/après, sur la sérialisation : le gain vient surtout de `description`,
+  // gardée 14 jours sans jamais être relue.
+  const size = pick => require('v8').serialize(Array.from({ length: 60 }, () => ({ id: 1, tags: pick(Object.assign({}, tags)), lat: 1, lon: 2 }))).length;
+  const old = t2 => { const o = {}; for(const k of Object.keys(t2)) if(/^(name(:[a-z]{2,3})?|distance|network|sac_scale|osmc:symbol|ref|website|description|operator)$/.test(k) && typeof t2[k] === 'string') o[k] = t2[k].slice(0, 300); return o; };
+  assert.ok(size(F.pickHikeTags) * 3 < size(old), 'entrée réduite de moins des deux tiers : ' + size(F.pickHikeTags) + ' o contre ' + size(old) + ' o');
+  // Plafond PROPRE : cacheSet accepte une limite par cache, plus basse que le plafond commun.
+  assert.ok(F.OSM_HIKE_CACHE_MAX >= 300 && F.OSM_HIKE_CACHE_MAX <= 500, 'OSM_HIKE_CACHE_MAX = ' + F.OSM_HIKE_CACHE_MAX);
+  assert.ok(F.OSM_HIKE_CACHE_MAX < F.CACHE_MAX_ENTRIES);
+  const m = new Map();
+  for(let i = 0; i < F.OSM_HIKE_CACHE_MAX + 50; i++) F.cacheSet(m, 'k' + i, i, F.OSM_HIKE_CACHE_MAX);
+  assert.equal(m.size, F.OSM_HIKE_CACHE_MAX, 'plafond propre ignoré : ' + m.size + ' entrées');
+  assert.equal(m.has('k0'), false, 'la plus ancienne entrée n\'a pas été retirée');
+  // Sans limite explicite, le plafond commun s'applique toujours (aucune régression pour les autres caches).
+  const m2 = new Map();
+  for(let i = 0; i < 5; i++) F.cacheSet(m2, 'k' + i, i);
+  assert.equal(m2.size, 5);
+});
+
+test('17e audit, point 6 : titre d\'espace de noms précédé d\'un souligné refusé, sans appel sortant', { timeout: 120000 }, async () => {
+  const F = serverFns(['isNamespaceTitle']);
+  const refused = ['_File:X.jpg', '__Fichier:X.jpg', '_ Category:Foo', '_Utilisateur:Bob', '  _Special:Search', '_:_File:X.jpg'];
+  assert.deepEqual(refused.filter(n => !F.isNamespaceTitle(n)), [], 'souligné initial : contrôle contourné');
+  // Témoins : un vrai nom de lieu n'est pas refusé, y compris avec un souligné (Wikipédia y voit une espace).
+  assert.deepEqual(['Lyon', 'Saint-Étienne', 'Bourg_en_Bresse', '_Lyon', 'Aix-en-Provence'].filter(n => F.isNamespaceTitle(n)), []);
+  // Bout en bout : aucun appel sortant pour ces titres.
+  srv.setMock({});
+  const bad = [];
+  for(const n of refused){
+    const t0 = Date.now();
+    const r = await H.get('/api/photo?name=' + encodeURIComponent(n) + '&lang=fr&lat=45.76&lon=4.83', { ip: freshIp(), timeout: 30000 });
+    let j = null;
+    try { j = JSON.parse(r.body.toString('utf8')); } catch(e){}
+    if(r.status !== 200 || !j || j.image || j.wikiUrl) bad.push(n + ' -> ' + r.status + ' ' + r.body.toString('utf8').slice(0, 80));
+    await sleep(250);
+    const calls = srv.outbound(t0);
+    if(calls.length) bad.push(JSON.stringify(n) + ' : ' + calls.length + ' appel(s) sortant(s), ex. ' + calls[0].url);
+  }
+  assert.deepEqual(bad, []);
+});
+
+test('17e audit, point 7 : Sec-Fetch-Site comparé sans tenir compte de la casse', { timeout: 60000 }, async () => {
+  const bad = [];
+  for(const v of ['cross-site', 'Cross-Site', 'CROSS-SITE', 'cross-Site', ' cross-site ']){
+    const r = await H.get('/api/status', { ip: freshIp(), headers: 'Sec-Fetch-Site: ' + v + '\r\n' });
+    if(r.status !== 403) bad.push(JSON.stringify(v) + ' -> ' + r.status);
+  }
+  // Témoins : les autres valeurs (et l'absence d'en-tête) passent toujours.
+  for(const v of ['same-origin', 'same-site', 'none']){
+    const r = await H.get('/api/status', { ip: freshIp(), headers: 'Sec-Fetch-Site: ' + v + '\r\n' });
+    if(r.status !== 200) bad.push(JSON.stringify(v) + ' -> ' + r.status);
+  }
+  const plain = await H.get('/api/status', { ip: freshIp() });
+  if(plain.status !== 200) bad.push('sans en-tête -> ' + plain.status);
+  assert.deepEqual(bad, []);
+});
+
+test('17e audit, point 8 : /api/photo sans lat/lon -> réponse vide immédiate, aucun appel sortant', { timeout: 120000 }, async () => {
+  // Sans point de référence, wikiPlaceMatches écarte tout article : la réponse était vide de toute façon, après
+  // plusieurs appels à Wikipédia/Wikidata/Commons, et ce vide occupait une entrée de cache 24 h.
+  srv.setMock({});
+  const bad = [];
+  for(const qs of ['name=Lyon17a&lang=fr', 'name=Lyon17b&lang=fr&dept=69&country=FR', 'name=Lyon17c&lang=fr&lat=abc&lon=4.83',
+    'name=Lyon17d&lang=fr&lat=91&lon=4.83', 'name=Lyon17e&lang=fr&lon=4.83']){
+    const t0 = Date.now();
+    const r = await H.get('/api/photo?' + qs, { ip: freshIp(), timeout: 30000 });
+    let j = null;
+    try { j = JSON.parse(r.body.toString('utf8')); } catch(e){}
+    if(r.status !== 200 || !j) bad.push(qs + ' -> ' + r.status);
+    else if(j.image || j.wikiUrl || j.title) bad.push(qs + ' -> ' + JSON.stringify(j).slice(0, 120));
+    await sleep(250);
+    const calls = srv.outbound(t0);
+    if(calls.length) bad.push(qs + ' : ' + calls.length + ' appel(s) sortant(s), ex. ' + calls[0].url);
+  }
+  // Témoin : avec des coordonnées, les appels ont bien lieu.
+  const t1 = Date.now();
+  const ok = await H.get('/api/photo?name=Lyon17f&lang=fr&lat=45.76&lon=4.83', { ip: freshIp(), timeout: 30000 });
+  assert.equal(ok.status, 200);
+  await sleep(300);
+  if(!srv.outbound(t1, 'wiki').length) bad.push('aucun appel Wikipédia avec des coordonnées');
+  assert.deepEqual(bad, []);
+});
+
+test('17e audit, point 9 : borne de distance d\'étape contrôlée sur la valeur AFFICHÉE (99 999,6 -> jamais « 100000 km »)', { timeout: 120000 }, async () => {
+  const legs = [
+    { label: 'Jour 1', stop: 'A', distanceKm: 99999.6, travelTime: '2h' },                    // arrondi à 100000
+    { label: 'Jour 2', stop: 'B', distanceKm: 99999.5, travelTime: '3h' },                    // arrondi à 100000
+    { label: 'Jour 3', stop: 'C', distanceKm: 40, travelTime: '4h', roadKm: 99999.7, roadTime: '1h',
+      ferryInfo: { route: 'X - Y', amount: 12 } },                                            // partie routière idem
+    { label: 'Jour 4', stop: 'D', distanceKm: 99998.4, travelTime: '5h' },                    // témoin : 99998 km
+    { label: 'Retour', stop: 'Lyon', isReturn: true }
+  ];
+  await sleep(1500);
+  const r = await H.postPatient('/api/export-pdf', { lang: 'fr', city: 'Lyon', legs });
+  assert.equal(r.status, 200);
+  assert.ok(isCompletePdf(r.body), 'PDF incomplet');
+  const txt = pdfText(r.body).replace(/\s+/g, ' ');
+  const bad = [];
+  if(!txt.includes('OpenStreetMap') || !txt.includes('Open Charge Map')) bad.push('pied de page absent');
+  if(/100000\s*km/.test(txt)) bad.push('« 100000 km » écrit');
+  if(!txt.includes('· 99998 km')) bad.push('témoin « 99998 km » absent');
+  // Durées toujours écrites, sans séparateur orphelin.
+  for(const w of ['~ 2h de route', '~ 3h de route', '~ 4h de traversée', '~ 5h de route · 99998 km']) if(!txt.includes(w)) bad.push('témoin absent : « ' + w + ' »');
+  if(/de (route|traversée)\s*·\s*(·|$|~)/.test(txt)) bad.push('séparateur « · » sans distance');
+  if(/1h de route/.test(txt)) bad.push('partie routière hors bornes conservée');
+  assert.deepEqual(bad, [], txt.slice(0, 900));
+});
+
+test('17e audit, point 10 : nom de fichier sans marque bidi invisible ni flèche inversée', { timeout: 120000 }, async () => {
+  // tripLabelText (app.js) isole chaque nom propre par FSI…PDI et, en écriture de droite à gauche, écrit « ← ».
+  // Ces caractères sont invisibles (ou à l'envers) dans un nom de fichier, qui se lit toujours de gauche à droite :
+  // encodés en RFC 5987 ils donnaient « %E2%81%A8 » au milieu du nom téléchargé.
+  const FSI = chr(0x2068), PDI = chr(0x2069), LRM = chr(0x200E), RLM = chr(0x200F), RLE = chr(0x202B), PDF_ = chr(0x202C);
+  const label = FSI + 'Lyon17j' + PDI + ' ' + chr(0x2190) + ' ' + FSI + 'Bled17j' + PDI + ' · ' + LRM + RLM + RLE + '2026' + PDF_;
+  await sleep(1500);
+  const r = await H.postPatient('/api/export-pdf', { lang: 'ar', city: 'Lyon17j', tripLabel: label,
+    legs: [{ label: 'Jour 1', stop: 'Bled17j' }, { label: 'Retour', stop: 'Lyon17j', isReturn: true }] });
+  assert.equal(r.status, 200);
+  assert.ok(isCompletePdf(r.body), 'PDF incomplet');
+  const cd = r.headers['content-disposition'] || '';
+  assert.match(cd, /attachment/);
+  const star = /filename\*=UTF-8''([^;]+)/.exec(cd);
+  assert.ok(star, 'filename* absent : ' + cd);
+  let decoded;
+  try { decoded = decodeURIComponent(star[1]); } catch(e){ decoded = 'INDÉCODABLE ' + e.message; }
+  const bad = [];
+  // Ni dans la partie ASCII, ni dans la partie encodée, ni une fois décodée.
+  for(const [name, s] of [['en-tête brut', cd], ['filename* décodé', decoded]]){
+    if(/[⁦-⁩‪-‮‎‏؜]/.test(s)) bad.push(name + ' : marque bidi invisible — ' + JSON.stringify(s));
+    if(s.includes(chr(0x2190))) bad.push(name + ' : flèche « ← » — ' + JSON.stringify(s));
+  }
+  if(/%E2%81%A[89]|%E2%80%8[EF]|%E2%80%A[ABCDE]|%E2%86%90/i.test(star[1])) bad.push('filename* encodé : ' + star[1]);
+  // Le libellé reste lisible et la flèche est remise dans le sens du nom de fichier.
+  if(!decoded.includes('Lyon17j') || !decoded.includes('Bled17j')) bad.push('libellé perdu : ' + decoded);
+  if(!decoded.includes(chr(0x2192))) bad.push('flèche « → » absente : ' + decoded);
+  if(!decoded.endsWith('.pdf')) bad.push('extension absente : ' + decoded);
   assert.deepEqual(bad, []);
 });

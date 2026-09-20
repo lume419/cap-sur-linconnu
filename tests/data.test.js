@@ -16,6 +16,12 @@
 //   - (15e audit du 19/09/2026) alias réparés (« _ », parenthèse orpheline) publiés, lignes mal rattachées toujours
 //     écartées ; aucune espace double dans les alias et les noms ; doublons au même point écartés, nom écarté trouvable
 //     comme alias ; paires de ports non documentées absentes ; mentions légales OpenStreetMap et Natural Earth ;
+//   - (17e audit du 20/09/2026) BORNES DE DONNÉES, jusque-là absentes : latitude et longitude dans les bornes du
+//     globe, population plausible, aucune ligne de lieu dupliquée, code postal bien formé et rattaché au bon pays,
+//     aucun lieu isolé de son pays (coordonnées hors du pays déclaré), alias jamais identique au nom publié, code de
+//     langue d'alias pris dans une liste fermée ; ferries : vitesse pas TROP BASSE (seule la borne haute existait),
+//     prix voiture plafonné et cohérent avec sa classe de distance, ordre des classes ; péages : fourchette par pays
+//     (seule la France était ancrée). Chaque borne est démontrée par mutation (voir le rapport de la 17e passe).
 //   - scripts/build-ferry-ports.js reproduit lib/ferry-ports.js à l'octet près (TEST_GENERATORS=1 ou test:full).
 // Exceptions « en attente » : lignes des pays que leur générateur ne peut pas régénérer hors ligne (fichiers postaux
 // GeoNames absents de scripts/postal/) ; la correction est en place dans communes-corrections.js et s'appliquera à la
@@ -436,22 +442,46 @@ test('alias : lao / khmer / birman / thaï jamais déclarés dans une autre de c
 test('alias de fusion : seulement quand le nom gardé est unique dans le pays', () => {
   const bad = [];
   // Nombre de lieux publiés portant chaque nom gardé (le fichier en compte plusieurs, published ne garde qu'un jeu de noms).
+  // 17e audit du 20/09/2026 : les noms VOULUS étaient rassemblés table par table et `counts.set(cc, m)` écrasait le
+  // relevé précédent — pour la Chine, l'Iran et le Japon, présents dans les DEUX tables, les lignes de la première
+  // ressortaient à 0 homonyme et n'étaient donc jamais contrôlées (2 lignes sur 85). Un seul relevé par pays.
   const counts = new Map();
+  const wanted = new Map();
   for(const [cc, rows] of Object.entries(C.SAME_POINT_DUPLICATES).concat(Object.entries(C.LOCAL_SCRIPT_DUPLICATES))){
-    const want = new Set(rows.map(r => r[3]));
+    if(!wanted.has(cc)) wanted.set(cc, new Set());
+    for(const r of rows) wanted.get(cc).add(r[3]);
+  }
+  for(const [cc, want] of wanted){
     const m = new Map();
     eachLine(path.join(DATA, TripData.COUNTRIES[cc].file), l => { const n = nameOf(l); if(want.has(n)) m.set(n, (m.get(n) || 0) + 1); });
     counts.set(cc, m);
   }
+  // 17e audit du 20/09/2026 — cette boucle ne pouvait RIEN détecter : elle codait « ja; » en dur (« 蓮湖 » est chinois,
+  // sa ligne commencerait par « zh; ») et ne regardait que deux noms, déjà couverts un à un plus bas. Elle parcourt
+  // maintenant TOUTES les lignes de fusion dont le nom gardé porte des homonymes, quelle que soit la langue :
+  //   - celles de MERGE_WITHDRAWN (retirées par la 16e passe) ne doivent avoir AUCUN alias publié ;
+  //   - les autres en ont une, et ce n'est pas la fusion qui l'a écrite : c'est un nom alternatif GeoNames d'une fiche
+  //     homonyme GARDÉE (« zh;东坑;Dongkeng » vient des fiches Dongkeng elles-mêmes). Le nom reste donc cherchable, mais
+  //     il renvoie les 138 Dongkeng ou les 172 Aḩmadābād — limite assumée, et c'est l'inverse de ce que le commentaire
+  //     de build-all-aliases.js prétendait. Le test échoue si ce partage change dans un sens ou dans l'autre (une
+  //     régénération qui remettrait 平泉, ou qui retirerait une des lignes GeoNames).
+  const MERGE_WITHDRAWN = new Set(['JP|平泉|Tateishi', 'CN|蓮湖|Lianhu']);
+  const MERGE_ALIAS_KEPT = 83; // lignes de fusion à homonymes dont le nom écarté reste publié comme alias (20/09/2026)
+  let kept = 0, homonymRows = 0;
   for(const [cc, rows] of Object.entries(C.SAME_POINT_DUPLICATES).concat(Object.entries(C.LOCAL_SCRIPT_DUPLICATES))){
     for(const [, name, , keptName] of rows){
       const n = counts.get(cc).get(keptName) || 0;
-      // Le nom de la fiche écartée peut rester publié pour une AUTRE raison (une autre fiche homonyme le porte en nom
-      // alternatif : « zh;东坑;Dongkeng »). Seuls les cas nommés ci-dessous, tous issus de la 15e passe, sont garantis.
-      if(n > 1 && ['平泉', '蓮湖'].includes(name) && aliasSet(cc).has('ja;' + name + ';' + keptName))
-        bad.push(cc + ' : « ' + name + ' » rattaché à « ' + keptName + ' » (' + n + ' homonymes)');
+      if(n <= 1) continue;
+      homonymRows++;
+      const lines = [...aliasSet(cc)].filter(l => { const p = l.split(';'); return p[1] === name && p[2] === keptName; });
+      const withdrawn = MERGE_WITHDRAWN.has(cc + '|' + name + '|' + keptName);
+      if(withdrawn && lines.length) bad.push(cc + ' : « ' + name + ' » rattaché à « ' + keptName + ' » (' + n + ' homonymes) : ' + lines.join(' , '));
+      if(!withdrawn && !lines.length) bad.push(cc + ' : « ' + name + ' » -> « ' + keptName + ' » (' + n + ' homonymes) : plus aucun alias publié, à ajouter à MERGE_WITHDRAWN');
+      if(!withdrawn) kept++;
     }
   }
+  assert.ok(homonymRows >= 80, 'seulement ' + homonymRows + ' lignes de fusion à homonymes : la boucle ne teste plus rien');
+  if(kept !== MERGE_ALIAS_KEPT) bad.push(kept + ' lignes de fusion à homonymes gardent un alias publié au lieu de ' + MERGE_ALIAS_KEPT);
   for(const [cc, l] of [['CN', 'zh;雄鸡埭;Xiongjidai'], ['IR', 'fa;گوانی;Gavānī'], ['JP', 'ja;大馬木;Ō-maki']])
     if(!aliasSet(cc).has(l)) bad.push(cc + ' : alias de fusion attendu absent ' + JSON.stringify(l));
   for(const [cc, l] of [['JP', 'ja;平泉;Tateishi'], ['CN', 'zh;蓮湖;Lianhu']])
@@ -535,6 +565,306 @@ test('mentions légales : OpenStreetMap (quais, contours d\'îles) et Natural Ea
   for(const f of fs.readdirSync(path.join(ROOT, 'scripts', 'iles'))) (fs.readFileSync(path.join(ROOT, 'scripts', 'iles', f), 'utf8').match(/relation\/\d+/g) || []).forEach(r => rel.add(r));
   assert.deepEqual([...rel].sort(), ['relation/2711509', 'relation/2734482', 'relation/6661024'], 'nouveau contour OSM : le citer dans les mentions légales');
   if(fs.existsSync(path.join(ROOT, 'lib', 'land-grid.bin'))) assert.ok(/Natural Earth[\s\S]{0,200}domaine public/.test(html), 'Natural Earth (lib/land-grid.bin) non cité');
+});
+
+// =========================================================================================================
+// 17e audit du 20/09/2026 — BORNES DE DONNÉES. Jusqu'ici, les contrôles portaient sur les NOMS (marques
+// d'absence de nom, typographie, alias orphelins) : une coordonnée, une population, un code postal, un prix ou
+// une vitesse aberrants passaient tous. Chaque borne ci-dessous a été vérifiée par mutation (une valeur cassée
+// dans les données fait bien échouer le test) et calibrée sur les données du 20/09/2026, avec de la marge :
+// il s'agit d'attraper l'absurde, pas de figer les chiffres.
+// =========================================================================================================
+
+// Un SEUL parcours des fichiers de lieux (~4,8 millions de lignes, quelques secondes) : chaque test ci-dessous
+// n'a plus qu'à lire son tableau. Les violations sont conservées, pas les lignes.
+const POP_MAX = 40000000;     // Shanghai, le plus peuplé publié, en compte 24,9 millions
+const CP_RE = /^[0-9A-Z]+(?:[ -][0-9A-Z]+)*$/;  // ni minuscule, ni séparateur en tête / en fin / doublé
+const CP_LEN = [2, 11];
+// Pays dont les lieux sont, par nature, des points isolés à des milliers de kilomètres les uns des autres
+// (stations polaires, confettis d'archipels) : le contrôle d'isolement n'y a pas de sens.
+const SCATTERED = new Set(['AQ', 'TF', 'UM', 'SH', 'SJ', 'BV', 'HM', 'GS', 'IO', 'PN', 'NF', 'CX', 'CC', 'TK', 'NU', 'WF']);
+const ISOLATED_KM = 400, ISOLATED_MAX_PLACES = 3;
+// Lieux légitimement isolés de tous les autres lieux de leur pays, vérifiés un à un : atolls, stations polaires,
+// dépendances lointaines. Ce contrôle a aussi trouvé trois VRAIES erreurs de coordonnées héritées de GeoNames
+// (PG Katingan, BH Magsha, GT Todos Santos Cuchumantan, placées à Bornéo, en Arabie saoudite et dans le Pacifique) :
+// elles ne sont pas listées ici, elles ont été écartées à la source (scripts/communes-corrections.js, JUNK_IDS,
+// section « coordonnées fausses ») et les trois fichiers de pays régénérés. Une exception qui ne sert plus fait
+// échouer le test : c'est ce qui force à les retirer d'ici quand la donnée est réparée.
+const ISOLATED_OK = {
+  'FR|Île de Clipperton': 'atoll inhabité du Pacifique oriental, français, à 3 900 km de la Polynésie',
+  'FR|Miquelon-Langlade': 'Saint-Pierre-et-Miquelon, au large de Terre-Neuve',
+  'FR|Saint-Pierre': 'Saint-Pierre-et-Miquelon, au large de Terre-Neuve',
+  'FR|Rapa': 'Rapa Iti, Australes, 1 100 km au sud de Tahiti',
+  'ZA|Fairbairn Settlement': 'île Marion (îles du Prince-Édouard), sud-africaine, 1 900 km au sud-est du Cap',
+  'KI|Kanton Village': 'Kanton, îles Phœnix, 1 800 km des Gilbert',
+  'KI|Antereen Village': 'Banaba (Ocean Island), 400 km à l\'ouest des Gilbert',
+  'KI|Tabewa Village': 'Banaba (Ocean Island), 400 km à l\'ouest des Gilbert',
+  'KI|Umwa Village': 'Banaba (Ocean Island), 400 km à l\'ouest des Gilbert',
+  'MU|Port Sainte Rita': 'Agaléga, dépendance mauricienne à 1 100 km de Maurice',
+  'MU|Vingt Cinq': 'Agaléga, dépendance mauricienne à 1 100 km de Maurice',
+  'SC|Aldabra': 'Aldabra, Seychelles extérieures, 1 100 km de Mahé',
+  'SC|Assumption': 'Assomption, Seychelles extérieures, voisine d\'Aldabra',
+  'SC|Farquhar': 'Farquhar, Seychelles extérieures, 700 km de Mahé',
+  'DZ|Tindouf': 'Tindouf, extrême sud-ouest algérien, séparé du reste du pays par le Sahara occidental',
+  'MR|Chegga': 'Chegga, poste frontière au nord-est du Sahara mauritanien',
+  'GL|Summit Camp': 'station scientifique au centre de la calotte groenlandaise',
+  'CA|Mould Bay': 'ancienne station météo de l\'île du Prince-Patrick, Arctique canadien',
+  'CK|Motu Koe': 'Penrhyn (Tongareva), îles Cook du Nord',
+  'CK|Moto Kavata': 'Penrhyn (Tongareva), îles Cook du Nord',
+  'CK|Palmerston': 'Palmerston, île isolée des Cook',
+  'MH|Enewetak': 'Enewetak, extrémité ouest des Marshall',
+  'BR|Vila dos Remédios': 'Fernando de Noronha, 350 km au large du Pernambouc',
+  'BR|Fernando de Noronha (Distrito Estadual)': 'Fernando de Noronha, 350 km au large du Pernambouc'
+};
+
+const BOUNDS = (() => {
+  const badCoord = [], badPop = [], dupLine = [], badCp = [], isolated = [];
+  const hv = (a, b, c, d) => { const r = Math.PI / 180, x = Math.sin((c - a) * r / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin((d - b) * r / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)); };
+  for(const { cc, file } of FILES){
+    const seen = new Map(), cells = new Map();
+    eachLine(path.join(DATA, file), (line, i) => {
+      const where = file + ':' + i;
+      if(seen.has(line)) dupLine.push(where + ' identique à la ligne ' + seen.get(line) + ' : ' + JSON.stringify(line.slice(0, 90)));
+      else seen.set(line, i);
+      const p = line.split(';');
+      if(p.length < 5){ badCoord.push(where + ' : ' + p.length + ' champs'); return; }
+      // Population : entier décimal, jamais négatif, jamais au-delà de la plus grande ville publiée.
+      if(!/^\d+$/.test(p[0])) badPop.push(where + ' : population ' + JSON.stringify(p[0]) + ' (entier attendu)');
+      else if(+p[0] > POP_MAX) badPop.push(where + ' : ' + (+p[0]) + ' habitants (plus de ' + POP_MAX + ')');
+      // Coordonnées « longitude,latitude », décimales, dans les bornes du globe.
+      const ll = p[1].split(',');
+      const lon = Number(ll[0]), lat = Number(ll[1]);
+      if(ll.length !== 2 || !/^-?\d+(\.\d+)?$/.test(ll[0]) || !/^-?\d+(\.\d+)?$/.test(ll[1])) badCoord.push(where + ' : coordonnées ' + JSON.stringify(p[1]));
+      else if(!(lat >= -90 && lat <= 90) || !(lon >= -180 && lon <= 180)) badCoord.push(where + ' : latitude ' + lat + ', longitude ' + lon + ' hors bornes');
+      else {
+        const k = Math.floor(lat) + '|' + Math.floor(lon);
+        let e = cells.get(k);
+        if(!e){ e = { lat: Math.floor(lat) + 0.5, lon: Math.floor(lon) + 0.5, names: [] }; cells.set(k, e); }
+        e.names.push(nameOf(line));
+      }
+      // Codes postaux : forme, longueur, pas de doublon dans la même ligne, et préfixe de pays cohérent quand le
+      // code est un repli « XX-… » (un « CN-… » dans un fichier autre que la Chine = ligne rattachée au mauvais pays).
+      const cps = p[2].split(',');
+      if(new Set(cps).size !== cps.length) badCp.push(where + ' : code postal répété ' + JSON.stringify(p[2]));
+      for(const cp of cps){
+        if(!CP_RE.test(cp) || cp.length < CP_LEN[0] || cp.length > CP_LEN[1]){ badCp.push(where + ' : code postal ' + JSON.stringify(cp)); continue; }
+        if(/^0+$/.test(cp)) badCp.push(where + ' : code postal ' + JSON.stringify(cp) + ' (que des zéros)');
+        const m = /^([A-Z]{2})-/.exec(cp);
+        if(m && m[1] !== cc) badCp.push(where + ' : code postal ' + cp + ' dans le fichier de ' + cc);
+      }
+    });
+    // Lieu isolé : sa case de 1° ne contient que quelques lieux ET la case occupée la plus proche du MÊME pays est
+    // à plus de 400 km. Un lieu déplacé en pleine mer ou dans un autre pays se retrouve seul, très loin des autres.
+    if(SCATTERED.has(cc)) continue;
+    const arr = [...cells.values()];
+    if(arr.length < 2) continue;
+    for(const c of arr){
+      if(c.names.length > ISOLATED_MAX_PLACES) continue;
+      let best = Infinity;
+      for(const o of arr){ if(o !== c) best = Math.min(best, hv(c.lat, c.lon, o.lat, o.lon)); }
+      if(best > ISOLATED_KM) for(const n of c.names) isolated.push({ cc, name: n, km: Math.round(best), at: c.lat + ',' + c.lon });
+    }
+  }
+  return { badCoord, badPop, dupLine, badCp, isolated };
+})();
+
+test('lieux : latitude et longitude bien formées et dans les bornes du globe', () => {
+  assert.deepEqual(BOUNDS.badCoord.slice(0, 20), []);
+  assert.equal(BOUNDS.badCoord.length, 0);
+});
+
+test('lieux : population plausible (entier, au plus ' + POP_MAX + ')', () => {
+  assert.deepEqual(BOUNDS.badPop.slice(0, 20), []);
+  assert.equal(BOUNDS.badPop.length, 0);
+});
+
+test('lieux : aucune ligne de lieu dupliquée', () => {
+  assert.deepEqual(BOUNDS.dupLine.slice(0, 20), []);
+  assert.equal(BOUNDS.dupLine.length, 0);
+});
+
+test('lieux : code postal bien formé et rattaché au bon pays', () => {
+  assert.deepEqual(BOUNDS.badCp.slice(0, 20), []);
+  assert.equal(BOUNDS.badCp.length, 0);
+  // Garde-fous du filtre : les formes réellement publiées passent, les formes absurdes non.
+  for(const cp of ['69001', 'CN-22', '3020-578', '100-0002', 'EC4N', 'K1A 0B1']) assert.ok(CP_RE.test(cp) && cp.length >= CP_LEN[0] && cp.length <= CP_LEN[1], cp);
+  for(const cp of ['-69001', '69001-', '69 001 ', 'cn-22', '6', '69001#', '69001--2']) assert.ok(!(CP_RE.test(cp) && cp.length >= CP_LEN[0] && cp.length <= CP_LEN[1]), cp);
+});
+
+test('lieux : aucun lieu isolé de son pays (coordonnées hors du pays déclaré)', () => {
+  const bad = [], seen = new Set();
+  for(const x of BOUNDS.isolated){
+    const k = x.cc + '|' + x.name;
+    if(ISOLATED_OK[k]){ seen.add(k); continue; }
+    bad.push(k + ' : ' + x.km + ' km du lieu le plus proche du pays (case ' + x.at + ')');
+  }
+  assert.deepEqual(bad, []);
+  assert.deepEqual(Object.keys(ISOLATED_OK).filter(k => !seen.has(k)), [], 'exception devenue inutile : la retirer de ISOLATED_OK');
+});
+
+// ------------------------------------------------------------------------------------------ alias : lieu et langue
+// Un alias identique au nom publié n'apporte rien et trahit souvent une ligne mal construite ; un code de langue
+// vide ou inconnu empêche aliasLangRank (lib/search-index.js) de choisir le nom affiché dans la langue d'interface.
+// La liste des codes est FERMÉE : tout nouveau code doit être ajouté ici sciemment (celui de GeoNames est un
+// champ libre où traînent des étiquettes fausses — voir le contrôle lao / khmer / birman / thaï plus haut).
+// « alias dont le lieu cible n'existe pas » est déjà couvert par « aucun alias orphelin ».
+const ALIAS_LANGS = new Set([
+  'aa', 'ab', 'ady', 'af', 'ak', 'alt', 'am', 'ar', 'arn', 'arz', 'as', 'ast', 'av', 'ay', 'az', 'ba', 'bal', 'be',
+  'ber', 'bg', 'bi', 'bm', 'bn', 'bo', 'br', 'bs', 'bxr', 'ca', 'ce', 'ceb', 'ch', 'chk', 'chr', 'ckb', 'co', 'cr',
+  'crh', 'cs', 'csb', 'cv', 'cy', 'da', 'de', 'dv', 'dz', 'ee', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fa', 'ff', 'fi',
+  'fil', 'fj', 'fo', 'fr', 'frr', 'fur', 'ga', 'gag', 'gd', 'gl', 'glk', 'gn', 'gu', 'guc', 'gv', 'ha', 'hak', 'haw',
+  'hbs', 'he', 'hi', 'hif', 'ho', 'hr', 'hsb', 'ht', 'hu', 'hy', 'id', 'ig', 'ii', 'inh', 'is', 'it', 'iu', 'ja',
+  'jam', 'jv', 'ka', 'kaa', 'kab', 'kbd', 'kg', 'ki', 'kjh', 'kk', 'kl', 'km', 'kmr', 'kn', 'ko', 'koi', 'kos', 'kr',
+  'krc', 'krl', 'ku', 'kv', 'kw', 'ky', 'la', 'lb', 'lez', 'lg', 'lij', 'lld', 'ln', 'lo', 'lrc', 'lt', 'ltg', 'lv',
+  'man', 'mdf', 'mg', 'mh', 'mhr', 'mi', 'min', 'mk', 'ml', 'mn', 'mr', 'mrj', 'ms', 'mt', 'mwl', 'my', 'myv', 'mzn',
+  'na', 'nah', 'nb', 'nd', 'nds', 'ndu', 'ne', 'niu', 'nl', 'nn', 'no', 'nrf-je', 'nso', 'nv', 'ny', 'oc', 'om', 'or',
+  'os', 'pa', 'pap', 'pap-AW', 'pau', 'pih', 'pis', 'pl', 'pnb', 'prs', 'ps', 'pt', 'pt-BR', 'qu', 'qug', 'rar', 'rm',
+  'rn', 'ro', 'ru', 'rue', 'rw', 'sah', 'sc', 'sco', 'sd', 'se', 'sg', 'sgs', 'shn', 'si', 'sk', 'sl', 'sm', 'sn',
+  'so', 'sq', 'sr', 'srn', 'ss', 'st', 'su', 'sv', 'sw', 'syr', 'ta', 'te', 'tet', 'tg', 'th', 'ti', 'tk', 'tl', 'tn',
+  'to', 'tpi', 'tr', 'ts', 'tt', 'tum', 'tw', 'ty', 'tyv', 'udm', 'ug', 'uk', 'ur', 'uz', 've', 'vep', 'vi', 'vro',
+  'wo', 'xal', 'xh', 'xmf', 'yo', 'yue', 'za', 'zgh', 'zh', 'zh-CH', 'zh-CN', 'zh-HK', 'zh-Hans', 'zh-Hant', 'zh-TW',
+  'zu'
+]);
+const ALIAS_BOUNDS = (() => {
+  const sameAsName = [], unknownLang = [], badShape = [];
+  for(const { alias } of FILES){
+    if(!alias || !fs.existsSync(path.join(DATA, alias))) continue;
+    eachLine(path.join(DATA, alias), (l, i) => {
+      const p = l.split(';');
+      if(p.length !== 3){ badShape.push(alias + ':' + i + ' ' + JSON.stringify(l.slice(0, 80))); return; }
+      if(p[1] === p[2]) sameAsName.push(alias + ':' + i + ' ' + JSON.stringify(l));
+      if(!ALIAS_LANGS.has(p[0])) unknownLang.push(alias + ':' + i + ' langue ' + JSON.stringify(p[0]));
+    });
+  }
+  return { sameAsName, unknownLang, badShape };
+})();
+
+test('alias : jamais identique au nom publié du lieu', () => {
+  assert.deepEqual(ALIAS_BOUNDS.badShape.slice(0, 10), []);
+  assert.deepEqual(ALIAS_BOUNDS.sameAsName.slice(0, 20), []);
+  assert.equal(ALIAS_BOUNDS.sameAsName.length, 0);
+});
+
+test('alias : code de langue non vide et connu (' + ALIAS_LANGS.size + ' codes)', () => {
+  assert.deepEqual(ALIAS_BOUNDS.unknownLang.slice(0, 20), []);
+  assert.equal(ALIAS_BOUNDS.unknownLang.length, 0);
+  // Un code présent dans la liste mais plus employé par aucune ligne resterait invisible : la liste est le reflet
+  // exact des fichiers, elle doit donc être entièrement utilisée.
+  const used = new Set();
+  for(const { alias } of FILES){
+    if(!alias || !fs.existsSync(path.join(DATA, alias))) continue;
+    eachLine(path.join(DATA, alias), l => used.add(l.split(';')[0]));
+  }
+  assert.deepEqual([...ALIAS_LANGS].filter(x => !used.has(x)), [], 'code de langue sans aucune ligne : le retirer de ALIAS_LANGS');
+});
+
+// ------------------------------------------------------------------------------------------ ferries : vitesse basse
+// Le contrôle existant n'a qu'une borne HAUTE (60 km/h) : une durée multipliée par dix ou une distance divisée
+// passait sans bruit. Un ferry qui traverse vraiment (plus de 20 km) ne descend pas sous ~10 km/h (5,4 nœuds) ;
+// en dessous de 20 km, les manœuvres de port dominent (un bac de 200 m « fait » 4 km/h) et seule l'absurdité est
+// contrôlée. Le plus lent publié le 20/09/2026 : 11,3 km/h (Muna ↔ Sulawesi, 34 km) et 3,0 km/h (Salvaterra ↔ Soure, 1 km).
+const MIN_FERRY_KMH = 10, MIN_FERRY_KMH_SHORT = 2.5, SHORT_CROSSING_KM = 20;
+test('ferries : vitesse implicite d\'au moins ' + MIN_FERRY_KMH + ' km/h au-delà de ' + SHORT_CROSSING_KM + ' km', () => {
+  const bad = [];
+  const all = Object.assign({}, TripData.FERRY_ROUTES, TripData.SEA_CROSSINGS);
+  for(const [k, r] of Object.entries(all)){
+    if(r.mode === 'train') continue;
+    const v = r.distanceKm / r.durationH, min = r.distanceKm > SHORT_CROSSING_KM ? MIN_FERRY_KMH : MIN_FERRY_KMH_SHORT;
+    if(v < min) bad.push(k + ' : ' + r.distanceKm + ' km en ' + r.durationH + ' h = ' + v.toFixed(1) + ' km/h < ' + min);
+  }
+  assert.deepEqual(bad, []);
+});
+
+// ------------------------------------------------------------------------------------------ ferries : prix
+// Aucune borne n'existait sur les prix : un tarif multiplié par dix (virgule décalée, monnaie non convertie) était
+// facturé tel quel dans le budget du voyage. Trois garde-fous : un plafond absolu pour la voiture, un prix au
+// kilomètre rapporté à la médiane de sa classe de distance (médianes le 20/09/2026 : 2,75 €/km sous 10 km, 1,36 de
+// 10 à 30, 1,13 de 30 à 80, 0,93 de 80 à 200, 0,65 au-delà ; le rapport le plus élevé réellement publié est 10,1,
+// l'île d'Yeu — le seuil de 15 laisse donc 50 % de marge), et l'ordre des classes (camping-car ≥ voiture ≥ moto).
+// Le rapport à la médiane n'attrape que les tarifs franchement absurdes : la médiane est recalculée sur les données
+// du moment, un prix faux la déplace un peu, et un ×10 sur une liaison déjà chère reste dans la fourchette. C'est
+// le plafond absolu et l'ordre des classes qui font le gros du travail.
+const FERRY_CAR_MAX_EUR = 500, FERRY_RATE_FACTOR = 15;
+const FERRY_PRICE_OK = {
+  'grandeTerreNC|mare': 'Betico 2 (Nouvelle-Calédonie), Nouméa ↔ Tadine : 636,76 € voiture, tarif insulaire converti du XPF',
+  'grandeTerreNC|lifou': 'Betico 2 (Nouvelle-Calédonie), Nouméa ↔ Wé : 636,76 € voiture, tarif insulaire converti du XPF',
+  'grandeTerreNC|ileDesPins': 'Betico 2 (Nouvelle-Calédonie), Nouméa ↔ Île des Pins : 527,84 € voiture, converti du XPF',
+  'lifou|mare': 'Betico 2 (Nouvelle-Calédonie), Wé ↔ Tadine : 527,84 € voiture, converti du XPF'
+};
+// Classe 2 (camping-car, fourgon) moins chère que la classe 1 (voiture) : incohérent, une seule liaison publiée
+// dans ce cas, à vérifier auprès de l'exploitant.
+const FERRY_CLASS_ORDER_OK = {
+  'mayreau|unionIsland': 'Saint-Vincent-et-les-Grenadines : 9,51 € voiture pour 6,34 € camping-car — tarifs relevés ' +
+    'sur une liaison sans grille publiée, à revoir (Canouan ↔ Mayreau, la liaison voisine, donne 23,77 / 30,11)'
+};
+test('ferries : prix voiture d\'au plus ' + FERRY_CAR_MAX_EUR + ' € et au plus ' + FERRY_RATE_FACTOR + ' × la médiane de sa classe de distance', () => {
+  const all = Object.assign({}, TripData.FERRY_ROUTES, TripData.SEA_CROSSINGS);
+  const CLASSES = [[0, 10], [10, 30], [30, 80], [80, 200], [200, Infinity]];
+  const perKm = CLASSES.map(() => []);
+  const priced = [];
+  for(const [k, r] of Object.entries(all)){
+    const p = r.priceByClass || {};
+    for(const c of ['1', '2', '5', 'foot']){
+      if(p[c] === null || p[c] === undefined) continue;
+      assert.ok(typeof p[c] === 'number' && isFinite(p[c]) && p[c] >= 0, k + ' : prix classe ' + c + ' = ' + JSON.stringify(p[c]));
+    }
+    if(!(p['1'] > 0)) continue;
+    const i = CLASSES.findIndex(c => r.distanceKm >= c[0] && r.distanceKm < c[1]);
+    perKm[i].push(p['1'] / r.distanceKm);
+    priced.push({ k, i, r, p });
+  }
+  const median = perKm.map(a => { a.sort((x, y) => x - y); return a[a.length >> 1]; });
+  const bad = [], seenMax = new Set(), seenOrder = new Set();
+  for(const { k, i, r, p } of priced){
+    if(p['1'] > FERRY_CAR_MAX_EUR){
+      if(FERRY_PRICE_OK[k]) seenMax.add(k);
+      else bad.push(k + ' : ' + p['1'] + ' € pour une voiture (plus de ' + FERRY_CAR_MAX_EUR + ' €)');
+    }
+    const rate = p['1'] / r.distanceKm;
+    if(rate > FERRY_RATE_FACTOR * median[i]) bad.push(k + ' : ' + rate.toFixed(2) + ' €/km, plus de ' + FERRY_RATE_FACTOR + ' × la médiane (' + median[i].toFixed(3) + ') de sa classe de distance');
+    // Ordre des classes : un camping-car ne coûte jamais moins qu'une voiture, une moto jamais plus.
+    if(p['2'] != null && p['1'] != null && p['2'] < p['1']){
+      if(FERRY_CLASS_ORDER_OK[k]) seenOrder.add(k);
+      else bad.push(k + ' : classe 2 (' + p['2'] + ' €) moins chère que la classe 1 (' + p['1'] + ' €)');
+    }
+    if(p['5'] != null && p['1'] != null && p['5'] > p['1']) bad.push(k + ' : moto (' + p['5'] + ' €) plus chère qu\'une voiture (' + p['1'] + ' €)');
+  }
+  assert.deepEqual(bad, []);
+  assert.ok(median.every(m => m > 0), 'médianes de prix au kilomètre non calculées : ' + JSON.stringify(median));
+  assert.deepEqual(Object.keys(FERRY_PRICE_OK).filter(k => !seenMax.has(k)), [], 'exception devenue inutile : la retirer de FERRY_PRICE_OK');
+  assert.deepEqual(Object.keys(FERRY_CLASS_ORDER_OK).filter(k => !seenOrder.has(k)), [], 'exception devenue inutile : la retirer de FERRY_CLASS_ORDER_OK');
+});
+
+// ------------------------------------------------------------------------------------------ péages : barème par pays
+// Seule la France était ancrée (38 liaisons de référence, tests/toll.test.js) : les seize autres barèmes pouvaient
+// être multipliés ou divisés par dix sans qu'aucun test ne bouge. Fourchette par classe, large mais dimensionnée :
+//   - classe 1 (voiture) : de 0,005 €/km (Tunisie, 0,0081, autoroutes subventionnées) à 0,30 €/km — le plus cher
+//     publié est l'Espagne à 0,145 ; aucun réseau au monde n'atteint 0,30 €/km au tarif de base ;
+//   - classe 2 (camping-car, fourgon) : jamais moins que la classe 1, au plus le double du plafond de la classe 1 ;
+//   - classe 5 (moto) : jamais plus que la classe 1 ; zéro autorisé (Taïwan : motos exonérées).
+// Chaque pays doit porter les trois classes, et n'être présent que s'il est déclaré à péage (hasToll).
+const TOLL_RANGE = { 1: [0.005, 0.30], 2: [0.005, 0.60], 5: [0, 0.30] };
+test('péages : barème de chaque pays dans une fourchette plausible', () => {
+  const bad = [];
+  const byCountry = TripData.TOLL_RATE_BY_COUNTRY;
+  for(const [cc, rates] of Object.entries(byCountry)){
+    if(!TripData.COUNTRIES[cc] || !TripData.COUNTRIES[cc].hasToll) bad.push(cc + ' : barème publié mais le pays n\'est pas déclaré à péage');
+    if(!TripData.TOLL_SOURCE[cc]) bad.push(cc + ' : barème sans source (TOLL_SOURCE)');
+    for(const cl of ['1', '2', '5']){
+      const v = rates[cl];
+      if(typeof v !== 'number' || !isFinite(v)){ bad.push(cc + ' classe ' + cl + ' : ' + JSON.stringify(v)); continue; }
+      const [lo, hi] = TOLL_RANGE[cl];
+      if(v < lo || v > hi) bad.push(cc + ' classe ' + cl + ' : ' + v + ' €/km hors de [' + lo + ' ; ' + hi + ']');
+    }
+    if(rates['2'] < rates['1']) bad.push(cc + ' : camping-car (' + rates['2'] + ') moins cher que voiture (' + rates['1'] + ')');
+    if(rates['5'] > rates['1']) bad.push(cc + ' : moto (' + rates['5'] + ') plus chère que voiture (' + rates['1'] + ')');
+  }
+  // Tout pays déclaré à péage doit avoir un barème (sinon aucun péage ne lui est jamais facturé, en silence).
+  for(const [cc, c] of Object.entries(TripData.COUNTRIES)) if(c.hasToll && !byCountry[cc]) bad.push(cc + ' : déclaré à péage mais sans barème');
+  assert.deepEqual(bad, []);
+  // La France reste l'ancre : son barème par classe est celui de TOLL_RATE_BY_CLASS (valeur par défaut du moteur).
+  assert.deepEqual(byCountry.FR, TripData.TOLL_RATE_BY_CLASS);
+  assert.ok(Object.keys(byCountry).length >= 17, 'seulement ' + Object.keys(byCountry).length + ' barèmes de péage');
 });
 
 // build-ferry-ports.js charge le moteur et écrit en dur dans ../lib/ferry-ports.js : exécuté dans une COPIE temporaire

@@ -68,7 +68,6 @@
 0;50.6106,26.1722;BH-16;Manama;Al Qaryah
 0;50.5192,26.2156;BH-19;Northern;Al Qadam
 0;50.5589,26.2067;BH-16;Manama;Al Muwaylighah
-0;40.0000,26.0000;BH-16;Manama;Magsha
 176583;50.6119,26.2572;BH-15;Muharraq;Al Muharraq
 0;50.4733,26.2103;BH-19;Northern;Al Markh
 147074;50.5857,26.2279;BH-16;Manama;Manama

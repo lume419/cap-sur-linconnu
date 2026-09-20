@@ -3435,9 +3435,12 @@ index est construit au déploiement et lu directement sur le disque (`lib/search
   à une exception assumée — quand plusieurs lieux homonymes partagent le même code de région (« Al Qāhirah » au
   Yémen), l'ancienne recherche gardait le premier du fichier, souvent un hameau sans habitants ; l'index garde le plus
   peuplé.
-- **Sécurité** : l'index enregistre la taille et la date de chaque fichier de données. S'il ne correspond plus (pays
-  ajouté sans relancer `npm run build-bundles`, index absent ou construction échouée), le serveur l'ignore et revient
-  à la recherche en mémoire, disponible une fois le moteur chargé (message dans les journaux).
+- **Sécurité** : l'index enregistre la taille et la date de chaque fichier de données, **et une empreinte du
+  normalisateur de noms** (`normSignature`, 17e audit du 20/09/2026 : huit saisies témoins passées dans
+  `normalizeCityName`). S'il ne correspond plus (pays ajouté sans relancer `npm run build-bundles`, règle de
+  normalisation modifiée, index absent ou construction échouée), le serveur l'ignore et revient à la recherche en
+  mémoire, disponible une fois le moteur chargé (message dans les journaux). Sans cette empreinte, le changement de
+  normalisation du 16e audit a rendu 3 416 alias introuvables en production, sans aucun signe.
 - **Effet sur le moteur** : quand l'index est utilisé, le moteur ne charge plus les alias ni son propre index de
   recherche — tirages prêts en ~24 s au lieu de ~40 s en local, et mémoire réduite d'autant.
 
@@ -3718,573 +3721,132 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
 
 ## Ferries
 
-### Charge, budget de temps et protections (audit complet du 17 septembre 2026)
+> Les passes d'audit sont listées de la plus récente à la plus ancienne. Les passes 4, 5 et 6 n'ont jamais eu de section ici : elles manquent au README, pas au dépôt (17e audit du 20/09/2026).
 
-- **Budget de temps d'un tirage** : le moteur est synchrone ; un tirage ne dépasse pas ~4 s (`TRIP_TIME_BUDGET_MS`).
-  Au-delà, plus aucun candidat n'est tiré et un chemin par la terre non encore trouvé compte comme absent (trajet refusé) :
-  l'itinéraire est renvoyé s'il est déjà valide, sinon `{ legs: [], timedOut: true }` (message dédié côté client). Avant
-  ce budget, certains réglages extrêmes (3 000 km d'éloignement depuis Moscou, Nuuk, l'Ukraine…) bloquaient le process 20 à
-  107 s pour tous les visiteurs. Un départ isolé sans liaison ferry renvoie immédiatement un tirage vide.
-- **Budget de calcul global** (`CPU_BUDGETS`, server.js) : tirages, exports PDF et recherches lentes (> 50 ms) partagent
-  au plus 25 s de calcul par minute et 7,5 s par 10 s, toutes IP confondues ; au-delà, `503 {"error":"busy"}` avec
-  `Retry-After`. Un seul export PDF à la fois, 20 lignes au plus par étape, liens limités aux hôtes connus de
-  l'application (https) ; avertissements des zones déconseillées (départ et étapes) repris dans le PDF.
-- **Appels sortants** limités : Overpass 2 simultanés (25 s au total pour les trois miroirs), Wikipédia 6, Visorando 2,
-  Wikidata 2 ; un échec ou une saturation n'est jamais mis en cache. Recherche de ville : 60 requêtes par minute par IP.
-- **Compression** : les données de lieux ne sont jamais compressées par le serveur. Les gros fichiers statiques du
-  navigateur (`js/i18n.js`, `js/trip-data.js`, `js/app.js`, `css/style.css`) sont compressés une seule fois en
-  mémoire (brotli qualité 9 et gzip) une fois le moteur prêt, puis servis sans recalcul (i18n.js : ~775 Ko en brotli au
-  lieu de 11 Mo) ; avant, ou si un fichier change sans redémarrage, compression à la volée. `/api/status` l'indique
-  (`precompressed`).
-- **Règles du moteur** : avec une distance d'éloignement, le premier trajet (et le retour d'un séjour à une seule
-  étape) peut dépasser la distance max entre étapes jusqu'à 1,4 × la distance d'éloignement, plus au-delà ; la ville de
-  départ n'est jamais tirée comme étape (même nom normalisé ou lieu à moins de 2 km) ; les parties par la route d'un
-  trajet avec ferry sont contrôlées comme un trajet ordinaire (eau, frontière, bornes ; pays du port = lieu le plus proche
-  de la même masse terrestre à moins de 40 km) ; le retour d'une excursion d'un jour est contrôlé ; recherche de lieux,
-  grille terre/eau et bornes fonctionnent autour de l'antiméridien (Fidji, Tchoukotka) ; `tripStart` doit être une date
-  réelle AAAA-MM-JJ entre l'année précédente et trois ans plus tard (sinon aujourd'hui) ; une devise préférée sans barème
-  se replie sur celle du pays puis l'euro.
-- **Recherche sur disque** : `cache/search-index/countries.json` (facultatif) contient les plages de lieux par pays,
-  écrit à la construction ou calculé à l'ouverture d'un index plus ancien.
-- **Péages sur les îles** : le barème kilométrique d'un pays s'appliquait à toutes ses îles (un trajet en Corse affichait
-  ~13 € de péage « évités »). Il ne s'applique plus qu'aux masses terrestres dotées d'autoroutes à péage
-  (`TOLL_LANDMASSES`, trip-data.js) : France métropolitaine, péninsules espagnole et portugaise, Italie continentale et
-  Sicile, Grèce continentale (la Crète n'a aucun poste de péage en service en 2026), Honshū/Hokkaidō/Okinawa, île de
-  Taïwan, et le continent pour la Croatie, la Turquie, la Tunisie et le Sénégal. Sources dans le commentaire.
-- **Données** : la liaison Esashi–Okushiri était inutilisable, aucun lieu d'Okushiri dans les données japonaises —
-  corrigé, voir « Lieux japonais sans point postal proche » plus bas.
+### Dix-septième passe d'audit (20 septembre 2026)
 
-### Seconde passe d'audit (17 septembre 2026)
+Relecture complète en quatre volets, chaque auditeur relisant tout son domaine et pas seulement les correctifs récents.
+Aucune violation d'invariant (3 000 tirages) et aucune faille permettant de lire ou d'écrire quoi que ce soit ; deux
+contrôles de sécurité se contournaient tout de même (un souligné devant un titre d'espace de noms, une casse mêlée dans
+`Sec-Fetch-Site`), corrigés plus bas. **Trois régressions de la 16e passe**, un
+défaut de données jamais vu et, surtout, des **tests qui ne prouvaient rien** : la suite complète passait à 189/189 sur
+le code déployé alors que la recherche ne trouvait plus 3 416 alias en production et qu'aucun code postal à tiret
+n'était trouvable sur un déploiement neuf. Leçon de la passe : aucun test ne vérifiait qu'une **saisie rend le bon
+lieu** — c'est-à-dire la première chose que fait un visiteur.
 
-- **Budget de calcul par IP** (`CPU_BUDGETS_PER_IP`) : 10 s par minute et 4 s par 10 s par adresse, au-delà 429 pour elle
-  seule. Mesuré avant : deux tirages de 4 s d'une même IP suffisaient à faire répondre « busy » à tous les visiteurs. La
-  recherche de ville n'est plus refusée pour cause de charge globale (budget de l'IP seulement).
-- **Appels tiers par IP** : au plus 2 requêtes `/api/pois` + `/api/hike` et 4 `/api/photo` en cours par adresse, les
-  suivantes attendent leur tour (file bornée, puis 429) — une adresse ne peut plus occuper seule les créneaux Overpass.
-- **Wikitexte** : titres contenant « : » refusés (pages utilisateur, discussions), article géolocalisé vérifié AVANT le
-  téléchargement du wikitexte, analyse bornée (600 Ko de page, 40 Ko de section, puces de 400 caractères) ; une puce
-  piégée de 60 Ko bloquait le serveur 5 s.
-- **`/data`** : filtre sur le chemin normalisé (`/./data/…`, `/%2e/data/…`, `/js/../data/…` servaient les fichiers côté
-  Node ; Apache les bloquait déjà en production). Nom de fichier PDF rendu bien formé (`toWellFormed`), pays de
-  `/api/photo` limité à deux lettres, `TRUST_PROXY` configurable, verrou d'index retiré par renommage atomique.
-- **Moteur** : un tirage interrompu ne renvoie plus une dernière étape hors du rayon de retour (Moscou, rayon 50 km :
-  étape à 1 000 km) ; itinéraire incomplet faute de temps → `timedOut` ; une étape unique (aller-retour) respecte le
-  rayon ; distance minimale introuvable → `minDistanceNotFound` (message dédié) au lieu d'un itinéraire de secours qui
-  l'ignorait ; minimum > maximum refusé ; nom de la ville de départ transmis aux règles d'îles (Galatás classé sur Póros) ;
-  codes postaux `__proto__`/`constructor` sans effet ; paramètres non textuels refusés.
-- **Client** : boutons de tirage bloqués jusqu'à l'affichage du voyage (un tirage relancé pendant la roulette puis
-  refusé laissait l'écran bloqué) ; changement de langue pendant la roulette sans libellés de l'ancien voyage ; date de
-  fin du PDF = fin réelle du séjour plafonné ; `selected_currency` sur les liens Booking ; montants au format de la
-  langue ; nom du pays des suggestions traduit ; champs numériques nommés pour les lecteurs d'écran ; messages 429/503 à
-  l'export PDF ; politique de confidentialité complétée (limitation de débit en mémoire, liste des liens tiers).
-- **Limites connues** (toutes corrigées depuis : sections suivantes) : durées « 2h46 » non localisées, photos redemandées
-  à chaque changement de langue, PDF en français.
+**Moteur.**
+- **Distance annoncée « hors de portée, X km »** (régression de la 16e passe) : balayage **exhaustif** du plus lointain
+  au plus proche, au lieu de l'échantillonnage par tranches de 10 km. Mesuré sur 584 annonces : les tranches donnaient
+  la bonne distance dans 94,2 % des cas seulement, jamais surestimée mais jusqu'à 71 km trop basse (La Calera, Mexique,
+  en électrique : 223 km annoncés pour 294 faisables). Le parcours complet ne coûte rien au médian — une fois sur deux,
+  le premier candidat essayé passe ; pire cas mesuré du balayage 1 156 ms, sous le budget `DAY_REACH_MS`. Garde-fous
+  conservés (`DAY_REACH_TRIES_MAX` = 25 000 contrôles exacts, budget de temps du tirage) et filet d'échantillonnage si
+  le budget tombe avant tout succès, pour ne pas perdre l'annonce. Outil de comparaison contre la version déployée :
+  **5 tirages changés sur 380**, tous des annonces « hors de portée » revues **à la hausse** (Calumboyan 211 → 220 km,
+  Leganes 200 → 204, Kharkiv 265 → 267, Bangkok 305 → 308, Taipei 207 → 208), contre-épreuves toutes vertes ; aucun
+  itinéraire, aucun trajet direct (0 / 1 610) ni plafond d'hébergement (0 / 3 585) modifié. Le prix est payé par le
+  tirage qui échoue : Calumboyan passe de 363 à 1 307 ms.
+- **Le moteur dit s’il a conclu** (`returnCapExact`, ajouté à la réponse « hors de portée ») : le balayage reste borné
+  par `DAY_REACH_MS` et par le budget du tirage, et quand l’un des deux tombe au milieu, un filet échantillonne le
+  reste — X n’est alors plus qu’un **minorant**, ce que la réponse dit désormais. Sans ce drapeau, la contre-épreuve
+  de la campagne (« X + 5 km ne doit plus rien donner ») échouait sur la **charge de la machine** et non sur un
+  défaut : Tallinn en van, graine 1002629, annonçait 276 km sous une campagne de 3 000 tirages et 298 km sur un moteur
+  chaud. La campagne compte ces plafonds approchés et les affiche ; `tests/engine-regressions.test.js` verrouille les
+  deux branches (les deux mutations — drapeau figé à vrai, figé à faux — font échouer le test).
+- **Calcul des ferries 1,7 à 3 fois plus lent** (régression de la 16e passe) : la distance de mer de référence et la
+  vitesse de la ligne étaient recalculées pour **chaque paire de ports** candidate, alors qu'elles sont constantes sur
+  l'appel ; `ferryRoadParts` est appelée pour des milliers de candidats par tirage. Calculées une fois.
 
-### Durées et photos dans la langue du visiteur (17 septembre 2026)
+**Recherche.**
+- **Index sur disque périmé accepté** (régression de la 16e passe, visible en production) : le 16e audit a changé la
+  normalisation des noms (caractères invisibles retirés) sans changer la version de l'index ; l'index déjà construit sur
+  le serveur, lui, gardait l'ancienne — **3 416 alias persans, ourdous et bengalis** (tous ceux qui portent un liant
+  sans chasse) ne sortaient plus, et rien ne le signalait. L'index porte désormais la **signature du normalisateur**
+  (`normSignature`, sonde de caractères passée dans `normalizeCityName`) : dès qu'il ne répond plus comme le moteur,
+  l'index est refusé et reconstruit.
+- **Codes postaux à tiret introuvables en mémoire** (défaut ancien, ~1 million de codes : Chine, Japon, Portugal,
+  Pakistan…) : `searchCommunes` normalisait la saisie avant de chercher (« cn-22 » devenait « cn 22 ») alors que les
+  codes sont rangés tels quels. Le repli sur la saisie brute existait dans l'index sur disque depuis le 10e audit, pas
+  en mémoire : sur un déploiement neuf, tant que l'index n'est pas construit, aucun de ces codes ne se trouvait. Le même
+  repli est ajouté au moteur, et un test compare maintenant les deux chemins saisie par saisie.
 
-- **Durées** : « 2h46 » et « 45 min » s'affichaient tels quels dans toutes les langues (écran et PDF). Le moteur renvoie
-  désormais aussi `travelMin` (et `roadMin` pour la partie par la route d'une traversée) ; le navigateur les formate
-  avec `Intl.DurationFormat` (« 2 h et 46 min », « 2 時間 46 分 », « 2 ч 46 мин », « 2 س و46 د »), sinon les unités
-  d'`Intl.NumberFormat`, sinon l'ancien libellé — sans nouvelle traduction, avec la même langue de repli que les dates
-  (`localeTag`). Forme compacte (« 4h 30min ») dans le champ du rayon exprimé en heures. `travelTime`/`roadTime` restent
-  pour les calculs du moteur et les anciens clients (relus si les minutes manquent).
-- **Photos au changement de langue** : le cache des photos du navigateur ne dépend plus de la langue. Les photos déjà
-  affichées restent ; en arrière-plan, deux requêtes à la fois, chaque lieu est redemandé dans la nouvelle langue pour
-  mettre à jour le lien Wikipédia (article dans la langue s'il existe, sinon lien précédent conservé) et l'image quand
-  il n'y en avait pas. Un seul redessin du journal de bord une fois la file vidée ; une langue rechangée entre-temps
-  abandonne les requêtes devenues inutiles. Avant : jusqu'à ~90 requêtes simultanées et images rechargées sous les yeux.
+**Export PDF — disponible et lisible dans les 161 langues.**
+- **Voyage long refusé (413)** : la limite du corps de `/api/export-pdf` était de 32 ko, alors qu'un voyage **maximal**
+  (21 jours, 15 villes, électrique avec recharges, ferry, péage, vignettes, restrictions, zone à tension, randonnées,
+  hébergement, sac) pèse de **61 ko (yi de Sichuan) à 118 ko (dzongkha)** — médiane 70 ko : **les 161 langues** dépassaient
+  la limite. Mesure faite avec les vraies traductions, sans navigateur. Limite portée à **256 ko** (2,2 × le pire cas
+  mesuré) ; les autres garde-fous anti-déni de service sont inchangés (25 étapes au plus, plafond de caractères
+  distincts, 10 exports par minute et par adresse, budget processeur). Le refus rend maintenant un message propre
+  (`{"error":"trip too large"}`) que l'interface affiche tel quel, au lieu de « réessayez dans un instant ».
+- **Corps de l'export allégé** côté navigateur : les champs facultatifs vides ne sont plus sérialisés (ils pesaient le
+  plus lourd), à information affichée identique.
+- **Contrôle sur les 161 langues** : 200, document complet (`%PDF-` … `%%EOF`), pied de page présent, **aucun glyphe
+  manquant**, 7 à 19 pages, pire temps 3,6 s. `lib/pdf-text.js` n'a eu besoin d'aucune correction : les polices
+  couvraient déjà toutes les écritures. Les caractères distincts culminent à 466 (japonais), soit 12 % du plafond.
 
-### Lieux écartés à tort faute de point postal (17-18 septembre 2026)
+**Serveur.**
+- **Clé de cache par région hors de France** : le nom de département servait de clé sans canonisation hors de France —
+  « illinois » et « Illinois » avaient deux entrées, et la première servait un résultat vide à la seconde. Source unique
+  (`wikiDeptName`) partagée par les photos, les monuments et les deux clés de cache ; la canonisation corse est gardée.
+  La clé de `/api/pois` garde le département sous la MÊME condition que le code qui s'en sert (`!country ||
+  country === 'FR'`) : un pays vide vaut France, sans quoi deux départements auraient partagé une entrée.
+- **Mémoire du cache des randonnées** : les réponses Overpass étaient gardées entières (jusqu'à ~1 Go pour 4 000
+  entrées). Seuls `name`, `name:<langue>`, `distance` et `network` sont conservés, coupés à 120 caractères, et le
+  cache est plafonné à 400 entrées : **1 056 Mo → 72 Mo** sérialisé, 1 794 Mo → 98 Mo en tas.
+- **Titres d'espace de noms contournés** : `_File:X.jpg` passait le contrôle, MediaWiki traduisant le souligné en
+  espace ; la transformation est appliquée avant le contrôle.
+- `Sec-Fetch-Site` comparé sans tenir compte de la casse ; `/api/photo` sans coordonnées ne fait plus aucun appel
+  sortant ; la borne des distances d'étape porte sur la valeur **affichée** (plus de « 100000 km » après arrondi) ; le
+  nom de fichier de l'export ne contient plus les marques bidirectionnelles de l'en-tête.
 
-`build-asie-communes.js` rattache chaque lieu au point postal GeoNames le plus proche à moins de 15 km, et écarte les
-autres. Deux défauts, corrigés en deux temps :
+**Interface.**
+- **Flèche « départ → étape » à l'envers** en écriture de droite à gauche : chaque nom est isolé (FSI/PDI) pour que la
+  flèche garde le sens du paragraphe, dans la page comme dans le PDF.
+- **Noms de pays en touroyo et en adyguéen** : repli sur l'écriture lisible de la langue, jamais sur le français.
+- Un tirage qui échoue rend les boutons et vide l'annonce de l'ancien voyage (le code qui suivait le `finally` était
+  hors de tout `try`).
+- **Sélecteurs de langue ET de devise ramenés à un seul motif ARIA** (bouton + `listbox`), clavier inchangé : le bouton
+  annonçait `aria-haspopup="listbox"` alors que le panneau se disait `role="dialog"` — deux motifs contradictoires
+  pour un même composant — et le nom accessible était posé sur le panneau, un `<div>` sans rôle dont personne
+  n'annonce l'étiquette. Le panneau redevient un conteneur de mise en page, la liste porte le nom. Le sélecteur de
+  devise (153 options) a été corrigé après coup, sur le même modèle, avec son propre test de rôles et de clavier
+  (↓ ↑ Fin Début Échap Entrée) monté dans un DOM factice.
 
-1. **Points postaux mal placés.** Le fichier postal (données Japan Post) place tous les codes de certaines municipalités
-   au même point, parfois très loin : les 13 codes d'Okushiri (043-1400 à 043-1525) sont à 41,9076 N ; 140,2695 E, sur le
-   continent à ~70 km de l'île. Aucune localité de l'île n'était publiée, et la liaison ferry Esashi–Okushiri ne pouvait
-   jamais servir. Faute de point assez proche, le code est désormais pris par LOCALITÉ (mêmes codes administratifs
-   GeoNames — préfecture, district, municipalité — et nom identique à celui d'une seule ligne postale), sinon par
-   MUNICIPALITÉ (règle qui n'existait que pour les Philippines). Les deux règles valent pour les huit pays à codes
-   postaux du lot (IN, ID, JP, KR, PH, BD, LK, SG).
-2. **Fenêtre de recherche trop étroite** (3e audit du 17/09/2026) : la grille du plus proche point (cellules de 0,1°)
-   n'était parcourue que sur ±1 cellule, ce qui ne couvre pas 15 km ; 1 760 lieux étaient déclarés « sans point à moins
-   de 15 km » alors qu'il en existait un (Sirajganj, 127 481 habitants, point à 12,0 km), et d'autres rattachés à un
-   point plus éloigné que le plus proche réel. La fenêtre est maintenant calculée depuis le rayon demandé et la latitude.
+**Données.**
+- **Trois coordonnées fausses** trouvées par un nouveau contrôle, et écartées à la source
+  (`scripts/communes-corrections.js`, section « coordonnées fausses », puis fichiers de pays régénérés) :
+  **PG Katingan** (fuseau `Asia/Pontianak`, seul de tout le dump papou : le point est à Bornéo, 4 400 km de la
+  Nouvelle-Irlande déclarée), **BH Magsha** (coordonnées 26 / 40 à l'entier exact, fuseau `Asia/Riyadh`, seul du dump
+  bahreïni : le point est en Arabie saoudite) et **GT Todos Santos Cuchumantan** (en plein Pacifique, 660 km au large ;
+  doublon mal orthographié d'une fiche publiée au bon endroit). Aucune coordonnée n'a été **inventée** : faute de
+  position connue, les trois fiches sont écartées, et l'alias orphelin de Magsha retiré.
+- **Alias antarctiques écrits sans filtre** : `build-antarctique-communes.js` recopiait les noms alternatifs sans la
+  réparation typographique ni le contrôle des noms illisibles appliqués partout ailleurs (il republiait « CZ*ECO
+  Nelson ») ; `build-all-aliases.js` n'appliquait pas le filtre des noms-commentaires. Trois commentaires faux de
+  passes précédentes corrigés dans ces deux scripts.
 
-Résultat : **3 069 lieux retrouvés, aucun lieu existant perdu**, 738 codes postaux corrigés — Inde 1 525 (dont Virār,
-1,2 M d'habitants, Verāval, Zahirābād), Bangladesh 940 (dont Mymensingh, 225 000), Japon 349 (Okushiri, Tsushima, Izena,
-Iheya, péninsule de Shimokita, Erimo, côte de Namie…), Indonésie 206 (Papouasie : Timika, Wamena), Philippines 31,
-Sri Lanka 18 (péninsule de Jaffna), Corée 1. Les noms alternatifs correspondants ont été ajoutés aux fichiers
-`aliases-*.txt` **sans les régénérer** : le script officiel écraserait les langues fournies par d'autres scripts (1 499
-lignes pour le seul Japon). Reconstruction d'un seul pays : `ONLY_COUNTRY=JP node scripts/build-asie-communes.js`.
-Mesuré : départ d'Okushiri, circuit sur l'île sans ferry ou voyage par la traversée ; départ d'Esashi, l'île peut être
-tirée.
+**Contrôles ajoutés.** Un fichier entier manquait : `tests/search.test.js` (5 tests, ~35 s) construit un index sur
+disque réduit dans un dossier temporaire, vérifie que chaque saisie y retrouve **son** lieu, que l'index est **refusé**
+dès que la normalisation ou les données changent, rejoue 45 saisies réelles (accents, tirets, codes postaux, arabe,
+cyrillique, grec, idéogrammes, thaï, géorgien, arménien, hébreu, amharique, persan avec et sans liant, homonymes, pays
+prioritaire) contre les **deux** chemins de recherche en exigeant le même résultat, et balaye 1 000 alias tirés au
+hasard. `tests/data.test.js` gagne dix bornes de données (coordonnées, population, ligne dupliquée, code postal,
+**lieu isolé de son pays**, alias identique au nom publié, code de langue, vitesse et prix d'un ferry, barème de péage),
+chacune prouvée par mutation. La contre-épreuve de la campagne d'invariants rejoue aussi **X + 5 km** (plus aucun
+itinéraire ne doit exister) et la distance annoncée est comparée **sans tolérance**. Le décodeur de PDF des tests
+ignorait les glyphes sans valeur Unicode et décalait tout le texte qui suit (« CpenItreetṋap ») : corrigé, il sert
+maintenant aux 161 langues.
 
-### Troisième passe d'audit (17-18 septembre 2026)
+**Tests qui ne prouvaient rien, réparés.** Un test de ferry estimé passait avec un prix nul, une boucle de
+`tests/data.test.js` était morte (`ja;` sans corps), deux des huit cas de ferry n'étaient jamais exécutés faute
+d'itinéraire avec traversée (garde ajoutée), et le test d'index disque acceptait un index absent.
 
-Quatre audits en lecture seule (chaîne PDF, sécurité du serveur, interface et traductions, moteur et données), puis
-correction. Les points les plus lourds ont leur propre section ci-dessus ou ci-dessous ; le reste :
-
-- **Polices du site cassées par une règle du `.htaccess`** : le dossier des polices du PDF, ajouté à la racine sous le nom
-  `fonts/`, occupait la même adresse que `public/fonts/` (polices d'affichage du tifinagh, de l'éthiopien, du tibétain,
-  du thâna et du yi, servies par Node à `/fonts/…`). Bloquer `fonts` chez Apache les redirigeait toutes : ces écritures
-  s'affichaient en carrés. Dossier renommé `pdf-fonts/`, règle corrigée.
-- **Files d'attente par IP** (appels vers Overpass, Wikipédia, Visorando) : plafond par adresse ramené à une fraction du
-  plafond global (1 sur 2 Overpass, 3 sur 6 Wikipédia — une seule adresse pouvait les occuper entièrement) ; place rendue
-  à la FIN du traitement et non à la fermeture de la connexion (des requêtes abandonnées volontairement annulaient la
-  limite) ; attente en file plafonnée à 20 s. Mesuré : un voyage de 21 jours / 15 villes obtient ses 56 requêtes sans
-  aucun refus, en une trentaine de secondes au lieu d'une dizaine.
-- **`/api/hike`** exige désormais un pays connu et des coordonnées valides (sans pays, la route appelait Visorando pour
-  n'importe quel nom : relais ouvert, et cache pollué par des recherches sans résultat).
-- **Fichiers statiques volumineux** : 30 requêtes par minute et par IP sur `i18n.js`, `trip-data.js`, `app.js` et
-  `style.css` — un client refusant la compression pouvait tirer 11 Mo par requête sans aucun quota.
-- **Recherche de ville** soumise aussi au budget de calcul global (une recherche à froid lit l'index de façon synchrone :
-  jusqu'à ~1 s) ; réponses d'API marquées `Cache-Control: no-store`.
-- **Moteur** : un minimum de jours par ville supérieur au nombre de nuits du séjour est ramené au maximum possible (il
-  donnait silencieusement moins de nuits que demandé).
-- **Interface** : durées en heures pleines affichées « 4 h et 0 min » au lieu de « 4 h » ; libellé du rayon en heures
-  réduit jusqu'à tenir dans le champ (tamoul, swahili, ourdou : valeur illisible car coupée) ; boutons de tirage
-  visiblement désactivés pendant la roulette ; unité annoncée aux lecteurs d'écran en mode heures ; statistiques au
-  singulier selon la langue (« 1 jour · 1 ville · 0 nuitée », « 0 nights » en anglais, formes russes correctes) via
-  `Intl.PluralRules` ; plafonds de budget au format de la langue ; caches du navigateur bornés ; une erreur d'affichage
-  ne laisse plus les statistiques du voyage précédent à l'écran ; annonce vocale retraduite ; `aria-describedby` mort
-  retiré.
-- **Dépendance `fontkit`** déclarée explicitement (elle n'était disponible que par héritage de `pdfkit`).
-
-### Trois îles japonaises mal classées (18 septembre 2026)
-
-Les 3 069 lieux retrouvés ci-dessus ont mis en lumière un défaut plus ancien des règles d'îles japonaises
-(`ISLAND_RULES.JP`) : une île habitée absente des règles est rattachée à la masse terrestre voisine, et le garde-fou
-« pas de route à travers la mer » ne rattrape rien en deçà de 25 km d'eau (`WATER_CHECK_KM`). Mesuré avant correction :
-3 tirages sur 25 au départ de Nago plaçaient une étape sur **Izena** atteinte PAR LA ROUTE (22 km de mer).
-
-- **Izena** et **Iheya** ont désormais leur propre masse terrestre, reliées à Okinawa par leurs vraies liaisons :
-  ferries municipaux au départ d'Unten (Nakijin), tarifs fixés par arrêté (pas de grille saisonnière ni de surcharge
-  carburant) — Izena : adulte 1 840 JPY, voiture 4-5 m 8 480 (conducteur inclus), van 6-7 m 13 880, moto 2 250, 55 min
-  ([village d'Izena](https://vill.izena.okinawa.jp/about/access/)) ; Iheya : adulte 2 480, voiture 10 340, van 22 640,
-  moto 4 150, 80 min ([village d'Iheya](https://www.vill.iheya.okinawa.jp/soshiki/9/1144.html)). Conversion à
-  185,92 JPY pour 1 EUR (InforEuro, septembre 2026), comme les autres liaisons japonaises. **Noho-jima** est reliée à
-  Iheya par le pont Noho Ōhashi (320 m) : même masse terrestre, sans traversée.
-- **Iwaishima** (Yamaguchi) est **isolée** : la liaison Yanai ↔ Iwaishima est assurée par un navire à passagers de 43
-  tonneaux sans pont-garage — aucun tarif véhicule n'existe, les automobilistes laissent leur voiture à quai
-  ([mairie de Kaminoseki](https://www.town.kaminoseki.lg.jp/), grille officielle sans ligne « 自動車航送 »). L'île n'est
-  donc jamais proposée à un road trip, plutôt que d'inventer une traversée.
-- Les 6 lieux d'Iheya, jusque-là chacun sur sa propre « île » (règle par défaut d'Okinawa), donnaient des tirages vides ;
-  ils forment maintenant une vraie masse terrestre. Mesuré après correction : Izena et Iheya sont atteintes **par le
-  ferry**, 0 saut de masse terrestre sans traversée sur 40 tirages au départ de Nago.
-
-### Ce que le péage ne dit pas (18 septembre 2026)
-
-À lire avec la section ci-dessous. Le montant affiché n'est une estimation que pour les **17 pays** dont un barème
-kilométrique a pu être sourcé : France, Espagne, Portugal, Italie, Croatie, Bosnie-Herzégovine, Serbie, Macédoine du
-Nord, Grèce, Turquie, Azerbaïdjan, Israël, Japon, Taïwan, Maroc, Tunisie, Sénégal. Partout ailleurs, l'application
-n'affiche **aucun** montant de péage — y compris dans des pays qui en ont un, bien réel :
-
-- **Amérique du Nord** : autoroutes à péage des États-Unis (turnpikes du New Jersey, de Pennsylvanie, de Floride…),
-  autoroutes 407 ETR en Ontario, réseau *cuotas* mexicain — l'un des plus chers au monde rapporté au kilomètre.
-- **Amérique du Sud** : *pedágios* brésiliens, *peajes* chiliens et argentins, très présents sur les grands axes.
-- **Asie** : réseau chinois (le plus étendu du monde), Inde (*NHAI*), Indonésie, Malaisie, Corée du Sud, Philippines,
-  Vietnam, Thaïlande.
-- **Europe** : sections concédées en Pologne (A1, A2, A4), en Irlande (M50 et axes vers le sud), en Norvège
-  (~190 postes AutoPASS), au Royaume-Uni (M6 Toll, traversées de la Tamise), plus les grands ouvrages payants
-  scandinaves et danois.
-
-Ce silence est un **choix assumé** : aucun de ces réseaux n'a de barème kilométrique national publié qui puisse être
-cité, et la règle du projet est de ne jamais afficher un chiffre qu'on ne peut pas justifier. Il vaut mieux ne rien
-annoncer que d'annoncer un montant inventé — mais un voyageur qui prépare un trajet en Californie, au Brésil ou en
-Chine doit savoir que l'absence de ligne « péage » ne veut PAS dire que la route est gratuite. Les vignettes
-(Suisse, Autriche, Slovénie, Tchéquie, Hongrie, Slovaquie, Bulgarie, Roumanie…) sont, elles, traitées à part et bien
-affichées, avec le lien officiel d'achat : voir la section « Pays couverts » ci-dessus.
-
-### Septième passe d'audit (18 septembre 2026)
-
-Septième relecture complète, en lecture seule d'abord, puis correction. Cinq constats de fond : trois portent sur des chiffres que
-l'application affichait comme des faits sans pouvoir les justifier, le quatrième est un défaut de mise en page
-découvert en vérifiant l'export PDF de bout en bout, le cinquième une poignée d'îles que le moteur croyait joignables
-par la route.
-
-**1. Le péage était inventé deux fois.** Le tarif français (0,148 €/km en classe 1) était tiré des 24 lignes étiquetées
-« Cofiroute » de `public/data/toll-reference.json`, dont **22 ne correspondent à aucun barème publié** : cinq doublons
-gonflés d'une liaison VINCI, et un Paris → Reims à 57,60 € quand la grille Sanef affiche **12,60 €** (4,6 fois trop).
-Ces lignes sont supprimées. Le fichier ne contient plus que 38 liaisons vérifiées une à une dans les grilles officielles au 1er février
-2026 — « Tarifs des principales liaisons » de VINCI Autoroutes (ASF, Cofiroute, Escota), grilles Sanef (A1, A4, A26) et
-APRR (A6, A36, A39). Médiane prix ÷ kilomètres : **0,104 €/km** en classe 1 (étendue 0,067 à 0,139), et les classes 2 et
-5 suivent les rapports officiels mesurés sur ces mêmes grilles (×1,535 et ×0,604). Le libellé « barème ASF » était faux
-même pour les lignes correctes : la grille VINCI couvre trois concessionnaires.
-
-Surtout, le péage était facturé **partout** dans un pays « à péage », dès 60 km, sur la totalité de la distance.
-Bastia → Porto-Vecchio (aucune autoroute en Corse), Brest → Quimper (Bretagne gratuite) ou une étape de l'est anatolien
-recevaient une facture. Désormais, `scripts/build-toll-grid.js` interroge OpenStreetMap (voies `toll=yes`) et enregistre
-dans `data/toll-grid.json` les cases de 0,25° (~28 km) où une voie à péage existe réellement, avec le pays. Le moteur
-échantillonne le trait de chaque étape tous les 10 km et ne facture que les kilomètres dont la case porte une voie à
-péage, **au barème du pays de cette case**. Ces kilomètres sont d'abord ramenés à l'échelle autoroutière
-(`TOLL_ROAD_FACTOR` = 1,17) : les corridors autoroutiers sont plus droits que la moyenne des routes (1,170 mesuré sur
-les 38 liaisons de référence, 1,165 mesuré indépendamment avec OSRM), et appliquer un tarif au kilomètre d'autoroute
-réelle à une distance estimée avec le facteur général aurait surfacturé le péage d'environ 10 % partout. Vérification
-finale sur les 38 liaisons de référence : le montant que l'application afficherait pour chacune, comparé à son prix
-officiel, donne un rapport **médian de 0,97** (étendue 0,61 à 1,61 selon les concessions — d'où la mention
-« estimation au kilomètre » affichée avec le montant) — ce qui règle du même coup les étapes transfrontalières, jusque-là facturées
-en entier au tarif du pays d'arrivée (Suisse → France : 371 km au tarif français, alors que la Suisse n'a aucun péage
-kilométrique). Sans le fichier, aucun péage n'est estimé : plutôt rien qu'un montant inventé.
-Une case VOISINE compte aussi, soit une tolérance d'environ 28 km autour du trait : le moteur ne calcule pas
-d'itinéraire, et la ligne droite s'écarte de l'autoroute réelle (entre Lyon et Marseille, elle passe 20 km à l'est de
-l'A7). Sans cette tolérance, le rapport montant estimé / prix officiel des 38 liaisons de référence tombe à une médiane
-de **0,54** (le péage était sous-estimé de moitié) ; avec elle, il remonte à **0,97** (q25 0,86 ; q75 1,07). Exemples
-mesurés avec le code actuel (9e audit du 18/09/2026) : Lyon → Marseille 33,9 € pour 28,10 € réels, Paris → Lille 24,8 € pour
-18,90 €, Toulouse → Bordeaux 26,0 € pour 22,90 €. La contrepartie est assumée : un trajet gratuit qui longe une
-autoroute payante peut se voir attribuer quelques kilomètres (mesuré : 7,1 € sur Rennes → Nantes, gratuite, dont le tracé passe à portée de l'A11 et de l'A83).
-En revanche, une région sans aucune autoroute à péage — Corse, pointe bretonne, La Réunion — reste bien à 0 €.
-La grille complète compte **1 699 cases (28 Ko)** et couvre les 17 pays à barème : FR 426, JP 374, IT 256, TR 115,
-ES 95, GR 88, HR 84, MA 76, PT 58, RS 52, TW 28, MK 13, BA 12, TN 8, IL 6, AZ 5, SN 3. Aucun pays à barème n'est
-resté vide. À noter : seule la FRANCE a été recalibrée et validée liaison par liaison au 7e audit ; les seize autres
-barèmes au kilomètre restent ceux des audits précédents, avec leurs sources, et n'ont pas été revérifiés ici. L'affichage le dit
-maintenant (`toll.estimateNote`, traduite dans les 161 langues) : « Estimation au kilomètre : le montant réel dépend des
-sections réellement empruntées. »
-
-Deux données tirées au sort dans le moteur ont disparu au passage : le TYPE de péage (« flux libre » / « à barrière »,
-choisi à pile ou face avec 25 % de chances) et le « vous gagnez environ N min », issu d'un pourcentage aléatoire entre
-15 et 30 % — qui, en prime, RACCOURCISSAIT la durée annoncée du trajet. Le manat azerbaïdjanais était converti à 1,85
-AZN/EUR (relevé xe.com périmé) au lieu de **1,9493** (taux officiel de la Banque centrale d'Azerbaïdjan au 17/09/2026) :
-les trois classes étaient surestimées d'environ 5 %.
-
-**2. Distances et durées : deux constantes jamais mesurées.** Le facteur routier (`ROAD_FACTOR`, distance par la route =
-vol d'oiseau × 1,17) et les vitesses par mode (82 / 81 / 78 / 70 / 85 / 17 km/h) n'étaient sourcés nulle part. Ils le
-sont maintenant :
-
-- `scripts/measure-road-factor.js` calcule de VRAIS itinéraires routiers avec OSRM (profil voiture, données
-  OpenStreetMap) entre villes de plus de 20 000 habitants tirées des données du projet. Relevé du 17/09/2026, conservé
-  dans `data/road-factor-osrm.json` : **128 itinéraires, 16 pays, étapes de 80 à 500 km** — facteur médian **1,287**
-  (q25 1,216 ; q75 1,399 ; moyenne 1,327), vitesse moyenne médiane **79,4 km/h** (Europe 85,9). La valeur 1,17
-  sous-estimait donc toutes les distances — et donc les durées et le budget carburant — d'environ 10 %. `ROAD_FACTOR`
-  passe à **1,287**.
-- Les vitesses passent toutes à **80 km/h** pour les véhicules motorisés. Le code de la route ne distingue pas la
-  motorisation, et l'article R413-2 (Legifrance, LEGIARTI000042240048) fixe les mêmes limites — 130 / 110 / 80 — pour
-  tous les véhicules de moins de 3,5 t, **motos comprises** : rien ne justifiait de faire rouler une moto plus vite
-  qu'une voiture, une hybride moins vite qu'une thermique, ni une électrique moins vite encore (son temps de recharge
-  est déjà compté à part). Un fourgon aménagé conduit avec le permis B a un PTAC de 3,5 t au plus
-  (service-public.gouv.fr F2827) : régime voiture lui aussi. Le vélo passe de 17 à **15 km/h** : « un cycliste standard
-  parcourt environ 50 à 60 km par jour à une vitesse moyenne de 15 km/h sans pause » (EuroVelo / European Cyclists'
-  Federation, consulté le 18/09/2026), cohérent avec les 65 km/jour d'un itinérant relevés par France Vélo Tourisme.
-
-Mesuré après ces changements, sur 1 140 tirages (5 par pays, 4 modes de transport) : **0 traversée maritime par la
-route, 0 saut de masse terrestre sans ferry**, 28 tirages vides sur 1 140 (2,5 %, contre 27 avant), 341 ms au maximum
-par tirage.
-
-**3. Robustesse du serveur et deux régressions des audits précédents.**
-
-- L'index de recherche sur disque était lu sans aucune vérification : un index tronqué (disque plein, copie
-  interrompue, construction tuée) donnait des lieux vides ou des noms coupés, sans la moindre erreur. Les sept fichiers
-  sont désormais vérifiés à l'ouverture (tailles croisées avec `meta.json`, dernier décalage comparé à la taille réelle
-  des fichiers de données) et toute lecture courte lève une erreur. Sa construction écrit par boucle
-  (`fs.writeSync` peut n'écrire qu'une partie du tampon, et sa valeur de retour était ignorée).
-- La grille terre/mer (`lib/land-grid.bin`) échouait à la PREMIÈRE vérification de mer, pas au chargement, et un
-  fichier absent ne disait rien du tout — alors que sans elle, plus aucune traversée maritime n'est détectée. En-tête,
-  dimensions et longueur de chaque ligne sont vérifiés une fois pour toutes, et l'état des deux grilles (terre/mer et
-  voies à péage) est exposé par `GET /api/status`.
-- Verrou de construction de l'index : il ne portait que le PID du serveur. Si celui-ci mourait pendant la construction,
-  un autre démarrage jugeait le verrou orphelin et lançait une seconde construction dans le même dossier. Le verrou
-  porte maintenant les deux PID (serveur puis enfant) et reste « vivant » tant que l'un des deux l'est.
-- Arrêt propre ajouté : `SIGTERM`/`SIGINT` laissent finir les réponses en cours (un export PDF de plusieurs secondes
-  était coupé net par un redémarrage cPanel), `server.on('error')` donne un message clair si le port est pris, et une
-  promesse rejetée sans `catch` ne tue plus le process (~40 s de rechargement pour une simple erreur d'appel sortant).
-- **Régression du 3e audit corrigée** : la place dans la file des appels sortants n'était rendue qu'à la fin du
-  traitement. Un visiteur qui changeait de page bloquait sa propre IP jusqu'à 30 s (mesuré : 429 au bout de 20,02 s).
-  Elle est maintenant rendue 5 s après la fermeture de la connexion — assez pour que l'appel sortant déjà lancé se
-  termine, sans qu'une connexion coupée annule la limite. Mesuré après correction : 200 en 4,6 s au lieu d'un refus.
-- **Régression du 3e audit corrigée** : le quota des gros fichiers statiques était déclaré APRÈS le service des
-  fichiers précompressés, donc les réponses brotli/gzip — le cas normal — n'étaient jamais comptées. Mesuré avant :
-  35 requêtes brotli d'affilée toutes servies ; après : 30 servies, puis 429.
-
-**4. Un PDF de 36 pages pour trois jours de voyage.** Découvert en vérifiant l'export de bout en bout : un itinéraire
-de 3 jours sortait en **36 à 45 pages**, presque toutes vides, avec une ligne par page et des liens dont le rectangle
-cliquable débordait de la feuille (`/Rect [94 -570.11 274.88 791.89]`). La cause est dans `lib/pdf-text.js` : la
-fonction qui MESURE la largeur d'un texte le fait à la taille 1000 (largeur par unité, réutilisable à toutes les
-tailles) et ne remettait pas la taille d'origine dans pdfkit. L'appelant demandait juste après `doc.currentLineHeight()`
-et obtenait **~1 362 points au lieu de 13,6** : chaque ligne « dépassait le bas de page » et déclenchait un saut. Le
-défaut ne se produisait qu'à la PREMIÈRE mesure d'un texte donné — ensuite le cache des largeurs répondait sans toucher
-au document — d'où un comportement en apparence aléatoire, et une reproduction impossible sans mesurer. La fonction
-restaure désormais la police et la taille. Mesuré après correction : le même itinéraire tient sur **1 page**, 21 Ko au
-lieu de 37 Ko.
-
-**5. Huit lieux insulaires accessibles par la route.** Vérification lieu par lieu (recensements officiels, longueurs
-de voirie mesurées dans OpenStreetMap, recherche d'un ferry transportant les VÉHICULES) : les huit étaient rattachés à
-une grande île ou au continent, donc joignables par un trait de route à travers la mer.
-
-| lieu | était rattaché à | réalité | désormais |
-| --- | --- | --- | --- |
-| Xiaochangshan et 70 autres lieux de l'archipel de Changshan (Dalian) | `continental` | pont de Changshan entre Dachangshan et Xiaochangshan (3 450 m, 2014), mais rien vers le continent : un client-roulier Pikou ↔ Yuanyang dont aucun tarif officiel n'est publié | masse `changshan`, sans liaison |
-| Islas de Gigantes, Norte et Sur (Iloilo) | `panay` (code postal 5019) | 13 000 habitants, aucune route entre les deux îles, seulement des pump boats | deux masses distinctes, sans liaison |
-| Hagdan et Waga, île de Kinatarkan (Cebu) | `cebu` (code 6047, partagé avec le nord continental de Cebu) | 23,5 km de routes sur l'île, bangkas seulement — le RoRo Hagnaya ↔ Santa Fe dessert Bantayan, 12 km plus loin | masse `kinatarkan` |
-| San Vicente (Northern Samar) | `leyteSamar` (code 6419) | municipalité insulaire de 6 928 habitants, un bateau à moteur quotidien, aucun RoRo | masse `sanVicenteSamar` |
-| Ko Tarutao (Satun) | `continental` | 18 km de piste du parc national, vedettes à passagers depuis Pak Bara, véhicules du parc seulement | masse `koTarutao` |
-| Dahlak Kebir et 20 lieux des Dahlak (Érythrée) | `continental` (aucune règle d'île pour l'Érythrée) | pistes sur place, aucune liaison véhicule publiée depuis Massaoua | masse `dahlakKebir` + îlots isolés |
-| Mas et 10 lieux de l'île de Karas (Fakfak) | `newGuinea` | aucune route cartographiée sur l'île, desserte perintis toutes les deux semaines | chaque lieu isolé |
-| Chrysí, au sud de la Crète | `crete` (code 72200) | île **inhabitée** (2 habitants en 2011), aucune route, débarquement réglementé (Natura 2000) | lieu isolé |
-
-Aucune liaison n'a été inventée pour autant : là où le seul tarif trouvé venait d'un portail d'information local et non
-de l'opérateur (Changshan), la règle du projet s'applique — pas de tarif officiel publié, pas de liaison. Ces îles ne
-sont donc plus proposées comme étape d'un road trip, ce qui est la vérité du terrain.
-
-Effet de bord découvert au passage, et corrigé : les règles d'Izena, d'Iheya et d'Iwaishima ajoutées la veille (voir
-« Trois îles japonaises mal classées ») avaient été écrites directement dans `public/js/trip-data.js` au lieu des
-fichiers sources `scripts/iles/` — la première régénération des règles les a effacées, liaisons comprises. Elles
-vivent désormais dans `scripts/iles/iles-audit7.js`, avec le reste. Contrôle après régénération : 128 pays,
-621 liaisons, 704 liaisons de ports vérifiées.
-
-**Drapeaux des suggestions de villes.** La liste de suggestions affichait un émoji drapeau devant chaque commune,
-pour distinguer d'un coup d'œil deux homonymes de pays différents (le San Marino saint-marinais des sept villages
-italiens du même nom). Sous Windows, cet émoji ne s'affiche pas : le système ne fournit aucune image pour les paires
-d'indicateurs régionaux et le navigateur retombe sur deux lettres encadrées. Les suggestions utilisent désormais les
-mêmes images SVG locales que le sélecteur de langue (circle-flags, licence MIT) : 133 drapeaux manquants ont été
-ajoutés, plus 6 codes qui n'existaient chez circle-flags que sous forme d'alias (Sainte-Hélène, Svalbard, îles
-mineures américaines, Heard-et-MacDonald, Pays-Bas caribéens, Bouvet), soit **264 fichiers pour 169 Ko** couvrant les
-239 pays et territoires. Un fichier manquant ferait revenir l'émoji (repli sur l'événement `error` de l'image).
-
-**Interface, accessibilité et mentions légales.** Les libellés d'unité (`km autour du départ`…) ne pouvaient pas revenir
-à la ligne et débordaient dans les langues à formulation longue. La page d'accueil affichait « Tirage en cours… » avant
-tout tirage. Les erreurs d'export PDF n'étaient annoncées à aucun lecteur d'écran (`role="status"`, `aria-busy`, et le
-focus clavier rendu au bouton). Les couleurs ont été mesurées et corrigées : `--ink-faint` (2,5 à 3,0 alors qu'il sert à
-du vrai texte) passe à 4,54-5,38 ; `--tension-orange`, `--accent-2` (icônes) et `--line-strong` (contours de champs,
-seuil 3:1 de la règle WCAG 1.4.11) atteignent leur seuil ; l'orange de marque reste inchangé pour les boutons, avec une
-variante `--accent-text` lisible quand il sert de couleur de texte. Les grilles passent en `minmax(min(200px, 100%), 1fr)`
-(à 200 % de zoom, une colonne de 200 px minimum débordait). Cinq règles `[dir="rtl"]` remettent à l'endroit la flèche
-entre les deux dates, le chevron des menus déroulants, la pastille des interrupteurs et la croix de la visionneuse de
-photos. Le tracé de la carte reprend les couleurs du thème quand on en change (elles étaient lues au moment du dessin).
-Une feuille d'impression a été ajoutée : imprimer la page donnait le formulaire, la roulette et la carte interactive.
-Enfin les mentions légales portent le **téléphone de l'hébergeur** (obligatoire, article 6-III-1 de la LCEN), la
-politique de confidentialité identifie le **responsable du traitement** (article 13.1.a du RGPD) et ne dit plus que
-l'export PDF est envoyé « à votre serveur ». Le pied de page annonce désormais qu'aucune donnée personnelle n'est
-**conservée** (et non « collectée ») : l'adresse IP est bien vue par le serveur, une minute au plus, en mémoire vive,
-pour limiter le débit — c'est écrit noir sur blanc dans la politique de confidentialité.
-
-**Zones à tension : deux alertes infirmées, une confirmée.** Vérification faite sur les fiches « Conseils aux
-voyageurs » de France Diplomatie (consultées le 18/09/2026) : le classement de **Cuba** (orange sur toute l'île) et du
-**Honduras** (orange, sauf îles de la Baie, Valle et Copán) est exactement celui de la source — rien à corriger. En
-revanche l'exception mexicaine « Ixtapa-Zihuatanejo », un cercle de 12 km, neutralisait le rouge de l'État de Guerrero
-sur **53 lieux**, dont une cinquantaine de hameaux de l'arrière-pays que la fiche laisse en rouge. Elle est ramenée aux
-deux localités de la station balnéaire (5 et 4 km, 13 lieux), et le libellé rappelle que France Diplomatie ne reconnaît
-ces exceptions qu'« à la condition expresse de s'y rendre par la voie aérienne » — condition qu'un itinéraire routier
-ne remplit jamais.
-
-### Huitième passe d'audit (18 septembre 2026)
-
-Huitième relecture complète en lecture seule, puis correction de ses six constats. Chaque correction a été mesurée avant
-et après, et la non-régression contrôlée sur l'ensemble : 1 140 tirages (5 par pays, 4 modes) donnent toujours
-**28 tirages vides, 0 traversée maritime par la route, 0 saut de masse terrestre sans ferry** ; 120 tirages sous
-contraintes (distance max entre étapes, rayon, jours) donnent 0 dépassement ; les 161 langues ont toutes leurs clés.
-
-**1. Péage facturé dans des pays qui n'en ont pas** (correction trop stricte, reprise au 9e audit ci-dessous). La tolérance d'une case voisine (voir « Septième passe d'audit »)
-ne regardait pas le pays : une étape suisse, slovène ou autrichienne longeant une frontière héritait des cases à péage
-françaises ou italiennes d'à côté, au barème de ces pays. Mesuré sur le vrai moteur : **100 % des étapes slovènes et
-90 % des étapes suisses** tirées recevaient un péage. Désormais chaque point échantillonné n'est facturé que si le
-pays du lieu le plus proche (`countryAtPoint`) est celui de la case, ET que ce pays est l'un des deux pays de l'étape
-(départ ou arrivée). Mesuré après : **0 étape facturée à tort sur 1 760 tirages dans 22 pays sans péage kilométrique** ;
-les 38 liaisons françaises de référence gardent leur rapport médian estimé / officiel (0,968 ; q25 0,86, q75 1,07) et
-les corridors ne bougent pas (Lyon → Marseille 33,7 €, Milan → Bologne 20,2 €, Tokyo → Nagoya 44,1 €, Chambéry → Turin
-17,0 € répartis FR + IT, Genève → Lyon 11,6 € côté français seulement, Genève → Lausanne 0 €, Corse et pointe
-bretonne 0 €).
-
-**2. Trois générateurs effaçaient des corrections.** Même piège qu'aux îles japonaises : l'exception mexicaine
-Ixtapa-Zihuatanejo du 7e audit et six adresses de sources (Donostia, Bergame, Alpe di Siusi, Shanghai, All India
-Radio, Cubacasas) n'existaient que dans `public/js/trip-data.js`, pas dans leurs fichiers sources
-(`scripts/tension-zones/ameriques.js`, `scripts/transport/van-rules.js`, `scripts/transport/moto-rules.js`,
-`scripts/lodging/lodging-afrique-ameriques-oceanie.js`). Sources mises à jour ; preuve : les quatre générateurs
-(zones à tension, transport, hébergement, îles) relancés reproduisent `trip-data.js` **à l'octet près**.
-
-**3. 39 déclarations CSS ignorées par le navigateur.** `font: 800 .92rem/1 var(--font-body)` est invalide : un
-raccourci `font` ne peut pas contenir un autre raccourci (`--font-body` vaut lui-même « 400 1em/1.55 … »). Le
-navigateur rejetait la déclaration entière : boutons, sur-titres et libellés n'avaient jamais la graisse, la taille ni
-l'interligne prévus. Remplacées par `font-style` / `font-weight` / `font-size` / `line-height` séparées, SANS
-`font-family` — la police reste héritée comme avant, ce qui préserve les polices propres au yi, au tibétain, à
-l'éthiopien et au tifinagh. Le seul cas en police manuscrite utilise une nouvelle variable `--font-hand-family`.
-Contrôlé à 320 px de large en français, allemand, finnois, tamoul, birman et arabe : aucun débordement.
-
-**4. Verrou de l'index : 30 minutes, puis plus rien.** Un verrou de plus de 30 minutes était jugé orphelin même si sa
-construction vivait encore ; sur un hébergement lent, un second démarrage lançait une seconde construction dans le
-même dossier. La date du verrou est désormais rafraîchie chaque minute par le serveur et à chaque fichier de pays par
-la construction elle-même : « plus de 30 minutes » veut dire « 30 minutes sans signe de vie ». Le serveur ne supprime
-plus le verrou que s'il porte encore son propre PID. Testé en conditions réelles (reconstruction complète de 178 s) :
-verrou rafraîchi en continu, retiré à la fin par son propriétaire, index identique (17 653 343 entrées).
-
-**5. La mer d'Åland traversée par la route.** Comme au Kvarken, l'archipel de Turku et les Åland forment une chaîne
-d'îlots continue sur la grille terre/mer, jusqu'à la côte suédoise : des étapes Turku → Suède passaient « par la
-route ». Trois segments de barrière, tracés entièrement en mer (0 point de terre vérifié), coupent désormais
-Turku ↔ Suède et Stockholm ↔ Helsinki sans toucher Stockholm ↔ Uppsala ni Turku ↔ Helsinki. Mesuré sur 240 tirages
-ciblés (Turku, Helsinki, Rauma, Stockholm, Uppsala, Norrtälje) : 2 traversées avant, **0 après**, aucun tirage vide.
-
-**6. Distance max entre étapes dépassée sans rien dire.** Avec un éloignement minimum renseigné, le premier trajet
-(et le retour d'un séjour à une étape) pouvait aller jusqu'à 1,4 fois cet éloignement, au-delà de la distance max
-entre étapes — même quand des étapes respectant les deux existaient. Le moteur cherche maintenant d'abord sous la
-distance max, et n'élargit qu'en dernier recours ; un dépassement restant est signalé sur le trajet concerné, à
-l'écran et dans le PDF (`leg.overMaxLeg`, traduit dans les 161 langues). Mesuré sur 60 tirages par cas :
-
-| distance max / éloignement | trajets au-delà du max, avant | après | dont signalés |
-| --- | --- | --- | --- |
-| 150 km / 110 km (voiture, 5 jours) | 7 | **0** | — |
-| 80 km / 60 km (vélo, 6 jours) | 8 | **0** | — |
-| 100 km / 90 km (moto, 5 jours) | 32 | **0** | — |
-| 150 km / 110 km (aller-retour dans la journée) | 6 | **0** | — |
-| 100 km / 110 km (moto : le max est plus court que l'éloignement) | 53 | 47 | 47 sur 47 |
-
-Aucun tirage vide dans aucun cas, avant comme après, et des temps de calcul inchangés. Seul le dernier cas, où les
-deux réglages sont contradictoires, garde des dépassements — tous annoncés au voyageur.
-
-### Neuvième passe d'audit (18 septembre 2026)
-
-Cinq relectures indépendantes (moteur, serveur, interface, données, relecture des deux derniers commits), puis
-correction. Quatre constats étaient des **régressions introduites par les corrections du 8e audit** ; les autres
-existaient avant. Non-régression contrôlée comme au 8e audit : 1 140 tirages donnent toujours **28 tirages vides,
-0 traversée maritime par la route, 0 saut sans ferry** ; 0 dépassement de contrainte sur 120 tirages ; mer d'Åland
-toujours 0 traversée sur 240 tirages ; 161 langues complètes et empreintes CSP inchangées.
-
-**Régressions du 8e audit, corrigées.**
-
-- **Péage des pays traversés.** Le 8e audit ne facturait plus que les pays du départ et de l'arrivée : Luxembourg →
-  Genève (≈ 430 km d'autoroutes françaises) sortait à 0 €, Barcelone → Gênes oubliait 278 km français. Un pays
-  seulement traversé est de nouveau facturé, à deux conditions qui évitent de refacturer la Suisse ou la Slovénie : il
-  est traversé sur au moins 30 km d'affilée, et au moins un de ces points est franchement à l'intérieur (sa case de la
-  grille des lieux et ses 8 voisines ne contiennent que des lieux de ce pays, `insideCountry`). La seule condition de
-  longueur ne suffisait pas : le trait de Genève → Lausanne suit le Léman, dont le lieu le plus proche est sur la rive
-  française, et recevait 3,2 €. Mesuré : Luxembourg → Genève 39,8 €, Bâle → Luxembourg 21,1 €, Barcelone → Gênes
-  44,1 € (ES + FR + IT), Belgrade → Thessalonique 29,9 € (RS + MK + GR) ; **0 trajet facturé à tort sur 1 760 dans
-  22 pays sans péage** ; les 38 liaisons de référence et les corridors inchangés. Limites connues, dues au trait à vol
-  d'oiseau : Genève → Aoste ne compte pas la traversée française du Mont-Blanc (trop près de deux frontières), et
-  Zagreb → Umag ou Nazareth → Arad sous-estiment le péage, le trait coupant la Slovénie ou la Cisjordanie que la
-  route réelle évite.
-- **Police des champs de formulaire.** Le remplacement des raccourcis `font` invalides avait laissé les champs en
-  Arial (dates en police à chasse fixe) : les navigateurs ne font pas hériter la famille aux `input`/`select`, les
-  anciennes déclarations invalides le faisaient par accident. Règle `input,select,textarea{font-family:inherit}`.
-- **Passe stricte sautée avec un ferry.** Le raccourci « distance max plus courte que l'éloignement : aucune étape ne
-  peut respecter les deux » est faux avec un ferry, où seule la partie routière compte : de Calais (50 km max, 80 km
-  d'éloignement), 29 premiers trajets sur 30 dépassaient alors que Whitstable respecte les deux. Mesuré après : Calais
-  0 sur 30 à 1 et 3 jours, Bastia (100 / 150 km) 0 sur 30 au lieu de 12 et 18.
-- **Journées sur place signalées à tort.** Le petit trajet local d'une journée passée dans la même ville (3 à 14 km)
-  déclenchait « imposé par l'éloignement minimum ». Ces journées sont exclues du signalement, et ce trajet local ne
-  dépasse plus la distance max entre étapes (24 dépassements silencieux sur 30 tirages à 10 km max avant, 0 après).
-
-**Défauts antérieurs, corrigés.**
-
-- **Quota des gros fichiers contourné par une URL encodée** (`/js/%6918n.js`, `/js//i18n.js`, `/css/../js/i18n.js`,
-  constaté au 8e audit) : le quota teste désormais le chemin décodé et normalisé, sans tenir compte de la casse, et une
-  telle variante est redirigée (301) vers le chemin normal, précompressé, au lieu d'être recompressée à la volée
-  (~1 s de calcul par réponse de 11 Mo). Mesuré en local : 429 à partir de la 31e requête de la minute.
-- **Verrou de l'index laissé par une construction orpheline.** Si le serveur mourait pendant la construction, l'enfant
-  terminait sans retirer le verrou (réservé au serveur), et un serveur relancé attendait jusqu'à 30 minutes sans moteur.
-  L'enfant retire désormais le verrou quand son parent est mort, et le serveur en attente revérifie toutes les 10 s que
-  le verrou est vivant (`searchIndexLockAlive`). Bac à sable : le serveur relancé repart à la fin de la construction
-  (20 s) au lieu de 30 minutes.
-- **Faux message « zones déconseillées ».** Un premier tirage vide suivi d'un second tirage réussi sans filtre suffisait
-  à accuser le filtre, même sans aucune zone à la ronde (Lyon, réglages serrés : 6 faux messages et 10 tirages vides sur
-  40). Le filtre n'est mis en cause que si le second tirage passe réellement par une zone ; sinon ce second tirage, qui
-  respecte le filtre, est proposé. Mesuré : 0 faux message et 2 tirages vides sur 40 ; un départ réellement en zone
-  (Acapulco, Maiduguri) reste signalé 40 fois sur 40.
-- **Export PDF monopolisé.** Le créneau unique n'était rendu qu'à la fin de l'ENVOI : un client qui ne lisait pas sa
-  réponse le gardait 5 s, et recommençait. Il est rendu dès la fin du calcul (`doc.end()`, synchrone). Mesuré : un
-  second client obtient son export tout de suite au lieu de 503 pendant 5 s.
-- **Budget de mise en page du PDF dépassé de 45 %** : plus aucun texte n'est préparé une fois le budget épuisé (la
-  mention « document tronqué » et le pied de page s'écrivent toujours). Un objet forgé en guise de libellé ne coupe plus
-  le document, et les motifs `$'`, `$&` d'un texte client ne sont plus interprétés par `replace`.
-- **Maximum de jours par ville dépassé sans le dire** (21 jours avec 1 jour par ville : 20 nuits pour 15 villes au
-  plus) : avis `days.overMaxPerCity`, affiché à l'écran et dans le PDF, traduit dans les 161 langues (vérifié : avis
-  présent exactement quand une ville dépasse le maximum).
-- **Mise en page** : barre des avertissements du côté du début de ligne en arabe, persan, ourdou, sorani et divehi
-  (`border-inline-start`) ; titre, bouton de lancement et contenu des étapes coupés plutôt que de déborder (malayalam
-  à 375 px, basque, shona, xhosa, groenlandais à 320 px — vérifié : aucun débordement à 320 px).
-- **Documentation** : exemples de péage du 7e audit recalculés avec le code actuel, rapport médian unique (0,97,
-  étendue 0,61 à 1,61), taille de l'index, nombre de règles moto indiennes, et sens variable des dates des zones à
-  tension.
-
-**Laissé en l'état, volontairement.** Les deux voies rapides indiennes interdites aux motos sans zone précise
-produisent le même avertissement générique (« certaines autoroutes ou voies rapides… ») : il n'est affiché qu'une fois
-par pays. Avec un rayon de 3 000 km, environ un tirage sur six atteint le budget de temps de 4 s et le dit
-(`timedOut`) : c'est le garde-fou prévu, sans dégradation par rapport aux versions précédentes.
-
-### Dixième passe d'audit et suite de tests (18 septembre 2026)
-
-Six relectures indépendantes (relecture adversariale du commit précédent ; moteur testé par invariants sur ~8 600 tirages ;
-serveur route par route ; interface parcours par parcours dans les 161 langues ; données et documentation ; réalisme
-des chiffres confrontés aux sources officielles), puis correction. Pour la première fois, les CHIFFRES affichés ont été
-vérifiés contre le monde réel, et plus seulement la cohérence du code.
-
-**Suite de tests permanente** (`tests/`, voir `tests/README.md`) : `npm run test:quick` (~1 min ; 56 s mesurées le
-20/09/2026 — le README annonçait ~2 min et `tests/run.js` ~3 min), `npm test`
-(~5 à 7 min), `npm run test:full` (générateurs et 3 000 tirages compris). Elle reprend les vérifications de toutes les
-passes d'audit — invariants du moteur (jours, nuits par ville, distance max ou `overMaxLeg` justifié, éloignement,
-mer et frontières, ferries, zones à tension, péage, valeurs, retour, état), péage (pays sans barème jamais facturés,
-transits, 38 liaisons de référence), performances, serveur réel avec services tiers simulés (en-têtes, quotas, PDF,
-file des appels sortants, entrées forgées), 161 langues et empreintes CSP, générateurs reproduits à l'octet près. Elle
-a trouvé elle-même deux défauts pendant cette passe (transit alsacien, avertissement de borne après un ferry). Les
-passes précédentes corrigeaient avec des scripts écrits pour l'occasion, qui ne testaient que ce qu'ils corrigeaient :
-d'où les régressions des 8e et 9e audits.
-
-**Régressions du 9e audit, corrigées.**
-- Passe stricte avec ferry : la masse « continental » compte 253 liaisons, si bien que la passe tournait partout —
-  échecs faute de temps de 1 à 16 sur 50 tirages intérieurs. Elle n'est plus tentée que si un port est à moins de la
-  distance max par la route (`ferryPossibleFrom`) : 0 échec, et Calais ou Bastia gardent 0 dépassement évitable.
-- Péage de transit : un trajet intérieur ne traverse jamais un pays tiers (Osijek → Split au barème bosnien : 55
-  trajets croates sur 300), ni un trajet entre deux pays voisins (Saarbrücken → Bâle au barème français, 15,9 €).
-  Luxembourg → Genève, Barcelone → Gênes, Belgrade → Thessalonique restent facturés sur leur transit réel.
-- `overflow-wrap:anywhere` coupait des mots qui tenaient (« GENERATO / R ») : remplacé par `break-word`.
-- Pied de page du PDF : il pouvait encore disparaître sans la mention « document tronqué ».
-
-**Chiffres inventés ou faux, remplacés par des valeurs sourcées.**
-- Journées sur place : leur « petit trajet local » de 3 à 14 km était TIRÉ AU HASARD, affiché comme une vraie distance
-  et compté dans le kilométrage du voyage. Ces journées n'ont plus de trajet.
-- Recharge électrique : 25 à 40 min TIRÉES AU HASARD par arrêt → 28 min (médiane ev-database.org de quatre modèles
-  récents, recharge de 10 à 80 %, plage de référence de l'ADAC) ; marge 0,75 sans source → 0,70 (10 → 80 %) ; autonomie
-  320 km confirmée (ev-database.org). Sources détaillées dans `public/js/trip-data.js`.
-- Moto privée d'autoroute : 0,8 sans source → facteur mesuré par pays (`scripts/measure-moto-no-motorway.js`, relevé
-  Valhalla/OpenStreetMap dans `data/moto-no-motorway-valhalla.json`) : Corée 0,68, Taïwan 0,58, Viêt Nam 0,85,
-  Pakistan 0,87, Thaïlande, Indonésie et Sri Lanka 1,00. Limite : 5 trajets par pays.
-- Péage des 17 pays : barèmes recalculés sur les grilles officielles 2026 (sources et liaisons dans
-  `TOLL_RATE_BY_COUNTRY`), classes van et moto propres à chaque pays. Écarts corrigés : Portugal ×2,8 (le taux venait
-  de l'A22, gratuite depuis 2025), Turquie ÷4,4 (le taux venait d'une autoroute privée ; KGM retenu, autoroutes privées
-  désormais sous-estimées), Israël ×1,75, Bosnie-Herzégovine ÷1,7, Macédoine du Nord, Sénégal, Croatie, Japon ; moto au
-  tarif voiture en Espagne et en Italie, fourgon au tarif voiture au Japon, en Espagne, en Israël et en Azerbaïdjan,
-  fourgon ×2,5 à ×2,8 en Grèce et en Macédoine du Nord. Mesuré : Istanbul → Edirne 3,6 € (officiel ≈ 3 €, 15,9 € avant),
-  Lisbonne → Porto 32,1 € (25,05 €, 11,6 € avant), Tokyo → Nagoya 39,7 € (≈ 40 €), Belgrade → Niš 11,8 € (10,05 €).
-- Seuil « pas de péage sous 60 km », sans source : remplacé par une longueur facturée minimale d'une case de la grille
-  d'affilée (~28 km). Espagne : case exacte seulement (réseau payant clairsemé, bordé d'autovías gratuites) —
-  Madrid → Séville 15,3 → 8,6 €, Málaga → Grenade 7,3 → 0 €. Erreurs résiduelles connues, dues au trait à vol d'oiseau
-  (le moteur ne calcule pas d'itinéraire) : Madrid → Barcelone 20,3 € (A-2 gratuite réelle), Limoges → Brive 8,4 €
-  (A20 gratuite), Zagreb → Split et Athènes → Thessalonique sous-estimés ; AP-68 gratuite en Aragon et Navarre à partir
-  du 11/11/2026 non modélisée.
-- Hébergement : base 70/130/260 € sans source → 100/150/340 € (INE espagnol ramené à la moyenne de l'UE par l'indice
-  Eurostat « restaurants et hôtels »), ajustée au pays de l'étape dans la zone euro ; le plafond ne dépend plus de la
-  devise choisie (20 000 HUF ≈ 55 € ou 250 CHF ≈ 264 € pour une même nuit en France) : il est calculé pour le pays de
-  l'étape puis converti aux taux de la BCE (`lodgingPriceCap`, partagé par le serveur et le navigateur).
-- Ferries : aucun prix affiché sans grille officielle datée de l'exploitant. Prix sourcés ajoutés (Jadrolinija, Gozo
-  Channel, Caronte & Tourist, TESO, Doeksen, Wagenborg, Levante, Saronic Ferries, Skyros Shipping, GESTAŞ…) ; tarifs à
-  la réservation (Corse, Baléares, Sardaigne, Manche, Pirée, Ceuta, Melilla, Bornholm, Gotland…) : « tarif non
-  communiqué ». Plus aucune classe déduite d'une autre par un ratio. Vlieland et Schiermonnikoog, interdites aux
-  voitures des visiteurs, n'ont plus de liaison. Distances aberrantes corrigées (Corfou, Céphalonie, Ithaque, Andros,
-  Jersey). 25 bacs norvégiens gratuits l'hiver mais payants l'été : « tarif non communiqué ».
-- Données de lieux : 25 lieux rangés dans le mauvais pays, 132 lieux disparus « (historical) », 32 bases antarctiques
-  rangées en Argentine, Sercq, 7 fiches dont le nom était un commentaire d'éditeur, 8 noms indiens aux caractères perdus
-  (4 corrigés d'après GeoNames, 4 retirés) — corrigés dans les générateurs (`scripts/communes-corrections.js`) ;
-  alias nettoyés (caractères de direction invisibles, ponctuation parasite).
-
-**Serveur.** Jetons de statistiques, sous-titre et bandeau des pages du PDF soumis au budget (8 statistiques
-tibétaines gelaient le process 5 à 10 s) ; objets forgés neutralisés dans tout le corps de l'export ; requête
-abandonnée pendant son attente retirée de la file (elle bloquait son adresse 20 à 30 s) ; réponses tierces bornées à
-8 Mo ; refus 403 de Wikipédia et pages Visorando inattendues jamais mis en cache ; délais de connexion (en-têtes 15 s,
-requête 30 s, inactivité 2 min) ; verrou d'index illisible de nouveau récupérable ; recherches mises en cache ; codes
-postaux à tiret (« cn-110000 ») de nouveau trouvés ; crédit photo (auteur, licence) fourni par `/api/photo` ;
-entités HTML robustes. Limite assumée : le moteur est synchrone et tient ~3 Go en mémoire, il ne peut pas être isolé
-dans des workers sur l'hébergement mutualisé — quelques adresses qui enchaînent des tirages lourds peuvent encore
-occuper le process.
-
-**Moteur.** Budget de 4 s tenu (6,5 s mesurées avant) ; diagnostic « éloignement introuvable » conservé ; entrées
-typées strictement ; moto sur les îles taïwanaises ; avertissement de borne après un ferry ; zones à faibles émissions
-et à trafic limité rattachées à leur ville (10 zones sur 133 n'étaient jamais signalées ; ZBE d'Ourense placée à 30 km
-de la ville).
-
-**Interface.** Suggestion périmée sélectionnable, panneaux hors écran sur mobile, année des dates coupée, validation
-native du navigateur remplacée par une validation traduite, crédit photo complet, contrastes (bouton principal 4,77:1),
-devise sans stockage local, recherche de randonnée sans fin, nombres et duel arabe localisés, liens Airbnb et Booking
-dans la langue de l'interface, textes de carte traduits, accessibilité (dialogues, boutons ±, champs en erreur),
-impression, textes indicatifs trop longs. 12 nouvelles clés dans les 161 langues ; le yi reçoit le chinois pour ces
-clés, faute de traduction fiable.
+**Limites.** Sur un voyage **extrême** (21 jours, 15 villes, toutes les mentions), deux écritures (dzongkha, bengali)
+épuisent le budget de mise en page de 3,5 s avant la dernière journée : le PDF est livré complet et signé, avec la
+mention « document tronqué » traduite, mais ne porte que 7 villes sur 15 (dzongkha) et 14 sur 15 (bengali). Le budget
+processeur n'a pas été relevé : c'est le garde-fou anti-déni de service. Les trois fiches aux coordonnées fausses sont
+écartées, pas corrigées : « Katingan » n'existe donc plus en Papouasie-Nouvelle-Guinée (le seul Katingan papou connu de
+GeoNames est un dispensaire, classe S, jamais publié).
 
 ### Seizième passe d'audit (20 septembre 2026)
 
@@ -4294,10 +3856,12 @@ anciens. Leçon de la passe : mes tests vérifiaient qu'un résultat EXISTE, jam
 laissé la distance annoncée osciller entre trop haute (14e passe) et trop basse (15e).
 
 **Moteur.**
-- **Distance annoncée « hors de portée, X km »** : parcours de tous les lieux du plus lointain au plus proche jusqu'au
-  premier faisable (`DAY_REACH_TRIES_MAX` essais exacts au plus), au lieu de 12 essais plus 12 échantillons dont le
-  premier succès faisait foi — Leganes annonçait 161 km alors que 199 km marche, Calumboyan 109 pour 208, écart jusqu'à
-  172 km sur 10 % des cas. Coût mesuré inchangé (chemin d'échec < 1 s).
+- **Distance annoncée « hors de portée, X km »** : balayage par tranches de 10 km, de la plus lointaine à la plus
+  proche, au lieu de 12 essais plus 12 échantillons dont le premier succès faisait foi — Leganes annonçait 161 km alors
+  que 199 km marche, Calumboyan 109 pour 208, écart jusqu'à 172 km sur 10 % des cas. Coût mesuré inchangé (chemin
+  d'échec < 1 s). *Ce paragraphe annonçait « parcours de tous les lieux » : c'est faux, la 16e passe a livré
+  l'échantillonnage par tranches, qui laissait 5,8 % d'annonces trop basses — corrigé à la 17e passe, voir plus haut
+  (17e audit du 20/09/2026).*
 - **Choix de la paire de ports d'un ferry** : sur le TEMPS TOTAL (route + traversée) et non plus sur la seule route,
   entre paires de route comparable (`FERRY_PAIR_ROAD_MARGIN_KM` = 150 km) — depuis que chaque paire porte sa durée
   (15e passe), gagner 20 km de route pouvait coûter des heures de mer (Reggio Calabria, Malte, Åland, Baléares, Samos :
@@ -4312,7 +3876,9 @@ laissé la distance annoncée osciller entre trop haute (14e passe) et trop bass
   en contient était introuvable, et un nom persan saisi avec ou sans liant ne correspondait pas à la même graphie.
 
 **Contrôles ajoutés.** La contre-épreuve de la campagne d'invariants vérifie maintenant que X est le MAXIMUM : au-delà
-(X + 15 km, sous l'éloignement demandé), plus aucun itinéraire ne doit exister. `tests/engine-regressions.test.js`
+(X + 5 km, sous l'éloignement demandé), plus aucun itinéraire ne doit exister — la marge annoncée ici était de 15 km
+alors que le code en testait 25 (17e audit du 20/09/2026) ; le balayage étant désormais exhaustif, X est exact à
+l'arrondi près et la marge n'est plus qu'une tolérance d'arrondi. `tests/engine-regressions.test.js`
 contrôle en plus qu'aucune autre paire de ports de route comparable n'est plus rapide au total, et que le péage d'une
 étape avec traversée reste cohérent avec ses kilomètres. Les tests de la 15e passe qui ne pouvaient pas échouer ont été
 réécrits (traversée estimée : mutation vérifiée).
@@ -4701,6 +4267,574 @@ corridors à borne basse positive, prix officiels dans la fourchette) ; le véri
 (ville hôte, point de départ compris). `npm test` : 75 tests réussis, 4 ignorés (générateurs, `test:full`), aucun
 échec (19/09/2026).
 
+### Dixième passe d'audit et suite de tests (18 septembre 2026)
+
+Six relectures indépendantes (relecture adversariale du commit précédent ; moteur testé par invariants sur ~8 600 tirages ;
+serveur route par route ; interface parcours par parcours dans les 161 langues ; données et documentation ; réalisme
+des chiffres confrontés aux sources officielles), puis correction. Pour la première fois, les CHIFFRES affichés ont été
+vérifiés contre le monde réel, et plus seulement la cohérence du code.
+
+**Suite de tests permanente** (`tests/`, voir `tests/README.md`) : `npm run test:quick` (~1 min ; 56 s mesurées le
+20/09/2026 — le README annonçait ~2 min et `tests/run.js` ~3 min), `npm test`
+(~5 à 7 min), `npm run test:full` (générateurs et 3 000 tirages compris). Elle reprend les vérifications de toutes les
+passes d'audit — invariants du moteur (jours, nuits par ville, distance max ou `overMaxLeg` justifié, éloignement,
+mer et frontières, ferries, zones à tension, péage, valeurs, retour, état), péage (pays sans barème jamais facturés,
+transits, 38 liaisons de référence), performances, serveur réel avec services tiers simulés (en-têtes, quotas, PDF,
+file des appels sortants, entrées forgées), 161 langues et empreintes CSP, générateurs reproduits à l'octet près. Elle
+a trouvé elle-même deux défauts pendant cette passe (transit alsacien, avertissement de borne après un ferry). Les
+passes précédentes corrigeaient avec des scripts écrits pour l'occasion, qui ne testaient que ce qu'ils corrigeaient :
+d'où les régressions des 8e et 9e audits.
+
+**Régressions du 9e audit, corrigées.**
+- Passe stricte avec ferry : la masse « continental » compte 253 liaisons, si bien que la passe tournait partout —
+  échecs faute de temps de 1 à 16 sur 50 tirages intérieurs. Elle n'est plus tentée que si un port est à moins de la
+  distance max par la route (`ferryPossibleFrom`) : 0 échec, et Calais ou Bastia gardent 0 dépassement évitable.
+- Péage de transit : un trajet intérieur ne traverse jamais un pays tiers (Osijek → Split au barème bosnien : 55
+  trajets croates sur 300), ni un trajet entre deux pays voisins (Saarbrücken → Bâle au barème français, 15,9 €).
+  Luxembourg → Genève, Barcelone → Gênes, Belgrade → Thessalonique restent facturés sur leur transit réel.
+- `overflow-wrap:anywhere` coupait des mots qui tenaient (« GENERATO / R ») : remplacé par `break-word`.
+- Pied de page du PDF : il pouvait encore disparaître sans la mention « document tronqué ».
+
+**Chiffres inventés ou faux, remplacés par des valeurs sourcées.**
+- Journées sur place : leur « petit trajet local » de 3 à 14 km était TIRÉ AU HASARD, affiché comme une vraie distance
+  et compté dans le kilométrage du voyage. Ces journées n'ont plus de trajet.
+- Recharge électrique : 25 à 40 min TIRÉES AU HASARD par arrêt → 28 min (médiane ev-database.org de quatre modèles
+  récents, recharge de 10 à 80 %, plage de référence de l'ADAC) ; marge 0,75 sans source → 0,70 (10 → 80 %) ; autonomie
+  320 km confirmée (ev-database.org). Sources détaillées dans `public/js/trip-data.js`.
+- Moto privée d'autoroute : 0,8 sans source → facteur mesuré par pays (`scripts/measure-moto-no-motorway.js`, relevé
+  Valhalla/OpenStreetMap dans `data/moto-no-motorway-valhalla.json`) : Corée 0,68, Taïwan 0,58, Viêt Nam 0,85,
+  Pakistan 0,87, Thaïlande, Indonésie et Sri Lanka 1,00. Limite : 5 trajets par pays.
+- Péage des 17 pays : barèmes recalculés sur les grilles officielles 2026 (sources et liaisons dans
+  `TOLL_RATE_BY_COUNTRY`), classes van et moto propres à chaque pays. Écarts corrigés : Portugal ×2,8 (le taux venait
+  de l'A22, gratuite depuis 2025), Turquie ÷4,4 (le taux venait d'une autoroute privée ; KGM retenu, autoroutes privées
+  désormais sous-estimées), Israël ×1,75, Bosnie-Herzégovine ÷1,7, Macédoine du Nord, Sénégal, Croatie, Japon ; moto au
+  tarif voiture en Espagne et en Italie, fourgon au tarif voiture au Japon, en Espagne, en Israël et en Azerbaïdjan,
+  fourgon ×2,5 à ×2,8 en Grèce et en Macédoine du Nord. Mesuré : Istanbul → Edirne 3,6 € (officiel ≈ 3 €, 15,9 € avant),
+  Lisbonne → Porto 32,1 € (25,05 €, 11,6 € avant), Tokyo → Nagoya 39,7 € (≈ 40 €), Belgrade → Niš 11,8 € (10,05 €).
+- Seuil « pas de péage sous 60 km », sans source : remplacé par une longueur facturée minimale d'une case de la grille
+  d'affilée (~28 km). Espagne : case exacte seulement (réseau payant clairsemé, bordé d'autovías gratuites) —
+  Madrid → Séville 15,3 → 8,6 €, Málaga → Grenade 7,3 → 0 €. Erreurs résiduelles connues, dues au trait à vol d'oiseau
+  (le moteur ne calcule pas d'itinéraire) : Madrid → Barcelone 20,3 € (A-2 gratuite réelle), Limoges → Brive 8,4 €
+  (A20 gratuite), Zagreb → Split et Athènes → Thessalonique sous-estimés ; AP-68 gratuite en Aragon et Navarre à partir
+  du 11/11/2026 non modélisée.
+- Hébergement : base 70/130/260 € sans source → 100/150/340 € (INE espagnol ramené à la moyenne de l'UE par l'indice
+  Eurostat « restaurants et hôtels »), ajustée au pays de l'étape dans la zone euro ; le plafond ne dépend plus de la
+  devise choisie (20 000 HUF ≈ 55 € ou 250 CHF ≈ 264 € pour une même nuit en France) : il est calculé pour le pays de
+  l'étape puis converti aux taux de la BCE (`lodgingPriceCap`, partagé par le serveur et le navigateur).
+- Ferries : aucun prix affiché sans grille officielle datée de l'exploitant. Prix sourcés ajoutés (Jadrolinija, Gozo
+  Channel, Caronte & Tourist, TESO, Doeksen, Wagenborg, Levante, Saronic Ferries, Skyros Shipping, GESTAŞ…) ; tarifs à
+  la réservation (Corse, Baléares, Sardaigne, Manche, Pirée, Ceuta, Melilla, Bornholm, Gotland…) : « tarif non
+  communiqué ». Plus aucune classe déduite d'une autre par un ratio. Vlieland et Schiermonnikoog, interdites aux
+  voitures des visiteurs, n'ont plus de liaison. Distances aberrantes corrigées (Corfou, Céphalonie, Ithaque, Andros,
+  Jersey). 25 bacs norvégiens gratuits l'hiver mais payants l'été : « tarif non communiqué ».
+- Données de lieux : 25 lieux rangés dans le mauvais pays, 132 lieux disparus « (historical) », 32 bases antarctiques
+  rangées en Argentine, Sercq, 7 fiches dont le nom était un commentaire d'éditeur, 8 noms indiens aux caractères perdus
+  (4 corrigés d'après GeoNames, 4 retirés) — corrigés dans les générateurs (`scripts/communes-corrections.js`) ;
+  alias nettoyés (caractères de direction invisibles, ponctuation parasite).
+
+**Serveur.** Jetons de statistiques, sous-titre et bandeau des pages du PDF soumis au budget (8 statistiques
+tibétaines gelaient le process 5 à 10 s) ; objets forgés neutralisés dans tout le corps de l'export ; requête
+abandonnée pendant son attente retirée de la file (elle bloquait son adresse 20 à 30 s) ; réponses tierces bornées à
+8 Mo ; refus 403 de Wikipédia et pages Visorando inattendues jamais mis en cache ; délais de connexion (en-têtes 15 s,
+requête 30 s, inactivité 2 min) ; verrou d'index illisible de nouveau récupérable ; recherches mises en cache ; codes
+postaux à tiret (« cn-110000 ») de nouveau trouvés ; crédit photo (auteur, licence) fourni par `/api/photo` ;
+entités HTML robustes. Limite assumée : le moteur est synchrone et tient ~3 Go en mémoire, il ne peut pas être isolé
+dans des workers sur l'hébergement mutualisé — quelques adresses qui enchaînent des tirages lourds peuvent encore
+occuper le process.
+
+**Moteur.** Budget de 4 s tenu (6,5 s mesurées avant) ; diagnostic « éloignement introuvable » conservé ; entrées
+typées strictement ; moto sur les îles taïwanaises ; avertissement de borne après un ferry ; zones à faibles émissions
+et à trafic limité rattachées à leur ville (10 zones sur 133 n'étaient jamais signalées ; ZBE d'Ourense placée à 30 km
+de la ville).
+
+**Interface.** Suggestion périmée sélectionnable, panneaux hors écran sur mobile, année des dates coupée, validation
+native du navigateur remplacée par une validation traduite, crédit photo complet, contrastes (bouton principal 4,77:1),
+devise sans stockage local, recherche de randonnée sans fin, nombres et duel arabe localisés, liens Airbnb et Booking
+dans la langue de l'interface, textes de carte traduits, accessibilité (dialogues, boutons ±, champs en erreur),
+impression, textes indicatifs trop longs. 12 nouvelles clés dans les 161 langues ; le yi reçoit le chinois pour ces
+clés, faute de traduction fiable.
+
+### Neuvième passe d'audit (18 septembre 2026)
+
+Cinq relectures indépendantes (moteur, serveur, interface, données, relecture des deux derniers commits), puis
+correction. Quatre constats étaient des **régressions introduites par les corrections du 8e audit** ; les autres
+existaient avant. Non-régression contrôlée comme au 8e audit : 1 140 tirages donnent toujours **28 tirages vides,
+0 traversée maritime par la route, 0 saut sans ferry** ; 0 dépassement de contrainte sur 120 tirages ; mer d'Åland
+toujours 0 traversée sur 240 tirages ; 161 langues complètes et empreintes CSP inchangées.
+
+**Régressions du 8e audit, corrigées.**
+
+- **Péage des pays traversés.** Le 8e audit ne facturait plus que les pays du départ et de l'arrivée : Luxembourg →
+  Genève (≈ 430 km d'autoroutes françaises) sortait à 0 €, Barcelone → Gênes oubliait 278 km français. Un pays
+  seulement traversé est de nouveau facturé, à deux conditions qui évitent de refacturer la Suisse ou la Slovénie : il
+  est traversé sur au moins 30 km d'affilée, et au moins un de ces points est franchement à l'intérieur (sa case de la
+  grille des lieux et ses 8 voisines ne contiennent que des lieux de ce pays, `insideCountry`). La seule condition de
+  longueur ne suffisait pas : le trait de Genève → Lausanne suit le Léman, dont le lieu le plus proche est sur la rive
+  française, et recevait 3,2 €. Mesuré : Luxembourg → Genève 39,8 €, Bâle → Luxembourg 21,1 €, Barcelone → Gênes
+  44,1 € (ES + FR + IT), Belgrade → Thessalonique 29,9 € (RS + MK + GR) ; **0 trajet facturé à tort sur 1 760 dans
+  22 pays sans péage** ; les 38 liaisons de référence et les corridors inchangés. Limites connues, dues au trait à vol
+  d'oiseau : Genève → Aoste ne compte pas la traversée française du Mont-Blanc (trop près de deux frontières), et
+  Zagreb → Umag ou Nazareth → Arad sous-estiment le péage, le trait coupant la Slovénie ou la Cisjordanie que la
+  route réelle évite.
+- **Police des champs de formulaire.** Le remplacement des raccourcis `font` invalides avait laissé les champs en
+  Arial (dates en police à chasse fixe) : les navigateurs ne font pas hériter la famille aux `input`/`select`, les
+  anciennes déclarations invalides le faisaient par accident. Règle `input,select,textarea{font-family:inherit}`.
+- **Passe stricte sautée avec un ferry.** Le raccourci « distance max plus courte que l'éloignement : aucune étape ne
+  peut respecter les deux » est faux avec un ferry, où seule la partie routière compte : de Calais (50 km max, 80 km
+  d'éloignement), 29 premiers trajets sur 30 dépassaient alors que Whitstable respecte les deux. Mesuré après : Calais
+  0 sur 30 à 1 et 3 jours, Bastia (100 / 150 km) 0 sur 30 au lieu de 12 et 18.
+- **Journées sur place signalées à tort.** Le petit trajet local d'une journée passée dans la même ville (3 à 14 km)
+  déclenchait « imposé par l'éloignement minimum ». Ces journées sont exclues du signalement, et ce trajet local ne
+  dépasse plus la distance max entre étapes (24 dépassements silencieux sur 30 tirages à 10 km max avant, 0 après).
+
+**Défauts antérieurs, corrigés.**
+
+- **Quota des gros fichiers contourné par une URL encodée** (`/js/%6918n.js`, `/js//i18n.js`, `/css/../js/i18n.js`,
+  constaté au 8e audit) : le quota teste désormais le chemin décodé et normalisé, sans tenir compte de la casse, et une
+  telle variante est redirigée (301) vers le chemin normal, précompressé, au lieu d'être recompressée à la volée
+  (~1 s de calcul par réponse de 11 Mo). Mesuré en local : 429 à partir de la 31e requête de la minute.
+- **Verrou de l'index laissé par une construction orpheline.** Si le serveur mourait pendant la construction, l'enfant
+  terminait sans retirer le verrou (réservé au serveur), et un serveur relancé attendait jusqu'à 30 minutes sans moteur.
+  L'enfant retire désormais le verrou quand son parent est mort, et le serveur en attente revérifie toutes les 10 s que
+  le verrou est vivant (`searchIndexLockAlive`). Bac à sable : le serveur relancé repart à la fin de la construction
+  (20 s) au lieu de 30 minutes.
+- **Faux message « zones déconseillées ».** Un premier tirage vide suivi d'un second tirage réussi sans filtre suffisait
+  à accuser le filtre, même sans aucune zone à la ronde (Lyon, réglages serrés : 6 faux messages et 10 tirages vides sur
+  40). Le filtre n'est mis en cause que si le second tirage passe réellement par une zone ; sinon ce second tirage, qui
+  respecte le filtre, est proposé. Mesuré : 0 faux message et 2 tirages vides sur 40 ; un départ réellement en zone
+  (Acapulco, Maiduguri) reste signalé 40 fois sur 40.
+- **Export PDF monopolisé.** Le créneau unique n'était rendu qu'à la fin de l'ENVOI : un client qui ne lisait pas sa
+  réponse le gardait 5 s, et recommençait. Il est rendu dès la fin du calcul (`doc.end()`, synchrone). Mesuré : un
+  second client obtient son export tout de suite au lieu de 503 pendant 5 s.
+- **Budget de mise en page du PDF dépassé de 45 %** : plus aucun texte n'est préparé une fois le budget épuisé (la
+  mention « document tronqué » et le pied de page s'écrivent toujours). Un objet forgé en guise de libellé ne coupe plus
+  le document, et les motifs `$'`, `$&` d'un texte client ne sont plus interprétés par `replace`.
+- **Maximum de jours par ville dépassé sans le dire** (21 jours avec 1 jour par ville : 20 nuits pour 15 villes au
+  plus) : avis `days.overMaxPerCity`, affiché à l'écran et dans le PDF, traduit dans les 161 langues (vérifié : avis
+  présent exactement quand une ville dépasse le maximum).
+- **Mise en page** : barre des avertissements du côté du début de ligne en arabe, persan, ourdou, sorani et divehi
+  (`border-inline-start`) ; titre, bouton de lancement et contenu des étapes coupés plutôt que de déborder (malayalam
+  à 375 px, basque, shona, xhosa, groenlandais à 320 px — vérifié : aucun débordement à 320 px).
+- **Documentation** : exemples de péage du 7e audit recalculés avec le code actuel, rapport médian unique (0,97,
+  étendue 0,61 à 1,61), taille de l'index, nombre de règles moto indiennes, et sens variable des dates des zones à
+  tension.
+
+**Laissé en l'état, volontairement.** Les deux voies rapides indiennes interdites aux motos sans zone précise
+produisent le même avertissement générique (« certaines autoroutes ou voies rapides… ») : il n'est affiché qu'une fois
+par pays. Avec un rayon de 3 000 km, environ un tirage sur six atteint le budget de temps de 4 s et le dit
+(`timedOut`) : c'est le garde-fou prévu, sans dégradation par rapport aux versions précédentes.
+
+### Huitième passe d'audit (18 septembre 2026)
+
+Huitième relecture complète en lecture seule, puis correction de ses six constats. Chaque correction a été mesurée avant
+et après, et la non-régression contrôlée sur l'ensemble : 1 140 tirages (5 par pays, 4 modes) donnent toujours
+**28 tirages vides, 0 traversée maritime par la route, 0 saut de masse terrestre sans ferry** ; 120 tirages sous
+contraintes (distance max entre étapes, rayon, jours) donnent 0 dépassement ; les 161 langues ont toutes leurs clés.
+
+**1. Péage facturé dans des pays qui n'en ont pas** (correction trop stricte, reprise au 9e audit ci-dessous). La tolérance d'une case voisine (voir « Septième passe d'audit »)
+ne regardait pas le pays : une étape suisse, slovène ou autrichienne longeant une frontière héritait des cases à péage
+françaises ou italiennes d'à côté, au barème de ces pays. Mesuré sur le vrai moteur : **100 % des étapes slovènes et
+90 % des étapes suisses** tirées recevaient un péage. Désormais chaque point échantillonné n'est facturé que si le
+pays du lieu le plus proche (`countryAtPoint`) est celui de la case, ET que ce pays est l'un des deux pays de l'étape
+(départ ou arrivée). Mesuré après : **0 étape facturée à tort sur 1 760 tirages dans 22 pays sans péage kilométrique** ;
+les 38 liaisons françaises de référence gardent leur rapport médian estimé / officiel (0,968 ; q25 0,86, q75 1,07) et
+les corridors ne bougent pas (Lyon → Marseille 33,7 €, Milan → Bologne 20,2 €, Tokyo → Nagoya 44,1 €, Chambéry → Turin
+17,0 € répartis FR + IT, Genève → Lyon 11,6 € côté français seulement, Genève → Lausanne 0 €, Corse et pointe
+bretonne 0 €).
+
+**2. Trois générateurs effaçaient des corrections.** Même piège qu'aux îles japonaises : l'exception mexicaine
+Ixtapa-Zihuatanejo du 7e audit et six adresses de sources (Donostia, Bergame, Alpe di Siusi, Shanghai, All India
+Radio, Cubacasas) n'existaient que dans `public/js/trip-data.js`, pas dans leurs fichiers sources
+(`scripts/tension-zones/ameriques.js`, `scripts/transport/van-rules.js`, `scripts/transport/moto-rules.js`,
+`scripts/lodging/lodging-afrique-ameriques-oceanie.js`). Sources mises à jour ; preuve : les quatre générateurs
+(zones à tension, transport, hébergement, îles) relancés reproduisent `trip-data.js` **à l'octet près**.
+
+**3. 39 déclarations CSS ignorées par le navigateur.** `font: 800 .92rem/1 var(--font-body)` est invalide : un
+raccourci `font` ne peut pas contenir un autre raccourci (`--font-body` vaut lui-même « 400 1em/1.55 … »). Le
+navigateur rejetait la déclaration entière : boutons, sur-titres et libellés n'avaient jamais la graisse, la taille ni
+l'interligne prévus. Remplacées par `font-style` / `font-weight` / `font-size` / `line-height` séparées, SANS
+`font-family` — la police reste héritée comme avant, ce qui préserve les polices propres au yi, au tibétain, à
+l'éthiopien et au tifinagh. Le seul cas en police manuscrite utilise une nouvelle variable `--font-hand-family`.
+Contrôlé à 320 px de large en français, allemand, finnois, tamoul, birman et arabe : aucun débordement.
+
+**4. Verrou de l'index : 30 minutes, puis plus rien.** Un verrou de plus de 30 minutes était jugé orphelin même si sa
+construction vivait encore ; sur un hébergement lent, un second démarrage lançait une seconde construction dans le
+même dossier. La date du verrou est désormais rafraîchie chaque minute par le serveur et à chaque fichier de pays par
+la construction elle-même : « plus de 30 minutes » veut dire « 30 minutes sans signe de vie ». Le serveur ne supprime
+plus le verrou que s'il porte encore son propre PID. Testé en conditions réelles (reconstruction complète de 178 s) :
+verrou rafraîchi en continu, retiré à la fin par son propriétaire, index identique (17 653 343 entrées).
+
+**5. La mer d'Åland traversée par la route.** Comme au Kvarken, l'archipel de Turku et les Åland forment une chaîne
+d'îlots continue sur la grille terre/mer, jusqu'à la côte suédoise : des étapes Turku → Suède passaient « par la
+route ». Trois segments de barrière, tracés entièrement en mer (0 point de terre vérifié), coupent désormais
+Turku ↔ Suède et Stockholm ↔ Helsinki sans toucher Stockholm ↔ Uppsala ni Turku ↔ Helsinki. Mesuré sur 240 tirages
+ciblés (Turku, Helsinki, Rauma, Stockholm, Uppsala, Norrtälje) : 2 traversées avant, **0 après**, aucun tirage vide.
+
+**6. Distance max entre étapes dépassée sans rien dire.** Avec un éloignement minimum renseigné, le premier trajet
+(et le retour d'un séjour à une étape) pouvait aller jusqu'à 1,4 fois cet éloignement, au-delà de la distance max
+entre étapes — même quand des étapes respectant les deux existaient. Le moteur cherche maintenant d'abord sous la
+distance max, et n'élargit qu'en dernier recours ; un dépassement restant est signalé sur le trajet concerné, à
+l'écran et dans le PDF (`leg.overMaxLeg`, traduit dans les 161 langues). Mesuré sur 60 tirages par cas :
+
+| distance max / éloignement | trajets au-delà du max, avant | après | dont signalés |
+| --- | --- | --- | --- |
+| 150 km / 110 km (voiture, 5 jours) | 7 | **0** | — |
+| 80 km / 60 km (vélo, 6 jours) | 8 | **0** | — |
+| 100 km / 90 km (moto, 5 jours) | 32 | **0** | — |
+| 150 km / 110 km (aller-retour dans la journée) | 6 | **0** | — |
+| 100 km / 110 km (moto : le max est plus court que l'éloignement) | 53 | 47 | 47 sur 47 |
+
+Aucun tirage vide dans aucun cas, avant comme après, et des temps de calcul inchangés. Seul le dernier cas, où les
+deux réglages sont contradictoires, garde des dépassements — tous annoncés au voyageur.
+
+### Septième passe d'audit (18 septembre 2026)
+
+Septième relecture complète, en lecture seule d'abord, puis correction. Cinq constats de fond : trois portent sur des chiffres que
+l'application affichait comme des faits sans pouvoir les justifier, le quatrième est un défaut de mise en page
+découvert en vérifiant l'export PDF de bout en bout, le cinquième une poignée d'îles que le moteur croyait joignables
+par la route.
+
+**1. Le péage était inventé deux fois.** Le tarif français (0,148 €/km en classe 1) était tiré des 24 lignes étiquetées
+« Cofiroute » de `public/data/toll-reference.json`, dont **22 ne correspondent à aucun barème publié** : cinq doublons
+gonflés d'une liaison VINCI, et un Paris → Reims à 57,60 € quand la grille Sanef affiche **12,60 €** (4,6 fois trop).
+Ces lignes sont supprimées. Le fichier ne contient plus que 38 liaisons vérifiées une à une dans les grilles officielles au 1er février
+2026 — « Tarifs des principales liaisons » de VINCI Autoroutes (ASF, Cofiroute, Escota), grilles Sanef (A1, A4, A26) et
+APRR (A6, A36, A39). Médiane prix ÷ kilomètres : **0,104 €/km** en classe 1 (étendue 0,067 à 0,139), et les classes 2 et
+5 suivent les rapports officiels mesurés sur ces mêmes grilles (×1,535 et ×0,604). Le libellé « barème ASF » était faux
+même pour les lignes correctes : la grille VINCI couvre trois concessionnaires.
+
+Surtout, le péage était facturé **partout** dans un pays « à péage », dès 60 km, sur la totalité de la distance.
+Bastia → Porto-Vecchio (aucune autoroute en Corse), Brest → Quimper (Bretagne gratuite) ou une étape de l'est anatolien
+recevaient une facture. Désormais, `scripts/build-toll-grid.js` interroge OpenStreetMap (voies `toll=yes`) et enregistre
+dans `data/toll-grid.json` les cases de 0,25° (~28 km) où une voie à péage existe réellement, avec le pays. Le moteur
+échantillonne le trait de chaque étape tous les 10 km et ne facture que les kilomètres dont la case porte une voie à
+péage, **au barème du pays de cette case**. Ces kilomètres sont d'abord ramenés à l'échelle autoroutière
+(`TOLL_ROAD_FACTOR` = 1,17) : les corridors autoroutiers sont plus droits que la moyenne des routes (1,170 mesuré sur
+les 38 liaisons de référence, 1,165 mesuré indépendamment avec OSRM), et appliquer un tarif au kilomètre d'autoroute
+réelle à une distance estimée avec le facteur général aurait surfacturé le péage d'environ 10 % partout. Vérification
+finale sur les 38 liaisons de référence : le montant que l'application afficherait pour chacune, comparé à son prix
+officiel, donne un rapport **médian de 0,97** (étendue 0,61 à 1,61 selon les concessions — d'où la mention
+« estimation au kilomètre » affichée avec le montant) — ce qui règle du même coup les étapes transfrontalières, jusque-là facturées
+en entier au tarif du pays d'arrivée (Suisse → France : 371 km au tarif français, alors que la Suisse n'a aucun péage
+kilométrique). Sans le fichier, aucun péage n'est estimé : plutôt rien qu'un montant inventé.
+Une case VOISINE compte aussi, soit une tolérance d'environ 28 km autour du trait : le moteur ne calcule pas
+d'itinéraire, et la ligne droite s'écarte de l'autoroute réelle (entre Lyon et Marseille, elle passe 20 km à l'est de
+l'A7). Sans cette tolérance, le rapport montant estimé / prix officiel des 38 liaisons de référence tombe à une médiane
+de **0,54** (le péage était sous-estimé de moitié) ; avec elle, il remonte à **0,97** (q25 0,86 ; q75 1,07). Exemples
+mesurés avec le code actuel (9e audit du 18/09/2026) : Lyon → Marseille 33,9 € pour 28,10 € réels, Paris → Lille 24,8 € pour
+18,90 €, Toulouse → Bordeaux 26,0 € pour 22,90 €. La contrepartie est assumée : un trajet gratuit qui longe une
+autoroute payante peut se voir attribuer quelques kilomètres (mesuré : 7,1 € sur Rennes → Nantes, gratuite, dont le tracé passe à portée de l'A11 et de l'A83).
+En revanche, une région sans aucune autoroute à péage — Corse, pointe bretonne, La Réunion — reste bien à 0 €.
+La grille complète compte **1 699 cases (28 Ko)** et couvre les 17 pays à barème : FR 426, JP 374, IT 256, TR 115,
+ES 95, GR 88, HR 84, MA 76, PT 58, RS 52, TW 28, MK 13, BA 12, TN 8, IL 6, AZ 5, SN 3. Aucun pays à barème n'est
+resté vide. À noter : seule la FRANCE a été recalibrée et validée liaison par liaison au 7e audit ; les seize autres
+barèmes au kilomètre restent ceux des audits précédents, avec leurs sources, et n'ont pas été revérifiés ici. L'affichage le dit
+maintenant (`toll.estimateNote`, traduite dans les 161 langues) : « Estimation au kilomètre : le montant réel dépend des
+sections réellement empruntées. »
+
+Deux données tirées au sort dans le moteur ont disparu au passage : le TYPE de péage (« flux libre » / « à barrière »,
+choisi à pile ou face avec 25 % de chances) et le « vous gagnez environ N min », issu d'un pourcentage aléatoire entre
+15 et 30 % — qui, en prime, RACCOURCISSAIT la durée annoncée du trajet. Le manat azerbaïdjanais était converti à 1,85
+AZN/EUR (relevé xe.com périmé) au lieu de **1,9493** (taux officiel de la Banque centrale d'Azerbaïdjan au 17/09/2026) :
+les trois classes étaient surestimées d'environ 5 %.
+
+**2. Distances et durées : deux constantes jamais mesurées.** Le facteur routier (`ROAD_FACTOR`, distance par la route =
+vol d'oiseau × 1,17) et les vitesses par mode (82 / 81 / 78 / 70 / 85 / 17 km/h) n'étaient sourcés nulle part. Ils le
+sont maintenant :
+
+- `scripts/measure-road-factor.js` calcule de VRAIS itinéraires routiers avec OSRM (profil voiture, données
+  OpenStreetMap) entre villes de plus de 20 000 habitants tirées des données du projet. Relevé du 17/09/2026, conservé
+  dans `data/road-factor-osrm.json` : **128 itinéraires, 16 pays, étapes de 80 à 500 km** — facteur médian **1,287**
+  (q25 1,216 ; q75 1,399 ; moyenne 1,327), vitesse moyenne médiane **79,4 km/h** (Europe 85,9). La valeur 1,17
+  sous-estimait donc toutes les distances — et donc les durées et le budget carburant — d'environ 10 %. `ROAD_FACTOR`
+  passe à **1,287**.
+- Les vitesses passent toutes à **80 km/h** pour les véhicules motorisés. Le code de la route ne distingue pas la
+  motorisation, et l'article R413-2 (Legifrance, LEGIARTI000042240048) fixe les mêmes limites — 130 / 110 / 80 — pour
+  tous les véhicules de moins de 3,5 t, **motos comprises** : rien ne justifiait de faire rouler une moto plus vite
+  qu'une voiture, une hybride moins vite qu'une thermique, ni une électrique moins vite encore (son temps de recharge
+  est déjà compté à part). Un fourgon aménagé conduit avec le permis B a un PTAC de 3,5 t au plus
+  (service-public.gouv.fr F2827) : régime voiture lui aussi. Le vélo passe de 17 à **15 km/h** : « un cycliste standard
+  parcourt environ 50 à 60 km par jour à une vitesse moyenne de 15 km/h sans pause » (EuroVelo / European Cyclists'
+  Federation, consulté le 18/09/2026), cohérent avec les 65 km/jour d'un itinérant relevés par France Vélo Tourisme.
+
+Mesuré après ces changements, sur 1 140 tirages (5 par pays, 4 modes de transport) : **0 traversée maritime par la
+route, 0 saut de masse terrestre sans ferry**, 28 tirages vides sur 1 140 (2,5 %, contre 27 avant), 341 ms au maximum
+par tirage.
+
+**3. Robustesse du serveur et deux régressions des audits précédents.**
+
+- L'index de recherche sur disque était lu sans aucune vérification : un index tronqué (disque plein, copie
+  interrompue, construction tuée) donnait des lieux vides ou des noms coupés, sans la moindre erreur. Les sept fichiers
+  sont désormais vérifiés à l'ouverture (tailles croisées avec `meta.json`, dernier décalage comparé à la taille réelle
+  des fichiers de données) et toute lecture courte lève une erreur. Sa construction écrit par boucle
+  (`fs.writeSync` peut n'écrire qu'une partie du tampon, et sa valeur de retour était ignorée).
+- La grille terre/mer (`lib/land-grid.bin`) échouait à la PREMIÈRE vérification de mer, pas au chargement, et un
+  fichier absent ne disait rien du tout — alors que sans elle, plus aucune traversée maritime n'est détectée. En-tête,
+  dimensions et longueur de chaque ligne sont vérifiés une fois pour toutes, et l'état des deux grilles (terre/mer et
+  voies à péage) est exposé par `GET /api/status`.
+- Verrou de construction de l'index : il ne portait que le PID du serveur. Si celui-ci mourait pendant la construction,
+  un autre démarrage jugeait le verrou orphelin et lançait une seconde construction dans le même dossier. Le verrou
+  porte maintenant les deux PID (serveur puis enfant) et reste « vivant » tant que l'un des deux l'est.
+- Arrêt propre ajouté : `SIGTERM`/`SIGINT` laissent finir les réponses en cours (un export PDF de plusieurs secondes
+  était coupé net par un redémarrage cPanel), `server.on('error')` donne un message clair si le port est pris, et une
+  promesse rejetée sans `catch` ne tue plus le process (~40 s de rechargement pour une simple erreur d'appel sortant).
+- **Régression du 3e audit corrigée** : la place dans la file des appels sortants n'était rendue qu'à la fin du
+  traitement. Un visiteur qui changeait de page bloquait sa propre IP jusqu'à 30 s (mesuré : 429 au bout de 20,02 s).
+  Elle est maintenant rendue 5 s après la fermeture de la connexion — assez pour que l'appel sortant déjà lancé se
+  termine, sans qu'une connexion coupée annule la limite. Mesuré après correction : 200 en 4,6 s au lieu d'un refus.
+- **Régression du 3e audit corrigée** : le quota des gros fichiers statiques était déclaré APRÈS le service des
+  fichiers précompressés, donc les réponses brotli/gzip — le cas normal — n'étaient jamais comptées. Mesuré avant :
+  35 requêtes brotli d'affilée toutes servies ; après : 30 servies, puis 429.
+
+**4. Un PDF de 36 pages pour trois jours de voyage.** Découvert en vérifiant l'export de bout en bout : un itinéraire
+de 3 jours sortait en **36 à 45 pages**, presque toutes vides, avec une ligne par page et des liens dont le rectangle
+cliquable débordait de la feuille (`/Rect [94 -570.11 274.88 791.89]`). La cause est dans `lib/pdf-text.js` : la
+fonction qui MESURE la largeur d'un texte le fait à la taille 1000 (largeur par unité, réutilisable à toutes les
+tailles) et ne remettait pas la taille d'origine dans pdfkit. L'appelant demandait juste après `doc.currentLineHeight()`
+et obtenait **~1 362 points au lieu de 13,6** : chaque ligne « dépassait le bas de page » et déclenchait un saut. Le
+défaut ne se produisait qu'à la PREMIÈRE mesure d'un texte donné — ensuite le cache des largeurs répondait sans toucher
+au document — d'où un comportement en apparence aléatoire, et une reproduction impossible sans mesurer. La fonction
+restaure désormais la police et la taille. Mesuré après correction : le même itinéraire tient sur **1 page**, 21 Ko au
+lieu de 37 Ko.
+
+**5. Huit lieux insulaires accessibles par la route.** Vérification lieu par lieu (recensements officiels, longueurs
+de voirie mesurées dans OpenStreetMap, recherche d'un ferry transportant les VÉHICULES) : les huit étaient rattachés à
+une grande île ou au continent, donc joignables par un trait de route à travers la mer.
+
+| lieu | était rattaché à | réalité | désormais |
+| --- | --- | --- | --- |
+| Xiaochangshan et 70 autres lieux de l'archipel de Changshan (Dalian) | `continental` | pont de Changshan entre Dachangshan et Xiaochangshan (3 450 m, 2014), mais rien vers le continent : un client-roulier Pikou ↔ Yuanyang dont aucun tarif officiel n'est publié | masse `changshan`, sans liaison |
+| Islas de Gigantes, Norte et Sur (Iloilo) | `panay` (code postal 5019) | 13 000 habitants, aucune route entre les deux îles, seulement des pump boats | deux masses distinctes, sans liaison |
+| Hagdan et Waga, île de Kinatarkan (Cebu) | `cebu` (code 6047, partagé avec le nord continental de Cebu) | 23,5 km de routes sur l'île, bangkas seulement — le RoRo Hagnaya ↔ Santa Fe dessert Bantayan, 12 km plus loin | masse `kinatarkan` |
+| San Vicente (Northern Samar) | `leyteSamar` (code 6419) | municipalité insulaire de 6 928 habitants, un bateau à moteur quotidien, aucun RoRo | masse `sanVicenteSamar` |
+| Ko Tarutao (Satun) | `continental` | 18 km de piste du parc national, vedettes à passagers depuis Pak Bara, véhicules du parc seulement | masse `koTarutao` |
+| Dahlak Kebir et 20 lieux des Dahlak (Érythrée) | `continental` (aucune règle d'île pour l'Érythrée) | pistes sur place, aucune liaison véhicule publiée depuis Massaoua | masse `dahlakKebir` + îlots isolés |
+| Mas et 10 lieux de l'île de Karas (Fakfak) | `newGuinea` | aucune route cartographiée sur l'île, desserte perintis toutes les deux semaines | chaque lieu isolé |
+| Chrysí, au sud de la Crète | `crete` (code 72200) | île **inhabitée** (2 habitants en 2011), aucune route, débarquement réglementé (Natura 2000) | lieu isolé |
+
+Aucune liaison n'a été inventée pour autant : là où le seul tarif trouvé venait d'un portail d'information local et non
+de l'opérateur (Changshan), la règle du projet s'applique — pas de tarif officiel publié, pas de liaison. Ces îles ne
+sont donc plus proposées comme étape d'un road trip, ce qui est la vérité du terrain.
+
+Effet de bord découvert au passage, et corrigé : les règles d'Izena, d'Iheya et d'Iwaishima ajoutées la veille (voir
+« Trois îles japonaises mal classées ») avaient été écrites directement dans `public/js/trip-data.js` au lieu des
+fichiers sources `scripts/iles/` — la première régénération des règles les a effacées, liaisons comprises. Elles
+vivent désormais dans `scripts/iles/iles-audit7.js`, avec le reste. Contrôle après régénération : 128 pays,
+621 liaisons, 704 liaisons de ports vérifiées.
+
+**Drapeaux des suggestions de villes.** La liste de suggestions affichait un émoji drapeau devant chaque commune,
+pour distinguer d'un coup d'œil deux homonymes de pays différents (le San Marino saint-marinais des sept villages
+italiens du même nom). Sous Windows, cet émoji ne s'affiche pas : le système ne fournit aucune image pour les paires
+d'indicateurs régionaux et le navigateur retombe sur deux lettres encadrées. Les suggestions utilisent désormais les
+mêmes images SVG locales que le sélecteur de langue (circle-flags, licence MIT) : 133 drapeaux manquants ont été
+ajoutés, plus 6 codes qui n'existaient chez circle-flags que sous forme d'alias (Sainte-Hélène, Svalbard, îles
+mineures américaines, Heard-et-MacDonald, Pays-Bas caribéens, Bouvet), soit **264 fichiers pour 169 Ko** couvrant les
+239 pays et territoires. Un fichier manquant ferait revenir l'émoji (repli sur l'événement `error` de l'image).
+
+**Interface, accessibilité et mentions légales.** Les libellés d'unité (`km autour du départ`…) ne pouvaient pas revenir
+à la ligne et débordaient dans les langues à formulation longue. La page d'accueil affichait « Tirage en cours… » avant
+tout tirage. Les erreurs d'export PDF n'étaient annoncées à aucun lecteur d'écran (`role="status"`, `aria-busy`, et le
+focus clavier rendu au bouton). Les couleurs ont été mesurées et corrigées : `--ink-faint` (2,5 à 3,0 alors qu'il sert à
+du vrai texte) passe à 4,54-5,38 ; `--tension-orange`, `--accent-2` (icônes) et `--line-strong` (contours de champs,
+seuil 3:1 de la règle WCAG 1.4.11) atteignent leur seuil ; l'orange de marque reste inchangé pour les boutons, avec une
+variante `--accent-text` lisible quand il sert de couleur de texte. Les grilles passent en `minmax(min(200px, 100%), 1fr)`
+(à 200 % de zoom, une colonne de 200 px minimum débordait). Cinq règles `[dir="rtl"]` remettent à l'endroit la flèche
+entre les deux dates, le chevron des menus déroulants, la pastille des interrupteurs et la croix de la visionneuse de
+photos. Le tracé de la carte reprend les couleurs du thème quand on en change (elles étaient lues au moment du dessin).
+Une feuille d'impression a été ajoutée : imprimer la page donnait le formulaire, la roulette et la carte interactive.
+Enfin les mentions légales portent le **téléphone de l'hébergeur** (obligatoire, article 6-III-1 de la LCEN), la
+politique de confidentialité identifie le **responsable du traitement** (article 13.1.a du RGPD) et ne dit plus que
+l'export PDF est envoyé « à votre serveur ». Le pied de page annonce désormais qu'aucune donnée personnelle n'est
+**conservée** (et non « collectée ») : l'adresse IP est bien vue par le serveur, une minute au plus, en mémoire vive,
+pour limiter le débit — c'est écrit noir sur blanc dans la politique de confidentialité.
+
+**Zones à tension : deux alertes infirmées, une confirmée.** Vérification faite sur les fiches « Conseils aux
+voyageurs » de France Diplomatie (consultées le 18/09/2026) : le classement de **Cuba** (orange sur toute l'île) et du
+**Honduras** (orange, sauf îles de la Baie, Valle et Copán) est exactement celui de la source — rien à corriger. En
+revanche l'exception mexicaine « Ixtapa-Zihuatanejo », un cercle de 12 km, neutralisait le rouge de l'État de Guerrero
+sur **53 lieux**, dont une cinquantaine de hameaux de l'arrière-pays que la fiche laisse en rouge. Elle est ramenée aux
+deux localités de la station balnéaire (5 et 4 km, 13 lieux), et le libellé rappelle que France Diplomatie ne reconnaît
+ces exceptions qu'« à la condition expresse de s'y rendre par la voie aérienne » — condition qu'un itinéraire routier
+ne remplit jamais.
+
+### Troisième passe d'audit (17-18 septembre 2026)
+
+Quatre audits en lecture seule (chaîne PDF, sécurité du serveur, interface et traductions, moteur et données), puis
+correction. Les points les plus lourds ont leur propre section ci-dessus ou ci-dessous ; le reste :
+
+- **Polices du site cassées par une règle du `.htaccess`** : le dossier des polices du PDF, ajouté à la racine sous le nom
+  `fonts/`, occupait la même adresse que `public/fonts/` (polices d'affichage du tifinagh, de l'éthiopien, du tibétain,
+  du thâna et du yi, servies par Node à `/fonts/…`). Bloquer `fonts` chez Apache les redirigeait toutes : ces écritures
+  s'affichaient en carrés. Dossier renommé `pdf-fonts/`, règle corrigée.
+- **Files d'attente par IP** (appels vers Overpass, Wikipédia, Visorando) : plafond par adresse ramené à une fraction du
+  plafond global (1 sur 2 Overpass, 3 sur 6 Wikipédia — une seule adresse pouvait les occuper entièrement) ; place rendue
+  à la FIN du traitement et non à la fermeture de la connexion (des requêtes abandonnées volontairement annulaient la
+  limite) ; attente en file plafonnée à 20 s. Mesuré : un voyage de 21 jours / 15 villes obtient ses 56 requêtes sans
+  aucun refus, en une trentaine de secondes au lieu d'une dizaine.
+- **`/api/hike`** exige désormais un pays connu et des coordonnées valides (sans pays, la route appelait Visorando pour
+  n'importe quel nom : relais ouvert, et cache pollué par des recherches sans résultat).
+- **Fichiers statiques volumineux** : 30 requêtes par minute et par IP sur `i18n.js`, `trip-data.js`, `app.js` et
+  `style.css` — un client refusant la compression pouvait tirer 11 Mo par requête sans aucun quota.
+- **Recherche de ville** soumise aussi au budget de calcul global (une recherche à froid lit l'index de façon synchrone :
+  jusqu'à ~1 s) ; réponses d'API marquées `Cache-Control: no-store`.
+- **Moteur** : un minimum de jours par ville supérieur au nombre de nuits du séjour est ramené au maximum possible (il
+  donnait silencieusement moins de nuits que demandé).
+- **Interface** : durées en heures pleines affichées « 4 h et 0 min » au lieu de « 4 h » ; libellé du rayon en heures
+  réduit jusqu'à tenir dans le champ (tamoul, swahili, ourdou : valeur illisible car coupée) ; boutons de tirage
+  visiblement désactivés pendant la roulette ; unité annoncée aux lecteurs d'écran en mode heures ; statistiques au
+  singulier selon la langue (« 1 jour · 1 ville · 0 nuitée », « 0 nights » en anglais, formes russes correctes) via
+  `Intl.PluralRules` ; plafonds de budget au format de la langue ; caches du navigateur bornés ; une erreur d'affichage
+  ne laisse plus les statistiques du voyage précédent à l'écran ; annonce vocale retraduite ; `aria-describedby` mort
+  retiré.
+- **Dépendance `fontkit`** déclarée explicitement (elle n'était disponible que par héritage de `pdfkit`).
+
+### Trois îles japonaises mal classées (18 septembre 2026)
+
+Les 3 069 lieux retrouvés ci-dessus ont mis en lumière un défaut plus ancien des règles d'îles japonaises
+(`ISLAND_RULES.JP`) : une île habitée absente des règles est rattachée à la masse terrestre voisine, et le garde-fou
+« pas de route à travers la mer » ne rattrape rien en deçà de 25 km d'eau (`WATER_CHECK_KM`). Mesuré avant correction :
+3 tirages sur 25 au départ de Nago plaçaient une étape sur **Izena** atteinte PAR LA ROUTE (22 km de mer).
+
+- **Izena** et **Iheya** ont désormais leur propre masse terrestre, reliées à Okinawa par leurs vraies liaisons :
+  ferries municipaux au départ d'Unten (Nakijin), tarifs fixés par arrêté (pas de grille saisonnière ni de surcharge
+  carburant) — Izena : adulte 1 840 JPY, voiture 4-5 m 8 480 (conducteur inclus), van 6-7 m 13 880, moto 2 250, 55 min
+  ([village d'Izena](https://vill.izena.okinawa.jp/about/access/)) ; Iheya : adulte 2 480, voiture 10 340, van 22 640,
+  moto 4 150, 80 min ([village d'Iheya](https://www.vill.iheya.okinawa.jp/soshiki/9/1144.html)). Conversion à
+  185,92 JPY pour 1 EUR (InforEuro, septembre 2026), comme les autres liaisons japonaises. **Noho-jima** est reliée à
+  Iheya par le pont Noho Ōhashi (320 m) : même masse terrestre, sans traversée.
+- **Iwaishima** (Yamaguchi) est **isolée** : la liaison Yanai ↔ Iwaishima est assurée par un navire à passagers de 43
+  tonneaux sans pont-garage — aucun tarif véhicule n'existe, les automobilistes laissent leur voiture à quai
+  ([mairie de Kaminoseki](https://www.town.kaminoseki.lg.jp/), grille officielle sans ligne « 自動車航送 »). L'île n'est
+  donc jamais proposée à un road trip, plutôt que d'inventer une traversée.
+- Les 6 lieux d'Iheya, jusque-là chacun sur sa propre « île » (règle par défaut d'Okinawa), donnaient des tirages vides ;
+  ils forment maintenant une vraie masse terrestre. Mesuré après correction : Izena et Iheya sont atteintes **par le
+  ferry**, 0 saut de masse terrestre sans traversée sur 40 tirages au départ de Nago.
+
+### Ce que le péage ne dit pas (18 septembre 2026)
+
+À lire avec la section ci-dessous. Le montant affiché n'est une estimation que pour les **17 pays** dont un barème
+kilométrique a pu être sourcé : France, Espagne, Portugal, Italie, Croatie, Bosnie-Herzégovine, Serbie, Macédoine du
+Nord, Grèce, Turquie, Azerbaïdjan, Israël, Japon, Taïwan, Maroc, Tunisie, Sénégal. Partout ailleurs, l'application
+n'affiche **aucun** montant de péage — y compris dans des pays qui en ont un, bien réel :
+
+- **Amérique du Nord** : autoroutes à péage des États-Unis (turnpikes du New Jersey, de Pennsylvanie, de Floride…),
+  autoroutes 407 ETR en Ontario, réseau *cuotas* mexicain — l'un des plus chers au monde rapporté au kilomètre.
+- **Amérique du Sud** : *pedágios* brésiliens, *peajes* chiliens et argentins, très présents sur les grands axes.
+- **Asie** : réseau chinois (le plus étendu du monde), Inde (*NHAI*), Indonésie, Malaisie, Corée du Sud, Philippines,
+  Vietnam, Thaïlande.
+- **Europe** : sections concédées en Pologne (A1, A2, A4), en Irlande (M50 et axes vers le sud), en Norvège
+  (~190 postes AutoPASS), au Royaume-Uni (M6 Toll, traversées de la Tamise), plus les grands ouvrages payants
+  scandinaves et danois.
+
+Ce silence est un **choix assumé** : aucun de ces réseaux n'a de barème kilométrique national publié qui puisse être
+cité, et la règle du projet est de ne jamais afficher un chiffre qu'on ne peut pas justifier. Il vaut mieux ne rien
+annoncer que d'annoncer un montant inventé — mais un voyageur qui prépare un trajet en Californie, au Brésil ou en
+Chine doit savoir que l'absence de ligne « péage » ne veut PAS dire que la route est gratuite. Les vignettes
+(Suisse, Autriche, Slovénie, Tchéquie, Hongrie, Slovaquie, Bulgarie, Roumanie…) sont, elles, traitées à part et bien
+affichées, avec le lien officiel d'achat : voir la section « Pays couverts » ci-dessus.
+
+### Seconde passe d'audit (17 septembre 2026)
+
+- **Budget de calcul par IP** (`CPU_BUDGETS_PER_IP`) : 10 s par minute et 4 s par 10 s par adresse, au-delà 429 pour elle
+  seule. Mesuré avant : deux tirages de 4 s d'une même IP suffisaient à faire répondre « busy » à tous les visiteurs. La
+  recherche de ville n'est plus refusée pour cause de charge globale (budget de l'IP seulement).
+- **Appels tiers par IP** : au plus 2 requêtes `/api/pois` + `/api/hike` et 4 `/api/photo` en cours par adresse, les
+  suivantes attendent leur tour (file bornée, puis 429) — une adresse ne peut plus occuper seule les créneaux Overpass.
+- **Wikitexte** : titres contenant « : » refusés (pages utilisateur, discussions), article géolocalisé vérifié AVANT le
+  téléchargement du wikitexte, analyse bornée (600 Ko de page, 40 Ko de section, puces de 400 caractères) ; une puce
+  piégée de 60 Ko bloquait le serveur 5 s.
+- **`/data`** : filtre sur le chemin normalisé (`/./data/…`, `/%2e/data/…`, `/js/../data/…` servaient les fichiers côté
+  Node ; Apache les bloquait déjà en production). Nom de fichier PDF rendu bien formé (`toWellFormed`), pays de
+  `/api/photo` limité à deux lettres, `TRUST_PROXY` configurable, verrou d'index retiré par renommage atomique.
+- **Moteur** : un tirage interrompu ne renvoie plus une dernière étape hors du rayon de retour (Moscou, rayon 50 km :
+  étape à 1 000 km) ; itinéraire incomplet faute de temps → `timedOut` ; une étape unique (aller-retour) respecte le
+  rayon ; distance minimale introuvable → `minDistanceNotFound` (message dédié) au lieu d'un itinéraire de secours qui
+  l'ignorait ; minimum > maximum refusé ; nom de la ville de départ transmis aux règles d'îles (Galatás classé sur Póros) ;
+  codes postaux `__proto__`/`constructor` sans effet ; paramètres non textuels refusés.
+- **Client** : boutons de tirage bloqués jusqu'à l'affichage du voyage (un tirage relancé pendant la roulette puis
+  refusé laissait l'écran bloqué) ; changement de langue pendant la roulette sans libellés de l'ancien voyage ; date de
+  fin du PDF = fin réelle du séjour plafonné ; `selected_currency` sur les liens Booking ; montants au format de la
+  langue ; nom du pays des suggestions traduit ; champs numériques nommés pour les lecteurs d'écran ; messages 429/503 à
+  l'export PDF ; politique de confidentialité complétée (limitation de débit en mémoire, liste des liens tiers).
+- **Limites connues** (toutes corrigées depuis : sections suivantes) : durées « 2h46 » non localisées, photos redemandées
+  à chaque changement de langue, PDF en français.
+
+### Durées et photos dans la langue du visiteur (17 septembre 2026)
+
+- **Durées** : « 2h46 » et « 45 min » s'affichaient tels quels dans toutes les langues (écran et PDF). Le moteur renvoie
+  désormais aussi `travelMin` (et `roadMin` pour la partie par la route d'une traversée) ; le navigateur les formate
+  avec `Intl.DurationFormat` (« 2 h et 46 min », « 2 時間 46 分 », « 2 ч 46 мин », « 2 س و46 د »), sinon les unités
+  d'`Intl.NumberFormat`, sinon l'ancien libellé — sans nouvelle traduction, avec la même langue de repli que les dates
+  (`localeTag`). Forme compacte (« 4h 30min ») dans le champ du rayon exprimé en heures. `travelTime`/`roadTime` restent
+  pour les calculs du moteur et les anciens clients (relus si les minutes manquent).
+- **Photos au changement de langue** : le cache des photos du navigateur ne dépend plus de la langue. Les photos déjà
+  affichées restent ; en arrière-plan, deux requêtes à la fois, chaque lieu est redemandé dans la nouvelle langue pour
+  mettre à jour le lien Wikipédia (article dans la langue s'il existe, sinon lien précédent conservé) et l'image quand
+  il n'y en avait pas. Un seul redessin du journal de bord une fois la file vidée ; une langue rechangée entre-temps
+  abandonne les requêtes devenues inutiles. Avant : jusqu'à ~90 requêtes simultanées et images rechargées sous les yeux.
+
+### Lieux écartés à tort faute de point postal (17-18 septembre 2026)
+
+`build-asie-communes.js` rattache chaque lieu au point postal GeoNames le plus proche à moins de 15 km, et écarte les
+autres. Deux défauts, corrigés en deux temps :
+
+1. **Points postaux mal placés.** Le fichier postal (données Japan Post) place tous les codes de certaines municipalités
+   au même point, parfois très loin : les 13 codes d'Okushiri (043-1400 à 043-1525) sont à 41,9076 N ; 140,2695 E, sur le
+   continent à ~70 km de l'île. Aucune localité de l'île n'était publiée, et la liaison ferry Esashi–Okushiri ne pouvait
+   jamais servir. Faute de point assez proche, le code est désormais pris par LOCALITÉ (mêmes codes administratifs
+   GeoNames — préfecture, district, municipalité — et nom identique à celui d'une seule ligne postale), sinon par
+   MUNICIPALITÉ (règle qui n'existait que pour les Philippines). Les deux règles valent pour les huit pays à codes
+   postaux du lot (IN, ID, JP, KR, PH, BD, LK, SG).
+2. **Fenêtre de recherche trop étroite** (3e audit du 17/09/2026) : la grille du plus proche point (cellules de 0,1°)
+   n'était parcourue que sur ±1 cellule, ce qui ne couvre pas 15 km ; 1 760 lieux étaient déclarés « sans point à moins
+   de 15 km » alors qu'il en existait un (Sirajganj, 127 481 habitants, point à 12,0 km), et d'autres rattachés à un
+   point plus éloigné que le plus proche réel. La fenêtre est maintenant calculée depuis le rayon demandé et la latitude.
+
+Résultat : **3 069 lieux retrouvés, aucun lieu existant perdu**, 738 codes postaux corrigés — Inde 1 525 (dont Virār,
+1,2 M d'habitants, Verāval, Zahirābād), Bangladesh 940 (dont Mymensingh, 225 000), Japon 349 (Okushiri, Tsushima, Izena,
+Iheya, péninsule de Shimokita, Erimo, côte de Namie…), Indonésie 206 (Papouasie : Timika, Wamena), Philippines 31,
+Sri Lanka 18 (péninsule de Jaffna), Corée 1. Les noms alternatifs correspondants ont été ajoutés aux fichiers
+`aliases-*.txt` **sans les régénérer** : le script officiel écraserait les langues fournies par d'autres scripts (1 499
+lignes pour le seul Japon). Reconstruction d'un seul pays : `ONLY_COUNTRY=JP node scripts/build-asie-communes.js`.
+Mesuré : départ d'Okushiri, circuit sur l'île sans ferry ou voyage par la traversée ; départ d'Esashi, l'île peut être
+tirée.
+
+### Charge, budget de temps et protections (audit complet du 17 septembre 2026)
+
+- **Budget de temps d'un tirage** : le moteur est synchrone ; un tirage ne dépasse pas ~4 s (`TRIP_TIME_BUDGET_MS`).
+  Au-delà, plus aucun candidat n'est tiré et un chemin par la terre non encore trouvé compte comme absent (trajet refusé) :
+  l'itinéraire est renvoyé s'il est déjà valide, sinon `{ legs: [], timedOut: true }` (message dédié côté client). Avant
+  ce budget, certains réglages extrêmes (3 000 km d'éloignement depuis Moscou, Nuuk, l'Ukraine…) bloquaient le process 20 à
+  107 s pour tous les visiteurs. Un départ isolé sans liaison ferry renvoie immédiatement un tirage vide.
+- **Budget de calcul global** (`CPU_BUDGETS`, server.js) : tirages, exports PDF et recherches lentes (> 50 ms) partagent
+  au plus 25 s de calcul par minute et 7,5 s par 10 s, toutes IP confondues ; au-delà, `503 {"error":"busy"}` avec
+  `Retry-After`. Un seul export PDF à la fois, 20 lignes au plus par étape, liens limités aux hôtes connus de
+  l'application (https) ; avertissements des zones déconseillées (départ et étapes) repris dans le PDF.
+- **Appels sortants** limités : Overpass 2 simultanés (25 s au total pour les trois miroirs), Wikipédia 6, Visorando 2,
+  Wikidata 2 ; un échec ou une saturation n'est jamais mis en cache. Recherche de ville : 60 requêtes par minute par IP.
+- **Compression** : les données de lieux ne sont jamais compressées par le serveur. Les gros fichiers statiques du
+  navigateur (`js/i18n.js`, `js/trip-data.js`, `js/app.js`, `css/style.css`) sont compressés une seule fois en
+  mémoire (brotli qualité 9 et gzip) une fois le moteur prêt, puis servis sans recalcul (i18n.js : ~775 Ko en brotli au
+  lieu de 11 Mo) ; avant, ou si un fichier change sans redémarrage, compression à la volée. `/api/status` l'indique
+  (`precompressed`).
+- **Règles du moteur** : avec une distance d'éloignement, le premier trajet (et le retour d'un séjour à une seule
+  étape) peut dépasser la distance max entre étapes jusqu'à 1,4 × la distance d'éloignement, plus au-delà ; la ville de
+  départ n'est jamais tirée comme étape (même nom normalisé ou lieu à moins de 2 km) ; les parties par la route d'un
+  trajet avec ferry sont contrôlées comme un trajet ordinaire (eau, frontière, bornes ; pays du port = lieu le plus proche
+  de la même masse terrestre à moins de 40 km) ; le retour d'une excursion d'un jour est contrôlé ; recherche de lieux,
+  grille terre/eau et bornes fonctionnent autour de l'antiméridien (Fidji, Tchoukotka) ; `tripStart` doit être une date
+  réelle AAAA-MM-JJ entre l'année précédente et trois ans plus tard (sinon aujourd'hui) ; une devise préférée sans barème
+  se replie sur celle du pays puis l'euro.
+- **Recherche sur disque** : `cache/search-index/countries.json` (facultatif) contient les plages de lieux par pays,
+  écrit à la construction ou calculé à l'ouverture d'un index plus ancien.
+- **Péages sur les îles** : le barème kilométrique d'un pays s'appliquait à toutes ses îles (un trajet en Corse affichait
+  ~13 € de péage « évités »). Il ne s'applique plus qu'aux masses terrestres dotées d'autoroutes à péage
+  (`TOLL_LANDMASSES`, trip-data.js) : France métropolitaine, péninsules espagnole et portugaise, Italie continentale et
+  Sicile, Grèce continentale (la Crète n'a aucun poste de péage en service en 2026), Honshū/Hokkaidō/Okinawa, île de
+  Taïwan, et le continent pour la Croatie, la Turquie, la Tunisie et le Sénégal. Sources dans le commentaire.
+- **Données** : la liaison Esashi–Okushiri était inutilisable, aucun lieu d'Okushiri dans les données japonaises —
+  corrigé, voir « Lieux japonais sans point postal proche » plus bas.
+
 ### PDF traduit dans les 161 langues (17 septembre 2026)
 
 Le PDF mélangeait le français du serveur et la langue de l'interface, avec les 14 polices standard PDF (Helvetica,
@@ -4736,7 +4870,9 @@ Times) incapables d'afficher le cyrillique, le grec, l'arabe, les écritures d'A
   dans une écriture non couverte (ex. syriaque, n'ko, gurmukhi, gujarati, oriya, telugu, kannada) affichés en carrés ;
   la qualité des traductions de `pdf.subtitle` / `pdf.generated` est faible pour les langues rares (liste de l'agent).
 - **Protections de l'export** (3e audit du 17/09/2026) : corps limité à 32 ko (un corps de 109 ko en hindi, sous
-  l'ancienne limite de 128 ko, demandait 20 s de mise en page — process bloqué pour tous pendant ce temps) ; budget de
+  l'ancienne limite de 128 ko, demandait 20 s de mise en page — process bloqué pour tous pendant ce temps ; limite
+  portée à **256 ko** au 17e audit du 20/09/2026, mesures à l'appui : 32 ko refusaient un vrai voyage dans **toutes**
+  les langues, voir « Dix-septième passe d'audit ») ; budget de
   mise en page de 3,5 s (`PDF_BUILD_BUDGET_MS`) au-delà duquel le document s'arrête avec la mention « document tronqué »
   (clé `pdf.truncated`) ; plafond de puces par étape renommé `PDF_MAX_BULLETS_PER_LEG` (il ne bornait que leur nombre,
   jamais leur longueur) ; pagination des paragraphes longs (des lignes s'écrivaient sous le bas de page et étaient

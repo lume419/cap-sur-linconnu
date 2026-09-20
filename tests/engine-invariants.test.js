@@ -142,11 +142,17 @@ function runCampaign(){
       let r2 = null;
       try { r2 = H.withSeed(seed, () => E.generateTrip(again)); } catch(e){ r2 = { error: e.message }; }
       res.replays = (res.replays || 0) + 1;
-      // Et X doit être le MAXIMUM : au-delà (X + 15 km, sous l'éloignement demandé), plus aucun itinéraire (16e audit du
-      // 20/09/2026 — au 15e, seuls 24 lieux étaient contrôlés et X pouvait être très en dessous : Leganes annonçait
-      // 161 km alors que 199 km marchait).
-      const up = r.returnCapKm + 25; // précision du balayage par tranches (voir DAY_REACH_BUCKET_KM)
-      if(up < params.minDistanceKm){
+      // Et X doit être le MAXIMUM : au-delà (X + 5 km, sous l'éloignement demandé), plus aucun itinéraire. Le balayage
+      // est exhaustif depuis le 17e audit ; au 15e, 24 lieux seulement étaient contrôlés (Leganes annonçait 161 km pour
+      // 199 faisables) et au 16e le balayage par tranches laissait jusqu'à 71 km d'écart.
+      // Exigé SEULEMENT quand le moteur affirme avoir conclu (returnCapExact, 17e audit du 20/09/2026). Quand le budget
+      // de temps tombe au milieu du balayage, le moteur le dit et n'annonce plus qu'un minorant : Tallinn en van
+      // (graine 1002629) rendait 276 km pour 299 faisables, et exiger le maximum ferait alors échouer la campagne sur
+      // la CHARGE de la machine, pas sur un défaut. Ces cas sont comptés (capsApprox) pour rester visibles : s'ils
+      // devenaient nombreux, c'est le budget qu'il faudrait revoir.
+      const up = r.returnCapKm + 5; // balayage exhaustif depuis le 17e audit : X est le maximum, à l'arrondi près
+      if(r.returnCapExact === false) res.capsApprox = (res.capsApprox || 0) + 1;
+      if(up < params.minDistanceKm && r.returnCapExact !== false){
         let r3 = null;
         try { r3 = H.withSeed(seed, () => E.generateTrip(Object.assign({}, params, { minDistanceKm: up }))); } catch(e){ r3 = null; }
         if(r3 && r3.legs && r3.legs.length){
@@ -170,7 +176,7 @@ test('campagne de tirages aléatoires à graine (' + TRIPS + ' tirages, graine '
   fs.writeFileSync(file, campaign.violations.map(x => JSON.stringify(x)).join('\n'));
   const ts = campaign.times.slice().sort((a, b) => a - b);
   t.diagnostic(campaign.trips + ' tirages en ' + Math.round((Date.now() - t0) / 1000) + ' s ; vides ' + campaign.empties + ' ' + JSON.stringify(campaign.emptyKinds) +
-    ' ; médiane ' + ts[ts.length >> 1] + ' ms, max ' + ts[ts.length - 1] + ' ms ; contre-épreuves ' + (campaign.replays || 0) + ' ; ' + campaign.violations.length + ' violation(s) -> ' + file);
+    ' ; médiane ' + ts[ts.length >> 1] + ' ms, max ' + ts[ts.length - 1] + ' ms ; contre-épreuves ' + (campaign.replays || 0) + (campaign.capsApprox ? ' (dont ' + campaign.capsApprox + ' plafond(s) approché(s), budget de temps épuisé)' : '') + ' ; ' + campaign.violations.length + ' violation(s) -> ' + file);
   // La campagne doit produire des itinéraires (un moteur qui renverrait toujours des étapes vides passerait tout le reste).
   assert.ok(campaign.trips - campaign.empties >= campaign.trips * 0.4, 'trop de tirages vides : ' + campaign.empties + '/' + campaign.trips);
 });

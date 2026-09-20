@@ -27,18 +27,23 @@ function parseObjects(buf){
 }
 
 // Table ToUnicode : code (hexadécimal) -> texte. Les cibles peuvent contenir des espaces (ligature « fi » :
-// <0066 0069>).
+// <0066 0069>) et peuvent être VIDES : « <> » est la cible d'un glyphe sans valeur Unicode, que la composition
+// OpenType produit couramment (turc, azéri, gagaouze, tatar de Crimée, karakalpak, vietnamien, venda, touroyo…).
+// D'où « [0-9a-fA-F\s]* » et non « + » (17e audit du 20/09/2026) : avec « + », une cible vide n'était pas
+// reconnue comme une entrée du tableau d'un beginbfrange, TOUTES les suivantes étaient décalées d'un cran et le
+// texte rendu était faux — « CpenItreetṋap » au lieu de « OpenStreetMap ». Le pied de page des exports ne
+// pouvait donc pas être contrôlé dans ces langues.
 function parseCMap(txt){
   const map = new Map();
   const hexToStr = h0 => { const h = h0.replace(/\s+/g, ''); let out = ''; for(let i = 0; i + 4 <= h.length; i += 4) out += String.fromCharCode(parseInt(h.slice(i, i + 4), 16)); return out; };
   for(const blk of txt.matchAll(/beginbfchar([\s\S]*?)endbfchar/g)){
-    for(const m of blk[1].matchAll(/<([0-9a-fA-F]+)>\s*<([0-9a-fA-F\s]+)>/g)) map.set(m[1].toLowerCase(), hexToStr(m[2]));
+    for(const m of blk[1].matchAll(/<([0-9a-fA-F]+)>\s*<([0-9a-fA-F\s]*)>/g)) map.set(m[1].toLowerCase(), hexToStr(m[2]));
   }
   for(const blk of txt.matchAll(/beginbfrange([\s\S]*?)endbfrange/g)){
-    for(const m of blk[1].matchAll(/<([0-9a-fA-F]+)>\s*<([0-9a-fA-F]+)>\s*(\[[^\]]*\]|<[0-9a-fA-F\s]+>)/g)){
+    for(const m of blk[1].matchAll(/<([0-9a-fA-F]+)>\s*<([0-9a-fA-F]+)>\s*(\[[^\]]*\]|<[0-9a-fA-F\s]*>)/g)){
       const lo = parseInt(m[1], 16), hi = parseInt(m[2], 16), w = m[1].length;
       if(m[3][0] === '['){
-        const arr = [...m[3].matchAll(/<([0-9a-fA-F\s]+)>/g)].map(x => x[1]);
+        const arr = [...m[3].matchAll(/<([0-9a-fA-F\s]*)>/g)].map(x => x[1]);
         for(let c = lo; c <= hi && c - lo < arr.length; c++) map.set(c.toString(16).padStart(w, '0'), hexToStr(arr[c - lo]));
       } else {
         const base = m[3].slice(1, -1).replace(/\s+/g, '');
