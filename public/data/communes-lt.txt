@@ -32,6 +32,7 @@
 0;22.9763,55.6373;86001;Kelmės r. sav.;Žvilgiai
 0;22.3500,55.3333;73025;Tauragės r. sav.;Zvikiškė
 0;21.4359,55.7640;96008;Klaipėdos r. sav.;Žvelsėnai
+0;24.6217,56.3262;;Panevėžys;Žvejotgala
 0;23.4139,55.4409;60055;Raseinių r. sav.;Zvėgiai
 0;21.6825,55.7393;90021;Plungės r. sav.;Žvaginiai
 0;23.6208,54.4475;64037;Alytaus r. sav.;Žuvintai
@@ -50,6 +51,7 @@
 0;24.8481,55.2857;20057;Ukmergės r. sav.;Zujai
 0;22.8630,55.0363;71081;Šakių r. sav.;Zuikinė
 0;23.4078,56.3621;84025;Joniškio r. sav.;Žučiai
+0;24.4833,53.9333;;;Zubrovo
 0;23.2560,55.1795;74054;Jurbarko r. sav.;Zubrickai
 0;23.2872,54.3981;69030;Kalvarijos sav.;Zubriai
 0;24.2667,55.6667;38049;Panevėžio r. sav.;Zubiškiai
@@ -62,6 +64,7 @@
 0;23.3670,55.9081;76001;Šiaulių m. sav.;Zokniai
 0;25.2324,54.8243;14281;Vilniaus m. sav.;Žudiškės
 0;23.4228,56.1333;81024;Šiaulių r. sav.;Žmirkliai
+0;22.0044,55.8847;;Telsiai;Žlibinai
 0;25.4618,54.3866;17001;Šalčininkų r. sav.;Žlaugtai
 0;24.8022,56.0807;41062;Biržų r. sav.;Zizonys
 0;24.4290,55.4127;58072;Kėdainių r. sav.;Žižmiai
@@ -73,6 +76,7 @@
 0;23.2355,56.3472;84010;Joniškio r. sav.;Žiuriai
 0;22.7080,54.9766;74006;Jurbarko r. sav.;Žiūriai
 0;25.3531,55.2603;33001;Molėtų r. sav.;Žiūrai
+0;24.4030,54.1452;;Alytus;Žiūrai
 0;22.6085,55.1139;74009;Jurbarko r. sav.;Žirniškiai
 0;24.9772,54.9491;19017;Širvintų r. sav.;Žarnavagiai
 0;22.6472,55.5140;86026;Kelmės r. sav.;Žirnainiai
@@ -108,10 +112,12 @@
 0;21.9897,56.1835;89051;Mažeikių r. sav.;Žadeikiai
 0;23.9379,56.2989;83031;Pakruojo r. sav.;Žičiūnai
 0;23.5212,55.3806;60010;Raseinių r. sav.;Žibuliai
+0;26.1136,55.0405;;Vilnius;Ziboliškė
 0;21.1472,55.9591;00001;Palangos m. sav.;Žibininkai
 0;23.9617,55.5363;82058;Radviliškio r. sav.;Žibartoniai
 0;24.9937,55.0864;19001;Širvintų r. sav.;Zibalai
 0;21.2667,55.4000;99050;Šilutės r. sav.;Žiaukos
+0;24.4990,54.1119;;Alytus;Zervynos
 0;24.8395,54.4843;21013;Trakų r. sav.;Žėronys
 0;22.6873,56.1812;85019;Akmenės r. sav.;Žerkščiai
 0;21.3140,56.1651;98032;Skuodo r. sav.;Žemytė
@@ -187,6 +193,7 @@
 0;24.7341,55.9718;41033;Biržų r. sav.;Zaprutiškiai
 0;23.4570,55.9324;80001;Šiaulių r. sav.;Zapalskiai
 0;24.4315,54.7942;56017;Kaišiadorių r. sav.;Žalvarniai
+0;25.5626,54.4004;;Vilnius;Žaltūnai
 0;23.1165,55.4996;86065;Kelmės r. sav.;Žalpiai
 0;22.8597,55.4785;60043;Raseinių r. sav.;Žalpiai
 0;21.8128,55.3234;99011;Šilutės r. sav.;Žalpiai
@@ -201,6 +208,7 @@
 0;21.4382,55.3109;99044;Šilutės r. sav.;Žalgiriai
 0;22.1457,55.8867;88061;Telšių r. sav.;Zalepūgai
 0;23.4116,54.7979;69080;Kazlų Rūdos sav.;Dambravina
+0;25.9750,54.9726;;Vilnius;Zalavas
 0;23.3213,55.5029;60055;Raseinių r. sav.;Žalakiškiai
 0;22.6000,55.7949;86036;Kelmės r. sav.;Žalakiai
 0;25.5241,54.5797;13022;Vilniaus r. sav.;Zatišius
@@ -248,6 +256,8 @@
 0;21.5598,55.5916;96020;Klaipėdos r. sav.;Vyskupiškiai
 0;24.2717,55.7489;35001;Panevėžio m. sav.;Vynupė
 0;23.4596,55.1546;54046;Kauno r. sav.;Vyliaudai
+0;22.9333,54.4167;;Marijampolė County;Vygris
+0;22.9278,54.4156;;Marijampolė County;Vygreliai
 0;24.1833,55.2333;55066;Jonavos r. sav.;Vygiai
 0;21.9698,55.1993;99038;Šilutės r. sav.;Vydutaičiai
 0;21.1333,55.8833;00001;Palangos m. sav.;Vydmantai
@@ -286,6 +296,7 @@
 0;25.0719,54.6024;02233;Vilniaus m. sav.;Dobrovolė
 0;23.2811,54.6590;69065;Marijampolės sav.;Vladiškiai
 0;24.4476,54.8365;56001;Kaišiadorių r. sav.;Vladikiškės
+0;25.6000,54.4667;;Vilnius;Vizgirdai
 0;22.0500,55.3667;75020;Šilalės r. sav.;Vizbarai
 0;21.8527,56.3356;98050;Skuodo r. sav.;Vižančiai
 0;23.1391,54.6462;70001;Vilkaviškio r. sav.;Vilkiškiai
@@ -299,6 +310,7 @@
 0;23.7000,55.8833;82052;Radviliškio r. sav.;Vismantai
 0;22.2210,55.8205;88061;Telšių r. sav.;Vismaldai
 0;24.7161,55.4517;20054;Ukmergės r. sav.;Viškonys
+0;25.0748,54.3141;;Vilnius;Ūta
 0;24.9076,55.8417;40001;Kupiškio r. sav.;Vizgiūnai
 0;23.1031,55.6101;86061;Kelmės r. sav.;Visgailiai
 0;22.0086,55.5068;75026;Šilalės r. sav.;Visdziaugai
@@ -385,6 +397,7 @@
 0;24.0053,55.3055;57001;Kėdainių r. sav.;Vilainiai
 0;22.0562,55.2580;73010;Tauragės r. sav.;Vilaičiai
 0;23.7977,55.1526;54050;Kauno r. sav.;Vikūnai
+0;25.5715,54.4254;;Vilnius;Viktariškės
 0;24.8199,55.9004;40056;Kupiškio r. sav.;Viktariškiai
 0;25.4876,54.6889;11115;Vilniaus m. sav.;Viktariškės
 0;23.7794,54.0284;67027;Druskininkų sav.;Viktarinas
@@ -410,6 +423,7 @@
 1938;22.5167,56.2360;89091;Mažeikių r. sav.;Viekšniai
 0;22.5113,55.8426;88019;Telšių r. sav.;Viekšnaliai
 1788;24.0550,54.0550;66001;Druskininkų sav.;Viečiūnai
+0;26.1529,55.0226;;Vilnius;Vidutinė
 0;24.1653,55.4233;58063;Kėdainių r. sav.;Vidulaukiai
 0;22.8972,55.4041;60031;Raseinių r. sav.;Viduklė
 0;24.9613,55.7591;40030;Kupiškio r. sav.;Vidugiriai
@@ -420,6 +434,7 @@
 0;21.9209,55.4540;75023;Šilalės r. sav.;Vidgirė
 0;23.1969,54.8559;71041;Šakių r. sav.;Vidgiriai
 0;23.2101,54.5238;70013;Vilkaviškio r. sav.;Vidgiriai
+0;22.9641,54.4313;;Marijampolė County;Vidgiriai
 0;25.2766,55.2174;33031;Molėtų r. sav.;Videniškiai
 0;22.0333,55.1667;99023;Pagėgių sav.;Vidgiriai
 0;25.1027,54.9850;19005;Širvintų r. sav.;Vičiūnai
@@ -506,6 +521,7 @@
 0;24.5708,54.3430;65063;Varėnos r. sav.;Vazgirdonys
 0;24.0440,54.6557;59001;Prienų r. sav.;Važatkiemis
 0;21.9475,55.7178;90012;Rietavo sav.;Vatušiai
+0;25.7627,54.1795;;Vilnius;Vaškeliai
 0;24.2108,56.1673;39034;Pasvalio r. sav.;Vaškai
 0;22.5000,55.6685;86065;Kelmės r. sav.;Vašilėnai
 0;24.6833,55.3500;20054;Ukmergės r. sav.;Varžos II
@@ -537,6 +553,7 @@
 0;23.2309,55.5023;60058;Raseinių r. sav.;Varkaliai
 0;23.9500,55.3167;57001;Kėdainių r. sav.;Varkaliai
 0;24.4102,54.6891;56017;Kaišiadorių r. sav.;Varkalės
+0;25.5022,54.5321;;Vilnius;Varkalabiškės
 0;24.7060,55.4491;20054;Ukmergės r. sav.;Varlėnai
 1073;24.5509,54.2504;65001;Varėnos r. sav.;Senoji Varėna
 7892;24.5754,54.2155;65001;Varėnos r. sav.;Varėna
@@ -587,6 +604,7 @@
 0;23.5029,55.5217;82040;Radviliškio r. sav.;Valatkaičiai
 0;24.7706,55.3760;20054;Ukmergės r. sav.;Radeckai
 0;22.9484,55.0251;71081;Šakių r. sav.;Valenčiūnai
+0;25.4899,54.4408;;Vilnius;Valakininkai
 0;24.3342,56.0508;39001;Pasvalio r. sav.;Valakėliai
 0;22.8930,54.9329;74042;Jurbarko r. sav.;Valakbūdis
 0;23.1685,56.1824;81015;Šiaulių r. sav.;Valakai
@@ -596,6 +614,7 @@
 0;22.7090,55.1386;74001;Jurbarko r. sav.;Vajotai
 0;25.9546,55.5682;32007;Zarasų r. sav.;Vajasiškis
 0;23.8599,55.7367;82007;Radviliškio r. sav.;Vaižgai
+0;21.6333,55.2333;;Klaipėda County;Vaiženčiai
 0;24.4416,55.3646;58072;Kėdainių r. sav.;Vaivadiškiai
 0;24.2728,55.1405;55041;Jonavos r. sav.;Vaivadiškiai
 0;24.3970,55.7549;35001;Panevėžio m. sav.;Vaivadai
@@ -657,6 +676,7 @@
 0;25.5436,56.0403;42063;Rokiškio r. sav.;Vaidlėnai
 0;22.0926,55.3696;75020;Šilalės r. sav.;Vaidilai
 0;23.9615,55.3816;58050;Kėdainių r. sav.;Vaidatoniai
+0;24.7864,54.2191;;Vilnius;Vaidagai
 0;22.9859,54.6100;70001;Vilkaviškio r. sav.;Vaičlaukis
 0;24.5393,54.5059;21025;Trakų r. sav.;Vaickūniškės
 0;25.0160,55.3796;29015;Anykščių r. sav.;Vaičiuliškiai
@@ -692,6 +712,7 @@
 0;26.4766,55.6094;31001;Visagino sav.;Užupiai
 0;21.8435,55.7630;90012;Rietavo sav.;Užupiai
 0;24.1237,54.3587;62001;Alytaus m. sav.;Užupiai
+0;24.8523,54.3569;;Alytus;Užuperkasis
 0;24.0034,55.4831;58047;Kėdainių r. sav.;Užupė
 0;23.6793,55.8109;82052;Radviliškio r. sav.;Užuožeriai
 0;23.9125,55.1427;54073;Kauno r. sav.;Užumiškiai
@@ -716,6 +737,7 @@
 0;22.6801,55.9539;88011;Telšių r. sav.;Užpelkiai
 0;21.1311,55.9515;00001;Palangos m. sav.;Užpelkiai
 0;23.2506,55.6793;82046;Radviliškio r. sav.;Užpelkiai
+0;21.6385,55.2048;;Klaipėda County;Užpelkiai
 0;21.9368,56.2869;98050;Skuodo r. sav.;Viliotės Užpelkis
 0;22.0220,55.8175;90012;Rietavo sav.;Užpeliai
 0;22.0752,55.7512;88061;Telšių r. sav.;Užpeliai
@@ -822,6 +844,7 @@
 0;24.0929,54.9830;54085;Kauno r. sav.;Turžėnai
 0;23.3947,54.6585;69094;Marijampolės sav.;Tursučiai
 282;26.4608,55.6940;32004;Zarasų r. sav.;Turmantas
+0;25.5087,54.4554;;Vilnius;Turgeliai
 0;24.1253,56.1008;39027;Pasvalio r. sav.;Turčiniai
 0;22.8640,54.8668;71057;Šakių r. sav.;Turčinai
 0;22.8575,55.5132;60043;Raseinių r. sav.;Tūrava
@@ -930,6 +953,7 @@
 0;23.5879,55.9483;83022;Pakruojo r. sav.;Tyliai
 0;21.5801,56.2232;98041;Skuodo r. sav.;Tėveliai
 0;24.3493,56.1138;39001;Pasvalio r. sav.;Tetirvinai
+0;24.9667,54.3045;;Vilnius;Tetėnai
 0;23.4564,55.0284;71017;Šakių r. sav.;Tervydoniai
 0;24.8053,55.7938;40030;Kupiškio r. sav.;Terpeikiai
 0;24.0793,55.1258;55001;Jonavos r. sav.;Terespolis
@@ -987,6 +1011,7 @@
 0;24.7928,56.1367;41062;Biržų r. sav.;Tarosiškiai
 0;25.1479,54.5486;14124;Vilniaus m. sav.;Tarnėnai
 0;25.3858,55.7724;42028;Rokiškio r. sav.;Taraldžiai
+0;25.0528,56.2625;;Panevėžys;Tamošiūnai II
 0;23.2377,55.1734;74036;Jurbarko r. sav.;Tamošiai
 0;25.0933,55.1671;20015;Ukmergės r. sav.;Tolučiai
 0;24.5988,54.8321;56060;Kaišiadorių r. sav.;Talpūnai
@@ -998,6 +1023,7 @@
 0;24.2888,54.8003;56028;Kaišiadorių r. sav.;Tadarava
 0;22.7500,55.3333;74021;Jurbarko r. sav.;Tadaičiai
 0;23.7730,54.8810;53088;Kauno r. sav.;Tabariškės
+0;25.6045,54.4407;;Vilnius;Tabariškės
 0;22.7937,55.5246;86065;Kelmės r. sav.;Tabaliai
 0;24.2082,54.4527;64061;Alytaus r. sav.;Tabalenka
 0;21.3777,55.3256;99044;Šilutės r. sav.;Šyškrantė
@@ -1010,6 +1036,7 @@
 0;24.1733,55.1985;55066;Jonavos r. sav.;Svalkeniai
 0;24.1638,56.1992;39034;Pasvalio r. sav.;Švokštoniai
 0;24.1560,56.0605;39027;Pasvalio r. sav.;Švobiškis
+0;26.1443,55.0007;;Vilnius;Svitailiškė
 0;23.6122,56.3250;84001;Joniškio r. sav.;Svirpliai
 0;22.0273,55.9397;90042;Plungės r. sav.;Svirpliai
 0;23.0559,55.6290;86011;Kelmės r. sav.;Svirniai
@@ -1050,11 +1077,13 @@
 0;21.6002,55.2597;99001;Šilutės r. sav.;Svarai
 0;24.1230,55.7741;38049;Panevėžio r. sav.;Švaininkai
 0;25.5092,54.9900;33022;Molėtų r. sav.;Sužionys
+0;26.0866,55.8401;;Utena;Suviekas
 0;23.1249,54.6474;70001;Vilkaviškio r. sav.;Suvalkai
 0;25.2766,56.1567;42069;Rokiškio r. sav.;Suvainiškis
 0;24.9536,55.9279;40055;Kupiškio r. sav.;Suvainiai
 0;23.3327,55.9740;76001;Šiaulių m. sav.;Sutkūnai
 0;23.3006,54.9887;71005;Šakių r. sav.;Sutkai
+0;26.0508,55.0264;;Vilnius;Šutai
 0;23.3357,54.3741;67067;Alytaus r. sav.;Sūsninkai
 0;24.6839,55.5459;29030;Anykščių r. sav.;Surviliškis
 0;24.0340,55.4489;58047;Kėdainių r. sav.;Surviliškis
@@ -1172,6 +1201,7 @@
 0;22.1024,55.2427;73010;Tauragės r. sav.;Stirbaičiai
 0;21.9064,55.4996;75023;Šilalės r. sav.;Stigrėnai
 0;24.3595,55.6992;35001;Panevėžio m. sav.;Stetiškiai
+0;23.4510,55.4208;;Kaunas;Steponkaimis
 0;22.8523,55.9873;81001;Klaipėdos m. sav.;Steponiškė
 0;23.4293,55.2572;60010;Raseinių r. sav.;Stenioniai
 0;21.7952,55.5065;96032;Klaipėdos r. sav.;Stemplės
@@ -1236,6 +1266,7 @@
 0;25.2283,55.9768;42041;Rokiškio r. sav.;Sriubiškiai
 0;24.2667,55.3333;58005;Kėdainių r. sav.;Sriubiai
 0;22.2642,56.2691;89031;Mažeikių r. sav.;Spurganai
+0;25.9892,55.9316;;Panevėžys;Špuliai
 0;23.1829,55.7064;82046;Radviliškio r. sav.;Spudžiai
 0;23.8690,54.7454;53030;Kauno r. sav.;Sprindiškės
 0;21.8500,55.6667;90012;Rietavo sav.;Spraudis II
@@ -1313,6 +1344,7 @@
 0;22.7632,55.4192;60040;Raseinių r. sav.;Smeltynė
 0;23.7580,54.1288;67043;Lazdijų r. sav.;Smarliūnai
 0;26.3620,55.6413;31001;Visagino sav.;Smalvos
+0;24.9889,56.3024;;Panevėžys;Smaltiškiai
 0;22.4545,55.6369;86065;Kelmės r. sav.;Smalkviečiai
 599;22.5836,55.0757;74009;Jurbarko r. sav.;Smalininkai
 0;24.9632,56.0889;41012;Biržų r. sav.;Smaliečiai
@@ -1395,6 +1427,7 @@
 0;25.2100,54.9760;19005;Širvintų r. sav.;Skliausčiai
 0;25.5767,54.9129;15013;Vilniaus r. sav.;Sklėriškės
 0;24.8740,54.5648;21013;Trakų r. sav.;Šklėriai
+0;24.2389,53.9746;;Alytus;Šklėriai
 0;21.9145,55.2946;99011;Šilutės r. sav.;Skiržemė
 0;21.3667,55.3000;99044;Šilutės r. sav.;Skirvytėlė
 0;21.3636,55.2900;99044;Šilutės r. sav.;Skirvytė
@@ -1479,6 +1512,7 @@
 0;23.3930,54.4648;69022;Marijampolės sav.;Šimuliai
 0;25.1444,55.7391;40018;Kupiškio r. sav.;Šimonys
 0;23.8153,55.5897;82058;Radviliškio r. sav.;Simoniškiai
+0;26.1464,55.0446;;Vilnius;Simaniškė
 0;24.2889,56.0750;39001;Pasvalio r. sav.;Šimoniai
 0;24.8178,56.1639;41062;Biržų r. sav.;Šimneliškiai
 1864;23.6460,54.3820;64037;Alytaus r. sav.;Simnas
@@ -1503,12 +1537,15 @@
 0;22.7497,56.1691;85013;Akmenės r. sav.;Šiliškiai
 0;21.3809,55.5313;96047;Klaipėdos r. sav.;Šilininkai
 0;23.2986,55.3219;60028;Raseinių r. sav.;Šilininkai
+0;21.5425,55.2056;;Klaipėda County;Šilininkai
 0;22.7735,54.9837;74001;Jurbarko r. sav.;Šilininkai
 0;22.3333,55.9500;88028;Telšių r. sav.;Šilinė
 0;22.2843,55.1527;72001;Tauragės r. sav.;Šilinė
 0;22.9599,55.0903;71081;Šakių r. sav.;Šilinė
+0;26.1253,55.0257;;Vilnius;Šilinė
 0;24.1689,54.4966;64061;Alytaus r. sav.;Silgionys
 0;21.8146,55.1675;99038;Šilutės r. sav.;Šilgaliai
+0;22.7845,54.9268;;Marijampolė County;Šilgaliai
 0;23.4107,55.8686;80001;Šiaulių r. sav.;Šilėnai
 0;24.3833,54.8167;56017;Kaišiadorių r. sav.;Šilėnai
 0;25.0468,54.7317;14172;Vilniaus m. sav.;Šilėnai
@@ -1570,6 +1607,7 @@
 0;25.1999,55.6710;40018;Kupiškio r. sav.;Šilagaliai
 0;22.4743,55.6315;86065;Kelmės r. sav.;Severėnai
 0;24.3373,54.7200;56037;Kaišiadorių r. sav.;Sevelionys
+0;23.5273,55.4202;;Kaunas;Šetkaimys
 0;25.3692,55.8901;42031;Rokiškio r. sav.;Šetekšniai
 935;24.2542,55.2806;58005;Kėdainių r. sav.;Šėta
 0;24.9701,55.1790;20021;Ukmergės r. sav.;Šešuoliai
@@ -1609,6 +1647,7 @@
 0;26.3132,55.4055;30024;Ignalinos r. sav.;Seniškis I
 1501;24.9800,54.6090;21001;Trakų r. sav.;Senieji Trakai
 0;24.9833,54.5500;02237;Vilniaus m. sav.;Senieji Tarpupiai
+0;24.8924,54.3043;;Alytus;Senosios Naniškės
 0;22.0075,55.8253;90012;Rietavo sav.;Sendvariai
 0;22.5510,55.6878;86065;Kelmės r. sav.;Sendvariai
 0;22.7167,55.2500;74021;Jurbarko r. sav.;Sendirviai
@@ -1616,6 +1655,7 @@
 0;24.9853,54.5550;02237;Vilniaus m. sav.;Senasis Tarpupis
 0;22.3092,55.4839;75001;Šilalės r. sav.;Senasis Obelynas
 0;26.2801,55.3406;30006;Ignalinos r. sav.;Senasis Daugėliškis
+0;25.5305,54.5100;;Vilnius;Senasalis
 0;21.6368,55.8623;90021;Plungės r. sav.;Šiemuliai
 0;23.0360,55.8908;80019;Šiaulių r. sav.;Šemestiškiai
 0;24.6864,54.4869;21025;Trakų r. sav.;Semeniškės
@@ -1654,9 +1694,12 @@
 0;25.5759,54.5763;13010;Vilniaus r. sav.;Savičiūnai
 0;23.7884,55.9490;83001;Pakruojo r. sav.;Savėliškis
 0;22.5205,56.1245;88011;Telšių r. sav.;Savarina
+0;22.7497,55.9574;;Siauliai;Sauslaukė
+0;22.9591,54.5154;;Marijampolė County;Sausininkai
 0;22.1471,55.8650;88061;Telšių r. sav.;Saušilis
 0;24.9992,54.7063;27001;Vilniaus m. sav.;Sausiai
 0;21.4683,55.2694;99044;Šilutės r. sav.;Sausgalviai
+0;22.0277,55.8972;;Telsiai;Sausdravėnai
 0;23.2196,54.7008;70085;Vilkaviškio r. sav.;Sausbaliai
 0;26.2641,55.6641;32001;Zarasų r. sav.;Šauliai
 0;25.2667,55.5333;29051;Anykščių r. sav.;Šauliai
@@ -1736,6 +1779,7 @@
 0;24.1255,55.5994;38040;Panevėžio r. sav.;Šambalioniai
 0;24.5860,55.1174;20030;Ukmergės r. sav.;Samantonys
 0;24.4383,55.7581;35001;Panevėžio r. sav.;Samanynė
+0;26.0203,55.9092;;Utena;Samaniai
 0;25.6391,54.9008;15013;Vilniaus r. sav.;Santaka
 0;23.9471,54.7359;59001;Prienų r. sav.;Šaltupis
 0;22.2778,55.8025;88061;Telšių r. sav.;Šaltupiai
@@ -1866,6 +1910,7 @@
 0;25.1512,54.4371;17035;Šalčininkų r. sav.;Rūdninkai
 0;23.2261,54.3347;69030;Kalvarijos sav.;Rūdninkai
 0;24.5047,54.4070;21025;Trakų r. sav.;Rudnia
+0;24.6690,54.0701;;Alytus;Rudnia
 0;24.3053,54.0704;65031;Varėnos r. sav.;Rudnia
 0;23.4294,56.1542;81024;Šiaulių r. sav.;Rudiškiai
 2300;24.8308,54.5161;21013;Trakų r. sav.;Rūdiškės
@@ -1905,6 +1950,7 @@
 0;22.0314,56.0807;90039;Plungės r. sav.;Rotinėnai
 0;24.5092,55.1771;20030;Ukmergės r. sav.;Rotautai
 0;21.9996,55.2295;73010;Tauragės r. sav.;Ropkojai
+0;26.1989,55.0328;;Vilnius;Ropiškė
 0;22.8667,55.8333;86043;Kelmės r. sav.;Romučiai
 0;22.2805,55.4295;73021;Tauragės r. sav.;Romės Laukas
 0;23.9314,54.9744;54078;Kauno r. sav.;Romaškiai
@@ -2026,6 +2072,7 @@
 0;25.5446,54.8756;15013;Vilniaus r. sav.;Raudondvaris
 0;25.2828,54.8271;14268;Vilniaus m. sav.;Raudondvaris
 0;23.0500,54.4167;69030;Kalvarijos sav.;Raudondvaris
+0;26.1534,55.8682;;Utena;Raudinė
 0;22.6492,55.5497;86026;Kelmės r. sav.;Raudgiris
 0;23.2355,54.3709;69030;Kalvarijos sav.;Raudeniškiai
 0;23.2569,54.3947;69030;Kalvarijos sav.;Raudenis
@@ -2040,6 +2087,7 @@
 0;26.5753,55.2423;30009;Ignalinos r. sav.;Raščiūnai
 0;25.1765,54.2798;17020;Šalčininkų r. sav.;Raščiūnai
 0;22.4520,55.8844;88019;Telšių r. sav.;Rapaliai
+0;24.1865,54.0436;;Alytus;Randamonys
 1440;24.3000,55.5140;38031;Panevėžio r. sav.;Ramygala
 0;22.8830,56.3340;85001;Akmenės r. sav.;Ramučiai
 0;22.9044,56.0517;81001;Klaipėdos m. sav.;Romučiai
@@ -2067,6 +2115,7 @@
 0;26.4890,55.1993;30012;Ignalinos r. sav.;Rakauskai
 0;23.1453,54.5636;70013;Vilkaviškio r. sav.;Rakauskai
 0;24.9833,54.7167;27001;Vilniaus m. sav.;Rakantai
+0;24.7078,53.9739;;Alytus;Rakai
 0;23.4907,55.2742;60010;Raseinių r. sav.;Rajinciškiai
 0;24.1881,54.4809;64061;Alytaus r. sav.;Raiziai
 0;23.1886,55.8899;76001;Šiaulių m. sav.;Raizgiai
@@ -2152,6 +2201,7 @@
 0;22.5343,56.3128;89082;Mažeikių r. sav.;Purvėnai
 0;24.9252,54.1735;17014;Šalčininkų r. sav.;Purvėnai
 0;22.0167,55.7000;90012;Rietavo sav.;Purveliai
+0;21.9811,55.8532;;Telsiai;Purvaičiai
 0;22.4595,56.3868;89082;Mažeikių r. sav.;Purpliai
 0;24.2973,54.1861;65031;Varėnos r. sav.;Purpliai
 0;25.2990,54.8931;14268;Vilniaus m. sav.;Purnuškės
@@ -2194,6 +2244,7 @@
 0;24.8900,56.4122;41058;Biržų r. sav.;Pučiakalnė
 0;24.5432,55.6965;35001;Panevėžio r. sav.;Pučekai
 0;21.5686,55.9638;97041;Kretingos r. sav.;Prystovai
+0;23.4514,55.4106;;Kaunas;Pryšmantėliai
 0;23.4385,55.4122;60055;Raseinių r. sav.;Pryšmantai
 0;22.0601,55.2946;73010;Tauragės r. sav.;Pryšmantai I
 0;21.1728,55.8916;97001;Kretingos r. sav.;Pryšmančiai
@@ -2501,6 +2552,7 @@
 0;21.3192,55.4540;99050;Šilutės r. sav.;Paurai
 0;22.8737,55.3162;74030;Jurbarko r. sav.;Paupys
 0;22.7354,55.3565;60040;Raseinių r. sav.;Paupynis
+0;26.1948,55.8531;;Utena;Paupinė
 0;23.4228,55.2048;54046;Kauno r. sav.;Paupstaliai
 0;24.6051,55.1218;20030;Ukmergės r. sav.;Paupliai
 0;21.1667,55.7167;91001;Klaipėdos m. sav.;Paupis
@@ -2548,12 +2600,14 @@
 0;24.7197,55.0159;19023;Širvintų r. sav.;Pasodninkai
 0;24.0300,55.5688;38043;Panevėžio r. sav.;Pasodėlė
 0;23.1597,55.1572;70021;Vilkaviškio r. sav.;Pasnietalys
+0;23.7320,54.6218;;Kaunas;Pašlavantys
 0;24.1167,54.9667;54085;Kauno r. sav.;Pašlapiai
 0;22.9069,55.2378;74030;Jurbarko r. sav.;Paskynai
 0;22.5214,55.9514;88019;Telšių r. sav.;Paškuvėnai
 0;24.2291,54.9978;55001;Jonavos r. sav.;Paskutiškiai
 0;23.6486,55.3400;58026;Kėdainių r. sav.;Paskardžiai
 0;22.0085,55.4925;75026;Šilalės r. sav.;Paskarbiškiai
+0;22.8667,54.4333;;Marijampolė County;Paširvintis
 0;23.2101,55.7210;82046;Radviliškio r. sav.;Pašimšė
 0;23.6234,54.3977;64037;Alytaus r. sav.;Pasimniai
 0;21.5642,55.4222;99063;Šilutės r. sav.;Pašiliškiai
@@ -2572,6 +2626,7 @@
 0;22.0103,55.2531;73010;Tauragės r. sav.;Pašikšniai
 0;23.0954,55.6996;80010;Šiaulių r. sav.;Pašiaušiukas
 0;23.1623,55.7435;82046;Radviliškio r. sav.;Pašiaušė
+0;24.7751,54.2306;;Alytus;Pasgrinda
 0;22.8553,55.4400;60031;Raseinių r. sav.;Pašešuvys
 0;22.5555,55.3234;73032;Tauragės r. sav.;Pašešuvis
 0;23.8026,54.1956;67010;Lazdijų r. sav.;Paserninkai
@@ -2642,6 +2697,7 @@
 0;22.8435,54.9018;71049;Šakių r. sav.;Panoviai
 0;24.4311,55.1976;55052;Jonavos r. sav.;Panoteriai
 0;24.7248,54.5176;21013;Trakų r. sav.;Panošiškės
+0;24.7552,54.1197;;Alytus;Panočiai
 85885;24.3598,55.7319;35001;Panevėžio m. sav.;Panevėžys
 0;23.7873,55.1396;54050;Kauno r. sav.;Panevėžiukas
 0;23.4833,55.0500;71017;Šakių r. sav.;Panemuniškiai
@@ -2742,6 +2798,7 @@
 0;22.8814,56.0012;81001;Klaipėdos m. sav.;Pakumulšiai
 0;23.9571,54.7126;59001;Prienų r. sav.;Pakumprys
 0;22.3681,55.8797;88019;Telšių r. sav.;Pakauskiai
+0;24.6480,54.1185;;Alytus;Pakuliškės
 0;24.2184,55.2727;58005;Kėdainių r. sav.;Pakščiai
 0;23.9946,55.4619;58047;Kėdainių r. sav.;Pakruostė
 0;23.1135,54.4141;69030;Kalvarijos sav.;Pakruopiškiai
@@ -2870,6 +2927,7 @@
 0;24.2962,54.3849;64001;Alytaus r. sav.;Pagilė
 0;24.5073,55.7979;35001;Panevėžio r. sav.;Pagiegala
 0;24.7984,56.3174;41058;Biržų r. sav.;Pagervė
+0;23.0230,54.5329;;Marijampolė County;Pagerniavė II
 0;22.2673,55.1306;74012;Jurbarko r. sav.;Pagenaičiai
 0;22.6771,56.0264;88011;Telšių r. sav.;Pagelžiai
 0;24.5154,55.1675;20030;Ukmergės r. sav.;Pageležiai
@@ -2932,6 +2990,7 @@
 0;23.4444,55.0410;71017;Šakių r. sav.;Padainiai
 0;24.4329,55.0530;55022;Jonavos r. sav.;Padaigai
 0;24.5954,55.9238;39006;Pasvalio r. sav.;Padagai
+0;25.7122,54.8475;;Vilnius;Padabčiai
 0;25.6094,55.4528;28024;Utenos r. sav.;Pačkėnai
 0;25.0518,54.9266;14025;Vilniaus r. sav.;Pociūnai
 0;24.5783,56.2641;41040;Biržų r. sav.;Pačeriaukštė II
@@ -2974,6 +3033,7 @@
 0;22.9948,55.5860;86011;Kelmės r. sav.;Ožkeliškė
 0;23.2578,54.5536;68001;Marijampolės sav.;Ožkasviliai
 0;23.0473,54.5776;70001;Vilkaviškio r. sav.;Ožkabaliai II
+0;22.9939,54.4970;;Marijampolė County;Ožkabaliai I
 0;26.3825,55.3869;30024;Ignalinos r. sav.;Ožionys
 0;21.6000,55.4370;99063;Šilutės r. sav.;Oželiai
 31;23.9154,55.6393;82007;Radviliškio r. sav.;Ožaičiai
@@ -3006,6 +3066,7 @@
 0;24.3333,55.7167;35001;Panevėžio m. sav.;Novadolis
 0;23.4657,55.6448;82043;Radviliškio r. sav.;Notiniškiai
 0;21.7065,56.0982;90036;Plungės r. sav.;Notėnai
+0;24.6462,54.1261;;Alytus;Noškūnai
 0;23.5422,55.0365;54015;Kauno r. sav.;Nosiedai
 0;22.5937,55.3955;73028;Tauragės r. sav.;Nosaičiai
 0;23.1543,55.4918;86065;Kelmės r. sav.;Norvydžiai
@@ -3097,6 +3158,7 @@
 0;23.0612,54.6906;70001;Vilkaviškio r. sav.;Navininkai
 0;23.1429,54.5003;70013;Vilkaviškio r. sav.;Navininkai
 0;23.2630,54.3246;69030;Kalvarijos sav.;Navininkai
+0;26.7516,55.3151;;Utena;Navikai
 0;24.6763,55.2118;20042;Ukmergės r. sav.;Navikai
 0;23.8694,54.5019;59015;Prienų r. sav.;Navasiolka
 0;21.7939,55.8733;90001;Plungės r. sav.;Nausodis
@@ -3209,6 +3271,7 @@
 0;23.4548,55.1306;54046;Kauno r. sav.;Naciūnai
 0;23.2667,54.4333;69030;Kalvarijos sav.;Mikalauka
 0;24.7079,54.7088;21043;Elektrėnų sav.;Musteniai
+0;24.3707,53.9540;;Alytus;Musteika
 0;24.8394,54.9476;19017;Širvintų r. sav.;Musninkai
 0;24.4988,54.7796;56017;Kaišiadorių r. sav.;Mūro Strėvininkai
 0;24.1290,55.6520;38049;Panevėžio r. sav.;Murmuliai
@@ -3227,6 +3290,7 @@
 0;25.0167,55.0333;19008;Širvintų r. sav.;Motiejūnai
 0;22.0333,55.6500;90012;Rietavo sav.;Motėjai
 0;23.1976,55.8713;80010;Šiaulių r. sav.;Motaičiai
+0;25.6675,54.7723;;Vilnius;Mostiškės
 0;22.7328,55.3756;60040;Raseinių r. sav.;Leonavas
 0;24.0606,54.9835;54085;Kauno r. sav.;Masteikiai
 0;25.4528,55.9692;42031;Rokiškio r. sav.;Moškėnai
@@ -3294,6 +3358,7 @@
 0;21.2833,55.3616;99050;Šilutės r. sav.;Minija
 0;25.5726,55.2338;33004;Molėtų r. sav.;Mindūnai
 0;23.7397,56.2700;84031;Joniškio r. sav.;Mindaugiai
+0;25.9810,55.4770;;Utena;Minčia
 0;23.1732,56.3220;84010;Joniškio r. sav.;Minčaičiai
 0;26.2622,55.6954;32001;Zarasų r. sav.;Minauka
 179;23.5532,55.6299;82037;Radviliškio r. sav.;Mėnaičiai
@@ -3399,6 +3464,7 @@
 0;21.6324,55.3575;99005;Šilutės r. sav.;Metirkviečiai
 0;23.7421,54.3004;67010;Lazdijų r. sav.;Meteliai
 0;25.0420,54.9057;14025;Vilniaus r. sav.;Mešliukai
+0;23.4756,56.0676;;Siauliai;Meškuičiai
 0;22.6717,55.7092;86036;Kelmės r. sav.;Meškuičiai
 0;23.2979,54.5171;69022;Marijampolės sav.;Meškučiai
 0;24.2432,54.2807;64001;Alytaus r. sav.;Meškučiai
@@ -3410,6 +3476,7 @@
 0;24.1381,54.2851;64021;Alytaus r. sav.;Meškasalis
 0;24.2047,56.0217;39027;Pasvalio r. sav.;Meškalaukis
 0;22.3397,55.2053;72001;Tauragės r. sav.;Meškai
+0;25.4722,54.4580;;Vilnius;Merkinė
 963;24.1852,54.1625;65031;Varėnos r. sav.;Merkinė
 0;21.9394,55.9250;90001;Plungės r. sav.;Merkeliai
 0;24.5191,54.1968;65001;Varėnos r. sav.;Mergežeris
@@ -3433,6 +3500,7 @@
 0;22.1853,55.2335;72001;Tauragės r. sav.;Meldikviršiai
 0;23.6763,56.1848;84001;Joniškio r. sav.;Mielaičiai
 0;23.9762,55.1312;55001;Jonavos r. sav.;Mėkla
+0;23.5422,56.1000;;Siauliai;Mekiai
 0;23.1309,55.7962;80010;Šiaulių r. sav.;Mekiai
 0;23.2458,54.7372;70085;Vilkaviškio r. sav.;Meistiškė
 0;23.2033,55.4158;60061;Raseinių r. sav.;Meištai
@@ -3541,6 +3609,7 @@
 0;22.5148,55.4344;75011;Šilalės r. sav.;Margynė
 0;22.0266,55.2751;73010;Tauragės r. sav.;Margiškiai
 0;22.6888,55.0434;74006;Jurbarko r. sav.;Margiškiai
+0;24.2890,53.9984;;Alytus;Margionys
 0;21.9492,56.3126;98050;Skuodo r. sav.;Margininkai
 0;23.8617,55.5201;58038;Kėdainių r. sav.;Margininkai
 0;24.0519,54.7893;59040;Prienų r. sav.;Margininkai
@@ -3549,6 +3618,7 @@
 0;23.7355,55.7396;82007;Radviliškio r. sav.;Margavoniai
 0;24.3255,54.1475;65031;Varėnos r. sav.;Mardasavas
 0;23.2914,54.9678;71005;Šakių r. sav.;Marčiukai
+0;24.4066,54.0550;;Alytus;Marcinkonys
 0;22.8936,55.9296;81001;Klaipėdos m. sav.;Saulučiai
 0;21.4602,55.4780;99056;Šilutės r. sav.;Mantvydai
 0;23.9290,55.2554;57001;Kėdainių r. sav.;Mantviloniai
@@ -3568,10 +3638,12 @@
 0;23.4463,55.8443;82001;Radviliškio r. sav.;Mankiškiai
 0;22.5438,55.5171;75041;Šilalės r. sav.;Mankiškė
 0;22.3992,55.4441;75011;Šilalės r. sav.;Mankaičiai
+0;24.9000,54.3000;;Alytus;Maniškiai
 0;24.3136,56.1911;39034;Pasvalio r. sav.;Manikūnai
 0;23.9010,55.7985;82007;Radviliškio r. sav.;Maneitai
 0;22.9966,55.6158;86001;Kelmės r. sav.;Maneikiai
 0;24.6280,55.0730;19023;Širvintų r. sav.;Mančiušėnai
+0;24.4575,54.1328;;Alytus;Mančiagirė
 0;21.5803,55.9173;97041;Kretingos r. sav.;Mamiai
 0;25.0052,54.4695;17035;Šalčininkų r. sav.;Mamavys
 0;22.3167,55.9500;88028;Telšių r. sav.;Malkarstai
@@ -3582,6 +3654,7 @@
 0;23.4793,56.2452;84001;Joniškio r. sav.;Maldeniai
 0;22.5217,56.0893;88011;Telšių r. sav.;Maldeniai
 0;22.6890,55.6651;86026;Kelmės r. sav.;Maldaginė
+0;25.4884,54.4289;;Vilnius;Malakonys
 0;23.8044,55.1999;58011;Kėdainių r. sav.;Maleikoniai
 0;26.2468,55.3755;30001;Ignalinos r. sav.;Maksimonys
 0;23.7506,54.5129;59015;Prienų r. sav.;Makrickai
@@ -3616,6 +3689,7 @@
 0;21.3000,55.4500;99050;Šilutės r. sav.;Macblydžiai
 0;23.1167,55.5500;60046;Raseinių r. sav.;Macaičiai
 0;23.2009,54.9030;71033;Šakių r. sav.;Lypkai
+0;24.5688,54.0624;;Alytus;Lynežeris
 0;22.1670,55.3601;73021;Tauragės r. sav.;Lylavėnai
 0;22.8234,55.7733;86043;Kelmės r. sav.;Lykšilis
 0;23.6574,56.0039;83022;Pakruojo r. sav.;Lygumai
@@ -3671,6 +3745,7 @@
 0;23.6145,55.1452;54015;Kauno r. sav.;Liučiūnai
 0;23.3389,54.4986;69022;Marijampolės sav.;Liucinavas
 0;22.5594,55.7642;88019;Telšių r. sav.;Liubišiškiai
+0;23.0362,54.3657;;Marijampolė County;Liubavas
 0;21.4174,56.1762;98032;Skuodo r. sav.;Litvinai
 0;23.8555,55.8250;82007;Radviliškio r. sav.;Litkūnai
 0;24.0545,54.0821;66001;Druskininkų sav.;Liškiava
@@ -3721,6 +3796,7 @@
 53;21.2170,55.7857;96044;Klaipėdos r. sav.;Radailiai
 0;23.3039,55.0262;74054;Jurbarko r. sav.;Liepalotėliai
 0;23.2511,54.9469;71005;Šakių r. sav.;Liepalotai
+0;23.0064,54.4389;;Marijampolė County;Liepalotai
 0;23.4025,55.6080;82040;Radviliškio r. sav.;Liekiai
 0;24.5192,56.0605;39052;Pasvalio r. sav.;Ličiūnai
 0;25.3556,55.0233;33028;Molėtų r. sav.;Ličiūnai
@@ -3746,6 +3822,7 @@
 0;24.6892,55.0168;19023;Širvintų r. sav.;Lesčiūnai
 0;23.5894,55.2256;58026;Kėdainių r. sav.;Lesčiai
 0;24.0388,54.9906;54078;Kauno r. sav.;Lepšiškiai
+0;23.5371,55.3986;;Kaunas;Lepšiškė
 0;23.1814,54.9043;71033;Šakių r. sav.;Lepšiai
 0;22.7333,55.3667;60040;Raseinių r. sav.;Leonavičiai
 0;22.4167,55.5500;75041;Šilalės r. sav.;Leonardpolis
@@ -3792,12 +3869,14 @@
 0;24.6529,55.9326;41033;Biržų r. sav.;Lebeniškiai
 0;25.1058,55.9764;40056;Kupiškio r. sav.;Lebedžiai
 0;23.6092,55.1376;54015;Kauno r. sav.;Lebedžiai
+0;26.7827,55.2829;;Utena;Lazinkos
 0;21.8744,55.3155;99011;Šilutės r. sav.;Lazduonėnai
 0;21.2000,56.0000;97023;Kretingos r. sav.;Lazdininkai
 0;26.6222,55.2066;18033;Švenčionių r. sav.;Lazdinėliai
 0;23.2226,54.9057;71033;Šakių r. sav.;Lazdinė
 3629;23.5147,54.2333;67001;Lazdijų r. sav.;Lazdijai
 0;21.9433,55.9781;90001;Plungės r. sav.;Lazdeniai
+0;21.7122,55.1586;;Tauragė County;Lazdėnai
 0;24.9304,54.7447;21055;Elektrėnų sav.;Lazdėnai
 0;23.9697,55.4814;58047;Kėdainių r. sav.;Lažai
 585;25.6430,54.7060;13004;Vilniaus r. sav.;Lavoriškės
@@ -3856,6 +3935,7 @@
 0;21.4676,55.3985;99001;Šilutės r. sav.;Lapaliai
 0;24.1472,54.7605;56037;Kaišiadorių r. sav.;Lapainia
 0;21.3639,55.4871;96047;Klaipėdos r. sav.;Lankupiai
+0;22.8678,54.4549;;Marijampolė County;Lankupėnai
 0;22.9741,54.5658;70001;Vilkaviškio r. sav.;Kunigiškiai
 0;25.5680,54.5682;13010;Vilniaus r. sav.;Lankeliai
 0;23.4301,56.2925;84025;Joniškio r. sav.;Lankaičiai
@@ -3877,6 +3957,7 @@
 0;24.7134,55.2880;20001;Ukmergės r. sav.;Laičiai
 0;24.7576,54.6762;21043;Elektrėnų sav.;Laičiai
 0;24.3527,54.2682;65011;Varėnos r. sav.;Laičiai
+0;25.5421,54.4803;;Vilnius;Laibiškės
 0;25.6313,55.9094;42001;Rokiškio r. sav.;Laibgaliai
 0;24.3350,54.4597;64061;Alytaus r. sav.;Lačionys
 0;22.5955,55.7141;86065;Kelmės r. sav.;Labūnavėlė
@@ -3927,6 +4008,7 @@
 0;21.3691,55.7030;96001;Klaipėdos r. sav.;Kuršlaukiai
 0;23.2093,55.6132;86061;Kelmės r. sav.;Kuršiai
 0;24.3829,55.4671;38031;Panevėžio r. sav.;Kuršiai
+0;24.9097,54.3246;;Alytus;Kuršiai
 10829;22.9366,56.0032;81001;Klaipėdos m. sav.;Kuršėnai
 0;22.4273,55.8411;88019;Telšių r. sav.;Kuršai
 0;22.7245,54.5693;70065;Vilkaviškio r. sav.;Kurpikai
@@ -3978,6 +4060,7 @@
 0;22.4216,55.2548;73001;Tauragės r. sav.;Kunigiškiai
 0;23.4718,55.2806;60010;Raseinių r. sav.;Kunigiškiai
 0;23.8441,54.5845;59015;Prienų r. sav.;Kunigiškiai
+0;23.0439,54.5002;;Marijampolė County;Kunigiškiai
 0;23.7937,55.9618;83001;Pakruojo r. sav.;Kundročiai
 0;22.5630,55.3985;73028;Tauragės r. sav.;Kundročiai
 0;24.7167,55.9000;40056;Kupiškio r. sav.;Kundriškis
@@ -4013,6 +4096,7 @@
 0;21.5000,56.2667;98001;Skuodo r. sav.;Kuliai
 0;21.6530,55.8044;90021;Plungės r. sav.;Kuliai
 0;21.6743,55.3540;99005;Šilutės r. sav.;Kulėšai
+0;24.6323,56.3583;;Panevėžys;Kuldūnai
 0;24.5751,55.7272;35001;Panevėžio r. sav.;Kulbiai
 1425;23.6422,54.9421;53093;Kauno r. sav.;Kulautuva
 0;21.6615,56.1335;98023;Skuodo r. sav.;Kulaliai
@@ -4063,15 +4147,18 @@
 0;24.4582,54.5643;21034;Trakų r. sav.;Kruncikai
 0;23.7500,55.1167;54050;Kauno r. sav.;Krūmyne
 0;24.8262,54.3020;65063;Varėnos r. sav.;Krūminiai
+0;24.7033,54.1185;;Alytus;Krukliai
 0;22.3262,56.2853;89031;Mažeikių r. sav.;Kruciai
 0;23.5240,54.3535;67071;Lazdijų r. sav.;Krosnėnai
 0;24.9500,54.6833;21001;Trakų r. sav.;Krosna
 244;23.5298,54.3781;67071;Lazdijų r. sav.;Krosna
+0;24.6255,54.0372;;Alytus;Krokšlys
 0;22.1693,55.1535;99023;Pagėgių sav.;Kriokiškiai
 0;23.7456,54.4018;64041;Alytaus r. sav.;Krokininkai
 218;23.7624,54.4344;64041;Alytaus r. sav.;Krokialaukis
 0;24.5675,54.9346;56060;Kaišiadorių r. sav.;Krivonys
 0;23.8451,53.9744;67027;Druskininkų sav.;Krivonys
+0;24.7822,54.1514;;Alytus;Kriviliai
 0;23.8239,56.2963;84031;Joniškio r. sav.;Kriukai
 0;23.4018,55.0679;71017;Šakių r. sav.;Kriūkai
 0;24.6554,55.5697;38013;Panevėžio r. sav.;Kritižis
@@ -4193,6 +4280,7 @@
 0;23.0124,54.6532;70001;Vilkaviškio r. sav.;Kisiniškiai
 0;21.3409,55.6370;96011;Klaipėdos r. sav.;Kisiniai
 0;23.2518,55.0259;74054;Jurbarko r. sav.;Kisieliai
+0;25.6758,54.7884;;Vilnius;Kirtimai
 0;24.2000,54.3333;64001;Alytaus r. sav.;Kirtimai
 0;23.5029,54.3404;67067;Alytaus r. sav.;Didžioji Kirsna
 0;22.4521,55.9990;88019;Telšių r. sav.;Kiršiai
@@ -4218,6 +4306,7 @@
 0;22.9598,56.1698;85007;Akmenės r. sav.;Kinkiai II
 0;26.4076,55.3149;30006;Ignalinos r. sav.;Kiniūnai
 0;25.0980,55.7760;40018;Kupiškio r. sav.;Kinderiai
+0;23.4759,55.4235;;Kaunas;Kimentmedis
 0;26.4986,55.6782;32004;Zarasų r. sav.;Kimbartiškė
 0;23.3955,55.2354;60010;Raseinių r. sav.;Kilupiai
 0;24.7947,56.1784;41062;Biržų r. sav.;Kilučiai
@@ -4227,6 +4316,7 @@
 0;22.7184,55.6803;86052;Kelmės r. sav.;Kiloniai
 0;22.1491,55.8003;88061;Telšių r. sav.;Kiliūnėnai
 0;23.8453,55.1358;54050;Kauno r. sav.;Kikoniai
+0;24.7890,54.1860;;Alytus;Kijučiai
 0;24.5569,54.4489;21025;Trakų r. sav.;Kietaviškės
 0;26.0523,55.6049;32007;Zarasų r. sav.;Kiemionys
 0;24.2943,56.2518;39040;Pasvalio r. sav.;Kiemėnai
@@ -4280,6 +4370,7 @@
 0;22.5926,55.7355;86036;Kelmės r. sav.;Kerbedlaukis
 0;23.2912,54.9520;71005;Šakių r. sav.;Kerai
 0;22.7403,56.2644;85022;Akmenės r. sav.;Kepurlaukiai
+0;21.9695,55.9049;;Telsiai;Kepurėnai
 0;22.8848,55.0215;71081;Šakių r. sav.;Aleksandrava
 0;23.6727,56.2064;84001;Joniškio r. sav.;Kepaliai
 0;21.9943,55.1969;99038;Šilutės r. sav.;Kentriai
@@ -4324,6 +4415,7 @@
 0;26.1462,55.4425;30001;Ignalinos r. sav.;Kazitiškis
 0;22.3496,55.3295;73025;Tauragės r. sav.;Kaziškė
 0;25.6333,54.6333;13010;Vilniaus r. sav.;Kažinė
+0;25.4575,54.4298;;Vilnius;Kazimieriškės
 0;24.4275,54.2819;65011;Varėnos r. sav.;Kazimieravas
 0;25.1393,54.6167;02234;Vilniaus m. sav.;Kazbiejų Naujakiemis
 0;25.1371,54.6196;02234;Vilniaus m. sav.;Kazbėjai
@@ -4375,6 +4467,7 @@
 0;22.5069,55.0578;74009;Jurbarko r. sav.;Kazikėnai
 0;22.4714,55.0501;74012;Jurbarko r. sav.;Naudvaris
 0;24.3484,54.1097;65031;Varėnos r. sav.;Kašėtos
+0;24.5970,54.0919;;Alytus;Kašėtos
 0;24.7524,56.3298;41058;Biržų r. sav.;Kašeliškiai
 0;25.5963,55.3296;28021;Utenos r. sav.;Kašeikiai
 0;24.5379,54.9016;56060;Kaišiadorių r. sav.;Kasčiukiškės
@@ -4383,6 +4476,7 @@
 0;25.1340,54.8779;14025;Vilniaus r. sav.;Karvys
 0;23.2696,56.1104;81024;Šiaulių r. sav.;Karveliai
 0;24.4364,55.5123;38019;Panevėžio r. sav.;Karvedžiai
+0;23.4937,56.0500;;Siauliai;Karvazai
 0;24.4506,55.7116;35001;Panevėžio r. sav.;Karužiškiai
 0;22.3799,55.6301;75041;Šilalės r. sav.;Karūžiškė II
 0;23.4810,54.2772;67083;Lazdijų r. sav.;Karužai
@@ -4405,6 +4499,8 @@
 0;24.1537,54.4227;62001;Alytaus m. sav.;Karkliniškės
 0;23.1725,54.5294;70013;Vilkaviškio r. sav.;Karkliniai
 0;23.9333,55.9833;83001;Pakruojo r. sav.;Karklinė
+0;26.1561,55.0154;;Vilnius;Karklinė
+0;26.1667,55.0167;;Vilnius;Karklinė
 0;22.4791,55.6335;86065;Kelmės r. sav.;Karklėnaliai
 0;21.6975,55.8780;90021;Plungės r. sav.;Karklėnai
 0;22.5694,55.6571;86065;Kelmės r. sav.;Karklėnai
@@ -4433,9 +4529,11 @@
 0;23.6660,55.1355;54015;Kauno r. sav.;Karalgiris
 0;23.7215,55.1072;54015;Kauno r. sav.;Zacišius
 0;26.3803,55.5740;31001;Visagino sav.;Karačiūna
+0;21.9642,55.8933;;Telsiai;Kapsūdžiai
 0;21.7545,55.7041;90012;Rietavo sav.;Kapstatai
 0;24.1748,55.2881;58005;Kėdainių r. sav.;Žemieji Kapliai
 0;24.1478,55.2835;57001;Kėdainių r. sav.;Aukštieji Kapliai
+0;24.2928,54.0156;;Alytus;Kapiniškiai
 0;22.5276,56.1574;89091;Mažeikių r. sav.;Kapėnai
 0;24.0380,55.9875;83004;Pakruojo r. sav.;Kapčiūnai
 478;23.6565,54.0027;67035;Druskininkų sav.;Kapčiamiestis
@@ -4452,9 +4550,12 @@
 0;25.4101,55.3946;28027;Utenos r. sav.;Kaniūkai
 0;23.7762,55.1142;54050;Kauno r. sav.;Kaniūkai
 0;23.0531,55.1079;70021;Vilkaviškio r. sav.;Kaniūkai
+0;25.7253,54.8166;;Vilnius;Kaniūkai
 0;24.6818,54.4143;65063;Varėnos r. sav.;Kaniūkai
 0;24.3446,54.4181;64001;Alytaus r. sav.;Kaniūkai
 0;25.2451,54.2793;17020;Šalčininkų r. sav.;Kaniūkai
+0;24.7567,54.1082;;Alytus;Kaniūkai
+0;24.7017,54.0940;;Alytus;Kaniava
 0;22.2885,55.2093;72001;Tauragės r. sav.;Skirgailai
 0;25.2622,55.8553;40049;Kupiškio r. sav.;Kandrėnai
 0;24.5206,55.2007;55052;Jonavos r. sav.;Kančiškiai
@@ -4534,6 +4635,7 @@
 0;23.8225,54.4515;64041;Alytaus r. sav.;Kalesninkai
 0;24.2253,54.4007;64001;Alytaus r. sav.;Kalesninkai
 0;23.6608,54.3671;64037;Alytaus r. sav.;Kalesninkai
+0;24.8415,54.1911;;Vilnius;Kalesninkai
 0;25.7695,55.7849;42013;Rokiškio r. sav.;Kalbutiškės
 0;23.5529,55.6085;82037;Radviliškio r. sav.;Kalančiai
 0;24.6524,54.7972;26001;Elektrėnų sav.;Kakliniškės
@@ -4572,6 +4674,8 @@
 0;21.4167,55.8667;97041;Kretingos r. sav.;Kačaičiai
 0;24.8195,55.4018;20054;Ukmergės r. sav.;Kabošiai
 0;23.9281,54.4363;64017;Alytaus r. sav.;Kabinės
+0;24.3000,53.9333;;Alytus;Kabeliai II
+0;24.2967,53.9518;;Alytus;Kabeliai
 0;24.4393,55.6427;38064;Panevėžio r. sav.;Kabeliai
 0;25.6762,55.7751;42013;Rokiškio r. sav.;Jūžintai
 0;24.7060,55.1158;19020;Širvintų r. sav.;Jutkonys
@@ -4580,6 +4684,7 @@
 0;23.0032,55.3502;60001;Raseinių r. sav.;Justinava
 0;24.2377,55.2390;58005;Kėdainių r. sav.;Juškonys
 0;23.8237,55.9268;83001;Pakruojo r. sav.;Juškoniai
+0;25.5824,54.4547;;Vilnius;Juškiai
 0;25.6497,55.5498;28039;Utenos r. sav.;Juškėnai
 0;23.1748,55.8225;80010;Šiaulių r. sav.;Jusaičiai
 0;23.1502,55.4999;86065;Kelmės r. sav.;Juškaičiai
@@ -4594,6 +4699,7 @@
 0;21.5951,55.7728;90021;Plungės r. sav.;Jurjonai
 0;22.9236,55.8486;86043;Kelmės r. sav.;Jurgoniškiai
 0;25.0304,55.7208;29039;Anykščių r. sav.;Jurgiškis
+0;23.0213,54.3928;;Marijampolė County;Jurgiškiai
 0;24.7326,54.2664;65063;Varėnos r. sav.;Jurgiškės
 0;24.4331,54.5716;21034;Trakų r. sav.;Jurgionys
 0;23.7806,54.7756;59030;Prienų r. sav.;Jurginiškiai
@@ -4637,12 +4743,14 @@
 0;24.7729,54.9933;19017;Širvintų r. sav.;Juodonys
 0;23.8070,55.0339;54001;Kauno r. sav.;Juodoniai
 0;22.9463,55.5958;86011;Kelmės r. sav.;Juodlaukis
+720;21.1180,55.5373;;Klaipėda County;Juodkrantė
 0;24.8519,55.2424;20018;Ukmergės r. sav.;Juodkiškiai
 0;22.9833,55.5833;86011;Kelmės r. sav.;Juodkiai
 0;23.1373,55.2898;60028;Raseinių r. sav.;Juodkėnai
 0;23.8244,55.2419;58011;Kėdainių r. sav.;Juodkaimiai
 0;21.8282,56.3496;98050;Skuodo r. sav.;Juodkaičiai
 0;25.1939,55.0600;33025;Molėtų r. sav.;Juodiškiai
+0;25.4511,54.5494;;Vilnius;Juodiškės
 0;23.1605,55.9184;80025;Šiaulių r. sav.;Juodinkiai
 0;24.2616,55.5386;38031;Panevėžio r. sav.;Juodikoniai
 0;21.3507,55.6131;96011;Klaipėdos r. sav.;Juodikiai
@@ -4762,6 +4870,7 @@
 0;25.1687,54.6649;25001;Trakų r. sav.;Jočionys
 0;22.2243,55.3165;73021;Tauragės r. sav.;Jociai
 1032;24.1759,54.5994;59052;Prienų r. sav.;Jieznas
+0;23.7017,54.6349;;Kaunas;Jiestrakis
 0;23.1000,54.5833;70013;Vilkaviškio r. sav.;Jielekčiai
 0;22.7187,55.2249;74021;Jurbarko r. sav.;Jerubiškiai
 0;21.7154,56.2620;98041;Skuodo r. sav.;Jedžiotai
@@ -4771,6 +4880,7 @@
 0;22.2550,56.3125;89046;Mažeikių r. sav.;Jautakia
 0;21.8702,55.7077;90012;Rietavo sav.;Jaupėnai
 0;24.3032,54.5339;64061;Alytaus r. sav.;Jaunionys
+0;23.4957,56.1054;;Siauliai;Jauniūnai
 0;25.0104,54.9406;14025;Vilniaus r. sav.;Jauniūnai
 0;22.7682,55.5233;86065;Kelmės r. sav.;Jauniškė
 0;23.5033,56.2115;84001;Joniškio r. sav.;Jauneikiai
@@ -4785,6 +4895,7 @@
 0;24.0402,53.9832;66001;Druskininkų sav.;Jaskonys
 0;25.3130,54.4400;17038;Šalčininkų r. sav.;Jašiūnai
 0;24.7542,56.3694;41058;Biržų r. sav.;Jasiškiai
+0;24.7543,54.1043;;Alytus;Jasauskai
 0;23.7515,55.9234;83001;Pakruojo r. sav.;Jasaičiai
 0;23.4865,55.6962;82043;Radviliškio r. sav.;Jasaičiai
 0;25.4221,54.6095;11316;Vilniaus m. sav.;Jarmališkės
@@ -4857,6 +4968,7 @@
 0;26.1152,55.7749;32032;Zarasų r. sav.;Imbradas
 0;21.5851,56.0230;97035;Kretingos r. sav.;Imbarė
 0;23.3262,55.0615;74054;Jurbarko r. sav.;Ilguva
+0;23.5160,55.4000;;Kaunas;Ilgižiukai
 0;24.1472,54.2560;64021;Alytaus r. sav.;Navasodai
 0;24.7761,56.0202;41033;Biržų r. sav.;Ilgalaukiai
 0;24.5352,54.8892;56060;Kaišiadorių r. sav.;Ilgakiemis
@@ -4994,6 +5106,7 @@
 0;23.9307,56.3224;83031;Pakruojo r. sav.;Grigoniai
 0;23.6333,54.6500;69094;Marijampolės sav.;Grigaliūniškės
 0;23.6361,54.7003;59030;Prienų r. sav.;Grigaliūnai
+0;26.7659,55.2601;;Utena;Grigališkė
 0;24.4228,55.5459;38019;Panevėžio r. sav.;Grigaliai
 0;23.3639,55.5910;82040;Radviliškio r. sav.;Grigalaičiai
 0;23.2154,55.5151;60052;Raseinių r. sav.;Grigaičiai
@@ -5016,6 +5129,7 @@
 0;22.6528,55.0612;74006;Jurbarko r. sav.;Greičiai
 0;23.6569,54.3531;64037;Alytaus r. sav.;Gražuliai
 0;23.8966,54.7174;59001;Prienų r. sav.;Gražučiai
+0;22.9208,54.4683;;Marijampolė County;Graziškiai
 0;23.6113,55.8476;82052;Radviliškio r. sav.;Gražioniai
 0;23.3090,56.3113;84025;Joniškio r. sav.;Gražaičiai
 0;25.6072,55.0875;33010;Molėtų r. sav.;Graužiniai
@@ -5029,6 +5143,7 @@
 0;24.8960,54.7082;21001;Trakų r. sav.;Gratiškės
 0;23.7894,55.2929;58011;Kėdainių r. sav.;Grašva
 0;23.4751,55.3033;60010;Raseinių r. sav.;Grajauskai
+0;22.9886,54.4688;;Marijampolė County;Grajauskai
 0;23.1803,55.5228;60052;Raseinių r. sav.;Gradaučizna
 0;21.5104,55.3692;99001;Šilutės r. sav.;Grabupiai
 0;21.5345,55.3638;99001;Šilutės r. sav.;Grabupėliai
@@ -5073,6 +5188,7 @@
 0;22.3973,55.5094;75041;Šilalės r. sav.;Girsteikiai
 0;25.2667,55.2833;33031;Molėtų r. sav.;Girstaitiškiai
 0;22.3265,55.8219;88019;Telšių r. sav.;Girmantiškė
+0;22.7326,55.9121;;Siauliai;Girlaukė
 0;22.1756,55.8175;88061;Telšių r. sav.;Girkantiškė
 0;22.6489,55.9941;88019;Telšių r. sav.;Girkantai
 0;23.2048,55.3109;60028;Raseinių r. sav.;Girkalnis
@@ -5084,6 +5200,7 @@
 0;21.5121,55.6816;96008;Klaipėdos r. sav.;Girininkai
 0;23.4014,55.2181;60010;Raseinių r. sav.;Aleksandrovka
 0;22.1265,55.2368;73010;Tauragės r. sav.;Girininkai
+0;21.5120,55.1968;;Klaipėda County;Girininkai
 0;23.6943,54.8564;53079;Kauno r. sav.;Girininkai II
 0;23.9580,54.7737;53030;Kauno r. sav.;Girininkai
 0;25.7593,55.0935;33010;Molėtų r. sav.;Giriniai
@@ -5191,6 +5308,7 @@
 0;24.6934,55.0650;19023;Širvintų r. sav.;Gelvonai
 0;24.8285,55.0644;19026;Širvintų r. sav.;Gelvonėliai
 0;23.5094,55.2509;60010;Raseinių r. sav.;Gėluva
+0;24.9531,54.3193;;Vilnius;Gėlūnai
 0;24.8333,55.3667;20054;Ukmergės r. sav.;Gelučiai
 0;23.9894,55.1417;55001;Jonavos r. sav.;Gelnai
 0;25.1900,55.2878;33034;Molėtų r. sav.;Gėliogaliai
@@ -5199,8 +5317,10 @@
 1839;22.9770,55.0769;71081;Šakių r. sav.;Gelgaudiškis
 0;24.0731,54.5704;59001;Birštono sav.;Geležūnai
 0;24.7009,55.8439;38070;Panevėžio r. sav.;Geležiai
+0;26.0744,54.9858;;Vilnius;Gelednė
 0;23.7568,54.4827;64041;Alytaus r. sav.;Gelčiai
 0;23.8944,55.3762;58050;Kėdainių r. sav.;Gėlainiai
+0;23.0216,54.5396;;Marijampolė County;Geisteriškiai
 0;24.9422,54.8621;19014;Širvintų r. sav.;Antakalniai
 0;23.1302,55.3951;60061;Raseinių r. sav.;Geišiai
 0;24.8102,56.1105;41062;Biržų r. sav.;Geidžiūnai
@@ -5274,6 +5394,7 @@
 0;24.3167,54.5333;64061;Alytaus r. sav.;Gančiūnai
 0;22.9739,55.7813;86043;Kelmės r. sav.;Galvydiškė
 0;24.8920,56.0359;41071;Biržų r. sav.;Galvokai
+0;21.6275,55.1950;;Klaipėda County;Galzdonai
 0;21.8471,55.3360;99069;Šilutės r. sav.;Galnė
 0;23.2095,55.7300;82046;Radviliškio r. sav.;Galminaičiai
 0;22.2707,55.2751;72001;Tauragės r. sav.;Galmenai
@@ -5285,6 +5406,7 @@
 0;23.7427,55.1485;54015;Kauno r. sav.;Gaižuvėlė-Pastriūnė
 0;23.7667,55.1500;54050;Kauno r. sav.;Gaižuvėlė
 0;23.7427,55.1485;54015;Kauno r. sav.;Gaižuvėlė
+0;22.0415,55.8785;;Telsiai;Gaižupiai
 0;23.9233,56.1360;83040;Pakruojo r. sav.;Gaižūnai
 0;24.3114,55.0499;55001;Jonavos r. sav.;Gaižiūnai
 0;23.1591,56.2623;81015;Šiaulių r. sav.;Gaižaičiai
@@ -5306,6 +5428,7 @@
 0;23.6107,55.1048;54011;Kauno r. sav.;Gaigalai
 0;23.4417,55.0752;71013;Šakių r. sav.;Gaideliškiai
 0;21.5343,55.3102;99001;Šilutės r. sav.;Gaideliai
+0;26.5536,55.5593;;Utena;Gaidė
 0;21.2667,55.4667;99050;Šilutės r. sav.;Gaiciai
 0;24.5000,55.0167;55022;Jonavos r. sav.;Gagužinė
 0;21.9784,55.5293;75029;Šilalės r. sav.;Gagačiai
@@ -5380,6 +5503,7 @@
 0;23.2094,55.1674;70021;Vilkaviškio r. sav.;Džiaugiai
 0;22.0912,55.4774;75020;Šilalės r. sav.;Džiaugėnai
 0;23.4851,54.1982;67001;Lazdijų r. sav.;Dyviliškiai
+0;26.7877,55.3162;;Utena;Dysna
 0;21.6042,55.9400;97041;Kretingos r. sav.;Dyburiai
 0;21.4843,55.5650;96020;Klaipėdos r. sav.;Dvyliai
 0;25.6852,55.7980;42013;Rokiškio r. sav.;Dvirėžiai
@@ -5440,10 +5564,12 @@
 0;23.2805,55.0333;74054;Jurbarko r. sav.;Dubiniškiai
 0;22.6400,55.9569;88019;Telšių r. sav.;Dubiniai
 0;25.4586,55.0601;33022;Molėtų r. sav.;Dubingiai
+0;24.7454,54.0192;;Alytus;Dubičiai
 0;22.7999,55.7477;86043;Kelmės r. sav.;Dubėnai
 0;25.6441,54.9150;15013;Vilniaus r. sav.;Družiliai
 0;24.8891,55.0224;19001;Širvintų r. sav.;Družai
 0;22.4044,55.2307;73001;Tauragės r. sav.;Drūtaviškiai
+0;24.7333,54.0667;;Alytus;Drusminiai
 12055;23.9870,54.0157;66001;Druskininkų sav.;Druskininkai
 0;25.8231,55.6198;28042;Utenos r. sav.;Drąsėnai
 0;22.9083,55.5404;86011;Kelmės r. sav.;Drupstai
@@ -5452,6 +5578,7 @@
 0;24.9694,55.8673;40001;Kupiškio r. sav.;Drūlėnai
 0;21.2924,55.5503;96047;Klaipėdos r. sav.;Drukiai
 0;22.0600,55.9332;90042;Plungės r. sav.;Drūkčiai
+0;24.7355,54.0758;;Alytus;Drucminai
 0;24.4460,54.2954;65011;Varėnos r. sav.;Druckūnai
 0;24.9404,55.0923;19001;Širvintų r. sav.;Drublionys
 0;22.0670,55.5222;75029;Šilalės r. sav.;Drobūkštaliai
@@ -5569,6 +5696,7 @@
 0;23.9282,55.0609;54073;Kauno r. sav.;Didieji Ibėnai
 0;25.2877,54.7923;14281;Vilniaus m. sav.;Didieji Gulbinai
 0;25.6228,55.8951;42001;Rokiškio r. sav.;Didėja
+0;26.0372,55.8457;;Utena;Didėja
 0;23.4167,55.3833;60055;Raseinių r. sav.;Dickaimis
 0;24.2721,55.9206;39015;Pasvalio r. sav.;Dičiūnai
 0;23.6881,55.6167;82025;Radviliškio r. sav.;Dauderiai
@@ -5585,6 +5713,7 @@
 0;24.5066,54.4932;21025;Trakų r. sav.;Dembina
 0;24.6684,55.2395;20042;Ukmergės r. sav.;Deltuva
 0;21.7426,55.2776;99011;Šilutės r. sav.;Dėkintai
+0;25.6870,54.7778;;Vilnius;Dekaniškės
 0;24.7747,55.2015;20027;Ukmergės r. sav.;Deltuvėlė
 0;22.1735,55.6367;75038;Šilalės r. sav.;Degutaliai
 0;22.0448,56.1049;90039;Plungės r. sav.;Degučiai
@@ -5624,6 +5753,7 @@
 0;21.3009,55.7150;96041;Klaipėdos m. sav.;Dauparai
 0;23.5595,56.3144;84001;Joniškio r. sav.;Daunoriškė
 0;23.4797,56.0027;80001;Šiaulių r. sav.;Daunorai
+0;26.0634,55.0080;;Vilnius;Daumilai
 0;24.4000,55.7000;35001;Panevėžio r. sav.;Daumėnai
 0;23.0162,55.3769;60001;Raseinių r. sav.;Daumėnai
 0;24.9872,55.4473;29021;Anykščių r. sav.;Daumantai
@@ -5688,6 +5818,8 @@
 0;23.8429,55.1669;54050;Kauno r. sav.;Dasiūnai
 0;22.9131,54.7487;71049;Šakių r. sav.;Daržininkai
 0;25.3667,54.5500;02212;Vilniaus m. sav.;Daržininkai
+0;24.8863,54.3258;;Alytus;Daržininkai
+0;24.3325,54.0220;;Alytus;Darželiai
 0;24.6721,55.9553;41033;Biržų r. sav.;Daržai
 0;24.1196,54.7356;59040;Prienų r. sav.;Darsūniškis
 0;24.7783,55.9090;40056;Kupiškio r. sav.;Daršiškiai
@@ -5695,6 +5827,7 @@
 0;21.1054,55.8143;96044;Klaipėdos r. sav.;Dargužiai
 0;23.7141,55.6934;82055;Radviliškio r. sav.;Dargužiai
 0;24.1661,55.1518;55066;Jonavos r. sav.;Dargužiai
+0;24.8851,54.3839;;Alytus;Dargužiai
 0;22.5508,55.6034;86065;Kelmės r. sav.;Dargiškė
 0;23.8252,56.2427;84031;Joniškio r. sav.;Darginiai
 0;22.4455,56.3151;89001;Mažeikių r. sav.;Dargiai
@@ -5722,6 +5855,7 @@
 0;23.4275,54.5827;69001;Marijampolės sav.;Dambrauka
 14;23.8992,55.7756;82007;Radviliškio r. sav.;Dambava
 0;23.5207,54.5882;69001;Marijampolės sav.;Dambava
+0;22.9705,54.4840;;Marijampolė County;Dambauka
 0;23.3673,54.4611;69022;Marijampolės sav.;Dalginė
 0;22.1415,55.6749;75038;Šilalės r. sav.;Dalgai
 0;21.7676,56.2261;98050;Skuodo r. sav.;Daktarai
@@ -5737,6 +5871,7 @@
 0;25.2797,54.4151;17032;Šalčininkų r. sav.;Dainava
 0;23.7500,54.3833;64041;Alytaus r. sav.;Dainava
 0;24.9684,54.2500;17014;Šalčininkų r. sav.;Dainava
+0;24.7042,54.1479;;Alytus;Dainava
 0;25.1000,54.1833;17014;Šalčininkų r. sav.;Dailydžiai
 0;25.5956,54.2834;17005;Šalčininkų r. sav.;Dailidės
 0;25.1077,54.1885;17014;Šalčininkų r. sav.;Dailidės
@@ -5762,6 +5897,7 @@
 0;26.4519,55.3685;30024;Ignalinos r. sav.;Češulėnai
 0;24.5660,54.5958;21034;Trakų r. sav.;Čižiūnai
 0;24.2800,54.4245;64001;Alytaus r. sav.;Čižiūnai
+0;24.8513,54.3656;;Alytus;Čižiūnai
 0;25.6768,55.8307;42013;Rokiškio r. sav.;Čivyliai
 0;23.6278,54.1294;67043;Lazdijų r. sav.;Čivonys
 0;23.4614,55.2274;60010;Raseinių r. sav.;Čiužiūnai
@@ -5769,6 +5905,7 @@
 0;23.3591,55.7684;82046;Radviliškio r. sav.;Čiuteliai
 0;22.5404,55.3419;73032;Tauragės r. sav.;Čiuteikiai
 0;21.4277,55.4991;96047;Klaipėdos r. sav.;Čiūteliai
+0;25.1161,54.2882;;Vilnius;Čiuronys
 0;24.1349,55.6353;38040;Panevėžio r. sav.;Čiūrai
 0;25.6369,55.2340;33007;Molėtų r. sav.;Čiulai
 0;23.8136,55.2832;58011;Kėdainių r. sav.;Čiukiškiai
@@ -5807,12 +5944,14 @@
 0;22.7333,55.8167;86036;Kelmės r. sav.;Cedroniškė
 0;25.4157,56.1020;42069;Rokiškio r. sav.;Čedasai
 0;23.0975,55.0436;74057;Jurbarko r. sav.;Čebatoriai
+0;24.8594,54.2955;;Alytus;Čebatoriai
 0;21.2000,55.8167;96044;Klaipėdos r. sav.;Cartai
 0;22.0369,55.5584;75029;Šilalės r. sav.;Capiškiai
 0;22.3262,55.5388;75001;Šilalės r. sav.;Bytlaukis
 0;22.3035,55.5309;75001;Šilalės r. sav.;Bytauciai
 0;22.8497,55.6374;86052;Kelmės r. sav.;Biliškiai
 0;23.6710,54.8023;59030;Prienų r. sav.;Byliškės
+0;25.5949,54.4764;;Vilnius;Bygirdai
 0;24.9474,55.8289;40001;Kupiškio r. sav.;Byčiai
 0;24.8300,54.2768;65063;Varėnos r. sav.;Butvydonys
 0;22.6176,55.5258;86026;Kelmės r. sav.;Būtvilai
@@ -5840,6 +5979,7 @@
 0;21.3142,55.5932;96047;Klaipėdos r. sav.;Butkai
 0;21.9779,55.3199;73010;Tauragės r. sav.;Butkai
 0;25.5346,55.6507;28033;Utenos r. sav.;Butiškiai
+0;21.1141,56.0512;;Klaipėda County;Būtingė
 0;22.6490,55.4325;73028;Tauragės r. sav.;Būteniai
 0;25.1845,55.7645;40018;Kupiškio r. sav.;Butėnai
 0;23.8464,55.7190;82007;Radviliškio r. sav.;Butėnai
@@ -5887,6 +6027,7 @@
 0;24.5063,55.6510;35001;Panevėžio r. sav.;Bukaltiškiai
 0;23.5020,56.2560;84001;Joniškio r. sav.;Buivydžiai
 0;25.0317,55.1335;19001;Širvintų r. sav.;Beivydžiai
+0;25.7309,54.8357;;Vilnius;Buivydžiai I
 0;24.3901,54.7461;56017;Kaišiadorių r. sav.;Buivydonys
 0;23.4858,55.0853;71013;Šakių r. sav.;Buivydai
 0;25.1804,56.0151;42041;Rokiškio r. sav.;Buivėnai
@@ -6023,7 +6164,9 @@
 0;23.1834,55.3323;60028;Raseinių r. sav.;Biliūnai
 0;23.7772,55.0182;54001;Kauno r. sav.;Biliūnai
 0;22.3090,55.5973;75038;Šilalės r. sav.;Bilioniai
+0;25.6679,54.7497;;Vilnius;Bildžiai
 0;22.5860,55.3296;73032;Tauragės r. sav.;Bildeniai
+0;26.1324,55.8296;;Utena;Bikūnai
 0;25.7473,55.6672;28042;Utenos r. sav.;Bikūnai
 0;25.1823,55.5549;29001;Anykščių r. sav.;Bikūnai
 0;21.9967,55.4029;75020;Šilalės r. sav.;Bikavėnai
@@ -6073,6 +6216,7 @@
 0;26.4629,55.2869;30012;Ignalinos r. sav.;Bernotai
 0;23.5495,55.0872;54015;Kauno r. sav.;Bernoriškiai
 0;23.4195,55.7603;82043;Radviliškio r. sav.;Bernočiai
+0;26.5692,55.5655;;Utena;Berniūnai
 0;25.9633,55.2726;18028;Švenčionių r. sav.;Berniūnai
 0;24.2908,55.7810;35001;Panevėžio m. sav.;Bernatoniai
 0;23.7943,54.9675;53015;Kauno r. sav.;Bernatoniai
@@ -6142,6 +6286,8 @@
 0;22.3983,55.5739;75041;Šilalės r. sav.;Bartkiškė
 0;21.6167,55.3833;99063;Šilutės r. sav.;Bartininkai II
 0;21.6170,55.4017;99063;Šilutės r. sav.;Bartininkai
+0;23.0167,54.4833;;Marijampolė County;Bartininkai I
+0;23.0272,54.5044;;Marijampolė County;Bartninkai
 0;24.6722,54.3128;65063;Varėnos r. sav.;Barteliai
 0;22.3405,55.5431;75038;Šilalės r. sav.;Bartašiškė
 0;24.0399,55.0281;54078;Kauno r. sav.;Barsūniškiai
@@ -6284,6 +6430,7 @@
 0;23.9855,54.6560;59021;Prienų r. sav.;Bagrėnas
 0;23.3529,54.7579;69080;Kazlų Rūdos sav.;Bagotoji
 0;22.2922,55.7388;88050;Telšių r. sav.;Baginai
+0;25.7044,54.8681;;Vilnius;Balingradas
 0;25.5342,54.3714;17001;Šalčininkų r. sav.;Bagdžiuliai
 0;22.9614,54.9941;74042;Jurbarko r. sav.;Bagdžiai
 0;24.7089,54.6282;21063;Elektrėnų sav.;Bagdononys
@@ -6314,6 +6461,7 @@
 0;23.4333,54.5167;69022;Marijampolės sav.;Babalinė
 0;23.6223,55.4584;70029;Vilkaviškio r. sav.;Ažytėnai
 0;26.0815,55.4768;32007;Zarasų r. sav.;Ažvinčiai
+0;26.0088,55.9585;;Panevėžys;Ažušiliai
 0;25.0336,55.5016;29001;Anykščių r. sav.;Ažuožeriai
 0;23.6964,55.3833;58032;Kėdainių r. sav.;Ąžuolytė
 0;23.5833,55.2000;54046;Kauno r. sav.;Ažuolytė
@@ -6378,6 +6526,7 @@
 0;21.9476,56.2874;98050;Skuodo r. sav.;Augzeliai
 0;25.3551,55.9307;42031;Rokiškio r. sav.;Augustinava
 81;23.6615,55.6543;82025;Radviliškio r. sav.;Augmėnai
+0;21.5667,55.2167;;Klaipėda County;Audruliai
 0;21.3833,55.3167;99044;Šilutės r. sav.;Atmata
 0;24.5761,55.2531;20042;Ukmergės r. sav.;Atkočiai
 0;25.1167,55.0333;19005;Širvintų r. sav.;Ationys I
@@ -6449,6 +6598,7 @@
 0;22.5963,55.5085;75041;Šilalės r. sav.;Antininkai
 0;22.1833,55.2500;72001;Tauragės r. sav.;Antgurkliai
 0;23.6135,55.4089;58032;Kėdainių r. sav.;Antežeriai
+0;25.9838,55.0392;;Vilnius;Antasarė
 0;22.4494,55.3484;73032;Tauragės r. sav.;Antegluonis
 0;25.9255,55.8118;32022;Zarasų r. sav.;Antazavė
 0;25.3982,54.7975;10150;Vilniaus m. sav.;Antaviliai
@@ -6469,6 +6619,7 @@
 0;24.6940,55.1090;19020;Širvintų r. sav.;Antakalnis
 0;24.3450,54.8497;56028;Kaišiadorių r. sav.;Antakalnis
 0;24.0434,54.6918;59040;Prienų r. sav.;Antakalnis
+0;26.0000,55.4333;;Utena;Antaiksnė
 0;26.0032,55.3483;18028;Švenčionių r. sav.;Antalksnė
 0;25.4833,55.5000;28027;Utenos r. sav.;Antaigė
 0;23.8612,55.1219;54050;Kauno r. sav.;Antagynėlės
@@ -6490,6 +6641,7 @@
 0;23.0951,55.1180;70021;Vilkaviškio r. sav.;Andriušiūnai
 22;23.6542,55.6269;82025;Radviliškio r. sav.;Andriūnai
 0;25.0436,55.5969;29042;Anykščių r. sav.;Andrioniškis
+0;22.6737,55.9374;;Telsiai;Endrietiškiai
 0;23.5934,56.1524;84001;Joniškio r. sav.;Andrešiūnai
 0;24.3092,55.4392;58063;Kėdainių r. sav.;Anciškis
 0;24.6628,55.9709;41033;Biržų r. sav.;Ančiškiai
@@ -6575,6 +6727,7 @@
 0;23.2407,54.9753;71005;Šakių r. sav.;Akėčiai
 0;23.8587,55.3950;53067;Kauno r. sav.;Akademija
 0;24.4167,54.9167;56001;Kaišiadorių r. sav.;Aitekonys
+0;23.0204,54.4214;;Marijampolė County;Aistiškiai
 0;21.4941,55.5874;96020;Klaipėdos r. sav.;Aisėnai
 0;21.4345,55.5356;96047;Klaipėdos r. sav.;Aisėnai
 0;24.9241,54.8423;19014;Širvintų r. sav.;Airėnai I
@@ -6602,6 +6755,7 @@
 0;24.7171,54.7829;26001;Elektrėnų sav.;Abromiškės
 0;23.4736,55.6319;82040;Radviliškio r. sav.;Abrieskai
 0;25.4620,54.3492;17001;Šalčininkų r. sav.;Abolai
+0;24.7926,54.1257;;Alytus;Strėžiūnai
 0;25.5624,54.2251;17008;Šalčininkų r. sav.;Senieji Miežionys
 0;25.5696,54.2168;17008;Šalčininkų r. sav.;Naujieji Miežionys
 0;26.5452,55.5355;30045;Visagino sav.;Čepukai
@@ -6696,6 +6850,7 @@
 0;24.8994,56.4300;41058;Biržų r. sav.;Totorkalnis
 0;24.9073,56.4427;41058;Biržų r. sav.;Aspariškiai
 0;24.6838,56.3511;41058;Biržų r. sav.;Svidžiai
+0;24.5921,56.3328;;Panevėžys;Mažoji Panemunė
 0;24.2275,56.2167;39034;Pasvalio r. sav.;Eidžiotoniai
 0;24.2192,56.1866;39034;Pasvalio r. sav.;Daičiūnai
 0;24.0031,56.2528;83031;Pakruojo r. sav.;Akmenėliai
@@ -6710,6 +6865,7 @@
 0;22.8356,54.4780;70037;Vilkaviškio r. sav.;Skardupiai
 0;22.7761,54.6397;70065;Vilkaviškio r. sav.;Kibartay
 0;21.5903,55.2585;99001;Šilutės r. sav.;Jakšteliai
+0;21.6462,55.2443;;Klaipėda County;Kūgeliai
 20;21.8296,55.2420;99011;Šilutės r. sav.;Naustubriai
 0;24.4066,54.1689;65011;Varėnos r. sav.;Lavysas
 0;25.3112,55.1708;33040;Molėtų r. sav.;Zalvariai
@@ -6725,6 +6881,7 @@
 0;23.2520,54.2970;69030;Kalvarijos sav.;Senoji Radiškė
 0;25.2634,54.5638;14108;Vilniaus m. sav.;Valčiūnai
 0;21.2286,55.8548;97001;Kretingos r. sav.;Egliškiai
+0;26.0116,55.9417;;Panevėžys;Barauka
 0;26.3618,55.7089;32004;Zarasų r. sav.;Venteleriškės
 0;26.1087,55.5406;32007;Zarasų r. sav.;Galiniai
 0;26.0401,55.2800;18028;Švenčionių r. sav.;Obely Ragas
@@ -7452,6 +7609,9 @@
 0;22.3742,55.5655;75041;Šilalės r. sav.;Pabaliai
 0;22.4041,55.4826;75011;Šilalės r. sav.;Paiekvedis
 0;22.4114,55.5875;75041;Šilalės r. sav.;Jankaičiai
+0;26.8209,55.3064;;Utena;Vosiūnai
+0;26.7944,55.2803;;Utena;Rimaldiškė
+0;26.7698,55.2616;;Utena;Pajuodupis
 0;26.4032,55.7038;32004;Zarasų r. sav.;Žiogiškės
 0;26.4483,55.7028;32004;Zarasų r. sav.;Kumpuočiai
 0;26.4318,55.7054;32004;Zarasų r. sav.;Navikai
@@ -7531,6 +7691,15 @@
 0;26.4873,55.5312;30045;Visagino sav.;Bieniūnai
 0;26.5165,55.5430;30045;Visagino sav.;Žibakiai
 0;26.5107,55.5526;30045;Visagino sav.;Vigutėnai
+0;26.5720,55.5471;;Utena;Stanionys
+0;26.5665,55.5557;;Utena;Beržininkai II
+0;26.5962,55.5571;;Utena;Švikščionys
+0;26.5805,55.5657;;Utena;Varniškiai
+0;26.6205,55.5710;;Utena;Mačionys
+0;26.5975,55.5738;;Utena;Galilaukė
+0;26.6074,55.5760;;Utena;Kalnežeris
+0;26.5967,55.5776;;Utena;Vosyliškės
+0;26.5865,55.5790;;Utena;Balandiškė
 0;26.5627,55.5836;32004;Zarasų r. sav.;Skryteliai
 0;26.5969,55.5950;32004;Zarasų r. sav.;Vilkaragis
 0;26.5054,55.6016;31001;Visagino sav.;Tumelina
@@ -7761,10 +7930,44 @@
 0;26.4957,55.2056;30012;Ignalinos r. sav.;Stukai
 0;26.5409,55.2039;18033;Švenčionių r. sav.;Piršteliškė
 0;26.6496,55.2048;18033;Švenčionių r. sav.;Kavaltiškė
+0;26.0216,55.9444;;Panevėžys;Lugariškis
+0;26.0255,55.9341;;Utena;Lipnikai
+0;26.0420,55.9292;;Utena;Ulytėlė
+0;26.0491,55.9211;;Utena;Kamariškiai
+0;26.0348,55.9075;;Utena;Rudakasos
+0;26.0633,55.9156;;Utena;Juodeniai
+0;26.0725,55.8953;;Utena;Ažubaliai
+0;26.0527,55.8929;;Utena;Suvėnai
+0;26.0373,55.8887;;Utena;Slavėniškis
+0;26.0120,55.8917;;Utena;Ajočiai
+0;26.0914,55.8907;;Utena;Subatiškis
+0;26.0929,55.8691;;Utena;Kastantinava
+0;26.0879,55.8670;;Utena;Vaidminiai
+0;26.0913,55.8612;;Utena;Maironiai
+0;26.0852,55.8594;;Utena;Stonupis
+0;26.0844,55.8542;;Utena;Anupriškis
+0;26.0751,55.8536;;Utena;Novinkos
+0;26.0799,55.8609;;Utena;Salaviškis
+0;26.0500,55.8644;;Utena;Krioviniai
+0;26.0069,55.8654;;Utena;Kumpuoliai
+0;25.9979,55.8606;;Utena;Bugai
+0;26.0160,55.8538;;Utena;Paliūniai
 0;26.0190,55.8387;32022;Zarasų r. sav.;Degutiškis
+0;26.0691,55.8526;;Utena;Balčiūniškės
+0;26.0708,55.8462;;Utena;Boleslovava
+0;26.0567,55.8438;;Utena;Guogiškis
+0;26.1241,55.8434;;Utena;Knipiškės
+0;26.1166,55.8392;;Utena;Upiškės
+0;26.1015,55.8303;;Utena;Katkuškės
+0;26.0942,55.8286;;Utena;Andrioniškis
+0;26.0914,55.8280;;Utena;Rudinės
+0;26.0685,55.8300;;Utena;Cibulinė
+0;26.0530,55.8272;;Utena;Astraučizna
+0;26.0463,55.8322;;Utena;Čičiriai
 0;25.9984,55.8184;32022;Zarasų r. sav.;Paliesė
 0;26.0796,55.8108;32032;Zarasų r. sav.;Sviriškės
 0;26.0960,55.8156;32032;Zarasų r. sav.;Meiriškės
+0;26.1366,55.8232;;Utena;Raginė
 0;26.1083,55.8201;32032;Zarasų r. sav.;Konecpolis
 0;26.1052,55.8040;32032;Zarasų r. sav.;Ilgiai
 0;26.0973,55.8021;32032;Zarasų r. sav.;Kamša
@@ -7889,10 +8092,18 @@
 0;26.1751,55.8110;32001;Zarasų r. sav.;Ragauka
 0;26.1529,55.8121;32001;Zarasų r. sav.;Ramuma
 0;26.1459,55.8142;32032;Zarasų r. sav.;Grybinė
+0;26.1257,55.8227;;Utena;Ažubaliai
 0;26.1608,55.8321;32001;Zarasų r. sav.;Terteliai
+0;26.1409,55.8469;;Utena;Ažvertiniškės
 0;26.1578,55.8400;32001;Zarasų r. sav.;Duogiai
 0;26.1766,55.8334;32001;Zarasų r. sav.;Degsnė
 0;26.2154,55.8412;32001;Zarasų r. sav.;Bliokmantas
+0;26.1824,55.8512;;Utena;Mironiškis
+0;26.1893,55.8602;;Utena;Patiltiniai
+0;26.1807,55.8662;;Utena;Kadariškiai
+0;26.1711,55.8559;;Utena;Saliniai
+0;26.1551,55.8588;;Utena;Medoliškės
+0;26.1335,55.8578;;Utena;Sodžiai
 0;26.2258,55.8028;32001;Zarasų r. sav.;Garadauka
 0;26.2299,55.7990;32001;Zarasų r. sav.;Stumbrinė
 0;26.2281,55.7974;32001;Zarasų r. sav.;Neišeriškės
@@ -7948,6 +8159,8 @@
 0;26.3371,55.7309;32001;Zarasų r. sav.;Šapauka
 0;26.3363,55.7398;32001;Zarasų r. sav.;Ankudinovka
 0;26.1337,55.7550;32032;Zarasų r. sav.;Kamionka
+0;26.0718,55.8812;;Utena;Milgedžiai
+0;26.0889,55.8830;;Utena;Pamilgedžiai
 0;26.0766,55.8176;32032;Zarasų r. sav.;Meiriškėlės
 0;26.1227,55.8206;32032;Zarasų r. sav.;Miškiniškės
 0;26.1254,55.7196;32032;Zarasų r. sav.;Šukiškės
@@ -8208,6 +8421,8 @@
 0;26.0949,55.4281;30001;Ignalinos r. sav.;Užsieniai
 0;26.1069,55.4336;30001;Ignalinos r. sav.;Lauksteniai
 0;26.1415,55.4513;30001;Ignalinos r. sav.;Marijonavas
+0;26.0050,55.4080;;Utena;Ripelialaukis
+0;25.9766,55.4029;;Utena;Papliaušys
 0;26.0141,55.3999;18028;Švenčionių r. sav.;Beržaragis
 0;26.0452,55.3900;18028;Švenčionių r. sav.;Trainiškis
 0;26.0231,55.3918;18028;Švenčionių r. sav.;Vaidžiuškės
@@ -8442,6 +8657,15 @@
 0;26.1248,55.2742;18028;Švenčionių r. sav.;Lygumai
 0;26.1430,55.2733;30001;Ignalinos r. sav.;Biržija
 0;26.0881,55.2882;18028;Švenčionių r. sav.;Paversmis
+0;25.9934,55.4605;;Utena;Minčiakampis
+0;26.0048,55.4624;;Utena;Rūgsteliškis
+0;26.0169,55.4612;;Utena;Paažvintė
+0;26.0174,55.4528;;Utena;Aukštaglynis
+0;26.0264,55.4259;;Utena;Vaišnoriškė
+0;26.0296,55.4104;;Utena;Strazdai
+0;25.9842,55.4137;;Utena;Skroblus II
+0;26.0401,55.3997;;Utena;Šuminai
+0;25.9949,55.4218;;Utena;Vyžiai
 0;26.0028,55.2393;18028;Švenčionių r. sav.;Antaniškė
 0;26.0325,55.2302;18028;Švenčionių r. sav.;Pošiūniškė
 0;26.0306,55.2185;18028;Švenčionių r. sav.;Pašventys
@@ -8499,8 +8723,17 @@
 0;25.9612,55.0911;18022;Švenčionių r. sav.;Melagėnai
 0;25.9734,55.0566;18022;Švenčionių r. sav.;Rudeliškė
 0;26.0203,55.0582;18022;Švenčionių r. sav.;Malinovka
+0;26.0414,55.0468;;Vilnius;Juzina
 0;26.0217,55.0516;18022;Švenčionių r. sav.;Laukianka
 0;26.0136,55.0501;18022;Švenčionių r. sav.;Laukiai
+0;26.0344,55.0399;;Vilnius;Družulėnai
+0;26.0040,55.0264;;Vilnius;Ašvaraistis
+0;26.0208,55.0220;;Vilnius;Šakimas
+0;26.0639,55.0206;;Vilnius;Cegelnia
+0;26.0943,55.0207;;Vilnius;Trakai
+0;26.1469,55.0384;;Vilnius;Saduvka
+0;26.1652,55.0458;;Vilnius;Čyčeliai
+0;26.1755,55.0495;;Vilnius;Akvieriškė
 0;26.1885,55.0603;18001;Švenčionių r. sav.;Skritutiškė
 0;26.1737,55.0574;18001;Švenčionių r. sav.;Varniškė
 0;26.1436,55.0596;18001;Švenčionių r. sav.;Beržinkos
@@ -8603,7 +8836,15 @@
 0;26.2035,55.0804;18001;Švenčionių r. sav.;Šakališkė
 0;26.2127,55.0625;18001;Švenčionių r. sav.;Šišniškė
 0;26.2294,55.0569;18001;Švenčionių r. sav.;Senas Janavas
+0;26.2325,55.0488;;Vilnius;Naujas Janavas
 0;26.2069,55.0521;18001;Švenčionių r. sav.;Toleikos
+0;26.2234,55.0419;;Vilnius;Zboniškė
+0;26.2218,55.0352;;Vilnius;Meškauščizna
+0;26.2247,55.0290;;Vilnius;Daujotiškė
+0;26.1746,55.0419;;Vilnius;Karklinka
+0;26.1630,55.0332;;Vilnius;Strūna
+0;26.1840,55.0262;;Vilnius;Šiaudiniškė
+0;26.1887,55.0335;;Vilnius;Kebiškė
 0;26.2559,55.0819;18001;Švenčionių r. sav.;Papelekis
 0;26.3435,55.2183;30012;Ignalinos r. sav.;Pašventė
 0;26.2526,55.0829;18001;Švenčionių r. sav.;Margiškė
@@ -8655,6 +8896,22 @@
 0;26.2788,55.1767;18001;Švenčionių r. sav.;Adamavas
 0;25.9648,55.1986;18022;Švenčionių r. sav.;Jusiai
 0;26.2871,55.2382;30012;Ignalinos r. sav.;Merkmenys
+0;26.0390,55.0174;;Vilnius;Tadarina I
+0;25.9973,54.9697;;Vilnius;Žukiškė
+0;26.0161,54.9897;;Vilnius;Bielkiškė
+0;25.9923,54.9898;;Vilnius;Svirkiškė
+0;25.9795,54.9671;;Vilnius;Jenarališkė
+0;26.0694,54.9530;;Vilnius;Michalinavas
+0;26.0022,54.9609;;Vilnius;Rapiejai
+0;25.9753,54.9591;;Vilnius;Ramutiškė
+0;26.0767,55.0004;;Vilnius;Milauka
+0;26.1549,55.0079;;Vilnius;Kulbokiškė
+0;26.1192,54.9990;;Vilnius;Rūdabestis
+0;26.1460,54.9923;;Vilnius;Domininkavas
+0;26.1336,54.9885;;Vilnius;Maselščizna
+0;26.1684,54.9962;;Vilnius;Lugiai
+0;26.2026,55.0025;;Vilnius;Zeliankos
+0;26.1861,55.0085;;Vilnius;Zablatiškė
 0;25.6664,56.1208;42063;Rokiškio r. sav.;Raupiai
 0;25.6573,56.1266;42063;Rokiškio r. sav.;Vištagerklis
 0;25.6215,56.1202;42063;Rokiškio r. sav.;Ginotai
@@ -8743,7 +9000,11 @@
 0;25.9027,55.9284;42006;Rokiškio r. sav.;Razrivka
 0;25.9108,55.9308;42006;Rokiškio r. sav.;Jučiai
 0;25.9389,55.9312;42006;Rokiškio r. sav.;Vertybiškis
+0;25.9679,55.9243;;Panevėžys;Agurkiškis
 0;25.9463,55.9279;42006;Rokiškio r. sav.;Sinkiškis
+0;25.9584,55.9569;;Panevėžys;Svobiškis
+0;25.9860,55.9556;;Panevėžys;Razalinava
+0;25.9865,55.9588;;Panevėžys;Šapalai
 0;25.6105,56.1016;42063;Rokiškio r. sav.;Remeikiai
 0;25.6630,56.1144;42063;Rokiškio r. sav.;Aleknos
 0;25.6630,55.9811;42001;Rokiškio r. sav.;Piepaliai
@@ -8753,6 +9014,7 @@
 0;25.6352,55.9267;42001;Rokiškio r. sav.;Čelkiai
 0;25.7736,55.9441;42006;Rokiškio r. sav.;Audronys I
 0;25.7541,56.0464;42006;Rokiškio r. sav.;Vanagynė
+0;25.9844,55.9669;;Panevėžys;Sipailiškis
 0;25.8118,55.9356;42006;Rokiškio r. sav.;Stasiūnai
 0;25.6093,55.9221;42001;Rokiškio r. sav.;Karveliškis
 0;25.6665,55.8982;42006;Rokiškio r. sav.;Rokiškėlės
@@ -8939,6 +9201,9 @@
 0;25.9557,55.8635;32022;Zarasų r. sav.;Pailgės
 0;25.9371,55.8582;42006;Rokiškio r. sav.;Zirnajai
 0;25.9512,55.8721;32022;Zarasų r. sav.;Mieleikuškės
+0;25.9851,55.8703;;Utena;Kukariškis
+0;25.9823,55.8769;;Utena;Joniškis
+0;25.9507,55.8758;;Panevėžys;Raudėnai
 0;25.9397,55.8720;42006;Rokiškio r. sav.;Zirnajai
 0;25.9339,55.8881;42006;Rokiškio r. sav.;Baziliškis
 0;25.9110,55.8942;42006;Rokiškio r. sav.;Cigelnė
@@ -8956,6 +9221,11 @@
 0;25.8729,55.9118;42006;Rokiškio r. sav.;Vajeičiai
 0;25.8812,55.9161;42006;Rokiškio r. sav.;Pagriaumelės
 0;25.9298,55.9167;42006;Rokiškio r. sav.;Ažusienis
+0;25.9919,55.9074;;Utena;Juozapava
+0;25.9709,55.8999;;Panevėžys;Skaistinė
+0;25.9868,55.8931;;Utena;Rasimai
+0;25.9670,55.8887;;Panevėžys;Trumponys
+0;25.9751,55.8831;;Utena;Alkauka
 0;25.7127,55.7334;42013;Rokiškio r. sav.;Žiūkeliškės
 0;25.7704,55.8837;42006;Rokiškio r. sav.;Vakariai
 0;25.9038,55.8610;42006;Rokiškio r. sav.;Paveisejai
@@ -8964,6 +9234,7 @@
 0;25.9574,55.7848;32022;Zarasų r. sav.;Duburiai
 0;25.9895,55.7687;32022;Zarasų r. sav.;Petraučiškės
 0;25.8990,55.7143;32022;Zarasų r. sav.;Gugiai
+0;25.9882,55.9004;;Utena;Raistiniai
 0;25.6980,55.8733;42006;Rokiškio r. sav.;Rukeliai
 0;25.6299,55.8344;42013;Rokiškio r. sav.;Radišiai
 0;25.6603,55.7440;42013;Rokiškio r. sav.;Pilkėnai
@@ -8978,6 +9249,7 @@
 0;25.9250,55.7860;32022;Zarasų r. sav.;Pakeriai
 0;25.9133,55.8345;32022;Zarasų r. sav.;Saliniai
 0;25.9267,55.8806;42006;Rokiškio r. sav.;Gegužiškis
+0;25.9835,55.8849;;Utena;Gegužiškis
 0;25.6142,55.9055;42001;Rokiškio r. sav.;Koveliai
 0;25.9805,55.7924;32022;Zarasų r. sav.;Duburaitis II
 0;25.9902,55.8005;32022;Zarasų r. sav.;Duburaitis I
@@ -9161,6 +9433,7 @@
 0;25.9013,55.5123;28012;Utenos r. sav.;Lukošiūnai
 0;25.8811,55.5166;28012;Utenos r. sav.;Martyniškis
 0;25.9319,55.5040;28012;Utenos r. sav.;Antabaltė
+0;25.9661,55.4862;;Utena;Paminčia
 0;25.9191,55.4938;28012;Utenos r. sav.;Balčiai
 0;25.9249,55.4882;28012;Utenos r. sav.;Liūniškės
 0;25.9058,55.4858;28012;Utenos r. sav.;Urviškės
@@ -9411,6 +9684,7 @@
 0;25.7801,55.4634;28012;Utenos r. sav.;Politiškės
 0;25.8455,55.4637;28012;Utenos r. sav.;Pilkeniai
 0;25.8753,55.4557;28012;Utenos r. sav.;Stučiai
+0;25.9659,55.4340;;Utena;Varniškės III
 0;25.9463,55.4430;28012;Utenos r. sav.;Daunoriai
 0;25.9310,55.4279;28015;Utenos r. sav.;Skroblus I
 0;25.8712,55.4394;28012;Utenos r. sav.;Taurapilis
@@ -9422,6 +9696,7 @@
 0;25.8927,55.4139;28015;Utenos r. sav.;Tautiškis
 0;25.8981,55.4081;28015;Utenos r. sav.;Kaboriškės
 0;25.9372,55.4239;28015;Utenos r. sav.;Varniškės I
+0;25.9598,55.4204;;Utena;Varniškės II
 0;25.9042,55.3996;28015;Utenos r. sav.;Strokiniai
 0;25.8834,55.4034;28015;Utenos r. sav.;Mediniškis
 0;25.8678,55.3954;28015;Utenos r. sav.;Gaiveniai
@@ -9654,6 +9929,13 @@
 0;25.6811,54.9090;18011;Švenčionių r. sav.;Kazimieriškė
 0;25.6857,54.9166;18011;Švenčionių r. sav.;Karalinavas
 0;25.7088,54.9181;18011;Švenčionių r. sav.;Raubiškiai
+0;25.7562,54.8240;;Vilnius;Šukeliškė
+0;25.7456,54.8303;;Vilnius;Kūniškė
+0;25.7443,54.8395;;Vilnius;Beregovka
+0;25.7776,54.8403;;Vilnius;Moliai
+0;25.7621,54.8540;;Vilnius;Bareišiūnai
+0;25.7208,54.8601;;Vilnius;Pitliuvka
+0;25.7499,54.8645;;Vilnius;Perčinė
 0;25.8260,54.8906;18011;Švenčionių r. sav.;Andriukėnai
 0;25.7057,54.8909;18011;Švenčionių r. sav.;Balinavas
 0;25.7253,54.9043;18011;Švenčionių r. sav.;Paežeriai
@@ -9750,6 +10032,11 @@
 0;25.5704,54.8653;15013;Vilniaus r. sav.;Papunė
 0;25.5812,54.8747;15013;Vilniaus r. sav.;Skališkės
 0;25.6982,54.8772;18011;Švenčionių r. sav.;Joninės
+0;25.6743,54.8722;;Vilnius;Šlepiškės
+0;25.6621,54.8656;;Vilnius;Balėnai
+0;25.7101,54.8580;;Vilnius;Stražninkai
+0;25.6733,54.8605;;Vilnius;Varapniškės
+0;25.6703,54.8566;;Vilnius;Šikšniškės
 0;25.6458,54.8591;15004;Vilniaus r. sav.;Akuotninkai
 0;25.6369,54.8608;15004;Vilniaus r. sav.;Karužiškės
 0;25.6147,54.8683;15004;Vilniaus r. sav.;Antaniškės
@@ -9765,6 +10052,10 @@
 0;25.6083,54.8461;15004;Vilniaus r. sav.;Arturiškis
 0;25.6258,54.8503;15004;Vilniaus r. sav.;Lozoriškės
 0;25.6421,54.8528;15004;Vilniaus r. sav.;Šimonys
+0;25.6534,54.8492;;Vilnius;Natališkės
+0;25.6678,54.8508;;Vilnius;Kareiviškės
+0;25.6907,54.8407;;Vilnius;Tautuliškės
+3;25.6537,54.8458;;Vilnius;Aukštieji
 0;25.6398,54.8470;15023;Vilniaus r. sav.;Rinkai
 0;25.6269,54.8444;15023;Vilniaus r. sav.;Brižiškės
 0;25.6150,54.8448;15004;Vilniaus r. sav.;Sukiškės
@@ -9774,12 +10065,38 @@
 0;25.6164,54.8357;15023;Vilniaus r. sav.;Žvynėnai
 0;25.6400,54.8405;15023;Vilniaus r. sav.;Pričiūnai
 0;25.6463,54.8378;15023;Vilniaus r. sav.;Kloniai
+0;25.6502,54.8331;;Vilnius;Leoniškės
+0;25.6607,54.8344;;Vilnius;Darželiai
+0;25.6615,54.8403;;Vilnius;Fabijoniškės
+0;25.6702,54.8226;;Vilnius;Joniškės
+0;25.6949,54.8158;;Vilnius;Narbutiškės
 0;25.5939,54.8044;15023;Vilniaus r. sav.;Aukštieji Bezdonys
+0;25.6871,54.8042;;Vilnius;Žitniškės
+0;25.6894,54.8072;;Vilnius;Naujakiemis
+0;25.6724,54.8021;;Vilnius;Jurzdika
+0;25.7060,54.8022;;Vilnius;Paežeriai
+0;25.7359,54.8083;;Vilnius;Išoriškės
+0;25.7405,54.8173;;Vilnius;Veselucha
+0;25.7411,54.8306;;Vilnius;Girdžiūnai
+0;25.7156,54.8321;;Vilnius;Jonakalnis
+0;25.7113,54.8422;;Vilnius;Plytinė
+0;25.7011,54.8447;;Vilnius;Karklinė
+0;25.7436,54.8556;;Vilnius;Paliepė
+0;25.7269,54.8579;;Vilnius;Vilkinė
 0;25.5889,54.9808;33010;Molėtų r. sav.;Daukšiai
 0;25.6269,54.9788;33010;Molėtų r. sav.;Tarakonys
 0;25.6168,54.8980;15013;Vilniaus r. sav.;Žukonys
 0;25.6283,54.8876;15013;Vilniaus r. sav.;Rėva
+0;25.6697,54.8281;;Vilnius;Buivydžiai II
+0;25.6940,54.8288;;Vilnius;Pilviškės
 0;25.6457,54.9352;15013;Vilniaus r. sav.;Jusinė
+0;25.6636,54.7769;;Vilnius;Putinai
+0;25.6724,54.7676;;Vilnius;Karoliškės
+0;25.6702,54.7609;;Vilnius;Vyžiškės
+0;25.6644,54.7611;;Vilnius;Skynimai
+0;25.6783,54.7408;;Vilnius;Čiriškės
+0;25.6698,54.7362;;Vilnius;Markiškės
+0;25.6672,54.7377;;Vilnius;Makovščizna
 0;25.6226,54.7380;13004;Vilniaus r. sav.;Liesiškės
 0;25.5881,54.7353;13004;Vilniaus r. sav.;Žagariškės
 0;25.5692,54.7398;13004;Vilniaus r. sav.;Taurija
@@ -9847,6 +10164,14 @@
 0;25.7111,54.7004;13010;Vilniaus r. sav.;Kaponiškės
 0;25.6930,54.7047;13010;Vilniaus r. sav.;Maciuliškės
 0;25.7056,54.7326;13010;Vilniaus r. sav.;Pukštėnai
+0;25.7143,54.7481;;Vilnius;Vitkiškės
+0;25.6947,54.7537;;Vilnius;Puntuzai
+0;25.7125,54.7674;;Vilnius;Beržytė
+0;25.7007,54.7822;;Vilnius;Lobiniai
+0;25.7215,54.7870;;Vilnius;Dembina
+0;25.7292,54.7884;;Vilnius;Kloniškės
+0;25.7319,54.7985;;Vilnius;Cereliai
+0;25.7189,54.7977;;Vilnius;Papiliai
 0;25.6294,54.7203;13004;Vilniaus r. sav.;Saidotiškės
 0;25.6868,54.7185;13010;Vilniaus r. sav.;Kuleliškės
 0;25.6693,54.7184;13010;Vilniaus r. sav.;Kuželiškės
@@ -9871,6 +10196,7 @@
 0;25.5651,54.5370;13010;Vilniaus r. sav.;Kalesninkai
 0;25.5755,54.5321;13010;Vilniaus r. sav.;Skarvadiškės
 0;25.5785,54.5260;13010;Vilniaus r. sav.;Tumosai
+0;25.5483,54.5240;;Vilnius;Trakeliai
 0;25.6013,54.5212;13010;Vilniaus r. sav.;Voveriai
 0;25.6223,54.5202;13010;Vilniaus r. sav.;Paalaburdiškės
 0;25.6565,54.5149;13010;Vilniaus r. sav.;Bajorai
@@ -9879,15 +10205,48 @@
 0;25.6106,54.4997;13010;Vilniaus r. sav.;Keipūnai
 0;25.6087,54.4947;13010;Vilniaus r. sav.;Berzytė
 0;25.5791,54.5094;13010;Vilniaus r. sav.;Kalviai
+0;25.5505,54.5009;;Vilnius;Vaitkiškės
+0;25.5446,54.4885;;Vilnius;Klinkos
+0;25.5533,54.4885;;Vilnius;Jociūnai
+0;25.5714,54.4977;;Vilnius;Šalkiškės
 0;25.5863,54.5003;13010;Vilniaus r. sav.;Šutiniai
 0;25.5994,54.4973;13010;Vilniaus r. sav.;Tarpučiai
+0;25.5899,54.4917;;Vilnius;Varniškės
 0;25.6189,54.4873;13010;Vilniaus r. sav.;Pabenė
+0;25.6002,54.4858;;Vilnius;Pikčiūnai
+0;25.5821,54.4845;;Vilnius;Bielazariškės
+0;25.5648,54.4800;;Vilnius;Makutiškės
+0;25.6163,54.4770;;Vilnius;Dvarčiai
+0;25.6289,54.4751;;Vilnius;Bena
+0;25.5930,54.4700;;Vilnius;Grabiai
+0;25.5648,54.4731;;Vilnius;Didžiosios Laibiškės
+0;25.5527,54.4715;;Vilnius;Kyvonys
+0;25.5528,54.4572;;Vilnius;Pastovai
+0;25.6146,54.4520;;Vilnius;Ažubenis
+0;25.6039,54.4502;;Vilnius;Berešiškės
+0;25.5941,54.4483;;Vilnius;Landžiai
+0;25.5753,54.4511;;Vilnius;Asčiukiškės
+0;25.5471,54.4459;;Vilnius;Apušynė
+0;25.5678,54.4424;;Vilnius;Rimošiai
+0;25.6061,54.4341;;Vilnius;Ūdronys
+0;25.5855,54.4222;;Vilnius;Aukštasis Pamerkys
+0;25.6111,54.4126;;Vilnius;Girdijauskai
+0;25.5738,54.4338;;Vilnius;Naidūnai
+0;25.5549,54.4224;;Vilnius;Naujakuriai
+0;25.5631,54.4173;;Vilnius;Puziriškės
+0;25.5451,54.4168;;Vilnius;Petriškės
+0;25.5598,54.4184;;Vilnius;Magdeliava
+0;25.5649,54.4093;;Vilnius;Jovydžiai
+0;25.5424,54.4044;;Vilnius;Kalniškės
 0;25.5436,54.3919;17001;Šalčininkų r. sav.;Bėčiakelniai
+0;25.5545,54.3882;;Vilnius;Duksiai
 0;25.7426,54.5703;13010;Vilniaus r. sav.;Didieji Medininkai
 0;25.7249,54.5553;13010;Vilniaus r. sav.;Kiemėnai
 0;25.6842,54.5580;13010;Vilniaus r. sav.;Pagojis
 0;25.6278,54.5687;13010;Vilniaus r. sav.;Dvarčiai
 0;25.6633,54.5331;13010;Vilniaus r. sav.;Pilkapiai
+0;25.6134,54.4366;;Vilnius;Paūdronys
+0;25.5548,54.4261;;Vilnius;Pamerkys
 0;25.5467,54.3256;17005;Šalčininkų r. sav.;Marusina
 0;25.5406,54.3112;17005;Šalčininkų r. sav.;Stakų Ūta
 0;25.5613,54.3138;17005;Šalčininkų r. sav.;Šilinė
@@ -9940,6 +10299,7 @@
 0;25.7216,54.1839;17008;Šalčininkų r. sav.;Pavydonys
 0;25.7370,54.1892;17008;Šalčininkų r. sav.;Šarkaičiai
 0;25.7429,54.1916;17008;Šalčininkų r. sav.;Vaišutkiemis
+0;25.7685,54.1913;;Vilnius;Vėžiakiemis
 0;25.7144,54.2027;17008;Šalčininkų r. sav.;Kazimieravas
 0;25.7097,54.2085;17008;Šalčininkų r. sav.;Šiurkščiai
 0;25.6929,54.2152;17008;Šalčininkų r. sav.;Kamučiai
@@ -9947,6 +10307,7 @@
 0;25.7044,54.2216;17008;Šalčininkų r. sav.;Zabieliškės
 0;25.7212,54.2148;17008;Šalčininkų r. sav.;Pavadžiai
 0;25.7288,54.2262;17008;Šalčininkų r. sav.;Skaivonys
+0;25.7599,54.2386;;Vilnius;Norviliškės
 0;25.7068,54.2326;17008;Šalčininkų r. sav.;Gedūnai
 0;25.6712,54.2351;17008;Šalčininkų r. sav.;Smališkės
 0;25.7002,54.2374;17008;Šalčininkų r. sav.;Geležiai
@@ -10850,18 +11211,24 @@
 0;25.4026,55.2958;33001;Molėtų r. sav.;Oželiškės
 0;25.5271,55.2976;33001;Molėtų r. sav.;Aidiečiai
 0;25.2343,55.3724;33037;Molėtų r. sav.;Sedūniškis
+0;24.8414,54.2468;;Vilnius;Adomiškės
 0;24.9933,54.1997;17014;Šalčininkų r. sav.;Aklė
+0;24.8177,54.1564;;Alytus;Aladiškės
 0;25.0169,54.2257;17014;Šalčininkų r. sav.;Ancevičiai
 0;24.8883,54.2032;17014;Šalčininkų r. sav.;Anciuškos
 0;25.0685,54.2935;17014;Šalčininkų r. sav.;Anskonys
 0;25.0994,54.1802;17014;Šalčininkų r. sav.;Aukštalaukis
 0;24.8548,54.2380;17014;Šalčininkų r. sav.;Balandiškės
 0;25.0351,54.2328;17014;Šalčininkų r. sav.;Balandžiai
+0;24.8145,54.2153;;Vilnius;Bandiškės
 0;24.8683,54.1529;17014;Šalčininkų r. sav.;Beržiškės
 0;25.0189,54.2813;17014;Šalčininkų r. sav.;Buivydai
 0;24.8025,54.2670;65063;Varėnos r. sav.;Burneikos
+0;24.8356,54.1808;;Vilnius;Dabrai
 0;25.0159,54.2327;17014;Šalčininkų r. sav.;Degučiai
+0;24.8347,54.2359;;Vilnius;Diežiškės
 0;25.0578,54.2111;17014;Šalčininkų r. sav.;Dimitrai
+0;24.7922,54.1685;;Alytus;Dipiškės
 0;24.9211,54.2278;17014;Šalčininkų r. sav.;Druskininkai
 0;25.0358,54.1420;17014;Šalčininkų r. sav.;Dumblė
 0;25.0050,54.2771;17014;Šalčininkų r. sav.;Dvyniškės
@@ -10874,18 +11241,25 @@
 0;24.8927,54.1732;17014;Šalčininkų r. sav.;Gudiškės
 0;24.8916,54.1925;17014;Šalčininkų r. sav.;Gumbiškės
 0;25.0436,54.2806;17014;Šalčininkų r. sav.;Jacionys
+0;24.8569,54.2844;;Alytus;Jakėnai
 0;25.1387,54.2282;17014;Šalčininkų r. sav.;Janonys
 0;25.0996,54.1592;17014;Šalčininkų r. sav.;Joniskės
+0;24.8412,54.2308;;Vilnius;Jundiškės
 0;24.9382,54.2240;17014;Šalčininkų r. sav.;Juršiškės
+0;24.8145,54.1775;;Alytus;Kamaraučiškės
 0;24.9829,54.2456;17014;Šalčininkų r. sav.;Kamičiai
 0;24.9459,54.2618;17014;Šalčininkų r. sav.;Kamičiūnai
 0;25.0103,54.2097;17014;Šalčininkų r. sav.;Karklinės
 0;25.1050,54.2742;17014;Šalčininkų r. sav.;Karmoniškės
+0;24.7903,54.2270;;Vilnius;Karsokai
+0;24.9277,54.3263;;Vilnius;Kiaulėkai
 0;25.0466,54.2300;17014;Šalčininkų r. sav.;Kibalos
+0;24.7974,54.1767;;Alytus;Kijutiškės
 0;25.0372,54.2861;17014;Šalčininkų r. sav.;Kubonys
 0;24.9356,54.2013;17014;Šalčininkų r. sav.;Kudelionys
 0;24.9450,54.2780;17014;Šalčininkų r. sav.;Kudlos
 0;24.7718,54.3176;65063;Varėnos r. sav.;Kukiškės
+0;25.0267,54.3020;;Vilnius;Kukiškės
 0;24.8845,54.2712;17014;Šalčininkų r. sav.;Kulys
 0;25.0941,54.2529;17014;Šalčininkų r. sav.;Laukininkai
 0;25.0102,54.2349;17014;Šalčininkų r. sav.;Liupkiškės
@@ -10896,42 +11270,62 @@
 0;24.9872,54.2330;17014;Šalčininkų r. sav.;Marcinkiškės
 0;25.0134,54.1897;17014;Šalčininkų r. sav.;Mateikonys
 0;24.8701,54.2326;17014;Šalčininkų r. sav.;Matuizos
+0;24.7717,54.1427;;Alytus;Melekonys
 0;24.9565,54.1971;17014;Šalčininkų r. sav.;Miežiškės
 0;24.9716,54.2142;17014;Šalčininkų r. sav.;Miletiškės
 0;24.8705,54.1686;17014;Šalčininkų r. sav.;Naniškės
 0;24.8634,54.1730;17014;Šalčininkų r. sav.;Naujasėdžiai
 0;25.1201,54.1967;17014;Šalčininkų r. sav.;Naujasėdžiai
+0;24.8812,54.3215;;Alytus;Naujosios Naniškės
 0;25.0955,54.2757;17014;Šalčininkų r. sav.;Navakonys
 0;25.0908,54.2247;17014;Šalčininkų r. sav.;Navickiškės
+0;25.0068,54.3152;;Vilnius;Nevainionys
 0;25.0390,54.1842;17014;Šalčininkų r. sav.;Padvarionys
 0;24.8281,54.3541;65063;Varėnos r. sav.;Paklėštarė
 0;25.0015,54.2173;17014;Šalčininkų r. sav.;Panezdiliai
+0;24.7924,54.1415;;Alytus;Papiškės
+0;25.0893,54.3048;;Vilnius;Papiškės
+0;25.1412,54.2823;;Vilnius;Pasalis
 0;24.8553,54.1969;17014;Šalčininkų r. sav.;Paturis
+0;24.9629,54.3167;;Vilnius;Pavariai
 0;24.8231,54.2640;65063;Varėnos r. sav.;Paversekis
 0;24.8532,54.1647;17014;Šalčininkų r. sav.;Petuchavas
+0;24.7898,54.1581;;Alytus;Pikiškės
+0;24.8554,54.3312;;Alytus;Pošalčiai
 0;24.9285,54.1680;17014;Šalčininkų r. sav.;Prūdelis
 0;25.0150,54.2671;17014;Šalčininkų r. sav.;Pulstakai
+0;24.8099,54.1750;;Alytus;Razumna
+0;24.8020,54.2124;;Vilnius;Rukonys
 0;24.9467,54.2499;17014;Šalčininkų r. sav.;Samarakiškės
 0;25.0244,54.2064;17014;Šalčininkų r. sav.;Sanginiškės
+0;24.8463,54.1630;;Vilnius;Šarkučiai
 0;25.1186,54.2203;17014;Šalčininkų r. sav.;Senadvaris
+0;25.1344,54.3015;;Vilnius;Senosios Rakliškės
+0;25.0780,54.2944;;Vilnius;Serbentai
 0;24.8432,54.2918;65063;Varėnos r. sav.;Šlaitas
 0;24.9019,54.1884;17014;Šalčininkų r. sav.;Šniūrai
 0;24.7701,54.3568;65063;Varėnos r. sav.;Spengla
 0;24.8639,54.1787;17014;Šalčininkų r. sav.;Stačionys
 0;24.9203,54.2002;17014;Šalčininkų r. sav.;Starka
+0;24.8474,54.1785;;Vilnius;Švieslaukis
+0;25.0634,54.3124;;Vilnius;Tetervinai
 0;24.9841,54.2612;17014;Šalčininkų r. sav.;Trėbuškės
 0;25.1303,54.1804;17014;Šalčininkų r. sav.;Ūta
 0;24.9063,54.2503;17014;Šalčininkų r. sav.;Užuklonys
 0;24.9963,54.2755;17014;Šalčininkų r. sav.;Vaišėtai
+0;24.9344,54.3191;;Vilnius;Valakavičiai
 0;24.9115,54.2103;17014;Šalčininkų r. sav.;Verseka II
 0;24.8764,54.2310;17014;Šalčininkų r. sav.;Verseka I
 0;25.1184,54.1758;17014;Šalčininkų r. sav.;Versekėlė
+0;25.0832,54.3312;;Vilnius;Visinčia
 0;25.0083,54.2233;17014;Šalčininkų r. sav.;Viškūnai
 0;24.8837,54.1563;17014;Šalčininkų r. sav.;Vozbūniškės
 0;25.0649,54.1910;17014;Šalčininkų r. sav.;Žagališkės
+0;24.8007,54.2349;;Alytus;Žagariai
 0;25.0581,54.2767;17014;Šalčininkų r. sav.;Žalabiškės
 0;25.0531,54.1992;17014;Šalčininkų r. sav.;Žemaitėliai
 0;25.1420,54.2004;17014;Šalčininkų r. sav.;Žvėrynas
+0;24.9614,54.3432;;Vilnius;Žygmantiškės
 0;25.1839,55.2446;20015;Ukmergės r. sav.;Narkuškiai
 0;25.2035,55.2425;33031;Molėtų r. sav.;Ažušiliai
 0;25.2358,55.2515;33031;Molėtų r. sav.;Pumpučiai
@@ -11850,6 +12244,9 @@
 0;25.4867,54.5626;13022;Vilniaus r. sav.;Benediktiškės
 0;25.4953,54.5667;13022;Vilniaus r. sav.;Lukšinė
 0;25.5362,54.5705;13022;Vilniaus r. sav.;Jukšėnai
+0;25.5384,54.5521;;Vilnius;Jurčiukai
+0;25.5179,54.5483;;Vilnius;Mantušiai
+0;25.5030,54.5480;;Vilnius;Arklėnai
 0;25.5034,54.5554;13022;Vilniaus r. sav.;Užuprūdžiai
 0;25.4947,54.5591;13022;Vilniaus r. sav.;Kisieliškės
 0;25.4706,54.5616;11316;Vilniaus m. sav.;Pavalkiai
@@ -11858,14 +12255,41 @@
 0;25.4272,54.5375;17038;Šalčininkų r. sav.;Pakovarniškės
 0;25.4233,54.5293;17038;Šalčininkų r. sav.;Akloji
 0;25.4098,54.5289;17038;Šalčininkų r. sav.;Juočikiai
+0;25.4552,54.5410;;Vilnius;Elžbietinė
+0;25.5299,54.5203;;Vilnius;Rutkiškės
+0;25.5164,54.5187;;Vilnius;Ančeriškės
+0;25.5409,54.5185;;Vilnius;Kasteliai
+0;25.4676,54.5169;;Vilnius;Akmeniškės
 0;25.4361,54.5120;17038;Šalčininkų r. sav.;Lopatiškės
 0;25.4454,54.5097;17038;Šalčininkų r. sav.;Galvininkai
+0;25.5391,54.5008;;Vilnius;Baušiškės
+0;25.5310,54.5033;;Vilnius;Pakalnė
+0;25.5285,54.4960;;Vilnius;Lazanka
+0;25.5304,54.4903;;Vilnius;Mažosios Katutiškės
+0;25.5233,54.4914;;Vilnius;Katutiškės
+0;25.4575,54.4946;;Vilnius;Barkuškės
 0;25.4427,54.4982;17038;Šalčininkų r. sav.;Bedugnė
 0;25.4412,54.4805;17038;Šalčininkų r. sav.;Staniškės
+0;25.5075,54.4736;;Vilnius;Ožionys
+0;25.5387,54.4705;;Vilnius;Naujadvaris
+0;25.5029,54.4626;;Vilnius;Jezavitiškės
+0;25.5251,54.4480;;Vilnius;Krašiai
+0;25.5219,54.4502;;Vilnius;Mikniškės
+0;25.5389,54.4447;;Vilnius;Gimžiai I
+0;25.5264,54.4427;;Vilnius;Gojus
+0;25.5021,54.4389;;Vilnius;Balandiškės
+0;25.5115,54.4347;;Vilnius;Pagojys
+0;25.4623,54.4488;;Vilnius;Brestovas
+0;25.4696,54.4483;;Vilnius;Ustiškės
 0;25.4434,54.4550;17038;Šalčininkų r. sav.;Žemaitiškės
 0;25.4219,54.4146;17038;Šalčininkų r. sav.;Pundeliškės
 0;25.4477,54.4220;17038;Šalčininkų r. sav.;Gimžiai II
 0;25.4440,54.4091;17038;Šalčininkų r. sav.;Miežiškės
+0;25.4592,54.4366;;Vilnius;Naujininkai
+0;25.5076,54.4162;;Vilnius;Viktarinė
+0;25.5247,54.4184;;Vilnius;Mikšiuliai
+0;25.5201,54.4256;;Vilnius;Bajorai
+0;25.5361,54.4255;;Vilnius;Ažukalniai
 0;25.5026,54.3946;17001;Šalčininkų r. sav.;Girinė
 0;25.5310,54.3873;17001;Šalčininkų r. sav.;Mankūniškės
 0;25.4901,54.3836;17001;Šalčininkų r. sav.;Degsniai
@@ -11882,10 +12306,14 @@
 0;25.2862,54.5487;14108;Vilniaus m. sav.;Prūdiškės
 0;25.3904,54.4414;17038;Šalčininkų r. sav.;Sakalai
 0;25.3337,54.4940;17038;Šalčininkų r. sav.;Pamaraziai
+0;25.4621,54.5033;;Vilnius;Raguvėlė
 0;25.4004,54.5055;17038;Šalčininkų r. sav.;Dvarykščiai
 0;25.4453,54.4759;17038;Šalčininkų r. sav.;Dvarykščiai
 0;25.4377,54.4725;17038;Šalčininkų r. sav.;Gureliai
 0;25.4478,54.4678;17038;Šalčininkų r. sav.;Merkio Vilkiškės
+0;25.4758,54.4742;;Vilnius;Misiučėnai
+0;25.5386,54.4367;;Vilnius;Šeštokai
+0;25.4813,54.4340;;Vilnius;Savaitiškės
 0;25.5247,54.4040;17001;Šalčininkų r. sav.;Rimšiškės
 0;25.5426,54.5612;13022;Vilniaus r. sav.;Ulėnai
 0;25.2775,54.3251;17020;Šalčininkų r. sav.;Padegsniai
@@ -11936,7 +12364,9 @@
 0;24.8597,56.4012;41058;Biržų r. sav.;Bėnupė
 0;24.8167,56.3738;41058;Biržų r. sav.;Jokūbiškis
 0;24.9362,56.3779;41058;Biržų r. sav.;Rigmantiškiai
+0;24.9532,56.3716;;Panevėžys;Dauguviečiai
 0;24.9438,56.3659;41058;Biržų r. sav.;Ruobežiai
+0;24.9520,56.3437;;Panevėžys;Brukos
 0;24.9265,56.3443;41058;Biržų r. sav.;Pardambiai
 0;24.8259,56.3363;41058;Biržų r. sav.;Akmeniškis
 0;24.8140,56.3295;41058;Biržų r. sav.;Kraniškis
@@ -11979,6 +12409,17 @@
 0;24.9879,56.2072;41012;Biržų r. sav.;Šniurkiškiai
 0;24.9517,56.2043;41012;Biržų r. sav.;Juozeliškiai I
 0;24.9711,56.2080;41012;Biržų r. sav.;Balzieriškis
+0;25.0331,56.2681;;Panevėžys;Kapinė
+0;25.0353,56.2719;;Panevėžys;Puogeliškiai
+0;25.0225,56.2728;;Panevėžys;Garjoniai
+0;25.0162,56.2768;;Panevėžys;Geniai
+0;25.0131,56.2868;;Panevėžys;Gailiai
+0;25.0112,56.2926;;Panevėžys;Punduriai
+0;24.9941,56.2941;;Panevėžys;Kuokaviečiai
+0;24.9873,56.2950;;Panevėžys;Vaskališkiai
+0;24.9548,56.2953;;Panevėžys;Juozeliškiai II
+0;24.9708,56.3111;;Panevėžys;Lujėnai II
+0;24.9677,56.3398;;Panevėžys;Upės Sėta
 0;25.0688,56.2205;41012;Biržų r. sav.;Gražiškiai
 0;25.0573,56.2194;41012;Biržų r. sav.;Jurginiškis
 0;25.0657,56.1735;41012;Biržų r. sav.;Šiliškis
@@ -11991,6 +12432,7 @@
 0;25.1627,56.1570;42069;Rokiškio r. sav.;Vanagynė
 0;24.8121,56.1710;41062;Biržų r. sav.;Varniūnai
 0;24.9724,56.1788;41012;Biržų r. sav.;Laužadiškis
+0;24.9664,56.3256;;Panevėžys;Nemunėlis
 0;25.1196,56.1635;41012;Biržų r. sav.;Pūteliai
 0;24.8452,56.1509;41062;Biržų r. sav.;Šliželiai
 0;24.8858,56.1287;41062;Biržų r. sav.;Beržiniai
@@ -13432,6 +13874,12 @@
 0;25.0261,54.5609;02237;Vilniaus m. sav.;Guopstos
 0;24.7175,56.3990;41058;Biržų r. sav.;Leitiškiai
 0;24.7401,56.3985;41058;Biržų r. sav.;Juljanava
+0;24.7740,54.1340;;Alytus;Puišys
+0;24.7714,54.0311;;Alytus;Podubičiai
+0;24.7703,54.0113;;Alytus;Stojai
+0;24.8024,54.0318;;Alytus;Šulai
+0;24.8249,54.0346;;Alytus;Kalviai
+0;24.7833,54.0629;;Alytus;Būdos
 0;24.4067,56.2648;39040;Pasvalio r. sav.;Virbalai
 0;24.4493,56.2560;39040;Pasvalio r. sav.;Vilkynė
 0;24.4733,56.2505;39040;Pasvalio r. sav.;Globinai
@@ -13489,6 +13937,9 @@
 0;24.6619,56.2839;41001;Biržų r. sav.;Peikšteniai
 0;24.6195,56.3101;41040;Biržų r. sav.;Pauperiai
 0;24.6218,56.3187;41040;Biržų r. sav.;Drabūnai
+0;24.6118,56.3229;;Panevėžys;Smilgeliai
+0;24.6145,56.3391;;Panevėžys;Pakalniečiai
+0;24.6259,56.3417;;Panevėžys;Didžioji Panemunė
 0;24.6639,56.3343;41058;Biržų r. sav.;Linkiškiai
 0;24.6926,56.3203;41058;Biržų r. sav.;Rindaugiškiai
 0;24.6773,56.3135;41058;Biržų r. sav.;Rindaugai
@@ -13541,6 +13992,7 @@
 0;24.5836,56.2266;41040;Biržų r. sav.;Bikšiai
 0;24.5992,56.2529;41040;Biržų r. sav.;Triškai
 0;24.6419,56.2925;41040;Biržų r. sav.;Tylinava
+0;24.6364,56.3682;;Panevėžys;Straugaliai
 0;24.6900,56.3753;41058;Biržų r. sav.;Velykionys
 0;24.7134,56.2763;41001;Biržų r. sav.;Totoriai
 0;24.6913,56.2270;41001;Biržų r. sav.;Mantagailiškis
@@ -13968,6 +14420,8 @@
 0;22.6588,54.9941;74006;Jurbarko r. sav.;Kirsliai
 0;22.6679,54.9930;74006;Jurbarko r. sav.;Bosai
 0;22.6621,55.0021;74006;Jurbarko r. sav.;Pukniai
+0;22.8142,54.9416;;Marijampolė County;Juškakaimiai
+0;22.8111,54.9566;;Marijampolė County;Verpikai
 0;22.6308,55.0112;74009;Jurbarko r. sav.;Sakalai
 0;22.4527,55.2370;73001;Tauragės r. sav.;Braziškiai
 0;22.4918,55.0946;74009;Jurbarko r. sav.;Tetervinė
@@ -14450,6 +14904,7 @@
 0;23.0318,54.5654;70001;Vilkaviškio r. sav.;Bajorai
 0;23.0231,54.5534;70001;Vilkaviškio r. sav.;Auksėnai
 0;23.1295,54.5508;70013;Vilkaviškio r. sav.;Palaima
+0;23.0312,54.5109;;Marijampolė County;Dalgėnai
 0;23.0583,54.5216;70013;Vilkaviškio r. sav.;Akelaičiai
 0;23.0626,54.5190;70013;Vilkaviškio r. sav.;Vaisbūniškiai
 0;23.0896,54.5032;70013;Vilkaviškio r. sav.;Kamičiai
@@ -14461,7 +14916,13 @@
 0;23.0874,54.4424;69030;Kalvarijos sav.;Ukazupka
 0;23.0728,54.4413;69030;Kalvarijos sav.;Dirvonai
 0;23.0730,54.4488;69030;Kalvarijos sav.;Peleniai
+0;23.0344,54.4580;;Marijampolė County;Šulai
+0;23.0245,54.4561;;Marijampolė County;Šeškiniai
+0;23.0485,54.4461;;Marijampolė County;Krijobaliai
 0;23.0700,54.4305;69030;Kalvarijos sav.;Smalnyčėnai
+0;23.0435,54.4206;;Marijampolė County;Aleksandravas
+0;23.0319,54.4050;;Marijampolė County;Beržynai
+0;23.0383,54.3972;;Marijampolė County;Saulėgrąžiai
 0;23.0582,54.3970;69030;Kalvarijos sav.;Trempiniai
 0;23.0678,54.3923;69030;Kalvarijos sav.;Gulbinavas
 0;23.0861,54.3932;69030;Kalvarijos sav.;Makauskai
@@ -14479,7 +14940,20 @@
 0;23.0991,54.3689;69030;Kalvarijos sav.;Grandai
 0;23.0534,54.3667;69030;Kalvarijos sav.;Skaisteliai
 0;23.0698,54.3721;69030;Kalvarijos sav.;Skaisčiai
+0;23.0348,54.3774;;Marijampolė County;Klinavas
+0;22.9686,54.4028;;Marijampolė County;Varteliai
+0;22.9549,54.4037;;Marijampolė County;Graužiniai
+0;22.9239,54.4161;;Marijampolė County;Aštriakalnis
+0;22.9211,54.4100;;Marijampolė County;Duoniškiai
+0;22.8938,54.4273;;Marijampolė County;Armudiškiai
+0;22.9133,54.4228;;Marijampolė County;Tupikai
+0;22.8906,54.4356;;Marijampolė County;Kauniškiai
+0;22.9184,54.4403;;Marijampolė County;Strazdinė
+0;22.8595,54.4456;;Marijampolė County;Ramovietė
+0;22.8960,54.4720;;Marijampolė County;Gražupiai
+0;22.9606,54.4931;;Marijampolė County;Šilbaliai
 0;22.9125,54.5080;70061;Vilkaviškio r. sav.;Jakiškiai
+0;22.9750,54.5457;;Marijampolė County;Moliniškiai
 0;22.8778,54.5217;70061;Vilkaviškio r. sav.;Balandėliai
 0;22.9260,54.5622;70061;Vilkaviškio r. sav.;Sodėnai
 0;22.9231,54.5709;70061;Vilkaviškio r. sav.;Stolaukėlis
@@ -14493,13 +14967,27 @@
 0;23.1864,54.4930;70013;Vilkaviškio r. sav.;Širvydai
 0;23.1243,54.5281;70013;Vilkaviškio r. sav.;Dėgučiai
 0;23.1084,54.4749;70013;Vilkaviškio r. sav.;Margai
+0;23.0247,54.4663;;Marijampolė County;Vartai
 0;23.1227,54.4653;70013;Vilkaviškio r. sav.;Vilkabaliai
 0;23.1517,54.4613;69030;Kalvarijos sav.;Tabarai
 0;23.1715,54.4544;69030;Kalvarijos sav.;Šleinės
 0;23.0510,54.4359;69030;Kalvarijos sav.;Girkantai
 0;23.1041,54.4055;69030;Kalvarijos sav.;Cibavas
+0;23.0276,54.4180;;Marijampolė County;Kalnėnai
+0;23.0414,54.3922;;Marijampolė County;Pagraužiai
 0;23.1361,54.3929;69030;Kalvarijos sav.;Juodeliai
 0;23.0517,54.3712;69030;Kalvarijos sav.;Mantrimai
+0;22.8600,54.4300;;Marijampolė County;Stirniškiai
+0;22.9324,54.4340;;Marijampolė County;Beržiniai
+0;22.9869,54.4466;;Marijampolė County;Rūkštėnai
+0;23.0064,54.4491;;Marijampolė County;Skroblai
+0;22.9638,54.4531;;Marijampolė County;Dotamai
+0;22.9250,54.4449;;Marijampolė County;Vaitkabaliai
+0;22.9068,54.4653;;Marijampolė County;Bambiniai
+0;22.8751,54.4719;;Marijampolė County;Kregždžiai
+0;22.9004,54.4953;;Marijampolė County;Šilsodis
+0;22.9514,54.4777;;Marijampolė County;Karpiejai
+0;22.9088,54.4918;;Marijampolė County;Duonelaičiai
 0;22.9195,54.5280;70061;Vilkaviškio r. sav.;Užbaliai
 0;22.8975,54.5242;70061;Vilkaviškio r. sav.;Užupiai
 0;23.0025,54.5727;70001;Vilkaviškio r. sav.;Kuosiai
@@ -14613,6 +15101,8 @@
 0;22.8944,54.9650;74042;Jurbarko r. sav.;Vabališkiai
 0;22.9038,54.9548;74042;Jurbarko r. sav.;Liepalotai
 0;22.8760,54.9563;74042;Jurbarko r. sav.;Skardupiai
+0;22.8342,54.9586;;Marijampolė County;Naudvaris
+0;22.8443,54.9606;;Marijampolė County;Endrikiai
 0;22.8771,54.9512;74042;Jurbarko r. sav.;Zubriai
 0;22.8887,54.9308;74042;Jurbarko r. sav.;Šunkariai
 0;22.8522,54.9246;74042;Jurbarko r. sav.;Pliorišiai
@@ -15335,6 +15825,7 @@
 0;23.5689,53.9691;67035;Druskininkų sav.;Stalai
 0;23.5964,53.9701;67035;Druskininkų sav.;Gryckavas
 0;23.5829,53.9430;67035;Druskininkų sav.;Kuodžiai
+0;23.5459,53.9449;;Alytus;Pertakas
 0;23.5637,54.0034;67035;Druskininkų sav.;Ivoškai
 0;23.6117,54.0133;67035;Druskininkų sav.;Purviniai
 0;23.6289,54.0106;67035;Druskininkų sav.;Kareivonys
@@ -16007,6 +16498,7 @@
 0;23.3953,55.3495;60010;Raseinių r. sav.;Pilkalnis
 0;23.4766,55.3723;60010;Raseinių r. sav.;Pakirkšnovys
 0;23.4314,55.3947;60055;Raseinių r. sav.;Pagrubyčiai
+0;23.4648,55.4389;;Kaunas;Budraičiai
 0;23.3760,55.4344;60055;Raseinių r. sav.;Kupsčiai
 0;23.4367,55.4761;60055;Raseinių r. sav.;Papušynys
 0;23.4820,55.4751;82040;Radviliškio r. sav.;Aukštuoliukai
@@ -16014,9 +16506,13 @@
 0;23.4538,55.3824;60010;Raseinių r. sav.;Juškaičiai
 0;23.6029,55.4674;70029;Vilkaviškio r. sav.;Radviliukai
 0;23.5385,55.4595;82034;Radviliškio r. sav.;Sakalai
+0;23.5433,55.4315;;Kaunas;Graužai
+0;23.5435,55.4259;;Kaunas;Tilindžiai
+0;23.5140,55.4258;;Kaunas;Lukošiūnai
 0;23.5881,55.4179;58032;Kėdainių r. sav.;Girlaukis
 0;23.5984,55.4255;58032;Kėdainių r. sav.;Paskerdūmiukas
 0;23.5695,55.4050;58032;Kėdainių r. sav.;Šulcava
+0;23.5393,55.4043;;Kaunas;Nedolė
 0;23.5598,55.3899;58032;Kėdainių r. sav.;Začišiai
 0;23.5133,55.3582;60010;Raseinių r. sav.;Jonaičiai
 0;23.5913,55.3359;58026;Kėdainių r. sav.;Lapkalnys
@@ -16024,6 +16520,7 @@
 0;23.5505,55.3044;60010;Raseinių r. sav.;Šilai
 0;23.3586,55.4361;60055;Raseinių r. sav.;Šnipaičiai
 0;23.5537,55.4192;58032;Kėdainių r. sav.;Zembiškis
+0;23.4922,55.4036;;Kaunas;Ilgižiai II
 0;23.3449,55.2969;60028;Raseinių r. sav.;Verėduvaitė
 0;23.3690,55.2691;60010;Raseinių r. sav.;Mikalava
 0;23.5377,55.4544;82034;Radviliškio r. sav.;Sokiškis
@@ -16187,6 +16684,11 @@
 0;23.4176,56.1529;81024;Šiaulių r. sav.;Pamūšis
 0;23.4824,56.1459;84001;Joniškio r. sav.;Eglynlaukis
 0;23.5502,56.1412;84001;Joniškio r. sav.;Ivoškiai
+0;23.4770,56.0932;;Siauliai;Stripeikiai
+0;23.5085,56.0856;;Siauliai;Priešginiai
+0;23.4665,56.0590;;Siauliai;Dapkūnai
+0;23.4656,56.0548;;Siauliai;Mantaičiai
+0;23.5208,56.0515;;Siauliai;Parkulpis
 0;23.5239,56.0369;80001;Šiaulių r. sav.;Bagdongiris
 0;23.5418,56.0356;80001;Šiaulių r. sav.;Bagdonaičiai
 0;23.4912,56.0168;80001;Šiaulių r. sav.;Dvarlaukis
@@ -16203,10 +16705,12 @@
 0;23.5593,56.0959;83025;Pakruojo r. sav.;Kipštai
 0;23.5926,56.1157;83025;Pakruojo r. sav.;Poškai
 0;23.2092,56.0951;81024;Šiaulių r. sav.;Sauginiai
+0;23.5422,56.0771;;Siauliai;Barysiai
 0;23.5708,56.0267;83022;Pakruojo r. sav.;Martyniškis
 0;23.2000,56.1401;81024;Šiaulių r. sav.;Mikolaičiai
 0;23.2346,55.9702;76001;Šiaulių m. sav.;Noreikiai
 0;23.4899,56.0277;80001;Šiaulių r. sav.;Norkūnai
+0;23.4970,56.0624;;Siauliai;Rupeikiai
 0;23.4452,55.9975;80001;Šiaulių r. sav.;Uosupis
 0;23.3171,56.1483;81024;Šiaulių r. sav.;Vaišnoriai
 0;23.5101,55.9736;80001;Šiaulių r. sav.;Žalgirys
@@ -16604,6 +17108,13 @@
 0;23.6417,54.6460;69094;Marijampolės sav.;Elniakalnis
 0;23.6522,54.6578;59030;Prienų r. sav.;Klevinkalnis
 0;23.7099,54.6584;59030;Prienų r. sav.;Elzbietiškis
+0;23.7269,54.6461;;Kaunas;Sarginė
+0;23.7298,54.6373;;Kaunas;Maldabūdis
+0;23.7235,54.6240;;Kaunas;Naujasis Skrynupis
+0;23.7224,54.6181;;Kaunas;Skrynupis
+0;23.7040,54.6173;;Kaunas;Meškinė
+0;23.7074,54.6271;;Kaunas;Varnakė
+0;23.6833,54.6244;;Kaunas;Naujasis Mikališkis
 0;23.6339,54.6269;69094;Marijampolės sav.;Jasenava
 0;23.6325,54.6054;69094;Marijampolės sav.;Dambruvka
 0;23.7071,54.6139;69013;Marijampolės sav.;Paskrynupys
@@ -17081,6 +17592,9 @@
 0;24.0661,54.0999;65031;Varėnos r. sav.;Tetervinė
 0;24.0140,54.0997;66001;Druskininkų sav.;Liepiškiai
 0;24.1020,53.9967;66001;Druskininkų sav.;Kermušija
+0;24.2286,53.9673;;Alytus;Piesčiai
+0;24.2225,53.9754;;Alytus;Dubas
+0;24.1841,54.0057;;Alytus;Timakavas
 0;24.2532,54.0868;65031;Varėnos r. sav.;Viršurodukis
 0;24.1609,54.0932;65031;Varėnos r. sav.;Krušonys
 0;24.1538,54.1023;65031;Varėnos r. sav.;Ulčičiai
@@ -17089,9 +17603,13 @@
 0;24.2558,54.1302;65031;Varėnos r. sav.;Lankininkai
 0;24.2667,54.1110;65031;Varėnos r. sav.;Kasčiūnai
 0;24.2834,54.0954;65031;Varėnos r. sav.;Dubininkas
+0;24.3016,53.9390;;Alytus;Ašašninkai
+0;24.2779,53.9397;;Alytus;Daržinėlės
 0;24.0033,54.1235;67027;Druskininkų sav.;Kudrėnai
 0;24.0580,54.1044;65031;Varėnos r. sav.;Aušrinė
 0;24.1735,54.0687;65031;Varėnos r. sav.;Utieka
+0;24.2373,53.9538;;Alytus;Senovė
+0;24.3629,54.0002;;Alytus;Grybaulia
 0;24.1230,54.1283;65031;Varėnos r. sav.;Dubaklonis
 0;24.0649,54.3082;64021;Alytaus r. sav.;Geisčiūnai
 0;24.0869,54.2948;64021;Alytaus r. sav.;Dubriai
@@ -18019,6 +18537,26 @@
 0;24.2523,56.2340;39034;Pasvalio r. sav.;Grudžiai
 0;24.1877,56.1709;39034;Pasvalio r. sav.;Zvanagala
 0;24.2290,56.1584;39034;Pasvalio r. sav.;Iciūnai
+0;24.4841,53.9380;;Alytus;Pogarenda
+0;24.5726,53.9890;;Alytus;Katra
+0;24.5790,54.0953;;Alytus;Pauosupė
+0;24.6802,54.1103;;Alytus;Stoniūnai
+0;24.6857,54.1122;;Alytus;Molinė
+0;24.6807,54.1311;;Alytus;Pakaniavys
+0;24.7043,54.1284;;Alytus;Dalina
+0;24.7364,54.0939;;Alytus;Prauda
+0;24.7470,54.0920;;Alytus;Dražininkai
+0;24.6436,54.1038;;Alytus;Ūta
+0;24.6952,54.0395;;Alytus;Margiai
+0;24.7275,54.0425;;Alytus;Gribaša
+0;24.6760,54.0266;;Alytus;Karaviškės
+0;24.6432,54.0109;;Alytus;Paramėlis
+0;24.7348,53.9701;;Alytus;Balbutai
+0;24.7540,54.0249;;Alytus;Mantotai
+0;24.7583,54.0354;;Alytus;Šiliniai
+0;24.7601,54.0670;;Alytus;Paąžuolė
+0;24.7618,54.0898;;Alytus;Kaziukonys
+0;24.7546,54.1292;;Alytus;Mikalčiūnai
 0;24.4021,54.3557;64001;Alytaus r. sav.;Andriūnai
 0;24.4514,54.3346;65011;Varėnos r. sav.;Gojus
 0;24.4116,54.3232;64001;Alytaus r. sav.;Sokonys
@@ -18027,6 +18565,8 @@
 0;24.3934,54.2881;65011;Varėnos r. sav.;Biniūnai
 0;24.3938,54.2610;65011;Varėnos r. sav.;Dvarčiai
 0;24.4868,54.2297;65011;Varėnos r. sav.;Moliadugnis
+0;24.3916,54.1446;;Alytus;Trakiškiai
+0;24.4038,54.1378;;Alytus;Bižai
 0;24.5246,54.2207;65001;Varėnos r. sav.;Girežeris
 0;24.6364,54.2346;65001;Varėnos r. sav.;Beržupis
 0;24.5655,54.3308;65001;Varėnos r. sav.;Paručiai
@@ -18042,12 +18582,18 @@
 0;24.6796,54.2888;65063;Varėnos r. sav.;Šarkiškės
 0;24.6168,54.2937;65001;Varėnos r. sav.;Maskauka
 0;24.7569,54.2780;65063;Varėnos r. sav.;Papiškės
+0;24.7530,54.2484;;Alytus;Marijanavas
 0;24.7186,54.2481;65001;Varėnos r. sav.;Pabaronė
 0;24.7008,54.2028;65001;Varėnos r. sav.;Pavainikės
+0;24.7522,54.1888;;Alytus;Riliškiai
+0;24.7625,54.1827;;Alytus;Gojus
 0;24.7300,54.1702;65001;Varėnos r. sav.;Cibonys
 0;24.7092,54.1658;65001;Varėnos r. sav.;Ulbinai
 0;24.7168,54.1742;65001;Varėnos r. sav.;Čepelūnai
 0;24.6687,54.1728;65001;Varėnos r. sav.;Ramonai
+0;24.6075,54.1401;;Alytus;Palkabalis
+0;24.6500,54.1454;;Alytus;Juočiai
+0;24.7176,54.1390;;Alytus;Milvyda
 0;24.6515,54.3291;65063;Varėnos r. sav.;Karpiškės
 0;24.6855,54.3348;65063;Varėnos r. sav.;Kukliai
 0;24.7674,54.3088;65063;Varėnos r. sav.;Mielupiai
@@ -19083,6 +19629,7 @@
 0;22.7507,55.5619;86065;Kelmės r. sav.;Burniškė
 0;23.0463,54.6260;70001;Vilkaviškio r. sav.;Mažieji Būdežeriai
 0;23.1867,55.3019;60028;Raseinių r. sav.;Pakalniškiai
+0;23.4999,55.4044;;Kaunas;Ilgižiai I
 0;23.8678,54.5291;59015;Prienų r. sav.;Naujasis Balbieriškis
 0;23.9157,55.2037;58011;Kėdainių r. sav.;Kruopiai
 0;23.7153,55.3815;58032;Kėdainių r. sav.;Meironiškiai
@@ -19097,12 +19644,14 @@
 0;22.8016,55.6401;86052;Kelmės r. sav.;Didmedžiai
 0;23.2190,55.6735;86061;Kelmės r. sav.;Šimša
 0;25.1284,55.1944;20015;Ukmergės r. sav.;Kybartiškiai
+0;25.9504,55.9235;;Panevėžys;Budriškis
 0;21.7486,55.7482;90021;Plungės r. sav.;Dausynai
 0;24.2626,55.8668;39015;Pasvalio r. sav.;Palėvenis
 0;25.4078,56.0471;42069;Rokiškio r. sav.;Paberžuoniai
 0;24.6357,54.4327;21025;Trakų r. sav.;Bytautonys
 0;24.5613,55.1948;20030;Ukmergės r. sav.;Pučionys
 0;24.1043,55.3019;57001;Kėdainių r. sav.;Kėžiai
+0;25.9687,55.9622;;Panevėžys;Ambriškis
 0;21.3300,56.1032;98032;Skuodo r. sav.;Darbalės
 0;25.7380,55.9130;42006;Rokiškio r. sav.;Matiekai
 0;24.3215,55.3024;58005;Kėdainių r. sav.;Čeponiškiai
@@ -19112,6 +19661,7 @@
 0;25.5753,55.7195;42025;Rokiškio r. sav.;Tatuoliškės
 0;22.6160,55.5521;86026;Kelmės r. sav.;Nakotai
 0;24.6548,55.1972;20042;Ukmergės r. sav.;Algirdai
+0;25.9969,55.8745;;Utena;Biržiniškis
 0;24.7025,55.5610;29030;Anykščių r. sav.;Pailgamiškis
 0;25.0077,55.0991;19001;Širvintų r. sav.;Kolionija
 0;25.2857,54.9798;33025;Molėtų r. sav.;Stanisloviškės
@@ -19179,6 +19729,7 @@
 0;22.6124,55.1906;74021;Jurbarko r. sav.;Platkepuriai
 0;24.6926,55.4162;20054;Ukmergės r. sav.;Žilvičiupis
 0;24.8786,55.7714;40030;Kupiškio r. sav.;Zabelinė
+0;26.1434,55.8394;;Utena;Pagriovinė
 0;25.8675,55.5854;28042;Utenos r. sav.;Kuosiškės
 0;24.8156,54.8365;19014;Širvintų r. sav.;Karsūniškės
 0;22.9305,54.8145;71045;Šakių r. sav.;Šaukščiai
@@ -19205,12 +19756,16 @@
 0;23.1094,55.6624;86061;Kelmės r. sav.;Ežėnai
 0;26.2624,55.5184;30042;Ignalinos r. sav.;Antaniškė II
 0;24.0436,55.6496;82007;Radviliškio r. sav.;Marusynė
+0;25.9968,55.9473;;Panevėžys;Šaltakynė
 0;24.3145,55.5126;38031;Panevėžio r. sav.;Garuckai
 0;26.6783,55.2662;30009;Ignalinos r. sav.;Petroniškė
+0;25.6588,54.8266;;Vilnius;Staugūniškės
 0;25.3291,55.0756;33028;Molėtų r. sav.;Bekešiai
+0;25.4571,54.4498;;Vilnius;Vinkšnynė
 0;24.2660,55.0307;55001;Jonavos r. sav.;Dumsiškiai
 0;21.5900,55.6070;96020;Klaipėdos r. sav.;Meiskiai
 0;25.2188,55.6493;29051;Anykščių r. sav.;Dauneikiai
+0;26.6103,55.5973;;Utena;Serbiejiškė
 0;22.5219,55.6493;86065;Kelmės r. sav.;Žaldvaris
 0;24.7362,54.2465;65001;Varėnos r. sav.;Likonys
 0;25.7904,54.9576;18011;Švenčionių r. sav.;Bėčiai
@@ -19247,6 +19802,7 @@
 0;26.5765,55.5978;32004;Zarasų r. sav.;Stabatiškė
 0;25.2793,55.7861;42028;Rokiškio r. sav.;Apirbai
 0;24.6181,55.2026;20042;Ukmergės r. sav.;Kvietieniai
+0;25.7013,54.7622;;Vilnius;Krūminė
 0;22.9784,56.1812;85007;Akmenės r. sav.;Degulės
 0;23.3896,55.6439;82043;Radviliškio r. sav.;Baublė
 0;23.9794,54.1245;67027;Druskininkų sav.;Dubraviškės
@@ -19283,6 +19839,7 @@
 0;25.0309,54.9706;19005;Širvintų r. sav.;Blendė
 0;22.7362,55.6360;86065;Kelmės r. sav.;Žiaunė
 0;24.4269,54.3202;64001;Alytaus r. sav.;Vilgučiai
+0;25.0459,56.2655;;Panevėžys;Franciškis
 0;23.1907,54.2954;69030;Kalvarijos sav.;Giluišiai
 0;23.8907,54.7499;53030;Kauno r. sav.;Juraitiškė
 0;24.8577,56.2972;41058;Biržų r. sav.;Brigiškiai
@@ -19290,6 +19847,7 @@
 0;23.4787,56.2268;84001;Joniškio r. sav.;Slėpsniai
 0;25.4792,55.7645;42025;Rokiškio r. sav.;Šermukšnynė
 0;21.9612,55.7003;90012;Rietavo sav.;Meinartai
+0;25.7238,54.7674;;Vilnius;Alponiškė
 0;21.5877,55.8590;90021;Plungės r. sav.;Blidakiai
 0;22.5803,55.8217;86036;Kelmės r. sav.;Talainiai
 0;21.9072,55.9526;90001;Plungės r. sav.;Božiai
@@ -19313,6 +19871,7 @@
 0;23.6639,54.1443;67043;Lazdijų r. sav.;Bebrai
 0;23.2300,54.4877;70013;Vilkaviškio r. sav.;Pacentai
 0;26.4123,55.6520;31001;Visagino sav.;Daržėnai
+0;26.0223,55.8716;;Utena;Kazimieriškis
 0;24.1353,55.2662;57001;Kėdainių r. sav.;Bajėniškis
 0;25.1124,55.9499;40056;Kupiškio r. sav.;Samarska
 0;24.3383,55.3109;58072;Kėdainių r. sav.;Ožiškiai
@@ -19335,6 +19894,7 @@
 0;23.7361,54.4621;64041;Alytaus r. sav.;Struogiškės
 0;22.4737,55.9868;88019;Telšių r. sav.;Levenčiai
 0;25.6571,55.9573;42001;Rokiškio r. sav.;Kurklietiškis
+0;26.0887,55.0067;;Vilnius;Kienavas
 0;25.5844,55.4541;28024;Utenos r. sav.;Jasiškės
 0;23.1011,54.6738;70001;Vilkaviškio r. sav.;Dvarkeliai
 0;25.7875,55.3084;18025;Švenčionių r. sav.;Vencloviškis
@@ -19347,6 +19907,7 @@
 0;23.7128,55.3222;58026;Kėdainių r. sav.;Šmotiškėliai
 0;24.4052,55.1986;55052;Jonavos r. sav.;Taukadažiai
 0;26.5305,55.6026;31001;Visagino sav.;Babrūša
+0;26.1826,55.0144;;Vilnius;Petrošiškė
 0;23.9325,54.7714;53030;Kauno r. sav.;Kairiūkščiai
 0;24.8418,56.3851;41058;Biržų r. sav.;Palsupė
 0;23.9730,55.4623;58047;Kėdainių r. sav.;Jogniškiai
@@ -19363,6 +19924,7 @@
 0;24.9385,56.1098;41012;Biržų r. sav.;Kalpokiškis
 0;26.2495,55.2498;18001;Švenčionių r. sav.;Valeikauka
 0;25.1653,55.2147;20015;Ukmergės r. sav.;Juodakiai
+0;25.6995,54.7823;;Vilnius;Červiškiai
 0;23.3451,55.5559;82040;Radviliškio r. sav.;Pežai
 0;23.8018,53.9806;67035;Druskininkų sav.;Baltosios Ančios HES
 0;22.9994,54.7396;70045;Vilkaviškio r. sav.;Rementiškiai
@@ -19377,6 +19939,9 @@
 0;25.5268,55.6109;28030;Utenos r. sav.;Pašvenčiai
 0;23.7522,55.9735;83022;Pakruojo r. sav.;Norkūniškis
 0;23.2170,54.9708;71005;Šakių r. sav.;Zypliabūdis
+0;26.0022,55.0185;;Vilnius;Paglūštė
+0;26.1144,55.0104;;Vilnius;Voksa
+0;24.7477,54.1431;;Alytus;Aladauka
 0;21.9645,55.5046;75026;Šilalės r. sav.;Kukariškė
 0;24.7945,56.3436;41058;Biržų r. sav.;Pladiškis
 0;23.4310,56.1644;81024;Šiaulių r. sav.;Marvyna
@@ -19402,12 +19967,14 @@
 0;23.9952,54.9649;54078;Kauno r. sav.;Ginėnai
 0;21.3501,55.9976;97011;Kretingos r. sav.;Gargždupis
 0;23.2605,54.7671;70085;Vilkaviškio r. sav.;Skirkiškė
+0;21.6359,55.2190;;Klaipėda County;Veržininkai
 0;22.6598,55.6007;86026;Kelmės r. sav.;Bytautiškė
 0;22.4794,56.0305;88019;Telšių r. sav.;Žylaičiai
 0;22.7899,55.7007;86052;Kelmės r. sav.;Švytriškė
 0;22.3974,55.9003;88019;Telšių r. sav.;Mildagė
 0;25.3612,55.5144;28027;Utenos r. sav.;Sarteniškis
 0;26.5161,55.2049;30012;Ignalinos r. sav.;Vartiškė
+0;21.1483,56.0469;;Klaipėda County;Aušrakaimis
 0;24.8554,54.1552;17014;Šalčininkų r. sav.;Biliniškės
 0;23.8940,56.2669;84031;Joniškio r. sav.;Brūveriai
 0;22.4480,55.7199;88019;Telšių r. sav.;Žebenkavas
@@ -19441,6 +20008,7 @@
 0;24.7621,54.8191;21055;Elektrėnų sav.;Tarbiškės
 0;25.1435,55.7856;40018;Kupiškio r. sav.;Mielošiai
 0;26.4802,55.2144;30012;Ignalinos r. sav.;Milašius
+0;26.1974,55.0232;;Vilnius;Lobinė
 0;25.8189,55.3946;28015;Utenos r. sav.;Meldutiškis
 0;26.2579,55.7717;32001;Zarasų r. sav.;Ažuožeriškiai
 0;23.9630,54.4891;59015;Prienų r. sav.;Daujotiškės
@@ -19477,6 +20045,7 @@
 0;26.5954,55.5959;32004;Zarasų r. sav.;Šaškai
 0;23.8474,55.5922;82058;Radviliškio r. sav.;Šabiškiai
 0;24.4550,55.3063;20045;Ukmergės r. sav.;Laužupė
+0;24.5922,56.3195;;Panevėžys;Kuprėnai
 0;23.6040,54.5882;69013;Marijampolės sav.;Stašliškiai
 0;25.2265,56.1143;42069;Rokiškio r. sav.;Jusiagiris
 0;25.3704,55.3267;33037;Molėtų r. sav.;Skritakalnis
@@ -19511,6 +20080,7 @@
 0;22.2187,55.3338;73021;Tauragės r. sav.;Siaurkampis
 0;23.5732,55.2110;54046;Kauno r. sav.;Dratkalnis
 0;26.3788,55.2975;30006;Ignalinos r. sav.;Augutiškė
+0;25.5189,54.4634;;Vilnius;Andriškės
 0;22.7644,55.6412;86052;Kelmės r. sav.;Žuviškė
 0;24.0727,55.4365;58047;Kėdainių r. sav.;Bučioniai
 0;24.0858,55.3422;57001;Kėdainių r. sav.;Stuobriai
@@ -19609,19 +20179,23 @@
 0;23.5995,54.8146;53079;Kauno r. sav.;Kajackaraistis
 0;24.6225,55.8347;38070;Panevėžio r. sav.;Višteliškis
 0;25.2308,55.5310;29051;Anykščių r. sav.;Pagubrys
+0;25.9762,55.9084;;Utena;Bebrinka
 0;24.0239,54.6242;59001;Birštono sav.;Šmitiškės
 0;25.1853,56.0226;42041;Rokiškio r. sav.;Žiukavina
 0;25.6894,55.6759;28033;Utenos r. sav.;Satarečius
 0;24.8779,56.4451;41058;Biržų r. sav.;Rumbos
 0;24.3916,56.1232;39001;Pasvalio r. sav.;Kildiškis
+0;25.7281,54.7727;;Vilnius;Mandutiškės
 0;22.6798,55.4275;60040;Raseinių r. sav.;Lauraičiai
 0;22.9063,55.0003;74042;Jurbarko r. sav.;Keršiai
+0;26.0522,54.9501;;Vilnius;Cemnuka
 0;23.4135,54.2755;67083;Lazdijų r. sav.;Vilkakarčemė
 0;23.8401,55.8412;82007;Radviliškio r. sav.;Birjagala
 0;22.3385,55.5651;75038;Šilalės r. sav.;Pievininkai
 0;25.5223,55.4357;28024;Utenos r. sav.;Žirgapievis
 0;25.2510,55.4685;29012;Anykščių r. sav.;Fedariškis
 0;24.8401,56.0455;41033;Biržų r. sav.;Trišakiai
+0;25.9633,55.9815;;Panevėžys;Juodupiškis
 0;24.8273,55.6556;29036;Anykščių r. sav.;Mitrai
 0;24.3587,55.3902;58072;Kėdainių r. sav.;Aleksandriškis
 0;23.0826,55.0378;74057;Jurbarko r. sav.;Bartupis
@@ -19633,6 +20207,7 @@
 0;25.0695,56.1121;41012;Biržų r. sav.;Gydiškis
 0;25.0985,54.8257;14025;Vilniaus r. sav.;Tintiniškės
 0;26.5060,55.2224;30012;Ignalinos r. sav.;Žardeliškė
+0;26.0282,54.9885;;Vilnius;Lipina
 0;22.9953,54.8317;71045;Šakių r. sav.;Murinai
 0;26.4699,55.2289;30012;Ignalinos r. sav.;Edvardavas
 0;24.4737,54.6454;21034;Trakų r. sav.;Migliniškės
@@ -19647,6 +20222,7 @@
 0;23.3979,55.4040;60055;Raseinių r. sav.;Pamūkis
 0;24.9561,54.6949;21001;Trakų r. sav.;Čiukiškės
 0;24.9797,56.0612;41071;Biržų r. sav.;Žvaguičiai
+0;24.8474,54.1521;;Vilnius;Pašiškės
 0;23.2527,54.7839;70085;Vilkaviškio r. sav.;Masiauskai
 0;25.1774,55.7434;40018;Kupiškio r. sav.;Papušė
 0;22.7822,54.7406;71049;Šakių r. sav.;Šūkleliai
@@ -19660,6 +20236,7 @@
 0;25.7092,55.4622;28012;Utenos r. sav.;Ražampolis
 0;23.8394,56.3323;84031;Joniškio r. sav.;Bikaičiai
 0;24.3373,55.4108;58063;Kėdainių r. sav.;Šnipiškis
+0;25.7338,54.7497;;Vilnius;Baravykinė
 0;25.0499,55.7748;40001;Kupiškio r. sav.;Bartešiškės
 0;24.6516,55.0920;19023;Širvintų r. sav.;Užuežeris
 0;22.8458,55.2218;74030;Jurbarko r. sav.;Pavidaujys III
@@ -19680,7 +20257,9 @@
 0;24.0108,55.5212;38043;Panevėžio r. sav.;Bulbinava
 0;25.5082,55.4020;28024;Utenos r. sav.;Patošė
 0;23.2859,54.7403;70085;Vilkaviškio r. sav.;Beržnavienė
+0;24.7911,54.1735;;Alytus;Meškadonys
 0;25.0753,55.9786;40056;Kupiškio r. sav.;Suvaidiškiai
+0;24.9558,56.3341;;Panevėžys;Zeliškiai
 0;24.9222,54.2722;17014;Šalčininkų r. sav.;Sveckevičiai
 0;24.9167,55.8725;40001;Kupiškio r. sav.;Girvalakiai I
 0;24.1175,56.2364;83031;Pakruojo r. sav.;Baltplonėnas
@@ -19689,6 +20268,7 @@
 0;22.8258,55.5888;86065;Kelmės r. sav.;Šilos
 0;26.6194,55.2735;30009;Ignalinos r. sav.;Vaiciekavas
 0;22.6547,56.0231;88011;Telšių r. sav.;Judriškė
+0;21.9836,55.8507;;Telsiai;Paminijai
 0;22.8313,55.6759;86052;Kelmės r. sav.;Pakėvukai
 0;23.7028,56.0838;83025;Pakruojo r. sav.;Naujapamūšis
 0;24.7693,54.2704;65063;Varėnos r. sav.;Semoškos
@@ -19699,6 +20279,7 @@
 0;24.8379,56.1615;41062;Biržų r. sav.;Kviriškis
 0;23.1237,54.6166;70001;Vilkaviškio r. sav.;Pilotiškiai
 0;24.8190,54.9920;19017;Širvintų r. sav.;Rusteikiškiai
+0;22.8809,54.4368;;Marijampolė County;Egliniškiai I
 0;23.9841,54.9818;54078;Kauno r. sav.;Staviščiai
 0;24.9591,54.7384;27001;Vilniaus m. sav.;Vingeliai
 0;23.9265,55.7230;82010;Radviliškio r. sav.;Jaukštai
@@ -19762,6 +20343,7 @@
 0;26.4546,55.4924;30045;Visagino sav.;Mieleikiškė
 0;26.3055,55.2018;30012;Ignalinos r. sav.;Jukiškė
 0;23.3940,55.4597;60055;Raseinių r. sav.;Rituliškiai
+0;26.0562,55.8652;;Utena;Garbūnėliškis
 0;22.9222,54.8385;71057;Šakių r. sav.;Užpjauniai
 0;22.5003,56.1397;88094;Telšių r. sav.;Pabūgeniai
 0;23.9212,56.1201;83040;Pakruojo r. sav.;Vorlaukis
@@ -19773,6 +20355,7 @@
 0;26.4455,55.6335;31001;Visagino sav.;Jadlinava
 0;25.3817,55.5498;29051;Anykščių r. sav.;Stalėriškis
 0;26.1514,55.7375;32001;Zarasų r. sav.;Navikėliai
+0;25.9584,55.9142;;Panevėžys;Pusliškis
 0;24.1640,55.9064;39015;Pasvalio r. sav.;Buojaragis
 0;25.2538,55.4643;29012;Anykščių r. sav.;Vitkuškis
 0;23.9009,55.6491;82010;Radviliškio r. sav.;Avižiškiai
@@ -19801,6 +20384,7 @@
 0;26.5944,55.3036;30009;Ignalinos r. sav.;Kisielka
 0;25.0402,55.4763;29001;Anykščių r. sav.;Mūrelis
 0;25.5316,54.9102;15013;Vilniaus r. sav.;Prūdeliškės
+0;26.7765,55.3004;;Utena;Piemenys
 0;23.6030,56.2777;84001;Joniškio r. sav.;Kuiseliai
 0;25.6933,55.4350;28021;Utenos r. sav.;Griniškis
 0;24.3466,55.3976;58072;Kėdainių r. sav.;Plankiai
@@ -19811,15 +20395,18 @@
 0;23.2661,55.5934;86061;Kelmės r. sav.;Kručai
 0;23.6348,55.3541;58032;Kėdainių r. sav.;Apirubiai
 0;24.1863,54.9676;54085;Kauno r. sav.;Gireliai
+0;24.8017,54.1931;;Vilnius;Užberžės
 0;24.8334,55.3855;20054;Ukmergės r. sav.;Pakėnai
 0;24.7708,54.7343;21055;Elektrėnų sav.;Rusatiškės
 0;24.7414,55.6781;29036;Anykščių r. sav.;Žiliškės
 0;24.0673,54.7179;59040;Prienų r. sav.;Daukšiagirė
 0;24.8900,54.9637;19017;Širvintų r. sav.;Žagarinka
+0;26.7659,55.2764;;Utena;Pupiena
 0;23.6155,55.2671;58026;Kėdainių r. sav.;Gižiemiai
 0;24.3478,55.4282;58063;Kėdainių r. sav.;Kievagalis
 0;21.3131,56.0039;97023;Kretingos r. sav.;Dubašiai
 0;21.8300,56.0161;90036;Plungės r. sav.;Laumalenkos
+0;24.6869,54.1361;;Alytus;Grišoniškės
 0;26.4081,55.6387;31001;Visagino sav.;Mizereniškė
 0;25.1438,55.6052;29042;Anykščių r. sav.;Pavarės III
 0;25.6500,54.8008;15023;Vilniaus r. sav.;Vilkabrastis
@@ -19834,9 +20421,11 @@
 0;22.6217,55.5594;86026;Kelmės r. sav.;Kirpkalnis
 0;25.3073,55.3052;33037;Molėtų r. sav.;Kuktiškis
 0;26.3127,55.1405;18001;Švenčionių r. sav.;Cibulskai
+0;25.7130,54.8074;;Vilnius;Bulbinė
 0;23.3333,54.7710;70085;Vilkaviškio r. sav.;Aukštoji Išdaga
 0;23.2748,55.3250;60028;Raseinių r. sav.;Šilvai
 0;23.6569,55.1461;54015;Kauno r. sav.;Baltriškė
+0;25.9894,55.9246;;Utena;Kriaunėnai
 0;25.4228,55.4859;28027;Utenos r. sav.;Ažugirka
 0;24.4413,55.4496;38019;Panevėžio r. sav.;Giedraitinė
 0;24.8218,55.7184;40033;Kupiškio r. sav.;Pelyšos II
@@ -19858,6 +20447,7 @@
 0;23.0611,54.7502;70045;Vilkaviškio r. sav.;Didlapiai
 0;23.6777,55.3697;58032;Kėdainių r. sav.;Tauginiškiai
 0;22.3928,55.8281;88019;Telšių r. sav.;Paberžtvė
+0;26.7865,55.2714;;Utena;Spijotiškė
 0;24.2785,55.2100;55066;Jonavos r. sav.;Kaupinai
 0;23.8504,54.5185;59015;Prienų r. sav.;Ąžuolai
 0;23.1234,54.3515;69030;Kalvarijos sav.;Šarkaitis
@@ -19870,6 +20460,7 @@
 0;25.3008,55.9763;42041;Rokiškio r. sav.;Daujotiškis
 0;24.6986,56.2035;41001;Biržų r. sav.;Kauneliai
 0;24.0662,56.2357;83031;Pakruojo r. sav.;Petronėliai
+0;26.2099,55.8512;;Utena;Antužiškės
 0;25.9439,55.0330;18011;Švenčionių r. sav.;Balevičiai
 0;24.5429,55.2610;20045;Ukmergės r. sav.;Padubilčiai
 0;24.1546,55.7974;38049;Panevėžio r. sav.;Samališkiai
@@ -19894,7 +20485,9 @@
 0;21.8692,56.2502;98050;Skuodo r. sav.;Gailaičiai
 0;22.0476,55.4394;75020;Šilalės r. sav.;Kalniškiai
 0;26.1358,55.7527;32032;Zarasų r. sav.;Aviliai
+0;26.1796,55.8611;;Utena;Didėja
 0;25.6464,55.2311;33007;Molėtų r. sav.;Stirniai
+0;25.6862,54.8638;;Vilnius;Punžonys
 0;25.1879,55.4773;29018;Anykščių r. sav.;Kurkleliai
 0;25.4992,54.9474;15013;Vilniaus r. sav.;Šarkiškės
 0;25.1855,54.6407;02309;Vilniaus m. sav.;Paneriai
@@ -19906,6 +20499,7 @@
 0;25.1630,54.6831;27001;Vilniaus m. sav.;Naujakiemis
 0;25.1588,54.7959;14193;Vilniaus m. sav.;Riešė
 0;24.9813,54.7632;14172;Vilniaus m. sav.;Pylimai
+0;22.8004,54.9152;;Marijampolė County;Rukšniai
 0;22.7919,55.3163;74021;Jurbarko r. sav.;Paupys
 0;22.5188,55.4141;73028;Tauragės r. sav.;Pilsūdai
 0;22.4915,55.6075;86065;Kelmės r. sav.;Burniai

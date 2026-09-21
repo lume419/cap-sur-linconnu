@@ -109,15 +109,15 @@ cap-sur-linconnu/
 │       ├── communes-hr.txt     # ~11 323 lieux croates, même format (48 noms corrigés Ð->Đ, voir
 │       │                        # scripts/build-country-communes.js, confusion de caractère GeoNames)
 │       ├── aliases-hr.txt      # idem pour la Croatie (dont l'italien d'Istrie et de Dalmatie)
-│       ├── communes-ba.txt     # 374 lieux bosniens SEULEMENT (codes postaux Wikipedia, pas GeoNames
+│       ├── communes-ba.txt     # 21 336 lieux bosniens (codes postaux Wikipedia, pas GeoNames
 │       │                        # — voir "Pays couverts" et scripts/build-ba-communes.js)
 │       ├── aliases-ba.txt      # idem pour la Bosnie-Herzégovine
-│       ├── communes-gb.txt     # 34 195 lieux britanniques, même format (codes postaux "outward"
+│       ├── communes-gb.txt     # 34 292 lieux britanniques, même format (codes postaux "outward"
 │       │                        # GeoNames — districts, pas des codes complets, voir "Pays couverts")
 │       ├── aliases-gb.txt      # idem pour le Royaume-Uni (doublons gallois/gaéliques/corniques
 │       │                        # mal étiquetés "br"/"ca"/"eu"/... écartés, voir le
 │       │                        # commentaire CELTIC_PROBE_LANGS dans scripts/build-aliases.js)
-│       ├── communes-ie.txt     # 7 181 lieux irlandais, même format (codes postaux GeoNames très
+│       ├── communes-ie.txt     # 11 993 lieux irlandais, même format (codes postaux GeoNames très
 │       │                        # grossiers pour l'Irlande — 139 "routing keys" Eircode nationaux
 │       │                        # seulement, contre 27 450 districts au Royaume-Uni ; huit exonymes
 │       │                        # anglais corrigés, voir NAME_OVERRIDES dans build-country-communes.js)
@@ -125,9 +125,10 @@ cap-sur-linconnu/
 │       ├── communes-im.txt     # 43 lieux mannois, même format (aucune correction de nom nécessaire)
 │       ├── aliases-im.txt      # idem pour l'île de Man (mannois/Gaelg en tête)
 │       ├── …                   # un communes-XX.txt et un aliases-XX.txt par pays : 239 fichiers d'alias
-│       │                        # (France comprise), 1 718 520 alias au total au 21/09/2026, 20e audit
-│       │                        # (1 717 755 au 19e ; 1 717 762 avant la 16e passe, le chiffre annoncé
-│       │                        # alors, 1 717 801, dépassant de 39 lignes le contenu réel) — voir
+│       │                        # (France comprise), 1 759 644 alias au total au 21/09/2026, après la
+│       │                        # publication des lieux sans code postal (1 718 520 avant, 1 717 755 au
+│       │                        # 19e audit ; 1 717 762 avant la 16e passe, le chiffre annoncé alors,
+│       │                        # 1 717 801, dépassant de 39 lignes le contenu réel) — voir
 │       │                        # "Noms alternatifs dans toutes les langues, pour tous les pays"
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 38 liaisons de péage françaises vérifiées, qui fixent le tarif €/km (7e audit)
@@ -184,7 +185,7 @@ ajoute deux à trois choses, indépendamment des autres :
    donc un code postal que si UNE SEULE commune de ce nom a une population connue nettement
    dominante (ex. Zenica, 164 423 hab. contre 0 pour ses deux homonymes) ou si tous les homonymes
    sont à moins de 15 km les uns des autres (probablement le même lieu, plusieurs points GeoNames
-   décalés) — sinon le nom est écarté EN BLOC plutôt que deviné. Résultat : 374 communes retenues sur
+   décalés) — sinon le nom est écarté EN BLOC plutôt que deviné. Résultat : 374 communes rapprochées d'un code postal sur
    582 entrées de codes postaux extraites de Wikipedia, avec 92 noms écartés pour ambiguïté et 71
    entrées Wikipedia sans commune GeoNames correspondante (souvent des bureaux/guichets de poste
    plutôt que de vrais lieux distincts, ex. "Mostar-Avenija", "Mostar-CIPS") — une couverture
@@ -192,7 +193,7 @@ ajoute deux à trois choses, indépendamment des autres :
    que sur une correspondance devinée. Choix explicite de l'utilisateur (voir historique des
    commits) : reconstruire malgré ce travail supplémentaire plutôt que d'ajouter les communes sans
    code postal ou de reporter le pays. **Le Danemark**, lui, n'a demandé aucun traitement spécial —
-   pipeline standard, 7 080 communes retenues sur 7 109 lieux bruts. Deux corrections `NAME_OVERRIDES`
+   pipeline standard, 7 103 communes retenues sur 7 109 lieux bruts. Deux corrections `NAME_OVERRIDES`
    seulement (échantillon des 30 plus grandes communes du pays, reste déjà bon y compris les caractères
    æ/ø/å) : "Copenhagen" (exonyme anglais, remplacé par le danois "København") et "Århus" (pas un
    exonyme cette fois mais une orthographe danoise PÉRIMÉE — la ville a officiellement repris
@@ -208,7 +209,7 @@ ajoute deux à trois choses, indépendamment des autres :
    compris å/ä/ö — Stockholm, Malmö, Uppsala, Linköping, Örebro, Umeå... déjà bons) : "Gothenburg"
    (exonyme anglais, remplacé par le suédois "Göteborg" — deuxième ville du pays).
    **La Finlande**, dernier pays de la série nordique, a demandé DEUX fichiers plutôt qu'un : 23 869
-   communes finlandaises (`communes-fi.txt`) et, séparément, 330 communes des **îles Åland**
+   communes finlandaises (`communes-fi.txt`) et, séparément, 333 communes des **îles Åland**
    (`communes-ax.txt`) — l'archipel a son propre code pays GeoNames "AX", distinct de "FI" (même
    logique que Guernesey/Jersey/l'île de Man pour le Royaume-Uni), et le fichier de codes postaux
    officiel finlandais ne le couvre PAS du tout (vérifié : aucune entrée Mariehamn/Ahvenanmaa dans
@@ -228,7 +229,7 @@ ajoute deux à trois choses, indépendamment des autres :
    écartée plutôt que renommée — un simple renommage ne l'aurait pas fusionnée avec la vraie entrée
    au dédoublonnage (coordonnées trop éloignées pour la grille ~1 km utilisée).
    **Le Monténégro, l'Albanie et le Kosovo**, ajoutés ensemble dans un même passage, ont chacun demandé
-   un traitement très différent. **L'Albanie** : pipeline standard, 4 017 communes retenues sur 4 156
+   un traitement très différent. **L'Albanie** : pipeline standard, 4 153 communes retenues sur 4 156
    lieux bruts, une seule correction `NAME_OVERRIDES` ("Tirana" exonyme anglais -> "Tiranë", cohérente
    avec le reste du dump — "Bashkia Tiranë"). **Le Monténégro et le Kosovo**, eux, rejoignent la
    Bosnie-Herzégovine dans le petit groupe des pays SANS fichier de codes postaux GeoNames
@@ -241,7 +242,8 @@ ajoute deux à trois choses, indépendamment des autres :
      indépendant de codes postaux serbo-monténégrins (136 entrées, système hérité de la Yougoslavie,
      stable depuis 1971) — PAS une source officielle ni sous licence ouverte claire comme Wikipedia,
      un choix de dernier recours par manque d'alternative, à documenter comme tel plutôt qu'à
-     présenter comme une source aussi solide que les autres pays. 94 des 136 codes postaux rapprochés
+     présenter comme une source aussi solide que les autres pays. 3 984 communes publiées, dont 94 rapprochées
+     d'un des 136 codes postaux
      d'une commune GeoNames par nom (`scripts/build-me-communes.js`), 6 écartés pour ambiguïté (nom
      partagé par plusieurs lieux distincts, même règle que la Bosnie), 42 sans commune correspondante.
    - Pour le **Kosovo**, un article Wikipedia "Postal codes in Kosovo" existe bien, mais ne liste QUE
@@ -263,20 +265,20 @@ ajoute deux à trois choses, indépendamment des autres :
      (Glogovac/Drenas, Suva Reka/Suharekë, Orahovac/Rahovec, Kamenica/Kamenicë, Vitina/Viti,
      Štrpce/Shtërpcë, Klina/Klinë, Mališevo/Malishevë, Srbica/Skenderaj, Zvečan/Zveçan, Klokot/Kllokot,
      Mamuša/Mamushë) — corrigées vers la forme albanaise utilisée par la Poste du Kosovo elle-même,
-     l'albanais étant la langue très largement majoritaire du pays (~92%). 40 codes postaux au total
-     rapprochés d'une commune GeoNames sur 133 entrées sources (`scripts/build-xk-communes.js`) — le
+     l'albanais étant la langue très largement majoritaire du pays (~92%). 2 561 communes publiées, dont 40
+     rapprochées d'un code postal sur 133 entrées sources (`scripts/build-xk-communes.js`) — le
      reste étant soit des zones postales numérotées internes à une ville ("Prishtina 3", "Peja 8"...),
      soit des centres de tri/transit ("Qendra tranzite postare", "Tuneli i parë"), soit de très petits
      hameaux absents du gazetteer GeoNames sous ce nom précis.
    **La Serbie et la Macédoine du Nord**, ajoutées ensuite, reviennent toutes les deux au
    pipeline STANDARD (contrairement à leurs trois voisines balkaniques précédentes) : GeoNames publie
-   un vrai fichier de codes postaux pour chacune, vérifié avant de commencer. **Serbie** : 9 256
+   un vrai fichier de codes postaux pour chacune, vérifié avant de commencer. **Serbie** : 9 448
    communes retenues sur 9 489 lieux bruts. Deux corrections `NAME_OVERRIDES` (échantillon des 400
    plus grandes communes du pays, reste déjà bon y compris č/ć/š/ž/đ) : "Belgrade" (exonyme anglais,
    remplacé par le serbe "Beograd" — déjà la forme utilisée par le reste du dump, ex. "Novi Beograd")
    et "Knjazevac" (diacritique manquant dans le champ `name` lui-même, repéré par recoupement avec la
    liste des noms alternatifs de cette même entrée — corrigé en "Knjaževac"). **Macédoine du Nord** :
-   2 508 communes retenues sur 2 529 lieux bruts, mais avec une particularité inédite parmi tous les
+   2 528 communes retenues sur 2 529 lieux bruts, mais avec une particularité inédite parmi tous les
    pays ci-dessus : 75 communes (sur 2 529) ont leur champ `name` GeoNames en CYRILLIQUE BRUT alors
    que l'écrasante majorité du pays (2 454 communes) est déjà en latin dans ce même champ — une
    incohérence de SAISIE côté GeoNames plutôt qu'un choix éditorial (rien ne distingue ces 75 communes
@@ -338,8 +340,8 @@ ajoute deux à trois choses, indépendamment des autres :
    Del Vaticano" — la forme italienne, mais avec une apostrophe droite en lieu et place de l'accent
    grave manquant. Corrigée en "Città del Vaticano", l'italien étant la langue de travail quotidienne
    du Vatican (voir "Langues" ci-dessous) — même logique que Bucharest -> Bucureşti ou Riga -> Rīga
-   plus haut : préférer le vrai nom local à l'exonyme anglais. **Islande** : 96 communes retenues,
-   AUCUNE correction nécessaire (échantillon exhaustif des 96 communes déjà bon, diacritiques islandais
+   plus haut : préférer le vrai nom local à l'exonyme anglais. **Islande** : 116 communes retenues,
+   AUCUNE correction nécessaire (échantillon exhaustif des 96 communes à code postal déjà bon, diacritiques islandais
    þ/ð/ö compris — Reykjavík, Kópavogur, Akureyri, Þingeyjarsveit...). **Îles Féroé** : 180 communes
    retenues, AUCUNE correction nécessaire non plus (échantillon exhaustif des 180 communes déjà bon,
    diacritiques féroïens ø/á/í/ú compris — Tórshavn, Klaksvík, Runavík, Tvøroyri...).
@@ -362,7 +364,7 @@ ajoute deux à trois choses, indépendamment des autres :
    (cédille ş/ţ plutôt que la variante à virgule souscrite ș/ț, pour la même raison que
    "Bucureşti"/la Roumanie plus haut : cohérence avec l'écrasante majorité du reste du dump moldave
    lui-même — 1 959 caractères ş/ţ contre seulement 237 ș/ț dénombrés dans le fichier brut). **La
-   Biélorussie** : 25 147 communes retenues, aucun exonyme anglais identifié parmi les plus grandes
+   Biélorussie** : 25 203 communes retenues, aucun exonyme anglais identifié parmi les plus grandes
    villes (Minsk, Homyel', Hrodna, Vitebsk, Mahilyow, Brest, Bobruysk... déjà telles quelles) — mais
    un cas de nom MALFORMÉ inédit parmi tous les pays couverts jusqu'ici : l'entrée 814990 porte
    "Ryasno, Рясно, Расна" comme champ `name` (trois translittérations différentes du même nom
@@ -377,7 +379,7 @@ ajoute deux à trois choses, indépendamment des autres :
    systématiquement en faveur de l'une ou l'autre : laissé tel quel, comme le reste du dump GeoNames
    utilisé sans retouche ailleurs dans ce projet. 14 communes biélorusses (dont Ryasno) restent aussi
    en cyrillique brut dans le champ `name` — même mécanisme de repli sur `asciiname` que la Macédoine
-   du Nord (voir plus haut), étendu à ce pays. **L'Ukraine** : 30 044 communes retenues, AUCUNE
+   du Nord (voir plus haut), étendu à ce pays. **L'Ukraine** : 32 448 communes retenues (30 044 avant la publication des lieux sans code postal), AUCUNE
    correction `NAME_OVERRIDES` nécessaire (échantillon des 150 plus grandes villes du pays déjà bon —
    Kyiv, Kharkiv, Odesa, Dnipro, Zaporizhzhya, Lviv..., déjà la translittération ukrainienne moderne
    post-2018/BGN-PCGN, PAS les anciens exonymes issus du russe "Kiev"/"Kharkov"/"Odessa"/"Dnepr" — la
@@ -432,7 +434,7 @@ ajoute deux à trois choses, indépendamment des autres :
    stocke le nom canonique en translittération latine — rapprochement via le nom géorgien
    ALTERNATIF de chaque lieu GeoNames plutôt que son nom principal, complété par le fichier
    `alternateNames` dédié (nettement plus riche que les seuls noms alternatifs du dump principal :
-   4 926 lieux avec un nom géorgien identifié contre 4 143). 2 366 communes retenues, dont Tbilissi en
+   4 926 lieux avec un nom géorgien identifié contre 4 143). 4 147 communes retenues, dont 2 366 rapprochées d'un code postal, et Tbilissi en
    cas particulier (seule ville dont l'annuaire détaille des RUES individuelles plutôt qu'une liste de
    localités — un unique code réel est utilisé à la place, "0100", l'adresse officielle du siège de la
    Poste géorgienne). Cinq écarts confirmés entre le nom géorgien réellement utilisé par l'annuaire et
@@ -858,14 +860,14 @@ choix explicite de l'utilisateur comme pour Gibraltar/la Moldavie/la Biélorussi
 **L'Arménie** : GeoNames n'a AUCUN fichier de codes postaux pour ce pays (export/zip/AM.zip -> 404,
 comme la Géorgie/le Monténégro/le Kosovo) — reconstruit depuis la liste officielle des 775 bureaux de
 poste d'Haypost (la poste nationale arménienne elle-même, une source plus directe encore que yell.ge
-pour la Géorgie), rapprochée par nom (`scripts/build-am-communes.js`, 458 communes retenues sur 775
+pour la Géorgie), rapprochée par nom (`scripts/build-am-communes.js`, 1 304 communes retenues, dont 458 rapprochées d'un des 775
 bureaux, dont Erevan renommée depuis "Etchmiadzin"/"Echmiadzin" vers son nom officiel actuel
 "Vagharshapat"). `hasToll:false` (aucun péage réel — le seul dispositif ayant existé, un droit d'usage
 pour véhicules étrangers, a été aboli en 2018). Devise `AMD` (dram arménien), `CURRENCY_GLYPH` utilise
 le vrai symbole "֏" (U+058F, normalisé Unicode 6.1/2012). Pas de fichier alias pour cet ajout (comme
 la France à l'époque ; depuis, `scripts/build-all-aliases.js` a créé `aliases-am.txt` et `aliases-fr.txt`, voir
 « Noms alternatifs dans toutes les langues, pour tous les pays »). **L'Azerbaïdjan** : pipeline standard, GeoNames publie un vrai fichier de codes postaux —
-4 277 communes retenues sur 5 018 dédoublonnées, treize corrections `NAME_OVERRIDES` parmi les plus
+5 018 communes retenues, 4 277 avec un code postal, sur 5 018 dédoublonnées, treize corrections `NAME_OVERRIDES` parmi les plus
 grandes villes du pays (alphabet latin azerbaïdjanais officiel depuis 1991 — "Baku"->"Bakı",
 "Ganja"->"Gəncə"... voir `scripts/build-country-communes.js`). `hasToll:true` : un vrai péage
 proportionnel à la distance existe (route M-1 Bakou-Quba, 129 km, barème officiel AAYDA). Devise
@@ -1145,10 +1147,13 @@ utilise des lettres en ISO là où GeoNames numérote). Construire treize tables
 main aurait multiplié les occasions de se tromper sans rien apporter au visiteur, à qui le NOM de la
 région est montré à côté.
 
-**Lieux sans division administrative : écartés.** Mesuré avant de trancher, pour vérifier que cela ne
-coûtait rien de réel — les lieux concernés n'ont, à une poignée près, aucune population renseignée :
-Mali 1 157 lieux sans admin1 dont 0 avec population, Togo 3 443 dont 0, Guinée-Bissau 3 182 dont 7.
-Partout ailleurs le trou est négligeable (0 à 94 lieux). Ce sont des hameaux, pas des destinations.
+**Lieux sans division administrative : écartés — PUIS PUBLIÉS (21/09/2026).** Ils l'étaient « comme le pipeline
+standard écarte les communes sans code postal », et ce pipeline-là ne les écarte plus : un code, postal ou
+administratif, aide à retrouver sa ville, il ne décide pas si elle existe. Ils sortent désormais avec l'étiquette du
+PAYS seul, comme le faisait déjà le lot d'Afrique orientale et australe. Mesuré à l'époque : Mali 1 157 lieux sans
+admin1 dont 0 avec population, Togo 3 443 dont 0, Guinée-Bissau 3 182 dont 7 ; partout ailleurs 0 à 94 lieux. Ce
+sont des hameaux sans population connue — le Mali passe donc de 14 600 à 15 756 lieux, le Togo de 752 à 4 193 et la
+Guinée-Bissau de 697 à 3 879.
 
 **Le Cap-Vert est le premier pays entièrement insulaire du projet.** Neuf îles habitées, chacune sa
 masse terrestre, reliées par huit liaisons de ferry — voir la section "Ferries" pour le détail des
@@ -1558,7 +1563,7 @@ Australie, Nouvelle-Zélande, Papouasie-Nouvelle-Guinée, Îles Salomon, Vanuatu
 Nauru, Îles Marshall, États fédérés de Micronésie, Palaos, Niue, Îles Cook, Tokelau, Guam, Îles Mariannes du Nord,
 Samoa américaines, îles mineures éloignées des États-Unis, Pitcairn, île Norfolk, îles Heard-et-MacDonald — **35 618
 lieux** (`scripts/build-oceanie-communes.js`) : Australie 13 409, Papouasie-Nouvelle-Guinée 11 470, Îles Salomon 2 527,
-Nouvelle-Zélande 2 385, Fidji 2 212, Vanuatu 1 905… Pitcairn 1. **~2 800 alias** (`scripts/build-oceanie-aliases.js`),
+Nouvelle-Zélande 2 525, Fidji 2 212, Vanuatu 1 905… Pitcairn 1. **~2 800 alias** (`scripts/build-oceanie-aliases.js`),
 notamment en māori, samoan, fidjien et français.
 
 **Codes postaux** (même règle des 90 %) : Australie (90,9 % — les 1 347 lieux sans point postal à moins de 15 km,
@@ -1611,7 +1616,8 @@ Pays-Bas caribéens, Colombie, Venezuela, Guyana, Suriname, Équateur, Pérou, B
 Argentine, Chili, Malouines, Géorgie du Sud-et-les îles Sandwich du Sud — **763 003 lieux**
 (`scripts/build-ameriques-communes.js`) : Mexique 256 393, États-Unis 162 937, Brésil 66 533, Pérou 46 394, Colombie
 33 884, Bolivie 25 597, Venezuela 23 225, Canada 19 687… ; **~80 000 alias** (`scripts/build-ameriques-aliases.js`). Le
-site compte désormais **~4,8 millions de lieux** (bundle communes 227 Mo bruts ; index de recherche 16,4 millions
+site compte désormais **~4,9 millions de lieux** (4 907 889 exactement depuis la publication des lieux sans code
+postal, 21/09/2026 ; bundle communes 220 Mo bruts ; index de recherche 18,0 millions
 d'entrées à l'époque, 17,65 millions aujourd'hui ; serveur ~2,4 Go, tirages prêts en ~14 s en local).
 
 **Codes postaux** (règle des 90 %) : États-Unis 96,6 %, Mexique 97,5 %, Bermudes, Costa Rica, Panama, Haïti, Porto Rico,
@@ -2543,7 +2549,7 @@ de Gagaouzie face au reste du pays), `aliases-by.txt` (24 550 alias, dont 17 523
 biélorusses), `aliases-ua.txt` (50 964 alias, dont 22 139 ukrainiens et 20 661 russes — cette
 proportion russe élevée reflète des noms alternatifs historiques hérités de la période soviétique/
 prérévolutionnaire déjà présents dans `alternateNamesV2`, une simple possibilité de RECHERCHE
-supplémentaire qui ne change rien au nom CANONIQUE affiché, resté ukrainien pour les 30 044 communes
+supplémentaire qui ne change rien au nom CANONIQUE affiché, resté ukrainien pour les 32 448 communes
 du pays — même logique que les alias serbes conservés pour des communes kosovares au nom canonique
 albanais).
 
@@ -3166,7 +3172,7 @@ Puis ouvrez `http://localhost:3000`. Le port peut être changé via la variable 
   automatique n'est possible puisque le fichier est servi depuis le dépôt. À comparer aux versions publiées sur
   [leafletjs.com](https://leafletjs.com) lors des audits, en même temps que les autres dépendances.
 
-**Mémoire** : avec ~4,8 millions de lieux (depuis le lot Amériques ; ~4 millions au lot Asie), le serveur occupe ~3 Go une fois chargé (**2,11 Go en régime stable quand l'index de
+**Mémoire** : avec ~4,9 millions de lieux (4,8 avant la publication des lieux sans code postal du 21/09/2026 ; ~4 millions au lot Asie), le serveur occupe ~3 Go une fois chargé (**2,11 Go en régime stable quand l'index de
 recherche sur disque est utilisé**, mesuré le 21/09/2026 toutes les 5 s pendant trois minutes, 2,35 Go au pic pendant
 le chargement du moteur — la valeur de ~1,8 Go qui figurait ici datait d'avant la croissance des données et le fil de
 l'export ; voir plus bas) ; `npm start` passe `--max-old-space-size=8192` à Node. Prévoir au
@@ -3734,6 +3740,79 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
 > chapitre « Ferries », lui, commence plus bas, là où les liaisons par région sont décrites.
 
 > Les passes d'audit sont listées de la plus récente à la plus ancienne. Les passes 4, 5 et 6 n'ont jamais eu de section ici : elles manquent au README, pas au dépôt (17e audit du 20/09/2026).
+
+### Le code postal devient facultatif : 106 327 villes réelles rendues au site (21 septembre 2026)
+
+**Demande de l'utilisateur, mot pour mot :** « les codes postaux sont optionnels (aide pour retrouver sa ville), il
+ne faut pas de ville écartée ». Le dépôt faisait l'inverse depuis son premier lot de pays : un lieu sans code postal
+était **jeté**, au motif qu'« on ne peut pas le désambiguïser à l'affichage ». C'était mettre une aide à la saisie
+au-dessus de l'existence du lieu.
+
+**Ce que ça coûtait, mesuré.** **106 327 lieux réels** manquaient — 2,2 % du monde publié, mais très inégalement
+répartis. Deux mécanismes distincts :
+
+- **Le pipeline postal** (`build-country-communes.js` et cinq autres) écartait tout lieu sans point postal GeoNames
+  à moins de 15 km. Perdus : **Bengaluru (8 495 492 habitants)**, Virār (1 222 390), Tiruppur (963 173), Sevastopol
+  (547 820), Rāmgundam (452 261), Simferopol (336 460), Iligan City (312 323), Djelfa (265 833), Mymensingh
+  (225 126)… L'Inde en perdait 10 672, la Russie 15 497, le Mexique 6 601, l'Indonésie 6 185, les États-Unis 5 810,
+  l'Irlande **4 812 sur 11 993** (40 % du pays).
+- **Les reconstructions par nom**, pour les pays sans fichier postal GeoNames, ne publiaient QUE les lieux dont le
+  nom figurait dans une liste de codes tierce — et un seul par groupe d'homonymes. La **Bosnie-Herzégovine**
+  publiait **374 lieux sur 21 336** (98 % du pays manquant), le **Monténégro 94 sur 3 984**, le **Kosovo 40 sur
+  2 561**, l'**Arménie 458 sur 1 304**, la **Géorgie 2 366 sur 4 147**.
+- Enfin, deux lots africains écartaient les lieux sans DIVISION ADMINISTRATIVE, « comme le pipeline standard écarte
+  les communes sans code postal » — Togo 3 441, Guinée-Bissau 3 182, Mali 1 156 — alors que le lot d'Afrique
+  orientale et australe, lui, les publiait déjà avec l'étiquette du pays seul.
+
+**Nouacchott, capitale de la Mauritanie, 1 184 530 habitants, n'était pas sur le site.**
+
+**Ce qui change.** Le champ « code postal » peut être VIDE. Le lieu est publié avec sa région (nom de division
+GeoNames), sans code. Rien n'est inventé : pas de code approché, pas de code de la ville voisine. La recherche par
+code postal fonctionne comme avant pour les lieux qui en ont un ; un code vide n'entre pas dans l'index (il ne
+correspondrait à aucune saisie), et l'interface n'affiche alors pas de pastille. **97 728 des 106 602 lieux
+nouvellement publiés n'ont aucun code** ; les 8 874 autres en ont reçu un du même coup, les générateurs ayant été
+relancés.
+
+**Effet de bord évité.** La clé de dédoublonnage des suggestions est « pays | nom normalisé | code postal ». Avec
+106 000 lieux à code vide, deux homonymes sans code se seraient masqués l'un l'autre : +20 000 lieux introuvables.
+La clé retombe donc sur la COORDONNÉE quand il n'y a pas de code — elle ne collisionne jamais entre deux lieux
+différents, et reste identique pour un même lieu trouvé par son nom, son code ou un alias. Résultat mesuré : la part
+de lieux masqués par un homonyme **baisse**, de 13,2 % à 13,0 %.
+
+**Sept fiches fausses démasquées.** Le filtre postal écartait par accident des fiches GeoNames aux coordonnées
+manifestement erronées — aucune n'avait de point postal à moins de 15 km, forcément. Le contrôle « lieu isolé de son
+pays » de `tests/data.test.js` les a toutes signalées dès leur première publication : Zeelandia rangée aux Pays-Bas
+mais située à Saint-Eustache (6 841 km), Sasovo en Ukraine mais à Riazan, Agbatopé au Togo mais à la longitude du
+Cameroun, Naam et Faraksika au Soudan mais au sud de la frontière de 2011, Figuiratomo en Éthiopie mais au Mali, et
+Inarizako au Japon mais à la longitude 30,97 au lieu de 130,97 — dans le delta du Nil. Toutes écartées à la source.
+À l'inverse, trois territoires réellement isolés apparaissent pour la première fois et rejoignent la liste des
+exceptions : l'île Lord Howe (464 habitants, 570 km au large de la Nouvelle-Galles du Sud), les îles Auckland et
+l'île Socorro. Et deux exceptions deviennent inutiles : Tindouf et Chegga ne sont plus seuls dans leur désert, leurs
+voisins ayant été publiés.
+
+**Générateurs redevenus exécutables.** Deux d'entre eux ne pouvaient plus tourner, faute d'une source non commitée
+(`scripts/postal/XX_postal.txt` pour une trentaine de pays européens, `scripts/ba-postal-wiki.json` pour la Bosnie) :
+la correction leur serait restée inaccessible. Ils relisent désormais, dans ce cas, les codes DÉJÀ PUBLIÉS et les
+rattachent par coordonnée puis par nom à moins de 5 km — ce qui reproduit exactement la colonne « code » de l'état
+publié et rend le fichier reproductible. Les lieux absents du fichier publié, eux, n'avaient jamais eu de code : ils
+sortent avec un code vide, ce qui est justement l'objet de la correction.
+
+**Ce qui N'EST PAS concerné, et pourquoi.** La France publie la liste officielle des communes (IGN / geo.api.gouv.fr)
+et non les 115 000 lieux habités GeoNames : arrondissements, hameaux et lieux-dits n'en font pas partie — c'est un
+choix de source, pas un filtre de code. Sept pays du Levant (Égypte, Israël, Jordanie, Liban, Libye, Palestine,
+Syrie) appliquent un seuil de population assumé (500 ou 1 000 habitants). La Géorgie exige un nom en écriture
+géorgienne. Ces trois exclusions restent, et un test le dit explicitement plutôt que de le sous-entendre.
+
+**Ce que la correction a changé, mesuré sur l'état final.** 4 801 562 → **4 907 889 lieux** ; 1 718 520 →
+**1 759 644 noms alternatifs** (+41 128, les nouveaux lieux ayant reçu les leurs). 275 lignes disparaissent : 220
+sont le même lieu à une coordonnée affinée par une version plus récente du dump, 55 sont des fiches que GeoNames a
+retirées depuis la dernière génération, toutes sans population. Suite complète : **275 tests, aucun échec**, dont un
+contrôle nouveau qui relit les dumps GeoNames et vérifie qu'aucun lieu éligible n'est resté dehors (prouvé par
+mutation : remettre l'ancien filtre le fait échouer). Outil de comparaison de versions : **69 tirages changés sur
+380**, tous expliqués par les lieux ajoutés — 55 sont des itinéraires qui passent par l'un d'eux, 14 sont un plafond
+« hors de portée » qui bouge de quelques kilomètres (Bamako 263 → 262 km, Kayes 251 → 267 km) parce qu'il existe
+maintenant des lieux plus loin. **0 trajet direct changé sur 1 582**, **0 plafond d'hébergement sur 3 585**, et les
+**55 contre-épreuves « hors de portée » passent des deux côtés**.
 
 ### Vingtième passe d'audit (21 septembre 2026)
 
@@ -6469,7 +6548,7 @@ haut — éviter l'ambiguïté GBP/Guernesey-Jersey).
 - Codes postaux arméniens (absents de GeoNames pour ce pays, voir "Pays couverts") : liste officielle
   des 775 bureaux de poste d'[Haypost](https://www.haypost.am), la poste nationale arménienne
   elle-même — source plus directe que yell.ge/postanskibroj ci-dessus, rapprochée par nom des communes
-  GeoNames (`scripts/build-am-communes.js`, 458 communes retenues).
+  GeoNames (`scripts/build-am-communes.js`, 1 304 communes retenues, 458 avec un code postal).
 - Codes postaux tunisiens (absents de GeoNames pour ce pays, voir "Pays couverts") : jeu tiers
   [mn-youssef/state-municipality-tunisia](https://github.com/mn-youssef/state-municipality-tunisia)
   (4 788 localités AVEC coordonnées, 24 gouvernorats) — PAS une source officielle et AUCUNE licence

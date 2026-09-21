@@ -24833,3 +24833,44 @@ ce;Мураванка;Murovanka
 zh;穆拉万卡;Murovanka
 fa;موراوانکا;Murovanka
 rn;Петровка;Petrovka
+be;Малая Вулька;Malaya Vul’ka
+ru;Vul’ka Malaya;Malaya Vul’ka
+ru;Вулька Малая;Malaya Vul’ka
+ru;Матушёво;Matushëvo
+en;Lisna;Lisno
+ru;Лисно;Lisno
+be;Хойна;Khoyno
+ru;Хойно;Khoyno
+be;Каменны Лог;Kamyenny Loh
+ru;Семиховичи;Semekhovichi
+be;Syemyakhovichy;Semekhovichi
+ru;Семеховичи;Semekhovichi
+be;Семяховічы;Semekhovichi
+be;Невель;Nevel’
+be;Zapur”ye;Zapur’ye
+be;Запур’е;Zapur’ye
+ru;Мехач;Mekhach
+ru;Новое Залядье;Novoye Zalyad’ye
+ru;Мариница;Marinitsa
+ru;Межно;Mezhno
+be;Катлоўка;Katlowka
+ru;Котловка;Katlowka
+uk;Котлівка;Katlowka
+ru;Мидятлы;Midyatly
+ru;Мерлишки;Merlishki
+ru;Малынишки;Malynishki
+ru;Новосяды Первые;Novosyady Pervyye
+ru;Бруд;Brud
+ru;Григи Доловые;Grigi Dolovyye
+ru;Марвчанка;Marvchanka
+ru;Побень;Poben’
+ru;Муравьёвка;Murav’yëvka
+ru;Обманка;Obmanka
+ru;Беняны;Benyany
+ru;Ганево;Ganevo
+ru;Мыленки;Mylenki
+ru;Денисенки;Denisenki
+ru;Кобылинцы;Kobylnitsy
+ru;Страдное;Stradnoye
+ru;Малашкова;Malashkova
+ru;Волесы;Volesy

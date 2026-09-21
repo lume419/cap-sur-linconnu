@@ -1976,6 +1976,10 @@
 0;21.7201,14.3063;TD-02;Wadi Fira;Ababot
 0;22.2833,12.3667;TD-25;Sila;Aaba
 0;22.5610,12.0685;TD-25;Sila;Rumalia
+0;22.4398,14.3632;TD;;Kulbus
+0;17.4000,21.8333;TD;;Ūzū
+0;18.7333,21.1333;TD;;Ūzī
+0;19.2167,21.4000;TD;;Ūrī
 0;15.2885,9.9050;TD-16;Mayo-Kebbi Est;Zozi
 0;15.2678,9.7860;TD-16;Mayo-Kebbi Est;Zouzi
 0;17.1078,11.6630;TD-18;Hadjer-Lamis;Zourougouldji

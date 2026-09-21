@@ -1252,7 +1252,7 @@
 0;-8.4056,37.7329;7670-503;Ourique;Santa Luzia
 0;-8.0174,37.1560;8100-334;Loulé;Santa Luzia
 1455;-7.6620,37.1022;8800-532;Tavira;Santa Luzia
-5490;-16.9000,32.6500;9000-000;Funchal;Santa Luzia
+5490;-16.9054,32.6568;9000-000;Funchal;Santa Luzia
 0;-8.2918,39.0006;2100-376;Coruche;Santa Justa
 0;-7.8497,38.7485;7040-301;Arraiolos;Santa Justa
 0;-7.7181,37.4281;8970-218;Alcoutim;Santa Justa
@@ -15921,7 +15921,7 @@
 0;-28.6333,38.5500;9900-471;Horta;Santo Amaro
 0;-28.1686,38.4547;9940-152;São Roque do Pico;Santo Amaro
 0;-25.5833,37.7500;9560-100;Lagoa;Santo Amaro
-0;-27.0833,38.7500;9760-577;Vila da Praia da Vitória;Santa Rita
+0;-27.0696,38.7568;9760-577;Vila da Praia da Vitória;Santa Rita
 0;-28.3744,38.5458;9940-205;São Roque do Pico;Santana
 422;-28.3967,38.5466;9940-101;São Roque do Pico;Santa Luzia
 1725;-31.1299,39.4578;9970-000;Santa Cruz das Flores;Santa Cruz das Flores
@@ -16025,9 +16025,9 @@
 0;-27.1500,38.7667;9760-746;Vila da Praia da Vitória;Pico da Rocha
 0;-25.6124,37.8008;9600-049;Ribeira Grande;Pico da Pedra
 0;-27.1167,38.7500;9760-251;Vila da Praia da Vitória;Picão
-0;-27.3000,38.6667;9700-501;Angra do Heroísmo;Pesqueiro
+0;-27.2955,38.6636;9700-501;Angra do Heroísmo;Pesqueiro
 0;-28.6184,38.5748;9900-421;Horta;Pedro Miguel
-0;-25.1500,37.8000;9630-159;Nordeste;Pedreira
+0;-25.1439,37.8063;9630-159;Nordeste;Pedreira
 0;-28.0000,39.0500;9880-019;Santa Cruz da Graciosa;Pedras Brancas
 0;-28.2667,38.7167;9800-205;Velas;Pedragulho
 0;-25.1500,36.9833;9580-320;Vila do Porto;Paul de Cima
@@ -16058,30 +16058,30 @@
 535;-25.2833,37.8500;9630-041;Nordeste;Achadinha
 374;-28.1000,38.6333;9800-021;Velas;Manadas
 0;-27.1167,38.7667;9760-251;Vila da Praia da Vitória;Malícias
-0;-25.0833,36.9333;9580-220;Vila do Porto;Malbusca
+0;-25.0708,36.9451;9580-220;Vila do Porto;Malbusca
 1900;-25.3898,37.8325;9625-320;Ribeira Grande;Maia
 0;-25.0140,36.9403;9580-224;Vila do Porto;Maía
 0;-25.1500,36.9500;9580-000;Vila do Porto;Mãe de Deus
 6136;-28.5266,38.5364;9950-000;Madalena;Madalena
-0;-28.0000,39.0167;9880-019;Santa Cruz da Graciosa;Luz
+0;-27.9906,39.0214;9880-019;Santa Cruz da Graciosa;Luz
 0;-25.0667,36.9500;9580-202;Vila do Porto;Loural
 0;-25.3667,37.8167;9625-101;Ribeira Grande;Lombinha da Maia
 0;-25.0833,36.9500;9580-202;Vila do Porto;Lombinha
 0;-28.7416,38.5354;9900-323;Horta;Lombega
 0;-25.0500,36.9667;9580-205;Vila do Porto;Lombas
-0;-25.2333,37.7333;9650-310;Povoação;Lomba dos Pós
+0;-25.2362,37.7486;9650-310;Povoação;Lomba dos Pós
 0;-25.1333,37.8000;9630-159;Nordeste;Lomba do Moio
 0;-25.2667,37.7500;9650-330;Povoação;Lomba do Cavaleiro
 0;-25.3167,37.8500;9625-021;Ribeira Grande;Lomba de São Pedro
 0;-25.3167,37.8500;9625-021;Ribeira Grande;Lomba de Baixo
-0;-25.1500,37.7500;9650-011;Povoação;Lomba das Fagundes
+0;-25.1566,37.7620;9650-011;Povoação;Lomba das Fagundes
 0;-25.4667,37.7667;9600-501;Ribeira Grande;Lombadas
 0;-25.1500,37.8000;9630-159;Nordeste;Lomba da Pedreira
 0;-25.3500,37.8333;9625-060;Ribeira Grande;Lomba da Maia
 0;-25.8167,37.8167;9555-011;Ponta Delgada;Lomba da Cruz
 0;-28.6167,38.5500;9900-432;Horta;Lomba
 0;-25.6073,37.7641;9500-601;Ponta Delgada;Livramento
-0;-28.0000,39.0167;9880-019;Santa Cruz da Graciosa;Limeira
+0;-28.0021,39.0272;9880-019;Santa Cruz da Graciosa;Limeira
 0;-25.2000,37.8500;9630-220;Nordeste;Laseira
 0;-25.1000,36.9333;9580-020;Vila do Porto;Laracha
 0;-25.0333,36.9500;9580-224;Vila do Porto;Lapa de Cima
@@ -16141,7 +16141,7 @@
 0;-28.7000,38.5333;9900-331;Horta;Ferrobim do Norte
 2009;-25.6423,37.8249;9545-227;Ponta Delgada;Fenais da Luz
 1131;-25.3241,37.8513;9625-011;Ribeira Grande;Fenais da Ajuda
-0;-27.9667,39.0500;9880-392;Santa Cruz da Graciosa;Fenais
+0;-27.9642,39.0437;9880-392;Santa Cruz da Graciosa;Fenais
 0;-28.0000,39.0500;9880-019;Santa Cruz da Graciosa;Feiteira
 0;-28.0718,38.4066;9930-021;Lajes do Pico;Feiteira
 0;-25.6295,37.8180;9545-211;Ponta Delgada;Farroupo
@@ -16152,8 +16152,8 @@
 0;-27.9667,38.6333;9850-220;Calheta;Fajã dos Cúberes
 0;-27.9167,38.5667;9850-210;Calheta;Fajã dos Bodes
 90;-28.0533,38.6760;9800-103;Velas;Fajã do Ouvidor
-0;-25.1667,37.7333;9650-101;Povoação;Fajã do Calhau
-0;-25.1500,37.8000;9630-159;Nordeste;Fajã do Araújo
+0;-25.1688,37.7436;9650-101;Povoação;Fajã do Calhau
+0;-25.1437,37.7966;9630-159;Nordeste;Fajã do Araújo
 7;-27.8667,38.5500;9875-040;Calheta;Fajã de São João
 0;-28.1667,38.6667;9800-101;Velas;Fajã de Santo Amaro
 0;-25.6667,37.7667;9500-026;Ponta Delgada;Fajã de Cima
@@ -16181,7 +16181,7 @@
 0;-28.0000,39.0500;9880-019;Santa Cruz da Graciosa;Cruz do Barro Branco
 0;-25.0667,36.9667;9580-105;Vila do Porto;Cruz de São Mor
 0;-27.3167,38.6667;9700-321;Angra do Heroísmo;Cruz das Duas Ribeiras
-0;-27.8167,38.5333;9875-040;Calheta;Cruzal
+0;-27.8142,38.5416;9875-040;Calheta;Cruzal
 0;-28.5288,38.5138;9950-221;Madalena;Criação Velha
 0;-25.3333,37.8333;9625-060;Ribeira Grande;Criação
 0;-28.7167,38.6333;9900-341;Horta;Covões
@@ -16207,7 +16207,7 @@
 0;-28.7167,38.6333;9900-341;Horta;Cascalho de Cima
 0;-28.7167,38.6333;9900-341;Horta;Cascalho de Baixo
 0;-27.0833,38.7167;9760-000;Vila da Praia da Vitória;Casa da Ribeira
-0;-27.9667,39.0167;9880-019;Santa Cruz da Graciosa;Carapacho
+0;-27.9624,39.0122;9880-019;Santa Cruz da Graciosa;Carapacho
 0;-28.7966,38.5821;9900-301;Horta;Capelo
 0;-25.6833,37.8333;9545-100;Ponta Delgada;Capelas
 0;-28.1918,38.4607;9940-015;São Roque do Pico;Canto da Areia
@@ -16227,7 +16227,7 @@
 0;-28.6167,38.5500;9900-432;Horta;Caminho do Meio
 0;-28.1500,38.6667;9800-101;Velas;Caminho de Cima
 0;-28.2026,38.4017;9930-303;Lajes do Pico;Caminho de Cima
-0;-25.5000,37.7000;9560-201;Lagoa;Caloura
+0;-25.4970,37.7144;9560-201;Lagoa;Caloura
 0;-28.0802,38.4030;9930-021;Lajes do Pico;Calheta de Nesquim
 3773;-28.0179,38.6019;9850-020;Calheta;Calheta
 0;-25.4833,37.8000;9600-501;Ribeira Grande;Caldeiras
@@ -16270,7 +16270,7 @@
 0;-28.2378,38.4899;9940-012;São Roque do Pico;Baía de Canas
 0;-25.0667,36.9667;9580-105;Vila do Porto;Azenha de Cima
 0;-25.0500,36.9667;9580-205;Vila do Porto;Azenha de Baixo
-0;-25.5833,37.7333;9560-100;Lagoa;Atalhada
+0;-25.5938,37.7459;9560-100;Lagoa;Atalhada
 0;-28.6833,38.5333;9900-331;Horta;Atalaia
 0;-25.1833,37.8500;9630-081;Nordeste;Assamada
 0;-27.2833,38.7833;9700-301;Angra do Heroísmo;Arrochela

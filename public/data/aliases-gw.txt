@@ -75,3 +75,13 @@ hi;बिसाउ;Bissau
 uz;Bisau;Bissau
 vep;Bisau;Bissau
 fa;الاباتو;Alabato
+fa;یوکابا;Uacaba
+ur;یوکابا;Uacaba
+ur;جبادا;Jabadá
+ru;Фулакунда;Fulacunda
+ko;풀라쿤다;Fulacunda
+zh;富拉孔達;Fulacunda
+zh-Hans;富拉孔达;Fulacunda
+ar;فولاكوندا;Fulacunda
+ja;フラクンダ;Fulacunda
+ur;فولاکوندا;Fulacunda

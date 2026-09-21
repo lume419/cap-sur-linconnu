@@ -859,3 +859,5 @@ pa;ਅਲ-ਫੁਲਾਹ;Al-Fulah
 ps;الفولة;Al-Fulah
 tg;Аль-Фула;Al-Fulah
 tt;Аль-Фула;Al-Fulah
+en;Mukjar;Mugar
+th;เมืองมุกจาร์ แคว้นดาร์ฟูร์;Mugar

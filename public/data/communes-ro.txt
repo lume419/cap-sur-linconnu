@@ -3205,6 +3205,7 @@
 336;24.2659,46.4535;545108;Mureş;Sfântu Gheorghe
 50080;25.7833,45.8667;520003;Covasna;Sfântu Gheorghe
 0;26.5333,45.1667;127610;Buzău;Sfântu Gheorghe
+979;29.5929,44.8960;;Tulcea County;Sfântu Gheorghe
 2154;26.8333,44.6500;927215;Ialomiţa;Sfântu Gheorghe
 475;25.5968,44.4350;087066;Giurgiu;Sfântu Gheorghe
 0;25.3667,44.2333;147151;Teleorman;Sfântu Gheorghe
@@ -9043,6 +9044,7 @@
 0;24.8333,46.6000;547626;Mureş;Grâuşorul
 0;25.8833,47.0500;617230;Neamţ;Grinţieşu Mic
 2573;25.8667,47.0500;617230;Neamţ;Grinţieş
+0;29.6000,44.8833;;Tulcea County;Grindu Vădanei
 1561;28.2167,45.4000;827085;Tulcea;Grindu
 2412;26.9167,44.7667;927140;Ialomiţa;Grindu
 570;23.9979,46.5007;547154;Mureş;Grindeni
@@ -10382,6 +10384,7 @@
 509;25.3091,46.1402;507042;Braşov;Drăușeni
 573;23.7432,45.9383;517769;Alba;Drașov
 1156;24.2789,44.4362;237186;Olt;Dranovățu
+0;29.6000,44.8833;;Tulcea County;Dranov
 1296;23.8468,44.0552;207250;Dolj;Drănic
 0;26.5500,47.0833;617375;Neamţ;Drăneşti
 0;22.3167,45.0333;327105;Caraş-Severin;Drajova
@@ -11084,6 +11087,7 @@
 986;27.1773,44.2223;917117;Călăraşi;Cunești
 197;24.5123,46.2728;547057;Mureş;Cund
 222;26.2742,47.5633;727046;Suceava;Cumpărătura
+0;24.6000,45.4500;;Arges;Cumpăna
 9731;28.5667,44.1167;907105;Constanţa;Cumpăna
 410;24.4326,46.6396;547143;Mureş;Culpiu
 91;22.9521,46.3808;517831;Alba;Culdești

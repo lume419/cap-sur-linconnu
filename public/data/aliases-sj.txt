@@ -72,3 +72,9 @@ he;נו אלסון;Ny-Ålesund
 ja;ニーオーレスン;Ny-Ålesund
 ko;뉘올레순;Ny-Ålesund
 ro;Ny-Aalesund;Ny-Ålesund
+no;Isbjørnhamna;Hornsund
+lv;Hūrnsunna;Hornsund
+lv;Polijas Stanislava Sedlecka Hūrnsunnas polārstacija;Hornsund
+pl;Polska Stacja Polarna Hornsund;Hornsund
+ru;Хорнсунн;Hornsund
+bg;Хонсун;Hornsund

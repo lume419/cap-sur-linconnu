@@ -1102,3 +1102,4 @@ hy;Ամբատո;Ambato
 ka;ამბატო;Ambato
 ur;امباتو، ایکواڈور;Ambato
 fa;الامور;Alamor
+es;Baños;Baños de San Vicente

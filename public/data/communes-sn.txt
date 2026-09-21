@@ -8880,6 +8880,7 @@
 0;-16.5936,13.1672;SN-12;Ziguinchor;Fufo
 0;-16.1372,13.6014;SN-10;Kaolack;Keur El Hadji Malik Gaye
 0;-16.1235,13.6127;SN-10;Kaolack;Darou Salam Mourid
+0;-16.1392,13.6169;SN;;Jongsharr
 0;-16.2578,13.1603;SN-12;Ziguinchor;Oupeut
 0;-16.1703,13.1563;SN-12;Ziguinchor;Diouonkène
 0;-16.1600,13.1640;SN-12;Ziguinchor;Sioual

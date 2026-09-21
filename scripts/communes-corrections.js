@@ -121,7 +121,17 @@ const WRONG_COUNTRY = {
   '3496786':  ['DO', 'María Bonita', 'HT', 'absent', 'Nord-Est haïtien, mêmes coordonnées que Salnave (HT) ; fiche DO « La Romana »'],
   '3681019':  ['CO', 'Hato Buenavista', 'VE', 'absent', 'État de Táchira ; fiche CO « Casanare »'],
   '3766574':  ['CO', 'Puerto Elvira', 'PE', 'doublon', 'Puerto Elvira (communes-pe.txt, 0,2 km), Loreto'],
-  '8182275':  ['CO', 'La Esmeralda', 'VE', 'doublon', 'La Esmeralda (communes-ve.txt, 0,2 km), Amazonas ; fiche CO « Valle del Cauca »']
+  '8182275':  ['CO', 'La Esmeralda', 'VE', 'doublon', 'La Esmeralda (communes-ve.txt, 0,2 km), Amazonas ; fiche CO « Valle del Cauca »'],
+  // 21/09/2026 — SEPT fiches trouvées en rendant le code postal facultatif. Elles n'avaient jamais été vues parce
+  // qu'aucune n'avait de point postal à moins de 15 km : le filtre postal les écartait par accident. Le contrôle
+  // « lieu isolé de son pays » de tests/data.test.js les a toutes signalées dès leur première publication.
+  '11648179': ['NL', 'Zeelandia', 'BQ', 'absent', 'Saint-Eustache (Pays-Bas caribéens), 6 841 km du reste des Pays-Bas ; fiche NL sans division'],
+  '694774':   ['UA', 'Sasovo', 'RU', 'absent', 'Sassovo, oblast de Riazan (54,33 / 41,92), 489 km de la frontière ukrainienne'],
+  '2368407':  ['TG', 'Agbatopé', 'CM', 'absent', 'longitude 11,27 : Cameroun. Le Togo ne dépasse pas 1,8° Est'],
+  '7779239':  ['SD', 'Naam', 'SS', 'absent', 'latitude 5,88 : Soudan du Sud (frontière de 2011 non reprise par la fiche)'],
+  '7828712':  ['SD', 'Faraksika', 'SS', 'absent', 'latitude 5,02 : Soudan du Sud, même cas que Naam'],
+  '11072304': ['ET', 'Figuiratomo', 'ML', 'absent', 'longitude −8,36 : Mali. L\'Éthiopie commence à 33° Est'],
+  '10179428': ['JP', 'Inarizako', 'EG', 'absent', 'longitude 30,97 au lieu de 130,97 (le « 1 » manque) : la fiche tombe dans le delta du Nil, alors qu\'elle se dit de Kagoshima']
 };
 
 function isWrongCountry(country, geonameid){

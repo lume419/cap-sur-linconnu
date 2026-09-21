@@ -2485,3 +2485,211 @@ ta;கிரிஷ்டியன்சான்ட்;Kristiansand
 th;คริสเตียนซาน;Kristiansand
 ru;Бьяркёй;Bjarkøy
 sv;Bjarkøy kommun;Bjarkøy
+no;Kjæs;Keisi
+en;Veines;Veidnes
+ru;Вейнес;Veidnes
+no;Veidneset;Veidnes
+no;Ulvsvåg;Indre Ulvsvåg
+no;Torhop;Gohppi
+ru;Сванвик;Svanvik
+ru;Сверхольт;Sværholt
+no;Salttjern;Store Salttjern
+no;Stallogargo;Stállogárggu
+no;Birkestrand;Skuvgi
+ru;Скаллэльв;Skallelv
+ru;Сирбма;Sirma
+en;Sær'vegied'di;Searvegieddi
+ru;Серввегиедди;Searvegieddi
+no;Fellesjorda;Searvegieddi
+en;Polmak;Buolbmát
+ru;Полмак;Buolbmát
+no;Polmak;Buolbmát
+en;Olderfjord;Leaibevuotna
+ru;Олдерфьорд;Leaibevuotna
+no;Olderfjord;Leaibevuotna
+no;Nyhavn;Nyhamn
+no;Neverfjord;Náivuotna
+en;Litle Molvik;Lille-Molvik
+ru;Литле-Мульвик;Lille-Molvik
+en;Leirpollen;Leirpollskogen
+ru;Лейрполлен;Leirpollskogen
+no;Teltneset;Lavvonjárga
+et;Kvalsundi vald;Kvalsund
+nds;Kommun Kvalsund;Kvalsund
+ru;Квалсунн;Kvalsund
+sv;Kvalsunds kommun;Kvalsund
+zh;克瓦爾松;Kvalsund
+ru;Крампенес;Krampenes
+no;Kokelv;Goavkejohka
+no;Klubbvik;Klubbvika
+ru;Хистранн;Kistrand
+is;Guovdageaidnu;Kautokeino
+fo;Kautokeino kommuna;Kautokeino
+nds;Kommun Kautokeino;Kautokeino
+fi;Koutokeino;Kautokeino
+kl;Guovdageaidnu;Kautokeino
+ja;カウトケイノ;Kautokeino
+sl;Guovdageaidnu;Kautokeino
+sw;Guovdageaidnu;Kautokeino
+kv;Гуовдагеайдну;Kautokeino
+et;Guovdageaidnu vald;Kautokeino
+pl;Guovdageaidnu Kautokeino;Kautokeino
+ru;Кёутукейну;Kautokeino
+sv;Kautokeino kommun;Kautokeino
+zh;凱于圖凱努;Kautokeino
+en;Indre Brenna;Breannjá
+ru;Индре-Бренна;Breannjá
+no;Brenna;Breannjá
+no;Indre Brenna;Breannjá
+en;Hamningberg;Havningberg
+ru;Хамнингберг;Havningberg
+ru;Хамна;Hamna
+ru;Халсен;Halsen
+en;Trollfjorden;Gulgofjorden
+ru;Тролль-Фьорд;Gulgofjorden
+no;Trollfjorden;Gulgofjorden
+en;Gandvika;Gandvik
+ru;Ганвик;Gandvik
+ru;Гамвик;Gamvik
+ru;Бурстад;Burstad
+no;Bustadhamn;Burstad
+ru;Эустертана;Austertana
+en;Aiddejavrre;Aidejavre
+ru;Айддеяврре;Aidejavre
+ru;Гренсе Якобсельв;Grense Jakobselv
+el;Γκρένσε Γιάκομπσελβ;Grense Jakobselv
+uk;Гренсе Якобсельв;Grense Jakobselv
+nn;Vik i Flatanger;Vik
+no;Veidholmen;Veiholmen
+no;Vassvik;Vassjorda
+no;Opeim;Oppheim
+no;Ophejmsbygden;Oppheim
+no;Opheim;Oppheim
+no;Oppheimsbygde;Oppheim
+no;Ulvika;Ulbegiedde
+nn;Todalen i Surnadal;Todalsøra
+da;Todalen i Surnadal;Todalsøra
+no;Tevedalen;Teveldalen
+nb;Storforsheia;Storforshei
+no;Stjern;Skjern
+no;Skardberget, yt;Skarberget
+no;Raatikkala;Rotberget
+nn;Råket på Smøla;Råket
+no;Norskogen;Nerskogen
+nb;Mjølfjellet;Mjølfjell
+da;Mjølfjellet;Mjølfjell
+no;Liagardann;Liagardan
+no;Liagardane;Liagardan
+no;Korsnes;Hierenjárgga
+no;Honningsvåg Indre;Indre Honningsvågen
+no;Hitterdal;Hitterdalen
+ru;Хемседаль;Hemsedal
+no;Haukeligrend;Haukeli
+no;Håkavika;Håkavik
+nb;Græsli;Gressli
+da;Græsli;Gressli
+sv;Gol kommun;Gol
+no;Gløtvorda;Gløtvola
+ru;Гейло;Geilo
+uk;Ейлу;Geilo
+ur;جائلو;Geilo
+zh;耶盧;Geilo
+ja;ヤイロ;Geilo
+be;Гейла;Geilo
+bg;Йейлу;Geilo
+ko;예일로;Geilo
+he;גיילו;Geilo
+no;Gardnos;Garnås
+no;Galdbygdi;Galdbygde
+nn;Fagerhaug;Fagerhaugen
+sv;Fagerhaug;Fagerhaugen
+nb;Fagerhaug;Fagerhaugen
+ms;Fagerhaug;Fagerhaugen
+en;Fagerhaug;Fagerhaugen
+fr;Fagerhaug;Fagerhaugen
+ur;فاگیرہوگ;Fagerhaugen
+da;Fagerhaug;Fagerhaugen
+ca;Fagerhaug;Fagerhaugen
+nl;Fagerhaug;Fagerhaugen
+no;Eitråga;Eiteråga
+no;Hamn;Dyrøyhamn
+no;Aasgardann;Åsgardan
+no;Åsgardane;Åsgardan
+sgs;Uolis;Ål
+et;Åli vald;Ål
+ja;オール;Ål
+nds;Kommun Ål;Ål
+ru;Ол;Ål
+sv;Åls kommun;Ål
+zh;奧爾;Ål
+no;Berset;Bergset
+nds;Kommun Engerdal;Engerdal
+ru;Энгердал;Engerdal
+sv;Engerdals kommun;Engerdal
+zh;恩厄達爾;Engerdal
+sgs;Huolės;Hol
+nds;Kommun Hol;Hol
+ru;Хуль;Hol
+sv;Hols kommun;Hol
+zh;霍爾;Hol
+ko;홈멜스퇴;Hommelstø
+nb;Ekkerøy;Ekkerøya
+da;Ekkerøy;Ekkerøya
+no;Åkersstrømmen;Åkerstrømmen
+no;Åkrestrømmen;Åkerstrømmen
+no;Buglebjørk;Buglebjørkstølen
+no;Volelie;Volelii
+no;Øvre Foss;Fossan
+no;Buvasstølan;Buvasstølen
+no;Bjørnalie;Bjørnalia
+no;Sørlie;Nord-Hydalen
+no;Lenningen;Leningan
+no;Lavlia;Lauvlia
+no;Gullbringen;Guldbringen
+no;Rabbkjølgrenda;Rabbkjølen
+no;Runningsgrende;Rudningsgrende
+no;Gjøingslii;Gjøingslie
+no;Lundagrendi;Lundagrende
+no;Døllii;Dølisætran
+no;Levajok;Leavvajohka
+no;Stugguneset;Stuguneset
+no;Sundvika;Sundvik
+no;Byluft;Buoiluokta
+no;Trollholmsund;Činavuohppi
+no;Langnes;Guhkesnjárga
+no;Nord-Goppollen;Nordre Goppollen
+no;Midt-Goppollen;Midtre Goppollen
+no;Reinvik;Reinvika
+no;Hellmobotn;Hellemobotn
+no;Halldalen;Halldalstølen
+no;Skardsrud Sr;Skålsrudstølane
+no;Skålsrudstølan;Skålsrudstølane
+no;Inner-Skarberget;Skardberget,indre
+no;Stefjordbotn;Stefjordbotnen
+no;Grunnvoll;Cohkolahka
+no;Sørfjorden;Slahpa
+no;Eidet;Ájdevuolle
+no;Heggelia;Hægglien
+no;Rånvassbotn;Ranovuobmi
+no;Lanabukta;Laanapukta
+no;Laksjok;Lákšjohka
+no;Engene;Enganne
+no;Skrotnes;Skrøytnes
+nn;Váljohka;Válljohka
+de;Váljohka;Válljohka
+sv;Váljohka;Válljohka
+nb;Váljohka;Válljohka
+ms;Váljohka;Válljohka
+en;Váljohka;Válljohka
+jv;Váljohka;Válljohka
+fr;Váljohka;Válljohka
+da;Váljohka;Válljohka
+nl;Váljohka;Válljohka
+no;Lillebukta;Lillebukt
+no;Ytre Sandvik;Sandvik,yt
+no;Indre Sandvik;Cuobbugieddi
+no;Auskarnes;Avskar
+no;Langskog;Gukkesråtto
+no;Styrnes;Midtre Kjæs
+no;Gilbergsroa;Gilbergroa
+no;Rundskogen;Runnskogen

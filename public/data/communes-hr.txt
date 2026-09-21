@@ -181,6 +181,7 @@
 437;16.0054,46.0273;49221;Krapinsko-Zagorska;Vučak
 82;13.6667,45.2411;52440;Istarska;Vržnaveri
 951;13.6350,45.2244;52440;Istarska;Vrvari
+0;15.3184,43.8050;;Šibenik-Knin;Vrulje
 128;16.6146,45.6859;43240;Bjelovarsko-Bilogorska;Vrtlinska
 353;16.4028,46.2298;42223;Varaždinska;Vrtlinovec
 291;16.1472,43.5278;21222;Splitsko-Dalmatinska;Vrsine
@@ -1688,6 +1689,7 @@
 135;17.5231,45.2444;35420;Brodsko-Posavska;Oštri Vrh
 420;16.3575,46.1900;42220;Varaždinska;Oštrice
 1300;15.2733,45.2247;47300;Karlovačka;Oštarije
+32;16.1706,44.3506;;Zadar;Osredci
 26;14.3933,44.6956;51550;Primorsko-Goranska;Osor
 86;15.2065,45.3926;51326;Primorsko-Goranska;Osojnik
 335;18.0672,42.7108;20236;Dubrovačko-Neretvanska;Osojnik
@@ -4416,6 +4418,7 @@
 2236;15.8167,45.8083;10431;Zagrebačka;Bestovje
 0;15.9000,45.8333;10090;Grad Zagreb;Gornje Vrapče
 0;15.8500,45.8333;10090;Grad Zagreb;Dolje
+0;15.3667,43.7500;;Šibenik-Knin;Lavsa
 607;16.2797,43.5442;21220;Splitsko-Dalmatinska;Plano
 0;17.6978,42.9828;20350;Dubrovačko-Neretvanska;Koloperići
 0;15.7486,45.0700;47240;Karlovačka;Zrilić
@@ -4475,9 +4478,11 @@
 0;15.5058,43.9897;23210;Zadarska;Stabanj
 374;15.4425,43.9925;23210;Zadarska;Sikovo
 0;15.3531,43.9694;23271;Zadarska;Cimera
+0;15.2772,43.8306;;Šibenik-Knin;Kravljačica
 0;15.2592,43.8397;23281;Zadarska;Lučica
 0;15.3286,43.8650;23212;Zadarska;Pristanišće
 0;15.2772,43.8870;23212;Zadarska;Bizikovica
+0;15.4442,43.7442;;Šibenik-Knin;Koromačna
 0;15.4783,43.7278;22243;Šibensko-Kninska;Smokvica
 0;15.2278,43.8736;23281;Zadarska;Vala
 162;13.9283,44.9911;52207;Istarska;Divšići
@@ -6095,6 +6100,7 @@
 0;15.5947,44.1564;23312;Zadarska;Kokić
 0;15.3867,44.1244;23222;Zadarska;Simurina
 0;15.4328,44.1103;23222;Zadarska;Vlašnović
+17;16.2036,44.3375;;Zadar;Dugopolje
 0;15.6847,44.4186;53234;Ličko-Senjska;Piplica
 0;15.6439,44.4250;53234;Ličko-Senjska;Sveta Petka
 0;15.6519,44.4564;53234;Ličko-Senjska;Donja Ploča
@@ -6116,6 +6122,7 @@
 368;15.9669,46.0027;49240;Krapinsko-Zagorska;Hruševec
 145;15.7136,46.0050;49290;Krapinsko-Zagorska;Draše
 294;15.7322,46.1556;49218;Krapinsko-Zagorska;Sopot
+0;15.2892,43.8200;;Šibenik-Knin;Strižnja
 0;15.3683,43.9594;23212;Zadarska;Mali Pašman
 0;15.8447,43.9603;22300;Šibensko-Kninska;Tošići
 0;18.9075,45.0444;32257;Vukovarsko-Srijemska;Spačva
@@ -7193,6 +7200,10 @@
 0;16.6183,43.7542;21233;Splitsko-Dalmatinska;Cvitkovići
 0;16.1300,44.3500;23440;Zadarska;Desnice
 0;16.1492,44.3419;23440;Zadarska;Desnice
+0;16.1569,44.3628;;Zadar;Grbići
+0;16.1639,44.3594;;Zadar;Savići
+0;16.1581,44.3603;;Zadar;Zorići
+0;16.1694,44.3589;;Zadar;Karaula
 8;15.6558,45.0469;47240;Karlovačka;Brezovac
 1;15.6344,45.0422;47240;Karlovačka;Ćuić Brdo
 0;15.6411,45.0600;47240;Karlovačka;Pašići
@@ -7276,7 +7287,10 @@
 0;16.6581,43.8361;21233;Splitsko-Dalmatinska;Ćurkovići
 3;15.7536,45.0319;47240;Karlovačka;Basara
 0;16.5667,43.8853;21236;Splitsko-Dalmatinska;Kovači
+0;16.1814,44.3589;;Zadar;Bokani
+0;16.1867,44.3536;;Zadar;Novakovići
 0;16.5111,43.8825;21236;Splitsko-Dalmatinska;Perkovići
+0;16.1831,44.3517;;Zadar;Pejići
 0;16.1783,44.3178;23440;Zadarska;Zavlaka
 0;16.1878,44.2919;23440;Zadarska;Bursaći
 0;16.1889,44.2775;23440;Zadarska;Babići
@@ -9305,7 +9319,7 @@
 103;16.0500,43.5248;21222;Splitsko-Dalmatinska;Svinca
 7;15.9718,43.5625;22202;Šibensko-Kninska;Oglavci
 203;16.0946,46.3753;42208;Varaždinska;Brezje Dravsko
-1523;16.5603,43.4819;21311;Splitsko-Dalmatinska;Grljevac
+1523;16.5510,43.4870;21311;Splitsko-Dalmatinska;Grljevac
 1270;16.2943,46.3249;42000;Varaždinska;Hrašćica
 461;16.2014,45.7640;10370;Zagrebačka;Jalševec Nartski
 453;16.1940,45.7632;10370;Zagrebačka;Struga Nartska
@@ -9619,9 +9633,9 @@
 737;17.3466,45.8250;33000;Virovitičko-Podravska;Podgorje
 707;16.2715,46.2536;42240;Varaždinska;Črešnjevo
 1092;16.5426,43.4924;21311;Splitsko-Dalmatinska;Podstrana - Miljevac
-1021;16.5464,43.4883;21311;Splitsko-Dalmatinska;Podstrana - Žminjača
-991;16.5565,43.4819;21311;Splitsko-Dalmatinska;Podstrana – Sveti Martin
-807;16.5641,43.4791;21311;Splitsko-Dalmatinska;Podstrana - Grbavac
+1021;16.5390,43.5090;21311;Splitsko-Dalmatinska;Podstrana - Žminjača
+991;16.5700,43.4770;21311;Splitsko-Dalmatinska;Podstrana – Sveti Martin
+807;16.5590,43.4820;21311;Splitsko-Dalmatinska;Podstrana - Grbavac
 687;15.9734,43.6098;22000;Šibensko-Kninska;Primošten Burnji
 682;14.2982,45.3491;51211;Primorsko-Goranska;Bregi
 656;16.4196,45.4412;44000;Sisačko-Moslavačka;Crnac
@@ -9630,7 +9644,7 @@
 645;17.4364,45.8136;33410;Virovitičko-Podravska;Čemernica
 637;18.0565,45.4752;31500;Osječko-Baranjska;Zoljan
 619;15.6191,44.0428;23420;Zadarska;Benkovačko Selo
-629;16.5421,43.5047;21311;Splitsko-Dalmatinska;Podstrana - Strožanac Gornji
+629;16.5460,43.5000;21311;Splitsko-Dalmatinska;Podstrana - Strožanac Gornji
 613;15.8817,46.1408;49000;Krapinsko-Zagorska;Polje Krapinsko
 61;15.4847,45.4325;47250;Karlovačka;Gorica
 611;15.7327,45.8367;10430;Zagrebačka;Samoborski Otok
@@ -11185,6 +11199,7 @@
 16;14.9012,44.5274;53291;Ličko-Senjska;Kolanjski Gajac
 16;17.8284,45.5959;33515;Virovitičko-Podravska;Vojlovica
 8;14.8940,45.3866;51300;Primorsko-Goranska;Leskova Draga
+14;15.3058,43.8105;;Šibenik-Knin;Kornati
 1;15.3719,45.5663;47000;Karlovačka;Donja Stranica
 5;15.3826,45.5672;47000;Karlovačka;Gornja Stranica
 11;15.3902,45.5624;47000;Karlovačka;Gorica Lipnička
@@ -11204,6 +11219,7 @@
 1;17.2819,45.3132;35430;Brodsko-Posavska;Žuberkovac
 7;16.1311,43.0338;21480;Splitsko-Dalmatinska;Borovik
 6;16.7283,43.1292;21465;Splitsko-Dalmatinska;Gromin Dolac
+1;16.4898,42.7500;;Dubrovnik-Neretva;Sušac
 1;14.8774,45.3026;51300;Primorsko-Goranska;Tuk Mrkopaljski
 6;17.0650,45.8622;43270;Bjelovarsko-Bilogorska;Lasovac Brdo
 496;16.1690,46.3715;42208;Varaždinska;Donje Vratno - dio
@@ -11238,6 +11254,7 @@
 1;15.3666,45.5012;47000;Karlovačka;Planina Kunićka
 0;17.4272,45.3705;35400;Brodsko-Posavska;Golobrdac
 0;16.4004,46.2680;42000;Varaždinska;Poduzetnička Zona Jalžabet
+0;17.1459,42.7656;;Dubrovnik-Neretva;Glavat
 0;14.0267,45.4469;52420;Istarska;Kropinjak
 0;13.7699,45.2049;52440;Istarska;Jurići
 0;13.7692,45.2201;52440;Istarska;Rupeni
@@ -11291,6 +11308,7 @@
 0;15.0512,45.4297;51326;Primorsko-Goranska;Međedi
 0;15.1389,45.4429;51326;Primorsko-Goranska;Lesci
 0;15.0044,45.4143;51326;Primorsko-Goranska;Gornji Vukšići
+0;16.2562,42.3926;;Split-Dalmatia;Palagruža
 0;16.5000,43.3205;21400;Splitsko-Dalmatinska;Podhume
 0;16.8931,43.4029;21250;Splitsko-Dalmatinska;Dubci
 0;15.4968,45.7175;10454;Zagrebačka;Vranjak Žumberački
@@ -11308,7 +11326,7 @@
 139;15.7285,45.9352;10291;Zagrebačka;Kraj Gornji Dubravički
 19;16.0134,43.5714;22202;Šibensko-Kninska;Ložnice
 129;16.5778,43.4843;21292;Splitsko-Dalmatinska;Gornja Podstrana
-394;16.5681,43.4762;21311;Splitsko-Dalmatinska;Podstrana - Mutogras
+394;16.5760,43.4700;21311;Splitsko-Dalmatinska;Podstrana - Mutogras
 2130;16.5373,43.5037;21311;Splitsko-Dalmatinska;Podstrana - Sita
 0;13.5999,45.4639;52470;Istarska;Sveta Marija na Krasu
 1;14.1956,45.2767;51410;Primorsko-Goranska;Mala Učka

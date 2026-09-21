@@ -800,3 +800,23 @@ he;אפר האט;Upper Hutt
 nn;Dannevirke på New Zealand;Dannevirke
 ca;Harihari;Hari Hari
 nn;Bluff på New Zealand;Bluff
+ru;Артурс Пасс;Arthur’s Pass
+ru;Хааст;Haast
+gd;Gleann Comhan;Glencoe
+ru;Вайтанги;Waitangi
+ar;وايتانجي;Waitangi
+kk;Вайтанги;Waitangi
+ky;Вайтанги;Waitangi
+hi;वैतांगी;Waitangi
+bn;ওয়াইটাঙ্গি;Waitangi
+ur;وائٹنگی;Waitangi
+am;ዋይታንጊ;Waitangi
+fa;وایتانگی;Waitangi
+ja;ワイタンギ;Waitangi
+pa;ਵੈਤਾਂਗੀ;Waitangi
+ps;وايتانجي;Waitangi
+tg;Вайтанги;Waitangi
+tt;Вайтанги;Waitangi
+ru;Милфорд Саунд;Milford Sound
+mi;Aoraki;Mount Cook Village
+en;Aoraki / Mount Cook;Mount Cook Village

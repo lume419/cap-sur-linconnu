@@ -3216,3 +3216,45 @@ tt;Каламунда;Kalamunda
 uk;Норт-Госфорд;North Gosford
 ml;ഡെസേർട്ട് സ്പ്രിംഗ്സ്;Desert Springs
 fa;میلوود، کوئینزلند;Millwood
+en;Yunndaga;Yundaga
+ja;カナナラ;Kununurra
+ka;კუნუნურა;Kununurra
+ru;Кунунарра;Kununurra
+en;Headingly Station;Headingly
+en;Oombulgurri Community;Forrest River
+en;Umbulgara;Forrest River
+ja;オオンバルグリーコミュニティ;Forrest River
+nl;Oombulgurri;Forrest River
+ru;Амата;Amata
+zh;皮林格城镇;Pillinger
+zh;朗芮;Longreach
+ru;Бамага;Bamaga
+ru;Юлара;Yulara
+en;One Arm Point;Bardi
+en;Docker River;Kaltukatjara
+en;Mornington;Gununa
+ru;Калумбуру;Kalumburu
+en;St. Pauls;Saint Pauls
+fr;Île Thursday;Thursday Island
+cs;Thursday;Thursday Island
+ja;木曜島;Thursday Island
+ko;목요섬;Thursday Island
+uk;Терсді;Thursday Island
+yue;他士爹島;Thursday Island
+pl;Wyspa Thursday;Thursday Island
+pt;Ilha Thursday;Thursday Island
+ru;Терсди;Thursday Island
+sv;Torsdagsön;Thursday Island
+zh;星期四岛;Thursday Island
+en;Umbakumba;Umbakumba, Anindilyakwa
+de;Umbakumba;Umbakumba, Anindilyakwa
+en;St. Lucia;Saint Lucia
+ru;Фрегон;Fregon
+ru;Маралинга;Maralinga
+ru;Колона;Colona
+pl;Wangkatjungka;Wangkatjungka Community
+ru;Абминга;Abminga
+nl;Mulan Community;Mulan
+ml;വൈറ്റ് ഗംസ്;White Gums
+ml;ഇൽപാർപ;Ilparpa
+ml;കോന്നല്ലൻ;Connellan

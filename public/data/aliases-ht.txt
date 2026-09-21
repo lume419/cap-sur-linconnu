@@ -389,3 +389,13 @@ ur;لے سائیس;Les Cayes
 uk;Кап-Аїтьєн;Cap-Haïtien
 fa;کاپ-هائیتین;Cap-Haïtien
 el;Καπ-Αϊτιέν;Cap-Haïtien
+fr;Pointe à Raquette;Pointe à Raquettes
+fr;Palmarie;Palmarite
+ht;Nan Bœuf;Nan Boeuf
+el;Μοντρουί;Montrouis
+ht;Monwi;Montrouis
+fr;Lacayenne;La Cayenne
+fr;Fone Alezan;Fond Alezan
+fr;Boucan Fredinand;Boucan Ferdinand
+fr;Augier;Ogier
+ht;Answouj;Anse Rouge

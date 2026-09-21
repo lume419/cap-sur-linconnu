@@ -117,7 +117,7 @@
 0;10.0226,55.2928;5620;Assens Kommune;Vistorp
 0;10.5098,56.1956;8420;Syddjurs Kommune;Vistoft
 0;10.0126,56.3642;8370;Favrskov Kommune;Vissing
-3232;10.1378,55.3848;5492;Assens Kommune;Vissenbjerg
+3265;10.1378,55.3848;5492;Assens Kommune;Vissenbjerg
 0;9.9303,56.9925;9210;Ålborg Kommune;Visse
 0;11.2686,55.6621;4470;Kalundborg Kommune;Viskinge
 0;8.4625,56.7936;7755;Thisted Kommune;Visby
@@ -197,9 +197,9 @@
 0;9.9469,57.5026;9800;Hjørring Kommune;Vidstrup
 0;9.7675,56.3357;8881;Favrskov Kommune;Vidstrup
 0;10.5193,56.1972;8420;Syddjurs Kommune;Viderup
-4242;8.6285,56.0876;6920;Ringkøbing-Skjern Kommune;Videbæk
+4299;8.6285,56.0876;6920;Ringkøbing-Skjern Kommune;Videbæk
 31756;10.1515,56.1226;8260;Aarhus Kommune;Viby
-4773;12.0239,55.5487;4130;Roskilde Kommune;Viby
+5227;12.0239,55.5487;4130;Roskilde Kommune;Viby
 0;10.6858,55.4970;5380;Kerteminde Kommune;Viby
 0;9.8422,55.4543;5580;Middelfart Kommune;Viby
 41239;9.4020,56.4532;8800;Viborg Kommune;Viborg
@@ -208,7 +208,7 @@
 0;12.5843,55.5952;2770;Tårnby Kommune;Viberup
 0;8.5159,56.8303;7752;Thisted Kommune;Vibberstoft
 0;8.5806,56.1176;6971;Ringkøbing-Skjern Kommune;Væggerskilde
-1333;11.9254,54.7124;4873;Guldborgsund Kommune;Væggerløse
+1292;11.9254,54.7124;4873;Guldborgsund Kommune;Væggerløse
 0;11.7660,55.3875;4171;Næstved Kommune;Vetterslev
 0;8.3167,56.0667;6940;Ringkøbing-Skjern Kommune;Vesttarp
 0;9.4459,56.7491;9620;Vesthimmerland Kommune;Vestrup
@@ -608,7 +608,7 @@
 0;12.0769,55.3730;4682;Køge Kommune;Tureby
 0;10.4444,55.9488;8799;Odder Kommune;Tunø By
 0;9.7883,56.3049;8881;Favrskov Kommune;Tungelund
-5300;12.1697,55.5929;4030;Greve Kommune;Tune
+5681;12.1697,55.5929;4030;Greve Kommune;Tune
 0;12.0353,54.7859;4871;Guldborgsund Kommune;Tunderup
 0;9.5307,54.9616;6300;Sønderborg Kommune;Tumbøl
 0;9.1493,56.1572;7430;Ikast-Brande Kommune;Tulstrup
@@ -682,7 +682,7 @@
 0;8.7861,56.1914;7480;Herning Kommune;Tranholm
 0;10.1374,57.3572;9830;Hjørring Kommune;Tranget
 0;9.6661,57.1710;9490;Jammerbugt Kommune;Tranekær
-12367;10.8438,54.9976;5953;Langeland Kommune;Tranekær
+11841;10.8438,54.9976;5953;Langeland Kommune;Tranekær
 0;10.6499,56.4927;8585;Norddjurs Kommune;Tranehuse
 0;12.3484,55.6255;2635;Ishøj Kommune;Tranegilde
 839;10.5972,55.8326;8305;Samsø Kommune;Tranebjerg
@@ -805,7 +805,7 @@
 0;8.9962,57.0705;7741;Thisted Kommune;Tømmerby
 0;9.5207,56.0678;8653;Silkeborg Kommune;Tømmerby
 0;8.6454,55.4721;6740;Esbjerg Kommune;Tømmerby
-3759;11.7703,55.6125;4340;Holbæk Kommune;Tølløse
+4028;11.7703,55.6125;4340;Holbæk Kommune;Tølløse
 0;10.3778,56.4592;8963;Norddjurs Kommune;Tøjstrup
 0;10.6976,55.1321;5884;Svendborg Kommune;Tøjsmose
 0;8.8093,56.8275;7900;Morsø Kommune;Tødsø
@@ -903,7 +903,7 @@
 0;8.6732,56.9662;7700;Thisted Kommune;Tingstrup
 218;11.9040,54.8145;4863;Guldborgsund Kommune;Tingsted
 0;9.4765,55.3869;6070;Kolding Kommune;Tingskovhede
-2731;9.2555,54.9379;6360;Aabenraa Kommune;Tinglev
+2761;9.2555,54.9379;6360;Aabenraa Kommune;Tinglev
 0;11.4648,55.2993;4261;Slagelse Kommune;Ting Jellinge
 0;8.4700,55.6603;6800;Varde Kommune;Tinghøj
 0;12.0050,55.2333;4683;Faxe Kommune;Tingerup
@@ -930,7 +930,7 @@
 0;10.4560,56.3447;8410;Syddjurs Kommune;Thorsager
 13461;8.6949,56.9552;7700;Thisted Kommune;Thisted
 0;9.1265,56.7034;7870;Skive Kommune;Thise
-2376;9.5487,56.0943;8653;Silkeborg Kommune;Them
+2477;9.5487,56.0943;8653;Silkeborg Kommune;Them
 0;8.8615,55.1387;6780;Tønder Kommune;Tevring
 0;9.5047,56.7207;9620;Vesthimmerland Kommune;Testrup
 0;9.3333,56.3667;7470;Viborg Kommune;Testrup
@@ -1048,7 +1048,7 @@
 0;11.7381,55.1141;4750;Vordingborg Kommune;Svinøvester
 0;11.7514,55.1085;4750;Vordingborg Kommune;Svinø
 2808;11.6099,55.8831;4572;Odsherred Kommune;Svinninge
-2376;11.4655,55.7211;4520;Holbæk Kommune;Svinninge
+6588;11.4655,55.7211;4520;Holbæk Kommune;Svinninge
 0;9.3513,56.7415;9640;Vesthimmerland Kommune;Svingelbjerg
 0;9.8167,57.2833;9700;Brønderslev Kommune;Svingel
 0;10.6892,55.2159;5871;Nyborg Kommune;Svindinge
@@ -1133,7 +1133,7 @@
 0;12.4804,54.9945;4791;Vordingborg Kommune;Stubberup
 0;11.8720,54.8122;4800;Guldborgsund Kommune;Stubberup
 108;11.6924,54.6704;4880;Guldborgsund Kommune;Stubberup
-2268;12.0410,54.8888;4850;Guldborgsund Kommune;Stubbekøbing
+2204;12.0410,54.8888;4850;Guldborgsund Kommune;Stubbekøbing
 0;10.7121,56.2506;8400;Syddjurs Kommune;Stubbe
 0;10.6119,54.9044;5943;Langeland Kommune;Strynø By
 11317;8.5940,56.4920;7600;Struer Kommune;Struer
@@ -1209,7 +1209,7 @@
 0;10.2393,56.0307;8340;Aarhus Kommune;Storenor
 0;9.2613,56.0458;7361;Ikast-Brande Kommune;Store Nørlund
 0;11.6635,54.7185;4894;Guldborgsund Kommune;Store Musse
-1184;11.7130,55.5438;4370;Holbæk Kommune;Store Merløse
+1188;11.7130,55.5438;4370;Holbæk Kommune;Store Merløse
 0;12.6353,55.5962;2791;Dragør Kommune;Store Magleby
 0;12.1218,55.9352;3320;Hillerød Kommune;Store Lyngby
 0;11.3122,54.8773;4953;Lolland Kommune;Store Lindet
@@ -1715,7 +1715,7 @@
 0;10.1435,56.1042;8310;Aarhus Kommune;Slet
 0;9.4508,55.7134;7100;Vejle Kommune;Slelde
 0;10.5570,55.1133;5771;Svendborg Kommune;Slæbæk
-6826;12.1833,55.8500;3550;Frederikssund Kommune;Slangerup
+6953;12.1833,55.8500;3550;Frederikssund Kommune;Slangerup
 0;10.1689,55.5224;5471;Nordfyns Kommune;Slagstrup
 0;11.3567,55.4320;4200;Slagelse Kommune;Slagstrup
 0;12.2224,55.7990;3660;Egedal Kommune;Slagslunde
@@ -1725,7 +1725,7 @@
 0;8.5767,56.8366;7752;Thisted Kommune;Skyum
 0;9.2800,56.1941;7442;Ikast-Brande Kommune;Skygge
 0;10.0528,55.3617;5560;Assens Kommune;Skydebjerg
-2613;12.1504,55.9079;3320;Hillerød Kommune;Skævinge
+2964;12.1504,55.9079;3320;Hillerød Kommune;Skævinge
 0;12.0182,55.7800;4050;Frederikssund Kommune;Skuldelev
 0;11.5644,55.5441;4295;Sorø Kommune;Skuerup
 0;9.1851,55.4380;6600;Vejen Kommune;Skudstrup
@@ -1760,6 +1760,7 @@
 0;12.0416,55.2670;4683;Faxe Kommune;Skov-Torup
 0;10.0292,56.9705;9260;Ålborg Kommune;Skovstrup
 0;10.1475,55.3320;5690;Assens Kommune;Skovstrup
+0;8.7771,57.0030;;North Denmark;Skovsted
 0;12.5978,55.7615;2930;Gentofte Kommune;Skovshoved
 0;9.9601,55.4938;5464;Middelfart Kommune;Skovs-Højrup
 0;10.2738,55.4496;5210;Odense Kommune;Skovs-Hjrup
@@ -1823,7 +1824,7 @@
 0;10.3745,56.1866;8420;Syddjurs Kommune;Skødshoved Strand
 0;8.5721,55.6383;6800;Varde Kommune;Skonager
 0;11.2660,54.7780;4920;Lolland Kommune;Skodsebølle
-1269;12.5732,55.8225;2942;Rudersdal Kommune;Skodsborg
+1229;12.5732,55.8225;2942;Rudersdal Kommune;Skodsborg
 0;8.5767,55.8574;6880;Ringkøbing-Skjern Kommune;Skodsbøl
 0;9.6548,54.8983;6310;Sønderborg Kommune;Skodsbøl
 0;8.4667,56.4833;7600;Struer Kommune;Skodborg Huse
@@ -1866,7 +1867,7 @@
 0;9.1007,55.4416;6600;Vejen Kommune;Skibelund
 0;9.1362,55.2663;6510;Haderslev Kommune;Skibelund
 0;10.0401,56.1372;8462;Aarhus Kommune;Skibby
-3120;11.9608,55.7512;4050;Frederikssund Kommune;Skibby
+3217;11.9608,55.7512;4050;Frederikssund Kommune;Skibby
 0;9.1014,55.9971;7330;Ikast-Brande Kommune;Skibbild
 0;8.8468,56.1706;7480;Herning Kommune;Skibbild
 0;9.5016,56.2127;8632;Silkeborg Kommune;Skægkær
@@ -1939,7 +1940,7 @@
 0;10.7333,55.3697;5540;Nyborg Kommune;Skalkendrup
 0;9.8879,57.0016;9200;Ålborg Kommune;Skalborg
 0;10.1469,55.3676;5492;Assens Kommune;Skalbjerg
-7571;10.5839,57.7209;0999;Københavns Kommune;Skagen
+7250;10.5839,57.7209;0999;Københavns Kommune;Skagen
 0;11.5122,55.2232;4243;Slagelse Kommune;Skafterup
 0;11.4306,55.4710;4190;Sorø Kommune;Skaftelev
 0;10.2115,56.3550;8543;Syddjurs Kommune;Skader
@@ -1974,7 +1975,7 @@
 0;8.6790,56.7372;7970;Morsø Kommune;Sindbjerg
 0;10.1886,57.4773;9870;Hjørring Kommune;Sindallund
 0;10.1890,57.4992;9870;Hjørring Kommune;Sindalhede
-3095;10.2031,57.4712;9870;Hjørring Kommune;Sindal
+3032;10.2031,57.4712;9870;Hjørring Kommune;Sindal
 0;9.3809,55.2996;6560;Haderslev Kommune;Simmersted
 0;10.7642,54.9451;5900;Langeland Kommune;Simmerbølle
 0;11.9162,55.3594;4690;Faxe Kommune;Simmendrup
@@ -2004,6 +2005,7 @@
 0;9.9740,57.3138;9700;Brønderslev Kommune;Serritslev
 0;9.8947,55.8995;8751;Horsens Kommune;Serridslev
 0;9.4467,56.0920;8654;Silkeborg Kommune;Sepstrup
+0;8.7939,56.9642;;North Denmark;Sennels
 0;12.2477,55.6812;0800;Høje-Taastrup Kommune;Sengeløse
 0;8.5446,56.6541;7790;Struer Kommune;Semb
 0;10.0932,56.6262;8983;Randers Kommune;Sem
@@ -2099,7 +2101,7 @@
 233;9.8252,56.2786;8450;Favrskov Kommune;Sall
 0;10.6578,55.4935;5370;Kerteminde Kommune;Salby
 0;9.4378,55.7697;7300;Vejle Kommune;Saksmose Huse
-4595;11.6260,54.7997;4990;Guldborgsund Kommune;Sakskøbing
+4580;11.6260,54.7997;4990;Guldborgsund Kommune;Sakskøbing
 0;10.2308,55.9754;8300;Odder Kommune;Saksild
 0;9.0685,54.9245;6372;Aabenraa Kommune;Saksborg
 0;8.8378,56.4835;7830;Holstebro Kommune;Sahl
@@ -2225,7 +2227,7 @@
 0;8.7079,56.2007;7480;Herning Kommune;Rødding
 2712;9.0632,55.3657;6630;Vejen Kommune;Rødding
 1544;11.3550,54.6594;4970;Lolland Kommune;Rødbyhavn
-1983;11.3888,54.6949;4970;Lolland Kommune;Rødby
+1927;11.3888,54.6949;4970;Lolland Kommune;Rødby
 0;14.8937,55.2134;3760;Bornholm Kommune;Rø
 0;9.8264,55.4399;5580;Middelfart Kommune;Ronæs
 0;8.9648,55.9520;6933;Herning Kommune;Ronnum
@@ -2300,7 +2302,7 @@
 0;10.2114,56.3647;8544;Syddjurs Kommune;Rigtrup
 0;10.7459,54.9550;5900;Langeland Kommune;Rifbjerg
 0;11.0301,54.7587;4900;Lolland Kommune;Riddertofte
-8257;8.7697,55.3305;6760;Esbjerg Kommune;Ribe
+8403;8.7697,55.3305;6760;Esbjerg Kommune;Ribe
 0;8.6648,57.0940;7730;Thisted Kommune;Ræhr
 0;10.8016,55.2085;5871;Nyborg Kommune;Revsøre
 0;9.2993,55.3484;6560;Haderslev Kommune;Revsø Mark
@@ -2425,6 +2427,7 @@
 0;9.4354,55.5224;6000;Kolding Kommune;Rådvad
 0;11.6747,54.8081;4990;Guldborgsund Kommune;Radsted Langet
 0;11.6878,54.7888;4990;Guldborgsund Kommune;Radsted
+0;9.6834,55.2472;;South Denmark;Råde
 0;10.2085,55.3816;5491;Odense Kommune;Radby
 0;10.3423,55.2829;5792;Faaborg-Midtfyn Kommune;Radby
 0;10.2093,55.1610;5642;Faaborg-Midtfyn Kommune;Radby
@@ -2440,7 +2443,7 @@
 0;9.8844,56.5431;8990;Randers Kommune;Purhus
 0;10.3133,57.2323;9352;Frederikshavn Kommune;Pulsen
 0;8.6500,57.1167;7730;Thisted Kommune;Pugdal
-3857;12.0448,55.1237;4720;Vordingborg Kommune;Præstø
+4028;12.0448,55.1237;4720;Vordingborg Kommune;Præstø
 0;12.1081,54.8585;4871;Guldborgsund Kommune;Præstevænge
 0;9.7409,57.1744;9440;Jammerbugt Kommune;Præstens Kær
 0;8.6165,55.8950;6880;Ringkøbing-Skjern Kommune;Præstbro
@@ -2492,7 +2495,7 @@
 0;10.6316,55.3222;5863;Faaborg-Midtfyn Kommune;Pårup
 0;11.4378,54.8051;4951;Lolland Kommune;Pårup
 0;10.1817,56.2549;8380;Aarhus Kommune;Pannerup
-2862;9.6757,57.2215;9490;Jammerbugt Kommune;Pandrup
+2849;9.6757,57.2215;9490;Jammerbugt Kommune;Pandrup
 0;11.8167,54.8000;4891;Guldborgsund Kommune;Pandebjerg
 0;9.4208,55.2140;6100;Haderslev Kommune;Pamhule
 0;10.4157,55.2476;5750;Faaborg-Midtfyn Kommune;Palleshave
@@ -2659,6 +2662,7 @@
 269;11.7991,54.8992;4840;Guldborgsund Kommune;Øster Kippinge
 0;11.1901,54.8637;4900;Lolland Kommune;Øster Karleby
 0;8.7149,56.8352;7950;Morsø Kommune;Øster Jølby
+0;8.8468,57.0307;;North Denmark;Østerild
 0;8.6103,56.7449;7960;Morsø Kommune;Øster Hvidbjerg
 0;10.9387,55.1243;5953;Langeland Kommune;Østerhuse
 0;10.2713,56.8039;9560;Mariagerfjord Kommune;Øster Hurup
@@ -2776,7 +2780,7 @@
 0;8.4241,56.1141;6971;Ringkøbing-Skjern Kommune;Ølstrup
 0;9.7653,55.7975;8781;Hedensted Kommune;Ølsted Nederholm
 0;10.1395,56.2338;8380;Aarhus Kommune;Ølsted
-1894;12.0707,55.9232;3310;Halsnæs Kommune;Ølsted
+1946;12.0707,55.9232;3310;Halsnæs Kommune;Ølsted
 0;10.3038,55.2474;5672;Faaborg-Midtfyn Kommune;Ølsted
 0;10.0857,56.3880;8940;Randers Kommune;Ølst
 0;12.1648,55.5000;4600;Køge Kommune;Ølsemagle
@@ -2785,7 +2789,7 @@
 0;11.6697,55.2664;4160;Næstved Kommune;Øllerup
 0;11.5991,54.6892;4894;Guldborgsund Kommune;Øllebølle
 0;9.5288,55.8369;7160;Hedensted Kommune;Ølholm
-3705;8.6286,55.8068;6870;Varde Kommune;Ølgod
+3714;8.6286,55.8068;6870;Varde Kommune;Ølgod
 0;12.1842,55.4901;4600;Køge Kommune;Ølby Lyng
 0;8.5482,56.4706;7600;Struer Kommune;Ølby
 0;12.1464,55.4853;4600;Køge Kommune;Ølby
@@ -2900,6 +2904,7 @@
 0;9.5317,55.5030;6000;Kolding Kommune;Nyby Strandhuse
 0;8.8629,56.6315;7860;Skive Kommune;Nyby
 0;8.8712,56.2022;7480;Herning Kommune;Nyby
+0;10.9450,55.7489;;Zealand;Nyby
 0;11.7407,55.6405;4390;Holbæk Kommune;Nyby
 0;9.0548,55.5351;6650;Vejen Kommune;Nyby
 0;11.9308,54.8434;4863;Guldborgsund Kommune;Nyby
@@ -2968,7 +2973,7 @@
 0;11.1366,55.8938;4592;Kalundborg Kommune;Nordby
 2736;8.3979,55.4460;6720;Fanø Kommune;Nordby
 0;9.9663,55.2576;5610;Assens Kommune;Nordby
-5709;9.7408,55.0573;6430;Sønderborg Kommune;Nordborg
+5661;9.7408,55.0573;6430;Sønderborg Kommune;Nordborg
 0;9.9579,56.9727;9260;Ålborg Kommune;Nøvling
 0;8.8331,56.1771;7480;Herning Kommune;Nøvling
 0;9.9505,55.7491;7130;Hedensted Kommune;Nøttrup
@@ -3079,7 +3084,7 @@
 0;9.1821,55.9176;7330;Ikast-Brande Kommune;Nørre Askær
 0;8.9131,57.0041;7742;Thisted Kommune;Nørre Arup
 0;8.8783,56.6737;7860;Skive Kommune;Nørre Andrup
-2379;11.8841,54.8978;4840;Guldborgsund Kommune;Nørre Alslev
+2324;11.8841,54.8978;4840;Guldborgsund Kommune;Nørre Alslev
 0;9.7833,55.7899;8781;Hedensted Kommune;Nørre Aldum
 3133;9.8794,55.4611;5580;Middelfart Kommune;Nørre Åby
 0;9.8973,57.4890;9800;Hjørring Kommune;Nørlev
@@ -3135,7 +3140,7 @@
 0;12.0035,55.2831;4683;Faxe Kommune;Nielstrup
 5433;9.6392,56.9815;9240;Ålborg Kommune;Nibe
 0;12.2500,56.0218;3200;Gribskov Kommune;Nellerød
-3668;15.1306,55.0607;3730;Bornholm Kommune;Nexø
+3645;15.1306,55.0607;3730;Bornholm Kommune;Nexø
 0;12.2111,56.0269;3200;Gribskov Kommune;Nejlinge
 0;12.1941,55.9593;3320;Hillerød Kommune;Nejede
 0;8.5147,56.7432;7960;Morsø Kommune;Nees
@@ -3183,7 +3188,7 @@
 0;8.9065,56.7412;7870;Skive Kommune;Nautrup
 0;9.7640,56.2544;8883;Silkeborg Kommune;Nårup
 0;10.1540,55.3055;5690;Assens Kommune;Nårup
-12495;11.1357,54.8304;4900;Lolland Kommune;Nakskov
+11969;11.1357,54.8304;4900;Lolland Kommune;Nakskov
 0;11.7303,55.9236;4581;Odsherred Kommune;Nakke
 0;9.9067,55.3469;5591;Middelfart Kommune;Nakke
 0;8.7080,56.1838;7480;Herning Kommune;Najbjerg
@@ -3368,12 +3373,13 @@
 0;10.4789,56.3884;8550;Syddjurs Kommune;Marie Magdalene
 726;11.9641,54.6922;4873;Guldborgsund Kommune;Marielyst
 5722;11.5002,54.7766;4930;Lolland Kommune;Maribo
-2506;9.9751,56.6499;9550;Mariagerfjord Kommune;Mariager
+2651;9.9751,56.6499;9550;Mariagerfjord Kommune;Mariager
 0;10.5592,55.2465;5856;Faaborg-Midtfyn Kommune;Måreskov
 0;10.6123,55.2770;5853;Nyborg Kommune;Måre
 0;12.1642,55.6651;2640;Høje-Taastrup Kommune;Marbjerg
 0;9.3054,57.0296;9690;Jammerbugt Kommune;Manstrup
 0;9.8155,57.2836;9700;Brønderslev Kommune;Manna
+0;8.5379,55.2739;;South Denmark;Mandø By
 0;12.1460,55.8664;3550;Frederikssund Kommune;Manderup
 0;11.9868,55.7490;4050;Frederikssund Kommune;Manderup
 0;11.9629,55.5393;4130;Roskilde Kommune;Manderup
@@ -3382,8 +3388,9 @@
 284;9.6139,56.4105;8850;Viborg Kommune;Mammen
 0;9.0686,55.4599;6600;Vejen Kommune;Maltbæk
 0;9.0672,55.4714;6650;Vejen Kommune;Malt
-8787;12.3233,55.7553;2760;Ballerup Kommune;Måløv
+8663;12.3233,55.7553;2760;Ballerup Kommune;Måløv
 6194;10.1963,56.0363;8340;Aarhus Kommune;Malling
+0;8.7804,56.9569;;North Denmark;Malle
 0;9.2432,56.9169;9670;Vesthimmerland Kommune;Malle
 0;8.5261,55.7623;6870;Varde Kommune;Malle
 0;10.7196,55.4916;5380;Kerteminde Kommune;Måle
@@ -3432,7 +3439,7 @@
 0;12.2000,55.5000;2680;Solrød Kommune;Lynghuse
 0;11.9823,55.8061;4050;Frederikssund Kommune;Lyngerup
 0;11.5326,55.3734;4250;Næstved Kommune;Lynge-Eskilstrup
-4163;12.2773,55.8394;3540;Allerød Kommune;Lynge
+4425;12.2773,55.8394;3540;Allerød Kommune;Lynge
 0;11.5655,55.4002;4180;Sorø Kommune;Lynge
 0;10.0997,57.1348;9310;Ålborg Kommune;Lyngdrup
 0;9.7711,57.3983;9480;Hjørring Kommune;Lyngbytorp
@@ -3534,6 +3541,7 @@
 0;10.0827,57.4268;9830;Hjørring Kommune;Lørslev
 577;9.7962,57.4696;9480;Hjørring Kommune;Lønstrup
 0;8.2408,55.7908;6830;Varde Kommune;Lønnestak
+0;8.8328,56.9949;;North Denmark;Lønnerup
 0;8.2576,55.7754;6830;Varde Kommune;Lønne Hede
 0;8.2371,55.8006;6830;Varde Kommune;Lønne
 0;12.4227,55.9450;3480;Fredensborg Kommune;Lønholt
@@ -3546,13 +3554,13 @@
 0;9.4670,55.0831;6200;Aabenraa Kommune;Løjtkloster
 1975;9.4608,55.0896;6200;Aabenraa Kommune;Løjt Kirkeby
 0;10.1160,56.0205;8355;Aarhus Kommune;Løjenkær
-3480;8.9551,55.0594;6240;Tønder Kommune;Løgumkloster
+3458;8.9551,55.0594;6240;Tønder Kommune;Løgumkloster
 0;8.9327,55.0735;6240;Tønder Kommune;Løgumgårde
 0;11.2940,55.6746;4470;Kalundborg Kommune;Løgtved
 0;11.3495,55.5887;4291;Sorø Kommune;Løgtved
 8659;10.3118,56.2746;8541;Aarhus Kommune;Løgten
 1939;9.3354,56.5103;8831;Viborg Kommune;Løgstrup
-3967;9.2583,56.9624;9670;Vesthimmerland Kommune;Løgstør
+3929;9.2583,56.9624;9670;Vesthimmerland Kommune;Løgstør
 0;9.2437,56.9397;9670;Vesthimmerland Kommune;Løgsted
 0;10.4667,55.1469;5771;Svendborg Kommune;Løgeskov
 0;8.7958,56.7819;7900;Morsø Kommune;Lødderup
@@ -3569,7 +3577,7 @@
 0;9.0908,56.8918;9681;Vesthimmerland Kommune;Livø
 0;11.9548,54.8039;4800;Guldborgsund Kommune;Listrup
 217;15.1103,55.1442;3740;Bornholm Kommune;Listed
-2507;11.9654,56.0129;3360;Halsnæs Kommune;Liseleje
+2390;11.9654,56.0129;3360;Halsnæs Kommune;Liseleje
 0;12.2119,54.9118;4792;Vordingborg Kommune;Liseby
 0;8.1366,56.4711;7650;Lemvig Kommune;Lisby
 0;10.1922,56.2169;8200;Aarhus Kommune;Lisbjerg-Terp
@@ -3604,7 +3612,7 @@
 0;10.2495,56.3882;8544;Syddjurs Kommune;Lime
 0;10.3258,56.4310;8963;Norddjurs Kommune;Liltved
 0;11.1448,55.7511;4400;Kalundborg Kommune;Lille Vrøj
-13069;12.3686,55.7825;3500;Furesø Kommune;Værløse
+13197;12.3686,55.7825;3500;Furesø Kommune;Værløse
 0;10.0521,56.9779;9260;Ålborg Kommune;Lillevorde
 0;10.6171,55.4531;5300;Kerteminde Kommune;Lille Viby
 0;9.6074,55.6222;7080;Vejle Kommune;Lille Velling
@@ -3744,7 +3752,7 @@
 0;9.1617,55.0962;6534;Tønder Kommune;Langelund
 0;9.1010,55.8062;7190;Billund Kommune;Langelund
 0;15.0976,55.0525;3730;Bornholm Kommune;Langedeby
-248;12.0899,54.9965;4772;Vordingborg Kommune;Langebæk
+236;12.0899,54.9965;4772;Vordingborg Kommune;Langebæk
 0;9.5439,56.8671;0960;Københavns Kommune;Langdal
 0;10.2025,56.0757;8330;Aarhus Kommune;Langballe
 2811;9.8949,56.3903;8870;Randers Kommune;Langå
@@ -3794,7 +3802,7 @@
 0;9.9266,56.2847;8450;Favrskov Kommune;Kvolbæk
 0;8.6850,56.4368;7560;Struer Kommune;Kvium
 0;9.6326,55.2634;6100;Haderslev Kommune;Kvistrup
-1133;12.5045,55.9935;3490;Helsingør Kommune;Kvistgård
+1235;12.5045,55.9935;3490;Helsingør Kommune;Kvistgård
 0;10.4258,57.4674;9970;Frederikshavn Kommune;Kvisselbrænding
 0;10.4111,57.4716;9970;Frederikshavn Kommune;Kvissel
 0;11.5445,55.2515;4262;Næstved Kommune;Kvislemark
@@ -3908,7 +3916,8 @@
 0;9.1536,55.0432;6392;Aabenraa Kommune;Korup
 0;11.2972,54.7514;4920;Lolland Kommune;Korterup
 0;9.8074,56.1500;8670;Skanderborg Kommune;Korsvej
-14463;11.1386,55.3299;4220;Slagelse Kommune;Korsør
+14290;11.1386,55.3299;4220;Slagelse Kommune;Korsør
+0;8.7757,57.0651;;North Denmark;Korsø
 0;9.5623,56.6645;9620;Vesthimmerland Kommune;Korsø
 0;9.6976,55.7195;8721;Hedensted Kommune;Korshøj
 0;9.2557,57.0552;9690;Jammerbugt Kommune;Korsholm
@@ -4022,6 +4031,7 @@
 0;8.2947,56.2785;6990;Holstebro Kommune;Klostergårde
 606;8.1767,56.1252;6950;Ringkøbing-Skjern Kommune;Kloster
 0;11.9973,55.4925;4140;Køge Kommune;Kløvested
+0;8.8086,57.0248;;North Denmark;Kløv
 0;9.9569,56.4719;8920;Randers Kommune;Klørup
 0;8.9199,55.1171;6240;Tønder Kommune;Kløjing
 0;8.6146,56.0049;6900;Ringkøbing-Skjern Kommune;Klokmose
@@ -4066,6 +4076,7 @@
 0;10.2162,56.6661;8970;Randers Kommune;Klattrup
 0;9.5401,55.6345;6052;Kolding Kommune;Klattrup
 0;10.0618,57.4771;9800;Hjørring Kommune;Klastrup
+0;8.8300,57.0445;;North Denmark;Klastrup
 4969;10.0562,57.0119;9270;Ålborg Kommune;Klarup
 0;11.8711,55.0674;4750;Vordingborg Kommune;Klarskov
 0;9.9086,56.1503;8464;Skanderborg Kommune;Klank
@@ -4073,6 +4084,7 @@
 0;9.9700,55.7097;7130;Hedensted Kommune;Klakring
 0;8.4621,56.7774;7760;Thisted Kommune;Kjæstrup
 0;8.5794,55.9657;6900;Ringkøbing-Skjern Kommune;Kjelstrup
+0;8.7531,56.9939;;North Denmark;Kjelstrup
 0;8.3034,55.5954;6852;Varde Kommune;Kjelst
 4514;9.4353,56.2858;8620;Silkeborg Kommune;Kjellerup
 0;9.0523,56.4736;7850;Viborg Kommune;Kjeldbjerg
@@ -4195,6 +4207,7 @@
 0;10.7592,54.9535;5900;Langeland Kommune;Kassebølle
 0;9.6500,57.2000;9490;Jammerbugt Kommune;Kås Mark
 0;10.0039,55.3392;5560;Assens Kommune;Kaslunde
+0;8.7833,57.0667;;North Denmark;Kåse
 0;14.7230,55.2246;3790;Bornholm Kommune;Kåsby
 1990;9.6717,57.1977;9490;Jammerbugt Kommune;Kås
 0;14.8513,55.2409;3770;Bornholm Kommune;Kås
@@ -4218,7 +4231,7 @@
 0;8.5894,55.6526;6800;Varde Kommune;Karlsgårde
 0;12.0274,54.7912;4871;Guldborgsund Kommune;Karleby
 0;11.6265,54.7069;4894;Guldborgsund Kommune;Karleby
-0;12.4100,55.9193;2980;Fredensborg Kommune;Karlebo
+19163;12.4100,55.9193;2980;Fredensborg Kommune;Karlebo
 0;9.8146,56.6018;9500;Mariagerfjord Kommune;Karlby
 0;10.8619,56.4738;8500;Norddjurs Kommune;Karlby
 0;10.2859,56.3506;8544;Syddjurs Kommune;Karlby
@@ -4262,7 +4275,7 @@
 0;9.5406,55.3067;6100;Haderslev Kommune;Kabdrup
 781;11.8644,55.5167;4174;Ringsted Kommune;Jystrup
 0;11.3323,54.8630;4953;Lolland Kommune;Jysted
-10134;12.1031,55.7529;4040;Roskilde Kommune;Jyllinge
+10920;12.1031,55.7529;4040;Roskilde Kommune;Jyllinge
 0;8.6934,55.5559;6818;Varde Kommune;Jyllerup
 4325;11.5533,55.8369;4560;Odsherred Kommune;Jyderup
 4303;11.4203,55.6640;4450;Holbæk Kommune;Jyderup
@@ -4286,7 +4299,7 @@
 0;10.4307,55.5690;5450;Nordfyns Kommune;Jørgensø
 0;12.4286,56.0105;3080;Helsingør Kommune;Jonstrup
 0;11.6651,55.5730;4350;Holbæk Kommune;Jonstrup
-4020;11.9856,55.8525;3630;Frederikssund Kommune;Jægerspris
+4131;11.9856,55.8525;3630;Frederikssund Kommune;Jægerspris
 0;12.5350,55.7593;2820;Gentofte Kommune;Jægersborg
 0;8.4493,56.6562;7790;Struer Kommune;Jestrup
 0;8.4631,56.8589;7752;Thisted Kommune;Jestrup
@@ -4314,7 +4327,7 @@
 0;9.2451,55.3915;6580;Kolding Kommune;Jels Troldkær
 0;9.2018,55.3837;6630;Vejen Kommune;Jelsskov
 0;9.1996,55.3570;6630;Vejen Kommune;Jels
-3658;9.4258,55.7559;7300;Vejle Kommune;Jelling
+4038;9.4258,55.7559;7300;Vejle Kommune;Jelling
 0;9.9706,56.0944;8362;Skanderborg Kommune;Jeksen
 0;8.9622,54.9386;6270;Tønder Kommune;Jejsing
 0;9.3123,56.4646;8800;Viborg Kommune;Jegstrup
@@ -4435,6 +4448,7 @@
 0;8.1823,56.2797;6990;Holstebro Kommune;Husby
 0;9.8543,55.3712;5592;Middelfart Kommune;Husby
 2769;8.4195,56.7494;7760;Thisted Kommune;Hurup
+0;8.8128,57.0359;;North Denmark;Hunstrup
 396;11.5233,54.7964;4930;Lolland Kommune;Hunseby
 0;9.6028,57.2253;9490;Jammerbugt Kommune;Hunetorp
 0;9.6154,57.2482;9492;Jammerbugt Kommune;Hune
@@ -4445,10 +4459,11 @@
 0;9.9182,54.9819;6440;Sønderborg Kommune;Hundslev
 0;14.9310,55.0527;3720;Bornholm Kommune;Hundshale
 0;12.3122,55.5963;2670;Greve Kommune;Hundige
-8543;11.8504,55.9640;3390;Halsnæs Kommune;Hundested
+8609;11.8504,55.9640;3390;Halsnæs Kommune;Hundested
 242;8.7203,55.4350;6771;Esbjerg Kommune;Hunderup
 0;9.8435,57.4252;9480;Hjørring Kommune;Hundelev
 0;8.5078,56.9265;7752;Thisted Kommune;Hundborg
+0;8.7914,56.9632;;North Denmark;Hundal
 0;11.2220,54.7158;4983;Lolland Kommune;Hummingen
 0;10.0115,56.2373;8471;Aarhus Kommune;Hummelure
 0;8.5503,56.5405;7600;Struer Kommune;Humlum
@@ -4471,6 +4486,7 @@
 0;9.9541,56.6794;9550;Mariagerfjord Kommune;Hovtved
 0;10.1012,57.3926;9830;Hjørring Kommune;Hovstrup
 0;8.2537,55.7608;6830;Varde Kommune;Hovstrup
+0;8.8376,57.0025;;North Denmark;Hovsør
 0;9.3382,55.1327;6230;Aabenraa Kommune;Hovslund Stationsby
 0;9.3665,55.1406;6230;Aabenraa Kommune;Hovslund
 0;8.4310,56.1432;6971;Ringkøbing-Skjern Kommune;Hover
@@ -4483,6 +4499,7 @@
 0;12.2378,55.7265;3670;Egedal Kommune;Hove
 0;12.1019,55.2454;4640;Faxe Kommune;Hovby
 0;8.9396,55.6080;6682;Vejen Kommune;Hovborg
+0;8.7981,56.9965;;North Denmark;Hov
 0;10.2529,55.9160;8300;Odder Kommune;Hov
 0;10.9340,55.1541;5874;Svendborg Kommune;Hov
 0;9.8728,56.3436;8881;Favrskov Kommune;Houlbjerg
@@ -4518,7 +4535,7 @@
 0;10.1695,55.1080;5642;Faaborg-Midtfyn Kommune;Horne
 0;9.8668,56.0067;8660;Skanderborg Kommune;Horndrup
 0;9.6686,55.8523;8762;Hedensted Kommune;Hornborg
-5334;12.4569,56.0903;3100;Helsingør Kommune;Hornbæk
+3605;12.4569,56.0903;3100;Helsingør Kommune;Hornbæk
 0;9.7089,56.2522;8882;Silkeborg Kommune;Horn
 572;12.0584,54.8230;4871;Guldborgsund Kommune;Horbelev
 0;9.4565,55.1808;6100;Haderslev Kommune;Hoptrup
@@ -4591,7 +4608,7 @@
 0;11.9157,54.6959;4873;Guldborgsund Kommune;Højet
 0;10.5844,55.1393;5771;Svendborg Kommune;Højes Dong
 0;12.4378,55.2797;4660;Stevns Kommune;Højerup
-1102;8.6985,54.9634;6280;Tønder Kommune;Højer
+1034;8.6985,54.9634;6280;Tønder Kommune;Højer
 0;9.5003,55.6844;7100;Vejle Kommune;Højenskov
 0;9.9855,57.4730;9800;Hjørring Kommune;Højene
 0;10.5228,57.7282;9990;Frederikshavn Kommune;Højen
@@ -4666,7 +4683,7 @@
 0;8.9667,56.1500;7400;Herning Kommune;Holing
 0;9.9468,55.3081;5610;Assens Kommune;Holevad
 0;10.5128,55.4087;5290;Kerteminde Kommune;Holev
-1400;11.4642,54.7115;4960;Lolland Kommune;Holeby
+1352;11.4642,54.7115;4960;Lolland Kommune;Holeby
 0;9.2130,56.7000;9631;Vesthimmerland Kommune;Hole
 0;9.4256,54.8901;6340;Aabenraa Kommune;Holbøl Mark
 0;9.4443,54.8957;6340;Aabenraa Kommune;Holbøl
@@ -4735,12 +4752,13 @@
 0;9.1750,55.2083;6541;Haderslev Kommune;Hjartbro
 0;10.0771,55.8272;8350;Odder Kommune;Hjarnø By
 0;8.8831,57.0929;7741;Thisted Kommune;Hjardemål Klit
+0;8.8132,57.0560;;North Denmark;Hjardemål
 0;9.3208,56.5304;8831;Viborg Kommune;Hjarbæk
 0;10.4128,55.3595;5260;Odense Kommune;Hjallese Hestehave
 0;10.3894,55.3565;5260;Odense Kommune;Hjallese
 4235;10.1457,57.1647;9320;Brønderslev Kommune;Hjallerup
 0;10.3483,55.5235;5450;Nordfyns Kommune;Hjadstrup
-5532;9.9592,57.5881;9850;Hjørring Kommune;Hirtshals
+5265;9.9592,57.5881;9850;Hjørring Kommune;Hirtshals
 0;9.0105,55.7615;7200;Billund Kommune;Hinnum
 8164;9.0587,56.7347;7870;Skive Kommune;Hinnerup
 8164;10.0630,56.2661;8382;Favrskov Kommune;Hinnerup
@@ -4880,7 +4898,7 @@
 47099;9.7011,55.7704;8722;Hedensted Kommune;Hedensted
 0;10.3741,57.6071;9982;Frederikshavn Kommune;Heden
 0;10.3682,55.2477;5750;Faaborg-Midtfyn Kommune;Heden
-13663;12.1983,55.6495;2640;Høje-Taastrup Kommune;Hedehusene
+17953;12.1983,55.6495;2640;Høje-Taastrup Kommune;Hedehusene
 0;8.3425,56.8327;7755;Thisted Kommune;Hedegårde
 0;10.6741,56.4849;8585;Norddjurs Kommune;Hedegård
 0;9.2925,55.9527;7361;Ikast-Brande Kommune;Hedegård
@@ -4940,7 +4958,7 @@
 0;10.2754,56.7735;9560;Mariagerfjord Kommune;Haslevgårde
 12119;11.9639,55.3235;4690;Faxe Kommune;Haslev
 0;10.1618,56.1686;8210;Aarhus Kommune;Hasle
-1634;14.7112,55.1821;3790;Bornholm Kommune;Hasle
+1627;14.7112,55.1821;3790;Bornholm Kommune;Hasle
 0;10.2169,56.2842;8530;Aarhus Kommune;Hårup
 0;9.6489,56.1528;8600;Silkeborg Kommune;Hårup
 0;9.6041,55.9234;8763;Hedensted Kommune;Hårup
@@ -4999,7 +5017,7 @@
 0;8.4059,56.1200;6971;Ringkøbing-Skjern Kommune;Hammelsvang
 0;10.8960,56.4419;8500;Norddjurs Kommune;Hammelev
 0;9.3832,55.2454;6500;Haderslev Kommune;Hammelev
-6854;9.8632,56.2576;8450;Favrskov Kommune;Hammel
+7373;9.8632,56.2576;8450;Favrskov Kommune;Hammel
 0;9.5907,57.1107;9460;Jammerbugt Kommune;Halvrimmen
 0;9.6833,56.1500;8641;Silkeborg Kommune;Halved
 0;8.7217,55.6698;6823;Varde Kommune;Haltrup
@@ -5134,7 +5152,7 @@
 0;10.4351,57.4011;9900;Frederikshavn Kommune;Gærum
 0;9.3688,55.9610;8766;Ikast-Brande Kommune;Grættrup
 0;9.1162,56.7437;7870;Skive Kommune;Grættrup
-3561;12.2851,56.0656;3230;Gribskov Kommune;Græsted
+3596;12.2851,56.0656;3230;Gribskov Kommune;Græsted
 0;9.7723,57.1418;9440;Jammerbugt Kommune;Græsrimmen
 0;11.2235,54.7764;4920;Lolland Kommune;Græshave
 0;12.0980,55.8612;3600;Frederikssund Kommune;Græse
@@ -5203,7 +5221,7 @@
 0;9.4324,55.5977;6052;Kolding Kommune;Gravens
 0;10.1529,57.3656;9830;Hjørring Kommune;Graum
 0;9.6298,56.2260;8632;Silkeborg Kommune;Grauballe
-4274;9.5952,54.9192;6300;Sønderborg Kommune;Gråsten
+4291;9.5952,54.9192;6300;Sønderborg Kommune;Gråsten
 0;9.3305,56.2603;8620;Silkeborg Kommune;Gråskov
 0;9.4329,56.8257;9600;Vesthimmerland Kommune;Grårup
 0;9.5945,55.2418;6100;Haderslev Kommune;Grarup
@@ -5220,7 +5238,7 @@
 0;9.2115,57.0585;9690;Jammerbugt Kommune;Gøttrup
 0;11.9838,55.4269;4632;Køge Kommune;Gørslev
 0;12.1982,55.8852;3330;Hillerød Kommune;Gørløse
-2397;11.2271,55.5393;4281;Kalundborg Kommune;Gørlev
+2405;11.2271,55.5393;4281;Kalundborg Kommune;Gørlev
 1782;8.7974,55.4746;6690;Esbjerg Kommune;Gørding
 0;14.7556,55.1345;3700;Bornholm Kommune;Gøngeherred
 0;10.0300,57.3291;9760;Hjørring Kommune;Gønderup
@@ -5262,7 +5280,7 @@
 0;9.9328,55.7800;7130;Hedensted Kommune;Glattrup
 0;15.0101,55.1529;3751;Bornholm Kommune;Glappe
 0;10.1134,55.2687;5620;Assens Kommune;Glamsdal
-3344;10.1048,55.2724;5620;Assens Kommune;Glamsbjerg
+3308;10.1048,55.2724;5620;Assens Kommune;Glamsbjerg
 0;12.4816,55.7380;2860;Gladsaxe Municipality;Gladsaxe
 0;9.9281,57.4564;9800;Hjørring Kommune;Gjurup
 0;9.3704,56.6554;9631;Vesthimmerland Kommune;Gjørup
@@ -5271,7 +5289,7 @@
 0;10.4287,56.4563;8961;Norddjurs Kommune;Gjesing
 0;10.0240,55.9894;8732;Horsens Kommune;Gjesing
 0;10.8333,56.5004;8500;Norddjurs Kommune;Gjerrild
-1398;9.7391,56.2302;8883;Silkeborg Kommune;Gjern
+1553;9.7391,56.2302;8883;Silkeborg Kommune;Gjern
 0;10.1314,56.5883;8983;Randers Kommune;Gjerlev
 0;9.0249,56.1524;7400;Herning Kommune;Gjellerup Lund
 11406;10.1301,56.1568;8220;Aarhus Kommune;Gjellerup
@@ -5291,7 +5309,7 @@
 0;10.1022,56.3777;8370;Favrskov Kommune;Ginnerup
 0;10.0969,56.4937;8930;Randers Kommune;Gimming
 0;11.4414,55.3243;4261;Slagelse Kommune;Gimlinge
-6781;12.3106,56.1220;3250;Gribskov Kommune;Gilleleje
+6598;12.3106,56.1220;3250;Gribskov Kommune;Gilleleje
 0;11.3212,55.4906;4270;Kalundborg Kommune;Gierslev
 0;12.2986,55.2747;4673;Stevns Kommune;Gevnø
 1649;11.9572,55.6454;4060;Lejre Kommune;Gevninge
@@ -5329,7 +5347,7 @@
 0;8.8529,55.1962;6780;Tønder Kommune;Gejlbjerg
 0;9.1493,55.1173;6534;Tønder Kommune;Gejlbjerg
 0;9.3645,54.8940;6340;Aabenraa Kommune;Gejlå
-2336;9.8460,55.9308;8751;Horsens Kommune;Gedved
+2475;9.8460,55.9308;8751;Horsens Kommune;Gedved
 866;9.3367,56.6891;9631;Vesthimmerland Kommune;Gedsted
 657;11.9300,54.5764;4874;Guldborgsund Kommune;Gedser
 0;10.0934,56.2072;8381;Aarhus Kommune;Geding
@@ -5439,7 +5457,7 @@
 0;12.1343,55.1185;4720;Vordingborg Kommune;Fuglsang
 0;14.7324,55.2201;3790;Bornholm Kommune;Fuglesangen
 0;11.8298,55.0748;4750;Vordingborg Kommune;Fuglebækshuse
-2268;11.5477,55.3060;4250;Næstved Kommune;Fuglebjerg
+2321;11.5477,55.3060;4250;Næstved Kommune;Fuglebjerg
 0;8.1888,56.1977;6980;Ringkøbing-Skjern Kommune;Fuglbjerg
 0;9.3334,54.8655;6330;Aabenraa Kommune;Frydendal
 0;9.6874,55.4544;6092;Kolding Kommune;Frydenborg
@@ -5502,7 +5520,7 @@
 0;9.2554,56.3404;7470;Viborg Kommune;Frederiks
 40886;9.7526,55.5657;7007;Fredericia Kommune;Fredericia
 0;9.5156,57.1114;9460;Jammerbugt Kommune;Fredensdal
-8965;12.4031,55.9756;3480;Fredensborg Kommune;Fredensborg
+8941;12.4031,55.9756;3480;Fredensborg Kommune;Fredensborg
 0;9.2953,56.8083;9640;Vesthimmerland Kommune;Fredbjerg
 0;10.4868,55.3734;5220;Odense Kommune;Fraugde Kærby
 0;10.4851,55.3554;5220;Odense Kommune;Fraugde
@@ -5548,6 +5566,7 @@
 0;10.0669,57.3052;9740;Brønderslev Kommune;Flyvbjerg
 0;9.0113,56.4923;7850;Viborg Kommune;Fly
 0;9.0791,56.7906;7884;Skive Kommune;Flovtrup
+0;9.6680,55.2411;;South Denmark;Flovt
 0;8.5140,56.6362;7790;Struer Kommune;Flovlev
 11108;12.1870,55.6621;2640;Høje-Taastrup Kommune;Fløng
 0;12.0541,55.4060;4682;Køge Kommune;Fløjterup
@@ -5578,7 +5597,7 @@
 0;8.8690,55.2629;6760;Esbjerg Kommune;Fjærsted
 0;10.3836,55.0600;5762;Svendborg Kommune;Fjællebroen
 0;10.5408,56.4547;8581;Syddjurs Kommune;Fjerupgårde
-3326;9.2662,57.0882;9690;Jammerbugt Kommune;Fjerritslev
+3300;9.2662,57.0882;9690;Jammerbugt Kommune;Fjerritslev
 0;8.4125,55.8777;6880;Ringkøbing-Skjern Kommune;Fjerbæk
 0;12.0103,54.8711;4850;Guldborgsund Kommune;Fjenstrup
 0;11.6587,55.4300;4173;Sorø Kommune;Fjenneslevmagle
@@ -5669,7 +5688,7 @@
 20312;12.3607,55.8086;3520;Furesø Kommune;Farum
 426;9.4599,56.9854;9240;Ålborg Kommune;Farstrup
 0;10.1944,55.4693;5471;Nordfyns Kommune;Farstrup
-3349;9.3392,56.7728;9640;Vesthimmerland Kommune;Farsø
+3324;9.3392,56.7728;9640;Vesthimmerland Kommune;Farsø
 0;9.2682,55.3846;6580;Kolding Kommune;Farris
 0;9.8742,56.2053;8472;Favrskov Kommune;Farre Hede
 0;9.8441,56.2178;8472;Favrskov Kommune;Farre
@@ -5697,7 +5716,7 @@
 0;10.1489,55.1499;5642;Faaborg-Midtfyn Kommune;Faldsled
 0;11.9875,55.1127;4720;Vordingborg Kommune;Faksinge
 2884;12.1701,55.2198;4654;Faxe Kommune;Faxe Ladeplads
-4246;12.1193,55.2556;4640;Faxe Kommune;Faxe
+4204;12.1193,55.2556;4640;Faxe Kommune;Faxe
 0;9.7736,55.6819;7140;Hedensted Kommune;Fakkegrav
 0;9.9592,56.2260;8471;Aarhus Kommune;Fajstrup
 0;8.4553,56.9292;7752;Thisted Kommune;Faddersbøl
@@ -5717,7 +5736,7 @@
 0;11.7406,55.4938;4370;Holbæk Kommune;Estrup
 0;10.5583,56.2917;8410;Syddjurs Kommune;Essig
 0;12.3795,56.0509;3080;Helsingør Kommune;Esrum
-11358;12.5473,55.9946;3060;Helsingør Kommune;Espergærde
+11524;12.5473,55.9946;3060;Helsingør Kommune;Espergærde
 0;10.4121,55.2012;5750;Faaborg-Midtfyn Kommune;Espe
 0;10.3030,57.5445;9881;Hjørring Kommune;Eskærhede
 0;9.8563,55.3869;5592;Middelfart Kommune;Eskør
@@ -5780,6 +5799,7 @@
 0;9.9674,57.5764;9850;Hjørring Kommune;Emmersbæk
 0;8.6774,54.9825;6280;Tønder Kommune;Emmerlev
 0;10.8630,55.0296;5953;Langeland Kommune;Emmerbølle
+0;10.8000,56.6333;;Central Jutland;Emmelev
 0;10.3653,55.5345;5450;Nordfyns Kommune;Emmelev
 0;9.7495,56.0519;8680;Skanderborg Kommune;Emborg
 0;8.6844,56.7167;7990;Morsø Kommune;Emb
@@ -5839,7 +5859,7 @@
 0;10.4255,55.3968;5000;Odense Kommune;Ejby
 0;9.2510,55.0785;6230;Aabenraa Kommune;Egvad
 0;9.7103,55.5941;7000;Fredericia Kommune;Egum
-2446;9.3076,55.6161;6040;Vejle Kommune;Egtved
+2408;9.3076,55.6161;6040;Vejle Kommune;Egtved
 0;10.6506,56.2256;8400;Syddjurs Kommune;Egsmark Strand
 0;10.6591,56.2284;8400;Syddjurs Kommune;Egsmark
 0;12.1881,55.4220;4681;Køge Kommune;Egøje
@@ -5919,7 +5939,7 @@
 0;9.2470,57.0357;9690;Jammerbugt Kommune;Drøstrup
 0;11.2097,55.4724;4270;Kalundborg Kommune;Drøsselbjerg
 0;12.3852,56.0949;3120;Gribskov Kommune;Dronningmølle
-3487;10.2929,57.1604;9330;Brønderslev Kommune;Dronninglund
+3769;10.2929,57.1604;9330;Brønderslev Kommune;Dronninglund
 0;8.7965,55.9552;7280;Herning Kommune;Drongstrup
 0;10.6061,55.4671;5300;Kerteminde Kommune;Drigstrup
 0;10.0373,55.2260;5631;Assens Kommune;Dreslette
@@ -6095,7 +6115,7 @@
 0;8.1635,56.2028;6980;Ringkøbing-Skjern Kommune;Brunbjerg
 0;10.6750,55.1160;5882;Svendborg Kommune;Brudager
 0;8.9600,56.5044;7800;Skive Kommune;Bærs
-2624;9.5226,57.0975;9460;Jammerbugt Kommune;Brovst
+2665;9.5226,57.0975;9460;Jammerbugt Kommune;Brovst
 0;9.6802,55.5450;7000;Fredericia Kommune;Brovad
 0;11.9983,55.1444;4733;Næstved Kommune;Broskov
 0;11.5658,55.2321;4262;Næstved Kommune;Brorup
@@ -6142,7 +6162,7 @@
 0;11.6098,55.4087;4180;Sorø Kommune;Broby Overdrev
 0;9.6355,54.9849;6300;Sønderborg Kommune;Brobøl
 0;9.7398,55.0262;6430;Sønderborg Kommune;Broballe
-3238;9.6746,54.8894;6310;Sønderborg Kommune;Broager
+3202;9.6746,54.8894;6310;Sønderborg Kommune;Broager
 0;9.9869,55.5144;5464;Middelfart Kommune;Bro
 0;9.8952,54.9510;6440;Sønderborg Kommune;Bro
 0;10.4177,54.8399;5970;Ærø Kommune;Bro
@@ -6193,7 +6213,7 @@
 0;11.7820,55.6951;4390;Holbæk Kommune;Bredetved
 0;12.0108,55.1507;4733;Næstved Kommune;Bredeshave
 0;12.0474,55.9653;3300;Halsnæs Kommune;Brederød
-1412;8.8293,55.0548;6261;Tønder Kommune;Bredebro
+1428;8.8293,55.0548;6261;Tønder Kommune;Bredebro
 0;12.4908,55.7920;2830;Lyngby-Tårbæk Kommune;Brede
 0;8.8211,55.0613;6261;Tønder Kommune;Brede
 0;10.2408,55.4352;5462;Nordfyns Kommune;Bredbjerg
@@ -6227,7 +6247,7 @@
 0;11.1136,54.8612;4912;Lolland Kommune;Branderslev
 0;9.0324,56.7972;7884;Skive Kommune;Branden
 0;11.8666,55.2120;4684;Næstved Kommune;Brandelev
-7449;9.1280,55.9432;7330;Ikast-Brande Kommune;Brande
+7289;9.1280,55.9432;7330;Ikast-Brande Kommune;Brande
 0;8.2595,56.4248;7650;Lemvig Kommune;Brandborg
 0;9.4692,55.7692;7300;Vejle Kommune;Brandbjerg
 0;10.1530,56.3632;8370;Favrskov Kommune;Bramstrup
@@ -6425,6 +6445,7 @@
 0;10.1644,56.1016;8270;Aarhus Kommune;Bjøstrup
 0;11.9374,54.7764;4800;Guldborgsund Kommune;Bjørup
 0;9.4682,56.8691;9600;Vesthimmerland Kommune;Bjørnstrup
+0;10.9425,55.7366;;Zealand;Bjørnstrup
 0;10.2503,55.0656;5603;Faaborg-Midtfyn Kommune;Bjørnø By
 0;9.5622,56.2085;8632;Silkeborg Kommune;Bjørnholt
 0;8.8315,56.8287;7900;Morsø Kommune;Bjørndrup
@@ -6489,7 +6510,7 @@
 0;8.3101,56.1610;6980;Ringkøbing-Skjern Kommune;Birkkær
 0;8.4850,56.4375;7600;Struer Kommune;Birkild
 214;11.3326,54.9011;4943;Lolland Kommune;Birket
-20877;12.4279,55.8476;3460;Rudersdal Kommune;Birkerød
+21242;12.4279,55.8476;3460;Rudersdal Kommune;Birkerød
 655;10.5632,55.3807;5550;Kerteminde Kommune;Birkende
 0;11.9677,54.5683;4874;Guldborgsund Kommune;Birkemose
 645;9.6860,57.1500;9440;Jammerbugt Kommune;Birkelse
@@ -6505,7 +6526,7 @@
 0;11.9297,55.7233;4070;Lejre Kommune;Biltris
 0;8.6381,55.6245;6818;Varde Kommune;Biltoft
 0;9.0120,56.5446;7800;Skive Kommune;Bilstrup
-6725;9.1078,55.7335;7190;Billund Kommune;Billund
+7446;9.1078,55.7335;7190;Billund Kommune;Billund
 0;9.2806,55.2580;6500;Haderslev Kommune;Billund
 0;8.3333,55.6167;6852;Varde Kommune;Billum
 0;11.2483,55.4632;4270;Kalundborg Kommune;Bildsø
@@ -6638,7 +6659,7 @@
 0;9.4677,55.0513;6200;Aabenraa Kommune;Avbæk
 3061;10.3782,56.4308;8963;Norddjurs Kommune;Auning
 0;9.7088,55.0749;6430;Sønderborg Kommune;Augustenhof
-3171;9.8722,54.9520;6440;Sønderborg Kommune;Augustenborg
+3164;9.8722,54.9520;6440;Sønderborg Kommune;Augustenborg
 0;9.4556,57.0463;9460;Jammerbugt Kommune;Attrup
 0;10.5567,56.3881;8581;Syddjurs Kommune;Attrup
 0;10.7429,56.3141;8444;Syddjurs Kommune;Attrup
@@ -6740,6 +6761,7 @@
 0;12.0329,55.9760;3300;Halsnæs Kommune;Arresødal
 0;8.6675,55.5725;6818;Varde Kommune;Årre
 321;9.7090,55.2587;6094;Kolding Kommune;Årøsund
+0;9.7377,55.2606;;South Denmark;Årø
 0;8.9687,55.2475;6510;Haderslev Kommune;Arnum
 0;12.2914,55.3160;4672;Stevns Kommune;Arnøje
 0;9.3310,55.1973;6500;Haderslev Kommune;Arnitlund
@@ -6818,7 +6840,7 @@
 0;9.2918,55.0136;6392;Aabenraa Kommune;Alslev
 0;8.7730,56.5000;7830;Holstebro Kommune;Ålskov
 0;10.2513,56.7699;9560;Mariagerfjord Kommune;Als Hede
-5790;12.5399,56.0756;3140;Helsingør Kommune;Ålsgårde
+5765;12.5399,56.0756;3140;Helsingør Kommune;Ålsgårde
 0;10.0052,55.4130;5591;Middelfart Kommune;Ålsbo
 0;9.4459,57.0514;9460;Jammerbugt Kommune;Alsbjerg
 0;10.2910,56.7551;9560;Mariagerfjord Kommune;Als
@@ -6889,7 +6911,7 @@
 0;11.4011,55.6430;4450;Holbæk Kommune;Akselholm
 0;9.0000,56.4667;7850;Viborg Kommune;Åkær
 0;10.1459,55.2321;5683;Assens Kommune;Akkerup
-2119;14.9198,55.0708;3720;Bornholm Kommune;Åkirkeby
+2109;14.9198,55.0708;3720;Bornholm Kommune;Åkirkeby
 0;10.2676,56.0363;8340;Aarhus Kommune;Ajstrup Strand
 0;10.0000,57.1667;9381;Ålborg Kommune;Ajstrup Hedehuse
 0;9.9880,57.1767;9381;Ålborg Kommune;Ajstrup
@@ -7030,6 +7052,7 @@
 0;10.1478,56.7420;9560;Mariagerfjord Kommune;Den hvide hest
 0;10.1468,56.7416;9560;Mariagerfjord Kommune;Visborg Forsamlingshus
 0;10.2604,56.7697;9560;Mariagerfjord Kommune;Hedens Forsamlingshus
+90;15.1866,55.3201;;Capital Region;Christiansø
 0;9.5015,55.0493;6200;Aabenraa Kommune;Skarrev
 0;8.3579,55.8873;6893;Ringkøbing-Skjern Kommune;Skaven Strand
 0;8.4900,56.5142;7600;Struer Kommune;Paris

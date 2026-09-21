@@ -820,6 +820,7 @@
 0;26.2167,10.3333;SD-60;Eastern Darfur;Tawur
 0;27.0333,12.4833;SD-55;Northern Darfur;Tawm Bishārah
 0;32.9833,13.8833;SD-38;Al Jazirah;Tawm Badr
+0;33.3126,14.0265;SD;;At Tumāt Wad az Zin
 37051;37.7290,18.4254;SD-36;Red Sea;Tokār
 0;30.0167,14.1333;SD-56;North Kordofan;Ţawkar
 0;24.8600,13.5170;SD-55;Northern Darfur;Ţawīlah
@@ -993,6 +994,7 @@
 0;36.1167,12.7000;SD-39;Al Qaḑārif;Shukrīyah
 0;32.0953,14.3908;SD-41;White Nile;Shukri
 0;33.5667,14.0333;SD-38;Al Jazirah;Shukkaba Ţāhā
+0;33.6167,14.0333;SD;;Shukkaba Hamid
 0;33.5833,14.3000;SD-38;Al Jazirah;Shukkaba
 0;31.9866,12.7074;SD-41;White Nile;Shīkār
 0;33.0181,14.1693;SD-38;Al Jazirah;Ash Shikenība
@@ -1258,6 +1260,7 @@
 0;35.9167,14.2500;SD-39;Al Qaḑārif;Rumaylah
 0;22.9167,13.1333;SD-47;Western Darfur;Gendernei
 0;35.8667,12.9500;SD-39;Al Qaḑārif;Rumaylah
+0;35.0412,12.9483;SD;;Rumela
 0;34.3500,12.2000;SD-42;Blue Nile;Rumaylah
 0;22.7135,12.3872;SD-61;Central Darfur;Rumalia
 0;23.9167,12.2333;SD-49;Southern Darfur;Rumalia
@@ -1657,6 +1660,7 @@
 0;32.7500,14.2000;SD-38;Al Jazirah;Maturab
 0;32.5811,14.1853;SD-38;Al Jazirah;Ma‘tūq
 0;32.2500,13.9500;SD-41;White Nile;Maţmar Ḑahr Juhaynah
+0;32.5667,14.0167;SD;;Maţmar
 0;23.9167,14.4833;SD-55;Northern Darfur;Maţar
 0;33.2072,15.0564;SD-38;Al Jazirah;Matammah
 0;34.3167,10.7833;SD-42;Blue Nile;Matammah
@@ -1759,6 +1763,7 @@
 0;32.4333,12.7667;SD-41;White Nile;Maḩbūbah
 0;29.2333,13.3500;SD-62;West Kordofan;Maḩbūb
 0;33.2286,15.0994;SD-38;Al Jazirah;Maḩas Ruqaybah
+0;32.9376,15.2838;SD;;Al Mahas Kutranj
 0;32.9116,15.0700;SD-38;Al Jazirah;Hillat Mihereb
 0;32.9500,15.0167;SD-38;Al Jazirah;Mahareiba Shotalab
 0;32.9333,15.0333;SD-38;Al Jazirah;Mahareiba Fakī ‘Umar
@@ -1824,6 +1829,7 @@
 0;26.7000,10.5333;SD-60;Eastern Darfur;Lesun
 0;23.5167,12.1333;SD-61;Central Darfur;Lerwa
 0;22.2602,13.7994;SD-47;Western Darfur;Leijaina
+0;32.5250,14.4090;SD;;Al Lighera
 0;23.3699,12.8836;SD-61;Central Darfur;Leili
 0;31.2181,11.9321;SD-50;Southern Kordofan;Lau Lau
 0;23.5833,15.1667;SD-55;Northern Darfur;Lauda
@@ -1857,6 +1863,7 @@
 0;23.6167,12.9000;SD-61;Central Darfur;Kurungdillo
 0;22.8500,12.6000;SD-61;Central Darfur;Kurto
 0;31.5500,18.1167;SD-43;Northern State;Kūrtī
+0;32.9660,15.2742;SD;;Kutranj
 0;22.2080,13.1187;SD-47;Western Darfur;Kurrur
 0;22.1767,13.1009;SD-47;Western Darfur;Kurru
 0;25.2500,12.5000;SD-49;Southern Darfur;Kurru
@@ -1880,6 +1887,7 @@
 0;22.2573,13.0608;SD-47;Western Darfur;Kunjuldi
 0;24.5000,14.1333;SD-55;Northern Darfur;Kunga
 0;36.0333,13.0833;SD-39;Al Qaḑārif;Kunaynah
+0;34.0167,13.9833;SD;;Kumur Hag es Sid
 0;33.5500,14.5333;SD-38;Al Jazirah;Kumur
 0;22.7667,13.4000;SD-47;Western Darfur;Kumudi
 0;33.1808,15.0931;SD-38;Al Jazirah;Kumor
@@ -2328,6 +2336,7 @@
 0;23.8833,12.0500;SD-49;Southern Darfur;Hureiz
 0;35.5667,13.6333;SD-39;Al Qaḑārif;Ḩumrah
 0;34.2833,12.1333;SD-42;Blue Nile;Ḩumrah
+0;33.2767,14.0434;SD;;Al Ḩumur Jubara
 0;33.4333,16.7167;SD-53;River Nile;Humeirab
 0;29.6000,13.3833;SD-56;North Kordofan;Ḩumayyir Kurkāb
 0;25.3500,10.8500;SD-49;Southern Darfur;Ḩumayyir
@@ -2343,6 +2352,7 @@
 0;27.6333,11.8333;SD-62;West Kordofan;Ḩumaydān
 0;22.5055,14.3762;SD-47;Western Darfur;Hameida
 0;23.5833,11.1667;SD-49;Southern Darfur;Ḩumaydah
+0;35.2833,16.3500;SD;;Ḩumarī
 0;33.3948,14.3625;SD-38;Al Jazirah;Ḩilewa
 0;33.1697,15.1019;SD-38;Al Jazirah;Ḩulaylah
 0;29.3500,14.2667;SD-56;North Kordofan;Ḩulaylah
@@ -2369,6 +2379,7 @@
 0;22.2593,13.7144;SD-47;Western Darfur;Hogung
 0;33.2786,15.0181;SD-38;Al Jazirah;Hodur
 0;33.1712,16.6238;SD-53;River Nile;El Hobagi
+0;32.4667,14.4667;SD;;Hizawi
 0;25.0667,10.6833;SD-49;Southern Darfur;Hineiga
 0;33.6333,13.6500;SD-58;Sennar;Hilmi
 0;34.3868,11.5557;SD-42;Blue Nile;Dār Āqil
@@ -2395,6 +2406,7 @@
 0;31.2667,11.7167;SD-50;Southern Kordofan;Ḩawţah
 0;32.5500,19.1167;SD-53;River Nile;Ḩawsh Faraneib
 0;33.2114,16.6478;SD-53;River Nile;Hawsh al Khawajah
+0;32.2500,18.9167;SD;;Ḩawsh al Juruf
 0;33.9872,18.0369;SD-53;River Nile;Hosh ed Dar
 0;32.8333,15.4000;SD-29;Khartoum;Hawila
 0;36.0000,15.7667;SD-52;Kassala;Haweida
@@ -2538,6 +2550,7 @@
 0;31.7667,13.2667;SD-56;North Kordofan;Habiko
 0;32.5333,15.1333;SD-41;White Nile;Ḩabīb Allāh
 0;33.5667,14.3833;SD-38;Al Jazirah;Ḩabīb Allāh
+0;32.7150,15.2596;SD;;Al Hideba
 0;26.8500,11.9667;SD-55;Northern Darfur;Ḩabīb
 0;26.9333,11.7500;SD-60;Eastern Darfur;Ḩabīb
 0;30.6000,13.8833;SD-56;North Kordofan;Habeina
@@ -3138,6 +3151,7 @@
 0;32.9106,16.5592;SD-53;River Nile;Hajar at Ter
 0;25.8667,14.0667;SD-55;Northern Darfur;Birtu
 0;24.1000,15.9500;SD-55;Northern Darfur;Bi’r Sindī
+0;35.4667,23.0667;SD;;Bi’r Shalatayn
 0;24.9167,11.7167;SD-49;Southern Darfur;Birkatulli
 0;22.6000,13.5333;SD-47;Western Darfur;Birkat Ţayr
 0;23.4500,13.5667;SD-47;Western Darfur;Birkat Saira
@@ -3390,6 +3404,7 @@
 33524;33.8833,13.3167;SD-58;Sennar;As Sūkī
 0;33.5667,16.7833;SD-53;River Nile;As Sufr
 0;32.1432,14.4842;SD-41;White Nile;Madinat Aş Şūfī
+0;34.7000,15.5000;SD;;Aş Şufayyah
 0;32.5185,15.6356;SD-29;Khartoum;Sababi
 0;25.2333,10.9500;SD-49;Southern Darfur;As Su‘ayfah
 0;34.5000,12.9500;SD-58;Sennar;As Su‘ayf
@@ -3665,6 +3680,7 @@
 0;32.4500,13.5833;SD-41;White Nile;Al Milḩ
 0;30.0333,12.4833;SD-50;Southern Kordofan;Al Milḩ
 40418;27.7333,11.0333;SD-62;West Kordofan;Al Mijlad
+0;32.5493,14.1732;SD;;Al Mijgha
 0;28.0500,11.0333;SD-62;West Kordofan;Al Miallug
 0;31.3333,12.2000;SD-50;Southern Kordofan;Al Messin
 0;28.6167,13.4333;SD-62;West Kordofan;Al Mes
@@ -3677,6 +3693,7 @@
 0;30.4677,15.1476;SD-56;North Kordofan;El Matara
 11366;33.3565,16.7095;SD-53;River Nile;El Matama
 0;32.8664,15.3111;SD-29;Khartoum;Al Msodiya
+0;32.9515,15.2592;SD;;Al Mased
 0;25.7833,14.0500;SD-55;Northern Darfur;Al Mashaba
 0;24.6000,11.5333;SD-49;Southern Darfur;Al Marwaḩah
 0;32.0167,15.4667;SD-56;North Kordofan;Al Maqarr
@@ -4232,6 +4249,7 @@
 0;32.4215,14.7211;SD-41;White Nile;Abu Ghanīm
 0;34.5167,11.1500;SD-42;Blue Nile;Abugga
 0;31.8667,13.1833;SD-56;North Kordofan;Abū Gelba
+0;36.4333,15.1667;SD;;Abū Gamal
 0;28.7500,13.5000;SD-62;West Kordofan;Abū Funduq
 0;28.1000,12.3000;SD-62;West Kordofan;Abū Fawaghi
 0;30.4167,19.6667;SD-43;Northern State;Abū Fāţimah
@@ -4992,6 +5010,7 @@
 0;32.4452,15.2967;SD-29;Khartoum;Hillat ‘Amor
 0;32.3937,15.2485;SD-29;Khartoum;Hillat al Hajab
 0;32.4588,15.3006;SD-29;Khartoum;Hillat Jibel at Tena
+0;32.4428,15.2368;SD;;Hillat al Kambo
 0;32.4326,15.2282;SD-29;Khartoum;Hillat esh Sheikh al Basher
 0;32.4303,15.2108;SD-29;Khartoum;Hillat Sharafat
 0;32.4098,15.2044;SD-29;Khartoum;Hillat Ya‘qob
@@ -5023,6 +5042,7 @@
 0;32.4149,15.3327;SD-29;Khartoum;Hillat Baraka
 0;32.3056,15.0389;SD-41;White Nile;Hillat esh Sheikh Taha
 0;32.4526,15.0002;SD-41;White Nile;Hillat Abu Idres
+0;32.4143,15.1845;SD;;Hillat Wad Shrusha
 0;31.8829,15.1718;SD-56;North Kordofan;Ghabt al Andaraba
 0;31.8533,15.0723;SD-56;North Kordofan;Hillat Haj Mohmmed Al Haryan
 0;33.4162,15.8568;SD-29;Khartoum;Farig Wlad al lamin Wad al ‘Ajab
@@ -5427,6 +5447,7 @@
 0;32.1376,14.7269;SD-41;White Nile;Kadāba
 0;32.1327,14.7082;SD-41;White Nile;Ad Dam
 0;32.2140,14.6718;SD-41;White Nile;Ad Darādir
+0;32.5632,14.3448;SD;;Fūq
 0;32.2255,14.6509;SD-41;White Nile;Al Qarrāsa ash Sharqiyya
 0;32.2820,14.5588;SD-41;White Nile;Wad al Hāj
 0;32.2333,14.5259;SD-41;White Nile;Ghireqana
@@ -5434,6 +5455,7 @@
 0;32.1457,14.5078;SD-41;White Nile;Assūfi
 0;32.4112,14.5347;SD-41;White Nile;Um Salīm
 0;32.4670,14.5327;SD-38;Al Jazirah;Jatara
+0;32.4964,14.5501;SD;;Wad Musraḩ
 0;32.4758,14.7053;SD-41;White Nile;Abu ‘Ush
 0;32.4214,14.7575;SD-41;White Nile;Wad Nūr ad Dāyim
 0;32.4572,14.8607;SD-41;White Nile;Ţileḩa
@@ -5882,6 +5904,7 @@
 0;32.7771,14.2461;SD-38;Al Jazirah;Arba‘a Wa‘ishrin al Qurashi
 0;32.7179,14.2522;SD-38;Al Jazirah;An Nūr
 0;32.6707,14.2546;SD-38;Al Jazirah;Wad Ḩisen
+0;32.5128,14.2479;SD;;Abu Mirekha
 0;32.5749,14.2385;SD-41;White Nile;Farīq al Fadul
 0;32.6279,14.2233;SD-38;Al Jazirah;Wad Kambu
 0;32.6672,14.2317;SD-38;Al Jazirah;Bashīr
@@ -5895,6 +5918,7 @@
 0;32.7443,14.1629;SD-38;Al Jazirah;Al Masara‘a
 0;32.6388,14.1817;SD-38;Al Jazirah;Al ‘Atasha
 0;32.5808,14.1967;SD-38;Al Jazirah;Bābikir
+0;32.5061,14.1994;SD;;Al‘ireki
 0;32.5643,14.1653;SD-38;Al Jazirah;Aj ‘Jimayyil
 0;32.5909,14.1655;SD-38;Al Jazirah;Alla‘ota
 0;32.6421,14.1470;SD-38;Al Jazirah;Qineda
@@ -6471,19 +6495,31 @@
 0;34.7867,12.8096;SD-58;Sennar;‘Iref Ad Dīk
 0;34.8755,12.7338;SD-58;Sennar;Wad al Ḩāj
 0;35.0175,12.9677;SD-39;Al Qaḑārif;Aḑ Ḑiresa
+0;35.0473,12.9349;SD;;Sanqir
 0;35.0654,12.9125;SD-58;Sennar;Bābikir
 0;35.0598,12.9129;SD-58;Sennar;Hashīm
+0;35.0748,12.9061;SD;;Hana ’Azraq
 0;35.1081,12.9129;SD-39;Al Qaḑārif;Aj Jammām
 0;35.1248,12.9063;SD-58;Sennar;Hanā Shitef
 0;35.1292,12.8985;SD-58;Sennar;Khashm al Baţţa
+0;35.1444,12.8914;SD;;Um Kurā‘
+0;35.1536,12.8854;SD;;Tabaldiyya
+0;35.1638,12.8745;SD;;Um Kakar
 0;35.1644,12.8599;SD-58;Sennar;‘En Aj Jamal
 0;35.1733,12.8484;SD-58;Sennar;Um Salāla
 0;35.2244,12.8093;SD-58;Sennar;’Afrush Tobak
 0;35.2394,12.7981;SD-58;Sennar;Arruqāb
 0;35.2775,12.7913;SD-58;Sennar;Abu Qash
 0;35.3148,12.7715;SD-58;Sennar;‘Ibek
+0;35.3397,12.7492;SD;;Daleba
+0;35.3654,12.7386;SD;;Khashm al Baţţa
+0;35.3857,12.7434;SD;;Karanka
 0;35.4217,12.7302;SD-58;Sennar;Hujāra
+0;35.4506,12.7363;SD;;Kākamūta
+0;35.4673,12.7358;SD;;Karsh al Fīl
+0;35.3916,12.7426;SD;;’As Ubri
 0;35.1051,12.9146;SD-39;Al Qaḑārif;Bīri
+0;35.2676,12.8125;SD;;‘Aradeba
 0;35.1302,12.8874;SD-58;Sennar;Ramaḑān
 0;31.0204,12.4989;SD-56;North Kordofan;Janqāro
 0;31.0247,12.4857;SD-56;North Kordofan;Zarāmi
@@ -6849,6 +6885,10 @@
 0;24.1466,12.9903;SD-61;Central Darfur;Turru
 0;24.1643,12.9951;SD-61;Central Darfur;Wastani
 0;33.9675,18.0839;SD-53;River Nile;El Khor & Nagazu
+0;23.7556,10.9155;SD;;Abrabi
+0;23.7238,10.8798;SD;;El Hamra
+0;23.6525,10.8795;SD;;Kirakira
+0;23.7590,10.3351;SD;;Et Teitel
 0;32.5567,12.4727;SD-41;White Nile;Al ‘Āqir
 0;32.7804,12.4781;SD-41;White Nile;Jūri
 0;32.5367,12.4527;SD-41;White Nile;Kihelab
@@ -7013,6 +7053,9 @@
 0;23.4312,12.7369;SD-61;Central Darfur;Wirim Bau
 0;23.4166,12.7280;SD-61;Central Darfur;Zuli
 0;23.4620,12.5964;SD-61;Central Darfur;Solongei
+0;28.6167,9.3168;SD;;Agok
+0;34.6857,11.9823;SD;;Al Roseires
+0;28.4125,9.4808;SD;;Babanousa
 0;24.9794,10.2746;SD-49;Southern Darfur;Abu Gurr
 0;25.0098,9.9986;SD-49;Southern Darfur;Et Tawila
 0;25.0054,10.0146;SD-49;Southern Darfur;Abu ’Ali
@@ -7079,6 +7122,8 @@
 0;24.8580,10.6112;SD-49;Southern Darfur;Kubbir
 0;24.8757,10.5994;SD-49;Southern Darfur;Hammur
 0;24.8329,10.5843;SD-49;Southern Darfur;Kubbir
+0;34.0836,14.1125;SD;;Al Fao
+0;29.9668,10.6203;SD;;Al Buram
 0;29.8728,10.3953;SD-62;West Kordofan;Mahafir
 0;29.4031,10.7436;SD-62;West Kordofan;El Geref
 0;30.0047,10.5880;SD-50;Southern Kordofan;Damaguto
@@ -7303,8 +7348,15 @@
 0;22.5070,12.0498;SD-47;Western Darfur;Merise
 0;22.6646,12.4997;SD-61;Central Darfur;Didim
 0;22.9496,12.4997;SD-61;Central Darfur;Segargarri
+0;22.7041,13.9913;SD;;Jebel Moon
+0;23.0340,11.4071;SD;;Seleleh
+0;24.6363,11.8291;SD;;Bulbul
+0;23.3117,13.4771;SD;;Saraf Omra
+0;23.2832,11.9500;SD;;Mukjar
+0;23.4503,13.6683;SD;;Serief Ben Hussein
 120000;25.1403,11.2754;SD-49;Southern Darfur;Gereida
 0;24.9332,11.9304;SD-49;Southern Darfur;Kashalongo
+0;25.1732,13.1868;SD;;Wadi Mora
 0;28.1794,9.7444;SD-62;West Kordofan;Dugdug
 0;28.2422,9.8006;SD-62;West Kordofan;Dinga
 0;29.9992,10.7092;SD-50;Southern Kordofan;Tendilla
@@ -7317,13 +7369,22 @@
 0;26.8969,9.8807;SD-60;Eastern Darfur;Buta
 0;26.9545,9.8349;SD-60;Eastern Darfur;Umm Keddula
 0;26.9920,9.7886;SD-60;Eastern Darfur;Ajuwok
+0;29.4025,10.0025;SD;;Heglig
+0;25.4431,12.0853;SD;;Labado
+0;24.7528,13.8530;SD;;Korma
 0;32.5751,15.6012;SD-29;Khartoum;Burri Al Lamab
 0;28.3462,11.7119;SD-62;West Kordofan;Al-Fulah
 0;32.5825,15.5182;SD-29;Khartoum;Al Azhari
 0;32.5597,15.6061;SD-29;Khartoum;Burri Al Mahas
+0;30.5024,12.8435;SD;;Lambar Rimi
+0;34.4933,15.2859;SD;;Kuntaja
 0;32.5078,15.5686;SD-29;Khartoum;Al Rumailah
 0;32.5653,15.5390;SD-29;Khartoum;Block 47
+0;28.4117,14.4511;SD;;Makululu
+0;24.9781,16.8906;SD;;Fonte Ines
 0;34.1414,13.2659;SD-58;Sennar;Dinder
+0;24.7094,10.7114;SD;;Wd Hajjam
+0;23.3279,11.9909;SD;;Mugar
 0;30.4105,19.5901;SD-43;Northern State;Kerma
 1109;33.2492,14.4741;SD-38;Al Jazirah;Nagaro
 0;24.0432,12.9651;SD-61;Central Darfur;Nertiti
@@ -7405,6 +7466,7 @@
 0;23.2586,15.0755;SD-47;Western Darfur;Karnoi
 15000;32.3771,13.8823;SD-41;White Nile;ALdinigila wad dhahi
 0;22.1587,12.6963;SD-47;Western Darfur;Agra
+0;22.1675,12.6920;SD;;Ndurita
 0;22.1361,12.6763;SD-47;Western Darfur;Mermero
 0;22.1464,12.6788;SD-47;Western Darfur;Jaileta
 0;22.0879,12.6869;SD-47;Western Darfur;Kassi Mbelee
@@ -7703,7 +7765,10 @@
 0;23.0150,13.2385;SD-47;Western Darfur;Melimeli
 0;22.5925,12.1249;SD-47;Western Darfur;Khor Branga
 0;22.5048,12.0633;SD-47;Western Darfur;Jimeza Nabakaya
+0;22.5148,12.0538;SD;;Jimeza Babiker
+0;22.4938,12.0448;SD;;Jimeza Babiker B
 0;22.5015,12.0870;SD-47;Western Darfur;Jimeza Sunta
+0;22.5824,12.0692;SD;;Hile Tamer
 0;22.5602,12.0721;SD-47;Western Darfur;Rama Kaia
 0;22.5478,12.1080;SD-47;Western Darfur;Buro
 0;22.5125,12.1384;SD-47;Western Darfur;Hajer Bagar

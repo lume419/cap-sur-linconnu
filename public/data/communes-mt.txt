@@ -164,7 +164,7 @@
 0;14.3736,35.9100;MGR;L-Imġarr;Binġemma
 0;14.4086,35.9122;MST;Il-Mosta;Beżbeżija
 4689;14.4521,35.9021;BZN;Balzan;Balzan
-0;14.4542,35.9386;NXR;In-Naxxar;Baħar iċ-Ċagħaq
+1250;14.4542,35.9386;NXR;In-Naxxar;Baħar iċ-Ċagħaq
 11377;14.4425,35.8897;ATD;Attard;Attard
 0;14.3486,35.8944;MGR;L-Imġarr;Il-Baħrija
 0;14.5246,35.8924;BRG;Il-Birgu;Bighi

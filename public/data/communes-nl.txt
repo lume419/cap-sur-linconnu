@@ -1541,7 +1541,7 @@
 2315;4.9408,51.6559;5109;Dongen Municipality;'s Gravenmoer
 474292;4.2986,52.0767;2513;Gemeente Den Haag;Den Haag
 9000;4.6167,51.7800;3295;Hoeksche Waard;s-Gravendeel
-0;5.1181,52.2400;1243;Wijdemeren;s-Graveland
+0;5.1220,52.2380;1243;Wijdemeren;s-Graveland
 1530;5.4840,53.2182;8855;Waadhoeke;Sexbierum
 5035;6.0375,51.4125;5975;Horst aan de Maas Municipality;Sevenum
 0;4.8681,51.6100;4903;Oosterhout Municipality;Seters
@@ -1971,7 +1971,7 @@
 365;4.9264,52.4817;1451;Landsmeer Municipality;Purmerland
 80117;4.9597,52.5050;1441;Purmerend Municipality;Purmerend
 0;4.9861,52.4958;1445;Purmerend Municipality;Purmerbuurt
-0;4.9833,52.5000;1445;Purmerend Municipality;Purmer
+0;4.9980,52.4780;1445;Purmerend Municipality;Purmer
 0;6.2625,52.6142;7715;Staphorst Municipality;Punthorst
 1105;5.5903,51.8783;6655;Gemeente Druten;Puiflijk
 0;4.2042,51.3242;4568;Hulst Municipality;Prosperdorp
@@ -6736,6 +6736,7 @@
 0;6.0750,51.8950;6913;Gemeente Zevenaar;Aerdenburg
 0;5.8208,51.7625;6582;Heumen Municipality;Vogelzang
 0;6.0500,51.8750;6566;Berg en Dal Municipality;Kijfwaard
+0;7.3153,51.7825;;Gelderland;Klispoel
 0;5.7708,51.8050;6603;Gemeente Wijchen;Berendonck
 0;5.7972,51.7683;6611;Heumen Municipality;Sleeburg
 305;5.6111,52.1992;3781;Barneveld Municipality;Prinsenkamp

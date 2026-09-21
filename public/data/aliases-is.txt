@@ -605,3 +605,23 @@ os;Акранес;Akranes
 uk;Акранес;Akranes
 ru;Акранес;Akranes
 zh;阿克拉内斯;Akranes
+is;Hólar í Hjaltadal;Hólar
+en;Holar i Hjaltadal;Hólar
+is;Hóla;Hólar
+is;Hólum;Hólar
+be;Голар;Hólar
+ru;Хоулар;Hólar
+zh-Hans;侯拉尔;Hólar
+uk;Голар-ін-Г'яльтадалюр;Hólar
+zh;侯拉爾;Hólar
+ja;ホラール;Hólar
+is;Hjalteyrar;Hjalteyri
+en;Þykkvibaer;Þykkvibær
+is;Þykkvabæ;Þykkvibær
+is;Þykkvabæjar;Þykkvibær
+is;Laugarási;Laugarás
+en;Brjanslaekur;Brjánslækur
+is;Brjánslæk;Brjánslækur
+is;Borg í Grímsnesi;Borg
+en;Borg in Grimsnes;Borg
+is;Borgar í Grímsnesi;Borg

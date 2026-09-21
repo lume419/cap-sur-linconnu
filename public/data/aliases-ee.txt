@@ -6367,3 +6367,8 @@ ru;Галбин;Galbin
 ru;Город Лихула;Lihula Linn
 ru;Уус-Сытке;Uus-Sõtke
 ru;Мяхма;Mahma
+sv;Bakbyn;Tagaküla
+sv;Lillbyn;Tagaküla
+sv;Norrbyn;Tagaküla
+ru;Кыргемяэ Раба;Kõrgemäe Raba
+ru;Осмуссааре;Osmussaare

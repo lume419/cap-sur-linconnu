@@ -7423,6 +7423,7 @@
 0;5.0859,51.0491;3290;Brabant Flamand;Hoste
 0;5.4156,49.8167;6840;Luxembourg;Hosseuse
 0;5.1630,50.6158;4260;Liège;Hosdent
+0;6.2500,50.6167;;Wallonia;Hoscheit
 0;5.0833,51.2833;2470;Anvers;Horzeleind
 0;4.4833,51.2667;2900;Anvers;Horst
 0;4.0465,50.6087;7060;Hainaut;Horruette

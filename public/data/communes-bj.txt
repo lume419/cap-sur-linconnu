@@ -212,6 +212,7 @@
 0;1.6500,9.7000;BJ-13;Donga;Tyilirha
 0;1.9833,6.6667;BJ-15;Mono;Tuivi
 0;3.0229,11.2884;BJ-08;Atakora;Tui
+0;1.6333,7.4000;BJ;;Tsomanéhoué
 0;1.0946,10.9250;BJ-08;Atakora;Tsizennkouga
 0;1.6500,6.9333;BJ-12;Kouffo;Tsiglihoué
 0;0.9275,10.3771;BJ-08;Atakora;Trapiengou
@@ -283,6 +284,7 @@
 0;2.4116,8.4932;BJ-11;Collines;Tokuidoho
 0;1.9509,7.4062;BJ-18;Zou;Tokpota
 0;1.6833,6.8500;BJ-12;Kouffo;Tokpohoué
+0;1.5977,6.6618;BJ;;Tokpli
 0;2.0398,6.6992;BJ-09;Atlantique;Tokpa
 0;1.8242,6.6558;BJ-15;Mono;Tokpa
 0;2.3000,6.4500;BJ-09;Atlantique;Tokpa
@@ -805,6 +807,7 @@
 0;1.8002,6.4405;BJ-15;Mono;Sazué
 0;3.0322,9.5286;BJ-10;Borgou;Sazakounga
 0;3.0759,9.2417;BJ-10;Borgou;Sayounkparo
+0;3.1294,9.2557;BJ;;Sayounga
 0;1.9761,10.3252;BJ-08;Atakora;Sayakrou
 0;1.7577,9.4515;BJ-13;Donga;Sawoundi
 0;1.8000,7.8333;BJ-11;Collines;Sawo
@@ -868,6 +871,7 @@
 0;2.8189,10.3595;BJ-10;Borgou;Samokonérou
 0;2.8298,10.2655;BJ-10;Borgou;Samokonarou
 0;3.0596,9.1881;BJ-10;Borgou;Sammboga
+0;3.1422,9.2467;BJ;;Samérinéga
 0;1.5049,9.9483;BJ-13;Donga;Sambalrhou
 0;0.9122,10.6845;BJ-08;Atakora;Samahou
 0;2.0000,7.3333;BJ-18;Zou;Samadjagon
@@ -1179,6 +1183,7 @@
 0;3.1773,9.8131;BJ-10;Borgou;Obérougando
 0;3.1345,9.5271;BJ-10;Borgou;Obega
 0;0.8351,10.3675;BJ-08;Atakora;Nyianandé
+0;1.3364,9.9952;BJ;;Ntounkoué
 0;2.7124,10.9475;BJ-07;Alibori;Nouoka
 0;1.8500,7.5167;BJ-18;Zou;Noudovagon
 0;1.3318,10.4977;BJ-08;Atakora;Nouanouarga
@@ -1588,6 +1593,7 @@
 0;1.2127,10.5617;BJ-08;Atakora;Koutiékongou
 0;0.9835,10.6712;BJ-08;Atakora;Koutiéga
 0;1.4539,9.7705;BJ-13;Donga;Koutidiao
+0;1.3579,9.9530;BJ;;Koutiandi
 0;2.6495,6.6134;BJ-17;Plateau;Kouti
 0;3.7995,10.6890;BJ-07;Alibori;Kouté
 0;1.1759,10.3423;BJ-08;Atakora;Koutchounchoungou
@@ -1672,6 +1678,7 @@
 0;1.7676,7.4960;BJ-18;Zou;Koukouékamé
 0;2.8021,10.0026;BJ-10;Borgou;Koukoubouébakou
 0;1.1255,10.2786;BJ-08;Atakora;Koukouantongou
+0;1.0619,10.1768;BJ;;Koukouangou
 0;1.0749,10.3946;BJ-08;Atakora;Koukouan
 0;1.2288,10.2352;BJ-08;Atakora;Koukouan
 0;1.0637,10.3551;BJ-08;Atakora;Koukouagou
@@ -1982,6 +1989,7 @@
 0;3.7136,10.8719;BJ-07;Alibori;Kankari
 0;1.5247,9.5291;BJ-13;Donga;Kankalo
 0;1.0713,10.7229;BJ-08;Atakora;Kaninaranzéka
+0;1.3524,9.5771;BJ;;Kanièfèlè
 0;1.9796,10.6474;BJ-08;Atakora;Kaniama
 0;2.0683,10.7656;BJ-08;Atakora;Kangourou
 0;0.8564,10.6391;BJ-08;Atakora;Kané
@@ -2055,6 +2063,7 @@
 0;3.5158,11.8084;BJ-08;Atakora;Issaka Tounga
 0;2.6220,7.0885;BJ-17;Plateau;Issaba
 0;2.6779,7.4097;BJ-17;Plateau;Irocogny
+0;1.4823,9.2316;BJ;;Inkolonié
 0;1.2305,10.3993;BJ-08;Atakora;Inafonnté
 0;1.1167,10.3167;BJ-08;Atakora;Inadiponi
 0;2.7250,9.9763;BJ-10;Borgou;Ina
@@ -2120,6 +2129,7 @@
 0;2.1676,7.2083;BJ-18;Zou;Hizan Kogédé
 3604;2.1667,6.7667;BJ-09;Atlantique;Hinvi
 13450;2.2500,6.4167;BJ-09;Atlantique;Hévié
+0;1.8453,6.2839;BJ;;Hévé
 0;2.4920,6.5858;BJ-16;Ouémé;Hétin-Sota
 0;2.4833,6.6000;BJ-16;Ouémé;Hétin
 0;2.2333,7.8500;BJ-11;Collines;Henhimé
@@ -2512,6 +2522,7 @@
 0;1.3082,10.1114;BJ-08;Atakora;Fafa
 0;2.5728,7.4542;BJ-17;Plateau;Ewé
 0;2.5550,7.3492;BJ-17;Plateau;Evéji
+0;1.6333,7.1167;BJ;;Esuimé
 0;1.8113,7.9874;BJ-11;Collines;Essaignon
 0;1.6667,7.7500;BJ-11;Collines;Eouihéra
 0;1.9500,7.4000;BJ-18;Zou;Emayou
@@ -3273,6 +3284,7 @@
 20326;2.6512,6.5559;BJ-16;Ouémé;Avrankou
 0;2.0012,7.3009;BJ-18;Zou;Avogbè
 0;2.0167,7.2500;BJ-18;Zou;Avocanzou
+0;1.8918,6.2939;BJ;;Avlo
 0;1.7167,6.9333;BJ-12;Kouffo;Avégodoui
 0;1.6564,6.9565;BJ-12;Kouffo;Avégodo
 0;1.7500,7.0167;BJ-12;Kouffo;Avégamé
@@ -3334,6 +3346,7 @@
 0;3.0692,11.5156;BJ-08;Atakora;Arafan
 0;1.9333,6.7833;BJ-12;Kouffo;Aplanou
 26340;1.6833,6.9333;BJ-12;Kouffo;Aplahoué
+0;1.6337,8.0857;BJ;;Apaki
 0;2.0721,8.0016;BJ-11;Collines;Aouniakamé
 0;1.8833,7.3333;BJ-18;Zou;Aouiangon
 0;1.9833,7.0167;BJ-18;Zou;Aouakamé
@@ -3365,6 +3378,7 @@
 0;1.7964,7.4843;BJ-18;Zou;Amakpa
 0;1.7000,7.5333;BJ-18;Zou;Alouhouéhoué
 0;1.5007,9.2865;BJ-13;Donga;Alori
+0;2.2333,6.3333;BJ;;Alohovè
 0;1.8998,8.1486;BJ-11;Collines;Aloba
 0;2.9188,11.3366;BJ-07;Alibori;Alnafinda
 0;1.9556,7.1965;BJ-18;Zou;Allomakanmé

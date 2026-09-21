@@ -4864,6 +4864,7 @@
 0;25.6500,42.0333;6411;Димитровград / Dimitrovgrad;Chernogorovo
 0;26.7500,43.9333;7614;Главиница / Glavinica;Chernogor
 0;27.0000,43.5333;9778;Венец / Venec;Chernoglavtsi
+0;24.1833,41.3500;;Smolyan;Chernoglavtsi
 0;26.2774,41.7632;6524;Свиленград / Svilengrad;Chernodab
 0;23.4100,43.6503;3649;Вълчедръм / Vulchedrum;Cherni Vrah
 0;27.2000,43.0500;9827;Смядово / Smjadovo;Cherni Vrah

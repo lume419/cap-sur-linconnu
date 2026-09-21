@@ -804,3 +804,9 @@ lt;Kerkuanas;Kerkouane
 uk;Керкуан;Kerkouane
 pl;Karkawan;Kerkouane
 sv;Kerkuan;Kerkouane
+ar;ربيبة;Rebiba
+ar;المزونة;Mezzouna
+ar;تيارت;Tieret
+ar;معتمدية رجيم معتوق;Rejim Maatoug
+ar;رجيم معتوق;Rejim Maatoug
+ar;اولاد ضو;Awlad dawo

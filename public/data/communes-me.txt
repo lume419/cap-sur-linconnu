@@ -1,94 +1,3984 @@
-9121;20.1665,42.8330;84310;;Rožaje
-0;20.2161,42.9103;84315;;Biševo
-0;20.2964,42.8867;84314;;Bać
-517;18.8102,42.4339;81255;;Njeguši
-1937;19.1232,43.1542;84220;;Žabljak
-393;19.4617,43.2167;84214;;Vrulja
-0;19.3128,42.0067;85366;;Vladimir
-337;19.0925,42.2456;81305;;Virpazar
-0;18.6342,42.8200;81428;;Velimlje
-10828;19.2244,41.9294;85360,85362;;Ulcinj
-493;19.2567,42.5842;81205;;Ubli
-3789;19.3297,42.3658;81206;;Tuzi
-0;18.7792,42.7447;81421;;Trubjela
-0;19.8242,42.7769;84322;;Trepča
-0;19.6386,43.0631;84212;;Tomaševo
-6280;18.6936,42.4362;85320;;Tivat
+0;20.2756,42.9208;;Rožaje Municipality;Vuča
+0;19.7853,42.9022;;Berane;Vuča
+0;20.0550,42.9519;;Petnjica Municipality;Savin Bor
+9121;20.1665,42.8330;84310;Rožaje Municipality;Rožaje
+0;20.2575,42.8931;;Rožaje Municipality;Radetina
+0;20.0247,42.9219;;Petnjica Municipality;Poroča
+0;20.1461,42.9364;;Rožaje Municipality;Paučina
+0;20.0486,42.9172;;Petnjica Municipality;Murovac
+0;20.0742,42.9672;;Petnjica Municipality;Kruščica
+0;18.7894,42.7564;;Opština Nikšić;Kruščica
+0;19.1497,42.5486;;Danilovgrad;Kruščica
+0;19.3783,42.4536;;Podgorica;Kruščica
+0;20.0372,42.8903;;Petnjica Municipality;Kalica
+0;20.0939,42.8594;;Rožaje Municipality;Kalače
+0;20.0519,42.9308;;Petnjica Municipality;Javorova
+0;20.3328,42.8936;;Rožaje Municipality;Jablanica
+3135;20.1619,42.8361;;Rožaje Municipality;Ibarac
+0;20.1761,42.8694;;Rožaje Municipality;Grahovo
+0;18.6714,42.6525;;Opština Nikšić;Grahovo
+0;19.8647,42.6906;;Andrijevica;Grahovo
+0;20.1153,42.8944;;Rožaje Municipality;Gornja Lovnica
+0;20.0333,42.6000;;Opština Plav;Dubočak [historical]
+0;20.0781,42.9444;;Petnjica Municipality;Dašča Rijeka
+0;20.1781,42.8081;;Rožaje Municipality;Dacići
+0;20.2328,42.9250;;Rožaje Municipality;Velike Crnokrpe
+0;20.3239,42.9119;;Rožaje Municipality;Donja Crnča
+0;20.2186,42.9422;;Rožaje Municipality;Bukovica
+0;18.8489,42.4350;;Cetinje;Bukovica
+0;20.0131,42.9472;;Petnjica Municipality;Bor
+0;20.0850,42.8461;;Rožaje Municipality;Bogaje
+0;20.2161,42.9103;84315;Rožaje Municipality;Biševo
+0;20.1969,42.8761;;Rožaje Municipality;Bijela Crkva
+0;20.2589,42.8711;;Rožaje Municipality;Gornji Besnik
+0;20.1300,42.9100;;Rožaje Municipality;Bašće
+0;20.2208,42.8453;;Rožaje Municipality;Balotići
+0;20.2964,42.8867;84314;Rožaje Municipality;Bać
+0;20.2906,42.9131;;Rožaje Municipality;Malindubrava
+0;20.3061,42.9172;;Rožaje Municipality;Gornja Crnča
+0;20.3181,42.9217;;Rožaje Municipality;Bovan
+0;20.1469,42.9053;;Rožaje Municipality;Dolina
+0;19.1878,43.5147;;Pljevlja;Dolina
+0;19.7289,43.1586;;Bijelo Polje;Dolina
+0;19.1092,43.3861;;Pljevlja;Dolina
+0;19.1733,43.4481;;Pljevlja;Dolina
+0;20.0297,42.9014;;Petnjica Municipality;Skenderska Kalica
+0;20.1039,42.9039;;Rožaje Municipality;Ćosovica
+0;20.1019,42.8831;;Rožaje Municipality;Zloglavlje
+0;20.1039,42.8772;;Rožaje Municipality;Honciće
+0;20.0931,42.8728;;Rožaje Municipality;Gusnice
+0;20.1408,42.8767;;Rožaje Municipality;Klanac
+0;20.1389,42.8706;;Rožaje Municipality;Donja Lovnica
+0;20.1344,42.8431;;Rožaje Municipality;Bačevac
+0;20.2219,42.8961;;Rožaje Municipality;Luke
+0;19.3303,43.2658;;Pljevlja;Luke
+0;19.1611,42.5642;;Danilovgrad;Luke
+0;19.8417,42.7175;;Berane;Luke
+0;19.3481,42.7289;;Opština Kolašin;Luke
+0;20.1708,42.8958;;Rožaje Municipality;Lučica
+0;20.1936,42.8375;;Rožaje Municipality;Plumci
+0;20.1717,42.8025;;Rožaje Municipality;Donji Bukelj
+0;20.1522,42.8208;;Rožaje Municipality;Halilović
+0;20.2100,42.7689;;Rožaje Municipality;Dubovik
+0;18.8847,42.4114;;Cetinje;Dubovik
+0;20.2375,42.9128;;Rožaje Municipality;Male Crnokrpe
+0;20.0025,42.5639;;Opština Plav;Kopiljača [historical]
+0;20.1386,42.8522;;Rožaje Municipality;Sređani
+0;20.1603,42.9047;;Rožaje Municipality;Grižice
+0;20.2494,42.8617;;Rožaje Municipality;Njeguši
+517;18.8102,42.4339;81255;Cetinje;Njeguši
+0;18.8261,42.4292;;Cetinje;Njeguši
+0;20.0742,42.5800;;Opština Plav;Bogićevica
+0;18.6389,42.5506;;Kotor;Bogićevica
+0;20.1958,42.7800;;Rožaje Municipality;Kaluđerski Laz
+0;20.2281,42.7933;;Rožaje Municipality;Kula
+0;20.1697,42.7883;;Rožaje Municipality;Gornji Bukelj
+0;20.1586,42.8003;;Rožaje Municipality;Peškovići
+0;20.1303,42.7808;;Rožaje Municipality;Bandžov
+0;20.1247,42.8158;;Rožaje Municipality;Redžića Krlje
+0;20.1044,42.8386;;Rožaje Municipality;Koljeno
+0;20.2294,42.8522;;Rožaje Municipality;Višnjice
+0;20.2647,42.8814;;Rožaje Municipality;Donji Besnik
+0;20.3072,42.8753;;Rožaje Municipality;Džudževići
+0;20.3197,42.8792;;Rožaje Municipality;Ovna
+0;20.3086,42.8883;;Rožaje Municipality;Kajevići
+0;20.2997,42.8983;;Rožaje Municipality;Pripec
+0;20.2281,42.8783;;Rožaje Municipality;Donje Biševo
+0;20.1217,42.8475;;Rožaje Municipality;Seošnica
+0;20.1167,42.8756;;Rožaje Municipality;Tuzeva Luka
+0;20.2097,42.9247;;Rožaje Municipality;Čoklije
+0;20.2344,42.9375;;Rožaje Municipality;Razdolje
+0;19.4689,43.2519;;Pljevlja;Razdolje
+0;18.5303,42.8861;;Opština Nikšić;Razdolje
+0;18.7692,42.7175;;Opština Nikšić;Razdolje
+0;20.1869,42.9408;;Rožaje Municipality;Kačari
+0;20.1886,42.9289;;Rožaje Municipality;Blace
+0;20.2069,42.9497;;Rožaje Municipality;Reparica
+0;20.1603,42.9625;;Rožaje Municipality;Rijeka
+0;19.2275,43.3078;;Pljevlja;Rijeka
+0;18.9100,42.2272;;Budva;Rijeka
+0;19.4211,42.7100;;Opština Kolašin;Rijeka
+0;19.4522,42.7250;;Opština Kolašin;Rijeka
+0;19.3664,42.7567;;Opština Kolašin;Rijeka
+0;20.3425,42.9022;;Rožaje Municipality;Stupa
+0;20.3453,42.8989;;Rožaje Municipality;Dračinovac
+0;20.0536,42.6069;;Opština Plav;Babino Polje
+0;20.0025,43.0133;;Bijelo Polje;Dragutinovići
+0;20.0000,42.6081;;Opština Plav;Jara
+0;20.0042,42.5242;;Opština Plav;Košutica
+0;20.0081,42.9336;;Petnjica Municipality;Trnavice
+0;20.0100,42.9089;;Petnjica Municipality;Muratovići
+0;20.0072,42.8956;;Petnjica Municipality;Skenderovići
+0;20.0042,42.9028;;Petnjica Municipality;Muhovići
+0;18.6417,42.5411;;Kotor;Zvečava
+0;19.1225,42.1281;;Bar;Zupci
+0;18.9444,42.2172;;Budva;Žukovica
+0;18.7547,42.6114;;Cetinje;Žukovica
+0;19.2836,41.9489;;Ulcinj;Zoganj
+0;19.2525,43.0931;;Opština Žabljak;Zminica
+0;19.8503,43.0250;;Bijelo Polje;Zminjac
+0;18.5375,42.9586;;Opština Nikšić;Zminjac
+0;18.5631,42.4839;;Herceg Novi;Žlijebi
+0;19.4578,42.8097;;Opština Kolašin;Žirci
+0;19.3172,43.3544;;Pljevlja;Židovići
+0;19.3219,43.3683;;Pljevlja;Židovići
+0;19.3442,43.3047;;Pljevlja;Zenica
+0;18.5767,42.4514;;Herceg Novi;Zelenika
+0;19.2483,42.4172;;Podgorica;Zelenika
+0;19.3808,43.2675;;Pljevlja;Zekavice
+0;19.3050,42.8433;;Opština Kolašin;Zavraca
+0;18.8847,42.8278;;Opština Nikšić;Zavraca
+0;18.5933,42.6775;;Opština Nikšić;Zaslap
+0;19.6256,43.0000;;Bijelo Polje;Žari
+0;19.4803,43.0617;;Bijelo Polje;Žari
+0;19.0525,42.1475;;Bar;Zankovići
+0;18.7233,43.0181;;Opština Nikšić;Zaljutnica
+0;19.1314,42.0672;;Bar;Zaljevo
+0;19.3919,42.5269;;Podgorica;Zagreda
+0;19.0706,42.5456;;Danilovgrad;Zagreda
+0;19.9383,42.8675;;Berane;Zagrađe
+0;19.0217,42.1467;;Bar;Zagrađe
+0;19.8508,42.5803;;Gusinje Municipality;Zagrađe
+0;19.3417,42.5194;;Podgorica;Zagrađe
+0;19.7825,42.9189;;Berane;Zagrad
+550;19.0911,42.7500;;Opština Nikšić;Zagrad
+0;19.8967,42.8206;;Berane;Zagorje
+0;19.0275,42.6158;;Danilovgrad;Zagorak
+0;18.6581,42.7053;;Opština Nikšić;Zagora
+70;19.0653,42.4092;;Cetinje;Zagora
+0;18.7494,42.3025;;Kotor;Zagora
+39;18.9969,42.3433;;Cetinje;Začir
+0;18.7728,43.1422;;Opština Plužine;Zabrđe
+0;19.7842,42.7619;;Andrijevica;Zabrđe
+0;18.8653,43.0281;;Opština Plužine;Zabrđe
+0;19.3303,43.3178;;Pljevlja;Zabrđe
+76;18.9083,43.0436;;Opština Plužine;Zabrđe
+0;18.5953,42.4192;;Herceg Novi;Zabrđe
+1937;19.1232,43.1542;84220;Opština Žabljak;Žabljak
+0;19.8403,42.5294;;Gusinje Municipality;Vusanje
+0;18.9842,43.5133;;Pljevlja;Vukšići
+0;19.3414,42.3411;;Tuzi Municipality;Vuksanlekići
+0;19.2000,42.3344;;Podgorica;Gornji Vukovci
+0;18.8522,42.4672;;Cetinje;Vuči Do
+0;18.6367,42.5592;;Kotor;Vuči Do
+0;18.5250,42.8861;;Opština Nikšić;Vuči Do
+393;19.4617,43.2167;84214;Pljevlja;Vrulja
+0;19.4172,42.7889;;Opština Kolašin;Vrujice
+0;19.8997,43.0625;;Bijelo Polje;Vrh
+68;18.9275,42.3267;;Cetinje;Vrela
+0;19.3703,43.2589;;Pljevlja;Vrela
+0;19.8344,42.5736;;Gusinje Municipality;Vrela
+0;19.2200,43.1564;;Opština Žabljak;Vrela
+0;19.2994,42.4336;;Podgorica;Vrela
+0;19.2858,43.2942;;Pljevlja;Vrbica
+0;18.5106,42.9169;;Opština Nikšić;Vrbica
+0;18.9203,42.4056;;Cetinje;Vrbica
+0;18.4889,42.9342;;Opština Nikšić;Gornja Vrbica
+0;19.3494,42.4594;;Podgorica;Gornja Vrbica
+0;19.9950,42.8775;;Petnjica Municipality;Gornja Vrbica
+0;19.1214,43.3558;;Pljevlja;Vrba
+66;18.9117,42.2500;;Budva;Vrba
+5;18.8108,42.4350;;Cetinje;Vrba
+0;19.1331,43.3450;;Pljevlja;Vrba
+0;19.3964,42.4675;;Podgorica;Vrba
+0;18.7319,42.3608;;Kotor;Vranovići
+244;19.1344,42.2781;;Podgorica;Vranjina
+0;19.6264,42.7858;;Opština Kolašin;Vranještica
+903;19.2978,42.3258;;Tuzi Municipality;Vranj
+0;19.1631,43.4233;;Pljevlja;Vojtina
+0;19.9214,42.5786;;Opština Plav;Vojno Selo
+0;19.4825,42.8633;;Opština Kolašin;Bistrica Lipovska
+0;18.8744,42.4581;;Cetinje;Vojkovići
+0;18.8975,43.1708;;Opština Plužine;Vojinovići
+0;19.5189,42.8061;;Opština Kolašin;Vladoši
+0;19.2861,42.3431;;Tuzi Municipality;Vladni
+0;19.3128,42.0067;85366;Ulcinj;Vladimir
+0;18.9928,42.6256;;Opština Nikšić;Vitasojevići
+0;18.7331,43.0328;;Opština Nikšić;Višnjića Do
+0;19.1850,43.3131;;Pljevlja;Višnjica
+0;19.8858,42.5647;;Gusinje Municipality;Višnjevo
+0;18.7769,42.2978;;Kotor;Višnjevo
+0;19.2825,42.7947;;Opština Kolašin;Višnje
+337;19.0925,42.2456;81305;Bar;Virpazar
+0;19.8347,42.8014;;Berane;Vinicka
+0;19.0958,42.6181;;Danilovgrad;Vinići
+0;18.5953,42.7275;;Opština Nikšić;Vilusi
+0;19.3953,42.5764;;Podgorica;Vilac
+0;19.4433,43.3292;;Pljevlja;Vijenac
+0;19.0956,43.3886;;Pljevlja;Vijenac
+18;18.9761,42.3297;;Cetinje;Vignjevići
+0;19.2986,43.3486;;Pljevlja;Vidre
+0;18.4836,42.8139;;Opština Nikšić;Vidne
+0;19.5181,42.6486;;Podgorica;Veruša
+0;18.7411,42.5131;;Kotor;Velje Selo
+0;19.1983,42.0347;;Bar;Velje Selo
+0;19.2772,42.7803;;Opština Kolašin;Donje Velje Duboko
+0;19.2244,42.4881;;Podgorica;Velje Brdo
+0;18.6342,42.8200;81428;Opština Nikšić;Velimlje
+0;18.6172,42.8258;;Opština Nikšić;Velimlje
+0;19.9561,42.6644;;Opština Plav;Velika
+0;19.8389,42.8728;;Berane;Veliđe
+0;18.9647,42.5258;;Cetinje;Velestovo
+153;19.4019,43.0942;;Pljevlja;Vaškovo
+0;19.3731,43.1789;;Pljevlja;Varine
+0;18.9731,42.2622;;Bar;Utrg
+0;18.8822,43.1850;;Opština Plužine;Unač
+0;19.8464,42.6831;;Andrijevica;Ulotina
+0;18.9889,42.3792;;Cetinje;Donji Ulići
+10828;19.2244,41.9294;85360,85362;Ulcinj;Ulcinj
+0;19.7044,43.0989;;Bijelo Polje;Ujniče
+52;18.9175,42.3400;;Cetinje;Ugnji
+0;18.8739,42.6150;;Cetinje;Ubli
+493;19.2567,42.5842;81205;Podgorica;Ubli
+0;18.6228,42.5114;;Herceg Novi;Ubli
+0;19.3958,42.4906;;Podgorica;Ubli
+0;18.5325,42.9419;;Opština Nikšić;Ubli
+0;19.3936,42.5211;;Podgorica;Ubalac
+0;18.7178,42.5047;;Kotor;Ubalac
+0;18.8439,42.4753;;Cetinje;Uba
+0;19.0614,42.5972;;Danilovgrad;Tvorilo
+0;19.4925,42.6944;;Podgorica;Tuzi Ljevorečke
+3789;19.3297,42.3658;81206;Tuzi Municipality;Tuzi
+0;19.2003,42.9486;;Opština Šavnik;Tušina
+0;18.6358,42.7858;;Opština Nikšić;Tupan
+0;19.1403,43.4953;;Pljevlja;Tupan
+0;18.9117,42.2450;;Budva;Tudorovići
+0;19.1450,42.1308;;Bar;Tuđemili
+0;19.9364,42.9292;;Petnjica Municipality;Tucanje
+0;18.7792,42.7447;81421;Opština Nikšić;Trubjela
+0;19.9956,42.9039;;Petnjica Municipality;Trpezi
+0;18.7636,42.4042;;Kotor;Trojica
+61;19.0297,42.2967;;Cetinje;Trnovo
+0;18.9561,42.8419;;Opština Nikšić;Trnovo
+124;19.1881,43.3542;;Pljevlja;Trnovice
+0;19.3369,42.8569;;Opština Kolašin;Trnovica
+0;19.3447,42.6475;;Opština Kolašin;Trmanje
+0;19.7994,42.7639;;Berane;Trešnjevo
+0;18.7514,42.6356;;Cetinje;Trešnjevo
+0;19.8242,42.7769;84322;Berane;Trepča
+0;18.5239,42.4722;;Herceg Novi;Trebesinj
+0;19.4506,42.3981;;Tuzi Municipality;Traboin
+5;18.9353,42.4722;;Cetinje;Tomići
+45;18.9997,42.2525;;Bar;Tomići
+5;18.7664,42.4447;;Kotor;Tomići
+0;19.1269,42.0761;;Bar;Tomba
+0;19.6386,43.0631;84212;Bijelo Polje;Tomaševo
+0;19.2242,42.4547;;Podgorica;Tološi
+0;19.9664,42.8372;;Berane;Tmušići
+6280;18.6936,42.4362;85320;Tivat;Tivat
+0;19.1911,42.9783;;Opština Šavnik;Donji Timar
+0;19.1850,43.1664;;Opština Žabljak;Borje
+0;19.2433,42.1028;;Bar;Tejani
+0;19.3292,42.8675;;Opština Kolašin;Svrke
 410;18.8914,42.2561;85315;;Sveti Stefan
-1827;19.0467,42.1428;85355;;Sutomore
-995;19.0731,43.3847;84218;;Šula
-1514;19.1360,42.0970;85354;;Stari Bar
-1241;19.1950,42.5150;81412;;Spuž
-633;19.0961,42.9569;81450;;Šavnik
-2083;18.6956,42.5150;85337;;Risan
-484;19.0253,42.3564;81253;;Rijeka Crnojevića
-0;18.6703,42.3933;85323;;Radovići
-1244;18.7422,42.4575;85335;;Prčanj
-236852;19.2631,42.4412;81101,81102,81103,81104,81105,81106,81107,81108,81109,81110,81111,81113,81114,81115;;Podgorica
-1494;18.8390,43.1521;81435;;Plužine
-19489;19.3584,43.3567;84210,84211;;Pljevlja
-3615;19.9442,42.5969;84325;;Plav
-551;18.6992,42.4869;85336;;Perast
-0;19.1731,42.0303;85356;;Pečurice
-0;19.6286,43.1375;84213;;Pavino Polje
-0;19.3519,43.2722;84219;;Odžak
-264;19.2203,43.1225;84224;;Njegovuđa
-58212;18.9445,42.7731;81400,81402,81403;;Nikšić
-0;19.8825,42.6614;84323;;Murino
-4120;19.5833,42.9604;84205;;Mojkovac
-0;18.5619,42.4558;85348;;Meljine
-0;19.5533,42.7611;81217;;Mateševo
-0;19.7656,42.8600;84306;;Lubnice
-0;19.8758,42.9550;84305;;Lozna
-5;18.8003,42.4272;81422;;Krstac
-164;19.0147,43.4728;84216;;Kovačevići
-5345;18.7682,42.4207;85330;;Kotor
-379;19.3183,43.2047;84223;;Kosanica
-2989;19.5165,42.8223;81210;;Kolašin
-0;18.9603,42.7503;81405;;Kličevo
-11073;19.8728,42.8433;84300;;Berane
-3754;18.5065,42.4601;85347;;Igalo
-19536;18.5375,42.4531;85340;;Herceg Novi
-1673;19.8339,42.5619;84326;;Gusinje
-36;19.0928,42.4133;84215;;Gradac
-214;19.1378,43.0367;81453;;Gornja Bukovica
-3110;19.2310,42.3352;81304;;Golubovci
-0;19.3200,42.8617;81216;;Dragovića Polje
-0;18.5417,42.9567;81427;;Donje Crkvice
-674;18.6886,42.4431;85332;;Donja Lastva
-5435;18.7683,42.4542;85331;;Dobrota
-5208;19.1461,42.5538;81410;;Danilovgrad
-0;18.9175,42.5461;81258;;Čevo
-15137;18.9142,42.3906;81250;;Cetinje
-0;19.1128,42.0811;85353;;Čeluga
-0;18.9653,42.1986;85352;;Buljarica
-18000;18.8392,42.2872;85310,85311,85312;;Budva
-0;19.2133,43.4556;84217;;Boljanići
-5;18.7914,42.3369;81417;;Bogetići
-0;19.2128,42.9414;81455;;Boan
-255;19.3514,42.5131;81214;;Bioče
-15400;19.7476,43.0383;84000,84202;;Bijelo Polje
-2395;18.6556,42.4533;85343;;Bijela
+0;19.3750,41.8808;;Ulcinj;Sveti Nikola
+0;19.3442,41.9506;;Ulcinj;Sveti Ðorđe
+0;19.2039,43.1336;;Opština Žabljak;Suvodo
+0;18.8903,42.3933;;Cetinje;Suvodo
+0;19.4375,42.7019;;Opština Kolašin;Suvodo
+0;18.7628,42.3756;;Kotor;Sutvara
+1827;19.0467,42.1428;85355;Bar;Sutomore
+0;19.3539,41.9306;;Ulcinj;Sutjel
+0;19.2242,42.3161;;Podgorica;Šušunja
+0;19.1194,42.1131;;Bar;Sustaš
+0;18.5125,42.4681;;Herceg Novi;Sušćepan
+0;19.2328,42.4903;;Podgorica;Donje Šume
+0;19.3258,43.2931;;Pljevlja;Šumani
+995;19.0731,43.3847;84218;Pljevlja;Šula
+0;19.3644,42.0131;;Ulcinj;Sukobin
+0;18.9308,42.7669;;Opština Nikšić;Studenci
+0;19.3033,43.0700;;Opština Žabljak;Studenci
+0;18.7178,43.1767;;Opština Plužine;Stubica
+0;18.9786,42.7011;;Opština Nikšić;Stubica
+0;19.8322,42.8636;;Berane;Stubica
+0;19.8778,43.0381;;Bijelo Polje;Stube
+0;18.8906,42.8144;;Opština Nikšić;Stuba
+389;19.1967,42.9253;;Opština Šavnik;Strug
+0;18.6703,42.5053;;Herceg Novi;Strp
+0;19.7892,43.0697;;Bijelo Polje;Strojtenica
+62;19.1161,42.5139;;Danilovgrad;Strahinići
+0;19.5111,43.0989;;Bijelo Polje;Stožer
+0;18.8036,43.1361;;Opština Plužine;Stolac
+0;19.2775,43.1269;;Opština Žabljak;Stolac
+0;19.3683,41.9856;;Ulcinj;Štodra
+0;18.7333,43.0250;;Opština Nikšić;Štitari
+0;19.8344,42.9444;;Bijelo Polje;Štitari
+137;19.0200,42.4411;;Cetinje;Štitari
+540;19.2581,42.5194;;Podgorica;Stijena
+0;18.9047,42.7722;;Opština Nikšić;Štedim
+321;19.1061,42.7178;;Opština Nikšić;Staro Selo
+1514;19.1360,42.0970;85354;Bar;Stari Bar
+59;19.1069,42.4097;;Podgorica;Staniselići
+0;18.7558,43.1728;;Opština Plužine;Stabna
+0;19.2189,42.3744;;Podgorica;Srpska
+0;19.1325,42.5969;;Danilovgrad;Sretnja
+0;19.3883,42.7072;;Opština Kolašin;Sreteška Gora
+0;19.8533,42.9575;;Bijelo Polje;Srđevac
+1241;19.1950,42.5150;81412;Danilovgrad;Spuž
+0;19.3758,42.3514;;Tuzi Municipality;Spinja
+0;19.0519,42.1750;;Bar;Sozina
+170;19.0492,42.2344;;Bar;Sotonići
+0;18.5950,42.9589;;Opština Nikšić;Somina
+0;19.3064,42.9136;;Opština Šavnik;Somina
+60;19.0678,42.6278;;Danilovgrad;Šobaići
+0;18.7756,43.1264;;Opština Plužine;Smriječno
+0;18.7014,42.7842;;Opština Nikšić;Smrduša
+0;19.5736,42.7953;;Opština Kolašin;Smrčje
+11;19.0194,42.3203;;Cetinje;Smokovci
+136;19.1278,43.3611;;Pljevlja;Šljuke
+130;19.3000,43.1278;;Pljevlja;Šljivansko
+0;19.2128,43.3217;;Pljevlja;Šljivansko
+0;19.0847,43.2731;;Pljevlja;Slatina
+0;19.7761,42.7567;;Andrijevica;Slatina
+73;19.1472,42.5867;;Danilovgrad;Slatina
+0;19.4444,43.3589;;Pljevlja;Slatina
+0;19.8422,42.9694;;Bijelo Polje;Slatina
+0;19.5000,43.0000;;Mojkovac;Slatina
+0;19.1667,42.9750;;Opština Šavnik;Gornja Slatina
+0;19.0175,42.6306;;Danilovgrad;Slapci
+0;19.5392,42.7903;;Opština Kolašin;Skrbuša
+0;19.3864,42.3661;;Tuzi Municipality;Skorač
+0;19.9436,42.6064;;Opština Plav;Skić
+0;19.8672,42.9072;;Berane;Skakavac
+0;19.7336,42.7506;;Andrijevica;Sjenožeta
+0;19.5369,42.8978;;Mojkovac;Sjerogošte
+0;19.3314,42.4656;;Podgorica;Sjenice
+0;19.8964,43.0214;;Bijelo Polje;Šipovica
+0;19.9364,43.0000;;Bijelo Polje;Sipanje
+0;18.9456,42.8714;;Opština Nikšić;Šipačno
+44;19.0403,42.3569;;Cetinje;Šinđon
+0;19.1733,42.1847;;Bar;Donji Murići
+101;19.2133,42.1589;;Bar;Donji Murići
+0;19.2050,42.1656;;Bar;Donji Murići
+0;19.4239,42.5753;;Podgorica;Seoštica
+0;19.8375,42.9078;;Berane;Seoca
+0;19.8092,42.7317;;Andrijevica;Seoca
+79;19.2817,42.5533;;Podgorica;Seoca
+0;18.8489,43.1481;;Opština Plužine;Seoca
+0;19.0386,42.8131;;Opština Nikšić;Seoca
+0;19.4064,42.7983;;Opština Kolašin;Seoca
+0;19.2017,42.9369;;Opština Šavnik;Seoca
+0;18.8178,42.2878;;Budva;Seoca
+0;19.1328,42.2139;;Bar;Gornja Seoca
+0;19.5442,42.8292;;Opština Kolašin;Selišta
+0;19.0492,43.4908;;Pljevlja;Selišta
+0;19.6658,43.1514;;Bijelo Polje;Selišta
+0;18.9786,42.4356;;Cetinje;Selišta
+0;19.0206,42.6067;;Danilovgrad;Selišta
+230;19.4914,42.7347;;Opština Kolašin;Selišta
+0;19.4231,42.4067;;Tuzi Municipality;Selište
+0;19.3669,43.0733;;Opština Žabljak;Selište
+0;19.9681,42.8961;;Petnjica Municipality;Selište
+0;18.5986,42.7333;;Opština Nikšić;Selište
+63;19.3511,43.1303;;Pljevlja;Selac
+171;19.1197,42.5617;;Danilovgrad;Sekulići
+633;19.0961,42.9569;81450;Opština Šavnik;Šavnik
+0;18.5653,42.4700;;Herceg Novi;Sasovići
+0;19.3200,41.9917;;Ulcinj;Šas
+0;18.9064,43.2544;;Opština Plužine;Šarići
+0;19.2114,41.9703;;Ulcinj;Salč
+36;19.0375,42.5731;;Danilovgrad;Ržišta
+0;18.8386,42.5136;;Cetinje;Ržani Do
+194;19.0894,42.3714;;Cetinje;Rvaši
+0;19.3253,43.3794;;Pljevlja;Donja Rudnica
+0;18.8583,43.0706;;Opština Plužine;Rudinice
+0;19.4169,42.4331;;Tivat;Rudine
+0;18.7514,42.7464;;Opština Nikšić;Rudine
+0;18.8906,43.3272;;Opština Plužine;Rudine
+0;18.7078,42.7553;;Opština Nikšić;Rudine
+0;18.9947,42.7775;;Opština Nikšić;Rubeži
+0;19.8897,42.7878;;Berane;Rovca
+0;19.5353,42.8594;;Opština Kolašin;Rovačko Trebaljevo
+10;18.5567,42.4272;;Herceg Novi;Rose
+196;19.0114,42.6597;;Opština Nikšić;Rošca
+0;19.2886,42.4869;;Podgorica;Gornji Rogami
+2083;18.6956,42.5150;85337;Kotor;Risan
+484;19.0253,42.3564;81253;Cetinje;Rijeka Crnojevića
+0;18.6533,42.7500;;Opština Nikšić;Riječani
+97;19.0553,42.3406;;Cetinje;Riječani
+0;19.7739,43.0414;;Bijelo Polje;Resnik
+0;18.8781,42.4944;;Cetinje;Resna
+21;19.0522,42.4311;;Cetinje;Releza
+0;19.2981,42.8789;;Opština Kolašin;Redice
+0;19.3636,41.9211;;Ulcinj;Reč
+0;19.4447,42.7686;;Opština Kolašin;Donji Ravni
+0;18.5058,42.4794;;Herceg Novi;Ratiševina
+0;18.9447,42.8353;;Opština Nikšić;Rastovac
+0;18.9319,42.8331;;Opština Nikšić;Rastovac
+0;19.3328,42.0383;;Ulcinj;Rastiš
+0;19.7836,43.0608;;Bijelo Polje;Rasovo
+0;19.3900,42.8258;;Opština Kolašin;Raško
+0;19.7389,43.0217;;Bijelo Polje;Rakonje
+0;19.6767,42.9792;;Bijelo Polje;Donja Rakita
+0;19.8869,42.9828;;Bijelo Polje;Radulići
+0;18.6703,42.3933;85323;Tivat;Radovići
+10;19.0144,42.2711;;Bar;Radomir
+0;19.8439,43.0778;;Bijelo Polje;Radojeva Glava
+0;19.9675,42.9269;;Petnjica Municipality;Radmanci
+0;19.2803,42.5178;;Podgorica;Radeća
+0;19.3778,42.5172;;Podgorica;Raći
+0;19.3825,43.3050;;Pljevlja;Rabitlje
+0;19.3300,43.1636;;Pljevlja;Pušanjski Do
+115;19.1136,43.0642;;Opština Žabljak;Provalija
+0;18.8544,42.5300;;Cetinje;Proseni Do
+100;19.0689,42.4308;;Podgorica;Progonovići
+965;19.9506,42.5981;;Opština Plav;Prnjavor
+0;18.6017,42.4256;;Herceg Novi;Pristan
+5;19.1481,42.2297;;Bar;Pristan
+0;18.7336,43.1536;;Opština Plužine;Prisojni Orah
+0;19.5219,42.6197;;Podgorica;Prisoja
+0;19.9614,42.8950;;Petnjica Municipality;Prisoja
+0;18.9386,42.5375;;Cetinje;Prisoja
+0;19.7825,42.7450;;Andrijevica;Prisoja
+0;19.7386,43.0056;;Bijelo Polje;Pripčići
+0;19.7519,42.9964;;Bijelo Polje;Pripčići
+0;18.4531,42.4939;;Herceg Novi;Prijevor
+0;18.8150,42.2906;;Budva;Prijevor
+0;18.9561,42.2033;;Budva;Prijevorac
+0;18.7828,42.3550;;Kotor;Prijeradi
+0;19.3906,42.4019;;Podgorica;Prifta
+0;19.0644,42.9647;;Opština Šavnik;Pridvorica
+53;19.0986,42.3353;;Cetinje;Prevlaka
+96;19.0944,42.9786;;Opština Šavnik;Previš
+0;18.8264,42.6022;;Cetinje;Prentin Do
+158;19.3714,43.1203;;Pljevlja;Premćani
+26;18.9581,42.3033;;Cetinje;Prekornica
+0;18.8869,42.5172;;Cetinje;Predi
+1244;18.7422,42.4575;85335;Kotor;Prčanj
+0;18.4819,42.5681;;Herceg Novi;Prčanj
+0;19.0231,42.8808;;Opština Nikšić;Praga
+91;19.1092,43.4042;;Pljevlja;Pračica
+0;19.7878,42.8508;;Berane;Praćevac
+0;19.3264,42.8303;;Opština Kolašin;Požnja
+0;19.8714,43.1022;;Bijelo Polje;Požeginja
+0;19.0103,42.6831;;Opština Nikšić;Donja Povija
+0;19.3697,43.3444;;Pljevlja;Podtrlica
+0;19.3589,43.2600;;Pljevlja;Potpeće
+0;19.2861,42.5069;;Podgorica;Potpeće
+0;19.7747,43.0706;;Bijelo Polje;Potkrajci
+0;19.4386,43.2244;;Pljevlja;Potkrajci
+159;19.0658,42.9744;;Opština Šavnik;Pošćenje
+41;19.1019,43.3733;;Pljevlja;Popov Do
+0;18.6392,42.5444;;Kotor;Popov Do
+0;18.7903,42.6778;;Cetinje;Popov Do
+0;18.6981,42.6581;;Opština Nikšić;Popov Do
+0;19.0592,42.1686;;Bar;Popov Do
+0;19.9961,42.9344;;Petnjica Municipality;Ponor
+0;19.2781,43.0911;;Opština Žabljak;Ponor
+0;19.5456,43.0086;;Mojkovac;Ponor
+0;18.8236,42.7453;;Opština Nikšić;Ponikvica
+0;18.8267,42.7628;;Opština Nikšić;Ponikvica
+382;19.1825,42.3167;;Podgorica;Ponari
+0;18.5472,43.0078;;Opština Nikšić;Poljice
+0;19.2822,42.5600;;Podgorica;Poljice
+0;18.6819,42.5244;;Kotor;Poljice
+0;18.8958,43.3222;;Opština Plužine;Polje Crkvičko
+0;19.1067,42.0828;;Bar;Polje
+0;18.6281,42.5408;;Kotor;Polje
+0;18.5172,42.8181;;Opština Nikšić;Podvrš
+40;19.0708,42.6347;;Danilovgrad;Podvraće
+0;18.8392,42.3028;;Budva;Podostrog
+0;18.5433,42.4636;;Herceg Novi;Podi
+0;18.6561,42.5544;;Kotor;Podi
+0;19.1444,42.4508;;Podgorica;Podi
+0;19.4419,42.7361;;Opština Kolašin;Podi
+0;19.1558,42.0667;;Bar;Podi
+0;19.3408,42.3083;;Tuzi Municipality;Pothum
+236852;19.2631,42.4412;81101,81102,81103,81104,81105,81106,81107,81108,81109,81110,81111,81113,81114,81115;Podgorica;Podgorica
+229;19.1542,43.1986;;Pljevlja;Podgora
+0;18.9789,42.2603;;Bar;Podgor
+218;19.1758,42.5242;;Danilovgrad;Podglavica
+0;18.6881,42.7372;;Opština Nikšić;Podbožur
+0;19.8525,42.9436;;Bijelo Polje;Poda
+0;18.8100,42.3636;;Cetinje;Poda
+0;19.0803,43.0325;;Opština Šavnik;Poda
+0;19.3561,43.1011;;Pljevlja;Poda
+0;19.3061,43.1561;;Pljevlja;Poda
+0;18.9867,42.7019;;Opština Nikšić;Poda
+0;19.1428,42.5919;;Danilovgrad;Poda
+0;19.2950,42.8453;;Opština Kolašin;Poda
+0;18.5058,42.8017;;Opština Nikšić;Počekovići
+0;19.8358,43.0628;;Bijelo Polje;Pobretiće
+0;18.7364,42.3564;;Kotor;Pobrđe
+0;18.8292,42.3264;;Budva;Pobori
+0;19.2028,43.5106;;Pljevlja;Poblaće
+1494;18.8390,43.1521;81435;Opština Plužine;Plužine
+19489;19.3584,43.3567;84210,84211;Pljevlja;Pljevlja
+0;19.2103,43.3456;;Pljevlja;Pliješevina
+3615;19.9442,42.5969;84325;Opština Plav;Plav
+0;19.5011,42.8592;;Opština Kolašin;Plana
+0;19.1383,42.5014;;Danilovgrad;Plana
+0;18.8931,42.3942;;Cetinje;Bajice
+0;19.2542,41.9503;;Ulcinj;Pistula
+147;18.9058,43.1567;;Opština Plužine;Pišče
+0;18.4911,42.8556;;Opština Nikšić;Pilatovci
+273;19.3786,42.4047;;Podgorica;Pikalja
+0;18.5161,42.7422;;Opština Nikšić;Petrovići
+0;19.2992,42.5281;;Podgorica;Petrovići
+0;19.0119,42.3686;;Cetinje;Petrovići
+0;18.5028,42.7736;;Opština Nikšić;Petrovići
+0;18.6436,42.4544;;Herceg Novi;Petrovići
+0;18.6492,42.4094;;Tivat;Petrovići
+0;18.8917,42.4314;;Cetinje;Petrov Do
+182;19.4164,42.7292;;Opština Kolašin;Petrova Ravan
+1485;18.9425,42.2056;;Budva;Petrovac na Moru
+0;19.9047,42.8331;;Berane;Petnjik
+0;19.0572,43.4189;;Pljevlja;Petine
+1805;19.8647,42.8289;;Berane;Pešca
+551;18.6992,42.4869;85336;Kotor;Perast
+0;19.2350,42.0056;;Ulcinj;Pelinkovići
+64;19.3961,42.5822;;Podgorica;Pelev Brijeg
+0;18.8703,42.5219;;Cetinje;Pejovići
+0;18.4931,42.7622;;Opština Nikšić;Pejovići
+0;19.1731,42.0303;85356;Bar;Pečurice
+0;19.8228,43.1017;;Bijelo Polje;Pećarska
+0;19.1053,42.5583;;Danilovgrad;Pažići
+0;19.6286,43.1375;84213;Bijelo Polje;Pavino Polje
+0;19.2850,43.3189;;Pljevlja;Pauče
+31;19.0906,42.4014;;Cetinje;Parci
+0;19.6594,43.0481;;Bijelo Polje;Pape
+0;19.0419,42.1550;;Bar;Papani
+169;19.1350,43.1797;;Opština Žabljak;Palež
+0;19.3203,43.1150;;Pljevlja;Palež
+0;19.1194,42.7642;;Opština Nikšić;Palež
+0;19.2733,43.2206;;Pljevlja;Palež
+0;19.5519,42.7892;;Opština Kolašin;Padež
+0;18.9864,42.7564;;Opština Nikšić;Ozrinići
+0;19.2692,42.5383;;Podgorica;Ožezi
+0;18.8972,42.5608;;Cetinje;Ožegovice
+149;18.9881,42.2564;;Bar;Otočići
+0;19.4136,43.3208;;Pljevlja;Otilovići
+0;19.7417,42.9725;;Bijelo Polje;Ostrelj
+0;19.3792,42.7911;;Opština Kolašin;Osreci
+0;18.7400,43.1450;;Opština Plužine;Osojni Orah
+0;19.9567,43.0422;;Bijelo Polje;Osmanbegovo Selo
+0;19.1956,43.3858;;Pljevlja;Orlja
+0;18.8658,42.7450;;Opština Nikšić;Orlina
+196;19.0772,42.5650;;Danilovgrad;Orja Luka
+36;19.1233,42.4553;;Podgorica;Oraovica
+0;19.9219,42.9392;;Bijelo Polje;Orahovo
+0;19.4394,42.4869;;Podgorica;Orahovo
+5;19.0644,42.2436;;Bar;Orahovo
+28;18.7578,42.4906;;Kotor;Donji Orahovac
+0;18.7550,42.4914;;Kotor;Donji Orahovac
+0;19.5414,42.6806;;Podgorica;Opasanica
+0;19.3181,42.4217;;Tuzi Municipality;Omer-Božovići
+0;19.7786,43.0981;;Bijelo Polje;Oluja
+0;19.6956,43.0486;;Bijelo Polje;Okladi
+0;19.0881,43.2500;;Pljevlja;Ograđenica
+0;19.3519,43.2722;84219;Pljevlja;Odžak
+0;19.2408,43.3669;;Pljevlja;Odžak
+112;18.9175,42.3542;;Cetinje;Očinići
+0;19.7494,43.0281;;Bijelo Polje;Obrov
+0;19.7386,42.7247;;Andrijevica;Oblo Brdo
+133;19.0722,42.7592;;Opština Nikšić;Oblatno
+0;18.5358,43.0239;;Opština Nikšić;Katunište
+0;18.8322,42.6458;;Cetinje;Katunište
+0;19.5175,43.2908;;Pljevlja;Obarde
+0;18.5664,42.6725;;Opština Nikšić;Nudo
+0;19.9411,42.6392;;Opština Plav;Novšići
+0;18.9561,42.2197;;Budva;Novoselje
+161;19.1653,43.0867;;Opština Žabljak;Novakovići
+264;19.2203,43.1225;84224;Opština Žabljak;Njegovuđa
+202;19.2000,43.1803;;Pljevlja;Ninkovići
+58212;18.9445,42.7731;81400,81402,81403;Opština Nikšić;Nikšić
+0;18.9522,43.2689;;Opština Plužine;Nikovići
+0;19.4361,42.4419;;Tuzi Municipality;Nik Maraš
+0;19.9225,43.0283;;Bijelo Polje;Negobratina
+0;19.7681,43.0564;;Bijelo Polje;Nedakusi
+86;18.9833,43.2000;;Opština Plužine;Nedajno
+133;19.0961,43.4206;;Pljevlja;Nange
+0;19.4386,42.4289;;Tuzi Municipality;Mužečka
+0;19.5775,42.8394;;Opština Kolašin;Mušovića Rijeka
+0;19.6336,43.0808;;Bijelo Polje;Muslići
+0;19.8825,42.6614;84323;Opština Plav;Murino
+645;18.7575,42.4317;;Kotor;Muo
+0;19.6061,42.7983;;Opština Kolašin;Mujića Rečine
+0;19.3356,42.5125;;Podgorica;Donje Mrke
+65;19.1250,43.4164;;Pljevlja;Mrčevo
+797;18.7181,42.4200;;Tivat;Mrčevac
+0;18.8028,43.2647;;Opština Plužine;Mratinje
+179;19.1117,43.1303;;Opština Žabljak;Motički Gaj
+0;19.1567,42.7172;;Opština Nikšić;Donje Morakovo
+217;19.1344,43.2719;;Pljevlja;Moraice
+0;19.5217,42.8769;;Opština Kolašin;Moračko Trebaljevo
+0;19.4158,42.5411;;Podgorica;Gornje Momče
+190;19.0650,42.9331;;Opština Šavnik;Mokro
+0;19.5708,42.6050;;Podgorica;Mokro
+0;18.4950,42.5030;;Herceg Novi;Mokrine
+0;19.8758,43.0669;;Bijelo Polje;Mokri Lug
+0;18.4933,42.8428;;Opština Nikšić;Mokri Do
+0;18.6425,42.8911;;Opština Nikšić;Mokri Do
+0;19.2642,42.5319;;Podgorica;Mokri Do
+0;19.8722,43.0794;;Bijelo Polje;Mojstir
+4120;19.5833,42.9604;84205;Mojkovac;Mojkovac
+1800;19.2214,42.3417;;Podgorica;Mojanovići
+71;19.1425,42.9725;;Opština Šavnik;Mljetičak
+0;19.0133,42.1650;;Bar;Mišići
+0;19.8336,43.0739;;Bijelo Polje;Mirojevići
+0;19.7300,43.1308;;Bijelo Polje;Mioče
+0;19.3397,43.3869;;Pljevlja;Milunići
+0;19.7519,43.1411;;Bijelo Polje;Milovo
+97;19.9667,43.0167;;Bijelo Polje;Milovo
+104;18.6733,42.4003;;Tivat;Milovići
+0;19.0889,42.2564;;Bar;Milovići
+0;18.6631,42.9136;;Opština Nikšić;Milovići
+0;18.6081,42.8314;;Opština Nikšić;Milovići
+0;18.4936,42.4872;;Herceg Novi;Milovići
+0;18.8042,43.1681;;Opština Plužine;Miloševići
+142;19.1100,42.9175;;Opština Šavnik;Miloševići
+645;18.9044,42.8292;;Opština Nikšić;Miločani
+0;18.8533,43.0531;;Opština Plužine;Miljkovac
+0;18.6353,42.8497;;Opština Nikšić;Miljanići
+0;18.6300,42.8422;;Opština Nikšić;Miljanići
+0;18.8861,42.4464;;Cetinje;Milijevići
+0;19.2375,43.4531;;Pljevlja;Milakovci
+6;18.9683,42.4539;;Cetinje;Mikulići
+0;19.3808,43.2311;;Pljevlja;Mijakovići
+0;19.2614,42.0358;;Ulcinj;Mide
+0;19.8722,42.7500;;Berane;Mezgalji
+106;19.0561,42.3778;;Cetinje;Meterizi
+0;19.9803,42.6194;;Opština Plav;Desni Meteh
+0;19.7700,43.1203;;Bijelo Polje;Metanjac
+0;19.1475,43.5283;;Pljevlja;Metaljka
+0;19.2208,43.3669;;Pljevlja;Metaljka
+0;19.3319,43.1019;;Pljevlja;Metaljka
+0;19.1839,43.4603;;Pljevlja;Metaljka
+0;18.5619,42.4558;85348;Herceg Novi;Meljine
+0;19.1606,43.3469;;Pljevlja;Meljak
+0;19.3239,43.3197;;Pljevlja;Meljak
+208;19.3667,42.7244;;Opština Kolašin;Međuriječje
+0;18.9914,42.6683;;Opština Nikšić;Međuriječje
+0;19.3617,42.4725;;Podgorica;Medun
+0;19.5533,42.7611;81217;Opština Kolašin;Mateševo
+0;19.4589,43.2658;;Pljevlja;Mataruge
+1132;19.2728,42.3236;;Podgorica;Mataguži
+0;19.8911,42.8764;;Berane;Mašte
+0;19.8761,42.6725;;Opština Plav;Mašnica
+262;19.8883,42.6642;;Opština Plav;Mašnica
+0;19.8811,42.5772;;Gusinje Municipality;Martinoviće
+0;19.8392,42.7822;;Berane;Marsenića Rijeka
+70;19.0064,42.5394;;Cetinje;Markovina
+0;18.4744,42.8203;;Opština Nikšić;Markovina
+16;19.0072,43.4925;;Pljevlja;Marinac
+0;19.4147,43.2033;;Pljevlja;Maoče
+0;19.0225,42.6569;;Danilovgrad;Mandići
+0;18.5311,42.4925;;Herceg Novi;Mandići
+0;18.9069,42.5056;;Cetinje;Malošin Do
+168;19.1631,42.9411;;Opština Šavnik;Malinsko
+152;19.0894,42.4956;;Danilovgrad;Malenza
+0;19.2028,42.0019;;Ulcinj;Mala Gorana
+0;19.6917,42.9742;;Bijelo Polje;Majstorovina
+0;18.8378,42.3508;;Cetinje;Majstori
+0;19.2150,42.3508;;Podgorica;Mahala
+0;19.7350,43.1358;;Bijelo Polje;Mahala
+0;19.6372,43.1400;;Bijelo Polje;Mahala
+0;19.1136,43.3817;;Pljevlja;Mahala
+0;19.0678,42.1294;;Bar;Madžari
+0;18.9675,43.5094;;Pljevlja;Madžari
+35;19.1581,42.4767;;Danilovgrad;Lužnica
+0;19.8550,42.8389;;Berane;Donji Lužac
+0;19.4056,42.6181;;Podgorica;Lutovo
+0;19.0156,42.8092;;Opština Nikšić;Lukovo
+0;19.8850,42.8306;;Berane;Luge
+0;19.8331,42.7050;;Andrijevica;Luge
+0;18.6678,42.8825;;Opština Nikšić;Luge
+0;19.4036,42.7811;;Opština Kolašin;Luge
+0;19.7656,42.8600;84306;Berane;Lubnice
+0;19.8758,42.9550;84305;Bijelo Polje;Lozna
+0;19.4856,42.6547;;Podgorica;Lopate
+0;19.2386,42.5058;;Podgorica;Lopate
+0;19.4564,43.2408;;Pljevlja;Ljutići
+0;19.2686,42.8694;;Opština Kolašin;Ljevišta
+0;19.7319,43.0547;;Bijelo Polje;Lješnica
+0;18.7256,42.3675;;Kotor;Leševići
+433;19.0739,42.7422;;Opština Nikšić;Liverovići
+0;19.2136,42.1281;;Bar;Livari
+0;19.1539,42.4853;;Danilovgrad;Mugošina Livada
+0;18.7194,43.1442;;Opština Plužine;Lisina
+1200;18.6581,42.4972;;;Lipci
+0;18.8539,42.5406;;Cetinje;Lipa
+47;18.9528,42.3736;;Cetinje;Lipa
+0;19.0944,42.1950;;Bar;Limljani
+0;19.4767,42.6456;;Podgorica;Lijeva Rijeka
+0;19.9628,42.6761;;Opština Plav;Lijeva Rijeka
+0;19.3853,42.4872;;Podgorica;Liješta
+0;19.3175,42.7750;;Opština Kolašin;Liješnje
+112;19.1469,42.4042;;Podgorica;Liješnje
+0;19.6069,43.0592;;Bijelo Polje;Lijeska
+143;19.4117,43.2211;;Pljevlja;Lijeska
+213;19.2483,43.1811;;Pljevlja;Lever Tara
+233;18.6858,42.4653;;Tivat;Lepetani
+0;19.5919,42.9997;;Bijelo Polje;Lepenac
+68;19.1086,43.3833;;Pljevlja;Leovo Brdo
+157;19.1894,42.3894;;Podgorica;Lekići
+0;19.9092,42.7508;;Berane;Lekići
+0;18.7100,42.5506;;Kotor;Ledenice
+0;19.9986,43.0228;;Bijelo Polje;Lazovići
+0;19.9544,42.8983;;Petnjica Municipality;Lazi
+0;19.7928,42.5708;;Gusinje Municipality;Lazi
+0;18.8483,42.2967;;Budva;Lazi
+0;19.4717,42.6119;;Podgorica;Lazi
+108;19.0950,42.5042;;Danilovgrad;Lazarev Krst
+0;19.0378,42.7561;;Opština Nikšić;Laz
+0;19.3567,43.2500;;Pljevlja;Laz
+0;18.9356,42.5967;;Cetinje;Lastva
+0;18.5847,42.4744;;Herceg Novi;Lastva
+0;18.8042,42.3100;;Kotor;Lastva
+0;18.5681,42.8278;;Opština Nikšić;Lastva
+0;18.9158,42.4819;;Cetinje;Lastva
+0;18.8131,42.8017;;Opština Nikšić;Lastva
+0;18.7908,42.5703;;Cetinje;Lastva
+0;19.9872,42.9142;;Petnjica Municipality;Lagatori
+0;19.2692,43.3056;;Pljevlja;Lađana
+0;19.7856,42.6189;;Andrijevica;Kuti
+0;18.5858,42.4594;;Herceg Novi;Kuti
+0;18.5825,42.4628;;Herceg Novi;Kuti
+0;19.4392,42.4897;;Podgorica;Kuti
+950;19.1192,42.7411;;Opština Nikšić;Kuta
+0;18.9253,42.5497;;Cetinje;Kuta
+0;19.3108,42.7794;;Opština Kolašin;Kuta
+0;18.8517,42.7772;;Opština Nikšić;Kuside
+105;19.1819,42.2978;;Podgorica;Kurilo
+0;19.7442,42.8783;;Berane;Kurikuće
+0;19.1736,42.0139;;Ulcinj;Kunje
+0;19.0097,42.7097;;Opština Nikšić;Kunak
+0;19.3289,42.7619;;Opština Kolašin;Kunak
+3;18.9100,42.2806;;Budva;Kuljače
+0;19.7383,43.0803;;Bijelo Polje;Kukulje
+127;19.0458,42.6061;;Danilovgrad;Kujava
+0;19.3611,43.2528;;Pljevlja;Kujava
+0;18.8625,42.4619;;Cetinje;Kućišta
+0;18.5753,42.7103;;Opština Nikšić;Kućišta
+0;18.7983,42.5358;;Cetinje;Kućišta
+0;19.3453,43.1558;;Pljevlja;Kućišta
+0;18.7564,42.3244;;Kotor;Kubasi
+0;19.4392,42.5261;;Podgorica;Donja Kržanja
+0;19.2519,42.0169;;Bar;Krute
+0;19.1825,41.9711;;Ulcinj;Kruta
+0;19.1525,42.4333;;Podgorica;Kruse
+0;19.2681,43.2772;;Pljevlja;Kruševo
+0;19.8589,42.6728;;Andrijevica;Kruševo
+0;19.8633,42.5603;;Gusinje Municipality;Kruševo
+0;18.8456,43.1022;;Opština Plužine;Kruševo
+0;19.0292,43.4061;;Pljevlja;Kruševo
+0;19.7431,42.9986;;Bijelo Polje;Kruševo
+0;18.4919,42.5361;;Herceg Novi;Kruševice
+0;18.6422,42.4717;;Herceg Novi;Kruševice
+0;18.5117,42.5522;;Herceg Novi;Kruševice
+0;19.0908,42.9144;;Opština Šavnik;Kruševice
+18;19.0828,42.2683;;Bar;Kruševica
+0;19.4319,42.6608;;Opština Kolašin;Kruševica
+0;18.9506,42.2153;;Budva;Kruševica
+0;19.4381,43.1217;;Pljevlja;Krupice
+0;19.1742,41.9800;;Ulcinj;Kruče
+0;18.6981,43.0056;;Opština Nikšić;Krstac
+0;18.9114,42.2214;;Budva;Krstac
+0;18.8094,42.7711;;Opština Nikšić;Krstac
+5;18.8003,42.4272;81422;Cetinje;Krstac
+0;19.3628,42.3925;;Tuzi Municipality;Krševo
+0;19.2597,43.1225;;Opština Žabljak;Krš
+0;19.8489,42.7181;;Berane;Krš
+0;19.2681,43.1136;;Opština Žabljak;Krš
+0;19.1683,42.2133;;Bar;Gornje Krnjice
+0;19.2925,42.9214;;Opština Šavnik;Krnja Jela
+0;18.7611,42.2911;;Kotor;Krimovice
+0;19.2500,43.4167;;Pljevlja;Krćevina
+0;18.6406,42.4058;;Tivat;Krasići
+0;18.8606,42.4475;;Cetinje;Krajnji Do
+0;19.6128,42.7494;;Opština Kolašin;Kraljske Bare
+0;19.8492,42.9214;;Bijelo Polje;Krlje
+0;19.7531,42.7378;;Andrijevica;Kralje
+0;19.5325,43.2297;;Pljevlja;Kozica
+0;19.5625,43.1708;;Bijelo Polje;Kovren
+0;19.5703,43.1814;;Bijelo Polje;Kovren
+0;18.7528,43.1381;;Opština Plužine;Kovači
+0;18.4900,42.9600;;Opština Nikšić;Kovači
+0;18.7600,42.3125;;Kotor;Kovači
+0;18.4886,42.4897;;Herceg Novi;Kovači
+164;19.0147,43.4728;84216;Pljevlja;Kovačevići
+0;19.7292,43.1058;;Bijelo Polje;Kovačevići
+0;19.2014,43.4153;;Pljevlja;Kovačevići
+0;19.3478,42.0775;;Ulcinj;Kovačevići
+5345;18.7682,42.4207;85330;Kotor;Kotor
+0;19.3850,43.1336;;Pljevlja;Kotlajići
+0;19.8319,42.9967;;Bijelo Polje;Kostići
+0;18.6681,42.3989;;Tivat;Kostići
+0;19.8581,43.0469;;Bijelo Polje;Kostanica
+0;18.6675,42.4858;;Herceg Novi;Donja Kostanjica
+0;19.1367,42.9564;;Opština Šavnik;Kosorići
+0;19.3747,42.4939;;Podgorica;Kosor
+43;18.9728,42.4183;;Cetinje;Kosijeri
+0;19.2731,42.0258;;Ulcinj;Kosići
+0;18.5044,42.4978;;Herceg Novi;Kosići
+0;19.3403,43.1922;;Pljevlja;Košare
+379;19.3183,43.2047;84223;Pljevlja;Kosanica
+0;19.3217,43.1931;;Pljevlja;Kosanica
+0;19.4719,42.7275;;Opština Kolašin;Kos
+62;19.1417,42.4117;;Podgorica;Kornet
+0;19.9797,43.0372;;Bijelo Polje;Korita
+0;19.2867,43.1217;;Opština Žabljak;Korita
+0;19.2019,43.3678;;Pljevlja;Korita
+0;19.9517,42.6103;;Opština Plav;Korita
+0;19.5339,42.4897;;Podgorica;Korita
+0;19.9661,43.0075;;Bijelo Polje;Gornja Korita
+0;19.3906,43.2078;;Pljevlja;Kordovina
+0;18.4742,42.8453;;Opština Nikšić;Koravljica
+0;19.2536,42.5567;;Podgorica;Kopilje
+62;19.0608,42.2883;;Bar;Komarno
+128;19.0592,43.0064;;Opština Šavnik;Komarnica
+0;19.2508,41.9353;;Ulcinj;Kolonza
+0;19.1000,43.2997;;Pljevlja;Kolijevka
+0;19.8442,42.5556;;Gusinje Municipality;Kolenovići
+2989;19.5165,42.8223;81210;Opština Kolašin;Kolašin
+0;19.4036,42.4606;;Tuzi Municipality;Koči
+0;18.9114,42.7897;;Opština Nikšić;Kočane
+0;18.7764,42.6344;;Cetinje;Kobilji Do
+91;18.9364,43.2375;;Opština Plužine;Kneževići
+0;19.4531,43.2886;;Pljevlja;Kneževići
+0;19.7578,43.0953;;Bijelo Polje;Kneževići
+5;18.8117,42.3350;;Budva;Kneževići
+0;19.3783,42.5594;;Podgorica;Klopot
+0;18.9603,42.7503;81405;Opština Nikšić;Kličevo
+0;18.5619,42.8183;;Opština Nikšić;Klenak
+0;18.7447,42.4122;;Kotor;Kavač
+0;19.3450,43.2756;;Pljevlja;Katun
+0;18.9233,42.2164;;Budva;Katun
+0;19.1794,42.1839;;Bar;Karanikići
+0;19.7569,43.1392;;Bijelo Polje;Kanje
+0;18.5289,42.4769;;Herceg Novi;Kameno
+0;19.3417,43.3367;;Pljevlja;Kalušići
+0;19.9286,42.7833;;Berane;Kaludra
+0;19.8111,42.9322;;Bijelo Polje;Kaludra
+0;19.4531,42.9986;;Mojkovac;Kaludra
+0;18.7978,42.3306;;Kotor;Kaluđerovići
+0;18.9633,42.2022;;Budva;Kaluđerac
+0;19.2469,42.0306;;Bar;Velji Kaliman
+0;19.2278,43.2886;;Pljevlja;Kakmuži
+0;19.3272,43.4031;;Pljevlja;Jugovo
+0;19.1175,42.6036;;Danilovgrad;Jovanovići
+0;18.6633,42.4658;;Herceg Novi;Gornja Jošica
+0;19.7175,42.6892;;Andrijevica;Jošanica
+0;18.9069,43.2769;;Opština Plužine;Jerenići
+72;19.1511,42.5658;;Danilovgrad;Jelenak
+0;18.7322,42.9881;;Opština Nikšić;Javljen
+0;19.9092,42.7425;;Berane;Jašovići
+0;19.3775,42.7658;;Opština Kolašin;Jasenova
+0;19.8433,43.0100;;Bijelo Polje;Jasen
+0;19.0403,42.1972;;Bar;Jasen
+0;18.7419,43.1628;;Opština Plužine;Jasen
+0;18.8064,42.5731;;Cetinje;Jasen
+0;19.5406,42.7483;;Opština Kolašin;Jasen
+0;18.4983,42.9939;;Opština Nikšić;Jasen
+0;19.1506,43.4567;;Pljevlja;Jagodni Do
+0;19.8881,42.9644;;Bijelo Polje;Jagoče
+0;18.7269,42.7064;;Opština Nikšić;Jabuke
+0;19.1133,42.5069;;Danilovgrad;Jabuke
+0;18.7858,42.5792;;Cetinje;Jabuke
+0;18.9614,42.5167;;Cetinje;Jabuke
+0;19.2061,43.4564;;Pljevlja;Jabuke
+0;19.1436,43.4367;;Pljevlja;Jabuka
+0;19.5356,42.7389;;Opština Kolašin;Jabuka
+0;18.5053,42.7572;;Opština Nikšić;Jabuka
+0;18.9150,42.4228;;Cetinje;Jabuka
+0;18.7964,42.5414;;Cetinje;Jabuka
+0;18.8553,42.5569;;Cetinje;Jabuka
+0;18.5508,42.9589;;Opština Nikšić;Jabuka
+0;19.4011,42.7158;;Opština Kolašin;Jabuka
+0;19.6742,43.0192;;Bijelo Polje;Jabučno
+0;19.1006,43.4072;;Pljevlja;Jabučno
+0;19.8525,43.0947;;Bijelo Polje;Jablanovo
+0;18.7708,42.6064;;Cetinje;Izvori
+0;19.5669,42.8164;;Opština Kolašin;Izlasci
+0;18.8344,42.3814;;Cetinje;Ivanova Korita
+0;19.8700,43.0000;;Bijelo Polje;Ivanje
+0;19.0403,42.8183;;Opština Nikšić;Ivanje
+11073;19.8728,42.8433;84300;Berane;Berane
+3754;18.5065,42.4601;85347;Herceg Novi;Igalo
+0;19.9628,42.5586;;Opština Plav;Hoti
+0;19.2481,43.3181;;Pljevlja;Hoćevina
+19536;18.5375,42.4531;85340;Herceg Novi;Herceg Novi
+0;19.4214,42.3808;;Tuzi Municipality;Helmica
+0;19.0692,42.8594;;Opština Nikšić;Gvozd
+1673;19.8339,42.5619;84326;Gusinje Municipality;Gusinje
+0;19.1700,42.1611;;Bar;Gurza
+103;19.1233,42.5169;;Danilovgrad;Gruda
+0;18.9222,42.3819;;Cetinje;Gruda
+0;19.7969,42.5767;;Gusinje Municipality;Grnčar
+0;19.3464,43.3200;;Pljevlja;Grevo
+510;19.1958,42.5000;;Danilovgrad;Grbe
+465;19.1889,42.3672;;Podgorica;Grbavci
+0;18.9886,42.8297;;Opština Nikšić;Granice
+0;19.6769,43.0989;;Bijelo Polje;Grančarevo
+0;18.6114,42.6878;;Opština Nikšić;Grahovac
+0;19.4844,43.1703;;Pljevlja;Gradina
+0;19.3444,43.1003;;Pljevlja;Gradina
+0;19.2036,42.5419;;Danilovgrad;Gradina
+0;18.8375,42.5269;;Cetinje;Gradina
+0;19.2789,43.3914;;Pljevlja;Gradina
+0;19.3017,43.3014;;Pljevlja;Gradina
+0;19.4272,43.3481;;Pljevlja;Gradina
+68;19.0036,42.2747;;Bar;Građani
+0;19.0833,42.9500;;Opština Šavnik;Gradac
+36;19.0928,42.4133;84215;Podgorica;Gradac
+0;19.1197,42.5803;;Danilovgrad;Gradac
+0;18.5375,42.9708;;Opština Nikšić;Gradac
+0;19.8514,42.6931;;Andrijevica;Gračanica
+0;18.9650,42.7414;;Opština Nikšić;Gračanica
+0;19.0811,43.0169;;Opština Šavnik;Donja Grabovica
+0;19.6178,43.2056;;Bijelo Polje;Grab
+0;18.8256,42.5331;;Cetinje;Grab
+0;18.6292,42.5486;;Kotor;Grab
+0;19.0581,42.3611;;Cetinje;Grab
+0;19.2903,43.4011;;Pljevlja;Gotovuša
+0;19.4636,43.0011;;Mojkovac;Gostilovina
+0;19.2139,42.5717;;Danilovgrad;Gostilje Martinićko
+0;19.2392,42.3019;;Podgorica;Gostilj
+0;18.7053,42.9781;;Opština Nikšić;Goslić
+0;18.7075,42.9611;;Opština Nikšić;Goslić
+0;18.6614,42.3981;;Tivat;Gošići
+0;19.2617,42.3186;;Podgorica;Gošići
+0;18.7933,42.3333;;Kotor;Gorovići
+0;18.7153,42.4664;;Tivat;Gornji Stoliv
+0;19.3514,41.8881;;Ulcinj;Gornji Štoj
+93;19.1036,42.6119;;Danilovgrad;Gornji Rsojevići
+0;18.7600,42.4928;;Kotor;Gornji Orahovac
+0;18.7331,42.5075;;Kotor;Gornji Orahovac
+0;19.2006,42.1503;;Bar;Gornji Murići
+5;19.1717,42.1622;;Bar;Gornji Murići
+0;18.6150,42.4878;;Herceg Novi;Gornji Morinj
+0;19.1919,42.5542;;Danilovgrad;Gornji Martinići
+144;19.1756,42.3981;;Podgorica;Gornji Kokoti
+0;19.8369,42.8944;;Berane;Gornje Zaostro
+0;19.4075,42.8794;;Opština Kolašin;Gornje Lipovo
+0;18.8542,43.3192;;Opština Plužine;Gornje Kruševo
+0;19.2194,42.1150;;Bar;Gornja Briska
+0;19.9206,42.6647;;Opština Plav;Gornja Ržanica
+0;19.5511,42.9628;;Mojkovac;Gornja Polja
+0;18.7075,42.4539;;Tivat;Gornja Lastva
+0;18.9347,42.5994;;Cetinje;Gornja Lastva
+0;19.2619,41.9983;;Ulcinj;Gornja Klezna
+214;19.1378,43.0367;81453;Opština Šavnik;Gornja Bukovica
+0;19.2353,43.3786;;Pljevlja;Gornja Brvenica
+0;19.1550,42.9022;;Opština Šavnik;Gornja Bijela
+1205;19.2119,42.3322;;Podgorica;Goričani
+0;19.9164,42.8842;;Berane;Goražde
+0;18.8303,43.1194;;Opština Plužine;Goransko
+3110;19.2310,42.3352;81304;Zeta;Golubovci
+203;19.1489,42.3869;;Podgorica;Goljemadi
+0;19.4819,42.9936;;Mojkovac;Gojakovići
+0;19.9397,42.9669;;Bijelo Polje;Goduša
+0;19.9431,42.9158;;Petnjica Municipality;Godočelje
+0;19.1106,42.2214;;Bar;Godinje
+0;19.8950,43.0000;;Bijelo Polje;Godijevo
+140;19.0853,42.9961;;Opština Šavnik;Godijelji
+0;19.0478,42.2000;;Bar;Gluhi Do
+329;18.9528,42.3072;;Cetinje;Gluhi Do
+0;19.2081,43.4064;;Pljevlja;Glisnica
+0;18.9489,42.8031;;Opština Nikšić;Glibavac
+0;19.6581,43.0583;;Bijelo Polje;Glibavac
+233;19.2375,43.2203;;Pljevlja;Glibaći
+0;18.7339,42.3314;;Kotor;Glavatičići
+0;18.7369,42.3294;;Kotor;Glavatičići
+0;18.7525,42.4419;;Kotor;Glavati
+0;18.7756,42.3075;;Kotor;Glavati
+0;19.7758,42.8833;;Berane;Glavaca
+5;19.0239,42.2867;;Cetinje;Gađi
+0;19.0636,42.5811;;Danilovgrad;Donji Frutak
+0;19.3836,41.9672;;Ulcinj;Fraskanjel
+182;19.1919,42.4142;;Podgorica;Farmaci
+0;18.8300,42.4347;;Cetinje;Erakovići
+280;19.0250,42.9769;;Opština Šavnik;Duži
+0;19.4433,42.6283;;Podgorica;Duške
+0;19.4394,42.6367;;Podgorica;Duške
+0;19.0244,42.1667;;Bar;Ðurmani
+0;18.6708,42.4711;;Herceg Novi;Ðurići
+261;19.2967,43.1586;;Pljevlja;Ðurđevića Tara
+0;19.1911,42.1747;;Bar;Ðuravci
+0;18.6883,42.3947;;Tivat;Ðuraševići
+114;19.0417,42.2594;;Bar;Dupilo
+0;19.7506,42.6964;;Andrijevica;Dulipolje
+0;19.8000,42.6833;;Andrijevica;Ðulići
+0;18.8350,42.4369;;Cetinje;Dugi Do
+0;18.6308,42.6925;;Opština Nikšić;Dugi Do
+0;18.4525,42.5428;;Herceg Novi;Dugi Do
+0;18.5764,42.7389;;Opština Nikšić;Dugi Do
+0;19.0586,43.4844;;Pljevlja;Dugi Do
+0;19.2275,43.4436;;Pljevlja;Dugi Do
+0;19.2467,42.6144;;Danilovgrad;Dugi Do
+0;18.5922,42.8067;;Opština Nikšić;Dugi Do
+0;19.2600,43.0444;;Opština Žabljak;Dugi Do
+0;18.8000,42.9831;;Opština Nikšić;Duga
+0;19.3406,42.5456;;Podgorica;Duga
+0;18.8717,42.8833;;Opština Nikšić;Duga
+0;19.1469,43.4956;;Pljevlja;Duga
+0;19.4017,42.7644;;Opština Kolašin;Ðuđevina
+0;19.3889,42.4781;;Podgorica;Dučići
+589;19.1233,42.7153;;Opština Nikšić;Dučice
+153;18.9833,43.0092;;Opština Šavnik;Dubrovsko
+0;19.8214,43.0128;;Bijelo Polje;Dubovo
+10;19.0147,42.3297;;Cetinje;Dubovo
+0;18.8903,43.0850;;Opština Plužine;Dubljevići
+0;19.0983,43.4672;;Pljevlja;Donji Dubac
+163;19.0917,42.3564;;Cetinje;Drušići
+0;19.3764,42.3289;;Tuzi Municipality;Drume
+0;19.5572,42.8253;;Opština Kolašin;Drpe
+0;18.5536,42.7933;;Opština Nikšić;Drpe
+0;19.5075,42.8389;;Opština Kolašin;Drijenak
+0;18.9914,42.6528;;Opština Nikšić;Drenovštica
+0;19.1350,42.4311;;Podgorica;Gornja Draževina
+0;19.0525,42.7817;;Opština Nikšić;Dragovoljići
+0;19.3200,42.8617;81216;Opština Kolašin;Dragovića Polje
+0;18.9617,42.7897;;Opština Nikšić;Dragova Luka
+0;19.8944,42.8933;;Berane;Dragosava
+0;18.8289,42.4822;;Cetinje;Dragomi Do
+0;19.2539,43.2664;;Pljevlja;Dragaši
+0;18.6769,42.6222;;Opština Nikšić;Dragalj
+0;18.6761,42.6053;;Kotor;Dragalj
+0;19.1903,42.1856;;Bar;Dračevica
+0;19.8419,42.5758;;Gusinje Municipality;Dosuđe
+354;18.7111,42.4697;;Tivat;Donji Stoliv
+0;19.2747,41.9103;;Ulcinj;Donji Štoj
+114;19.0953,42.6000;;Danilovgrad;Donji Rsojevići
+0;18.6472,42.4894;;Herceg Novi;Donji Morinj
+200;19.1781,42.5386;;Danilovgrad;Donji Martinići
+523;19.1972,42.4011;;Podgorica;Donji Kokoti
+0;19.8553,42.8858;;Berane;Donje Zaostro
+0;19.4419,42.8639;;Opština Kolašin;Donje Lipovo
+0;18.5417,42.9567;81427;Opština Nikšić;Donje Crkvice
+0;19.2289,42.1189;;Bar;Donja Briska
+0;19.8758,42.8097;;Berane;Donja Rženica
+0;19.5256,42.9764;;Mojkovac;Donja Polja
+674;18.6886,42.4431;85332;Tivat;Donja Lastva
+0;18.9556,42.5708;;Cetinje;Donja Lastva
+256;19.1575,43.0231;;Opština Šavnik;Donja Bukovica
+0;19.2283,43.3736;;Pljevlja;Donja Brvenica
+297;19.1292,42.9142;;Opština Šavnik;Donja Bijela
+0;18.5750,42.7053;;Opština Nikšić;Dolovi
+0;19.0211,42.5903;;Danilovgrad;Dolovi
+0;19.1614,42.5931;;Danilovgrad;Dolovi
+0;18.8222,42.3775;;Cetinje;Dolovi
+0;18.5275,42.8686;;Opština Nikšić;Dolovi
+29;19.0919,42.4603;;Podgorica;Dolovi
+32;19.0556,42.5342;;Danilovgrad;Dolovi
+0;18.6658,42.8017;;Opština Nikšić;Dolovi
+5;18.8558,42.4953;;Cetinje;Dolovi
+0;19.3144,42.5064;;Podgorica;Dolovi
+0;19.3500,42.8567;;Opština Kolašin;Dolovi
+0;19.3075,42.4639;;Podgorica;Doljani
+0;19.7639,43.0594;;Bijelo Polje;Dolac
+0;19.8528,42.8467;;Berane;Dolac
+0;19.8464,43.0542;;Bijelo Polje;Dolac
+112;19.1364,42.3292;;Cetinje;Dodoši
+166;18.9644,42.3794;;Cetinje;Dobrsko Selo
+87;19.0514,42.3939;;Cetinje;Dobrska Župa
+5435;18.7683,42.4542;85331;Kotor;Dobrota
+0;19.9969,42.9647;;Petnjica Municipality;Dobrodole
+0;19.7197,43.1514;;Bijelo Polje;Dobrinje
+995;19.1439,42.0489;;Bar;Dobra Voda
+0;19.3864,43.4022;;Pljevlja;Dobra Voda
+0;18.8583,42.5200;;Cetinje;Dobra Voda
+0;19.7744,43.1394;;Bijelo Polje;Dobrakovo
+18;19.0056,42.4119;;Cetinje;Ðinovići
+510;19.3389,42.4186;;Podgorica;Dinoša
+0;18.8453,42.5031;;Cetinje;Dide
+772;18.6022,42.4369;;Herceg Novi;Ðenovići
+0;18.9908,43.5064;;Pljevlja;Ðenovići
+0;19.0450,42.1525;;Bar;Ðenđinovići
+336;18.9064,42.2561;;Budva;Ðenaši
+0;19.1636,42.1747;;Bar;Dediči
+35;19.0733,42.4875;;Danilovgrad;Ðeđezi
+0;19.3178,41.9481;;Ulcinj;Darza
+0;19.9211,42.8478;;Berane;Dapsići
+0;19.9472,42.8297;;Berane;Dapsići
+5208;19.1461,42.5538;81410;Danilovgrad;Danilovgrad
+0;19.9475,43.0742;;Bijelo Polje;Ðalovići
+191;19.1758,42.4872;;Danilovgrad;Daljam
+20;19.0400,42.4186;;Cetinje;Ðalci
+0;19.2236,42.4094;;Podgorica;Dajbabe
+82;19.0172,42.6733;;Opština Nikšić;Dabovići
+0;19.2078,42.0383;;Bar;Dabezići
+0;19.4206,42.5072;;Podgorica;Cvilin
+0;19.3394,41.9358;;Ulcinj;Ćurke
+571;19.1175,42.5347;;Danilovgrad;Ćurilac
+0;19.0028,42.5989;;Danilovgrad;Ćurčići
+0;19.4039,43.3867;;Pljevlja;Crni Vrh
+0;19.8250,42.8575;;Berane;Crni Vrh
+0;19.9086,42.9492;;Bijelo Polje;Crniš
+0;19.2353,42.5311;;Podgorica;Gornji Crnci
+0;19.8531,42.9753;;Bijelo Polje;Crnča
+311;19.0053,43.2161;;Opština Plužine;Crna Gora
+0;19.4158,43.3653;;Pljevlja;Crljenice
+0;19.4522,42.7956;;Opština Kolašin;Crkvine
+0;19.3403,43.1186;;Pljevlja;Crkvine
+0;19.3608,42.0836;;Ulcinj;Ckla
+0;18.9175,42.5461;81258;Cetinje;Čevo
+15137;18.9142,42.3906;81250;Cetinje;Cetinje
+116;19.0300,43.4181;;Pljevlja;Čestin
+25;19.0383,42.3992;;Cetinje;Češljari
+0;19.7044,43.0289;;Bijelo Polje;Cerovo
+0;18.9728,42.6692;;Opština Nikšić;Cerovo
+0;19.1258,43.3811;;Pljevlja;Cerovci
+0;19.1128,42.0811;85353;Bar;Čeluga
+10;18.9083,42.2683;;Budva;Čelobrdo
+0;19.7869,42.6789;;Andrijevica;Cecuni
+0;19.3614,43.1525;;Pljevlja;Čavanj
+0;19.0700,43.4767;;Pljevlja;Čardak
+0;19.1797,43.4472;;Pljevlja;Čardak
+0;19.1467,43.4744;;Pljevlja;Čardak
+0;19.1206,43.1672;;Opština Žabljak;Čardak
+92;19.1658,42.4517;;Podgorica;Ćafa
+0;19.2797,43.3781;;Pljevlja;Bušnje
+182;19.1019,42.4306;;Podgorica;Buronji
+0;18.9653,42.1986;85352;Budva;Buljarica
+0;19.0272,42.2311;;Bar;Bukovik
+0;18.5894,42.7161;;Opština Nikšić;Bukovik
+5;18.9431,42.3067;;Cetinje;Bukovik
+0;19.0500,42.8178;;Opština Nikšić;Bukovik
+0;19.4092,43.3517;;Pljevlja;Bukovik
+0;19.3967,43.4003;;Pljevlja;Bukovik
+0;18.8758,43.0444;;Opština Plužine;Bukovac
+0;19.3931,43.1681;;Pljevlja;Bujake
+0;19.4475,42.4458;;Tuzi Municipality;Budza
+18000;18.8392,42.2872;85310,85311,85312;Budva;Budva
+0;19.8917,42.8639;;Berane;Budimlja
+0;19.8547,42.8219;;Berane;Buče
+0;19.7131,43.0064;;Bijelo Polje;Buče
+0;18.8767,42.7664;;Opština Nikšić;Bubrežak
+323;19.0250,42.7272;;Opština Nikšić;Bršno
+0;19.4972,42.6119;;Podgorica;Brskut
+0;18.5558,42.7578;;Opština Nikšić;Donji Broćanac
+0;18.8547,42.7300;;Opština Nikšić;Broćanac Nikšićki
+0;18.8292,43.1886;;Opština Plužine;Brljevo
+58;19.1222,42.6083;;Danilovgrad;Brijestovo
+0;18.8878,43.3486;;Opština Plužine;Brijeg
+0;18.9256,42.8194;;Opština Nikšić;Brezovik
+0;19.9269,42.6200;;Opština Plav;Brezojevica
+0;19.9267,42.6256;;Opština Plav;Brezojevica
+211;19.1139,42.3925;;Podgorica;Brežine
+0;19.7550,42.7456;;Andrijevica;Brežine
+0;18.7972,42.7156;;Opština Nikšić;Brestica
+0;19.7936,43.0931;;Bijelo Polje;Brčve
+0;19.0650,42.1344;;Bar;Brca
+0;19.2025,41.9517;;Ulcinj;Bratica
+0;18.7892,42.3472;;Kotor;Bratešići
+0;19.3139,42.0233;;Ulcinj;Brajše
+0;19.3544,43.0886;;Pljevlja;Brajkovača
+0;19.0786,42.2536;;Bar;Braćeni
+0;19.7864,42.7231;;Andrijevica;Božići
+0;19.2372,43.4169;;Pljevlja;Božići
+0;19.8214,43.0697;;Bijelo Polje;Buturiće
+559;19.2000,42.3850;;Podgorica;Botun
+0;19.3508,43.2878;;Pljevlja;Baščinovići
+0;19.4481,43.1717;;Pljevlja;Borova
+59;19.0328,42.6408;;Danilovgrad;Boronjina
+0;18.8758,43.1000;;Opština Plužine;Borkovići
+134;18.9164,43.1342;;Opština Plužine;Boričje
+0;18.8622,42.2833;;Budva;Boreti
+0;19.0875,42.2225;;Bar;Boljevići
+0;19.7992,43.0378;;Bijelo Polje;Boljanina
+0;19.2133,43.4556;84217;Pljevlja;Boljanići
+0;19.2069,43.4500;;Pljevlja;Boljanići
+0;19.4208,42.5906;;Podgorica;Bolesestra
+34;18.9700,42.3986;;Cetinje;Bokovo
+0;19.7978,42.7058;;Andrijevica;Bojovići
+0;19.7881,42.5828;;Gusinje Municipality;Bojovići
+0;19.2869,42.0383;;Ulcinj;Bojke
+0;19.6897,43.0000;;Bijelo Polje;Bojišta
+0;19.2933,42.8669;;Opština Kolašin;Bojići
+0;18.9575,43.2547;;Opština Plužine;Bojati
+38;19.0128,42.6122;;Danilovgrad;Bogmilovići
+0;18.6808,42.3981;;Tivat;Bogišići
+109;19.0767,42.5778;;Danilovgrad;Bogićevići
+0;18.9670,42.6829;;Opština Nikšić;Bogetići
+5;18.7914,42.3369;81417;Kotor;Bogetići
+0;18.7347,42.4253;;Tivat;Donji Bogdašići
+0;19.9536,42.5831;;Opština Plav;Bogajići
+292;19.1294,43.2706;;Pljevlja;Bobovo
+0;19.2714,42.1153;;Bar;Bobovište
+115;19.1417,42.3478;;Cetinje;Bobija
+0;19.2128,42.9414;81455;Opština Šavnik;Boan
+0;19.3069,42.5375;;Podgorica;Blizna
+0;18.8033,42.5083;;Cetinje;Blizna
+0;18.9044,42.2456;;Budva;Blizikuće
+0;19.5478,43.1428;;Bijelo Polje;Bliškovo
+0;19.4844,42.8517;;Opština Kolašin;Blatina
+0;19.6167,42.9475;;Mojkovac;Blatina
+151;18.9003,42.3731;;Cetinje;Bjeloši
+0;19.1372,42.7217;;Opština Nikšić;Bjeloševina
+31;19.1331,43.4411;;Pljevlja;Bjeloševina
+0;19.4419,42.8169;;Opština Kolašin;Bistrica Moračka
+0;19.4358,42.9956;;Mojkovac;Bistrica
+0;19.8444,43.0697;;Bijelo Polje;Bistrica
+255;19.3514,42.5131;81214;Podgorica;Bioče
+15400;19.7476,43.0383;84000,84202;Bijelo Polje;Bijelo Polje
+765;19.1981,42.3031;;Podgorica;Bijelo Polje
+0;18.8850,42.6075;;Cetinje;Bijelo Polje
+0;19.0061,42.2150;;Bar;Bijelo Polje
+2395;18.6556,42.4533;85343;Herceg Novi;Bijela
+0;19.8333,42.9333;;Bijelo Polje;Bijedići
+0;19.1161,43.3672;;Pljevlja;Bijedići
+108;19.1322,42.3994;;Podgorica;Bigor
+188;18.8986,43.0517;;Opština Plužine;Bezuje
+0;19.4222,42.4942;;Podgorica;Bezjovo
+0;19.2250,42.1475;;Bar;Bes
+0;19.4453,42.4911;;Podgorica;Berova
+0;19.2175,42.3025;;Podgorica;Berislavci
+400;19.1844,42.4333;;Podgorica;Beri
+0;18.6144,42.3869;;Herceg Novi;Begovići
+0;19.4933,42.6169;;Podgorica;Begovići
 850;18.8692,42.2839;85316;;Bečići
-15868;19.0984,42.0937;85000;;Bar
-603;18.6300,42.4425;85344;;Baošići
-1073;19.7919,42.7339;84320;;Andrijevica
-0;18.8150,42.5536;81259;;Bata
-0;19.9636,42.9097;84312;;Petnjica
-0;18.9047,42.9956;81432;;Donja Brezna
-0;19.7861,43.0031;84303;;Zaton
-0;18.4964,42.8389;81426;;Vraćenovići
-0;19.3183,42.0772;85306;;Ostros
-0;19.1419,42.3925;81252;;Barutana
-5;18.9981,42.1628;85357;;Čanj
-121;18.9461,43.1906;81437;;Trsa
-148;18.6728,42.4667;85342;;Kamenari
-0;18.9428,42.8544;81432;;Vidrovan
-5;18.7603,42.3586;85318;;Radanovići
-5;18.9269,42.2128;85314;;Perazića Do
-0;19.1197,42.7219;81418;;Miolje Polje
-0;18.9989,42.6650;81416;;Glava Zete
-0;19.0903,42.5042;85300;;Petrovac
-0;19.1658,41.9492;85368;;Valdanos
-0;19.2478,41.9122;85361;;Velika Plaža
-0;18.6140,42.4396;85345;;Đenovići
+0;18.9497,42.5264;;Cetinje;Bečići
+0;19.7933,42.8642;;Berane;Bastahe
+0;19.1417,42.0831;;Bar;Bartula
+0;18.8808,43.2558;;Opština Plužine;Barni Do
+0;19.4181,42.3569;;Tuzi Municipality;Barlaj
+0;18.9814,42.5042;;Cetinje;Barjamovica
+518;19.4850,43.0875;;Bijelo Polje;Barice
+0;19.4147,42.7686;;Opština Kolašin;Barice
+0;19.7269,43.0164;;Bijelo Polje;Barice
+171;19.0733,42.6225;;Danilovgrad;Bare Šumanovića
+0;19.2364,42.9381;;Opština Šavnik;Bare
+0;19.1261,43.3517;;Pljevlja;Bare
+0;19.8833,42.6869;;Berane;Bare
+0;19.9281,42.9286;;Petnjica Municipality;Bare
+0;19.4139,42.7628;;Opština Kolašin;Bare
+0;19.5736,43.1731;;Bijelo Polje;Bare
+0;19.5919,43.2011;;Bijelo Polje;Bare
+0;19.2244,43.3808;;Pljevlja;Bare
+0;19.8639,42.8553;;Berane;Beran Selo
+15868;19.0984,42.0937;85000;Bar;Bar
+603;18.6300,42.4425;85344;Herceg Novi;Baošići
+0;18.6156,42.7567;;Opština Nikšić;Balosave
+0;19.2339,42.3250;;Podgorica;Balabani
+0;19.5169,42.8481;;Opština Kolašin;Bakovići
+0;18.6061,42.4764;;Herceg Novi;Bakoči
+0;18.8783,43.0128;;Opština Plužine;Bajovo Polje
+0;19.5122,42.8339;;Opština Kolašin;Babljak
+0;19.8981,42.9025;;Berane;Babin
+0;18.8658,43.2794;;Opština Plužine;Babići
+0;19.0144,43.4594;;Pljevlja;Babići
+0;19.6328,43.1078;;Bijelo Polje;Babaići
+0;19.9481,42.9500;;Petnjica Municipality;Azanje
+0;19.4028,42.3697;;Tuzi Municipality;Arza
+0;19.3403,42.0753;;Ulcinj;Arbneš
+0;19.7942,42.7181;;Andrijevica;Andželati
+1073;19.7919,42.7339;84320;Andrijevica;Andrijevica
+0;19.3525,41.9803;;Ulcinj;Ambula
+0;18.4964,42.5072;;Herceg Novi;Gojkovići
+0;18.4936,42.7928;;Opština Nikšić;Knež Do
+5;18.7981,42.4311;;Cetinje;Knež Do
+0;18.5322,43.0036;;Opština Nikšić;Toljevina
+0;18.5317,43.0192;;Opština Nikšić;Biteljica
+0;18.6692,43.0183;;Opština Nikšić;Donje Čarađe
+0;18.6853,43.0056;;Opština Nikšić;Gornje Čarađe
+0;18.7500,43.0000;;Opština Nikšić;Zlostup
+0;18.7436,43.0083;;Opština Nikšić;Zlostup
+0;18.7292,43.0281;;Opština Nikšić;Stajišta
+0;18.7397,43.0411;;Opština Nikšić;Do
+0;18.7428,43.0358;;Opština Nikšić;Kučine
+0;18.6603,43.0778;;Opština Nikšić;Miljev Do
+0;18.6703,43.0761;;Opština Nikšić;Klačina
+0;18.6700,43.0664;;Opština Nikšić;Gornji Kazanci
+0;18.6694,43.0594;;Opština Nikšić;Šeničišta
+0;18.6808,43.1644;;Opština Plužine;Mramor
+0;19.4008,43.3381;;Pljevlja;Mramor
+0;19.5808,43.1489;;Bijelo Polje;Mramor
+0;18.6869,43.1542;;Opština Plužine;Krivodo
+0;18.6147,42.6814;;Opština Nikšić;Krivodo
+0;18.9114,42.7333;;Opština Nikšić;Krivodo
+0;18.6719,43.1681;;Opština Plužine;Poljana
+0;19.1472,43.5033;;Pljevlja;Poljana
+0;19.2147,43.2981;;Pljevlja;Poljana
+0;18.6431,42.5742;;Kotor;Poljana
+5;18.8961,42.3594;;Cetinje;Poljana
+0;19.3758,42.6389;;Podgorica;Poljana
+0;19.4333,43.3761;;Pljevlja;Poljana
+0;18.6703,43.1772;;Opština Plužine;Miletići
+0;18.5106,42.5550;;Herceg Novi;Ždrijelo
+0;18.6142,42.5078;;Herceg Novi;Vukasovići
+0;18.9883,43.4700;;Pljevlja;Vukasovići
+0;18.6108,42.5097;;Herceg Novi;Savići
+0;19.9814,42.6403;;Opština Plav;Savići
+0;19.9217,42.7778;;Berane;Savići
+0;18.6178,42.5133;;Herceg Novi;Ivovići
+0;19.0869,43.4475;;Pljevlja;Ivovići
+5;18.6231,42.4503;;Herceg Novi;Ivovići
+0;18.6264,42.5142;;Herceg Novi;Vukićevići
+0;18.6342,42.5156;;Herceg Novi;Jančići
+0;18.6292,42.5092;;Herceg Novi;Dragojlovići
+0;18.7097,42.5328;;Kotor;Donje Ledenice
+0;18.7042,42.5439;;Kotor;Gornje Ledenice
+0;18.6861,42.6217;;Cetinje;Bara
+0;19.0964,43.4256;;Pljevlja;Bara
+0;18.6806,42.6544;;Opština Nikšić;Bara
+0;18.6892,42.6150;;Cetinje;Umac
+0;18.6142,42.6872;;Opština Nikšić;Nugo
+0;18.6283,42.6811;;Opština Nikšić;Rojevići
+0;18.6306,42.7242;;Opština Nikšić;Donja Spila
+0;18.6586,42.7186;;Opština Nikšić;Gornja Spila
+0;18.6781,42.5419;;Kotor;Knežlaz
+0;18.6497,42.5511;;Kotor;Unijerina
+0;18.7189,42.6522;;Cetinje;Droškorički Dolovi
+0;18.7047,42.7006;;Opština Nikšić;Šiljkov Do
+0;18.7014,42.7042;;Opština Nikšić;Ševeljski Do
+0;18.7039,42.7133;;Opština Nikšić;Ðelovi Do
+0;18.7336,42.7083;;Opština Nikšić;Rženi Do
+0;18.7194,42.7025;;Opština Nikšić;Krstače
+0;19.1250,43.4678;;Pljevlja;Krstače
+0;19.6219,43.1467;;Bijelo Polje;Krstače
+0;18.6319,42.5672;;Kotor;Krstače
+0;18.6422,42.7086;;Opština Nikšić;Ramadića Do
+0;18.6425,42.7056;;Opština Nikšić;Zagorski Do
+0;18.7253,42.7467;;Opština Nikšić;Brankov Do
+0;18.6783,42.7189;;Opština Nikšić;Okolišta
+0;18.7375,42.6028;;Cetinje;Okolišta
+0;18.6347,42.7925;;Opština Nikšić;Štrpca
+0;18.7022,42.8164;;Opština Nikšić;Cerovice
+0;19.3508,42.7639;;Opština Kolašin;Cerovice
+0;18.5969,42.4208;;Herceg Novi;Trojanovići
+0;18.5858,42.4406;;Herceg Novi;Kumbor
+0;18.4992,42.4456;;Herceg Novi;Žvinje
+0;18.5306,42.4653;;Herceg Novi;Tušupi
+0;18.5378,42.4828;;Herceg Novi;Obradovići
+0;18.5383,42.4858;;Herceg Novi;Stijepčići
+0;18.6953,42.4986;;Kotor;Lastvica
+0;18.6961,42.7461;;Opština Nikšić;Široki Do
+0;18.7050,42.3569;;Tivat;Bigovo
+0;18.5997,42.3969;;Herceg Novi;Radovanići
+0;18.6514,42.4625;;Herceg Novi;Vukovići
+0;19.0353,43.2858;;Pljevlja;Vukovići
+0;19.2761,42.4947;;Podgorica;Vukovići
+0;18.6733,42.4822;;Herceg Novi;Brković
+0;18.7819,42.3839;;Kotor;Mirac
+0;18.8892,42.3839;;Cetinje;Gornić
+0;18.7964,42.4183;;Cetinje;Žanjev Do
+0;18.9861,42.4311;;Cetinje;Orašani
+0;18.8206,42.4261;;Cetinje;Kopito
+0;19.1367,42.5442;;Danilovgrad;Kopito
+0;18.7661,42.4583;;Kotor;Radimiri
+0;18.9461,42.4661;;Cetinje;Selo
+0;19.0264,43.4233;;Pljevlja;Selo
+0;18.7814,42.4717;;Kotor;Mali Zalazi
+100;18.9808,42.3578;;Cetinje;Ceklin
+0;18.8294,42.3239;;Budva;Zečevo Selo
+0;18.8561,42.3139;;Budva;Lapčići
+0;18.8919,42.3075;;Budva;Stojanovići
+0;19.8997,42.9853;;Bijelo Polje;Stojanovići
+0;19.0906,42.2306;;Bar;Zabes
+0;19.2206,42.0317;;Bar;Leskovac
+0;19.1606,42.1072;;Bar;Mali Mikulići
+0;19.2564,42.1231;;Bar;Bljaca
+0;19.2814,42.0736;;Ulcinj;Madguš
+0;19.0200,42.3317;;Cetinje;Donja Dubova
+27;19.0486,42.2683;;Bar;Popratnice
+0;19.0542,42.3156;;Cetinje;Čukovići
+0;19.2128,42.4308;;Podgorica;Donja Gorica
+0;19.2158,42.4386;;Podgorica;Gornja Gorica
+111;19.1361,42.4603;;Podgorica;Baloči
+45;19.0844,42.4672;;Podgorica;Milati
+88;19.0228,42.4581;;Cetinje;Orasi
+0;19.3075,42.3458;;Tuzi Municipality;Dušići
+0;19.3628,42.3728;;Podgorica;Paškala
+279;19.2833,42.3878;;Tuzi Municipality;Rakića Kuće
+0;19.3275,42.3892;;Tuzi Municipality;Donji Mileš
+0;19.4528,42.4953;;Podgorica;Lazorci
+0;19.2758,42.4600;;Podgorica;Zagorič
+0;19.3036,42.4517;;Podgorica;Potkrajnica
+0;19.4564,42.4472;;Tuzi Municipality;Stjepovo
+0;19.4819,42.4436;;Tuzi Municipality;Benkaj
+0;18.7125,42.5475;;Kotor;Grkavac
+0;18.6756,42.5928;;Kotor;Han
+0;18.9944,42.3619;;Cetinje;Han
+0;18.6981,42.5978;;Cetinje;Crni Nugli
+0;18.7450,42.6808;;Cetinje;Rokoči
+0;18.7289,42.6139;;Cetinje;Podbukovica
+0;18.6453,42.6164;;Kotor;Jovičina Voda
+0;18.6992,42.6647;;Opština Nikšić;Pišteti
+0;18.6358,42.6589;;Opština Nikšić;Petkovići
+0;18.7125,42.6958;;Opština Nikšić;Razmuće
+0;18.8589,42.5072;;Cetinje;Ublice
+0;18.7903,42.5125;;Cetinje;Jasikovica
+0;18.7103,42.9575;;Opština Nikšić;Jasikovica
+0;18.9169,42.5381;;Cetinje;Miške
+0;18.8150,42.5536;81259;Cetinje;Bata
+0;18.7864,42.5381;;Cetinje;Dobronjež Do
+0;18.7692,42.5439;;Cetinje;Rpavac
+0;18.7753,42.5622;;Cetinje;Stražišta
+0;18.8586,42.6825;;Cetinje;Bijele Poljane
+0;18.9925,42.6339;;Opština Nikšić;Milojevići
+0;18.8114,42.6486;;Cetinje;Kragujev Do
+0;18.9325,42.6094;;Cetinje;Meoca
+0;18.8458,42.5744;;Cetinje;Viti Jasen
+0;18.8644,42.5603;;Cetinje;Krug
+0;18.9325,42.7092;;Opština Nikšić;Međeđe
+0;19.0608,42.6736;;Danilovgrad;Međeđe
+0;18.7706,42.6864;;Cetinje;Savina Kruška
+0;19.1244,42.7272;;Opština Nikšić;Vasiljevići
+0;18.6194,42.5075;;Herceg Novi;Vasiljevići
+0;19.2336,42.5956;;Danilovgrad;Dobri Do
+67;19.0503,42.5219;;Danilovgrad;Musterovići
+0;19.1561,42.5000;;Danilovgrad;Novo Selo
+0;19.7614,42.9908;;Bijelo Polje;Novo Selo
+0;19.3083,42.4253;;Podgorica;Novo Selo
+0;19.4786,42.5994;;Podgorica;Kruševi Do
+0;18.7053,42.5539;;Kotor;Kruševi Do
+0;19.3769,42.6006;;Podgorica;Dromira
+0;19.4642,42.5639;;Podgorica;Gornje Stravče
+0;19.3467,42.5700;;Podgorica;Radunovići
+0;19.8958,42.8483;;Berane;Radunovići
+0;19.3375,42.5600;;Podgorica;Milunovići
+0;19.4644,42.5511;;Podgorica;Brezevice
+0;19.2989,42.5081;;Podgorica;Zavala
+0;19.3425,42.6311;;Podgorica;Brezove Rupe
+0;19.3747,42.6378;;Podgorica;Vjetrina
+0;19.4369,42.6453;;Podgorica;Ptič
+0;19.3519,42.6892;;Opština Kolašin;Mijoljica
+0;19.3144,42.7108;;Opština Kolašin;Granica
+0;19.0800,42.4244;;Podgorica;Granica
+0;18.6889,42.5719;;Kotor;Granica
+0;19.7353,42.7033;;Andrijevica;Konjuhe
+0;19.6572,42.7361;;Andrijevica;Han Drndarski
+0;19.7208,42.7383;;Andrijevica;Donja Čuka
+0;19.7028,42.7433;;Andrijevica;Trešnjevik
+0;19.5214,42.6900;;Podgorica;Han Garančića
+0;19.7631,42.6956;;Andrijevica;Savrdak
+0;19.5858,42.5572;;Podgorica;Prosica
+0;19.7786,42.7450;;Andrijevica;Salevići
+0;19.9328,42.7272;;Berane;Spaljevići
+0;19.9056,42.6642;;Opština Plav;Krivače
+0;18.7147,42.7386;;Opština Nikšić;Krivače
+0;19.9061,42.6531;;Opština Plav;Pepiće
+0;19.8667,42.5189;;Gusinje Municipality;Zarunica
+0;19.8356,42.5425;;Gusinje Municipality;Cosovići
+0;19.9375,42.7783;;Berane;Babića Mala
+0;19.9289,42.8722;;Berane;Delevići
+0;19.8094,42.9639;;Bijelo Polje;Brzava
+0;19.7911,42.9528;;Bijelo Polje;Prijelozi
+0;19.8567,42.9333;;Bijelo Polje;Bioča
+0;19.8178,42.9194;;Berane;Rujišta
+0;19.9636,42.9097;84312;Petnjica Municipality;Petnjica
+0;19.9214,42.8906;;Berane;Jodole
+0;19.5375,42.9278;;Mojkovac;Donja Štitarica
+0;19.5736,42.9447;;Mojkovac;Podbišće
+0;19.7144,42.9886;;Bijelo Polje;Ravna Rijeka
+0;19.6481,43.0097;;Bijelo Polje;Ravna Rijeka
+0;19.6186,42.7522;;Opština Kolašin;Kovačica
+0;19.4858,42.6508;;Podgorica;Kovačica
+0;19.6381,42.7739;;Opština Kolašin;Suva Gora
+0;19.5731,43.0650;;Bijelo Polje;Suva Gora
+0;19.5111,42.7969;;Opština Kolašin;Lugovi
+0;19.0297,43.4594;;Pljevlja;Lugovi
+0;19.5464,43.0172;;Bijelo Polje;Lugovi
+0;18.8497,42.2906;;Budva;Lugovi
+0;19.2222,43.3725;;Pljevlja;Lugovi
+0;19.5919,42.7964;;Opština Kolašin;Brajića Brijeg
+0;19.2831,42.9208;;Opština Šavnik;Gornja Rijeka
+0;19.2294,42.9278;;Opština Šavnik;Sirovac
+0;19.3903,42.7744;;Opština Kolašin;Nikonovac
+0;19.3972,42.7828;;Opština Kolašin;Vocje
+0;19.4842,42.8042;;Opština Kolašin;Pčinja
+0;19.4125,42.8150;;Opština Kolašin;Mijoska
+0;19.3956,42.8292;;Opština Kolašin;Smočje
+0;19.2178,42.9319;;Opština Šavnik;Puštala
+0;19.1817,42.9644;;Opština Šavnik;Cer
+158;19.1094,42.9647;;Opština Šavnik;Dobra Sela
+0;18.9656,42.9856;;Opština Šavnik;Gornja Brezna
+0;18.9047,42.9956;81432;Opština Plužine;Donja Brezna
+0;18.8583,42.9053;;Opština Nikšić;Čeline
+0;19.1683,43.4267;;Pljevlja;Čeline
+0;18.8403,42.9417;;Opština Nikšić;Nozdra
+0;18.8764,42.8831;;Opština Nikšić;Presjeka
+0;19.4536,42.7486;;Opština Kolašin;Presjeka
+0;18.5725,42.4686;;Herceg Novi;Presjeka
+0;18.7797,42.8192;;Opština Nikšić;Donja Trepča
+0;18.7811,42.8397;;Opština Nikšić;Trusina
+0;18.8828,42.8597;;Opština Nikšić;Gornja Tisa
+0;18.9036,42.8600;;Opština Nikšić;Šume
+0;19.0497,42.7917;;Opština Nikšić;Šume
+0;18.9661,42.8931;;Opština Nikšić;Jasenovo Polje
+0;18.8744,42.8697;;Opština Nikšić;Rakita
+0;19.1794,43.4414;;Pljevlja;Rakita
+0;18.9492,42.7558;;Opština Nikšić;Straševina
+0;18.7531,42.7408;;Opština Nikšić;Loza
+0;18.5364,42.7628;;Opština Nikšić;Usputnica
+0;18.5033,42.8661;;Opština Nikšić;Ristopolje
+0;18.5422,42.8469;;Opština Nikšić;Alagin Do
+0;18.6153,42.8517;;Opština Nikšić;Renovac
+0;18.7233,42.9958;;Opština Nikšić;Ništice
+0;18.6872,42.9750;;Opština Nikšić;Šipova Dola
+0;18.6186,42.9231;;Opština Nikšić;Zanugline
+0;18.5450,42.9483;;Opština Nikšić;Zanugline
+0;18.6533,42.9247;;Opština Nikšić;Gornje Dubočke
+0;18.6744,42.8956;;Opština Nikšić;Dubočke
+0;18.5936,42.8925;;Opština Nikšić;Kapavice
+0;18.5081,42.9694;;Opština Nikšić;Kapavice
+0;18.6158,42.8797;;Opština Nikšić;Kapavice
+0;18.5900,42.5258;;Herceg Novi;Meki Do
+0;19.1728,43.2500;;Pljevlja;Meki Do
+0;19.5286,43.0336;;Bijelo Polje;Meki Do
+0;19.6717,43.1853;;Bijelo Polje;Meki Do
+0;19.1953,42.9908;;Opština Šavnik;Meki Do
+0;19.4903,43.0517;;Bijelo Polje;Meki Do
+0;18.5119,42.5433;;Herceg Novi;Kruška
+0;18.7872,42.5433;;Cetinje;Kruška
+0;18.4711,42.5272;;Herceg Novi;Drenovac
+0;18.4875,42.5292;;Herceg Novi;Tomaševići
+0;18.4789,42.5222;;Herceg Novi;Dizdarev Do
+0;18.4892,42.5147;;Herceg Novi;Petijevići
+0;18.4781,42.5069;;Herceg Novi;Svrčuge
+0;18.4917,42.5053;;Herceg Novi;Meteriz
+0;18.4775,42.5008;;Herceg Novi;Lazarevići
+5;18.7375,42.3342;;Kotor;Lazarevići
+0;18.5008,42.5028;;Herceg Novi;Lepetići
+0;18.4544,42.5328;;Herceg Novi;Kačunica
+0;18.4481,42.5564;;Herceg Novi;Sitnica
+0;18.4606,42.5433;;Herceg Novi;Rupe
+0;18.4992,42.5667;;Herceg Novi;Kape
+0;18.5900,42.6389;;Opština Nikšić;Pakalj-Do
+0;18.5903,42.6506;;Opština Nikšić;Lokvanj
+0;18.5786,42.6711;;Opština Nikšić;Kamiševo
+0;18.5236,42.7472;;Opština Nikšić;Skorča Gora
+0;18.5075,42.7367;;Opština Nikšić;Pareški Do
+0;18.5033,42.7411;;Opština Nikšić;Selina
+0;18.7114,43.0183;;Opština Nikšić;Selina
+0;18.6978,42.9931;;Opština Nikšić;Selina
+0;19.2356,43.1719;;Pljevlja;Selina
+0;18.5986,42.7100;;Opština Nikšić;Zaušje
+0;18.6292,42.4492;;Herceg Novi;Zaušje
+0;18.5786,42.6903;;Opština Nikšić;Zebljak
+0;18.5500,42.6886;;Opština Nikšić;Žugljaj
+0;18.5556,42.6775;;Opština Nikšić;Sapalj Do
+0;19.1733,43.5131;;Pljevlja;Burići
+0;19.1631,43.5125;;Pljevlja;Plani
+0;19.7869,43.0442;;Bijelo Polje;Plani
+0;19.3011,43.4097;;Pljevlja;Plani
+0;19.1897,43.5317;;Pljevlja;Kreće
+0;19.1856,43.5250;;Pljevlja;Bukova Šuma
+0;19.1706,43.5217;;Pljevlja;Prisoje
+0;19.2642,43.3700;;Pljevlja;Prisoje
+0;19.4100,42.6789;;Opština Kolašin;Prisoje
+0;19.1594,43.5300;;Pljevlja;Hadžovina
+0;19.1053,43.5053;;Pljevlja;Lokva
+0;19.1003,43.5017;;Pljevlja;Ðuli
+0;19.0167,43.5111;;Pljevlja;Krčevine
+0;19.0381,43.5139;;Pljevlja;Klakorina
+0;19.0044,43.5094;;Pljevlja;Stražice
+0;19.0239,43.5292;;Pljevlja;Dužice
+0;19.0186,43.5317;;Pljevlja;Bavčići
+0;18.9681,43.5131;;Pljevlja;Bavčići
+0;19.0147,43.5436;;Pljevlja;Šapići
+0;18.9958,43.5236;;Pljevlja;Plansko
+0;18.9978,43.5442;;Pljevlja;Rudići
+0;18.9936,43.5453;;Pljevlja;Močevići
+0;18.9717,43.5086;;Pljevlja;Budojevići
+0;18.9917,43.5147;;Pljevlja;Meljena
+0;18.9844,43.5106;;Pljevlja;Čejirenci
+0;18.9242,43.5028;;Pljevlja;Geuši
+0;19.1969,43.5086;;Pljevlja;Krst
+0;19.2006,43.4703;;Pljevlja;Krst
+0;19.1800,43.5072;;Pljevlja;Mekote
+0;19.0656,43.4231;;Pljevlja;Mekote
+0;18.6250,42.7958;;Opština Nikšić;Mekote
+0;19.1242,43.5025;;Pljevlja;Lisičiji Do
+0;19.1572,43.5233;;Pljevlja;Avlija
+0;19.0175,43.5214;;Pljevlja;Kave
+0;19.0281,43.5339;;Pljevlja;Ravni
+0;19.7150,43.1625;;Bijelo Polje;Ravni
+0;19.4403,42.7714;;Opština Kolašin;Ravni
+0;19.4725,43.0778;;Bijelo Polje;Ravni
+0;18.5239,43.0192;;Opština Nikšić;Rogači
+0;18.5347,43.0000;;Opština Nikšić;Gornje Crkvice
+0;18.9794,43.4869;;Pljevlja;Srečanje
+0;18.9703,43.4847;;Pljevlja;Rujevica
+0;19.2461,43.3386;;Pljevlja;Rujevica
+0;18.9883,43.4814;;Pljevlja;Vojnići
+0;18.9131,42.5464;;Cetinje;Vojnići
+0;18.9739,43.4667;;Pljevlja;Hajlovina
+0;18.9836,43.4656;;Pljevlja;Mrčići
+0;18.8750,43.2381;;Opština Plužine;Podvoda
+0;18.8975,43.1833;;Opština Plužine;Gornji Unač
+0;18.8669,43.1906;;Opština Plužine;Donji Unač
+0;18.7831,43.1717;;Opština Plužine;Sedlari
+0;19.2425,43.3736;;Pljevlja;Sedlari
+0;18.8267,43.1667;;Opština Plužine;Budanj
+0;18.8911,43.1628;;Opština Plužine;Dobrilovići
+0;18.9025,43.2981;;Opština Plužine;Koprivnjaća
+0;18.8450,43.1556;;Opština Plužine;Madžarski Kraj
+0;18.9333,43.3192;;Opština Plužine;Beluševac
+0;18.8972,43.1156;;Opština Plužine;Seljkovac
+0;18.9172,43.3308;;Opština Plužine;Donje Polje
+0;18.9864,43.0078;;Opština Šavnik;Donje Polje
+0;18.9289,42.3817;;Cetinje;Donje Polje
+0;19.3578,42.5814;;Podgorica;Donje Polje
+0;18.9050,43.3392;;Opština Plužine;Vraca
+0;18.9164,43.3286;;Opština Plužine;Marići
+5;18.6914,42.3958;;Tivat;Marići
+0;18.5839,42.4647;;Herceg Novi;Marići
+0;18.9133,43.3244;;Opština Plužine;Komanica
+0;18.9211,43.3486;;Opština Plužine;Božurev Do
+0;18.9011,43.3517;;Opština Plužine;Likića Do
+0;18.9111,43.3569;;Opština Plužine;Odžića Glavica
+0;18.8117,43.1106;;Opština Plužine;Sinjac
+0;19.1503,42.3656;;Podgorica;Sinjac
+0;18.8453,43.0917;;Opština Plužine;Seljani
+0;18.9042,43.0231;;Opština Plužine;Duba
+0;19.1617,43.2633;;Pljevlja;Jovići
+0;19.1933,43.3208;;Pljevlja;Neviđen
+0;19.1986,43.3281;;Pljevlja;Vrbov Lug
+0;19.1558,43.3303;;Pljevlja;Zahum
+0;19.1053,43.2886;;Pljevlja;Potkokot
+0;19.1142,43.2764;;Pljevlja;Jelov Panj
+0;19.1961,43.3825;;Pljevlja;Guke
+0;19.3397,43.3597;;Pljevlja;Guke
+0;18.6600,43.0306;;Opština Nikšić;Bobotovo Groblje
+0;18.6708,43.0289;;Opština Nikšić;Miroč-Do
+0;19.1897,43.4808;;Pljevlja;Kovać
+0;19.1592,43.4867;;Pljevlja;Zorilovići
+0;19.1672,43.4878;;Pljevlja;Mirovići
+0;18.6672,43.0422;;Opština Nikšić;Papovina
+0;19.1892,43.4631;;Pljevlja;Čaušev Do
+0;19.1922,43.4467;;Pljevlja;Zaselje
+0;18.8358,42.5625;;Cetinje;Zaselje
+0;19.1697,43.4592;;Pljevlja;Mironići
+0;19.1953,43.4631;;Pljevlja;Jezero
+0;19.1911,43.4569;;Pljevlja;Jasike
+0;18.5197,42.9958;;Opština Nikšić;Jasike
+0;19.1783,43.4542;;Pljevlja;Dvorišta
+0;19.1881,43.4300;;Pljevlja;Kotorac
+0;19.1989,43.4275;;Pljevlja;Jakupov Grob
+0;19.1686,43.4344;;Pljevlja;Dublje
+0;19.3936,43.2319;;Pljevlja;Dublje
+0;19.1700,43.4133;;Pljevlja;Crno Brdo
+0;19.1881,43.4108;;Pljevlja;Velje Polje
+0;18.6886,43.0525;;Opština Nikšić;Jasikovac
+0;18.7078,42.5572;;Kotor;Jasikovac
+0;18.9500,42.6853;;Opština Nikšić;Jasikovac
+0;18.7878,42.8506;;Opština Nikšić;Jasikovac
+0;18.8767,42.8572;;Opština Nikšić;Jasikovac
+0;19.1817,42.9864;;Opština Šavnik;Jasikovac
+0;18.5497,42.9675;;Opština Nikšić;Jasikovac
+0;19.1106,43.4956;;Pljevlja;Rajišići
+0;19.1192,43.4897;;Pljevlja;Čitluk
+0;19.6289,43.1181;;Bijelo Polje;Čitluk
+235;19.1081,43.4636;;Pljevlja;Potkovač
+0;19.1289,43.4969;;Pljevlja;Ulica
+0;19.8831,42.7533;;Berane;Ulica
+0;19.4375,42.7281;;Opština Kolašin;Ulica
+0;19.2267,43.3775;;Pljevlja;Ulica
+0;19.1342,43.4883;;Pljevlja;Brekinja
+0;19.1431,43.4914;;Pljevlja;Bajovina
+0;19.1081,43.4883;;Pljevlja;Gaj
+0;19.1247,43.4858;;Pljevlja;Ðurovići
+5;18.9781,42.1997;;Budva;Ðurovići
+0;18.9667,42.6711;;Opština Nikšić;Ðurovići
+0;18.5614,42.4814;;Herceg Novi;Ðurovići
+0;19.1503,43.4822;;Pljevlja;Kačak
+0;19.1344,43.4736;;Pljevlja;Pomenići
+0;19.1447,43.4703;;Pljevlja;Vrtače
+0;19.1297,43.4122;;Pljevlja;Vrtače
+0;19.1250,43.4542;;Pljevlja;Ljubojevac
+0;19.1306,43.4592;;Pljevlja;Strahov Do
+0;19.1108,43.4567;;Pljevlja;Kosovi
+0;19.1061,43.4611;;Pljevlja;Puzići
+0;19.1139,43.4783;;Pljevlja;Gornji Dubac
+159;19.0819,43.5000;;Pljevlja;Kukavice
+0;19.0694,43.4853;;Pljevlja;Potkamen
+0;18.7086,43.1653;;Opština Plužine;Zukva
+0;19.1628,42.9628;;Opština Šavnik;Zukva
+0;19.1428,43.3397;;Pljevlja;Lokvice
+0;19.4250,43.3589;;Pljevlja;Lokvice
+0;19.1436,43.0711;;Opština Žabljak;Lokvice
+0;19.1575,43.3442;;Pljevlja;Krvavci
+0;19.1642,43.3436;;Pljevlja;Točkovi
+0;19.1692,43.3469;;Pljevlja;Lučići
+0;18.4753,42.4806;;Herceg Novi;Lučići
+0;19.1769,43.3578;;Pljevlja;Njivica
+0;19.1181,43.3597;;Pljevlja;Zaugline
+0;19.1425,43.4047;;Pljevlja;Poros
+0;19.1250,43.4006;;Pljevlja;Crnci
+0;19.2139,42.5392;;Danilovgrad;Crnci
+0;19.1383,43.3931;;Pljevlja;Podosoje
+0;18.8892,43.3206;;Opština Plužine;Podosoje
+0;19.2478,43.3878;;Pljevlja;Podosoje
+0;19.1269,43.3858;;Pljevlja;Orah
+0;19.8961,42.7472;;Berane;Orah
+0;18.9794,42.8614;;Opština Nikšić;Orah
+0;19.4106,42.5828;;Podgorica;Orah
+0;19.0894,43.3994;;Pljevlja;Zabrnjica
+0;19.2497,43.2656;;Pljevlja;Zabrnjica
+0;19.0128,42.7886;;Opština Nikšić;Zabrnjica
+0;19.0933,43.3944;;Pljevlja;Rogovina
+0;19.1019,43.3775;;Pljevlja;Iva
+0;19.0808,43.3803;;Pljevlja;Kljun
+0;19.1514,43.4419;;Pljevlja;Pribakovići
+16;19.0881,43.4567;;Pljevlja;Plakali
+0;19.0825,43.4783;;Pljevlja;Klapusi
+0;19.0497,43.4592;;Pljevlja;Tvrdakovići
+0;19.0692,43.4497;;Pljevlja;Rosulje
+0;19.7881,43.0647;;Bijelo Polje;Rosulje
+68;19.0592,43.4500;;Pljevlja;Jahovići
+0;19.0594,43.4575;;Pljevlja;Sirčići
+0;19.0594,43.4453;;Pljevlja;Oborci
+0;19.0433,43.4464;;Pljevlja;Romač
+0;19.0331,43.4847;;Pljevlja;Gunjičići
+0;19.0497,43.4722;;Pljevlja;Raščići
+0;19.0314,43.4769;;Pljevlja;Komini
+0;19.0314,43.4700;;Pljevlja;Tupci
+0;19.0553,43.3897;;Pljevlja;Priboj
+0;19.2814,42.4717;;Podgorica;Priboj
+0;19.0453,43.4225;;Pljevlja;Mjedenik
+34;19.2014,43.4361;;Pljevlja;Pižuri
+0;19.1992,43.4050;;Pljevlja;Karačići
+0;19.0200,43.4883;;Pljevlja;Borišići
+0;18.9964,43.4739;;Pljevlja;Kržava
+0;19.0111,43.4428;;Pljevlja;Tatarovine
+0;19.0428,43.2783;;Pljevlja;Jakovac
+0;18.8489,43.3119;;Opština Plužine;Čokova Luka
+0;18.8728,43.2969;;Opština Plužine;Žeično
+0;18.8778,43.3531;;Opština Plužine;Babino Brdo
+0;18.8753,43.3481;;Opština Plužine;Lisa Stijena
+166;19.1581,43.4439;;Pljevlja;Rađevići
+0;18.8664,43.3519;;Opština Plužine;Papratište
+0;18.8814,43.3547;;Opština Plužine;Jasena
+0;19.1628,43.3867;;Pljevlja;Gornji Gradac
+0;18.8561,43.3428;;Opština Plužine;Donje Zagrađe
+0;18.8592,43.3386;;Opština Plužine;Gornje Zagrađe
+0;18.8458,43.3475;;Opština Plužine;Šćepan-Polje
+0;18.8919,43.3517;;Opština Plužine;Lijećevina
+0;19.1297,43.4675;;Pljevlja;Oglavina
+0;19.1611,43.3567;;Pljevlja;Dujovići
+0;18.8939,43.3239;;Opština Plužine;Križevac
+0;18.8783,43.3222;;Opština Plužine;Ratkovići
+0;18.5158,42.4814;;Herceg Novi;Ratkovići
+0;19.2008,43.5019;;Pljevlja;Osoje
+0;19.6200,43.1669;;Bijelo Polje;Osoje
+0;19.7383,43.1267;;Bijelo Polje;Osoje
+0;19.1297,43.3789;;Pljevlja;Osoje
+0;19.2175,43.5092;;Pljevlja;Ðakovići
+0;19.2119,43.5147;;Pljevlja;Bakije
+0;19.2036,43.5219;;Pljevlja;Dekare
+0;19.0453,43.4758;;Pljevlja;Brda
+5;18.8739,42.4428;;Cetinje;Brda
+5;18.9517,42.2208;;Budva;Brda
+0;19.1239,43.4206;;Pljevlja;Gornje Mrčevo
+0;19.0011,43.4411;;Pljevlja;Milovci
+0;19.0431,43.3992;;Pljevlja;Kolibe
+0;19.0544,43.3808;;Pljevlja;Šuplja Stijena
+0;19.0653,43.3878;;Pljevlja;Kolonija
+0;19.0569,43.4128;;Pljevlja;Lučice
+0;18.9519,42.2008;;Budva;Lučice
+0;19.0908,43.4069;;Pljevlja;Ravne Smreke
+0;19.0906,43.4150;;Pljevlja;Visočke
+0;19.0581,43.4658;;Pljevlja;Piperi
+0;19.0647,42.3850;;Cetinje;Piperi
+0;19.0844,43.4697;;Pljevlja;Prehari
+0;19.1842,43.3722;;Pljevlja;Donja Orlja
+0;19.0861,43.0278;;Opština Šavnik;Gornja Grabovica
+0;19.5206,43.2661;;Pljevlja;Strmečica
+0;19.0697,43.4953;;Pljevlja;Umkovina
+0;19.1053,43.2481;;Pljevlja;Starčevići
+0;19.1150,43.2414;;Pljevlja;Džuveri
+0;19.1175,43.2369;;Pljevlja;Rončevići
+0;19.1550,43.2342;;Pljevlja;Zasada
+0;19.0781,43.2053;;Pljevlja;Tepca
+0;19.1069,43.1772;;Opština Žabljak;Uskoci
+0;19.1300,43.1922;;Pljevlja;Čipčije
+0;19.1614,43.2011;;Pljevlja;Omar
+68;19.1567,43.1647;;Opština Žabljak;Tepačko Polje
+0;19.1447,43.1619;;Opština Žabljak;Meždo
+0;19.1578,43.1703;;Opština Žabljak;Rta
+0;19.1225,43.1633;;Opština Žabljak;Kovačka Dolina
+0;19.1336,43.1483;;Opština Žabljak;Junčev Do
+200;19.1067,43.1611;;Opština Žabljak;Pitomine
+0;19.1636,43.4381;;Pljevlja;Pitomine
+0;19.0872,43.1633;;Opština Žabljak;Bosača
+0;19.1147,43.1450;;Opština Žabljak;Razvršje
+0;19.1761,43.1333;;Opština Žabljak;Rudinovača
+154;19.1883,43.1553;;Opština Žabljak;Šumanovac
+204;19.1119,43.1178;;Opština Žabljak;Virak
+0;19.1247,43.1089;;Opština Žabljak;Javorje
+0;19.4128,43.3714;;Pljevlja;Javorje
+0;19.1056,43.0942;;Opština Žabljak;Poslenište
+0;19.1275,43.0958;;Opština Žabljak;Kovčica
+0;19.1206,43.0717;;Opština Žabljak;Vukodo
+0;19.1294,43.0681;;Opština Žabljak;Jaukovića Omar
+0;19.1556,43.0769;;Opština Žabljak;Glišin Do
+0;19.1556,43.0922;;Opština Žabljak;Grčka Stanica
+0;19.1717,43.1081;;Opština Žabljak;Bare Žugića
+0;19.1650,43.0722;;Opština Žabljak;Dobroseoska Merulja
+0;19.1481,43.0511;;Opština Šavnik;Javorak
+0;19.3081,43.2328;;Pljevlja;Javorak
+0;19.1444,43.0578;;Opština Šavnik;Vrtoč Polje
+0;19.1431,43.0625;;Opština Žabljak;Merulja
+0;19.1692,43.0517;;Opština Žabljak;Merulja
+0;19.1297,43.0544;;Opština Šavnik;Mrđenovac
+0;19.1225,43.0431;;Opština Šavnik;Ðuričin Do
+0;19.1364,43.0442;;Opština Šavnik;Opčine
+0;19.0447,43.0306;;Opština Šavnik;Kozarica
+0;19.0236,43.0108;;Opština Šavnik;Suvo Polje
+0;19.0075,43.0047;;Opština Šavnik;Košice
+0;19.1344,43.0233;;Opština Šavnik;Lažine
+0;19.1425,43.0200;;Opština Šavnik;Gusarevci
+0;19.1611,43.0108;;Opština Šavnik;Kosorska Bukovica
+0;19.1847,43.0081;;Opština Šavnik;Borovac
+0;19.4994,43.3075;;Pljevlja;Borovac
+0;19.3297,43.0072;;Opština Žabljak;Konate
+0;19.3247,43.0406;;Opština Žabljak;Gomile
+0;18.4897,42.9458;;Opština Nikšić;Gomile
+0;19.0369,42.4278;;Cetinje;Gomile
+0;19.3464,43.0322;;Opština Žabljak;Duboki Do
+0;18.7233,42.6417;;Cetinje;Duboki Do
+0;18.6531,42.7186;;Opština Nikšić;Duboki Do
+0;18.7900,42.7131;;Opština Nikšić;Duboki Do
+0;18.8258,42.5958;;Cetinje;Duboki Do
+0;19.3689,43.0100;;Opština Žabljak;Zaboj
+0;19.4642,43.0225;;Mojkovac;Zaboj
+5;19.0758,42.2944;;Bar;Zaboj
+0;19.4000,43.0136;;Mojkovac;Jasići
+0;19.4008,43.0219;;Opština Žabljak;Gornja Dobrilovina
+0;19.4136,43.0206;;Mojkovac;Belovina
+0;19.4703,43.0625;;Bijelo Polje;Džukelska Jama
+0;19.3839,43.0544;;Opština Žabljak;Donja Dobrilovina
+0;19.3617,43.0619;;Opština Žabljak;Rudanci
+0;19.3644,43.0514;;Opština Žabljak;Jelina Gora
+0;19.3653,43.0836;;Pljevlja;Ćurukača
+0;19.3936,43.0975;;Pljevlja;Nabojine
+0;19.4128,43.1067;;Pljevlja;Borislavljevica
+0;19.3656,43.1039;;Pljevlja;Orašac
+0;19.2542,43.1742;;Pljevlja;Orašac
+0;19.2219,43.3003;;Pljevlja;Orašac
+0;19.3519,43.1083;;Pljevlja;Šiplje
+0;19.2883,43.0789;;Opština Žabljak;Ðedovo Polje
+0;19.3297,43.1097;;Pljevlja;Crvena Stijena
+0;19.5094,43.2403;;Pljevlja;Donja Kozica
+0;19.2742,43.1017;;Opština Žabljak;Pribranci
+0;19.2022,43.0958;;Opština Žabljak;Dobri Nugo
+0;19.2497,43.1164;;Opština Žabljak;Zauglina
+0;19.5328,42.7436;;Opština Kolašin;Zauglina
+0;19.2875,43.1306;;Opština Žabljak;Bogomolje
+0;19.2925,43.1197;;Opština Žabljak;Podgaj
+0;19.3189,43.1194;;Pljevlja;Lipova Ravan
+0;18.9475,42.9147;;Opština Nikšić;Lipova Ravan
+0;19.3728,43.1072;;Pljevlja;Kandija
+0;19.3444,43.1222;;Pljevlja;Dovolja
+0;19.3939,43.1150;;Pljevlja;Lanište
+0;19.4811,43.1442;;Pljevlja;Gusino Brdo
+0;19.3811,43.1211;;Pljevlja;Zagrebac
+0;19.3983,43.1531;;Pljevlja;Pandurica
+37;19.4158,43.1717;;Pljevlja;Beljkovići
+0;19.3750,43.1822;;Pljevlja;Mijačevići
+0;19.3450,43.1689;;Pljevlja;Trebljevine
+0;19.3189,43.1708;;Pljevlja;Kutuša
+0;19.3008,43.1519;;Pljevlja;Trešnjica
+0;18.9050,43.1622;;Opština Plužine;Trešnjica
+5;18.7583,42.3333;;Kotor;Trešnjica
+0;19.3528,42.7692;;Opština Kolašin;Trešnjica
+0;19.2897,43.1444;;Pljevlja;Budečevica
+127;19.2692,43.1478;;Pljevlja;Rasova
+0;19.5542,43.1119;;Bijelo Polje;Rasova
+0;19.2469,43.1444;;Opština Žabljak;Aluga
+5;18.8425,42.4858;;Cetinje;Aluga
+0;18.8586,42.6856;;Cetinje;Aluga
+0;19.7050,42.9653;;Bijelo Polje;Aluga
+0;19.2925,42.8817;;Opština Kolašin;Aluga
+0;19.2111,43.1658;;Opština Žabljak;Međužvalje
+0;19.2519,43.2000;;Pljevlja;Zaglavak
+0;19.2878,43.2058;;Pljevlja;Bitine
+0;19.3447,43.1878;;Pljevlja;Zajedni Do
+0;19.3692,43.1989;;Pljevlja;Stančani
+0;19.3856,43.2356;;Pljevlja;Okruglica
+0;19.2661,43.0264;;Opština Žabljak;Okruglica
+0;19.4050,43.2122;;Pljevlja;Bamburi
+0;19.4539,43.1922;;Pljevlja;Podborova
+0;19.4306,43.1981;;Pljevlja;Borčane
+0;19.4275,43.2017;;Pljevlja;Kaljići
+0;19.4556,43.2014;;Pljevlja;Tulovo
+0;19.4961,43.1775;;Pljevlja;Vodno
+0;19.5106,43.1786;;Pljevlja;Vodno
+0;19.4808,43.1867;;Pljevlja;Perotin
+0;19.4953,43.2186;;Pljevlja;Bijela Voda
+0;19.4814,43.2219;;Pljevlja;Vlahovina
+0;19.4792,43.2261;;Pljevlja;Klopet
+0;19.4672,43.2422;;Pljevlja;Kleke
+0;19.4511,43.2486;;Pljevlja;Kućetina
+0;19.4558,43.2439;;Pljevlja;Doline
+0;19.4436,43.2481;;Pljevlja;Ulice
+0;19.4275,43.2286;;Pljevlja;Brezovica
+0;19.4153,43.2325;;Pljevlja;Bratosavina
+0;19.2939,43.2642;;Pljevlja;Gornje Selo
+0;19.7225,43.1400;;Bijelo Polje;Gornje Selo
+0;19.7722,43.1450;;Bijelo Polje;Gornje Selo
+0;19.1472,42.1344;;Bar;Gornje Selo
+0;19.3081,43.2542;;Pljevlja;Crnobori
+0;19.3308,43.2592;;Pljevlja;Uremovići
+0;19.3464,43.2500;;Pljevlja;Zmajevac
+0;19.3572,43.2697;;Pljevlja;Rašnović
+0;19.3564,43.2558;;Pljevlja;Alići
+0;19.3594,43.2481;;Pljevlja;Trkači
+0;19.3725,43.2556;;Pljevlja;Vilići
+0;19.3661,43.2747;;Pljevlja;Ristovina
+0;19.3872,43.2550;;Pljevlja;Rasno
+0;19.4114,43.2750;;Pljevlja;Dubočica
+0;19.3803,42.6069;;Podgorica;Dubočica
+0;19.4239,42.7956;;Opština Kolašin;Dubočica
+0;19.4319,43.2561;;Pljevlja;Ćirovići
+0;19.4344,43.2783;;Pljevlja;Gačevića Dolina
+0;19.4375,43.2672;;Pljevlja;Šarac
+0;19.4425,43.2528;;Pljevlja;Dubrava
+5;18.8878,42.3972;;Cetinje;Dubrava
+0;19.3850,42.8219;;Opština Kolašin;Dubrava
+0;19.2156,43.4936;;Pljevlja;Dubrava
+0;19.2647,42.3394;;Podgorica;Dubrava
+0;19.4567,43.2528;;Pljevlja;Goveđe Brdo
+0;19.4642,43.2622;;Pljevlja;Brkljača
+0;19.4681,43.2619;;Pljevlja;Potok
+0;19.5169,43.0150;;Mojkovac;Potok
+0;19.4753,43.2589;;Pljevlja;Breza
+0;19.5889,43.0389;;Bijelo Polje;Breza
+0;19.6775,43.1692;;Bijelo Polje;Breza
+0;19.5122,43.2092;;Pljevlja;Breza
+0;19.4933,43.2661;;Pljevlja;Vukovo Brdo
+0;19.4756,43.2756;;Pljevlja;Raganice
+0;19.4631,43.2758;;Pljevlja;Podnovlje
+0;19.4675,43.2772;;Pljevlja;Vujkovići
+0;19.4672,43.2842;;Pljevlja;Šljučka Strana
+0;19.4636,43.2881;;Pljevlja;Ratkov Do
+0;19.4431,43.3236;;Pljevlja;Litice
+0;19.4175,43.3078;;Pljevlja;Lukavice
+0;19.3633,43.3161;;Pljevlja;Mrzovići
+0;19.3364,43.3172;;Pljevlja;Podbrđe
+0;19.3158,43.3036;;Pljevlja;Borovica
+0;19.3111,43.3178;;Pljevlja;Podrogatac
+0;19.2611,43.3158;;Pljevlja;Mulovina
+0;19.2439,43.2825;;Pljevlja;Mala
+0;19.4175,42.7519;;Opština Kolašin;Mala
+0;19.2189,43.3772;;Pljevlja;Mala
+0;19.2328,43.3042;;Pljevlja;Zaorine
+0;19.2450,43.3086;;Pljevlja;Malo Brdo
+0;19.2331,43.3267;;Pljevlja;Brezova Ravan
+0;19.2603,43.3311;;Pljevlja;Sakovo Selo
+0;19.2686,43.3406;;Pljevlja;Bjelovo Brdo
+0;19.2650,43.3400;;Pljevlja;Bučje
+0;19.6517,43.0403;;Bijelo Polje;Bučje
+0;19.2333,43.3439;;Pljevlja;Donja Tikova
+0;19.2028,43.3531;;Pljevlja;Hodžići
+0;19.2289,43.3564;;Pljevlja;Gornja Tikova
+0;19.2553,43.3597;;Pljevlja;Potoci
+0;19.8406,42.9767;;Bijelo Polje;Potoci
+0;19.3344,42.5350;;Podgorica;Potoci
+0;18.5900,42.8003;;Opština Nikšić;Potoci
+0;19.4022,42.7211;;Opština Kolašin;Potoci
+0;19.2550,43.3517;;Pljevlja;Drndovina
+0;19.2183,43.3758;;Pljevlja;Beševina
+0;19.2286,43.3678;;Pljevlja;Skenderovina
+0;19.1983,43.4944;;Pljevlja;Skenderovina
+0;19.2528,43.3739;;Pljevlja;Krnjevina
+0;19.2394,43.3619;;Pljevlja;Podkukanj
+0;19.2583,43.3589;;Pljevlja;Kukanj
+0;19.2650,43.3894;;Pljevlja;Radeta
+0;19.2836,43.3650;;Pljevlja;Ropoč
+0;19.2944,43.3656;;Pljevlja;Rondovići
+0;19.2914,43.3444;;Pljevlja;Zadublje
+0;19.5628,43.2183;;Pljevlja;Račevo
+0;19.3139,43.3817;;Pljevlja;Kotline
+0;19.3114,43.3639;;Pljevlja;Krejovina
+0;19.3406,43.3728;;Pljevlja;Bakrenjače
+0;19.3111,43.3367;;Pljevlja;Komine
+0;19.3067,43.3272;;Pljevlja;Zbljevo
+0;19.3147,43.3358;;Pljevlja;Babićpotok
+0;19.2894,43.3356;;Pljevlja;Potkruša
+0;19.3283,43.3486;;Pljevlja;Radosavac
+0;19.3511,43.3400;;Pljevlja;Svrkote
+0;19.2781,43.3419;;Pljevlja;Svrkote
+0;19.3750,43.3367;;Pljevlja;Duratovići
+0;19.3756,43.3367;;Pljevlja;Delići
+0;19.4081,43.3319;;Pljevlja;Potkraš
+0;19.3869,43.3592;;Pljevlja;Golubinja
+0;19.4175,43.3353;;Pljevlja;Ligatov Do
+0;19.4383,43.3383;;Pljevlja;Dolinice
+0;19.3361,42.7408;;Opština Kolašin;Dolinice
+0;19.4397,43.3500;;Pljevlja;Sažići
+0;19.4317,43.3500;;Pljevlja;Dulanovina
+0;19.4228,43.3522;;Pljevlja;Miljevići
+0;19.4392,43.3764;;Pljevlja;Trebljevina
+0;19.4386,43.3847;;Pljevlja;Adrovići
+0;19.4197,43.3756;;Pljevlja;Stajište
+0;19.5078,42.8064;;Opština Kolašin;Stajište
+0;19.3864,43.3814;;Pljevlja;Kojovići
+0;19.3797,43.3686;;Pljevlja;Njivice
+0;18.5136,42.4356;;Herceg Novi;Njivice
+0;19.7078,43.0511;;Bijelo Polje;Njivice
+0;19.3350,43.2406;;Pljevlja;Njivice
+0;19.3783,43.3614;;Pljevlja;Ručevac
+0;19.3558,43.3872;;Pljevlja;Rudnice
+0;19.2033,43.3914;;Pljevlja;Zaviđen
+0;19.2022,43.3978;;Pljevlja;Cavlović Kula
+0;19.2144,43.3922;;Pljevlja;Raovići
+0;19.2347,43.3922;;Pljevlja;Lončari
+0;19.2414,43.3975;;Pljevlja;Podrudine
+0;19.2814,43.3950;;Pljevlja;Gajine
+0;19.3644,43.3944;;Pljevlja;Smrdan
+0;19.2986,43.4289;;Pljevlja;Dabovina
+0;19.2922,43.4194;;Pljevlja;Cvijovića Dolina
+0;19.2786,43.4192;;Pljevlja;Jazbine
+0;19.2703,43.4283;;Pljevlja;Potkovačica
+0;19.5672,43.1978;;Bijelo Polje;Stuga
+0;19.5794,43.1972;;Bijelo Polje;Adilovići
+0;19.5542,43.1742;;Bijelo Polje;Jagnila
+0;19.2456,43.4067;;Pljevlja;Veliko Krće
+0;19.2192,43.4178;;Pljevlja;Bančić Brdo
+0;19.2192,43.4244;;Pljevlja;Klismerine
+0;19.2047,43.4264;;Pljevlja;Orevine
+0;19.2064,43.4639;;Pljevlja;Tusto Brdo
+0;19.2364,43.4519;;Pljevlja;Krstaši
+0;19.2275,43.4858;;Pljevlja;Krnja
+0;19.2114,43.4767;;Pljevlja;Pliješi
+0;19.5378,43.1456;;Bijelo Polje;Slepac
+0;19.5883,43.1878;;Bijelo Polje;Vrgaševići
+0;19.5697,43.1417;;Bijelo Polje;Kobiljaća
+0;19.5619,43.1386;;Bijelo Polje;Kršanje
+0;19.5833,43.1322;;Bijelo Polje;Grubanova Gora
+0;19.5631,43.1306;;Bijelo Polje;Jelov Kraj
+0;19.5164,43.1186;;Pljevlja;Klještine
+0;19.5156,43.1056;;Bijelo Polje;Koritnik
+0;19.5206,43.1014;;Bijelo Polje;Paljkovac
+0;19.5497,43.0881;;Bijelo Polje;Pisana Jela
+0;19.5753,43.0975;;Bijelo Polje;Jeliča Doline
+0;19.5844,43.1067;;Bijelo Polje;Čokarlinsko Brdo
+0;19.5250,43.0689;;Bijelo Polje;Kameno Polje
+0;19.5497,43.0733;;Bijelo Polje;Velike Šljeme
+0;19.5556,43.0644;;Bijelo Polje;Male Šljeme
+0;19.5814,43.0617;;Bijelo Polje;Podovi
+0;19.6136,43.0261;;Bijelo Polje;Podovi
+0;19.5444,43.0236;;Bijelo Polje;Burenski Do
+0;19.4894,43.0089;;Mojkovac;Prošćenje
+0;19.5433,43.0044;;Mojkovac;Podbrezovići
+0;19.6272,43.0117;;Bijelo Polje;Brojenovac
+0;19.6375,43.0103;;Bijelo Polje;Petolik
+0;19.6592,43.0214;;Bijelo Polje;Tustvo
+0;19.6386,43.0319;;Bijelo Polje;Žaljevo
+0;19.5958,43.0256;;Bijelo Polje;Obod
+0;18.7853,42.5322;;Cetinje;Obod
+0;19.6144,43.0447;;Bijelo Polje;Potrk
+0;18.5953,42.9036;;Opština Nikšić;Potrk
+0;19.3458,42.9111;;Opština Šavnik;Potrk
+0;19.4333,42.5311;;Podgorica;Potrk
+0;19.6314,43.0744;;Bijelo Polje;Vranštica
+0;19.6403,43.0881;;Bijelo Polje;Vratište
+0;19.6556,43.0872;;Bijelo Polje;Selakovići
+0;19.5736,43.0867;;Bijelo Polje;Sokolac
+0;19.5789,43.1144;;Bijelo Polje;Vitkove Staje
+0;19.6281,43.1008;;Bijelo Polje;Čokrlije
+0;19.6429,43.1294;;Bijelo Polje;Rajkovići Plavče brdo
+0;19.6456,43.1308;;Bijelo Polje;Alilovce
+0;19.6125,43.1519;;Bijelo Polje;Lekovina
+0;19.6278,43.1669;;Bijelo Polje;Draškovina
+0;19.5889,43.1664;;Bijelo Polje;Pavlovina
+0;19.6006,43.1736;;Bijelo Polje;Sadići
+0;19.5961,43.1811;;Bijelo Polje;Kokovina
+0;19.6061,43.1711;;Bijelo Polje;Biokovac
+0;19.6542,43.1483;;Bijelo Polje;Grubešići
+0;19.6428,43.1022;;Bijelo Polje;Ravna Gora
+0;19.6647,43.0000;;Bijelo Polje;Pali
+0;19.6689,43.0311;;Bijelo Polje;Majna Gora
+0;19.6814,43.1017;;Bijelo Polje;Bregovi
+0;19.2261,42.5206;;Podgorica;Bregovi
+0;19.6739,43.1056;;Bijelo Polje;Kućevine
+0;19.6731,43.1119;;Bijelo Polje;Solila
+0;19.6861,43.1128;;Bijelo Polje;Savkovine
+0;19.6836,43.1222;;Bijelo Polje;Podlisa
+0;19.6769,43.1228;;Bijelo Polje;Vukići
+0;19.2219,42.0186;;Bar;Vukići
+0;19.6633,43.1183;;Bijelo Polje;Rakonjska
+0;19.6714,43.1294;;Bijelo Polje;Gudure
+0;19.6675,43.1633;;Bijelo Polje;Kičava
+0;19.6853,43.1653;;Bijelo Polje;Fazlovići
+0;19.7111,43.1603;;Bijelo Polje;Vukov Do
+0;19.6736,43.1331;;Bijelo Polje;Korijen
+0;19.4758,42.6097;;Podgorica;Korijen
+0;19.7203,43.1344;;Bijelo Polje;Johovac
+0;19.7150,43.1264;;Bijelo Polje;Dobro Brdo
+0;19.7219,43.0603;;Bijelo Polje;Krokočevo
+0;19.7108,43.0808;;Bijelo Polje;Sela
+0;19.4289,42.7044;;Opština Kolašin;Sela
+0;19.7406,42.8547;;Berane;Sela
+0;19.7253,43.0028;;Bijelo Polje;Crnionica
+0;19.7358,43.0492;;Bijelo Polje;Prijestrelj
+0;19.7556,43.0439;;Bijelo Polje;Džafića Brdo
+0;19.7117,43.0342;;Bijelo Polje;Zapotočje
+0;19.7644,43.0372;;Bijelo Polje;Loznica
+0;19.7758,43.0292;;Bijelo Polje;Rastoka
+0;19.7886,43.0117;;Bijelo Polje;Odrin
+0;19.7861,43.0031;84303;Bijelo Polje;Zaton
+0;19.7242,43.0542;;Bijelo Polje;Banje Selo
+0;19.7281,43.0650;;Bijelo Polje;Livadice
+0;19.7592,43.0686;;Bijelo Polje;Šljepašnica
+0;19.7847,43.0836;;Bijelo Polje;Njegnjevo
+0;19.7711,43.0928;;Bijelo Polje;Sutivan
+0;19.7261,43.1053;;Bijelo Polje;Gubce
+0;19.7500,43.1131;;Bijelo Polje;Orahovića
+0;19.7489,43.1072;;Bijelo Polje;Laljevići
+0;19.7622,43.1017;;Bijelo Polje;Ljebarice
+0;19.7750,43.1033;;Bijelo Polje;Konatari
+0;19.7569,43.1086;;Bijelo Polje;Pljeva
+0;19.7819,43.0967;;Bijelo Polje;Gubavač
+0;19.7669,43.1142;;Bijelo Polje;Kunovača
+0;19.7867,43.1136;;Bijelo Polje;Voljavac
+0;19.7714,43.1092;;Bijelo Polje;Unevina
+0;19.7778,43.1217;;Bijelo Polje;Podbreže
+0;19.7500,43.1147;;Bijelo Polje;Vukotići
+0;19.7439,43.1222;;Bijelo Polje;Ograde
+0;19.3450,43.4064;;Pljevlja;Ograde
+0;19.7275,43.1128;;Bijelo Polje;Raičevići
+5;18.8269,42.4283;;Cetinje;Raičevići
+0;19.7083,43.1111;;Bijelo Polje;Koševine
+0;19.7281,43.1283;;Bijelo Polje;Zebiće
+0;19.7603,43.1394;;Bijelo Polje;Šaruljevac
+0;19.7761,43.1431;;Bijelo Polje;Studenac
+0;18.8569,42.6636;;Cetinje;Studenac
+0;19.7753,43.1494;;Bijelo Polje;Lemeš
+0;19.7444,43.1528;;Bijelo Polje;Kućetine
+0;19.7261,43.1403;;Bijelo Polje;Zakriževac
+0;19.7503,43.1494;;Bijelo Polje;Guvništa
+0;19.7533,43.1475;;Bijelo Polje;Krč
+0;18.5511,42.9136;;Opština Nikšić;Brezovi Do
+0;18.9539,42.9103;;Opština Nikšić;Brezovi Do
+0;18.5697,42.9092;;Opština Nikšić;Šljeme
+0;18.5917,42.9200;;Opština Nikšić;Buljuša
+0;18.5858,42.8581;;Opština Nikšić;Mirkovići
+0;18.5567,42.8728;;Opština Nikšić;Macavare
+0;18.5753,42.8517;;Opština Nikšić;Perovići
+0;19.3611,42.0861;;Ulcinj;Perovići
+0;18.5433,42.8600;;Opština Nikšić;Obljaj
+0;18.5461,42.8419;;Opština Nikšić;Obljaj
+0;18.5408,42.8261;;Opština Nikšić;Obljaj
+0;18.5528,42.8558;;Opština Nikšić;Obljaj
+0;18.5425,42.8158;;Opština Nikšić;Truma
+0;18.5883,42.8197;;Opština Nikšić;Mrtvi Doli
+0;18.5319,42.8067;;Opština Nikšić;Sedlo
+0;18.8217,42.7083;;Opština Nikšić;Sedlo
+0;18.5675,42.7967;;Opština Nikšić;Bacovići
+0;18.5564,42.7811;;Opština Nikšić;Glusčevina
+0;18.5814,42.7714;;Opština Nikšić;Gornji Broćanac
+0;18.5406,42.7592;;Opština Nikšić;Grepca
+0;18.5453,42.7744;;Opština Nikšić;Sijerkovići
+0;18.4828,42.7992;;Opština Nikšić;Kljakovica
+0;18.4964,42.8389;81426;Opština Nikšić;Vraćenovići
+0;18.4761,42.8569;;Opština Nikšić;Ban
+0;18.5258,42.8967;;Opština Nikšić;Kamenica
+0;18.9411,42.4533;;Cetinje;Kamenica
+0;18.8283,42.5411;;Cetinje;Kamenica
+0;19.1558,42.7661;;Opština Nikšić;Kamenica
+0;18.5008,42.9333;;Opština Nikšić;Drenovci
+0;18.5492,42.9731;;Opština Nikšić;Bulinovac
+0;18.5561,42.9883;;Opština Nikšić;Turuntaš
+0;19.3003,42.0933;;Bar;Martići
+0;19.3083,42.0944;;Bar;Ćurjan
+0;19.3069,42.0836;;Bar;Vrlići
+0;19.2772,42.0906;;Bar;Koštanica
+0;19.2661,42.0936;;Bar;Dragovići
+0;19.3131,42.0842;;Ulcinj;Donji Curovići
+0;19.3183,42.0772;85306;Ulcinj;Ostros
+0;19.3589,42.0433;;Ulcinj;Kravari
+0;19.3300,42.0472;;Ulcinj;Gornji Rastiš
+0;19.3469,42.0142;;Ulcinj;Draginje
+0;19.3269,42.0039;;Ulcinj;Selita
+0;19.3214,42.0422;;Ulcinj;Curaj
+0;19.2711,42.0353;;Ulcinj;Gornji Kosići
+0;19.2733,42.0203;;Ulcinj;Donji Kosići
+0;19.2717,42.4719;;Podgorica;Donji Rogami
+0;19.3331,42.4875;;Podgorica;Kupusci
+0;19.9369,42.7456;;Berane;Rmuše
+0;19.8511,42.9147;;Berane;Crvljevine
+0;19.9228,42.7842;;Berane;Bjeloševac
+0;19.9008,42.5711;;Opština Plav;Hakanje
+0;19.5694,42.7531;;Opština Kolašin;Do Adžića
+0;19.5500,42.7556;;Opština Kolašin;Crni Val
+0;19.5481,42.9956;;Mojkovac;Siga
+0;19.2119,42.5328;;Danilovgrad;Donji Crnci
+0;18.9236,42.4756;;Cetinje;Podlunjica
+0;18.9267,42.4672;;Cetinje;Čelinački Dolovi
+5;18.9128,42.2694;;Budva;Rustovo
+0;18.4531,42.4886;;Herceg Novi;Rustovo
+5;18.8983,42.4917;;Cetinje;Staje
+0;18.9092,42.3019;;Budva;Uglješići
+5;18.9000,42.3069;;Budva;Martinovići
+55;18.8986,42.3039;;Budva;Brajići
+15;18.9358,42.3144;;Cetinje;Obzovica
+0;18.9425,42.3808;;Cetinje;Belveder
+0;18.9369,42.3894;;Cetinje;Crna Greda
+0;18.9236,42.4139;;Cetinje;Gnjijevi Do
+5;18.9414,42.4794;;Cetinje;Ljeskov Do
+0;18.7525,42.6014;;Cetinje;Ljeskov Do
+5;18.9372,42.3567;;Cetinje;Pejakovići
+0;18.6808,42.5153;;Kotor;Vitoglav
+0;18.7081,42.5022;;Kotor;Veljinići
+0;18.7028,42.5186;;Kotor;Stjepović
+0;18.7433,42.5011;;Kotor;Kljajevići
+0;18.7800,42.5025;;Cetinje;Begova Dol
+0;18.7783,42.5164;;Cetinje;Jasenovi Do
+0;18.8042,42.4925;;Cetinje;Jezer
+0;18.8036,42.5192;;Cetinje;Cerovi Do
+0;18.8003,42.8206;;Opština Nikšić;Cerovi Do
+0;18.9822,42.4108;;Cetinje;Posajci
+0;18.9917,42.4397;;Cetinje;Predojevica
+0;19.0106,42.4486;;Cetinje;Grabovi Do
+0;18.9936,42.4781;;Podgorica;Misočelo
+0;18.8247,42.5175;;Cetinje;Plate
+0;18.9972,42.4011;;Cetinje;Markov Do
+0;18.7053,42.5636;;Kotor;Markov Do
+0;18.6261,42.7533;;Opština Nikšić;Markov Do
+5;18.9711,42.3733;;Cetinje;Plijevor
+0;18.8450,42.5439;;Cetinje;Plijevor
+0;18.9778,42.3681;;Cetinje;Strugari
+16;19.0069,42.3583;;Cetinje;Oćevići
+0;18.8817,42.5350;;Cetinje;Donji Kraj
+5;19.0864,42.2053;;Bar;Donji Kraj
+0;18.9267,42.3975;;Cetinje;Donji Kraj
+0;18.9867,42.3581;;Cetinje;Donji Kraj
+0;18.9781,42.3611;;Cetinje;Lopičići
+5;18.9772,42.3522;;Cetinje;Ðuraškovići
+0;18.8183,42.5247;;Cetinje;Pripor
+0;18.9839,42.3381;;Cetinje;Čisto Polje
+5;18.9444,42.3442;;Cetinje;Kadaruša
+49;18.9797,42.3261;;Cetinje;Mužovići
+0;18.9983,42.3047;;Cetinje;Mužovići
+4;18.9539,42.3175;;Cetinje;Pačarađe
+36;18.9811,42.3203;;Cetinje;Boguti
+0;18.7944,42.5267;;Cetinje;Krajišta
+0;19.7075,42.7042;;Andrijevica;Krajišta
+0;18.9917,42.3275;;Cetinje;Šabani
+5;18.9494,42.2978;;Bar;Drenov Do
+0;18.7833,42.5392;;Cetinje;Donja Zaljut
+0;18.6978,42.5239;;Kotor;Radović
+0;18.6706,42.5303;;Kotor;Grabov Do
+0;18.7197,42.9986;;Opština Nikšić;Brštevac
+0;18.6358,42.5464;;Kotor;Šćepov Do
+0;18.6511,42.5408;;Kotor;Dragoševo Selo
+0;18.6878,42.9664;;Opština Nikšić;Golubni Do
+0;18.7200,42.9608;;Opština Nikšić;Korito
+0;19.0603,42.4836;;Danilovgrad;Rupe Mujovića
+0;18.6964,42.9592;;Opština Nikšić;Bajov Kamen
+0;19.0353,42.4600;;Podgorica;Lipe
+0;18.6089,42.9400;;Opština Nikšić;Podgradina
+0;19.1597,43.4969;;Pljevlja;Podgradina
+0;19.2928,43.4139;;Pljevlja;Podgradina
+0;18.6242,42.9433;;Opština Nikšić;Podjelje
+0;18.8072,42.9167;;Opština Nikšić;Podjelje
+0;19.0428,42.4472;;Podgorica;Miloši
+0;18.7189,42.5542;;Kotor;Jastrin Do
+0;18.7742,42.5522;;Cetinje;Vodni Do
+0;18.7800,42.5450;;Cetinje;Podaždrijelo
+0;18.7994,42.5503;;Cetinje;Zagaj
+0;18.8197,42.5444;;Cetinje;Čelina
+0;18.6658,42.6572;;Opština Nikšić;Čelina
+0;19.0308,42.3872;;Cetinje;Kašice
+31;19.0322,42.3750;;Cetinje;Jankovići
+0;19.1381,42.0544;;Bar;Jankovići
+0;19.0361,42.3656;;Cetinje;Arbanasi
+0;19.0422,42.3739;;Cetinje;Donja Brova
+0;18.8861,42.5522;;Cetinje;Papratni Do
+0;18.7308,42.6289;;Cetinje;Papratni Do
+0;19.0289,42.3764;;Cetinje;Gornja Brova
+0;18.8794,42.5664;;Cetinje;Bašino Selo
+0;18.9975,42.3828;;Cetinje;Gornji Ulići
+0;18.9961,42.3725;;Cetinje;Lipovo Korito
+0;18.8975,42.5775;;Cetinje;Kućište
+0;18.8603,42.5639;;Cetinje;Trnjine
+0;18.8467,42.5650;;Cetinje;Trnjine
+0;18.8444,42.5664;;Cetinje;Rovine
+0;19.2911,42.7917;;Opština Kolašin;Rovine
+0;18.8419,42.5531;;Cetinje;Drasin Do
+0;18.8278,42.5550;;Cetinje;Jama Vojvodina
+0;18.8114,42.5639;;Cetinje;Nerim
+0;18.5919,42.9575;;Opština Nikšić;Nerim
+0;18.8106,42.5681;;Cetinje;Velja Dolina
+0;18.8050,42.5778;;Cetinje;Zovina
+0;18.7997,42.5744;;Cetinje;Dobra Gora
+0;18.7758,42.5681;;Cetinje;Gornja Zaljut
+0;19.1028,42.3700;;Cetinje;Doljane
+0;18.6878,42.5758;;Kotor;Lug
+0;19.1069,42.3583;;Cetinje;Karuč
+0;18.6556,42.5656;;Kotor;Bojanić
+0;18.6403,42.5714;;Kotor;Koritni Do
+0;19.0942,42.3492;;Cetinje;Malezine Zagrade
+0;18.6258,42.5544;;Kotor;Ljeskovi Do
+0;19.1092,42.3472;;Cetinje;Bazagur
+0;19.1139,42.3467;;Cetinje;Rogani
+0;18.6092,42.5519;;Kotor;Brezov Do
+0;18.6122,42.5664;;Kotor;Ovsine
+0;18.6347,42.5739;;Kotor;Malov Do
+0;18.6336,42.5719;;Kotor;Blagojević
+0;18.6581,42.5864;;Kotor;Jankovo Selo
+0;18.6500,42.5908;;Kotor;Zagvozdak
+0;18.6772,42.5867;;Kotor;Braćan
+0;18.6953,42.5858;;Cetinje;Žmukići
+0;18.7325,42.5867;;Cetinje;Toletin Do
+0;18.7264,42.5936;;Cetinje;Grandov Do
+0;18.6997,42.6072;;Cetinje;Grandov Do
+0;18.7522,42.5886;;Cetinje;Ðinov Do
+0;18.7692,42.5844;;Cetinje;Vuko Do
+0;18.7958,42.5897;;Cetinje;Musta Rupa
+0;19.0614,42.4264;;Cetinje;Komansko Brdo
+0;18.7997,42.5839;;Cetinje;Prijeko Počivalo
+0;18.8164,42.5864;;Cetinje;Danave
+0;18.8069,42.5883;;Cetinje;Danave
+0;18.8161,42.5942;;Cetinje;Mrke Ploče
+0;18.8325,42.5911;;Cetinje;Lačev Do
+0;19.0244,42.4283;;Cetinje;Drum
+0;18.8683,42.5875;;Cetinje;Dolovsko Korito
+0;18.8750,42.5833;;Cetinje;Dolovsko Korito
+0;19.0278,42.4378;;Cetinje;Vardišta
+36;19.0492,42.4361;;Cetinje;Ćepetići
+0;18.8628,42.6164;;Cetinje;Stažer
+0;18.7261,42.6297;;Cetinje;Stažer
+0;18.8514,42.5950;;Cetinje;Meoca Cucka
+0;19.0797,42.4347;;Podgorica;Raklja
+0;19.8258,42.9914;;Bijelo Polje;Raklja
+0;19.1136,42.4328;;Podgorica;Bačkovine
+0;18.7969,42.6017;;Cetinje;Tisovac
+0;18.7764,42.5944;;Cetinje;Jagnjilo
+0;19.8350,42.7081;;Andrijevica;Jagnjilo
+0;18.8514,42.5478;;Cetinje;Velji Do
+0;19.3383,42.6850;;Opština Kolašin;Velji Do
+0;18.7775,42.6053;;Cetinje;Gornji Izvor
+0;18.7658,42.6108;;Cetinje;Donji Izvor
+0;18.7403,42.5986;;Cetinje;Mliništa
+0;18.7297,42.6078;;Cetinje;Kopitov Do
+0;18.7097,42.6039;;Cetinje;Dragošev Do
+0;18.7392,42.6103;;Cetinje;Velja Ržišta
+0;18.6908,42.6044;;Cetinje;Grandovina
+0;18.6675,42.5956;;Kotor;Poljkovac
+0;18.6494,42.5994;;Kotor;Mačija Stopa
+0;18.6517,42.6133;;Kotor;Buljev Pod
+0;18.6672,42.6119;;Kotor;Kulina
+0;19.0122,42.4197;;Cetinje;Podsoko
+0;19.0142,42.4328;;Cetinje;Velja Lazina
+0;19.0097,42.4375;;Cetinje;Komačev Laz
+0;18.7286,42.6150;;Cetinje;Jabukovac
+0;18.6619,42.6356;;Opština Nikšić;Jabukovac
+39;19.0906,42.4753;;Podgorica;Mokanji
+0;18.7094,42.6289;;Cetinje;Radin Do
+0;19.1078,42.4633;;Podgorica;Zeleni Do
+0;18.7789,42.6231;;Cetinje;Ozebli Do
+0;18.8442,42.6206;;Cetinje;Obadovica
+0;18.8717,42.6178;;Cetinje;Ubaljski Do
+0;18.8903,42.6400;;Cetinje;Vujkovo Ždrijelo
+0;18.8175,42.6531;;Cetinje;Dajčin Do
+0;18.7906,42.6417;;Cetinje;Jelovi Do
+0;18.6194,42.5592;;Kotor;Jelovi Do
+0;18.7656,42.6450;;Cetinje;Kovačev Do
+0;19.0186,42.7950;;Opština Nikšić;Kovačev Do
+119;19.1136,42.4686;;Podgorica;Crvena Paprat
+0;19.1239,42.4744;;Podgorica;Rupice
+0;19.1231,42.4803;;Podgorica;Bandička Župa
+0;18.7275,42.6342;;Cetinje;Crnioni Do
+0;18.7311,42.6378;;Cetinje;Bogojev Do
+44;19.1058,42.4828;;Danilovgrad;Braćani
+0;18.7083,42.6414;;Cetinje;Tospude
+0;18.7314,42.6539;;Cetinje;Zainovića Guvno
+0;18.6836,42.6458;;Opština Nikšić;Bobova Ulica
+0;18.6775,42.6433;;Opština Nikšić;Potkraj
+0;18.6475,42.6486;;Opština Nikšić;Potkraj
+0;19.1369,42.5739;;Danilovgrad;Potkraj
+0;18.6386,42.6361;;Opština Nikšić;Krna Jela
+0;18.6208,42.6508;;Opština Nikšić;Zagulj
+0;18.6147,42.6589;;Opština Nikšić;Bojanje Brdo
+0;18.6372,42.6569;;Opština Nikšić;Gornje Polje
+0;18.9692,43.0172;;Opština Šavnik;Gornje Polje
+0;18.6683,42.6686;;Opština Nikšić;Bokšin Do
+0;18.6797,42.6647;;Opština Nikšić;Pavlov Do
+0;18.7019,42.6544;;Opština Nikšić;Zamaćev Do
+0;18.7278,42.6661;;Cetinje;Bratićev Do
+0;18.7497,42.6592;;Cetinje;Stanojev Do
+0;18.8689,42.6653;;Cetinje;Trebovinski Pod
+0;18.8822,42.6917;;Opština Nikšić;Ljeskovi Dolovi
+0;18.7753,42.6983;;Cetinje;Repičke Aluge
+0;19.1867,42.4878;;Danilovgrad;Serdar Kula
+0;19.1931,42.4917;;Danilovgrad;Zuri
+0;19.1878,42.4722;;Podgorica;Mareza
+0;19.1744,42.4594;;Podgorica;Slamni Brod
+0;18.7525,42.6758;;Cetinje;Velja Aluga
+0;19.1633,42.4231;;Podgorica;Velenica
+0;19.1758,42.4147;;Podgorica;Šteci
+0;18.7400,42.6900;;Cetinje;Ponorni Do
+0;18.7286,42.6825;;Cetinje;Priporci
+0;18.7289,42.6753;;Cetinje;Bratićevi Dolovi
+0;18.7061,42.6872;;Opština Nikšić;Živa
+0;18.7664,42.7400;;Opština Nikšić;Živa
+0;19.1856,42.4022;;Podgorica;Tijesak
+0;18.7242,42.6883;;Opština Nikšić;Kotlići
+0;18.7428,42.7017;;Cetinje;Dočići
+0;18.6944,42.6922;;Opština Nikšić;Ðulov Do
+0;18.6786,42.6792;;Opština Nikšić;Kopilov Do
+0;18.6786,42.6725;;Opština Nikšić;Lipov Do
+0;18.8342,42.5781;;Cetinje;Lipov Do
+0;19.1558,42.4061;;Podgorica;Podstrana
+0;18.6650,42.6903;;Opština Nikšić;Elezov Do
+0;18.6497,42.6706;;Opština Nikšić;Zakurljaj
+0;18.6342,42.6817;;Opština Nikšić;Bukova Prodo
+0;18.6153,42.7053;;Opština Nikšić;Osječenica
+0;18.6314,42.6972;;Opština Nikšić;Osječenica
+0;18.6411,42.7244;;Opština Nikšić;Spila
+0;18.6103,42.7283;;Opština Nikšić;Carine
+0;19.0925,42.7328;;Opština Nikšić;Carine
+0;18.6333,42.7458;;Opština Nikšić;Maočići
+0;18.6447,42.7436;;Opština Nikšić;Djevojački Do
+0;19.1531,42.4203;;Podgorica;Popratnica
+0;19.5036,43.0169;;Mojkovac;Popratnica
+0;18.6667,42.7478;;Opština Nikšić;Mijajlov Do
+0;19.1236,42.3872;;Podgorica;Grubani
+0;18.6142,42.9786;;Opština Nikšić;Vlaka
+0;19.1094,42.4033;;Podgorica;Pribojevići
+0;18.7200,42.7389;;Opština Nikšić;Bajov Do
+0;19.1419,42.3925;81252;Podgorica;Barutana
+0;18.5956,42.9600;;Opština Nikšić;Janjilište
+72;19.1367,42.3714;;Cetinje;Briđe
+0;18.6778,42.7058;;Opština Nikšić;Kašljavci
+73;19.1439,42.3703;;Podgorica;Begova Glavica
+0;18.7586,42.7283;;Opština Nikšić;Ogorjelo Ždrijelo
+0;19.1364,42.3586;;Cetinje;Buronjski Do
+0;18.7431,42.7244;;Opština Nikšić;Lješevica
+0;19.1517,42.3494;;Cetinje;Bobovine
+0;19.1294,42.3467;;Cetinje;Kraćedo
+0;18.7678,42.7322;;Opština Nikšić;Golubinje
+0;18.7553,42.7225;;Opština Nikšić;Ramovića Do
+0;18.7719,42.7069;;Cetinje;Ovčji Do
+0;19.1072,42.3683;;Cetinje;Gornji Pipac
+0;19.1081,42.3636;;Cetinje;Donji Pipac
+0;18.7294,42.9361;;Opština Nikšić;Gornje Srijede
+0;18.7800,42.9125;;Opština Nikšić;Gornje Srijede
+5;19.0092,42.2928;;Cetinje;Šišovići
+5;18.9981,42.3025;;Cetinje;Podosmin
+0;19.0022,42.3194;;Cetinje;Buavice
+0;19.0233,42.3542;;Cetinje;Riječki Grad
+0;19.0425,42.3500;;Cetinje;Lipovik
+0;19.0347,42.3425;;Cetinje;Mracelji
+31;19.0661,42.3353;;Cetinje;Dujeva
+0;19.0633,42.3278;;Cetinje;Gagoši
+5;19.0694,42.3283;;Cetinje;Trnovi Do
+0;18.7475,42.5939;;Cetinje;Trnovi Do
+0;19.0717,42.3189;;Cetinje;Mihajlovići
+0;18.8275,42.7339;;Opština Nikšić;Koraćevac
+0;18.8206,42.7206;;Opština Nikšić;Srni Do
+0;18.8514,42.7389;;Opština Nikšić;Kovče Do
+0;19.0519,42.3083;;Bar;Poseljani
+0;18.8508,42.7200;;Opština Nikšić;Vukorani
+0;18.8614,42.7153;;Opština Nikšić;Krnulić
+53;19.0500,42.3106;;Bar;Donje Selo
+171;19.1714,42.5444;;Danilovgrad;Donje Selo
+5;19.0447,42.2067;;Bar;Donje Selo
+0;19.3969,42.6142;;Podgorica;Donje Selo
+0;19.5769,42.9494;;Mojkovac;Donje Selo
+0;18.5003,42.7714;;Opština Nikšić;Donje Selo
+0;19.0386,42.3133;;Bar;Njive
+0;19.5917,43.0572;;Bijelo Polje;Njive
+0;18.8875,42.7486;;Opština Nikšić;Čelinski Do
+0;19.0700,42.2525;;Bar;Podkraj
+0;18.9644,42.7281;;Opština Nikšić;Prijespa
+0;18.9761,42.7411;;Opština Nikšić;Gvozdenice
+0;18.9894,42.7117;;Opština Nikšić;Norin
+0;19.0889,42.7208;;Opština Nikšić;Jugovići
+0;19.1003,42.2803;;Bar;Zgrade
+0;19.0839,42.2942;;Bar;Relja
+0;19.1881,42.7036;;Opština Nikšić;Gornje Morakovo
+0;19.1917,42.3122;;Podgorica;Kurioci
+372;19.1850,42.3067;;Podgorica;Bistrice
+5;18.9128,42.2236;;Budva;Rijeka Reževići
+0;18.9928,42.6892;;Opština Nikšić;Trubasinj
+0;18.9578,42.6769;;Opština Nikšić;Podkupić
+0;18.9722,42.6850;;Opština Nikšić;Gostojevići
+0;18.9606,42.6903;;Opština Nikšić;Paprati
+0;19.8136,43.0281;;Bijelo Polje;Jankova Voda
+0;19.8044,43.0306;;Bijelo Polje;Denjača
+0;18.9175,42.6725;;Opština Nikšić;Lisič Do
+0;18.9669,42.6556;;Opština Nikšić;Dobruš
+0;19.0592,42.6536;;Danilovgrad;Jasenov Do
+0;19.8161,43.0564;;Bijelo Polje;Gornji Ulah
+0;19.8253,43.0803;;Bijelo Polje;Žiljak
+0;19.8089,43.0858;;Bijelo Polje;Draževine
+138;19.0503,42.6297;;Danilovgrad;Mijokusovići
+47;19.0467,42.6433;;Danilovgrad;Kupinovo
+0;18.9658,42.6189;;Opština Nikšić;Zagarač
+0;19.0525,42.5136;;Danilovgrad;Zagarač
+0;19.4672,43.3375;;Pljevlja;Ranče
+0;18.9203,42.6333;;Cetinje;Tutini Doli
+103;19.0633,42.6125;;Danilovgrad;Viš
+0;19.0678,42.5997;;Danilovgrad;Slap
+0;19.0508,42.5892;;Danilovgrad;Gornji Frutak
+0;19.8208,43.0853;;Bijelo Polje;Presečenik
+0;19.8153,43.0886;;Bijelo Polje;Usanoviči
+0;19.8003,43.0989;;Bijelo Polje;Rodijelja
+0;19.8019,43.1139;;Bijelo Polje;Bijediči
+0;18.7078,42.8625;;Opština Nikšić;Muževice
+4;19.1136,42.0950;;Bar;Burtaiši
+5;19.0983,42.1108;;Bar;Željeznica
+0;19.1658,42.5883;;Danilovgrad;Dolovi Kovački
+5;19.1167,42.1044;;Bar;Marovići
+5;18.7694,42.4689;;Kotor;Marovići
+0;18.9100,42.2650;;Budva;Marovići
+0;18.5967,42.3936;;Herceg Novi;Marovići
+0;18.7600,42.3211;;Kotor;Marovići
+0;18.7667,42.2883;;Kotor;Marovići
+0;19.2000,42.5778;;Danilovgrad;Gostilje Brajovičko
+0;19.1803,42.5639;;Danilovgrad;Gornja Glizica
+0;19.1781,42.5614;;Danilovgrad;Donja Glizica
+0;19.1494,42.5911;;Danilovgrad;Medeže
+5;19.0278,42.1858;;Bar;Zubac
+5;19.0492,42.1503;;Bar;Budiši
+5;19.0564,42.1447;;Bar;Miljevci
+0;19.7347,42.7264;;Andrijevica;Miljevci
+5;19.0319,42.1572;;Bar;Brežani
+5;18.9981,42.1628;85357;Bar;Čanj
+0;18.9325,43.2219;;Opština Plužine;Vojvodići
+0;18.9556,43.2097;;Opština Plužine;Pod Milogora
+5;19.0714,42.1681;;Bar;Martinići
+5;19.1453,42.2169;;Bar;Donja Seoca
+0;19.2906,43.2417;;Pljevlja;Vlaovići
+0;18.4833,42.4853;;Herceg Novi;Vlaovići
+0;18.9372,43.2344;;Opština Plužine;Vučje Selište
+0;19.4511,43.2167;;Pljevlja;Kalipolje
+0;18.9128,43.1969;;Opština Plužine;Glišovići
+0;19.1481,42.5825;;Danilovgrad;Krasovina
+0;19.1439,42.5831;;Danilovgrad;Simonovići
+0;18.9078,43.1781;;Opština Plužine;Dondići
+233;19.1436,42.5706;;Danilovgrad;Potkula
+0;18.9139,43.1822;;Opština Plužine;Kulići
+0;19.1053,42.5744;;Danilovgrad;Razići
+147;19.0933,42.5650;;Danilovgrad;Lalevići
+191;19.1081,42.5750;;Danilovgrad;Vučica
+0;19.2661,43.1036;;Opština Žabljak;Podgrižđe
+0;19.8536,43.0831;;Bijelo Polje;Šolja
+121;18.9461,43.1906;81437;Opština Plužine;Trsa
+0;19.8694,43.0906;;Bijelo Polje;Komadine
+0;19.8850,43.0781;;Bijelo Polje;Lopari
+0;19.7017,43.0422;;Bijelo Polje;Lopari
+0;19.3875,42.4278;;Podgorica;Lopari
+5;19.1550,42.0708;;Bar;Gornja Podi
+5;19.1436,42.0725;;Bar;Donja Podi
+0;18.6444,42.8839;;Opština Nikšić;Donje Dubočke
+0;18.6222,42.8897;;Opština Nikšić;Birač
+0;19.5247,43.1744;;Pljevlja;Slatka
+0;18.9547,42.5844;;Cetinje;Leta
+0;18.9511,42.5675;;Cetinje;Bukovi Lokanj
+0;18.9272,43.1714;;Opština Plužine;Lice
+5;19.1775,42.2097;;Bar;Donje Krnjice
+5;19.1811,42.2081;;Bar;Brod
+0;19.7564,42.6958;;Andrijevica;Brod
+0;19.7717,42.7653;;Andrijevica;Brod
+0;18.9208,42.5614;;Cetinje;Jama Čevska
+5;19.1789,42.1683;;Bar;Lukići
+5;19.1653,42.1650;;Bar;Bardići
+0;18.9094,42.5394;;Cetinje;Zaljuće
+0;18.9394,42.5297;;Cetinje;Grabova Gomila
+5;19.1992,42.0425;;Bar;Dapčevići
+0;18.9700,42.5283;;Cetinje;Vukov Pod
+0;19.8681,43.0603;;Bijelo Polje;Turava
+0;18.9133,42.5147;;Cetinje;Lješev Stub
+0;18.9828,42.5372;;Cetinje;Makljen
+0;19.0553,42.5142;;Danilovgrad;Ðurickovići
+0;19.0283,42.5075;;Danilovgrad;Ruišta
+0;19.8350,43.0444;;Bijelo Polje;Crvioča
+0;19.1025,42.5303;;Danilovgrad;Sladojevo Kopito
+0;19.0892,42.5339;;Danilovgrad;Orašje
+0;19.0314,42.6556;;Danilovgrad;Orašje
+0;18.7025,42.4564;;Tivat;Orašje
+0;19.1436,42.5403;;Danilovgrad;Koljat
+0;19.1558,42.5253;;Danilovgrad;Karkovina
+0;19.1397,42.5539;;Danilovgrad;Počijevka
+0;19.1525,42.5569;;Danilovgrad;Sige
+0;18.6169,42.9033;;Opština Nikšić;Crni Kuk
+0;18.6264,42.9094;;Opština Nikšić;Crni Kuk
+0;18.5925,42.9069;;Opština Nikšić;Crni Kuk
+0;19.1458,42.5222;;Danilovgrad;Mamućevina
+0;19.1567,42.5114;;Danilovgrad;Ćesakovina
+0;18.6003,42.8603;;Opština Nikšić;Šake
+0;18.9036,43.0586;;Opština Plužine;Nadublje
+0;19.9636,43.0594;;Bijelo Polje;Čampari
+0;18.6544,42.8625;;Opština Nikšić;Jelovica
+0;18.6442,42.8308;;Opština Nikšić;Počivala
+0;18.6503,42.8225;;Opština Nikšić;Prigradina
+0;18.6281,42.8408;;Opština Nikšić;Rusenovići
+0;18.9183,43.0208;;Opština Plužine;Koštanice
+0;18.6906,42.8150;;Opština Nikšić;Grebnica
+0;18.7058,42.7958;;Opština Nikšić;Čepelnica
+0;19.9825,43.0406;;Bijelo Polje;Dupljaci
+0;18.6942,42.7981;;Opština Nikšić;Šurlin Do
+0;18.6542,42.7967;;Opština Nikšić;Liverovo Polje
+0;19.9522,43.0239;;Bijelo Polje;Mekići
+0;18.6714,42.7969;;Opština Nikšić;Tupanj
+0;18.6058,42.8003;;Opština Nikšić;Gornji Tupan
+0;18.6231,42.8169;;Opština Nikšić;Bjelovići
+0;19.9783,43.0025;;Bijelo Polje;Ličine
+0;18.6108,42.8264;;Opština Nikšić;Podljut
+0;18.6189,42.8222;;Opština Nikšić;Radojevići
+0;18.6300,42.8089;;Opština Nikšić;Marina Glavica
+5;18.6639,42.4831;;Herceg Novi;Gornja Kostanjica
+148;18.6728,42.4667;85342;Herceg Novi;Kamenari
+5;18.7414,42.3275;;Kotor;Čolani
+5;18.7467,42.3239;;Kotor;Bućin
+5;18.7700,42.2856;;Kotor;Kunjići
+5;18.7539,42.3067;;Kotor;Popovići
+0;19.1539,42.5842;;Danilovgrad;Popovići
+0;19.9136,42.8889;;Berane;Popovići
+0;19.3383,42.0781;;Ulcinj;Popovići
+363;18.7956,42.2933;;Kotor;Gorica
+165;19.1256,42.5628;;Danilovgrad;Gorica
+0;18.6308,42.7822;;Opština Nikšić;Jelići
+5;18.8206,42.4792;;Cetinje;Paprat
+0;18.6611,42.7783;;Opština Nikšić;Dubrovča Do
+0;18.6697,42.7925;;Opština Nikšić;Dukat
+0;18.6797,42.7661;;Opština Nikšić;Ðurđev Do
+0;18.8422,42.2969;;Budva;Podmaine
+0;18.6928,42.7578;;Opština Nikšić;Raškov Do
+5;18.8511,42.3081;;Budva;Markovići
+0;19.0933,42.4294;;Podgorica;Markovići
+0;19.1572,43.3522;;Pljevlja;Markovići
+0;19.2694,43.3522;;Pljevlja;Markovići
+5;18.8606,42.3022;;Budva;Mazići
+0;18.8408,42.3303;;Budva;Stari Viškovići
+0;18.7411,42.7747;;Opština Nikšić;Pogana
+0;18.7403,42.7853;;Opština Nikšić;Kamensko
+0;19.4278,43.3833;;Pljevlja;Kamensko
+0;18.7183,42.7831;;Opština Nikšić;Gligorov Do
+0;18.7214,42.7931;;Opština Nikšić;Šureč
+5;18.8706,42.4947;;Cetinje;Dub
+5;18.7647,42.3867;;Kotor;Dub
+0;19.2550,43.3908;;Pljevlja;Dub
+0;18.8494,42.4836;;Cetinje;Slatkovići
+0;18.7625,42.7981;;Opština Nikšić;Pometenik
+0;18.7219,42.8061;;Opština Nikšić;Mrkalji
+0;18.7500,42.8128;;Opština Nikšić;Raštica
+0;18.7642,42.8275;;Opština Nikšić;Gornja Trepča
+0;18.7564,42.8228;;Opština Nikšić;Trošavac
+0;18.7331,42.8336;;Opština Nikšić;Busak
+5;18.8586,42.4328;;Cetinje;Čekanje
+5;18.8747,42.2994;;Budva;Stanišiči
+0;18.7883,42.8306;;Opština Nikšić;Trnovac
+0;18.7800,42.8117;;Opština Nikšić;Podgređe
+0;18.7631,42.7867;;Opština Nikšić;Arapi
+0;18.7656,42.7636;;Opština Nikšić;Bonjin Do
+0;18.7539,42.8578;;Opština Nikšić;Cerak
+0;18.8167,42.8908;;Opština Nikšić;Donje Srijede
+0;18.8189,42.8717;;Opština Nikšić;Kutac
+0;18.7725,42.9664;;Opština Nikšić;Golijski Stozi
+0;18.8300,42.7561;;Opština Nikšić;Oračine
+0;18.8067,42.7881;;Opština Nikšić;Potkita
+0;18.8928,42.7675;;Opština Nikšić;Riđani
+0;18.8861,42.7861;;Opština Nikšić;Crnodoli
+0;18.8856,42.8344;;Opština Nikšić;Kruškovi Do
+0;18.8756,42.8481;;Opština Nikšić;Sjenokosi
+0;18.8808,42.8442;;Opština Nikšić;Karnagića Duga
+0;18.8664,42.8928;;Opština Nikšić;Lupoglav
+0;19.4350,43.1122;;Pljevlja;Lupoglav
+0;18.8567,42.9222;;Opština Nikšić;Slivska Poljana
+0;18.7953,42.9019;;Opština Nikšić;Srijede
+0;19.0497,42.7781;;Opština Nikšić;Poljica
+0;19.0608,42.7703;;Opština Nikšić;Petrovo Polje
+0;19.0719,42.7775;;Opština Nikšić;Risji Do
+0;19.0969,42.7733;;Opština Nikšić;Raspuće
+0;19.0944,42.7767;;Opština Nikšić;Todorov Dub
+166;19.1178,43.1017;;Opština Žabljak;Pašina Voda
+0;18.9297,42.7950;;Opština Nikšić;Grebice
+0;18.9347,42.8019;;Opština Nikšić;Mokra Njiva
+0;18.9378,42.8142;;Opština Nikšić;Ornice
+0;19.7950,43.0406;;Bijelo Polje;Ornice
+0;19.3214,43.2125;;Pljevlja;Ornice
+0;18.9144,42.8133;;Opština Nikšić;Zavrh
+0;19.3511,42.7189;;Opština Kolašin;Zavrh
+5;18.6175,42.4911;;Herceg Novi;Dragomanovići
+0;18.9317,42.8275;;Opština Nikšić;Mali Brezovik
+0;18.6122,42.4694;;Herceg Novi;Repaji
+5;18.6094,42.4583;;Herceg Novi;Rujevo
+5;18.6108,42.4536;;Herceg Novi;Obalice
+0;18.9200,42.8319;;Opština Nikšić;Vidov Potok
+0;18.6464,42.4619;;Herceg Novi;Vala
+0;18.5236,42.8531;;Opština Nikšić;Vala
+0;18.9911,42.8394;;Opština Nikšić;Šeničište
+0;18.7306,42.4844;;Kotor;Dražin Vrt
+5;18.7375,42.4983;;Kotor;Stepen
+5;18.7642,42.4786;;Kotor;Ljuta
+0;19.8100,42.8003;;Berane;Ljuta
+0;19.3606,42.8200;;Opština Kolašin;Ljuta
+0;19.1400,43.0714;;Opština Žabljak;Šip
+0;19.4217,43.3450;;Pljevlja;Šip
+5;18.7642,42.4631;;Berane;Tripkovići
+0;19.1019,42.8650;;Opština Nikšić;Ćeranića Gora
+0;18.7825,42.4881;;Kotor;Vališta
+5;18.6825,42.4567;;Tivat;Opatovo
+5;18.7319,42.4406;;Tivat;Gornji Bogdašići
+0;19.0294,42.8386;;Opština Nikšić;Veliko Rađevo
+543;18.7664,42.4186;;Kotor;Škaljari
+0;18.9983,42.8572;;Opština Nikšić;Bačevine
+0;18.7550,42.3967;;Kotor;Pržice
+0;18.9817,42.8611;;Opština Nikšić;Veliki Orah
+0;18.9725,42.8711;;Opština Nikšić;Ceratov Brijeg
+0;18.9567,42.8658;;Opština Nikšić;Premilići
+5;18.6031,42.4200;;Herceg Novi;Mitrovići
+0;19.2261,42.3675;;Podgorica;Mitrovići
+5;18.6172,42.3925;;Herceg Novi;Brguli
+0;18.9428,42.8544;81432;Opština Nikšić;Vidrovan
+5;18.6292,42.3881;;Herceg Novi;Merdari
+0;18.9478,42.8497;;Opština Nikšić;Ratajića Glavica
+0;18.9450,42.8447;;Opština Nikšić;Proplanci
+0;18.9217,42.8456;;Opština Nikšić;Vir
+0;18.9197,42.8497;;Opština Nikšić;Avtenice
+0;18.6547,42.4081;;Tivat;Franciskovići
+5;18.6650,42.4053;;Tivat;Bjelila
+0;18.9397,42.8889;;Opština Nikšić;Dubrave
+0;19.0564,42.5583;;Danilovgrad;Dubrave
+0;19.7447,43.0792;;Bijelo Polje;Dubrave
+0;19.3167,43.4156;;Pljevlja;Dubrave
+0;18.9861,42.8883;;Opština Nikšić;Krstata Dola
+5;18.8211,42.4764;;Cetinje;Gomilice
+0;18.7833,42.4572;;Kotor;Velji Zalazi
+5;18.7833,42.4494;;Kotor;Donji Gačevići
+5;18.7889,42.4436;;Cetinje;Gačevići
+0;19.4444,43.2617;;Pljevlja;Gačevići
+5;18.7669,42.4372;;Kotor;Plagente
+0;18.8089,42.4239;;Cetinje;Petrova Ljut
+0;18.9361,42.9025;;Opština Nikšić;Bukovi Doli
+0;18.7758,42.3731;;Kotor;Nalježići
+5;18.7797,42.3642;;Kotor;Odži
+5;18.7731,42.3619;;Kotor;Pelinovo
+5;18.7603,42.3586;85318;Kotor;Radanovići
+0;18.5069,42.4939;;Herceg Novi;Radanovići
+5;18.7836,42.3614;;Kotor;Šišići
+5;18.8047,42.3636;;Cetinje;Čavori
+5;18.8125,42.3553;;Cetinje;Koložun
+5;18.7908,42.3439;;Kotor;Vuksanovići
+5;18.7931,42.3389;;Kotor;Mezalini
+5;18.7972,42.3281;;Kotor;Kralj
+5;18.8081,42.3122;;Budva;Kukaljevina
+5;18.8003,42.2817;;Kotor;Jaz
+5;18.8739,42.2939;;Budva;Ivanovići
+5;18.8592,42.2917;;Budva;Košljun
+0;19.1178,42.9281;;Opština Šavnik;Radovića Polje
+5;18.8933,42.2675;;Budva;Pržno
+0;18.6833,42.3869;;Tivat;Pržno
+5;18.8897,42.2722;;Budva;Podličak
+0;18.8986,42.2700;;Budva;Podličak
+5;18.8911,42.2808;;Budva;Podbabac
+5;18.8814,42.2800;;Budva;Rafajlovići
+5;18.8394,42.3142;;Budva;Duletići
+5;18.8269,42.3181;;Budva;Krapina
+0;19.1908,42.9583;;Opština Šavnik;Cokotin
+0;19.1808,42.9692;;Opština Šavnik;Kankuša
+0;19.1642,42.9786;;Opština Šavnik;Donja Slatina
+5;18.9108,42.2308;;Budva;Drobnići
+0;19.0822,42.9928;;Opština Šavnik;Donji Godijelji
+5;18.9269,42.2128;85314;Budva;Perazića Do
+0;19.0794,42.9847;;Opština Šavnik;Pušina
+0;19.0719,42.9672;;Opština Šavnik;Skok
+5;18.9742,42.1811;;Budva;Kolač
+0;19.0244,42.9981;;Opština Šavnik;Kutnja Njiva
+5;18.9872,42.1822;;Budva;Kanjoši
+5;18.9556,42.2097;;Budva;Androvići
+5;18.9542,42.2158;;Budva;Grabovica
+0;18.6142,42.6586;;Opština Nikšić;Grabovica
+5;18.9819,42.2292;;Budva;Bijeliš Do
+0;19.0089,42.9933;;Opština Šavnik;Rudo Polje
+0;19.4106,42.7717;;Opština Kolašin;Rudo Polje
+5;19.1756,42.0019;;Ulcinj;Karastanovići
+5;19.1608,42.0219;;Ulcinj;Komina
+0;19.1925,42.0086;;Ulcinj;Duškići
+5;19.1525,42.0294;;Bar;Ravanj
+5;19.1864,42.0331;;Bar;Grdovići
+0;19.1644,42.0467;;Bar;Lisičići
+5;19.1875,42.0803;;Bar;Velji Mikulići
+5;19.1719,42.0919;;Bar;Lumetići
+5;19.1439,42.0967;;Bar;Menke
+5;19.1281,42.1003;;Bar;Velembuši
+5;19.0800,42.1247;;Bar;Gornji Sušanj
+5;19.0919,42.1186;;Bar;Donji Sušanj
+5;19.0997,42.1222;;Bar;Carević
+2521;19.0883,42.1156;;Bar;Šušanj
+5;19.1431,42.1117;;Bar;Turčini
+5;19.1947,42.1406;;Bar;Pinčići
+0;19.1864,42.1458;;Bar;Repsa
+5;19.1672,42.1997;;Bar;Vučedabići
+5;19.1678,42.1939;;Bar;Marstijepovići
+0;19.1592,42.2250;;Bar;Raduš
+5;19.0272,42.2425;;Bar;Brijege
+5;19.0117,42.2417;;Bar;Gornji Brčeli
+5;19.0553,42.1997;;Bar;Reljići
+5;19.0731,42.2003;;Bar;Litine
+5;19.1053,42.1864;;Bar;Karuči
+5;19.1528,42.1747;;Bar;Maručići
+5;19.1444,42.0383;;Bar;Bijela Glavica
+0;19.1692,43.4464;;Pljevlja;Živkov Do
+0;19.1528,43.3942;;Pljevlja;Donji Gradac
+0;19.6211,43.1650;;Bijelo Polje;Crkvina
+0;19.5317,43.1958;;Pljevlja;Gorice
+0;19.8014,43.0061;;Bijelo Polje;Rudevine
+0;19.8092,43.0111;;Bijelo Polje;Kitine Lazi
+0;19.8108,43.0458;;Bijelo Polje;Podvlah
+0;19.8217,43.1131;;Bijelo Polje;Bjelice
+0;19.9642,43.0131;;Bijelo Polje;Erovići
+0;19.8042,43.0244;;Bijelo Polje;Spasojevica
+0;18.6992,42.9986;;Opština Nikšić;Ravni Krstac
+0;18.6928,42.9864;;Opština Nikšić;Ovčarica
+0;18.7111,42.9856;;Opština Nikšić;Zaždrijonice
+0;18.7339,42.9847;;Opština Nikšić;Doknića Dolovi
+0;18.6403,42.9250;;Opština Nikšić;Pretrženi Do
+0;18.6494,42.8825;;Opština Nikšić;Kopačine
+0;18.6922,42.8781;;Opština Nikšić;Zlato
+0;18.6233,42.8628;;Opština Nikšić;Čista Vlaka
+0;18.7258,42.8242;;Opština Nikšić;Nikolići
+0;18.7114,42.4539;;Tivat;Nikolići
+0;18.7014,42.7875;;Opština Nikšić;Borak
+0;18.8644,42.6378;;Cetinje;Borak
+0;18.6322,42.7594;;Opština Nikšić;Krnjin Do
+0;18.6661,42.7572;;Opština Nikšić;Mekića Do
+0;18.6686,42.7533;;Opština Nikšić;Loparići
+0;18.7356,42.7567;;Opština Nikšić;Mustafića Grede
+0;18.7919,42.8464;;Opština Nikšić;Ljeskovac
+0;18.9094,42.8950;;Opština Nikšić;Pišteta
+0;18.9139,42.8939;;Opština Nikšić;Jarčište
+0;18.8867,42.8667;;Opština Nikšić;Donja Tisa
+0;18.9542,42.8656;;Opština Nikšić;Vrbice
+0;18.9683,42.8611;;Opština Nikšić;Mali Orah
+0;18.9000,42.8072;;Opština Nikšić;Blaca
+0;19.4358,42.7969;;Opština Kolašin;Blaca
+0;18.9078,42.7969;;Opština Nikšić;Ribnjak
+0;18.9408,42.7931;;Opština Nikšić;Ćemenca
+0;18.8947,42.7869;;Opština Nikšić;Krnjača
+0;18.9389,42.7856;;Opština Nikšić;Rastoci
+0;18.8994,42.7769;;Opština Nikšić;Vitalac
+0;18.9433,42.7756;;Opština Nikšić;Bedem
+0;19.0406,42.8025;;Opština Nikšić;Lepirica
+0;19.0575,42.7972;;Opština Nikšić;Kolo
+0;19.0581,42.7833;;Opština Nikšić;Ječmišta
+0;19.0303,42.7653;;Opština Nikšić;Briški Do
+0;19.0681,42.7636;;Opština Nikšić;Zovača
+0;19.0256,42.7542;;Opština Nikšić;Prijevori
+0;19.0239,42.7539;;Opština Nikšić;Prijevori
+0;19.1211,42.7658;;Opština Nikšić;Kominište
+0;18.6411,42.7306;;Opština Nikšić;Poljane
+0;19.4878,42.8206;;Opština Kolašin;Poljane
+0;19.5006,42.8244;;Opština Kolašin;Poljane
+0;19.3253,43.1647;;Pljevlja;Poljane
+0;18.6908,42.7097;;Opština Nikšić;Jalovča Do
+0;18.6269,42.6597;;Opština Nikšić;Podlazina
+0;18.6469,42.6586;;Opština Nikšić;Podkurjaj
+0;18.6908,42.6631;;Opština Nikšić;Boždarev Do
+0;18.6236,42.7347;;Opština Nikšić;Gornji Do
+0;18.7172,42.6214;;Cetinje;Kalačka Prodo
+0;18.7219,42.6181;;Cetinje;Crveni Do
+0;18.7097,42.5589;;Kotor;Skvarište
+0;18.7442,42.5586;;Cetinje;Solinski Brijeg
+0;18.6661,42.5431;;Kotor;Cerovik
+0;18.6889,42.5172;;Kotor;Klanica
+0;18.6928,42.5019;;Kotor;Banja
+0;18.7606,42.7486;;Opština Nikšić;Muževica
+0;18.8136,42.7503;;Opština Nikšić;Vonjin Do
+0;18.8142,42.7381;;Opština Nikšić;Stankov Do
+0;18.8408,42.7303;;Opština Nikšić;Miletin Do
+0;18.7961,42.7222;;Opština Nikšić;Plitki Do
+0;18.7547,42.7081;;Cetinje;Petrovića Do
+0;18.8081,42.6892;;Cetinje;Međedov Do
+0;18.7694,42.6764;;Cetinje;Tovički Do
+0;18.8497,42.6794;;Cetinje;Gardaševići
+0;18.7531,42.6672;;Cetinje;Meka Lokva
+0;18.8047,42.6717;;Cetinje;Brestovi Do
+0;18.7481,42.6642;;Cetinje;Milov Do
+0;18.7681,42.6586;;Cetinje;Moševski Do
+0;18.7514,42.6525;;Cetinje;Rokočki Do
+0;18.7467,42.6436;;Cetinje;Orovi Do
+0;18.8133,42.6450;;Cetinje;Rudića Laka
+0;18.7836,42.6369;;Cetinje;Jezerca
+0;19.5186,42.7942;;Opština Kolašin;Jezerca
+0;18.7892,42.6311;;Cetinje;Kapavica
+0;18.8344,42.6361;;Cetinje;Vrljeroški Do
+0;18.9369,42.7317;;Opština Nikšić;Nuga Borkovića
+0;18.9717,42.7247;;Opština Nikšić;Ćetanski Pod
+0;18.9894,42.7158;;Opština Nikšić;Stubički Kraj
+0;18.7753,42.6128;;Cetinje;Jedini Bor
+0;18.7478,42.6086;;Cetinje;Mala Ržišta
+0;18.8183,42.6119;;Cetinje;Tomanov Do
+0;18.8164,42.6069;;Cetinje;Lazinice
+0;18.8233,42.6114;;Cetinje;Borovi Do
+0;18.8456,42.6031;;Cetinje;Žarme
+0;18.8406,42.5978;;Cetinje;Marina Rupa
+0;18.8650,42.5953;;Cetinje;Ručina
+0;18.8353,42.5869;;Cetinje;Žljebina
+0;18.8664,42.5894;;Cetinje;Ðakov Do
+0;18.7592,42.5803;;Cetinje;Ublica
+0;18.7689,42.5700;;Cetinje;Zagonac
+0;18.8028,42.5708;;Cetinje;Drijenci
+0;18.8353,42.5719;;Cetinje;Pištala
+0;18.8592,42.5686;;Cetinje;Zovica
+0;18.7597,42.5544;;Cetinje;Mašni Do
+0;18.8636,42.5403;;Cetinje;Njegulov Do
+0;18.8225,42.5397;;Cetinje;Kruge
+0;19.9242,42.9706;;Bijelo Polje;Kruge
+0;18.8444,42.5394;;Cetinje;Lipovac
+0;18.8500,42.5194;;Cetinje;Sjenokos
+0;19.2547,43.4206;;Pljevlja;Sjenokos
+0;18.7747,42.5119;;Cetinje;Ivanj-Do
+0;18.7483,42.5039;;Kotor;Ježević
+0;18.7956,42.5017;;Cetinje;Gorin Do
+0;18.8889,42.5781;;Cetinje;Padine
+0;18.9547,42.5750;;Cetinje;Cauševac
+0;18.9114,42.5636;;Cetinje;Porkulov Do
+0;18.9094,42.5572;;Cetinje;Brestovi
+0;18.9203,42.5553;;Cetinje;Prijeki Do
+0;18.9178,42.5439;;Cetinje;Blizurat
+0;18.9022,42.5050;;Cetinje;Milušina Pećina
+0;18.9911,42.5058;;Danilovgrad;Jasika
+0;19.4169,42.6747;;Opština Kolašin;Jasika
+0;18.8906,42.5008;;Cetinje;Ruđino Počivalo
+428;19.1750,42.7108;;Opština Nikšić;Morakovo
+0;19.0858,42.7381;;Opština Nikšić;Bastasi
+0;19.1197,42.7219;81418;Opština Nikšić;Miolje Polje
+0;19.0017,42.6744;;Opština Nikšić;Ploče
+0;18.9989,42.6650;81416;Opština Nikšić;Glava Zete
+0;19.0028,42.6611;;Opština Nikšić;Debeli Grmen
+0;19.0122,42.6517;;Opština Nikšić;Ribljak
+0;19.0294,42.6517;;Danilovgrad;Potočilo
+0;19.1039,42.6272;;Danilovgrad;Milonjin Do
+0;19.2347,42.5911;;Danilovgrad;Košući Do
+0;19.1347,42.5872;;Danilovgrad;Kriva Ploča
+0;19.1586,42.5856;;Danilovgrad;Džogulja
+0;19.1217,42.5753;;Danilovgrad;Međice
+0;19.1792,42.5611;;Danilovgrad;Glizica
+0;19.1261,42.5528;;Danilovgrad;Drenovica
+0;19.1519,42.5533;;Danilovgrad;Brajovići
+0;19.1592,42.5506;;Danilovgrad;Ljutotuk
+0;19.2097,42.5381;;Danilovgrad;Stanjevića Rupa
+0;19.2194,42.5297;;Danilovgrad;Osredina
+0;19.4822,43.0208;;Mojkovac;Osredina
+0;19.1336,42.5064;;Danilovgrad;Bileća
+0;19.1536,42.5086;;Danilovgrad;Pitoma Loza
+0;19.1225,42.5000;;Danilovgrad;Katunina
+0;19.0603,42.6239;;Danilovgrad;Petrići
+0;19.2000,43.3781;;Pljevlja;Petrići
+0;19.1097,42.6206;;Danilovgrad;Brdo
+0;19.0336,43.4161;;Pljevlja;Brdo
+0;19.1108,42.6167;;Danilovgrad;Busin Do
+0;19.1097,42.5992;;Danilovgrad;Kalezići
+0;19.1167,42.5939;;Danilovgrad;Dugi Laz
+0;19.0242,42.5917;;Danilovgrad;Do Pješivački
+181;19.0597,42.5858;;Danilovgrad;Frutak
+0;19.0875,42.5531;;Danilovgrad;Branlovica
+0;19.0953,42.5528;;Danilovgrad;Glavica
+0;19.0086,42.5439;;Cetinje;Gornja Markovina
+0;19.0744,42.5403;;Danilovgrad;Oselina
+0;19.0828,42.5303;;Danilovgrad;Mala Zagreda
+0;19.1156,42.5292;;Danilovgrad;Škanjci
+0;19.0100,42.5297;;Danilovgrad;Donja Markovina
+0;19.0769,42.5042;;Danilovgrad;Povrhpoljina
+0;19.0903,42.5042;85300;Danilovgrad;Petrovac
+0;19.0256,42.2536;;Bar;Opačac
+0;18.9889,42.3664;;Cetinje;Mihaljevići
+0;18.9742,42.3056;;Cetinje;Banovići
+0;18.9003,42.3011;;Budva;Kosmač
+0;18.9075,42.2806;;Budva;Dapkovići
+0;18.8950,42.2733;;Budva;Vrijesno
+0;18.9061,42.2744;;Budva;Andričići
+0;18.8953,42.2622;;Budva;Miločer
+0;18.8925,42.2628;;Budva;Miločer
+0;18.9061,42.2647;;Budva;Kruti
+0;19.3911,42.3117;;Podgorica;Božaj
+0;19.3814,42.3114;;Podgorica;Božaj
+0;18.7272,42.4208;;Tivat;Gradiošnica
+0;18.7411,42.3531;;Kotor;Pavlovići
+0;18.6547,42.4692;;Herceg Novi;Pavlovići
+0;18.8272,42.4269;;Cetinje;Jaićevići
+0;18.7703,42.3911;;Kotor;Pipoljevac
+0;18.8961,42.4967;;Cetinje;Pitome Doline
+0;18.9039,42.4950;;Cetinje;Goden
+0;18.9744,42.3919;;Cetinje;Kralji Stari
+0;18.8056,42.3058;;Budva;Podlastva
+0;19.8008,42.7467;;Andrijevica;Gunjaje
+0;19.8164,42.7294;;Andrijevica;Sutjeska
+0;19.8017,42.7106;;Andrijevica;Begar
+0;19.8000,42.6972;;Andrijevica;Ðonca
+0;19.8431,42.6983;;Andrijevica;Donje Grudice
+0;19.8539,42.6986;;Berane;Gornje Grudice
+0;19.8489,42.7072;;Berane;Plasa
+0;19.9322,42.7364;;Berane;Buljići
+0;19.9558,42.6819;;Opština Plav;Radevići
+0;19.9739,42.6725;;Opština Plav;Zkrš
+0;19.9797,42.6725;;Opština Plav;Volujnik
+0;19.9208,42.6764;;Opština Plav;Firišta
+0;19.8814,42.6706;;Opština Plav;Oraš Mala
+0;19.8856,42.6681;;Opština Plav;Kupusina
+0;19.8744,42.6756;;Andrijevica;Karadžin Brijeg
+0;19.9203,42.6061;;Opština Plav;Nadgrad
+0;19.9400,42.6317;;Opština Plav;Milje
+0;19.9681,42.6283;;Opština Plav;Levi Meteh
+0;19.9653,42.6172;;Opština Plav;Komarača
+0;19.8103,42.5786;;Gusinje Municipality;Derviševići
+0;19.8567,42.5717;;Gusinje Municipality;Ciri Kače
+0;19.9028,42.5867;;Opština Plav;Gropa Smajlova
+0;19.9486,42.5908;;Opština Plav;Malo Selo
+0;19.9333,42.5758;;Opština Plav;Ðurička Rijeka
+0;19.8011,42.5733;;Gusinje Municipality;Bucelj
+0;19.8181,42.5614;;Gusinje Municipality;Kačanik
+0;19.8203,42.5556;;Gusinje Municipality;Dragija
+0;19.9097,42.5656;;Opština Plav;Budovica
+0;19.9386,42.5536;;Opština Plav;Jasenica
+0;19.9564,42.5583;;Opština Plav;Lovnočelo
+0;19.9706,42.5647;;Opština Plav;Husejinovići
+0;19.9750,42.5592;;Opština Plav;Kunj
+0;19.9897,42.5564;;Opština Plav;Horolac
+0;19.8278,42.5328;;Gusinje Municipality;Gerani
+0;19.7086,42.7333;;Andrijevica;Gornja Čuka
+0;19.5161,42.7286;;Opština Kolašin;Pajkov Vir
+0;19.6028,42.7419;;Opština Kolašin;Sunga
+0;19.6133,42.7436;;Opština Kolašin;Jasenova Klada
+0;19.6281,42.7369;;Opština Kolašin;Vranjak
+0;19.6381,42.7350;;Opština Kolašin;Jelenjak
+0;19.6378,42.7478;;Opština Kolašin;Osoja
+0;19.6539,42.7464;;Opština Kolašin;Kolumbara
+0;19.6606,42.7292;;Andrijevica;Ljubaštica
+0;19.8233,42.7675;;Berane;Lukin Vir
+0;19.8119,42.7700;;Berane;Čoveča Glava
+0;19.7178,42.7453;;Andrijevica;Gnjili Potok
+0;19.7336,42.7439;;Andrijevica;Miravčine
+0;19.7708,42.7344;;Andrijevica;Peovac
+0;19.8794,42.7600;;Berane;Ćetkovići
+0;19.7511,42.7250;;Andrijevica;Vjetroševice
+0;19.7344,42.7203;;Andrijevica;Velji Potok
+0;19.7306,42.7222;;Andrijevica;Odžaci
+0;19.9131,42.7500;;Berane;Radmuževići
+0;19.9311,42.7761;;Berane;Repište
+0;19.2578,43.3572;;Pljevlja;Repište
+0;19.9319,42.7867;;Berane;Gornja Mala
+0;19.5017,42.7075;;Opština Kolašin;Čestogaz
+0;19.7117,42.6914;;Andrijevica;Japan
+0;19.7389,42.6936;;Andrijevica;Crvljak
+0;19.7269,42.6861;;Andrijevica;Žar
+0;19.7419,42.6878;;Andrijevica;Alje
+0;19.7639,42.7033;;Andrijevica;Površe
+0;19.7469,42.7042;;Andrijevica;Mulinovec
+0;19.7628,42.6900;;Andrijevica;Čečevo
+0;19.7767,42.6839;;Andrijevica;Stolak
+0;19.3633,42.7483;;Opština Kolašin;Stolak
+0;19.9125,42.7539;;Berane;Maslari
+0;19.7914,42.7058;;Andrijevica;Lajina Luka
+0;19.7908,42.6928;;Andrijevica;Krnjač
+0;19.5211,42.6703;;Podgorica;Cucevica
+0;19.8367,42.9397;;Bijelo Polje;Biorići
+0;19.9017,42.8222;;Berane;Vukoderica
+0;19.8436,42.8297;;Berane;Gornji Lužac
+0;19.7839,42.6683;;Andrijevica;Obzovik
+0;19.7833,42.6444;;Andrijevica;Brevica
+0;19.7972,42.5547;;Gusinje Municipality;Ahmedmujovići
+0;19.8108,42.9897;;Bijelo Polje;Kamine
+0;19.8119,42.9800;;Bijelo Polje;Pašića Polje
+0;19.7947,42.5375;;Gusinje Municipality;Dolja
+0;19.8253,42.9803;;Bijelo Polje;Laholo
+0;19.8131,42.9711;;Bijelo Polje;Brestovik
+0;19.8683,42.7997;;Berane;Bijedanj
+0;19.8842,42.7997;;Berane;Aluge
+0;19.3439,42.7083;;Opština Kolašin;Aluge
+0;19.3694,42.7128;;Opština Kolašin;Aluge
+0;19.8447,42.7942;;Berane;Navotina
+0;19.8169,42.8178;;Berane;Jugovine
+0;19.8197,42.8269;;Berane;Banjevac
+0;19.8833,42.8603;;Berane;Rudeš
+0;19.8239,42.9731;;Bijelo Polje;Žurena
+0;19.8433,42.9911;;Bijelo Polje;Kaševari
+0;19.8489,42.9953;;Bijelo Polje;Brežđe
+0;19.8661,42.9969;;Bijelo Polje;Čepići
+0;19.3056,43.3708;;Pljevlja;Čepići
+0;19.9244,42.9792;;Bijelo Polje;Crhalj
+0;19.9131,42.9867;;Bijelo Polje;Vrbe
+0;19.9222,42.9914;;Bijelo Polje;Kradenik
+0;19.9453,42.9733;;Bijelo Polje;Bošnjaci
+0;19.8925,42.9547;;Bijelo Polje;Lopare
+0;19.9344,42.9344;;Petnjica Municipality;Babačići
+0;19.8789,42.9358;;Bijelo Polje;Trubina
+0;19.8711,42.9378;;Bijelo Polje;Močila
+0;19.3614,42.7089;;Opština Kolašin;Močila
+0;19.4381,42.6397;;Podgorica;Močila
+0;19.8628,42.9358;;Bijelo Polje;Gojevići
+0;19.8544,42.9533;;Bijelo Polje;Paločak
+0;19.8619,42.9575;;Bijelo Polje;Sajkovac
+0;19.8303,42.9578;;Bijelo Polje;Bubanje
+0;19.7950,42.9756;;Bijelo Polje;Krš Femica
+0;19.9764,42.8881;;Petnjica Municipality;Tiganji
+0;19.8061,42.8961;;Berane;Košutnjak
+0;19.8472,42.9319;;Bijelo Polje;Lukavica
+0;19.8583,42.9178;;Bijelo Polje;Raspori
+0;19.8286,42.9472;;Bijelo Polje;Malo Nemanjine
+0;19.9067,42.9228;;Petnjica Municipality;Donja Lješnica
+0;19.9172,42.9172;;Petnjica Municipality;Gornja Lješnica
+0;19.8681,42.9192;;Bijelo Polje;Podgrađe
+0;19.9314,42.9106;;Petnjica Municipality;Paljuh
+0;19.9564,42.9128;;Petnjica Municipality;Koraći
+0;19.9569,42.9425;;Petnjica Municipality;Vrševo
+0;19.5078,42.6525;;Podgorica;Raškovo Guvno
+0;19.9986,42.8947;;Petnjica Municipality;Cikotići
+0;19.9978,42.8875;;Petnjica Municipality;Tarhaniši
+0;19.9950,42.8825;;Petnjica Municipality;Agovica
+0;19.8314,42.8867;;Berane;Srednje Zaostro
+0;19.8575,42.8636;;Berane;Strane
+0;19.3475,42.7061;;Opština Kolašin;Strane
+0;19.9786,42.8836;;Petnjica Municipality;Donja Vrbica
+0;19.3344,42.4531;;Podgorica;Donja Vrbica
+0;19.9892,42.8736;;Petnjica Municipality;Ćemani
+0;19.5011,42.6086;;Podgorica;Zaugao
+0;19.8836,42.8142;;Berane;Bare Ajdinovića
+0;19.9153,42.8819;;Berane;Dinje
+0;19.9400,42.9275;;Petnjica Municipality;Šabotići
+0;19.9394,42.9719;;Bijelo Polje;Šabotići
+0;19.8739,42.9344;;Bijelo Polje;Krivolaze
+0;19.8756,42.9444;;Bijelo Polje;Derače
+0;19.8842,42.9508;;Bijelo Polje;Maline
+0;19.8872,42.9525;;Bijelo Polje;Kosme
+0;19.8864,42.9550;;Bijelo Polje;Blatka
+0;19.9800,42.9703;;Bijelo Polje;Vrsajke
+0;19.9686,42.9794;;Bijelo Polje;Mučići
+0;19.9667,42.9778;;Bijelo Polje;Kolašinci
+0;19.9656,42.9694;;Bijelo Polje;Trubljani
+0;19.9489,42.9650;;Bijelo Polje;Durovići
+0;19.9347,42.9675;;Bijelo Polje;Mulići
+0;19.9342,42.9731;;Bijelo Polje;Mušovići
+0;19.5064,42.7142;;Opština Kolašin;Uvač
+0;18.9156,42.5261;;Cetinje;Potočine
+0;18.9575,42.5214;;Cetinje;Ravan
+0;19.3231,42.5194;;Podgorica;Gornje Mrke
+0;19.4389,42.5386;;Podgorica;Gornja Kržanja
+0;19.4650,42.5808;;Podgorica;Donje Stravče
+0;19.3928,42.5014;;Podgorica;Živkovići
+0;19.3275,42.5050;;Podgorica;Pocić
+0;19.3167,42.5019;;Podgorica;Vežišta
+0;19.2931,42.5069;;Podgorica;Ðurkovići
+0;19.2228,42.5050;;Podgorica;Pričelje
+0;19.2392,42.5158;;Podgorica;Gola Strana
+0;19.4561,42.5200;;Podgorica;Ptikalj
+0;19.3442,42.5242;;Podgorica;Crkvice
+0;19.3233,42.5311;;Podgorica;Vinogradišta
+0;19.3583,42.5369;;Podgorica;Pavličići
+0;19.3808,42.5378;;Podgorica;Bunca
+0;19.3647,42.5306;;Podgorica;Bunca
+0;19.3722,42.5456;;Podgorica;Potkrš
+0;19.7969,42.9697;;Bijelo Polje;Potkrš
+0;19.3317,42.5539;;Podgorica;Mravinje
+0;19.3247,42.5475;;Podgorica;Sviba
+0;19.2931,42.5575;;Podgorica;Kostrikovica
+0;19.2636,42.5503;;Podgorica;Šibionica
+0;19.2072,42.5531;;Danilovgrad;Vuksanovo Gumno
+0;19.3411,42.5797;;Podgorica;Brotnjik
+0;19.3661,42.5644;;Podgorica;Trimojevići
+0;19.3925,42.5856;;Podgorica;Kisjelica
+0;19.4169,42.5922;;Podgorica;Vidačica
+0;19.4622,42.5717;;Podgorica;Krosa
+0;19.4653,42.5744;;Podgorica;Stravče
+0;19.4658,42.5903;;Podgorica;Milačići
+0;19.3578,42.5875;;Podgorica;Šujaci
+0;19.2364,42.5864;;Danilovgrad;Tegovine
+0;19.2361,42.6119;;Danilovgrad;Lakine Lazine
+0;19.2481,42.6261;;Danilovgrad;Ruište
+0;19.2400,42.6008;;Danilovgrad;Kaluđerov Do
+0;19.4114,42.6200;;Podgorica;Gusići
+0;19.3964,42.6222;;Podgorica;Rovanj
+0;19.4217,42.6006;;Podgorica;Vjeternik
+0;19.4478,42.6194;;Podgorica;Jablan
+0;19.4633,42.6161;;Podgorica;Mirin Do
+0;19.4739,42.5978;;Podgorica;Dubaje
+0;19.4861,42.6233;;Podgorica;Kraljevac
+0;19.2444,42.6356;;Danilovgrad;Vukotica
+0;19.4503,42.6436;;Podgorica;Krkor
+0;19.4550,42.6339;;Podgorica;Levaja
+0;19.4792,42.6336;;Podgorica;Grbi Do
+0;19.4658,42.6417;;Podgorica;Kami
+0;19.4856,42.6367;;Podgorica;Guberinići
+0;19.4572,42.6617;;Podgorica;Slacko
+0;19.4444,42.6586;;Podgorica;Baj Do
+0;19.3486,42.6567;;Opština Kolašin;Srijetež
+0;19.3292,42.6792;;Opština Kolašin;Maničevo
+0;19.3536,42.6842;;Opština Kolašin;Bogutov Do
+0;19.3656,42.6833;;Opština Kolašin;Grad
+0;19.3508,42.6889;;Opština Kolašin;Vlahovići
+0;19.4256,42.6711;;Opština Kolašin;Stupovi
+0;19.4925,42.6867;;Podgorica;Dijonice
+0;19.4531,42.7000;;Opština Kolašin;Širalija
+0;19.4669,42.7044;;Opština Kolašin;Donja Trebješica
+0;19.4881,42.7011;;Opština Kolašin;Zalipa
+0;19.4169,42.6992;;Opština Kolašin;Gornja Sela
+0;19.4222,42.7042;;Opština Kolašin;Donja Sela
+0;19.4133,42.7086;;Opština Kolašin;Uljara
+0;19.3675,42.7044;;Opština Kolašin;Bulje
+0;19.3500,42.7089;;Opština Kolašin;Gornja Rovca
+0;19.3389,42.6997;;Opština Kolašin;Gornja Rovca
+0;19.3322,42.7011;;Opština Kolašin;Mačišta
+0;19.3217,42.7186;;Opština Kolašin;Vrtovi
+0;19.3358,42.7156;;Opština Kolašin;Mrtvo Doboko
+0;19.3503,42.7258;;Opština Kolašin;Smolice
+0;19.3650,42.7214;;Opština Kolašin;Kremeš
+0;19.3778,42.7236;;Opština Kolašin;Kožđa
+0;19.4039,42.7183;;Opština Kolašin;Drijen
+0;19.4325,42.7117;;Opština Kolašin;Glogovik
+0;18.5981,42.4619;;Herceg Novi;Glogovik
+0;19.4053,42.7319;;Opština Kolašin;Paklješica
+0;19.5881,42.9556;;Mojkovac;Paklješica
+0;19.4744,42.7408;;Opština Kolašin;Kričanje
+0;19.4103,42.7439;;Opština Kolašin;Raičevine
+0;19.4194,42.7367;;Opština Kolašin;Zasjednica
+0;19.4222,42.7461;;Opština Kolašin;Krževo
+0;19.3811,42.7328;;Opština Kolašin;Košetine
+0;19.3575,42.7383;;Opština Kolašin;Števerine
+0;19.3422,42.7456;;Opština Kolašin;Lazba
+60;19.0281,42.5206;;Danilovgrad;Miogost
+0;19.0989,42.5131;;Danilovgrad;Gropa
+0;19.2578,42.7822;;Opština Kolašin;Gornje Velje Duboko
+0;19.4211,42.8708;;Opština Kolašin;Lipovo
+76;19.1331,42.5142;;Danilovgrad;Begovina
+0;19.6983,43.0197;;Bijelo Polje;Begovina
+278;19.1350,42.5353;;Danilovgrad;Jastreb
+0;19.5958,42.9872;;Mojkovac;Slavkovo Brdo
+0;19.1211,42.5261;;Danilovgrad;Donji Ćurilac
+0;19.1175,42.5431;;Danilovgrad;Gornji Ćurilac
+0;19.1122,42.5481;;Danilovgrad;Grlić
+0;19.5439,42.7522;;Opština Kolašin;Pešića Luka
+0;19.5367,42.7758;;Opština Kolašin;Bijeli Potok
+0;19.6306,43.1339;;Bijelo Polje;Bijeli Potok
+0;19.5642,42.7731;;Opština Kolašin;Planinica
+0;19.5833,42.7514;;Opština Kolašin;Batal
+0;19.5856,42.7667;;Opština Kolašin;Bukovi Potok
+0;19.6117,42.7631;;Opština Kolašin;Gligorski Dolovi
+0;19.7403,42.7603;;Andrijevica;Ðekovići
+0;19.5372,42.7972;;Opština Kolašin;Trunica Do
+0;19.5244,42.7875;;Opština Kolašin;Pješčanica
+0;19.5003,42.8067;;Opština Kolašin;Buronje
+0;19.5319,42.8172;;Opština Kolašin;Dulovine
+0;19.5250,42.8158;;Opština Kolašin;Dulovine
+0;19.5000,42.8181;;Opština Kolašin;Očiba
+0;19.5433,42.8244;;Opština Kolašin;Smailagića Polje
+0;19.6217,42.8317;;Opština Kolašin;Paljevine
+0;19.5444,42.8378;;Opština Kolašin;Klačine
+0;19.5333,42.8431;;Opština Kolašin;Radigojno
+0;19.5317,42.8658;;Opština Kolašin;Trebaljevo
+0;19.5219,42.8656;;Opština Kolašin;Ote
+0;19.5364,42.8764;;Opština Kolašin;Zenjilov Lug
+0;19.5967,42.8619;;Opština Kolašin;Melaja
+0;19.7911,42.8586;;Berane;Paleža
+0;19.7967,42.8539;;Berane;Kržulje
+0;19.7308,42.8822;;Berane;Ržine
+0;19.3867,42.7592;;Opština Kolašin;Donji Zagradac
+0;19.3811,42.7542;;Opština Kolašin;Gornji Zagradac
+0;19.3600,42.7525;;Opština Kolašin;Donja Ibrija
+0;19.3553,42.7606;;Opština Kolašin;Gornja Ibrija
+0;19.5275,42.9006;;Mojkovac;Šljivlje
+0;19.5675,42.9119;;Mojkovac;Šljivlje
+0;19.3250,42.7697;;Opština Kolašin;Zaprevorje
+0;19.3378,42.7700;;Opština Kolašin;Previna
+0;19.3811,42.7683;;Opština Kolašin;Prisojak
+0;19.7797,42.9297;;Bijelo Polje;Međeđak
+0;19.7947,42.9617;;Bijelo Polje;Medaševine
+0;19.7325,42.9644;;Bijelo Polje;Ornica
+0;19.7228,42.9672;;Bijelo Polje;Milatovac
+0;19.1803,42.5000;;Danilovgrad;Klikovače
+0;19.6972,42.9661;;Bijelo Polje;Pribiloviće
+0;19.6825,42.9694;;Bijelo Polje;Raljevci
+0;19.4400,42.7753;;Opština Kolašin;Gornji Ravni
+0;19.4269,42.7792;;Opština Kolašin;Simače
+0;19.6094,42.9569;;Mojkovac;Marića Luka
+0;19.6075,42.9467;;Mojkovac;Pržišta
+0;19.4456,42.7897;;Opština Kolašin;Kokića Strane
+0;19.5967,42.9358;;Mojkovac;Bjelojeviće
+0;19.5672,42.9386;;Mojkovac;Feratovo Polje
+0;19.5986,42.9597;;Mojkovac;Rudnica
+0;19.5481,42.9611;;Mojkovac;Varda
+0;19.3981,42.8089;;Opština Kolašin;Dubravice
+0;19.3144,42.5347;;Podgorica;Dubravice
+0;19.3742,42.7803;;Opština Kolašin;Zakrilje
+0;19.3697,42.7911;;Opština Kolašin;Vrta
+0;19.3622,42.7917;;Opština Kolašin;Kruševlje
+0;19.3564,42.7811;;Opština Kolašin;Ocka Gora
+0;19.2797,42.7919;;Opština Kolašin;Pod
+0;19.1672,42.5733;;Danilovgrad;Laće
+0;19.1589,42.5775;;Danilovgrad;Osojnik
+0;19.3756,42.8028;;Opština Kolašin;Ostružnje
+0;19.5303,42.9719;;Mojkovac;Pod Milojevića
+0;19.5147,42.9792;;Mojkovac;Krasića Strana
+0;19.5322,42.9914;;Mojkovac;Stevanovac
+0;19.5367,42.9825;;Mojkovac;Mekića Kula
+0;19.5328,42.9839;;Mojkovac;Mekića Kula
+0;19.3892,42.8208;;Opština Kolašin;Ljeskovca
+0;19.3739,42.8325;;Opština Kolašin;Vozarine
+0;19.5706,42.9922;;Mojkovac;Gornji Lepenac
+0;19.6003,42.9942;;Mojkovac;Donji Lepenac
+0;19.6056,42.9981;;Bijelo Polje;Mačkate
+0;19.3556,42.8106;;Opština Kolašin;Gornja Ljuta
+0;19.3533,42.8253;;Opština Kolašin;Donja Ljuta
+0;19.6414,42.9783;;Mojkovac;Gilinoge
+0;19.3503,42.8297;;Opština Kolašin;Topli Potok
+0;19.3525,42.8356;;Opština Kolašin;Jela
+0;19.3547,42.8411;;Opština Kolašin;Orovac
+0;19.6775,42.9892;;Bijelo Polje;Slijepač Most
+0;19.3192,42.8483;;Opština Kolašin;Krušev Lug
+0;19.6631,42.9694;;Bijelo Polje;Gornja Rakita
+0;19.3139,42.8539;;Opština Kolašin;Starče
+0;19.6575,42.9753;;Bijelo Polje;Lisičine
+0;19.7056,42.9794;;Bijelo Polje;Dio
+0;19.7253,42.9800;;Bijelo Polje;Pobrnjica
+0;18.8850,43.3228;;Opština Plužine;Pobrnjica
+0;19.7503,42.9856;;Bijelo Polje;Ljuboviđa
+0;19.7706,42.9858;;Bijelo Polje;Grudevica
+71;19.0783,42.5878;;Danilovgrad;Veleta
+0;19.2622,42.8650;;Opština Kolašin;Zalom
+0;19.3417,42.8508;;Opština Kolašin;Bratkovica
+315;19.1544,42.5344;;Danilovgrad;Kosić
+0;19.1700,42.5653;;Danilovgrad;Kolašinovići
+0;19.3944,42.8342;;Opština Kolašin;Bunar
+0;19.4564,42.8633;;Opština Kolašin;Migalovica
+0;19.2794,42.8900;;Opština Kolašin;Raskrsnica
+0;19.4883,42.9261;;Mojkovac;Gornja Štitarica
+0;19.5069,42.9172;;Mojkovac;Gornja Štitarica
+0;19.2939,42.9333;;Opština Šavnik;Ljutovac
+0;19.2139,42.9531;;Opština Šavnik;Štičje
+0;19.2242,42.9497;;Opština Šavnik;Jelića Dolina
+0;19.2036,42.9758;;Opština Šavnik;Gornji Timar
+0;19.4114,42.9883;;Mojkovac;Prišiklinac
+0;19.4347,42.9858;;Mojkovac;Ljevak
+0;19.0103,42.5939;;Danilovgrad;Matkovići
+0;18.5331,42.4678;;Herceg Novi;Matkovići
+0;19.0175,42.6292;;Danilovgrad;Tunjevo
+0;19.0219,42.6239;;Danilovgrad;Čalanovica
+0;19.0231,42.6525;;Danilovgrad;Požar
+0;19.6142,43.0164;;Bijelo Polje;Požar
+0;19.0319,42.6450;;Danilovgrad;Drakovići
+0;19.0028,42.6972;;Opština Nikšić;Gornja Povija
+0;19.1008,42.5903;;Danilovgrad;Rova
+0;19.1033,42.5956;;Danilovgrad;Mosori
+0;19.1175,42.5981;;Danilovgrad;Vujkovina
+0;19.1178,42.5906;;Danilovgrad;Rajićev Do
+0;19.1261,42.5858;;Danilovgrad;Lubovo
+0;19.1025,42.6256;;Danilovgrad;Mužnik
+0;19.1917,42.6108;;Danilovgrad;Hadulica
+0;19.0583,42.7419;;Opština Nikšić;Glušje Selo
+127;19.1633,42.5539;;Danilovgrad;Bobulja
+0;19.0411,42.7575;;Opština Nikšić;Krstovače
+0;19.1172,42.7656;;Opština Nikšić;Kutsko Brdo
+0;19.0189,42.7864;;Opština Nikšić;Donje Kunovo
+0;19.0375,42.7875;;Opština Nikšić;Gornje Kunovo
+0;19.0661,42.7842;;Opština Nikšić;Daronji Do
+0;19.0706,42.8311;;Opština Nikšić;Pod-Dažnik
+0;19.0061,42.8497;;Opština Nikšić;Knež Polje
+0;19.0858,42.8803;;Opština Nikšić;Gradačka Poljana
+0;19.0264,42.6353;;Danilovgrad;Dobro Polje
+0;19.0642,42.5500;;Danilovgrad;Velja Zagreda
+0;19.2228,42.0456;;Bar;Mali Kaliman
+0;19.0106,42.2481;;Bar;Donji Brčeli
+0;18.4897,42.4856;;Herceg Novi;Mojdež
+0;18.4628,42.4928;;Herceg Novi;Konjevići
+0;18.4783,42.4903;;Herceg Novi;Brajevići
+0;18.4867,42.4714;;Herceg Novi;Miševići
+0;18.4739,42.4736;;Herceg Novi;Sutorina
+0;18.4756,42.4683;;Herceg Novi;Čenići
+0;18.4503,42.4969;;Herceg Novi;Malta
+0;18.5022,42.7589;;Opština Nikšić;Gornji Planik
+0;18.5125,42.7542;;Opština Nikšić;Donji Planik
+0;18.5636,42.7589;;Opština Nikšić;Broćanac Grahovski
+0;18.5819,42.7500;;Opština Nikšić;Kešelj Gradina
+0;18.5553,42.7939;;Opština Nikšić;Zečevina
+0;18.5831,42.9058;;Opština Nikšić;Krtine
+0;18.5789,42.9083;;Opština Nikšić;Koprivice
+0;18.5603,42.9194;;Opština Nikšić;Baljački Do
+0;18.5722,42.9217;;Opština Nikšić;Garevac
+0;18.5394,42.9258;;Opština Nikšić;Podaluga
+0;18.5725,42.9386;;Opština Nikšić;Urljev Do
+0;18.5675,42.9561;;Opština Nikšić;Travni Do
+0;18.5931,42.9661;;Opština Nikšić;Pleće
+0;18.4989,42.9503;;Opština Nikšić;Pod Ružaricom
+0;18.4864,42.4544;;Herceg Novi;Špilje
+0;18.5244,42.4269;;Herceg Novi;Tursko
+0;18.5092,42.4719;;Herceg Novi;Župkovići
+0;18.4975,42.4914;;Herceg Novi;Porobići
+0;18.5931,42.4856;;Herceg Novi;Bunovići
+0;18.5794,42.4650;;Herceg Novi;Nakičenovići
+0;18.5467,42.4611;;Herceg Novi;Kvekići
+0;18.5114,42.7897;;Opština Nikšić;Željev Do
+0;18.5139,42.8250;;Opština Nikšić;Baran Selo
+0;18.5181,42.8867;;Opština Nikšić;Rupina
+0;18.5394,42.8867;;Opština Nikšić;Maglenca
+0;18.5675,42.8767;;Opština Nikšić;Rvana Gora
+0;18.5867,42.4436;;Herceg Novi;Miočevići
+0;18.5667,42.4206;;Herceg Novi;Klinci
+0;18.5828,42.4222;;Herceg Novi;Mandegaj
+0;18.5753,42.4142;;Herceg Novi;Mrkovi
+0;18.5731,42.4114;;Herceg Novi;Večerići
+0;18.5836,42.4072;;Herceg Novi;Tići
+0;18.5969,42.4028;;Herceg Novi;Eraci
+0;18.6019,42.3967;;Herceg Novi;Luštica
+0;18.5472,42.9256;;Opština Nikšić;Jelovo Ždrijelo
+0;18.5217,42.9214;;Opština Nikšić;Bečko Korito
+0;18.5425,42.9528;;Opština Nikšić;Marica Do
+0;18.5475,42.9536;;Opština Nikšić;Gusarica
+0;18.5392,42.9433;;Opština Nikšić;Ledenica
+0;18.5419,42.9611;;Opština Nikšić;Dugna
+0;18.5592,42.9428;;Opština Nikšić;Brekovac
+0;18.5825,42.9572;;Opština Nikšić;Dragovo Korito
+0;18.5875,42.9550;;Opština Nikšić;Ružića Dolac
+0;18.5936,42.9597;;Opština Nikšić;Mrež
+0;18.5722,42.9644;;Opština Nikšić;Novakovića Do
+0;18.5964,42.3914;;Herceg Novi;Zambelići
+0;18.5811,42.3994;;Herceg Novi;Žanjica
+0;18.5633,42.9750;;Opština Nikšić;Cerovo Prodo
+0;18.5775,42.9817;;Opština Nikšić;Luka
+0;19.2808,43.1522;;Pljevlja;Luka
+0;19.3344,42.5050;;Podgorica;Luka
+0;18.5908,42.9794;;Opština Nikšić;Jovov Do
+0;18.5628,42.4242;;Herceg Novi;Kabala
+0;18.5761,42.4314;;Herceg Novi;Spilice
+0;18.5883,42.4219;;Herceg Novi;Stojkovići
+0;18.5969,42.3981;;Herceg Novi;Duraševići
+0;18.5781,42.4461;;Herceg Novi;Zmijice
+0;18.5711,42.4614;;Herceg Novi;Magazini
+0;18.5639,42.4744;;Herceg Novi;Vučkovići
+0;18.9744,42.3069;;Cetinje;Vučkovići
+0;18.5161,42.4897;;Herceg Novi;Terzići
+0;18.5697,42.4811;;Herceg Novi;Junčevići
+0;18.5728,42.4722;;Herceg Novi;Nogulovići
+0;18.5308,42.4819;;Herceg Novi;Tamnica
+0;18.4967,42.4800;;Herceg Novi;Andrići
+0;18.5403,42.4650;;Herceg Novi;Musići
+0;18.5497,42.4642;;Herceg Novi;Brajkovina
+0;18.5942,42.4622;;Herceg Novi;Pestorići
+0;18.5342,42.4600;;Herceg Novi;Sušići
+0;18.5303,42.4578;;Herceg Novi;Španjola
+0;18.5271,42.4590;;Herceg Novi;Topla
+0;18.5542,42.4528;;Herceg Novi;Savina
+0;18.4622,42.4817;;Herceg Novi;Ščepoševići
+0;19.7503,43.0092;;Bijelo Polje;Ljetine
+0;19.7556,43.0189;;Bijelo Polje;Uvezac
+0;19.7711,43.0144;;Bijelo Polje;Vilače
+0;19.7606,43.0219;;Bijelo Polje;Bukova Voda
+0;19.7711,43.0247;;Bijelo Polje;Krušev Do
+0;19.7822,43.0278;;Bijelo Polje;Cerovac
+0;19.7728,43.0367;;Bijelo Polje;Grabovnik
+0;19.7828,43.0539;;Bijelo Polje;Kilavice
+0;19.7500,43.0747;;Bijelo Polje;Lećevište
+0;19.7728,43.0819;;Bijelo Polje;Prestreke
+0;19.7533,43.1253;;Bijelo Polje;Kajabeg
+0;19.5236,43.0150;;Mojkovac;Jakovovići
+0;19.5658,43.0378;;Bijelo Polje;Fuštići
+0;19.6181,43.0067;;Bijelo Polje;Brezovac
+0;19.6008,43.0247;;Bijelo Polje;Zurnovice
+0;19.6478,43.0342;;Bijelo Polje;Duga Njiva
+0;19.6667,43.0053;;Bijelo Polje;Palska Luka
+0;19.6831,43.0061;;Bijelo Polje;Papratine
+0;19.7083,43.0147;;Bijelo Polje;Pepići
+0;19.7425,43.0239;;Bijelo Polje;Nikoljac
+0;19.7003,43.0581;;Bijelo Polje;Kiprenik
+0;19.6450,43.0506;;Bijelo Polje;Poznanovići
+0;19.6169,43.0494;;Bijelo Polje;Uljari
+0;19.6197,43.0467;;Bijelo Polje;Cernica
+0;19.5825,43.0614;;Bijelo Polje;Srebrnica
+0;19.5000,43.0697;;Bijelo Polje;Golubinjak
+0;19.5594,43.0736;;Bijelo Polje;Šljemena
+0;19.5564,43.0614;;Bijelo Polje;Katuni
+0;19.5581,43.0836;;Bijelo Polje;Merčajevac
+0;19.6106,43.0672;;Bijelo Polje;Srednje Selo
+0;19.6222,43.0764;;Bijelo Polje;Vukanovići
+0;19.6569,43.0728;;Bijelo Polje;Drndari
+0;19.6744,43.0806;;Bijelo Polje;Lazovi
+0;19.6958,43.0714;;Bijelo Polje;Skočigorina
+0;19.6906,43.0747;;Bijelo Polje;Čreoče
+0;19.7322,43.0808;;Bijelo Polje;Dobre Vode
+0;19.6878,43.0922;;Bijelo Polje;Šuševina
+0;19.5628,43.1078;;Bijelo Polje;Rasulje
+0;19.5386,43.1289;;Bijelo Polje;Tegovina
+0;19.5569,43.1244;;Bijelo Polje;Ðurino Brdo
+0;19.5636,43.1200;;Bijelo Polje;Ljutac
+0;19.7403,43.1358;;Bijelo Polje;Metalica
+0;19.4017,43.0733;;Pljevlja;Metalica
+0;19.6144,43.1617;;Bijelo Polje;Mladojevina
+0;19.5878,43.1381;;Bijelo Polje;Bukovi Kraj
+0;19.5517,43.1783;;Bijelo Polje;Donje Gorice
+0;19.6275,43.1867;;Bijelo Polje;Parazlame
+0;19.6314,43.2014;;Bijelo Polje;Šabovina
+0;19.6169,43.2106;;Bijelo Polje;Medoši
+0;19.6097,43.2097;;Bijelo Polje;Dauti
+0;19.5647,43.1900;;Bijelo Polje;Kruščice
+0;19.5458,43.1958;;Pljevlja;Gornje Gorice
+0;19.5267,43.2322;;Pljevlja;Pjasci
+0;19.5047,43.2472;;Pljevlja;Jelovac
+0;19.6300,43.2136;;Bijelo Polje;Kršnica
+0;19.6394,42.9914;;Bijelo Polje;Odolje
+0;19.7344,42.9906;;Bijelo Polje;Ravče Polje
+0;19.6525,42.9842;;Bijelo Polje;Staro Mijatovo
+0;19.5706,42.9592;;Mojkovac;Babića Polje
+0;19.5308,42.9206;;Mojkovac;Štitarica
+0;19.0211,42.8411;;Opština Nikšić;Rađevo
+0;19.1519,42.9764;;Opština Šavnik;Zaluči
+0;19.5158,42.8169;;Opština Kolašin;Strelički Krš
+0;19.7647,42.9878;;Bijelo Polje;Joša
+0;19.7736,42.9958;;Bijelo Polje;Sakate
+0;19.7886,42.9789;;Bijelo Polje;Mostine
+0;19.7947,42.9806;;Bijelo Polje;Krstaš
+0;19.7903,42.9742;;Bijelo Polje;Femića Krš
+0;19.7950,42.7742;;Berane;Rakovac
+0;19.7947,42.7600;;Andrijevica;Rasoje
+0;19.7897,42.7547;;Andrijevica;Guvna
+0;19.4314,42.9897;;Mojkovac;Buđevac
+0;19.2761,42.9253;;Opština Šavnik;Donja Rijeka
+0;19.2700,42.8969;;Opština Šavnik;Dobrodo
+0;19.3650,42.8514;;Opština Kolašin;Kokoravac
+0;19.4175,42.8647;;Opština Kolašin;Čuke
+0;19.4472,42.8608;;Opština Kolašin;Ðivorad
+0;19.0317,42.4528;;Cetinje;Donji Orasi
+0;18.9069,42.2722;;Budva;Slanjina
+0;18.9789,42.3039;;Cetinje;Laličići
+0;18.8700,42.5958;;Cetinje;Ivanova Aluga
+0;18.9761,42.3556;;Cetinje;Gornji Kraj
+0;18.9825,42.3611;;Cetinje;Vukmirovići
+0;18.9050,42.3928;;Cetinje;Umci
+0;18.9242,42.3989;;Cetinje;Donja Kraj
+0;19.4122,42.7803;;Opština Kolašin;Potesi
+0;18.9081,42.4106;;Cetinje;Inogor
+0;18.8878,42.5903;;Cetinje;Vujovske Ravni
+0;19.0886,42.3228;;Cetinje;Ploča
+0;19.3525,42.3258;;Podgorica;Ploča
+0;19.0433,42.3056;;Bar;Zaštek
+0;19.3797,42.7883;;Opština Kolašin;Ravno
+0;19.1961,42.3269;;Podgorica;Donji Vukovići
+0;19.3436,42.7839;;Opština Kolašin;Medupotočje
+0;19.1431,42.3444;;Cetinje;Cerovi Pod
+0;19.1242,42.3522;;Cetinje;Vukove Zgrade
+0;19.1464,42.3483;;Cetinje;Brnovići
+0;19.0531,42.3892;;Cetinje;Lainja
+0;19.0481,42.4017;;Cetinje;Peleši
+0;19.1456,42.4147;;Podgorica;Palić
+0;19.0314,42.4208;;Cetinje;Arbanaški Do
+0;19.0611,42.4328;;Cetinje;Mrčinići
+0;19.1139,42.4300;;Podgorica;Razdrt
+0;19.1044,42.4697;;Podgorica;Rusojevići
+0;19.0156,42.4633;;Cetinje;Jasikovi Do
+0;19.0947,42.4861;;Danilovgrad;Prokaplje
+0;19.1811,42.4850;;Danilovgrad;Abzi-Kula
+0;19.0667,42.4989;;Danilovgrad;Njegule
+0;19.0528,42.4892;;Danilovgrad;Patnji
+0;19.0250,42.4894;;Podgorica;Tvrdoš
+0;19.4461,42.7647;;Opština Kolašin;Otročkovina
+0;19.2247,42.9319;;Opština Šavnik;Luke Jocovića
+0;18.5858,42.7306;;Opština Nikšić;Slivni Do
+0;18.5639,42.6736;;Opština Nikšić;Javora
+0;19.2278,43.0925;;Opština Žabljak;Smoljan
+0;19.2044,43.1161;;Opština Žabljak;Ramovo Ždrijelo
+0;19.2194,43.1472;;Opština Žabljak;Raonići
+0;19.0336,42.2303;;Bar;Mačuge
+0;19.0261,42.2139;;Bar;Fijernje
+0;19.1775,42.2139;;Bar;Krnjice
+0;19.1939,42.1900;;Bar;Podvrat
+0;19.0975,42.1908;;Bar;Sredina Sela
+0;19.0486,42.1978;;Bar;Srednja Mahala
+0;19.0411,42.1492;;Bar;Zgrada
+0;19.0186,42.1575;;Bar;Peroči
+0;19.0047,42.1597;;Bar;Biserna Obala
+0;19.0628,42.1314;;Bar;Zlatna Obala
+0;19.1289,42.0794;;Bar;Rap
+0;19.1953,42.0447;;Bar;Bajraktari
+0;19.1764,42.0411;;Bar;Brkanovići
+0;19.1606,42.0511;;Bar;Boškovići
+0;19.4806,43.0942;;Pljevlja;Boškovići
+0;19.1828,42.0069;;Ulcinj;Kaplanovići
+0;19.1522,42.0106;;Ulcinj;Masline
+0;19.4303,43.0281;;Mojkovac;Koprivnjača
+0;19.4433,43.0222;;Mojkovac;Veliki Do
+0;19.4533,43.0097;;Mojkovac;Kruške
+0;19.4736,42.9994;;Mojkovac;Stričina
+0;19.4528,43.0467;;Pljevlja;Ugarče
+0;19.4206,43.0419;;Pljevlja;Stupsko Polje
+95;19.3864,43.0336;;Opština Žabljak;Dobrilovina
+0;19.3028,43.0456;;Opština Žabljak;Čolanov Do
+0;19.2567,43.0689;;Opština Žabljak;Pašino Polje
+0;19.2775,43.0536;;Opština Žabljak;Mandića Do
+0;19.4281,43.0569;;Pljevlja;Crvena Lokva
+0;19.3447,43.0853;;Opština Žabljak;Mrčava
+0;19.2667,43.1153;;Opština Žabljak;Zlatica
+0;19.3025,42.4717;;Podgorica;Zlatica
+0;19.2972,43.0964;;Opština Žabljak;Zakrajci
+0;19.3400,43.0983;;Pljevlja;Reljino Brdo
+0;19.3658,43.0981;;Pljevlja;Jasenovac
+0;19.4628,43.1086;;Pljevlja;Čolanice
+0;19.4533,43.1217;;Pljevlja;Šestovići
+0;19.4022,43.1328;;Pljevlja;Golubovići
+0;18.9878,42.1892;;Budva;Golubovići
+0;19.3642,43.1461;;Pljevlja;Zađuraševac
+0;19.3128,43.1183;;Pljevlja;Ogorelovac
+0;19.2961,43.1189;;Opština Žabljak;Sirovi Kraj
+0;19.2856,43.1169;;Opština Žabljak;Javorovača
+0;19.2939,43.1258;;Opština Žabljak;Vis
+0;19.2428,43.4625;;Pljevlja;Vis
+0;19.4550,43.1486;;Pljevlja;Peruničići
+0;19.2772,43.1647;;Pljevlja;Bačevnik
+0;19.3986,43.2039;;Pljevlja;Mazarići
+0;19.4814,43.2061;;Pljevlja;Raščevići
+0;19.4744,43.2117;;Pljevlja;Dujići
+0;19.3114,43.2203;;Pljevlja;Kriješterovina
+0;18.9247,42.2153;;Budva;Reževići
+0;18.9631,42.1953;;Budva;Midžorove Kuće
+0;18.6722,42.3975;;Tivat;Krtoli
+0;19.1642,43.2561;;Pljevlja;Vranići
+0;19.2369,42.4606;;Podgorica;Vranići
+0;19.1931,43.3875;;Pljevlja;Gardovići
+0;19.0311,43.4236;;Pljevlja;Omerovići
+0;19.0997,43.4200;;Pljevlja;Sumići
+0;19.1011,43.4236;;Pljevlja;Ćukovac
+0;19.1578,43.4336;;Pljevlja;Povijevo
+0;19.0928,43.4433;;Pljevlja;Prošče
+0;19.0694,43.4597;;Pljevlja;Ljuta Bara
+0;19.1369,43.4919;;Pljevlja;Ljuta Bara
+0;19.1969,43.4814;;Pljevlja;Panjevi
+0;18.6500,42.4508;;Herceg Novi;Rake
+0;18.6522,42.4586;;Herceg Novi;Malovići
+0;19.0450,43.4831;;Pljevlja;Potpal
+0;18.6442,42.4525;;Herceg Novi;Todorovići
+0;18.6411,42.4506;;Herceg Novi;Kovačina
+0;18.7364,42.4333;;Tivat;Bogdašići
+0;18.7092,42.4325;;Tivat;Peani
+0;18.6750,42.4039;;Tivat;Kaluđerovina
+0;18.6864,42.4033;;Tivat;Nova Peć
+0;18.7003,42.3947;;Tivat;Bazdan
+0;18.6147,42.4017;;Herceg Novi;Babunci
+0;18.7242,42.3697;;Kotor;Gobovići
+0;18.7303,42.3658;;Kotor;Drakulovići
+0;18.7378,42.3575;;Kotor;Batute
+0;18.7442,42.3514;;Kotor;Milojci
+0;18.7325,42.3317;;Kotor;Kraljevići
+0;18.7419,42.3322;;Kotor;Mikijelji
+0;19.2653,42.5192;;Podgorica;Gornji Markovići
+0;19.2597,42.5072;;Podgorica;Donji Markovići
+0;19.2458,42.5125;;Podgorica;Ravni Laz
+0;19.2903,42.5250;;Podgorica;Mišoka
+0;19.2494,42.5294;;Podgorica;Stijensko Brdo
+0;19.2508,42.5422;;Podgorica;Crnačko Brdo
+0;19.2658,42.5639;;Podgorica;Trebinci
+0;19.2547,42.5525;;Podgorica;Krivača
+0;19.0550,43.0092;;Opština Šavnik;Krivača
+0;19.2572,42.5589;;Podgorica;Dragaljevina
+0;19.3347,42.5114;;Podgorica;Mijeli
+0;19.3703,42.6239;;Podgorica;Kupina
+0;19.3439,42.7219;;Opština Kolašin;Smreka
+0;19.3731,42.7100;;Opština Kolašin;Kravlja
+0;19.3650,42.6956;;Opština Kolašin;Bojska Gora
+0;19.3472,42.6936;;Opština Kolašin;Gunjani
+0;19.3486,42.6725;;Opština Kolašin;Kalac
+0;19.3564,42.7317;;Opština Kolašin;Kalac
+0;19.3636,42.7444;;Opština Kolašin;Istaće
+0;19.3722,42.7353;;Opština Kolašin;Liplja
+0;19.3767,42.7278;;Opština Kolašin;Grdovine
+0;19.3753,42.7461;;Opština Kolašin;Kosjeri
+0;19.3981,42.7464;;Opština Kolašin;Muline
+0;19.4117,42.7292;;Opština Kolašin;Streljanice
+0;19.4278,42.7339;;Opština Kolašin;Vinogradine
+0;19.4522,42.7325;;Opština Kolašin;Smira
+0;19.4653,42.7494;;Opština Kolašin;Bratožica
+0;19.4633,42.7278;;Opština Kolašin;Donji Kos
+0;19.4669,42.7322;;Opština Kolašin;Crni Potok
+0;19.4683,42.7158;;Opština Kolašin;Gornji Kos
+0;18.7600,42.4908;;Kotor;Trstenik
+0;19.4753,42.6903;;Opština Kolašin;Gornja Trebješica
+0;19.3708,42.7183;;Petnjica Municipality;Pernica
+0;19.3711,42.7161;;Opština Kolašin;Kutlov Do
+0;19.3919,42.6969;;Opština Kolašin;Podine
+0;19.4322,42.7028;;Opština Kolašin;Kupusišta
+0;18.8239,42.4386;;Cetinje;Velji Kraj
+0;19.4089,42.6825;;Opština Kolašin;Štavani
+0;19.4708,42.6594;;Podgorica;Velje Slacko
+0;19.4575,42.6581;;Podgorica;Malo Slacko
+0;18.8806,42.4072;;Cetinje;Bale
+0;18.8983,42.3989;;Cetinje;Pozduj
+0;18.7558,42.4014;;Kotor;Odoljen
+0;18.9408,43.4894;;Pljevlja;Katavići
+0;18.9850,43.4681;;Pljevlja;Međe
+0;18.9850,43.4806;;Pljevlja;Ravnica
+0;18.7697,42.3572;;Kotor;Ðuranovići
+0;18.7494,42.3403;;Kotor;Ukropci
+0;19.3244,42.5022;;Podgorica;Begova Luka
+0;19.3494,42.5200;;Podgorica;Čelj
+0;19.3467,42.5083;;Podgorica;Brijeg Vuksanovića
+0;18.7672,42.3150;;Kotor;Bjeloševići
+0;18.7533,42.2989;;Kotor;Gostovići
+0;18.7669,42.3036;;Kotor;Savina Glavica
+0;18.7833,42.3175;;Kotor;Kovačke Kućice
+0;18.7864,42.3133;;Kotor;Glavatske Kućice
+0;18.8175,42.3050;;Budva;Svinjišta
+0;18.8961,42.3081;;Budva;Prentovići
+0;19.3642,42.5519;;Podgorica;Brat-Njive
+0;19.3517,42.5300;;Podgorica;Moračica
+0;18.8842,42.2839;;Budva;Čučići
+0;18.9072,43.3542;;Opština Plužine;Mačkov Do
+0;18.8447,42.2933;;Budva;Babalonija
+0;19.4033,42.5311;;Podgorica;Donje Momče
+0;18.8503,42.2992;;Budva;Gigcvići
+0;18.8292,42.2800;;Budva;Komoševina
+0;19.3867,42.5806;;Podgorica;Zmijina
+0;19.3842,42.5728;;Podgorica;Gluvčev Do
+0;19.3653,42.5694;;Podgorica;Vlaše Vica
+0;19.3536,42.5783;;Podgorica;Miročevići
+0;19.0253,43.2644;;Opština Žabljak;Bailovići
+0;19.0367,43.2869;;Pljevlja;Gornji Meštrevac
+0;19.0422,43.2881;;Pljevlja;Lukovići
+0;18.7611,42.2953;;Kotor;Neodi
+0;18.7633,42.2914;;Kotor;Turija
+0;19.0253,43.4889;;Pljevlja;Borjanica
+0;18.8900,42.2761;;Budva;Divanovići
+0;18.8894,42.2736;;Budva;Kamenovo
+0;19.4253,42.6197;;Podgorica;Kaćuni Do
+0;19.4567,42.6258;;Podgorica;Nožica
+0;18.9064,42.2572;;Budva;Denaši
+0;19.1956,43.3856;;Pljevlja;Dovišta
+0;19.1819,43.4511;;Pljevlja;Vrtlina
+0;19.1692,43.4433;;Pljevlja;Trgovišta
+0;19.1642,43.4258;;Pljevlja;Podrid
+0;19.1558,43.4411;;Pljevlja;Graovišta
+0;19.1653,43.4642;;Pljevlja;Rosno Brdo
+0;19.1478,43.4728;;Pljevlja;Rt
+0;19.4775,42.6058;;Podgorica;Koraj-Do
+0;19.4847,42.6142;;Podgorica;Bradašica
+0;19.4808,42.6350;;Podgorica;Kolevići
+0;19.4708,42.6331;;Podgorica;Babljače
+0;19.4464,42.6375;;Podgorica;Dedinice
+0;19.4481,42.6503;;Podgorica;Krivi Do
+0;19.4475,42.7078;;Opština Kolašin;Gornje Vodice
+0;19.4367,42.7225;;Opština Kolašin;Dedina Ravan
+0;19.4756,42.7333;;Opština Kolašin;Pilote
+0;19.4931,42.7381;;Opština Kolašin;Tamnice
+0;19.4881,42.7306;;Opština Kolašin;Međeđa
+0;19.4894,42.7261;;Opština Kolašin;Klanice
+0;19.4036,42.7469;;Opština Kolašin;Banje Brdo
+0;19.3725,42.7253;;Opština Kolašin;Ćeća
+0;19.3914,42.7111;;Opština Kolašin;Dobri Lug
+0;19.4142,42.7228;;Opština Kolašin;Bojin Do
+0;19.4222,42.7233;;Opština Kolašin;Novakovice
+0;19.4247,42.7308;;Opština Kolašin;Svine
+0;19.4300,42.7286;;Opština Kolašin;Meljaci
+0;19.4258,42.7006;;Opština Kolašin;Ravnine
+0;19.3431,42.7294;;Opština Kolašin;Ban-Lug
+0;19.3517,42.7431;;Opština Kolašin;Zalazba
+0;19.3575,42.7181;;Opština Kolašin;Dumačine
+0;19.3675,42.7161;;Opština Kolašin;Stanci
+0;19.3494,42.7003;;Opština Kolašin;Lijepi Brijeg
+0;19.3519,42.6953;;Opština Kolašin;Andrijevo
+0;19.3683,42.5961;;Podgorica;Raslvići
+0;19.2806,42.5642;;Podgorica;Piskav Do
+0;19.3556,42.5281;;Podgorica;Jelin Dub
+0;18.8614,43.3478;;Opština Plužine;Džaferov Do
+0;18.8642,43.3450;;Opština Plužine;Kružac
+0;19.4983,42.7314;;Opština Kolašin;Markovica Laz
+0;18.8231,42.4283;;Cetinje;Vrh Polja
+0;18.6419,42.4467;;Herceg Novi;Grabe
+0;18.6500,42.4544;;Herceg Novi;Dubravica
+0;18.6492,42.4569;;Herceg Novi;Želalići
+0;18.6547,42.4631;;Herceg Novi;Zlokovići
+0;18.6711,42.4636;;Herceg Novi;Donja Jošica
+0;18.6742,42.4842;;Herceg Novi;Banovina
+0;18.6861,42.3967;;Tivat;Meštrovići
+0;18.6953,42.4006;;Tivat;Dubravčevina
+0;18.6992,42.4444;;Tivat;Tomičići
+0;18.7658,42.4539;;Kotor;Kamenarovići
+0;18.7667,42.3844;;Kotor;Bujkovići
+0;18.8075,42.4317;;Cetinje;Vratnica
+0;18.8278,42.4589;;Cetinje;Pačkov Do
+0;18.8561,42.4692;;Cetinje;Mulinovo Počivalo
+0;18.7953,42.3303;;Kotor;Pobor
+0;18.8128,42.3275;;Budva;Šumarev Dub
+0;18.8175,42.3317;;Budva;Ðakonovići
+0;19.0936,43.1842;;Pljevlja;Nadgora
+0;19.1719,43.1761;;Opština Žabljak;Omarić
+0;19.1761,43.1961;;Pljevlja;Koča Do
+0;19.1089,43.1081;;Opština Žabljak;Pošćenski Kraj
+0;19.2014,42.2722;;Podgorica;Donja Plavnica
+0;19.2139,42.3656;;Podgorica;Lajkovići
+0;19.2119,42.3828;;Podgorica;Velji Brijeg
+0;19.2061,42.4200;;Podgorica;Golužba
+0;18.9192,43.2025;;Opština Plužine;Hercegova Strana
+0;18.9492,43.0419;;Opština Plužine;Dragaljevo
+0;18.9625,43.2314;;Opština Plužine;Lijepi Pod
+0;19.1703,43.1597;;Opština Žabljak;Lauševići
+0;19.2289,42.4581;;Podgorica;Lužani
+0;19.1869,41.9375;;Ulcinj;Čivlak
+0;19.1658,41.9492;85368;Ulcinj;Valdanos
+0;19.2133,41.9961;;Ulcinj;Nikezići
+0;19.2292,41.9864;;Ulcinj;Metanovići
+0;19.2322,41.9919;;Ulcinj;Velja Gorana
+0;19.2389,41.9297;;Ulcinj;Kodre
+0;19.2478,41.9122;85361;Ulcinj;Velika Plaža
+0;19.2786,41.9867;;Ulcinj;Donja Klezna
+0;19.3608,41.9969;;Ulcinj;Lisna Bori
+0;19.3033,41.9703;;Ulcinj;Briska Gora
+0;19.2664,41.9803;;Ulcinj;Gigovići
+0;19.2550,41.9639;;Ulcinj;Možura
+0;19.3408,41.9208;;Ulcinj;Kodra Dake
+0;19.3203,41.9025;;Ulcinj;Bregvija
+0;19.2289,43.2925;;Pljevlja;Primet
+0;19.2356,43.3667;;Pljevlja;Mentovići
+0;19.2372,43.3817;;Pljevlja;Gajevi
+0;19.2125,43.4089;;Pljevlja;Podčabar
+0;19.2117,43.4033;;Pljevlja;Vagan
+0;19.2325,43.3881;;Pljevlja;Topalovići
+0;19.2383,43.3894;;Pljevlja;Čolovići
+0;19.3264,43.4158;;Pljevlja;Čolovići
+0;19.2381,43.3956;;Pljevlja;Žederovo Brdo
+0;19.2447,43.4119;;Pljevlja;Stup
+0;19.2158,43.4136;;Pljevlja;Petinići
+0;19.2217,43.4167;;Pljevlja;Prešmenice
+0;19.2033,43.4192;;Pljevlja;Nokte
+0;19.2092,43.4142;;Pljevlja;Podkrš
+0;19.2139,43.4219;;Pljevlja;Duboka Dolina
+0;19.2050,43.4314;;Pljevlja;Ðurđevice
+0;19.2003,43.4383;;Pljevlja;Liješće
+0;19.4172,43.3686;;Pljevlja;Liješće
+0;19.2025,43.4392;;Pljevlja;Ilijina Glavica
+0;19.2258,43.4728;;Pljevlja;Vučevo
+0;19.2125,43.4908;;Pljevlja;Mlakva
+0;19.2203,43.4900;;Pljevlja;Pjevčeva Glava
+0;19.2608,43.4542;;Pljevlja;Buljunice
+0;19.2458,43.4317;;Pljevlja;Demići
+0;19.2564,43.4289;;Pljevlja;Omeđak
+0;19.2506,43.4156;;Pljevlja;Stub
+0;19.2667,43.4297;;Pljevlja;Rasadnik
+0;19.2464,43.4003;;Pljevlja;Radov Do
+0;19.2858,43.4111;;Pljevlja;Ovčarevo
+0;19.2911,43.3944;;Pljevlja;Milići
+0;19.2811,43.3811;;Pljevlja;Milićevići
+0;19.2953,43.3867;;Pljevlja;Livađani
+0;19.2858,43.3831;;Pljevlja;Tošići
+0;19.2961,43.3753;;Pljevlja;Šuljkovac
+0;19.3050,43.3833;;Pljevlja;Josovići
+0;19.3114,43.3817;;Pljevlja;Gogići
+0;19.3022,43.4014;;Pljevlja;Donje Stupine
+0;19.3072,43.3989;;Pljevlja;Gornje Stupine
+0;19.3092,43.3781;;Pljevlja;Vraneši
+0;19.3064,43.3642;;Pljevlja;Opaljenik
+0;19.3017,43.3417;;Pljevlja;Goločevci
+0;19.3197,43.3481;;Pljevlja;Koruge
+0;19.3067,43.3100;;Pljevlja;Ljuće
+0;19.2536,43.3347;;Pljevlja;Sakovo Brdo
+0;19.2472,43.3339;;Pljevlja;Klačnica
+0;19.2769,43.3503;;Pljevlja;Naplav
+0;19.2736,43.3478;;Pljevlja;Ametovina
+0;19.2497,43.3536;;Pljevlja;Pantovići
+0;19.2475,43.3611;;Pljevlja;Svinjčevina
+0;19.2808,43.2772;;Pljevlja;Miradovići
+0;19.3336,43.2644;;Pljevlja;Rašinovići
+0;19.3439,43.2586;;Pljevlja;Vranjača
+0;19.2289,42.4275;;Podgorica;Zabjelo
+0;19.2286,42.4231;;Podgorica;Dahna
+0;19.2253,42.4133;;Podgorica;Gornje Dajbabe
+0;19.2286,42.4056;;Podgorica;Donje Dajbabe
+0;19.3306,43.3644;;Pljevlja;Deveta
+0;19.4467,43.2700;;Pljevlja;Komarice
+0;19.4461,43.2644;;Pljevlja;Kartali
+0;19.4867,43.2547;;Pljevlja;Klađe
+0;19.3792,43.3367;;Pljevlja;Tvrdaš
+0;19.3961,43.3492;;Pljevlja;Jagnjile
+0;19.4117,43.3231;;Pljevlja;Irino Brdo
+0;19.4206,43.3306;;Pljevlja;Šarančići
+0;19.4214,43.3222;;Pljevlja;Podlitica
+0;19.3133,42.4983;;Podgorica;Vela Luka
+0;19.3247,42.4953;;Podgorica;Vidijenje
+0;19.3436,42.4978;;Podgorica;Boljev Do
+0;19.3567,42.4919;;Podgorica;Greča
+0;19.3689,42.4983;;Podgorica;Cerje
+0;19.4033,42.4925;;Podgorica;Rajovići
+0;19.4461,42.4817;;Podgorica;Podgrad
+0;19.4067,42.4878;;Podgorica;Koštrovići
+0;19.3983,42.4886;;Podgorica;Prelevići
+0;19.3686,42.4736;;Podgorica;Gornji Medun
+0;19.4281,43.3697;;Pljevlja;Bojovina
+0;19.3236,42.4856;;Podgorica;Cvarin
+0;19.3053,42.4806;;Podgorica;Smokovac
+0;19.3136,42.4786;;Podgorica;Krnjan
+0;19.2969,42.4756;;Podgorica;Ras
+0;19.3431,43.3528;;Pljevlja;Sevari
+0;19.2989,43.4125;;Pljevlja;Kovijec
+0;19.3211,43.4086;;Pljevlja;Damjanovići
+0;19.3297,43.4061;;Pljevlja;Beljkasi
+0;19.3267,43.4006;;Pljevlja;Brazda
+0;19.3225,43.3911;;Pljevlja;Donje Jugovo
+0;19.3597,43.3875;;Pljevlja;Rovčani
+0;19.3694,43.3906;;Pljevlja;Gornja Rudnica
+0;19.2758,42.4856;;Podgorica;Kučice
+0;19.2514,42.4706;;Podgorica;Vraničke Njive
+0;19.2911,42.4644;;Podgorica;Stara Zlatica
+0;19.3111,42.4575;;Podgorica;Skoče
+0;19.3083,42.4617;;Podgorica;Mosor
+0;19.3253,42.4600;;Podgorica;Peuta
+0;19.3506,42.4650;;Podgorica;Donji Medun
+0;19.4161,42.4600;;Podgorica;Radovac
+0;19.4694,42.4439;;Tuzi Municipality;Delaj
+0;19.4383,42.4389;;Podgorica;Bisač
+0;19.3869,42.4542;;Podgorica;Radan
+0;19.3936,42.4519;;Podgorica;Krenza
+0;19.3950,42.4403;;Podgorica;Braka
+0;19.3894,42.4436;;Podgorica;Rošenica
+0;19.3639,42.4414;;Podgorica;Premići
+0;19.3667,42.4417;;Podgorica;Fundina
+0;19.3319,42.4383;;Podgorica;Fuša e Nenes
+0;19.2817,43.4178;;Pljevlja;Male Krće
+0;19.2833,42.4369;;Podgorica;Konik
+0;19.3189,42.4358;;Podgorica;Kucišta
+0;19.3336,42.4317;;Podgorica;Gropa e Morišit
+0;19.3675,42.4222;;Podgorica;Rabri
+0;19.3725,42.4281;;Podgorica;Mjegotin
+0;19.3808,42.4206;;Podgorica;Vuljan
+0;19.4550,42.4228;;Podgorica;Šumica
+0;19.4761,42.4300;;Tuzi Municipality;Cijevna
+0;19.4386,42.4094;;Podgorica;Dobrčin
+0;19.3975,42.3981;;Tuzi Municipality;Lofka
+0;19.3497,42.4128;;Podgorica;Kajoš
+0;19.3119,42.3928;;Podgorica;Rogami
+0;19.3517,42.3978;;Podgorica;Hadžaj
+0;19.3514,42.3889;;Podgorica;Vulevići
+0;19.3861,42.3869;;Tuzi Municipality;Gurec
+0;19.4044,42.3886;;Podgorica;Bjeljoskja
+0;19.4314,42.3867;;Podgorica;Nabom
+0;19.3342,42.3742;;Podgorica;Vuljevići
+0;19.3181,42.3689;;Tuzi Municipality;Šipčanik
+0;19.3994,42.3547;;Podgorica;Skorafci
+0;19.4050,42.3481;;Podgorica;Role
+0;19.4086,42.3608;;Podgorica;Mačaj
+0;19.3947,42.3428;;Podgorica;Vatnikaj
+0;19.3842,42.3394;;Podgorica;Nik Ðokaj
+0;19.3736,42.3417;;Podgorica;Prenkaj
+0;19.3597,42.3286;;Podgorica;Hasanoj
+0;19.3164,42.3158;;Tuzi Municipality;Sukurić
+0;19.3186,42.3214;;Tuzi Municipality;Kotrabudan
+0;19.3361,42.3200;;Tuzi Municipality;Drešaj
+0;19.2992,43.3931;;Pljevlja;Srdanov Grob
+0;19.2086,42.2847;;Podgorica;Gornja Plavnica
+0;19.2158,42.1444;;Bar;Bapsula
+0;19.2208,42.1233;;Bar;Dobreci
+0;19.2989,42.1025;;Bar;Husići
+0;19.2889,42.0939;;Bar;Runja
+0;19.2308,42.0606;;Ulcinj;Medureč
+0;19.2106,42.0439;;Bar;Vulići
+0;19.2008,42.0511;;Bar;Lunje
+0;19.2272,42.0083;;Bar;Spahići
+0;19.3500,42.0853;;Ulcinj;Demirovići
+0;19.3647,42.0828;;Ulcinj;Ljubanivići
+0;19.3492,42.0739;;Ulcinj;Lekperići
+0;19.3428,42.0719;;Ulcinj;Dodići
+0;19.3292,42.0767;;Ulcinj;Ðenčići
+0;19.3239,42.0853;;Ulcinj;Grdoći
+0;19.3161,42.0797;;Ulcinj;Peraševići
+0;19.3186,42.0814;;Ulcinj;Veliki Ostros
+0;19.3103,42.0767;;Ulcinj;Ðenaševići
+0;19.2983,42.0911;;Bar;Alibrahimaj
+0;19.3147,42.0708;;Ulcinj;Gornji Curovići
+0;19.3664,42.0586;;Ulcinj;Stegvaši
+0;19.3544,42.0375;;Ulcinj;Čapre Mahala
+0;19.2919,42.0269;;Ulcinj;Suma
+0;19.3097,42.0347;;Ulcinj;Ženj
+0;19.3450,42.0297;;Ulcinj;Donji Rastiš
+0;19.3342,42.0747;;Ulcinj;Ðečbitrići
+0;19.3169,42.0728;;Ulcinj;Bolevići
+0;19.3119,42.0744;;Ulcinj;Berjaši
+0;19.3250,42.0772;;Ulcinj;Madžurići
+0;19.3111,42.0811;;Ulcinj;Kanići
+0;19.3114,42.0867;;Bar;Mali Ostros
+0;19.5119,42.4556;;Tuzi Municipality;Poprat
+0;19.1512,42.0080;;Ulcinj;Utjeha
+0;18.6140,42.4396;85345;Herceg Novi;Đenovići
+0;19.7447,42.9941;;Bijelo Polje;Ribarevina
+100;19.2917,43.1484;;Pljevlja;Budechevitsa
+0;19.1475,42.4817;;Podgorica;Bandici

@@ -284,6 +284,7 @@
 0;31.0451,9.4744;SS-07;Upper Nile;Tonga
 0;31.6188,6.4631;SS-03;Jonglei;Tong
 0;31.1507,9.4084;SS-07;Upper Nile;Tondiak
+0;31.6852,5.8136;SS;;Tombe
 0;33.6744,4.3662;SS-02;Eastern Equatoria;Tolubi
 0;30.2939,5.9596;SS-10;Western Equatoria;Tolla
 0;30.7130,9.2655;SS-03;Jonglei;Toladul
@@ -5210,6 +5211,7 @@
 0;29.9811,9.9154;SS-06;Unity;Pariang
 0;30.0883,10.1108;SS-06;Unity;Yida
 0;31.1942,8.1366;SS-03;Jonglei;Gorwai
+0;30.8800,3.5500;SS;;Kaya
 0;28.5895,4.7108;SS-10;Western Equatoria;Rimenze
 0;30.0733,6.3389;SS-10;Western Equatoria;Mapuordit
 0;29.6792,9.0231;SS-06;Unity;Nhialdiu
@@ -5219,6 +5221,8 @@
 0;28.5173,4.6354;SS-10;Western Equatoria;Bodo
 0;28.4536,4.6007;SS-10;Western Equatoria;Bazungua
 0;28.9787,9.4937;SS-06;Unity;Smarshuntsi
+0;31.5923,4.8275;SS;;Kator
+0;30.8324,6.1672;SS;;Mingkaman
 0;33.7915,5.1246;SS-02;Eastern Equatoria;Mogos
 0;33.7612,5.0543;SS-02;Eastern Equatoria;Nadapaliet
 0;33.6992,4.2558;SS-02;Eastern Equatoria;Loudo

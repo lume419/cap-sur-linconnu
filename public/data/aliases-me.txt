@@ -449,3 +449,138 @@ pa;ਪੇਤਨਿਕਾ;Petnjica
 ps;پيتنجيكا;Petnjica
 tg;Петница;Petnjica
 tt;Петница;Petnjica
+uk;Савин Бор;Savin Bor
+fa;ساوین بور;Savin Bor
+sr;Савин Бор;Savin Bor
+uk;Ібарац;Ibarac
+fa;ایباراتس;Ibarac
+sq;Dedinje;Ibarac
+sr;Ибарац;Ibarac
+ru;Ибарац;Ibarac
+ru;Грахово;Grahovo
+fa;ژیدوویچی;Židovići
+sr;Жидовићи;Židovići
+ru;Зеленика;Zelenika
+sr;Загреда;Zagreda
+el;Βούσανιε;Vusanje
+uk;Вусаньє;Vusanje
+fa;ووسانیه;Vusanje
+sq;Vuthaj;Vusanje
+sr;Вусање;Vusanje
+sr;Трновице;Trnovice
+fa;تومبا;Tomba
+mk;Томба;Tomba
+sr;Томба;Tomba
+sr;Стијена;Stijena
+ru;Шас;Šas
+hr;Svač;Šas
+uk;Шас;Šas
+sq;Shasi;Šas
+sr;Шас;Šas
+sr;Росе;Rose
+ru;Росе;Rose
+uk;Реч;Reč
+sr;Реч;Reč
+sr;Придворица;Pridvorica
+bg;Поди;Podi
+uk;Поді;Podi
+fa;پودی;Podi
+sr;Поди;Podi
+ru;Петровац;Petrovac na Moru
+uk;Петнік;Petnjik
+fa;پتنیک;Petnjik
+sr;Петњик;Petnjik
+uk;Пешца;Pešca
+fa;پوشسا;Pešca
+sr;Пешца;Pešca
+ru;Пешца;Pešca
+fa;اوزرینیچی;Ozrinići
+sr;Озринићи;Ozrinići
+bg;Недакуси;Nedakusi
+uk;Недакуси;Nedakusi
+fa;نداکوسی;Nedakusi
+sr;Недакуси;Nedakusi
+sr;Нанге;Nange
+fa;مرچواتس;Mrčevac
+sr;Мрчевац;Mrčevac
+fa;مویانوویچی;Mojanovići
+sr;Мојановићи;Mojanovići
+lt;Matagužai;Mataguži
+fa;ماتاگوژی;Mataguži
+sq;Matagusha;Mataguži
+sr;Матагужи;Mataguži
+ru;Матагужи;Mataguži
+ar;المحلة;Mahala
+fa;ماهالا;Mahala
+ru;Липци;Lipci
+sr;Левер Тара;Lever Tara
+de;Lepetane;Lepetani
+ru;Лепетане;Lepetani
+bg;Лепетани;Lepetani
+it;Lepetane;Lepetani
+uk;Лепетанє;Lepetani
+fa;لپتانی;Lepetani
+sr;Лепетани;Lepetani
+uk;Лагатори;Lagatori
+fa;لاگاتوری;Lagatori
+sr;Лагатори;Lagatori
+fa;گورچانی;Goričani
+fa;گودینیه;Godinje
+sq;Godenja;Godinje
+zh;戈迪涅村;Godinje
+sr;Годиње;Godinje
+sr;Глибаћи;Glibaći
+ru;Добра Вода;Dobra Voda
+it;Scurta;Dobra Voda
+fa;دوبرا وودا;Dobra Voda
+sq;Ujëmira;Dobra Voda
+uk;Буче;Buče
+fa;بوچه;Buče
+sr;Буче;Buče
+sr;Бобово;Bobovo
+bg;Бери;Beri
+sr;Бери;Beri
+uk;Беран Село;Beran Selo
+fa;بران سلو;Beran Selo
+sr;Беран Село;Beran Selo
+bg;Амбула;Ambula
+uk;Амбула;Ambula
+fa;امبولا، یولسینج;Ambula
+sq;Amulli;Ambula
+sr;Амбула;Ambula
+ru;Кумбор;Kumbor
+uk;Кумбор;Kumbor
+fa;کومبور;Kumbor
+he;קומבור;Kumbor
+sr;Кумбор;Kumbor
+bg;Мирац;Mirac
+el;Μίρατς;Mirac
+it;Mirza;Mirac
+uk;Мірац;Mirac
+fa;میراس;Mirac
+sr;Мирац;Mirac
+sq;Rakiq;Rakića Kuće
+sr;Rajkovići;Rajkovići Plavče brdo
+sr;Растока;Rastoka
+it;Bortaiso;Burtaiši
+fa;بورتائیشی;Burtaiši
+sq;Burtaishi;Burtaiši
+sr;Буртаиши;Burtaiši
+el;Σκάλιαρι;Škaljari
+lt;Škaliaris;Škaljari
+it;Scagliari;Škaljari
+uk;Шкалярі;Škaljari
+fa;شکالیاری;Škaljari
+sr;Шкаљари;Škaljari
+el;Σούσανι;Šušanj
+it;Zuccanegra;Šušanj
+fa;شوشانی;Šušanj
+sq;Shushani;Šušanj
+sr;Шушањ;Šušanj
+uk;Долішня Вербиця;Donja Vrbica
+fa;دونیا وربیتسا;Donja Vrbica
+sr;Доња Врбица;Donja Vrbica
+uk;Горня Врбиця;Gornja Vrbica
+fa;گورنیا وربیتسا;Gornja Vrbica
+sr;Горња Врбица;Gornja Vrbica
+ru;Будечевица;Budechevitsa

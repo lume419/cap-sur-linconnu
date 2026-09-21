@@ -134,6 +134,7 @@
 0;20.7700,60.3592;22830;Kumlinge;Finnslätt
 0;20.9151,60.3418;22840;Brändö;Västernäs
 0;20.9343,60.4398;22920;Brändö;Nötholm
+0;20.8824,60.5258;;Ålands skärgård;Hullberga
 0;20.1895,60.2454;22530;Sund;Persby
 0;20.1919,60.3100;22430;Saltvik;Sveden
 0;20.1791,60.2836;22430;Saltvik;Kleven
@@ -187,6 +188,7 @@
 0;19.9833,60.1833;22150;Jomala;Jomalby
 3662;19.9510,60.1490;22151;Jomala;Jomala
 0;19.9833,60.1333;22151;Jomala;Jättböle
+0;19.7496,60.3677;;Ålands landsbygd;Isaksö
 0;19.9500,60.1667;22150;Jomala;Ingby
 0;19.9500,60.1167;22100;Mariehamn;Hindersböle
 0;19.8333,60.1000;22130;Jomala;Hamnäs
@@ -196,6 +198,7 @@
 452;19.8446,60.3745;22340;Geta;Geta
 0;19.7167,60.2167;22240;Hammarland;Frebbenby
 2412;19.9333,60.2667;22310;Finström;Finström
+0;19.5833,60.3500;;Ålands landsbygd;Finbo
 0;19.8856,60.2111;22220;Finström;Emkarby
 959;19.6144,60.2125;22270;Eckerö;Eckerö
 0;19.8000,60.1833;22240;Hammarland;Drygsböle

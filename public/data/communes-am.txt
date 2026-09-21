@@ -456,3 +456,849 @@
 833;45.5778,40.8547;4211;;Chinari
 667;45.4879,40.8618;4213;;Choratan
 517;45.3528,40.9629;4216;;Varagavan
+132;45.3945,39.6805;;Vayots Dzor;Zedea
+350;46.5573,39.2265;;Syunik;Yeghvard
+1572;44.6195,39.8389;;Ararat;Yeghegnavan
+66;46.4195,39.2991;;Syunik;Yegheg
+0;46.2333,39.4333;;Syunik;Zovaber
+0;46.3751,39.1814;;Syunik;Verin Vach’agan
+222;46.3753,39.3116;;Syunik;Verin Khotanan
+79;46.4998,39.2416;;Syunik;Vardavank
+169;45.0247,39.8303;;Ararat;Vardashat
+168;46.2156,38.9699;;Syunik;Vardanidzor
+235;45.4833,39.9001;;Vayots Dzor;Vardahovit
+0;46.2507,39.0489;;Syunik;Vank
+12;46.1747,38.9504;;Syunik;Vahravar
+131;46.5408,39.2361;;Syunik;Uzhanis
+430;46.0512,39.5071;;Syunik;Uyts
+262;46.1417,39.4917;;Syunik;Vorotnavan
+0;46.3833,39.2500;;Syunik;Hunut
+143;45.9626,39.4513;;Syunik;Tasik
+133;46.1695,39.0667;;Syunik;Tashtun
+475;45.2557,39.8917;;Vayots Dzor;Taratumb
+200;46.3291,39.3508;;Syunik;Tandzaver
+75;46.2580,39.3745;;Syunik;Tandzatap
+222;46.2195,39.3667;;Syunik;Svarants
+99;46.5001,39.0779;;Syunik;Srashen
+233;45.9054,39.6227;;Syunik;Spandaryan
+85;45.9954,39.3749;;Syunik;Nzhdeh
+84;46.4824,39.2082;;Syunik;Sznak
+178;46.3981,39.3813;;Syunik;Shurnukh
+70;46.3914,39.2861;;Syunik;Shrvenants
+39;46.3529,39.0723;;Syunik;Shishkert
+0;46.3333,39.2319;;Syunik;ShGharshik
+226;46.1361,39.3779;;Syunik;Shenatagh
+4387;44.5723,39.9417;;Ararat;Shahumyan
+1152;45.9986,39.5650;;Syunik;Shaki
+895;44.8917,39.8807;;Ararat;Shaghap
+224;46.4441,39.2710;;Syunik;Sevakar
+193;45.4805,39.5639;;Vayots Dzor;Sers
+266;45.8835,39.6501;;Syunik;Sarnakunk
+160;45.9233,39.4648;;Syunik;Salvard
+224;45.2779,39.8737;;Vayots Dzor;Salli
+0;44.4667,39.9997;;Ararat;Sabunchi
+18;46.2254,39.1273;;Syunik;Pukhrut
+102;45.4723,39.6445;;Vayots Dzor;Por
+0;46.1333,39.2500;;Syunik;Pirdaudan
+34;46.1063,39.2446;;Syunik;Nor Astghaberd
+223;45.3359,39.8936;;Vayots Dzor;Horbategh
+75;46.3605,39.2808;;Syunik;Okhtar
+125;46.4436,38.9151;;Syunik;Nrnadzor
+2784;44.6300,39.9020;;Ararat;Nor Kyank
+106;45.4223,39.5445;;Vayots Dzor;Nor Aznaberd
+356;46.0913,39.5231;;Syunik;Noravan
+115;46.3893,39.2688;;Syunik;Norashenik
+0;46.1973,39.0195;;Syunik;Nor Arevik
+111;46.3777,39.2853;;Syunik;Nerkin Khotanan
+0;44.5510,39.9511;;Ararat;Nerk’in Kamarlu
+44;46.4779,39.2305;;Syunik;Bargushat
+83;46.5162,39.0413;;Syunik;Nerkin Hand
+58;46.2501,39.1889;;Syunik;Dzagikavan
+34;45.9873,39.3646;;Syunik;Tsghuni
+16;46.2083,39.1361;;Syunik;Katnarat
+83;46.2083,38.9873;;Syunik;Tkhkut
+12;46.2756,39.3468;;Syunik;Kashuni
+93;46.1751,39.0555;;Syunik;Lichk
+208;46.0350,39.5682;;Syunik;Ishkhanasar
+31;46.1787,38.9325;;Syunik;Kuris
+100;46.2710,39.2064;;Syunik;Andokavan
+66;46.0202,39.4122;;Syunik;Torunik
+62;46.5263,39.2249;;Syunik;Khdrants
+211;46.4311,39.2362;;Syunik;Achanan
+54;46.2458,39.2064;;Syunik;Kavchut
+0;46.3947,39.2350;;Syunik;Kavart
+136;45.5331,39.8158;;Vayots Dzor;Karmrashen
+223;46.1833,38.8961;;Syunik;Karchevan
+1471;46.3596,39.4738;;Syunik;Karahunj
+74;46.3444,39.2808;;Syunik;Vanek
+0;46.2762,39.0631;;Syunik;Kaler
+136;46.5120,39.2790;;Syunik;Kaghnut
+102;44.9529,39.8751;;Ararat;Lanjanist
+79;45.4611,39.8779;;Vayots Dzor;Goghtanik
+4104;44.5973,39.9251;;Ararat;Taperakan
+163;45.4279,39.8751;;Vayots Dzor;Hermon
+0;45.5036,39.9491;;Vayots Dzor;Getikvank
+32;45.5925,39.6244;;Vayots Dzor;Kapuyt
+18;46.1770,38.9393;;Syunik;Gudemnis
+237;45.2333,39.8639;;Vayots Dzor;Hors
+168;45.5723,39.6307;;Vayots Dzor;Gomk
+58;46.4139,39.1833;;Syunik;Gomaran
+62;45.2973,39.6583;;Vayots Dzor;Gnishik
+0;45.5667,39.6917;;Vayots Dzor;Getik
+111;46.1279,39.4223;;Syunik;Getatagh
+2373;45.3083,39.7639;;Vayots Dzor;Getap
+116;46.1583,39.2223;;Syunik;Geghi
+334;46.4196,39.1719;;Syunik;Geghanush
+56;46.3572,39.2706;;Syunik;Dzorastan
+75;46.3590,39.2976;;Syunik;Tavrus
+35;46.5001,39.2083;;Syunik;Ditsmayri
+264;45.4945,39.7279;;Vayots Dzor;Arin
+0;46.3667,39.2667;;Syunik;Ch’obanlu
+58;46.1289,39.2262;;Syunik;Getishen
+104;46.4579,39.2690;;Syunik;Chapni
+0;46.3833,39.2833;;Syunik;Ch’anakhch’i
+202;46.4445,39.1473;;Syunik;Chakaten
+1174;46.3073,39.5349;;Syunik;Akner
+271;45.8551,39.6672;;Syunik;Tsghuk
+129;46.0073,39.4446;;Syunik;Bnunis
+140;45.9083,39.5333;;Syunik;Mutsk
+123;46.3307,39.4001;;Syunik;Bardzravan
+131;45.9318,39.5576;;Syunik;Balak
+1841;44.5139,39.9805;;Ararat;Baghramyan
+199;45.9705,39.4641;;Syunik;Hatsavan
+390;45.9945,39.4761;;Syunik;Ashotavan
+359;45.3575,39.8723;;Vayots Dzor;Yeghegis
+181;46.4686,39.5655;;Syunik;Aravus
+37;45.9002,39.4063;;Syunik;Arevis
+0;45.4417,39.9057;;Vayots Dzor;Arates
+8287;44.7049,39.8317;;Ararat;Ararat village
+94;46.3724,39.2632;;Syunik;Arajadzor
+106;46.3386,39.3054;;Syunik;Antarashat
+1986;45.2271,39.7820;;Vayots Dzor;Aghavnadzor
+10;46.0833,39.2529;;Syunik;Ajabaj
+53;46.3054,39.3551;;Syunik;Aghvani
+197;46.5446,39.2068;;Syunik;Agarak
+3035;46.1946,38.8651;;Syunik;Agarak
+0;46.4786,39.1150;;Syunik;Kirgilu
+0;46.3073,39.2314;;Syunik;Hamletavan
+0;46.4163,39.2122;;Syunik;Barabat’um
+0;46.4831,39.2292;;Syunik;NovoYe
+0;46.5717,39.1959;;Syunik;Yemazlu
+70;46.1571,39.4473;;Syunik;Ltsen
+187;46.4189,39.4866;;Syunik;Dzorashen
+1161;45.2667,39.7389;;Vayots Dzor;Arpi
+0;45.4614,39.7258;;Vayots Dzor;Kagrizner
+0;45.5961,39.6125;;Vayots Dzor;Kayalu
+0;45.2629,39.7873;;Vayots Dzor;Apana
+0;45.2911,39.8128;;Vayots Dzor;Alikhan-Payasy
+0;45.1658,39.8458;;Vayots Dzor;Agnilisa
+408;45.2501,39.9001;;Vayots Dzor;Aghnjadzor
+225;46.1235,39.1593;;Syunik;Kajarants
+207;44.9723,39.8279;;Ararat;Lanjar
+149;44.9973,39.8251;;Ararat;Urtsalanj
+73;45.2875,39.7083;;Vayots Dzor;Mozrov
+654;43.7807,40.4779;;Aragatsotn;Zarinja
+244;44.8022,40.2737;;Kotayk;Sevaberd
+0;44.7915,41.2802;;Tavush;Mamai
+834;43.8743,41.0316;;Shirak;Zuygaghbyur
+179;44.7473,40.3111;;Kotayk;Zovashen
+0;44.5606,40.0714;;Ararat;Zovashen
+154;43.6601,41.0925;;Shirak;Zorakert
+930;45.8695,40.2001;;Gegharkunik;Sotk
+68;43.6576,40.9993;;Shirak;Zarishat
+544;44.4667,40.4557;;Aragatsotn;Yernjatap
+1365;43.7765,40.7029;;Shirak;Yerazgavors
+526;45.1074,40.9129;;Tavush;Yenokavan
+0;44.4336,40.1167;;Yerevan;Yengidzha
+435;43.9445,40.4083;;Aragatsotn;Yeghnik
+873;44.6315,40.9030;;Lori;Yeghegnut
+2379;44.1667,40.0889;;Armavir;Yeghegnut
+39;43.5729,41.0931;;Shirak;Yeghnajur
+538;45.6109,40.1492;;Gegharkunik;Lchavan
+469;43.9473,40.4473;;Aragatsotn;Vosketas
+1159;44.2751,40.2779;;Aragatsotn;Voskehat
+960;44.6455,40.1719;;Kotayk;Voghjaberd
+224;45.6410,40.0977;;Gegharkunik;Akhpradzor
+72;45.8326,40.0872;;Gegharkunik;Verin Shorzha
+398;43.9859,40.3681;;Aragatsotn;Verin Sasnashen
+926;44.9360,41.2209;;Tavush;Zorakan
+1471;45.4416,40.8804;;Tavush;Verin Karmiraghbyur
+482;44.0223,40.3639;;Aragatsotn;Verin Bazmaberd
+825;44.3667,40.4695;;Aragatsotn;Vardenut
+527;44.4059,40.5675;;Aragatsotn;Vardenis
+1138;44.1901,40.0524;;Armavir;Vardanashen
+125;43.8994,40.9744;;Shirak;Vardaghbyur
+649;43.9189,40.6643;;Shirak;Vardakar
+463;44.2445,40.6759;;Aragatsotn;Vardablur
+353;45.6758,40.1909;;Gegharkunik;Vanevan
+1020;45.3159,40.6464;;Gegharkunik;Ttujur
+0;45.3410,40.7736;;Tavush;Turdzhan
+246;44.4592,40.5700;;Aragatsotn;Ttujur
+325;45.1873,40.9175;;Tavush;Lusahovit
+338;44.6279,40.9709;;Lori;Tsater
+214;45.4751,40.4111;;Gegharkunik;Tsapatagh
+0;44.9833,40.5598;;Gegharkunik;Tsamakaberd
+1049;44.8779,40.5779;;Gegharkunik;Tsaghkunk
+1481;44.2723,40.1805;;Armavir;Tsaghkunk
+700;45.3308,40.9413;;Tavush;Verin Tsaghkavan
+621;44.3540,40.5034;;Aragatsotn;Tsaghkashen
+386;45.0570,40.3040;;Gegharkunik;Tsaghkashen
+148;44.7438,41.0749;;Lori;Tsaghkashat
+77;43.9057,40.4723;;Aragatsotn;Tsaghkasar
+1127;44.7232,40.5325;;Kotayk;Tsaghkadzor
+192;45.8506,40.2378;;Gegharkunik;Tretuk
+1458;45.4053,40.9176;;Tavush;Tavush
+371;43.8730,40.9345;;Shirak;Torosgyugh
+177;43.6195,40.4111;;Aragatsotn;Tlik
+516;44.5779,40.4251;;Kotayk;Teghenik
+812;44.8463,41.1151;;Lori;Teghut
+197;44.2355,40.3447;;Aragatsotn;Tegher
+2891;45.1910,40.1382;;Gegharkunik;Tsovasar
+409;43.8045,41.0857;;Shirak;Tavshut
+0;45.0053,40.7667;;Tavush;Tarsachay
+221;43.6746,41.0573;;Shirak;Berdashen
+0;44.9667,40.8667;;Tavush;Tandzut
+387;43.8315,40.9303;;Shirak;Goghovit
+421;43.7333,40.4639;;Aragatsotn;Suser
+1573;44.0155,40.6611;;Shirak;Spandaryan
+62;44.1133,41.1792;;Lori;Paghaghbyur
+0;43.9667,40.0500;;Armavir;Sovkhoz Nomer Shest’
+134;43.7223,40.4195;;Aragatsotn;Sorik
+409;43.8356,41.1014;;Shirak;Sizavet
+106;44.2701,40.7202;;Aragatsotn;Sipan
+77;43.6585,41.0641;;Shirak;Paghakn
+513;45.2737,40.5015;;Gegharkunik;Shoghakat
+526;43.9667,40.4057;;Aragatsotn;Shgharshik
+180;44.2728,40.6388;;Aragatsotn;Shenkani
+450;44.2389,40.8691;;Lori;Shenavan
+1929;44.3835,40.4833;;Aragatsotn;Shenavan
+1776;43.9305,40.0555;;Armavir;Shenavan
+1277;44.3001,40.2139;;Armavir;Shahumyan
+446;45.7926,40.1631;;Gegharkunik;Shatjrek
+181;44.7942,40.9389;;Lori;Shamut
+95;43.5888,41.0487;;Shirak;Shaghik
+248;44.9012,40.6588;;Gegharkunik;Semyonovka
+20;44.1493,40.3298;;Aragatsotn;Verin Sasunik
+102;44.0446,40.9357;;Shirak;Sarapat
+170;44.0988,40.8733;;Lori;Saralanj
+1270;44.0204,40.6212;;Shirak;Saralanj
+132;44.3919,40.5964;;Aragatsotn;Saralanj
+338;44.5177,40.4003;;Kotayk;Saralanj
+615;44.3567,40.8382;;Lori;Nor Khachakap
+515;43.7319,40.5535;;Shirak;Sarakap
+154;44.2412,40.6557;;Aragatsotn;Kaniashir
+669;44.6668,41.0884;;Lori;Sanahin
+2868;44.2449,40.1852;;Armavir;Geghakert
+106;43.9333,40.9671;;Shirak;Salut
+184;44.3945,40.3807;;Aragatsotn;Saghmosavan
+314;44.3011,40.6571;;Aragatsotn;Rya Taza
+339;44.4225,40.9574;;Lori;Pushkino
+270;43.8126,41.0431;;Shirak;Pokr Sepasar
+229;44.0024,40.9291;;Shirak;Pokr Sariar
+657;45.7217,40.2575;;Gegharkunik;Pokr Masrik
+117;44.7962,41.1533;;Lori;Pokr Ayrum
+174;43.8777,40.8932;;Shirak;Pokrashen
+176;44.3122,41.1696;;Lori;Petrovka
+1523;45.3670,40.9825;;Tavush;Paravakar
+378;44.5573,40.8309;;Lori;Pambak
+322;45.5320,40.3802;;Gegharkunik;Pambak
+610;43.7979,40.8708;;Shirak;Hovuni
+327;43.8945,40.6695;;Shirak;Hovtashen
+33;44.5249,41.0297;;Lori;Hovnanadzor
+590;43.9954,40.7694;;Shirak;Hovit
+105;44.3560,40.6940;;Aragatsotn;Mijnatun
+518;44.2557,40.3473;;Aragatsotn;Orgov
+845;44.6028,40.3458;;Kotayk;Nurnus
+103;44.2788,41.0570;;Lori;Novoseltsovo
+1606;43.9319,40.6583;;Shirak;Nor Kyank
+1836;44.6547,40.2649;;Kotayk;Nor Gyugh
+7048;44.5778,40.3167;;Kotayk;Nor Geghi
+836;44.3334,41.1889;;Lori;Norashen
+1289;45.4572,40.8768;;Tavush;Norashen
+1263;44.0770,40.6572;;Aragatsotn;Norashen
+501;45.0232,40.5033;;Gegharkunik;Norashen
+3733;44.5930,40.0013;;Ararat;Norashen
+496;43.7083,40.4667;;Aragatsotn;Nor Artik
+2014;43.9945,40.0861;;Armavir;Nor Armavir
+0;44.4833,40.1325;;Yerevan;Nor-Aparan
+18;44.1361,41.1083;;Lori;Noramut
+818;45.6988,40.2649;;Gegharkunik;Norakert
+3168;44.3501,40.1973;;Armavir;Norakert
+256;45.8607,40.1552;;Gegharkunik;Norabak
+598;43.8583,40.3417;;Aragatsotn;Dashtadem
+39;45.8424,40.1113;;Gegharkunik;Nerkin Shorzha
+834;45.4379,40.9428;;Tavush;Nerkin Karmiraghbyur
+496;45.1583,40.9639;;Tavush;Aknaghbyur
+0;45.3380,40.6237;;Gegharkunik;Nerin-Chambarak
+236;44.7715,41.1366;;Lori;Neghots
+107;43.9379,40.9937;;Shirak;Musayelyan
+1186;43.9927,40.7577;;Shirak;Basen
+588;44.3761,40.5814;;Aragatsotn;Kayk
+1202;44.3667,40.3120;;Aragatsotn;Mughni
+1024;44.2538,40.1825;;Armavir;Hovtamej
+759;44.4731,40.5342;;Aragatsotn;Yeghipatrush
+60;44.3270,40.6402;;Aragatsotn;Mirak
+281;43.9468,40.8846;;Shirak;Mets Sariar
+528;44.8253,41.1666;;Lori;Mets Ayrum
+1443;44.2905,40.0725;;Armavir;Metsamor
+390;43.6926,40.8556;;Shirak;Meghrashat
+105;44.1551,41.0992;;Lori;Meghvahovit
+550;45.2543,40.6650;;Gegharkunik;Martuni
+1598;43.7779,40.8349;;Shirak;Marmashen
+0;44.6333,41.0833;;Lori;Manvo
+267;44.4031,41.0371;;Lori;Bovadzor
+1322;43.8394,40.8471;;Shirak;Mayisyan
+217;43.7228,40.9189;;Shirak;Gtashen
+1170;44.0349,40.8614;;Lori;Lusaghbyur
+592;43.7447,40.6354;;Shirak;Lusaghbyur
+642;43.8575,40.6727;;Shirak;Lusakert
+816;44.3863,40.6102;;Aragatsotn;Lusagyugh
+1078;44.2695,40.0889;;Armavir;Lusagyugh
+683;45.1484,40.9369;;Tavush;Lusadzor
+420;44.4134,41.0136;;Lori;Lori Berd
+396;44.9064,41.1774;;Tavush;Lchkadzor
+109;43.9204,40.8670;;Shirak;Lernut
+246;44.1097,40.3490;;Aragatsotn;Lernarot
+631;44.1615,40.7439;;Aragatsotn;Lernapar
+26;43.9125,40.9487;;Shirak;Lernagyugh
+1389;43.9389,40.5625;;Shirak;Lernakert
+289;45.2606,40.0711;;Gegharkunik;Lernakert
+2964;44.2473,40.1361;;Armavir;Khoronk
+702;43.8601,40.5080;;Shirak;Lanjik
+283;44.7333,40.3333;;Kotayk;Hatis
+223;43.6045,41.0778;;Shirak;Garnarich
+237;45.8386,40.2668;;Gegharkunik;Kutakan
+175;45.8963,40.1805;;Gegharkunik;Kut
+557;44.3373,40.8268;;Lori;Arjhovit
+61;44.3462,41.1438;;Lori;Kruglaya shishka
+209;43.9654,40.8774;;Shirak;Krashen
+495;43.8251,41.0167;;Shirak;Krasar
+0;44.9022,41.1334;;Tavush;Kozman
+14;44.6063,40.5979;;Kotayk;Gorgoch
+66;44.3367,41.0541;;Lori;Getavan
+108;44.1855,41.1853;;Lori;Dzyunashogh
+537;44.4388,40.9941;;Lori;Amrakits
+246;44.0211,40.8396;;Lori;Khnkoyan
+2120;44.1406,40.6372;;Aragatsotn;Hnaberd
+607;44.5743,40.0061;;Ararat;Hnaberd
+364;45.0545,40.7171;;Tavush;Khachardzan
+138;44.0211,40.9240;;Shirak;Kakavasar
+608;44.2176,41.0371;;Lori;Katnaghbyur
+1060;43.9473,40.3807;;Aragatsotn;Katnaghbyur
+739;44.6758,40.2560;;Kotayk;Katnaghbyur
+0;45.2466,40.0381;;Gegharkunik;Ijevanategh
+292;43.8705,41.0108;;Shirak;Karmravan
+564;43.9473,40.4333;;Aragatsotn;Karmrashen
+0;43.8833,40.2667;;Aragatsotn;Karmrashen
+35;43.8847,40.8674;;Shirak;Karmrakar
+525;44.6898,40.9724;;Lori;Karinj
+809;44.6055,40.3917;;Kotayk;Karenis
+5104;45.2897,40.1044;;Gegharkunik;Karanlukh
+0;43.8664,40.0503;;Armavir;Karakala
+62;44.5244,40.8428;;Lori;Karaberd
+1039;43.8333,40.5431;;Shirak;Karaberd
+654;43.7550,40.8713;;Shirak;Kaps
+0;45.6667,40.1833;;Gegharkunik;Kamyshlu
+11;43.7000,40.9018;;Shirak;Kamkhut
+129;45.1090,40.6486;;Gegharkunik;Kalavan
+311;45.7833,40.2833;;Gegharkunik;Kakhakn
+248;44.5869,41.1110;;Lori;Kachachkut
+197;43.8251,40.3417;;Aragatsotn;Ddmasar
+140;45.8160,40.1482;;Gegharkunik;Jaghatsadzor
+285;45.3174,40.8680;;Tavush;Itsakar
+1028;43.7264,40.6156;;Shirak;Isahakyan
+848;43.9727,40.3892;;Aragatsotn;Irind
+1751;44.0919,40.1570;;Armavir;Mayisyan
+2491;44.5460,40.7748;;Lori;Shahumyan
+72;44.1749,41.1398;;Lori;Dashtadem
+353;43.8071,40.9183;;Shirak;Hoghmik
+161;43.8148,40.9692;;Shirak;Hovtun
+2259;43.9499,40.1714;;Armavir;Hatsik
+154;43.6221,41.0967;;Shirak;Tsaghkut
+191;43.7289,40.3820;;Aragatsotn;Kanch
+0;44.8843,41.0332;;Tavush;Gomshavar
+0;45.5500,40.8333;;Tavush;Gomer
+32;44.3144,41.2028;;Lori;Gogavan
+0;44.3667,40.1500;;Armavir;Ginevet
+573;44.3204,40.3410;;Aragatsotn;Ghazaravan
+402;44.4261,40.8796;;Lori;Aznvadzor
+578;43.7848,40.7265;;Shirak;Getk
+323;45.0992,41.0474;;Tavush;Kirants
+877;43.9945,40.6543;;Shirak;Getap
+121;43.6167,40.3875;;Aragatsotn;Getap
+910;44.5815,40.2749;;Kotayk;Getamej
+0;44.8162,40.0610;;Ararat;Gyughadzor
+478;44.2197,40.7062;;Aragatsotn;Gegharot
+346;44.7969,40.1564;;Kotayk;Geghard
+1225;44.0233,40.6847;;Shirak;Geghanist
+3419;44.4305,40.1459;;Ararat;Geghanist
+660;44.1058,40.6521;;Aragatsotn;Geghadir
+561;44.6514,40.1547;;Kotayk;Geghadir
+114;45.8069,40.1653;;Gegharkunik;Geghamabak
+120;45.6826,40.1157;;Gegharkunik;Geghakar
+401;43.9583,40.4973;;Aragatsotn;Garnahovit
+222;44.0681,40.9311;;Shirak;Dzorashen
+2948;44.6344,40.2004;;Kotayk;Dzoraghbyur
+1187;43.8807,40.5681;;Shirak;Dzorakap
+223;44.6156,40.9483;;Lori;Dzoragyugh
+33;43.9057,40.4667;;Aragatsotn;Dzoragyugh
+209;44.4890,40.5763;;Aragatsotn;Dzoraglukh
+3706;44.1866,40.7903;;Lori;Jrashen
+918;44.0195,40.0861;;Armavir;Jrashen
+1717;44.5126,40.0528;;Ararat;Jrashen
+1029;44.0278,40.7382;;Shirak;Jrarat
+579;44.7577,40.5451;;Kotayk;Jrarat
+3057;44.2714,40.0721;;Armavir;Jrarat
+233;43.7686,40.9117;;Shirak;Jradzor
+453;44.6473,40.3529;;Kotayk;Jraber
+413;45.1472,41.0557;;Tavush;Berkaber
+71;44.6272,41.2278;;Lori;Jiliza
+165;44.2722,40.6890;;Aragatsotn;Jamshlu
+0;45.1833,40.1667;;Gegharkunik;Dvoragyukh
+2884;44.5838,40.0198;;Ararat;Dvin
+526;45.0282,41.1843;;Tavush;Dovegh
+373;45.2070,40.9744;;Tavush;Ditavan
+527;44.5194,40.0452;;Ararat;Ditak
+235;44.0751,40.3555;;Aragatsotn;Dian
+796;43.9557,40.3611;;Aragatsotn;Davtashen
+1008;44.3001,40.2279;;Armavir;Dasht
+12;43.6765,41.1193;;Shirak;Darik
+111;45.5681,40.3675;;Gegharkunik;Daranak
+180;44.4359,40.5793;;Aragatsotn;Chknagh
+146;44.6519,40.9340;;Lori;Chkalov
+423;45.3505,40.9084;;Tavush;Chinchin
+328;45.6167,40.1223;;Gegharkunik;Makenis
+22071;44.6445,40.4029;;Kotayk;Charentsavan
+5481;45.3550,40.5966;;Gegharkunik;Chambarak
+282;45.1008,40.4444;;Gegharkunik;Berdkunk
+61;43.9693,40.9444;;Shirak;Bashgyugh
+40;45.1140,40.6694;;Gegharkunik;Barepat
+229;43.8111,40.9577;;Shirak;Bandivan
+836;43.6709,40.4793;;Shirak;Bagravan
+803;44.4167,40.1361;;Ararat;Azatashen
+82;45.8714,40.1790;;Gegharkunik;Azat
+206;45.7906,40.1240;;Gegharkunik;Ayrk
+1243;43.7517,40.8031;;Shirak;Haykavan
+1494;44.0389,40.0889;;Armavir;Haykavan
+194;43.8889,40.6055;;Shirak;Haykasar
+357;43.6593,40.5314;;Shirak;Haykadzor
+1893;44.2889,40.2361;;Armavir;Aygeshat
+2171;44.0611,40.0751;;Armavir;Aygeshat
+730;43.9051,40.7035;;Shirak;Aygabats
+11;44.3751,40.7855;;Lori;Tsaghkots
+551;44.2639,40.2585;;Armavir;Lernamerdz
+172;44.0459,40.3804;;Aragatsotn;Metsadzor
+196;45.7036,40.3020;;Gegharkunik;Avazan
+801;43.8744,40.8443;;Shirak;Hatsik
+608;44.6522,40.1371;;Kotayk;Hatsavan
+364;43.7779,40.4305;;Aragatsotn;Hatsashen
+0;45.1133,40.3428;;Gegharkunik;Atsarat
+0;45.1838,40.0307;;Gegharkunik;Karadzi
+2098;44.2667,40.1501;;Armavir;Artimet
+199;44.8430,40.9297;;Lori;Atan
+127;45.5255,40.6402;;Gegharkunik;Artsvashen
+0;45.1725,40.3553;;Gegharkunik;Artsvakar
+419;44.3682,41.2096;;Lori;Artsni
+1004;44.4001,40.4779;;Aragatsotn;Hartavan
+136;43.9226,41.0090;;Shirak;Hartashen
+700;44.3835,40.3889;;Aragatsotn;Artashavan
+1169;44.1833,40.1111;;Armavir;Artashar
+447;45.7351,40.2871;;Gegharkunik;Arpunk
+381;43.8942,40.9188;;Shirak;Arpeni
+284;44.3295,41.0108;;Lori;Armanis
+1171;44.0031,40.6095;;Shirak;Harich
+2041;44.4389,40.1529;;Ararat;Argavand
+2617;44.0945,40.0611;;Armavir;Argavand
+1906;44.0442,40.6534;;Shirak;Arevshat
+1717;44.5418,40.0396;;Ararat;Arevshat
+1600;43.9043,40.7417;;Shirak;Arevik
+3018;44.0945,40.1001;;Armavir;Arevik
+2016;44.3744,40.1398;;Armavir;Arevashat
+252;45.6086,40.3378;;Gegharkunik;Areguni
+151;44.5948,41.0158;;Lori;Ardvi
+185;43.7237,41.0778;;Shirak;Ardenis
+2115;44.3029,40.0555;;Armavir;Araks
+520;44.3751,40.4583;;Aragatsotn;Arayi
+3643;44.3529,40.4889;;Aragatsotn;Aragats
+2835;44.2333,40.2195;;Armavir;Aragats
+498;44.3973,40.4389;;Aragatsotn;Apnagyugh
+77;44.3535,41.2151;;Lori;Apaven
+331;44.2639,40.3555;;Aragatsotn;Antarut
+158;45.0871,40.6845;;Gegharkunik;Antaramej
+281;44.5624,40.9332;;Lori;Antaramut
+76;44.4841,40.6351;;Kotayk;Hankavan
+355;43.6029,40.4431;;Shirak;Anipemza
+130;44.5967,41.0593;;Lori;Amoj
+1069;43.9667,40.0833;;Armavir;Amasia
+1651;43.7838,40.9557;;Shirak;Amasia
+153;43.7494,41.0371;;Shirak;Alvar
+84;44.3852,40.7632;;Lori;Lernajur
+682;43.9034,40.4260;;Aragatsotn;Akunk
+2396;44.6861,40.2667;;Kotayk;Akunk
+3712;45.7271,40.1606;;Gegharkunik;Akunk
+502;44.6923,41.0817;;Lori;Akner
+217;43.6917,40.3861;;Aragatsotn;Hako
+1149;44.9138,41.2172;;Tavush;Haghtanak
+216;44.8204,40.9076;;Lori;Ahnidzor
+1279;44.6995,40.5785;;Kotayk;Aghavnadzor
+0;44.5632,40.5140;;Kotayk;Aghveran
+119;43.7635,41.0774;;Shirak;Aghvorik
+1221;44.4684,41.0107;;Lori;Agarak
+1100;44.0723,40.3307;;Aragatsotn;Agarakavan
+1998;44.2792,40.3019;;Aragatsotn;Agarak
+450;43.9529,40.4751;;Aragatsotn;Zovasar
+1319;44.5474,40.0485;;Ararat;Abovyan
+1062;44.5089,40.9708;;Lori;Vardablur
+0;44.4506,40.1758;;Yerevan;Nor-Kesariya
+0;44.0908,40.9544;;Lori;Agkilisa
+0;45.0771,40.9120;;Tavush;Isharandi
+0;45.2911,40.7850;;Tavush;Avagabinaper
+0;45.4403,40.9083;;Tavush;Kizil-Kulag
+0;45.1422,41.1508;;Tavush;Shavarshavan
+53;44.7133,41.1549;;Lori;Bendik
+0;44.2717,41.0553;;Lori;Kochki
+1484;44.9384,40.7785;;Tavush;Teghut
+6756;44.4516,40.2356;;Kotayk;Kasakh
+1031;43.8541,40.1961;;Armavir;Baghramyan
+9450;44.1148,40.1446;;Armavir;Metsamor
+3723;44.3053,40.0844;;Armavir;Gay
+3166;44.3693,40.1932;;Armavir;Baghramyan
+1557;44.4935,39.9977;;Ararat;Masis
+3223;44.3307,40.1417;;Armavir;Voskehat
+2221;44.2717,40.1131;;Armavir;Griboyedov
+397;44.2095,40.1874;;Armavir;Ferik
+601;44.3542,40.1076;;Ararat;Sipanik
+1432;44.1335,40.2223;;Aragatsotn;Nor Yedesia
+840;44.0672,40.2342;;Aragatsotn;Nor Amanos
+1146;44.5579,40.3005;;Kotayk;Nor Artamet
+0;44.5924,40.4062;;Kotayk;Avazan
+133;44.4417,40.4805;;Aragatsotn;Jrambar
+1141;44.4501,40.0251;;Ararat;Hovtashen
+834;44.4667,40.0001;;Ararat;Araksavan
+1383;44.4695,40.0361;;Ararat;Arevabuyr
+1238;44.4973,40.0739;;Ararat;Nor Kyurin
+1541;44.4280,40.1381;;Ararat;Getapnya
+1476;44.5754,40.0610;;Ararat;Lanjazat
+1250;44.6648,40.0004;;Ararat;Narek
+1234;43.8151,40.1031;;Armavir;Vanand
+126;44.5643,40.9768;;Lori;Karmir Aghek
+1379;44.0298,40.1724;;Armavir;Noravan
+1458;43.9072,40.0594;;Armavir;Nor Kesaria
+953;44.3300,40.2500;;Aragatsotn;Karin
+500;44.4206,40.4269;;;Arayi Hoghamaser
+0;44.4112,40.1695;;;Akunk
+184;44.1984,40.6469;;Aragatsotn;Sadunts
+298;44.8890,41.2565;;Tavush;Deghdzavan
+499;43.7399,40.2731;;Armavir;Argina
+189;43.8588,40.1229;;Armavir;Artamet
+414;43.9315,40.1328;;Armavir;Arevadasht
+0;44.0139,39.9305;;;Hnaberd
+0;45.0501,39.8501;;Ararat;Brutanots’
+0;46.0057,39.9083;;;Armok’
+0;45.0319,39.9237;;Ararat;Vranategh
+0;45.1861,39.8917;;Vayots Dzor;Mili
+0;45.1695,39.8445;;Vayots Dzor;Spitak Vank’
+0;45.0911,39.8208;;Vayots Dzor;Aghopen
+0;45.1307,39.8307;;Vayots Dzor;Genut
+0;45.0807,39.7945;;Vayots Dzor;Mokhrot
+0;45.1737,39.7611;;Vayots Dzor;Tap’
+0;45.1001,39.9639;;Ararat;Argichi
+0;45.2501,39.9779;;Gegharkunik;Tsaghkashen
+0;45.1529,40.0001;;Gegharkunik;Mets Argichi
+0;45.1501,39.9833;;Gegharkunik;Spitakaghbyur
+0;45.2167,40.0001;;Gegharkunik;Pokr Argichi
+0;45.2445,39.6861;;Vayots Dzor;Ororots’ak’ari
+336;44.5875,40.8835;;Lori;Vahagnadzor
+0;45.4195,39.6695;;Vayots Dzor;Ddmashen
+0;45.2779,39.6723;;Vayots Dzor;Champ’ateghi
+0;45.4667,39.6861;;Vayots Dzor;Arevik
+0;45.6681,39.8389;;Vayots Dzor;Aghajanyani
+0;45.6681,39.8417;;Vayots Dzor;Ararat-1
+0;45.6779,39.8417;;Vayots Dzor;Ararat-2
+0;45.6668,39.8406;;Vayots Dzor;Ghazaryan
+0;45.6833,39.8483;;Vayots Dzor;Narek
+0;45.2833,40.0639;;Gegharkunik;Shikaver
+0;45.4639,40.0265;;Gegharkunik;Yerizkots’k’
+0;45.3695,40.0001;;Gegharkunik;Kopoy Var
+0;45.3555,40.0223;;Gegharkunik;Martuni
+0;45.7833,40.0639;;Gegharkunik;Ach’ik
+0;45.7653,40.2057;;Gegharkunik;Atichani Papi Melik’beki
+0;44.4580,40.1610;;;Shahumyan
+0;46.2557,39.1973;;Syunik;Zevu
+0;46.5029,39.1282;;Syunik;Yeregik’
+0;46.4333,39.1139;;Syunik;T’at’umarg
+0;46.4583,39.0611;;Syunik;T’njumnats’
+0;45.7931,39.6751;;Syunik;Averk’
+0;43.7861,40.1723;;Armavir;Hats’ik
+0;43.8289,40.0500;;Armavir;Mets Sepasar
+1633;43.9557,40.0973;;Armavir;Araks
+154;43.7553,40.1422;;Armavir;Koghbavan
+205;43.8804,40.1000;;Armavir;Talvorik
+0;44.5945,40.4889;;Kotayk;Dalar
+0;44.5917,40.3055;;Kotayk;Shenik
+0;44.5529,40.3515;;Kotayk;Chluti
+0;45.2181,40.3111;;Gegharkunik;Avaznots’
+0;45.2171,40.3123;;Gegharkunik;Avazut
+0;45.1064,40.4173;;Gegharkunik;Azati
+0;44.2585,40.1653;;Armavir;Surb
+0;44.4833,40.1917;;Yerevan;Tsitserrnakaberd
+0;44.4445,40.1501;;Yerevan;Karmir Blur
+0;44.4765,40.1543;;Yerevan;Nairi
+0;44.4931,40.2237;;Yerevan;K’ristoneut’yan 1700-amyakin
+0;44.4973,40.1875;;Yerevan;Tsitserrnakaberd
+0;44.4959,40.1805;;Yerevan;Hrazdan
+0;44.4459,40.1779;;Yerevan;Patvo
+0;44.4773,40.1487;;Yerevan;Arak’s
+0;44.4709,40.1279;;Yerevan;Erebuni
+0;44.4833,40.1445;;Yerevan;Karapetyan A.
+0;44.7833,40.2083;;Kotayk;Bardzradir
+0;44.8333,40.2361;;Kotayk;Geghmaghan
+0;44.8195,40.1473;;;Jaghats’adzor
+0;44.9917,40.1582;;Kotayk;Sevakatar
+10;44.1994,40.3443;;Aragatsotn;Khnusik
+89;44.0973,40.2917;;Aragatsotn;Dprevank
+397;44.0417,40.2723;;Aragatsotn;Partizak
+131;44.0611,40.3639;;Aragatsotn;Otevan
+141;43.6459,40.4639;;Shirak;Aniavan
+0;43.6111,40.3751;;Aragatsotn;Datavorats’
+0;43.6181,40.3889;;Aragatsotn;Sev Amrots’
+0;43.6945,40.4833;;Aragatsotn;Gegh
+0;43.7097,40.4417;;Aragatsotn;Mahtesu Tner
+0;45.2529,39.7639;;Vayots Dzor;Tap’arru
+0;45.3555,39.8889;;Vayots Dzor;Artsvi
+0;45.4001,39.7541;;Vayots Dzor;Lanjik
+0;45.4779,39.9139;;Vayots Dzor;Sevazhayr
+0;45.2807,39.9403;;Vayots Dzor;Tap
+0;45.3515,39.9237;;Vayots Dzor;Arjadzor
+0;45.6044,39.6045;;Vayots Dzor;Dzork’
+704;46.3815,39.4844;;Syunik;Hartashen
+0;43.7653,40.2973;;Aragatsotn;Vloyi
+0;43.1881,40.4069;;Aragatsotn;Tsvstan
+271;43.8271,40.2912;;Aragatsotn;Lusakn
+0;43.9987,40.2959;;Aragatsotn;Tonoyi
+226;43.8103,40.3639;;Aragatsotn;Arevut
+1663;44.0057,40.0695;;Armavir;Nor Artagers
+0;44.0195,40.0861;;Armavir;Hin Jermots’ner
+0;44.1900,40.1005;;Armavir;Yerits’atap’
+0;44.0807,40.0695;;Armavir;Drakhtik
+1726;44.2400,40.0874;;Armavir;Jrarbi
+0;44.9779,38.9195;;Ararat;Kat’naghbyur
+0;44.2945,39.1459;;Ararat;Dahnaks
+0;44.1111,39.1291;;Ararat;Averak
+0;44.1111,39.1305;;Ararat;Averak Dahnaks
+0;44.9139,39.8361;;Ararat;Moshaghbyur
+0;44.2557,40.3751;;Aragatsotn;Astghaberd
+0;44.3751,40.4571;;Aragatsotn;P’erezaki Avetaran
+0;44.4015,40.4779;;Aragatsotn;Sharrl Aznavuri
+119;44.4805,40.4695;;Aragatsotn;Shoghakn
+0;44.4001,40.4389;;Aragatsotn;Zuygaghbyur
+0;44.3695,40.2973;;Aragatsotn;Nahataki
+0;44.2861,40.2557;;Aragatsotn;Chermak
+0;44.3195,40.2723;;Aragatsotn;Mankanots’
+0;44.2681,40.2571;;;Bardineri
+0;44.8529,40.7389;;Tavush;K’aghak’ayin
+0;46.3417,39.5111;;Syunik;Bakunts’ A.
+0;46.4723,39.5583;;Syunik;Melik’-Barkhudaryani
+0;45.4501,40.3333;;Gegharkunik;Sevani
+0;46.1403,39.1389;;;Surb Davit’
+0;46.1723,39.0681;;;Khach’i Tsarr
+11;43.7907,40.7364;;Shirak;Akhuryan kayaran
+0;43.8709,40.5765;;Shirak;K’aghak’ayin
+250;43.8361,41.1431;;Shirak;Saragyugh
+0;43.7333,40.8417;;Shirak;Azati
+0;45.5361,40.1029;;Gegharkunik;Oskebak
+0;45.6639,40.1223;;Gegharkunik;Anapat
+0;45.6501,40.1001;;Gegharkunik;Ugheo
+0;45.5903,40.1445;;Gegharkunik;Gt’ashen
+0;45.6265,40.1805;;Gegharkunik;Sardur B-i
+0;44.0111,40.8861;;Shirak;Mejlum
+0;44.1417,40.9333;;Lori;Karchavran
+0;44.1417,40.9237;;Shirak;Shnagayl
+0;44.1473,40.9291;;Lori;K’arut
+0;44.3889,41.0071;;Lori;Azatamartikneri
+0;44.3861,41.0161;;Lori;Desin
+0;44.2748,41.0508;;Lori;Zoranist
+0;44.3515,40.6653;;Aragatsotn;Ark’a
+0;44.6647,40.8294;;Lori;Metsut
+0;44.5611,40.9029;;Lori;Muradants
+0;44.6487,40.8530;;Lori;Jukhtak
+0;44.6106,40.8442;;Lori;Sisiberd
+0;44.6473,40.9945;;Lori;Jrhor
+0;44.5181,40.8015;;Lori;Yeritasardakan
+0;44.6529,40.9973;;Lori;Antarasherti
+0;44.7279,40.9223;;Lori;Igatak
+0;44.7305,40.9305;;Lori;Chghut
+0;44.6026,40.7970;;Lori;Khachi Batsat
+0;44.6264,40.8943;;Lori;Galusti
+0;44.7403,40.7571;;Lori;Achajur
+0;44.6223,40.9279;;Lori;Katat
+0;44.9439,41.1292;;Tavush;Miji Kit
+0;44.9434,41.1578;;Tavush;Tvaragegh
+0;44.8648,41.0172;;Tavush;Otarats
+12;44.7582,41.1274;;Lori;Aroghjaranin Kits
+0;44.7666,41.0800;;Lori;Arjir
+0;44.8431,41.1709;;Lori;Khazi Chala
+0;44.8226,41.0537;;Lori;Saribeki Gomer
+393;44.8667,41.1833;;Lori;Karkop
+0;45.2375,40.9403;;Tavush;Aygehovti
+0;45.1291,40.9945;;Tavush;Srbvanes
+0;45.0237,40.7515;;Tavush;Tandzut
+0;45.0106,40.9030;;Tavush;Batsat
+0;45.1083,40.9097;;Tavush;Yenok’atun
+0;45.0537,40.8935;;Tavush;Khashtarak
+0;45.1776,40.7858;;Tavush;Khozavran
+0;45.1772,40.7814;;Tavush;Navategh
+0;45.0119,40.9579;;Tavush;Spandaryan
+0;45.1710,40.7696;;Tavush;Tlortategh
+0;45.0304,40.9336;;Tavush;Port-port
+0;45.3751,40.6223;;Gegharkunik;Mijnashen
+0;46.3515,39.3681;;Syunik;Mach
+0;46.3625,39.4709;;Syunik;Luys Khach’
+0;46.3083,39.3583;;Syunik;Dambarank’
+0;46.4737,39.3111;;Syunik;Kamkhut
+0;46.3973,39.3001;;Syunik;Arrvtnots’
+39;46.4583,39.2779;;Syunik;Yrkenants
+0;46.5863,39.2081;;Syunik;Kmezn
+0;46.5639,39.2223;;Syunik;Tsavik Khach’
+0;46.5029,39.1223;;;Sargsents’
+0;45.9139,39.7529;;Syunik;P’uladzor
+0;46.0333,39.7361;;Syunik;Syunik’i
+0;46.0361,39.5361;;Syunik;K’arahunj Astghaditaran
+0;43.6695,40.2153;;;Ishkhanats’
+0;43.6861,40.1029;;;Pater
+0;45.1223,40.0167;;Gegharkunik;K’oler
+0;45.1667,40.0861;;Gegharkunik;Amayisar
+0;45.1459,40.1167;;Gegharkunik;Ahasar
+0;45.1695,40.0959;;Gegharkunik;K’alas
+0;45.1251,40.1111;;Gegharkunik;Azat
+0;45.0945,40.1889;;Gegharkunik;Nerk’in Vasakashen
+884;44.5921,40.2438;;Kotayk;Getargel
+0;44.7422,40.2067;;Kotayk;Saranist
+0;44.6515,40.1959;;Kotayk;Pandukht
+0;44.6125,40.1361;;Yerevan;T’uyneri Gerezmanots’
+0;44.5765,40.2125;;Yerevan;Isahakyan A.
+0;44.5209,40.2209;;Yerevan;Arabkiri
+0;44.5041,40.1945;;Yerevan;Zhamats’uyts’i Gortsarani
+0;44.5071,40.1139;;Yerevan;Yerevani
+0;44.5389,40.1417;;Yerevan;Khaldi
+0;44.5139,40.1529;;Yerevan;Hushablur
+0;44.5861,40.1473;;Yerevan;Mushakan - 1
+0;44.5973,40.1279;;Yerevan;Mushakan - 2
+0;44.5293,40.1917;;Yerevan;Abovyan Kh.
+0;44.5243,40.1875;;Yerevan;Demirchyan D.
+0;44.5237,40.1779;;Yerevan;T’ek’eyan V.
+0;44.5111,40.1875;;Yerevan;T’umanyan H.
+0;44.5153,40.1889;;Yerevan;Isahakyan A.
+0;44.5139,40.1903;;Yerevan;Khach’atryan A.
+0;44.5117,40.1709;;Yerevan;Hayastan
+0;44.5209,40.1889;;Yerevan;Moskovyan
+0;44.5125,40.1779;;Yerevan;Yot’ Aghbyur
+0;44.5153,40.1917;;Yerevan;Sharrl Aznavuri
+0;44.5111,40.1833;;Yerevan;Ch’arents’ Ye.
+0;44.5181,40.1903;;Yerevan;Jottoyi
+0;44.5111,40.1861;;Yerevan;Sargsyan A. Ev Kojoyan H.
+0;44.5279,40.1709;;Yerevan;Sargsyan V.
+0;44.5103,40.1861;;Yerevan;Saryan M.
+0;44.5209,40.1805;;Yerevan;Spendiaryan A.
+0;44.5041,40.1791;;Yerevan;P’arajanov S.
+0;44.5167,40.1875;;Yerevan;K’och’ar Ye.
+0;44.5395,40.1875;;Yerevan;Armenakyan A.
+0;44.5473,40.1931;;Yerevan;Gyughateghi
+0;44.5403,40.1875;;Yerevan;Hakobyan T.
+0;44.5403,40.1917;;Yerevan;Ch’inari Tsarri
+0;44.5417,40.1917;;Yerevan;Step’anos Surb
+0;44.5431,40.2111;;Yerevan;K’anak’err-Zeyt’un
+0;44.5333,40.2029;;Yerevan;Azatamartik Harut’yunin
+0;44.5487,40.1973;;Yerevan;Zeyt’uni
+0;44.5223,40.1959;;Yerevan;Zhoghovurdneri Barekamut’yan
+0;44.5365,40.2197;;Yerevan;Hovhannesi
+0;44.5251,40.2043;;Yerevan;Paronyan H.
+0;44.5209,40.1973;;Yerevan;Rrus Sahmanapahneri
+0;44.7833,40.3529;;Kotayk;Avat
+0;44.8167,40.4819;;Kotayk;Ch’amankut
+0;44.7959,40.4805;;Kotayk;Saroyi Khach’
+0;44.7833,40.4667;;Kotayk;Simizari Khach’
+0;45.4194,40.7938;;Tavush;Mayrekal
+0;45.4500,40.8054;;Tavush;Khndzorut
+0;43.7861,40.9529;;Shirak;Kentronakan
+0;43.7819,40.9501;;Shirak;Hushardzani
+0;43.8167,40.9319;;Shirak;Lipoyi
+0;43.8807,40.8445;;Shirak;Tseranots’
+57;43.8622,40.8531;;Shirak;Hatsikavan
+158;43.9509,40.8742;;Shirak;Jajuravan
+0;45.2071,40.6751;;Gegharkunik;Lich
+0;44.2333,41.0293;;Lori;Lusaghbyur
+0;44.1291,41.1001;;Lori;Nerk’in Dark
+0;44.1291,41.1139;;Lori;Verin Dark’
+0;45.1709,40.6001;;Gegharkunik;Khach’k’ar Sar
+0;45.0265,40.7417;;Tavush;Arjik
+0;45.1167,40.5875;;Gegharkunik;Khozadzor
+0;45.0667,40.6557;;Gegharkunik;Kaptatap’
+0;45.1251,40.5847;;Gegharkunik;Mishoyi
+0;45.1335,40.5765;;Gegharkunik;Parsits’
+0;45.0889,40.6001;;Gegharkunik;Spasavorats’
+0;45.0973,40.5973;;Gegharkunik;Sevak’ar
+0;45.1307,40.5779;;Gegharkunik;Vach’katan
+0;45.0709,40.6487;;Gegharkunik;Tonik
+179;46.5024,39.4938;;Syunik;Nerkin Khndzoresk
+173;45.0889,41.0361;;Tavush;Acharkut
+285;45.2305,41.0057;;Tavush;Kayan
+0;44.7464,41.0467;;Lori;Nzhdeh
+0;44.6125,41.1416;;Lori;Chankadzor
+0;44.6237,41.1347;;Lori;K’oghtik
+0;44.6543,41.0029;;Lori;Arjal
+14;44.6375,41.0057;;Lori;Kobayr
+0;44.7312,41.1758;;Lori;Anasnagom
+0;44.5779,41.1426;;Lori;Lalvar
+0;44.5938,41.1404;;Lori;Ghazari
+0;44.5553,41.1413;;Lori;Rustamaghbyur
+0;44.5529,41.0111;;Lori;Yerkeresa Gomer
+0;44.6982,41.0055;;Lori;Yeghnakhaghats
+0;44.2751,40.9987;;Lori;Andorr
+0;44.4529,40.8237;;Lori;Ishkhanagegh
+0;44.1695,40.5917;;Shirak;Avan
+0;44.1723,40.5945;;Shirak;Gaspari
+0;44.7889,40.8041;;Tavush;T’at’osu T’as
+0;44.9899,40.8965;;Tavush;Khachaghbyur
+0;44.8313,40.8655;;Lori;Yeritsatupk
+0;44.8185,40.8541;;Lori;Zhangot
+0;44.7890,40.8472;;Lori;Tsater
+0;44.9057,40.9389;;Tavush;Khatutik
+0;44.9291,40.9855;;Tavush;Shavarshavan
+0;44.8766,40.9500;;Lori;Paytanots
+0;44.8073,40.9967;;Lori;Erohudkut
+0;44.7924,40.9948;;Lori;Tablahas
+0;44.7724,40.9904;;Lori;Karjani
+0;44.5319,40.5807;;Aragatsotn;Tsilt’ev
+0;44.6805,40.6805;;Kotayk;Alagyaz
+0;44.7473,40.5139;;Kotayk;Shatrvanayin
+0;44.6973,40.6973;;Kotayk;Aghavnadzor
+222;44.6209,40.7445;;Lori;Antarashen
+0;44.6667,40.7071;;Lori;Shnist
+0;44.3232,41.2139;;;Guguti
+645;46.4716,39.2016;;Syunik;Syunik
+216;46.1912,39.1517;;Syunik;Babikavan
+243;44.6295,40.9457;;Lori;Dzoraget
+3428;44.0578,40.0830;;Armavir;Armavir
+932;44.3081,40.2092;;Armavir;Monteavan
+0;45.6805,39.7389;;Vayots Dzor;Ughedzor
+0;45.3139,40.0723;;Gegharkunik;Martuni
+0;45.5001,40.0793;;Gegharkunik;Tsovinar
+0;45.7554,40.1168;;Gegharkunik;Akunk
+0;45.2197,40.2754;;Gegharkunik;Karmir
+0;44.0195,40.2001;;Aragatsotn;K’arakut
+0;44.5307,40.9043;;Lori;Vahagni
+0;45.0751,40.2389;;Gegharkunik;Sarukhan
+0;45.2389,40.0445;;Gegharkunik;Verin Getashen
+0;44.6055,40.1195;;Yerevan;Bardzrashen
+0;44.5917,40.1279;;Yerevan;Jrashen
+0;45.8658,40.0603;;Gegharkunik;Vardenis
+0;44.9430,40.3762;;Gegharkunik;Noratus
+0;44.4099,40.7470;;Lori;Nerkin Kilisa
+0;44.8709,40.9719;;Tavush;Dziategh
+0;44.9724,40.9030;;Tavush;Karnut
+0;44.9596,41.0819;;Tavush;Gomshavar
+0;45.2637,40.7989;;Tavush;Armenasar
+0;45.1270,40.7490;;Tavush;Kechut
+0;44.8875,41.1335;;Lori;Verin Kozman
+0;45.0959,40.2473;;Gegharkunik;Karmir

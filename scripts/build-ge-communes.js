@@ -153,30 +153,40 @@ const lines = [];
 // repris par build-ge-aliases.js, même principe que canonicalByGeonameId dans build-aliases.js/
 // build-me-aliases.js.
 const canonicalByGeonameId = {};
+// CODE POSTAL FACULTATIF (21/09/2026, demande de l'utilisateur) : un lieu n'est plus écarté faute de code. Tous les
+// lieux du dump sont publiés ; le code va à celui que le rapprochement par nom géorgien désigne, les autres sortent
+// avec un code vide. Le rapprochement lui-même est inchangé.
 placesByKaKey.forEach((candidates, key) => {
   const cps = cpByName.get(key);
-  if(!cps || !cps.size) return;
   let chosen = candidates[0];
-  if(candidates.length > 1){
+  if(cps && cps.size && candidates.length > 1){
     const byPop = candidates.slice().sort((a, b) => b.pop - a.pop);
     const dominant = byPop[0].pop > 0 && (byPop.length === 1 || byPop[1].pop === 0 || byPop[0].pop >= byPop[1].pop * 10);
     if(dominant){
       chosen = byPop[0];
     } else {
       const allClose = candidates.every(c => haversineKm(candidates[0], c) <= 15);
-      if(!allClose){ ambiguousNames.push(key + ' (' + candidates.length + ' lieux distincts)'); return; }
-      chosen = byPop[0];
+      if(!allClose){ ambiguousNames.push(key + ' (' + candidates.length + ' lieux distincts)'); chosen = null; }
+      else chosen = byPop[0];
     }
   }
-  matched++;
-  lines.push(`${chosen.pop};${chosen.lon.toFixed(4)},${chosen.lat.toFixed(4)};${Array.from(cps).join(',')};;${chosen.name}`);
-  canonicalByGeonameId[chosen.geonameid] = chosen.name;
+  if(cps && cps.size && chosen) matched++;
+  candidates.forEach(p => {
+    const àLui = (cps && cps.size && chosen === p) ? Array.from(cps).join(',') : '';
+    lines.push(`${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${àLui};;${p.name}`);
+    canonicalByGeonameId[p.geonameid] = p.name;
+  });
 });
 
 // --- 6. Tbilissi, cas spécial (voir commentaire d'en-tête) : un seul code, 0100. ---
 const tbilisi = places.find(p => p.name === 'Tbilisi');
 if(!tbilisi) throw new Error('Entrée GeoNames "Tbilisi" introuvable — vérifier le dump.');
-lines.push(`${tbilisi.pop};${tbilisi.lon.toFixed(4)},${tbilisi.lat.toFixed(4)};0100;;${tbilisi.name}`);
+// Depuis que tous les lieux sont publiés (21/09/2026), Tbilissi sort DÉJÀ de la boucle ci-dessus, sans code : la
+// ligne spéciale ferait doublon et le dédoublonnage pouvait garder celle qui n'a pas de code. On remplace donc la
+// ligne existante au lieu d'en ajouter une seconde.
+const ligneTbilisi = `${tbilisi.pop};${tbilisi.lon.toFixed(4)},${tbilisi.lat.toFixed(4)};0100;;${tbilisi.name}`;
+const iTbilisi = lines.findIndex(l => l.endsWith(';' + tbilisi.name) && l.indexOf(`${tbilisi.lon.toFixed(4)},${tbilisi.lat.toFixed(4)}`) >= 0);
+if(iTbilisi >= 0) lines[iTbilisi] = ligneTbilisi; else lines.push(ligneTbilisi);
 canonicalByGeonameId[tbilisi.geonameid] = tbilisi.name;
 matched++;
 

@@ -1,40 +1,2561 @@
-0;20.6211,42.1639;20520;;Zhur
-0;20.5706,42.3497;21060;;Xërxë
-30651;20.9675,42.8231;42000;;Vushtrri
-46959;21.3583,42.3214;61000;;Viti
-59504;21.1553,42.3706;70000;;Ferizaj
-72229;20.8250,42.3586;23000;;Suharekë
-6913;21.0272,42.2394;73000;;Shtërpcë
-35000;21.0397,42.4331;72000;;Shtime
-5089;20.7886,42.7467;41000;;Skenderaj
-4195;20.8489,42.8636;40600;;Shipol
-0;20.7408,42.3642;23060;;Samadrexhë
-171464;20.7397,42.2139;20000;;Prizren
-550000;21.1669,42.6727;10000;;Prishtinë
-48962;20.2883,42.6591;30000;;Pejë
-22049;20.6547,42.3994;21000;;Rahovec
-0;21.6511,42.6258;62050;;Hogosht
-0;20.4764,42.7589;15050;;Muzakaj
-0;21.6572,42.5553;62070;;Muçivërc
-5507;20.7269,42.3308;20540;;Mamushë
-2300;20.7458,42.4822;24000;;Malishevë
-0;21.1686,42.8219;11050;;Lluzhan
-107045;20.8667,42.8833;40000;;Mitrovicë
-9312;21.5803,42.5781;62000;;Kamenicë
-2551;21.3744,42.3714;61050;;Kllokot
-8050;20.5778,42.6217;32000;;Klinë
-9800;21.2594,42.2319;71000;;Kačanik
-4;20.2772,42.4758;51050;;Junik
-1000;21.1958,42.6011;10500;;Gračanica
-0;20.3697,42.6406;31030;;Gorazhdec
-51912;21.4699,42.4605;60000;;Gjilan
-58579;20.8939,42.6283;13000;;Drenas
-35000;20.6533,42.0265;22000;;Dragash
-0;21.1903,42.2739;70520;;Doganaj
-9389;21.2967,42.1500;71510;;Hani i Elezit
-50500;20.2879,42.5402;51000;;Deçan
-94158;20.4308,42.3803;50000;;Gjakovë
-0;20.4956,42.6664;32050;;Budisalc
-0;20.5119,42.3556;50500;;Bishtazhin
-0;21.5131,42.3539;60520;;Zhegër
-0;21.0936,43.1018;31000;;Burim
+17000;20.8403,42.9075;;Mitrovica;Zveçan
+0;20.8347,42.9133;;Mitrovica;Zveçan
+0;20.5503,42.7233;;Pec;Zveçan
+0;20.6211,42.1639;20520;Prizren;Zhur
+0;20.7678,42.8961;;Mitrovica;Zupç
+0;20.4067,42.2981;;Gjakova;Zulfaj
+0;21.6372,42.6861;;Gjilan;Žuja
+14900;20.6897,42.9144;;Mitrovica;Zubin Potok
+0;20.5706,42.3497;21060;Gjakova;Xërxë
+0;20.6853,42.0789;;Prizren;Zrza
+0;20.6986,42.2981;;Prizren;Zojz
+0;20.7022,42.3753;;Gjakova;Zoçishtë
+0;20.3483,42.6125;;Pec;Zllapek
+0;20.5400,42.6611;;Pec;Zllakuqan
+0;21.0219,42.5038;;Pristina;Zllakuqan
+0;20.6600,41.9781;;Prizren;Zli Potok
+0;21.2223,42.6454;;Pristina;Zlatare
+0;21.2875,42.4003;;Ferizaj;Zlatare
+0;20.6256,42.2725;;Prizren;Zjum
+0;20.6669,42.1144;;Prizren;Zjum
+0;20.8228,42.1769;;Prizren;Zhivinjan
+0;20.8239,42.9311;;Mitrovica;Zhitkoc
+0;21.0608,43.0525;;Pristina;Zhiti
+0;21.3722,42.4044;;Gjilan;Zhiti
+0;20.9900,42.6978;;Mitrovica;Žiljivoda
+0;20.7142,42.1292;;Prizren;Zgatar
+0;20.8067,42.9319;;Mitrovica;Žerovnica
+0;21.4850,42.3706;;Gjilan;Žegra
+0;21.3431,42.5059;;Gjilan;Zhegoc
+0;20.6528,43.0044;;Mitrovica;Zečeviće
+0;21.4103,42.5606;;Pristina;Zebince
+0;20.4325,42.4647;;Gjakova;Zhdredhë
+0;20.9872,42.4772;;Ferizaj;Zborce
+0;20.8672,42.9433;;Mitrovica;Žaža
+0;20.6261,42.4583;;Gjakova;Zatriq
+0;21.1378,42.3478;;Ferizaj;Zaskok
+0;20.9022,42.8975;;Mitrovica;Zasela
+0;20.6642,43.0297;;Mitrovica;Žareve
+0;20.7564,42.1303;;Prizren;Zaplluxhë
+0;21.1491,42.9773;;Pristina;Zakut
+0;20.5903,42.8161;;Pec;Žakovo
+0;21.5111,42.7250;;Gjilan;Zajčevce
+0;20.3853,42.6536;;Pec;Zahaq
+0;20.2839,42.6158;;Pec;Zagerma
+0;20.5017,42.7064;;Pec;Zhaq
+0;20.7075,42.5933;;Pec;Zabrđe
+0;20.9292,42.9917;;Mitrovica;Zabrđe
+0;20.8288,43.1095;;Mitrovica;Zabrđe
+0;20.4608,42.5317;;Gjakova;Zhabel
+0;20.5608,42.9511;;Mitrovica;Vukojeviq
+30651;20.9675,42.8231;42000;Mitrovica;Vushtrri
+0;20.8206,42.5872;;Pristina;Vučak
+0;20.7939,43.0433;;Mitrovica;Vuča
+0;21.6958,42.6394;;Gjilan;Vriqec
+0;21.2872,42.1797;;Ferizaj;Vrtolnica
+0;21.0086,42.5224;;Pristina;Vrševce
+0;20.9142,42.3872;;Prizren;Vrševce
+0;20.9678,42.7883;;Mitrovica;Vrnica
+0;21.4708,42.3047;;Gjilan;Vrnovo Kolo
+0;20.7619,42.5436;;Prizren;Vrmnica
+0;21.0133,42.5692;;Pristina;Vrelo
+0;21.2675,42.4861;;Pristina;Vrelo
+0;20.8006,42.2672;;Prizren;Vrelo
+0;21.4069,42.6669;;Pristina;Vrelo
+0;20.4044,42.7706;;Pec;Vrella
+0;20.8528,42.6811;;Pristina;Vrbovac
+0;21.4069,42.3289;;Gjilan;Vrbovac
+0;21.1386,42.7685;;Pristina;Vrbovac
+0;20.8408,42.8328;;Mitrovica;Vrbnica
+0;20.5653,42.1600;;Prizren;Vërmicë
+0;20.7908,42.2069;;Prizren;Vërbiçan
+0;21.3189,42.5417;;Gjilan;Vërbicë e Zhegocit
+0;20.9789,42.2367;;Ferizaj;Vrbeštica
+0;21.2761,42.3039;;Gjilan;Vrban
+0;21.4092,42.4183;;Gjilan;Vrapčić
+0;20.4181,42.5614;;Pec;Vranoc
+0;20.5739,42.4156;;Gjakova;Vrajak
+0;20.6300,42.0439;;Prizren;Vraniq
+0;20.4697,42.4317;;Gjakova;Vraniq
+0;20.9192,42.3256;;Prizren;Vraniq
+0;21.1528,42.7669;;Pristina;Vrani Do
+0;20.4128,42.6292;;Pec;Vragoc
+0;21.0587,42.6129;;Pristina;Vragolija
+0;20.5850,42.5461;;Pec;Volljak
+0;20.7081,42.9825;;Mitrovica;Vojmisliq
+0;21.1119,42.4581;;Ferizaj;Vojinovce
+0;20.3931,42.3514;;Gjakova;Vogovo
+0;21.2782,42.5579;;Pristina;Vogačica
+0;20.6633,42.7086;;Mitrovica;Voćnjak
+0;21.5050,42.3850;;Gjilan;Llashticë
+0;20.6622,42.2031;;Prizren;Vlashnje
+0;20.7475,42.5333;;Prizren;Llashkadrenoc
+0;20.8739,42.9686;;Mitrovica;Vlahinje
+0;21.4733,42.3881;;Gjilan;Vladovo
+4;20.3386,42.6950;;Pec;Vitomirica
+46959;21.3583,42.3214;61000;Gjilan;Viti
+0;20.7153,42.7678;;Mitrovica;Vitak
+0;20.9494,42.9586;;Mitrovica;Vidishiq
+0;20.8097,42.8950;;Mitrovica;Vidimriq
+0;20.5489,42.6239;;Pec;Vidanje
+0;21.0381,42.9282;;Mitrovica;Vesekovce
+0;20.5517,42.7508;;Pec;Veriq
+0;20.6753,42.9332;;Mitrovica;Velji Breg
+0;21.7103,42.6431;;Gjilan;Veljeglava
+0;20.8431,42.9175;;Mitrovica;Veliko Rudare
+0;21.5664,42.5156;;Gjilan;Veliko Ropotovo
+0;21.0411,42.5092;;Pristina;Ribar i Madh
+0;20.1719,42.7006;;Pec;Shtupeq i Madh
+0;20.9222,42.8706;;Mitrovica;Kçiq i Madh
+0;20.6578,42.6128;;Pec;Gjurgjevik i Madh
+0;21.0262,42.6370;;Pristina;Bardhi i Madh
+0;21.0853,42.5042;;Pristina;Alashi i Madh
+0;21.0204,42.6038;;Pristina;Velika Slatina
+0;21.0259,42.7565;;Mitrovica;Velika Reka
+0;21.1309,42.9223;;Pristina;Velika Reka
+0;20.6361,42.3181;;Gjakova;Velika Kruša
+0;20.6281,42.8956;;Mitrovica;Velika Kaludra
+0;20.3167,42.7594;;Pec;Jabllanicë e Madhe
+0;20.6775,42.3842;;Gjakova;Velika Hoča
+0;21.0442,42.5433;;Pristina;Velika Dobranja
+0;20.7378,42.2808;;Prizren;Veleža
+0;21.4783,42.4283;;Gjilan;Velekince
+0;21.1800,42.2592;;Ferizaj;Vata
+0;20.9364,42.6311;;Pristina;Vasiljevo
+0;21.1764,42.3422;;Ferizaj;Varosh
+0;21.0214,42.4819;;Pristina;Varigovce
+0;20.7358,42.9036;;Mitrovica;Varage
+0;20.8306,42.9469;;Mitrovica;Vallaq
+0;20.8550,42.8458;;Mitrovica;Gornja Vaganica
+0;21.5047,42.6722;;Gjilan;Vaganesh
+59504;21.1553,42.3706;70000;Ferizaj;Ferizaj
+0;20.6083,42.8175;;Pec;Uçë
+0;20.5283,42.3333;;Gjakova;Ujz
+0;20.7158,42.9061;;Mitrovica;Ugljare
+0;21.1075,42.6281;;Pristina;Ugljare
+0;21.1025,43.1122;;Pristina;Ugljare
+0;21.5253,42.4256;;Gjilan;Uglar
+0;20.8006,43.1167;;Mitrovica;Tvrđan
+0;20.7425,42.6981;;Mitrovica;Tušilje
+0;20.5837,42.9427;;Mitrovica;Tušiće
+0;21.3314,42.8603;;Pristina;Turučica
+0;20.4125,42.5889;;Pec;Turjakë
+0;20.6756,42.5064;;Prizren;Turjak
+0;20.6906,42.6997;;Mitrovica;Turiqec
+0;20.6661,42.2550;;Prizren;Tupec
+0;20.8383,42.4436;;Prizren;Temiçinë
+0;21.5325,42.7156;;Gjilan;Tugjec
+0;20.5764,42.7353;;Pec;Tučep
+0;21.1475,42.7311;;Pristina;Trudna
+0;20.4550,42.6758;;Pec;Trstenik
+0;20.8431,42.6536;;Pristina;Trstenik
+0;21.2547,42.3464;;Gjilan;Trstenik
+0;20.9725,42.9139;;Mitrovica;Trstena
+0;20.8150,42.5094;;Prizren;Trpeza
+0;21.3428,42.3975;;Gjilan;Trpeza
+0;21.3063,42.8578;;Pristina;Trpeza
+0;21.0647,43.0864;;Pristina;Trnavica
+0;20.7656,42.3300;;Prizren;Trnje
+0;20.7997,42.8097;;Mitrovica;Trnavce
+0;21.2011,42.8017;;Pristina;Trnava
+0;21.1294,42.4428;;Ferizaj;Trn
+0;20.7306,42.2717;;Prizren;Trepetnica
+4;20.3528,42.6736;;Pec;Tropoviq
+0;20.6376,43.1960;;Mitrovica;Trebiq
+0;20.7831,42.6183;;Pristina;Trđevac
+0;20.4658,42.6908;;Pec;Trubuhoc
+0;20.4231,42.4261;;Gjakova;Trakaniq
+0;21.0581,42.5283;;Pristina;Torina
+0;21.6264,42.5294;;Gjilan;Toponica
+0;21.1167,42.4858;;Pristina;Topliqan
+0;20.9728,42.4061;;Ferizaj;Topilo
+0;20.4733,42.7417;;Pec;Tomane (Kushtrim)
+0;21.5725,42.5019;;Gjilan;Tomance
+0;21.5314,42.6206;;Gjilan;Tirince
+0;21.5231,42.6169;;Gjilan;Tirince
+0;20.7442,42.6700;;Mitrovica;Tica
+0;21.1711,42.7878;;Pristina;Tenezhdoll
+0;21.2367,42.5711;;Pristina;Teqë
+0;20.9036,42.7908;;Mitrovica;Taradža
+0;21.2892,42.3792;;Ferizaj;Dardani
+0;20.4639,42.6469;;Pec;Sferkë
+0;20.6133,42.5444;;Pec;Svrhe
+0;21.5742,42.7161;;Gjilan;Svirce
+0;20.8897,42.8511;;Mitrovica;Svinjar
+0;21.2206,42.8764;;Pristina;Svetlje
+0;21.0814,42.6428;;Pristina;Svetlje
+0;20.6583,42.8169;;Mitrovica;Suvo Grlo
+0;20.5094,42.7347;;Pec;Llukavci i Thatë
+0;21.1058,42.5467;;Pristina;Suvi Do
+224;20.8483,42.8867;;Mitrovica;Suvi Do
+72229;20.8250,42.3586;23000;Prizren;Suharekë
+0;21.0181,42.2908;;Ferizaj;Sušiće
+0;20.5764,42.7933;;Pec;Sushic (Gashi)
+0;21.2117,42.5789;;Pristina;Sušica
+0;21.5464,42.3042;;Gjilan;Shurdhan
+0;21.2881,42.8494;;Pristina;Surdula
+0;20.8500,42.6983;;Pristina;Štutica
+0;20.5922,42.6642;;Pec;Shtupel
+0;20.4756,42.6700;;Pec;Stup
+0;20.3869,42.7678;;Pec;Studenica
+0;20.7586,42.3586;;Prizren;Studenčane
+0;21.6247,42.4564;;Gjilan;Stublina
+0;20.2922,42.4150;;Gjakova;Stubla
+0;21.4639,42.3225;;Gjilan;Stubla
+0;20.7942,42.1450;;Prizren;Stružje
+6913;21.0272,42.2394;73000;Ferizaj;Shtërpcë
+0;20.9803,42.7136;;Mitrovica;Strovce
+0;21.5042,42.6475;;Gjilan;Strezovce
+0;21.5992,42.6075;;Gjilan;Strelica
+0;21.4341,42.5273;;Gjilan;Straža
+0;21.2000,42.1967;;Ferizaj;Straža
+0;20.4650,42.5097;;Gjakova;Straža
+0;20.9319,42.8261;;Mitrovica;Štitarica
+35000;21.0397,42.4331;72000;Ferizaj;Shtime
+0;21.1958,42.3644;;Ferizaj;Fshati i Vjetër
+0;21.1636,43.0240;;Pristina;Fshati i Vjetër
+0;21.0853,42.5317;;Pristina;Staro Rujce
+0;20.8328,42.7294;;Mitrovica;Staro Poljance
+0;21.1033,42.5050;;Pristina;Staro Gracko
+0;20.9078,42.6547;;Pristina;Staro Čikatovo
+0;20.9206,42.9369;;Mitrovica;Stari Trg
+0;21.2231,42.2969;;Ferizaj;Kaçanik i Vjetër
+0;20.8875,42.3769;;Prizren;Staravuçinë
+0;20.9361,42.5719;;Pristina;Stankovc
+0;21.4636,42.4933;;Gjilan;Stanishor
+0;21.5189,42.2692;;Gjilan;Stančić
+0;21.2508,42.2700;;Ferizaj;Stagovo
+0;21.1753,42.4486;;Ferizaj;Babushë i Sërbëve
+0;20.7792,42.7847;;Mitrovica;Srednja Klina
+0;20.8383,42.9522;;Mitrovica;Srbovac
+5089;20.7886,42.7467;41000;Mitrovica;Skenderaj
+0;20.7600,42.2725;;Prizren;Shpenadi
+0;20.5847,42.3831;;Gjakova;Sapniq
+0;20.8442,42.3364;;Prizren;Sopina
+0;21.2258,42.3736;;Ferizaj;Sojevë
+0;21.2028,42.4097;;Ferizaj;Softaj
+0;21.2036,42.6666;;Pristina;Sofalija
+0;20.8100,43.0547;;Mitrovica;Sočanica
+0;20.9411,42.8686;;Mitrovica;Smrekovnica
+0;21.2006,42.5100;;Pristina;Smoluša
+0;20.3125,42.3978;;Gjakova;Smonica
+0;21.3183,42.2992;;Gjilan;Smira
+0;20.5047,42.3358;;Gjakova;Smaq
+0;20.7225,42.3011;;Prizren;Smać
+700;20.2819,42.5089;;Gjakova;Slup
+0;21.6014,42.3856;;Gjilan;Slubica
+0;21.2200,42.5225;;Pristina;Slovinje
+0;20.9949,42.8896;;Mitrovica;Šljivovica
+0;21.3344,42.6228;;Pristina;Slivovo
+0;21.0986,42.4089;;Ferizaj;Slivovo
+0;21.1236,43.0827;;Pristina;Slatina
+0;20.8186,43.0480;;Mitrovica;Slatina
+0;21.1611,42.2642;;Ferizaj;Slatina
+0;20.9694,42.8531;;Mitrovica;Slatina
+0;21.1592,42.8800;;Pristina;Slatina
+0;20.8361,42.3844;;Prizren;Sllapuzhan
+0;21.0513,42.8739;;Mitrovica;Slakovce
+0;21.0816,42.5598;;Pristina;Skulanevo
+0;21.0207,42.8917;;Mitrovica;Skrovna
+0;20.5911,42.1639;;Prizren;Shkozë
+0;20.7256,43.0506;;Mitrovica;Shkozë
+0;20.7769,42.5247;;Prizren;Skorashnik
+0;20.8106,42.2322;;Prizren;Skorobište
+0;21.0321,42.8664;;Mitrovica;Skočna
+4;20.3831,42.4308;;Gjakova;Skivjan
+0;20.3211,42.3783;;Gjakova;Shishman
+4195;20.8489,42.8636;40600;Mitrovica;Shipol
+0;21.0031,42.6683;;Pristina;Šipitula
+0;20.5281,42.7928;;Pec;Sinaj
+0;21.4956,42.4794;;Gjilan;Šilovo
+0;21.0811,43.0383;;Pristina;Siljevica
+0;20.3056,42.7097;;Pec;Siga
+0;21.2198,42.7368;;Pristina;Sićevo
+0;20.6881,42.6261;;Pec;Sićevo
+0;21.0090,42.6880;;Pristina;Sibovac
+0;20.9567,42.2097;;Ferizaj;Sevc
+0;20.3303,42.4356;;Gjakova;Sheremet
+0;20.8286,42.4819;;Prizren;Senik
+0;20.8044,42.3919;;Prizren;Semetište
+0;20.8489,42.3053;;Prizren;Selogražde
+0;20.9481,43.0008;;Mitrovica;Seljance
+0;21.0560,42.8334;;Mitrovica;Seljance
+0;21.7386,42.6203;;Gjilan;Sedlare
+0;20.9161,42.5025;;Pristina;Sedlare
+0;21.2975,42.1328;;Ferizaj;Seçishtë
+0;21.1861,42.4064;;Ferizaj;Sazlija
+0;20.8744,42.3253;;Prizren;Savrovo
+0;21.4483,42.2847;;Gjilan;Shashare
+0;21.2362,42.7534;;Pristina;Sharban
+650;20.3789,42.4986;;Gjakova;Shaptej
+0;21.5483,42.4536;;Gjilan;Capar
+0;20.5983,42.4475;;Gjakova;Senoc
+0;21.0466,42.8229;;Mitrovica;Samodreža
+0;20.7408,42.3642;23060;Prizren;Samadrexhë
+0;20.5356,42.7089;;Pec;Shalinovicë
+0;20.9475,42.7569;;Mitrovica;Šalce
+0;21.1700,42.8131;;Pristina;Šakovica
+0;21.2390,42.8634;;Pristina;Shajkoc
+0;21.6236,42.6942;;Gjilan;Shahiq
+0;20.6603,42.0708;;Prizren;Shajn II
+0;20.4478,42.3650;;Gjakova;Zid Sadih Aga
+2200;20.3472,42.5200;;Gjakova;Irzniq
+0;21.0072,43.0558;;Mitrovica;Ržana
+0;20.6872,43.1792;;Mitrovica;Rvatska
+0;20.9358,42.5214;;Pristina;Rusinovce
+0;21.2544,42.2447;;Ferizaj;Runjevo
+0;20.7492,42.9414;;Mitrovica;Rujište
+0;20.4261,42.6781;;Pec;Ruhot
+0;20.6897,42.7972;;Mitrovica;Rudnik
+0;20.7058,42.7836;;Mitrovica;Rudnik
+0;20.7392,43.0275;;Mitrovica;Rudine
+0;20.4894,42.6808;;Pec;Rudice
+0;20.9198,43.0628;;Mitrovica;Rucmance
+0;21.0335,42.8044;;Mitrovica;Ropica
+0;20.4042,42.6422;;Pec;Ramun
+0;20.5939,42.2917;;Prizren;Romaja
+0;20.5797,42.3294;;Gjakova;Rogovo
+0;21.6831,42.5556;;Gjilan;Ruguçicë
+0;20.8153,43.1547;;Mitrovica;Rodelj
+0;21.1447,42.4697;;Pristina;Rubofc
+0;21.5492,42.5728;;Gjilan;Roboc
+0;21.4422,42.3600;;Gjilan;Ribnik
+0;20.6267,42.9317;;Mitrovica;Rezala
+0;20.7769,42.6939;;Mitrovica;Rezala
+0;21.1289,42.9893;;Pristina;Revuq
+0;20.7019,42.3525;;Gjakova;Retimlje
+4;20.6681,41.9444;;Prizren;Restelica
+0;21.1247,43.0367;;Pristina;Repa
+0;20.5681,42.6811;;Pec;Ranoc
+0;20.6619,42.0903;;Prizren;Rence
+0;21.0866,43.0980;;Pristina;Rečica
+0;20.8675,42.3592;;Prizren;Reqan
+0;20.8175,42.1742;;Prizren;Rečane
+0;20.5397,42.4094;;Gjakova;Ratkovac
+0;20.3706,42.5250;;Gjakova;Ratish e Eperme
+0;20.3278,42.4942;;Gjakova;Rastavica
+0;20.7928,42.3586;;Prizren;Reshtan
+0;21.0942,42.7279;;Pristina;Raskovo
+0;21.0756,42.4433;;Ferizaj;Rašince
+0;20.3769,42.5739;;Pec;Rashiq
+0;20.6181,42.0883;;Prizren;Rapçë
+3785;21.5989,42.4922;;Gjilan;Ranilug
+0;20.6708,42.3194;;Prizren;Randubrava
+0;20.6569,42.9925;;Mitrovica;Rančiće
+0;20.9706,42.4328;;Ferizaj;Rance
+0;20.3497,42.3972;;Gjakova;Ramoc
+0;20.5117,42.4917;;Gjakova;Rakovina
+0;20.6047,42.7861;;Pec;Rakosh
+0;20.4172,42.5000;;Gjakova;Rakoc
+0;20.7333,42.7333;;Mitrovica;Rakitnica
+0;21.3514,42.8619;;Pristina;Rakinica
+0;21.1900,42.3008;;Ferizaj;Raka
+0;21.5406,42.5353;;Gjilan;Rajanovce
+0;21.2367,42.4231;;Ferizaj;Rahovica
+0;20.5600,42.6478;;Pec;Radulloc
+0;20.5372,42.3869;;Gjakova;Radoste
+0;21.2533,42.7289;;Pristina;Radashec
+0;20.4333,42.4833;;Gjakova;Radoniq
+0;21.3919,42.3808;;Gjilan;Radivojce
+0;20.6961,42.8267;;Mitrovica;Radiševo
+0;21.0540,42.5733;;Pristina;Radevo
+0;20.7000,42.0533;;Prizren;Radeša
+0;20.3222,42.7361;;Pec;Radaci (Burimi)
+0;20.3500,42.4208;;Gjakova;Racaj
+0;20.4517,42.3508;;Gjakova;Rača
+0;20.5917,42.4519;;Gjakova;Pusto Selo
+0;21.2636,42.1625;;Ferizaj;Pustenik
+0;20.8983,42.9222;;Mitrovica;Prvi Tunel
+0;21.1203,42.7412;;Pristina;Prugovac
+0;21.3833,42.7258;;Pristina;Propaštica
+171464;20.7397,42.2139;20000;Prizren;Prizren
+550000;21.1669,42.6727;10000;Pristina;Prishtinë
+0;21.0256,42.7328;;Mitrovica;Prilužje
+0;21.5192,42.5128;;Gjilan;Prilepnica
+2500;20.3178,42.5075;;Gjakova;Prilep
+0;20.4294,42.7525;;Pec;Prigoda
+0;20.7994,43.0619;;Mitrovica;Pridvorica
+0;20.6907,42.9220;;Mitrovica;Pridvorica
+0;21.2308,43.0007;;Pristina;Prepolac
+0;21.1214,42.5983;;Pristina;Preoce
+0;20.8903,42.7392;;Mitrovica;Prelovac
+0;20.7492,42.9058;;Mitrovica;Prelez
+0;21.4000,42.5667;;Pristina;Prekovce
+350;20.3392,42.5078;;Gjakova;Prekolluk
+0;20.4642,42.7047;;Pec;Prekale
+0;20.6331,42.5678;;Pec;Përçevë
+700;20.3511,42.5372;;Gjakova;Pozhar
+0;21.3403,42.3658;;Gjilan;Pozharan
+0;20.7015,43.1919;;Mitrovica;Postenje
+0;20.6714,42.1789;;Prizren;Poslishtë
+0;21.0884,42.8793;;Pristina;Popovo
+0;20.9100,42.3200;;Prizren;Popovljane
+0;20.7903,43.0801;;Mitrovica;Popovci
+0;20.2969,42.3914;;Gjakova;Popovac
+0;20.2836,42.4069;;Gjakova;Ponoshec
+0;20.6219,42.5028;;Prizren;Ponorac
+0;21.3739,42.4903;;Gjilan;Ponesh
+0;20.8300,42.6897;;Pristina;Poluzhë
+0;20.5639,42.4528;;Gjakova;Poluža
+0;20.6089,42.7208;;Pec;Polan
+0;21.6831,42.6503;;Gjilan;Polička
+0;20.9131,42.6225;;Pristina;Poklek
+0;21.2172,42.3967;;Ferizaj;Pojatište
+35000;21.1931,42.9106;;Pristina;Podujeva
+0;21.5828,42.4292;;Gjilan;Podgrađe
+0;21.4083,42.3178;;Gjilan;Podgorc
+0;20.3914,42.6333;;Pec;Poçestë
+0;20.2631,42.5258;;Gjakova;Pobergje
+0;20.7511,42.6617;;Mitrovica;Plužina
+0;20.7625,42.5897;;Prizren;Plloçicë
+0;21.2867,42.4947;;Pristina;Plitkoviq
+0;21.1028,42.3444;;Ferizaj;Plešina
+0;21.0458,42.7075;;Pristina;Plemetin
+0;20.3611,42.6567;;Pec;Pavllan
+0;20.6467,42.0964;;Prizren;Plava
+0;20.8400,42.1783;;Prizren;Planjane
+0;20.5781,42.2133;;Prizren;Planeja
+0;20.7108,43.0744;;Mitrovica;Plakaonica
+0;20.7061,42.0775;;Prizren;Plajnike
+0;20.4206,42.6144;;Pec;Pishtanë
+0;20.6725,42.2925;;Prizren;Pirane
+0;21.5264,42.3139;;Gjilan;Pidiq
+0;20.4589,42.3406;;Gjakova;Petrušan
+0;20.7361,42.2450;;Prizren;Petrovo Selo
+0;21.0306,42.4067;;Ferizaj;Petrovo
+0;21.0406,42.4494;;Ferizaj;Petroviq
+0;21.5792,42.4867;;Gjilan;Petrovce
+0;20.9436,42.4764;;Ferizaj;Petraštica
+0;20.5561,42.4728;;Gjakova;Petkoviq
+0;21.0009,42.7841;;Mitrovica;Pestovo
+0;21.1652,42.9287;;Pristina;Perane
+0;20.1275,42.7242;;Pec;Pepiq
+0;21.1517,42.8428;;Pristina;Penduha
+1883;20.8219,42.3836;;Prizren;Peqan
+48962;20.2883,42.6591;30000;Pec;Pejë
+0;20.9564,42.8833;;Mitrovica;Pasoma
+1000;21.4956,42.4069;;Gjilan;Pasjane
+0;21.4253,42.4744;;Gjilan;Pasjak
+0;20.6899,43.0147;;Mitrovica;Paruci
+1787;21.4336,42.4019;;Gjilan;Partesh
+0;21.3650,42.5486;;Gjilan;Paralovo
+0;21.1889,42.4203;;Ferizaj;Papaz
+0;20.9319,42.3722;;Prizren;Papaz
+0;20.9025,42.8339;;Mitrovica;Pantina
+0;20.4067,42.4653;;Gjakova;Paljabarda
+0;21.2925,42.1711;;Ferizaj;Palivodenica
+1374;20.7422,42.4200;;Prizren;Pagaruša
+0;20.7153,42.9597;;Mitrovica;Padine
+0;20.3200,42.4447;;Gjakova;Pacaj
+0;20.3803,42.7014;;Pec;Orzim
+0;20.7167,42.6500;;Mitrovica;Açarevë
+0;20.7000,42.4483;;Prizren;Ostrozub
+0;20.7542,43.1963;;Mitrovica;Ostraće
+0;20.5656,42.7175;;Pec;Osojane
+0;20.8733,42.8094;;Mitrovica;Oshlan
+0;20.4244,42.4111;;Gjakova;Osek Paša
+0;20.3917,42.4147;;Gjakova;Osek
+0;20.3697,42.7397;;Pec;Arbanë
+0;21.1237,42.6715;;Pristina;Orlloviq
+0;20.8353,42.5514;;Pristina;Orlate
+0;21.3433,42.8178;;Pristina;Orlane
+0;20.5989,42.0422;;Prizren;Orčuša
+0;21.4981,42.6883;;Gjilan;Oraovica
+0;20.7387,43.0138;;Mitrovica;Oraovica
+0;20.8975,42.9378;;Mitrovica;Orahovo
+22049;20.6547,42.3994;21000;Gjakova;Rahovec
+0;20.7156,42.3717;;Gjakova;Opteruša
+0;20.9094,42.8253;;Mitrovica;Okraštica
+0;21.2535,42.6057;;Pristina;Okosnica
+0;21.2409,42.5410;;Pristina;Oklap
+0;20.5190,42.9543;;Mitrovica;Oklace
+0;21.6511,42.6258;62050;Gjilan;Hogosht
+0;21.5667,42.5367;;Gjilan;Odevce
+0;21.6794,42.5369;;Gjilan;Hodonoc
+0;21.1698,42.9150;;Pristina;Obrandža
+11612;21.0703,42.6869;;Pristina;Obiliq
+0;20.9867,42.8331;;Mitrovica;Novo Selo Begovo
+0;20.5592,42.5917;;Pec;Zajmovo
+0;20.5586,42.6114;;Pec;Deiq
+0;21.0203,42.7850;;Mitrovica;Novo Selo
+0;21.2567,42.6400;;Pristina;Novo Selo
+0;20.7789,42.2092;;Prizren;Novo Selo
+0;21.0851,42.6515;;Pristina;Novo Selo
+0;20.8550,42.5164;;Prizren;Novo Selo
+0;20.7956,42.7353;;Mitrovica;Novo Selo
+0;21.1904,42.6701;;Pristina;Novo Selo
+0;21.3231,42.3864;;Gjilan;Novo Selo
+4;20.3317,42.7247;;Pec;Novosellë (Drinasi)
+0;20.8347,42.7122;;Mitrovica;Novo Poljance
+6720;21.4340,42.6159;;Pristina;Novo Brdo
+0;20.7947,42.2842;;Prizren;Malësi e Re
+0;20.7564,42.3019;;Prizren;Novake
+0;21.4461,42.3853;;Gjilan;Nosalje
+0;20.6422,42.3381;;Gjakova;Nagavc
+0;20.2889,42.4414;;Gjakova;Nivokaz
+1154;20.8017,42.4239;;Prizren;Nishor
+0;21.3708,42.7728;;Pristina;Nishec
+0;21.3128,42.2381;;Ferizaj;Nikovc
+0;21.2181,42.2575;;Ferizaj;Nikaj
+0;20.9539,42.7892;;Mitrovica;Nevoljane
+0;20.7389,42.3417;;Prizren;Nepërbisht
+0;20.5097,42.5533;;Pec;Nepolje
+0;20.9039,42.5353;;Pristina;Nekovce
+0;20.8264,42.5792;;Pristina;Negrovc
+0;21.0015,42.7939;;Mitrovica;Nedakovac
+0;21.3017,42.1711;;Ferizaj;Neçavcë
+0;20.3236,42.4019;;Gjakova;Nec
+0;20.8239,42.1500;;Prizren;Nebregosht
+0;20.6006,42.4114;;Gjakova;Nushpal
+0;20.6528,42.2403;;Prizren;Nashec
+0;20.3814,42.6664;;Pec;Donje Naklo
+0;20.3963,42.6768;;Pec;Nabërgjan
+0;21.0944,42.4500;;Ferizaj;Mužičane
+0;20.4764,42.7589;15050;Pec;Muzakaj
+0;21.6572,42.5553;62070;Gjilan;Muçivërc
+0;20.8894,42.2967;;Prizren;Mušutište
+0;20.8933,42.1742;;Prizren;Mušnikovo
+0;21.0475,43.0811;;Pristina;Murgula
+0;20.7536,42.6083;;Mitrovica;Murga
+0;21.1503,42.3944;;Ferizaj;Muhovce
+0;21.1747,42.3925;;Ferizaj;Talinovc i Muhaxherëve
+0;21.1836,42.4672;;Pristina;Muhaxherbabush
+0;21.5528,42.3747;;Gjilan;Mučibaba
+0;20.5536,42.5131;;Gjakova;Mrasor
+0;21.3000,42.6628;;Pristina;Mramor
+0;21.5017,42.5431;;Gjilan;Mozgovo
+0;20.9033,42.3728;;Prizren;Movljane
+0;20.8521,43.0847;;Mitrovica;Mošnica
+0;20.2350,42.4089;;Gjakova;Morina
+0;20.2708,42.4392;;Gjakova;Molliq
+0;20.5428,42.8003;;Pec;Mojstir
+0;20.4400,42.3486;;Gjakova;Moglica
+0;21.3922,42.3422;;Gjilan;Mogila
+0;21.5939,42.5739;;Gjilan;Močare
+0;20.6450,42.0294;;Prizren;Mlike
+0;20.7547,42.5703;;Prizren;Mleqan
+0;20.7139,42.4975;;Prizren;Miruša
+0;21.2591,42.9149;;Pristina;Mirovac
+0;21.2486,42.4000;;Ferizaj;Mirosavlje
+0;20.9653,42.5592;;Pristina;Mirena
+0;21.2242,42.4486;;Ferizaj;Mirash
+100;21.0491,42.6669;;;Mirash
+0;20.9950,42.8594;;Mitrovica;Miraçë
+0;20.8322,43.1961;;Mitrovica;Miokoviq
+0;21.0820,42.7249;;Pristina;Miloševo
+0;20.5633,42.1942;;Prizren;Miljaj
+0;20.7128,42.4217;;Prizren;Millanoviq
+0;20.8436,42.7675;;Mitrovica;Mikušnica
+0;20.9992,42.7584;;Mitrovica;Mihaliq
+0;20.7862,43.1694;;Mitrovica;Mihaliq
+0;21.1483,43.0139;;Pristina;Metohija
+0;21.5456,42.6497;;Gjilan;Mešina
+0;21.2348,42.9330;;Pristina;Merdare
+0;20.9250,42.9550;;Mitrovica;Meljenica
+0;20.7784,43.1572;;Mitrovica;Mekiniće
+0;20.4050,42.3811;;Gjakova;Mejë
+0;20.7092,42.3092;;Prizren;Medvece
+0;21.0064,42.5517;;Pristina;Medvece
+0;21.3978,42.8478;;Pristina;Medregovac
+0;20.6209,42.9596;;Mitrovica;Megjipotok
+0;20.4997,42.4575;;Gjakova;Meće
+0;20.6133,42.2342;;Prizren;Mazrek
+0;20.3022,42.3769;;Gjakova;Mazrek
+0;20.4497,42.5433;;Gjakova;Maznik
+0;20.9433,42.9297;;Mitrovica;Mazhiq
+0;21.0933,42.6894;;Pristina;Mazgit
+0;21.3655,42.8465;;Pristina;Mazap
+0;21.1983,42.6456;;Pristina;Matiqan
+0;20.5108,42.3769;;Gjakova;Marmule
+0;20.8036,42.7028;;Mitrovica;Marina
+0;21.3756,42.6681;;Pristina;Marevce
+0;21.1919,42.4942;;Pristina;Marevce
+0;20.7303,42.4494;;Prizren;Maralija
+0;21.4103,42.5683;;Pristina;Manišince
+0;20.8061,42.1350;;Prizren;Manastirica
+5507;20.7269,42.3308;20540;Prizren;Mamushë
+0;20.8608,42.9100;;Mitrovica;Malo Rudare
+0;21.5764,42.5197;;Gjilan;Malo Ropotovo
+0;21.0650,42.5153;;Pristina;Malo Ribare
+0;21.0528,42.4011;;Ferizaj;Malopoljce
+0;20.9022,42.8728;;Mitrovica;Kçiqi i Vogël
+0;20.3597,42.7236;;Pec;Dubova e Vogël (Driloni i Vogël)
+0;20.4156,42.5569;;Gjakova;Mali Vranovac
+0;20.2072,42.6728;;Pec;Shtupeli i Vogël
+2300;20.7458,42.4822;24000;Prizren;Malishevë
+0;21.5072,42.4528;;Gjilan;Malishevë
+0;20.5903,42.6450;;Pec;Gjurgjevik i Vogël
+0;21.0372,42.6108;;Pristina;Bardhi i Vogël
+0;21.0992,42.5217;;Pristina;Mali Alaš
+0;21.0281,42.6061;;Pristina;Mala Slatina
+0;20.6511,42.3078;;Prizren;Mala Kruša
+0;20.6378,42.8886;;Mitrovica;Mala Kaludra
+0;20.3364,42.7525;;Pec;Jabllanicë e Vogël
+0;20.6586,42.3508;;Gjakova;Mala Hoča
+0;21.0286,42.5472;;Pristina;Mala Dobranja
+0;21.2258,42.7040;;Pristina;Makovac
+0;20.8290,43.1393;;Mitrovica;Majdevo
+0;21.0102,42.5394;;Pristina;Magura
+0;20.9125,42.9667;;Mitrovica;Mađera
+0;20.7189,42.4478;;Prizren;Mađare
+0;20.9450,42.3039;;Prizren;Maçitevë
+0;20.8947,42.4531;;Prizren;Lužnica
+0;21.1686,42.8219;11050;Pristina;Lluzhan
+0;21.2118,42.7076;;Pristina;Lukare
+0;20.4614,42.7500;;Pec;Lluga
+0;21.1731,42.4886;;Pristina;Llugagji
+0;20.4731,42.5567;;Gjakova;Llugagji
+0;21.0525,42.5572;;Pristina;Lug
+0;21.1878,42.8232;;Pristina;Lug
+0;20.6833,42.9775;;Mitrovica;Lučka Reka
+0;20.8853,43.1092;;Mitrovica;Lozno
+0;20.8189,42.9769;;Mitrovica;Lozište
+19863;20.7633,42.5553;;Prizren;Llazicë
+0;20.3697,42.6189;;Pec;Llozhan
+0;21.5717,42.4022;;Gjilan;Lovce
+0;20.7636,42.9622;;Mitrovica;Lovac
+0;20.7994,42.1717;;Prizren;Lokvica
+0;20.7794,42.9436;;Mitrovica;Lokva
+0;20.3250,42.6297;;Pec;Loxhë
+0;20.7864,42.2758;;Prizren;Ljutoglav
+577;20.8292,42.8525;;Mitrovica;Ljušta
+1500;20.3467,42.5467;;Gjakova;Lumbardhi
+0;20.6153,42.2942;;Prizren;Lukanja
+0;20.4347,42.4247;;Gjakova;Ljugbunar
+1250;20.2908,42.5631;;Gjakova;Lëbushë
+0;20.4419,42.7769;;Pec;Ljubožda
+0;20.4100,42.7397;;Pec;Thanëza
+0;20.6631,42.0567;;Prizren;Ljubovište
+0;20.8492,42.7967;;Mitrovica;Ljubovac
+0;20.5717,42.2608;;Prizren;Ljubižda
+0;20.7000,42.5053;;Prizren;Ljubižda
+0;20.7706,42.2381;;Prizren;Ljubižda
+0;21.4117,42.2947;;Gjilan;Ljubište
+0;20.7339,42.1556;;Prizren;Ljubičevo
+970;20.2914,42.5978;;Pec;Lybeniq
+0;21.4867,42.6458;;Gjilan;Leštar
+0;20.4464,42.6300;;Pec;Leshan
+1575;20.7811,42.3278;;Prizren;Leshan
+0;21.7217,42.6475;;Gjilan;Ljajčić
+0;21.2267,42.9239;;Pristina;Livadica
+0;21.1667,42.5644;;Pristina;Livagjë
+0;21.6481,42.6628;;Gjilan;Lisacka
+0;20.8833,42.9075;;Mitrovica;Lisica
+0;20.7722,42.9475;;Mitrovica;Lipovica
+0;21.5444,42.4006;;Gjilan;Lipovica
+0;20.4775,42.3108;;Gjakova;Lipovac
+9047;21.1258,42.5217;;Pristina;Lipljan
+0;20.2736,42.7058;;Pec;Lipa
+0;20.8608,42.9200;;Mitrovica;Lipa
+0;20.7706,42.6650;;Mitrovica;Likovac
+0;20.8983,42.6983;;Pristina;Likoshan
+0;21.4519,42.2919;;Gjilan;Letnica
+0;21.1858,42.9314;;Pristina;Letance
+0;20.6847,42.0442;;Prizren;Leshtan
+0;20.5910,42.6911;;Pec;Leskoc
+0;20.7281,42.1764;;Prizren;Leskovec
+0;20.7426,43.1673;;Mitrovica;Leshak
+19000;20.8028,43.1039;;Mitrovica;Leposaviq
+0;20.6597,42.7747;;Mitrovica;Leočina
+0;21.1031,42.7103;;Pristina;Lazarevo
+0;20.7611,42.7417;;Mitrovica;Lauša
+0;21.1924,42.9773;;Pristina;Lauša
+0;21.1225,42.3944;;Ferizaj;Lashkobare
+0;20.8439,42.5656;;Pristina;Llapushnik
+1387;21.1408,42.5967;;Pristina;Laplje Selo
+0;20.9461,42.3847;;Ferizaj;Lanište
+0;21.2714,42.2164;;Ferizaj;Lanište
+0;20.6844,42.2619;;Prizren;Landovica
+0;20.8417,42.4722;;Prizren;Lladroviq
+0;20.8236,42.5025;;Prizren;Ladrovac
+0;21.2361,42.8797;;Pristina;Ladovac
+0;20.5844,42.5047;;Prizren;Llapçevë
+0;20.3942,42.6561;;Pec;Llabjan
+0;21.3440,42.5672;;Pristina;Labljane
+0;20.4069,42.6561;;Pec;Labljane
+0;20.9186,42.9178;;Mitrovica;Kutlloc
+0;20.5375,42.2756;;Prizren;Kushnin
+0;20.4747,42.3417;;Gjakova;Kushavec
+0;20.4431,42.3289;;Gjakova;Kusar
+0;21.0353,42.9153;;Mitrovica;Kurilovo
+0;20.6558,42.0494;;Prizren;Kukulan
+0;20.7147,42.0997;;Prizren;Kuk
+0;21.2419,42.2294;;Ferizaj;Kuk
+0;21.3483,42.6267;;Pristina;Kukavica
+0;20.7208,43.0536;;Mitrovica;Kukavica
+0;20.0817,42.6975;;Pec;Kuqishte
+0;20.7731,42.8078;;Mitrovica;Kućica
+0;20.5247,42.6581;;Pec;Krushevë
+0;20.6389,41.9789;;Prizren;Krushevë
+0;20.5639,42.6394;;Pec;Krushevë e Vogël
+0;21.3633,42.7961;;Pristina;Kruševica
+0;20.8089,42.7214;;Mitrovica;Kryshec
+0;20.3528,42.5772;;Pec;Kryshec
+0;20.8247,43.1508;;Mitrovica;Kruščica
+0;20.4369,42.6225;;Pec;Kërstec
+0;20.6022,42.0697;;Prizren;Krstac
+0;21.1580,42.9907;;Pristina;Krpimej
+0;20.6125,42.7608;;Pec;Krnjina
+0;20.6086,42.6511;;Pec;Krnjince
+0;20.7328,42.8319;;Mitrovica;Krljigate
+0;21.2736,42.1136;;Ferizaj;Krivenik
+0;21.4622,42.6775;;Gjilan;Kriljevo
+0;21.5214,42.6769;;Gjilan;Kremenata
+0;20.7786,42.4361;;Prizren;Kravasarija
+0;20.9281,42.7250;;Mitrovica;Krasmirovac
+0;20.9042,42.7439;;Mitrovica;Krasaliq
+0;20.5228,42.4819;;Gjakova;Kramovik
+0;20.5133,42.5233;;Gjakova;Kralan
+0;21.7064,42.6058;;Gjilan;Kranidel
+0;20.9328,42.4831;;Pristina;Krajmirovce
+0;20.8536,42.5964;;Pristina;Krajkovo
+0;20.6608,42.2822;;Prizren;Krajk
+0;21.0478,42.4939;;Pristina;Krajishtë
+0;20.5406,42.5442;;Pec;Këpuz
+0;20.5939,42.4731;;Gjakova;Kaznik
+0;20.9058,42.7300;;Mitrovica;Kožica
+0;20.7350,42.9594;;Mitrovica;Kozarevo
+0;20.5042,42.7483;;Pec;Kovraçë (Krasniqaj)
+0;21.0389,42.9469;;Mitrovica;Kovačica
+0;21.2328,42.2419;;Ferizaj;Kovaçec
+0;20.4014,42.5614;;Pec;Kotradiq
+0;20.7431,42.8011;;Mitrovica;Kotore
+0;21.2308,42.1761;;Ferizaj;Kotlina
+0;20.8436,43.0086;;Mitrovica;Košutovo
+0;20.7861,42.8744;;Mitrovica;Košutovo
+0;20.1011,42.7389;;Pec;Koshutan
+1200;20.4647,42.5703;;Pec;Kosuriq
+0;20.7925,42.4133;;Prizren;Kostrce
+0;20.6886,42.7828;;Mitrovica;Kostrc
+0;20.8133,43.1328;;Mitrovica;Kostin Potok
+0;21.0728,42.2956;;Ferizaj;Koštanjevo
+0;21.6111,42.6303;;Gjilan;Kostadince
+107045;20.8667,42.8833;40000;Mitrovica;Mitrovicë
+9312;21.5803,42.5781;62000;Gjilan;Kamenicë
+0;20.8220,43.0167;;Mitrovica;Kamenicë
+0;20.6797,43.2017;;Mitrovica;Kamenicë
+0;20.4308,42.5683;;Pec;Kamenicë
+0;20.5375,42.7167;;Pec;Kamenicë
+0;21.2164,42.2642;;Ferizaj;Kamenicë
+0;20.3953,42.7536;;Pec;Kamenicë
+0;20.7822,42.9992;;Mitrovica;Kamenicë
+0;20.7889,42.3336;;Prizren;Kamenicë
+16154;21.0961,42.6639;;Pristina;Kosovo Polje
+0;20.7022,42.0897;;Prizren;Kosavce
+0;21.1308,42.4142;;Ferizaj;Kosin
+0;20.2383,42.4544;;Gjakova;Koshare
+0;21.0933,42.4217;;Ferizaj;Koshare
+0;20.7969,42.2586;;Prizren;Koriša
+0;21.4417,42.4883;;Gjilan;Koretište
+0;21.5931,42.5569;;Gjilan;Koretin
+0;20.3675,42.3719;;Gjakova;Korenicë
+0;21.3361,42.2361;;Ferizaj;Korbuliq
+0;21.6272,42.6111;;Gjilan;Koprivnica
+0;20.7919,42.8542;;Mitrovica;Kopriva
+0;20.8648,43.1414;;Mitrovica;Koporiq
+0;21.1400,42.5397;;Pristina;Konjuh
+0;21.1394,42.4858;;Pristina;Konjsko
+0;20.9039,42.5789;;Pristina;Komorane
+0;21.6406,42.5867;;Gjilan;Kolloleq
+0;20.9319,42.7714;;Mitrovica;Kolo
+0;21.2861,42.7733;;Pristina;Koliq
+0;20.6106,42.2272;;Prizren;Kojuš
+0;21.1986,42.6861;;Pristina;Kojlovica
+0;20.3389,42.5303;;Gjakova;Kodralija
+0;20.4697,42.4664;;Gjakova;Kodralija
+0;21.1035,42.8964;;Pristina;Kodralija
+0;21.0805,42.9615;;;Kodralija
+0;20.7055,42.9443;;Mitrovica;Kobilja Glava
+0;21.5278,42.4919;;Gjilan;Kmetoc
+2551;21.3744,42.3714;61050;Gjilan;Kllokot
+0;21.4722,42.5794;;Pristina;Klobukar
+0;20.6000,42.6347;;Pec;Klinafc
+0;20.4608,42.6239;;Pec;Kliqinë
+8050;20.5778,42.6217;32000;Pec;Klinë
+0;20.8608,42.4928;;Pristina;Klečka
+0;20.6947,42.7444;;Mitrovica;Kladernica
+0;21.3017,42.4617;;Gjilan;Kishnapole
+0;20.8908,42.5531;;Pristina;Kišna Reka
+0;21.1581,42.8194;;Pristina;Kisela Banja
+0;20.7158,42.5658;;Prizren;Kijevo
+0;20.8414,43.1189;;Mitrovica;Kijevčiće
+0;20.4044,42.7061;;Pec;Kašica
+0;20.6081,42.2686;;Prizren;Karašinđerđ
+0;20.6889,42.1028;;Prizren;Kapra
+0;21.2158,42.3422;;Ferizaj;Kamena Glava
+0;21.3864,42.8167;;Pristina;Kaljatica
+0;20.3536,42.7583;;Pec;Kaliçani
+0;20.7851,43.1300;;Mitrovica;Kajkovo
+0;21.3142,42.7331;;Pristina;Kačikol
+0;21.2058,42.8347;;Pristina;Kačibeg
+9800;21.2594,42.2319;71000;Ferizaj;Kačanik
+0;20.5542,42.2717;;Prizren;Kabash i Hasit
+0;21.3567,42.3069;;Gjilan;Kabash
+0;20.8333,42.2500;;Prizren;Kabash
+4;20.2772,42.4758;51050;Gjakova;Junik
+0;20.6761,43.0064;;Mitrovica;Junake
+0;20.7022,42.4744;;Prizren;Joviq
+0;20.8097,42.9672;;Mitrovica;Joshevik
+0;20.7717,43.0758;;Mitrovica;Ivanje
+0;20.7731,43.0683;;Mitrovica;Ivanje
+0;20.0392,42.7292;;Pec;Jashanica
+0;20.6472,42.6667;;Pec;Jošanica
+0;21.0297,42.3675;;Ferizaj;Jezerce
+0;20.7028,42.1619;;Prizren;Ješkovo
+0;21.1497,42.3897;;Ferizaj;Jerlitalinovc
+0;21.2953,42.3239;;Gjilan;Jerli Sadovina
+0;21.1611,42.4131;;Ferizaj;Prelez i Jerlive
+0;20.6692,42.6508;;Pec;Jelloc
+0;20.9075,43.1377;;Mitrovica;Jelakce
+0;20.9886,42.2164;;Ferizaj;Jažince
+0;20.8814,42.4733;;Prizren;Javor
+0;20.2517,42.4925;;Gjakova;Jasiq
+0;20.3650,42.4711;;Gjakova;Jasiq
+0;21.4596,42.6016;;Pristina;Jasenovik
+0;20.6955,43.2147;;Mitrovica;Donje Jarinje
+0;21.2489,42.5739;;Pristina;Janjevo
+0;20.7308,42.4297;;Prizren;Jančište
+0;20.3944,42.3903;;Gjakova;Jahoc
+0;20.5342,42.6369;;Pec;Jagoda
+0;20.7511,42.9222;;Mitrovica;Jagnjenica
+0;20.6603,42.9025;;Mitrovica;Jabuka
+0;20.4694,42.6178;;Pec;Jablanica
+0;20.7681,42.1708;;Prizren;Jablanica
+0;20.4864,42.5458;;Gjakova;Jablanica
+0;20.7008,43.0386;;Mitrovica;Izvori
+0;21.3752,42.6053;;Pristina;Izvor
+0;20.6600,42.7325;;Mitrovica;Izbicë
+0;21.1036,42.2856;;Ferizaj;Ižance
+0;21.2328,42.1944;;Ferizaj;Ivaja
+40000;20.4875,42.7808;;Pec;Istok
+5500;20.3028,42.5575;;Gjakova;Isniq
+0;20.7539,43.2247;;Mitrovica;Donje Isevo
+0;21.5761,42.3869;;Gjilan;Inatovce
+0;20.6753,42.5917;;Pec;Iglarevo
+0;20.2633,42.5358;;Gjakova;Hulaj
+0;21.2936,42.8736;;Pristina;Hrtica
+0;20.6914,42.1747;;Prizren;Hoça e qytetit
+0;21.0267,42.7061;;Pristina;Hamidi
+0;20.0442,42.7097;;Pec;Haxhaj
+0;21.1631,42.5000;;Pristina;Guvno Selo
+0;20.7872,43.2311;;Mitrovica;Guvnište
+0;21.3025,42.3081;;Gjilan;Goshicë
+0;20.8522,42.4625;;Prizren;Guncat
+0;21.0048,42.9150;;Mitrovica;Gumnište
+0;21.3772,42.4614;;Gjilan;Gumnište
+0;20.7206,43.1486;;Mitrovica;Gulije
+0;21.4164,42.3272;;Gjilan;Gërnçar
+0;20.7722,42.2189;;Prizren;Gërnçar
+0;21.3153,42.3200;;Gjilan;Grmovo
+0;20.7535,43.0583;;Mitrovica;Grkaje
+0;21.5764,42.6053;;Gjilan;Grizime
+0;20.7094,43.0182;;Mitrovica;Grizhan
+0;20.4550,42.5097;;Gjakova;Grgoc
+0;20.8342,42.2842;;Prizren;Grejkovce
+0;20.9342,42.4133;;Prizren;Greiçec
+0;21.1572,42.3183;;Ferizaj;Grebno
+0;20.5897,42.5831;;Pec;Grebnkik
+0;21.2192,42.8219;;Pristina;Grdovac
+0;20.4844,42.2964;;Gjakova;Gërqinë
+0;20.6614,42.2153;;Prizren;Grazhdanik
+0;21.2589,42.7050;;Pristina;Graštica
+0;20.8671,43.1222;;Mitrovica;Graničane
+0;20.3636,42.4822;;Gjakova;Gramaqel
+0;20.9389,42.7058;;Pristina;Gradica
+0;20.8147,42.8272;;Mitrovica;Gradevci
+0;21.4969,42.6958;;Gjilan;Gragjenik
+1000;21.1958,42.6011;10500;Pristina;Gračanica
+0;20.8403,42.9336;;Mitrovica;Grabovac
+420;20.3514,42.6292;;Pec;Graboc
+0;20.5356,42.5869;;Pec;Grabanica
+0;20.6186,42.6781;;Pec;Grabc
+0;21.0728,42.2486;;Ferizaj;Gotovuša
+0;20.5469,42.1764;;Prizren;Gorozhup
+0;20.9211,42.5808;;Pristina;Gornji Zabelj
+0;21.0183,42.8203;;Mitrovica;Gornji Svračak
+0;20.7236,42.8742;;Mitrovica;Gornji Strmac
+6100;20.2940,42.5784;;Gjakova;Strellc i Epërm
+0;20.6964,42.7211;;Mitrovica;Gornji Obilić
+0;21.4452,42.5672;;Gjilan;Gornji Makreš
+0;21.4311,42.4569;;Gjilan;Livoç i Epërm
+0;20.7722,43.1231;;Mitrovica;Gornji Krnjin
+0;20.6520,42.9212;;Mitrovica;Gornji Jasenovik
+0;20.9850,42.6606;;Pristina;Gornji Grabovac
+0;20.2922,42.5269;;Gjakova;Carrabregu i Epërm
+936;20.8317,42.8639;;Mitrovica;Zhabari i Epërm
+0;20.7989,42.8936;;Mitrovica;Gornje Vinarce
+0;21.0440,42.7575;;Mitrovica;Gornje Stanovce
+0;21.3283,42.4478;;Gjilan;Gornje Slakovce
+0;20.9308,42.1778;;Prizren;Gornje Selo
+0;20.9422,42.9042;;Mitrovica;Rashan
+0;20.8297,42.7797;;Mitrovica;Gornje Prekaze
+0;20.6197,42.4086;;Gjakova;Pataçan i Epërm
+0;20.3906,42.4606;;Gjakova;Gornje Novo Selo
+0;21.0786,42.3703;;Ferizaj;Gornje Nerodimlje
+0;21.0944,42.8542;;Pristina;Gornje Ljupče
+0;20.8614,42.1461;;Prizren;Gornje Ljubinje
+0;21.4822,42.4967;;Gjilan;Gornje Kusce
+0;21.6139,42.5028;;Gjilan;Gornje Korminjane
+0;21.7303,42.5767;;Gjilan;Karaçevë e Epërme
+0;21.0364,42.4678;;Ferizaj;Gornje Godance
+0;21.2228,42.4911;;Pristina;Gornje Gadimlje
+0;21.0900,42.5997;;Pristina;Gornje Dobrevo
+0;21.0317,42.8478;;Mitrovica;Gornja Sudimlja
+0;20.7186,42.2794;;Prizren;Gornja Srbica
+0;21.2964,42.3606;;Gjilan;Gornja Slatina
+0;21.6644,42.5972;;Gjilan;Shipashnica i Ultë
+0;21.1180,42.9981;;Pristina;Gornja Pakaštica
+1500;20.3078,42.5450;;Gjakova;Lluka e Eperme
+0;20.9339,42.6044;;Pristina;Gornja Koretica
+0;20.7833,42.7922;;Mitrovica;Gornja Klina
+0;21.2086,42.5511;;Pristina;Gornja Gušterica
+0;21.1656,42.2761;;Ferizaj;Gornja Grlica
+0;20.9481,42.5550;;Pristina;Fushticë e Epërme
+0;21.2092,42.9866;;Pristina;Gornja Dubnica
+0;21.0980,42.8104;;Mitrovica;Gornja Dubnica
+0;21.4192,42.3750;;Gjilan;Gornja Budriga
+0;21.1589,42.7178;;Pristina;Gornja Brnjica
+0;21.0297,42.2725;;Ferizaj;Gornja Bitinja
+0;20.7542,42.4322;;Prizren;Guriq
+0;20.3697,42.6406;31030;Pec;Gorazhdec
+0;21.2333,42.1414;;Ferizaj;Gorance
+0;20.7833,42.6000;;Prizren;Golubovac
+0;20.9917,42.8489;;Mitrovica;Gojbulja
+0;21.5431,42.5892;;Gjilan;Gogolloc
+0;21.1615,42.8383;;Pristina;Godishnjak
+0;20.4436,42.2931;;Gjakova;Goden
+0;20.9367,42.6800;;Pristina;Godance
+51912;21.4699,42.4605;60000;Gjilan;Gjilan
+0;21.5883,42.6825;;Gjilan;Gmince
+0;21.4500,42.7167;;Pristina;Glogovica
+0;21.1458,42.5053;;Pristina;Glogovce
+0;21.5933,42.4853;;Gjilan;Glogovce
+58579;20.8939,42.6283;13000;Pristina;Drenas
+2000;20.3628,42.5072;;Gjakova;Gllogjan
+0;20.4925,42.5656;;Pec;Gllogjan
+0;21.1822,42.1711;;Ferizaj;Globočica
+0;20.6269,42.0047;;Prizren;Glloboqicë
+0;20.8706,42.6458;;Pristina;Globare
+0;21.0051,42.7238;;Mitrovica;Glavotina
+0;21.1854,42.8713;;Pristina;Glavnik
+0;20.4244,42.6389;;Pec;Glavičica
+0;21.1992,42.4894;;Pristina;Glavica
+0;21.0869,42.4297;;Ferizaj;Glavica
+0;20.9169,42.6703;;Pristina;Gladno Selo
+0;20.7861,42.2964;;Prizren;Geljance
+0;20.5450,42.3644;;Gjakova;Gegjë
+0;20.6681,42.9383;;Mitrovica;Gazivode
+0;21.1536,42.2992;;Ferizaj;Gatnje
+0;20.8644,42.7836;;Mitrovica;Galica
+0;21.2514,42.2006;;Ferizaj;Gajre
+0;21.3294,42.4739;;Gjilan;Gadish
+0;21.1753,42.2839;;Ferizaj;Gabrica
+0;21.5728,42.6383;;Gjilan;Firićeja
+0;20.3733,42.4681;;Gjakova;Firaja
+0;21.0983,42.2500;;Ferizaj;Firaja
+0;20.3575,42.4644;;Gjakova;Hereq
+0;21.0473,42.5901;;Pristina;Ence
+0;21.1836,42.2828;;Ferizaj;Eleza
+0;21.1250,43.0686;;Pristina;Dvorište
+0;21.2475,42.8033;;Pristina;Duz
+0;20.7197,42.2317;;Prizren;Dušanovo
+0;20.6014,42.5325;;Pec;Dush
+0;21.0894,42.4686;;Ferizaj;Gjurkoc
+0;21.6103,42.6767;;Gjilan;Gjyrishec
+0;21.2767,42.1947;;Ferizaj;Gjurgjedell
+0;20.4719,42.7256;;Pec;Gurrakoc
+0;21.1739,42.2811;;Ferizaj;Dura
+0;21.5589,42.2736;;Gjilan;Dunavo
+0;21.2172,42.8547;;Pristina;Dumosh
+0;20.8728,42.4092;;Prizren;Dulje
+0;20.3697,42.4561;;Gjakova;Dujak
+0;20.5047,42.5961;;Pec;Dugenjive
+0;20.0797,42.7144;;Pec;Duge Njive
+0;20.8514,42.3231;;Prizren;Dubrava
+0;21.1967,42.2547;;Ferizaj;Dubrava
+0;21.1339,42.3558;;Ferizaj;Dubrava
+0;20.3606,42.4928;;Gjakova;Dubrava
+0;20.5294,42.7614;;Pec;Dubrava
+1050;20.3697,42.7119;;Pec;Dubova (Driloni)
+0;20.3367,42.5736;;Gjakova;Dubovik
+0;20.8950,42.7656;;Mitrovica;Dubovac
+0;20.6781,43.0761;;Mitrovica;Duboka
+0;20.9797,42.7589;;Mitrovica;Drvare
+0;20.6008,42.6061;;Pec;Drsnik
+0;21.0722,42.3856;;Ferizaj;Dremjak
+0;21.3061,42.1756;;Ferizaj;Drobnjak
+0;21.3361,42.3167;;Gjilan;Drobesh
+0;20.5844,42.6714;;Pec;Dranashiq
+0;21.6006,42.5186;;Gjilan;Drenovce
+0;21.3081,42.2531;;Ferizaj;Drenoglava
+0;21.1092,42.7438;;Pristina;Drenovac
+0;20.6092,42.4378;;Gjakova;Drenovac
+0;20.5217,42.6028;;Pec;Drenoc
+2000;20.2922,42.5156;;Gjakova;Dranoc
+0;20.7677,43.1324;;Mitrovica;Dren
+0;20.6450,42.8556;;Mitrovica;Dren
+0;20.1228,42.7072;;Pec;Drelaj
+0;21.0842,42.2528;;Ferizaj;Drekoc
+0;20.8753,42.1603;;Prizren;Drajčići
+0;21.3300,42.6047;;Pristina;Dragovac
+0;20.5061,42.7667;;Pec;Dragolec
+0;20.7267,42.4569;;Prizren;Dragobil
+35000;20.6533,42.0265;22000;Prizren;Dragash
+0;21.4729,42.5431;;Gjilan;Draganac
+0;20.8611,42.7072;;Mitrovica;Dashec
+0;20.8936,42.5886;;Pristina;Donji Zabelj
+0;21.0051,42.8044;;Mitrovica;Donji Svračak
+0;20.8500,42.8833;;Mitrovica;Donji Suvi Do
+2850;20.3162,42.5806;;Gjakova;Strellc i Ulët
+0;20.3908,42.5194;;Gjakova;Ratish i Ultë
+0;20.7139,42.6950;;Mitrovica;Donji Obilić
+0;21.4806,42.5619;;Gjilan;Donji Makreš
+0;21.4531,42.4311;;Gjilan;Livoç i Ultë
+0;20.7485,43.1355;;Mitrovica;Donji Krnjin
+0;20.6775,42.9211;;Mitrovica;Donji Jasenovik
+0;20.4989,42.7733;;Pec;Donji Istok
+0;21.0103,42.6500;;Pristina;Donji Grabovac
+6470;20.8411,42.8714;;Mitrovica;Zhabari i Ultë
+0;20.8131,42.8736;;Mitrovica;Donje Vinarce
+0;21.0408,42.7411;;Mitrovica;Donje Stanovce
+0;21.3058,42.4542;;Gjilan;Donje Slakovce
+0;20.8203,42.7492;;Mitrovica;Donje Prekaze
+0;20.6050,42.3908;;Gjakova;Pataçan i Poshtëm
+0;20.7536,42.6414;;Mitrovica;Donje Obrinje
+0;20.4103,42.4436;;Gjakova;Donje Novo Selo
+0;21.0939,42.3650;;Ferizaj;Nerodime e Poshtme
+0;21.1508,42.7939;;Pristina;Donje Ljupče
+0;20.8572,42.1350;;Prizren;Donje Ljubinje
+0;21.6261,42.5069;;Gjilan;Donje Korminjane
+0;21.7250,42.5614;;Gjilan;Karaçevë i Ultë
+0;21.0475,42.4581;;Ferizaj;Donje Godance
+0;21.2064,42.4758;;Pristina;Donje Gadimlje
+0;21.0694,42.6056;;Pristina;Donje Dobrevo
+0;21.0041,42.8258;;Mitrovica;Donja Sudimlja
+0;21.4525,42.3381;;Gjilan;Stublla e Poshtme
+0;20.6981,42.2867;;Prizren;Donja Srbica
+0;21.3047,42.3575;;Gjilan;Donja Slatina
+0;21.6550,42.5767;;Gjilan;Shipashnicë e Poshtme
+0;21.1350,42.9886;;Pristina;Donja Pakaštica
+0;21.1687,42.8847;;Pristina;Donja Lapaštica
+0;20.9000,42.6042;;Pristina;Donja Koretica
+0;20.7903,42.7608;;Mitrovica;Donja Klina
+0;21.1844,42.5492;;Pristina;Donja Gušterica
+0;21.2167,42.2886;;Ferizaj;Grlica
+0;21.2006,42.3242;;Ferizaj;Grlica
+0;20.9275,42.5506;;Pristina;Donja Fuštica
+0;21.2165,42.9536;;Pristina;Donja Dubnica
+0;21.0467,42.7803;;Mitrovica;Donja Dubnica
+838;21.4550,42.4097;;Gjilan;Donja Budriga
+0;21.1390,42.7047;;Pristina;Donja Brnjica
+0;21.0431,42.2531;;Ferizaj;Donja Bitinja
+0;20.6269,42.2567;;Prizren;Gjonaj
+0;21.6453,42.5197;;Gjilan;Domorovce
+0;20.8533,42.6144;;Pristina;Domanek
+0;20.6756,42.5217;;Prizren;Domanek
+0;20.5611,42.5656;;Pec;Dolovo
+0;20.8106,42.9269;;Mitrovica;Doljane
+0;20.6552,43.1770;;Mitrovica;Dolac
+0;20.5956,42.5967;;Pec;Dollc
+0;20.8019,42.2214;;Prizren;Dojnice
+0;20.4681,42.3339;;Gjakova;Dolj
+0;21.1903,42.2739;70520;Ferizaj;Doganaj
+0;21.1528,42.3483;;Ferizaj;Doganjevo
+0;20.2500,42.4856;;Gjakova;Gjocaj
+0;20.5903,42.1808;;Prizren;Dobrushtë
+0;20.4311,42.7136;;Pec;Dobrushë (Butina)
+0;21.1285,42.9676;;Pristina;Dobrotin
+0;21.1836,42.5300;;Pristina;Dobrotin
+0;20.9375,42.6511;;Pristina;Dobroshec
+0;20.3122,42.4408;;Gjakova;Dobrosh
+0;20.7481,42.3858;;Prizren;Dobrodeljane
+0;21.0620,42.6414;;Pristina;Dobri Dub
+0;20.6942,42.6011;;Pec;Dobri Do
+0;21.1633,42.9669;;Pristina;Dobri Do
+0;20.5350,42.4411;;Gjakova;Dobridol
+0;20.3819,42.6025;;Pec;Dobërdol
+0;21.5697,42.4733;;Gjilan;Dobërçan
+0;20.7061,42.6128;;Pec;Dobra Voda
+0;20.8266,43.0773;;Mitrovica;Dobrava
+0;20.9464,42.8447;;Mitrovica;Dobra Luka
+0;20.5019,42.4236;;Gjakova;Doblibare
+1571;20.8186,42.3183;;Prizren;Gjinoc
+0;21.3081,42.1553;;Ferizaj;Dimce
+0;20.6628,42.0169;;Prizren;Dikance
+0;21.1419,42.7216;;Pristina;Devet Jugovića
+0;21.4008,42.3989;;Gjilan;Devaja
+0;20.3581,42.3422;;Gjakova;Deva
+0;21.7392,42.6589;;Gjilan;Desivojce
+9389;21.2967,42.1500;71510;Ferizaj;Hani i Elezit
+0;20.9183,42.2850;;Prizren;Delovce
+0;21.0500,42.8333;;Mitrovica;Deliblato
+0;21.4278,42.3478;;Gjilan;Gjylekar
+0;20.9033,42.9925;;Mitrovica;Dedinje
+0;20.5694,42.2839;;Prizren;Dedaj
+50500;20.2879,42.5402;51000;Gjakova;Deçan
+0;21.3983,42.2608;;Gjilan;Debelldeh
+0;21.6203,42.6469;;Gjilan;Dazhnicë
+0;21.0647,42.4469;;Ferizaj;Davidovce
+0;20.3981,42.5361;;Gjakova;Dashinoc
+0;20.5356,42.4275;;Gjakova;Danjane
+0;20.5208,42.2961;;Gjakova;Damjane
+94158;20.4308,42.3803;50000;Gjakova;Gjakovë
+0;21.4339,42.7286;;Pristina;Dabishec
+0;20.3389,42.6572;;Pec;Çyshk
+0;20.5881,42.5600;;Pec;Gornje Čupevo
+0;21.0240,42.5339;;Pristina;Čučuljaga
+0;20.7397,42.7692;;Mitrovica;Čubrelj
+0;20.7281,43.0453;;Mitrovica;Crveni
+0;20.6886,42.4775;;Prizren;Crnovrane
+0;20.9681,42.4525;;Ferizaj;Crnoljevo
+0;20.2778,42.6783;;Pec;Bregu i Zi
+0;20.4011,42.7206;;Pec;Crni Lug
+0;20.7692,42.5128;;Prizren;Crni Lug
+0;21.1997,42.4575;;Ferizaj;Crnilo
+0;21.0558,42.4750;;Pristina;Carabreg
+1032;20.4531,42.7797;;Pec;Cerrcë
+0;20.8072,43.2058;;Mitrovica;Crnatovo
+0;20.4764,42.4725;;Gjakova;Crmljan
+0;21.0539,42.6733;;Pristina;Crkvena Vodica
+0;20.6333,42.8131;;Pec;Crkolez
+0;20.6778,42.8758;;Mitrovica;Crepulja
+0;21.4833,42.4833;;Gjilan;Čokotin
+0;20.7092,42.9156;;Mitrovica;Čitluk
+0;20.6622,42.7886;;Mitrovica;Čitak
+0;20.7319,43.2413;;Mitrovica;Qirkoviq
+0;20.8936,42.7158;;Mitrovica;Ćirez
+0;20.5225,42.4614;;Gjakova;Čiflak
+0;21.3461,42.3778;;Gjilan;Čiflak
+0;20.6434,42.9763;;Mitrovica;Češanoviće
+0;20.7392,42.5872;;Pec;Cerovik
+0;21.4197,42.4256;;Gjilan;Cernica
+0;21.2800,42.3433;;Gjilan;Čerkez Sadovina
+0;20.4358,42.4058;;Gjakova;Çerim
+0;20.2669,42.3400;;Gjakova;Qerret
+0;20.8545,43.0251;;Mitrovica;Ceranja
+0;20.4406,42.5764;;Pec;Çallapek
+0;20.6297,42.3378;;Gjakova;Celina
+0;20.5974,42.9168;;Mitrovica;Čečevo
+0;21.0539,42.8478;;Mitrovica;Cecelija
+0;21.6372,42.5644;;Gjilan;Çarakoc
+0;20.7683,42.2856;;Prizren;Caparce
+0;20.9267,42.4033;;Prizren;Čajdrak
+0;21.1469,42.6200;;Pristina;Çagllavica
+1300;20.7725,42.9067;;Mitrovica;Čabra
+0;20.7144,42.5961;;Pec;Çabiq
+0;21.3906,42.2856;;Gjilan;Buzovik
+0;21.5297,42.5667;;Gjilan;Busovata
+0;21.3097,42.6411;;Pristina;Businje
+0;21.5069,42.6250;;Gjilan;Bušince
+0;21.1081,42.3022;;Ferizaj;Burnik
+0;20.5978,42.9706;;Mitrovica;Burlate
+0;21.1458,42.8558;;Pristina;Burince
+0;21.5506,42.3964;;Gjilan;Burince
+0;21.5614,42.4544;;Gjilan;Bukovik
+0;20.9289,42.8031;;Mitrovica;Bukosh
+0;20.8908,42.3386;;Prizren;Bukosh
+0;21.0775,42.4831;;Pristina;Bujance
+0;20.4956,42.6664;32050;Pec;Budisalc
+1576;20.9250,42.3550;;Prizren;Budakovo
+800;20.4528,42.5581;;Pec;Buqan
+0;20.6344,42.1119;;Prizren;Buče
+0;20.6522,42.5236;;Prizren;Bublje
+0;20.6139,42.9778;;Mitrovica;Bube
+0;20.9381,43.0576;;Mitrovica;Brzance
+0;20.7003,42.1294;;Prizren;Brrut
+0;20.9203,42.7833;;Mitrovica;Brusnik
+0;20.2753,42.4297;;Gjakova;Brovina
+0;20.3580,42.5548;;Pec;Broliq
+0;20.7247,42.1100;;Prizren;Brodosavce
+0;21.1242,42.2628;;Ferizaj;Brod
+0;20.7061,41.9919;;Prizren;Brod
+0;20.6744,42.6917;;Mitrovica;Broćna
+0;20.5658,42.9294;;Mitrovica;Brnjak
+0;20.6131,42.3664;;Gjakova;Bërnjak
+0;21.0826,42.7772;;Pristina;Breznica
+0;20.6325,42.1233;;Prizren;Brezna
+0;20.3342,42.6436;;Pec;Berzheniku
+0;20.3036,42.7011;;Pec;Brestovik
+0;20.6642,42.3594;;Gjakova;Brestoc
+0;21.0922,42.6294;;Pristina;Bresje
+0;20.4053,42.3586;;Gjakova;Brekovac
+0;21.0774,43.0714;;Pristina;Brece
+0;20.5797,42.4250;;Gjakova;Bratotin
+0;21.5886,42.6339;;Gjilan;Bratilovce
+0;21.4043,42.5015;;Gjilan;Brasaljce
+0;21.3861,42.5092;;Gjilan;Brasaljce
+0;21.3850,42.7928;;Pristina;Braina
+2567;21.1381,42.9403;;Pristina;Bradash
+731;20.7942,42.8442;;Mitrovica;Broboniq
+0;21.5303,42.5447;;Gjilan;Bozhec
+288;21.4263,42.6016;;Pristina;Bostane
+0;21.0114,42.9137;;Mitrovica;Boshlan
+0;20.9172,43.0744;;Mitrovica;Borčane
+0;21.4689,42.6317;;Gjilan;Boljevce
+0;20.5125,42.5803;;Pec;Bokshiq
+0;20.0539,42.7428;;Pec;Boge
+0;20.7219,42.5500;;Prizren;Bobovac
+0;20.5594,42.4314;;Gjakova;Bobovac
+0;21.2506,42.2275;;Ferizaj;Bob
+0;20.3467,42.3472;;Gjakova;Bob
+0;20.7356,42.1242;;Prizren;Blaç
+0;21.3853,42.8328;;Pristina;Blato
+0;21.6450,42.5422;;Gjilan;Blato
+0;20.3572,42.6653;;Pec;Bllagajë
+0;20.8625,42.4231;;Prizren;Blace
+0;21.0083,42.7146;;Mitrovica;Bivoljak
+0;20.7070,43.2118;;Mitrovica;Bistrica
+0;20.8658,43.0106;;Mitrovica;Bistrica
+0;20.5119,42.3556;50500;Gjakova;Bishtazhin
+0;21.3642,42.2994;;Gjilan;Binçe
+0;21.6083,42.4181;;Gjilan;Bilince
+0;21.2144,42.2456;;Ferizaj;Biqec
+0;20.6008,42.6794;;Pec;Binxhë
+0;21.1958,42.3756;;Ferizaj;Bibaj
+0;21.1485,42.7538;;Pristina;Besinje
+0;20.5308,42.6747;;Pec;Berkovo
+0;20.2917,42.4208;;Gjakova;Berjah
+0;21.5864,42.5672;;Gjilan;Berivojce
+0;20.8500,42.5333;;Prizren;Beriša
+0;21.0244,42.2456;;Ferizaj;Berevce
+0;20.6867,43.1286;;Mitrovica;Berberište
+0;20.9708,42.7264;;Mitrovica;Beçuk
+0;20.7233,43.1769;;Mitrovica;Beluće
+0;21.1965,42.8112;;Pristina;Belo Polje
+0;20.5656,42.7739;;Pec;Belo Polje
+0;20.2856,42.6411;;Pec;Bellopojë
+0;21.2428,42.3103;;Ferizaj;Belograce
+0;20.6833,42.1183;;Prizren;Bellobrad
+0;20.8217,43.2350;;Mitrovica;Belo Brdo
+0;21.0092,42.4422;;Ferizaj;Belince
+0;20.6333,42.7500;;Pec;Belica
+0;20.3172,42.5342;;Gjakova;Beleg
+0;20.8169,42.4586;;Prizren;Belanica
+0;20.5956,42.3567;;Gjakova;Bela Crkva
+0;21.3875,42.3036;;Gjilan;Begunce
+0;20.4450,42.7325;;Pec;Llukaci Begut (Begaj)
+0;20.8906,42.7536;;Mitrovica;Beçiq
+0;20.4494,42.4431;;Gjakova;Bec
+0;21.0683,42.5892;;Pristina;Batuse
+0;20.2608,42.4539;;Gjakova;Batushë
+0;21.2377,42.8351;;Pristina;Batlava
+0;21.1263,42.7553;;Pristina;Bariljevo
+0;20.6172,43.1881;;Mitrovica;Bare
+0;20.9764,42.9617;;Mitrovica;Bare
+0;20.7294,43.1694;;Mitrovica;Bare
+0;20.5047,42.4042;;Gjakova;Bardosan
+0;21.3070,42.8317;;Pristina;Baraina
+0;20.7889,42.9372;;Mitrovica;Banovdoll
+0;20.7517,42.9769;;Mitrovica;Banjski Suvi Do
+0;20.7556,42.9872;;Mitrovica;Banjska Reka
+0;20.7808,42.9733;;Mitrovica;Banjska
+0;20.9539,42.8586;;Mitrovica;Banjska
+0;20.3892,42.7167;;Pec;Banjica
+0;20.8378,42.6250;;Pristina;Banjica
+0;20.9153,42.5200;;Pristina;Banjica
+0;21.1644,42.2878;;Ferizaj;Banjica
+0;20.5604,42.9707;;Mitrovica;Banje
+0;20.6725,42.8142;;Mitrovica;Banja
+0;20.7811,42.4653;;Prizren;Banja
+0;20.3914,42.7269;;Pec;Banja
+0;21.1533,42.5164;;Pristina;Bandulić
+0;21.2341,42.8946;;Pristina;Balovac
+0;20.8897,42.8097;;Mitrovica;Balince
+0;20.7847,42.5500;;Prizren;Balince
+0;21.3653,42.4122;;Gjilan;Balance
+0;21.3219,42.7922;;Pristina;Balaban
+0;21.1054,42.7238;;Pristina;Bakshi
+0;20.8767,42.7192;;Mitrovica;Baks
+0;21.0064,42.9565;;Mitrovica;Bajgora
+0;21.1116,42.9736;;Pristina;Bajgora
+0;21.1569,42.9511;;Pristina;Bajčina
+0;21.2225,42.6097;;Pristina;Badovac
+0;20.6669,42.0103;;Prizren;Baçkë
+0;21.1506,42.4475;;Ferizaj;Bablak
+0;21.0775,42.7421;;Pristina;Babin Most
+0;20.3489,42.4861;;Gjakova;Babaloç
+0;20.3342,42.3617;;Gjakova;Babaj Boks
+0;20.6817,42.2428;;Prizren;Atmađa
+0;21.0019,42.5842;;Pristina;Harilaq
+0;21.2869,42.5972;;Pristina;Androvac
+0;20.1594,42.7283;;Pec;Alagina Reka
+0;21.2208,42.7944;;Pristina;Alabak
+0;21.1808,42.6181;;Pristina;Ajvalija
+0;21.5467,42.6292;;Gjilan;Ajnovce
+0;21.4761,42.7296;;Pristina;Ajkobila
+500;21.0330,42.6668;;Pristina;Hade
+0;20.2981,42.5297;;Gjakova;Carrabregu i Poshtëm
+0;20.2269,42.7244;;Pec;Bellopaq
+0;20.1381,42.7108;;Pec;Malaj
+0;20.2728,42.5078;;Gjakova;Voksh
+1288;20.3311,42.5528;;Gjakova;Papraqan
+4;20.3117,42.6150;;Pec;Raushiq
+0;20.7467,42.0486;;Prizren;Shajnovë II (Dytë)
+0;20.7231,42.1058;;Prizren;Kuklibeg
+0;20.7033,42.1111;;Prizren;Buzec
+0;21.2572,42.1467;;Ferizaj;Režance
+0;20.9072,42.3106;;Prizren;Dvorane
+0;20.9350,42.3636;;Prizren;Gornja Krušica
+0;20.9017,42.3600;;Prizren;Krushicë e Poshtme
+0;20.7098,43.1568;;Mitrovica;Potkomlje
+0;21.2106,42.2594;;Ferizaj;Reka
+0;20.9008,42.9039;;Mitrovica;Reka
+0;21.1744,42.9206;;Pristina;Reka
+0;21.2094,42.2669;;Ferizaj;Sopotnica
+0;20.8567,42.1733;;Prizren;Sredska
+0;20.7536,42.1517;;Prizren;Les
+0;20.6756,42.1714;;Prizren;Billushë
+0;21.1188,43.0515;;Pristina;Palatna
+0;21.0047,42.2219;;Ferizaj;Brezovica
+0;21.0539,43.0000;;Mitrovica;Kačandol
+0;21.3856,42.2472;;Gjilan;Mjak
+0;20.6622,43.1783;;Mitrovica;Vračevo
+0;20.3900,42.3406;;Gjakova;Zhub
+0;20.4219,42.3525;;Gjakova;Firza
+0;20.5631,42.6944;;Pec;Kosh
+0;20.4186,42.5753;;Pec;Baran
+0;21.5972,42.4022;;Gjilan;Zaskošnik
+0;21.0803,42.5239;;Pristina;Novo Rujce
+0;21.1808,42.5058;;Pristina;Qellopek
+243;21.0634,42.5493;;Pristina;Glanica
+0;21.0428,42.5283;;Pristina;Poturovce
+0;21.0709,42.5689;;Pristina;Lepi
+0;21.2294,42.5867;;Pristina;Shashkoc
+0;21.2706,42.6478;;Pristina;Suteska
+0;21.2872,42.6481;;Pristina;Batal Mahala
+0;21.0286,42.6206;;Pristina;Pomazatin
+0;21.0599,42.6269;;Pristina;Kuzmin
+0;21.2508,42.6608;;Pristina;Butovac
+0;21.2243,42.6888;;Pristina;Butovac
+0;21.0357,42.6846;;Pristina;Leshkoshiq
+0;21.0523,42.6773;;Pristina;Janina Voda
+0;21.0830,42.6690;;Pristina;Kruševac
+0;21.2733,42.6717;;Pristina;Halitović Mahala
+0;21.2781,42.6661;;Pristina;Večerak Mahala
+0;21.5253,42.4775;;Gjilan;Vrbica
+0;21.5075,42.4853;;Gjilan;Muhadžiri
+0;21.5228,42.4839;;Gjilan;Muhadžiri
+0;21.5467,42.4697;;Gjilan;Muhadžiri
+0;21.5242,42.4597;;Gjilan;Gornja Mahala
+0;21.1622,42.4183;;Ferizaj;Gornja Mahala
+0;21.7419,42.6761;;Gjilan;Gornja Mahala
+0;21.2272,42.4389;;Ferizaj;Gornja Mahala
+0;21.1539,42.9993;;Pristina;Gornja Mahala
+0;21.1233,42.9179;;Pristina;Gornja Mahala
+0;21.0016,42.8300;;Mitrovica;Gornja Mahala
+0;20.6900,43.2111;;Mitrovica;Košutica
+0;21.3764,42.5014;;Gjilan;Markovac
+0;20.6464,43.1894;;Mitrovica;Vukadinovići
+0;20.6425,43.1848;;Mitrovica;Manase
+0;21.2870,42.6709;;Pristina;Ramušević Mahala
+0;21.4094,42.4689;;Gjilan;Jabučani
+0;21.3947,42.4814;;Gjilan;Muhadžeri
+0;21.4676,42.5025;;Gjilan;Muhadžeri
+0;21.3628,42.5944;;Pristina;Muhadžeri
+0;21.6106,42.5464;;Gjilan;Muhadžeri
+0;20.5186,42.6139;;Pec;Muhadžeri
+0;21.1697,42.7043;;Pristina;Sinji Dol
+0;21.1641,42.7122;;Pristina;Dušinac
+0;20.6791,43.1683;;Mitrovica;Kalin
+0;20.6371,43.1835;;Mitrovica;Rikovo
+0;20.6524,43.1692;;Mitrovica;Zavada
+0;20.6603,43.1644;;Mitrovica;Vrba
+0;20.7694,42.8431;;Mitrovica;Vrba
+0;20.6954,42.9588;;Mitrovica;Vrba
+0;21.1586,42.7219;;Pristina;Miljevac
+0;21.1418,42.7409;;Pristina;Lebane
+0;21.4872,42.4614;;Gjilan;Sait Agin Zabel
+0;21.0588,42.7455;;Mitrovica;Grace
+0;21.0303,42.7736;;Mitrovica;Zenić Mahala
+0;21.3833,42.4228;;Gjilan;Kravarica
+0;21.1983,42.7672;;Pristina;Rimanište
+0;21.3103,42.3761;;Gjilan;Ramjan
+0;21.1417,42.7797;;Pristina;Pireva Mahala
+0;21.1261,42.7819;;Pristina;Lumnica
+0;21.1142,42.7925;;Pristina;Kozarica
+0;21.3833,42.3217;;Gjilan;Ravnište
+0;21.5592,42.6575;;Gjilan;Ravnište
+0;21.4408,42.2894;;Gjilan;Petrinovići
+0;21.4783,42.3003;;Gjilan;Vrnez
+0;20.7044,42.5786;;Prizren;Stepenice
+0;20.7678,42.5975;;Prizren;Mučubelj
+0;21.4703,42.3044;;Gjilan;Bašići
+0;20.8836,42.5794;;Pristina;Vukovce
+0;20.9625,42.5986;;Pristina;Krivovo
+0;20.7694,43.2178;;Mitrovica;Gornje Isevo
+0;20.8831,42.6075;;Pristina;Štrbulovo
+0;20.7804,43.2080;;Mitrovica;Kurelje
+0;20.7894,42.6347;;Pristina;Gornje Obrinje
+0;20.7928,43.2086;;Mitrovica;Obadi
+0;21.4669,42.3317;;Gjilan;Godenci i Madh
+0;20.7014,43.2231;;Mitrovica;Sharpel
+0;20.8056,42.6658;;Mitrovica;Beženić
+0;20.8056,42.6822;;Mitrovica;Makrmalj
+0;20.7503,43.2058;;Mitrovica;Parlin Potok
+0;20.8213,43.2221;;Mitrovica;Leskova
+0;20.8178,43.1867;;Mitrovica;Zemanica
+0;20.7897,43.1811;;Mitrovica;Vitanoviq
+0;21.0293,42.7964;;Mitrovica;Viljance
+0;21.5492,42.2567;;Gjilan;Donje Zlokućane
+0;21.5286,42.2567;;Gjilan;Mućajt Mahala
+0;21.5150,42.2767;;Gjilan;Dabedić Mahala
+0;20.7786,43.1911;;Mitrovica;Simičište
+0;20.7626,43.1893;;Mitrovica;Vrujice
+0;20.7367,43.1836;;Mitrovica;Zhigol
+0;20.7292,43.1836;;Mitrovica;Kamen
+0;20.8258,43.1686;;Mitrovica;Zrnosek
+0;20.7555,43.1531;;Mitrovica;Zaselje
+0;21.5728,42.2814;;Gjilan;Rušta Mahala
+0;21.5069,42.2875;;Gjilan;Ukork Mahala
+0;20.7402,43.1477;;Mitrovica;Jezerine
+0;20.7264,43.1448;;Mitrovica;Drenova
+0;20.7344,43.1616;;Mitrovica;Borova
+0;21.5267,42.2981;;Gjilan;Bukovac Mahala
+0;20.4011,42.6661;;Pec;Donje Nabrđe
+0;20.8306,43.0964;;Mitrovica;Trikose
+0;20.7770,43.0931;;Mitrovica;Kruševo
+0;20.7975,43.0917;;Mitrovica;Kutnje
+0;20.7532,43.0752;;Mitrovica;Vrletnica
+0;21.5072,42.3000;;Gjilan;Čelik
+0;21.5225,42.3042;;Gjilan;Čelik
+0;21.5067,42.3233;;Gjilan;Gaštica Mahala
+0;20.7339,43.0733;;Mitrovica;Živan Do
+0;21.5000,42.3289;;Gjilan;Fuša Mahala
+0;20.8511,42.6867;;Pristina;Fuša Mahala
+0;21.5175,42.3314;;Gjilan;Jusufovce-Mahala
+0;21.5422,42.2978;;Gjilan;Malić Mahala
+0;20.7286,43.0708;;Mitrovica;Grebna
+0;20.7103,43.0939;;Mitrovica;Gnježdane
+0;21.5497,42.3683;;Gjilan;Curecka Mahala
+0;21.5125,42.3375;;Gjilan;Demirovci
+0;21.5047,42.3447;;Gjilan;Adžini
+0;21.5578,42.3747;;Gjilan;Zimerska Mahala
+0;20.7103,43.0542;;Mitrovica;Staro Selo
+0;21.5458,42.3881;;Gjilan;Staro Selo
+0;21.5172,42.6053;;Gjilan;Staro Selo
+0;21.0325,42.9587;;Mitrovica;Staro Selo
+0;20.7294,43.0392;;Mitrovica;Brekinja
+0;20.7826,43.0515;;Mitrovica;Voznik
+0;20.8139,43.0714;;Mitrovica;Prisoje
+0;20.8130,43.0632;;Mitrovica;Kruševlje
+0;20.8297,43.0589;;Mitrovica;Begluk
+0;21.5542,42.3794;;Gjilan;Lerska Mahala
+0;21.4928,42.3403;;Gjilan;Selište
+0;20.7981,43.0256;;Mitrovica;Seoce
+0;20.7844,43.0097;;Mitrovica;Meki Do
+0;20.7600,43.0156;;Mitrovica;Krivača
+0;20.4986,42.7275;;Pec;Krivača
+0;20.7558,43.0094;;Mitrovica;Kadijača
+0;20.7533,43.0275;;Mitrovica;Pejovići
+0;20.7412,43.0309;;Mitrovica;Letovac
+0;20.4597,42.5003;;Gjakova;Don
+0;20.4478,42.5253;;Gjakova;Bardhaniq
+0;20.7397,43.0253;;Mitrovica;Erce
+0;20.4864,42.5042;;Gjakova;Muha
+0;20.7214,43.0253;;Mitrovica;Grubovica
+0;20.5219,42.5147;;Gjakova;Šaban Mahala
+0;20.5269,42.5181;;Gjakova;Čalak Mahala
+0;20.5408,42.5244;;Pec;Boričić
+0;20.5497,42.5181;;Pec;Malević
+0;20.6111,42.5067;;Prizren;Rudaj
+0;20.7386,42.5956;;Pec;Rudaj
+0;20.6444,42.5036;;Prizren;Garaqevë
+0;20.6928,42.5817;;Pec;Riđevo
+0;20.6625,42.5883;;Pec;Krivoc
+0;20.5939,42.5875;;Pec;Cucaj
+0;20.5686,42.5722;;Pec;Čupevo
+0;20.5622,42.5814;;Pec;Ðuričić
+0;20.5606,42.5569;;Pec;Rastoka
+0;20.5269,42.5603;;Pec;Çeshkovë
+0;20.5269,42.5811;;Pec;Miljčević
+0;20.4750,42.5758;;Pec;Tamnik
+0;20.4022,42.5772;;Pec;Baran i Epërm
+0;20.7128,43.0350;;Mitrovica;Han Grižani
+0;20.4019,42.6208;;Pec;Milovancë
+0;20.4167,42.6219;;Pec;Babiq
+0;20.5337,42.9547;;Mitrovica;Babiq
+0;20.4422,42.6006;;Pec;Rosulje
+0;20.8136,42.8303;;Mitrovica;Rosulje
+0;20.4694,42.6042;;Pec;Mahala Staro Rosulje
+0;20.4881,42.6183;;Pec;Breg
+0;20.4861,42.6094;;Pec;Petriq i Epërm
+0;20.5022,42.6125;;Pec;Petriq i Ultë
+0;20.5614,42.6183;;Pec;Poljce
+0;20.6597,42.6008;;Pec;Demaj
+0;20.0825,42.7458;;Pec;Demaj
+0;20.6883,42.6411;;Pec;Lugadžija
+0;20.5167,42.6694;;Pec;Lugadžija
+0;20.6603,42.6208;;Pec;Lugadžija
+0;20.6525,42.6317;;Pec;Dusheviq
+0;20.7444,43.0097;;Mitrovica;Leskova Glava
+0;20.6467,42.6414;;Pec;Mustafaj
+0;20.8326,43.0658;;Mitrovica;Mala
+0;20.6769,42.6600;;Pec;Resnik
+0;20.9689,42.7753;;Mitrovica;Resnik
+0;20.8331,43.0700;;Mitrovica;Krš Mala
+0;20.8353,43.0631;;Mitrovica;Potok Mala
+0;20.6900,42.6625;;Pec;Demaku
+0;20.8564,43.2331;;Mitrovica;Marushiq
+0;20.8427,43.2168;;Mitrovica;Gradište
+0;20.6525,42.1961;;Prizren;Gradište
+0;20.6253,42.6450;;Pec;Čupevaj
+0;20.8666,43.2184;;Mitrovica;Planinica
+0;20.6147,42.6461;;Pec;Bojaj
+0;20.6364,42.6358;;Pec;Pograxhë
+0;20.8606,43.1600;;Mitrovica;Modromir
+0;20.5717,42.6294;;Pec;Ciganska Mahala
+0;20.5975,42.6575;;Pec;Lalici
+0;20.5475,42.6553;;Pec;Potočani
+0;20.5386,42.6322;;Pec;Paskalica
+0;20.5000,42.6614;;Pec;Naglavci
+0;20.8744,43.1321;;Mitrovica;Zavrata
+0;20.4603,42.6550;;Pec;Idrizi
+0;20.4394,42.6331;;Pec;Llugaxhi
+0;20.4169,42.6439;;Pec;Dobeljaš
+0;20.4189,42.6622;;Pec;Ljutoglava
+0;20.9100,43.1378;;Mitrovica;Savićska Mala
+0;20.4411,42.6797;;Pec;Mahala Trubuhoc
+0;20.9142,43.1350;;Mitrovica;Jevtićska Mala
+0;20.4722,42.6794;;Pec;Kućište
+0;21.5753,42.5922;;Gjilan;Kučište
+0;20.4767,42.6847;;Pec;Mahala Baljevac
+0;20.4897,42.6892;;Pec;Zabllaq
+0;20.5239,42.6928;;Pec;Drenje
+0;20.5417,42.6919;;Pec;Opraške
+0;20.8542,43.1029;;Mitrovica;Negomirac
+0;20.5903,42.7011;;Pec;Paljevo
+0;20.6712,42.9715;;Mitrovica;Paljevo
+0;20.9050,43.1023;;Mitrovica;Lukarjë
+0;20.6036,42.6664;;Pec;Bakaj
+0;20.8464,43.0967;;Mitrovica;Mutivode
+0;20.6706,42.7022;;Mitrovica;Šalja
+0;20.6797,42.7111;;Mitrovica;Orašje
+0;20.3519,42.6414;;Pec;Orašje
+0;20.6347,42.7094;;Mitrovica;Ozrim
+0;20.6622,42.7150;;Mitrovica;Krasnić
+0;20.7128,42.6003;;Pec;Krasnić
+0;20.5817,42.7147;;Pec;Lopčak
+0;20.4894,42.7031;;Pec;Osmanovići
+0;20.4278,42.6975;;Pec;Staro Dvorane
+0;20.4739,42.7183;;Pec;Kabašani
+0;20.4847,42.7275;;Pec;Arbëneshi
+0;20.5342,42.7383;;Pec;Gusar
+0;20.5636,42.7450;;Pec;Veriq i Ri
+0;20.9367,43.0131;;Mitrovica;Doljanci
+0;20.9586,43.0144;;Mitrovica;Isljamovići
+0;21.1087,42.8294;;Mitrovica;Isljamovići
+0;20.9069,43.0142;;Mitrovica;Ovčare
+0;20.2206,42.7081;;Pec;Llaz-Bellopaq
+0;20.7597,42.9944;;Mitrovica;Jankov Potok
+0;20.7850,43.0010;;Mitrovica;Jankov Potok
+0;21.1011,42.7694;;Pristina;Koskovik Mahala
+0;20.8117,42.9961;;Mitrovica;Kula
+0;20.7883,42.9636;;Mitrovica;Bresnica
+0;21.0983,42.4842;;Pristina;Malo Gracko
+0;21.0792,42.8228;;Mitrovica;Zagorje
+0;21.0847,42.8414;;Mitrovica;Čaret
+0;21.1175,42.8567;;Pristina;Lešnica
+0;21.0164,42.4294;;Ferizaj;Račak
+0;21.0142,42.4150;;Ferizaj;Lužak
+0;21.1694,42.8542;;Pristina;Kunushec
+0;21.2000,42.8428;;Pristina;Donji Sibovac
+0;21.1908,42.8525;;Pristina;Gornji Sibovac
+0;21.1172,42.4358;;Ferizaj;Ljubovce
+0;20.9169,42.4219;;Prizren;Ljubovce
+0;21.1144,42.4078;;Ferizaj;Lojze
+0;21.1478,42.4119;;Ferizaj;Donja Mahala
+0;21.7486,42.6703;;Gjilan;Donja Mahala
+0;20.6014,42.7467;;Pec;Donja Mahala
+0;20.4811,42.7086;;Pec;Donja Mahala
+0;21.1986,42.5075;;Pristina;Donja Mahala
+0;20.9997,42.9087;;Mitrovica;Donja Mahala
+0;21.1580,42.9888;;Pristina;Donja Mahala
+0;21.1300,42.4039;;Ferizaj;Bublica
+0;21.1328,42.3928;;Ferizaj;Saraište
+0;21.0710,42.8749;;Mitrovica;Kunovik
+0;21.1669,42.4342;;Ferizaj;Prelez i Muhaxher
+0;21.1897,42.8767;;Pristina;Sekirača
+0;21.2077,42.8873;;Pristina;Surkish
+0;21.1978,42.4464;;Ferizaj;Novi Maraš
+0;21.2418,42.9088;;Pristina;Barovce
+0;21.2178,42.9070;;Pristina;Shtedim
+0;21.2022,42.9022;;Pristina;Merčez
+0;21.2364,42.4286;;Ferizaj;Mahala-Gega
+0;21.1708,42.4161;;Ferizaj;Placevi
+0;21.0781,42.9139;;Pristina;Segasht
+0;21.1906,42.4014;;Ferizaj;Ratkocer
+0;21.1803,42.4400;;Ferizaj;Svrčina
+0;21.2008,42.3972;;Ferizaj;Brneš
+0;21.2119,42.4153;;Ferizaj;Grbole
+0;21.2164,42.4028;;Ferizaj;Maljok-Mahala
+0;21.2336,42.3961;;Ferizaj;Caka Mahala
+0;21.1742,42.2617;;Ferizaj;Caka Mahala
+0;21.2300,42.3778;;Ferizaj;Dragaš-Mahala
+0;21.2242,42.3661;;Ferizaj;Agušović-Mahala
+0;21.2578,42.4339;;Ferizaj;Mahala e Fušes
+0;21.2375,42.3428;;Ferizaj;Džami-Mahala
+0;21.2128,42.3403;;Ferizaj;Piskavica
+0;21.2244,42.3386;;Ferizaj;Sirinić
+0;21.2153,42.3325;;Ferizaj;Tafali-Mahala
+0;21.2461,42.3303;;Ferizaj;Lug-Mahala
+0;21.2294,42.3489;;Ferizaj;Čarkoš-Mahala
+0;21.2147,42.3444;;Ferizaj;Kača
+0;21.2639,42.3267;;Gjilan;Pumpa
+0;21.1728,42.3492;;Ferizaj;Nekodin
+0;20.7817,42.9514;;Mitrovica;Vilište
+0;20.8103,42.9364;;Mitrovica;Sendo
+0;20.8086,42.9089;;Mitrovica;Gornje Korilje
+0;20.8206,42.9111;;Mitrovica;Donje Korilje
+0;20.8194,42.9158;;Mitrovica;Matica
+0;20.7025,42.9180;;Mitrovica;Dobroševina
+0;20.8244,42.8839;;Mitrovica;Gushac
+0;21.2475,42.3214;;Ferizaj;Horun
+0;21.2622,42.3125;;Ferizaj;Gornja Ljuža
+0;20.7889,42.8475;;Mitrovica;Gradevac
+0;20.7606,42.8778;;Mitrovica;Kolovrt
+0;21.2544,42.3014;;Ferizaj;Kućišt
+0;21.2789,42.3011;;Gjilan;Jašar
+0;21.2978,42.3100;;Gjilan;Muhadžer
+0;21.2775,42.3131;;Gjilan;Muhadžer
+0;20.8244,42.8017;;Mitrovica;Boževce
+0;21.2647,42.2603;;Ferizaj;Kriva Njiva
+0;21.2681,42.2683;;Ferizaj;Čafka Mahala
+0;21.2536,42.2617;;Ferizaj;Teneč
+0;21.2428,42.2686;;Ferizaj;Duškaja Mahala
+0;21.2233,42.2808;;Ferizaj;Čardak Mahala
+0;21.2242,42.2864;;Ferizaj;Čardak
+0;21.2300,42.2936;;Ferizaj;Reč-Mahala
+0;21.2231,42.3003;;Ferizaj;Pruš-Mahala
+0;20.7622,42.8267;;Mitrovica;Donji Strmac
+0;21.2372,42.2858;;Ferizaj;Topojan-Mahala
+0;21.1672,42.2878;;Ferizaj;Donja Gabrica
+0;21.1975,42.2806;;Ferizaj;Mahalla e Hoxhajve
+0;21.2186,42.2706;;Ferizaj;Krlak-Mahala
+0;20.7133,42.8950;;Mitrovica;Gluvač
+0;21.1142,42.2594;;Ferizaj;Aguš Mahala
+0;21.1425,42.2625;;Ferizaj;Cekljar Mahala
+0;21.1369,42.2717;;Ferizaj;Car-Mahala
+0;21.1311,42.2647;;Ferizaj;Emrla-Mahala
+0;21.1506,42.2772;;Ferizaj;Stara Banjica
+0;21.0806,42.2658;;Ferizaj;Viçë
+0;21.0317,42.2619;;Ferizaj;Popovce
+0;21.0150,42.2597;;Ferizaj;Ðurinci
+0;21.0308,42.2819;;Ferizaj;Poljojca
+0;21.0836,42.2942;;Ferizaj;Lašarc
+0;21.0694,42.2958;;Ferizaj;Hajdar-Mahala
+0;21.0689,42.2883;;Ferizaj;Ručućeva Mahala
+0;21.1197,42.2872;;Ferizaj;Gornje Semanje
+0;21.1333,42.2881;;Ferizaj;Semanje
+0;21.1808,42.3200;;Ferizaj;Topojane
+0;21.1561,42.3164;;Ferizaj;Omure
+0;21.1450,42.3228;;Ferizaj;Beriša-Mahala
+0;21.1175,42.3078;;Ferizaj;Kosumović-Mahala
+0;21.1339,42.3669;;Ferizaj;Sherret
+0;21.1611,42.3456;;Ferizaj;Musović-Mahala
+0;21.1172,42.3442;;Ferizaj;Donja Plešina
+0;21.1089,42.3581;;Ferizaj;Manastirce
+0;21.1033,42.3797;;Ferizaj;Baliq
+0;21.1061,42.3758;;Ferizaj;Božovići
+0;21.0928,42.3944;;Ferizaj;Muhaxher
+0;21.0222,42.3731;;Ferizaj;Verište
+0;21.0331,42.3769;;Ferizaj;Prorok
+0;21.0097,42.3614;;Ferizaj;Ukzmajl
+0;20.9878,42.3600;;Ferizaj;Ukzmajl
+0;21.0078,42.3700;;Ferizaj;Katun
+0;21.0422,42.3533;;Ferizaj;Šajkovac
+0;21.0147,42.3461;;Ferizaj;Mačitevo
+0;21.0364,42.3569;;Ferizaj;Begovići
+0;21.0442,42.3933;;Ferizaj;Salihaj
+0;21.0453,42.4136;;Ferizaj;Renoj
+0;21.0350,42.4192;;Ferizaj;Hađovići
+0;21.0017,42.4639;;Ferizaj;Badrađzi
+0;20.8764,42.9978;;Mitrovica;Bataire
+0;20.8950,42.9658;;Mitrovica;Zijača
+0;20.3011,42.7292;;Pec;Burnut
+0;20.1678,42.7342;;Pec;Pecaj
+0;20.1586,42.7253;;Pec;Hokaj
+0;20.1681,42.7089;;Pec;Mahala Laze
+0;20.1331,42.7303;;Pec;Lutovo
+0;20.1086,42.7356;;Pec;Lugje
+0;20.2567,42.6669;;Pec;Lëvoshë
+0;20.2843,42.6569;;Pec;Zatra
+0;20.3847,42.6103;;Pec;Kastra
+0;20.2106,42.5767;;Gjakova;Belleja
+0;20.3339,42.5831;;Gjakova;Bari
+0;20.3547,42.5953;;Pec;Duboçak
+0;20.3628,42.5911;;Pec;Krysheci i Ri
+0;20.3486,42.5631;;Gjakova;Prapaqani i Ri
+0;20.3442,42.5556;;Gjakova;Papiq
+700;20.3356,42.5458;;Gjakova;Lluka e Poshtme
+1050;20.2808,42.5244;;Gjakova;Lloqan
+0;20.2675,42.5447;;Gjakova;Letovačište
+0;20.8958,42.4119;;Prizren;Sopska Mahala
+0;20.9522,42.4928;;Pristina;Metovići
+0;20.9572,42.4792;;Ferizaj;Salihovići
+0;20.9308,42.4611;;Ferizaj;Duga
+0;20.8786,42.4769;;Prizren;Rez
+0;20.9064,42.4683;;Prizren;Karačica
+0;20.8656,42.4531;;Prizren;Sadikaj
+0;20.8369,42.4875;;Prizren;Ramaj
+0;20.8281,42.4861;;Prizren;Haljitaj
+0;20.7714,42.4758;;Prizren;Malić
+0;20.7692,42.4633;;Prizren;Bogić
+0;20.7522,42.4603;;Prizren;Gajrak
+0;20.7383,42.4736;;Prizren;Veseljović
+0;20.7406,42.4883;;Prizren;Minol
+0;20.7483,42.4086;;Prizren;Ređević Mahala
+0;20.7567,42.4144;;Prizren;Bajdan Mahala
+0;20.7603,42.4289;;Prizren;Dukoj
+0;20.7789,42.4108;;Prizren;Breshanc
+0;20.7958,42.4253;;Prizren;Nezović
+0;20.7961,42.4183;;Prizren;Smoković
+0;20.8478,42.4250;;Prizren;Fangu
+0;20.8367,42.4492;;Prizren;Stolići
+0;20.8439,42.4475;;Prizren;Gaši
+0;20.8625,42.4453;;Prizren;Karaboj
+0;20.8608,42.4344;;Prizren;Zekoli
+0;20.8625,42.4153;;Prizren;Suk-Mahala
+0;20.9433,42.3994;;Prizren;Rašan Mahala
+0;20.9233,42.3964;;Prizren;Vrelo Mahala
+0;20.9008,42.3975;;Prizren;Dragaqinë
+0;21.2700,42.8964;;Pristina;Šamaluk
+0;21.2138,42.9342;;Pristina;Donje Ličane
+0;21.2039,42.9439;;Pristina;Gornje Ličane
+0;21.1426,42.9565;;Pristina;Lepaja
+0;21.1235,42.9335;;Pristina;Spajeviča Mahala
+0;21.1469,42.9847;;Pristina;Gornja Zakut
+0;20.7742,42.3481;;Prizren;Kosančić
+0;20.7867,42.3394;;Prizren;Lešanska Mahala
+0;20.8189,42.3439;;Prizren;Široko
+0;20.9242,42.3394;;Prizren;Bužalja
+0;20.9197,42.3544;;Prizren;Paljuš Mahala
+0;20.9142,42.3572;;Prizren;Sajtuk Mahala
+0;20.9036,42.3314;;Prizren;Lugođija
+0;20.8089,42.2658;;Prizren;Zekince
+0;20.8311,42.2675;;Prizren;Mužljak
+0;20.9222,42.9144;;Mitrovica;Strana
+0;20.9172,42.8928;;Mitrovica;Strana
+0;20.8858,42.8861;;Mitrovica;Shupkovc
+0;21.1036,42.9867;;Pristina;Tauda Kuće
+0;20.8572,42.9356;;Mitrovica;Boljetin
+0;21.3162,42.5111;;Gjilan;Donji Žegovac
+0;21.3778,42.5222;;Gjilan;Hodžovići
+0;21.3806,42.5050;;Gjilan;Šošivarci
+0;21.3911,42.5031;;Gjilan;Rucovići
+0;21.3900,42.5100;;Gjilan;Brkoli Mahala
+0;20.9733,42.8744;;Mitrovica;Trlabuć
+0;20.5997,42.4661;;Gjakova;Potok
+0;21.1244,43.0629;;Pristina;Potok
+0;21.0853,42.9299;;Pristina;Potok
+0;20.4556,42.4708;;Gjakova;Rashkoc
+0;20.4581,42.4739;;Gjakova;Netic
+0;20.4169,42.4517;;Gjakova;Janosh
+0;20.4225,42.4544;;Gjakova;Sopot
+0;20.4386,42.4169;;Gjakova;Zimonjić
+0;21.5011,42.5028;;Gjilan;Kosača
+0;20.5294,42.3519;;Gjakova;Gradiš
+0;20.4942,42.3886;;Gjakova;Rezina
+0;20.5358,42.3464;;Gjakova;Fshaj
+0;20.6953,42.3250;;Gjakova;Reti e Poshtme
+0;20.5514,42.2969;;Gjakova;Maroš
+0;21.3688,42.5382;;Gjilan;Mečkarci
+0;21.3619,42.5361;;Gjilan;Perići
+0;20.4183,42.3075;;Gjakova;Ćurdina
+0;21.3621,42.5265;;Gjilan;Jakovčovi
+0;21.3450,42.5237;;Gjilan;Spajovići
+0;20.8603,42.8564;;Mitrovica;Donja Vaganica
+0;21.3208,42.5287;;Gjilan;Belenica
+0;20.8697,42.8342;;Mitrovica;Pirq
+0;21.3217,42.5392;;Gjilan;Tekija
+0;21.3286,42.5592;;Gjilan;Smajlovci
+0;21.3889,42.5661;;Pristina;Terinčani
+0;21.4028,42.5492;;Pristina;Manutari
+0;21.5525,42.5556;;Gjilan;Redinci
+0;21.5433,42.5503;;Gjilan;Stara Mahala
+0;21.5322,42.5875;;Gjilan;Miganovce
+0;21.4961,42.5714;;Gjilan;Bajrovici
+0;21.4679,42.5701;;Gjilan;Maljočka Mahala
+0;21.4572,42.5831;;Pristina;Čeranovica
+0;21.4278,42.5775;;Gjilan;Broćanac
+0;21.4261,42.5853;;Pristina;Trnićevce
+0;21.4393,42.5936;;Pristina;Čuljkova Mahala
+0;21.4511,42.5924;;Pristina;Šumaci
+0;20.9275,42.8167;;Mitrovica;Doljak
+0;20.3892,42.4853;;Gjakova;Bitesh i Eperm
+0;20.3983,42.4703;;Gjakova;Bitesh i Ulet
+0;20.3789,42.4714;;Gjakova;Dobrić
+0;20.2731,42.4833;;Gjakova;Pepsh
+0;20.2672,42.4714;;Gjakova;Goç
+0;20.2917,42.4756;;Gjakova;Miroc - Malok
+0;20.2903,42.4797;;Gjakova;Sać
+0;20.2719,42.4514;;Gjakova;Kalavaj
+0;20.3117,42.4597;;Gjakova;Kalavaj
+0;20.2461,42.4347;;Gjakova;Potok Molić
+0;20.2553,42.4211;;Gjakova;Potok Morina
+0;20.3128,42.4164;;Gjakova;Gornji Nec
+0;20.3417,42.4222;;Gjakova;Dallashaj
+0;20.3383,42.4072;;Gjakova;Kodra Gutit
+0;20.3581,42.4050;;Gjakova;Kocaj
+0;20.3714,42.4003;;Gjakova;Rrypaj-Madanaj
+0;20.3867,42.3897;;Gjakova;Meja-Orize
+0;20.3414,42.3714;;Gjakova;Dužnje
+0;20.3081,42.3669;;Gjakova;Šišman-Baks
+0;20.3528,42.3386;;Gjakova;Kolonija
+0;20.3669,42.3397;;Gjakova;Kukaj
+0;20.3728,42.3608;;Gjakova;Guskë
+0;21.4003,42.5605;;Pristina;Dolina
+0;21.3156,42.5755;;Pristina;Popova Livada
+0;21.3589,42.5781;;Pristina;Dragidele
+0;21.3597,42.5731;;Pristina;Dorgovci
+0;20.9039,42.8061;;Mitrovica;Liqej
+0;21.5928,42.5917;;Gjilan;Donje Močare
+0;21.4925,42.5906;;Pristina;Kosmatanci
+0;21.3897,42.5769;;Pristina;Malenovci
+0;21.3958,42.5856;;Pristina;Zabeljce
+0;21.3253,42.5856;;Pristina;Brus
+0;21.3064,42.6011;;Pristina;Pešter
+0;21.3408,42.6069;;Pristina;Milinci
+0;21.3786,42.5936;;Pristina;Soračak
+0;20.9747,42.2425;;Ferizaj;Stanisavljeva Mala
+0;21.3905,42.6044;;Pristina;Mirkovci
+0;20.9878,42.2317;;Ferizaj;Radanova Mala
+0;20.9456,42.2078;;Ferizaj;Kalpakovi
+0;20.9344,42.2139;;Ferizaj;Šubarini
+0;20.8292,42.2422;;Prizren;Zenelova Mahala
+0;20.7614,42.2008;;Prizren;Pousko
+0;20.7533,42.1658;;Prizren;Kushtendil
+0;21.5953,42.6025;;Gjilan;Gornje Močare
+0;20.8453,42.1686;;Prizren;Stajkovce
+0;21.5892,42.6094;;Gjilan;Bosce
+0;21.5731,42.6211;;Gjilan;Stanilovac
+0;21.5536,42.6108;;Gjilan;Gornje Rečane
+0;21.5569,42.6239;;Gjilan;Glibar
+0;20.5795,42.9841;;Mitrovica;Gornje Varage
+0;20.8517,42.1769;;Prizren;Pejčići
+0;20.8594,42.1661;;Prizren;Milačići
+0;20.8786,42.1719;;Prizren;Bogoševac
+0;20.9361,42.1728;;Prizren;Gornja Mala
+0;21.5158,42.6264;;Gjilan;Mahala Padina
+0;20.5711,42.9762;;Mitrovica;Klečke
+0;20.6133,42.9925;;Mitrovica;Zagrađe
+0;21.4333,42.3069;;Gjilan;Zagrađe
+0;20.6661,42.9828;;Mitrovica;Vidovce
+0;21.5300,42.6072;;Gjilan;Mahala Glođe
+0;21.4836,42.6092;;Gjilan;Carevce
+0;21.4897,42.6267;;Gjilan;Kosovica
+0;21.4402,42.6085;;Pristina;Plavica
+0;21.4222,42.6269;;Pristina;Mahala Bagovište
+0;21.3967,42.6197;;Pristina;Vlase
+0;21.3347,42.6131;;Pristina;Rajnovac
+0;20.6139,42.0911;;Prizren;Gornja Rapča
+0;20.6183,42.0831;;Prizren;Donja Rapča
+0;21.3425,42.6175;;Pristina;Vidaci
+0;21.3753,42.6275;;Pristina;Golema Livada
+0;21.3761,42.6433;;Pristina;Grbeš
+0;21.3931,42.6375;;Pristina;Modri Potok
+0;21.4047,42.6358;;Pristina;Mahala Dragolisice
+0;21.4114,42.6450;;Pristina;Vakovce
+0;20.6355,42.9665;;Mitrovica;Babudovica
+0;21.4444,42.6292;;Pristina;Klokoć
+0;20.6111,42.9606;;Mitrovica;Kopillov
+0;21.4442,42.6442;;Pristina;Nišno Kolo
+0;21.5169,42.6369;;Gjilan;Populanci
+0;21.5222,42.6347;;Gjilan;Ručevica
+0;21.5883,42.6511;;Gjilan;Rupište
+0;21.5683,42.6506;;Gjilan;Jelaća
+0;21.5167,42.6564;;Gjilan;Buđenica
+0;21.5511,42.6725;;Gjilan;Pireva
+0;21.5506,42.6639;;Gjilan;Preslup
+0;21.5150,42.6594;;Gjilan;Mahala Drma
+0;21.2394,42.2461;;Ferizaj;Belja
+0;21.2139,42.1908;;Ferizaj;Alil-Mahala
+0;21.1858,42.1842;;Ferizaj;Dragomac
+0;21.1797,42.1769;;Ferizaj;Kodralji
+0;20.8767,42.4694;;Prizren;Kodralji
+0;21.2122,42.1811;;Ferizaj;Drošec
+0;21.2192,42.1733;;Ferizaj;Kuč Mahala
+0;21.2356,42.1750;;Ferizaj;Mahala kod Džamije
+0;21.2367,42.1703;;Ferizaj;Stremce
+0;21.2506,42.1800;;Ferizaj;Ljač Mala
+0;21.2703,42.1975;;Ferizaj;Eljez Mala
+0;21.2903,42.2017;;Ferizaj;Belja-Mala
+0;21.2781,42.1864;;Ferizaj;Adam Mala
+0;21.2969,42.1894;;Ferizaj;Ornica
+0;21.2836,42.1678;;Ferizaj;Ramun Mala
+0;21.2725,42.1681;;Ferizaj;Gornja Buš Mala
+0;21.2706,42.1633;;Ferizaj;Donja Buš Mala
+0;21.2597,42.1606;;Ferizaj;Dac Mala
+0;21.2500,42.1414;;Ferizaj;Hunel
+0;21.2897,42.1481;;Ferizaj;Melić
+0;21.2600,42.1325;;Ferizaj;Hasalari
+0;20.6731,42.2461;;Prizren;Manrec
+0;20.6417,42.2175;;Prizren;Kobanje
+0;20.5856,42.2047;;Prizren;Šeh Mahala
+0;20.5489,42.1864;;Prizren;Binaj
+0;20.5528,42.1822;;Prizren;Tejec
+0;20.5436,42.1744;;Prizren;Martinaj
+0;20.5708,42.1892;;Prizren;Stajk
+0;20.6417,42.1989;;Prizren;Muradem
+0;20.6064,42.0728;;Prizren;Mali Krstac
+0;20.5304,42.9576;;Mitrovica;Miljkovići
+0;20.5508,42.9438;;Mitrovica;Dragalice
+0;20.5772,42.9575;;Mitrovica;Čpilje
+0;20.5933,42.9426;;Mitrovica;Orašek
+0;20.0808,42.7358;;Pec;Shkreli
+0;20.5694,42.9378;;Mitrovica;Čukovac
+0;20.5698,42.9270;;Mitrovica;Preseka
+0;20.0933,42.7286;;Pec;Gunishta
+0;20.5583,42.9333;;Mitrovica;Popovići
+0;20.0392,42.7152;;Pec;Lulaj
+0;20.5442,42.9261;;Mitrovica;Plep
+0;20.5978,42.9261;;Mitrovica;Plep
+0;20.0728,42.6919;;Pec;Gjevukaj
+0;20.5494,42.9442;;Mitrovica;Bašća
+0;20.5425,42.9469;;Mitrovica;Jerem
+0;20.1117,42.6956;;Pec;Micinat
+0;20.5247,42.9379;;Mitrovica;Dobrići
+0;20.5117,42.9406;;Mitrovica;Kostovići
+0;20.6536,42.8481;;Mitrovica;Kostovići
+0;20.5167,42.9356;;Mitrovica;Jankovići
+0;20.5024,42.9457;;Mitrovica;Rad
+0;20.6449,42.9281;;Mitrovica;Kovače
+0;21.4833,42.6542;;Gjilan;Jezero
+0;20.6575,42.9094;;Mitrovica;Rovca
+0;21.4739,42.6531;;Gjilan;Tupaci
+0;21.4478,42.6519;;Pristina;Mahala Vranjević
+0;21.3589,42.6536;;Pristina;Gornja Vitija
+0;21.3400,42.6508;;Pristina;Donja Vitija
+0;21.3056,42.6483;;Pristina;Pepić Mahala
+0;21.3225,42.6414;;Pristina;Suljić Mahala
+0;20.6856,42.8914;;Mitrovica;Prevlak
+0;21.3147,42.6561;;Pristina;Murtović Mahala
+0;20.6508,42.8822;;Mitrovica;Zagulje
+0;21.3078,42.6614;;Pristina;Maljović Mahala
+0;21.3050,42.6728;;Pristina;Smonica Mahala
+0;21.3550,42.6700;;Pristina;Halipović Mahala
+0;20.5722,42.8425;;Pec;Belov Do
+0;21.4039,42.6703;;Pristina;Pasović Mahala
+0;20.5875,42.8394;;Pec;Stropac
+0;21.3997,42.6711;;Pristina;Mahala Metović
+0;21.4378,42.6631;;Pristina;Suljinar
+0;21.5708,42.6767;;Gjilan;Mahala Obršina
+0;21.5544,42.6825;;Gjilan;Kurtaj
+0;21.5267,42.6886;;Gjilan;Mahala Humica
+0;20.6242,42.7683;;Pec;Memiće
+0;21.5147,42.6800;;Gjilan;Kulina
+0;20.5781,42.7789;;Pec;Metići
+0;21.3961,42.6833;;Pristina;Bulović Mahala
+0;21.3850,42.6806;;Pristina;Mahala Mesović
+0;21.3744,42.6853;;Pristina;Metović Mahala
+0;21.3381,42.6817;;Pristina;Zllash
+0;21.3781,42.6983;;Pristina;Mahala Simolović
+0;21.4214,42.6922;;Pristina;Mahala Drenovci
+0;20.5028,42.7861;;Pec;Grab
+0;21.4697,42.6811;;Gjilan;Mahala Livađe
+0;20.5133,42.7828;;Pec;Duškaja
+0;21.5325,42.6953;;Gjilan;Mahala Tovarnik
+0;21.5561,42.6972;;Gjilan;Ismaljaj
+0;21.5642,42.6919;;Gjilan;Kosumaj
+0;21.5514,42.6875;;Gjilan;Mahala Memović
+0;21.5878,42.6939;;Gjilan;Mahala Lecović
+0;21.3722,42.7364;;Pristina;Govor Mahala
+0;20.3625,42.7683;;Pec;Cakutić
+0;20.7417,43.2350;;Mitrovica;Banov
+0;21.3042,42.6297;;Pristina;Suljevic Mahala
+0;21.6994,42.5456;;Gjilan;Fshati i Ri
+0;21.6767,42.5261;;Gjilan;Kršljanci Mali
+0;21.6564,42.5358;;Gjilan;Stara Kuća
+0;21.6192,42.5369;;Gjilan;Crnogorei
+0;21.6403,42.5589;;Gjilan;Dajkoc
+0;21.6728,42.5569;;Gjilan;Muhuxhirt
+0;21.3472,42.2442;;Ferizaj;Dinarica
+0;21.3797,42.2472;;Gjilan;Bećelar
+0;21.3347,42.2314;;Ferizaj;Isufova Mala
+0;21.3569,42.2331;;Ferizaj;Kurtović-Mala
+0;21.3278,42.2242;;Ferizaj;Darlišta
+0;21.3606,42.2267;;Ferizaj;Leskovica
+0;21.5292,42.2525;;Gjilan;Topljana Mahala
+0;21.5581,42.3108;;Gjilan;Dragibac-Mahala
+0;21.7208,42.6314;;Gjilan;Rapunska Mahala
+0;21.7239,42.6400;;Gjilan;Slima
+0;21.7650,42.6358;;Gjilan;Gagička Mahala
+0;21.7408,42.6508;;Gjilan;Zigoli
+0;21.7631,42.6622;;Gjilan;Padinska Mahala
+0;21.7383,42.6669;;Gjilan;Bujaki
+0;21.7275,42.6661;;Gjilan;Komani
+0;21.7528,42.6800;;Gjilan;Bajralije
+0;21.7136,42.6783;;Gjilan;Isenovicka Mahala
+0;21.7208,42.6894;;Gjilan;Devojkin Kamen
+0;21.6997,42.6864;;Gjilan;Baljevička Mahala
+0;21.6942,42.6828;;Gjilan;Duljevička Mahala
+0;21.6861,42.6783;;Gjilan;Caroliska Mahala
+0;21.7000,42.6706;;Gjilan;Igdilj
+0;21.6669,42.6489;;Gjilan;Voksja
+0;21.6669,42.6467;;Gjilan;Lipovica Mahala
+0;21.6642,42.6511;;Gjilan;Mušica Mahala
+0;21.6589,42.6494;;Gjilan;Mahala Radenica
+0;21.6856,42.6469;;Gjilan;Bunjaki
+0;21.6503,42.6717;;Gjilan;Hurugljica
+0;21.6436,42.6792;;Gjilan;Zuzaku
+0;21.6097,42.6531;;Gjilan;Mahala Magura
+0;21.6236,42.6764;;Gjilan;Verčelj
+0;21.6289,42.6811;;Gjilan;Saja
+0;21.6125,42.6869;;Gjilan;Mahala Musović
+0;21.3127,42.8538;;Pristina;Dražnja
+0;21.0895,43.0230;;Pristina;Parduz
+0;21.0660,43.0218;;Pristina;Poila
+0;21.1225,43.0486;;Pristina;Gornja Repa
+0;21.1453,43.0544;;Pristina;Tashec
+0;21.1058,43.0800;;Pristina;Kokorovica
+0;21.0333,43.1147;;Pristina;Marince
+0;21.0053,43.1261;;Pristina;Belasica
+0;20.8731,42.5072;;Pristina;Divlak
+0;20.7736,43.0194;;Mitrovica;Danovići
+0;20.7185,43.1951;;Mitrovica;Gornje Jarinje
+0;20.8922,43.1205;;Mitrovica;Strazhin
+0;20.9664,43.0019;;Mitrovica;Goranci
+0;20.3433,42.6058;;Pec;Stari Zlopek
+0;20.2939,42.5014;;Gjakova;Drenovačke Šume
+0;20.3733,42.5367;;Gjakova;Bagashi
+0;20.3614,42.5356;;Gjakova;Bandera
+0;20.9481,42.9789;;Mitrovica;Katuništa
+0;20.7117,42.9739;;Mitrovica;Sigavac
+0;20.9142,42.9550;;Mitrovica;Preten
+0;20.9389,42.9661;;Mitrovica;Cimilj
+0;20.5808,42.7561;;Pec;Novi Tučep
+0;20.5908,42.7639;;Pec;Bugarski Dub
+0;20.9292,42.8556;;Mitrovica;Plana
+0;20.6642,42.7628;;Mitrovica;Dragaj
+0;20.6769,42.7914;;Mitrovica;Novi Kosjeri
+0;20.8561,42.8297;;Mitrovica;Slavkovići
+0;20.8467,42.8264;;Mitrovica;Jovanovići
+0;20.6236,42.7236;;Mitrovica;Jovanovici
+0;21.0831,42.7733;;Pristina;Jovanovići
+0;20.8392,42.8283;;Mitrovica;Mijajlovići
+0;20.8667,42.8172;;Mitrovica;Hercegovo
+0;20.6503,42.7875;;Mitrovica;Padalište
+0;20.8014,42.8008;;Mitrovica;Tomislav
+0;20.7681,42.7897;;Mitrovica;Berance Mahala
+0;20.7833,42.7703;;Mitrovica;Ðurak Mahala
+0;20.7933,42.7714;;Mitrovica;Hodić Mahala
+0;20.8061,42.7536;;Mitrovica;Jašarović Mahala
+0;20.8258,42.7617;;Mitrovica;Mehović Mahala
+0;20.8233,42.7683;;Mitrovica;Brahović Mahala
+0;20.8275,42.7883;;Mitrovica;Zenelović Mahala
+0;21.1839,42.8411;;Pristina;Donja Penduha
+0;20.7483,42.7783;;Mitrovica;Košutan Mahala
+0;20.7353,42.7800;;Mitrovica;Čolaković Mahala
+0;20.7833,42.9158;;Mitrovica;Vidgrica
+0;20.7061,42.9231;;Mitrovica;Gornja Dobroševina
+0;20.7064,42.9942;;Mitrovica;Virjevice
+0;20.8494,42.8972;;Mitrovica;Mali Zvečan
+0;20.5756,42.7244;;Pec;Prepranje
+0;20.4458,42.7044;;Pec;Srednja Dobruša
+0;20.4514,42.7003;;Pec;Donja Dobruša
+0;20.6331,42.7000;;Pec;Halitović
+0;20.6583,42.6994;;Mitrovica;Ðuraković
+0;20.6689,42.6958;;Mitrovica;Oković
+0;20.7206,42.5200;;Prizren;Kaplan Mahala
+0;20.7608,42.5128;;Prizren;Balović Mahala
+0;20.7506,42.5231;;Prizren;Zez Mahala
+0;20.7000,42.6533;;Pec;Vranići
+0;20.7867,42.5189;;Prizren;Suvo Polje
+0;20.8525,42.5086;;Prizren;Muniš Mahala
+0;20.8569,42.5106;;Prizren;Mahala Ljugit
+0;20.6836,42.6239;;Pec;Štarica
+0;20.9239,42.5239;;Pristina;Šurlići
+0;20.9156,42.5631;;Pristina;Zogići
+0;20.8900,42.5642;;Pristina;Obrija
+0;20.8867,42.5592;;Pristina;Viljak
+0;20.8922,42.5403;;Pristina;Ljugit
+0;20.8944,42.5364;;Pristina;Pljakići
+0;20.8806,42.5642;;Pristina;Moljak
+0;20.8125,42.5586;;Pristina;Ðurđica
+0;20.8275,42.5344;;Pristina;Bilic Mahala
+0;20.8328,42.5456;;Pristina;Džamijska Mahala
+0;20.8353,42.7328;;Mitrovica;Džamijska Mahala
+0;20.7900,42.5467;;Prizren;Kelmen Mahala
+0;20.7314,42.5378;;Prizren;Ljac Mahala
+0;20.7186,42.5400;;Prizren;Dela
+0;20.7583,42.5636;;Prizren;Breg Mahala
+0;20.7322,42.5850;;Pec;Muhader
+0;20.5753,42.6069;;Pec;Prlina
+0;20.8094,42.5861;;Pristina;Plavić Mahala
+0;20.8267,42.5800;;Pristina;Lokma Mahala
+0;20.8619,42.6028;;Pristina;Tahirović Mahala
+0;20.9036,42.6106;;Pristina;Novi Poklek
+0;20.9297,42.5983;;Pristina;Ðurašin Mahala
+0;20.9508,42.6514;;Pristina;Carak Mahala
+0;20.9511,42.6586;;Pristina;Prenk Mahala
+0;20.9417,42.6511;;Pristina;Ajdarević Mahala
+0;20.8819,42.6292;;Pristina;Novo Čikatovo
+0;20.8639,42.6514;;Pristina;Dvoran Mahala
+0;20.8339,42.6278;;Pristina;Vrelak Mahala
+0;21.0971,42.8284;;Mitrovica;Vrelak Mahala
+0;20.8361,42.6219;;Pristina;Ljek Mahala
+0;20.7939,42.6150;;Pristina;Bahremović Mahala
+0;20.7903,42.6236;;Pristina;Huljiljaj Mahala
+0;20.8228,42.6472;;Pristina;Kukić Mahala
+0;20.7836,42.6489;;Pristina;Deljavić Mahala
+0;20.7983,42.6564;;Pristina;Husenović Mahala
+0;20.7178,42.6386;;Mitrovica;Aručević
+0;20.7186,42.6483;;Mitrovica;Drvis
+0;20.7111,42.6444;;Mitrovica;Aluraj
+0;20.7231,42.6653;;Mitrovica;Halilaj
+0;20.7267,42.6833;;Mitrovica;Kurut
+0;20.7119,42.7000;;Mitrovica;Ljaroj
+0;20.7317,42.7169;;Mitrovica;Raponja Rakitnica
+0;20.7211,42.7233;;Mitrovica;Krst Brdo
+0;20.7000,42.7442;;Mitrovica;Hasanaj
+0;20.7703,42.7292;;Mitrovica;Gecaj Mahala
+0;20.7778,42.7392;;Mitrovica;Recaj Mahala
+0;20.7517,42.7100;;Mitrovica;Ludović
+0;20.7856,42.6997;;Mitrovica;Delijaj Mahala
+0;20.7806,42.6867;;Mitrovica;Kodres Mahala
+0;20.7719,42.6878;;Mitrovica;Varga Mahala
+0;20.8242,42.6778;;Pristina;Istok Mahala
+0;20.8242,42.7239;;Mitrovica;Grudić Mahala
+0;20.8233,42.7378;;Mitrovica;Poljance
+0;20.8553,42.7311;;Mitrovica;Kraljica
+0;20.8561,42.6792;;Pristina;Dobra Mahala
+0;20.8781,42.7264;;Mitrovica;Duška
+0;20.9033,42.7133;;Mitrovica;Haljtović
+0;20.9092,42.7022;;Pristina;Uković
+0;20.9328,42.6908;;Pristina;Fazlovići
+0;20.9506,42.6958;;Pristina;Bardići
+0;20.9325,42.7089;;Pristina;Mujović
+0;20.9197,42.7181;;Mitrovica;Sadriović
+0;20.9728,42.6781;;Pristina;Jekić
+0;20.5578,42.5761;;Pec;Donja Grabanica
+0;20.6314,42.8256;;Pec;Ljoševići
+0;20.6392,42.8469;;Mitrovica;Mutavdžići
+0;20.6394,42.8711;;Mitrovica;Raškovići
+0;20.5975,42.9183;;Mitrovica;Brodanovići
+0;20.6422,42.7242;;Mitrovica;Turjane
+0;20.6572,42.6775;;Mitrovica;Ðelbina
+0;20.6158,42.9200;;Mitrovica;Ðukići
+0;20.5903,42.6525;;Pec;Vasići
+0;20.5217,42.9480;;Mitrovica;Trnjane
+0;20.4411,42.5092;;Gjakova;Troja
+0;20.4269,42.5242;;Gjakova;Velika Bara
+0;20.5989,42.6136;;Pec;Donji Drsnik
+0;20.6742,42.7292;;Mitrovica;Vragodol
+0;20.6217,42.6286;;Pec;Toplanaj
+0;20.6622,42.9568;;Mitrovica;Momlje
+0;20.6947,42.9872;;Mitrovica;Durov
+0;20.6900,42.9708;;Mitrovica;Ugarine
+0;20.6843,42.9620;;Mitrovica;Radoševica
+0;20.6745,42.9913;;Mitrovica;Preslo
+0;20.6468,42.9760;;Mitrovica;Ledenik
+0;20.6372,42.9822;;Mitrovica;Vrtina
+0;20.6236,42.9886;;Mitrovica;Vukoslavljeviće
+0;20.5966,42.9809;;Mitrovica;Sovrliće
+0;20.5911,42.9958;;Mitrovica;Vitakovo
+0;20.5858,42.7961;;Pec;Saljijevići
+0;20.6400,42.7764;;Mitrovica;Lugići
+0;20.6519,42.7594;;Mitrovica;Smigići
+0;20.6772,42.7619;;Mitrovica;Trnova
+0;20.6819,42.4986;;Prizren;Mali Turjak
+0;20.5156,42.7722;;Pec;Gornji Dragoljevac
+0;20.4903,42.7608;;Pec;Donji Dragoljevac
+0;20.5750,42.7831;;Pec;Tursko
+0;20.5761,42.8114;;Pec;Gornja Sušica
+0;20.6128,42.8047;;Pec;Donja Ukča
+0;20.6072,42.8228;;Pec;Gornja Ukča
+0;20.4381,42.4947;;Gjakova;Parotica
+0;20.5333,42.4500;;Gjakova;Sarosh
+0;20.4992,42.3281;;Gjakova;Poštra
+0;20.5125,42.3225;;Gjakova;Ramahmat Mahala
+0;20.6189,42.2761;;Prizren;Mahala Beriša
+0;20.6083,42.2722;;Prizren;Mahala Cakaj
+0;20.6083,42.2639;;Prizren;Mahala Kajtas
+0;20.5789,42.2656;;Prizren;Mahala Bogza
+0;20.5772,42.2714;;Prizren;Mahala Duškit
+0;20.6369,42.2892;;Prizren;Breg-Drim
+0;20.5664,42.3058;;Prizren;Morselj
+0;20.5461,42.3131;;Gjakova;Mahadri Mahala
+0;20.5189,42.3000;;Gjakova;Pronit-Mahala
+0;20.5075,42.3031;;Gjakova;Mala Poštra
+0;20.5225,42.3133;;Gjakova;Pniš
+0;21.2817,42.5255;;Pristina;Trbuvce
+0;21.1544,42.4822;;Pristina;Pojate
+0;21.0098,42.5949;;Pristina;Trešnjevo
+0;21.2649,42.5761;;Pristina;Bukovica
+0;21.2642,42.5867;;Pristina;Šišarka
+0;21.2189,42.6008;;Pristina;Kišnica
+0;21.2836,42.6013;;Pristina;Gajtan Mahala
+0;21.2944,42.5919;;Pristina;Lozan Mahala
+0;21.0408,42.4186;;Ferizaj;Rboje
+0;21.0356,42.6533;;Pristina;Pusto Ade
+0;21.0499,42.6666;;Pristina;Rudnik Kosovo
+0;21.1044,42.6987;;Pristina;Gornji Mazgit
+0;21.1007,42.6779;;Pristina;Novi Obilić
+0;21.2933,42.6644;;Pristina;Spajević Mahala
+0;21.2875,42.6780;;Pristina;Amatević Mahala
+0;21.2697,42.6819;;Pristina;Stulčak Mahala
+0;21.2539,42.6797;;Pristina;Vujanov Mahala
+0;21.2669,42.6944;;Pristina;Ugrija Mahala
+0;21.2728,42.7075;;Pristina;Koprani Mahala
+0;21.2903,42.7072;;Pristina;Crvodik Mahala
+0;21.2475,42.7169;;Pristina;Ajetović Mahala
+0;21.2533,42.7125;;Pristina;Adilović Mahala
+0;21.2550,42.7039;;Pristina;Baljević Mahala
+0;21.0104,42.6781;;Pristina;Miđanska Mahala
+0;21.0166,42.6839;;Pristina;Spasina Mahala
+0;21.0747,42.6972;;Pristina;Stari Obilić
+0;20.9956,42.7941;;Mitrovica;Mavriq
+0;21.0769,42.7991;;Mitrovica;Lug Dubnica
+0;21.0664,42.7983;;Mitrovica;Rustoli Mahala
+0;21.1347,42.8133;;Pristina;Majance
+0;21.0950,42.9087;;Pristina;Bajçinovci
+0;21.0911,42.8718;;Pristina;Hodžović Mahala
+0;21.1328,42.8525;;Pristina;Borica
+0;21.2000,42.8233;;Pristina;Govorce
+0;21.4086,42.4914;;Gjilan;Glamska Mala
+0;21.2355,42.8798;;Pristina;Donja Ladovac
+0;21.2486,42.8807;;Pristina;Gornja Ladovac
+0;21.2889,42.8686;;Pristina;Batatin Mahala
+0;21.5794,42.3906;;Gjilan;Kokince
+0;21.5908,42.3947;;Gjilan;Rekalije
+0;21.5358,42.2756;;Gjilan;Azir Mahala
+0;21.5008,42.3161;;Gjilan;Lokme Mahala
+0;21.3553,42.4436;;Gjilan;Bećiri
+0;21.3417,42.2594;;Gjilan;Samakovo
+0;21.5572,42.6042;;Gjilan;Donje Rečane
+0;21.5681,42.5017;;Gjilan;Pančelo
+0;21.4447,42.6761;;Pristina;Drenovci
+0;21.3150,42.6156;;Pristina;Mukata
+0;20.8025,42.3250;;Prizren;Topličane
+0;21.0014,42.5347;;Pristina;Leletiq
+0;20.7168,43.1923;;Mitrovica;Jarinje
+0;20.9625,43.0078;;Mitrovica;Jasici
+0;20.9531,43.0025;;Mitrovica;Tairovici
+0;20.8917,43.0958;;Mitrovica;Kodra e Kmetit
+0;20.8496,43.0485;;Mitrovica;Mikulina
+0;20.8061,43.0381;;Mitrovica;Šarci
+0;20.7182,43.2070;;Mitrovica;Mijalovići
+0;20.6976,43.1563;;Mitrovica;Petkovac
+0;20.7003,43.1869;;Mitrovica;Grčevo
+0;20.7072,43.1517;;Mitrovica;Grkajci
+0;20.7373,43.1526;;Mitrovica;Ravni
+0;20.7692,43.0511;;Mitrovica;Birovo
+0;21.0627,43.0985;;Pristina;Gornja Trnavica
+0;21.1011,43.0100;;Pristina;Čanoga
+0;21.1369,43.0219;;Pristina;Donja Repa
+0;20.6722,43.0172;;Mitrovica;Šipovo
+0;20.8097,43.1656;;Mitrovica;Perroi i Llovqenit
+0;20.0497,42.7458;;Pec;Dem Boge
+0;20.0544,42.7458;;Pec;Rexh Boge
+0;20.0600,42.7411;;Pec;Beqiraj
+0;20.0808,42.7411;;Pec;Husaj
+0;20.1058,42.7453;;Pec;Lekiqi
+0;20.0994,42.7367;;Pec;Redzici
+0;20.0533,42.7072;;Pec;Cukaj
+0;20.1189,42.7058;;Pec;Salaj
+0;20.0936,42.6942;;Pec;Balaj
+0;20.0825,42.6975;;Pec;Breg Kuqishte
+0;20.3303,42.7342;;Pec;Vardište
+0;20.3208,42.7222;;Pec;Pelaj
+0;20.2756,42.6908;;Pec;Dushkajë
+0;20.3697,42.6725;;Pec;Gorje Naklo
+0;20.3422,42.6136;;Pec;Zlapeku i ri
+0;20.3567,42.6117;;Pec;Tonković
+0;20.3062,42.6076;;;Lybeniqi i ri
+0;20.3483,42.5811;;Pec;Gërvalla
+0;20.2914,42.5689;;Gjakova;Lëbushë e Vogël
+0;20.3569,42.5250;;Gjakova;Dodiq
+0;21.5217,42.4678;;Gjilan;Gornje Maleševo
+0;21.6022,42.3903;;Gjilan;Aljšić
+0;21.5211,42.3647;;Gjilan;Kurexh
+0;21.5136,42.3269;;Gjilan;Vršavica Mahala
+0;21.4003,42.4806;;Gjilan;Mejir Mala
+0;21.5383,42.4289;;Gjilan;Donji Muhadžiri
+0;21.5197,42.4431;;Gjilan;Hašan
+0;21.5011,42.4339;;Gjilan;Gornji Muhadžiri
+0;21.5178,42.3522;;Gjilan;Terzić
+0;21.5131,42.3539;60520;Gjilan;Zhegër
+0;21.5592,42.3711;;Gjilan;Hazerska Mahala
+0;21.4967,42.3097;;Gjilan;Gaglija
+0;21.5672,42.2903;;Gjilan;Ostrovica-Mahala
+0;21.3025,42.4839;;Pristina;Srpka
+0;21.3439,42.5017;;Gjilan;Rudarci
+0;21.3456,42.4531;;Gjilan;Ajvazi
+0;21.3333,42.4539;;Gjilan;Murselji
+0;21.4403,42.4397;;Gjilan;Donji Muhadžeri
+0;21.4375,42.4444;;Gjilan;Gornji Muhadžeri
+0;21.3286,42.3594;;Gjilan;Muadžeri
+0;21.6244,42.4025;;Gjilan;Kukinci
+0;21.6250,42.3953;;Gjilan;Kukovce Mala
+0;21.6042,42.3850;;Gjilan;Bištaj
+0;21.6089,42.3772;;Gjilan;Zairt
+0;21.1014,42.3056;;Ferizaj;Izvor-Mahala
+0;21.1383,42.3531;;Ferizaj;Blenište
+0;21.1503,42.3297;;Ferizaj;Karamete-Mahala
+0;21.1575,42.3308;;Ferizaj;Spahije-Mahala
+0;21.0508,42.4039;;Ferizaj;Smailovići
+0;21.0969,42.3781;;Ferizaj;Stojkovići
+0;21.2581,42.3153;;Ferizaj;Donja Ljuža
+0;21.2464,42.3164;;Ferizaj;Aradin
+0;21.2736,42.3094;;Gjilan;Savarin
+0;21.2853,42.3097;;Gjilan;Karadak
+0;21.2889,42.3069;;Gjilan;Sokol
+0;20.8264,42.2786;;Prizren;Grekovce
+0;21.1897,42.2572;;Ferizaj;Mema Mahala
+0;21.2011,42.2575;;Ferizaj;Viš Mahala
+0;21.1956,42.2564;;Ferizaj;Bafti Mahala
+0;21.2031,42.2667;;Ferizaj;Tuš Mahala
+0;21.1947,42.2644;;Ferizaj;Topali Mahala
+0;21.2031,42.2533;;Ferizaj;Kamiš Mahala
+0;21.1781,42.2517;;Ferizaj;Dulovi
+0;21.1897,42.2661;;Ferizaj;Kovač Mahala
+0;21.2022,42.2731;;Ferizaj;Ljeka Mahala
+0;21.1586,42.2597;;Ferizaj;Elez Mahala
+0;21.1178,42.2639;;Ferizaj;Elez Mahala
+0;21.1244,42.2661;;Ferizaj;Don Mahala
+0;21.1114,42.2564;;Ferizaj;Mark Mahala
+0;21.1050,42.2692;;Ferizaj;Pojatarce
+0;21.0250,42.2558;;Ferizaj;Čuturini
+0;21.1083,42.2950;;Ferizaj;Groblje Mahala
+0;21.1147,42.2978;;Ferizaj;Kodra Mahala
+0;20.9267,42.4022;;Prizren;Kodra Mahala
+0;21.1525,42.3122;;Ferizaj;Kupinci
+0;21.1506,42.3189;;Ferizaj;Ašance Mahala
+0;20.7025,42.0928;;Prizren;Kalander
+0;20.7678,42.2308;;Prizren;Kečišlak
+0;20.8433,42.2475;;Prizren;Gurit-Mahala
+0;20.5953,42.0658;;Prizren;Veliki Krstac
+0;20.7819,42.4694;;Prizren;Šurlan
+0;20.8500,42.4717;;Prizren;Gaden
+0;20.9178,42.4608;;Ferizaj;Gaden
+0;20.8622,42.4578;;Prizren;Gavaz
+0;20.8544,42.4472;;Prizren;Hajrizi
+0;20.9500,42.4756;;Ferizaj;Dugoli
+0;20.9342,42.4822;;Pristina;Ćerići
+0;20.9292,42.4861;;Pristina;Oluri
+0;20.9503,42.4981;;Pristina;Oluri
+0;20.9258,42.4925;;Pristina;Karameti
+0;20.9233,42.4967;;Pristina;Karpuzi
+0;20.9472,42.4875;;Pristina;Rizani
+0;20.9892,42.4578;;Ferizaj;Pošter Mala
+0;20.9633,42.4514;;Ferizaj;Epr Mala
+0;20.9453,42.4367;;Prizren;Sefer
+0;20.9397,42.4233;;Prizren;Sefer
+0;20.8333,42.4383;;Prizren;Zabeljaj
+0;20.8322,42.4414;;Prizren;Šejak
+0;20.7875,42.4397;;Prizren;Kodrali
+0;20.7531,42.4261;;Prizren;Masalović
+0;20.7633,42.4169;;Prizren;Belče Mahala
+0;20.8025,42.4217;;Prizren;Aljović
+0;20.8075,42.4261;;Prizren;Braović
+0;20.6961,42.0928;;Prizren;Kolon
+0;20.8514,42.4161;;Prizren;Kučuk Mahala
+0;20.8661,42.4189;;Prizren;Bajraktari
+0;20.8689,42.4117;;Prizren;Rafš Mahala
+0;20.8786,42.4067;;Prizren;Graište Mahala
+0;20.8861,42.4081;;Prizren;Ljugska Mahala
+0;20.6503,42.1194;;Prizren;Lopuški Han
+0;20.9208,42.4064;;Prizren;Tafoli Mahala
+0;20.9281,42.4042;;Prizren;Guri Mahala
+0;20.9389,42.4175;;Prizren;Tršon
+0;20.9344,42.4133;;Prizren;Jusenović Mahala
+0;20.9319,42.4231;;Prizren;Ćar Mahala
+0;20.9847,42.4131;;Ferizaj;Azemović Mahala
+0;20.9775,42.4089;;Ferizaj;Voković Mahala
+0;20.9539,42.4050;;Ferizaj;Ljug Mahala
+0;20.9572,42.4008;;Ferizaj;Kadrijević Mahala
+0;20.9458,42.4067;;Ferizaj;Mehmet Mahala
+0;20.9389,42.4067;;Prizren;Avdijević Mahala
+0;20.9775,42.3931;;Ferizaj;Devetak
+0;20.9286,42.3619;;Prizren;Barjaktar Mahala
+0;20.9261,42.3578;;Prizren;Buć Mahala
+0;20.9436,42.3583;;Prizren;Hodžaj Mahala
+0;20.9378,42.3528;;Prizren;Kokolari Mahala
+0;20.9306,42.3517;;Prizren;Palaš Mahala
+0;20.9333,42.3533;;Prizren;Bećir Mahala
+0;20.9314,42.3550;;Prizren;Ljimanavit Mahala
+0;20.8303,42.2758;;Prizren;Kica
+0;20.5611,42.1989;;Prizren;Ninaj
+0;20.5564,42.1942;;Prizren;Raškaj
+0;20.6189,42.2331;;Prizren;Duraj
+0;20.6100,42.2356;;Prizren;Karavidaj
+0;20.5825,42.1708;;Prizren;Ljigata
+0;20.6064,42.2339;;Prizren;Hamelj
+0;20.5439,42.1836;;Prizren;Jelić
+0;20.3728,42.4900;;Gjakova;Shavar
+0;20.3075,42.4747;;Gjakova;Bramatok
+0;20.3122,42.4861;;Gjakova;Baksa
+0;20.2689,42.4042;;Gjakova;Bregu i Hođes
+0;20.3611,42.3472;;Gjakova;Vataj
+0;20.3681,42.3450;;Gjakova;Ljokaj
+0;20.2581,42.4142;;Gjakova;Donja Morina
+0;20.0472,42.7383;;Pec;Laze
+0;20.0464,42.7431;;Pec;Llazet e Haxhajve
+0;20.0489,42.7078;;Pec;Lekaj
+0;20.0622,42.7336;;Pec;Dreshaj
+0;21.0667,43.0833;;Pristina;Donja Trnavica
+0;21.3500,42.6528;;Pristina;Vitija
+0;21.4828,42.6539;;Gjilan;Leshtar
+0;21.4833,42.4597;;Gjilan;Donje Kusce
+0;20.9973,42.8756;;Mitrovica;Karače
+0;21.1330,42.9483;;Pristina;Delič Mahala
+0;21.1179,42.9915;;Pristina;Rečani
+0;21.1092,42.9652;;Pristina;Rekalija
+0;21.0680,42.9748;;Mitrovica;Mahalla Huseinoviç
+0;21.1162,42.8710;;Pristina;Poterović Mahala
+0;21.0272,42.9669;;Mitrovica;Musović Mahala
+0;21.0039,42.9692;;Mitrovica;Uković Mahala
+0;21.0302,42.9322;;Mitrovica;Parduzi
+0;21.1564,42.9940;;Pristina;Srednja Mahala
+0;21.2141,42.9892;;Pristina;Telbizi
+0;21.2162,42.9803;;Pristina;Dudovića Mahala
+0;21.2144,42.9845;;Pristina;Lagjia Uka
+0;21.1976,42.9848;;Pristina;Nermiec
+0;21.1755,42.9789;;Pristina;Raim Abaz
+0;21.1646,42.9605;;Pristina;Vukufska Mahala
+0;21.1574,42.9605;;Pristina;Lagjia Salihu
+0;21.2003,42.9510;;Pristina;Lagjia Salihu
+0;21.1652,42.9533;;Pristina;Lagjia Gjata
+0;21.1709,42.9419;;Pristina;Lagjia Smajli
+0;21.1303,43.0552;;Pristina;Lagjia Smajli
+0;21.1660,42.9338;;Pristina;Lagjia Lugovi
+0;21.2252,42.9625;;Pristina;Avdulova Mahala
+0;21.2384,42.9014;;Pristina;Ðakani
+0;21.2435,42.8889;;Pristina;Mahalla Zukova
+0;21.1335,42.8856;;Pristina;Poteri Mahala
+0;21.1407,42.8799;;Pristina;Mladenoviči
+0;21.1408,42.8909;;Pristina;Mahalla Akiç
+0;21.1333,42.8991;;Pristina;Mahalla Cakiq
+0;21.1447,42.8997;;Pristina;Mahalla Avalovic
+0;21.1514,42.9562;;Pristina;Kapidol Mahala
+0;21.1356,42.9689;;Pristina;Milenkovići
+0;21.1249,42.9604;;Pristina;Mahalla e Mamutëve
+0;21.1214,42.9678;;Pristina;Mahalla Derisholska
+0;21.1550,42.9681;;Pristina;Ravnina
+0;21.1972,42.9629;;Pristina;Bugjak
+0;21.2145,42.8840;;Pristina;Surkiški Vir
+0;21.1221,42.9736;;Pristina;Prnovička Mahala
+0;21.1558,42.9476;;Pristina;Lagjia Qitaku
+0;21.1387,42.9467;;Pristina;Kačandolci
+0;21.0455,42.9142;;Mitrovica;Baçka
+0;21.1383,42.8972;;Pristina;Gornja Lapaštica
+0;21.1942,42.8882;;Pristina;Poljanica
+0;21.0565,42.7948;;Mitrovica;Sokolović Mahala
+0;21.0785,42.8316;;Mitrovica;Gašiči
+0;21.0793,42.8070;;Mitrovica;Balević Mahala
+0;21.0964,42.8176;;Mitrovica;Redžević Mahala
+0;21.0998,42.8126;;Mitrovica;Muslijević Mahala
+0;21.0964,42.8098;;Mitrovica;Hasanović Mahala
+0;21.0903,42.8009;;Mitrovica;Mernić Mahala
+0;21.0933,42.7841;;Pristina;Beković Mahala
+0;21.0991,42.7846;;Pristina;Ahmatović Mahala
+0;21.0989,42.7878;;Pristina;Segza Mahala
+0;21.0791,42.7887;;Mitrovica;Glabari Mahala
+0;21.0786,42.7685;;Pristina;Pipersk Mahala
+0;21.0713,42.7968;;Mitrovica;Kodrali Mahala
+0;21.0737,42.8003;;Mitrovica;Ramović Mahala
+0;21.0585,42.8122;;Mitrovica;Cerovići
+0;21.0668,42.8129;;Mitrovica;Obradovići
+0;21.0512,42.7874;;Mitrovica;Tahović Mahala
+0;21.0425,42.7623;;Mitrovica;Bregovinska Mahala
+0;21.0420,42.7711;;Mitrovica;Bektešević Mahala
+0;21.0387,42.7794;;Mitrovica;Imerović Mahala
+0;21.0513,42.7614;;Mitrovica;Pronaj Mahala
+0;21.0475,42.7535;;Mitrovica;Adžajska Mahala
+0;21.0327,42.7623;;Mitrovica;Šaljak Mahala
+0;21.0329,42.7682;;Mitrovica;Cak Mahala
+0;21.0439,42.7570;;Mitrovica;Aradinaj Mahala
+0;21.1739,42.8681;;Pristina;Lahovići
+0;21.2066,42.8677;;Pristina;Vokri Mahala
+0;21.2327,42.8377;;Pristina;Statovci
+0;21.2240,42.8409;;Pristina;Radujevac
+0;21.1953,42.7744;;Pristina;Bara Mahala
+0;21.1797,42.7791;;Pristina;Perenika
+0;21.2078,42.7847;;Pristina;Vanovac
+0;21.2202,42.8018;;Pristina;Begović Mahala
+0;21.2332,42.8073;;Pristina;Tanović Mahala
+0;21.2409,42.7638;;Pristina;Aljšić Mahala
+0;21.2295,42.7884;;Pristina;Aljšić Mahala
+0;21.1906,42.8359;;Pristina;Sokoljska Mahala
+0;21.1752,42.8305;;Pristina;Stublak
+0;21.1835,42.8509;;Pristina;Kolibađija
+0;21.1815,42.7996;;Pristina;Vlasovo
+0;21.2733,42.8675;;Pristina;Muhadžer Mahala
+0;21.2548,42.8620;;Pristina;Ledina
+0;21.2625,42.8355;;Pristina;Zakuka
+0;21.2580,42.7958;;Pristina;Darišta
+0;21.2792,42.8158;;Pristina;Rukvac Mahala
+0;21.2943,42.8646;;Pristina;Mačan Mahala
+0;21.3197,42.8615;;Pristina;Derviš Mahala
+0;21.3414,42.8237;;Pristina;Ðolovina
+0;21.3607,42.8402;;Pristina;Rudina
+0;21.3549,42.8563;;Pristina;Plugište
+0;21.3455,42.8425;;Pristina;Kondović Mahala
+0;21.2754,42.8102;;Pristina;Blac Mahala
+0;21.2844,42.8055;;Pristina;Pod Mahala
+0;21.3125,42.8154;;Pristina;Ljutović Mahala
+0;21.1605,42.9173;;Pristina;Lagjia Hoxhaj
+0;21.0106,42.7805;;Mitrovica;Zekić Mahala
+0;21.1620,42.8021;;Pristina;Homović Mahala
+0;21.2924,42.8087;;Pristina;Žar Mahala
+0;20.2770,42.4718;;;Berishë
+0;20.2746,42.4699;;;Qestaj
+0;20.2726,42.4797;;;Gacafer
+0;20.2659,42.4830;;;Tofaj
+150;21.1264,42.6791;;Pristina;Hade e Re
+0;20.7034,43.2147;;Mitrovica;Jarinë e Poshtme
+0;20.7146,43.2105;;Mitrovica;Lagjja Janoshec
+0;20.6758,43.1592;;Mitrovica;Kalin i Epërm
+0;20.8726,43.1564;;Mitrovica;Lagjia Braqinë
+0;20.8797,43.1274;;Mitrovica;Mishlak
+0;20.8634,43.1394;;Mitrovica;Shtyllat
+0;20.8601,43.1441;;Mitrovica;Gllavicë
+0;20.9020,43.1443;;Mitrovica;Bajqinë
+0;20.8576,43.0894;;Mitrovica;Torinak
+0;20.8559,43.0919;;Mitrovica;Lagjia Senokos
+0;21.0936,43.1018;31000;Pristina;Burim
+0;20.6849,43.0722;;Mitrovica;Vrellë
+0;20.7028,43.0763;;Mitrovica;Gnezhdana
+0;20.6820,43.0461;;Mitrovica;Shanacë
+0;20.6857,43.0343;;Mitrovica;Kolibinë
+0;20.6919,43.0310;;Mitrovica;Çuqakë
+0;20.6421,43.0018;;Mitrovica;Kijevc
+0;20.6221,43.0005;;Mitrovica;Krupanë
+0;20.6163,43.0003;;Mitrovica;Lagjia Dojak
+0;20.6173,43.0100;;Mitrovica;Lagjia Zllatar
+0;20.6029,43.0063;;Mitrovica;Vitak i Epërm
+0;20.5942,43.0119;;Mitrovica;Lagjia Grotë
+0;20.8573,43.0833;;Mitrovica;Lagjia Divlicë
+0;20.8643,43.0080;;Mitrovica;Lumbardh
+0;20.9308,43.0735;;Mitrovica;Lagjia e Epërme
+0;20.8593,43.0247;;Mitrovica;Lagjia e Epërme
+0;20.9653,43.0503;;Mitrovica;Lagjia Jago
+0;20.8778,43.0220;;Mitrovica;Lagjia Velë
+0;20.5576,42.9638;;Mitrovica;Fidanishtë
+0;20.5402,42.9434;;Mitrovica;Tajov
+0;20.5385,42.9391;;Mitrovica;Shvikov
+0;20.5290,42.9313;;Mitrovica;Palevinë
+0;20.5163,42.9643;;Mitrovica;Bab
+0;20.5343,42.9510;;Mitrovica;Jakovjevë
+0;20.7989,43.0531;;Mitrovica;Lagjia Llukë
+0;20.8253,43.0594;;Mitrovica;Luginë
+0;20.8192,43.0539;;Mitrovica;Rrafshinë
+0;20.8274,43.0675;;Mitrovica;Lagjia Jevtë
+0;20.8235,43.0498;;Mitrovica;Lagjia Trinë
+0;20.8012,43.0388;;Mitrovica;Lagjia Jakë
+0;20.8170,43.0382;;Mitrovica;Lagjia Qestë
+0;20.8271,43.0429;;Mitrovica;Katundi i Vjetër
+0;20.7955,43.0461;;Mitrovica;Lagjia Çitluçan
+0;20.8023,43.0325;;Mitrovica;Lagjia Ercë
+0;20.7777,43.0672;;Mitrovica;Lagjia e Livadheve
+0;20.8117,43.0805;;Mitrovica;Fusha e Mirë
+0;20.8365,43.0743;;Mitrovica;Maliq
+0;21.1353,43.0031;;Pristina;Mbret
+0;21.1221,43.0235;;Pristina;Maçkorë
+0;21.1146,43.0186;;Pristina;Rrezjë
+0;21.0852,43.0308;;Pristina;Babiz
+0;21.0804,43.0679;;Pristina;Lagjia Baqilisht
+0;20.5771,42.9482;;Mitrovica;Lajq
+0;20.6491,42.9448;;Mitrovica;Shtuoc
+0;20.6414,42.9867;;Mitrovica;Bojnoviq
+0;20.6359,42.9777;;Mitrovica;Moisilovë
+3952;20.1686,42.5215;;;Gropa e Erenikut

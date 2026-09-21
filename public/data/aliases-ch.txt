@@ -982,7 +982,6 @@ it;Sant’Abbondio;Sant'Abbondio
 it;Monti di Sant’ Abbondio;Monti di Sant' Abbondio
 it;Ronco Sant’ Antonio;Ronco Sant' Antonio
 it;Molino;Grotto al Mulino
-it;Croglio;Opera castellana del Castello di Croglio
 it;San Martino;Opera castellano del Castello di San Martino
 it;La Madonna;Madonna della Cintola
 it;Sant’ Antonio;Sant' Antonio
@@ -6178,3 +6177,4 @@ ru;Бондо;Bondo
 kk;Хольцикен;Holziken
 ru;Хольцикен;Holziken
 zh;霍齊肯;Holziken
+it;Opera castellana del Castello di Croglio;Croglio

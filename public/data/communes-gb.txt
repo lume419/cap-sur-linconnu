@@ -1,3 +1,8 @@
+0;32.9458,34.5833;;;Katalymata ton Plakoton
+0;32.9526,34.6596;;;Vounaro
+0;33.8896,35.0890;;;Ágios Nikólaos
+684;32.9554,34.6009;;;Akrotiri
+0;33.8833,35.1000;;;Vrysoules
 196;-5.5661,50.1906;TR26;Cornwall;Zennor
 435;-5.0790,50.3233;TR4;Cornwall;Zelah
 658;-2.3123,51.0856;BA12;Wiltshire;Zeals
@@ -805,6 +810,7 @@
 481;-0.7814,50.9052;PO18;West Sussex;West Dean
 0;0.1617,50.7765;BN26;East Sussex;West Dean
 0;-2.1833,57.1167;AB15;Aberdeenshire;West Cults
+0;-4.2500,57.3000;;Scotland;West Croachy
 0;-2.4750,51.1869;BA4;Somerset;Cranmore
 0;-0.9500,53.8500;YO8;North Yorkshire;West Cottingwith
 0;-0.9571,51.8466;HP18;Buckinghamshire;Westcott
@@ -1159,6 +1165,7 @@
 0;-3.0667,51.7500;NP4;Torfaen;Varteg Hill
 0;0.4828,51.5594;SS16;Essex;Vange
 0;-3.5500,52.4667;SY18;Powys;Van
+0;-6.9507,58.2244;;Scotland;Valtos
 2361;-4.5664,53.2849;LL65;Isle of Anglesey;Valley
 0;-4.9442,51.7922;SA62;Pembrokeshire;Uzmaston
 70000;-0.4821,51.5489;UB8;Greater London;Uxbridge
@@ -1278,6 +1285,7 @@
 0;0.1333,53.2167;LN13;Lincolnshire;Ulceby
 0;-3.1568,58.3542;KW2;Highland;Ulbster
 0;-6.2370,56.3147;PA67;Argyll and Bute;Bunessan
+0;-7.0000,58.2000;;Scotland;Uig
 423;-6.3549,57.5845;IV51;Highland;Uig
 0;-6.6833,57.4667;IV55;Highland;Uig
 0;-0.7753,54.4903;YO21;North Yorkshire;Ugthorpe
@@ -3303,6 +3311,7 @@
 0;-5.1667,50.0667;TR12;Cornwall;Saint Martins Green
 0;-3.3833,56.4500;PH2;Perth and Kinross;Saint Martins
 0;-4.4333,50.3667;PL13;Cornwall;Saint Martin
+550;-2.9583,58.8253;;Scotland;Saint Margaret's Hope
 0;1.3682,51.1564;CT15;Kent;Saint Margaret’s at Cliffe
 0;1.3986,52.4049;NR35;Suffolk;Saint Margaret
 0;-2.9500,52.0000;HR2;Herefordshire;Saint Margaret
@@ -3525,6 +3534,7 @@
 0;-3.1469,54.5236;CA12;Cumbria;Rosthwaite
 0;-2.3860,53.3463;WA16;Cheshire;Rostherne
 10582;-2.5667,51.9167;HR9;Herefordshire;Ross on Wye
+528;-7.1833,54.2333;;Northern Ireland;Rosslea
 0;-4.2112,57.6959;IV17;Highland;Rosskeen
 0;-7.2667,57.4667;HS7;Western Isles;Rossinish
 0;-1.0619,53.4793;DN11;South Yorkshire;Rossington
@@ -5049,6 +5059,7 @@
 0;-1.2866,52.3913;CV21;Warwickshire;Newbold on Avon
 0;-1.4500,53.2500;S41;Derbyshire;Newbold
 0;-1.2833,52.3667;CV23;Warwickshire;New Bilton
+0;-2.9833,58.8000;;Scotland;Newbigging
 0;-3.5705,55.6955;ML11;South Lanarkshire;Newbigging
 6308;-1.5147,55.1853;NE64;Northumberland;Newbiggin-by-the-Sea
 0;-2.6833,54.8167;CA4;Cumbria;Newbiggin
@@ -5607,6 +5618,7 @@
 0;-2.9167,53.4833;L32;Merseyside;Melling
 19357;-2.1400,51.3728;SN12;Wiltshire;Melksham
 0;-3.4083,53.3173;LL19;Denbighshire;Meliden
+0;-4.5333,57.0167;;Scotland;Melgarve
 1783;0.0081,52.0940;SG8;Cambridgeshire;Meldreth
 0;-1.8000,55.1333;NE61;Northumberland;Meldon
 0;-0.4933,52.2802;MK44;Bedfordshire;Melchbourne
@@ -5805,6 +5817,7 @@
 0;-4.1276,50.3836;PL3;Devon;Mannamead
 0;-6.8779,57.7996;HS5;Western Isles;Manish
 36427;-2.5040,51.4878;BS16;Gloucestershire;Mangotsfield
+0;-7.0833,58.1667;;Scotland;Mangersta
 0;-1.4025,60.4201;ZE2;Shetland Islands;Mangaster
 279;-1.6612,54.5163;DL2;North Yorkshire;Manfield
 2088;0.1793,52.4849;PE15;Cambridgeshire;Manea
@@ -7295,6 +7308,7 @@
 0;-4.3548,57.8727;IV24;Highland;Kincardine
 2810;-3.7196,56.0695;FK10;Fife;Kincardine
 114;-3.9486,56.2218;FK15;Stirling;Kinbuck
+0;-3.9414,58.2589;;Scotland;Kinbrace
 0;-7.6333,54.2167;BT92;County Fermanagh;Kinawley
 1436;-0.2998,51.8509;SG4;Hertfordshire;Kimpton
 0;-2.1171,50.6179;BH20;Dorset;Kimmeridge
@@ -8585,6 +8599,7 @@
 702;-1.0810,50.9316;PO7;Hampshire;Hambledon
 0;-0.8708,51.5715;RG9;Buckinghamshire;Hambleden
 3939;-1.3243,50.8597;SO31;Hampshire;Hamble-le-Rice
+0;-2.0500,60.1333;;Scotland;Ham
 210;-1.5259,51.3652;SN8;Wiltshire;Ham
 0;-4.2084,50.7781;EX21;Devon;Halwill
 0;-3.7211,50.3654;TQ9;Devon;Halwell
@@ -8947,6 +8962,7 @@
 0;-2.6508,54.3680;LA8;Cumbria;Grayrigg
 0;-0.5939,53.4552;DN21;Lincolnshire;Grayingham
 54263;0.3711,51.4421;DA12;Kent;Gravesend
+0;-6.4167,58.0500;;Scotland;Gravir
 0;-0.3698,52.0085;SG5;Bedfordshire;Gravenhurst
 0;0.9470,51.3280;ME13;Kent;Graveney
 289;-0.1729,52.2605;PE19;Cambridgeshire;Graveley
@@ -9929,6 +9945,7 @@
 0;-2.2868,51.9833;GL19;Worcestershire;Eldersfield
 0;-4.0657,50.3589;PL9;Devon;Elburton
 0;-2.5801,51.5950;BS35;Gloucestershire;Elberton
+0;-6.5333,58.0167;;Scotland;Eishken
 0;-3.9500,57.2167;PH22;Highland;Eil
 0;-0.7619,54.4377;YO21;North Yorkshire;Egton
 6222;-3.5276,54.4794;CA22;Cumbria;Egremont
@@ -10149,6 +10166,7 @@
 1613;-1.6094,51.0398;SP5;Hampshire;East Dean
 0;-0.7136,50.9105;PO18;West Sussex;East Dean
 0;0.2062,50.7576;BN20;East Sussex;East Dean
+0;-4.2333,57.3167;;Scotland;East Croachy
 0;-2.4561,51.1931;BA4;Somerset;East Cranmore
 533;-1.5270,54.4237;DL7;North Yorkshire;East Cowton
 0;-0.9307,53.8754;YO19;North Yorkshire;East Cottingwith
@@ -10930,6 +10948,7 @@
 291;0.0643,51.2366;TN8;Kent;Crockham Hill
 0;-3.8301,55.0359;DG2;Dumfries and Galloway;Crocketford
 0;-2.4000,54.5500;CA16;Cumbria;Croasdale
+0;-4.2333,57.3167;;Scotland;Croachy
 2105;1.2433,52.6048;NR4;Norfolk;Cringleford
 0;-6.9644,55.0897;BT49;Northern Ireland;Crindle
 0;-5.5629,56.0877;PA31;Argyll and Bute;Crinan
@@ -12494,6 +12513,7 @@
 1101;-1.3640,52.4109;CV23;Warwickshire;Brinklow
 391;0.3819,52.1668;CB8;Cambridgeshire;Brinkley
 0;0.0549,53.2418;LN11;Lincolnshire;Brinkhill
+0;-4.2000,57.3333;;Scotland;Brin
 1554;-2.1855,51.7197;GL6;Gloucestershire;Brimscombe
 325;-1.1979,51.3793;RG7;Berkshire;Brimpton
 0;-2.0896,51.8125;GL4;Gloucestershire;Brimpsfield
@@ -12565,6 +12585,7 @@
 1271;-2.9574,51.2522;TA9;Somerset;Brent Knoll
 10750;-0.3083,51.4862;TW8;Greater London;Brentford
 0;0.8345,52.0954;CO10;Suffolk;Brent Eleigh
+0;-7.1101,58.1191;;Scotland;Brenish
 1171;0.3982,51.1514;TN12;Kent;Brenchley
 0;-2.0303,51.4567;SN11;Wiltshire;Bremhill
 686;-1.4030,52.8020;DE73;Leicestershire;Breedon on the Hill
@@ -12681,7 +12702,7 @@
 0;0.4385,52.1517;CB8;Suffolk;Bradley
 0;-1.0941,51.1713;SO24;Hampshire;Bradley
 1800;-1.1457,50.6799;PO36;Isle of Wight;Brading
-9274;-2.2506,51.3477;BA15;Wiltshire;Bradford-on-Avon
+9274;-2.2506,51.3477;BA15;Wiltshire;Bradford on Avon
 975;-2.5875,50.9264;DT9;Dorset;Bradford Abbas
 366187;-1.7521,53.7939;BD1;West Yorkshire;Bradford
 0;-3.1833,51.0000;TA4;Somerset;Bradford
@@ -13750,6 +13771,7 @@
 9817;-1.4549,52.5129;CV11;Warwickshire;Attleborough
 0;-1.2316,52.9063;NG9;Nottinghamshire;Attenborough
 0;-1.6567,53.0326;DE6;Derbyshire;Atlow
+0;-5.1000,57.2500;;Scotland;Athnamulloch
 22000;-2.4935,53.5237;M46;Greater Manchester;Atherton
 11259;-1.5469,52.5754;CV9;Warwickshire;Atherstone
 0;-4.0167,50.9833;EX37;Devon;Atherington
@@ -13914,6 +13936,7 @@
 0;-3.0500,57.3500;AB54;Moray;Ardwell
 0;-4.9406,54.7709;DG9;Dumfries and Galloway;Ardwell
 0;-4.2167,56.3667;FK19;Stirling;Ardvorlich
+0;-4.4543,56.9550;;Scotland;Ardverikie
 0;-5.1167,58.2500;IV27;Highland;Ardvar
 0;-4.3658,57.6367;IV16;Highland;Ardullie
 0;-5.8667,56.7500;PH36;Highland;Ardtoe
@@ -14039,6 +14062,7 @@
 23709;-3.9883,51.7928;SA18;Carmarthenshire;Ammanford
 3211;-4.3471,53.4099;LL68;Isle of Anglesey;Amlwch
 0;-3.5667,55.1167;DG1;Dumfries and Galloway;Amisfield Town
+0;-6.9667,57.9667;;Scotland;Amhuinnsuidhe
 10116;-1.7806,51.1751;SP4;Wiltshire;Amesbury
 21731;-0.6167,51.6667;HP7;Buckinghamshire;Amersham
 0;-0.7100,53.6168;DN17;Lincolnshire;Amcotts
@@ -14108,6 +14132,7 @@
 0;-4.5582,57.2365;IV63;Inverness;Alltsigh
 0;-4.6333,58.3667;IV27;Highland;Alltnacaillich
 0;-3.3541,52.1126;LD2;Powys;Alltmawr
+0;-5.1833,57.2333;;Scotland;Alltbeath
 308;-2.7979,52.5539;SY6;Shropshire;All Stretton
 0;-2.5746,52.7134;TF6;Shropshire;Allscott
 444;-3.4301,54.7740;CA15;Cumbria;Allonby
@@ -14189,6 +14214,7 @@
 1760;-3.7721,56.0698;FK2;Falkirk;Airth
 0;-5.7667,57.0667;PH41;Highland;Airor
 768;-0.8996,53.7207;DN14;East Riding of Yorkshire;Airmyn
+0;-7.0333,58.2333;;Scotland;Aird Uig
 487;-6.3419,58.2474;HS2;Western Isles;Aird Tong
 36390;-3.9802,55.8660;ML6;North Lanarkshire;Airdrie
 0;-5.9678,57.0335;IV45;Highland;Aird of Sleat
@@ -14261,6 +14287,7 @@
 0;-4.4000,57.9667;IV27;Highland;Achinduich
 0;-5.3457,58.0216;IV26;Highland;Achiltibuie
 0;-4.9156,58.3118;IV27;Highland;Achfary
+0;-3.9167,58.2667;;Scotland;Achentoul
 0;-5.3167,58.0000;IV26;Highland;Acheninver
 0;-5.2833,56.6333;PA38;Highland;Acharra
 0;-5.3000,55.9333;PA21;Argyll and Bute;Acharosson
@@ -14269,6 +14296,7 @@
 201;-5.7973,56.7445;PH36;Highland;Acharacle
 0;-5.1403,56.8353;PH33;Highland;Achaphubuil
 0;-4.4167,57.9833;IV27;Highland;Achany
+0;-4.9128,57.6116;;Scotland;Achanalt
 0;-4.7335,56.5600;PA36;Argyll and Bute;Achallader
 0;-5.5568,55.9398;PA31;Argyll and Bute;Achahoish
 0;-4.9000,57.3000;IV4;Highland;Achagate
@@ -15761,6 +15789,7 @@
 0;-0.2769,51.5857;NW9;Greater London;Kingsbury
 0;-0.2480,51.5960;NW9;Greater London;Colindale
 0;-1.4343,51.8880;OX8;Oxfordshire;Ditchley
+797;-1.0246,60.3419;;Scotland;Symbister
 10;-0.9182,60.6890;ZE2;Shetland Islands;Uyeasound
 0;-3.7286,50.5833;TQ13;Devon;Haytor
 0;-5.5073,54.4725;BT22;County Down;Rubane
@@ -16354,6 +16383,7 @@
 0;-6.7315,57.9554;HS4;Western Isles;Maraig
 0;-6.7504,57.9539;HS4;Western Isles;Eilean Anabuich
 0;-6.7634,57.9954;HS3;Western Isles;Aird a Mhulaidh
+0;-6.7487,58.0082;;Scotland;Ath Linne
 3503;-3.3604,51.6392;CF37;Rhondda Cynon Taff;Ynysybwl
 0;-3.9177,51.6810;SA6;Swansea;Ynysforgan
 1770;-0.6467,51.1362;GU8;Surrey;Wormley
@@ -17618,6 +17648,7 @@
 0;-1.3942,51.8239;OX8;Oxfordshire;Long Hanborough
 0;-2.2870,53.7410;BB5;Lancashire;Loveclough
 0;-1.0989,52.7150;LE7;Leicestershire;Cossington
+10000;33.7338,34.9843;;;Dhekelia
 0;-5.8958,57.1862;IV43;Highland;Heast
 500;-0.3352,51.6665;WD2;Hertfordshire;Letchmore Heath
 0;0.6134,51.6215;SS5;Essex;Hullbridge
@@ -18259,6 +18290,7 @@
 0;-2.0123,54.7570;DL13;Durham;Crawleyside
 0;-3.4640,51.9234;LD3;Powys;Tai'r Bull
 0;-7.1668,57.7214;HS6;Western Isles;Ruisgarry
+0;-6.9483,58.2216;;Scotland;Kneep
 0;-4.0639,51.8120;SA14;Carmarthenshire;The Gate
 0;-3.3892,52.2190;LD1;Powys;Howey
 0;-0.2751,51.1799;RH5;Surrey;Parkgate
@@ -18267,6 +18299,7 @@
 0;0.4700,52.2120;CB8;Cambridgeshire;Broad Green
 0;-2.6217,53.7413;PR5;Lancashire;Coup Green
 0;-5.1619,50.1657;TR3;Cornwall;Longdowns
+0;-7.0217,58.1955;;Scotland;Timsgarry
 0;-6.7818,58.2409;HS2;Western Isles;Tolsta Chaolais
 0;-3.0336,51.8138;NP7;Monmouthshire;Llanfoist
 0;-4.0929,53.3075;LL58;Isle of Anglesey;Glan-yr-afon
@@ -20058,6 +20091,7 @@
 0;-3.0732,52.8105;SY10;Shropshire;Whitehaven
 0;-3.0289,53.0356;LL14;Wrexham;Ddol
 0;-3.1707,59.0269;KW17;Orkney Islands;Bimbister
+0;-1.0163,60.3507;;Scotland;Hamister
 0;-1.8661,53.2818;SK17;Derbyshire;Upper End
 0;-1.8713,53.2863;SK17;Derbyshire;Peak Dale
 0;-1.8826,53.2818;SK17;Derbyshire;Batham Gate
@@ -20870,6 +20904,7 @@
 0;-4.4109,53.2863;LL65;Isle of Anglesey;Glan-yr-afon
 0;-4.3150,53.3138;LL78;Isle of Anglesey;Capel Coch
 0;-4.2848,53.3556;LL70;Isle of Anglesey;Brynrefail
+0;-0.9950,60.3651;;Scotland;Brough
 0;-1.2995,60.1921;ZE2;Shetland Islands;White Ness
 0;-2.0921,53.5193;OL8;Greater Manchester;Park Bridge
 0;-2.0375,53.5288;OL3;Greater Manchester;Quick
@@ -21295,6 +21330,7 @@
 0;-2.6000,51.8035;GL16;Gloucestershire;Mile End
 0;-2.5918,51.8152;GL16;Gloucestershire;Edge End
 0;-1.5931,53.4667;S36;South Yorkshire;Bolsterstone
+0;-2.9144,58.8464;;Scotland;Burray Village
 0;-0.2998,53.6192;DN39;Lincolnshire;Ulceby Skitter
 0;-0.3864,53.8194;HU6;East Riding of Yorkshire;Woodmansey
 0;-0.4885,51.0334;RH14;West Sussex;Newpound Common
@@ -22019,6 +22055,7 @@
 0;-0.0471,52.2487;CB23;Cambridgeshire;Knapwell
 0;-0.3198,52.2324;PE19;Bedfordshire;Staploe
 0;-0.3914,52.1586;MK41;Bedfordshire;Workhouse End
+0;-6.4398,58.0167;;Scotland;Lemreway
 0;-6.3886,58.0837;HS1;Western Isles;Marvig
 0;-4.0888,50.9507;EX38;Devon;St Giles in the Wood
 0;-4.0528,50.9949;EX31;Devon;Yarnscombe
@@ -22750,6 +22787,7 @@
 0;-1.0131,53.5770;DN7;South Yorkshire;Dunscroft
 0;-1.3906,51.6856;OX13;Oxfordshire;Fyfield
 0;0.8925,51.1191;TN24;Kent;Finberry
+0;-2.7656,58.9264;;Scotland;Deerness
 0;-1.8487,51.7392;GL7;Gloucestershire;Ready Token
 0;-0.4594,51.0857;RH12;West Sussex;Bucks Green
 0;-2.6641,51.7195;GL15;Gloucestershire;St Briavels Common
@@ -23788,6 +23826,7 @@
 0;-3.4020,56.2400;KY13;Perth and Kinross;West Netherton
 0;-2.4980,56.6975;DD10;Angus;Rossie Mills
 0;-2.7621,57.0863;AB34;Aberdeenshire;Rosehill
+0;-2.8329,58.8846;;Scotland;Cornquoy
 0;-3.8975,58.4674;KW13;Highland;Dalhalvaig
 0;-2.5622,57.1641;AB51;Aberdeenshire;Bankhead
 0;-2.8036,57.5603;AB54;Moray;Drumnagorrach
@@ -23802,9 +23841,12 @@
 0;-1.2073,60.0515;ZE2;Shetland Islands;Aith
 0;-1.2100,60.0567;ZE2;Shetland Islands;Aithsetter
 0;-1.3400,60.0634;ZE2;Shetland Islands;Duncansclett
+0;-1.0198,60.3442;;Scotland;Saltness
 0;-1.1540,60.2680;ZE2;Shetland Islands;Garth
+0;-2.7607,59.2103;;Scotland;Mill Bay
 0;-3.0486,59.0881;KW17;Orkney Islands;Tingwall
 0;-1.4964,60.4872;ZE2;Shetland Islands;Burnside
+0;-0.9865,60.3417;;Scotland;Huxter
 0;-1.1332,60.3242;ZE2;Shetland Islands;Billister
 0;-3.9379,57.7878;IV20;Highland;Rhynie
 0;-4.0164,58.5815;KW14;Highland;Totegan
@@ -23852,7 +23894,10 @@
 0;-2.5598,57.4370;AB51;Aberdeenshire;Logie Newton
 0;-2.5851,57.6628;AB45;Aberdeenshire;Ladysbridge
 0;-1.9718,57.6026;AB43;Aberdeenshire;Blackhills
+0;-6.9242,58.2045;;Scotland;Reef
+0;-6.8556,58.2546;;Scotland;Croir
 0;-3.6704,57.2819;PH26;Highland;Broomhill
+0;-6.4633,58.0530;;Scotland;Glenside
 0;-6.4946,58.1037;HS1;Western Isles;Keose
 0;-2.5411,57.3544;AB52;Aberdeenshire;New Rayne
 0;-6.7565,57.8418;HS4;Western Isles;Plocrapool
@@ -23861,6 +23906,7 @@
 0;-6.9134,57.7762;HS5;Western Isles;Ardvey
 0;-1.3357,60.0804;ZE2;Shetland Islands;Freefield
 0;-3.2199,54.6445;CA12;Cumbria;Beck Wythop
+0;-6.5145,58.0904;;Scotland;Kershader
 0;-4.6484,57.9696;IV27;Highland;Brae
 0;-6.9849,57.7443;HS5;Western Isles;Borrisdale
 0;-6.2292,58.3203;HS2;Western Isles;Gleann Tholastaidh
@@ -24280,6 +24326,7 @@
 0;-2.4335,57.3674;AB51;Aberdeenshire;Whitemyres
 0;-2.1002,51.7383;GL7;Gloucestershire;Tunley
 0;-6.7166,57.8867;HS4;Western Isles;Steinis
+0;-2.9862,58.8164;;Scotland;Quindry
 0;-3.2153,58.3115;KW3;Highland;Overton
 0;-0.3838,50.9806;RH13;West Sussex;Whitehall
 0;-0.5167,50.9791;RH20;West Sussex;Pickhurst
@@ -24447,6 +24494,7 @@
 0;-1.1941,54.0784;YO61;North Yorkshire;Cross Lanes
 0;1.2769,52.3512;IP21;Suffolk;Bleach Green
 0;-2.5610,59.2585;KW17;Orkney Islands;Otterswick
+0;-0.7636,60.4228;;Scotland;Housay
 0;-3.3507,56.2570;KY14;Fife;Burnside
 0;-3.3522,56.5069;PH2;Perth and Kinross;Gallowhill
 0;-0.8473,51.2358;GU10;Hampshire;Redlands
@@ -24511,6 +24559,7 @@
 0;-4.6740,51.9233;SA34;Carmarthenshire;Iet-y-bwlch
 0;0.9491,51.3743;ME12;Kent;Hamlet of Shellness
 0;-0.9818,51.8125;HP18;Buckinghamshire;Lower Pollicott
+0;-7.0581,57.9717;;Scotland;Govig
 0;-1.6010,54.3772;DL10;North Yorkshire;Ellerton-on-Swale
 0;-3.0642,52.0948;HR3;Herefordshire;Pen-y-Park
 0;-5.4840,57.3112;IV40;Highland;Allt nan Sùgh
@@ -24552,6 +24601,7 @@
 0;-5.8739,57.2434;IV42;Highland;Waterloo
 0;-3.2467,52.8291;SY10;Powys;Efail-rhyd
 0;-3.9880,51.9534;SA19;Carmarthenshire;Cwmdu
+0;-6.9471,58.2029;;Scotland;Uigen
 0;-4.0246,51.8331;SA18;Carmarthenshire;Pant-y-llyn
 0;-3.8718,51.9167;SA19;Carmarthenshire;Rhyd-y-saint
 0;-2.9662,52.1868;HR5;Herefordshire;Holme Marsh
@@ -24563,6 +24613,7 @@
 0;-6.3738,57.6098;IV51;Highland;Totscore
 0;-6.3766,57.6217;IV51;Highland;Linicro
 0;-3.4331,53.0273;LL21;Denbighshire;Melin-y-Wig
+0;-0.9696,60.3725;;Scotland;Vats-houll
 0;-3.3611,57.4068;PH26;Highland;Bridge-end
 0;-3.9906,51.9716;SA19;Carmarthenshire;Cwm-byr
 0;-4.1202,52.1047;SA48;Ceredigion;Pentre-bâch
@@ -24904,6 +24955,7 @@
 0;-1.6073,52.9102;DE6;Derbyshire;Dalbury Hollow
 0;-1.9910,53.7469;HX7;West Yorkshire;Nook
 0;-1.6603,53.9372;LS21;North Yorkshire;Lindley
+0;-2.0638,60.1202;;Scotland;Da Hametoon
 0;-2.0860,53.3501;SK12;Cheshire;Higher Poynton
 0;-2.1162,53.3321;SK10;Cheshire;Skellorn Green
 0;-1.1572,53.8680;YO23;North Yorkshire;Holme Green
@@ -25421,6 +25473,7 @@
 0;1.0921,52.1786;IP6;Suffolk;Creeting Bottoms
 0;1.3482,52.3427;IP21;Suffolk;Little Whittingham Green
 0;-1.9914,57.4861;AB42;Aberdeenshire;Durie
+0;-2.0739,60.1535;;Scotland;Da Nort Toons
 0;-3.6648,50.2389;TQ7;Devon;Bickerton
 0;0.9774,52.5484;NR17;Norfolk;Stalland Common
 0;-1.8508,53.1840;SK17;Staffordshire;Crowdicote
@@ -26899,6 +26952,7 @@
 0;-3.1757,52.7515;SY22;Powys;Waen Fach
 0;-3.2240,52.8956;LL20;Wrexham;Tregeiriog
 0;-3.1309,52.9737;LL20;Wrexham;Trevor Uchaf
+0;-2.4128,59.3592;;Scotland;Nesstoun
 0;-1.2202,60.4009;ZE2;Shetland Islands;Collafirth
 0;-1.3460,60.3798;ZE2;Shetland Islands;The Houllands
 0;-1.3269,60.4112;ZE2;Shetland Islands;Voxter
@@ -27203,6 +27257,7 @@
 0;-2.7891,52.8297;SY4;Shropshire;Brandwood
 0;-2.9246,52.9425;LL13;Wrexham;Knolton
 0;-2.8896,52.9552;LL13;Wrexham;Sandy Lane
+0;-2.8385,58.9174;;Scotland;Foubister
 0;-2.6163,59.1162;KW17;Orkney Islands;Aith
 0;-1.3590,59.9321;ZE2;Shetland Islands;Noss
 0;-2.8727,56.3531;KY16;Fife;Kincaple
@@ -27315,6 +27370,7 @@
 0;-3.8147,50.6847;TQ13;Devon;Easton
 0;-3.8205,50.6739;TQ13;Devon;Great Weeke
 0;-3.8616,50.6794;TQ13;Devon;Murchington
+0;-7.1100,58.1375;;Scotland;Islibhig
 0;-1.4066,52.2705;CV23;Warwickshire;Bascote
 0;-2.7618,53.0626;SY14;Cheshire;Duckington
 0;-2.8407,53.0536;SY14;Cheshire;Castletown
@@ -27688,6 +27744,7 @@
 0;-2.9687,52.9971;LL13;Wrexham;Eyton
 0;-3.0663,59.0504;KW17;Orkney Islands;Isbister
 0;-1.4961,60.2276;ZE2;Shetland Islands;Gruting
+0;-1.0140,60.3322;;Scotland;Clate
 0;-1.7272,53.3397;S33;Derbyshire;Brough
 0;-1.7882,53.3713;S33;Derbyshire;Nether Booth
 0;-3.6367,50.3667;TQ9;Devon;Capton
@@ -27766,6 +27823,8 @@
 0;-3.0942,59.0234;KW17;Orkney Islands;Coubister
 0;-3.2943,59.0175;KW16;Orkney Islands;Voy
 0;-3.1991,59.0336;KW17;Orkney Islands;Netherbrough
+0;-0.7559,60.4237;;Scotland;Bruray
+0;-0.9742,60.3681;;Scotland;Challister
 0;-1.0879,60.3805;ZE2;Shetland Islands;Lunning
 0;-1.8909,53.2786;SK17;Derbyshire;Tomthorn
 0;-3.6911,50.3456;TQ9;Devon;Woodford
@@ -29273,6 +29332,7 @@
 0;-4.7525,54.8336;DG8;Dumfries and Galloway;Auchenmalg
 0;-4.3337,53.3562;LL71;Isle of Anglesey;Capel Parc
 0;-0.8982,60.6030;ZE2;Shetland Islands;Herra
+0;-1.0158,60.3557;;Scotland;Marrister
 0;-7.4837,57.0009;HS9;Western Isles;Cuidhir
 0;-7.4157,56.9955;HS9;Western Isles;Bogach
 0;-2.1447,53.7115;OL14;West Yorkshire;Clough Foot
@@ -29747,6 +29807,7 @@
 0;-1.3896,53.2895;S41;Derbyshire;Nether Handley
 0;-1.4041,53.2953;S18;Derbyshire;West Handley
 0;-1.5649,53.4409;S35;South Yorkshire;Foldrings
+0;-2.9360,58.7447;;Scotland;Cleat
 0;-0.4206,53.5777;DN38;Lincolnshire;Coskills
 0;-0.3705,53.8162;HU7;East Riding of Yorkshire;Thearne
 0;-0.2291,53.9751;YO25;East Riding of Yorkshire;Skipsea Brough
@@ -30625,6 +30686,7 @@
 0;-2.2796,51.7681;GL10;Gloucestershire;Stroud Green
 0;-0.4546,52.3086;NN9;Northamptonshire;Lower Dean
 0;-0.2223,52.4284;PE7;Cambridgeshire;Church End
+0;-6.8803,58.1273;;Scotland;Giosla
 0;-4.0230,50.8692;EX19;Devon;Upcott
 0;-4.0357,50.8746;EX19;Devon;Dowland
 0;-3.4684,51.1315;TA23;Somerset;Churchtown
@@ -30819,6 +30881,7 @@
 0;-0.3436,52.2165;MK44;Bedfordshire;Honeydon
 0;-0.4665,52.4329;PE8;Northamptonshire;Wigsthorpe
 0;-0.4890,52.4408;PE8;Northamptonshire;Lilford
+0;-6.8942,58.1501;;Scotland;Einacleit
 0;-3.6441,50.8118;EX17;Devon;Lower Creedy
 0;-3.6451,50.8176;EX17;Devon;Upton Hellions
 0;-3.6463,50.8337;EX17;Devon;East Village
@@ -30925,6 +30988,7 @@
 0;-0.6393,53.0594;LN5;Lincolnshire;Stragglethorpe
 0;-0.6874,53.0624;LN5;Lincolnshire;Sutton
 0;-0.6976,53.2702;LN1;Lincolnshire;Hardwick
+0;-6.3862,58.0670;;Scotland;Calbost
 0;-4.0377,50.9826;EX37;Devon;Langridgeford
 0;-4.0879,50.9645;EX31;Devon;High Bullen
 0;-2.4678,51.6938;GL13;Gloucestershire;Lynch
@@ -31420,6 +31484,7 @@
 0;-3.9124,50.8004;EX20;Devon;Week
 0;-4.1207,51.0108;EX31;Devon;Stony Cross
 0;-4.1150,51.0273;EX31;Devon;Higher Lovacott
+0;-7.0456,58.1721;;Scotland;Carnais
 0;-2.8716,52.1863;HR4;Herefordshire;Haven
 0;0.0784,50.8908;BN8;East Sussex;Ashton Green
 0;-0.1943,51.6806;EN6;Hertfordshire;Bentley Heath
@@ -31505,6 +31570,8 @@
 0;-3.3909,51.1328;TA23;Somerset;Tacker Street
 0;-3.3919,51.1423;TA24;Somerset;Golsoncott
 0;-3.4147,51.1481;TA24;Somerset;Rodhuish
+0;-2.7840,59.2143;;Scotland;Guith
+0;-2.7806,59.2262;;Scotland;Cusbay
 0;-3.1053,51.6088;NP11;Wales;Danygraig
 0;-3.1233,51.6139;NP11;Wales;Glenside
 0;-5.1229,50.2313;TR3;Cornwall;Bissoe
@@ -32235,6 +32302,7 @@
 0;-3.3933,55.5533;ML12;Scottish Borders;Stanhope
 0;-4.2182,50.3838;PL11;Cornwall;Maryfield
 0;0.4898,51.4220;ME3;Kent;Mockbeggar
+0;-7.0375,58.1931;;Scotland;Cradhlastadh
 0;-4.4078,50.6398;PL15;Cornwall;Newmills
 0;-2.4695,53.1968;CW10;Cheshire;Stanthorne
 0;-2.6773,52.6210;SY5;Shropshire;Acton Pigott
@@ -32411,6 +32479,7 @@
 0;-4.6701,56.4246;FK20;Stirling;Auchtertyre
 0;-5.9046,56.5100;PA72;Argyll and Bute;Glen Forsa
 0;-3.9106,56.3645;PH6;Perth and Kinross;Strowan
+0;-3.9244,58.2950;;Scotland;Lochside
 0;-3.5538,56.1419;KY12;Fife;Hill End
 0;-4.2272,56.5027;FK21;Perth and Kinross;Kiltyrie
 0;-4.9284,56.2720;PA26;Argyll and Bute;Clachan
@@ -32446,6 +32515,7 @@
 0;-6.8983,57.7802;HS5;Western Isles;Cuidhtinis
 0;-3.5833,58.5859;KW14;Highland;Hill of Forss
 0;-4.8195,58.2688;IV27;Highland;Kinloch
+0;-6.9108,58.1836;;Scotland;Geisiadar
 0;-4.9764,58.1272;IV27;Highland;Stronchrubie
 0;-7.0987,57.6470;HS6;Western Isles;Bàgh a' Chàise
 0;-6.0611,57.3933;IV40;Highland;Balmeanach
@@ -32456,6 +32526,7 @@
 0;-4.5074,57.5433;IV6;Highland;Arcan
 0;-4.3868,57.7574;IV17;Highland;Strath Rusdale
 0;-6.3567,57.4915;IV51;Highland;Treaslane
+0;-4.1453,55.2292;;Scotland;Craigengillan
 0;-3.9520,55.8833;ML6;North Lanarkshire;Airdriehill
 0;-4.4500,56.0762;G63;Stirling;Shandon
 0;-4.3119,54.8509;DG8;Dumfries and Galloway;Kirkdale
@@ -32485,6 +32556,7 @@
 0;-3.6260,57.3616;PH26;Highland;Camerory
 0;-2.1384,57.2643;AB23;Aberdeenshire;Craigie
 0;-4.5141,55.7398;KA3;East Ayrshire;Halket
+0;-2.0760,60.1499;;Scotland;Harrier
 0;-2.3223,57.0903;AB31;Aberdeenshire;Drum
 0;-4.3669,57.5227;IV6;Highland;Fettes
 0;-1.3021,59.9308;ZE2;Shetland Islands;Skelberry
@@ -32536,6 +32608,7 @@
 0;-4.4490,57.4076;IV4;Highland;Teavarran
 0;-4.4763,57.5794;IV15;Highland;Ussie
 0;-2.8176,52.8095;SY4;Shropshire;Myddlewood
+0;-2.4219,59.2852;;Scotland;Northwall
 0;-3.3030,58.9963;KW16;Orkney Islands;Quholm
 0;-1.5568,60.5038;ZE2;Shetland Islands;Scarff
 0;-1.0539,60.5562;ZE2;Shetland Islands;Otterswick
@@ -32549,6 +32622,7 @@
 0;-2.4897,59.2761;KW17;Orkney Islands;Sellibister
 0;-1.2988,60.4306;ZE2;Shetland Islands;Scatsta
 0;-3.2015,52.8296;SY10;Powys;Priddbwll
+0;-2.8218,58.9177;;Scotland;Toab
 0;-3.8825,50.5907;PL20;Devon;Pizwell
 0;-3.9583,50.5227;PL20;Devon;Whiteworks
 0;-4.0150,50.5571;PL20;Devon;Rundlestone
@@ -32591,6 +32665,7 @@
 0;-3.2053,51.9628;LD3;Powys;Pengenffordd
 0;-2.2235,57.5788;AB43;Aberdeenshire;Nittanshead
 0;-3.6449,58.5035;KW12;Highland;Shurrery
+0;-2.8917,58.8478;;Scotland;Southtown
 0;-3.1557,58.7882;KW16;Orkney Islands;Osmondwall
 0;-2.3188,57.6309;AB45;Aberdeenshire;Overbrae
 0;-3.4081,58.2874;KW5;Highland;Smerral
@@ -32610,8 +32685,10 @@
 0;-3.2666,58.6394;KW14;Highland;Rattar
 0;-3.0580,58.5993;KW1;Highland;Skirza
 0;-3.0992,58.4197;KW1;Highland;Whiterow
+0;-2.9775,58.8049;;Scotland;Widewall
 0;-5.8011,57.7819;IV21;Highland;Peterburn
 0;-2.2357,57.5555;AB43;Aberdeenshire;Oldwhat
+0;-2.9732,58.7924;;Scotland;Sandwick
 0;-0.8692,60.7922;ZE2;Shetland Islands;Quoys
 0;-5.2003,50.2381;TR16;Cornwall;Trefula
 0;-0.0708,52.5534;PE7;Cambridgeshire;Oldeamere
@@ -32635,12 +32712,14 @@
 0;-3.2622,52.0455;LD3;Powys;Cwm-bach
 0;-3.1448,53.1011;CH7;Flintshire;Rhŷd-y-ceirw
 0;-1.8393,52.9954;DE6;Staffordshire;Parkgate
+0;-2.8058,58.9109;;Scotland;Upper Sanday
 0;-1.1065,52.5857;LE18;Leicestershire;Wigston
 0;-2.2450,57.5095;AB53;Aberdeenshire;Slacks of Cairnbanno
 0;-2.7119,53.0063;SY13;Cheshire;Bell o' th' Hill
 0;-2.2652,52.6984;TF11;Staffordshire;Blymhill Lawn
 0;-3.2403,52.5510;SY15;Powys;Dôl-forwyn
 0;-0.7999,53.7960;DN14;East Riding of Yorkshire;Welham Bridge
+0;-6.6043,58.0546;;Scotland;Ceann Shìphoirt
 0;-2.0326,53.2471;SK11;Cheshire;Bottom-of-the-Oven
 0;-6.8592,57.8326;HS3;Western Isles;Àird Mhìghe
 0;-2.8406,53.4125;L36;Merseyside;Huyton with Roby
@@ -32680,6 +32759,7 @@
 0;-6.7607,57.8458;HS4;Western Isles;Ceann-na-Cleithe
 0;-0.3884,51.2949;KT23;Surrey;Isle of Wight
 0;-3.9817,52.3881;SY23;Ceredigion;Pant-y-crûg
+0;-2.3970,59.3847;;Scotland;Easting
 0;-3.5074,56.0778;KY12;Fife;Backmuir of Pitfirrane
 0;-3.5688,51.4615;CF32;Vale of Glamorgan;Castle-upon-Alun
 0;-0.0195,51.5854;E17;Greater London;Central Parade
@@ -33045,6 +33125,9 @@
 0;-3.8783,50.7553;EX17;Devon;Langdown
 0;-3.7542,57.2588;PH24;Highland;Drumuillie
 0;-3.9314,57.5716;IV12;Highland;Delnies
+0;-2.4277,59.3692;;Scotland;Hollandstoun
+0;-2.4251,59.3728;;Scotland;Linklet
+0;-2.4207,59.3788;;Scotland;Ancumtoun
 0;-2.9714,59.3348;KW17;Orkney Islands;Rackwick
 0;-1.1011,60.1744;ZE1;Shetland Islands;Gunnista
 0;-1.2621,60.4424;ZE2;Shetland Islands;Graven
@@ -33111,9 +33194,11 @@
 0;-2.5899,59.0988;KW17;Orkney Islands;Dishes
 0;-2.5721,59.1074;KW17;Orkney Islands;Everbay
 0;-2.6025,59.1076;KW17;Orkney Islands;Grobister
+0;-2.8083,59.0731;;Scotland;Burroughston
 0;-1.2181,60.0389;ZE2;Shetland Islands;Cunningsburgh
 0;-3.4974,56.2878;PH2;Perth and Kinross;Path of Condie
 0;0.7017,52.7118;PE32;Norfolk;Fiddler's Green
+0;-7.1091,58.1047;;Scotland;Mealasta
 0;-1.2706,52.3077;CV23;Warwickshire;Woolscott
 0;0.3946,51.7839;CM1;Essex;Mashbury
 0;-4.3711,58.0221;IV27;Highland;Balnadelson
@@ -33127,6 +33212,7 @@
 0;-0.4367,51.3032;GU23;Surrey;Martyr's Green
 0;-2.6077,59.1133;KW17;Orkney Islands;Wardhill
 0;-2.7471,59.1511;KW17;Orkney Islands;Veness
+0;-2.8175,59.1764;;Scotland;West Side
 0;-1.2266,60.0784;ZE2;Shetland Islands;Fladdabister
 0;0.3708,51.8219;CM1;Essex;Green Street
 0;0.5563,51.9708;CO9;Essex;Almshouse Green
@@ -33542,6 +33628,11 @@
 0;-6.3169,57.2963;IV47;Highland;Satran
 0;-6.4038,57.4971;IV51;Highland;Breabost
 0;-1.9796,51.8314;GL54;Gloucestershire;Chatterley
+0;-2.9408,58.7396;;Scotland;Liddel
+0;-2.9304,58.8096;;Scotland;Eastside
+0;-2.9120,58.8275;;Scotland;Grimness
+0;-2.9415,58.8035;;Scotland;Aikers
+0;-3.0041,58.8082;;Scotland;Herston
 0;-0.2652,53.9734;YO25;East Riding of Yorkshire;Upton
 0;-4.6485,55.5929;KA11;North Ayrshire;Shewalton
 0;-2.4522,51.6135;GL12;Gloucestershire;Abbotside
@@ -33550,6 +33641,7 @@
 0;-2.7316,52.5877;SY5;Shropshire;Lawley
 0;-2.8843,51.9280;NP7;Monmouthshire;Llangua
 0;-3.4432,58.2930;KW5;Highland;Houstry
+0;-2.9323,58.8440;;Scotland;Westhill
 0;-2.9043,58.8651;KW15;Orkney Islands;Northtown
 0;-2.9317,58.8561;KW15;Orkney Islands;Hillside
 0;-3.0032,58.8273;KW17;Orkney Islands;Hoxa
@@ -33718,10 +33810,12 @@
 0;-4.4179,50.9153;EX22;Devon;Redmonsford
 0;-4.4158,50.9258;EX22;Devon;Northmoor
 0;-4.4446,51.0075;EX39;Devon;Brownsham
+0;-6.8736,58.2427;;Scotland;Tobson
 0;-3.6230,51.2149;TA24;Somerset;Porlockford
 0;-0.7124,54.4797;YO21;North Yorkshire;Hutton Mulgrave
 0;-3.1041,50.9638;TA3;Somerset;Woodram
 0;-4.1703,51.1323;EX33;Devon;Upcott
+0;-6.8704,58.2576;;Scotland;Bostadh
 0;-3.7142,50.8830;EX17;Devon;Hele Lane
 0;-2.3405,53.1395;CW11;Cheshire;Betchton Heath
 0;-0.9129,54.5057;TS13;North Yorkshire;Gerrick
@@ -33735,6 +33829,7 @@
 0;-3.3034,50.9337;EX16;Devon;Gipsy Town
 0;-3.2512,51.1364;TA4;Somerset;Higher Halsway
 0;-3.2997,59.1277;KW17;Orkney Islands;The Barony
+0;-2.4240,59.3619;;Scotland;Bustatoun
 0;-4.9624,51.7682;SA62;Pembrokeshire;Middle Hill
 0;-0.8760,53.1922;NG23;Nottinghamshire;Moorhouse
 0;-0.7142,53.2364;NG23;Nottinghamshire;Thorney Moor
@@ -33762,6 +33857,7 @@
 0;-2.9859,50.8929;TA20;Somerset;Cat Tail
 0;-3.1595,51.1675;TA5;Somerset;Durborough
 0;-2.8531,58.9773;KW15;Orkney Islands;Yinstay
+0;-2.7668,59.1566;;Scotland;Backaland
 0;-2.5788,59.2852;KW17;Orkney Islands;Burness
 0;-2.8088,51.6617;NP15;Wales;Earlswood
 0;-5.0009,50.2641;TR2;Cornwall;Merther
@@ -34122,6 +34218,7 @@
 0;-2.0698,53.4568;SK14;Greater Manchester;The Railway Sidings
 0;-1.7562,54.4626;DL11;North Yorkshire;Pond Dale
 0;0.2776,53.3208;LN12;Lincolnshire;Miami Beach Estate
+0;-2.7287,58.9377;;Scotland;Steinflett
 0;-4.7370,50.4801;PL31;Cornwall;Bodiniel
 0;-2.5809,51.4527;BS1;County of Bristol;Box Makers Yard
 0;-3.6105,56.3034;PH2;Perth and Kinross;Wester Keltie

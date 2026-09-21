@@ -331,3 +331,6 @@ ja;セレジェカ;Serejeka
 ja;フォロ;Foro
 ru;Форо;Foro
 ru;Adi Dzhimel’;Adi Jimel
+ar;غارورا;Kerora
+ar;كارورا;Kerora
+ar;زالامبسا;Zalambessa

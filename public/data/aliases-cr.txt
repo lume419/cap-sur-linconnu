@@ -489,3 +489,7 @@ tg;Алахуэла;Alajuela
 tt;Алахуэла;Alajuela
 hy;Տամարինդո;Tamarindo
 lt;Tamarindas;Tamarindo
+en;San Domingo;Puerto Jiménez
+es;Duriñak;Alto Lari
+es;Boca Estrella;Boca Río Estrella
+es;Alturas;Alturas de Cotón

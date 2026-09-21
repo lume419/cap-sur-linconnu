@@ -2656,3 +2656,9 @@ ka;აგუას-კალიენტესი;Aguas Calientes
 ur;ماچوپیکچو، پیرو;Aguas Calientes
 he;אגואס קליינטס;Aguas Calientes
 es;Obenteni;Oventeni
+es;Jiménez Banda;Puesto de Vigilancia Jiménez Banda
+es;P.V. Jiménez Banda;Puesto de Vigilancia Jiménez Banda
+es;Falso Paquisha;Puesto de Vigilancia Veintidós
+es;P.V. 4 Nuevo;Puesto de Vigilancia Cuatro Nuevo
+es;P.V. 4 B;Puesto de Vigilancia Cuatro B
+ru;Ремансо;Remanso

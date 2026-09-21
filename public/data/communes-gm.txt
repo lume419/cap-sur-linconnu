@@ -496,6 +496,7 @@
 0;-16.4167,13.4500;GM-07;North Bank;Samba Secka
 0;-14.0667,13.3000;GM-04;Upper River;Sambantalu
 0;-15.3333,13.5500;GM-03;Central River;Sambang Wolloff
+0;-15.3500,13.5167;GM;;Sambang Tenda
 899;-15.3333,13.5333;GM-03;Central River;Sambang
 0;-15.3000,13.3667;GM-02;Lower River;Samba Ndama
 64;-16.0583,13.5908;GM-07;North Bank;Samba Musu
@@ -1991,6 +1992,7 @@
 0;-15.2859,13.6390;GM-03;Central River;Sare Modi Khan
 0;-16.1047,13.3412;GM-02;Lower River;Kuyang Bajonki
 0;-16.0905,13.4929;GM-07;North Bank;Bali Mandinka
+4255;-16.6689,13.4837;GM;;Bakau Wasulun
 20878;-16.6650,13.4474;GM-01;Banjul;New Jeshwang
 48687;-16.6726,13.4256;GM-01;Banjul;Talinding
 19672;-16.6784,13.3749;GM-05;Western;Sinchu Alagi

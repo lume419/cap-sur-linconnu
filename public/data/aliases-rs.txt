@@ -5849,3 +5849,15 @@ tt;Субъел;Subjel
 ce;Субъел;Subjel
 fa;سوبیل;Subjel
 sr;Субјел;Subjel
+fa;ریتوشیچی;Ritošići
+de;Opština Priboj;Priboj
+sr;Прибој;Priboj
+ru;Прибой;Priboj
+zh;普里波耶;Priboj
+ko;프리보이;Priboj
+fa;پوژگرماتس;Požegrmac
+fa;چیتلوک;Čitluk
+sr;Ðurovići;Đurovići
+fa;زاگرادینا;Zagradina
+ur;زگرادنا;Zagradina
+fa;تسروسکو;Crvsko

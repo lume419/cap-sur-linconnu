@@ -30,6 +30,7 @@ const places = rows
     name: preparePlaceName('AM', c[0], c[1]),
     lat: parseFloat(c[4]),
     lon: parseFloat(c[5]),
+    admin1: c[10] || '',
     pop: parseInt(c[14], 10) || 0
   }))
   .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name);
@@ -114,7 +115,15 @@ for(const p of deduped){
   dumpByName.get(key).push(p);
 }
 
+// Noms des divisions administratives GeoNames (marz), pour la colonne « région » des lieux sans code (21/09/2026).
+const admin1Names = new Map();
+fs.readFileSync(path.join(__dirname, 'admin1CodesASCII.txt'), 'utf8').split('\n').forEach(l => {
+  const f = l.split('\t');
+  if(f[0] && f[1]) admin1Names.set(f[0], f[1]);
+});
+
 let matched = 0, ambiguousNames = [];
+const publiés = new Set();
 const lines = [];
 cpByName.forEach((entry, key) => {
   // Essaie d'abord le nom source tel quel, puis la variante entre parenthèses le cas échéant (voir
@@ -129,13 +138,24 @@ cpByName.forEach((entry, key) => {
       chosen = byPop[0];
     } else {
       const allClose = candidates.every(c => haversineKm(candidates[0], c) <= 15);
-      if(!allClose){ ambiguousNames.push(key + ' (' + candidates.length + ' lieux distincts)'); return; }
+      if(!allClose){ ambiguousNames.push(key + ' (' + candidates.length + ' lieux distincts)'); return; } // les homonymes ressortent dans la seconde passe, sans code
       chosen = byPop[0];
     }
   }
   matched++;
+  publiés.add(chosen);
   lines.push(`${chosen.pop};${chosen.lon.toFixed(4)},${chosen.lat.toFixed(4)};${entry.cps.join(',')};;${chosen.name}`);
 });
+
+// CODE POSTAL FACULTATIF (21/09/2026, demande de l'utilisateur). La boucle ci-dessus parcourt la liste des BUREAUX
+// DE POSTE : un lieu dont le nom n'y figure pas n'était jamais publié — 458 communes arméniennes sur 1 303. Le code
+// postal aide à retrouver sa ville, il ne décide pas si elle existe : les lieux restants sortent avec un code vide.
+let sansCode = 0;
+for(const p of deduped){
+  if(publiés.has(p)) continue;
+  sansCode++;
+  lines.push(`${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};;${admin1Names.get('AM.' + (p.admin1 || '')) || ''};${p.name}`);
+}
 
 const dumpNames = new Set(deduped.map(p => norm(p.name)));
 const unmatchedNames = [];
@@ -148,7 +168,7 @@ cpByName.forEach((entry, key) => {
 const outPath = path.join(__dirname, '..', 'public', 'data', 'communes-am.txt');
 fs.writeFileSync(outPath, dropNearDuplicates(lines).join('\n') + '\n', 'utf8'); // quasi-doublons (voir communes-corrections.js)
 console.log('AM : ', places.length, 'lieux bruts ->', deduped.length, 'dédoublonnés ->', lines.length,
-  'avec code postal (', matched, 'noms rapprochés) ->', outPath);
+  'publiés (', matched, 'noms rapprochés,', sansCode, 'sans code postal) ->', outPath);
 console.log(unparsed.length, 'lignes source non parsées :');
 console.log(unparsed.join('\n'));
 console.log(ambiguousNames.length, 'noms ÉCARTÉS car ambigus :');

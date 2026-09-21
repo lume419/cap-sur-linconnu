@@ -1871,3 +1871,20 @@ tg;Байрам-Кюрі;Bajram Curri
 tt;Байрам-Кюрі;Bajram Curri
 ru;Кодраси;Kodras
 ru;Фуше-Круя;Fushë-Kruja
+mk;Подгорани;Potgoran
+mk;Посновишта;Pasnovisht
+mk;Церско;Cerckë
+ru;Тети;Theth
+bg;Тети;Theth
+el;Θέθι;Theth
+zh;塞西;Theth
+uk;Тети;Theth
+sq;Thethi;Theth
+hu;Salaria;Salari
+mk;Саларија;Salari
+ru;Салари;Salari
+sq;Salaria;Salari
+ru;Мемалиай;Memaliaj
+sq;Memaliaji;Memaliaj
+sq;Kikaj Maskollata;Maskollatë
+sq;Kikaj;Maskollatë

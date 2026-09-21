@@ -21,7 +21,7 @@
 0;-16.4644,28.2356;38579;Santa Cruz de Tenerife;Zarza
 442;-1.0753,39.0917;46621;Valencia;Zarra
 0;-1.8763,37.8441;30810;Murcia;Zarcilla de Ramos
-0;-1.1111,38.0097;30110;Murcia;Zarandona
+7020;-1.1111,38.0097;30110;Murcia;Zarandona
 0;-2.5031,38.5468;02459;Albacete;Zapateros
 0;-4.6167,37.4333;14510;Córdoba;Zapateros
 0;-6.0833,36.9167;41740;Sevilla;Zancarrón
@@ -1460,6 +1460,7 @@
 0;-2.2066,38.4123;02486;Albacete;Peralta
 0;-6.5333,38.8333;06499;Badajoz;Perales
 0;-1.8000,39.5167;16250;Cuenca;Peraleja
+0;-5.5667,38.4667;;Extremadura;Peraleda de Zaucejo
 348;-5.3873,39.7413;10334;Cáceres;Peraleda de San Román
 1545;-5.4607,39.8529;10335;Cáceres;Peraleda de la Mata
 0;-2.7978,38.3246;23359;Jaén;Peñolite
@@ -2113,7 +2114,7 @@
 0;-3.0769,36.8034;04778;Almería;Los Valentines
 0;-4.1333,36.8333;29712;Málaga;Los Vados
 0;-2.1345,37.2840;04858;Almería;Los Utreras
-0;-0.8312,37.6833;30368;Murcia;Los Urrutias
+984;-0.8312,37.6833;30368;Murcia;Los Urrutias
 0;-0.9833,37.7833;30708;Murcia;Los Urreas
 0;-1.0857,37.7360;30331;Murcia;Los Urreas
 0;-1.0000,37.7167;30394;Murcia;Los Tropeles
@@ -2232,7 +2233,7 @@
 0;-2.3371,37.1422;04275;Almería;Los Nudos
 0;-4.1635,37.6541;23669;Jaén;Los Noguerones
 0;-2.1830,36.8844;04117;Almería;Los Nietos de Campo Hermoso
-0;-0.7848,37.6488;30384;Murcia;Los Nietos
+1660;-0.7848,37.6488;30384;Murcia;Los Nietos
 0;-1.0429,37.6831;30319;Murcia;Los Navarros
 2748;-4.6421,39.6666;45130;Toledo;Los Navalucillos
 2759;-4.6423,39.7253;45140;Toledo;Los Navalmorales
@@ -2442,7 +2443,7 @@
 0;-6.6801,38.3028;06389;Badajoz;Los Bolsicos
 0;-2.1000,37.4667;04692;Almería;Los Blases
 0;-0.8114,37.6308;30381;Murcia;Los Blancos
-0;-0.7787,37.6216;30385;Murcia;Los Belones
+2394;-0.7787,37.6216;30385;Murcia;Los Belones
 0;-2.2500,38.2667;02536;Albacete;Los Belmontes
 0;-0.9023,37.6636;30367;Murcia;Los Beatos
 0;-2.9428,37.3454;18870;Granada;Los Bastianes
@@ -2544,6 +2545,7 @@
 0;-17.2200,28.0823;38811;Santa Cruz de Tenerife;Lo del Gato
 0;-6.8000,37.9333;21360;Huelva;Lo de la Vieja
 0;-3.5650,36.7721;18610;Granada;Lobres
+0;-2.4198,37.9134;;Andalusia;Lóbrega
 125;-3.2123,36.9285;18449;Granada;Lobras
 0;-1.0839,37.7293;30331;Murcia;Lobosillo
 2611;-6.6236,38.8488;06498;Badajoz;Lobón
@@ -2567,7 +2569,7 @@
 0;-14.0324,28.4756;35637;Las Palmas;Llanos de la Concepción
 0;-16.3330,28.4413;38107;Santa Cruz de Tenerife;Llano del Moro
 0;-0.0512,38.6015;03590;Alicante;Llano del Castillo
-0;-0.8361,37.6239;30385;Murcia;Llano del Beal
+1289;-0.8361,37.6239;30385;Murcia;Llano del Beal
 0;-2.2839,38.4231;02486;Albacete;Llano de la Torre
 0;-2.5076,37.5479;18859;Granada;Llano del Abad
 0;-0.3000,39.1333;46614;Valencia;Llano de Gorra
@@ -2725,7 +2727,7 @@
 0;-16.1655,28.5823;38129;Santa Cruz de Tenerife;Las Palmas
 0;-16.8333,28.3333;38489;Santa Cruz de Tenerife;Las Palmas
 0;-2.2667,37.2667;04859;Almería;Las Paletas
-0;-1.1903,37.6631;30334;Murcia;Las Palas
+1368;-1.1903,37.6631;30334;Murcia;Las Palas
 26;-1.8333,37.2833;04618;Almería;Las Orillas
 0;2.9667,39.4000;07630;Baleares;sa Sorda
 0;-1.5333,39.6167;16269;Cuenca;La Somera
@@ -3029,7 +3031,7 @@
 17874;-0.1269,38.6137;03530;Alicante;la Nucia
 489;-3.1382,37.1687;18518;Granada;Lanteira
 0;-3.0860,36.8346;18491;Granada;La Noria
-0;-1.1974,37.9903;30830;Murcia;La Ñora
+3949;-1.1974,37.9903;30830;Murcia;La Ñora
 0;-2.0486,38.6112;02124;Albacete;La Noguera
 3773;-3.4818,36.9185;18420;Granada;Lanjarón
 1398;-1.3667,39.9000;16330;Cuenca;Landete
@@ -3378,7 +3380,7 @@
 0;-1.0000,39.9333;46178;Valencia;La Almeza
 0;-3.0483,37.9295;23470;Jaén;La Almedina
 574;-2.3801,39.6863;16740;Cuenca;La Almarcha
-0;-1.0687,37.6907;30390;Murcia;La Aljorra
+4673;-1.0687,37.6907;30390;Murcia;La Aljorra
 0;-3.5804,38.3290;23213;Jaén;La Aliseda
 0;-3.8593,37.3762;18260;Granada;La Alhondiguilla
 0;-0.7500,38.2167;03339;Alicante;La Algoda
@@ -3437,7 +3439,7 @@
 0;-17.8808,28.5857;38769;Santa Cruz de Tenerife;Jedey
 1241;-3.8231,36.9492;18127;Granada;Jayena
 28016;0.1667,38.7833;03738;Alicante;Javea
-0;-1.2041,37.9885;30831;Murcia;Javalí Viejo
+1525;-1.2041,37.9885;30831;Murcia;Javalí Viejo
 0;-1.9605,37.2528;04629;Almería;Jauro
 0;-4.6556,37.3030;14911;Córdoba;Jauja
 29386;-0.5185,38.9904;46800;Valencia;Xàtiva
@@ -3462,7 +3464,7 @@
 0;-6.5167,37.8667;21209;Huelva;Jabuguillo
 2183;-6.7297,37.9162;21290;Huelva;Jabugo
 2390;-3.7251,38.0194;23712;Jaén;Jabalquinto
-0;-1.2170,37.9860;30832;Murcia;Javalí Nuevo
+3230;-1.2170,37.9860;30832;Murcia;Javalí Nuevo
 0;-3.8176,37.7381;23194;Jaén;Jabalcuz
 1179;-3.0324,38.1571;23338;Jaén;Iznatoraf
 826;-4.1833,36.7833;29792;Málaga;Iznate
@@ -3476,6 +3478,7 @@
 0;-1.2086,37.5746;30868;Murcia;Isla Plana
 0;-7.3417,37.1870;21409;Huelva;Isla del Moral
 0;-7.3778,37.1733;21409;Huelva;Isla Canela
+0;-13.5099,29.4010;;Canary Islands;Isla de Alegranza
 21324;-7.3167,37.2000;21410;Huelva;Isla Cristina
 0;-3.5805,38.2407;23214;Jaén;Isabela
 522;-2.6605,36.9934;04430;Almería;Instinción
@@ -4251,7 +4254,7 @@
 0;-1.2069,37.9154;30833;Murcia;El Palmeral
 0;-5.8047,37.0615;41719;Sevilla;El Palmar de Troya
 0;-0.3174,39.3130;03700;Alicante;El Palmar
-0;-1.1609,37.9394;30120;Murcia;El Palmar
+23361;-1.1609,37.9394;30120;Murcia;El Palmar
 0;-17.9315,28.8356;38787;Santa Cruz de Tenerife;El Palmar
 0;-2.0086,37.3479;04662;Almería;El Palacés
 0;-0.9167,39.3000;46199;Valencia;El Oro
@@ -4368,7 +4371,7 @@
 9;-0.9333,37.6167;30399;Murcia;El Ferriol
 0;-2.2500,38.4333;02486;Albacete;El Estrecho
 0;-1.1111,37.7325;30332;Murcia;El Estrecho
-0;-0.8301,37.6294;30381;Murcia;El Estrecho
+705;-0.8301,37.6294;30381;Murcia;El Estrecho
 0;2.9183,39.3615;07639;Baleares;s'Estanyol de Migjorn
 0;-2.6849,38.9413;02611;Albacete;El Espinillo
 0;-15.6469,27.9858;35368;Las Palmas;El Espinillo
@@ -4723,7 +4726,7 @@
 0;-3.5921,36.9889;18659;Granada;Cozvíjar
 0;-3.7986,37.2754;18291;Granada;Cozcojar
 1305;-3.0720,38.6622;13345;Ciudad Real;Cózar
-0;-1.8124,37.9489;30812;Murcia;Coy
+306;-1.8124,37.9489;30812;Murcia;Coy
 6411;-0.8874,38.1416;03348;Alicante;Cox
 0;-4.0823,37.8850;14620;Córdoba;Cotrufes
 0;-0.9531,37.5885;30202;Murcia;Coto de San Juan
@@ -4738,7 +4741,7 @@
 0;-6.4167,36.7000;11550;Cádiz;Costa de Rota
 0;-1.4816,37.6565;30834;Murcia;Corvillones
 0;-1.1742,37.7671;30154;Murcia;Corverica
-0;-1.1573,37.8310;30153;Murcia;Corvera
+2299;-1.1573,37.8310;30153;Murcia;Corvera
 0;-4.0000,36.9833;18120;Granada;Corumbela
 0;-2.3398,37.8576;04839;Almería;Cortijos Nuevos del Campo
 0;-2.5801,37.9755;23290;Jaén;Cortijos Nuevos de la Sierra
@@ -4864,7 +4867,7 @@
 1941;-3.8117,37.1980;18339;Granada;Cijuela
 34889;-1.4199,38.2400;30530;Murcia;Cieza
 12001;-3.6462,37.1450;18194;Granada;Churriana de la Vega
-0;-1.1329,38.0234;30110;Murcia;Churra
+4875;-1.1329,38.0234;30110;Murcia;Churra
 67;-2.0333,39.7667;16216;Cuenca;Chumillas
 772;-0.8833,39.6500;46167;Valencia;Chulilla
 228;-3.9436,39.7319;45113;Toledo;Chueca
@@ -4984,7 +4987,7 @@
 1167;-5.0910,39.2849;06680;Badajoz;Castilblanco
 172;-0.2667,38.9167;46726;Valencia;Castellonet de la Conquesta
 2301;-0.3667,38.8833;46841;Valencia;Castelló de Rugat
-171857;-0.0493,39.9857;12550;Castellón;Castelló de la Plana
+183711;-0.0493,39.9857;12550;Castellón;Castelló de la Plana
 998;-0.4500,39.8667;12413;Castellón;Castellnovo
 0;2.9375,39.5508;07629;Baleares;Castellitx
 2964;-3.3550,36.7257;18740;Granada;Castell de Ferro
@@ -5465,7 +5468,7 @@
 0;-6.7104,38.1809;06350;Badajoz;Cabra
 21352;-4.4421,37.4725;14940;Córdoba;Cabra
 0;-15.5845,28.1376;35422;Las Palmas;Cabo Verde
-0;-0.6924,37.6330;30370;Murcia;Cabo de Palos
+1052;-0.6924,37.6330;30370;Murcia;Cabo de Palos
 0;-16.6727,28.0684;38627;Santa Cruz de Tenerife;Cabo Blanco
 0;-1.1242,38.0253;30110;Murcia;Cabezo de Torres
 0;-0.9590,38.6290;03409;Alicante;Cabezo de la Virgen
@@ -5664,7 +5667,7 @@
 1538;-0.0021,38.8223;03778;Alicante;Beniarbeig
 0;-0.2221,38.8212;03789;Alicante;Beniali
 0;-0.3379,38.7726;03828;Alicante;Benialfaquí
-0;-1.0706,37.9739;30570;Murcia;Beniaján
+11233;-1.0706,37.9739;30570;Murcia;Beniaján
 1494;-0.9621,38.1413;03316;Alicante;Benferri
 15313;-0.3969,39.4226;46910;Valencia;Benetússer
 5295;-0.8394,38.0773;03390;Alicante;Benejúzar
@@ -5991,7 +5994,7 @@
 340;-2.3569,39.9126;16780;Cuenca;Altarejos
 127;-2.5948,37.0025;04568;Almería;Alsodux
 813;-3.1155,37.1802;18518;Granada;Alquife
-0;-1.0313,38.0120;30580;Murcia;Alquerías
+3890;-1.0313,38.0120;30580;Murcia;Alquerías
 1418;-0.1500,38.9333;46715;Valencia;L'Alqueria de la Comtessa
 415;-0.4167,38.7667;03829;Alicante;l'Alqueria d'Asnar
 0;3.1671,39.3871;07691;Baleares;s'Alqueria Blanca
@@ -6191,6 +6194,7 @@
 1299;-0.0401,38.7504;03728;Alicante;Alcalalí
 22783;-3.9230,37.4614;23680;Jaén;Alcalá la Real
 5323;-5.1724,36.9045;11693;Cádiz;Alcalá del Valle
+5639;-5.7238,36.4621;;Andalusia;Alcalá de los Gazules
 1397;-1.4302,39.1931;02210;Albacete;Alcalá del Júcar
 0;-0.2514,38.7948;03786;Alicante;Alcalá de la Jovada
 70155;-5.8395,37.3379;41500;Sevilla;Alcalá de Guadaira
@@ -10473,7 +10477,7 @@
 671;-4.4340,41.6085;47340;Valladolid;Sardón de Duero
 0;-4.4172,41.6171;47340;Valladolid;Sardoncillo
 0;-8.7000,42.2167;36205;Pontevedra;Sárdoma
-0;-9.2390,42.9404;15130;A Coruña;Sardiñeiro de Abajo
+0;-9.2390,42.9404;15130;A Coruña;Sardiñeiro de Abaixo
 0;-9.2500,42.9500;15130;A Coruña;Sardiñeiro
 0;-5.8456,43.2962;33173;Asturias;Sardín
 0;-5.1215,43.4400;33567;Asturias;Sardedo
@@ -11590,7 +11594,7 @@
 0;-7.5711,41.9009;32618;Ourense;San Cristóbal
 0;-4.7093,41.6159;47012;Valladolid;San Cristóbal
 0;-0.8167,40.1167;44460;Teruel;San Cristóbal
-0;-9.1051,42.9361;15297;A Coruña;San Crimenso
+0;-9.1051,42.9361;15297;A Coruña;San Crimenzo
 0;-7.2338,43.5441;27792;Lugo;San Cosme
 0;-7.2333,42.3167;27418;Lugo;San Cosmede
 0;-6.2417,43.5410;33155;Asturias;San Cosme
@@ -12987,7 +12991,7 @@
 0;-6.8324,42.4208;24380;León;Quereño
 0;-2.6797,41.1892;19269;Guadalajara;Querencia
 1008;-3.2753,40.6053;19209;Guadalajara;Quer
-0;-9.2000,42.9333;15130;A Coruña;Quenje
+0;-9.2000,42.9333;15130;A Coruña;Quenxe
 0;-7.4609,43.3663;27738;Lugo;Quende
 0;-8.3667,43.2167;15183;A Coruña;Quembre
 257;-3.5748,41.7007;09454;Burgos;Quemada
@@ -13090,7 +13094,7 @@
 0;-4.0862,43.3615;39530;Cantabria;Puente San Miguel
 0;-8.6000,42.3500;36690;Pontevedra;Pontesampaio
 0;-4.4045,43.1098;39556;Cantabria;Puente Pumar
-0;-9.0333,42.9667;15151;A Coruña;Puente-Olveira
+0;-9.0333,42.9667;15151;A Coruña;Ponte Olveira
 0;-4.9120,43.3970;33507;Asturias;Puente Nuevo
 3199;-7.1946,43.3495;27728;Lugo;Puente Nuevo
 0;-7.2333,42.3833;27318;Lugo;Ponte Nova
@@ -14484,7 +14488,7 @@
 0;-8.5167,42.2333;36895;Pontevedra;Padrones
 0;-7.0777,43.1178;27116;Lugo;Padrón
 9039;-8.6606,42.7388;15900;A Coruña;Padrón
-0;-9.2532,42.9701;15270;A Coruña;Padris
+0;-9.2532,42.9701;15270;A Coruña;Padrís
 0;-8.8013,42.4068;36969;Pontevedra;Padriñán
 0;-8.7921,42.4775;36633;Pontevedra;Padrenda
 2433;-8.1500,42.1333;32236;Ourense;Padrenda
@@ -18219,7 +18223,7 @@
 0;-5.2621,43.3176;33584;Asturias;La Matosa
 114;-3.7944,41.1912;40175;Segovia;La Matilla
 0;-3.2646,43.2448;48879;Vizcaya;La Matanza
-0;-0.2798,40.6165;12312;Castellón;La Mata de Morella
+196;-0.2798,40.6165;12312;Castellón;La Mata de Morella
 0;-5.0476,42.8385;24887;León;La Mata de Monteagudo
 0;-5.7430,42.4236;24252;León;La Mata del Páramo
 262;-0.5212,40.8659;44557;Teruel;La Mata de los Olmos
@@ -18790,7 +18794,7 @@
 87;-2.9029,40.9643;19245;Guadalajara;Jirueque
 0;-5.9289,42.2657;24767;León;Jiménez de Jamuz
 0;-8.3833,42.3833;32455;Ourense;Xesta
-0;-9.0893,42.9570;15151;A Coruña;Jestosa
+0;-9.0893,42.9570;15151;A Coruña;Xestosa
 1312;-5.7501,40.2227;10612;Cáceres;Jerte
 0;-5.4190,40.8826;37810;Salamanca;Jemingómez
 0;-4.4943,40.9475;40135;Segovia;Jemenuño
@@ -21487,8 +21491,8 @@
 0;-2.1839,42.7621;31272;Navarra;Ecala
 1756;-2.5856,43.3798;48287;Vizcaya;Ea
 0;-5.2048,43.4573;33343;Asturias;Duyos
-0;-9.2833,42.9333;15155;A Coruña;Duyo
-0;-9.2667,42.9333;15155;A Coruña;Duyo
+0;-9.2833,42.9333;15155;A Coruña;Duio
+0;-9.2667,42.9333;15155;A Coruña;Duio
 0;-2.6333,43.3833;48311;Vizcaya;Durikiz
 1384;-2.9309,41.9545;42158;Soria;Duruelo de la Sierra
 140;-3.6491,41.2362;40312;Segovia;Duruelo
@@ -24293,11 +24297,11 @@
 232;-1.6024,41.8197;50546;Zaragoza;Bulbuente
 0;-2.5080,41.0955;19263;Guadalajara;Bujarrabal
 997;-0.1529,41.4981;50177;Zaragoza;Bujaraloz
-0;-9.1167,42.9667;15151;A Coruña;Bujantes
+0;-9.1167,42.9667;15151;A Coruña;Buxantes
 0;-2.4070,42.6746;01128;Álava;Bujanda
-0;-9.1176,43.0104;15151;A Coruña;Buján
+0;-9.1176,43.0104;15151;A Coruña;Buxán
 0;-8.6167,43.0000;15871;A Coruña;Buján
-0;-9.2680,42.9563;15155;A Coruña;Buján
+0;-9.2680,42.9563;15155;A Coruña;Buxán
 0;-8.7281,42.7470;15948;A Coruña;Buján
 0;-7.1360,42.2375;32375;Ourense;Buxán
 0;-2.7152,41.1283;19266;Guadalajara;Bujalcayado
@@ -24775,7 +24779,7 @@
 15;1.1535,42.5751;25596;Lleida;Berrós Jussà
 0;-5.7046,43.3856;33186;Asturias;Berrón
 0;-2.6600,43.2634;48391;Vizcaya;Berroia
-0;-9.1656,42.9454;15299;A Coruña;Berroge
+0;-9.1656,42.9454;15299;A Coruña;Berroxe
 122;-1.5899,43.1047;31796;Navarra;Berroeta
 0;-1.5000,43.1333;31700;Navarra;Barrio Berro Auzoa
 0;-6.1133,40.0353;10600;Cáceres;Berrocalillo
@@ -26425,7 +26429,7 @@
 0;-5.4856,40.8486;37890;Salamanca;Amatos de Alba
 0;-2.0473,43.1826;20150;Guipúzcoa;Amasa
 0;-2.6292,42.9154;01520;Álava;Amarita
-0;-9.2333,42.9333;15130;A Coruña;Amarela
+0;-9.2333,42.9333;15130;A Coruña;A Amarela
 0;-7.9351,42.7733;27577;Lugo;Amarante
 0;-7.9176,42.7694;27578;Lugo;Amarante
 0;-8.0333,42.4167;32170;Ourense;Amarante
@@ -27876,7 +27880,7 @@
 0;-15.5191,27.7817;35100;Las Palmas;Bahia Feliz
 15955;-5.8889,43.5355;33416;Asturias;Corvera de Asturias
 0;-0.7862,38.2250;03339;Alicante;Barrio De La Estacion De Crevillente
-0;-0.7167,38.0650;03170;Alicante;Ciudad Quesada
+11622;-0.7167,38.0650;03170;Alicante;Ciudad Quesada
 0;-0.7285,37.9258;03189;Alicante;La Zenia
 0;-0.7212,37.9552;03189;Alicante;Residencia los Altos
 0;-0.7327,37.9557;03189;Alicante;Los Balcones
@@ -28009,7 +28013,7 @@
 0;-5.8805,43.5459;33468;Asturias;Overo
 0;-8.1341,43.3606;15614;A Coruña;Viaxe de Abaixo
 0;-2.1202,37.4355;04814;Almería;Los Marcelinos
-0;-0.7297,37.6280;30380;Murcia;Playa Honda
+1515;-0.7297,37.6280;30380;Murcia;Playa Honda
 0;-0.7251,38.1060;03177;Alicante;Los Palacios
 0;-2.1240,37.5489;04828;Almería;El Bancalejo
 0;-1.7952,37.2735;04618;Almería;Las Herrerias
@@ -28305,7 +28309,7 @@
 0;-8.5771,42.8448;15892;A Coruña;O Milladoiro
 0;-5.0478,40.4148;05132;Ávila;Navalsauz
 0;-6.1910,42.9516;24142;León;Piedrafita de Babia
-0;-1.1025,37.9934;30570;Murcia;Puente Tocinos
+12529;-1.1025,37.9934;30570;Murcia;Puente Tocinos
 0;1.7450,41.2286;43880;Tarragona;Les Roquetes
 0;-2.1725,36.9104;04117;Almería;San Isidro de Nijar
 0;-6.4797,43.2814;33876;Asturias;Semellon
@@ -28580,7 +28584,7 @@
 0;-6.2677,36.4997;11519;Cádiz;Zona Franca de Cadiz
 0;-1.0912,38.0088;30160;Murcia;Casillas
 198;-1.0492,38.0281;30162;Murcia;Barrio de San José Obrero
-0;-1.0811,38.0139;30161;Murcia;Cabecicos
+2000;-1.0811,38.0139;30161;Murcia;Cabecicos
 14779;-1.5981,42.8129;31621;Navarra;Sarriguren
 0;-4.7140,41.9214;34191;Palencia;Rayaces
 0;-8.8599,42.2717;36945;Pontevedra;Donòn
@@ -28958,6 +28962,7 @@
 0;-6.4502,42.7160;24458;León;Berciego
 0;-8.1008,42.2885;32415;Ourense;A Costa
 0;-9.0442,43.1209;15129;A Coruña;Bribes
+241;-3.1272,39.2652;;Castille-La Mancha;Alameda de Cervera
 0;-3.0338,43.0131;48460;Vizcaya;Lendoño de Abajo
 0;-5.3395,41.4824;47530;Valladolid;Villaguer
 0;-5.7749,43.2089;33683;Asturias;Peñule
@@ -28965,7 +28970,7 @@
 0;-2.9956,43.3885;48600;Vizcaya;Playa Arrietara
 0;1.3738,39.0143;07816;Baleares;Cami Vell de Sant Mateu
 0;1.4603,38.9186;07800;Baleares;Cap Martinet
-0;-0.7635,37.6407;30384;Murcia;Mar de Cristal
+814;-0.7635,37.6407;30384;Murcia;Mar de Cristal
 0;-8.6878,42.8771;15865;A Coruña;A Torre
 0;-1.7014,37.3196;04648;Almería;Cala Panizo
 0;-8.5506,42.7508;36450;Pontevedra;Couso

@@ -3,6 +3,7 @@
 0;-72.3000,18.4333;HT6150;Ouest;Zorazo
 0;-72.9000,19.6833;HT4230;Artibonite;Zoranger
 0;-72.3165,19.0367;HT4421;Artibonite;Zoranger
+0;-73.1833,18.8833;;Ouest;Zoranger
 0;-72.2667,18.7667;HT6421;Centre;Zoranger
 0;-71.8667,18.7167;HT5330;Centre;Zoranger
 0;-72.8167,18.2167;HT9210;Sud-Est;Zoranger
@@ -33,8 +34,10 @@
 0;-72.5833,19.8833;HT3220;Nord-Ouest;Zabricet
 0;-74.3667,18.4333;HT7210;Grand'Anse;Zabotte
 0;-72.9333,18.3333;HT6220;Sud-Est;Zabot
+0;-72.1500,19.0167;;Centre;Zaboca
 0;-72.9000,18.1833;HT9220;Sud-Est;Zabo
 0;-72.5169,18.9592;HT4320;Artibonite;Zabethe
+0;-72.6607,18.9530;;Ouest;Yvra
 0;-73.0667,18.3833;HT7411;Grand'Anse;Yvon
 0;-72.6593,19.0416;HT4311;Artibonite;Yousse
 0;-72.2000,18.2500;HT9120;Sud-Est;Yombe
@@ -85,6 +88,7 @@
 0;-72.5000,19.5500;HT1710;Artibonite;Violette
 0;-73.1833,18.3667;HT7412;Grand'Anse;Violette
 0;-72.0833,18.7500;HT5210;Centre;Vine
+0;-73.0417,19.7483;;Nord-Ouest;Vindio
 0;-72.0833,19.5833;HT2320;Nord-Est;Vincent
 0;-72.2500,19.5000;HT1420;Nord;Vincent
 0;-72.2333,19.5000;HT1420;Nord;Vincent
@@ -241,6 +245,8 @@
 0;-72.7333,19.8000;HT3212;Nord-Ouest;Tyron
 0;-72.3794,19.7679;HT1620;Nord;Tutoi
 0;-72.2000,18.7500;HT5210;Centre;Turpin
+0;-72.5833,18.9667;;Artibonite;Turin
+0;-72.2667,19.2333;;Artibonite;Tumba Câlin
 0;-73.8500,18.2667;HT8160;Sud;Tuffet Ainé
 0;-73.8333,18.2500;HT8160;Sud;Tuffet
 0;-72.1000,18.5000;HT6330;Ouest;Tuffe
@@ -251,6 +257,7 @@
 0;-72.8811,20.0382;HT3122;Nord-Ouest;Trou Vasseux
 0;-72.3333,18.6000;HT6122;Ouest;Troutier
 0;-73.7667,18.4167;HT8150;Sud;Trou Soleil
+0;-73.2833,18.9333;;Ouest;Trou Sirop
 0;-72.7847,20.0234;HT3120;Nord-Ouest;Trou Sardines
 0;-72.8500,18.2333;HT9210;Sud-Est;Trou Rat
 0;-72.4333,18.4333;HT6120;Ouest;Trou Pipique
@@ -261,9 +268,11 @@
 0;-71.9167,18.2167;HT9320;Sud-Est;Trou Morin
 0;-72.0000,18.4667;HT6330;Ouest;Trou Mirliton
 0;-73.6667,18.1000;HT8110;Sud;Trou Milieu
+0;-73.1546,18.8947;;Ouest;Trou Marassa
 0;-72.3000,18.4000;HT6150;Ouest;Trou Mantegue
 0;-72.2333,18.2500;HT9120;Sud-Est;Trou Mahot
 0;-72.6953,18.1834;HT9210;Sud-Est;Trou Mahot
+0;-73.1751,18.8304;;Ouest;Trou Louis
 0;-72.6667,18.3833;HT6211;Ouest;Trou l’Étang
 0;-73.6738,18.0695;HT8220;Sud;Trou l'Embarras
 0;-72.0301,18.3869;HT9311;Ouest;Trou Laleau
@@ -283,6 +292,7 @@
 0;-72.8833,18.4000;HT6121;Ouest;Trou Flèche
 10569;-72.0244,19.6167;HT2310;Nord-Est;Trou du Nord
 0;-71.9833,18.3667;HT9311;Ouest;Trou Dimanche
+0;-73.0667,18.8000;;Ouest;Trou des Hommes
 0;-72.6000,19.7833;HT1522;Nord;Trou d’Enfer
 0;-72.5872,19.7695;HT1522;Nord;Trou d'Enfer
 0;-73.2500,19.6333;HT3330;Nord-Ouest;Trou d’Eau
@@ -293,6 +303,7 @@
 0;-72.7333,19.7667;HT4210;Artibonite;Trou Cordon
 0;-72.7167,19.7500;HT4210;Artibonite;Trou Cordon
 0;-72.3333,19.4667;HT5121;Artibonite;Trou Cochon
+0;-73.1424,18.8233;;Ouest;Trou Cochon
 0;-72.1162,18.7958;HT5210;Centre;Trou Chouchou
 0;-72.9809,18.4547;HT6220;Ouest;Trou Chouchou
 0;-73.7103,18.3694;HT8150;Sud;Trou Canari
@@ -318,6 +329,7 @@
 0;-73.8333,18.3500;HT8140;Sud;Trois Rats
 0;-72.6819,19.6518;HT4210;Artibonite;Trois Poteaux
 0;-72.1500,19.3333;HT1440;Nord;Trois Poteaux
+0;-72.2667,19.2500;;Artibonite;Trois Poteaux
 0;-72.6360,19.4371;HT4110;Artibonite;Trois Ponts
 0;-71.9167,19.4333;HT2410;Nord-Est;Trois Platons
 0;-72.2982,18.9603;HT4421;Artibonite;Trois Platons
@@ -327,6 +339,7 @@
 0;-72.5741,18.3341;HT6211;Sud-Est;Trois Palmistes
 0;-71.8500,18.4000;HT6340;Ouest;Trois Mats
 0;-72.1519,18.3169;HT9310;Sud-Est;Trois Mats
+0;-72.1833,18.3167;;Sud-Est;Trois Mares
 0;-71.9506,19.4613;HT2410;Nord-Est;Trois La Passe
 0;-73.5964,18.4972;HT7520;Nippes;Trois Frères
 0;-72.5833,19.8667;HT3220;Nord;Trois Carrefours
@@ -366,6 +379,7 @@
 0;-72.2667,18.3167;HT9120;Sud-Est;Toussaint
 0;-72.5208,18.3081;HT9111;Sud-Est;Tourpine
 0;-74.2333,18.6333;HT7130;Grand'Anse;Tourneau
+0;-72.2490,19.0075;;Artibonite;Tournain
 0;-73.4193,18.3929;HT7540;Nippes;Tournade
 0;-73.4000,18.3833;HT7540;Nippes;Tournade
 0;-72.3167,18.3000;HT9121;Sud-Est;Tourette
@@ -404,6 +418,7 @@
 0;-73.6167,18.4603;HT7520;Nippes;Tomaset
 0;-72.3833,19.1000;HT4421;Artibonite;Tomarin
 0;-72.3833,18.9333;HT4321;Artibonite;Tomarin
+0;-73.2094,18.9142;;Ouest;Tomarin
 0;-72.0833,18.5333;HT6330;Ouest;Tomarin
 0;-72.6000,18.4667;HT6210;Ouest;Tomarin
 0;-73.4570,18.4428;HT7540;Nippes;Tomarin
@@ -424,6 +439,7 @@
 0;-72.3500,18.7167;HT6420;Ouest;Ti Tanyin
 0;-72.9186,18.8356;HT6510;Ouest;Ti Source
 0;-71.7667,18.2333;HT9330;Sud-Est;Ti Simbi
+0;-73.0272,19.8133;;Nord-Ouest;Ti Savane
 0;-72.0230,18.8568;HT5230;Centre;Ti Savane
 0;-72.9035,19.6317;HT4230;Artibonite;Ti Saline
 0;-72.8785,19.5426;HT4230;Artibonite;Ti Saline
@@ -462,6 +478,8 @@
 0;-71.9801,18.9118;HT5230;Centre;Ti Péligre
 0;-71.7895,18.3025;HT9330;Ouest;Ti Parc
 0;-72.6222,18.4946;HT6210;Ouest;Ti Paradis
+0;-73.0374,18.8303;;Ouest;Ti Palmiste
+0;-73.0333,18.8167;;Ouest;Ti Palmiste
 0;-72.8167,19.8833;HT3140;Nord-Ouest;Ti Paillette
 0;-72.3469,18.8281;HT6421;Ouest;Tioquin
 0;-74.2667,18.4000;HT7141;Sud;Tinclade
@@ -471,6 +489,7 @@
 0;-72.6958,19.6496;HT4210;Artibonite;Ti Moulin
 0;-72.3667,18.2333;HT9130;Sud-Est;Ti Mouillage
 0;-72.7667,20.0500;HT3120;Nord-Ouest;Timothée
+0;-72.2333,19.0333;;Artibonite;Ti Montagne
 0;-73.3333,18.4500;HT7420;Nippes;Ti Michel
 0;-72.3500,19.1000;HT4421;Artibonite;Timely
 0;-73.8076,18.3699;HT8150;Sud;Ti Melon
@@ -492,9 +511,13 @@
 0;-72.0333,18.4333;HT6330;Ouest;Ti Guinin
 0;-72.5214,18.8939;HT6411;Ouest;Ti Grambi
 0;-74.3500,18.6000;HT7221;Grand'Anse;Tigas
+0;-73.0355,18.8392;;Ouest;Ti Fort Nègre
 0;-72.6833,19.7000;HT4210;Artibonite;Ti Fond Pelletier
 0;-72.8402,19.9117;HT3140;Nord-Ouest;Ti Fond
 0;-72.7608,19.6361;HT4220;Artibonite;Ti Fond
+0;-72.4333,19.2833;;Artibonite;Ti Fond
+0;-73.2551,18.9369;;Ouest;Ti Fond
+0;-73.2500,18.9167;;Ouest;Ti Fond
 0;-72.4636,18.8433;HT6411;Ouest;Ti Fond
 0;-72.3000,18.7667;HT6421;Ouest;Ti Fond
 0;-72.0392,18.4550;HT6330;Ouest;Ti Fond
@@ -512,10 +535,13 @@
 0;-72.6029,19.4480;HT4110;Artibonite;Ti Coupe Nandrin
 0;-72.6000,19.4333;HT4110;Artibonite;Ti Coupe
 0;-72.6319,18.9331;HT6411;Ouest;Ti Couloute
+0;-72.1562,18.3625;;Ouest;Ti Couline
 0;-72.6167,18.9333;HT6411;Ouest;Ti Coulet
 0;-73.1603,19.6342;HT3330;Nord-Ouest;Ti Côte de Fer
+0;-73.0612,18.8695;;Ouest;Ti Coma
 0;-73.3000,18.2833;HT8311;Sud;Ti Coma
 0;-73.7833,18.3833;HT8150;Sud;Ti Claire
+0;-73.1167,18.8667;;Ouest;Ti Ciseau
 0;-72.0833,18.3667;HT9311;Ouest;Ti Cienne
 0;-72.1699,19.7166;HT1120;Nord;Ti Charute
 0;-72.9620,19.9061;HT3408;Nord-Ouest;Ti Charles
@@ -523,6 +549,7 @@
 0;-72.1306,19.1205;HT5120;Centre;Ti Cayemites
 0;-72.9167,19.5667;HT4230;Artibonite;Ti Carénage
 0;-72.4167,18.4500;HT6135;Ouest;Ti Cape
+0;-73.1793,18.8620;;Ouest;Ti Calebasse
 0;-72.3294,19.1398;HT4421;Artibonite;Ti Cahos
 0;-73.5167,18.5500;HT7530;Nippes;Tiby
 3054;-74.3960,18.3259;HT8530;Sud;Tiburon
@@ -564,6 +591,7 @@
 2461;-71.8416,18.2438;HT9330;Sud-Est;Thiotte
 0;-72.5308,19.6883;HT1720;Nord;Thierry
 0;-72.5819,18.9852;HT4322;Artibonite;Thienne
+0;-72.2500,18.7500;;Ouest;Theron
 0;-72.8500,18.3500;HT6121;Ouest;Thérese
 0;-74.1833,18.5500;HT7112;Grand'Anse;Théophile
 0;-72.4500,19.8000;HT1521;Nord;Thébaudière
@@ -603,6 +631,8 @@
 0;-72.3692,18.3136;HT9121;Sud-Est;Terry
 21328;-71.9548,19.6363;HT2330;Nord-Est;Terrier Rouge
 0;-72.6218,19.5352;HT4110;Artibonite;Terre Sonnain
+0;-73.0890,18.8555;;Ouest;Terre Sèche
+0;-73.0717,18.8267;;Ouest;Terre Sèche
 0;-71.9500,19.3333;HT2430;Nord-Est;Terre Salée
 0;-72.3500,19.7000;HT1610;Nord;Terre Rouge
 0;-73.2500,19.6500;HT3330;Nord-Ouest;Terre Rouge
@@ -611,6 +641,7 @@
 0;-72.5865,19.4799;HT4120;Artibonite;Terre Rouge
 0;-71.9537,19.4520;HT2410;Nord-Est;Terre Rouge
 0;-71.7850,19.0157;HT5420;Centre;Terre Rouge
+0;-73.0124,18.7956;;Ouest;Terre Rouge
 0;-72.1572,18.7106;HT6320;Centre;Terre Rouge
 0;-74.2989,18.5444;HT7150;Grand'Anse;Terre Rouge
 0;-73.4667,18.4500;HT7510;Nippes;Terre Rouge
@@ -645,16 +676,20 @@
 0;-72.7500,20.0333;HT3121;Nord-Ouest;Terre Glissée
 0;-71.7667,18.2167;HT9341;Sud-Est;Terre Froide Magny
 0;-71.8129,18.3720;HT6340;Ouest;Terre Froide
+0;-73.0167,18.8500;;Ouest;Terre Fendue
+0;-73.0631,19.7314;;Nord-Ouest;Terre des Nègres
 0;-72.0333,18.5000;HT6330;Ouest;Terre Contrée
 0;-72.4167,18.7333;HT6420;Ouest;Terre Chaude
 0;-72.8134,20.0296;HT3122;Nord-Ouest;Terre Cassée
 0;-72.8390,19.7422;HT4230;Nord-Ouest;Terre Cassée
 0;-72.2027,19.3098;HT1440;Artibonite;Terre Cassée
+0;-72.2667,19.2167;;Artibonite;Terre Cassée
 0;-71.7000,19.2333;HT5412;Nord-Est;Terre Canne
 0;-71.8277,18.6603;HT5330;Ouest;Terre Canne
 0;-72.8500,19.8667;HT3140;Nord-Ouest;Terre Brûlée
 0;-72.6349,18.2586;HT9140;Sud-Est;Terre Brûlée
 0;-72.6333,19.6000;HT4210;Artibonite;Terre Blanche
+0;-72.3167,19.2667;;Artibonite;Terre Blanche
 0;-71.7667,19.2500;HT5412;Centre;Terre Blanche
 0;-71.8609,19.0937;HT5420;Centre;Terre Blanche
 0;-72.6852,19.0752;HT4311;Artibonite;Terre Blanche
@@ -767,10 +802,12 @@
 0;-74.3000,18.4000;HT7141;Sud;Source Rouge
 0;-74.1667,18.3833;HT8520;Sud;Source Pisse
 0;-72.9811,18.4003;HT6220;Ouest;Source Pineau
+0;-73.1231,18.8184;;Ouest;Source Philippe
 0;-72.3492,19.1077;HT4421;Artibonite;Source Michaud
 0;-72.3751,18.7224;HT6420;Ouest;Source Matelas
 0;-72.4167,19.0500;HT4320;Artibonite;Source La Chaussée Redoule
 0;-72.3500,19.4667;HT4510;Artibonite;Source Jean Pierre
+0;-73.1500,18.9167;;Ouest;Source Herbe
 0;-71.9928,18.4797;HT6330;Ouest;Source Gabriel
 0;-72.5854,18.2677;HT9110;Sud-Est;Source Gabriel
 0;-72.4442,18.8742;HT6421;Ouest;Source Figuier
@@ -798,6 +835,7 @@
 0;-72.7833,19.7167;HT4210;Artibonite;Souqui
 0;-73.2500,19.7500;HT3310;Nord-Ouest;Souppren
 0;-74.0333,18.3667;HT8511;Sud;Soulette
+0;-73.6500,18.0833;;Sud;Soulette
 0;-74.4000,18.4833;HT7210;Grand'Anse;Soulé
 0;-73.8333,18.1667;HT8120;Sud;Soulé
 0;-72.7239,18.3972;HT6230;Ouest;Soulager
@@ -827,6 +865,7 @@
 0;-73.1833,18.2833;HT8313;Sud;Sobia
 0;-74.1833,18.5500;HT7112;Grand'Anse;Smith
 0;-73.9000,18.2000;HT8130;Sud;Smith
+0;-72.2167,18.9500;;Centre;Sivol
 0;-72.7667,18.2833;HT9140;Ouest;Sirene
 0;-72.0667,18.6000;HT6331;Ouest;Sire
 0;-71.9333,19.4833;HT2130;Nord-Est;Singo
@@ -887,6 +926,7 @@
 0;-73.9093,18.0660;HT8210;Sud;Scipion
 0;-71.8167,19.5500;HT2110;Nord-Est;Sayant
 0;-72.9000,20.0500;HT3122;Nord-Ouest;Savoyard
+0;-73.0378,19.7764;;Nord-Ouest;Savoyard
 0;-72.5333,19.1500;HT4323;Artibonite;Savien
 0;-72.6000,19.1667;HT4410;Artibonite;Savary
 0;-72.5333,19.1000;HT4323;Artibonite;Savary
@@ -918,6 +958,7 @@
 0;-73.0689,19.8047;HT3340;Nord-Ouest;Savane Poufli
 0;-72.7000,19.7000;HT4210;Artibonite;Savane Pomme
 0;-71.9962,19.5898;HT2310;Nord-Est;Savane Pomme
+0;-72.3167,19.1833;;Artibonite;Savane Plate
 0;-72.0167,19.1000;HT5110;Centre;Savane Plate
 0;-71.8000,19.1000;HT5420;Centre;Savane Plate
 0;-71.8475,18.8676;HT5320;Centre;Savane Plate
@@ -943,6 +984,7 @@
 0;-72.3667,19.5167;HT4510;Artibonite;Savane Longue
 0;-71.7500,19.4833;HT2220;Nord-Est;Savane Longue
 0;-72.1500,19.3667;HT1440;Nord;Savane Longue
+0;-72.3742,19.2853;;Artibonite;Savane Longue
 0;-72.2000,19.2167;HT5120;Centre;Savane Longue
 0;-71.9703,19.0350;HT5130;Centre;Savane Longue
 0;-72.1833,18.7167;HT6320;Ouest;Savane Longue
@@ -960,6 +1002,7 @@
 0;-72.8860,19.5896;HT4230;Artibonite;Savane Figuier
 0;-72.5167,19.5333;HT4120;Artibonite;Savane Faché
 0;-72.2489,18.2319;HT9120;Sud-Est;Savane Dubois
+0;-72.4000,19.2667;;Artibonite;Savane Dossous
 0;-72.1833,19.3000;HT1440;Nord;Savane Diane
 0;-72.2333,19.2667;HT5120;Artibonite;Savane Diane
 0;-72.2000,19.2500;HT5120;Centre;Savane Diane
@@ -988,6 +1031,7 @@
 0;-72.2500,18.4333;HT6150;Ouest;Savane Bourique
 0;-72.1799,19.4332;HT1410;Nord;Savane Bouc
 0;-71.8359,18.6439;HT5330;Ouest;Savane Bombe
+0;-72.3333,19.2500;;Artibonite;Savane Bois Pin
 0;-72.2000,19.1500;HT5120;Centre;Savane Boeuf
 0;-72.2167,18.6000;HT6310;Ouest;Savane Blonde
 0;-72.3167,19.3500;HT5121;Artibonite;Savane Blanc
@@ -998,6 +1042,7 @@
 0;-72.0159,19.5897;HT2310;Nord-Est;Savane au Camp
 0;-72.3670,19.0110;HT4421;Artibonite;Savane à Roche
 0;-72.2000,19.1833;HT5120;Centre;Savane à Renthe
+0;-72.2667,19.2000;;Centre;Savane à Pierre
 0;-72.1333,19.1500;HT5120;Centre;Savane à Pale
 0;-72.1000,19.0833;HT5120;Centre;Savane à Lagues
 0;-71.8000,18.8333;HT5321;Centre;Savane à Grand
@@ -1043,6 +1088,7 @@
 0;-72.1167,19.3667;HT1440;Nord;Santigue
 0;-72.1971,19.3398;HT1440;Nord;Santiago
 0;-71.7641,19.0402;HT5420;Centre;Santanne
+0;-72.2833,19.2500;;Artibonite;Sans Raison
 0;-71.9333,19.1667;HT5111;Centre;Sansou
 0;-72.6333,19.5333;HT4110;Artibonite;Sanse
 0;-71.9698,18.9710;HT5130;Centre;Sans Boute
@@ -1071,6 +1117,7 @@
 0;-71.7667,18.7333;HT5330;Ouest;Salmador
 0;-71.9373,19.0188;HT5130;Centre;Salmadère
 0;-71.8833,18.9667;HT5130;Centre;Salmadère
+0;-73.0139,19.7869;;Nord-Ouest;Saline Maillette
 0;-73.0333,19.6167;HT4230;Artibonite;Saline Grand Port
 0;-73.3333,18.2333;HT8311;Sud;Saline Duverger
 0;-71.6462,19.2169;HT5412;Centre;Salgodon
@@ -1121,6 +1168,7 @@
 0;-71.7500,19.6000;HT2120;Nord-Est;Saint-Jean
 0;-74.1500,18.5167;HT7112;Grand'Anse;Saint-Jean
 0;-73.2500,18.3500;HT8313;Grand'Anse;Saint-Jean
+0;-72.2737,19.2284;;Artibonite;Saintilien
 0;-74.0667,18.2500;HT8411;Sud;Saintil
 0;-72.5543,18.2924;HT9110;Sud-Est;Saint-Hilaire
 0;-72.2986,19.5292;HT1420;Nord;Saint-Germain
@@ -1166,6 +1214,7 @@
 0;-72.3667,18.8667;HT6421;Artibonite;Sabourin
 0;-72.4167,18.7500;HT6420;Ouest;Sabourin
 0;-72.5975,18.4967;HT6210;Ouest;Sabouce
+0;-72.3833,19.3000;;Artibonite;Sabocon
 0;-74.0667,18.4833;HT7330;Grand'Anse;Sablier
 0;-72.5546,18.2282;HT9110;Sud-Est;Sable Cabaret
 0;-74.3667,18.4833;HT7210;Grand'Anse;Rozoli
@@ -1190,6 +1239,7 @@
 0;-72.4667,19.6333;HT1611;Nord;Rousseau
 0;-72.7000,19.6000;HT4210;Artibonite;Rousseau
 0;-72.2848,19.0644;HT4421;Artibonite;Rousseau
+0;-72.6667,18.9500;;Ouest;Rousseau
 0;-72.6144,18.9239;HT6411;Ouest;Rousseau
 0;-73.5925,18.3632;HT8330;Sud;Rousseau
 0;-72.6500,18.3667;HT6211;Ouest;Rousseau
@@ -1225,6 +1275,7 @@
 0;-73.7711,18.5089;HT7340;Grand'Anse;Rosa
 0;-72.3167,18.5833;HT6122;Ouest;Roquette
 0;-72.0620,19.4573;HT2321;Nord-Est;Roquet
+0;-72.1833,18.9667;;Centre;Rondo
 0;-73.3000,19.6167;HT3320;Nord-Ouest;Rondino
 0;-71.8000,19.4167;HT2230;Nord-Est;Rondelle
 0;-72.3167,19.3167;HT5121;Artibonite;Rondeau
@@ -1277,7 +1328,9 @@
 0;-73.4000,19.6500;HT3320;Nord-Ouest;Rochefort
 0;-72.6667,19.7000;HT4210;Artibonite;Roche Filée
 0;-73.3000,18.2333;HT8311;Sud;Roche Carrée
+0;-73.0667,18.8833;;Ouest;Roche Campe
 0;-72.2500,18.3333;HT6150;Sud-Est;Roche Cabrit
+0;-72.3000,19.1667;;Artibonite;Roche Blanche
 0;-74.3667,18.5667;HT7221;Grand'Anse;Roche Blanche
 0;-72.1167,18.5000;HT6330;Ouest;Roche Blanche
 0;-71.9667,18.2667;HT9321;Sud-Est;Roche Blanche
@@ -1287,8 +1340,10 @@
 0;-72.5167,19.6000;HT1710;Nord;Roche à Feu
 1662;-74.0035,18.1818;HT8430;Sud;Roche-à-Bateau
 0;-73.6833,18.3167;HT8330;Sud;Roche
+0;-73.6109,18.0720;;Sud;Roche
 0;-74.1333,18.6500;HT7110;Grand'Anse;Rochasse
 0;-72.2333,19.2167;HT5120;Centre;Roc Blanc
+0;-72.3333,19.1833;;Artibonite;Roc Blanc
 0;-72.5167,19.1500;HT4323;Artibonite;Robuste
 0;-73.5833,18.4000;HT7510;Sud;Robuste
 0;-72.0000,19.4500;HT2321;Nord-Est;Roblin
@@ -1359,9 +1414,11 @@
 0;-73.5196,18.4703;HT7510;Nippes;Riche
 0;-72.2500,19.6000;HT1220;Nord;Richate
 0;-72.0833,19.5833;HT2320;Nord;Richard
+0;-73.0699,18.9232;;Ouest;Richard
 0;-71.9535,18.8422;HT5310;Centre;Richard
 0;-72.5167,18.3667;HT9111;Sud-Est;Richard
 0;-72.3439,18.3131;HT9121;Sud-Est;Rica
+0;-72.3333,19.1833;;Artibonite;Rezin
 0;-73.1000,18.4500;HT7410;Nippes;Reynolds Terminals
 0;-72.4134,19.7434;HT1520;Nord;Revesso
 0;-73.3500,19.7667;HT3320;Nord-Ouest;Reval
@@ -1395,6 +1452,7 @@
 0;-73.8167,18.2833;HT8160;Sud;Remadin
 0;-72.3333,18.8167;HT6421;Ouest;Régnier
 0;-73.8667,18.2500;HT8122;Sud;Régnier
+0;-72.1198,19.0348;;Centre;Régalie
 0;-71.8167,18.8333;HT5321;Centre;Regadere
 0;-71.7623,19.4814;HT2220;Nord-Est;Réforme
 0;-72.4514,19.7656;HT1520;Nord;Redoute
@@ -1413,6 +1471,8 @@
 0;-72.5911,19.1570;HT4410;Artibonite;Raynal
 0;-72.0333,19.3500;HT1450;Nord;Raymonde
 0;-73.5000,18.3000;HT8320;Sud;Raymond Connet
+0;-73.0203,19.7958;;Nord-Ouest;Raymond
+0;-73.0333,19.7333;;Nord-Ouest;Raymond
 0;-73.9167,18.4333;HT7330;Grand'Anse;Raymond
 0;-73.8500,18.3333;HT8140;Sud;Raymond
 0;-73.4833,18.3333;HT7540;Sud;Raymond
@@ -1436,8 +1496,10 @@
 0;-72.3667,19.5833;HT1210;Nord;Ravine Georges
 0;-73.2500,19.7167;HT3310;Nord-Ouest;Ravine Gallette
 0;-71.8675,19.3497;HT2431;Nord-Est;Ravine Froide
+0;-72.2333,18.9500;;Centre;Ravine Fontaine
 0;-72.3167,19.3500;HT5121;Artibonite;Ravine Fond
 0;-71.9947,19.1151;HT5110;Centre;Ravine Fond
+0;-72.3333,19.2333;;Artibonite;Ravine Dou
 0;-73.4000,18.2833;HT8310;Sud;Ravine d’Haïti
 0;-72.1000,19.6000;HT2320;Nord;Ravine Desroches
 0;-73.3000,18.4000;HT8313;Nippes;Ravine Cocoyer
@@ -1474,6 +1536,7 @@
 0;-74.1009,18.3090;HT8511;Sud;Randel
 0;-71.8667,19.1000;HT5420;Centre;Rande Joie
 0;-71.8000,19.0167;HT5420;Centre;Ranchanton
+0;-74.1149,18.4825;;Grand'Anse;Rampe des Lions
 0;-74.2833,18.5500;HT7140;Grand'Anse;Rampas
 0;-72.7667,19.8500;HT3212;Nord-Ouest;Rampart
 0;-74.0667,18.3500;HT8511;Sud;Rampart
@@ -1505,6 +1568,7 @@
 0;-72.7333,18.3333;HT6211;Ouest;Raboteau
 0;-72.6333,19.0167;HT4311;Artibonite;Rabion
 0;-74.1833,18.5667;HT7112;Grand'Anse;Quiton
+0;-72.7004,18.9478;;Ouest;Quisqueya
 0;-72.9500,19.7333;HT4230;Nord-Ouest;Quisa
 0;-72.8405,18.3174;HT6121;Ouest;Quiquitte
 0;-72.9955,18.4240;HT6220;Ouest;Quipérie
@@ -1553,6 +1617,7 @@
 0;-72.6833,19.9000;HT3210;Nord-Ouest;Préto
 0;-72.3167,19.5000;HT4510;Nord;Prester
 0;-72.6667,19.6667;HT4210;Artibonite;Pressac
+0;-73.4133,19.8213;;Nord-Ouest;Presqu’île du Môle
 0;-71.6695,19.2028;HT5410;Centre;Présina
 0;-71.6695,19.2028;HT5410;Centre;Présim
 0;-72.2333,18.3000;HT9120;Sud-Est;Présaille
@@ -1566,6 +1631,7 @@
 0;-73.8647,18.1546;HT8121;Sud;Praslin
 0;-73.6500,18.3333;HT8330;Sud;Pradine
 0;-72.7769,18.2011;HT9210;Sud-Est;Pradine
+0;-73.6100,18.0670;;Sud;Pradel
 0;-72.5063,18.4486;HT6212;Ouest;Povot
 0;-72.3167,18.7833;HT6421;Ouest;Poux de Bois
 0;-72.3717,19.0180;HT4421;Artibonite;Poux
@@ -1619,6 +1685,7 @@
 1234742;-72.3388,18.5435;HT6110;Ouest;Port-au-Prince
 3819;-74.0971,18.2496;HT8420;Sud;Port-à-Piment
 0;-73.8333,18.0500;HT8220;Sud;Port à Nannette
+0;-73.0387,19.9065;;Nord-Ouest;Port à l'Écu
 0;-72.7082,19.0978;HT4311;Artibonite;Portail Montrouis
 0;-72.5408,18.2419;HT9110;Sud-Est;Portail Léogane
 0;-72.5253,18.2403;HT9110;Sud-Est;Portail la Gosseline
@@ -1633,6 +1700,7 @@
 0;-72.6144,19.1484;HT4410;Artibonite;Pont Sondé
 0;-71.9333,19.4000;HT2410;Nord-Est;Pont Sable
 0;-72.5500,18.8167;HT6411;Ouest;Pont Matheaux
+0;-72.1833,18.9500;;Centre;Pont Madame Louis Gapi
 0;-72.0667,18.5167;HT6330;Ouest;Pont Kenete
 0;-72.1049,18.6165;HT6320;Ouest;Pont Janvier
 0;-71.7500,19.6000;HT2120;Nord-Est;Pontgot
@@ -1678,9 +1746,15 @@
 0;-72.8500,18.7333;HT5220;Ouest;Pointe Sable
 0;-73.9333,18.1167;HT8230;Sud;Pointe Sable
 0;-72.9000,18.1667;HT9220;Sud-Est;Pointe Ravine Blanche
+0;-72.9678,20.0649;;Nord-Ouest;Pointe Ouest
 0;-71.8333,18.1500;HT9341;Sud-Est;Pointe la Geme
 0;-72.8053,18.2550;HT9210;Sud-Est;Pointe Jour
 0;-72.6800,18.2692;HT9140;Sud-Est;Pointe Jean Louis
+0;-73.5785,18.0769;;Sud;Pointe de l'Est
+0;-73.2397,18.9646;;Ouest;Pointe des Lataniers
+0;-73.2333,18.9500;;Ouest;Pointe des Lataniers
+0;-73.0617,18.7847;;Ouest;Pointe à Raquettes
+0;-73.2049,18.8363;;Ouest;Pointe Pierrot
 0;-72.6500,18.2500;HT9140;Sud-Est;Point du Jour
 0;-72.3504,19.0422;HT4421;Artibonite;Poincy
 0;-73.5167,18.4500;HT7510;Nippes;Poinceau
@@ -1700,6 +1774,8 @@
 0;-72.4000,18.4167;HT9111;Ouest;Plaume
 0;-72.6994,18.9908;HT4311;Artibonite;Platte
 0;-72.2167,18.4333;HT6150;Ouest;Platon Zaboca
+0;-73.1898,18.8788;;Ouest;Platon Trou Louis
+0;-73.0829,18.8158;;Ouest;Platon Trou Bigaille
 0;-72.6000,18.3500;HT6211;Sud-Est;Platon Tapion
 0;-72.9514,19.6643;HT4230;Artibonite;Platon Tâche
 0;-72.8833,18.3667;HT6121;Ouest;Platon Renaud
@@ -1707,6 +1783,7 @@
 0;-72.2500,19.5000;HT1420;Nord;Platon Prière
 0;-71.7725,18.2321;HT9330;Sud-Est;Platon Pistache
 0;-73.3167,19.6833;HT3320;Nord-Ouest;Platon Piefraille
+0;-73.0333,19.7833;;Nord-Ouest;Platon Moustique
 0;-73.1167,19.9000;HT3340;Nord-Ouest;Platon Morne Bourrique
 0;-72.6737,19.0026;HT4311;Artibonite;Platon Montagne
 0;-72.6667,19.1667;HT4310;Artibonite;Platon Monette
@@ -1723,6 +1800,7 @@
 0;-72.2500,19.4667;HT1410;Artibonite;Platon la Pomme
 0;-71.7167,19.1667;HT5410;Centre;Platon Guadabien
 0;-73.2167,19.6667;HT3330;Nord-Ouest;Platon Gommier
+0;-72.4409,19.2661;;Artibonite;Platon Gine Paille
 0;-72.2783,18.2637;HT9120;Sud-Est;Platon Fond Jean Noël
 0;-72.8667,18.7500;HT5220;Ouest;Platon Folord
 0;-71.8500,18.2667;HT9330;Sud-Est;Platon Figuier
@@ -1742,6 +1820,8 @@
 0;-72.2622,18.2936;HT9120;Sud-Est;Platon Blanc
 0;-72.8638,18.3008;HT6121;Ouest;Platon Besace
 0;-72.8833,18.2000;HT9220;Sud-Est;Platon Bel-Air
+0;-73.1546,18.9077;;Ouest;Platon Balais
+0;-73.2167,18.8833;;Ouest;Platon Balais
 0;-72.8535,18.7458;HT5220;Ouest;Platon Balais
 0;-73.1333,19.6167;HT3330;Nord-Ouest;Platon Anse Rouge
 0;-71.8549,18.8059;HT5321;Centre;Platonal
@@ -1780,6 +1860,7 @@
 0;-72.4333,18.5333;HT6136;Ouest;Plaisimond
 0;-73.4167,18.3833;HT7540;Nippes;Plaisimond
 4152;-72.4699,19.5980;HT1710;Nord;Plaisance
+0;-73.0089,18.8234;;Ouest;Plaisance
 0;-72.2333,18.7167;HT6312;Centre;Plaisance
 0;-72.5356,18.4939;HT6160;Ouest;Plaisance
 0;-73.6143,18.4289;HT7520;Nippes;Plaisance
@@ -1790,6 +1871,7 @@
 0;-72.8928,18.1589;HT9220;Sud;Plaine Sabousse
 0;-74.2833,18.3667;HT8520;Sud;Plaine Sable
 0;-72.5667,19.5333;HT4120;Artibonite;Plaine Rollin
+0;-72.6333,18.9667;;Artibonite;Plaine Olive
 0;-74.1667,18.6667;HT7110;Grand'Anse;Plaine Numéro Deux
 0;-74.1695,18.5751;HT7111;Grand'Anse;Plaine Mille
 0;-72.2833,18.7500;HT6421;Ouest;Plaine Michaud
@@ -1797,8 +1879,12 @@
 0;-73.8884,18.4135;HT8140;Grand'Anse;Plaine Martin
 0;-72.9681,18.1739;HT9220;Sud;Plaine Marion
 0;-72.5500,18.3261;HT9111;Sud-Est;Plaine Maréchal
+0;-73.2020,18.9377;;Ouest;Plaine la Source
 0;-74.3833,18.6000;HT7221;Grand'Anse;Plaine La Source
 0;-73.8167,18.4667;HT7340;Grand'Anse;Plaine Laciote
+0;-73.2601,18.9269;;Ouest;Plaine Jeannis
+0;-73.2333,18.9167;;Ouest;Plaine Jeannis
+0;-72.3667,19.2333;;Artibonite;Plaine Guerrier
 0;-74.1667,18.6000;HT7111;Grand'Anse;Plaine Gélin
 0;-72.9167,18.1667;HT9220;Sud;Plaine Galbi
 0;-72.4000,19.5000;HT4510;Artibonite;Plaine Espagnol
@@ -1809,10 +1895,12 @@
 0;-74.2333,18.5833;HT7112;Grand'Anse;Plaine Coton
 0;-72.6022,18.2242;HT9110;Sud-Est;Plaine Colin
 0;-74.1833,18.5833;HT7112;Grand'Anse;Plaine Charles
+0;-73.1167,18.9000;;Ouest;Plaine Canette
 0;-72.3744,19.5358;HT4510;Artibonite;Plaine Bassin
 0;-73.5631,18.4448;HT7510;Nippes;Plaine aux Pins
 0;-73.7232,18.6115;HT7340;Grand'Anse;Plaine Ananas
 0;-72.9667,19.7833;HT3408;Nord-Ouest;Plaine Alsene
+0;-73.1833,18.9333;;Ouest;Plaine Afio
 0;-72.4167,18.4167;HT9111;Ouest;Plainber
 0;-73.4500,18.3333;HT7540;Sud;Plagon
 0;-71.8092,19.5598;HT2110;Nord-Est;Place Prudhomme
@@ -1828,6 +1916,7 @@
 0;-72.3333,18.3167;HT9121;Sud-Est;Plabe
 0;-73.1237,19.8042;HT3340;Nord-Ouest;Pividi
 0;-72.6931,19.1073;HT4310;Artibonite;Pivert
+0;-72.2167,19.0167;;Artibonite;Pivereau
 0;-72.6295,18.5440;HT6210;Ouest;Pity
 0;-72.9663,19.8521;HT3408;Nord-Ouest;Piton Mouri
 0;-72.7667,19.5833;HT4220;Artibonite;Piton Flume
@@ -1838,6 +1927,7 @@
 0;-72.0167,19.3500;HT1450;Nord;Piton
 0;-72.1333,18.8500;HT5210;Centre;Piton
 0;-74.2014,18.5653;HT7112;Grand'Anse;Piton
+0;-72.1833,18.3500;;Ouest;Piton
 0;-72.8667,18.1667;HT9210;Sud-Est;Piton
 0;-71.8833,18.8500;HT5310;Centre;Pito
 0;-72.2050,18.8644;HT5210;Centre;Pitiote
@@ -1879,6 +1969,7 @@
 0;-73.1167,18.3167;HT7411;Sud;Pilaurant
 4227;-72.5523,19.6674;HT1720;Nord;Pilate
 0;-73.1500,18.3500;HT7411;Grand'Anse;Pilard
+0;-73.0358,19.7556;;Nord-Ouest;Pijotte
 0;-72.5333,19.6000;HT1710;Nord;Pijote
 0;-72.3176,19.5423;HT4510;Nord;Piguer
 6731;-72.1166,19.3359;HT1440;Nord;Pignon
@@ -1889,9 +1980,11 @@
 0;-72.1833,18.5500;HT6310;Ouest;Pietrox
 0;-72.3539,19.4870;HT4510;Artibonite;Pierrot
 0;-71.8141,19.4671;HT2230;Nord-Est;Pierrot
+0;-72.2333,18.7500;;Centre;Pierrier
 0;-72.7573,20.0629;HT3120;Nord-Ouest;Pierre Tules
 0;-74.3333,18.6000;HT7221;Grand'Anse;Pierre Philippe
 0;-72.7377,18.9980;HT4311;Artibonite;Pierre Payen
+0;-72.2611,18.8920;;Artibonite;Pierre Paul
 0;-74.2000,18.3333;HT8520;Sud;Pierre Paul
 0;-72.6667,20.0167;HT3121;Nord-Ouest;Pierre Noël
 0;-72.5000,18.9833;HT4320;Artibonite;Pierre Mou
@@ -1990,6 +2083,7 @@
 1539;-73.1550,19.6301;HT3330;Nord-Ouest;Petite Anse
 0;-72.8049,18.7583;HT5220;Ouest;Petite Anse
 0;-73.9000,18.0667;HT8210;Sud;Petite-Anse
+0;-73.5833,18.0667;;Sud;Petite Anse
 0;-72.9381,18.8278;HT6510;Artibonite;Petite
 0;-72.3762,19.7945;HT1620;Nord;Petit Bourg du Limbé
 0;-72.5714,19.8119;HT1522;Nord;Petit Bourg du Borgne
@@ -2011,6 +2105,7 @@
 0;-72.5333,19.7000;HT1720;Nord;Pescaille
 0;-72.2167,18.7333;HT6312;Ouest;Perthier
 0;-72.1167,19.5333;HT2320;Nord;Perroquet
+0;-72.7000,18.9500;;Ouest;Perrier
 0;-72.5796,18.9181;HT6411;Ouest;Perrier
 0;-72.5000,18.8333;HT6411;Ouest;Perrier
 0;-74.0167,18.4833;HT7330;Grand'Anse;Perrier
@@ -2051,9 +2146,11 @@
 0;-72.7500,18.3500;HT6230;Ouest;Pépinière
 0;-72.1694,18.9331;HT5210;Centre;Pépin
 0;-72.3833,19.3667;HT5121;Artibonite;Pente
+0;-73.1500,18.9333;;Ouest;Pente
 0;-72.2500,19.6167;HT1220;Nord;Pennifort
 0;-74.0833,18.3167;HT8511;Sud;Pénitence
 0;-72.1167,19.5833;HT2320;Nord;Pénijone
+0;-72.2000,19.0167;;Centre;Pengol
 0;-72.7347,19.7857;HT3212;Artibonite;Pendu
 0;-72.0833,18.6500;HT6320;Ouest;Pemigot
 0;-72.4167,19.6667;HT1611;Nord;Pelletant
@@ -2061,6 +2158,7 @@
 0;-72.5551,19.2294;HT4410;Artibonite;Pélissier
 0;-73.2000,18.3667;HT8313;Grand'Anse;Pélissier
 0;-72.0392,18.9033;HT5230;Centre;Péligre
+0;-73.0253,19.8276;;Nord-Ouest;Pelier
 0;-73.3333,19.7167;HT3320;Nord-Ouest;Pelicié
 0;-74.4125,18.4911;HT7210;Grand'Anse;Péligrin
 0;-73.9292,18.2404;HT8122;Sud;Pélerins
@@ -2093,6 +2191,7 @@
 0;-73.8103,18.2436;HT8160;Sud;Paulin
 0;-71.9232,19.6676;HT2332;Nord-Est;Paulette
 0;-72.4667,19.5500;HT1710;Nord;Paul
+0;-72.4256,19.3058;;Artibonite;Paul
 0;-73.3667,18.3667;HT7540;Nippes;Paul
 0;-73.9449,18.5846;HT7310;Grand'Anse;Patte Large
 0;-71.9000,19.6000;HT2110;Nord-Est;Patrio
@@ -2114,6 +2213,7 @@
 0;-72.4833,18.8333;HT6411;Ouest;Passe Mathieux
 0;-72.6000,18.2667;HT9140;Sud-Est;Passe Malice
 0;-72.0167,18.2500;HT9310;Sud-Est;Passe Lafleur
+0;-72.3000,19.2833;;Artibonite;Passe La Boue
 0;-72.5833,19.5500;HT4120;Artibonite;Passe Joly
 0;-72.5500,19.2833;HT4130;Artibonite;Passe Décosse
 0;-72.7000,19.7000;HT4210;Artibonite;Passe Crébété
@@ -2123,6 +2223,7 @@
 0;-72.9333,19.8333;HT3408;Nord-Ouest;Passe Catabois
 0;-71.7667,19.0500;HT5420;Centre;Passe Cajou
 0;-71.9600,18.8554;HT5310;Centre;Passe Caïmittes
+0;-72.4413,19.2936;;Artibonite;Passe Caïmite
 0;-71.8167,19.5500;HT2110;Nord-Est;Passe Café
 0;-72.1667,19.4000;HT1410;Nord;Passe Cabrouet
 0;-74.3833,18.5667;HT7220;Grand'Anse;Passe-Barbe
@@ -2167,6 +2268,7 @@
 0;-71.8833,18.7667;HT5330;Centre;Parc Jean Pierre
 0;-71.8667,18.7667;HT5330;Centre;Parc Jean Louis
 0;-71.8787,18.6389;HT6330;Ouest;Parc Dubois
+0;-73.2167,18.8500;;Ouest;Parc Celan
 0;-72.0950,18.9336;HT5230;Centre;Parc Cabrit
 0;-72.5429,18.3814;HT6212;Ouest;Paraison
 0;-72.5667,19.7000;HT1720;Nord;Paradis
@@ -2205,6 +2307,7 @@
 0;-72.8667,18.2833;HT6121;Sud-Est;Palmes
 0;-71.8151,18.6483;HT5330;Ouest;Palme
 0;-71.8500,18.8833;HT5320;Centre;Palmary
+0;-72.4210,19.3268;;Artibonite;Palmarite
 0;-72.1000,19.3500;HT1440;Nord;Palmarie
 0;-72.0333,18.9833;HT5130;Centre;Palmarie
 0;-72.3667,19.3833;HT5121;Artibonite;Palmarais
@@ -2315,6 +2418,7 @@
 0;-74.1333,18.5833;HT7111;Grand'Anse;Nouvelette
 0;-72.2000,19.5500;HT1420;Nord;Nouveau
 0;-73.3712,18.4556;HT7540;Nippes;Nougues
+0;-72.2333,18.7500;;Centre;Nouailles
 0;-72.4833,19.2000;HT4111;Artibonite;Notier
 0;-73.3667,19.6833;HT3320;Nord-Ouest;Nos Pam
 0;-72.2833,19.7500;HT1110;Nord;Normand
@@ -2322,6 +2426,7 @@
 0;-72.1000,19.5333;HT2320;Nord;Normand
 0;-72.1770,18.8321;HT5210;Centre;Normand
 0;-72.7500,18.4000;HT6230;Ouest;Norguez
+0;-72.2500,18.8667;;Centre;Nordet
 0;-72.2667,18.8333;HT6421;Centre;Nordet
 0;-71.8500,19.5000;HT2112;Nord-Est;Noisy
 0;-72.1333,18.7500;HT5210;Centre;Noguodé
@@ -2370,6 +2475,7 @@
 0;-71.8841,18.7116;HT5330;Ouest;Napipe
 0;-74.0628,18.3056;HT8511;Sud;Nan Zilé
 0;-72.9000,19.8500;HT3408;Nord-Ouest;Nan Zemi
+0;-73.0333,18.9000;;Ouest;Nan Zèbre
 0;-72.2333,18.3000;HT9120;Sud-Est;Nan Zap
 0;-72.7000,19.9000;HT3210;Nord-Ouest;Nan Zabricot
 0;-72.2500,18.3833;HT6150;Ouest;Nan Zaboca
@@ -2387,9 +2493,11 @@
 0;-72.2667,18.4500;HT6150;Ouest;Nan Tuffe
 0;-72.2833,18.8000;HT6421;Ouest;Nan Tuf
 0;-72.6167,19.8833;HT3220;Nord-Ouest;Nan Trompette
+0;-72.9833,18.7500;;Ouest;Nan Trompette
 0;-72.3980,19.5347;HT4510;Artibonite;Nan Trimestre
 0;-72.9000,19.7333;HT4230;Nord-Ouest;Nan Tranquille
 0;-73.2333,18.4167;HT7420;Nippes;Nan Tranquille
+0;-72.1467,19.0417;;Centre;Nan Train
 0;-71.8667,19.3333;HT2431;Nord-Est;Nan Toussaint
 0;-71.6939,19.1510;HT5411;Centre;Nan Toto
 0;-71.8500,19.5500;HT2110;Nord-Est;Nan Tongui
@@ -2398,8 +2506,11 @@
 0;-72.6222,18.5050;HT6210;Ouest;Nan Timo
 0;-73.1582,19.7276;HT3330;Nord-Ouest;Nan Ti Mil
 0;-72.4333,19.5500;HT1710;Nord;Nan Ti Fond
+0;-73.2322,18.9388;;Ouest;Nan Tida
+0;-73.1742,18.9045;;Ouest;Nan Ti Bois
 0;-71.9833,19.4333;HT2410;Nord-Est;Nanthor
 0;-72.0500,18.6500;HT6320;Ouest;Nan Tête Source
+0;-73.1993,18.8965;;Ouest;Nanterretiste
 0;-73.5917,18.4836;HT7520;Nippes;Nan Terrain
 0;-71.8905,18.2265;HT9321;Sud-Est;Nan Tangas
 0;-72.4500,18.4333;HT6212;Ouest;Nan Tampis
@@ -2420,6 +2531,7 @@
 0;-72.7000,19.7500;HT4210;Artibonite;Nan Savonnette
 0;-72.7167,19.8500;HT3212;Nord-Ouest;Nan Savane
 0;-73.2201,19.8161;HT3340;Nord-Ouest;Nan Saut
+0;-73.0477,19.6979;;Artibonite;Nan Saut
 0;-71.7156,19.4233;HT2220;Nord-Est;Nan Saut
 0;-71.8781,19.1388;HT5111;Centre;Nan Saut
 0;-71.8667,19.1333;HT5420;Centre;Nan Saut
@@ -2437,6 +2549,7 @@
 0;-71.7737,19.3504;HT2230;Nord-Est;Nan Sable
 0;-73.6302,18.4505;HT7520;Nippes;Nan Sabaise
 0;-73.9371,18.1273;HT8230;Sud;Nan Rue
+0;-73.0169,19.7460;;Nord-Ouest;Nan Ruche
 0;-74.3167,18.4667;HT7141;Grand'Anse;Nan Ruby
 0;-73.9667,18.2167;HT8430;Sud;Nan Roux
 0;-72.4967,19.6939;HT1720;Nord;Nan Rousseau
@@ -2455,6 +2568,7 @@
 0;-74.0432,18.3000;HT8511;Sud;Nan Roche
 0;-71.9333,18.2500;HT9321;Sud-Est;Nan Roche
 0;-72.7712,19.8809;HT3212;Nord-Ouest;Nan Robert
+0;-73.1500,18.9000;;Ouest;Nan Risque
 0;-72.9568,18.8306;HT6510;Ouest;Nan Risque
 0;-72.7833,19.8333;HT3140;Nord-Ouest;Nan Richin
 0;-72.7167,19.9167;HT3212;Nord-Ouest;Nan Richet
@@ -2476,6 +2590,7 @@
 0;-71.9833,19.3833;HT2430;Nord-Est;Nan Raque
 0;-72.5833,19.8833;HT3220;Nord-Ouest;Nan Rapport
 0;-71.9962,19.3221;HT1450;Centre;Rang
+0;-72.3730,19.2643;;Artibonite;Nan Rang
 0;-72.9383,18.2963;HT6121;Ouest;Nan Ramier
 0;-71.8882,18.2545;HT9321;Sud-Est;Nan Rada
 0;-72.0167,19.6167;HT2310;Nord;Nan Pros
@@ -2501,6 +2616,8 @@
 0;-73.0167,18.2833;HT9220;Sud;Nan Plaisir
 0;-72.1840,18.2787;HT9310;Sud-Est;Nan Plaisir
 0;-71.9167,18.2333;HT9321;Sud-Est;Nan Plaisir
+0;-73.1167,18.8500;;Ouest;Nan Plaine
+0;-73.1000,18.8333;;Ouest;Nan Plaine
 0;-73.0251,18.4542;HT7410;Ouest;Nan Plaine
 0;-72.9333,18.3500;HT6220;Ouest;Nan Plaine
 0;-71.7667,18.2167;HT9341;Sud-Est;Nan Plaine
@@ -2527,7 +2644,9 @@
 0;-73.0117,19.6889;HT4230;Artibonite;Nan Papaye
 0;-71.8667,18.8833;HT5310;Centre;Nan Pangue
 0;-72.6667,19.7167;HT4210;Artibonite;Nan Pangnol
+0;-72.9670,19.7510;;Nord-Ouest;Nan Palmiste
 0;-72.8695,19.6868;HT4230;Artibonite;Nan Palmiste
+0;-72.3000,19.2667;;Artibonite;Nan Palmiste
 0;-72.6000,18.9000;HT6411;Ouest;Nan Palmiste
 0;-73.8661,18.5333;HT7310;Grand'Anse;Nan Palmiste
 0;-72.0840,18.2638;HT9310;Sud-Est;Nan Palmiste
@@ -2541,6 +2660,7 @@
 0;-73.1667,19.7667;HT3310;Nord-Ouest;Nan Nasseur
 0;-72.2333,19.1833;HT5120;Centre;Nan Moye
 0;-72.3906,19.3452;HT5121;Artibonite;Nan Mouton
+0;-72.3156,19.2736;;Artibonite;Nan Moulin
 0;-74.0333,18.5167;HT7330;Grand'Anse;Nan Moulin
 0;-73.3833,18.3000;HT8310;Sud;Nan Moulin
 0;-73.7972,18.0472;HT8220;Sud;Nan Mouine
@@ -2561,6 +2681,7 @@
 0;-72.2833,19.5167;HT1420;Nord;Nan Michel
 0;-72.0000,18.8500;HT5310;Centre;Nan Michel
 0;-72.3000,18.4667;HT6146;Ouest;Nan Mely
+0;-72.1333,19.0167;;Centre;Nan Melton
 0;-72.1833,19.3500;HT1440;Artibonite;Nan Melon
 0;-72.4858,18.4354;HT6212;Ouest;Nan Melfi
 0;-72.0833,19.2167;HT5120;Centre;Nan Mâts
@@ -2581,9 +2702,12 @@
 0;-72.7500,19.8167;HT3212;Nord-Ouest;Nan Mare
 0;-72.6833,19.9167;HT3210;Nord-Ouest;Nan Marc
 0;-72.6667,19.8833;HT3211;Nord-Ouest;Nan Marc
+0;-73.0833,18.8333;;Ouest;Nan Marc
 0;-72.0093,18.7414;HT6330;Centre;Nan Marais
+0;-72.8667,19.7500;;Nord-Ouest;Nan Mapou
 0;-72.6841,19.7506;HT4210;Artibonite;Nan Mapou
 0;-71.8833,19.3500;HT2431;Nord-Est;Nan Mapou
+0;-72.3167,19.2833;;Artibonite;Nan Mapou
 0;-72.0667,18.7167;HT6320;Ouest;Nan Mapou
 0;-72.1535,19.3188;HT1440;Nord;Nan Manuel
 0;-72.9500,19.8333;HT3408;Nord-Ouest;Nan Mansolme
@@ -2598,7 +2722,9 @@
 0;-72.6333,18.5000;HT6210;Ouest;Nan Malgré
 0;-72.1342,18.2396;HT9310;Sud-Est;Nan Malgré
 0;-72.3500,18.4667;HT6146;Ouest;Nan Maillon
+0;-73.0122,19.7767;;Nord-Ouest;Nan Maillette
 0;-71.8833,18.2333;HT9321;Sud-Est;Nan Mahot
+0;-72.3167,19.2667;;Artibonite;Nan Magloire
 0;-73.8481,18.5306;HT7340;Grand'Anse;Nan Madeleine
 0;-72.3000,18.4667;HT6146;Ouest;Nan Madeleine
 0;-74.4316,18.4719;HT7210;Grand'Anse;Nan Maçon
@@ -2609,9 +2735,11 @@
 0;-73.5791,18.4417;HT7510;Nippes;Nan Lion
 0;-72.2500,19.4833;HT1420;Nord;Nan Limite
 0;-72.2667,19.0500;HT4421;Artibonite;Nan Liane
+0;-72.4493,19.3118;;Artibonite;Nan l'Étoile
 0;-72.5513,19.8502;HT1510;Nord;Nan l'État
 0;-71.7992,19.3212;HT2431;Nord-Est;Nan l'État
 0;-74.3500,18.5333;HT7150;Grand'Anse;Nan l’État
+0;-72.8167,19.7333;;Nord-Ouest;Nan l’Étang
 0;-71.8422,18.6821;HT5330;Ouest;Nan l'Étang
 0;-73.5500,18.5167;HT7510;Nippes;Nan l’Étang
 0;-72.3167,18.4167;HT6150;Ouest;Nan l’Étang
@@ -2635,14 +2763,17 @@
 0;-72.8000,18.3333;HT6121;Sud-Est;Nan Joute
 0;-72.6167,19.8833;HT3220;Nord-Ouest;Nan Joupas
 0;-72.6667,19.8167;HT3220;Nord-Ouest;Nan Joupa
+0;-74.1500,18.4500;;Grand'Anse;Nan Joupa
 0;-72.4500,19.6000;HT1710;Nord;Nan Jonc
 0;-73.5833,18.2833;HT8320;Sud;Nan Jonc
 0;-72.5500,19.7500;HT1522;Nord;Nan Joachin
 0;-72.1565,19.7215;HT1120;Nord;Nan Jésus
+0;-73.1110,18.8952;;Ouest;Nan Jésus
 0;-71.8667,19.3000;HT2431;Nord-Est;Nan Jean Pierre
 0;-72.8537,19.8744;HT3140;Nord-Ouest;Nan Jean Louis
 0;-72.3900,19.3637;HT5121;Artibonite;Nan Jean Louis
 0;-72.6167,19.8500;HT3220;Nord;Nan Jean Charles
+0;-72.4181,19.2910;;Artibonite;Nan Jean Charles
 0;-72.4000,19.3500;HT5121;Artibonite;Nan Jean
 0;-72.5167,19.8333;HT1510;Nord;Nan Jardin
 0;-73.1232,19.7759;HT3340;Nord-Ouest;Nan Jamite
@@ -2662,16 +2793,21 @@
 0;-71.9606,19.3832;HT2430;Nord-Est;Nan Guape
 0;-71.9485,19.3645;HT2430;Nord-Est;Nan Guape
 0;-71.7796,19.0340;HT5420;Centre;Nan Guanal
+0;-72.4333,19.3333;;Artibonite;Nan Grosse
 0;-72.4553,18.4445;HT6120;Ouest;Nan Grisgris
 0;-72.8516,20.0315;HT3122;Nord-Ouest;Nan Gris
 0;-73.0500,18.2167;HT9220;Sud;Nan Grié
 0;-71.9972,18.4455;HT6330;Ouest;Nan Grand Goût
+0;-73.1744,18.9191;;Ouest;Nan Grand Bois
+0;-72.9000,19.7500;;Nord-Ouest;Nan Gramond
 0;-72.6167,19.8333;HT3220;Nord;Nan Gra
 0;-73.8564,18.1397;HT8120;Sud;Nan Gouyave
 0;-72.1000,18.2667;HT9310;Sud-Est;Nan Gousse
+0;-73.0108,19.7697;;Nord-Ouest;Nan Gouine
 0;-72.0833,19.3167;HT1440;Nord;Nan Gouape
 0;-72.5000,19.4833;HT4120;Artibonite;Nan Gorge
 0;-73.1642,19.7706;HT3310;Nord-Ouest;Nan Godette
+0;-72.3468,19.1912;;Artibonite;Nan Glacis
 0;-74.2333,18.5667;HT7112;Grand'Anse;Nan Glacis
 0;-73.0667,18.2667;HT9220;Sud;Nan Glacis
 0;-71.8167,19.2667;HT2431;Nord-Est;Nan Gilot
@@ -2690,6 +2826,7 @@
 0;-72.9362,19.7092;HT4230;Artibonite;Nan François
 0;-71.9069,19.4092;HT2410;Nord-Est;Nan François
 0;-72.9450,18.7449;HT6510;Ouest;Nan François
+0;-73.1667,18.9167;;Ouest;Nan Francind
 0;-73.3000,18.4000;HT8313;Nippes;Nan Fraîcheur
 0;-72.1333,18.4000;HT9311;Ouest;Nan Fourneau
 0;-72.6939,18.2869;HT9140;Sud-Est;Nan Fourneau
@@ -2723,6 +2860,7 @@
 0;-72.8167,19.9333;HT3110;Nord-Ouest;Nan Dupuy
 0;-73.9307,18.1084;HT8230;Sud;Nan Dupin
 0;-72.5500,19.8500;HT1510;Nord;Nan Dumas
+0;-72.2704,19.2563;;Artibonite;Nan Ducheine
 0;-73.9167,18.4667;HT7330;Grand'Anse;Nan Drivé
 0;-72.6017,19.4179;HT4110;Artibonite;Nandrin
 0;-72.0000,19.0500;HT5130;Centre;Nan Drapeau
@@ -2736,6 +2874,7 @@
 0;-72.3000,19.4500;HT5121;Artibonite;Nan Dinde
 0;-74.2093,18.3215;HT8520;Sud;Nan Digue
 0;-73.2667,19.8667;HT3340;Nord-Ouest;Nan Digo
+0;-72.4556,19.3240;;Artibonite;Nan Diègue
 0;-72.1667,19.3667;HT1440;Nord;Nan Didier
 0;-72.8355,18.1560;HT9210;Sud-Est;Nan Diamant
 0;-73.8322,18.0467;HT8220;Sud;Nan Diamant
@@ -2747,14 +2886,18 @@
 0;-72.5833,19.8500;HT3220;Nord;Nan Dalle
 0;-72.3833,19.3333;HT5121;Artibonite;Nan Da
 0;-72.3333,18.4833;HT6146;Ouest;Nan Da
+0;-72.3500,19.2833;;Artibonite;Nan Croix
 0;-71.9518,18.4121;HT6340;Ouest;Nan Crête
 0;-73.8433,18.0389;HT8220;Sud;Nan Crapaud
 0;-72.4333,19.5833;HT1710;Nord;Nan Coute
+0;-73.2000,18.8833;;Ouest;Nan Cour
 0;-72.0167,18.3167;HT9311;Sud-Est;Nan Counouque
 0;-72.8167,19.7000;HT4220;Nord-Ouest;Nan Couman
 0;-72.3000,18.6667;HT6312;Ouest;Nan Couline
 0;-72.0000,19.2333;HT5140;Centre;Nan Couine
+0;-72.9469,19.7625;;Nord-Ouest;Nan Coucou
 0;-71.8500,19.5500;HT2110;Nord-Est;Nan Cotton
+0;-72.2809,19.2709;;Artibonite;Nan Cotros
 0;-72.9500,19.8000;HT3408;Nord-Ouest;Nan Coton
 0;-72.8500,19.7000;HT4230;Artibonite;Nan Coton
 0;-72.8667,19.6333;HT4230;Artibonite;Nan Coton
@@ -2771,8 +2914,11 @@
 0;-73.9500,18.5000;HT7330;Grand'Anse;Nan Coq
 0;-71.7559,19.6719;HT2111;Nord-Est;Nan Contrée
 0;-73.3667,18.3167;HT8310;Sud;Nan Contrée
+0;-73.0339,19.8042;;Nord-Ouest;Nan Content
 0;-73.8233,18.0494;HT8220;Sud;Nan Confort
+0;-72.3500,19.2833;;Artibonite;Nan Commier
 0;-71.8667,18.2667;HT9321;Sud-Est;Nan Coma
+0;-72.2667,19.2000;;Centre;Nan Colas
 0;-73.5020,18.3569;HT7540;Nippes;Nan Colas
 0;-73.2142,19.8400;HT3340;Nord-Ouest;Nan Coicou
 0;-72.2312,18.3679;HT6150;Ouest;Nan Cofi
@@ -2791,9 +2937,11 @@
 0;-72.2675,18.2781;HT9120;Sud-Est;Nan Citron
 0;-71.8333,18.1833;HT9330;Sud-Est;Nan Citerne
 0;-72.6167,19.8667;HT3220;Nord-Ouest;Nan Cite
+0;-72.3341,19.2821;;Artibonite;Nan Citadelle
 0;-72.0667,18.8667;HT5230;Centre;Nan Cirouelle
 0;-74.1167,18.2833;HT8511;Sud;Nan Cirouel
 0;-72.2424,19.4815;HT1420;Nord;Nan Cienne
+0;-72.1796,19.0361;;Centre;Nan Chipain
 0;-72.6185,19.7286;HT4210;Artibonite;Nan Château
 0;-71.8370,18.1912;HT9330;Sud-Est;Nan Charlot
 0;-72.6000,19.6500;HT1720;Artibonite;Nan Charles
@@ -2802,6 +2950,7 @@
 0;-73.6076,18.4616;HT7520;Nippes;Nan Charles
 0;-73.2667,19.8167;HT3340;Nord-Ouest;Nan Chapelle
 0;-72.1500,19.0500;HT5120;Centre;Nan Chamboum
+0;-72.2333,19.0000;;Centre;Nan Chambeau
 0;-72.7167,19.6000;HT4220;Artibonite;Nan Chaîne
 0;-72.3833,19.5333;HT4510;Nord;Nan Caymites
 0;-72.0667,18.4667;HT6330;Ouest;Nan Cayemittes
@@ -2825,6 +2974,7 @@
 0;-73.4801,18.3914;HT7540;Nippes;Nan Campêche
 0;-74.0662,18.2632;HT8411;Sud;Nan Campêche
 0;-72.1167,19.4167;HT1430;Nord;Nan Campe
+0;-73.0905,18.8273;;Ouest;Nan Calebasse
 0;-73.3167,19.6644;HT3320;Nord-Ouest;Nan Cajou
 0;-73.9414,18.1650;HT8230;Sud;Nan Cajou
 0;-72.3667,18.8500;HT6421;Artibonite;Nan Café
@@ -2834,6 +2984,7 @@
 0;-72.7303,18.2511;HT9140;Sud-Est;Nan Cadet
 0;-71.7043,19.4971;HT2220;Nord-Est;Nan Cadeau
 0;-72.1732,18.5664;HT6310;Ouest;Nan Cadastre
+0;-73.0500,18.9000;;Ouest;Nan Cabri
 0;-72.2667,19.7500;HT1110;Nord;Nan Cabone
 0;-72.5328,18.3067;HT9111;Sud-Est;Nan Brûlé
 0;-72.6514,18.2876;HT9140;Sud-Est;Nan Boyer
@@ -2842,6 +2993,7 @@
 0;-73.0833,18.3500;HT7411;Grand'Anse;Nan Bourrique
 0;-71.9667,18.2667;HT9321;Sud-Est;Nan Boulaille
 0;-71.9500,19.2833;HT5140;Nord-Est;Nan Bota
+0;-73.0667,19.7167;;Artibonite;Nan Borrin
 0;-73.5833,18.2833;HT8320;Sud;Nan Borne
 0;-74.2167,18.6500;HT7130;Grand'Anse;Nan Borde
 0;-72.4500,19.6167;HT1611;Nord;Nan Bonne
@@ -2854,10 +3006,13 @@
 0;-72.0333,18.4667;HT6330;Ouest;Nan Bois Pin
 0;-71.9000,18.3000;HT9321;Sud-Est;Nan Bois Pin
 0;-73.8452,18.5159;HT7340;Grand'Anse;Nan Bois Neuf
+0;-73.1688,18.8842;;Ouest;Nan Bois Dine
 0;-72.9397,18.8151;HT6510;Ouest;Nan Bois de Chêne
 0;-72.5500,19.5833;HT1710;Nord;Nan Bois
 0;-72.2833,18.3500;HT6150;Ouest;Nan Bois
 0;-73.9385,18.1446;HT8230;Sud;Nan Bois
+0;-73.1833,18.9000;;Ouest;Nan Boeuf
+0;-73.0167,18.7667;;Ouest;Nan Boeuf
 0;-72.8167,18.7667;HT5220;Ouest;Nan Boca
 0;-72.4756,19.5616;HT1710;Nord;Nan Blain
 0;-71.9129,19.0063;HT5130;Centre;Nan Biton
@@ -2896,7 +3051,9 @@
 0;-71.9966,18.4027;HT9311;Ouest;Nan Augout
 0;-71.9500,18.3000;HT9321;Sud-Est;Nan Anguille
 0;-73.1550,19.8261;HT3340;Nord-Ouest;Nan André
+0;-72.3626,19.2613;;Artibonite;Nan Ananas
 0;-71.9000,18.3500;HT6340;Ouest;Nan Alphonse
+0;-72.9833,19.7833;;Nord-Ouest;Nan Aimé
 0;-72.6158,18.2011;HT9110;Sud-Est;Nan Abricot
 0;-72.0000,18.2667;HT9311;Sud-Est;Nan Abbé
 0;-73.1333,19.8000;HT3340;Nord-Ouest;Nallen
@@ -2937,6 +3094,7 @@
 0;-72.7457,18.2877;HT9140;Ouest;Moussambé
 0;-73.9667,18.2667;HT8122;Sud;Moussambe
 0;-72.3667,19.5500;HT4510;Artibonite;Mouscadi
+0;-73.0126,18.7904;;Ouest;Mouri Corps
 0;-72.6833,19.1167;HT4310;Artibonite;Mourazin
 0;-72.3000,18.6000;HT6125;Ouest;Mouline
 0;-74.0000,18.5333;HT7330;Grand'Anse;Mouline
@@ -2947,6 +3105,7 @@
 0;-74.2833,18.3167;HT8520;Sud;Moulin
 0;-73.0159,19.6825;HT4230;Artibonite;Moule à Manchette
 0;-73.1033,18.1903;HT9220;Sud;Mouillage Fouquet
+0;-72.3394,19.1716;;Artibonite;Mouette
 0;-71.9500,19.6333;HT2330;Nord-Est;Mouchinette
 0;-72.4116,19.6476;HT1611;Nord;Mouchette
 0;-72.6840,19.7628;HT4210;Artibonite;Motobant
@@ -2968,6 +3127,7 @@
 0;-71.8333,19.3500;HT2420;Nord-Est;Morne Tuf
 0;-72.8333,19.7833;HT3140;Nord-Ouest;Morne Tracos
 0;-72.5167,19.0167;HT4320;Artibonite;Morne Toureau
+0;-73.2000,18.9167;;Ouest;Morne Ti Paul
 0;-71.9333,19.0000;HT5130;Centre;Morne Thomonde
 0;-73.5333,18.4167;HT7510;Nippes;Morne Tete Boeuf
 0;-72.0833,19.0167;HT5130;Centre;Morne Strouge
@@ -2980,6 +3140,7 @@
 0;-72.4000,19.5167;HT4510;Artibonite;Morne Roux
 0;-72.3667,19.4667;HT4510;Artibonite;Morne Roux
 0;-72.4667,18.3500;HT9111;Sud-Est;Morne Rouge
+0;-73.0806,19.7367;;Nord-Ouest;Morne Roche
 0;-72.2000,19.4833;HT1410;Nord;Morne Riveau
 0;-72.2500,19.5500;HT1420;Nord;Morne Ramier
 0;-73.2833,18.3000;HT8313;Sud;Morne Radou
@@ -2987,9 +3148,11 @@
 0;-72.8667,19.6833;HT4230;Artibonite;Morne Piton
 0;-73.3500,18.5000;HT7420;Nippes;Morne Piot
 0;-72.1000,19.3500;HT1440;Nord;Morne Pignon
+0;-72.3000,19.2167;;Artibonite;Morne Pierre Paul
 0;-71.9333,18.7833;HT5310;Centre;Morne Pierre
 0;-72.3833,19.0833;HT4421;Artibonite;Morne Petit Cabrit
 0;-73.3500,19.6667;HT3320;Nord-Ouest;Morne Pélissier
+0;-72.2500,18.8000;;Ouest;Morne Pèlerin
 0;-73.0833,18.4167;HT7410;Nippes;Morne Parois
 0;-73.4167,19.7667;HT3320;Nord-Ouest;Morne Papaye
 0;-72.9333,19.8833;HT3408;Nord-Ouest;Morne Palmiste
@@ -2998,11 +3161,13 @@
 0;-74.1000,18.3500;HT8511;Sud;Morne Ouvrier
 0;-73.3333,18.3333;HT8311;Sud;Morne Oco
 0;-72.5500,18.4167;HT6212;Ouest;Morne Nérette
+0;-73.2000,18.9333;;Ouest;Morne Minthor
 0;-72.0167,18.8667;HT5230;Centre;Morne Michel
 0;-72.6667,18.4000;HT6211;Ouest;Morne Michel
 0;-72.4333,19.5333;HT4510;Artibonite;Morne Menti
 0;-72.5000,19.0000;HT4320;Artibonite;Morne Marino
 0;-72.4044,18.8769;HT6421;Ouest;Morne Marchand
+0;-71.7000,18.3333;;Sud-Est;Morne Mapou
 0;-74.3353,18.5841;HT7150;Grand'Anse;Morne Louissant
 0;-72.5000,18.4500;HT6212;Ouest;Morne Louis
 0;-71.8333,19.5667;HT2110;Nord-Est;Morne Long
@@ -3010,6 +3175,7 @@
 0;-72.9833,18.7667;HT6510;Ouest;Morne La Pierre
 0;-72.5667,19.7500;HT1522;Nord;Morne Langue
 0;-71.7865,18.8115;HT5321;Centre;Morne Langue
+0;-72.2667,18.9000;;Artibonite;Morne Jolle
 0;-72.6167,19.5833;HT1720;Artibonite;Morne Jean Jules
 0;-71.8667,19.3833;HT2420;Nord-Est;Morne Janvier
 0;-72.5167,18.4833;HT6120;Ouest;Morne Jacques
@@ -3025,6 +3191,8 @@
 0;-72.0167,18.7333;HT6330;Centre;Morne Ganicha
 0;-72.9833,19.8167;HT3408;Nord-Ouest;Morne Foucault
 0;-72.4833,18.3167;HT9111;Sud-Est;Morne Folle
+0;-73.2000,18.8500;;Ouest;Morne Étagé
+0;-73.1833,18.8500;;Ouest;Morne Étagé
 0;-71.8500,19.4500;HT2410;Nord-Est;Morne Duvignal
 0;-71.8500,19.4333;HT2420;Nord-Est;Morne Duvignal
 0;-72.4833,19.7167;HT1520;Nord;Morne Duplessy
@@ -3039,6 +3207,7 @@
 0;-72.0667,18.9333;HT5230;Centre;Morne Dégat
 0;-73.4167,18.4500;HT7540;Nippes;Morne Déboire
 0;-72.3333,18.9333;HT4321;Artibonite;Morne Coudol
+0;-72.3667,19.2333;;Artibonite;Morne Cirouel
 0;-72.4167,19.3667;HT5121;Artibonite;Morne Chéry
 0;-74.3500,18.5833;HT7221;Grand'Anse;Morne Chatte
 0;-73.3333,18.3667;HT8311;Grand'Anse;Morne Charles
@@ -3067,6 +3236,7 @@
 0;-72.9392,18.3089;HT6220;Sud-Est;Morne Belair
 0;-74.1167,18.6333;HT7110;Grand'Anse;Morne Beaumont
 0;-73.4333,19.7333;HT3320;Nord-Ouest;Morne Basse
+0;-73.2333,18.9000;;Ouest;Morne Barroque
 0;-73.1000,19.8167;HT3340;Nord-Ouest;Morne Bambou
 0;-73.4333,18.5000;HT7530;Nippes;Morne Baconnis
 0;-74.0333,18.2500;HT8412;Sud;Morne Bacon
@@ -3123,6 +3293,7 @@
 0;-72.7000,19.7333;HT4210;Artibonite;Monvil
 0;-73.8731,18.1659;HT8130;Sud;Monvide
 0;-72.6500,18.4500;HT6210;Ouest;Montulay
+0;-72.7057,18.9511;;Ouest;Montrouis
 0;-72.3667,19.7333;HT1620;Nord;Montreuil
 0;-71.8225,19.5109;HT2112;Nord-Est;Mont Premier
 2104;-71.7813,19.4081;HT2230;Nord-Est;Montòrganize
@@ -3143,12 +3314,14 @@
 0;-72.1222,18.8722;HT5210;Centre;Mont Bayard
 0;-72.8833,19.8333;HT3408;Nord-Ouest;Montaubois
 0;-72.1833,18.8833;HT5210;Centre;Montasse
+0;-72.2667,18.8833;;Artibonite;Montas
 0;-72.2292,19.6694;HT1231;Nord;Montalibord
 0;-72.5167,19.8333;HT1510;Nord;Montaigu
 0;-72.4275,18.8911;HT6421;Ouest;Montagne Terrible
 0;-72.2833,19.1000;HT4421;Artibonite;Montagne Noire
 0;-73.4167,18.4333;HT7540;Nippes;Montagne Carrée
 0;-74.3488,18.5560;HT7150;Grand'Anse;Montagnard
+0;-72.3978,19.3114;;Artibonite;Monseigneur
 0;-71.8833,19.6333;HT2331;Nord-Est;Mon Repos
 0;-72.2500,18.5500;HT6310;Ouest;Monquette
 0;-74.3167,18.5500;HT7150;Grand'Anse;Monoré
@@ -3218,6 +3391,7 @@
 0;-72.5440,18.8004;HT6411;Ouest;Mitan
 0;-72.5667,18.4333;HT6212;Ouest;Mitan
 0;-73.6792,18.3667;HT8330;Sud;Mission
+0;-72.1890,18.9657;;Centre;Mislet
 0;-73.4833,18.3167;HT8320;Sud;Miseau
 0;-72.5833,18.9167;HT6411;Ouest;Mirebalais
 9082;-72.1048,18.8346;HT5210;Centre;Mirebalais
@@ -3273,10 +3447,12 @@
 0;-72.6333,19.6500;HT4210;Artibonite;Michel
 0;-72.6513,19.5898;HT4210;Artibonite;Michel
 0;-71.9527,19.5844;HT2310;Nord-Est;Michel
+0;-72.2500,18.7667;;Ouest;Michel
 0;-72.1000,18.3333;HT9311;Ouest;Michel
 0;-72.4408,18.2572;HT9130;Sud-Est;Michel
 0;-73.8333,18.1000;HT8220;Sud;Michel
 0;-72.3333,19.1167;HT4421;Artibonite;Michaud
+0;-72.2500,18.8167;;Centre;Michaud
 0;-72.2125,18.5694;HT6310;Ouest;Michaud
 0;-72.6667,19.6833;HT4210;Artibonite;Miac
 0;-72.0365,19.5815;HT2320;Nord-Est;Méyoc
@@ -3383,6 +3559,7 @@
 0;-72.7281,18.4117;HT6230;Ouest;Mayombé
 0;-72.8976,18.1637;HT9220;Sud-Est;Mayombé
 0;-72.7667,19.7333;HT4210;Artibonite;Mayo
+0;-72.9833,19.7500;;Nord-Ouest;Mayette
 0;-72.9167,18.1500;HT9220;Sud-Est;Mayette
 0;-71.6833,19.4500;HT2220;Nord-Est;Mayer
 0;-72.2167,18.6167;HT6310;Ouest;Mayer
@@ -3402,7 +3579,9 @@
 0;-72.4374,19.0357;HT4320;Artibonite;Mauger
 0;-72.4000,19.0000;HT4321;Artibonite;Mauger
 0;-72.5648,19.1623;HT4410;Artibonite;Maugé
+0;-72.2333,19.0333;;Centre;Maugé
 0;-71.9667,18.9667;HT5130;Centre;Maugé
+0;-72.2577,18.9200;;Artibonite;Maugé
 0;-72.5870,18.4935;HT6210;Ouest;Matthieu
 0;-71.7489,18.8692;HT5320;Centre;Matte Jouasse
 0;-71.8333,18.7667;HT5330;Centre;Mat Pal
@@ -3458,6 +3637,7 @@
 0;-72.0000,18.4667;HT6330;Ouest;Matanier
 0;-72.6776,19.5741;HT4210;Artibonite;Mataka
 0;-74.4381,18.4226;HT7230;Grand'Anse;Matador
+0;-72.3500,19.2333;;Artibonite;Mataba
 0;-72.3600,18.2866;HT9121;Sud-Est;Masure
 0;-72.5241,19.2528;HT4410;Artibonite;Masson
 0;-72.0167,18.7000;HT6330;Ouest;Masson
@@ -3476,6 +3656,7 @@
 0;-72.7138,19.0508;HT4311;Artibonite;Massambi
 0;-73.1403,19.7600;HT3310;Nord-Ouest;Massacre
 0;-73.2000,19.7167;HT3310;Nord-Ouest;Massacre
+0;-72.2500,18.8000;;Centre;Massacre
 0;-72.4851,19.6590;HT1611;Nord;Masouco
 0;-73.1500,18.4000;HT7412;Nippes;Mason
 0;-73.0667,18.2667;HT9220;Sud;Mascary
@@ -3490,6 +3671,7 @@
 0;-73.9833,18.3000;HT8411;Sud;Martinette
 0;-72.3000,19.5000;HT1420;Nord;Martineau
 0;-72.3333,19.3667;HT5121;Artibonite;Martineau
+0;-72.3333,19.2333;;Artibonite;Martineau
 0;-74.2068,18.6470;HT7130;Grand'Anse;Martineau
 0;-73.9667,18.3167;HT8140;Sud;Martineau
 0;-73.6500,18.3167;HT8330;Sud;Martineau
@@ -3564,11 +3746,13 @@
 0;-73.2667,18.4500;HT7420;Nippes;Marien
 0;-72.5833,19.7167;HT1720;Nord;Marie Louise
 0;-71.8333,19.4333;HT2230;Nord-Est;Marie Louise
+0;-72.3167,19.1667;;Artibonite;Marie Joseph
 0;-72.3833,18.3667;HT9121;Sud-Est;Marie David
 0;-72.6319,19.7624;HT1522;Nord;Marie Congo
 0;-71.8167,18.3000;HT9330;Sud-Est;Marie Claire
 0;-71.7167,19.4667;HT2220;Nord-Est;Marie Bobin
 0;-73.1333,18.3333;HT7411;Sud;Marie Arada
+0;-72.3333,19.1667;;Centre;Maribaro
 0;-72.1167,19.4167;HT1430;Nord;Mariane
 0;-74.2785,18.5237;HT5211;Grand'Anse;Mariane
 0;-72.2980,18.4813;HT6146;Ouest;Mariane
@@ -3593,6 +3777,7 @@
 0;-72.6239,19.6953;HT4210;Artibonite;Mare Rouge
 0;-72.7000,19.5833;HT4220;Artibonite;Mare Rouge
 0;-71.9000,19.2167;HT5140;Centre;Mare Rouge
+0;-72.3000,19.1333;;Artibonite;Mare Rouge
 0;-71.9000,19.0000;HT5130;Centre;Mare Rouge
 0;-72.0667,18.8833;HT5230;Centre;Mare Rouge
 0;-71.7833,18.8167;HT5321;Centre;Mare Rouge
@@ -3613,9 +3798,12 @@
 0;-72.0167,18.3667;HT9311;Ouest;Mare Palmistre
 0;-71.8818,18.6411;HT6330;Ouest;Mare Palmiste
 0;-72.1000,18.4500;HT6330;Ouest;Mare Palmiste
+0;-71.7000,18.3167;;Sud-Est;Mare Orange
 0;-72.2333,18.7000;HT6312;Centre;Mare Noire
 0;-72.0833,18.4667;HT6330;Ouest;Mare Mouton
 0;-72.1153,18.4159;HT6330;Ouest;Mare Minerve
+0;-73.0586,19.7122;;Artibonite;Mare Millien
+0;-72.1054,19.0495;;Centre;Mare Maringouin
 0;-71.7833,18.2167;HT9330;Sud-Est;Mare Mahot
 0;-72.5752,19.3612;HT4130;Artibonite;Mare Louise
 0;-72.5833,19.6833;HT1720;Nord;Mare Louis
@@ -3636,6 +3824,7 @@
 0;-72.7667,20.0167;HT3121;Nord-Ouest;Mare Gauthier
 0;-71.8000,18.6833;HT5330;Centre;Mare Frise
 0;-71.9167,18.2500;HT9321;Sud-Est;Mare Flanga
+0;-71.7450,18.3536;;Sud-Est;Mare Doublé
 0;-72.8000,19.9167;HT3110;Nord-Ouest;Mare Denis
 0;-72.0509,18.6829;HT6320;Ouest;Mare Déjeune
 0;-72.7172,19.5328;HT4110;Artibonite;Mare Colas
@@ -3655,6 +3844,7 @@
 0;-72.8861,18.2062;HT9220;Sud-Est;Marécage
 0;-72.3667,18.8333;HT6421;Ouest;Mare Café
 0;-73.3167,18.4167;HT7420;Nippes;Mare Cachiman
+0;-72.1828,18.3274;;Sud-Est;Mare Brignol
 0;-72.1537,18.2643;HT9310;Sud-Est;Mare Brignol
 0;-72.1500,18.2500;HT9310;Sud-Est;Mare Brignol
 0;-71.8000,18.8000;HT5321;Centre;Mare Bois Pin
@@ -3668,6 +3858,8 @@
 0;-71.8000,18.2667;HT9330;Sud-Est;Mare Blanche
 0;-71.7869,18.2401;HT9330;Sud-Est;Mare Blanche
 0;-72.3833,18.4833;HT6131;Ouest;Mare Bizaton
+0;-72.4667,19.3167;;Artibonite;Mare Bête
+0;-72.4667,19.2833;;Artibonite;Mare Bele
 0;-72.4833,18.3333;HT9111;Sud-Est;Mareau
 0;-73.8492,18.0886;HT8220;Sud;Mareau
 0;-73.3833,18.3333;HT8310;Sud;Mare à Coiffe
@@ -3684,9 +3876,11 @@
 0;-72.3139,19.4263;HT5121;Artibonite;Marché Louverture
 0;-74.1177,18.5405;HT7111;Grand'Anse;Marché Léon
 0;-73.3000,18.3667;HT8313;Sud-Est;Marché Juste
+0;-73.1300,18.8616;;Ouest;Dent Grignin
 0;-72.0333,18.7833;HT5210;Centre;Marché Canard
 0;-73.8869,18.0299;HT8210;Sud;Marche à Terre
 0;-72.4500,19.2167;HT4111;Artibonite;Marché
+0;-72.2833,19.1500;;Artibonite;Marché
 0;-73.7833,18.3500;HT8150;Sud;Marché
 0;-72.2394,18.3164;HT9120;Sud-Est;Marché
 0;-72.5333,19.6500;HT1720;Nord;Marchand
@@ -3702,6 +3896,7 @@
 0;-74.1167,18.5500;HT7111;Grand'Anse;Marcel
 0;-74.1165,18.5030;HT7111;Grand'Anse;Marcel
 0;-73.5500,18.2833;HT8320;Sud;Marcel
+0;-72.9500,19.7500;;Nord-Ouest;Marc Caluc
 0;-72.6172,19.8606;HT3220;Nord-Ouest;Marc Aurèle
 0;-72.8667,18.3833;HT6121;Ouest;Marcan
 0;-73.6500,18.4167;HT7520;Sud;Marc
@@ -3721,6 +3916,8 @@
 0;-72.2833,19.4167;HT5121;Artibonite;Mapou
 0;-72.3167,19.3833;HT5121;Artibonite;Mapou
 0;-72.5906,19.3148;HT4130;Artibonite;Mapou
+0;-72.2833,19.2333;;Artibonite;Mapou
+0;-72.2167,19.0000;;Centre;Mapou
 0;-72.9667,18.8000;HT6510;Ouest;Mapou
 0;-71.8500,18.7833;HT5330;Centre;Mapou
 0;-73.1500,18.4500;HT7412;Nippes;Mapou
@@ -3826,6 +4023,7 @@
 0;-74.3167,18.5667;HT7150;Grand'Anse;Maïs Govin
 0;-73.8167,18.4667;HT7340;Grand'Anse;Maïs Borreau
 0;-72.7667,19.8667;HT3212;Nord-Ouest;Mainville
+0;-72.2000,18.9667;;Centre;Mainville
 0;-73.4333,18.3833;HT7540;Nippes;Mainviel
 0;-72.4687,18.4996;HT6120;Ouest;Maillette
 0;-72.9167,18.1833;HT9220;Sud-Est;Maillette
@@ -3845,8 +4043,10 @@
 0;-72.5500,19.5833;HT1710;Nord;Mahotière
 0;-72.1833,19.5833;HT1230;Nord;Mahotière
 0;-72.4833,19.2000;HT4111;Artibonite;Mahotière
+0;-72.6167,18.9667;;Artibonite;Mahotière
 0;-72.1145,18.9473;HT5230;Centre;Mahotière
 0;-72.0167,18.8167;HT5310;Centre;Mahotière
+0;-73.0729,18.7940;;Ouest;Mahotière
 0;-71.9333,18.7667;HT5310;Centre;Mahotière
 0;-74.2167,18.6333;HT7130;Grand'Anse;Mahotière
 0;-74.2833,18.5667;HT7140;Grand'Anse;Mahotière
@@ -3907,12 +4107,15 @@
 0;-72.5833,18.4000;HT6212;Ouest;Madame Louis
 0;-73.5280,18.3143;HT8320;Sud;Madame Louis
 0;-73.8096,18.0327;HT8220;Sud;Madame l'Estere
+0;-73.0520,18.8174;;Ouest;Madame Legros
+0;-73.0500,18.8000;;Ouest;Madame Legros
 0;-72.6658,18.2628;HT9140;Sud-Est;Madame Lazarre
 0;-73.9667,18.3833;HT7330;Sud;Madame Julien
 0;-72.2268,19.1648;HT5120;Centre;Madame Joie
 0;-73.7311,18.3447;HT8150;Sud;Madame Jean Pierre
 0;-73.7330,18.2994;HT8150;Sud;Madame Jean Pierre
 0;-71.7667,19.5000;HT2210;Nord-Est;Madame Jean Joseph
+0;-72.2500,18.9167;;Centre;Madame Jean
 0;-72.1876,18.7815;HT5210;Centre;Madame Jacques
 0;-74.3975,18.5554;HT7220;Grand'Anse;Madame Germain
 0;-72.0833,19.3667;HT1440;Nord;Madame Georges
@@ -3922,10 +4125,12 @@
 0;-71.8167,19.4833;HT2112;Nord-Est;Madame Constant
 0;-71.8167,19.4667;HT2230;Nord-Est;Madame Constant
 0;-72.6000,19.5500;HT1720;Artibonite;Madame Charles
+0;-73.6547,18.0837;;Sud;Madame Bernard
 0;-72.0844,18.5548;HT6330;Ouest;Madame Beaugé
 0;-72.2333,18.4667;HT6150;Ouest;Madame
 0;-72.5167,19.6000;HT1710;Nord;Macrebo
 0;-72.3667,19.1833;HT4111;Artibonite;Macou
+0;-72.3333,19.1667;;Artibonite;Macou
 0;-72.4000,18.9333;HT4321;Artibonite;Macou
 0;-72.3833,18.4500;HT6131;Ouest;Maçon
 0;-73.7167,18.3000;HT8330;Sud;Macome
@@ -3977,6 +4182,7 @@
 0;-72.3852,18.3003;HT9121;Sud-Est;Lucas
 0;-73.9500,18.2167;HT8130;Sud;Lucas
 0;-72.6938,19.2436;HT4440;Artibonite;Lubin
+0;-72.3833,19.2333;;Artibonite;Lubin
 0;-74.2833,18.3500;HT8520;Sud;Lubin
 0;-72.9833,18.3333;HT6220;Ouest;Lozier
 0;-74.1667,18.3167;HT8510;Sud;Lozier
@@ -4002,6 +4208,7 @@
 0;-72.4850,18.9036;HT6411;Ouest;Louhou
 0;-73.1000,19.8500;HT3340;Nord-Ouest;Loubier
 0;-72.2833,18.4833;HT6141;Ouest;Louaseau
+0;-73.0112,18.7820;;Ouest;Lottore
 0;-73.4500,18.3833;HT7540;Nippes;Lotier
 0;-72.6400,18.2608;HT9140;Sud-Est;Loti
 0;-73.0622,19.8811;HT3340;Nord-Ouest;Lotest
@@ -4107,6 +4314,7 @@
 3810;-72.1243,19.6701;HT1130;Nord;Limonade
 0;-74.3333,18.5000;HT7141;Grand'Anse;Limette
 0;-74.2667,18.5667;HT7140;Grand'Anse;Limet
+0;-72.6108,18.9761;;Artibonite;Limeau
 0;-72.6000,19.7000;HT1720;Artibonite;Limbe
 32645;-72.4034,19.7060;HT1610;Nord;Lenbe
 0;-72.6992,18.1926;HT9210;Sud-Est;Limba
@@ -4158,6 +4366,7 @@
 0;-72.7833,18.2333;HT9210;Sud-Est;L’Hermitage
 0;-72.9667,18.2833;HT9220;Sud-Est;Lhérisson
 0;-74.4628,18.4537;HT7230;Grand'Anse;Lezinc
+0;-72.2269,19.0531;;Centre;Léyan
 0;-74.3667,18.4833;HT7210;Grand'Anse;Lexy
 0;-71.9500,19.5167;HT2130;Nord-Est;Lexi
 0;-74.1000,18.5000;HT7320;Grand'Anse;Léxi
@@ -4170,6 +4379,7 @@
 0;-72.7873,19.6966;HT4220;Artibonite;Léveillé
 0;-72.6500,19.0333;HT4311;Artibonite;L’Éveillé
 0;-72.6167,19.4667;HT4110;Artibonite;Le Tiro
+0;-73.0711,18.8484;;Ouest;L'Éternel
 0;-72.5833,19.7500;HT1522;Nord;L’Étang
 0;-72.8500,19.5500;HT4220;Artibonite;L’Étang
 0;-72.5500,19.1833;HT4410;Artibonite;L’Étang
@@ -4214,6 +4424,7 @@
 0;-73.2167,18.4333;HT7420;Nippes;Le Rock
 0;-71.9833,18.4500;HT6330;Ouest;Lerocher
 0;-72.5070,19.5514;HT1710;Artibonite;Le Rochel
+0;-72.2864,19.2549;;Artibonite;L'Ermitte
 0;-72.7272,18.1872;HT9210;Sud-Est;L’Ermitage
 0;-72.2500,19.6333;HT1220;Nord;Le Revoir
 0;-73.9480,18.2682;HT8122;Sud;Le Prêtre
@@ -4222,6 +4433,8 @@
 0;-74.2833,18.3333;HT8520;Sud;Lépine
 0;-73.8012,18.3454;HT8150;Sud;Le Pinay
 0;-72.4510,18.9735;HT4321;Artibonite;L’Épinard
+0;-72.2606,18.8981;;Artibonite;Lépinard
+0;-74.1167,18.4667;;Grand'Anse;Le Pina
 0;-74.2333,18.5833;HT7112;Grand'Anse;Léopold
 0;-73.2500,18.3500;HT8313;Grand'Anse;Léon
 134190;-72.6334,18.5111;HT6210;Ouest;Léogâne
@@ -4232,6 +4445,7 @@
 0;-73.3167,19.7500;HT3320;Nord-Ouest;Le Mare
 0;-73.3000,19.7333;HT3310;Nord-Ouest;Le Mare
 0;-71.7000,19.4000;HT2220;Nord-Est;Leman
+0;-72.6667,18.9333;;Ouest;Lémaire
 0;-73.2833,19.7500;HT3310;Nord-Ouest;Lema
 0;-72.0840,19.2958;HT1440;Nord;Lejène
 0;-72.3228,18.7522;HT6421;Ouest;Le Jardin
@@ -4246,6 +4460,7 @@
 0;-74.0167,18.5833;HT7320;Grand'Anse;Léger
 0;-73.5500,18.3753;HT7510;Sud;Léger
 0;-73.8422,18.1361;HT8120;Sud;Léger
+0;-72.4500,19.2500;;Artibonite;Le Gainelle
 0;-72.0978,18.9022;HT5230;Centre;Le Franc
 0;-73.5167,18.3333;HT8320;Sud;Lefranc
 0;-72.9128,18.3559;HT6121;Ouest;Lefort
@@ -4347,6 +4562,7 @@
 0;-72.0167,18.6833;HT6330;Ouest;La Tremblay
 0;-72.1833,18.5833;HT6310;Ouest;La Trembaye
 0;-71.9538,19.1116;HT5111;Centre;Latrémare
+0;-72.3500,19.2667;;Artibonite;La Tourte
 0;-72.5212,18.4358;HT6212;Ouest;La Tournelle
 0;-72.2833,19.4667;HT5121;Nord;La Tour
 0;-72.3667,18.9000;HT4321;Artibonite;Latour
@@ -4374,6 +4590,7 @@
 0;-72.6667,19.2500;HT4440;Artibonite;Latapy
 0;-72.7667,19.7167;HT4210;Artibonite;Latanier
 0;-72.8167,19.5167;HT4220;Artibonite;Latanier
+0;-72.6500,18.9667;;Artibonite;Latanier
 0;-72.2333,18.8167;HT5210;Centre;Latanier
 0;-72.6719,18.3161;HT9140;Sud-Est;Latanier
 0;-72.2667,18.6167;HT6312;Ouest;Latan
@@ -4387,6 +4604,8 @@
 0;-71.8041,19.1618;HT5411;Centre;Lasterre
 0;-71.8333,19.1667;HT5420;Centre;Lassière
 0;-73.2000,19.7833;HT3310;Nord-Ouest;Lasse Pied
+0;-72.2667,19.2667;;Artibonite;Lassas
+0;-72.2833,19.2333;;Artibonite;Lassante
 0;-72.3895,19.7530;HT1620;Nord;Lassalli
 0;-72.0000,19.1167;HT5110;Centre;Laspatrier
 0;-71.8667,18.7167;HT5330;Centre;Las Padou
@@ -4400,6 +4619,7 @@
 0;-71.7809,19.1477;HT5411;Centre;La Source
 0;-72.3566,19.0729;HT4421;Artibonite;La Source
 0;-72.0501,18.9566;HT5230;Centre;La Source
+0;-73.1680,18.9546;;Ouest;La Source
 0;-74.1667,18.6333;HT7111;Grand'Anse;La Source
 0;-74.3667,18.5667;HT7221;Grand'Anse;La Source
 0;-71.9660,18.5017;HT6330;Ouest;La Source
@@ -4423,6 +4643,7 @@
 0;-72.1513,19.1201;HT5120;Centre;La Solable
 0;-74.2333,18.5500;HT7140;Grand'Anse;La Sise
 778;-73.4143,18.3840;HT7540;Nippes;L'Asile
+0;-72.3267,19.2772;;Artibonite;La Sienne
 0;-71.9913,19.2716;HT5140;Centre;La Sienne
 0;-71.8467,18.9528;HT5320;Centre;Lasième
 0;-71.8000,18.8167;HT5321;Centre;La Sève
@@ -4486,6 +4707,8 @@
 0;-71.8500,19.2333;HT5140;Centre;Larobe
 0;-72.0667,19.4667;HT2321;Nord-Est;Laro
 0;-72.1000,18.6500;HT6320;Ouest;Laro
+0;-73.0456,19.8778;;Nord-Ouest;La Rivière Cola
+0;-73.0381,19.8694;;Nord-Ouest;La Rivière
 0;-72.4500,19.4667;HT4120;Artibonite;La Rivière
 0;-72.9333,18.3333;HT6220;Ouest;Lario
 0;-71.7546,19.0607;HT5411;Centre;Larincon
@@ -4587,7 +4810,9 @@
 0;-72.4167,19.2000;HT4111;Artibonite;Lan Mat
 0;-72.5133,18.2239;HT9110;Sud-Est;Lan Mandou
 0;-72.3259,18.7559;HT6421;Ouest;Le Jardin
+0;-73.2500,18.9500;;Ouest;Langue Blanche
 0;-72.7833,19.5167;HT4220;Artibonite;Langue
+0;-72.5979,18.9735;;Artibonite;Langlois
 0;-73.3000,18.3333;HT8311;Sud;Langlois
 0;-73.7500,18.3000;HT8150;Sud;Langlois
 0;-73.7667,18.2667;HT8160;Sud;Langlois
@@ -4597,6 +4822,7 @@
 0;-73.4333,18.3667;HT7540;Nippes;Langlade
 0;-72.6297,18.2297;HT9140;Sud-Est;Langlade
 0;-71.8000,18.6833;HT5330;Ouest;Lan Gale
+0;-73.2036,18.8847;;Ouest;Lan Gaïac
 0;-72.4230,19.2141;HT4111;Artibonite;Landry
 0;-73.3167,18.4333;HT7420;Nippes;Landry
 0;-72.1000,19.4500;HT1430;Nord;Lancoste
@@ -4710,6 +4936,7 @@
 0;-72.3856,19.0642;HT4421;Artibonite;La Hatte
 0;-72.3378,19.0369;HT4421;Artibonite;La Hatte
 0;-72.3167,19.0333;HT4421;Artibonite;La Hatte
+0;-72.2333,18.9500;;Centre;La Hatte
 0;-72.4442,18.8871;HT6421;Ouest;La Hatte
 0;-72.0167,18.8000;HT5310;Centre;La Hatte
 0;-74.3500,18.6167;HT7221;Grand'Anse;La Hatte
@@ -4817,6 +5044,7 @@
 0;-72.5500,18.5500;HT6160;Ouest;Laferronay
 0;-72.2250,18.5500;HT6310;Ouest;La Ferronay
 0;-72.8667,19.6500;HT4230;Artibonite;Laferrière
+0;-72.3500,19.2167;;Artibonite;Laferrière
 0;-74.3309,18.5712;HT7150;Grand'Anse;Laferrière
 0;-72.6000,18.4667;HT6210;Ouest;La Ferrière
 0;-72.3833,18.3167;HT9121;Sud-Est;Laferrière
@@ -4837,7 +5065,9 @@
 0;-73.0167,18.2667;HT9220;Sud;La Ferme
 0;-73.9343,18.1818;HT8130;Sud;La Ferme
 0;-73.8333,18.0833;HT8220;Sud;La Ferme
+0;-73.0950,18.9078;;Ouest;Laférière
 0;-71.9773,18.4952;HT6330;Ouest;La Femme
+0;-72.2436,19.0516;;Artibonite;La Faille
 0;-72.9169,18.2719;HT9220;Sud-Est;La Faille
 0;-72.2108,19.7817;HT1110;Nord;La Fague
 0;-72.2306,19.5097;HT1420;Nord;La Fague
@@ -4873,8 +5103,10 @@
 0;-71.9167,19.3833;HT2410;Nord-Est;La Croix
 0;-72.5841,19.3561;HT4130;Artibonite;La Croix
 0;-71.7500,19.3333;HT2230;Nord-Est;La Croix
+0;-72.3237,19.1923;;Artibonite;La Croix
 0;-72.0282,19.0882;HT5110;Centre;La Croix
 0;-71.7955,19.0330;HT5420;Centre;La Croix
+0;-72.2333,19.0167;;Centre;La Croix
 0;-72.5000,18.9833;HT4320;Artibonite;La Croix
 0;-72.4706,18.9533;HT4321;Artibonite;La Croix
 0;-72.3219,18.8771;HT6421;Artibonite;La Croix
@@ -4896,10 +5128,12 @@
 0;-72.5667,19.3500;HT4130;Artibonite;La Cour Périsse
 0;-72.7696,19.6185;HT4220;Artibonite;La Cour Paletot
 0;-72.5749,18.8806;HT6411;Ouest;La Cour Nicolas
+0;-73.0965,18.8767;;Ouest;La Cour Longue
 0;-72.8840,18.8194;HT6510;Ouest;La Cour Joseph
 0;-72.4613,18.8308;HT6410;Ouest;La Cour Grande Rivière
 0;-72.0064,19.0723;HT5130;Centre;La Cour Gadichon
 0;-72.5280,18.9193;HT6411;Ouest;La Cour Dupin
+0;-72.3000,19.2333;;Artibonite;La Cour Diament
 0;-72.4333,19.1333;HT4111;Artibonite;La Cour Chocho
 0;-72.5333,19.5167;HT4120;Artibonite;La Cour Broca
 0;-72.3167,18.2667;HT9120;Sud-Est;La Courbas
@@ -4941,6 +5175,7 @@
 0;-73.9667,18.4333;HT7330;Grand'Anse;Lacombe
 0;-72.4667,18.3833;HT9111;Sud-Est;Lacombe
 0;-72.4552,19.7105;HT1520;Nord;Lacoman
+0;-73.0500,19.8833;;Nord-Ouest;Lacoma
 0;-73.0825,19.8650;HT3340;Nord-Ouest;Lacoma
 0;-72.5840,19.6780;HT1720;Nord;Lacoma
 0;-72.7085,19.0756;HT4311;Artibonite;La Colline
@@ -4953,6 +5188,7 @@
 0;-71.9333,18.9667;HT5130;Centre;Lacoc
 0;-74.0667,18.2333;HT8411;Sud;Laclose
 0;-72.4667,19.1000;HT4111;Artibonite;La Cité
+0;-72.3333,19.2667;;Artibonite;La Cide
 0;-72.6000,19.2333;HT4410;Artibonite;Lachicotte
 0;-72.5500,19.1500;HT4410;Artibonite;La Chicotte
 0;-73.9835,18.5521;HT7320;Grand'Anse;La Chicotte
@@ -4969,6 +5205,7 @@
 0;-74.3462,18.3104;HT8530;Sud;La Chaîne
 0;-71.8528,19.1055;HT5420;Centre;Lacetague
 0;-72.5510,19.4116;HT4120;Artibonite;Lacet
+0;-73.0419,18.9054;;Ouest;La Cayenne
 0;-72.3500,19.3500;HT5121;Artibonite;La Castaigne
 0;-72.9500,19.8000;HT3408;Nord-Ouest;La Carrière
 0;-72.8667,19.9000;HT3408;Nord-Ouest;La Carne
@@ -5004,9 +5241,11 @@
 0;-73.1847,18.2259;HT8313;Sud;Laborieux
 0;-73.1000,18.1833;HT9220;Sud;Laborieux
 0;-72.9833,18.3833;HT6220;Ouest;La Bordette
+0;-72.1500,19.0167;;Centre;La Borde
 0;-72.3213,18.9629;HT4421;Artibonite;La Borde
 0;-74.3167,18.5000;HT7141;Grand'Anse;La Borde
 0;-73.8031,18.2820;HT8160;Sud;Laborde
+0;-72.4500,19.3000;;Artibonite;La Boqué
 0;-72.0000,19.2500;HT5140;Centre;La Boqué
 0;-71.8333,18.2500;HT9330;Sud-Est;La Bonnetière
 0;-72.2167,18.8333;HT5210;Centre;La Bonne
@@ -5085,6 +5324,7 @@
 0;-73.7500,18.2167;HT8110;Sud;Ka O Shiel
 0;-73.4500,18.3500;HT7540;Grand'Anse;Ka Nore
 0;-72.4333,19.5167;HT4120;Artibonite;Ka Michaud
+0;-72.6500,18.9667;;Artibonite;Kamasse
 0;-72.1000,18.3667;HT9311;Ouest;Ka Madame
 0;-71.9167,18.6833;HT6330;Ouest;Ka Loup
 0;-72.4000,18.5167;HT6130;Ouest;Ka Louis Jeune
@@ -5097,6 +5337,7 @@
 0;-74.1500,18.3000;HT8510;Sud;Ka Hilaire
 0;-72.3500,19.5167;HT4510;Artibonite;Ka Fort
 0;-73.3333,19.7000;HT3320;Nord-Ouest;Ka Flipe
+0;-72.2167,18.9667;;Centre;Kadroual
 0;-73.7000,18.5500;HT7520;Nippes;Ka Dieu
 0;-72.4167,18.5167;HT6135;Ouest;Ka Cola
 0;-72.7000,19.5667;HT4220;Artibonite;Ka Cano
@@ -5171,6 +5412,7 @@
 0;-72.2333,18.2500;HT9120;Sud-Est;Jimoun
 0;-72.4667,19.6167;HT1710;Nord;Jimbi
 0;-72.5167,18.9333;HT6411;Ouest;Jilling
+0;-72.4000,19.2500;;Artibonite;Jigote
 0;-72.6833,18.3833;HT6211;Ouest;Jeudy
 0;-73.7178,18.5154;HT7340;Nippes;Jeudi
 0;-72.2807,18.2973;HT9120;Sud-Est;Jet d'Eau
@@ -5221,6 +5463,7 @@
 0;-72.5500,18.4833;HT6212;Ouest;Jean-Jean
 0;-73.3167,18.4500;HT7420;Nippes;Jeanjean
 0;-71.7500,19.3833;HT2230;Nord-Est;Jean Jacques
+0;-72.3167,19.2167;;Artibonite;Jean Jacques
 0;-74.3667,18.3167;HT8530;Sud;Jean Jacques
 0;-74.2333,18.6500;HT7130;Grand'Anse;Jean Hou
 0;-71.9500,18.9833;HT5130;Centre;Jean Gillette
@@ -5292,6 +5535,8 @@
 0;-74.2833,18.6333;HT7120;Grand'Anse;Jacques
 0;-72.4833,19.5167;HT4120;Artibonite;Jacouman
 0;-72.7167,20.0167;HT3121;Nord-Ouest;Jacot
+0;-72.2333,19.0500;;Artibonite;Jacot
+0;-72.1667,18.3500;;Ouest;Jacot
 0;-73.1167,19.8167;HT3340;Nord-Ouest;Jacob
 0;-72.5500,19.1667;HT4410;Artibonite;Jacob
 0;-71.9317,19.1691;HT5111;Centre;Jacob
@@ -5301,10 +5546,12 @@
 0;-72.0500,18.6667;HT6320;Ouest;Jacasse
 0;-73.9000,18.2000;HT8130;Sud;Jabouin
 0;-73.8557,18.0679;HT8220;Sud;Jaboin
+0;-72.6416,18.9441;;Ouest;Ivoire
 0;-74.3333,18.5500;HT7150;Grand'Anse;Ivan Narron
 0;-73.5347,18.4781;HT7510;Nippes;Israël
 0;-72.3167,19.4500;HT5121;Artibonite;Irlan
 0;-72.5167,18.9833;HT4320;Artibonite;Ire
+0;-72.1605,18.3753;;Ouest;Inviter
 0;-72.2962,19.0888;HT4421;Artibonite;Ingrand
 0;-72.8333,18.2000;HT9210;Sud-Est;Imby
 0;-72.6000,19.6333;HT1720;Artibonite;Imbo
@@ -5336,6 +5583,8 @@
 0;-72.1090,19.1857;HT5120;Centre;Herbe Guinée
 0;-72.9697,18.8342;HT6510;Ouest;Herbe Guinée
 0;-72.2000,18.2500;HT9120;Sud-Est;Herbe Guinée
+0;-73.2168,18.8982;;Ouest;Herbe à Bleu
+0;-72.3667,19.2333;;Artibonite;Henry
 0;-72.6253,19.0684;HT4310;Artibonite;Henry
 0;-72.4595,18.4648;HT6120;Ouest;Henry
 0;-73.8833,18.1500;HT8230;Sud;Henry
@@ -5381,11 +5630,13 @@
 0;-74.1167,18.2833;HT8511;Sud;Haut Bois
 0;-72.4167,19.5500;HT4510;Nord;Haut Bassin
 0;-72.5667,19.0333;HT4322;Artibonite;Haut Bassin
+0;-72.1167,19.0167;;Centre;Haut Baille
 0;-72.1333,19.2000;HT5120;Centre;Hatty
 0;-72.9271,19.6153;HT4230;Artibonite;Hatte Ti Louis
 0;-72.9167,19.6167;HT4230;Artibonite;Hatte Ti La Colon
 0;-72.7167,19.5000;HT4110;Artibonite;Hatte Roche
 0;-72.4986,18.7918;HT6410;Ouest;Hatte Robert
+0;-72.2425,18.7831;;Centre;Hatte Policarpe
 0;-72.0392,19.1716;HT5110;Centre;Hatte Père
 0;-73.1833,18.2500;HT8313;Sud;Hatte Mombrun
 0;-72.5167,18.8500;HT6411;Ouest;Hatte Marie
@@ -5471,6 +5722,7 @@
 0;-73.9167,18.2500;HT8122;Sud;Guichard
 0;-72.6333,19.0833;HT4310;Artibonite;Guichamp
 0;-72.5500,19.4667;HT4120;Artibonite;Guibert
+0;-72.6492,18.9467;;Ouest;Guibert
 0;-72.2117,18.8011;HT5210;Centre;Guibert
 0;-72.2667,18.4333;HT6150;Ouest;Guibert
 0;-72.7333,19.8333;HT3212;Nord-Ouest;Guêtre
@@ -5493,14 +5745,17 @@
 0;-71.8294,19.6160;HT2110;Nord-Est;Guan
 0;-71.7667,19.2333;HT5412;Centre;Guadabier
 0;-71.8333,19.2833;HT2431;Nord-Est;Guabobe
+0;-72.2667,19.2000;;Centre;Guabite
 0;-71.9667,18.8167;HT5310;Centre;Grundet
 0;-72.8667,18.2167;HT9210;Sud-Est;Grovier
 0;-72.1833,19.5667;HT1230;Nord;Groupy
+0;-72.3833,19.2500;;Artibonite;Gros Voûte
 0;-73.4667,18.3833;HT7540;Nippes;Gros Vignon
 0;-72.3352,19.7073;HT1610;Nord;Gros Trou
 0;-71.8000,18.7833;HT5321;Centre;Gros Trou
 0;-72.5000,18.4000;HT6212;Sud-Est;Gros Trou
 0;-72.4500,19.4667;HT4120;Artibonite;Gros Thème
+0;-72.2333,18.9833;;Artibonite;Grosse Source
 0;-72.8000,19.6333;HT4220;Artibonite;Grosse Roche
 0;-72.3167,19.6167;HT1310;Nord;Grosse Roche
 0;-72.3333,19.5167;HT4510;Nord;Grosse Roche
@@ -5521,11 +5776,14 @@
 0;-72.5167,18.4333;HT6212;Ouest;Gros Saut
 0;-73.2000,19.8833;HT3340;Nord-Ouest;Gros Sable
 0;-72.5333,19.8500;HT1510;Nord;Gros Sable
+0;-72.9464,20.0532;;Nord-Ouest;Gros Raisinier
 0;-71.8884,18.7928;HT5310;Centre;Gros Moulin
 0;-73.3775,18.4272;HT7540;Nippes;Gros Moulin
 7294;-72.6781,19.6708;HT4210;Artibonite;Gros Morne
+0;-72.2009,19.0382;;Centre;Gros Morne
 0;-72.0000,18.9000;HT5230;Centre;Gros Morne
 0;-72.5547,18.8856;HT6411;Ouest;Gros Morne
+0;-73.1000,18.8500;;Ouest;Gros Morne
 0;-72.0655,18.7804;HT5210;Centre;Gros Morne
 0;-72.0477,18.6700;HT6320;Ouest;Gros Morne
 0;-74.0167,18.5667;HT7320;Grand'Anse;Gros Morne
@@ -5535,9 +5793,13 @@
 0;-72.4500,18.3500;HT9111;Sud-Est;Gros Morne
 0;-73.6035,18.2995;HT8330;Sud;Gros Morne
 0;-72.3667,18.2500;HT9130;Sud-Est;Gros Morne
+0;-73.6599,18.0771;;Sud;Gros Morne
 0;-71.8000,18.3667;HT6340;Ouest;Gros Mât
 0;-73.6095,18.3502;HT8330;Sud;Gros Marin
+0;-72.2153,18.9545;;Centre;Gros Mapou
 0;-74.3167,18.4833;HT7141;Grand'Anse;Gros Mango
+0;-73.1151,18.9304;;Ouest;Gros Mangle
+0;-72.2333,19.0667;;Centre;Gros Liane
 0;-73.5909,18.5858;HT7521;Nippes;Gros Latanier
 0;-71.9000,18.7500;HT5330;Centre;Gros Laboue
 0;-72.1040,18.2376;HT9310;Sud-Est;Gros l'Abîme
@@ -5547,14 +5809,19 @@
 0;-72.0833,18.5167;HT6330;Ouest;Gros Figuie
 0;-71.8667,18.6833;HT5330;Ouest;Gros Dos
 0;-72.3833,19.1500;HT4111;Artibonite;Gros Coui
+0;-73.1167,18.8333;;Ouest;Gros Citerne
 0;-71.8639,18.3382;HT6340;Ouest;Gros Cheval
+0;-72.1686,18.9716;;Centre;Gros Charles
+0;-73.0214,19.7567;;Nord-Ouest;Gros Cajou
 0;-71.8333,19.0667;HT5420;Centre;Gros Cajou
+0;-72.1930,19.0283;;Centre;Gros Cabrit
 0;-72.2500,18.2667;HT9120;Sud-Est;Gros Bois
 0;-73.0743,19.8801;HT3340;Nord-Ouest;Gros Bassin
 0;-73.8714,18.5496;HT7310;Grand'Anse;Gros Bassin
 0;-73.4333,18.3500;HT7540;Grand'Anse;Gros Bassin
 0;-74.1167,18.3000;HT8511;Sud;Gros Bassin
 0;-72.1167,18.5167;HT6330;Ouest;Gros Balance
+0;-72.6239,18.9524;;Ouest;Grobe
 0;-72.8500,19.7167;HT4230;Nord-Ouest;Grivo
 0;-72.2895,19.6163;HT1310;Nord;Grison Garde
 0;-72.6000,18.3500;HT6211;Sud-Est;Gris-Gris
@@ -5564,10 +5831,12 @@
 0;-72.2000,19.0833;HT5120;Centre;Grigri
 0;-72.4654,18.2525;HT9110;Sud-Est;Grigri
 0;-72.1833,19.5000;HT1420;Nord;Grignin
+0;-72.3667,19.2167;;Artibonite;Grignan
 0;-73.8814,18.1542;HT8130;Sud;Griffon
 0;-73.4000,19.7000;HT3320;Nord-Ouest;Grève
 0;-72.6378,18.9825;HT4311;Artibonite;Gressot
 25947;-72.5268,18.5409;HT6160;Ouest;Gressier
+0;-72.6198,18.9810;;Artibonite;Gresseau
 0;-72.6987,19.6763;HT4210;Artibonite;Grépin
 0;-73.5000,18.2833;HT8320;Sud;Grenodin
 0;-71.7634,19.3781;HT2230;Nord-Est;Grenier
@@ -5589,9 +5858,11 @@
 0;-74.2500,18.5167;HT5211;Grand'Anse;Gras
 0;-72.3500,18.4333;HT6150;Ouest;Granmote
 0;-74.3167,18.5333;HT7150;Grand'Anse;Granger
+0;-73.2529,18.8695;;Ouest;Grand Vide
 0;-72.7061,18.4286;HT6230;Ouest;Grand Trou
 0;-72.7667,18.3500;HT6230;Ouest;Grand Sceaux
 0;-72.6997,20.0010;HT3121;Nord-Ouest;Grand Sable
+0;-73.6500,18.0833;;Sud;Grand Sable
 0;-72.5833,19.5333;HT4120;Artibonite;Grand Roc
 0;-72.0838,18.4476;HT6330;Ouest;Grand Rack
 0;-73.2003,19.8464;HT3340;Nord-Ouest;Grand Rac
@@ -5630,12 +5901,14 @@
 0;-71.7500,19.5833;HT2210;Nord-Est;Grand Goude
 17059;-71.9182,18.1854;HT9320;Sud-Est;Grand Gosier
 49288;-72.7699,18.4259;HT6230;Ouest;Grangwav
+0;-72.9846,19.7654;;Nord-Ouest;Grand Fond Ti Noël
 0;-73.7000,18.3000;HT8330;Sud;Grand Fond Delmas
 0;-72.6000,19.9000;HT3220;Nord-Ouest;Grand Fond
 0;-72.6333,19.5833;HT4210;Artibonite;Grand Fond
 0;-72.4167,19.2167;HT4111;Artibonite;Grand Fond
 0;-71.8000,19.2167;HT5410;Centre;Grand Fond
 0;-72.4167,19.2000;HT4111;Artibonite;Grand Fond
+0;-72.2667,19.1167;;Centre;Grand Fond
 0;-72.6327,19.0983;HT4310;Artibonite;Grand Fond
 0;-72.6909,19.0099;HT4311;Artibonite;Grand Fond
 0;-72.1500,18.9500;HT5230;Centre;Grand Fond
@@ -5665,6 +5938,7 @@
 0;-72.8078,19.5119;HT4220;Artibonite;Grande Savane
 0;-72.7833,19.5000;HT4220;Artibonite;Grande Savane
 0;-71.7333,19.4333;HT2220;Nord-Est;Grande Savane
+0;-72.4500,19.3500;;Artibonite;Grande Savane
 0;-71.9141,19.3529;HT2431;Nord-Est;Grande Savane
 0;-71.9167,19.3333;HT2431;Nord-Est;Grande Savane
 0;-72.1667,19.2500;HT5120;Centre;Grande Savane
@@ -5702,8 +5976,11 @@
 0;-73.2904,18.4827;HT7420;Nippes;Grande Rivière de Nippes
 0;-72.4333,18.4667;HT6135;Ouest;Grande Rivière
 0;-72.8000,18.4000;HT6230;Ouest;Grande Rivière
+0;-72.9000,19.7500;;Nord-Ouest;Grande Ravine
+0;-73.0234,19.7338;;Nord-Ouest;Grande Ravine
 0;-72.8100,19.5633;HT4220;Artibonite;Grande Ravine
 0;-72.5333,19.4833;HT4120;Artibonite;Grande Ravine
+0;-72.1500,19.0167;;Centre;Grande Ravine
 0;-73.5500,18.5667;HT7521;Nippes;Grande Ravine
 0;-72.1167,18.4667;HT6330;Ouest;Grande Ravine
 0;-72.1431,18.3633;HT9311;Ouest;Grande Ravine
@@ -5711,10 +5988,14 @@
 0;-72.7667,19.9000;HT3111;Nord-Ouest;Grande Plaine
 0;-72.7667,19.7000;HT4210;Artibonite;Grande Plaine
 0;-72.3500,19.3667;HT5121;Artibonite;Grande Plaine
+0;-72.4500,19.3500;;Artibonite;Grande Plaine
+0;-72.2833,19.2333;;Artibonite;Grande Plaine
+0;-72.2519,19.2159;;Centre;Grande Plaine
 0;-71.7667,18.8500;HT5320;Centre;Grande Plaine
 0;-72.8833,18.8000;HT6510;Ouest;Grande Plaine
 0;-74.3167,18.5167;HT5211;Grand'Anse;Grande Plaine
 0;-74.0500,18.3833;HT8511;Sud;Grande Plaine
+0;-73.6500,18.0667;;Sud;Grande Plaine
 0;-72.0788,18.5855;HT6330;Ouest;Grande Place Leroy
 0;-72.6681,19.7087;HT4210;Artibonite;Grande Place
 0;-72.6667,19.7000;HT4210;Artibonite;Grande Place
@@ -5736,6 +6017,7 @@
 0;-74.1500,18.3167;HT8510;Sud;Grande Mahotière
 0;-73.2167,19.8000;HT3340;Nord-Ouest;Grande Joune
 0;-72.4292,19.1462;HT4111;Artibonite;Grande Hatte
+0;-72.2500,18.8167;;Centre;Grande Hatte
 0;-72.2000,18.3833;HT6150;Ouest;Grande Genre
 0;-73.1091,19.7219;HT3330;Nord-Ouest;Grande Falaise
 0;-72.6500,19.7000;HT4210;Artibonite;Grande Croix
@@ -5749,6 +6031,7 @@
 0;-74.1500,18.3000;HT8510;Sud;Grande Café
 0;-72.8667,19.6333;HT4230;Artibonite;Grande Barrière
 0;-74.3667,18.5500;HT7150;Grand'Anse;Grande Barrière
+0;-73.6394,18.0602;;Sud;Grande Barrière
 0;-72.8167,18.7167;HT5220;Ouest;Grande Baie
 0;-71.8833,18.1500;HT9320;Sud-Est;Grande Anse
 0;-72.9500,19.6333;HT4230;Artibonite;Grande
@@ -5772,6 +6055,7 @@
 0;-72.9331,19.6464;HT4230;Artibonite;Grand Boulaille
 0;-72.1667,18.7000;HT6320;Ouest;Grand Boulaille
 0;-72.2500,19.5833;HT1220;Nord;Grand Boucan
+0;-73.2500,18.8833;;Ouest;Grand Boucan
 0;-72.1610,18.8057;HT5210;Centre;Grand Boucan
 0;-72.1833,18.7333;HT6320;Centre;Grand Boucan
 0;-73.5915,18.5535;HT7521;Nippes;Grand Boucan
@@ -5786,6 +6070,7 @@
 0;-72.4000,19.3333;HT5121;Artibonite;Grand Bois
 0;-71.8833,18.7500;HT5330;Centre;Grand Bois
 0;-72.0667,18.5333;HT6330;Ouest;Grand Bois
+0;-74.1000,18.4833;;Grand'Anse;Grand Bois
 0;-73.3333,18.4500;HT7420;Nippes;Grand Bois
 0;-73.0000,18.4500;HT6220;Ouest;Grand Bois
 0;-73.9500,18.4000;HT7330;Grand'Anse;Grand Bois
@@ -5818,6 +6103,7 @@
 0;-72.2000,18.8000;HT5210;Centre;Goyavier
 0;-72.0000,19.0333;HT5130;Centre;Goyable
 0;-72.4000,19.4500;HT4510;Artibonite;Govin
+0;-73.7667,18.6833;;Grand'Anse;Gouyvier
 0;-73.1000,18.3000;HT7411;Sud;Gousse
 0;-71.7719,19.6229;HT2120;Nord-Est;Gourguel
 0;-72.4333,19.5500;HT1710;Nord;Gourel
@@ -5927,6 +6213,7 @@
 0;-72.7833,18.2667;HT9210;Sud-Est;Germain
 0;-71.8833,18.2167;HT9321;Sud-Est;Germain
 0;-73.9000,18.0833;HT8210;Sud;Germain
+0;-73.0133,19.8153;;Nord-Ouest;Gerbe à Flèche
 0;-71.7712,19.5945;HT2120;Nord-Est;Gérard
 0;-72.3464,19.4929;HT4510;Artibonite;Gérard
 0;-72.3167,19.4667;HT5121;Nord;Gérard
@@ -5946,6 +6233,7 @@
 0;-73.2426,19.6965;HT3310;Nord-Ouest;George Callebassier
 0;-71.9263,18.4181;HT6340;Ouest;Gentilhomme
 0;-71.7666,19.4287;HT2230;Nord-Est;Gens de Nantes
+0;-72.4167,19.2500;;Artibonite;Genoailler
 0;-72.1000,19.6833;HT1130;Nord;Genivrée
 0;-72.3667,19.5000;HT4510;Artibonite;Geney
 0;-73.7667,18.3667;HT8150;Sud;Génèresse
@@ -6011,6 +6299,7 @@
 0;-72.4333,19.1833;HT4111;Artibonite;Garien
 0;-72.3833,19.1833;HT4111;Artibonite;Garien
 0;-72.4167,19.1500;HT4111;Artibonite;Garien
+0;-72.5667,18.9500;;Ouest;Garicher
 0;-73.5942,18.3854;HT8330;Sud;Gargite
 0;-71.9778,19.2937;HT5140;Centre;Garette
 0;-72.4594,18.7500;HT6420;Ouest;Garécher
@@ -6045,6 +6334,7 @@
 0;-72.4333,19.7167;HT1610;Nord;Garde Camp
 0;-71.6833,19.2000;HT5410;Centre;Garde Brulée
 0;-72.2257,19.3766;HT1410;Nord;Garde Biassou
+0;-72.3535,19.2904;;Artibonite;Garde Baptiste
 0;-72.4857,19.7449;HT1520;Nord;Garde Bance
 0;-71.7680,19.1332;HT5411;Centre;Garde Augustin
 0;-71.7833,18.9333;HT5320;Centre;Garde à Souane
@@ -6084,6 +6374,7 @@
 0;-72.9000,19.7833;HT3408;Nord-Ouest;Galbois
 0;-72.4833,19.5667;HT1710;Nord;Galbo
 0;-73.2500,18.3333;HT8313;Sud;Galbert
+0;-73.0570,19.6611;;Artibonite;Galatas
 0;-71.8500,19.3167;HT2431;Nord-Est;Galata
 0;-73.8167,18.3500;HT8150;Sud;Gala
 0;-74.3167,18.5000;HT7141;Grand'Anse;Gaillefort
@@ -6114,6 +6405,7 @@
 0;-74.0833,18.2667;HT8420;Sud;Fripo
 0;-72.7234,19.0912;HT4311;Artibonite;Frécineau
 0;-72.6041,19.7930;HT1522;Nord;Fréto
+0;-72.6500,18.9667;;Artibonite;Fréta
 0;-72.4399,19.5271;HT4120;Nord;Fressac
 0;-72.2753,18.3375;HT9121;Ouest;Frères
 0;-73.5500,18.3000;HT8320;Sud;Frerel
@@ -6193,6 +6485,7 @@
 0;-72.2167,19.6833;HT1231;Nord;Fontenelle
 0;-72.2638,19.4909;HT1420;Nord;Fontaine
 0;-72.1000,19.3500;HT1440;Nord;Fontaine
+0;-72.2333,18.9500;;Centre;Fontaine
 0;-72.1833,18.8667;HT5210;Centre;Fontaine
 0;-72.3333,18.5833;HT6122;Ouest;Fontaine
 0;-73.7982,18.2264;HT8160;Sud;Fonfrède
@@ -6240,6 +6533,7 @@
 0;-72.6167,19.0000;HT4310;Artibonite;Fond Pierrot
 0;-71.9471,18.9183;HT5230;Centre;Fond Pierre
 0;-72.4716,18.2799;HT9111;Sud-Est;Fond Pierre
+0;-72.3333,19.1667;;Artibonite;Fond Picard
 0;-72.4833,18.9000;HT6411;Ouest;Fond Perrier
 0;-72.7000,18.9667;HT4311;Artibonite;Fond Paul
 0;-71.9833,18.5167;HT6330;Ouest;Fond Parisien
@@ -6270,11 +6564,13 @@
 0;-73.3000,19.7667;HT3310;Nord-Ouest;Fond Lema
 0;-73.0716,19.8642;HT3340;Nord-Ouest;Fond Lecturne
 0;-73.9333,18.5167;HT7330;Grand'Anse;Fond League
+0;-72.1450,19.0158;;Centre;Fond Laporte
 0;-72.2500,19.8167;HT1110;Nord;Fond Lagrange
 0;-72.8333,19.7000;HT4230;Nord-Ouest;Fond Lagon
 0;-72.7667,18.3333;HT6230;Ouest;Fond Lafleur
 0;-72.5833,19.4333;HT4110;Artibonite;Fond La Coupe
 0;-72.3318,18.8553;HT6421;Centre;Fond la Coupe
+0;-72.7000,18.9500;;Ouest;Fond Lachaux
 0;-73.7407,18.3182;HT8150;Sud;Fond Justin
 0;-74.4000,18.4167;HT7230;Grand'Anse;Fond Jogue
 0;-72.3333,19.6167;HT1210;Nord;Fond Jale
@@ -6299,16 +6595,20 @@
 0;-72.7972,19.7648;HT3140;Artibonite;Fond Duroc
 0;-72.6500,19.8500;HT3220;Nord-Ouest;Fond Dupont
 0;-72.3954,18.3506;HT9111;Sud-Est;Fond Duline
+0;-72.9667,19.7667;;Nord-Ouest;Fond Dubois
 0;-72.5833,18.4000;HT6212;Ouest;Fond Droit
 0;-72.9750,18.4228;HT6220;Ouest;Fond Douze
 0;-72.7000,19.5333;HT4110;Artibonite;Fond Digo
 0;-73.9625,18.5373;HT7330;Grand'Anse;Fond d'Icaque
 0;-72.1535,18.7024;HT6320;Centre;Fond Diable
+0;-72.1500,18.4000;;Ouest;Fond Diable
 0;-73.2341,18.3608;HT8313;Nippes;Fon Dè Nèg
+0;-72.1667,18.3333;;Sud-Est;Fond des Mornes
 0;-73.7667,18.3333;HT8150;Sud;Fond des Frais
 2653;-73.1273,18.2778;HT7411;Sud;Fond des Blancs
 0;-73.8692,18.4547;HT7330;Grand'Anse;Fond Déron
 0;-72.8638,18.1528;HT9210;Sud-Est;Fond Dennas
+0;-72.1784,19.0184;;Centre;Fond d'Enfer
 0;-72.1167,18.9833;HT5230;Centre;Fond d’Enfer
 0;-72.4436,18.3675;HT9111;Sud-Est;Fond Cuivre
 0;-72.4137,18.4650;HT6135;Ouest;Fond Coupeau
@@ -6348,9 +6648,11 @@
 0;-72.7302,18.3623;HT6211;Ouest;Fond Baptiste
 0;-72.1667,18.2667;HT9310;Sud-Est;Fond Baptiste
 0;-73.2330,19.8414;HT3340;Nord-Ouest;Fond Amadou
+0;-72.4678,19.2796;;Artibonite;Fond Alezan
 0;-72.6833,19.8167;HT3210;Nord-Ouest;Foloque
 0;-73.7430,18.2504;HT8110;Sud;Fogas
 0;-72.5000,19.6333;HT1710;Nord;Focodière
+0;-73.0517,19.6531;;Artibonite;Foccéli
 0;-71.7833,19.3833;HT2230;Nord-Est;Florence
 0;-72.5665,18.5416;HT6160;Ouest;Flon
 0;-72.0198,19.6752;HT2340;Nord-Est;Fleury
@@ -6366,6 +6668,7 @@
 0;-71.8833,18.7167;HT5330;Centre;Fleurimond
 0;-72.6000,19.7000;HT1720;Nord;Fleurette
 0;-72.6833,19.1000;HT4310;Artibonite;Fleurenceau
+0;-73.0781,18.8237;;Ouest;Fleurant
 0;-73.5000,18.4500;HT7510;Nippes;Fleurant
 0;-72.6500,19.7500;HT4210;Artibonite;Flervil
 0;-74.2500,18.6500;HT7130;Grand'Anse;Flefe
@@ -6381,6 +6684,7 @@
 0;-74.4000,18.4833;HT7210;Grand'Anse;Fillette
 0;-73.8833,18.2833;HT8140;Sud;Filbert
 0;-72.2000,18.8500;HT5210;Centre;Filac
+0;-73.6500,18.0667;;Sud;Figuler
 0;-72.7333,19.5000;HT4110;Artibonite;Figuier
 0;-72.2833,19.3833;HT5121;Artibonite;Figuier
 0;-71.8301,18.8285;HT5321;Centre;Figuier
@@ -6441,6 +6745,7 @@
 0;-72.2431,19.6731;HT1231;Nord;Faubeau
 0;-73.4333,19.7167;HT3320;Nord-Ouest;Fatgunt
 0;-71.6500,19.1500;HT5411;Nord-Est;Faraion
+0;-72.3531,19.2250;;Artibonite;Fantaisie
 0;-72.4186,18.4789;HT6135;Ouest;Fancrelle
 0;-73.4202,19.7133;HT3320;Nord-Ouest;Faligan
 0;-72.8833,19.7500;HT3408;Nord-Ouest;Falaise
@@ -6451,6 +6756,7 @@
 0;-72.1000,19.6167;HT2320;Nord;Faible
 0;-72.7756,19.6628;HT4220;Artibonite;Faguet
 0;-72.3500,19.5667;HT1210;Artibonite;Fageol
+0;-72.3167,19.1667;;Artibonite;Facoun
 0;-71.9167,19.3833;HT2410;Nord-Est;Façonnoire
 0;-71.8485,19.3675;HT2420;Nord-Est;Face au Nord
 0;-71.7667,19.7000;HT2111;Nord-Est;Fabre
@@ -6464,6 +6770,7 @@
 0;-72.5500,19.2500;HT4130;Artibonite;Fabias
 0;-72.0333,18.8500;HT5230;Centre;Evin
 0;-72.6667,18.3333;HT6211;Ouest;Éveillard
+0;-73.1833,18.9500;;Ouest;Évangéliste
 0;-72.9483,18.8629;HT6510;Ouest;Les Étroits
 0;-73.7164,18.5556;HT7340;Nippes;Étroit
 0;-72.8333,19.9500;HT3110;Nord-Ouest;Étrier Femme
@@ -6472,6 +6779,7 @@
 0;-71.9000,19.4333;HT2410;Nord-Est;Étrennes
 0;-71.9000,19.4167;HT2410;Nord-Est;Étrenne
 0;-72.0500,19.4167;HT1430;Nord;Étienne
+0;-72.6000,18.9833;;Artibonite;Étienne
 0;-72.8000,18.3000;HT6121;Sud-Est;Étienne
 0;-73.1833,18.3833;HT7412;Nippes;Étang Rey
 0;-71.8333,18.7000;HT5330;Ouest;Étang Gros Dos
@@ -6500,10 +6808,13 @@
 0;-72.8342,20.0545;HT3122;Nord-Ouest;En Bas Morne
 0;-72.7333,20.0167;HT3121;Nord-Ouest;En Bas Mare
 0;-72.3667,19.5333;HT4510;Nord;En Bas Madame
+0;-72.3333,19.1667;;Artibonite;En Bas Lagon
+0;-72.3500,19.2167;;Artibonite;En Bas Jardin
 0;-72.5833,19.5333;HT4120;Artibonite;En Bas Figuier
 0;-72.4667,18.4500;HT6120;Ouest;En Bas de l’Eau
 0;-71.9667,19.2667;HT5140;Centre;En Bas Coudre
 0;-71.9667,19.2500;HT5140;Centre;En Bas Caimite
+0;-72.3000,19.2500;;Artibonite;En Bas Cahos
 0;-71.7667,19.4333;HT2230;Nord-Est;En Bas Buisson
 0;-73.1897,19.8389;HT3340;Nord-Ouest;En Bas
 0;-72.5444,18.3364;HT9111;Sud-Est;Embouchure
@@ -6515,6 +6826,7 @@
 0;-71.8840,19.0154;HT5130;Centre;El Bail
 0;-72.0875,18.9117;HT5230;Centre;Édouard
 0;-72.5333,18.5167;HT6160;Ouest;Écharlotte
+0;-72.3167,19.2167;;Artibonite;Eau Rameau
 0;-71.8500,19.3833;HT2420;Nord-Est;Eau Garice
 0;-72.1000,18.9833;HT5230;Centre;Eau Gaillée
 0;-72.2500,19.2167;HT5120;Centre;Eau Coupée
@@ -6573,6 +6885,7 @@
 0;-73.9500,18.5000;HT7330;Grand'Anse;Durochette
 0;-72.1167,19.4833;HT2321;Nord;Durocher
 0;-72.2782,18.9798;HT4421;Artibonite;Durocher
+0;-72.2167,18.9500;;Centre;Durocher
 0;-74.3739,18.5953;HT7221;Grand'Anse;Durocher
 0;-74.3667,18.4833;HT7210;Grand'Anse;Durocher
 0;-74.4167,18.4667;HT7210;Grand'Anse;Durocher
@@ -6724,6 +7037,7 @@
 0;-72.4500,18.9833;HT4321;Artibonite;Ducoin
 0;-72.3500,18.7667;HT6421;Ouest;Duco
 0;-72.4667,19.7667;HT1520;Nord;Duclos
+0;-73.0667,19.7167;;Nord-Ouest;Duclos
 0;-72.1000,19.5833;HT2320;Nord-Est;Duclos
 0;-72.6576,19.2807;HT4440;Artibonite;Duclos
 0;-72.6766,19.0218;HT4311;Artibonite;Duclos
@@ -6739,6 +7053,8 @@
 0;-73.9031,18.4343;HT7330;Grand'Anse;Duchity
 0;-74.1500,18.5833;HT7111;Grand'Anse;Duchène
 0;-71.9000,19.5000;HT2112;Nord-Est;Duchemin
+0;-72.2000,18.9500;;Centre;Duchemin
+0;-72.2600,19.2461;;Artibonite;Ducheine
 0;-73.2500,18.2167;HT8313;Sud;Duchat
 0;-72.7617,19.6564;HT4220;Artibonite;Du Charbe
 0;-74.3833,18.5333;HT7220;Grand'Anse;Duchaninoir
@@ -6764,6 +7080,7 @@
 0;-72.4150,19.6566;HT1611;Nord;Dubousquet
 0;-72.3000,19.5167;HT1420;Nord;Dubourg
 0;-72.6667,19.7833;HT4210;Nord;Dubosse
+0;-73.0167,19.7833;;Nord-Ouest;Dubois
 0;-72.6000,19.6167;HT1720;Artibonite;Dubois
 0;-72.4667,19.1333;HT4111;Artibonite;Dubois
 0;-72.1833,18.7333;HT6320;Centre;Dubois
@@ -6788,6 +7105,7 @@
 0;-72.1667,18.5500;HT6310;Ouest;Dube
 0;-72.5667,18.3833;HT6212;Ouest;Dube
 0;-71.9000,19.4833;HT2112;Nord-Est;Dubaros
+0;-72.2000,19.0000;;Artibonite;Dual
 0;-74.0500,18.2500;HT8411;Sud;Dual
 0;-72.5167,18.9833;HT4320;Artibonite;Drouyar
 0;-72.6914,19.2590;HT4440;Artibonite;Drouin
@@ -6833,6 +7151,7 @@
 0;-73.7500,18.3000;HT8150;Sud;Douche
 0;-72.8500,18.4000;HT6121;Ouest;Doucet
 0;-72.4667,19.0333;HT4320;Artibonite;Doublet
+0;-73.0833,18.9167;;Ouest;Double Saline
 0;-73.8167,18.3167;HT8150;Sud;Douat
 0;-72.5274,19.6687;HT1720;Nord;Douane
 0;-73.6667,18.5667;HT7521;Nippes;Douane
@@ -6864,9 +7183,11 @@
 0;-71.9167,18.2833;HT9321;Sud-Est;Dos Masse
 0;-72.5610,18.8671;HT6411;Ouest;Dos Marotte
 0;-71.8333,18.8000;HT5321;Centre;Dos Manoir
+0;-72.2500,18.9167;;Centre;Dos Malice
 0;-71.9000,18.7833;HT5310;Centre;Dos Leron
 0;-72.2000,19.1333;HT5120;Centre;Dos Latarice
 0;-72.0667,18.3167;HT9311;Sud-Est;Dos Lanni
+0;-72.3167,19.1833;;Centre;Dos l’Amour
 0;-72.7167,19.9000;HT3212;Nord-Ouest;Dos Lamarre
 0;-71.7922,18.9265;HT5320;Centre;Dos la Flor
 0;-71.9333,18.8167;HT5310;Centre;Dos Gravier
@@ -6927,6 +7248,7 @@
 0;-72.5833,18.4000;HT6212;Ouest;Domigue
 0;-72.9833,18.7833;HT6510;Ouest;Domicile
 0;-72.0500,19.5833;HT2320;Nord;Domic
+0;-72.2667,19.2333;;Artibonite;Domeran
 0;-72.0279,19.4124;HT1430;Nord;Domaille
 0;-72.4500,19.4333;HT4120;Artibonite;Dolouet
 0;-71.9525,19.0676;HT5130;Centre;Dolo
@@ -6993,6 +7315,7 @@
 0;-73.2398,19.8299;HT3340;Nord-Ouest;Diondion
 0;-73.4333,18.4667;HT7540;Nippes;Dion
 0;-72.2833,18.2333;HT9120;Sud-Est;Diomond
+0;-73.1833,18.8333;;Ouest;Dio Couri
 0;-71.9914,18.4311;HT6330;Ouest;Diobel
 0;-72.7000,18.3833;HT6211;Ouest;Diny
 0;-72.7167,18.3833;HT6211;Ouest;Dinuny
@@ -7037,10 +7360,12 @@
 0;-72.7667,19.7167;HT4210;Artibonite;Dieujuste
 0;-73.6875,18.4897;HT7520;Nippes;Dieujuste
 0;-72.1954,18.5577;HT6310;Ouest;Carrefour Dieudon
+0;-72.9333,19.7500;;Nord-Ouest;Dieubon
 0;-73.8000,18.3333;HT8150;Sud;Diète
 0;-72.1667,18.5000;HT6310;Ouest;Diéron
 0;-72.1477,19.2783;HT1440;Nord;Diépois
 0;-72.2333,18.3667;HT6150;Sud-Est;Diembo
+0;-73.0167,18.8000;;Ouest;Dielgo
 0;-72.2511,18.5089;HT6143;Ouest;Diègue
 0;-72.0475,18.4335;HT6330;Ouest;Diègue
 0;-72.4000,18.4167;HT9111;Ouest;Diègue
@@ -7049,6 +7374,7 @@
 0;-74.1975,18.5810;HT7112;Grand'Anse;Didon
 0;-74.3167,18.5167;HT5211;Grand'Anse;Didier
 0;-73.3833,18.4167;HT7540;Nippes;Didier
+0;-72.3936,19.2863;;Artibonite;Didi
 0;-72.4167,19.0000;HT4321;Artibonite;Dibitte
 0;-72.5333,18.3500;HT9111;Sud-Est;Dibiton
 0;-73.2833,19.6500;HT3320;Nord-Ouest;Diaulis
@@ -7060,6 +7386,7 @@
 0;-72.2667,18.8667;HT6421;Artibonite;Diamant
 0;-72.2362,18.3720;HT6150;Ouest;Diaguidi
 0;-73.1500,18.4667;HT7412;Nippes;Diaca
+0;-72.1631,18.3669;;Ouest;Diablette
 0;-71.8245,19.2350;HT5412;Centre;Diable Aubé
 0;-72.5303,18.3003;HT9110;Sud-Est;D’Haïti
 0;-72.5833,19.2500;HT4130;Artibonite;Dezeau
@@ -7077,6 +7404,8 @@
 0;-72.1333,18.8667;HT5210;Centre;Deux Lagons
 0;-72.8344,19.8486;HT3140;Nord-Ouest;Deux Garçons
 0;-72.6362,19.5271;HT4110;Artibonite;Deux Barrières
+0;-73.1461,18.8720;;Ouest;Deux Baleines Sud
+0;-73.1018,18.8858;;Ouest;Deux Baleines Nord
 0;-72.1500,19.7333;HT1110;Nord;Détrouille
 0;-74.2000,18.7000;HT7130;Grand'Anse;Détrit
 0;-72.1167,18.8167;HT5210;Centre;Détour
@@ -7098,6 +7427,7 @@
 0;-73.9000,18.2500;HT8122;Sud;Dessources
 0;-72.9833,18.2500;HT9220;Sud-Est;Dessources
 0;-72.5959,18.2530;HT9110;Sud-Est;Dessources
+0;-72.2500,18.8667;;Centre;Dessert
 0;-72.6167,19.1333;HT4410;Artibonite;Dessaulier
 181903;-72.5161,19.2618;HT4130;Artibonite;Dessalines
 0;-73.1990,18.3544;HT8313;Sud;Dessalines
@@ -7126,6 +7456,7 @@
 0;-72.4833,18.3167;HT9111;Sud-Est;Despines
 0;-72.2233,18.4878;HT6143;Ouest;Despinasse
 0;-73.7000,18.2500;HT8330;Sud;Despavines
+0;-73.1333,18.9167;;Ouest;Des Pauvres
 0;-72.4833,19.6167;HT1710;Nord;Despagnes
 0;-72.2000,19.7667;HT1110;Nord;D’Espagne
 0;-74.2386,18.6248;HT7130;Grand'Anse;Désormeaux
@@ -7162,6 +7493,7 @@
 0;-72.2333,19.4167;HT1410;Nord;Désir
 0;-72.5173,19.1840;HT4410;Artibonite;Désile
 0;-72.7077,19.9245;HT3212;Nord-Ouest;Desgranges
+0;-72.1500,19.0333;;Centre;Desgranges
 0;-73.8333,18.3500;HT8140;Sud;Desglacis
 0;-73.9119,18.1447;HT8230;Sud;Desglacis
 0;-73.6000,18.3667;HT8330;Sud;Desforges
@@ -7184,6 +7516,7 @@
 0;-72.5500,19.5500;HT1710;Artibonite;Des Charlote
 0;-72.4918,19.0736;HT4322;Artibonite;Deschapelles
 0;-72.4283,18.7317;HT6420;Ouest;Deschapelle
+0;-72.2803,18.9011;;Artibonite;Deschamps
 0;-74.1167,18.6000;HT7110;Grand'Anse;Deschamps
 0;-72.5833,19.7833;HT1522;Nord;Descasse
 0;-72.6496,19.2990;HT4440;Artibonite;Descareaux
@@ -7198,8 +7531,10 @@
 15594;-72.3906,18.9934;HT4321;Artibonite;Désarmes
 0;-73.1333,19.7333;HT3330;Nord-Ouest;Desabe
 0;-72.3833,18.7167;HT6420;Ouest;Derville
+0;-72.3659,19.2433;;Artibonite;Derriez
 0;-72.5833,19.5667;HT1720;Artibonite;Derriers Morne
 0;-72.4943,19.3651;HT4120;Artibonite;Derrière Zorde
+0;-72.3500,19.2667;;Artibonite;Derrière Voûte
 0;-72.6667,19.7667;HT4210;Artibonite;Derrière Morrie
 0;-71.7500,18.8667;HT5320;Centre;Derrière Morne
 0;-72.2167,18.4167;HT6150;Ouest;Derrière Morne
@@ -7250,8 +7585,10 @@
 0;-71.9491,19.1002;HT5111;Centre;Denizard
 0;-72.1128,18.9592;HT5230;Centre;Denizard
 0;-72.1000,18.8500;HT5210;Centre;Denizard
+0;-72.1667,19.0000;;Centre;Deniza
 0;-73.3167,18.4500;HT7420;Nippes;Denis
 0;-72.0538,18.7143;HT6320;Ouest;Denignon
+0;-72.3167,19.2000;;Centre;Dène
 0;-72.6972,18.2561;HT9140;Sud-Est;Dénard
 0;-72.2000,19.7167;HT1110;Nord;Dena
 0;-73.7500,18.2667;HT8110;Sud;Demuzaine
@@ -7328,6 +7665,7 @@
 0;-72.0833,18.4833;HT6330;Ouest;Deiso
 0;-73.6833,18.3833;HT8330;Sud;Deï
 0;-72.7218,19.9223;HT3212;Nord-Ouest;Dehouvray
+0;-73.1634,18.8267;;Ouest;Deheaune
 0;-72.3941,18.9794;HT4321;Artibonite;Degrave
 0;-72.3333,18.8333;HT6421;Artibonite;Degoudre
 0;-72.4735,18.9309;HT4321;Artibonite;Dégot
@@ -7358,10 +7696,14 @@
 0;-72.6958,19.5644;HT4220;Artibonite;Déclin
 0;-74.2833,18.6000;HT7140;Grand'Anse;Deck
 0;-73.6667,18.6000;HT7521;Grand'Anse;Décidou
+0;-72.9667,19.7500;;Nord-Ouest;Décidé
+0;-72.2000,19.0500;;Centre;Décidé
+0;-72.1167,19.0333;;Centre;Décidé
 0;-72.4000,18.8500;HT6421;Ouest;Décidé
 0;-74.3919,18.6211;HT7221;Grand'Anse;Décidé
 0;-74.1000,18.6167;HT7110;Grand'Anse;Décidé
 0;-72.8753,18.3258;HT6121;Ouest;Décidé
+0;-72.3000,19.2000;;Centre;Décid
 0;-72.5167,19.5667;HT1710;Artibonite;De Chayo
 0;-72.1333,18.7500;HT5210;Centre;Décès
 0;-71.9667,18.7667;HT5310;Centre;Décembre
@@ -7372,6 +7714,7 @@
 0;-72.8000,18.3333;HT6121;Sud-Est;Décan
 0;-72.5833,18.2667;HT9110;Sud-Est;Decamp
 0;-74.1333,18.6167;HT7111;Grand'Anse;Décade
+0;-72.1833,18.3333;;Sud-Est;Decabon
 0;-72.9167,18.3333;HT6121;Ouest;Debureau
 0;-71.9500,18.7667;HT5310;Centre;Debrigat
 0;-72.0667,18.7500;HT5210;Centre;Débrica
@@ -7389,6 +7732,7 @@
 0;-72.7010,19.8963;HT3212;Nord-Ouest;Débauché
 0;-73.2333,19.7667;HT3310;Nord-Ouest;Débauché
 0;-71.9405,19.4060;HT2410;Nord-Est;Débauche
+0;-72.2809,19.2946;;Artibonite;Débauché
 0;-72.3333,19.1167;HT4421;Artibonite;Débauché
 0;-73.7167,18.5333;HT7340;Nippes;Débauché
 0;-74.0833,18.5000;HT7320;Grand'Anse;Débauché
@@ -7419,6 +7763,7 @@
 0;-72.4833,19.3167;HT4130;Artibonite;Dave
 0;-72.2734,19.6737;HT1310;Nord;Daut
 0;-72.4598,19.0152;HT4320;Artibonite;Dauphine
+0;-72.6590,18.9682;;Artibonite;Dauphine
 0;-72.5759,19.5423;HT4120;Artibonite;Dauphin
 0;-72.7336,19.2584;HT4430;Artibonite;Dauphin
 0;-72.5333,19.7000;HT1720;Nord;Daugy
@@ -7434,6 +7779,7 @@
 0;-73.7167,18.3500;HT8150;Sud;Dasna
 0;-73.3500,18.2667;HT8311;Sud;Dasing
 0;-74.2167,18.5167;HT7140;Grand'Anse;Dasignac
+0;-72.3000,19.1833;;Artibonite;Daromain
 0;-73.0333,18.3000;HT7411;Grand'Anse;Dariole
 0;-72.6333,19.8000;HT1522;Nord;Daribot
 0;-72.2233,18.5875;HT6310;Ouest;Dargout
@@ -7486,6 +7832,7 @@
 0;-73.9833,18.3500;HT8140;Sud;Dales
 0;-73.3167,18.4833;HT7420;Nippes;Dalérle
 0;-72.5000,19.6333;HT1710;Nord;Dalas
+0;-72.2918,19.1982;;Artibonite;Dahomey
 0;-73.6411,18.4264;HT7520;Grand'Anse;Dagou
 0;-73.0000,18.8167;HT6510;Ouest;Dados
 0;-72.6333,18.2667;HT9140;Sud-Est;Dade
@@ -7498,6 +7845,7 @@
 0;-73.8000,18.2333;HT8160;Sud;Dabarelle
 0;-73.6304,18.2516;HT8330;Sud;Cyrille
 0;-74.1000,18.5833;HT7110;Grand'Anse;Cyrac
+0;-72.6985,18.9582;;Ouest;Cuyo
 0;-72.3500,18.9167;HT4321;Artibonite;Cuvier
 0;-72.1833,18.5833;HT6310;Ouest;Cuvier
 0;-72.2731,19.5109;HT1420;Nord;Cusson
@@ -7539,6 +7887,7 @@
 0;-71.8667,18.8667;HT5310;Centre;Crapaud
 0;-73.6167,18.3000;HT8330;Sud;Crapa
 0;-72.0544,19.3840;HT1430;Nord;Cracaraille
+0;-72.6000,18.9667;;Artibonite;Crabinaille
 0;-73.8167,18.0667;HT8220;Sud;Crabier
 0;-72.6167,19.7167;HT4210;Artibonite;Covin
 0;-72.6667,19.6833;HT4210;Artibonite;Covin
@@ -7589,6 +7938,7 @@
 0;-72.4424,18.4740;HT6120;Ouest;Coupeau
 0;-72.4667,19.2667;HT4410;Artibonite;Coupe à Limbe
 0;-72.1000,19.2667;HT1440;Nord;Coupeal
+0;-72.3667,19.2167;;Artibonite;Coundou
 0;-72.1167,19.5000;HT2321;Nord;Counaucou
 0;-72.1500,18.3833;HT9311;Ouest;Couma
 0;-72.0667,18.8833;HT5230;Centre;Coulon
@@ -7644,6 +7994,7 @@
 0;-74.0333,18.4667;HT7330;Grand'Anse;Corno
 0;-72.1167,19.4333;HT1430;Nord;Cornivette
 7572;-71.9527,18.6755;HT6330;Ouest;Cornillon
+0;-72.1667,18.9500;;Centre;Cornel Noël
 0;-72.4930,19.7539;HT1520;Nord;Corneille
 0;-73.9167,18.5000;HT7330;Grand'Anse;Corneille
 0;-72.2265,19.7823;HT1110;Nord;Cormier
@@ -7784,6 +8135,7 @@
 0;-71.7667,18.7333;HT5330;Centre;Cologne
 0;-72.7500,19.9333;HT3111;Nord-Ouest;Colo Chambeau
 0;-72.7000,19.1833;HT4310;Artibonite;Colminy
+0;-73.0578,19.6919;;Artibonite;Colline Ti Jean
 0;-71.9048,18.2404;HT9321;Sud-Est;Colline des Chênes
 0;-72.4534,18.3131;HT9111;Sud-Est;Colline Cochon Gras
 0;-72.6000,19.0000;HT4322;Artibonite;Colline
@@ -7845,6 +8197,7 @@
 0;-73.6724,18.3464;HT8330;Sud;Clonard
 0;-73.7000,18.3333;HT8330;Sud;Cloma
 0;-74.2167,18.6667;HT7130;Grand'Anse;Clisan
+0;-72.3500,19.1500;;Artibonite;Cléto
 0;-73.2833,18.4333;HT7420;Nippes;Cléry
 0;-72.3592,19.4355;HT5121;Artibonite;Clervaux
 0;-72.4500,19.1667;HT4111;Artibonite;Clérot
@@ -7917,7 +8270,9 @@
 0;-72.2971,18.8382;HT6421;Centre;Chien Dent
 0;-73.7822,18.5047;HT7340;Grand'Anse;Chiendent
 0;-73.8692,18.0264;HT8210;Sud;Chiedent
+0;-72.2333,19.0667;;Centre;Chicot
 0;-73.7000,18.2833;HT8330;Sud;Chicot
+0;-73.0874,18.7991;;Ouest;Chic Kata
 0;-72.6333,19.8000;HT1522;Nord;Chicane
 0;-72.7000,19.8333;HT3212;Nord-Ouest;Chica
 0;-74.0500,18.5500;HT7320;Grand'Anse;Chevry
@@ -7973,6 +8328,7 @@
 0;-73.8167,18.3833;HT8150;Sud;Chaumette
 0;-73.5833,18.2333;HT8320;Sud;Chaumette
 0;-72.3851,18.4490;HT6131;Ouest;Chauffard
+0;-72.1861,18.3195;;Sud-Est;Chaudry
 0;-72.6319,18.5189;HT6210;Ouest;Chatulet
 0;-72.1552,19.7307;HT1110;Nord;Chatte Noire
 0;-72.7000,19.0333;HT4311;Artibonite;Chattelos
@@ -8042,6 +8398,7 @@
 0;-72.0833,18.5833;HT6330;Ouest;Chapotin
 0;-72.2439,18.4814;HT6143;Ouest;Chapotin
 0;-71.7833,18.3167;HT9330;Ouest;Chapotin
+0;-71.7167,18.3167;;Sud-Est;Chapotin
 0;-72.0000,18.9000;HT5230;Centre;Chapoteau
 0;-72.2667,18.6333;HT6312;Ouest;Chapini
 0;-72.9833,19.7000;HT4230;Artibonite;Chapineau
@@ -8096,6 +8453,7 @@
 0;-72.4333,18.9667;HT4321;Artibonite;Challet
 0;-73.5000,18.3000;HT8320;Sud;Challeau
 0;-73.8403,18.1619;HT8120;Sud;Chalette
+0;-72.2667,19.1333;;Centre;Chalet Rond
 0;-72.5167,18.4333;HT6212;Ouest;Chalatte
 0;-74.3479,18.6060;HT7221;Grand'Anse;Chajotte
 0;-73.3667,18.4333;HT7540;Ouest;Chaiumeau
@@ -8139,6 +8497,7 @@
 0;-72.3125,19.6981;HT1310;Nord;Cercaville
 2792;-71.7901,19.1670;HT5410;Centre;Cerca la Source
 0;-71.8667,19.0167;HT5420;Centre;Cerca Ebré
+0;-72.3333,19.2667;;Artibonite;Cercadille
 0;-72.0396,19.3077;HT1450;Nord;Cercadie
 0;-71.8158,19.0009;HT5420;Centre;Cercadie
 0;-71.9386,19.2696;HT5140;Centre;Cerca Carvajal
@@ -8157,6 +8516,7 @@
 0;-71.8333,18.2667;HT9330;Sud-Est;Cécilio
 0;-72.6333,19.6833;HT4210;Artibonite;Cazimir
 0;-71.9167,19.5000;HT2130;Nord-Est;Cazeau
+0;-72.3667,19.2833;;Artibonite;Cazeau
 0;-72.4833,18.9667;HT4320;Artibonite;Cazeau
 0;-72.2935,18.5871;HT6125;Ouest;Cazeau
 0;-72.3333,18.4500;HT6146;Ouest;Cazeau
@@ -8308,6 +8668,7 @@
 0;-73.8000,18.2333;HT8160;Sud;Carrefour Kanse
 0;-73.8522,18.1148;HT8220;Sud;Joute
 0;-72.0833,18.6167;HT6320;Ouest;Carrefour Jouanau
+0;-72.2774,19.1765;;Artibonite;Carrefour Joseph
 0;-72.6500,19.4833;HT4110;Artibonite;Carrefour Joffre
 0;-72.2500,19.6500;HT1220;Nord;Carrefour Jean Michel
 0;-72.1667,19.6167;HT1230;Nord;Carrefour Jean Bernard
@@ -8380,6 +8741,7 @@
 0;-72.0753,19.1242;HT5110;Centre;Carissade
 0;-71.8833,18.6833;HT6330;Ouest;Carion
 2104;-71.8303,19.3779;HT2420;Nord-Est;Carice
+0;-72.3918,19.2653;;Artibonite;Caressé
 0;-72.6833,20.0000;HT3121;Nord-Ouest;Carénage
 0;-73.3500,19.8000;HT3320;Nord-Ouest;Carénage
 0;-72.9550,19.5932;HT4230;Artibonite;Carénage
@@ -8400,6 +8762,7 @@
 0;-71.9500,18.9167;HT5230;Centre;Caracol
 0;-71.6667,19.1500;HT5411;Centre;Carabonique
 0;-71.9667,19.1000;HT5111;Centre;Caraba
+0;-72.2333,18.9833;;Centre;Capucins
 0;-72.6703,19.9144;HT3211;Nord-Ouest;Cap Rouge
 0;-72.4500,18.3000;HT9111;Sud-Est;Cap Rouge
 0;-73.9371,18.2250;HT8122;Sud;Caprou
@@ -8542,6 +8905,7 @@
 0;-73.8139,18.0256;HT8220;Sud;Caloban
 0;-72.5167,19.0333;HT4322;Artibonite;Calmony
 0;-72.7500,19.7500;HT4210;Artibonite;Calmite
+0;-73.0534,18.8507;;Ouest;Calmadère
 0;-72.2421,19.2307;HT5120;Centre;Callebassier
 0;-72.1167,18.7167;HT6320;Centre;Callebassie
 0;-72.7167,18.3667;HT6211;Ouest;Calile Charles
@@ -8549,12 +8913,16 @@
 0;-72.0167,18.4000;HT9311;Ouest;Califerme
 0;-72.2352,18.4527;HT6150;Ouest;Califèbe
 0;-73.2833,18.4333;HT7420;Nippes;Calico
+0;-72.1936,18.3425;;Sud-Est;Calice
+0;-73.0461,19.8444;;Nord-Ouest;Ca l’Étang
 0;-73.0614,19.8311;HT3340;Nord-Ouest;Ca l’Étang
+0;-73.0355,18.8487;;Ouest;Ca Léon
 0;-74.2833,18.6333;HT7120;Grand'Anse;Calema
 0;-72.9517,19.8993;HT3408;Nord-Ouest;Calebassier
 0;-73.2167,19.8667;HT3340;Nord-Ouest;Calebassier
 0;-72.5333,19.7167;HT1720;Nord;Calebassier
 0;-72.1667,19.1500;HT5120;Centre;Calebassier
+0;-72.2500,18.7667;;Ouest;Calebasse
 0;-72.2667,18.4500;HT6150;Ouest;Calebasse
 0;-74.0667,18.2667;HT8411;Sud;Calebasse
 0;-73.2200,19.8795;HT3340;Nord-Ouest;Calbassier
@@ -8581,6 +8949,7 @@
 0;-72.0833,18.9833;HT5230;Centre;Ca Joufran
 0;-72.2432,19.2051;HT5120;Centre;Cajou Brûlé
 0;-72.3000,19.3333;HT5121;Artibonite;Cajou
+0;-72.2333,19.0333;;Centre;Cajou
 0;-73.5833,18.2167;HT8320;Sud;Cajou
 0;-72.7000,18.2000;HT9210;Sud-Est;Cajou
 0;-72.4993,19.4991;HT4120;Artibonite;Ca Joseph
@@ -8612,6 +8981,7 @@
 0;-72.7450,18.2800;HT9140;Sud-Est;Caille Pierre
 0;-74.3333,18.6667;HT7120;Grand'Anse;Caille Maron
 0;-72.7423,18.2574;HT9140;Sud-Est;Caille Laurent
+0;-72.2432,19.0220;;Centre;Caille Jour
 0;-72.1167,19.3833;HT1430;Nord;Caille Ganot
 0;-73.3230,19.7108;HT3320;Nord-Ouest;Caille Flide
 0;-72.2667,19.3833;HT5121;Artibonite;Caille Encerclée
@@ -8638,6 +9008,7 @@
 0;-73.9233,18.1144;HT8230;Sud;Ca Gauthier
 0;-72.6800,18.2068;HT9140;Sud-Est;Ca Gars
 0;-72.1333,18.2333;HT9310;Sud-Est;Cagareau
+0;-73.0544,19.7667;;Nord-Ouest;Ca Fourré
 0;-72.0000,18.4333;HT6330;Ouest;Ca Fourmi
 0;-72.3362,19.5269;HT4510;Artibonite;Ca Fort
 0;-73.5051,18.2522;HT8320;Sud;Ca Folie
@@ -8679,11 +9050,14 @@
 0;-72.3000,18.2667;HT9120;Sud-Est;Cadel
 0;-72.6023,19.1878;HT4410;Artibonite;Cadeau
 0;-72.6000,19.0000;HT4322;Artibonite;Ca Day
+0;-72.2480,18.7554;;Ouest;Ca Damier
+0;-72.2113,18.9969;;Centre;Ca Dafirme
 0;-72.1000,19.5000;HT2321;Nord;Cacoyer
 0;-72.0667,18.4500;HT6330;Ouest;Ca Covlo
 0;-71.9000,19.4333;HT2410;Nord-Est;Ca Coute
 0;-72.2667,18.5167;HT6140;Ouest;Cacouille
 0;-73.6925,18.1051;HT8110;Sud;KaKok
+0;-73.6667,18.0667;;Sud;Ca Coq
 0;-72.3167,18.2333;HT9120;Sud-Est;Ca Concite
 0;-73.2085,18.4341;HT7420;Nippes;Ca Comte
 0;-72.5518,18.9290;HT6411;Ouest;Ca Compte
@@ -8731,6 +9105,7 @@
 0;-72.4000,19.4333;HT5121;Artibonite;Cabia
 0;-72.0000,18.8667;HT5230;Centre;Cabestor
 0;-73.3955,18.5054;HT7530;Nippes;Ca Berthe
+0;-72.2833,19.2500;;Artibonite;Cabelle
 0;-72.6616,18.2611;HT9140;Sud-Est;Ca Bellande
 0;-74.1167,18.2667;HT8420;Sud;Cabei
 0;-71.9154,19.1170;HT5111;Centre;Caba Soleil
@@ -8832,6 +9207,7 @@
 0;-72.1000,18.7833;HT5210;Centre;Bresète
 0;-72.1500,18.5833;HT6310;Ouest;Brene
 0;-72.0244,18.7442;HT6330;Centre;Brémont
+0;-72.1500,18.4000;;Ouest;Brémont
 0;-72.1667,19.6167;HT1230;Nord;Brémond
 0;-72.5070,18.2341;HT9110;Sud-Est;Brémant
 0;-72.4298,18.3286;HT9111;Sud-Est;Bréman
@@ -8868,12 +9244,15 @@
 0;-74.4500,18.4500;HT7230;Grand'Anse;Boyer
 0;-73.8067,18.0576;HT8220;Sud;Boyer
 0;-72.8333,18.3333;HT6121;Ouest;Box Indis
+0;-73.0500,18.8167;;Ouest;Bouzillette
 0;-72.2667,18.7167;HT6312;Ouest;Bouzi
 0;-72.2000,18.7000;HT6312;Ouest;Bouzi
 0;-73.2927,18.3724;HT8313;Nippes;Bouzi
 0;-72.1667,19.3333;HT1440;Nord;Bouyaha
+0;-72.2500,18.7667;;Centre;Bouvier
 0;-72.4167,18.4500;HT6135;Ouest;Bouvier
 0;-72.8167,19.5500;HT4220;Artibonite;Bouvard
+0;-73.6167,18.0833;;Sud;Boutte
 0;-73.1500,18.3667;HT7411;Grand'Anse;Bouton
 0;-72.4833,19.4667;HT4120;Artibonite;Boutique
 0;-72.7333,19.6500;HT4210;Artibonite;Boutin
@@ -8885,6 +9264,7 @@
 0;-73.3667,18.3000;HT8310;Sud;Bousson
 0;-73.7167,18.3167;HT8330;Sud;Bousseau
 0;-74.1336,18.2645;HT8510;Sud;Bousquet
+0;-73.0862,18.8656;;Ouest;Bousinette
 0;-72.2000,18.7667;HT5210;Centre;Boury
 0;-73.8000,18.1833;HT8120;Sud;Boury
 0;-73.8667,18.0731;HT8210;Sud;Boury
@@ -8924,6 +9304,7 @@
 0;-71.9000,19.0667;HT5420;Centre;Bouloune
 0;-73.7051,18.2655;HT8330;Sud;Boulmier
 0;-72.5546,19.1772;HT4410;Artibonite;Boulin
+0;-72.2084,19.0125;;Centre;Bouli
 0;-72.0833,19.5000;HT2321;Nord;Boulet
 0;-73.5333,18.2500;HT8320;Sud;Boule
 0;-73.8667,18.2333;HT8122;Sud;Boulé
@@ -8947,6 +9328,7 @@
 0;-71.7333,19.4667;HT2220;Nord-Est;Boujote
 0;-72.6500,18.4000;HT6211;Ouest;Boujoi
 0;-72.5333,19.3833;HT4130;Artibonite;Bouilli
+0;-72.3333,19.1833;;Artibonite;Bougognier
 0;-73.8000,18.3500;HT8150;Sud;Bouffard
 0;-73.2000,18.3000;HT8313;Sud;Bouese
 0;-73.1139,19.8678;HT3340;Nord-Ouest;Boue Flette
@@ -8972,6 +9354,7 @@
 0;-72.6533,18.2742;HT9140;Sud-Est;Bouchereau
 0;-72.2833,19.5667;HT1220;Nord;Boucher
 0;-73.8214,18.3343;HT8150;Sud;Boucher
+0;-72.6167,18.9500;;Ouest;Bouceau
 0;-72.0833,19.0500;HT5110;Centre;Boucanyona
 0;-73.8167,18.4000;HT8150;Grand'Anse;Boucan Tuffe
 0;-71.8090,18.2012;HT9330;Sud-Est;Boucan Tonton
@@ -8982,6 +9365,7 @@
 0;-72.0500,19.0333;HT5130;Centre;Boucantal
 0;-72.0333,18.8667;HT5230;Centre;Boucan Tache
 0;-72.4369,18.3783;HT9111;Sud-Est;Boucan Tache
+0;-72.2833,19.2167;;Artibonite;Boucan Sannite
 0;-72.8333,18.8000;HT6510;Ouest;Boucan Risqué
 0;-72.6333,19.6667;HT4210;Artibonite;Boucan Richard
 0;-71.7827,19.2664;HT5412;Nord-Est;Boucan Puce
@@ -9017,11 +9401,14 @@
 0;-72.0962,18.4232;HT6330;Ouest;Boucan Greffin
 0;-72.0586,18.3936;HT9311;Ouest;Boucan Greffin
 0;-72.2667,19.4167;HT5121;Artibonite;Boucan Giraumon
+0;-73.0153,19.7347;;Artibonite;Boucan Filsaimé
+0;-71.7133,18.3373;;Ouest;Boucan Ferdinand
 0;-72.1000,18.5000;HT6330;Ouest;Boucan Drice
 0;-72.4667,18.2833;HT9111;Sud-Est;Boucan Diane
 0;-72.0758,18.3548;HT9311;Ouest;Boucan d'Anjou
 0;-72.6970,19.8590;HT3212;Nord-Ouest;Boucan Chique
 0;-71.7500,18.3167;HT9330;Sud-Est;Boucan Chatte
+0;-72.2000,18.9667;;Centre;Boukan Kare
 0;-72.1472,18.9250;HT5210;Centre;Boucan Carré
 0;-72.9333,18.7500;HT6510;Ouest;Boucan Caché
 0;-72.2167,18.6167;HT6310;Ouest;Boucanbrou
@@ -9031,14 +9418,17 @@
 0;-72.8167,18.7333;HT5220;Ouest;Boucan à Lait
 0;-72.5333,19.4167;HT4120;Artibonite;Boucan
 0;-72.2667,19.4167;HT5121;Artibonite;Boucan
+0;-72.5978,18.9514;;Ouest;Boucan
 0;-72.3872,18.8617;HT6421;Ouest;Boucan
 0;-74.3333,18.5167;HT7150;Grand'Anse;Boucan
 0;-74.3552,18.5010;HT7150;Grand'Anse;Boucan
 0;-72.9000,18.3667;HT6121;Ouest;Boucan
 0;-73.5167,18.3333;HT8320;Sud;Boucan
 0;-73.9333,18.2000;HT8130;Sud;Boucan
+0;-73.6333,18.0667;;Sud;Boucan
 0;-72.3303,18.4286;HT6150;Ouest;Boucambour
 0;-72.7833,18.3000;HT6121;Ouest;Boucalou
+0;-72.3500,19.1833;;Artibonite;Boubier
 0;-72.4500,19.0167;HT4320;Artibonite;Boubet
 0;-71.7833,18.8667;HT5320;Centre;Botoncy
 0;-71.8362,18.9181;HT5320;Centre;Bota la Pluie
@@ -9053,6 +9443,7 @@
 0;-73.2000,18.3167;HT8313;Sud;Bosse
 0;-72.2000,19.6667;HT1231;Nord;Bossa
 0;-72.4667,19.4333;HT4120;Artibonite;Bossa
+0;-72.2667,18.9000;;Artibonite;Bosou
 0;-72.0833,18.9000;HT5230;Centre;Bosiaux
 0;-71.8667,19.6000;HT2110;Nord-Est;Bory
 0;-73.6000,18.4000;HT7520;Sud;Bory
@@ -9066,6 +9457,7 @@
 0;-72.4000,19.7500;HT1620;Nord;Bori
 0;-71.7833,19.5167;HT2210;Nord-Est;Bori
 0;-72.5503,18.5506;HT6160;Ouest;Borgne
+0;-73.7333,18.6500;;Grand'Anse;Borgella
 0;-73.8167,18.2500;HT8160;Sud;Borgella
 0;-73.8332,18.2151;HT8121;Sud;Borgella
 0;-72.4954,19.1017;HT4111;Artibonite;Borel
@@ -9121,6 +9513,7 @@
 0;-72.0667,19.6000;HT2320;Nord;Bonet
 0;-73.7000,18.4833;HT7520;Nippes;Bondance
 0;-74.1167,18.5500;HT7111;Grand'Anse;Boncy
+0;-72.3500,19.2000;;Centre;Bonbongnin
 0;-73.2000,19.7500;HT3310;Nord-Ouest;Bommolle
 0;-72.7022,18.2025;HT9210;Sud-Est;Bommier
 0;-72.8667,18.1667;HT9210;Sud-Est;Bommier
@@ -9136,6 +9529,7 @@
 0;-72.3333,18.8500;HT6421;Artibonite;Bois Vert
 0;-72.9500,18.3167;HT6220;Ouest;Bois Vert
 0;-71.9422,19.3883;HT2430;Nord-Est;Bois Verna
+0;-73.0459,18.7684;;Ouest;Bois Verna
 0;-72.3333,18.8500;HT6421;Artibonite;Bois Véa
 0;-74.2833,18.3667;HT8520;Sud;Bois Trempé
 0;-72.0500,18.8167;HT5210;Centre;Bois Tortu
@@ -9155,6 +9549,7 @@
 0;-71.8414,19.3528;HT2420;Nord-Est;Bois Rouge
 0;-71.8833,19.2000;HT5111;Centre;Bois Rouge
 0;-72.2167,19.1167;HT5120;Centre;Bois Rouge
+0;-72.1469,19.0304;;Centre;Bois Rouge
 0;-71.9000,18.7833;HT5310;Centre;Bois Rouge
 0;-72.1136,18.3946;HT9311;Ouest;Bois Rouge
 0;-73.8333,18.3500;HT8140;Sud;Boisrond
@@ -9170,7 +9565,9 @@
 0;-71.8833,18.8667;HT5310;Centre;Bois Pins
 0;-72.0756,18.3486;HT9311;Ouest;Bois Pins
 0;-71.8167,18.9333;HT5320;Centre;Bois Pin Pose
+0;-72.2000,18.3167;;Sud-Est;Bois Pinpince
 0;-71.8500,18.9333;HT5320;Centre;Bois Pin Nègre
+0;-72.1833,18.3333;;Sud-Est;Bois Pin Marron
 0;-71.8000,18.9167;HT5320;Centre;Bois Pin L’Orage
 0;-72.2439,18.3230;HT9120;Sud-Est;Bois Pin Jean Noël
 0;-71.6833,19.1833;HT5410;Centre;Boispin Guêpe
@@ -9181,6 +9578,7 @@
 0;-72.0333,19.4833;HT2321;Nord;Bois Pin
 0;-72.2667,19.4667;HT5121;Artibonite;Bois Pin
 0;-71.9000,18.8500;HT5310;Centre;Bois Pin
+0;-73.0167,18.8000;;Ouest;Bois Pin
 0;-72.9461,18.7669;HT6510;Ouest;Bois Pin
 0;-71.8167,18.7500;HT5330;Centre;Bois-Pin
 0;-72.2000,18.5000;HT6143;Ouest;Bois Pin
@@ -9204,6 +9602,7 @@
 0;-72.3500,19.4667;HT4510;Artibonite;Bois Neuf
 0;-72.4191,19.3984;HT5121;Artibonite;Bois Neuf
 0;-71.7833,19.3500;HT2420;Nord-Est;Bois Neuf
+0;-72.3167,19.1500;;Centre;Bois Neuf
 0;-72.7636,19.0161;HT4311;Artibonite;Bois Neuf
 0;-72.7454,19.0207;HT4311;Artibonite;Bois Neuf
 0;-74.2500,18.6333;HT7130;Grand'Anse;Bois Neuf
@@ -9301,6 +9700,8 @@
 0;-72.1833,18.2667;HT9310;Sud-Est;Bois de Lenthel
 0;-71.8625,19.3281;HT2431;Nord-Est;Bois Laurence
 0;-72.0500,19.4167;HT1430;Nord;Bois de Lance
+0;-72.3500,19.2333;;Artibonite;Bois de Lance
+0;-72.3167,19.1500;;Centre;Bois de Lance
 0;-72.0167,18.3167;HT9311;Sud-Est;Bois de Lance
 0;-74.1261,18.3617;HT8511;Sud;Bois Délai
 0;-72.6500,19.3333;HT4440;Artibonite;Bois Dehors
@@ -9350,6 +9751,7 @@
 0;-72.9890,18.8246;HT6510;Ouest;Bois Brûlé
 0;-72.5000,18.8167;HT6411;Ouest;Bois Brulé
 0;-72.8986,18.7887;HT6510;Ouest;Bois Brûlé
+0;-73.5833,18.0500;;Sud;Bois Boutou
 0;-72.6574,19.6048;HT4210;Artibonite;Bois Boulé
 0;-73.6019,18.4344;HT7520;Nippes;Bois Boulé
 0;-72.1833,18.4500;HT6150;Ouest;Bois Boulalile
@@ -9363,6 +9765,7 @@
 0;-74.0167,18.2833;HT8411;Sud;Bois Blanc
 0;-73.4333,18.2833;HT8310;Sud;Bois Blanc
 0;-72.4937,18.2330;HT9110;Sud-Est;Bois Bayard
+0;-72.3000,19.2333;;Artibonite;Bois Baraille
 0;-72.5043,18.9455;HT4321;Ouest;Bois
 0;-73.4333,18.3167;HT8310;Sud;Boirond
 0;-73.1855,18.3039;HT8313;Sud;Boirond
@@ -9378,8 +9781,10 @@
 0;-73.7000,18.4000;HT8150;Sud;Bodonique
 0;-71.8833,19.6500;HT2331;Nord-Est;Bodin
 0;-72.5562,19.6055;HT1720;Artibonite;Bodin
+0;-73.2710,18.8909;;Ouest;Bodin
 0;-72.7003,18.3078;HT9140;Ouest;Bodin
 0;-72.5714,18.2700;HT9110;Sud-Est;Bodin
+0;-72.2239,18.9269;;Centre;Bodian
 0;-72.2128,18.9100;HT5210;Centre;Bodian
 0;-72.5833,19.7333;HT1720;Nord;Bodasse
 0;-72.3333,18.2500;HT9120;Sud-Est;Bodary
@@ -9433,6 +9838,7 @@
 0;-72.9208,18.3284;HT6121;Ouest;Bistouri
 0;-72.9156,18.3123;HT6121;Ouest;Bistouri
 0;-73.5681,18.4014;HT7510;Sud;Biston
+0;-73.1500,18.2167;;Sud;Bisserette
 0;-72.1833,19.4000;HT1410;Nord;Bissaintique
 0;-71.9500,18.8500;HT5310;Centre;Bissainthe
 0;-72.6946,19.7709;HT4210;Artibonite;Biscaye
@@ -9446,6 +9852,7 @@
 0;-73.9221,18.1259;HT8230;Sud;Binto
 0;-72.6000,19.7167;HT1720;Nord;Binot
 0;-72.6333,18.4833;HT6210;Ouest;Binot
+0;-72.2500,19.0500;;Artibonite;Bino
 0;-72.3894,19.7320;HT1610;Nord;Binguy
 0;-72.9167,18.4333;HT6220;Ouest;Bineau Noire
 0;-72.9333,18.4333;HT6220;Ouest;Bineau Blanche
@@ -9461,6 +9868,8 @@
 0;-73.8000,18.4833;HT7340;Grand'Anse;Billard
 0;-73.4000,18.4667;HT7540;Nippes;Billard
 0;-72.1500,19.6333;HT1130;Nord;Biley
+0;-72.4333,19.2833;;Artibonite;Bijou
+0;-72.4270,19.2958;;Artibonite;Bijon
 0;-72.5833,19.6833;HT1720;Nord;Bigot
 0;-72.6500,19.4500;HT4110;Artibonite;Bigot
 0;-72.6667,19.4333;HT4110;Artibonite;Bigot
@@ -9471,6 +9880,8 @@
 0;-71.9500,19.4333;HT2410;Nord-Est;Bigandie
 0;-71.9167,18.9667;HT5130;Centre;Bigaille
 0;-72.3000,18.3667;HT6150;Ouest;Bievenue
+0;-72.2627,19.1115;;Artibonite;Bien Placé
+0;-72.2500,18.9000;;Artibonite;Bien Placé
 0;-72.2333,18.8833;HT5210;Centre;Bien Placé
 0;-72.1667,18.7500;HT5210;Centre;Bien Placé
 0;-73.8553,18.5514;HT7310;Grand'Anse;Bienfaisant
@@ -9545,6 +9956,8 @@
 0;-72.2000,18.4167;HT6150;Ouest;Bernard
 0;-73.3000,18.4000;HT8313;Nippes;Bernard
 0;-72.5843,18.3654;HT6211;Ouest;Bernard
+0;-72.1667,18.3333;;Ouest;Bernard
+0;-73.6500,18.0667;;Sud;Bernard
 0;-72.8000,18.2500;HT9210;Sud-Est;Bernaleau
 0;-73.8582,18.5412;HT7310;Grand'Anse;Bernagousse
 0;-72.7667,19.7333;HT4210;Artibonite;Bernado
@@ -9585,6 +9998,7 @@
 0;-72.0667,18.9667;HT5230;Centre;Bento
 0;-74.0983,18.2654;HT8420;Sud;Benoit
 0;-72.8000,18.2000;HT9210;Sud-Est;Benoît
+0;-72.2500,19.2667;;Artibonite;Benoil
 0;-72.8167,19.7500;HT3140;Artibonite;Benjamin
 0;-72.5000,19.5667;HT1710;Nord;Benjamin
 0;-72.1830,19.1459;HT5120;Centre;Benjamin
@@ -9641,6 +10055,7 @@
 0;-72.3000,19.4833;HT5121;Nord;Bellevue
 0;-72.1167,19.4667;HT1430;Nord-Est;Bellevue
 0;-72.6621,19.3328;HT4440;Artibonite;Bellevue
+0;-72.3500,19.2833;;Artibonite;Bellevue
 0;-72.6314,19.0703;HT4310;Artibonite;Bellevue
 0;-72.1133,18.8897;HT5210;Centre;Bellevue
 0;-74.1667,18.6500;HT7111;Grand'Anse;Bellevue
@@ -9681,6 +10096,7 @@
 0;-71.9691,19.5323;HT2130;Nord-Est;Bellery
 0;-73.2667,18.4500;HT7420;Nippes;Belle Roche
 0;-72.3000,18.2333;HT9120;Sud-Est;Belle Roche
+0;-73.1667,18.9167;;Ouest;Belle Platon
 0;-74.3500,18.5667;HT7150;Grand'Anse;Belle Maison
 0;-72.3500,19.7167;HT1610;Nord;Belle Hôtesse
 0;-72.4667,19.4500;HT4120;Artibonite;Belle Hôtesse
@@ -9693,6 +10109,7 @@
 0;-72.4833,18.4333;HT6212;Ouest;Belle Fortune
 0;-72.1330,18.4517;HT6330;Ouest;Belle Fontaine
 0;-72.3167,18.3667;HT6150;Ouest;Belle Fontaine
+0;-72.1822,18.9943;;Centre;Belle Épée
 0;-74.1800,18.2895;HT8510;Sud;Belle Dent
 0;-72.8833,18.3667;HT6121;Ouest;Bellecone
 0;-71.9500,19.1000;HT5111;Centre;Belle Branche
@@ -9722,6 +10139,7 @@
 0;-72.0665,18.4729;HT6330;Ouest;Bel Fond
 0;-71.9667,19.5333;HT2130;Nord-Est;Belery
 0;-74.2167,18.3500;HT8520;Sud;Béléo
+0;-72.2417,18.9094;;Centre;Belbède
 0;-73.8500,18.2000;HT8121;Sud;Bel Arbre
 0;-72.3000,18.4667;HT6146;Ouest;Belangnin
 0;-72.1000,18.3167;HT9311;Sud-Est;Beland
@@ -9757,15 +10175,18 @@
 0;-72.2500,19.4667;HT1410;Artibonite;Bedouet
 0;-72.3833,19.4500;HT5121;Artibonite;Bedouet
 0;-72.3000,19.4333;HT5121;Artibonite;Bedouet
+0;-72.2500,18.8333;;Centre;Bedouet
 0;-71.7000,19.4833;HT2220;Nord-Est;Bedou
 0;-72.4500,19.5833;HT1710;Nord;Bedoret
 0;-73.6533,18.2821;HT8330;Sud;Bedo
 0;-71.9210,18.9063;HT5310;Centre;Bedine
 0;-73.4000,18.3833;HT7540;Nippes;Bédime
 0;-71.8500,19.6000;HT2110;Nord-Est;Bedan
+0;-72.3667,19.3000;;Artibonite;Bécanta
 0;-73.3000,19.7000;HT3320;Nord-Ouest;Bébé
 0;-73.3167,19.6667;HT3320;Nord-Ouest;Bébé
 0;-72.7134,19.7270;HT4210;Artibonite;Beauvoir
+0;-72.2333,18.7667;;Ouest;Beauvoir
 0;-73.2167,19.8000;HT3340;Nord-Ouest;Beauvais
 0;-73.2667,19.6667;HT3330;Nord-Ouest;Beautesse
 0;-72.4167,19.6667;HT1611;Nord;Beau Soleil
@@ -9802,6 +10223,7 @@
 0;-72.3833,19.4667;HT4510;Artibonite;Beaudin
 0;-73.9667,18.2333;HT8430;Sud;Beauclos
 0;-72.9817,19.8114;HT3408;Nord-Ouest;Beauchamp
+0;-73.0167,19.7500;;Nord-Ouest;Beauchamp
 0;-73.2167,19.7000;HT3330;Nord-Ouest;Beauchamp
 0;-74.2020,18.5980;HT7112;Grand'Anse;Beaucalin
 0;-72.6000,19.7667;HT1522;Nord;Beaubrun
@@ -9827,6 +10249,7 @@
 0;-72.6000,19.8500;HT3220;Nord;Bayon
 0;-72.3833,19.7833;HT1620;Nord;Bayon
 0;-72.4321,19.8080;HT1521;Nord;Bayeux
+0;-73.7333,18.6833;;Grand'Anse;Bayeux
 0;-72.9000,18.3833;HT6121;Ouest;Bayere
 0;-72.1833,19.5167;HT1420;Nord;Bayer
 0;-72.4401,18.7175;HT6420;Ouest;Bayelle
@@ -9870,6 +10293,7 @@
 0;-74.0500,18.3000;HT8511;Sud;Batais
 0;-71.8333,19.6167;HT2110;Nord-Est;Batador
 0;-72.3833,19.2000;HT4111;Artibonite;Bastien
+0;-72.3434,19.1463;;Artibonite;Bastien
 0;-72.5020,19.0491;HT4322;Artibonite;Bastien
 0;-72.0667,18.9500;HT5230;Centre;Bastien
 0;-72.4167,18.8833;HT6421;Ouest;Bastia
@@ -9945,6 +10369,7 @@
 0;-74.4696,18.4332;HT7230;Grand'Anse;Basie
 0;-72.4333,18.4167;HT9111;Ouest;Bas Gougeon
 0;-72.7833,18.2667;HT9210;Ouest;Bas Gaudou
+0;-72.2500,19.0333;;Artibonite;Bas Fourrien
 0;-72.1167,19.5500;HT2320;Nord;Bas Fond Caracol
 0;-72.3333,19.7500;HT1620;Nord;Bas du Four
 0;-73.5734,18.2568;HT8320;Sud;Bas Dufort
@@ -9970,6 +10395,7 @@
 0;-72.3203,19.6987;HT1310;Nord;Barrière Blanche
 0;-72.6500,19.7000;HT4210;Artibonite;Barrière Battant
 0;-72.1977,19.6237;HT1230;Nord;Barrière Battant
+0;-73.0667,18.8167;;Ouest;Barrière Battant
 0;-72.9667,18.4000;HT6220;Ouest;Barrière Battant
 0;-72.6167,18.4167;HT6211;Ouest;Barrière Batin
 0;-72.6794,18.1864;HT9210;Sud-Est;Barrière André
@@ -10046,7 +10472,9 @@
 0;-73.4167,18.3833;HT7540;Nippes;Banlieu
 0;-72.7000,19.0833;HT4311;Artibonite;Banique
 0;-71.9833,18.8333;HT5310;Centre;Bangoule
+0;-73.0334,19.7612;;Nord-Ouest;Bangouinyote
 0;-72.9333,19.8667;HT3408;Nord-Ouest;Bananier Colas
+0;-73.0166,19.8072;;Nord-Ouest;Bananier
 0;-74.4167,18.4333;HT7230;Grand'Anse;Bananier
 0;-71.7612,18.1428;HT9341;Sud-Est;Banane
 0;-73.0000,18.4000;HT6220;Ouest;Bamby
@@ -10090,6 +10518,8 @@
 0;-72.2083,19.7106;HT1231;Nord;Balan
 0;-72.0695,18.5683;HT6330;Ouest;Balan
 0;-74.0500,18.3000;HT8511;Sud;Balais
+0;-73.5833,18.0667;;Sud;Balai Rasé
+0;-72.2667,18.9000;;Artibonite;Balai
 0;-72.1961,18.9125;HT5210;Centre;Bajaux
 0;-72.4032,19.6715;HT1610;Nord;Bajardeau
 0;-71.7185,19.4781;HT2220;Nord-Est;Baja
@@ -10102,6 +10532,7 @@
 0;-71.9874,19.1298;HT5110;Centre;Bailly
 0;-72.0777,19.0246;HT5130;Centre;Baille Tourrible
 0;-72.3167,19.4167;HT5121;Artibonite;Baille
+0;-72.2667,19.1167;;Artibonite;Baille
 0;-72.3551,18.8992;HT4321;Artibonite;Baille
 0;-72.8333,18.4333;HT6121;Ouest;Baille
 0;-72.1158,19.4261;HT1430;Nord;Bail
@@ -10113,6 +10544,7 @@
 0;-73.2167,18.3667;HT8313;Grand'Anse;Bahon
 0;-72.3667,19.7167;HT1610;Nord;Baguidy
 0;-73.2333,19.8333;HT3340;Nord-Ouest;Baguette
+0;-72.9833,19.7667;;Nord-Ouest;Baguette
 0;-72.5543,18.1991;HT9110;Sud-Est;Baguette
 0;-72.5167,18.9500;HT4320;Artibonite;Bagro
 0;-72.6500,19.5000;HT4110;Artibonite;Badon Marchand
@@ -10141,6 +10573,7 @@
 0;-74.3500,18.6333;HT7221;Grand'Anse;Babin
 0;-74.2667,18.6333;HT7130;Grand'Anse;Babin
 0;-72.6667,19.1000;HT4310;Artibonite;Babe
+0;-72.3667,19.2833;;Artibonite;Azor
 0;-71.9833,18.7167;HT6330;Ouest;Azor
 0;-74.1667,18.4500;HT7141;Grand'Anse;Azoi
 0;-72.7333,20.0167;HT3121;Nord-Ouest;Avril
@@ -10149,12 +10582,14 @@
 0;-72.0667,18.6833;HT6320;Ouest;Avoyée
 0;-72.2667,18.9167;HT4421;Artibonite;Avon
 0;-72.4500,18.2667;HT9130;Sud-Est;Avocats
+0;-72.3333,19.2167;;Artibonite;Avocat
 0;-72.7839,19.6047;HT4220;Artibonite;Avocar
 0;-73.8500,18.0500;HT8220;Sud;Aux Ravines
 0;-71.8167,18.3000;HT9330;Sud-Est;Aux Plumettes
 0;-72.6618,20.0100;HT3121;Nord-Ouest;Les Plaines
 0;-71.8333,18.6500;HT5330;Ouest;Aux Pièges
 0;-72.7235,20.0177;HT3121;Nord-Ouest;Les Palmistes
+0;-73.6028,18.0687;;Sud;Aux Palmistes
 0;-72.2500,18.4000;HT6150;Ouest;Aux Figuiers
 0;-74.1667,18.3167;HT8510;Sud;Aux Figuiers
 0;-72.3833,19.6833;HT1610;Nord;Aux Bagues
@@ -10171,6 +10606,7 @@
 0;-72.5667,19.5667;HT1710;Artibonite;Auguste
 0;-72.4333,18.7167;HT6420;Ouest;Auguste
 0;-72.4000,18.2500;HT9130;Sud-Est;Auguste
+0;-72.7188,18.9615;;Artibonite;Ogier
 0;-72.9667,18.3167;HT6220;Ouest;Au Fouk
 0;-72.8333,19.8833;HT3140;Nord-Ouest;Audouin
 0;-72.6215,18.9183;HT6411;Ouest;Auditon
@@ -10187,6 +10623,7 @@
 0;-72.8667,19.6500;HT4230;Artibonite;Aubeque
 0;-73.5833,18.3500;HT8330;Sud;Aubain
 0;-73.4167,18.3167;HT8310;Sud;Attis
+0;-73.0667,19.7333;;Nord-Ouest;Atrelle
 0;-73.0103,19.7353;HT4230;Nord-Ouest;Atraile
 0;-71.8167,19.0000;HT5420;Centre;Atelcoup
 0;-73.3667,18.3667;HT7540;Nippes;Astrie
@@ -10218,6 +10655,7 @@
 0;-72.7000,19.7167;HT4210;Artibonite;Apollon
 0;-73.9011,18.1264;HT8230;Sud;Antoine
 0;-72.3805,19.7810;HT1620;Nord;Antage
+4437;-73.0553,19.6338;;Artibonite;Anse Rouge
 0;-73.3833,19.6333;HT3320;Nord-Ouest;Anse Robert
 0;-72.8101,19.0342;HT4311;Artibonite;Anse à Pirogue
 0;-74.4000,18.3833;HT7231;Grand'Anse;Anse Mapay
@@ -10228,6 +10666,7 @@
 0;-74.2780,18.6479;HT7120;Grand'Anse;Anse du Clerc
 0;-74.4517,18.4852;HT7210;Grand'Anse;Anse d’Hainault
 0;-74.1475,18.6600;HT7110;Grand'Anse;Anse d’Azur
+0;-73.6000,18.0667;;Sud;Anse Canot
 1731;-73.3449,18.5011;HT7420;Grand'Anse;Anse-à-Veau
 0;-74.4167,18.5167;HT7210;Grand'Anse;Anse à Proux
 1736;-71.7500,18.0500;HT9340;Sud-Est;Anse-à-Pitre
@@ -10241,6 +10680,7 @@
 0;-74.2500,18.5833;HT7140;Grand'Anse;Anoter
 0;-72.5327,19.4715;HT4120;Artibonite;Annivert
 0;-74.0617,18.4305;HT7330;Grand'Anse;Annette
+0;-72.2000,19.0333;;Centre;Anneau
 0;-72.3000,18.9000;HT4321;Artibonite;Anneau
 0;-72.3689,18.2708;HT9121;Sud-Est;Anne
 0;-71.8012,19.6665;HT2111;Nord-Est;Angot
@@ -10254,6 +10694,7 @@
 0;-72.6075,19.5348;HT4110;Artibonite;André
 0;-72.5599,18.9363;HT6411;Ouest;André
 0;-72.0000,19.5167;HT2321;Nord-Est;Ancelin
+0;-72.3333,19.2333;;Artibonite;Ananas
 0;-71.9333,18.9500;HT5130;Centre;Ananas
 0;-74.3000,18.5500;HT7150;Grand'Anse;Anais
 0;-72.2333,19.5500;HT1420;Nord;Anadi
@@ -10306,6 +10747,8 @@
 0;-73.1395,19.8271;HT3340;Nord-Ouest;Abricot
 0;-71.7670,19.1393;HT5411;Centre;Abricot
 0;-72.0833,19.0667;HT5110;Centre;Abricot
+0;-73.2667,18.9333;;Ouest;Abricot
+0;-73.0136,18.8489;;Ouest;Abricot
 0;-73.5856,18.4614;HT7510;Nippes;Abricot
 0;-73.4554,18.3743;HT7540;Nippes;Abricot
 0;-72.6833,18.2833;HT9140;Sud-Est;Abricot
@@ -10403,5 +10846,6 @@
 0;-73.0465,18.2807;HT9220;Nippes;Gaspard
 0;-73.8970,18.4771;HT7330;Grand'Anse;Ti Place
 0;-72.4341,18.9308;HT4321;Artibonite;Chatelain
+0;-72.3025,19.2156;;Artibonite;L'Ermite
 0;-72.2701,19.6862;HT1231;Nord;Bréda
 0;-72.2904,19.4051;HT5121;Artibonite;Marché

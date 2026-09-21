@@ -1,5 +1,6 @@
 0;-82.4333,8.5500;04061;Chiriquí Province;Ojo de Agua
 0;-82.8181,9.5964;01012;Bocas del Toro Province;Sibube
+0;-82.8760,9.5920;;Bocas del Toro Province;Piedra Grande
 14;-81.0705,7.8077;08077;Veraguas Province;Zurrones
 116;-80.3926,8.6105;02024;Coclé;Zumbador
 375;-81.5092,8.0072;08093;Veraguas Province;Zapotillo
@@ -19,7 +20,13 @@
 70;-79.8729,8.9410;07077;Panamá Oeste Province;Yayas Adentro
 1700;-77.6928,8.1584;12025;Darién;Yaviza
 170;-77.5982,8.0984;12024;Embera;Yape
+0;-78.9521,9.5528;;Guna Yala;Wichub Uala
 126;-82.6927,9.5082;01012;Bocas del Toro Province;Washout
+0;-78.9393,9.4657;;Guna Yala;Warsoducua
+0;-77.9829,9.1924;;Guna Yala;Wakitupu
+0;-78.7691,9.5954;;Guna Yala;Wagsailadup
+0;-78.8816,9.5504;;Guna Yala;Wagsaila Tupu
+0;-78.9000,9.5500;;Guna Yala;Wagsalatupo Chico
 280;-81.0601,8.4489;08041;Veraguas Province;Vueltas Largas
 0;-82.4697,8.7825;04058;Chiriquí Province;Volcancito Arriba
 10286;-82.6390,8.7805;04027;Chiriquí Province;Volcán
@@ -32,6 +39,7 @@
 8673;-79.6996,8.9292;07008;Panamá Oeste Province;Vista Alegre
 0;-80.7094,8.5899;02035;Coclé;Vista Alegre
 0;-79.9461,8.5451;07029;Panamá Oeste Province;Vista Alegre
+0;-78.8333,9.1833;;Panamá;Visita
 118;-81.8499,8.4886;10028;Ngöbe-Buglé Comarca;Virulí
 0;-80.5400,8.4946;02023;Coclé;Virulí
 0;-81.4735,7.9823;08093;Veraguas Province;Virulí
@@ -51,6 +59,7 @@
 0;-80.7412,7.5992;05035;Herrera Province;El Viejo
 0;-82.6426,9.4863;01008;Bocas del Toro Province;Victoria
 0;-80.3754,8.4924;02013;Coclé;Vía Hernández
+169;-80.9014,8.8671;;Veraguas Province;Veraguas
 17144;-79.6234,8.8932;07005;Panamá Oeste Province;Veracruz
 0;-80.1956,9.1489;03026;Colón;Ventura
 0;-80.5896,8.6205;02022;Coclé;Ventorrillo
@@ -70,6 +79,8 @@
 196;-80.3166,7.6223;06024;Los Santos Province;Vallerriquito
 127;-80.7619,7.9067;05043;Herrera Province;Valle Rico
 178;-80.3508,7.6201;06060;Los Santos Province;Valle Rico
+0;-82.1833,8.6500;;Chiriquí Province;Valle Hornito
+77;-80.3379,8.9424;;Colón;Valle Escobal
 0;-82.3876,9.2247;01010;Bocas del Toro Province;Valle de Agua Arriba
 0;-80.7575,8.0652;05047;Herrera Province;Valdivieso
 0;-78.9000,9.1833;07051;Panamá;Vacamonte
@@ -80,6 +91,9 @@
 378;-79.3172,9.1522;07080;Panamá;Utivé
 312;-81.2173,7.9749;08070;Veraguas Province;Utirá
 0;-78.5667,9.4500;09002;Guna Yala;Ustupo Yantupo
+0;-77.9333,9.1333;;Guna Yala;Ustupo Yantupo
+0;-77.9254,9.1333;;Guna Yala;Ogobsukun
+2514;-77.9262,9.1311;;Guna Yala;Ustupo
 0;-81.8187,8.9278;10006;Ngöbe-Buglé Comarca;Ñuri
 0;-79.6478,9.2489;03003;Colón;Urbanización Quebrada Ancha
 0;-80.1924,8.8188;07010;Coclé;Uracillo Número Dos
@@ -91,12 +105,22 @@
 0;-81.6456,8.1387;04086;Chiriquí Province;Cabecera de Río Ulé
 9;-81.7043,8.1341;04086;Chiriquí Province;Ulé Abajo
 65;-81.6080,8.1949;04090;Chiriquí Province;Ulé
+0;-79.0398,9.5056;;Guna Yala;Mandi Ubigantup
+0;-78.9002,9.4465;;Guna Yala;Miria Ubigantupu
 163;-80.1779,8.7783;07010;Coclé;U Arriba
+532;-78.0608,8.9857;;Darién;Ualá
+0;-80.2907,8.8443;;Coclé;U Abajo
+0;-80.2200,8.8476;;Coclé;Uracillo Centro
 0;-78.0526,8.4544;12008;Darién;Tutumito
 123;-81.0907,8.4912;08051;Veraguas Province;Tute Arriba
 0;-81.0812,8.4778;08049;Veraguas Province;Tute Abajo
 591;-80.1951,8.6122;02003;Coclé;Turega
+0;-80.6500,8.7833;;Coclé;Turbe
+0;-79.0562,9.5220;;Guna Yala;Tupsuit Dummat
+0;-79.0546,9.5215;;Guna Yala;Tup Orocua
+0;-79.0528,9.5206;;Guna Yala;Tupsuit Bipi
 0;-78.5667,9.4407;09002;Guna Yala;Tupile
+0;-77.7627,9.0078;;Guna Yala;Tupak
 0;-80.9318,7.9573;08055;Veraguas Province;Tun-Tun
 0;-79.6086,9.2660;03012;Colón;El Valle de Santa Cruz
 0;-78.9000,9.2333;07051;Panamá;Tumagantí
@@ -112,6 +136,9 @@
 0;-80.3500,8.7000;02019;Coclé;Tucué Arriba
 276;-80.3227,8.7129;02019;Coclé;Tucué
 0;-82.2009,9.3151;01002;Bocas del Toro Province;Tucker Bight
+0;-78.8503,9.4804;;Guna Yala;Tubusinica
+877;-77.7239,8.9210;;Guna Yala;Tubualá
+1061;-79.0449,9.5096;;Guna Yala;Tubualá
 0;-81.4364,7.9771;08021;Veraguas Province;Tuancle Arriba
 0;-80.0123,8.8097;07014;Panamá Oeste Province;Trinidad de Los Raudales
 0;-79.9773,8.7421;07018;Panamá Oeste Province;Trinidad de Los Cerros
@@ -149,6 +176,7 @@
 0;-80.1891,9.1287;03018;Colón;Torno Roto
 0;-79.7167,8.8833;07022;Panamá Oeste Province;Torno Malo
 238;-80.9467,7.5493;08074;Veraguas Province;Torio
+0;-81.8729,8.9613;;Ngöbe-Buglé Comarca;Río Tori
 98;-80.7672,8.2073;08035;Veraguas Province;Tonosí
 1478;-80.4394,7.4072;06073;Los Santos Province;Tonosí
 0;-80.6893,7.5911;06061;Herrera Province;Tolú Arriba
@@ -174,8 +202,10 @@
 0;-79.8957,9.0034;07077;Panamá Oeste Province;Tinajones Arriba
 30;-80.9467,8.0216;08002;Veraguas Province;Tinajita
 905;-82.4622,8.5592;04065;Chiriquí Province;Tinajas
+0;-82.7209,9.3808;;Bocas del Toro Province;Timiyic
 0;-80.9031,7.8454;05038;Herrera Province;Tijera
 1148;-82.5484,8.4693;04044;Chiriquí Province;Tijeras
+0;-78.4128,9.1324;;Panamá;Tiguaricicua Chicula Chicula
 0;-82.2524,9.2148;01005;Bocas del Toro Province;Tiger Key
 329;-82.7820,9.5777;01012;Bocas del Toro Province;Tiger Hill
 0;-82.1226,8.4424;10017;Chiriquí Province;Tierra Negra
@@ -236,6 +266,7 @@
 0;-77.9659,8.7400;09004;Darién;Subcurtí
 0;-82.6171,9.3696;01011;Bocas del Toro Province;Chupsco
 0;-79.6472,9.0679;07154;Panamá;Summit Park
+0;-77.6331,8.8340;;Guna Yala;Sukunya
 1706;-82.6509,8.5511;04026;Chiriquí Province;Sortová
 0;-80.5876,8.6453;02022;Coclé;Soriano
 598;-80.0093,8.6345;07032;Panamá Oeste Province;Sorá
@@ -270,6 +301,7 @@
 0;-82.1784,9.3392;01002;Bocas del Toro Province;Red Frog
 0;-81.8004,9.0648;10015;Ngöbe-Buglé Comarca;Shark Hole
 0;-82.2063,9.2049;01005;Bocas del Toro Province;Shark Hole
+0;-82.4063,8.2483;;Chiriquí Province;Sevilla
 0;-78.0892,8.2940;12010;Darién;Setegantí
 73;-79.7333,8.9833;07003;Panamá Oeste Province;Serrano
 0;-81.2726,7.9590;08070;Veraguas Province;Seria Abajo
@@ -279,12 +311,14 @@
 0;-81.2933,7.7466;08027;Veraguas Province;Senegal
 0;-80.7883,7.9098;05043;Herrera Province;Finca Señales
 0;-81.8423,9.0387;10015;Ngöbe-Buglé Comarca;Secretario
+0;-78.1882,8.4399;;Darién;Sebolleta
 0;-80.5500,8.4181;02017;Coclé;Sebo Frío
 0;-80.0918,8.3856;07037;Coclé;Sea Cliff
 0;-79.6362,9.3031;03012;Colón;Sardinilla
 0;-79.5833,9.1000;07154;Panamá;Sardinilla
 0;-81.6833,8.3333;10042;Ngöbe-Buglé Comarca;Sardinia
 410;-80.3521,8.5486;02011;Coclé;Sardina
+0;-80.5568,8.7967;;Colón;Sardina
 0;-81.9085,8.3209;10031;Chiriquí Province;Sardina
 0;-81.7668,8.2792;10034;Ngöbe-Buglé Comarca;Sardina
 0;-81.5646,8.4850;10056;Ngöbe-Buglé Comarca;Sapo
@@ -347,6 +381,7 @@
 1360;-82.7819,8.8348;04051;Chiriquí Province;Santa Clara
 0;-82.6456,8.5213;04021;Chiriquí Province;El Congo
 597;-80.1086,8.3825;07037;Coclé;Santa Clara
+0;-80.7711,7.5709;;Herrera Province;Santa Clara
 0;-81.2900,7.6600;08027;Veraguas Province;Santa Catalina Arriba
 0;-81.2509,8.0990;07016;Veraguas Province;Santa Catalina Abajo
 0;-81.3351,8.7811;08048;Ngöbe-Buglé Comarca;Santa Catalina
@@ -396,6 +431,7 @@
 66;-81.1465,8.2723;08080;Veraguas Province;San Marcelo
 1025;-82.1026,8.3094;04081;Chiriquí Province;San Lorenzo
 0;-78.9647,9.1506;07051;Panamá;San Judas
+0;-81.7194,7.4328;;Veraguas Province;San Juan Viejo
 182;-80.4650,8.6645;02024;Coclé;San Juanito
 205;-81.3094,7.8822;08025;Veraguas Province;San Juanito
 0;-81.4014,7.7843;08027;Veraguas Province;San Juan
@@ -405,6 +441,7 @@
 0;-81.3272,7.8961;08029;Veraguas Province;San Juan de Cativé
 0;-82.5000,8.4833;04038;Chiriquí Province;San Juan Arriba
 0;-82.4774,8.4739;04038;Chiriquí Province;San Juan Abajo
+0;-80.6245,8.7612;;Coclé;San Juan
 0;-79.7667,8.6833;07030;Panamá Oeste Province;San Juan
 97;-80.8262,8.4901;08040;Veraguas Province;San Juan
 193;-81.0135,8.3032;08045;Veraguas Province;San Juan
@@ -424,6 +461,7 @@
 523;-80.2434,7.6770;06019;Los Santos Province;San José
 6;-79.0101,9.1484;07051;Panamá;San Joaquín
 0;-81.3007,8.3706;08081;Veraguas Province;San Javier
+1429;-78.1550,9.2950;;Guna Yala;San Ignacio de Tupile
 0;-79.5082,8.9924;07196;Panamá;San Francisco
 665;-82.7282,8.6340;04022;Chiriquí Province;San Francisco
 1785;-80.9737,8.2454;08054;Veraguas Province;San Francisco
@@ -495,6 +533,7 @@
 0;-81.7824,8.2947;10034;Ngöbe-Buglé Comarca;Sabana Chiquita
 478;-82.5171,8.5588;04040;Chiriquí Province;Sabana Bonita
 0;-82.6008,8.3509;04032;Chiriquí Province;Sabana Bonita
+0;-78.1962,9.0613;;Panamá;Río Sábalo
 178;-82.0984,8.4008;04079;Chiriquí Province;Sábalo
 73;-80.9052,7.4567;08074;Veraguas Province;Rusia Nueva
 0;-80.9193,7.4616;08074;Veraguas Province;Rusia
@@ -540,6 +579,7 @@
 0;-81.3631,8.4909;10058;Ngöbe-Buglé Comarca;Río Oi
 0;-82.4167,9.2500;01007;Bocas del Toro Province;Río Oeste Afuera
 0;-80.6000,8.6167;02026;Coclé;Río Número Uno
+0;-80.8524,7.6349;;Veraguas Province;Río Negro
 0;-80.9732,7.6348;08075;Veraguas Province;Río Negro Número Uno
 25;-80.1038,7.6225;06068;Los Santos Province;Río Muñoz
 0;-80.0875,9.1847;03019;Colón;Río Mosquera
@@ -559,6 +599,7 @@
 1553;-79.7680,9.2891;03047;Colón;Gatún
 0;-80.6667,7.7500;05013;Herrera Province;Río Gato
 1374;-79.6786,9.2612;03003;Colón;Río Duque
+0;-78.5073,9.1795;;Panamá;Río Diablo
 0;-80.0333,9.2667;03016;Colón;Río del Medio
 0;-80.0897,8.6129;02003;Panamá Oeste Province;Río de Jesús
 0;-81.4883,8.2431;08088;Ngöbe-Buglé Comarca;Río de Jesús
@@ -569,8 +610,10 @@
 898;-79.7602,8.9673;07068;Panamá Oeste Province;Río Congo
 0;-80.6001,8.6381;02026;Coclé;Río Colorado
 0;-77.9989,8.7956;11001;Darién;Río Clarito
+0;-78.8327,9.4520;;Guna Yala;Río Sidra
 0;-79.1667,9.0333;07050;Panamá;Río Chico
 12;-80.2144,8.3880;02006;Coclé;Río Chico
+0;-81.7164,9.0132;;Ngöbe-Buglé Comarca;Pantán
 0;-81.7018,8.8482;10006;Ngöbe-Buglé Comarca;Cañaveral
 0;-78.9011,8.3104;07045;Panamá;Cacique
 0;-78.9000,8.3167;07045;Panamá;Río Cacique Adentro
@@ -627,6 +670,7 @@
 0;-79.8924,9.3382;03002;Colón;Arco Iris
 0;-81.8832,8.8938;10011;Ngöbe-Buglé Comarca;Raelite
 0;-81.9601,8.2736;04092;Chiriquí Province;Rabo de Puerco
+0;-82.9018,8.2845;;Chiriquí Province;Rabo de Puerco
 0;-79.9667,8.5833;07033;Panamá Oeste Province;Rabal de Venado
 47;-80.6499,7.5994;06061;Los Santos Province;Quito
 0;-82.4567,8.5742;04065;Chiriquí Province;El Quira
@@ -637,6 +681,8 @@
 0;-81.4042,8.0544;08026;Veraguas Province;Querque
 0;-81.3891,8.0222;08026;Veraguas Province;Querque Número Uno
 882;-82.5199,8.3724;04033;Chiriquí Province;Querévalo
+0;-81.9467,8.9416;;Ngöbe-Buglé Comarca;Querami
+0;-81.7752,8.9561;;Ngöbe-Buglé Comarca;Boca de Quenani
 0;-80.4703,7.6100;06064;Los Santos Province;Quema
 0;-80.6833,7.7167;05013;Herrera Province;Quebro
 0;-80.8993,7.7898;05033;Herrera Province;Quebrito
@@ -645,11 +691,13 @@
 0;-80.1912,8.7916;07010;Coclé;Zapotal
 63;-81.2835,8.4269;08081;Veraguas Province;Quebrada Venado
 0;-79.5553,9.2417;07211;Panamá;Quebrada Tranquilla
+0;-81.7954,8.9382;;Ngöbe-Buglé Comarca;Quebrada Tobori
 0;-81.7938,8.3774;10037;Ngöbe-Buglé Comarca;Quebrada Suto
 0;-82.2916,8.7263;04070;Chiriquí Province;Quebrada Seca
 0;-80.5459,7.5407;06078;Los Santos Province;Quebrada Seca
 0;-79.5833,9.3333;03012;Colón;Quebrada Sapo
 0;-81.9258,8.3462;10031;Ngöbe-Buglé Comarca;Quebrada San Miguel
+0;-77.9000,7.8167;;Darién;Quebrada San Isidro
 0;-79.5333,9.3667;03012;Panamá;Quebrada San Francisco
 0;-79.5072,9.3890;03012;Panamá;San Antonio
 0;-81.8183,8.3559;10030;Ngöbe-Buglé Comarca;Quebrada Salada
@@ -725,6 +773,7 @@
 12;-82.3447,9.1987;01010;Bocas del Toro Province;Quebrada Garay
 0;-81.8295,8.3616;10030;Ngöbe-Buglé Comarca;Quebrada Frijoles
 0;-80.4815,7.6765;06062;Los Santos Province;Quebrada Fría
+0;-82.8730,9.5826;;Bocas del Toro Province;Endi
 0;-80.7525,7.7583;05035;Herrera Province;Quebrada El Tigre
 0;-81.3484,7.8954;08029;Veraguas Province;Quebrada El Tallo
 0;-80.7223,7.7009;05035;Herrera Province;Quebrada del Rosario Abajo
@@ -786,6 +835,7 @@
 205;-80.1407,8.6315;02003;Coclé;Quebrada Amarilla
 2;-79.5826,9.1566;07154;Panamá;Quebrada Ñajú
 0;-80.0840,7.5992;06068;Los Santos Province;Purio
+0;-78.1334,8.4971;;Darién;Punulosa
 0;-80.0038,7.5296;06067;Los Santos Province;Punta Toro
 149;-82.2477,9.0379;01014;Bocas del Toro Province;Punta Róbalo
 0;-78.1623,8.3980;12015;Darién;Punta Muñy
@@ -803,6 +853,7 @@
 0;-80.3333,7.7000;06008;Los Santos Province;Punta de Fogen
 1360;-82.8687,8.0339;04012;Chiriquí Province;Burica
 0;-78.9333,8.2667;07044;Panamá;Punta de Andrés
+62;-81.7721,8.9855;;Ngöbe-Buglé Comarca;Punta Cuaco
 424;-79.7070,8.6442;07030;Panamá;Punta Chame
 0;-81.9044,9.1447;10012;Ngöbe-Buglé Comarca;Punta Caracol
 0;-82.4960,9.1613;01010;Bocas del Toro Province;Punta Peña Blanca
@@ -834,6 +885,7 @@
 0;-80.0852,8.5755;02003;Panamá Oeste Province;Puerto Frío
 0;-79.7956,8.6993;07009;Panamá Oeste Province;Puerto Estacio
 12371;-80.0957,9.1942;03019;Colón;Puerto Escondido
+0;-81.7687,8.9756;;Ngöbe-Buglé Comarca;Puerto Escondido
 0;-78.4167,8.0167;12004;Darién;Puerto Escondido
 0;-80.0722,7.4444;06066;Los Santos Province;Puerto Escondido
 72;-80.0476,8.4794;07037;Panamá Oeste Province;Puerto de Tierra
@@ -841,6 +893,7 @@
 0;-81.5856,8.0222;08092;Veraguas Province;Puerto Chiquero
 4174;-79.7157,8.8739;07022;Panamá Oeste Province;Puerto Caimito
 0;-80.2166,7.4653;06069;Los Santos Province;Puerto Blanco
+11743;-82.8621,8.2777;;Chiriquí Province;Puerto Armuelles
 0;-82.4586,9.4545;01011;Bocas del Toro Province;Puerta Ventura
 0;-80.1562,9.0193;02018;Colón;Puerco Gorda
 0;-82.4202,8.5980;04064;Chiriquí Province;Cochea
@@ -898,6 +951,7 @@
 743;-82.4210,8.4772;04066;Chiriquí Province;Portachuelo
 0;-80.9610,7.9802;08055;Veraguas Province;El Poro Poro
 0;-79.1000,9.1333;07052;Panamá;Porcada Valdez
+0;-82.6648,9.3686;;Bocas del Toro Province;Porbogloro
 0;-80.9005,7.9059;05039;Herrera Province;Ponuguilla
 509;-80.9771,7.8827;08005;Veraguas Province;Ponuga
 14;-81.1846,7.8058;08077;Veraguas Province;Pontón Prieto
@@ -911,17 +965,21 @@
 0;-82.2603,9.2900;01001;Bocas del Toro Province;Pleasant View
 1363;-82.8207,8.7435;04049;Chiriquí Province;Plaza de Caisán
 0;-80.9304,7.4221;08074;Veraguas Province;La Plaza
+0;-78.3321,9.3560;;Guna Yala;Playón Grande
 0;-80.8087,7.4417;08074;Veraguas Province;Playón Grande
+2042;-78.2327,9.3113;;Guna Yala;Playón Chico
 0;-80.8871,7.3489;08076;Veraguas Province;Puerto Playita
 0;-80.8219,7.3606;08076;Veraguas Province;Playita Arriba
 231;-81.9395,9.1348;10012;Ngöbe-Buglé Comarca;Playa Verde
 0;-81.9293,9.1430;10012;Ngöbe-Buglé Comarca;Playa Raya
+0;-81.9998,8.9560;;Ngöbe-Buglé Comarca;Playa Mananti
 397;-81.8683,9.0775;10015;Ngöbe-Buglé Comarca;Playa Lorenzo
 0;-81.8934,9.1431;10012;Ngöbe-Buglé Comarca;Playa Loma
 556;-79.7724,8.7887;07063;Panamá Oeste Province;Playa Leona
 0;-79.9971,8.4527;07039;Panamá Oeste Province;Playa Grande
 0;-78.1700,8.3637;12015;Darién;Playa Grande
 0;-81.9169,9.1436;10012;Ngöbe-Buglé Comarca;Punta Gallinazo
+0;-82.0447,8.9419;;Bocas del Toro Province;Playa Daira
 0;-79.8927,8.5259;07029;Coclé;Playa Coronado
 0;-79.0852,9.5589;03039;Colón;Playa Colorada
 297;-81.7596,9.0519;10015;Ngöbe-Buglé Comarca;Playa Roja
@@ -949,7 +1007,9 @@
 0;-77.5340,8.6837;09003;Guna Yala;Pito
 52;-80.6687,7.6556;05009;Herrera Province;Pitaloza Abajo
 0;-78.0789,8.4994;12026;Darién;El Pital
+0;-78.3262,9.1204;;Panamá;Piria
 0;-81.3351,7.7196;08027;Veraguas Province;Pinzón
+0;-78.7221,9.2235;;Panamá;Pintupo
 0;-80.4625,8.5928;02024;Coclé;Pintada Vieja
 0;-77.6831,8.1172;12022;Darién;Pinogana
 25;-80.9824,7.9184;08005;Veraguas Province;Piñas
@@ -996,10 +1056,12 @@
 0;-81.5683,8.4522;10056;Ngöbe-Buglé Comarca;Pie de Cerro Banco
 0;-78.1490,8.6070;12016;Darién;Pidiaque
 0;-80.8358,8.0752;07034;Veraguas Province;Picorales
+0;-78.9833,9.5500;;Guna Yala;Pico Feo
 8;-81.3298,8.3344;10054;Veraguas Province;Picacho
 0;-80.5105,7.6622;06062;Los Santos Province;El Picacho
 0;-82.4256,8.8139;04058;Chiriquí Province;El Pianista
 0;-79.7667,8.7333;07030;Panamá Oeste Province;Petibre
+0;-80.7708,8.9509;;Colón;Petaquilla
 2565;-80.6143,7.9086;05011;Herrera Province;Pesé
 0;-79.7833,8.6833;07027;Panamá Oeste Province;Perú
 10;-78.1608,8.3428;12015;Darién;Perrecénega
@@ -1146,6 +1208,7 @@
 1144;-82.4589,8.7340;04055;Chiriquí Province;Palmira
 0;-79.7848,8.5846;07027;Panamá Oeste Province;Palmira
 93;-80.3573,7.6635;06016;Los Santos Province;Palmira
+0;-80.7945,8.9065;;Colón;Palmilla
 351;-80.1873,8.6613;07010;Coclé;Palmilla
 0;-81.2606,7.9933;08070;Veraguas Province;Las Palmillas
 0;-80.9599,7.5898;08075;Veraguas Province;Palmilla
@@ -1187,7 +1250,10 @@
 29;-80.0915,9.0100;07013;Colón;Pablón
 262;-79.5955,8.6038;07062;Panamá;Otoque Oriente
 126;-79.6059,8.6063;07061;Panamá;Otoque Occidente
+55;-81.8988,8.9369;;Ngöbe-Buglé Comarca;Ño Tolente
+0;-80.4042,8.9901;;Colón;Ortigal
 0;-82.4500,9.2387;01007;Bocas del Toro Province;Orrete
+0;-79.0443,9.5155;;Guna Yala;Orostupu
 762;-82.5079,8.3612;04033;Chiriquí Province;Orillas del Río
 39;-80.4336,7.5978;06064;Los Santos Province;Oria Arriba
 0;-80.3252,7.5902;06060;Los Santos Province;Oria
@@ -1199,6 +1265,7 @@
 0;-80.4276,7.4915;06076;Los Santos Province;Olivita Abajo
 0;-80.4167,7.4833;06076;Los Santos Province;Olivita
 0;-80.1002,8.3932;07037;Coclé;Oliver Estate
+0;-82.0811,9.2910;;Bocas del Toro Province;Punta Vieja
 57;-81.3424,8.1496;08016;Veraguas Province;Olaca
 384;-80.6505,8.4202;02038;Coclé;Olá
 15;-80.3001,7.4857;06015;Los Santos Province;Ojo de Agua de la Loma
@@ -1216,6 +1283,8 @@
 0;-80.4101,7.5217;06076;Los Santos Province;Ojo de Agua
 98;-80.2900,7.4497;06015;Los Santos Province;Ojo de Agua
 0;-80.6167,7.9833;05017;Herrera Province;Ojeda Agua
+0;-78.9171,9.5370;;Guna Yala;Ogobsibudup
+0;-78.7188,9.5778;;Guna Yala;Ogop Bukip
 0;-81.8718,8.8372;10011;Ngöbe-Buglé Comarca;Odobate
 0;-81.9400,8.8723;10011;Ngöbe-Buglé Comarca;Odoarigote
 3939;-80.7773,7.9452;05040;Herrera Province;Ocú
@@ -1225,6 +1294,9 @@
 0;-80.2833,8.8000;02020;Coclé;Obré Abajo
 439;-80.1983,8.6346;07010;Coclé;Oajaca
 546;-81.8410,8.8706;10006;Ngöbe-Buglé Comarca;Nutiví
+0;-78.8305,9.4473;;Guna Yala;Nusadup
+0;-78.0550,9.0109;;Darién;Nurra
+0;-79.0389,9.5020;;Guna Yala;Nugnutupu
 0;-78.1733,8.6176;12016;Darién;Los Nunos
 2163;-79.6087,9.2442;07211;Colón;Nuevo Vigía
 0;-79.3497,9.1445;07080;Panamá;Nuevo Sitio
@@ -1251,12 +1323,17 @@
 0;-80.7141,8.5932;02035;Coclé;Nombre de Dios
 0;-81.8637,8.8748;10011;Ngöbe-Buglé Comarca;Niucoco
 0;-82.7408,9.5441;01012;Bocas del Toro Province;Las Tablas
+0;-78.8786,9.5601;;Guna Yala;Niadup
+2;-78.7283,9.5799;;Guna Yala;Niagalubir
 0;-82.1565,9.3161;01002;Bocas del Toro Province;Bahía Honda
 0;-80.7421,7.8529;05032;Herrera Province;Navarro
+0;-77.8024,9.0239;;Guna Yala;Navagandí
 5470;-80.5213,8.3359;02028;Coclé;Natá
 0;-81.6509,8.0701;04086;Chiriquí Province;Natá de Tolé
 0;-81.0580,8.5481;08051;Veraguas Province;Narices
 1090;-78.5867,9.4439;09002;Guna Yala;Narganá
+0;-79.0260,9.4614;;Guna Yala;Narbagandup Dummad
+0;-79.0214,9.4583;;Guna Yala;Narbagandup Bipi
 0;-81.3666,7.9863;08021;Veraguas Province;Paso del Naranjo
 0;-79.4381,9.0968;07175;Panamá;Naranjalito
 552;-79.2290,9.1329;07169;Panamá;Naranjal
@@ -1271,10 +1348,12 @@
 0;-81.5891,8.2231;04083;Chiriquí Province;Nancito
 0;-82.5376,8.6537;04062;Chiriquí Province;Nance Bonito
 16;-80.7474,7.8281;05032;Herrera Province;Nance Bonito
+421;-78.9553,9.5506;;Guna Yala;Nalunega
 12;-80.3953,7.7052;06032;Los Santos Province;Nalú
 0;-81.7340,8.8510;10006;Ngöbe-Buglé Comarca;Muturicoto
 0;-81.9074,9.1156;10012;Ngöbe-Buglé Comarca;Mutari
 0;-81.7750,8.6184;10007;Ngöbe-Buglé Comarca;Murundi
+1303;-77.7508,8.9467;;Guna Yala;Mulatupo
 0;-82.2833,8.2770;04078;Chiriquí Province;Muerto
 0;-80.5724,8.4668;02030;Coclé;Muela
 0;-79.9000,9.3333;03006;Colón;Mount Hope
@@ -1287,6 +1366,7 @@
 0;-81.0767,7.8849;08061;Veraguas Province;Morrito
 0;-81.4896,8.1334;08091;Veraguas Province;Morriña
 83;-80.9410,7.4825;08074;Veraguas Province;Morrillo
+0;-78.8533,9.4536;;Guna Yala;Mormaketupo
 0;-82.5145,8.4940;04008;Chiriquí Province;Morita
 0;-80.4622,8.6138;02024;Coclé;Llano Moreno
 0;-80.3298,7.5677;06010;Los Santos Province;Montoso
@@ -1318,6 +1398,7 @@
 64;-78.1630,8.3178;12015;Darién;Mogocénega
 0;-79.5544,9.0473;07198;Panamá;Mocambo Abajo
 0;-79.4500,9.1200;07210;Panamá;Mocambito
+0;-78.7459,9.5852;;Guna Yala;Mirya Diadup
 0;-82.2500,9.0000;01015;Bocas del Toro Province;Miramar Arriba
 154;-79.3357,9.5754;03035;Colón;Miramar
 346;-82.2434,8.9975;01015;Bocas del Toro Province;Miramar
@@ -1345,6 +1426,7 @@
 0;-82.4820,9.3938;01011;Bocas del Toro Province;Milla Diez y Medio
 0;-82.4170,9.3254;01007;Bocas del Toro Province;Milla Cuatro
 0;-82.4284,9.3463;01007;Bocas del Toro Province;Milla Cinco
+0;-80.3723,8.9677;;Colón;Miguelito
 0;-80.3059,9.1540;03025;Colón;Miguel de La Borda
 0;-80.4433,7.7815;06050;Los Santos Province;Micoyito
 2298;-77.9790,8.4991;12026;Darién;Metetí
@@ -1353,6 +1435,7 @@
 35;-80.7792,7.8666;05043;Herrera Province;Menchaquita
 292;-80.7592,7.8704;05043;Herrera Province;Menchaca
 0;-82.1953,8.8450;01017;Ngöbe-Buglé Comarca;Menaco
+0;-77.8069,8.6351;;Embera;Membrillo
 818;-80.2198,8.5831;02008;Coclé;Membrillo
 0;-80.4109,8.5663;02024;Coclé;Membrillal
 323;-80.6264,8.2014;02043;Coclé;Membrillal
@@ -1393,7 +1476,9 @@
 0;-82.1454,8.9490;01017;Bocas del Toro Province;Mata Cacao
 614;-80.0968,8.6276;02003;Panamá Oeste Province;Mata Ahogado
 0;-79.9557,8.5900;07033;Panamá Oeste Province;Mascareña
+0;-78.8333,9.5667;;Guna Yala;Masargantupo
 0;-78.8500,8.3667;07043;Panamá;Marzo
+0;-77.9479,8.6358;;Darién;El Martirio
 8;-78.9654,8.3747;07045;Panamá;Martín Pérez Afuera
 457;-81.0068,8.0689;08003;Veraguas Province;Martín Grande
 212;-80.9658,8.0682;08003;Veraguas Province;Martincito
@@ -1429,6 +1514,7 @@
 0;-81.1459,7.7383;08077;Veraguas Province;Manzanillo
 0;-81.1663,7.5361;08060;Veraguas Province;Manzanillo
 0;-79.5833,9.0833;07104;Panamá;Manteca
+0;-77.8093,9.0343;;Guna Yala;Mansucum
 6;-80.2318,7.6070;06002;Los Santos Province;Mañón
 32;-80.3699,8.5579;02011;Coclé;Mano de Piedra
 9;-80.5695,7.5460;06078;Los Santos Province;Mano de Piedra
@@ -1442,21 +1528,32 @@
 0;-82.0594,8.9000;01017;Bocas del Toro Province;Man Creek
 0;-82.7115,8.4771;04025;Chiriquí Province;Manchuila
 0;-81.9380,8.8742;10011;Ngöbe-Buglé Comarca;Manantí Arriba
+0;-81.9731,8.9386;;Ngöbe-Buglé Comarca;Boca del Río Guariviara
 16;-81.4758,7.7340;08020;Veraguas Province;Managua
+0;-78.9673,9.5481;;Guna Yala;Mamitupu
+0;-77.9735,9.1904;;Guna Yala;Mamitupu
+0;-77.7590,8.9987;;Guna Yala;Mamimulo
 0;-80.0667,9.1667;03019;Colón;Mamey
 0;-79.8167,8.7000;07009;Panamá Oeste Province;Mamey
 0;-82.7463,8.6317;04050;Chiriquí Province;Mamey Abajo
 8;-81.4846,7.7585;08020;Veraguas Province;Mamey
+0;-78.8330,9.4530;;Guna Yala;Mamartupo
 269;-79.3149,9.1209;07080;Panamá;Malengue
+151;-80.9627,7.5764;;Veraguas Province;Malena
 0;-78.5167,8.8333;12013;Panamá;Majé Arriba
+0;-78.8167,9.1667;;Panamá;Majé
+0;-78.5556,8.7317;;Panamá;Majé
 379;-79.9263,8.7267;07040;Panamá Oeste Province;Majará
+0;-78.1359,8.4593;;Darién;Majagualito
 0;-79.8833,9.3500;03002;Colón;Majagual-Gold Hill
 0;-79.7509,8.7114;07030;Panamá Oeste Province;Majagual
 521;-82.7634,8.3307;04014;Chiriquí Province;Majagual
 0;-79.6246,9.6121;03029;Colón;Majagual
 0;-82.9027,8.3549;04013;Chiriquí Province;Majagua Civil Número Uno
+0;-82.9308,8.3429;;Chiriquí Province;Majagua Civil Número Dos
 65;-80.7320,8.2561;08034;Veraguas Province;Maizón
 501;-82.3645,8.6670;04054;Chiriquí Province;Mague
+0;-78.4103,9.3840;;Guna Yala;Maguebgantí
 0;-81.8003,8.3493;10033;Ngöbe-Buglé Comarca;Magorobete
 0;-80.3822,7.6570;06003;Los Santos Province;Maestro Víctor
 0;-79.1438,9.2941;07052;Panamá;El Madroño
@@ -1629,6 +1726,7 @@
 16;-80.0575,8.9474;07013;Panamá Oeste Province;Los Ortigales
 0;-80.1844,9.0431;03018;Colón;Los Órganos
 49;-81.0288,7.9133;08005;Veraguas Province;Los Ñopos
+14;-80.7284,7.5562;;Herrera Province;Los Ñopos
 618;-80.4880,7.9185;06047;Los Santos Province;Los Olivos
 1;-80.4816,7.9337;06047;Los Santos Province;Los Olivitos
 48;-81.2510,8.0182;08070;Veraguas Province;Los Núñes
@@ -1653,6 +1751,7 @@
 0;-80.0000,8.6833;07032;Panamá Oeste Province;Los Monos
 6;-81.3557,8.0337;08026;Veraguas Province;Los Monos
 42;-80.1737,8.8771;02018;Coclé;Los Molejones
+54;-80.2515,8.8207;;Coclé;Los Molejones
 8;-80.7625,7.9623;05040;Herrera Province;Los Mitres
 0;-80.1167,8.8667;07013;Panamá Oeste Province;Los Misterios
 0;-80.2194,8.5445;02008;Coclé;Los Meneses
@@ -1934,6 +2033,7 @@
 0;-82.5009,8.6175;04062;Chiriquí Province;Loma Alta
 364;-81.4665,8.0926;08090;Veraguas Province;Lolá
 0;-79.9724,8.7222;07011;Panamá Oeste Province;Lobracita
+0;-82.8833,9.5333;;Bocas del Toro Province;Llopombre
 0;-79.3333,9.5833;03035;Colón;Llerena
 0;-79.9680,8.5637;07033;Panamá Oeste Province;Llano Verde
 0;-81.7121,8.4793;10035;Ngöbe-Buglé Comarca;Llano Tugrí
@@ -2041,6 +2141,7 @@
 83;-80.9474,7.6221;08075;Veraguas Province;Limones
 56;-80.9160,7.8227;05033;Herrera Province;Limón de Tijeras
 0;-80.4000,7.3833;06073;Los Santos Province;Limoncito
+0;-80.6172,8.7508;;Coclé;Limón
 0;-81.5514,7.9539;08073;Veraguas Province;Limón
 0;-77.5263,7.8951;12023;Darién;Quebrada Limón
 0;-81.5720,7.7647;08020;Veraguas Province;Limón
@@ -2176,6 +2277,7 @@
 88;-80.6805,8.5828;02035;Coclé;Las Sabanas
 0;-80.4309,7.7497;06055;Los Santos Province;La Quebradita
 0;-80.2109,8.9422;02018;Coclé;Las Quebradas de Uracillo
+0;-80.2684,8.8398;;Coclé;Las Quebradas de U
 18;-80.3945,8.5721;02024;Coclé;Las Pozas
 41;-80.1652,8.9141;02018;Coclé;Las Potreras
 0;-80.6557,8.5973;02035;Coclé;Las Potreras
@@ -2440,6 +2542,7 @@
 0;-81.2701,8.3572;08081;Veraguas Province;La Purísima
 0;-78.0721,8.4151;12008;Darién;La Punta
 0;-81.1855,7.5593;08060;Veraguas Province;Gobernadora
+0;-78.1663,8.4665;;Darién;Punta de Roque
 0;-82.2854,9.1207;01005;Bocas del Toro Province;Puerto Diablo
 0;-78.9714,9.2278;07051;Panamá;Altos del Llano
 0;-79.5500,9.1833;07038;Panamá;La Puente
@@ -2571,6 +2674,7 @@
 0;-80.3471,7.5518;06010;Los Santos Province;Quebrada La Palma
 49;-80.4899,7.4373;06070;Los Santos Province;La Palma
 5;-80.4804,7.3183;06077;Los Santos Province;La Palma
+0;-80.8975,8.8814;;Veraguas Province;La Palizada Número Uno
 0;-81.1819,7.8158;08077;Veraguas Province;La Paja
 0;-80.0333,8.6333;07032;Panamá Oeste Province;La Pacora
 0;-80.9196,8.4979;08052;Veraguas Province;La Pacora
@@ -2652,6 +2756,7 @@
 0;-80.1738,9.1950;03026;Colón;Punta Margarita
 0;-81.0854,8.1184;08006;Veraguas Province;Las Margaritas
 0;-80.8859,7.7406;05033;Herrera Province;La Margaja
+0;-77.9903,8.1378;;Darién;Río Bagre
 0;-80.9411,8.3124;08032;Veraguas Province;La Marcela
 0;-81.3517,7.9516;08021;Veraguas Province;La Maraca
 0;-80.5161,8.0360;05019;Herrera Province;La Maquencosa
@@ -2755,6 +2860,7 @@
 0;-81.5626,8.2043;10053;Chiriquí Province;La Iguanera
 171;-81.0307,8.1126;08008;Veraguas Province;La Iguana
 42;-80.8851,7.8857;05039;Herrera Province;La Iguana
+0;-81.7356,7.4457;;Veraguas Province;La Iguana
 144;-80.0276,8.9521;07067;Panamá Oeste Province;La Humildad
 129;-81.2829,8.2434;08017;Veraguas Province;La Hueca Arriba
 0;-81.2696,8.2262;08017;Veraguas Province;La Hueca Abajo
@@ -2819,6 +2925,7 @@
 0;-82.2061,8.4522;04069;Chiriquí Province;La Gloria
 0;-78.1528,8.4007;12015;Darién;La Gloria
 0;-79.7046,9.1901;03014;Colón;La Loma de La Gloria
+0;-78.1459,8.4734;;Darién;Lagarto
 203;-80.3189,7.8784;06031;Los Santos Province;Lagartillo
 184;-81.2087,7.6639;08060;Veraguas Province;Lagartero
 0;-79.9139,9.0794;03007;Panamá Oeste Province;Lagarterita
@@ -2838,6 +2945,7 @@
 0;-81.3629,7.9397;08022;Veraguas Province;La Galera
 0;-81.3482,7.9197;08029;Veraguas Province;La Llano
 41;-80.4505,7.7648;06057;Los Santos Province;La Galera
+0;-81.7428,7.4898;;Veraguas Province;La Galera
 176;-80.0539,8.8287;07014;Panamá Oeste Province;La Gaita Arriba
 0;-79.6000,9.1167;07154;Panamá;La Furnia
 0;-80.6822,7.6042;06061;Herrera Province;La Furnia
@@ -2863,6 +2971,7 @@
 0;-81.5791,7.9478;08073;Veraguas Province;La Estancia
 1172;-80.3889,7.8878;06043;Los Santos Province;La Espigadilla
 0;-79.7667,9.3833;03050;Colón;La Esperanza
+0;-82.0142,8.9421;;Bocas del Toro Province;La Esperanza
 93;-82.7128,8.6405;04022;Chiriquí Province;La Esperanza
 81;-82.3319,8.5900;04002;Chiriquí Province;La Esperanza
 1890;-82.7901,8.4061;04014;Chiriquí Province;La Esperanza
@@ -3072,12 +3181,14 @@
 168;-80.3041,7.8691;06031;Los Santos Province;La Albina Grande
 3;-80.2796,7.8501;06034;Los Santos Province;La Albina del Calabazo
 101;-80.4797,8.5933;02021;Coclé;La Albina
+0;-80.1820,8.3290;;Coclé;La Albina
 15;-81.7187,8.1560;04086;Chiriquí Province;La Albina
 0;-80.0536,7.5429;06067;Los Santos Province;La Ahumada
 0;-80.4338,8.5601;02024;Coclé;La Agustina
 0;-79.9980,8.5033;07039;Panamá Oeste Province;La Agustina
 0;-80.8125,7.9751;08058;Herrera Province;La Agustina
 0;-78.1101,8.4513;12008;Darién;Aguadillita
+0;-77.7202,8.9181;;Guna Yala;Kuba
 0;-82.1667,9.3333;01002;Bocas del Toro Province;Jutica
 0;-80.0667,9.2167;03019;Colón;Justito
 0;-82.7223,8.9098;04051;Chiriquí Province;Jurutungo
@@ -3094,6 +3205,8 @@
 0;-79.6500,9.1667;03014;Panamá;Juan Mina
 0;-79.9399,8.5733;07033;Panamá Oeste Province;Juan Miguel
 0;-80.5556,8.7492;02025;Coclé;Juan Julio
+378;-80.2082,8.3305;;Coclé;Juan Hombrón
+0;-80.2333,8.3000;;Coclé;Juan Hombrón
 652;-79.2562,9.1806;07169;Panamá;Juan Gil
 290;-79.5635,9.6135;03031;Colón;Juan Gallego
 100636;-79.4408,9.0406;07101;Panamá;Juan Díaz
@@ -3128,6 +3241,7 @@
 0;-81.9986,8.3365;04072;Ngöbe-Buglé Comarca;Jengibre
 0;-81.6891,8.3567;10042;Ngöbe-Buglé Comarca;Jengibrales
 16;-81.1637,7.9497;08068;Veraguas Province;Jengibral
+157;-78.8433,9.2184;;Panamá;Jenené
 0;-81.6095,8.3928;10048;Ngöbe-Buglé Comarca;Llano Jején
 87;-82.1026,8.4452;10017;Chiriquí Province;Jazmín
 148;-81.5958,8.4684;10056;Ngöbe-Buglé Comarca;Javilla
@@ -3151,11 +3265,13 @@
 0;-78.9266,9.2193;07051;Panamá;Isla Pato
 312;-80.3139,7.4147;06074;Los Santos Province;Isla de Cañas
 0;-79.9832,8.8812;07222;Panamá Oeste Province;Isabel Sánchez
+0;-78.3054,9.3350;;Guna Yala;Irgandí
 42;-80.6651,8.1966;02040;Coclé;Ingenio Santa Rosa
 0;-80.5205,8.2863;02028;Coclé;Ingenio La Estrella
 9;-80.9138,7.2851;08076;Veraguas Province;Infiernillo
 0;-82.3634,8.7555;04057;Chiriquí Province;India Vieja
 152;-79.6946,9.4972;03032;Colón;Iguanita
+644;-78.6833,9.2144;;Panamá;Icantí
 0;-80.3750,9.1414;03025;Colón;Icaco
 486;-80.1510,9.1964;03021;Colón;Icacal
 0;-81.2000,8.3667;08081;Veraguas Province;Ibalá
@@ -3255,6 +3371,7 @@
 151;-80.4991,7.3394;06070;Los Santos Province;Guaniquito Arriba
 0;-80.4330,7.3001;06077;Los Santos Province;Guánico Abajo
 0;-79.6915,9.5111;03042;Colón;Guanche
+139;-82.8761,8.2474;;Chiriquí Province;Guanábano
 0;-80.2874,7.6144;06002;Los Santos Province;Guanábano
 3453;-82.2997,8.5301;04002;Chiriquí Province;Gualaca
 6561;-79.8118,8.8606;07069;Panamá Oeste Province;Guadalupe
@@ -3367,6 +3484,7 @@
 520;-82.8740,8.3457;04013;Chiriquí Province;Finca Corredor
 0;-82.5863,9.4939;01008;Bocas del Toro Province;Finca Cincuenta y Uno
 0;-82.8712,8.3985;04013;Chiriquí Province;Finca Caoba
+0;-82.9167,8.2833;;Chiriquí Province;Finca Burica
 1063;-82.8740,8.3826;04013;Chiriquí Province;Finca Blanco
 0;-82.8729,8.4286;04013;Chiriquí Province;Asentamiento Almendro
 0;-82.1573,8.4752;04069;Ngöbe-Buglé Comarca;Filo Mamey
@@ -3380,6 +3498,7 @@
 172;-80.4245,8.5946;02024;Coclé;Farallón
 0;-81.4663,8.1845;08089;Veraguas Province;Farallón
 0;-81.3890,8.0842;08086;Veraguas Province;Farallón
+0;-80.6151,8.7722;;Coclé;El Faldar
 0;-81.9369,8.4132;10020;Ngöbe-Buglé Comarca;Falda de Patena
 0;-82.7397,8.5457;04020;Chiriquí Province;San Miguel
 2;-82.6732,8.3335;04035;Chiriquí Province;Estero Rico
@@ -3442,6 +3561,7 @@
 0;-80.8445,7.6951;05033;Herrera Province;Los Ñumis
 18;-80.8059,7.7572;05031;Herrera Province;El Ñuco
 0;-81.5333,8.0000;08093;Veraguas Province;El Tuancle
+0;-81.7308,7.4897;;Veraguas Province;El Trapiche
 176;-80.8692,7.7534;05033;Herrera Province;El Toro
 46;-80.1826,7.5455;06069;Los Santos Province;El Toro
 0;-80.1494,8.9767;02018;Colón;El Torno Arriba
@@ -3582,6 +3702,7 @@
 309;-80.7756,7.8894;05043;Herrera Province;El Potrero
 104;-80.6455,7.8633;05027;Herrera Province;El Potrero
 222;-81.1707,8.2980;08080;Veraguas Province;El Poste
+10;-78.9523,9.5528;;Guna Yala;El Porvenir
 0;-80.1336,9.2039;03021;Colón;El Porvenir
 0;-80.0000,9.1500;03007;Colón;El Portachuelo
 0;-79.9325,8.5303;07029;Panamá Oeste Province;El Poro Poro
@@ -3800,6 +3921,7 @@
 0;-80.7312,8.4833;02031;Coclé;El Macanito
 0;-81.2730,8.3663;08081;Veraguas Province;El Macanito
 0;-81.3220,8.0495;08026;Veraguas Province;Macanal
+0;-78.1667,8.8000;;Darién;El Luvital
 0;-78.1557,8.6493;12016;Darién;El Luvital
 0;-80.0354,8.8720;07222;Panamá Oeste Province;El Lucío
 1;-79.9635,8.8119;07017;Panamá Oeste Province;El Loro
@@ -4051,6 +4173,7 @@
 116;-80.5957,8.2916;02028;Coclé;El Espavé
 42;-80.3835,7.5301;06076;Los Santos Province;Espavé
 118;-82.3424,9.1382;01010;Bocas del Toro Province;El Escobal
+0;-80.3167,8.9167;;Colón;El Escobal
 0;-79.9035,8.8907;07222;Panamá Oeste Province;El Escobal
 118;-80.3784,8.6374;02019;Coclé;El Escobal
 0;-82.6474,8.6044;04028;Chiriquí Province;El Escobal
@@ -4064,6 +4187,7 @@
 11035;-82.5224,9.4147;01011;Bocas del Toro Province;El Empalme
 490;-81.0506,8.1026;08008;Veraguas Province;El Embalsadero
 1120;-80.3820,7.9172;06043;Los Santos Province;El Ejido
+0;-78.1394,8.5084;;Darién;El Edén
 0;-80.1167,9.0167;07013;Colón;El Duende
 0;-80.3443,7.8740;06046;Los Santos Province;El Dormilón
 0;-80.0314,8.5419;07039;Panamá Oeste Province;El Dormidero
@@ -4234,6 +4358,7 @@
 0;-80.5667,7.9667;05024;Herrera Province;El Capache
 0;-81.3266,7.7027;08027;Veraguas Province;El Caoba
 0;-80.5632,7.5750;06063;Los Santos Province;El Cántaro
+0;-81.9908,8.9392;;Ngöbe-Buglé Comarca;El Caño
 1129;-80.5172,8.4078;02017;Coclé;El Caño
 0;-81.3841,8.2450;08083;Veraguas Province;Cañafístulo
 0;-80.3925,7.7216;06036;Los Santos Province;Cañafístulo
@@ -4350,6 +4475,7 @@
 0;-80.9700,8.3157;08043;Veraguas Province;Barnizal
 0;-80.9397,8.2463;08036;Veraguas Province;El Barnizal
 62;-80.8520,7.7496;05033;Herrera Province;El Barniz
+0;-82.0314,8.8952;;Bocas del Toro Province;El Banco
 542;-82.5110,8.6894;04062;Chiriquí Province;El Banco
 487;-82.0319,8.4603;10017;Ngöbe-Buglé Comarca;Cerro Banco
 95;-80.6205,7.8319;05029;Herrera Province;El Banco
@@ -4390,6 +4516,7 @@
 0;-82.8854,8.0978;04012;Chiriquí Province;El Atrocho
 0;-79.9667,9.0167;07067;Colón;El Astillero
 0;-79.9655,8.6056;07033;Panamá Oeste Province;El Astillero
+0;-78.1155,8.5377;;Darién;El Astá
 24;-80.3393,7.5737;06010;Los Santos Province;El Asomadero
 136;-80.3574,7.9164;06046;Los Santos Province;El Aromo
 178;-79.9643,8.4887;07039;Panamá Oeste Province;El Arenal
@@ -4416,6 +4543,7 @@
 34;-80.7489,7.7449;05035;Herrera Province;El Algodón
 0;-80.0266,8.5271;07039;Panamá Oeste Province;Algarrobo
 0;-80.2211,8.9336;02018;Coclé;El Ají
+0;-82.0256,8.9092;;Bocas del Toro Province;El Ají
 0;-80.0867,8.8670;07014;Panamá Oeste Province;El Ahogado Centro
 0;-80.1969,8.9517;02018;Coclé;El Águila
 0;-80.2160,8.6006;02016;Coclé;El Águila
@@ -4446,11 +4574,13 @@
 0;-80.6895,8.1268;05048;Herrera Province;Divisa
 2506;-82.7137,8.4129;04030;Chiriquí Province;Divalá
 0;-81.2113,8.1755;08014;Veraguas Province;Diferente
+0;-80.3978,9.1433;;Colón;Diego
 0;-81.3634,7.9734;08021;Veraguas Province;Diego
 2;-81.0400,7.7056;08075;Veraguas Province;Diáfara
 0;-79.5587,8.9678;07153;Panamá;Diablo Heights
 82907;-82.4309,8.4273;04001;Chiriquí Province;David
 0;-82.0272,8.8470;10011;Ngöbe-Buglé Comarca;Daira Arriba
+0;-82.0287,8.9050;;Bocas del Toro Province;Río Daira
 0;-81.6276,8.2704;04090;Chiriquí Province;Cuvíbora
 1408;-81.8879,9.1816;10010;Ngöbe-Buglé Comarca;Kusapín
 16361;-79.5461,8.9709;07094;Panamá;Curundú
@@ -4477,6 +4607,7 @@
 0;-81.0991,8.3945;08046;Veraguas Province;Cuay Arriba
 0;-81.0908,8.3791;08046;Veraguas Province;Cuay Abajo
 0;-80.5451,8.9703;03023;Colón;Cuatro Callitas
+0;-80.4126,8.9324;;Colón;Cuatro Calles
 0;-78.9745,9.1806;07051;Panamá;Cuarenta Bollos
 0;-79.3106,9.5687;03034;Colón;Cuango
 0;-82.2890,9.1971;01005;Bocas del Toro Province;Cuan Bay
@@ -4488,6 +4619,7 @@
 0;-82.7359,8.8392;04051;Chiriquí Province;Cotito
 21;-81.2482,8.1772;08014;Veraguas Province;Cortaderal
 0;-79.9728,8.6639;07026;Panamá Oeste Province;La Cortadera
+0;-82.8667,9.5167;;Bocas del Toro Province;Corriente Grande
 0;-82.5374,9.3055;01011;Bocas del Toro Province;Corriente Grande
 0;-78.1773,8.5730;12014;Darién;Coredo
 0;-80.5825,8.0826;05019;Herrera Province;Correa
@@ -4508,6 +4640,7 @@
 0;-81.2941,7.7721;08024;Veraguas Province;Corozal
 334;-80.4782,7.7548;06057;Los Santos Province;El Corozal
 23;-80.5009,8.6162;02025;Coclé;Corotú
+114;-82.8947,8.2734;;Chiriquí Province;Márgenes de Corotú
 0;-80.7390,8.2920;08034;Veraguas Province;Corotú
 0;-80.8393,8.2520;08037;Veraguas Province;El Coral
 20;-81.4805,7.7725;08020;Veraguas Province;Corotú
@@ -4518,6 +4651,7 @@
 39;-81.1359,8.2847;08080;Veraguas Province;Corita de Los Pérez
 0;-82.6140,8.7461;04039;Chiriquí Province;Cordillera Arriba
 444;-82.6012,8.7085;04039;Chiriquí Province;Cordillera
+0;-78.9641,9.5480;;Guna Yala;Gorbiski
 0;-78.5828,9.4456;09002;Guna Yala;Corazón de Jesús
 4;-81.1154,7.9506;08063;Veraguas Province;Coquillal
 0;-81.1834,8.0551;08069;Veraguas Province;El Copi
@@ -4525,11 +4659,13 @@
 237;-79.7212,8.9619;07068;Panamá Oeste Province;El Copé
 118;-80.9339,8.5236;08052;Veraguas Province;El Copé
 131;-82.4750,8.5660;04065;Chiriquí Province;Conventillo
+0;-82.6771,9.3647;;Bocas del Toro Province;Cuinco
 803;-80.4213,8.4434;02013;Coclé;El Congo
 0;-80.0900,9.0857;03017;Colón;El Congal
 0;-81.5518,8.0973;08091;Veraguas Province;Alto de Quebrada Conga
 0;-78.9224,8.2434;07044;Panamá;Concholón
 129;-80.5421,7.8312;06042;Los Santos Province;Colorada Abajo
+0;-80.2114,8.3428;;Coclé;La Colonia
 78000;-79.9002,9.3603;03001;Colón;Colón
 371;-79.9698,8.4981;07039;Panamá Oeste Province;Colón
 0;-80.4998,7.8845;05001;Los Santos Province;Colón
@@ -4540,6 +4676,7 @@
 0;-80.4551,7.5046;06076;Los Santos Province;Coiba
 0;-81.7926,8.4143;10038;Ngöbe-Buglé Comarca;Cogoyo
 0;-80.8442,7.3395;08076;Veraguas Province;Cogollales
+930;-77.6957,8.9031;;Guna Yala;Gannirdup
 0;-80.0327,7.5708;06067;Los Santos Province;Cocuyo
 0;-79.1000,9.5500;03039;Colón;Cocuyé Arriba
 0;-79.1337,9.5552;03039;Colón;Cocuyé Abajo
@@ -4553,9 +4690,11 @@
 21;-80.5328,7.8230;06041;Los Santos Province;Cocobó
 0;-82.7667,9.5667;01012;Bocas del Toro Province;Cocoa Elena
 388;-80.5718,9.0754;03023;Colón;Coclé del Norte
+0;-80.5561,8.8101;;Colón;Coclecito
 1298;-80.4155,8.4651;02013;Coclé;Coclé
 615;-82.3763,8.5412;04060;Chiriquí Province;Angostura de Cochea Arriba
 435;-82.3604,8.5070;04002;Chiriquí Province;Cochea Abajo
+0;-77.9727,7.2905;;Darién;Cocalito
 0;-79.9628,9.0069;07067;Colón;Coca Cola
 0;-81.4275,8.2762;08087;Veraguas Province;El Cobre
 0;-79.7487,8.6103;07030;Panamá Oeste Province;Claridad
@@ -4610,6 +4749,7 @@
 0;-78.0819,8.5306;12026;Darién;Chuculero
 0;-82.1647,8.2201;04078;Chiriquí Province;Chuchecal
 0;-80.3231,8.4626;02006;Coclé;Monte Lirio
+0;-82.7030,9.3730;;Chiriquí Province;Chorondro
 0;-82.2358,8.4072;04071;Chiriquí Province;Chorchita
 271;-82.2798,8.3692;04004;Chiriquí Province;Chorcha Abajo
 0;-79.5833,9.0333;07144;Panamá;Chiva Chiva
@@ -4623,6 +4763,7 @@
 2429;-82.3216,8.3971;04004;Chiriquí Province;Chiriquí
 0;-79.5500,9.2167;07211;Panamá;Chiquilleo
 0;-78.9612,9.2101;07051;Panamá;Chimborazo
+786;-78.6333,8.7160;;Panamá;Chimán
 0;-79.5833,9.1667;07103;Panamá;Chilibrillo Número Dos
 33536;-79.6202,9.1540;07103;Panamá;Chilibre
 0;-80.7069,8.5719;02035;Coclé;Chilibre
@@ -4656,6 +4797,7 @@
 0;-82.6884,8.4430;04030;Chiriquí Province;Changuina
 0;-78.0287,8.3707;12008;Darién;Champión
 2362;-79.8843,8.5815;07029;Panamá Oeste Province;Chame
+132;-82.0235,8.8753;;Ngöbe-Buglé Comarca;Chalite
 0;-82.2919,8.6815;04070;Chiriquí Province;Chalapa
 0;-82.3174,8.2490;04078;Chiriquí Province;Chalapa
 0;-82.5996,8.4925;04018;Chiriquí Province;Chacarero
@@ -4843,6 +4985,12 @@
 0;-79.0321,8.5144;07042;Panamá;Casaya
 0;-82.1412,8.9550;01017;Bocas del Toro Province;Barriada El Campesino
 0;-79.1281,9.5537;03039;Colón;Casa Blanca
+0;-78.9625,9.4747;;Guna Yala;Cartí Yantupu
+0;-78.9606,9.4765;;Guna Yala;Cartí Tupile
+1050;-78.9612,9.4706;;Guna Yala;Cartí Sugtupu
+0;-78.9403,9.4591;;Guna Yala;Nurdup
+0;-78.9494,9.4676;;Guna Yala;Cartí Mulatupu
+0;-78.9416,9.4908;;Guna Yala;Icodup
 0;-79.8119,9.2594;03009;Colón;Cartagenita
 0;-78.1809,8.6667;12016;Darién;Carrizal
 0;-80.8834,8.3151;08032;Veraguas Province;Carrizal
@@ -4850,6 +4998,7 @@
 183;-81.2811,7.7272;08027;Veraguas Province;Carrizal
 0;-80.2030,7.5724;06029;Los Santos Province;Carricillal
 441;-79.2423,9.2053;07169;Panamá;Carriazo
+0;-77.5800,8.7818;;Guna Yala;Carreto
 0;-79.7167,9.0167;07003;Panamá Oeste Province;Carretera Arriba
 0;-81.5871,8.3462;10048;Chiriquí Province;Carrera
 97;-81.0352,8.0806;08008;Veraguas Province;El Carrasco
@@ -4913,6 +5062,8 @@
 0;-79.6167,9.2667;03012;Colón;Cañazas Arriba
 0;-80.8951,8.1172;08057;Veraguas Province;Cañazas
 0;-79.6436,9.2543;03003;Colón;Cañazas
+0;-78.2071,9.0828;;Panamá;Cañazas
+653;-78.2249,8.9008;;Panamá;Cañazas
 0;-79.9470,8.8458;07222;Panamá Oeste Province;Cañazas de Chorrera
 0;-80.3360,8.8418;02020;Coclé;Cañazas
 0;-79.9645,8.8384;07222;Panamá Oeste Province;Cañazas
@@ -4953,6 +5104,7 @@
 0;-81.3757,8.0913;08026;Veraguas Province;Caña Blanca
 0;-80.5088,7.3438;06070;Los Santos Province;Caña Blanca
 0;-80.2425,7.7720;06006;Los Santos Province;Campo Alegre
+0;-78.1923,8.4452;;Darién;Campo Alegre
 256;-79.8075,9.3303;03011;Colón;Campeón
 0;-80.7475,8.4274;08030;Coclé;Campanario
 0;-79.6167,9.2333;07211;Colón;Campana de Piedra
@@ -4975,6 +5127,7 @@
 0;-82.4215,8.8060;04058;Chiriquí Province;Colograma
 0;-78.9527,9.1385;07051;Panamá;Calobre Abajo
 795;-80.8410,8.3208;08031;Veraguas Province;Calobre
+0;-78.8167,9.1833;;Panamá;Calle Larga
 0;-82.3151,9.1490;01005;Bocas del Toro Province;Calle Larga
 456;-80.2519,8.4645;02006;Coclé;Calle Larga
 0;-80.0049,8.4680;07039;Panamá Oeste Province;Calle Larga
@@ -5014,6 +5167,7 @@
 175;-80.3686,8.5785;02011;Coclé;Caimital
 0;-81.2304,8.1735;08014;Veraguas Province;Caimital Número Uno
 0;-78.1515,8.5807;12016;Darién;Caobanerita
+0;-78.9061,9.5489;;Guna Yala;Cagandup
 0;-79.6158,9.6118;03029;Colón;Cacique
 124;-81.8873,8.4282;10029;Ngöbe-Buglé Comarca;Cacicón
 0;-79.2333,9.1167;07169;Panamá;Cachira
@@ -5042,6 +5196,7 @@
 0;-81.3093,7.9132;08029;Veraguas Province;Cabecera de Quebrada Honda
 0;-81.5378,8.1110;08091;Veraguas Province;Cabecera de Los Pilones
 0;-79.9577,8.7532;07018;Panamá Oeste Province;Cabecera de Río Caimito
+0;-80.2833,8.8667;;Coclé;Cabecera de Limón
 0;-81.8980,8.3644;10032;Ngöbe-Buglé Comarca;Cabecera de Dupí
 0;-81.2740,8.4772;08079;Ngöbe-Buglé Comarca;Cabecera del Latoncito
 0;-81.3170,7.9254;08029;Veraguas Province;Cabecera de Quebrada Concepción
@@ -5061,6 +5216,7 @@
 96;-80.5571,7.8684;05023;Herrera Province;Bulungo
 3263;-82.6202,8.4861;04018;Chiriquí Province;Bugaba
 581;-80.2346,8.4177;02006;Coclé;Buen Retiro
+0;-78.8211,9.2400;;Panamá;Buenos Aires
 0;-79.4333,9.0667;07102;Panamá;Buenos Aires
 0;-82.1632,8.9190;01017;Bocas del Toro Province;Buenos Aires
 4;-82.4045,8.7884;04057;Chiriquí Province;Buenos Aires
@@ -5153,12 +5309,14 @@
 78;-80.1756,8.9668;02018;Coclé;La Boca de Uracillo
 214;-80.3296,8.7545;02020;Coclé;Boca de Tucué
 0;-79.0218,9.0068;07041;Panamá;Torín
+0;-80.5333,8.9427;;Colón;Boca de Toabré
 0;-81.9421,8.3107;04092;Chiriquí Province;Boca de Quebrada Tigre
 0;-79.9304,8.5046;07029;Panamá Oeste Province;Boca de Teta
 0;-80.1277,8.9284;07013;Panamá Oeste Province;Boca de Teriá
 47;-80.3348,8.8044;02020;Coclé;Boca de San Miguel
 0;-78.2177,8.0339;12009;Darién;Boca de Sábalo
 0;-81.2759,8.0329;08070;Veraguas Province;Limón
+0;-80.1697,8.3369;;Coclé;Boca de Río Hato
 169;-80.5749,7.5221;06078;Los Santos Province;Boca de Quema
 0;-80.1000,8.8500;07014;Panamá Oeste Province;Boca de Quebrada Sanguijuela
 0;-81.9668,8.3981;10021;Ngöbe-Buglé Comarca;Quebrada Posoy
@@ -5188,13 +5346,17 @@
 487;-80.1301,8.7059;07010;Coclé;Boca de Las Minas
 0;-79.6446,9.5922;03029;Colón;Boca de La Quebrada
 0;-80.8500,7.4500;08074;Veraguas Province;Boca de La Honda
+0;-80.3461,8.8791;;Coclé;Boca de La Encantada
 0;-81.4547,7.8457;08022;Veraguas Province;Boca la Corocita
 13;-81.9074,8.8800;10011;Ngöbe-Buglé Comarca;Boca de Jalí
 0;-79.6498,9.2077;03014;Colón;Boca de Gatuncillo
+0;-82.0130,8.9555;;Bocas del Toro Province;Boca de Río Daira
 0;-80.4794,8.8238;02020;Coclé;Boca de Cutevilla
 877;-77.5861,8.0346;12024;Darién;Boca de Cupe
 0;-80.3750,8.8200;02020;Coclé;Boca de Cuiria
+0;-81.9249,8.9777;;Ngöbe-Buglé Comarca;Boca del Río Cricamola
 75;-81.1059,8.2692;08080;Veraguas Province;Boca de Corita
+0;-78.5500,8.7667;;Panamá;Boca de Chucantí
 113;-80.2908,8.7143;02019;Coclé;Boca de Chiguirí
 0;-78.9167,9.2000;07051;Panamá;Boca de Cañita
 0;-81.8321,8.3510;10030;Ngöbe-Buglé Comarca;Boca de Candela
@@ -5234,6 +5396,7 @@
 0;-81.3500,8.3333;10054;Ngöbe-Buglé Comarca;Bella Vista
 25;-81.2155,8.0693;07016;Veraguas Province;Bella Vista
 1104;-80.2343,7.7431;06021;Los Santos Province;Bella Vista
+142;-80.8682,8.8845;;Colón;Belén
 71;-80.2507,8.6941;07010;Coclé;Bejuco
 3897;-79.8865,8.6050;07029;Panamá Oeste Province;Bejuco
 173;-82.4633,8.5866;04065;Chiriquí Province;Bejuco
@@ -5274,10 +5437,12 @@
 52;-80.6367,8.3878;02032;Coclé;Barranco Colorado
 1398;-82.7042,9.5198;01012;Bocas del Toro Province;Barranco
 0;-81.9464,8.3824;10031;Ngöbe-Buglé Comarca;Barranco
+0;-82.4001,8.2442;;Chiriquí Province;Barranca
 74;-80.7776,8.4046;08030;Veraguas Province;Barnizal
 69;-81.6798,8.2630;10039;Chiriquí Province;Barniz
 0;-80.0167,9.0500;03017;Colón;Barbusal
 0;-80.3293,8.8189;02020;Coclé;Banazo Abajo
+69;-80.3034,8.8369;;Coclé;Banazo Centro
 431;-82.6101,8.8379;04019;Chiriquí Province;Bambito
 0;-82.8631,8.0858;04012;Chiriquí Province;Balsa Número Dos
 0;-79.8000,8.6833;07031;Panamá Oeste Province;Balsa
@@ -5364,6 +5529,7 @@
 910;-82.5269,8.4671;04038;Chiriquí Province;Bágala
 445;-82.7498,8.3595;04014;Chiriquí Province;Finca Baco
 0;-79.4958,9.1174;07210;Panamá;Bachiller
+0;-78.8333,9.1667;;Panamá;Babita de Perro
 0;-81.5770,7.8710;08073;Veraguas Province;Playa Azul Número Uno
 0;-80.8423,7.8816;05038;Herrera Province;El Ave María
 120;-80.4536,7.3248;06077;Los Santos Province;Ave María
@@ -5377,6 +5543,8 @@
 116;-81.2497,8.0237;08070;Veraguas Province;Asiento Bonito
 1804;-82.7893,8.4864;04017;Chiriquí Province;Aserrío de Gariché
 0;-77.6165,8.0908;12024;Darién;Aruza
+0;-78.9046,9.4910;;Guna Yala;Arridup
+0;-79.0265,9.5012;;Guna Yala;Arritupu
 44;-81.3095,7.6600;08027;Veraguas Province;Arrimadero
 0;-80.0027,9.1619;03007;Colón;El Arriero
 0;-80.2000,9.1667;03026;Colón;Arrieral
@@ -5414,6 +5582,7 @@
 20706;-79.5514,8.9602;07098;Panamá;Ancón
 0;-79.5503,8.7888;07005;Panamá;Ancón
 0;-80.6091,8.6135;02026;Coclé;Ana María
+0;-77.5477,8.7319;;Guna Yala;Anachukuna
 0;-81.5784,8.3556;10048;Ngöbe-Buglé Comarca;Quebrada Flecha
 0;-82.1374,8.3173;04081;Chiriquí Province;Alto Tamarindo
 0;-80.3106,8.7526;02020;Coclé;Altos de San Miguel
@@ -5520,6 +5689,8 @@
 0;-82.1258,9.2867;01002;Bocas del Toro Province;Quebrada Álvarez
 1373;-82.5587,8.4000;04036;Chiriquí Province;Alanje
 79;-82.0854,8.3649;04079;Chiriquí Province;Alambique
+1652;-78.0278,9.2281;;Guna Yala;Ailigandí
+0;-78.3766,9.3658;;Guna Yala;Aidirgandí
 0;-79.7476,8.9679;07068;Panamá Oeste Province;Ahoga Yegua
 40;-81.2916,8.2167;08017;Veraguas Province;Agua Viva
 0;-79.7524,9.2663;03047;Colón;Agua Sucia
@@ -5569,7 +5740,11 @@
 6;-81.4156,7.9811;08021;Veraguas Province;Agua Blanca
 0;-80.9167,7.8833;08005;Herrera Province;Agua Azules
 0;-82.3244,9.1487;01005;Bocas del Toro Province;África
+0;-78.9985,9.4560;;Guna Yala;Acuatupu
 164;-81.1299,8.0495;08069;Veraguas Province;Aclita
+0;-78.8652,9.5620;;Guna Yala;Achudup Dummad
+1753;-77.9873,9.1983;;Guna Yala;Achutupo
+0;-78.9268,9.4917;;Guna Yala;Achuerdup
 0;-80.9470,8.5290;08052;Veraguas Province;Achotillal
 0;-80.0189,9.2224;03016;Colón;Achiote
 0;-82.4447,8.6122;04062;Chiriquí Province;Las Acequias
@@ -5579,24 +5754,32 @@
 108;-78.3689,8.4025;12007;Darién;Río Congo
 0;-78.1278,8.3267;12010;Darién;Carta Genero
 0;-78.0356,8.3816;12008;Darién;Macareño
+0;-78.5410,8.7285;;Panamá;Tutí
 0;-78.9273,8.9486;07059;Panamá;Ensenada Rica Arriba
 77;-78.9090,8.9408;07059;Panamá;Pásiga
 0;-78.8796,8.9210;07059;Panamá;Oquendo
+0;-78.6394,8.8375;;Panamá;Unión Tableíro
 652;-78.5147,8.9699;12013;Panamá;Ipetí Chocó
 0;-78.9113,8.9761;07059;Panamá;Río Nazareno
+0;-78.6155,9.2002;;Panamá;Río Piragua
+0;-78.7756,9.2633;;Panamá;Chuluganti
 0;-78.9658,9.1153;07041;Panamá;Calobrito
 0;-78.9675,9.0803;07041;Panamá;Limonada Arriba
 239;-78.8886,9.1651;07051;Panamá;Loma del Naranjo
 0;-78.8861,9.1181;07006;Panamá;Majecito
 13;-78.8957,9.0792;07006;Panamá;El Cruce de Majecito
 37;-78.9909,9.0861;07041;Panamá;Seis Reales
+0;-78.6262,9.0452;;Panamá;Piriatí
+0;-78.8824,9.5885;;Guna Yala;Isla Wichitupo Grande
 0;-78.2552,8.0082;12018;Darién;Jesucito
 0;-78.2461,7.9589;12018;Embera;Sábalo
 0;-78.1422,7.9368;12017;Embera;Boca de Trampa
 0;-78.2152,7.9962;12018;Darién;El Salto
 0;-78.1747,7.9983;12009;Embera;Curundame
 0;-78.4120,7.9810;12004;Darién;Casa Vieja
+0;-78.3620,7.8892;;Darién;Playa Muerto
 75;-78.1200,7.9212;12017;Embera;Churuco
+0;-78.2792,7.7333;;Darién;Caracoles
 0;-78.1095,7.8973;12017;Embera;Quebrada El Barrial
 3;-78.1001,7.8799;12017;Embera;Cucaracha
 0;-78.0839,7.8775;12017;Embera;Jingurudo
@@ -5652,7 +5835,12 @@
 0;-77.6046,8.1978;12020;Embera;Naranjal
 184;-77.6169,8.2717;12020;Embera;Punta Grande
 313;-77.6160,8.1210;12024;Embera;Vista Alegre
+0;-77.5241,8.2752;;Embera;Nazareth
 0;-77.7445,8.1597;12025;Darién;La Doncella
+0;-77.5271,8.2660;;Embera;Morritos
+0;-78.5000,9.2500;;Guna Yala;Río Tigre
+0;-77.3333,8.2333;;Darién;Caledonia
+0;-78.8000,9.3833;;Guna Yala;Rio Alzucar
 0;-79.5822,9.6115;03030;Colón;Puerto Lindo
 0;-77.8671,8.4105;12028;Darién;Sansón
 0;-77.8304,8.3380;12028;Darién;Canglón
@@ -5664,10 +5852,13 @@
 0;-77.7344,8.1171;12022;Darién;El Real
 0;-82.5098,9.4548;01011;Bocas del Toro Province;Changuinola District
 686;-78.2053,8.0217;12009;Darién;Puerto Indio
+0;-78.9728,9.4519;;Guna Yala;Wannukandi
+0;-78.9536,9.4421;;Guna Yala;Warsobtugua
 0;-82.5447,9.4650;01011;Bocas del Toro Province;San San
 0;-79.5759,8.9005;07001;Panamá Oeste Province;Playa Bonita Village
 1222;-79.5910,8.9394;07166;Panamá;Howard
 210;-81.5093,7.7787;08020;Veraguas Province;Salmonete
+0;-82.5333,9.2294;;Bocas del Toro Province;Teribe
 0;-81.4807,7.9254;08093;Veraguas Province;El Gorgojo
 0;-81.3917,7.7168;08027;Veraguas Province;Cabecera de Quebrada Grande
 125;-81.3648,7.7261;08027;Veraguas Province;Quebrada Grande
@@ -5691,6 +5882,7 @@
 0;-80.2928,7.8226;06030;Los Santos Province;El Espasé
 118;-80.2060,7.5075;06069;Los Santos Province;Oria Arriba
 0;-80.5403,7.8777;05023;Herrera Province;Urbanización Azuero
+0;-80.8466,7.6306;;Veraguas Province;Río Negro Número Dos
 575;-79.6126,9.5558;03042;Colón;Nuevo Tonosí
 0;-79.5611,9.5647;03030;Colón;San Antonio
 0;-79.7227,9.4744;03032;Colón;Alto de La Cruz
@@ -5727,10 +5919,13 @@
 124;-78.8983,9.1017;07006;Panamá;Tres Quebradas
 91;-78.9476,9.0886;07041;Panamá;Trapiche Arriba
 0;-78.8613,9.0488;07006;Panamá;Agua Buena Número Uno
+0;-78.7994,9.1701;;Panamá;Akua Yala
+143;-78.6810,9.0771;;Panamá;Quebrada Calí
 0;-78.8038,9.0811;07006;Panamá;Pueblo Nuevo Número Dos
 265;-78.5626,9.0189;12013;Panamá;Loma Bonita
 65;-78.5735,9.0019;12013;Panamá;Alcatriz
 0;-78.5398,9.0050;12013;Panamá;Curtí
+366;-78.5913,9.0322;;Panamá;Catrigandí
 0;-78.2125,8.0835;12009;Embera;La Chunga
 0;-78.3069,8.0257;12004;Darién;Calle Larga
 0;-78.4869,8.9753;12013;Panamá;Río Seco Número Dos
@@ -5745,13 +5940,22 @@
 393;-78.2941,8.9325;07054;Panamá;Higueronal
 0;-78.3239,8.8936;07054;Panamá;Higueronal Centro
 0;-78.2912,8.8883;07054;Panamá;Palmas Bellas
+0;-78.2418,8.9355;;Panamá;Puerto Limón
+84;-78.2006,8.9242;;Panamá;La Ocho
+0;-78.1391,8.9574;;Panamá;Pingandincito
 0;-78.3296,8.8861;07054;Panamá;Higueronal Arriba
 0;-77.4562,8.6395;09003;Guna Yala;Pueblo Nuevo
+0;-78.3889,8.6241;;Darién;Reserva
 0;-78.3841,8.5940;12014;Darién;Barriales
 0;-78.3827,8.8196;07054;Darién;Platanillo
 0;-78.4012,8.8170;07054;Darién;Río Venao
+215;-78.3682,8.7897;;Darién;Río Arenal
+2;-78.2500,8.8360;;Darién;Quebrada Limón Abajo
+0;-78.1895,8.8239;;Darién;Agua Fría Número Dos
 153;-78.0842,8.8262;11001;Darién;Palmira
+0;-78.2828,8.7517;;Darién;Guayabillo
 0;-78.1975,8.7525;12016;Darién;Sabanas
+9;-78.2152,8.7846;;Darién;Sabana Arriba
 0;-78.2245,8.7438;12016;Darién;Zimba
 121;-78.1335,8.7842;12016;Darién;Vista Alegre
 463;-78.1734,8.7658;12016;Darién;El Tirao
@@ -5782,10 +5986,19 @@
 179;-77.8868,8.0417;12002;Darién;Camogantí
 0;-77.5967,8.1009;12024;Embera;Puente
 0;-77.5733,8.0601;12024;Embera;Capetí
+0;-77.6011,8.3293;;Embera;La Esperanza
+148;-77.6191,8.3043;;Embera;La Pulida
 309;-77.5964,8.2011;12020;Embera;Corozal
 0;-77.6200,8.1851;12020;Embera;Común
 0;-77.5590,8.2166;12020;Embera;Villa Nueva
+0;-77.5467,8.2376;;Embera;El Tigre
+439;-77.8084,8.6342;;Embera;Canán
+282;-77.8297,8.6158;;Embera;Sinaí
+0;-77.7675,8.5616;;Embera;Nuevo Santa Rosa
+220;-77.7242,8.5536;;Embera;Tortuga
+0;-77.6789,8.4571;;Embera;Bajo Chiquito
 210;-77.7250,8.4473;12028;Embera;Villa Caleta
+0;-78.1978,8.8596;;Darién;Agua Fría Número Uno
 0;-78.0126,8.3958;12008;Darién;Bajos de Iglesias
 0;-78.2558,7.9973;12018;Darién;Atalaya
 0;-78.2223,7.9982;12018;Darién;La Colonia Bijagual
@@ -5794,13 +6007,19 @@
 76;-77.9269,7.9816;12012;Darién;Chuletí
 0;-78.0904,7.4950;12005;Darién;Lucas
 140;-78.0737,7.4976;12005;Darién;Coco
+24;-78.0086,7.4753;;Darién;El Mamey
 0;-77.8721,7.8961;12012;Darién;Llano Bonito
 275;-77.8542,7.8715;12012;Darién;Manené
+0;-77.8508,7.7588;;Darién;Pueblo Nuevo
+0;-77.8335,7.6988;;Darién;Nueva Galilea
+0;-77.8145,7.5928;;Darién;Buenos Aires
 0;-77.5970,8.0056;12024;Darién;Bajo Grande
 0;-77.6038,7.9962;12024;Darién;Bajo Lepe
 0;-77.5346,7.9428;12023;Darién;El Balsal
+0;-77.5263,7.7711;;Darién;Boca de Punusa
 254;-78.7392,8.8526;07053;Panamá;Río Hondo
 215;-78.7297,8.8084;07053;Panamá;El Hato
+413;-78.6489,8.8350;;Panamá;Unión Santeña
 0;-78.5687,8.9931;12013;Panamá;Curtí Arriba
 107;-78.4995,8.9669;12013;Panamá;Quebrada La Palma
 0;-78.5036,8.9852;12013;Panamá;Ipetí Kuna
@@ -5868,8 +6087,10 @@
 0;-82.6080,9.4999;01008;Bocas del Toro Province;Finca Cincuenta y Dos
 252;-81.8205,9.0249;10015;Ngöbe-Buglé Comarca;Bahía Grande
 224;-81.2556,7.7011;08027;Veraguas Province;El Tigre de Los Amarillos
+53;-78.6141,9.0408;;Panamá;Brazo de Piriatí
 0;-80.5650,9.0069;03023;Colón;San Lucas
 0;-80.3502,9.1000;03025;Colón;Nuevo Veraguas
+344;-80.3912,9.0023;;Colón;Villa del Carmen
 132;-80.3013,9.0252;03018;Colón;Boca del Congal
 0;-80.0451,9.0992;03017;Colón;El Nuevo Porvenir
 0;-80.0496,9.0831;03017;Colón;Chorrillo
@@ -5906,6 +6127,7 @@
 0;-82.8752,8.4144;04013;Chiriquí Province;Finca Palmito Viejo
 0;-82.8631,8.4054;04013;Chiriquí Province;Finca Palmito Uno
 178;-82.9059,8.4057;04013;Chiriquí Province;Finca Bongo
+431;-82.9512,8.3988;;Chiriquí Province;La Victoria
 197;-82.9480,8.4117;04013;Chiriquí Province;El Coco
 375;-82.8915,8.3971;04013;Chiriquí Province;Finca Zapatero
 0;-82.9026,8.3912;04013;Chiriquí Province;Burica Centro
@@ -5915,7 +6137,12 @@
 0;-82.8215,8.3496;04014;Chiriquí Province;Finca Malagueto
 0;-82.8858,8.3567;04013;Chiriquí Province;Finca Majagua
 189;-82.8845,8.3492;04013;Chiriquí Province;Finca Higuito
+0;-82.9603,8.3939;;Chiriquí Province;La Vaquita
 391;-82.9360,8.3626;04013;Chiriquí Province;Blanco Arriba
+0;-82.9980,8.3308;;Chiriquí Province;Quebrada Sábalos
+58;-82.9604,8.2937;;Chiriquí Province;Cabecera de San Bartolo
+4536;-82.8508,8.3056;;Chiriquí Province;El Palmar
+0;-82.8721,8.2545;;Chiriquí Province;Guanabanito
 0;-82.7761,8.8156;04051;Chiriquí Province;Santa Clarita
 0;-82.7635,8.7978;04051;Chiriquí Province;San Antonio Arriba
 0;-82.6398,8.6228;04043;Chiriquí Province;Nueva Esperanza
@@ -5935,6 +6162,7 @@
 200;-82.5376,8.6072;04040;Chiriquí Province;Bonilla
 0;-82.5761,8.8346;04019;Chiriquí Province;Alto Pineda
 151;-82.5564,8.8471;04019;Chiriquí Province;Las Cumbres
+0;-82.3678,8.9883;;Ngöbe-Buglé Comarca;Pueblo Santo
 0;-82.2988,8.8044;04070;Ngöbe-Buglé Comarca;Totole
 342;-82.4037,8.7645;04057;Chiriquí Province;Alto Jaramillo
 68;-82.2854,8.7199;04070;Chiriquí Province;Soledad
@@ -5962,6 +6190,8 @@
 0;-82.1648,8.4942;04069;Ngöbe-Buglé Comarca;Chorchita Arriba
 189;-82.0655,8.8992;01017;Ngöbe-Buglé Comarca;Quebrada Buenaventura
 0;-82.0574,8.8992;01017;Ngöbe-Buglé Comarca;Pumuna
+0;-82.0243,8.8895;;Ngöbe-Buglé Comarca;Cañazas Número Uno
+302;-82.0240,8.8979;;Ngöbe-Buglé Comarca;Centro Daira
 183;-81.9227,8.8695;10011;Ngöbe-Buglé Comarca;Cerro Ñeque
 283;-81.9974,8.8399;10011;Ngöbe-Buglé Comarca;Quebrada Tula
 0;-81.9930,8.8390;10011;Ngöbe-Buglé Comarca;Samboa
@@ -5991,6 +6221,7 @@
 0;-81.9464,8.3674;10031;Ngöbe-Buglé Comarca;Alto Camarón
 0;-81.9860,8.3272;10027;Ngöbe-Buglé Comarca;Potrero de Palma
 136;-81.9865,8.2692;04080;Chiriquí Province;Coquillo
+0;-81.8908,8.9315;;Ngöbe-Buglé Comarca;Pueblo Nuevo
 185;-81.7499,8.8569;10006;Ngöbe-Buglé Comarca;Río Viento
 0;-81.8563,8.8659;10006;Ngöbe-Buglé Comarca;Poman Quare
 223;-81.7972,8.7994;10006;Ngöbe-Buglé Comarca;Joboto
@@ -6088,13 +6319,26 @@
 0;-81.7580,8.6024;10007;Ngöbe-Buglé Comarca;Jurigote
 143;-82.6354,8.6545;04043;Chiriquí Province;Buena Vista Arriba
 617;-81.7701,8.2900;10034;Ngöbe-Buglé Comarca;Lajero
+693;-82.8811,8.3142;;Chiriquí Province;San Bartolo Línea
 17;-81.4021,8.7218;10014;Ngöbe-Buglé Comarca;Loma Yuca
 302;-81.0848,8.8069;08048;Veraguas Province;Río Guázaro
+90;-80.9703,8.8435;;Veraguas Province;Concepción
+0;-80.8604,8.8646;;Colón;Ciudad Romero
+140;-80.7339,8.7494;;Colón;Calle Larga
+0;-80.3120,8.9599;;Colón;El Cedro
+0;-80.6219,8.7867;;Colón;San Juan de Turbe
 0;-80.5103,8.7624;02020;Coclé;Molejón
+0;-80.4882,8.8585;;Coclé;Cuteva
+0;-80.4279,8.8722;;Coclé;Coquillo
+136;-80.3754,8.8714;;Coclé;San Isidro
+223;-80.4431,8.9040;;Colón;Sabanita Verde
 342;-80.3978,8.7622;02020;Coclé;Tulú
 97;-80.3480,8.8198;02020;Coclé;Lourdes
 270;-80.2876,8.7869;02020;Coclé;Santa Ana
+0;-80.3660,8.8579;;Coclé;Boca de Tulú
+42;-80.3922,8.8557;;Coclé;Unión Santeña
 0;-80.3589,8.7589;02020;Coclé;Lurá Centro
+0;-80.2794,8.8066;;Coclé;Altos de Los Darieles
 205;-80.2261,8.6952;07010;Coclé;Chiguirí Centro
 150;-80.1317,8.9919;07013;Colón;Nueva Arenosa
 115;-80.1493,8.9725;02018;Colón;El Nancito
@@ -6111,6 +6355,7 @@
 127;-80.1774,8.6009;02003;Coclé;Alto México
 0;-80.2112,8.6435;07010;Coclé;Pozo Azul
 198;-80.2741,8.7288;02019;Coclé;Caño de San Miguel
+0;-80.2508,8.8491;;Coclé;Sabaneta de U
 182;-80.3421,8.6907;02019;Coclé;Tucuecito
 823;-80.4068,8.5426;02013;Coclé;Marica Abajo
 98;-80.2716,8.9669;02018;Colón;Cerro Miguel de Donoso
@@ -6249,6 +6494,7 @@
 0;-80.9756,8.0918;08001;Veraguas Province;Urbanizacion La Alameda
 0;-80.9766,8.0929;08001;Veraguas Province;Barriada Condado del Sur
 0;-80.9771,8.0884;08001;Veraguas Province;Residencial Marbella
+0;-77.9343,9.1429;;Guna Yala;Patesucun
 0;-82.8908,8.3454;04013;Chiriquí Province;Sangrillo
 0;-82.9012,8.3601;04013;Chiriquí Province;Balaspit
 0;-82.9001,8.3709;04013;Chiriquí Province;Rabo de Gallo
@@ -6261,6 +6507,9 @@
 0;-82.8925,8.4130;04013;Chiriquí Province;Finca Aguacate
 0;-82.9269,8.4133;04013;Chiriquí Province;Finca Corozo
 0;-82.9315,8.4048;04013;Chiriquí Province;Cañazas
+0;-82.9509,8.3757;;Chiriquí Province;Cañazas Arriba
+0;-82.9651,8.3571;;Chiriquí Province;La Unión
+0;-82.9961,8.3409;;Chiriquí Province;La Llanura de Blanca Arriba
 0;-82.8781,8.3353;04013;Chiriquí Province;Los Potreros
 0;-82.8218,8.3898;04013;Chiriquí Province;Quebrada Arena
 0;-82.8391,8.4085;04013;Chiriquí Province;Colorado
@@ -6376,9 +6625,17 @@
 0;-81.9910,8.3435;10027;Ngöbe-Buglé Comarca;Boca de Hacha
 0;-82.0147,8.3793;10021;Ngöbe-Buglé Comarca;Quebrada Tigra
 0;-82.8382,8.3113;04014;Chiriquí Province;Palo Blanco
+0;-82.8740,8.2420;;Chiriquí Province;Boca de Guanábano
 0;-82.8972,8.2126;04012;Chiriquí Province;Quebrada Seca
 0;-82.8952,8.2202;04012;Chiriquí Province;El Fraile
+0;-82.9025,8.3020;;Chiriquí Province;Quebrada de Piedra
+0;-82.8857,8.2859;;Chiriquí Province;Monte Verde Arriba
+0;-82.8762,8.3006;;Chiriquí Province;Rabo de Puerco Abajo
+0;-82.8807,8.3149;;Chiriquí Province;Cabo de Horno
 0;-82.8893,8.3334;04013;Chiriquí Province;Los Bajos de Palo Blanco
+0;-82.9135,8.3213;;Chiriquí Province;San Bartolo Arriba
+0;-82.9672,8.3249;;Chiriquí Province;Choroco
+0;-82.8765,8.2618;;Chiriquí Province;La Represa
 0;-82.7990,8.5853;04020;Chiriquí Province;Salsipuedes
 0;-82.7826,8.5989;04050;Chiriquí Province;Agua Fría
 0;-82.8091,8.5886;04020;Chiriquí Province;Brazo Seco
@@ -6861,11 +7118,13 @@
 0;-82.5249,8.3202;04031;Chiriquí Province;Los Chiriquíes
 0;-82.5147,8.3289;04031;Chiriquí Province;Cabreña
 0;-82.5313,8.3193;04031;Chiriquí Province;Puerto
+0;-82.3853,8.2345;;Chiriquí Province;Guerrero
 0;-82.4103,8.2512;04007;Chiriquí Province;El Hato
 0;-82.4309,8.2587;04007;Chiriquí Province;Punta Las Pavas
 0;-82.3939,8.2792;04007;Chiriquí Province;Sabaneta
 0;-82.4137,8.2749;04007;Chiriquí Province;Sabino
 0;-82.3611,8.2883;04007;Chiriquí Province;Boquita Centro
+0;-83.0181,8.3487;;Chiriquí Province;Los Plancitos
 0;-82.8854,8.1604;04012;Chiriquí Province;Yerbazal Arriba
 0;-82.8827,8.0504;04012;Chiriquí Province;Bella Vista
 0;-82.8464,8.8296;04048;Chiriquí Province;Miraflores Oeste
@@ -6933,6 +7192,7 @@
 0;-82.5446,9.2923;01011;Bocas del Toro Province;Campamento Bracha
 0;-82.5352,9.2818;01007;Bocas del Toro Province;Marco
 0;-82.5654,9.2912;01011;Bocas del Toro Province;Buena Vista
+0;-82.5749,9.2897;;Bocas del Toro Province;Quebrada Puerco
 0;-82.5492,9.3270;01011;Bocas del Toro Province;Quebrada Carbón Número Dos
 0;-82.5651,9.3296;01011;Bocas del Toro Province;La Mina
 0;-82.5118,9.3268;01011;Bocas del Toro Province;Selvina
@@ -6941,14 +7201,22 @@
 0;-82.5170,9.2317;01007;Bocas del Toro Province;Boca Chica
 0;-82.5029,9.2296;01010;Bocas del Toro Province;Charco La Pava
 0;-82.5023,9.2715;01007;Bocas del Toro Province;Bajo Gavilán
+0;-82.9348,9.4734;;Bocas del Toro Province;Namuwuoki
 0;-82.5014,9.1393;01010;Bocas del Toro Province;Boca de Culubre
+0;-82.5279,9.0965;;Bocas del Toro Province;Bajo Culubre
+0;-82.6058,9.0904;;Bocas del Toro Province;Caña Blanca
+0;-82.5168,9.0251;;Bocas del Toro Province;Ceiba Arriba
 0;-82.8421,9.4839;01012;Bocas del Toro Province;La Golondrina
+0;-82.8583,9.4862;;Bocas del Toro Province;Tscui
 0;-82.8097,9.4779;01012;Bocas del Toro Province;Kapequicha
 0;-82.8020,9.4612;01012;Bocas del Toro Province;Boroni
 0;-82.7980,9.4788;01012;Bocas del Toro Province;Sanury
+0;-82.8803,9.5716;;Bocas del Toro Province;Boca de Yorkín
+0;-82.8639,9.5227;;Bocas del Toro Province;El Guabo
 0;-82.8420,9.5102;01012;Bocas del Toro Province;Dakles
 0;-82.8060,9.5110;01012;Bocas del Toro Province;Agua Salud
 0;-82.7546,9.5536;01012;Bocas del Toro Province;Dos Caños Abajo
+0;-82.8723,9.5930;;Bocas del Toro Province;Las Delicias Arriba
 0;-82.8290,9.5866;01012;Bocas del Toro Province;Sibube Adentro
 0;-82.8012,9.5960;01012;Bocas del Toro Province;Sinostre
 0;-82.8048,9.5834;01012;Bocas del Toro Province;Sinostre Adentro
@@ -7016,6 +7284,7 @@
 0;-82.5081,9.4009;01011;Bocas del Toro Province;Loma de Bambú
 0;-82.5047,9.4010;01011;Bocas del Toro Province;Bambú
 0;-82.5407,9.4007;01011;Bocas del Toro Province;La Hortaliza
+0;-82.6837,9.3697;;Bocas del Toro Province;Groncho
 0;-82.6583,9.3824;01008;Bocas del Toro Province;Duerpsco
 0;-82.6632,9.3758;01008;Bocas del Toro Province;Cugin
 0;-82.6541,9.3808;01008;Bocas del Toro Province;Drunaac
@@ -7072,13 +7341,20 @@
 0;-82.5727,8.7527;04053;Chiriquí Province;Palo Suave
 0;-82.5037,8.7985;04058;Chiriquí Province;Camiseta
 0;-82.5415,8.6873;04053;Chiriquí Province;Quebrada Honda
+0;-82.3511,8.9801;;Ngöbe-Buglé Comarca;Cabecera de Quebrada Arena
 0;-82.3455,8.9887;01015;Ngöbe-Buglé Comarca;Quebrada Arena
 0;-82.3434,8.9936;01015;Ngöbe-Buglé Comarca;Quebrada Laurel
 0;-82.3312,8.9950;01015;Ngöbe-Buglé Comarca;Quebrada Conejo
+0;-82.3604,8.9882;;Ngöbe-Buglé Comarca;Coclecito
 0;-82.3269,8.9807;01015;Ngöbe-Buglé Comarca;Quebrada Macho
 0;-82.2992,8.9714;01015;Ngöbe-Buglé Comarca;Alto Peña
 0;-82.3057,8.9967;01015;Ngöbe-Buglé Comarca;Norteño Arriba
 0;-82.2666,8.9889;01015;Bocas del Toro Province;Los Cedeños
+0;-82.4880,8.9843;;Bocas del Toro Province;Valle Libre
+0;-82.4585,8.9592;;Bocas del Toro Province;La Playita
+0;-82.4566,8.9365;;Bocas del Toro Province;Cedrales
+0;-82.4247,8.9610;;Bocas del Toro Province;Culebra
+0;-82.3833,8.9356;;Bocas del Toro Province;Alto Romero
 0;-82.2672,8.8324;01017;Ngöbe-Buglé Comarca;Guayabal
 0;-82.2620,8.8577;01017;Ngöbe-Buglé Comarca;Caracol
 0;-82.2543,8.8989;01017;Ngöbe-Buglé Comarca;Comunidad de Alto Oriente
@@ -7144,8 +7420,18 @@
 0;-82.1319,9.2699;01002;Bocas del Toro Province;Jack Analy Cays
 0;-80.5172,7.2703;06077;Los Santos Province;Cabecera de Quebrada Grande
 0;-80.5433,7.2765;06077;Los Santos Province;Horcones Arriba
+0;-80.5989,7.2347;;Los Santos Province;Punta Blanca
+0;-80.6537,7.2269;;Veraguas Province;Cobachón
+0;-80.6616,7.2248;;Veraguas Province;Pachotal
+0;-80.6140,7.2643;;Veraguas Province;Portobelo
 0;-80.5063,7.2515;06077;Los Santos Province;Los Buzos
 0;-80.5157,7.2460;06077;Los Santos Province;La Pipa
+0;-80.5550,7.2440;;Los Santos Province;Piedra Careta
+0;-80.6870,7.2171;;Veraguas Province;Granada
+0;-80.6391,7.2321;;Veraguas Province;Playa Verde
+0;-80.7012,7.2147;;Veraguas Province;Lajas
+0;-80.6697,7.2214;;Veraguas Province;Colorado
+0;-80.7188,7.2116;;Veraguas Province;Sierra
 0;-82.2816,9.0905;01014;Bocas del Toro Province;Caracol
 0;-82.2868,9.0856;01014;Bocas del Toro Province;La Conga
 0;-82.2890,9.0974;01014;Bocas del Toro Province;El Tamarindo
@@ -7160,6 +7446,7 @@
 0;-82.3062,9.1331;01005;Ngöbe-Buglé Comarca;Loma Venado
 0;-82.3204,9.1637;01005;Bocas del Toro Province;Loma Cuchilla
 0;-82.3578,9.1440;01010;Bocas del Toro Province;Quebrada Pinzón
+0;-82.4801,9.0841;;Bocas del Toro Province;Guayacán
 0;-82.3967,9.1279;01010;Bocas del Toro Province;Quebrada Huaca
 0;-82.3921,9.0977;01010;Bocas del Toro Province;Cerro Palma
 0;-82.3985,9.1470;01010;Bocas del Toro Province;Quebrada Mono
@@ -7178,6 +7465,7 @@
 0;-82.3760,9.1374;01010;Bocas del Toro Province;Quebrada Plátano
 0;-82.3323,9.0227;01014;Ngöbe-Buglé Comarca;Loma Chaparro
 0;-82.3207,9.0278;01014;Bocas del Toro Province;Alto Palma
+0;-82.3508,9.0215;;Ngöbe-Buglé Comarca;Rita Cuba
 0;-82.3431,9.0259;01014;Ngöbe-Buglé Comarca;Cabecera de Rita Cuba
 0;-82.3569,9.0817;01010;Bocas del Toro Province;Boca de Negrita
 0;-82.3298,9.0815;01014;Ngöbe-Buglé Comarca;Buena Vista
@@ -7190,6 +7478,12 @@
 0;-82.2823,9.0179;01014;Bocas del Toro Province;Las Cañas
 0;-82.3104,9.0104;01015;Bocas del Toro Province;Alto Zapatero
 0;-82.2714,9.0113;01015;Bocas del Toro Province;Los Molejones
+0;-82.0178,8.9005;;Ngöbe-Buglé Comarca;Río Guariviara
+0;-82.0483,8.8999;;Ngöbe-Buglé Comarca;Nueva Esperanza
+0;-82.0497,8.8761;;Ngöbe-Buglé Comarca;Centro Daira Número Dos
+0;-82.0354,8.8538;;Ngöbe-Buglé Comarca;El Guabal
+0;-82.0387,8.8489;;Ngöbe-Buglé Comarca;Loma Piña
+0;-82.0557,8.8483;;Ngöbe-Buglé Comarca;Mecari
 0;-82.0339,8.8372;10011;Ngöbe-Buglé Comarca;Arena
 0;-82.0628,8.8898;01017;Ngöbe-Buglé Comarca;Colinas
 0;-82.0704,8.9081;01017;Bocas del Toro Province;Margarita
@@ -7204,6 +7498,7 @@
 0;-82.1540,8.9411;01017;Bocas del Toro Province;El Crudo
 0;-82.1444,8.9540;01017;Bocas del Toro Province;Primero de Noviembre
 0;-82.2113,9.1612;01005;Bocas del Toro Province;Isla de Bagui
+0;-82.0491,8.9374;;Ngöbe-Buglé Comarca;Playa Caimito
 0;-82.0566,8.9342;01017;Bocas del Toro Province;Boca de Man Creek
 0;-82.0883,8.9211;01017;Bocas del Toro Province;Árbol de Pan
 0;-82.1084,8.9174;01017;Bocas del Toro Province;Quebrada Limón
@@ -7243,17 +7538,30 @@
 0;-82.0168,8.8037;10011;Ngöbe-Buglé Comarca;Quebrada Cayuco Arriba
 0;-82.0124,8.8006;10011;Ngöbe-Buglé Comarca;Quebrada de Yuca
 0;-82.0442,8.8038;10011;Ngöbe-Buglé Comarca;Chivori Grande
+0;-82.0524,8.8201;;Ngöbe-Buglé Comarca;Chivori Chico
+0;-82.0489,8.8278;;Ngöbe-Buglé Comarca;Quebrada Durari
 0;-82.0389,8.8250;10011;Ngöbe-Buglé Comarca;Quebrada Venado
+0;-82.0627,8.8054;;Ngöbe-Buglé Comarca;Casira
 0;-82.1093,8.8297;01017;Ngöbe-Buglé Comarca;Cabecera de Río Piedra
+0;-82.1908,8.7793;;Ngöbe-Buglé Comarca;La Verrugosa
 0;-82.1843,8.8072;01017;Ngöbe-Buglé Comarca;Altos del Valle
 0;-82.1771,8.8229;01017;Ngöbe-Buglé Comarca;Valle Abajo
+0;-80.7933,7.2265;;Veraguas Province;Ventana
+0;-80.7577,7.2208;;Veraguas Province;El Piro
+0;-80.7851,7.2144;;Veraguas Province;Tembladera
+0;-80.8033,7.2111;;Veraguas Province;La Puerca
+0;-80.8272,7.2159;;Veraguas Province;Colorado Número Dos
+0;-80.8357,7.2137;;Veraguas Province;Coloradito
 0;-80.8600,7.2109;08076;Veraguas Province;Puerto Escondido
+0;-80.8689,7.2096;;Veraguas Province;Matapalo
 0;-80.9020,7.2408;08076;Veraguas Province;Restingue
 0;-80.8859,7.2219;08076;Veraguas Province;Cocalila
 0;-82.2480,8.8289;01017;Ngöbe-Buglé Comarca;Guayabal
 0;-82.2412,8.6807;04070;Chiriquí Province;Guayabo Negro
 0;-82.2249,8.6791;04070;Chiriquí Province;Quebrada Nueva
+0;-82.0442,8.7268;;Ngöbe-Buglé Comarca;Quebrada Zorra
 0;-82.0239,8.7273;10011;Ngöbe-Buglé Comarca;Quebrada Cocuyo
+0;-82.0529,8.6965;;Ngöbe-Buglé Comarca;Cerro Rana
 0;-80.6853,7.5611;06061;Los Santos Province;La Poza Verde
 0;-80.5089,7.5165;06070;Los Santos Province;Aguas Claras
 0;-80.6830,7.6548;05009;Herrera Province;Tres Quebradas
@@ -7266,6 +7574,7 @@
 0;-80.7201,7.5891;05009;Herrera Province;El Cruce de Santa Clara
 0;-80.7401,7.5853;05009;Herrera Province;Bella Vista
 0;-80.6765,7.5765;06061;Los Santos Province;La Pita
+0;-80.7237,7.5682;;Herrera Province;Quebrada La Honda
 0;-80.5430,7.6555;06063;Los Santos Province;El Tigre
 0;-80.5554,7.6056;06063;Los Santos Province;Mandinga
 0;-80.5650,7.5826;06063;Los Santos Province;La Pifa Número 2
@@ -7416,6 +7725,7 @@
 0;-80.3446,9.0891;03025;Colón;Nueva Victoria
 0;-80.3439,9.0824;03025;Colón;Los Laureles
 0;-80.3639,9.0907;03025;Colón;Cabecera de Río San Lucas
+0;-80.3773,9.0923;;Colón;Cabecera de Río Diego
 0;-80.3612,9.0982;03025;Colón;San Lucas
 0;-80.3400,9.1332;03025;Colón;Nuevo Copé
 0;-80.3325,9.1191;03025;Colón;La Iglesia
@@ -7453,6 +7763,19 @@
 0;-80.2585,9.1626;03025;Colón;Loma de Gobea
 0;-80.3880,9.1433;03025;Colón;Camacho
 0;-80.3842,9.1406;03025;Colón;Quebradita
+0;-80.3913,9.1336;;Colón;Shalon
+0;-80.3984,9.1288;;Colón;Cerro Mono Número Dos
+0;-80.3819,9.1180;;Colón;Diego Arriba
+0;-80.3782,9.1088;;Colón;La Conga
+0;-80.3846,9.0967;;Colón;Ciénaga
+0;-80.4028,9.1177;;Colón;Cirí Arriba
+0;-80.4113,9.1404;;Colón;Cirí
+0;-80.4310,9.1031;;Colón;Cerro Mono
+0;-80.4475,9.0945;;Colón;Sardinosa
+0;-80.4434,9.1017;;Colón;Majagual
+0;-80.4416,9.1150;;Colón;Moja Pollo
+0;-80.4357,9.1268;;Colón;Aguacate
+0;-80.4395,9.1247;;Colón;Madre Bella
 0;-80.4661,9.0842;03023;Colón;Arriba del Chorro
 0;-80.4682,9.0908;03023;Colón;El Chorro
 0;-80.4610,9.1225;03023;Colón;Limón
@@ -7472,12 +7795,43 @@
 0;-80.2962,9.0714;03018;Colón;Quebrada La Coca
 0;-80.2859,9.0437;03018;Colón;El Ponchoso
 0;-80.2934,9.0302;03018;Colón;La Palma Real
+0;-80.3074,9.0139;;Colón;La Peñalosa
 0;-80.3078,9.0374;03018;Colón;La Tortuga
+0;-80.3250,9.0395;;Colón;Guesital
 0;-81.0943,8.1736;08006;Veraguas Province;Paso Real
 0;-80.3502,8.8384;02020;Coclé;Boca de Guayabo
+0;-80.3550,8.8505;;Coclé;Boquilla de Dominica
+0;-80.3442,8.8590;;Coclé;Dominica
+0;-80.3643,8.8663;;Colón;La Inglesa
+0;-80.3539,8.8652;;Coclé;Quebrada La Tabila
+0;-80.3670,8.8751;;Colón;La Tomasa
+0;-80.3572,8.8796;;Colón;Quebrada de Los Nietos
+0;-80.3698,8.9029;;Colón;El Pontón
+0;-80.3308,8.8560;;Coclé;Monte Buena
+0;-80.2977,8.8531;;Coclé;Alto Limón
+0;-80.3132,8.8772;;Coclé;Gurbe
+0;-80.3145,8.8936;;Coclé;El Pantano
+0;-80.3169,8.9086;;Coclé;Los Elegidos
+0;-80.3025,8.9074;;Coclé;El Valle de Riecito
 0;-80.3373,9.0713;03025;Colón;El Cerillo
 0;-80.3373,9.0683;03025;Colón;El Guanábano
 0;-80.3302,9.0713;03025;Colón;Cabecera del Cacao
+0;-80.3541,9.0605;;Colón;La Coca
+0;-80.3780,9.0465;;Colón;Unión Coclesana
+0;-80.3665,9.0270;;Colón;La Felicidad
+0;-80.3659,9.0366;;Colón;Paso Carnal
+0;-80.3688,9.0213;;Colón;Nueva Concepción
+0;-80.3411,9.0328;;Colón;El Estillero
+0;-80.3587,9.0143;;Colón;Boca del Caño Sucio
+0;-80.3470,9.0103;;Colón;Los Chorritos
+0;-80.3677,9.0041;;Colón;Caña Blanca
+0;-80.3471,9.0024;;Colón;El Bongo
+0;-80.3954,9.0071;;Colón;Hinojal
+0;-80.3773,9.0104;;Colón;El Rondón
+0;-80.4085,9.0118;;Colón;Quebrada Germán
+0;-80.3764,9.0237;;Colón;La Paliza
+0;-80.4169,9.0696;;Colón;Cabecera de Aguacate
+0;-80.4184,9.0077;;Colón;El Ají
 0;-80.4810,9.0750;03023;Colón;Pontoncito
 0;-80.4700,9.0752;03023;Colón;Los Dos Brazos de Platanal
 0;-80.4810,9.0568;03023;Colón;Caño Rey Arriba
@@ -7489,26 +7843,72 @@
 0;-80.2949,8.9434;02018;Colón;Chorrerita
 0;-80.3055,8.9486;02018;Colón;Alto El Panamá
 0;-80.2781,8.9580;02018;Colón;Alto de Tierra Buena
+0;-80.3168,8.9483;;Colón;Boquilla de Escobal
 0;-80.2878,8.9680;02018;Colón;El Caimito
 0;-80.2800,8.9713;02018;Colón;La Raspadura
 0;-80.2863,8.9794;02018;Colón;Loma Bonita
+0;-80.3273,8.9927;;Colón;La Palmita de Donoso
+0;-80.3370,8.9852;;Colón;El Cedro
+0;-80.3179,8.9817;;Colón;Nuevo Horizonte
 0;-80.3060,8.9941;02018;Colón;Cabecera de Congal
 0;-80.2988,8.9953;02018;Colón;El Alto de Santa Cruz
+0;-80.3515,8.9409;;Colón;Cerro de La Ullama
+0;-80.3512,8.9922;;Colón;La Patriota
+0;-80.3446,8.9861;;Colón;El Resumidero
+0;-80.3576,8.9579;;Colón;Belorizal Número Uno
+0;-80.3574,8.9575;;Colón;Iglesia de Belorizal
+0;-80.3640,8.9641;;Colón;Los Blancos
+0;-80.3650,8.9704;;Colón;La Patriota Arriba
+0;-80.3669,8.9920;;Colón;La Pedregosa
+0;-80.3454,8.9192;;Colón;Escobal Arriba
+0;-80.4062,8.9241;;Colón;San Luis
+0;-80.3900,8.9625;;Colón;Cabecera La Sardinosa
+0;-80.3826,8.9656;;Colón;Bateal
+0;-80.3971,8.9696;;Colón;El Moreno
+0;-80.3800,8.9760;;Colón;Boca del Bateal
+0;-80.3884,8.9795;;Colón;Las Minas
+0;-80.3912,8.9918;;Colón;Camarón
+0;-80.4065,8.9847;;Colón;La Teja
+0;-80.2958,8.8966;;Coclé;Las Palmas
 0;-80.2927,8.9117;02018;Coclé;Samaria
+0;-80.2858,8.8737;;Coclé;Cacique
+0;-80.3040,8.8715;;Coclé;Piedras Largas
+0;-80.2789,8.8627;;Coclé;Valle del Platanal
+0;-80.4829,8.9149;;Colón;El Papayo
+0;-80.4853,8.9131;;Coclé;Arenal Grande
+0;-80.4887,8.9161;;Coclé;El Mero
+0;-80.4790,8.8806;;Coclé;Cañaveral
+0;-80.4752,8.8789;;Coclé;Culebra
+0;-80.4800,8.8704;;Coclé;Chiribital
 0;-80.4811,8.8349;02020;Coclé;Cutevita
+0;-80.4629,8.9063;;Coclé;Quebrada Tigre
 0;-80.4381,8.8372;02020;Coclé;Santa Cecilia
 0;-80.4149,8.8456;02020;Coclé;Cutevilla Arriba
 0;-80.4129,8.8499;02020;Coclé;Cuteva Arriba
 0;-80.3926,8.8349;02020;Coclé;Nuevo San Pablo
+0;-80.3890,8.8505;;Coclé;Nuevo Rosario
+0;-80.4245,8.8682;;Coclé;La Conga
+0;-80.4356,8.8624;;Coclé;Ahogada de Las Yucas
+0;-80.4307,8.9010;;Colón;Los Ticocles
+0;-80.4475,8.9064;;Coclé;La Huaca
+0;-80.4001,8.8820;;Colón;Los Tres Caños
+0;-80.4068,8.8822;;Colón;Quebrada Nicaragua
+0;-80.4132,8.9093;;Colón;La Gloria
+0;-80.3847,8.8847;;Colón;Boca de U
+0;-80.3962,8.8832;;Colón;El Desfiladero
+0;-80.3906,8.8822;;Colón;Santa Elena
+0;-80.3820,8.8978;;Colón;Cerro Verde
 0;-80.2698,8.9453;02018;Coclé;Boquilla de La Mina
 0;-80.2622,8.9575;02018;Coclé;Campo Alegre
 0;-80.2506,8.9961;02018;Colón;Río Claro
+0;-80.4409,8.8977;;Coclé;Lagarterito
 0;-80.3431,8.8145;02020;Coclé;La Congalosa
 0;-80.3201,8.7698;02020;Coclé;La Semilla
 0;-80.3035,8.7640;02020;Coclé;El Bajito de San Miguel
 0;-80.2979,8.8087;02020;Coclé;Banazo Arriba
 0;-80.3092,8.8164;02020;Coclé;Tierra Buena
 0;-80.3131,8.8188;02020;Coclé;Nuevo Banacito
+0;-80.2790,8.8264;;Coclé;Quebrada Las Culebras
 0;-80.2881,8.7525;02019;Coclé;Nuevo San Miguelito
 0;-80.2760,8.7477;02019;Coclé;Quebrada Clavo
 0;-80.2571,8.7507;07010;Coclé;Cabecera de Río Bito
@@ -7726,6 +8126,10 @@
 0;-80.8718,7.6358;08075;Veraguas Province;La Gigi
 0;-80.7971,7.6098;05035;Herrera Province;Quebrada La Llanita
 0;-80.8058,7.6105;05035;Herrera Province;Florida
+0;-80.8471,7.5959;;Veraguas Province;La Honda
+0;-80.7982,7.5851;;Herrera Province;Loma Bonita
+0;-80.7931,7.5569;;Veraguas Province;Río Manglillo
+0;-80.7686,7.5303;;Veraguas Province;La Redonda
 0;-80.7853,7.5042;08074;Veraguas Province;Las Mosquillas
 0;-80.8941,7.6551;05033;Veraguas Province;Alto La Iguana
 0;-80.9341,7.6534;08075;Veraguas Province;Alto Hilario
@@ -7738,7 +8142,10 @@
 0;-80.9066,7.6291;08075;Veraguas Province;Juncal
 0;-80.9955,7.6228;08075;Veraguas Province;Playa La Reina
 0;-80.9352,7.5990;08075;Veraguas Province;La Pedregosa
+0;-80.9372,7.5797;;Veraguas Province;Salitres
+0;-80.9231,7.5795;;Veraguas Province;Las Huacas
 0;-80.9298,7.5474;08074;Veraguas Province;Toribio Abajo
+0;-80.9076,7.5545;;Veraguas Province;Toribio Arriba
 0;-80.8803,7.5440;08074;Veraguas Province;Toribio
 0;-80.9077,7.5374;08074;Veraguas Province;Zapotal
 0;-80.9076,7.5268;08074;Veraguas Province;La Bonita
@@ -7749,6 +8156,8 @@
 0;-81.8048,8.2978;10034;Ngöbe-Buglé Comarca;Quebrada Gato
 0;-81.0308,8.2881;08045;Veraguas Province;El Cristo Abajo
 0;-80.2904,8.9236;02018;Coclé;Boquilla de Quebraón
+0;-80.3158,8.9549;;Colón;Nuevo San José
+0;-80.3749,8.9496;;Colón;Miguelito Arriba
 0;-81.0832,7.9100;08063;Veraguas Province;La Caleta Número Dos
 0;-80.3172,8.5190;02011;Coclé;Bahía de Río Hondo
 0;-81.3466,8.3082;10054;Veraguas Province;El Espino Arriba
@@ -8353,6 +8762,9 @@
 0;-81.7071,8.8223;10006;Ngöbe-Buglé Comarca;Visiri
 0;-81.7018,8.8312;10006;Ngöbe-Buglé Comarca;Visitubite
 0;-81.6939,8.8282;10006;Ngöbe-Buglé Comarca;Loma de Río Caña
+0;-81.6533,8.8310;;Ngöbe-Buglé Comarca;Duñuy
+0;-81.6482,8.8275;;Ngöbe-Buglé Comarca;Dorori
+0;-81.6401,8.8234;;Ngöbe-Buglé Comarca;Bitigaru
 0;-81.6306,8.8176;10014;Ngöbe-Buglé Comarca;Muay Abajo
 0;-81.6719,8.8144;10006;Ngöbe-Buglé Comarca;Cabecera de Río Cayuco
 0;-81.6933,8.8106;10006;Ngöbe-Buglé Comarca;Sirote
@@ -8369,11 +8781,13 @@
 0;-81.7076,8.7941;10006;Ngöbe-Buglé Comarca;Sabiote
 0;-81.7029,8.7965;10006;Ngöbe-Buglé Comarca;Ruitiubiti
 0;-81.6869,8.7959;10006;Ngöbe-Buglé Comarca;Toronte
+0;-81.6482,8.7962;;Ngöbe-Buglé Comarca;Cabecera de Dorori
 0;-81.6331,8.7928;10014;Ngöbe-Buglé Comarca;Cabecera de Muay
 0;-81.6278,8.7936;10014;Ngöbe-Buglé Comarca;Soroni
 0;-81.6364,8.7726;10014;Ngöbe-Buglé Comarca;Rancho
 0;-81.6389,8.7703;10014;Ngöbe-Buglé Comarca;Rancho Arriba
 0;-81.6420,8.7696;10014;Ngöbe-Buglé Comarca;Kikate
+0;-81.6552,8.7761;;Ngöbe-Buglé Comarca;Cerro Puerco
 0;-81.5966,8.8240;10014;Ngöbe-Buglé Comarca;Burote
 0;-81.5895,8.8205;10014;Ngöbe-Buglé Comarca;Cerro Manta
 0;-81.5871,8.8256;10014;Ngöbe-Buglé Comarca;Kariguidete
@@ -8475,6 +8889,9 @@
 0;-81.3059,8.7628;08048;Ngöbe-Buglé Comarca;Marañón
 0;-81.3168,8.7682;08048;Ngöbe-Buglé Comarca;Aguacate Arriba
 0;-81.3415,8.7671;08048;Ngöbe-Buglé Comarca;Santa Catalina Arriba
+0;-81.3485,8.7792;;Ngöbe-Buglé Comarca;Pedregoso
+0;-81.3609,8.7845;;Ngöbe-Buglé Comarca;Limoncito
+0;-81.3680,8.7818;;Ngöbe-Buglé Comarca;La Saragoza
 0;-81.3954,8.7577;10014;Ngöbe-Buglé Comarca;Raisal
 0;-81.3895,8.7973;10014;Ngöbe-Buglé Comarca;Loma Chucará
 0;-81.3923,8.7884;10014;Ngöbe-Buglé Comarca;Boca Chucará
@@ -8494,11 +8911,16 @@
 0;-81.3131,8.7269;08053;Ngöbe-Buglé Comarca;Chelelé
 0;-81.3034,8.7348;08053;Ngöbe-Buglé Comarca;Río Dajao
 0;-81.3082,8.6933;08053;Ngöbe-Buglé Comarca;Cerro Mono
+0;-81.3525,8.7357;;Ngöbe-Buglé Comarca;Boquete
 0;-81.3496,8.7183;08053;Ngöbe-Buglé Comarca;Alto Piña
 0;-81.3404,8.6828;08053;Ngöbe-Buglé Comarca;Casa Grande
 0;-81.3396,8.6712;08053;Ngöbe-Buglé Comarca;Barranco
+0;-81.3526,8.6721;;Ngöbe-Buglé Comarca;Jebulé
 0;-81.3049,8.7454;08048;Ngöbe-Buglé Comarca;La Laja
 0;-81.2615,8.6734;08053;Ngöbe-Buglé Comarca;Alto Jujuca
+0;-81.3793,8.6907;;Ngöbe-Buglé Comarca;Cerro Lucero
+0;-81.3705,8.6999;;Ngöbe-Buglé Comarca;Quebrada Cacao
+0;-81.3741,8.7361;;Ngöbe-Buglé Comarca;Loma Pava
 0;-81.3966,8.7011;10014;Ngöbe-Buglé Comarca;Cerro Tulivieja
 0;-81.3927,8.7094;10014;Ngöbe-Buglé Comarca;Caracol Número Dos
 0;-81.3942,8.7165;10014;Ngöbe-Buglé Comarca;El Común
@@ -8539,8 +8961,18 @@
 0;-81.0908,8.7780;08048;Veraguas Province;Isleta
 0;-81.0764,8.7834;08048;Veraguas Province;Bonaga
 0;-81.0812,8.7852;08048;Veraguas Province;Primer Corriente
+0;-81.0711,8.7965;;Veraguas Province;Guazarito
 0;-81.0849,8.7976;08048;Veraguas Province;Caño Sucio
+0;-81.0722,8.8034;;Veraguas Province;Caño de La Iguana
+0;-81.0755,8.8095;;Veraguas Province;Caño Rompidón
+0;-81.0716,8.8100;;Veraguas Province;Quebrada Lucía
+0;-81.0682,8.8107;;Veraguas Province;Ricito
 0;-81.0967,8.8054;08048;Veraguas Province;Caleta
+0;-81.0647,8.8141;;Veraguas Province;El Portete
+0;-81.0119,8.7625;;Veraguas Province;El Palmar
+0;-81.0387,8.8083;;Veraguas Province;Sonadora
+0;-81.0362,8.8170;;Veraguas Province;Bejuco
+0;-81.0177,8.8302;;Veraguas Province;Pedregosa
 0;-81.1284,8.8020;08048;Veraguas Province;Caleta de Los Indios
 0;-81.1584,8.7876;08048;Veraguas Province;Peje Prieto
 0;-81.1774,8.7798;08048;Veraguas Province;Candelaria Arriba
@@ -8616,6 +9048,10 @@
 0;-80.2529,8.3701;02006;Coclé;Ciénaga Chagres
 0;-80.0465,7.4704;06066;Los Santos Province;Barriada Los Destiladeros
 0;-80.0131,7.4727;06067;Los Santos Province;Caldera
+0;-81.7159,9.0225;;Ngöbe-Buglé Comarca;Potet
+0;-81.7218,9.0087;;Ngöbe-Buglé Comarca;Quebrada Quenani
+0;-81.7213,9.0308;;Ngöbe-Buglé Comarca;Punta Fiebre
+0;-81.7228,9.0346;;Ngöbe-Buglé Comarca;Punta Icaco
 0;-81.7292,9.0342;10015;Ngöbe-Buglé Comarca;Río Diablo
 0;-81.8551,9.0535;10015;Ngöbe-Buglé Comarca;Playa Bambú
 0;-81.8567,9.0777;10015;Ngöbe-Buglé Comarca;Río Lorenzo Arriba
@@ -8733,6 +9169,26 @@
 0;-81.1421,8.5304;08051;Veraguas Province;Segundo Brazo Mulabá
 0;-81.1318,8.5281;08051;Veraguas Province;Primer Brazo Mulabá
 0;-81.3548,8.0167;08026;Veraguas Province;Alto de Tobálico
+0;-80.7918,8.9312;;Colón;Quebrada Los Indios
+0;-80.7882,8.9383;;Colón;Quebrada Níspero
+0;-80.8233,8.8946;;Colón;Boca de Río Chiquero
+0;-80.8507,8.8852;;Colón;La Boca de Escribano
+0;-80.8590,8.8854;;Colón;Media Playa
+0;-80.8740,8.8813;;Colón;Quebrada Barrucha
+0;-80.8737,8.8720;;Colón;El Tigre
+0;-80.8747,8.8537;;Colón;El Carmen
+0;-80.8677,8.8485;;Colón;Gallina
+0;-80.8675,8.8433;;Colón;El Balsal
+0;-80.8753,8.8586;;Colón;Pozo Flores
+0;-80.9042,8.8493;;Colón;Caño Loro
+0;-80.9216,8.8414;;Colón;Los Americanos
+0;-80.9261,8.8491;;Colón;Caño Sucio Número Dos
+0;-80.9207,8.8578;;Colón;Caño Sucio
+0;-80.9218,8.8565;;Colón;El Torno
+0;-80.9147,8.8637;;Colón;El Cañito
+0;-80.9408,8.8650;;Colón;Punta de Veraguas
+0;-80.9745,8.8360;;Colón;Caracol
+0;-80.9644,8.8504;;Colón;Quebrada El Gringo
 0;-81.8495,8.8292;10006;Ngöbe-Buglé Comarca;Paraíso
 0;-81.8409,8.8309;10006;Ngöbe-Buglé Comarca;Cocoitubite
 0;-81.7973,8.8198;10006;Ngöbe-Buglé Comarca;Nomonoi
@@ -8796,9 +9252,58 @@
 0;-81.9769,8.6804;10011;Ngöbe-Buglé Comarca;Quebrada Colorada
 0;-81.9011,8.7372;10011;Ngöbe-Buglé Comarca;Río Grande
 0;-81.7910,8.7029;10001;Ngöbe-Buglé Comarca;Cleate
+0;-80.8670,8.8323;;Veraguas Province;Tigrero
+0;-80.8511,8.8220;;Veraguas Province;Sardina
+0;-80.8536,8.8275;;Veraguas Province;Belencillo
+0;-80.8447,8.8173;;Veraguas Province;Los Castillos
+0;-80.8308,8.8174;;Veraguas Province;Los Castillos Número Uno
+0;-80.8362,8.7769;;Veraguas Province;Guabal Arriba
+0;-80.8252,8.8022;;Veraguas Province;Guabal
+0;-80.8182,8.8034;;Veraguas Province;Cajón
+0;-80.7653,8.7851;;Colón;El Madril
+0;-80.7765,8.7939;;Veraguas Province;Rojas
+0;-80.7802,8.7986;;Colón;El Chorrillo
+0;-80.7548,8.7734;;Colón;La Angostura
+0;-80.7561,8.7737;;Veraguas Province;La Conga
 0;-80.9814,8.5096;08052;Veraguas Province;Las Lajitas
 0;-80.9566,8.5077;08052;Veraguas Province;Bejucal
 0;-80.9591,8.5154;08052;Veraguas Province;Quebrada Bejucal
+0;-80.9729,8.8285;;Veraguas Province;Quebrada San Antonio
+0;-80.9687,8.8319;;Veraguas Province;El Mango
+0;-80.9902,8.8208;;Veraguas Province;Río Zapatero
+0;-80.9687,8.8018;;Veraguas Province;San Antonio Arriba
+0;-80.9671,8.7918;;Veraguas Province;Chelelé
+0;-80.9688,8.7589;;Veraguas Province;San Bartolo
+0;-80.9798,8.7606;;Veraguas Province;La Guinea
+0;-80.9633,8.7631;;Veraguas Province;Santiaguito
+0;-80.9569,8.7941;;Veraguas Province;Barrera
+0;-80.9554,8.8008;;Veraguas Province;Gallardo
+0;-80.9587,8.8189;;Veraguas Province;Carmona
+0;-80.9617,8.8276;;Veraguas Province;Boca Honda
+0;-80.9544,8.8185;;Veraguas Province;La Isleta
+0;-80.9508,8.8195;;Veraguas Province;Paseo de Limón
+0;-80.9496,8.8097;;Veraguas Province;La Anselma
+0;-80.9457,8.7876;;Veraguas Province;Quebrada Platanares
+0;-80.9487,8.7750;;Veraguas Province;Boca de Río Santiaguito
+0;-80.9447,8.7544;;Veraguas Province;El Chorro
+0;-80.9247,8.7932;;Veraguas Province;Cabecera de Quebrada Garrocha
+0;-80.9023,8.8175;;Veraguas Province;Urracá
+0;-80.9067,8.8202;;Veraguas Province;Bongo
+0;-80.9142,8.8272;;Veraguas Province;Bonguito
+0;-80.9191,8.8299;;Veraguas Province;Garrocha
+0;-80.8919,8.7941;;Veraguas Province;Las Cruces
+0;-80.8842,8.7859;;Veraguas Province;Mauricio
+0;-80.8911,8.7757;;Veraguas Province;El Playón
+0;-80.8943,8.7656;;Veraguas Province;Quebrada Cangrejo
+0;-80.8954,8.7581;;Veraguas Province;La Mona
+0;-80.8714,8.7282;;Veraguas Province;Quebrada Gajo
+0;-80.8532,8.7176;;Veraguas Province;Veraguita
+0;-80.9869,8.7476;;Veraguas Province;Cucuyo
+0;-80.9719,8.7400;;Veraguas Province;Caldera
+0;-80.8875,8.7322;;Veraguas Province;La Colorada
+0;-80.8858,8.7357;;Veraguas Province;Dos Brazos
+0;-80.8876,8.7424;;Veraguas Province;Quebrada Llana
+0;-80.8267,8.8052;;Veraguas Province;Guabalito
 0;-80.8600,8.4435;08040;Veraguas Province;Portachuelo
 0;-80.8621,8.4393;08040;Veraguas Province;Bajo Viejo
 0;-80.8630,8.4358;08039;Veraguas Province;Miradores
@@ -9225,6 +9730,8 @@
 0;-79.0495,8.5129;07042;Panamá;Gibraleón
 0;-80.5632,9.0806;03023;Colón;Punta Porteta
 0;-80.5608,9.0823;03023;Colón;Uverito
+0;-79.1179,8.2567;;Panamá;Cuatro Caminos
+0;-79.1367,8.2499;;Panamá;Bodega
 0;-80.5623,9.0696;03023;Colón;Calle Real
 0;-80.5766,9.0573;03023;Colón;Buena Vista
 0;-80.5619,9.0562;03023;Colón;La Negrita
@@ -9247,12 +9754,49 @@
 0;-80.5440,9.0922;03023;Colón;Barranco
 0;-80.5489,9.0877;03023;Colón;Camarón
 0;-80.5552,9.0856;03023;Colón;Camaroncito
+0;-80.5204,8.9032;;Coclé;La Perdiz
+0;-80.5531,8.9016;;Colón;Juancho
+0;-80.5561,8.8917;;Colón;Quebrada Botija
+0;-80.5539,8.8972;;Colón;Los Polos
+0;-80.5504,8.8980;;Coclé;Doña María
+0;-80.5416,8.8953;;Coclé;La Pedregosa
+0;-80.5402,8.8927;;Coclé;Los Machos
+0;-80.5373,8.8922;;Coclé;Boca del Río Claro
+0;-80.5273,8.8991;;Coclé;Río Claro
+0;-80.5052,8.8871;;Coclé;Cerro Bejuco
+0;-80.5531,8.8862;;Coclé;Martín Díaz
+0;-80.5652,8.8796;;Colón;Canoa
+0;-80.5484,8.8760;;Colón;Gallinero
+0;-80.5479,8.8685;;Coclé;Lagartero
+0;-80.5446,8.8600;;Coclé;Santa Lucía
+0;-80.5463,8.8540;;Colón;Parrampán
+0;-80.6191,8.8369;;Colón;San Benito
+0;-80.6111,8.8350;;Colón;Botija
+0;-80.5485,8.8434;;Colón;San Antonio
+0;-80.5426,8.8443;;Coclé;San Antonio Número Dos
+0;-80.5444,8.8362;;Colón;La Jurudua
+0;-80.7348,8.8996;;Colón;Petaquilla Nueva Lucha
+0;-80.6330,8.8952;;Colón;Nuevo Sinaí
+0;-80.7129,8.8718;;Colón;Caña Brava
+0;-80.7097,8.8629;;Colón;Fardalito
+0;-80.7060,8.8572;;Colón;Lata
+0;-80.6981,8.8443;;Colón;Colorao
 0;-80.5611,8.9998;03023;Colón;Cedro Hueco
 0;-80.5514,8.9992;03023;Colón;El Collao
 0;-80.5398,8.9822;03023;Colón;El Guabo
 0;-80.5402,8.9696;03023;Colón;Vista Alegre
 0;-80.5391,8.9649;03023;Colón;Palenque
+0;-80.5222,8.9460;;Colón;Quebrada La Cacica
+0;-80.5170,8.9285;;Colón;La Sargenta
+0;-80.5369,8.9475;;Colón;La Peña
+0;-80.5299,8.9347;;Colón;La Bruja
+0;-80.5508,8.9342;;Colón;Santa Isabel
+0;-80.5502,8.9275;;Colón;La Victoria
 0;-80.6749,8.9912;03023;Colón;Río Hoja
+0;-80.6780,8.9835;;Colón;Isleta Rinconcito
+0;-80.6678,8.9712;;Colón;Arenal
+0;-80.6717,8.9540;;Colón;Los Bajitos de Río del Medio
+0;-80.6117,8.7462;;Coclé;Chichica
 0;-80.6070,8.7364;02022;Coclé;La Junta
 0;-80.6231,8.7227;02026;Coclé;Caño Sucio
 0;-80.5635,8.7248;02025;Coclé;Corozal
@@ -9260,10 +9804,57 @@
 0;-80.5145,8.7241;02025;Coclé;Manguesal
 0;-80.5227,8.7181;02025;Coclé;San Lucas
 0;-80.6068,8.7158;02022;Coclé;Río Blanco del Norte
+0;-80.7351,8.7416;;Veraguas Province;Meche Perro
+0;-80.7300,8.7392;;Veraguas Province;Paso Bonito
+0;-80.7293,8.7434;;Colón;Belencillo
+0;-80.7263,8.7468;;Colón;Alto del Coquillo
+0;-80.7186,8.7499;;Colón;Boca Chica
+0;-80.7163,8.7443;;Colón;Alto El Guineo
+0;-80.7076,8.7452;;Colón;Quebrada El Jenjibre
+0;-80.6855,8.7414;;Coclé;La Aclosa
+0;-80.6709,8.7461;;Coclé;Los Saltillos
+0;-80.6346,8.7474;;Coclé;Las Cuevas
 0;-80.6255,8.7378;02026;Coclé;La Chichica
+0;-80.6806,8.7360;;Coclé;Los Bateales
+0;-80.7272,8.7303;;Veraguas Province;Duvigio
 0;-80.6317,8.7296;02026;Coclé;La Ceiba
+0;-80.5340,8.8219;;Coclé;El Conejo
+0;-80.5322,8.8181;;Coclé;El Valle de Santa María
+0;-80.5937,8.8106;;Colón;Higuerones
+0;-80.5799,8.8042;;Colón;Nazareno
 0;-80.5040,8.7995;02020;Coclé;Quebrada Zapote
+0;-80.5347,8.7990;;Coclé;Fraile
+0;-80.5499,8.8018;;Coclé;Villa del Carmén
+0;-80.5753,8.7939;;Colón;El Canal
+0;-80.5734,8.7990;;Colón;Alto de La Cruz
+0;-80.5935,8.8011;;Colón;Ceiba
+0;-80.6047,8.7969;;Colón;Las Piedratas
+0;-80.5381,8.7871;;Coclé;Moreno
+0;-80.5984,8.7773;;Coclé;Los Bateos Número Dos
+0;-80.6042,8.7713;;Coclé;Batata
+0;-80.5717,8.7647;;Coclé;Platanal
+0;-80.5862,8.7665;;Coclé;Zancudo
+0;-80.5914,8.7518;;Coclé;El Hacha
+0;-80.5631,8.7505;;Coclé;Sardina Arriba
 0;-80.5047,8.7545;02020;Coclé;Narices
+0;-80.6744,8.8028;;Colón;Nuevo Sitio
+0;-80.6308,8.7845;;Colón;Primera Corriente
+0;-80.6363,8.7875;;Colón;Las Quebradas
+0;-80.6436,8.7881;;Colón;Jamaica
+0;-80.6442,8.7845;;Coclé;El Porvenir
+0;-80.6568,8.7763;;Coclé;Quebrada Piedra Amarilla
+0;-80.6397,8.7833;;Coclé;Primer Paso
+0;-80.6351,8.7853;;Coclé;Los Molejones
+0;-80.6291,8.7822;;Coclé;Pozo Redondo Número Uno
+0;-80.6261,8.7745;;Coclé;La Tollosa
+0;-80.6660,8.7711;;Coclé;Pozo Redondo
+0;-80.6784,8.7684;;Colón;Los Tres Brazos de Turbé
+0;-80.6937,8.7534;;Colón;Piragual
+0;-80.6581,8.7684;;Coclé;Saltillo
+0;-80.6787,8.7544;;Coclé;Los Bateos Número Uno
+0;-80.6326,8.7660;;Coclé;La Conga
+0;-80.6268,8.7656;;Coclé;Los Palos
+0;-80.6033,8.7524;;Coclé;El Garnaderita
 0;-80.7265,8.6034;02035;Coclé;El Conejito
 0;-80.7123,8.6052;02035;Coclé;Los Molejones
 0;-80.6357,8.5967;02026;Coclé;La Colmena
@@ -9423,6 +10014,11 @@
 0;-81.8169,8.8486;10006;Ngöbe-Buglé Comarca;Guayabito
 0;-81.7661,8.8646;10006;Ngöbe-Buglé Comarca;Cumingote
 0;-81.7636,8.8644;10006;Ngöbe-Buglé Comarca;Dubute
+0;-81.8595,8.9660;;Ngöbe-Buglé Comarca;Isla de Mapachin
+0;-81.9527,8.9374;;Ngöbe-Buglé Comarca;Río Coy
+0;-81.9023,8.9804;;Ngöbe-Buglé Comarca;Punta Estrella
+0;-81.8922,8.9616;;Ngöbe-Buglé Comarca;La Isla
+0;-81.9062,8.9597;;Ngöbe-Buglé Comarca;El Canal
 0;-81.7554,8.8495;10006;Ngöbe-Buglé Comarca;Joglate
 0;-81.9971,8.8446;10011;Ngöbe-Buglé Comarca;Tula Arriba
 0;-81.9749,8.8947;10011;Ngöbe-Buglé Comarca;Quebrada Lagarí
@@ -9589,6 +10185,9 @@
 0;-79.5936,8.9594;07166;Panamá Oeste Province;Toucan Boulevard
 0;-79.8166,9.3388;03011;Colón;La Planta del Agua
 0;-79.9818,9.3416;03006;Colón;San Lorenzo
+0;-81.7215,8.9481;;Ngöbe-Buglé Comarca;Damani
+0;-81.6445,8.9216;;Ngöbe-Buglé Comarca;Tiger Head
+0;-81.6794,8.9614;;Ngöbe-Buglé Comarca;Mango Número Dos
 0;-81.7384,8.9021;10006;Ngöbe-Buglé Comarca;Tebatus
 0;-81.7302,8.8982;10006;Ngöbe-Buglé Comarca;Essey Chi
 0;-81.7131,8.8783;10006;Ngöbe-Buglé Comarca;Rinconte
@@ -9598,6 +10197,7 @@
 0;-81.6948,8.8591;10006;Ngöbe-Buglé Comarca;Odobari
 0;-81.7077,8.8525;10006;Ngöbe-Buglé Comarca;Clerote
 0;-81.7041,8.8478;10006;Ngöbe-Buglé Comarca;Picara
+0;-81.6607,8.8363;;Ngöbe-Buglé Comarca;Cirira
 0;-81.6689,8.8392;10006;Ngöbe-Buglé Comarca;Kully
 0;-81.6826,8.8415;10006;Ngöbe-Buglé Comarca;Orori
 0;-81.7025,8.8349;10006;Ngöbe-Buglé Comarca;Pueblo Nuevo Número Dos
@@ -9620,10 +10220,16 @@
 0;-81.5775,8.5067;10057;Ngöbe-Buglé Comarca;Bule
 0;-81.5784,8.5881;10057;Ngöbe-Buglé Comarca;Hato Loro
 0;-81.5782,8.6012;10057;Ngöbe-Buglé Comarca;Craimiti
+0;-81.5962,8.6141;;Ngöbe-Buglé Comarca;Duru
 0;-81.5901,8.5586;10057;Ngöbe-Buglé Comarca;Barranco
 0;-81.5969,8.5546;10057;Ngöbe-Buglé Comarca;Piedra Pintada
 0;-81.5915,8.5546;10057;Ngöbe-Buglé Comarca;Alto Baño
 0;-81.6006,8.5475;10057;Ngöbe-Buglé Comarca;Cerro Boba
+0;-81.6159,8.6323;;Ngöbe-Buglé Comarca;Salidu
+0;-81.6047,8.6256;;Ngöbe-Buglé Comarca;Gorodubeda
+0;-81.6094,8.6435;;Ngöbe-Buglé Comarca;Modote
+0;-81.6105,8.6466;;Ngöbe-Buglé Comarca;Ura
+0;-81.6211,8.6412;;Ngöbe-Buglé Comarca;Guatubite
 0;-79.5596,9.0850;07104;Panamá;Alto de Las Nubes
 0;-79.6930,9.1344;07070;Colón;San Antonio
 0;-79.5513,9.0695;07198;Panamá;Patria Nueva
@@ -9825,6 +10431,8 @@
 0;-80.0660,8.4006;07035;Coclé;Costa Arena
 0;-80.0794,8.3910;07037;Coclé;Sol y Mar
 0;-80.0729,8.3985;07037;Coclé;Bijao
+0;-80.1752,8.3407;;Coclé;Buenaventura
+0;-80.1572,8.3452;;Coclé;Quinta Sol y Mar
 0;-80.1346,8.3827;02004;Coclé;Nuevo Farallón
 0;-80.1311,8.3768;07037;Coclé;Aeropuerto de Río Hato
 0;-80.1453,8.3612;02004;Coclé;Los Cuernos
@@ -9925,6 +10533,7 @@
 0;-80.0294,8.8004;07014;Panamá Oeste Province;El Limón Raudales
 0;-80.0110,8.8352;07222;Panamá Oeste Province;La Conga Arriba
 0;-80.0071,8.7941;07014;Panamá Oeste Province;El Nazareno
+0;-80.2409,8.8163;;Coclé;Quebrada Sardinosa
 0;-80.2456,8.8084;07010;Coclé;Cañazas Dos
 0;-80.2128,8.7557;07010;Coclé;Santa Ana Arriba
 0;-80.2017,8.7637;07010;Coclé;Cabecera de Obré
@@ -9959,6 +10568,7 @@
 0;-79.7963,8.9143;07069;Panamá Oeste Province;Estancia Mendoza
 0;-79.7581,8.8455;07022;Panamá Oeste Province;Loma Guayabito
 0;-79.7712,8.8498;07069;Panamá Oeste Province;La Grifa
+0;-77.9765,7.2947;;Darién;Zancudero
 0;-80.1252,9.1492;03021;Colón;Bailamonos
 0;-80.0967,9.0836;03017;Colón;El Pepino
 0;-80.0988,9.1462;03017;Colón;Requeño
@@ -10021,6 +10631,8 @@
 0;-79.9159,8.5135;07029;Panamá Oeste Province;Punta Barco
 0;-79.9277,8.5177;07029;Panamá Oeste Province;El Uvero
 0;-79.8697,8.5724;07029;Panamá Oeste Province;La Faustina
+0;-77.9812,7.4489;;Darién;Peñita
+0;-77.8269,7.8138;;Darién;Capitana
 0;-80.2248,8.9913;02018;Colón;Alto de Las Huellas
 0;-80.1990,8.9954;02018;Coclé;El Campano
 0;-80.2187,8.9733;02018;Coclé;Las Mercedes
@@ -10042,6 +10654,8 @@
 0;-80.1265,8.9405;07013;Panamá Oeste Province;Los Uveros Arriba
 0;-80.1479,8.9529;02018;Coclé;Manquesal
 0;-80.1582,8.9956;02018;Colón;Los Santos
+0;-77.8325,7.7822;;Darién;Buenos Aires
+0;-77.5162,7.8140;;Darién;Maturgantí
 0;-80.0909,8.9816;07013;Panamá Oeste Province;Quebrada Bateal
 0;-80.1241,8.9552;07013;Panamá Oeste Province;El Hinojal Arriba
 0;-80.1018,8.9368;07013;Panamá Oeste Province;Nuevo Progreso
@@ -10056,6 +10670,10 @@
 0;-80.2252,8.8782;02018;Coclé;Cerro Venado
 0;-80.2379,8.8690;02018;Coclé;Los Cedros
 0;-80.2306,8.8535;02018;Coclé;Las Vegas
+0;-80.2209,8.8382;;Coclé;Las Cabinas
+0;-80.2031,8.8418;;Coclé;La Tollosita
+0;-80.2010,8.8460;;Coclé;Quebrada La Palma
+0;-80.1744,8.8471;;Coclé;La Calabaza
 0;-80.1680,8.8530;02018;Panamá Oeste Province;San Juan
 0;-80.1962,8.8588;02018;Coclé;Las Marías Centro
 0;-80.1840,8.8904;02018;Coclé;Loma de La Cigarra
@@ -10075,11 +10693,26 @@
 0;-80.0566,8.8673;07222;Panamá Oeste Province;Arenas Blancas
 0;-80.0328,8.8826;07222;Panamá Oeste Province;La Honda Arriba
 0;-79.9978,8.9158;07222;Panamá Oeste Province;Laja Lisa
+0;-78.6717,9.5778;;Guna Yala;Diatupu
 0;-78.6548,9.5203;09002;Guna Yala;Ordup
 0;-78.7131,9.4771;09002;Guna Yala;Morbepdupu
 0;-78.7037,9.4707;09002;Guna Yala;Acuadup
 0;-78.5764,9.4491;09002;Guna Yala;Mistupu
+0;-78.6791,9.0845;;Panamá;Wagandi
+0;-78.7161,9.0936;;Panamá;El Desierto
+0;-78.7082,9.0897;;Panamá;Río Nilo
+0;-78.6252,9.0256;;Panamá;Aguas Azules
+0;-78.6201,9.0310;;Panamá;Quebrada del Macho
+0;-78.6221,9.0374;;Panamá;Piriatí Arriba
 0;-78.7197,9.0587;07006;Panamá;Río Nuevo
+0;-78.6985,9.0821;;Panamá;Quijada de Los Puercos
+0;-78.6824,9.0411;;Panamá;Ibir
+0;-78.6665,9.0321;;Panamá;Palmita
+0;-78.6729,9.0406;;Panamá;Río Seca Arriba Número Uno
+0;-78.6542,9.0252;;Panamá;Partí Arriba
+0;-78.6493,9.0557;;Panamá;Partí
+0;-78.6705,9.0641;;Panamá;Río Seco Número Uno
+0;-78.6390,9.0501;;Panamá;Quebrada Grande
 0;-79.8301,8.7735;07020;Panamá Oeste Province;Cerro Cermeño
 0;-79.7800,8.8292;07069;Panamá Oeste Province;La Zapera
 0;-79.9756,8.7555;07018;Panamá Oeste Province;Arenal
@@ -10101,6 +10734,7 @@
 0;-79.9126,8.6907;07011;Panamá Oeste Province;Las Cumbres
 0;-79.8856,8.7081;07009;Panamá Oeste Province;El Cangrejal
 0;-80.0603,8.9015;07013;Panamá Oeste Province;Quebrada Las Petras
+0;-78.6374,8.9675;;Panamá;Primer Brazo de Piriatí
 0;-78.6765,8.9082;07053;Panamá;Peña Blanca
 0;-78.6204,8.9766;12013;Panamá;Segundo Brazo de Piriatí
 0;-78.5760,8.9703;12013;Panamá;San José
@@ -10117,32 +10751,73 @@
 0;-78.5120,8.8353;12013;Panamá;Colonia Santeña
 0;-78.5853,8.8950;12013;Panamá;Quebrada Venado
 0;-78.6006,8.9103;12013;Panamá;Renacimiento
+0;-78.6197,8.8742;;Panamá;Unión Santeña Arriba
 0;-78.5367,8.9309;12013;Panamá;Río Sereno
+0;-78.2902,8.8211;;Darién;Río Sabana
+0;-78.2913,8.8028;;Darién;Quebrada Nevera
+0;-78.2897,8.7853;;Darién;Río Claro
+0;-78.2680,8.7863;;Darién;Arenita
+0;-78.2533,8.7798;;Darién;Guayabillo Abajo
+0;-78.3397,8.7830;;Darién;Nuevo Canajagüita
+0;-78.2637,8.7695;;Darién;Quebrada Macho
 0;-78.4306,8.8307;07054;Darién;Río Venao Arriba
 0;-78.3928,8.8090;07054;Darién;Río Gira
 0;-78.4015,8.7952;07054;Darién;Nuevo Paraíso
+0;-78.3978,8.7838;;Darién;Progreso
+0;-78.3981,8.7808;;Darién;Río Pavo
+0;-78.3996,8.7764;;Darién;Las Lajitas
+0;-78.3894,8.7613;;Darién;Buena Vista
+0;-78.4144,8.7538;;Darién;Santa Rita
 0;-78.2592,8.7369;12016;Darién;Valle Alegre
+0;-78.2989,8.7148;;Darién;Las Colinas
+0;-78.3276,8.7151;;Darién;Valle Rico
+0;-78.3526,8.6908;;Darién;Cabecera de Quebrada Diabla
 0;-78.2591,8.6844;12016;Darién;Román Centro
 0;-78.3059,8.6776;12014;Darién;San Pedrito
 0;-78.3274,8.6766;12014;Darién;Quebrada Guinea
 0;-78.3335,8.6534;12014;Darién;Quebrada Limón
+0;-78.4150,8.7429;;Darién;Río Bonito
+0;-78.4040,8.7477;;Darién;Río Tigra
+0;-78.3883,8.7458;;Darién;Tigre Viento
+0;-78.4822,8.7350;;Darién;Cacao
+0;-78.4148,8.7206;;Darién;Santa Marta
+0;-78.4213,8.7139;;Darién;Río Pedasí
+0;-78.4612,8.7140;;Darién;Quebrada Colorete
 0;-78.4833,8.7106;07056;Darién;Santa Bárbara Arriba
+0;-78.4193,8.6859;;Darién;Monterico
 0;-78.4974,8.6913;07056;Darién;Chimanillo
+0;-78.3791,8.7080;;Darién;Río Chiricano
+0;-78.4505,8.6973;;Darién;Dos Bocas Grande
+0;-78.4043,8.7002;;Darién;Salto Tres Piedras
 0;-78.4721,8.6806;07056;Darién;Santa Bárbara
+0;-78.3960,8.6826;;Darién;Playa de Oro
 0;-78.4857,8.6686;07056;Darién;La Playita
 0;-78.5228,8.6303;07056;Panamá;Punta Mono
+0;-78.6309,8.8179;;Panamá;Unión Santeña Abajo
+0;-78.6402,8.7857;;Panamá;Balsa
 0;-78.7391,8.7949;07053;Panamá;Guagaral
 0;-78.7438,8.7875;07053;Panamá;Quebrada Grande
 0;-78.7159,8.7925;07053;Panamá;Corotú
+0;-78.5994,8.8105;;Panamá;Francisco Ruíz
+0;-78.5944,8.7632;;Panamá;Licenciado
+0;-78.6328,8.7193;;Panamá;Miramar
+0;-78.5966,8.7429;;Panamá;San José
+0;-78.6014,8.7394;;Panamá;Santa Rita
+0;-78.5857,8.7241;;Panamá;Manuelillo
+0;-78.6190,8.7081;;Panamá;Majagual
 0;-78.5644,8.7106;07056;Panamá;Charco Mero
 0;-78.5235,8.6778;07056;Panamá;Trinidad
+0;-78.6367,8.7085;;Panamá;Aguadilla
 0;-78.3866,8.9466;07054;Panamá;Tortí Abajo
 0;-78.4940,8.9350;12013;Panamá;Agua Fría de Ipetí
 0;-78.3492,8.9395;07054;Panamá;Villa del Carmen
 0;-78.3840,8.8572;07054;Panamá;Nuevo Tonosí
 0;-78.3954,8.8379;07054;Darién;El Espavecito
 0;-78.2979,8.8998;07054;Panamá;Quebrada Naranjo
+0;-78.2527,8.8833;;Darién;Quebrada Grande Arriba
 0;-78.3742,8.8817;07054;Panamá;El Naranjo
+0;-78.2495,8.8695;;Darién;Quebrada Grande
+0;-78.2691,8.8508;;Darién;Quebrada Limón Arriba
 0;-78.3272,8.8640;07054;Panamá;La Zumbona
 0;-78.3417,8.8465;07054;Panamá;Higueronal Cabecera
 0;-78.4502,8.9356;12013;Panamá;Peñas Blancas
@@ -10150,18 +10825,35 @@
 0;-78.3822,8.8870;07054;Panamá;Quebrada de Piedra
 0;-78.4382,8.8841;07054;Panamá;Río Cucuyal
 0;-78.4268,8.8726;07054;Panamá;Río Sereno Número Dos
+0;-78.3435,9.3578;;Guna Yala;Wichub Mullu
 0;-78.4799,9.4291;09002;Guna Yala;Dain Ya
+0;-85.3675,10.3154;;Coclé;El Carao
+0;-78.2100,9.0552;;Panamá;Naca
 0;-78.0597,8.7573;11001;Darién;Quebrada La Estenia
+0;-78.1390,8.9078;;Darién;Cativá
+0;-78.1475,8.9073;;Darién;Clarita Centro
+0;-78.1608,8.8752;;Darién;Quebrada Grande Número Uno
+0;-78.1389,8.8672;;Darién;Santa Marta
+0;-78.1669,8.8429;;Darién;Quebrada El Cerdo
+0;-78.1847,8.8647;;Darién;Clarita Abajo
+0;-78.2258,8.8430;;Darién;Quebrada Grande Abajo
+0;-78.2251,8.8598;;Darién;Quebrada Grande del Medio
+0;-78.1765,8.8917;;Darién;Clarita
 0;-78.2251,8.7648;12016;Darién;Quebrada Jabón
 0;-78.2392,8.7440;12016;Darién;Tamarindo Arriba
 0;-78.0774,8.7843;11001;Darién;Chucunaque
+0;-78.2113,8.8175;;Darién;La Corocita
 0;-78.2229,8.6784;12016;Darién;La Matosa
 0;-78.0965,8.7972;11001;Darién;Paraíso
+0;-78.2096,8.8302;;Darién;Botello
 0;-78.2420,8.6818;12016;Darién;Aguas Claras
+0;-78.1971,8.8330;;Darién;Mundito
 0;-78.1908,8.7473;12016;Darién;Sabana Centro
 0;-78.1708,8.7577;12016;Darién;Emberá Purú
 0;-78.1951,8.7172;12016;Darién;Quebrada Bonita
+0;-78.1640,8.8206;;Darién;El Cedro
 0;-78.2036,8.7010;12016;Darién;Quebrada Muerto
+0;-78.1436,8.8260;;Darién;El Caoba
 0;-78.1712,8.6882;12016;Darién;Quebrada Cañazas
 0;-78.1402,8.6697;12016;Darién;La Lomita
 0;-78.1073,8.6905;12016;Darién;San Miguel
@@ -10171,14 +10863,21 @@
 0;-78.0909,8.7171;12016;Darién;El Ciruelito
 0;-78.0626,8.7164;12016;Darién;Quebrada Cigarrillo
 0;-78.0144,8.7151;09004;Darién;Quebrada Tanque
+0;-78.4055,8.6588;;Darién;Dos Bocas
+0;-78.4003,8.6499;;Darién;Quebrada Padilla
 0;-78.4299,8.6418;07056;Darién;Calle Mansa
 0;-78.4675,8.6498;07056;Darién;San José
 0;-78.4950,8.6463;07056;Panamá;Marco
 0;-78.4504,8.6407;07056;Darién;Santa Isabel
+0;-78.4007,8.6445;;Darién;Quebrada Padillita
+0;-78.3976,8.6431;;Darién;Villa Flor
+0;-78.3917,8.6312;;Darién;La Fortuna
+0;-78.3973,8.6348;;Darién;Quebrada Lagarto
 0;-78.4508,8.6319;07056;Darién;Río Ensorba
 0;-78.3808,8.6105;12014;Darién;Quebrada Torres
 0;-78.4239,8.6149;07056;Darién;Santa Bárbara Abajo
 0;-78.4976,8.6199;07056;Panamá;Trinidacito
+0;-78.3930,8.5926;;Darién;Cuarenta Pesos
 0;-78.4028,8.5985;07056;Darién;Quebrada Mango
 0;-78.4095,8.5986;07056;Darién;Quebrada del Medio
 0;-78.4405,8.6065;07056;Darién;Quebrada Lirial
@@ -10282,10 +10981,12 @@
 0;-78.1750,8.5295;12014;Darién;Agua Bendita
 0;-78.1986,8.5895;12014;Darién;Cabecera de Dorotea
 0;-78.0068,8.5023;12026;Darién;Metetí Arriba
+0;-78.1362,8.5425;;Darién;Bella Isla
 0;-78.1864,8.6021;12016;Darién;Loma La Pava
 0;-78.0154,8.5230;12026;Darién;Villa Darién Arriba
 0;-78.0041,8.6280;12026;Darién;Villa Nueva
 0;-78.1446,8.6257;12016;Darién;El Manguito
+0;-78.1412,8.5418;;Darién;La Bonga
 0;-78.0276,8.5625;12026;Darién;San Vicente
 0;-78.1779,8.5559;12014;Darién;La Chunga
 0;-78.0015,8.5772;12026;Darién;Nicanor Abajo
@@ -10295,8 +10996,10 @@
 0;-78.1223,8.5577;12016;Darién;El Silencio
 0;-78.2332,8.5899;12014;Darién;Quebrada Dorotea
 0;-78.1444,8.5687;12016;Darién;Chutra
+0;-78.1180,8.5455;;Darién;Cucuzal
 0;-78.2462,8.5926;12014;Darién;Santa Rosa
 0;-78.2436,8.5983;12014;Darién;Boca de Candelilla
+0;-78.1098,8.5384;;Darién;La Felicidad
 0;-78.1487,8.5748;12016;Darién;Niva
 0;-78.2430,8.6058;12014;Darién;Boca de Tres Piedras
 0;-78.0915,8.5207;12026;Darién;El Catival
@@ -10329,8 +11032,10 @@
 0;-78.0146,8.3645;12008;Darién;Quebrada Pescao
 0;-78.0618,8.3727;12008;Darién;Santa Cruz
 0;-78.1775,8.4695;12014;Darién;Los Cativos
+0;-78.1411,8.4666;;Darién;Pinomalicua
 0;-78.0309,8.4072;12008;Darién;Agua Viva
 0;-78.1317,8.4529;12008;Darién;La Playita
+0;-78.1825,8.4561;;Darién;Boca de Pavón
 0;-78.1234,8.4418;12008;Darién;Villa Juana
 0;-79.3003,9.4920;03038;Colón;Culebra
 0;-79.3208,9.4846;03034;Colón;Paso Hondo
@@ -10410,7 +11115,34 @@
 0;-78.0694,8.1799;12003;Darién;Calabazo
 0;-78.0087,8.1818;12003;Darién;Cocobolo
 0;-78.0035,8.1771;12003;Darién;Tutumate
+0;-78.8509,9.5750;;Guna Yala;Yansailadup Bipi
+0;-78.8485,9.5029;;Guna Yala;Kuanidup
+0;-78.8577,9.5632;;Guna Yala;Nugnudup
+0;-78.8544,9.5779;;Guna Yala;Yansailadup Dummad
+0;-78.8611,9.5663;;Guna Yala;Banedup Dummad
+0;-78.8621,9.5652;;Guna Yala;Banedup Bipi
+0;-78.8723,9.5676;;Guna Yala;Gorgidup Número Dos
+0;-78.8733,9.5589;;Guna Yala;Eloguadup
+0;-78.8016,9.5084;;Guna Yala;Tuborgana
+0;-78.8068,9.5015;;Guna Yala;Gorgidup
+0;-78.8526,9.5020;;Guna Yala;Isla Guanidup Bipi
+0;-78.8763,9.5585;;Guna Yala;Achudup Bipi
+0;-78.8890,9.5526;;Guna Yala;Wasirdup
+0;-78.8966,9.5535;;Guna Yala;Goldeup
+0;-78.8993,9.5469;;Guna Yala;Nugarachuerdup
+0;-78.9671,9.5468;;Guna Yala;El Esfuerzo
+0;-78.9096,9.5420;;Guna Yala;Nidirbidup
+0;-78.8997,9.5435;;Guna Yala;Waylidup
+0;-78.8785,9.5859;;Guna Yala;Wichudup Dummad
+0;-78.8824,9.5885;;Guna Yala;Wichub Bipi
+0;-78.9535,9.5521;;Guna Yala;Ukuptupu
+0;-78.9476,9.5522;;Guna Yala;Sindup
+0;-78.9509,9.5545;;Guna Yala;Isla Pulpo
+0;-78.8836,9.5493;;Guna Yala;Chichirdup
+0;-78.9607,9.4640;;Guna Yala;Dup Mattar
+0;-78.8423,9.4707;;Guna Yala;Narbagandup Bipi
 0;-78.8995,9.3193;07051;Panamá;Guayabal
+0;-78.9305,9.4640;;Guna Yala;Sug Winguadup
 0;-79.0468,9.0366;07041;Panamá;Martinambo Abajo
 0;-79.2291,9.1570;07169;Panamá;Altos del Lago
 0;-79.2533,9.1547;07169;Panamá;Las Vegas
@@ -10470,11 +11202,22 @@
 0;-78.0337,8.1396;12001;Darién;Río Colorado
 0;-78.0242,8.1317;12001;Darién;Calzada Larga
 0;-78.0192,8.1147;12001;Darién;Aldea Emberá
+0;-78.0107,8.1170;;Darién;Agua Caliente Arriba
 0;-78.0223,8.1044;12001;Darién;Quebrada Brea
 0;-78.9136,9.2812;07051;Panamá;Tagua
 0;-78.8900,9.2697;07051;Panamá;San Francisco
+0;-78.8305,9.3308;;Panamá;Nuevo Mundo
+0;-78.7897,9.3179;;Panamá;Bajería
+0;-78.8566,9.2862;;Panamá;Cerillos
+0;-78.8104,9.2856;;Panamá;Rompe Olas
+0;-78.7517,9.2782;;Panamá;Brazos de Playita
+0;-78.7626,9.2657;;Panamá;Playita
 0;-78.8654,9.2477;07051;Panamá;Quebrada Chicho
 0;-79.0058,9.2471;07051;Panamá;Bejuco Real
+0;-78.8117,9.2415;;Panamá;La Florida
+0;-78.7993,9.2430;;Panamá;Brazos
+0;-78.8347,9.2111;;Panamá;Viejo Pedro
+0;-78.8052,9.1899;;Panamá;Bethel
 0;-78.9849,9.2669;07051;Panamá;Altos del Sol
 0;-78.8775,9.2695;07051;Panamá;Campo Alegre
 0;-78.8812,9.2628;07051;Panamá;Las Mañanitas
@@ -10560,6 +11303,12 @@
 0;-78.1383,7.5696;12005;Darién;Quebrada Gira
 0;-78.1473,7.5646;12005;Darién;Quebrada Aguacate
 0;-78.1513,7.5531;12005;Darién;Chadó
+0;-78.0444,7.4983;;Darién;El Tigre
+0;-78.0313,7.4922;;Darién;Corobá
+0;-78.0249,7.4877;;Darién;Tortadó
+0;-78.0355,7.3937;;Darién;Icacal
+0;-78.0400,7.4100;;Darién;Luciano
+0;-78.0376,7.3933;;Darién;Guayabito
 0;-78.2990,7.9897;12018;Darién;Cerro Naipe
 0;-78.3016,7.9878;12018;Darién;Papayal
 0;-78.2918,7.9921;12018;Darién;Naranjal
@@ -10599,6 +11348,7 @@
 0;-78.9763,9.1055;07041;Panamá;Limonada Abajo
 0;-78.9334,9.1059;07041;Panamá;Calobre Arriba
 0;-78.9150,9.1080;07041;Panamá;Calobre Ciénaga Arriba
+0;-78.8554,9.1551;;Panamá;Isla Irhe
 0;-78.8414,9.1327;07006;Panamá;El Gorgas
 0;-78.8312,9.1036;07006;Panamá;Zanja de Macho
 0;-78.8639,9.1041;07006;Panamá;Piedras Blancas
@@ -10630,6 +11380,7 @@
 0;-78.7573,9.0379;07006;Panamá;Río Majé
 0;-78.7588,9.0340;07006;Panamá;Unión Emberá
 0;-77.3677,8.6686;09003;Guna Yala;Playa Blanca
+0;-81.7037,7.6382;;Veraguas Province;Ranchería
 0;-77.6078,7.9612;12023;Darién;Quebrada Grande
 0;-77.6005,8.0002;12024;Darién;Santa Cruz
 0;-77.5547,7.9941;12023;Darién;María Reyes
@@ -10692,6 +11443,7 @@
 0;-77.7272,8.2700;09001;Embera;Mogote
 0;-77.7361,8.2572;09001;Darién;Reversa Grande
 0;-77.7205,8.2524;09001;Embera;Peña Bijagual
+0;-77.6129,8.3113;;Embera;Quebrada Muertos
 0;-77.6111,8.2853;12020;Embera;Boca de Chati
 0;-77.7335,8.2422;09001;Darién;Cubital
 0;-77.7250,8.2394;09001;Darién;La Olla
@@ -10714,6 +11466,8 @@
 0;-79.0235,9.0701;07041;Panamá;Unión Palmeña
 0;-79.0227,9.0467;07041;Panamá;La Pitoza
 0;-79.1803,9.0311;07050;Panamá;Boca del Río Chico
+0;-77.9897,8.1492;;Darién;Barro Colorado
+0;-77.9987,8.1338;;Darién;Pimienta
 0;-77.8839,8.1205;12002;Darién;Caserete
 0;-77.9745,8.0943;12002;Darién;Quebrada Grande
 0;-77.7562,8.1097;12022;Darién;El Rompío
@@ -10732,6 +11486,8 @@
 0;-77.8373,8.0284;12002;Darién;Los Cinco Hermanos
 0;-77.9225,8.4288;12026;Darién;Nuevo Porvenir
 0;-77.9251,8.3253;12008;Darién;Agua Clara
+0;-77.8997,8.3023;;Darién;Agua Buena
+0;-77.8896,8.2909;;Darién;El Macho
 0;-77.9391,8.2787;12003;Darién;El Golfo
 0;-77.9985,8.2607;12003;Darién;Boca de Balsas
 0;-77.8432,8.3347;12028;Darién;Canglón Arriba
@@ -10763,6 +11519,8 @@
 0;-77.9709,7.8900;12012;Darién;Santo Domingo
 0;-77.9664,7.8729;12012;Darién;El Balsal
 0;-77.8627,7.8879;12012;Darién;Galilea
+0;-77.8463,7.8502;;Darién;Pechito Parao
+0;-77.8360,7.8344;;Darién;Paira
 0;-77.8101,7.9941;12002;Darién;Las Cumbres
 0;-77.7963,7.9719;12002;Darién;Quebrada Quira
 0;-77.9673,7.9145;12012;Darién;Quebrada Pantaleón
@@ -10799,15 +11557,23 @@
 0;-77.7830,8.3452;12028;Darién;Quebrada Achiote
 0;-77.7750,8.3279;12028;Darién;Boca de Canglón
 0;-77.9852,8.5612;12026;Darién;Quebrada Honda
+0;-77.7857,8.5508;;Embera;Vitabu
 0;-77.7968,8.5331;12028;Embera;Quidacuada
 0;-77.9680,8.6579;09004;Darién;El Paraíso
 0;-77.9305,8.6575;09004;Darién;Quebrada Espejo
+0;-77.9999,8.6497;;Darién;Lagartito
+0;-77.9303,8.6359;;Darién;Boca de Chiatí
+0;-77.9592,8.6332;;Darién;Agua Buena
 0;-77.9714,8.6242;12026;Darién;Bajo Bonito
+0;-77.8816,8.5997;;Embera;Río Membrillo
 0;-77.9753,8.6039;12026;Darién;El Oso
+0;-77.8598,8.6137;;Embera;Chatí de Sinaí
 0;-77.9537,8.5494;12026;Darién;Quebrada Honda Número Uno
 0;-77.8818,8.5382;12026;Embera;Alto Playón
 0;-77.9258,8.5338;12026;Darién;Puerto Limón
 0;-77.9608,8.5285;12026;Darién;Buenos Aires
+0;-77.7919,8.5529;;Embera;Toyo
+0;-77.7777,8.5579;;Embera;Don Julio
 0;-77.8017,8.5290;12028;Embera;Patisera
 0;-77.9808,8.7379;09004;Darién;Boca de Subcurtí
 0;-77.9510,8.7473;09004;Darién;Chocolatal
@@ -10816,6 +11582,10 @@
 0;-77.8609,8.7228;09004;Darién;Chiatí Arriba
 0;-77.8618,8.7103;09004;Darién;Punta Peña Roca
 0;-77.9920,8.8100;11001;Darién;Kuputup
+0;-77.7235,8.9176;;Guna Yala;Sindup
+0;-77.7204,8.9168;;Guna Yala;Nusatupu
+0;-77.5476,8.7374;;Guna Yala;Pueblo Nuevo
+0;-77.5872,8.3660;;Embera;Barranquillita
 0;-79.0941,9.5590;03039;Colón;Los Caletones
 0;-79.1647,9.5548;03039;Colón;Bahía de Escribanos
 0;-79.1774,9.5302;03039;Colón;Bajo Grande
@@ -10830,8 +11600,10 @@
 0;-79.0393,9.2592;07051;Panamá;La Tronosa
 0;-79.0368,9.2828;07051;Panamá;Unión Santeña
 0;-79.0035,9.2539;07051;Panamá;Bejuco Real Arriba
+0;-79.2020,9.2876;;Panamá;Mamoní Abajo
 0;-79.1759,9.2714;07052;Panamá;La Escandalosa
 0;-79.1854,9.2616;07052;Panamá;Río Bonito
+0;-79.1419,9.3195;;Panamá;Caracol
 0;-79.1287,9.2918;07052;Panamá;Quebrada Bonita
 0;-79.1339,9.2645;07052;Panamá;Corpus Cristi Abajo
 0;-79.1281,9.2835;07052;Panamá;Real del Gato
@@ -10945,6 +11717,7 @@
 0;-82.7174,8.8031;04051;Chiriquí Province;Alto Chiriquí
 0;-82.6088,8.7356;04039;Chiriquí Province;Tula
 0;-82.2977,9.1397;01005;Bocas del Toro Province;Río Uyama
+0;-82.4566,9.0063;;Bocas del Toro Province;Ceiba
 0;-81.0195,8.3282;08046;Veraguas Province;Los Santana
 0;-81.0464,8.3120;08044;Veraguas Province;Los Hernández
 0;-80.4136,7.3481;06077;Los Santos Province;La Palma
@@ -10954,6 +11727,7 @@
 0;-80.6808,7.5112;06075;Los Santos Province;Marroquín
 0;-80.6759,7.6023;06061;Herrera Province;Las Bóvedas
 0;-80.6644,7.3838;06075;Los Santos Province;La Provincia
+0;-80.4060,8.8796;;Coclé;San Vicente
 0;-80.2777,8.6683;02019;Coclé;Martillada
 0;-81.0744,7.9828;08063;Veraguas Province;El Piñal
 0;-80.2746,8.5093;02006;Coclé;La Colorada
@@ -11038,6 +11812,7 @@
 0;-80.9376,7.7621;08075;Herrera Province;Alto El Martín
 0;-80.8743,7.6820;05033;Herrera Province;Alto Aguacate
 0;-80.7720,7.7053;05035;Herrera Province;El Ciprián
+0;-81.7775,8.9517;;Ngöbe-Buglé Comarca;Río Tobori
 0;-81.0911,8.4812;08051;Veraguas Province;Guayabito
 0;-81.0152,8.4623;08041;Veraguas Province;La Sabaneta
 0;-81.1250,8.3649;08044;Veraguas Province;Los Aguilares
@@ -11045,6 +11820,7 @@
 0;-81.1479,8.3654;08044;Veraguas Province;El Aromillo
 0;-81.1674,8.3368;08080;Veraguas Province;Tranquilla
 0;-80.5255,9.0537;03023;Colón;Caño del Rey
+0;-80.5504,8.9096;;Colón;Cuteva
 0;-80.5346,8.9506;03023;Colón;San Pedro
 0;-80.5115,8.6518;02025;Coclé;Agua Fría
 0;-80.5123,8.6045;02021;Coclé;La Vieja
@@ -11098,6 +11874,7 @@
 0;-80.0851,8.8058;07014;Panamá Oeste Province;Ciricito Grande
 0;-80.2201,8.8145;07010;Coclé;U Centro
 0;-80.1995,8.7950;07010;Coclé;Bajo Pifa
+0;-80.2125,8.8324;;Coclé;Las Canoas
 0;-80.1720,8.8301;07014;Coclé;Río Indio
 0;-80.1788,8.8188;07010;Coclé;Las Marías Arriba
 0;-80.0283,8.6775;07032;Panamá Oeste Province;Aromo
@@ -11124,6 +11901,7 @@
 0;-79.9570,8.7628;07018;Panamá Oeste Province;Caimito Arriba
 0;-80.2413,8.8917;02018;Coclé;Riecito
 0;-78.5180,8.9246;12013;Panamá;Charco Rico
+0;-78.2061,8.7905;;Darién;Sabana
 0;-78.2482,8.6522;12014;Darién;Román
 0;-78.1679,8.6356;12016;Darién;Puerto de Santa Fé
 0;-78.0694,8.3924;12008;Darién;Punta Panamá

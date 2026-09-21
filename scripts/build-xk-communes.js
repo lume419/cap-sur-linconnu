@@ -73,6 +73,7 @@ const places = rows
     name: preparePlaceName('XK', c[0], cleanName(c[1])),
     lat: parseFloat(c[4]),
     lon: parseFloat(c[5]),
+    admin1: c[10] || '',
     pop: parseInt(c[14], 10) || 0
   }))
   .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name);
@@ -111,27 +112,40 @@ for(const p of deduped){
   dumpByName.get(key).push(p);
 }
 
+// Noms des divisions administratives GeoNames, pour la colonne « région », laissée vide jusqu'ici (21/09/2026).
+const admin1Names = new Map();
+fs.readFileSync(path.join(__dirname, 'admin1CodesASCII.txt'), 'utf8').split('\n').forEach(l => {
+  const f = l.split('\t');
+  if(f[0] && f[1]) admin1Names.set(f[0], f[1]);
+});
+
 let matched = 0, unmatchedNames = [], ambiguousNames = [];
 const lines = [];
 const canonicalByGeonameId = {};
+// CODE POSTAL FACULTATIF (21/09/2026, demande de l'utilisateur). Jusqu'ici, SEULS les lieux dont le nom figurait
+// dans la source de codes postaux étaient publiés, et un seul par groupe d'homonymes. Le code postal aide à
+// retrouver sa ville, il ne décide pas si elle existe : tous les lieux du dump sont publiés, le code va à celui
+// que le rapprochement désigne, les autres sortent avec un code vide. Le rapprochement est inchangé.
 dumpByName.forEach((candidates, key) => {
   const cps = cpByName.get(key);
-  if(!cps || !cps.length) return;
   let chosen = candidates[0];
-  if(candidates.length > 1){
+  if(cps && cps.length && candidates.length > 1){
     const byPop = candidates.slice().sort((a, b) => b.pop - a.pop);
     const dominant = byPop[0].pop > 0 && (byPop.length === 1 || byPop[1].pop === 0 || byPop[0].pop >= byPop[1].pop * 10);
     if(dominant){
       chosen = byPop[0];
     } else {
       const allClose = candidates.every(c => haversineKm(candidates[0], c) <= 15);
-      if(!allClose){ ambiguousNames.push(key + ' (' + candidates.length + ' lieux distincts)'); return; }
-      chosen = byPop[0];
+      if(!allClose){ ambiguousNames.push(key + ' (' + candidates.length + ' lieux distincts)'); chosen = null; }
+      else chosen = byPop[0];
     }
   }
-  matched++;
-  lines.push(`${chosen.pop};${chosen.lon.toFixed(4)},${chosen.lat.toFixed(4)};${cps.join(',')};;${chosen.name}`);
-  canonicalByGeonameId[chosen.geonameid] = chosen.name;
+  if(cps && cps.length && chosen) matched++;
+  candidates.forEach(p => {
+    const àLui = (cps && cps.length && chosen === p) ? cps.join(',') : '';
+    lines.push(`${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${àLui};${admin1Names.get('XK.' + (p.admin1 || '')) || ''};${p.name}`);
+    canonicalByGeonameId[p.geonameid] = p.name;
+  });
 });
 
 const dumpNames = new Set(deduped.map(p => norm(p.name)));

@@ -4991,3 +4991,33 @@ hy;Սան Խուան;San Juan
 he;סן חואן;San Juan
 fil;Triumfo;Triunfo
 fil;Progreso;Progreso Este
+fil;Tayuman Ibabang;Tayuman Ibaba
+fil;Sinongan;Sinungan
+fil;San Francisco;Aurora
+fil;Rakak;Racat
+fil;Payo;Paya
+fil;Marquito;Marquilo
+ceb;Lungsod sa Manukan;Manukan
+tl;Bayan ng Manukan;Manukan
+fil;Malitac;Malitao
+fil;Lobi;Lubi
+fil;Kolong-Kolong;Kulong- Kulong
+ru;Изабела;City of Isabela
+en;Isabela;City of Isabela
+fil;Lungsod ng Isabela;City of Isabela
+ru;Илиган;Iligan City
+ceb;Lungsod sa Gobernador Generoso;Sigaboy
+tl;Bayan ng Gobernador Generoso;Sigaboy
+fil;Gaos;Gaus
+ja;エルニド;El Nido
+yue;愛妮島;El Nido
+fa;ال نیدو;El Nido
+ko;엘니도;El Nido
+fil;Djora;Diora
+fil;Dinansalau;Dinansalaw
+en;Cagayan;Mapun
+fil;Boki’;Bakey
+tl;Bayan ng Bataraza;Batarasa
+fil;Baroguiron;Boboguiron
+ru;Азия;Asia
+fil;Alicia;Project 8

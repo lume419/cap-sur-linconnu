@@ -1082,12 +1082,14 @@
 0;28.8667,52.7333;247307;Oktiabrski;Vyater
 0;27.5781,54.9713;211721;Dokchitsy;Venyutino Pervoye
 0;30.5030,51.5649;247662;Braghin;Vyal’ye
+0;25.7667,52.6500;;;Vyado
 0;27.5937,54.0954;223114;Loghoisk;Vyacha
 0;26.5072,52.0506;225726;Pinsk;Vuyvichi
 0;26.9876,52.3538;225665;Louninets;Vul’ka Druhaya
 0;25.1475,52.1021;225840;Droghitchin;Vul’ka-Popinskaya
 0;26.6967,52.2776;225670;Louninets;Vul’ka Pyershaya
 0;25.4831,52.5790;225259;Ivatsevitchi;Vul’ka-Abrowskaya
+0;26.0034,51.9900;;Brest;Malaya Vul’ka
 0;26.0248,52.9509;225382;Liakhovitchi;Vol’ka
 0;25.8766,52.5447;225269;Ivatsevitchi;Vul’ka
 0;25.1333,52.2500;225837;Droghitchin;Vul’ka
@@ -2486,6 +2488,7 @@
 0;31.7500,53.9333;213479;Mstislavl;Stakhovskiy
 0;30.0174,53.6397;213328;Bykhov;Stakhovshchina
 0;26.7163,52.0812;225515;Stolin;Stakhava
+0;26.0007,51.9488;;Brest;Stayki
 0;30.3875,55.6271;211555;Gorodok;Stai
 0;29.1528,55.1981;211190;Lepel;Stai
 0;28.6247,54.8864;211180;Lepel;Stai
@@ -4324,6 +4327,7 @@
 0;32.3706,53.6402;213617;Klimovitchi;Perevolochnya
 0;29.9280,54.4728;211060;Tolotchin;Perevolochnaya
 0;24.4176,51.8968;225877;Kobrin;Pereles’ye
+0;30.0167,51.5167;;;Pereves’ye
 0;27.0352,53.7617;222741;Dzerjinsk;Peretsyatki Vtoryye
 0;27.0401,53.7594;222741;Dzerjinsk;Peretyatki
 0;26.6462,53.4681;222691;Stolbtsy;Peretoki
@@ -4926,6 +4930,7 @@
 0;30.3553,53.3354;213343;Bykhov;Novy Bykhaw
 0;30.2995,52.1171;247565;Retchitsa;Novy Barsuk
 0;26.7884,55.1202;211841;Postavy;Novyy Dvor
+0;26.4333,53.9167;;;Novy Dvur
 0;28.5233,53.8350;223224;Tcherven;Novozer’ye
 0;29.2429,54.5870;211164;Tchachniki;Novozemovo
 0;29.7214,53.2991;213959;Kirovsk;Novoye Zalitvin’ye
@@ -5156,6 +5161,7 @@
 0;30.2369,52.6189;247225;Jlobin;Nizhnyaya Alba
 0;26.3646,54.0487;222341;Volojin;Borki-Nizovyye
 0;30.2280,53.2564;213371;Bykhov;Nizhnyaya Toshchytsa
+0;30.1500,51.6500;;;Nizhnyaya Sloboda
 0;29.4582,51.8845;247753;Mozyr;Nizhniy Mlynok
 0;30.5640,51.2923;247652;Braghin;Nizhniye Zhary
 0;24.6938,53.3113;231622;Mosty;Samuylovichi Dol’nyye
@@ -5732,6 +5738,7 @@
 0;24.1385,52.3144;225847;Droghitchin;Matyasy
 0;25.2667,54.0667;231371;Voronovo;Matvyan’tse
 0;30.5734,54.0010;213127;Moghilev;Mateyevshchina
+0;30.9885,55.0491;;Vitebsk;Matushëvo
 0;29.0000,55.8833;211472;Rossony;Matulëvo
 0;25.8051,54.1681;231525;Chtchoutchin;Matyuki
 0;24.2329,52.3103;225871;Kobrin;Matsy
@@ -6140,6 +6147,7 @@
 0;27.4080,55.2173;211807;Gloubokoe;Lutsk-Mosarskiy
 0;27.3793,55.2006;211836;Postavy;Lutsk-Kozlovskiy
 0;27.3146,54.1017;223047;Minsk;Lomshino
+0;27.3500,51.8000;;;Lutsetskoye
 0;28.6404,55.2100;211490;Ouchatchi;Lutovo
 0;27.5924,52.0276;225554;Stolin;Lutki
 0;29.2342,54.8825;211150;Tchachniki;Lutik
@@ -6309,6 +6317,7 @@
 0;30.1386,54.4556;211007;Orcha;Lisuny
 0;27.6563,53.0129;223617;Sloutsk;Lesuny
 0;27.5231,52.7309;223730;Solighorsk;Listopadovichi
+0;28.4160,56.0294;;Vitebsk;Lisno
 0;28.4470,51.8252;247860;Leltchitsy;Lisnoye
 0;29.7442,53.0986;247285;Roghatchev;Liskovskaya Sloboda
 0;26.5433,53.0159;222650;Kletsk;Liskovo
@@ -6455,6 +6464,7 @@
 0;29.1000,53.4530;213918;Volkovyssk;Lenevka
 0;30.5684,55.3852;211325;Vitebsk;Lemnitsa
 0;26.3228,52.0888;225725;Pinsk;Lyemyashevichy
+0;24.8667,50.7167;;;Lelyushovtsy
 0;25.9261,53.8805;231365;Ivie;Lelyuki
 0;24.6945,51.9229;225878;Kobrin;Lelikovo
 0;28.3282,51.7861;247860;Leltchitsy;Lel’chitsy
@@ -6951,6 +6961,7 @@
 1700;27.0094,52.2073;225660;Louninets;Kazhan-Haradok
 0;24.5500,53.0333;231926;Volkovyssk;Kozeykovtse
 0;30.7152,51.9683;247106;Loev;Kozerogi
+0;26.3500,53.9167;;;Koze Penno
 0;26.4702,54.5767;231006;Smorgon;Kozenyaty
 0;31.3071,53.2554;213574;Krasnopolie;Kozel’ye
 0;29.9009,51.8994;247610;Khoiniki;Kazyaluzhzha
@@ -7468,10 +7479,12 @@
 0;29.3500,51.5000;247814;Narovlia;Khutor Svyatotskiy
 0;29.4167,51.6333;247819;Narovlia;Pokupateli
 0;28.5739,51.6576;247842;Leltchitsy;Shiya
+0;29.7667,51.5333;;;Khutor Prokhozha
 0;27.9740,52.2505;247962;Jitkovitchi;Polyanka
 0;28.8854,51.6162;247826;Elsk;Pogoreloye
 0;27.5390,53.9598;223043;Minsk;Novinki
 0;30.5468,53.6088;213334;Bykhov;Lyazhenka
+0;29.8500,51.5167;;;Khutor Kureni
 0;28.7869,51.5504;247825;Elsk;Kovali
 0;27.3167,53.8167;223027;Minsk;Khutor Chikovskiy Gostinets
 0;27.8830,54.1866;223110;Loghoisk;Czarny Las
@@ -7501,6 +7514,7 @@
 0;27.8882,53.7049;222846;Poukhovitchi;Khozyaninki
 0;26.8365,54.2458;222334;Molodetchno;Khazhova
 0;28.8085,52.5129;247928;Petrikov;Khvoynya
+0;26.0385,51.9639;;Brest;Khoyno
 13001;29.9826,51.9077;247600;Khoiniki;Khoyniki
 0;30.4271,52.5257;247394;Bouda-Kochelevo;Khowkhla
 0;28.8837,54.4324;222022;Kroupki;Khatsyukhova
@@ -7762,6 +7776,7 @@
 1200;23.8053,52.5576;225063;Kamenets;Kamyanyuki
 0;28.9167,54.1667;222124;Borissov;Kamen’ya
 0;27.5413,55.6151;211930;Miory;Kamenpol’ye
+0;25.7232,54.5118;;Grodnenskaya;Kamyenny Loh
 1500;30.2962,54.0898;213040;Chklov;Kamyennyya Lavy
 0;29.1688,53.7355;223325;Berezino;Kamyenny Barok
 0;27.3167,53.6833;222726;Dzerjinsk;Kamennyy
@@ -7821,6 +7836,8 @@
 0;31.0333,53.8667;213138;Moghilev;Kamarnitskaya
 0;28.4474,53.1997;213770;Ossipovitchi;Komarino
 0;27.8667,55.9667;211627;Verkhnedvinsk;Kalyuty
+0;28.9667,55.8000;;;Kalyutino Vtoroye
+0;28.9500,55.7833;;;Kalyutino Pervoye
 0;28.6426,52.9872;213861;Glousk;Kalyuga
 0;30.2000,55.5833;211553;Gorodok;Kal’tsy
 0;27.7631,53.7574;223070;Minsk;Kolodezhki
@@ -9363,6 +9380,7 @@
 0;31.4924,53.3739;213568;Krasnopolie;Buglai
 0;31.3484,53.2278;213570;Krasnopolie;Buglai
 0;27.3259,54.2547;222435;Vileika;Bud’ki
+0;27.2500,51.7833;;;Budynki
 0;28.1980,55.9832;211607;Verkhnedvinsk;Budy
 0;27.8029,55.4729;211924;Charkovchtchina;Budy
 0;31.2430,54.4198;213422;Gorki;Urochishche Buda
@@ -9403,6 +9421,7 @@
 0;29.6833,53.3167;213959;Kirovsk;Buda
 0;29.4174,52.1810;247702;Kalinkovitchi;Buda
 0;29.3077,51.7510;247815;Narovlia;Buda
+0;29.6833,51.5333;;;Buda
 0;27.0839,52.9120;223934;Kopyl;Buchatsina
 0;26.7995,55.3216;211993;Braslav;Buchany
 0;27.5719,54.7502;222460;Vileika;Bubny
@@ -9630,6 +9649,7 @@
 0;28.7957,54.9086;211097;Lepel;Bol’shoye Zhezhlino
 0;31.2157,54.0418;213450;Mstislavl;Bol’shoye Zapol’ye
 0;27.9559,54.0397;222232;Smolevitchi;Velikoye Zaluzh’ye
+0;30.6465,55.5689;;Vitebsk;Zaboroch’ye
 0;29.7449,55.6947;211581;Gorodok;Bol’shoye Teshalovo
 967;27.7005,53.8693;220902;Minsk;Bol’shoye Stiklevo
 0;28.4864,53.9672;222218;Smolevitchi;Striyevo
@@ -10312,8 +10332,10 @@
 0;25.0377,51.9685;225858;Droghitchin;Svaryn’
 0;29.0091,51.6016;247823;Elsk;Staryy Most
 0;31.0209,52.0861;247037;Gomel;Semënovka
+0;25.7532,51.9389;;Brest;Semekhovichi
 0;24.7668,51.9869;225878;Kobrin;Pavitstsye
 0;25.4348,51.9561;225813;Ivanovo;Podyshche
+0;25.8443,51.9307;;Brest;Nevel’
 0;25.5549,51.9351;225812;Ivanovo;Koleno
 0;28.7508,51.4897;247825;Elsk;Kazimirovka
 3600;30.2884,54.4168;211004;Orcha;Bolbasovo
@@ -10505,6 +10527,7 @@
 0;30.5786,54.3209;213401;Gorki;Ol’khovka
 0;30.6978,54.3094;213401;Gorki;Dubovyy Ugol
 0;31.8524,53.1208;213682;Kostukovitchi;Virovka
+0;31.8272,53.1539;;Mogilev;Rudakovskiy
 0;31.8692,53.1397;213682;Kostukovitchi;Ugly
 0;31.9465,53.0954;213682;Kostukovitchi;Shabli
 0;30.0034,53.1741;247289;Roghatchev;Grabovo
@@ -10572,6 +10595,7 @@
 0;31.1671,54.4499;213421;Gorki;Starina
 0;31.0855,54.4121;213421;Gorki;Kostyushkovo
 0;30.7509,53.0816;247188;Korma;Ostrov
+0;31.7978,53.1729;;Mogilev;Tarasovka
 0;31.8948,53.2330;213651;Kostukovitchi;Ostrovok
 0;31.9589,53.1639;213682;Kostukovitchi;Gorodok
 0;31.9669,53.1985;213651;Kostukovitchi;Zatish’ye
@@ -13988,6 +14012,7 @@
 0;23.8577,53.4497;231712;Grodno;Zhitorudz’
 0;23.8745,53.9392;231744;Grodno;Dubrovo
 0;24.0843,53.9239;231730;Grodno;Chernukha
+0;24.1489,53.9539;;Grodnenskaya;Zapur’ye
 0;24.1341,53.8631;231730;Grodno;Gumnishche
 0;23.9770,52.8271;231964;Svislotch;Dolgiy Borok
 0;23.9876,52.8650;231964;Svislotch;Brovsk
@@ -16421,6 +16446,7 @@
 0;31.2655,52.0807;247044;Gomel;Zimniy
 0;31.1154,52.1013;247044;Gomel;Lyadtsy
 0;30.9869,52.4933;247012;Gomel;Zalineynyy
+0;28.3584,51.5453;;Homyel’ Voblasc’;Mekhach
 0;28.7477,51.4981;247825;Elsk;Sugaki
 0;28.7662,51.5487;247825;Elsk;Shatuny
 0;28.7164,51.5675;247825;Elsk;Kapsany
@@ -16770,6 +16796,7 @@
 0;31.3301,52.8270;247140;Vetka;Chemernya
 0;31.3432,52.7388;247140;Vetka;Nekrasovo
 0;31.3753,52.8302;247136;Vetka;Zatish’ye
+0;31.3604,52.9468;;Homyel’ Voblasc’;Novoye Zalyad’ye
 0;31.3526,53.1191;213572;Krasnopolie;Borovaya
 0;31.3674,53.2072;213570;Krasnopolie;Pobeda
 0;31.3945,53.2790;213570;Krasnopolie;Kurgan’ye
@@ -16813,6 +16840,8 @@
 0;31.6477,53.2820;213562;Krasnopolie;Kalininskiy
 0;31.6252,53.3305;213568;Krasnopolie;Osov
 0;31.6914,53.2152;213567;Krasnopolie;Leninskiy
+0;31.8474,53.1558;;Mogilev;Zarech’ye
+0;31.8379,53.1170;;Mogilev;Ozerets
 0;31.9384,53.3317;213656;Kostukovitchi;Lyublin
 0;31.9525,53.3285;213656;Kostukovitchi;Nasetskoye
 0;31.9651,53.3233;213640;Kostukovitchi;Krasnaya Zarya
@@ -18136,6 +18165,8 @@
 0;28.9903,55.3541;211658;Polotsk;Gorodishche
 0;29.0345,55.8840;211478;Rossony;Gol’nitsa
 0;29.0007,55.8696;211472;Rossony;Bulynino
+0;28.9995,55.7983;;Vitebsk;Cherepovka
+0;29.0257,55.7774;;Vitebsk;Marinitsa
 0;29.0087,55.5654;211660;Polotsk;Sitenets
 0;29.0196,55.5444;211660;Polotsk;Mushtarovo
 0;29.0157,55.4845;211420;Polotsk;Davyd’kovo
@@ -18149,6 +18180,7 @@
 0;29.0823,55.8445;211476;Rossony;Baydino
 0;29.0737,55.8317;211476;Rossony;Tripol’ye
 0;29.0881,55.8261;211476;Rossony;Gorodishche
+0;29.0304,55.7929;;Vitebsk;Mezhno
 0;29.0829,55.6784;211429;Polotsk;Konnyy Bor
 0;29.0377,55.5456;211660;Polotsk;Kaloshki
 0;29.1081,55.5407;211429;Polotsk;Zatrosten’ye
@@ -18229,6 +18261,7 @@
 0;29.3196,55.4363;211541;Gorodok;Vishnya
 0;29.3052,55.3656;211266;Choumilino;Haravyya
 0;29.3301,55.3638;211266;Choumilino;Pligovki
+0;29.4321,55.9179;;Vitebsk;Niv’ye
 0;29.3871,55.8774;211474;Rossony;Nozhnitsy
 0;29.3843,55.6673;211652;Polotsk;Kovali
 0;29.4032,55.6344;211651;Polotsk;Zasitnitsa
@@ -18390,6 +18423,7 @@
 0;25.8520,54.6886;231217;Ostrovets;Selishchi
 0;25.9164,54.7031;231220;Ostrovets;Zapol’nyye
 0;25.8214,54.7087;231217;Ostrovets;Yarosishki
+45;25.7473,54.7169;;Grodnenskaya;Katlowka
 0;25.9622,54.7244;231220;Ostrovets;Khroly
 0;25.9385,54.7319;231221;Ostrovets;Grishkoyti
 0;25.8251,54.7362;231217;Ostrovets;Lipki
@@ -18438,6 +18472,7 @@
 0;25.9750,54.9310;231234;Ostrovets;Podbor’ye
 0;25.9703,54.9195;231233;Ostrovets;Roystishki
 0;25.9662,54.7467;231221;Ostrovets;Folivarki
+0;25.7397,54.6690;;Grodnenskaya;Midyatly
 0;25.9771,54.8514;231233;Ostrovets;Chekhi
 0;25.9895,54.8543;231233;Ostrovets;Stipiny
 0;25.8290,54.8643;231234;Ostrovets;Povdunya
@@ -21161,7 +21196,15 @@
 0;25.8261,54.5096;231118;Ochmiany;Berendishki
 0;25.8217,54.5121;231118;Ochmiany;Moskovshchina
 0;25.8004,54.4864;231118;Ochmiany;Rovnoye Pole
+0;25.7423,54.5045;;Grodnenskaya;Merlishki
 0;25.7403,54.4842;231112;Ochmiany;Kastechizna
+0;25.6789,54.4915;;Grodnenskaya;Malynishki
+0;25.6628,54.4924;;Grodnenskaya;Novosyady Pervyye
+0;25.6454,54.4794;;Grodnenskaya;Daynovka
+0;25.6486,54.4844;;Grodnenskaya;Brud
+0;25.6306,54.4514;;Grodnenskaya;Grigi Dolovyye
+0;25.6301,54.4570;;Grodnenskaya;Marvchanka
+0;25.6338,54.4627;;Grodnenskaya;Poben’
 0;25.6701,54.4637;231112;Ochmiany;Strely
 0;25.6743,54.4485;231114;Ochmiany;Rudishki
 0;25.8163,54.6602;231217;Ostrovets;Babichi
@@ -21173,6 +21216,7 @@
 0;25.9876,54.6120;231210;Ostrovets;Bel’kishki
 0;25.8451,54.6135;231200;Ostrovets;Rosoly
 0;25.8444,54.5841;231200;Ostrovets;Daynovka
+0;25.7403,54.5531;;Grodnenskaya;Kemyany
 0;25.7720,54.5705;231200;Ostrovets;Rimuni
 0;25.7828,54.5646;231200;Ostrovets;Rukshani
 0;25.8502,54.5763;231200;Ostrovets;Mindyany
@@ -21190,6 +21234,10 @@
 0;25.8046,54.5139;231118;Ochmiany;Dukeli
 0;25.7737,54.5237;231118;Ochmiany;Novosëlki
 0;25.7511,54.5178;231118;Ochmiany;Volkovshchina
+0;25.7335,54.5305;;Grodnenskaya;Murav’yëvka
+0;25.6993,54.5285;;Grodnenskaya;Obmanka
+0;25.7134,54.5153;;Grodnenskaya;Benyany
+0;25.6645,54.5123;;Grodnenskaya;Boyary
 0;25.6889,54.4424;231112;Ochmiany;Potulyanka
 0;25.7131,54.4414;231112;Ochmiany;Gol’ginishki
 0;25.7403,54.4640;231112;Ochmiany;Klimantsy
@@ -21198,6 +21246,7 @@
 0;25.9583,54.4446;231100;Ochmiany;Leylubka
 0;25.9453,54.4666;231104;Ochmiany;Lyugovshchina
 0;25.9684,54.4622;231104;Ochmiany;Berventsy
+0;25.7305,54.5398;;Grodnenskaya;Ganevo
 0;25.9045,54.4233;231107;Ochmiany;Budzyonawka
 0;25.9805,54.4409;231101;Ochmiany;Lyudvinovo
 0;25.9524,54.4256;231101;Ochmiany;Frantishkany
@@ -24108,13 +24157,20 @@
 0;27.6431,54.5662;223145;Loghoisk;Zador’ye
 0;29.9862,53.6861;213328;Bykhov;Zabrod’ye
 0;28.5695,56.0666;211467;Rossony;Krasnyy Bor
+0;28.3885,56.0693;;Vitebsk;Mylenki
+0;28.3941,56.0910;;Vitebsk;Denisenki
 0;28.0055,56.0186;211626;Verkhnedvinsk;Uragovo
 0;28.1211,56.0861;211453;Verkhnedvinsk;Potino
 0;28.1992,56.0765;211453;Verkhnedvinsk;Krasovo
 0;28.2166,56.0694;211453;Verkhnedvinsk;Osveitsa
 0;28.2697,56.0736;211453;Verkhnedvinsk;Kostrovo
 0;28.2701,56.0502;211453;Verkhnedvinsk;Lyubasno
+0;28.3679,56.0227;;Vitebsk;Kobylnitsy
+0;28.3836,56.0060;;Vitebsk;Stradnoye
+0;28.4085,56.0337;;Vitebsk;Zaluch’ye
+0;28.3817,56.0363;;Vitebsk;Malashkova
 0;28.4579,56.0195;211467;Rossony;Izubritsa
+0;28.4397,56.0901;;Vitebsk;Volesy
 0;25.3201,53.9338;231521;Chtchoutchin;Kolyshki
 0;25.3833,53.8849;231300;Lida;Yas’kovtsy
 0;25.3954,53.8847;231300;Lida;Nesikovshchizna

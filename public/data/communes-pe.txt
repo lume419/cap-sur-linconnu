@@ -1,6 +1,7 @@
 43;-72.8510,-2.4391;16110;Loreto;Puerto Elvira
 0;-78.5000,-8.5000;13630;La Libertad;Hacienda Huamansaña
 0;-78.5594,-9.1065;02801;Ancash;Tres de Octubre
+0;-75.1364,-0.2681;;Loreto;Zúñiga
 0;-79.9005,-6.8532;14000;Lambayeque;Zorro Cote
 0;-80.2333,-4.4500;20150;Piura;Zorritos
 12261;-80.6782,-3.6805;24541;Tumbes;Zorritos
@@ -39,6 +40,7 @@
 418;-79.4501,-5.1621;20450;Piura;Yumbe
 852;-76.2977,-6.3202;22235;San Martín Department;Yumbatos
 0;-73.4833,-4.6333;16320;Loreto;Yucuruche
+0;-74.2696,-0.9838;;Loreto;Yubineto
 0;-77.1439,-6.1397;22820;San Martín Department;Yorongos
 0;-77.3500,-5.8167;22860;San Martín Department;Yorongos
 65;-75.6515,-5.1838;16550;Loreto;Yonán
@@ -74,6 +76,7 @@
 153;-80.8110,-5.4855;20690;Piura;Yapato
 0;-80.7833,-5.3667;20620;Piura;Yapato
 0;-80.1390,-5.0619;20300;Piura;Yapatera
+0;-73.2833,-9.6667;;Ucayali;Yapara
 69;-78.0695,-9.1709;02730;Ancash;Yapacayán
 0;-77.0200,-5.9742;22051;San Martín Department;Yantaló
 0;-79.6492,-4.8435;20560;Piura;Yanta
@@ -82,6 +85,7 @@
 0;-75.1000,-6.5333;16440;Loreto;Yanchamayo
 0;-75.4005,-4.8748;16560;Loreto;Yanchamayo
 0;-73.7920,-2.3569;16120;Loreto;Llanchama
+0;-73.7167,-5.6833;;Loreto;Yanayaquillo
 0;-74.9752,-9.5603;10250;Huánuco Department;Yanayacu
 0;-75.6314,-6.5656;22260;San Martín Department;Yanayacu
 0;-76.9000,-6.0833;22140;San Martín Department;Yana-yacu
@@ -104,6 +108,7 @@
 0;-76.5053,-9.9846;10520;Huánuco Department;Yacus
 0;-74.3833,-4.2000;16810;Loreto;Yacumama
 0;-78.0211,-9.3814;02675;Ancash;Yacuchacana
+51;-73.8606,-1.2329;;Loreto;Yabuyanos
 0;-79.7323,-5.1234;20360;Piura;Windon
 0;-78.0831,-7.2852;06320;Cajamarca Department;Vizcachas
 0;-80.9162,-4.9196;20780;Piura;Viviate
@@ -165,6 +170,7 @@
 0;-81.2425,-4.6047;20811;Piura;Verdun
 0;-79.5230,-5.9818;14230;Lambayeque;Yerbabuena
 0;-75.5000,-5.2500;16550;Loreto;Vera Cruz
+0;-74.0500,-7.0667;;Loreto;Venus
 0;-80.6106,-5.4184;20630;Piura;Ventura
 0;-77.5500,-6.1833;01320;Amazonas;Ventilla
 0;-79.5000,-7.3500;13830;La Libertad;Ventarrón
@@ -190,6 +196,7 @@
 0;-76.7955,-7.5784;22520;San Martín Department;El Valle
 0;-80.1537,-4.9504;20300;Piura;Valientes
 0;-77.9189,-6.0429;01100;Amazonas;Valera
+0;-75.6667,-2.1000;;Loreto;Valencia
 0;-79.4931,-5.1774;20440;Piura;Valdivia
 29;-80.1291,-4.4768;20220;Piura;Valdivia
 0;-80.8948,-4.1807;20120;Tumbes;Valdivia
@@ -209,6 +216,7 @@
 961;-78.4192,-7.8158;13221;La Libertad;Usquil
 0;-79.7114,-4.6179;20540;Piura;Uscupampa
 805;-78.0786,-7.7964;13301;La Libertad;Urpay
+0;-73.9667,-7.9667;;Ucayali;Uroquinea
 0;-78.6273,-8.9585;13640;La Libertad;Ureña
 0;-80.4667,-3.6167;24500;Tumbes;Urcos Pachicha
 0;-80.4833,-3.6167;24501;Tumbes;Urcos
@@ -220,6 +228,7 @@
 0;-75.0178,-7.4832;16480;Loreto;La Unión
 439;-78.4000,-8.2833;13190;La Libertad;Uningambal
 0;-78.4000,-8.2500;13190;La Libertad;Unigambal
+0;-73.6333,-5.7500;;Loreto;Ungurahue
 0;-75.1500,-0.9000;16130;Loreto;Ungurahue
 0;-78.3333,-8.8833;02800;Ancash;Unchuhuaray
 0;-78.1512,-8.8522;02820;Ancash;Unchucoto
@@ -347,6 +356,7 @@
 0;-79.5357,-5.5288;20470;Piura;Tolingas
 220;-79.6998,-4.9720;20560;Piura;Tojas
 181;-78.5637,-8.1484;13195;La Libertad;Togopon
+0;-73.7167,-1.2667;;Loreto;Todos Santos
 219;-79.3619,-6.4125;06680;Cajamarca Department;Tocmoche
 29029;-76.5205,-8.1877;22541;San Martín Department;Tocache
 0;-79.9371,-6.4686;14160;Lambayeque;Tizal
@@ -354,6 +364,8 @@
 652;-74.8405,-7.9445;16491;Loreto;Tiruntán
 0;-79.5600,-4.6879;20540;Piura;Tipulco
 0;-74.4333,-4.5167;16571;Loreto;Tipuanga
+0;-75.4000,-6.0667;;Loreto;Tipishca
+0;-73.5167,-5.8500;;Loreto;Tipishca
 0;-75.8153,-5.4530;16550;Loreto;Actual Tipishca
 0;-77.6167,-6.3667;01350;Amazonas;Tío
 0;-73.1005,-3.5419;16200;Loreto;Timicurillo
@@ -374,6 +386,7 @@
 78;-80.1584,-4.8994;20200;Piura;Tinajones
 0;-80.0471,-4.7455;20230;Piura;Timbes
 0;-80.4833,-3.7000;24400;Tumbes;Tigres
+0;-71.1500,-3.6667;;Loreto;Tigre
 0;-75.6333,-2.5500;16810;Loreto;Tigre
 0;-80.3019,-4.6029;20210;Piura;Tierras Blancas
 156;-79.9457,-5.7746;14210;Lambayeque;Tierra Rajada
@@ -416,11 +429,13 @@
 0;-78.0378,-8.4701;02845;Ancash;Tauca
 291;-79.8085,-5.0546;20350;Piura;Taspa
 0;-76.4667,-8.9667;10830;Huánuco Department;Taso Nuevo
+0;-75.2500,-1.5833;;Loreto;Tarqui
 0;-71.7377,-3.4388;16220;Loreto;Tarma
 0;-77.5747,-9.3936;02119;Ancash;Tarica
 220;-77.7528,-8.6024;02210;Ancash;Tarica
 0;-76.3656,-6.5014;22201;San Martín Department;Tarapoto
 0;-74.1000,-2.1833;16120;Loreto;Tarapoto
+0;-73.5167,-6.2167;;Loreto;Tarapacá
 60;-78.1476,-8.6799;02820;Ancash;Taquilpón
 0;-79.5175,-4.8013;20540;Piura;Tapal
 0;-79.5484,-4.7745;20540;Piura;Tapal
@@ -432,18 +447,31 @@
 0;-75.6667,-6.5000;22260;San Martín Department;Tangarana
 0;-73.1585,-4.0032;16311;Loreto;Tamshiyacu
 0;-78.2000,-8.9000;02820;Ancash;Tamputin
+0;-71.8167,-3.0500;;Loreto;Tambo Yanayacu
+0;-71.9000,-2.8167;;Loreto;Tambo Yaguas
 633;-79.7774,-5.1662;20360;Piura;Tamboya
+0;-72.1833,-4.0833;;Loreto;Tambo Tello
+0;-78.0167,-4.6667;;Amazonas;Tambo Tahuahua
+0;-71.5167,-2.8500;;Loreto;Tambo Salvador
 0;-78.5778,-8.9689;02815;Ancash;Tambo Real Antiguo
 378;-79.7030,-6.4807;14340;Lambayeque;Tambo Real
 0;-77.9167,-8.0500;13155;La Libertad;Tamboras
+0;-71.9667,-2.6833;;Loreto;Tambo Ponciano
+0;-73.9167,-9.3833;;Ucayali;Tambo Nuevo
+0;-75.1595,-0.3878;;Loreto;Tambo Nuevo
 277;-78.3105,-7.0965;06200;Cajamarca Department;Tambomayo
 0;-75.7833,-3.9000;16560;Loreto;Tambo Mariano
+0;-75.2833,-1.4667;;Loreto;Tambo Jiménez
+0;-71.5000,-2.9833;;Loreto;Tambo Hirinajarin
+0;-73.2333,-9.9833;;Ucayali;Tambo Gregorio
 30033;-80.3447,-4.9269;20201;Piura;Tambo Grande
 0;-76.2000,-9.6667;10180;Huánuco Department;Tambogán
 0;-75.7833,-9.7000;10230;Huánuco Department;Tambo de Vacas
 0;-78.2000,-4.8000;01810;Amazonas;Tambo de Indios
 0;-74.1500,-9.8833;25220;Ucayali;Tambo de Conibos
 0;-74.2167,-9.6000;25230;Ucayali;Tambo de Conibos
+0;-73.3500,-9.7500;;Ucayali;Tambo Antonio
+0;-71.8500,-2.9333;;Loreto;Tambo Anguilla
 0;-75.8667,-9.9500;10220;Huánuco Department;Tambo
 0;-74.2500,-9.7167;25230;Ucayali;Tambo
 0;-74.5833,-8.3000;25000;Ucayali;Tambo
@@ -453,6 +481,8 @@
 0;-79.4833,-5.2167;20440;Piura;Tambo
 0;-79.7120,-5.1645;20420;Piura;Tambo Grande
 0;-76.4667,-2.8167;16750;Loreto;Tambo
+0;-73.5833,-1.4667;;Loreto;Tambo
+0;-75.3500,-1.2500;;Loreto;Tambo
 12;-78.1771,-9.3853;02670;Ancash;Tambillos
 0;-78.3293,-7.6685;13220;Cajamarca Department;Tambillos
 0;-76.6490,-7.4932;22520;San Martín Department;Tambillo
@@ -514,6 +544,7 @@
 674;-79.9291,-4.4278;20220;Piura;Surpampa
 0;-78.7531,-7.0299;06451;Cajamarca Department;El Suro
 0;-78.1078,-8.0760;13155;La Libertad;Surguran
+0;-70.3500,-2.9500;;Loreto;Supe
 0;-74.7659,-6.4428;16430;Loreto;Sungaro
 0;-77.7000,-7.3500;13420;La Libertad;Sundia
 816;-78.3965,-7.4781;06410;Cajamarca Department;Sunchubamba
@@ -537,6 +568,7 @@
 0;-77.6879,-7.8946;13340;La Libertad;Succha
 0;-79.3359,-6.2896;06675;Cajamarca Department;Succha
 0;-79.6387,-5.2604;20430;Piura;La Soccha
+0;-78.5167,-4.3500;;Amazonas;Subteniente Núñez
 0;-77.8085,-3.0814;01840;Amazonas;Subteniente Castro
 0;-80.7000,-3.8000;24540;Tumbes;Suárez
 0;-79.6167,-4.8167;20540;Piura;Souccha
@@ -566,7 +598,10 @@
 71;-80.7615,-5.4225;20650;Piura;Soledad
 0;-81.0420,-4.8475;20740;Piura;Soledad
 362;-77.7708,-3.5101;01840;Amazonas;Soledad
+0;-70.6502,-2.4153;;Loreto;Soledad
 652;-79.9346,-6.5934;14110;Lambayeque;Solecape
+0;-78.4395,-4.4581;;Amazonas;Soldado Silva
+0;-78.3529,-4.3944;;Amazonas;Soldado Mori
 0;-76.9783,-2.7737;16750;Loreto;Soldado Luna
 0;-75.7344,-2.5253;16810;Loreto;Soldado Bartra
 0;-76.3833,-3.7333;16750;Loreto;Solano
@@ -617,6 +652,7 @@
 417;-77.5796,-8.6236;02243;Ancash;Sicsibamba
 457;-79.4167,-5.3167;20480;Piura;Siclamache
 0;-79.7643,-4.5717;20530;Piura;Sicches
+0;-73.6000,-1.6500;;Loreto;Sibuenes
 0;-78.6798,-6.4915;06700;Cajamarca Department;Sivingán Alto
 11;-78.1971,-8.7888;02820;Ancash;Shushun
 173;-77.6937,-9.2168;02140;Ancash;Shupluy
@@ -626,6 +662,7 @@
 0;-75.8500,-6.0167;16531;Loreto;Shucushuyacu
 0;-78.5000,-8.0167;13135;La Libertad;Shoreyo
 93;-79.6136,-6.3028;14230;Lambayeque;Shonto
+0;-76.2000,-2.4167;;Loreto;Shiviyacu
 0;-78.2980,-7.5918;06340;Cajamarca Department;Shita
 0;-70.8576,-4.2743;16250;Loreto;Shiringueros
 0;-73.7333,-3.8333;16800;Loreto;Shiringuero
@@ -692,6 +729,7 @@
 727;-77.9047,-7.9123;13371;La Libertad;Sarín
 0;-77.5333,-3.4833;16630;Loreto;Sargento Puño
 0;-74.5667,-3.7500;16810;Loreto;Sargento Lores
+0;-74.0667,-7.0833;;Loreto;Sarayacu
 0;-75.1143,-6.7903;16450;Loreto;Sarayacu
 0;-78.7167,-8.3667;13620;La Libertad;Saraque
 0;-73.6667,-4.6667;16320;Loreto;Sarapanga
@@ -718,6 +756,7 @@
 0;-77.8651,-6.5732;01445;Amazonas;Santo Tomás
 0;-79.8345,-6.3938;14150;Lambayeque;Santo Tomás
 0;-78.6823,-6.1514;06760;Cajamarca Department;Santo Tomás
+0;-74.5833,-5.3833;;Loreto;Santo Tomás
 0;-80.0833,-5.3667;20370;Piura;Santos
 0;-81.2183,-4.4989;20810;Piura;Santos
 355;-79.4359,-7.3774;13830;La Libertad;Santonte
@@ -729,6 +768,7 @@
 377;-80.7574,-5.4828;20670;Piura;Santo Domingo
 0;-79.8760,-5.0293;20331;Piura;Santo Domingo
 0;-72.8333,-4.1833;16310;Loreto;Santo Domingo
+0;-76.0126,-2.1816;;Loreto;Santo Domingo
 126;-75.1313,-6.2471;16440;Loreto;Santoa
 6759;-78.1733,-8.1410;13146;La Libertad;Santiago de Chuco
 21982;-79.2392,-7.9589;13741;La Libertad;Santiago de Cao
@@ -749,6 +789,7 @@
 0;-73.8721,-5.1173;16340;Loreto;Santa Soledad
 160;-79.5564,-6.9021;14720;Lambayeque;Santa Sofia
 0;-73.1167,-5.8333;16350;Loreto;Santa Sofía
+0;-70.1719,-2.6939;;Loreto;Santa Sofía
 0;-77.4550,-6.4519;01360;Amazonas;Santa Rosa
 0;-70.4921,-9.4327;25400;Ucayali;Santa Rosa
 140;-78.1260,-9.1490;02730;Ancash;Santa Rosa
@@ -797,6 +838,7 @@
 0;-79.3949,-7.3635;13830;La Libertad;Santa Maria
 0;-79.7669,-6.6681;14330;Lambayeque;Santa Maria
 0;-79.7609,-6.5724;14340;Lambayeque;Santa Maria
+0;-73.5500,-6.5500;;Loreto;Santa María
 0;-79.6833,-6.0875;14200;Lambayeque;Santa Maria
 478;-76.0961,-5.7965;16500;Loreto;Santa María
 0;-73.9500,-5.7167;16370;Loreto;Santa María
@@ -863,6 +905,7 @@
 0;-77.4000,-9.1500;02314;Ancash;Santa Catalina
 53;-79.0434,-7.3131;06441;Cajamarca Department;Santa Catalina
 0;-75.4000,-6.6667;16440;Loreto;Santa Catalina
+0;-71.1667,-2.3549;;Loreto;Santa Catalina
 0;-77.4333,-4.5333;16620;Loreto;Santa Belem
 0;-79.8949,-6.5704;14110;Lambayeque;Santa Beatriz
 0;-79.8667,-6.5000;14120;Lambayeque;Santa Beatriz
@@ -882,6 +925,7 @@
 0;-80.9669,-4.9158;20781;Piura;Hacienda Santa Ana
 0;-80.4526,-4.9517;20200;Piura;Santa Ana
 0;-76.4100,-4.8750;16700;Loreto;Santa Ana
+0;-72.1000,-4.6667;;Loreto;Santa Ana
 0;-72.9500,-4.1500;16310;Loreto;Santa Ana
 0;-74.0240,-3.7864;16800;Loreto;Santa Ana
 0;-79.8057,-6.4062;14150;Lambayeque;Santa Adelaida
@@ -892,6 +936,7 @@
 0;-79.7739,-6.6376;14310;Lambayeque;San Salvador
 40;-73.8595,-5.4767;16340;Loreto;San Salvador
 0;-77.4000,-4.5000;16620;Loreto;San Salvador
+0;-71.3287,-2.3885;;Loreto;San Salvador
 0;-79.9177,-6.6961;14013;Lambayeque;San Rumaldo
 4;-78.0227,-7.4897;06355;Cajamarca Department;Shocorco
 29;-79.5529,-6.7550;14630;Lambayeque;San Roque
@@ -908,6 +953,7 @@
 0;-76.4750,-7.0304;22471;San Martín Department;San Rafael
 0;-78.3489,-5.1554;01810;Amazonas;San Rafael
 805;-80.5960,-4.9924;20000;Piura;San Rafael
+0;-75.4667,-4.7500;;Loreto;San Rafael
 0;-72.9500,-4.1167;16310;Loreto;San Rafael
 0;-80.4817,-3.6039;24501;Tumbes;San Pedro de los Incas
 16250;-79.5042,-7.4289;13801;La Libertad;San Pedro de Lloc
@@ -1046,6 +1092,7 @@
 16;-79.5167,-7.1833;13851;La Libertad;San Jorge
 445;-79.9575,-4.9968;20340;Piura;San Jorge
 0;-81.0189,-4.8778;20730;Piura;San Jorge
+0;-73.9167,-3.5167;;Loreto;San Jorge
 0;-80.7500,-5.4333;20650;Piura;San Joaquín
 102;-80.0692,-4.5597;20220;Piura;San Joaquín
 597;-73.4116,-4.2707;16300;Loreto;San Joaquín de Omaguas
@@ -1073,6 +1120,7 @@
 0;-78.7044,-7.8377;13110;La Libertad;San Ignacio
 0;-79.8328,-6.7330;14004;Lambayeque;San Ignacio
 7912;-79.0014,-5.1458;06846;Cajamarca Department;San Ignacio
+0;-73.2333,-9.9333;;Ucayali;San Gregorio
 0;-78.3833,-9.2167;02720;Ancash;San Gregorio
 189;-79.0951,-7.0572;06475;Cajamarca Department;San Gregorio
 0;-78.4206,-8.0066;13180;La Libertad;Sango
@@ -1100,6 +1148,7 @@
 0;-79.9043,-6.7833;14000;Lambayeque;San Felipe
 382;-79.3137,-5.7704;06736;Cajamarca Department;San Felipe
 0;-73.6819,-4.8785;16330;Loreto;San Felipe
+0;-72.2333,-3.0500;;Loreto;San Felipe
 0;-76.6333,-2.6833;16750;Loreto;San Felipe
 0;-78.5833,-8.9167;02800;Ancash;San Eusebio
 120;-79.5648,-7.1772;13850;La Libertad;San Eugenio
@@ -1157,6 +1206,7 @@
 0;-74.0836,-4.4686;16300;Loreto;San Antonio
 212;-73.7789,-3.7052;16800;Loreto;San Antonio
 0;-74.3500,-3.8500;16810;Loreto;San Antonio
+0;-75.4697,-2.7655;;Loreto;San Antonio
 162;-76.0500,-5.9500;16500;Loreto;Sanango
 0;-79.8324,-5.3422;20401;Piura;San Andrés de Salitral
 0;-78.7129,-6.2383;06756;Cajamarca Department;San Andrés de Cutervo
@@ -1193,6 +1243,8 @@
 5385;-80.6811,-4.8572;20131;Piura;Salitral
 14210;-81.0667,-5.0333;20710;Piura;Salinera Colán
 0;-78.6228,-8.9503;13641;La Libertad;Guadalupito
+0;-80.8833,-6.1167;;Piura;Salina Cerro
+0;-80.6167,-5.8500;;Piura;Salina
 0;-80.6333,-5.6667;20690;Piura;Salina
 0;-80.8500,-5.6333;20690;Piura;Salina
 10066;-78.9770,-8.2210;13611;La Libertad;Salaverry
@@ -1211,6 +1263,7 @@
 0;-75.7333,-6.3000;22250;San Martín Department;Sacareto
 0;-76.7148,-7.0694;22630;San Martín Department;Sacanche
 0;-79.5498,-4.7602;20540;Piura;Sacaya
+0;-75.1667,-0.6833;;Loreto;Sábaloyacu
 0;-77.1167,-8.9000;10860;Huánuco Department;Ruris
 38;-78.8197,-7.2834;06420;Cajamarca Department;Rupe
 0;-74.4380,-2.0527;16120;Loreto;Rumitumi
@@ -1231,6 +1284,7 @@
 0;-79.7500,-6.6333;14330;Lambayeque;Rompón
 0;-80.0204,-6.5033;14160;Lambayeque;Romero
 0;-79.1472,-7.7659;13760;La Libertad;Roma
+0;-78.1000,-4.6833;;Amazonas;Roger Winans
 196;-79.4299,-5.5690;20470;Piura;Rodeo Pampa
 0;-80.7667,-4.0667;24450;Tumbes;Rocoche
 0;-75.2500,-0.9500;16130;Loreto;Rocafuerte
@@ -1252,6 +1306,7 @@
 546;-80.5101,-4.7179;20100;Piura;Riecito
 0;-79.7971,-6.8018;14000;Lambayeque;Ricardo
 166;-80.4986,-3.8031;24400;Tumbes;Rica Playa
+0;-80.9875,-6.1125;;Piura;Reventazón
 0;-72.5500,-9.8833;25300;Ucayali;Resvaladero
 0;-81.2667,-4.3000;20830;Piura;Restín
 0;-79.8149,-6.4349;14140;Lambayeque;Rescate
@@ -1260,6 +1315,7 @@
 0;-80.4167,-4.4667;20150;Piura;Requena
 9808;-79.8178,-6.8656;14801;Lambayeque;Reque
 0;-74.9667,-6.0500;16440;Loreto;República
+0;-73.7500,-5.6667;;Loreto;República
 0;-74.2167,-9.8000;25220;Ucayali;Renepahea
 54;-80.2545,-4.4090;20220;Piura;Remolinos
 0;-80.4717,-3.6124;24500;Tumbes;Real Engel
@@ -1272,6 +1328,7 @@
 0;-78.0802,-8.9178;02740;Ancash;Racuaybamba
 0;-77.4563,-9.7221;02403;Ancash;Recuay
 80;-77.7855,-5.9200;01240;Amazonas;Recta
+0;-73.2555,-2.0609;;Loreto;Recreo
 0;-77.1167,-9.2833;02305;Ancash;Recodo
 54;-78.0989,-8.9255;02740;Ancash;Rayán
 0;-80.8381,-4.1751;24450;Tumbes;Rastrojos
@@ -1394,32 +1451,45 @@
 0;-80.4638,-4.0304;24400;Tumbes;Puesto Teniente Astete
 0;-80.1969,-3.6705;24250;Tumbes;Puesto Quebrada Seca
 0;-80.2500,-3.5167;24100;Tumbes;Puesto Pocitos
+0;-70.6022,-2.4913;;Loreto;Puesto Pipa
+0;-80.1667,-3.9333;;Tumbes;Puesto Murciélago
 0;-80.4500,-4.1500;20150;Piura;Puesto Mayor Novoa
 0;-76.1667,-2.6833;16820;Loreto;Puesto Macusari
 136;-80.1963,-3.6138;24200;Tumbes;Lechugal
+0;-80.2092,-3.8861;;Tumbes;Muralla
 0;-80.2333,-3.4500;24100;Tumbes;Puesto Grau
 0;-71.4103,-2.3895;16110;Loreto;Puesto Franco
+0;-80.1578,-3.8720;;Tumbes;Puesto Figueroa
 0;-79.5833,-4.4833;20540;Piura;Puesto El Remolino
+0;-76.0380,-2.1268;;Loreto;Puesto Cunambo
 0;-80.1667,-3.8333;24250;Tumbes;Puesto Cotrina
 0;-80.2833,-3.4167;24150;Tumbes;Puesto Correa
+0;-80.1328,-3.8911;;Tumbes;Puesto Cóndor Flores
+0;-75.2612,-0.6560;;Loreto;Puesto Cavero
 0;-80.3087,-3.4028;24150;Tumbes;Puesto Capones
 0;-80.1667,-3.8167;24250;Tumbes;Puesto Cabo Gutierres
 0;-80.4577,-4.1915;20150;Piura;Puesto Cabo Córdova
 0;-76.6288,-2.6007;16750;Loreto;Puesto Bobonaza
 80;-77.3238,-3.8132;16630;Loreto;Bagazán
+0;-76.3333,-2.4000;;Loreto;Puesto Avanzado
 0;-73.3206,-1.8284;16110;Loreto;Puesto Arturo
 104;-74.9338,-9.8766;19310;Pasco;Puerto Victoria
 0;-70.5500,-9.5333;25400;Ucayali;Puerto Venecia
+0;-75.2500,-1.5333;;Loreto;Puerto Vencedor
+0;-73.5000,-5.1000;;Loreto;Puerto Velásquez
 0;-70.7167,-9.7167;25400;Ucayali;Puerto Varadero
 0;-76.6333,-2.7667;16750;Loreto;Puerto Tunigrama
 0;-74.7070,-5.7285;16430;Loreto;Puerto Triunfo
 0;-78.7656,-5.3870;06840;Cajamarca Department;Higuerones
+0;-73.5167,-5.1167;;Loreto;Puerto Supay
 0;-72.3487,-3.6446;16210;Loreto;Puerto Soledad
 0;-73.0500,-9.0833;25100;Ucayali;Puerto Silva
 14066;-78.6460,-8.9898;02815;Ancash;Puerto Santa
+0;-71.3667,-2.7833;;Loreto;Puerto San Agustín
 0;-76.5167,-3.5000;16750;Loreto;Puerto Salvatierra
 0;-76.4192,-6.9922;22450;San Martín Department;Puerto Rico
 0;-74.3107,-6.2499;16380;Loreto;Puerto Rico
+0;-74.7833,-3.1500;;Loreto;Puerto Resistencia
 244;-73.1829,-8.9785;25100;Ucayali;Puerto Putaya
 0;-77.4500,-4.4500;16620;Loreto;Puerto Prado
 0;-72.7500,-9.7667;25300;Ucayali;Puerto Portillo
@@ -1427,17 +1497,21 @@
 69;-81.0979,-4.9111;20710;Piura;Puerto Pizarro
 0;-76.6474,-8.0083;22530;San Martín Department;Puerto Pisana
 0;-70.7808,-9.7928;25400;Ucayali;Piquinique
+0;-75.2866,-0.1530;;Loreto;Puerto Perú
 0;-74.3500,-4.7000;16570;Loreto;Puerto Parinari
 0;-76.4162,-3.7019;16750;Loreto;Puerto Pardo
 0;-75.1000,-7.0000;16460;Loreto;Puerto Oriente
+0;-74.6333,-3.2333;;Loreto;Puerto Olivia
 0;-80.8580,-5.7458;20690;Piura;Puerto Nuevo
 0;-73.2167,-5.2833;16350;Loreto;Puerto Morla Concha
 0;-78.8926,-8.4026;13620;La Libertad;Puerto Mori
+0;-71.9667,-4.1833;;Loreto;Puerto Monpot
 0;-77.5167,-4.4500;16620;Loreto;Puerto Meléndez
 0;-81.0697,-4.1123;20850;Piura;Puerto Máncora
 0;-75.2614,-9.9193;19320;Pasco;Puerto Mairo
 0;-76.5000,-4.0167;16750;Loreto;Puerto Madres
 0;-76.6000,-3.7667;16750;Loreto;Puerto Madres
+0;-73.3833,-5.2000;;Loreto;Puerto Loboyacu
 0;-77.2167,-4.7000;16620;Loreto;Puerto Limón
 0;-76.4000,-2.8667;16750;Loreto;Puerto José
 0;-72.2596,-3.6253;16210;Loreto;Puerto Izangopampa
@@ -1458,20 +1532,28 @@
 0;-74.3333,-8.5167;25000;Ucayali;Puerto Eduardo
 0;-76.5524,-4.6771;16700;Loreto;Puerto Diego Ríos
 99;-76.5406,-4.6867;16700;Loreto;Puerto Díaz
+0;-72.6167,-4.1667;;Loreto;Puerto Desengaño
 0;-79.8645,-6.9235;14810;Lambayeque;Puerto Eten
+0;-74.6833,-3.1000;;Loreto;Puerto de Cerpera
+0;-74.5167,-3.0333;;Loreto;Puerto Copal
 0;-70.5500,-9.4833;25400;Ucayali;Puerto Clarita
 0;-81.0667,-4.1000;20850;Piura;Puerto Chico
 0;-70.6413,-9.6731;25400;Ucayali;Catay
 0;-73.8667,-4.0333;16800;Loreto;Puerto Catalán
 384;-78.3833,-9.4613;02665;Ancash;Puerto Casma
 0;-74.9333,-7.4333;16480;Loreto;Puerto Cashiboya
+0;-74.1167,-2.5333;;Loreto;Puerto Carmen
+0;-74.0167,-1.5333;;Loreto;Puerto Cárdenas
 0;-74.7001,-8.8877;10300;Huánuco Department;Puerto Carbajal
 0;-72.9500,-5.1833;16350;Loreto;Puerto Canuco
 0;-70.7927,-9.8074;25400;Ucayali;Cantagallo
+0;-75.6333,-2.8667;;Loreto;Puerto Canela
+0;-74.3833,-1.0167;;Loreto;Puerto Buenos Aires
 0;-72.7333,-9.4167;25300;Ucayali;Puerto Breu
 0;-72.7000,-4.2500;16310;Loreto;Puerto Bosmediano
 0;-75.3000,-8.3167;25600;Ucayali;Puerto Bolívar
 0;-77.1667,-7.0333;22610;San Martín Department;Puerto Billinghurst
+0;-74.1667,-1.1167;;Loreto;Puerto Barros
 0;-74.6880,-8.7416;10350;Huánuco Department;Puerto Baldeón
 129;-74.3217,-2.1076;16120;Loreto;Puerto Aurora
 0;-78.1725,-7.4426;06340;Cajamarca Department;Puerto Arturo
@@ -1484,6 +1566,7 @@
 97;-74.1783,-8.7252;25100;Ucayali;Puerto Alegre
 0;-75.0333,-6.9333;16450;Loreto;Puerto Alegre
 0;-75.9667,-5.6167;16540;Loreto;Puerto Adolfo
+0;-70.1167,-2.7833;;Loreto;Puerto
 0;-80.2000,-4.9833;20300;Piura;Puerta de Sancor
 40;-80.3955,-4.6891;20150;Piura;Puerco Muerto
 0;-78.9500,-7.1833;06441;Cajamarca Department;Puente Huachén
@@ -1519,6 +1602,7 @@
 0;-79.4088,-5.2744;20480;Piura;Pucutay
 0;-78.2297,-8.8886;02820;Ancash;Pucushimin
 0;-71.9333,-3.2333;16220;Loreto;Pucaurquillo
+0;-71.9201,-2.3279;;Loreto;Puca Urco
 0;-75.1500,-0.6000;16130;Loreto;Pucaurco
 0;-73.9865,-5.0014;16340;Loreto;Pucate
 0;-73.6614,-4.5635;16300;Loreto;Pucate
@@ -1532,6 +1616,7 @@
 0;-73.5183,-2.7065;16120;Loreto;Puca Barranca
 0;-75.3000,-6.5167;16440;Loreto;Providencia
 400;-76.0100,-5.7264;16500;Loreto;Providencia
+0;-73.9667,-2.0833;;Loreto;Providencia
 0;-79.9171,-5.7580;14210;Lambayeque;Progresso
 797;-80.5164,-4.9554;20200;Piura;Progreso Bajo
 0;-73.3667,-6.0500;16350;Loreto;Progreso
@@ -1562,6 +1647,7 @@
 0;-79.2500,-7.7500;13710;La Libertad;Porvenir
 0;-75.8751,-4.9975;16700;Loreto;Porvenir
 0;-77.4167,-4.5833;16620;Loreto;Porvenir
+0;-77.7500,-3.7000;;Amazonas;Porvenir
 0;-80.2253,-3.5521;24200;Tumbes;Porvenir
 0;-80.2203,-4.5230;20220;Piura;Portillo
 0;-75.8333,-5.5167;16540;Loreto;Portal
@@ -1574,6 +1660,7 @@
 0;-80.4477,-5.1451;20000;Piura;El Veintiuno
 0;-77.0044,-9.3258;02330;Ancash;Ponto
 333;-76.2495,-9.8264;10100;Huánuco Department;Pomacucho
+0;-75.4333,-6.5500;;Loreto;Ponguito
 0;-75.9013,-6.4471;22255;San Martín Department;Pongo
 0;-78.0293,-9.2917;02675;Ancash;Poneaj
 158;-79.8818,-6.8608;14831;Lambayeque;Poncoy
@@ -1597,6 +1684,7 @@
 145;-78.0374,-9.3126;02675;Ancash;Pocso
 151;-78.1439,-9.1413;02730;Ancash;Pocos
 0;-79.8965,-4.9283;20340;Piura;Poclus
+0;-73.5833,-5.7667;;Loreto;Pobreza
 0;-73.4000,-5.9833;16350;Loreto;Pobre Diablo
 331;-79.9264,-6.4803;14160;Lambayeque;Puplan
 374;-78.6774,-7.9990;13130;La Libertad;Plazapampa
@@ -1620,6 +1708,7 @@
 0;-73.8000,-5.4000;16340;Loreto;Piura
 630000;-80.6572,-5.1819;20001;Piura;Piura
 361;-74.3977,-4.0774;16810;Loreto;Piura
+0;-73.8333,-4.2833;;Loreto;Piuca
 0;-79.7774,-6.5637;14341;Lambayeque;Pítipo
 108;-80.3893,-4.2948;20150;Piura;Pitayo
 0;-80.4014,-4.2501;20150;Piura;Pitayitos
@@ -1814,6 +1903,7 @@
 0;-80.2500,-4.4000;20220;Piura;Pampa Larga
 0;-75.3000,-7.2000;16471;Loreto;Pampa Hermosa
 0;-74.1667,-7.0500;16380;Loreto;Pampa Hermosa
+0;-75.4333,-5.7667;;Loreto;Pampa Hermosa
 161;-78.6167,-7.9000;13200;La Libertad;Pampa Grande
 0;-79.4810,-6.7517;14620;Lambayeque;Pampa Grande
 0;-79.5767,-5.5251;20470;Piura;Pampa Grande
@@ -1869,6 +1959,7 @@
 80;-79.7158,-6.1734;14200;Lambayeque;Palacios
 0;-79.5370,-6.0220;14230;Lambayeque;Palacio
 0;-79.6764,-5.2696;20430;Piura;Hacienda Pajonal
+0;-77.3667,-7.4833;;San Martín Department;Pajatén
 16;-80.7888,-4.6301;20120;Piura;Pájaro Bobo
 0;-80.2739,-4.5037;20150;Piura;Pájaro Bobillo
 154;-80.8947,-4.0564;24560;Tumbes;Pajaritos
@@ -1933,11 +2024,13 @@
 0;-73.2155,-3.1778;16100;Loreto;Oro Blanco
 234;-79.7405,-5.4738;20400;Piura;Hornopampa
 0;-75.1667,-6.9000;16451;Loreto;Orellana
+0;-78.1333,-4.6333;;Amazonas;Orellana
 57;-79.6230,-4.6397;20540;Piura;Orejuela
 0;-80.9027,-4.6991;20800;Piura;La Orejona
 0;-78.3641,-8.2338;13190;La Libertad;Oregano
 2;-80.6742,-4.6023;20120;Piura;Oratanga
 0;-72.5167,-3.3500;16210;Loreto;Orán
+0;-78.1000,-4.7000;;Amazonas;Oracuzar
 572;-80.7464,-5.4883;20670;Piura;Onza de Oro
 101;-76.9669,-8.1682;13560;La Libertad;Ongón
 604;-77.3961,-6.4678;01341;Amazonas;Omia
@@ -1975,9 +2068,11 @@
 76;-79.5833,-7.1500;13850;La Libertad;Nuevo Mundo
 624;-76.4547,-2.8084;16750;Loreto;Nuevo Andoas
 0;-74.2000,-4.3333;16300;Loreto;Nueva York
+0;-73.4500,-6.1667;;Loreto;Nueva Vida
 0;-71.7167,-4.5000;16250;Loreto;Nueva Vida
 0;-76.7462,-9.5822;10770;Huánuco Department;Nueva Flores
 0;-74.5667,-8.3333;25000;Ucayali;Nueva Requena
+0;-71.2841,-4.4162;;Loreto;Nueva Olinda
 0;-76.4720,-7.0996;22481;San Martín Department;Nuevo Lima
 0;-74.1167,-2.3167;16120;Loreto;Nueva Florencia
 0;-71.4500,-3.7500;16230;Loreto;Nueva España
@@ -2016,6 +2111,7 @@
 363;-79.8090,-5.9311;14210;Lambayeque;Nichipo
 0;-78.3589,-9.1725;02721;Ancash;Nepeña
 230;-79.2660,-7.9312;13740;La Libertad;Nepén
+0;-74.2333,-3.6500;;Loreto;Nepcano
 0;-73.3667,-2.9500;16120;Loreto;Negro Urco
 0;-81.3047,-4.6539;20801;Piura;Negritos
 13;-80.8648,-4.0459;24560;Tumbes;Negritos
@@ -2030,6 +2126,7 @@
 0;-80.9000,-4.2333;20120;Piura;Navarro
 14646;-73.5803,-4.5056;16300;Loreto;Nauta
 254;-79.9000,-5.6000;14210;Lambayeque;Ñaupe
+0;-75.4333,-1.1833;;Loreto;Nashiño
 0;-80.6864,-5.2912;20000;Piura;Narihualá
 0;-78.8030,-7.8556;13105;La Libertad;Nari
 25;-78.2047,-8.8405;02820;Ancash;Naranjo
@@ -2064,6 +2161,7 @@
 0;-77.4333,-8.2000;13515;La Libertad;Nahuimbamba
 0;-80.7412,-4.4829;20120;Piura;Macupillo
 0;-80.2000,-5.1167;20300;Piura;Nácara
+0;-72.2333,-4.7333;;Loreto;Nabal
 0;-73.1167,-3.9500;16310;Loreto;Muyuy
 256;-78.1233,-7.1825;06315;Cajamarca Department;Muyoc
 0;-79.0708,-7.0500;06470;Cajamarca Department;Minis
@@ -2138,6 +2236,7 @@
 0;-79.0289,-8.1269;13001;La Libertad;Monserrate
 25707;-79.8687,-6.8743;14831;Lambayeque;Monsefú
 0;-79.8480,-6.5320;14120;Lambayeque;Monsalve
+0;-73.4000,-6.1333;;Loreto;Monopolio
 486;-79.7354,-6.1831;14200;Lambayeque;Mondragon
 0;-78.4921,-7.8762;13220;La Libertad;Monchacap Alto
 216;-79.2546,-7.8688;13750;La Libertad;Moncada
@@ -2195,6 +2294,7 @@
 0;-76.2667,-3.5167;16750;Loreto;Minchana
 0;-80.3734,-5.9957;20690;Lambayeque;Minchales
 0;-79.8032,-4.8727;20560;Piura;Minas
+0;-80.8333,-6.1500;;Piura;Mina Bayobar
 0;-78.7876,-6.6501;06621;Cajamarca Department;Ninabamba
 386;-77.4350,-6.4936;01375;Amazonas;Milpuc
 0;-76.8880,-9.9808;02425;Ancash;Millpo Chico
@@ -2355,6 +2455,7 @@
 146;-77.4110,-8.9194;02290;Ancash;Lucma
 652;-78.5513,-7.6406;13240;La Libertad;Lucma
 82;-73.3297,-4.1034;16310;Loreto;Lucero pata
+0;-73.5333,-6.4833;;Loreto;Lucero
 0;-80.4665,-3.8006;24400;Tumbes;Loyola
 0;-78.0868,-8.1401;13160;La Libertad;Los Tres Altos
 34;-78.2925,-8.1200;13140;La Libertad;Los Toritos
@@ -2411,6 +2512,7 @@
 0;-80.3841,-5.5506;20000;Piura;Loma Blanca
 0;-79.8128,-6.3508;14150;Lambayeque;Lobace
 0;-80.3504,-4.9520;20200;Piura;Locuto
+0;-75.1667,-0.7667;;Loreto;Lobo
 0;-81.2849,-4.4567;20820;Piura;Lobitos
 0;-77.8167,-6.7500;01465;Amazonas;Lluy
 346;-77.3673,-8.9611;02291;Ancash;Llumpa
@@ -2518,6 +2620,7 @@
 8;-80.7059,-4.3863;20150;Piura;La Tranca
 0;-80.9833,-4.1667;24560;Piura;La Tranca
 0;-80.6333,-3.8667;24450;Tumbes;La Tranca
+0;-81.0792,-6.0889;;Piura;La Trampa
 0;-81.1210,-5.2797;20700;Piura;La Tortuga
 15;-79.2500,-6.4833;06670;Cajamarca Department;La Toma
 0;-80.1380,-4.2901;20220;Piura;La Toma
@@ -2618,6 +2721,7 @@
 0;-80.5795,-4.7728;20140;Piura;La Peña
 634;-80.4540,-3.6686;24400;Tumbes;La Peña
 27045;-78.4350,-5.6111;01741;Amazonas;La Peca
+0;-75.4000,-6.1000;;Loreto;La Paz
 82;-78.2099,-7.3842;06320;Cajamarca Department;La Pauquilla
 0;-79.9000,-6.5000;14120;Lambayeque;La Parra
 950;-79.7355,-5.3097;20410;Piura;La Pareja
@@ -2651,6 +2755,7 @@
 77;-80.0583,-4.4926;20220;Piura;La Monja
 0;-79.7083,-6.1441;14201;Lambayeque;La Mojonera
 0;-80.0667,-6.0000;14210;Lambayeque;La Misteriosa
+0;-80.8473,-6.0726;;Piura;La Mina
 0;-79.9291,-4.6223;20500;Piura;Las Minas
 0;-79.0556,-7.3075;06441;Cajamarca Department;La Mesita
 307;-77.6165,-9.7354;02613;Ancash;La Merced
@@ -2759,6 +2864,7 @@
 0;-78.2692,-8.8924;02800;Ancash;Lacramarca Alta
 280;-80.0818,-4.5734;20220;Piura;La Copa
 0;-79.7071,-6.6656;14330;Lambayeque;La Comunidad
+0;-73.8333,-9.3667;;Ucayali;La Colpa
 0;-78.1385,-8.0292;13155;La Libertad;La Colpa
 603;-78.0638,-7.8349;13300;La Libertad;La Colpa
 18;-78.6367,-7.7311;13260;La Libertad;La Colorada
@@ -2830,6 +2936,7 @@
 0;-77.7978,-5.9048;01250;Amazonas;Jumbilla
 0;-78.4879,-8.0441;13181;La Libertad;Julcán
 231;-77.3647,-8.2295;13525;La Libertad;Jucusbamba
+0;-77.1850,-7.8786;;San Martín Department;Juscusbamba
 0;-78.9718,-7.1933;06440;Cajamarca Department;Yubed
 37715;-76.7277,-7.1770;22601;San Martín Department;Juanjuí
 0;-76.3300,-6.5828;22400;San Martín Department;Juan Guerra
@@ -2845,6 +2952,7 @@
 0;-79.8917,-4.9164;20340;Piura;Jocope
 0;-76.6000,-9.9833;10560;Huánuco Department;Jivia
 282;-76.7179,-9.2466;10810;Huánuco Department;Jircan
+0;-78.2924,-3.7198;;Amazonas;Puesto de Vigilancia Jiménez Banda
 0;-78.1378,-9.0131;02741;Ancash;Jimbe
 351;-79.7971,-4.5827;20520;Piura;Jilili
 0;-79.5162,-5.1512;20440;Piura;Jicate
@@ -2896,15 +3004,18 @@
 0;-74.1833,-9.8167;25220;Ucayali;Irruya
 0;-78.2000,-8.9000;02820;Ancash;Irhua
 0;-78.2167,-8.8167;02820;Ancash;Ircahuay
+0;-72.3500,-4.4167;;Loreto;Iracema
 377609;-73.2529,-3.7481;16001;Loreto;Iquitos
 0;-74.4412,-9.3054;25230;Ucayali;Iparia
 0;-75.0667,-7.2667;16480;Loreto;Ipactía
 0;-74.7820,-3.4903;16811;Loreto;Intuto
 0;-79.8534,-5.7349;14210;Lambayeque;Insculas Viejo
 676;-79.8589,-5.7561;14210;Lambayeque;Insculas
+0;-74.0000,-1.1333;;Loreto;Inonias
 410;-77.9572,-6.2408;01505;Amazonas;Inguilpata
 0;-78.3837,-7.7867;13220;La Libertad;Ingom
 0;-79.9455,-5.2087;20380;Piura;El Ingenio
+0;-73.5000,-5.9167;;Loreto;Infiernillo
 0;-79.6191,-5.5710;20470;Piura;Infiernillo
 0;-79.8015,-5.0343;20350;Piura;Infiernillo
 0;-80.2333,-4.3833;20220;Piura;Infiernillo
@@ -2913,6 +3024,7 @@
 0;-73.6333,-8.8333;25100;Ucayali;Indio Piro
 0;-78.3000,-4.9500;01810;Amazonas;Indio Nayami
 0;-78.2667,-4.9333;01810;Amazonas;Indio Nashipa
+0;-73.0500,-2.5000;;Loreto;Indiana, Putamayo
 644;-79.3152,-6.2373;14400;Lambayeque;Incahuasi
 0;-76.2667,-9.5000;10180;Huánuco Department;Incacocha
 0;-75.2833,-7.1500;16460;Loreto;Inahuaya
@@ -2956,6 +3068,7 @@
 0;-80.0868,-4.4913;20220;Piura;Huayabo
 0;-73.7833,-5.6000;16340;Loreto;Huayaberas
 203;-76.7357,-7.2588;22600;San Martín Department;Huayabamba
+0;-70.5500,-3.1333;;Loreto;Huaura
 0;-76.8343,-7.3655;22620;San Martín Department;Huauna
 32;-80.6893,-4.4454;20150;Piura;Huateria
 0;-78.1585,-9.0787;02730;Ancash;Huataspampa
@@ -3015,6 +3128,7 @@
 859;-77.1752,-9.4519;02300;Ancash;Huántar
 0;-79.7818,-4.7702;20550;Piura;Huanla
 0;-76.5667,-9.9333;10570;Huánuco Department;Huangrin
+0;-72.1500,-4.0833;;Loreto;Huangana Blanca
 473;-78.5216,-7.8573;13200;La Libertad;Huangamarca
 0;-78.0736,-8.4648;02845;Ancash;Huangamaca
 0;-81.1103,-4.4981;20810;Piura;Huanes
@@ -3046,6 +3160,7 @@
 0;-78.3029,-8.3101;13145;La Libertad;Huanabamba
 0;-80.6417,-5.1314;20000;Piura;Huan
 0;-80.9833,-4.9000;20750;Piura;Huan
+0;-78.1534,-4.4659;;Amazonas;Huampam
 0;-78.9609,-6.4527;06655;Cajamarca Department;Huambos
 0;-76.8667,-9.9167;02425;Ancash;Huambo
 680;-77.5379,-6.4290;01355;Amazonas;Huambo
@@ -3131,6 +3246,7 @@
 0;-76.3606,-9.9249;10700;Huánuco Department;Higuera
 0;-75.8331,-9.2208;10150;Huánuco Department;Hermilio Valdizán
 0;-78.9167,-8.0833;13100;La Libertad;Herederos
+0;-75.1333,-5.2000;;Loreto;Hamburgo
 0;-80.5062,-4.4210;20150;Piura;Halcones
 334;-78.2037,-9.1614;02730;Ancash;Virahuanca
 24;-79.2508,-6.9736;06530;Cajamarca Department;Hacienda Vieja
@@ -3213,6 +3329,7 @@
 0;-75.1500,-0.5167;16130;Loreto;Guerra Valles
 0;-80.7143,-5.4113;20620;Piura;Güerequeque
 0;-80.1000,-5.1167;20300;Piura;Güerequeque
+0;-75.2491,-0.1172;;Loreto;Güeppí
 0;-77.8308,-7.5127;13350;La Libertad;Guayovilca
 0;-79.3968,-6.6449;14620;Lambayeque;Hacienda Guayaquil
 37;-79.5262,-5.8987;20470;Piura;Guayaquil
@@ -3257,6 +3374,7 @@
 3;-79.1081,-7.7631;13700;La Libertad;Gasñape
 268;-76.5282,-9.9677;10520;Huánuco Department;Gasgo
 227;-79.2434,-7.7235;13760;La Libertad;Garrapón
+0;-81.0500,-6.1500;;Piura;Garita
 465;-79.7434,-5.9250;14210;Lambayeque;Garbanzal
 792;-80.4352,-3.6111;24300;Tumbes;Garbanzal
 39;-79.3126,-7.7419;13720;La Libertad;Garbanzal
@@ -3287,17 +3405,22 @@
 0;-73.4167,-5.9500;16350;Loreto;Fortaleza
 88;-77.7071,-4.1815;01840;Amazonas;Fortaleza
 0;-75.0833,-7.0000;16460;Loreto;Formosa
+0;-76.1638,-2.3404;;Loreto;Forestal
+0;-70.6667,-3.1500;;Loreto;Fonseca
 0;-81.1601,-4.4549;20810;Piura;Fondos
 0;-81.2000,-5.2167;20700;Piura;Foca
 0;-75.0000,-6.9833;16470;Loreto;Florinda
 592;-79.1225,-6.8690;06500;Cajamarca Department;La Florida
+0;-73.4833,-6.1833;;Loreto;Florida
 3570;-77.9696,-5.8258;01150;Amazonas;Florida ( Pomacochas)
 0;-80.4667,-3.5500;24002;Tumbes;Florida
+0;-73.9140,-1.1250;;Loreto;Florida
 0;-77.4667,-8.1500;13550;La Libertad;Floresta
 0;-75.0167,-6.6833;16440;Loreto;Floresta
 0;-73.9167,-5.6500;16360;Loreto;Floresta
 0;-74.1586,-5.4075;16400;Loreto;Flor de Punga
 77;-73.0685,-2.3619;16110;Loreto;Flor de Agosto
+0;-75.1340,-0.3448;;Loreto;Firmeza
 171;-79.7588,-5.9398;14210;Lambayeque;Filoque Grande
 197;-80.0962,-5.9216;14210;Lambayeque;Ficuar
 34357;-79.7889,-6.6389;14311;Lambayeque;Ferreñafe
@@ -3320,6 +3443,7 @@
 0;-74.4126,-8.4020;25000;Ucayali;Éxito
 0;-81.0167,-4.7000;20800;Piura;Evangelista
 0;-74.5000,-9.1667;25230;Ucayali;Eureka
+0;-72.6667,-5.0000;;Loreto;Eureka
 0;-77.5000,-4.4167;16620;Loreto;Eureka
 0;-79.8524,-6.7059;14000;Lambayeque;Eureca
 0;-74.3293,-6.5893;16380;Loreto;Eufracio
@@ -3347,6 +3471,7 @@
 0;-74.3328,-3.8854;16810;Loreto;Esperanza
 0;-73.7524,-3.6049;16800;Loreto;Esperanza
 0;-80.4667,-3.5500;24002;Tumbes;Esperanza
+108;-71.9136,-2.3706;;Loreto;Esperanza
 34;-73.7266,-5.9225;16360;Loreto;España
 590;-81.0650,-5.0089;20710;Piura;La Esmeralda
 0;-76.7208,-7.0187;22640;San Martín Department;El Eslabón
@@ -3554,6 +3679,7 @@
 151;-78.4167,-7.8500;13220;La Libertad;Dos de Mayo
 789;-77.0569,-7.1840;22620;San Martín Department;Dos de Mayo
 403;-75.1175,-6.3937;16441;Loreto;Dos de Mayo
+0;-73.4833,-5.9000;;Loreto;Dos de Mayo
 5;-76.5055,-4.7168;16700;Loreto;Dos de Mayo
 0;-77.8053,-3.1986;01840;Amazonas;Dos de Mayo
 64;-79.3637,-6.8736;14730;Lambayeque;Dos Corrales
@@ -3566,9 +3692,11 @@
 0;-73.9842,-2.4141;16120;Loreto;Diamante Azul
 41;-79.9831,-4.5174;20220;Piura;Diablos Pintados
 31;-79.7963,-4.4946;20540;Piura;Despunte
+0;-73.6000,-5.7667;;Loreto;Desprecio
 0;-78.3833,-9.4667;02665;Ancash;Desmotadora
 0;-74.0386,-5.8294;16370;Loreto;Desengaño
 261;-79.5156,-6.7411;14610;Lambayeque;Desaguadero
+0;-75.6833,-8.3000;;Loreto;David
 0;-75.9333,-9.1667;10150;Huánuco Department;Daniel Alomias Robles
 0;-78.0080,-9.8379;02655;Ancash;Cusmo
 0;-76.4667,-6.9833;22460;San Martín Department;Cuzco
@@ -3588,6 +3716,7 @@
 0;-78.6720,-8.1557;13620;La Libertad;Curunday
 0;-80.6624,-5.0193;20000;Piura;Curumuy
 0;-74.1733,-8.7328;25100;Ucayali;Curumaná
+0;-73.5167,-5.8833;;Loreto;Curinga
 0;-71.9713,-2.4989;16110;Loreto;Curinga
 354;-79.5808,-4.9359;20560;Piura;Curilcas
 0;-77.9433,-7.8597;13361;La Libertad;Curgos
@@ -3720,10 +3849,13 @@
 0;-78.8050,-7.3663;06422;Cajamarca Department;Contumazá
 20900;-75.0167,-7.3333;16481;Loreto;Contamana
 0;-74.3672,-6.8617;16380;Loreto;Contamana
+0;-73.7333,-6.9000;;Loreto;Conta
+0;-71.9500,-4.5500;;Loreto;Constitución
 0;-72.5000,-3.3667;16210;Loreto;Constantinopla
 362;-80.8486,-5.6733;20690;Piura;Constante
 0;-78.8268,-8.0039;13105;La Libertad;Constancia
 0;-79.2228,-7.7697;13710;La Libertad;Constancia
+0;-75.1657,-0.2113;;Loreto;Constancia
 0;-78.3765,-7.0223;06200;Cajamarca Department;Coñor
 0;-78.1709,-8.7707;02820;Ancash;Conoc Huarmi
 0;-79.8333,-4.6333;20510;Piura;Conla
@@ -3744,6 +3876,7 @@
 419;-78.6559,-6.4443;06126;Cajamarca Department;Conchán
 116;-77.4919,-8.2228;13550;La Libertad;Conchamarca
 0;-79.8667,-6.4500;14130;Lambayeque;Concha
+0;-73.6667,-5.7000;;Loreto;Concertina
 0;-80.8833,-4.9167;20780;Piura;Concepción
 0;-79.7952,-6.6161;14310;Lambayeque;Comun
 0;-79.9556,-4.9124;20340;Piura;Común
@@ -3756,11 +3889,14 @@
 0;-78.5881,-7.4457;06410;Cajamarca Department;Culquimarca
 490;-78.0789,-8.1724;13160;La Libertad;Colpa Seca
 105;-80.0218,-5.3711;20370;Piura;Colpas
+0;-72.4333,-4.5333;;Loreto;Colonia Barros
 0;-72.8752,-5.1495;16350;Loreto;Colonia Angamos
+0;-72.0333,-4.5833;;Loreto;Colombia
 0;-79.8372,-6.4158;14150;Lambayeque;Coloche Viejo
 0;-79.6181,-6.9657;14700;Lambayeque;El Coloche
 0;-79.5507,-5.7768;20470;Piura;Coloancho
 0;-79.6833,-7.0500;14700;Lambayeque;Colo
+0;-75.1303,-0.2971;;Loreto;Colmena
 2;-77.6167,-8.7667;02195;Ancash;Collota
 0;-77.9486,-6.7736;01475;Amazonas;Illabamba
 0;-79.8167,-6.7333;14300;Lambayeque;Collocsi
@@ -3786,6 +3922,7 @@
 0;-78.0667,-9.5333;02680;Ancash;Cocopoto
 0;-71.5667,-3.6167;16220;Loreto;Cochiquinas
 7;-79.9896,-6.5255;14160;Lambayeque;Cochineros
+0;-80.3000,-3.8500;;Tumbes;Cochas
 255;-77.6462,-9.9871;02630;Ancash;Cochapetí
 0;-78.0661,-9.8583;02655;Ancash;Cochas
 0;-77.5857,-6.4072;01350;Amazonas;Cochamal
@@ -3798,6 +3935,7 @@
 0;-78.0167,-6.6000;01480;Amazonas;Cocabamba
 1;-78.1301,-8.4983;02825;Ancash;Cocabal
 253;-79.8395,-5.1924;20360;Piura;Coca
+0;-74.1667,-6.4167;;Loreto;Clemente
 0;-81.0333,-4.8500;20730;Piura;Clavijo
 0;-79.8084,-6.8677;14800;Lambayeque;Claque
 0;-79.9188,-6.7695;14000;Lambayeque;Ciudad de Dios
@@ -3807,6 +3945,7 @@
 0;-76.3134,-9.7904;10100;Huánuco Department;Sirabamba
 0;-80.7667,-4.1000;24450;Tumbes;Cimarron
 78;-80.6950,-4.0540;24450;Tumbes;El Ciénego Sur
+0;-74.1000,-7.0833;;Loreto;Cielo
 297;-78.0396,-7.6866;13320;La Libertad;Chuypan
 217;-80.6176,-5.5470;20680;Piura;Chutuque
 0;-79.5500,-5.5500;20470;Piura;Chuspirca
@@ -3891,6 +4030,7 @@
 0;-79.7092,-4.5376;20540;Piura;Chocán
 83;-80.1500,-4.4667;20220;Piura;Chivatos
 0;-79.5071,-5.9195;20470;Piura;Chirimoyo
+0;-81.0167,-6.1000;;Piura;Chito
 0;-77.7333,-5.8833;01260;Amazonas;Chisquilla
 0;-78.0101,-7.7499;13300;La Libertad;Chisday
 0;-78.8983,-5.3050;06841;Cajamarca Department;Chirinos
@@ -3916,6 +4056,7 @@
 0;-76.3500,-9.1667;10830;Huánuco Department;Chipaquillo
 0;-78.6973,-4.9214;06855;Cajamarca Department;Awajun de Chingozales
 729;-76.9915,-9.1190;02342;Ancash;Chingas
+0;-77.7511,-3.9223;;Amazonas;Chinganaza
 0;-74.7000,-5.6000;16430;Loreto;Chingana
 0;-77.5982,-8.3391;02240;Ancash;Chingalpa
 356;-77.5738,-8.6752;02249;Ancash;Chinchobamba
@@ -3952,6 +4093,7 @@
 0;-79.8926,-4.7403;20550;Piura;Chicu
 0;-79.1612,-7.8365;13700;La Libertad;Chiclín
 0;-72.0833,-2.5333;16110;Loreto;Chiclin
+0;-77.2833,-7.9000;;San Martín Department;Chiclayo
 609400;-79.8550,-6.7701;14001;Lambayeque;Chiclayo
 0;-73.7667,-5.5333;16340;Loreto;Chiclayo
 0;-79.3167,-7.7000;13720;La Libertad;Chiclayito
@@ -3980,6 +4122,7 @@
 0;-76.6085,-9.8585;10711;Huánuco Department;Chavinillo
 977;-76.7711,-9.4231;10775;Huánuco Department;Chavin de Pariarca
 0;-77.1776,-9.5791;02396;Ancash;Chavín de Huantar
+30;-78.1833,-4.4500;;Amazonas;Chávez Valdivia
 0;-79.7431,-6.6174;14330;Lambayeque;Chavarria
 0;-79.5888,-6.1586;14220;Lambayeque;Chaupiyacu
 0;-78.6963,-7.0007;06490;Cajamarca Department;Chaupiloma
@@ -4041,6 +4184,7 @@
 0;-79.8667,-6.7333;14000;Lambayeque;Chacupe
 0;-78.6807,-8.0299;13130;La Libertad;Chacual
 0;-80.6167,-4.0333;24450;Tumbes;Chacritas
+0;-73.7667,-9.3500;;Ucayali;Chacra
 106;-78.4355,-8.1307;13185;La Libertad;Chacho
 0;-78.1667,-8.8833;02820;Ancash;Chachas
 8;-78.1533,-8.7945;02820;Ancash;Chachas
@@ -4112,10 +4256,12 @@
 0;-80.7667,-4.7000;20120;Piura;Casura
 34;-79.3804,-6.4807;06680;Cajamarca Department;Casupe
 81;-79.8763,-6.8662;14830;Lambayeque;Castilla
+0;-73.4333,-6.1500;;Loreto;Castilla
 0;-73.9667,-6.0500;16380;Loreto;Castilla
 0;-80.6158,-5.2266;20002;Piura;Castilla
 0;-74.4167,-4.6000;16570;Loreto;Castilla
 0;-79.7956,-6.8296;14000;Lambayeque;Castañeda
+0;-75.2333,-0.8500;;Loreto;Castaña
 0;-76.4181,-6.9569;22440;San Martín Department;Caspisapa
 21;-78.7801,-7.4355;13780;La Libertad;Casman
 0;-78.3017,-9.4747;02661;Ancash;Casma
@@ -4222,6 +4368,7 @@
 0;-79.6313,-5.1165;20420;Piura;Capashio
 0;-73.7988,-6.4826;16360;Loreto;Capanahua
 0;-74.2500,-5.8167;16420;Loreto;Capanahua
+0;-76.5000,-2.5333;;Loreto;Capahuari
 796;-78.3071,-7.8749;13220;La Libertad;Capachique
 0;-78.8704,-7.2733;06420;Cajamarca Department;Canusán
 0;-75.0167,-6.0333;16440;Loreto;Canto León
@@ -4236,6 +4383,7 @@
 8;-80.8943,-3.9193;24560;Tumbes;Canoas
 0;-80.7333,-5.3833;20621;Piura;Canizal
 41;-77.9099,-7.2394;06365;Cajamarca Department;Hacienda Cangrejo
+0;-77.9576,-3.6695;;Amazonas;Cangaza
 114;-78.4885,-8.1220;13180;La Libertad;Canduall Bajo
 192;-78.0849,-8.9923;02740;Ancash;Canchas
 871;-79.6098,-5.3760;20430;Piura;Canchaque
@@ -4249,6 +4397,8 @@
 0;-80.8500,-4.5667;20120;Piura;Cañadulce
 0;-79.3667,-6.8667;14730;Lambayeque;Caña Cruz
 0;-79.4000,-5.7333;20470;Piura;Caña Brava
+0;-73.5165,-1.7245;;Loreto;Campuya
+0;-80.1667,-3.8500;;Tumbes;Campo Verde
 289;-74.7059,-1.7963;16130;Loreto;Campo Serio
 0;-78.3197,-6.2147;01551;Amazonas;Camporredondo
 0;-78.6515,-7.3413;06421;Cajamarca Department;Campanillas
@@ -4372,8 +4522,10 @@
 0;-78.1167,-8.9667;02740;Ancash;Buenavista
 0;-78.4167,-8.9000;02800;Ancash;Buena Vista
 971;-78.6326,-8.4797;13630;La Libertad;Buena Vista
+0;-72.3167,-4.7667;;Loreto;Buena Vista
 0;-80.9478,-4.4859;20810;Piura;Buenavista
 4;-80.7070,-3.7925;24540;Tumbes;Buena Vista
+0;-74.0333,-1.5167;;Loreto;Buena Vista
 185;-80.9813,-4.9235;20780;Piura;Buena Ventura
 0;-73.8500,-4.8000;16330;Loreto;Buena Fe
 2;-80.4779,-3.8037;24400;Tumbes;Brunos
@@ -4392,6 +4544,7 @@
 0;-80.3333,-4.8167;20200;Piura;Bomba de Pelingara
 0;-80.1614,-4.4761;20220;Piura;Bolsa del Diablo
 470;-78.0502,-8.3505;02830;Ancash;Bolognesi
+0;-73.2507,-6.5786;;Loreto;Bolognesi
 0;-77.8000,-7.3000;13420;La Libertad;Bolívar
 0;-77.8167,-4.5167;01830;Amazonas;Bolívar
 218;-79.9467,-6.7095;14000;Lambayeque;Bodegones
@@ -4416,6 +4569,7 @@
 0;-74.5974,-8.0874;25000;Ucayali;Bello Horizonte
 0;-76.7671,-8.0834;22530;San Martín Department;Bellavista
 277;-78.3560,-7.1928;06305;Cajamarca Department;Bellavista
+0;-74.1667,-7.0833;;Loreto;Bellavista
 15231;-76.5911,-7.0561;22741;San Martín Department;Bellavista
 0;-74.3833,-6.9500;16380;Loreto;Bellavista
 6320;-78.6791,-5.6655;06816;Cajamarca Department;Bellavista
@@ -4428,6 +4582,9 @@
 0;-80.3939,-3.6493;24350;Tumbes;Bellavista
 0;-80.4667,-3.5667;24500;Tumbes;Bellavista
 241;-73.5048,-2.8922;16120;Loreto;Bellavista
+0;-72.3167,-2.6833;;Loreto;Bellavista
+0;-71.6500,-2.2000;;Loreto;Bellavista
+0;-75.5504,-1.5531;;Loreto;Bellavista
 0;-80.4167,-5.8667;20690;Piura;Belisario
 28;-80.4146,-3.7077;24350;Tumbes;Belén
 0;-74.5167,-3.7333;16810;Loreto;Belem
@@ -4447,6 +4604,7 @@
 74;-79.6053,-4.7507;20540;Piura;Batancillo
 0;-79.3000,-6.8167;14740;Lambayeque;Batán
 0;-80.5000,-4.3167;20150;Piura;Batán
+0;-76.0333,-2.1000;;Loreto;Bartra Nuevo
 352;-78.4029,-8.1352;13185;La Libertad;Barro Negro
 0;-79.6943,-5.2869;20410;Piura;Barrios
 0;-80.6500,-5.0167;20000;Piura;Barrio Nuevo
@@ -4497,6 +4655,7 @@
 0;-80.6415,-3.8689;24450;Tumbes;Avería
 0;-74.0665,-9.9282;25220;Ucayali;Nueva Auquia
 743;-73.1518,-3.8615;16310;Loreto;Aucayo
+0;-73.2333,-4.7667;;Loreto;Aucayaquilla
 0;-76.1132,-8.9314;10171;Huánuco Department;Aucayacu
 0;-76.4833,-9.1333;10830;Huánuco Department;Aucantagua
 0;-78.0864,-8.7386;02820;Ancash;Atun Tranca
@@ -4523,13 +4682,16 @@
 734;-77.7202,-7.8061;13341;La Libertad;Aricapampa
 0;-76.3333,-9.0833;10170;Huánuco Department;Arica
 0;-76.7333,-8.7000;10890;Huánuco Department;Arica
+0;-74.1667,-4.9833;;Loreto;Arica
 0;-72.8167,-4.2000;16310;Loreto;Arica
 0;-77.3333,-9.6333;02400;Ancash;Arhuacancha
 0;-80.1333,-4.9167;20200;Piura;Arguelles
+0;-73.5857,-1.4279;;Loreto;Argelia
 0;-79.9167,-6.8000;14000;Lambayeque;Arenal
 0;-81.0275,-4.8833;20720;Piura;Arenal
 143;-79.8488,-4.9235;20340;Piura;Arenales
 0;-80.4333,-3.7500;24350;Tumbes;Arenal
+0;-75.3021,-0.9895;;Loreto;Arcadia
 220;-79.6361,-6.7692;14630;Lambayeque;Arbulú
 0;-79.9607,-6.5410;14160;Lambayeque;Arbol Sol
 152;-79.5375,-6.1303;14230;Lambayeque;Araumajada
@@ -4551,6 +4713,7 @@
 0;-79.6000,-6.9667;14710;Lambayeque;Ánimas
 0;-80.6333,-3.7833;24540;Tumbes;Ánimas
 64;-78.1012,-8.9477;02740;Ancash;Anguy
+0;-75.1240,-0.4495;;Loreto;Angusilla
 0;-80.0333,-4.9833;20340;Piura;Angurgo
 80;-79.3660,-6.3600;06675;Cajamarca Department;Angulis
 339;-78.6051,-6.3423;06140;Cajamarca Department;Anguía
@@ -4620,6 +4783,7 @@
 0;-75.3000,-6.2500;16440;Loreto;Alianza
 0;-73.7500,-5.6167;16340;Loreto;Alianza
 0;-74.2333,-5.5833;16420;Loreto;Alianza
+0;-78.1500,-4.6667;;Amazonas;Alianza
 0;-76.5167,-8.6333;10890;Huánuco Department;Ali
 13;-80.6606,-4.4638;20150;Piura;Algodonalillo
 0;-79.9072,-5.1453;20330;Piura;Algodonal
@@ -4639,6 +4803,7 @@
 0;-80.9333,-4.7167;20800;Piura;Algarrobal
 0;-80.2000,-4.7167;20200;Piura;Algarrobal
 532;-78.2454,-7.6071;06340;Cajamarca Department;Algamarca
+0;-75.1869,-0.1614;;Loreto;Alerta
 0;-79.8167,-5.3833;20400;Piura;Alberca
 0;-80.6036,-4.5153;20150;Piura;Albacas
 129;-78.0147,-8.4178;02845;Ancash;Alaypampa
@@ -4651,6 +4816,7 @@
 0;-70.9500,-3.6000;16240;Loreto;Aguirre
 18318;-75.5091,-9.0378;25551;Ucayali;Aguaytía
 9106;-80.2450,-3.4814;24101;Tumbes;Aguas Verdes
+0;-75.3401,-0.4380;;Loreto;Aguas Negras
 0;-74.7209,-8.8120;10351;Huánuco Department;Aguas Calientes
 0;-78.0570,-7.2406;06315;Cajamarca Department;Agua Blanca
 142;-79.7987,-5.9387;14210;Lambayeque;Agua Santa
@@ -4671,6 +4837,7 @@
 0;-77.0167,-8.9500;10850;Huánuco Department;Acobamba
 284;-77.8776,-8.5231;02215;Ancash;Aco
 0;-76.5333,-8.6500;10890;Huánuco Department;Achiras
+0;-77.1232,-7.7283;;San Martín Department;Achiras
 0;-75.9030,-6.4847;22310;San Martín Department;Achinamisa
 0;-78.0311,-9.1173;02180;Ancash;Achahuas
 0;-77.1000,-9.0667;02352;Ancash;Acco
@@ -5600,6 +5767,7 @@
 250;-79.2719,-6.6144;06665;Cajamarca Department;San Carlos
 0;-79.4520,-6.6991;14620;Lambayeque;Wadington
 0;-80.8833,-5.5833;20690;Piura;Chullillache
+0;-78.6168,-4.3269;;Amazonas;Puesto Llave
 231;-70.9113,-3.9715;16230;Loreto;Alfaro
 0;-70.8581,-3.9608;16230;Loreto;Choroyacu
 0;-70.8097,-3.9179;16240;Loreto;Paranaquira
@@ -5629,6 +5797,7 @@
 0;-75.1686,-6.9369;16450;Loreto;Shetebo
 0;-75.1547,-6.9738;16460;Loreto;Ceilan
 51;-75.1528,-6.9813;16460;Loreto;San Cristobal
+0;-80.6886,-5.8468;;Piura;Garita Garcia
 0;-78.3835,-6.5516;06150;Cajamarca Department;Ojo del Agua
 0;-78.3749,-6.5787;06150;Cajamarca Department;El Solitario
 0;-78.4426,-6.6652;06115;Cajamarca Department;San Juan Pampa
@@ -5729,6 +5898,7 @@
 0;-75.3066,-3.0139;16810;Loreto;Puerto Triunfo
 61;-75.2976,-3.0275;16810;Loreto;Paiche Playa
 0;-75.2895,-3.0812;16810;Loreto;Pampahermosa
+0;-75.0344,-3.3410;;Loreto;Bolognesi
 0;-76.4413,-3.5154;16750;Loreto;Tupanama
 77;-76.4244,-3.6097;16750;Loreto;Bolognesi
 0;-76.4342,-3.7574;16750;Loreto;Sungache
@@ -6076,10 +6246,17 @@
 0;-80.0306,-5.0289;20340;Piura;Naranja
 0;-80.0361,-5.0312;20340;Piura;Chapros
 0;-80.0213,-5.0121;20340;Piura;El Huabo
+0;-78.6608,-4.5903;;Amazonas;Campamento El Palmito
+0;-78.6803,-4.5994;;Amazonas;Campamento Las Escaleras
 0;-78.9464,-4.8989;06855;Cajamarca Department;El Dorado
 0;-78.8892,-4.8267;06855;Cajamarca Department;Campamento Las Habas
+0;-78.9028,-4.7978;;Cajamarca Department;Campamento El Desague
+0;-78.8847,-4.7544;;Cajamarca Department;Campamento Rancho Grande
 34;-78.7075,-4.9586;06860;Cajamarca Department;Santa Águeda
 0;-79.0022,-4.9867;06845;Cajamarca Department;Siete de Agosto
+0;-78.3509,-3.7935;;Amazonas;Puesto de Vigilancia Capitán Ponce Antúnez
+0;-78.4233,-3.9066;;Amazonas;Puesto de Vigilancia Tres Alfonso Ugarte
+0;-78.4097,-3.9576;;Amazonas;Puesto de Vigilancia Veintidós
 0;-77.9276,-3.0762;01840;Amazonas;Sambis
 147;-77.8201,-3.1224;01840;Amazonas;Papayacu
 0;-77.8866,-3.0415;01840;Amazonas;Soldado Chiqueiza
@@ -7404,6 +7581,8 @@
 0;-80.2250,-3.5536;24200;Tumbes;Uña de Gato
 172;-80.2352,-3.5294;24100;Tumbes;Cuchareta Alta
 487;-80.2389,-3.5244;24100;Tumbes;Cuchareta Baja
+0;-80.1634,-3.9191;;Tumbes;Balsadero
+0;-80.1825,-3.9248;;Tumbes;Bocana Murcielago
 0;-79.8853,-6.1022;14210;Lambayeque;Las Norias de Veneno
 0;-79.8320,-6.0821;14210;Lambayeque;Santa Clara
 0;-79.7614,-6.1749;14200;Lambayeque;El Sorco
@@ -7527,6 +7706,7 @@
 157;-79.8498,-6.4664;14130;Lambayeque;Culpón Bajo
 0;-71.9566,-4.2996;16250;Loreto;San Felipe
 0;-71.9591,-4.3323;16250;Loreto;Esperanza
+0;-71.6158,-4.4919;;Loreto;San José de Dos de Mayo
 0;-70.6724,-4.1494;16250;Loreto;Yura
 0;-70.5530,-4.1357;16250;Loreto;Santa Teresa
 0;-69.9604,-4.2226;16250;Loreto;Santa Rosa de Yaraví
@@ -7576,6 +7756,12 @@
 0;-71.1028,-4.0192;16231;Loreto;San Pablo de Loreto
 0;-71.0646,-4.0177;16230;Loreto;San Alberto
 0;-71.0297,-4.0102;16230;Loreto;Dos Unidos
+0;-70.0601,-2.7619;;Loreto;Yahaus
+213;-70.4260,-2.5399;;Loreto;Huapapa
+0;-70.2449,-2.7344;;Loreto;Santa Rosa
+105;-70.1254,-2.7068;;Loreto;Primavera
+208;-70.0878,-2.7921;;Loreto;El Alamo
+0;-72.5477,-2.4066;;Loreto;Siete de Junio
 0;-72.6968,-2.4509;16110;Loreto;Pasto
 0;-72.7033,-2.4022;16110;Loreto;Cármen
 30;-72.8989,-2.4492;16110;Loreto;Siete de Mayo
@@ -7603,7 +7789,9 @@
 0;-70.3788,-4.1318;16250;Loreto;Canaán
 0;-70.4671,-4.1342;16250;Loreto;Nueva Nazaret
 0;-71.4222,-4.4308;16250;Loreto;San José
+0;-71.2731,-4.3750;;Loreto;Buena Vista
 0;-71.1562,-4.4069;16250;Loreto;San Vicente
+0;-80.2819,-6.2895;;Lambayeque;Kilómetro Doscientos Cuarenticinco
 654;-80.0023,-6.5235;14160;Lambayeque;Annape
 0;-80.0167,-6.0278;14210;Lambayeque;San Antonio
 234;-80.0151,-6.5194;14160;Lambayeque;San Sebastian
@@ -7636,6 +7824,7 @@
 0;-76.0833,-13.8833;11550;Ica;Zanushi
 0;-73.8880,-15.1994;05620;Ayacucho;Sanquipampa
 0;-72.1833,-13.4667;08615;Cuzco Department;Zanco
+0;-75.6333,-14.6500;;Ica;Zamaca
 0;-74.3592,-14.9862;05560;Ayacucho;Yuyo
 2;-74.8889,-13.2896;09520;Huancavelica;Yuyo
 0;-73.7259,-15.0710;05615;Ayacucho;Yututuna
@@ -7902,6 +8091,7 @@
 0;-73.9500,-15.4667;04510;Ayacucho;Yamcama
 0;-70.0308,-16.1892;21575;Puno;Yambonasa
 0;-76.2500,-12.1167;15635;Lima region;Yambilla
+0;-69.6167,-13.4167;;Puno;Yalu
 1;-70.6178,-17.9531;23650;Tacna;Yalata
 0;-71.1833,-16.8333;18230;Moquegua Department;Yalaque
 30;-70.7397,-16.6039;18310;Moquegua Department;Yalaque
@@ -8638,6 +8828,7 @@
 0;-73.9368,-13.2370;05290;Ayacucho;Tojropampa
 0;-74.4337,-14.4246;05530;Ayacucho;Toccoyasa
 0;-71.0008,-15.5597;21770;Puno;Toccolla
+0;-71.8500,-12.9667;;Cuzco Department;Tocchualla
 0;-74.5500,-12.7500;09370;Huancavelica;Toccarayoc
 0;-71.9876,-15.4851;04665;Arequipa;Toccallo
 0;-74.6167,-12.3500;09320;Huancavelica;Tocas
@@ -8753,6 +8944,7 @@
 154;-69.3482,-15.5147;21460;Puno;Titili
 0;-75.9167,-11.3333;12655;Junin;Tilacnioc
 0;-69.4932,-16.0276;21500;Puno;Tihuanaco
+0;-69.6667,-13.4500;;Puno;Tigre
 43;-74.8858,-14.8226;11400;Ica;Tierra Blanca
 0;-76.4333,-12.1333;15580;Lima region;Tierra Amarilla
 0;-69.2728,-16.8175;21630;Puno;Tiencache
@@ -9259,6 +9451,7 @@
 63;-75.4079,-11.1678;12840;Junin;La Solitaria
 0;-70.9952,-17.3033;18000;Moquegua Department;Soledad
 0;-74.4667,-12.2500;09320;Huancavelica;Soledad
+0;-69.8500,-12.0500;;Madre de Dios;Soledad
 0;-74.4167,-13.9000;05710;Ayacucho;Soldaduyocc
 0;-73.8500,-15.4833;04510;Arequipa;Solares
 0;-69.7534,-15.7277;21125;Puno;Sojsan
@@ -9314,6 +9507,7 @@
 0;-75.3000,-13.3333;09725;Huancavelica;Sinto
 13;-70.8167,-16.4167;18310;Moquegua Department;Sintacan
 0;-76.8347,-10.8566;15270;Lima region;Huacho Sin Pescado
+0;-71.8667,-12.8167;;Cuzco Department;Sinón
 0;-73.5733,-13.5227;03830;Apurímac Department;Sinhuapaca
 0;-75.7333,-12.1333;15790;Lima region;Singua Chico
 0;-75.6833,-12.2000;15790;Lima region;Singua
@@ -9412,6 +9606,7 @@
 12;-74.0503,-15.3811;05620;Ayacucho;Secseca
 0;-75.0770,-13.5681;09520;Huancavelica;Secse
 18;-73.1478,-16.3242;04470;Arequipa;Secocha
+0;-69.4500,-13.4333;;Puno;Seco
 0;-74.4819,-13.0476;09440;Huancavelica;Seclla
 1;-71.2163,-16.6967;18230;Moquegua Department;Seche
 0;-76.7642,-10.7275;15275;Lima region;Seccha
@@ -9546,8 +9741,10 @@
 0;-73.3721,-15.2510;05640;Ayacucho;Santa Rosa
 2;-73.9786,-15.1522;05620;Ayacucho;Santa Rosa
 5;-71.8824,-15.0333;04190;Arequipa;Santa Rosa
+0;-75.5135,-14.7903;;Ica;Fundo Santa Rosa
 0;-70.7875,-14.6074;21885;Puno;Santa Rosa
 241;-75.2000,-14.4833;11320;Ica;Santa Rosa
+0;-76.1603,-14.3196;;Ica;Santa Rosa
 331;-72.6568,-14.1400;03345;Apurímac Department;Santa Rosa
 0;-75.7122,-14.0271;11000;Ica;Santa Rosa
 325;-75.6969,-13.9761;11100;Ica;Santa Rosa
@@ -9639,6 +9836,7 @@
 9;-70.2590,-15.9220;21750;Puno;Santa Clara
 8;-75.2382,-14.7375;11340;Ica;Santa Clara
 0;-76.8812,-12.0137;15004;Lima region;Santa Clara
+0;-69.5500,-11.7167;;Madre de Dios;Santa Clara
 0;-73.0071,-15.8704;04770;Arequipa;Santa Catalina
 58;-72.9379,-15.5626;04805;Arequipa;Santa Catalina
 0;-73.7333,-15.2333;05620;Ayacucho;Santa Catalina
@@ -9738,6 +9936,7 @@
 46;-75.8758,-12.9473;15736;Lima region;San Miguel
 0;-75.9522,-12.8473;15736;Lima region;San Miguel
 0;-75.3456,-12.0154;12485;Junin;San Miguel
+0;-69.9333,-11.7667;;Madre de Dios;San Miguel
 0;-74.7448,-11.5800;12300;Junin;San Miguel
 184;-76.6253,-11.4522;15350;Lima region;San Miguel
 0;-77.0053,-11.3547;15200;Lima region;San Miguel
@@ -10228,6 +10427,7 @@
 40;-77.3731,-11.4117;15135;Lima region;Río Seco
 538;-75.2929,-10.9099;12860;Junin;Río Seco
 0;-71.3425,-16.5345;04310;Arequipa;Río Negro
+0;-69.5833,-11.8333;;Madre de Dios;Rioja
 4689;-75.1993,-14.5160;11320;Ica;Río Grande
 0;-71.1654,-16.1311;04210;Arequipa;Río Blanco
 0;-71.0401,-16.1416;04210;Arequipa;Río Blanco
@@ -10263,6 +10463,7 @@
 0;-73.5643,-15.3567;05625;Ayacucho;Reparticion
 0;-73.7278,-15.2378;05620;Ayacucho;Reparticion
 0;-77.0667,-12.0000;15113;Lima region;Repartición
+0;-72.0833,-11.8833;;Madre de Dios;Repartición
 46;-77.0694,-11.1486;15245;Lima region;Repartición
 9;-73.3479,-15.3065;05640;Ayacucho;Renco
 0;-71.9236,-15.0533;04190;Arequipa;Remediosa
@@ -10706,6 +10907,7 @@
 0;-76.7912,-12.3712;15851;Lima region;Punta Negra
 0;-76.9959,-10.0435;02415;Ancash;Punta Huayi
 0;-76.8167,-12.3333;15846;Lima region;Punta Hermosa
+0;-76.1167,-14.3333;;Ica;Punta Grande
 8;-73.9000,-16.1000;04475;Arequipa;Punta de Lobos
 6336;-71.7924,-17.1719;04435;Arequipa;Punta de Bombón
 0;-70.7667,-18.1000;23650;Tacna;Punta Colorada
@@ -10798,15 +11000,20 @@
 7;-77.0661,-10.7206;15182;Lima region;Puhuascancha
 0;-70.6361,-16.1583;18530;Moquegua Department;Puhaya
 0;-72.9158,-15.7497;04730;Arequipa;Pugro
+0;-72.4500,-10.6833;;Ucayali;Puesto Varadero
 0;-74.9000,-10.4500;19310;Pasco;Puerto Yessup
 26;-71.6578,-17.0074;04430;Arequipa;Puerto Viejo
 56;-74.0198,-15.9909;04580;Arequipa;Puerto Viejo
 0;-76.7026,-12.5868;15600;Lima region;Caleta Puerto Viejo
+0;-72.4333,-10.6667;;Ucayali;Puerto Varadero
 0;-74.8167,-10.3833;19310;Pasco;Puerto Tucker
 0;-70.3927,-12.6097;17601;Madre de Dios;Puerto Tahuantinsuyo
 11450;-77.7433,-10.8013;15161;Lima region;Supe Puerto
 0;-75.1667,-15.3000;11421;Ica;Puerto San Juan
 0;-74.0500,-11.9833;12320;Junin;Puerto Rico
+0;-71.0667,-12.6000;;Madre de Dios;Puerto Provisional
+0;-70.6333,-11.6833;;Madre de Dios;Puerto Providencia
+0;-70.0667,-12.1000;;Madre de Dios;Puerto Progreso
 0;-74.2356,-11.1803;12330;Junin;Puerto Prado
 203;-75.2881,-10.9444;12855;Junin;Pueblo Pardo
 0;-73.0226,-11.1754;25210;Ucayali;Puerto Posital María García
@@ -10814,17 +11021,21 @@
 27;-68.6597,-12.5033;17000;Madre de Dios;Puerto Pardo
 915;-74.3082,-11.1446;12331;Junin;Puerto Ocopa
 0;-76.2500,-13.8167;11550;Ica;Puerto Nuevo
+0;-69.9000,-11.5833;;Madre de Dios;Puerto Mori
 0;-72.9958,-11.3023;08750;Cuzco Department;Miaría
 0;-73.0667,-10.5667;25200;Ucayali;Puerto Mapuyo
 85024;-69.1995,-12.5895;17001;Madre de Dios;Puerto Maldonado
 0;-72.8667,-11.9333;08750;Cuzco Department;Puerto Mainiqui
+0;-70.4500,-11.9167;;Madre de Dios;Puerto Lidia
 0;-70.3653,-13.2002;21260;Puno;Puerto Leguía
 0;-73.4833,-10.6833;25200;Ucayali;Puerto Inuya
 9;-73.4001,-10.7273;25200;Ucayali;Puerto Inca
 810;-78.1697,-10.0996;02650;Ancash;Puerto Huarmey
 0;-77.6111,-11.1185;15135;Lima region;Puerto Huacho
 0;-76.2944,-13.8029;11550;Ica;Puerto San Martín
+0;-70.2541,-11.7826;;Madre de Dios;Puerto Fortaleza
 0;-71.8667,-11.8667;17800;Madre de Dios;Puerto Fiscarrald
+0;-70.9731,-11.2567;;Madre de Dios;Puerto Esperanza
 0;-74.9440,-10.1855;19310;Pasco;Puerto Esperanza
 0;-74.8503,-15.5689;04570;Arequipa;Puerto de Lomas
 0;-70.9500,-12.4167;17800;Madre de Dios;Puerto Definitivo
@@ -10833,8 +11044,10 @@
 0;-77.7612,-10.7657;15169;Lima region;Puerto Chico
 0;-69.7833,-11.3500;17250;Madre de Dios;Puerto Chiclayo
 0;-77.2796,-11.5868;15131;Lima region;Puerto Chancay
+0;-71.1000,-11.3000;;Madre de Dios;Puerto Ceticayo
 0;-71.8000,-11.8167;17800;Madre de Dios;Puerto Cashpajali
 0;-75.4917,-14.9375;11340;Ica;Puerto Caballas
+0;-71.1333,-12.9500;;Madre de Dios;Puerto Buena Vista
 0;-74.0500,-11.7833;12330;Junin;Puerto Bolognesi
 0;-74.9667,-10.1833;19311;Pasco;Puerto Bermúdez
 0;-73.6667,-16.1667;04475;Arequipa;Puerto Atico
@@ -10964,6 +11177,7 @@
 0;-71.0577,-16.2342;04210;Arequipa;Puca Caca
 0;-71.0489,-16.0260;04210;Arequipa;Pucacaca
 0;-73.6587,-13.7329;03810;Apurímac Department;Providencia
+0;-70.3794,-11.7106;;Madre de Dios;Providencia
 428;-77.7100,-10.6730;15175;Lima region;Providencia
 0;-74.7667,-15.3667;04560;Arequipa;Propiedad Nemi
 0;-70.3358,-17.3775;23480;Tacna;Progreso
@@ -11252,6 +11466,7 @@
 8;-73.8297,-13.5909;05330;Ayacucho;Pichirca
 0;-73.7377,-13.3620;03880;Apurímac Department;Pichipampa
 266;-71.4169,-14.6814;08310;Cuzco Department;Pichigua
+0;-70.7500,-12.0667;;Madre de Dios;Pichicato Bajo
 0;-76.7500,-12.0667;15593;Lima region;Pichicato Alto
 167;-72.5667,-13.8500;03200;Apurímac Department;Pichibamba
 0;-74.2833,-14.8667;05550;Ayacucho;Pichgapuquio
@@ -11977,6 +12192,7 @@
 0;-75.9600,-11.4739;12535;Junin;Paccha
 15;-76.5325,-10.5617;19600;Pasco;Paccha
 0;-71.7130,-15.6812;04135;Arequipa;Pacce
+0;-69.4000,-13.6667;;Puno;Paccbani
 734;-71.9564,-13.7559;08515;Cuzco Department;Paccaritambo
 0;-74.1624,-14.5089;05530;Ayacucho;Paccaricorral
 0;-69.3988,-15.2867;21440;Puno;Paccane
@@ -12208,6 +12424,7 @@
 572;-74.8227,-14.3986;05770;Ayacucho;Ocaña
 8;-74.3784,-13.0451;05800;Ayacucho;Ocaña
 0;-72.2333,-12.5667;08760;Cuzco Department;Ocampo
+0;-72.2000,-12.2667;;Cuzco Department;Ocampo
 0;-72.4500,-14.0000;03220;Apurímac Department;Ocamoco
 0;-71.1776,-16.0756;04210;Arequipa;Ocacca
 0;-72.2306,-13.7931;03240;Apurímac Department;Ocaccahua
@@ -12230,10 +12447,13 @@
 116;-76.6737,-11.5019;15350;Lima region;Nuevo San José
 0;-75.0197,-12.5947;09110;Huancavelica;Nuevo Occoro
 32344;-76.3172,-13.0754;15723;Lima region;Nuevo Imperial
+0;-72.7000,-11.0000;;Ucayali;Nuevo Cuzco
 0;-76.9167,-12.1667;15803;Lima region;Nueva Esperanza
+0;-71.9500,-12.6833;;Cuzco Department;Nueva Cruz
 0;-72.8280,-15.8068;04720;Arequipa;Ñuccocha
 0;-71.1237,-15.3201;08350;Cuzco Department;Norma
 0;-72.5000,-14.0667;03280;Apurímac Department;Noñanya
+0;-71.9500,-12.5333;;Madre de Dios;Noche Triste
 0;-69.6545,-15.1710;21400;Puno;Nobasabi
 23;-69.5649,-11.1253;17300;Madre de Dios;Noaya
 0;-74.4460,-14.0092;05710;Ayacucho;Niñopata
@@ -12263,6 +12483,7 @@
 0;-69.8833,-15.7333;21125;Puno;Negrone
 0;-74.9167,-14.5167;11350;Ayacucho;Negromuerto
 0;-71.1531,-15.2352;08340;Cuzco Department;Negro Mayo
+0;-73.7538,-14.6413;;Ayacucho;Negro Mayo
 0;-73.8962,-14.6781;05500;Ayacucho;Negro Corral
 0;-75.6333,-12.1333;15790;Lima region;Negro Bueno
 0;-74.5500,-11.1333;12260;Junin;Negro
@@ -12700,6 +12921,7 @@
 0;-77.1333,-10.2500;02413;Ancash;Mascash
 0;-75.4188,-12.7047;09800;Huancavelica;Martinhuasi
 0;-70.9161,-15.0433;21825;Puno;Marte
+0;-69.1502,-13.6740;;Puno;Marte
 0;-73.2394,-15.3244;04855;Arequipa;Marroquín Pampa
 2;-71.2794,-15.4597;04180;Arequipa;Marquichahue
 0;-77.1340,-11.9423;07046;Callao;Márquez
@@ -13332,6 +13554,7 @@
 0;-70.5101,-15.5894;21770;Puno;Lauramicaya Pata
 208;-72.1167,-14.2000;03270;Apurímac Department;Laupay
 0;-73.6852,-13.0893;05260;Ayacucho;Laupay
+0;-69.6482,-13.5288;;Puno;La Unión
 0;-76.8500,-11.9833;15510;Lima region;La Unión
 53;-77.4726,-10.3499;02530;Ancash;La Unión
 0;-70.0500,-15.3000;21300;Puno;Laucacoro
@@ -13361,6 +13584,7 @@
 0;-69.8050,-12.0515;17000;Madre de Dios;Las Piedras
 0;-71.2166,-17.5882;18620;Moquegua Department;Las Pampas
 0;-77.0167,-12.1667;15054;Lima region;Las Palmas
+0;-69.5333,-11.8667;;Madre de Dios;Las Palmas
 0;-72.0533,-17.0123;04416;Arequipa;La Sorda
 0;-75.6857,-14.1023;11000;Ica;La Solano
 72;-77.7833,-10.6833;15175;Lima region;Las Monjas
@@ -13517,6 +13741,7 @@
 56;-74.1549,-15.0777;05605;Ayacucho;Lalaja
 0;-75.5632,-13.8401;11100;Ica;La Laja
 0;-76.6677,-12.6589;15600;Lima region;Fundo La Laguna
+0;-71.8605,-16.7252;;Arequipa;La Joya
 82;-74.8943,-14.9792;11400;Ica;La Joya
 0;-75.6840,-14.2689;11230;Ica;La Joya
 0;-75.9956,-13.7425;11650;Ica;Joya El Pilar
@@ -13751,6 +13976,7 @@
 0;-73.7032,-14.9757;05610;Ayacucho;Jotjolla
 0;-73.8915,-13.0227;05250;Ayacucho;Coscosa
 5;-73.7406,-14.2058;05375;Ayacucho;José Paccari
+0;-70.7853,-10.4309;;Madre de Dios;José Gálvez
 61000;-76.9052,-12.2131;15822;Lima region;Villa Poeta José Gálvez Barrenechea
 0;-74.2162,-15.7902;04500;Arequipa;Josefita
 0;-72.9018,-15.2942;04840;Arequipa;Jornada Pampa
@@ -14027,6 +14253,7 @@
 2;-76.4620,-11.3849;15365;Lima region;Jacaybamba
 0;-76.1058,-12.9217;15727;Lima region;Jacallita
 0;-76.1000,-12.8833;15730;Lima region;Jacalla
+0;-70.2000,-11.6500;;Madre de Dios;Izurrieta
 580;-74.9972,-12.5006;09125;Huancavelica;Izcuchaca
 59;-72.3528,-13.6669;08620;Cuzco Department;Ivin
 0;-72.0169,-15.0095;04660;Arequipa;Itushi
@@ -14510,6 +14737,7 @@
 133;-70.8167,-16.4167;18310;Moquegua Department;Huatagua
 0;-76.5903,-10.7883;19500;Pasco;Huatacocha
 181;-73.3320,-15.0762;05650;Ayacucho;Huataca
+0;-72.2865,-16.8423;;Arequipa;Huata
 823;-69.9715,-15.6151;21116;Puno;Huata
 0;-72.1833,-13.9333;03241;Apurímac Department;Huata
 8;-77.7667,-10.5833;15180;Lima region;Huata
@@ -15056,6 +15284,7 @@
 395;-73.8864,-14.1736;05460;Ayacucho;Huacaña
 0;-74.0333,-14.0333;05440;Ayacucho;Huacaña
 51;-73.1594,-16.2300;04760;Arequipa;Huacán
+0;-72.2000,-16.1500;;Arequipa;Huacán
 45;-77.3992,-11.1125;15135;Lima region;Huacán
 0;-70.1254,-16.3370;21575;Puno;Huacamaya
 0;-74.3000,-13.6167;05835;Ayacucho;Huacama
@@ -15133,6 +15362,7 @@
 37;-76.0403,-11.1691;12730;Junin;Huarmipuquio
 0;-70.6122,-17.9406;23650;Tacna;Haras Capuli
 0;-72.1900,-14.2128;03271;Apurímac Department;Haquira
+0;-71.1667,-13.3667;;Cuzco Department;Hapu
 0;-73.8153,-15.0510;05610;Ayacucho;Hanahuallcco
 0;-70.9780,-16.6937;18200;Moquegua Department;Halaguaya
 0;-69.3167,-14.0000;21370;Puno;Haipacanchi
@@ -15430,6 +15660,8 @@
 9;-75.1010,-14.2290;11320;Ica;Granado
 0;-76.9500,-12.0667;15012;Lima region;Granado
 0;-75.6957,-13.6367;11660;Ica;Granadayoj
+0;-75.5214,-14.7534;;Ica;Grama Salada
+0;-75.5474,-14.7434;;Ica;Gramadal
 2;-75.3000,-14.6833;11340;Ica;Gramadal
 5;-75.1761,-14.4207;11320;Ica;Gramadal Grande
 0;-77.1243,-11.9520;15113;Lima region;Fundo Gramadal
@@ -15468,6 +15700,7 @@
 17;-70.9833,-17.2667;18000;Moquegua Department;Garbanzal
 0;-74.3500,-13.0667;05800;Ayacucho;Gangaylla
 0;-70.8782,-17.7416;23700;Tacna;Gangas
+0;-75.4190,-14.4616;;Ica;Gamonal
 0;-77.7846,-10.7050;15175;Lima region;Galpón
 5;-75.0400,-14.4700;05770;Ayacucho;Galluyoc Chico
 0;-76.2055,-13.7007;11601;Ica;Hacienda Gallinazo
@@ -15524,6 +15757,7 @@
 0;-69.5638,-11.3601;17250;Madre de Dios;Flor de Acre
 0;-74.9642,-13.8517;09645;Huancavelica;Flaqueza
 0;-72.5072,-15.9687;04605;Arequipa;Flaires
+0;-72.3615,-11.7264;;Madre de Dios;Fizcarrald
 0;-73.1697,-15.0194;05660;Ayacucho;Firucca
 0;-75.8000,-12.9167;15745;Lima region;Firuayoc
 0;-69.2925,-11.6638;17200;Madre de Dios;Firmeza
@@ -15636,6 +15870,7 @@
 0;-73.5791,-13.1860;05270;Ayacucho;Espinco
 0;-75.4133,-14.0492;11260;Ica;Espinal
 0;-77.1794,-11.4619;15200;Lima region;Esperanza Alta
+0;-69.8333,-11.7333;;Madre de Dios;Esperanza
 0;-69.4733,-11.2312;17250;Madre de Dios;Esperanza
 0;-76.9667,-10.6833;15265;Lima region;Esperanza
 0;-75.1856,-10.8955;12865;Junin;Esperanza
@@ -15707,6 +15942,7 @@
 0;-72.0790,-16.5167;04102;Arequipa;El Paraiso Hacienda
 0;-71.8407,-17.0981;04425;Arequipa;El Paraiso
 90;-76.2304,-13.0610;15725;Lima region;El Paraíso
+0;-76.1782,-14.2883;;Ica;El Panteón
 4;-70.8173,-17.1227;18100;Moquegua Department;El Palomar
 0;-70.9827,-17.2610;18000;Moquegua Department;El Palmo Hacienda
 0;-75.7581,-14.1167;11000;Ica;El Palmarcito
@@ -15714,6 +15950,7 @@
 52;-74.9474,-14.9125;11400;Ica;Pajonal Alto
 0;-76.5500,-12.7833;15690;Lima region;El Pacay
 0;-75.7110,-13.9595;11000;Ica;El Olivo
+0;-69.5833,-13.3333;;Madre de Dios;El Morro
 103;-72.7092,-16.6098;04445;Arequipa;El Monte
 106;-72.4840,-16.1152;04605;Arequipa;El Monte
 2;-71.3000,-17.6167;18620;Moquegua Department;El Mono
@@ -15794,6 +16031,7 @@
 0;-70.3484,-15.6413;21721;Puno;Deustua
 0;-72.8000,-15.7500;04720;Arequipa;Deuro
 0;-75.0321,-13.6405;09625;Huancavelica;Despera
+0;-75.5403,-14.8087;;Ica;Fundo Desbarrancado
 20;-71.6659,-17.0140;04430;Arequipa;Desamparados
 0;-71.9533,-16.5050;04100;Arequipa;Desamparados
 5329;-69.0420,-16.5661;21611;Puno;Desaguadero
@@ -15841,6 +16079,7 @@
 383;-74.2385,-13.4343;05845;Ayacucho;Cusibamba
 20;-75.2412,-12.9092;09725;Huancavelica;Cusibamba
 0;-75.9086,-12.5640;15770;Lima region;Cusi
+0;-69.9667,-11.5667;;Madre de Dios;Cushe
 428450;-71.9670,-13.5319;08001;Cuzco Department;Cusco
 0;-73.9203,-15.4090;05620;Ayacucho;Curumasi
 0;-74.7063,-14.5021;05790;Ayacucho;Curtiduría
@@ -16270,6 +16509,7 @@
 365;-73.8749,-13.5328;05330;Ayacucho;Concepción
 11330;-75.3140,-11.9176;12126;Junin;Concepción
 0;-74.6167,-15.4167;04550;Arequipa;Concejo
+0;-71.8000,-12.9000;;Cuzco Department;Concacj
 0;-71.4172,-15.8237;04140;Arequipa;Concachaca
 663;-72.7977,-13.5509;03100;Apurímac Department;Concacha
 0;-70.6312,-15.4260;21780;Puno;Conavire
@@ -16325,6 +16565,7 @@
 0;-77.1833,-12.1167;07021;Callao;Colonia Penal
 0;-77.1500,-11.7500;15123;Lima region;Colonia Infantil
 190;-75.8906,-12.6328;15770;Lima region;Colonia
+0;-71.0333,-12.0167;;Madre de Dios;Colón
 0;-69.0167,-12.5167;17000;Madre de Dios;Colombia
 44;-70.9673,-16.6926;18200;Moquegua Department;Colohuache
 0;-73.6630,-13.2184;05270;Ayacucho;Colmina
@@ -16618,6 +16859,7 @@
 0;-72.2092,-15.0845;04655;Arequipa;Chundaoro
 0;-70.4260,-16.7050;18400;Moquegua Department;Chuncoroco
 0;-69.6042,-16.7362;21660;Puno;Chunchuwinto
+0;-72.0833,-12.3667;;Cuzco Department;Chunchusmayo
 18;-73.1303,-15.0867;05660;Ayacucho;Chunchuccasa
 8;-77.3229,-10.7279;15182;Lima region;Chunchos
 0;-75.7422,-13.6563;11660;Ica;Chunchanga
@@ -16964,6 +17206,7 @@
 0;-70.6471,-13.6775;21270;Puno;Chillihuani
 0;-70.2324,-17.2028;23420;Tacna;Chillihuane
 0;-69.8833,-16.4000;21510;Puno;Chillihuane
+0;-71.3046,-16.2198;;Arequipa;Chillihua
 0;-71.7269,-15.9305;04135;Arequipa;Chillihua
 0;-71.6602,-15.4683;04170;Arequipa;Chillihua
 0;-69.0663,-16.6288;21610;Puno;Chilligua Humacata
@@ -17357,6 +17600,7 @@
 0;-70.2893,-15.3198;21130;Puno;Chagrapi
 593;-73.1819,-13.9240;03420;Apurímac Department;San Juan de Chacña
 0;-71.4489,-17.3314;18610;Moquegua Department;Chagllianto
+0;-72.7500,-16.3333;;Arequipa;Chageriyoc
 0;-70.8211,-16.4704;18310;Moquegua Department;Chagechajen
 0;-76.6150,-10.8622;15275;Lima region;Chagapata
 0;-76.7486,-10.1511;10640;Huánuco Department;Chagacorral
@@ -17767,6 +18011,7 @@
 0;-74.2795,-15.1838;05605;Ayacucho;Carrizal-Chico
 0;-71.3622,-17.4706;18610;Moquegua Department;Carrizal
 0;-71.5252,-17.0269;04430;Arequipa;Carrizal
+0;-72.2062,-16.9008;;Arequipa;Carrizal
 97;-71.2409,-16.7704;18230;Moquegua Department;Carrizal
 0;-71.3693,-16.5911;04320;Arequipa;Carrizal
 0;-74.3015,-15.2072;05605;Ayacucho;Carrizal
@@ -17965,6 +18210,7 @@
 171;-69.9484,-15.6021;21120;Puno;Candile
 0;-76.4795,-10.2508;10470;Huánuco Department;Candercanchi
 3415;-70.2494,-17.2678;23420;Tacna;Candarave
+0;-69.6949,-13.5068;;Puno;Candamo
 103;-70.8081,-16.5386;18310;Moquegua Department;Candahua
 0;-70.9570,-16.2243;04210;Arequipa;Cancusane Chico
 99;-70.0199,-15.1333;21170;Puno;Canco
@@ -18212,6 +18458,7 @@
 0;-70.0117,-15.5977;21116;Puno;Caijano
 333;-71.6963,-13.5970;08155;Cuzco Department;Caicay
 0;-71.7875,-17.0281;04430;Arequipa;Cahuintala
+0;-72.7500,-12.1167;;Cuzco Department;Cahuide
 0;-71.8399,-15.5848;04124;Arequipa;Cahuara
 0;-74.9690,-9.9994;19310;Pasco;Cahuapana
 19;-72.9510,-15.4761;04805;Arequipa;Cahuanota
@@ -18367,6 +18614,7 @@
 0;-75.5620,-14.8743;11340;Ica;Boca del Río Ica
 219;-70.6795,-18.1576;23650;Tacna;Boca del Río
 0;-76.4050,-13.1210;15700;Lima region;Boca del Río
+0;-71.0333,-16.9500;;Moquegua Department;Boca de Guerrero
 0;-72.1333,-14.1500;03270;Apurímac Department;Bocabamba
 0;-76.1619,-13.5581;11740;Ica;Blas Herrera
 0;-71.9675,-15.9061;04115;Arequipa;Blanco Blanco
@@ -18580,12 +18828,14 @@
 920;-76.2149,-10.5734;19100;Pasco;Atacocha
 0;-73.7032,-13.5155;03851;Apurímac Department;Ataccara
 0;-74.8556,-13.8219;09645;Huancavelica;Atajocha
+0;-69.0995,-11.3381;;Madre de Dios;Asunta
 0;-76.5667,-11.6833;15530;Lima region;Asunción
 10;-75.8167,-12.8833;15745;Lima region;Astumarca
 0;-69.3913,-15.0391;21410;Puno;Astopunco
 1;-75.0859,-13.1517;09500;Huancavelica;Astohuaraca
 0;-75.0935,-12.9484;09000;Huancavelica;Astobamba
 22;-74.5126,-14.9573;05570;Ayacucho;Asto
+0;-69.6587,-13.3302;;Puno;Astillero
 0;-75.8887,-13.1771;11850;Ica;Astilla Pata
 178;-73.9100,-14.0550;05445;Ayacucho;Asquipata
 202;-69.4399,-16.0413;21525;Puno;Asquicha
@@ -18674,6 +18924,7 @@
 0;-71.6978,-15.4119;04160;Arequipa;Aquerana
 0;-71.6411,-15.4578;04170;Arequipa;Aquenta
 0;-70.7250,-15.3636;21780;Puno;Aquemiña
+0;-77.8333,-11.0833;;Lima region;Aquashuarco
 4;-71.6919,-15.1608;04190;Arequipa;Aputane
 85;-75.8084,-12.8807;15745;Lima region;Apuri
 0;-72.4358,-15.3031;04650;Arequipa;Apuñe
@@ -19043,6 +19294,7 @@
 0;-71.0333,-17.8500;23700;Tacna;Alfarillo
 0;-74.6167,-14.7000;05540;Ayacucho;Alfachayoc
 986;-69.2355,-11.6584;17200;Madre de Dios;Alerta
+0;-71.7891,-10.7470;;Ucayali;Alerta
 0;-76.7020,-10.9970;15285;Lima region;Aleluyoc
 56;-73.5123,-13.6577;03800;Apurímac Department;Alejo Pata
 708;-69.1196,-12.1194;17100;Madre de Dios;Alegría
@@ -19432,6 +19684,7 @@
 217;-68.8881,-14.0928;21380;Puno;Miraflores Lanza
 0;-68.8611,-14.1583;21380;Puno;Lanza Segunda Sección
 0;-68.8583,-14.1986;21380;Puno;Lanza Tercera Sección
+0;-71.3167,-11.9333;;Madre de Dios;Colón
 0;-71.9860,-15.9717;04115;Arequipa;Chajtillo
 0;-71.9766,-15.9614;04115;Arequipa;Toroya
 0;-71.9654,-15.8986;04115;Arequipa;Torre Torre
@@ -22294,6 +22547,7 @@
 0;-73.9675,-14.3072;05475;Ayacucho;Ayou
 0;-73.8397,-14.2733;05460;Ayacucho;Sarapata
 0;-73.7928,-14.2756;05460;Ayacucho;Jatunhuasi
+0;-75.4927,-14.4352;;Ica;Cruz Labrada
 0;-73.7844,-14.2633;05455;Ayacucho;Ccaccahuasi
 0;-73.7834,-14.2902;05460;Ayacucho;Afilayocc
 0;-73.7081,-14.2764;05375;Ayacucho;Hualahuarcco
@@ -25027,11 +25281,13 @@
 112;-73.0869,-12.6192;08750;Cuzco Department;Managua
 0;-72.7645,-12.3881;08760;Cuzco Department;Matoriato
 0;-72.8229,-12.0803;08750;Cuzco Department;Timpia
+0;-72.8124,-12.1916;;Cuzco Department;Quitaparaya
 645;-72.8860,-12.3275;08750;Cuzco Department;Poyentimari
 0;-72.9562,-12.4524;08750;Cuzco Department;Monte Carmelo
 0;-72.9048,-12.4345;08750;Cuzco Department;Pachiri
 81;-75.8129,-2.9591;16820;Loreto;Antioquía
 0;-75.8203,-2.9948;16820;Loreto;Sauqui
+0;-75.5333,-2.6906;;Loreto;Lamastipishca
 166;-75.6892,-2.5669;16810;Loreto;Vista Alegre
 0;-75.7259,-2.5204;16810;Loreto;San Juan
 63;-74.7620,-2.1295;16120;Loreto;Bolivar
@@ -25055,6 +25311,7 @@
 269;-74.1313,-2.1408;16120;Loreto;San Carlos
 0;-73.6912,-6.0053;16360;Loreto;Curinga
 0;-73.6124,-6.3215;16360;Loreto;Lobo
+0;-73.5417,-6.1981;;Loreto;Santa Lucía
 218;-72.9383,-3.2758;16100;Loreto;Llachapa
 0;-72.9194,-3.2878;16100;Loreto;Junventud Yarina
 188;-72.8725,-3.2856;16100;Loreto;Puinahua
@@ -26130,6 +26387,11 @@
 0;-72.9527,-11.3321;25210;Cuzco Department;Playalta
 0;-72.9969,-11.3268;08750;Cuzco Department;Shimbillo
 0;-72.7953,-11.3853;25210;Cuzco Department;Curva Del Diablo
+0;-72.7751,-11.0546;;Ucayali;Pongo Lagarto
+0;-72.6681,-11.0449;;Ucayali;Aguanegra
+0;-72.6146,-11.0574;;Ucayali;Pongo Farol
+0;-72.6000,-11.1389;;Ucayali;Chushupe
+0;-72.5381,-11.4358;;Cuzco Department;Curva Del Diablo
 0;-72.5815,-11.4373;25210;Cuzco Department;Nahuas
 0;-72.5889,-11.4502;25210;Cuzco Department;Colpa
 0;-72.9868,-11.1870;25210;Ucayali;Texas
@@ -26678,6 +26940,7 @@
 7;-72.9474,-11.8445;08750;Cuzco Department;Malvinas
 0;-72.9534,-11.9164;08750;Cuzco Department;Ticumpina
 0;-72.9308,-11.9376;08750;Cuzco Department;Chocoriari
+0;-72.5163,-11.9482;;Cuzco Department;Cashiriani
 0;-70.7444,-18.0947;23650;Tacna;La Yesera
 0;-70.6570,-18.0161;23650;Tacna;Flor
 0;-70.6968,-18.1433;23650;Tacna;El Planchón
@@ -28364,9 +28627,11 @@
 291;-77.9303,-6.9901;13450;La Libertad;Pusac
 60;-77.9090,-6.9659;01470;Amazonas;Opabán
 46;-77.9167,-6.9532;01470;Amazonas;Jugo
+0;-77.5186,-6.9536;;San Martín Department;La Morada
 0;-77.6900,-6.8436;01465;San Martín Department;Ullilen
 0;-77.7477,-6.8639;01465;Amazonas;Buenaparte
 0;-77.7293,-6.6605;01460;San Martín Department;Yasgolga
+0;-77.6009,-6.7248;;San Martín Department;Los Chilchos
 0;-77.5332,-6.5855;01370;Amazonas;Montealegre
 0;-77.5784,-6.5256;01370;Amazonas;Challhuayacu
 246;-77.5877,-6.5019;01370;Amazonas;Nueva Esperanza
@@ -37883,6 +38148,8 @@
 0;-77.2623,-11.5763;15131;Lima region;Cerro La Trinidad
 0;-77.2700,-11.5440;15130;Lima region;Fundo Jotage
 0;-77.2981,-11.5036;15130;Lima region;Santa Ana
+0;-78.5134,-4.0352;;Amazonas;Puesto de Vigilancia Cuatro Nuevo
+0;-78.5358,-4.0222;;Amazonas;Puesto de Vigilancia Cuatro B
 222;-76.4976,-6.6239;22190;San Martín Department;Progreso
 0;-76.4835,-6.6009;22190;San Martín Department;Palmasola
 0;-76.4742,-6.5577;22180;San Martín Department;Versalles
@@ -37927,6 +38194,7 @@
 115;-76.2612,-6.6323;22320;San Martín Department;Cerro San Pablo
 0;-76.2577,-6.5803;22300;San Martín Department;Bella Aurora
 0;-76.5127,-11.6549;15525;Lima region;Yachacocha
+0;-78.5693,-4.3195;;Amazonas;Puesto de Vigilancia Teniente Núñez
 0;-74.8996,-10.5950;19310;Pasco;Miritiriani
 0;-74.9063,-10.5180;19310;Pasco;Comunidad Nativa Septimo Unidos
 0;-76.7987,-12.2148;15823;Lima region;Pucará
@@ -38956,9 +39224,15 @@
 0;-69.3872,-11.5519;17200;Madre de Dios;La Colonia
 0;-69.3658,-11.5071;17200;Madre de Dios;Bagazan
 0;-69.3332,-11.5388;17200;Madre de Dios;Noa
+0;-69.4953,-11.5960;;Madre de Dios;No Me Olvides
+0;-69.4672,-11.6071;;Madre de Dios;Sin Garantia
+0;-69.4922,-11.6109;;Madre de Dios;Primavera
 0;-69.3599,-11.6123;17200;Madre de Dios;Ana Maria
+0;-69.4695,-11.6673;;Madre de Dios;Firmeza
 0;-69.4383,-11.7855;17200;Madre de Dios;Altamira
+0;-69.4982,-11.8148;;Madre de Dios;Puerto Yupanqui
 0;-69.4364,-11.8636;17100;Madre de Dios;San Miguel Dos
+0;-69.4649,-11.8673;;Madre de Dios;Napoleon
 0;-69.3852,-11.8774;17100;Madre de Dios;Chaparro
 0;-69.3570,-11.9025;17100;Madre de Dios;Quebrada San Antonio
 0;-69.3351,-11.8997;17100;Madre de Dios;Gutierrez
@@ -39306,6 +39580,7 @@
 0;-69.2769,-12.2344;17100;Madre de Dios;Florida
 0;-69.2726,-12.3201;17100;Madre de Dios;Sabaluyo
 0;-69.2634,-12.2565;17100;Madre de Dios;Santa Elena
+0;-69.4515,-12.3883;;Madre de Dios;Pariamanu
 40;-69.2676,-12.4277;17000;Madre de Dios;Boca Pariamanu
 0;-69.2531,-12.4178;17100;Madre de Dios;San Jose del Centro Piedras
 0;-69.2573,-12.4650;17100;Madre de Dios;Bajo Piedras
@@ -39448,6 +39723,7 @@
 0;-69.1192,-12.6685;17000;Madre de Dios;Jorge Chavez Rengifo
 0;-69.0361,-12.6101;17000;Madre de Dios;Fundo Mejía
 0;-69.0340,-12.5286;17000;Madre de Dios;Juan Velasco Alvarado
+0;-69.4541,-13.4178;;Puno;Aguajal
 120;-68.9829,-13.9946;21380;Puno;San Fermín
 0;-68.9750,-13.9571;21380;Puno;Centro Arco Punco
 111;-68.9882,-13.9666;21380;Puno;Alto San Fermín
@@ -39500,6 +39776,7 @@
 131;-69.0432,-13.9601;21380;Puno;Pampa Grande
 287;-69.0727,-13.9511;21380;Puno;Alto Azata
 0;-69.0096,-13.9733;21380;Puno;Azata
+0;-69.0771,-13.7908;;Puno;Rosario
 0;-69.4600,-14.0211;21370;Puno;Ccotani
 0;-69.4857,-14.0609;21370;Puno;Cachicachi
 0;-69.3820,-14.0439;21370;Puno;Lahuataucca
@@ -40360,6 +40637,7 @@
 0;-71.8788,-14.2577;08460;Cuzco Department;Mirasol
 735;-76.4360,-6.3859;22220;San Martín Department;San Roque de Cumbaza
 3660;-69.5869,-12.7173;17400;Madre de Dios;Puerto Rosario de Laberinto
+537;-74.6756,-0.3729;;Loreto;Soplín Vargas
 0;-74.0052,-11.7115;12330;Junin;Cachingari
 0;-74.0060,-11.7330;12330;Junin;Sor María
 0;-74.0503,-11.7134;12330;Junin;Unión Progreso
@@ -40458,6 +40736,7 @@
 0;-74.0084,-12.4601;05230;Ayacucho;Chongos
 0;-74.0261,-12.4826;05230;Ayacucho;Chola Huayrapata
 0;-74.0694,-12.4732;05230;Ayacucho;San Cristóbal
+0;-74.2394,-12.2829;;Ayacucho;Jerusalén
 0;-73.9569,-12.4737;05230;Ayacucho;Novillo Ccasa Alta
 0;-73.9529,-12.4800;05220;Ayacucho;Novilloccasa Baja
 0;-73.9456,-12.4530;05230;Ayacucho;Yaruri
@@ -40867,6 +41146,7 @@
 0;-75.4475,-8.9778;25550;Ucayali;Huipoca
 0;-75.6360,-9.0595;25550;Ucayali;Boquerón
 0;-76.5598,-5.8301;16511;Loreto;Balsapuerto
+0;-71.1766,-2.4081;;Loreto;Remanso
 0;-71.5814,-13.8772;08223;Cuzco Department;Usi
 0;-79.0336,-5.3892;06825;Cajamarca Department;Vira Vira
 0;-77.7564,-4.0565;01841;Amazonas;Yutupis
@@ -45255,6 +45535,7 @@
 0;-74.3829,-9.4635;25230;Ucayali;Amaquira
 0;-74.3519,-9.4081;25230;Ucayali;Nuevo Nazareth
 0;-73.9631,-8.8950;25100;Ucayali;Cametsari Cuipatsi
+0;-73.0800,-10.0281;;Ucayali;Onconashari
 0;-72.7467,-9.5231;25300;Ucayali;Santana
 0;-74.3623,-7.9820;25000;Ucayali;Guadencio
 0;-75.0604,-8.3658;25600;Ucayali;San Juan de Tahuapoa
@@ -45318,6 +45599,7 @@
 0;-74.0246,-10.4414;25200;Ucayali;El Pozo
 0;-74.2977,-10.7089;25200;Ucayali;Quemporequishi
 0;-73.3747,-10.6248;25200;Ucayali;Vista Alegre
+0;-72.8302,-9.9957;;Ucayali;Paititi
 0;-73.0552,-11.1492;25210;Ucayali;San Felipe
 0;-74.2322,-8.1122;25000;Ucayali;San José
 0;-75.4398,-8.9846;25550;Ucayali;Nuevo Jordan
@@ -45398,6 +45680,7 @@
 0;-75.0816,-8.8271;25530;Ucayali;Nueva Esperanza
 0;-75.0866,-8.4740;25600;Ucayali;Maronal
 0;-74.5500,-8.8005;10350;Ucayali;Flor de Ucayali
+0;-72.9022,-10.0231;;Ucayali;Nueva Luz
 0;-71.0641,-9.9899;25400;Ucayali;Nueva Vida
 0;-74.9609,-8.3512;25500;Ucayali;Juventud
 0;-75.0769,-8.6837;25530;Ucayali;Miguel Grau
@@ -45673,6 +45956,7 @@
 0;-70.3817,-13.1158;17500;Madre de Dios;Palmera
 0;-70.5208,-12.6890;17600;Madre de Dios;San José de Karene
 0;-69.9025,-12.6359;17400;Madre de Dios;Vuelta Grande
+0;-70.4396,-11.2240;;Madre de Dios;Nueva Oceania Boca Canales
 0;-69.9654,-13.0059;17500;Madre de Dios;Malinowski
 0;-69.2044,-11.9986;17100;Madre de Dios;Nuevo Bethel
 0;-69.5792,-12.7310;17400;Madre de Dios;Villa Alejandro Toledo
@@ -45706,6 +45990,7 @@
 0;-70.5011,-13.0250;17550;Madre de Dios;Caychihue Alto y Quebrada Nueva
 0;-70.6472,-12.9689;17600;Madre de Dios;Setapo
 0;-69.9982,-12.8918;17500;Madre de Dios;Nueva Arequipa
+0;-70.3748,-11.7187;;Madre de Dios;Monte Salvado
 0;-71.3747,-12.6161;17700;Madre de Dios;Pantiacolla
 0;-70.3588,-13.0764;17500;Madre de Dios;Dos de Mayo
 0;-70.0888,-12.6050;17600;Madre de Dios;Boca Amigos
@@ -45726,6 +46011,7 @@
 0;-70.5956,-12.7443;17600;Madre de Dios;Puerto Luz
 0;-69.6558,-12.7266;17400;Madre de Dios;Florida Alta
 0;-71.1711,-12.4915;17700;Madre de Dios;Shipitiari
+0;-69.7131,-11.6166;;Madre de Dios;Portillo
 0;-69.6687,-12.7048;17400;Madre de Dios;Boca Unión
 0;-70.5225,-12.7890;17600;Madre de Dios;Delta Uno
 0;-69.7364,-12.7192;17400;Madre de Dios;Amarakaeri
@@ -45859,6 +46145,8 @@
 0;-74.1985,-13.5095;05845;Ayacucho;Chalco
 0;-74.0118,-12.9465;05201;Ayacucho;Huaccachina
 0;-73.8899,-13.2336;05290;Ayacucho;Huayccohuasi
+0;-74.3848,-12.3653;;Ayacucho;Tambopacocha
+0;-74.4394,-12.3152;;Ayacucho;Noa
 0;-74.0743,-12.8395;05120;Ayacucho;Churunmarca
 0;-73.7221,-12.7377;05240;Ayacucho;Huanchi
 0;-73.5313,-12.9613;08800;Ayacucho;Arhuimayo
@@ -45905,6 +46193,7 @@
 0;-73.8501,-13.2265;05290;Ayacucho;Chillihua
 0;-73.9870,-12.9945;05250;Ayacucho;Barbecho
 0;-74.4336,-12.4252;09335;Ayacucho;Llactapata
+0;-74.3686,-12.2541;;Ayacucho;Sanabamba
 0;-74.1467,-13.0821;05160;Ayacucho;Chihuampampa
 0;-73.4991,-13.0185;08800;Ayacucho;Huayrurpata
 0;-73.6236,-12.8366;08800;Ayacucho;Buenos Aires
@@ -46088,6 +46377,7 @@
 0;-73.8714,-12.6526;05210;Ayacucho;Cañapampa
 0;-74.4304,-13.3466;05815;Ayacucho;Ccenhuacucho-Estación Pesquera
 0;-73.9565,-13.6648;05326;Ayacucho;Estancia Pata
+0;-74.2590,-12.4032;;Ayacucho;Mosobamba
 0;-74.2070,-13.5695;05845;Ayacucho;Churrupallana
 0;-73.6005,-12.9382;05260;Ayacucho;Corazón Mejorada
 0;-74.4245,-13.6105;05850;Ayacucho;Cusibamba
@@ -46334,6 +46624,7 @@
 0;-73.5531,-12.9390;08800;Ayacucho;Mejorada
 0;-73.9830,-13.6555;05326;Ayacucho;Michcabamba
 0;-74.2392,-12.9069;05120;Ayacucho;Mio
+0;-73.5110,-13.1017;;Ayacucho;Moyabamba
 0;-73.7709,-13.6943;05335;Ayacucho;Muchcapata
 0;-74.1804,-13.5730;05846;Ayacucho;Jatumpampa
 0;-74.2655,-12.8666;05130;Ayacucho;Meccayra

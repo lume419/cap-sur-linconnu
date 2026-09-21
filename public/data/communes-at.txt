@@ -495,9 +495,9 @@
 0;15.6667,46.9667;8082;Politischer Bezirk Südoststeiermark;Grießegg
 0;15.6667,46.9667;8082;Politischer Bezirk Südoststeiermark;Krisperleiten
 0;15.6667,46.9667;8082;Politischer Bezirk Südoststeiermark;Bodengraben
-153;15.6494,46.9726;8081;Politischer Bezirk Südoststeiermark;Weißenbach
+153;15.6528,46.9694;8081;Politischer Bezirk Südoststeiermark;Weißenbach
 0;15.6500,46.9667;8081;Politischer Bezirk Südoststeiermark;Suppersbach
-0;15.6500,46.9667;8081;Politischer Bezirk Südoststeiermark;Wiesengraben
+0;15.6470,46.9629;8081;Politischer Bezirk Südoststeiermark;Wiesengraben
 0;15.6000,46.9667;8081;Politischer Bezirk Südoststeiermark;Rohrbachgraben
 0;15.6167,46.9667;8081;Politischer Bezirk Südoststeiermark;Pirchingberg
 0;15.8333,46.9500;8341;Politischer Bezirk Südoststeiermark;Buchgraben
@@ -512,11 +512,11 @@
 0;15.7167,46.9500;8324;Politischer Bezirk Südoststeiermark;Rohrbach
 0;15.7000,46.9500;8082;Politischer Bezirk Südoststeiermark;Gluchenegg
 0;15.6667,46.9500;8082;Politischer Bezirk Südoststeiermark;Erlingsberg
-0;15.6500,46.9500;8082;Politischer Bezirk Südoststeiermark;Franzenegg
+0;15.6527,46.9532;8082;Politischer Bezirk Südoststeiermark;Franzenegg
 0;15.6333,46.9500;8082;Politischer Bezirk Südoststeiermark;Rickersberg
 0;15.6333,46.9500;8082;Politischer Bezirk Südoststeiermark;Hochegg
 0;15.6333,46.9500;8082;Politischer Bezirk Südoststeiermark;Kittenegg
-0;15.6167,46.9500;8081;Politischer Bezirk Südoststeiermark;Kittenegg
+0;15.6156,46.9471;8081;Politischer Bezirk Südoststeiermark;Kittenegg
 0;15.7833,46.9333;8341;Politischer Bezirk Südoststeiermark;Hühnergraben
 0;15.7667,46.9333;8341;Politischer Bezirk Südoststeiermark;Naselgraben
 0;15.7667,46.9333;8341;Politischer Bezirk Südoststeiermark;Gatteregg
@@ -5283,7 +5283,7 @@
 64;15.9833,46.7167;8490;Politischer Bezirk Südoststeiermark;Pridahof
 232;14.6822,46.6233;9125;Politischer Bezirk Völkermarkt;Pribelsdorf
 108;15.8153,48.3556;3454;Politischer Bezirk Tulln;Preuwitz
-134;13.6167,47.4000;8970;Politischer Bezirk Liezen;Preunegg
+134;13.6150,47.3780;8970;Politischer Bezirk Liezen;Preunegg
 0;15.6960,47.5600;8665;Politischer Bezirk Bruck-Mürzzuschlag;Pretul
 0;15.0833,48.4167;3632;Politischer Bezirk Zwettl;Prettlers
 0;14.9333,47.3500;8713;Politischer Bezirk Leoben;Pressnitz
@@ -5522,7 +5522,7 @@
 0;14.6833,46.6167;9125;Politischer Bezirk Völkermarkt;Pirk an der Drau
 36;12.9000,46.9333;9842;Politischer Bezirk Spittal an der Drau;Pirkachberg
 70;15.3000,47.0333;8151;Politischer Bezirk Graz-Umgebung;Pirka
-2213;15.3833,47.0000;8054;Politischer Bezirk Graz-Umgebung;Pirka
+2213;15.3901,46.9960;8054;Politischer Bezirk Graz-Umgebung;Pirka
 29;13.4833,46.8667;9852;Politischer Bezirk Spittal an der Drau;Pirk
 269;14.4333,46.6167;9131;Politischer Bezirk Klagenfurt Land;Pirk
 82;14.0000,46.5667;9232;Politischer Bezirk Villach Land;Pirk
@@ -6915,6 +6915,7 @@
 63;15.8863,47.0791;8262;Politischer Bezirk Hartberg-Fürstenfeld;Mutzenfeld
 0;9.8331,47.1831;6713;Politischer Bezirk Bludenz;Muttersberg
 1587;11.3833,47.2333;6020;Politischer Bezirk Innsbruck Land;Mutters
+0;11.1587,47.0133;;Tyrol;Mutterbergalm
 624;15.3667,46.9333;8143;Politischer Bezirk Graz-Umgebung;Muttendorf
 0;9.9833,47.1167;6752;Politischer Bezirk Bludenz;Mutten
 518;16.1099,47.8379;2723;Politischer Bezirk Wiener Neustadt;Muthmannsdorf
@@ -8723,7 +8724,7 @@
 8272;12.3922,47.4464;6370;Politischer Bezirk Kitzbühel;Kitzbühel
 3162;17.0639,48.0925;2421;Politischer Bezirk Neusiedl am See;Kittsee
 39;15.5000,46.7833;8451;Politischer Bezirk Leibnitz;Kittenberg
-111;15.6167,46.9333;8081;Politischer Bezirk Südoststeiermark;Kittenbach
+111;15.6323,46.9388;8081;Politischer Bezirk Südoststeiermark;Kittenbach
 118;14.5333,46.8500;9374;Politischer Bezirk Sankt Veit an der Glan;Kitschdorf
 239;14.2667,46.5333;9162;Politischer Bezirk Klagenfurt Land;Kirschentheuer
 551;15.3223,48.0725;3241;Politischer Bezirk Melk;Kirnberg an der Mank
@@ -12094,7 +12095,7 @@
 31;15.1953,48.0707;3281;Politischer Bezirk Scheibbs;Diendorf
 45;15.4833,48.8000;3814;Politischer Bezirk Waidhofen an der Thaya;Diemschlag
 0;15.2471,48.8304;3830;Politischer Bezirk Waidhofen an der Thaya;Diemling
-117;14.0000,47.4833;8954;Politischer Bezirk Liezen;Diemlern
+117;14.0100,47.4910;8954;Politischer Bezirk Liezen;Diemlern
 0;14.4167,47.0833;8812;Politischer Bezirk Murau;Diemersdorf
 2;14.2167,46.9000;9343;Politischer Bezirk Sankt Veit an der Glan;Dielach
 54;14.4012,46.8157;9312;Politischer Bezirk Sankt Veit an der Glan;Dielach
@@ -12341,7 +12342,7 @@
 0;15.5167,47.2000;8061;Politischer Bezirk Weiz;Breitenfeld
 386;15.6926,48.6732;3580;Politischer Bezirk Horn;Breiteneich
 54;16.2167,47.6833;2833;Politischer Bezirk Wiener Neustadt;Breitenbuch
-419;15.6667,46.9667;8082;Politischer Bezirk Südoststeiermark;Breitenbuch
+419;15.6717,46.9626;8082;Politischer Bezirk Südoststeiermark;Breitenbuch
 1938;16.7315,47.9445;7091;Eisenstadt-Umgebung;Breitenbrunn
 84;15.8500,47.4833;8253;Politischer Bezirk Hartberg-Fürstenfeld;Breitenbrunn
 175;12.8343,47.4076;5760;Politischer Bezirk Zell am See;Breitenbergham
@@ -14653,6 +14654,14 @@
 354;10.9667,47.1266;6441;Politischer Bezirk Imst;Niederthai
 0;10.7529,47.0535;6524;Politischer Bezirk Landeck;Platz
 0;14.1278,48.5823;4170;Politischer Bezirk Rohrbach;Afiesl
+0;12.6759,47.8752;;Salzburg;Jahn
+0;12.7407,47.8414;;Upper Austria;Adligstadt
+0;12.7714,47.8416;;Upper Austria;Gierstling
+0;12.7485,47.8364;;Upper Austria;Krainwinkl
+0;12.7521,47.8250;;Salzburg;Loch
+0;12.7714,47.8279;;Upper Austria;Wald
+0;12.7335,47.8269;;Salzburg;Weitwies
+0;12.6545,47.9414;;Upper Austria;Hurt
 71;13.4975,47.8440;4865;Politischer Bezirk Vöcklabruck;Aichereben
 0;14.1170,47.8795;4563;Politischer Bezirk Kirchdorf an der Krems;Thurnham
 0;14.1507,47.8542;4564;Politischer Bezirk Kirchdorf an der Krems;Schön

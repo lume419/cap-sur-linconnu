@@ -616,3 +616,5 @@ ru;Атфакарье;Atfakarye
 ka;სემერა;Samara
 ru;Содо;Sodo
 ru;Бураю;Burayu
+ar;زالامبسا;Zalambessa
+ar;صورونا-زالامبسا;Tsorona-Zalambessa

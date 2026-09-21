@@ -92,6 +92,7 @@
 0;126.9619,36.8946;31402;Chungcheongnam-do;Yŏsul
 0;127.0667,34.8833;59406;Jeollanam-do;Sojeonggul
 0;127.7378,34.7442;59729;Jeollanam-do;Reisui
+0;126.9258,33.9833;;Jeollanam-do;Reizui-ri
 0;127.6500,34.5833;59783;;Suttolgumi
 0;127.0822,36.0583;54520;Jeollabuk-do;Yesan
 0;127.4167,36.8167;27827;North Chungcheong;Yŏsa
@@ -5009,6 +5010,7 @@
 0;128.9333,35.8667;38913;Gyeongsangbuk-do;Ogil
 0;128.4500,36.4333;37306;Gyeongsangbuk-do;Oga-dong
 0;128.6077,38.1815;24900;Gangwon-do;Oeongchiri
+0;126.0792,36.2265;;Chungcheongnam-do;Ŏeyŏndo
 0;126.2332,35.0893;58811;Jeollanam-do;Oeyang
 0;127.3792,38.0944;11110;Gyeonggi-do;Oeyaksadong
 0;126.6833,36.6667;32257;Chungcheongnam-do;Sa-ri
@@ -5095,6 +5097,7 @@
 0;127.4030,34.5697;59523;Jeollanam-do;Sango
 0;127.3492,37.2544;17387;Gyeonggi-do;Gosen-ri
 0;127.5021,35.7752;55444;Jeollabuk-do;Och’ŏl-li
+0;125.9807,36.1198;;Jeollabuk-do;Ŏch’ŏngdo-ri
 0;127.7553,34.7953;59621;Jeollanam-do;Och’ŏn-dong
 0;127.3508,37.2536;17387;Gyeonggi-do;Ocheon
 0;126.7333,36.7667;32401;Chungcheongnam-do;Och’on
@@ -7377,6 +7380,7 @@
 0;128.0770,36.0862;39687;Gyeongsangbuk-do;Hwanggak
 0;126.9439,36.0044;54533;Jeollabuk-do;Hwangdŭng-ni
 0;126.9571,36.7499;31539;Chungcheongnam-do;Hwangdong
+0;125.9614,36.2325;;Chungcheongnam-do;Hwangdo-ri
 0;129.1370,35.3527;46001;Busan;Hwangdari
 0;127.2833,34.5048;59530;Jeollanam-do;Hwangch’on
 0;128.1415,37.8545;25161;Gangwon-do;Hwangcheoldong
@@ -16814,6 +16818,7 @@
 0;126.9253,34.3728;59136;Jeollanam-do;Madanggae
 0;126.9339,34.3714;59136;Jeollanam-do;Siadaemi
 0;126.8769,34.1656;59150;Jeollanam-do;Kujang
+0;126.9228,33.9853;;Jeollanam-do;Yŏsŏdo-dŭngdae
 0;126.5669,34.2147;59154;Jeollanam-do;Samma-ri
 0;126.5767,34.2189;59154;Jeollanam-do;Sinmok
 0;126.5347,34.5886;59016;Jeollanam-do;Toenjae

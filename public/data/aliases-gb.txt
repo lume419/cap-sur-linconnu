@@ -8412,3 +8412,23 @@ ja;ローズアングラウス;Rose-an-Grouse
 zh;马尔格雷夫港;Port Mulgrave
 zh;克拉拉谷;Clara Vale
 ar;تيبس أند;Tipps End
+el;Καταλύματα των Πλακωτών;Katalymata ton Plakoton
+en;Katalynata ton Plakoton;Katalymata ton Plakoton
+nl;Katalynata ton Plakoton;Katalymata ton Plakoton
+ru;Айос-Николаос;Ágios Nikólaos
+el;Άγιος Νικόλαος;Ágios Nikólaos
+el;Ακρωτήρι;Akrotiri
+en;Akrotiri Village;Akrotiri
+en;St. Margaret's Hope;Saint Margaret's Hope
+sco;Saunt Marget's;Saint Margaret's Hope
+ga;Ros Liath;Rosslea
+ja;キンブレイス;Kinbrace
+gd;Ceann a' Bhràiste;Kinbrace
+gd;Cnip;Kneep
+gd;Timsgearraidh;Timsgarry
+gd;Leumrabhagh;Lemreway
+gd;Riof;Reef
+gd;Taobh a' Ghlinne;Glenside
+gd;Cearsiadar;Kershader
+gd;Gobhaig;Govig
+gd;Uigean;Uigen

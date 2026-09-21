@@ -57,6 +57,7 @@
 0;25.8583,57.0556;LV-4122;Vecpiebalgas pag.;Zēniņi
 0;26.5225,57.1499;LV-4428;Galgauskas pag.;Zemītes
 0;22.7939,56.9283;LV-3135;Zemītes pag.;Zemīte
+0;25.6606,56.2014;;Jēkabpils Municipality;Kalnieši
 0;23.5528,56.5832;LV-3040;Glūdas pag.;Zemgale
 0;26.4703,55.7148;LV-5442;Demenes pag.;Zemgale
 0;26.7394,56.2178;LV-5305;Aizkalnes pag.;Želvi
@@ -170,6 +171,7 @@
 0;26.0901,56.4659;LV-5316;Turku pag.;Vīpe
 0;26.0712,57.1496;LV-4125;Jaunpiebalgas pag.;Viņķi
 0;28.1085,56.5560;LV-5719;Līdumnieku pag.;Vindraži
+0;24.9500,56.3833;;Aizkraukle Municipality;Vindedži
 0;25.0065,57.7025;LV-4068;Braslavas pag.;Vilzēnmuiža
 1139;27.6722,57.1846;LV-4583;Medņevas pag.;Viļaka
 0;26.6993,55.9291;LV-5462;Naujenes pag.;Viluši
@@ -205,6 +207,7 @@
 0;25.7667,56.7370;LV-5109;Vietalvas pag.;Vietalva
 0;25.4364,57.5512;LV-4201;Valmiera;Viestura Laukums
 0;25.2275,56.4258;LV-5111;Daudzeses pag.;Viesītes
+1473;25.5551,56.3475;;Jēkabpils Municipality;Viesīte
 0;26.0315,56.8934;LV-4846;Aronas pag.;Viesiena
 0;22.8525,56.7955;LV-3142;Viesatu pag.;Viesatas
 0;22.0308,56.8631;LV-3309;Rumbas pag.;Viesalgciems
@@ -297,6 +300,7 @@
 0;21.7868,56.9537;LV-3313;Īvandes pag.;Upītes
 40;23.0802,57.0002;LV-3122;Cēres pag.;Vecmokas
 0;23.0646,56.4582;LV-3711;Bēnes pag.;Vecmiķeļi
+0;25.0322,56.2769;;Aizkraukle Municipality;Vecmēmele
 0;22.5134,56.4282;LV-3896;Ezeres pag.;Veclīkupēni
 0;22.0386,57.2193;LV-3615;Ugāles pag.;Veckušķi
 0;27.4458,57.2172;LV-4580;Vīksnas pag.;Mežārija
@@ -628,6 +632,7 @@
 0;21.5564,56.6296;LV-3442;Kalvenes pag.;Dižstroķi
 0;27.5298,56.7393;LV-5737;Mežvidu pag.;Strodi
 0;22.5128,56.5974;LV-3883;Zvārdes pag.;Striķi
+0;25.6992,56.2070;;Jēkabpils Municipality;Striķi
 0;24.5314,56.8187;LV-5001;Tīnūžu pag.;Elkšņi
 973;25.6853,57.6257;LV-4728;Valmieras nov.;Strenči
 0;24.3167,57.1333;LV-2163;Ādažu nov.;Strēlnieks
@@ -922,12 +927,14 @@
 0;22.8882,56.9426;LV-3128;Jaunsātu pag.;Sautiņi
 0;27.5935,56.8428;LV-5740;Salnavas pag.;Sausinīki
 0;25.7115,56.7989;LV-4841;Sausnējas pag.;Sausnēja
+0;22.4330,57.7184;;Talsu novads;Saunags
 3124;24.4147,57.2622;LV-2160;Saulkrastu pag.;Saulkrasti
 0;24.4348,56.8447;LV-2117;Salaspils pag.;Saulkalne
 0;23.5482,56.3450;LV-3026;Vilces pag.;Blankenfelde
 0;25.4294,57.6586;LV-4206;Burtnieku pag.;Sauļi
 0;26.0744,56.8064;LV-4853;Bērzaunes pag.;Sauleskalns
 0;24.1264,56.3938;LV-3901;Rundāles pag.;Saulaine
+0;25.4812,56.2751;;Jēkabpils Municipality;Sauka
 0;22.4361,56.6441;LV-3801;Novadnieku pag.;Sātiņi
 0;22.3017,56.4531;LV-3897;Zaņas pag.;Sātiņi
 0;22.5268,56.8065;LV-3873;Gaiķu pag.;Satiķi
@@ -1042,8 +1049,10 @@
 0;25.6721,56.4914;LV-5230;Salas pag.;Roži
 0;24.9456,57.5192;LV-4004;Umurgas pag.;Rozes
 0;25.6407,57.3807;LV-4131;Raunas pag.;Rozes
+0;25.5018,56.2126;;Jēkabpils Municipality;Rozes
 0;27.1808,56.3404;LV-4630;Maltas pag.;Rozentova
 0;27.4976,56.4424;LV-4642;Stoļerovas pag.;Rozeļmuiža
+0;24.6506,57.8902;;Limbaži Municipality;Rozēni
 0;27.8337,56.5796;LV-5752;Zvirgzdenes pag.;Ražanova
 0;26.8873,56.3713;LV-5330;Silajāņu pag.;Rozalina
 0;24.1970,56.5371;LV-3913;Bauskas nov.;Rosme
@@ -1078,6 +1087,7 @@
 0;21.4011,56.9073;LV-3466;Sakas pag.;Rīva
 0;25.5127,56.6007;LV-5129;Klintaines pag.;Rīteri
 0;26.0756,56.1620;LV-5229;Rubenes pag.;Riteniškas
+0;25.4551,56.1974;;Jēkabpils Municipality;Rite
 0;22.6186,57.0445;LV-3294;Abavas pag.;Rinkule
 50;23.0477,57.1431;LV-3123;Zentenes pag.;Rindzele
 0;21.8958,57.5198;LV-3601;Ances pag.;Rinda
@@ -1631,6 +1641,7 @@
 0;27.4379,56.7992;LV-5740;Salnavas pag.;Mežarejas
 0;26.5347,56.2004;LV-5335;Upmalas pag.;Mežarejas
 0;26.2425,56.5378;LV-5226;Mežāres pag.;Mežāre
+0;25.7406,56.2056;;Jēkabpils Municipality;Mežaraupi
 0;26.1701,56.5008;LV-5226;Mežāres pag.;Mežarasas
 0;26.3519,56.3919;LV-5327;Rožupes pag.;Mežancāni
 0;27.0894,57.2695;LV-4340;Jaunannas pag.;Mežtekas
@@ -1889,6 +1900,7 @@
 0;27.1056,56.8913;LV-4576;Bērzpils pag.;Liepari
 0;23.8333,56.5167;LV-3037;Vircavas pag.;Liepare
 67421;21.0109,56.5047;LV-3401;Liepaja;Liepāja
+0;24.9755,56.3311;;Aizkraukle Municipality;Lielmēmele
 0;27.7888,56.7777;LV-5750;Malnavas pag.;Lielā Zeļčova
 0;25.2500,56.3333;LV-5112;Zalves pag.;Lielzalve
 0;23.7479,56.5157;LV-3036;Platones pag.;Lielvircava
@@ -2075,6 +2087,7 @@
 0;25.8478,57.4149;LV-4729;Smiltenes pag.;Ilgas
 0;25.7446,57.1730;LV-4118;Dzērbenes pag.;Kurmi
 0;26.7874,56.1451;LV-5329;Pelēču pag.;Kurmi
+0;24.8251,56.4204;;Aizkraukle Municipality;Kurmene
 0;21.9029,56.9569;LV-3301;Kurmāles pag.;Kurmāle
 0;21.9333,56.9333;LV-3322;Pelču pag.;Kurmāle
 0;27.7905,56.4061;LV-5733;Pildas pag.;Kurma
@@ -2169,11 +2182,13 @@
 0;27.4333,57.4833;LV-4352;Pededzes pag.;Krauka
 0;22.4270,57.2372;LV-3297;Ģibuļu pag.;Kraujas
 0;22.4667,56.6500;LV-3801;Novadnieku pag.;Krastiņi
+0;24.9203,56.4402;;Aizkraukle Municipality;Krasti
 0;27.8641,56.1545;LV-5695;Šķaunes pag.;Krasnopole
 0;27.2529,55.9109;LV-5601;Krāslavas pag.;Krasnoļenka
 6797;27.1680,55.8951;LV-5601;Krāslavas pag.;Krāslava
 0;25.1177,56.7383;LV-5012;Krapes pag.;Krape
 0;26.6567,57.1297;LV-4429;Daukstu pag.;Krapa
+0;25.6799,56.1668;;Jēkabpils Municipality;Krankaļi
 0;21.9167,57.5333;LV-3601;Ances pag.;Krāņi
 0;26.5737,57.4334;LV-4344;Ilzenes pag.;Krampji
 0;27.2730,56.8429;LV-4574;Krišjāņu pag.;Krampiņas
@@ -2243,6 +2258,7 @@
 0;24.5333,56.6500;LV-3933;Vecumnieku pag.;Klavnieķi
 0;23.8425,56.3731;LV-3917;Svitenes pag.;Klāvi
 0;26.6197,57.1598;LV-4428;Galgauskas pag.;Klāvani
+0;25.5822,56.2868;;Jēkabpils Municipality;Klauce
 0;22.4500,57.5000;LV-3270;Dundagas pag.;Klāras
 160;23.3665,57.0383;LV-3113;Engures pag.;Klapkalnciems
 0;26.5725,56.2499;LV-5337;Vārkavas pag.;Klapari
@@ -2800,6 +2816,7 @@
 2186;25.6367,56.8975;LV-4840;Ērgļu pag.;Ērgļi
 0;25.8244,57.8073;LV-4711;Ērģemes pag.;Ērģeme
 0;26.8102,56.9218;LV-4830;Ošupes pag.;Ěrgala
+0;25.0190,56.3688;;Aizkraukle Municipality;Ērberģe
 1600;23.2253,57.1606;LV-3113;Engures pag.;Engure
 0;24.6167,57.0500;LV-2135;Ropažu nov.;Endzeliņi
 0;26.3180,56.5308;LV-5226;Mežāres pag.;Endžeļi
@@ -2809,6 +2826,7 @@
 0;22.5833,57.5667;LV-3264;Talsu nov.;Emerkalni
 0;26.6961,57.1056;LV-4417;Daukstu pag.;Elstes
 0;21.7810,57.3533;LV-3614;Popes pag.;Elšķene
+0;25.5796,56.2159;;Jēkabpils Municipality;Elkšņi
 0;26.7095,55.8862;LV-5465;Tabores pag.;Elkšņi
 0;27.3223,57.1452;LV-4501;Kubulu pag.;Elkšņava
 0;26.5111,56.3978;LV-5328;Rudzātu pag.;Eleonorvile
@@ -2841,6 +2859,7 @@
 0;26.2537,57.4559;LV-4713;Grundzāles pag.;Dzeņi
 0;26.1264,57.0375;LV-4884;Liezēres pag.;Dzeņumuiža
 0;27.1481,56.3919;LV-4636;Silmalas pag.;Dzeņi
+0;25.5833,56.2167;;Jēkabpils Municipality;Dzeni
 0;26.9103,57.0379;LV-4429;Daukstu pag.;Dzelzupe
 0;23.0000,56.4833;LV-3711;Bēnes pag.;Dzelži
 0;26.4328,57.0020;LV-4873;Dzelzavas pag.;Dzelzava
@@ -3332,6 +3351,7 @@
 0;26.2009,57.5254;LV-4713;Grundzāles pag.;Aumeisteri
 0;25.7814,57.2302;LV-4132;Drustu pag.;Auļukalns
 0;27.2810,56.0580;LV-5681;Aulejas pag.;Auleja
+0;25.6892,56.1877;;Jēkabpils Municipality;Navicki
 0;26.4451,55.9897;LV-5456;Līksnas pag.;Auksteņi
 0;26.6014,56.4302;LV-5326;Saunas pag.;Augustova
 0;21.7595,56.4211;LV-3435;Vaiņodes pag.;Auguste
@@ -3383,11 +3403,13 @@
 0;23.3549,56.7801;LV-3147;Džūkstes pag.;Apšupe
 0;22.7501,57.4861;LV-3264;Talsu nov.;Apšuciems
 210;23.3087,57.0613;LV-3113;Engures pag.;Apšuciems
+0;25.6037,56.2046;;Jēkabpils Municipality;Apserdi
 0;27.1197,56.0626;LV-5655;Grāveru pag.;Apšenieki
 0;21.5040,56.8044;LV-3455;Lažas pag.;Apriķi
 0;26.6826,56.9618;LV-4830;Indrānu pag.;Apogi
 0;26.4568,56.3199;LV-5334;Sutru pag.;Apšenieki
 0;23.2388,56.5331;LV-3724;Naudītes pag.;Apgulde
+773;26.6929,57.5393;;Smiltene Municipality;Ape
 0;27.7533,55.9946;LV-5677;Ķepovas pag.;Apali
 0;22.6032,57.4248;LV-3262;Lubes pag.;Anuži
 0;25.9490,56.6170;LV-5120;Aiviekstes pag.;Antuži
@@ -3451,6 +3473,7 @@
 0;27.1431,57.0100;LV-4570;Rugāju pag.;Aleksandropole
 0;24.3456,57.0573;LV-2164;Ādažu nov.;Alderi
 0;21.1949,56.5202;LV-3438;Grobiņas pag.;Alanda
+2546;25.7478,56.1615;;Jēkabpils Municipality;Aknīste
 0;27.3639,56.9176;LV-4572;Tilžas pag.;Akmeņrūči
 0;21.3764,56.7112;LV-3453;Cīravas pag.;Akmene
 0;21.6885,57.4803;LV-3601;Tārgales pag.;Akmeņdziras

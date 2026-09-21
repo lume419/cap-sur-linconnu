@@ -438,6 +438,7 @@
 0;20.6825,44.2542;34310;;Topola
 0;21.1880,43.8846;35274;;Topola
 0;22.3581,42.6064;17537;;Topli Dol
+33;22.6805,43.3400;;Central Serbia;Topli Do
 0;22.2989,42.6284;17532;;Topli Do
 0;21.9648,42.5411;17541;;Toplac
 0;22.1794,44.1426;19234;;Topla
@@ -942,6 +943,7 @@
 0;20.0304,43.2172;36310;;Raždaginja
 0;21.1659,43.3471;37223;;Razbojna
 0;21.5494,43.6722;37215;;Ražanj
+0;22.5578,43.4327;;Central Serbia;Ravno Bučje
 0;21.7881,42.5894;17529;;Ravno Bučje
 1656;20.5694,45.4608;23212;;Ravni Topolovac
 0;21.6342,44.4168;12240;;Ramnište
@@ -2896,6 +2898,7 @@
 0;22.5459,44.0665;19314;;Crnomasnica
 0;22.1917,43.3863;18368;;Crnoljevica
 0;22.4676,43.2338;18304;;Crnoklište
+0;22.5862,43.4065;;Central Serbia;Crni Vrh
 0;21.6092,42.8669;16240;;Crni Vrh
 0;22.1338,42.5187;17543;;Crni Vrh
 0;21.8835,42.4717;17521;;Crni Lug
@@ -3522,6 +3525,7 @@
 0;20.9702,43.1817;37226;;Željevo
 0;20.9851,43.1819;37226;;Trešnjica
 0;20.9642,43.1667;37226;;Dobro Brdo
+0;20.6758,43.0887;;Central Serbia;Crnac
 0;20.3522,42.8792;36320;;Vrba
 0;20.3522,42.9294;36320;;Krona
 0;20.1369,42.9938;36313;;Gornje Đerekare
@@ -6344,6 +6348,7 @@
 0;19.6729,43.9338;31253;;Zlodol
 0;19.8270,44.2831;14251;;Zlatarić
 0;19.9577,43.7919;31237;;Zlakusa
+0;19.3864,43.5789;;Central Serbia;Živinice
 0;19.9833,46.0333;24425;;Zimonjić
 0;19.8880,43.6559;31207;;Željine
 2381;19.6714,45.9412;24223;;Novi Žednik
@@ -6357,11 +6362,14 @@
 0;19.9359,45.0034;22404;;Žarkovac
 0;19.9500,44.2167;14203;;Žari
 0;19.3486,43.8615;31251;;Zaovine
+0;19.2644,43.4732;;Central Serbia;Zaostro
 0;19.2444,44.4568;15315;;Zajača
 0;19.8245,43.1321;36315;;Zahumsko
 0;19.7164,43.9416;31253;;Zaglavak
+0;19.3627,43.5135;;Central Serbia;Zabrnjica
 0;19.5128,43.4743;31306;;Zabrdnji Toci
 0;19.9317,44.3322;14201;;Zabrdica
+0;19.3333,43.5667;;Central Serbia;Zabrđe
 0;19.6143,43.4777;31325;;Zabrđe
 0;19.6849,44.6366;15232;;Zablaće
 0;19.7650,44.6977;15224;;Žabar
@@ -6485,6 +6493,7 @@
 5991;19.0972,45.5943;25264;;Sonta
 48454;19.1122,45.7742;25101;;Sombor
 0;19.5972,43.9149;31253;;Solotuša
+0;19.3022,43.5081;;Central Serbia;Sočice
 0;19.6573,43.7947;31244;;Šljivovica
 0;19.4372,44.3247;15314;;Šljivova
 0;19.5669,44.7524;15354;;Slepčević
@@ -6496,6 +6505,7 @@
 0;19.6031,43.3306;31300;;Skokuće
 0;19.9804,44.0524;31265;;Skakavci
 0;19.5515,44.2716;14207;;Skadar
+0;19.3813,43.5862;;Central Serbia;Sjeverin
 0;19.9994,43.2731;36310;;Sjenica
 6950;19.3827,45.7045;25223;;Sivac
 0;19.5505,45.1233;22207;;Šišatovac
@@ -6544,6 +6554,7 @@
 0;19.6324,44.0372;31255;;Rogačica
 0;19.9776,44.2178;14202;;Robaje
 0;19.8324,45.0915;22406;;Rivica
+0;19.2953,43.4590;;Central Serbia;Ritošići
 3186;19.1063,45.9909;25280;;Riđica
 470;19.7482,44.6628;15224;;Riđake
 0;19.6477,43.6784;31315;;Ribnica
@@ -6576,6 +6587,7 @@
 0;19.8454,44.0847;31265;;Radanovci
 0;19.1832,44.4040;15321;;Radalj
 0;19.5407,43.9209;31250;;Rača
+0;19.5152,43.6121;;Central Serbia;Rača
 0;19.8377,44.3479;14201;;Rabas
 3075;19.9710,44.9926;22404;;Putinci
 0;19.9104,44.6696;15215;;Provo
@@ -6586,9 +6598,11 @@
 5026;19.0881,45.6764;25263;;Prigrevica
 0;19.6285,43.9780;31250;;Pridoli
 0;19.7689,44.2797;14251;;Pričević
+3;19.5252,43.5831;;Central Serbia;Priboj
 0;20.0155,43.5343;31322;;Presjeka
 0;19.8045,44.6889;15213;;Predvorica
 0;19.7933,43.3741;31307;;Pravoševo
+0;19.4667,43.5500;;Central Serbia;Požegrmac
 0;19.9322,43.8005;31205;;Potpeće
 0;19.9082,43.8199;31205;;Potočanje
 0;19.7008,43.2578;31305;;Potkrš
@@ -6669,6 +6683,7 @@
 0;19.7888,43.3244;31307;;Milošev Do
 0;19.5370,44.6058;15234;;Miloševac
 408;19.4644,44.5852;15234;;Milina
+0;19.5022,43.5458;;Central Serbia;Maliješ
 0;19.7101,44.4270;15222;;Miličinica
 0;19.8213,45.7346;21227;;Mileševo
 0;19.8222,43.2156;36315;;Milakovići
@@ -6787,6 +6802,7 @@
 0;19.9626,43.5682;31319;;Klekova
 1545;19.7297,45.3542;21211;;Kisač
 0;19.8803,45.8503;24407;;Kevi
+0;19.4643,43.5558;;Central Serbia;Kasidoli
 0;19.5760,43.3356;31306;;Karoševina
 4;19.1942,45.4983;25255;;Karavukovo
 0;19.8402,43.3150;31307;;Karaula
@@ -6797,6 +6813,7 @@
 1371;19.7233,44.3430;14252;;Kamenica
 0;19.9228,43.8900;31203;;Kamenica
 0;19.5546,43.2870;31306;;Kamena Gora
+0;19.3983,43.4708;;Central Serbia;Kaluđerovići
 0;19.9544,44.5016;14214;;Kalinovac
 0;19.9764,43.9308;31213;;Kalenići
 0;19.7457,43.3422;31307;;Kačevo
@@ -6936,6 +6953,7 @@
 0;19.7026,43.6160;31317;;Dobroselica
 0;19.9532,43.8875;31203;;Dobrodo
 0;19.9266,44.9537;22412;;Dobrinci
+0;19.5089,43.5311;;Central Serbia;Dobrilovići
 1375;19.5793,44.7022;15235;;Dobrić
 0;19.5098,45.1109;22232;;Divoš
 86;19.9925,44.1060;14204;;Divčibare
@@ -6952,6 +6970,7 @@
 0;19.9758,44.4078;14213;;Čučuge
 0;19.6078,44.0060;31255;;Donja Crvica
 8532;19.4544,45.6610;25220;;Crvenka
+0;19.5096,43.5696;;Central Serbia;Crnuzi
 0;19.2836,44.2854;15322;;Crnča
 2606;19.3948,44.8737;15355;;Crna Bara
 0;19.5563,43.4531;31300;;Crkveni Toci
@@ -6959,6 +6978,7 @@
 1262;19.3902,44.6532;15306;;Čokešina
 0;19.1606,44.3117;15322;;Čitluk
 0;19.3727,44.2141;15320;;Čitluk
+0;19.5386,43.5624;;Central Serbia;Čitluk
 0;19.8549,44.0076;31262;;Cikote
 0;19.4049,44.4820;15311;;Cikote
 445;19.7514,44.6771;15224;;Cerovac
@@ -7040,6 +7060,7 @@
 0;19.4796,44.3955;15313;;Bela Crkva
 0;19.6231,45.2367;21411;;Begeč
 0;19.1323,45.0528;22251;;Batrovci
+0;19.4000,43.5667;;Central Serbia;Batkovići
 0;19.5256,44.3640;15313;;Bastav
 0;19.7509,43.1742;36315;;Bare
 0;19.8519,43.1215;36315;;Bare
@@ -7048,6 +7069,7 @@
 0;19.3886,44.3528;15314;;Banjevac
 0;19.9803,44.5377;14214;;Banjani
 4;19.1528,44.5146;15316;;Banja Koviljača
+4;19.5580,43.5494;;Central Serbia;Banja
 0;19.7581,44.2601;14251;;Balinović
 0;19.6881,43.2276;31305;;Balići
 0;19.5851,45.7799;24330;;Bajša
@@ -8085,6 +8107,88 @@
 0;19.5331,44.1008;31258;;Vranovina
 0;19.8271,44.0136;31262;;Donja Pološnica
 0;19.5294,44.3008;14207;;Donji Puljezi
+0;19.5136,43.5018;;Central Serbia;Pribojska Goleša
+0;19.4613,43.5068;;Central Serbia;Šarulje
+0;19.4783,43.5081;;Central Serbia;Radojići
+0;19.4937,43.5118;;Central Serbia;Đurovići
+0;19.4567,43.5214;;Central Serbia;Radava
+0;19.4440,43.5173;;Central Serbia;Kokošice
+0;19.4419,43.5103;;Central Serbia;Radanovići
+0;19.4376,43.4994;;Central Serbia;Strmac
+0;19.4028,43.5030;;Central Serbia;Crnetići
+0;19.3953,43.5069;;Central Serbia;Zagradina
+0;19.4164,43.5100;;Central Serbia;Kula
+0;19.4210,43.5145;;Central Serbia;Hercegovačka Goleša
+0;19.4056,43.5184;;Central Serbia;Ravan
+0;19.4220,43.5261;;Central Serbia;Velika Njiva
+0;19.4152,43.5320;;Central Serbia;Poljana
+0;19.4415,43.5306;;Central Serbia;Bjelošica
+0;19.4358,43.5367;;Central Serbia;Dobra Voda
+0;19.3927,43.5425;;Central Serbia;Repuševići
+0;19.3933,43.5369;;Central Serbia;Crnugovići
+0;19.3887,43.5179;;Central Serbia;Masnice
+0;19.3877,43.5232;;Central Serbia;Rijeka
+0;19.3751,43.5243;;Central Serbia;Vrelo
+0;19.3822,43.5089;;Central Serbia;Ljubatovići
+0;19.3542,43.5041;;Central Serbia;Donji Krajčinovići
+0;19.3497,43.5135;;Central Serbia;Mumikole
+0;19.3423,43.5007;;Central Serbia;Bošnjak
+0;19.3325,43.5200;;Central Serbia;Penezići
+0;19.3541,43.5174;;Central Serbia;Zabrnjica
+0;19.3617,43.5178;;Central Serbia;Brižići
+0;19.3400,43.5287;;Central Serbia;Šiljci
+0;19.2532,43.5073;;Central Serbia;Poblaće
+0;19.2498,43.5040;;Central Serbia;Brančići
+0;19.2340,43.5042;;Central Serbia;Židovići
+0;19.2301,43.5124;;Central Serbia;Kukorovići
+0;19.2528,43.5133;;Central Serbia;Podurvine
+0;19.2914,43.5061;;Central Serbia;Sočice
+0;19.2795,43.5008;;Central Serbia;Koštica
+0;19.2727,43.5075;;Central Serbia;Donji Dragovići
+0;19.2784,43.5115;;Central Serbia;Gornji Dragovići
+0;19.3008,43.5058;;Central Serbia;Zabrdo
+0;19.3202,43.5008;;Central Serbia;Radaje
+0;19.3117,43.5286;;Central Serbia;Mednjica
+0;19.3231,43.5344;;Central Serbia;Kućerine
+0;19.3319,43.5378;;Central Serbia;Križevac
+0;19.3193,43.5706;;Central Serbia;Lisičina
+0;19.3401,43.5630;;Central Serbia;Zabrđe
+0;19.3585,43.5653;;Central Serbia;Četanje
+0;19.3446,43.5698;;Central Serbia;Aluge
+0;19.3584,43.5766;;Central Serbia;Bara
+0;19.3320,43.5780;;Central Serbia;Prisoj
+0;19.3504,43.5815;;Central Serbia;Sutjeska
+0;19.3861,43.5660;;Central Serbia;Lukavica
+0;19.3729,43.5581;;Central Serbia;Meceljevo Brdo
+0;19.3881,43.5582;;Central Serbia;Batkovići
+0;19.3997,43.5664;;Central Serbia;Stupovi
+0;19.4951,43.5365;;Central Serbia;Raskrsnica
+0;19.4943,43.5519;;Central Serbia;Vrbova
+0;19.4825,43.5425;;Central Serbia;Svračinac
+0;19.4635,43.5412;;Central Serbia;Požegrmac
+0;19.4670,43.5367;;Central Serbia;Okrajak
+0;19.4792,43.5344;;Central Serbia;Zahrast
+0;19.4442,43.5414;;Central Serbia;Žirča
+0;19.4542,43.5590;;Central Serbia;Radojići
+0;19.4733,43.5623;;Central Serbia;Polje
+0;19.4809,43.5587;;Central Serbia;Jabuke
+0;19.4619,43.5688;;Central Serbia;Dolovi
+0;19.4658,43.5504;;Central Serbia;Ravan
+0;19.4527,43.5506;;Central Serbia;Ovcenica
+0;19.2553,43.5387;;Central Serbia;Lukova Glava
+0;19.2678,43.5394;;Central Serbia;Gornji Strojlovići
+0;19.2734,43.5426;;Central Serbia;Donji Strojlovići
+0;19.2753,43.5569;;Central Serbia;Smajlovići
+0;19.2591,43.5608;;Central Serbia;Milanovići
+0;19.2731,43.5689;;Central Serbia;Strmac
+0;19.2583,43.5739;;Central Serbia;Omladak
+0;19.2732,43.5789;;Central Serbia;Bubetići
+0;19.2539,43.5806;;Central Serbia;Slavotići
+0;19.2862,43.5708;;Central Serbia;Sinanovići
+0;19.2803,43.5875;;Central Serbia;Voskovina
+0;19.2997,43.5875;;Central Serbia;Petibor
+0;19.3043,43.5651;;Central Serbia;Podjavorje
+0;19.2716,43.5941;;Central Serbia;Čepalije
 0;19.4062,43.9622;31256;;Gaočići
 0;19.2606,43.9766;31256;;Knezovi
 0;19.2734,43.9739;31256;;Kovačevići
@@ -8219,8 +8323,11 @@
 0;19.6004,43.9217;31253;;Dračinovci
 0;19.5965,43.9414;31250;;Prlo
 0;19.5840,43.9335;31250;;Dugandžije
+0;19.5263,43.6384;;Central Serbia;Cigla
 0;19.5772,43.9474;31250;;Kolari
+0;19.5650,43.6194;;Central Serbia;Popovići
 0;19.5689,43.9417;31250;;Mala Reka
+0;19.5496,43.6193;;Central Serbia;Ljobojevici
 0;19.6339,43.6356;31317;;Ograđenica
 0;19.6422,43.6233;31317;;Omar
 0;19.6664,43.6256;31317;;Dućići
@@ -8230,6 +8337,7 @@
 0;19.7350,43.6081;31317;;Suljagići
 0;19.6831,43.6056;31317;;Donje Selo
 0;19.6031,43.6108;31317;;Ziokovici
+0;19.5039,43.6119;;Central Serbia;Jelab
 0;19.7270,43.5837;31317;;Velika Rasnica
 0;19.7167,43.5928;31317;;Tusto Brdo
 0;19.5688,43.9275;31250;;Bambaci
@@ -8254,6 +8362,8 @@
 0;19.7850,43.8839;31000;;Bakračlići
 0;19.7543,43.8816;31241;;Podstenjica
 0;19.7575,43.8887;31241;;Ševarija
+0;19.5119,43.5975;;Central Serbia;Rabrenovac
+0;19.5359,43.5872;;Central Serbia;Borjanice
 0;19.5593,43.5883;31317;;Luniće
 0;19.7727,43.8731;31000;;Vrela
 0;19.7555,43.8705;31311;;Utrina
@@ -8280,12 +8390,17 @@
 0;19.6050,43.5722;31317;;Sloniči
 0;19.7256,43.8581;31241;;Stamenići
 0;19.5833,43.5664;31317;;Vucyinice
+0;19.5425,43.5831;;Central Serbia;Goduša
 0;19.5692,43.5630;31317;;Đuričići
 0;19.7052,43.8815;31241;;Kljajići
 0;19.5589,43.5667;31317;;Kialovac
+0;19.5464,43.5625;;Central Serbia;Poyice
 0;19.7013,43.8784;31241;;Đurići
 0;19.6916,43.8853;31241;;Rogići
 0;19.8011,43.3531;31307;;Međani
+0;19.5085,43.5633;;Central Serbia;Gradiberine
+0;19.5249,43.5497;;Central Serbia;Bare
+0;19.5326,43.5456;;Central Serbia;Ravna Livada
 0;19.6839,43.8641;31241;;Ročnjak
 0;19.6869,43.8734;31241;;Delići
 0;19.6834,43.8763;31241;;Ćosići
@@ -8297,6 +8412,8 @@
 0;19.6758,43.8694;31241;;Keserovina
 0;19.6694,43.8983;31241;;Markovići
 0;19.6608,43.8473;31241;;Omar
+0;19.5119,43.5533;;Central Serbia;Potok
+0;19.5025,43.5478;;Central Serbia;Preoil
 0;19.6763,43.8512;31241;;Banja
 0;19.6520,43.8629;31241;;Lazići
 0;19.6099,43.8832;31241;;Ljubičići
@@ -8343,7 +8460,14 @@
 0;19.5745,43.5068;31325;;Košnice
 0;19.5687,43.5204;31325;;Kalafati
 0;19.5592,43.5131;31325;;Smrekovac
+0;19.5353,43.5278;;Central Serbia;Zgarete
+0;19.5269,43.5378;;Central Serbia;Omar
+0;19.5472,43.5308;;Central Serbia;Zarkovina
+0;19.5247,43.5527;;Central Serbia;Trnovica
 0;19.5412,43.2772;31306;;Gluščevići
+0;19.5064,43.5206;;Central Serbia;Bukovac
+0;19.5032,43.5268;;Central Serbia;Grabovica
+0;19.5006,43.5114;;Central Serbia;Salipioi
 0;19.5631,43.2831;31306;;Kijanovići
 0;19.5658,43.2811;31306;;Kleče
 0;19.5609,43.3071;31306;;Duge Njive
@@ -8444,6 +8568,7 @@
 0;19.8825,43.5225;31319;;Čolanići
 0;19.8912,43.5181;31319;;Goronjići
 0;19.7317,43.8394;31311;;Jeremići
+0;19.5085,43.5074;;Central Serbia;Pribojska Goleša
 0;19.5531,43.4994;31325;;Rudina
 0;19.5727,43.4837;31325;;Gradina
 0;19.8498,43.5224;31318;;Leševići
@@ -8529,14 +8654,24 @@
 0;19.6914,43.9504;31253;;Radojevići
 0;19.7319,43.4642;31325;;Dražan
 0;19.7392,43.4719;31325;;Sokolova
+0;19.3557,43.4365;;Central Serbia;Vukosavići
 0;19.6750,43.8906;31241;;Janići
 0;19.6297,43.8911;31241;;Tomići
 0;19.7099,43.7379;31315;;Palisat
 0;19.6183,43.8633;31241;;Đenadići
 0;19.6158,43.5384;31325;;Orašac
 0;19.7911,43.8622;31000;;Panići
+0;19.2755,43.4658;;Central Serbia;Zaglavica
+0;19.2977,43.4511;;Central Serbia;Lokva
+0;19.2985,43.4684;;Central Serbia;Čudovo
+0;19.3163,43.4550;;Central Serbia;Žin
 0;19.7440,43.8611;31241;;Stapari
+0;19.3257,43.4566;;Central Serbia;Klađe
 0;19.7444,43.8572;31311;;Gredljevići
+0;19.3368,43.4676;;Central Serbia;Gođešina
+0;19.3502,43.4716;;Central Serbia;Kneževa Rijeka
+0;19.3470,43.4453;;Central Serbia;Bećirovina
+0;19.3640,43.4507;;Central Serbia;Glog
 0;19.6128,43.8336;31242;;Selakovići
 0;19.7959,43.9767;31262;;Tupaići
 0;19.5930,43.4969;31325;;Pod
@@ -8566,11 +8701,32 @@
 0;19.6107,43.9465;31250;;Mačonik
 0;19.5967,43.9540;31250;;Komušine
 0;19.6025,43.9472;31250;;Stamenići
+0;19.3754,43.4640;;Central Serbia;Lisine
+0;19.3878,43.4629;;Central Serbia;Zalužnica
+0;19.3996,43.4603;;Central Serbia;Baćine
 0;19.3986,43.4543;31306;;Dubrave
 0;19.4053,43.4454;31306;;Klupci
+0;19.4083,43.4654;;Central Serbia;Bare
 0;19.4625,43.4628;31306;;Ožalj
 0;19.5954,43.3820;31300;;Orovac
 0;19.6284,43.3748;31300;;Čadinje
+0;19.3331,43.4909;;Central Serbia;Ratkovići
+0;19.4569,43.4972;;Central Serbia;Rastina
+0;19.4494,43.4945;;Central Serbia;Pećina
+0;19.4324,43.4934;;Central Serbia;Podožalj
+0;19.3950,43.4844;;Central Serbia;Zastijenje
+0;19.3541,43.4978;;Central Serbia;Dolovi
+0;19.3390,43.4982;;Central Serbia;Kula
+0;19.3356,43.4931;;Central Serbia;Ocrkavlje
+0;19.3222,43.4858;;Central Serbia;Cerovača
+0;19.3219,43.4911;;Central Serbia;Okruglica
+0;19.3150,43.4839;;Central Serbia;Gornji Krajčinovići
+0;19.2956,43.4875;;Central Serbia;Rajčevići
+0;19.2750,43.4885;;Central Serbia;Repci
+0;19.2609,43.4926;;Central Serbia;Lapovići
+0;19.2518,43.4953;;Central Serbia;Ljubenkovići
+0;19.2455,43.4857;;Central Serbia;Podosoje
+0;19.2385,43.4960;;Central Serbia;Bukovik
 0;19.5825,43.9125;31250;;Rabasovici
 0;19.6505,43.3951;31300;;Vakuf
 0;19.6411,43.3838;31300;;Šarampov
@@ -8585,6 +8741,8 @@
 0;19.5952,43.3240;31306;;Boljani
 0;19.5968,43.3109;31306;;Svojčevo
 0;19.6056,43.3053;31306;;Gurdići
+0;19.5156,43.5736;;Central Serbia;Vinogradine
+0;19.5133,43.5794;;Central Serbia;Redtina
 0;19.6422,43.8458;31241;;Strmac
 0;19.6229,43.3015;31300;;Ožegovići
 0;19.6199,43.2951;31306;;Javorje
@@ -8769,6 +8927,7 @@
 0;19.6128,44.6381;15232;;Šatarići
 0;19.6061,44.6442;15232;;Rakića Mala
 0;19.5546,44.5136;15234;;Gornja Sipulja
+0;19.3186,43.4836;;Central Serbia;Krajčinovići
 0;19.4072,43.4202;31306;;Krnjača
 0;19.7578,43.4642;31325;;Oštrik
 0;19.8025,43.3742;31307;;Gornje Pravoševo
@@ -8777,7 +8936,10 @@
 0;19.8499,43.4203;31320;;Smreka
 0;19.6637,43.4936;31325;;Čelice
 0;19.5507,43.3589;31306;;Zvijezd
+0;19.3386,43.4669;;Central Serbia;Plašče
 0;19.4494,43.4071;31306;;Ograde
+0;19.4683,43.4867;;Central Serbia;Potoci
+0;19.4980,43.4960;;Central Serbia;Lužina
 0;19.9187,43.4783;31322;;Borja
 0;19.9266,43.4737;31322;;Aničići
 0;19.9214,43.4972;31322;;Donje Trudovo
@@ -8787,6 +8949,7 @@
 0;19.7803,43.3608;31307;;Dobroila
 0;19.7797,43.3756;31307;;Rupčine
 0;19.9175,43.2150;36310;;Bubanje
+0;19.9136,43.1087;;Central Serbia;Crvsko
 0;19.8236,43.1203;36315;;Zabrdo
 0;19.8190,43.1379;36315;;Konatari
 1261;19.8056,43.1369;36315;;Sokolovo Brdo
@@ -9023,11 +9186,13 @@
 0;19.7881,43.7244;31208;;Golovo
 0;19.5894,43.6947;31315;;Rasevac
 0;19.5750,43.6986;31315;;Ograde
+0;19.5031,43.6097;;Central Serbia;Jelav
 0;19.5906,43.6128;31317;;Uvac
 0;19.6031,43.6108;31317;;Živkovići
 0;19.6936,43.6322;31317;;Gradac
 0;19.7923,43.5587;31317;;Negbina
 0;19.6125,43.5692;31317;;Stavići
+0;19.5358,43.5364;;Central Serbia;Velika Njiva
 0;19.5583,43.5336;31325;;Luke
 0;19.5511,43.5225;31325;;Poljanak
 0;19.6028,43.5231;31325;;Rakovići
@@ -9112,6 +9277,9 @@
 0;19.6575,44.3758;14253;;Vujičići
 0;19.6489,44.2611;14255;;Dikići
 0;19.6272,43.2608;31305;;Mataruge
+0;19.4983,43.4947;;Central Serbia;Kamenjača
+0;19.5175,43.4983;;Central Serbia;Lokvice
+0;19.5289,43.4969;;Central Serbia;Soklin
 0;19.5675,43.4994;31325;;Orašje
 0;19.5817,43.4914;31325;;Ušljivice
 0;19.6036,43.4967;31325;;Parlog
@@ -9207,6 +9375,17 @@
 0;19.6503,43.4911;31325;;Zlatarske Čelice
 0;19.5922,43.4972;31325;;Zdravac
 0;19.7653,43.4633;31320;;Prisoje
+0;19.2264,43.4858;;Central Serbia;Kolibe
+0;19.2311,43.4889;;Central Serbia;Solila
+0;19.2319,43.4981;;Central Serbia;Vrtače
+0;19.2361,43.4914;;Central Serbia;Brezov Breg
+0;19.2428,43.4983;;Central Serbia;Miloševica
+0;19.2556,43.5000;;Central Serbia;Milošići
+0;19.2822,43.4797;;Central Serbia;Begova Luka
+0;19.2878,43.4744;;Central Serbia;Novi Varoš
+0;19.3044,43.4886;;Central Serbia;Zaseoci
+0;19.3383,43.4978;;Central Serbia;Polje
+0;19.2564,43.4839;;Central Serbia;Stupe
 0;19.4401,43.3420;31306;;Mijajlovica
 0;19.4756,43.3931;31306;;Gornje Babine
 0;19.3889,43.4194;31306;;Busara
@@ -9221,7 +9400,20 @@
 0;19.4153,43.4411;31306;;Vrelo
 0;19.3956,43.4269;31306;;Bare
 0;19.3797,43.4308;31306;;Zagvožđe
+0;19.3425,43.4392;;Central Serbia;Bijela Voda
+0;19.2947,43.4469;;Central Serbia;Zagora
+0;19.2925,43.4539;;Central Serbia;Ritošići
+0;19.3333,43.4497;;Central Serbia;Nakrajnica
+0;19.3347,43.4581;;Central Serbia;Ćetkovina
+0;19.3633,43.4925;;Central Serbia;Vrba
+0;19.3594,43.4847;;Central Serbia;Lipa
+0;19.3648,43.4715;;Central Serbia;Plašče
+0;19.3564,43.4944;;Central Serbia;Kulize
+0;19.3772,43.4839;;Central Serbia;Lokvice
+0;19.3825,43.4794;;Central Serbia;Ostojići
+0;19.3928,43.4736;;Central Serbia;Kula
 0;19.4186,43.4694;31306;;Donje Selo
+0;19.2661,43.4853;;Central Serbia;Zaostro
 0;19.5978,44.5764;15233;;Dukića Mala
 25000;22.2570,43.5663;19350;;Knjaževac
 8;22.1894,42.5519;17543;;Drcinci

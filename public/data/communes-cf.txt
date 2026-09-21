@@ -998,6 +998,7 @@
 0;26.1871,5.2649;CF-05;Haut-Mbomou;Kazima
 0;22.0947,4.3820;CF-08;Mbomou;Kazangba
 0;23.1000,5.1667;CF-08;Mbomou;Kazanga
+0;21.6500,4.3000;CF;;Kazanga
 0;23.2597,4.8390;CF-08;Mbomou;Kaymba
 0;20.2167,4.9167;CF-11;Ouaka;Kaya
 0;20.7585,5.8209;CF-11;Ouaka;Kateyo
@@ -1256,6 +1257,7 @@
 0;21.9689,5.9691;CF-03;Haute-Kotto;Fakoulé
 0;21.9317,6.5441;CF-03;Haute-Kotto;Fakengué
 0;22.0488,4.7127;CF-08;Mbomou;Fadama
+0;27.4662,5.0708;CF;;Ezo
 0;23.4167,4.8667;CF-08;Mbomou;Ezegui
 0;23.2115,6.7290;CF-03;Haute-Kotto;Essé
 0;21.1333,6.5000;CF-11;Ouaka;Enguelé II
@@ -1658,6 +1660,7 @@
 0;20.3454,8.0807;CF-01;Bamingui-Bangoran;Bangoran
 0;22.7938,4.7396;CF-08;Mbomou;Bangondé
 0;22.8715,4.8702;CF-08;Mbomou;Bangolo
+0;20.1167,4.5333;CF;;Bangolo
 0;21.7639,5.3181;CF-02;Basse-Kotto;Bango
 0;21.8167,5.3000;CF-02;Basse-Kotto;Bango
 0;21.7902,5.1998;CF-02;Basse-Kotto;Bango
@@ -2124,6 +2127,7 @@
 0;17.7226,6.8774;CF-20;Ouham-Fafa;Yakamona
 0;18.2433,4.1289;CF-07;Lobaye;Yaka
 0;18.8167,4.5833;CF-17;Ombella-M'Poko;Yaji II
+0;18.8229,4.5535;CF;;Yaji I
 0;19.8685,5.7621;CF-11;Ouaka;Yagou
 0;14.9038,5.8154;CF-09;Nana-Mambéré;Yagbé
 0;19.1650,6.8481;CF-15;Nana-Grébizi;Yagarandji
@@ -2441,6 +2445,7 @@
 0;17.5244,7.1766;CF-20;Ouham-Fafa;Pama
 0;16.8167,4.5167;CF-19;Mambéré;Pama
 0;16.3667,4.4167;CF-19;Mambéré;Pama
+0;18.9598,4.7156;CF;;Palombo
 0;19.7980,5.6442;CF-11;Ouaka;Palingou
 0;16.1323,6.8234;CF-21;Lim-Pendé;Palanday
 0;15.8894,7.0657;CF-13;Ouham-Pendé;Palampana
@@ -2562,6 +2567,7 @@
 0;14.8148,6.1878;CF-09;Nana-Mambéré;Ngiwa
 0;15.2075,3.9451;CF-04;Mambéré-Kadéï;Ngilé
 0;19.7716,5.1428;CF-06;Kémo;Ngavoro
+0;19.3167,5.0500;CF;;Ngapo
 0;15.6052,7.4780;CF-21;Lim-Pendé;Gaoundaye
 0;15.6167,7.3167;CF-21;Lim-Pendé;Ngaoundaye I
 0;18.3167,6.5333;CF-20;Ouham-Fafa;Ngao
@@ -2746,6 +2752,7 @@
 0;18.6000,5.0667;CF-17;Ombella-M'Poko;Mbanda
 0;15.8473,7.2159;CF-21;Lim-Pendé;Mbana
 0;15.6501,3.4093;CF-16;Sangha-Mbaéré;Mbamina
+0;19.3333,5.0500;CF;;Mbamba
 0;16.0088,7.0680;CF-21;Lim-Pendé;Mbam
 0;17.0000,7.6333;CF-12;Ouham;Mbali
 0;17.0103,7.5600;CF-12;Ouham;Mbal
@@ -2794,6 +2801,7 @@
 0;16.1831,6.4368;CF-13;Ouham-Pendé;Manga
 0;15.9280,6.7555;CF-13;Ouham-Pendé;Maneké
 0;15.7976,4.6639;CF-04;Mambéré-Kadéï;Mandobo
+0;18.8179,4.5356;CF;;Mandamourou
 0;17.0255,7.6273;CF-12;Ouham;Manda
 0;16.3188,4.2594;CF-04;Mambéré-Kadéï;Mamvoula
 0;16.0551,7.4102;CF-21;Lim-Pendé;Mambourou
@@ -2884,6 +2892,7 @@
 0;16.3000,3.0667;CF-16;Sangha-Mbaéré;Layobe
 0;19.4482,5.7745;CF-06;Kémo;Laoua
 0;16.1253,6.8173;CF-21;Lim-Pendé;Lataya
+0;15.8500,7.4667;CF;;Latal
 0;19.4167,6.1833;CF-06;Kémo;Lasoubou
 0;15.4450,7.3176;CF-21;Lim-Pendé;Lara
 0;15.7545,7.2389;CF-21;Lim-Pendé;Lara
@@ -3040,6 +3049,7 @@
 0;17.4641,4.0738;CF-07;Lobaye;Keningué
 0;17.6289,4.0359;CF-07;Lobaye;Keningué
 0;17.4291,3.8995;CF-07;Lobaye;Keningué
+0;18.8015,4.4609;CF;;Kembé
 0;15.7406,7.2149;CF-21;Lim-Pendé;Kellé
 0;18.3333,3.6833;CF-07;Lobaye;Kelinga
 0;15.5578,7.0812;CF-21;Lim-Pendé;Kelé
@@ -3273,6 +3283,7 @@
 0;19.2333,5.1167;CF-06;Kémo;Gigi
 0;19.2500,5.0333;CF-06;Kémo;Gigi
 0;19.7500,6.0167;CF-11;Ouaka;Gibada
+0;23.9167,4.9500;CF;;Giangba
 0;15.3000,7.0833;CF-21;Lim-Pendé;Ghawe
 0;19.1167,6.1333;CF-06;Kémo;Gémé
 0;14.8138,6.1398;CF-09;Nana-Mambéré;Gédzé
@@ -3281,6 +3292,7 @@
 0;16.5000,4.8167;CF-19;Mambéré;Gbandé
 0;18.5234,5.1185;CF-17;Ombella-M'Poko;Gbakoulou
 0;19.1167,6.6667;CF-15;Nana-Grébizi;Gbairi
+0;18.9391,4.6827;CF;;Gbaguila
 0;19.6777,5.1599;CF-06;Kémo;Gbadrou-Kandjia
 0;16.6903,5.5936;CF-17;Ombella-M'Poko;Gbadissi
 0;17.8833,5.6167;CF-17;Ombella-M'Poko;Gbadéré
@@ -3507,6 +3519,7 @@
 0;16.0820,7.4737;CF-21;Lim-Pendé;Denguema
 0;19.2000,6.9000;CF-15;Nana-Grébizi;Dengémo
 0;19.2500,6.7833;CF-15;Nana-Grébizi;Denga
+0;15.8167,7.4500;CF;;Deng
 0;19.1925,7.0266;CF-15;Nana-Grébizi;Dambi
 0;16.2737,4.9792;CF-19;Mambéré;Dembateké
 0;15.1796,3.9808;CF-04;Mambéré-Kadéï;Demba
@@ -4419,6 +4432,7 @@
 0;17.9167,5.0167;CF-17;Ombella-M'Poko;Bobayen
 0;17.0965,6.9243;CF-12;Ouham;Bobaye
 0;16.6264,6.9035;CF-21;Lim-Pendé;Bobaya
+0;18.7856,4.4314;CF;;Bobaya
 0;15.9264,6.1670;CF-13;Ouham-Pendé;Bobatoya
 0;17.5567,6.4049;CF-12;Ouham;Bobatoua
 0;18.3500,6.2833;CF-20;Ouham-Fafa;Bobatoua
@@ -4505,6 +4519,7 @@
 0;15.7182,7.4510;CF-21;Lim-Pendé;Bissemi
 0;15.8670,3.4306;CF-16;Sangha-Mbaéré;Bilolo
 0;16.9936,7.2930;CF-12;Ouham;Bili
+0;14.7000,4.6833;CF;;Bilemo
 0;15.8255,7.4372;CF-21;Lim-Pendé;Bi Lara
 0;16.1418,6.7660;CF-21;Lim-Pendé;Bilagaré
 0;19.5454,6.1012;CF-06;Kémo;Bila
@@ -4528,6 +4543,7 @@
 0;18.0469,7.2071;CF-20;Ouham-Fafa;Bézanga
 0;16.4395,7.2783;CF-21;Lim-Pendé;Beyokara
 0;15.9547,4.4141;CF-04;Mambéré-Kadéï;Beya-Boshobo
+0;14.9667,4.4167;CF;;Beya Basobo
 0;15.9167,4.4167;CF-04;Mambéré-Kadéï;Beya-Bashobo
 0;16.1931,3.2972;CF-16;Sangha-Mbaéré;Béya
 0;15.2155,5.8240;CF-09;Nana-Mambéré;Bewiti
@@ -4833,6 +4849,7 @@
 0;19.4976,5.7892;CF-06;Kémo;Banga
 0;19.8780,5.0798;CF-06;Kémo;Banga
 0;14.7277,4.6990;CF-04;Mambéré-Kadéï;Banga
+0;18.8904,4.6446;CF;;Banga
 0;17.0953,4.1358;CF-07;Lobaye;Banga
 0;16.1130,4.0583;CF-04;Mambéré-Kadéï;Banga
 0;15.5399,7.4775;CF-21;Lim-Pendé;Bang
@@ -4855,6 +4872,7 @@
 0;15.5911,5.0825;CF-09;Nana-Mambéré;Banding
 0;16.1258,5.6123;CF-09;Nana-Mambéré;Bandin
 0;15.1580,4.0362;CF-04;Mambéré-Kadéï;Bandiforo
+0;18.8112,4.4968;CF;;Bandi
 0;17.6160,5.5317;CF-17;Ombella-M'Poko;Banengé
 0;17.1117,5.0330;CF-07;Lobaye;Banengé
 0;18.2000,5.0167;CF-17;Ombella-M'Poko;Bandengué

@@ -8157,7 +8157,7 @@
 0;8.9187,45.9916;6925;Lugano District;Viglio
 0;8.8846,45.9914;6991;Lugano District;Ronchetto
 0;8.8778,45.9893;6991;Lugano District;Ronchettone
-0;8.8418,45.9885;6981;Lugano District;Opera castellana del Castello di Croglio
+0;8.8418,45.9885;6981;Lugano District;Croglio
 0;8.8639,45.9880;6984;Lugano District;Selva
 0;8.9122,45.9879;6926;Lugano District;Cantonetto
 0;8.9847,45.9873;6823;Lugano District;Cantine di Caprino
@@ -11413,3 +11413,4 @@
 0;9.3060,47.5592;8580;Arbon District;Hefenhofen
 0;8.1922,46.7174;6085;Interlaken-Oberhasli District;Schattenalb
 0;9.8338,46.5011;7505;Region Maloja;Chantarella
+0;9.0122,45.8643;;Ticino;Obino

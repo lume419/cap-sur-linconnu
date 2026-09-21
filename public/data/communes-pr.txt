@@ -118,6 +118,7 @@
 0;-65.8632,18.1836;00771;Las Piedras;Barriada La Rivera
 0;-66.1068,17.9733;00784;Guayama;Barriada Marin
 0;-66.4063,17.9658;00757;Santa Isabel;Barriada Monserrate
+0;-65.4513,18.1311;;Vieques;Barriada Monte Santo
 0;-66.1604,18.1130;00736;Cayey;Barriada Polvorin
 0;-66.7196,18.1591;00601;Adjuntas;Barriada Rodriguez
 0;-66.3568,18.0766;00769;Coamo;Barriada Sambrana
@@ -347,6 +348,8 @@
 0;-66.6221,18.1983;00664;Jayuya;Collores
 0;-66.5416,18.0922;00780;Juana Díaz;Collores
 0;-67.1407,18.2641;00610;Mayagüez;Colonia Dolores
+0;-65.4427,18.1213;;Vieques;Colonia Luján
+0;-65.4815,18.1105;;Vieques;Colonia Puerto Real
 0;-67.1602,18.3819;00602;Aguada;Coloso
 0;-65.9065,18.0044;00707;Maunabo;Columbia
 0;-67.1516,18.1986;00680;Mayagüez;Columbus Landing
@@ -440,6 +443,7 @@
 0;-67.1557,18.1030;00623;Cabo Rojo;Delicias
 0;-66.0452,18.4013;00978;San Juan;Delicias
 0;-66.4346,18.0064;00757;Santa Isabel;Descalabrado
+0;-65.4363,18.1283;;Vieques;Destino
 0;-65.8560,18.3833;00745;Río Grande;Desvío Dolores
 0;-66.5105,18.1619;00766;Orocovis;Divisoria
 0;-65.9599,18.1888;00754;San Lorenzo;Dolores Gonzales Diaz Don Lolo
@@ -542,6 +546,7 @@
 0;-65.6885,18.2197;00718;Naguabo;Esperanza
 0;-66.5741,17.9950;00715;Ponce;Esperanza
 0;-66.2568,17.9627;00704;Salinas;Esperanza
+1092;-65.4707,18.0972;;Vieques;Esperanza
 1422;-67.1193,18.2763;00610;Añasco;Espino
 0;-66.3188,18.4152;00692;Vega Alta;Espinosa
 0;-65.7074,18.2069;00718;Naguabo;Estación Botija
@@ -672,6 +677,7 @@
 0;-66.8241,18.1566;00631;Yauco;Hacienda Arbela
 0;-66.5385,18.0875;00780;Juana Díaz;Hacienda Arbona
 0;-66.6196,18.1008;00780;Ponce;Hacienda Arbona
+0;-65.5210,18.1247;;Vieques;Hacienda Arcadia
 0;-66.7382,18.2461;00641;Utuado;Hacienda Artau
 0;-66.8316,18.1636;00631;Yauco;Hacienda Asunción
 0;-66.9788,18.1888;00606;Maricao;Hacienda Balare
@@ -901,6 +907,7 @@
 0;-66.1546,18.3572;00965;Bayamón;Irlanda
 0;-66.1460,18.3530;00965;Bayamón;Irlanda Heights
 0;-67.1266,18.1044;00623;Cabo Rojo;Isabel Josefa
+9301;-65.4427,18.1491;;Vieques;Isabel Segunda
 12505;-67.0243,18.5008;00662;Isabela;Isabela
 0;-65.6418,18.3391;00738;Fajardo;Isidra
 0;-67.1085,18.3736;00676;Moca;Isleta
@@ -1360,6 +1367,8 @@
 0;-67.1269,18.0377;00622;Cabo Rojo;Morales Díaz
 2414;-66.4066,18.3258;00687;Morovis;Morovis
 0;-66.6349,18.0147;00716;Ponce;Morel Campos
+0;-65.4327,18.1486;;Vieques;Moscou
+0;-65.5196,18.1258;;Vieques;Mosquito
 1690;-66.2160,18.3908;00953;Toa Alta;Mucarabones
 0;-66.6136,17.9660;00716;Ponce;Muelle de Ponce
 0;-66.0904,18.1755;00739;Caguas;Muñoz Grillo
@@ -1522,6 +1531,7 @@
 0;-66.1727,18.4333;00952;Toa Alta;Pradera
 0;-65.9899,18.3438;00976;Trujillo Alto;Primavera
 0;-66.0035,17.9875;00723;Patillas;Providencia
+0;-65.4577,18.1358;;Vieques;Proyecto Barracón
 0;-66.9674,18.4338;00678;Isabela;Pueblito de Ponce
 1481;-65.8629,18.2280;00771;Las Piedras;Pueblito del Rio
 0;-67.1466,18.0894;00623;Cabo Rojo;Pueblo Norte
@@ -1867,6 +1877,7 @@
 0;-66.6179,18.0041;00716;Ponce;Santa María
 0;-66.9574,18.0739;00637;Sabana Grande;Santa María
 0;-66.0868,18.3761;00965;San Juan;Santa María
+0;-65.4321,18.1522;;Vieques;Santa María
 0;-66.7930,18.0288;00656;Guayanilla;Santa Maria
 0;-67.0291,18.0794;00683;San Germán;Santa Marta
 0;-66.1741,18.3905;00956;Bayamón;Santa Mónica
@@ -2331,6 +2342,7 @@
 0;-65.8495,18.0369;00767;Yabucoa;El Negro Comunidad
 0;-66.3918,18.0038;00757;Santa Isabel;El Ojo Comunidad
 0;-65.8830,18.0015;00707;Maunabo;Emajagua Comunidad
+0;-65.4797,18.1023;;Vieques;Esperanza Comunidad
 0;-67.1193,18.2761;00610;Añasco;Espino Comunidad
 0;-66.4276,18.3401;00687;Morovis;Fránquez Comunidad
 0;-66.9171,17.9857;00653;Guánica;Fuig Comunidad
@@ -2385,6 +2397,7 @@
 0;-66.7049,18.2697;00641;Utuado;Utuado Zona Urbana
 0;-66.3212,18.4152;00692;Vega Alta;Vega Alta Zona Urbana
 0;-66.3993,18.4411;00693;Vega Baja;Vega Baja Zona Urbana
+0;-65.4448,18.1466;;Vieques;Vieques Zona Urbana
 0;-66.4815,18.1279;00766;Villalba;Villalba Zona Urbana
 0;-65.8792,18.0469;00767;Yabucoa;Yabucoa Zona Urbana
 0;-66.8614,18.0344;00698;Yauco;Yauco Zona Urbana

@@ -1,4 +1,5 @@
 0;-13.4001,12.5792;GN-B;Boké Region;Ousson
+0;-10.7308,9.0836;GN;;Timbekundu
 0;-10.6149,9.0727;GN-F;Faranah;Korodiakoro
 0;-13.4500,12.5333;GN-B;Boké Region;Kaporabina
 0;-9.8067,8.6972;GN-N;Nzérékoré Region;Zoupoïzéba

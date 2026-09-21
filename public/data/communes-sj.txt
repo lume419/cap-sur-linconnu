@@ -6,3 +6,6 @@
 0;-8.6380,70.9498;8099;Jan Mayen;Jan Mayen
 14;-8.7187,70.9221;8099;Jan Mayen;Olonkinbyen
 35;11.9250,78.9237;9173;Svalbard;Ny-Ålesund
+12;15.5500,77.0000;;;Hornsund
+9;18.9150,74.5006;;Svalbard;Herwighamma
+4;24.9380,76.4774;;;Hopen Radio

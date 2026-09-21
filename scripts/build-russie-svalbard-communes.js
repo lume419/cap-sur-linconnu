@@ -130,13 +130,15 @@ for(const country of COUNTRIES){
         if(hit){ near = hit; parNom++; break; }
       }
     }
-    if(!near){ sansCode++; return null; }
+      // CODE POSTAL FACULTATIF (21/09/2026) : le lieu était ÉCARTÉ ici faute de point postal exploitable. Le code
+      // postal aide à retrouver sa ville, il ne décide pas si elle existe : le lieu est publié avec un code VIDE.
+    if(!near) sansCode++;
     const region = admin1Names.get(country + '.' + p.admin1) || '';
-    return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${near.postcode};${region};${p.name}`;
+    return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${near ? near.postcode : ''};${region};${p.name}`;
   }).filter(Boolean);
 
   const out = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');
   fs.writeFileSync(out, dropNearDuplicates(lines).join('\n') + '\n', 'utf8'); // quasi-doublons (voir communes-corrections.js)
   console.log(country + ' : ' + places.length + ' bruts -> ' + deduped.length + ' dédoublonnés -> ' + lines.length +
-    ' avec code postal (dont ' + parNom + ' rattachés par nom ; ' + sansCode + ' écartés sans code)');
+    ' publiés (dont ' + parNom + ' rattachés par nom ; ' + sansCode + ' sans code postal)');
 }

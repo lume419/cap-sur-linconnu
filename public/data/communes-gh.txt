@@ -325,12 +325,14 @@
 0;0.4569,6.9173;GH-08;Volta;Wuinta
 0;0.3357,6.3010;GH-08;Volta;Wuho
 0;-2.7697,10.3655;GH-11;Upper West;Wuchema
+0;0.5570,6.9821;GH;;Wudome
 0;0.2499,6.5390;GH-08;Volta;Wudome
 0;0.6848,6.3495;GH-08;Volta;Wudjerike
 0;0.3628,7.1163;GH-08;Volta;Wudidi
 0;0.6150,6.3713;GH-08;Volta;Wudede
 0;0.5833,6.4333;GH-08;Volta;Wubanya
 0;-1.6974,6.0841;GH-02;Ashanti;Wumase
+0;-1.4798,5.0516;GH;;Wuagyan
 0;1.0369,6.0395;GH-08;Volta;Wowekofe
 0;-0.7551,9.4636;GH-06;Northern;Wovogel
 0;-1.5923,6.6200;GH-02;Ashanti;Woti
@@ -533,6 +535,7 @@
 0;0.8833,6.2333;GH-08;Volta;Vojalogwi
 0;0.0973,6.1518;GH-08;Volta;Vojakpe
 0;-1.0352,9.5331;GH-06;Northern;Voggo
+0;1.0133,5.9528;GH;;Vodza
 0;0.4476,6.5421;GH-08;Volta;Vodje
 0;1.0201,6.2540;GH-08;Volta;Vitokofe
 0;-0.8018,9.3811;GH-06;Northern;Vitin
@@ -633,10 +636,12 @@
 0;0.7803,5.9067;GH-08;Volta;Tsrekume
 0;0.4167,6.7333;GH-08;Volta;Tsome
 0;0.2500,6.7000;GH-08;Volta;Tsoho
+0;0.8000,6.4333;GH;;Tsiwi
 0;0.2860,6.5393;GH-08;Volta;Tsito
 0;0.3833,6.7167;GH-08;Volta;Tsiranumu
 0;0.4602,7.3303;GH-16;Oti;Tsirahi
 0;0.7108,5.9060;GH-08;Volta;Tsinyuito
+0;0.9833,5.8333;GH;;Tsinyokofe
 0;0.9333,6.3000;GH-08;Volta;Tsinuti
 0;0.2540,6.8091;GH-08;Volta;Tsikoe
 0;0.5000,6.7833;GH-08;Volta;Tsikoe
@@ -878,6 +883,7 @@
 0;-0.8167,10.6833;GH-10;Upper East;Tenzugu
 0;-0.1669,10.4482;GH-15;North East;Tenzia
 0;-0.4047,10.0435;GH-06;Northern;Tenyeli
+0;0.1333,5.7167;GH;;Tenkpobo
 0;-0.7507,10.4243;GH-15;North East;Tenkpanga
 0;0.6500,6.1833;GH-08;Volta;Tenfaw
 0;-0.2333,5.9667;GH-05;Eastern;Tendurasi
@@ -1462,6 +1468,7 @@
 0;-0.5281,10.8105;GH-10;Upper East;Sawko
 0;-0.2667,10.7667;GH-10;Upper East;Sawiegu
 0;-1.5383,6.6250;GH-02;Ashanti;Sawia
+0;0.1500,5.7167;GH;;Sawekope
 0;-1.7549,5.8897;GH-04;Central;Sobrosso
 0;-1.7167,8.1167;GH-14;Bono East;Sawboi
 40654;-0.8270,9.6238;GH-06;Northern;Savelugu
@@ -1989,6 +1996,7 @@
 0;-1.7909,6.9323;GH-02;Ashanti;Atuntuma
 0;-0.9108,6.2176;GH-05;Eastern;Otumi
 0;-0.3904,5.7142;GH-01;Greater Accra;Otuaple
+0;0.6176,5.7743;GH;;Otropoe
 0;-0.1167,6.2500;GH-05;Eastern;Otrokpe
 0;-0.2833,5.8500;GH-05;Eastern;Otopokwamikrom
 0;-2.1689,6.5477;GH-02;Ashanti;Otaakurom
@@ -2365,6 +2373,7 @@
 0;-0.4002,5.6752;GH-01;Greater Accra;Obakrowe
 0;-2.7497,5.0313;GH-09;Western;Nzurikeino
 0;-2.5979,5.0208;GH-09;Western;Nzurazo
+0;-3.0167,5.0667;GH;;Nzimitienu
 0;-2.5757,5.6587;GH-09;Western;Nzadiapra
 0;-2.1044,4.9164;GH-09;Western;Nyubasa
 0;-0.2848,11.0289;GH-10;Upper East;Nyorigu
@@ -2929,6 +2938,7 @@
 0;-1.8579,6.8030;GH-02;Ashanti;Nfakanfahu
 0;-0.7000,5.6833;GH-04;Central;Nfahia
 0;-0.6833,5.6667;GH-04;Central;Nfahia
+0;-3.0833,5.0833;GH;;Newtown
 0;-1.8149,5.7231;GH-09;Western;Newtonkrom
 30380;-1.6119,6.7190;GH-02;Ashanti;New Tafo
 0;0.2833,7.7333;GH-16;Oti;New Otiso
@@ -3235,6 +3245,7 @@
 0;-0.1163,11.0110;GH-10;Upper East;Morgo
 0;-0.0662,10.5178;GH-15;North East;Munweneohedi
 0;-0.6052,6.4854;GH-05;Eastern;Munsia
+0;-0.6667,5.3167;GH;;Munianu
 0;-1.2500,9.6333;GH-06;Northern;Munia
 0;-2.7479,5.2009;GH-09;Western;Mungraw
 0;-0.8559,5.2094;GH-04;Central;Muna
@@ -3341,6 +3352,7 @@
 0;-0.1375,6.8228;GH-05;Eastern;Mopti
 0;-1.6915,6.3564;GH-02;Ashanti;Mopawta
 0;-1.5646,6.9435;GH-02;Ashanti;Montasua
+0;-2.9000,5.1333;GH;;Monou
 0;-1.6000,10.6667;GH-11;Upper West;Monojan
 0;-0.0018,7.9322;GH-16;Oti;Monkra
 0;-1.4500,10.1000;GH-17;Savannah;Monja
@@ -3544,6 +3556,7 @@
 0;-0.0333,5.8500;GH-01;Greater Accra;Mankese
 0;-1.5849,6.8945;GH-02;Ashanti;Mankawnahugono
 0;-1.2824,10.0302;GH-17;Savannah;Mankarigu
+0;-3.0333,5.0667;GH;;Manjia
 0;-0.2324,10.1467;GH-06;Northern;Manie
 0;0.0521,10.0910;GH-06;Northern;Manie
 0;0.0631,6.3579;GH-05;Eastern;Maniayoiyim
@@ -4139,6 +4152,7 @@
 0;-1.3932,10.9461;GH-10;Upper East;Kudu
 0;0.4066,7.4569;GH-16;Oti;Kudje
 0;-0.1040,10.4721;GH-15;North East;Kudjawen
+0;1.1833,6.1000;GH;;Kudaokofe
 0;0.3359,10.1967;GH-15;North East;Kudani
 0;-0.0833,10.0167;GH-06;Northern;Kudali
 0;0.8667,6.0500;GH-08;Volta;Kuchiyi
@@ -4288,6 +4302,7 @@
 0;0.5520,6.2332;GH-08;Volta;Kpedzeglo
 0;0.4958,6.8401;GH-08;Volta;Kpedze
 0;0.8972,6.3126;GH-08;Volta;Kpedome
+0;0.8346,6.3924;GH;;Kpedohoe
 0;0.6833,6.4667;GH-08;Volta;Kpedekpo
 0;0.1255,10.3561;GH-15;North East;Kpebongo
 0;0.1833,6.8000;GH-08;Volta;Kpebe
@@ -4432,6 +4447,7 @@
 0;-1.2488,7.9539;GH-14;Bono East;Komfokrom
 0;0.1000,6.5667;GH-05;Eastern;Komfoama
 0;-1.6874,5.0230;GH-09;Western;Komfeku
+0;-1.4886,5.0486;GH;;Komenda
 0;-0.1667,10.3833;GH-15;North East;Kome
 0;0.5341,6.0288;GH-08;Volta;Kome
 0;-1.0500,9.5667;GH-06;Northern;Kombonayili
@@ -4592,6 +4608,7 @@
 0;1.1218,6.1319;GH-08;Volta;Klukpe
 0;-0.0718,10.0331;GH-06;Northern;Klukpanga
 0;0.0198,9.5355;GH-06;Northern;Klukpanga
+0;0.5804,6.8031;GH;;Klukofe
 0;0.1787,9.6091;GH-06;Northern;Klugbani
 0;-2.6561,9.4296;GH-17;Savannah;Kuluwon
 0;-0.1000,10.6833;GH-15;North East;Klopuatek
@@ -4651,6 +4668,7 @@
 0;0.4000,6.0500;GH-08;Volta;Kekwo
 0;0.5333,6.9000;GH-08;Volta;Kekenikekofe
 0;-1.2275,5.6733;GH-04;Central;Kehienkodu
+0;1.0255,5.9692;GH;;Kedzi
 0;0.3961,8.2013;GH-16;Oti;Kedjebi
 0;-0.8569,9.9070;GH-06;Northern;Kedia
 0;-0.3000,8.5000;GH-17;Savannah;Kdieresu
@@ -4770,6 +4788,7 @@
 0;-1.5945,6.9496;GH-02;Ashanti;Kankamkrom
 0;-0.9455,10.4278;GH-15;North East;Kankadina
 0;-2.3595,8.1523;GH-13;Bono;Kanka
+0;-1.4000,5.0500;GH;;Kanka
 0;-1.3702,10.5105;GH-10;Upper East;Kanjaga
 0;-1.7388,5.8405;GH-04;Central;Kanigufo
 0;-2.6632,10.8397;GH-11;Upper West;Kongwoli
@@ -5116,6 +5135,7 @@
 0;-0.1444,10.3235;GH-15;North East;Jagogo
 0;-0.2686,10.2715;GH-06;Northern;Jagogo
 0;0.1667,9.7833;GH-06;Northern;Jagere
+0;0.3746,9.8534;GH;;Jagaba
 0;-2.3223,5.7541;GH-09;Western;Jadukrom
 0;-1.2120,7.0912;GH-02;Ashanti;Jadiako
 0;0.3667,6.0333;GH-08;Volta;Jadankaw
@@ -5227,6 +5247,7 @@
 0;0.5707,6.3269;GH-08;Volta;Hlave
 0;0.6500,6.0167;GH-08;Volta;Hirenve
 0;-1.5723,6.3670;GH-02;Ashanti;Hinimang
+0;-1.0167,5.2000;GH;;Hini
 0;-1.6716,6.6447;GH-02;Ashanti;Heman
 0;-1.9512,4.8592;GH-09;Western;Himakrom
 0;0.7000,6.1167;GH-08;Volta;Hihirape
@@ -5375,6 +5396,7 @@
 0;-2.5766,9.6834;GH-11;Upper West;Gurungu
 0;-0.2333,8.1833;GH-16;Oti;Guibi
 0;-0.2796,5.5196;GH-01;Greater Accra;Grefi
+0;-1.1000,5.1833;GH;;Great Kromanti Low Town
 0;-1.0792,5.1990;GH-04;Central;Great Kromanti High Town
 0;-2.4157,5.3826;GH-09;Western;Grantikrom
 0;0.8667,6.1000;GH-08;Volta;Gramata
@@ -5691,6 +5713,7 @@
 0;0.8317,5.9034;GH-08;Volta;Fenyigago
 0;1.0392,6.2186;GH-08;Volta;Fenyi Achagome
 0;-1.7324,6.1702;GH-02;Ashanti;Fenyami
+0;0.7667,6.4333;GH;;Fefehoe
 0;-2.7828,7.8998;GH-13;Bono;Febi
 0;-1.0833,6.6167;GH-02;Ashanti;Fawutrikosie
 0;-1.7210,5.0712;GH-09;Western;Fawumaye
@@ -5846,6 +5869,7 @@
 0;-1.2500,6.2500;GH-02;Ashanti;Enikawkaw
 0;-1.6165,6.1310;GH-02;Ashanti;Enikawkaw
 0;-2.1349,5.4460;GH-09;Western;Enikawkaw
+0;-1.3333,5.0833;GH;;Eniaye
 0;-1.7307,6.9708;GH-02;Ashanti;Enianti
 0;-1.8192,5.0462;GH-09;Western;Enenide
 0;-2.8223,5.8224;GH-18;Western North;Enkye
@@ -5889,6 +5913,7 @@
 0;-2.9763,5.0814;GH-09;Western;Ejeinu
 0;-1.8557,4.8728;GH-09;Western;Ebyam
 0;-0.8561,5.2718;GH-04;Central;Ejaku Kwa
+0;-1.1000,5.1833;GH;;Ejaa
 0;-1.1052,5.1836;GH-04;Central;Eja
 0;-0.9406,5.2852;GH-04;Central;Eisam
 0;-0.9466,5.5602;GH-04;Central;Eipe
@@ -5914,6 +5939,7 @@
 0;-0.1504,6.1033;GH-05;Eastern;Efiefi
 0;-1.3978,6.8507;GH-02;Ashanti;Efiduasi
 0;-0.2650,6.1030;GH-05;Eastern;Efiduasi
+0;-1.7333,4.9167;GH;;Efia Nkwanta
 0;-1.6268,6.1794;GH-02;Ashanti;Efiamuakrom
 0;-1.7642,4.9244;GH-09;Western;Effia
 0;-3.0500,5.0833;GH-09;Western;Efesu
@@ -6068,6 +6094,7 @@
 0;-1.9913,9.8332;GH-11;Upper West;Ducie
 0;-1.2000,6.7833;GH-02;Ashanti;Dubrim
 0;-0.1833,10.3833;GH-15;North East;Duboni
+0;-3.0167,5.1167;GH;;Dublinbo
 0;-2.2266,10.6852;GH-11;Upper West;Duwie
 0;-2.1349,4.8797;GH-09;Western;Bedibesire
 0;-0.4120,5.7870;GH-05;Eastern;Duayeden
@@ -6282,6 +6309,7 @@
 0;0.2767,7.0166;GH-08;Volta;Djigbe
 0;0.4844,6.6982;GH-08;Volta;Djeve
 0;0.2629,6.9219;GH-08;Volta;Djeme
+0;0.5568,6.8477;GH;;Djelokofe
 0;0.3932,6.5464;GH-08;Volta;Djega
 0;0.8667,6.3667;GH-08;Volta;Djayime
 0;0.7336,6.3213;GH-08;Volta;Djave
@@ -6343,6 +6371,7 @@
 0;-0.0847,5.9889;GH-05;Eastern;Dewu Asaman
 0;-1.4735,6.9910;GH-02;Ashanti;Dewu
 0;-2.6808,7.8286;GH-13;Bono;Dawuri
+0;0.6500,6.7000;GH;;Devime
 0;0.9185,6.1732;GH-08;Volta;Devergu
 0;0.8013,5.9082;GH-08;Volta;Devenu
 0;0.6240,6.2794;GH-08;Volta;Deveme
@@ -6828,6 +6857,7 @@
 0;-2.1964,9.9363;GH-11;Upper West;Bulenga
 0;-1.0350,10.3481;GH-15;North East;Bulibia
 0;-1.0121,9.4860;GH-06;Northern;Bulawn
+0;-3.1167,5.1000;GH;;Bulawn
 0;-1.7795,6.2811;GH-02;Ashanti;Bukwaman
 0;-0.1000,6.2167;GH-05;Eastern;Bukuso
 0;-0.6950,6.6708;GH-05;Eastern;Bukuruwa
@@ -7159,6 +7189,7 @@
 0;0.0897,6.1412;GH-05;Eastern;Blikatako
 0;-0.6106,5.7437;GH-05;Eastern;Bleman
 0;-0.5500,5.6833;GH-04;Central;Bleman
+0;1.0346,5.9851;GH;;Blekusu
 0;-2.3198,5.3295;GH-09;Western;Blekrom
 0;0.1167,10.1667;GH-15;North East;Blebage
 0;0.7699,5.9282;GH-08;Volta;Bleamezado
@@ -7357,6 +7388,7 @@
 0;-0.9489,10.9206;GH-10;Upper East;Bembisi
 0;-1.0554,10.9978;GH-10;Upper East;Boania
 0;-2.2830,10.8683;GH-11;Upper West;Bullu
+0;-3.1000,5.0833;GH;;Belibangra
 0;-0.2650,10.9277;GH-10;Upper East;Belempiis
 0;-1.4667,9.9833;GH-17;Savannah;Bele
 0;-0.1961,10.7893;GH-10;Upper East;Gbeliginvusi
@@ -7669,6 +7701,7 @@
 0;-1.6663,6.9065;GH-02;Ashanti;Ayensua Kokoo
 0;-1.6728,6.9078;GH-02;Ashanti;Ayensuafufuo
 0;-0.6555,5.4853;GH-04;Central;Ayensuadzi
+0;-0.7500,11.0000;GH;;Ayelibia
 0;-1.1255,5.3391;GH-04;Central;Ayeldu
 0;-1.8514,6.1360;GH-02;Ashanti;Ayeim
 0;-1.5596,6.6751;GH-02;Ashanti;Ayeduase
@@ -8858,6 +8891,7 @@
 0;-1.3000,6.7000;GH-02;Ashanti;Akomnyina
 0;-0.5833,5.7167;GH-04;Central;Akomato
 0;0.7167,6.2333;GH-08;Volta;Akoli
+0;0.1167,5.6167;GH;;Akolekope
 0;-0.6877,5.6519;GH-04;Central;Akokwasa
 0;-1.1489,7.5892;GH-14;Bono East;Akokua
 0;-0.2000,5.7167;GH-01;Greater Accra;Akokome
@@ -9158,6 +9192,7 @@
 0;-2.0163,7.5712;GH-14;Bono East;Agosa
 0;0.3030,6.3994;GH-08;Volta;Agoriki
 0;0.1500,6.6667;GH-08;Volta;Agoreke
+0;0.9175,5.7858;GH;;Agopuigbo
 0;-1.4360,6.9024;GH-02;Ashanti;Agona Akrofoso
 0;-1.4891,6.9337;GH-02;Ashanti;Agona
 0;-2.1253,6.1470;GH-04;Central;Agona
@@ -9176,6 +9211,7 @@
 0;0.0163,6.1467;GH-05;Eastern;Agomanya
 0;1.1745,6.1556;GH-08;Volta;Agoli
 0;0.4106,6.7808;GH-08;Volta;Agokpo
+0;1.1036,6.0622;GH;;Agoko
 0;-1.6920,6.1547;GH-02;Ashanti;Alata Number One
 0;0.7333,6.5833;GH-08;Volta;Agohome
 0;0.3767,7.1183;GH-08;Volta;Agohoe
@@ -9229,6 +9265,7 @@
 0;0.6758,5.8077;GH-08;Volta;Agbletokwei
 0;-0.0500,5.6167;GH-01;Greater Accra;Agblesia
 0;0.6832,6.4895;GH-08;Volta;Agblega
+0;0.7333,5.7667;GH;;Agbledomi
 0;0.5000,6.0000;GH-08;Volta;Agbetokope
 0;0.3399,6.0328;GH-08;Volta;Agbetipo
 0;0.2337,6.2698;GH-08;Volta;Agbetiame
@@ -9422,6 +9459,7 @@
 0;-0.6000,5.6500;GH-04;Central;Adofin
 0;-2.0133,6.5384;GH-02;Ashanti;Adobewora
 0;0.7179,6.4480;GH-08;Volta;Adjovime
+0;0.7833,6.4167;GH;;Adjove
 0;0.6954,6.4053;GH-08;Volta;Adjove
 0;0.4000,5.8333;GH-01;Greater Accra;Adjomanikope
 0;0.7157,6.3674;GH-08;Volta;Adjenuko
@@ -11438,6 +11476,7 @@
 0;-2.8996,6.4996;GH-18;Western North;Gliksten Bungalow
 0;-2.9304,6.4468;GH-18;Western North;Komeamaa
 0;-2.9334,6.4358;GH-18;Western North;Seniagyakrom
+0;-2.9420,7.4743;GH;;Sokura
 0;-2.9277,7.5002;GH-13;Bono;Kwameprakurom
 0;-2.8823,7.5000;GH-13;Bono;Konsia
 0;-2.9412,7.4299;GH-13;Bono;Danyame

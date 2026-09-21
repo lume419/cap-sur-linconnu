@@ -1,4 +1,6 @@
 0;176.2724,-38.4790;3081;Bay of Plenty;Tahorakui
+0;177.8833,-38.8500;;Gisborne;Bartlett
+930;171.5667,-42.9500;;Canterbury;Arthur’s Pass
 0;175.0000,-37.0333;2110;Auckland;Ardmore College
 2250;172.5167,-43.5167;8042;Canterbury;Yaldhurst
 550;168.8500,-46.3333;9831;Southland;Wyndham
@@ -51,7 +53,9 @@
 0;175.6333,-37.2667;3545;Waikato Region;Wharepoa
 0;174.4333,-36.7167;0881;Auckland;Wharepapa
 0;176.3333,-38.4000;3060;Bay of Plenty;Wharepaina
+0;174.6667,-38.4667;;Waikato Region;Whareorino
 0;170.4351,-44.6997;9446;Canterbury;Wharekuri
+0;177.5000,-38.5500;;Gisborne;Wharekopae
 0;174.3333,-39.3000;4394;Taranaki Region;Wharehuia
 0;168.7667,-44.9500;9302;Otago;Wharehuanui
 0;174.4167,-36.3167;0973;Auckland;Wharehine
@@ -84,6 +88,7 @@
 0;174.2833,-35.5333;0114;Northland;Whakapara
 0;176.0000,-37.7333;3176;Bay of Plenty;Whakamarama
 0;174.4333,-39.6333;4598;Taranaki Region;Whakamara
+0;177.6000,-39.0333;;Hawke's Bay Region;Whakaki
 0;175.1500,-39.7667;4584;Manawatu-Wanganui;Whakaihuwaka
 0;175.0667,-39.1000;3993;Manawatu-Wanganui;Whakahoro
 0;178.3000,-37.7167;4086;Gisborne;Whakaangiangi
@@ -102,6 +107,7 @@
 0;168.8167,-45.8833;9777;Southland;Wendon
 2110;174.5167,-36.2833;0900;Auckland;Wellsford
 381900;174.7756,-41.2866;6021;Wellington Region;Wellington
+0;173.8500,-41.7833;;Marlborough;Welds Hill
 0;173.5500,-35.5667;0446;Northland;Wekaweka
 0;170.1833,-45.7333;9074;Otago;Wehenga
 300;170.0168,-43.4648;7859;West Coast;Fox Glacier
@@ -112,6 +118,7 @@
 819;174.6333,-39.7667;4510;Taranaki Region;Waverley
 0;171.7500,-44.0667;7774;Canterbury;Waterton
 1200;171.2333,-44.3500;7941;Canterbury;Washdyke
+0;172.2333,-42.1333;;West Coast;Warwick Junction
 489;170.5833,-45.7167;9069;Otago;Warrington
 0;174.3000,-35.5833;0114;Northland;Waro
 6960;174.6667,-36.4000;0910;Auckland;Warkworth
@@ -156,20 +163,24 @@
 0;175.2000,-40.5500;5572;Manawatu-Wanganui;Waitarere
 0;174.8667,-38.3833;3971;Waikato Region;Waitanguru
 795;174.0806,-35.2702;0247;Northland;Waitangi
+0;168.7000,-46.1833;;Southland;Waitane
 0;171.1000,-44.9333;9493;Otago;Waitaki
 1830;174.5448,-36.8513;0660;Auckland;Waitakere
 0;175.3833,-37.2500;3576;Waikato Region;Waitakaruru
 0;178.2667,-37.9333;4081;Gisborne;Waitakaro
+0;173.9333,-40.7667;;Marlborough;Waitai
 0;169.6333,-46.0167;9274;Otago;Waitahuna West
 0;169.7667,-45.9833;9593;Otago;Waitahuna
 0;174.9500,-39.7500;4571;Manawatu-Wanganui;Waitahinga
 0;176.0833,-38.7833;3330;Waikato Region;Waitahanui
+0;174.8333,-38.8333;;Manawatu-Wanganui;Waitaanga
 0;170.7000,-45.5333;9443;Otago;Wairunga
 0;169.3333,-46.1667;9534;Otago;Wairuna
 0;167.6000,-45.9833;9691;Southland;Wairoto
 0;168.0333,-46.0000;9630;Southland;Wairio
 0;175.0167,-38.5167;3970;Waikato Region;Wairere Falls
 2230;173.5333,-41.5667;7275;Marlborough;Wairau Valley
+0;177.3333,-38.3000;;Bay of Plenty;Wairata
 0;173.7500,-41.0333;7195;Marlborough;Wairangi
 510;176.1000,-38.6333;3332;Waikato Region;Wairakei
 0;175.3000,-37.3833;3781;Waikato Region;Waipuna
@@ -178,6 +189,7 @@
 1410;174.4500,-35.9833;0510;Northland;Waipu
 0;168.7667,-45.8500;9777;Southland;Waipounamu
 0;169.9833,-45.9167;9073;Otago;Waipori Falls
+0;169.8833,-45.8333;;Otago;Waipori
 0;178.3333,-38.0167;4048;Gisborne;Waipiro
 0;174.6667,-37.2167;2683;Auckland;Waipipi
 0;170.1667,-45.1833;9397;Otago;Waipiata
@@ -200,6 +212,7 @@
 20450;174.9500,-41.2667;5014;Wellington Region;Wainuiomata
 0;172.9000,-43.8167;7582;Canterbury;Wainui
 1716;178.0705,-38.6887;4041;Gisborne;Wainui
+0;171.3333,-42.7667;;West Coast;Wainihinihi
 0;175.0000,-37.6833;3793;Waikato Region;Waingaro
 0;168.8000,-46.1167;9712;Southland;Waimumu
 0;176.2333,-40.4500;4990;Manawatu-Wanganui;Waimiro
@@ -229,6 +242,7 @@
 2510;168.3333,-46.3833;9843;Southland;Waikiwi
 213;175.7667,-37.4167;3674;Waikato Region;Waikino
 0;174.2333,-35.9500;0193;Northland;Waikiekie
+0;174.6667,-38.4667;;Waikato Region;Waikawau
 0;169.1333,-46.6333;9884;Southland;Waikawa
 1720;174.0500,-41.2667;7251;Marlborough;Waikawa
 0;170.8833,-44.0333;7987;Canterbury;Waikarua
@@ -247,6 +261,7 @@
 0;167.7000,-46.2333;9620;Southland;Waihoaka
 2670;175.9333,-37.4000;3611;Bay of Plenty;Waihi Beach
 0;170.5696,-45.3243;9481;Otago;Waihemo
+0;177.9088,-37.6182;;Bay of Plenty;Waihau Bay
 0;173.2167,-34.9333;0486;Northland;Waiharera
 0;175.0667,-39.6500;4578;Manawatu-Wanganui;Waihapai
 0;170.8167,-44.7500;7977;Canterbury;Waihaorunga
@@ -255,6 +270,7 @@
 0;174.2333,-35.3333;0283;Northland;Waihaha
 0;174.7500,-37.1333;2122;Auckland;Waiau Pa
 255;173.0500,-42.6500;7332;Canterbury;Waiau
+0;168.7667,-43.9833;;West Coast;Waiatoto
 2360;174.5833,-36.9333;0612;Auckland;Waiatarua
 0;171.0833,-44.6833;7924;Canterbury;Waiariari
 0;170.9333,-45.1000;9401;Otago;Waiareka Junction
@@ -303,6 +319,7 @@
 0;172.4667,-41.8167;7072;Tasman District;Tutaki
 0;168.4167,-46.2500;9781;Southland;Tussock Creek
 0;175.5667,-37.2333;3545;Waikato Region;Turua
+0;171.3000,-42.7333;;West Coast;Turiwhate
 0;177.4167,-39.0167;4108;Hawke's Bay Region;Turiroa
 0;174.4500,-35.7667;0192;Northland;Turiapua
 3960;175.8084,-38.9904;3334;Waikato Region;Turangi
@@ -327,10 +344,12 @@
 0;175.0333,-41.1333;5143;Wellington Region;Trentham
 0;170.1500,-45.8167;9019;Otago;Traquair
 0;174.1333,-35.4833;0182;Northland;Towai
+0;173.0000,-40.8167;;Tasman District;Totaranui
 0;173.7167,-35.0333;0479;Northland;Totara North
 0;171.6167,-42.3000;7846;West Coast;Totara Flat
 0;170.8667,-45.1333;9401;Otago;Totara
 0;173.1333,-42.9000;7387;Canterbury;Tormore
+0;177.5000,-37.9500;;Bay of Plenty;Torere
 0;175.4167,-37.3500;3503;Waikato Region;Torehape
 0;174.7512,-36.6960;0742;Auckland;Torbay
 0;174.4667,-36.2167;0975;Northland;Topuni
@@ -358,6 +377,7 @@
 0;168.4000,-46.4500;9812;Southland;Tisbury
 0;171.7500,-41.8333;7892;West Coast;Tiroroa
 0;171.3833,-42.0333;7865;West Coast;Tiromoana
+0;168.1500,-45.8500;;Southland;Tiromaunga
 0;175.6500,-37.4333;3673;Waikato Region;Tirohia
 0;176.0456,-40.6333;4996;Manawatu-Wanganui;Tiraumea
 804;175.7500,-37.9833;3410;Waikato Region;Tirau
@@ -378,6 +398,7 @@
 0;172.8667,-41.2833;7196;Tasman District;Thorpe
 0;176.8667,-37.9167;3160;Bay of Plenty;Thornton
 0;168.1000,-46.2833;9883;Southland;Thornbury
+0;170.2500,-45.6333;;Otago;The Reefs
 0;167.9000,-45.5500;9672;Southland;The Key
 0;175.9500,-38.1667;3482;Waikato Region;Te Whetu
 0;174.8333,-36.6000;0930;Auckland;Te Whanga
@@ -409,6 +430,9 @@
 0;171.9500,-43.6667;7783;Canterbury;Te Pirita
 0;173.9167,-35.0667;0448;Northland;Tepene
 0;174.8833,-37.9500;3894;Waikato Region;Te Papatapu
+0;174.2333,-41.2500;;Marlborough;Te Pangu
+0;172.7991,-34.5044;;Northland;Te Paki
+0;172.0833,-41.3833;;West Coast;Te Namu
 1910;172.4667,-43.5500;7676;Canterbury;Templeton
 0;171.1333,-44.0667;7991;Canterbury;Te Moana
 0;175.5500,-37.8167;3496;Waikato Region;Te Miro
@@ -433,9 +457,11 @@
 0;175.3167,-37.5167;3792;Waikato Region;Te Hoe
 0;176.6833,-39.7667;4174;Hawke's Bay Region;Te Hauke
 0;176.6000,-39.1333;3360;Hawke's Bay Region;Te Haroto
+0;172.9167,-34.5000;;Northland;Te Hapua
 0;174.5167,-36.2667;0974;Auckland;Te Hana
 0;172.6615,-43.6683;8971;Canterbury;Teddington
 768;176.9833,-39.6333;4172;Hawke's Bay Region;Te Awanga
+0;174.2833,-41.2167;;Marlborough;Te Awaiti
 0;174.6500,-36.8333;0651;Auckland;Te Atatu
 0;175.7333,-37.5833;3391;Waikato Region;Te Aroha West
 0;178.3667,-37.6333;4050;Gisborne;Te Araroa
@@ -573,6 +599,7 @@
 0;171.9167,-43.7500;7784;Canterbury;Somerton
 0;169.0000,-46.6667;9884;Southland;Slope Point
 0;168.6833,-44.8333;9371;Otago;Skippers
+0;170.2833,-44.2000;;Canterbury;Simons Pass
 3570;175.0000,-41.1500;5142;Wellington Region;Silverstream
 0;175.5283,-39.9659;4781;Manawatu-Wanganui;Silverhope
 2370;174.6776,-36.6187;0944;Auckland;Silverdale
@@ -636,6 +663,7 @@
 0;175.0833,-37.6000;3771;Waikato Region;Rotowaro
 0;175.0833,-37.5167;3772;Waikato Region;Rotongaro
 0;171.5333,-42.6500;7845;West Coast;Rotomanu
+0;171.9000,-41.9667;;West Coast;Rotokohu
 0;170.3667,-43.2000;7857;West Coast;Rotokino
 0;176.3324,-38.1163;3042;Bay of Plenty;Rotokawa
 0;176.4829,-38.0492;3074;Bay of Plenty;Rotoiti
@@ -688,6 +716,7 @@
 5390;174.9833,-40.9167;5255;Wellington Region;Raumati Beach
 0;176.1463,-40.1908;4976;Manawatu-Wanganui;Raumati
 0;175.7667,-40.2167;4884;Manawatu-Wanganui;Raumai
+0;177.8833,-37.6500;;Bay of Plenty;Raukokore
 570;174.3167,-39.2000;4390;Taranaki Region;Ratapiko
 0;169.6333,-46.4833;9535;Otago;Ratanui
 0;175.5150,-39.9940;4781;Manawatu-Wanganui;Rata
@@ -741,6 +770,7 @@
 0;169.4833,-46.3500;9273;Otago;Purekireki
 0;174.5167,-39.1500;4395;Taranaki Region;Purangi
 0;173.7167,-35.1000;0479;Northland;Pupuke
+0;172.7167,-40.5167;;Tasman District;Puponga
 0;174.6165,-39.3282;4392;Taranaki Region;Puniwhakau
 606;173.8333,-39.2000;4335;Taranaki Region;Puniho
 0;173.8000,-39.2833;4685;Taranaki Region;Pungarehu
@@ -761,6 +791,7 @@
 1970;174.9000,-41.0333;5381;Wellington Region;Pukerua Bay
 0;175.4972,-39.7841;4782;Manawatu-Wanganui;Pukeroa
 0;169.1000,-46.1000;9772;Southland;Pukerau
+0;170.2167,-45.6333;;Otago;Pukerangi
 0;169.6500,-46.1667;9272;Otago;Pukepito
 0;174.7500,-37.2333;2123;Auckland;Pukeowhare
 0;173.1167,-34.8167;0460;Northland;Pukenui
@@ -769,6 +800,7 @@
 0;167.8000,-46.0833;9620;Southland;Pukemaori
 0;170.6667,-43.0167;7885;West Coast;Pukekura
 0;169.7333,-46.0833;9272;Otago;Pukekoma
+0;174.1667,-41.1500;;Marlborough;Pukekoikoi
 21438;174.9500,-37.2000;2677;Auckland;Pukekohe East
 0;175.1167,-37.5333;3771;Waikato Region;Pukekapia
 0;174.8833,-38.1333;3886;Waikato Region;Pukeinoi
@@ -801,6 +833,7 @@
 0;169.7667,-46.3667;9271;Otago;Port Molyneux
 0;174.3167,-35.8000;0170;Northland;Portland
 0;175.3500,-36.1667;0963;Auckland;Port Fitzroy
+0;167.3500,-46.2167;;Southland;Port Craig
 0;175.4833,-36.5333;3547;Waikato Region;Port Charles
 0;178.4500,-37.8333;4049;Gisborne;Port Awanui
 0;174.4500,-36.2667;0975;Auckland;Port Albert
@@ -833,6 +866,7 @@
 0;175.2000,-41.3500;5772;Wellington Region;Pirinoa
 0;175.3500,-38.9167;3924;Manawatu-Wanganui;Piriaka
 0;175.4833,-37.2167;3503;Waikato Region;Pipiroa
+0;175.0500,-39.4833;;Manawatu-Wanganui;Pipiriki
 502;175.0167,-38.4667;3912;Waikato Region;Piopio
 0;173.8500,-41.2167;7100;Marlborough;Pinohia
 0;173.5333,-41.5333;7275;Marlborough;Pine Valley
@@ -859,8 +893,10 @@
 1070;175.8667,-37.0167;3546;Waikato Region;Pauanui
 0;172.9167,-34.5333;0484;Northland;Paua
 386;177.9000,-38.6167;4045;Gisborne;Patutahi
+0;172.4333,-40.6500;;Tasman District;Paturau River
 0;175.2333,-38.9667;3992;Manawatu-Wanganui;Patunga
 1450;174.8333,-37.1833;2344;Auckland;Patumahoe
+0;173.9500,-40.7333;;Marlborough;Patuki
 0;176.6167,-39.3500;4186;Hawke's Bay Region;Patoka
 0;175.4667,-37.4167;3373;Waikato Region;Patetonga
 0;170.0500,-45.2667;9395;Otago;Patearoa
@@ -890,6 +926,7 @@
 0;173.9500,-35.7167;0172;Northland;Parakao
 0;174.6000,-36.5833;0873;Auckland;Parakakau
 1100;174.4333,-36.6500;0830;Auckland;Parakai
+0;168.3654,-44.7243;;Otago;Paradise
 0;173.9500,-41.3667;7246;Marlborough;Para
 6593;169.4707,-46.5607;9586;Otago;Papatowai
 0;167.6333,-46.1500;9620;Southland;Papatotara
@@ -903,6 +940,7 @@
 0;170.9833,-44.9833;9493;Otago;Papakaio
 0;173.3833,-35.3833;0492;Northland;Panguru
 0;172.9167,-41.1667;7196;Tasman District;Pangatotara
+0;172.7779,-34.4536;;Northland;Pandora
 0;173.3500,-35.1333;0482;Northland;Pamapuria
 90500;175.6111,-40.3564;4448;Manawatu-Wanganui;Palmerston North
 0;176.8667,-39.5833;4161;Hawke's Bay Region;Pakowhai
@@ -931,6 +969,8 @@
 0;174.9000,-38.1667;3886;Waikato Region;Owhiro
 200;175.3833,-39.0000;3989;Manawatu-Wanganui;Owhango
 0;170.9500,-44.0667;7987;Canterbury;Owersby
+0;172.5167,-41.6333;;Tasman District;Owen Valley
+0;172.4500,-41.6500;;Tasman District;Owen River
 0;172.5000,-41.7000;7072;Tasman District;Owen Junction
 0;169.5833,-46.4333;9535;Otago;Owaka Valley
 303;169.6667,-46.4500;9535;Otago;Owaka
@@ -955,11 +995,13 @@
 672;168.0000,-46.1500;9610;Southland;Otautau
 0;174.7408,-37.3064;2682;Waikato Region;Otaua
 3460;168.3000,-46.4333;9879;Southland;Otatara
+0;173.6833,-41.0500;;Marlborough;Otarawao
 0;168.8833,-46.6333;9875;Southland;Otara
 0;168.4500,-46.0500;9782;Southland;Otapiri Gorge
 0;169.7500,-46.3000;9231;Otago;Otanomomo
 0;177.0000,-38.0333;3191;Bay of Plenty;Otangihaku
 0;173.6333,-35.0833;0494;Northland;Otangaroa
+0;174.3333,-41.1833;;Marlborough;Otanerau
 516;176.6333,-39.8833;4202;Hawke's Bay Region;Otane
 0;168.8500,-46.0167;9710;Southland;Otamita
 0;176.6000,-37.8333;3186;Bay of Plenty;Otamarakau
@@ -982,6 +1024,7 @@
 0;175.3000,-37.5667;3792;Waikato Region;Orini
 12630;174.6790,-36.5810;0931;Auckland;Orewa
 0;168.2333,-46.1333;9720;Southland;Oreti Plains
+345;175.2500,-36.9667;;Auckland;Orere Point
 0;167.7333,-46.2833;9881;Southland;Orepuki
 0;167.8000,-46.0500;9682;Southland;Orawia Bridge
 0;167.8167,-46.0500;9682;Southland;Orawia
@@ -996,6 +1039,7 @@
 0;175.8833,-37.1167;3620;Waikato Region;Opoutere
 0;177.8319,-39.0598;4198;Hawke's Bay Region;Opoutama
 0;173.4000,-35.5000;0445;Northland;Opononi
+0;177.3000,-38.2500;;Bay of Plenty;Oponae
 0;168.1000,-45.9500;9630;Southland;Opio
 0;169.6046,-45.1098;9352;Otago;Ophir
 0;174.9167,-38.0500;3885;Waikato Region;Oparau
@@ -1011,6 +1055,7 @@
 6580;174.3667,-35.7667;0142;Northland;Onerahi
 7290;176.8896,-39.5091;4140;Hawke's Bay Region;Onekawa
 0;172.7000,-40.7500;7182;Tasman District;Onekaka
+0;174.3667,-41.1167;;Marlborough;Onauku
 0;174.1833,-41.2667;7251;Marlborough;Onapua
 0;173.7167,-41.4500;7204;Marlborough;Onamalutu
 75;174.3500,-39.0000;4349;Taranaki Region;Onaero
@@ -1031,16 +1076,20 @@
 0;177.6667,-37.8167;3199;Bay of Plenty;Omaio
 0;175.6667,-37.2667;3671;Waikato Region;Omahu
 0;177.2500,-38.8667;4164;Hawke's Bay Region;Omahanui
+84;168.9009,-43.9077;;West Coast;Okuru
 0;175.4333,-36.2667;0961;Auckland;Okupu
+0;174.3000,-41.2000;;Marlborough;Okukari
 0;175.8000,-37.9500;3485;Waikato Region;Okoroire
 0;174.4833,-39.0167;4375;Taranaki Region;Okoki
 0;175.1320,-39.9280;4582;Manawatu-Wanganui;Okoia
 0;175.4167,-36.1500;0960;Auckland;Okiwi
+0;177.2833,-38.1833;;Bay of Plenty;Okiore
 0;174.9333,-37.8167;3266;Waikato Region;Okete
 381;176.3451,-38.0170;3074;Bay of Plenty;Okere Falls
 0;175.8399,-37.7870;3471;Waikato Region;Okauia
 0;174.6500,-38.8667;4378;Taranaki Region;Okau
 606;173.8833,-39.2000;4335;Taranaki Region;Okato
+35;170.1833,-43.2333;;West Coast;Okarito
 0;173.7667,-41.4167;7204;Marlborough;Okaramio
 0;173.0333,-43.7167;7583;Canterbury;Okains Bay
 324;173.7833,-35.3167;0447;Northland;Okaihau
@@ -1118,12 +1167,14 @@
 5660;174.7739,-41.2504;6441;Wellington Region;Ngaio
 0;171.4500,-42.4000;7844;West Coast;Ngahere
 0;174.3000,-39.3833;4322;Taranaki Region;Ngaere
+0;172.1582,-41.7756;;Tasman District;Newton Flat
 0;175.3500,-37.7833;3253;Waikato Region;Newstead
 90100;174.0833,-39.0667;4342;Taranaki Region;New Plymouth
 0;175.7137,-40.6152;4900;Manawatu-Wanganui;Newman
 0;171.8500,-43.8833;7777;Canterbury;Newland
 0;169.7172,-46.4728;9585;Otago;New Haven
 6480;172.7333,-43.5167;8641;Canterbury;New Brighton
+0;168.9333,-45.2333;;Otago;Nevis
 0;175.7000,-37.1667;3578;Waikato Region;Nevesville
 0;175.6167,-37.3333;3671;Waikato Region;Netherton
 0;171.5167,-42.4167;7844;West Coast;Nelson Creek
@@ -1137,12 +1188,14 @@
 1130;174.4330,-36.8366;0842;Auckland;Muriwai Beach
 0;177.9167,-38.7667;4010;Gisborne;Muriwai
 0;175.6833,-39.5500;4791;Manawatu-Wanganui;Murimotu
+606;172.3333,-41.8000;;Tasman District;Murchison
 0;174.7500,-36.4333;0982;Auckland;Mullet Point
 0;170.0833,-45.6500;9597;Otago;Mowhiti
 0;174.9000,-39.8667;4574;Manawatu-Wanganui;Mowhanau
 0;175.3833,-40.5000;4893;Manawatu-Wanganui;Moutoa
 0;177.5333,-38.2833;4052;Gisborne;Moutohora
 0;176.3295,-38.0484;3074;Bay of Plenty;Mourea
+0;170.2833,-45.6000;;Otago;Mount Stoker
 147;171.4000,-43.7167;7746;Canterbury;Mount Somers
 0;174.4500,-36.6333;0830;Auckland;Mount Rex
 0;173.9667,-41.3333;7220;Marlborough;Mount Pleasant
@@ -1165,12 +1218,14 @@
 210;168.2500,-45.6667;9747;Southland;Mossburn
 0;171.1167,-44.8333;7980;Canterbury;Morven
 0;168.6500,-46.3333;9893;Southland;Morton Mains
+0;170.4833,-45.2500;;Otago;Morrisons
 3050;170.4667,-45.8833;9011;Otago;Mornington
 0;175.1000,-39.5667;4576;Manawatu-Wanganui;Morikau
 0;177.8000,-38.9833;4198;Hawke's Bay Region;Morere
 0;170.3333,-45.4167;9483;Otago;Moonlight
 0;169.9000,-46.1667;9220;Otago;Moneymore
 0;170.2167,-45.9167;9019;Otago;Momona
+0;173.2500,-42.0833;;Marlborough;Molesworth
 0;168.5833,-46.4500;9871;Southland;Mokotua
 0;169.0667,-46.4333;9892;Southland;Mokoreta
 0;174.3667,-39.6333;4672;Taranaki Region;Mokoia
@@ -1255,16 +1310,19 @@
 0;176.9333,-39.1667;4162;Hawke's Bay Region;Matahorua
 0;175.1667,-39.6333;4576;Manawatu-Wanganui;Matahiwi Landing
 0;175.1500,-39.6000;4576;Manawatu-Wanganui;Matahiwi
+0;176.8333,-38.2500;;Bay of Plenty;Matahina
 0;177.2667,-38.1167;3122;Bay of Plenty;Matahanea
 0;174.3667,-35.8500;0171;Northland;Mata
 0;172.5500,-42.9000;7385;Canterbury;Masons Flat
 0;172.3333,-42.3833;7847;West Coast;Maruia Springs
+183;172.2167,-42.1833;;West Coast;Maruia
 0;174.3667,-35.5667;0181;Northland;Marua
 0;174.5000,-35.8333;0174;Northland;Marsden Point
 0;171.2167,-42.5667;7805;West Coast;Marsden
 0;175.3500,-40.4833;4893;Manawatu-Wanganui;Marotiri
 0;173.7333,-35.8000;0373;Northland;Maropiu
 0;174.0833,-35.4833;0281;Northland;Maromaku
+0;174.7333,-38.3000;;Waikato Region;Marokopa
 0;174.3000,-36.1833;0583;Northland;Marohemo
 0;174.1000,-35.5333;0182;Northland;Marlow
 0;172.1333,-41.2500;7893;West Coast;Market Cross
@@ -1275,6 +1333,7 @@
 0;170.7500,-45.0667;9492;Otago;Marakerake
 2770;175.0500,-36.8833;2148;Auckland;Maraetai
 0;173.6333,-35.3333;0476;Northland;Maraeroa
+0;176.6333,-39.6500;;Hawke's Bay Region;Maraekakaho
 0;171.0333,-42.6667;7882;West Coast;Maraehoko
 1819;173.1000,-41.2500;7005;Tasman District;Mapua
 0;175.2167,-38.5833;3998;Waikato Region;Mapiu
@@ -1301,6 +1360,7 @@
 0;175.1989,-37.2012;2471;Waikato Region;Mangatangi
 411;175.8635,-40.4151;4910;Manawatu-Wanganui;Mangatainoka
 0;175.1167,-41.1167;5018;Wellington Region;Mangaroa
+0;172.4000,-41.7333;;Tasman District;Mangarata
 0;175.1000,-39.2167;3990;Manawatu-Wanganui;Mangapurua
 0;174.8333,-39.7500;4587;Taranaki Region;Mangapani
 0;174.2833,-35.8500;0146;Northland;Mangapai
@@ -1350,6 +1410,7 @@
 0;173.4333,-42.3833;7373;Canterbury;Mahunga
 0;174.8500,-38.5667;3945;Waikato Region;Mahoenui
 0;174.1723,-39.3772;4642;Taranaki Region;Mahoe
+0;169.6000,-43.6500;;West Coast;Mahitahi
 0;177.8743,-39.0835;4166;Hawke's Bay Region;Mahia Beach
 0;177.9172,-39.0872;4166;Hawke's Bay Region;Mahia
 0;171.3333,-42.1833;7862;West Coast;Mahers Creek
@@ -1368,6 +1429,7 @@
 0;168.5333,-46.2833;9872;Southland;Mabel Bush
 0;171.6000,-44.0167;7747;Canterbury;Lynnford
 0;171.7167,-43.7000;7776;Canterbury;Lyndhurst
+0;172.0500,-41.8000;;West Coast;Lyell
 0;171.0833,-44.5000;7971;Canterbury;Lyalldale
 405;168.4500,-45.7333;9730;Southland;Lumsden
 474;169.2667,-44.7500;9344;Otago;Luggate
@@ -1387,6 +1449,7 @@
 0;167.9543,-46.3453;9822;Southland;Longwood
 0;168.6500,-45.8667;9746;Southland;Longridge
 0;168.6833,-44.9167;9371;Otago;Long Gully
+0;172.3667,-41.7833;;Tasman District;Longford
 0;168.5000,-46.3833;9871;Southland;Longbush
 354;175.5429,-40.3839;4820;Manawatu-Wanganui;Longburn
 0;171.6860,-44.0914;7774;Canterbury;Longbeach
@@ -1394,10 +1457,12 @@
 0;168.3333,-46.2000;9781;Southland;Lochiel
 2460;172.5333,-43.2500;7472;Canterbury;Loburn
 0;170.5833,-44.9667;9441;Otago;Livingstone
+207;172.0667,-41.4000;;West Coast;Little Wanganui
 279;172.7833,-43.7667;7546;Canterbury;Little River
 0;172.9833,-43.6833;8972;Canterbury;Little Akaloa
 0;171.4833,-43.9000;7775;Canterbury;Lismore
 0;175.5500,-40.4333;4820;Manawatu-Wanganui;Linton
+0;169.5000,-44.7000;;Otago;Lindis Pass
 0;169.3833,-44.8833;9383;Otago;Lindis Crossing
 0;174.8333,-41.1667;5249;Wellington Region;Linden
 9180;172.4833,-43.6500;7608;Canterbury;Lincoln
@@ -1423,6 +1488,7 @@
 0;168.3333,-46.1000;9720;Southland;Lady Barkly
 2030;172.5333,-43.6167;7604;Canterbury;Ladbrooks
 0;172.1000,-43.9167;7781;Canterbury;Kyle
+0;170.2833,-45.0000;;Otago;Kyeburn Diggings
 0;170.2500,-45.1500;9397;Otago;Kyeburn
 372;170.4696,-44.7334;9446;Canterbury;Kurow
 0;170.2297,-46.0247;9091;Otago;Kuri Bush
@@ -1450,6 +1516,7 @@
 0;175.4333,-38.1667;3872;Waikato Region;Korakonui
 0;176.8500,-39.2833;4162;Hawke's Bay Region;Koraki
 0;175.3384,-40.5778;5575;Manawatu-Wanganui;Koputaroa
+0;176.7833,-38.3333;;Bay of Plenty;Kopuriki
 0;175.1667,-37.2833;2471;Waikato Region;Kopuku
 0;175.7916,-40.5046;4984;Manawatu-Wanganui;Konini
 0;172.1000,-41.3000;7893;West Coast;Kongahu
@@ -1470,7 +1537,9 @@
 0;175.7333,-40.1167;4777;Manawatu-Wanganui;Kiwitea
 0;175.6000,-37.7000;3371;Waikato Region;Kiwitahi
 0;172.7500,-41.5000;7096;Tasman District;Kiwi
+0;170.2500,-45.7000;;Otago;Kiteroa
 1180;172.2167,-43.5000;7543;Canterbury;Kirwee
+0;174.7333,-38.3333;;Waikato Region;Kiritehere
 0;175.9827,-40.2392;4972;Manawatu-Wanganui;Kiritaki
 0;174.4333,-35.6333;0173;Northland;Kiripaka
 0;174.0167,-35.8167;0381;Northland;Kirikopuni
@@ -1486,6 +1555,7 @@
 0;170.7500,-44.0500;7925;Canterbury;Kimbell
 0;172.2500,-43.7333;7548;Canterbury;Killinchy
 4860;174.7951,-41.3182;6241;Wellington Region;Kilbirnie
+0;172.8667,-41.6500;;Tasman District;Kikiwa
 3760;175.3500,-38.0333;3841;Waikato Region;Kihikihi
 8640;174.7942,-41.2450;6035;Wellington Region;Khandallah
 0;171.2000,-44.2833;7903;Canterbury;Kerrytown
@@ -1527,6 +1597,7 @@
 0;175.9500,-39.8667;4797;Manawatu-Wanganui;Karewarewa
 0;174.1500,-35.3667;0282;Northland;Karetu
 0;174.4833,-36.9833;0772;Auckland;Karekare
+0;169.8167,-43.5333;;West Coast;Karangarua
 0;175.7167,-37.4333;3673;Waikato Region;Karangahake
 0;175.1333,-37.8833;3285;Waikato Region;Karamu
 357;172.1167,-41.2500;7893;West Coast;Karamea
@@ -1590,9 +1661,11 @@
 0;175.0667,-38.3833;3981;Waikato Region;Kaeaea
 0;174.8836,-37.5108;2695;Waikato Region;Kaawa
 1080;174.9333,-41.1167;5245;Wellington Region;Judgeford
+0;173.7667,-41.8167;;Marlborough;Jordan
 0;169.7667,-46.0167;9593;Otago;Johnstone
 12150;174.8030,-41.2213;6440;Wellington Region;Johnsonville
 1155;175.0667,-39.5500;4576;Manawatu-Wanganui;Jerusalem
+0;168.6106,-43.9719;;West Coast;Jackson Bay
 0;171.5167,-42.7500;7875;West Coast;Jacksons
 0;170.6667,-44.9500;9494;Otago;Island Cliff
 0;169.4667,-45.7500;9588;Otago;Island Block
@@ -1600,6 +1673,9 @@
 0;172.3333,-43.7167;7548;Canterbury;Irwell
 58000;168.3500,-46.4000;9840;Southland;Invercargill
 0;171.4667,-42.7333;7875;West Coast;Inchbonnie
+0;171.8833,-41.9167;;West Coast;Inangahua Landing
+0;171.9500,-41.8500;;West Coast;Inangahua Junction
+0;171.9333,-41.8500;;West Coast;Inangahua Camp
 0;174.1667,-39.5667;4612;Taranaki Region;Inaha
 0;170.8500,-44.8667;7979;Canterbury;Ikawai
 0;171.6833,-42.2667;7846;West Coast;Ikamatua
@@ -1622,6 +1698,7 @@
 0;174.2667,-39.0500;4383;Taranaki Region;Huirangi
 0;174.4335,-39.3570;4393;Taranaki Region;Huinga
 580;174.5667,-36.9983;0604;Auckland;Huia
+0;168.9167,-43.9667;;West Coast;Huhuka
 0;174.0500,-39.1333;4371;Taranaki Region;Huatoki
 0;174.3000,-36.1000;0589;Northland;Huarau
 0;174.5500,-36.7667;0810;Auckland;Huapai
@@ -1656,6 +1733,8 @@
 0;175.7667,-37.8833;3472;Waikato Region;Hinuera
 0;176.2333,-39.8500;4171;Hawke's Bay Region;Hinerua
 291;171.5667,-44.0000;7747;Canterbury;Hinds
+0;170.3333,-45.7167;;Otago;Hindon Railway
+0;170.3000,-45.7333;;Otago;Hindon
 0;175.6333,-41.3000;5784;Wellington Region;Hinakura
 0;169.6667,-46.4833;9535;Otago;Hinahina
 538;175.3153,-40.3915;4891;Manawatu-Wanganui;Himatangi
@@ -1677,6 +1756,7 @@
 2520;175.0333,-41.1500;5143;Wellington Region;Heretaunga
 0;170.5500,-43.1167;7884;West Coast;Herepo
 0;173.2167,-35.2500;0481;Northland;Herekino
+0;176.5579,-40.4919;;Manawatu-Wanganui;Herbertville
 96;170.7833,-45.2333;9495;Otago;Herbert
 0;170.1667,-45.9833;9073;Otago;Henley
 0;174.8667,-37.1833;2344;Auckland;Helvetia
@@ -1725,6 +1805,7 @@
 0;174.1167,-41.3000;7251;Marlborough;Hakahaka
 0;176.1667,-37.7333;3112;Bay of Plenty;Hairini
 0;171.5667,-43.8167;7775;Canterbury;Hackthorne
+279;169.0500,-43.8833;;West Coast;Haast
 0;176.1500,-38.3000;3077;Bay of Plenty;Guthrie
 0;168.0167,-46.2833;9883;Southland;Gummies Bush
 0;173.9667,-41.4833;7202;Marlborough;Grovetown
@@ -1766,10 +1847,13 @@
 0;173.6000,-41.8833;7274;Marlborough;Glenlee
 0;170.0833,-46.1833;9292;Otago;Glenledi
 0;169.2333,-45.9667;9522;Otago;Glenkenich
+0;172.6500,-41.6500;;Tasman District;Glenhope
 0;168.8500,-46.4000;9891;Southland;Glenham
+0;172.2333,-41.8333;;Tasman District;Glengarry
 0;174.7211,-36.7826;0745;Auckland;Glenfield
 0;174.6500,-36.9167;0641;Auckland;Glen Eden
 0;169.0167,-44.6667;9381;Otago;Glendhu
+0;168.6833,-46.1833;;Southland;Glencoe
 0;174.7490,-37.1910;2681;Auckland;Glenbrook
 195;171.1000,-44.9167;9493;Canterbury;Glenavy
 0;175.0333,-37.6167;3793;Waikato Region;Glen Afton
@@ -1790,6 +1874,7 @@
 0;168.8000,-46.5667;9875;Southland;Fortrose
 0;176.7333,-38.4000;3025;Bay of Plenty;Fort Galatea
 0;169.7333,-45.9500;9593;Otago;Forsyth
+0;170.2333,-43.2500;;West Coast;The Forks
 0;175.2000,-39.9667;4582;Manawatu-Wanganui;Fordell
 0;171.7333,-44.0167;7774;Canterbury;Flemington
 0;172.6333,-43.3500;7691;Canterbury;Flaxton
@@ -1800,6 +1885,7 @@
 0;175.3667,-41.0833;5710;Wellington Region;Fernside
 0;174.7500,-37.2500;2123;Auckland;Fernleigh
 0;176.7667,-39.5833;4154;Hawke's Bay Region;Fernhill
+0;172.2500,-41.7833;;Tasman District;Fern Flat
 0;170.7333,-42.9667;7885;West Coast;Fergusons
 4870;172.6000,-43.5167;8041;Canterbury;Fendalton
 11080;174.8000,-36.9333;2151;Auckland;Favona
@@ -1823,6 +1909,7 @@
 0;175.9651,-39.5165;4792;Manawatu-Wanganui;Erehwon
 0;170.8667,-45.0500;9401;Otago;Enfield
 0;170.7833,-44.9667;9494;Otago;Enfield
+0;174.1742,-41.0900;;Marlborough;Endeavour Inlet
 0;176.8167,-39.9167;4295;Hawke's Bay Region;Elsthorpe
 0;172.3667,-43.6833;7674;Canterbury;Ellesmere
 0;171.8167,-43.9500;7740;Canterbury;Elgin
@@ -1874,6 +1961,7 @@
 0;171.8667,-42.0333;7830;West Coast;Cronadun
 0;175.3833,-40.1000;4710;Manawatu-Wanganui;Crofton
 0;170.8667,-44.1833;7982;Canterbury;Cricklewood
+0;168.4333,-45.0000;;Otago;Creighton
 0;173.9667,-41.1500;7282;Marlborough;Crail Bay
 0;171.8667,-43.1000;7580;Canterbury;Craigieburn
 0;175.1500,-36.7833;1841;Auckland;Cowes
@@ -1895,6 +1983,7 @@
 0;169.3000,-45.4833;9571;Otago;Coal Creek Flat
 0;169.5333,-46.1000;9242;Otago;Clydevale
 890;169.3154,-45.1865;9330;Otago;Clyde
+0;168.4667,-45.0833;;Otago;Closeburn
 2120;176.9167,-39.5833;4148;Hawke's Bay Region;Clive
 282;169.3667,-46.2000;9534;Otago;Clinton
 0;167.7167,-46.0333;9682;Southland;Clifden
@@ -1906,6 +1995,7 @@
 0;170.0500,-45.7333;9074;Otago;Clarks
 0;175.5500,-41.0167;5887;Wellington Region;Clareville
 0;170.0333,-46.0500;9291;Otago;Clarendon
+0;173.9333,-42.1667;;Canterbury;Clarence
 0;171.0833,-44.4000;7974;Canterbury;Claremont
 0;171.1167,-44.3833;7974;Canterbury;Claremont
 0;171.3833,-44.2167;7986;Canterbury;Clandeboye
@@ -1919,6 +2009,7 @@
 0;174.7000,-36.8167;0626;Auckland;Chelsea
 0;168.9167,-45.9833;9743;Southland;Chatton
 0;169.5111,-45.1375;9393;Otago;Chatto Creek
+0;169.3333,-46.5833;;Otago;Chaslands
 0;173.3667,-42.4167;7373;Canterbury;Charwell Forks
 0;168.9167,-46.1500;9712;Southland;Charlton
 0;171.4383,-41.9059;7865;West Coast;Charleston
@@ -1928,6 +2019,7 @@
 0;170.4833,-45.9000;9045;Otago;Caversham
 78;170.9500,-44.3167;7957;Canterbury;Cave
 1686;176.2167,-40.9000;5889;Wellington Region;Castlepoint
+0;171.7181,-43.2053;;Canterbury;Castle Hill
 0;174.9833,-39.9500;4501;Manawatu-Wanganui;Castlecliff
 1;171.7555,-43.0353;7580;Canterbury;Cass
 0;172.6333,-43.5833;8022;Canterbury;Cashmere Hills
@@ -1935,7 +2027,9 @@
 0;175.9167,-40.9333;5871;Wellington Region;Carswells
 0;175.3167,-40.2833;4473;Manawatu-Wanganui;Carnarvon
 0;171.3667,-43.9667;7992;Canterbury;Carew
+800;169.0000,-44.8833;;Otago;Cardrona
 0;174.2333,-39.3667;4332;Taranaki Region;Cardiff
+0;178.0167,-37.5667;;Bay of Plenty;Cape Runaway
 0;173.6667,-41.3000;7100;Marlborough;Canvastown
 2960;174.7598,-36.7465;0754;Auckland;Campbells Bay
 0;171.1429,-42.5516;7805;West Coast;Camerons
@@ -1955,6 +2049,7 @@
 0;175.4333,-37.8500;3493;Waikato Region;Bruntwood
 0;175.0167,-39.8500;4571;Manawatu-Wanganui;Brunswick
 0;171.3167,-42.4333;7803;West Coast;Brunnerton
+0;169.6833,-43.5833;;West Coast;Bruce Bay
 0;168.4167,-46.1500;9720;Southland;Browns
 0;173.9333,-41.2167;7220;Marlborough;Broughton Bay
 0;172.3000,-43.7000;7548;Canterbury;Brookside
@@ -1985,6 +2080,7 @@
 9270;176.1086,-37.6950;3147;Bay of Plenty;Bethlehem
 0;170.1000,-45.9500;9073;Otago;Berwick
 0;169.8677,-44.5336;9448;Canterbury;Berwen
+0;171.8333,-41.8667;;West Coast;Berlins
 0;172.3000,-43.3000;7444;Canterbury;Bennetts
 0;168.3500,-45.9500;9752;Southland;Benmore
 0;169.8000,-46.2333;9231;Otago;Benhar
@@ -1997,6 +2093,7 @@
 0;169.7333,-45.0000;9377;Otago;Becks
 0;171.0000,-44.1167;7982;Canterbury;Beautiful Valley
 0;169.5301,-45.8225;9591;Otago;Beaumont
+0;171.6000,-43.0333;;Canterbury;Bealey
 8340;175.0000,-36.8833;2018;Auckland;Beachlands
 2400;176.8673,-39.4203;4149;Hawke's Bay Region;Bay View
 0;173.7470,-35.9523;0377;Northland;Baylys Beach
@@ -2025,12 +2122,15 @@
 0;175.1167,-36.8167;1841;Auckland;Awaroa
 0;173.7333,-41.8333;7274;Marlborough;Awapiri
 339;173.2500,-35.0500;0451;Northland;Awanui
+0;170.8833,-44.9333;;Otago;Awamoko
 0;174.8000,-38.2667;3886;Waikato Region;Awamarino
 0;169.6500,-46.1000;9274;Otago;Awamangu
 51;174.6333,-38.6500;4376;Waikato Region;Awakino
 2289;176.9000,-38.0000;3166;Bay of Plenty;Awakeri
 0;176.7667,-37.9333;3194;Bay of Plenty;Awakaponga
+0;173.0000,-40.8667;;Tasman District;Awa-iti
 0;175.5116,-40.2703;4702;Manawatu-Wanganui;Awahuri
+0;177.4500,-37.9667;;Bay of Plenty;Awaawakino
 0;173.6333,-41.6833;7276;Marlborough;Avondale
 26450;174.7000,-36.8833;1348;Auckland;Avondale
 0;174.0500,-39.4833;4679;Taranaki Region;Auroa
@@ -2042,6 +2142,7 @@
 0;175.1500,-39.7333;4584;Manawatu-Wanganui;Atene
 2890;173.3167,-41.2333;7043;Nelson Region;Atawhai
 0;171.4833,-42.3333;7844;West Coast;Atarau
+0;172.7833,-41.6167;;Tasman District;Atapo
 0;172.6500,-43.7833;7591;Canterbury;Ataahua
 0;170.8333,-44.0000;7990;Canterbury;Ashwick Flat
 0;171.7667,-44.0333;7774;Canterbury;Ashton
@@ -2051,9 +2152,11 @@
 0;171.2833,-43.9833;7992;Canterbury;Arundel
 0;169.1667,-46.1167;9772;Otago;Arthurton
 1280;168.6667,-44.9833;9348;Otago;Arthurs Point
+0;172.2167,-41.8000;;Tasman District;Ariki
 0;174.9833,-38.5500;3970;Waikato Region;Aria
 0;176.5333,-39.8667;4273;Hawke's Bay Region;Argyll East
 0;168.6500,-45.8167;9746;Southland;Ardlussa
+0;168.3667,-44.7333;;Otago;Arcadia
 0;173.9000,-36.0167;0341;Northland;Aratapu
 0;175.0333,-37.1500;2579;Auckland;Ararimu
 0;174.3667,-39.5167;4674;Taranaki Region;Ararata
@@ -2072,14 +2175,17 @@
 0;175.8833,-39.9667;4774;Manawatu-Wanganui;Apiti
 0;175.9818,-37.6487;3114;Bay of Plenty;Apata
 0;168.0500,-46.0833;9610;Southland;Aparima
+0;174.8063,-39.2404;;Taranaki Region;Aotuhia
 0;172.6000,-40.7167;7054;Tasman District;Aorere
 0;175.9500,-37.6167;3129;Bay of Plenty;Aongatete
 870;175.6667,-40.3667;4471;Manawatu-Wanganui;Aokautere
+0;176.3341,-40.6798;;Manawatu-Wanganui;Owahanga
 0;172.0000,-43.3833;7500;Canterbury;Annat
 0;171.4333,-43.7500;7746;Canterbury;Anama
 0;175.4421,-36.6728;3547;Waikato Region;Amodeo Bay
 2780;172.7297,-43.1559;7410;Canterbury;Amberley
 0;174.4500,-39.6667;4598;Taranaki Region;Alton
+0;173.8667,-41.7333;;Marlborough;Altimarlock
 0;170.9167,-45.1167;9401;Otago;Alma
 306;170.2667,-45.9167;9019;Otago;Allanton
 0;172.6500,-43.6500;8971;Canterbury;Allandale
@@ -2088,6 +2194,7 @@
 0;170.8667,-44.2333;7984;Canterbury;Albury
 0;169.2000,-44.6833;9344;Otago;Albert Town
 12930;174.7000,-36.7167;0752;Auckland;Albany
+0;176.4167,-40.6000;;Manawatu-Wanganui;Akitio
 0;174.1667,-35.4833;0182;Northland;Akerama
 0;170.1167,-46.1500;9292;Otago;Akatore
 0;174.7923,-37.2936;2682;Waikato Region;Aka Aka
@@ -2133,12 +2240,14 @@
 0;177.8428,-39.1833;4166;Hawke's Bay Region;Maungatea Village
 0;177.8850,-39.0086;4166;Hawke's Bay Region;Mahanga Beach
 38100;178.0042,-38.6533;4010;Gisborne;Gisborne
+0;175.4106,-41.5406;;Wellington Region;Rat Hill
 1899;175.5153,-41.4122;5782;Wellington Region;Waipawa
 0;175.9581,-41.1836;5883;Wellington Region;Homewood
 28900;175.6575,-40.9597;5810;Wellington Region;Masterton
 0;175.8111,-40.9069;5886;Wellington Region;Upper Tauheru
 3350;170.9667,-42.7167;7810;West Coast;Hokitika
 9419;171.2000,-42.4667;7840;West Coast;Greymouth
+0;171.3667,-42.0500;;West Coast;Pahautane
 4600;171.6037,-41.7526;7825;West Coast;Westport
 1938;168.3333,-46.6000;9814;Southland;Bluff
 1680;168.0167,-46.3500;9822;Southland;Riverton
@@ -2149,6 +2258,7 @@
 0;176.8167,-39.5667;4141;Hawke's Bay Region;Waiohiki
 0;176.9000,-39.5500;4148;Hawke's Bay Region;Awatoto
 1900;172.7492,-43.5643;8081;Canterbury;Clifton
+0;168.0500,-44.4000;;Southland;Jamestown
 0;168.2167,-46.3167;9874;Southland;Wrights Bush
 0;167.9917,-46.1000;9610;Southland;Waikouro
 0;173.3650,-41.1861;7071;Nelson Region;Glenduan
@@ -2184,9 +2294,23 @@
 18602;176.9854,-37.9586;3158;Bay of Plenty;Whakatane
 4900;177.2871,-38.0091;3122;Bay of Plenty;Opotiki
 7136;175.5401,-37.1383;3500;Waikato Region;Thames
+0;168.8542,-43.9733;;West Coast;Carters Mill
+0;-176.4833,-43.9333;;Chatham Islands;Whareama
+0;-176.5839,-43.7100;;Chatham Islands;Whakekauri
+0;-176.8167,-43.7833;;Chatham Islands;Waitangi West
+140;-176.5597,-43.9535;;Chatham Islands;Waitangi
+0;-176.7000,-43.8167;;Chatham Islands;Waikanai
+0;-176.8000,-43.7500;;Chatham Islands;Tupuangi
+0;-176.6667,-43.7500;;Chatham Islands;Tahatika
+0;-176.5833,-43.8167;;Chatham Islands;Rakautahi
+0;-176.3667,-44.0333;;Chatham Islands;Ouwenga
+0;-176.3500,-43.7333;;Chatham Islands;Matarakau
+0;-176.4667,-43.8000;;Chatham Islands;Karewa
 13050;168.9436,-46.1028;9710;Southland;Gore
+435;167.9201,-44.6684;;Southland;Milford Sound
 0;168.1293,-46.8996;9818;Southland;Halfmoon Bay
 10442;168.6627,-45.0302;9348;Otago;Queenstown
+0;168.7884,-43.9893;;West Coast;Waiatoto
 2151;168.8101,-44.9384;9302;Otago;Arrowtown
 1680;168.8501,-46.1784;9712;Southland;Mataura
 2190;169.2601,-44.6084;9345;Otago;Lake Hawea
@@ -2321,6 +2445,7 @@
 40;169.2956,-45.4987;9571;Otago;Coal Creek Flat
 50;169.3128,-45.4803;9571;Otago;Roxburgh Hydro
 0;175.7445,-36.8383;3510;Waikato Region;Cooks Beach
+213;170.0993,-43.7371;;Canterbury;Mount Cook Village
 0;176.1243,-37.7494;3142;Bay of Plenty;Veda Glen
 0;176.1107,-37.7419;3142;Bay of Plenty;The lakes
 0;170.5518,-43.1486;7884;West Coast;Hari Hari
@@ -2329,6 +2454,7 @@
 0;174.8845,-37.0505;2112;Auckland;Wattle Downs
 0;174.6509,-36.9537;0642;Auckland;Titirangi South
 0;174.8301,-36.4087;0986;Auckland;North Cove
+0;174.3134,-40.9966;;Marlborough;Cape Jackson
 0;175.0184,-40.9055;5254;Wellington Region;Paraparaumu North
 0;175.0599,-40.8362;5544;Wellington Region;Peka Peka
 0;172.8820,-40.8345;7110;Tasman District;Pohara
@@ -2348,6 +2474,7 @@
 846;175.5204,-37.0466;3575;Waikato Region;Te Puru
 940;172.6466,-43.6227;8971;Canterbury;Governors Bay
 0;175.8210,-38.1075;3482;Waikato Region;Lichfield
+0;173.1583,-42.4898;;Canterbury;Mt Lyford
 390;175.6568,-36.7321;3506;Waikato Region;Matarangi
 0;175.8032,-36.8406;3510;Waikato Region;Hahei
 0;174.6026,-37.0124;0604;Auckland;Cornwallis
@@ -2356,10 +2483,21 @@
 0;174.3110,-35.7249;0110;Northland;Avenues
 0;175.4606,-36.7632;3543;Waikato Region;Wyuna Bay
 0;174.7865,-36.9990;2022;Auckland;Auckland Airport
+0;174.1943,-41.0637;;Marlborough;Otaki
+0;174.1726,-41.0520;;Marlborough;Melville Cove
+0;174.2483,-41.0602;;Marlborough;Cape Jackson
+0;174.2333,-41.1029;;Marlborough;Ship Cove
+0;174.2148,-41.1140;;Marlborough;Resolution Bay
+0;174.1836,-41.1229;;Marlborough;The Pines
 0;169.3596,-45.1454;9330;Otago;Waikerikeri
 0;175.1285,-37.4363;3710;Waikato Region;Rangiriri West
 0;172.6913,-40.7245;7182;Tasman District;Parapara
 0;175.5169,-37.0897;3500;Waikato Region;Whakatette Bay
+0;175.3396,-36.4852;;Waikato Region;Port Jackson
+0;168.8467,-43.9488;;West Coast;Carter's Mill
+0;168.9197,-43.8958;;West Coast;Johnston Cres
+0;168.8169,-44.0183;;West Coast;Walkwire
+0;169.8477,-44.2714;;Canterbury;Ohau
 0;174.2291,-39.3237;4332;Taranaki Region;Pembroke
 0;173.6395,-42.3708;7340;Canterbury;Kaikoura Flat
 0;174.0756,-39.0696;4340;Taranaki Region;Lower Vogeltown
@@ -2373,9 +2511,11 @@
 570;171.7030,-42.6055;7872;West Coast;Gloriavale Christian Church
 1090;172.5816,-43.6032;8025;Canterbury;Kennedys Bush
 0;174.6297,-39.2925;4392;Taranaki Region;Makahu
+0;166.0494,-50.7546;;;Lumina
 1560;174.7146,-37.1417;2122;Auckland;Clarks Beach
 0;175.1693,-36.9499;2585;Auckland;Kawakawa Bay
 0;173.3794,-34.8704;0483;Northland;Karikari Peninsula
+0;174.1015,-36.2871;;Northland;Pouto
 0;171.3745,-42.4828;7803;West Coast;Arnold Valley
 0;174.7546,-36.8411;1142;Auckland;Wynyard Quarter
 4300;168.7483,-45.0736;9300;Otago;Jack's Point

@@ -121726,3 +121726,1707 @@ en;Pennsauken Township;Pennsauken
 es;Municipio de Pennsauken;Pennsauken
 fa;پنساوکن، نیوجرسی;Pennsauken
 kk;Пэннсаукэн Тауншип;Pennsauken
+zh;內維鎮;Navy Town
+fa;ورا، تگزاس;Vera
+ml;വെറ;Vera
+fa;کارلتن، آلاباما;Carlton
+ur;کارلٹن، الاباما;Carlton
+ru;Хейбергер;Heiberger
+fa;هیبرگر;Heiberger
+zh;海博格;Heiberger
+fa;ماروین;Marvyn
+zh;默爾文;Marvyn
+fa;اولد تگزاس;Old Texas
+zh;奧爾德德克薩斯;Old Texas
+fa;پروت;Perote
+zh;佩羅特;Perote
+fa;واریوراستند;Warriorstand
+zh;沃里爾斯坦德;Warriorstand
+fa;کلمن;Coleman
+fa;فر اوکس;Fair Oaks
+ur;فیئر اوکس، ارکنساس;Fair Oaks
+fa;رلفس بلاف;Relfs Bluff
+zh;雷爾夫斯布拉夫;Relfs Bluff
+tt;Игоу-Джанкшен;Yeehaw Junction
+uk;Їгоу-Джанкшен;Yeehaw Junction
+ur;ییہو جنکشن، فلوریڈا;Yeehaw Junction
+ce;Игоу-Джанкшен;Yeehaw Junction
+zh;伊霍章克申;Yeehaw Junction
+ja;ユホー・ジャンクション;Yeehaw Junction
+fa;ییهاو جانکشن;Yeehaw Junction
+fa;بیچتون;Beachton
+zh;比奇頓;Beachton
+zh;唐納德;Donald
+zh;埃爾莫德爾;Elmodel
+fa;متاکالف;Metcalf
+fr;Metcalfe;Metcalf
+zh;莫尼亞克;Moniac
+ja;バターミルク;Buttermilk
+fa;باترمیلک;Buttermilk
+zh;巴特米爾克;Buttermilk
+zh;卡尼羅;Carneiro
+zh;迪爾黑德;Deerhead
+zh;迪比克;Dubuque
+tt;Эдмонд;Edmond
+uk;Едмонд;Edmond
+ce;Эдмонд;Edmond
+zh;埃德蒙;Edmond
+fa;ادموند، کانزاس;Edmond
+zh;米爾伯格;Milberger
+fa;پرستن، کانزاس;Preston
+tt;Сьюард;Seward
+ce;Сьюард;Seward
+zh;蘇厄德;Seward
+fa;سورد، کانزاس;Seward
+tt;Сусанк;Susank
+uk;Сусанк;Susank
+sr;Сасанк;Susank
+ce;Сусанк;Susank
+zh;蘇桑克;Susank
+ar;سوسانك;Susank
+fa;سوسانک، کانزاس;Susank
+zh;布萊克霍克;Black Hawk
+fa;پارملیزویل;Parmleysville
+zh;帕姆利斯維爾;Parmleysville
+zh;斯奎布;Squib
+fa;ولی ویو، کنتاکی;Valley View
+zh;瓦利維尤;Valley View
+fa;گرند بایو;Grand Bayou
+zh;大貝尤;Grand Bayou
+de;Hafen Fourchon;Port Fourchon
+pt;Porto Fourchon;Port Fourchon
+fa;پورت فورچان;Port Fourchon
+he;פורט פורשון;Port Fourchon
+zh;弗俄川港;Port Fourchon
+zh;肖;Shaw
+tt;Сингер;Singer
+ce;Сингер;Singer
+zh;辛格;Singer
+uk;Сінгер;Singer
+fa;سینگر، لوئیزیانا;Singer
+sr;Сингер;Singer
+ar;بيريمان;Berryman
+ar;ووماك;Womack
+ja;ウーマック;Womack
+fa;رمزی اسپرینگز;Ramsey Springs
+fa;یوکنا;Yokena
+ur;یوکینا، مسیسپی;Yokena
+fa;الدین، اوکلاهاما;Alden
+tt;Арпелар;Arpelar
+ce;Арпелар;Arpelar
+uk;Арпелар;Arpelar
+fa;آرپلار، اکلاهما;Arpelar
+fa;بورینگ;Bowring
+nb;Tacola;Cloud Chief
+fa;کلاود چیف;Cloud Chief
+fa;کوگار;Cogar
+fa;فراگویل;Frogville
+fa;آنتلوپ، تگزاس;Antelope
+zh-Hans;贝尔维尤;Bellevue
+fa;بلویو، تگزاس;Bellevue
+ar;بيرثرايت;Birthright
+fa;چری اسپرینگ;Cherry Spring
+fa;کرب‌اپل;Crabapple
+ar;ددوود;Deadwood
+ru;Дедвуд;Deadwood
+fa;ددوود، تگزاس;Deadwood
+fa;دو;Dew
+tt;Лавледи;Lovelady
+bg;Ловеладй;Lovelady
+uk;Лавледі;Lovelady
+sr;Лавлејди;Lovelady
+ce;Лавледи;Lovelady
+ar;لوفليدي;Lovelady
+ja;ラヴレディ;Lovelady
+fa;لاولیدی، تگزاس;Lovelady
+fa;مابله;Mabelle
+ur;مابیلی، ٹیکساس;Mabelle
+ar;ساوت بادري أيلاند;South Padre Island
+fa;جزیره پادره جنوبی;South Padre Island
+sr;Саут Падре Ајланд;South Padre Island
+fa;وشز;Weches
+tt;Канада-Крик-Ранч;Canada Creek Ranch
+zh;加拿大克里克蘭奇;Canada Creek Ranch
+ar;كاندا كريك رانش;Canada Creek Ranch
+uk;Канада-Крік-Ранч;Canada Creek Ranch
+fa;کانادا کریک رنچ;Canada Creek Ranch
+sr;Канада Крик Ранч;Canada Creek Ranch
+tt;Игл-Гарбор;Eagle Harbor
+el;Ιγκλ Χάρμπορ;Eagle Harbor
+zh;伊格爾港;Eagle Harbor
+uk;Ігл-Гарбор;Eagle Harbor
+fa;ایگل هاربور;Eagle Harbor
+sr;Игл Харбор;Eagle Harbor
+zh;派恩斯頓普章克申;Pine Stump Junction
+fa;آرتید;Arthyde
+zh;阿爾蒂德;Arthyde
+fa;بایک;Buyck
+fa;کستل دنجر;Castle Danger
+fa;سلینا;Celina
+fa;کلمنتسون;Clementson
+tt;Елбоу-Лейк;Elbow Lake
+zh;埃爾博萊克;Elbow Lake
+uk;Елбоу-Лейк;Elbow Lake
+fa;البو لیک;Elbow Lake
+sr;Елбоу Лејк;Elbow Lake
+fa;اماویل;Emmaville
+fa;گرین کرنر;Gheen Corner
+zh;吉斯;Giese
+fa;گریستون;Graceton
+fa;گرینی;Greaney
+fa;کبیتوگاما;Kabetogama
+fa;لیبی;Libby
+ur;لبی، مینیسوٹا;Libby
+fa;لیندن گروو;Linden Grove
+fa;مالمو;Malmo
+zh;馬爾莫;Malmo
+fa;میدو بروک;Meadow Brook
+tt;Нимрод;Nimrod
+ru;Нимрод;Nimrod
+uk;Німрод;Nimrod
+kk;Нимрод;Nimrod
+ce;Нимрод;Nimrod
+ky;Нимрод;Nimrod
+ar;نيمرود;Nimrod
+fa;نیمراد، مینه‌سوتا;Nimrod
+fa;پلند;Pelland
+ar;روزيو;Roseau
+fa;روسو، مینه‌سوتا;Roseau
+kk;Росиу;Roseau
+ky;Росиу;Roseau
+sr;Розо;Roseau
+uk;Росо;Roseau
+ru;Розо;Roseau
+fa;توگو;Togo
+zh;澤克爾;Zerkel
+tt;Элис;Alice
+ru;Элис;Alice
+uk;Еліс;Alice
+ur;ایلس، شمالی ڈکوٹا;Alice
+ce;Элис;Alice
+ko;앨리스;Alice
+ar;أليس;Alice
+fa;آلیس، داکوتای شمالی;Alice
+fa;کرینگتون، داکوتای شمالی;Carrington
+sr;Карингтон;Carrington
+zh;卡林顿;Carrington
+ar;كارينغتون;Carrington
+ur;کیرنگٹن، شمالی ڈکوٹا;Carrington
+ru;Карингтон;Carrington
+tt;Де-Ламер;De Lamere
+ce;Де-Ламер;De Lamere
+uk;Де-Ламер;De Lamere
+fa;دا لامر، داکوتای شمالی;De Lamere
+tt;Гамберг;Hamberg
+uk;Гамберг;Hamberg
+sr;Хамберг;Hamberg
+ce;Гамберг;Hamberg
+zh;汉伯格;Hamberg
+ar;هامبورغ;Hamberg
+fa;هامبورگ;Hamberg
+ur;ہاروی، شمالی ڈکوٹا;Harvey
+zh;哈维;Harvey
+tt;Монанго;Monango
+uk;Монанго;Monango
+ce;Монанго;Monango
+zh;莫南戈;Monango
+ar;مونانغو;Monango
+fa;مونانگو، داکوتای شمالی;Monango
+fa;نیو راکفرد، داکوتای شمالی;New Rockford
+sr;Њу Рокфорд;New Rockford
+zh;新罗克福德;New Rockford
+ar;نيو روكفورد;New Rockford
+ur;نیو راک فورڈ، شمالی ڈکوٹا;New Rockford
+tt;Селц;Selz
+ce;Селц;Selz
+uk;Селц;Selz
+fa;سلز، داکوتای شمالی;Selz
+sr;Селс;Selz
+tt;Вентурия;Venturia
+uk;Вентурія;Venturia
+ce;Вентурия;Venturia
+zh;文图里亚;Venturia
+ar;فينتوريا;Venturia
+fa;ونتوریا، داکوتای شمالی;Venturia
+tt;Линди;Lindy
+ru;Линди;Lindy
+uk;Лінді;Lindy
+ja;リンディ;Lindy
+fa;لیندی، نبراسکا;Lindy
+sr;Линди;Lindy
+ru;Диксвилл-Нотч;Dixville Notch
+ko;딕스빌노치;Dixville Notch
+el;Ντίξβιλ Νοτς;Dixville Notch
+zh;迪克斯維爾山口;Dixville Notch
+fa;دیکسویل نوچ، نیوهمپشر;Dixville Notch
+ja;ユリーカ;Eureka
+fa;یوریکا، داکوتای جنوبی;Eureka
+fa;وولا;Wewela
+fa;هیورد، ویسکانسین;Hayward
+ja;コーヴ;Cove
+nv;Kʼaabizhiistłʼah;Cove
+fa;کوو;Cove
+zh;科夫;Cove
+tt;Биттер-Спрингз;Bitter Springs
+nv;Díchʼíító;Bitter Springs
+uk;Біттер-Спрингз;Bitter Springs
+sr;Битер Спринг;Bitter Springs
+ce;Биттер-Спрингз;Bitter Springs
+zh;苦泉;Bitter Springs
+ar;بيتر سبرينغز;Bitter Springs
+fa;بیتر اسپرینگ;Bitter Springs
+tt;Бренда;Brenda
+ce;Бренда;Brenda
+zh;布倫達;Brenda
+uk;Бренда;Brenda
+fa;برندا;Brenda
+sr;Бренда;Brenda
+nv;Naʼníʼá Hayázhí;Cameron
+ur;کیمرون، ایریزونا;Cameron
+tt;Карризо;Carrizo
+ce;Карризо;Carrizo
+zh;卡里索;Carrizo
+uk;Каррізо;Carrizo
+fa;کاریزو;Carrizo
+sr;Каризо;Carrizo
+tt;Корнфилд;Cornfields
+ce;Корнфилд;Cornfields
+nv;Kʼiiłtsoiitah;Cornfields
+zh;玉米田;Cornfields
+uk;Корнфілд;Cornfields
+fa;کورن‌فیلدز;Cornfields
+sr;Корнфилдс;Cornfields
+tt;Дель-Муерто;Del Muerto
+ce;Дель-Муерто;Del Muerto
+nv;Tséyiʼ Bidááʼ;Del Muerto
+zh;迪爾穆埃爾托;Del Muerto
+uk;Дель-Муерто;Del Muerto
+fa;دل مویرتو;Del Muerto
+sr;Дел Муерто;Del Muerto
+zh;威爾斯沙漠;Desert Wells
+zh;德里克;Drake
+ar;دونكان;Duncan
+bg;Дънкан;Duncan
+fa;دانکن، آریزونا;Duncan
+uk;Дункан;Duncan
+zh;邓肯;Duncan
+ru;Большой каньон;Grand Canyon
+tt;Грисвуд;Greasewood
+nv;Díwózhii Biiʼ Tó;Greasewood
+uk;Грісвуд;Greasewood
+sr;Грисвуд;Greasewood
+ce;Грисвуд;Greasewood
+zh;格里斯伍德;Greasewood
+ar;غريسوود;Greasewood
+fa;گریس‌وود;Greasewood
+nv;Tsinyiʼ Beʼekʼid;Jacob Lake
+zh;雅各布湖;Jacob Lake
+tt;Джеддито;Jeddito
+nv;Jádító;Jeddito
+uk;Джеддіто;Jeddito
+ce;Джеддито;Jeddito
+zh;傑迪托;Jeddito
+ar;جيديتو;Jeddito
+fa;جدیتو;Jeddito
+tt;Кака;Kaka
+ce;Кака;Kaka
+ru;Кака;Kaka
+zh;卡卡;Kaka
+uk;Кака;Kaka
+fa;کاکا;Kaka
+sr;Кака;Kaka
+tt;Клагето;Klagetoh
+ce;Клагето;Klagetoh
+nv;Łeeyiʼtó;Klagetoh
+zh;克拉奇托;Klagetoh
+uk;Клагето;Klagetoh
+fa;کلاگتو;Klagetoh
+tt;Когатк;Kohatk
+ce;Когатк;Kohatk
+zh;科哈特克;Kohatk
+uk;Когатк;Kohatk
+fa;کوهاتک;Kohatk
+tt;Колс-Ранч;Kohls Ranch
+ce;Колс-Ранч;Kohls Ranch
+zh;科爾斯牧場;Kohls Ranch
+uk;Колс-Ранч;Kohls Ranch
+fa;کوهلز رنچ;Kohls Ranch
+sr;Колс Ранч;Kohls Ranch
+tt;Лоу-Маунтен;Low Mountain
+ce;Лоу-Маунтен;Low Mountain
+nv;Jeeh Deezʼá;Low Mountain
+zh;低山;Low Mountain
+uk;Лоу-Маунтен;Low Mountain
+fa;لو ماونتن;Low Mountain
+sr;Лоу Маунтин;Low Mountain
+uk;Марбл-Каньйон;Marble Canyon
+nv;Naʼníʼá Hatsoh;Marble Canyon
+fa;ماربل کانیون;Marble Canyon
+zh;大理石峽谷;Marble Canyon
+ja;マリコパ・ウェルズ;Maricopa Wells
+zh;馬里科帕威爾斯;Maricopa Wells
+nv;Naakaii Tó;Mexican Water
+fa;مکزیکن واتر;Mexican Water
+zh;墨西哥人之水;Mexican Water
+tt;Моккасин;Moccasin
+ce;Моккасин;Moccasin
+zh;莫卡辛;Moccasin
+uk;Моккасін;Moccasin
+fa;موکاسین;Moccasin
+sr;Мокасин;Moccasin
+fa;موهاوک;Mohawk
+tt;Оук-Спрингс;Oak Springs
+ce;Оук-Спрингс;Oak Springs
+nv;Teeł Chʼínítʼíʼ;Oak Springs
+zh;奧克泉;Oak Springs
+uk;Оук-Спрінгс;Oak Springs
+fa;اوک اسپرینگز;Oak Springs
+sr;Оук Спрингс;Oak Springs
+fa;پرکینزویل;Perkinsville
+zh;珀金斯維爾;Perkinsville
+tt;Писинемо;Pisinemo
+nv;Ayánítsiiʼí;Pisinemo
+uk;Пісінемо;Pisinemo
+ce;Писинемо;Pisinemo
+zh;皮西尼莫;Pisinemo
+fa;پیزینمو;Pisinemo
+nv;Tsé Łichííʼ Deezʼáhí;Red Rock
+zh;紅石;Red Rock
+fa;رد راک آپاچی کانتی، آریزونا;Red Rock
+zh;聖西蒙;San Simon
+uk;Сан-Сімон;San Simon
+fa;سن سایمون;San Simon
+sr;Сан Симон;San Simon
+tt;Санта-Роса;Santa Rosa
+nv;Kʼeelyéí Díílid;Santa Rosa
+ce;Санта-Роса;Santa Rosa
+fa;سانتارزا;Santa Rosa
+nv;Łid Néigahí;Smoke Signal
+fa;اسموک سیگنال;Smoke Signal
+zh;斯穆克西格諾爾;Smoke Signal
+tt;Стимбот;Steamboat
+nv;Tóyééʼ;Steamboat
+uk;Стімбот;Steamboat
+sr;Стимбот;Steamboat
+ce;Стимбот;Steamboat
+zh;汽船;Steamboat
+fa;استیمبوت;Steamboat
+tt;Тис-Нос-Пос;Teec Nos Pos
+nv;Tʼiis Názbąs;Teec Nos Pos
+uk;Тіс-Нос-Пос;Teec Nos Pos
+ce;Тис-Нос-Пос;Teec Nos Pos
+zh;提克諾斯波斯;Teec Nos Pos
+ar;تيك نوس بوس;Teec Nos Pos
+ja;ティース・ノス・ポス;Teec Nos Pos
+fa;تیک نوس پوس;Teec Nos Pos
+tt;Теба;Theba
+ce;Теба;Theba
+uk;Теба;Theba
+fa;تیبا;Theba
+sr;Тиба;Theba
+tt;Тонелия;Tonalea
+nv;Tó Nehelį́į́h;Tonalea
+uk;Тонелія;Tonalea
+ce;Тонелия;Tonalea
+zh;托納利亞;Tonalea
+ar;توناليا;Tonalea
+fa;تونالیا;Tonalea
+tt;Тонто-Вилледж;Tonto Village
+ce;Тонто-Вилледж;Tonto Village
+zh;湯托村;Tonto Village
+uk;Тонто-Вілледж;Tonto Village
+fa;تونتو ویلج;Tonto Village
+sr;Тонто Вилиџ;Tonto Village
+tt;Аттинг;Utting
+ce;Аттинг;Utting
+zh;烏廷;Utting
+uk;Аттінг;Utting
+fa;آتینگ;Utting
+tt;Виксбург;Vicksburg
+ce;Виксбург;Vicksburg
+zh;維克斯堡;Vicksburg
+fa;ویکسبرگ;Vicksburg
+tt;Вайд-Руинс;Wide Ruins
+ce;Вайд-Руинс;Wide Ruins
+nv;Kinteel;Wide Ruins
+zh;寬廢墟;Wide Ruins
+uk;Вайд-Руїнс;Wide Ruins
+fa;واید روئینز;Wide Ruins
+sr;Вајд Руинс;Wide Ruins
+fa;ویلیامز، آریزونا;Williams
+mr;विल्यम्स;Williams
+ar;ويليامز;Williams
+nv;Tsin Béelʼáhí;Williams
+ka;უილიამსი;Williams
+he;ויליאמס;Williams
+fa;ادلایدا، کالیفرنیا;Adelaida
+zh;阿德萊德;Adelaida
+tt;Аспен-Спрингс;Aspen Springs
+ce;Аспен-Спрингс;Aspen Springs
+nv;Tʼiistó Háálį́;Aspen Springs
+zh;阿斯彭斯普林斯;Aspen Springs
+uk;Аспен-Спрінгс;Aspen Springs
+fa;اسپن اسپرینگز;Aspen Springs
+sr;Аспен Спрингс;Aspen Springs
+fa;اسپن ولی;Aspen Valley
+zh;阿斯彭谷;Aspen Valley
+ru;Бэр-Валли;Bear Valley
+zh;比爾瓦利;Bear Valley
+ar;بير فالي;Bear Valley
+fa;بیر ولی، آلپاین کانتی، کالیفرنیا;Bear Valley
+fa;بلفورت;Belfort
+zh;貝爾福;Belfort
+fa;بنا;Bena
+zh;貝薩;Bena
+zh;貝弗里奇;Beveridge
+fa;بلکولز کورنر;Blackwells Corner
+zh;布萊克威爾斯角;Blackwells Corner
+zh;卡爾瓦達斯普林斯;Calvada Springs
+tr;Charleston View;Calvada Springs
+ja;チリアコ・サミット;Chiriaco Summit
+fa;چیریاکو سامیت;Chiriaco Summit
+he;צ'יריאקו סאמט;Chiriaco Summit
+zh;奇里亞科薩米特;Chiriaco Summit
+fa;کلاراویل;Claraville
+ur;کلاراویل، کیلیفورنیا;Claraville
+zh;克拉拉維爾;Claraville
+tt;Ковело;Covelo
+uk;Ковело;Covelo
+sr;Ковело;Covelo
+ce;Ковело;Covelo
+zh;科夫洛;Covelo
+ar;كوفلو;Covelo
+fa;کوولو;Covelo
+ru;Ковело;Covelo
+tt;Каяма;Cuyama
+ce;Каяма;Cuyama
+zh;庫亞馬;Cuyama
+uk;Каяма;Cuyama
+fa;کویاما;Cuyama
+ckb;کویاما، کالیفۆرنیا;Cuyama
+sr;Кајама;Cuyama
+fa;دنبی;Danby
+ur;ڈینبی، کیلیفورنیا;Danby
+zh;丹比;Danby
+zh;達達尼爾;Dardanelle
+el;Ντιπ Σπρινγκ;Deep Springs
+fa;دیپ اسپرینگز;Deep Springs
+zh;深泉;Deep Springs
+zh-Hans;埃尔默拉日;El Mirage
+zh;埃爾默拉日;El Mirage
+fa;فیلز هات اسپرینگز;Fales Hot Springs
+ur;فالیس ہوٹ سپرینگس، کیلیفورنیا;Fales Hot Springs
+zh;費爾斯溫泉;Fales Hot Springs
+fa;فلیسیتی;Felicity
+zh;費利斯城;Felicity
+zh;費納;Fenner
+zh;哈洛蘭泉;Halloran Springs
+zh-Hans;加州伊万帕;Ivanpah
+zh-Hant;加州伊萬帕;Ivanpah
+fa;آیوانپا;Ivanpah
+zh;伊文帕;Ivanpah
+zh;約翰遜代爾;Johnsondale
+ru;Лейк-Алпайн;Lake Alpine
+fa;لیک آلپاین;Lake Alpine
+ur;لیک الپینی، کیلیفورنیا;Lake Alpine
+zh;阿爾派恩湖;Lake Alpine
+ru;Луп;Loope
+fa;لوپ;Loope
+zh;盧普;Loope
+zh;路西亞;Lucia
+fa;مندنهال اسپرینگز;Mendenhall Springs
+zh;門登霍爾斯普林斯;Mendenhall Springs
+tt;Меттлер;Mettler
+uk;Меттлер;Mettler
+ce;Меттлер;Mettler
+zh;梅特勒;Mettler
+ar;ميتلار;Mettler
+fa;متلر;Mettler
+fa;مونتگومری سیتی;Montgomery City
+zh;蒙哥馬利城;Montgomery City
+fa;اوگیلبی;Ogilby
+he;אוגילבי;Ogilby
+fa;پنوچ;Panoche
+zh;帕諾奇;Panoche
+mr;पार्कफील्ड;Parkfield
+zh;帕克菲爾德;Parkfield
+ja;パークフィールド;Parkfield
+fa;پارکفیلد;Parkfield
+he;פארקפילד;Parkfield
+sr;Розамонд;Rosamond
+ru;Розамонд;Rosamond
+tt;Раунд-Велли;Round Valley
+nv;Binázlíní;Round Valley
+uk;Раунд-Веллі;Round Valley
+sr;Раунд Вали;Round Valley
+ce;Раунд-Велли;Round Valley
+zh;彎谷;Round Valley
+ar;وادي راوند;Round Valley
+fa;راند ولی;Round Valley
+zh;桑德伯格;Sandberg
+ja;サンドバーグ;Sandberg
+ja;シルバーシティ;Silver City
+fa;سیلور سیتی;Silver City
+tt;Сталлион-Спрингс;Stallion Springs
+nv;Łį́į́ʼ Bitooʼ;Stallion Springs
+uk;Сталліон-Спрінгс;Stallion Springs
+sr;Сталјон Спрингс;Stallion Springs
+ce;Сталлион-Спрингс;Stallion Springs
+zh;種馬泉;Stallion Springs
+ar;ستاليون سبرينغز;Stallion Springs
+fa;استالیون اسپرینگز;Stallion Springs
+fa;تامز پلیس;Toms Place
+zh;湯姆斯普萊斯;Toms Place
+ar;تو هاربور;Two Harbors
+fa;تو هاربرز;Two Harbors
+zh;雙港;Two Harbors
+zh;惠特尼波托爾;Whitney Portal
+ru;Зайзикс;Zzyzx
+be;Зайзікс;Zzyzx
+ko;자이직스;Zzyzx
+zh;宰兹克斯;Zzyzx
+ja;ジージックス;Zzyzx
+fa;زایزکس;Zzyzx
+fa;ابیویل، کلورادو;Abbeyville
+fa;التورا، کلورادو;Altura
+fa;بویرو;Boyero
+zh;博耶羅;Boyero
+bg;Карбъндейл;Carbondale
+fa;کربوندیل، کلرادو;Carbondale
+kk;Карбондэйл;Carbondale
+ur;کاربنڈیل، کولوراڈو;Carbondale
+tt;Кесидрал;Cathedral
+ce;Кесидрал;Cathedral
+nv;Tłʼohchintó Bikooh;Cathedral
+zh;大教堂;Cathedral
+uk;Кесідрал;Cathedral
+fa;کتدرال;Cathedral
+sr;Катидрал;Cathedral
+tt;Кетрин;Catherine
+ce;Кетрин;Catherine
+uk;Кетрін;Catherine
+fa;کاترین;Catherine
+fa;دهلی;Delhi
+fa;دیورا;Deora
+zh;迪歐拉;Deora
+ar;إيدس;Eads
+fa;ایدس، کلرادو;Eads
+kk;Идс;Eads
+sr;Идс;Eads
+zh;伊兹;Eads
+zh;弗斯特維尤;Firstview
+zh;萊昂堡;Fort Lyon
+fa;هیل;Hale
+tt;Айдалия;Idalia
+ce;Айдалия;Idalia
+zh;艾達利亞;Idalia
+uk;Айдалія;Idalia
+fa;آیدالیا;Idalia
+sr;Ајдалија;Idalia
+bg;Лас Анимас;Las Animas
+fa;لاس انیماس، کلرادو;Las Animas
+kk;Лас Энимас;Las Animas
+sr;Лас Анимас;Las Animas
+zh;拉斯阿尼马斯;Las Animas
+ar;لاس أنيماس;Las Animas
+ja;モデル;Model
+fa;مدل;Model
+zh;模特;Model
+tt;Малфорд;Mulford
+ce;Малфорд;Mulford
+nv;Tóchxaazh Bibąąh;Mulford
+zh;馬爾福德;Mulford
+uk;Малфорд;Mulford
+fa;مالفورد;Mulford
+sr;Малфорд;Mulford
+fa;نیناویو;Ninaview
+zh;尼納維尤;Ninaview
+tt;Таунер;Towner
+ce;Таунер;Towner
+zh;陶納;Towner
+uk;Таунер;Towner
+fa;تانر;Towner
+sr;Таунер;Towner
+tt;Весткрик;Westcreek
+uk;Весткрік;Westcreek
+sr;Весткрик;Westcreek
+kk;Уесткрик;Westcreek
+ce;Весткрик;Westcreek
+ky;Уесткрик;Westcreek
+zh;韋斯特克里克;Westcreek
+fa;وستکریک;Westcreek
+fa;وودرو;Woodrow
+zh;伍德羅;Woodrow
+fa;فریند;Friend
+zh;弗倫德;Friend
+zh;加諾;Gano
+fa;کالوستا;Kalvesta
+zh;卡爾維斯塔;Kalvesta
+ar;روسيل سبرنغز;Russell Springs
+fa;راسل اسپرینگز، کانزاس;Russell Springs
+zh;坦尼斯;Tennis
+sr;Анимас;Animas
+tt;Анимас;Animas
+ce;Анимас;Animas
+nv;Chʼíhoogaaí;Animas
+uk;Анімас;Animas
+fa;آنیماس;Animas
+ja;アンテロープ・ウェル;Antelope Wells
+fa;انتلوپ ولز;Antelope Wells
+tt;Беклабито;Beclabito
+nv;Bitłʼááh Bitoʼ;Beclabito
+uk;Беклабіто;Beclabito
+sr;Беклабито;Beclabito
+kk;Бэклабито;Beclabito
+ce;Беклабито;Beclabito
+ky;Бэклабито;Beclabito
+ar;بيكلابيتو;Beclabito
+fa;بکلابیتو;Beclabito
+nv;Gad Dah Yiskʼid;Cedar Hill
+fa;سیدار هیل;Cedar Hill
+tt;Чилили;Chilili
+nv;Tó Hááłtsʼąʼ;Chilili
+uk;Чилілі;Chilili
+kk;Чилили;Chilili
+ce;Чилили;Chilili
+ky;Чилили;Chilili
+ar;تشيليلي;Chilili
+fa;چیلیلی;Chilili
+fa;سیمران، نیومکزیکو;Cimarron
+tt;Краунпойнт;Crownpoint
+nv;Tʼiistsʼóóz Ńdeeshgizh;Crownpoint
+uk;Краунпойнт;Crownpoint
+sr;Краунпојнт;Crownpoint
+kk;Кроунпйнт;Crownpoint
+ce;Краунпойнт;Crownpoint
+ky;Кроунпйнт;Crownpoint
+ja;クラウンポイント（ニューメキシコ州）;Crownpoint
+fa;مسیلا، نیومکزیکو;Crownpoint
+nv;Tó Niłtsʼílí;Crystal
+tt;Дейтил;Datil
+ce;Дейтил;Datil
+nv;Hashkʼaan Bidziil;Datil
+uk;Дейтіл;Datil
+fa;دتیل;Datil
+sr;Дејтил;Datil
+tt;Дюран;Duran
+ce;Дюран;Duran
+nv;Łibáí Dah Azkání;Duran
+uk;Дюран;Duran
+fa;دورن;Duran
+sr;Дуран;Duran
+ur;ڈوائر، نیو میکسیکو;Dwyer
+fa;مونتویا;Montoya
+nv;Łį́į́ʼ Bitoʼ;Old Horse Springs
+fa;اولد هورس اسپرینگز;Old Horse Springs
+tt;Пасчура;Pastura
+ce;Пасчура;Pastura
+ar;باستورا;Pastura
+uk;Пасчура;Pastura
+fa;پاستورا;Pastura
+tt;Пай-Таун;Pie Town
+ce;Пай-Таун;Pie Town
+nv;Masdéél;Pie Town
+zh;派鎮;Pie Town
+uk;Пай-Таун;Pie Town
+ja;パイ・タウン;Pie Town
+fa;پای تاون;Pie Town
+sr;Пај Таун;Pie Town
+tt;Плаяс;Playas
+ce;Плаяс;Playas
+uk;Плаяс;Playas
+fa;پلایس;Playas
+sr;Плаја;Playas
+kk;Пуйэбло Пинтадо;Pueblo Pintado
+nv;Náhodeeshgiizh Chʼínílíní;Pueblo Pintado
+sr;Пуебло Пинтадо;Pueblo Pintado
+tt;Сан-Матео;San Mateo
+ce;Сан-Матео;San Mateo
+nv;Haltso;San Mateo
+fa;سن ماتئو;San Mateo
+tt;Шипрок;Shiprock
+nv;Naatʼáanii Nééz;Shiprock
+uk;Шипрок;Shiprock
+sr;Шипрок;Shiprock
+kk;Шипрок;Shiprock
+ce;Шипрок;Shiprock
+ky;Шипрок;Shiprock
+zh;希普洛克;Shiprock
+ar;شيبروك;Shiprock
+ja;シップロック（ニューメキシコ州）;Shiprock
+fa;شیپراک;Shiprock
+ru;Шипрок;Shiprock
+bg;София;Sofia
+fa;تری ریورز;Three Rivers
+tt;Вайт-Сигнал;White Signal
+ce;Вайт-Сигнал;White Signal
+nv;Tsétsádi Nídíní;White Signal
+uk;Вайт-Сігнал;White Signal
+fa;وایت سیگنال;White Signal
+sr;Вајт Сигнал;White Signal
+nv;Tó Dichʼííʼ Nílį́;Amargosa Valley
+ar;أمارغوسا فالي;Amargosa Valley
+vi;Thung lũng Amargosa;Amargosa Valley
+fa;دره امرگوسا، نوادا;Amargosa Valley
+ur;ایمرگوسا ویلی، نیواڈا;Amargosa Valley
+ar;باركلاي;Barclay
+nv;Tłʼohwaaʼí Biiʼ Ndzisgaii;Barclay
+fa;بارکلی، نوادا;Barclay
+fa;کارپ;Carp
+ru;Черри-Крик;Cherry Creek
+ja;チェリー・クリーク;Cherry Creek
+nv;Bįįh Yildeeʼí Bikooh;Cherry Creek
+fa;چری کریک;Cherry Creek
+nv;Tó Daazlíní;Currant
+fa;کورانت;Currant
+fa;فرنچمن;Frenchman
+ko;메이저플레이스;Majors Place
+fa;میجرز پلیس;Majors Place
+ar;بريم;Primm
+fa;پریم، نوادا;Primm
+ur;پریم، نیواڈا;Primm
+nv;Tó Diłhił;Primm
+zh;普里姆;Primm
+ja;プリム;Primm
+tt;Рейчел;Rachel
+zh-Hans;瑞吉儿镇;Rachel
+zh-Hant;瑞吉兒鎮;Rachel
+uk;Рейчел;Rachel
+ur;ریچل، نیواڈا;Rachel
+sr;Рејчел;Rachel
+ml;റേച്ചൽ;Rachel
+zh;瑞秋地區;Rachel
+ar;راتشيل;Rachel
+ja;レイチェル;Rachel
+fa;ریچل، نوادا;Rachel
+ar;ريولايت;Rhyolite
+uk;Ріоліт;Rhyolite
+ru;Риолит;Rhyolite
+tt;Силвер-Пик;Silver Peak
+nv;Béésh Łigaii Bidziil;Silver Peak
+ar;سيلفر بيك;Silver Peak
+uk;Сілвер-Пік;Silver Peak
+fa;سیلور پیک، نوادا;Silver Peak
+sr;Силвер Пик;Silver Peak
+nv;Shą́ąʼjįʼí;Sunnyside
+tt;Сатклифф;Sutcliffe
+uk;Саткліфф;Sutcliffe
+sr;Сатклиф;Sutcliffe
+kk;Сатклайфф;Sutcliffe
+ky;Сатклайфф;Sutcliffe
+ar;ساتكليف;Sutcliffe
+ja;サトクリフ;Sutcliffe
+fa;سوتکلیف، نوادا;Sutcliffe
+tt;Урсин;Ursine
+nv;Shash Bitééh;Ursine
+uk;Урсін;Ursine
+ja;アーシン;Ursine
+fa;ارساین، نوادا;Ursine
+sr;Ерсајн;Ursine
+tt;Вокер-Лейк;Walker Lake
+nv;Beʼekʼid Diłhił;Walker Lake
+uk;Вокер-Лейк;Walker Lake
+fa;واکر لیک، نوادا;Walker Lake
+sr;Вокер Лејк;Walker Lake
+ar;وورم سبرينغز;Warm Springs
+nv;Tó Sido;Warm Springs
+fa;هاف;Hough
+fa;ویلس;Wheeless
+fa;ادامز، تگزاس;Adams
+fa;آلتودا;Altuda
+fa;بیکرزفیلد، تگزاس;Bakersfield
+fa;بیگ لیک، تگزاس;Big Lake
+fa;کورنیداس;Cornudas
+fa;گراسلند;Grassland
+tt;Гомстед-Медоус-Норт;Homestead Meadows North
+uk;Гомстед-Медоус-Норт;Homestead Meadows North
+sr;Хомстед Медоус Норт;Homestead Meadows North
+ce;Гомстед-Медоус-Норт;Homestead Meadows North
+ar;هومستياد ميدوز نورث;Homestead Meadows North
+fa;هومستد میدوز نورت;Homestead Meadows North
+fa;پیکاک;Peacock
+he;רדפורד;Redford
+ur;سینٹ لارنس، ٹیکساس;Saint Lawrence
+fa;کینویل;Caineville
+nv;Kʼaiʼ Háálį́;Callao
+ur;کالاؤ، یوٹاہ;Callao
+zh;卡廖;Callao
+nv;Tó Sido;Gandy
+fa;گاندی;Gandy
+ar;هانكسفيل;Hanksville
+fa;هنکسویل، یوتا;Hanksville
+sr;Ханксвил;Hanksville
+zh;汉克斯维尔;Hanksville
+ur;انڈینولا، یوٹاہ;Indianola
+fa;پارتون;Partoun
+zh;帕頓;Partoun
+ar;سكوفيلد;Scofield
+fa;اسکوفیلد، یوتا;Scofield
+ko;스코필드;Scofield
+sr;Скофилд;Scofield
+zh;斯科菲尔德;Scofield
+fa;تیکابو;Ticaboo
+fa;یوکولو، یوتا;Ucolo
+ur;اکولو، اتاہ;Ucolo
+nv;Tsin Názbąs;Winona
+fa;وینونا;Winona
+nv;Dootłʼizh Dah Azką́;Sapinero
+fa;ساپینرو;Sapinero
+zh;薩皮內羅;Sapinero
+ar;بيتي;Beatty
+kk;Битти;Beatty
+sr;Бити;Beatty
+fa;بیتی، نوادا;Beatty
+ur;بیٹی، نیواڈا;Beatty
+ur;ایلمووڈ، اوکلاہوما;Elmwood
+ce;Ахо;Ajo
+ja;アホ;Ajo
+uk;Ахо;Ajo
+ru;Ахо;Ajo
+fa;اجو، اریزونا;Ajo
+bg;Рей;Wray
+fa;ورای، کلرادو;Wray
+kk;Рэй;Wray
+sr;Вреј;Wray
+zh;雷;Wray
+tt;Касаан;Kasaan
+ru;Касан;Kasaan
+uk;Касаан;Kasaan
+sr;Касан;Kasaan
+ml;കസാൻ;Kasaan
+ce;Касаан;Kasaan
+zh;卡萨安;Kasaan
+ar;كاسان;Kasaan
+ja;カサン（アラスカ州）;Kasaan
+fa;کاسان، آلاسکا;Kasaan
+tt;Клукван;Klukwan
+ru;Клукуан;Klukwan
+uk;Клукван;Klukwan
+ce;Клукван;Klukwan
+zh;克魯可文;Klukwan
+fa;کلوک‌وان;Klukwan
+tt;Купреянов;Kupreanof
+uk;Купреянов;Kupreanof
+sr;Куприноф;Kupreanof
+ml;കുപ്രിയാനോഫ്;Kupreanof
+ce;Купреянов;Kupreanof
+zh;库普列阿诺夫;Kupreanof
+fa;کوپریانوف، آلاسکا;Kupreanof
+fa;لیک کریک;Lake Creek
+ur;لیک کریک، اوریگان;Lake Creek
+tt;Нокати-Бей;Naukati Bay
+ce;Нокати-Бей;Naukati Bay
+zh;瑙卡蒂灣;Naukati Bay
+uk;Нокаті-Бей;Naukati Bay
+ja;ナウカティベイ（アラスカ州）;Naukati Bay
+fa;نوکاتی بی، آلاسکا;Naukati Bay
+fa;پیترزبورگ، آلاسکا;Petersburg
+mrj;Петербург;Petersburg
+it;Borough di Petersburg;Petersburg
+uk;Пітерсберг;Petersburg
+ur;پیٹرزبرگ، الاسکا;Petersburg
+tt;Бютт-Медоус;Butte Meadows
+ce;Бютт-Медоус;Butte Meadows
+zh;比尤特梅多斯;Butte Meadows
+uk;Бютт-Медоус;Butte Meadows
+fa;بیوت مدوز;Butte Meadows
+sr;Бјут Медоус;Butte Meadows
+tt;Калифорния-Пайнс;California Pines
+ce;Калифорни-Пайнс;California Pines
+zh;加利福尼亞派恩斯;California Pines
+uk;Каліфорнія-Пайнс;California Pines
+fa;کالیفرنیا پاینز;California Pines
+sr;Калифорнија Пајнс;California Pines
+fa;دینزمور;Dinsmore
+zh;丁斯莫爾;Dinsmore
+tt;Гаскет;Gasquet
+ce;Гаскет;Gasquet
+zh;加斯克特;Gasquet
+uk;Гаскет;Gasquet
+fa;گسکت;Gasquet
+he;גאסקט;Gasquet
+zh;海登山;Hayden Hill
+tt;Мед-Ривер;Mad River
+ce;Мед-Ривер;Mad River
+zh;馬德河;Mad River
+uk;Мед-Рівер;Mad River
+fa;مد ریور;Mad River
+he;מאד ריבר;Mad River
+sr;Мад Ривер;Mad River
+zh;龐多薩;Pondosa
+sr;Тенант;Tennant
+zh;坦南特;Tennant
+fa;تننت;Tennant
+he;ויצ'פק;Weitchpec
+zh;韋特佩克;Weitchpec
+fa;الوین، کلورادو;Alvin
+fa;هویت;Hoyt
+tt;Лерд;Laird
+ce;Лерд;Laird
+zh;萊爾德;Laird
+uk;Лерд;Laird
+fa;لایارد;Laird
+ur;لائرڈ، کولوراڈو;Laird
+sr;Леард;Laird
+fa;لیورمور;Livermore
+ur;لیورمور، کولوراڈو;Livermore
+zh;李佛摩;Livermore
+tt;Мейбелл;Maybell
+ce;Мейбелл;Maybell
+ko;메이벨;Maybell
+nv;Haltsooídááʼ;Maybell
+zh;梅貝爾;Maybell
+uk;Мейбелл;Maybell
+fa;می‌بل;Maybell
+sr;Мејбел;Maybell
+ja;ミルナー;Milner
+zh;米爾納;Milner
+zh;沃內塔;Wauneta
+ar;أميريكان فولس;American Falls
+bg;Американ Фолс;American Falls
+fa;امریکن فالز، آیداهو;American Falls
+ka;ამერიკან-ფოლსი;American Falls
+kk;Американ Фолс;American Falls
+ko;아메리칸폴스;American Falls
+mk;Американ Фолс;American Falls
+sr;Американ Фолс;American Falls
+ru;Американ Фолс;American Falls
+fa;بون;Bone
+zh;博恩;Bone
+fa;برونی;Bruneau
+zh;布諾;Bruneau
+ru;Бургдорф;Burgdorf
+ja;バーグドーフ;Burgdorf
+fa;برگدورف;Burgdorf
+zh;布格多夫;Burgdorf
+ar;كاسكيد;Cascade
+bg;Каскейд;Cascade
+fa;کسکید، آیداهو;Cascade
+ka;კასკადი;Cascade
+sr;Каскејд;Cascade
+tt;Декло;Declo
+bg;Деклоу;Declo
+ka;დეკლო;Declo
+uk;Декло;Declo
+sr;Декло;Declo
+kk;Дэкло;Declo
+ce;Декло;Declo
+ky;Дэкло;Declo
+zh;德克洛;Declo
+ar;ديكلو;Declo
+ja;デクロ;Declo
+fa;دکلو، آیداهو;Declo
+zh;埃爾克本德;Elk Bend
+ur;گولڈن، ایڈاہو;Golden
+zh;戈爾登;Golden
+zh;黑德夸特斯;Headquarters
+ka;ჰოლისტერი;Hollister
+fa;هولیستر، آیداهو;Hollister
+ur;پیٹرسن، ایڈاہو;Patterson
+fa;ریدل، آیداهو;Riddle
+zh;羅伊;Roy
+tt;Смитс-Ферри;Smiths Ferry
+ce;Смитс-Ферри;Smiths Ferry
+zh;史密斯費里;Smiths Ferry
+uk;Смітс-Феррі;Smiths Ferry
+fa;اسمیتس فری;Smiths Ferry
+sr;Смитс Фери;Smiths Ferry
+fa;استنلی، آیداهو;Stanley
+bg;Стенли;Stanley
+tt;Станли;Stanley
+uk;Станлі;Stanley
+ce;Станли;Stanley
+tt;Алзада;Alzada
+uk;Алзада;Alzada
+fa;الزادا، مونتانا;Alzada
+ar;برودوس;Broadus
+fa;بروودس، مونتانا;Broadus
+kk;Брудас;Broadus
+zh;布罗德斯;Broadus
+ur;کربی، مونٹانا;Kirby
+fa;لیک مک دونالد;Lake McDonald
+ur;لیک مکڈونالڈ، مونٹانا;Lake McDonald
+tt;Лодж-Поул;Lodge Pole
+ar;لودج بولي;Lodge Pole
+uk;Лодж-Поул;Lodge Pole
+fa;لاج پوول، مونتانا;Lodge Pole
+sr;Лоџ Пол;Lodge Pole
+fa;لوتر;Luther
+ur;میلویل، مونٹانا;Melville
+fa;مونیدا;Monida
+fa;کوئیتوس;Quietus
+zh;旭日汽车营地;Rising Sun
+fa;رزباد;Rosebud
+en;St. Phillip;Saint Phillip
+tt;Тостон;Toston
+uk;Тостон;Toston
+fa;توستون، مونتانا;Toston
+sr;Тостон;Toston
+ar;وايت سولفر سبرينغز;White Sulphur Springs
+bg;Уайт Сълфъл Спрингс;White Sulphur Springs
+fa;وایت سالفر اسپرینگز، مونتانا;White Sulphur Springs
+kk;Уайт Сульфур Спрингс;White Sulphur Springs
+tt;Яак;Yaak
+uk;Яак;Yaak
+fa;یاک، مونتانا;Yaak
+ur;یاک، مونٹانا;Yaak
+ja;ゼロ;Zero
+fa;الکابو، شمال داکوتا;Alkabo
+tt;Амброз;Ambrose
+ru;Амброз;Ambrose
+uk;Амброз;Ambrose
+sr;Амброз;Ambrose
+ce;Амброз;Ambrose
+zh;安布罗斯;Ambrose
+ar;أمبروز;Ambrose
+ja;アンブローズ;Ambrose
+fa;امبرووز، داکوتای شمالی;Ambrose
+tt;Флешер;Flasher
+uk;Флешер;Flasher
+ur;فلیشر، شمالی ڈکوٹا;Flasher
+sr;Флашер;Flasher
+ce;Флешер;Flasher
+zh;弗拉舍;Flasher
+ar;فلاشر;Flasher
+fa;فلشر، داکوتای شمالی;Flasher
+fa;گاردینا، داکوتای شمالی;Gardena
+ur;گیریژن، شمالی ڈکوٹا;Garrison
+fa;گرسن، داکوتای شمالی;Garrison
+ru;Гарисон;Garrison
+fa;هانوفر;Hannover
+ur;ہنور، شمالی ڈکوٹا;Hannover
+tt;Гармон;Harmon
+ce;Гармон;Harmon
+ar;هارمون;Harmon
+uk;Гармон;Harmon
+fa;هارمون;Harmon
+sr;Хармон;Harmon
+tt;Гейнс;Haynes
+uk;Гейнс;Haynes
+ur;ہینز، شمالی ڈکوٹا;Haynes
+sr;Хејнс;Haynes
+ce;Гейнс;Haynes
+zh;海恩斯;Haynes
+ar;هاينز;Haynes
+fa;هینز، داکوتای شمالی;Haynes
+tt;Оррин;Orrin
+ce;Оррин;Orrin
+uk;Оррин;Orrin
+fa;اورین، داکوتای شمالی;Orrin
+sr;Орин;Orrin
+tt;Поркюпайн;Porcupine
+ce;Поркюпайн;Porcupine
+uk;Поркюпайн;Porcupine
+fa;پرکیپاین، داکوتای شمالی;Porcupine
+sr;Поркјупајн;Porcupine
+tt;Селфридж;Selfridge
+zh-Hant;塞爾弗里奇;Selfridge
+uk;Селфридж;Selfridge
+sr;Селфриџ;Selfridge
+ce;Селфридж;Selfridge
+zh-HK;塞爾弗里奇;Selfridge
+zh;塞尔弗里奇;Selfridge
+ar;سلفريدج;Selfridge
+fa;سلفریج، داکوتای شمالی;Selfridge
+zh;雙峰;Twin Buttes
+fa;اگات، نبرسکا;Agate
+ar;بيوواوي;Beowawe
+nv;Tó Sidolchxoshí;Beowawe
+fa;بیووا;Beowawe
+tt;Имлей;Imlay
+nv;Haltsooító Názlíní;Imlay
+uk;Імлей;Imlay
+fa;ایملی، نوادا;Imlay
+nv;Halgaitah Yańdeilkʼidí;Jiggs
+fa;جیگز;Jiggs
+ur;لی، نیواڈا;Lee
+fa;اویسیس، نوادا;Oasis
+fa;رابی ولی;Ruby Valley
+ur;الما، اوریگون;Alma
+fa;الما، اوریگون;Alma
+fa;بلوریور;Blue River
+fa;کارپنترویل;Carpenterville
+ar;تشيلوكوين;Chiloquin
+bg;Чилъкуин;Chiloquin
+fa;چیلقوین، اورگن;Chiloquin
+kk;Чилокуин;Chiloquin
+th;ชิโลควิน;Chiloquin
+tt;Чилоквин;Chiloquin
+uk;Чилоквін;Chiloquin
+ce;Чилоквин;Chiloquin
+zh;奇洛昆;Chiloquin
+ky;Чилокуин;Chiloquin
+he;צ'ילוקווין;Chiloquin
+fa;کلارنو;Clarno
+ja;エルシー;Elsie
+fa;السی;Elsie
+fa;فیلدز;Fields
+fa;گالیس;Galice
+bg;Гранит;Granite
+kk;Грэнит;Granite
+ky;Грэнит;Granite
+fa;گرانیت، اورگن;Granite
+fa;هولدمن;Holdman
+fa;جول;Jewell
+ar;جوردان فالي;Jordan Valley
+bg;Джордан Вали;Jordan Valley
+fa;جردن والی، اورگن;Jordan Valley
+kk;Джордан Валлэй;Jordan Valley
+tt;Джордан-Велли;Jordan Valley
+uk;Джордан-Веллі;Jordan Valley
+ce;Джордан-Велли;Jordan Valley
+ky;Джордан Валлэй;Jordan Valley
+tt;Кингс-Велли;Kings Valley
+ce;Кингс-Велли;Kings Valley
+uk;Кінгс-Веллі;Kings Valley
+fa;کینگز ولی، اورگن;Kings Valley
+fa;لیک وودز;Lake of the Woods
+ur;لیک آف دی وڈز، اوریگان;Lake of the Woods
+tt;Лоунрок;Lonerock
+bg;Лоунрок;Lonerock
+uk;Лоунрок;Lonerock
+kk;Лоунрок;Lonerock
+ce;Лоунрок;Lonerock
+ky;Лоунрок;Lonerock
+ar;لونروك;Lonerock
+fa;لنرک، اورگن;Lonerock
+fa;ماریون فورکس;Marion Forks
+ar;موبين;Maupin
+bg;Мопин;Maupin
+fa;موپین، اورگن;Maupin
+kk;Маупин;Maupin
+tt;Мопин;Maupin
+uk;Мопін;Maupin
+ce;Мопин;Maupin
+ky;Маупин;Maupin
+ru;Минам;Minam
+fa;نیو پرینستون;New Princeton
+ur;نیو پرنسٹن، اوریگون;New Princeton
+fa;پالینا;Paulina
+fa;ریموت;Remote
+ur;رچمنڈ، اوریگون;Richmond
+fa;ریلی;Riley
+tt;Санривер;Sunriver
+zh-Hant;太陽河;Sunriver
+uk;Санрівер;Sunriver
+ur;سن ریور، اوریگون;Sunriver
+ce;Санривер;Sunriver
+zh;太阳河;Sunriver
+ja;サンリヴァー;Sunriver
+fa;سان‌ریور;Sunriver
+ja;ワゴンタイヤ;Wagontire
+fa;واگنتیر;Wagontire
+fa;بلکپایپ;Blackpipe
+fa;کاتنوود، داکوتای جنوبی;Cottonwood
+hi;कस्टर;Custer
+fa;کاستر، داکوتای جنوبی;Custer
+ar;كستر;Custer
+ur;کیسٹر، جنوبی ڈکوٹا;Custer
+fa;دیوی;Dewey
+tt;Грин-Грасс;Green Grass
+ce;Грин-Грасс;Green Grass
+uk;Грін-Грасс;Green Grass
+fa;گرین گرس، داکوتای جنوبی;Green Grass
+sr;Грин Грас;Green Grass
+fa;رد شیرت;Red Shirt
+fa;کنولز;Knolls
+fa;لیک پوینت، یوتا;Lake Point
+ur;لیک پوائنٹ، اتاہ;Lake Point
+nv;Tóʼahidiilį́;Ouray
+fa;اورای;Ouray
+tt;Тимбер-Лейкс;Timber Lakes
+ce;Тимбер-Лейкс;Timber Lakes
+ar;تيمبر ليكس;Timber Lakes
+uk;Тімбер-Лейкс;Timber Lakes
+fa;تیمبر لیکس;Timber Lakes
+sr;Тимбер Лејкс;Timber Lakes
+fa;یوست یوتا;Yost
+ur;یوسٹ، اتھاہ;Yost
+tt;Клиффделл;Cliffdell
+ce;Клиффделл;Cliffdell
+uk;Кліффделл;Cliffdell
+fa;کلیفدل;Cliffdell
+sr;Клифдел;Cliffdell
+cy;Cole's Corner;Coles Corner
+tt;Дисотел;Disautel
+ce;Дисотел;Disautel
+uk;Дісотел;Disautel
+tt;Глейшер;Glacier
+uk;Глейшер;Glacier
+sr;Глејшер;Glacier
+ce;Глейшер;Glacier
+ja;グレイシャー;Glacier
+az;Qleyşer;Glacier
+fa;گلیسیر;Glacier
+fa;گوس پریری;Goose Prairie
+fa;ایربی;Irby
+fa;نیوهیلم;Newhalem
+tt;Озо;Oso
+uk;Озо;Oso
+sr;Осо;Oso
+ce;Озо;Oso
+zh;奧索;Oso
+ar;أوسو;Oso
+ja;ワシントン州オソ;Oso
+fa;اوسو;Oso
+ar;أوثيلو;Othello
+az;Otello;Othello
+bg;Отело;Othello
+fa;اوتلو، واشینگتن;Othello
+sr;Отело;Othello
+zh;奧賽羅;Othello
+tt;Отелло;Othello
+zh-Hans;奥赛罗;Othello
+uk;Отелло;Othello
+ce;Отелло;Othello
+ja;オテロ;Othello
+fa;پلین، واشینگتن;Plain
+tt;Квитс;Queets
+ce;Квитс;Queets
+uk;Квітс;Queets
+fa;کویتس;Queets
+he;קוויטס;Queets
+sr;Квитс;Queets
+tt;Тампико;Tampico
+ce;Тампико;Tampico
+uk;Тампіко;Tampico
+tt;Антелоп-Гиллс;Antelope Hills
+ce;Антелоп-Гиллс;Antelope Hills
+ru;Антелоп-Хилс;Antelope Hills
+uk;Антелоп-Гіллс;Antelope Hills
+fa;آنتلوپ هیل، وایومینگ;Antelope Hills
+sr;Антилоп Хилс;Antelope Hills
+tt;Атлантик-Сити;Atlantic City
+fa;آتلانتیک سیتی، وایومینگ;Atlantic City
+tt;Боулдер;Boulder
+ce;Боулдер;Boulder
+ja;ボールダー;Boulder
+fa;بولدر، وایومینگ;Boulder
+ur;ڈوائر، وائیومنگ;Dwyer
+tt;Фонтанелл;Fontenelle
+ce;Фонтанелл;Fontenelle
+ru;Фонтенелл;Fontenelle
+uk;Фонтанелл;Fontenelle
+fa;فونتنل، وایومینگ;Fontenelle
+sr;Фонтенел;Fontenelle
+ur;ہارمنی، وائیومنگ;Harmony
+fa;کینیر;Kinnear
+fa;ممت، وایومینگ;Mammoth
+fa;موران;Moran
+tt;Орин;Orin
+ce;Орин;Orin
+uk;Орин;Orin
+fa;اورین، وایومینگ;Orin
+sr;Орин;Orin
+tt;Оул-Крик;Owl Creek
+ce;Оул-Крик;Owl Creek
+ru;Оул-Крик;Owl Creek
+uk;Оул-Крік;Owl Creek
+fa;اول کرک، وایومینگ;Owl Creek
+sr;Аул Крик;Owl Creek
+tt;Раян-Парк;Ryan Park
+ce;Раян-Парк;Ryan Park
+uk;Раян-Парк;Ryan Park
+fa;راین پارک، وایومینگ;Ryan Park
+sr;Рајан Парк;Ryan Park
+ru;Сассекс;Sussex
+fa;ترموپولیس، وایومینگ;Thermopolis
+sr;Термополис;Thermopolis
+uk;Термополіс;Thermopolis
+zh;瑟莫波利斯;Thermopolis
+ar;ثيرموبوليس;Thermopolis
+ru;Термополис;Thermopolis
+tt;Фрейзер;Frazer
+ar;فرازر;Frazer
+uk;Фрейзер;Frazer
+fa;فریزر، مونتانا;Frazer
+sr;Фрејзер;Frazer
+zh;極角;Cape Pole
+zh;遊覽入口;Excursion Inlet
+fa;اکسکرژن اینلت، آلاسکا;Excursion Inlet
+en;Walkers Fork;Boundary
+en;King's;Boundary
+en;King's Boundary Roadhouse;Boundary
+tt;Ченега;Chenega
+ce;Ченега;Chenega
+ru;Ченега;Chenega
+zh;切里加;Chenega
+uk;Ченега;Chenega
+ja;チェネガ;Chenega
+fa;چنگا، آلاسکا;Chenega
+sr;Ченега;Chenega
+tt;Чуатбалук;Chuathbaluk
+ru;Чуатбалук;Chuathbaluk
+zh-Hant;喬阿特巴蘆克;Chuathbaluk
+uk;Чуатбалук;Chuathbaluk
+ml;ചുവാത്ത് ബലൂക്ക്;Chuathbaluk
+ce;Чуатбалук;Chuathbaluk
+mrj;Чуатбалук;Chuathbaluk
+zh;乔阿特巴芦克;Chuathbaluk
+ar;تشواثبالوك;Chuathbaluk
+fa;چوات‌بالوک، آلاسکا;Chuathbaluk
+en;Coal Creek Mining Camp;Coal Creek
+tt;Колдфут;Coldfoot
+ru;Колдфут;Coldfoot
+uk;Колдфут;Coldfoot
+sr;Колдфут;Coldfoot
+ce;Колдфут;Coldfoot
+zh;冷足;Coldfoot
+ja;コールドフット;Coldfoot
+fa;کلدفوت، آلاسکا;Coldfoot
+tt;Краун-Пойнт;Crown Point
+ru;Краун-Пойнт;Crown Point
+uk;Краун-Пойнт;Crown Point
+ur;کراؤن پوائنٹ، الاسکا;Crown Point
+ce;Краун-Пойнт;Crown Point
+zh;克朗普安特;Crown Point
+fa;کراون پوینت، آلاسکا;Crown Point
+fa;کوری;Curry
+zh;柯里;Curry
+ar;ديوميد;Diomede
+fa;دایومید، آلاسکا;Diomede
+zh;迪奥梅德;Diomede
+tt;Дайомид;Diomede
+ru;Диомид;Diomede
+lv;Daiomīda;Diomede
+uk;Дайомід;Diomede
+ce;Дайомид;Diomede
+ko;다이오미드;Diomede
+ja;ダイオミード;Diomede
+he;דיומיד;Diomede
+fa;دانلی;Donnelly
+tt;Дот-Лейк-Вилледж;Dot Lake Village
+ce;Дот-Лейк-Вилледж;Dot Lake Village
+zh;點湖村;Dot Lake Village
+uk;Дот-Лейк-Вілледж;Dot Lake Village
+fa;دات لیک ویلج، آلاسکا;Dot Lake Village
+sr;Дот Лејк Вилиџ;Dot Lake Village
+tt;Евансвилл;Evansville
+ce;Евансвилл;Evansville
+fa;اوانزویل، آلاسکا;Evansville
+en;Flat Creek;Flat
+en;Flat City;Flat
+tt;Флет;Flat
+ce;Флет;Flat
+ru;Флэт;Flat
+ko;플랫;Flat
+zh;弗拉特;Flat
+uk;Флет;Flat
+ja;フラット;Flat
+fa;فلت، آلاسکا;Flat
+sr;Флат;Flat
+ur;گیٹ وے، الاسکا;Gateway
+zh;出入口;Gateway
+ar;غيتواي;Gateway
+fa;گیت‌وی، آلاسکا;Gateway
+fa;گلن‌الن;Glennallen
+mrj;Гленналлен;Glennallen
+sr;Гленален;Glennallen
+ru;Гленналлен;Glennallen
+tt;Гленналлен;Glennallen
+uk;Гленналлен;Glennallen
+ce;Гленналлен;Glennallen
+zh;格倫納倫;Glennallen
+ar;غلينالين;Glennallen
+tt;Головин;Golovin
+ru;Головин;Golovin
+uk;Головін;Golovin
+sr;Головин;Golovin
+ml;ഗൊലോവിൻ;Golovin
+ce;Головин;Golovin
+mrj;Головин;Golovin
+zh;戈洛文;Golovin
+ar;غولوفان;Golovin
+fa;گولووین، آلاسکا;Golovin
+fa;میلر لندینگ، آلاسکا;Homer
+mrj;Хомер;Homer
+zh;荷马;Homer
+he;הומר;Homer
+ur;ہومر، الاسکا;Homer
+tt;Игъюгиг;Igiugig
+ce;Игъюгиг;Igiugig
+mrj;Айгугиг;Igiugig
+zh;伊久吉格;Igiugig
+uk;Іг'югіг;Igiugig
+fa;ایگییوگیگ، آلاسکا;Igiugig
+fa;جک وید;Jack Wade
+ur;جیک وڈی، الاسکا;Jack Wade
+zh;傑克韋德;Jack Wade
+fa;جاکولوف بی، آلاسکا;Jakolof Bay
+zh;賈科洛夫灣;Jakolof Bay
+tt;Качемак;Kachemak
+uk;Качемак;Kachemak
+sr;Качемак;Kachemak
+ml;കച്ചെമാക്ക്;Kachemak
+ce;Качемак;Kachemak
+zh;喀什马克;Kachemak
+ar;كاتشيميك;Kachemak
+fa;کاچماک، آلاسکا;Kachemak
+tt;Коканок;Kokhanok
+uk;Коканок;Kokhanok
+ce;Коканок;Kokhanok
+mrj;Кокханок;Kokhanok
+zh;科坎諾克;Kokhanok
+fa;کوکانوک، آلاسکا;Kokhanok
+ja;カンティシュナ;Kantishna
+fa;کانتیشنا;Kantishna
+zh;坎蒂什納;Kantishna
+en;Kennecott;Kennicott
+en;Kennecott Mines;Kennicott
+tt;Колиганек;Koliganek
+ru;Колиганек;Koliganek
+uk;Коліганек;Koliganek
+sr;Колиганек;Koliganek
+ce;Колиганек;Koliganek
+mrj;Колиганек;Koliganek
+zh;科里加內克;Koliganek
+ar;كوليغانيك;Koliganek
+fa;کولیگانک، آلاسکا;Koliganek
+tt;Лейк-Луиз;Lake Louise
+ru;Лейк-Луис;Lake Louise
+uk;Лейк-Луїз;Lake Louise
+ur;لیک لوئس، الاسکا;Lake Louise
+sr;Лејк Луис;Lake Louise
+ce;Лейк-Луиз;Lake Louise
+mrj;Лейк-Луиз;Lake Louise
+zh;路易斯湖;Lake Louise
+fa;لیک لوئیس، آلاسکا;Lake Louise
+tt;Левелок;Levelock
+ce;Левелок;Levelock
+mrj;Левелок;Levelock
+zh;萊韋洛科;Levelock
+uk;Левелок;Levelock
+fa;له‌وه‌لاک;Levelock
+sr;Левелок;Levelock
+tt;Маршалл;Marshall
+ur;مارشل، الاسکا;Marshall
+ml;മാർഷൽ;Marshall
+ce;Маршалл;Marshall
+mrj;Маршалл;Marshall
+fa;مارشال، آلاسکا;Marshall
+fa;مک‌کارتی، آلاسکا;McCarthy
+mrj;МакКарти;McCarthy
+sr;Макарти;McCarthy
+ru;Маккарти;McCarthy
+tt;Маккарти;McCarthy
+ce;Маккарти;McCarthy
+zh;麥卡錫;McCarthy
+uk;Маккарті;McCarthy
+ja;マッカーシー;McCarthy
+en;McKinley Park;Denali Park
+fa;مدفرا، آلاسکا;Medfra
+zh;美德夫拉;Medfra
+tt;Мэнделтна;Mendeltna
+ce;Мэнделтна;Mendeltna
+ru;Менделтна;Mendeltna
+mrj;Менделтна;Mendeltna
+zh;門德爾特納;Mendeltna
+uk;Менделтна;Mendeltna
+fa;مندلتنا، آلاسکا;Mendeltna
+sr;Менделтна;Mendeltna
+tt;Набесна;Nabesna
+ce;Набесна;Nabesna
+mrj;Набесна;Nabesna
+zh;納貝斯納;Nabesna
+uk;Набесна;Nabesna
+fa;نابزنا;Nabesna
+tt;Нельсон-Лагун;Nelson Lagoon
+ce;Нельсон-Лагун;Nelson Lagoon
+ru;Нельсон-Лагун;Nelson Lagoon
+zh;尼爾森潟湖;Nelson Lagoon
+uk;Нельсон-Лагун;Nelson Lagoon
+fa;نلسون لاگون;Nelson Lagoon
+sr;Нелсон Лагун;Nelson Lagoon
+tt;Ньюток;Newtok
+ru;Ньюток;Newtok
+uk;Ньюток;Newtok
+sr;Њуток;Newtok
+ce;Ньюток;Newtok
+mrj;Ньюток;Newtok
+zh;紐托克;Newtok
+ar;نيوتوك;Newtok
+ja;ニュートック;Newtok
+fa;نیوتوک، آلاسکا;Newtok
+fa;پایمیوت، آلاسکا;Paimiut
+zh;派繆特;Paimiut
+en;Kruzgamepa Hot Springs;Pilgrim Hot Springs
+en;Pilgrim Springs;Pilgrim Hot Springs
+fa;پورمن;Poorman
+zh;普爾曼;Poorman
+tt;Порт-Кларенс;Port Clarence
+ce;Порт-Кларенс;Port Clarence
+zh;克拉倫斯港;Port Clarence
+ar;بورت كلارنس;Port Clarence
+uk;Порт-Кларенс;Port Clarence
+fa;پورت کلرنس، آلاسکا;Port Clarence
+sr;Порт Кларенс;Port Clarence
+en;Port Williams;Port William
+tt;Портедж-Крик;Portage Creek
+ce;Портедж-Крик;Portage Creek
+zh;波蒂奇克里克;Portage Creek
+uk;Портедж-Крік;Portage Creek
+fa;پورتج کریک، آلاسکا;Portage Creek
+sr;Портиџ Крик;Portage Creek
+fa;پرودو بی، آلاسکا;Prudhoe Bay
+ro;Golful Prudhoe;Prudhoe Bay
+uk;Прадхо-Бей;Prudhoe Bay
+ru;Прадхо-Бей;Prudhoe Bay
+fa;ساگوان;Sagwon
+ur;سگووں ، الاسکا;Sagwon
+zh;薩格溫;Sagwon
+en;Sheep Mountain;Sheep Mountain Lodge
+en;Solmon City;Solomon
+fa;سولومون، آلاسکا;Solomon
+fa;سانترانا;Suntrana
+zh;森特拉納;Suntrana
+tt;Тетлин;Tetlin
+ce;Тетлин;Tetlin
+ru;Тетлин;Tetlin
+zh;泰特林;Tetlin
+uk;Тетлін;Tetlin
+fa;تتلین، آلاسکا;Tetlin
+sr;Тетлин;Tetlin
+tt;Тонсина;Tonsina
+ce;Тонсина;Tonsina
+ru;Тонсина;Tonsina
+mrj;Тонсина;Tonsina
+zh;通西納;Tonsina
+uk;Тонсіна;Tonsina
+fa;تونسینا، آلاسکا;Tonsina
+sr;Тонсина;Tonsina
+fa;اومیات;Umiat
+zh;烏米阿特;Umiat
+fa;یوزیبلی;Usibelli
+zh;尤辛貝利;Usibelli
+ar;فالديز;Valdez
+az;Valdes;Valdez
+fa;والدز، آلاسکا;Valdez
+ja;バルディーズ;Valdez
+mrj;Валдиз;Valdez
+uk;Валдіз;Valdez
+ur;والدیز، الاسکا;Valdez
+ru;Валдиз;Valdez
+zh;瓦尔迪兹;Valdez
+tt;Валдиз;Valdez
+lt;Valdizas;Valdez
+mk;Валдиз;Valdez
+ml;വാൽഡെസ്;Valdez
+ce;Валдиз;Valdez
+ko;밸디즈;Valdez
+he;ואלדז;Valdez
+tt;Вайзмен;Wiseman
+ru;Уайзмен;Wiseman
+uk;Вайзмен;Wiseman
+sr;Вајзман;Wiseman
+ce;Вайзмен;Wiseman
+ja;ワイズマン;Wiseman
+fa;وایزمن، آلاسکا;Wiseman
+ar;أكهيوك;Akhiok
+fa;اخیوک، الاسکا;Akhiok
+hi;एकियोक;Akhiok
+mrj;Ахиок;Akhiok
+zh;阿克希奥克;Akhiok
+tt;Ахиок;Akhiok
+ru;Ахиок;Akhiok
+uk;Ахіок;Akhiok
+ml;അഖിയോക്ക്;Akhiok
+ce;Ахиок;Akhiok
+tt;Алинива;Aleneva
+ru;Аленева;Aleneva
+uk;Алініва;Aleneva
+ce;Алинива;Aleneva
+mrj;Аленева;Aleneva
+zh;阿洛內瓦;Aleneva
+fa;آله‌نوا;Aleneva
+tt;Атмотлюек;Atmautluak
+ru;Атмаутлуак;Atmautluak
+uk;Атмотлюек;Atmautluak
+ce;Атмотлюек;Atmautluak
+mrj;Атмаутлуак;Atmautluak
+zh;亞特毛特盧阿克;Atmautluak
+ar;أتماوتلوك;Atmautluak
+fa;آتمااوتلواک، آلاسکا;Atmautluak
+ar;بيتليز;Bettles
+fa;بتلز، آلاسکا;Bettles
+mrj;Беттлс;Bettles
+sr;Бетлес;Bettles
+uk;Беттлс;Bettles
+ru;Беттлс;Bettles
+zh;贝特尔斯;Bettles
+tt;Беттлс;Bettles
+ml;ബെറ്റിൽസ്;Bettles
+ce;Беттлс;Bettles
+tt;Олджато-Моньюмент-Велли;Oljato-Monument Valley
+nv;Ooljééʼ Tó dóó Tsé Deelghasii;Oljato-Monument Valley
+uk;Олджато-Моньюмент-Веллі;Oljato-Monument Valley
+sr;Олџејто Монјумент Вали;Oljato-Monument Valley
+ce;Олджато-Моньюмент-Велли;Oljato-Monument Valley
+zh;奧加托-遺蹟谷;Oljato-Monument Valley
+fa;اولجاتو-مانیومنت ولی;Oljato-Monument Valley
+ru;Баттес;The Buttes
+fa;بیوتس;The Buttes
+tt;Атту-Стейшен;Attu Station
+ru;Атту-Стейшн;Attu Station
+uk;Атту-Стейшен;Attu Station
+sr;Ату Стејшон;Attu Station
+ce;Атту-Стейшен;Attu Station
+ko;에투 스테이션;Attu Station
+gl;Attu;Attu Station
+zh;阿圖站;Attu Station
+ja;アッツステーション;Attu Station
+fa;آتو استیشن، آلاسکا;Attu Station
+he;תחנת אטו;Attu Station
+en;Pope-Vannoy Landing CDP;Pope-Vannoy Landing
+tt;Примроуз;Primrose
+uk;Примроуз;Primrose
+sr;Примроуз;Primrose
+ce;Примроуз;Primrose
+zh;櫻草;Primrose
+fa;پریمرز;Primrose
+tt;Пойнт-Пезешен;Point Possession
+ce;Пойнт-Пезешен;Point Possession
+zh;佔有點;Point Possession
+uk;Пойнт-Пезешен;Point Possession
+fa;پوینت پوزشن;Point Possession
+sr;Појнт Позешон;Point Possession
+tt;Санвест;Sunwest
+ce;Санвест;Sunwest
+zh;森韋斯特;Sunwest
+uk;Санвест;Sunwest
+fa;سانوست;Sunwest
+sr;Санвест;Sunwest
+tt;Санни-Слоупс;Sunny Slopes
+ce;Санни-Слоупс;Sunny Slopes
+nv;Bitátʼah Shą́ą́ʼ;Sunny Slopes
+zh;薩尼斯洛普斯;Sunny Slopes
+uk;Санні-Слоупс;Sunny Slopes
+fa;سانی اسلوپس;Sunny Slopes
+sr;Сани Слоупс;Sunny Slopes
+tt;Сволл-Медоус;Swall Meadows
+ce;Сволл-Медоус;Swall Meadows
+nv;Tsʼah Bił Haltso;Swall Meadows
+zh;斯沃爾草甸;Swall Meadows
+uk;Сволл-Медоус;Swall Meadows
+fa;سوآل میدوز;Swall Meadows
+sr;Свол Медоус;Swall Meadows
+tt;Брик-Сентер;Brick Center
+ce;Брик-Сентер;Brick Center
+zh;布里克森特;Brick Center
+uk;Брик-Сентер;Brick Center
+sr;Брик Сентер;Brick Center
+tt;Команчи-Крик;Comanche Creek
+ce;Команчи-Крик;Comanche Creek
+zh;科曼奇溪;Comanche Creek
+uk;Команчі-Крік;Comanche Creek
+sr;Команчи Крик;Comanche Creek
+fa;ایندیان اسپرینگز، مونتانا;Indian Springs
+tt;Пондероза-Пайнс;Ponderosa Pines
+uk;Пондероза-Пайнс;Ponderosa Pines
+fa;پاندرزا پاینز;Ponderosa Pines
+tt;Траут-Велли;Trout Valley
+ce;Траут-Велли;Trout Valley
+uk;Траут-Веллі;Trout Valley
+fa;تراوت ولی;Trout Valley
+sr;Траут Вали;Trout Valley
+en;West Point;West Point Village
+en;Kavik River;Kavik River Camp

@@ -7725,6 +7725,7 @@
 0;6.7938,13.9888;NE-04;Maradi Region;Kachambo
 0;6.9185,13.7604;NE-04;Maradi Region;Atalé
 0;6.9904,13.6121;NE-04;Maradi Region;Bokaé
+0;6.9491,13.6246;NE;;Gébi
 0;6.8255,13.9246;NE-04;Maradi Region;Garin Boy
 0;7.0613,13.0060;NE-04;Maradi Region;Bîma
 0;7.0780,13.0070;NE-04;Maradi Region;Sayao
@@ -8718,6 +8719,7 @@
 0;8.9416,13.1681;NE-07;Zinder Region;Dan Tchédia
 0;8.9601,13.1850;NE-07;Zinder Region;Dango
 0;8.9269,13.1780;NE-07;Zinder Region;Mad'âtchi
+0;8.9498,13.1934;NE;;Jan Kalgô
 0;8.9448,13.2311;NE-07;Zinder Region;Baykori
 0;8.9191,13.1959;NE-07;Zinder Region;Sara Sara
 0;8.9071,13.1937;NE-07;Zinder Region;Mâtamey

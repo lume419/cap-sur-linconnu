@@ -98,8 +98,13 @@ for(const country of COUNTRIES){
     let cp;
     if(grid){
       const near = nearest(grid, p.lat, p.lon, 15);
-      if(!near){ sansCode++; continue; }
-      cp = near.postcode;
+      if(!near){
+        // CODE POSTAL FACULTATIF (21/09/2026) : le lieu était ÉCARTÉ ici faute de point postal à moins de 15 km.
+        // Le code postal aide à retrouver sa ville, il ne décide pas si elle existe : le lieu est publié avec un
+        // code VIDE et sa région GeoNames, comme dans les pays qui n'ont aucun fichier postal.
+        sansCode++;
+        cp = '';
+      } else cp = near.postcode;
     } else if(SINGLE_CODE[country]){
       cp = SINGLE_CODE[country];
     } else if(ADMIN1_CODE[country]){
@@ -115,6 +120,6 @@ for(const country of COUNTRIES){
   fs.writeFileSync(path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt'), lines.join('\n') + '\n', 'utf8');
   total += lines.length;
   console.log(country + ' : ' + brut + ' bruts -> ' + seen.size + ' dédoublonnés -> ' + lines.length + ' retenus' +
-    (grid ? ' (' + sansCode + ' écartés sans point postal à moins de 15 km)' : sansRegion ? ' (dont ' + sansRegion + ' sans région)' : ''));
+    (grid ? ' (' + sansCode + ' publiés sans code postal, aucun point à moins de 15 km)' : sansRegion ? ' (dont ' + sansRegion + ' sans région)' : ''));
 }
 console.log('TOTAL : ' + total);

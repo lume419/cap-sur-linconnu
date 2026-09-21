@@ -3400,3 +3400,4 @@ ru;Солань;Soláň
 ru;Ралско;Ralsko
 ru;Либина;Libina
 ru;Ланов;Lánov
+sr;Бјела под Прадједом;Bělá pod Pradědem

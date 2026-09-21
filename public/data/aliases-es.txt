@@ -8461,7 +8461,6 @@ zh;别尔;Biel
 ru;Бетета;Beteta
 ru;Бетелу;Betelu
 ru;Бесалу;Besalú
-gl;Berroxe;Berroge
 ru;Берроби;Berrobi
 ru;Бернардос;Bernardos
 uk;Бермільйо-де-Саяго;Bermillo de Sayago

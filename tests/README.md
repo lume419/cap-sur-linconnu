@@ -6,7 +6,7 @@ Aucun service externe n'est sollicité, et jamais la production : le serveur de 
 | Commande | Contenu | Durée indicative |
 |---|---|---|
 | `npm run test:quick` | i18n, péages, invariants du moteur (100 tirages) | ~1 min (56 s mesurées le 20/09/2026 ; la ligne annonçait ~2 min, `tests/run.js` ~3 min) |
-| `npm test` | tout sauf les générateurs, tailles par défaut | ~7 à 8 min (**274 tests en 439 à 459 s** mesurés le 21/09/2026 au 20e audit sur trois passages de la même machine (l'écart d'un passage à l'autre atteint 4 %, selon la charge) ; 448 s au 19e ; le chiffre de 314 s qui figurait ici datait d'avant `search.test.js`, les bornes de données et les exports PDF ; + 2 à 5 min si le serveur doit reconstruire son index de recherche) |
+| `npm test` | tout sauf les générateurs, tailles par défaut | ~7 à 8 min (**275 tests en 439 à 465 s** mesurés le 21/09/2026 sur quatre passages de la même machine (l'écart d'un passage à l'autre atteint 6 %, selon la charge) ; 448 s au 19e ; le chiffre de 314 s qui figurait ici datait d'avant `search.test.js`, les bornes de données et les exports PDF ; + 2 à 5 min si le serveur doit reconstruire son index de recherche) |
 | `npm run test:full` | tout, tailles complètes, générateurs compris | 30 à 60 min |
 | `node tests/run.js toll server` | seulement les fichiers dont le nom contient `toll` ou `server` | — |
 
@@ -112,6 +112,16 @@ ajouté, et qui manquait ici :
 - `data.test.js` : les coordonnées à deux entiers admises sont listées une par une avec leur preuve (13 depuis le 20e
   audit, 63 au 19e) ; la politique de confidentialité doit décrire les requêtes que le site fait **vraiment** (méthode
   comprise).
+
+**21/09/2026 — le code postal devient facultatif.** `data.test.js` ajoute « aucun lieu réel écarté faute de code
+postal » : pour un échantillon de quatorze pays couvrant les six familles de générateurs, il relit le dump GeoNames
+et vérifie qu'aucun lieu éligible (bon code de lieu habité, nom exploitable, non écarté par `excludePlace`) ne
+manque au fichier publié. Les trois exclusions qui ne tiennent PAS à un code — la France publie la liste IGN des
+communes, sept pays du Levant appliquent un seuil de population, la Géorgie exige un nom en écriture géorgienne —
+sont déclarées dans le test, et il échoue si l'une d'elles se retrouve aussi dans l'échantillon. Le contrôle ne
+tourne que si `scripts/dump/` est présent (non commité, comme `scripts/postal/`). Prouvé par mutation : remettre
+`return null` dans le générateur bulgare le fait échouer. Le contrôle de forme des codes accepte désormais un champ
+VIDE, et ce champ vide ne rentre ni dans l'index de recherche en mémoire ni dans celui sur disque.
 
 Chacun de ces contrôles a été prouvé par mutation : le défaut d'origine remis en place, le test échoue.
 

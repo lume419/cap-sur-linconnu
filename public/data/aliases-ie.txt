@@ -3036,3 +3036,1819 @@ ru;Тиньюр;Tinure
 bg;Тинуре;Tinure
 gd;An Currach Dearg;Curraghderrig
 ga;Baile an Tirialaigh;Tyrrelstown
+bg;Бънкрана;Buncrana
+ga;Bun Cranncha;Buncrana
+gv;Bun Cranncha;Buncrana
+ka;ბანკრანა;Buncrana
+uk;Банкрана;Buncrana
+ru;Банкрана;Buncrana
+lt;Bunkrana;Buncrana
+ja;バンクラナ;Buncrana
+sr;Банкрана;Buncrana
+ga;An Droim Mór Thiar;Dromore West
+ru;Дромор-Уэст;Dromore West
+ka;დრომორ უესტი;Dromore West
+ja;ドロモア・ウェスト;Dromore West
+ga;An Aitinn Bhuí;Yellow Furze
+ur;یلو فرضی;Yellow Furze
+gv;An Aitinn Bhuí;Yellow Furze
+ga;An Ghráig;Woodford
+ga;Bearna na Gaoithe;Windgap
+ga;Baile Uilcín;Wilkinstown
+ga;Baile Thiar;West Town
+ga;Droichead Eoi;Wellingtonbridge
+ru;Уотч-Хаус-Виллидж;Watch House Village
+ga;Achadh an Iúir;Virginia
+bg;Върджиния;Virginia
+gd;Achadh an Iúir;Virginia
+ru;Верджиния;Virginia
+ga;An Baile Nua;Villierstown
+ru;Виллиерстаун;Villierstown
+ja;ヴィリアスタウン;Villierstown
+ga;Ceann Trá;Ventry
+ga;Fionntrá;Ventry
+ga;Áth na nUrlainn;Urlingford
+ru;Эрлингфорд;Urlingford
+bg;Ърлингфорд;Urlingford
+lt;Urlingfordas;Urlingford
+ga;An Teampall Uachtarach;Upperchurch
+ga;Bréantrá;Unionhall
+ga;Tíne;Tynagh
+ga;an Turlach Mór;Turloughmore
+ru;Тёрлохмор;Turloughmore
+ka;ტერლახმორი;Turloughmore
+ja;ターロッホモア;Turloughmore
+fa;تورلوقمر;Turloughmore
+ur;ترلوقمر;Turloughmore
+ga;Tuilsce;Tulsk
+ru;Талск;Tulsk
+bg;Тулск;Tulsk
+ka;ტულსკი;Tulsk
+ga;Tulach Léis;Tullylease
+ga;An Tulaigh;Tully
+ga;An Tulach;Tullow
+ka;ტალოუ;Tullow
+ur;ٹولئو;Tullow
+ru;Таллоу;Tullow
+lt;Talou;Tullow
+cy;An Tulach;Tullow
+ga;An Tulach;Tulla
+ru;Талла;Tulla
+ja;タラ;Tulla
+ga;Tobar;Tubber
+ga;Troiscshliabh;Trusklieve
+ga;An Tuar Mór;Toormore
+ga;Tuar Mhic Éadaigh;Toormakeady
+ru;Турмакади;Toormakeady
+el;Τούρμακιντι;Toormakeady
+zh;圖默基迪;Toormakeady
+ka;ტურმაკედი;Toormakeady
+fa;تورمکیادی;Toormakeady
+he;טורמקידי;Toormakeady
+ga;Na Tuairíní;Tooreeny
+ga;Teamhair;Toor
+ga;Tuaim Uí Mheára;Toomyvara
+eu;Toomevara;Toomyvara
+de;Toomevara;Toomyvara
+ru;Тумивара;Toomyvara
+bg;Томйвара;Toomyvara
+nl;Toomevara;Toomyvara
+es;Toomevara;Toomyvara
+ga;An Tóin Dubh;Tonduff
+ga;Tuaim Gréine;Tuamgraney
+hy;Թոմգրեյնի;Tuamgraney
+ru;Томгрейни;Tuamgraney
+he;טומגרני;Tuamgraney
+ga;Tobar an Choire;Tobercurry
+de;Tubbercurry;Tobercurry
+ru;Тоберкарри;Tobercurry
+lt;Toberkuris;Tobercurry
+it;Tubbercurry;Tobercurry
+fr;Tubbercurry;Tobercurry
+es;Tubbercurry;Tobercurry
+gv;Tobar an Choire;Tobercurry
+eu;Tubbercurry;Tobercurry
+ka;ტობერკარი;Tobercurry
+ja;タバカリー;Tobercurry
+fa;توبرکوری;Tobercurry
+pl;Tubbercurry;Tobercurry
+ur;توبرکری;Tobercurry
+nl;Tubbercurry;Tobercurry
+ca;Tubbercurry;Tobercurry
+ga;Tigh na hÉille;Tinahely
+ru;Тинахели;Tinahely
+bg;Тинахелй;Tinahely
+ga;Baile Mhic Andáin;Thomastown
+bg;Томастаун;Thomastown
+ru;Томастаун;Thomastown
+be;Томастаўн;Thomastown
+ja;トマスタウン;Thomastown
+ga;Tír Dhá Ghlas;Terryglass
+ga;Tearmann Caithreach;Termoncarragh
+ga;Teampall Baoith;Templeboy
+ga;Teileann;Teelin
+ru;Тилин;Teelin
+gv;Teileann;Teelin
+ga;An Tamhnaigh;Tawny
+ga;An Teanga;Tang
+ga;Tulach an Iarainn;Tallow
+ga;Teach Síní;Taghshinny
+ga;Béal Átha na Muice;Swinford
+ru;Суинфорд;Swinford
+lt;Svinfordas;Swinford
+ka;სვინფორდი;Swinford
+gd;Béal Àtha na Muice;Swinford
+he;סווינפורד;Swinford
+ga;An Muileann Iarainn;Swanlinbar
+ru;Суонлинбар;Swanlinbar
+gd;An Muileann Iarainn;Swanlinbar
+ga;An Eala;Swan
+ga;Béal na mBuillí;Strokestown
+ga;Sráid;Street
+ga;Baile an tSrutháin;Streamstown
+ru;Стримстаун;Streamstown
+ga;Srath an Urláir;Stranorlar
+ga;An tSráid;Strade
+ru;Стрейд;Strade
+ka;სტრეიდი;Strade
+ga;An Sraith Mór;Srahmore
+ga;An Srath Mór;Srahmore
+ga;An Spinc;Spink
+ga;An Spidéal;Spiddal
+ru;Спидл;Spiddal
+bg;Спидал;Spiddal
+zh-Hant;斯皮德爾;Spiddal
+ka;სპიდალი;Spiddal
+gd;An Spidéal;Spiddal
+zh;斯皮德尔;Spiddal
+gv;An Spidéal;Spiddal
+cy;An Spidéal;Spiddal
+ja;スピッダル;Spiddal
+fa;اسپیدال;Spiddal
+ga;An Snaidhm;Sneem
+ru;Сним;Sneem
+bg;Снем;Sneem
+he;סנים;Sneem
+ga;Ard na Caithne;Smerwick
+ga;Baile Shláine;Slane
+gv;Baile Shláine;Slane
+ru;Слейн;Slane
+en;Skull;Schull
+ga;An Scoil;Schull
+ga;Scoil Mhuire;Schull
+zh-Hans;斯莱戈郡;Skreen
+zh;斯萊戈郡;Skreen
+ja;スクリーン;Skreen
+ru;Скрин;Skreen
+ka;სკრინი;Skreen
+ga;An Scrín;Skreen
+ga;Shruthair;Shrule
+ru;Шрул;Shrule
+bg;Шруле;Shrule
+zh;什鲁尔;Shrule
+zh-Hant;什魯爾;Shrule
+ka;შრული;Shrule
+ga;Síol Éalaigh;Shillelagh
+ga;Searcóg;Shercock
+ru;Шеркок;Shercock
+gd;Searcóg;Shercock
+ga;Droichead na Sionainne;Shannonbridge
+ru;Шаннонбридж;Shannonbridge
+bg;Шанонбридге;Shannonbridge
+ga;Seanghualainn;Shanagolden
+ga;An Seangharraí;Shanagarry
+ga;An tSaoirsin;Seershin
+ga;Scramóg;Scramoge
+ga;Loch Gamhna;Scrabby
+ga;An Screabach;Scrabby
+ga;An Scairbh;Scarriff
+ru;Скарифф;Scarriff
+sv;Scariff;Scarriff
+es;Scariff;Scarriff
+ja;スカリフ;Scarriff
+pl;Scariff;Scarriff
+he;סקאריף;Scarriff
+nl;Scariff;Scarriff
+ga;Muileann an tSáile;Saltmills
+hy;Սոլթմիլս;Saltmills
+ru;Солтмиллс;Saltmills
+ga;Sáile;Salia
+ka;სალია;Salia
+ur;سیلے;Salia
+ga;An Ruán;Ruan
+ga;An Raith;Roy
+ga;Ros Dumhach;Ross Port
+ga;Ros Inbhir;Rossinver
+ru;Россинвер;Rossinver
+ka;როსინვერი;Rossinver
+ga;Ros Muc;Rosmuck
+ru;Росмак;Rosmuck
+sv;Rosmuc;Rosmuck
+cy;Ros Muc;Rosmuck
+ka;როსმუკი;Rosmuck
+ja;ロスマック;Rosmuck
+tr;Rosmuc;Rosmuck
+ga;Ros Cíde;Roskeeda
+ga;An Roisín;Roshin
+ga;Baile an Bhric Óig;Rosemount
+ga;Séipéal na Carraige;Rockchapel
+ru;Рок-Чапел;Rockchapel
+ga;Ród;Rhode
+ru;Реррин;Rerrin
+ga;Raerainn;Rerrin
+ga;Crois na Rae;Rear Cross
+ga;Ré na nDoirí;Reananerree
+ga;Ráth Ghuaire;Rathwire
+ga;Ráth Bhile;Rathvilly
+ru;Ратвилли;Rathvilly
+bg;Ратхвилй;Rathvilly
+ka;რათვილი;Rathvilly
+uk;Ратвіллі;Rathvilly
+ga;Ráth Eoghain;Rathowen
+ar;راثنور;Rathnure
+ru;Ратньюр;Rathnure
+ga;Ráth an Iúir;Rathnure
+ga;Ráth Maoláin;Rathmullan
+ru;Ратмаллан;Rathmullan
+bg;Ратхмулан;Rathmullan
+es;Rathmullen;Rathmullan
+ja;ラスミュラン;Rathmullan
+gd;Ráth Maoláin;Rathmullan
+ga;Ráth Leacan;Rathlackan
+ga;Ráth Cheannaigh;Rathkenny
+ga;Ráth Caola;Rathkeale
+ru;Раткил;Rathkeale
+bg;Ратхкеале;Rathkeale
+ja;ラスケール;Rathkeale
+ga;Ráth Droma;Rathdrum
+ga;Ráth Domhnaigh;Rathdowney
+ru;Ратдауни;Rathdowney
+ga;Ráth Daingìn;Rathdangan
+ga;Ráth an Daingin;Rathdangan
+ru;Ратданган;Rathdangan
+ga;Ráth Cúil;Rathcool
+ga;Ráth Conarta;Rathconrath
+ga;Ráth Fhearna;Raharney
+ru;Рахарни;Raharney
+bg;Рахарней;Raharney
+ja;ラハーニー;Raharney
+ga;Port Durlainne;Porturlin
+ga;Port Omna;Portumna
+ka;პორტამნა;Portumna
+ru;Портамна;Portumna
+bg;Портумна;Portumna
+ja;ポータムナ;Portumna
+ga;Port an tSalainn;Portsalon
+ga;An Caladh;Portmagee
+ru;Портмаги;Portmagee
+ga;Port an Chlóidh;Portacloy
+ga;An Daingean;Daingean
+ru;Дэнган;Daingean
+bg;Даингеан;Daingean
+ur;ڈائنگین;Daingean
+ga;Paiteagó;Pettigoe
+ga;An tSeanphailís;Pallas Grean
+ga;An Paideac;Paddock
+ga;An Abhainn Dubh;Owenduff
+ga;Gort na gCapall;Ourtnagapple
+ga;An tAbhallort;Oulart
+ru;Уларт;Oulart
+bg;Оуларт;Oulart
+ga;Uachtar Ard;Oughterard
+ru;Утерард;Oughterard
+bg;Оугхтерард;Oughterard
+ka;უტერარდი;Oughterard
+ja;オウタラード;Oughterard
+ga;Eoghanacht;Onaght
+ga;An Seanbhaile;Old Town
+ga;An Seanchaisleán;Oldcastle
+en;Olcastle;Oldcastle
+ga;Tigh na Naoi Míle;Ninemilehouse
+ga;An Dúcharraig;Newtown Gore
+ga;An Baile Nua;Newtown Cunningham
+ru;Ньютаун;Newtown
+ja;レーイシュ州;Newtown
+bn;নিউটাউন;Newtown
+zh;纽敦;Newtown
+ga;An Port Nua;Newport
+ga;Áth Trasna;Newmarket
+ga;An Dromainn;New Inn
+ga;Gleann an Ghuail;New Birmingham
+ga;Míseal;Myshall
+ru;Мишалл;Myshall
+bg;Мйшал;Myshall
+ka;მიშალი;Myshall
+ur;نام;Myshall
+ga;Muileann na hUamhan;Mullinahone
+ru;Маллинахон;Mullinahone
+bg;Мулинахоне;Mullinahone
+ga;Magh;Muff
+ru;Мойвоухли;Moyvoughly
+ga;Maigh Bhachla;Moyvoughly
+ga;Maigh Locha;Moylough
+ru;Мойлох;Moylough
+be;Мойлах;Moylough
+bg;Мойлоугх;Moylough
+ga;Maigh Cuilinn;Moycullen
+ga;Bun an Phobail;Moville
+ru;Мовилл;Moville
+bg;Моувил;Moville
+lt;Moviljė;Moville
+gv;Bun an Phobail;Moville
+ja;モーヴィル;Moville
+ga;Baile Uí Bheoláin;Mountshannon
+ru;Маунтшаннон;Mountshannon
+bg;Моунцханон;Mountshannon
+ga;Maighean Rátha;Mountrath
+ru;Маунтрат;Mountrath
+bg;Моунтратх;Mountrath
+lt;Mauntratas;Mountrath
+ga;Droichead Uí Dhálaigh;Mount Nugent
+ga;Cnoc Uí Choileáin;Mountcollins
+ga;Moin Séarlas;Mountcharles
+ru;Танталлон;Mountcharles
+bg;Моунтчарлес;Mountcharles
+gv;Tamhnach an tSalainn;Mountcharles
+ga;An Creagán;Mount Bellew Bridge
+ga;Maigh Rua;Moroe
+ga;Muine Gall;Moneygall
+ru;Монигалл;Moneygall
+bg;Монейгал;Moneygall
+ja;モニーゴール;Moneygall
+ga;Maothail;Mohill
+ru;Мохилл;Mohill
+bg;Мохил;Mohill
+lt;Mohilas;Mohill
+ka;მოჰილი;Mohill
+ga;Sráid an Mhuilinn;Millstreet
+ja;ミルストリート;Millstreet
+ru;Милстрит;Millstreet
+ga;Baile na nGallóglach;Millford
+ga;Áth an Mhuilinn;Milford
+ga;Mín Lárach;Meenlaragh
+bg;Менларагх;Meenlaragh
+ga;Mín na Sróna;Meenasrona
+ga;An Mhaoilinn;Meelin
+ga;Maigh Eo;Mayo
+ga;An Mám Thiar;Maum West
+ga;An Mám Thoir;Maum East
+ga;An Mám;Maum
+ru;Мам;Maum
+ka;მამი;Maum
+ja;モーム;Maum
+ka;მანორჰამილტონი;Manorhamilton
+ru;Манорхамилтон;Manorhamilton
+bg;Манорхамилтон;Manorhamilton
+lt;Manorhamiltonas;Manorhamilton
+zh;馬諾漢密爾頓;Manorhamilton
+ga;Cluainín Ui Ruairc;Manorhamilton
+ga;Cluainín;Manorhamilton
+ga;Málainn Mhóir;Malin More
+ga;Málainn Bhig;Malin Beg
+ga;Málainn;Malin
+ga;An Machaire;Maghery
+ga;An Machaire;Maghera
+ga;Maigh Chríodáin;Macreddin
+ur;میکریڈین;Macreddin
+ru;Мам-Кросс;Maam Cross
+ka;მამ-კროსი;Maam Cross
+ga;An Teach Dóite;Maam Cross
+ur;مام کروس;Maam Cross
+ga;Cluain Cearbán;Louisburgh
+ru;Луисборо;Louisburgh
+bg;Лоуисбургх;Louisburgh
+zh;梅奥郡路易斯堡;Louisburgh
+ka;ლუისბორო;Louisburgh
+ga;Lothra;Lorrha
+ru;Лорра;Lorrha
+ga;Baile Lombaird;Lombardstown
+ru;Ломбардстаун;Lombardstown
+ga;Leamhchoill;Loghill
+ga;Baile Lóibín;Lobinstown
+ga;Lios Riain;Lisryan
+ga;Lios Póil;Lispole
+ru;Лиспол;Lispole
+ga;Lios na Caolbhuí;Lisnakealwee
+ga;Lios Mór;Lismore
+gd;Lios Mór;Lismore
+ru;Лисмор;Lismore
+hy;Լիսմոր;Lismore
+zh-Hans;利斯莫尔;Lismore
+el;Λίσμορ;Lismore
+zh;利斯莫爾;Lismore
+cy;Lios Mór;Lismore
+ja;リズモア;Lismore
+he;ליסמור;Lismore
+ga;Lios Dúin Bhearna;Lisdoonvarna
+ru;Лисдунварна;Lisdoonvarna
+bg;Лисдонварна;Lisdoonvarna
+lt;Lisdonvarna;Lisdoonvarna
+zh;利敦瓦纳;Lisdoonvarna
+ja;リスドゥーンバーナ;Lisdoonvarna
+ga;Lios Deargáin;Lisdargan
+ga;An Léana Mór;Legan
+en;Leenane;Leenaun
+ga;An Líonán;Leenaun
+ru;Линон;Leenaun
+lt;Linonas;Leenaun
+ka;ლინონი;Leenaun
+ja;リーノーン;Leenaun
+ru;Лекарроу;Lecarrow
+ka;ლეკაროუ;Lecarrow
+ga;An Léim;Leap
+ga;An Láithreach;Lauragh
+ga;Leatón;Latton
+ru;Лара;Laragh
+ga;An Laithreach;Laragh
+ga;Béal Átha Liag;Lanesborough
+ga;An Lathaigh;Laghy
+eu;Laghey;Laghy
+ru;Лахи;Laghy
+bg;Лагхй;Laghy
+ur;لاگھی;Laghy
+en;Lacagh;Lackagh
+en;Lackaghbeg;Lackagh
+ru;Лака;Lackagh
+ga;Leacach;Lackagh
+es;Lackaghbeg;Lackagh
+ga;Leaba Shíoda;Labasheeda
+ru;Лабашида;Labasheeda
+ur;لاباشیڈا;Labasheeda
+ga;Cnoc an Tóchair;Knocktopher
+ru;Ноктофер;Knocktopher
+ga;Cnoc na Graí;Knocknagree
+ga;Cnoc Loinge;Knocklong
+ru;Ноклонг;Knocklong
+ga;Cnoc an Bhróigín;Knockavrogeen
+ga;Cnoc an Eanaigh;Knockananna
+ru;Нокананна;Knockananna
+ga;Cinn Mhara;Kinvarra
+de;Kinvara;Kinvarra
+ru;Кинварра;Kinvarra
+bg;Кинвара;Kinvarra
+it;Kinvara;Kinvarra
+fr;Kinvara;Kinvarra
+es;Kinvara;Kinvarra
+eu;Kinvara;Kinvarra
+ka;კინვარა;Kinvarra
+ja;キンヴァラ;Kinvarra
+pl;Kinvara;Kinvarra
+nl;Kinvara;Kinvarra
+ca;Kinvara;Kinvarra
+ga;Cionn Eitigh;Kinnitty
+ru;Киннитти;Kinnitty
+bg;Кинитй;Kinnitty
+ga;Cionn Átha Gad;Kinnegad
+ru;Киннегод;Kinnegad
+bg;Кинегад;Kinnegad
+lt;Kinegadas;Kinnegad
+uk;Кіннегад;Kinnegad
+ga;Cionn Droma;Kindrum
+en;Kincaslough;Kincasslagh
+ga;Cionn Caslach;Kincasslagh
+ga;Cinn Aird;Kinard
+ga;Coillte Clochair;Kiltyclogher
+ru;Килтиклохер;Kiltyclogher
+ka;კილტიკლოხერი;Kiltyclogher
+ga;Cill Troilig;Kiltrellig
+ga;Cill Téagáin;Kiltegan
+ru;Килтеган;Kiltegan
+ga;Cill Tíle;Kilteely
+ga;Cill tSíle;Kilseily
+ga;Cill Rónáin;Kilronan
+ru;Килронан;Kilronan
+ga;Cill Mhuirbhigh;Kilmurvy
+en;Kilmurry-Clonderalaw;Kilmurry McMahon
+ga;Cill Mhuire Mhic Mhathuna;Kilmurry McMahon
+ga;Cill Mhucraise;Kilmuckridge
+ceb;Ford;Kilmuckridge
+ru;Килмакридж;Kilmuckridge
+sv;Ford;Kilmuckridge
+ga;Cé na Cille Móire;Kilmore Quay
+ru;Килмор-Ки;Kilmore Quay
+ga;An Chill Mhór;Kilmore
+ga;Cill Mhichíl;Kilmihil
+ru;Килмихил;Kilmihil
+bg;Килмихил;Kilmihil
+ga;Cill Míde;Kilmeedy
+ru;Килмиди;Kilmeedy
+ga;Cill Maoilchéadair;Kilmalkedar
+ga;Cill Mháille;Kilmaley
+ga;Cill Mogeanna;Kilmaganny
+eu;Kilmoganny;Kilmaganny
+ru;Килмаганни;Kilmaganny
+pt;Kilmoganny;Kilmaganny
+bg;Килмаганй;Kilmaganny
+fr;Kilmoganny;Kilmaganny
+nl;Kilmoganny;Kilmaganny
+es;Kilmoganny;Kilmaganny
+ga;Cúil na gCuirridín;Killygordon
+ga;Na Cealla Beaga;Killybegs
+bg;Килибегс;Killybegs
+gv;Na Cealla Beaga;Killybegs
+ru;Киллибегс;Killybegs
+ga;Cill Liúcainne;Killucan
+ga;Cill Orglan;Killorglin
+ru;Киллорглин;Killorglin
+bg;Килорглин;Killorglin
+lt;Kilorglinas;Killorglin
+ga;Cillín Chéir;Killinkere
+ga;Cill Iníne Baoith;Killinaboy
+eu;Kilnaboy;Killinaboy
+ru;Килнабой;Killinaboy
+bg;Килинабой;Killinaboy
+fr;Kilnaboy;Killinaboy
+nl;Kilnaboy;Killinaboy
+ga;Cill Íomair;Killimor
+ru;Киллаймор;Killimor
+bg;Килимор;Killimor
+ka;კილიმორი;Killimor
+ga;Cill Náile;Killenaule
+ru;Килленол;Killenaule
+bg;Киленауле;Killenaule
+ja;キノレール;Killenaule
+ga;Cill Einne;Killeany
+ga;Cill Lasrach;Killasser
+ga;Cill Airne;Killarney
+ga;Cill Fhearga;Killarga
+ga;Cill Lamraí;Killamery
+ga;Cill Dalua;Killaloe
+ru;Киллало;Killaloe
+lt;Kiljaloė;Killaloe
+mk;Килало;Killaloe
+zh;基拉盧;Killaloe
+cy;Cill Dalua;Killaloe
+ja;キラロー;Killaloe
+he;קילאלו;Killaloe
+ga;Cill an Dísirt;Killadysert
+ga;Cill Chisín;Kilkishen
+ga;Cill Chiaráin;Kilkieran
+ru;Килкиран;Kilkieran
+ja;キルキーラン;Kilkieran
+ga;Cill Ghlas;Kilglass
+ru;Килгласс;Kilglass
+ka;კილგლასი;Kilglass
+ga;Cill Garbháin;Kilgarvan
+ga;Cill na Fíonaí;Kilfinny
+ga;Cill Fhionnúrach;Kilfenora
+ru;Килфенора;Kilfenora
+bg;Килфенора;Kilfenora
+ga;Cúl Droma;Kildrum
+ga;Cill Damháin;Kildavin
+ru;Килдавин;Kildavin
+ka;კილდავინი;Kildavin
+de;Kilcummin;Kilcummin Farmhill
+ga;Cill Chuimín;Kilcummin
+ga;Cill Chrócháin;Kilcrohane
+ru;Килкрохейн;Kilcrohane
+zh;基爾克羅漢;Kilcrohane
+ru;Килкоги;Kilcogy
+uk;Кілкогі;Kilcogy
+ga;Cill Chóige;Kilcogy
+gd;Coill Chóige;Kilcogy
+ga;Cill Charthaigh;Kilcar
+ga;Cill Bhrain;Kilbrin
+ga;Cill Bhreacáin;Kilbrickan
+ga;An Choill Bhán;Kilbane
+ga;Cill Bheathach;Kilbaha
+ga;Ceis Charraigín;Keshcarrigan
+ru;Кешкарриган;Keshcarrigan
+ka;კეშკარიგანი;Keshcarrigan
+ga;An Caol;Keel
+ga;Ceann Toirc;Kanturk
+ru;Кантёрк;Kanturk
+bg;Кантърк;Kanturk
+lt;Kanturkas;Kanturk
+ja;カンターク;Kanturk
+he;קנטורק;Kanturk
+ga;Baile Sheáin;Johnstown
+ga;Indreabhán;Inveran
+ga;Inbhear;Inver
+ga;An tInbhear;Inver
+ga;Inis Tíog;Inistioge
+ru;Иништиг;Inistioge
+bg;Инистиоге;Inistioge
+ga;Inse;Inch
+ga;Eidhneach;Inagh
+ru;Ина;Inagh
+bg;Инагх;Inagh
+ga;Baile hUgúin;Hugginstown
+ru;Хаггинстаун;Hugginstown
+ga;An tOspidéal;Hospital
+ga;Ospidéal Ghleann Áine;Hospital
+ru;Хоспитал;Hospital
+bg;Хоспитал;Hospital
+ja;ホスピタル;Hospital
+ga;Áth an Chuilinn;Hollyford
+ga;Baile Hiobaird;Herbertstown
+ga;Cathair Fuiseog;Herbertstown
+ru;Хербертстаун;Herbertstown
+be;Хербертстаўн;Herbertstown
+ga;Áth Cinn;Headford
+ru;Хедфорд;Headford
+bg;Хедфорд;Headford
+zh;海特佛;Headford
+ka;ჰედფორდი;Headford
+ja;ヘッドフォード;Headford
+gd;Áth Cinn;Headford
+ga;An Bráca;The Harrow
+ga;Baile Haicéid;Hacketstown
+ru;Хакетстаун;Hacketstown
+ka;ჰაკეტსტაუნი;Hacketstown
+lt;Hakestaunas;Hacketstown
+ga;Gaoth Sáile;Gweesalia
+ru;Гуисалия;Gweesalia
+ru;Крохьли;Gweedore
+ga;Gaoth Dobhair;Gweedore
+bg;Гуидор;Gweedore
+uk;Гвідор;Gweedore
+gd;Gaoth Dobhair;Gweedore
+zh;圭多爾;Gweedore
+gv;Gaoth Dobhair;Gweedore
+cy;Gaoth Dobhair;Gweedore
+ja;グウィドー;Gweedore
+fa;گویدور;Gweedore
+he;גווידור;Gweedore
+ga;An Grianfort;Greenore
+ru;Гринор;Greenore
+ga;An Caisleán Nua;Greencastle
+ga;An Grianán;Greenan
+ru;Гранард;Granard
+ka;გრანარდი;Granard
+bg;Гранард;Granard
+zh;格蘭納德;Granard
+he;גרנארד;Granard
+ga;Gráig na Manach;Graiguenamanagh
+ru;Грейгнамана;Graiguenamanagh
+bg;Граигуенаманагх;Graiguenamanagh
+lt;Greignamana;Graiguenamanagh
+ka;გრეიგნამანა;Graiguenamanagh
+ja;グレイグエナマーナ;Graiguenamanagh
+ga;Gabhla;Gowla
+ga;Gort Lios Saighead;Gortnasate
+ga;Gort na hUamha;Gortnahoe
+ga;An Gort Mór;Gortmore
+ga;Gort an tSléibhe;Gortatlea
+ga;Gort an Choirce;Gortahork
+ga;An Gort;Gort
+bg;Горт;Gort
+ga;Gort Inse Guaire;Gort
+he;גורט;Gort
+ka;გორტი;Gort
+ru;Горт;Gort
+lt;Gortas;Gort
+zh;戈特;Gort
+ja;ゴート;Gort
+ga;An Góilín;Goleen
+ru;Голин;Goleen
+ga;Gníomh go Leith;Gneevgullia
+eu;Gneeveguilla;Gneevgullia
+ru;Гнивгаллия;Gneevgullia
+bg;Гневгулиа;Gneevgullia
+en;Gneeveguilla;Gneevgullia
+nl;Gneeveguilla;Gneevgullia
+ga;An Gleann;Glin
+ru;Глин;Glin
+ja;グリン;Glin
+ga;Na Gleannta;Glin
+ga;Gleann Bhairr;Glenvar
+ga;Na Gleannta;Glenties
+ru;Глентис;Glenties
+bg;Глентийс;Glenties
+zh;格安提斯;Glenties
+gv;Na Gleannta;Glenties
+uk;Глентіс;Glenties
+ja;グランティーズ;Glenties
+fa;گلنتیس;Glenties
+en;Glennamaddy;Glenamaddy
+ga;Gleann na Madadh;Glenamaddy
+ru;Гленнамадди;Glenamaddy
+bg;Гленамадй;Glenamaddy
+ka;გლენამადი;Glenamaddy
+ja;グレンナマディー;Glenamaddy
+ga;Gleann Ghaibhle;Glangevlin
+gd;Gleann Ghaibhle;Glangevlin
+ga;Gleann Fearna;Glenfarne
+ru;Гленфарн;Glenfarne
+ga;Gleann Daoile;Gleneely
+ga;Gleann Fhaidhle;Glenealy
+ga;Gleann Domhain;Glendowan
+ga;Gleann Cholm Cille;Glencolumbkille
+ru;Гленколемкилл;Glencolumbkille
+pt;Glencolmcille;Glencolumbkille
+gv;Gleann Cholm Cille;Glencolumbkille
+cy;Gleann Cholm Cille;Glencolumbkille
+uk;Гленколемкілл;Glencolumbkille
+ja;グレンコルムキル;Glencolumbkille
+ga;Gleann Beithe;Glenbeigh
+ru;Гленби;Glenbeigh
+bg;Гленбеигх;Glenbeigh
+ar;غلينبييغ;Glenbeigh
+ga;Gleann na Muaidhe;Glenamoy
+ga;An Gleann;Glen
+ga;Cúan Dor;Glandore
+ga;An Ghaobhach;Geevagh
+ru;Гива;Geevagh
+ka;გივა;Geevagh
+ga;Géisill;Geashill
+ru;Гисхилл;Geashill
+bg;Геашил;Geashill
+ga;Garraí Uí Spealáin;Garryspillane
+ru;Гарриспилейн;Garryspillane
+ga;Garrán Ard;Garranard
+ga;Gabhalmhaigh;Galmoy
+ru;Галмой;Galmoy
+ga;Na Frosa;Frosses
+ga;Cillín an Chrónáin;Freemount
+ga;Faing;Foynes
+ru;Фойнс;Foynes
+bg;Фойнс;Foynes
+zh;福因斯;Foynes
+ja;ファイン港;Foynes
+ga;Béal Easa;Foxford
+ga;Muileann Fúca;Foulkesmill
+ru;Фулксмилл;Foulkesmill
+ga;Baile Fhobhai;Fore
+ga;Abhainn an Chartúin;Fivemilebourne
+ga;Baile na Finne;Fintown
+ru;Финтаун;Fintown
+ga;Fionnaithe;Finny
+ga;Fiodh an Átha;Finnea
+eu;Fethard-on-Sea;Fethard
+de;Fethard-on-Sea;Fethard
+ru;Фетард-он-Си;Fethard
+pt;Fethard-on-Sea;Fethard
+ja;フェトアード選挙区;Fethard
+nl;Fethard-on-Sea;Fethard
+es;Fethard-on-Sea;Fethard
+ga;An Féar Bán;Ferbane
+ru;Фербейн;Ferbane
+bg;Фърбан;Ferbane
+ga;Fionnmhach;Fennagh
+ga;An Fhianait;Fenit
+ru;Фенит;Fenit
+bg;Фенит;Fenit
+ga;Fíonach;Fenagh
+ga;Fíonach;Feenagh
+ga;Feadamair;Fedamore
+ga;An Fhiacail;Feakle
+ga;An Fearann Fuar;Farranfore
+ru;Фарранфор;Farranfore
+ga;Farnocht;Farnaght
+ru;Фанор;Fanore
+ga;Fánóir;Fanore
+ga;Fathain;Fahan
+ga;Fathain Mura;Fahan
+ru;Фон;Fahan
+bg;Фахан;Fahan
+ur;فاہان;Fahan
+ga;Gleann Fán;Glanfahan
+ga;An Fhaiche Mhór;Fahamore
+ru;Фахамор;Fahamore
+ga;Dún an Uchta;Eyrecourt
+ru;Эркорт;Eyrecourt
+ka;ერკორტი;Eyrecourt
+ga;Na hAoraí;Eyeries
+ga;Inis;Ennis
+bg;Енис;Ennis
+cy;Inis;Ennis
+sr;Енис;Ennis
+fa;انیس;Ennis
+he;אניס;Ennis
+gv;Innys;Ennis
+lt;Enisas;Ennis
+ru;Эннис;Ennis
+ja;エニス;Ennis
+ka;ენისი;Ennis
+ko;에니스;Ennis
+uk;Енніс;Ennis
+zh;恩尼斯;Ennis
+ga;Meathas Troim;Edgeworthstown
+ru;Мяхас-Тримь;Edgeworthstown
+bg;Еджуъртстаун;Edgeworthstown
+el;Έτζγουορθταουν;Edgeworthstown
+lt;Edžvotstaunas;Edgeworthstown
+zh;埃奇沃思镇;Edgeworthstown
+da;Edgewortstown;Edgeworthstown
+ga;Iascaigh;Easky
+ru;Иски;Easky
+bg;Еаскй;Easky
+ka;ისკი;Easky
+zh;伊斯基;Easky
+gv;Iascaigh;Easky
+ga;Darú;Durrow
+ga;Dún Chaoin;Dunquin
+ru;Данкуин;Dunquin
+ja;ダンキン;Dunquin
+fa;دانگوئین;Dunquin
+he;דונקווין;Dunquin
+ga;Dún Iomagáin;Dunnamaggan
+ga;Dún Lúiche;Dunlewy
+ru;Дун Лухе;Dunlewy
+ga;Dún Cionnaola;Dunkineely
+ga;An Clochán Liath;Dungloe
+ru;Данглоу;Dungloe
+bg;Дънглоу;Dungloe
+gv;An Clochán Liath;Dungloe
+uk;Данглов;Dungloe
+ja;ダングロー;Dungloe
+fa;دانگلوی;Dungloe
+ga;Dún Fionnachaidh;Dunfanaghy
+ru;Данфанахи;Dunfanaghy
+bg;Дунфанагхй;Dunfanaghy
+uk;Данфанахі;Dunfanaghy
+ja;ダンファナイ;Dunfanaghy
+ga;Dún Chormaic;Duncormick
+ar;دونكورميك;Duncormick
+ru;Данкормик;Duncormick
+ga;Dún Canann;Duncannon
+ga;Dún Damh;Dunaff
+ga;Duichealla;Ducalla
+ga;Droim Seanbhó;Drumshanbo
+ru;Драмшанбо;Drumshanbo
+bg;Друмшанбо;Drumshanbo
+ka;დრამშანბო;Drumshanbo
+ga;Droim Eamhna;Drumone
+ru;Драмон;Drumone
+gv;Droim Eamhna;Drumone
+ga;Dromad;Dromod
+ga;Droim Caorthainn;Drumkeeran
+ru;Драмкиран;Drumkeeran
+bg;Друмкеран;Drumkeeran
+ka;დრამკირანი;Drumkeeran
+ga;Droim Fraoigh;Drumfree
+ga;Droim Cria;Drumcree
+ga;Droim Chora;Drumcar
+ja;ドラムカー;Drumcar
+ga;An Drom Bán;Drumbane
+ga;Droim Dhá Thiar;Dromahair
+ga;Drom Máirtín;Drommartin
+ga;Drom Collachair;Dromcolliher
+ga;An Droim Ard;Dromard
+ga;Driseachán;Drishaghaun
+ga;Droinn;Drin
+ga;Drongán;Drangan
+ga;An Damhshraith;Dowra
+ga;Dún;Doon
+ga;Dún Bleisce;Doon
+ga;Dúlainn;Doolin
+ja;ドゥーリン;Doolin
+uk;Дулін;Doolin
+ru;Дулин;Doolin
+zh;杜林;Doolin
+ga;Dumha Thuama;Doohooma
+ga;An Dumhaigh;Dooey
+ga;Dumha Éige;Dooega
+en;Doocharry;Doochary
+ga;An Dúchoraidh;Doochary
+ga;An Dúcharaidh;Doochary
+ga;Dumha Acha;Dooagh
+ga;Dún na nGall;Donegal
+ru;Донегол;Donegal
+be;Донегал;Donegal
+bg;Донигал;Donegal
+hy;Դոնեգոլ;Donegal
+zh-Hans;多尼戈尔;Donegal
+zh-Hant;多尼戈爾;Donegal
+uk;Донегол;Donegal
+gd;Dun na nGall;Donegal
+ur;ڈونیگل;Donegal
+ko;도니골;Donegal
+el;Ντονεγκάλ;Donegal
+it;Donegal Town;Donegal
+zh;多內加爾郡;Donegal
+gv;Doon ny Ghoal;Donegal
+ar;دونيجال;Donegal
+cy;Dún na nGall;Donegal
+ja;ドニゴール;Donegal
+he;דונגל;Donegal
+ga;Dún Ard;Donard
+ru;Донард;Donard
+bg;Донард;Donard
+ga;Domhnach Mór;Donaghmore
+ga;Dumhaigh Bhig;Doagh Beg
+ga;Dumhaigh;Doagh
+ga;An Daingean;Dingle
+ja;ディングル;Dingle
+cy;An Daingean;Dingle
+lt;Dinglis;Dingle
+gv;Yn Dein;Dingle
+ru;Дингл;Dingle
+fa;دینگل;Dingle
+ga;Daingean Uí Chuis;Dingle
+zh-Hant;丁格爾;Dingle
+uk;Дінгл;Dingle
+zh;丁格尔;Dingle
+ga;Doirí Beaga;Derrybeg
+bg;Дерйбег;Derrybeg
+ru;Дерйбег;Derrybeg
+ru;Дерру;Derrew
+ga;An Díthreabh;Derrew
+ga;Dealbhna;Delvin
+ru;Делвин;Delvin
+bg;Делвин;Delvin
+lt;Delvinas;Delvin
+ja;デルヴィン;Delvin
+ga;Na Coirríní;Curreeny
+ga;Na Coirríní;Curranes
+eu;Currans;Curranes
+en;Currans;Curranes
+pl;Currans;Curranes
+nl;Currans;Curranes
+ga;Cora Ghlas;Curraglass
+ga;An Chorr;Cur
+ga;Na Coillíní;Culleens
+ga;An Chúlchoill;Cullahill
+ga;Cúil Dabhcha;Culdaff
+ru;Калдафф;Culdaff
+ga;Croisín;Crusheen
+ga;An Crompán;Crumpaun
+ga;An Cró Bán;Crowbane
+ga;An Fál Carrach;Falcarragh
+ru;Фалкарра;Falcarragh
+bg;Фалкара;Falcarragh
+gv;An Fál Carrach;Falcarragh
+uk;Фалькарраг;Falcarragh
+fa;فالکاراق;Falcarragh
+ur;فالکاراغ;Falcarragh
+ga;Cromadh;Croom
+ga;An Cruachán;Crookhaven
+ru;Крукхейвен;Crookhaven
+ja;クルックヘヴン;Crookhaven
+ga;Croithlí;Crolly
+ga;Cróch;Croagh
+ru;Круа;Croagh
+ga;An Craoslach;Creeslough
+ru;Крислох;Creeslough
+ja;クリーズラフ;Creeslough
+ga;Creamhghort;Cranford
+ga;Casla;Costelloe
+ru;Касла;Costelloe
+zh;卡斯拉;Costelloe
+ka;კასლა;Costelloe
+ja;カスラ;Costelloe
+en;Corrofin;Corofin
+ga;Cora Finne;Corofin
+ja;コロフィン;Corofin
+ru;Корофин;Corofin
+sv;Corrofin;Corofin
+ga;Corr an Mhailín;Corrawaleen
+ga;Corr na Móna;Cornamona
+ru;Корнамона;Cornamona
+ka;კორნამონა;Cornamona
+ga;Cúil Ruáin;Coolrain
+eu;Coolkenno;Coolkenna Street
+ru;Кулкенно;Coolkenna Street
+ka;კულკენო;Coolkenna Street
+en;Coolkenno;Coolkenna Street
+ga;Cúil Uí Chionaoith;Coolkenna Street
+fr;Coolkenno;Coolkenna Street
+nl;Coolkenno;Coolkenna Street
+ga;An Chúil;Coole
+ga;An Cúl Buí;Coolboy
+ga;Cúil Aitinn;Coolattin
+ga;Fíoch Rua;Connolly
+ga;Conaithe;Conna
+de;Conna Castle;Conna
+ru;Конна;Conna
+ga;Na Coimíní;Commons
+ga;Collann;Collon
+ga;Baile na gCailleach;Collinstown
+ru;Коллинстаун;Collinstown
+ja;コリンズタウン;Collinstown
+ga;Glaise an Ghuail;Coalbrook
+ga;Cluain Conmaicne;Cloone
+ga;An Chluaine;Cloone
+ga;Cluain na Cúile;Cloonacool
+ru;Клунакул;Cloonacool
+ka;კლუნაკული;Cloonacool
+ga;Cluain na nGamhan;Clonygowan
+ru;Клонигауан;Clonygowan
+ga;Cluain Damhna Beag;Clonony
+ga;Cluain Mhór;Clonmore
+ga;Cluain Maine;Clonmany
+ru;Клонмани;Clonmany
+ja;クロンメニー;Clonmany
+en;Clonegall;Clonegal
+ga;Cluain na nGall;Clonegal
+en;Cloonbur;An Fhairche
+ru;Клонбер;An Fhairche
+ka;კლონბური;An Fhairche
+ja;クロンバー;An Fhairche
+tr;Clonbur;An Fhairche
+ga;Cluain na Slí;Clonaslee
+ru;Клонасли;Clonaslee
+lt;Klonaslis;Clonaslee
+ga;Cluain Ioraird;Clonard
+ga;Cloch Ámainn;Clohamon
+ru;Клохамон;Clohamon
+ga;An Clocich Mhóir;Cloghmore
+ga;Cloch Shiurdáin;Cloughjordan
+en;Cloghjordan;Cloughjordan
+ru;Клохджордан;Cloughjordan
+ja;クラジョーダン;Cloughjordan
+ga;An Clochán;Cloghane
+ru;Клохейн;Cloghane
+es;Clogh - Chatsworth;Clogh
+ga;Cliafuine;Cliffony
+eu;Cliffoney;Cliffony
+ru;Клиффони;Cliffony
+sv;Cliffoney;Cliffony
+ka;კლიფონი;Cliffony
+nl;Cliffoney;Cliffony
+es;Cliffoney;Cliffony
+gv;Cliafuine;Cliffony
+ga;An Cloigeann;Claggan
+ga;Mín an Lábáin;Church Town
+ga;Mín an Lábáin;Church Hill
+ga;Baile Chathail;Charlestown
+ga;An Tóchar;Causeway
+en;Castletown Bearhaven;Castletownbere
+ga;Baile Chaisleáin Bhéarra;Castletownbere
+ru;Кастлтаунбере;Castletownbere
+ga;Baile na gCros;Castlepollard
+ru;Каслпланкет;Castleplunket
+ka;კასლპლანკეტი;Castleplunket
+ja;キャッスルプランケット;Castleplunket
+ga;Lios Lachna;Castleplunket
+ga;Oileán Ciarraí;Castleisland
+ga;Caisleán Ghriaire;Castlegregory
+br;Caislean Graighre;Castlegregory
+ru;Каслгрегори;Castlegregory
+ga;Caisleán an Chomair;Castlecomer
+ru;Каслкомер;Castlecomer
+lt;Kaslkomeris;Castlecomer
+ga;Gallach;Castleblakeney
+ru;Каслблейкни;Castleblakeney
+ka;კასლბლეიკნი;Castleblakeney
+he;קסלבלייקני;Castleblakeney
+en;Carrowkeel;Kerrykeel
+ga;An Cheathrú Chaol;Kerrykeel
+ga;An Carraigín;Carrigans
+ga;Carraig Álainn;Carrigallen
+ru;Карригаллен;Carrigallen
+ka;კარიგალენი;Carrigallen
+zh;卡里加侖;Carrigallen
+ga;Carraig an Chabhaltaigh;Carrigaholt
+ru;Карригахольт;Carrigaholt
+en;Carrickart;Carrigart
+ga;Carraig Airt;Carrigart
+ga;An Charraig;Carrick
+ga;An Cheathrú Rua;Carraroe
+ga;Ceathrú an Chaisil;Carracastle
+ga;Gort an Chairn;Carnhill
+ga;Carn an Bhua;Carnew
+de;Carnew Castle;Carnew
+ru;Карнью;Carnew
+ja;カーニュー;Carnew
+ga;Carn Domhnach;Carndonagh
+ga;An Carn;Carn
+ga;Cairlinn;Carlingford
+ru;Карлингфорд;Carlingford
+ga;Ceapach Choinn;Cappoquin
+ga;Ceapach an tSeagail;Cappataggle
+ga;An Cheapach Mhór;Cappamore
+ru;Каппамор;Cappamore
+ga;An Chealtrach;Caltra
+ru;Калтра;Caltra
+ka;კალტრა;Caltra
+ga;Callain;Callan
+ga;Cathair Dónall;Caherdaniel
+br;Cathair Dhónaill;Caherdaniel
+ru;Кэрданиел;Caherdaniel
+ga;An Chathair;Caher
+ru;Кадамстаун;Cadamstown
+ga;Baile an Bhuitléaraigh;Butlerstown
+ga;Ailt an Chorráin;Burtonport
+ru;Бёртонпорт;Burtonport
+bg;Буртонпорт;Burtonport
+uk;Бьортонпорт;Burtonport
+ja;バートンポート;Burtonport
+ga;Boirinn;Burren
+ga;Bun na hAbhann;Burnfoot
+ga;An Chúirt Dóite;Burncourt
+ga;Muine Chonalláin;Bunnyconnellan
+ga;Bun na hAbhna;Bunnahowen
+ga;Bun Clóidi;Bunclody
+ru;Банклоди;Bunclody
+fr;Bunclody-Carrickduff;Bunclody
+zh;班寇迪;Bunclody
+ka;ბანკლოდი;Bunclody
+ja;バンクロディ;Bunclody
+ga;An Bun Beag;Bunbeg
+ru;Банбег;Bunbeg
+lt;Bunbegas;Bunbeg
+es;An Bun Beag - Doirí Beaga;Bunbeg
+uk;Банбег;Bunbeg
+ja;バンベッグ;Bunbeg
+ga;an Bhroclais;Bruckless
+ga;Brosnach;Brosna
+ga;Áth Leathen;Broadford
+ga;Bun na Leaca;Brinlack
+ga;Ceann an Droichid;Bridge End
+ga;Cé Bhréanainn;Brandon
+ga;Móinín na gCloigeann;Boston
+ga;Buiríos Ó Luigheach;Borrisoleigh
+ru;Боррисоли;Borrisoleigh
+bg;Борисолеигх;Borrisoleigh
+ga;Buiríos Uí Chéin;Borrisokane
+ru;Боррайсокен;Borrisokane
+bg;Борисокане;Borrisokane
+ga;Buiríos Mór Osraí;Borris in Ossory
+ru;Боррис-ин-Оссори;Borris in Ossory
+lt;Osorio Borisas;Borris in Ossory
+zh;奥索里伯里斯;Borris in Ossory
+zh-Hant;奧索里伯里斯;Borris in Ossory
+ga;Both Chomhla;Bohola
+ru;Бохола;Bohola
+bg;Бохола;Bohola
+ka;ბოჰოლა;Bohola
+he;בוהולה;Bohola
+zh;保和拉;Bohola
+ga;An Bóthar Buí;Boherbue
+ru;Бохербой;Boherbue
+bg;Бохербуе;Boherbue
+ga;Both an Dúin;Boghadoon
+ga;Lúbán Díge;Bodyke
+ga;Baile Coimín;Blessington
+bg;Блесингтън;Blessington
+ru;Блессингтон;Blessington
+lt;Bledingtonas;Blessington
+zh;布莱辛顿;Blessington
+zh-Hant;布萊辛頓;Blessington
+ja;ブレッシントン;Blessington
+fa;بلسینگتون;Blessington
+he;בלסינגטון;Blessington
+ga;An Abhainn Dubh;Blackwater
+ga;An Fód Dubh;Blacksod
+ga;An Blaic;Blacklion
+ga;Cnocán an Éin Fhinn;Birdhill
+ru;Бёрдхилл;Birdhill
+eu;Binghamstown;An Geata Mór
+ru;Бингемстаун;An Geata Mór
+ka;ბინგამსტაუნი;An Geata Mór
+en;Binghamstown;An Geata Mór
+nl;Binghamstown;An Geata Mór
+ga;An Bhealtaine Uachtarach;Beltany Upper
+ga;An Bhealtaine Íochtarach;Beltany Lower
+ga;Béal an Mhuirthead;Belmullet
+ru;Белмаллет;Belmullet
+bg;Белмулет;Belmullet
+lt;Belmaletas;Belmullet
+zh;貝爾馬利特;Belmullet
+zh-Hans;贝尔马利特;Belmullet
+ka;ბელმალეტი;Belmullet
+ja;ベルマレット;Belmullet
+fa;بلمولت;Belmullet
+gd;Béal an Mhuirthead;Belmullet
+ga;An Lios Dearg;Belmont
+ru;Бельмонт;Belmont
+ga;Béal an Chloga;Bealaclugga
+ga;Béal Átha Chomhraic;Bellacorick
+ga;Béal Deirg;Belderg
+ga;Lios an Phúca;Beaufort
+ga;Béal an Daingin;Bealadangan
+ru;Беладанган;Bealadangan
+ka;ბელადანგანი;Bealadangan
+ja;ビーラダンガン;Bealadangan
+ga;An Bábhún Buí;Bawnboy
+gd;An Bábhún Buí;Bawnboy
+ga;An Bearnas Mór;Barnesmore
+ga;Bántir;Banteer
+ga;Baingear;Bangor
+ru;Бангор-Эррис;Bangor
+it;Bangor Erris;Bangor
+fr;Bangor Erris;Bangor
+es;Bangor Erris;Bangor
+eu;Bangor Erris;Bangor
+ka;ბანგორ-ერისი;Bangor
+ja;バンガー・エリス;Bangor
+nl;Bangor Erris;Bangor
+ca;Bangor Erris;Bangor
+en;Ballyvourney;Baile Bhuirne
+de;Ballyvourney;Baile Bhuirne
+ru;Балливурни;Baile Bhuirne
+sv;Ballyvourney;Baile Bhuirne
+ur;بالیوورنی;Baile Bhuirne
+tr;Ballyvourney;Baile Bhuirne
+ga;Baile Uí Bheacháin;Ballyvaghan
+ga;Béal Átha Ragad;Ballyragget
+ga;Baile Uí Dhuinn;Ballyquin
+ga;Béal Átha Póirin;Ballyporeen
+ru;Баллипорин;Ballyporeen
+bg;Балйпорен;Ballyporeen
+ga;An Baile Nua;Ballynoe
+ga;Baile na Saor;Ballynasare
+ga;Béal na Molt;Ballynamult
+ga;Baile ne nGall;Ballynagall
+ru;Баллинагалл;Ballynagall
+nl;Ballygall;Ballynagall
+ga;Baile na Carraige;Ballynacarrigy
+eu;Ballynacargy;Ballynacarrigy
+ru;Баллинакариги;Ballynacarrigy
+nl;Ballynacargy;Ballynacarrigy
+es;Ballynacargy;Ballynacarrigy
+ga;Baile na Caillí;Ballynacally
+ga;Baile Uí Mhurchú;Ballymurphy
+ga;An Baile Mór;Ballymore
+ga;Baile Mhic Íre;Ballymakeery
+ga;Baile Uí Mhatháin;Ballymahon
+ru;Баллимахон;Ballymahon
+bg;Балймахон;Ballymahon
+zh;巴利馬洪;Ballymahon
+zh-Hans;巴利马洪;Ballymahon
+ga;Baile Mhic an Bhaird;Ballymacward
+ga;Baile Lifín;Ballyliffin
+ru;Баллилиффин;Ballyliffin
+bg;Балйлифин;Ballyliffin
+uk;Балліліффін;Ballyliffin
+ga;Baile Shéamais Dhuibh;Ballyjamesduff
+ga;Baile Uí Fhuaruisce;Ballyhoorisky
+ga;Baile Uí Thaidhg;Ballyheige
+de;Ballyheigue;Ballyheige
+ru;Беллихейг;Ballyheige
+bg;Балйхеиге;Ballyheige
+it;Ballyheigue;Ballyheige
+fr;Ballyheigue;Ballyheige
+es;Ballyheigue;Ballyheige
+zh;巴利海吉;Ballyheige
+eu;Ballyheigue;Ballyheige
+he;באליהייג;Ballyheige
+nl;Ballyheigue;Ballyheige
+ga;Baile Uí Aichir;Ballyhar
+ga;Baile Héil;Ballyhale
+ru;Баллихейл;Ballyhale
+ga;Baile Uí Sháithil;Ballyhahill
+ga;Baile Dhá Thuile;Ballyhahill
+ga;Béal Átha Ghártha;Ballygar
+ru;Баллигар;Ballygar
+bg;Балйгар;Ballygar
+ka;ბალიგარი;Ballygar
+ja;バリーガー;Ballygar
+ga;Baile an Fheirtéaraigh;Ballyferriter
+ru;Баллиферритер;Ballyferriter
+bg;Балйферитер;Ballyferriter
+ga;An Baile Dubh;Ballyduff
+ru;Баллидафф;Ballyduff
+bg;Балйдуф;Ballyduff
+ga;Baile Deasumhan;Ballydesmond
+ru;Баллидесмонд;Ballydesmond
+bg;Балйдесмонд;Ballydesmond
+ga;Baile Dháith;Ballydavid
+ga;Béal Átha Chomair;Ballycumber
+ru;Балликамбер;Ballycumber
+he;בוליקאמבר;Ballycumber
+zh;巴里坎伯;Ballycumber
+ga;Baile Uí Choileáin;Ballycullane
+ru;Балликаллейн;Ballycullane
+ga;Baile Choitín;Ballycotton
+ru;Бэлликоттон;Ballycotton
+ga;Béal Átha Conaill;Ballyconnell
+gd;Béal Átha Conaill;Ballyconnell
+ru;Балликоннелл;Ballyconnell
+ga;Baile Cholla;Ballycolla
+ga;Baile an Chaisil;Ballycastle
+ga;Baile an Bhuinneánaigh;Ballybunnion
+de;Ballybunion;Ballybunnion
+ga;Baile Uí Bhróithe;Ballybrophy
+ga;An Baile Breac;Ballybrack
+ru;Баллибой;Ballyboy
+ja;バリーボーイ;Ballyboy
+ga;Baile Átha Buí;Ballyboy
+ga;Bealach Féich;Ballybofey
+bg;Балибоуфи;Ballybofey
+gv;Bealach Féich;Ballybofey
+lt;Balibofis;Ballybofey
+uk;Баллібофі;Ballybofey
+ru;Баллибофи;Ballybofey
+zh;柏勒波伊;Ballybofey
+ja;バリーボフェイ;Ballybofey
+he;בליבופיי;Ballybofey
+ga;Béal Átha na Beithe;Ballybay
+ga;Balana;Ballon
+ga;Baile Íomhair;Ballivor
+bg;Баливор;Ballivor
+gv;Baile Íomhair;Ballivor
+ja;バリバー;Ballivor
+ru;Баливор;Ballivor
+ga;Baile an tSratha;Ballintra
+ga;Baile an Ruáin;Ballinruan
+ga;Béal Átha an Ghaorthaidh;Ballingeary
+ru;Баллингири;Ballingeary
+bg;Балингеарй;Ballingeary
+ga;Baile an Gharraí;Ballingarry
+ga;Baile an Doire;Ballinderry
+ga;Béal Átha na Muc;Ballinamuck
+ru;Баллинамакк;Ballinamuck
+ga;Droichead Bhéal an Átha Móir;Ballinamore Bridge
+ga;Béal an Átha Móir;Ballinamore
+ru;Баллинамор;Ballinamore
+bg;Балинаморе;Ballinamore
+gv;Béal an Átha Móir;Ballinamore
+ka;ბალინამორი;Ballinamore
+ja;バリナモール;Ballinamore
+ga;Baile na Coille;Ballinakill
+ga;Baile na gCléireach;Ballinagleragh
+ga;Béal Átha na gCarr;Ballinagar
+ru;Баллинагар;Ballinagar
+bg;Балинагар;Ballinagar
+ga;An Chlais;Ballinaclash
+ru;Баллинаклаш;Ballinaclash
+ga;An Bealach;Ballaghkeen
+ga;Bealach an Doirín;Ballaghaderreen
+ru;Баллахадеррин;Ballaghaderreen
+bg;Балагхадерен;Ballaghaderreen
+lt;Balahaderinas;Ballaghaderreen
+ka;ბალახადერინი;Ballaghaderreen
+ja;バラーアデリーン;Ballaghaderreen
+ga;Coill an Chollaigh;Bailieborough
+ru;Бейлиборо;Bailieborough
+bg;Баилиебороугх;Bailieborough
+lt;Beiliboras;Bailieborough
+gv;Coill an Chollaigh;Bailieborough
+gd;Coill an Chollaigh;Bailieborough
+he;בייליבורו;Bailieborough
+ga;Áit Ti Mhic Aodha;Attimachugh
+ga;Áth an tSléibhe;Athea
+ga;Ármhach;Arvagh
+ru;Арва;Arvagh
+bg;Арвагх;Arvagh
+gd;Ármhach;Arvagh
+es;Arva;Arvagh
+ga;An Airgnigh;Arigna
+ru;Аригна;Arigna
+ka;არიგნა;Arigna
+ga;An Ardaidh Bheag;Ards Beg
+en;Ardsbeg;Ards Beg
+ga;Ard Raithin;Ardrahan
+ru;Ардрахан;Ardrahan
+bg;Ардрахан;Ardrahan
+ka;არდრაჰანი;Ardrahan
+ja;アードラハン;Ardrahan
+ga;Aird Mhór;Ardmore
+ga;Ard Luachra;Ardlougher
+ga;Dhá Dhrom;Ardgroom
+ru;Ардгрум;Ardgroom
+bg;Ардгром;Ardgroom
+ga;Baile Átha Fhirdhia;Ardee
+bg;Арди;Ardee
+ka;არდი;Ardee
+ru;Арди;Ardee
+lt;Ardi;Ardee
+lv;Ārdī;Ardee
+gd;Baile Átha Fhirdhia;Ardee
+sr;Арди;Ardee
+cy;Baile Átha Fhirdhia;Ardee
+ja;アーディー;Ardee
+ga;Ard an Rátha;Ardara
+ga;Arda Mór;Ardamore
+ga;Áth na mBó;Annamoe
+ru;Аннамо;Annamoe
+gv;Aah ny Mooa;Annamoe
+ga;Anagaire;Annagary
+ga;Abhainn an Scáil;Anascaul
+ga;Allt na Péiste;Altnapaste
+ga;Na hAilichí;Allihies
+ru;Аллихис;Allihies
+ja;アリイーズ;Allihies
+fa;الیهیس;Allihies
+ga;Átha an Chiste;Ahakista
+ru;Ахакиста;Ahakista
+bg;Ахакиста;Ahakista
+fa;اهکیستا;Ahakista
+ur;اہکیستا;Ahakista
+ga;An Eachléim;Aghleam
+ga;Achadh an Mheasa;Aghavas
+ga;Achadh Mheánach;Aghavannagh
+ru;Ахаваннах;Aghavannagh
+ga;Achadh Bhó;Aghaboe
+ga;Eadargóil;Adrigole
+ru;Адригол;Adrigole
+bg;Адриголе;Adrigole
+ga;Áth Dara;Adare
+ru;Адэр;Adare
+zh;阿代尔;Adare
+ja;アデア;Adare
+ga;Maigh Arnaí;Adamstown
+ga;Maigh Arnaighe;Adamstown
+ga;Áth an Chláir;Aclare
+ga;Acaill;Achill
+ga;Mainistir Shruthla;Abbeyshrule
+ru;Аббишрул;Abbeyshrule
+uk;Аббішрул;Abbeyshrule
+fa;ابیشرول;Abbeyshrule
+ga;Mainistir Leathrátha;Abbeylara
+ru;Аббилара;Abbeylara
+uk;Аббілара;Abbeylara
+fa;ابیلارا;Abbeylara
+ga;Mainistir na Féile;Abbeyfeale
+fa;ابیفیل;Abbeyfeale
+uk;Аббіфіл;Abbeyfeale
+ru;Аббифил;Abbeyfeale
+zh;阿比菲尔;Abbeyfeale
+bg;Абейфеале;Abbeyfeale
+ar;أبيفيل;Abbeyfeale
+ja;アビフェイル;Abbeyfeale
+gd;Mainistir na Féile;Abbeyfeale
+ga;An Mhainistir;Abbey
+ga;Banú;Bannow
+ru;Банноу;Bannow
+uk;Банноу;Bannow
+ga;Ros an Mhíl;Rossaveel
+ga;Leitir Mealláin;Lettermullan
+ga;Buaile an Ghleanna;Bolinglanna
+ga;An Dumhach Bheag;Dooghbeg
+ga;Cois Leice;Cushlecka
+ga;Bun an Churraigh;Bunacurry
+ga;Tulachán Bán;Tullaghanbaun
+ga;Dumha Dhearc;Dooyork
+ga;An Fál Mór;Fallmore
+ga;Gort Meille;Gortmellia
+ga;Cnoc na Lobhar;Knocknalower
+ga;An Chorrchloch;Corclogh
+ga;Cill Chuáin;Kilquane
+ga;Na Ráithíneacha;Raheen
+ga;An Com;Coom
+ga;An Cladán;Cliddaun
+ga;An Chnapóg;Knoppoge
+ga;Ladhar na Gaoithe;Lyrenageeha
+ga;Na Millíní;Milleeny
+ga;Mill Mearáin;Milmorane
+ga;Doire Fhínín;Derryfineen
+ga;An Muirneach Beag;Murnaghbeg
+ga;Lios Maghair;Lismire
+ga;Tuairín Uí Dhuinnín;Tooreenyduneen
+ga;Baile na hAbha;Ballynahow
+ga;An Gleann Beag;Glanbeg
+ga;Lios an tSonnaigh;Lissatinnig Bridge
+ga;Cill Mhic an Domhnaigh;Kilvickadownig
+ga;Cathair Boilg;Caherbullig
+ga;An Cheathrú;Carhoo
+ga;An Ghráig;Graigue
+ga;Tíorabháin;Teeravane
+ga;An Baile Uachtarach;Ballyoughteragh
+ga;An Mhuirioch;Murreagh
+ga;An Baile Loiscthe;Ballylusky
+ga;Cathair Bó Sine;Caherboshina
+ga;Na Grafaí;Graffee
+ga;Baile an Mhúraigh;Moorestown
+eu;Feothanach;Feohanagh
+bg;Феоханагх;Feohanagh
+nl;Feothanach;Feohanagh
+ca;Feothanach;Feohanagh
+tr;Feothanach;Feohanagh
+ga;Rinn Chonaill;Reenconnell
+ga;Baile Uí Shé;Ballyheabought
+en;Ballyhegbought;Ballyheabought
+ga;Baile an Lochaigh;Ballinloghig
+ga;Baile na bhFionnúrach;Ballynavenooragh
+ga;Baile an Chnocáin;Ballinknockane
+ga;Murorgán;Murirrigane
+ga;An Tír;Teer
+ga;Dún Séann;Doonsheane
+ga;An Dún Meánach;Doonmanagh
+ga;Tobar na Múdán;Tobernamoodane
+ga;An Bhánóg Theas;Banoge South
+en;Banage South;Banoge South
+ga;Gualainn;Gowlin
+ga;Com Beatha;Coombaha
+ga;An Bhinn Bháin;Beenbane
+ga;An Cromán;Cromane
+ga;Buaile Uí Chuill;Boolakeel
+ga;An Cúl Bán;Coolbaun
+ga;An Sceachánach;Skehana
+ga;Ard Aitinn;Ardattin
+ga;Tuath Ó gConaíle;Ogonnelloe
+ga;Cill Chuimín;Kilcommon
+ga;Cúil Chaonaigh;Culkeeny
+ga;Cnoc na Muc;Knocknamuck
+ga;Eadarinis Fraoigh;Edernishfree
+ga;Loch an Iúir;Loughanure
+ga;Dobhar;Dore
+ga;Srath na Bruaí;Stranabrooey
+ga;An Chorrmhín;Corveen
+ga;Cnoc Fola;Knockfola
+ga;Mín an Chladaigh;Meenaclady
+ga;Mín na Cuinge;Meenacung
+ga;Caiseal na gCorr;Cashelnagor
+ga;Baile an Easa;Ballyness
+ga;Baile Thoir;East Town
+ru;Баллисло;Ballysloe
+ga;An Port;Port
+ga;Port na Bláiche;Portnablagh
+ga;An Fhorthair;Faugher
+ga;Gort na Brád;Gortnabrade
+ga;Tulach;Tullagh
+ga;Machaire Loiscthe;Rosapenna
+ga;Na Dúnaibh;Downings
+ga;Leargain Riach;Larganreagh
+ga;An Meall Mór;Melmore
+ga;Gort na Luchóg;Gortnalughoge
+ga;An Seisíoch;Sessiagh
+ga;Earra Thíre na Binne;Arryheernabin
+ga;Machaire Dromann;Magheradrumman
+ga;Bun na Toinne;Bunnaton
+ga;Baile na Bó;Ballyboe
+ga;Srath na gCopóg;Stranagoppoge
+ga;Gleann Tóchair;Glentogher
+ga;An Chloch Ghlas;Cloghglass
+ga;An tSráid;Straid
+ga;Baile na Creige Thoir;Craigtown
+ga;Cill Shléibhe;Killea
+ga;Droichead an Chrompain;Crompaun Bridge
+ga;An Seanach;Shannagh
+ga;Mín na Gualanna;Meenagolan
+ga;Na Croisbhealaí;Cross Roads
+ga;An Baile Ard;Ballard
+ga;An Coimín;Commeen
+ga;An Mullán Mór;Mullanmore
+ga;Cill Ráin;Kilrean
+ga;An Chruach;Croagh
+ga;Cnoc na gCapall;Crocknagapple
+ga;Cró an Chaorthainn;Cronkeeran
+ga;Gleann Gheis;Glengesh
+ga;Srath an Bhealaigh;Stravally
+ga;Leac Chonaill;Laconnell
+ga;Learga na Saorthach;Lergynasearhagh
+ga;Cró Chaorach;Crowkeeragh
+ga;Mín Uí Chanann;Meenychannon
+ga;Cill Chathasaigh;Kilcasey
+ga;Mucros;Muckros
+ga;Doire Leathan;Derrylahan
+ga;Srath Laoill;Straleel
+ga;Srath Laoill Thuaidh;Straleel North
+ga;Mín an Bhealaigh;Meenavean
+ga;Dún Allt;Doonalt
+ga;Cill Ghabhlaigh;Kilgoly
+ga;Mín an Draighin;Meenadreen
+ga;Cionn na Coilleadh;Kinnakillew
+ga;Mín na Croise;Meenacross
+ga;Srath na gCartán;Stranagartan
+ga;An Srath Buí;Straboy
+ga;Doire Uí Fhríl;Derryness
+ga;An Chluanaidh;Clooney
+ga;Srath Chaisil;Stracashel
+ga;Taobh an Locha;Tievelough
+ga;An Ghlaisigh;Glashagh
+ga;Ard Bata;Arbatt
+ga;An Cionn Garbh;Kingarrow
+ga;Suí Corr;Seacor
+ga;Leitir Mhic an Bhaird;Lettermacaward
+ru;Леттермакауорд;Lettermacaward
+ga;Baile an Chnoic;Ballincrick
+ga;Doire Eadarúil;Derrydruel
+ga;An Airdmhín;Ardmeen
+ga;Mín Corrbhaic;Meencorwick
+ga;An Chruach;Crohy
+ga;Tobar Caoin;Toberkeen
+ga;An Mhín Mhór;Meenmore
+ga;Athphort;Aphort
+ga;An Dúgharraí;Doogary
+ga;Corr Tobair;Cortober
+ga;Cill na Móna;Kilnamona
+ga;Na Fáilíní;Fauleens
+ga;Cheathrú na gCloch;Carrownaglogh
+ga;Achadh Conaire;Achonry
+ga;Leamhach;Lavagh
+gd;Leamhach;Lavagh
+ga;Tuar Loistreáin;Toorlestraun
+ru;Турлестрон;Toorlestraun
+ka;ტურლესტრონი;Toorlestraun
+ga;Ceathrú an Éadain;Carrowneden
+ga;An Cillín Dubh;Killeenduff
+ga;Garbhach;Garvagh
+ga;An Choraidh;Corry
+ga;Tamhnaí Liatha;Tawnylea
+ga;An Leacán;Leckaun
+ga;Gort Geargáin;Gortgarrigan
+ga;Coill an Raithin;Killyran
+ga;An Carn;Carran
+ga;Eanach Mheáin;Annaghvaan
+ga;Tír an Fhia;Terranea
+ga;Inis Léith;Inishlay
+ga;An Caorán Beag;Keeraunbeg
+ga;Barr an Doire;Barraderry
+ga;Baile na hAbhann;Ballynahown
+ga;An Bhánrainn Bhán;Banraghbaun
+ga;Caorán na gCearc;Keenaunnagark
+ga;Camas Íochtair;Camus Eighter
+ga;Leitir Móir;Lettermore
+ga;An Seanbhaile;Shanvally
+ga;Muiceanach Choille;Muckanaghkillew
+ga;Na Forbacha;Furbo
+en;Furbogh;Furbo
+ga;Fionasclainn;Finisklin
+ga;Leamhchoill;Laughil
+ga;Cnocán Raithní;Knockaunranny
+ga;Droim an Mhúcháin;Drimmavohaun
+ga;Cill Aithnín;Killannin
+ga;An Cheathrú Gharbh;Carrowgarriff
+ga;Lios an Gharráin;Lissagurraun
+ga;Seanadh Fhraochóg;Shannafreaghoge
+ga;Claídeach;Clydagh
+ga;Gort an Chalaidh;Gortachalla
+ga;Cluain na Binne;Cloonnabinnia
+ga;Ceathrú Mhór an Chnoic;Carrowmoreknock
+ga;Camas;Camus
+ga;Baile na Cille;Ballynakill
+ga;An Fhaiche;Fahy
+ga;Cill Chonaill;Kilconnell
+ru;Килконнелл;Kilconnell
+ka;კილკონელი;Kilconnell
+ja;キルコネル;Kilconnell
+ga;Cill Bhriocáin;Kilbricken
+ru;Килбрикен;Kilbricken
+ga;Cill Chormaic;Kilcormac
+ru;Килкормак;Kilcormac
+ga;Pollach;Pollagh
+en;Pullough;Pollagh
+ru;Поллах;Pollagh
+bg;Полагх;Pollagh
+ga;An Móta;Moate
+ga;An Phéic;Peak
+en;Cannianastown;Cunnlamstown
+ga;Baile Uí Chuillinn;Ballycullen
+ga;Maíros;Moyrus
+ga;Dumhaigh Ithir;Dooveher
+ga;Maigh Mhuilinn;Mweewillin
+ga;Na Sraithíní;Sraheens
+ga;Gob an Choire;Achill Sound
+ru;Акилл-Саунд;Achill Sound
+ka;აკილ-საუნდი;Achill Sound
+fa;اچیل سوند;Achill Sound
+gd;Gob an Choire;Achill Sound
+ga;An Mhaoilinn;Mweelin
+ga;Poll Raithní Sweeney;Pollranny Sweeny
+ga;Both Faonáin;Bofeenaun
+ga;Iomún;Ummoon
+ga;An Choill Mhór;Kilmore
+ga;Baile Chruaich;Ballycroy
+ga;An Gort Breac Theas;Gortbrack South
+ga;Tulachán Dubh;Tullaghanduff
+ga;Sraith an tSeagail Theas;Srahataggle South
+ga;Troiste;Tristia
+ga;Idirghleann;Ederglen
+ga;Na Doiríní;Derreens
+ga;Poll an Ghearráin;Pollagarraun
+ga;Doire na Maol;Derrynameel
+en;Muings;Na Monga
+en;Muings Bridge;Na Monga
+ga;Barr na Trá;Barnatra
+ga;Fálach;Faulagh
+ga;Doire Choirb;Derrycorrib
+ga;Talach;Tallagh
+ga;Maigh Raithin;Moyrahan
+ga;An Droim Riabhach;Drumreagh
+ga;An Cluainín;Clooneen
+ga;Achadh Dúin;Aghadoon
+ga;Gleann Lára;Glenlara
+ga;Cnocán na Líne;Knocknalina
+ga;Cnoc Seanbhotha;Knockshanbo
+ga;Greamhchoill;Graghil
+ga;An Gort Breac;Gortbrack North
+ga;An Gort Breac Thuaidh;Gortbrack North
+ga;Poll an tSómais;Pollatomish
+ga;Moing Iongáin;Muingingaun
+ga;Gleann Chuilinn Íochtarach;Glencullin Lower
+ga;Barr Rúscaí;Barroosky
+ga;Gort Liatuile;Gortleatilla
+ga;Barr Alltaí;Baralty
+ga;An Corrán Buí;Curraunboy
+ga;Ceathrú Thaidhg;Carrowteige
+ga;Cill Ghallagáin;Kilgalligan
+ga;Dún Fhíne;Doonteeny
+ga;Conach Réidh;Conaghra
+ru;Россавил;Rossaveal
+ka;როსავილი;Rossaveal
+ja;ロッサヴィール;Rossaveal
+ga;Ros an Mhíl;Rossaveal
+it;Ros a' Mhíl;Rossaveal
+ga;Sraith Salach;Recess
+ga;Droichead Uí Dhálaigh;Mountnugent
+gd;Droichead Uí Dhálaigh;Mountnugent
+ga;Lios Uí Chathasaigh;Lissycasey
+eu;Lisseycasey;Lissycasey
+hy;Լիսիկեյզի;Lissycasey
+ru;Лиссикейзи;Lissycasey
+ga;Cill na Martra;Kilnamartyra
+ru;Килнамартира;Kilnamartyra
+ga;Cill Choirín;Kilkerrin
+ru;Килкеррин;Kilkerrin
+ka;კილკერინი;Kilkerrin
+ga;An Creagán;Mountbellew
+ru;Маунт-Беллью;Mountbellew
+ka;მაუნტბელიუ;Mountbellew
+es;Mount Bellew;Mountbellew
+en;Castlecove;Castle Cove
+ga;Cuan an Chaisleáin;Castle Cove
+br;An Siopa Dubh;Castle Cove
+eu;Castlecove;Castle Cove
+de;Castlecove;Castle Cove
+ru;Каслков;Castle Cove
+nl;Castlecove;Castle Cove
+ga;An Fosadh;Fossa
+ru;Фосса;Fossa
+ja;フォッサ;Fossa
+ga;Gleann Fleisce;Glenflesk
+ga;Áth Stúin;Stoneyford
+ru;Стонифорд;Stoneyford
+es;Lawcus - Stoneyford;Stoneyford
+ga;An Dúcharraig;Newtowngore
+ga;Baile Nua an Chaisil;Newtowncashel
+ga;Béal Átha Bhearaigh;Ballyvary
+ru;Белдерг;Belderrig
+ka;ბელდერგი;Belderrig
+ja;ベルデリッグ;Belderrig
+ga;Béal Deirg;Belderrig
+gd;Béal Deirg;Belderrig
+ga;an Mhala Raithní;Mulranny
+de;Mallaranny;Mulranny
+ru;Малларанни;Mulranny
+bg;Мулранй;Mulranny
+ka;მალარანი;Mulranny
+ja;マルランニー;Mulranny
+nl;Mulrany;Mulranny
+ga;Béal Átha Feorainne;Ballyforan
+ru;Баллифоран;Ballyforan
+bg;Балйфоран;Ballyforan
+ka;ბალიფორანი;Ballyforan
+ga;Céideadh;Keadue
+ceb;Keadew;Keadue
+ru;Кидью;Keadue
+sv;Keadew;Keadue
+ka;კიდიუ;Keadue
+es;Keadew;Keadue
+ga;An Móinteach;Mantua
+ga;Baile Chaisleáin na nGeochagán;Castletown Geoghegan
+ru;Каслтаун-Геохеган;Castletown Geoghegan
+ga;An Choill Ramhar;Coolrawer
+en;Cloonraver;Coolrawer
+ga;An Móinín Rua;Moneenroe
+en;Crocknamurleog;Cnoc Na Muirleog
+ga;Ros Cathail;Rosscahill
+en;Rinnashinnagh;Rinn na Sionnach
+ga;An Tóin Mhór;Tonmore
+en;Emlycass;Imleach Cais
+en;Ardowen;Ard Eoghain
+en;Gladree;An Ghleadraigh
+en;Ballyglass;An Baile Glas
+en;Shanaghy;Seanachadh
+ga;An Mhoing Mhór;Muingmore
+ga;Dumha Locha;Doolough
+ga;Ceathrú na gClogh;Carrownaglogh
+ga;Cill Chomáin;Kilcommon
+en;Newtown;An Baile Nua
+ga;Toin na hOllaí;Surgeview
+en;Termon;An Tearmann
+ga;Leitir Beag;Letierbeg
+en;Cartrongilbert;Cartur Ghilbeirt
+ga;An Cartúr;Cartron
+ga;Duibhis;Divish
+en;Mullaghroe;An Mullach Rua
+ga;Torán;Tiraun
+en;Barrack;An Bheairic
+ga;An Léim;Leam
+en;Barranagh West;Bearanach Thiar
+ga;Plota an Bhairéadaigh Thair;Barrettsplot West
+ga;Lorg an Chlaí;Lurgacloy
+en;Drum;An Droim
+en;Barranagh East;Bearanach Thoir
+ga;Plota an Bhairéadaigh Thoir;Barreitsplot East
+en;Cross;An Chrois
+en;Rinanagh;Rinneanach
+en;Cross Common;Coimin na Croise
+en;Cross East;An Chrois Thoir
+ga;An Aírd Mhór;Ardmore
+en;Emlybeg;Imleach Beag
+ga;An Choim;Keem
+ga;Dún Ibhir;Dooniver
+ga;Baile Mhic Sheathrúin;Ballymacsherron
+ga;Áil Ti Conáin;Alliconaun
+en;Toorglass;An Tuar Glas
+ga;Ráth Muireagáin;Rathmorgan
+ga;Na Eachléim;Aghoos
+ga;Barr Thrá;Bartrauve
+en;Gortbrack;An Gort Breac
+ga;An Currach Buí;Curraghboy
+ga;Gleann Chaisell;Glencastle
+ga;Loch na hOili;Loughnahelly
+ga;Bun an Mhulinn;Bunawillin
+ga;An Carn Bán;Carnbane
+ga;Baile Ghib;Gibstown
+ga;Dirnéin Bhaile Ghib;Gibstown Demesne
+ga;Rath an Tancardaigh;Tankardrath
+ga;Sligh Colláin;Stackallan
+ga;Ard Maoíchon;Ardmulchan
+en;Cloghbrack;An Chloch Bhreac
+ga;Doire Bhoithe;Derryvohy
+ga;Dumha Goirt;Dugort
+ga;Doire Fhíonáin;Derrynane
+gd;Baile na hlnse;Ballinahinch
+ga;An Lorgain;Lurga
+ga;Mainistir Réadáin;Monasteradon
+ga;Bothailios;Bohalas
+ga;An Fhuathach;Foohagh
+gd;An Cnoc Rua;Knockroe
+ga;Tulaigh an Chuaille;Tullycoly
+ga;Droim Mhic an Choill;Drummacool
+en;Corclogh;An Chorrchloch

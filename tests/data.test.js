@@ -611,8 +611,8 @@ const ISOLATED_OK = {
   'SC|Aldabra': 'Aldabra, Seychelles extérieures, 1 100 km de Mahé',
   'SC|Assumption': 'Assomption, Seychelles extérieures, voisine d\'Aldabra',
   'SC|Farquhar': 'Farquhar, Seychelles extérieures, 700 km de Mahé',
-  'DZ|Tindouf': 'Tindouf, extrême sud-ouest algérien, séparé du reste du pays par le Sahara occidental',
-  'MR|Chegga': 'Chegga, poste frontière au nord-est du Sahara mauritanien',
+  // DZ|Tindouf et MR|Chegga ont quitté cette liste le 21/09/2026 : en publiant les lieux sans code postal,
+  // l'Algérie a gagné 356 lieux et la Mauritanie 54, et ces deux-là ne sont plus seuls dans leur coin de désert.
   'GL|Summit Camp': 'station scientifique au centre de la calotte groenlandaise',
   'CA|Mould Bay': 'ancienne station météo de l\'île du Prince-Patrick, Arctique canadien',
   'CK|Motu Koe': 'Penrhyn (Tongareva), îles Cook du Nord',
@@ -620,7 +620,12 @@ const ISOLATED_OK = {
   'CK|Palmerston': 'Palmerston, île isolée des Cook',
   'MH|Enewetak': 'Enewetak, extrémité ouest des Marshall',
   'BR|Vila dos Remédios': 'Fernando de Noronha, 350 km au large du Pernambouc',
-  'BR|Fernando de Noronha (Distrito Estadual)': 'Fernando de Noronha, 350 km au large du Pernambouc'
+  'BR|Fernando de Noronha (Distrito Estadual)': 'Fernando de Noronha, 350 km au large du Pernambouc',
+  // 21/09/2026 — trois territoires réellement isolés, publiés pour la première fois en rendant le code postal
+  // facultatif : aucun n'avait de point postal à moins de 15 km, le filtre postal les écartait avec le reste.
+  'AU|Lord Howe Island': 'île Lord Howe, 570 km au large de la Nouvelle-Galles du Sud, 464 habitants',
+  'NZ|Lumina': 'îles Auckland, subantarctique néo-zélandais, 450 km au sud de la Nouvelle-Zélande',
+  'MX|Isla Socorro': 'île Socorro, archipel Revillagigedo, 450 km au large de Colima'
 };
 
 const BOUNDS = (() => {
@@ -653,7 +658,9 @@ const BOUNDS = (() => {
       }
       // Codes postaux : forme, longueur, pas de doublon dans la même ligne, et préfixe de pays cohérent quand le
       // code est un repli « XX-… » (un « CN-… » dans un fichier autre que la Chine = ligne rattachée au mauvais pays).
-      const cps = p[2].split(',');
+      // Champ VIDE = aucun code postal connu pour ce lieu (21/09/2026 : le code est une aide à la recherche, pas une
+      // condition de publication — un lieu réel n'est plus écarté faute de code). Rien à contrôler dans ce cas.
+      const cps = p[2] === '' ? [] : p[2].split(',');
       if(new Set(cps).size !== cps.length) badCp.push(where + ' : code postal répété ' + JSON.stringify(p[2]));
       for(const cp of cps){
         if(!CP_RE.test(cp) || cp.length < CP_LEN[0] || cp.length > CP_LEN[1]){ badCp.push(where + ' : code postal ' + JSON.stringify(cp)); continue; }
@@ -722,6 +729,68 @@ test('lieux : coordonnée à deux entiers seulement quand une autre source la co
   assert.deepEqual(enTrop.slice(0, 20), [], 'coordonnée à deux entiers non corroborée : la fiche doit être écartée, ou ajoutée à PLACEHOLDER_COORD_OK avec sa preuve');
   assert.deepEqual(disparus.slice(0, 20), [], 'exception devenue inutile : la retirer de PLACEHOLDER_COORD_OK et de ENTIERS_CORROBORES');
   assert.equal(vus.length, ENTIERS_CORROBORES.length);
+});
+
+// Un lieu réel n'est JAMAIS écarté faute de code (21/09/2026, demande de l'utilisateur : « les codes postaux sont
+// optionnels, une aide pour retrouver sa ville ; il ne faut pas de ville écartée »). Jusqu'à cette date, six
+// générateurs jetaient tout lieu sans point postal à moins de 15 km, et quatre autres tout lieu dont le nom ne
+// figurait pas dans une liste de codes tierce : 106 334 lieux réels manquaient, dont 20 965 des 21 339 communes de
+// Bosnie-Herzégovine. Ce contrôle relit les dumps GeoNames et vérifie qu'aucun lieu éligible n'est resté dehors.
+// Il ne tourne que si scripts/dump/ est présent (non commité, comme scripts/postal/).
+const SANS_CODE_ECHANTILLON = ['AT', 'BG', 'LK', 'PE', 'AU', 'DZ', 'TG', 'BA', 'ME', 'XK', 'AM', 'NZ', 'HT', 'SI'];
+// Exclusions LÉGITIMES, sans rapport avec un code : la France publie la liste officielle des communes (IGN), pas les
+// hameaux GeoNames ; sept pays du Levant appliquent un seuil de population assumé ; la Géorgie exige un nom en
+// écriture géorgienne. Aucun de ces pays n'est dans l'échantillon ci-dessus, et c'est écrit plutôt que sous-entendu.
+const SANS_CODE_HORS_SUJET = { FR: 'communes officielles IGN, pas les hameaux GeoNames', EG: 'seuil de population',
+  IL: 'seuil de population', JO: 'seuil de population', LB: 'seuil de population', LY: 'seuil de population',
+  PS: 'seuil de population', SY: 'seuil de population', GE: 'nom en écriture géorgienne exigé' };
+
+test('lieux : aucun lieu réel écarté faute de code postal (échantillon de ' + SANS_CODE_ECHANTILLON.length + ' pays)', (t) => {
+  const dumpDir = path.join(ROOT, 'scripts', 'dump');
+  if(!fs.existsSync(dumpDir)){ t.skip('scripts/dump/ absent (non commité)'); return; }
+  assert.deepEqual(SANS_CODE_ECHANTILLON.filter(cc => SANS_CODE_HORS_SUJET[cc]), [],
+    'un pays de l\'échantillon est aussi déclaré hors sujet : choisir l\'un ou l\'autre');
+  const C = require(path.join(ROOT, 'scripts', 'communes-corrections.js'));
+  const norm = require(path.join(ROOT, 'lib', 'trip-engine.js')).internals.normalizeCityName;
+  const KEEP = new Set(['PPL', 'PPLA', 'PPLA2', 'PPLA3', 'PPLA4', 'PPLA5', 'PPLC', 'PPLF', 'PPLG', 'PPLL', 'PPLS']);
+  const hv = (a, b, c, d) => { const r = Math.PI / 180, x = Math.sin((c - a) * r / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin((d - b) * r / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)); };
+  const manquants = [], sautés = [];
+  for(const cc of SANS_CODE_ECHANTILLON){
+    const dp = path.join(dumpDir, cc + '_dump.txt');
+    const fichier = (TripData.COUNTRIES[cc] || {}).file;
+    const pp = fichier && path.join(DATA, fichier);
+    if(!fs.existsSync(dp) || !pp || !fs.existsSync(pp)){ sautés.push(cc); continue; }
+    const points = new Set(), parNom = new Map();
+    eachLine(pp, line => {
+      const ch = line.split(';'), ll = ch[1].split(',');
+      const lat = +ll[1], lon = +ll[0];
+      points.add(lat.toFixed(4) + ',' + lon.toFixed(4));
+      const k = norm(ch.slice(4).join(';'));
+      let g = parNom.get(k); if(!g) parNom.set(k, g = []);
+      g.push([lat, lon]);
+    });
+    let absents = 0;
+    const exemples = [];
+    for(const l of fs.readFileSync(dp, 'utf8').split('\n')){
+      if(!l) continue;
+      const c = l.split('\t');
+      if(!KEEP.has(c[7])) continue;
+      const lat = parseFloat(c[4]), lon = parseFloat(c[5]);
+      if(!isFinite(lat) || !isFinite(lon)) continue;
+      let nom;
+      try { nom = C.preparePlaceName(cc, c[0], c[1]); } catch(e){ nom = c[1]; }
+      if(!nom) continue;
+      if(C.excludePlace(cc, c[0], nom, lat, lon)) continue;
+      if(points.has(lat.toFixed(4) + ',' + lon.toFixed(4))) continue;
+      const proches = parNom.get(norm(nom));
+      if(proches && proches.some(q => hv(lat, lon, q[0], q[1]) <= 2)) continue;
+      absents++;
+      if(exemples.length < 3) exemples.push(nom + ' (' + c[0] + ', ' + lat + ',' + lon + ')');
+    }
+    if(absents) manquants.push(cc + ' : ' + absents + ' lieu(x) du dump non publiés — ' + exemples.join(', '));
+  }
+  assert.deepEqual(sautés, [], 'dump ou fichier publié manquant pour ces pays');
+  assert.deepEqual(manquants, []);
 });
 
 test('lieux : aucun « code postal » qui soit un identifiant interne GeoNames', () => {
@@ -988,7 +1057,7 @@ test('lieux : les quasi-doublons connus ne se multiplient pas (populations contr
   // très au-dessus du réel sans qu'aucun test ne bronche. Ce sont désormais les valeurs EXACTES relevées sur l'état
   // publié : une aggravation comme une amélioration font échouer le test, et c'est le chiffre qu'on met à jour.
   const CONTRADICTIONS = 6;  // paires à moins de 300 m publiant deux populations non nulles différentes (12 avant la 19e passe)
-  const SUGGESTIONS = 28;    // paires à moins de 300 m avec deux codes postaux, donc deux suggestions (34 avant)
+  const SUGGESTIONS = 29;    // paires à moins de 300 m avec deux codes postaux, donc deux suggestions (34 avant la 19e passe ; 28 avant que les lieux sans code postal ne soient publiés, 21/09/2026)
   const hv = (a, b, c, d) => { const r = Math.PI / 180, x = Math.sin((c - a) * r / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin((d - b) * r / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)); };
   // Même normalisation que le moteur : c est l écart entre elle et la clé du dédoublonnage qu on mesure ici.
   const norm = require(path.join(ROOT, 'lib', 'trip-engine.js')).internals.normalizeCityName;

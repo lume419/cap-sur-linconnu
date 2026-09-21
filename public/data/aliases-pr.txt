@@ -1301,3 +1301,19 @@ pa;ਯਾਉਕੋ;Yauco
 ps;یاوکو;Yauco
 tg;Яуко;Yauco
 tt;Яуко;Yauco
+en;Isabell II;Isabel Segunda
+ru;Изабель Сегунда;Isabel Segunda
+ar;إيزابيل سيغوندا;Isabel Segunda
+kk;Изабель Сегунда;Isabel Segunda
+ky;Изабель Сегунда;Isabel Segunda
+hi;इसाबेल सेगुंडा;Isabel Segunda
+bn;ইসাবেল সেগুন্ডা;Isabel Segunda
+ur;ازابیل سیگنڈا;Isabel Segunda
+am;ኢሳቤል ሴኩንዳ;Isabel Segunda
+fa;ایزابل سگوندا;Isabel Segunda
+ja;イサベル・セグンダ;Isabel Segunda
+pa;ਇਸਾਬੇਲ ਸੈਗੁੰਡਾ;Isabel Segunda
+ps;ازابیل سیگندا;Isabel Segunda
+tg;Изабель Сегунда;Isabel Segunda
+ru;Вьекес;Vieques Zona Urbana
+en;Vieques;Vieques Zona Urbana

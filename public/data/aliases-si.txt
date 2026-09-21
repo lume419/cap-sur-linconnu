@@ -19369,3 +19369,29 @@ ce;Долга Рака;Dolga Raka
 uk;Долга Рака;Dolga Raka
 mk;Долга Рака;Dolga Raka
 sr;Долга Рака;Dolga Raka
+tt;Тримлини;Trimlini
+ce;Тримлини;Trimlini
+bg;Тримлини;Trimlini
+hu;Hármasmalom;Trimlini
+uk;Тримлині;Trimlini
+mk;Тримлини;Trimlini
+ru;Пинце;Pince
+hu;Petesháza;Petišovci
+uk;Петишовці;Petišovci
+ru;Петишовци;Petišovci
+tt;Петишовци;Petišovci
+ce;Петишовци;Petišovci
+mk;Петишовци;Petišovci
+sr;Петишовци;Petišovci
+tt;Долина-при-Лендави;Dolina pri Lendavi
+ce;Долина-при-Лендави;Dolina pri Lendavi
+hu;Völgyifalu;Dolina pri Lendavi
+uk;Долина-при-Лендаві;Dolina pri Lendavi
+mk;Долина кај Лендава;Dolina pri Lendavi
+tt;Чентиба;Čentiba
+de;Csente;Čentiba
+ce;Чентиба;Čentiba
+hu;Csente;Čentiba
+uk;Чентиба;Čentiba
+mk;Чентиба;Čentiba
+hu;Pincemajor;Pince–Marof

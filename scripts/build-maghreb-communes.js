@@ -223,14 +223,17 @@ function write(country, lines, note){
     if(wilaya && DZ_WILAYA_ALIASES[wilaya]) wilaya = DZ_WILAYA_ALIASES[wilaya];
     if(DZ_WILAYAS_2019.has(p.admin1)) wilaya = null; // réforme de 2019, voir commentaire plus haut
     const near = nearest(grid, p.lat, p.lon, 15, q => !wilaya || normAdmin(q.region) === wilaya);
+      // CODE POSTAL FACULTATIF (21/09/2026) : le lieu était ÉCARTÉ ici faute de point postal exploitable. Le code
+      // postal aide à retrouver sa ville, il ne décide pas si elle existe : le lieu est publié avec un code VIDE.
+    // Le contrôle de wilaya reste : un code d'une AUTRE wilaya serait faux, mieux vaut pas de code du tout.
     if(!near){
       if(nearest(grid, p.lat, p.lon, 15, null)) horsWilaya++; else sansCode++;
-      return null;
+      return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};;${dzNames.get(p.admin1) || ''};${p.name}`;
     }
     return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${near.cp};${near.region};${p.name}`;
   }).filter(Boolean);
   write('DZ', lines, brut + ' bruts, ' + list.length + ' dédoublonnés, ' + horsWilaya +
-    ' écartés par le contrôle de wilaya, ' + sansCode + ' sans point postal à moins de 15 km');
+    ' publiés sans code faute de point dans leur wilaya, ' + sansCode + ' sans point postal à moins de 15 km');
 }
 
 // ── TUNISIE ────────────────────────────────────────────────────────────────────────────────────
@@ -252,7 +255,12 @@ function write(country, lines, note){
   const lines = list.map(p => {
     if(isKerkennah(p.lat, p.lon)) kerkennah++;
     let near = nearest(grid, p.lat, p.lon, 15, null);
-    if(!near){ sansCode++; return null; }
+      // CODE POSTAL FACULTATIF (21/09/2026) : le lieu était ÉCARTÉ ici faute de point postal exploitable. Le code
+      // postal aide à retrouver sa ville, il ne décide pas si elle existe : le lieu est publié avec un code VIDE.
+    if(!near){
+      sansCode++;
+      return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};;;${p.name}`;
+    }
     // Plusieurs codes au même point (même délégation) : si l'un porte le nom de la localité du lieu, on le prend
     // plutôt que le premier de la liste (avant septembre 2026, tous les lieux d'une délégation recevaient le même
     // code, ex. 3045 pour tout l'archipel des Kerkennah).

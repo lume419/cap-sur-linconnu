@@ -18037,3 +18037,15 @@ el;Aladinón;Aladino
 el;Αλαδινόν;Aladino
 ru;Фискардо;Fiskárdo
 de;Finikounda;Foinikoúnta
+el;Βατσιανά;Vatsianá
+ru;Вациана;Vatsianá
+el;Τρίστομο;Trístomo
+el;Saría;Árgos
+el;Καραβέ;Karavé
+el;Καραβές;Karavé
+el;Γαλανά;Galaná
+el;Αργυράτικα;Katsourátika
+el;Κατσουράτικα;Katsourátika
+el;Χαμουριό;Chamourió
+el;Φώκια;Fókia
+el;Καλοταρίτισσα;Kalotarítissa

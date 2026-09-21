@@ -2456,3 +2456,164 @@ bg;Акурамбода;Akuramboda
 bg;Агапола;Agappola
 bg;Рамбода;Ramboda
 fa;اداپانکولام;Adappankulam
+si;වියාපරිමූලේ;Viyaparimulai
+fa;ویرامانیکاتوانتورای;Viramanikkatevanturai
+en;Vidaththaltheevu;Vidattaltivu
+fa;ویداتالتیوو;Vidattaltivu
+ta;விடத்தல் தீவு;Vidattaltivu
+si;විඩතල්පලේ;Vidaththalpalai
+en;Vidattalpalai;Vidaththalpalai
+nl;Vidattalpalai;Vidaththalpalai
+fa;وراویل;Veravil
+ta;வேரவில்;Veravil
+fa;ولانکولام;Vellankulam
+en;Vellampakkaddy;Vellampokkady
+fa;ولمپکدی;Vellampokkady
+nl;Vellampakkaddy;Vellampokkady
+fa;وللکدو;Vellalakaddu
+fa;وللای;Vellai
+ta;வெள்ளை;Vellai
+fa;ودیویتکلو;Vedivaittakallu
+fa;ودیدیپو;Veddaiyadaippu
+fa;واوونینپریکولم;Vavuniyanperiyakulam
+fa;وتپلی;Vattappalai
+ta;வற்றாப்பளை;Vattappalai
+fa;وتهیری;Vathiri
+de;Varani;Varani North
+si;වරණි;Varani North
+en;Varani;Varani North
+fa;وارنی;Varani North
+ta;வாரணி;Varani North
+nl;Varani;Varani North
+ar;فانيفيلنكولم;Vannivilankulam
+fa;ونیویلنکولم;Vannivilankulam
+ta;வன்னிவிலாங்குளம்;Vannivilankulam
+ar;فانيكولم;Vannikulam
+fa;ونیکولم;Vannikulam
+ar;فاننكني;Vannankeni
+fa;وننکنی;Vannankeni
+ar;فانمدي;Vannamoddai
+fa;ونمدی;Vannamoddai
+ar;فانكليكولم;Vankalaikkulam
+fa;ونکلیکولم;Vankalaikkulam
+si;වල්වෙට්ටිතුරෙයි;Valvedditturai
+ta;வல்வெட்டித்துறை;Valvedditturai
+sv;Valvettithurai;Valvedditturai
+bg;Валведитураи;Valvedditturai
+en;Valvettithurai;Valvedditturai
+fr;Valvettithurai;Valvedditturai
+es;Valvettithurai;Valvedditturai
+zh;瓦爾維提圖萊;Valvedditturai
+ar;فالفتيثوري;Valvedditturai
+pa;ਵਾਲਵੇਟੀਥੁਰਾਈ;Valvedditturai
+ja;ヴェリヴチットフライ;Valvedditturai
+fa;والوه‌تیتورای;Valvedditturai
+pl;Valvettithurai;Valvedditturai
+ur;والویٹیتھورائی;Valvedditturai
+da;Valvettithurai;Valvedditturai
+ca;Valvettithurai;Valvedditturai
+nl;Valvettithurai;Valvedditturai
+tr;Valvettithurai;Valvedditturai
+ru;Валведитураи;Valvedditturai
+ar;فالودي;Valveddi
+ar;فاليبالي;Valliyappalai
+fa;والیاپالای;Valliyappalai
+ar;فاليبورم;Vallipuram
+ta;வல்லிபுரம்;Vallipuram
+fa;واللای;Vallai
+fa;والیانمادام;Valayanmadam
+ta;வாழாலை;Valalai
+fa;واکاپادانکاندال - متپولیانکولام;Vakkappaddankandal-Metpuliyankulam
+si;වඩකන්ඩල්;Vaddakkandal
+fa;وادداکاندال;Vaddakkandal
+bg;Вадакачи;Vaddakkachchi
+si;වඩකච්චි;Vaddakkachchi
+fa;وادداککاچچی;Vaddakkachchi
+ta;வட்டக்கச்சி;Vaddakkachchi
+fa;اووارکولام;Uvarkkulam
+ta;ஊற்றுவாயின்குளம்;Uthuvayankulam
+en;Uthiravengai;Utheravankai
+fa;اوتیراونگای;Utheravankai
+nl;Uthiravengai;Utheravankai
+fa;اوپوتاراوای;Upputtaravai
+bg;Унчалкади;Unchalkaddi
+fa;اونچالکادی;Unchalkaddi
+en;Umaneri;Umanari
+fa;اومانری;Umanari
+nl;Umaneri;Umanari
+fa;اولووانری;Uluvaneri
+fa;اودوپاتوککاندال;Udupattukkandal
+fa;یودایادی;Udaiyadi
+ur;ادیڈی;Udaiyadi
+en;Thumpalai;Tumpalai
+nl;Thumpalai;Tumpalai
+en;Thullukudi Kudiyiruppu;Tullukuddikudiyiruppu
+fa;تولوکودی کودیئیروپو;Tullukuddikudiyiruppu
+nl;Thullukudi Kudiyiruppu;Tullukuddikudiyiruppu
+en;Thondaimanaru;Tondaimanar
+ta;தொண்டைமானாறு;Tondaimanar
+nl;Thondaimanaru;Tondaimanar
+fa;تولاکاددی;Tholakaddy
+fa;تیککام;Thikkam
+fa;ترانکاندال;Terankandal
+fa;تانکودای;Thankodai
+bg;Тхананкилапу;Thanankilappu
+fa;تانانکیلاپو;Thanankilappu
+en;Thampalai;Tampalai
+nl;Thampalai;Tampalai
+en;Thaiyiddi;Taiyiddi
+fa;تهاییددی;Taiyiddi
+nl;Thaiyiddi;Taiyiddi
+fa;تادانکولام;Taddankulam
+ta;சூரியகட்டைக்காடு;Suriyatevarkaddaikkadu
+en;Sooriyakaddaikaadu;Suriyatevarkaddaikkadu
+uk;Пунакарі;Pooneryn
+ja;プーネリン;Pooneryn
+fa;پوناکاری;Pooneryn
+fr;Poonakari;Pooneryn
+ta;பூநகரி;Pooneryn
+ta;பருத்தித்துறை;Point Pedro
+ru;Пойнт-Педро;Point Pedro
+si;පේදුරු තුඩුව;Point Pedro
+ur;پوائنٹ پیڈرو;Point Pedro
+zh;佩德羅角;Point Pedro
+zh-Hans;佩德罗角;Point Pedro
+ja;ポイント・ペドロ;Point Pedro
+fa;پوینت پدرو;Point Pedro
+fa;پاندیانکولام;Pandiyankulam
+ta;பள்ளங்கோட்டை;Pallankoddai
+ta;பள்ளமடு;Pallamadu
+bg;Палампиди;Palampiddi
+fa;پالامپیدی;Palampiddi
+ta;நெல்லியடி;Nelliady
+ja;ナナタン;Nanaddan
+fa;ناناددان;Nanaddan
+ta;நானட்டன்;Nanaddan
+en;Myliddy;Mayiliddi North
+ur;میلیڈی;Mayiliddi North
+ta;மயிலிட்டி;Mayiliddi North
+nl;Myliddy;Mayiliddi North
+fa;ماللاوی;Mallavi
+ta;மல்லாவி;Mallavi
+ta;குமாரபுரம்;Kumarapuram
+fa;کوکیلای;Kokkilai
+ja;キリノッチ;Kilinochchi
+ml;കിളിനൊച്ചി;Kilinochchi
+ta;கிளிநொச்சி;Kilinochchi
+ru;Килиноччи;Kilinochchi
+zh;基利诺奇;Kilinochchi
+ta;கெருடாவில்;Kerudavil
+bg;Качаи;Kachchai
+ta;கச்சாய்;Kachchai
+ta;இசைமலைத்தாழ்வு;Isaimalaithalvu
+fa;الامپیل;Alampil
+ta;அளம்பில்;Alampil
+en;Akattikkulam;Akattikulam
+fa;اکاتیکولام;Akattikulam
+nl;Akattikkulam;Akattikulam
+fa;ادامپانتالوو;Adampantalvu
+en;Adukkalamoddai;Adaikkalamoddai
+fa;آدوکالاموددای;Adaikkalamoddai
+nl;Adukkalamoddai;Adaikkalamoddai
+fa;اچانکولام;Achchankulam
+ta;பெரியமடு;Pariyamadu

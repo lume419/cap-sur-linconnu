@@ -6535,3 +6535,601 @@ bg;Оре;Åre
 nn;Åre i Sverige;Åre
 ru;Оре;Åre
 fa;وجبیسترند;Vejbystrand
+no;Løvsele Hamn;Lövsele Hamn
+no;Sørsidan;Sörsidan
+no;Vyøni;Vyöni
+no;Tallsjøn;Tallsjön
+ru;Сваппаваара;Svappavaara
+no;Støverfors;Stöverfors
+no;Stensjøn;Stensjön
+no;Sørmjøle;Sörmjöle
+no;Skrøven;Skröven
+no;Sjøn;Sjön
+no;Rotsjøn;Rotsjön
+no;Rørudden;Rörudden
+no;Røjnoret;Röjnoret
+no;Rødupp;Rödupp
+no;Persøn;Persön
+sv;Bäckesta;Päkkilä
+no;Øvre Svartlå;Övre Svartlå
+no;Øvre Parakka;Övre Parakka
+no;Øvre Kuouka;Övre Kuouka
+no;Øvre Gørjeån;Luvos
+no;Övre Görjeån;Luvos
+sv;Övre Görjeå;Luvos
+no;Øvre Flåsjøn;Övre Flåsjön
+no;Østra Valliden;Östra Valliden
+no;Østra Hjåggbøle;Östra Hjåggböle
+no;Østra Falmark;Östra Falmark
+no;Ønusberg;Önusberg
+no;Ønnesmark;Önnesmark
+no;Norrmjøle;Norrmjöle
+no;Norra Stensjøn;Norra Stensjön
+no;Mørtberg;Mörtberg
+no;Mørøn;Mörön
+no;Mjødvattnet;Mjödvattnet
+no;Løvsele;Lövsele
+no;Løvånger;Lövånger
+ru;Лёвонгер;Lövånger
+no;Korssjøn;Korssjön
+no;Kølmyrholm;Kölmyrholm
+no;Kitkiøjoki;Kitkiöjoki
+fi;Kätkäsuanto;Kätkesuando
+no;Kåsbøle;Kåsböle
+fi;Välikoski;Kärrbäck
+sv;Keräntöjärvi;Kärendöjärvi
+nb;Keräntöjärvi;Kärendöjärvi
+en;Keräntöjärvi;Kärendöjärvi
+fr;Keräntöjärvi;Kärendöjärvi
+da;Keräntöjärvi;Kärendöjärvi
+nl;Keräntöjärvi;Kärendöjärvi
+no;Jørn;Jörn
+no;Innersjøn;Innersjön
+no;Innansjøn;Innansjön
+no;Hovløs;Hovlös
+no;Høkmark;Hökmark
+no;Høgdalsås;Högdalsås
+no;Høgdal;Högdal
+no;Høgbacken;Högbacken
+no;Hjoggbøle;Hjoggböle
+no;Hjåggbøleliden;Hjåggböleliden
+no;Hindersøn;Hindersön
+nn;Hedenäset;Hietaniemi
+de;Hedenäset;Hietaniemi
+sv;Hedenäset;Hietaniemi
+lld;Hedenäset;Hietaniemi
+en;Hedenäset;Hietaniemi
+fo;Hedenäset;Hietaniemi
+is;Hedenäset;Hietaniemi
+it;Hedenäset;Hietaniemi
+fr;Hedenäset;Hietaniemi
+nb;Hedenäset;Hietaniemi
+ga;Hedenäset;Hietaniemi
+pl;Hedenäset;Hietaniemi
+da;Hedenäset;Hietaniemi
+nl;Hedenäset;Hietaniemi
+no;Gransjø;Gransjö
+no;Furuøgrund;Furuögrund
+no;Dagløsten;Daglösten
+bg;Бюске;Byske
+ru;Бюске;Byske
+no;Bjurøn;Bjurön
+no;Bjurøklubb;Bjuröklubb
+no;Bissjøn;Bissjön
+ru;Аапуа;Aapua
+no;Långøn;Långön
+no;Østra Uttersjøn;Östra Uttersjön
+no;Øskatarna;Öskatarna
+no;Kølsund;Kölsund
+no;Hølicksviken;Hölicksviken
+no;Arnøn;Arnön
+no;Lill-Åkerø;Lill-Åkerö
+no;Bjørkøbodarna;Björköbodarna
+no;Rønnhamn;Rönnhamn
+no;Yxsjøn;Yxsjön
+no;Yxsjøberg;Yxsjöberg
+no;Yxsjø;Yxsjö
+no;Ytter-Busjø;Ytter-Busjö
+no;Volmsjø;Volmsjö
+no;Vitvattskølen;Vitvattskölen
+no;Vinøn;Vinön
+no;Vinø;Vinö
+no;Viksjøvallen;Viksjövallen
+sv;Ramsjö station;Viken
+no;Vedjeøn;Vedjeön
+no;Vassjøn;Vassjön
+sv;Haverövallen;Vallen
+no;Uttersjø;Uttersjö
+no;Utanø;Utanö
+no;Umasjø;Umasjö
+no;Ulvsjøn;Ulvsjön
+ru;Уддхеден;Uddheden
+bg;Удхеден;Uddheden
+fa;یودهدن;Uddheden
+ur;ادھڈن;Uddheden
+no;Uddersjøn;Uddersjön
+no;Tyrisløt;Tyrislöt
+no;Tyngsjø;Tyngsjö
+no;Tunsjøn;Tunsjön
+no;Trøtvik;Trötvik
+no;Torrøedet;Torröedet
+no;Tisjølandet;Tisjölandet
+no;Tevansjø;Tevansjö
+no;Terrsjø;Terrsjö
+no;Tenhøjden;Tenhöjden
+no;Tåsjøedet;Tåsjöedet
+no;Tåsjø;Tåsjö
+no;Tarasjøberg;Tarasjöberg
+no;Tannsjøn;Tannsjön
+no;Tångbøle;Tångböle
+no;Tandsjøborg;Tandsjöborg
+no;Tallsjø;Tallsjö
+no;Svensjø;Svensjö
+no;Sutterhøjden;Sutterhöjden
+no;Sundsjøn;Sundsjön
+no;Sundsjøåsen;Sundsjöåsen
+no;Strupø;Strupö
+no;Strømvallen;Strömvallen
+no;Strømsta;Strömsta
+no;Strømsillret;Strömsillret
+no;Strømshøgen;Strömshögen
+no;Storrensjø;Storrensjö
+no;Stormørtsjøn;Stormörtsjön
+no;Stor-Hullsjøn;Stor-Hullsjön
+no;Storholmsjøn;Storholmsjön
+no;Storhøjden;Storhöjden
+no;Storhøgen;Storhögen
+no;Stora Tomsjøn;Stora Tomsjön
+no;Stora Tenhøjden;Stora Tenhöjden
+no;Støråsen;Störåsen
+no;Stora Grønø;Stora Grönö
+no;Stora Gløshult;Stora Glöshult
+no;Stora Blåsjøn;Stora Blåsjön
+no;Stora Bjørnmossen;Stora Björnmossen
+no;Stora Åkerø;Stora Åkerö
+de;Stekenjokk;Stikkenjokk
+sv;Stekenjokk;Stikkenjokk
+nb;Stekenjokk;Stikkenjokk
+en;Stekenjokk;Stikkenjokk
+fr;Stekenjokk;Stikkenjokk
+da;Stekenjokk;Stikkenjokk
+nl;Stekenjokk;Stikkenjokk
+no;Spaksjøn;Spaksjön
+no;Sørvattnet;Sörvattnet
+no;Sørnaggen;Sörnaggen
+no;Sørliden;Sörliden
+no;Sørleringen;Sörleringen
+no;Sørholmsjø;Sörholmsjö
+no;Sørhamn;Sörhamn
+no;Sørgraninge;Sörgraninge
+no;Sørboda;Sörboda
+no;Sørberget;Sörberget
+no;Søne;Söne
+no;Søndagsbyn;Söndagsbyn
+no;Sølvsved;Sölvsved
+no;Sødra Vinøn;Södra Vinön
+no;Sødra Viker;Södra Viker
+no;Sødra Tresund;Södra Tresund
+no;Sødra Stormørtsjøn;Södra Stormörtsjön
+no;Sødra Skrammestad;Södra Skrammestad
+no;Sødra Øn;Södra Ön
+no;Sødra Løten;Södra Löten
+no;Sødra Lømberget;Södra Lömberget
+no;Sødra Kvinneby;Södra Kvinneby
+no;Sødra Kvarnberget;Södra Kvarnberget
+no;Sødra Krokvattnet;Södra Krokvattnet
+no;Sødra Kølviken;Södra Kölviken
+no;Sødra Ivarsbyn;Södra Ivarsbyn
+no;Sødra Insjø;Södra Insjö
+no;Sødra Hemulberg;Södra Hemulberg
+no;Sødra Grunuberg;Södra Grunuberg
+no;Sødra Grundsjø;Södra Grundsjö
+no;Sødra Grimstad;Södra Grimstad
+no;Sødra Grimbråten;Södra Grimbråten
+no;Sødra Greningen;Södra Greningen
+no;Sødra Greda;Södra Greda
+no;Sødra Emmeboda;Södra Emmeboda
+no;Sødra Byn;Södra Byn
+no;Sødra Bisen;Södra Bisen
+no;Sødermem;Södermem
+no;Søderhøgen;Söderhögen
+no;Sødergården;Södergården
+no;Søderboda;Söderboda
+no;Snasahøgen;Snasahögen
+no;Småsjømarken;Småsjömarken
+no;Slipstensjø;Slipstensjö
+no;Skivsjø;Skivsjö
+no;Skinnersbøke;Skinnersböke
+no;Skavdø;Skavdö
+no;Skattløsberget;Skattlösberget
+no;Skålsjø;Skålsjö
+no;Skalmsjø;Skalmsjö
+no;Skallsjøn;Skallsjön
+no;Sjøfallet;Sjöfallet
+no;Sjøbrånet;Sjöbrånet
+no;Sjøamålen;Sjöamålen
+no;Singsjøn;Singsjön
+no;Simundø;Simundö
+no;Sillerø;Sillerö
+no;Siksjøn;Siksjön
+no;Sidsjø;Sidsjö
+no;Seghøjden;Seghöjden
+zh;萨尔纳;Särna
+zh-Hant;薩爾納;Särna
+no;Sandsjøn;Sandsjön
+no;Sandsjøhøjden;Sandsjöhöjden
+no;Rudsjø;Rudsjö
+no;Rotsjø;Rotsjö
+no;Roskølen;Roskölen
+no;Roskknølen;Roskknölen
+no;Rørviken;Rörviken
+no;Rørsmåla;Rörsmåla
+no;Rørdalen;Rördalen
+no;Rønnvasselbygget;Rönnvasselbygget
+no;Rønnøn;Rönnön
+no;Rønnøfors;Rönnöfors
+no;Rombohøjden;Rombohöjden
+no;Røjdoset;Röjdoset
+no;Rødvattnet;Rödvattnet
+no;Rødingsfors;Rödingsfors
+no;Rødåsel;Rödåsel
+no;Rødålund;Rödålund
+no;Rødåliden;Rödåliden
+no;Rocksjøn;Rocksjön
+no;Ringsjøhøjden;Ringsjöhöjden
+no;Rensjøn;Rensjön
+no;Redsjø;Redsjö
+no;Raukasjø;Raukasjö
+no;Rakkosjøn;Rakkosjön
+no;Raggsjø;Raggsjö
+no;Raftsjøhøjden;Raftsjöhöjden
+no;Råakøp;Råaköp
+no;Palahøjden;Palahöjden
+no;Øvre Nyland;Övre Nyland
+no;Øvre Lofterud;Övre Lofterud
+no;Øvre Kile;Övre Kile
+no;Øvre Holmsta;Övre Holmsta
+no;Øvra;Övra
+no;Øverhogdal;Överhogdal
+no;Øverhallen;Överhallen
+no;Øvergården;Övergården
+no;Øverammer;Överammer
+no;Ottsjøn;Ottsjön
+os;Оттенбю;Ottenby
+ja;オッテンビュー;Ottenby
+he;אוטנבי;Ottenby
+no;Østvallarna;Östvallarna
+no;Østra Tåsjø;Östra Tåsjö
+no;Østra Stugusjø;Östra Stugusjö
+no;Østra Ormsjø;Östra Ormsjö
+no;Østra Løvåsen;Östra Lövåsen
+no;Østra Kjoland;Östra Kjoland
+no;Østra Husby;Östra Husby
+no;Østra Grunuberg;Östra Grunuberg
+no;Østra Greda;Östra Greda
+no;Østra Gerum;Östra Gerum
+no;Østra Brattmon;Östra Brattmon
+no;Østra Anvågen;Östra Anvågen
+no;Østomsjøn;Östomsjön
+no;Østingstorp;Östingstorp
+no;Østibyn;Östibyn
+no;Østerviksfall;Österviksfall
+no;Østerulvsås;Österulvsås
+no;Øster-Svartåsen;Öster-Svartåsen
+no;Østerstråsjø;Österstråsjö
+no;Østerskam;Österskam
+no;Øster-Rudsjøn;Öster-Rudsjön
+no;Østerrå;Österrå
+no;Øster-Mørtarø;Öster-Mörtarö
+no;Østermem;Östermem
+no;Østerhållan;Österhållan
+no;Østergraninge;Östergraninge
+no;Øster-Galåbodarna;Öster-Galåbodarna
+no;Østbergsbodarna;Östbergsbodarna
+no;Østanbro;Östanbro
+no;Østalbyn;Östalbyn
+no;Øsjøn;Ösjön
+no;Øsaren;Ösaren
+no;Ørud;Örud
+no;Ørsviken;Örsviken
+no;Ørskogen;Örskogen
+no;Ørsjøn;Örsjön
+no;Ørsåsen;Örsåsen
+no;Ørø;Örö
+no;Ørnvik;Aleldis
+no;Örnvik;Aleldis
+no;Øravattnet;Öravattnet
+no;Øravan;Öravan
+no;Ørasjobødarna;Örasjobödarna
+no;Ønnebo;Önnebo
+no;Omsjø;Omsjö
+no;Ømmelsbo;Ömmelsbo
+no;Ølserud;Ölserud
+no;Ølmheden;Ölmheden
+no;Oldsjøn;Oldsjön
+no;Øjvassla;Öjvassla
+no;Øjingsvallen;Öjingsvallen
+no;Øjarn;Öjarn
+no;Øguvallen;Öguvallen
+no;Ocksjøn;Ocksjön
+no;Norrsjø;Norrsjö
+no;Norra Vinøn;Norra Vinön
+no;Norra Uvø;Norra Uvö
+no;Norra Stormørtsjøn;Norra Stormörtsjön
+no;Norra Møckleby;Norra Möckleby
+no;Norra Kølviken;Norra Kölviken
+no;Norra Insjø;Norra Insjö
+no;Norra Høkhult;Norra Hökhult
+no;Nordomsjøn;Nordomsjön
+no;Nøjden;Nöjden
+no;Nederhøgen;Nederhögen
+no;Nedansjø;Nedansjö
+no;Nagasjøhøjden;Nagasjöhöjden
+no;Myggsjø;Myggsjö
+no;Myckelgensjø;Myckelgensjö
+no;Munkflohøgen;Munkflohögen
+no;Mosjøn;Mosjön
+no;Mørtkølaberg;Mörtkölaberg
+no;Mørkret;Mörkret
+no;Mølntegen;Mölntegen
+no;Mølingdalsvallen;Mölingdalsvallen
+bg;Могата;Mogata
+no;Møckelåsen;Möckelåsen
+no;Mjøsjøn;Mjösjön
+no;Mjølnartorpet;Mjölnartorpet
+no;Mjølkvattnet;Mjölkvattnet
+no;Missjø;Missjö
+no;Mesjø;Mesjö
+no;Mårdsjøberg;Mårdsjöberg
+no;Malsjø;Malsjö
+no;Magøn;Magön
+no;Lungsjøn;Lungsjön
+no;Lungøn;Lungön
+no;Lundsjøn;Lundsjön
+no;Løvviken;Lövviken
+no;Løvstrand;Lövstrand
+no;Løvkullen;Lövkullen
+no;Løvingen;Lövingen
+no;Løvdalen;Lövdalen
+no;Løvberga;Lövberga
+no;Lørudden;Lörudden
+no;Lønnskog;Lönnskog
+no;Lønnhøjden;Lönnhöjden
+no;Lomsjø;Lomsjö
+no;Ljørdalen;Ljördalen
+no;Linsjøbodarna;Linsjöbodarna
+no;Lindsjøn;Lindsjön
+no;Lillsjøhøgen;Lillsjöhögen
+no;Lilløgda;Lillögda
+no;Lillholmsjøn;Lillholmsjön
+no;Lilla Tomsjøn;Lilla Tomsjön
+no;Lilla Tenhøjden;Lilla Tenhöjden
+no;Lilla Malmø;Lilla Malmö
+no;Lilla Gløshult;Lilla Glöshult
+no;Lilla Blåsjøn;Lilla Blåsjön
+no;Lemmsjøvallen;Lemmsjövallen
+no;Laxsjø;Laxsjö
+no;Låsbøle;Låsböle
+ceb;Öja;Landsort
+et;Öja;Landsort
+ja;ラーンドソト;Landsort
+mk;Лендсорт;Landsort
+no;Lakasjø;Lakasjö
+no;Kyrkogårdsøn;Kyrkogårdsön
+ja;クヴィキョク;Kvikkjokk
+zh;克维克约克;Kvikkjokk
+no;Kusbøle;Kusböle
+no;Kungsbøle;Kungsböle
+no;Kuggbøle;Kuggböle
+no;Krokstrømmen;Krokströmmen
+no;Kråkstensjø;Kråkstensjö
+no;Kråkø Hamn;Kråkö Hamn
+no;Køttsjøn;Köttsjön
+no;Kørsåsen;Körsåsen
+no;Kølsjøn;Kölsjön
+no;Kølsillre;Kölsillre
+no;Kølinge;Kölinge
+no;Kølfors;Kölfors
+no;Kølaråsen;Kölaråsen
+no;Klutsjøn;Klutsjön
+no;Klausøn;Klausön
+no;Kettiljøvallen;Kettiljövallen
+no;Karø;Karö
+no;Kamsjøn;Kamsjön
+no;Kallrør;Kallrör
+en;Jorm;Jormvattnet
+no;Jønshult;Jönshult
+no;Joestrøm;Joeström
+no;Joesjø;Joesjö
+nb;Jäkkvik;Jäckvik
+en;Jäkkvik;Jäckvik
+ur;جاککویک;Jäckvik
+nl;Jäkkvik;Jäckvik
+no;Ingelskøp;Ingelsköp
+no;Iggøn;Iggön
+no;Igelsjøberg;Igelsjöberg
+zh;伊德勒;Idre
+ja;イドレ;Idre
+mk;Идре;Idre
+no;Icksjø;Icksjö
+no;Humsjøn;Humsjön
+bg;Хумелста;Hummelsta
+bg;Хултерстад;Hulterstad
+no;Hullsjøn;Hullsjön
+no;Hucksjøåsen;Hucksjöåsen
+he;הופגורדן;Hovgården
+ja;ホーヴゴーデン;Hovgården
+ka;ჰოვგორდენი;Hovgården
+ne;होभगार्डेन;Hovgården
+ru;Ховгорден;Hovgården
+zh;霍高爾登;Hovgården
+no;Høversby;Höversby
+no;Høstoppen;Höstoppen
+no;Høssjøberget;Hössjöberget
+no;Hosjøbottnarna;Hosjöbottnarna
+no;Høsbodarna;Hösbodarna
+no;Hørnefors;Hörnefors
+no;Hørneå;Hörneå
+no;Hømyra;Hömyra
+no;Hølsebøke;Hölseböke
+no;Hølick;Hölick
+no;Høla;Höla
+no;Høkvattnet;Hökvattnet
+no;Høktorp;Höktorp
+no;Høksjøn;Höksjön
+no;Høkberget;Hökberget
+no;Højden;Höjden
+no;Høgvålen;Högvålen
+no;Høgtomt;Högtomt
+no;Høgstakan;Högstakan
+no;Høgstaby;Högstaby
+no;Høgrun;Högrun
+no;Høgrensvålvallen;Högrensvålvallen
+no;Høglekardalen;Höglekardalen
+no;Høgarna;Högarna
+no;Hocksjøn;Hocksjön
+no;Høckerstad;Höckerstad
+no;Hjulsjø;Hjulsjö
+no;Hemulsjø;Hemulsjö
+bg;Хемаван;Hemavan
+ja;ヘーマーバン;Hemavan
+no;Helgarø;Helgarö
+no;Hedsjø;Hedsjö
+no;Haverø;Haverö
+no;Håvdsjø;Håvdsjö
+no;Håsjøn;Håsjön
+no;Harrsjøhøjden;Harrsjöhöjden
+no;Handøl;Handöl
+no;Hamrasjødammen;Hamrasjödammen
+no;Hamnø;Hamnö
+no;Hållsjøtorp;Hållsjötorp
+no;Hallasjø;Hallasjö
+no;Halasjøn;Halasjön
+no;Hacksjø;Hacksjö
+no;Guttusjøn;Guttusjön
+no;Gunsjøgården;Gunsjögården
+no;Gumhøjden;Gumhöjden
+no;Gulløn;Gullön
+no;Grytsjø;Grytsjö
+no;Grøvelsjøn;Grövelsjön
+no;Grøtholen;Grötholen
+no;Gråssjø;Gråssjö
+no;Granstrøm;Granström
+no;Gransjøriset;Gransjöriset
+no;Granølund;Granölund
+no;Gøtterstad;Götterstad
+no;Gørvik;Görvik
+no;Gøringen;Göringen
+no;Gørdalen;Gördalen
+no;Gøranstorp;Göranstorp
+no;Gøksnåre;Göksnåre
+no;Gløte;Glöte
+no;Glømstorp;Glömstorp
+no;Glissjøberg;Glissjöberg
+no;Gissjøn;Gissjön
+no;Gevsjøn;Gevsjön
+no;Getkølen;Getkölen
+no;Gåxsjø;Gåxsjö
+no;Gautosjø;Gautosjö
+no;Gastsjø;Gastsjö
+no;Gåssjø;Gåssjö
+no;Gårdsjøberg;Gårdsjöberg
+no;Galsjøvallen;Galsjövallen
+bg;Фурудал;Furudal
+no;Fullsjøn;Fullsjön
+no;Frøsslunda;Frösslunda
+no;Frølinge;Frölinge
+no;Frøbergsvallen;Fröbergsvallen
+no;Føra;Föra
+no;Fønebo;Fönebo
+no;Fløtningen;Flötningen
+no;Fløtemarken;Flötemarken
+no;Flåsjøn;Flåsjön
+no;Fiskløsen;Fisklösen
+no;Fåssjø;Fåssjö
+no;Fångsjøbacken;Fångsjöbacken
+bg;Фалерум;Falerum
+ur;فالیروم;Falerum
+no;Fålasjø;Fålasjö
+no;Fageråshøjd;Fageråshöjd
+no;Fågelsjø;Fågelsjö
+no;Eskøn;Eskön
+no;Elvisjø;Elvisjö
+no;Ekorrsjø;Ekorrsjö
+no;Dødre;Dödre
+no;Dødbyn;Dödbyn
+no;Djursjøberg;Djursjöberg
+sv;Deppis;Diehpies
+no;Dalasjø;Dalasjö
+no;Busjøn;Busjön
+no;Brøttorp;Bröttorp
+no;Bringsjøberget;Bringsjöberget
+no;Bredsjøhøjden;Bredsjöhöjden
+no;Bredsjø;Bredsjö
+no;Brattsjø;Brattsjö
+no;Bråthøjden;Bråthöjden
+no;Bøta Kvarn;Böta Kvarn
+no;Bøsta;Bösta
+no;Bosjøn;Bosjön
+no;Børtnan;Börtnan
+no;Borrsjøn;Borrsjön
+no;Børjesjø;Börjesjö
+no;Bomsjø;Bomsjö
+no;Bolmsø;Bolmsö
+no;Boksjø;Boksjö
+no;Boggsjø;Boggsjö
+no;Bodsjøbyn;Bodsjöbyn
+no;Bøcklinge;Böcklinge
+no;Blåsjøfallet;Blåsjöfallet
+no;Bjursjøhøjden;Bjursjöhöjden
+no;Bjørsund;Björsund
+no;Bjørsebyn;Björsebyn
+no;Bjørsarv;Björsarv
+no;Bjørrud;Björrud
+no;Bjørnsaberg;Björnsaberg
+no;Bjørnliden;Björnliden
+no;Bjørnåsen;Björnåsen
+no;Bjørkvattnet;Björkvattnet
+no;Bjørkholmen;Björkholmen
+no;Bjørkede;Björkede
+no;Bjørkbacken;Björkbacken
+no;Bjørbol;Björbol
+no;Bingsjø;Bingsjö
+no;Bergsjøåsen;Bergsjöåsen
+no;Bålsøn;Bålsön
+no;Baksjøbodarna;Baksjöbodarna
+no;Backsjøn;Backsjön
+no;Avasjø;Avasjö
+no;Åstøn;Åstön
+no;Arnsjøn;Arnsjön
+no;Arksjø;Arksjö
+no;Arkøsund;Arkösund
+lt;Arkiosundas;Arkösund
+no;Årbøle;Årböle
+no;Annsjøtorp;Annsjötorp
+ru;Анкареде;Ankarede
+no;Ållsjøn;Ållsjön
+bg;Албю;Alby
+ar;ألبى، أولاند;Alby
+ja;アルビー;Alby
+ru;Аккастуган;Akkastugan
+ru;Аккастугурна;Akkastugan
+en;Akkastugurna;Akkastugan
+no;Åkersjøn;Åkersjön
+no;Agø Hamn;Agö Hamn
+no;Adolfsstrøm;Adolfsström
+nl;Adolfström;Adolfsström
+no;Acksjøåsen;Acksjöåsen
+no;Åbosjøn;Åbosjön
+fi;Abiskon kansallispuisto;Abisko
+ru;Абиску-Эстра;Abisko
+ru;Абиску;Abisko
+hy;Աբիսկու;Abisko
+uk;Абіску;Abisko
+mk;Абиску;Abisko
+ko;아비스코;Abisko
+zh;阿比斯库国家公园;Abisko
+ja;アビスコ;Abisko
+fa;ابیسکو;Abisko
+no;Abborrsjøknoppen;Abborrsjöknoppen
+no;Øvre Ringdalsstrand;Övre Ringdalsstrand

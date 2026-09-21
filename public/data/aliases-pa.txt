@@ -908,3 +908,148 @@ pa;ਯੂਨੀਅਨ ਚੋਕੋ;Unión Chocó
 ps;یونین چوکو;Unión Chocó
 tg;Унион-Чоко;Unión Chocó
 tt;Унион-Чоко;Unión Chocó
+es;Wichubhualá;Wichub Uala
+es;Tronco de Hicaco;Wichub Uala
+es;Guaisailadup;Wagsaila Tupu
+es;Cayos Pelo Latino;Wagsaila Tupu
+es;Wagsailatupu;Wagsaila Tupu
+es;Ogobsucum;Ogobsukun
+bg;Уступо;Ustupo
+ka;უსტუპო;Ustupo
+ja;ウストゥポ;Ustupo
+es;Ustupu;Ustupo
+ru;Уступо;Ustupo
+es;Mandinga Ubigantupo;Mandi Ubigantup
+es;Soledad Mandinga;Mandi Ubigantup
+es;Ubigantupo;Miria Ubigantupu
+es;Miria Ubigantupo;Miria Ubigantupu
+es;Soledad Miria;Miria Ubigantupu
+es;U Centro;Uracillo Centro
+es;Tupsuid Grande;Tupsuit Dummat
+es;Dad Nakued Dupir;San Ignacio de Tupile
+es;Kannir Dup;San Ignacio de Tupile
+es;Isla Gallina;San Ignacio de Tupile
+es;Kuinubdio;Río Sábalo
+es;Río Negro Número Dos;Río Negro
+es;Aidirgandí;Río Diablo
+es;Ukupa;Playón Grande
+ru;Плайон Чико;Playón Chico
+es;Igualalla;Pintupo
+es;Pintupu;Pintupo
+es;Isla del Arroz;Orostupu
+es;Coco Blanco;Ogobsibudup
+es;Isla Coco Blanco;Ogobsibudup
+es;Nusatupu;Nusadup
+ru;Мулатупо;Mulatupo
+es;Isla Máquina;Mormaketupo
+es;Moraketup;Mormaketupo
+es;Canán;Membrillo
+es;Mansucun;Mansucum
+en;Mamiturru;Mamitupu
+en;Mamitupo;Mamitupu
+es;Marmatupo;Mamartupo
+es;Maguebgandí;Maguebgantí
+es;Achiotal;Maguebgantí
+es;Achiote;Maguebgantí
+es;La Punta;Punta de Roque
+es;Río Marea;Río Bagre
+ru;Эль-Поршенир;El Porvenir
+ar;إل بوربينير;El Porvenir
+kk;Эль-Поршенир;El Porvenir
+ky;Эль-Поршенир;El Porvenir
+hi;एल पोर्वेनिर;El Porvenir
+bn;এল পোরভেনির;El Porvenir
+ur;ایل پوروینیر;El Porvenir
+am;ኤል ፖርቬኒር;El Porvenir
+fa;ال پروونیر;El Porvenir
+ja;エル・ポルベニル;El Porvenir
+pa;ਐਲ ਪੋਰਵੇਨੀਰ;El Porvenir
+ps;ایل پورونیر;El Porvenir
+tg;Эль-Поршенир;El Porvenir
+tt;Эль-Поршенир;El Porvenir
+es;Corbiski;Gorbiski
+es;Isla Venado;Gannirdup
+es;Coetupu;Gannirdup
+ceb;Coetupo;Gannirdup
+ka;კოეტუპო;Gannirdup
+en;Coetupo;Gannirdup
+fr;Coetupo;Gannirdup
+nl;Coetupo;Gannirdup
+es;Isla Puerco de Monte;Cartí Yantupu
+es;Isla Cartí Tupile;Cartí Tupile
+es;Cartí Sugdup;Cartí Sugtupu
+es;Isla Pino;Nurdup
+es;Cartí Mulatupo;Cartí Mulatupu
+es;Isla Hueso de Aguja;Icodup
+es;Yancib Diwar;Carreto
+es;Yansib;Carreto
+es;Nargandí;Cañazas
+es;Isla Iguana;Arridup
+es;Isla Iguana;Arritupu
+es;Sukun;Anachukuna
+es;Airdirgandí;Aidirgandí
+es;Piedra de Amolar;Aidirgandí
+es;Isla Piedra;Acuatupu
+es;Isla Perro Grande;Achudup Dummad
+es;Achutupo Número 2;Achutupo
+es;Achutupo Número Dos;Achutupo
+bg;Ачутупо;Achutupo
+ka;აჩუტუპო;Achutupo
+ja;アチュトゥポ;Achutupo
+fa;اکاتوپو;Achutupo
+fr;Achutupu;Achutupo
+zh;阿速圖波;Achutupo
+ru;Ачутупо;Achutupo
+es;Isla Anzuelo;Achuerdup
+es;Arkidi;Río Piragua
+es;Río Bote;Río Piragua
+es;Chulunganti;Chuluganti
+es;Piriatí Colono;Piriatí
+es;Akuayala;Akua Yala
+es;Puente Bayano;Akua Yala
+es;Pingandicito;Pingandincito
+es;Pigandicito Arriba;Pingandincito
+es;Agua Fría Número 2;Agua Fría Número Dos
+es;Guayabito;Guayabillo
+es;Boca de Río Tigre;El Tigre
+es;Riolito;Nuevo Santa Rosa
+es;Dodaque Puro;Nuevo Santa Rosa
+es;Agua Fría Número 1;Agua Fría Número Uno
+es;Pueblo Escondido;Pueblo Nuevo
+es;San Bartolo Límite;Cabecera de San Bartolo
+es;Santos;Pueblo Santo
+es;Cañazas Número Dos;Cañazas Número Uno
+es;Cañazas Número 1;Cañazas Número Uno
+es;San José;El Cedro
+es;Alto de Los Darieles;Altos de Los Darieles
+es;Bajo Colubre;Bajo Culubre
+es;Colorado Número 2;Colorado Número Dos
+es;Cerro Mono Número 2;Cerro Mono Número Dos
+es;Caño Sucio Número 2;Caño Sucio Número Dos
+es;Los Castillos Número 1;Los Castillos Número Uno
+es;San Antonio Número 2;San Antonio Número Dos
+es;Los Bateos Número 2;Los Bateos Número Dos
+es;Pozo Redondo Número 1;Pozo Redondo Número Uno
+es;Los Bateos Número 1;Los Bateos Número Uno
+es;Mango Número 2;Mango Número Dos
+es;Wuagandi;Wagandi
+es;Río Seca Arriba Número 1;Río Seca Arriba Número Uno
+es;Río Seco Número 1;Río Seco Número Uno
+es;Cerro Humo;Miramar
+es;Quebrada Grande Número 1;Quebrada Grande Número Uno
+es;Flor de Laguna;Santa Marta
+es;Quebrada El Cedro;Quebrada El Cerdo
+es;Cacique Saíno;Yansailadup Dummad
+es;Isla Tijereta Grande;Banedup Dummad
+es;Gorgidup Número 2;Gorgidup Número Dos
+es;Isla Pelicano;Gorgidup Número Dos
+es;Pelicano;Gorgidup
+es;Isla Perro Chico;Achudup Bipi
+es;Isla Caracol;Goldeup
+es;Manta Raya;Nidirbidup
+es;Isla Manta Raya;Nidirbidup
+es;Naranjo Chico Número Dos;Narbagandup Bipi
+es;Naranjo Chico Número 2;Narbagandup Bipi
+es;Betel;Bethel
+es;Isla Guayabo;Isla Irhe
+es;Quebrada Muerto;Quebrada Muertos

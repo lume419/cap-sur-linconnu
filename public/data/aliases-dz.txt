@@ -1596,3 +1596,186 @@ uk;Айн-Салах;In Salah
 pl;Ajn Salih;In Salah
 zh;因萨拉赫;In Salah
 fa;عین صالح;In Salah
+ar;أناي;Anāy
+fr;Fort Gardel;Zaouatallaz
+ar;تيط;Tit
+ru;Тит;Tit
+ar;تين ظواتين;Ti-n-Zaouâtene
+ar;تين زاوتين;Ti-n-Zaouâtene
+ar;تين زواتين;Ti-n-Zaouâtene
+ar;تينزواتين;Ti-n-Zaouâtene
+ar;ثينزواثين;Ti-n-Zaouâtene
+bm;Tinizawatɛni;Ti-n-Zaouâtene
+ar;تاغاوهاوت;Tarhaouhaout
+de;Tamanrasset;Tamanghasset
+ar;تامنراست;Tamanghasset
+nl;Tamanrasset;Tamanghasset
+ru;Таманрассете;Tamanghasset
+bg;Таманрасет;Tamanghasset
+fa;تمنراست;Tamanghasset
+he;תאמאנראסט;Tamanghasset
+ja;タマンラセット;Tamanghasset
+kab;Tamenɣest;Tamanghasset
+ko;타만라세트;Tamanghasset
+lt;Tamanrasetas;Tamanghasset
+uk;Таманрассет;Tamanghasset
+ur;تمنراست;Tamanghasset
+vi;Tamenghasset;Tamanghasset
+ru;Таманрассет;Tamanghasset
+zh;塔曼拉塞特;Tamanghasset
+ar;تمنراست;Tamanghasset
+ar;تامنغست;Tamanghasset
+kk;Таманрассет;Tamanghasset
+ky;Таманрассет;Tamanghasset
+es;Tamanrasset;Tamanghasset
+hi;तामांघसेट;Tamanghasset
+bn;তামাঙ্ঘাসেট;Tamanghasset
+am;ታማንጋሰት;Tamanghasset
+az;Tamanrässət;Tamanghasset
+pa;ਤਾਮਾਂਘਾਸੇਟ;Tamanghasset
+ps;تمنغست;Tamanghasset
+pt;Tamanrasset;Tamanghasset
+tg;Таманрассет;Tamanghasset
+tt;Таманрассет;Tamanghasset
+ru;Улад-Айса;Oulad Aïssa
+ar;عين قزام;In Guezzam
+ar;إن قزام;In Guezzam
+ru;Ин Геззам;In Guezzam
+kk;Ін Геззам;In Guezzam
+ky;Ин Геззам;In Guezzam
+hi;इन गेज़्ज़म;In Guezzam
+bn;ইন গুয়েজ্জাম;In Guezzam
+ur;ان گیزام;In Guezzam
+am;ኢን ጉዝዛም;In Guezzam
+fa;این گیزام;In Guezzam
+ja;イン・ゲッザム;In Guezzam
+pa;ਇਨ ਗੁਏਜ਼ਜ਼ਮ;In Guezzam
+ps;ان ګیزام;In Guezzam
+tg;Ин Геззам;In Guezzam
+tt;Ин Геззам;In Guezzam
+ru;Иллизи;Illizi
+ar;إليزي;Illizi
+kk;Иллизи;Illizi
+ky;Иллизи;Illizi
+hi;इल्लिज़ी;Illizi
+bn;ইল্লিজি;Illizi
+ur;الیزی;Illizi
+am;ኢልሊዚ;Illizi
+fa;الیزی;Illizi
+ja;イリジ;Illizi
+pa;ਇਲਲਿਜ਼ੀ;Illizi
+ps;الیزی;Illizi
+tg;Иллизи;Illizi
+tt;Иллизи;Illizi
+ar;حاسي الرمل;Hassi R’mel
+fa;حاسی الرمل;Hassi R’mel
+de;Hammaguir;Hamaguir
+ru;Хаммагир;Hamaguir
+fi;Hammaguir;Hamaguir
+pt;Hammaguir;Hamaguir
+el;Χαμαγκουίρ;Hamaguir
+en;Hammaguir;Hamaguir
+it;Hammaguir;Hamaguir
+fr;Hammaguir;Hamaguir
+hu;Hammaguir;Hamaguir
+zh;哈馬吉爾;Hamaguir
+es;Hammaguir;Hamaguir
+cs;Hammaguir;Hamaguir
+ar;قاعدة حماقير;Hamaguir
+uk;Хаммагір;Hamaguir
+ja;アマギール;Hamaguir
+sk;Hammaguir;Hamaguir
+pl;Hammaghir;Hamaguir
+nl;Hammaguir;Hamaguir
+ar;القرنيني;Guernini
+ar;قرنيني;Guernini
+kab;ڤرنيني;Guernini
+ar;عقلة قساس;El Ogla
+ar;القنطرة;El Kantara
+ca;Al-Kantara;El Kantara
+it;Al-Mania;El Menia
+ar;المنيعة;El Menia
+lt;Golėja;El Menia
+vi;El Meniaa;El Menia
+ru;Эль-Голеа;El Menia
+zh;古莱阿;El Menia
+kk;Эль-Мения;El Menia
+ky;Эль-Мения;El Menia
+hi;अल मेनिया;El Menia
+bn;এল মেনিয়া;El Menia
+ur;المنیہ;El Menia
+am;ኤል መኒያ;El Menia
+fa;المنیه;El Menia
+ja;エル・メニア;El Menia
+pa;ਅਲ ਮੇਨੀਆ;El Menia
+ps;المنیہ;El Menia
+tg;Эль-Мения;El Menia
+tt;Эль-Мения;El Menia
+pl;Prowincja El Bayadh;El Bayadh
+ar;ولاية البيض;El Bayadh
+fa;البلیده;El Bayadh
+ar;البيض;El Bayadh
+ru;Эль-Байад;El Bayadh
+kk;Эль-Байад;El Bayadh
+ky;Эль-Байад;El Bayadh
+hi;अल बायद;El Bayadh
+bn;এল বায়াধ;El Bayadh
+ur;البیاض;El Bayadh
+am;ኤል ባያድ;El Bayadh
+ja;エル・バヤド;El Bayadh
+pa;ਅਲ ਬਾਯਾਧ;El Bayadh
+ps;البیاض;El Bayadh
+tg;Эль-Байад;El Bayadh
+tt;Эль-Байад;El Bayadh
+ar;عجيلة;Edjeleh
+ar;ولاية الجلفة;Djelfa
+fa;جلفه;Djelfa
+pl;Dżilfa;Djelfa
+ar;الجلفة;Djelfa
+ru;Джелфа;Djelfa
+kk;Джелфа;Djelfa
+ky;Джелфа;Djelfa
+hi;जेलफा;Djelfa
+bn;জেলফা;Djelfa
+ur;جلفہ;Djelfa
+am;ጅልፋ;Djelfa
+az;Jelfa;Djelfa
+ja;ジェルファ;Djelfa
+pa;ਡਜੇਲਫਾ;Djelfa
+ps;جلفہ;Djelfa
+tg;Джелфа;Djelfa
+tt;Джелфа;Djelfa
+ar;جانت;Djanet
+ja;ジャーネット;Djanet
+ko;자네트;Djanet
+lt;Džanetas;Djanet
+pl;Dżanat;Djanet
+zh;贾奈特;Djanet
+uk;Джанет;Djanet
+ru;Джанет;Djanet
+kk;Джанет;Djanet
+ky;Джанет;Djanet
+hi;जनेट;Djanet
+bn;জানেট;Djanet
+ur;جانت;Djanet
+am;ጃነት;Djanet
+az;Janet;Djanet
+fa;جانت;Djanet
+pa;ਡਜੈਨੇਟ;Djanet
+ps;جانت;Djanet
+tg;Джанет;Djanet
+tt;Джанет;Djanet
+ar;بودة;Bouda
+fr;Amourah;Amoura
+ar;تيمياوين;Timiaouine
+ar;برج باجي مختار;Bordj Badji Mokhtar
+ur;برج باجی مختار;Bordj Badji Mokhtar
+ar;أوتول;Oûtoûl
+ar;أتول;Oûtoûl
+ar;أطول;Oûtoûl
+ar;عين أزوا;I-n-Azaoua
+fr;In Azaoua;I-n-Azaoua
+ar;إين قزام;In Guezzam
+ar;مرتتك;Mertoûtek
+ar;قصر قدور;Ksar Kaddour
+ru;Каср-Каддур;Ksar Kaddour

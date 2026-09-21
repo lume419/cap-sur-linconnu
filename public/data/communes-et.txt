@@ -1,7 +1,9 @@
 24000;46.2151,6.8866;ET-52;Somali;Waal
+0;43.8967,9.0997;ET;;Gumer
 0;45.1281,5.0836;ET-52;Somali;Ferfer
 34000;45.2987,6.1756;ET-52;Somali;Fadhigaradle
 0;43.9975,8.9983;ET-52;Somali;Aran Areh
+0;43.5139,9.3828;ET;;Alaybede
 0;40.0082,3.9492;ET-52;Somali;El Roba
 0;40.0041,3.9713;ET-52;Somali;El Bururi
 0;38.1167,12.4167;ET-46;Amhara;Zurba
@@ -1047,6 +1049,7 @@
 0;38.9833,13.2500;ET-53;Tigray;Timsgē
 0;40.3667,7.0667;ET-51;Oromiya;Timo
 0;39.3667,7.3500;ET-51;Oromiya;Timbītē
+0;35.3167,7.2667;ET;;Tilk’u Mēt’ī
 20400;37.0167,10.8500;ET-46;Amhara;Tīlīlī
 0;37.7000,11.1833;ET-46;Amhara;T’ilalo
 0;39.2667,11.8833;ET-46;Amhara;T’ilalo
@@ -1416,6 +1419,7 @@
 0;37.1333,9.1667;ET-51;Oromiya;Sīmrē
 0;37.1833,12.4167;ET-46;Amhara;Simra
 0;37.1667,12.4167;ET-46;Amhara;Simra
+0;37.4333,7.9333;ET;;Simini
 0;39.2744,14.1783;ET-53;Tigray;Simch’
 0;39.3734,10.1053;ET-46;Amhara;Simboch
 0;38.5833,8.8833;ET-51;Oromiya;Sīma
@@ -1640,6 +1644,7 @@
 0;42.1756,9.2369;ET-50;Harari;Seroba
 0;42.0017,9.0206;ET-51;Oromiya;Serkema
 0;39.6285,10.5843;ET-46;Amhara;Serja
+0;38.8000,9.7833;ET;;Serītī
 0;39.4214,9.4971;ET-46;Amhara;Serītī
 0;38.1667,9.2000;ET-51;Oromiya;Serītī
 0;38.5333,8.8000;ET-51;Oromiya;Serītī
@@ -2154,6 +2159,7 @@
 0;36.5333,7.1000;ET-SW;South West Ethiopia Peoples' Region;Oda
 0;41.1667,6.7000;ET-51;Oromiya;Oda
 0;39.7167,5.3833;ET-51;Oromiya;Oda
+0;37.7167,5.3000;ET;;Ocollovo
 0;38.7500,9.2833;ET-51;Oromiya;Ochē
 0;38.2000,8.3500;ET-55;Central Ethiopia Regional State;Ochē
 0;37.0833,7.0833;ET-SW;South West Ethiopia Peoples' Region;Ocha
@@ -2524,6 +2530,7 @@
 0;39.4783,9.9884;ET-46;Amhara;Met’k’
 0;35.0000,9.6500;ET-51;Oromiya;Mēt’ī
 0;38.7000,9.4333;ET-51;Oromiya;Mēt’ī
+0;35.3167,7.2333;ET;;Mēt’ī
 0;34.0667,8.2000;ET-49;Gambela;Methoc
 0;39.9833,11.2000;ET-46;Amhara;Met’ēro
 0;39.0567,10.4048;ET-46;Amhara;Met’erarīya
@@ -2919,6 +2926,7 @@
 0;34.7167,9.3000;ET-51;Oromiya;Ma’o
 0;36.5667,12.4500;ET-46;Amhara;Manu
 0;38.1833,11.8000;ET-46;Amhara;Mantora
+0;35.3333,7.3167;ET;;Manta Bacci
 0;36.7333,7.1000;ET-SW;South West Ethiopia Peoples' Region;Manta
 0;39.8833,7.1667;ET-51;Oromiya;Manso
 0;37.2833,6.2500;ET-56;South Ethiopia Regional State;Manoko
@@ -3834,6 +3842,7 @@
 0;38.9467,14.1181;ET-53;Tigray;K’era’āda
 0;37.1000,6.7833;ET-SW;South West Ethiopia Peoples' Region;K’ēra
 0;39.6500,12.7167;ET-53;Tigray;Kera
+0;38.4500,8.3833;ET;;Kenz
 0;37.7000,9.1500;ET-51;Oromiya;K’enyī
 0;37.6333,9.1167;ET-51;Oromiya;K’enyī
 0;37.5667,9.0500;ET-51;Oromiya;K’enyī
@@ -3941,6 +3950,7 @@
 0;38.6167,9.3833;ET-51;Oromiya;K’ech’ema
 0;36.6667,8.7333;ET-51;Oromiya;K’ech’ema
 0;36.6616,14.3024;ET-53;Tigray;K’ech’aro
+0;38.4167,8.3000;ET;;K’ech’a
 0;38.9833,9.7167;ET-51;Oromiya;K’echa
 0;38.7667,9.7000;ET-51;Oromiya;K’echa
 0;39.1333,12.9000;ET-46;Amhara;K’ebrīya
@@ -4428,6 +4438,7 @@
 0;36.0797,8.3943;ET-51;Oromiya;Īlala
 0;38.7500,8.3167;ET-51;Oromiya;Īla
 0;37.7000,12.7000;ET-46;Amhara;Ik’warī Wiha
+0;38.0167,8.3833;ET;;Ik’uba
 0;39.0667,12.7000;ET-46;Amhara;Ik’ilbī
 0;42.1351,8.9107;ET-51;Oromiya;Īje Weraba
 0;38.5667,9.9833;ET-51;Oromiya;Ījeta
@@ -4606,6 +4617,7 @@
 0;38.6500,9.3333;ET-51;Oromiya;Hēt’o
 0;36.7000,9.1833;ET-51;Oromiya;Hēt’o
 0;37.6000,7.3000;ET-55;Central Ethiopia Regional State;Hēt’ema
+0;37.5500,7.9667;ET;;Hereto
 0;42.8781,9.6522;ET-52;Somali;Hērēgēl
 0;40.4333,8.8000;ET-51;Oromiya;Herdīm
 0;39.4833,5.2167;ET-51;Oromiya;Hencio
@@ -5071,6 +5083,7 @@
 0;39.0833,12.4000;ET-46;Amhara;Gubrak
 0;37.4000,12.4333;ET-46;Amhara;Gubīya
 0;38.5500,9.9667;ET-51;Oromiya;Gubīya
+0;35.3333,7.2833;ET;;Gubīt’o
 0;38.5000,9.8167;ET-51;Oromiya;Gubē
 0;40.2167,4.6167;ET-51;Oromiya;Gubbo Volta
 0;41.0812,7.9416;ET-51;Oromiya;Gubbisa
@@ -5123,6 +5136,7 @@
 0;37.7667,9.6167;ET-51;Oromiya;Goshu
 0;39.2500,11.5333;ET-46;Amhara;Gosh Mēda
 0;38.8667,11.1667;ET-46;Amhara;Goshit
+0;35.3333,7.3833;ET;;Goshcandi
 0;39.4330,9.7483;ET-46;Amhara;Gosh Bodo
 0;41.7742,9.5069;ET-51;Oromiya;Gosha
 0;38.4500,9.7667;ET-51;Oromiya;Gosē
@@ -6775,6 +6789,7 @@
 0;43.6114,8.5478;ET-52;Somali;Dibber Uin
 0;37.8833,13.2333;ET-46;Amhara;Dib Bahir
 21300;36.2167,10.6500;ET-47;Bīnshangul Gumuz;Dibate
+0;38.2833,5.9833;ET;;Dibandibe
 0;38.6833,12.3500;ET-46;Amhara;Dība
 0;37.0833,9.8833;ET-51;Oromiya;Dība
 0;42.7972,9.2733;ET-52;Somali;Dība
@@ -7164,6 +7179,7 @@
 0;38.9833,9.4833;ET-51;Oromiya;Darīmu
 0;36.1866,8.6098;ET-51;Oromiya;Darīmu
 0;38.4333,9.4167;ET-51;Oromiya;Darīmo
+0;35.6833,7.8667;ET;;Darimo
 0;37.6833,6.3667;ET-56;South Ethiopia Regional State;Dari
 0;35.4500,9.2500;ET-51;Oromiya;Dargē
 0;36.2000,8.7500;ET-51;Oromiya;Dargē
@@ -7434,6 +7450,7 @@
 0;39.3167,14.1500;ET-53;Tigray;Cocomet
 0;40.0667,4.3000;ET-51;Oromiya;Cocob
 0;39.8333,12.1333;ET-45;Āfar;Cochebi Raja
+0;35.3333,7.2833;ET;;Coccia
 0;35.4167,7.1333;ET-SW;South West Ethiopia Peoples' Region;Coccia
 0;36.6833,8.0333;ET-51;Oromiya;Cocauo
 0;34.9833,7.6000;ET-49;Gambela;Cocaieca
@@ -7637,6 +7654,7 @@
 0;39.3394,12.8956;ET-53;Tigray;Chelena
 0;38.4500,8.4167;ET-51;Oromiya;Ch’elemo
 0;39.5333,12.4667;ET-53;Tigray;Ch’elema Dur
+0;38.1500,6.0000;ET;;Ch’elelek’tu
 0;38.2833,9.7500;ET-51;Oromiya;Ch’elelek’ī
 0;38.7667,9.6167;ET-51;Oromiya;Ch’elelek’ī
 0;38.5167,9.8667;ET-51;Oromiya;Ch’elelek’a
@@ -8721,6 +8739,7 @@
 0;41.4167,5.6667;ET-52;Somali;Bacassar
 0;40.0667,5.0167;ET-51;Oromiya;Bacara
 0;37.3000,8.6000;ET-51;Oromiya;Bacamoti
+0;38.1833,6.2167;ET;;Bacai
 0;38.5500,8.9833;ET-51;Oromiya;Baburoto
 0;38.6333,10.1167;ET-51;Oromiya;Babu
 0;36.3333,9.8333;ET-51;Oromiya;Babu
@@ -8970,6 +8989,7 @@
 0;36.7000,9.2167;ET-51;Oromiya;Ārjo
 0;36.5000,8.7500;ET-51;Oromiya;Ārjo
 0;38.7333,12.4167;ET-46;Amhara;Ārjal
+0;35.3333,7.3167;ET;;Arito
 0;39.3167,12.3500;ET-53;Tigray;Ārīt’at’a
 0;41.6277,11.1837;ET-45;Āfar;Arissa
 0;38.2333,13.0500;ET-46;Amhara;Arisagh
@@ -9154,6 +9174,7 @@
 0;37.5000,8.1000;ET-51;Oromiya;Āndodē
 0;42.1258,10.1471;ET-52;Somali;Āndo Bēyd
 0;39.3833,11.9500;ET-46;Amhara;Ānd Iyēla
+0;40.6200,12.1517;ET;;Āndīdo
 0;38.3500,6.4000;ET-56;South Ethiopia Regional State;Āndīda
 0;37.2000,12.3500;ET-46;Amhara;Ānderjiha
 0;36.5000,11.5000;ET-46;Amhara;Andera
@@ -9890,6 +9911,7 @@
 0;42.2344,9.5631;ET-51;Oromiya;Ādem Ābdī
 0;38.3333,9.2833;ET-51;Oromiya;Ādem
 0;38.9000,13.3500;ET-53;Tigray;Adellet
+0;38.5833,8.1833;ET;;Ādēlē Umuro
 0;38.5333,8.1500;ET-55;Central Ethiopia Regional State;Ādēlē Gomboro
 0;41.0222,8.5546;ET-51;Oromiya;Ādēlē
 0;39.8167,7.7833;ET-51;Oromiya;Ādēlē
@@ -10196,6 +10218,8 @@
 0;41.7811,9.5878;ET-48;Dire Dawa;Felema
 0;41.7700,9.5772;ET-51;Oromiya;Hulul
 0;42.0261,9.2925;ET-51;Oromiya;Meta
+0;42.7100,9.6522;ET;;Arif-Gerau
+0;42.7350,9.6386;ET;;Kulula
 0;42.1458,9.2781;ET-50;Harari;Gara Hakim
 0;42.1760,9.2694;ET-50;Harari;Harewe
 0;41.8759,9.3576;ET-51;Oromiya;Dolu Selmana
@@ -10429,6 +10453,7 @@
 0;38.5476,14.0416;ET-53;Tigray;Addish Addi
 0;41.5721,3.9910;ET-52;Somali;Gumur Ad
 50000;41.0058,11.7934;ET-45;Āfar;Samara
+0;38.6167,8.4333;ET;;Tiya
 0;39.7218,13.9378;ET-53;Tigray;Enda Mariam Bahafeyti
 0;39.8491,13.7463;ET-45;Āfar;Bohale
 0;39.7429,13.7597;ET-53;Tigray;Aykamessal
@@ -10455,6 +10480,9 @@
 0;41.7510,7.4057;ET-51;Oromiya;Noyo
 0;37.4000,12.2000;ET-46;Amhara;Libo Kemkem
 0;40.0200,8.3100;ET-51;Oromiya;Aseko
+0;39.4500,13.4000;ET;;Atsbi Wonberta
+0;39.4000,14.1500;ET;;Saesi Tsadamba
+0;39.4000,13.1000;ET;;Hintalo Wajirat
 0;42.0916,10.1837;ET-52;Somali;Mile
 0;42.2187,10.3727;ET-52;Somali;Khaboko
 0;42.7929,8.6138;ET-51;Oromiya;Shek-Makhmud
@@ -10571,8 +10599,11 @@
 0;39.5732,9.7992;ET-46;Amhara;Tabot Washa
 0;39.7667,9.7144;ET-46;Amhara;Witī
 0;41.3107,9.9740;ET-52;Somali;Aerolaf
+0;34.3198,6.9473;ET;;Puya
+0;34.3332,6.9347;ET;;Kena
 0;34.2353,7.0040;ET-SW;South West Ethiopia Peoples' Region;Nikuali
 0;34.2352,7.0187;ET-SW;South West Ethiopia Peoples' Region;Dibala
+0;34.5280,6.8573;ET;;Abuli
 0;41.3568,9.0129;ET-51;Oromiya;Kubi-Abdul’-Kydyr
 0;41.4709,9.3764;ET-51;Oromiya;Kuerdi
 0;35.0047,6.0761;ET-SW;South West Ethiopia Peoples' Region;Harrar
@@ -10668,23 +10699,142 @@
 0;39.2025,9.6403;ET-51;Oromiya;Arb Gebeya
 0;39.5379,10.3014;ET-46;Amhara;Tsekhay Guya
 0;39.8363,10.7956;ET-46;Amhara;Shekla
+0;39.2500,14.3333;ET;;Ganta Afeshum
+0;40.3333,13.2500;ET;;Erebti
+0;39.8470,13.9490;ET;;Koneba
+0;40.0000,13.1667;ET;;Megale
+0;40.3333,9.6667;ET;;Amibara
+0;39.5635,14.1751;ET;;Saesie-Tsaedaem
+0;39.5300,14.4200;ET;;Gulomahda
+0;39.6277,14.4772;ET;;Irob
+0;38.1932,13.9786;ET;;Asigede Tsimbela
+0;38.1270,13.5475;ET;;Tselemti
+0;38.2721,14.0894;ET;;Tahtay Koraro
+0;38.4637,14.0976;ET;;Medebay Zana
+0;38.1740,14.3109;ET;;Laelay Adiabo
+0;38.3000,13.3500;ET;;Semen
+0;39.0719,14.0253;ET;;Werii Lekhe
+0;38.5877,14.1135;ET;;Tahtay Maychew
+0;38.7989,13.8317;ET;;Naeder Adet
+0;38.4505,14.3810;ET;;Mereb Lekhe
+0;39.0019,13.6184;ET;;Kola Tembien
+0;39.5204,12.4850;ET;;Ofla
+0;40.3833,4.9667;ET;;Filtu
+0;42.6390,9.8220;ET;;Dembel
+0;44.3832,6.1792;ET;;Debe Weyin
+0;37.3333,5.6667;ET;;Dirashe
+0;37.1667,9.0000;ET;;Bako Tibe
+0;38.4167,9.2500;ET;;Adda Berga
+0;38.5833,8.5000;ET;;Kersana Kondaltiti
+0;38.1667,9.3333;ET;;Meta Robi
+0;40.5000,8.1667;ET;;Darolebu
+0;39.2500,8.0833;ET;;Hitosa
+0;38.7167,7.9333;ET;;Ziway Dugda
+0;40.5000,6.3333;ET;;Guradamole
+0;41.2500,7.7500;ET;;Legehida
+0;36.7500,13.3330;ET;;Tegede-Armachiho
+0;39.3410,9.0430;ET;;Menjarna Shenkora
+0;38.8333,10.3333;ET;;Mida Worema
+0;38.7500,10.2500;ET;;Merhabiete
+0;38.7500,12.2760;ET;;Bugna
+0;39.0000,11.7500;ET;;Dawuntna Delant
+0;39.1667,12.2500;ET;;Gidan
+0;39.3333,12.0000;ET;;Guba Lafto
+0;35.8333,9.0833;ET;;Lalo Asabi
+0;35.2500,9.6667;ET;;Mana Sibu
+0;35.0000,8.8333;ET;;Sayo
+0;34.7044,8.7982;ET;;Yama Logi
+0;35.9349,7.5613;ET;;Gewata
+0;39.3333,11.1667;ET;;Dessie Zuria
+0;38.5500,10.5790;ET;;Wegde
+0;38.2480,9.8530;ET;;Wara Jarso
+0;38.5000,13.1667;ET;;Zikuala
+0;39.2500,9.2500;ET;;Kembibit
+0;37.2500,11.1667;ET;;Kuarit
+0;38.6667,9.6667;ET;;Gerar Jarso
+0;37.3333,7.9167;ET;;Tiro Afeta
 0;34.5200,10.1667;ET-47;Bīnshangul Gumuz;Assosa Maekel
+0;37.0833,7.8333;ET;;Sigmo
 0;35.1667,10.1667;ET-47;Bīnshangul Gumuz;Oda Godere
 0;34.7500,10.1700;ET-47;Bīnshangul Gumuz;Komesha
+0;36.8333,9.0833;ET;;Sibu Sire
+0;36.7500,8.6667;ET;;Nunu Kumba
+0;37.3333,9.1667;ET;;Jimma Rare
 0;35.8333,9.7500;ET-47;Bīnshangul Gumuz;Kamashi zone
+0;36.6667,8.6667;ET;;Jimma Arjo
+0;35.8333,9.7500;ET;;Gida Kiremu
+0;36.8333,9.5000;ET;;Abe Dongoro
+0;36.2500,11.0000;ET;;Mandura
+0;37.3333,9.6667;ET;;Abay Chomen
+0;38.3333,7.3333;ET;;Seraro
+0;35.4167,10.5000;ET;;Wenbera
+0;38.6667,7.2500;ET;;Shashamene Zuria
 98100;38.6746,7.3547;ET-51;Oromiya;Arsi Negele
+0;41.2500,8.8333;ET;;Malka Balo
+0;36.3333,11.3333;ET;;Pawe Liyou
+0;34.3333,9.5000;ET;;Mao-Komo Liyou
+0;39.0833,6.0000;ET;;Adola
+0;41.2500,6.8333;ET;;Raytu
+0;36.3333,7.0000;ET;;Telo
 0;38.2170,6.0090;ET-56;South Ethiopia Regional State;Kochere
+0;37.0000,6.0833;ET;;Zala Ubamale
 0;37.6667,7.0833;ET-56;South Ethiopia Regional State;Boloso Sore
 0;38.0000,6.8333;ET-56;South Ethiopia Regional State;Damot Weyde
+0;38.8333,6.5000;ET;;Bensa
+0;40.7900,6.1020;ET;;Gura-Damole
 0;41.7773,7.3815;ET-52;Somali;Lagahida
+0;38.4167,7.7500;ET;;Lanfro
+0;37.7500,7.2500;ET;;Kacha Bira
+0;37.9167,7.2500;ET;;Kedida Gamela
+0;37.5000,7.2500;ET;;Omo Sheleko
 0;42.5833,9.3333;ET-52;Somali;Gursum
+0;35.7289,9.2031;ET;;Mekenajo
+0;39.3333,14.4167;ET;;Zalambessa
+0;42.0342,9.4130;ET;;Haramaya University
+0;39.3333,14.4167;ET;;Tsorona-Zalambessa
+0;38.9833,5.8833;ET;;Kebri Mangest
+0;37.0266,12.5158;ET;;Seraba
+0;46.8634,7.5286;ET;;Afar irdood
+0;46.6477,7.4375;ET;;Bookh
+0;46.7931,7.2392;ET;;Maaneed
+0;33.4460,8.3565;ET;;Metar
 22000;45.9833,6.4426;ET-52;Somali;Digih Habar Es
+0;36.6435,9.8253;ET;;Gendo
+0;39.1667,8.5833;ET;;Lome
+0;38.7314,8.9883;ET;;Mekanisa
+0;36.5052,9.1631;ET;;Sasiga
+0;38.7704,8.9800;ET;;Bole Bulbula
+0;38.3560,7.0164;ET;;Damot Pulasa
+0;36.9690,12.8439;ET;;Belojeganfoy
+0;37.3838,5.2663;ET;;Sawgame
+0;36.1230,6.3917;ET;;Damboya
+0;37.6292,12.2583;ET;;Emfraz
+0;38.6667,7.7500;ET;;Adami Tullu and Jido Kombolcha
 0;40.6496,7.1607;ET-51;Oromiya;EBISA or Eebbisa
+0;40.6203,7.1939;ET;;Hakasha or Haqaasha
+0;40.6583,7.2220;ET;;Sade or Dadee Faxee
+0;40.7862,7.1300;ET;;Oda Roba or Odaa Robaa
+0;40.5784,7.2687;ET;;Weltahi Atota, Waltahii Atootta
+0;40.6031,7.2549;ET;;Hakima or Hakiimma
+0;40.5735,7.1903;ET;;Jawaro or Jawaaro
+0;46.7703,7.4021;ET;;Gaxandhaale
+52300;36.5046,10.9563;ET;;Chagni
+23900;36.9468,10.6406;ET;;Shendi
+0;37.5623,11.1108;ET;;Washera
+0;38.7630,9.0022;ET;;Kirkos
+0;39.3852,5.8480;ET;;Handoya Hancheka
+0;36.0833,5.9167;ET;;Selamago
+0;39.0410,10.0002;ET;;Delema Anshebegul
 0;38.9596,10.1112;ET-46;Amhara;Agerit Kumamba
+0;38.3880,7.8034;ET;;Meded Gagabo
+0;38.3858,7.7023;ET;;Shifode Debar
 0;34.3461,8.2401;ET-49;Gambela;Pokumo
+0;39.0192,7.0782;ET;;Kerensa Dongeia
+0;36.6813,11.5738;ET;;Zihibst Tanfa
 0;34.2660,7.6409;ET-49;Gambela;Pinyudo
 0;35.6507,6.7751;ET-SW;South West Ethiopia Peoples' Region;Meskerem Fire
 0;35.8349,6.9242;ET-SW;South West Ethiopia Peoples' Region;Kuka
+0;38.8091,8.9975;ET;;Goro
 0;42.3431,11.0082;ET-52;Somali;Bondara
 0;42.3176,10.9951;ET-52;Somali;Sankal
 0;37.5179,12.4430;ET-46;Amhara;Burboks

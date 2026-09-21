@@ -164,6 +164,7 @@
 0;20.4719,40.3544;7406;Bashkia Kolonjë;Zavalan
 0;20.9081,40.7642;7020;Bashkia Korçë;Zaroshkë
 0;20.5525,42.0506;8515;Bashkia Kukës;Zapod
+0;20.2994,40.8267;;Elbasan County;Zamshë
 119;20.2733,40.6081;5411;Bashkia Skrapar;Zaloshnjë
 0;20.1636,41.9475;8509;Bashkia Kukës;Zall-Xhuxhë
 0;20.5028,41.0200;7308;Bashkia Pogradec;Zall-Torë
@@ -191,6 +192,7 @@
 0;20.0742,40.8164;5001;Bashkia Berat;Kamerllas
 0;20.5061,42.1078;8502;Bashkia Kukës;Xhah
 0;20.5222,41.9703;8516;Bashkia Kukës;Xhaferraj
+0;20.0008,40.4164;;Gjirokastër County;Xhafaj
 0;20.5111,40.6167;7022;Bashkia Korçë;Xerje-Denas
 0;20.1550,42.1344;4404;Bashkia Pukë;Xath
 0;20.4075,41.1322;3408;Bashkia Librazhd;Vulçan
@@ -211,6 +213,7 @@
 0;20.6519,40.3986;7403;Bashkia Kolonjë;Vodicë
 115;20.3128,40.5136;5413;Bashkia Skrapar;Vlushë
 0;20.7297,40.6947;7021;Bashkia Korçë;Vloçisht
+0;20.5611,40.0872;;Gjirokastër County;Vllaho-Psillotarë
 0;20.4278,41.8117;8307;Bashkia Dibër;Vleshë
 0;20.2047,41.8614;8509;Bashkia Kukës;Vlashaj
 0;20.4050,41.5314;8404;Bashkia Bulqizë;Vlashaj
@@ -274,6 +277,7 @@
 0;20.0600,41.2719;3013;Bashkia Elbasan;Vakumonë
 0;20.3250,41.7028;8312;Bashkia Dibër;Vajmëdhej
 0;20.2189,41.5044;8409;Bashkia Bulqizë;Vajkal-Bulqizë
+0;20.0292,40.3797;;Gjirokastër County;Vagalat
 0;20.1039,40.5761;5405;Bashkia Skrapar;Usti
 0;20.3917,41.6800;8304;Bashkia Dibër;Ushtelencë
 0;20.0719,41.6894;8010;Bashkia Mat;Urxallë
@@ -321,6 +325,7 @@
 0;20.2117,40.1022;6014;Bashkia Gjirokastër;Tranoshishtë
 0;20.0875,42.2886;8701;Bashkia Tropojë;Tëplan
 180;20.0608,40.5522;5015;Bashkia Berat;Tozhar
+0;20.0025,40.3906;;Gjirokastër County;Toskë-Martalloz
 0;20.1550,40.4461;5406;Bashkia Skrapar;Toshkës
 0;20.3958,40.6781;7018;Bashkia Korçë;Torovec
 0;20.2583,40.1861;6012;Bashkia Gjirokastër;Topovë
@@ -475,6 +480,7 @@
 0;20.4892,40.3306;7405;Bashkia Kolonjë;Shijan
 0;20.7731,40.7442;7014;Bashkia Korçë;Sheqeras
 0;20.3058,40.1714;6012;Bashkia Gjirokastër;Sheper
+0;20.1667,40.8167;;Elbasan County;Shënmitër
 0;20.0658,41.3258;1043;Bashkia Tiranë;Shënmëri
 0;20.3442,41.8289;8508;Bashkia Kukës;Shënlleshën
 0;20.1000,41.5167;8002;Bashkia Mat;Shen Kolle
@@ -484,11 +490,13 @@
 0;20.0072,41.1722;3012;Bashkia Elbasan;Shëngjin
 0;20.1139,41.3361;1043;Bashkia Tiranë;Shëngjergj
 0;20.0936,40.9786;3026;Bashkia Elbasan;Shënavlash
+0;20.1833,40.8311;;Elbasan County;Shëmrizë
 0;20.2383,42.1042;8512;Bashkia Kukës;Shënmëri
 0;20.2675,40.7686;5410;Bashkia Skrapar;Bletëz
 0;20.1917,40.4061;5406;Bashkia Skrapar;Shelq
 0;20.1058,41.6464;8009;Bashkia Mat;Shëlli
 0;20.1333,41.0614;3025;Bashkia Elbasan;Shelcan
+0;20.2806,40.8133;;Elbasan County;Shelcan
 0;20.2314,41.1242;3409;Bashkia Librazhd;Sheh
 0;20.0156,41.7686;8012;Bashkia Mat;Shebë
 0;20.7808,40.6769;7013;Bashkia Korçë;Shamoll
@@ -510,6 +518,7 @@
 0;20.2792,41.6275;8313;Bashkia Dibër;Selishtë
 0;20.0247,42.3100;8706;Bashkia Tropojë;Selimaj
 0;20.5603,40.4511;7406;Bashkia Kolonjë;Selenica e Pishës
+0;20.4306,40.3500;;Gjirokastër County;Selenicë
 0;20.6917,40.3892;7403;Bashkia Kolonjë;Selenicë
 0;20.0214,40.4714;5015;Bashkia Berat;Selcka e Madhe
 0;20.2950,40.1075;6002;Bashkia Gjirokastër;Selckë
@@ -549,6 +558,7 @@
 0;20.1656,40.4028;5406;Bashkia Skrapar;Rodenj
 0;20.2000,41.2833;1043;Bashkia Tiranë;Rinas
 0;20.2311,40.3261;5406;Bashkia Skrapar;Riban
+0;20.0011,40.4306;;Gjirokastër County;Revisht
 0;20.3761,41.9286;8501;Bashkia Kukës;Resk
 900;20.0258,41.8661;4605;Bashkia Mirditë;Reps
 0;20.6622,40.8789;7304;Bashkia Pogradec;Rëmenj
@@ -576,6 +586,7 @@
 0;20.1903,42.2322;8705;Bashkia Tropojë;Berishë
 0;20.5683,40.2619;7404;Bashkia Kolonjë;Radimisht
 252;20.2533,40.5364;5413;Bashkia Skrapar;Radësh
+0;20.6628,40.1358;;Korçë County;Radat
 0;20.6183,40.2119;7404;Bashkia Kolonjë;Radanj
 0;20.4964,41.6842;8303;Bashkia Dibër;Rabdisht
 0;20.3131,40.3400;5406;Bashkia Skrapar;Raban
@@ -615,6 +626,7 @@
 0;20.5183,40.6344;7022;Bashkia Korçë;Punëmirë
 0;20.6944,40.5344;7017;Bashkia Korçë;Pulahë
 0;20.5858,40.4386;7406;Bashkia Kolonjë;Psari i Zi
+0;20.1014,40.3989;;Gjirokastër County;Psar
 0;20.6817,40.3503;7401;Bashkia Kolonjë;Psar
 4015;20.5353,41.0667;3413;Bashkia Librazhd;Përrenjas-Fshat
 5847;20.5489,41.0731;3413;Bashkia Librazhd;Përrenjas
@@ -663,9 +675,12 @@
 0;20.5294,42.1711;8502;Bashkia Kukës;Pogaj
 0;20.7969,40.8150;7028;Bashkia Korçë;Podgorie
 0;20.4522,41.5669;8302;Bashkia Dibër;Podgorcë
+0;20.1436,40.3706;;Gjirokastër County;Potgoran-Fushë
+0;20.1275,40.3664;;Gjirokastër County;Potgoran
 0;20.6139,40.2397;7404;Bashkia Kolonjë;Podë
 0;20.7156,40.6822;7021;Bashkia Korçë;Pocestë
 0;20.5017,41.5919;8302;Bashkia Dibër;Pocest
+0;20.6503,40.1403;;Korçë County;Pobickë
 0;20.4553,41.8447;8308;Bashkia Dibër;Ploshtan
 0;20.0831,40.6142;5016;Bashkia Berat;Plirëzë
 0;20.6386,40.7169;7021;Bashkia Korçë;Plovisht-Bos
@@ -709,6 +724,7 @@
 7980;20.3517,40.2336;6001;Bashkia Gjirokastër;Përmet
 103;20.0983,40.7383;5001;Bashkia Berat;Perisnakë
 0;20.4478,42.0853;8605;Bashkia Has;Përbreg
+0;20.5833,40.0833;;Gjirokastër County;Perat
 0;20.3531,42.2900;8603;Bashkia Has;Peraj
 0;20.6961,40.4753;7403;Bashkia Kolonjë;Pepellash
 0;20.8331,40.7044;7015;Bashkia Korçë;Pendavinj
@@ -717,6 +733,7 @@
 0;20.4342,41.6389;8303;Bashkia Dibër;Pejkë
 0;20.1639,40.4208;5406;Bashkia Skrapar;Pavar
 0;20.1167,41.5497;8013;Bashkia Mat;Patin
+0;20.2689,40.8486;;Elbasan County;Pasnovisht
 0;20.4853,41.4683;8405;Bashkia Bulqizë;Pasinkë
 0;20.2281,41.0031;3014;Bashkia Elbasan;Pashtresh
 0;20.4950,40.6650;7022;Bashkia Korçë;Osojë
@@ -733,6 +750,7 @@
 0;20.2742,40.3003;5406;Bashkia Skrapar;Pacomit
 0;20.4956,41.4294;8405;Bashkia Bulqizë;Ostreni i Vogël
 0;20.4556,41.4308;8405;Bashkia Bulqizë;Ostreni i Math
+0;20.1683,40.8528;;Elbasan County;Ostenth
 0;20.5014,40.6681;7022;Bashkia Korçë;Osojë
 110;20.2839,40.5097;5413;Bashkia Skrapar;Osojë
 0;20.5900,40.8256;7309;Bashkia Pogradec;Osnat
@@ -754,6 +772,7 @@
 0;20.9481,40.8442;7020;Bashkia Korçë;Ojmicë
 0;20.4494,40.3178;6001;Bashkia Gjirokastër;Ogren
 0;20.4444,40.2331;6001;Bashkia Gjirokastër;Ogdunan
+0;20.0000,40.3000;;Gjirokastër County;Oenala
 0;20.1667,40.1333;6018;Bashkia Gjirokastër;Odrie
 0;20.3264,40.3503;5406;Bashkia Skrapar;Odriçan
 0;20.4086,40.2547;6001;Bashkia Gjirokastër;Novoselë
@@ -786,6 +805,7 @@
 0;20.0417,42.1619;4403;Bashkia Pukë;Ndërlymnat
 0;20.1667,41.4000;8403;Bashkia Bulqizë;Ndërfushas
 0;20.2778,40.1689;6012;Bashkia Gjirokastër;Nderan
+0;20.2053,40.8144;;Elbasan County;Nartë
 0;20.4164,42.0117;8504;Bashkia Kukës;Nangë
 0;20.1958,41.9811;8509;Bashkia Kukës;Sang
 0;20.3592,42.1058;8511;Bashkia Kukës;Myç-Has
@@ -834,12 +854,14 @@
 0;20.7275,40.4125;7403;Bashkia Kolonjë;Milec
 0;20.0125,42.0833;4407;Bashkia Pukë;Micoj
 0;20.3961,40.4214;5407;Bashkia Skrapar;Miçan
+0;20.0931,40.3189;;Gjirokastër County;Mezhgoran
 0;20.1292,42.2161;4404;Bashkia Pukë;Mëzi
 0;20.2500,41.2833;3410;Bashkia Librazhd;Mëxixë
 0;20.3133,42.1294;8604;Bashkia Has;Metaliaj
 0;20.0539,41.9506;4408;Bashkia Pukë;Mesul
 0;20.5419,40.7853;7027;Bashkia Korçë;Mesmal
 0;20.5800,40.3528;7405;Bashkia Kolonjë;Mësiçkë
+0;20.2736,40.8472;;Elbasan County;Mesenik
 0;20.2417,40.3636;5406;Bashkia Skrapar;Mërtinj
 0;20.1381,41.8181;4605;Bashkia Mirditë;Mërkurth
 0;20.1719,40.3203;5406;Bashkia Skrapar;Merkuraj
@@ -858,6 +880,7 @@
 0;20.4653,41.6542;8303;Bashkia Dibër;Melan
 0;20.4256,41.9725;8504;Bashkia Kukës;Mëhole
 0;20.0264,40.9344;3020;Bashkia Elbasan;Shkëmb
+0;20.1719,40.8400;;Elbasan County;Llallë
 0;20.2222,42.1008;8512;Bashkia Kukës;Mëgullë
 0;20.0397,40.7936;5001;Bashkia Berat;Meçkarë
 0;20.2089,40.2922;6012;Bashkia Gjirokastër;Mbrezhdan
@@ -866,18 +889,22 @@
 3850;20.8031,40.6033;7023;Bashkia Korçë;Mborje
 0;20.3681,42.1894;8601;Bashkia Has;Mazrek
 0;20.4025,41.6031;8314;Bashkia Dibër;Mazhicë
+0;20.0944,40.4117;;Gjirokastër County;Mazhan
 0;20.4269,41.8675;8506;Bashkia Kukës;Matranxh
 0;20.0728,41.8742;4605;Bashkia Mirditë;Mashtërkor
 0;20.0867,40.1175;6013;Bashkia Gjirokastër;Mashkullorë
+0;20.2156,40.8294;;Elbasan County;Mashan
 0;20.2000,41.4000;8403;Bashkia Bulqizë;Martanesh
 0;20.0181,42.2786;4030;Bashkia Shkodër;Markokaj
 0;20.6267,40.7619;7027;Bashkia Korçë;Marjan
 0;20.4858,40.5706;7022;Bashkia Korçë;Marjan
 0;20.2667,40.0167;6003;Bashkia Gjirokastër;Marina
+0;20.0394,40.3978;;Gjirokastër County;Maricaj
 0;20.4831,41.5889;8302;Bashkia Dibër;Maqellarë
 0;20.5014,40.4561;7406;Bashkia Kolonjë;Treskë
 0;20.1794,41.6208;8009;Bashkia Mat;Mazdre
 0;20.3714,42.0614;8511;Bashkia Kukës;Mamëz
+0;20.0025,40.3125;;Gjirokastër County;Mamaj
 0;20.3872,41.9400;8501;Bashkia Kukës;Malqenë
 0;20.0572,41.5964;8007;Bashkia Mat;Mallunxë
 0;20.4314,41.4989;8404;Bashkia Bulqizë;Mallakastër
@@ -1015,6 +1042,7 @@
 0;20.0919,40.9161;3019;Bashkia Elbasan;Kutërqarë
 0;20.3417,40.2522;6001;Bashkia Gjirokastër;Kutal
 0;20.1889,40.7889;5410;Bashkia Skrapar;Kushovë
+0;20.0181,40.4267;;Gjirokastër County;Kurtjez
 0;20.5172,40.3758;7406;Bashkia Kolonjë;Kurtes
 0;20.0897,41.5947;8009;Bashkia Mat;Kurqelaj
 0;20.9972,40.5636;7012;Bashkia Korçë;Kurilë
@@ -1085,6 +1113,7 @@
 58259;20.7808,40.6186;7023;Bashkia Korçë;Korçë
 130;20.3094,40.4500;5406;Bashkia Skrapar;Koprënckë
 0;20.7742,40.8097;7028;Bashkia Korçë;Kapotë
+0;20.0708,40.4331;;Gjirokastër County;Kondas
 0;20.2789,40.1942;6012;Bashkia Gjirokastër;Konckë
 0;20.1556,41.9133;4605;Bashkia Mirditë;Konaj
 0;20.1014,40.4289;5401;Bashkia Skrapar;Komarak
@@ -1098,11 +1127,13 @@
 0;20.4217,41.4394;8405;Bashkia Bulqizë;Kojavec
 0;20.4544,40.6561;7018;Bashkia Korçë;Protopapë
 0;20.6408,40.3333;7405;Bashkia Kolonjë;Kodras
+0;20.2511,40.8056;;Elbasan County;Kodovjat
 0;20.0478,41.8761;4605;Bashkia Mirditë;Kodër-Spaç
 0;20.3031,41.7594;8306;Bashkia Dibër;Kodër Leshe
 0;20.0536,41.0125;3026;Bashkia Elbasan;Kodër-Bujaras
 0;20.0658,40.2742;6019;Bashkia Gjirokastër;Kodër
 0;20.2806,41.5417;8409;Bashkia Bulqizë;Koçaj
+0;20.1953,40.8606;;Elbasan County;Koçaj
 0;20.4472,40.4244;5407;Bashkia Skrapar;Koblarë
 0;20.4000,42.0333;8513;Bashkia Kukës;Knetë
 0;20.1522,41.9269;8509;Bashkia Kukës;Klos
@@ -1134,6 +1165,7 @@
 0;20.5575,41.0464;3413;Bashkia Librazhd;Katjel
 0;20.0761,40.8358;3019;Bashkia Elbasan;Katërlis
 0;20.3772,41.7294;8305;Bashkia Dibër;Kastriot
+0;20.0281,40.3531;;Gjirokastër County;Kashisht
 0;20.1933,42.4081;8706;Bashkia Tropojë;Kasaj
 0;20.4800,41.0628;3407;Bashkia Librazhd;Karkavec
 467;20.0583,40.6886;5001;Bashkia Berat;Karkanjoz
@@ -1291,6 +1323,7 @@
 0;20.0950,41.1508;3013;Bashkia Elbasan;Godolesh
 0;20.6572,40.7075;7021;Bashkia Korçë;Goçë
 0;20.4017,40.7222;7018;Bashkia Korçë;Gopesh
+0;20.6283,40.1203;;Korçë County;Glinë
 0;20.6286,40.6950;7027;Bashkia Korçë;Gjyras
 0;20.8839,40.5608;7001;Bashkia Korçë;Gjyrës
 0;20.3667,41.8833;8505;Bashkia Kukës;Gjushen
@@ -1334,6 +1367,7 @@
 23;20.2964,40.4556;5406;Bashkia Skrapar;Gërmenj
 0;20.6731,40.2244;7404;Bashkia Kolonjë;Gërmenj
 0;20.2044,40.3392;5406;Bashkia Skrapar;Gërdas
+0;20.5931,40.1242;;Korçë County;Cerckë
 0;20.1964,42.4323;8706;Bashkia Tropojë;Gegaj
 0;20.1994,42.1117;8512;Bashkia Kukës;Gëdheshtë
 0;20.1586,40.9494;3014;Bashkia Elbasan;Galigat
@@ -1350,6 +1384,7 @@
 0;20.1681,42.0497;4406;Bashkia Pukë;Fusha e Qarrit
 0;20.0700,41.5164;8002;Bashkia Mat;Fullqet
 0;20.0333,41.5167;8002;Bashkia Mat;Ftue
+0;20.1444,40.3975;;Gjirokastër County;Fshati i Ri
 0;20.4494,41.9050;8506;Bashkia Kukës;Fshat
 0;20.0875,41.4803;8002;Bashkia Mat;Fshat
 0;20.0064,41.2572;1049;Bashkia Tiranë;Fravesh
@@ -1438,6 +1473,7 @@
 0;20.6056,40.8006;7309;Bashkia Pogradec;Dërdushë
 0;20.5014,40.6400;7022;Bashkia Korçë;Denas
 0;20.4694,40.2325;6001;Bashkia Gjirokastër;Delvinë
+0;20.1803,40.7994;;Elbasan County;Delven
 0;20.2031,40.3792;5406;Bashkia Skrapar;Delilaj
 0;20.1167,41.6833;8011;Bashkia Mat;Deje Macukull
 0;20.1300,42.2775;8705;Bashkia Tropojë;Degë
@@ -1451,7 +1487,9 @@
 148;20.1236,40.7500;5001;Bashkia Berat;Dardhë
 0;20.8269,40.5186;7023;Bashkia Korçë;Dardhë
 0;20.6806,40.6617;7019;Bashkia Korçë;Damjanec
+0;20.0269,40.3342;;Gjirokastër County;Damës
 44;20.2803,40.6897;5410;Bashkia Skrapar;Çorrotat
+0;20.1200,40.3808;;Gjirokastër County;Çorogunj
 3918;20.2272,40.5042;5401;Bashkia Skrapar;Çorovodë
 142;20.0050,40.5317;5015;Bashkia Berat;Çorogjaf
 0;20.5503,40.4175;7406;Bashkia Kolonjë;Çlirim
@@ -1493,6 +1531,7 @@
 0;20.4739,42.1981;8601;Bashkia Has;Cahan
 99;20.1642,40.5178;5401;Bashkia Skrapar;Buzuq
 0;21.0136,40.6747;7008;Bashkia Korçë;Buzëliqen
+0;20.0047,40.4450;;Gjirokastër County;Buz
 0;20.4367,41.1372;3408;Bashkia Librazhd;Buzgarë
 0;20.4697,41.9328;8501;Bashkia Kukës;Buzëmadhe
 0;20.4481,40.9611;7310;Bashkia Pogradec;Buzahishtë
@@ -1506,6 +1545,7 @@
 0;20.8911,40.7183;7014;Bashkia Korçë;Burimas
 0;20.4628,41.5781;8302;Bashkia Dibër;Burim
 0;20.0572,41.6400;8009;Bashkia Mat;Burgajet
+0;20.0492,40.4400;;Gjirokastër County;Golemaj
 0;20.0658,41.8458;4605;Bashkia Mirditë;Bulshar
 26826;20.2219,41.4917;8409;Bashkia Bulqizë;Bulqizë
 0;20.2714,40.8044;7018;Bashkia Korçë;Bulçar
@@ -1573,6 +1613,7 @@
 0;20.1228,41.9056;4605;Bashkia Mirditë;Bisak
 0;20.3536,40.5242;5407;Bashkia Skrapar;Bersakë
 0;20.7200,40.6611;7019;Bashkia Korçë;Biranj
+0;20.5356,40.0975;;Gjirokastër County;Biovizhdë
 7287;20.9900,40.6275;7008;Bashkia Korçë;Bilisht
 0;20.6397,40.6931;7021;Bashkia Korçë;Bickë
 0;20.8956,40.6658;7015;Bashkia Korçë;Bickë
@@ -1580,6 +1621,7 @@
 0;20.3836,40.7650;7018;Bashkia Korçë;Bicaj
 0;20.7342,40.4208;7403;Bashkia Kolonjë;Bezhan
 0;20.4547,41.0528;3407;Bashkia Librazhd;Bërzeshtë
+0;20.2308,40.8150;;Elbasan County;Bërsnik
 0;20.0858,41.5389;8002;Bashkia Mat;Bershin
 0;20.2500,42.3000;8705;Bashkia Tropojë;Berishë
 0;20.0261,41.3028;1043;Bashkia Tiranë;Brahamaj
@@ -1592,6 +1634,7 @@
 0;20.2425,40.3539;5406;Bashkia Skrapar;Bënjë
 0;20.1369,41.2500;3013;Bashkia Elbasan;Benë
 0;20.0039,40.2550;6019;Bashkia Gjirokastër;Bënçë
+0;20.0089,40.3678;;Gjirokastër County;Beluç i Sipërm
 0;20.8306,40.6675;7024;Bashkia Korçë;Belorta
 0;20.4764,41.6958;8301;Bashkia Dibër;Bellovë
 0;20.5303,42.0592;8515;Bashkia Kukës;Bele
@@ -1600,6 +1643,7 @@
 0;20.1169,41.5042;8014;Bashkia Mat;Bejnë
 0;20.6700,40.3606;7401;Bashkia Kolonjë;Bejkovë
 0;20.4492,41.6792;8301;Bashkia Dibër;Begjunec
+0;20.0467,40.3028;;Gjirokastër County;Beçisht
 0;20.0700,41.0592;3011;Bashkia Elbasan;Bathës
 0;20.0017,40.0411;9720;Bashkia Sarandë;Bashaj
 0;20.3697,41.9025;8505;Bashkia Kukës;Barruç
@@ -1617,6 +1661,7 @@
 0;20.0356,41.1450;3009;Bashkia Elbasan;Balëz
 0;20.2167,41.3667;8403;Bashkia Bulqizë;Ball-i-Vogël
 0;20.1344,40.4167;5401;Bashkia Skrapar;Ballaban
+0;20.1103,40.3847;;Gjirokastër County;Ball
 208;20.0489,40.7825;5001;Bashkia Berat;Balibardhë
 0;20.4378,41.7236;8309;Bashkia Dibër;Bahutë
 0;20.3853,40.2022;6001;Bashkia Gjirokastër;Badëlonjë
@@ -1628,6 +1673,8 @@
 0;20.1961,40.0797;6014;Bashkia Gjirokastër;Asim Zeneli
 0;20.1061,42.2125;4403;Bashkia Pukë;Arst
 0;20.2792,41.1725;3409;Bashkia Librazhd;Arës
+0;20.0544,40.4200;;Gjirokastër County;Arrëza e Vogël
+0;20.0569,40.3878;;Gjirokastër County;Arrëza e Madhe
 600;20.8397,40.5011;7007;Bashkia Korçë;Arrëz
 0;20.2783,41.8850;8509;Bashkia Kukës;Arrëz
 0;20.6919,40.2481;7404;Bashkia Kolonjë;Arrëz
@@ -1828,6 +1875,7 @@
 0;20.4444,40.9242;7310;Bashkia Pogradec;Mes
 0;20.4506,40.9006;7310;Bashkia Pogradec;Jollë
 0;20.4681,40.8850;7310;Bashkia Pogradec;Zgallo
+0;20.3417,40.8364;;Elbasan County;Lilaj
 0;20.2975,40.8894;3015;Bashkia Elbasan;Elezaj
 0;20.3311,40.9208;3015;Bashkia Elbasan;Çekrezë
 0;20.3272,40.9492;3015;Bashkia Elbasan;Drrasë
@@ -1841,6 +1889,8 @@
 0;20.2267,40.9192;3015;Bashkia Elbasan;Sinani
 0;20.2122,40.8994;3015;Bashkia Elbasan;Xhams
 0;20.1964,40.8942;3015;Bashkia Elbasan;Perike
+0;20.2011,40.8483;;Elbasan County;Çekrezë
+0;20.2172,40.8383;;Elbasan County;Kishtallarë
 0;20.1481,40.9011;3019;Bashkia Elbasan;Zgjupë-Kodër
 0;20.1436,40.9525;3014;Bashkia Elbasan;Cingari i Sipërm
 0;20.1942,40.9756;3014;Bashkia Elbasan;Kaferr
@@ -1866,11 +1916,17 @@
 0;20.1061,40.7783;5001;Bashkia Berat;Jançë-Mal
 0;20.2392,40.6697;5410;Bashkia Skrapar;Konak
 0;20.2417,40.7469;5410;Bashkia Skrapar;Zaim
+0;20.2339,40.8269;;Elbasan County;Bërsniku i Sipërm
 0;20.2439,40.7933;5410;Bashkia Skrapar;Zenelas
 0;20.2158,40.7794;5410;Bashkia Skrapar;Kapillanas
 0;20.1881,40.7606;5410;Bashkia Skrapar;Marish
 0;20.1250,40.7756;5001;Bashkia Berat;Sergjovë
 0;20.1247,40.8017;5001;Bashkia Berat;Vrri
+0;20.1739,40.8081;;Elbasan County;Gjeraqinë
+0;20.1875,40.8153;;Elbasan County;Bulgurit
+0;20.1794,40.8247;;Elbasan County;Prroi
+0;20.1775,40.8331;;Elbasan County;Mirakë
+0;20.1606,40.8300;;Elbasan County;Çiflik
 0;20.1125,40.8267;5001;Bashkia Berat;Tunja e Re
 0;20.1075,40.8219;5001;Bashkia Berat;Hoxhallar
 0;20.0858,40.7928;5001;Bashkia Berat;Tabak
@@ -1952,8 +2008,15 @@
 0;20.1636,40.4494;5406;Bashkia Skrapar;Qypër
 0;20.1344,40.4394;5401;Bashkia Skrapar;Veleshnjaret
 0;20.1425,40.4108;5401;Bashkia Skrapar;Gjergas
+0;20.1233,40.4047;;Gjirokastër County;Saliaj
+0;20.1458,40.3947;;Gjirokastër County;Fushë
+0;20.1308,40.3892;;Gjirokastër County;Mullahaj
 0;20.1500,40.3881;5406;Bashkia Skrapar;Lotonjaj
+0;20.1364,40.3806;;Gjirokastër County;Fushë
+0;20.1492,40.3653;;Gjirokastër County;Qaf Sukë
+0;20.1483,40.3539;;Gjirokastër County;Bokollar
 0;20.1647,40.3392;5406;Bashkia Skrapar;Çorenisht
+0;20.0850,40.4250;;Gjirokastër County;Kreshovë
 0;20.1069,40.4378;5401;Bashkia Skrapar;Korat
 0;20.1189,40.4533;5401;Bashkia Skrapar;Kenaj
 0;20.1311,40.4608;5401;Bashkia Skrapar;Murisht
@@ -1964,6 +2027,9 @@
 0;20.0994,40.4692;5401;Bashkia Skrapar;Berzanaj
 0;20.0989,40.4625;5401;Bashkia Skrapar;Duraj
 0;20.0644,40.4569;5015;Bashkia Berat;Shanaj
+0;20.0556,40.4056;;Gjirokastër County;Lamaj
+0;20.0081,40.3414;;Gjirokastër County;Bofëngë
+0;20.0042,40.3606;;Gjirokastër County;Bylysh
 0;20.0428,40.4519;5015;Bashkia Berat;Hambar
 0;20.0686,40.4831;5015;Bashkia Berat;Liqeth
 0;20.0464,40.4936;5015;Bashkia Berat;Barmë
@@ -1981,6 +2047,8 @@
 0;20.1778,40.3136;5406;Bashkia Skrapar;Këlcyrë Fshat
 0;20.2125,40.3200;5406;Bashkia Skrapar;Qafërrap
 0;20.1847,40.3297;5406;Bashkia Skrapar;Beduqas
+0;20.0481,40.3156;;Gjirokastër County;Malas
+0;20.0106,40.3283;;Gjirokastër County;Damës
 0;20.0594,40.1944;6019;Bashkia Gjirokastër;Gropa e Barcit
 0;20.0344,40.1722;6019;Bashkia Gjirokastër;Medar
 0;20.3842,40.2075;6001;Bashkia Gjirokastër;Lagjja e Re
@@ -2030,6 +2098,7 @@
 0;19.5387,40.9396;9020;Bashkia Lushnje;Zharnec
 0;19.9253,40.4167;9328;Bashkia Fier;Zhabokikë-Dy
 84;19.9703,40.5117;5403;Bashkia Skrapar;Zhapokikë
+0;19.9608,40.3950;;Gjirokastër County;Zhabokikë-Një
 0;19.6625,41.0375;9015;Bashkia Lushnje;Zhamë
 0;19.5578,41.0781;2510;Bashkia Kavajë;Zhabjak
 0;19.7831,40.9328;9008;Bashkia Lushnje;Zgjanë
@@ -2054,6 +2123,7 @@
 0;19.9886,40.6697;5013;Bashkia Berat;Bejkollat
 0;19.8922,41.0331;3001;Bashkia Elbasan;Xherije
 0;19.9100,40.4542;9328;Bashkia Fier;Xhaxhaj
+0;19.6536,42.2533;;Shkodër County;Xhan
 12381;19.5475,41.3444;2019;Bashkia Durrës;Xhafzotaj
 0;19.5364,40.9752;9022;Bashkia Lushnje;Xeng
 0;19.6936,40.1397;9417;Bashkia Vlorë;Vuno
@@ -2098,6 +2168,7 @@
 822;19.9100,40.7358;5010;Bashkia Berat;Veterrik
 0;19.8250,41.1750;1035;Bashkia Tiranë;Vesqi
 0;19.6242,40.7881;9327;Bashkia Fier;Vërri
+0;19.6908,42.5899;;Shkodër County;Vermosh
 0;19.7895,40.2968;9415;Bashkia Vlorë;Vërmik
 0;19.7861,41.4525;1504;Bashkia Krujë;Virjon
 0;19.6164,40.7019;9313;Bashkia Fier;Verbas
@@ -2111,6 +2182,7 @@
 176;19.8928,40.5989;5011;Bashkia Berat;Velçan
 766;19.9675,40.8369;5307;Bashkia Kuçovë;Velagosht
 8453;19.9322,40.7017;5012;Bashkia Berat;Velabisht
+0;19.9386,40.3694;;Gjirokastër County;Vasjar
 0;19.7875,41.0217;9017;Bashkia Lushnje;Vashaj
 0;19.4844,42.3528;4305;Bashkia Malësi e Madhe;Varr i Papes
 0;19.6614,41.7875;4504;Bashkia Lezhë;Varosh
@@ -2120,6 +2192,7 @@
 0;19.5586,40.8447;9310;Bashkia Fier;Vanaj
 0;19.4156,42.0503;4017;Bashkia Shkodër;Vallas
 0;19.7394,41.3931;1030;Bashkia Kamëz;Valias
+0;19.8400,42.4114;;Kukës County;Rrogam
 0;19.9483,41.0453;3001;Bashkia Elbasan;Valas
 0;19.6806,40.3578;9421;Bashkia Vlorë;Vajzë
 0;19.5175,42.2078;4302;Bashkia Malësi e Madhe;Vajush
@@ -2142,6 +2215,7 @@
 0;19.9000,41.7833;4601;Bashkia Mirditë;Uj-Shtreza
 0;19.7956,41.9372;4508;Bashkia Lezhë;Turrec
 0;19.8908,40.8986;3022;Bashkia Elbasan;Turbull
+0;19.9736,40.3139;;Gjirokastër County;Turan
 0;19.8811,41.3817;1048;Bashkia Tiranë;Tujan
 0;19.4842,41.9794;4018;Bashkia Shkodër;Trush
 0;19.6753,41.8778;4505;Bashkia Lezhë;Troshan
@@ -2161,6 +2235,7 @@
 418495;19.8187,41.3274;1700;Bashkia Tiranë;Tiranë
 0;19.5511,41.2536;2504;Bashkia Kavajë;Tilaj
 10719;19.6778,41.5475;1503;Bashkia Krujë;Thumanë
+0;19.7744,42.3958;;Shkodër County;Theth
 0;19.7064,41.1297;2511;Bashkia Kavajë;Thartor
 0;19.9500,41.0167;3017;Bashkia Elbasan;Thanë
 0;19.8175,40.8664;5022;Bashkia Berat;Thanë
@@ -2290,6 +2365,7 @@
 0;19.6533,41.6908;4511;Bashkia Lezhë;Shënkoll
 0;19.9450,41.3722;1040;Bashkia Tiranë;Shëngjini i Vogël
 6963;19.5939,41.8136;4503;Bashkia Lezhë;Shëngjin
+0;19.3372,40.4314;;Vlorë County;Shëngjin
 0;19.9533,42.3014;8706;Bashkia Tropojë;Shëngjergj
 0;19.8558,41.8897;4607;Bashkia Mirditë;Shëngjergj
 0;19.5333,41.1833;2505;Bashkia Kavajë;Shëngjergj
@@ -2321,6 +2397,7 @@
 0;19.9947,41.3967;1042;Bashkia Tiranë;Selita e Malit
 0;19.7550,41.6353;4703;Bashkia Kurbin;Selitë
 0;19.9781,40.8878;3019;Bashkia Elbasan;Selitë
+0;19.8917,42.4514;;Kukës County;Valbonë
 0;19.7447,41.0189;9017;Bashkia Lushnje;Selimaj
 0;19.9208,41.5464;8005;Bashkia Mat;Selitë
 0;19.9778,40.6514;5013;Bashkia Berat;Selenicë
@@ -2344,6 +2421,8 @@
 0;19.6894,41.0425;2511;Bashkia Kavajë;Sallbegaj
 301;19.8556,40.8378;5022;Bashkia Berat;Salcë-Kozarë
 0;19.8808,42.2675;8706;Bashkia Tropojë;Salcë
+0;19.8936,40.3069;;Gjirokastër County;Elez
+0;19.8978,40.3214;;Gjirokastër County;Salari
 99;19.8786,40.6961;5012;Bashkia Berat;Sadovicë
 0;19.6983,40.6708;9312;Bashkia Fier;Ruzhdie
 0;19.6758,40.6764;9312;Bashkia Fier;Rusinjë
@@ -2410,6 +2489,7 @@
 0;19.9850,41.9125;4408;Bashkia Pukë;Rras
 0;19.5292,42.1511;4002;Bashkia Shkodër;Rrash-Kullaj
 0;19.7103,41.9558;4029;Bashkia Shkodër;Rasboks
+0;19.9772,40.4303;;Gjirokastër County;Rrapaj
 0;19.5164,41.9536;4021;Bashkia Shkodër;Ranxë
 0;19.8608,41.4669;1508;Bashkia Krujë;Rranxë
 0;19.6972,40.3069;9415;Bashkia Vlorë;Ramicë
@@ -2458,6 +2538,7 @@
 0;19.5744,40.6992;9318;Bashkia Fier;Portëz
 0;19.3972,40.6302;9411;Bashkia Vlorë;Poro
 0;19.4675,40.7306;9309;Bashkia Fier;Pojan
+0;19.6969,42.2658;;Shkodër County;Pog
 0;19.4814,42.2128;4302;Bashkia Malësi e Madhe;Podgora
 1518;19.7861,40.7671;5009;Bashkia Berat;Pobrat
 0;19.5683,40.6806;9018;Bashkia Lushnje;Plyk
@@ -2470,6 +2551,7 @@
 236;19.9258,40.5556;5403;Bashkia Skrapar;Plashniku-Dy
 83;19.9522,40.5594;5403;Bashkia Skrapar;Plashnik i Madh
 0;19.9014,41.1569;3012;Bashkia Elbasan;Plangaricë
+0;19.6903,42.2894;;Shkodër County;Plan
 0;19.5711,41.3106;2022;Bashkia Durrës;Pjezgë
 0;19.4306,42.2461;4301;Bashkia Malësi e Madhe;Pjetroshan
 0;19.5864,41.9683;4024;Bashkia Shkodër;Pistull
@@ -2544,6 +2626,7 @@
 2604;19.4714,40.3253;9426;Bashkia Vlorë;Orikum
 0;19.4878,42.1461;4002;Bashkia Shkodër;Omarë
 0;19.6461,41.1181;2507;Bashkia Kavajë;Okshtun
+0;19.7567,42.4164;;Shkodër County;Okol
 297;19.4500,42.0333;4017;Bashkia Shkodër;Oblika e Sipërme
 0;19.4417,42.0161;4017;Bashkia Shkodër;Oblika e Madhe
 0;19.4492,42.0289;4017;Bashkia Shkodër;Xhaferraj
@@ -2555,6 +2638,7 @@
 9518;19.7483,41.4442;1504;Bashkia Krujë;Nikël
 0;19.6856,42.4780;4304;Bashkia Malësi e Madhe;Nikç
 0;19.5500,40.6667;9018;Bashkia Lushnje;Nikas
+0;19.7581,42.2444;;Shkodër County;Nicaj-Shosh
 0;19.7164,40.8261;9005;Bashkia Lushnje;Ngurrëza e Madhe
 0;19.6975,40.8200;9016;Bashkia Lushnje;Ngurrëza e Vogël
 0;19.7119,42.0703;4008;Bashkia Shkodër;Ngropuk
@@ -2616,12 +2700,14 @@
 0;19.6125,41.9969;4026;Bashkia Shkodër;Mjedë
 0;19.5365,40.9620;9011;Bashkia Lushnje;Mizë
 0;19.7669,40.1458;9425;Bashkia Vlorë;Mirteo
+0;19.9692,40.3597;;Gjirokastër County;Mirnë
 2157;19.7156,41.6839;4705;Bashkia Kurbin;Milot
 0;19.5631,40.3983;9407;Bashkia Vlorë;Millonë
 0;19.9175,42.1311;4405;Bashkia Pukë;Midhë
 0;19.9025,41.2175;1037;Bashkia Tiranë;Mihajas-Cirmë
 0;19.4886,40.6077;9411;Bashkia Vlorë;Mifol
 0;19.9800,41.5928;8005;Bashkia Mat;Midhë
+0;19.6833,42.2686;;Shkodër County;Mëgullë
 0;19.7636,41.3344;1050;Bashkia Tiranë;Mëzez
 0;19.5672,41.3006;2022;Bashkia Durrës;Mezaj
 0;19.8336,40.6353;5011;Bashkia Berat;Metoh
@@ -2640,6 +2726,8 @@
 0;19.9139,41.4817;1508;Bashkia Krujë;Mëneri i Sipërm
 0;19.6000,41.4000;2020;Bashkia Durrës;Memzotaj
 0;19.6811,41.1006;2503;Bashkia Kavajë;Memollaj
+0;19.9792,40.3458;;Gjirokastër County;Memaliaj-Fshat
+4951;19.9803,40.3517;;Gjirokastër County;Memaliaj
 0;19.4333,41.3167;2016;Bashkia Durrës;Memaj
 0;19.5201,41.9893;4021;Bashkia Shkodër;Melgushë
 0;19.5333,40.5500;9420;Bashkia Vlorë;Mëkat i Ri
@@ -2716,6 +2804,8 @@
 0;19.8506,40.4319;9328;Bashkia Fier;Lulëzim
 0;19.6125,41.8456;4501;Bashkia Lezhë;Luk i Zi
 0;19.8889,41.1908;1037;Bashkia Tiranë;Lugë-Shalqizë
+0;19.9675,40.4197;;Gjirokastër County;Luftinja e Sipërme
+0;19.9544,40.4428;;Gjirokastër County;Luftinjë
 0;19.8436,42.0236;4409;Bashkia Pukë;Luf
 0;19.5744,40.5088;9409;Bashkia Vlorë;Lubonjë
 0;19.5000,40.3167;9426;Bashkia Vlorë;Luath
@@ -2754,6 +2844,7 @@
 0;19.6636,42.1742;4012;Bashkia Shkodër;Lejthizëj
 0;19.6347,41.1603;2506;Bashkia Kavajë;Leshten-Çollak
 0;19.7708,40.0747;9425;Bashkia Vlorë;Lerë
+0;19.7304,42.5284;;Shkodër County;Lëpushë
 0;19.5489,42.1814;4302;Bashkia Malësi e Madhe;Linaj-Egç-Lepurosh
 0;19.6564,40.2981;9421;Bashkia Vlorë;Lepenicë
 0;19.9833,41.7167;8012;Bashkia Mat;Lek Gegaj
@@ -2769,6 +2860,7 @@
 0;19.4233,42.2431;4001;Bashkia Shkodër;Lashaj
 0;19.7278,41.4508;1504;Bashkia Krujë;Larushk
 0;19.7367,40.6272;9333;Bashkia Fier;Lapulec
+0;19.8781,40.3636;;Gjirokastër County;Lap-Martalloz
 1724;19.9481,40.7547;5020;Bashkia Berat;Lapardha Një
 0;19.5589,40.3884;9407;Bashkia Vlorë;Lapardha
 0;19.6833,40.4833;9412;Bashkia Vlorë;Lapaj
@@ -2885,6 +2977,7 @@
 0;19.7507,40.5294;9331;Bashkia Fier;Klos
 0;19.8492,42.1733;4405;Bashkia Pukë;Kllogjen
 0;19.7000,42.1167;4012;Bashkia Shkodër;Kishë-Arrë
+0;19.7211,42.2411;;Shkodër County;Kir
 0;19.5908,41.5406;2015;Bashkia Durrës;Kërtushaj
 0;19.5029,40.5311;9419;Bashkia Vlorë;Kërkovë
 0;19.6317,41.2447;1036;Bashkia Tiranë;Kërçukje
@@ -2921,6 +3014,7 @@
 0;19.7408,40.9275;9008;Bashkia Lushnje;Karbunara e Madhe
 0;19.7028,40.5181;9332;Bashkia Fier;Karbunarë
 0;19.4908,40.8775;9004;Bashkia Lushnje;Karavasta
+0;19.7367,42.3611;;Shkodër County;Kaprejë
 0;19.5989,41.5319;2015;Bashkia Durrës;Kapidanaj
 0;19.9456,40.1419;6019;Bashkia Gjirokastër;Kaparjel
 0;19.8288,40.5462;9335;Bashkia Fier;Kapaj
@@ -2943,6 +3037,7 @@
 0;19.6964,41.8592;4507;Bashkia Lezhë;Kallmeti i Vogël
 0;19.6869,41.8489;4507;Bashkia Lezhë;Kallmeti i Madh
 0;19.8214,41.4181;1048;Bashkia Tiranë;Kallmet
+0;19.9967,40.3472;;Gjirokastër County;Kallëmb
 0;19.4111,42.2050;4001;Bashkia Shkodër;Kalldrun
 0;19.7411,40.2067;9424;Bashkia Vlorë;Kallarat
 0;19.7608,41.9189;4508;Bashkia Lezhë;Kalivaç
@@ -3048,6 +3143,7 @@
 0;19.5006,42.1619;4302;Bashkia Malësi e Madhe;Grudë-Fushë
 0;19.5353,42.1119;4002;Bashkia Shkodër;Gruda e Re
 0;19.7553,41.2097;1035;Bashkia Tiranë;Gror
+0;19.7017,42.3433;;Shkodër County;Grop e Kamshollit
 0;19.7297,41.3261;1031;Bashkia Kamëz;Gropaj
 0;19.4667,42.2667;4303;Bashkia Malësi e Madhe;Grizhë
 0;19.4856,42.1311;4002;Bashkia Shkodër;Grilë
@@ -3096,6 +3192,7 @@
 0;19.7594,40.9778;9017;Bashkia Lushnje;Gjyshaj
 0;19.9681,40.9625;3024;Bashkia Elbasan;Gjyralë
 0;19.6056,41.5264;1507;Bashkia Krujë;Gjuricaj
+0;19.6617,42.2808;;Shkodër County;Gjuraj-Boks
 0;19.7292,41.1456;1038;Bashkia Tiranë;Gjuzsulkone
 0;19.5106,42.1808;4302;Bashkia Malësi e Madhe;Gjorm
 0;19.6442,40.3164;9421;Bashkia Vlorë;Gjorm
@@ -3205,6 +3302,7 @@
 0;19.5647,40.2505;9413;Bashkia Vlorë;Dukat
 0;19.6294,40.6844;9307;Bashkia Fier;Dukas
 0;19.7278,40.6075;9333;Bashkia Fier;Dukas
+0;19.9503,40.3217;;Gjirokastër County;Dukaj
 0;19.6419,41.5611;1503;Bashkia Krujë;Dukagjini i Ri
 1274;19.9933,40.7211;5001;Bashkia Berat;Duhanas
 0;19.6372,42.3425;4305;Bashkia Malësi e Madhe;Ducaj
@@ -3243,6 +3341,7 @@
 6713;19.5294,40.9967;9022;Bashkia Lushnje;Divjakë
 0;19.6081,41.9556;4029;Bashkia Shkodër;Dheu i Lehtë
 1800;19.6389,40.1514;9422;Bashkia Vlorë;Dhërmi
+0;19.8528,40.3455;;Gjirokastër County;Dhëmblan
 0;19.9397,40.8861;3022;Bashkia Elbasan;Dëshiran
 0;19.7056,41.5128;1502;Bashkia Krujë;Derven
 0;19.4939,40.7456;9309;Bashkia Fier;Dërmënas
@@ -3292,6 +3391,7 @@
 0;19.6833,41.1500;2501;Bashkia Kavajë;Çetë
 0;19.4600,42.1814;4302;Bashkia Malësi e Madhe;Çesme e Koplikut
 0;19.7411,40.7019;9316;Bashkia Fier;Çerven
+0;19.9900,40.3700;;Gjirokastër County;Çërrilë
 14269;19.9758,41.0317;3001;Bashkia Elbasan;Cërrik
 0;19.8169,40.9172;3023;Bashkia Elbasan;Çërragë
 0;19.6142,41.0581;9015;Bashkia Lushnje;Çermë-Proshkë
@@ -3301,6 +3401,7 @@
 0;19.4845,40.5667;9420;Bashkia Vlorë;Cerkovinë
 0;19.7783,41.3972;1030;Bashkia Kamëz;Çerkez-Morinë
 0;19.7886,40.6136;9330;Bashkia Fier;Selimaj
+0;19.9613,42.4928;;Kukës County;Çerem
 0;19.5265,40.5089;9423;Bashkia Vlorë;Çeprat
 0;19.8500,41.0494;3007;Bashkia Elbasan;Çengelaj
 0;19.5667,40.7333;9301;Bashkia Fier;Çeligrad
@@ -3443,6 +3544,7 @@
 0;19.7211,41.1950;1038;Bashkia Tiranë;Ballashen-Pojanë
 0;19.5333,41.1000;2510;Bashkia Kavajë;Ballaj i Ri
 0;19.5539,41.0522;9015;Bashkia Lushnje;Ballaj
+0;19.9819,40.3803;;Gjirokastër County;Ballaj
 0;19.7653,40.9953;9017;Bashkia Lushnje;Ballagat
 0;19.7969,41.2139;1035;Bashkia Tiranë;Baldushk
 0;19.7781,40.9472;9009;Bashkia Lushnje;Balaj
@@ -3473,6 +3575,7 @@
 0;19.7267,41.4647;1504;Bashkia Krujë;Arameras
 0;19.9444,42.2611;8706;Bashkia Tropojë;Aprip
 0;19.6794,40.3978;9410;Bashkia Vlorë;Amonicë
+0;19.9231,40.3897;;Gjirokastër County;Amanikaj
 0;19.7833,41.2500;1035;Bashkia Tiranë;Alltatë
 0;19.7167,40.9667;9012;Bashkia Lushnje;Allprendaj-Peqin
 0;19.7264,40.9700;9012;Bashkia Lushnje;Allprendaj
@@ -3497,17 +3600,30 @@
 0;19.7850,42.2478;8706;Bashkia Tropojë;Mekshaj
 0;19.7706,42.2475;8706;Bashkia Tropojë;Gurrë
 0;19.7822,42.2456;8706;Bashkia Tropojë;Celaj
+0;19.7597,42.2408;;Shkodër County;Qilikok
 0;19.7819,42.0361;4409;Bashkia Pukë;Majnisht
 0;19.7622,42.0636;4409;Bashkia Pukë;Shllinë
 0;19.7828,42.0700;4409;Bashkia Pukë;Slym
 0;19.7931,42.0728;4409;Bashkia Pukë;Mjekut
+0;19.7361,42.1792;;Shkodër County;Svutë
 0;19.7106,42.1725;4012;Bashkia Shkodër;Dacaj
 0;19.6975,42.2011;4012;Bashkia Shkodër;Likaj
+0;19.7122,42.2139;;Shkodër County;Lin
+0;19.6992,42.2142;;Shkodër County;Kocit
+0;19.7264,42.2364;;Shkodër County;Lekgjonaj
+0;19.6994,42.2478;;Shkodër County;Glac
+0;19.6986,42.2481;;Shkodër County;Gjergoraj
+0;19.7050,42.2456;;Shkodër County;Aljaj
+0;19.6803,42.2417;;Shkodër County;Prencaj
+0;19.6778,42.2478;;Shkodër County;Mirovne
+0;19.6892,42.2317;;Shkodër County;Kashec
+0;19.6842,42.2167;;Shkodër County;Krajë
 0;19.6894,42.1717;4012;Bashkia Shkodër;Nemas
 0;19.6858,42.1789;4012;Bashkia Shkodër;Nelegam
 0;19.6892,42.1922;4012;Bashkia Shkodër;Asht’ e Likajt
 0;19.6753,42.2072;4012;Bashkia Shkodër;Cinlit
 0;19.6461,42.2428;4305;Bashkia Malësi e Madhe;Alavane
+0;19.6606,42.2233;;Shkodër County;Bojaj
 0;19.6456,42.2122;4305;Bashkia Malësi e Madhe;Martindrejaj
 0;19.6361,42.2025;4012;Bashkia Shkodër;Bukmirë
 0;19.6536,42.1953;4012;Bashkia Shkodër;Dajç
@@ -3575,6 +3691,8 @@
 0;19.7350,42.1022;4409;Bashkia Pukë;Krua i Madh
 0;19.7003,42.1694;4012;Bashkia Shkodër;Logjas
 0;19.5108,42.2453;4301;Bashkia Malësi e Madhe;Gradiskije
+0;19.7597,42.2053;;Shkodër County;Shtrina te Palajt
+0;19.7628,42.1919;;Shkodër County;Qershis e Palajt
 0;19.7917,42.1928;4405;Bashkia Pukë;Guri i Lekës
 0;19.6406,42.0136;4008;Bashkia Shkodër;Zadenje
 0;19.7217,42.0100;4008;Bashkia Shkodër;Mirdicë
@@ -3582,6 +3700,7 @@
 0;19.5444,42.0931;4015;Bashkia Shkodër;Shtoji i Vogël
 0;19.5722,42.0564;4016;Bashkia Shkodër;Gajtan
 0;19.6936,42.1650;4012;Bashkia Shkodër;Lumë
+0;19.7147,42.2319;;Shkodër County;Prangull
 0;19.5400,42.2161;4302;Bashkia Malësi e Madhe;Dukaj
 0;19.5931,42.0547;4016;Bashkia Shkodër;Mahall’ e Kryethuit
 0;19.6442,42.3817;4304;Bashkia Malësi e Madhe;Negovani
@@ -3671,8 +3790,12 @@
 0;19.5067,42.3753;4305;Bashkia Malësi e Madhe;Jugomirë
 0;19.5014,42.3922;4304;Bashkia Malësi e Madhe;Kodra e Lajthis
 0;19.5044,42.4069;4304;Bashkia Malësi e Madhe;Lagjja e Re
+0;19.7681,42.4089;;Shkodër County;Gjelaj
+0;19.7758,42.4028;;Shkodër County;Hardedaj
 0;19.7894,42.3781;8706;Bashkia Tropojë;Grumas
 0;19.7722,42.3350;8706;Bashkia Tropojë;Batë
+0;19.8740,42.4538;;Kukës County;Kukaj
+0;19.9384,42.4575;;Kukës County;Maskollatë
 0;19.9553,42.4436;8703;Bashkia Tropojë;Kikaj
 0;19.9383,42.3517;8706;Bashkia Tropojë;Kuq
 0;19.7461,42.0214;4409;Bashkia Pukë;Mashnë
@@ -3948,6 +4071,15 @@
 0;19.9900,40.4950;5015;Bashkia Berat;Çunaj
 0;19.9558,40.4736;5403;Bashkia Skrapar;Bashaj
 0;19.9625,40.4575;5403;Bashkia Skrapar;Malkaj
+0;19.9856,40.4422;;Gjirokastër County;Badër
+0;19.9758,40.4394;;Gjirokastër County;Dokaj
+0;19.9917,40.4067;;Gjirokastër County;Dervishaj
+0;19.9686,40.4050;;Gjirokastër County;Sinomataj
+0;19.9964,40.3886;;Gjirokastër County;Kërvacaj
+0;19.9733,40.3875;;Gjirokastër County;Cacaj
+0;19.9400,40.3431;;Gjirokastër County;Kordhë
+0;19.9142,40.3367;;Gjirokastër County;Shesh
+0;19.9056,40.3536;;Gjirokastër County;Moras
 0;19.8676,40.4933;9328;Bashkia Fier;Ramaj
 0;19.8147,40.4700;9328;Bashkia Fier;Manaj
 0;19.4859,40.3014;9426;Bashkia Vlorë;Pezull
@@ -3969,6 +4101,8 @@
 0;19.7303,40.2375;9424;Bashkia Vlorë;Hundëxhep
 0;19.7081,40.2731;9424;Bashkia Vlorë;Ballaban
 0;19.6778,40.3267;9415;Bashkia Vlorë;Lagjja e Re
+0;19.9867,40.3225;;Gjirokastër County;Ziaj
+0;19.9353,40.3256;;Gjirokastër County;Revaj
 0;19.7014,40.1167;9417;Bashkia Vlorë;Jal
 0;19.9547,40.0092;9713;Bashkia Sarandë;Lagjja e Re
 0;19.8750,40.0792;9714;Bashkia Sarandë;Çirsë
@@ -3988,9 +4122,11 @@
 0;20.2028,42.2643;8705;Bashkia Tropojë;Pac
 0;20.0698,42.3597;8703;Bashkia Tropojë;Tropoje
 20;20.7206,40.3655;7403;Bashkia Kolonjë;Glikolar,Starje
+0;19.2857,40.4973;;Vlorë County;Lagja e Re
 0;19.4293,40.3203;9426;Bashkia Vlorë;Pasha-Limani
 0;19.5178,40.2718;9426;Bashkia Vlorë;Erihai
 0;19.5656,40.2559;9413;Bashkia Vlorë;Solirani
+0;19.7268,42.6097;;Shkodër County;Liqenet
 0;19.5638,40.2457;9413;Bashkia Vlorë;Thilpati
 0;19.6189,40.3936;9407;Bashkia Vlorë;Kondaj
 0;19.6193,40.3860;9407;Bashkia Vlorë;Zekaj

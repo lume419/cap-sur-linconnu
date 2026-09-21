@@ -3881,3 +3881,33 @@ ps;سینٹر ژوپا;Centar Župa
 tg;Центар Жупа;Centar Župa
 tt;Центар Жупа;Centar Župa
 bg;Кисела Ябука;Kisela Jabuka
+mk;Топлица;Toplica
+mk;Старо Коњарево;Staro Konjarevo
+bg;Старо Конярево;Staro Konjarevo
+fr;Staro Konyarevo;Staro Konjarevo
+hu;Sztaro Konyarevo;Staro Konjarevo
+sq;Konjareva e Vjetër;Staro Konjarevo
+nl;Staro Konyarevo;Staro Konjarevo
+sr;Старо Коњарево;Staro Konjarevo
+mk;Шопур;Šopur
+mk;Ракле;Rakle
+mk;Полаки;Polaki
+sq;Patishka Rekë;Patiška Reka
+mk;Патишка Река;Patiška Reka
+mk;Никодин;Nikodin
+mk;Конско;Konsko
+mk;Хума;Uma
+mk;Ума;Uma
+mk;Елово;Elovo
+mk;Држилово;Držilovo
+mk;Долно Јаболчиште;Dolno Jabolchishte
+en;Dolno Jabolciste;Dolno Jabolchishte
+mk;Црн Врв;Crn Vrv
+mk;Badelen;Badolen
+mk;Бадолен;Badolen
+mk;Бадилен;Badolen
+sq;Aldinc;Aldinci
+mk;Алдинци;Aldinci
+mk;Рамно Брдо;Ramno Brdo
+mk;Капина;Kapina
+mk;Стекавица;Stekavica

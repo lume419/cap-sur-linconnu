@@ -10675,3 +10675,18 @@ sr;Чепо Морели;Ceppo Morelli
 uk;Чеппо-Мореллі;Ceppo Morelli
 ru;Чеппо-Морелли;Ceppo Morelli
 zh;切波莫雷利;Ceppo Morelli
+ja;ウスティカ島;Ustica
+es;Pantelaria;Pantelleria
+he;פנטלריה;Pantelleria
+ja;パンテッレリーア;Pantelleria
+pt;Pantelária;Pantelleria
+ru;Пантеллерия;Pantelleria
+ru;Орроли;Orroli
+ru;Нурри;Nurri
+ru;Муравера;Muravera
+ru;Камма;Kamma
+sc;Ballau;Ballao
+sc;Armunja;Armungia
+ja;ヴェントテーネ;Ventotene
+ru;Вентотене;Ventotene
+ru;Маттината;Mattinata

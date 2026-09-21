@@ -7465,8 +7465,11 @@
 0;-13.0296,9.0767;SL-02;Northern Province;Yema
 0;-13.1308,9.0469;SL-02;Northern Province;Mabugoli
 0;-13.1000,9.0359;SL-02;Northern Province;Misilaia
+0;-13.0317,8.2377;SL;;Mo-konkobo
 0;-13.0774,8.4956;SL-02;Northern Province;Mange
 0;-13.0587,8.4854;SL-02;Northern Province;Baine
+0;-13.0150,8.5708;SL;;Yelim
+0;-13.1144,8.5856;SL;;Konkan
 0;-13.1852,8.7826;SL-02;Northern Province;Kaliyiri
 0;-13.1845,8.8468;SL-02;Northern Province;Kiehuk
 0;-13.1490,8.9571;SL-02;Northern Province;Bambaia
@@ -7474,6 +7477,7 @@
 0;-13.0162,8.8629;SL-02;Northern Province;Mahela
 0;-13.0985,8.9719;SL-02;Northern Province;Mabonkaw
 0;-13.0275,8.9806;SL-02;Northern Province;Kianfil
+0;-13.1614,8.9006;SL;;Great Scarcies
 0;-12.6149,7.6379;SL-03;Southern Province;Nyandehun
 0;-12.7583,7.5786;SL-03;Southern Province;Petewoma
 0;-12.7868,7.5392;SL-03;Southern Province;Kobo
@@ -8959,6 +8963,7 @@
 0;-12.1666,8.3488;SL-02;Northern Province;Masarifu
 0;-12.2237,8.3527;SL-02;Northern Province;Matam
 0;-12.2379,8.3523;SL-02;Northern Province;Mokovo
+0;-12.2341,8.3439;SL;;Yelima
 0;-12.0532,8.3424;SL-02;Northern Province;Maruk
 0;-12.0994,8.3334;SL-02;Northern Province;Maraka
 0;-10.7725,7.9069;SL-01;Eastern Province;Gawama

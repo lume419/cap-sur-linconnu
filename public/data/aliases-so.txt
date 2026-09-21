@@ -787,3 +787,5 @@ sw;Laascanood;Laascaanood
 tg;Лааскаануд;Laascaanood
 tt;Лааскаануд;Laascaanood
 ru;Khiglofil’gin;Higlofilgin
+ar;حاحي;Xaaxi
+ru;Рабабле;Rabaable

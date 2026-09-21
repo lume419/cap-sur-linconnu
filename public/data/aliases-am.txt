@@ -2570,3 +2570,2253 @@ hy;Լեռնահովիտ;Lernahovit
 hy;Լեռնհովիտ;Lernahovit
 ru;Лернаовит;Lernahovit
 ru;Лерновит;Lernahovit
+hy;Զեդեա;Zedea
+fa;زدا;Zedea
+ru;Зедеа;Zedea
+uk;Зедеа;Zedea
+ce;Зедеа;Zedea
+az;Zeytə;Zedea
+ka;ზედეა;Zedea
+az;Zedsa;Zedea
+hy;Եղավարդ;Yeghvard
+hy;Եղավարտ;Yeghvard
+hy;Եղովարդ;Yeghvard
+ru;Ехегнаван;Yeghegnavan
+hy;Եղեգնավան;Yeghegnavan
+hy;Yexegnavan;Yeghegnavan
+hy;Exegnavan;Yeghegnavan
+hy;Եղեգ;Yegheg
+az;Şabadin;Yegheg
+hy;Yexeg;Yegheg
+hy;Egheg;Yegheg
+hy;Exeg;Yegheg
+ru;Егег;Yegheg
+hy;Վերին Վաչագան;Verin Vach’agan
+ru;Верин Вачаган;Verin Vach’agan
+el;Βερίν Βατζαγκάν;Verin Vach’agan
+en;Verin Vachagan;Verin Vach’agan
+fa;ورین وچگن;Verin Vach’agan
+nl;Verin Vachagan;Verin Vach’agan
+hy;Վերին Խոտանան;Verin Khotanan
+az;Yuzarı Xotanan;Verin Khotanan
+ru;Верин Хотанан;Verin Khotanan
+hy;Verin Gyodak’lu;Vardavank
+hy;Վարդավանք;Vardavank
+az;Yuxarı Gödəkli;Vardavank
+hy;Vardavanq;Vardavank
+ru;Вардаванк;Vardavank
+ru;Вардашат;Vardashat
+hy;Վարդանիձոր;Vardanidzor
+ru;Варданидзор;Vardanidzor
+hy;Վարդահովիտ;Vardahovit
+ru;Вардаовит;Vardahovit
+ru;Ванк;Vank
+hy;Վանկ;Vank
+hy;Վանք;Vank
+hy;Վահրավար;Vahravar
+ru;Вахравар;Vahravar
+hy;Ուժանիս;Uzhanis
+az;Ucanis;Uzhanis
+en;Ujanis;Uzhanis
+ru;Ужанис;Uzhanis
+hy;Վժանիս;Uzhanis
+hy;Ույծ;Uyts
+hy;Uyc;Uyts
+ru;Уйц;Uyts
+hy;Որոտնավան;Vorotnavan
+ru;Вротнаван;Vorotnavan
+hy;Հունուտ;Hunut
+az;Hunud;Hunut
+fa;هونوت;Hunut
+ru;Хунут;Hunut
+hy;Թասիկ;Tasik
+ru;Тасик;Tasik
+hy;Տաշտուն;Tashtun
+ru;Таштун;Tashtun
+hy;T’arrat’umb;Taratumb
+hy;Թառաթումբ;Taratumb
+fa;تاراتومب;Taratumb
+ru;Таратумб;Taratumb
+ka;თარათუმბი;Taratumb
+az;Dərətumb;Taratumb
+hy;Տանձավեր;Tandzaver
+ru;Тандзавер;Tandzaver
+hy;Տանձաթափ;Tandzatap
+hy;Տանձատափ;Tandzatap
+ru;Тандзатап;Tandzatap
+hy;Սվարանց;Svarants
+ru;Сваранц;Svarants
+hy;Սրաշեն;Srashen
+ru;Срашен;Srashen
+ru;Спандарян;Spandaryan
+hy;Սպանդարյան;Spandaryan
+hy;Նժդեհ;Nzhdeh
+hy;Njdeh;Nzhdeh
+ru;Нжде;Nzhdeh
+hy;Սզնակ;Sznak
+ru;Сзнак;Sznak
+az;Şurnux;Shurnukh
+hy;Shurrnukh;Shurnukh
+hy;Շուռնուխ;Shurnukh
+ru;Шурнух;Shurnukh
+hy;Shurnux;Shurnukh
+hy;Շրվենանց;Shrvenants
+az;Şrvenants;Shrvenants
+hy;Shrvenanc;Shrvenants
+ru;Шрвенанц;Shrvenants
+ru;Шишкерт;Shishkert
+hy;Շիշկերտ;Shishkert
+ru;Шехаршик;ShGharshik
+hy;Shenat’agh;Shenatagh
+hy;Շենաթաղ;Shenatagh
+ru;Шенатаг;Shenatagh
+ru;Шаумян;Shahumyan
+hy;Շահումյան;Shahumyan
+hy;Shak’i;Shaki
+hy;Շաքի;Shaki
+hy;Shaqi;Shaki
+ru;Шаки;Shaki
+hy;Shaxap;Shaghap
+hy;Շաղափ;Shaghap
+ru;Шагап;Shaghap
+hy;Sevak’ar;Sevakar
+hy;Սևաքար;Sevakar
+hy;Սեվաքար;Sevakar
+ru;Севакар;Sevakar
+hy;Սերս;Sers
+fa;سرس;Sers
+ru;Серс;Sers
+ce;Серс;Sers
+uk;Серс;Sers
+hy;Sarrnakunk’;Sarnakunk
+hy;Սառնակունք;Sarnakunk
+hy;Sarnakunq;Sarnakunk
+ru;Сарнакунк;Sarnakunk
+hy;Սալվարդ;Salvard
+ru;Салвард;Salvard
+hy;Սալլի;Salli
+az;Sallı;Salli
+fa;سالی;Salli
+ru;Салли;Salli
+ka;სალი;Salli
+ka;საბუნჩი;Sabunchi
+fa;صابون‌چی;Sabunchi
+ur;سبنچی;Sabunchi
+ru;Сабунчи;Sabunchi
+hy;Puxrut;Pukhrut
+hy;P’ukhrut;Pukhrut
+hy;Փուխրուտ;Pukhrut
+ru;Пухрут;Pukhrut
+hy;P’orr;Por
+hy;Փոռ;Por
+fa;پور;Por
+ru;Пор;Por
+uk;Пор;Por
+ce;Пор;Por
+lv;Pora;Por
+pl;Porr;Por
+ka;ფორი;Por
+ru;Пирдаудан;Pirdaudan
+hy;Նոր Աստղաբերդ;Nor Astghaberd
+ru;Нор Астхаберд;Nor Astghaberd
+hy;Հորբատեղ;Horbategh
+fa;هورباتغ;Horbategh
+ru;Орбатех;Horbategh
+ka;ჰორბატეღი;Horbategh
+az;Orbatex;Horbategh
+hy;Օխտար;Okhtar
+az;Oxtar;Okhtar
+hy;Oxtar;Okhtar
+ru;Охтар;Okhtar
+hy;Նռնաձոր;Nrnadzor
+ru;Нрнадзор;Nrnadzor
+ru;Нювади;Nrnadzor
+fa;نرنادزور;Nrnadzor
+ka;ნრნაძორი;Nrnadzor
+hy;Նոր Կյանք;Nor Kyank
+hy;Nor Kyanq;Nor Kyank
+ru;Нор Кянк;Nor Kyank
+hy;Նոր Ազնաբերդ;Nor Aznaberd
+fa;نور آزنابرد;Nor Aznaberd
+ru;Нор-Азнаберд;Nor Aznaberd
+ce;Нор Азнаберд;Nor Aznaberd
+be;Нор-Азнаберд;Nor Aznaberd
+uk;Нор-Азнаберд;Nor Aznaberd
+lv;Noraznaberda;Nor Aznaberd
+ka;ნორ-აზნაბერდი;Nor Aznaberd
+hy;Նորավան;Noravan
+ru;Нораван;Noravan
+hy;Նորաշենիկ;Norashenik
+az;Noraşenik;Norashenik
+ru;Норашеник;Norashenik
+hy;Նոր Արևիկ;Nor Arevik
+ru;Нор Аревик;Nor Arevik
+hy;Nerk’in Khotanan;Nerkin Khotanan
+hy;Ներքին Խոտանան;Nerkin Khotanan
+az;Aşağı Xotanan;Nerkin Khotanan
+ru;Неркин Хотанан;Nerkin Khotanan
+ru;Неркин Камарлу;Nerk’in Kamarlu
+hy;Nerk’in Gyodak’lu;Bargushat
+hy;Բարգուշատ;Bargushat
+ru;Баргушат;Bargushat
+hy;Nerk’in Hand;Nerkin Hand
+hy;Ներքին Հանդ;Nerkin Hand
+hy;Nerqin Hand;Nerkin Hand
+ru;Неркин Ханд;Nerkin Hand
+hy;Ձագիկավան;Dzagikavan
+ru;Дзагикаван;Dzagikavan
+hy;Ցղունի;Tsghuni
+ru;Цгуни;Tsghuni
+hy;Kat’narrat;Katnarat
+hy;Maralzami;Tkhkut
+hy;T’khkut;Tkhkut
+hy;Թխկուտ;Tkhkut
+hy;Txkut;Tkhkut
+ru;Тхкут;Tkhkut
+hy;K’ashuni;Kashuni
+hy;Քաշունի;Kashuni
+hy;Qashuni;Kashuni
+ru;Кашуни;Kashuni
+hy;Ishkanasar;Ishkhanasar
+ka;იშხანასარი;Ishkhanasar
+fa;ایشخاناسار;Ishkhanasar
+ru;Ишханасар;Ishkhanasar
+hy;Իշխանասար;Ishkhanasar
+hy;Կուրիս;Kuris
+hy;Կորիս, Կորոնք, Կուրից, Կուրոնք, Կուրուզ, Կուրուս;Kuris
+ru;Курис;Kuris
+fa;آندوکاوان;Andokavan
+hy;Անդոկավան;Andokavan
+ru;Андокаван;Andokavan
+hy;Տորունիք;Torunik
+ru;Торуник;Torunik
+hy;Խդրանց;Khdrants
+az;Xdrans;Khdrants
+hy;Xdranc;Khdrants
+ru;Хдранц;Khdrants
+hy;Khalaj;Achanan
+hy;Աճանան;Achanan
+fa;آچانان;Achanan
+ka;აჭანანი;Achanan
+ru;Ачанан;Achanan
+az;Xalac;Achanan
+az;Atçanan;Achanan
+hy;Կավճուտ;Kavchut
+ru;Кавчут;Kavchut
+ru;Каварт;Kavart
+uk;Каварт;Kavart
+fa;کاوارت;Kavart
+hy;Կարմրաշեն;Karmrashen
+fa;کارمراشن;Karmrashen
+ru;Кармрашен;Karmrashen
+ce;Кармрашен;Karmrashen
+uk;Кармрашен;Karmrashen
+az;Kotanlı;Karmrashen
+az;Qarmraşen;Karmrashen
+pl;Karmraszen;Karmrashen
+cs;Karmrašen;Karmrashen
+ka;კარმრაშენი;Karmrashen
+hy;Կարճևան;Karchevan
+ru;Карчеван;Karchevan
+hy;K’arahunj;Karahunj
+hy;Քարահունջ;Karahunj
+az;Qaraunc;Karahunj
+ru;Караундж;Karahunj
+hy;Gharatgha;Vanek
+hy;Վանեք;Vanek
+hy;Vaneq;Vanek
+ru;Ванек;Vanek
+hy;Կալեր;Kaler
+ru;Калер;Kaler
+hy;Կաղնուտ;Kaghnut
+az;Qaxnut;Kaghnut
+hy;Kaxnut;Kaghnut
+ru;Кагнут;Kaghnut
+hy;Լանջանիստ;Lanjanist
+ru;Ланджанист;Lanjanist
+az;Canı-Qabaxlı;Goghtanik
+az;Qoğtanik;Goghtanik
+az;Qabaxlı;Goghtanik
+hy;Գողթանիկ;Goghtanik
+fa;گوغتانیک;Goghtanik
+ru;Гохтаник;Goghtanik
+ka;გოღთანიკი;Goghtanik
+hy;Tap’erakan;Taperakan
+hy;Տափերական;Taperakan
+ru;Таперакан;Taperakan
+hy;Հերմոն;Hermon
+fa;هرمون;Hermon
+ru;Эрмон;Hermon
+ka;ჰერმონი;Hermon
+az;Qovuşuq;Hermon
+az;Yermon;Hermon
+az;Gədikvəng;Getikvank
+hy;Գետիկվանք;Getikvank
+fa;گتیکوانک;Getikvank
+ru;Гетикванк;Getikvank
+ka;გეტიკვანქი;Getikvank
+az;Kaput;Kapuyt
+az;Gabud;Kapuyt
+hy;Կապույտ;Kapuyt
+fa;کاپویت;Kapuyt
+ru;Капуйт;Kapuyt
+lv;Kapujta;Kapuyt
+pl;Kapujt;Kapuyt
+ka;კაპუიტი;Kapuyt
+hy;Գուդեմնիս;Gudemnis
+hy;Գիդեմնաս, Գիտեմնաս, Գտանիս, Կուդեմնիս, Կուտեմնիս;Gudemnis
+ru;Гудемнис;Gudemnis
+hy;Հորս;Hors
+fa;هورس;Hors
+ka;ჰორსი;Hors
+ru;Орс;Hors
+az;Gomur;Gomk
+hy;Գոմք;Gomk
+hy;Gomq;Gomk
+fa;گومک;Gomk
+ru;Гомк;Gomk
+ce;Гомк;Gomk
+uk;Гомк;Gomk
+az;Komk;Gomk
+ka;გომქი;Gomk
+hy;Գոմարան;Gomaran
+ru;Гомаран;Gomaran
+ka;გომარანი;Gomaran
+fa;گوماران;Gomaran
+hy;Գնիշիկ;Gnishik
+fa;گنیشیک;Gnishik
+ru;Гнишик;Gnishik
+ce;Гнишик;Gnishik
+uk;Гнишік;Gnishik
+pl;Gniszik;Gnishik
+lv;Gnišika;Gnishik
+ka;გნიშიკი;Gnishik
+az;Gənəşik;Gnishik
+hy;Getat’agh;Getatagh
+hy;Գետաթաղ;Getatagh
+ru;Гетатаг;Getatagh
+hy;Գետափ;Getap
+ru;Гетап;Getap
+fa;گتاپ;Getap
+az;Qoytur;Getap
+ka;გეტაფი;Getap
+ce;Гетап;Getap
+uk;Гетап;Getap
+hy;Գեղի;Geghi
+ru;Гехи;Geghi
+hy;Գեղանուշ;Geghanush
+hy;Gexanush;Geghanush
+ru;Гегануш;Geghanush
+hy;Ձորաստան;Dzorastan
+ru;Дзорастан;Dzorastan
+hy;Dovrus;Tavrus
+hy;Տավրուս;Tavrus
+ru;Таврус;Tavrus
+hy;Դիցմայրի;Ditsmayri
+ru;Дицмайри;Ditsmayri
+hy;Արին;Arin
+fa;آرین;Arin
+be;Арын;Arin
+ru;Арин;Arin
+uk;Арін;Arin
+az;Daylaxlı;Arin
+ka;არინი;Arin
+ce;Арин;Arin
+hy;Գետիշեն;Getishen
+ru;Гетишен;Getishen
+hy;Ch’apni;Chapni
+hy;Չափնի;Chapni
+az;Capni;Chapni
+ru;Чапни;Chapni
+hy;Ճակատեն;Chakaten
+ru;Чакатен;Chakaten
+hy;Բրուն;Akner
+hy;Ակներ;Akner
+ru;Брун;Akner
+hy;Ծղուկ;Tsghuk
+hy;Cxuk;Tsghuk
+ru;Цгук;Tsghuk
+hy;Բնունիս;Bnunis
+hy;Բնունիք, Բունունիս, Պնունիս;Bnunis
+ru;Бнунис;Bnunis
+hy;Muts’k’;Mutsk
+hy;Մուցք;Mutsk
+hy;Mucq;Mutsk
+ru;Муцк;Mutsk
+hy;Բարձրավան;Bardzravan
+ru;Барцраван;Bardzravan
+hy;Բալաք;Balak
+hy;Balaq;Balak
+ru;Балак;Balak
+ru;Баграмян;Baghramyan
+hy;Բաղրամյան;Baghramyan
+hy;Baxramyan;Baghramyan
+ru;Ацаван;Hatsavan
+hy;Հացավան;Hatsavan
+hy;Աշոտավան;Ashotavan
+ru;Ашотаван;Ashotavan
+de;Jeghegis;Yeghegis
+hy;Եղեգիս;Yeghegis
+fa;یغگیس;Yeghegis
+ru;Ехегис;Yeghegis
+ka;ეღეგისი;Yeghegis
+az;Alagöz;Yeghegis
+hy;Արավուս;Aravus
+ru;Аравус;Aravus
+hy;Արևիս;Arevis
+hy;Արավիս;Arevis
+ru;Аревис;Arevis
+az;Aysəsi;Arates
+az;Qızılgül;Arates
+hy;Արատես;Arates
+ka;არატესი;Arates
+fa;آراتس;Arates
+ru;Аратес;Arates
+uk;Аратес;Arates
+be;Аратэс;Arates
+ru;Арарат;Ararat village
+hy;Արարատ;Ararat village
+en;Ararat;Ararat village
+az;Dəvəli;Ararat village
+fa;آرارات;Ararat village
+ka;არარატი;Ararat village
+en;Arachadzor;Arajadzor
+hy;Arrajadzor;Arajadzor
+hy;Առաջաձոր;Arajadzor
+az;Araqadzor;Arajadzor
+ru;Араджадзор;Arajadzor
+hy;Antarrashat;Antarashat
+hy;Անտառաշատ;Antarashat
+az;Antaraşat;Antarashat
+ru;Антарашат;Antarashat
+fa;آنتاراشات;Antarashat
+ka;ანტარაშატი;Antarashat
+az;Dortnu;Antarashat
+ru;Агавнадзор;Aghavnadzor
+hy;Աղավնաձոր;Aghavnadzor
+ur;اقاونزور;Aghavnadzor
+fa;آغاونادزور;Aghavnadzor
+be;Агаўнадзор;Aghavnadzor
+ce;Ахавнадзор;Aghavnadzor
+uk;Агавнадзор;Aghavnadzor
+lv;Ahavnadzora;Aghavnadzor
+nl;Agavnadzor;Aghavnadzor
+pl;Aghawnadzor;Aghavnadzor
+ka;აღავნაძორი;Aghavnadzor
+az;Aynazur;Aghavnadzor
+az;Axavnadzor;Aghavnadzor
+hy;Աջաբաջ;Ajabaj
+ru;Аджабадж;Ajabaj
+en;Khoghvani;Aghvani
+hy;Աղվանի;Aghvani
+ru;Агвани;Aghvani
+hy;Axvani;Aghvani
+fa;آغوانی;Aghvani
+ka;აღვანი;Aghvani
+ru;Агарак;Agarak
+hy;Ագարակ;Agarak
+ka;აგარაკი;Agarak
+az;Əkərək;Agarak
+az;Aqarak;Agarak
+ce;Агарак;Agarak
+be;Агарак;Agarak
+kk;Агарак;Agarak
+sr;Агарак;Agarak
+uk;Аґарак;Agarak
+el;Αγκαράκ;Agarak
+lt;Agarakas;Agarak
+ar;آغاراك;Agarak
+fa;آگاراک;Agarak
+mzn;آگاراک;Agarak
+ru;Киргилу;Kirgilu
+hy;Համլետավան;Hamletavan
+ru;Хамлетаван;Hamletavan
+ru;Барабатум;Barabat’um
+ru;НовоЫе;NovoYe
+ru;Ёмазлу;Yemazlu
+hy;Լծեն;Ltsen
+ru;Лцен;Ltsen
+hy;Hart’ashen;Dzorashen
+ru;Арташен;Dzorashen
+hy;Հարթաշեն;Dzorashen
+hy;Ձորաշեն;Dzorashen
+az;Dzoraşen;Dzorashen
+hy;Arp’i;Arpi
+hy;Արփի;Arpi
+az;Ərpi;Arpi
+fa;آرپی;Arpi
+be;Арпі;Arpi
+uk;Арпі;Arpi
+ru;Арпи;Arpi
+ce;Арпи;Arpi
+ka;არფი;Arpi
+ru;Кагризнер;Kagrizner
+ru;Каялу;Kayalu
+hy;Ապանա;Apana
+ru;Апана;Apana
+ru;Алихан-Паясы;Alikhan-Payasy
+ru;Агнилиса;Agnilisa
+en;Agndzhadzor;Aghnjadzor
+hy;Աղնջաձոր;Aghnjadzor
+az;Ağkənd;Aghnjadzor
+ur;اقنجازور;Aghnjadzor
+fa;آغنجادزور;Aghnjadzor
+ce;Ахнджадзор;Aghnjadzor
+be;Агнджадзор;Aghnjadzor
+ru;Агнджадзор;Aghnjadzor
+uk;Агнджадзор;Aghnjadzor
+fr;Aghndjadzor;Aghnjadzor
+lv;Ahndžadzora;Aghnjadzor
+nl;Agndzjadzor;Aghnjadzor
+pl;Aghyndżadzor;Aghnjadzor
+ka;აღნჯაძორი;Aghnjadzor
+hy;K’ajaran;Kajarants
+hy;K’ajarants’;Kajarants
+hy;Քաջարանց;Kajarants
+hy;Qajaranc;Kajarants
+hy;Քաջարան;Kajarants
+hy;Qajaran;Kajarants
+ru;Каджаранц;Kajarants
+hy;Lanjarr;Lanjar
+hy;Լանջառ;Lanjar
+ru;Ланджар;Lanjar
+hy;Urcalanj;Urtsalanj
+hy;Urts’alanj;Urtsalanj
+hy;Ուրցալանջ;Urtsalanj
+ru;Урцаландж;Urtsalanj
+hy;Մոզրով;Mozrov
+fa;موزروف;Mozrov
+ru;Мозров;Mozrov
+uk;Мозров;Mozrov
+pl;Mozrow;Mozrov
+lv;Mozrova;Mozrov
+ka;მოზროვი;Mozrov
+az;Moz;Mozrov
+en;Zarndzha;Zarinja
+ru;Зарнджа;Zarinja
+hy;Զարինջա;Zarinja
+ru;Севаберд;Sevaberd
+hy;Սևաբերդ;Sevaberd
+hy;Սեվաբերդ;Sevaberd
+ru;Мамаи;Mamai
+ru;Зуйгахпюр;Zuygaghbyur
+hy;Զույգաղբյուր;Zuygaghbyur
+hy;Zuygaxbyur;Zuygaghbyur
+hy;Զովաշեն;Zovashen
+ru;Зовашен;Zovashen
+hy;Զորակերտ;Zorakert
+ru;Зоракерт;Zorakert
+az;Zod;Sotk
+ru;Зод;Sotk
+hy;Sot’k’;Sotk
+hy;Սոթք;Sotk
+hy;Sotq;Sotk
+hy;Զարիշատ;Zarishat
+ru;Заришат;Zarishat
+ru;Еринджатап;Yernjatap
+hy;Երնջատափ;Yernjatap
+hy;Ernjatap;Yernjatap
+hy;Երազգավորս;Yerazgavors
+ru;Еразгаворс;Yerazgavors
+hy;Ենոքավան;Yenokavan
+hy;Yenoqavan;Yenokavan
+hy;Enoqavan;Yenokavan
+ru;Енокаван;Yenokavan
+ru;Ёнгиджа;Yengidzha
+hy;Եղնիկ;Yeghnik
+hy;Eghnik;Yeghnik
+hy;Yexnik;Yeghnik
+hy;Exnik;Yeghnik
+ru;Егник;Yeghnik
+ru;Ехегнут;Yeghegnut
+hy;Եղեգնուտ;Yeghegnut
+hy;Eghegnut;Yeghegnut
+hy;Yexegnut;Yeghegnut
+hy;Exegnut;Yeghegnut
+hy;Eghnajur;Yeghnajur
+hy;Եղնաջուր;Yeghnajur
+hy;Yexnajur;Yeghnajur
+ru;Егнаджур;Yeghnajur
+hy;Լճավան;Lchavan
+ru;Лчаван;Lchavan
+hy;Vosket’as;Vosketas
+hy;Ոսկեթաս;Vosketas
+ru;Вскетас;Vosketas
+ru;Воскеваз;Voskehat
+hy;Ոսկեհատ;Voskehat
+hy;Ողջաբերդ;Voghjaberd
+hy;Oghjaberd;Voghjaberd
+hy;Voxjaberd;Voghjaberd
+ru;Вгджаберд;Voghjaberd
+hy;Ախպրաձոր;Akhpradzor
+az;Axpradzor (Yuxarı Zağalı);Akhpradzor
+hy;Axpradzor;Akhpradzor
+ru;Ахпрадзор;Akhpradzor
+hy;Վերին Շորժա;Verin Shorzha
+az;Yuxarı Şorca;Verin Shorzha
+hy;Verin Shorja;Verin Shorzha
+ru;Верин Шоржа;Verin Shorzha
+hy;Վերին Սասնաշեն;Verin Sasnashen
+ru;Верин Саснашен;Verin Sasnashen
+hy;Զորական;Zorakan
+ru;Зоракан;Zorakan
+az;Verin-Karmiraxpyur;Verin Karmiraghbyur
+hy;Վերին Կարմիրաղբյուր;Verin Karmiraghbyur
+az;Verin Karmiraxpür;Verin Karmiraghbyur
+ru;Верин Кармирахпюр;Verin Karmiraghbyur
+hy;Վերին Կարմրաղբյուր;Verin Karmiraghbyur
+hy;Վերին Կարմիր աղբյուր;Verin Karmiraghbyur
+en;Verin Karmir aghbyur;Verin Karmiraghbyur
+ru;Верин Базмаберд;Verin Bazmaberd
+hy;Վերին Բազմաբերդ;Verin Bazmaberd
+hy;Վարդենուտ;Vardenut
+ru;Варденут;Vardenut
+hy;Վարդանաշեն;Vardanashen
+ru;Варданашен;Vardanashen
+ru;Вардахпюр;Vardaghbyur
+hy;Վարդաղբյուր;Vardaghbyur
+hy;Vardaxbyur;Vardaghbyur
+hy;Վարդախպյուր;Vardaghbyur
+hy;Վարդակար;Vardakar
+hy;Վարդաքար;Vardakar
+hy;Vardaqar;Vardakar
+ru;Вардакар;Vardakar
+ru;Вардаблур;Vardablur
+hy;Վարդաբլուր;Vardablur
+hy;Վանևան;Vanevan
+az;Şəfəq (Kərkibaş);Vanevan
+hy;Վանեվան;Vanevan
+ru;Ваневан;Vanevan
+ru;Ттуджур;Ttujur
+hy;T’t’ujur;Ttujur
+az;Qoturbulaq;Ttujur
+az;Ttucur;Ttujur
+hy;Թթուջուր;Ttujur
+az;Tucur;Ttujur
+ru;Турджан;Turdzhan
+hy;Լուսահովիտ;Lusahovit
+ru;Лусаовит;Lusahovit
+hy;Ծաթեր;Tsater
+hy;Cater;Tsater
+ru;Цатер;Tsater
+hy;Ծափաթաղ;Tsapatagh
+ru;Цапатах;Tsapatagh
+hy;Ցամաքաբերդ;Tsamakaberd
+ru;Цамакаберд;Tsamakaberd
+hy;Ծաղկունք;Tsaghkunk
+hy;Caxkunq;Tsaghkunk
+ru;Цагкунк;Tsaghkunk
+en;Tsaghkavan;Verin Tsaghkavan
+az;Tsaxkavan;Verin Tsaghkavan
+az;Saxkavan;Verin Tsaghkavan
+hy;Վերին Ծաղկավան;Verin Tsaghkavan
+hy;Verin Caxkavan;Verin Tsaghkavan
+ru;Цахкаван;Verin Tsaghkavan
+ru;Верин Цахкаван;Verin Tsaghkavan
+hy;Ծաղկավան;Verin Tsaghkavan
+hy;Ծաղկաշեն;Tsaghkashen
+ru;Цагкашен;Tsaghkashen
+hy;Ծաղկաշատ;Tsaghkashen
+hy;Caxkashen;Tsaghkashen
+hy;Ծաղկաշատ;Tsaghkashat
+hy;Caxkashat;Tsaghkashat
+ru;Цахкашат;Tsaghkashat
+hy;Ծաղկասար;Tsaghkasar
+hy;Caxkasar;Tsaghkasar
+ru;Цагкасар;Tsaghkasar
+ru;Цахкадзор;Tsaghkadzor
+de;Zaghkadsor;Tsaghkadzor
+nl;Tsachkadzor;Tsaghkadzor
+az;Dərəçiçək;Tsaghkadzor
+bg;Цахкадзор;Tsaghkadzor
+ce;Цахкадзор;Tsaghkadzor
+fa;تساغکادزور;Tsaghkadzor
+hy;Ծաղկաձոր;Tsaghkadzor
+ka;წაღკაძორი;Tsaghkadzor
+lt;Cachkadzoras;Tsaghkadzor
+ro;Țahkadzor;Tsaghkadzor
+uk;Цагкадзор;Tsaghkadzor
+pl;Cachkadzor;Tsaghkadzor
+hy;Caxkadzor;Tsaghkadzor
+hy;Տրետուք;Tretuk
+ru;Третук;Tretuk
+en;Tovuz;Tavush
+hy;Տավուշ;Tavush
+hy;Տաուշ;Tavush
+hy;Թովուզ;Tavush
+hy;Թայուզ;Tavush
+hy;Թավազ;Tavush
+hy;Թավուզ;Tavush
+hy;Թովուզքենդ;Tavush
+hy;Թոուզ;Tavush
+hy;Թոուզքենդ;Tavush
+hy;Թոուս;Tavush
+hy;Տանուշ;Tavush
+hy;Տովուզ;Tavush
+en;Taush;Tavush
+en;Tayuz;Tavush
+en;Tavaz;Tavush
+en;Tavuz;Tavush
+en;Tovuzkend;Tavush
+en;Touzkend;Tavush
+en;Touz;Tavush
+en;Tous;Tavush
+en;Tanush;Tavush
+ru;Товуз;Tavush
+ru;Тавуш;Tavush
+ru;Торосгюх;Torosgyugh
+hy;Թորոսգյուղ;Torosgyugh
+hy;Torosgyux;Torosgyugh
+hy;Թորոս;Torosgyugh
+hy;Թորոսի գյուղ;Torosgyugh
+hy;Տորոսգյուղ;Torosgyugh
+hy;T’lik;Tlik
+hy;Թլիկ;Tlik
+ru;Тлик;Tlik
+hy;T’eghenik’;Teghenik
+hy;Թեղենիք;Teghenik
+hy;Texeniq;Teghenik
+ru;Тегеник;Teghenik
+hy;Թեղուտ;Teghut
+hy;Texut;Teghut
+ru;Техут;Teghut
+hy;Թելուտ;Teghut
+ru;Телут;Teghut
+en;Telut;Teghut
+hy;Տեղեր;Tegher
+ru;Тегер;Tegher
+hy;Ծովասար;Tsovasar
+hy;Covasar;Tsovasar
+ru;Цовасар;Tsovasar
+hy;Թավշուտ;Tavshut
+ru;Тавшут;Tavshut
+az;Tərs çay;Tarsachay
+fa;ترساچای;Tarsachay
+ru;Тарсачаы;Tarsachay
+ru;Bol’shoy Tapakey;Berdashen
+hy;Բերդաշեն;Berdashen
+hy;Mets Tapakey;Berdashen
+hy;Գոգհովիտ;Goghovit
+ru;Гоговит;Goghovit
+hy;Սուսեր;Suser
+ru;Сусер;Suser
+hy;Պաղաղբյուր;Paghaghbyur
+hy;Paxaxbyur;Paghaghbyur
+ru;Пахахпюр;Paghaghbyur
+ru;Совхоз Номер шест;Sovkhoz Nomer Shest’
+hy;Սորիկ;Sorik
+ru;Сорик;Sorik
+hy;Սիզավետ;Sizavet
+ru;Сизавет;Sizavet
+hy;Sip’an;Sipan
+hy;Սիփան;Sipan
+ru;Сипан;Sipan
+ru;Пахакн;Paghakn
+hy;Պաղակն;Paghakn
+hy;Paxakn;Paghakn
+ru;Шоржа;Shoghakat
+hy;Շողակաթ;Shoghakat
+hy;Shoxakat;Shoghakat
+hy;Շղարշիկ;Shgharshik
+hy;Shxarshik;Shgharshik
+ru;Шгаршик;Shgharshik
+hy;Շենկանի;Shenkani
+ru;Шенкани;Shenkani
+ru;Шенаван;Shenavan
+hy;Շենավան;Shenavan
+hy;Շատջրեք;Shatjrek
+az;Qoşabulaq;Shatjrek
+hy;Shatjreq;Shatjrek
+ru;Шатджрек;Shatjrek
+hy;Շամուտ;Shamut
+ru;Шамут;Shamut
+hy;Շաղիկ;Shaghik
+hy;Shaxik;Shaghik
+hy;Ղիզիլքենդ;Shaghik
+ru;Шагик;Shaghik
+ru;Семеновка;Semyonovka
+hy;Սեմյոնովկա;Semyonovka
+ru;Сасуник;Verin Sasunik
+hy;Սարապատ;Sarapat
+ru;Сарапат;Sarapat
+hy;Սարալանջ;Saralanj
+ru;Сараландж;Saralanj
+hy;Նոր Խաչակապ;Nor Khachakap
+hy;Nor Xachakap;Nor Khachakap
+ru;Нор Хачакап;Nor Khachakap
+ru;Саракап;Sarakap
+hy;Սարակապ;Sarakap
+hy;Կանիաշիր;Kaniashir
+ru;Каниашир;Kaniashir
+hy;Սանահին;Sanahin
+ru;Санаин;Sanahin
+ru;Самахар;Geghakert
+hy;Samaghar;Geghakert
+hy;Գեղակերտ;Geghakert
+hy;Սալուտ;Salut
+ru;Салут;Salut
+hy;Սաղմոսավան;Saghmosavan
+ru;Сагмосаван;Saghmosavan
+hy;Sagmosavan;Saghmosavan
+hy;Rrya t’aza;Rya Taza
+hy;Ռյա թազա;Rya Taza
+ru;Ря Таза;Rya Taza
+ru;Пушкино;Pushkino
+hy;Պուշկինո;Pushkino
+hy;Փոքր Սեպասար;Pokr Sepasar
+hy;Poqr Sepasar;Pokr Sepasar
+ru;Покр Сепасар;Pokr Sepasar
+ru;Покр Сариар;Pokr Sariar
+hy;Փոքր Սարիար;Pokr Sariar
+hy;Poqr Sariar;Pokr Sariar
+hy;Փոքր Սայրիար;Pokr Sariar
+hy;Փոքր Սարիալ;Pokr Sariar
+hy;Սարիար;Pokr Sariar
+hy;Պոկր Սարիար;Pokr Sariar
+en;Sariar;Pokr Sariar
+ru;Сариар;Pokr Sariar
+ru;Покр мазра;Pokr Masrik
+hy;P’ok’r Masrik;Pokr Masrik
+hy;Փոքր Մասրիկ;Pokr Masrik
+hy;Poqr Masrik;Pokr Masrik
+hy;Poqr Ayrum;Pokr Ayrum
+hy;Փոքր Այրում;Pokr Ayrum
+ce;Покр Айрум;Pokr Ayrum
+ru;Покр Айрум;Pokr Ayrum
+ka;პოკრ-აირუმი;Pokr Ayrum
+fa;پوکر آیروم;Pokr Ayrum
+pl;Pokr Ajrum;Pokr Ayrum
+hy;Փոքրաշեն;Pokrashen
+hy;Poqrashen;Pokrashen
+ru;Покрашен;Pokrashen
+hy;Պետրովկա;Petrovka
+hy;Նովոպետրովկա;Petrovka
+en;Novopetrovka;Petrovka
+ru;Петровка;Petrovka
+ru;Новопетровка;Petrovka
+en;Pravakar;Paravakar
+ru;Паравакар;Paravakar
+hy;Պառավաքար;Paravakar
+hy;Պռավաքար;Paravakar
+ru;Правакар;Paravakar
+hy;Փամբակ;Pambak
+hy;Պամբակ;Pambak
+hy;Փամփակ;Pambak
+en;Pampak;Pambak
+ru;Памбак;Pambak
+ru;Пампак;Pambak
+hy;P’ambak;Pambak
+hy;Հովունի;Hovuni
+hy;Հովնունի;Hovuni
+ru;Ховуни;Hovuni
+hy;Հովտաշեն;Hovtashen
+ru;Ховташен;Hovtashen
+hy;Հովնանաձոր;Hovnanadzor
+ru;Овнанадзор;Hovnanadzor
+hy;Հովիտ;Hovit
+ru;Ховит;Hovit
+hy;Միջնատուն;Mijnatun
+ru;Миджнатун;Mijnatun
+hy;Օրգով;Orgov
+ru;Оргов;Orgov
+hy;Nurrnus;Nurnus
+hy;Նուռնուս;Nurnus
+ru;Нурнус;Nurnus
+hy;Նովոսելցովո;Novoseltsovo
+ru;Новоселцово;Novoseltsovo
+hy;Նոր Կյանկ;Nor Kyank
+hy;Նոր Գյուղ;Nor Gyugh
+ru;Нор Гйуг;Nor Gyugh
+ru;Нор Гехи;Nor Geghi
+hy;Նոր Գեղի;Nor Geghi
+hy;Nor Gexi;Nor Geghi
+ru;Норашен;Norashen
+hy;Նորաշեն;Norashen
+az;Noraşen;Norashen
+az;Kamalkənd;Norashen
+hy;Թազագյուղ;Norashen
+hy;Թազաքենդ;Norashen
+en;Tazagyugh;Norashen
+en;Tazakend;Norashen
+ru;Нор-Артик;Nor Artik
+hy;Nor Art’ik;Nor Artik
+hy;Նոր Արթիկ;Nor Artik
+hy;Նոր Արմավիր;Nor Armavir
+ru;Нор Армавир;Nor Armavir
+ar;نور-أباران;Nor-Aparan
+ru;Нор Апаран;Nor-Aparan
+fa;نور-آپاران;Nor-Aparan
+hy;Նորամուտ;Noramut
+ru;Норамут;Noramut
+hy;Նորակերտ;Norakert
+ru;Норакерт;Norakert
+hy;Նորաբակ;Norabak
+az;Əzizli;Norabak
+ru;Норабак;Norabak
+hy;Դաշտադեմ;Dashtadem
+ru;Даштадем;Dashtadem
+en;Nerk'in Shorzha;Nerkin Shorzha
+ru;Верин Шоржа;Nerkin Shorzha
+hy;Nerk’in Shorzha;Nerkin Shorzha
+hy;Ներքին Շորժա;Nerkin Shorzha
+az;Aşağı Şorca;Nerkin Shorzha
+hy;Nerqin Shorja;Nerkin Shorzha
+en;Nerkin Karmir aghbyur;Nerkin Karmiraghbyur
+az;Nerkin Kamiraxpyur;Nerkin Karmiraghbyur
+hy;Ներքին Կարմիրաղբյուր;Nerkin Karmiraghbyur
+az;Gergin Karmiraxpür;Nerkin Karmiraghbyur
+az;Nerkin Karmiraxpür;Nerkin Karmiraghbyur
+ru;Неркин Кармирахпюр;Nerkin Karmiraghbyur
+hy;Ներքին Կարմրաղբյուր;Nerkin Karmiraghbyur
+hy;Ներքին Կարմիր աղբյուր;Nerkin Karmiraghbyur
+hy;Ակնաղբյուր;Aknaghbyur
+ru;Акнахбюр;Aknaghbyur
+ru;Нерин-Чамбарак;Nerin-Chambarak
+hy;Նեղոց;Neghots
+hy;Nexoc;Neghots
+ru;Негоц;Neghots
+hy;Նեղուց;Neghots
+en;Neghuts;Neghots
+ru;Негуц;Neghots
+ru;Мусаелян;Musayelyan
+hy;Մուսայելյան;Musayelyan
+hy;Բասեն;Basen
+ru;Басен;Basen
+hy;Կայք;Kayk
+ru;Кайк;Kayk
+hy;Մուղնի;Mughni
+ru;Мугни;Mughni
+hy;Հովտամեջ;Hovtamej
+ru;Ховтамедж;Hovtamej
+ru;Мравян;Yeghipatrush
+hy;Եղիպատրուշ;Yeghipatrush
+hy;Yexipatrush;Yeghipatrush
+hy;Միրաք;Mirak
+hy;Miraq;Mirak
+ru;Мирак;Mirak
+ru;Sariar Bol’shoy;Mets Sariar
+hy;Մեծ Սարիար;Mets Sariar
+hy;Mec Sariar;Mets Sariar
+hy;Մեծ Սայրիար;Mets Sariar
+hy;Մեծ Սարիյար;Mets Sariar
+hy;Մեծ Սարյար;Mets Sariar
+hy;Մեծ Այրում;Mets Ayrum
+hy;Mec Ayrum;Mets Ayrum
+hy;Այրում;Mets Ayrum
+en;Ayrum;Mets Ayrum
+ru;Мец Айрум;Mets Ayrum
+ru;Айрум;Mets Ayrum
+ru;Мецамор;Metsamor
+hy;Մեծամոր;Metsamor
+hy;Mecamor;Metsamor
+hy;Մեղրաշատ;Meghrashat
+hy;Mexrashat;Meghrashat
+ru;Меграшат;Meghrashat
+hy;Մեղվահովիտ;Meghvahovit
+hy;Mexvahovit;Meghvahovit
+ru;Мегваовит;Meghvahovit
+ru;Мармашен;Marmashen
+hy;Մարմաշեն;Marmashen
+fa;مانفو;Manvo
+ru;Манво;Manvo
+hy;Բովաձոր;Bovadzor
+ru;Бовадзор;Bovadzor
+ru;Maksim Gor’kly;Bovadzor
+ru;Маисян;Mayisyan
+hy;Մայիսյան;Mayisyan
+hy;Գտաշեն;Gtashen
+ru;Гташен;Gtashen
+ru;Лусахпюр;Lusaghbyur
+hy;Լուսաղբյուր;Lusaghbyur
+hy;Lusaxbyur;Lusaghbyur
+ru;Лусагбйур;Lusaghbyur
+hy;Լուսակերտ;Lusakert
+ru;Лусакерт;Lusakert
+hy;Լուսագյուղ;Lusagyugh
+hy;Lusagyux;Lusagyugh
+ru;Лусагйуг;Lusagyugh
+hy;Լուսաձոր;Lusadzor
+ru;Лусадзор;Lusadzor
+hy;Լոռի Բերդ;Lori Berd
+hy;Բերդ;Lori Berd
+hy;Լոռու բերդ;Lori Berd
+hy;Նոր բերդ;Lori Berd
+en;Berd;Lori Berd
+en;Loru berd;Lori Berd
+en;Nor berd;Lori Berd
+ru;Лори Берд;Lori Berd
+ru;Берд;Lori Berd
+ru;Лору берд;Lori Berd
+ru;Нор берд;Lori Berd
+en;Lichkadzor;Lchkadzor
+hy;Լճկաձոր;Lchkadzor
+hy;Լիճքաձոր;Lchkadzor
+hy;Լիչքաձոր;Lchkadzor
+hy;Լկաձոր;Lchkadzor
+hy;Լճքաձոր;Lchkadzor
+hy;Լջկաձոր;Lchkadzor
+en;Ljkadzor;Lchkadzor
+ru;Лчкадзор;Lchkadzor
+ru;Личкадзор;Lchkadzor
+ru;Лкадзор;Lchkadzor
+ru;Лджкадзор;Lchkadzor
+hy;Լեռնուտ;Lernut
+ru;Лернут;Lernut
+hy;Lerrnarot;Lernarot
+hy;Լեռնարոտ;Lernarot
+ru;Лернарот;Lernarot
+ru;Лернапар;Lernapar
+hy;Lerrnapar;Lernapar
+hy;Լեռնապար;Lernapar
+ru;Лернагюх;Lernagyugh
+hy;Լեռնագյուղ;Lernagyugh
+hy;Lernagyux;Lernagyugh
+hy;Լեռնակերտ;Lernakert
+ru;Лернакерт;Lernakert
+hy;Lerrnakert;Lernakert
+hy;Խորոնք;Khoronk
+hy;Xoronq;Khoronk
+ru;Хоронк;Khoronk
+ru;Ланджик;Lanjik
+hy;Լանջիկ;Lanjik
+hy;Հատիս;Hatis
+ru;Хатис;Hatis
+ru;Гарнарич;Garnarich
+hy;Գառնառիճ;Garnarich
+hy;Կուտական;Kutakan
+ru;Кутакан;Kutakan
+hy;Կութ;Kut
+az;Zarkənd;Kut
+ru;Кут;Kut
+hy;Արջհովիտ;Arjhovit
+ru;Арджовит;Arjhovit
+hy;Կրուգլայա շիշկա;Kruglaya shishka
+ru;Круглая Шишка;Kruglaya shishka
+hy;Կրաշեն;Krashen
+ru;Крашен;Krashen
+hy;Կրասար;Krasar
+ru;Красар;Krasar
+hy;Կոզման;Kozman
+ru;Козман;Kozman
+hy;Gorrgoch’;Gorgoch
+hy;Գոռգոչ;Gorgoch
+ru;Горгоч;Gorgoch
+hy;Գետավան;Getavan
+ru;Гетаван;Getavan
+hy;Ձյունաշող;Dzyunashogh
+ru;Дзюнашох;Dzyunashogh
+hy;Ամրակից;Amrakits
+hy;Amrakic;Amrakits
+ru;Амракиц;Amrakits
+hy;Խնկոյան;Khnkoyan
+hy;Xnkoyan;Khnkoyan
+ru;Хнкоян;Khnkoyan
+ru;Хнаберд;Hnaberd
+hy;Հնաբերդ;Hnaberd
+ru;Полад;Khachardzan
+hy;Khach’ardzan;Khachardzan
+hy;Խաչարձան;Khachardzan
+hy;Xachardzan;Khachardzan
+hy;Կաքավասար;Kakavasar
+hy;Kaqavasar;Kakavasar
+ru;Какавасар;Kakavasar
+ru;Катнахпюр;Katnaghbyur
+hy;Կաթնաղբյուր;Katnaghbyur
+hy;Katnaxbyur;Katnaghbyur
+hy;Kat’naghbyur;Katnaghbyur
+ru;Катнахбюр;Katnaghbyur
+ru;Иджеванатех;Ijevanategh
+hy;Իջևանատեղ;Ijevanategh
+hy;Կարմրավան;Karmravan
+ru;Кармраван;Karmravan
+ru;Кармракар;Karmrakar
+hy;Կարմրաքար;Karmrakar
+hy;Karmraqar;Karmrakar
+hy;Քարինջ;Karinj
+hy;Qarinj;Karinj
+ru;Кариндж;Karinj
+hy;Կարինջ;Karinj
+hy;Կարենիս;Karenis
+ru;Каренис;Karenis
+ru;Каранлух;Karanlukh
+ru;Каракала;Karakala
+az;Qaraqala;Karakala
+fa;کاراکالا، آرماویر;Karakala
+hy;Քարաբերդ;Karaberd
+hy;Qaraberd;Karaberd
+hy;Կարաբերդ;Karaberd
+ru;Караберд;Karaberd
+hy;Կապս;Kaps
+ru;Капс;Kaps
+ru;Камышлу;Kamyshlu
+hy;Կամխուտ;Kamkhut
+ru;Камхут;Kamkhut
+ka;კამხუტი;Kamkhut
+az;Çaxmaq;Kamkhut
+fa;کامخوت;Kamkhut
+pl;Kamchut;Kamkhut
+hy;Kamxut;Kamkhut
+hy;Կալավան;Kalavan
+ru;Калаван;Kalavan
+hy;Կախակն;Kakhakn
+ru;Кахакн;Kakhakn
+hy;Կաճաճկուտ;Kachachkut
+ru;Качачкут;Kachachkut
+hy;Կաճակկութ;Kachachkut
+en;Kachakkut;Kachachkut
+ru;Качаккут;Kachachkut
+hy;Կաչաչկուտ;Kachachkut
+hy;Դդմասար;Ddmasar
+ru;Ддмасар;Ddmasar
+hy;Jaghats’adzor;Jaghatsadzor
+hy;Ձաղացաճոր;Jaghatsadzor
+az;Sarıyaqub;Jaghatsadzor
+hy;Jaxacadzor;Jaghatsadzor
+ru;Дзагацачор;Jaghatsadzor
+hy;Իծաքար;Itsakar
+hy;Icaqar;Itsakar
+ru;Ицакар;Itsakar
+hy;Իսահակյան;Isahakyan
+ru;Исахакян;Isahakyan
+hy;Իրինդ;Irind
+ru;Иринд;Irind
+ru;Жданов;Mayisyan
+hy;Հողմիկ;Hoghmik
+fa;ایلی، ارمنستان;Hoghmik
+nl;Illi;Hoghmik
+hy;Hoxmik;Hoghmik
+ru;Охмик;Hoghmik
+hy;Հովտուն;Hovtun
+ru;Овтун;Hovtun
+hy;Hats’ik;Hatsik
+hy;Հացիկ;Hatsik
+hy;Hacik;Hatsik
+ru;Ацик;Hatsik
+hy;Ծաղկուտ;Tsaghkut
+hy;Caxkut;Tsaghkut
+ru;Цахкут;Tsaghkut
+hy;Կանչ;Kanch
+ru;Канч;Kanch
+hy;Գոմշավար;Gomshavar
+hy;Գոմշավան;Gomshavar
+hy;Գոմշաջուր;Gomshavar
+en;Gomshavan;Gomshavar
+en;Gomshajur;Gomshavar
+ru;Гомшавар;Gomshavar
+ru;Гомшаван;Gomshavar
+ru;Гомшаджур;Gomshavar
+ru;Гомер;Gomer
+hy;Գոգավան;Gogavan
+ru;Гогаван;Gogavan
+ar;غينفيت، أرارات;Ginevet
+fa;گینوت;Ginevet
+hy;Ղազարավան;Ghazaravan
+ru;Газараван;Ghazaravan
+hy;Ազնվաձոր;Aznvadzor
+ru;Азнвадзор;Aznvadzor
+hy;Գետք;Getk
+hy;Getq;Getk
+ru;Гетк;Getk
+hy;Կիրանց;Kirants
+hy;Kiranc;Kirants
+ru;Киранц;Kirants
+hy;Կեիանց;Kirants
+en;Keiants;Kirants
+ru;Кеианц;Kirants
+en;Getapi;Getap
+hy;Գետափի;Getap
+ru;Гетапи;Getap
+hy;Գետամեջ;Getamej
+ru;Гетамедж;Getamej
+az;Aysorgöl;Gyughadzor
+fa;گلایسور;Gyughadzor
+nl;Gelaysor;Gyughadzor
+hy;Գյուղաձոր;Gyughadzor
+ru;Гюхадзор;Gyughadzor
+hy;Գեղարոտ;Gegharot
+hy;Gexarot;Gegharot
+ru;Гегарот;Gegharot
+ru;Гехард;Geghard
+hy;Գեղարդ;Geghard
+hy;Gexard;Geghard
+hy;Գեղանիստ;Geghanist
+hy;Gexanist;Geghanist
+hy;Գեղադիր;Geghanist
+en;Geghadir;Geghanist
+ru;Гехадир;Geghanist
+ru;Геханист;Geghanist
+ru;Гехадир;Geghadir
+hy;Գեղադիր;Geghadir
+hy;Gexadir;Geghadir
+ru;Гегадир;Geghadir
+hy;Գեղամաբակ;Geghamabak
+az;Qayabaşı;Geghamabak
+hy;Gexamabak;Geghamabak
+ru;Гегамабак;Geghamabak
+hy;Geghak’ar;Geghakar
+hy;Գեղաքար;Geghakar
+hy;Gexaqar;Geghakar
+ru;Гегакар;Geghakar
+hy;Garrnahovit;Garnahovit
+hy;Գառնահովիտ;Garnahovit
+ru;Гарнаховит;Garnahovit
+ru;Дзорашен;Dzorashen
+ru;Karakilisa Tret’ya;Dzorashen
+ru;Дзорахбюр;Dzoraghbyur
+hy;Ձորաղբյուր;Dzoraghbyur
+hy;Dzoraxbyur;Dzoraghbyur
+hy;Ձորակապ;Dzorakap
+ru;Дзоракап;Dzorakap
+ru;Дзорагюх;Dzoragyugh
+hy;Ձորագլուխ;Dzoraglukh
+hy;Dzoraglux;Dzoraglukh
+ru;Дзораглух;Dzoraglukh
+ru;Джрашен;Jrashen
+hy;Ջրաշեն;Jrashen
+ru;Джрарат;Jrarat
+hy;Ջրառատ;Jrarat
+hy;Jrarrat;Jrarat
+ru;Джрадзор;Jradzor
+hy;Ջրաձոր;Jradzor
+hy;Ջրաբեր;Jraber
+ru;Джрабер;Jraber
+hy;Berqaber;Berkaber
+hy;Բերքաբեր;Berkaber
+ru;Беркабер;Berkaber
+hy;Ջիլիզա;Jiliza
+ru;Джилиза;Jiliza
+hy;Ջիլզա;Jiliza
+hy;Ջիլիզ;Jiliza
+hy;Ջիլիչ;Jiliza
+hy;Ջիլդի;Jiliza
+en;Jilza;Jiliza
+en;Jiliz;Jiliza
+en;Jilich;Jiliza
+en;Jildi;Jiliza
+ru;Джилза;Jiliza
+ru;Джилиз;Jiliza
+ru;Джилич;Jiliza
+ru;Джилди;Jiliza
+hy;Ջամշլու;Jamshlu
+ru;Джамшлу;Jamshlu
+ru;Дзорагюх;Dvoragyukh
+ru;Двин;Dvin
+hy;Դվին;Dvin
+en;Dovekh;Dovegh
+az;Dovex;Dovegh
+hy;Դովեղ;Dovegh
+hy;Dovex;Dovegh
+ru;Довех;Dovegh
+hy;Դովեգ;Dovegh
+en;Doveg;Dovegh
+ru;Довег;Dovegh
+hy;Դովեխ;Dovegh
+hy;Դվեղ;Dovegh
+en;Dvegh;Dovegh
+ru;Двех;Dovegh
+hy;Դիտավան;Ditavan
+ru;Дитаван;Ditavan
+hy;Դիտակ;Ditak
+ru;Дитак;Ditak
+hy;Դիան;Dian
+hy;Ditavan;Dian
+ru;Диан;Dian
+hy;Davt’ashen;Davtashen
+hy;Դավթաշեն;Davtashen
+ru;Давташен;Davtashen
+hy;Դաշտ;Dasht
+ru;Дашт;Dasht
+hy;Դարիկ;Darik
+ru;Дарик;Darik
+hy;Դարանակ;Daranak
+ru;Даранак;Daranak
+hy;Ch’k’nagh;Chknagh
+hy;Չքնաղ;Chknagh
+hy;Chqnax;Chknagh
+ru;Чкнах;Chknagh
+hy;Չկալով;Chkalov
+ru;Чкалов;Chkalov
+az;Çinçin;Chinchin
+hy;Չինչին;Chinchin
+ru;Чинчин;Chinchin
+hy;Չենչին;Chinchin
+hy;Չիչին;Chinchin
+en;Chenchin;Chinchin
+en;Chichin;Chinchin
+hy;Mak’enis;Makenis
+hy;Մաքենիս;Makenis
+en;Chichakli;Makenis
+fa;چیچکلی، گغارکونیک;Makenis
+nl;Chichakli;Makenis
+hy;Maqenis;Makenis
+ru;Макенис;Makenis
+ru;Чаренцаван;Charentsavan
+hy;Ch’arents’avan;Charentsavan
+hy;Չարենցավան;Charentsavan
+de;Tscharenzawan;Charentsavan
+fi;Tšarentsavan;Charentsavan
+be;Чарэнцаван;Charentsavan
+bg;Чаренцаван;Charentsavan
+lt;Čarencavanas;Charentsavan
+uk;Чаренцаван;Charentsavan
+ka;ჩარენცავანი;Charentsavan
+sr;Чаренцаван;Charentsavan
+mzn;چارنتساوان;Charentsavan
+ce;Чаренцаван;Charentsavan
+sv;Tjarentsavan;Charentsavan
+el;Τσαρεντσαβάν;Charentsavan
+et;Tšharentshavan;Charentsavan
+cs;Čarencavan;Charentsavan
+ar;تشارنتساوان;Charentsavan
+nb;Tjarentsavan;Charentsavan
+hsb;Čarencawan;Charentsavan
+az;Çarentsavan;Charentsavan
+fa;چارنتساوان;Charentsavan
+pl;Charentsawan;Charentsavan
+tr;Çarentsavan;Charentsavan
+hy;Charencavan;Charentsavan
+ru;Чамбарак;Chambarak
+be;Чамбарак;Chambarak
+bg;Чамбарак;Chambarak
+lt;Čambarakas;Chambarak
+fr;Tjambarak;Chambarak
+hy;Ճամբարակ;Chambarak
+uk;Чамбарак;Chambarak
+ka;ჭამბარაკი;Chambarak
+sr;Чамбарак;Chambarak
+ml;ചംബരാക്;Chambarak
+mzn;چامباراک;Chambarak
+ce;Чамбарак;Chambarak
+sv;Tjambarak;Chambarak
+el;Τσαμπαράκ;Chambarak
+zh;查巴拉克;Chambarak
+et;Tšambarak;Chambarak
+cs;Čambarak;Chambarak
+ar;تشامباراك;Chambarak
+hsb;Čambarak;Chambarak
+ja;チャムバラク;Chambarak
+az;Çəmbərək;Chambarak
+fa;چامباراک;Chambarak
+pl;Czambarak;Chambarak
+hy;Բերդկունք;Berdkunk
+ru;Бердкунк;Berdkunk
+hy;Բաշգյուղ;Bashgyugh
+hy;Bashgyux;Bashgyugh
+hy;Բաշգեղ;Bashgyugh
+hy;Երկրորդ Բաշգյուղ;Bashgyugh
+hy;Մեծ Բաշգյուղ;Bashgyugh
+hy;Պաշգյուղ;Bashgyugh
+en;Mets Bashgyugh;Bashgyugh
+ru;Башгюх;Bashgyugh
+ru;Башгех;Bashgyugh
+ru;Мец Башгюх;Bashgyugh
+hy;Բարեպատ;Barepat
+ru;Барепат;Barepat
+hy;Բանդիվան;Bandivan
+hy;Բանդեվան;Bandivan
+hy;Պենտեվան;Bandivan
+ru;Бандиван;Bandivan
+hy;Բագրավան;Bagravan
+ru;Баграван;Bagravan
+hy;Ազատաշեն;Azatashen
+ru;Азаташен;Azatashen
+az;Azad;Azat
+hy;Ազատ;Azat
+ru;Азат;Azat
+ru;Дашкенд;Ayrk
+hy;Այրք;Ayrk
+az;Daşkənd;Ayrk
+hy;Ayrq;Ayrk
+ru;Айкаван;Haykavan
+hy;Հայկավան;Haykavan
+ru;Хайкаван;Haykavan
+hy;Հայկասար;Haykasar
+ru;Хайкасар;Haykasar
+ru;Айкадзор;Haykadzor
+hy;Հայկաձոր;Haykadzor
+ru;Айгешат;Aygeshat
+hy;Այգեշատ;Aygeshat
+ru;Айгабац;Aygabats
+hy;Այգաբաց;Aygabats
+hy;Aygabac;Aygabats
+hy;Ծաղկոց;Tsaghkots
+hy;Caxkoc;Tsaghkots
+ru;Цахкоц;Tsaghkots
+en;Hendarli;Tsaghkots
+hy;Lernamerts;Lernamerdz
+hy;Lerrnamerdz;Lernamerdz
+hy;Լեռնամերձ;Lernamerdz
+ru;Лернамердз;Lernamerdz
+hy;Մեծաձոր;Metsadzor
+hy;Mecadzor;Metsadzor
+ru;Мецадзор;Metsadzor
+hy;Ավազան;Avazan
+ru;Авазан;Avazan
+hy;Hats’avan;Hatsavan
+hy;Hacavan;Hatsavan
+en;Atsashen;Hatsashen
+ru;Ацашен;Hatsashen
+hy;Hats’ashen;Hatsashen
+hy;Հացաշեն;Hatsashen
+hy;Hacashen;Hatsashen
+hy;Հացառատ;Atsarat
+ru;Ацарат;Atsarat
+fa;آتسارات;Atsarat
+fa;آتداش;Karadzi
+nl;Atdash;Karadzi
+hy;Քարաձի;Karadzi
+ru;Карадзи;Karadzi
+ru;Артимет;Artimet
+hy;Արտիմետ;Artimet
+ru;Атан;Atan
+hy;Աթան;Atan
+ru;Арцвашен;Artsvashen
+az;Başkənd;Artsvashen
+de;Arzwaschen;Artsvashen
+nl;Artsvasjen;Artsvashen
+ar;آرتسواشن;Artsvashen
+et;Artsvašen;Artsvashen
+fa;آرتسواشن;Artsvashen
+fi;Artsvašen;Artsvashen
+hy;Արծվաշեն;Artsvashen
+ja;アルツヴァシェン;Artsvashen
+ka;არწვაშენი;Artsvashen
+lt;Arcvašenas;Artsvashen
+ro;Arțvașen;Artsvashen
+sr;Арцвашен;Artsvashen
+uk;Арцвашен;Artsvashen
+pl;Arcwaszen;Artsvashen
+hy;Arcvashen;Artsvashen
+ru;Арцвакар;Artsvakar
+hy;Արծնի;Artsni
+hy;Arcni;Artsni
+ru;Арцни;Artsni
+hy;Hart’avan;Hartavan
+hy;Հարթավան;Hartavan
+ru;Хартаван;Hartavan
+ru;Арташен;Hartashen
+hy;Հարթաշեն;Hartashen
+ru;Арташаван;Artashavan
+hy;Արտաշավան;Artashavan
+hy;Արտաշար;Artashar
+ru;Арташар;Artashar
+hy;Արփունք;Arpunk
+ru;Арпунк;Arpunk
+ru;Арпени;Arpeni
+hy;Արփենի;Arpeni
+hy;Արմանիս;Armanis
+ru;Арманис;Armanis
+ru;Арич;Harich
+hy;Հառիճ;Harich
+hy;Հառիչ;Harich
+hy;Հառիջ;Harich
+ru;Аргаванд;Argavand
+hy;Արգավանդ;Argavand
+ru;Аревшат;Arevshat
+hy;Արևշատ;Arevshat
+hy;Արեվշատ;Arevshat
+ru;Аревик;Arevik
+hy;Արևիկ;Arevik
+hy;Արեվիկ;Arevik
+ru;Аревашат;Arevashat
+hy;Արևաշատ;Arevashat
+hy;Արեվաշատ;Arevashat
+ru;Гюней;Areguni
+hy;Արեգունի;Areguni
+hy;Արդվի;Ardvi
+ru;Ардви;Ardvi
+hy;Արդու;Ardvi
+en;Ardu;Ardvi
+ru;Арду;Ardvi
+hy;Արտվի;Ardvi
+en;Artvi;Ardvi
+ru;Артви;Ardvi
+hy;Արդենիս;Ardenis
+ru;Арденис;Ardenis
+hy;Arak’s;Araks
+hy;Արաքս;Araks
+hy;Araqs;Araks
+ru;Аракс;Araks
+hy;Արայի;Arayi
+ru;Арайи;Arayi
+ru;Арагац;Aragats
+hy;Արագած;Aragats
+hy;Aragac;Aragats
+ru;Арагатс;Aragats
+hy;Ափնագյուղ;Apnagyugh
+ru;Апнагюх;Apnagyugh
+hy;Ապավեն;Apaven
+ru;Апавен;Apaven
+hy;Antarrut;Antarut
+hy;Անտառուտ;Antarut
+ru;Антарут;Antarut
+hy;Անտառամեջ;Antaramej
+ru;Антарамедж;Antaramej
+hy;Անտառամուտ;Antaramut
+ru;Антарамут;Antaramut
+ru;Анкаван;Hankavan
+hy;Hank’avan;Hankavan
+hy;Հանքավան;Hankavan
+hy;Hanqavan;Hankavan
+ru;Анипемза;Anipemza
+hy;Անիպեմզա;Anipemza
+hy;Ամոջ;Amoj
+ru;Амодж;Amoj
+ru;Амаджа;Amoj
+hy;Ամաջա;Amoj
+en;Amaja;Amoj
+hy;Ամոճ;Amoj
+hy;Ամոջա;Amoj
+hy;Ամոջկա;Amoj
+hy;Ամորջի;Amoj
+hy;Ամվոճ;Amoj
+hy;Ամվոչ;Amoj
+hy;Ամվոջ;Amoj
+en;Amoch;Amoj
+en;Amoja;Amoj
+en;Amojka;Amoj
+en;Amorji;Amoj
+en;Amvoch;Amoj
+en;Amvoj;Amoj
+ru;Амоджа;Amoj
+ru;Амоджка;Amoj
+ru;Аморджи;Amoj
+ru;Амводж;Amoj
+ru;Амвоч;Amoj
+ru;Амоч;Amoj
+hy;Ամասիա;Amasia
+ru;Амасия;Amasia
+hy;Համասիա;Amasia
+hy;Ալվար;Alvar
+ru;Алвар;Alvar
+hy;Լեռնաջուր;Lernajur
+ru;Лернаджур;Lernajur
+ru;Акунк;Akunk
+hy;Ակունք;Akunk
+hy;Akunq;Akunk
+ru;Акнер;Akner
+en;Hakko;Hako
+ru;Акко;Hako
+hy;Hakko;Hako
+hy;Հակո;Hako
+hy;Հակկո;Hako
+hy;Հաղթանակ;Haghtanak
+hy;Haxtanak;Haghtanak
+ru;Ахтанак;Haghtanak
+hy;Ահնիձոր;Ahnidzor
+hy;Ահկաձոր;Ahnidzor
+hy;Ահնազար;Ahnidzor
+hy;Ահնիզար;Ahnidzor
+hy;Ահնիզարավար;Ahnidzor
+hy;Ահնիզոր;Ahnidzor
+hy;Ահնիզորավար;Ahnidzor
+hy;Անիզոր;Ahnidzor
+hy;Անիզորավար;Ahnidzor
+hy;Հայնազար;Ahnidzor
+hy;Հայնիզարավար;Ahnidzor
+en;Ahnazar;Ahnidzor
+ru;Ахнидзор;Ahnidzor
+hy;Axavnadzor;Aghavnadzor
+hy;Աղվերան;Aghveran
+ru;Агверан;Aghveran
+hy;Աղվորիկ;Aghvorik
+hy;Axvorik;Aghvorik
+ru;Агворик;Aghvorik
+hy;Ագրագ;Agarak
+hy;Ագրակ;Agarak
+hy;Ակրակ;Agarak
+hy;Աքրաք;Agarak
+hy;Էգրակ;Agarak
+hy;Էգրեկ;Agarak
+hy;Էկրեկ;Agarak
+hy;Էրքեկ;Agarak
+hy;Էքրեք;Agarak
+en;Agrag;Agarak
+en;Agrak;Agarak
+en;Akrak;Agarak
+en;Egrak;Agarak
+en;Egrek;Agarak
+en;Ekrek;Agarak
+en;Erkek;Agarak
+ru;Аграг;Agarak
+ru;Аграк;Agarak
+ru;Акрак;Agarak
+ru;Эграк;Agarak
+ru;Эгрек;Agarak
+ru;Экрек;Agarak
+ru;Эркек;Agarak
+hy;Ագարակավան;Agarakavan
+ru;Агаракаван;Agarakavan
+hy;Զովասար;Zovasar
+ru;Зовасар;Zovasar
+en;Vartablur;Vardablur
+hy;Վարտաբլուր;Vardablur
+hy;Վարտապլուր;Vardablur
+en;Vartaplur;Vardablur
+ru;Вартаблур;Vardablur
+ru;Вартаплур;Vardablur
+ru;Нор-Кесария;Nor-Kesariya
+ru;Агкилиса;Agkilisa
+ru;Ишаранди;Isharandi
+ru;Авагабинапер;Avagabinaper
+ru;Кизил-Кулаг;Kizil-Kulag
+ru;Шаваршаван;Shavarshavan
+hy;Բենդիկ;Bendik
+ru;Бендик;Bendik
+ru;Беник;Bendik
+hy;Բենիկ;Bendik
+en;Benik;Bendik
+ru;Кочки;Kochki
+ru;Тегут;Teghut
+hy;K’asakh;Kasakh
+hy;Քասախ;Kasakh
+hy;Qasax;Kasakh
+ru;Касах;Kasakh
+hy;Գայ;Gay
+hy;Gai;Gay
+ru;Гай;Gay
+ru;Вскехат;Voskehat
+hy;Գրիբոյեդով;Griboyedov
+ru;Грибоедов;Griboyedov
+hy;Ֆերիկ;Ferik
+ru;Ферик;Ferik
+hy;Sip’anik;Sipanik
+hy;Սիփանիկ;Sipanik
+ru;Сипаник;Sipanik
+hy;Նոր Եդեսիա;Nor Yedesia
+ru;Нор Едесия;Nor Yedesia
+ru;Нор Аманос;Nor Amanos
+hy;Nor Artanet;Nor Artamet
+hy;Նոր Արտամետ;Nor Artamet
+ru;Нор Артамет;Nor Artamet
+ru;Авазак;Avazan
+en;Avazak;Avazan
+fa;آوازاک;Avazan
+nl;Avazak;Avazan
+hy;Ջրամբար;Jrambar
+ru;Джрамбар;Jrambar
+hy;Arak’savan;Araksavan
+hy;Արաքսավան;Araksavan
+hy;Araqsavan;Araksavan
+ru;Араксаван;Araksavan
+hy;Արևաբույր;Arevabuyr
+hy;Արեվաբույր;Arevabuyr
+ru;Аревабуйр;Arevabuyr
+hy;Նոր Կյուրին;Nor Kyurin
+ru;Нор Кйурин;Nor Kyurin
+hy;Getap’nya;Getapnya
+hy;Գետափնյա;Getapnya
+ru;Гетапня;Getapnya
+ru;Ланджазат;Lanjazat
+hy;Նարեկ;Narek
+ru;Нарек;Narek
+hy;Վանանդ;Vanand
+ru;Вананд;Vanand
+hy;Կարմիր Աղեկ;Karmir Aghek
+hy;Աղեգի;Karmir Aghek
+hy;Կարմիր Աղեգի;Karmir Aghek
+hy;Կարմիր Աղեգ;Karmir Aghek
+hy;Կարմիր Աղեգին;Karmir Aghek
+en;Agiki;Karmir Aghek
+ru;Кармир Агек;Karmir Aghek
+ru;Агики;Karmir Aghek
+hy;Նոր Կեսարիա;Nor Kesaria
+ru;Нор Кесариа;Nor Kesaria
+ru;Карин;Karin
+ru;Арайи Хогамасер;Arayi Hoghamaser
+hy;Սադունց;Sadunts
+hy;Sadunc;Sadunts
+ru;Садунц;Sadunts
+hy;Դեղձավան;Deghdzavan
+hy;Dexdzavan;Deghdzavan
+ru;Дехдзаван;Deghdzavan
+hy;Արգինա;Argina
+ru;Аргина;Argina
+hy;Արտամետ;Artamet
+ru;Артамет;Artamet
+hy;Արևադաշտ;Arevadasht
+hy;Արեվադաշտ;Arevadasht
+ru;Аревадашт;Arevadasht
+hy;Բրուտանոց;Brutanots’
+ru;Брутаноц;Brutanots’
+hy;Արմոք;Armok’
+ru;Армок;Armok’
+hy;Վրանատեղ;Vranategh
+ru;Вранатег;Vranategh
+hy;Միլի;Mili
+ru;Мили;Mili
+hy;Սպիտակ վանք;Spitak Vank’
+ru;Спитак ванк;Spitak Vank’
+hy;Աղոպեն;Aghopen
+ru;Агопен;Aghopen
+hy;Գենուտ;Genut
+ru;Генут;Genut
+hy;Մոխրոտ;Mokhrot
+ru;Мохрот;Mokhrot
+hy;Տափ;Tap’
+ru;Тап;Tap’
+hy;Արգիճի;Argichi
+ru;Аргичи;Argichi
+ru;Цахкашен;Tsaghkashen
+hy;Մեծ Արգիճի;Mets Argichi
+ru;Мец-Айриджа;Mets Argichi
+hy;Սպիտակաղբյուր;Spitakaghbyur
+ru;Спитакахпюр;Spitakaghbyur
+hy;Փոքր Արգիճի;Pokr Argichi
+ru;Покр-Айриджа;Pokr Argichi
+hy;Օրորոցաքարի;Ororots’ak’ari
+ru;Оророцакари;Ororots’ak’ari
+hy;Վահագնաձոր;Vahagnadzor
+ru;Ваагнадзор;Vahagnadzor
+hy;Ճամփատեղի;Champ’ateghi
+ru;Чампатеги;Champ’ateghi
+hy;Աղաջանյանի;Aghajanyani
+ru;Агаджаняни;Aghajanyani
+hy;Արարատ-1;Ararat-1
+ru;Арарат-1;Ararat-1
+hy;Արարատ-2;Ararat-2
+ru;Арарат-2;Ararat-2
+hy;Ղազարյան;Ghazaryan
+ru;Газарян;Ghazaryan
+hy;Շիկավեր;Shikaver
+ru;Шикавер;Shikaver
+hy;Երիզկոցք;Yerizkots’k’
+ru;Еризкоцк;Yerizkots’k’
+en;Martuni;Kopoy Var
+hy;Մարտունի;Kopoy Var
+hy;Կոփոյ Վար;Kopoy Var
+ru;Мартуни;Kopoy Var
+ru;Копой Вар;Kopoy Var
+hy;Աչիկ;Ach’ik
+ru;Ачик;Ach’ik
+hy;Ատիճանի Պապի Մելիքբեկի;Atichani Papi Melik’beki
+ru;Атичани Папи Меликбеки;Atichani Papi Melik’beki
+hy;Զևու;Zevu
+ru;Зеву;Zevu
+hy;Երեգիք;Yeregik’
+ru;Ерегик;Yeregik’
+hy;Թաթումարգ;T’at’umarg
+ru;Татумарг;T’at’umarg
+hy;Թնջումնաց;T’njumnats’
+ru;Тнджумнац;T’njumnats’
+hy;Ավերք;Averk’
+ru;Аверк;Averk’
+hy;Հացիկ;Hats’ik
+ru;Хацик;Hats’ik
+ru;Мец Сепасар;Mets Sepasar
+hy;Կողբավան;Koghbavan
+hy;Koxbavan;Koghbavan
+ru;Когбаван;Koghbavan
+hy;Տալվորիկ;Talvorik
+ru;Талворик;Talvorik
+ru;Далляр;Dalar
+hy;Ճլուտի;Chluti
+ru;Члути;Chluti
+hy;Ավազնոտց;Avaznots’
+ru;Авазноц;Avaznots’
+hy;Ավազուտ;Avazut
+ru;Авазут;Avazut
+hy;Ազատի;Azati
+ru;Азати;Azati
+hy;Սուրբ;Surb
+ru;Сурб;Surb
+hy;Ծիծեռնակաբերդ;Tsitserrnakaberd
+ru;Цицернакаберд;Tsitserrnakaberd
+hy;Կարմիր բլուր;Karmir Blur
+ru;Кармир блур;Karmir Blur
+hy;Նաիրի;Nairi
+ru;Наири;Nairi
+hy;Քրիստոնեության 1700-ամյակին;K’ristoneut’yan 1700-amyakin
+ru;Кристонеутян 1700-амякин;K’ristoneut’yan 1700-amyakin
+ru;Храздан;Hrazdan
+hy;Պատվո;Patvo
+ru;Патво;Patvo
+hy;Արաքս;Arak’s
+ru;Аракс;Arak’s
+hy;Էրեբունի;Erebuni
+ru;Эребуни;Erebuni
+hy;Կարապետյան Ա.;Karapetyan A.
+ru;Карапетян А.;Karapetyan A.
+hy;Բարձրադիր;Bardzradir
+ru;Бардзрадир;Bardzradir
+hy;Գեղմաղան;Geghmaghan
+ru;Гехмаган;Geghmaghan
+hy;Ջաղացաձոր;Jaghats’adzor
+ru;Джагацадзор;Jaghats’adzor
+ru;Севакатар;Sevakatar
+hy;Խնուսիկ;Khnusik
+hy;Xnusik;Khnusik
+ru;Хнусик;Khnusik
+hy;Դպրեվանք;Dprevank
+hy;Dprevanq;Dprevank
+ru;Дпреванк;Dprevank
+hy;Պարտիզակ;Partizak
+ru;Партизак;Partizak
+hy;Ot’evan;Otevan
+hy;Օթևան;Otevan
+ru;Отеван;Otevan
+hy;Անիավան;Aniavan
+ru;Аниаван;Aniavan
+hy;Դատավորաց;Datavorats’
+ru;Датаворац;Datavorats’
+hy;Սև ամրոց;Sev Amrots’
+ru;Сев амроц;Sev Amrots’
+hy;Գեղ;Gegh
+ru;Гег;Gegh
+hy;Մահտեսու տներ;Mahtesu Tner
+ru;Махтесу тнер;Mahtesu Tner
+hy;Տափառու;Tap’arru
+ru;Тапару;Tap’arru
+hy;Արծվի;Artsvi
+ru;Арцви;Artsvi
+hy;Սևաժայռ;Sevazhayr
+hy;Սեվաժայռ;Sevazhayr
+hy;Sevajayr;Sevazhayr
+en;Sevazhire;Sevazhayr
+fa;سواژایر;Sevazhayr
+ru;Севажайр;Sevazhayr
+ka;სევაჟაირი;Sevazhayr
+hy;Տափ;Tap
+ru;Тап;Tap
+hy;Արջաձոր;Arjadzor
+ru;Арджадзор;Arjadzor
+hy;Ձորք;Dzork’
+ru;Дзорк;Dzork’
+hy;Hart’ashen;Hartashen
+az;Zəngəzur;Hartashen
+ru;Харташен;Hartashen
+hy;Վլոյի;Vloyi
+ru;Влойи;Vloyi
+hy;Ծվստան;Tsvstan
+ru;Цвстан;Tsvstan
+hy;Լուսակն;Lusakn
+ru;Лусакн;Lusakn
+hy;Տոնոյի;Tonoyi
+ru;Тонойи;Tonoyi
+hy;Արևուտ;Arevut
+ru;Аревут;Arevut
+hy;Նոր Արտագերս;Nor Artagers
+ru;Нор Артагерс;Nor Artagers
+hy;Հին ջերմոցներ;Hin Jermots’ner
+ru;Хин джермоцнер;Hin Jermots’ner
+hy;Երիցատափ;Yerits’atap’
+ru;Ерицатап;Yerits’atap’
+ru;Драхтик;Drakhtik
+hy;Ջրարբի;Jrarbi
+ru;Джрарби;Jrarbi
+hy;Կաթնաղբյուր;Kat’naghbyur
+ru;Катнагбйур;Kat’naghbyur
+hy;Դահնակս;Dahnaks
+ru;Дахнакс;Dahnaks
+hy;Ավերակ;Averak
+ru;Аверак;Averak
+hy;Ավերակ Դահնակս;Averak Dahnaks
+ru;Аверак Дахнакс;Averak Dahnaks
+hy;Մոշաղբյուր;Moshaghbyur
+ru;Мошагбйур;Moshaghbyur
+hy;Աստղաբերդ;Astghaberd
+ru;Астгаберд;Astghaberd
+hy;Փերեզակի ավետարան;P’erezaki Avetaran
+ru;Перезаки аветаран;P’erezaki Avetaran
+hy;Շառլ Ազնավուրի;Sharrl Aznavuri
+ru;Шарл Азнавури;Sharrl Aznavuri
+hy;Շողակն;Shoghakn
+hy;Shoxakn;Shoghakn
+ru;Шогакн;Shoghakn
+ru;Зуйгагбюр;Zuygaghbyur
+hy;Նահատակի;Nahataki
+ru;Нахатаки;Nahataki
+hy;Ճերմակ;Chermak
+ru;Чермак;Chermak
+hy;Մանկանոց;Mankanots’
+ru;Манканоц;Mankanots’
+hy;Բարդիների;Bardineri
+ru;Бардинери;Bardineri
+hy;Քաղաքային;K’aghak’ayin
+ru;Кагакайин;K’aghak’ayin
+hy;Բակունց Ա.;Bakunts’ A.
+az;Gorus;Bakunts’ A.
+ru;Бакунц А.;Bakunts’ A.
+hy;Մելիք-Բարխուդարյանի;Melik’-Barkhudaryani
+ru;Мелик-Бархударяни;Melik’-Barkhudaryani
+hy;Սևանի;Sevani
+ru;Севани;Sevani
+hy;Սուրբ Դավիթ;Surb Davit’
+ru;Сурб Давит;Surb Davit’
+hy;Խաչի ծառ;Khach’i Tsarr
+ru;Хачи цар;Khach’i Tsarr
+hy;Ախուրյան կայարան;Akhuryan kayaran
+hy;Ախուրյան երկաթգծի կայարանին կից ավան;Akhuryan kayaran
+hy;Ախուրյան;Akhuryan kayaran
+en;Akhuryan Station;Akhuryan kayaran
+en;Akhuryan;Akhuryan kayaran
+en;Akhuryan Railway Station Settlement;Akhuryan kayaran
+en;Akhuryan yerkatgtsi kayaranin kits avan;Akhuryan kayaran
+ru;Ахурян;Akhuryan kayaran
+ru;Ахурян каяран;Akhuryan kayaran
+ru;Ахурян еркагци каяранин киц аван;Akhuryan kayaran
+ru;Станция Ахурян;Akhuryan kayaran
+ru;Железнодорожной станции Ахурян поселок;Akhuryan kayaran
+hy;Սարագյուղ;Saragyugh
+hy;Saragyux;Saragyugh
+hy;Սարագյուխ;Saragyugh
+ru;Сарагюх;Saragyugh
+hy;Ոսկեբակ;Oskebak
+ru;Вскебак;Oskebak
+hy;Անապատ;Anapat
+ru;Анапат;Anapat
+hy;ՈՒղեո;Ugheo
+ru;Вгео;Ugheo
+hy;Գթաշեն;Gt’ashen
+ru;Гташен;Gt’ashen
+hy;Սարդուր Բ-ի;Sardur B-i
+ru;Сардур Б-и;Sardur B-i
+hy;Մեջլում;Mejlum
+ru;Меджлум;Mejlum
+hy;Կարճավրան;Karchavran
+ru;Карчавран;Karchavran
+hy;Շնագայլ;Shnagayl
+ru;Шнагайл;Shnagayl
+hy;Քարուտ;K’arut
+ru;Карут;K’arut
+hy;Ազատամարտիկների;Azatamartikneri
+ru;Азатамартикнери;Azatamartikneri
+hy;Դեսին;Desin
+ru;Десин;Desin
+hy;Զորանիստ;Zoranist
+ru;Зоранист;Zoranist
+hy;Արքա;Ark’a
+ru;Арка;Ark’a
+hy;Մեծուտ;Metsut
+ru;Мецут;Metsut
+hy;Մուրադանց;Muradants
+ru;Мураданц;Muradants
+hy;Ջուխտակ;Jukhtak
+ru;Джухтак;Jukhtak
+hy;Սիսիբերդ;Sisiberd
+ru;Сисиберт;Sisiberd
+hy;Ջրհոր;Jrhor
+ru;Джрхор;Jrhor
+hy;Երիտասարդական;Yeritasardakan
+ru;Еритасардакан;Yeritasardakan
+hy;Antarrasherti;Antarasherti
+hy;Անտառաշերտի;Antarasherti
+ru;Антарашерти;Antarasherti
+hy;Իգատակ;Igatak
+ru;Икитак;Igatak
+hy;Ճղուտ;Chghut
+ru;Чгут;Chghut
+hy;Խաչի բացատ;Khachi Batsat
+ru;Хачи бацат;Khachi Batsat
+hy;Գալուստի;Galusti
+ru;Галусти;Galusti
+hy;Կատատ;Katat
+ru;Катат;Katat
+hy;Միջի քիթ;Miji Kit
+ru;Мичикинт;Miji Kit
+hy;Տվարագեղ;Tvaragegh
+ru;Тварагег;Tvaragegh
+hy;Օտարաց;Otarats
+ru;Отарац;Otarats
+hy;Առողջարանին կից;Aroghjaranin Kits
+hy;Aroxjaranin kic;Aroghjaranin Kits
+ru;Арогджаранин киц;Aroghjaranin Kits
+hy;Արջիր;Arjir
+ru;Арджир;Arjir
+hy;Խազի ճալա;Khazi Chala
+ru;Хази чала;Khazi Chala
+hy;Սարիբեկի գոմեր;Saribeki Gomer
+ru;Сарибеки гомер;Saribeki Gomer
+hy;Քարկոփ;Karkop
+hy;Qarkop;Karkop
+ru;Каркоп;Karkop
+hy;Այգեհովտի;Aygehovti
+ru;Айгеховти;Aygehovti
+hy;Սրբվանես;Srbvanes
+ru;Србванес;Srbvanes
+hy;Bats’at;Batsat
+hy;Բացատ;Batsat
+ru;Бацат;Batsat
+hy;Ենոքատուն;Yenok’atun
+ru;Енокатун;Yenok’atun
+hy;Խոզավրան;Khozavran
+ru;Хозавран;Khozavran
+hy;Նավատեղ;Navategh
+ru;Наватех;Navategh
+hy;Տլորթատեղ;Tlortategh
+ru;Тлортатех;Tlortategh
+hy;Փորթ-փորթ;Port-port
+hy;Պորտ-պորտ;Port-port
+ru;Порт-порт;Port-port
+hy;Միջնաշեն;Mijnashen
+ru;Миджнашен;Mijnashen
+hy;Մաճ;Mach
+ru;Мач;Mach
+hy;Լույս Խաչ;Luys Khach’
+ru;Луйс Хач;Luys Khach’
+hy;Դամբարանք;Dambarank’
+ru;Дамбаранк;Dambarank’
+hy;Առվտնոց;Arrvtnots’
+ru;Арвтноц;Arrvtnots’
+hy;Ըրկենանց;Yrkenants
+hy;Erkenants';Yrkenants
+hy;Yrkenanc;Yrkenants
+ru;Ёркенанц;Yrkenants
+hy;Կմեզն;Kmezn
+ru;Кмезн;Kmezn
+hy;Ծավիկ Խաչ;Tsavik Khach’
+ru;Цавик Хач;Tsavik Khach’
+hy;Սարգսենց;Sargsents’
+ru;Саргсенц;Sargsents’
+hy;Փուլաձոր;P’uladzor
+ru;Пуладзор;P’uladzor
+hy;Սյունիքի;Syunik’i
+ru;Сйуники;Syunik’i
+hy;Քարահունջ Աստղադիտարան;K’arahunj Astghaditaran
+ru;Карахундж Астгадитаран;K’arahunj Astghaditaran
+hy;Իշխանաց;Ishkhanats’
+ru;Ишханац;Ishkhanats’
+hy;Պատեր;Pater
+ru;Патер;Pater
+hy;Քոլեր;K’oler
+ru;Колер;K’oler
+hy;Ամայիսար;Amayisar
+ru;Амайисар;Amayisar
+hy;Ահասար;Ahasar
+ru;Ахасар;Ahasar
+hy;Քալաս;K’alas
+ru;Калас;K’alas
+hy;Ներքին Վասակաշեն;Nerk’in Vasakashen
+ru;Неркин Васакашен;Nerk’in Vasakashen
+hy;Գետարգել;Getargel
+ru;Гетаргел;Getargel
+hy;Սարանիստ;Saranist
+ru;Саранист;Saranist
+hy;Պանդուխտ;Pandukht
+ru;Пандухт;Pandukht
+hy;Թույների գերեզմանոց;T’uyneri Gerezmanots’
+ru;Туйнери герезманоц;T’uyneri Gerezmanots’
+hy;Իսահակյան Ա.;Isahakyan A.
+ru;Исахакян А.;Isahakyan A.
+hy;Արաբկիրի;Arabkiri
+ru;Арабкири;Arabkiri
+hy;Ժամացույցի գործարանի;Zhamats’uyts’i Gortsarani
+ru;Жамацюци горцарани;Zhamats’uyts’i Gortsarani
+hy;Երևանի;Yerevani
+ru;Еревани;Yerevani
+hy;Խալդի;Khaldi
+ru;Халди;Khaldi
+hy;Հուշաբլուր;Hushablur
+ru;Хушаблур;Hushablur
+hy;Մուշական - 1;Mushakan - 1
+ru;Мушакан - 1;Mushakan - 1
+hy;Մուշական - 2;Mushakan - 2
+ru;Мушакан - 2;Mushakan - 2
+hy;Աբովյան Խ.;Abovyan Kh.
+ru;Абовян Х.;Abovyan Kh.
+hy;Դեմիրճյան Դ.;Demirchyan D.
+ru;Демирчян Д.;Demirchyan D.
+hy;Թեքեյան Վ.;T’ek’eyan V.
+ru;Текеян В.;T’ek’eyan V.
+hy;Թումանյան Հ.;T’umanyan H.
+ru;Туманян Х.;T’umanyan H.
+hy;Խաչատրյան Ա.;Khach’atryan A.
+ru;Хачатрян А.;Khach’atryan A.
+hy;Հայաստան;Hayastan
+ru;Хаястан;Hayastan
+hy;Մոսկովյան;Moskovyan
+ru;Московян;Moskovyan
+hy;Յոթ աղբյուր;Yot’ Aghbyur
+ru;Ёт Агбюр;Yot’ Aghbyur
+hy;Չարենց Ե.;Ch’arents’ Ye.
+ru;Чаренц Е.;Ch’arents’ Ye.
+hy;Ջոտտոյի;Jottoyi
+ru;Джоттойи;Jottoyi
+hy;Սարգսյան Ա. և Կոջոյան Հ.;Sargsyan A. Ev Kojoyan H.
+ru;Саргсян А. ев Коджоян Х.;Sargsyan A. Ev Kojoyan H.
+hy;Սարգսյան Վ.;Sargsyan V.
+ru;Саргсян В.;Sargsyan V.
+hy;Սարյան Մ.;Saryan M.
+ru;Сарян М.;Saryan M.
+hy;Սպենդիարյան Ա.;Spendiaryan A.
+ru;Спендиарян А.;Spendiaryan A.
+hy;Փարաջանով Ս.;P’arajanov S.
+ru;Параджанов С.;P’arajanov S.
+hy;Քոչար Ե.;K’och’ar Ye.
+ru;Кочар Е.;K’och’ar Ye.
+hy;Արմենակյան Ա.;Armenakyan A.
+ru;Арменакян А.;Armenakyan A.
+hy;Գյուղատեղի;Gyughateghi
+ru;Гйугатеги;Gyughateghi
+hy;Հակոբյան Տ.;Hakobyan T.
+ru;Хакобян Т.;Hakobyan T.
+hy;Չինարի ծառի;Ch’inari Tsarri
+ru;Чинари Цари;Ch’inari Tsarri
+hy;Ստեփանոս Սուրբ.;Step’anos Surb
+ru;Степанос Сурб.;Step’anos Surb
+hy;Քանաքեռ-Զեյթուն;K’anak’err-Zeyt’un
+ru;Канакер-Зейтун;K’anak’err-Zeyt’un
+hy;Ազատամարտիկ Հարությունին;Azatamartik Harut’yunin
+ru;Азатамартик Харутйунин;Azatamartik Harut’yunin
+hy;Զեյթունի;Zeyt’uni
+ru;Зейтуни;Zeyt’uni
+hy;Ժողովուրդների բարեկամության;Zhoghovurdneri Barekamut’yan
+ru;Жоговурднери барекамутян;Zhoghovurdneri Barekamut’yan
+hy;Հովհաննեսի;Hovhannesi
+ru;Ховханнеси;Hovhannesi
+hy;Պարոնյան Հ.;Paronyan H.
+ru;Паронян Х.;Paronyan H.
+hy;Ռուս սահմանապահների;Rrus Sahmanapahneri
+ru;Рус сахманапахнери;Rrus Sahmanapahneri
+hy;Ավատ;Avat
+ru;Ават;Avat
+hy;Չամանկուտ;Ch’amankut
+ru;Чаманкут;Ch’amankut
+hy;Սարոյի Խաչ;Saroyi Khach’
+ru;Саройи Хач;Saroyi Khach’
+hy;Սիմիզարի Խաչ;Simizari Khach’
+ru;Симизари Хач;Simizari Khach’
+hy;Մայրեկալ;Mayrekal
+az;Kolayır;Mayrekal
+ru;Майрекал;Mayrekal
+az;Yuxarı Mehrab;Khndzorut
+hy;Կենտրոնական;Kentronakan
+ru;Кентронакан;Kentronakan
+hy;Հուշարձանի;Hushardzani
+ru;Хушардзани;Hushardzani
+hy;Լիպոյի;Lipoyi
+ru;Липойи;Lipoyi
+hy;Ծերանոց;Tseranots’
+ru;Цераноц;Tseranots’
+hy;Հացիկավան;Hatsikavan
+hy;Hacikavan;Hatsikavan
+ru;Ацикаван;Hatsikavan
+hy;Ջաջուռավան;Jajuravan
+ru;Джаджураван;Jajuravan
+hy;Լիճ;Lich
+ru;Лич;Lich
+hy;Ներքին Դարկ;Nerk’in Dark
+ru;Неркин Дарк;Nerk’in Dark
+hy;Վերին Դարք;Verin Dark’
+ru;Верин Дарк;Verin Dark’
+hy;Խաչքար սար;Khach’k’ar Sar
+ru;Хачкар сар;Khach’k’ar Sar
+hy;Արջիկ;Arjik
+ru;Арджик;Arjik
+hy;Խոզաձոր;Khozadzor
+ru;Хозадзор;Khozadzor
+hy;Կապտատափ;Kaptatap’
+ru;Каптатап;Kaptatap’
+hy;Միշոյի;Mishoyi
+ru;Мишойи;Mishoyi
+hy;Պարսից;Parsits’
+ru;Парсиц;Parsits’
+hy;Սպասավորաց;Spasavorats’
+ru;Спасаворац;Spasavorats’
+hy;Սևաքար;Sevak’ar
+ru;Севакар;Sevak’ar
+hy;Վաչկատան;Vach’katan
+ru;Вачкатан;Vach’katan
+hy;Տոնիկ;Tonik
+ru;Тоник;Tonik
+hy;Nerk’in Khndzoresk;Nerkin Khndzoresk
+hy;Ներքին Խնձորեսկ;Nerkin Khndzoresk
+hy;Nerqin Xndzoresk;Nerkin Khndzoresk
+fa;نرکین خندزورسک;Nerkin Khndzoresk
+ka;ნერქინ-ხნძორესკი;Nerkin Khndzoresk
+ru;Неркин Хндзореск;Nerkin Khndzoresk
+hy;Աճարկուտ;Acharkut
+ru;Ачаркут;Acharkut
+hy;Կայան;Kayan
+ru;Каян;Kayan
+ru;Нждех;Nzhdeh
+hy;Ճանկաձոր;Chankadzor
+ru;Чанкадзор;Chankadzor
+hy;Քողտիկ;K’oghtik
+ru;Когтик;K’oghtik
+hy;Արջալ;Arjal
+ru;Арджал;Arjal
+hy;Քոբեր;Kobayr
+hy;Քոբայր;Kobayr
+hy;Qobayr;Kobayr
+hy;Կոբեր;Kobayr
+hy;Կոբայր;Kobayr
+en;Kober;Kobayr
+ru;Кобер;Kobayr
+ru;Кобайр;Kobayr
+hy;Անասնագոմ;Anasnagom
+ru;Анаснагом;Anasnagom
+hy;Լալվար;Lalvar
+ru;Лалвар;Lalvar
+hy;Ղազարի;Ghazari
+ru;Газари;Ghazari
+hy;Ռուստամաղբյուր;Rustamaghbyur
+ru;Рустамагбйур;Rustamaghbyur
+hy;Երկերեսա գոմեր;Yerkeresa Gomer
+ru;Еркереса гомер;Yerkeresa Gomer
+hy;Եղնախաղաց;Yeghnakhaghats
+ru;Егнахагац;Yeghnakhaghats
+hy;Անդորր;Andorr
+ru;Андорр;Andorr
+hy;Իշխանագեղ;Ishkhanagegh
+ru;Ишханагех;Ishkhanagegh
+hy;Ավան;Avan
+hy;Գասպարի;Gaspari
+ru;Гаспари;Gaspari
+hy;Թաթոսու թաս;T’at’osu T’as
+ru;Татосу тас;T’at’osu T’as
+hy;Երիցաթուփք;Yeritsatupk
+ru;Ерицатупк;Yeritsatupk
+hy;Ժանգոտ;Zhangot
+ru;Жангот;Zhangot
+hy;Խատուտիկ;Khatutik
+ru;Хатутик;Khatutik
+hy;Շավարշավան;Shavarshavan
+hy;Պայտանոց;Paytanots
+ru;Пайтаноц;Paytanots
+hy;Էրոհուդկուտ;Erohudkut
+ru;Эрохудкут;Erohudkut
+hy;Տաբլահաս;Tablahas
+ru;Таблахас;Tablahas
+hy;Քարջանի;Karjani
+ru;Карчанк;Karjani
+hy;Ծիլթև;Tsilt’ev
+ru;Цилтев;Tsilt’ev
+hy;Շատրվանային;Shatrvanayin
+ru;Шатрванайин;Shatrvanayin
+hy;Անտառաշեն;Antarashen
+ru;Антарашен;Antarashen
+hy;Շնիստ;Shnist
+ru;Шнист;Shnist
+ru;Гугути;Guguti
+hy;Սյունիք;Syunik
+hy;Syuniq;Syunik
+fa;سیونیک;Syunik
+ru;Сюник;Syunik
+ka;სიუნიქი;Syunik
+az;Sünik;Syunik
+hy;Բաբիկավան;Babikavan
+fa;بابیکاوان;Babikavan
+ru;Бабикаван;Babikavan
+hy;Ձորագետ;Dzoraget
+ru;Дзорагет;Dzoraget
+hy;Մոնթեավան;Monteavan
+hy;Mont'eavan;Monteavan
+ru;Монтеаван;Monteavan
+ka;მონტეავან;Monteavan
+hy;Ուղեձոր;Ughedzor
+ru;Угедзор;Ughedzor
+hy;Կարմիր;Karmir
+ru;Кармир;Karmir
+hy;Քարակուտ;K’arakut
+ru;Каракут;K’arakut
+ru;Верин Геташен;Verin Getashen
+ru;Норатус;Noratus
+ru;Неркин-Килиса;Nerkin Kilisa
+hy;Ներքին Քիլիսա;Nerkin Kilisa
+hy;Ձիատեղ;Dziategh
+ru;Дзиатех;Dziategh
+hy;Արմենասար;Armenasar
+ru;Арменасар;Armenasar
+hy;Վերին Կոզման;Verin Kozman
+ru;Верин Козман;Verin Kozman

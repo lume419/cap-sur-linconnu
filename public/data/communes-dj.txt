@@ -40,6 +40,7 @@
 930;42.2170,11.3043;DJ-06;Dikhil;Gorabous
 0;42.8413,10.9891;DJ-01;Ali Sabieh;Vasama
 0;42.5000,11.1667;DJ-06;Dikhil;Mouloud
+0;43.1528,11.6076;DJ;;Nakhchivan
 720;43.0753,11.4895;DJ-01;Ali Sabieh;Chabelley
 867;42.9053,11.9519;DJ-05;Tadjourah;Adailou
 501;43.1415,11.3915;DJ-01;Ali Sabieh;Ali Oune
@@ -50,6 +51,7 @@
 230;42.3634,12.3680;DJ-05;Tadjourah;Bouyya
 170;42.4063,11.5229;DJ-06;Dikhil;Koussour Koussour
 0;42.7854,12.0490;DJ-05;Tadjourah;Guirrari
+885;42.6485,11.0946;DJ;;Guelile
 0;43.3022,12.4535;DJ-04;Obock;Fagal
 1512;42.9374,12.1248;DJ-04;Obock;Egahlou
 153;42.6582,11.2139;DJ-06;Dikhil;Doudoub Bolole

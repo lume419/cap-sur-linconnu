@@ -245,7 +245,10 @@
 627;-23.5892,15.0669;CV-25;São Lourenço dos Órgãos;João Teves
 10038;-23.5308,15.1375;CV-16;Santa Cruz;Pedra Badejo
 24500;-22.9446,16.7552;CV-08;Sal;Espargos
+0;-23.6721,15.2038;CV;;Ribeira Principal
 361;-25.1196,17.1611;CV-07;Ribeira Grande;Boca de Coruja
+0;-24.4064,14.8895;CV;;Monte Grande
+0;-24.3584,14.8723;CV;;Achada Furna
 1811;-23.5670,15.1490;CV-16;Santa Cruz;Cancelo
 1117;-23.6000,15.1992;CV-18;São Filipe;Ponta Verde
 401;-23.5063,15.1044;CV-16;Santa Cruz;Achada Ponta
@@ -253,22 +256,41 @@
 1138;-25.1650,17.1140;CV-07;Ribeira Grande;Garça de Cima
 1071;-23.6680,15.1150;CV-15;Santa Catarina;Boa Entrada
 0;-23.6549,15.0057;CV-14;Praia;Achadinha
+0;-23.6700,15.1500;CV;;Achada Bel Bel
 408;-25.1258,17.1365;CV-07;Ribeira Grande;Caibros de Ribeira de Jorge
+0;-23.5369,14.9585;CV;;Achada São Filipe
 1228;-23.5966,15.1925;CV-19;São Miguel;Veneza
 1003;-25.2170,17.1000;CV-21;Porto Novo;Alto Mira
 833;-25.0880,17.1360;CV-07;Ribeira Grande;Corda
 539;-23.6517,15.0439;CV-23;Ribeira Grande de Santiago;Pico Leao
 61;-25.2350,17.1240;CV-21;Porto Novo;Cha de Branquinho
 609;-24.4085,15.0161;CV-18;São Filipe;Campanas de Baixo
+0;-23.6757,15.0679;CV;;Santo Gege
+256;-23.6563,15.1169;CV;;Entre Picos
+322;-24.9618,16.8800;CV;;Lameirao
+0;-24.9483,16.8608;CV;;Mato Ingles
 1252;-23.6599,15.1086;CV-15;Santa Catarina;Gil Bispo
 243;-25.2473,17.0900;CV-21;Porto Novo;Martiene
+853;-25.0240,17.1430;CV;;Eito
 1164;-23.7024,15.0922;CV-15;Santa Catarina;Cha de Tanque
+0;-22.9065,16.6185;CV;;Chã de Alecrim
 472;-24.3664,14.9676;CV-24;Santa Catarina do Fogo;Chã das Caldeiras
 75;-25.2000,17.1500;CV-07;Ribeira Grande;Ribeira Alta
 1086;-23.7053,15.1077;CV-15;Santa Catarina;Ribeirao Manuel
+0;-24.4999,14.8950;CV;;Monte Tabor
+0;-23.5803,15.0351;CV;;Agua Gatos
+335;-23.5878,15.1319;CV;;Ribeirão Boi
+0;-24.3796,14.8706;CV;;Queimada
+449;-24.3276,15.0238;CV;;Pai António
+64;-23.6628,15.2223;CV;;Chã de Ponta
 1025;-23.6180,15.0970;CV-26;São Salvador do Mundo;Achada Leitão
+1381;-23.6726,15.1046;CV;;Nhagar
+0;-24.9778,16.8822;CV;;Lombo Tamque
+461;-23.6925,15.1341;CV;;Mato Baixo
+632;-24.4500,14.9690;CV;;Lomba
 1841;-23.6777,15.1387;CV-15;Santa Catarina;Achada Lem
 0;-24.3298,14.9288;CV-24;Santa Catarina do Fogo;Tinteira
+176;-23.1215,15.1441;CV;;Ribeira Dom João
 102;-23.1049,15.2086;CV-04;Maio;Pilao Cao
 867;-23.6846,14.9509;CV-23;Ribeira Grande de Santiago;Porto Mosquito
 0;-22.9297,16.6056;CV-08;Sal;Ponta Preta

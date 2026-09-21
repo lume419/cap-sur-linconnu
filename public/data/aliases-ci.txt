@@ -349,3 +349,4 @@ tt;Сегела;Séguéla
 ru;Субре;Soubré
 ru;Бонон;Bonon
 ja;ポールジャンティ;Port-Gentil
+en;Kofibadukurom;Kobadukrom

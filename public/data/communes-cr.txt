@@ -1,3 +1,4 @@
+0;-84.7081,11.0658;;Alajuela Province;Los Solano
 0;-85.3142,11.0050;51002;Alajuela Province;América
 0;-85.4823,10.0966;50201;Guanacaste Province;Zompopa
 0;-83.2763,10.0288;70503;Limón Province;Zent
@@ -16,6 +17,7 @@
 0;-85.3000,10.0000;50903;Guanacaste Province;Zapotal
 0;-83.5091,9.3212;11905;San José;Zapotal
 0;-84.3332,9.6859;11205;San José;Zapatón
+0;-83.1440,8.5375;;Puntarenas Province;Zancudo
 0;-84.7840,10.0983;60401;Puntarenas Province;Zagala Vieja
 0;-84.7398,10.1590;60402;Puntarenas Province;Zagala Nueva
 0;-83.6892,9.8488;30501;Cartago Province;Yolanda
@@ -72,6 +74,7 @@
 3000;-83.7395,9.1704;60504;Puntarenas Province;Uvita
 0;-83.0667,9.5333;70401;Limón Province;Uruchico
 0;-84.1349,9.7631;10603;San José;Uruca
+0;-83.3667,9.5500;;Limón Province;Urinama
 0;-83.7867,9.8412;30204;Cartago Province;Urasca
 4185;-85.0137,10.8991;21301;Alajuela Province;Upala
 0;-85.1951,10.7167;50402;Guanacaste Province;La Unión
@@ -83,6 +86,7 @@
 0;-83.8319,9.8274;30201;Cartago Province;Ujarrás
 0;-83.3081,9.2295;60301;Puntarenas Province;Ujarráz
 0;-82.8702,9.6273;70403;Limón Province;Uatsi
+0;-83.2833,9.5500;;Limón Province;Tziola
 0;-84.3185,9.9606;20111;Alajuela Province;Turrúcares
 28955;-83.6836,9.9037;30501;Cartago Province;Turrialba
 0;-84.8669,10.3484;50702;Guanacaste Province;Turín
@@ -112,6 +116,7 @@
 0;-83.5126,10.1559;70305;Limón Province;Tres Millas
 0;-84.9294,10.3090;50702;Guanacaste Province;Tres Hermanos
 0;-84.9279,10.3019;50702;Guanacaste Province;Tres Amigos
+0;-83.0623,8.5662;;Puntarenas Province;Trenzas
 0;-83.0880,9.9348;70101;Limón Province;Trébol
 0;-85.7205,10.2907;50309;Guanacaste Province;Trapiche
 0;-84.1042,9.8079;10309;San José;Tranquerillas
@@ -179,6 +184,7 @@
 0;-85.6516,10.5291;50503;Guanacaste Province;Tabores
 0;-85.1780,10.3504;50604;Guanacaste Province;Hacienda Taboga
 0;-84.0072,9.8281;30803;Cartago Province;Tablón
+0;-84.4115,10.5889;;Alajuela Province;Tabla Grande
 0;-84.2404,10.4154;20306;Alajuela Province;Tabla
 0;-83.0500,9.5833;70401;Limón Province;Táberi
 0;-84.2334,9.8484;10703;San José;Tabarcia
@@ -197,12 +203,14 @@
 1823;-82.6120,9.5037;70402;Limón Province;Sixaola
 0;-83.7542,9.9119;30401;Cartago Province;Sitio
 0;-83.8251,9.7860;30204;Cartago Province;Sitio
+0;-83.5893,8.4803;;Puntarenas Province;Sirena
 18231;-83.5066,10.0975;70301;Limón Province;Siquirres
 0;-84.2968,9.9679;20113;Alajuela Province;Siquiares
 0;-82.9480,9.5330;70401;Limón Province;Sipurio
 0;-83.1667,9.6000;70102;Limón Province;Sinoi
 0;-84.9064,10.4780;50801;Guanacaste Province;Silencio
 0;-84.4724,10.1660;20210;Alajuela Province;Silencio
+0;-83.4265,10.3944;;Limón Province;Siete
 0;-84.9280,10.2851;50702;Guanacaste Province;Sierra
 0;-83.9796,9.7463;10308;San José;La Sierra
 0;-83.6286,9.1488;11906;San José;La Sierra
@@ -241,9 +249,11 @@
 8292;-84.3143,9.8464;10408;San José;Santiago
 0;-85.1724,9.6645;60111;Puntarenas Province;Santiago
 0;-82.9335,8.8122;60802;Puntarenas Province;Santa Teresa
+0;-84.4585,10.5442;;Alajuela Province;Santa Teresa
 0;-83.7787,9.9313;30603;Cartago Province;Santa Teresa
 0;-85.1710,9.6472;60111;Puntarenas Province;Santa Teresa
 0;-83.5717,9.3357;11908;San José;Santa Teresa
+0;-85.5596,11.2067;;Guanacaste Province;Santa Rosa
 0;-85.2701,10.5793;50401;Guanacaste Province;Santa Rosa
 0;-85.0152,10.4595;50804;Guanacaste Province;Santa Rosa
 0;-85.7873,10.3121;50309;Guanacaste Province;Santa Rosa
@@ -379,6 +389,7 @@
 0;-83.9958,9.6683;10501;San José;San Pedro
 0;-83.5506,9.2801;11905;San José;San Pedro
 0;-83.5660,9.3117;11908;San José;San Pedrito
+0;-83.7347,8.6209;;Puntarenas Province;San Pedrillo
 0;-85.2329,10.0295;50904;Guanacaste Province;San Pablo
 21662;-84.0966,9.9956;40901;Heredia Province;San Pablo
 0;-83.8333,9.9667;30601;Cartago Province;San Pablo
@@ -529,6 +540,7 @@
 0;-84.0264,9.7511;10308;San José;San Cristóbal Sur
 0;-84.0071,9.7705;10308;San José;San Cristóbal Norte
 0;-84.5519,10.4987;21012;Alajuela Province;San Cristóbal
+0;-82.9410,9.8263;;Limón Province;San Clemente
 0;-83.8645,9.8151;30109;Cartago Province;San Chirí
 0;-83.5931,9.2343;11906;San José;San Carlos
 0;-85.1549,10.1886;50704;Guanacaste Province;San Buenaventura
@@ -537,6 +549,7 @@
 0;-83.6665,9.2500;11903;San José;Patio de Agua
 0;-85.6168,10.4830;50503;Guanacaste Province;San Blas
 0;-85.1665,9.8706;60104;Puntarenas Province;San Blas
+0;-84.7192,11.0541;;Alajuela Province;San Antonio
 0;-84.6500,10.9833;21401;Alajuela Province;San Antonio
 0;-84.7799,10.9028;21402;Alajuela Province;San Antonio
 0;-85.0167,10.8333;21301;Alajuela Province;San Antonio
@@ -560,6 +573,7 @@
 0;-83.7883,9.3833;11909;San José;San Antonio
 0;-83.5477,9.1936;11907;San José;San Antonio
 0;-82.9109,8.7786;60802;Puntarenas Province;San Antonio
+0;-82.9668,9.8488;;Limón Province;San Andrés
 0;-84.0840,9.7390;12002;San José;San Andrés
 0;-83.2333,8.9833;60304;Puntarenas Province;San Andrés
 0;-83.4737,10.1557;70301;Limón Province;San Alberto Nuevo
@@ -707,6 +721,7 @@
 0;-83.3067,8.9680;60304;Puntarenas Province;Puerto Nuevo
 0;-82.6574,9.6323;70402;Limón Province;Manzanillo
 63081;-83.0360,9.9907;70101;Limón Province;Limón
+0;-83.3062,8.5377;;Puntarenas Province;Puerto Jiménez
 0;-85.2706,10.1134;50202;Guanacaste Province;Puerto Jesús
 0;-85.3516,10.3143;50203;Guanacaste Province;Puerto Humo
 0;-82.8982,8.4337;61002;Puntarenas Province;Puerto González Víquez
@@ -762,6 +777,7 @@
 0;-84.6067,9.5774;61101;Puntarenas Province;Pochotal
 0;-84.2453,9.5254;60901;Puntarenas Province;Pocares
 0;-84.1930,10.1640;20805;Alajuela Province;Poasito
+0;-82.9503,9.7505;;Limón Province;Pléyades
 0;-85.7333,10.5000;50503;Guanacaste Province;Plazuela
 0;-85.5667,10.4500;50504;Guanacaste Province;Plazuela
 0;-84.7470,10.9557;21402;Alajuela Province;Playuelas
@@ -809,12 +825,14 @@
 0;-85.4333,10.1667;50201;Guanacaste Province;Perico
 0;-84.3147,9.7218;11205;San José;Bajo Pérez
 0;-83.6119,9.9682;30503;Cartago Province;Peralta
+0;-82.9092,9.7763;;Limón Province;Penshurt
 0;-84.7833,10.9500;21402;Alajuela Province;Pénjamo
 0;-84.4821,10.3470;21002;Alajuela Province;Pénjamo
 0;-83.9167,9.9667;10806;San José;Pénjamo
 0;-85.5961,10.3884;50504;Guanacaste Province;La Penca
 0;-84.6688,10.1160;20212;Puntarenas Province;Peñas Blancas
 0;-83.6407,9.3147;11903;San José;Peñas Blancas
+0;-85.6333,11.2167;;Guanacaste Province;Peña Blanca
 0;-84.4365,10.2101;21102;Alajuela Province;Peña
 0;-83.1167,9.4000;70404;Limón Province;Peluelcha
 0;-84.8575,10.6182;21503;Alajuela Province;Pejibaye
@@ -1191,6 +1209,7 @@
 0;-85.0136,10.9663;21305;Alajuela Province;La Cruz
 0;-84.8394,10.3390;60109;Guanacaste Province;La Cruz
 0;-84.2057,9.7927;11202;San José;La Cruz
+0;-84.3000,10.9000;;Alajuela Province;La Chorrera
 0;-85.3333,10.1500;50202;Guanacaste Province;La Chiva
 0;-84.1989,9.9251;10904;San José;Chimba
 0;-84.9833,10.1667;60106;Guanacaste Province;La Calera
@@ -1236,6 +1255,7 @@
 0;-83.9704,9.7137;11702;San José;Jardín
 0;-84.3233,9.8495;10408;San José;Jarasal
 0;-84.1018,9.5792;10503;San José;Jamaica
+0;-83.3906,10.3417;;Limón Province;Jaloba
 4085;-84.6298,9.6150;61101;Puntarenas Province;Jacó
 0;-83.9924,9.9589;10804;San José;Jaboncillal
 0;-84.6833,10.1839;60402;Puntarenas Province;Jabonal
@@ -1338,6 +1358,7 @@
 0;-83.8225,9.7942;30204;Cartago Province;Guábata
 0;-84.3818,9.8915;10404;San José;Grifo Bajo
 0;-84.3902,9.8785;10404;San José;Grifo Alto
+0;-82.9203,9.7950;;Limón Province;I Griega
 0;-84.3112,10.0724;20301;Alajuela Province;Grecia
 0;-84.4470,10.0522;20707;Alajuela Province;La Granja
 0;-83.3209,10.1596;70502;Limón Province;Goshen
@@ -1389,6 +1410,8 @@
 0;-83.9593,9.7760;10308;Cartago Province;Estrella
 0;-83.2798,10.0612;70503;Limón Province;Estrada
 0;-84.5009,10.4839;21002;Alajuela Province;Estero
+0;-84.4532,9.5249;;Puntarenas Province;Esterillos Este
+0;-84.5054,9.5263;;Puntarenas Province;Esterillos Oeste
 1512;-84.4234,10.0568;20706;Alajuela Province;Esquipulas
 0;-84.0449,9.4929;60603;San José;Esquípulas
 0;-83.2866,8.7341;60505;Puntarenas Province;Esquinas
@@ -1421,6 +1444,7 @@
 0;-84.8022,10.6668;21501;Alajuela Province;El Sol
 0;-83.9000,10.2333;70201;Heredia Province;El Salvador
 0;-85.0500,10.3500;50603;Guanacaste Province;El Porvenir
+0;-82.9436,9.7635;;Limón Province;Porvenir
 0;-84.9977,10.1019;60106;Puntarenas Province;Pájaros
 0;-85.3868,10.1212;50202;Guanacaste Province;Obispo
 0;-85.3127,10.2015;50204;Guanacaste Province;Millal
@@ -1452,6 +1476,7 @@
 0;-83.9809,9.9208;30305;Cartago Province;Dulce Nombre
 0;-85.5226,10.2940;50307;Guanacaste Province;Duendes
 0;-83.2833,9.2500;60301;Puntarenas Province;Dubondi
+0;-83.6662,8.6866;;Puntarenas Province;Drake
 0;-83.4017,8.5294;60702;Puntarenas Province;Dos Brazos
 0;-83.9147,9.3534;60602;Puntarenas Province;Dos Bocas
 0;-83.4548,10.2440;70305;Limón Province;Dorotea
@@ -1463,6 +1488,7 @@
 0;-83.3258,9.0566;60304;Puntarenas Province;Doboncragua
 0;-83.7096,9.5107;11911;San José;División
 0;-85.5667,10.2500;50301;Guanacaste Province;Diriá
+0;-83.3167,9.5333;;Limón Province;Dikoguicha
 0;-83.5941,10.1621;70304;Limón Province;Destierro
 0;-83.6637,10.0538;70303;Limón Province;Destierro
 0;-84.4690,9.9588;20402;Alajuela Province;Desmonte
@@ -1558,6 +1584,7 @@
 0;-85.5900,10.5494;50502;Guanacaste Province;Comunidad
 0;-84.1383,10.0749;40404;Heredia Province;Común
 0;-82.8173,9.7036;70403;Limón Province;Comadre
+0;-83.5954,10.7702;;Limón Province;Colorado
 0;-85.4788,10.6704;50105;Guanacaste Province;Colorado
 0;-85.1089,10.1852;50704;Guanacaste Province;Colorado
 0;-83.7053,9.9121;30509;Cartago Province;Colorado
@@ -1797,6 +1824,7 @@
 0;-83.8538,9.8897;30704;Cartago Province;Boquerón
 0;-83.6072,10.0127;70303;Limón Province;Bonilla Abajo
 0;-84.7357,9.9670;60115;Puntarenas Province;Bonilla
+0;-82.9165,9.7821;;Limón Province;Bonifacio
 0;-83.0662,9.9186;70101;Limón Province;Bomba
 0;-83.1869,9.0503;60303;Puntarenas Province;Llano Verde
 0;-85.4511,10.3623;50302;Guanacaste Province;Bolsón
@@ -1810,6 +1838,7 @@
 0;-84.3657,10.5449;21004;Alajuela Province;Boca Los Chiles
 0;-83.4340,8.8302;60503;Puntarenas Province;Boca Chocuaco
 0;-84.7373,9.9623;60115;Puntarenas Province;Boca Barranca
+0;-84.4787,10.5303;;Alajuela Province;Boca de Arenal
 0;-83.1531,9.9751;70103;Limón Province;Río Blanco
 0;-83.8454,9.8486;30201;Cartago Province;Birrisito
 0;-83.7901,9.8933;30602;Cartago Province;Birrís
@@ -2011,6 +2040,8 @@
 0;-83.4421,10.1004;70302;Limón Province;Monteverde de Siquirres
 0;-83.3419,10.0992;70502;Limón Province;Parcelas
 0;-83.4073,10.2843;70305;Limón Province;Dos Bocas
+0;-83.3605,10.2831;;Limón Province;Caño Blanco
+0;-83.3510,10.3079;;Limón Province;Parismina
 0;-83.4843,10.1497;70301;Limón Province;San Alberto de Siquirres
 0;-83.9844,10.0631;11103;San José;Bajo La Hondura
 0;-83.9900,10.0493;11402;San José;Alto La Palma
@@ -2019,6 +2050,7 @@
 0;-83.8455,10.0094;30705;Cartago Province;Lecheria San Gerardo
 0;-83.7348,10.3514;70204;Limón Province;Astua y Pirie, Pococi
 0;-83.7413,10.3700;70204;Limón Province;Barrio Palermo
+0;-83.8341,10.3469;;Limón Province;El Pario de San Cristobal de Pocci
 0;-83.7475,10.3734;70204;Limón Province;El Progresso, Pococi
 0;-83.7071,10.2958;70204;Limón Province;Pina Frut
 0;-83.7272,10.2824;70202;Limón Province;Humo
@@ -2562,6 +2594,7 @@
 0;-84.5807,11.0419;21401;Alajuela Province;San Isidro
 0;-84.5673,11.0259;21401;Alajuela Province;San Rafael
 0;-84.5860,11.0203;21401;Alajuela Province;Masaya
+0;-84.7090,11.0649;;Alajuela Province;Tabillas
 0;-84.5993,11.0060;21401;Alajuela Province;Rampla
 0;-84.6717,11.0595;21401;Alajuela Province;Refugio
 0;-84.5758,11.0210;21401;Alajuela Province;San Alejandro
@@ -2587,18 +2620,32 @@
 0;-84.4431,10.8247;21013;Alajuela Province;Concho
 0;-84.4680,10.8428;21013;Alajuela Province;Banderas
 0;-84.4074,10.8718;21013;Alajuela Province;Azucena
+0;-84.4053,10.9469;;Alajuela Province;San Isidro
 0;-84.4719,10.9369;21401;Alajuela Province;Comején
+0;-84.4533,10.9072;;Alajuela Province;Conchito
+0;-84.3729,10.9249;;Alajuela Province;Jocote
+0;-84.3835,10.8911;;Alajuela Province;Llano Verde
+0;-84.4305,10.9239;;Alajuela Province;Guaria
+0;-84.3255,10.8966;;Alajuela Province;Crucitas
+0;-84.4602,10.9479;;Alajuela Province;Pocosol
+0;-84.3439,10.9480;;Alajuela Province;Tiricias
 0;-84.4099,10.5639;21004;Alajuela Province;Cabeceras de Aguas Zarquitas
+0;-84.4887,10.5897;;Alajuela Province;San Gerardo
+0;-84.4538,10.6167;;Alajuela Province;Providencia
 0;-84.2931,10.6166;21006;Alajuela Province;Castelmare
+0;-84.4857,10.6195;;Alajuela Province;La Luisa
+0;-84.4506,10.6444;;Alajuela Province;Morazán
 0;-84.3890,10.6084;21011;Alajuela Province;San Marcos
 0;-84.3128,10.5000;21004;Alajuela Province;Fama
 0;-84.3035,10.5122;21004;Alajuela Province;Bellavista
 0;-84.2758,10.6257;21006;Alajuela Province;Boca Sahíno
 0;-84.3176,10.5580;21006;Alajuela Province;Vegas
 0;-84.2844,10.5266;21006;Alajuela Province;Pegón
+0;-84.4586,10.5838;;Alajuela Province;Santa Cecilia
 0;-84.3073,10.5634;21006;Alajuela Province;Quebrada Grande
 0;-84.3093,10.5240;21004;Alajuela Province;Chirivico
 0;-84.4349,10.5114;21004;Alajuela Province;Corazón de Jesús
+0;-84.4902,10.5536;;Alajuela Province;Terrón Colorado
 0;-84.2798,10.5782;21006;Alajuela Province;Sahíno
 0;-84.2536,10.5847;21006;Alajuela Province;Ojochito
 0;-84.3441,10.5449;21004;Alajuela Province;Danta
@@ -3010,6 +3057,7 @@
 0;-84.3346,9.5468;60901;Puntarenas Province;Tigre
 0;-84.2587,9.6498;11205;San José;Alto Parritón
 0;-84.3436,9.6065;60901;Puntarenas Province;Rincón Morales
+0;-84.4810,9.5303;;Puntarenas Province;Esterillos Centro
 0;-84.4434,9.6585;10409;San José;Cristo Rey
 0;-84.4146,9.6028;10409;San José;Vista de Mar
 0;-84.4031,9.5592;60901;Puntarenas Province;Bajos Jicote
@@ -3213,8 +3261,12 @@
 0;-84.1855,10.2938;20114;Alajuela Province;San Antonio
 0;-84.0884,10.6715;41005;Heredia Province;Tambor
 0;-84.0277,10.7913;41005;Heredia Province;Remolinito
+0;-84.2251,10.8021;;Alajuela Province;El Jardín
 0;-84.2315,10.6766;21006;Alajuela Province;Boca Tapada
 0;-84.1995,10.7321;41005;Alajuela Province;El Recreo
+0;-84.2250,10.8252;;Alajuela Province;San Antonio
+0;-84.1919,10.7628;;Alajuela Province;La Flor
+0;-84.1982,10.7820;;Alajuela Province;Boca San Carlos
 0;-84.1125,10.7660;41005;Heredia Province;Palo Seco
 0;-84.1994,10.7030;41005;Alajuela Province;Santa Rita
 0;-83.9976,10.5931;41005;Heredia Province;Masaya
@@ -3308,6 +3360,7 @@
 0;-83.7995,10.2453;70201;Limón Province;San Rafael
 0;-83.9081,10.2603;41003;Heredia Province;Isla Israel
 0;-83.8821,10.3008;41003;Heredia Province;Zona Chirripó
+0;-83.8087,10.3241;;Limón Province;Tarire
 0;-83.9035,10.3297;41003;Heredia Province;Colonia Colegio
 0;-83.8782,10.3295;41003;Heredia Province;Finca Zona Cuatro
 0;-83.8976,10.2324;70201;Heredia Province;San Bernardino
@@ -3747,6 +3800,7 @@
 0;-83.6645,10.0016;30505;Cartago Province;Líbano
 0;-83.6816,10.0477;70303;Limón Province;Roca
 0;-83.6672,10.6804;70206;Limón Province;Puerto Lindo
+0;-83.6930,10.6864;;Limón Province;Buenavista
 0;-83.6873,10.3195;70204;Limón Province;Oeste
 0;-83.7465,10.2816;70202;Limón Province;Punta de Riel
 0;-83.5214,10.1738;70305;Limón Province;Peje
@@ -3841,6 +3895,7 @@
 0;-83.4187,10.1819;70301;Limón Province;Imperio
 0;-83.3487,10.2273;70502;Limón Province;Nueva Esperanza
 0;-83.4893,10.2284;70305;Limón Province;Castilla
+0;-83.2814,10.2180;;Limón Province;Isla Nueva
 0;-83.4774,10.2834;70604;Limón Province;Boca Río Jiménez
 0;-83.4454,10.2243;70305;Limón Province;Nueva Virginia
 0;-83.3979,10.1783;70301;Limón Province;Ten Switch
@@ -3854,6 +3909,8 @@
 0;-83.3961,10.1966;70301;Limón Province;Ciudadela Flores
 0;-83.3689,10.2058;70301;Limón Province;Celina
 0;-83.3226,10.2125;70502;Limón Province;Vegas de Imperio
+0;-83.2819,10.2260;;Limón Province;Boca Pacuare
+0;-83.6856,10.9282;;Limón Province;Aragón
 0;-83.5918,10.5366;70206;Limón Province;Sitio Pavona
 0;-85.5101,9.8747;50205;Guanacaste Province;Playa Sámara
 0;-83.7966,9.9314;30601;Cartago Province;Buenavista
@@ -3916,6 +3973,7 @@
 0;-83.4733,8.7801;60503;Puntarenas Province;San Juan
 0;-83.3533,8.7800;60505;Puntarenas Province;El Porvenir
 0;-83.3635,8.7386;60505;Puntarenas Province;Playitas
+0;-83.4127,8.8125;;Puntarenas Province;Pavón
 0;-83.2531,8.7995;60505;Puntarenas Province;Chacarita
 0;-83.3796,8.7963;60505;Puntarenas Province;Taboguita
 0;-83.0171,8.3895;61004;Puntarenas Province;La Vaca
@@ -4015,6 +4073,9 @@
 0;-83.0877,9.5257;70404;Limón Province;Alto Cuen
 0;-83.1122,9.5070;70404;Limón Province;Kichuguecha
 0;-83.1772,9.6119;70102;Limón Province;Rangalle
+0;-83.0409,9.4527;;Limón Province;Surayo
+0;-83.0474,9.4335;;Limón Province;Alto Lari
+0;-82.9483,9.8341;;Limón Province;Miramar
 0;-82.9913,9.8802;70101;Limón Province;Hueco
 0;-82.9946,9.8933;70101;Limón Province;Paraíso
 0;-83.0534,9.9090;70101;Limón Province;Mountain Cow
@@ -4062,6 +4123,7 @@
 0;-83.0495,8.5456;61004;Puntarenas Province;Paso Higuerón
 0;-83.0784,8.6492;60703;Puntarenas Province;Kilómetro 24
 0;-83.0498,8.6634;60703;Puntarenas Province;Esperanza
+0;-83.0727,8.5631;;Puntarenas Province;Nazareth
 0;-83.0700,8.5033;61004;Puntarenas Province;Fortuna de Coto
 0;-83.0675,8.6236;60703;Puntarenas Province;Kilómetro 20
 0;-83.1297,8.5893;60701;Puntarenas Province;Bajo Chontales
@@ -4076,6 +4138,7 @@
 0;-83.0495,8.5704;61001;Puntarenas Province;Bajo Grapa
 0;-83.0242,8.5618;61001;Puntarenas Province;Pangas
 0;-83.0397,9.7022;70401;Limón Province;Cerere
+0;-83.0327,9.7306;;Limón Province;Casa Amarilla
 0;-83.1405,9.6793;70102;Limón Province;Cuén
 0;-83.1002,9.7226;70102;Limón Province;Boca Cuén
 0;-83.0777,9.7370;70102;Limón Province;Calveri
@@ -4083,6 +4146,9 @@
 0;-83.0939,9.7042;70102;Limón Province;Jabuy
 0;-83.0400,9.7067;70401;Limón Province;Vegas de Cerere
 0;-83.0233,9.7121;70401;Limón Province;Cartagena
+0;-83.0372,9.7398;;Limón Province;Llano Grande
+0;-83.0464,9.7450;;Limón Province;Suruy
+0;-83.0207,9.7667;;Limón Province;San Carlos
 0;-83.0489,9.7648;70104;Limón Province;Progreso
 0;-83.0359,9.8010;70104;Limón Province;Caño Negro
 0;-83.1861,8.6562;60701;Puntarenas Province;Ureña
@@ -4148,11 +4214,22 @@
 0;-82.8704,9.7487;70403;Limón Province;Limonal
 0;-82.9742,9.6727;70401;Limón Province;Duruy
 0;-82.9890,9.6799;70401;Limón Province;Valle de las Rosas
+0;-82.9606,9.8090;;Limón Province;Buenavista
 0;-82.9375,9.6986;70401;Limón Province;Bocuare
+0;-82.9901,9.7451;;Limón Province;Armenia
 0;-82.8770,9.7531;70403;Limón Province;Bordón
+0;-82.9720,9.7618;;Limón Province;San Rafael
+0;-82.9540,9.7428;;Limón Province;Guaria
+0;-82.9282,9.8082;;Limón Province;Río Seco
 0;-82.8506,9.7081;70403;Limón Province;Dindirí
 0;-82.8855,9.7606;70403;Limón Province;Gibraltar
+0;-82.9872,9.7389;;Limón Province;Colonia
+0;-82.9247,9.7630;;Limón Province;Nanabre
 0;-82.8070,9.6798;70403;Limón Province;Punta Caliente
+0;-82.9285,9.7746;;Limón Province;Tobruk
+0;-82.8979,9.7995;;Limón Province;Boca Río Estrella
+0;-82.9624,9.7495;;Limón Province;Nubes
+0;-82.9337,9.8184;;Limón Province;Manú
 0;-82.9938,9.6923;70401;Limón Province;Brisas
 0;-82.8399,9.6704;70403;Limón Province;Carbón Uno
 0;-83.1501,9.0328;60303;Puntarenas Province;Jorón
@@ -4191,9 +4268,11 @@
 0;-82.9608,8.8376;60801;Puntarenas Province;Isla
 0;-82.9529,8.9183;60801;Puntarenas Province;Fila Naranjo
 0;-82.9443,8.9320;60805;Puntarenas Province;Santa Elena
+0;-82.8350,8.9392;;Puntarenas Province;Alturas de Cotón
 0;-82.9180,8.8335;60802;Puntarenas Province;Miraflores
 0;-82.9231,8.8801;60801;Puntarenas Province;Siete Colinas
 0;-82.8671,8.8870;60802;Puntarenas Province;Flor del Roble
+0;-82.7749,8.8887;;Puntarenas Province;Mellizas
 0;-82.9264,8.8651;60801;Puntarenas Province;Brisas
 0;-82.8491,8.8729;60802;Puntarenas Province;Chanchera
 0;-82.9939,8.9533;60805;Puntarenas Province;Camaquiri
@@ -4203,6 +4282,7 @@
 0;-82.9175,8.8976;60801;Puntarenas Province;Poma
 0;-82.8048,8.9033;60802;Puntarenas Province;Progreso
 0;-82.9791,8.8737;60801;Puntarenas Province;Bajo Venado
+0;-82.7892,8.9036;;Puntarenas Province;Tigra
 0;-82.9031,8.9390;60805;Puntarenas Province;Palmira
 0;-82.8799,8.8968;60801;Puntarenas Province;Río Marzo
 0;-82.9707,8.8689;60801;Puntarenas Province;Piedra Pintada
@@ -4210,9 +4290,13 @@
 0;-82.8905,8.9034;60801;Puntarenas Province;Roble
 0;-82.8722,8.8871;60802;Puntarenas Province;Alpha
 0;-82.8337,8.8815;60802;Puntarenas Province;La Esmeralda
+0;-82.9715,9.4076;;Limón Province;Sukut
 0;-82.9429,9.4888;70401;Limón Province;Namuwakir
+0;-82.9813,9.4208;;Limón Province;Croriña
 0;-82.9350,9.4948;70401;Limón Province;Turubokicha
 0;-82.9938,9.5039;70401;Limón Province;Cachabli
+0;-82.9453,8.2145;;Puntarenas Province;Las Peñas
+0;-82.9285,8.1705;;Puntarenas Province;Clarita
 0;-82.6423,9.5121;70402;Limón Province;Noventa y Seis
 0;-82.6028,9.5293;70402;Limón Province;Palma
 0;-82.7270,9.5856;70402;Limón Province;Ania
@@ -4343,6 +4427,9 @@
 0;-82.9146,8.8042;60802;Puntarenas Province;Primavera
 0;-82.9279,8.8010;60802;Puntarenas Province;Plantel
 0;-82.9023,8.7229;60803;Puntarenas Province;Villa Roma
+0;-82.8986,8.0929;;Puntarenas Province;Puerto La Playa
+0;-82.9168,8.1409;;Puntarenas Province;Vanegas
+0;-82.9124,8.0644;;Puntarenas Province;Burica
 0;-82.9276,9.5452;70401;Limón Province;Boca Urén
 0;-82.7883,9.6473;70403;Limón Province;Hotel Creek
 0;-82.8791,9.5361;70401;Limón Province;Shewab
@@ -4351,6 +4438,7 @@
 0;-82.9878,9.5593;70401;Limón Province;Sepeque
 0;-82.8140,9.6639;70403;Limón Province;Carbón
 0;-82.9823,9.5894;70401;Limón Province;Gavilán Canta
+0;-82.8542,9.5096;;Limón Province;Sorókicha
 0;-82.8587,9.5168;70401;Limón Province;Bris
 0;-82.9299,9.5307;70401;Limón Province;Dururpe
 0;-82.9573,9.5967;70401;Limón Province;Monte Sión
@@ -4415,6 +4503,7 @@
 0;-84.2098,9.8340;10703;San José;Fila
 0;-84.1533,10.3202;20114;Heredia Province;Ángeles
 0;-83.9558,10.3399;41003;Heredia Province;Horquetas
+0;-83.8313,10.3435;;Limón Province;San Cristóbal
 0;-83.7717,10.4109;70203;Limón Province;San Pedro
 0;-83.7829,10.2806;70202;Limón Province;Rita
 0;-83.9582,10.0032;11102;San José;Cascajal

@@ -1679,3 +1679,21 @@ zh;阿拉萬;Araouane
 uk;Араван;Araouane
 fa;امبیدیدی;Ambidédi
 fa;الاتونا;Alatona
+ur;یوروبوگولا;Yorobougoula
+bm;Tilemusi;Tilemsi
+bm;Talikɔ;Taliko
+bm;Sirakɔrɔbilen;Sirakoroblé
+bm;Selenge;Sélingué
+ur;سگابری;Sagabari
+bm;Ɲàni;Niani
+bm;Ɲamakɔfɛ;Niamakofé
+bm;Miseni;Misséni
+bm;Kerekumala;Kérikoumala
+bm;Keela;Kéla
+bm;Hámdàlay;Hamdallay
+bm;Hámudàlayi;Hamdallay
+bm;Furu;Fourou
+ha;Ƙauyen Filamana;Filamana
+bm;Jɛyu;Diou
+bm;Balanzan;Balansan
+fr;Bako;Firasso

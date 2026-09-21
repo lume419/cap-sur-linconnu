@@ -35,6 +35,7 @@ const places = rows
     name: preparePlaceName('BA', c[0], cleanName(c[1])),
     lat: parseFloat(c[4]),
     lon: parseFloat(c[5]),
+    admin1: c[10] || '',
     pop: parseInt(c[14], 10) || 0
   }))
   .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name);
@@ -51,7 +52,20 @@ const deduped = Array.from(seen.values());
 
 // Table nom normalisé -> codes postaux (une commune peut avoir plusieurs codes, ex. Banja Luka
 // 78000/78103/78108/78114 — même format `cp1,cp2,...` que communes.txt/parseCommunesFile).
-const wikiEntries = JSON.parse(fs.readFileSync(path.join(__dirname, 'ba-postal-wiki.json'), 'utf8'));
+// SOURCE WIKIPEDIA ABSENTE DU DÉPÔT (21/09/2026) : scripts/ba-postal-wiki.json n'est pas commité, ce qui rendait ce
+// générateur inexécutable depuis l'audit n° 11 — et la correction du jour lui serait restée inaccessible. Repli :
+// les codes DÉJÀ PUBLIÉS dans public/data/communes-ba.txt sont relus et réindexés par nom, ce qui reconstitue
+// exactement la table que la source produisait pour les lieux qu'elle couvrait. Les autres lieux, eux, n'ont
+// jamais eu de code : ils sortent avec un code vide, ce qui est justement l'objet de la correction.
+const sourcePath = path.join(__dirname, 'ba-postal-wiki.json');
+const publiéPath = path.join(__dirname, '..', 'public', 'data', 'communes-ba.txt');
+const wikiEntries = fs.existsSync(sourcePath)
+  ? JSON.parse(fs.readFileSync(sourcePath, 'utf8'))
+  : fs.readFileSync(publiéPath, 'utf8').split('\n').filter(Boolean).flatMap(l => {
+      const ch = l.split(';');
+      return ch[2] ? ch[2].split(',').map(cp => ({ nameBare: ch.slice(4).join(';'), cp: cp })) : [];
+    });
+if(!fs.existsSync(sourcePath)) console.log('BA : ba-postal-wiki.json absent — ' + wikiEntries.length + ' codes repris du fichier déjà publié');
 const cpByName = new Map();
 for(const e of wikiEntries){
   const key = norm(cleanName(e.nameBare));
@@ -79,17 +93,29 @@ for(const p of deduped){
   dumpByName.get(key).push(p);
 }
 
+// Noms des divisions administratives GeoNames (entité / district de Brčko), pour la colonne « région » : elle était
+// laissée vide faute de source Wikipedia exploitable, alors que le dump la porte (21/09/2026).
+const admin1Names = new Map();
+fs.readFileSync(path.join(__dirname, 'admin1CodesASCII.txt'), 'utf8').split('\n').forEach(l => {
+  const f = l.split('\t');
+  if(f[0] && f[1]) admin1Names.set(f[0], f[1]);
+});
+
 let matched = 0, unmatchedNames = [], ambiguousNames = [];
 const lines = [];
 // geonameid -> nom canonique, UNIQUEMENT pour les communes ayant survécu au rapprochement (donc
 // réellement présentes dans communes-ba.txt) — repris par build-ba-aliases.js pour l'extraction
 // des alias multilingues, sur le même principe que canonicalByGeonameId dans build-aliases.js.
 const canonicalByGeonameId = {};
+// CODE POSTAL FACULTATIF (21/09/2026, demande de l'utilisateur). Jusqu'ici, SEULS les lieux dont le nom figurait
+// dans la liste de codes postaux étaient publiés, et un seul par groupe d'homonymes : la Bosnie ne comptait que
+// 374 communes sur les 21 389 du dump. Le code postal aide à retrouver sa ville, il ne décide pas si elle existe.
+// Tous les lieux du dump sont donc publiés ; le code va à celui que le rapprochement désigne, les autres sortent
+// avec un code vide. Le rapprochement lui-même (règles 1 et 2 ci-dessous) est inchangé.
 dumpByName.forEach((candidates, key) => {
   const cps = cpByName.get(key);
-  if(!cps || !cps.length) return; // sans code postal Wikipedia pour ce nom -> écarté
   let chosen = candidates[0];
-  if(candidates.length > 1){
+  if(cps && cps.length && candidates.length > 1){
     // Règle 1, la plus sûre : une seule commune homonyme a une population réelle connue, largement
     // dominante sur les autres (0, ou au moins 10x moins peuplées) — GeoNames n'a souvent qu'un
     // chiffre de population fiable que pour le "vrai" lieu, les homonymes étant de tout petits
@@ -105,17 +131,20 @@ dumpByName.forEach((candidates, key) => {
       // la même localité, plusieurs points GeoNames légèrement décalés plutôt que des lieux
       // réellement distincts), le code est assigné au plus peuplé d'entre eux.
       const allClose = candidates.every(c => haversineKm(candidates[0], c) <= 15);
-      if(!allClose){ ambiguousNames.push(key + ' (' + candidates.length + ' lieux distincts)'); return; }
-      chosen = byPop[0];
+      if(!allClose){ ambiguousNames.push(key + ' (' + candidates.length + ' lieux distincts)'); chosen = null; }
+      else chosen = byPop[0];
     }
   }
-  matched++;
+  if(cps && cps.length && chosen) matched++;
   // region (4e colonne) laissée vide, comme Saint-Marin/la Slovénie avant : Wikipedia ne fournit
   // pas de nom de région/canton exploitable ici, une limite cosmétique déjà acceptée pour d'autres
   // pays, sans effet sur la recherche ou l'affichage (voir formatCpBadge, qui n'affiche jamais ce
   // champ directement).
-  lines.push(`${chosen.pop};${chosen.lon.toFixed(4)},${chosen.lat.toFixed(4)};${cps.join(',')};;${chosen.name}`);
-  canonicalByGeonameId[chosen.geonameid] = chosen.name;
+  candidates.forEach(p => {
+    const àLui = (cps && cps.length && chosen === p) ? cps.join(',') : '';
+    lines.push(`${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${àLui};${admin1Names.get('BA.' + (p.admin1 || '')) || ''};${p.name}`);
+    canonicalByGeonameId[p.geonameid] = p.name;
+  });
 });
 
 // Diagnostic : entrées Wikipedia n'ayant trouvé AUCUNE commune GeoNames correspondante (utile pour

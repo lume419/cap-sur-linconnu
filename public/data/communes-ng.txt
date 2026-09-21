@@ -1133,6 +1133,7 @@
 0;12.2711,9.5077;NG-35;Adamawa;Wuro Bokki
 0;12.7949,9.3891;NG-35;Adamawa;Wuro-Bokki
 0;12.5876,9.1762;NG-35;Adamawa;Wuro-Bokki
+0;13.2333,9.9167;NG;;Wuro Bokka
 0;10.1815,11.4469;NG-46;Bauchi;Wuro Bogga
 0;12.0365,9.0805;NG-35;Adamawa;Wuro Bobo
 0;12.2928,9.1630;NG-35;Adamawa;Wuro Bobbori
@@ -2486,6 +2487,7 @@
 0;7.0381,4.8958;NG-50;Rivers State;Rumuoqonoma
 0;7.4167,5.2667;NG-45;Abia State;Umuopia
 0;7.3167,5.6333;NG-28;Imo State;Umu Opee
+0;7.0167,4.6667;NG;;Umuoparali
 0;7.3138,5.6590;NG-28;Imo State;Umu Opara
 0;7.2669,5.6372;NG-28;Imo State;Umu Opara
 0;7.4333,5.5500;NG-45;Abia State;Umu Opara
@@ -3457,6 +3459,7 @@
 0;4.7087,10.9689;NG-40;Kebbi;Tungan Dala
 0;6.3897,9.9972;NG-31;Niger State;Tungan
 0;4.4266,13.1927;NG-51;Sokoto;Tungan Chichi
+0;4.1271,13.1670;NG;;Tungan Chafa
 0;4.7776,10.9749;NG-40;Kebbi;Tungan Buda
 0;4.6107,10.9849;NG-40;Kebbi;Tungan Bori
 0;4.7227,10.9183;NG-40;Kebbi;Tungan Bori
@@ -6533,6 +6536,7 @@
 0;8.9514,9.9330;NG-49;Plateau State;Passa Bonga
 0;10.3506,7.8213;NG-43;Taraba State;Pasoki
 0;6.9938,11.1118;NG-23;Kaduna State;Paskare
+0;2.7167,6.4500;NG;;Pasi
 0;10.1923,7.2594;NG-43;Taraba State;Pashimbe
 0;12.1112,10.4819;NG-27;Borno State;Pashi
 0;6.9325,9.0250;NG-11;FCT;Pashi
@@ -7213,6 +7217,7 @@
 0;6.3244,5.5094;NG-36;Delta;Orie
 0;3.8270,8.0775;NG-32;Oyo State;Oridokun
 0;4.7790,6.2954;NG-48;Ondo State;Oribero
+0;3.8000,6.6000;NG;;Oriba
 0;3.7676,7.9195;NG-32;Oyo State;Orianago
 0;6.0538,5.7601;NG-36;Delta;Oriah
 0;6.5004,6.6731;NG-37;Edo State;Oria
@@ -8177,6 +8182,7 @@
 0;3.7642,7.5012;NG-32;Oyo State;Okuno
 0;4.7727,6.4391;NG-48;Ondo State;Okunmo
 0;6.0976,9.5026;NG-31;Niger State;Okunkungi
+0;4.3667,6.3667;NG;;Okun Isoku
 0;8.6318,5.9359;NG-22;Cross River State;Okuni
 0;3.8928,6.5139;NG-05;Lagos;Okunegun
 0;8.8000,6.4167;NG-22;Cross River State;Okundi
@@ -9737,6 +9743,7 @@
 0;7.5377,5.1427;NG-45;Abia State;Nwaigwe
 0;8.1486,6.2036;NG-53;Ebonyi State;Nwafo-Ogu
 0;8.0043,7.3555;NG-26;Benue State;Nwaba Aokwu
+0;11.1785,6.6784;NG;;Nver
 0;6.1252,9.3539;NG-31;Niger State;Nuwako
 0;7.4608,7.9201;NG-41;Kogi State;Nupe
 0;8.3659,9.1423;NG-56;Nasarawa State;Nunkucu-Gona
@@ -18391,6 +18398,7 @@
 0;3.5192,6.5461;NG-05;Lagos;Igbopa
 0;3.4500,6.9667;NG-16;Ogun State;Igbo Oya
 0;4.7681,8.3793;NG-30;Kwara State;Igbo-Owu
+0;2.7333,6.8833;NG;;Igbo Otun
 0;3.0877,7.3769;NG-16;Ogun State;Igbo-Osan
 0;4.4977,8.7003;NG-30;Kwara State;Igbo-Oriku
 0;2.9923,7.3275;NG-16;Ogun State;Igbo-Ori-Oluwo
@@ -20788,6 +20796,7 @@
 0;3.5157,6.5902;NG-05;Lagos;Gbogbo
 0;2.8591,6.8964;NG-16;Ogun State;Gboga
 0;5.6887,8.7295;NG-30;Kwara State;Gbog
+0;2.7317,6.4937;NG;;Gbodo
 0;6.8028,9.5065;NG-31;Niger State;Gbodna
 0;9.5427,6.9401;NG-26;Benue State;Gbodi
 0;6.8551,8.2337;NG-41;Kogi State;Gbobo
@@ -21321,6 +21330,7 @@
 0;7.2036,8.3793;NG-56;Nasarawa State;Gonu
 0;11.4989,8.4086;NG-43;Taraba State;Gannakani
 0;11.3810,8.4035;NG-43;Taraba State;Ganmeni Boduri
+0;2.7214,6.4198;NG;;Ganmer
 0;11.4862,8.4145;NG-43;Taraba State;Ganleta
 0;11.4445,8.5794;NG-43;Taraba State;Ganlari
 0;11.1373,8.3796;NG-43;Taraba State;Gankuri
@@ -26668,6 +26678,7 @@
 0;3.9661,11.1014;NG-40;Kebbi;Baikinrua
 0;6.1537,12.4760;NG-57;Zamfara State;Baigasuwa
 0;6.8892,9.4011;NG-31;Niger State;Baiona
+0;12.8167,8.8167;NG;;Baide
 0;12.4885,9.0021;NG-35;Adamawa;Bai
 0;12.4882,8.9706;NG-35;Adamawa;Bai
 0;13.4095,10.2475;NG-35;Adamawa;Bahuli
@@ -26754,6 +26765,7 @@
 0;13.2185,12.7036;NG-27;Borno State;Badu
 0;12.1365,8.2637;NG-35;Adamawa;Badu
 0;9.7625,11.6843;NG-39;Jigawa State;Badsweni
+0;3.6167,6.5000;NG;;Badore
 0;3.8500,6.4333;NG-05;Lagos;Badore
 0;7.4857,9.6245;NG-23;Kaduna State;Badoko
 0;7.0430,11.9835;NG-57;Zamfara State;Bado
@@ -27449,6 +27461,7 @@
 0;9.8128,12.3850;NG-39;Jigawa State;Askandu
 0;10.1843,7.2368;NG-43;Taraba State;Askanabi
 0;8.2850,11.2040;NG-23;Kaduna State;Askale
+0;4.7142,6.1597;NG;;Asisa
 0;4.0544,7.6605;NG-32;Oyo State;Asipa-Oniyangi
 0;4.5913,8.1698;NG-30;Kwara State;Asipa
 0;4.0308,7.9038;NG-32;Oyo State;Asipa
@@ -29446,6 +29459,7 @@
 0;3.3864,7.6870;NG-32;Oyo State;Ajuwon
 0;8.9414,12.4840;NG-39;Jigawa State;Ajura
 0;3.6067,6.9602;NG-16;Ogun State;Ajura
+0;4.3833,6.3667;NG;;Ajumo
 0;8.5220,12.4903;NG-29;Kano State;Ajumawa
 0;4.0481,7.3848;NG-32;Oyo State;Ajule
 0;8.2417,7.4302;NG-26;Benue State;Ajukum
@@ -35283,6 +35297,7 @@
 0;3.9723,12.3735;NG-40;Kebbi;Ungwan Nakarde
 0;3.9663,12.3714;NG-40;Kebbi;Illela
 0;3.9404,12.3113;NG-40;Kebbi;Tungan Maikudu
+0;3.6439,12.3187;NG;;Maikatako Hills
 0;3.7186,12.3046;NG-40;Kebbi;Garin Goge
 0;3.9095,12.2916;NG-40;Kebbi;Sabon Rijia Maidaji
 0;3.9292,12.2353;NG-40;Kebbi;Gauri-Banza
@@ -51665,6 +51680,8 @@
 0;9.4387,9.2920;NG-49;Plateau State;Wulmi
 0;9.0296,8.9759;NG-56;Nasarawa State;Jipbiyai
 0;9.0486,8.5154;NG-56;Nasarawa State;Dajuma
+0;9.0520,8.5189;NG;;Kwari
+0;9.0427,8.5177;NG;;Kakane
 0;9.0917,8.9800;NG-49;Plateau State;Loond
 0;9.0909,8.8091;NG-49;Plateau State;Nuwankun
 0;9.0887,8.8022;NG-49;Plateau State;Kayarda
@@ -51809,6 +51826,7 @@
 0;9.3710,8.5270;NG-49;Plateau State;Torbutu
 0;9.3666,8.5136;NG-49;Plateau State;Chado
 0;9.3638,8.5099;NG-49;Plateau State;Akiri
+0;8.9143,9.3744;NG;;South Ropp
 0;9.1563,8.8449;NG-49;Plateau State;Bwol
 0;5.8381,4.4892;NG-52;Bayelsa State;Otogbene
 0;5.8582,4.4472;NG-52;Bayelsa State;Ebidargbene
@@ -52655,6 +52673,7 @@
 0;6.3464,7.2700;NG-37;Edo State;Okpella
 0;4.2414,8.0827;NG-32;Oyo State;Arowomole
 0;7.6643,12.8435;NG-24;Katsina State;Lambar Rimi
+0;8.6098,9.0105;NG;;Safiyo
 0;10.2666,9.1931;NG-49;Plateau State;Safiyo
 0;10.1117,9.0345;NG-49;Plateau State;Jawando
 0;10.6825,9.0485;NG-43;Taraba State;Tongo
@@ -52742,6 +52761,7 @@
 0;10.9679,9.6990;NG-55;Gombe State;Kibil
 0;10.7480,9.6533;NG-46;Bauchi;Digare
 0;10.9214,9.5546;NG-43;Taraba State;Lalle
+0;10.9978,9.8673;NG;;Guda Waziri
 0;10.6891,9.4095;NG-43;Taraba State;Girowo
 0;10.7471,9.3644;NG-43;Taraba State;Tsamiya
 0;10.8502,9.4905;NG-43;Taraba State;Karange
@@ -54799,9 +54819,33 @@
 0;2.8015,7.4597;NG-16;Ogun State;Igbosokun
 0;4.0295,7.3564;NG-32;Oyo State;Bamisinde
 0;4.3072,7.2845;NG-42;Osun State;Alada
+0;2.9107,6.4659;NG;;Agadangba
+0;2.9745,6.4949;NG;;Abiya
+0;2.9949,6.4936;NG;;Ipara
+0;2.9893,6.4157;NG;;Povita
+0;2.8930,6.4643;NG;;Zinvie
+0;2.8787,6.4314;NG;;Seje II
+0;2.8575,6.4968;NG;;Agbogbe
+0;2.8690,6.4770;NG;;Fongi-Odo
+0;2.8086,6.4965;NG;;Inoka
+0;2.7906,6.4649;NG;;Ilaje Camp
+0;2.7523,6.4673;NG;;Idanwu
+0;2.8044,6.4824;NG;;Idobase
+0;2.7645,6.4364;NG;;Gafa
+0;2.7662,6.4384;NG;;Ilaje Fishing Camp
+0;2.7570,6.4258;NG;;Ago-Tuntun
+0;2.7612,6.4206;NG;;Kakon
+0;2.8508,6.3962;NG;;Gedu
+0;2.7473,6.4289;NG;;Irosu
+0;2.7140,6.4277;NG;;Farasime
+0;2.9549,6.4965;NG;;Igbo-Olorun
+0;2.8843,6.4306;NG;;Ajara-Topa
+0;2.8272,6.4620;NG;;Weke
 0;2.7476,7.4228;NG-16;Ogun State;Alagbe-Osupa
 0;2.7706,7.1848;NG-16;Ogun State;Ibudo
 0;2.7597,7.0644;NG-16;Ogun State;Oguntolu
+0;2.8995,6.4415;NG;;Ajara-Iveda
+0;2.8926,6.4311;NG;;Ajara-Doko
 0;2.7332,8.1235;NG-32;Oyo State;Afanye
 0;2.9614,6.8055;NG-16;Ogun State;Andrew
 0;2.8825,6.9450;NG-16;Ogun State;Aba-Ale
@@ -56372,16 +56416,281 @@
 0;3.5009,7.4584;NG-32;Oyo State;Temidire
 0;3.5058,7.4536;NG-32;Oyo State;Ajengbe
 0;3.5157,7.4489;NG-32;Oyo State;Onibuku
+0;3.5541,7.3796;NG;;Fagbohun
+0;3.5085,7.3703;NG;;Arowosegbe
+0;3.5600,7.3581;NG;;Agbogun
+0;3.5438,7.3494;NG;;Ayodele
+0;3.5679,7.3505;NG;;Tapa
+0;3.5756,7.3592;NG;;Sodeinde
+0;3.5285,7.3232;NG;;Adenle
+0;3.5184,7.3214;NG;;Lawani
+0;3.5423,7.3226;NG;;Aja-Aka
+0;3.5231,7.3172;NG;;Akintebi
+0;3.5183,7.3140;NG;;Odubono
+0;3.5112,7.3074;NG;;Abudu
+0;3.5231,7.3105;NG;;Olokun
+0;3.5276,7.3048;NG;;Fagbohun-Ode
+0;3.5094,7.2999;NG;;Otta
+0;3.5519,7.3011;NG;;Poro
+0;3.5361,7.2934;NG;;Odofin-Bamgbose
+0;3.5255,7.2924;NG;;Odofin
+0;3.5207,7.2843;NG;;Iro-Alade
+0;3.5028,7.2830;NG;;Adeke
+0;3.5661,7.2917;NG;;Agbo
+0;3.5517,7.2823;NG;;Jaguna
+0;3.5734,7.2822;NG;;Idi-Iroko
+0;3.5695,7.2743;NG;;Apena
+0;3.5525,7.2723;NG;;Olokogbo
+0;3.5475,7.2700;NG;;Momi
+0;3.5572,7.2604;NG;;Adeyi
+0;3.5463,7.2597;NG;;Agerige
+0;3.5762,7.2570;NG;;Kesi
+0;3.5254,7.2542;NG;;Eiye
+0;3.5123,7.2467;NG;;Ika
+0;3.5194,7.2320;NG;;Olufowora-Emere
+0;3.5336,7.2281;NG;;Olugboso
+0;3.5779,7.2338;NG;;Oluwo-Kesi
+0;3.5697,7.2276;NG;;Tolase
+0;3.5526,7.2279;NG;;Hamolu-Kesi
+0;3.5460,7.2254;NG;;Sogbado
+0;3.5855,7.2208;NG;;Anibaba
+0;3.5957,7.2286;NG;;Olobe
+0;3.5734,7.2103;NG;;Yakoyo
+0;3.5622,7.2093;NG;;Obelu
+0;3.5699,7.1997;NG;;Araromi
+0;3.5515,7.1943;NG;;Amusan
+0;3.5595,7.1918;NG;;Emolu
+0;3.5273,7.1947;NG;;Sokan
+0;3.5251,7.1855;NG;;Agungun
+0;3.5276,7.1813;NG;;Akoni
+0;3.5175,7.1771;NG;;Aborekagbo
+0;3.5055,7.1745;NG;;Lusodo
+0;3.5193,7.1737;NG;;Sapana
+0;3.5326,7.1751;NG;;Fafon
+0;3.5171,7.1691;NG;;Erunwon
+0;3.5221,7.1593;NG;;Apena
+0;3.5089,7.1429;NG;;Aropa
+0;3.5313,7.1429;NG;;Ope-Ifa
+0;3.5361,7.1487;NG;;Sowemimo
+0;3.5476,7.1420;NG;;Igbari
+0;3.5580,7.1418;NG;;Alufa
+0;3.5590,7.1557;NG;;Anipara
+0;3.5627,7.1604;NG;;Kere
+0;3.5753,7.1640;NG;;Degbalu
+0;3.5819,7.1563;NG;;Owojo
+0;3.5745,7.1438;NG;;Idaba
+0;3.5718,7.1368;NG;;Atepepe
+0;3.5283,7.1281;NG;;Ajegunle
+0;3.5833,7.1493;NG;;Ijemo-Shotan
+0;3.5391,7.1176;NG;;Sotomi
+0;3.5541,7.1182;NG;;Basuru
+0;3.5640,7.1119;NG;;Itoku
+0;3.5695,7.1181;NG;;Odofin
+0;3.5493,7.1079;NG;;Itori-Oke
+0;3.5452,7.1019;NG;;Bankole
+0;3.5488,7.0951;NG;;Ajade
+0;3.5400,7.0970;NG;;Gbende
+0;3.5704,7.1078;NG;;Sagutan
+0;3.5032,7.0966;NG;;Lose
+0;3.4992,7.0816;NG;;Gbako
+0;3.5249,7.0875;NG;;Foke
+0;3.5280,7.0758;NG;;Ikija
+0;3.5294,7.0705;NG;;Ojere
+0;3.5450,7.0857;NG;;Lufowora
+0;3.5800,7.0906;NG;;Ogunsan
+0;3.5592,7.0865;NG;;Agoro
+0;3.5826,7.0835;NG;;Oluwo-Esanowo
+0;3.5685,7.0817;NG;;Odegbesan
+0;3.5752,7.0776;NG;;Sadolu
+0;3.5711,7.0732;NG;;Ajadi-Agboh
+0;3.5660,7.0719;NG;;Larinka
+0;3.5312,7.0661;NG;;Ewedina
+0;3.5274,7.0654;NG;;Okenla
+0;3.5321,7.0619;NG;;Woru
+0;3.5389,7.0607;NG;;Oduroye
+0;3.5079,7.0460;NG;;Apesin
+0;3.5896,7.0678;NG;;Adegbokan
+0;3.5226,7.0365;NG;;Oga
+0;3.5413,7.0412;NG;;Ajala
+0;3.5069,7.0213;NG;;Abata
+0;3.5429,7.0264;NG;;Kajola
+0;3.5697,7.0203;NG;;Osesu
+0;3.5334,7.0271;NG;;Obateye
+0;3.5066,7.0048;NG;;Age
+0;3.5795,7.0100;NG;;Idini
+0;3.5784,7.0190;NG;;Erifun
+0;3.5778,7.0255;NG;;Oligu
+0;3.6364,7.0323;NG;;Lisa-Erumbe
+0;3.6381,7.0440;NG;;Asogboni
+0;3.6112,7.0523;NG;;Apena-Erumbe
+0;3.6316,7.0781;NG;;Ige
+0;3.6059,7.0805;NG;;Ijemo-Sogulo
+0;3.6277,7.0890;NG;;Sogbami
+0;3.6375,7.0990;NG;;Akinbo
+0;3.6151,7.1125;NG;;Ategun
+0;3.6358,7.1162;NG;;Kurogbo
+0;3.6292,7.1198;NG;;Soyoye
+0;3.6449,7.1126;NG;;Oluwo-Apena
+0;3.6121,7.1173;NG;;Asore
+0;3.6279,7.1279;NG;;Molare
+0;3.6065,7.1362;NG;;Abondo
+0;3.6402,7.1347;NG;;Olobi
+0;3.6315,7.1371;NG;;Alaha
+0;3.6164,7.1512;NG;;Sapala-Adebesin
+0;3.6547,7.1386;NG;;Bakene
+0;3.6560,7.1551;NG;;Akinola
+0;3.6031,7.1634;NG;;Areago
+0;3.6133,7.1728;NG;;Lowa
+0;3.6594,7.1793;NG;;Apena-Akinsola
+0;3.6691,7.1894;NG;;Sorinola
+0;3.6196,7.2227;NG;;Bada
+0;3.6114,7.2272;NG;;Bankole
+0;3.6310,7.2289;NG;;Arede
+0;3.6473,7.2336;NG;;Bale
+0;3.6318,7.2557;NG;;Tindi
+0;3.5940,7.2610;NG;;Oke-Odo
+0;3.5915,7.2808;NG;;Alakija
+0;3.5876,7.2750;NG;;Ake
+0;3.5990,7.2782;NG;;Ladejo
+0;3.6093,7.2714;NG;;Bale
+0;3.6213,7.2810;NG;;Bajela
+0;3.6304,7.2787;NG;;Mosafejo
+0;3.6387,7.2784;NG;;Ameiye
+0;3.6193,7.2987;NG;;Ikereku
+0;3.5876,7.3168;NG;;Adegbebe
+0;3.6492,7.3066;NG;;Araromi-Adipo
+0;3.6498,7.3206;NG;;Wasimi
+0;3.6365,7.3278;NG;;Ajobo
+0;3.6593,7.3309;NG;;Ajegunle
+0;3.6423,7.3452;NG;;Emere
+0;3.6616,7.2706;NG;;Oga
+0;3.6068,7.3758;NG;;Kemta
+0;3.6098,7.3746;NG;;Okiri-Ojule
+0;3.6509,7.3853;NG;;Olugbemi
+0;3.6122,7.3942;NG;;Ona-Odo
+0;3.6126,7.4069;NG;;Towobowo
+0;3.5920,7.4107;NG;;Olowo
+0;3.6200,7.4131;NG;;Isale
+0;3.6138,7.4117;NG;;Fagbohun
 0;3.5711,7.4553;NG-32;Oyo State;Agbetu
 0;3.7178,7.4909;NG-32;Oyo State;Faleti
 0;3.7290,7.4556;NG-32;Oyo State;Erinwusi
 0;3.7427,7.4528;NG-32;Oyo State;Olota
 0;3.7324,7.4506;NG-32;Oyo State;Asiwaju
 0;3.7483,7.4273;NG-32;Oyo State;Adeseko
+0;3.7351,7.4198;NG;;Asa
+0;3.7259,7.4161;NG;;Ajao
 0;3.6973,7.4214;NG-32;Oyo State;Aloba
+0;3.6594,7.3866;NG;;Alade
+0;3.6973,7.4029;NG;;Esan
+0;3.7132,7.3919;NG;;Ago-Sumonu
+0;3.6843,7.3671;NG;;Alagba
+0;3.7131,7.3614;NG;;Ijaiye
+0;3.7437,7.3965;NG;;Adeyemo
+0;3.6538,7.3846;NG;;Oguntolu
+0;3.6962,7.3544;NG;;Axe-Bala
+0;3.7207,7.3469;NG;;Isola
+0;3.7174,7.3382;NG;;Adebayo
+0;3.6459,7.3433;NG;;Ayo-Olorunda
+0;3.7361,7.3281;NG;;Alaho
+0;3.7401,7.3299;NG;;Alapata
+0;3.7474,7.3165;NG;;Lerin
+0;3.6759,7.3155;NG;;Tosun
+0;3.7042,7.3281;NG;;Apesin
+0;3.7008,7.2820;NG;;Wasimi-Ake
+0;3.7414,7.2977;NG;;Akinola
+0;3.7399,7.2741;NG;;Ikoyi
+0;3.6899,7.2727;NG;;Gbagura
+0;3.6858,7.2646;NG;;Ayegbami
+0;3.7054,7.2556;NG;;Soremekun
+0;3.6844,7.2397;NG;;Iporo-Oderinde
+0;3.7104,7.2422;NG;;Akia
+0;3.7329,7.2393;NG;;Ajegunle
+0;3.7248,7.2145;NG;;Elegunmeta
+0;3.7425,7.2044;NG;;Alatan
+0;3.7420,7.1852;NG;;Fasola
+0;3.6908,7.1839;NG;;Sato
+0;3.6746,7.1771;NG;;Atepepe-Ijoko
+0;3.6734,7.1719;NG;;Idaba
+0;3.7428,7.2098;NG;;Sotiyo
+0;3.6758,7.1564;NG;;Sotan
+0;3.6815,7.1566;NG;;Akinola
+0;3.6813,7.1395;NG;;Akingbade
+0;3.6790,7.1265;NG;;Araba
+0;3.7352,7.1162;NG;;Osiele
+0;3.7250,7.1082;NG;;Aderupatan
+0;3.6749,7.0960;NG;;Erinle
+0;3.6562,7.0876;NG;;Osinun
+0;3.7108,7.0673;NG;;Aragba
+0;3.7458,7.0708;NG;;Alafin
+0;3.7530,7.0562;NG;;Ode
+0;3.8670,7.0160;NG;;Itamerin
+0;3.8726,7.0282;NG;;Alli
+0;3.8832,7.0328;NG;;Erilawo
+0;3.9011,7.0260;NG;;Kuku
+0;3.9085,7.0211;NG;;Loji
+0;3.9897,7.0498;NG;;Erikurudu
+0;3.9906,7.0526;NG;;Etitaie
+0;3.9819,7.0543;NG;;Petugi
+0;3.9765,7.0611;NG;;Idi-Orogbo
+0;3.9993,7.0664;NG;;Olugba-Igbin
+0;3.8093,7.0677;NG;;Igbore
+0;3.7912,7.0580;NG;;Oke-Odo
+0;3.8587,7.0796;NG;;Erilamo
+0;3.8891,7.0846;NG;;Asami-Obi
+0;3.9268,7.0895;NG;;Obepi
+0;3.9642,7.0736;NG;;Omin-Digbolu
+0;3.9781,7.0773;NG;;Olowa
+0;3.9853,7.0980;NG;;Animi
+0;3.9928,7.1113;NG;;Abatitun
+0;3.9589,7.1106;NG;;Iyalode
+0;3.9632,7.1222;NG;;Olatunde
+0;3.9624,7.1321;NG;;Agbeja
+0;3.6672,7.1202;NG;;Erinle
+0;3.9117,7.1493;NG;;Akintola-Ogbun
+0;3.9097,7.1645;NG;;Oloya
+0;3.9229,7.1672;NG;;Onipede
+0;3.9827,7.1543;NG;;Owoade
+0;3.9671,7.1602;NG;;Adeoro
+0;3.9714,7.1643;NG;;Ogunremi
+0;3.9615,7.1658;NG;;Folorunso
+0;3.9694,7.1703;NG;;Papa-Oguntobi
+0;3.9901,7.1799;NG;;Odun-Ewu
+0;3.9949,7.1867;NG;;Ogunremi
+0;3.9610,7.1853;NG;;Moleke
+0;3.9259,7.1743;NG;;Ajibodu
+0;3.9186,7.1771;NG;;Aboyawo
+0;3.9072,7.1915;NG;;Alagba
+0;3.9003,7.1948;NG;;Ori-Oke
+0;3.8921,7.2004;NG;;Olomi
+0;3.9323,7.1960;NG;;Gbayo
+0;3.9546,7.2031;NG;;Olorulekan
+0;3.9503,7.2051;NG;;Ogundipe
+0;3.9302,7.2042;NG;;Moroundiye
+0;3.8951,7.2264;NG;;Alata
+0;3.9043,7.2302;NG;;Alapata
+0;3.9448,7.2223;NG;;Folorunso
+0;3.9623,7.2253;NG;;Odelana
+0;3.9697,7.2395;NG;;Idiroko
+0;3.9731,7.2436;NG;;Lawande
+0;3.9265,7.2488;NG;;Tela
+0;3.9251,7.2385;NG;;Ajogbobi
+0;3.9051,7.2379;NG;;Obepi-Onidajo
 0;3.8237,7.4754;NG-32;Oyo State;Oloko
 0;3.7885,7.4882;NG-32;Oyo State;Farinde
+0;3.7672,7.2066;NG;;Fadipe
+0;3.8070,7.2004;NG;;Onigbagbo
+0;3.8020,7.2032;NG;;Omi-Fatokun
+0;3.7814,7.2034;NG;;Erunwon
+0;3.8003,7.1857;NG;;Aboderin
+0;3.7755,7.1849;NG;;Omi-Fatokun
+0;3.7770,7.1822;NG;;Omi-Dapo
 0;3.5027,7.4553;NG-32;Oyo State;Iropo
+0;3.5410,7.0027;NG;;Moloko-Asipa
+0;3.8168,7.1811;NG;;Akerele
+0;3.8234,7.1939;NG;;Sola
+0;3.5590,7.1314;NG;;Oluga
+0;3.7481,7.3259;NG;;Ajobo
 0;6.4624,13.6054;NG-51;Sokoto;Sarki Toudou Saboua
 0;13.4423,13.5631;NG-27;Borno State;Malkonory
 0;13.5030,11.0534;NG-27;Borno State;Arboko
@@ -56903,6 +57212,7 @@
 0;5.0067,8.3626;NG-30;Kwara State;Olokin
 0;5.0129,8.3441;NG-30;Kwara State;Elesuo
 0;5.0378,8.3384;NG-30;Kwara State;Oloruntele
+0;6.4599,8.4518;NG;;Mogun
 0;6.2313,8.4868;NG-41;Kogi State;Gugurugi
 0;5.0362,8.2975;NG-30;Kwara State;Sabaja-Ajegunle
 0;5.0294,8.2853;NG-30;Kwara State;Ago-Fulani

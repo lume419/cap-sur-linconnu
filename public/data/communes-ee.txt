@@ -1549,6 +1549,7 @@
 0;25.4333,59.0167;72607;Paide linn;Pöiatu
 0;23.5333,59.2333;91114;Lääne-Nigula vald;Põia
 0;24.3708,59.1644;76314;Saue vald;Pohla
+3;24.5134,59.5992;;Harjumaa;Tagaküla
 0;25.6667,58.9000;72604;Paide linn;Põhjaka
 0;25.4253,58.5683;71410;Põhja-Sakala vald;Põhjaka
 0;25.4344,59.4792;74635;Kuusalu vald;Põhja
@@ -2294,6 +2295,7 @@
 0;26.0456,59.2750;45003;Tapa vald;Männiku
 0;24.3572,58.9728;78117;Märjamaa vald;Männiku
 0;24.7786,58.8628;78401;Rapla vald;Männiku
+0;28.8826,58.4364;;;Venekyula
 0;24.4194,58.7367;78021;Märjamaa vald;Manni
 0;24.8714,58.5564;86809;Tori vald;Mannare
 171;22.6276,58.8338;92102;Hiiumaa vald;Männamaa
@@ -2890,6 +2892,7 @@
 353;22.4678,58.9817;92201;Hiiumaa vald;Kõrgessaare
 0;25.4667,58.8000;72230;Türi vald;Kõrgesaare
 0;26.7144,57.7106;66104;Rõuge vald;Kõrgepalu
+0;25.1500,59.9833;;;Kõrgemäe Raba
 0;26.2425,59.3347;45232;Kadrina vald;Kõrgemäe
 0;23.6989,58.9708;91020;Lääne-Nigula vald;Kõrgema
 0;25.4667,58.1500;69503;Mulgi vald;Kõrgemäe
@@ -5144,6 +5147,7 @@
 0;24.1111,59.0044;76218;Lääne-Nigula vald;Rehemäe
 0;23.9897,59.0664;90903;Lääne-Nigula vald;Kuijõevalla
 0;23.7519,59.1553;91103;Lääne-Nigula vald;Nõmmemaa
+0;23.3914,59.2939;;Lääne;Osmussaare
 8;23.5267,59.2200;91114;Lääne-Nigula vald;Spithami
 0;23.5394,59.1172;91215;Lääne-Nigula vald;Söderby
 0;23.5333,59.1247;91112;Lääne-Nigula vald;Norrby

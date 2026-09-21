@@ -241,6 +241,7 @@
 0;38.9243,39.9182;24300;Refahiye;Yurtbaşı
 0;39.3436,38.6341;23190;Elaziğ;Yurtbaşı
 0;28.8142,38.5906;45170;Kula;Yurtbaşı
+0;43.7861,38.2307;;Van;Yurtbaşı
 0;28.6709,39.0066;45900;Demirci;Yiğitler
 0;29.4235,39.7110;43850;Domaniç;Yürgüç
 348;32.9556,39.5200;06720;Bala;Yöreli
@@ -284,6 +285,7 @@
 17654;35.7894,36.7686;01680;Yumurtalik;Yumurtalık
 0;28.5750,38.8015;45940;Köprübaşi;Yumuklar
 0;40.7195,39.7381;25500;Aşkale;Yumruveren
+0;43.3085,38.6797;;Van;Yumrutepe
 112;30.6779,37.6056;15800;Ağlasun;Yumrutaş
 0;44.4151,37.5016;30300;Yüksekova;Yumrutaş
 0;29.4877,37.3912;20890;Acipayam;Yumrutaş
@@ -550,6 +552,7 @@
 0;39.0078,38.3540;23900;Sivrice;Duygulu
 0;36.1398,36.2665;31027;Antakya;Değirmen
 0;36.1925,39.8294;58500;Yildizeli;Yukarıekecik
+0;43.5278,37.9110;;Van;Yukarıeyerli
 0;43.3322,39.5445;04800;Taşliçay;Yukarı Düzmeydan
 69;43.1307,39.8977;04000;Ağri;Yukarıdürmeli
 379;40.1403,36.9150;63570;Ceylanpinar;Yukarıdoruklu
@@ -879,6 +882,7 @@
 0;33.0283,37.1949;70600;Kazimkarabekir;Yollarbaşı
 0;37.6392,38.5022;44740;Darende;Yeşiltaş
 670;44.1114,37.4157;30300;Yüksekova;Doski Vadisi
+0;43.2919,38.7802;;Van;Yeşilsu
 0;41.6311,39.0944;49620;Varto;Yeşilpınar
 0;37.9575,37.2097;63950;Halfeti;Yeşilözen
 0;32.3376,39.1418;06860;Haymana;Yeşiloz
@@ -1309,6 +1313,7 @@
 0;39.2781,37.8928;63614;Siverek;Yeditaş
 1771;40.5337,39.4328;12830;Yedisu;Yedisu
 0;35.9200,39.7397;66300;Akdağmadeni;Yedişehir
+0;43.7009,38.1860;;Van;Yedisalkım
 0;39.2043,38.4174;23900;Sivrice;Yedipınar
 0;39.7474,38.0414;21950;Ergani;Hasanören
 0;36.4378,38.5653;38660;Sariz;Yedioluk
@@ -1415,6 +1420,7 @@
 383;40.4382,38.3189;21800;Hani;Yayvan
 0;40.1204,38.0791;21010;Yenişehir;Yaytaş
 104;30.1388,38.4232;03500;Sandikli;Yayman
+0;43.3692,38.8166;;Van;Yaylıyaka
 0;40.5478,39.9048;25500;Aşkale;Yaylımlı
 0;40.6486,39.5583;24800;Tercan;Yaylım
 345;40.4692,37.1746;47400;Kiziltepe;Yaylım
@@ -1548,6 +1554,7 @@
 0;26.2933,39.7311;17600;Ezine;Yavaşlar
 0;28.8819,38.9863;45900;Demirci;Yavaşlar
 720;29.9608,38.5131;03500;Sandikli;Yavaşlar
+0;33.4566,37.8905;;Konya;Yavanoğlan
 0;40.5500,39.6833;24800;Tercan;Yavaninci
 0;43.7988,39.2068;65500;Muradiye;Yatırlı
 595;40.1564,38.1457;21470;Eğil;Yatır
@@ -1786,6 +1793,7 @@
 0;39.6438,39.6219;24002;Erzincan;Yalınca
 0;39.6833,38.4833;23400;Maden;Yalınca
 0;39.1260,38.3070;44880;Doğanyol;Yalınca
+0;43.5223,37.8566;;Van;Yalınca
 0;41.6402,37.8147;72240;Beşiri;Yalınca
 0;28.7492,38.2375;45470;Sarigöl;Yeşiltepe
 0;28.7134,38.5633;45170;Kula;Yalımlar
@@ -2016,11 +2024,13 @@
 0;38.0453,39.2427;58300;Divriği;Yerliçay
 12258;30.7159,36.9897;07210;Kepez;Varsak
 419;42.0414,37.2238;73300;İdil;Varlık
+0;43.6833,38.1000;;Van;Varkolke
 0;41.9000,38.1333;56470;Baykan;Toptepe
 0;42.7000,38.1833;13600;Hizan;Varis
 592;41.8335,37.1904;73300;İdil;Varımlı
 0;37.2032,38.3776;46300;Elbistan;Hacıhasanlı
 27;40.2569,39.2127;12800;Kiği;Yukarı Serinyer
+0;43.6167,37.9833;;Van;Varbilin
 0;42.7000,37.9333;56700;Pervari;Varas
 0;41.7500,38.5833;49700;Hasköy;Varan
 0;44.1748,37.4043;30300;Yüksekova;Çayır
@@ -2821,6 +2831,7 @@
 0;44.2366,37.4285;30300;Yüksekova;Tokağaç
 246;42.3808,38.4777;13200;Tatvan;Tokaçlı
 41;39.1215,38.5665;23350;Elaziğ;Tohumlu
+0;32.9656,39.7382;;Ankara;Tohumlar
 0;31.3159,39.6826;26630;Günyüzü;Doğray
 0;36.6319,36.2651;31500;Reyhanli;Fevzipaşa
 0;35.6790,39.3535;66600;Çayiralan;Yukarıtekke
@@ -3314,6 +3325,7 @@
 0;43.1200,39.0357;65450;Erciş;Taşlıçay
 263;43.7991,39.8327;76000;Iğdir;Taşlıca
 0;41.9983,38.8129;49800;Korkut;Taşlıca
+0;43.5376,38.0168;;Van;Taşlıca
 0;34.6477,38.0212;51000;Niğde;Taşlıca
 939;40.9765,37.3366;47570;Ömerli;Taşlıca
 0;39.0063,37.2720;63850;Bozova;Taşlıca
@@ -3366,6 +3378,7 @@
 0;37.7397,38.4269;44600;Akçadağ;Taşevler
 0;30.8244,38.2750;32400;Yalvaç;Taşevi
 0;34.9333,37.2833;33400;Tarsus;Taşdurmaz
+0;43.8144,38.2592;;Van;Taşdöndüren
 0;40.0536,37.8381;21750;Çinar;Taşdirek
 0;31.6500,38.0500;42936;Doğanhisar;Taşdığın
 0;27.3954,39.4022;10775;İvrindi;Taşdibi
@@ -3518,6 +3531,7 @@
 0;33.7667,36.2833;33900;Silifke;Tahtacı
 0;39.9943,38.0961;21076;Kayapinar;Kürdük
 0;39.5349,39.0570;62800;Mazgirt;Tahtköy
+0;43.6667,37.9833;;Van;Tahmanis
 0;41.1017,38.1567;21640;Silvan;Kalemli
 0;34.7900,39.4216;66800;Şefaatli;Tahiroğlu
 0;35.5333,36.7833;01680;Yumurtalik;Tahiriye
@@ -3545,6 +3559,7 @@
 288;42.1873,38.4126;13000;Bitlis;Tabanözü
 0;38.4024,39.7343;24710;Iliç(İliç);Tabanlı
 0;41.6867,38.7567;49250;Muş;Tabanlı
+0;43.3651,38.7584;;Van;Tabanlı
 0;33.1548,37.0467;70000;Karaman;Erenkavak
 0;27.7297,39.3532;45500;Soma;Tabanlar
 0;32.2233,38.2806;42800;Kadinhani;Taban
@@ -4373,6 +4388,7 @@
 0;28.7159,39.0406;45900;Demirci;Sevinçler
 0;38.2145,39.1905;58300;Divriği;Beyköy
 0;28.3831,37.8952;09800;Nazilli;Sevindikli
+0;43.8712,38.3049;;Van;Sevindik
 0;31.7837,37.8164;42700;Beyşehir;Sevindik
 241;37.5199,36.7952;79500;Elbeyli;Sevindi
 531;35.5877,37.2651;01700;İmamoğlu;Sevinçli
@@ -4821,6 +4837,7 @@
 0;34.4044,36.7160;33730;Erdemli;Sarıyar
 0;36.0184,39.9322;58500;Yildizeli;Sarıyaprak
 0;34.6245,39.6445;66900;Yerköy;Sarıyaprak
+0;43.6167,38.1167;;Van;Sarıyaprak
 0;42.8368,37.7206;56700;Pervari;Sarıyaprak
 676;37.7106,37.5852;02300;Besni;Sarıyaprak
 206;39.2009,38.5856;23350;Elaziğ;Sarıyakup
@@ -5339,6 +5356,7 @@
 166;35.3983,36.8025;01470;Pozanti;Şahinağa
 0;29.7539,39.4292;43300;Tavşanli;Şahin
 0;44.5767,37.6869;30400;Yüksekova;Şahi
+0;43.3470,38.7708;;Van;Şahgeldi
 0;30.7270,39.8036;26563;Tepebaşi;Cavlum
 0;42.3767,38.1152;13600;Hizan;Doyumlu
 0;37.0871,39.6538;58000;Sivas;Şahbey
@@ -5659,6 +5677,7 @@
 328;29.8628,36.6796;07700;Elmali;Pirhasanlar
 55;42.1975,39.8844;25800;Horasan;Pirhasan
 0;40.9711,37.9983;21640;Silvan;Pirhasan
+0;43.4074,38.7604;;Van;Pirgarip
 0;27.2461,39.2744;35700;Bergama;Pireveliler
 0;40.8144,38.1152;21640;Silvan;Bahçeçik
 0;32.3627,36.8655;42830;Hadim;Göztaşı Mahallesi
@@ -5775,6 +5794,7 @@
 0;34.0731,36.4085;33450;Tarsus;Kapızlı
 0;32.1000,40.0000;06710;Ayaş;Perli Çiftliği
 0;30.0407,39.4407;43270;Kütahya;Perli
+0;43.7667,38.1500;;Van;Perkiş
 0;39.3833,39.2833;62900;Ovacik;Perik
 0;39.6683,38.8462;62800;Mazgirt;Akpazar
 0;40.0435,39.4686;62700;Pülümür;Kırklar
@@ -6609,6 +6629,7 @@
 0;35.2096,39.6584;66700;Sorgun;Ocaklı
 0;40.0500,39.4000;62700;Pülümür;Ocaklı
 0;41.3977,39.0848;49600;Varto;Ocaklı
+0;43.4298,38.7438;;Van;Ocaklı
 0;40.2761,38.2465;21830;Dicle;Doğan
 0;30.3585,38.2300;03402;Dinar;Ocaklı
 0;28.0105,38.2281;35750;Ödemiş;Ocaklı
@@ -6935,6 +6956,7 @@
 0;36.1372,39.0509;38820;Sarioğlan;Muratbeyli
 0;29.5691,39.9896;16400;İnegöl;Muratbey
 0;31.3717,38.1317;32800;Şarkikaraağaç;Muratbağı
+0;43.8537,38.2574;;Van;Murataldı
 506;43.2469,39.6781;04000;Ağri;Murat
 0;36.9167,36.8667;79600;Musabeyli;Mezrea
 0;28.3918,39.9322;16510;Mustafakemalpaşa;Muradiyesarnıç
@@ -7028,6 +7050,7 @@
 0;42.1625,37.4217;73000;Şirnak;Çobandede
 0;42.0702,38.9547;49500;Bulanik;Mollakent
 0;39.3329,38.5774;23250;Elaziğ;Mollakendi
+0;43.1887,38.6769;;Van;Mollakasım
 0;41.9023,38.8914;49800;Korkut;Mollababa
 426;43.6680,39.9084;76900;Tuzluca;Mollakamer
 0;42.8110,39.2041;04500;Patnos;Mollaibrahim
@@ -7416,6 +7439,7 @@
 0;33.0358,37.2355;70000;Karaman;Mecidiye
 0;39.7867,39.3843;62700;Pülümür;Akdik
 0;43.2625,37.8086;65870;Çatak;Mecdinan
+0;43.6000,38.1167;;Van;Mecburabat
 0;41.7333,38.0167;56500;Kurtalan;Mazoran
 1529;36.5254,36.6639;31700;Hassa;Mazmanlı
 0;28.7730,39.6661;10800;Dursunbey;Mazlumlar
@@ -7802,6 +7826,7 @@
 0;26.9176,39.4127;10715;Gömeç;Kuyualanı
 592;35.7100,37.5936;01500;Kozan;Kuytucak
 50;42.3110,38.3299;13000;Bitlis;Yayalar
+0;43.6833,38.0500;;Van;Kuymalı
 0;39.6914,39.1625;62000;Tunceli;Kuyluca
 0;38.7605,39.8000;24300;Refahiye;Yuvadağı
 0;42.7167,38.2000;65710;Bahçesaray;Kütüs
@@ -8137,6 +8162,7 @@
 354;40.6818,38.1027;21500;Bismil;Kumluk
 196;40.4725,38.0776;21310;Sur;Kumluçat
 0;43.4386,39.5947;04800;Taşliçay;Kumluca
+0;43.4011,38.8417;;Van;Kumluca
 0;34.6598,37.9740;51000;Niğde;Kumluca
 119;28.8662,37.9019;20300;Sarayköy;Kumluca
 0;41.2643,37.7323;72350;Hasankeyf;Kumluca
@@ -8402,6 +8428,7 @@
 0;33.1391,37.6222;42400;Karapinar;Küçük Aşlama
 0;38.4459,39.5737;24710;Iliç(İliç);Küçükarmutlu
 0;33.1225,37.0397;70000;Karaman;Ağaçlı Mahallesi
+0;43.2500,38.7833;;Van;Küçükamik
 0;29.9667,37.1333;07800;Korkuteli;Küçük Alifahrettinyaylasıköyü
 0;30.3000,37.1167;07830;Korkuteli;Küçük Alifahrettin
 0;29.0279,39.5239;43300;Tavşanli;Kocayeri
@@ -8825,6 +8852,7 @@
 0;43.2844,38.3377;65700;Gevaş;Köprüler
 0;41.8684,39.9660;25320;Köprüköy;Köprüköy
 0;33.4371,39.5772;71860;Keskin;Köprüköy
+0;43.3264,38.6752;;Van;Köprüköy
 0;29.2167,38.2000;64900;Ulubey;Köprüköy
 30;35.3468,36.7460;01900;Karataş;Koprugozu
 0;39.9343,38.7556;23850;Kovancilar;Köprüdere
@@ -8969,6 +8997,7 @@
 0;36.1104,39.1118;58840;Gemerek;Kümeören
 0;38.1794,39.2484;58300;Divriği;Demirli
 0;35.5833,38.7500;38125;Kocasinan;Kumarlı
+0;43.4333,38.7833;;Van;Kom
 0;42.5833,37.2333;73400;Silopi;Kolya
 0;32.2647,38.5161;42800;Kadinhani;Kolukısa
 0;38.5912,37.1265;63850;Bozova;Çıralı
@@ -9274,6 +9303,7 @@
 0;28.3967,39.7519;10660;Kepsut;Kızıloluk
 0;27.6840,38.2786;35840;Bayindir;Kızıloba
 0;38.2985,39.8989;58980;İmranli;Kızılmezraa
+0;43.6333,38.0833;;Van;Kızılmeydan
 0;40.1515,39.4102;62700;Pülümür;Kızılmescit
 0;40.1500,39.3167;62700;Pülümür;Kızılmescit
 0;41.8190,38.9906;49090;Muş;Keçidere
@@ -10654,6 +10684,7 @@
 0;34.8785,39.2462;50600;Kozakli;Kaşkışla
 0;42.3833,39.8000;04600;Eleşkirt;Kaskan
 0;32.5733,37.7047;42005;Meram;Kaşınhanı
+0;43.4150,38.6855;;Van;Kasımoğlu
 0;41.9781,38.0588;56470;Baykan;Kasımlı
 0;31.1927,37.5288;32950;Sütçüler;Kasımlar
 0;38.5333,37.4333;63970;Halfeti;Kasımkuyu
@@ -11035,6 +11066,7 @@
 0;34.1339,38.2427;06730;Beypazari;Karaören
 0;40.0500,38.0333;21076;Kayapinar;Karaören
 0;33.8137,37.8475;42910;Emirgazi;Karaören
+0;39.2257,37.2170;;Şanlıurfa;Kapaklı
 0;35.9348,37.4506;80900;Sumbas;Akçataş
 0;32.7029,38.0887;42280;Selçuklu;Karaömerler
 0;36.6913,38.1210;46600;Göksun;Karaömer
@@ -11323,6 +11355,7 @@
 0;34.0827,39.3613;40000;Kirşehir;Karahıdır
 499;28.0070,37.7948;09500;Çine;Karahayıt
 0;29.6294,36.9644;48330;Fethiye;Karahasantaşı
+0;32.9890,39.7440;;Ankara;Karahasanlı
 0;34.7216,39.2969;50600;Kozakli;Karahasanlı
 33;35.1333,37.3167;01770;Karaisali;Karahasanlı
 0;40.7122,39.9746;25500;Aşkale;Karahasan
@@ -11351,6 +11384,7 @@
 0;40.8723,38.1872;21640;Silvan;Karahacı
 640;37.7580,37.6090;02300;Besni;Karagüveç
 0;28.1110,39.2584;10330;Sindirgi;Karagur
+0;29.5500,36.7500;;Muğla;Karagünlüleryaylası
 0;37.8500,39.0167;44400;Hekimhan;Karagüney
 0;39.5822,38.8867;62500;Pertek;Karagüney
 0;32.6181,37.1627;42490;Güneysinir;Karagüney
@@ -11824,6 +11858,7 @@
 268;35.1964,36.6487;01900;Karataş;Kapı
 79;37.2292,36.7186;79000;Kilis;Kapdeğirmeni
 0;37.5203,39.3653;58900;Kangal;Paşamçayırı
+0;43.6180,37.9701;;Van;Kapçık
 19;37.2912,36.8109;27410;Şahinbey;Gümüşsuyu
 152;41.9474,39.5338;25840;Karayazi;Kapanlı
 0;42.1506,37.5681;73000;Şirnak;Kapanlı
@@ -11850,6 +11885,7 @@
 0;38.6805,37.5591;63500;Akçakale;Aydınlı
 201;38.0577,37.5635;02300;Besni;Geçitli
 0;39.3000,37.4000;63600;Siverek;Kantara
+0;39.2064,37.2324;;Şanlıurfa;Topkraklı
 0;38.7292,36.9447;63500;Akçakale;Kantara
 185;41.1366,37.7392;47300;Nusaybin;Kantar
 0;39.3333,37.3500;63600;Siverek;Kantar
@@ -12261,6 +12297,7 @@
 0;40.7330,38.3549;21700;Lice;Kabakaya
 0;27.8773,38.7398;45280;Akhisar;Hacıbaştanlar
 0;44.1333,39.7167;76000;Iğdir;Kabak
+0;32.0228,39.2611;;Eskişehir;Kabakköy
 0;39.4333,38.4500;23400;Maden;Kabak
 0;39.0833,37.4000;63900;Hilvan;Kabahaydar
 511;35.9888,36.2306;31800;Samandağ;Seldiren
@@ -12450,6 +12487,7 @@
 0;28.8823,39.0379;45900;Demirci;Erişler
 0;38.9908,38.4249;23900;Sivrice;Yaruşağı
 0;38.1939,37.3176;63850;Bozova;Köseşahin
+0;39.1887,37.1643;;Şanlıurfa;İrice
 0;37.9841,38.5571;44350;Yazihan;İriağaç
 0;29.9219,38.1711;20640;Çivril;Irgıllı
 0;29.1662,38.4809;64900;Ulubey;Ovacık
@@ -12469,6 +12507,7 @@
 0;27.1545,39.5817;10560;Havran;İnönü
 0;35.7692,39.4572;66600;Çayiralan;İnönü
 5552;33.7667,37.3167;70500;Ayranci;İnönü
+0;33.4500,37.5833;;Konya;İnoba Yaylası
 0;37.9297,37.0714;63400;Birecik;İnnaplı
 0;36.2675,38.8318;38700;Pinarbaşi;İnliören
 0;32.8357,37.4547;42500;Çumra;İnli
@@ -12566,6 +12605,7 @@
 0;27.1521,39.1853;35700;Bergama;İncecikler
 0;37.3419,38.3667;46300;Elbistan;İncecik
 146;39.7437,38.4917;23400;Maden;İncebayır
+0;29.5636,36.8000;;Muğla;İncealiler
 678;28.2125,37.9599;09650;Sultanhisar;İncealan
 0;37.1279,39.7586;58000;Sivas;İnceağa
 74;43.6383,39.8895;76900;Tuzluca;İnce
@@ -13080,6 +13120,7 @@
 0;43.6446,37.3337;30700;Çukurca;Yapraklı
 0;27.8500,38.5500;45400;Turgutlu;Hisartepe
 0;28.1492,36.8021;48700;Marmaris;Hisarönü
+500;32.5388,39.7319;;Ankara;Hisarlıkaya
 0;27.6541,38.2708;35900;Tire;Hisarlık
 0;32.3423,37.1567;42630;Bozkir;Hisarlık
 0;38.6358,37.2552;63850;Bozova;Hisarlar
@@ -13149,6 +13190,7 @@
 0;38.6437,39.1292;24620;Kemaliye;Boylu
 0;38.0875,39.8067;58980;İmranli;Körabbas
 0;33.4679,38.9648;06950;Şereflikoçhisar;Hindli Yaylası
+0;43.6000,38.1000;;Van;Hindivanis
 0;40.8957,38.3290;21640;Silvan;Dolaplıdere
 0;42.4222,38.1304;13600;Hizan;Deliktaş
 0;28.8762,39.5143;10800;Dursunbey;Hindikler
@@ -13183,6 +13225,7 @@
 27057;36.1279,36.2080;31141;Defne;Hıdırbey
 0;38.9770,38.7671;23350;Elaziğ;Hıdırbaba
 197;43.1744,39.7189;04000;Ağri;Hıdır
+0;43.4041,38.7183;;Van;Hıdırköy
 0;40.5833,39.0333;12400;Bingöl;Hıdan
 0;36.9167,36.8167;79000;Kilis;Hıcıpoğlu
 0;39.4000,39.0937;62000;Tunceli;Cılga
@@ -13368,6 +13411,7 @@
 0;34.5096,39.7459;66900;Yerköy;Hatip
 0;31.6565,38.8717;42530;Yunak;Kabaklı Mahallesi
 0;32.9701,38.4613;42850;Cihanbeyli;Hatip
+0;43.7748,38.0779;;Van;Hatip
 0;32.4222,37.7545;42005;Meram;Hatip
 649;30.2551,36.3421;07350;Kumluca;Kavakköy
 0;40.0333,37.6000;21750;Çinar;Halıören
@@ -13554,6 +13598,7 @@
 0;41.4562,39.0238;49090;Muş;Tüten
 0;38.7600,38.4732;23800;Baskil;Harabekayış
 0;40.2500,37.3167;47800;Derik;Harbekaya
+0;43.5667,37.9833;;Van;Harabedar
 0;38.8125,36.9733;63500;Akçakale;Haraptar
 0;36.8500,36.8167;79000;Kilis;Hapsino
 0;38.8405,39.9054;24300;Refahiye;Ulucak
@@ -13595,6 +13640,7 @@
 0;34.7667,39.4667;66800;Şefaatli;Konaklı
 0;42.8333,38.1500;65710;Bahçesaray;Haneputye
 0;42.3356,38.4822;13200;Tatvan;Hanelmalı
+0;43.3833,38.7333;;Van;Haneke
 0;41.1167,39.8167;25060;Palandöken;Hanege
 0;38.6306,39.6048;24710;Iliç(İliç);Yaylapınar
 0;40.4043,37.8262;21750;Çinar;Kervanpınar
@@ -13706,8 +13752,10 @@
 0;39.5833,37.6167;63600;Siverek;Hallaç
 0;30.1260,36.3406;07750;Finike;Halaç
 176;38.1508,37.9388;02000;Adiyaman;Sarıkaya
+0;33.2000,38.5500;;Konya;Halkenli
 0;27.9064,39.8088;10180;Karesi;Halkapınar
 2101;34.1874,37.4339;42980;Halkapinar;Halkapınar
+0;43.3190,38.8284;;Van;Halkalı
 541;39.9111,38.5326;23400;Maden;Halkalı
 306;40.5892,37.1483;47400;Kiziltepe;Halkalı
 0;36.3476,39.8028;58500;Yildizeli;Halkaçayır
@@ -14037,6 +14085,7 @@
 152;27.5735,37.6216;09170;Söke;Güzeltepe
 1851;42.1918,38.7586;13400;Ahlat;Güzelsu
 0;35.9678,38.5083;38900;Tomarza;Güzelsu
+0;43.7991,38.3103;;Van;Güzelsu
 0;41.4624,37.2376;47300;Nusaybin;Güzelsu
 106;31.8550,36.8962;07630;Akseki;Güzelsu
 0;40.4297,37.7928;21750;Çinar;Tekkaynak
@@ -14104,6 +14153,7 @@
 0;44.3723,38.3086;65600;Başkale;Güvendik
 0;31.6122,38.0895;42930;Doğanhisar;Güvendik
 0;28.1700,37.9243;09470;Sultanhisar;Güvendik
+0;43.3108,38.7398;;Van;Güvençli
 0;28.0748,39.5189;10463;Bigadiç;Güvençetmi
 133;42.8469,39.7453;04600;Eleşkirt;Güvence
 0;37.9451,38.9105;44400;Hekimhan;Güvenç
@@ -14427,6 +14477,7 @@
 0;43.9396,38.5684;65800;Özalp;Gültepe
 0;36.2159,38.5311;38700;Pinarbaşi;Gültepe
 0;36.4783,36.5483;31440;Kirikhan;Gültepe
+0;43.3749,38.6823;;Van;Gülsünler
 9740;34.6252,38.7459;50900;Gülşehir;Gülşehir
 872;44.0133,39.7874;76000;Iğdir;Gülpınar
 1232;26.1206,39.5328;17860;Ayvacik;Gülpınar
@@ -14489,6 +14540,7 @@
 0;39.9000,38.4167;23400;Maden;Guleman
 26;39.8904,40.0071;69400;Demirözü;Otlukbeli
 0;39.9480,37.9833;21076;Kayapinar;Güleçoba
+124;43.7044,38.1140;;Van;Güleçler
 0;44.2466,38.0734;65600;Başkale;Güleçler
 1102;42.5389,37.9533;56700;Pervari;Güleçler
 0;39.5973,39.1546;62000;Tunceli;Güleç
@@ -14707,6 +14759,7 @@
 0;39.9833,38.5333;23400;Maden;Göma
 0;44.1811,39.5764;04400;Doğubeyazit;Gölyüzü
 0;43.4640,38.5852;65250;İpekyolu;Gölyazı
+0;33.1976,38.5598;;Konya;Gölyazı
 0;39.9500,37.0667;63570;Ceylanpinar;Gölyatağı
 0;42.2921,38.9941;49500;Bulanik;Gölyanı
 0;31.8547,38.4656;42600;Ilgin;Gölyaka
@@ -14738,6 +14791,7 @@
 0;39.4667,37.7667;63600;Siverek;Göllü Anderi
 0;34.3001,39.4499;40060;Boztepe;Göllü
 200;33.8115,38.8393;68600;Ağaçören;Göllü
+0;43.3137,38.7170;;Van;Göllü
 570;42.6129,38.4468;13200;Tatvan;Göllü
 0;42.6056,38.3444;13200;Tatvan;Teknecik
 0;36.9941,37.6085;80000;Osmaniye;Göllü
@@ -15053,6 +15107,7 @@
 0;28.3115,38.4286;45600;Alaşehir;Göbekli
 0;38.5432,37.1432;63850;Bozova;Göbekli
 153;37.6095,37.2315;27000;Şehitkamil;Kabasakız
+0;43.7318,38.2002;;Van;Giyimli
 0;39.6131,37.2955;63700;Viranşehir;Satıcık
 0;39.8029,38.3670;21950;Ergani;Ozan
 506;39.6065,38.2197;21950;Ergani;Dağarası
@@ -15163,6 +15218,7 @@
 955;28.0474,38.2007;35750;Ödemiş;Gereli
 1257;28.9122,37.9010;20300;Sarayköy;Gerali
 1143;35.1553,37.5111;01720;Aladağ(Karsanti);Gerdibi
+825;32.8740,39.7531;;Ankara;Yurtbeyi
 0;36.7687,38.6299;58800;Gürün;Gerdekmağara
 0;41.4856,39.9052;25300;Pasinler;Gerdekkaya
 0;38.4138,37.2464;63850;Bozova;Gerdek
@@ -15184,6 +15240,7 @@
 599;39.5180,38.5900;23350;Elaziğ;Korucu
 0;34.3808,38.2860;68500;Güzelyurt;Akyamaç
 888;29.7014,36.2906;07580;Kaş;Uğrar
+0;43.8167,38.0667;;Van;Gendik
 0;44.0500,39.2333;65970;Çaldiran;Kendalbesk
 0;42.2125,37.3794;73200;Cizre;Yamaç
 0;38.1666,39.9321;58980;İmranli;Koruköy
@@ -15274,6 +15331,7 @@
 99;31.0544,39.1439;03600;Emirdağ;Gedikevi
 0;43.1442,39.0554;65450;Erciş;Gedikdibi
 0;40.4194,39.6437;24800;Tercan;Gedikdere
+0;43.4333,38.8287;;Van;Timar
 0;38.2474,39.4894;58300;Divriği;Gedikbaşı
 0;43.9958,38.1412;65600;Başkale;Gedikbaşı
 26;40.9034,37.7389;21520;Bismil;Gedikbaşı
@@ -16080,6 +16138,7 @@
 65;33.7526,38.8519;06950;Şereflikoçhisar;Eley
 9788;42.6757,39.7980;04600;Eleşkirt;Eleşkirt
 0;28.5283,38.3012;45600;Alaşehir;Elemli
+0;43.5656,38.0804;;Van;Elemeği
 0;31.4498,39.4746;26600;Sivrihisar;Yeniköy Yaylası
 0;35.0256,37.7565;51660;Çamardi;Elekgölü
 0;28.1738,37.3279;48500;Yatağan;Doğan
@@ -16297,7 +16356,9 @@
 0;29.0755,38.5338;64600;Eşme;Düzköy
 0;29.8794,38.6811;64500;Banaz;Düzkışla
 0;43.4004,39.5948;04800;Taşliçay;Düzgören
+0;43.7858,38.1039;;Van;Düzgören
 64;41.1215,37.4720;47500;Midyat(Estel);Düzgeçit
+0;39.2000,37.1833;;Şanlıurfa;Düzenli
 0;36.1167,39.0500;38820;Sarioğlan;Düzencik
 94;30.1413,39.9389;11300;Bozüyük;Düzdağ
 0;42.7282,39.1744;04500;Patnos;Düzceli
@@ -16565,6 +16626,7 @@
 345;43.0520,37.9960;65870;Çatak;Toyga
 235;37.3430,36.7272;79000;Kilis;Dölek
 592;31.4180,36.8427;07600;Manavgat;Dolbazlar
+0;43.6422,38.0249;;Van;Dolaylı
 0;27.9861,38.2766;35750;Ödemiş;Dolaylar
 0;42.6719,37.5892;73800;Beytüşşebap;Dolay
 0;27.1652,39.6237;10560;Havran;Tarlabaşı
@@ -16614,6 +16676,7 @@
 0;30.7950,38.9985;03752;İscehisar;Doğlat
 0;30.3942,39.1283;03380;İhsaniye;Döğer
 0;40.2236,38.3585;21830;Dicle;Döğer
+0;29.6305,36.7700;;Muğla;Gerisburnu
 52;39.8671,39.8565;24503;Çayirli;Doğanyuva
 304;43.7642,39.9028;76900;Tuzluca;Doğanyurt
 0;31.6375,39.0297;42920;Çeltik;Doğanyurt
@@ -16872,6 +16935,7 @@
 0;43.3980,37.8907;65450;Erciş;Dikbıyık
 0;31.7787,38.0127;42600;Ilgin;Dığrak
 0;36.5667,37.3500;80600;Düziçi;Yukarı Acarlar
+0;43.6500,38.1500;;Van;Didanis
 13017;40.0645,38.3657;21830;Dicle;Dicle
 1695;42.0672,37.2887;73300;İdil;Dicle
 0;40.2613,38.3542;21830;Dicle;Kurtuluş
@@ -16992,6 +17056,7 @@
 0;42.3833,39.1167;49400;Malazgirt;Derik
 0;43.5167,38.5833;65250;İpekyolu;Derik
 0;41.1484,38.1716;21640;Silvan;Demirkuyu
+0;43.6500,38.0167;;Van;Derik
 0;40.2647,37.3634;47570;Ömerli;Derik
 0;27.8719,38.5927;45450;Ahmetli;Derici
 0;44.5648,37.5390;30300;Yüksekova;Armutlu
@@ -17684,6 +17749,7 @@
 0;28.0599,37.0919;48220;Milas;Dağpınar
 0;33.4695,36.8309;33600;Mut;Dağpazarı
 0;37.4745,39.4066;58900;Kangal;Dağönü
+0;43.2456,38.7599;;Van;Dağönü
 48;26.8257,39.7786;17720;Bayramiç;Dağoba
 0;29.2144,38.1125;20700;Çal;Dağmarmara
 0;42.9172,39.5113;04700;Tutak;Dağlıca
@@ -17941,6 +18007,7 @@
 0;39.0167,39.6833;24400;Kemah;Çörnecil
 552;28.9470,39.9445;16980;Orhaneli;Çöreler
 0;37.1773,36.9430;27410;Şahinbey;Çöreklik
+0;43.7983,38.3652;;Van;Çörekli
 0;41.4357,37.3133;47500;Midyat(Estel);Çörekli
 0;36.4610,38.4845;38660;Sariz;Çörekdere
 0;36.0855,38.5736;38700;Pinarbaşi;Çördüklü
@@ -18451,6 +18518,7 @@
 0;38.5437,39.7897;24710;Iliç(İliç);Güzle
 31488;40.0500,36.8472;63570;Ceylanpinar;Ceylanpınar
 0;42.9425,39.6366;04600;Eleşkirt;Ceylanlı
+0;29.6024,36.7858;;Muğla;Ceylan
 0;29.3831,36.7307;48350;Fethiye;Sahilceylan
 0;36.3797,36.5600;31440;Kirikhan;Ceylanlı
 96303;35.8175,37.0247;01920;Ceyhan;Ceyhan
@@ -18637,6 +18705,7 @@
 85;40.1637,37.7608;21750;Çinar;Çeltikaltı
 9429;31.7906,39.0244;42920;Çeltik;Çeltik
 0;39.1660,37.6631;63600;Siverek;Çeltik
+0;39.1667,37.2000;;Şanlıurfa;Çeltik
 0;37.0187,39.9581;58000;Sivas;Çeltek
 0;35.5245,39.9314;66500;Çekerek;Çeltek
 76;32.8656,39.2799;42770;Kulu;Çeltek
@@ -18992,6 +19061,7 @@
 0;39.1000,39.9833;29700;Şiran;Çatakkilise
 0;39.1605,38.3355;23900;Sivrice;Çatakkaya
 0;43.3020,39.0424;65400;Erciş;Çatakdibi
+188;43.7135,38.0527;;Van;Çatakdibi
 0;40.2894,39.7972;24800;Tercan;Çatakdere
 0;35.7185,38.6719;38280;Talas;Çatakdere
 0;42.5965,38.1472;13600;Hizan;Çatakdeğirmen
@@ -19574,6 +19644,7 @@
 0;38.0493,38.2919;44600;Akçadağ;Karapınar
 193;38.9037,38.0255;02700;Gerger;Koşarlar
 0;35.9833,38.1833;38400;Develi;Çadıryeri
+0;35.2167,37.7167;;Adana;Çadıroluğu
 0;33.8580,39.2474;40300;Kaman;Çadırlıkörmehmet
 0;33.8983,39.1797;40000;Kirşehir;Çadırlıhacıyusuf
 0;38.1500,39.0167;44400;Hekimhan;Çadırlı
@@ -20371,6 +20442,8 @@
 0;31.5184,38.2688;42550;Akşehir;Çamlı
 74493;40.6593,37.8451;21500;Bismil;Bismil
 0;42.5525,39.5568;04700;Tutak;Bişi
+0;43.4500,37.8589;;Van;Bishi
+0;43.6000,38.0167;;Van;Biseva
 0;34.6669,39.9244;66000;Yozgat;Bişek
 0;43.6833,37.8667;65500;Muradiye;Biruk
 0;43.2736,37.7997;65870;Çatak;Biruk
@@ -20533,6 +20606,7 @@
 0;37.4894,36.6974;79500;Elbeyli;Naf
 373;26.9268,38.2289;35460;Seferihisar;Beyler
 241;29.8619,36.6560;07700;Elmali;Beyler
+0;39.1500,37.2500;;Şanlıurfa;Beykuyusu
 0;28.2158,39.6737;10660;Kepsut;Beyköy
 0;29.2110,39.2286;43780;Hisarcik;Beyköy
 0;34.1453,37.5221;42310;Ereğli;Beyköyü
@@ -20765,6 +20839,7 @@
 2174;27.4503,38.0150;35925;Selçuk;Belevi
 0;29.4041,37.9153;20755;Çal;Belevi
 0;29.3738,37.0990;20980;Çameli;Belevi
+0;43.7167,38.0167;;Van;Belesih
 0;28.5720,38.2978;45600;Alaşehir;Belenyaka
 0;29.1500,39.8667;16740;Keles;Belenören
 0;37.6333,39.4667;58700;Zara;Belentarla
@@ -21939,6 +22014,7 @@
 0;40.9309,38.1695;21640;Silvan;Susuz
 0;37.6639,38.1827;46380;Elbistan;Atmalı Kaşanlı
 1692;37.9821,37.7077;02300;Besni;Atmalı
+0;43.2603,38.6966;;Van;Atmaca
 0;39.4333,37.5500;63600;Siverek;Atmaca
 0;38.7897,39.5807;24400;Kemah;Atma
 31;38.6262,39.5018;24710;Iliç(İliç);Atma
@@ -22155,6 +22231,7 @@
 716;30.6397,37.1136;07190;Döşemealti;Aşağıoba
 388;30.9309,37.0697;07500;Serik;Aşağıoba
 0;36.2516,36.3615;31115;Antakya;Aşağıoba
+0;43.5667,37.9000;;Van;Aşağı Norebin
 0;28.3500,37.9000;09800;Nazilli;Aşağı Nazilli
 0;37.6378,37.6222;02540;Gölbaşi;Aşağınasırlı
 0;43.0963,38.1309;65870;Çatak;Aşağı Narlıca
@@ -22385,6 +22462,7 @@
 0;35.9728,37.3428;80750;Kadirli;Aşağıandırınlı
 0;39.5215,37.4130;63600;Siverek;Aşağı Alınca
 148;31.7064,38.9739;03630;Emirdağ;Aşağıaliçomak
+0;43.5549,37.8901;;Van;Aşağıalıç
 0;41.4221,39.1435;49600;Varto;Aşağı Alagöz
 144;40.4794,38.8778;12000;Bingöl;Aşağı Akpınar
 0;33.0211,36.8931;70000;Karaman;Aşağı Akın
@@ -22436,6 +22514,7 @@
 0;42.8833,38.2000;65700;Gevaş;Arpit
 0;37.2674,39.7105;58000;Sivas;Arpayazı
 0;41.3828,38.8016;49160;Muş;Arpayazı
+0;43.4867,37.8894;;Van;Arpayatağı
 656;40.7986,37.1388;47100;Artuklu;Arpatepe
 0;32.4819,37.3726;42500;Çumra;Apasaraycık
 0;40.1906,37.7746;21750;Çinar;Arpapınar
@@ -22796,6 +22875,7 @@
 0;28.5614,39.8538;16510;Mustafakemalpaşa;Alpagut
 0;29.6221,39.3992;43300;Tavşanli;Alpagut
 0;39.0082,38.7226;23350;Elaziğ;Alpağut
+0;43.7137,38.2191;;Van;Alnıak
 0;41.6620,39.1461;49600;Varto;Alnıaçık
 0;40.4995,39.7846;24800;Tercan;Küplüce
 0;38.0851,37.0654;63400;Birecik;Almaşar
@@ -23012,6 +23092,7 @@
 248;40.8695,37.1493;47100;Artuklu;Alakuş
 0;40.3432,37.0780;47400;Kiziltepe;Alakuş
 0;43.1418,39.5554;04850;Hamur;Alakoyun
+0;43.2412,38.6739;;Van;Alaköy
 0;32.4932,37.7660;42586;Akşehir;Alakova
 0;39.5807,37.1328;63700;Viranşehir;Alakonak
 0;43.2761,39.5153;04800;Taşliçay;Alakoçlu
@@ -23400,6 +23481,7 @@
 523;37.8820,37.4820;02300;Besni;Akdurak
 0;42.8255,37.4776;73600;Uludere;Akduman
 7;38.7719,39.4128;24710;Iliç(İliç);Akdoğu
+0;43.3801,37.8438;;Van;Akdoğu
 0;32.4838,38.2201;42430;Sarayönü;Akdoğan
 0;30.9292,37.7767;32500;Eğirdir;Akdoğan
 0;40.4023,37.0168;47400;Kiziltepe;Akdoğan
@@ -23480,6 +23562,7 @@
 2105;28.0267,37.5028;09520;Çine;Akçaova
 1708;28.2975,37.2346;48040;Menteşe;Akçaova
 0;37.4000,38.6000;44700;Darende;Akçaörendamı
+0;43.4962,38.7294;;Van;Akçaören
 0;35.0258,38.5433;50400;Ürgüp;Ağcaören
 0;34.2788,38.0181;51600;Altunhisar;Akçaören
 0;30.1472,37.3958;15090;Kemer;Akçaören
@@ -23802,6 +23885,7 @@
 0;40.2988,39.6413;24800;Tercan;Çukuryurt
 0;40.1033,39.3775;62700;Pülümür;Ağaşenliği
 0;41.2749,38.9713;49150;Muş;Ağartı
+0;43.2126,38.7015;;Van;Ağartı
 0;29.5608,39.2241;43710;Çavdarhisar;Ağarı
 0;30.7692,39.8022;26004;Odunpazari;Ağapınar
 0;33.4492,39.4140;40300;Kaman;Ağapınar
@@ -28203,6 +28287,7 @@
 34834;35.1625,42.0268;57000;Sinop;Sinop
 0;38.6116,40.6865;28610;Yağlidere;Sınırköy
 0;39.4924,40.9429;61300;Akçaabat;Şinik
+0;28.1904,41.2280;;Istanbul;Sinekli
 336;27.4067,40.2707;17200;Biga;Sinekçi
 0;39.4333,40.8000;61750;Maçka;Sındıran
 0;34.0921,41.1686;37300;Tosya;Sinderli
@@ -32779,6 +32864,7 @@
 0;32.6688,40.1353;06830;Gölbaşi;Imrendi
 0;29.5989,41.1422;34363;Şişli;İmrendere
 0;33.7168,41.6712;37270;Seydiler;İmranlar
+0;28.5424,40.5557;;Bursa Province;İmralı
 0;35.6704,40.2846;60400;Zile;İmirtolu
 0;34.2920,40.2677;19300;Sungurlu;İmirli
 211;35.1512,40.8886;05700;Gümüşhaciköy;İmirler
@@ -37367,6 +37453,7 @@
 0;32.2273,41.3418;67670;Gökçebey;Aydınlar
 0;34.7209,41.5944;57200;Boyabat;Binerli
 0;34.2740,41.3053;37400;Taşköprü;Bekirli
+0;28.2984,41.2272;;Istanbul;Bekirli
 0;37.7560,40.9990;52750;Perşembe;Bekirli
 231;27.0651,40.3804;17200;Biga;Bekirli
 0;34.3500,41.7667;57900;Türkeli;Bekirindamı
@@ -38701,6 +38788,7 @@
 0;34.7753,41.8318;57800;Erfelek;Akveren
 0;27.5622,41.7011;39300;Pinarhisar;Akören
 0;32.9697,41.4355;78300;Eflani;Akören
+1373;28.3337,41.1968;;Istanbul;Akören
 0;32.6107,41.1297;74600;Ulus;Akören
 70;34.9938,41.0138;19500;Osmancik;Akören
 98;32.0493,40.9719;14840;Mengen;Akören
@@ -39149,6 +39237,7 @@
 7788;28.4196,41.0515;34590;Silivri;Celâliye
 1345;28.4923,41.0963;34545;Çatalca;Muratbey
 0;28.4148,41.1392;34540;Çatalca;Elbasan
+700;28.2131,41.2256;;Istanbul;Büyük Sinekli
 1982;28.4448,41.2013;34540;Çatalca;Gökçeali
 0;28.4736,41.3702;34562;Çatalca;Hısarbeyli
 0;28.3225,41.2702;34562;Çatalca;Pınarca
@@ -39612,6 +39701,7 @@
 0;43.2336,38.1933;65870;Çatak;Derebaşı
 0;43.3514,38.0484;65450;Erciş;Kapıdağı
 0;43.3815,38.0292;65450;Erciş;Geçerli
+0;43.4523,38.1060;;Van;Basaran
 0;43.4877,38.3301;65900;Gürpinar;Yatağ
 0;43.1983,38.3306;65700;Gevaş;Mülk
 0;43.1691,38.3459;65700;Gevaş;Uğurveren
@@ -39624,7 +39714,16 @@
 0;43.4623,38.6692;65250;İpekyolu;Dilimli
 0;43.4934,38.7064;65250;İpekyolu;Koçköy
 0;43.4658,38.6880;65250;İpekyolu;Hivi
+0;43.4470,38.7763;;Van;Eleğence
+0;43.4651,38.7404;;Van;Yemlice
+0;43.3836,38.6896;;Van;Otluca
+0;43.3572,38.6588;;Van;Yeniköşk
 0;43.4759,38.8593;65500;Muradiye;Tutumlu
+0;43.2686,38.7725;;Van;Yabalı
+0;43.3500,38.7500;;Van;Sekerbulak
+0;43.2069,38.7363;;Van;Özyurt
+0;43.3494,38.6796;;Van;Özkaynak
+0;43.1154,38.6174;;Van;Çarpanak
 0;43.2424,38.6046;65030;Tuşba;Topaktaş
 0;43.2546,38.5728;65030;Tuşba;Aşağı Göralan
 0;43.0660,38.9689;65400;Erciş;Karatavuk
@@ -39772,9 +39871,11 @@
 0;44.0532,38.4052;65830;Saray;Çakmakköy
 0;43.9676,38.3985;65830;Saray;Sütlüce
 0;43.9751,38.4176;65830;Saray;Yukarı Sütlüce
+0;43.8019,38.3514;;Van;Kıragı
 0;43.8493,38.3901;65800;Özalp;Yaramış
 0;43.8747,38.4284;65800;Özalp;Adbalsincan
 0;43.8448,38.3764;65800;Özalp;Mustafabey
+0;43.8413,38.3494;;Van;Albenek
 0;43.6290,38.3473;65900;Gürpinar;Hamurkesen
 0;43.6331,38.3646;65900;Gürpinar;Ortaköy
 0;43.6466,38.3831;65900;Gürpinar;Karatağ
@@ -39783,7 +39884,11 @@
 0;43.6665,38.4250;65900;Gürpinar;Ongun
 0;43.3730,38.4119;65900;Gürpinar;Akın
 0;43.5955,38.2331;65900;Gürpinar;Dağarcık
+0;43.6484,38.1607;;Van;Koçgüden
+0;43.7706,38.2776;;Van;Mollahüseyin
 0;43.9416,38.3311;65830;Saray;Çakır
+0;43.9422,38.2972;;Van;Gölesirne
+0;43.9452,38.2845;;Van;Çılgı
 0;43.9001,38.2317;65600;Başkale;Ağıldere
 0;44.1686,38.2521;65600;Başkale;Sahintepe
 0;44.2206,38.2683;65600;Başkale;İkizdeğermen
@@ -39791,6 +39896,8 @@
 0;44.1596,38.3083;65600;Başkale;Dereağzı
 0;44.2316,38.2103;65600;Başkale;Günışık
 0;44.2302,38.1320;65600;Başkale;Yeniharman
+0;43.7476,38.0530;;Van;Dövenciler
+263;43.8299,38.1357;;Van;Arındı
 0;43.8977,37.9608;65600;Başkale;Demirbilek
 0;43.9659,37.9607;65600;Başkale;Erkonağı
 0;43.9592,37.8293;65600;Başkale;Beşocak
@@ -39807,6 +39914,10 @@
 0;43.7644,37.8634;65500;Muradiye;Çalalkaya
 0;44.0016,37.9059;65600;Başkale;Aşağıçörten
 0;43.9671,37.9322;65600;Başkale;Bulgurlu
+0;43.6123,38.0391;;Van;Yeşilyurt
+0;43.6031,38.0505;;Van;İlgi
+0;43.6491,38.0484;;Van;Binektaşı
+0;43.5410,38.0049;;Van;Taşnacak
 0;43.5146,37.7965;30300;Yüksekova;Kaya
 0;43.6225,37.9330;65500;Muradiye;Bükülmez
 0;43.6843,37.8567;65500;Muradiye;Kayrakdere
@@ -39814,8 +39925,14 @@
 0;43.6917,37.8828;65500;Muradiye;Yaya
 0;43.5421,37.8390;30300;Yüksekova;Yeşildere
 0;43.5664,37.8663;65500;Muradiye;Kabatepe
+0;43.5499,37.8714;;Van;Karakoç
 0;43.5794,37.8690;65500;Muradiye;Kırkçömlek
+0;43.5559,37.8935;;Van;Kılıçtutan
 0;43.4956,37.9192;65450;Erciş;Aşağıeğerli
+0;43.5313,37.8870;;Van;Koşumlu
+0;43.5085,37.8774;;Van;Yapraklı
+0;43.4178,37.8537;;Van;Çimendüzü
+0;43.3839,37.8333;;Van;Atobinen
 0;43.3643,37.8831;65450;Erciş;Baltutan
 0;43.3787,37.8732;65450;Erciş;Geçkalmaz
 0;43.3511,37.8693;65450;Erciş;Arkaç
@@ -44889,6 +45006,8 @@
 0;32.6165,36.4579;70800;Sariveliler;Gözlüboğazı
 0;32.6210,36.5000;70800;Sariveliler;Sarıkuyu Yaylası
 0;32.5978,36.4115;07900;Gazipaşa;Eğrice
+0;32.6300,36.4348;;Mersin;Küçükpınar Yaylası
+0;32.6718,36.4339;;Mersin;Çıldır
 0;32.7832,36.4588;70460;Ermenek;Güneyli Yaylası
 0;32.8441,36.4168;70460;Ermenek;Kumrulu
 0;32.8561,36.4046;70400;Ermenek;Çopurlu
@@ -49310,6 +49429,7 @@
 0;42.6594,38.3629;13200;Tatvan;Nohutlu
 0;42.7216,38.3494;13200;Tatvan;Söğütlu
 0;43.0877,38.9706;65400;Erciş;Akçayuva
+0;43.3464,38.7999;;Van;Esenpınar
 0;42.7437,38.0203;65710;Bahçesaray;Akyayla
 0;29.5099,38.7262;64000;Uşak;Altıntaş
 0;29.5239,38.7275;64000;Uşak;Güldezler
@@ -49870,6 +49990,7 @@
 0;29.6291,36.8988;48330;Fethiye;Gökben Yaylası
 0;29.6908,36.8074;07700;Elmali;Zorlar Yayla
 0;29.6517,36.7758;07716;Elmali;Kıncılar
+0;29.6204,36.7819;;Muğla;Temel
 0;29.5082,36.6742;48850;Seydikemer;Çökek
 0;29.5291,36.6637;07580;Kaş;Boyalı
 0;29.4581,36.6460;48850;Seydikemer;Boğazsazı
@@ -51202,6 +51323,7 @@
 0;39.1336,37.0377;63510;Harran;Rudzhmudyuveyup
 0;39.3049,37.0648;63700;Viranşehir;Sekemmagara
 0;39.1102,37.1930;63900;Hilvan;Egridzhe
+0;39.2127,37.1792;;Şanlıurfa;Darik
 0;39.2831,37.2356;63600;Siverek;Byuyuk-Shebek
 0;39.2944,37.1552;63900;Hilvan;Zanzul
 0;39.3090,37.1829;63600;Siverek;Davudiye
@@ -51430,6 +51552,8 @@
 0;39.2437,36.8034;63510;Harran;Güvesim
 0;39.2928,36.7541;63510;Harran;Harbetsubeyir
 0;39.5860,36.9041;63510;Harran;Harsmiran
+0;39.8806,36.9040;;Şanlıurfa;Herbereş
+0;39.7350,36.8721;;Şanlıurfa;Ardo
 0;39.6382,36.8440;63510;Harran;Hanılaydır
 280341;29.0424,37.8054;20150;Pamukkale;Merkezefendi
 0;39.4935,37.2800;63700;Viranşehir;Yukarı Dilimli
@@ -51568,6 +51692,7 @@
 0;43.9174,38.2394;65600;Başkale;Aşağıdere
 0;44.0827,38.1348;65600;Başkale;Yeniköy
 0;44.1668,38.2009;65600;Başkale;Tokluca
+0;43.4903,38.0816;;Van;Karakaş
 0;42.4929,38.2292;13600;Hizan;Mollabirgi
 0;42.7281,38.1621;65710;Bahçesaray;Başçoban
 0;42.8057,38.0873;65710;Bahçesaray;Kavalcık

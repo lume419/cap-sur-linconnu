@@ -33,6 +33,7 @@
 0;-79.8934,-1.1188;130801;Guayas;El Zapote
 0;-80.0482,-0.9195;130603;Manabí;Zapote
 0;-80.5900,-2.0288;240107;Guayas;Zapotal de Colonche
+0;-80.5626,-2.3169;;Guayas;Zapotal
 0;-79.4018,-1.3551;120402;Los Ríos;Zapotal
 0;-80.0438,0.4460;080308;Esmeraldas;Bolívar
 0;-79.0333,-2.8000;010113;Azuay;Zapatero
@@ -40,6 +41,7 @@
 0;-78.9833,0.7833;080203;Esmeraldas;Zapallo Grande
 0;-80.0000,-0.4500;130712;Manabí;Zapallo
 0;-80.3333,-4.3833;110902;Loja;Zapallal
+0;-75.5000,-0.5500;;Orellana Province;Zancudo
 15276;-78.9512,-4.0645;190101;Zamora Chinchipe;Zamora
 0;-80.1620,-1.8055;091403;Guayas;Zamora Nuevo
 0;-79.8000,-1.3167;091301;Los Ríos;Zambrano
@@ -73,6 +75,7 @@
 0;-77.9360,-2.8544;140304;Morona-Santiago Province;Yaupi
 0;-78.5168,-1.3505;180401;Tungurahua Province;Yataquí
 0;-78.9667,-2.5167;030202;Canar;Yatancocha
+0;-75.3882,-0.9362;;Orellana Province;Yasuní
 0;-78.6764,-1.6891;060117;Chimborazo Province;Yaruquíes
 0;-78.3163,-0.1654;170908;Pichincha;Yaruquí
 0;-79.2287,-3.3012;010502;Azuay;Yaritzagua
@@ -105,6 +108,8 @@
 0;-79.6500,-1.3667;120205;Los Ríos;Vuelta Larga
 0;-79.7002,0.8960;080115;Esmeraldas;Vuelta Larga
 0;-80.1000,-1.4833;091305;Manabí;Voluntad de Dios
+0;-80.6000,-2.1667;;Guayas;Volcán Grande
+0;-80.6167,-2.1667;;Guayas;Volcancito
 0;-78.8500,0.0000;171202;Pichincha;Voladero
 0;-78.9792,-2.8063;010115;Azuay;Vivin
 0;-79.6333,-2.0833;092102;Guayas;Viterbo Puig
@@ -122,6 +127,7 @@
 0;-79.5202,0.6066;080407;Esmeraldas;Vinsade Afuera
 0;-79.2458,-3.7541;110119;Loja;Vinuyacu Grande
 32497;-79.7525,-1.5564;120501;Los Ríos;Vinces
+0;-80.4751,-2.3625;;Guayas;Villingota
 0;-80.3372,-1.8457;091401;Guayas;Villao
 0;-77.4814,-1.4967;160201;Pastaza Province;Villano
 0;-80.0167,-1.8000;091903;Guayas;Villa de Dios
@@ -354,10 +360,12 @@
 0;-77.2167,-1.2500;160201;Pastaza Province;Tihuano
 0;-80.3105,-0.9603;130116;Manabí;Los Tigres
 0;-76.2735,0.2419;210305;Sucumbíos;Tigre Playa
+0;-79.2667,-4.9667;;Zamora Chinchipe;Tigre
 0;-80.8167,-2.3167;240208;Guayas;Tigre
 0;-78.4833,-1.3167;180401;Tungurahua Province;Tiglli
 0;-79.8667,-2.9167;091208;Guayas;Texas
 0;-76.8000,0.0333;210201;Sucumbíos;Teteyé
+0;-76.5500,0.2558;;Sucumbíos;Tetetes
 0;-79.3723,-3.8598;110118;Loja;Tesalia
 0;-80.2294,-2.2195;091003;Guayas;Teresita
 0;-79.1645,-2.1921;060301;Guayas;Teresita
@@ -489,6 +497,7 @@
 0;-79.1404,-3.1676;010303;Azuay;Sula
 0;-77.8980,-2.4332;140103;Morona-Santiago Province;Suentza
 7413;-78.1710,-2.4574;140301;Morona-Santiago Province;Sucúa
+0;-80.4666,-2.3708;;Guayas;Sucre
 15286;-80.4178,-1.2799;130410;Manabí;Sucre
 0;-78.4947,-1.2637;180404;Tungurahua Province;Sucre
 0;-78.8500,-3.0000;010405;Azuay;Subida de Chalacas
@@ -539,6 +548,7 @@
 0;-78.8239,-2.9978;010405;Azuay;Sigsillano
 0;-78.9204,-2.5402;030201;Canar;Sigsihuaycu
 0;-78.7956,-3.0509;010803;Azuay;Sigsig
+0;-79.8833,-2.5333;;Canar;Sigsid
 0;-78.1500,0.0500;171001;Pichincha;Sigsal Bajo
 0;-78.1500,0.0500;171001;Pichincha;Sigsal Alto
 0;-78.6167,-1.0167;050601;Cotopaxi;Sigchoscalle
@@ -610,8 +620,10 @@
 0;-79.8500,-2.3833;090101;Guayas;Segal
 0;-76.6073,0.0509;210207;Sucumbíos;Secoya
 0;-78.3333,-0.4500;170813;Pichincha;Secas
+0;-77.5000,0.5000;;Sucumbíos;Sebundoy
 0;-79.0722,-2.8714;010117;Azuay;Sayausí
 0;-78.8167,-3.0667;010803;Azuay;Sayarin
+0;-80.6424,-2.2295;;Guayas;Saya
 0;-78.5921,-1.3976;180602;Tungurahua Province;Saushi
 0;-79.2167,-3.2167;010303;Azuay;Sauco
 0;-80.1948,-4.2737;110903;Loja;Saucillo
@@ -638,6 +650,7 @@
 0;-78.9000,-2.8667;010110;Azuay;San Vicente
 0;-78.6706,-2.8111;010604;Azuay;San Vicente
 0;-78.8685,-2.7897;030105;Azuay;San Vicente
+0;-79.9435,-2.5789;;Guayas;San Vicente
 0;-78.6692,-2.5541;030112;Canar;San Vicente
 0;-79.3000,-2.5000;030301;Canar;San Vicente
 0;-80.7714,-2.2396;240101;Guayas;San Vicente
@@ -799,6 +812,7 @@
 0;-78.0833,0.8667;040304;Carchi;San Rafael
 0;-78.4617,-0.3207;171101;Pichincha;San Rafael
 0;-78.2317,0.1920;100205;Imbabura;San Rafael
+0;-77.1667,-0.1000;;Napo;San Rafael
 0;-78.7167,0.0833;170104;Pichincha;San Rafael
 0;-80.5455,-1.6456;130313;Manabí;San Plácido
 0;-80.2450,-1.0616;130121;Manabí;San Plácido
@@ -823,6 +837,7 @@
 0;-78.8792,-2.5950;030201;Canar;San Pedro
 0;-78.6333,-2.5500;030112;Canar;San Pedro
 0;-80.0000,-2.2500;090901;Guayas;San Pedro
+0;-80.5667,-2.2167;;Guayas;San Pedro
 0;-79.2402,-2.1820;091603;Guayas;San Pedro
 0;-80.7333,-1.9667;240107;Guayas;San Pedro
 0;-79.7833,-1.9000;092003;Guayas;San Pedro
@@ -869,6 +884,7 @@
 0;-80.3307,-2.5483;092201;Guayas;San Miguel
 0;-78.9227,-2.5177;030202;Canar;San Miguel
 0;-79.2500,-2.4500;900001;Canar;San Miguel
+0;-80.7110,-2.1546;;Guayas;San Miguel
 0;-79.5518,-2.1796;091716;Guayas;San Miguel
 0;-79.7000,-2.1167;092101;Guayas;San Miguel
 0;-79.8839,-2.0714;090703;Guayas;San Miguel
@@ -1018,6 +1034,7 @@
 0;-79.0833,-3.0833;010217;Azuay;San Guillermo
 0;-79.8833,-2.0000;091910;Guayas;San Guillermo
 0;-79.4667,-4.4833;110609;Loja;San Guillén
+0;-80.3333,-3.3667;;El Oro;San Gregorio
 0;-79.1167,-3.2000;010303;Azuay;San Gregorio
 0;-79.9705,0.5283;080301;Esmeraldas;San Gregorio
 5114;-78.4522,-0.3341;171101;Pichincha;Sangolquí
@@ -1315,6 +1332,7 @@
 0;-78.3000,-2.2000;140105;Morona-Santiago Province;Retiro
 0;-79.7356,-1.7543;120116;Guayas;Resbalón
 0;-79.8167,-1.8000;092001;Guayas;República Ochoa
+0;-76.4000,-1.2667;;Orellana Province;Paparado
 0;-80.5167,-1.5833;130313;Manabí;Rendón
 0;-78.1333,0.0667;171001;Pichincha;Remonta
 0;-80.3500,-4.4333;110902;Loja;Remolinos
@@ -1440,6 +1458,7 @@
 0;-79.7333,-2.6667;091201;Guayas;Puerto Triunfo
 0;-80.1500,-3.3667;070605;El Oro;Puerto Tigre
 0;-79.7000,-2.6500;091201;Guayas;Puerto Santa Rosa
+0;-79.7833,-2.6833;;Guayas;Puerto San Pablo
 0;-80.3161,-2.5659;091002;Guayas;Puerto San Miguel del Morro
 0;-79.7613,-2.7422;091201;Guayas;Puerto San Jorge
 0;-80.0167,-2.6333;090104;Guayas;Puerto Salinas
@@ -1453,6 +1472,7 @@
 0;-79.9333,-2.6000;090104;Guayas;Puerto Punta Alcatras
 0;-77.7000,-2.9333;140604;Morona-Santiago Province;Puerto Proaño
 0;-80.1205,-3.3346;070605;El Oro;Puerto Pongalillo
+0;-80.1626,-2.5530;;Guayas;Puerto Pizarro
 0;-79.9667,-3.2667;070201;El Oro;Puerto Pito
 0;-79.9833,-3.4500;070601;El Oro;Puerto Pital
 0;-80.0781,-3.4232;070601;El Oro;Puerto La Pitahaya
@@ -1467,6 +1487,7 @@
 0;-75.5212,-0.8498;220301;Orellana Province;Puerto Miranda
 0;-79.8333,-1.3500;091301;Guayas;Puerto Los Ríos
 0;-80.8093,-1.5587;130311;Manabí;Puerto López
+0;-75.2167,-0.9167;;Orellana Province;Puerto Loja
 0;-80.2333,-3.5333;070501;El Oro;Puerto Limón
 0;-79.3732,-0.3881;230120;Santo Domingo de los Tsáchilas;Puerto Limón
 0;-80.0833,-2.4167;090608;Guayas;Puerto La Seca
@@ -1478,9 +1499,11 @@
 0;-80.0254,-2.1894;090901;Guayas;Puerto Hondo
 0;-80.0968,-2.9453;090104;Guayas;Puerto Grande
 48144;-76.9972,-0.4497;220201;Orellana Province;Puerto Francisco de Orellana
+0;-79.8573,-2.6003;;Guayas;Puerto de la Cruz
 0;-80.3033,-2.6114;091002;Guayas;Puerto de El Morro
 0;-79.9333,-2.2833;090206;Guayas;Puerto de Ébano
 0;-80.7391,-1.3486;130312;Manabí;Puerto de Cayo
+0;-79.8997,-2.5759;;Guayas;Puerto Balsas
 0;-80.1579,-2.3582;090608;Guayas;Puerto de Bajo Grande
 0;-79.9333,-1.9000;091901;Guayas;Puerto Coquito
 0;-80.2667,-3.4500;070501;El Oro;Puerto Cayambe
@@ -1715,10 +1738,12 @@
 0;-78.8938,-2.7378;030101;Canar;Pichumaso
 0;-80.4121,-4.4700;110902;Loja;Pichincha
 0;-79.8214,-1.0470;130802;Manabí;Pichincha
+0;-75.2780,-0.7068;;Pastaza Province;Pichincha
 0;-79.4647,-1.1030;120311;Los Ríos;Pichilingue
 0;-79.3667,-2.9167;010219;Azuay;Pichilcay
 0;-79.2692,-3.7116;110801;Loja;Pichig
 0;-78.5848,-1.2751;180209;Tungurahua Province;Picaigua
+0;-78.9167,1.4333;;Esmeraldas;Pianguapí
 0;-77.7167,-2.6667;140107;Morona-Santiago Province;Petzcinda
 0;-80.9667,-2.2167;240205;Guayas;Petrópolis
 0;-78.4242,0.1101;170316;Pichincha;Perucho
@@ -1728,6 +1753,7 @@
 0;-79.9167,-1.3500;091301;Guayas;Perote
 0;-79.7167,-0.8833;091505;Guayas;Peripa
 0;-80.0000,-1.5167;091305;Guayas;Perinaco
+0;-77.5000,0.5167;;Sucumbíos;Perdida
 0;-78.9000,-2.9333;010406;Azuay;Percadil
 0;-79.8167,-1.3167;091301;Los Ríos;Peralto
 0;-78.5316,-1.5659;060502;Chimborazo Province;Penipe
@@ -1754,12 +1780,14 @@
 0;-80.2854,-4.2587;110903;Loja;Pavas
 0;-76.3564,-1.5816;160111;Pastaza Province;Pavacachi
 0;-78.7615,-2.7796;010606;Azuay;Paute
+0;-76.9333,-1.3667;;Orellana Province;Paushiyacu
 0;-79.8500,-1.4333;091301;Los Ríos;Paují
 0;-78.5667,-1.1500;180112;Tungurahua Province;Patzocul
 0;-78.5639,-1.3478;180401;Tungurahua Province;Patuliguí
 0;-79.2273,-2.7055;010112;Azuay;Patul
 0;-79.5071,-3.2231;010305;Azuay;Patococha
 0;-78.2623,-2.7559;140602;Morona-Santiago Province;Patuca
+0;-79.9167,-3.0000;;Guayas;Pato Prieto
 0;-78.5080,-1.3121;180401;Tungurahua Province;Patate
 0;-78.1500,0.0500;171001;Pichincha;Patarata
 0;-78.3647,0.1769;100216;Imbabura;Pataqui
@@ -1774,6 +1802,7 @@
 0;-80.4333,-4.3333;110902;Loja;Pasayogacho
 44860;-79.8070,-3.3256;070101;El Oro;Pasaje
 0;-79.9224,-1.1850;130801;Guayas;Pasaje
+0;-75.9333,-0.5500;;Sucumbíos;Pasa Isla
 0;-78.7315,-1.2684;180110;Tungurahua Province;San Antonio de Pasa
 0;-78.7356,-2.7748;010601;Azuay;Parig
 0;-79.1487,-3.4890;010501;Azuay;Paredones
@@ -1844,6 +1873,7 @@
 0;-79.9833,-1.6833;091906;Guayas;Palmira
 0;-79.6167,-1.4500;120205;Los Ríos;Palmira
 0;-79.0333,0.9833;080201;Esmeraldas;Palmira
+0;-76.2719,-0.4670;;Pastaza Province;Palmira
 0;-78.7333,0.0833;170102;Pichincha;Palmira
 0;-79.9333,-2.0333;090707;Guayas;Palma Sola
 0;-78.6325,-2.7175;010602;Azuay;Palmas
@@ -2047,12 +2077,14 @@
 0;-80.7337,-2.0550;240107;Guayas;Monteverde
 0;-79.7342,-2.0201;092303;Guayas;Hacienda Monterrey
 0;-79.9500,-1.8000;091903;Guayas;Monte Redondo
+0;-75.9184,0.1829;;Sucumbíos;Montepa
 0;-77.8627,0.3878;040203;Carchi;Monte Olivo
 0;-80.0407,-3.9899;110406;Loja;Monte Huayco
 18351;-80.6589,-1.0458;130213;Manabí;Montecristi
 0;-79.7333,-1.9167;092005;Guayas;Montebajo
 0;-80.7529,-1.8274;240111;Santa Elena;Montañita
 0;-80.2587,-0.8695;131205;Manabí;Montañita
+0;-80.6500,-2.2667;;Guayas;Montalvo
 0;-77.0086,-2.0493;160110;Pastaza Province;Montalvo
 15547;-79.2876,-1.7901;120114;Los Ríos;Montalvo
 0;-78.6271,-1.3298;180601;Tungurahua Province;Montalvo
@@ -2089,6 +2121,7 @@
 0;-79.0576,-2.9095;010214;Azuay;Misecata
 0;-78.1500,-2.4667;140302;Morona-Santiago Province;Río Miriumi
 0;-80.0043,-3.4656;070601;El Oro;Miraflores
+0;-79.9167,-2.9333;;Guayas;Miraflores
 0;-79.0076,-2.8654;010111;Azuay;Miraflores
 0;-79.7833,-2.0000;092303;Guayas;Miraflores
 0;-79.5667,-1.8667;120108;Los Ríos;Miraflores
@@ -2136,6 +2169,7 @@
 0;-80.7000,-1.2333;130308;Manabí;Membrillo
 0;-80.6655,-1.2378;130308;Manabí;Membrillal
 0;-79.7167,-2.0667;092101;Guayas;Mechita
+0;-78.8500,-0.3000;;Pichincha;Mechichi
 0;-79.1519,-3.4645;010501;Azuay;Mantaucu
 0;-79.1500,-3.4333;010501;Azuay;Mauta
 0;-78.5028,-1.5582;060503;Chimborazo Province;Matus
@@ -2228,6 +2262,7 @@
 0;-80.1167,-3.4833;070506;El Oro;Manantial de Piedritas
 0;-80.6000,-2.0000;240107;Guayas;Manantial de Guangala
 0;-80.6902,-2.3790;240105;Guayas;Manantial
+0;-80.6167,-2.2333;;Guayas;Manantial
 0;-80.6667,-1.9833;240107;Guayas;Manantial
 0;-79.8333,-1.4667;120508;Los Ríos;Manantial
 0;-78.8833,-2.9833;010406;Azuay;Manandel
@@ -2547,12 +2582,14 @@
 0;-79.5577,-4.0551;110301;Loja;Las Cochas
 0;-78.9290,-2.9161;010215;Azuay;Las Cochas
 0;-79.4767,-3.9662;110204;Loja;Las Chinchas
+0;-79.9500,-2.9667;;Guayas;Las Casitas
 0;-79.7500,-2.3000;092407;Guayas;Las Casas
 0;-80.2304,-1.5307;130905;Manabí;Lascano
 0;-79.9317,-3.4438;070601;El Oro;Río de Las Cañas
 0;-80.4022,-2.1294;240108;Guayas;Las Cañas
 0;-80.0799,-1.8300;091405;Guayas;Las Cañas
 0;-80.4539,-2.0302;240106;Guayas;Las Balsas
+0;-80.3333,-3.3833;;El Oro;Las Avispas
 0;-79.9833,-1.8500;091901;Guayas;Las Ánimas de Abajo
 0;-79.9809,-1.8193;091903;Guayas;Las Ánimas
 0;-79.0500,1.1167;080201;Esmeraldas;La Saban
@@ -2560,6 +2597,7 @@
 0;-80.1163,-4.1367;110403;Loja;Rota
 0;-79.7843,-1.7267;120510;Guayas;La Roma
 0;-80.1667,-3.6833;070508;El Oro;La Rocana
+0;-80.7667,-1.7000;;Guayas;La Rinconada
 0;-78.8000,-2.9500;010405;Azuay;La Revesa
 0;-79.8833,-1.9833;091910;Guayas;La Resistencia
 0;-80.0833,-0.6833;130701;Manabí;La Raya
@@ -2605,6 +2643,7 @@
 0;-77.7197,0.7806;040101;Carchi;La Palizada
 0;-79.7060,-0.2852;130719;Manabí;La Palanca
 0;-79.7000,-2.1000;092101;Guayas;La Olalla
+0;-76.4243,0.2542;;Sucumbíos;La Nueva Santa Rosa
 0;-79.7833,-1.7833;092001;Guayas;La Nueva Esperanza
 0;-79.2262,-4.2082;110117;Loja;Landangui
 0;-79.6333,-2.1667;091713;Guayas;La Muralla
@@ -2696,11 +2735,13 @@
 0;-80.4495,-0.4251;131104;Manabí;La Florida
 0;-79.8167,-1.8500;092003;Guayas;La Fe
 0;-79.5500,-1.3333;120205;Los Ríos;La Fe
+0;-78.7667,-0.2667;;Pichincha;La Favorita
 0;-79.6667,-1.9000;092005;Guayas;La Eugenia
 0;-79.6833,-1.8500;092005;Manabí;La Estrella
 0;-80.2150,-0.8183;131205;Manabí;Ángel Pedro Giler
 0;-79.0500,-0.3000;230115;Pichincha;La Estancia
 0;-79.9667,-2.0000;090708;Guayas;La Estada
+0;-79.9333,-2.9167;;Guayas;La Estación
 0;-80.1973,-3.9956;110405;Loja;La Esperanza
 0;-78.9381,-3.1081;010802;Azuay;La Esperanza
 0;-79.7406,-3.0050;010701;Guayas;La Esperanza
@@ -2721,6 +2762,7 @@
 0;-78.5667,-1.3500;180401;Tungurahua Province;Ladrillo
 0;-79.6500,-2.6833;091201;Guayas;La Dolores
 0;-79.5333,-3.3000;070112;Azuay;La Delicia
+0;-79.3333,-2.5667;;Canar;La Delicia
 0;-79.8167,-2.1000;092403;Guayas;La Delicia
 0;-80.0167,-1.9500;091905;Guayas;La Delicia
 0;-79.6733,-1.9073;092005;Guayas;La Delicia
@@ -2754,6 +2796,7 @@
 0;-80.7614,-0.9984;130227;Manabí;San Juan de Manta
 0;-79.7333,-1.9333;092301;Guayas;La Cereza
 0;-80.2161,-4.3109;110903;Loja;La Ceiba Chica
+0;-79.8167,0.1667;;Pichincha;La Ceiba
 0;-79.6000,-3.3167;070112;Azuay;La Cascada
 0;-80.0167,-1.9167;091905;Guayas;La Carolina
 0;-80.0333,-0.6500;130708;Manabí;La Caridad
@@ -2771,6 +2814,7 @@
 0;-80.4167,-4.4667;110902;Loja;La Bocana
 0;-79.9025,-3.6890;070405;El Oro;La Bocana
 0;-79.8000,-1.8333;092003;Guayas;La Bocana
+0;-79.9167,-3.0167;;Guayas;La Boca
 0;-79.9833,-1.9667;090708;Guayas;La Boca
 0;-77.4577,0.2960;210102;Sucumbíos;La Barquilla
 0;-90.4339,-1.3485;200101;Galápagos;La Baronesa
@@ -2928,6 +2972,7 @@
 0;-79.7667,-1.7333;120510;Guayas;Independencia
 0;-79.9833,-1.6833;091906;Guayas;Independencia
 0;-78.4524,-3.0520;140606;Morona-Santiago Province;Indanza
+0;-77.1469,-0.7590;;Napo;Inchiyacu
 0;-80.6167,-2.0000;240107;Guayas;Inca
 0;-78.8500,-3.0333;010405;Azuay;Iñazari
 0;-78.7167,-1.7667;060407;Chimborazo Province;Imbayo
@@ -3322,6 +3367,7 @@
 0;-78.6667,-1.5667;060501;Chimborazo Province;Hacienda San Miguel
 0;-79.7333,-1.5000;120506;Los Ríos;Hacienda San Miguel
 0;-77.8096,0.8061;040111;Carchi;Hacienda San Miguel
+0;-79.1500,0.6333;;Imbabura;Hacienda San Miguel
 0;-78.5000,-0.5167;171108;Pichincha;Hacienda San Miguel
 0;-78.4820,-0.2480;170404;Pichincha;Hacienda San Miguel
 0;-78.5667,-0.0667;170311;Pichincha;Hacienda San Miguel
@@ -4339,6 +4385,7 @@
 0;-79.1000,-3.3000;010503;Azuay;Hacienda Chunasana
 0;-77.9333,0.4833;040204;Carchi;Hacienda Chulunhuasi
 0;-77.7661,0.7616;040105;Carchi;Hacienda Chulamuez
+0;-79.8167,-2.5833;;Canar;Hacienda Chuguín Chico
 0;-78.5943,-1.7509;060119;Chimborazo Province;Hacienda Chuguillín
 0;-78.4952,-1.2413;180404;Tungurahua Province;Hacienda Choyata
 0;-78.0434,0.4793;100117;Carchi;Hacienda Chota Chiquita
@@ -4393,6 +4440,7 @@
 0;-78.1500,0.0500;171001;Pichincha;Hacienda Changalá
 0;-78.5167,-1.0333;050603;Cotopaxi;Hacienda Chanchaló
 0;-78.5167,-1.0500;050603;Cotopaxi;Hacienda Chambapongo
+0;-78.1167,-0.6333;;Carchi;Hacienda Chamanal
 0;-78.7333,-0.8167;050408;Cotopaxi;Hacienda Chalua
 0;-79.3833,-4.2667;110607;Loja;Hacienda Chalanga
 0;-78.1333,0.0167;171001;Pichincha;Hacienda Chahuarpungo
@@ -4743,6 +4791,7 @@
 0;-79.6242,-2.2575;092104;Guayas;General Pedro J. Montero
 0;-79.0232,-2.4077;030206;Canar;General Morales
 0;-78.4321,-2.9668;140603;Morona-Santiago Province;General Leonidas Plaza Gutiérrez
+0;-76.8801,0.2563;;Sucumbíos;General Farfán
 0;-79.7833,-2.4167;091205;Guayas;Gazar
 0;-79.7333,-1.8833;092005;Guayas;Gatazo
 0;-80.2393,-4.3053;110903;Loja;Garzareal
@@ -4847,6 +4896,7 @@
 0;-79.8000,-1.7500;120510;Guayas;Envidia
 0;-77.7000,-2.5333;140501;Morona-Santiago Province;Entzacua
 0;-80.8073,-2.2975;240208;Guayas;Entre Ríos
+0;-80.8000,-1.7167;;Guayas;Entrada
 0;-79.7617,-2.3041;092407;Guayas;Ensenada
 0;-79.9246,-1.4625;091310;Guayas;Enriqueta
 0;-79.6667,-3.2667;070108;Azuay;Enramada
@@ -4868,6 +4918,7 @@
 0;-78.9833,-3.0500;010216;Azuay;El Verde
 0;-78.0333,-0.0333;171006;Pichincha;El Verde
 0;-75.5020,-0.8607;220301;Orellana Province;Elva
+0;-80.4000,-2.3167;;Guayas;El Triunfo
 32282;-79.9667,-1.9333;091905;Guayas;El Triunfo
 0;-79.7000,-1.5167;120506;Los Ríos;El Triunfo
 0;-78.4043,-1.3050;180404;Tungurahua Province;El Triunfo
@@ -4917,6 +4968,7 @@
 0;-78.6261,-1.3796;180604;Tungurahua Province;El Rosal
 0;-77.7332,0.8221;040101;Carchi;El Rosal
 0;-79.1667,-2.4667;030208;Canar;El Rodeo
+0;-76.2954,-0.4599;;Orellana Province;El Retiro
 0;-80.4380,-0.9648;131201;Manabí;El Resbalón
 0;-79.2000,-4.0333;110101;Loja;El Recreo
 0;-79.3667,-3.3333;110805;Loja;El Recreo
@@ -4949,6 +5001,7 @@
 0;-79.8667,-2.9500;091208;Guayas;El Playón
 0;-79.2500,-3.9833;110101;Loja;El Plateado
 0;-79.8167,-3.6167;070403;El Oro;El Placer
+0;-79.9833,-2.8167;;Guayas;El Placer
 0;-79.8000,-1.3833;120508;Los Ríos;El Placer
 0;-75.2464,-0.9058;220301;Orellana Province;El Placer
 0;-80.2408,-4.3115;110903;Loja;Pitayo
@@ -5068,7 +5121,9 @@
 0;-80.0167,-1.3167;130411;Guayas;El Carmen
 0;-79.4167,0.9167;080114;Esmeraldas;El Carmen
 0;-78.3667,-0.4333;170813;Pichincha;El Carmen
+0;-78.7833,-0.2833;;Pichincha;El Carmen
 0;-79.4622,-0.2753;130501;Manabí;El Carmen
+0;-79.9000,-2.9500;;Guayas;El Carmelo
 0;-77.5921,0.6705;040109;Carchi;El Carmelo
 0;-77.4667,-1.2833;160201;Pastaza Province;El Capricho
 0;-79.8179,0.0662;131006;Manabí;El Cañaveral
@@ -5120,6 +5175,7 @@
 0;-79.2167,-2.8000;010112;Azuay;Dos Cuevas
 0;-80.2333,-3.5500;070505;El Oro;Dos Bocas
 0;-80.0333,-3.4500;070601;El Oro;Dos Bocas
+0;-80.5036,-2.3119;;Guayas;Dos Bocas
 0;-78.7724,1.1303;080502;Esmeraldas;La Boca
 0;-77.0500,-2.0333;160110;Pastaza Province;Don Tomás
 0;-80.7500,-1.7833;240111;Guayas;Don Pancho
@@ -5131,6 +5187,7 @@
 0;-78.2437,0.2502;100204;Imbabura;Doctor Miguel Egas Cabezas
 0;-80.0871,-4.0727;110404;Loja;Doce de Diciembre
 0;-79.6667,-0.5833;900003;Manabí;Doblones
+0;-79.9000,-2.9833;;Azuay;Dizha
 0;-79.0333,-3.3000;010503;Azuay;Dircay
 0;-77.9064,-1.4583;160106;Pastaza Province;Diez de Agosto
 0;-80.3833,-1.2667;130410;Manabí;Diez de Agosto
@@ -5191,6 +5248,7 @@
 0;-79.2000,-3.1333;010302;Azuay;Curiloma
 0;-79.8580,-4.3472;110705;Loja;Curichanga Algodonal
 0;-80.1159,-4.0541;110404;Loja;Curiachi
+0;-74.0845,-2.3827;;Pastaza Province;Curaray
 0;-78.8955,-3.7747;190103;Zamora Chinchipe;Curicaca
 0;-79.5229,0.7394;080121;Esmeraldas;Cúquiva
 0;-78.7833,-1.3333;180110;Tungurahua Province;Cunucyacu
@@ -5211,6 +5269,7 @@
 0;-78.9000,-2.6833;030106;Canar;Cuitum
 0;-79.2667,-3.6500;110801;Loja;Cuipamba
 636996;-78.9963,-2.8953;010101;Azuay;Cuenca
+0;-76.4167,0.3667;;Sucumbíos;Cuembi
 0;-78.8333,0.5167;080202;Esmeraldas;Cuellaje Alto
 0;-80.1446,-0.4550;130711;Manabí;Cucuy
 0;-78.9333,-2.5500;030201;Canar;Cuchucún
@@ -5221,6 +5280,7 @@
 0;-79.7667,-3.6667;070403;El Oro;Cuchilla Alta
 0;-78.7500,-2.9167;010401;Azuay;Cuchil
 0;-79.4056,-4.5593;110501;Loja;Cochecorral
+0;-78.4167,-1.8333;;Chimborazo Province;Cubillín
 0;-78.5881,-1.6447;060501;Chimborazo Province;Cubijíes
 0;-79.6442,0.5736;080407;Esmeraldas;Cube
 0;-79.9333,-2.1667;090601;Guayas;Cuatro Hermanas
@@ -5239,6 +5299,7 @@
 0;-78.9667,-2.9167;010210;Azuay;Cruzloma
 0;-79.8500,-4.4167;110705;Loja;Cruz del Huerto
 0;-80.3860,-1.7201;130903;Guayas;Cruz de Guanábano
+0;-77.2000,-0.8000;;Napo;Cruz Chicta
 0;-80.5375,-0.8706;130119;Manabí;Crucita
 0;-77.8119,0.6060;040205;Carchi;Cristóbal Colón
 0;-79.2426,-3.1899;010302;Azuay;Cristal
@@ -5262,6 +5323,7 @@
 0;-78.9333,-2.5500;030201;Canar;Correa Urcu
 0;-78.7833,-2.8333;010606;Azuay;Corralpamba
 0;-79.9167,-3.3500;070224;El Oro;Corralito
+0;-79.9333,-2.9333;;Guayas;Corralito
 0;-79.9500,-2.7167;090104;Guayas;Corralito
 0;-79.2000,-3.1500;010302;Azuay;Corral Guayco
 0;-79.9833,-4.1500;110401;Loja;Corral del Señor
@@ -5346,6 +5408,7 @@
 0;-80.1000,-1.8667;091405;Guayas;Ciénega Redonda
 0;-80.3801,-2.2943;240108;Guayas;Ciénega
 0;-80.1691,-0.7664;130710;Manabí;Ciénega
+0;-80.3667,-2.3333;;Guayas;Ciénaga de Afuera
 0;-79.9667,-3.9000;110407;Loja;Ciano
 0;-79.7548,-2.5252;091202;Guayas;Churute
 0;-78.5708,-1.2852;180406;Tungurahua Province;Churumanga
@@ -5544,6 +5607,7 @@
 0;-79.1333,-2.4833;030206;Canar;Cerco Pata
 0;-79.2883,-3.9061;110202;Loja;Cera
 0;-76.6500,-0.2000;210401;Sucumbíos;Central
+0;-80.5500,-2.2333;;Guayas;Centinela
 0;-75.9833,0.0167;210301;Sucumbíos;Centinela
 0;-79.5333,-2.9333;010702;Azuay;Celis
 5499;-79.9560,-4.1030;110401;Loja;Celica
@@ -5625,6 +5689,7 @@
 0;-78.9167,-2.8667;010109;Azuay;Cariacu
 0;-78.1001,0.0898;171006;Pichincha;Cariacu
 0;-78.6667,0.1167;170103;Pichincha;Cariaco
+0;-79.3167,-2.5833;;Canar;Cargue
 0;-79.2333,-2.5500;030205;Canar;Cargalchina
 0;-80.1872,-3.6214;070505;El Oro;Carcabón
 0;-79.7000,-1.9167;092005;Guayas;Carbonada
@@ -5715,6 +5780,7 @@
 0;-78.7643,1.1785;080501;Esmeraldas;Calderón
 0;-78.4314,-0.1051;170203;Pichincha;Calderón
 0;-78.9618,-2.8223;010115;Azuay;Caldera
+0;-80.5820,-2.2002;;Guayas;Calcicante
 17286;-80.1639,-0.8458;130601;Manabí;Calceta
 0;-78.5160,0.0004;170312;Pichincha;Calacalí
 0;-79.5667,-1.7833;120101;Los Ríos;Calabria
@@ -5772,6 +5838,7 @@
 0;-78.9337,-2.6612;030106;Canar;Bueste
 0;-80.0667,-3.9833;110406;Loja;Buenos Aires
 0;-80.2000,-3.4000;070501;El Oro;Buenos Aires
+0;-79.9267,-2.7857;;Guayas;Buenos Aires
 0;-79.1844,-2.1992;060301;Chimborazo Province;Buenos Aires
 0;-80.7000,-1.9500;240107;Guayas;Buenos Aires
 0;-80.3624,-1.3829;130414;Manabí;Buenos Aires
@@ -5816,6 +5883,7 @@
 0;-79.7333,-2.0667;092101;Guayas;Bodeguita
 0;-75.2267,-0.8863;220301;Orellana Province;Yana Yacu
 0;-75.5450,-0.8142;220301;Orellana Province;Boca del Tiputini
+20313;-77.1408,-0.6983;;Orellana Province;Boca Suno
 0;-79.6017,-0.0217;080411;Esmeraldas;Bocana del Búa
 0;-80.4293,-4.1477;110905;Loja;La Bocana
 0;-79.8684,-3.1319;070116;El Oro;La Bocana
@@ -5825,10 +5893,12 @@
 0;-79.6000,-0.1000;080703;Pichincha;Boca de Chila
 0;-79.7667,-2.0000;092303;Guayas;Boca de Caña
 0;-80.4333,-0.5167;131104;Manabí;Boca de Briceño
+0;-77.2833,-0.0667;;Napo;Boca Dashiño
 0;-79.8950,-1.3083;091301;Guayas;Boca Chica
 0;-78.9333,-3.0333;010216;Azuay;Blanco Macas
 0;-79.8584,-3.5162;070607;El Oro;Byron
 0;-79.1055,-1.8050;020305;Bolívar;Bilován
+0;-80.4667,-2.3667;;Guayas;Billingota
 0;-79.3667,-1.6000;120203;Los Ríos;Bijagual
 0;-75.2333,-0.8833;220301;Orellana Province;Biffarini
 0;-78.8898,-2.7134;030106;Canar;Biblián
@@ -5847,6 +5917,7 @@
 0;-79.4562,-4.5656;110502;Loja;Bellavista
 0;-79.9672,-3.4993;070601;El Oro;Bellavista
 0;-79.1358,-3.1611;010303;Azuay;Bellavista
+0;-79.9000,-2.6167;;Guayas;Bellavista
 0;-80.3193,-2.1683;240108;Guayas;Bellavista
 0;-79.8333,-2.0333;091910;Guayas;Bellavista
 0;-80.5949,-2.0162;240107;Guayas;Bella Vista
@@ -5902,6 +5973,7 @@
 0;-78.5833,-2.0833;060409;Chimborazo Province;Baquería
 0;-79.4802,-2.9115;010219;Azuay;Baños de Yunga
 0;-79.0646,-2.9217;010214;Azuay;Baños
+0;-80.7021,-2.2288;;Guayas;Baños de San Vicente
 9501;-78.4229,-1.3970;180301;Tungurahua Province;Baños
 0;-79.9833,-1.8667;091901;Guayas;Daule,Banife
 0;-79.6667,-1.5667;120501;Los Ríos;Banepo
@@ -5943,6 +6015,7 @@
 76279;-79.5249,-1.8049;120101;Los Ríos;Babahoyo
 8790;-79.6787,-1.7844;120117;Los Ríos;Baba
 0;-79.8167,-1.8500;092003;Guayas;Azucena
+0;-80.5799,-2.2508;;Guayas;Azúcar
 34877;-78.8456,-2.7398;030101;Canar;Azogues
 0;-78.5500,-2.1500;060409;Chimborazo Province;Azamaná
 0;-77.5678,-2.0922;140502;Morona-Santiago Province;Ayuy
@@ -6089,6 +6162,7 @@
 0;-80.2884,-4.1802;110905;Loja;Algodonal
 0;-79.7167,-2.3000;092105;Guayas;Algarrobos
 0;-80.0643,-4.1716;110402;Loja;Teniente Maximiliano Rodríguez Loaysa
+0;-80.1500,-3.0167;;Guayas;Algarrobal
 12617;-79.5167,-1.9167;091103;Guayas;Alfredo Baquerizo Moreno
 0;-78.5167,-0.2333;170401;Pichincha;Alfaro
 0;-79.5833,-1.8833;120108;Los Ríos;Alegría
@@ -6137,6 +6211,8 @@
 0;-80.3428,-1.0298;130117;Manabí;Abdón Calderón
 0;-79.5019,-3.3341;070306;El Oro;Abañín
 0;-78.2020,-2.1431;140106;Morona-Santiago Province;Abanico
+0;-79.9349,-2.7923;;Guayas;Hacienda San Carlos
+0;-79.9130,-2.7765;;Guayas;Concordia
 0;-79.9064,-2.7540;090104;Guayas;Las Lozas
 0;-80.7542,-0.9528;130201;Manabí;El Cercado
 0;-80.7444,-0.9583;130201;Manabí;Ciudadela Santa Martha
@@ -6146,6 +6222,8 @@
 0;-80.8731,-2.2053;240101;Santa Elena;Ballenita
 0;-80.9000,-2.2250;240201;Manabí;Filan Banco
 0;-79.8278,-2.3667;090101;Guayas;San Guillermo
+0;-79.8417,-2.4694;;Guayas;San Pedro
+0;-79.8625,-2.5167;;Guayas;Puerto San Francisco
 0;-79.8972,-2.4333;090812;Guayas;Las Mercedes
 0;-79.8572,-2.2854;090101;Guayas;San Lorenzo
 0;-79.8361,-2.1833;092409;Guayas;Zoraida
@@ -6160,6 +6238,7 @@
 0;-80.7833,-1.5917;130311;Manabí;Los Mieles
 0;-80.7650,-1.7746;240111;Santa Elena;La Curia
 0;-80.7083,-1.8333;240111;Guayas;Hacienda El Porvenir
+0;-80.7833,-1.7167;;Guayas;San Juanito
 0;-80.7000,-1.8250;240111;Guayas;Pajisa
 0;-80.7236,-1.8403;240111;Guayas;Pomarosa
 0;-80.6917,-1.8250;240111;Guayas;Dos Mangas
@@ -6210,6 +6289,7 @@
 0;-79.9000,-3.1167;070116;Guayas;Bajo Alto
 0;-80.1663,-3.4116;070501;El Oro;Puerto El Perro
 0;-80.2204,-3.3456;070605;El Oro;Los Corazones
+0;-80.5223,-2.3409;;Guayas;Buenos Aires
 0;-80.7500,-1.8178;240111;Manabí;Olan
 0;-80.0442,0.6081;080302;Esmeraldas;Muisne
 0;-80.1347,0.6908;080302;Esmeraldas;Coquito
@@ -6455,6 +6535,7 @@
 0;-76.7641,0.0644;210206;Sucumbíos;Puerto Libre
 0;-76.8489,0.0595;210201;Sucumbíos;Puyo Pungu
 0;-76.6534,-0.0089;210401;Sucumbíos;Puerto Aguarico Tres
+0;-76.5478,0.2586;;Sucumbíos;Teteye
 0;-76.9754,0.0252;210201;Sucumbíos;Cariamanga
 0;-76.8958,0.1278;210201;Sucumbíos;Teteye
 0;-76.8583,0.2411;210206;Sucumbíos;La Balastrera
@@ -7110,6 +7191,7 @@
 0;-78.5610,-0.4569;171114;Pichincha;El Obelisco
 0;-78.4539,-0.5188;171110;Pichincha;Loreto del Pedregal
 0;-78.6256,-0.5571;171111;Pichincha;Umbalá
+0;-79.7053,0.2109;;Imbabura;Agua Fría
 0;-77.7869,-0.7750;150103;Napo;Sardinas
 0;-78.5591,-0.8487;050110;Cotopaxi;San Isidro
 0;-79.3963,0.1684;080409;Esmeraldas;La Libertad
@@ -7118,6 +7200,7 @@
 0;-78.6442,-0.8528;050403;Cotopaxi;Chantilín Grande
 0;-78.4699,-0.0669;170302;Pichincha;John F. Kennedy
 0;-78.3432,-0.2283;170906;Pichincha;Pifo
+0;-77.5875,-0.1043;;Napo;San Rafael
 0;-77.6682,-1.0312;150104;Napo;Misahuallí
 0;-78.9440,-4.0570;190101;Zamora Chinchipe;La Colina
 0;-77.7044,0.7388;040105;Carchi;La Estrella
@@ -7127,6 +7210,7 @@
 0;-77.3354,-1.4854;160201;Pastaza Province;Piwiri
 0;-77.3865,0.0112;210101;Sucumbíos;Recinto Amzonas
 0;-77.4242,-0.0109;210101;Sucumbíos;Atenas
+0;-75.4050,-0.8903;;Napo;Davalos
 0;-78.7948,0.3230;100306;Imbabura;Santa Isabel
 0;-78.3895,-3.6354;190402;Zamora Chinchipe;Huayzimi
 0;-78.6621,-4.3108;190203;Zamora Chinchipe;Puesto de Vigilancia E Miazi
@@ -7299,8 +7383,12 @@
 0;-78.5857,-0.2238;170614;Pichincha;Pogio Pungo
 0;-78.5898,-0.2092;170614;Pichincha;El Pujín
 0;-78.6203,-0.2723;170402;Pichincha;Hacienda Guayán Chico
+0;-89.5991,-0.9099;;Galápagos;Manzanillo
+0;-89.6000,-0.9056;;Galápagos;Urbanización Isla Azul
 0;-89.4430,-0.9017;200104;Galápagos;Cerro Verde
+0;-89.5507,-0.9214;;Galápagos;El Socavón
 0;-89.5082,-0.9298;200104;Galápagos;Los Arroyos
+0;-89.5940,-0.9103;;Galápagos;Las Palmeras
 0;-89.5415,-0.8876;200104;Galápagos;La Soledad
 0;-90.2714,-0.6691;200105;Galápagos;Cascajo
 0;-90.3448,-0.6998;200105;Galápagos;Los Guayabillos
@@ -7312,6 +7400,7 @@
 0;-91.0132,-0.8537;200103;Galápagos;Los Tintos
 0;-91.0329,-0.8589;200103;Galápagos;La Alfajía
 0;-91.0079,-0.8501;200103;Galápagos;Barrio Loja
+0;-91.0186,-0.8470;;Galápagos;San Antonio de Los Tintos
 0;-79.9707,-2.0070;090708;Guayas;Safando
 0;-79.9069,-2.0888;090704;Guayas;Los Vergeles
 0;-80.4142,-1.1109;130101;Manabí;Cuatro Esquinas

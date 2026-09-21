@@ -26900,3 +26900,5 @@ ko;여덜밤이;Yeodeolbami
 ko;추소리;Chusori
 ko;관현리;Gwanhyeolli
 ko;담들이왓;Damdeuriwat
+ko;여서리;Reizui-ri
+ko;Yŏsŏ-ri;Reizui-ri

@@ -82,17 +82,23 @@ for(const country of COUNTRIES){
 
   let sansRegion = 0;
   const lines = dropNearDuplicates(deduped.map(p => {
-    if(!p.admin1 || p.admin1 === '00'){ sansRegion++; return null; }
-    const region = admin1Names.get(country + '.' + p.admin1) || '';
-    if(!region){ sansRegion++; return null; }
+    // LIEU SANS DIVISION ADMINISTRATIVE : publié avec l'étiquette du PAYS seul, comme le fait déjà
+    // build-afrique-australe-communes.js (21/09/2026). Il était écarté « comme le pipeline standard écarte les
+    // communes sans code postal » — et ce pipeline-là ne les écarte plus : un code, postal ou administratif,
+    // aide à retrouver sa ville, il ne décide pas si elle existe.
+    const region = (p.admin1 && p.admin1 !== '00') ? (admin1Names.get(country + '.' + p.admin1) || '') : '';
+    if(!region){
+      sansRegion++;
+      return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${country};;${p.name}`;
+    }
     return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${regionLabel(country, p.admin1)};${region};${p.name}`;
-  }).filter(Boolean));
+  }));
 
   const out = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');
   fs.writeFileSync(out, lines.join('\n') + '\n', 'utf8');
   summary.push({ country, brut: places.length, dedup: deduped.length, sansRegion, retenus: lines.length });
   console.log(country + ' : ' + places.length + ' bruts -> ' + deduped.length + ' dédoublonnés -> ' +
-    lines.length + ' retenus (' + sansRegion + ' sans division administrative)');
+    lines.length + ' retenus (dont ' + sansRegion + ' sans division administrative, étiquette pays seule)');
 }
 
 console.log('\nTOTAL : ' + summary.reduce((a, s) => a + s.retenus, 0) + ' communes pour ' + COUNTRIES.length + ' pays');

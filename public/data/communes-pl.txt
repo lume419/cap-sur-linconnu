@@ -10871,6 +10871,7 @@
 0;21.2879,53.0139;06-216;Powiat makowski;Majki-Tykiewki
 0;21.2098,53.2104;06-320;Powiat ostrołęcki;Majki
 0;20.0333,49.3167;34-521;Powiat tatrzański;Majerozy Kówka
+0;20.4000,49.1500;;Lesser Poland;Majere
 0;20.3848,53.6977;11-034;Powiat olsztyński;Majdy
 0;20.7799,51.1575;26-500;Powiat szydłowiecki;Majdów
 0;23.4833,50.8000;22-425;Powiat zamojski;Majdan Żukowski
@@ -11733,6 +11734,7 @@
 0;22.6758,52.1812;08-207;Powiat łosicki;Łepki Nowe
 0;22.2284,53.8291;19-300;Powiat ełcki;Lepaki Wielkie
 0;21.8940,53.1427;18-413;Łomża County;Leopoldowo
+0;23.7833,51.8167;;Lublin;Leopoldów
 0;20.2392,51.7231;96-200;Powiat rawski;Leopoldów
 0;21.6006,51.1211;27-300;Powiat lipski;Leopoldów
 0;23.8241,52.9786;16-050;Powiat białostocki;Leonowicze
@@ -22981,6 +22983,7 @@
 0;18.2215,52.4035;62-540;Konin County;Wielkopole
 0;19.5744,51.6171;95-080;Powiat łódzki wschodni;Wielkopole
 0;19.8601,51.2167;97-510;Powiat piotrkowski;Wielkopole
+0;14.9500,50.6000;;Silesia;Wielkopole
 0;18.0354,54.0727;83-423;Powiat kościerski;Wielki Podleś
 0;17.7979,53.5364;89-520;Powiat tucholski;Wielki Modromierz
 0;18.7381,53.5212;86-134;Powiat świecki;Wielki Lubień
@@ -26642,6 +26645,7 @@
 0;18.8424,51.7390;99-232;Powiat poddębicki;Rzeczyca
 0;16.2658,51.5888;59-150;Polkowice County;Rzeczyca
 0;16.5543,51.2429;55-300;Środa Śląska County;Rzeczyca
+0;16.1333,50.2500;;Pomerania;Rzeczyca
 0;18.3639,53.1298;87-134;Torun County;Rzeczkowo
 0;19.7495,51.5664;97-317;Powiat tomaszowski;Rzeczków
 0;19.7500,50.1500;32-082;Powiat krakowski;Rzeczki
@@ -37530,7 +37534,7 @@
 0;17.9107,53.9324;83-442;Powiat kościerski;Górki
 0;14.8288,53.8989;72-400;Powiat kamieński;Górki
 0;19.3440,53.8229;82-450;Powiat sztumski;Górki
-0;18.9624,53.7293;82-501;Powiat kwidzyński;Górki
+915;18.9624,53.7293;82-501;Powiat kwidzyński;Górki
 0;19.4819,52.9689;87-515;Powiat rypiński;Górki
 0;15.5000,52.7833;66-542;Powiat strzelecko-drezdenecki;Górki
 0;19.7171,52.4814;09-530;Powiat płocki;Górki

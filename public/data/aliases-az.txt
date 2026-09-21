@@ -20316,3 +20316,4145 @@ ru;Юксары Аран;Yuxarı Aran
 ru;Кылысекенд;Kilisekend
 ru;Дасуз;Daşüz
 ru;Байрамкохалы;Bayramkoxalı
+ru;Шарур;Sharur City
+ar;شارور;Sharur City
+kk;Sharur;Sharur City
+tr;Şarur;Sharur City
+uz;Sharur;Sharur City
+ky;Sharur;Sharur City
+id;Sharur;Sharur City
+ms;Sharur;Sharur City
+es;Sharur;Sharur City
+fr;Charur;Sharur City
+hi;शारूर;Sharur City
+bn;শারুর;Sharur City
+ur;شارور;Sharur City
+am;ሻሩር;Sharur City
+az;Şarur;Sharur City
+de;Sharur;Sharur City
+fa;شارور;Sharur City
+ha;Sharur;Sharur City
+ja;シャルール;Sharur City
+jv;Sharur;Sharur City
+om;Sharur;Sharur City
+pa;ਸ਼ਾਰੂਰ;Sharur City
+ps;شارور;Sharur City
+pt;Sharur;Sharur City
+so;Sharur;Sharur City
+sw;Sharur;Sharur City
+tg;Шарур;Sharur City
+tt;Шарур;Sharur City
+hy;Բաշնորաշեն;Sharur City
+hy;Նորաշեն;Sharur City
+hy;Շարուր;Sharur City
+hy;Զորացիք;Hacıxanlı
+hy;Zork’eshish;Hacıxanlı
+hy;Ծավալք;Zivel
+ru;Зивель;Zivel
+tt;Зивел;Zivel
+ce;Зивел;Zivel
+ka;ზიველი;Zivel
+fa;زیول;Zivel
+az;Şirvanlı;Kürdili
+az;Jarski;Kürdili
+ms;Zharskiy;Kürdili
+ka;ჟარსკი;Kürdili
+en;Zharskiy;Kürdili
+fa;ژارسکی;Kürdili
+nl;Zharskiy;Kürdili
+ru;Курдылы;Kürdili
+hy;Զեյվա;Zeyva
+az;Zeynəddin;Zeynaddin
+tt;Зейнәддин;Zeynaddin
+ce;Заьйнаьддин;Zeynaddin
+ru;Зейнаддин;Zeynaddin
+uz;Zeynəddin;Zeynaddin
+ms;Zeynəddin;Zeynaddin
+en;Zeynəddin;Zeynaddin
+it;Zeynəddin;Zeynaddin
+hy;Զեյնադին;Zeynaddin
+ka;ზეინადინი;Zeynaddin
+fa;زین‌الدین;Zeynaddin
+nl;Zeynəddin;Zeynaddin
+hy;Ծովատեղ;Zavadıx
+hy;Tsovategh;Zavadıx
+ru;Завадых;Zavadıx
+tt;Завадых;Zavadıx
+ce;Завадих;Zavadıx
+be;Сяло Цаватэх;Zavadıx
+ms;Zavadykh;Zavadıx
+en;Zavadykh;Zavadıx
+it;Tsovategh;Zavadıx
+fr;Tsovategh;Zavadıx
+uk;Цоватех;Zavadıx
+ja;ザヴァドゥフ;Zavadıx
+fa;تسوواتغ;Zavadıx
+nl;Zavadykh;Zavadıx
+az;Dərəkənd;Zamzur
+hy;Ծամձոր;Zamzur
+hy;Tsamdzor;Zamzur
+ru;Замзур;Zamzur
+az;Zağaaltı;Zağaltı
+hy;Zak’alt’y;Zağaltı
+hy;Զաքալթը;Zağaltı
+ru;Загалты;Zağaltı
+tt;Загалты;Zağaltı
+ce;ЗагӀалти;Zağaltı
+be;Загалты;Zağaltı
+ms;Zağaaltı;Zağaltı
+fr;Zaghalti;Zağaltı
+ka;ზაღალთი;Zağaltı
+uk;Загалти;Zağaltı
+fa;زاغالتی;Zağaltı
+nl;Zağaaltı;Zağaltı
+hy;Յուրդչի;Yurdçu
+ru;Юрдджу;Yurdçu
+az;Yuxarı Yəyci;Yukhary-Yaydzhi
+hy;Յայջի;Yukhary-Yaydzhi
+ru;Юхары-Яйджи;Yukhary-Yaydzhi
+tt;Юхары Узуноба;Yuxarı Uzunoba
+ce;Йухари Узунода;Yuxarı Uzunoba
+ru;Юхары-Узуноба;Yuxarı Uzunoba
+hy;Վերին Ուզունոբա;Yuxarı Uzunoba
+ka;იუხარი-უზუნობა;Yuxarı Uzunoba
+fa;اوزون‌اوبا بالا;Yuxarı Uzunoba
+ur;یکشاری اذنوبا;Yuxarı Uzunoba
+az;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+hy;Seyidmakhmedli;Yukhary Seidakhmedli
+hy;Սեյիդմախմեդլի;Yukhary Seidakhmedli
+ru;Юхары Сеидахмедли;Yukhary Seidakhmedli
+tt;Юхары Сейидәһмәдли;Yukhary Seidakhmedli
+rw;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+ny;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+fr;Yukhari Seyidahmedli;Yukhary Seidakhmedli
+sc;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+ka;იუხარი-სეიიდაჰმადლი;Yukhary Seidakhmedli
+sm;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+kg;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+ur;یکشاری سیدیہمیدلی;Yukhary Seidakhmedli
+ki;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+ce;Йухари СейидаьхӀмаьдли;Yukhary Seidakhmedli
+uz;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+ms;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+en;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+it;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+co;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+ha;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+rm;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+fa;یوخاری سید احمدلی;Yukhary Seidakhmedli
+nl;Yuxarı Seyidəhmədli;Yukhary Seidakhmedli
+az;Yuxarı Remeşin;Guney Qışlaq
+hy;Ամառաշեն;Guney Qışlaq
+hy;Անուշավան;Guney Qışlaq
+hy;Վերին Արմավաշեն;Guney Qışlaq
+hy;Յուխարի Ռամեշին;Guney Qışlaq
+hy;Վերին Ռամեշին;Guney Qışlaq
+ru;Гуней Кыслак;Guney Qışlaq
+ru;Yukhary-Maral’yan;Yuxarı Maralyan
+ru;Юхари-Маральян;Yuxarı Maralyan
+tt;Юхары Гышлаг;Yuxarı Qışlaq
+hy;Արքոյքայ;Yuxarı Qışlaq
+ce;Йухари Гишлаг;Yuxarı Qışlaq
+ka;იუხარი-ქიშლაგი;Yuxarı Qışlaq
+fa;یوخاری قشلاق;Yuxarı Qışlaq
+ru;Юксары Кыслак;Yuxarı Qışlaq
+hy;Վերին Դաշարխ;Yuxarı Daşarx
+ru;Юксары Дасаркс;Yuxarı Daşarx
+ru;Юксары Бузков;Yuxarı Buzqov
+hy;Վերին Ազա;Aza
+hy;Ազա;Aza
+ru;Аза;Aza
+tr;Yuhari Aylis;Yukhary Aylis
+ce;Йухари Аьйлис;Yukhary Aylis
+ru;Верин Агулис;Yukhary Aylis
+ms;Yuxarı Əylis;Yukhary Aylis
+en;Yuxarı Əylis;Yukhary Aylis
+it;Yuxarı Əylis;Yukhary Aylis
+fr;Yuxarı Əylis;Yukhary Aylis
+hy;Վերին Ագուլիս;Yukhary Aylis
+ka;იუხარი-აილისი;Yukhary Aylis
+ja;ユハル・アイリス;Yukhary Aylis
+fa;آگولیس بالا;Yukhary Aylis
+ur;یکشاری ییلس;Yukhary Aylis
+ca;Yuxarı Əylis;Yukhary Aylis
+nl;Yuxarı Əylis;Yukhary Aylis
+hy;Ագուլիս;Yukhary Aylis
+hy;Իվգյուլիս;Yukhary Aylis
+hy;Յուգյուլիս;Yukhary Aylis
+az;Yuxarı Əndəmic;Yukhary Andamich
+hy;Վերին Հանդամեջ;Yukhary Andamich
+ru;Юхары Андамыджх;Yukhary Andamich
+ru;Yeniyël;Yeniyol
+az;Məmmədrza Dizə;Yeniyol
+hy;Մամարզա-Դիզա;Yeniyol
+hy;Ենգիջա;Yenidzha
+ru;Енгиджа;Yenidzha
+en;Yaydzhy;Yaycı
+fa;یاجی آذربایجان;Yaycı
+tt;Яйҗы;Yaycı
+ce;Йайджи;Yaycı
+hy;Յայջի;Yaycı
+ka;იაიჯი;Yaycı
+ur;یکی;Yaycı
+hy;Յարմջա;Yarımca
+az;Yarəhmədli;Yarakhmedli
+hy;Yarahmedli;Yarakhmedli
+hy;Յարահմեդլի;Yarakhmedli
+ru;Ярахмедли;Yarakhmedli
+tt;Ярәһмәдли;Yarakhmedli
+ce;ЙараьхӀмаьдли;Yarakhmedli
+ms;Yarəhmədli;Yarakhmedli
+en;Yarəhmədli;Yarakhmedli
+fr;Yarahmedli;Yarakhmedli
+ka;იარაჰმადლი;Yarakhmedli
+fa;یاراحمدلی;Yarakhmedli
+ur;یاریہمیدلی;Yarakhmedli
+nl;Yarəhmədli;Yarakhmedli
+ce;Хок;Xok
+hy;Խոկ;Xok
+ka;ხოკი;Xok
+fa;خاک;Xok
+he;חוק;Xok
+ru;Хок;Xok
+hy;Վեժնալի;Vezhnali
+hy;Վձնալք;Vezhnali
+ru;Вежнали;Vezhnali
+tt;Вежнәли;Vezhnali
+de;Vejnəli;Vezhnali
+ce;Вежнаьли;Vezhnali
+uz;Vejnəli;Vezhnali
+ms;Vejnəli;Vezhnali
+en;Vejnəli;Vezhnali
+fr;Vejnali;Vezhnali
+ka;ვეჟნალი;Vezhnali
+az;Vejnəli;Vezhnali
+fa;وجنلی;Vezhnali
+nl;Vejnəli;Vezhnali
+az;Varzəmlyar;Vermaziyar
+hy;Վարմազիար;Vermaziyar
+ru;Вермазыяр;Vermaziyar
+az;Vəlibəyli;Velibeyli
+hy;Վալիբեյլի;Velibeyli
+ru;Велибейли;Velibeyli
+hy;Valibeyli;Velibeyli
+hy;Verishen;Velibeyli
+hy;Վերիշեն;Velibeyli
+hy;Verin Shen;Velibeyli
+hy;Վերին Շեն;Velibeyli
+tt;Вәлибәйли;Velibeyli
+ce;Ваьлибаьйли;Velibeyli
+be;Сяло Верышэн;Velibeyli
+uz;Vəlibəyli;Velibeyli
+ms;Vəlibəyli;Velibeyli
+en;Vəlibəyli;Velibeyli
+fr;Valibayli;Velibeyli
+uk;Верішен;Velibeyli
+ka;ვალიბეილი;Velibeyli
+fa;وریشن;Velibeyli
+nl;Vəlibəyli;Velibeyli
+hy;Վայխր;Vayxır
+ru;Вайксыр;Vayxır
+tt;Вәнәнд;Venend
+hy;Վանանդ;Venend
+ce;Ваьнаьнд;Venend
+ru;Вененд;Venend
+ms;Vənənd;Venend
+ka;ვანანდი;Venend
+en;Vənənd;Venend
+fa;ونند;Venend
+it;Vənənd;Venend
+nl;Vənənd;Venend
+az;Vələver;Valaver
+az;Vələvər;Valaver
+hy;Վաղավեր;Valaver
+ru;Валавер;Valaver
+az;Vaqazin;Vağazin
+hy;Vaghazin;Vağazin
+hy;Վաղազին;Vağazin
+ru;Вагазин;Vağazin
+hy;Vagatsin;Vağazin
+hy;Վաղածին;Vağazin
+ru;Ust’ye Kury;Sübh
+tt;Сүбһ;Sübh
+ce;СуьбхӀ;Sübh
+ka;სიუბჰი;Sübh
+fa;صبح;Sübh
+hy;Ուստուպի;Ustupu
+ru;Уступу;Ustupu
+tt;Урмис;Urmis
+ce;Урмис;Urmis
+fa;اورمیس;Urmis
+hy;Ռամիս;Urmis
+ru;Урмис;Urmis
+hy;Ունուս;Unus
+hy;Ունիս;Unus
+hy;Ունյուս;Unus
+ru;Унус;Unus
+hy;Հայի Նորաշեն;Oğlanqala
+hy;Վերին Նորաշեն;Oğlanqala
+en;Verin Norashen;Oğlanqala
+hy;Վարդաբաց;Ulaşlı
+ru;Улашлы;Ulaşlı
+tt;Улашлы;Ulaşlı
+ce;Улашли;Ulaşlı
+ka;ულაშლი;Ulaşlı
+fa;اولاش‌لی;Ulaşlı
+fr;Ulachli;Ulaşlı
+hy;Տամբատ;Tumbul
+ce;Тумбул;Tumbul
+ru;Тумбул;Tumbul
+ka;თუმბული;Tumbul
+fa;تومبول;Tumbul
+zh;通布尔;Tumbul
+hy;Թմբուլ;Tumbul
+hy;Թումասլու;Tumaslı
+hy;Togh;Tuğ
+hy;Տող;Tuğ
+ru;Туг;Tuğ
+hy;Ts’or;Sor
+hy;Ցոռ;Sor
+ru;Цур;Sor
+hy;Ts’orr;Sor
+hy;Ցոր;Sor
+tt;Торади;Toradi
+ce;Торади;Toradi
+ka;თორადი;Toradi
+fa;توره‌ده;Toradi
+ru;Торади;Toradi
+tt;Тиви;Tivi
+ce;Тиви;Tivi
+ru;Тиви;Tivi
+hy;Տևի;Tivi
+ka;თივი;Tivi
+fa;تیوی;Tivi
+hy;T’ut’khun;Tirkeshevend
+hy;Թութխուն;Tirkeshevend
+ru;Тиркешевенд;Tirkeshevend
+az;Tirkeş;Türkeş
+en;Turkesh;Türkeş
+hy;Թրքեշ;Türkeş
+ru;Туеркес;Türkeş
+hy;T’in;Tinli
+hy;Թին;Tinli
+tt;Тейваз;Teyvaz
+ce;Тейваз;Teyvaz
+hy;Թեյվազ;Teyvaz
+ka;თეივაზი;Teyvaz
+fa;تیواز;Teyvaz
+ru;Тейваз;Teyvaz
+hy;Norashenik;Tazakend
+hy;Նորաշենիկ;Tazakend
+hy;T’at’ar;Tatar
+az;Tənənəm;Tananam
+tt;Тәнәнәм;Tananam
+ceb;Tənənəm;Tananam
+ce;Таьнаьнаьм;Tananam
+sv;Tənənəm;Tananam
+ms;Tənənəm;Tananam
+en;Tənənəm;Tananam
+it;Tənənəm;Tananam
+hy;Թանանամ;Tananam
+ka;თანანამი;Tananam
+fa;تنم;Tananam
+nl;Tənənəm;Tananam
+ru;Тананам;Tananam
+az;Taqaverd;Tağaverd
+hy;Քաղավարդ;Tağaverd
+hy;Taghavard;Tağaverd
+ru;Тагавард;Tağaverd
+hy;Verin T’aghavard;Tağaverd
+hy;Վերին Թաղավարդ;Tağaverd
+tt;Сым;Sım
+ce;Сим;Sım
+ka;სიმი;Sım
+fa;سیم;Sım
+ru;Сим;Sım
+ru;Суват;Suvat
+hy;Սուստ;Süst
+ru;Суст;Süst
+fa;سوست;Süst
+hy;Սուրմալիկ;Razvaliny Suramelik
+en;Suramelik;Razvaliny Suramelik
+fa;سوراملیک;Razvaliny Suramelik
+nl;Suramelik;Razvaliny Suramelik
+hy;Սուրամելիք;Razvaliny Suramelik
+ru;Сурамелик;Razvaliny Suramelik
+hy;Սուլեյմանլը;Süleymanlı
+ru;Сулейманлы;Süleymanlı
+hy;Soyughbulagh;Soyuqbulaq
+hy;Սոյուղբուլաղ;Soyuqbulaq
+ru;Арпаджай;Arpaçay
+hy;Sanasar;Sonasar
+hy;Սանասար;Sonasar
+hy;Սոնասար;Sonasar
+ru;Сонасар;Sonasar
+tt;Сонасар;Sonasar
+ce;Сонасар;Sonasar
+be;Сяло Санасар;Sonasar
+uk;Сонасар;Sonasar
+ka;სონასარი;Sonasar
+fa;سونه‌سر;Sonasar
+hy;Lusavan;Soltanlı
+hy;Լուսավան;Soltanlı
+tt;Солтанлы;Soltanlı
+ce;Солтанли;Soltanlı
+ru;Солтанлы;Soltanlı
+fa;سلطان‌لی;Soltanlı
+fr;Soltanli;Soltanlı
+hy;Սոֆուլու;Sofulu
+ru;Софулу;Sofulu
+hy;Շխտորաշեն;Şıx Dursun
+hy;Սխտորաշեն;Şıx Dursun
+hy;Shkhtorashen;Şıx Dursun
+ru;Схторашен;Şıx Dursun
+tt;Шых Дурсун;Şıx Dursun
+ce;Ших Дурсун;Şıx Dursun
+be;Сяло Схторашэн;Şıx Dursun
+el;Σιχ Ντουρσούν;Şıx Dursun
+fr;Six Dursun;Şıx Dursun
+uk;Схторашен;Şıx Dursun
+ja;シュフ・ドゥルシェン;Şıx Dursun
+fa;شیخ دورسون;Şıx Dursun
+tt;Сиягут;Siyaqut
+ce;Сийагут;Siyaqut
+ru;Сиягут;Siyaqut
+hy;Սիյագուտ;Siyaqut
+ka;სიიაგუთი;Siyaqut
+fa;سیاه‌قوت;Siyaqut
+hy;Սիրիկ;Sirik
+hy;Sring;Sirik
+hy;Սրինգ;Sirik
+hy;Haykavan;Sirik
+hy;Հայկավան;Sirik
+ru;Сирик;Sirik
+az;Aşağı Sirik;Sirik
+az;Əsgərxanlı;Sirik
+tt;Сираб;Sirab
+ce;Сираб;Sirab
+hy;Սիրաբ;Sirab
+ka;სირაბი;Sirab
+fa;سیراب، نخجوان;Sirab
+ru;Сираб;Sirab
+az;Sibiyyət;Sipiyad
+ru;Сыпыяд;Sipiyad
+hy;Շրլան;Şırlan
+hy;Shrlan;Şırlan
+hy;Shrrlan;Şırlan
+hy;Շռլան;Şırlan
+ru;Шырлан;Şırlan
+tt;Шыхмаһмуд;Şıxmahmud
+ce;ШихмахӀмуд;Şıxmahmud
+hy;Շմրթա;Şıxmahmud
+ka;შიხმახმუდი;Şıxmahmud
+fa;شیخ‌محمود، نخجوان;Şıxmahmud
+hy;Շխմահմուդ;Şıxmahmud
+ru;Шихмахмуд;Şıxmahmud
+hy;Շըխլար;Şıxlar
+hy;Shykhlar;Şıxlar
+ru;Шыхляр;Şıxlar
+ru;Шыхалиагалы;Şıxalıağalı
+tt;Шуруд;Şurud
+ce;Шуруд;Şurud
+ru;Шорот;Şurud
+fr;Shorot;Şurud
+hy;Շոռոթ;Şurud
+ka;შურუდი;Şurud
+uk;Шорот;Şurud
+fa;شورود;Şurud
+az;Şükürbəyli;Shukyurbeyli
+hy;Shuk’urbeyli;Shukyurbeyli
+hy;Շուքուրբեյլի;Shukyurbeyli
+ru;Шукюрбейлы;Shukyurbeyli
+hy;Berkri;Şatarız
+ru;Шотарыз;Şatarız
+tt;Шатарыз;Şatarız
+mzn;شاتاریز;Şatarız
+ce;Шатариз;Şatarız
+ms;Shotaryz;Şatarız
+ka;შათარიზი;Şatarız
+en;Shotaryz;Şatarız
+fa;شاتاریز;Şatarız
+fr;Chatariz;Şatarız
+nl;Shotaryz;Şatarız
+hy;Sheylanli;Şeylanlı
+hy;Շեյլանլի;Şeylanlı
+ru;Шейланлы;Şeylanlı
+hy;Shrvakan;Şeylanlı
+hy;Շրվական;Şeylanlı
+tt;Шейланлы;Şeylanlı
+ce;Шейланли;Şeylanlı
+be;Сяло Шрвакан;Şeylanlı
+en;Sheylanli;Şeylanlı
+fr;Cheylanli;Şeylanlı
+uk;Шрвакан;Şeylanlı
+ka;შეილანლი;Şeylanlı
+fa;شرواکان;Şeylanlı
+nl;Sheylanli;Şeylanlı
+az;Şəybəy;Sheybey
+hy;Շեյբեյ;Sheybey
+ru;Шейбей;Sheybey
+tt;Шәйбәй;Sheybey
+ce;Шаьйбаьй;Sheybey
+ms;Şəybəy;Sheybey
+en;Şəybəy;Sheybey
+fr;Cheybey;Sheybey
+uk;Шейбей;Sheybey
+ja;シャベイ;Sheybey
+fa;شی‌بی;Sheybey
+nl;Şəybəy;Sheybey
+tr;Şəybəy;Sheybey
+az;Şəkər;Shekher
+hy;Շեխեր;Shekher
+ru;Шехер;Shekher
+az;Şəkərabad;Shekyarabad
+tt;Шәкәрабад;Shekyarabad
+ce;Шаькаьрабад;Shekyarabad
+uz;Şəkərabad;Shekyarabad
+ms;Şəkərabad;Shekyarabad
+en;Şəkərabad;Shekyarabad
+it;Şəkərabad;Shekyarabad
+hy;Շաքարապատ;Shekyarabad
+ka;შაქერაბადი;Shekyarabad
+fa;شکرآباد، نخجوان;Shekyarabad
+nl;Şəkərabad;Shekyarabad
+hy;Շաքարաբադ;Shekyarabad
+ru;Шакарабад;Shekyarabad
+ru;Шайыфлы;Şayıflı
+tt;Шаефлы;Şayıflı
+ce;Шайифли;Şayıflı
+ka;შაიიფლი;Şayıflı
+fa;شاییف‌لی;Şayıflı
+az;Şamkənd;Shamkend
+hy;Շամքենդ;Shamkend
+hy;Shamk’;Shamkend
+hy;Շամք;Shamkend
+ru;Шамкенд;Shamkend
+ru;Shal’va;Shalva
+az;Şəlvə;Shalva
+hy;Շալվա;Shalva
+ru;Шальва;Shalva
+hy;Shoghavank’;Shalva
+hy;Շողավանք;Shalva
+hy;Shalua;Shalva
+hy;Շալուա;Shalva
+ce;ШахӀтахти;Şahtaxtı
+ru;Шахтахты;Şahtaxtı
+hy;Շահթախտ;Şahtaxtı
+ka;შაჰთახთი;Şahtaxtı
+uk;Шахтахти;Şahtaxtı
+fa;شاه‌تختی;Şahtaxtı
+ur;سہتشتی;Şahtaxtı
+hy;Շահրիար;Shakhriyar
+ru;Шахрыяр;Shakhriyar
+az;Şahkərəm;Shakhkerem
+hy;Շաղախ;Şahyeri
+hy;Shaghakh;Şahyeri
+ru;Шагах;Şahyeri
+hy;Sarinshen;Şahyeri
+hy;Սարինշեն;Şahyeri
+tt;Шада;Şada
+ce;Шаба;Şada
+hy;Շամեն;Şada
+ka;შადა;Şada
+fa;شادی;Şada
+ur;سادہ;Şada
+hy;Շադա;Şada
+ru;Шада;Şada
+hy;Seyt’as;Seytas
+hy;Սեյթաս;Seytas
+ru;Сейтас;Seytas
+hy;Zeyt’a;Seytas
+hy;Զեյթա;Seytas
+tt;Сейтас;Seytas
+ce;Сейтас;Seytas
+ka;სეითასი;Seytas
+fa;سیتاس;Seytas
+az;Sələsüz;Selesyuz
+tt;Сәләсүз;Selesyuz
+hy;Սաղուասոնք;Selesyuz
+ce;Саьлаьсуьз;Selesyuz
+ms;Sələsüz;Selesyuz
+ka;სელესიუზი;Selesyuz
+en;Sələsüz;Selesyuz
+it;Sələsüz;Selesyuz
+fa;سله‌سوز;Selesyuz
+nl;Sələsüz;Selesyuz
+hy;Սալասուզ;Selesyuz
+ru;Саласуз;Selesyuz
+az;Sarıcalı;Sarıcallı
+ru;Сарыджаллы;Sarıcallı
+ru;Сарксанлы;Sarxanlı
+tt;Саһилоба;Sahiloba
+ce;СахӀилоба;Sahiloba
+ka;საჰილობა;Sahiloba
+fa;ساحل‌اوبه;Sahiloba
+ur;ساحلوبا;Sahiloba
+ru;Сахылоба;Sahiloba
+az;Saltax;Saltaq
+tt;Салтаг;Saltaq
+ce;Салтаг;Saltaq
+ru;Салитах;Saltaq
+hy;Սալիթաղ;Saltaq
+ka;სალთახი;Saltaq
+fa;سلتاق;Saltaq
+hy;Սալթաղ;Saltaq
+ru;Шахбуз;Shahbuz
+az;Şahbuz;Shahbuz
+en;Sahbuz;Shahbuz
+ar;سحبوز;Shahbuz
+kk;Sahbuz;Shahbuz
+tr;Sahnuz;Shahbuz
+uz;Sahbuz;Shahbuz
+ky;Sahbuz;Shahbuz
+id;Sahbuz;Shahbuz
+ms;Sahbuz;Shahbuz
+es;Sahbuz;Shahbuz
+fr;Sahbuz;Shahbuz
+hi;सहबुज़;Shahbuz
+bn;সাহবুজ;Shahbuz
+ur;سحبوز;Shahbuz
+am;ሳህቡዝ;Shahbuz
+de;Sahbuz;Shahbuz
+fa;سحبوز;Shahbuz
+ha;Sahbuz;Shahbuz
+ja;サフブズ;Shahbuz
+jv;Sahbuz;Shahbuz
+om;Sahbuz;Shahbuz
+pa;ਸਾਹਬੁਜ਼;Shahbuz
+ps;سحبوز;Shahbuz
+pt;Sahbuz;Shahbuz
+so;Sahbuz;Shahbuz
+sw;Sahbuz;Shahbuz
+tg;Сахбуз;Shahbuz
+tt;Сахбуз;Shahbuz
+az;Səfərşa;Safarşa
+hy;Սաֆարշա;Safarşa
+ru;Сафарша;Safarşa
+tt;Сафарша;Safarşa
+ce;Сафарша;Safarşa
+ms;Səfərşa;Safarşa
+en;Səfərşa;Safarşa
+fa;صفرشا;Safarşa
+fr;Safarcha;Safarşa
+nl;Səfərşa;Safarşa
+hy;Սադարակ;Sedarak
+az;Sabirkənd;Sumbatan-diza
+hy;Սումբաթան-Դիզա;Sumbatan-diza
+tt;Реглоба;Reqloba
+ce;Риглоба;Reqloba
+ms;Rıqloba;Reqloba
+ka;რეგლობა;Reqloba
+en;Rıqloba;Reqloba
+it;Rıqloba;Reqloba
+fa;ریقلوبا;Reqloba
+nl;Rıqloba;Reqloba
+ru;Реглоба;Reqloba
+ru;Pu’syan;Püsyan
+tt;Пүсьян;Püsyan
+ce;Пуьсйан;Püsyan
+el;Πουσγιάν;Püsyan
+hy;Պուսյան;Püsyan
+ka;ფუსიანი;Püsyan
+fa;پوسیان;Püsyan
+az;Prorva;Dalğalı
+hy;P’irjahan;Pircahan
+hy;Փիրջահան;Pircahan
+ru;Пирджахан;Pircahan
+hy;Goght’anik;Pircahan
+hy;Գողթանիկ;Pircahan
+tt;Пирҗаһан;Pircahan
+ce;ПирджахӀан;Pircahan
+be;Сяло Гахтанік;Pircahan
+fr;Pirdjahan;Pircahan
+uk;Ґохтанік;Pircahan
+ka;ფირჯაჰანი;Pircahan
+fa;گوغتانیک، کاشاتاق;Pircahan
+az;Piçənis;Pichenis
+hy;Պիչանիս;Pichenis
+ru;Пичанис;Pichenis
+hy;Pich’anis;Pichenis
+hy;Vakunis;Pichenis
+hy;Վակունիս;Pichenis
+tt;Пичәнис;Pichenis
+ce;Пичаьнис;Pichenis
+be;Сяло Вакуніс;Pichenis
+ms;Piçənis;Pichenis
+el;Πιτσενίς;Pichenis
+en;Piçənis;Pichenis
+fr;Pitchanis;Pichenis
+uk;Вакуніс;Pichenis
+ka;ფიჩანისი;Pichenis
+fa;پیچنیس;Pichenis
+nl;Piçənis;Pichenis
+az;Pəzməri;Bazmari
+hy;Բազմառի;Bazmari
+hy;Բազմարի;Bazmari
+ru;Базмары;Bazmari
+hy;Պարչի;Parchy
+fa;پارچی;Parchy
+ru;Парджхы;Parchy
+hy;Parravat’umb;Paravatumb
+az;Qarıtəpə;Paravatumb
+hy;Պառավաթումբ;Paravatumb
+ru;Параватумб;Paravatumb
+az;Parağaçay;Paraghachay
+hy;Փառակաչայ;Paraghachay
+ce;ПарагӀачай;Paraghachay
+ru;Парагачай;Paraghachay
+ms;Parağaçay;Paraghachay
+ka;ფარაღაჩაი;Paraghachay
+en;Parağaçay;Paraghachay
+fa;پاره‌گاه‌چای;Paraghachay
+nl;Parağaçay;Paraghachay
+tt;Парага;Parağa
+hy;Փառակա;Parağa
+ce;ПарагӀа;Parağa
+ka;ფარაღა;Parağa
+fa;پاراغا;Parağa
+ru;Парага;Parağa
+hy;Պապը;Papı
+ru;Папы;Papı
+tt;Папы;Papı
+ce;Папи;Papı
+fa;پاپی;Papı
+fr;Papi;Papı
+tt;Пәликәш;Palokyat
+ce;Паьликаьш;Palokyat
+uz;Pəlikəş;Palokyat
+ms;Pəlikəş;Palokyat
+en;Pəlikəş;Palokyat
+it;Pəlikəş;Palokyat
+ka;ფალიქეში;Palokyat
+az;Pəlikəş;Palokyat
+fa;پالیکش;Palokyat
+nl;Pəlikəş;Palokyat
+ru;Палокят;Palokyat
+en;Payiz;Payız
+hy;Փայիզ;Payız
+hy;Պահեստ;Payız
+ru;Пайз;Payız
+az;Oruc Duzə;Orudzhdiza
+az;Kalbaorus Dizə;Orudzhdiza
+az;Oruc Dizə;Orudzhdiza
+ru;Орудждыза;Orudzhdiza
+ru;Ордубад;Ordubad
+fr;Ordoubad;Ordubad
+ce;Ордубад;Ordubad
+fa;اردوباد;Ordubad
+hy;Որդուար;Ordubad
+lt;Ordubadas;Ordubad
+ur;اردوباد;Ordubad
+zh;奧爾杜巴德;Ordubad
+ar;أوردوباد;Ordubad
+hi;ऑर्डुबाद;Ordubad
+bn;অর্ডুবাদ;Ordubad
+am;ኦርዱባድ;Ordubad
+ja;オルドゥバード;Ordubad
+pa;ਅਰਡੁਬਾਦ;Ordubad
+ps;اردوباد;Ordubad
+tg;Ордубад;Ordubad
+tt;Ордубад;Ordubad
+hy;Օրդուբադ;Ordubad
+az;Oğuldərə;Oguldere
+hy;Oghuldere;Oguldere
+hy;Ողուլդերե;Oguldere
+ru;Огулдере;Oguldere
+tt;Огулдәрә;Oguldere
+ce;ОгӀулдаьраь;Oguldere
+be;Огулдэрэ;Oguldere
+ms;Oğuldərə;Oguldere
+ka;ოღულდარა;Oguldere
+en;Oğuldərə;Oguldere
+fa;اغول‌دره;Oguldere
+fr;Oghouldara;Oguldere
+nl;Oğuldərə;Oguldere
+tt;Нүснүс;Nüsnüs
+ceb;Nyusnyus;Nüsnüs
+ce;Нуьснуьс;Nüsnüs
+sv;Nyusnyus;Nüsnüs
+hy;Նունիս;Nüsnüs
+ka;ნიუსნიუსი;Nüsnüs
+fa;نوس‌نوس;Nüsnüs
+hy;Նյուսնյուս;Nüsnüs
+ru;Нюснюс;Nüsnüs
+tt;Нүргүт;Nürgüt
+hy;Նորակերտ;Nürgüt
+ceb;Nyurgyut;Nürgüt
+ce;Нуьргуьт;Nürgüt
+sv;Nyurgyut;Nürgüt
+ka;ნიურგიუთი;Nürgüt
+fa;نورگوت;Nürgüt
+hy;Նյուրհուտ;Nürgüt
+hy;Նորգյուտ;Nürgüt
+ru;Нургуд;Nürgüt
+az;Nuzgər;Nuzgyar
+hy;Նուզգեր;Nuzgyar
+ru;Нузгер;Nuzgyar
+tt;Нүзгар;Nuzgyar
+ce;Нуьзгар;Nuzgyar
+ms;Nuzgər;Nuzgyar
+uk;Нузґер;Nuzgyar
+en;Nuzgər;Nuzgyar
+fa;نوزگار;Nuzgyar
+fr;Nuzgar;Nuzgyar
+nl;Nuzgər;Nuzgyar
+zh;努兹格尔;Nuzgyar
+az;Nurs;Nursu
+tt;Нурсу;Nursu
+hy;Նորս;Nursu
+ce;Нурсу;Nursu
+ru;Нурсу;Nursu
+ka;ნურსუ;Nursu
+fa;نورسو;Nursu
+az;Nürəddin;Noradin
+hy;Նուրադդին;Noradin
+ru;Нураддин;Noradin
+tt;Нурәддин;Noradin
+de;Nürəddin;Noradin
+ce;Нураьддин;Noradin
+be;Нурэдын;Noradin
+ms;Nürəddin;Noradin
+ka;ნურადინი;Noradin
+en;Nürəddin;Noradin
+fa;نورالدین;Noradin
+fr;Nuraddin;Noradin
+nl;Nürəddin;Noradin
+hy;Նովլու;Novlu
+ru;Новлу;Novlu
+tt;Новлу;Novlu
+ce;Новлу;Novlu
+ka;ნოვლუ;Novlu
+uk;Новлу;Novlu
+fa;نوو لو;Novlu
+az;Göydərə;Goydere
+hy;Նորաշեն;Goydere
+hy;Նորաշենիկ;Goydere
+en;Göydərə;Goydere
+fa;نیگیده;Nigide
+hy;Նուջադե;Nigide
+hy;Նյուգադե;Nigide
+hy;Նյուջադե;Nigide
+az;Nuhgədih;Nigide
+hy;Նիգդեհ;Nigide
+ru;Ныгыде;Nigide
+az;Nehrəm;Nehram
+hy;Նեհրամ;Nehram
+az;Nəzərabad;Nazarabad
+tt;Нәзәрабад;Nazarabad
+ce;Наьзаьрабад;Nazarabad
+uz;Nazarabod;Nazarabad
+ms;Nəzərabad;Nazarabad
+en;Nəzərabad;Nazarabad
+it;Nəzərabad;Nazarabad
+hy;Վասակակերտ;Nazarabad
+ka;ნაზარაბადი;Nazarabad
+fa;نظرآباد;Nazarabad
+nl;Nəzərabad;Nazarabad
+hy;Նազարապատ;Nazarabad
+ru;Назарабад;Nazarabad
+ru;Nakhichevan’;Naxçıvan
+ru;Нахичевань;Naxçıvan
+az;Naxçıvan Şəhəri;Naxçıvan
+no;Nakhitsjevan;Naxçıvan
+en;Nakhchivan;Naxçıvan
+de;Nachitschewan;Naxçıvan
+en;Nakhichivan;Naxçıvan
+fr;Nakhitchevan;Naxçıvan
+hr;Nahičevan;Naxçıvan
+fa;نخجوان;Naxçıvan
+hy;Նախիջևան;Naxçıvan
+uk;Нахічевань;Naxçıvan
+tr;Nahçıvan;Naxçıvan
+ar;ناختشيفان;Naxçıvan
+kk;Нахшыван;Naxçıvan
+uz;Naxchivan;Naxçıvan
+ky;Нахчыван;Naxçıvan
+id;Naxcivan;Naxçıvan
+ms;Naxcivan;Naxçıvan
+es;Najchivén;Naxçıvan
+hi;नखचिवान;Naxçıvan
+bn;নাখচিভান;Naxçıvan
+ur;نخچیوان;Naxçıvan
+am;ናክሻውሃን;Naxçıvan
+ha;Naxcivan;Naxçıvan
+ja;ナフチヴァン;Naxçıvan
+jv;Naxcivan;Naxçıvan
+om;Naxcivan;Naxçıvan
+pa;ਨਖਚੀਵਾਨ;Naxçıvan
+ps;نخچیوان;Naxçıvan
+pt;Nakhchivan;Naxçıvan
+so;Naxcivan;Naxçıvan
+sw;Naxcivan;Naxçıvan
+tg;Нахчивон;Naxçıvan
+tt;Нахчыван;Naxçıvan
+az;Nəsirvaz;Naservas
+tt;Нәсирваз;Naservas
+ce;Наьсирваз;Naservas
+ru;Насирваз;Naservas
+ms;Nəsirvaz;Naservas
+en;Nəsirvaz;Naservas
+it;Nəsirvaz;Naservas
+hy;Մեսրոպավան;Naservas
+ka;ნასირვაზი;Naservas
+uk;Насірваз;Naservas
+fa;ناصروز;Naservas
+nl;Nəsirvaz;Naservas
+hy;Նասիրվազ;Naservas
+az;Nəhəcir;Nagazhir
+tt;Нәһәҗир;Nagazhir
+ce;НаьхӀаьджир;Nagazhir
+ru;Нахаджир;Nagazhir
+uz;Nəhəcir;Nagazhir
+ms;Nəhəcir;Nagazhir
+en;Nəhəcir;Nagazhir
+it;Nəhəcir;Nagazhir
+hy;Նահաջիր;Nagazhir
+ka;ნაჰაჯირი;Nagazhir
+fa;نخجیر، نخجوان;Nagazhir
+nl;Nəhəcir;Nagazhir
+hy;Naghdaly;Nağdalı
+hy;Նաղդալը;Nağdalı
+ru;Нагдалы;Nağdalı
+az;Nəcəflər;Nadzhaflyar
+ru;Наджафлар;Nadzhaflyar
+az;Nəcəfəlidizə;Nadzhav-Ali-Bek-diza
+hy;Նաջաֆ-Ալիբեկ-Դիզա;Nadzhav-Ali-Bek-diza
+ru;Наджав-Алы-Бек-Дыза;Nadzhav-Ali-Bek-diza
+ru;Myul’kyudere;Mioulkoudara
+az;Mülküdərə;Mioulkoudara
+hy;Mulk’idara;Mioulkoudara
+hy;Մուլքիդարա;Mioulkoudara
+ru;Мюлькюдере;Mioulkoudara
+hy;Jraberd;Mioulkoudara
+hy;Ջրաբերդ;Mioulkoudara
+tt;Мүлкүдәрә;Mioulkoudara
+ce;Муьлкуьдаьраь;Mioulkoudara
+be;Сяло Джраберд;Mioulkoudara
+ms;Mülküdərə;Mioulkoudara
+el;Μιουλκιουντερέ;Mioulkoudara
+en;Mülküdərə;Mioulkoudara
+fr;Mülküdərə;Mioulkoudara
+uk;Джраберд;Mioulkoudara
+ja;ミュルキュダラ;Mioulkoudara
+fa;جرابرد، هادروت;Mioulkoudara
+nl;Mülküdərə;Mioulkoudara
+hy;Ալիաբադ;Aliabad
+hy;Ալիապատ;Aliabad
+hy;Ալիբաթ;Aliabad
+hy;Մուրադխանլը;Muradxanlı
+ru;Мурадханлы;Muradxanlı
+hy;Hakari;Muradxanlı
+hy;Հակարի;Muradxanlı
+tt;Мурадханлы;Muradxanlı
+ce;Мурадханли;Muradxanlı
+be;Сяло Акары;Muradxanlı
+el;Μουραντξανλί;Muradxanlı
+fr;Muradkhanli;Muradxanlı
+uk;Акарі;Muradxanlı
+ka;მურადხანლი;Muradxanlı
+fa;هاکاری;Muradxanlı
+ru;Мунджуглу;Muncuqlu
+hy;Mkhants’;Muğanlı
+hy;Մխանց;Muğanlı
+be;Сяло Мханц;Muğanlı
+fr;Mughanli;Muğanlı
+uk;Мханц;Muğanlı
+fa;مخانتس;Muğanlı
+tt;Муганҗыг Мүслүм;Muğancıq Müslüm
+ce;МугӀанджиг Муьслуьм;Muğancıq Müslüm
+hy;Մուղանշիկ Մյուսլյում;Muğancıq Müslüm
+ka;მუღანჯიგ-მიუსლიუმი;Muğancıq Müslüm
+fa;مغان‌جیق مسلم;Muğancıq Müslüm
+ru;Муганджик Муслум;Muğancıq Müslüm
+tt;Моталаятаг;Motolayataq
+ce;Мотолайатаг;Motolayataq
+ka;მოთალაიათაგი;Motolayataq
+az;Motalayataq;Motolayataq
+fa;موتولایاتاق;Motolayataq
+ru;Мотолайатаг;Motolayataq
+hy;Միշնի;Mişni
+tt;Мишни;Mişni
+ce;Мишни;Mişni
+be;Сяло Мшэні;Mişni
+el;Μισνί;Mişni
+fr;Michni;Mişni
+uk;Мшені;Mişni
+ka;მიშნი;Mişni
+fa;مشنی;Mişni
+az;Mirək;Miryak
+az;Miraq;Miryak
+ru;Мыряк;Miryak
+hy;Միրիք;Mirik
+hy;Միրիկ;Mirik
+ru;Мирик;Mirik
+tt;Мирик;Mirik
+ce;Мирик;Mirik
+be;Сяло Мірык;Mirik
+el;Μιρίκ;Mirik
+uk;Мірік;Mirik
+ka;მირიქი;Mirik
+fa;میریک;Mirik
+az;Minkənd;Minkend
+hy;Mink’end;Minkend
+hy;Մինքենդ;Minkend
+ru;Минкенд;Minkend
+hy;Hak;Minkend
+hy;Հակ;Minkend
+tt;Минкәнд;Minkend
+ce;Минкаьнд;Minkend
+be;Сяло Ак;Minkend
+el;Μινκέντ;Minkend
+en;Minkənd;Minkend
+uk;Ак;Minkend
+ka;მინქენდი;Minkend
+fa;هاک;Minkend
+hy;Minbashyghly;Minbaşılı
+hy;Մինբաշըղլը;Minbaşılı
+ru;Минбашылы;Minbaşılı
+tt;Минбашылы;Minbaşılı
+ce;Минбашили;Minbaşılı
+fa;مینباشیلی، جبراییل;Minbaşılı
+fr;Minbachili;Minbaşılı
+hy;Միլանլը;Milanlı
+ru;Миланлы;Milanlı
+tt;Миланлы;Milanlı
+ce;Миланли;Milanlı
+ku;Mîlanlî;Milanlı
+fr;Milanli;Milanlı
+ka;მილანლი;Milanlı
+fa;میلان‌لی;Milanlı
+tt;Милах;Milax
+ce;Милах;Milax
+hy;Վան;Milax
+ka;მილახი;Milax
+fa;میلاخ;Milax
+hy;Միլախ;Milax
+ru;Милах;Milax
+hy;Mets T’aghlar;Böyük Tağlar
+hy;Մեծ Քաղլար;Böyük Tağlar
+ru;Мецтаглар;Böyük Tağlar
+az;Metstağlar;Böyük Tağlar
+hy;Mets T’agher;Böyük Tağlar
+hy;Մեծ Թաղեր;Böyük Tağlar
+hy;Մեծ Թաղլար;Böyük Tağlar
+hy;Mets K’aghlar;Böyük Tağlar
+tt;Бөюк Таглар;Böyük Tağlar
+ceb;Metstaglar;Böyük Tağlar
+ce;Боьйуьк ТагӀлар;Böyük Tağlar
+sv;Metstaglar;Böyük Tağlar
+be;Сяло Мец Тахлар;Böyük Tağlar
+fr;Mets Taghlar;Böyük Tağlar
+ar;بويوك تاغلار;Böyük Tağlar
+uk;Мец Тахлар;Böyük Tağlar
+ja;ビョユク・タグラル;Böyük Tağlar
+fa;متس تاغلار;Böyük Tağlar
+tr;Büyük Tağlar;Böyük Tağlar
+ru;Мердинли;Merdinli
+tt;Мердинли;Merdinli
+ka;მერდინლი;Merdinli
+ce;Мердинли;Merdinli
+fa;مردین‌لی;Merdinli
+az;Məlikəhmədli;Melikakhmedli
+hy;Melik’ahmedli;Melikakhmedli
+hy;Մելիքահմեդլի;Melikakhmedli
+ru;Меликахмедли;Melikakhmedli
+hy;Melik’ashen;Melikakhmedli
+hy;Մելիքաշեն;Melikakhmedli
+tt;Мәликәһмәдли;Melikakhmedli
+de;Məlikəhmədli;Melikakhmedli
+ce;МаьликаьхӀмаьдли;Melikakhmedli
+ms;Məlikəhmədli;Melikakhmedli
+en;Məlikəhmədli;Melikakhmedli
+fr;Məlikəhmədli;Melikakhmedli
+ka;მელიქაჰმედლი;Melikakhmedli
+fa;ملک‌احمدلی;Melikakhmedli
+nl;Məlikəhmədli;Melikakhmedli
+hy;Մեխդիլի;Mehdili
+ru;Мехдили;Mehdili
+az;Məzrə;Mazra
+hy;Մազրա;Mazra
+hy;Masrik;Mazra
+hy;Մասրիկ;Mazra
+ru;Мазра;Mazra
+az;Məzrə;Mazraly
+ru;Мазралы;Mazraly
+az;Məzrə;Mazrya
+hy;Մազրա;Mazrya
+ru;Мазря;Mazrya
+hy;Մավաս;Mavas
+ru;Мавас;Mavas
+ce;Мавас;Mavas
+fa;ماواس، مارتونی;Mavas
+tt;Машанлы;Maşanlı
+ce;Машанли;Maşanlı
+ru;Машанлы;Maşanlı
+fa;ماشان‌لی;Maşanlı
+fr;Machanli;Maşanlı
+az;Maralıq;Maralyk
+az;Mərəlik;Maralyk
+hy;Մարալղ;Maralyk
+ru;Маралык;Maralyk
+az;Malıbəy;Malybey
+hy;Malhalaf;Malybey
+hy;Մալհալաֆ;Malybey
+ru;Малыбей;Malybey
+hy;Melik’ashen;Malybey
+hy;Մելիքաշեն;Malybey
+tt;Махта;Maxta
+ce;Махта;Maxta
+ru;Махта;Maxta
+hy;Մախտա;Maxta
+ka;მახთა;Maxta
+fa;ماختا;Maxta
+tt;Маһмудоба;Mahmudoba
+hy;Աղու;Mahmudoba
+ce;МахӀмудоба;Mahmudoba
+ka;მაჰმუდობა;Mahmudoba
+fa;محمود اوبا، شاهبوز;Mahmudoba
+hy;Մահմուդովա;Mahmudoba
+ru;Махмудоба;Mahmudoba
+az;Mahmudkənd;Makhmudkend
+tt;Маһмудкәнд;Makhmudkend
+ce;МахӀмудкаьнд;Makhmudkend
+ms;Mahmudkənd;Makhmudkend
+en;Mahmudkənd;Makhmudkend
+it;Mahmudkənd;Makhmudkend
+hy;Մահմուդքյանդ;Makhmudkend
+ka;მაჰმუდქენდი;Makhmudkend
+fa;محمودکند;Makhmudkend
+nl;Mahmudkənd;Makhmudkend
+ru;Махмудкенд;Makhmudkend
+hy;Մայիս;Mayis
+ru;Маис;Mayis
+hy;Margis;Mayis
+hy;Մարգիս;Mayis
+az;Lələbağırlı;Lolabağırlı
+hy;Lyalyabaghyrly;Lolabağırlı
+hy;Լյալյաբաղըրլը;Lolabağırlı
+az;Löləbağırlı;Lolabağırlı
+hy;Gahanist;Lolabağırlı
+hy;Գահանիստ;Lolabağırlı
+ru;Лялябагирлы;Lolabağırlı
+tt;Лолабагырлы;Lolabağırlı
+ce;ЛолабагӀирли;Lolabağırlı
+be;Сяло Гаханіст;Lolabağırlı
+ms;Lələbağırlı;Lolabağırlı
+uk;Ґаханіст;Lolabağırlı
+ka;ლელაბაღირლი;Lolabağırlı
+en;Lələbağırlı;Lolabağırlı
+fa;گاهانیست;Lolabağırlı
+fr;Lolabaghirli;Lolabağırlı
+nl;Lələbağırlı;Lolabağırlı
+tt;Ләкәтаг;Lyaketag
+de;Ləkətağ;Lyaketag
+ce;ЛаькаьтагӀ;Lyaketag
+ms;Ləkətağ;Lyaketag
+en;Ləkətağ;Lyaketag
+it;Ləkətağ;Lyaketag
+fr;Ləkətağ;Lyaketag
+hy;Գուգավանք;Lyaketag
+ka;ლაქეთაღი;Lyaketag
+fa;لک‌داغ;Lyaketag
+nl;Ləkətağ;Lyaketag
+tr;Ləkətağ;Lyaketag
+hy;Լաքաթաղ;Lyaketag
+ru;Лякятаг;Lyaketag
+az;Leninkənd;Qarakeçdi
+hy;Լենինքենդ;Qarakeçdi
+hy;Yeznagomer;Qarakeçdi
+hy;Lenink’end;Qarakeçdi
+hy;Եզնագոմեր;Qarakeçdi
+tt;Гаракечди;Qarakeçdi
+ce;Гаракечди;Qarakeçdi
+be;Сяло Езнагамер;Qarakeçdi
+ru;Каракечди;Qarakeçdi
+fr;Garaketchdi;Qarakeçdi
+uk;Єзнаґомер;Qarakeçdi
+ka;ყარაქეჩდი;Qarakeçdi
+fa;لرناهوویت;Qarakeçdi
+hy;Ղզլջա;Qızılca
+az;Qıvraq;Givrag
+en;Qivraq;Givrag
+ru;Кивраг;Givrag
+ar;قيفراق;Givrag
+kk;Kivraq;Givrag
+tr;Kivraq;Givrag
+uz;Kivraq;Givrag
+ky;Kivraq;Givrag
+id;Kivraq;Givrag
+ms;Kivraq;Givrag
+es;Kivraq;Givrag
+fr;Kivraq;Givrag
+hi;किवराक;Givrag
+bn;কিভরাক;Givrag
+ur;قیفراق;Givrag
+am;ኪቭራቅ;Givrag
+de;Kivraq;Givrag
+fa;قیفراق;Givrag
+ha;Kivraq;Givrag
+ja;キヴラク;Givrag
+jv;Kivraq;Givrag
+om;Kivraq;Givrag
+pa;ਕਿਵਰਾਕ;Givrag
+ps;قیفراق;Givrag
+pt;Kivraq;Givrag
+so;Kivraq;Givrag
+sw;Kivraq;Givrag
+tg;Кивраг;Givrag
+tt;Кивраг;Givrag
+hy;Քվրաղ;Givrag
+tt;Гүзнүт;Güznüt
+ceb;Kyuznut;Güznüt
+ce;Гуьзнуьт;Güznüt
+sv;Kyuznut;Güznüt
+ru;Кузнут;Güznüt
+be;Кузнут;Güznüt
+fr;Gouznout;Güznüt
+hy;Կզնուտ;Güznüt
+ka;გიუზნიუთი;Güznüt
+fa;گوزنوت;Güznüt
+az;Kürd Mahrızlı;Kürd Mahruzlu
+az;Kürd Mabrızlı;Kürd Mahruzlu
+hy;Artsvashen;Kürd Mahruzlu
+ru;Кюрдмехризли;Kürd Mahruzlu
+hy;Արծվաշեն;Kürd Mahruzlu
+tt;Күрд Маһрузлу;Kürd Mahruzlu
+ce;Куьрд МахӀрузлу;Kürd Mahruzlu
+be;Сяло Арцвашэн;Kürd Mahruzlu
+ms;Kürd Mahrızlı;Kürd Mahruzlu
+ku;Kurd Mafruzlû;Kürd Mahruzlu
+fr;Kurde Mahruzlu;Kürd Mahruzlu
+uk;Арцвашен;Kürd Mahruzlu
+ka;ქიურდ-მაჰრიზლი;Kürd Mahruzlu
+fa;آرتسواشن;Kürd Mahruzlu
+nl;Kürd Mahrızlı;Kürd Mahruzlu
+az;Kürdkənd;Kyurtkend
+hy;Ներքին Նորաշեն;Kyurtkend
+hy;Քյուրդքենդ;Kyurtkend
+ru;Кюрткенд;Kyurtkend
+hy;K’urdhaji;Kürdhacı
+hy;Քուրդհաջի;Kürdhacı
+ru;Кюрдгаджы;Kürdhacı
+hy;Movsesashen;Kürdhacı
+hy;Մովսեսաշեն;Kürdhacı
+tt;Күрдһаҗы;Kürdhacı
+ce;КуьрдхӀаджи;Kürdhacı
+be;Сяло Маўсесашэн;Kürdhacı
+ku;Kurdhacê;Kürdhacı
+uk;Мовсесашен;Kürdhacı
+ka;ქიურდაჯი;Kürdhacı
+fa;کردحاجی;Kürdhacı
+az;Kürçülü;Kyurtchulu
+az;Kürdçullu;Kyurtchulu
+hy;Քյուրդչուլու;Kyurtchulu
+ru;Кюртджхулу;Kyurtchulu
+tt;Күлүс;Külüs
+hy;Քյոլք;Külüs
+ceb;Kyulyus;Külüs
+ce;Куьлуьс;Külüs
+sv;Kyulyus;Külüs
+ka;კიულიუსი;Külüs
+fa;کولوس;Külüs
+hy;Քյուլուս;Külüs
+ru;Кулус;Külüs
+ru;Kyul’tepe;Kültəpə
+az;Aşağı Gültəpə;Kültəpə
+hy;Քյուլթափա;Kültəpə
+az;Kükü;Kyukyu
+tt;Күкү;Kyukyu
+hy;Կուքի;Kyukyu
+de;Kükü;Kyukyu
+ce;Куькуь;Kyukyu
+ms;Kükü;Kyukyu
+ka;ქიუქიუ;Kyukyu
+en;Kükü;Kyukyu
+it;Kükü;Kyukyu
+fa;کوکو;Kyukyu
+nl;Kükü;Kyukyu
+ru;Куку;Kyukyu
+hy;Ղշլաղաբաս;Qışlaqabbas
+ru;Кыслакаббас;Qışlaqabbas
+hy;Ghyshlagh;Qışlaq
+hy;Ղըշլաղ;Qışlaq
+hy;Ghylychly;Qılıçlı
+hy;Ղըլըչլը;Qılıçlı
+ru;Кылычлы;Qılıçlı
+hy;Varazgom;Qılıçlı
+hy;Վարազգոմ;Qılıçlı
+az;Kərməçatax;Kyarmachatakh
+az;Gərməçataq;Kyarmachatakh
+hy;Գյարմաչաթախ;Kyarmachatakh
+ru;Кярмаджхатах;Kyarmachatakh
+en;Kyarki;Karki
+az;Kərki;Karki
+hy;Տիգրանաշեն;Karki
+en;Tigranashen;Karki
+hy;Քյարքի;Karki
+hy;Կերկի;Karki
+hy;Կյարկի;Karki
+hy;Քերքի;Karki
+ru;Кярки;Karki
+ru;Керки;Karki
+ru;Тигранашен;Karki
+en;Kerki;Karki
+az;Tiqranaşen;Karki
+az;Kələki;Kyalaki
+hy;Քաղաքիկ;Kyalaki
+ru;Кялакы;Kyalaki
+ru;Куйджак;Quycaq
+tt;Гуйҗаг;Quycaq
+ce;Гуйджаг;Quycaq
+fr;Gouydjag;Quycaq
+hy;Կյուջակ;Quycaq
+uk;Ґуйджаґ;Quycaq
+ja;クチャク;Quycaq
+fa;قویجاق;Quycaq
+az;Qumlaq;Gumlag
+ru;Кумлак;Gumlag
+hy;Karmrashen;Qovuşuq
+hy;Կարմրաշեն;Qovuşuq
+ru;Ковушук;Qovuşuq
+tt;Говушуг;Qovuşuq
+ce;Говушуг;Qovuşuq
+be;Говушук;Qovuşuq
+ka;ქოვუშუხი;Qovuşuq
+fa;قووشوق;Qovuşuq
+fr;Govouchoug;Qovuşuq
+ru;Ковшутлу;Kovshutlu
+az;Koturlu;Qalaboyun
+hy;Ghoshasu;Qoşasu
+hy;Ղոշասու;Qoşasu
+ru;Кошасу;Qoşasu
+hy;Drakhtik;Qoşasu
+hy;Դրախտիկ;Qoşasu
+hy;Drakhtadzor;Qoşasu
+hy;Դրախտաձոր;Qoşasu
+tt;Гошасу;Qoşasu
+ce;Гошасу;Qoşasu
+be;Сяло Драхтадзор;Qoşasu
+el;Κοσάσου;Qoşasu
+fr;Gochasou;Qoşasu
+uk;Драхтадзор;Qoşasu
+ka;ქოშასუ;Qoşasu
+fa;دراختاتسور;Qoşasu
+az;Qoşadizə;Koshadiza
+hy;Ղոշադիզա;Koshadiza
+ru;Кошадыза;Koshadiza
+hy;Քոսաջան;Kosacan
+ru;Косаджан;Kosacan
+ru;Коруклар;Qoruqlar
+hy;Կորչուլու;Qorçulu
+ru;Корджулу;Qorçulu
+hy;Կորչու;Qorçu
+ru;Корчу;Qorçu
+hy;Hayt’agh;Qorçu
+hy;Korch’u;Qorçu
+hy;Հայթաղ;Qorçu
+tt;Горчу;Qorçu
+ce;Горчу;Qorçu
+be;Сяло Хайтаг;Qorçu
+el;Κορτσού;Qorçu
+fr;Gortchou;Qorçu
+uk;Хайтаг;Qorçu
+ka;ქორჩუ;Qorçu
+fa;هایتاغ;Qorçu
+az;Kollugıslaq;Kolluqışlaq
+ru;Коллукышлак;Kolluqışlaq
+hy;Քյոլանի;Kolanı
+az;Kirnə;Kırna
+tt;Кырна;Kırna
+ce;Кирна;Kırna
+ru;Кирна;Kırna
+hy;Քռնա;Kırna
+ka;კირნა;Kırna
+fa;کرنا، جلفا;Kırna
+tt;Хурс;Xurs
+ce;Хурс;Xurs
+ru;Хурс;Xurs
+hy;Խուրս;Xurs
+ka;ხურსი;Xurs
+fa;خورس;Xurs
+hy;Խծաբերդ;Çaylaqqala
+az;Xtsabert;Çaylaqqala
+ru;Хцаберт;Çaylaqqala
+tt;Чайлаггала;Çaylaqqala
+ce;Чайлаггала;Çaylaqqala
+be;Сяло Хцаберд;Çaylaqqala
+it;Khtsaberd;Çaylaqqala
+fr;Khtsaberd;Çaylaqqala
+uk;Хцаберд;Çaylaqqala
+ja;チャイラッガラ;Çaylaqqala
+fa;چایلاق قلعه;Çaylaqqala
+tr;Çaylakkale;Çaylaqqala
+az;Xokeşiş;Xokeşin
+hy;Խոշկաշեն;Xokeşin
+ru;Ксокесын;Xokeşin
+hy;Խորովլու;Horovlu
+ru;Хоровлу;Horovlu
+tt;Һоровлу;Horovlu
+ce;Норовлу;Horovlu
+uk;Горовлу;Horovlu
+ja;ホロブル;Horovlu
+fa;هورولو;Horovlu
+hy;Hin T’aghlar;Khintaglar
+az;Köhnə Tağlar;Khintaglar
+hy;Հին Թաղլար;Khintaglar
+ru;Хинтаглар;Khintaglar
+az;Hintağlar;Khintaglar
+hy;Hin T’agher;Khintaglar
+hy;Հին Թաղեր;Khintaglar
+tt;Көһнә Таглар;Khintaglar
+ce;КоьхӀнаь ТагӀлар;Khintaglar
+be;Сяло Хін Тахлар;Khintaglar
+ms;Köhnə Tağlar;Khintaglar
+el;Κιοχνέ Ταγλαρ;Khintaglar
+en;Köhnə Tağlar;Khintaglar
+it;Hin Taghlar;Khintaglar
+fr;Hin Taghlar;Khintaglar
+zh;欣塔赫尔;Khintaglar
+uk;Хін Тахлар;Khintaglar
+ja;キョフナ・タグラル;Khintaglar
+fa;کهنه تاغلار;Khintaglar
+nl;Köhnə Tağlar;Khintaglar
+tr;Köhne Tağlar;Khintaglar
+hy;Խինջավ;Xincab
+ce;Хинджаб;Xincab
+ka;ხინჯაბი;Xincab
+fa;خنجاب;Xincab
+hy;Հինջաբ;Xincab
+ru;Ксынджаб;Xincab
+tt;Хәрхан;Kherkhan
+ce;Хаьрхан;Kherkhan
+be;Сяло Херхан;Kherkhan
+ms;Xərxan;Kherkhan
+en;Xərxan;Kherkhan
+uk;Херхан;Kherkhan
+fa;خرخان;Kherkhan
+nl;Xərxan;Kherkhan
+az;Havuslu;Hovuslu
+hy;Խավըսլը;Hovuslu
+ru;Хавыслы;Hovuslu
+tt;Һовуслу;Hovuslu
+ce;Новуслу;Hovuslu
+ms;Havuslu;Hovuslu
+en;Havuslu;Hovuslu
+fa;هاووس‌لو;Hovuslu
+nl;Havuslu;Hovuslu
+az;Hətəmlər;Khatamlar
+hy;Khat’amlar;Khatamlar
+hy;Խաթամլար;Khatamlar
+hy;Hat’amashen;Khatamlar
+hy;Հաթամաշեն;Khatamlar
+ru;Хат;Hat
+hy;Khot;Hat
+hy;Խոտ;Hat
+hy;Խանլուխլար;Xanlıqlar
+ru;Ксанлыклар;Xanlıqlar
+hy;Ishkhanik;Xallanlı
+hy;Իշխանիկ;Xallanlı
+ru;Халланлы;Xallanlı
+tt;Халланлы;Xallanlı
+ce;Халланли;Xallanlı
+ka;ხალანლი;Xallanlı
+fa;خالان‌لی;Xallanlı
+fr;Khallanli;Xallanlı
+az;Xanəgah;Khanakakh
+az;Xanağa;Khanakakh
+hy;Խանաղա;Khanakakh
+ru;Ханаках;Khanakakh
+ru;Хамошам;Hamoşam
+hy;Խալխալ;Xalxal
+ru;Ксалксал;Xalxal
+az;Xəlilli;Khalilly
+hy;Խալիլու;Khalilly
+ru;Халыллы;Khalilly
+ru;Халафлы;Khalapyu
+az;Xələfli;Khalapyu
+ru;Халафля;Khalapyu
+tt;Хәләфли;Khalapyu
+ce;Хаьлаьфли;Khalapyu
+ms;Khalafli;Khalapyu
+el;Χαλαφλί;Khalapyu
+en;Khalafli;Khalapyu
+fa;خلفه‌لی;Khalapyu
+nl;Khalafli;Khalapyu
+hy;Հալաջ;Khaladzh
+az;Ketam;Kotam
+hy;Քեթամ;Kotam
+ru;Котам;Kotam
+az;Çəmənli;Keshtaz
+az;Keştaz;Keshtaz
+hy;Քեշտազ;Keshtaz
+ru;Кештаз;Keshtaz
+az;Kərimqulu Dizə;Kyarimkuli-Diza
+hy;Քյարիմղուլի-Դիզա;Kyarimkuli-Diza
+ru;Кярымкулы-Дыза;Kyarimkuli-Diza
+hy;Քերիմբեկլու;Kerimbeyli
+az;Şahbuzkənd;Kend Shakhbuz
+az;Şahbuz;Kend Shakhbuz
+az;Kənd Şahbuz;Kend Shakhbuz
+hy;Շահբուզ;Kend Shakhbuz
+hy;Շահապոնք;Kend Shakhbuz
+ru;Кенд Шахбуз;Kend Shakhbuz
+tt;Кечили;Keçili
+hy;Քրտն;Keçili
+ce;Кечили;Keçili
+ka;ქეჩილი;Keçili
+fa;کچیلی;Keçili
+hy;Քեչիլ;Keçili
+ru;Кечили;Keçili
+hy;Ghazykhanly;Qazıxanlı
+hy;Ղազըխանլը;Qazıxanlı
+ru;Казыханлы;Qazıxanlı
+tt;Газыханлы;Qazıxanlı
+ce;Газиханли;Qazıxanlı
+ms;Kazykhanly;Qazıxanlı
+ka;ყაზიხანლი;Qazıxanlı
+fa;قاضی‌خان‌لی;Qazıxanlı
+fr;Gazikhanli;Qazıxanlı
+nl;Kazykhanly;Qazıxanlı
+az;Qazanzəmi;Kazanzemi
+hy;Ghazanzami;Kazanzemi
+hy;Ղազանզամի;Kazanzemi
+ru;Казанзами;Kazanzemi
+tt;Газанзәми;Kazanzemi
+ce;Газанзаьми;Kazanzemi
+ms;Qazanzəmi;Kazanzemi
+en;Qazanzəmi;Kazanzemi
+fa;قازان زمین;Kazanzemi
+fr;Gazanzemi;Kazanzemi
+nl;Qazanzəmi;Kazanzemi
+ru;Казанчи;Qazançı
+hy;Շահկերտ;Qazançı
+fa;قازانچی، نخجوان;Qazançı
+tt;Кавдар;Kavdar
+ce;Кавдар;Kavdar
+ru;Кавдар;Kavdar
+fa;کاودار;Kavdar
+hy;Քարխուն;Qarxun
+ru;Карксун;Qarxun
+ru;Кархулу;Karxulu
+tt;Кархулу;Karxulu
+ce;Кархулу;Karxulu
+uk;Кархулу;Karxulu
+ja;カルクル;Karxulu
+fa;کارخولو;Karxulu
+fr;Karkhoulou;Karxulu
+hy;Gharyghishlagh;Qarıqışlaq
+hy;Ղարըղիշլաղ;Qarıqışlaq
+ru;Карыкышлак;Qarıqışlaq
+hy;Tandzut;Qarıqışlaq
+hy;Տանձուտ;Qarıqışlaq
+tt;Гарыгышлаг;Qarıqışlaq
+ce;Гаригишлаг;Qarıqışlaq
+be;Сяло Тандзут;Qarıqışlaq
+fr;Gariguichlag;Qarıqışlaq
+uk;Тандзут;Qarıqışlaq
+ka;ყარიქიშლაყი;Qarıqışlaq
+fa;تاندزوت;Qarıqışlaq
+tt;Гараханчаллы;Qaraxançallı
+ce;Гараханчалли;Qaraxançallı
+ru;Гараханчаллы;Qaraxançallı
+fr;Garakhantchalli;Qaraxançallı
+zh;卡拉汉恰利;Qaraxançallı
+hy;Կապուտլենջ;Qaraxançallı
+ka;ყარახანჩალი;Qaraxançallı
+fa;قره‌خان‌چال‌لی;Qaraxançallı
+az;Qaraxanbəyli;Karakhanbeyli
+hy;Karakhanbeyly;Karakhanbeyli
+hy;Կարախանբեյլի;Karakhanbeyli
+ru;Караханбейли;Karakhanbeyli
+hy;Ղարախանբեկ;Karakhanbeyli
+ru;Караханбейлы;Karakhanbeyli
+ru;Каракала;Qaraqala
+ru;Karagël’;Qaragöl
+hy;Keren;Qaragöl
+hy;Կերեն;Qaragöl
+ru;Карагёль;Qaragöl
+tt;Гарагөл;Qaragöl
+ce;Гарагоьл;Qaragöl
+be;Сяло Керэн;Qaragöl
+uk;Керен;Qaragöl
+ka;ყარაგიოლი;Qaragöl
+fa;کرن;Qaragöl
+az;Qarahasənli;Kara-Gasanlu
+az;Qarahəcənli;Kara-Gasanlu
+hy;Ղարահասանլի;Kara-Gasanlu
+ru;Кара-Гасанлу;Kara-Gasanlu
+hy;Gharajanly;Qaraçanlı
+hy;Ղարաջանլը;Qaraçanlı
+ru;Караджанлы;Qaraçanlı
+ru;Карадара;Karadara
+az;Cavadabad;Qaraçuq
+ru;Караджук;Qaraçuq
+hy;Ղարաբուրջ;Qaraburc
+ru;Карабурдж;Qaraburc
+az;Qarabəyli;Karabeyli
+hy;Gharabeyli;Karabeyli
+hy;Ղարաբեյլի;Karabeyli
+hy;K’arabak;Karabeyli
+hy;Քարաբակ;Karabeyli
+ru;Карабейли;Karabeyli
+hy;Ղարաբաղլար;Qarabağlar
+hy;Բաբոնք;Qarababa
+ce;Гарабаба;Qarababa
+ka;ყარაბაბა;Qarababa
+hy;Ղարաբաբա;Qarababa
+az;Kələntər Dizə;Kalantardiza
+hy;Քալանթար-Դիզա;Kalantardiza
+ru;Калантардыза;Kalantardiza
+az;Xələfli;Kalafli
+ru;Калафлы;Kalafli
+hy;Կալաֆալըկ;Kalafalıq
+hy;Meghrashen;Kalafalıq
+hy;Մեղրաշեն;Kalafalıq
+ru;Калафалык;Kalafalıq
+tt;Калафалыг;Kalafalıq
+ce;Калафалиг;Kalafalıq
+be;Калафалык;Kalafalıq
+ka;ქალაფალიქი;Kalafalıq
+fa;کلافه‌لیق;Kalafalıq
+fr;Kalafalig;Kalafalıq
+hy;Ghalajygh;Qalacıq
+hy;Ղալաջըղ;Qalacıq
+hy;Ghalacha;Qalaça
+hy;Ղալաչա;Qalaça
+ru;Калача;Qalaça
+hy;Berdik;Qalaça
+hy;Բերդիկ;Qalaça
+tt;Галача;Qalaça
+ce;Галача;Qalaça
+be;Сяло Бердык;Qalaça
+fr;Galatcha;Qalaça
+uk;Бердік;Qalaça
+ka;ყალაჩა;Qalaça
+fa;بردیک;Qalaça
+tt;Гаһаб;Qahab
+ce;ГахӀаб;Qahab
+hy;Կահաբ;Qahab
+ka;კახაბი;Qahab
+fa;قهاب;Qahab
+ru;Кахаб;Qahab
+hy;Kghart’i;Qağartsi
+hy;Կղարթի;Qağartsi
+ru;Кагарци;Qağartsi
+hy;Կաղարծի;Qağartsi
+tt;Гагартси;Qağartsi
+ce;ГагӀартси;Qağartsi
+be;Сяло Кагарці;Qağartsi
+it;Kaghartsi;Qağartsi
+fr;Kaghartsi;Qağartsi
+uk;Кагарці;Qağartsi
+ja;ガガルツィ;Qağartsi
+fa;کاغارتسی;Qağartsi
+az;Qarabullu;Qabıllı
+hy;Ղաբուլի;Qabıllı
+ru;Кабыллы;Qabıllı
+hy;Isak’ly;İsaqlı
+hy;Իսաքլը;İsaqlı
+ru;Исаклы;İsaqlı
+hy;Sahakashen;İsaqlı
+hy;Սահակաշեն;İsaqlı
+hy;Իմանլար;İmanlar
+hy;Himnashen;İmanlar
+hy;Հիմնաշեն;İmanlar
+ru;Иманлар;İmanlar
+tt;Иманлар;İmanlar
+ce;Имамлар;İmanlar
+be;Сяло Хімнашэн;İmanlar
+el;Ιμανλάρ;İmanlar
+uk;Хімнашен;İmanlar
+ka;იმანლარი;İmanlar
+fa;هیمناشن;İmanlar
+az;Imambagi;İmambağı
+ru;Имамбаги;İmambağı
+hy;Աբադուլլահ;İbadulla
+hy;Իբադուլլա;İbadulla
+ru;Ибадулла;İbadulla
+hy;Գյուսյուլյու;Gyusyulyu
+hy;Tsitserrnavank’;Gyusyulyu
+hy;Ծիծեռնավանք;Gyusyulyu
+tt;Гүннүт;Günnüt
+hy;Գյուննուտ;Günnüt
+ce;Гуьннуьт;Günnüt
+ka;გიუნიუთი;Günnüt
+fa;گونوت;Günnüt
+ru;Гуннут;Günnüt
+az;Qal;Gal
+az;Hal;Gal
+hy;Գաղ;Gal
+ru;Гал;Gal
+tt;Гиланчай;Gilançay
+ce;Гиланчай;Gilançay
+hy;Գիլանչայ;Gilançay
+ka;გილანჩაი;Gilançay
+fa;گیلان‌چای;Gilançay
+ru;Гиланчай;Gilançay
+ru;Gëynyuk;Keynik
+az;Köynük;Keynik
+az;Göynük;Keynik
+hy;Գյոյնուկ;Keynik
+hy;Հերհեր;Qarqar
+hy;Herher;Qarqar
+ru;Гергер;Qarqar
+ru;Gëmyur;Gömür
+tt;Гөмүр;Gömür
+hy;Գեհենիք;Gömür
+ce;Гоьмуьр;Gömür
+ka;გემიური;Gömür
+fa;گومور;Gömür
+hy;Գյոմուր;Gömür
+az;Göyərçin Veysəlli;Veysalli
+hy;Gegharjin;Veysalli
+hy;Գեղարջին;Veysalli
+ru;Гегерчин-Вейсалли;Veysalli
+ru;Вейсалли;Veysalli
+en;Aghbulag;Ağbulaq
+hy;Գաջազուր;Ağbulaq
+hy;Կժաձոր;Ağbulaq
+ru;Агбулаг;Ağbulaq
+az;Hasənli;Hasanlı
+az;Həsənli;Hasanlı
+ru;Хасанлы;Hasanlı
+az;Həsənqaydı;Gasankaydy
+hy;Hasank’aydy;Gasankaydy
+hy;Հասանքայդը;Gasankaydy
+ru;Гасанкайды;Gasankaydy
+tt;Һәсәнгайды;Gasankaydy
+ce;ХӀаьсаьнгайди;Gasankaydy
+uz;Həsənqaydı;Gasankaydy
+ms;Həsənqaydı;Gasankaydy
+en;Həsənqaydı;Gasankaydy
+fa;حسن‌قایدی;Gasankaydy
+nl;Həsənqaydı;Gasankaydy
+az;Həmzəli;Gamzali
+hy;Համզալի;Gamzali
+ru;Гамзалы;Gamzali
+tt;Һаҗывар;Hacıvar
+hy;Հաջիվար;Hacıvar
+ce;Хадживар;Hacıvar
+ka;ჰაჯივარი;Hacıvar
+fa;حاجی‌ور;Hacıvar
+ru;Хадживар;Hacıvar
+hy;Hajyghly;Hacılı
+hy;Հաջըղլը;Hacılı
+ru;Гаджылы;Hacılı
+az;Fərraş;Farrash
+hy;Faraj;Farrash
+hy;Ֆարաջ;Farrash
+ru;Фаррадж;Farrash
+hy;P’arajants’;Farrash
+hy;Փարաջանց;Farrash
+tt;Фәрраш;Farrash
+ce;Фаьрраш;Farrash
+be;Фараш;Farrash
+ms;Fərraş;Farrash
+ka;ფარაში;Farrash
+en;Fərraş;Farrash
+fa;فراش، لاچین;Farrash
+fr;Farrach;Farrash
+nl;Fərraş;Farrash
+az;Əmirvarlı;Emirvarly
+tt;Әмирварлы;Emirvarly
+ce;Аьмирварли;Emirvarly
+ru;Амирварлы;Emirvarly
+uz;Əmirvarlı;Emirvarly
+ms;Əmirvarlı;Emirvarly
+en;Əmirvarlı;Emirvarly
+fa;امیروارلی;Emirvarly
+nl;Əmirvarlı;Emirvarly
+hy;Efendilar;Efendilyar
+hy;Էֆենդիլար;Efendilyar
+tr;Çuha;Gülüstan
+en;Chukha;Gülüstan
+fa;جقّا;Gülüstan
+ru;Гулустан;Gülüstan
+az;Cilən;Dzhilan
+hy;Ջիլան;Dzhilan
+hy;Jilan;Dzhilan
+ru;Джилан;Dzhilan
+hy;Saralanj;Dzhilan
+hy;Սարալանջ;Dzhilan
+tt;Җилән;Dzhilan
+ce;Джилаьн;Dzhilan
+be;Сяло Сараландж;Dzhilan
+uz;Cilən;Dzhilan
+ms;Cilən;Dzhilan
+en;Cilən;Dzhilan
+fr;Djilen;Dzhilan
+uk;Сараландж;Dzhilan
+ja;ジラン;Dzhilan
+fa;سارالانج، هادروت;Dzhilan
+nl;Cilən;Dzhilan
+az;Cəbrayıl;Jabrayil
+hy;Ջաբրաիլ;Jabrayil
+hy;Mekhakavan;Jabrayil
+hy;Jrakan;Jabrayil
+hy;Մեխակավան;Jabrayil
+hy;Ձրական;Jabrayil
+hy;Jabrail;Jabrayil
+ru;Джебраил;Jabrayil
+en;Jebrail;Jabrayil
+ar;جبرائيل;Jabrayil
+kk;Джебраил;Jabrayil
+tr;Cebrail;Jabrayil
+uz;Jebrail;Jabrayil
+ky;Джебраил;Jabrayil
+id;Jebrail;Jabrayil
+ms;Jebrail;Jabrayil
+es;Jebrail;Jabrayil
+fr;Jebrail;Jabrayil
+hi;जेब्रेल;Jabrayil
+bn;জেবরাইল;Jabrayil
+ur;جبرائیل;Jabrayil
+am;ጄብራዪል;Jabrayil
+de;Jebrail;Jabrayil
+fa;جبرائیل;Jabrayil
+ha;Jebrail;Jabrayil
+ja;ジェブライル;Jabrayil
+jv;Jebrail;Jabrayil
+om;Jebrail;Jabrayil
+pa;ਜੇਬ੍ਰੈਲ;Jabrayil
+ps;جبرائیل;Jabrayil
+pt;Jebrail;Jabrayil
+so;Jebrail;Jabrayil
+sw;Jebrail;Jabrayil
+tg;Джебраил;Jabrayil
+tt;Джебраил;Jabrayil
+hy;Ջամալդին;Camaldın
+ru;Джамалдын;Camaldın
+az;Cəlilkənd;Dzhalilkend
+tt;Җәлилкәнд;Dzhalilkend
+ce;Джаьлилкаьнд;Dzhalilkend
+ms;Cəlilkənd;Dzhalilkend
+en;Cəlilkənd;Dzhalilkend
+it;Cəlilkənd;Dzhalilkend
+zh;哲里爾肯德;Dzhalilkend
+hy;Ջալիլքենդ;Dzhalilkend
+ka;ჯალიქენდი;Dzhalilkend
+fa;جلیل‌کند;Dzhalilkend
+nl;Cəlilkənd;Dzhalilkend
+ru;Джалилканд;Dzhalilkend
+hy;Ջաղազուր;Şahbulaq
+ru;Сахбулак;Şahbulaq
+az;Cəfərabad;Dzhafarabad
+hy;Jabarabad;Dzhafarabad
+hy;Ջաբարաբադ;Dzhafarabad
+tt;Дүйлүн;Düylün
+ceb;Dyuylyun;Düylün
+ce;Дуьйлуьн;Düylün
+sv;Dyuylyun;Düylün
+hy;Դուգլին;Düylün
+ka;დიუილიუნი;Düylün
+fa;دویلون;Düylün
+hy;Դյուհլյուն;Düylün
+ru;Дуйлун;Düylün
+tt;Дүдәнгә;Dyudengya
+ce;Дуьдаьнгаь;Dyudengya
+ms;Düdəngə;Dyudengya
+el;Ντουντάνγκα;Dyudengya
+en;Düdəngə;Dyudengya
+it;Düdəngə;Dyudengya
+hy;Դյուդենդ;Dyudengya
+ka;დიუდანგია;Dyudengya
+az;Düdəngə;Dyudengya
+fa;دودنگه;Dyudengya
+nl;Düdəngə;Dyudengya
+hy;Դուդանկա;Dyudengya
+ru;Дуданга;Dyudengya
+tt;Дырныс;Dırnıs
+ce;Дирнис;Dırnıs
+hy;Տրունիս;Dırnıs
+ka;დირნისი;Dırnıs
+fa;درنیس;Dırnıs
+hy;Դռնիս;Dırnıs
+ru;Дирнис;Dırnıs
+az;Dörtçinar;Dördçinar
+hy;Դորթչինար;Dördçinar
+ru;Дортчинар;Dördçinar
+hy;Dort’chinar;Dördçinar
+tt;Дөрдчинар;Dördçinar
+rw;Dörtçinar;Dördçinar
+ny;Dörtçinar;Dördçinar
+sc;Dörtçinar;Dördçinar
+ka;დიორთჩინარი;Dördçinar
+sm;Dörtçinar;Dördçinar
+kg;Dörtçinar;Dördçinar
+ki;Dörtçinar;Dördçinar
+kl;Dörtçinar;Dördçinar
+ce;Доьрдчинар;Dördçinar
+ms;Dörtçinar;Dördçinar
+en;Dörtçinar;Dördçinar
+it;Dörtçinar;Dördçinar
+co;Dörtçinar;Dördçinar
+ha;Dörtçinar;Dördçinar
+rm;Dörtçinar;Dördçinar
+fa;دورت‌چنار;Dördçinar
+nl;Dörtçinar;Dördçinar
+az;Binə;Tumi
+hy;Տումի;Tumi
+ru;Домы;Tumi
+tt;Бинә;Tumi
+ce;Бинаь;Tumi
+be;Сяло Тумі;Tumi
+ms;Binə;Tumi
+en;Binə;Tumi
+fr;Toumi;Tumi
+uk;Тумі;Tumi
+ka;ბინა;Tumi
+ja;ビナ;Tumi
+fa;تومی;Tumi
+tt;Долу;Dolu
+ce;Долу;Dolu
+ka;დოლუ;Dolu
+fa;دولو، آذربایجان;Dolu
+ru;Долу;Dolu
+hy;Arnshat;Dolanlar
+hy;Արնշատ;Dolanlar
+hy;Արեւշատ;Dolanlar
+ru;Доланлар;Dolanlar
+tt;Доланлар;Dolanlar
+ce;Доланлар;Dolanlar
+be;Вёска Арэвашат;Dolanlar
+it;Arevashat;Dolanlar
+fr;Arevashat;Dolanlar
+uk;Аревашат;Dolanlar
+ja;ドナンラル;Dolanlar
+fa;آروشات، هادورت;Dolanlar
+az;Dizə;Diza
+tt;Дизә;Diza
+hy;Դիզա;Diza
+ce;Дизаь;Diza
+ms;Dizə;Diza
+ka;დიზა;Diza
+en;Dizə;Diza
+it;Dizə;Diza
+fa;دیزه، شرور;Diza
+nl;Dizə;Diza
+ru;Диза;Diza
+ru;Дыза;Diza
+hy;Դեղսար;Bashkend
+hy;Դիսար;Bashkend
+ru;Дыко;Diqo
+tt;Дидивар;Didivar
+ce;Дидивар;Didivar
+ru;Дидивар;Didivar
+hy;Տիգեն;Didivar
+ka;დიდივარი;Didivar
+fa;دیدی‌ور;Didivar
+hy;Դիդուվար;Didivar
+az;Diyadin;Diadin
+hy;Դիադին;Diadin
+ru;Дыадын;Diadin
+ru;Sovkhoz Desyat’ Let Nakhichevanskoy ASSR;Danyeri
+hy;Dashtaghat;Deşdahat
+hy;Դաշտաղատ;Deşdahat
+ru;Дештагат;Deşdahat
+az;Dashtahat;Deşdahat
+az;Դաշտահատ;Deşdahat
+ru;Развалины Дештагат;Deşdahat
+tt;Дешдаһат;Deşdahat
+ce;ДешгахӀат;Deşdahat
+ka;დეშდაჰათი;Deşdahat
+fa;دش‌دهات;Deşdahat
+fr;Dechdahat;Deşdahat
+hy;Դերվիշլար;Dervishlyar
+ru;Дервишляр;Dervishlyar
+hy;Դեմիրչի;Demirchi
+ru;Демырджхы;Demirchi
+az;Dəcəl;Dezhal
+hy;Դաժալ;Dezhal
+ru;Дажал;Dezhal
+az;Dəjəl;Dezhal
+tt;Дәжәл;Dezhal
+ce;Даьжаьл;Dezhal
+uz;Dəcəl;Dezhal
+ms;Dəcəl;Dezhal
+ka;დაჟალი;Dezhal
+en;Dəcəl;Dezhal
+fa;دجل;Dezhal
+fr;Dejel;Dezhal
+nl;Dəcəl;Dezhal
+tt;Давудлу;Davudlu
+ce;Давудлу;Davudlu
+ka;დავუდლუ;Davudlu
+fa;داوودلو;Davudlu
+fr;Davoudlou;Davudlu
+tt;Дәстә;Deste
+ce;Даьстаь;Deste
+ms;Dəstə;Deste
+it;Dəstə;Deste
+hy;Դաստակ;Deste
+ka;დასთა;Deste
+ja;ダスタ;Deste
+fa;دسته، اردوباد;Deste
+nl;Dəstə;Deste
+az;Daşveysəlli;Dashveysaly
+hy;Dashveysali;Dashveysaly
+hy;Դաշվեյսալի;Dashveysaly
+ru;Дашвейсалли;Dashveysaly
+az;Daş Veysəlli;Dashveysaly
+hy;Gashly;Daşlı
+hy;Գաշլը;Daşlı
+ru;Дашлы;Daşlı
+hy;K’araglukh;Daşlı
+hy;Քարագլուխ;Daşlı
+hy;K’arut;Daşlı
+hy;Քարուտ;Daşlı
+tt;Дашлы;Daşlı
+ce;Дашли;Daşlı
+be;Сяло Карут;Daşlı
+uk;Карут;Daşlı
+ka;დაშლი;Daşlı
+fa;کاروت;Daşlı
+fr;Dachli;Daşlı
+az;Daşgəsən;Deshkesen
+az;Daşkəsən;Deshkesen
+hy;Դաշքեսան;Deshkesen
+ru;Дашкесан;Deshkesen
+hy;Dashk’esan;Deshkesen
+tt;Дашкәсән;Deshkesen
+ce;Дашкаьсаьн;Deshkesen
+uz;Daşkəsən;Deshkesen
+ms;Daşgəsən;Deshkesen
+en;Daşgəsən;Deshkesen
+fr;Dachkesen;Deshkesen
+uk;Дашґесен;Deshkesen
+ka;დაშქესანი;Deshkesen
+ja;ダケサン;Deshkesen
+fa;داش‌کسن;Deshkesen
+nl;Daşgəsən;Deshkesen
+hy;K’araglukh;Daşbaşı
+hy;Քարաքլուխ;Daşbaşı
+az;Darkənd;Der
+hy;Դեր;Der
+ru;Дер;Der
+hy;Տանակերտ;Anaqut
+ru;Анакут;Anaqut
+ru;Джульфа;Julfa
+fa;جلفای نخجوان;Julfa
+hy;Ջուղա;Julfa
+hy;Ջուլֆա;Julfa
+hy;Գյուլֆա, Դյուլֆա, Ժուլֆա, Հին Ջուղա, Ճողա, Ճողի, Ճուղա, Յուլա, Յուլահա, Յուլֆա, Չյուլֆա, Չուգա, Ջողա, Ջուգա, Ջուլահա, Ջուլիաթ, Սուլֆա, Տուլֆա, Ուզուլֆա, Ուլֆա;Julfa
+ar;جلفا;Julfa
+kk;Culfa;Julfa
+uz;Culfa;Julfa
+ky;Culfa;Julfa
+id;Culfa;Julfa
+ms;Culfa;Julfa
+es;Culfa;Julfa
+hi;कुलफ़ा;Julfa
+bn;কুলফা;Julfa
+ur;جلفا;Julfa
+am;ጁልፋ;Julfa
+de;Culfa;Julfa
+ha;Culfa;Julfa
+ja;ジュルファ;Julfa
+jv;Culfa;Julfa
+om;Culfa;Julfa
+pa;ਕੁਲਫ਼ਾ;Julfa
+ps;جلفا;Julfa
+pt;Culfa;Julfa
+so;Culfa;Julfa
+sw;Culfa;Julfa
+tg;Джульфа;Julfa
+tt;Джульфа;Julfa
+az;Tövlədərə;Çıraq
+hy;Tsragidzor;Çıraq
+hy;Ծրագիձոր;Çıraq
+ru;Чыгар;Çıraq
+ru;Товладере;Çıraq
+tt;Чыраг;Çıraq
+ce;Чираг;Çıraq
+be;Сяло Чраг;Çıraq
+fr;Tchirag;Çıraq
+uk;Чраґ;Çıraq
+ka;ჩირაყი;Çıraq
+fa;چراغ;Çıraq
+hy;Չորման;Çorman
+hy;Ch’ormank’;Çorman
+hy;Չորմանք;Çorman
+ru;Чорман;Çorman
+tt;Чомахтур;Çomaxtur
+ce;Чомахтур;Çomaxtur
+ru;Чомахтур;Çomaxtur
+hy;Ջոմախտու;Çomaxtur
+ka;ჩომახთური;Çomaxtur
+uk;Чомахтур;Çomaxtur
+fa;چومآختور;Çomaxtur
+tr;Çomahtur;Çomaxtur
+az;Çocuq Mərcanlı;Dzhodzhukh-Mardzhanly
+hy;Ch’ojuk Marjanly;Dzhodzhukh-Mardzhanly
+hy;Չոջուկ Մարջանլը;Dzhodzhukh-Mardzhanly
+ru;Чоджук-Марджанлы;Dzhodzhukh-Mardzhanly
+az;Çeşməbasar;Cheshmabasar
+tt;Чешмәбасар;Cheshmabasar
+ce;Чешмаьбасар;Cheshmabasar
+ru;Чешмабасар;Cheshmabasar
+uz;Çeşməbasar;Cheshmabasar
+ms;Çeşməbasar;Cheshmabasar
+en;Çeşməbasar;Cheshmabasar
+it;Çeşməbasar;Cheshmabasar
+fr;Çeşməbasar;Cheshmabasar
+hy;Չեշմաբասար;Cheshmabasar
+ka;ჩეშმაბაზარი;Cheshmabasar
+fa;چشمه‌به‌سر;Cheshmabasar
+nl;Çeşməbasar;Cheshmabasar
+az;Çərəkən;Chereken
+hy;Չերեկեն;Chereken
+ru;Черекен;Chereken
+hy;Samvelavan;Chereken
+hy;Jrakan;Chereken
+hy;Սամվելավան;Chereken
+hy;Ձրական;Chereken
+tt;Чәрәкән;Chereken
+ce;Чаьраькаьн;Chereken
+uz;Çərəkən;Chereken
+ms;Çərəkən;Chereken
+en;Çərəkən;Chereken
+fr;Tcherakan;Chereken
+uk;Черекен;Chereken
+ka;ჩარაქანი;Chereken
+ja;カラカン;Chereken
+fa;چره‌کن;Chereken
+nl;Çərəkən;Chereken
+az;Çərçiboğan;Charchibogan
+hy;Չարչիբողան;Charchibogan
+ru;Джхарджхыбоган;Charchibogan
+az;Çapayevka;Xanağa
+hy;Խանաղա;Xanağa
+ru;Ксанага;Xanağa
+az;Çənnəb;Tsagna
+az;Çənənəb;Tsagna
+tt;Чәннәб;Tsagna
+hy;Ցղնա;Tsagna
+ce;Чаьннаьб;Tsagna
+ru;Ченеб;Tsagna
+ms;Çənnəb;Tsagna
+ka;ჩანაბი;Tsagna
+en;Çənnəb;Tsagna
+it;Çənnəb;Tsagna
+fa;چننب;Tsagna
+nl;Çənnəb;Tsagna
+hy;Չանանաբ;Tsagna
+ru;Чахырлы;Çaxırlı
+az;Cəhri;Jahri
+ceb;Cahri;Jahri
+ce;ДжаьхӀри;Jahri
+sv;Cahri;Jahri
+ru;Джагри;Jahri
+uz;Cəhri;Jahri
+ms;Cəhri;Jahri
+it;Cəhri;Jahri
+fr;Cəhri;Jahri
+hy;Ճահուկ;Jahri
+ka;ჯაჰრი;Jahri
+fa;جهری;Jahri
+nl;Cəhri;Jahri
+hy;Ջահրի;Jahri
+hy;Byulevlik’;Bülövlük
+hy;Բյուլեվլիք;Bülövlük
+ru;Бюлевлик;Bülövlük
+hy;Antarranej;Bülövlük
+hy;Անտառանեջ;Bülövlük
+hy;Antarramej;Bülövlük
+hy;Անտառամեջ;Bülövlük
+az;Bürünlü;Burunly
+ru;Бурунлу;Burunly
+tt;Бурсут;Bursut
+ce;Бурсут;Bursut
+el;Μπουρσούτ;Bursut
+ku;Birsûd;Bursut
+ka;ბურსუთი;Bursut
+fa;بورسوت;Bursut
+ru;Бурсут;Bursut
+hy;Bunyat’ly;Bünyadlı
+hy;Բունյաքլը;Bünyadlı
+hy;Karmrrak’ar;Bünyadlı
+hy;Կարմռաքար;Bünyadlı
+az;Bulğan;Bulqan
+hy;Բուլղան;Bulqan
+ce;Булган;Bulqan
+ka;ბულქანი;Bulqan
+fa;بولقان;Bulqan
+zh;布尔甘;Bulqan
+ru;Булган;Bulqan
+az;Budaqdərə;Budagdere
+hy;Budaghdere;Budagdere
+hy;Բուդաղդերե;Budagdere
+ru;Будагдере;Budagdere
+hy;Budaghadzor;Budagdere
+hy;Բուդաղաձոր;Budagdere
+tt;Будагдәрә;Budagdere
+ce;Будагдаьраь;Budagdere
+be;Будагдэрэ;Budagdere
+ms;Budaqdərə;Budagdere
+ka;ბუდაგდარა;Budagdere
+en;Budaqdərə;Budagdere
+fa;بداغ‌دره;Budagdere
+fr;Boudagdéré;Budagdere
+nl;Budaqdərə;Budagdere
+hy;Բոզլու;Bozlu
+hy;Moshat’agh;Bozlu
+hy;Մոշաթաղ;Bozlu
+ru;Бозлу;Bozlu
+tt;Бозлу;Bozlu
+ce;Бозлу;Bozlu
+be;Сяло Машатаг;Bozlu
+el;Μποζλού;Bozlu
+fr;Bozlou;Bozlu
+uk;Мошатаг;Bozlu
+ka;ბოზლუ;Bozlu
+fa;بوزلو، آذربایجان;Bozlu
+hy;Բիստ;Bist
+ru;Быст;Bist
+ru;Билбиляк;Bilbilyak
+az;Biləv;Bilyav
+tt;Биләв;Bilyav
+hy;Բղև;Bilyav
+ce;Билаьв;Bilyav
+ms;Biləv;Bilyav
+ka;ბილავი;Bilyav
+en;Biləv;Bilyav
+it;Biləv;Bilyav
+fa;بیله‌و;Bilyav
+nl;Biləv;Bilyav
+hy;Բիլավ;Bilyav
+ru;Биляв;Bilyav
+az;Biçənək;Bichenek
+tt;Бичәнәк;Bichenek
+ce;Бичаьнаьк;Bichenek
+ru;Биченек;Bichenek
+ms;Biçənək;Bichenek
+en;Biçənək;Bichenek
+it;Biçənək;Bichenek
+zh;比切奈克;Bichenek
+hy;Ոփիք;Bichenek
+ka;ბიჩანაქი;Bichenek
+fa;بیچنک;Bichenek
+nl;Biçənək;Bichenek
+hy;Բիչանակ;Bichenek
+ru;Bëyuk Mardzhanly;Böyük Mərcanlı
+hy;Բեյուք Մարջանլը;Böyük Mərcanlı
+ru;Бёюк Марджанлы;Böyük Mərcanlı
+tt;Бөюк Мәрҗанлы;Böyük Mərcanlı
+ce;Боьйуьк Маьрджанли;Böyük Mərcanlı
+fr;Boyuk Mardjanli;Böyük Mərcanlı
+zh;贝尤克·梅尔詹利;Böyük Mərcanlı
+uk;Боюк-Мерджанли;Böyük Mərcanlı
+ka;ბოიუქ-მარჯანლი;Böyük Mərcanlı
+fa;بویوک مرجان‌لی;Böyük Mərcanlı
+ru;Bëyuk-Dyuz;Böyükdüz
+hy;Բոյուքդյուզ;Böyükdüz
+ce;Боьйуькдуьз;Böyükdüz
+ka;ბიოიუდიუზი;Böyükdüz
+fa;بویوک‌دوز;Böyükdüz
+ru;Bashlybel’;Başlıbel
+ru;Башлыбель;Başlıbel
+tt;Башлыбел;Başlıbel
+ce;Башлибел;Başlıbel
+fr;Bachlibel;Başlıbel
+zh;巴什利别尔;Başlıbel
+hy;Ապահեն;Başlıbel
+ka;ბაშლიბელი;Başlıbel
+fa;آپاهن;Başlıbel
+tt;Баш Дизә;Bashdiza
+ce;Баш Дизаь;Bashdiza
+ms;Baş Dizə;Bashdiza
+en;Baş Dizə;Bashdiza
+it;Baş Dizə;Bashdiza
+hy;Բաշդիզա;Bashdiza
+ka;ბაშ-დიზა;Bashdiza
+fa;باش‌دیزه;Bashdiza
+nl;Baş Dizə;Bashdiza
+hy;Խուդավերդիբեկ-Դիզա;Bashdiza
+ru;Баш Диза;Bashdiza
+hy;Բաշառատ;Başarat
+hy;Basharrat;Başarat
+ru;Башарат;Başarat
+hy;Amutegh;Başarat
+hy;Ամուտեղ;Başarat
+tt;Башарат;Başarat
+ce;Башарат;Başarat
+be;Сяло Амутэг;Başarat
+fr;Bacharat;Başarat
+uk;Амутег;Başarat
+ka;ბაშარათი;Başarat
+fa;بشارت، قبادلی;Başarat
+az;Binədərəsi;Banazur
+hy;Banadzur;Banazur
+hy;Բանաձուր;Banazur
+ru;Баназур;Banazur
+hy;Banadzor;Banazur
+hy;Բանաձոր;Banazur
+tt;Бинәдәрәси;Banazur
+ce;Бинаьдаьраьси;Banazur
+be;Сяло Банадзор;Banazur
+uz;Binədərəsi;Banazur
+ms;Binədərəsi;Banazur
+en;Binədərəsi;Banazur
+it;Banadzor;Banazur
+fr;Banadzor;Banazur
+zh;巴纳祖尔;Banazur
+zh-Hant;巴納祖爾;Banazur
+uk;Банадзор;Banazur
+fa;بینه‌درسی;Banazur
+sco;Binədərəsi;Banazur
+nl;Binədərəsi;Banazur
+az;Bənənyar;Bananiyar
+az;Bənəniyar;Bananiyar
+hy;Ապարան;Bananiyar
+hy;Աբերներ;Bananiyar
+hy;Ապարաններ;Bananiyar
+hy;Ապարանք;Bananiyar
+hy;Բանանիար;Bananiyar
+hy;Բանանյար;Bananiyar
+ru;Бананыяр;Bananiyar
+az;Bəlbay;Balbau
+tt;Бәлбай;Balbau
+ce;Балбау;Balbau
+ku;Balbo;Balbau
+ka;ბალბაუ;Balbau
+fa;بالباو;Balbau
+ru;Балбау;Balbau
+hy;Բահրուտ;Behrud
+ru;Бехруд;Behrud
+az;Bədəşxan;Badaşqan
+hy;Բադաշխան;Badaşqan
+ru;Бадаскан;Badaşqan
+az;Badamlı;Badamli
+tt;Бадамлы;Badamli
+ceb;Badamlı;Badamli
+ce;Бадамли;Badamli
+sv;Badamlı;Badamli
+ms;Badamlı;Badamli
+en;Badamlı;Badamli
+it;Badamlı;Badamli
+hy;Օծոփ;Badamli
+ka;ბადამლი;Badamli
+fa;بادام‌لی;Badamli
+nl;Badamlı;Badamli
+hy;Բադամլու;Badamli
+ru;Бадамли;Badamli
+az;Babək;Babak
+az;Təzəkənd;Babak
+en;Tazakend;Babak
+ru;Тазакент;Babak
+ar;تازاكند;Babak
+kk;Tazakend;Babak
+tr;Tazakend;Babak
+uz;Tazakent;Babak
+ky;Tazakend;Babak
+id;Tazakend;Babak
+ms;Tazakend;Babak
+es;Tazakend;Babak
+fr;Tazakend;Babak
+hi;तज़ाकेंद;Babak
+bn;তাজাকেন্দ;Babak
+ur;تازاکند;Babak
+am;ታዛኬንድ;Babak
+de;Tazakend;Babak
+fa;تازاکند;Babak
+ha;Tazakend;Babak
+ja;タザケンド;Babak
+jv;Tazakend;Babak
+om;Tazakend;Babak
+pa;ਤਾਜ਼ਾਕੇਂਦ;Babak
+ps;تازاکند;Babak
+pt;Tazakend;Babak
+so;Tazakend;Babak
+sw;Tazakend;Babak
+tg;Тазакент;Babak
+tt;Тазакент;Babak
+hy;Բաբեկ;Babak
+az;Babəki;Babaki
+hy;Բաբաքի;Babaki
+ru;Бабакы;Babaki
+hy;Ազնաբերդ;Çalxanqala
+hy;Ազնաբիրտ;Çalxanqala
+hy;Ազնաբյուրտ;Çalxanqala
+ru;Чалхангала;Çalxanqala
+hy;Hayibazar;Ayıbasar
+hy;Հայիբազար;Ayıbasar
+az;Ayıbazar;Ayıbasar
+ru;Айыбазар;Ayıbasar
+az;Aybazar;Ayıbasar
+tt;Аебасар;Ayıbasar
+ce;Айибасар;Ayıbasar
+be;Айыбасар;Ayıbasar
+el;Αγιμπασάρ;Ayıbasar
+fr;Ayibasar;Ayıbasar
+ka;აიბასარი;Ayıbasar
+uk;Айибасар;Ayıbasar
+fa;آی‌بازار;Ayıbasar
+az;Avuş;Havuş
+tt;Һавуш;Havuş
+ce;ХӀавуш;Havuş
+ru;Авуш;Havuş
+hy;Ավուշ;Havuş
+ka;ჰავუში;Havuş
+fa;هاووش;Havuş
+hy;Ավդուռ;Avdur
+hy;Avdurr;Avdur
+ru;Авдур;Avdur
+tt;Авдур;Avdur
+ce;Авдур;Avdur
+be;Сяло Аўдур;Avdur
+fr;Avdour;Avdur
+uk;Авдур;Avdur
+ja;アヴドゥル;Avdur
+fa;آودور;Avdur
+hy;Թաղոտ;Ataqut
+hy;Թաղուտ;Ataqut
+ru;Атагут;Ataqut
+tt;Атагут;Ataqut
+ce;Атагут;Ataqut
+be;Сяло Тахут;Ataqut
+it;Taghut;Ataqut
+fr;Taghout;Ataqut
+uk;Тахут;Ataqut
+ja;アタグト;Ataqut
+fa;تاغوت;Ataqut
+ru;Асханакеран;Askhanakeran
+az;Aşağı Yəyci;Aşağı Yaycı
+ru;Асагы Яйджи;Aşağı Yaycı
+tt;Ашагы Узуноба;Aşağı Uzunoba
+ce;АшагӀи Узуноба;Aşağı Uzunoba
+hy;Ներքին Ուզունոբա;Aşağı Uzunoba
+ka;აშაღი-უზუნობა;Aşağı Uzunoba
+fa;اوزون‌اوبا پایین;Aşağı Uzunoba
+ru;Ашагы Узуноба;Aşağı Uzunoba
+az;Aşağı Remeşin;Qızıl Qışlaq
+en;Kizil Kishlak;Qızıl Qışlaq
+hy;Ներքին Ռամեշին;Qızıl Qışlaq
+hy;Աշաղը Ռամեշին;Qızıl Qışlaq
+hy;Ներքին Արմավաշեն;Qızıl Qışlaq
+ru;Ashagy-Maral’yan;Aşağı Maralyan
+hy;Աշաղը Մարալյան;Aşağı Maralyan
+ru;Ашагы Маральян;Aşağı Maralyan
+tt;Ашагы Маральян;Aşağı Maralyan
+ce;АшагӀи Маралйан;Aşağı Maralyan
+uk;Ашаги Маральян;Aşağı Maralyan
+ka;აშაღი-მარალიანი;Aşağı Maralyan
+ja;アサギ・マラヤン;Aşağı Maralyan
+fa;مارالیان پایین;Aşağı Maralyan
+az;Kərimbəyli;Leninabad
+az;Aşağı Leninabad;Leninabad
+hy;Ալիմահմեդղշլաղ;Aşağı Qışlaq
+ru;Асагы Кыслак;Aşağı Qışlaq
+tt;Ашагы Дашарх;Aşağı Daşarx
+ce;АшагӀи Дашарх;Aşağı Daşarx
+hy;Ներքին Դաշարխ;Aşağı Daşarx
+ka;აშაღი-დაშარხი;Aşağı Daşarx
+fa;داش‌آرخ پایین;Aşağı Daşarx
+ru;Ашагы Дашарх;Aşağı Daşarx
+hy;Բուզղով;Asağı Buzqov
+ru;Асагы Бузков;Asağı Buzqov
+az;Azadkənd;Ashagy Aza
+hy;Ներքին Ազա;Ashagy Aza
+hy;Ազա;Ashagy Aza
+ru;Ашагы Аза;Ashagy Aza
+hy;Ներքին Ագուլիս;Ashagy Aylis
+hy;Տաշտ;Ashagy Aylis
+ru;Ашагы-Айлис;Ashagy Aylis
+tt;Ашагы Айбасанлы;Aşağı Aybasanlı
+ru;Ашагы-Айбасанлы;Aşağı Aybasanlı
+fr;Achaghi Aybasanli;Aşağı Aybasanlı
+ka;აშაღი-აიბასანლი;Aşağı Aybasanlı
+ce;АшагӀи Айбасанли;Aşağı Aybasanlı
+fa;آیباسان‌لی پایین;Aşağı Aybasanlı
+tr;Aybasanlı;Aşağı Aybasanlı
+az;Aşağı Əndəmic;Ashagy Andamich
+hy;Ներքին Հանդամեջ;Ashagy Andamich
+ru;Ашагы Андамыджх;Ashagy Andamich
+az;Arınc;Ayrıns
+hy;Առինջ;Ayrıns
+ru;Айринк;Ayrıns
+az;Ərikli;Erikli
+hy;Arik’li;Erikli
+hy;Արիքլի;Erikli
+hy;Zorakhach’;Erikli
+hy;Զորախաչ;Erikli
+ru;Арикли;Erikli
+tt;Әрикли;Erikli
+ce;Аьрикли;Erikli
+be;Сяло Арахіш;Erikli
+ms;Ərikli;Erikli
+uk;Арахіш;Erikli
+ka;არიქლი;Erikli
+en;Ərikli;Erikli
+fa;آراخیش;Erikli
+fr;Arikli;Erikli
+nl;Ərikli;Erikli
+az;Ardıclı;Arduşlu
+hy;Hardyshly;Arduşlu
+hy;Հարդըշլը;Arduşlu
+hy;Martiros;Arduşlu
+hy;Մարտիրոս;Arduşlu
+ru;Ардушлу;Arduşlu
+ms;Ardıclı;Arduşlu
+ka;არდიჯლი;Arduşlu
+en;Ardıclı;Arduşlu
+fa;آردیج‌لی;Arduşlu
+nl;Ardıclı;Arduşlu
+hy;Արբաթան;Arbatan
+az;Ərəzin;Arazin
+ru;Эрезин;Arazin
+tt;Әрәзин;Arazin
+ceb;Ərəzin;Arazin
+ce;Аьраьзин;Arazin
+sv;Ərəzin;Arazin
+ms;Ərəzin;Arazin
+it;Ərəzin;Arazin
+hy;Արազին;Arazin
+ka;არაზინი;Arazin
+fa;ارسین;Arazin
+nl;Ərəzin;Arazin
+tr;Ərəzin;Arazin
+ru;Arakyul’;Arakül
+hy;Arrak’yal;Arakül
+hy;Arrak’ul;Arakül
+hy;Առաքյալ;Arakül
+ru;Аракюль;Arakül
+hy;Arrak’el;Arakül
+hy;Առաքել;Arakül
+tt;Аракүл;Arakül
+ce;Аракуьл;Arakül
+be;Сяло Аракел;Arakül
+it;Arakel;Arakül
+fr;Arakel;Arakül
+uk;Аракел;Arakül
+ja;ハタイ;Arakül
+fa;آراکل;Arakül
+en;Aravsa;Arafsa
+tt;Әрәфсә;Arafsa
+ce;Аьраьфсаь;Arafsa
+ru;Арафса;Arafsa
+pt;Ərəfsə;Arafsa
+ms;Ərəfsə;Arafsa
+it;Ərəfsə;Arafsa
+hy;Արևէք;Arafsa
+ka;არაფსა;Arafsa
+fa;ارفسه;Arafsa
+nl;Ərəfsə;Arafsa
+tr;Ərəfsə;Arafsa
+hy;Արաֆսա;Arafsa
+az;Ərəbyengicə;Arab Yengidzha
+hy;Արաբ-Ենգիջա;Arab Yengidzha
+ru;Араб Енгыджа;Arab Yengidzha
+hy;Ալըշար;Alışar
+hy;Ալիշար;Alışar
+ru;Алышар;Alışar
+ru;Алхаслы;Alxaslı
+hy;Arvakan;Alxaslı
+hy;Արվական;Alxaslı
+tt;Алхаслы;Alxaslı
+ce;Алхасли;Alxaslı
+be;Сяло Арвакан;Alxaslı
+el;Αλξασλί;Alxaslı
+ku;Alxaslî;Alxaslı
+fr;Alkhasli;Alxaslı
+uk;Арвакан;Alxaslı
+ka;ალხასლი;Alxaslı
+fa;آرواکان;Alxaslı
+az;Əliqulu;Alıqulu
+hy;Alik’ulu;Alıqulu
+hy;Ալիքուլու;Alıqulu
+ru;Аликулу;Alıqulu
+hy;Ghazarapat;Alıqulu
+hy;Ղազարապատ;Alıqulu
+az;Əliquluuşağı;Alikuluushagly
+hy;Alikulihushaghy;Alikuluushagly
+hy;Ալիկուլիհուշաղը;Alikuluushagly
+ru;Аликулиушагы;Alikuluushagly
+hy;Davt’ashen;Alikuluushagly
+hy;Դավտաշեն;Alikuluushagly
+tt;Әлигулуушагы;Alikuluushagly
+de;Əliquluuşağı;Alikuluushagly
+ce;АьлигулуушагӀи;Alikuluushagly
+ms;Əliquluuşağı;Alikuluushagly
+ka;ალიქულუუშაღი;Alikuluushagly
+en;Əliquluuşağı;Alikuluushagly
+fa;علی‌قلی اوشاغی;Alikuluushagly
+fr;Əliquluuşağı;Alikuluushagly
+nl;Əliquluuşağı;Alikuluushagly
+tt;Алыкейхалы;Alıkeyxalı
+ce;Аликейхали;Alıkeyxalı
+ru;Аликейхалы;Alıkeyxalı
+fr;Alikeykhali;Alıkeyxalı
+ka;ალიქეიხალი;Alıkeyxalı
+fa;الیکیکسالی;Alıkeyxalı
+az;Əli Bayramlı;Mollabayramlı
+hy;K’arakhach’;Mollabayramlı
+hy;Քարախաչ;Mollabayramlı
+ru;Али-Байрамлы;Mollabayramlı
+tt;Моллабайрамлы;Mollabayramlı
+ce;Моллабайрамли;Mollabayramlı
+ka;მოლაბაირამლი;Mollabayramlı
+fa;ملا بایراملی;Mollabayramlı
+fr;Mollabayramli;Mollabayramlı
+hy;Ալիբայրամլի;Mollabayramlı
+az;Ələkli;Alyaklu
+hy;Ալաքլի;Alyaklu
+hy;Ալաքլու;Alyaklu
+hy;Ալակլի;Alyaklu
+ru;Аляклу;Alyaklu
+az;Ələkçi;Alakchi
+hy;Alyak’chi;Alakchi
+hy;Ալյաքչի;Alakchi
+ru;Алякчи;Alakchi
+hy;Ալակչի;Alakchi
+az;Ələhi;Alyagi
+tt;Әләһи;Alyagi
+hy;Ողոհի;Alyagi
+ce;АьлаьхӀи;Alyagi
+ms;Ələhi;Alyagi
+ka;ალაჰი;Alyagi
+en;Ələhi;Alyagi
+it;Ələhi;Alyagi
+fa;اله‌هی;Alyagi
+nl;Ələhi;Alyagi
+hy;Ալահի;Alyagi
+hy;Ալահին;Alyagi
+hy;Ալլահի;Alyagi
+hy;Ալյաղու;Alyagi
+ru;Алягы;Alyagi
+hy;Ալագյոզմազրա;Alagyozmezre
+hy;Ալագյոզ;Alagyozmezre
+hy;Ալագյազմազրա;Alagyozmezre
+hy;Մազրա;Alagyozmezre
+az;Məzrə;Alagyozmezre
+ru;Мазра;Alagyozmezre
+en;Akhura;Axura
+tt;Ахура;Axura
+ce;Ахура;Axura
+ru;Ахура;Axura
+hy;Ախուրա;Axura
+ka;ახურა;Axura
+fa;آخوره;Axura
+az;Haqnəzər;Akhnazar
+hy;Ախնազար;Akhnazar
+hy;Hakhnazar;Akhnazar
+hy;Հախնազար;Akhnazar
+ru;Ахназар;Akhnazar
+hy;Ahmedli;Akhmedli
+hy;Ահմեդլի;Akhmedli
+ru;Ахмедли;Akhmedli
+hy;Herik;Akhmedli
+hy;Հերիկ;Akhmedli
+hy;Հակակու;Ağdam
+ru;Акаку;Ağdam
+hy;Hakaku;Ağdam
+hy;Աղրի;Ağrı
+ru;Агры;Ağrı
+hy;Aghjayazy;Ağcayazı
+hy;Աղջայազը;Ağcayazı
+ru;Агджаязы;Ağcayazı
+hy;Արջաձոր;Ağcayazı
+hy;Arjadzor;Ağcayazı
+az;Ağcakənd;Agdzhakend
+hy;Aghjak’end;Agdzhakend
+hy;Աղջաքենդ;Agdzhakend
+ru;Агджакенд;Agdzhakend
+hy;Ani;Agdzhakend
+hy;Անի;Agdzhakend
+hy;Spitakjur;Ağbulaq
+hy;Սպիտակջուր;Ağbulaq
+hy;Spitakajur;Ağbulaq
+hy;Սպիտակաջուր;Ağbulaq
+az;Axaməd;Akhmed
+az;Ağəhməd;Akhmed
+ru;Ахмед;Akhmed
+az;Əbrəqunus;Abrakunis
+az;Əbrəqunis;Abrakunis
+tt;Әбрәгунус;Abrakunis
+ce;Аьбраьгунус;Abrakunis
+ru;Абрагунус;Abrakunis
+ms;Əbrəqunus;Abrakunis
+en;Əbrəqunus;Abrakunis
+it;Əbrəqunus;Abrakunis
+fr;Abragunus;Abrakunis
+hy;Ապրակունիս;Abrakunis
+ka;აბრაგუნისი;Abrakunis
+ja;アブラグヌス;Abrakunis
+fa;آپراکونیس;Abrakunis
+nl;Əbrəqunus;Abrakunis
+tr;Əbrəqunus;Abrakunis
+hy;Աբրակունիս;Abrakunis
+az;Əbılcə;Abilja
+hy;Կումայրի;Abilja
+ru;Абильджа;Abilja
+tt;Әбилҗә;Abilja
+ce;Аьбилаь;Abilja
+ms;Əbılcə;Abilja
+en;Əbılcə;Abilja
+fr;Ebilja;Abilja
+ka;აბილჯა;Abilja
+nl;Əbılcə;Abilja
+az;Kənzə;Kyanza
+hy;Գանձակ;Kyanza
+ru;Кянза;Kyanza
+hy;Mokhrenes;Susanlıq
+hy;Մոխրենես;Susanlıq
+ru;Сусанлык;Susanlıq
+tt;Сусанлыг;Susanlıq
+ce;Сусанлиг;Susanlıq
+be;Сяло Махрэнес;Susanlıq
+it;Mokhrenes;Susanlıq
+fr;Mokhrenes;Susanlıq
+uk;Мохренес;Susanlıq
+ja;スサンルグ;Susanlıq
+fa;موخرنس;Susanlıq
+ru;Коква-Колел;Kokva-Kolel
+az;Kurdlər;Kabaglyar
+ru;Кюрдляр;Kabaglyar
+tt;Һорадиз;Horadiz
+uk;Горадіз;Horadiz
+fa;هورادیز;Horadiz
+zh;戈拉季兹;Horadiz
+ru;Джхапанд;Chapand
+hy;T’aght’umas;Dağ Tumas
+hy;Թաղթումաս;Dağ Tumas
+hy;T’ovmasar;Dağ Tumas
+hy;Թովմասար;Dağ Tumas
+tt;Даг Тумас;Dağ Tumas
+de;Dağtumas;Dağ Tumas
+ce;ДагӀ Тумас;Dağ Tumas
+ru;Дагтумас;Dağ Tumas
+fr;Dagh Toumas;Dağ Tumas
+ka;დაღ-თუმასი;Dağ Tumas
+fa;داغ توماس;Dağ Tumas
+hy;K’arotan;Kavdadıq
+hy;Քարոտան;Kavdadıq
+ru;Кевдадых;Kavdadıq
+tt;Кавдадыг;Kavdadıq
+ce;Кавдадиг;Kavdadıq
+be;Сяло Каратан;Kavdadıq
+el;Καβνταντίκ;Kavdadıq
+fr;Kavdadig;Kavdadıq
+uk;Каротан;Kavdadıq
+ka;ქავდადიხი;Kavdadıq
+fa;گاودوآب‌ده;Kavdadıq
+hy;Խաչափարախ;Khachaparakh
+ru;Хачапарах;Khachaparakh
+hy;Ներքին Անզիր;Aşağı Anzır
+ru;Асагы Анзыр;Aşağı Anzır
+hy;Միջին Անզիր;Orta Anzır
+ru;Орта Анзыр;Orta Anzır
+hy;Բոյահմեդ;Bekahmet
+ru;Бекахмет;Bekahmet
+az;Gülşənabad;Gyul'shanabad
+tt;Гүлшәнабад;Gyul'shanabad
+ce;Гуьлшаьнабад;Gyul'shanabad
+ms;Gülşənabad;Gyul'shanabad
+en;Gülşənabad;Gyul'shanabad
+it;Gülşənabad;Gyul'shanabad
+hy;Գյուլշանապատ;Gyul'shanabad
+ka;გიულშენაბადი;Gyul'shanabad
+fa;گلشن‌آباد، نخجوان;Gyul'shanabad
+nl;Gülşənabad;Gyul'shanabad
+az;Əzızbəyov;Daylaqlı
+hy;Դալարինք;Daylaqlı
+hy;Դայլախլու;Daylaqlı
+ru;Дайлаклы;Daylaqlı
+az;Xətai;Shangirey
+ru;Шангырей;Shangirey
+ru;Сахалы-Кышлаг;Sakhali-Kishlag
+ru;Карвансарай;Karvansaray
+ka;ქესალარი;Kesalar
+fa;کسالار;Kesalar
+ru;Кесалар;Kesalar
+ru;Цицернаванк;Tsitsernavank
+hy;Hardushlu;Ardıclı
+hy;Հարդուշլու;Ardıclı
+ru;Ардыджлы;Ardıclı
+ru;Дашхартан;Dashkhartan
+ru;Ныжнее Ах-Керпы;Nizhneye Akh-Kerpi
+az;Ərdəşəvi;Ardamova
+hy;Hardajevi;Ardamova
+hy;Հարդաջեվի;Ardamova
+hy;Artashen;Ardamova
+hy;Արտաշեն;Ardamova
+hy;Artashavi;Ardamova
+hy;Արտաշավի;Ardamova
+ru;Ардашеви;Ardamova
+hy;Khach’ynyal;Xaçınyalı
+hy;Խաչընյալ;Xaçınyalı
+ru;Хачинялы;Xaçınyalı
+hy;Khach’in Tap’;Xaçınyalı
+hy;Խաչին Տափ;Xaçınyalı
+tt;Хачыньялы;Xaçınyalı
+ce;Хачинйали;Xaçınyalı
+be;Сяло Хачын Тап;Xaçınyalı
+fr;Khatchinyali;Xaçınyalı
+uk;Хачін Тап;Xaçınyalı
+ka;ხაჩინიალი;Xaçınyalı
+fa;خاچینتاپ;Xaçınyalı
+ka;ჩალაღან-გიუნეი;Chalagan-Gyuney
+ja;チャラガン＝ギュネイ;Chalagan-Gyuney
+fa;چالاگان گونی;Chalagan-Gyuney
+ru;Джхалаган-Гюней;Chalagan-Gyuney
+hy;Dambulagh;Dambulaq
+hy;Դամբուլաղ;Dambulaq
+hy;Դամբուլակ;Dambulaq
+ru;Дамбулак;Dambulaq
+tt;Дамбулаг;Dambulaq
+ce;Дамбулаг;Dambulaq
+be;Дамбулак;Dambulaq
+ka;დამბულაგი;Dambulaq
+fa;دام‌بلاغ;Dambulaq
+fr;Damboulag;Dambulaq
+ru;Корчубулак;Korcabulaq
+hy;Aghbradzor;Korcabulaq
+hy;Աղբրաձոր;Korcabulaq
+tt;Корҗабулаг;Korcabulaq
+ce;Корджабулаг;Korcabulaq
+be;Сяло Ахбрадзор;Korcabulaq
+fr;Kordjaboulag;Korcabulaq
+uk;Ахбрадзор;Korcabulaq
+ka;ქორჯაბულაქი;Korcabulaq
+fa;آغبرادزور;Korcabulaq
+ru;Калафалык;Kalatalıq
+hy;Կորեկնեկ;Kalatalıq
+ce;Калаталиг;Kalatalıq
+ka;ქალათალიყი;Kalatalıq
+fa;کالاتالیق;Kalatalıq
+ru;Агзыбыр;Agzibir
+hy;T’aght’abashy;Taxtabaşı
+hy;Թաղտաբաղը;Taxtabaşı
+ru;Тахтабашы;Taxtabaşı
+hy;Dashtaglukh;Taxtabaşı
+hy;Դաշտագլուխ;Taxtabaşı
+tt;Тахтабашы;Taxtabaşı
+ce;Тахтабаши;Taxtabaşı
+ka;თახთაბაში;Taxtabaşı
+fa;تخته‌باشی;Taxtabaşı
+fr;Takhtabachi;Taxtabaşı
+zh;塔赫塔巴什;Taxtabaşı
+az;Səfixanlar;Safykhanlar
+ru;Сафыханлар;Safykhanlar
+az;Mahrızlı;Mahruzlu
+ru;Мехризли;Mahruzlu
+ru;Юксары Аралык;Yuxarı Aralıq
+az;Gümüşlü;Gyumyushlu
+ru;Гюмюшлу;Gyumyushlu
+az;Dərəkənd;Derekend
+hy;Դարաքենդ;Derekend
+az;Yenikənd;Kiçikoba
+ru;Кыджикоба;Kiçikoba
+az;Ağdərə;Agdere
+be;Badamlısu;Badamlı
+hy;Բադամլիսու;Badamlı
+ceb;Badamlısu;Badamlı
+sv;Badamlısu;Badamlı
+ms;Badamlısu;Badamlı
+en;Badamlısu;Badamlı
+fa;بادام‌لی‌سو;Badamlı
+nl;Badamlısu;Badamlı
+ru;Бадамлы;Badamlı
+hy;Էյվազլը;Eyvazlı
+ru;Эйвазлы;Eyvazlı
+tt;Эйвазлы;Eyvazlı
+ce;Ейвазли;Eyvazlı
+ka;ეივაზლი;Eyvazlı
+fa;عیوض‌لی;Eyvazlı
+fr;Eyvazli;Eyvazlı
+hy;Yukhary-Jibikli;Yuxarı Cibikli
+hy;Յուխարը-Ջիբիկլը;Yuxarı Cibikli
+ru;Юхары-Джибикли;Yuxarı Cibikli
+az;Ağtəpə;Agtepe
+hy;Aghtep’e;Agtepe
+hy;Աղտեփե;Agtepe
+ru;Агтепе;Agtepe
+tt;Агтәпә;Agtepe
+ce;АгӀтаьпаь;Agtepe
+uz;Ağtəpə;Agtepe
+ms;Ağtəpə;Agtepe
+ka;აღთაფა;Agtepe
+en;Ağtəpə;Agtepe
+fa;آق‌تپه;Agtepe
+nl;Ağtəpə;Agtepe
+az;Fuqanlı;Fuğanlı
+hy;Ֆուգանլը;Fuğanlı
+ru;Фуганлы;Fuğanlı
+tt;Фуганлы;Fuğanlı
+ce;ФугӀанли;Fuğanlı
+ms;Fuqanlı;Fuğanlı
+en;Fuqanlı;Fuğanlı
+fa;فغان‌لی;Fuğanlı
+nl;Fuqanlı;Fuğanlı
+hy;Khandzadzor;Agdzhakend
+hy;Խանճաճոր;Agdzhakend
+tt;Агҗакәнд;Agdzhakend
+ce;АгӀджакаьнд;Agdzhakend
+be;Сяло Хандзадзор;Agdzhakend
+uz;Ağcakənd;Agdzhakend
+ms;Ağcakənd;Agdzhakend
+en;Ağcakənd;Agdzhakend
+it;Khandzadzor;Agdzhakend
+fr;Khandzadzor;Agdzhakend
+uk;Агджакенд;Agdzhakend
+ja;アグジャケンド;Agdzhakend
+fa;خاندزازور;Agdzhakend
+nl;Ağcakənd;Agdzhakend
+az;Narişlar;Narışlar
+hy;Նարըշլար;Narışlar
+hy;Sis;Narışlar
+hy;Սիս;Narışlar
+ru;Нарышлар;Narışlar
+tt;Нарышлар;Narışlar
+ce;Наришлар;Narışlar
+be;Нарышлар;Narışlar
+ms;Narişlar;Narışlar
+ka;ნარიშლარი;Narışlar
+en;Narişlar;Narışlar
+fa;ناریش‌لار;Narışlar
+fr;Narichlar;Narışlar
+nl;Narişlar;Narışlar
+hy;Ալըջան;Alıcan
+hy;Alyjan;Alıcan
+ru;Алыджан;Alıcan
+hy;Ալիջան;Alıcan
+az;Meşəli;Lesnoi
+ru;Лесной;Lesnoi
+hy;Zarralyur;Alırzalar
+hy;Զառալյուր;Alırzalar
+tt;Алырзалар;Alırzalar
+ce;Алирзалар;Alırzalar
+ru;Алырзалар;Alırzalar
+ka;ალირზალარი;Alırzalar
+fa;الیرزالار;Alırzalar
+fr;Alirzalar;Alırzalar
+ru;Азару;Azaru
+tt;Авьяруд;Avyarud
+ce;Авйаруб;Avyarud
+ru;Авяруд;Avyarud
+ka;ავიარუდი;Avyarud
+fa;ایوه‌رود;Avyarud
+az;Spitakşen;Spitakshen
+hy;Spitakashen;Spitakshen
+ru;Спитакшен;Spitakshen
+hy;Khalfashi;İmamqulular
+hy;Խալֆաշի;İmamqulular
+tt;Имамгулулар;İmamqulular
+ce;Имамгулулар;İmamqulular
+ka;იმამგულულარი;İmamqulular
+fa;امام‌قلی‌لار;İmamqulular
+fr;Imamgouloular;İmamqulular
+ru;Имамгулулар;İmamqulular
+hy;Allahk’uchular;Allahqulular
+ru;Аллахкулулар;Allahqulular
+tt;Аллаһгулулар;Allahqulular
+ce;АллахӀгулулар;Allahqulular
+ka;ალიაქულულარი;Allahqulular
+fa;الله‌کلولار;Allahqulular
+fr;Allahgouloular;Allahqulular
+hy;Ալահկուլլար;Allahqulular
+en;Yamkhana;Yamxana
+fa;یام‌خانه، نخجوان;Yamxana
+ur;یامکھانا;Yamxana
+nl;Yamkhana;Yamxana
+hy;Եմխանա;Yamxana
+ru;Ямксана;Yamxana
+hy;Nerk’in Khndzoresk;Nerkin Khndzoresk
+hy;Ներքին Խնձորեսկ;Nerkin Khndzoresk
+ru;Неркин Хндзореск;Nerkin Khndzoresk
+az;Təkəqaya;Tekekayasy
+az;Təkəçaya;Tekekayasy
+hy;T’ek’eak;Tekekayasy
+hy;Թեքեակ;Tekekayasy
+ru;Текякая;Tekekayasy
+ru;Зульфугарлы;Zülfüqarlı
+hy;Zuar;Zülfüqarlı
+hy;Զուար;Zülfüqarlı
+en;Zöhrabkǝnd;Zokhrabkend
+ru;Зохрабкенд;Zokhrabkend
+tt;Зөһрабкәнд;Zokhrabkend
+ce;ЗоьхӀрабкаьнд;Zokhrabkend
+ms;Zöhrabkənd;Zokhrabkend
+ka;ზოჰრაბქენდი;Zokhrabkend
+az;Zöhrabkənd;Zokhrabkend
+fa;زهراب‌کند;Zokhrabkend
+fr;Zöhrabkənd;Zokhrabkend
+nl;Zöhrabkənd;Zokhrabkend
+en;Zirǝ;Zyrya
+ru;Зиря;Zyrya
+ce;Зираь;Zyrya
+et;Zirə;Zyrya
+ar;زيرا;Zyrya
+hy;Զիրա;Zyrya
+uk;Зіра;Zyrya
+az;Zirə;Zyrya
+fa;زیره;Zyrya
+nl;Zirə;Zyrya
+en;Jiloy;Çilov
+ru;Жилой;Çilov
+ru;Зейд;Zeyid
+az;Zardaxaç;Çopurlu
+hy;Zardakhach;Çopurlu
+hy;Զարդախաչ;Çopurlu
+ru;Зардахач;Çopurlu
+tt;Зардахач;Çopurlu
+ceb;Zardaxaç;Çopurlu
+ce;Зардахач;Çopurlu
+sv;Zardaxaç;Çopurlu
+be;Сяло Зардахач;Çopurlu
+ms;Zardaxaç;Çopurlu
+en;Zardaxaç;Çopurlu
+it;Zardakhach;Çopurlu
+fr;Zardakhach;Çopurlu
+uk;Зардахач;Çopurlu
+ka;ზარდახაჩი;Çopurlu
+ja;ザルダハチュ;Çopurlu
+fa;زرده‌خاج;Çopurlu
+nl;Zardaxaç;Çopurlu
+hy;Zeylik’;Zaglik
+hy;Զեյլիք;Zaglik
+ru;Зейлик;Zaglik
+be;Сяло Заглік;Zaglik
+rw;Zəylik;Zaglik
+ny;Zəylik;Zaglik
+sc;Zəylik;Zaglik
+uk;Заґлік;Zaglik
+sm;Zəylik;Zaglik
+kg;Zəylik;Zaglik
+ki;Zəylik;Zaglik
+en;Zəylik;Zaglik
+co;Zəylik;Zaglik
+ja;ゼイリク;Zaglik
+ha;Zəylik;Zaglik
+rm;Zəylik;Zaglik
+fa;زاگلیک;Zaglik
+ru;Яншак;Yanşaq
+hy;Hanshak;Yanşaq
+hy;Հանշակ;Yanşaq
+hy;Verin Horrat’agh;Yuxarı Oratağ
+hy;Վերին Հոռաթաղ;Yuxarı Oratağ
+az;Verin Oragağ;Yuxarı Oratağ
+ru;Верин-Оратаг;Yuxarı Oratağ
+tt;Юхары Оратаг;Yuxarı Oratağ
+ce;Йухари ОратагӀ;Yuxarı Oratağ
+be;Сяло Верын Аратаг;Yuxarı Oratağ
+it;Verin Horatagh;Yuxarı Oratağ
+fr;Verin Horatagh;Yuxarı Oratağ
+uk;Верін Оратаг;Yuxarı Oratağ
+ka;იუხარი-ორათაღი;Yuxarı Oratağ
+ja;ユハル・オラタグ;Yuxarı Oratağ
+fa;ورین هوراتاغ;Yuxarı Oratağ
+ur;یکشاری وراتگ;Yuxarı Oratağ
+az;Vərdağ;Verdekh
+ru;Вердех;Verdekh
+ru;Ванклу;Vank
+az;Vəngli;Vank
+az;Vənkli;Vank
+tt;Вәнгли;Vank
+ceb;Vanklu;Vank
+be;Сяло Ванк;Vank
+zh-Hans;万克村;Vank
+zh-Hant;萬克村;Vank
+uk;Ванк;Vank
+ka;ვანგლი;Vank
+ce;Ваьнгли;Vank
+sv;Vanklu;Vank
+zh;凡克;Vank
+ar;فانك، كلبجر;Vank
+ja;ヴァングリ;Vank
+fa;ونک، کلبجر;Vank
+tr;Vengli;Vank
+ru;Вагуас;Qozlu
+hy;Վաղուհաս;Qozlu
+hy;Vaghuhas;Qozlu
+az;Vaquas;Qozlu
+tt;Гозлу;Qozlu
+ce;Гозлу;Qozlu
+sv;Vaghuhas;Qozlu
+be;Сяло Вахуас;Qozlu
+el;Βάγκουας;Qozlu
+it;Vaghuhas;Qozlu
+fr;Vaghouas;Qozlu
+zh;瓦格胡哈斯;Qozlu
+uk;Вахуас;Qozlu
+ka;ყოზლუ;Qozlu
+ja;ゴズル;Qozlu
+fa;واغوهاس;Qozlu
+ca;Vaghuhas;Qozlu
+hy;Umut’lu;Umudlu
+hy;ՈՒմութլու;Umudlu
+hy;Aknaberd;Umudlu
+hy;Ակնաբերդ;Umudlu
+tt;Умудлу;Umudlu
+be;Сяло Акнаберд;Umudlu
+uk;Акнаберд;Umudlu
+ce;Умудлу;Umudlu
+ja;ウムドル;Umudlu
+fa;اومودلو تارتار;Umudlu
+ru;Тюркян;Türkan
+ce;Туьркан;Türkan
+el;Τιουρκάν;Türkan
+ar;توركان;Türkan
+hy;Թուրքան;Türkan
+uk;Тюркан;Türkan
+fa;ترکان;Türkan
+ru;Тудар;Tudar
+az;Bazarkənd;Tsmakaog
+hy;Ծմակահող;Tsmakaog
+hy;Tsmakahogh;Tsmakaog
+az;Tsmaqahoğ;Tsmakaog
+ru;Цмакаог;Tsmakaog
+az;Tonaşen;Tonashen
+hy;Տոնաշեն;Tonashen
+az;Təpəkənd;Tonashen
+tt;Тәпәкәнд;Tonashen
+be;Сяло Танашэн;Tonashen
+rw;Tonaşen;Tonashen
+ny;Tonaşen;Tonashen
+fr;Tonachen;Tonashen
+sc;Tonaşen;Tonashen
+uk;Тонашен;Tonashen
+sm;Tonaşen;Tonashen
+kg;Tonaşen;Tonashen
+ki;Tonaşen;Tonashen
+ce;Таьпаькаьнд;Tonashen
+ms;Tonaşen;Tonashen
+en;Təpəkənd;Tonashen
+it;Tonaşen;Tonashen
+co;Tonaşen;Tonashen
+ja;トナシェン;Tonashen
+ha;Tonaşen;Tonashen
+rm;Tonaşen;Tonashen
+fa;دوناشن;Tonashen
+nl;Tonaşen;Tonashen
+tr;Tepekend;Tonashen
+ru;Тепекенд;Tonashen
+ka;თერვახარვა;Tervakharva
+fa;ترواخاروا;Tervakharva
+ru;Тервахарва;Tervakharva
+hy;Damghaly;Damğalı
+hy;Դամղալը;Damğalı
+hy;Թբլղու;Damğalı
+ru;Дамгалы;Damğalı
+tt;Дамгалы;Damğalı
+ce;ДамгӀали;Damğalı
+be;Сяло Тблду;Damğalı
+it;Tblghu;Damğalı
+ka;დამღალი;Damğalı
+uk;Тблду;Damğalı
+fa;دامغالی;Damğalı
+ru;Сюхюб;Söhüb
+ru;Сусузлук;Susuzluq
+en;Şüvǝlǝn;Shuvelyany
+ru;Шувелян;Shuvelyany
+az;Şüvəlan;Shuvelyany
+en;Şuraabad;Shorabad
+ru;Шураабад;Shorabad
+fa;شورا آباد;Shorabad
+az;Şorabad;Shorabad
+ru;Шалгях;Shalgyakh
+hy;Շահմասուր;Şahmansurlu
+en;Shahmasur;Şahmansurlu
+az;Şahmasur;Şahmansurlu
+ru;Шахмасур;Şahmansurlu
+ru;Шахкая;Sahqaya
+ru;Zimov’ye Shikhan;Şixandağ
+ru;Шаган;Şağan
+ru;Сары-Кая;Sary-Kaya
+en;Sǝngǝçal;Sanqaçal
+ru;Сангачалы;Sanqaçal
+az;Sangaçal;Sanqaçal
+ce;Саьнгаьчал;Sanqaçal
+el;Σανκατσάλ;Sanqaçal
+hy;Սանգաչալ;Sanqaçal
+fa;سنگ‌چال، باکو;Sanqaçal
+tr;Sangaçal;Sanqaçal
+ru;Саджхярны;Sachyarni
+ru;Рук;Rük
+tt;Рәнгдар;Rengidar
+ce;Раьнгдар;Rengidar
+ms;Rəngdar;Rengidar
+en;Rəngdar;Rengidar
+it;Rəngdar;Rengidar
+ka;რანგდარი;Rengidar
+az;Rəngdar;Rengidar
+fa;رنگ‌دار;Rengidar
+nl;Rəngdar;Rengidar
+tr;Rəngdar;Rengidar
+ru;Рангдар;Rengidar
+ru;Гобустан;Qobustan
+az;Duvannı;Qobustan
+ce;Кобустан;Qobustan
+zh;哥布斯坦;Qobustan
+ja;ゴブスタン;Qobustan
+fa;قبوستان، باکو;Qobustan
+tr;Kobustan;Qobustan
+en;Dǝnizkǝnarı;Sahil
+ru;Приморск;Sahil
+ce;СахӀил;Sahil
+fa;ساحل;Sahil
+ur;ساحل، آذربائیجان;Sahil
+az;Dəvədaşı;Pogosagomer
+hy;Պողոսագոմեր;Pogosagomer
+hy;Poghosagomer;Pogosagomer
+ru;Погосагомер;Pogosagomer
+tt;Дәвәдашы;Pogosagomer
+ce;Даьваьдаши;Pogosagomer
+be;Сяло Пагасагамер;Pogosagomer
+ms;Dəvədaşı;Pogosagomer
+en;Dəvədaşı;Pogosagomer
+it;Poghosagomer;Pogosagomer
+fr;Poghosagomer;Pogosagomer
+uk;Погосаґомер;Pogosagomer
+ka;დევედაში;Pogosagomer
+ja;ダヴァダシュ;Pogosagomer
+fa;پوغوساگومر;Pogosagomer
+nl;Dəvədaşı;Pogosagomer
+hy;P’ap’ravend;Papravend
+az;Papravənd;Papravend
+hy;Փափրավենդ;Papravend
+hy;Nor Kamiravan;Papravend
+hy;Նոր Կարմիրավան;Papravend
+ru;Паправенд;Papravend
+az;Otakhlar;Otaqlı
+ru;Отахлар;Otaqlı
+tt;Оруҗлу;Oruclu
+ce;Оруджлу;Oruclu
+fr;Orujlu;Oruclu
+zh;奥鲁季卢;Oruclu
+hy;Որոջք;Oruclu
+ka;ორუჯლუ;Oruclu
+fa;اروچ‌لو;Oruclu
+ru;Новая Бына;Novaya Bina
+hy;Nerk’in Horrat’agh;Aşağı Oratağ
+hy;Ներքին Հոռաթաղ;Aşağı Oratağ
+az;Nerkin Oratağ;Aşağı Oratağ
+ru;Неркин-Оратаг;Aşağı Oratağ
+tt;Ашагы Оратаг;Aşağı Oratağ
+ce;АшагӀи ОратагӀ;Aşağı Oratağ
+be;Сяло Неркін-Аратаг;Aşağı Oratağ
+it;Nerkin Horatagh;Aşağı Oratağ
+fr;Nerkin Horatagh;Aşağı Oratağ
+uk;Неркін-Оратаг;Aşağı Oratağ
+ja;アシャグ・オラタグ;Aşağı Oratağ
+fa;نرکین هوراتاغ;Aşağı Oratağ
+ru;Нефтяные Камни;Neft Daşları
+hy;Նարեշտար;Narınclar
+hy;Nareshtar;Narınclar
+az;Mishni;Narınclar
+az;Nareştar;Narınclar
+ru;Нарештар;Narınclar
+tt;Нарынҗлар;Narınclar
+ce;Наринджлар;Narınclar
+be;Сяло Нарэштар;Narınclar
+uk;Нарештар;Narınclar
+ka;ნარინჯლარი;Narınclar
+ja;ナルンジラル;Narınclar
+fa;نارنج‌لر;Narınclar
+az;Nəcəfalılar;Nadzhafalylar
+ru;Наджафалылар;Nadzhafalylar
+az;Nəcəfalı;Nadzhafalylar
+hy;Nor Getashen;Nadirxanlı
+hy;Նոր Գետաշեն;Nadirxanlı
+ru;Надирханлы;Nadirxanlı
+tt;Надирханлы;Nadirxanlı
+ce;Надирханли;Nadirxanlı
+be;Сяло Нор Геташэн;Nadirxanlı
+uk;Нор Ґеташен;Nadirxanlı
+ka;ნადირხანლი;Nadirxanlı
+fa;نور گتاشن;Nadirxanlı
+ru;Мучу;Mucu
+hy;Mokhrat’agh;Mokhratag
+en;Kiçik Qarabǝy;Mokhratag
+ru;Мохратаг;Mokhratag
+az;Kiçik Qarabəy;Mokhratag
+hy;Մոխրաթաղ;Mokhratag
+az;Möhrətağ;Mokhratag
+az;Möhrətac;Mokhratag
+tt;Кичик Гарабәй;Mokhratag
+be;Сяло Махратаг;Mokhratag
+rw;Mokhratagh;Mokhratag
+ny;Mokhratagh;Mokhratag
+fr;Mokhratagh;Mokhratag
+sc;Mokhratagh;Mokhratag
+uk;Мохратаг;Mokhratag
+sm;Mokhratagh;Mokhratag
+kg;Mokhratagh;Mokhratag
+ki;Mokhratagh;Mokhratag
+kl;Mokhratagh;Mokhratag
+ce;Кичик Гарабаьй;Mokhratag
+uz;Kiçik Qarabəy;Mokhratag
+ms;Kiçik Qarabəy;Mokhratag
+el;Κιτσίκ Καραμπέι;Mokhratag
+it;Mokhratagh;Mokhratag
+co;Mokhratagh;Mokhratag
+ja;キチク・ガラベイ;Mokhratag
+ha;Mokhratagh;Mokhratag
+rm;Mokhratagh;Mokhratag
+fa;موخراتاغ;Mokhratag
+nl;Kiçik Qarabəy;Mokhratag
+tr;Küçük Karabey;Mokhratag
+ru;Мышны;Mishni
+az;Mishni;Zağalar
+az;Zəyələr;Zağalar
+ru;Агджакенд;Zağalar
+ru;Mingrel’sk;Miqrelalay
+hy;K’mk’adzor;Miqrelalay
+hy;Քմքաձոր;Miqrelalay
+ru;Мингрельск;Miqrelalay
+ce;Миаджик;Minadzhykh
+uz;Miadzhik;Minadzhykh
+ms;Miadzhik;Minadzhykh
+ka;მიაჯიქი;Minadzhykh
+en;Miadzhik;Minadzhykh
+it;Miadzhik;Minadzhykh
+fa;میاجیک;Minadzhykh
+nl;Miadzhik;Minadzhykh
+tr;Miadzhik;Minadzhykh
+ru;Миаджик;Minadzhykh
+az;Ulu Qarabəy;Metsshen
+hy;Մեծշեն;Metsshen
+ru;Мецшен;Metsshen
+az;Mərcimək;Merdzhimek
+hy;Merjimek;Merdzhimek
+hy;Մերջիմեկ;Merdzhimek
+ru;Мерджимек;Merdzhimek
+tt;Мәрҗимәк;Merdzhimek
+ce;Маьрджимаьк;Merdzhimek
+ms;Mərcimək;Merdzhimek
+ka;მარჯიმაქი;Merdzhimek
+en;Mərcimək;Merdzhimek
+fa;مرجمک;Merdzhimek
+fr;Marjimak;Merdzhimek
+nl;Mərcimək;Merdzhimek
+hy;Մեհմանա;Mehmana
+ru;Мехмана;Mehmana
+tt;Меһмана;Mehmana
+ce;МехӀмана;Mehmana
+be;Сяло Мехмана;Mehmana
+el;Μεχμανά;Mehmana
+uk;Мєхмана;Mehmana
+ka;მეჰმანა;Mehmana
+ja;メフマナ;Mehmana
+fa;مهمانه;Mehmana
+en;Mǝrdǝkan;Mardakan
+ru;Мардакян;Mardakan
+ru;Магавуз;Çardaqlı
+hy;Maghavus;Çardaqlı
+hy;Մաղավուս;Çardaqlı
+hy;Մաղավուզ;Çardaqlı
+az;Lüləsaz;Lyulyasaz
+hy;Հակոբ Կամարի;Lyulyasaz
+hy;Hakob Kamari;Lyulyasaz
+az;Akop-Kamari;Lyulyasaz
+hy;Varnkat’agh;Lyulyasaz
+hy;Վարնկաթաղ;Lyulyasaz
+ru;Акоп-Камари;Lyulyasaz
+hy;Levonigyugh;Lev
+hy;Լեւոնիգյուղ;Lev
+ru;Лев;Lev
+tt;Лев;Lev
+ce;Лев;Lev
+el;Λεβ;Lev
+ka;ლევი;Lev
+fa;لو;Lev
+az;Quşyuvası;Kushyuvasy
+ru;Кушювасы;Kushyuvasy
+az;Nəbilər;Kushyuvasy
+az;Künövşə;Kunshady
+az;Günəvşa;Kunshady
+ru;Куншады;Kunshady
+ce;Гошагишлаг;Qoşaqışlaq
+fa;قوشاقشلاق;Qoşaqışlaq
+ru;Гошагышлаг;Qoşaqışlaq
+ru;Колатаг;Kolatağ
+hy;Kolat’agh;Kolatağ
+hy;Կոլաթաղ;Kolatağ
+hy;Քոլատակ;Kolatağ
+tt;Колатаг;Kolatağ
+ce;КолатагӀ;Kolatağ
+be;Сяло Калатак;Kolatağ
+it;Kolatak;Kolatağ
+fr;Kolatak;Kolatağ
+zh;科拉塔格;Kolatağ
+uk;Колатак;Kolatağ
+ka;ქოლათაღი;Kolatağ
+ja;コラタグ;Kolatağ
+fa;کولاتاک;Kolatağ
+ru;Кочогот;Yayıcı
+hy;Կոչողոտ;Yayıcı
+hy;Kochoghot;Yayıcı
+hy;Կոճողոտ;Yayıcı
+hy;Koch’oghot;Yayıcı
+tt;Яеҗы;Yayıcı
+ce;Йайиджи;Yayıcı
+be;Сяло Качахот;Yayıcı
+it;Kochoghot;Yayıcı
+fr;Kochoghot;Yayıcı
+uk;Кочохот;Yayıcı
+ka;იაიჯი;Yayıcı
+ja;ヤユジュ;Yayıcı
+fa;خوچوغوت;Yayıcı
+ur;ییکی;Yayıcı
+hy;Yeghts’ategh;Kiliselli
+hy;Եղցատեղ;Kiliselli
+ru;Кильсяли;Kiliselli
+az;Günəşli;Kiliselli
+hy;Kich’an;Ballıqaya
+hy;Կիչան;Ballıqaya
+ru;Кичан;Ballıqaya
+be;Сяло Кічан;Ballıqaya
+rw;Kiçan;Ballıqaya
+ny;Kiçan;Ballıqaya
+fr;Kichan;Ballıqaya
+sc;Kiçan;Ballıqaya
+uk;Кічан;Ballıqaya
+sm;Kiçan;Ballıqaya
+kg;Kiçan;Ballıqaya
+ki;Kiçan;Ballıqaya
+kl;Kiçan;Ballıqaya
+uz;Kichan;Ballıqaya
+ms;Kiçan;Ballıqaya
+it;Kiçan;Ballıqaya
+co;Kiçan;Ballıqaya
+ja;バッルガヤ;Ballıqaya
+ha;Kiçan;Ballıqaya
+rm;Kiçan;Ballıqaya
+fa;کیچان;Ballıqaya
+nl;Kiçan;Ballıqaya
+ru;Хыналык;Xınalıq
+az;Vəng;Khotovang
+hy;Vank’;Khotovang
+hy;Վանք;Khotovang
+hy;Dadivank’;Khotovang
+hy;Դադիվանք;Khotovang
+ru;Ванк;Khotovang
+en;Dadivank;Khotovang
+ka;ხარქო;Kharko
+fa;خارکوه;Kharko
+ru;Харко;Kharko
+ka;ხალთანდეხნია;Khaltandekhnya
+el;Χαλταντέχνγια;Khaltandekhnya
+fa;غلتان‌دهنه;Khaltandekhnya
+ru;Халтандехня;Khaltandekhnya
+hy;K’echilikaya;Keçiliqaya
+hy;Քեչիլիդայա;Keçiliqaya
+hy;Yeghjerunik;Keçiliqaya
+hy;Եղջերունիկ;Keçiliqaya
+ru;Кечиликая;Keçiliqaya
+tt;Кечилигая;Keçiliqaya
+ce;Каьчилигайа;Keçiliqaya
+ka;ქეჩილიგაია;Keçiliqaya
+fa;کچلی‌قایه;Keçiliqaya
+fr;Ketchiligaya;Keçiliqaya
+az;Qasımkənd;Kasymkend
+az;Qasapet;Çıraqlı
+hy;Կուսապետ;Çıraqlı
+hy;Kusapat;Çıraqlı
+hy;Կուսապատ;Çıraqlı
+ru;Касапет;Çıraqlı
+ru;Кархун;Qarxun
+tt;Гархун;Qarxun
+ce;Гархун;Qarxun
+ka;ყარხუნი;Qarxun
+fa;قارخون;Qarxun
+hy;Gharap’irimli;Qarapirimli
+hy;Ղարափիրիմլի;Qarapirimli
+ru;Карапиримли;Qarapirimli
+ru;Караджюзлю;Qaracüzlü
+az;Qaraçanlı;Mozqaraçanlı
+ru;Караджанлы;Mozqaraçanlı
+ru;Карадаг;Garadagh
+az;Qaradağ;Garadagh
+ru;Камышлы;Qamışlı
+hy;Yeghegnut;Qamışlı
+hy;Եղեգնուտ;Qamışlı
+ru;Калайхудат;Qalay Xudat
+hy;Gaylat’agh;Qalayçılar
+hy;Գայլաթաղ;Qalayçılar
+ru;Галайчылар;Qalayçılar
+ru;Кала;Qala
+ce;Кала;Qala
+uk;Кала;Qala
+el;Κάλα;Qala
+fa;قلعه، باکو;Qala
+zh;卡拉;Qala
+hy;Imeret’-Herevend;Imeret-Gerevend
+az;İmarət Qərvənd;Imeret-Gerevend
+hy;Իմերեթ-Հերեվենդ;Imeret-Gerevend
+hy;K’arvand;Imeret-Gerevend
+hy;Քարվանդ;Imeret-Gerevend
+az;Kəmərli;Imeret-Gerevend
+ru;Имерет-Геревенд;Imeret-Gerevend
+az;Kərəmli;Imeret-Gerevend
+en;Gürgan;Gyurgyan
+ru;Гюргян;Gyurgyan
+az;Gürgən;Gyurgyan
+ru;Гюльятаг;Gülyataq
+hy;Vardadzor;Gülyataq
+hy;Վարդաձոր;Gülyataq
+tt;Гүльятаг;Gülyataq
+be;Сяло Вардадзор;Gülyataq
+rw;Vardadzor;Gülyataq
+ny;Vardadzor;Gülyataq
+fr;Vardadzor;Gülyataq
+sc;Vardadzor;Gülyataq
+uk;Вардадзор;Gülyataq
+sm;Vardadzor;Gülyataq
+kg;Vardadzor;Gülyataq
+ki;Vardadzor;Gülyataq
+ce;Гуьлйатаг;Gülyataq
+it;Vardadzor;Gülyataq
+co;Vardadzor;Gülyataq
+ja;ギュリャタグ;Gülyataq
+ha;Vardadzor;Gülyataq
+rm;Vardadzor;Gülyataq
+fa;واردادزور، مارتاکرت;Gülyataq
+ru;Говсан;Hövsan
+de;Howsan;Hövsan
+ce;ХӀоьвсан;Hövsan
+el;Χιοβσάν;Hövsan
+hy;Հովսան;Hövsan
+ar;هوسان;Hövsan
+ja;ホヴサン;Hövsan
+fa;هوسان;Hövsan
+ru;Гезлюбулак;Gëzlyubulak
+hy;Քառնաքար;Çormanlı
+hy;Գառնաքար;Çormanlı
+tt;Чорманлы;Çormanlı
+ce;Чорманли;Çormanlı
+be;Сяло Гарнакар;Çormanlı
+it;Garnakar;Çormanlı
+fr;Garnakar;Çormanlı
+uk;Ґарнакар;Çormanlı
+ka;ჩორმანლი;Çormanlı
+ja;チョルマンル;Çormanlı
+fa;گارناکار;Çormanlı
+hy;Garrnak’ar;Çormanlı
+hy;K’arrnak’ar;Çormanlı
+ru;Карблюк;Karblyuk
+az;Haçıqaraqaşlı;Hacı Qaraqaşlı
+ru;Хаджи Каракаслы;Hacı Qaraqaşlı
+ru;Ерзыкюш;Erzikyush
+az;Elyasalılar;İlyaslar
+hy;Yeghia;İlyaslar
+hy;Եղիա;İlyaslar
+ru;Эльясалылар;İlyaslar
+en;Comǝrd;Dzhomart
+ru;Джомарт;Dzhomart
+hy;Chumen;Dzhomart
+hy;Ճումեն;Dzhomart
+tt;Җомәрд;Dzhomart
+de;Comərd;Dzhomart
+ce;Джомаьрд;Dzhomart
+be;Джамард;Dzhomart
+ms;Comərd;Dzhomart
+fr;Jomard;Dzhomart
+ka;ჯომერდი;Dzhomart
+az;Comərd;Dzhomart
+fa;جمارد;Dzhomart
+nl;Comərd;Dzhomart
+tt;Җейранкечмәз;Dzheyrankechmaz
+kl;Ceyrankeçməz;Dzheyrankechmaz
+ce;Джейранкечмаьз;Dzheyrankechmaz
+rw;Ceyrankeçməz;Dzheyrankechmaz
+ms;Ceyrankeçməz;Dzheyrankechmaz
+el;Τσεϊρανκετσμέζ;Dzheyrankechmaz
+en;Ceyrankeçməz;Dzheyrankechmaz
+it;Ceyrankeçməz;Dzheyrankechmaz
+ny;Ceyrankeçməz;Dzheyrankechmaz
+co;Ceyrankeçməz;Dzheyrankechmaz
+ka;ჯეირანქეჩმაზი;Dzheyrankechmaz
+az;Ceyrankeçməz;Dzheyrankechmaz
+ha;Ceyrankeçməz;Dzheyrankechmaz
+sm;Ceyrankeçməz;Dzheyrankechmaz
+rm;Ceyrankeçməz;Dzheyrankechmaz
+fa;جیران‌کچمز;Dzheyrankechmaz
+kg;Ceyrankeçməz;Dzheyrankechmaz
+nl;Ceyrankeçməz;Dzheyrankechmaz
+ki;Ceyrankeçməz;Dzheyrankechmaz
+ru;Джейранкечмаз;Dzheyrankechmaz
+ru;Джек;Cek
+ru;Джанятаг;Canyataq
+hy;Ճանկաթաղ;Canyataq
+hy;Chankat’agh;Canyataq
+ru;Джангы;Dzhangi
+ru;Джамилли;Dzhamilli
+ru;Джабар;Dzhabar
+ru;Дюбенди;Kishlak Dyubendy
+hy;Դրմբոն;Heyvalı
+hy;Drmbon;Heyvalı
+ru;Дрмбон;Heyvalı
+en;Dǝrk;Derk
+ru;Дерк;Derk
+tt;Дәрк;Derk
+vi;Dərk;Derk
+ms;Dərk;Derk
+ka;დარქი;Derk
+az;Dərk;Derk
+it;Dərk;Derk
+fa;درک;Derk
+id;Dərk;Derk
+nl;Dərk;Derk
+tr;Dərk;Derk
+az;Dəmirli;Damirlu
+hy;Tsaghkashen;Damirlu
+hy;Ծաղկաշեն;Damirlu
+ru;Дамирли;Damirlu
+en;Çuxurǝzǝmi;Chukhur-Zami
+ru;Чухуразами;Chukhur-Zami
+hy;Chorman;Çorman
+hy;Hovvashen;Çorman
+hy;Հովվաշեն;Çorman
+ru;Чобанкерахмез;Chobankerakhmez
+az;Çobangərəhməz;Chobankerakhmez
+hy;Ch’ldran;Çıldıran
+hy;Չլդրան;Çıldıran
+az;Çldran;Çıldıran
+ru;Чылдыран;Çıldıran
+tt;Чылдыран;Çıldıran
+ce;Чилдиран;Çıldıran
+be;Сяло Члдран;Çıldıran
+it;Chldran;Çıldıran
+fr;Childiran;Çıldıran
+uk;Члдран;Çıldıran
+ka;ჩილდირანი;Çıldıran
+ja;チュルドゥラン;Çıldıran
+fa;چیلدیران;Çıldıran
+ka;ჩარმიმაზარი;Charmimazar
+fa;چرمی‌مزار;Charmimazar
+ru;Джхармымазар;Charmimazar
+tt;Чархачы;Çarxaçu
+ce;Чархачу;Çarxaçu
+el;Τσαρκχάτσυ;Çarxaçu
+ka;ჩარხაჩი;Çarxaçu
+fa;چارخاچی;Çarxaçu
+ru;Чархачу;Çarxaçu
+en;Çǝrǝktar;Charectar
+ru;Чаректар;Charectar
+az;Çərəktar;Charectar
+hy;Charektar;Charectar
+hy;Չարեկտար;Charectar
+az;Çərəkdar;Charectar
+hy;Չարեքտար;Charectar
+tt;Чәрәкдар;Charectar
+ce;Чаьраькдар;Charectar
+be;Сяло Чарэктар;Charectar
+ms;Çərəktar;Charectar
+it;Charektar;Charectar
+fr;Tcherakdar;Charectar
+zh;恰列克塔尔;Charectar
+uk;Чаректар;Charectar
+ka;ჩარექთარი;Charectar
+ja;チャレクタル;Charectar
+fa;چارکتار;Charectar
+nl;Çərəktar;Charectar
+az;Çəpli;Chapli
+hy;Ch’ap’ni;Chapli
+hy;Չափնի;Chapli
+ru;Чапли;Chapli
+tt;Чәпли;Chapli
+ce;Чаьпли;Chapli
+ms;Çəpli;Chapli
+ka;ჩაფლი;Chapli
+en;Çəpli;Chapli
+it;Çəpli;Chapli
+fa;چپ‌لی;Chapli
+fr;Tchepli;Chapli
+nl;Çəpli;Chapli
+az;Ch’ap’ar;Chapar
+az;Çapar;Chapar
+hy;Չափար;Chapar
+ru;Чапар;Chapar
+az;Çərəkdar;Chapar
+tt;Чапар;Chapar
+ceb;Çapar;Chapar
+ce;Чапар;Chapar
+sv;Çapar;Chapar
+be;Сяло Чапар;Chapar
+zh;恰帕尔;Chapar
+uk;Чапар;Chapar
+ka;ჩაფარი;Chapar
+ja;チャパル;Chapar
+fa;چاپار، مارتاکرت;Chapar
+en;Çeyldağ;Çeyildağ
+ru;Чеильдаг;Çeyildağ
+ru;Карагюней;Qaragüney
+ru;Бузовна;Buzovna
+ce;Бузовна;Buzovna
+zh;布佐夫納;Buzovna
+hy;Բուզովնա;Buzovna
+uk;Бузовна;Buzovna
+fa;بوزوونا;Buzovna
+az;Boyəhmədli;Boyakhmedli
+hy;Nor Haykajur;Boyakhmedli
+ru;Бойахмедли;Boyakhmedli
+hy;Նոր Հայկաջուր;Boyakhmedli
+en;Binǝ;Biny Selo
+ru;Бина;Biny Selo
+az;Binə;Biny Selo
+ce;Бинаь;Biny Selo
+el;Μπινέ;Biny Selo
+fr;Binə;Biny Selo
+hy;Բինե;Biny Selo
+uk;Біна;Biny Selo
+ka;ბინა;Biny Selo
+fa;بینه;Biny Selo
+pl;Binə;Biny Selo
+nl;Binə;Biny Selo
+ru;Bil’gyakh;Bilajer
+en;Bilgǝh;Bilajer
+ru;Бильгях;Bilajer
+az;Bilgəh;Bilajer
+de;Bilgəh;Bilajer
+ce;БилгаьхӀ;Bilajer
+fa;بیلگه;Bilajer
+fr;Bilgəh;Bilajer
+nl;Bilgəh;Bilajer
+hy;Բաղըրլը;Bağırlı
+hy;Bagyrly;Bağırlı
+hy;Igadzor;Bağırlı
+hy;Իգաձոր;Bağırlı
+ru;Бабашлар;Babaşlar
+az;Həyat;Hayad
+hy;Հայաթ;Hayad
+hy;Հայադ;Hayad
+hy;Hayat’;Hayad
+ru;Айяд;Hayad
+tt;Һаяд;Hayad
+ce;ХӀайад;Hayad
+ms;Həyat;Hayad
+ka;ჰაათი;Hayad
+fa;حیات;Hayad
+nl;Həyat;Hayad
+hy;Hat’erk’;Aterk
+en;Hǝsǝnriz;Aterk
+ru;Атерк;Aterk
+az;Həsənriz;Aterk
+hy;Հաթերք;Aterk
+hy;Ասրիկ;Asrik
+ru;Асрик;Asrik
+tt;Әсрик;Asrik
+ce;Аьсрик;Asrik
+ms;Əsrik;Asrik
+ka;ასრიქი;Asrik
+en;Əsrik;Asrik
+az;Əsrik;Asrik
+fa;اسریک;Asrik
+nl;Əsrik;Asrik
+tr;Esrik;Asrik
+hy;Harut’yunagomer;Qızılqaya
+hy;Հարությունագոմեր;Qızılqaya
+az;Arutunaqomer;Qızılqaya
+ru;Арутюнагомер;Qızılqaya
+en;Artyom;Pirallahı
+ru;Артем-Остров;Pirallahı
+ru;Арачадзор;Dovşanlı
+hy;Առաջաձոր;Dovşanlı
+hy;Arrajadzor;Dovşanlı
+en;Arajadzor;Dovşanlı
+tt;Довшанлы;Dovşanlı
+ce;Довшанли;Dovşanlı
+be;Сяло Араджадзор;Dovşanlı
+it;Aradjadzor;Dovşanlı
+fr;Aradjadzor;Dovşanlı
+uk;Араджадзор;Dovşanlı
+ka;დოვშანლი;Dovşanlı
+ja;ドヴシャンル;Dovşanlı
+fa;آراجادزور;Dovşanlı
+ce;Кайа;Qaya
+fa;قایا;Qaya
+ru;Кая;Qaya
+en;Altıağac;Altiaghaj
+ru;Алтыагач;Altiaghaj
+ru;Алтиагак;Altiaghaj
+ceb;Altıağac;Altiaghaj
+ce;АлтиагӀадж;Altiaghaj
+sv;Altıağac;Altiaghaj
+uz;Altıağac;Altiaghaj
+ms;Altıağac;Altiaghaj
+el;Αλτιαγκάτς;Altiaghaj
+it;Altıağac;Altiaghaj
+es;Altiagach;Altiaghaj
+ka;ალთიაღაჯი;Altiaghaj
+az;Altıağac;Altiaghaj
+fa;التیاگاک;Altiaghaj
+nl;Altıağac;Altiaghaj
+tt;Әлик;Alik
+de;Əlik;Alik
+ce;Аьлик;Alik
+ru;Алык;Alik
+ms;Əlik;Alik
+en;Əlik;Alik
+it;Əlik;Alik
+fr;Əlik;Alik
+vi;Əlik;Alik
+ka;ალიქი;Alik
+az;Əlik;Alik
+fa;الیک;Alik
+id;Əlik;Alik
+tr;Elik;Alik
+nl;Əlik;Alik
+en;Ağçakǝnd;Agdzhakend
+en;Ağdǝrǝ;Martakert
+ru;Мардакерт;Martakert
+az;Ağdərə;Martakert
+hy;Մարտակերտ;Martakert
+en;Aghdara;Martakert
+bxr;Мардакерт;Martakert
+ce;Мардакерт;Martakert
+et;Ağdərə;Martakert
+fa;آغ‌دره;Martakert
+ms;Aghdara;Martakert
+uk;Мартакерт;Martakert
+pl;Ağdərə;Martakert
+ru;Агдере;Martakert
+az;Ağabəyyalı;Agabekalendzh
+hy;Aghabekalanj;Agabekalendzh
+hy;Աղաբեկալանջ;Agabekalendzh
+az;Ağabəyəlenc;Agabekalendzh
+ru;Агабекалендж;Agabekalendzh
+ru;Адур;Adur
+hy;Ապահեն;Abdullauşağı
+ru;Абдуллаушагы;Abdullauşağı
+tt;Абдуллаушагы;Abdullauşağı
+ce;АбдуллаушагӀи;Abdullauşağı
+fr;Abdoullahuchaghi;Abdullauşağı
+zh;阿卜杜劳沙格;Abdullauşağı
+uk;Абдуллаушаги;Abdullauşağı
+ka;აბდულაუშაღი;Abdullauşağı
+fa;عبدالله‌اوشاگی;Abdullauşağı
+ru;Томулу;Tomullu
+ru;Беюк-Мумбарак;Beyuk-Mumbarak
+ru;Узюмлюкенд;Uzyumlyukend
+ru;Шокы;Shoki
+ru;Адакар;Adakar
+ru;Клыджх;Klych
+ka;გასანი;Gasan
+fa;حسن;Gasan
+ru;Гасан;Gasan
+ru;Кум;Kum
+ru;Kochev’ye Sundi;Sündü
+en;Hacıvǝli;Adzhiyely
+ru;Адживели;Adzhiyely
+ce;ХӀадживаьли;Adzhiyely
+uz;Hacıvəli;Adzhiyely
+ms;Hacıvəli;Adzhiyely
+ka;ჰაჯივალი;Adzhiyely
+it;Hacıvəli;Adzhiyely
+fa;حاجی‌ولی;Adzhiyely
+pl;Hacıvəli;Adzhiyely
+nl;Hacıvəli;Adzhiyely
+tr;Hacıvəli;Adzhiyely
+ka;რამაზანი;Ramazan
+fa;رمضان;Ramazan
+ru;Рамазан;Ramazan
+ru;Поправенд;Bozavend
+ce;Бозаваьнд;Bozavend
+ka;ბოზავენდი;Bozavend
+az;Bozavənd;Bozavend
+fa;بزاوند;Bozavend
+ce;Куьрд-Дам;Kyurt-Dam
+ka;ქურდ-დამი;Kyurt-Dam
+az;Kürd-Dam;Kyurt-Dam
+fa;کرد-دام;Kyurt-Dam
+ru;Курд-Дам;Kyurt-Dam
+ce;Эгер-Йурд;Eger-Yurt
+ka;ეგერ-იურდი;Eger-Yurt
+az;Eger-Yurd;Eger-Yurt
+fa;اگر-یورد;Eger-Yurt
+ru;Эгер-Йурд;Eger-Yurt
+az;Qarakuney;Qaragüney
+ce;Газарки-Гомаьр;Gazarki-Gomer
+ka;ყაზარქი-ყომარი;Gazarki-Gomer
+az;Qazarkı-Qomər;Gazarki-Gomer
+fa;قازارکی-قومر;Gazarki-Gomer
+ru;Газарки-Гомар;Gazarki-Gomer
+hy;Getavan;Qozlukörpŭ
+hy;Գետավան;Qozlukörpŭ
+az;Hetavan;Qozlukörpŭ
+ru;Гетаван;Qozlukörpŭ
+hy;Ախպերկան;Axperkan
+ru;Аксперкан;Axperkan
+ru;Кала;İkinci Qala
+hy;Բալըկայա;Balykaya
+az;Bağlıpəyə;Balykaya
+hy;Nor Erk’ej;Balykaya
+hy;Նոր Էրքեջ;Balykaya
+ru;Баглыпея;Balykaya
+hy;Աղդաբան;Ağdaban
+hy;Aghdaban;Ağdaban
+ru;Агдабан;Ağdaban
+tt;Агдабан;Ağdaban
+ce;АгӀдабан;Ağdaban
+fr;Aghdaban;Ağdaban
+zh;阿格达班;Ağdaban
+ka;აღდაბანი;Ağdaban
+ja;アガダバン;Ağdaban
+fa;آق‌دابان;Ağdaban
+ru;Dzheyranchël’;Orta Ceyrançöl
+ka;ორთა-ჯეირანჩიოლი;Orta Ceyrançöl
+fa;جیران‌چول میانی;Orta Ceyrançöl
+hy;Havsat’agh;Almalıq
+hy;Հավսաթաղ;Almalıq
+ru;Алмалык;Almalıq
+tt;Алмалыг;Almalıq
+ce;Алмалиг;Almalıq
+be;Сяло Аўсатаг;Almalıq
+it;Havsatagh;Almalıq
+uk;Авсатаг;Almalıq
+ka;ალმალიყი;Almalıq
+fa;هاوساتاغ;Almalıq
+hy;Bash Gyunep’aya;Bash Giounepaia
+az;Baş Günəypəyə;Bash Giounepaia
+hy;Բաշ Գյունեյփայա;Bash Giounepaia
+ru;Баш Гюнейлея;Bash Giounepaia
+az;Baş Güneytəpə;Bash Giounepaia
+hy;Havk’akhaghats’;Laçın
+hy;Հավքախաղաց;Laçın
+hy;Havakhaghats’;Laçın
+hy;Հավախաղաց;Laçın
+az;Orta Günəypəyə;Orta Giounepaia
+hy;Ort’a;Orta Giounepaia
+hy;Որթա;Orta Giounepaia
+ru;Орта Гюнейлея;Orta Giounepaia
+az;Orta Güneytəpə;Orta Giounepaia
+tt;Орта Гүнейпәя;Orta Giounepaia
+ce;Орта Гуьнейпаьйаь;Orta Giounepaia
+uz;Orta Güneypəyə;Orta Giounepaia
+ms;Orta Günəypəyə;Orta Giounepaia
+en;Orta Günəypəyə;Orta Giounepaia
+fr;Orta Guneypéyé;Orta Giounepaia
+ka;ორთა-გიუნეფაია;Orta Giounepaia
+ja;オルタ・ギュネイペヤ;Orta Giounepaia
+fa;گونی‌پایه میانی;Orta Giounepaia
+nl;Orta Günəypəyə;Orta Giounepaia
+tr;Orta Günəypəyə;Orta Giounepaia
+az;Şıxlar;Shikhlar
+ce;Шихлар;Shikhlar
+el;Σιχλάρ;Shikhlar
+fa;شیخلر، باکو;Shikhlar
+nl;Şıxlar;Shikhlar
+ru;Шихлар;Shikhlar
+ru;Джанубы;Dzhanuby
+az;Zə’fəran;Shafran
+ru;Шафран;Shafran
+az;Khungut’ala;Khnkavan
+hy;Խնկավան;Khnkavan
+ru;Хнкаван;Khnkavan
+hy;Ղազարահող;Ghazarahogh
+ru;Гхазарахогх;Ghazarahogh
+az;Heydərabad;Heydarabad
+ru;Гейдарабад;Heydarabad
+ar;حيدرآباد;Heydarabad
+hi;हैदराबाद;Heydarabad
+bn;হৈদরাবাদ;Heydarabad
+ur;حیدرآباد;Heydarabad
+am;ሄይዳራባድ;Heydarabad
+fa;حیدرآباد;Heydarabad
+ja;ハイダラバード;Heydarabad
+pa;ਹੈਦਰਾਬਾਦ;Heydarabad
+ps;حیدرآباد;Heydarabad
+tg;Гайдарабад;Heydarabad
+tt;Гайдарабад;Heydarabad
+az;Məzrə;Mezre
+en;Mazra;Mezre
+ru;Мезре;Mezre
+ru;Алджхалы Тала;Alchaly Tala
+ru;Грес;Gres
+ru;Отузунджу;Otuzuncu
+ru;Тулус;Tulus
+tt;Тулус;Tulus
+ce;Тулус;Tulus
+fr;Toulous;Tulus
+fa;تولوس;Tulus
+he;טולוס;Tulus
+az;Şahvələdli;Shakhveledi
+hy;Shinategh;Shakhveledi
+hy;Շինատեղ;Shakhveledi
+ru;Шахвеледи;Shakhveledi
+az;Qovşutlu;Qovşudlu
+hy;Nerkin Kavchut;Qovşudlu
+hy;Ներկին Կավձուտ;Qovşudlu
+ru;Говшудлу;Qovşudlu
+az;Şavqo;Shavgo
+az;Şəvqo;Shavgo
+ru;Шавго;Shavgo
+az;Əkbərməhlə;Akpermakhla
+az;Əkbərməhəllə;Akpermakhla
+ru;Акпермахла;Akpermakhla
+ru;Клынбы;Klınbi
+ru;Рывадыла;Rıvadıla
+az;Ağakişilər;Agakishilyar
+ru;Агакишиляр;Agakishilyar
+az;Birinci Ipək;Ipak Pervoye
+ru;Ипяк Первое;Ipak Pervoye
+ru;Боздаган;Bozdağan
+tt;Боздаган;Bozdağan
+ce;БоздагӀан;Bozdağan
+be;Боздаган;Bozdağan
+fr;Bozdaghan;Bozdağan
+hy;Բոզդաղան;Bozdağan
+uk;Боздаган;Bozdağan
+ka;ბოზდაღანი;Bozdağan
+fa;بزداغان;Bozdağan
+ur;بوزداغان;Bozdağan
+az;Köhnə Çorman;Kegna-Chorman
+ru;Кегна-Чорман;Kegna-Chorman
+hy;Vazgenashen;Hacısamlı
+hy;Վազգենաշեն;Hacısamlı
+ru;Гаджысамлы;Hacısamlı
+ru;Турабхан;Turabxan
+az;Qədili;Kaoili
+ru;Кадили;Kaoili
+az;Zərqulu;Zarkulu
+hy;Zarkuni;Zarkulu
+hy;Զարկունի;Zarkulu
+ru;Заркулу;Zarkulu
+ru;Чайковушан;Çayqovuşan
+ru;Агкая;Ağqaya
+ru;Агятаг;Ağyataq
+az;Fətalılar;Fatalilar
+hy;Khozenek;Fatalilar
+hy;Խոզենեկ;Fatalilar
+ru;Фаталилар;Fatalilar
+az;Fətallar;Fatalilar
+ru;Чопурлу;Çopurlu
+az;Yanşaqbinə;Yanshakbina
+ru;Яншакбина;Yanshakbina
+az;Qasımbinəsi;Kasymbinasi
+ru;Касымбинаси;Kasymbinasi
+ru;Багырсаг;Bağırsaq
+ru;Камарлы;Kəmərli
+ru;Ортаканд;Ortakənd
+az;Təzəkənd;Tezakend
+ru;Тезакенд;Tezakend
+ru;Алынжа;Alinja
+ru;Ены Туркан;Yeni Türkan
+ru;Dzheyranchël’;Ceyrançöl
+ce;Джейранчоьл;Ceyrançöl
+el;Σεϊραντσόλ;Ceyrançöl
+hy;Ջեյրանչոլ;Ceyrançöl
+ka;ჯეირანჩიოლი;Ceyrançöl
+fa;جیران‌چول;Ceyrançöl
+tt;Ени Яшма;Yeni Yaşma
+ce;Йени Йашма;Yeni Yaşma
+ka;იენი-იაშმა;Yeni Yaşma
+fa;ینی یشمه;Yeni Yaşma
+ru;Ени Яшма;Yeni Yaşma
+ru;Туркоба;Türkoba
+hy;Ցրտուն;Ts’rtun
+ru;Цртун;Ts’rtun
+hy;Կաժ;Kazh
+ru;Каж;Kazh
+hy;Nerk’in Sring;Aşağı Sirik
+hy;Ներքին Սրինգ;Aşağı Sirik
+ru;Сирик;Aşağı Sirik
+hy;Վերին Կավճուտ;Verin Kavchur
+ru;Верын Кавджхур;Verin Kavchur
+hy;Ձորագյուղ;Dzoragyugh
+az;Yuxarı Məzrə;Dzoragyugh
+ru;Дзорагюгх;Dzoragyugh
+hy;Արախիշ;Arakhish
+hy;Arrak’elots’;Arakhish
+hy;Առաքելոց;Arakhish
+ru;Арахыш;Arakhish
+hy;Պերետես;Peretes
+ru;Перетес;Peretes
+hy;Ներքին Թաղավարդ;Nerk’in T’aghavard
+ru;Неркын Тагхавард;Nerk’in T’aghavard
+hy;Վաճան;Vachan
+ru;Ваджхан;Vachan
+hy;Կաղանկատույք;Kaghankatoyk’
+ru;Кагханкатойк;Kaghankatoyk’
+hy;Մթնաձոր;Mt’nadzor
+ru;Мтнадзор;Mt’nadzor
+hy;Սրաշեն;Srashen
+ru;Срашен;Srashen
+hy;Օջախ;Ojakh
+ru;Ожах;Ojakh
+hy;Խորաստան;Khorastan
+ru;Хорастан;Khorastan
+hy;Նարդվան;Nardvan
+ru;Молочно-Товарная Ферма Нардиван;Nardvan
+hy;Հարար;Harar
+ru;Керрар;Harar
+az;Qərər;Harar
+ru;Наксыснаргыз;Naxışnərgiz
+ru;Хаджиныйят;Hacıniyyət
+ru;Араз;Araz
+ru;Карабок;Qarabök
+az;Aşağı Nehrəm;Ashagy-Negrat
+ru;Ашагы-Неграт;Ashagy-Negrat
+az;Ikinci Dərəşam;Doraham Vtoroy
+ru;Дорахам Второй;Doraham Vtoroy
+az;Birinci Dərəşam;Dorasham Pervyy
+ru;Дорашам Первый;Dorasham Pervyy
+az;Qızılvəng;Kizilvank
+ru;Кызылванк;Kizilvank
+ru;Басбасы;Başbaşı
+az;Qarğalıq;Qarquluk
+ru;Каркулук;Qarquluk
+hy;Անապատ;Anabad
+hy;Անաբադ;Anabad
+hy;Անաբաթ;Anabad
+hy;Անաբատ;Anabad
+ru;Анабад;Anabad
+hy;Քիլիթ;Kilit
+ru;Кылыт;Kilit
+hy;Մեհրաբ;Muğancıq Mehrab
+ru;Муганджик Мехраб;Muğancıq Mehrab
+ru;Бехруз Кангарлы;Behruz Kəngərli
+ru;Ены Хавус;Yeni Havuş
+az;Məmmədsabir;Mamedsabir
+hy;Մամեդ-Սաբիր;Mamedsabir
+ru;Мамедсабыр;Mamedsabir
+ru;Салогабад;Salogabad
+ru;Карагадж;Qarağac
+ru;Шахрыяр;Shahriyar
+ru;Саламалык;Salaməlik
+ru;Заранг;Zərəng
+ru;Асагы Аралык;Aşağı Aralıq
+hy;Առաշամուդ;Arrashamud
+ru;Аррашамуд;Arrashamud
+ru;Дамшалах;Quşçular
+ru;Нейхали;Nekhaly
+ru;Гаджиисмайлли;Gadzhiismaylli
+ru;Исахли;Hacı İsaqlı
+hy;Քնարավան;K’naravan
+en;Knaravan;K’naravan
+ru;Кнараван;K’naravan
+hy;Անձավներ;Andzavner
+ru;Андзавнер;Andzavner
+hy;Ճրագ;Chrag
+ru;Джхраг;Chrag
+hy;Ծաղկունք;Tsaghkunk’
+ru;Цагхкунк;Tsaghkunk’
+hy;Զվար;Zvar
+ru;Звар;Zvar
+hy;Սոսու պուրակ;Sosu Purak
+ru;Сосу Пурак;Sosu Purak
+ru;Камлакан;Kamlakan
+ru;Каракав;Qaraqav
+ru;Агоглан;Ağoğlan
+ru;Асык Малыклы;Aşıq Məlikli
+ru;Молла Хасанлы;Molla Həsənli
+ru;Ксанагабулак;Xanağabulaq
+ru;Нусус;Nüsüs
+ru;Ныфталылар;Niftalılar
+ru;Пырылар;Pirilər
+ru;Боюкдуз;Böyükdüz
+az;Yuxan Mərcanlı;Yuxarı Mərcanlı
+ru;Юксары Марджанлы;Yuxarı Mərcanlı
+ru;Джапанд;Çapand
+ru;Сады;Sədi
+ru;Агаларусагы;Ağalaruşağı
+ru;Юксары Нусус;Yuxarı Nüsüs
+ru;Курбантапа;Qurbantəpə
+ru;Ксубярлы;Xubyarlı
+ru;Ксатынбайлы;Xatınbəyli
+ru;Джалабылар;Çələbilər
+ru;Ксудавердылы;Xudaverdili
+ru;Янарксадж;Yanarxac
+ru;Хунгутлу;Hüngütlü
+hy;Մարալ Դամի;Maraldami
+hy;Եղջերվագոմ;Maraldami
+ru;Маралдами;Maraldami
+en;Yeghjervagom;Maraldami

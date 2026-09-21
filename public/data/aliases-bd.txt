@@ -2090,3 +2090,85 @@ bn;Nabalpāra;Nablaipāra
 bn;Mahiskhālipāra;Mahiskhāliapāra
 bn;Jhimangkhālīpāra;Jhimongkhālīpāra
 bn;Bāze Mādhail;Mādhail
+ru;Тхакургаон;Thākurgaon
+fa;روانچاری;Roangchari
+bn;Rahumāri Gird;Rahumāri
+ru;Майменсингх;Mymensingh
+bn;ময়মনসিংহ;Mymensingh
+ar;ميمنسينغ;Mymensingh
+kk;Майменсингх;Mymensingh
+ky;Майменсингх;Mymensingh
+hi;म्यमनसिंह;Mymensingh
+ur;میمن سنگھ;Mymensingh
+am;ሚመንሲንግ;Mymensingh
+fa;میمنسینگ;Mymensingh
+ja;ミメンシング;Mymensingh
+pa;ਮਿਮਨਸਿੰਘ;Mymensingh
+ps;ميمنسينګ;Mymensingh
+tg;Майменсингх;Mymensingh
+tt;Майменсингх;Mymensingh
+bn;Lakshmichari;Lakshmīcharīpāra
+bn;West Ālipur;Ālipur
+bn;Uttar Jiudhara;Uttar Jiadhara
+bn;Uttar Chak Mājdia;Uttar Chak Mājhdia
+bn;Tulusipur;Tulsipur
+bn;Tola;Kola
+bn;Sripur;Town Sripur
+bn;Sibār Char;Bara Sibār Char
+bn;Sekharpur;Shekharpur
+bn;Saulmāri;Nutan Saulmari
+bn;Ratnadi Tāltali;Taltali
+bn;Purba Pāyādānga;Purba Pāyrādanga
+bn;North Pākshia;Pākshia
+bn;Pasurbania;Pashurbunia
+bn;Pānpatti;Pānbatti and Char Harka
+fa;نالتونا;Naltona
+bn;Māyārāmpur;Moyrāmpur
+bn;Masāura;Mashāora
+bn;Madhugari;Dhārkipāra
+bn;Kālikāpur;Char Kālikāpur
+bn;Kālārmārchara;Kalāniārchara
+bn;Hāt Mādhabpur;Mahabpur
+bn;Gobargāra;Gabargāro
+bn;Gahinkhāli;Gohinikhali
+bn;Gabbania;Gābbunia
+bn;East Ālipur;Purba Ālipur
+bn;Dāmair;Dāmuri
+bn;Dalla;Dhaliā
+bn;Chhota Bāisdia;Chhota Bāishdia
+bn;Chauka;Chouk
+bn;Char Mānpura;Manpura
+bn;Char Kājal;Bara Char Kājal
+bn;Char Doāni Lāthimāra;Char Lāthimāra
+bn;Chāltābania;Chālitāburia
+bn;Chak Daulatkhāli;Daulatkhali
+bn;Chak Bīl Gatua;Chak Bīl Gathura
+bn;Boailmari;Boālmāri
+bn;Bholāisingherchar Trailokya;Bholāisinha Char
+bn;Bhaylabania;Bāilabunia
+bn;Belgharia;Bil Gharia
+bn;Bāispur;Bāishpur
+bn;Ār Kalmi;Char Ar Kalmi
+bn;Andār Char;Char Prasad
+bn;Ākbarpur;Goālgrām
+ru;Рангамати;Rangamati
+bn;Rahimpur;Char Rahimpur
+bn;Nayāpāta;Nayāpāra
+bn;Bhardmuhāri;Bharāmuhāri
+bn;Uluanid;Ululianid
+bn;Mityāchari;Mitiyāchari
+bn;Kāundipur;Kālindipur
+bn;Swarna;Swarna Tila
+bn;Changrāchari;Chongrāchari
+bn;Leksungchara;Lekshungchara
+bn;Nayābnānga;Nayābhānga
+bn;Nāk Krang Tasīldā;Nāk Krang Tahsīldā
+bn;Kārāripāra;Kārbāripāra
+bn;Porādom;Parādam
+bn;Sazbandamukh;Sazbandalimukh
+bn;Ayadmulla Pāra;Adyamulla Pāra
+bn;Saderkāta;Sadekerkāta
+bn;Napitpukhuria;Napilpukhuria
+bn;Ashābaria;Ashaparia
+bn;Sonōtolo;Sonātala
+ru;Карнафули;Karnaphuli

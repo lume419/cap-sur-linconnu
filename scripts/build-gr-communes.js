@@ -118,8 +118,9 @@ const deduped = Array.from(seen.values());
 const canonicalByGeonameId = {};
 const lines = dropNearDuplicates(deduped.map(p => {
   const near = nearest(postalGrid, p.lat, p.lon, 30);
+  // CODE POSTAL FACULTATIF (21/09/2026) : un lieu n'est plus écarté faute de point postal à moins de 30 km. Le code
+  // postal aide à retrouver sa ville, il ne décide pas si elle existe.
   const cp = near ? near.postcode : '';
-  if(!cp) return null; // sans code postal on ne peut pas désambiguïser à l'affichage -> écarté
   canonicalByGeonameId[p.geonameid] = p.name;
   return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp};;${p.name}`;
 }).filter(Boolean));
@@ -127,4 +128,4 @@ const lines = dropNearDuplicates(deduped.map(p => {
 const outPath = path.join(__dirname, '..', 'public', 'data', 'communes-gr.txt');
 fs.writeFileSync(outPath, lines.join('\n') + '\n', 'utf8');
 fs.writeFileSync(path.join(__dirname, 'gr-canonical-by-geonameid.json'), JSON.stringify(canonicalByGeonameId), 'utf8');
-console.log('GR : ', places.length, 'lieux bruts ->', deduped.length, 'dédoublonnés ->', lines.length, 'avec code postal ->', outPath);
+console.log('GR : ', places.length, 'lieux bruts ->', deduped.length, 'dédoublonnés ->', lines.length, 'publiés ->', outPath);

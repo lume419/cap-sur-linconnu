@@ -492,6 +492,14 @@ const AX_EXCLUDE_NAMES = new Set(['Yomala']);
 const MK_CYRILLIC_RE = /[Ѐ-ӿ]/;
 const ASCIINAME_FALLBACK_COUNTRIES = new Set(['MK', 'BY', 'UA']);
 
+// Noms des divisions administratives (GeoNames admin1CodesASCII.txt), repris tels quels : ils servent de REGION aux
+// lieux qui n'ont pas de point postal à moins de 15 km, désormais publiés au lieu d'être écartés (21/09/2026).
+const admin1Names = new Map();
+fs.readFileSync(path.join(__dirname, 'admin1CodesASCII.txt'), 'utf8').split('\n').forEach(l => {
+  const f = l.split('\t');
+  if(f[0] && f[1]) admin1Names.set(f[0], f[1]);
+});
+
 // Générateur MUET SI ON NE LUI DIT RIEN (19e audit du 21/09/2026) : sans ONLY_COUNTRY, la liste est vide, la
 // boucle ne tourne pas, rien n'est écrit et le script sortait en code 0 sans un mot. Un générateur silencieux qui
 // « réussit » est indiscernable d'un générateur qui a travaillé — c'est ce qui a laissé « Test » et « XXX » publiés
@@ -499,13 +507,55 @@ const ASCIINAME_FALLBACK_COUNTRIES = new Set(['MK', 'BY', 'UA']);
 if(!COUNTRIES.length){
   console.error('build-country-communes.js : aucun pays demandé. Ce script ne régénère QUE les pays listés dans');
   console.error('  ONLY_COUNTRY (ex. ONLY_COUNTRY=RO,BG node scripts/build-country-communes.js), et seulement si');
-  console.error('  scripts/dump/XX_dump.txt ET scripts/postal/XX_postal.txt sont présents sur le disque.');
+  console.error('  scripts/dump/XX_dump.txt est présent sur le disque (le fichier postal, s\'il manque, est remplacé');
+  console.error('  par les codes déjà publiés — voir le commentaire dans la boucle).');
   process.exit(1);
 }
 console.log('build-country-communes.js : ' + COUNTRIES.length + ' pays demandé(s) — ' + COUNTRIES.join(', '));
 for(const country of COUNTRIES){
   const dumpRaw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
-  const postalRaw = fs.readFileSync(path.join(__dirname, 'postal', country + '_postal.txt'), 'utf8');
+  // FICHIER POSTAL ABSENT DU DÉPÔT (21/09/2026). Les fichiers de codes postaux GeoNames ne sont pas commités (trop
+  // volumineux, et ils ne sont retéléchargés que pour les pays en cours d'ajout) : une trentaine de pays déjà
+  // publiés n'ont donc plus leur source postale ici. Jusqu'à présent ils étaient simplement non régénérables, et la
+  // correction du jour — ne plus écarter un lieu faute de code postal — leur serait restée inaccessible.
+  // Repli : les codes DÉJÀ PUBLIÉS sont relus depuis public/data/communes-XX.txt et rattachés par coordonnée exacte
+  // (4 décimales, la précision du fichier publié). Les lieux qui n'y figurent pas sortent avec un code vide, ce qui
+  // est exactement ce que produirait le fichier postal pour eux. Le résultat est donc identique à une vraie
+  // régénération pour la colonne « code », et reproductible : relancer le script ne change plus rien.
+  const postalPath = path.join(__dirname, 'postal', country + '_postal.txt');
+  const publiéPath = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');
+  const postalAbsent = !fs.existsSync(postalPath);
+  if(postalAbsent && !fs.existsSync(publiéPath)){
+    console.error(country + ' : ni scripts/postal/' + country + '_postal.txt ni le fichier publié — impossible de régénérer.');
+    process.exit(1);
+  }
+  // Rattachement au fichier déjà publié : d'abord la coordonnée exacte, puis — le dump GeoNames bouge d'une version
+  // à l'autre — le même nom à moins de 5 km. Sans ce second essai, une localité dont la coordonnée a été affinée
+  // depuis la dernière génération perdrait son code postal et son district, ce qui serait une régression.
+  const déjàPubliés = new Map();
+  const déjàParNom = new Map();
+  if(postalAbsent){
+    fs.readFileSync(publiéPath, 'utf8').split('\n').filter(Boolean).forEach(l => {
+      const ch = l.split(';'), ll = ch[1].split(',');
+      const e = { postcode: ch[2], admin2: ch[3], admin1: ch[3], lat: +ll[1], lon: +ll[0] };
+      déjàPubliés.set(ll[1] + ',' + ll[0], e);
+      const k = ch.slice(4).join(';').toLowerCase();
+      let g = déjàParNom.get(k); if(!g) déjàParNom.set(k, g = []);
+      g.push(e);
+    });
+    console.log(country + ' : fichier postal absent — ' + déjàPubliés.size + ' codes repris du fichier déjà publié');
+  }
+  const codePublié = p => {
+    const exact = déjàPubliés.get(p.lat.toFixed(4) + ',' + p.lon.toFixed(4));
+    if(exact) return exact;
+    let best = null, bestKm = 5; // 5 km : le rapprochement postal lui-même en autorise 15, et il s'agit ici du MÊME nom
+    for(const e of (déjàParNom.get(p.name.toLowerCase()) || [])){
+      const d = haversineKm(p.lat, p.lon, e.lat, e.lon);
+      if(d < bestKm){ bestKm = d; best = e; }
+    }
+    return best;
+  };
+  const postalRaw = postalAbsent ? '' : fs.readFileSync(postalPath, 'utf8');
 
   // Fichier codes postaux : country, postcode, place, admin_name1, admin_code1, admin_name2,
   // admin_code2, admin_name3, admin_code3, lat, lon, accuracy
@@ -558,17 +608,26 @@ for(const country of COUNTRIES){
   }
   const deduped = Array.from(seen.values());
 
+  // CODE POSTAL FACULTATIF (21/09/2026, demande de l'utilisateur). Jusqu'ici, un lieu sans point postal à moins de
+  // 15 km était ÉCARTÉ — « sans code postal on ne peut pas désambiguïser à l'affichage ». C'était mettre une aide à
+  // la saisie au-dessus de l'existence du lieu : le code postal sert à retrouver sa ville quand on la cherche, il ne
+  // décide pas si elle existe. Le lieu est donc publié avec un code VIDE, et sa région prise du dump GeoNames
+  // (admin1CodesASCII.txt) au lieu du point postal, pour qu'il reste distinguable à l'affichage.
+  let sansCode = 0;
   const lines = deduped.map(p => {
-    const near = (country === 'AD')
+    const near = postalAbsent ? codePublié(p)
+      : (country === 'AD')
       ? (postalByAdmin1Code.get(p.admin1Code) || null)
       : nearest(postalGrid, p.lat, p.lon, 15);
     const cp = near ? near.postcode : '';
-    const region = near ? (near.admin2 || near.admin1 || '') : '';
-    if(!cp) return null; // sans code postal on ne peut pas désambiguïser à l'affichage -> écarté
+    const region = near ? (near.admin2 || near.admin1 || '')
+      : (admin1Names.get(country + '.' + p.admin1Code) || '');
+    if(!cp) sansCode++;
     return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp};${region};${p.name}`;
-  }).filter(Boolean);
+  });
 
   const outPath = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');
   fs.writeFileSync(outPath, dropNearDuplicates(lines).join('\n') + '\n', 'utf8'); // quasi-doublons (voir communes-corrections.js)
-  console.log(country, ': ', places.length, 'lieux bruts ->', deduped.length, 'dédoublonnés ->', lines.length, 'avec code postal ->', outPath);
+  console.log(country, ': ', places.length, 'lieux bruts ->', deduped.length, 'dédoublonnés ->', lines.length,
+    'publiés (dont', sansCode, 'sans code postal) ->', outPath);
 }

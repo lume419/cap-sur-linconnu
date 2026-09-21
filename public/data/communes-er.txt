@@ -90,6 +90,7 @@
 0;37.7167,15.2000;ER-04;Gash-Barka;Samero
 0;40.8286,14.7249;ER-03;Southern Red Sea;Sahlī
 0;36.8167,14.6064;ER-04;Gash-Barka;Sahlat
+0;40.0500,16.0667;ER;;Sahelia
 0;38.7781,14.5203;ER-02;Debub;Ksad-Ika
 0;39.5245,15.1208;ER-06;Northern Red Sea;Sacatare
 0;42.7667,12.5167;ER-03;Southern Red Sea;Sacalatta
@@ -207,11 +208,13 @@
 0;38.8428,14.7969;ER-02;Debub;K’ine Hāyela
 0;39.0597,15.0999;ER-02;Debub;K’eyih Kor
 0;37.2058,15.6272;ER-04;Gash-Barka;Kieru
+0;38.3667,17.7000;ER;;Kerora
 0;37.4018,16.2876;ER-01;Anseba;Kerkebet
 74800;38.4511,15.7779;ER-01;Anseba;Keren
 0;38.7358,15.6889;ER-01;Anseba;K’erech’a
 0;38.6972,16.3894;ER-02;Debub;Kemechiwa
 0;38.9167,16.0667;ER-06;Northern Red Sea;Kelmet
+0;37.2333,17.5333;ER;;Katai Garsa
 0;41.6249,14.0541;ER-03;Southern Red Sea;Krum
 0;39.9549,15.7474;ER-06;Northern Red Sea;Jīmhīl
 0;38.8261,14.7172;ER-02;Debub;Īyamo
@@ -1338,7 +1341,9 @@
 0;38.7798,15.0416;ER-02;Debub;Emni Tsellim
 0;39.3333,14.5000;ER-02;Debub;Gulomakeda
 0;39.3333,14.5000;ER-02;Debub;Gulomahda
+0;39.6667,14.5000;ER;;Irob
 0;39.4400,14.5400;ER-02;Debub;Gulomahda
+0;39.3834,14.5198;ER;;Zalambessa
 0;39.4319,14.7225;ER-02;Debub;Tisha
 0;39.4202,14.7087;ER-02;Debub;Awliee Hahayle
 0;38.9954,15.0106;ER-02;Debub;Gura’e

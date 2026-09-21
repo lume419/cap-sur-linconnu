@@ -916,8 +916,7 @@ nds;Vosshusen;Neu Wulmstorf
 de;Neu-Wulmstorf;Neu Wulmstorf
 hsb;Nowy Wuježk;Neuwuischke
 hsb;Nowa Łuka;Neuwiese
-de;Neuwarmbüchen;Neu Warmbüchen
-nds;Nienwarmböken [a. 1654];Neu Warmbüchen
+nds;Nienwarmböken [a. 1654];Neuwarmbüchen
 de;Neuwallmoden (Wallmoden);Neuwallmoden
 es;Nuevo Ulm;Neu-Ulm
 it;Nuova Ulma;Neu-Ulm
@@ -18741,7 +18740,6 @@ ru;Майтинген;Meitingen
 zh;迈廷根;Meitingen
 hy;Մայթինգեն;Meitingen
 uk;Майтінген;Meitingen
-de;Meisterstraße;Meisterstrasse
 sr;Мајсенхајм;Meißenheim
 uk;Майсенгайм;Meißenheim
 ru;Майсенхайм;Meißenheim
@@ -40758,3 +40756,29 @@ kk;Бокенсдорф;Bokensdorf
 sr;Бокенсдорф;Bokensdorf
 ru;Бокенсдорф;Bokensdorf
 zh;博肯斯多夫;Bokensdorf
+ba;Цетлиц;Zettlitz
+et;Zettlitzi vald;Zettlitz
+mk;Цетлиц;Zettlitz
+sr;Цетлиц;Zettlitz
+ru;Цетлиц;Zettlitz
+zh;策特利茨;Zettlitz
+kk;Тиддише;Tiddische
+sr;Тидише;Tiddische
+ru;Тиддише;Tiddische
+zh;蒂迪舍;Tiddische
+de;Neulietzegöricker Loose;Altlietzegöricker Loose
+ba;Крибштайн;Kriebstein
+mk;Крибштајн;Kriebstein
+sr;Крибштајн;Kriebstein
+ru;Крибштайн;Kriebstein
+zh;克里布斯泰因;Kriebstein
+de;Gross Kolshorn;Groß Kolshorn
+kk;Йембке;Jembke
+sr;Јембке;Jembke
+ru;Йембке;Jembke
+zh;延布克;Jembke
+de;Hoyersvörde;Hoyersförde
+de;Wietze;An der Wietze
+de;Neutrebbin Siedlung;Siedlung
+de;Siedlung Schepelse;Neu Schepelse
+de;Bahnhof Isenbüttel-Dorf;Bahnhof Dorf Isenbüttel
