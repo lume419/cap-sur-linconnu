@@ -29958,7 +29958,6 @@
 0;5.0926,5.7040;NG-36;Delta;Agogboro
 0;2.9333,8.9437;NG-30;Kwara State;Ago-Fulani
 0;3.7540,8.9284;NG-32;Oyo State;Ago-Fulani
-0;3.7500,8.9333;NG-32;Oyo State;Ago Fulani
 0;3.7500,8.9000;NG-32;Oyo State;Ago Fulani
 0;3.6880,8.8219;NG-32;Oyo State;Ago-Fulani
 0;4.1092,8.7632;NG-32;Oyo State;Ago-Fulani
@@ -37587,7 +37586,6 @@
 0;5.3872,13.2999;NG-51;Sokoto;Malamawa
 0;5.3596,13.2832;NG-51;Sokoto;Lukwa
 0;5.3548,13.2739;NG-51;Sokoto;Lukwatudu
-0;5.2518,13.2811;NG-51;Sokoto;Gidan-Fulani
 0;5.0489,13.2914;NG-51;Sokoto;Adarawa
 0;5.0298,13.2913;NG-51;Sokoto;Suroru
 0;5.2534,13.2577;NG-51;Sokoto;Tungan Ama

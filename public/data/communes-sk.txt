@@ -3143,6 +3143,7 @@
 0;17.3814,48.7656;906 06;Okres Myjava;Miče
 0;17.6333,48.7167;907 01;Okres Myjava;Mesto
 536;18.2599,49.1729;020 52;Okres Púchov;Mestečko
+0;18.0000,49.0000;913 33;Okres Trenčín;Mešťáci
 0;19.3687,48.1966;990 01;Okres Veľký Krtíš;Mešovka
 0;18.8981,48.1674;962 71;Okres Krupina;Merovce
 0;17.9436,48.4622;920 61;Okres Hlohovec;Merašice

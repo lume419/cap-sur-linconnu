@@ -3209,7 +3209,7 @@ servis par Node à la racine du site, données lues sur le disque par le serveur
 **Sécurité côté Node (audit du 17/09/2026)** : en-têtes HTTP (CSP stricte — le script inline de thème
 est autorisé par son empreinte SHA-256, à recalculer s'il change —, HSTS, `nosniff`, `frame-ancestors
 'none'`), `X-Powered-By` retiré ; limitation de débit par IP et par minute (tirages 20, export PDF 10,
-recherche 60, photos 400, activités et randonnées 120, autres API 120, gros fichiers statiques 30 ; réponse 429 —
+recherche 60, photos 400, activités et randonnées 120, autres API 120, gros fichiers statiques 30 requêtes ET 220 Mo ; réponse 429 —
 valeurs relues sur `server.js` au 7e audit, la recherche y était annoncée à 180) ; `/data/` en 404
 (les bundles de 226 Mo n'y sont plus servis) ; caches en mémoire bornés à 5 000 entrées ; distances
 reçues plafonnées à 3 000 km ; noms venus d'OpenStreetMap/Wikipédia échappés avant insertion HTML et
@@ -3731,6 +3731,139 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
 
 > Les passes d'audit sont listées de la plus récente à la plus ancienne. Les passes 4, 5 et 6 n'ont jamais eu de section ici : elles manquent au README, pas au dépôt (17e audit du 20/09/2026).
 
+### Dix-neuvième passe d'audit (21 septembre 2026)
+
+Relecture complète en cinq volets, comme la précédente. Le résultat le plus dur à écrire : **la 18e passe a supprimé
+139 lieux sur la foi d'un chiffre inventé**, et dix-sept d'entre eux étaient des lieux réels — dont Troianul, chef-lieu
+de commune roumain de 3 502 habitants. Le reste de la passe a trouvé deux régressions graves du service PDF ajouté la
+semaine précédente, un vérificateur d'invariants qui comparait le moteur à lui-même sur trois contrôles de sécurité, et
+huit chiffres faux écrits par la 18e passe elle-même.
+
+**La règle des coordonnées à deux entiers, révisée et en partie annulée.** Elle se justifiait ainsi : « GeoNames publie
+cinq décimales, la probabilité qu'un lieu réel tombe sur deux entiers exacts est de l'ordre de 1 sur 10 milliards ».
+Mesure refaite sur les dumps (4 989 386 fiches) : **0,13 % des fiches ont une latitude entière**, 1,6 % tombent sur la
+grille du dixième de degré ; l'attendu par hasard n'est pas zéro mais **neuf**, pour 155 observées, et le facteur
+d'enrichissement à 1° (×17) est du même ordre qu'à 0,1° (×11), où personne ne parlerait de valeur bouchon. Deux entiers
+signalent une source **grossière**, pas une fiche inventée. La règle n'écarte donc plus une fiche que si **rien dans le
+dépôt ne corrobore sa position** : ni une fiche du même nom à coordonnée fine à moins de 5 km, ni un point postal
+officiel à moins de 15 km — deux critères qui bornent l'erreur du point. Sur les 139 : 15 corroborées par la première
+voie, 55 par la seconde, **63 restituées** (liste `PLACEHOLDER_COORD_OK`, avec la preuve de chacune), 76 toujours
+écartées faute de toute corroboration (Scarborough à « 60 / −96 » dans la toundra du Manitoba en fait partie).
+Vérification : les six générateurs capables de tourner hors ligne et couvrant 19 des 28 pays concernés reproduisent
+**exactement** la restitution, `+63 −0` et rien d'autre. Preuve par l'absurde conservée : Alajärvi (Finlande,
+8 793 habitants) est publié à la latitude exactement 63,00000 ; si sa longitude l'avait été aussi, la règle effaçait une
+ville de 8 800 habitants. Effet de bord heureux : `Nyhamar` étant corroboré par le code postal 5966, l'île de Hisarøy
+a de nouveau un lieu et la liaison `continental|hisaroy` redevient utilisable.
+
+**Service PDF : deux régressions de la 18e passe.**
+- **La file se déversait dans le processus principal.** L'en-tête promettait que « la mort ou l'expiration du fil ne
+  concerne QUE le travail en cours ». C'était faux : `dernierÉchec` interdit de relancer un fil pendant 5 secondes, et
+  `défiler()` retombait alors sur le repli — mise en page **synchrone** — pour chaque travail de la file. Mesuré bout en
+  bout : page d'accueil servie en **3 101 ms** au lieu de 13 ms. Pendant le délai de garde, la file **attend**
+  désormais ; le repli reste réservé au travail que le fil a lâché en vol, ou au cas où le fil refuse de démarrer.
+- **Le temps d'horloge d'un fil mort était facturé comme du temps de calcul** : jusqu'à 15 000 ms imputés d'un coup sur
+  les 25 000 ms par minute du site entier, soit 60 % du budget global pour un seul export malchanceux. La réponse porte
+  maintenant deux durées — `ms` pour le quota de l'adresse demandeuse, `msProcessus` pour le budget global — et la part
+  attribuée au fil est plafonnée à son propre budget de mise en page (3,5 s).
+- `stop()` est appelé **après** la fermeture de l'écoute : l'export en cours n'est plus rejeté en 503 à chaque
+  redéploiement, ce que le commentaire voisin prétendait déjà. Et `défiler()` ne laisse plus passer une exception
+  synchrone de `new Worker()`, qui devenait une exception non rattrapée, donc un arrêt du processus.
+
+**Quota des gros fichiers statiques.** Il n'avait aucun contrôle d'origine, alors que `/api/` en a un depuis le
+11e audit pour exactement la même raison : trente balises `<img src="…/css/style.css?1">` sur une page tierce
+suffisaient à faire répondre 429 à la feuille de style et aux trois scripts pendant une minute, pour 537 ko envoyés —
+le site devenait inutilisable pour ce visiteur. Le même contrôle s'y applique maintenant. Et le plafond d'octets ajouté
+à la 18e passe **ne comptait rien sur une réponse interrompue** (`finish` ne se déclenche pas) : 30 coupures à 10 Mio
+tiraient 301,9 Mio en une minute contre 224,0 Mio pour un client honnête. Les octets sont désormais relevés sur la
+socket à la **fermeture** de la réponse, ce qui compte aussi les coupures et corrige au passage les requêtes `HEAD`,
+qui comptaient un corps qu'elles n'envoient pas.
+
+**Le vérificateur d'invariants ne se juge plus lui-même.** Il appelait les fonctions du moteur pour calculer ce qu'il
+était censé vérifier. Démonstration : remplacer `tensionOf` par `return null` — c'est-à-dire **désactiver entièrement le
+filtre des zones à tension** — laissait 67 tests sur 67 au vert et zéro violation sur 300 tirages, y compris les trois
+tests qui portent « tension » dans leur nom. La zone à tension, l'adjacence des frontières et la proximité des bornes
+de recharge sont maintenant **recalculées** à partir des données, avec leur propre index ; la même mutation produit
+**124 violations** et fait tomber quatre tests. Seule la primitive géométrique « un lieu d'un autre pays à moins de
+N km » reste empruntée au moteur, et c'est écrit. L'auto-test du vérificateur couvre **quatorze familles** au lieu de
+dix, chaque injection déclare la famille qu'elle doit faire lever — ce qui a révélé une étiquette fausse de plus — et
+une assertion vérifie que la liste visée est bien couverte. Enfin, le test « file d'attente bornée » ne testait pas la
+file : ses 503 venaient du créneau d'export, et rendre la file infinie laissait les soixante tests serveur au vert. Il
+s'adresse désormais au module, et compare deux bornes : la plus large doit servir strictement plus de documents.
+
+**« Hors de portée, X km au plus » calculé sans le filtre du visiteur.** Quand tout ce qui entoure le départ est en zone
+à tension, le plafond annoncé venait du second tirage, **filtre désactivé** : le visiteur réduisait à 309 km comme on le
+lui disait et recevait alors « décochez Exclure les zones déconseillées ». Mesuré : 28 annonces sur 268, soit 10,4 %.
+La réponse porte maintenant les deux diagnostics, `returnCapExact` passe à `false`, et le client compose les deux
+phrases **déjà traduites** dans les 161 langues plutôt que d'en inventer une troisième.
+
+**Interface.**
+- **Les 161 noms de langues n'avaient pas d'attribut `lang`** : la page portant la langue du visiteur, un lecteur
+  d'écran prononçait « 日本語 » et « ქართული » avec la voix française. C'est le seul endroit du site où la règle
+  « langue d'un passage » compte vraiment — un aveugle ne peut pas choisir sa langue dans un sélecteur de langues.
+  Chaque nom porte maintenant son `lang` et son `dir`.
+- **Ordre bidi cassé dans les cinq langues de droite à gauche** : `K'iche'` s'affichait `'K'iche`, `ARS AR$` s'affichait
+  `$ARS AR` (toutes les devises à symbole final), le badge `69001 +8` s'affichait `8+ 69001`. Les fragments latins
+  portent maintenant leur direction.
+- **« Aucune langue trouvée » n'était toujours pas annoncé** : le `role="option"` de la 18e passe le rendait *présent*
+  dans l'arbre d'accessibilité, rien ne le faisait *prononcer*. Une région vivante, rattachée au champ de recherche, s'en
+  charge — comme `#export-hint` le fait pour l'export.
+- **La recherche au clavier des devises ne défilait pas** sur une lettre répétée : le tampon était concaténé, « cc » ne
+  préfixe rien, la liste ne bougeait pas — alors que le commentaire et le message de commit affirmaient le contraire.
+  Le tampon repart de la dernière frappe quand il ne correspond plus à rien, et il est vidé à la fermeture du panneau.
+  Le test du 18e audit n'avait rien vu parce qu'il appelait la fonction pure avec un tampon déjà remis à zéro, état que
+  l'appelant ne produit jamais ; il rejoue maintenant de vrais événements clavier sur la liste montée.
+
+**Corrections et documents.**
+- **Cinq corrections déclarées depuis la 12e passe, soit sept passes d'audit, n'étaient toujours pas dans les fichiers
+  publiés** : un lieu nommé « Test » en Andalousie, « XXX » au Guipúzcoa, trois villages croates avec un tiret bas. Elles
+  sont appliquées, et la liste des exceptions « en attente » est **vide**.
+- **`build-country-communes.js` était un no-op silencieux** : sans `ONLY_COUNTRY`, il ne faisait rien, n'affichait rien
+  et sortait en code 0 — un générateur muet qui « réussit » est indiscernable d'un générateur qui a travaillé, et c'est
+  ce qui a laissé « Test » et « XXX » publiés sept passes durant. Il dit maintenant ce qu'il attend, et sort en erreur.
+- **`searchCrumbs` contredisait la politique de confidentialité** : seule table par adresse sans purge horaire, alors
+  que la page affirme que ces compteurs ne survivent pas à la minute. Elle est purgée comme les autres. La politique et
+  le README disent par ailleurs ce que le quota des gros fichiers mesure réellement (30 requêtes **et** 220 Mo).
+- **« Ces polices sont incorporées dans chaque PDF » était faux** : pdfkit n'incorpore que celles qu'il utilise —
+  trois pour un export français, quatre pour le japonais, l'arabe ou le dzongkha, relevé sur des documents produits.
+
+**Huit chiffres faux de la 18e passe, corrigés.** Le plus gros : « 14 335 lieux portent le même nom écrit avec deux
+apostrophes différentes » — c'est **3 351**, dans 475 groupes (Yémen 233). Le chiffre d'origine sommait, pour chaque
+forme normalisée, l'écart entre l'ancien et le nouveau nombre de lieux, en comptant au passage des groupes dont tous les
+membres s'écrivent pourtant à l'identique : le bénéfice réel est 4,3 fois plus modeste. Également : l'écart de durée sur
+une traversée estimée de 1 000 km vaut **30 heures** et non 21 (la passe sous-estimait de neuf heures l'incertitude
+qu'elle signalait) ; 17 689 alias à harakat et non 17 004 ; 40 571 lieux à apostrophe modificative et non 40 696 ;
+147 accents graves, 77 tirets demi-cadratins, 17 accents aigus ; « vingt lectures d'i18n.js » et non dix-huit ;
+`style.css` fait 70 513 octets et non 6 ko. Enfin, l'empreinte du normalisateur prétendait traverser « toute la famille
+élargie » : elle en couvrait **4 caractères sur 27**, et pas U+2019, le plus fréquent (73 761 lieux). Elle les traverse
+tous les 34 désormais, vérifié un par un.
+
+**Quasi-doublons : le dédoublonnage et la recherche voient enfin les mêmes.** Le dédoublonnage des générateurs
+comparait le nom BRUT, le moteur le nom NORMALISÉ : 1 212 paires de lieux d'un même pays portaient le même nom à moins
+de 300 m selon le critère du moteur, contre 837 selon celui du dédoublonnage — dont 317 dans une même case de 0,01°,
+que le dédoublonnage aurait dû attraper. Sa clé est passée au nom normalisé, celui du moteur, et **572 lignes de
+doublons disparaissent** (NP 188, IN 76, PK 70, MX 50, BD 27…). Fusionner ne rend rien introuvable : les deux graphies
+se normalisent à l'identique, la recherche les trouvait donc déjà toutes les deux par la même saisie — ce qui disparaît,
+c'est la suggestion en double et la population contradictoire. Le départage retient la graphie la plus **fréquente**
+dans le pays, puis la population : la population seule gardait la coquille « Älajärvi » (10 308 hab., vue une fois)
+plutôt qu'« Alajärvi » (8 793 hab., vue trois fois), « Berezovo » plutôt que « Berëzovo » (54 fois), « Ar Rubū` »
+plutôt qu'« Ar Rubū‘ ». Sur les 572 groupes, les deux critères désignent la même graphie 443 fois ; sur les
+129 divergences la fréquence l'emporte partout sauf en roumain, où la cédille héritée « Dobreşti » est plus fréquente
+que la virgule souscrite correcte « Dobrești » — limite écrite dans le code, faute d'une source orthographique.
+
+**Ce que la passe a changé, mesuré.** Suite complète : **262 tests, aucun échec**, 3 000 tirages sans une seule
+violation d'invariant. Outil de comparaison de versions : **20 tirages changés sur 380**, tous expliqués — 13 sont le
+diagnostic « hors de portée » qui porte désormais aussi `tensionBlocked` (Moscou, Kyiv, Téhéran, Kharkiv, Caracas,
+Kaboul, Mopti, Lewe, Xarardheere, Calumboyan : le plafond annoncé est le même, la réponse dit en plus que le filtre a
+été ignoré pour l'obtenir), 7 sont des itinéraires qui passaient par un des 572 doublons retirés ou par un des
+63 lieux restitués. Aucun trajet direct changé (0 / 1 610), aucun plafond d'hébergement (0 / 3 585), et les
+55 contre-épreuves « hors de portée » passent des deux côtés.
+
+**Mesuré, documenté, figé — mais pas corrigé.** Un défaut réel que le dépôt n'a pas de quoi corriger honnêtement :
+- **365 liaisons de ferry annoncent une traversée plus courte que la ligne droite entre leurs ports**, dont 188 de plus
+  d'un kilomètre, 42 de plus de cinq, 12 de plus de dix. Ce n'est pas une donnée fausse mais la conséquence connue d'un
+  port pris au centre de la localité plutôt qu'au quai ; les pires cas sont déjà documentés comme non recalés faute de
+  quai relevé. Un test fige les deux seuils : un quai relevé les fera baisser, rien ne les fera monter.
+
 ### Dix-huitième passe d'audit (21 septembre 2026)
 
 Relecture complète en cinq volets (serveur, moteur, données, interface, tests), chaque auditeur relisant tout son
@@ -3762,9 +3895,11 @@ tapant exactement le même caractère.
   calcul, et rien n'empêchait d'en enchaîner. Les millisecondes sous le seuil s'additionnent par adresse et sont
   imputées dès qu'elles le franchissent : même total facturé, aucune recherche ordinaire isolée ne pèse.
 - **Gros fichiers statiques : un plafond d'octets** en plus des 30 requêtes par minute. Les quatre fichiers visés vont
-  de 6 ko à 11 Mo non compressés : les mêmes 30 requêtes valaient 0,2 Mo ou 330 Mo selon celui qu'on demandait. Le
+  de 70 513 octets à 11 Mo non compressés : les mêmes 30 requêtes valaient 0,5 Mo ou 330 Mo selon celui qu'on
+  demandait. Le
   plafond (220 Mo/min/adresse) est hors de portée d'un navigateur — une page complète tire ~1,2 Mo compressés — mais
-  coupe à dix-huit lectures d'`i18n.js` non compressé. Les 304 ne portent aucun octet et ne comptent pas.
+  coupe à vingt lectures d'`i18n.js` non compressé (mesuré : 20 lectures, 224,0 Mio avant le premier 429). Les 304 ne
+  portent aucun octet et ne comptent pas.
 - **Journal de la recherche borné** à 200 caractères : le message peut reprendre la saisie du visiteur.
 - **Sensibilité à la casse des règles Apache** : vérifiée en production plutôt que supposée — `/server.js` répond 301
   (règle appliquée), `/Server.js` et `/LIB/trip-engine.js` répondent 404 sur un système de fichiers sensible à la
@@ -3792,16 +3927,19 @@ tapant exactement le même caractère.
   1,287 (`ROAD_FACTOR`) depuis la 7e passe. Le code était juste, le nombre cité ne l'était plus.
 
 **Recherche : les apostrophes et les tirets que personne ne tape.** Le normalisateur ne connaissait que le trait
-d'union, l'apostrophe droite et l'apostrophe courbe. Or les données publiées comptent **40 570 lieux** portant une
-apostrophe modificative (`Chervonyy Donets‘`, `Jaganʻ`), **150** un accent grave (`T`lminci`), **79** un tiret
-demi-cadratin (`Nago–Torbole`), 47 un point médian (`Compostel·la`), et **17 004 alias** des harakat arabes
+d'union, l'apostrophe droite et l'apostrophe courbe. Or les données publiées comptent **40 571 lieux** portant une
+apostrophe modificative (`Chervonyy Donets‘`, `Jaganʻ`), **147** un accent grave (``T`lminci``), **77** un tiret
+demi-cadratin (`Nago–Torbole`), 43 un point médian (`Compostel·la`), et **17 689 alias** des harakat arabes
 (`مَاَلقَة`) — aucun clavier ne produit ces caractères à la place des ordinaires. Conséquence mesurée :
-**14 335 lieux** d'un même pays portent le même nom écrit avec deux apostrophes différentes ; au Yémen, les
-**232 groupes** réunis par ce correctif réunissent **tous** deux graphies d'un seul nom (`Shay\`ān` et `Shay‘ān`,
-`Ar Rubū\`` et `Ar Rubū‘`) — chercher l'une ne rendait jamais les lieux écrits avec l'autre. La famille est maintenant
-complète, le point médian et les harakat sont retirés sans couper le mot, et l'empreinte du normalisateur
-(`normSignature`) traverse chacun de ces caractères : sans cela, l'index déjà construit serait resté « valide » avec
-des clés périmées — exactement le défaut que cette empreinte avait été écrite pour empêcher, au 17e audit.
+**475 groupes**, soit **3 351 lieux** d'un même pays, portent le même nom écrit avec deux graphies différentes sans
+être réunis ; au Yémen, les **233 groupes** réunis par ce correctif réunissent **tous** deux graphies d'un seul nom
+(``Shay`ān`` et `Shay‘ān`, ``Ar Rubū``` et `Ar Rubū‘`) — chercher l'une ne rendait jamais les lieux écrits
+avec l'autre. La famille est maintenant complète, le point médian et les harakat sont retirés sans couper le mot, et
+l'empreinte du normalisateur (`normSignature`) traverse chacun de ces caractères : sans cela, l'index déjà construit
+serait resté « valide » avec des clés périmées — exactement le défaut que cette empreinte avait été écrite pour
+empêcher, au 17e audit. *(Chiffres corrigés à la 19e passe : la 18e annonçait 40 570 lieux, 150 accents graves,
+79 tirets, 47 points médians, 17 004 alias et 14 335 lieux réunis ; et son empreinte ne couvrait en réalité que quatre
+des vingt-sept caractères de la famille — voir la section de la 19e passe.)*
 
 Ce changement ne touche QUE la recherche, et c'est mesuré : l'outil de comparaison rend **5 tirages changés sur 380**
 entre le dépôt et cette passe, et les **mêmes 5** avec la nouvelle normalisation remise à son ancien état — elle n'en
@@ -3811,13 +3949,16 @@ paire de ports se choisit maintenant à la vitesse du vélo. Aucun trajet direct
 d'hébergement (0 / 3 585), et les 55 contre-épreuves « hors de portée » passent des deux côtés.
 
 **Données.**
-- **139 coordonnées « bouchon »** (latitude ET longitude à l'entier exact) écartées, dans 55 pays. GeoNames publie cinq
-  décimales : la probabilité qu'un lieu réel tombe sur deux entiers exacts est de l'ordre de 1 sur 10 milliards.
-  Exemples vérifiés : Seminyak (ID) publié à « −5 / 120 », en mer de Florès, alors que le vrai Seminyak de Bali est
-  publié 750 km plus loin ; Scarborough (CA) à « 60 / −96 », dans la toundra du Manitoba. Aucune position n'a été
-  inventée pour les remplacer : la fiche est écartée.
+- **139 coordonnées à deux entiers exacts écartées**, dans 55 pays — **règle révisée et en partie annulée à la 19e
+  passe, voir sa section** : l'argument avancé ici (« GeoNames publie cinq décimales, la probabilité qu'un lieu réel
+  tombe sur deux entiers exacts est de l'ordre de 1 sur 10 milliards ») était faux de quatre ordres de grandeur, et
+  63 des 139 fiches, corroborées par une autre source du dépôt, ont été restituées. Restent écartées les 76 que rien
+  ne corrobore : Scarborough (CA) à « 60 / −96 », dans la toundra du Manitoba, un lieu nommé « China » en Tanzanie.
+  Aucune position n'a jamais été inventée pour les remplacer : une fiche est écartée, jamais déplacée.
 - **Conséquence assumée, et corrigée** : le seul lieu publié de l'île norvégienne de Hisarøy, `Nyhamar`, portait une
-  telle coordonnée (61,0000 ; 5,0000). L'île n'a plus aucun lieu, et la liaison `continental|hisaroy` perdait son port.
+  telle coordonnée (61,0000 ; 5,0000). L'île n'avait alors plus aucun lieu, et la liaison `continental|hisaroy`
+  perdait son port. (La 19e passe a restitué `Nyhamar`, corroboré par le code postal 5966 : l'île est de nouveau
+  desservie. Le quai OpenStreetMap relevé ci-dessous reste en place, plus précis que le centre de la localité.)
   Plutôt qu'inventer un point, le terminal est relevé sur OpenStreetMap (nœud 4334643364, `amenity=ferry_terminal`, à
   2,4 km d'Eivindvik) : la liaison reste sourcée de bout en bout. Contrôle complet : plus aucune coordonnée de port
   n'est un couple d'entiers.
@@ -3854,7 +3995,7 @@ d'hébergement (0 / 3 585), et les 55 contre-épreuves « hors de portée » pas
   seconde, une lettre répétée fait défiler, la recherche reboucle — règles usuelles d'une listbox.
 
 **Mentions légales**, trois manques réels.
-- Les **24 polices incorporées dans chaque PDF** (23 familles Noto) n'étaient citées nulle part — le mot « PDF »
+- Les **24 fichiers de police que l'export PDF peut incorporer** (23 familles Noto) n'étaient cités nulle part — le mot « PDF »
   n'apparaissait pas une fois sur la page —, dont **Noto Sans CJK © Adobe**, absent des cinq polices d'affichage
   listées. L'OFL exige que sa notice accompagne la redistribution, et un PDF diffusé en est une. Un test compare le
   nombre de familles annoncé au contenu réel de `pdf-fonts/`.

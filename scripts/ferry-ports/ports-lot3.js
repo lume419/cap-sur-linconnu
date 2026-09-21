@@ -152,12 +152,13 @@ module.exports = [
     ports: { continental: [{ cc: 'NO', place: 'Rebnor' }], fedje: [{ cc: 'NO', place: 'Fedje' }] } },
   { key: 'continental|leroy', source: 'https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (Klokkarvik ↔ Lerøy)',
     ports: { continental: [{ cc: 'NO', place: 'Klokkarvik' }], leroy: [{ cc: 'NO', place: 'Lerøyna' }] } },
-  // Rive « hisaroy » : quai OpenStreetMap seul depuis le 18e audit du 21/09/2026. Le seul lieu publié de l'île,
-  // Nyhamar, portait une coordonnée bouchon (61,0000 ; 5,0000 — deux entiers exacts, voir isPlaceholderCoord dans
-  // scripts/communes-corrections.js) et a été écarté avec les 138 autres ; l'île n'a plus aucun lieu dans les données.
-  // Le terminal est relevé sur OpenStreetMap plutôt qu'inventé : nœud 4334643364 « Hisarøy », amenity=ferry_terminal,
-  // à 2,4 km d'Eivindvik, rangé sur la rive « hisaroy » par landmassOf. La liaison reste donc sourcée de bout en bout,
-  // même si aucune étape ne peut s'y arrêter tant que l'île n'a pas de lieu publié.
+  // Rive « hisaroy » : quai OpenStreetMap relevé au 18e audit du 21/09/2026. Le seul lieu publié de l'île, Nyhamar,
+  // avait alors été écarté par la règle des coordonnées à deux entiers (61,0000 ; 5,0000), privant la liaison de son
+  // port ; le terminal a donc été relevé sur OpenStreetMap plutôt qu'inventé : nœud 4334643364 « Hisarøy »,
+  // amenity=ferry_terminal, à 2,4 km d'Eivindvik, rangé sur la rive « hisaroy » par landmassOf.
+  // 19e audit du 21/09/2026 : Nyhamar est restitué (corroboré par le code postal 5966, voir PLACEHOLDER_COORD_OK),
+  // l'île est donc de nouveau atteignable. Le quai reste : il situe le terminal, là où le lieu ne donne que le centre
+  // de la localité à une coordonnée arrondie au degré.
   { key: 'continental|hisaroy', source: 'https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (Mjånes ↔ Hisarøy)',
     ports: { continental: [{ cc: 'NO', place: 'Eivindvik' }],
              hisaroy: [{ cc: 'NO', name: 'Hisarøy', quay: { osm: 'node/4334643364', lat: 60.9973276, lon: 5.0172346 } }] } },

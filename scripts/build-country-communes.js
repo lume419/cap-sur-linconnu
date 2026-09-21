@@ -492,6 +492,17 @@ const AX_EXCLUDE_NAMES = new Set(['Yomala']);
 const MK_CYRILLIC_RE = /[Ѐ-ӿ]/;
 const ASCIINAME_FALLBACK_COUNTRIES = new Set(['MK', 'BY', 'UA']);
 
+// Générateur MUET SI ON NE LUI DIT RIEN (19e audit du 21/09/2026) : sans ONLY_COUNTRY, la liste est vide, la
+// boucle ne tourne pas, rien n'est écrit et le script sortait en code 0 sans un mot. Un générateur silencieux qui
+// « réussit » est indiscernable d'un générateur qui a travaillé — c'est ce qui a laissé « Test » et « XXX » publiés
+// pendant sept passes d'audit sans que personne ne s'en plaigne. Il dit maintenant ce qu'il fait, et sort en erreur.
+if(!COUNTRIES.length){
+  console.error('build-country-communes.js : aucun pays demandé. Ce script ne régénère QUE les pays listés dans');
+  console.error('  ONLY_COUNTRY (ex. ONLY_COUNTRY=RO,BG node scripts/build-country-communes.js), et seulement si');
+  console.error('  scripts/dump/XX_dump.txt ET scripts/postal/XX_postal.txt sont présents sur le disque.');
+  process.exit(1);
+}
+console.log('build-country-communes.js : ' + COUNTRIES.length + ' pays demandé(s) — ' + COUNTRIES.join(', '));
 for(const country of COUNTRIES){
   const dumpRaw = fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8');
   const postalRaw = fs.readFileSync(path.join(__dirname, 'postal', country + '_postal.txt'), 'utf8');

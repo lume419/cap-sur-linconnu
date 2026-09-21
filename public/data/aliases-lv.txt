@@ -3188,7 +3188,6 @@ ru;Инте;Inte
 ru;Инеши;Ineši
 ru;Калейциемс;Kalējciems
 ru;Индрики;Indriķi
-ru;Индрикени;Indriķēni
 ru;Индрани;Indrāni
 ru;Индра;Indra
 ru;Индани;Indāni
@@ -3881,7 +3880,6 @@ ru;Бервирцава;Bērvircava
 ru;Бертмеи;Bertmeji
 ru;Бернати;Bernāti
 ru;Бернани;Bernāni
-ru;Силюкалнс;Sīļukalns
 ru;Бернадски;Bernadski
 ru;Берги;Berģi
 ar;بيرغي;Berģi

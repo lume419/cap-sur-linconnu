@@ -11144,7 +11144,6 @@
 0;15.7432,8.5885;TD-08;Logone Occidental;Dodjigui
 0;15.3150,8.4578;TD-08;Logone Occidental;Doléna
 0;15.5877,8.5498;TD-08;Logone Occidental;Dolienn
-0;15.8742,8.2297;TD-09;Logone Oriental;Donkazé
 0;15.7498,8.5823;TD-08;Logone Occidental;Douala
 0;15.5856,8.3853;TD-08;Logone Occidental;Dougourou
 0;15.9363,8.8492;TD-08;Logone Occidental;Godoeur

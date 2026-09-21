@@ -7863,3 +7863,4 @@ ru;Святые Константин и Елена;Sv. Konstantin i Elena
 ru;Ахелой;Aheloy
 ru;Болгарево;Balgarevo
 bg;Иван Вазово;Ivan-Vazovo
+bg;Дебели рът;Debeli Rat

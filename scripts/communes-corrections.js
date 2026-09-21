@@ -76,6 +76,11 @@
 // à ligne des décisions pour les pays non régénérables : ES, HR, IT, DE…, BA).
 
 // geonameid -> [pays du dump, nom, pays réel, 'doublon' | 'absent', détail]
+
+// Normalisation des noms : CELLE DU MOTEUR, pas une copie (19e audit du 21/09/2026). Le dédoublonnage et la
+// recherche doivent voir les mêmes doublons : leur divergence laissait passer 317 paires de lieux identiques à moins
+// de 300 m dans une même case de 0,01°.
+const { normalizeCityName } = require('../lib/trip-engine.js').internals;
 const WRONG_COUNTRY = {
   // Afrique de l'Ouest / Sahel
   '2423034':  ['GN', 'Biramadougou', 'ML', 'absent', 'région de Koulikoro, au nord de Kangaba'],
@@ -551,18 +556,107 @@ function repairAliasTypography(text, ignoreReject){
   return t;
 }
 
-// COORDONNÉE « BOUCHON » : latitude ET longitude à l'entier exact (18e audit du 21/09/2026). Le 17e audit avait
-// identifié ce motif sur une fiche — BH Magsha, « 26 / 40 », en Arabie saoudite alors que tout Bahreïn est vers
-// 50,5° E — et l'avait écartée à la main, sans passer le critère sur les autres pays. Il y en avait 139, dans
-// 55 pays. Ce ne sont pas des arrondis : GeoNames publie 5 décimales, la probabilité qu'un lieu réel tombe sur deux
-// entiers exacts est de l'ordre de 1 sur 10 milliards, soit zéro cas attendu sur 4,8 millions de lieux — et les 139
-// correspondent bien à une fiche dont les deux champs sont entiers dans le dump. Exemples vérifiés : ID Seminyak
-// publié à « -5 / 120 » (mer de Florès) alors que le vrai Seminyak de Bali est publié par ailleurs à 750 km de là ;
-// CA Scarborough à « 60 / -96 » (toundra du Manitoba), le seul Scarborough du dump étant le borough de Toronto ;
-// TZ « China » à « -3 / 33 ». 68 des 139 sont des doublons fantômes d'un lieu correct déjà publié, 71 sont la seule
-// fiche de ce nom dans leur pays — dans les deux cas le point publié est faux, et la vraie position n'est sur
-// aucune source du dépôt : la fiche est écartée, jamais déplacée (aucune coordonnée inventée).
-function isPlaceholderCoord(lat, lon){ return Number.isInteger(lat) && Number.isInteger(lon); }
+// COORDONNÉE À DEUX ENTIERS EXACTS (18e audit du 21/09/2026, RÉVISÉ au 19e du 21/09/2026).
+//
+// Ce que le 18e audit affirmait : « GeoNames publie 5 décimales, la probabilité qu'un lieu réel tombe sur deux
+// entiers exacts est de l'ordre de 1 sur 10 milliards, soit zéro cas attendu sur 4,8 millions de lieux ». C'ÉTAIT
+// FAUX de quatre ordres de grandeur, et 139 fiches ont été écartées sur cette base. Mesure refaite sur les dumps
+// eux-mêmes (4 989 386 fiches P/PPL*) : GeoNames ne publie pas cinq décimales pour tout le monde — 0,13 % des fiches
+// ont une latitude entière, 1,6 % tombent sur la grille du dixième de degré. Le nombre attendu par pur hasard n'est
+// donc pas ~0 mais NEUF, pour 155 observées ; et le facteur d'enrichissement à 1° (×17) est du même ordre qu'à 0,1°
+// (×11), où personne ne parlerait de « bouchon ». Deux entiers exacts signalent une source GROSSIÈRE, pas une fiche
+// inventée : c'est la queue continue d'une distribution de précision, pas une signature qualitative.
+//
+// Ce que l'erreur a coûté : parmi les 139 écartées, la commune de TROIANUL (Roumanie, 3 502 habitants, chef-lieu de
+// la commune de Troianul, Teleorman) — le même dump porte « Comuna Troianul » (ADM2) à 500 m et une station
+// paragrêle homonyme à 1,9 km. Également Grude (paroisse suédoise, église homonyme à 1,4 km), Fotine (Mozambique,
+// 840 m), Qucain (Tibet, 150 m), Flattum (Norvège, 730 m)… Et 55 des 139 portaient un VRAI code postal, c'est-à-dire
+// un point postal officiel joint à moins de 15 km. Preuve par l'absurde dans les données publiées : Alajärvi
+// (Finlande, 8 793 habitants) est publié à la latitude EXACTEMENT 63,00000 ; si sa longitude l'avait été aussi, la
+// règle effaçait une ville de 8 800 habitants.
+//
+// RÈGLE RÉVISÉE : une coordonnée à deux entiers n'est écartée que si RIEN dans le dépôt ne corrobore sa position.
+// Corroboration (l'une des deux suffit, toutes deux bornent l'erreur du point) :
+//   (a) une autre fiche du dump du pays porte le même nom — ou le contient comme mot entier — avec une coordonnée
+//       NON entière à moins de 5 km : le point publié est grossier, l'écart est borné par ces 5 km ;
+//   (b) le générateur a joint un vrai code postal, donc un point postal officiel à moins de 15 km.
+// Mesure au 19e audit sur les 139 fiches : 15 corroborées par (a), 55 par (b), 63 par l'une ou l'autre — RESTITUÉES,
+// listées ci-dessous avec leur preuve. Les 76 autres restent écartées : toutes sont dans des pays sans fichier
+// postal (la colonne « code » y est une étiquette de région) et aucune fiche fine du même nom n'existe à moins de
+// 5 km — leur point peut être faux de 78 km sans que rien ne permette de le savoir, et le dépôt n'a aucune source
+// pour le corriger. Exemples conservés du 18e audit : CA Scarborough « 60 / -96 » (toundra du Manitoba, le seul
+// Scarborough du dump étant le borough de Toronto), TZ « China » « -3 / 33 ». Une fiche est écartée, jamais déplacée
+// (aucune coordonnée inventée). Le script de corroboration est reproductible : voir la description ci-dessus, il
+// relit les dumps et le diff du 18e audit.
+const PLACEHOLDER_COORD_OK = new Set([
+  '2778012', // AT Gressenberg (32 hab.) — code postal 5112
+  '2775912', // AT Hochwald — code postal 6450
+  '2762605', // AT Untertiefenbach — code postal 8313
+  '2142438', // AU Yarrigan — code postal 2396
+  '732607', // BG Cheresha — code postal 2190
+  '732357', // BG Debeli Rat — code postal 5084
+  '726766', // BG Stoyanovtsi — code postal 5084
+  '3907488', // BO Prado — Arroyo Prado (H/STM) à 2.6 km
+  '8049327', // CN Qucain — Qucain (H/SPNT) à 0.1 km
+  '3072262', // CZ Lázně Svaté Markety — code postal 383 01
+  '2811699', // DE Weißthal — code postal 09648
+  '3128850', // ES Baos — code postal 15151
+  '2520319', // ES Cañamares — code postal 23477
+  '654760', // FI Kalkkola — code postal 16160
+  '652671', // FI Kirkonkylä — code postal 62101
+  '652434', // FI Kivijärvi — code postal 43660
+  '649090', // FI Långö — code postal 66400
+  '3728099', // HT Cayepin — code postal HT5130
+  '1648108', // ID Boti — Tanjung Boti (T/PT) à 2.4 km
+  '1734149', // ID Kapulu — code postal 77155
+  '6951070', // ID Nusa Dua — code postal 92767
+  '1630931', // ID Poli — code postal 94475
+  '6951059', // ID Seminyak — code postal 92767
+  '1627412', // ID Setapok — code postal 79123
+  '1845333', // KR Chuam — code postal 58142
+  '1838431', // KR Pyeong — code postal 17927
+  '1242796', // LK Jayanthipura — Jayanthipura (A/ADM4) à 3.5 km
+  '1083046', // MG Ambatolahy — Ambatolahy (A/ADM4) à 2.7 km
+  '1068590', // MG Beanana — Beanana (A/ADM4) à 2.1 km
+  '1303668', // MM Nyaungbintha — Nyaungbintha-anauk (P/PPL) à 0.5 km
+  '4007285', // MX El Tequesquite — code postal 46448
+  '3979256', // MX Generalísimo Morelos — code postal 22940
+  '4003843', // MX Joya de Ballesteros — code postal 60554
+  '3994317', // MX Ojo de Gracias a Dios — code postal 26634
+  '3990204', // MX Rancho Grande — code postal 26634
+  '1046285', // MZ Fotine — Fotine (P/PPL) à 0.8 km
+  '3157110', // NO Flattum — Flattum (S/FRM) à 0.7 km
+  '3145712', // NO Mo — Mo (S/CH) à 1.7 km
+  '3143985', // NO Nyhamar — code postal 5966
+  '3936921', // PE La Perla (107 hab.) — code postal 15255
+  '1731796', // PH Agutayan — code postal 5307
+  '1728998', // PH Bagsak — code postal 7501
+  '1712834', // PH Gitabla — code postal 6523
+  '1687478', // PH San Vicente — code postal 5309
+  '754147', // PL Zagrody — Zagrody (P/PPL) à 2.4 km
+  '664591', // RO Troianul (3502 hab.) — Troianul Anti-hail Rocket Firing Station (S/FCL) à 1.9 km
+  '583735', // RU Akishino — code postal 143512
+  '575864', // RU Bobry — code postal 181370
+  '2023885', // RU Grazhdanovka — code postal 676966
+  '544034', // RU Kosov — code postal 347012
+  '534875', // RU Lishneva — code postal 188283
+  '1499601', // RU Malyye Malyuki — code postal 456530
+  '2721301', // SE Blomdal — code postal 737 90
+  '2710349', // SE Grude — Grude Kyrka (S/CH) à 1.4 km
+  '2704049', // SE Hylle — code postal 690 45
+  '12470311', // SE Landsbro — code postal 340 15
+  '604117', // SE Niemisel — code postal 955 95
+  '2688189', // SE Norsborg — code postal 640 51
+  '2681605', // SE Rosendal — code postal 643 01
+  '3058731', // SK Mešťáci — code postal 913 33
+  '303544', // TR Ömerefendi Yaylası — code postal 42770
+  '231290', // UG Kikorongo — Lake Kikorongo (H/LKC) à 2.6 km
+  '3639648', // VE Hato Bartolomé — Hato Bartolomé (S/FRM) à 1.1 km
+]);
+function isPlaceholderCoord(lat, lon, geonameid){
+  if(!Number.isInteger(lat) || !Number.isInteger(lon)) return false;
+  return !PLACEHOLDER_COORD_OK.has(String(geonameid));
+}
 // ÉTIQUETTE DE RÉGION « XX-<admin1> » (18e audit du 21/09/2026). Quand un pays n'a pas de codes postaux publiés,
 // les générateurs écrivent une étiquette informelle « XX-<code admin1 GeoNames> » dans la colonne du code postal.
 // Pour huit pays, ce « code admin1 » est en réalité un IDENTIFIANT INTERNE GeoNames à 6-8 chiffres : le visiteur
@@ -579,7 +673,7 @@ function regionLabel(country, admin1){
 // Filtre commun, appelé par chaque générateur sur chaque ligne du dump : true = lieu écarté.
 function excludePlace(country, geonameid, name, lat, lon){
   return isWrongCountry(country, geonameid) || isJunkId(country, geonameid) || HISTORICAL_NAME_RE.test(name || '') || isJunkName(name) ||
-    isProjectBatch(country, geonameid) || isAntarcticUnderAR(country, lat) || isSark(country, lat, lon) || isPlaceholderCoord(lat, lon);
+    isProjectBatch(country, geonameid) || isAntarcticUnderAR(country, lat) || isSark(country, lat, lon) || isPlaceholderCoord(lat, lon, geonameid);
 }
 
 // 7. LETTRES D'UN AUTRE ALPHABET GLISSÉES DANS UN MOT (audit n° 11) — « Áno Tripοdo » (omicron grec au milieu d'un nom
@@ -794,6 +888,29 @@ function cleanPlaceName(name){
 }
 function preparePlaceName(country, geonameid, name){ return cleanPlaceName(fixName(country, geonameid, name)); }
 
+// 9 bis. CE QUE CE DÉDOUBLONNAGE NE VOIT PAS (19e audit du 21/09/2026), mesuré sur les fichiers publiés :
+//   - sa clé compare le nom BRUT (casse ignorée) ; le moteur, lui, compare le nom NORMALISÉ depuis la 18e passe.
+//     Avec le critère du moteur, 1 212 paires de lieux d'un même pays portent le même nom à moins de 300 m, contre
+//     837 avec le critère d'ici — dont 317 DANS LA MÊME case de 0,01°, que ce dédoublonnage devrait donc attraper.
+//   - CORRIGÉ : la clé compare désormais le nom NORMALISÉ, donc 572 lignes de plus sont écartées (NP 188, IN 76,
+//     PK 70, MX 50, BD 27…), toutes des doublons de graphie (« Bergen-Einde »/« Bergen Einde », « Osluševci »/
+//     « Oslusevci », « Alajärvi »/« Älajärvi »). Fusionner ne rend RIEN introuvable : les deux graphies se
+//     normalisent à l'identique, la recherche les trouvait donc déjà toutes les deux par la même saisie — ce que la
+//     fusion supprime, c'est la suggestion en double et la population contradictoire, pas un chemin d'accès.
+//   - DÉPARTAGE : la graphie la plus FRÉQUENTE dans le pays gagne, puis la population, puis la première ligne. La
+//     population seule choisissait mal dès que les deux lignes ne s'écrivent pas pareil : elle gardait la coquille
+//     « Älajärvi » (10 308 hab., vue 1 fois) plutôt qu'« Alajärvi » (8 793 hab., vue 3 fois), « Berezovo » (vue
+//     2 fois) plutôt que « Berëzovo » (54 fois), « Ar Rubū` » plutôt qu'« Ar Rubū‘ » (vue 11 fois). Sur les
+//     572 groupes, les deux critères désignent la même graphie 443 fois ; sur les 129 divergences, la fréquence
+//     l'emporte partout sauf un motif connu : le roumain, où la cédille héritée « Dobreşti » (5 occurrences) est
+//     plus fréquente que la virgule souscrite correcte « Dobrești » (3). Limite assumée et écrite : départager deux
+//     orthographes demande une source orthographique que le dépôt n'a pas ; la fréquence est le meilleur signal
+//     disponible hors ligne.
+//   - CE QUI RESTE après la fusion : 6 paires à moins de 300 m publient encore deux populations non nulles
+//     différentes (12 avant) et 28 produisent deux suggestions (34 avant) — celles dont les deux points tombent de
+//     part et d'autre d'une limite de case de 0,01°, que cette clé ne peut pas rapprocher. tests/data.test.js fige
+//     ces deux nombres : ils ne peuvent plus grandir en silence.
+
 // 9. QUASI-DOUBLONS (audit n° 11) — le dédoublonnage des générateurs compare le nom et les coordonnées BRUTES arrondies
 //    à 0,01° : deux fiches du même lieu de part et d'autre d'une limite d'arrondi (64,24497 et 64,24503) passaient
 //    toutes les deux (93 paires : « Şūfī Qal‘ah » AF à 0,7 km, « Yaguajay » CU à 30 m…). Deuxième passe sur les lignes
@@ -801,20 +918,29 @@ function preparePlaceName(country, geonameid, name){ return cleanPlaceName(fixNa
 //    PUBLIÉES -> une seule ligne gardée, la plus peuplée (à égalité, la première). Ne fait que retirer des lignes, jamais
 //    en séparer ; l'ordre des lignes gardées est inchangé.
 function dropNearDuplicates(lines){
+  const nomOf = l => l.split(';').slice(4).join(';');
+  // Fréquence de chaque GRAPHIE dans le pays : premier critère de départage (voir 9 bis).
+  const fréquence = new Map();
+  lines.forEach(l => { if(l){ const n = nomOf(l); fréquence.set(n, (fréquence.get(n) || 0) + 1); } });
   const best = new Map();
+  // Clé : nom NORMALISÉ comme le moteur (19e audit du 21/09/2026) + point arrondi à 0,01°. Avec le nom brut, deux
+  // lignes du même lieu qui ne diffèrent que par un accent ou un trait d'union passaient toutes les deux.
   const keyOf = l => {
     const p = l.split(';'); const ll = (p[1] || '').split(',');
-    return p.slice(4).join(';').toLowerCase() + '|' + (+ll[1]).toFixed(2) + '|' + (+ll[0]).toFixed(2);
+    return normalizeCityName(p.slice(4).join(';')) + '|' + (+ll[1]).toFixed(2) + '|' + (+ll[0]).toFixed(2);
   };
   lines.forEach((l, i) => {
     if(!l) return;
-    const k = keyOf(l), pop = parseInt(l, 10) || 0, prev = best.get(k);
-    if(!prev || pop > prev.pop) best.set(k, { i, pop });
+    const k = keyOf(l), pop = parseInt(l, 10) || 0, f = fréquence.get(nomOf(l)) || 0, prev = best.get(k);
+    // Ordre : une population connue l'emporte sur une fiche à zéro (ne jamais perdre un chiffre réel au profit
+    // d'une fiche vide), puis la graphie la plus fréquente, puis la population, puis la première ligne.
+    const mieux = !prev || (pop > 0) !== (prev.pop > 0) ? (!prev || pop > 0) : (f !== prev.f ? f > prev.f : pop > prev.pop);
+    if(mieux) best.set(k, { i, pop, f });
   });
   return lines.filter((l, i) => !l || best.get(keyOf(l)).i === i);
 }
 
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
   PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES, INPUT_SYMBOL_RE, ALIAS_REPAIR_REJECT, repairAliasTypography, repairAliasLoose,
-  BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, isPlaceholderCoord, regionLabel, excludePlace,
+  BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, isPlaceholderCoord, PLACEHOLDER_COORD_OK, regionLabel, excludePlace,
   fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates };

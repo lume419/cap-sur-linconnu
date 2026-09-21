@@ -9312,7 +9312,6 @@
 0;-76.9532,20.2147;CU-09;Granma Province;Cabagán
 0;-80.1833,22.2167;CU-08;Cienfuegos Province;Cabada
 0;-74.4767,20.3236;CU-10;Guantánamo Province;Cabacú
-0;-74.4793,20.3213;CU-10;Guantánamo Province;Cabacu
 0;-75.2294,20.1078;CU-10;Guantánamo Province;Paso Burenes
 0;-75.9166,20.2112;CU-15;Santiago de Cuba Province;Santa Rita de Burene
 0;-80.6500,22.7833;CU-16;Villa Clara Province;Búfalo
@@ -10263,7 +10262,6 @@
 0;-74.6820,20.5157;CU-10;Guantánamo Province;La Vega de Taco
 0;-83.9992,22.3128;CU-01;Pinar del Río;Punta de la Sierra
 0;-84.4843,21.9217;CU-01;Pinar del Río;La Bajada
-0;-84.2933,22.2531;CU-01;Pinar del Río;Coníco
 0;-81.7240,23.1391;CU-MA;Mayabeque;Puerto Escondido
 0;-81.9050,23.0000;CU-MA;Mayabeque;Cervantes
 0;-81.8031,23.0274;CU-MA;Mayabeque;Picadura
@@ -10386,7 +10384,6 @@
 0;-76.3378,20.4657;CU-09;Granma Province;La América
 0;-76.4228,20.4569;CU-09;Granma Province;El Coco
 0;-76.4134,20.4895;CU-09;Granma Province;La Pedrera
-0;-76.3028,20.5212;CU-09;Granma Province;La Jatia
 0;-76.3126,20.5393;CU-12;Holguín Province;Veinte Rosas
 0;-82.4319,22.9325;CU-AR;Artemisa;La Ceiba
 0;-76.3761,20.5457;CU-09;Granma Province;Cauto La Yaya
@@ -11863,7 +11860,6 @@
 0;-76.6788,20.4441;CU-09;Granma Province;Santa María de las Mangas
 0;-76.5851,20.3835;CU-09;Granma Province;San Rafael
 0;-76.5408,20.3958;CU-09;Granma Province;San José de Cautillo
-0;-76.7288,20.4222;CU-09;Granma Province;Tres Macios
 0;-76.7672,20.3890;CU-09;Granma Province;San Rafael
 0;-76.8577,20.3878;CU-09;Granma Province;Monte Adentro
 0;-76.9661,20.4369;CU-09;Granma Province;Cayo Grande

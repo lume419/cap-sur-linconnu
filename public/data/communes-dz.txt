@@ -2917,7 +2917,6 @@
 0;5.7452,36.7089;18006;Jijel;Habassa
 0;1.4535,36.1187;02010;Chlef;Hbabza
 0;4.3604,36.5453;15042;Tizi-Ouzou;Haadouch
-0;5.5294,36.1183;19027;Setif;Ras el Ma
 0;6.5790,36.1842;25040;Constantine;Guettar el Aïch
 0;3.3157,36.3252;26014;Medea;Guetatech
 0;-1.6787,29.6431;08036;Bechar;Guerzim
@@ -5960,7 +5959,6 @@
 0;0.4142,35.5442;29044;Mascara;Douar Ben Ali Ouled Attou
 0;0.4181,35.5489;29044;Mascara;Ouled Bendouda
 0;0.3919,35.5478;29065;Mascara;Douar Ouled Taïeb
-0;0.5328,35.5708;48036;Relizane;El Aouïsset
 0;0.4083,35.5533;29044;Mascara;Ouled Mohamed
 0;0.3809,35.5587;29065;Mascara;Er Rmassa
 0;0.7531,35.6417;48065;Relizane;El Moaziz

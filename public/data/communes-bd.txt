@@ -9975,7 +9975,6 @@
 0;89.4077,23.7906;7720;Dhaka Division;Māgurādāngi
 0;89.2424,22.9122;9252;Khulna Division;Māgurādānga
 0;89.3458,24.4119;6780;Rajshahi Division;Māgura Mukunda
-0;88.5135,26.2865;5010;Rangpur Division;Magura
 0;89.0817,25.8850;5320;Rangpur Division;Māgura
 0;88.9029,24.9082;6570;Rajshahi Division;Māgura
 0;89.1364,24.8467;5880;Rajshahi Division;Māgura
@@ -23131,7 +23130,6 @@
 0;88.5833,24.4000;6100;Rajshahi Division;Bāze Silinda
 0;88.8883,24.5158;6250;Rajshahi Division;Bāzesātghoshpāra
 0;90.5632,22.4960;8622;Barisal Division;Bāzemohal
-0;88.5030,24.7846;6520;Rajshahi Division;Mādhāil
 0;88.9118,24.5687;6700;Rajshahi Division;Bāze Kola
 0;90.4000,23.7333;1000;Dhaka Division;Bāze Kākrāil
 0;88.8667,24.6500;6700;Rajshahi Division;Bāze Harinmāra
@@ -26873,7 +26871,6 @@
 0;91.8037,22.4789;4330;Chittagong;Jabrā
 0;91.8157,22.4686;4330;Chittagong;Madan
 0;91.8030,22.4750;4330;Chittagong;Uttar Fatehpur
-0;91.8050,22.4594;4330;Chittagong;Uttar Fātehābād
 0;91.8264,22.4934;4330;Chittagong;Dewannagar Purba
 0;91.8198,22.4928;4330;Chittagong;Pokhar Hāt
 0;91.8275,22.4870;4330;Chittagong;Bawanipur
@@ -27253,7 +27250,6 @@
 0;91.9918,22.5208;4360;Chittagong;Shophmara
 0;91.9869,22.5322;4343;Chittagong;Sonāongpāra
 0;91.9774,22.5389;4343;Chittagong;Manepāra
-0;91.9764,22.5421;4343;Chittagong;Manēpāra
 0;91.9731,22.5461;4343;Chittagong;Dattasola
 0;91.9721,22.5516;4343;Chittagong;Naladia
 0;91.9914,22.5447;4343;Chittagong;Talukdalpāra
@@ -27680,7 +27676,6 @@
 0;91.9831,22.1943;4382;Chittagong;Kulāldānga
 0;91.9777,22.1875;4393;Chittagong;Bāinjuri
 0;91.9920,22.2446;4371;Chittagong;Āsāta
-0;91.9800,22.2492;4371;Chittagong;Dhaurdenga
 0;92.0517,22.5424;4360;Chittagong;Dhakshin Ghāgra
 0;91.9651,22.2460;4371;Chittagong;Baria
 0;91.9738,22.2366;4371;Chittagong;Kurangiri
@@ -29611,7 +29606,6 @@
 0;88.6944,25.7850;5220;Rangpur Division;Dhanigrām
 0;88.6951,25.7897;5220;Rangpur Division;Husainpur
 0;88.6849,25.7862;5220;Rangpur Division;Gar Mullikpur
-0;88.6631,25.7869;5220;Rangpur Division;Nayabad
 0;88.6722,25.7765;5220;Rangpur Division;Kāntafarm
 0;88.6690,25.7749;5220;Rangpur Division;Itua
 0;88.6802,25.7815;5220;Rangpur Division;Gar Mullikpur
@@ -33021,7 +33015,6 @@
 0;89.5141,23.2216;7513;Khulna Division;Kāgajipāra
 0;89.5070,23.2193;7513;Dhaka Division;Charbila
 0;89.5073,23.2163;7513;Khulna Division;Mayānkhola
-0;89.5030,23.2127;7513;Dhaka Division;Tujārdānga
 0;89.5031,23.2090;7513;Khulna Division;Dhonda
 0;89.5134,23.2073;7513;Khulna Division;Rathdānga
 0;89.5461,23.2130;7513;Khulna Division;Jangalgrām
@@ -33270,7 +33263,6 @@
 0;89.8054,23.2068;8142;Dhaka Division;Sālikadānga
 0;89.7786,23.2078;8130;Dhaka Division;Bukrāil
 0;89.7574,23.2071;8130;Dhaka Division;Kasundi
-0;89.7533,23.2016;8130;Dhaka Division;Bāirpāra
 0;89.7676,23.2028;8130;Dhaka Division;Bhādulia
 0;89.8161,23.2044;8142;Dhaka Division;Sonadānga
 0;89.8121,23.2010;8142;Dhaka Division;Māhmudpur
@@ -33503,7 +33495,6 @@
 0;89.8041,23.2087;8130;Dhaka Division;Nischintapur
 0;89.9714,23.0179;8120;Dhaka Division;Kāndi
 0;89.7536,23.1904;8130;Dhaka Division;Ratāil
-0;88.7671,25.7439;5310;Rangpur Division;Nasāratpur
 0;88.7688,25.7387;5310;Rangpur Division;Nasaratpur
 0;88.7782,25.7432;5310;Rangpur Division;Chak Rāmpur
 0;88.8078,25.7469;5310;Rangpur Division;Kristahar
@@ -33861,7 +33852,6 @@
 0;88.8809,25.4942;5260;Rangpur Division;Pākāban
 0;88.9014,25.4965;5260;Rangpur Division;Sindurhāt
 0;88.9185,25.4917;5260;Rangpur Division;Chandrapur
-0;88.9186,25.4983;5260;Rangpur Division;Ālādipur
 0;88.9348,25.4901;5260;Rangpur Division;Bhimalpur
 0;88.9489,25.4982;5260;Rangpur Division;Uttar Sujāpur
 0;88.9544,25.4998;5260;Rangpur Division;Phulbāri
@@ -33931,7 +33921,6 @@
 0;88.9555,25.4321;5266;Rangpur Division;Harharia
 0;88.9598,25.4275;5266;Rangpur Division;Chak Durgapur
 0;88.9745,25.4296;5266;Rangpur Division;Bag Dubri
-0;88.9672,25.4295;5266;Rangpur Division;Chāndipur
 0;88.9822,25.4317;5266;Rangpur Division;Maupukur
 0;88.9882,25.4302;5266;Rangpur Division;Kalishwar
 0;88.9916,25.4181;5266;Rajshahi Division;Chandipur
@@ -34538,7 +34527,6 @@
 0;88.5100,24.5107;6230;Rajshahi Division;Adarpara
 0;88.5069,24.5057;6230;Rajshahi Division;Chak Nārāyanpur
 0;88.5095,24.5014;6230;Rajshahi Division;Kismat Tislāi
-0;88.5867,24.5034;6230;Rajshahi Division;Berabari
 0;88.5959,24.5169;6230;Rajshahi Division;Gopālpur
 0;88.5578,24.5148;6230;Rajshahi Division;Chānduria
 0;88.5622,24.5193;6230;Rajshahi Division;Deotalo
@@ -34711,7 +34699,6 @@
 0;88.2340,24.7387;6320;Rajshahi Division;Makimpur
 0;88.2244,24.7336;6320;Rajshahi Division;Sibnagar
 0;88.1703,24.7415;6320;Rajshahi Division;Kalābāri
-0;88.2028,24.7483;6320;Rajshahi Division;Goābāri Chandpur
 0;88.2319,24.7466;6320;Rajshahi Division;Champāpukur
 0;88.1644,24.5920;6302;Rajshahi Division;Chhot Joyantipur
 0;88.1524,24.5717;6302;Rajshahi Division;Nārāyanpur
@@ -34766,7 +34753,6 @@
 0;88.3261,24.6317;6300;Rajshahi Division;Shimantadighi
 0;88.3135,24.6370;6300;Rajshahi Division;Champatala
 0;88.2720,24.6303;6300;Rajshahi Division;Bāliadānga
-0;88.2859,24.6224;6300;Rajshahi Division;Jādupur
 0;88.2930,24.6310;6300;Rajshahi Division;Bālugrām
 0;88.3215,24.6265;6300;Rajshahi Division;Kushlāpāra
 0;88.3195,24.6185;6300;Rajshahi Division;Ātāhār
@@ -34939,7 +34925,6 @@
 0;88.4451,24.6370;6303;Rajshahi Division;Ramdebpur
 0;88.4191,24.6407;6303;Rajshahi Division;Dakshin Saguna
 0;88.4255,24.6437;6303;Rajshahi Division;Mānikanda
-0;88.4971,24.6388;6230;Rajshahi Division;Gālla
 0;88.4512,24.6278;6303;Rajshahi Division;Khāgrākāndar
 0;88.4419,24.6255;6303;Rajshahi Division;Jugibāri
 0;88.4610,24.6172;6303;Rajshahi Division;Telopāra
@@ -35397,7 +35382,6 @@
 0;88.6245,24.5181;6230;Rajshahi Division;San Khājura
 0;88.6017,24.5203;6230;Rajshahi Division;Harinarpur
 0;88.6009,24.5178;6230;Rajshahi Division;Belgachhi
-0;88.6133,24.5049;6230;Rajshahi Division;Khāyra
 0;88.6351,24.5042;6220;Rajshahi Division;Batupara
 0;88.6244,24.5042;6230;Rajshahi Division;Akbārpur
 0;88.6338,24.5078;6220;Rajshahi Division;Mirzāpur
@@ -35582,7 +35566,6 @@
 0;88.6521,24.5846;6230;Rajshahi Division;Iba
 0;88.6694,24.5711;6230;Rajshahi Division;Kharta
 0;88.7106,24.5649;6250;Rajshahi Division;Tantipāra
-0;88.5474,24.4997;6230;Rajshahi Division;Rātāil
 0;88.5444,24.4919;6230;Rajshahi Division;Kānthālpara
 0;88.5061,24.4791;6230;Rajshahi Division;Chabbish Nagar
 0;88.5206,24.4899;6230;Rajshahi Division;Aktarpur
@@ -36347,7 +36330,6 @@
 0;88.6586,23.6157;7450;Khulna Division;Harirāmpur
 0;88.6605,23.6243;7450;Khulna Division;Chalisagar
 0;88.6268,23.6278;7100;Khulna Division;Tarānagar
-0;88.6566,23.6355;7100;Khulna Division;Jagannathpur
 0;88.6576,23.6446;7100;Khulna Division;Jagannāthpur
 0;88.6236,23.6463;7100;Khulna Division;Bāgwān
 0;88.6149,23.6474;7100;Khulna Division;Hātishāla
@@ -36366,10 +36348,8 @@
 0;88.6223,23.7367;7100;Khulna Division;Chak Syāmpur
 0;88.6340,23.7318;7100;Khulna Division;Āmdaha
 0;88.6257,23.7479;7100;Khulna Division;Bandar
-0;88.6324,23.7487;7100;Khulna Division;Peadāpāra
 0;88.6421,23.7489;7100;Khulna Division;Brāhmanpāra
 0;88.6477,23.7465;7100;Khulna Division;Rāypur
-0;88.6708,23.7462;7100;Khulna Division;Bunopara
 0;88.6659,23.7366;7100;Khulna Division;Dāfarpur
 0;88.6933,23.7310;7100;Khulna Division;Raghunatpur
 0;88.6857,23.7039;7100;Khulna Division;Pirojpur
@@ -37065,7 +37045,6 @@
 0;88.8462,23.2550;7340;Khulna Division;Jaluli
 0;88.8714,23.2540;7340;Khulna Division;Thākurawārka
 0;88.8623,23.2567;7340;Khulna Division;Sanāidānga
-0;88.8831,23.2520;7340;Khulna Division;Jadabpur
 0;88.8878,23.2495;7340;Khulna Division;Krishnapur
 0;88.9281,23.2537;7410;Khulna Division;Rāmkrishnapur
 0;88.9080,23.2572;7340;Khulna Division;Rājāpur
@@ -38371,7 +38350,6 @@
 0;88.4233,26.4922;5030;Rangpur Division;Dharāgāchh
 0;88.4231,26.4955;5030;Rangpur Division;Lohākānsi
 0;88.4229,26.4995;5030;Rangpur Division;Dudhigāchh
-0;88.4491,26.4998;5030;Rangpur Division;Kālidāspāra
 0;88.4529,26.4862;5030;Rangpur Division;Nārayangāchh
 0;88.4517,26.4790;5030;Rangpur Division;Tetnāpāra
 0;88.4346,26.4800;5030;Rangpur Division;Mandalpāra
@@ -39067,7 +39045,6 @@
 0;88.3479,25.7635;5110;Rangpur Division;Mālancha
 0;88.3411,25.7564;5110;Rangpur Division;Golandgoan
 0;88.3628,25.7579;5110;Rangpur Division;Dakshin Malancha
-0;88.3802,25.7538;5110;Rangpur Division;Hātpara
 0;88.3987,25.7588;5110;Rangpur Division;Dhananjoypur
 0;88.3979,25.7530;5110;Rangpur Division;Mahespur
 0;88.4250,25.7541;5110;Rangpur Division;Gobindapur
@@ -39375,7 +39352,6 @@
 0;88.5183,25.5683;5210;Rangpur Division;Pirojpur
 0;88.5047,25.5629;5210;Rangpur Division;Gobindapur
 0;88.5083,25.5562;5210;Rangpur Division;Meragrām
-0;88.5072,25.5592;5210;Rangpur Division;Merāgrām
 0;88.5175,25.5558;5210;Rangpur Division;Fatepur
 0;88.5303,25.5631;5210;Rangpur Division;Bāmangaon
 0;88.5326,25.5550;5210;Rangpur Division;Nalpur
@@ -40879,7 +40855,6 @@
 0;89.2135,23.3447;9202;Khulna Division;Māliāt
 0;89.2312,23.3410;9202;Khulna Division;Sasarpāra
 0;89.2447,23.3372;9202;Khulna Division;Chhota Lakshmipur
-0;89.2086,23.3362;9202;Khulna Division;Maliat
 0;89.2017,23.3337;9202;Khulna Division;Pānchkāhania
 0;89.2036,23.3278;9202;Khulna Division;Bārpha
 0;89.2141,23.3258;9202;Khulna Division;Māgura
@@ -42637,7 +42612,6 @@
 0;89.3872,25.2632;5730;Rangpur Division;Patorpara
 0;89.3879,25.2762;5730;Rangpur Division;Buzruk Bishnapur
 0;89.3872,25.2876;5730;Rangpur Division;Mahadipur
-0;89.3725,25.2503;5730;Rangpur Division;Bhabanipur
 0;89.3725,25.2564;5730;Rangpur Division;Cholitadaha
 0;89.3679,25.2793;5730;Rangpur Division;Shibrampur
 0;89.3597,25.2729;5730;Rangpur Division;Bara Harinmari
@@ -42659,7 +42633,6 @@
 0;89.3452,25.2684;5730;Rangpur Division;Kamarpara
 0;89.3337,25.2592;5730;Rangpur Division;Digdari
 0;89.3357,25.2525;5730;Rangpur Division;Shidhangram
-0;89.3273,25.2510;5730;Rangpur Division;Ramkrishnapur
 0;89.3292,25.2671;5730;Rangpur Division;Andura
 0;89.3313,25.2727;5730;Rangpur Division;Shimulia
 0;89.3252,25.2763;5730;Rangpur Division;Katuli

@@ -6048,7 +6048,6 @@
 0;-92.1688,14.5198;GT-17;San Marcos;Los Cerritos
 0;-92.1833,14.5225;GT-17;San Marcos;El Quinel
 0;-92.1811,14.5073;GT-17;San Marcos;Los Almendrales
-0;-92.1208,14.6894;GT-17;San Marcos;Los Angeles
 0;-92.1691,14.4915;GT-17;San Marcos;Ciudad de Los Locos
 0;-92.1269,14.4622;GT-15;Retalhuleu;La Lagartera
 0;-92.1092,14.4520;GT-15;Retalhuleu;Tres Cruces
@@ -6788,7 +6787,6 @@
 0;-92.0553,14.9261;GT-17;San Marcos;Colima
 0;-92.0631,14.9288;GT-17;San Marcos;San Andrés de Lima
 0;-92.0909,14.6138;GT-13;Quetzaltenango;San Judas
-0;-92.1844,14.5427;GT-17;San Marcos;Villa Angela
 0;-92.0271,14.6912;GT-13;Quetzaltenango;Monterrey
 0;-92.0212,14.6977;GT-13;Quetzaltenango;El Recuerdo
 0;-92.0111,14.7051;GT-13;Quetzaltenango;El Castaño

@@ -70314,7 +70314,6 @@ no;Blizjne-Pesotsjnoje;Blizhne-Pesochnoye
 ru;Ближне-Песочное;Blizhne-Pesochnoye
 no;Blizjneosinovskij;Blizhneosinovskiy
 ru;Ближнеосиновский;Blizhneosinovskiy
-ru;Ближнемельничный;Blizhnemel’nichnyy
 ru;Ближнее Хорошово;Blizhneye Khoroshovo
 ru;Ближнее Чесночное;Blizhneye Chesnochnoye
 ru;Ближнее-Борисово;Blizhneye Borisovo
@@ -106064,7 +106063,6 @@ ru;Багины;Baginy
 ru;Высокораменье;Vysokoramenskiy
 no;Vysokoramenje;Vysokoramenskiy
 ru;Кокяана;Kokyaana
-ru;Горевщина;Gorevshchina
 ru;Мосенки;Mosenki
 ru;Плёнкины;Plënkiny
 ru;Макаернаки;Makayernaki
@@ -110185,7 +110183,6 @@ ru;Новоусадские Выселки;Hovousadskiye Vyselki
 ru;Вярьвель;Vyar’vel’
 ru;Экономические Полянки;Ekonomicheskiye Polyanki
 ru;Ушлейка;Ushleyka
-ru;Старая Муравьёвка;Staraya Murav’yëvka
 ru;Русское Баймаково;Russkoye Baymakovo
 ru;Старый Усад;Staryy Usad
 ru;Красное Сельцо;Krasnoye Sel’tso
@@ -110942,7 +110939,6 @@ ru;Казённый Бугор;Kazënnyy Bugor
 ru;Верхний Капчик;Verkhniy Kapchik
 ru;Бештук;Beshtuk
 ru;Зелёный Остров;Zelënyy Ostrov
-ru;Воробьевский;Vorob’yevskiy
 ru;Малый Бугор;Malyy Bugor
 ru;Паромный;Paromnyy
 ru;Таловинка;Talovinka
@@ -131289,3 +131285,5 @@ zh;佐洛京卡;Zolotinka
 zh;霍尔;Khor
 zh;伊塔卡;Itaka
 zh;比拉;Bira
+ru;Лишнева;Lishneva
+ru;Малые Малюки;Malyye Malyuki

@@ -2060,7 +2060,6 @@ hr;Šeraje - Seraie;Šeraje
 hr;Lozari - Lozari;Lozari
 hr;Brič - Briz;Brič
 hr;Martinčići - Martincici;Martinčići
-hr;Donja Podgora;Donja_Podgora
 hr;Novi Đurđic;Novi Djurdjic
 hr;Đivan;Djivan
 hr;Klupci – dio;Klupci
@@ -2087,9 +2086,7 @@ hr;Žnjidarići - Snidarici;Žnjidarići
 hr;Krajići - Craici;Krajići
 hr;Pirelići - Perelici;Pirelići
 hr;Martinska Ves;Martinjska Ves
-hr;Gornje Zagorje;Gornje_Zagorje
 hr;Krvavac 2;Krvavac II
-hr;Zorkovac;Zorkovac_
 hr;Jurići - Iurici;Jurići
 hr;Rupeni - Rupena;Rupeni
 hr;Podstrana – Mutogras;Podstrana - Mutogras

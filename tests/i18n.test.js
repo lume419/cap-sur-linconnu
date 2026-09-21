@@ -545,7 +545,10 @@ function loadSwitcher(){
 test('17e audit : sélecteur de langue — un seul motif ARIA (bouton + listbox), clavier inchangé', () => {
   const { root, button, panel, dom } = loadSwitcher();
   assert.equal(root.children.length, 2, 'bouton + panneau attendus');
-  const search = panel.children[0], list = panel.children[1];
+  // Recherche par CLASSE et non par indice (19e audit du 21/09/2026) : l ajout d une région vivante en fin de
+  // panneau avait fait échouer ce test alors que la sémantique n avait pas bougé.
+  const search = panel.children.find(c => c.className === 'lang-search');
+  const list = panel.children.find(c => c.className === 'lang-option-list');
   // Le bouton annonce une listbox : l'élément qu'il désigne DOIT en être une.
   assert.equal(button.getAttribute('aria-haspopup'), 'listbox');
   assert.equal(button.getAttribute('aria-expanded'), 'false');

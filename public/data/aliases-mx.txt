@@ -4934,8 +4934,6 @@ es;San José;San José Xicohténcatl
 es;Las Delicias;Delicias
 es;El Carmen Tequesquitla;Villa de El Carmen Tequexquitla
 es;Tequexquitla;Villa de El Carmen Tequexquitla
-es;La Roscorita;La Asuncíón Rascona
-es;La Rascona;La Asuncíón Rascona
 ru;Уамантла;Huamantla
 ja;ウアマントゥラ;Huamantla
 nah;Cuammantlah;Huamantla
@@ -5470,7 +5468,6 @@ es;Chenkeken;Chen Keken
 es;San Francisco;San Francisco Yohactún
 es;Bolisha;Wollis-ha
 es;Dzonot Boch;Dzonot Box
-es;Macucam;X-Makulan
 es;Kalach Viejo;Kalax Viejo
 es;Santa Inés;Santa Inés Martín
 es;Benito Juáez;Benito Juárez
@@ -5798,7 +5795,6 @@ es;Poblado Dos A;Hermanos Cedillo
 es;La Colonia;Las Conchas
 es;Francisco Villa;Francisco Villa Dos
 es;Veinticuatro de Febrero;Veinticuatro
-es;Nuevo Coatlán;Cuaclan
 es;Piedra Bola;Guadalupe Piedra Bola Castillito
 es;San Miguel;San Miguel del Río
 es;La Esperanza;Fernando López Arias
@@ -6950,7 +6946,6 @@ es;El Gato;San Javier de Potrerillos
 es;Pomas;Sitio Alto
 es;Las Pomas;Sitio Alto
 es;El Refugio de los Lobos;El Refugio
-es;Mesa de los Navar;Mesa de los Návar
 es;Amachane;Amacuable
 es;Pénjamo;La Uno
 es;Baltasar;Santa Inés
@@ -14694,7 +14689,6 @@ es;El Zun;Zum Reforma
 es;Zun Reforma;Zum Reforma
 es;Taxcoy;Katlucu
 es;Luhuachuchut;Lugua
-es;Lcuyunchúchut;Lkuyum Chúchut
 es;Tlacuilolostoc;Colonia Cuauhtémoc
 es;Kilómetro Veinticinco;Tierra Colorado
 es;La Cumbre de Huistícola;El Banco
@@ -14780,8 +14774,7 @@ es;Quimixtla Ula;Quimixtla Hula
 es;Pilancón;Chicazapa
 es;Colonia Guasavito;Guasavito
 es;El Milagro;Las Palomas
-es;El Campito;Campo Gastelúm
-es;Campo Gastelum;Campo Gastelúm
+es;Campo Gastelum;El Campito
 es;La Escondida;El Porvenir
 es;Zapotillo Dos;Gabriel Leyva Zolano
 es;Lucíana;Louisiana
@@ -15321,7 +15314,6 @@ es;Bernal;El Bernal
 es;Nuevo Porvenir;El Nuevo Porvenir
 es;Las Gardenias;Cuatro Gavilanes
 es;Borbollón;El Borbollón
-es;El Tajín;Raices del Tajín
 es;Yerba Santa;La Yerbasanta
 es;Villalara;Villalár
 es;San José;Río Blanco
@@ -15928,7 +15920,6 @@ es;Las Galeras;Fracción las Galeras
 es;El Dimanto;El Diamante
 es;Dos Palomas;El Diamante
 es;Buenavista San Caspar;Buenavista San Gaspar
-es;San Antonio Tulxcám;San Antonio Tuixcúm
 es;Tulxcúm Buenavista;Tuixcúm Buenavista
 es;Bacantón Uno;Bacantón I
 es;Ojo de Agüita;Ojo de Agua Centro
@@ -16047,19 +16038,14 @@ es;Punta de Piedad;Nuevo San Miguel Mitontic
 es;Victoria Grajales;Victorico R. Grajales
 es;El Llano;Llano Alto
 es;Yakitztik;Takité
-es;Yaltzunun;Yaaltz Unún
 es;Banoptik;Banoctic
 es;Noctic;Banoctic
-es;Yajaltextik;Jeshbotíc
 es;Jutzbilo;Botatulán
 es;Tikomuntik;Ti Komón
 es;Teatiks;Macvilhó
 es;Huotulán;Jolchijtik
-es;Tzayaltetik;Tzajaltetíc
 es;La Caridad;San Antonio Caridad
-es;Muquem;Muquen
 es;Yulunam;Yolonam
-es;Zoyalo;Suyalho
 es;Taquihucum;Takiukum
 es;Pajalton Bajo;Pajaltón Bajo
 es;Sibacteal;Sibactel
@@ -16072,8 +16058,6 @@ es;Tushaquilja;Tuxaquiljá
 es;Bulmija;Bumiljá
 es;San José Chilbalá;San José Chivalá
 es;Poma Rosa;Pomarrosa
-es;Chustel;Ch Uchteel
-es;Pueblo Nuevo;Chulná
 es;Najchajcal;La Candelaria Najchajal
 es;San Agustin;Chalam del Carmen
 es;Nabalan;Navalam
@@ -16081,12 +16065,10 @@ es;Bulusbac;Bulushbac
 es;Banavil Peña Blanca;Carmen Banavil
 es;Yalehuach;Nuevo Buenavista
 es;Brasil;Nuevo San Jacinto
-es;Bachajan;Nuevo Bachajón
 es;Macachi;Marachí
 es;El Trapiche;El Trapichito
 es;Los Cimientos;El Trapichito
 es;Jonón;San José Jonón
-es;San Caralampio Monte Verde;San Caralampio Monte Palido
 es;El Rosario Yocnajab;Yocnajab el Rosario
 es;Santa Catarina;Catarina Santa Cruz
 es;Catarina;Catarina Santa Cruz

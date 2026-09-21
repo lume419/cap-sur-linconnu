@@ -6375,7 +6375,6 @@
 0;45.6197,35.1150;IQ-05;Sulaymaniyah;Gulān
 0;45.5322,35.3206;IQ-05;Sulaymaniyah;Waylakah aş Şaghīrah
 0;42.8182,36.0241;IQ-15;Nineveh;‘Ayn Jaḩsh
-0;42.8175,36.0250;IQ-15;Nineveh;`Ayn Jaḩsh
 0;42.8801,36.0582;IQ-15;Nineveh;‘Usaylah
 0;42.9034,36.0491;IQ-15;Nineveh;Khirbat aţ Ţayr
 0;42.9117,36.0208;IQ-15;Nineveh;Tall Saykhān
@@ -8177,7 +8176,6 @@
 0;44.9568,36.6066;IQ-11;Erbil;Āynah
 0;44.8839,36.6381;IQ-11;Erbil;Kōnakhān
 0;44.8889,36.6342;IQ-11;Erbil;Muşţafa Āghā
-0;44.8914,36.6400;IQ-11;Erbil;Chōmān
 0;44.8873,36.6296;IQ-11;Erbil;Kosretan
 0;44.8866,36.6033;IQ-11;Erbil;Shīwālawk
 0;44.8791,36.6037;IQ-11;Erbil;Nawbirge
@@ -8210,7 +8208,6 @@
 0;44.7684,36.6879;IQ-11;Erbil;Mīrzā
 0;44.7508,36.5569;IQ-11;Erbil;Razakāi
 0;44.7553,36.5492;IQ-11;Erbil;Sernūs
-0;44.8175,36.5625;IQ-11;Erbil;Mākōsān
 0;44.8236,36.5583;IQ-11;Erbil;Qaşr
 0;44.8397,36.5542;IQ-11;Erbil;Sōrabān
 0;44.7979,36.5112;IQ-11;Erbil;Bergirke
@@ -8835,7 +8832,6 @@
 0;45.9396,35.7855;IQ-05;Sulaymaniyah;Dīzeh
 0;45.9647,35.7742;IQ-05;Sulaymaniyah;Galār Āveh
 0;45.9820,35.7743;IQ-05;Sulaymaniyah;Sūrāv
-0;45.9312,35.7618;IQ-05;Sulaymaniyah;Tātān
 0;45.9671,35.7570;IQ-05;Sulaymaniyah;Bār Āvkan
 0;45.9982,35.8123;IQ-05;Sulaymaniyah;Bamsar
 0;45.7665,35.6311;IQ-05;Sulaymaniyah;Mokal
@@ -8992,7 +8988,6 @@
 0;46.0185,35.2193;IQ-05;Sulaymaniyah;Khvārū
 0;46.0116,35.2149;IQ-05;Sulaymaniyah;Bīvaleh
 0;46.0363,35.2116;IQ-05;Sulaymaniyah;Darreh Shepesh Sarū
-0;46.0151,35.2093;IQ-05;Sulaymaniyah;Anab
 0;46.0235,35.1872;IQ-05;Sulaymaniyah;Jalīleh
 0;46.0778,35.1844;IQ-05;Sulaymaniyah;Tāvīr
 0;46.0332,35.1708;IQ-05;Sulaymaniyah;Abā ‘Abīdeh
@@ -17460,7 +17455,6 @@
 0;43.1805,36.1476;IQ-15;Nineveh;Qaryat Malaj
 0;43.2062,36.1315;IQ-15;Nineveh;Qaryat al Qāhirah
 0;43.0479,36.1335;IQ-15;Nineveh;Qaryat ‘Ayn an Naşr
-0;43.1220,36.1069;IQ-15;Nineveh;Qaryat Albū Ḩamad
 0;43.1913,36.1227;IQ-15;Nineveh;Qaryat al Kharrār
 0;43.2329,36.1016;IQ-15;Nineveh;Qaryat Minkār
 0;43.1974,36.0737;IQ-15;Nineveh;Qaryat Bīr Ibn Chafīdāt

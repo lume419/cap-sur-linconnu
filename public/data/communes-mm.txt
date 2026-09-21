@@ -15795,6 +15795,7 @@
 0;97.2502,20.1873;MM-11;Shan State;Nyaungbintha
 0;96.1723,20.1195;MM-18;Nay Pyi Taw;Nyaung Pin Thar
 0;94.5065,20.0359;MM-15;Magway;Nyaungbintha
+0;95.0000,20.0000;MM-15;Magway;Nyaungbintha
 0;95.5167,19.9058;MM-15;Magway;Nyaungbintha
 0;95.3910,19.7049;MM-15;Magway;Nyaungbintha
 0;94.8488,19.6065;MM-15;Magway;Nyaungbintha
@@ -36329,7 +36330,6 @@
 0;97.9002,16.9849;MM-05;Kayin State;Kawpya
 0;97.6474,16.7669;MM-05;Kayin State;Mu Rar
 0;97.6719,16.7689;MM-05;Kayin State;Kawt Hta Ma Lein
-0;97.7283,16.7736;MM-05;Kayin State;Kawmatke
 0;97.6606,16.7725;MM-05;Kayin State;Hlaing Ka Bar
 0;97.6229,16.7965;MM-05;Kayin State;Kawt Hlaik
 0;97.5954,16.7863;MM-05;Kayin State;Peinnegôn
@@ -36674,7 +36674,6 @@
 0;99.0006,20.0572;MM-11;Shan State;Wān Mākhkangnoi
 0;99.0078,20.0572;MM-11;Shan State;Wān Hāngnawng
 0;99.0131,20.0522;MM-11;Shan State;Wān Kawngmè-salan
-0;99.4961,20.9878;MM-11;Shan State;Wan Hsenglao
 0;99.2516,20.8260;MM-11;Shan State;Wan Hsenkyao
 0;99.2606,20.5283;MM-11;Shan State;Wān Nammawwan
 0;99.2596,20.5241;MM-11;Shan State;Wān Hsankeng
@@ -36687,7 +36686,6 @@
 0;99.2472,20.5038;MM-11;Shan State;Wān Nawnghi
 0;99.2539,20.5061;MM-11;Shan State;Wān Mè-hsawn
 0;99.2756,20.5039;MM-11;Shan State;Wān Tā-hatpā
-0;99.2475,20.5775;MM-11;Shan State;Wān Ho-na
 0;99.2853,20.5750;MM-11;Shan State;Wān Mè-kaw
 0;99.4494,20.7467;MM-11;Shan State;Wān Pong
 0;97.0725,19.4997;MM-06;Kayah State;Dawdu-hso
@@ -36837,7 +36835,6 @@
 0;98.2218,20.1976;MM-11;Shan State;Konghai
 0;98.2202,20.2133;MM-11;Shan State;Wān Tawng
 0;98.2295,20.2066;MM-11;Shan State;Longsam
-0;98.1758,20.2478;MM-11;Shan State;Lā-nè
 0;98.1178,20.2003;MM-11;Shan State;Sè-kang
 0;98.3178,20.2075;MM-11;Shan State;Nawnghkaolam
 0;98.9408,20.8207;MM-11;Shan State;Nā-hse-lik
@@ -38097,11 +38094,9 @@
 0;100.0753,20.4881;MM-11;Shan State;Wān Hsenhkamhüng
 0;100.0181,20.4853;MM-11;Shan State;Wān Sa-le
 0;100.0522,20.3972;MM-11;Shan State;Wing Mau
-0;99.9903,20.6351;MM-11;Shan State;Wan Ra-sa-kiao
 0;100.0875,20.6577;MM-11;Shan State;Wan Hwe-ngu
 0;100.0866,20.5954;MM-11;Shan State;Wān Sa-u
 0;100.1613,20.7024;MM-11;Shan State;Wan Wengmaknaw
-0;100.1284,20.7289;MM-11;Shan State;Wan Ho-na
 0;100.0352,20.6184;MM-11;Shan State;Pang An
 0;100.0041,20.6165;MM-11;Shan State;Wan Hsenkiao
 0;100.1738,20.7654;MM-11;Shan State;Wān Nammwè
@@ -38134,7 +38129,6 @@
 0;100.2464,20.9850;MM-11;Shan State;Wān Hsenlongsa-ke
 0;100.4464,20.8708;MM-11;Shan State;Wān Ra-sa-hkön
 0;100.2483,20.7678;MM-11;Shan State;Wān Hsenhkamhpu
-0;100.2517,20.8106;MM-11;Shan State;Wān Sa-hsè
 0;100.3414,20.8628;MM-11;Shan State;Wän Nai-ngūnhsōpliao
 0;96.2478,16.9897;MM-17;Yangon;Malit-ashe
 0;96.2600,16.9692;MM-17;Yangon;Taungtalokkyun

@@ -4253,6 +4253,7 @@
 2114;7.6771,48.1994;79367;Freiburg Region;Weisweil
 0;13.5855,51.0863;01156;Sachsen;Weistropp
 15002;14.6402,51.5040;02943;Sachsen;Weißwasser
+0;13.0000,51.0000;09648;Sachsen;Weißthal
 78;14.3475,51.1390;01877;Sachsen;Weißnaußlitz
 0;11.5236,48.3983;85411;Upper Bavaria;Weißling
 0;9.4309,49.2028;74243;Regierungsbezirk Stuttgart;Weißlensburg
@@ -46914,7 +46915,6 @@
 0;12.6676,49.3724;93449;Upper Palatinate;Hochabrunn
 0;12.6888,49.3841;93449;Upper Palatinate;Hocha
 0;12.7041,48.9482;94336;Lower Bavaria;Hoch
-0;13.3963,48.5035;94127;Lower Bavaria;Höch
 0;13.3964,48.5036;94127;Lower Bavaria;Hoch
 0;10.8094,54.1722;23738;Schleswig-Holstein;Hobstin
 0;13.4944,52.6655;16321;Brandenburg;Hobrechtsfelde

@@ -13655,7 +13655,6 @@
 0;1.4041,18.4389;ML-09;Gao;Etambar
 0;-2.3637,16.7497;ML-09;Gao;Madiakoye
 0;-7.9828,12.6474;ML-01;Bamako;Zone Industrielle
-0;-10.2179,14.4161;ML-03;Kayes;Kembele
 0;-7.9546,12.6683;ML-01;Bamako;Korofina Nord
 0;2.7161,18.8476;ML-09;Gao;Ibhawane
 0;-8.0997,10.7075;ML-06;Sikasso;Dabaran

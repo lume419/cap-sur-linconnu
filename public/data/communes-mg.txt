@@ -10876,6 +10876,7 @@
 0;49.4833,-14.3000;MG-72;Sava;Beanantsindra
 0;49.6167,-14.0500;MG-72;Sava;Beanantsindra
 0;46.2333,-25.0500;MG-52;Androy;Beanantara
+0;48.0000,-22.0000;MG-26;Fitovinany Region;Beanana
 0;45.6833,-20.4167;MG-54;Menabe;Beanana
 0;47.8333,-20.1667;MG-31;Atsinanana;Beanana
 0;48.5333,-20.0500;MG-31;Atsinanana;Beanana
@@ -22482,6 +22483,7 @@
 0;46.6667,-21.6167;MG-21;Upper Matsiatra;Ambatolahy
 0;46.8000,-21.4667;MG-21;Upper Matsiatra;Ambatolahy
 0;46.5000,-21.1000;MG-21;Upper Matsiatra;Ambatolahy
+0;47.0000,-21.0000;MG-21;Upper Matsiatra;Ambatolahy
 0;46.5167,-20.9667;MG-21;Upper Matsiatra;Ambatolahy
 0;47.0500,-20.7500;MG-22;Amoron'i Mania;Ambatolahy
 0;46.8333,-20.6000;MG-22;Amoron'i Mania;Ambatolahy

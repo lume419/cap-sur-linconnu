@@ -1308,7 +1308,30 @@ function fakeDom(){
 // Le sélecteur de devise vit dans app.js (fichier trop gros et trop dépendant du réseau pour être exécuté en entier) :
 // ses fonctions sont extraites comme le reste du fichier (extract/extractVar), avec juste assez de colle pour que
 // buildCurrencySwitcher tourne — le vrai i18n.js, quelques devises, aucun moteur.
-function loadCurrencySwitcher(){
+function loadLangSwitcher(){
+  const src = fs.readFileSync(path.join(PUB, 'i18n.js'), 'utf8');
+  const dom = fakeDom();
+  const root = dom.el('div');
+  root.id = 'lang-switcher';
+  const docHandlers = {};
+  const ctx = {
+    navigator: { languages: ['fr'] }, localStorage: { getItem: () => null, setItem(){}, removeItem(){} },
+    document: {
+      readyState: 'complete', documentElement: dom.el('html'), querySelectorAll: () => [],
+      getElementById: id => (id === 'lang-switcher' ? root : null), createElement: dom.el,
+      addEventListener(t, fn){ (docHandlers[t] = docHandlers[t] || []).push(fn); }
+    },
+    CustomEvent: function(){}, Intl, console, setTimeout: fn => fn()
+  };
+  Object.defineProperty(ctx.document, 'activeElement', { get: () => dom.activeElement });
+  ctx.window = { addEventListener(){}, dispatchEvent(){} };
+  vm.createContext(ctx);
+  vm.runInContext(src, ctx);
+  return { root, button: root.children[0], panel: root.children[1], dom,
+    fireDoc: (type, ev) => (docHandlers[type] || []).forEach(fn => fn(Object.assign({ preventDefault(){}, target: dom.el('div') }, ev))) };
+}
+
+function loadCurrencySwitcher(devises){
   const src = fs.readFileSync(path.join(PUB, 'i18n.js'), 'utf8');
   const dom = fakeDom();
   const root = dom.el('div');
@@ -1330,15 +1353,15 @@ function loadCurrencySwitcher(){
   const glue = [
     'var t = window.I18N.t;',
     // Devises et pays réduits au nécessaire : CURRENCY_OPTIONS est normalement calculé depuis TripData (non chargé ici).
-    'var CURRENCY_OPTIONS = ["CHF", "EUR", "GBP", "JPY", "USD"];',
+    'var CURRENCY_OPTIONS = ' + JSON.stringify(devises || ['CHF', 'EUR', 'GBP', 'JPY', 'USD']) + ';',
     'var COUNTRIES = { FR: { currency: "EUR" }, JP: { currency: "JPY" } };',
     'function updateBudgetHint(){}',
     'function rerenderCurrentTrip(){}',
     'var sessionCurrency;',
-    ['CURRENCY_GLYPH', 'CURRENCY_STORAGE_KEY', 'currencySwitcherRoot'].map(extractVar).join('\n'),
+    ['CURRENCY_GLYPH', 'CURRENCY_STORAGE_KEY', 'currencySwitcherRoot', 'currencyTypeBuf'].map(extractVar).join('\n'),
     ['isKnownCurrency', 'getPreferredCurrency', 'setPreferredCurrency', 'languageCurrency', 'renderCurrencyButton',
       'closeCurrencyPanel', 'currencyOptions', 'focusCurrencyOption', 'openCurrencyPanel', 'chooseCurrency',
-      'renderCurrencyList', 'buildCurrencySwitcher', 'applyCurrencyPanelTexts'].map(extract).join('\n'),
+      'renderCurrencyList', 'buildCurrencySwitcher', 'applyCurrencyPanelTexts', 'currencyTypeAheadIndex'].map(extract).join('\n'),
     'buildCurrencySwitcher(); applyCurrencyPanelTexts();',
     'window.__cur = { chosen: function(){ return getPreferredCurrency(); } };'
   ].join('\n');
@@ -1499,4 +1522,61 @@ test('18e audit : la liste des devises se parcourt en tapant le code (153 option
   assert.equal(f(l, 0, 'Z'), 9, 'la casse est ignorée');
   assert.equal(f(l, 0, 'a'), 2, 'AUD, et non « Automatique » : la recherche part de l\'option SUIVANTE');
   assert.equal(f(l, 2, 'a'), 0, 'depuis AUD, la lettre a ramène à « Automatique »');
+});
+
+test('19e audit : la recherche au clavier des devises est BRANCHÉE, et une lettre répétée défile', () => {
+  // Le test du 18e audit n'éprouvait que la fonction pure, avec un tampon déjà remis à zéro — un état que l'appelant
+  // ne produit jamais. Démontré au 19e : débrancher la recherche (cible = -1) laissait les 48 tests d'interface au
+  // vert, et la lettre répétée ne défilait pas puisque le tampon était concaténé (« cc » ne préfixe rien). Ici, ce
+  // sont de VRAIS événements clavier sur la liste montée par buildCurrencySwitcher.
+  const { button, panel, dom } = loadCurrencySwitcher(['CAD', 'CHF', 'CNY', 'EUR', 'JPY']);
+  const list = panel.children[0];
+  button.fire('click');
+  const nom = () => (dom.activeElement && dom.activeElement.textContent) || '';
+  const codes = list.querySelectorAll('.currency-option').slice(1).map(o => o.textContent.split(' ')[0]);
+  assert.deepEqual(codes, ['EUR', 'CAD', 'CHF', 'CNY', 'JPY'], 'ordre attendu : devise de la langue puis alphabétique');
+  list.fire('keydown', { key: 'j' });
+  assert.ok(/^JPY/.test(nom()), 'une lettre ne mène pas à la devise : ' + nom());
+  // Lettre RÉPÉTÉE : on défile parmi les trois devises en C, sans attendre une seconde entre deux frappes.
+  list.fire('keydown', { key: 'c' });
+  assert.ok(/^CAD/.test(nom()), 'c -> CAD, obtenu ' + nom());
+  list.fire('keydown', { key: 'c' });
+  assert.ok(/^CHF/.test(nom()), 'c répété -> CHF (c\'est le défaut corrigé au 19e audit), obtenu ' + nom());
+  list.fire('keydown', { key: 'c' });
+  assert.ok(/^CNY/.test(nom()), 'c répété -> CNY, obtenu ' + nom());
+  list.fire('keydown', { key: 'c' });
+  assert.ok(/^CAD/.test(nom()), 'après la dernière, la recherche reboucle, obtenu ' + nom());
+  // Deux lettres enchaînées forment bien un préfixe (comportement usuel d'une listbox).
+  list.fire('keydown', { key: 'c' });
+  list.fire('keydown', { key: 'n' });
+  assert.ok(/^CNY/.test(nom()), 'cn -> CNY, obtenu ' + nom());
+  // Une lettre sans correspondance ne déplace rien.
+  const avant = nom();
+  list.fire('keydown', { key: 'z' });
+  assert.equal(nom(), avant, 'une lettre sans correspondance ne doit pas déplacer le focus');
+});
+
+test('19e audit : chaque nom de langue porte sa langue et son sens d\'écriture', () => {
+  // La page porte la langue du VISITEUR : sans lang sur chaque nom, un lecteur d'écran prononce « 日本語 » et
+  // « ქართული » avec la voix française. Et sans dir, « K'iche' » s'affiche « 'K'iche » dans une page en arabe.
+  const { button, panel } = loadLangSwitcher();
+  button.fire('click');
+  const list = panel.children.find(c => c.className === 'lang-option-list');
+  assert.ok(list, 'liste des langues introuvable dans le panneau');
+  const options = list.querySelectorAll('.lang-option');
+  assert.ok(options.length > 100, 'liste des langues non montée (' + options.length + ')');
+  const sansLang = [], sansDir = [], mauvaisDir = [];
+  const RTL = ['ar', 'fa', 'ckb', 'ur', 'dv'];
+  options.forEach(o => {
+    const nom = (o.querySelectorAll('.lang-option-name') || [])[0];
+    if(!nom) return;
+    const code = o.getAttribute('data-lang');
+    if(nom.getAttribute('lang') !== code) sansLang.push(code);
+    const dir = nom.getAttribute('dir');
+    if(!dir) sansDir.push(code);
+    else if(dir !== (RTL.indexOf(code) >= 0 ? 'rtl' : 'ltr')) mauvaisDir.push(code + '=' + dir);
+  });
+  assert.deepEqual(sansLang.slice(0, 8), [], 'nom de langue sans attribut lang');
+  assert.deepEqual(sansDir.slice(0, 8), [], 'nom de langue sans attribut dir');
+  assert.deepEqual(mauvaisDir.slice(0, 8), [], 'sens d\'écriture faux');
 });

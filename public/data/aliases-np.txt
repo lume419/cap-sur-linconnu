@@ -18,7 +18,6 @@ ne;Sukhchauri;Sukāchuri̇̄
 de;Shivanagar;Siwānagar
 ms;Shivanagar;Siwānagar
 en;Shivanagar;Siwānagar
-ne;Sirsia;Sirsiyā
 ne;Siror;Siraũḍo
 ru;Сираха;Siraha
 en;Pipara Simara;Simarā
@@ -39,7 +38,6 @@ ne;Shibkhola;Sepukholāgāũ
 ne;Seulābāng;Shyāuli̇̄bāṅ
 ne;Setībeni;Seti̇̄beṇi̇̄
 ne;Selkot;Shyāl Koṭilā
-ne;Sarswati;Saraswati̇̄
 ne;Sāngu;Nayā̃ Sā̃gu
 ne;Samargaon;Samar
 fr;Lumbinî;Rummin-dei
@@ -63,7 +61,6 @@ en;Rasua Garhi;Rasuwāgaḍhi̇̄
 nl;Rasua Garhi;Rasuwāgaḍhi̇̄
 ne;Rāsi;Rasi̇̄gāū
 ne;Rānīpauwa;Rāni̇̄pauwā
-ne;Rāmdighāt;Rāmdi̇̄
 ne;Rālnābās;Rolebās
 ne;Pulānto;Pulāhā̃
 ja;ポカラ;Pokhara
@@ -86,7 +83,6 @@ fa;پوخارا;Pokhara
 pa;ਪੋਖਰਾ;Pokhara
 ps;پوخارا;Pokhara
 tg;Похара;Pokhara
-ne;Piprahawa;Piprahawā
 ne;Pipra;Piprā
 en;Phaplu;Phaphlu
 ja;ファプル;Phaphlu
@@ -165,7 +161,6 @@ ja;ランタン谷;Langtang
 ne;लाङटाङ;Langtang
 hi;लांगटांग;Langtang
 ru;Лахан;Lahān
-ne;Labsibot;Lapsi̇̄boṭ
 ne;Kunchha;Kunchhā
 ne;Kumāltār;Kumālṭār
 ne;Koropāni;Korā Pāni̇̄
@@ -181,7 +176,6 @@ ne;Khurpa;Khurpāgāũ
 ru;Карпу;Khārpū
 en;Kharpunath;Khārpū
 ne;Khānskot;Khānkoṭ
-ne;Diwātoli̇̄;Khairani̇̄
 ne;Khaḍkāgāun;Khaḍkāgāũ
 ne;Khādi;Khādi̇̄
 ne;Kerwānī;Kerawāni̇̄
@@ -224,10 +218,7 @@ ne;Aishwaryanagar;Karmaiyā
 ne;Kampu Ghāt;Kampughāṭ
 ne;Kālikā Bajār;Kalikot District
 ne;Kāli̇̄koṭ;Kalikot District
-ne;Juḍībelā;Juḍi̇̄belā
 ne;Joriāpāni;Jaḍepāni̇̄
-ne;Jogīkuti;Jogi̇̄kuṭi̇̄
-ne;Jogikuṭi̇̄;Jogi̇̄kuṭi̇̄
 ru;Джири;Jiri
 ne;जिरी;Jiri
 ja;ジリ;Jiri
@@ -252,7 +243,6 @@ pa;ਜਨਕਪੁਰ;Janakpur
 ps;جناکپور;Janakpur
 tg;Жанакпур;Janakpur
 ne;Jāmū;Jāmugāũ
-ne;Khallājāi̇̄;Khallājai̇̄
 ne;Ismākot;Ismākoṭ
 ne;Inarwa;Īnarwā
 ne;Inarwā;Īnarwā
@@ -401,10 +391,8 @@ ar;بيراتنغر;Biratnagar
 ar;بيراتناغار;Biratnagar
 fa;بیراتنگر;Biratnagar
 ur;بیرات نگر;Biratnagar
-ne;Bināikgaon;Bināyak
 ne;Bichhuwa;Raikawār Bichawā
 ne;Bhurkīā;Buṭhkaiyā̃
-ne;Bholi;Bhuli̇̄
 ne;Bhingrigaon;Bhiṅgri̇̄koṭ
 ne;Thori̇̄;Ṭhori̇̄
 ne;Bhartābās;Bhorlābās
@@ -438,15 +426,12 @@ th;ภักตปุระ;Bhaktapur
 ur;بھگتاپور;Bhaktapur
 ru;Бхактапур;Bhaktapur
 zh;巴克塔普爾;Bhaktapur
-ne;Bhagwanpur;Bhagawānpur
 ne;Bethari;Betahari
 de;Beteni;Beteni̇̄
 ms;Beteni;Beteni̇̄
 en;Beteni;Beteni̇̄
-ne;Berhampuri;Bramhapuri̇̄
 ne;Belāni;Bailāni̇̄
 ne;Bathāla;Bājasthalā
-ne;Barīkot;Bārekoṭ
 ne;Barāban;Baḍāban
 ne;Bānskot;Bā̃skoṭ
 de;Banepa;Banepā
@@ -576,8 +561,6 @@ ne;Phalānṭe;Phalā̃ṭe
 ne;Bānsghārī;Bā̃sghāri̇̄
 ne;Jarkerbārī;Jarkerbāri̇̄
 ne;Byānse;Byā̃se
-ne;Mānkhā;Mā̃khā
-ne;Māneswānrā;Māneswā̃rā
 ne;Sunkhānī;Sunkhāni̇̄
 ne;Masarāngīgāun;Masarā̃gi̇̄gāũ
 ne;Sunkoshī;Sunkoshi̇̄
@@ -590,8 +573,6 @@ ne;Sallerī Kārkīgāun;Salleri̇̄ Kārki̇̄gāũ
 ne;Ādherī;Ādheri̇̄
 ne;Goṭpānī;Goṭpāni̇̄
 ne;Jānte;Jā̃te
-ne;Jhānkrīṭol;Jhā̃kri̇̄ṭol
-ne;Sānṅchā;Sā̃ṅchā
 ne;Sāndīkholāgāun;Sā̃di̇̄kholāgāũ
 ne;Palānse;Palā̃se
 ne;Nayānchhāp;Nayā̃chhāp
@@ -639,7 +620,6 @@ ne;भट्टराई डाँडा;Bhattarai Danda
 ar;بهاتاراي الجبل;Bhattarai Danda
 ne;Bhumiḍā̃ḍā;Bhumeḍā̃ḍā
 ne;Chhepaṅ;Chhepāṅ
-ne;Nayā̃ṭolā;Nayakāṭolā
 ne;Miyā̃khor;Birendra Bajār
 ne;Paiyā̃māḍi̇̄;Baiganṭol
 ne;Paiyā̃māḍi̇̄;Jhawanṭol
@@ -659,7 +639,6 @@ ne;Durgāṭol;Pathaliyā
 ne;Rāṅbhāṅge;Rāṅbhāṅe
 ne;Antarkhāl;Gautāl
 ne;Gandheli̇̄;Dharampur
-ne;Shri̇̄ Rāmp;Shri Rāmpur
 ne;Kur Gāū̃;Kurgāũ
 ne;Kuruṅ Gāũ;Kuruṅgāũ
 ne;Pipal Ḍā̃ḍā;Pipalḍā̃ḍā
@@ -669,14 +648,12 @@ ne;Gejāthā̃ti;Gejāṭhā̃ti̇̄
 ne;Jārlāṅ;Jarlāṅ
 ne;Diwalḍā̃ḍā;Diwālḍā̃ḍā
 ne;Pāleṅ Ban;Pāleṅban
-ne;Sorhabise Phā̃ṭ;Sorhabisephā̃ṭ
 ne;Seju Gāũ;Sejugāũ
 ne;Maslān;Maslāṅ
 ne;Lauḍā̃ḍā;Lākhuḍā̃ḍā
 ne;Pāṭāsaḍh;Pātāsā̃ḍh
 ne;Ghyaṅsin Ḍā̃ḍā;Ghyāṅsiṅḍā̃ḍā
 ne;Thuṅsiṅ Ḍā̃ḍā;Thuṅsiṅḍā̃ḍā
-ne;Ḍhākrebās;Dhākrebās
 ne;Aruṅ Kholā;Aruṅkholā
 ne;Dāri̇̄ Bañjyāṅ;Dāri̇̄ Bhañjyāṅ
 ne;Lāljhoḍā 2;Lāljhoḍā Du’i̇̄

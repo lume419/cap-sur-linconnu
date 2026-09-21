@@ -1842,7 +1842,6 @@
 5168;-65.9188,18.3936;00729;Canóvanas;Santa Barbara
 0;-67.0352,18.5008;00662;Isabela;Santa Barbara
 0;-66.6057,18.2177;00664;Jayuya;Santa Bárbara
-0;-65.9196,18.3944;00729;Loíza;Santa Bárbara
 0;-66.0366,18.3994;00978;San Juan;Santa Barbara
 0;-66.0113,18.2325;00725;Caguas;Santa Cecilia
 1138;-66.1320,18.2146;00739;Aguas Buenas;Santa Clara

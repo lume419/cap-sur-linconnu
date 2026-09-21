@@ -26,7 +26,6 @@
 0;104.2893,20.3670;LA-03;Houaphan;Ban Xianglouang
 0;103.3667,19.3333;LA-14;Xiangkhoang;Xiangkhoang
 0;102.7167,19.2000;LA-14;Xiangkhoang;Xiangkhoang
-0;103.2989,19.6718;LA-14;Xiangkhoang;Ban Xiang Ay
 0;107.2335,15.4799;LA-26;Xékong;Ban Tôngxiang-Gnai
 0;102.3693,21.6724;LA-18;Phôngsali;Ban Sènlouang
 6244;104.6347,19.9900;LA-03;Houaphan;Ban Xamtai
@@ -6579,7 +6578,6 @@
 0;100.5514,20.3587;LA-22;Bokeo;Ban Namdua
 0;100.5581,20.3624;LA-22;Bokeo;Ban Donphao
 0;100.5628,20.3691;LA-22;Bokeo;Ban Houaymak
-0;100.5647,20.3639;LA-22;Bokeo;Ban Namnge
 0;100.5669,20.3718;LA-22;Bokeo;Ban Poung-Noy
 0;100.5767,20.3818;LA-22;Bokeo;Ban Phimônsin
 0;100.7034,20.3628;LA-22;Bokeo;Ban Nalouang

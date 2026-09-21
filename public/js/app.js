@@ -384,6 +384,10 @@
   }
   // returnFocus : rend le focus au bouton (fermeture au clavier ou après un choix), pas lors d'un clic ailleurs.
   function closeCurrencyPanel(returnFocus){
+    // Tampon de frappe remis à zéro (19e audit du 21/09/2026) : il survivait à la fermeture, si bien que taper « u »,
+    // fermer, rouvrir et taper « s » dans la seconde menait sur USD au lieu de la première devise en S.
+    currencyTypeBuf = '';
+    currencyTypeAt = 0;
     var wasOpen = currencyPanelEl && currencyPanelEl.classList.contains('show');
     if(currencyPanelEl) currencyPanelEl.classList.remove('show');
     if(currencyButtonEl) currencyButtonEl.setAttribute('aria-expanded', 'false');
@@ -439,6 +443,11 @@
       li.setAttribute('role', 'option');
       li.setAttribute('aria-selected', value === pref ? 'true' : 'false');
       li.setAttribute('tabindex', '-1');
+      // Sens d'écriture forcé de gauche à droite pour un CODE de devise (19e audit du 21/09/2026). « ARS AR$ »
+      // s'affichait « $ARS AR » dans une page en arabe, en hébreu ou en persan : le symbole final est un caractère
+      // neutre, il prenait la direction du paragraphe. Toutes les devises à symbole terminal étaient touchées.
+      // « Automatique », lui, est traduit : il suit la page.
+      if(value) li.setAttribute('dir', 'ltr');
       li.textContent = label;
       li.addEventListener('mousedown', function(e){ e.preventDefault(); });
       li.addEventListener('click', function(){ chooseCurrency(value); });
@@ -522,7 +531,16 @@
         if(maintenant - currencyTypeAt > 1000) currencyTypeBuf = '';
         currencyTypeAt = maintenant;
         currencyTypeBuf += e.key;
-        var cible = currencyTypeAheadIndex(opts.map(function(o){ return o.textContent; }), idx, currencyTypeBuf);
+        var étiquettes = opts.map(function(o){ return o.textContent; });
+        var cible = currencyTypeAheadIndex(étiquettes, idx, currencyTypeBuf);
+        // Tampon qui ne correspond plus à rien : on repart de la DERNIÈRE frappe, comme le font les listes du
+        // système (19e audit du 21/09/2026). Deux défauts d'un coup : taper « j » puis « c » cherchait « jc » et ne
+        // menait nulle part ; et une lettre RÉPÉTÉE donnait « cc », qui ne préfixe rien — la liste ne bougeait pas,
+        // alors que le commentaire et le message de commit de la 18e passe promettaient qu'elle fasse défiler.
+        if(cible < 0 && currencyTypeBuf.length > 1){
+          currencyTypeBuf = e.key;
+          cible = currencyTypeAheadIndex(étiquettes, idx, currencyTypeBuf);
+        }
         if(cible >= 0){ e.preventDefault(); focusCurrencyOption(cible); }
       }
     });
@@ -1706,6 +1724,9 @@
       nameSpan.appendChild(nameTextSpan);
       var cpSpan = document.createElement('span');
       cpSpan.className = 'suggest-cp';
+      // Même raison que pour les devises : « 69001 +8 » s'affichait « 8+ 69001 » dans une page de droite à gauche,
+      // le « + » étant neutre (19e audit du 21/09/2026).
+      cpSpan.setAttribute('dir', 'ltr');
       cpSpan.textContent = formatCpBadge(r);
       // Nom du pays dans la langue d'interface (COUNTRIES[..].name est en français) — voir countryDisplayName.
       var countryName = countryDisplayName(r.country, (COUNTRIES[r.country] && COUNTRIES[r.country].name) || '');
@@ -4415,9 +4436,18 @@
       // Distance d'éloignement impossible à concilier avec le retour (pas assez de nuits pour revenir par étapes).
       if(legs.length === 0 && data.minDistanceUnreachable){
         var returnCapKm = data.returnCapKm;
-        showMinDistanceError(msg('error.minDistanceTooFar', function(){ return {
+        // Quand le plafond a été calculé SANS le filtre des zones à tension (le serveur le signale par tensionBlocked
+        // sur cette même réponse, 19e audit du 21/09/2026), la distance annoncée ne suffit pas : à cette distance
+        // exactement, c'est le filtre qui bloque. Les deux phrases déjà traduites sont composées, plutôt que d'en
+        // inventer une troisième dans 161 langues.
+        var messageDistance = msg('error.minDistanceTooFar', function(){ return {
           context: durationLabel(days, totalNights),
-          min: formatDistance(minDistanceKm, 1), radius: formatDistance(returnCapKm, 1) }; }));
+          min: formatDistance(minDistanceKm, 1), radius: formatDistance(returnCapKm, 1) }; });
+        // Composé DANS la fonction, pas autour : showMinDistanceError garde un rappel pour retraduire le message
+        // quand le visiteur change de langue (16e audit du 20/09/2026).
+        showMinDistanceError(data.tensionBlocked
+          ? function(){ return messageDistance() + ' ' + t('error.tensionBlocked'); }
+          : messageDistance);
         return;
       }
       // Aucune étape assez éloignée ne respecte les autres réglages : le serveur ne propose plus d'itinéraire de secours

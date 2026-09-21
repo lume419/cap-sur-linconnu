@@ -10889,7 +10889,6 @@
 0;-38.6000,-4.2833;BR-06;Ceará;Carnaúba
 0;-39.9566,-2.9858;BR-06;Ceará;Carnauba
 0;-44.0833,-8.6667;BR-20;Piauí;Carnaíbas
-0;-43.1167,-7.0833;BR-20;Piauí;Carnaibas
 0;-43.1167,-7.0833;BR-20;Piauí;Carnaíbas
 0;-40.4267,-9.5906;BR-05;Bahia;Carnaíba do Sertão
 0;-41.4000,-6.4000;BR-20;Piauí;Carnaíba de Dento
@@ -50120,7 +50119,6 @@
 0;-44.3508,-23.1618;BR-21;Rio de Janeiro;Praia Vermelha da Ilha Grande
 0;-51.4870,-25.5660;BR-18;Paraná;Colonia Vitoria
 0;-51.5568,-25.5655;BR-18;Paraná;Colonia Socorro
-0;-51.5060,-25.5346;BR-18;Paraná;Colonia Jordaozinho
 0;-43.6762,-12.1997;BR-05;Bahia;Javi
 0;-41.6463,-18.5876;BR-15;Minas Gerais;São Sebastião do Barroso
 0;-42.2371,-15.0533;BR-05;Bahia;Novo Alegre

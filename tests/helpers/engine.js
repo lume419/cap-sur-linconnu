@@ -22,9 +22,10 @@ const INTERNAL_FUNCS = ['reallyAdjacent', 'landmassOf', 'zoneOf', 'ferryRouteFor
   'ferryRoadParts', 'tollCountryOf', 'evPlan', 'countryAtPoint', 'insideCountry', 'roadCrossesWater', 'motoMotorwayBan',
   'normalizeCityName', 'chargerNear', 'portZone', 'communeLandmass', 'borderReach', 'communeTension', 'finalizeLeg', 'parseCommunesFile',
   'countrySpeedFactor', 'placeNorm', 'zoneHostNorm', 'countriesAlong', 'finalizeFerryLeg', 'ferryMedianSpeed', 'ferryRouteForPair',
-  'distToSegmentKm', 'parseIsoDate'];
+  'distToSegmentKm', 'parseIsoDate', 'nearCountryWithin'];
 const INTERNAL_VARS = ['COMMUNES', 'FEATURED', 'CHARGER_COUNT', 'TENSION_RULES_BY_COUNTRY', 'AVOID_TENSION', 'LEG_CONSTRAINTS',
-  'LAST_TRIP_DIAGNOSTIC', 'TRIP_DEADLINE', 'TRIP_TIMED_OUT', 'TRIP_TIME_BUDGET_MS', 'MOTO_NO_MOTORWAY_SPEED_FACTOR', 'MOTO_NO_MOTORWAY_SPEED_FACTOR_DEFAULT'];
+  'LAST_TRIP_DIAGNOSTIC', 'TRIP_DEADLINE', 'TRIP_TIMED_OUT', 'TRIP_TIME_BUDGET_MS', 'MOTO_NO_MOTORWAY_SPEED_FACTOR', 'MOTO_NO_MOTORWAY_SPEED_FACTOR_DEFAULT',
+  'ADJACENT_PAIRS', 'NEW_BATCH_COUNTRIES'];
 
 function compilePatched(){
   const file = path.join(ROOT, 'lib', 'trip-engine.js');
@@ -150,6 +151,84 @@ function fullBan(cc){ const b = cc && engine.__test.motoMotorwayBan(cc); return 
 // Facteur de vitesse d'une moto privée d'autoroute : même ordre de recherche de la règle que finalizeLeg (pays passé,
 // départ, arrivée) ; facteur mesuré par pays depuis le 10e audit (0,8 unique auparavant).
 // Facteur de vitesse du pays (relevé OSRM par pays, 11e audit) : vitesse du mode × facteur, sauf à vélo.
+// ZONE À TENSION RECALCULÉE ICI, à partir des règles publiées (19e audit du 21/09/2026). Le vérificateur appelait
+// A.tensionOf() : il comparait donc le moteur à lui-même. Démontré par mutation au 19e audit — remplacer tensionOf
+// par « return null », c'est-à-dire DÉSACTIVER le filtre des zones à tension, laissait 67 tests sur 67 au vert et
+// zéro violation sur 300 tirages, y compris le test nommé « zones à tension évitées quand le filtre est actif ».
+// Seule la primitive géométrique nearCountryWithin (« un lieu d'un autre pays à moins de N km », 122 règles sur 359)
+// reste empruntée au moteur : elle demande la grille des lieux, qu'aucun recalcul raisonnable ne refait ici. Le
+// choix des règles, leur niveau, leurs exceptions et les quatre autres formes de correspondance sont recalculés.
+function cpsDe(c){ return c.allCps || c.cps || (c.cp ? [c.cp] : []); }
+function correspondTension(m, c){
+  if(!m) return false;
+  if(m.all) return true;
+  if(m.regions) return m.regions.indexOf(c.dept || '') !== -1;
+  if(m.cpPrefix) return cpsDe(c).some(cp => m.cpPrefix.some(p => String(cp).indexOf(p) === 0));
+  if(m.near) return m.near.some(n => hav(c.lat, c.lon, n.lat, n.lon) <= n.km);
+  if(m.borderKm) return engine.__test.nearCountryWithin(c.lat, c.lon, m.with, m.borderKm);
+  if(m.box) return m.box.some(b => c.lat >= b[0] && c.lat <= b[1] && c.lon >= b[2] && c.lon <= b[3]);
+  return false;
+}
+function tensionAttendue(c){
+  const règles = (TD.TENSION_ZONES || []).filter(r => r.country === c.country);
+  let meilleure = null;
+  for(const r of règles){
+    if(!correspondTension(r.match, c) || (r.except && correspondTension(r.except, c))) continue;
+    if(!meilleure || (r.level === 'red' && meilleure.level !== 'red')) meilleure = { level: r.level, source: r.source || null };
+  }
+  return meilleure;
+}
+
+// FRONTIÈRE RÉELLE recalculée à partir des données (19e audit du 21/09/2026) : le vérificateur appelait
+// A.reallyAdjacent(), donc le moteur se jugeait lui-même. Mutation démontrée au 19e audit : « return true » (toute
+// frontière déclarée réelle) laissait 67 tests sur 67 au vert. ADJACENT_PAIRS et NEW_BATCH_COUNTRIES sont des
+// des LISTES exposées telles quelles par le moteur ; seule la règle de décision est réécrite ici.
+function ensembleDe(v){ return v instanceof Set ? v : new Set(v || []); }
+
+function frontièreRéelle(a, b){
+  if(!a || !b || a === b) return true;
+  const lot = ensembleDe(engine.__test.NEW_BATCH_COUNTRIES);
+  if(!lot.has(a) && !lot.has(b)) return true; // hors périmètre du correctif d'origine
+  const paires = ensembleDe(engine.__test.ADJACENT_PAIRS);
+  return paires.has(a + '|' + b) || paires.has(b + '|' + a);
+}
+
+// BORNE DE RECHARGE À PROXIMITÉ recalculée ici, sur la liste brute de data/charging-stations.txt, avec un index de
+// cases de 0,25° construit une fois. Le vérificateur appelait A.chargerNear() : la mutation « return true » (toute
+// étape réputée desservie) passait inaperçue. La liste est la même source que le moteur, l'index et la recherche
+// sont indépendants.
+let indexBornes = null;
+function chargeIndexBornes(){
+  if(indexBornes) return indexBornes;
+  indexBornes = new Map();
+  const chemin = path.join(ROOT, 'data', 'charging-stations.txt');
+  if(!fs.existsSync(chemin)) return indexBornes;
+  for(const l of fs.readFileSync(chemin, 'utf8').split('\n')){
+    if(!l) continue;
+    const v = l.split(',');
+    const la = Number(v[0]), lo = Number(v[1]);
+    if(!isFinite(la) || !isFinite(lo)) continue;
+    const k = Math.floor(la / 0.25) + '_' + Math.floor(lo / 0.25);
+    let g = indexBornes.get(k); if(!g) indexBornes.set(k, g = []);
+    g.push([la, lo]);
+  }
+  return indexBornes;
+}
+function borneÀProximité(lat, lon, km){
+  const idx = chargeIndexBornes();
+  if(!idx.size) return null; // liste absente : le contrôle ne conclut pas
+  const portée = Math.ceil(km / (0.25 * 111)) + 1;
+  const cx = Math.floor(lat / 0.25), cy = Math.floor(lon / 0.25);
+  for(let dx = -portée; dx <= portée; dx++){
+    for(let dy = -portée; dy <= portée; dy++){
+      for(const p of idx.get((cx + dx) + '_' + (cy + dy)) || []){
+        if(hav(lat, lon, p[0], p[1]) <= km) return true;
+      }
+    }
+  }
+  return false;
+}
+
 function speedOf(N, from, to, cArg){
   const A = engine.__test;
   const f = (N.transportKey === 'velo' || !A.countrySpeedFactor) ? 1 : A.countrySpeedFactor(from, to, cArg);
@@ -342,7 +421,7 @@ function check(params, res, elapsedMs){
     // Zones à tension
     ap('tension');
     const tobj = { country: leg.country, cps: leg.allCps, cp: leg.cp, dept: leg.dept, lat: leg.lat, lon: leg.lon };
-    const tExp = (leg.country && A.TENSION_RULES_BY_COUNTRY[leg.country]) ? A.tensionOf(tobj) : null;
+    const tExp = leg.country ? tensionAttendue(tobj) : null;
     if(JSON.stringify(tExp) !== JSON.stringify(leg.tension === undefined ? null : leg.tension)) bad('tension', 'basse', 'leg.tension incohérent', { i });
     if(N.avoidTension && !leg.isReturn && tExp) bad('tension', 'haute', 'étape en zone à tension avec le filtre actif', { i, stop: leg.stop, level: tExp.level });
     // Restrictions : seulement van/moto
@@ -460,7 +539,7 @@ function check(params, res, elapsedMs){
     // Frontières et mer (trajets par la route)
     if(!leg.ferryInfo){
       ap('frontiere');
-      if(!A.reallyAdjacent(fromZ, toZ)) bad('frontiere', 'haute', 'frontière inexistante ' + fromZ + ' → ' + toZ, { i, from: from.name, to: cur.name });
+      if(!frontièreRéelle(fromZ, toZ)) bad('frontiere', 'haute', 'frontière inexistante ' + fromZ + ' → ' + toZ, { i, from: from.name, to: cur.name });
       ap('mer');
       if(crossesSea(from, cur)) bad('mer', 'haute', 'trajet par la route à travers la mer', { i, from: [from.name, from.lat, from.lon], to: [cur.name, cur.lat, cur.lon], km: Math.round(hav(from.lat, from.lon, cur.lat, cur.lon)) });
     }
@@ -553,7 +632,9 @@ function check(params, res, elapsedMs){
       const c = leg.chargeInfo;
       if(c && c.stops > 0 && (typeof TD.EV_CHARGE_STOP_MIN === 'number' ? c.minutes !== c.stops * TD.EV_CHARGE_STOP_MIN : (c.minutes < 25 * c.stops || c.minutes > 40 * c.stops))) bad('recharge', 'basse', 'minutes de recharge ' + c.minutes + ' pour ' + c.stops + ' arrêts', { i });
       if(c && c.real && c.stops > 0 && (!c.stations || c.stations.length !== c.stops)) bad('recharge', 'basse', 'stations ≠ stops', { i });
-      const arrivalHasCharger = A.chargerNear(cur.lat, cur.lon, 20);
+      // null = liste de bornes absente : le contrôle s'abstient plutôt que de conclure à tort.
+      const proche = borneÀProximité(cur.lat, cur.lon, 20);
+      const arrivalHasCharger = proche === null ? A.chargerNear(cur.lat, cur.lon, 20) : proche;
       if(!!(c && c.noChargerNearArrival) !== !arrivalHasCharger) bad('recharge', 'basse', 'noChargerNearArrival incohérent', { i });
       if(!leg.ferryInfo){
         const airKm = hav(from.lat, from.lon, cur.lat, cur.lon);

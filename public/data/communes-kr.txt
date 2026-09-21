@@ -4102,6 +4102,7 @@
 0;126.4333,34.9833;58517;Jeollanam-do;Pyŏnggok
 0;126.7653,34.6917;59217;Jeollanam-do;Kyodong-ni
 0;126.7719,34.6331;59239;Jeollanam-do;Hei
+0;127.0000,37.0000;17927;Gyeonggi-do;Pyeong
 0;126.9083,34.8275;59300;Jeollanam-do;Pyŏngdong-ni
 0;127.4500,34.2333;59788;;P’yŏngdo
 0;128.3500,38.1833;24606;Gangwon-do;P’yŏngch’on-ni
@@ -8265,6 +8266,7 @@
 0;129.1667,37.4667;25909;Gangwon-do;Kalch’ŏn
 0;127.3397,36.0940;55300;Jeollabuk-do;Chuam
 0;126.7667,35.3667;57231;Jeollanam-do;Chuam
+0;127.0000,35.0000;58142;Jeollanam-do;Chuam
 0;128.2766,36.2953;39102;Gyeongsangbuk-do;Chua
 0;126.3913,35.2891;57029;Jeollanam-do;Joyangchon
 0;127.2535,36.7205;31249;Chungcheongnam-do;Joyang
@@ -36581,7 +36583,6 @@
 0;127.8585,35.6701;50110;Gyeongsangnam-do;Tongp’yŏn
 0;127.8672,35.6911;50110;Gyeongsangnam-do;Changbaek
 0;127.8677,35.6889;50110;Gyeongsangnam-do;Yangmak
-0;127.9114,35.6874;50133;Gyeongsangnam-do;Koch’ang
 0;127.8637,35.6771;50110;Gyeongsangnam-do;Sanggo
 0;127.8741,35.6859;50110;Gyeongsangnam-do;Sogok
 0;127.8900,35.6832;50140;Gyeongsangnam-do;Saettam

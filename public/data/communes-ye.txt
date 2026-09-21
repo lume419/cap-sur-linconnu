@@ -162,7 +162,6 @@
 0;43.6833,13.6667;YE-25;Ta‘izz;Maqbanah
 0;43.8029,13.7564;YE-25;Ta‘izz;Ar Rawnah
 0;43.9724,13.7640;YE-25;Ta‘izz;Al Miqrān
-0;43.8667,13.7750;YE-25;Ta‘izz;Ar Rubū`
 0;43.6750,13.7750;YE-25;Ta‘izz;Al Qiḩāf
 0;43.5862,13.7793;YE-25;Ta‘izz;Al ‘Ashash
 0;43.9500,13.8417;YE-23;Ibb Governorate;Al Himādim
@@ -6430,7 +6429,6 @@
 0;44.2699,14.6405;YE-11;Dhamār;Al Ḩillah
 0;43.1628,15.3603;YE-08;Al Hudaydah;Al Maşlūbah
 0;43.0625,15.4614;YE-08;Al Hudaydah;Dayr ‘Inwāsh
-0;43.0153,15.4822;YE-08;Al Hudaydah;Maḩall al Ma`rūf
 0;44.3194,14.6632;YE-11;Dhamār;Qubātil
 0;44.3287,14.6281;YE-11;Dhamār;Al Qa‘mah
 0;44.3379,14.6652;YE-11;Dhamār;Aḑ Ḑayq
@@ -6480,7 +6478,6 @@
 0;43.0454,15.3423;YE-08;Al Hudaydah;Maḩall al Ḩalīl
 0;43.0598,15.3240;YE-08;Al Hudaydah;Ar Ribāţ
 0;43.0356,15.3042;YE-08;Al Hudaydah;Maḩall al Mash‘af
-0;43.0375,15.2981;YE-08;Al Hudaydah;Bayt `Ikād
 0;43.0597,15.2961;YE-08;Al Hudaydah;Dayr `Asalah
 0;43.0325,15.2769;YE-08;Al Hudaydah;Dayr ‘Ayyāsh
 0;43.0235,15.2745;YE-08;Al Hudaydah;Dayr ‘Umar
@@ -6510,7 +6507,6 @@
 0;43.1763,15.3176;YE-08;Al Hudaydah;Al Kūfīyah
 0;43.1397,15.3383;YE-08;Al Hudaydah;Maḩall Sulaymān
 0;43.2040,15.3313;YE-08;Al Hudaydah;Al Hashal
-0;43.2203,15.3117;YE-08;Al Hudaydah;Ar Rāfi`ī
 0;43.2301,15.3138;YE-08;Al Hudaydah;Maḩall ‘Aqīl
 0;43.2486,15.3181;YE-08;Al Hudaydah;Al Maqāni‘
 0;43.2012,15.3112;YE-08;Al Hudaydah;Kaḩlān
@@ -7233,7 +7229,6 @@
 0;43.5061,13.8873;YE-25;Ta‘izz;Ar Ramādī
 0;43.5046,13.9565;YE-08;Al Hudaydah;Al Qulmah
 0;43.5272,13.9499;YE-08;Al Hudaydah;Al Ghabrah
-0;43.5545,13.9314;YE-08;Al Hudaydah;Qaryat al Maḩwá
 0;43.5311,13.9217;YE-08;Al Hudaydah;An Nazālī
 0;43.5428,13.9124;YE-08;Al Hudaydah;Dār al Ḩurbī
 0;43.5941,13.9107;YE-08;Al Hudaydah;Qaryat al ‘Anb
@@ -8606,7 +8601,6 @@
 0;43.2118,14.9219;YE-08;Al Hudaydah;Bayt Muḩammad Yaḩyá ‘Umar
 0;43.2531,14.9315;YE-08;Al Hudaydah;‘Ashwān
 0;43.1375,15.0029;YE-08;Al Hudaydah;Dayr Shu‘lah
-0;43.1994,15.0027;YE-08;Al Hudaydah;Adh Dhi ’ābī
 0;43.2407,14.9674;YE-08;Al Hudaydah;Ḩārat an Nūr
 0;43.2629,14.9652;YE-08;Al Hudaydah;Al Munaybī
 0;43.2863,15.0044;YE-08;Al Hudaydah;Maḩall al Amīn
@@ -15778,7 +15772,6 @@
 0;43.5959,14.0449;YE-08;Al Hudaydah;Rub‘ Banī Ḩātim
 0;43.7386,14.1464;YE-11;Dhamār;Rubū‘ al Ajrāf
 0;43.7183,14.0048;YE-08;Al Hudaydah;Rubū‘ al Ashā‘ir
-0;43.7371,14.1512;YE-11;Dhamār;Rubū‘al Ajrāf
 0;43.6072,14.2259;YE-11;Dhamār;Sajīr
 0;43.7028,14.2495;YE-11;Dhamār;Sharaf Banī Lāhib
 0;43.7401,14.0564;YE-08;Al Hudaydah;Sūq al Khamīs
@@ -27514,7 +27507,6 @@
 0;45.4181,15.5124;YE-14;Ma’rib;Āl Ţāhir
 0;45.4125,15.5021;YE-14;Ma’rib;Āl Sahl
 0;45.4170,15.5062;YE-14;Ma’rib;Āl Zayn
-19;45.3806,15.4657;YE-14;Ma’rib;Aş Şāqiţ
 0;45.4131,15.5042;YE-14;Ma’rib;Āl Lamad
 38;45.3702,15.5178;YE-14;Ma’rib;Al Ma‘rif
 5;45.3620,15.4935;YE-14;Ma’rib;Āl Ghurayb
@@ -49664,7 +49656,6 @@
 0;43.8468,13.7546;YE-25;Ta‘izz;Akamat Ḩassān as Suflá
 0;43.8440,13.7605;YE-25;Ta‘izz;Hawb ash Shi‘b
 0;43.8458,13.7515;YE-25;Ta‘izz;Al ‘Uqaybah
-0;43.8468,13.7565;YE-25;Ta‘izz;Al ‘Adanī
 0;43.8481,13.7715;YE-25;Ta‘izz;Aş Şafā’
 0;43.8517,13.7743;YE-25;Ta‘izz;‘Arkābah
 0;43.8416,13.7623;YE-25;Ta‘izz;Bayt al Ḩaddād
@@ -77728,7 +77719,6 @@
 0;43.9911,13.9834;YE-23;Ibb Governorate;At Turbah
 0;43.9977,13.9854;YE-23;Ibb Governorate;Al Maḩallah
 0;43.9951,13.9744;YE-23;Ibb Governorate;Al Ḩawd
-0;43.9950,13.9783;YE-23;Ibb Governorate;Al ‘Adānah
 0;43.9972,13.9737;YE-23;Ibb Governorate;Aş Şirfah
 0;43.9776,13.9772;YE-23;Ibb Governorate;Dār al Jadīd
 0;43.9924,13.9949;YE-23;Ibb Governorate;Al Jubb

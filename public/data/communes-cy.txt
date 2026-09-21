@@ -7,7 +7,6 @@
 0;33.2106,35.1318;2671;Lefkosia;Palaiometocho
 0;32.8079,35.1437;2930;Lefkosia;Potamós tou Kámpou
 0;32.7667,35.1375;2922;Lefkosia;Ayios Ioannis
-0;32.5990,34.7635;8526;Pafos;Cholétria
 249;32.6159,34.8885;8651;Pafos;Statós-Ágios Fótios
 31;32.6823,35.1549;2950;Lefkosia;Páno Pýrgos
 6;32.5269,35.1373;8880;Pafos;Néa Dímmata
@@ -748,7 +747,6 @@
 0;32.4536,34.8343;8540;Pafos;Tsada - Tremithousa - Tala (Borders)
 0;32.4229,34.7744;8010;Pafos;Paphos Municipality
 0;32.4293,34.7733;8010;Pafos;Ayios Theodoros
-0;32.4255,35.0340;8820;Pafos;Polis
 0;32.4315,34.7873;8010;Pafos;Ayios Pavlos
 0;33.6281,35.0901;7620;Larnaka;Arsos
 0;33.6245,34.9392;7060;Larnaka;Agioi Anargyroi I

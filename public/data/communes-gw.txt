@@ -694,5 +694,4 @@
 0;-15.9669,12.3622;GW-06;Cacheu;Canchingolo
 0;-15.7831,12.1989;GW-06;Cacheu;Jol
 0;-16.2667,11.5667;GW-05;Bolama;Caravela
-0;-15.7404,11.8040;GW-12;Biombo;Prabis
 0;-15.5982,11.8728;GW-11;Bissau;Granja-Pessube

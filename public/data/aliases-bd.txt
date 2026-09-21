@@ -1512,7 +1512,6 @@ ru;Беконсфилд;Beaconsfield
 bn;Bazrāpur;Bajrāpur
 bn;Bāzeudpur;Bāzitpur
 bn;Bāzemahāl;Bāzemohal
-bn;Bāze Mādhail;Mādhāil
 bn;Bāze Gobindapur;Baje Gobindapur
 bn;Bāze Goālkāndi;Bāze Goākāndi
 bn;Bāze Dhaneswar;Bāzedhanesawar

@@ -60416,7 +60416,6 @@
 15;8.7787,46.0270;21010;Varese;Vignone II
 15;9.1225,45.0713;27042;Pavia;Coppa d'Argine Ex Tacconi
 15;10.6305,44.9445;46030;Mantova;Cantone Est
-15;11.4915,46.4754;39050;Bolzano-Bozen;Briè
 15;11.9315,46.0419;32032;Belluno;Cart Alto
 15;11.7769,45.2322;35043;Padova;Santa Cosma I
 15;12.9427,45.9577;33033;Udine;Molino di Biauzzo
@@ -60561,7 +60560,6 @@
 9;7.9999,45.5982;13900;Biella;Favaro A
 9;9.4394,45.9221;23814;Lecco;Casere di Balisio
 8;7.6338,45.2270;10077;Torino;Bonini
-8;8.8185,45.0084;15040;Alessandria;Cocetta-Raspa
 8;12.3596,45.7003;31048;Treviso;Zona Artigianale Pero
 8;9.7502,44.8349;29025;Piacenza;La Mirandola
 8;10.1670,44.3050;54013;Massa-Carrara;Castello di Camporaghena

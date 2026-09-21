@@ -1199,6 +1199,46 @@ test('18e audit : file d\'attente bornée — au-delà, « busy » tout de suite
   assert.equal(après.status, 200, 'service cassé après la rafale simultanée');
 });
 
+test('19e audit : c\'est bien la FILE qui refuse au-delà de sa borne, pas le créneau d\'export', { timeout: 300000 }, async () => {
+  // Le test HTTP ci-dessus envoie dix exports simultanés et constate des 503. Mais la route a DEUX protections :
+  // `pdfExportSlot` (server.js, un export à la fois, depuis le 17e audit) et la file bornée du service (18e audit).
+  // Démontré au 19e audit : en rendant la file infinie (FILE_MAX = 1e9), les soixante tests serveur restaient verts —
+  // les 503 venaient tous du créneau, jamais de la file. Ce contrôle-ci s'adresse au module directement, sans route
+  // ni créneau, et prouve que c'est bien FILE_MAX qui décide : la MÊME rafale, servie avec deux bornes différentes,
+  // doit donner strictement plus de documents avec la borne la plus large. Une file non bornée sert tout dans les
+  // deux cas, et le test tombe.
+  const chemin = path.join(ROOT, 'lib', 'pdf-service.js');
+  const complet = maxTripPayload('dz');
+  const travail = { trip: Object.assign({}, complet, { legs: complet.legs.slice(0, 2) }), title: 'essai', lang: 'dz', glyphMax: 6000 };
+  async function rafale(borne){
+    delete require.cache[require.resolve(chemin)];
+    process.env.PDF_FILE_MAX = String(borne);
+    const S = require(chemin);
+    delete process.env.PDF_FILE_MAX;
+    try {
+      const r = await Promise.allSettled(Array.from({ length: 8 }, () => S.build(travail)));
+      const servis = r.filter(x => x.status === 'fulfilled' && x.value.pdf && x.value.pdf.length > 1000).length;
+      const refusés = r.filter(x => x.status === 'rejected' && x.reason && x.reason.busy).length;
+      const autres = r.filter(x => x.status === 'rejected' && !(x.reason && x.reason.busy)).map(x => String(x.reason && x.reason.message));
+      return { servis, refusés, autres };
+    } finally {
+      await S.stop();
+      delete require.cache[require.resolve(chemin)];
+    }
+  }
+  const étroite = await rafale(2);
+  const large = await rafale(6);
+  assert.deepEqual(étroite.autres, [], 'échec pour une autre raison que la file pleine (borne 2)');
+  assert.deepEqual(large.autres, [], 'échec pour une autre raison que la file pleine (borne 6)');
+  // Rien n'est perdu : chaque demande est servie ou refusée, jamais oubliée.
+  assert.equal(étroite.servis + étroite.refusés, 8, 'demandes perdues avec la borne 2 : ' + JSON.stringify(étroite));
+  assert.equal(large.servis + large.refusés, 8, 'demandes perdues avec la borne 6 : ' + JSON.stringify(large));
+  assert.ok(étroite.refusés > 0, 'aucun refus avec une file de 2 pour 8 demandes simultanées');
+  assert.ok(large.servis > étroite.servis,
+    'la borne de la file ne change rien au nombre de documents servis (' + étroite.servis + ' avec 2, ' + large.servis + ' avec 6)' +
+    ' : ce ne sont donc pas elle qui refuse');
+});
+
 test('18e audit : la perte du fil ne concerne QUE le travail en cours, jamais la file', { timeout: 300000 }, async () => {
   // Trois travaux enfilés d'un coup, avec un délai de réponse de 60 ms : le premier expire (le fil est tué et le
   // travail repart en repli), les deux suivants doivent être menés à bien par le fil SUIVANT. Avant le 18e audit,
@@ -1219,6 +1259,66 @@ test('18e audit : la perte du fil ne concerne QUE le travail en cours, jamais la
     r.forEach((x, i) => assert.ok(x.pdf && x.pdf.length > 50000, 'travail ' + i + ' sans document (' + x.source + ')'));
     // Chacun a coûté du temps, et ce temps est rendu : c'est lui qui est imputé au quota de l'adresse.
     r.forEach((x, i) => assert.ok(x.ms > 0, 'travail ' + i + ' : temps de calcul non rapporté'));
+  } finally {
+    await S.stop();
+    delete require.cache[require.resolve(chemin)];
+  }
+});
+
+test('19e audit : un fil perdu ne déverse pas la file dans le processus principal', { timeout: 300000 }, async () => {
+  // Le 18e audit promettait que « la mort ou l'expiration du fil ne concerne QUE le travail en cours ». C'était faux :
+  // dernierÉchec interdit de relancer un fil pendant REDEMARRAGE_MS (5 s), et défiler() retombait alors sur le repli
+  // — mise en page SYNCHRONE — pour chaque travail de la file. Mesuré au 19e audit : cinq replis d'affilée, page
+  // d'accueil servie en 3 101 ms au lieu de 13 ms.
+  // Le test ne compte pas les replis (avec un délai de réponse de 60 ms, TOUT travail envoyé au fil expire, donc
+  // chacun finit forcément en repli) : il mesure leur ESPACEMENT. Déversés, ils s'enchaînent sans respirer ; corrigés,
+  // la file attend la fin du délai de garde puis le démarrage du fil suivant, soit plusieurs secondes entre deux.
+  const chemin = path.join(ROOT, 'lib', 'pdf-service.js');
+  delete require.cache[require.resolve(chemin)];
+  process.env.PDF_REPONSE_MAX_MS = '60';
+  // 5 s en production ; raccourci ici, avec un voyage COURT en repli : le déversement ne se produit que si la mise
+  // en page tient dans le délai de garde, donc les deux doivent être réduits ensemble pour rester reproductible.
+  process.env.PDF_REDEMARRAGE_MS = '1500';
+  const S = require(chemin);
+  delete process.env.PDF_REPONSE_MAX_MS;
+  delete process.env.PDF_REDEMARRAGE_MS;
+  try {
+    // Voyage court : la mise en page en repli dure ~100 ms, bien en deçà du délai de garde raccourci.
+    const complet = maxTripPayload('dz');
+    const trip = Object.assign({}, complet, { legs: complet.legs.slice(0, 1) });
+    const travail = { trip: trip, title: 'essai', lang: 'dz', glyphMax: 6000 };
+    const t0 = Date.now();
+    const finis = await Promise.all([0, 1, 2].map(() => S.build(travail).then(r => ({ r, t: Date.now() - t0 }))));
+    const locaux = finis.filter(x => x.r.source === 'local').map(x => x.t).sort((a, b) => a - b);
+    assert.ok(locaux.length >= 2, 'ce test suppose au moins deux replis (obtenus : ' + finis.map(x => x.r.source).join(', ') + ')');
+    const écarts = locaux.slice(1).map((t, i) => t - locaux[i]);
+    const minimum = Math.min(...écarts);
+    assert.ok(minimum >= 700,
+      'deux replis à ' + minimum + ' ms d\'intervalle : la file se déverse dans le processus principal au lieu' +
+      ' d\'attendre le fil suivant (écarts ' + écarts.join(', ') + ' ms)');
+    finis.forEach((x, i) => assert.ok(x.r.pdf && x.r.pdf.length > 5000, 'travail ' + i + ' sans document'));
+  } finally {
+    await S.stop();
+    delete require.cache[require.resolve(chemin)];
+  }
+});
+
+test('19e audit : l\'attente d\'un fil perdu n\'est pas facturée au budget de calcul du site', { timeout: 300000 }, async () => {
+  // `ms` est ce que l'export a coûté à l'adresse demandeuse, `msProcessus` ce qu'il a coûté au PROCESSUS — la seule
+  // part qui a bloqué la boucle d'événements et qui doit peser sur le budget global. Le 18e audit imputait les deux
+  // fois le total, attente comprise : un fil qui ne répond plus retirait jusqu'à 15 s des 25 s par minute du site.
+  const chemin = path.join(ROOT, 'lib', 'pdf-service.js');
+  delete require.cache[require.resolve(chemin)];
+  process.env.PDF_REPONSE_MAX_MS = '60';
+  const S = require(chemin);
+  delete process.env.PDF_REPONSE_MAX_MS;
+  try {
+    const r = await S.build({ trip: maxTripPayload('dz'), title: 'essai', lang: 'dz', glyphMax: 6000 });
+    assert.equal(r.source, 'local', 'ce test suppose un repli');
+    assert.ok(r.msProcessus > 0, 'le repli bloque le processus : msProcessus doit être compté');
+    assert.ok(r.ms >= r.msProcessus, 'le total imputé à l\'adresse doit inclure le temps du processus');
+    // Le temps de fil imputable est borné (FIL_CALCUL_MAX_MS = 3,5 s) : au-delà le fil ne calculait plus.
+    assert.ok(r.ms - r.msProcessus <= 3500, 'temps de fil imputé non borné : ' + (r.ms - r.msProcessus) + ' ms');
   } finally {
     await S.stop();
     delete require.cache[require.resolve(chemin)];
@@ -1478,6 +1578,26 @@ test('17e audit, point 6 : titre d\'espace de noms précédé d\'un souligné re
     if(calls.length) bad.push(JSON.stringify(n) + ' : ' + calls.length + ' appel(s) sortant(s), ex. ' + calls[0].url);
   }
   assert.deepEqual(bad, []);
+});
+
+test('19e audit : une page tierce ne peut pas épuiser le quota des gros fichiers d\'un visiteur', { timeout: 120000 }, async () => {
+  // Le contrôle d'origine du 11e audit ne couvrait que /api/. Le quota des quatre gros fichiers (feuille de style et
+  // trois scripts, 30 requêtes par minute et par adresse) n'en avait aucun : trente balises
+  // « <img src="https://…/css/style.css?1"> » sur une page tierce faisaient répondre 429 à la feuille de style ET aux
+  // trois scripts pendant une minute — l'accueil se chargeait encore, sans style ni code (19e audit du 21/09/2026).
+  const ip = freshIp();
+  // 1. Trente requêtes lancées depuis une page tierce : refusées, et sans rien consommer.
+  const refus = [];
+  for(let i = 0; i < 30; i++){
+    const r = await H.get('/css/style.css?' + i, { ip: ip, headers: 'Sec-Fetch-Site: cross-site\r\n' });
+    if(r.status !== 403) refus.push(i + ' -> ' + r.status);
+  }
+  assert.deepEqual(refus.slice(0, 5), [], 'une requête lancée depuis un autre site doit être refusée');
+  // 2. Le visiteur, lui, charge toujours le site.
+  for(const chemin of ['/css/style.css', '/js/app.js', '/js/i18n.js', '/js/trip-data.js']){
+    const r = await H.get(chemin, { ip: ip, headers: 'Sec-Fetch-Site: same-origin\r\n' });
+    assert.equal(r.status, 200, chemin + ' refusé au visiteur après la rafale tierce : son quota a bien été consommé');
+  }
 });
 
 test('17e audit, point 7 : Sec-Fetch-Site comparé sans tenir compte de la casse', { timeout: 60000 }, async () => {

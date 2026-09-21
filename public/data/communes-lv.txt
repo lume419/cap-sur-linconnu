@@ -2580,7 +2580,6 @@
 0;25.8321,57.0198;LV-4122;Vecpiebalgas pag.;Ineši
 0;21.7737,56.8210;LV-3329;Turlavas pag.;Kalējciems
 0;26.5468,57.4719;LV-4339;Gaujienas pag.;Indriķi
-0;26.0129,56.5489;LV-5202;Krustpils pag.;Indriķēni
 0;24.6879,57.1221;LV-2140;Inčukalna pag.;Indrāni
 0;27.5328,55.8759;LV-5664;Indras pag.;Indra
 0;25.8007,56.0784;LV-5210;Asares pag.;Indāni
@@ -3233,7 +3232,6 @@
 0;22.4000,57.4333;LV-3270;Dundagas pag.;Bertmeji
 0;20.9880,56.3750;LV-3473;Nīcas pag.;Bernāti
 0;26.9615,56.6776;LV-4631;Nagļu pag.;Bernāni
-0;26.7549,56.5205;LV-5331;Sīļukalna pag.;Sīļukalns
 0;26.5821,56.4599;LV-5328;Sīļukalna pag.;Bernāni
 0;27.0129,55.9833;LV-5652;Izvaltas pag.;Bernadski
 2950;24.2992,56.9864;LV-1024;Ropažu nov.;Berģi

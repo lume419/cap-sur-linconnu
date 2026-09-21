@@ -11553,7 +11553,6 @@
 0;5.7000,51.0667;3680;Limbourg;Bergerven
 0;3.9167,50.6333;7830;Hainaut;Bergère
 0;5.1753,50.9057;3454;Brabant Flamand;Bergen Einde
-0;5.1753,50.9057;3454;Brabant Flamand;Bergen-Einde
 0;3.9833,51.1500;9160;Flandre-Orientale;Bergendries
 0;4.1000,50.8000;1755;Brabant Flamand;Bergenbroek
 0;5.0703,51.3204;2370;Anvers;Bergen

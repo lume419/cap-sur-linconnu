@@ -12420,7 +12420,6 @@
 0;68.2802,25.4361;PK-05;Sindh;Jamshoro
 0;74.1077,30.8131;PK-04;Punjab;Jamsher Kalan
 0;73.9833,31.1167;PK-04;Punjab;Jamsher
-0;68.6305,26.2969;PK-05;Sindh;Jam Sahib
 56642;71.3801,34.0015;PK-03;Khyber Pakhtunkhwa;Jamrud
 0;68.8714,26.4277;PK-05;Sindh;Jamrumor
 0;71.7500,29.5833;PK-04;Punjab;Jamraniwah
@@ -20443,7 +20442,6 @@
 0;73.3289,30.5262;PK-04;Punjab;Chak Murad Khan
 0;73.3494,30.5236;PK-04;Punjab;Chak Ahmad Sher
 0;73.3647,30.5365;PK-04;Punjab;Nausher Bodla
-0;73.3794,30.5369;PK-04;Punjab;Jogiāna
 0;73.3417,30.5511;PK-04;Punjab;Sadanabad
 241873;73.3908,30.5508;PK-04;Punjab;Bahawalnagar
 0;73.4225,30.5090;PK-04;Punjab;Tiwana Kalan
@@ -21025,7 +21023,6 @@
 0;71.8463,34.1704;PK-03;Khyber Pakhtunkhwa;Yaqub Khan Koruna
 0;71.8321,34.1742;PK-03;Khyber Pakhtunkhwa;Qala
 0;71.8498,34.1781;PK-03;Khyber Pakhtunkhwa;Lande Shah
-0;71.8539,34.1733;PK-03;Khyber Pakhtunkhwa;Yāqūb Khān Korūna
 0;71.8722,34.1717;PK-03;Khyber Pakhtunkhwa;Kote Kili
 0;71.8773,34.1679;PK-03;Khyber Pakhtunkhwa;Shergarh
 0;71.9116,34.1642;PK-03;Khyber Pakhtunkhwa;Hindu Kalle
@@ -24714,7 +24711,6 @@
 0;72.2428,33.7340;PK-04;Punjab;Kot Nawab Khan
 0;72.2426,33.7270;PK-04;Punjab;Dhok Waras
 0;72.2450,33.7238;PK-04;Punjab;Dhok Gulab Khan
-0;72.2394,33.7306;PK-04;Punjab;Kot Nawab Khān
 0;72.2183,33.7246;PK-04;Punjab;Chhoi
 0;72.2173,33.7178;PK-04;Punjab;Narian
 0;72.0084,33.7393;PK-03;Khyber Pakhtunkhwa;Sar Toi
@@ -30798,7 +30794,6 @@
 0;71.6810,30.5163;PK-04;Punjab;Basti Shahamad
 0;71.6685,30.5745;PK-04;Punjab;Awanwala
 0;71.6575,30.5707;PK-04;Punjab;Dargahiwala
-0;71.6500,30.5750;PK-04;Punjab;Amīrpur Sarbāna
 0;71.6574,30.5779;PK-04;Punjab;Gidarwala
 0;71.6598,30.5832;PK-04;Punjab;Tahliwala
 0;71.6401,30.5801;PK-04;Punjab;Nawanwala
@@ -34883,7 +34878,6 @@
 0;69.3495,25.2816;PK-05;Sindh;Muhajir Goth
 1000;69.3250,25.2806;PK-05;Sindh;Abdullah Khaskheli
 0;69.3153,25.2847;PK-05;Sindh;Motu Dhonkai
-0;69.2500,25.2861;PK-05;Sindh;Jamesābād
 0;69.2653,25.3056;PK-05;Sindh;Mir Allahdad
 0;69.2769,25.3099;PK-05;Sindh;Muhammad Khan Halipota
 0;69.2921,25.2987;PK-05;Sindh;Nabban Bhurgari
@@ -34949,7 +34943,6 @@
 0;69.2709,25.3791;PK-05;Sindh;Haji Abdullah
 0;69.2743,25.3812;PK-05;Sindh;Deh Two Hundred Eighteen
 0;69.2712,25.3917;PK-05;Sindh;Goth Master Dongar Mull
-0;69.2528,25.4000;PK-05;Sindh;Dingān Bhurgari
 0;69.2589,25.4062;PK-05;Sindh;Goth Muhammad Khan Bhurgari
 0;69.2669,25.4156;PK-05;Sindh;Goth Nur Muhammad Bhurgari
 0;69.3043,25.4164;PK-05;Sindh;Haji Muhammad Siddiq
@@ -36418,7 +36411,6 @@
 0;71.1736,31.9947;PK-04;Punjab;Bhangianwala
 0;71.1528,31.9986;PK-04;Punjab;Kanda Balochwala
 0;71.1750,31.9986;PK-04;Punjab;Jānan Chāp
-0;71.2319,31.9986;PK-04;Punjab;Gachewāla
 0;71.2252,31.9924;PK-04;Punjab;Akkerewala
 0;71.2472,31.9917;PK-04;Punjab;Qaisar
 0;71.2266,31.9709;PK-04;Punjab;Changranwala
@@ -36802,7 +36794,6 @@
 0;71.3118,31.6532;PK-04;Punjab;Baqarwala
 0;71.3235,31.6505;PK-04;Punjab;Khanwala
 0;71.3111,31.6569;PK-04;Punjab;Sadikwala
-0;71.2972,31.6583;PK-04;Punjab;Golewāla
 0;71.3037,31.6612;PK-04;Punjab;Muridwala
 0;71.3291,31.6630;PK-04;Punjab;Lashkaraniwala
 0;71.3262,31.6708;PK-04;Punjab;Muzaffarwala
@@ -37925,7 +37916,6 @@
 0;71.1302,30.3486;PK-04;Punjab;Ghulamewala
 0;71.1020,30.3478;PK-04;Punjab;Sohrewala
 0;71.0942,30.3415;PK-04;Punjab;Janewala
-0;71.0875,30.3375;PK-04;Punjab;Jānewāla
 0;71.0894,30.3390;PK-04;Punjab;Hamidwala
 0;71.0845,30.3478;PK-04;Punjab;Kumharwala
 0;71.1045,30.3554;PK-04;Punjab;Muhammadwala
@@ -41857,7 +41847,6 @@
 0;71.9709,35.1098;PK-03;Khyber Pakhtunkhwa;Khanpur
 0;71.9750,35.1156;PK-03;Khyber Pakhtunkhwa;Kuz Kas
 0;71.9765,35.1253;PK-03;Khyber Pakhtunkhwa;Gande Gar
-0;71.9967,35.1319;PK-03;Khyber Pakhtunkhwa;Kūz Katan
 0;71.9861,35.1106;PK-03;Khyber Pakhtunkhwa;Kachul
 0;71.9886,35.0885;PK-03;Khyber Pakhtunkhwa;Kot Kas
 0;71.9722,35.0935;PK-03;Khyber Pakhtunkhwa;Jika
@@ -42218,7 +42207,6 @@
 0;65.9931,29.5849;PK-02;Balochistan;Habib Khan
 0;65.9688,29.5605;PK-02;Balochistan;Sahibzadgan
 0;65.9838,29.5647;PK-02;Balochistan;Chhapri Kili
-0;65.9750,29.5389;PK-02;Balochistan;Kili Jamāldini
 0;65.7662,29.2484;PK-02;Balochistan;Kili Gorgej
 0;65.7652,29.2702;PK-02;Balochistan;Kili Haji Umid
 0;65.9425,29.2746;PK-02;Balochistan;Niam Dargi
@@ -50150,7 +50138,6 @@
 0;73.8319,32.3022;PK-04;Punjab;Thuian
 0;73.7639,32.3306;PK-04;Punjab;Qazianwali
 0;73.8330,32.3227;PK-04;Punjab;Niya Lahore
-0;73.8778,32.3292;PK-04;Punjab;Chhināwān
 0;73.9298,32.3210;PK-04;Punjab;Nawan Pind
 0;73.9463,32.3166;PK-04;Punjab;Dilawar Khurd
 0;73.9567,32.3287;PK-04;Punjab;Kobo Pura
@@ -51456,7 +51443,6 @@
 0;73.9800,31.1354;PK-04;Punjab;Gor Tarkhanwala
 0;73.9927,31.1408;PK-04;Punjab;Panditwala
 0;73.8130,31.1514;PK-04;Punjab;Katar Mal
-0;73.8389,31.1500;PK-04;Punjab;Kot Sardār Kāhan Singh
 0;73.8666,31.1498;PK-04;Punjab;Kot Machhi
 0;73.8667,31.1514;PK-04;Punjab;Kot Shahu
 0;73.8778,31.1569;PK-04;Punjab;Kot Nawab
@@ -51909,7 +51895,6 @@
 0;73.3872,31.0712;PK-04;Punjab;Kovira Kalan
 0;73.3793,31.0786;PK-04;Punjab;Kokara
 0;73.3466,31.0638;PK-04;Punjab;Thatta Khokhar
-0;73.3458,31.0944;PK-04;Punjab;Siāl
 0;73.3366,31.0702;PK-04;Punjab;Panah da Khu
 0;73.3223,31.0643;PK-04;Punjab;Thatta Sajawal
 0;73.3375,31.0611;PK-04;Punjab;Khere da Khu
@@ -54712,7 +54697,6 @@
 0;70.9959,29.9953;PK-04;Punjab;Khajiwala
 0;70.9817,29.9878;PK-04;Punjab;Nawanwala
 0;70.9982,29.9852;PK-04;Punjab;Muhammadwala
-0;70.5978,29.9572;PK-04;Punjab;Lohārwāla
 0;70.9477,29.9800;PK-04;Punjab;Serin Dawanwala
 0;70.9669,29.9716;PK-04;Punjab;Kandewala
 0;70.9814,29.9615;PK-04;Punjab;Chantanwala
@@ -55095,7 +55079,6 @@
 0;70.8042,29.2549;PK-04;Punjab;Jattuwala
 0;70.8212,29.2688;PK-04;Punjab;Basti Ghatti Nahar
 0;70.8056,29.2694;PK-04;Punjab;Mullanwala
-0;70.8083,29.2750;PK-04;Punjab;Mullānwāla
 0;70.8209,29.2844;PK-04;Punjab;Basti Burra
 0;70.8140,29.2844;PK-04;Punjab;Pir Chhattha
 0;70.8143,29.2885;PK-04;Punjab;Jam Pir Bakhsh
@@ -60760,7 +60743,6 @@
 0;71.3250,32.0944;PK-04;Punjab;Gaman Pitwarwala
 0;71.3333,32.0972;PK-04;Punjab;Muradwala
 0;71.3375,32.0917;PK-04;Punjab;Mian Saidwala
-0;71.3917,32.0958;PK-04;Punjab;Ashraf Khānwāla
 0;71.3894,32.0984;PK-04;Punjab;Nur Khanwala
 0;71.4814,32.0893;PK-04;Punjab;Chak Twenty-six ML
 0;71.2978,32.0996;PK-04;Punjab;Chah Makhnunwala
@@ -62756,7 +62738,6 @@
 0;70.7390,29.3303;PK-04;Punjab;Basti Chandia
 0;70.7131,29.3339;PK-04;Punjab;Basti Jaskani
 0;70.7125,29.3289;PK-04;Punjab;Gopiwala
-0;70.7139,29.3333;PK-04;Punjab;Basti Jaskāni
 0;70.7472,29.3278;PK-04;Punjab;Gurmāniwāla
 0;70.7417,29.3306;PK-04;Punjab;Basti Chandiawāla
 0;70.7250,29.3294;PK-04;Punjab;Basti Mud Ubba
@@ -63580,7 +63561,6 @@
 0;71.8953,30.6843;PK-04;Punjab;Sadan Nekokara
 0;71.7802,30.7004;PK-04;Punjab;Basti Multazim Hussain
 0;71.7887,30.6964;PK-04;Punjab;Lakhewala
-0;71.9542,30.6917;PK-04;Punjab;Piroāna Janūbi
 0;71.8221,30.7044;PK-04;Punjab;Maraliwali
 0;71.8798,30.7038;PK-04;Punjab;Hodan di Basti
 0;71.9290,30.7001;PK-04;Punjab;Piplanwala
@@ -68365,7 +68345,6 @@
 0;73.2262,32.9690;PK-04;Punjab;Dhok Gahi
 0;73.2439,32.9949;PK-04;Punjab;Puranigai
 0;73.3306,30.5833;PK-04;Punjab;Chah Mehr Shah
-0;73.2681,30.2917;PK-04;Punjab;Upāna Khurd
 0;73.2665,30.2883;PK-04;Punjab;Upana Kalan
 0;73.2855,30.2860;PK-04;Punjab;Chak Sochan
 0;73.2833,30.2764;PK-04;Punjab;Jamalkotwala
@@ -68695,7 +68674,6 @@
 0;73.5181,30.5623;PK-04;Punjab;Tufail Kot
 0;73.6306,30.5486;PK-04;Punjab;Pirandi
 0;73.7063,30.5135;PK-04;Punjab;Rattian Tibbian
-0;73.7139,30.5069;PK-04;Punjab;Rattiān Tibbiān
 0;73.7336,30.5013;PK-04;Punjab;Chak Wazir Singh
 0;73.7214,30.5208;PK-04;Punjab;Jammu Wachchal
 0;73.7014,30.5361;PK-04;Punjab;Narainbal
@@ -68769,7 +68747,6 @@
 0;73.6444,30.7250;PK-04;Punjab;Chak Jawahir Singh
 0;73.6690,30.7319;PK-04;Punjab;Chak Hakim Imam-ud-Din
 0;73.6989,30.7327;PK-04;Punjab;Wahghara
-0;73.7306,30.7347;PK-04;Punjab;Salihowāl
 0;73.7042,30.7385;PK-04;Punjab;Sham Din
 0;73.7000,30.7500;PK-04;Punjab;Sunariwala
 0;73.7414,30.7442;PK-04;Punjab;Rangilpura
@@ -69099,7 +69076,6 @@
 0;73.9901,30.9400;PK-04;Punjab;Chah Alamwala
 0;73.9609,30.9404;PK-04;Punjab;Chah Wattuanwala
 0;73.9667,30.9444;PK-04;Punjab;Chah Ladh Mal
-0;73.9766,30.9986;PK-04;Punjab;Desuwala
 0;73.9275,30.9863;PK-04;Punjab;Kot Gama
 0;73.9300,30.9564;PK-04;Punjab;Sadda Utar
 0;73.9347,30.9500;PK-04;Punjab;Saddha Hithār
@@ -71906,7 +71882,6 @@
 0;74.2556,30.8597;PK-04;Punjab;Killi
 0;74.2679,30.8481;PK-04;Punjab;Tatara Kamil
 0;74.2677,30.8535;PK-04;Punjab;Mangal Singhwala
-0;74.2770,30.8450;PK-04;Punjab;Ganja Kalan
 0;74.2819,30.8556;PK-04;Punjab;Ganja Kalān
 0;74.2905,30.8617;PK-04;Punjab;Ganja Khurd
 0;74.3453,30.8793;PK-04;Punjab;Jalloke
@@ -72698,7 +72673,6 @@
 0;69.9423,32.5029;PK-03;Khyber Pakhtunkhwa;Isegai
 0;69.7623,32.7185;PK-03;Khyber Pakhtunkhwa;Jai Pishun
 0;69.9333,32.6591;PK-03;Khyber Pakhtunkhwa;Janjal Mela
-0;69.9292,32.5003;PK-03;Khyber Pakhtunkhwa;Janjal Saīdan
 0;69.9453,32.5153;PK-03;Khyber Pakhtunkhwa;Jawokai
 0;69.8969,32.5821;PK-03;Khyber Pakhtunkhwa;Jinai
 0;69.9363,32.5175;PK-03;Khyber Pakhtunkhwa;Kabir Raghzai
@@ -76431,7 +76405,6 @@
 0;66.5733,30.9426;PK-02;Balochistan;Kili Sardar
 0;66.5757,30.9348;PK-02;Balochistan;Kili Zabir Khan
 0;66.6638,30.9704;PK-02;Balochistan;Kili Ali Muhammad
-0;66.6650,30.9736;PK-02;Balochistan;Kili Gul Bārān
 0;66.6517,30.7618;PK-02;Balochistan;Kili Haji Jamat Khan
 0;66.7302,30.7706;PK-02;Balochistan;Kili Haji Khan
 0;66.6314,30.8631;PK-02;Balochistan;Kili Ghullam Yahya
@@ -77836,7 +77809,6 @@
 0;67.5707,28.6547;PK-02;Balochistan;Goth Muhammad Baqa
 0;67.7474,28.5405;PK-02;Balochistan;Chhatta
 0;67.7440,28.5841;PK-02;Balochistan;Goth Atta Muhammad Brauhi
-0;67.6900,28.7490;PK-02;Balochistan;Shīkārpur
 0;67.5626,28.7431;PK-02;Balochistan;Goth Jamal Shah
 0;67.6516,28.7412;PK-02;Balochistan;Chinjni Ghauspur
 0;67.6416,28.7234;PK-02;Balochistan;Jan Muhammad
@@ -80094,7 +80066,6 @@
 0;67.5726,25.3007;PK-05;Sindh;Goth Sumarāni
 0;73.1513,34.3177;PK-03;Khyber Pakhtunkhwa;Ziarat
 0;71.8601,33.0138;PK-04;Punjab;Dhok Lari
-0;71.9210,33.0234;PK-04;Punjab;Dhok Kharmār
 0;71.8200,33.0211;PK-04;Punjab;Berera
 0;71.7691,33.0224;PK-04;Punjab;Ghazi Khel
 0;71.7562,33.0196;PK-04;Punjab;Bandal Khel
@@ -80525,7 +80496,6 @@
 0;68.3216,25.4173;PK-05;Sindh;Goth Qazi Abbasi
 0;68.3069,25.4404;PK-05;Sindh;Sain Dino Malah Goth
 0;68.4296,25.4666;PK-05;Sindh;Goth Sahib Khan Chandio
-0;68.4073,25.3870;PK-05;Sindh;Goth Gāngpārā
 0;68.4082,25.4080;PK-05;Sindh;Goth Ghulam Haidar Jatoi
 0;68.4042,25.4164;PK-05;Sindh;Goth Dildar Khan Gopang
 0;73.7399,33.9900;PK-06;Azad Kashmir;Tangiat
@@ -81005,7 +80975,6 @@
 0;73.7144,33.0587;PK-06;Azad Kashmir;Chak Baliyan
 0;73.7062,33.0639;PK-06;Azad Kashmir;Pind Rajwal
 0;73.6922,33.0609;PK-06;Azad Kashmir;Jasrota
-0;73.6940,33.0204;PK-04;Punjab;Chak Jamāl
 0;73.6586,33.0384;PK-06;Azad Kashmir;Mota
 0;73.7181,33.0675;PK-06;Azad Kashmir;Chhani
 0;73.6887,33.0685;PK-04;Punjab;Dhok Jahairpur
@@ -82720,7 +82689,6 @@
 0;71.0440,31.5373;PK-04;Punjab;Baluchanwala
 0;71.0202,31.5132;PK-04;Punjab;Pindianwala
 0;71.0229,31.5110;PK-04;Punjab;Bakawewala
-0;71.0071,31.5100;PK-04;Punjab;Basti Pirānwāli
 0;71.0095,31.5177;PK-04;Punjab;Killianwala
 0;71.0034,31.5278;PK-04;Punjab;Kundiani
 0;71.0407,31.6353;PK-04;Punjab;Buchranwali
@@ -83075,7 +83043,6 @@
 0;68.5938,25.0958;PK-05;Sindh;Goth Bakhsh Laghari
 0;68.5846,25.0865;PK-05;Sindh;Goth Haji Sabbhio Laghari
 0;68.5955,25.0956;PK-05;Sindh;Haji Ibrahim Pathan
-0;68.5892,25.0839;PK-05;Sindh;Goth Ali Shāh
 0;68.5782,25.0846;PK-05;Sindh;Goth Samar Laghari
 0;69.0865,30.8463;PK-02;Balochistan;Mustafa Karez
 0;68.6373,25.0425;PK-05;Sindh;Baloch
@@ -83299,7 +83266,6 @@
 0;73.9800,32.2928;PK-04;Punjab;Maniwala
 0;71.2298,30.7797;PK-04;Punjab;Chak Four Hundred Thirty-one Thal Development Authority
 0;71.2330,30.7279;PK-04;Punjab;Khanwala
-0;71.0909,30.4031;PK-04;Punjab;Faqīrwāla
 0;71.2678,31.6837;PK-04;Punjab;Jaranwala
 0;71.2634,31.6839;PK-04;Punjab;Chak Seven
 0;71.2612,31.6929;PK-04;Punjab;Shafiqabad
@@ -83736,7 +83702,6 @@
 0;71.0090,30.3437;PK-04;Punjab;Manglaywala
 0;71.0258,30.3473;PK-04;Punjab;Madanwala
 0;71.0355,30.3526;PK-04;Punjab;Makkarwal
-0;71.0543,30.3497;PK-04;Punjab;Sohhewāla
 0;71.0536,30.3554;PK-04;Punjab;Chādewāla
 0;71.1241,30.3526;PK-04;Punjab;Waras
 0;71.0023,30.3648;PK-04;Punjab;Ferozwala
@@ -83752,7 +83717,6 @@
 0;71.1089,30.3575;PK-04;Punjab;Saddiquewala
 0;71.2023,30.3539;PK-04;Punjab;Chak Six Hundred Ten Thal Development Authority
 0;71.2082,30.3682;PK-04;Punjab;Chak Six Hundred Eleven Thal Development Authority
-0;71.1048,30.3685;PK-04;Punjab;Dādwāla
 0;71.0980,30.3630;PK-04;Punjab;Barbarwala
 0;71.0497,30.3712;PK-04;Punjab;Qureshiwala
 0;71.0209,30.3710;PK-04;Punjab;Jawaliwala
@@ -83773,7 +83737,6 @@
 0;71.2138,30.4590;PK-04;Punjab;Chak Five Hundred Ninety-six Thal Development Authority
 0;71.2216,30.4617;PK-04;Punjab;Chak Five Hundred Ninety-five Thal Development Authority
 0;71.2174,30.4692;PK-04;Punjab;Chak Five Hundred Ninety-four Thal Development Authority
-0;71.0162,30.4739;PK-04;Punjab;Khatakwāla
 0;71.0407,30.4770;PK-04;Punjab;Chak One Hundred Fifty-two Thal Development Authority Two
 0;71.2408,30.4809;PK-04;Punjab;Chak Five Hundred Ninety-three Thal Development Authority
 0;71.1192,30.4864;PK-04;Punjab;Amirwala
@@ -83824,18 +83787,15 @@
 0;70.3811,29.1083;PK-04;Punjab;Basti Sarajwali
 0;70.3916,29.1320;PK-04;Punjab;Layawala
 0;70.3765,29.1627;PK-04;Punjab;Boiwala Khu
-0;70.3626,29.1677;PK-04;Punjab;Mīranwāla Khu
 0;70.3338,29.1913;PK-04;Punjab;Basti Ismail Lahahani
 0;70.3578,29.1979;PK-04;Punjab;Kotanewala Khu
 0;70.3818,29.2324;PK-04;Punjab;Basti Farid Bakhsh Langah
 0;70.3880,29.2119;PK-04;Punjab;Munirabad
 0;70.3906,29.1892;PK-04;Punjab;Khu Dawa Qamla
-0;70.4369,29.0798;PK-04;Punjab;Mad Jāno
 0;70.4153,29.1071;PK-04;Punjab;Basti Dhora Ahmad Khānwāla
 0;70.4361,29.1032;PK-04;Punjab;Wājawāla
 0;70.4258,29.1295;PK-04;Punjab;Loharwala Khu
 0;70.4534,29.1208;PK-04;Punjab;Basti Godu
-0;70.4388,29.1322;PK-04;Punjab;Thāthalwāla Khu
 0;70.4231,29.1407;PK-04;Punjab;Gul Baharwala Khu
 0;70.4500,29.0730;PK-04;Punjab;Basti Dad Faqirwali
 0;70.4429,29.0945;PK-04;Punjab;Kliānewāla
@@ -83900,9 +83860,7 @@
 0;65.4634,28.5042;PK-02;Balochistan;Hurro
 0;65.2587,28.5658;PK-02;Balochistan;Kili Ghulam Rasul
 0;65.2771,28.5826;PK-02;Balochistan;Kili Abdul Haq
-0;70.4181,29.2325;PK-04;Punjab;Basti Malve Khān
 0;70.4232,29.2487;PK-04;Punjab;Afzalabad
-0;70.4571,29.0573;PK-04;Punjab;Basti Bakhsha Māchhi
 0;70.4770,29.0756;PK-04;Punjab;Basti Kirāri
 0;70.5304,29.7493;PK-04;Punjab;Sajhliwala
 0;70.5292,29.7374;PK-04;Punjab;Ranihiawala
@@ -84127,7 +84085,6 @@
 0;70.5888,29.7030;PK-04;Punjab;Balochwala
 0;72.4930,32.9536;PK-04;Punjab;Dudhali Pir
 0;70.5735,29.6890;PK-04;Punjab;Unarwala
-0;70.5709,29.6914;PK-04;Punjab;Qabūlanwāla
 0;70.5720,29.6947;PK-04;Punjab;Chah Mahmud-ul-Hasanwala
 0;70.5378,29.6902;PK-04;Punjab;Ajarwala
 0;70.5172,29.7092;PK-04;Punjab;Gopāganka
@@ -84142,14 +84099,12 @@
 0;70.6126,29.6497;PK-04;Punjab;Khanwala
 0;70.6180,29.6565;PK-04;Punjab;Mochiwala
 0;70.6255,29.6678;PK-04;Punjab;Baghwala
-0;70.6289,29.6628;PK-04;Punjab;Machhiwāla
 0;72.2618,31.7395;PK-04;Punjab;Nawin Dilli
 0;72.3586,32.7585;PK-04;Punjab;Dhok Jhanda
 0;72.3764,32.7871;PK-04;Punjab;Dhok Maghral
 0;72.3792,32.7723;PK-04;Punjab;Gashral
 0;72.3946,32.7674;PK-04;Punjab;Dhok Detial
 0;72.3924,32.7637;PK-04;Punjab;Dhok Shah Nawaz
-0;70.7341,29.6080;PK-04;Punjab;Basti Muhammad Bashīr
 0;70.6170,29.6079;PK-04;Punjab;Shokewala
 0;70.5786,29.6171;PK-04;Punjab;Jadamwala
 0;70.5565,29.6417;PK-04;Punjab;Shoriwāla
@@ -84272,7 +84227,6 @@
 0;72.3682,32.7138;PK-04;Punjab;Pir Shahabul Shah
 0;72.3715,32.6695;PK-04;Punjab;Thati
 0;70.5857,29.4649;PK-04;Punjab;Luzhariwala
-0;72.3285,32.6237;PK-04;Punjab;Jhungawāla
 0;70.5868,29.4978;PK-04;Punjab;Mullanawala
 0;70.6240,29.4812;PK-04;Punjab;Basti Mitha
 0;72.3568,32.5897;PK-04;Punjab;Shahalanwali
@@ -84403,7 +84357,6 @@
 0;72.2553,30.9844;PK-04;Punjab;Kariwala
 0;72.2548,30.9828;PK-04;Punjab;Lālkot
 0;72.0221,32.7061;PK-04;Punjab;Watiānwāla Kuna
-0;72.0362,32.6833;PK-04;Punjab;Kiliwāla
 0;72.0102,32.6809;PK-04;Punjab;Dhok Chitra
 0;72.0019,32.6770;PK-04;Punjab;Dhok Khabri
 0;72.0348,32.6754;PK-04;Punjab;Ajrwala
@@ -85357,7 +85310,6 @@
 0;67.8751,28.1551;PK-02;Balochistan;Goth Haji Mir
 0;67.8688,28.1483;PK-02;Balochistan;Goth Sher Muhammad
 0;67.8631,28.1435;PK-02;Balochistan;Goth Haji Sawa
-0;67.7885,28.1612;PK-02;Balochistan;Goth Jām
 0;67.7793,28.1408;PK-02;Balochistan;Haji Muhammad Siddique
 0;67.7756,28.1245;PK-02;Balochistan;Hasal Khan Jamali
 0;67.7549,28.1096;PK-02;Balochistan;Goth Shah Murid
@@ -85427,7 +85379,6 @@
 0;71.4710,29.9414;PK-04;Punjab;Karim Bakhshwala
 0;70.6481,29.1025;PK-04;Punjab;Nawaz Watra
 0;71.3951,29.9627;PK-04;Punjab;Kangan
-0;70.6625,29.0921;PK-04;Punjab;Basti Janghi Khān Gopāng
 0;71.2600,29.9874;PK-04;Punjab;Bulle Wahan
 0;71.3831,29.9773;PK-04;Punjab;Gohar Shahwala
 0;71.3771,29.9957;PK-04;Punjab;Haveliwala
@@ -85571,7 +85522,6 @@
 0;69.2896,27.9733;PK-05;Sindh;Goth Hashim Behen
 0;69.4094,27.9790;PK-05;Sindh;Ghous Punjabi
 0;69.4942,27.9849;PK-05;Sindh;Raza Muhdi Mahar
-0;69.3276,27.9993;PK-05;Sindh;Sacha Mohān
 0;69.3212,27.9840;PK-05;Sindh;Massu Khan Kalwar
 0;69.3020,27.9858;PK-05;Sindh;Sacho Bhaja Goth
 0;68.2215,26.4551;PK-05;Sindh;Mukhdum Shah
@@ -85785,7 +85735,6 @@
 0;68.2576,26.8743;PK-05;Sindh;Goth Jalal Mahar
 0;68.2752,26.8732;PK-05;Sindh;Goth Raban Mahar
 0;68.2577,26.8554;PK-05;Sindh;Goth Lal Khan Hisbani
-0;68.2692,26.8614;PK-05;Sindh;Goth Mumal Chāhi
 0;68.2588,26.8514;PK-05;Sindh;Goth Hayat Khan Rajpar
 0;68.2598,26.8429;PK-05;Sindh;Goth Ismail Chaudhary
 0;68.2761,26.8453;PK-05;Sindh;Goth Muhammad Hasan Brahui
@@ -86364,7 +86313,6 @@
 0;68.3130,24.2887;PK-05;Sindh;Goth Bag Islam
 0;68.3166,24.3017;PK-05;Sindh;Goth Dandal
 0;68.5956,26.3393;PK-05;Sindh;Nur Muhammad Dars
-0;68.3160,24.3039;PK-05;Sindh;Goth Dāndal
 0;68.3233,24.2947;PK-05;Sindh;Goth Muhammad Musa
 0;68.2793,26.5411;PK-05;Sindh;Goth Shahnawaz Marri
 0;68.2602,26.5188;PK-05;Sindh;Kathri
@@ -86723,7 +86671,6 @@
 0;68.0713,27.8562;PK-05;Sindh;Goth Punjabi
 0;68.0675,27.7602;PK-05;Sindh;Goth Faiz Muhammad Brahui
 0;68.0853,27.8517;PK-05;Sindh;Goth Tharri
-0;68.5827,27.4382;PK-05;Sindh;Syed Haji Shāh
 0;68.5484,27.4479;PK-05;Sindh;Goth Qadir Bakhsh
 0;68.5662,27.4538;PK-05;Sindh;Goth Mir Muhammad Pulphoto
 0;68.5713,27.4569;PK-05;Sindh;Goth Azmat Kandrio
@@ -87248,7 +87195,6 @@
 0;69.8989,28.8713;PK-04;Punjab;Dera Ilahi Bukhsh Malik
 0;68.4157,24.9184;PK-05;Sindh;Goth Mian Habib
 0;68.4541,24.9214;PK-05;Sindh;Goth Sultan Magsi
-0;68.2114,27.4939;PK-05;Sindh;Goth Bāhu Jhatiāl
 0;68.4376,24.9312;PK-05;Sindh;Goth Ali Khan Magsi
 0;68.4408,24.9292;PK-05;Sindh;Goth Bakhsh Magsi
 0;69.8710,28.8611;PK-04;Punjab;Dera Malik Faia Khan
@@ -87804,7 +87750,6 @@
 0;68.1807,24.7543;PK-05;Sindh;Goth Soro Uttardi
 0;68.1637,24.7578;PK-05;Sindh;Goth Muqim Shah
 0;68.0849,28.3640;PK-02;Balochistan;Ali Khan Rind
-0;68.1869,24.7520;PK-05;Sindh;Urs Khāskheli
 0;68.2145,24.7512;PK-05;Sindh;Rab Dino Bakro
 0;68.0197,28.3552;PK-02;Balochistan;Goth Arz Muhammad Umrani
 0;68.1972,24.7533;PK-05;Sindh;Karim Bakhsh Panihar
@@ -89711,7 +89656,6 @@
 0;68.8587,30.3633;PK-02;Balochistan;Zhroba
 0;71.3453,30.2945;PK-04;Punjab;Head Muhammadwala
 0;70.8495,29.3542;PK-04;Punjab;Basti Pirowali
-0;70.8324,29.3486;PK-04;Punjab;Gopīwāla
 0;68.9982,30.4328;PK-02;Balochistan;Mahīwāi
 0;71.3528,30.3160;PK-04;Punjab;Muhammadwala
 0;71.3416,30.3326;PK-04;Punjab;Kalewala
@@ -89730,14 +89674,12 @@
 0;70.7565,29.3221;PK-04;Punjab;Gul Muhammad
 0;70.7515,29.3151;PK-04;Punjab;Ganja Mend
 0;70.7615,29.3023;PK-04;Punjab;Sial
-0;70.7703,29.3024;PK-04;Punjab;Basti Siāl
 0;71.3331,30.4410;PK-04;Punjab;Haideriwala
 0;70.7556,29.3435;PK-04;Punjab;Basti Cheliān
 0;71.3621,30.4422;PK-04;Punjab;Bittiwala
 0;71.3529,30.4458;PK-04;Punjab;Tiggewala
 0;71.3511,30.4381;PK-04;Punjab;Wadhuwala
 0;71.3035,30.4992;PK-04;Punjab;Bakhshewala
-0;70.7807,29.3335;PK-04;Punjab;Jattalwāla
 0;70.8070,29.2984;PK-04;Punjab;Basti Choraian
 0;71.4318,30.4880;PK-04;Punjab;Chah Mewewala
 0;71.4434,30.4799;PK-04;Punjab;Chah Hussainwala
@@ -89757,7 +89699,6 @@
 0;71.4545,29.2389;PK-04;Punjab;Chandrani Gharbi
 0;71.4488,30.4017;PK-04;Punjab;Basti Abbas Nager
 0;71.4428,30.3893;PK-04;Punjab;Jhilanwali
-0;70.9221,29.3297;PK-04;Punjab;Basti Lāl Khān
 0;70.9465,29.3317;PK-04;Punjab;Basti Jamwali
 0;70.9532,29.3103;PK-04;Punjab;Basti Mir Bakhsh Dado
 0;70.9681,29.3071;PK-04;Punjab;Basti Pind
@@ -89978,7 +89919,6 @@
 0;71.3709,29.3246;PK-04;Punjab;Basti Dadpotrey
 0;71.3859,29.3280;PK-04;Punjab;Basti Khoranwali
 0;71.5495,29.9162;PK-04;Punjab;Basti Dinpur
-0;71.5341,29.9124;PK-04;Punjab;Basti Rasūlpur
 0;71.3353,29.3155;PK-04;Punjab;Rattianwala
 0;71.5162,29.9100;PK-04;Punjab;Basti Kutanewali
 0;71.5085,29.9057;PK-04;Punjab;Basti Jindi Bautewali
@@ -90636,7 +90576,6 @@
 0;70.9375,29.0087;PK-04;Punjab;Basti Haji Ghulam Rasul
 0;70.9354,29.0317;PK-04;Punjab;Basti Ghulam Qadir
 0;70.9170,29.0266;PK-04;Punjab;Basti Jām Muhammad Yār
-0;70.9105,29.0108;PK-04;Punjab;Basti Mustafaābād
 0;70.8674,29.0296;PK-04;Punjab;Basti Haji Ramzan
 0;70.7881,29.0178;PK-04;Punjab;Basti Munshi Ghulam Rasul
 0;70.8214,29.0189;PK-04;Punjab;Basti Dalel Sial
@@ -92906,7 +92845,6 @@
 0;74.5618,31.8422;PK-04;Punjab;Nain
 0;74.5297,31.8508;PK-04;Punjab;Chak Tailian
 0;74.5088,31.8529;PK-04;Punjab;Rattian Khurshidpur
-0;74.5004,31.8578;PK-04;Punjab;Sarāi
 0;74.5260,31.8708;PK-04;Punjab;Ratta Gujran
 0;74.5464,31.8690;PK-04;Punjab;Sharifpur
 0;74.5049,31.8758;PK-04;Punjab;Hardo Sohi
@@ -94629,7 +94567,6 @@
 0;71.2020,30.3046;PK-04;Punjab;Chaukīwāla
 0;71.1572,30.3154;PK-04;Punjab;Baqarwala
 0;71.1146,30.3118;PK-04;Punjab;Mubarakwala
-0;71.1710,30.4005;PK-04;Punjab;Wasaēwāla
 0;71.0146,30.4113;PK-04;Punjab;Barāh
 0;73.0102,32.7511;PK-04;Punjab;Tirath
 0;70.3859,29.1802;PK-04;Punjab;Kotla Isan
@@ -94670,7 +94607,6 @@
 0;66.3997,27.3937;PK-02;Balochistan;Mehandar
 0;68.1976,27.4614;PK-05;Sindh;Goth Mad Bahu
 0;68.0399,24.4687;PK-05;Sindh;Bhad
-0;67.1848,27.0441;PK-05;Sindh;Harār
 0;68.0962,24.7274;PK-05;Sindh;Mehran Pur
 0;68.0776,24.6036;PK-05;Sindh;Sujawal
 0;68.1191,24.6952;PK-05;Sindh;Muradpur
@@ -94700,7 +94636,6 @@
 0;72.7169,36.7373;PK-03;Khyber Pakhtunkhwa;Shah Jinali
 0;72.8244,36.5759;PK-03;Khyber Pakhtunkhwa;Power
 0;72.9323,36.6044;PK-03;Khyber Pakhtunkhwa;Gazin
-0;64.7004,29.1428;PK-02;Balochistan;Aminābād
 0;64.6998,29.1383;PK-02;Balochistan;Nādir Khān Sinjrāni
 0;64.7080,29.2298;PK-02;Balochistan;Mubārak Mengal
 0;64.6832,29.2081;PK-02;Balochistan;Muhammad Hāshim Khān Sinjrāni
@@ -94914,13 +94849,11 @@
 0;68.2573,26.7266;PK-05;Sindh;Goth Allah Dino Marri
 0;68.1481,27.5411;PK-05;Sindh;Allah Warayo Umrani
 0;68.2387,27.5503;PK-05;Sindh;Goth Raza Muhammad Brahui
-0;69.8203,28.5606;PK-04;Punjab;Basti Tarkhān
 0;68.8747,25.8342;PK-05;Sindh;Goth Sher Khan Marri
 0;68.9382,25.9787;PK-05;Sindh;Goth Faqir Muhammad Rahim
 0;68.8393,25.6340;PK-05;Sindh;Goth Piaro Khaskheli
 0;68.7746,25.1988;PK-05;Sindh;Goth Mitho Laghari Shanan
 0;71.4703,29.1899;PK-04;Punjab;Basti Dadpotra
-0;70.8591,29.3309;PK-04;Punjab;Muhammadwāla
 0;71.5107,29.8248;PK-04;Punjab;Chak Three Hundred Eighty-nine Western Bar Sharqi
 0;71.7397,29.8147;PK-04;Punjab;Chak Three Hundred Twenty-nine Western Bar
 0;71.2757,29.3686;PK-04;Punjab;Basti Chanan
@@ -95034,7 +94967,6 @@
 0;68.3181,25.3473;PK-05;Sindh;Goth Choudhry Abdul Rahman
 0;68.3224,25.3395;PK-05;Sindh;Goth Sajan Shoro
 0;68.3193,25.3366;PK-05;Sindh;Goth Chaudhry Karamuddin
-0;68.3218,25.3335;PK-05;Sindh;Goth Īsa Shoro
 0;68.3463,25.3414;PK-05;Sindh;Gorth Major Baqar Ali
 0;68.3445,25.3362;PK-05;Sindh;Goth Dari Nachiyani
 0;68.3593,25.3421;PK-05;Sindh;Goth Sabz Ali Korahi
@@ -105010,7 +104942,6 @@
 0;72.7893,29.4781;PK-04;Punjab;Chak Two Hundred Five Murad
 0;72.8207,29.4779;PK-04;Punjab;Chak Four Hundred Twenty-two - Six Right
 0;72.8476,29.4672;PK-04;Punjab;Chak Four Hundred Forty-one - Six Right
-0;72.8541,29.4725;PK-04;Punjab;Chak Four Hundred Forty-one Six Right
 0;72.8532,29.4929;PK-04;Punjab;Chak Four Hundred Thirty-one - Six Right
 0;72.8804,29.4971;PK-04;Punjab;Chak Four Hundred Thirty - Six Right
 0;72.8826,29.4831;PK-04;Punjab;Chak Four Hundred Thirty - Six Right
@@ -132969,7 +132900,6 @@
 0;72.6917,30.3664;PK-04;Punjab;Ghulamabad
 0;72.6643,30.4433;PK-04;Punjab;Chak Forty-five -Twelve Left
 0;72.6964,30.4015;PK-04;Punjab;Tander Hayat Muhammad
-0;72.7521,30.3755;PK-04;Punjab;Chak One Hundred Seventy-one -Nine Left
 0;72.7078,30.2937;PK-04;Punjab;Chak One Hundred Ten - Eastern Bar
 0;72.7226,30.2732;PK-04;Punjab;Kharlanwala
 0;72.7830,30.7293;PK-04;Punjab;Chah Ismailwala

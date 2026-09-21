@@ -18936,7 +18936,6 @@
 0;62.3045,35.1215;AF-11;Herat;Chihil Dukhtarān
 0;62.2956,35.0593;AF-11;Herat;Shōr Khalīl
 0;62.3044,35.0189;AF-11;Herat;Sang Bur
-0;62.9508,35.3189;AF-02;Badghis;Deh-e Bābūlā'ī
 0;63.1413,30.2933;AF-10;Helmand;Wakīl Khān Muḩammad
 0;63.1111,30.2723;AF-10;Helmand;Muḩammad Z̧āhir Kêlay
 0;63.0824,30.2599;AF-10;Helmand;Shēr Muḩammad Kalā
@@ -20047,7 +20046,6 @@
 0;67.1417,35.9744;AF-32;Samangan;Sar-e Dasht
 0;67.2604,35.9673;AF-32;Samangan;Gudām
 0;67.4764,35.9753;AF-32;Samangan;Sang Katah
-0;67.5000,35.9667;AF-32;Samangan;Ziraki
 0;67.4857,35.9655;AF-32;Samangan;Chaghzār
 0;67.4623,35.9266;AF-32;Samangan;Dumchah
 0;67.1161,35.9172;AF-32;Samangan;Wopah Cheshmeh
@@ -23404,7 +23402,6 @@
 0;67.3040,33.0068;AF-08;Ghazni;Murgh Dulnah
 0;67.3502,33.0502;AF-08;Ghazni;Charkh Āw
 0;67.3824,33.0639;AF-08;Ghazni;Khartīzak
-0;67.3958,33.0233;AF-28;Zabul;Sar-e Qāḏi
 0;67.3888,33.0025;AF-08;Ghazni;Gumqōl
 0;67.4309,33.0630;AF-08;Ghazni;Qādī
 0;67.4444,33.0662;AF-08;Ghazni;Safar Qōl
@@ -25563,7 +25560,6 @@
 0;63.2301,32.5046;AF-06;Farah;Qaryah-ye Zōṟ
 0;63.1793,32.3122;AF-06;Farah;Asad Dzmêkah
 0;63.4797,33.1463;AF-06;Farah;Fīl Kush
-0;63.7517,34.8633;AF-02;Badghis;Gumbaz
 0;63.7778,34.9042;AF-02;Badghis;Gazistān
 0;63.8340,34.7080;AF-02;Badghis;Seh Gōshak
 0;63.8100,34.7334;AF-02;Badghis;Gazak
@@ -27058,8 +27054,6 @@
 0;70.3663,37.0163;AF-01;Badakhshan;Ūtranch-e Āb-e Bārīk
 0;70.4311,37.0114;AF-01;Badakhshan;Qaylah Darah
 0;70.4381,37.0008;AF-01;Badakhshan;Malwāy Darreh
-0;70.4564,37.0014;AF-01;Badakhshan;Ḏaṟkhān
-0;70.4494,37.0172;AF-01;Badakhshan;Shāh Maṟi
 0;70.4430,37.0270;AF-01;Badakhshan;Āq Būrīā
 0;68.8773,36.5127;AF-24;Kunduz;Lālah Maīdān
 0;70.4299,37.0410;AF-01;Badakhshan;Dihqān Khānah
@@ -28072,7 +28066,6 @@
 0;69.5546,35.9238;AF-03;Baghlan;Dashtak
 0;69.5444,35.9287;AF-03;Baghlan;Deh-Afghānān
 0;69.5143,35.9491;AF-03;Baghlan;Jalandarī
-0;69.5017,35.9367;AF-03;Baghlan;Ḏaṟagi
 0;69.5137,35.9359;AF-03;Baghlan;Deh-e Mīānah
 0;69.5115,35.9753;AF-03;Baghlan;Qal‘ah-ye Kuhnah
 0;69.5065,35.9054;AF-03;Baghlan;Warichī
@@ -29397,7 +29390,6 @@
 0;66.1537,36.2258;AF-33;Sar-e Pol Province;Shiram
 0;66.5328,36.0008;AF-33;Sar-e Pol Province;Alaghan
 0;69.6440,37.5063;AF-26;Takhar;Khwājah Ḩāfiz̧
-0;69.8244,37.5028;AF-26;Takhar;Khāsāṟ
 0;69.7974,37.5190;AF-26;Takhar;Qaryah-ye Shōr
 0;69.7430,37.5297;AF-26;Takhar;Ūdī
 0;69.8272,37.5330;AF-26;Takhar;Shāh-e Mastān

@@ -14675,7 +14675,6 @@ fa;کور گل;Kūr Gol
 fa;دیزه;Dīzeh
 fa;گلار آوه;Galār Āveh
 fa;سوراو;Sūrāv
-fa;تاتان;Tātān
 fa;بار آوکن;Bār Āvkan
 fa;بمسر;Bamsar
 fa;مکل;Mokal
@@ -14850,7 +14849,6 @@ fa;خاگیلان;Khāgīlān
 fa;خوارو;Khvārū
 fa;بیوله;Bīvaleh
 fa;درّه شپش سرو;Darreh Shepesh Sarū
-fa;انب;Anab
 fa;جلیله;Jalīleh
 fa;تاویر;Tāvīr
 fa;ابا عبیده;Abā ‘Abīdeh
@@ -22735,7 +22733,6 @@ ar;قرية ملج;Qaryat Malaj
 ar;قرية ملچ;Qaryat Malaj
 ar;قرية القاهرة;Qaryat al Qāhirah
 ar;قرية عين النصر;Qaryat ‘Ayn an Naşr
-ar;قرية البو حمد;Qaryat Albū Ḩamad
 ar;قرية الخرار;Qaryat al Kharrār
 ar;قرية منكار;Qaryat Minkār
 ar;قرية بير ابن چفيدات;Qaryat Bīr Ibn Chafīdāt

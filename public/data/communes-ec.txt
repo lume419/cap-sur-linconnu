@@ -7126,7 +7126,6 @@
 0;-79.6603,-0.3529;130506;Manabí;Wilfrido Loor Moreira
 0;-77.3354,-1.4854;160201;Pastaza Province;Piwiri
 0;-77.3865,0.0112;210101;Sucumbíos;Recinto Amzonas
-0;-77.4160,-0.7982;220211;Sucumbíos;Concepcion
 0;-77.4242,-0.0109;210101;Sucumbíos;Atenas
 0;-78.7948,0.3230;100306;Imbabura;Santa Isabel
 0;-78.3895,-3.6354;190402;Zamora Chinchipe;Huayzimi

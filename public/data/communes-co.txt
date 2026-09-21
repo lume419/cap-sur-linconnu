@@ -8558,7 +8558,6 @@
 0;-72.6744,4.4837;CO-32;Casanare Department;Jalisco
 0;-76.6667,2.8667;CO-09;Cauca Department;Jalima
 0;-72.8484,11.3890;CO-17;La Guajira Department;Jalalao
-0;-74.4253,9.2379;CO-35;Bolívar;Mompos
 0;-72.0532,11.7507;CO-17;La Guajira Department;Jaihuaniahana
 0;-71.9333,5.8833;CO-32;Casanare Department;Jagüito
 0;-71.5000,6.3333;CO-03;Arauca Department;Jaguirí
@@ -11855,7 +11854,6 @@
 0;-75.1500,9.8167;CO-35;Bolívar;Combú
 0;-72.4480,5.6489;CO-36;Boyacá;Cómbita
 1034;-73.3167,5.6333;CO-36;Boyacá;Combita
-0;-73.3240,5.6331;CO-36;Boyacá;Cómbita
 0;-75.1625,4.3342;CO-28;Tolima Department;Llano de Combeima
 0;-75.7559,4.8226;CO-24;Risaralda Department;Combia
 0;-76.0341,3.6879;CO-29;Valle del Cauca Department;Combia
@@ -22857,7 +22855,6 @@
 0;-75.7678,8.9738;CO-12;Córdoba;San Isidro
 0;-75.7663,8.6315;CO-12;Córdoba;Monterrey
 0;-75.7643,8.6046;CO-12;Córdoba;Cañomocho
-0;-75.7633,8.9994;CO-12;Córdoba;Caíman
 0;-75.7611,8.9873;CO-12;Córdoba;Las Lauras
 0;-75.7602,8.5493;CO-12;Córdoba;Vueltoso Indio
 0;-75.7600,8.6966;CO-12;Córdoba;San Pablo
@@ -26760,7 +26757,6 @@
 0;-72.1349,1.4964;CO-14;Guaviare Department;Las Pavas
 0;-74.0713,4.5931;CO-34;Bogota D.C.;La Candelaria
 0;-74.5906,9.0169;CO-35;Bolívar;Sitio Nuevito
-0;-73.5639,5.6428;CO-36;Boyacá;Moniquira
 0;-75.1018,0.5438;CO-08;Caquetá;Jericó
 0;-75.4194,0.4758;CO-22;Putumayo Department;Inspección de Policía Las Delicias
 0;-75.3846,0.3031;CO-22;Putumayo Department;Puerto Antonio

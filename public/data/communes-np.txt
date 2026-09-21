@@ -19,10 +19,8 @@
 0;82.3324,28.5081;NP-6;Karnali Pradesh;Ole Jyulā
 0;82.4767,29.0799;NP-6;Karnali Pradesh;Okṭa
 0;86.5229,26.9378;NP-1;Koshi;Udaypur Gaḍhi̇̄
-0;81.7621,28.1696;NP-5;Lumbini Province;Udāi̇̄n
 0;87.7317,27.2222;NP-1;Koshi;Ṭũḍikhel
 0;87.1977,27.3188;NP-1;Koshi;Tumliṅṭār
-0;81.3514,28.2379;NP-5;Lumbini Province;Tulsi̇̄pur
 39058;82.2980,28.1333;NP-5;Lumbini Province;Tulsi̇̄pur
 0;85.9229,27.0180;NP-2;Madhesh;Tulasi̇̄
 0;83.6358,28.7066;NP-4;Gandaki Pradesh;Tukucha
@@ -41,7 +39,6 @@
 0;83.0765,29.4629;NP-6;Karnali Pradesh;Tiliṅ
 0;83.0662,27.5785;NP-5;Lumbini Province;Tilaurākoṭ
 0;81.4525,30.2217;NP-6;Karnali Pradesh;Til
-0;84.4963,27.6315;NP-3;Bagmati Province;Ṭikauli̇̄
 44758;81.1183,28.5282;NP-7;Sudurpashchim Pradesh;Ṭikāpur
 0;85.3177,27.5730;NP-3;Bagmati Province;Ṭikābhairav
 0;80.5555,28.8413;NP-7;Sudurpashchim Pradesh;Teghari̇̄
@@ -103,17 +100,13 @@
 0;81.7879,29.5236;NP-6;Karnali Pradesh;Sukāḍhik
 0;81.1467,28.7431;NP-7;Sudurpashchim Pradesh;Sugarkhāl
 0;82.5205,28.5284;NP-5;Lumbini Province;Supekunā Berkoṭ
-0;85.7819,26.8628;NP-2;Madhesh;Shri̇̄pur
 0;86.4419,27.1005;NP-1;Koshi;Soruṅ
 0;81.9452,29.6349;NP-6;Karnali Pradesh;Sorukoṭ
 0;82.8000,27.5167;NP-5;Lumbini Province;Siwānagar
 0;82.8129,28.3541;NP-5;Lumbini Province;Syuri̇̄
 0;83.5833,27.5000;NP-5;Lumbini Province;Sitāpur
-0;82.1910,28.3682;NP-6;Karnali Pradesh;Shitalpāṭi̇̄
 0;86.4825,26.7913;NP-2;Madhesh;Sisbani̇̄
-0;80.8814,28.6798;NP-7;Sudurpashchim Pradesh;Sisaiyā
 0;84.2248,28.0924;NP-4;Gandaki Pradesh;Sisāghāṭ
-0;85.3002,26.7784;NP-2;Madhesh;Sirsiyā
 0;80.7615,29.3688;NP-7;Sudurpashchim Pradesh;Siraũḍo
 0;81.4734,28.9804;NP-6;Karnali Pradesh;Shri̇̄koṭ
 24657;86.2079,26.6542;NP-2;Madhesh;Siraha
@@ -133,13 +126,10 @@
 0;84.3333,27.8000;NP-4;Gandaki Pradesh;Shringa
 0;82.5734,28.9810;NP-6;Karnali Pradesh;Chhimi̇̄
 0;82.3087,28.8877;NP-6;Karnali Pradesh;Sepukholāgāũ
-0;87.0757,26.6056;NP-1;Koshi;Shivagañj
 0;82.9484,28.3130;NP-5;Lumbini Province;Shyāuli̇̄bāṅ
 0;83.6071,28.0121;NP-4;Gandaki Pradesh;Seti̇̄beṇi̇̄
 0;84.8892,28.3811;NP-4;Gandaki Pradesh;Sirdi̇̄bās
 0;80.8131,29.1239;NP-7;Sudurpashchim Pradesh;Shyāl Koṭilā
-0;80.8533,29.5003;NP-7;Sudurpashchim Pradesh;Sunkuḍā
-0;86.4308,26.7637;NP-2;Madhesh;Saraswati̇̄
 0;83.6408,27.6084;NP-5;Lumbini Province;Sunwal
 0;85.4640,27.7299;NP-3;Bagmati Province;Sā̃khu
 0;86.2160,27.3502;NP-3;Bagmati Province;Sā̃ghuṭār
@@ -164,7 +154,6 @@
 0;82.5727,29.1317;NP-6;Karnali Pradesh;Rimi
 0;82.4582,28.4228;NP-5;Lumbini Province;Rijābāṅ
 0;81.2218,29.2109;NP-7;Sudurpashchim Pradesh;Riḍi̇̄koṭ
-0;81.2560,28.8799;NP-6;Karnali Pradesh;Rekchā
 0;83.1228,27.5842;NP-5;Lumbini Province;Reharā
 0;82.3349,27.9089;NP-5;Lumbini Province;Rihār
 0;85.3777,28.2774;NP-3;Bagmati Province;Rasuwāgaḍhi̇̄
@@ -184,7 +173,6 @@
 0;80.9167,28.7500;NP-7;Sudurpashchim Pradesh;Rāmgarh
 0;86.0877,27.3256;NP-3;Bagmati Province;Rāmechhāp
 0;81.5546,28.6634;NP-6;Karnali Pradesh;Ramdikbāna
-0;83.6307,27.9023;NP-5;Lumbini Province;Rāmdi̇̄
 0;83.8323,27.7147;NP-5;Lumbini Province;Rolebās
 69803;86.7480,26.5397;NP-2;Madhesh;Rājbirāj
 0;81.0922,28.4307;NP-5;Lumbini Province;Rājāpur
@@ -198,13 +186,9 @@
 0;87.9104,27.1746;NP-1;Koshi;Prāṅbuṅ
 0;85.2469,26.8532;NP-2;Madhesh;Pokhariyā
 600051;83.9685,28.2669;NP-4;Gandaki Pradesh;Pokhara
-0;81.7130,27.9823;NP-5;Lumbini Province;Piprahawā
 0;81.0666,28.6543;NP-7;Sudurpashchim Pradesh;Piparhawā
 0;84.8337,27.0666;NP-2;Madhesh;Piprā
-0;87.2077,26.6837;NP-1;Koshi;Piparā
-0;80.8494,29.6181;NP-7;Sudurpashchim Pradesh;Pipalkoṭ
 0;87.6574,26.8299;NP-1;Koshi;Phunāmṭār
-0;80.7065,28.5962;NP-7;Sudurpashchim Pradesh;Phulbāri̇̄
 0;85.3323,27.7896;NP-3;Bagmati Province;Phulbāri
 0;82.3269,28.6536;NP-6;Karnali Pradesh;Phukrugāũ
 0;84.2766,28.7730;NP-4;Gandaki Pradesh;Phugāũ
@@ -221,7 +205,6 @@
 0;84.3693,27.5813;NP-3;Bagmati Province;Paṭlārā
 0;85.4574,27.8439;NP-3;Bagmati Province;Pāṭi̇̄bhañjyāṅ
 0;80.2443,28.8891;NP-7;Sudurpashchim Pradesh;Paṭaiyā
-0;85.6595,27.1077;NP-2;Madhesh;Pattharkoṭ
 0;80.5413,29.4638;NP-7;Sudurpashchim Pradesh;Pāṭan
 299283;85.3142,27.6766;NP-3;Bagmati Province;Pātan
 0;85.3443,27.7107;NP-3;Bagmati Province;Pashupati̇̄nāth
@@ -230,14 +213,12 @@
 0;81.7037,29.4864;NP-7;Sudurpashchim Pradesh;Pārtolā
 0;83.6678,27.5320;NP-5;Lumbini Province;Ramgram Parasi
 0;82.7349,29.0619;NP-6;Karnali Pradesh;Pāra
-0;87.6620,26.7094;NP-1;Koshi;Pāni̇̄ghaṭṭā
 0;86.7899,27.8554;NP-1;Koshi;Pāṅboche
 0;85.2785,27.6699;NP-3;Bagmati Province;Pā̃gā Biṣṇudevi̇̄
 0;85.6271,27.6569;NP-3;Bagmati Province;Pā̃chkhāl
 0;83.2446,27.7122;NP-5;Lumbini Province;Pānbāri̇̄
 27602;85.5149,27.5845;NP-3;Bagmati Province;Panauti̇̄
 0;85.0699,27.6359;NP-3;Bagmati Province;Pāluṅ
-0;83.2785,27.9904;NP-5;Lumbini Province;Pālpāthok
 0;80.4810,29.5054;NP-7;Sudurpashchim Pradesh;Pāli̇̄
 0;83.4469,27.4831;NP-5;Lumbini Province;Pakali̇̄hawā
 0;81.7333,29.9333;NP-6;Karnali Pradesh;Pāhung
@@ -265,9 +246,7 @@
 0;86.5402,26.9109;NP-1;Koshi;Nepālṭār
 0;81.9234,28.6550;NP-6;Karnali Pradesh;Nepā
 0;82.7956,28.0803;NP-5;Lumbini Province;Nayā̃gāũ
-0;80.8922,29.3272;NP-7;Sudurpashchim Pradesh;Nuwākoṭ
 0;85.1647,27.9143;NP-3;Bagmati Province;Nuwākoṭ
-0;83.4496,27.7327;NP-5;Lumbini Province;Nuwākoṭ
 0;80.4823,28.6933;NP-7;Sudurpashchim Pradesh;Nauraṅgāgāũ
 0;85.1451,27.6981;NP-3;Bagmati Province;Naubise
 0;80.6600,29.2603;NP-7;Sudurpashchim Pradesh;Nargaon
@@ -307,12 +286,10 @@
 0;82.8835,28.1458;NP-5;Lumbini Province;Mānāgāū
 0;81.3241,28.4216;NP-5;Lumbini Province;Mānpur
 0;81.4803,28.1881;NP-5;Lumbini Province;Mānpur
-0;80.6854,29.8346;NP-7;Sudurpashchim Pradesh;Mānākoṭ
 0;81.2620,29.2886;NP-7;Sudurpashchim Pradesh;Manakāli̇̄
 0;81.5442,28.4972;NP-6;Karnali Pradesh;Manīrāmkā̃ḍā
 0;81.6613,28.1057;NP-5;Lumbini Province;Manikāpur
 0;83.4587,27.6296;NP-5;Lumbini Province;Maṇi̇̄grām
-0;85.0401,27.5760;NP-3;Bagmati Province;Manahari̇̄
 0;82.3055,29.5894;NP-6;Karnali Pradesh;Māṅgri̇̄
 0;83.5146,28.5031;NP-4;Gandaki Pradesh;Maṅgale
 0;85.4660,27.1260;NP-2;Madhesh;Maṅgalpur
@@ -365,7 +342,6 @@
 0;81.4970,28.7477;NP-6;Karnali Pradesh;Lakharpāṭā
 102955;86.4826,26.7202;NP-2;Madhesh;Lahān
 0;81.9467,28.5829;NP-6;Karnali Pradesh;Lāpu
-0;84.8573,28.2124;NP-4;Gandaki Pradesh;Lapsi̇̄boṭ
 0;83.1300,28.3108;NP-4;Gandaki Pradesh;Kutharpekot
 0;86.2259,26.8189;NP-2;Madhesh;Kuthanamā
 6758;83.6826,28.2227;NP-4;Gandaki Pradesh;Kusma
@@ -389,7 +365,6 @@
 0;86.8447,27.0326;NP-1;Koshi;Khoṭāṅ Bajār
 0;85.2981,27.6358;NP-3;Bagmati Province;Khokanā
 682;82.1571,30.0465;NP-6;Karnali Pradesh;Khārpū
-0;84.3138,27.5675;NP-3;Bagmati Province;Khadrauli̇̄
 0;87.2653,27.2719;NP-1;Koshi;Kharāṅ
 0;80.9029,29.4244;NP-7;Sudurpashchim Pradesh;Khānkoṭ
 0;86.5911,26.6366;NP-2;Madhesh;Khojpur
@@ -398,8 +373,6 @@
 22903;87.2077,27.3765;NP-1;Koshi;Khā̃dbāri̇̄
 0;83.1314,27.9189;NP-5;Lumbini Province;Khā̃chi Maidān
 0;87.9731,27.7369;NP-1;Koshi;Khāṅpāchen
-0;84.2971,27.8336;NP-4;Gandaki Pradesh;Khālṭe
-0;83.3574,27.6452;NP-5;Lumbini Province;Khairani̇̄
 0;86.7124,26.6469;NP-2;Madhesh;Khayarbonā
 0;80.6667,28.6667;NP-7;Sudurpashchim Pradesh;Khadreha
 0;80.7622,28.6573;NP-7;Sudurpashchim Pradesh;Gadariyā
@@ -409,7 +382,6 @@
 0;83.5858,27.6250;NP-5;Lumbini Province;Kerawāni̇̄
 0;81.6989,30.0523;NP-6;Karnali Pradesh;Kermi̇̄
 0;83.8737,29.0631;NP-4;Gandaki Pradesh;Ghami̇̄
-0;80.8805,28.8977;NP-7;Sudurpashchim Pradesh;Kaṭaũje
 0;81.8228,28.7782;NP-6;Karnali Pradesh;Kaṭṭi̇̄
 0;80.6499,29.1071;NP-7;Sudurpashchim Pradesh;Kātomāto
 0;85.9633,27.1080;NP-3;Bagmati Province;Katle
@@ -434,9 +406,7 @@
 0;82.5916,29.1119;NP-6;Karnali Pradesh;Kāigāũ
 0;83.7836,28.8372;NP-4;Gandaki Pradesh;Kāgbeni̇̄
 0;85.3170,26.7678;NP-2;Madhesh;Kaṭarbanā
-0;80.4756,28.8593;NP-7;Sudurpashchim Pradesh;Kichāi̇̄
 0;82.0713,29.5937;NP-6;Karnali Pradesh;Kachche
-0;85.3903,27.1229;NP-2;Madhesh;Juḍi̇̄belā
 0;86.5457,27.5814;NP-1;Koshi;Junbesi̇̄
 9073;82.1838,29.2747;NP-6;Karnali Pradesh;Jumla
 0;82.2500,29.2500;NP-6;Karnali Pradesh;Jumlā
@@ -445,7 +415,6 @@
 0;81.0207,28.5646;NP-7;Sudurpashchim Pradesh;Joshi̇̄pur
 0;80.3046,28.9692;NP-7;Sudurpashchim Pradesh;Jaḍepāni̇̄
 0;83.7330,28.7844;NP-4;Gandaki Pradesh;Jomsom
-0;83.4628,27.6702;NP-5;Lumbini Province;Jogi̇̄kuṭi̇̄
 0;84.6996,28.1351;NP-4;Gandaki Pradesh;Jiwādanda
 0;86.2300,27.6354;NP-3;Bagmati Province;Jiri
 0;82.5398,28.6545;NP-6;Karnali Pradesh;Jibu
@@ -466,7 +435,6 @@
 0;82.2266,27.9613;NP-5;Lumbini Province;Jalkuṇḍi̇̄
 23573;85.8000,26.6487;NP-2;Madhesh;Jaleshwar
 0;82.1955,28.6980;NP-6;Karnali Pradesh;Jājarkoṭ-Khalaṅgā
-0;80.3745,28.7874;NP-7;Sudurpashchim Pradesh;Khallājai̇̄
 0;84.8959,28.3514;NP-4;Gandaki Pradesh;Jagat
 0;81.3725,28.3010;NP-5;Lumbini Province;Jabdahawā
 47984;87.2740,26.6637;NP-1;Koshi;Īṭahari̇̄
@@ -478,7 +446,6 @@
 195951;85.0322,27.4284;NP-3;Bagmati Province;Hetauda
 0;85.4819,27.9534;NP-3;Bagmati Province;Helmu
 0;80.4111,29.4297;NP-7;Sudurpashchim Pradesh;Hatraṅgā
-0;87.3385,27.7360;NP-1;Koshi;Haṭiyā
 0;82.9722,27.8375;NP-5;Lumbini Province;Harre
 0;85.5705,27.0193;NP-2;Madhesh;Hātti̇̄sār Haripur
 0;85.4848,27.3149;NP-3;Bagmati Province;Hariharpur Gaḍhi̇̄
@@ -492,7 +459,6 @@
 0;85.3104,26.7868;NP-2;Madhesh;Hajmini̇̄yāṭolā
 0;83.2355,28.5886;NP-4;Gandaki Pradesh;Gurjākhāni̇̄
 0;86.3492,26.7984;NP-2;Madhesh;Gurudhām
-0;81.5385,28.1414;NP-5;Lumbini Province;Godahanā
 0;85.0077,28.0337;NP-3;Bagmati Province;Gumbuṅ
 0;82.1573,29.5407;NP-6;Karnali Pradesh;Gum
 0;83.2463,28.0675;NP-5;Lumbini Province;Gulmi̇̄ Tamghās
@@ -555,7 +521,6 @@
 0;85.2992,28.1125;NP-3;Bagmati Province;Dhunche
 16263;85.5428,27.6221;NP-3;Bagmati Province;Dhulikhel
 0;81.2697,29.7793;NP-7;Sudurpashchim Pradesh;Dhuli
-0;83.0669,28.4926;NP-5;Lumbini Province;Pākhāthar
 0;82.2105,29.2647;NP-6;Karnali Pradesh;Dhitāgāũ
 0;80.5553,29.5854;NP-7;Sudurpashchim Pradesh;Ḍhikgāḍgāũ
 0;85.1031,27.5385;NP-3;Bagmati Province;Dhorsiṅ
@@ -563,10 +528,8 @@
 173096;87.2797,26.8144;NP-1;Koshi;Dharān
 0;85.3436,27.7562;NP-3;Bagmati Province;Dharampur
 0;80.4874,29.7944;NP-7;Sudurpashchim Pradesh;Dhāp
-0;85.9570,26.9294;NP-2;Madhesh;Ḍhalkebar
 22084;87.3333,26.9833;NP-1;Koshi;Dhankutā
 204788;80.5899,28.7016;NP-7;Sudurpashchim Pradesh;Dhangaḍhi̇̄
-0;85.8259,26.7736;NP-2;Madhesh;Dhamaurā
 0;85.8042,26.9671;NP-2;Madhesh;Ḍhalkewar
 0;81.4696,28.3414;NP-5;Lumbini Province;Dhakelā
 0;84.8966,27.9125;NP-3;Bagmati Province;Dhādiṅ Besi̇̄
@@ -577,7 +540,6 @@
 0;80.3917,28.8217;NP-7;Sudurpashchim Pradesh;Dekhatbhuli̇̄
 0;82.6973,27.8923;NP-5;Lumbini Province;Devi̇̄koṭ
 0;84.7151,27.5792;NP-3;Bagmati Province;Dubi̇̄chaur
-0;80.6382,29.9460;NP-7;Sudurpashchim Pradesh;Ḍob
 0;82.4357,29.5984;NP-6;Karnali Pradesh;Dāurā
 0;82.0708,29.7381;NP-6;Karnali Pradesh;Dārmā
 0;82.7795,28.4540;NP-5;Lumbini Province;Dāregaunra
@@ -604,7 +566,6 @@
 0;82.7622,29.0309;NP-6;Karnali Pradesh;Chũ
 0;81.9048,28.5231;NP-6;Karnali Pradesh;Cholpā
 0;85.2911,27.6665;NP-3;Bagmati Province;Chobhār
-0;81.2835,28.6458;NP-7;Sudurpashchim Pradesh;Chisāpāni̇̄ Bajār
 0;86.1446,26.9325;NP-2;Madhesh;Chisāpāni̇̄
 0;84.1030,27.6664;NP-4;Gandaki Pradesh;Chilahqāũ
 0;86.1234,27.8071;NP-3;Bagmati Province;Chiliṅkhā
@@ -621,7 +582,6 @@
 0;81.7145,28.3508;NP-5;Lumbini Province;Chepāṅ
 0;82.1074,29.4315;NP-6;Karnali Pradesh;Chauthā
 51347;85.7127,27.7763;NP-3;Bagmati Province;Chautārā
-0;86.7200,27.6970;NP-1;Koshi;Chauri̇̄kharka
 0;81.3056,28.8865;NP-6;Karnali Pradesh;Chaukunne
 0;80.8741,29.7964;NP-7;Sudurpashchim Pradesh;Chaubisan
 0;85.2198,27.8603;NP-3;Bagmati Province;Chaturāle
@@ -646,14 +606,11 @@
 0;83.3846,27.4192;NP-5;Lumbini Province;Bogaḍi̇̄
 0;80.9606,29.0079;NP-7;Sudurpashchim Pradesh;Biṭhārā
 0;81.9681,29.3553;NP-6;Karnali Pradesh;Biṣṭa Bāḍā
-0;83.5594,27.4817;NP-5;Lumbini Province;Bisunpurā
 0;86.0610,26.7388;NP-2;Madhesh;Birtā
 268273;84.8805,27.0174;NP-2;Madhesh;Birgañj
 244750;87.2701,26.4550;NP-1;Koshi;Biratnagar
 0;81.3284,29.0968;NP-7;Sudurpashchim Pradesh;Bi̇̄rpath
-0;80.2924,29.4496;NP-7;Sudurpashchim Pradesh;Bināyak
 0;84.4733,28.6494;NP-4;Gandaki Pradesh;Bimtākothi
-0;80.3400,28.6804;NP-7;Sudurpashchim Pradesh;Belauri̇̄
 0;82.3332,28.1098;NP-5;Lumbini Province;Bijauri̇̄
 0;85.8583,26.8993;NP-2;Madhesh;Bijalpurā
 0;80.5201,28.7697;NP-7;Sudurpashchim Pradesh;Raikawār Bichawā
@@ -662,7 +619,6 @@
 0;83.2242,27.5725;NP-5;Lumbini Province;Bhujauli̇̄
 0;82.0742,27.9235;NP-5;Lumbini Province;Bhauwā Nākā
 0;81.5635,28.1739;NP-5;Lumbini Province;Dāhawā
-0;81.9926,29.3475;NP-6;Karnali Pradesh;Bhuli̇̄
 2640;82.2955,28.0353;NP-5;Lumbini Province;Bhojpur
 3250;87.0461,27.1715;NP-1;Koshi;Bhojpur
 0;80.8240,28.7202;NP-7;Sudurpashchim Pradesh;Betāni̇̄
@@ -670,7 +626,6 @@
 0;85.1355,27.5405;NP-3;Bagmati Province;Bhīmphedi
 0;84.6124,27.3423;NP-2;Madhesh;Ṭhori̇̄
 0;82.1122,27.9969;NP-5;Lumbini Province;Bhawāniyāpur
-0;85.4280,26.8139;NP-2;Madhesh;Bhaṭauli̇̄yā
 0;84.7794,27.3092;NP-2;Madhesh;Bhāṭā
 0;83.1185,27.7430;NP-5;Lumbini Province;Bhorlābās
 369377;84.4365,27.6803;NP-3;Bagmati Province;Bharatpur
@@ -681,16 +636,11 @@
 0;80.9659,28.4961;NP-7;Sudurpashchim Pradesh;Bhajani̇̄
 63367;83.4500,27.5000;NP-5;Lumbini Province;Siddharthanagar
 0;85.0506,27.5104;NP-3;Bagmati Province;Bhai̇̃sedobhān
-0;81.5355,28.1264;NP-5;Lumbini Province;Uḍharāpur
-0;82.7985,27.6869;NP-5;Lumbini Province;Bhagawānpur
-0;86.4860,26.5965;NP-2;Madhesh;Bhagawānpur
-0;84.3059,27.4567;NP-3;Bagmati Province;Baghauḍā
 19523;88.0944,26.5440;NP-1;Koshi;Bhadrapur
 0;80.7346,28.7052;NP-7;Sudurpashchim Pradesh;Bhādā
 0;85.1856,27.9727;NP-3;Bagmati Province;Betrāwai̇̄
 0;83.3923,27.5153;NP-5;Lumbini Province;Betahari
 0;81.8866,28.3649;NP-6;Karnali Pradesh;Beteni̇̄
-0;86.2860,26.7190;NP-2;Madhesh;Bramhapuri̇̄
 0;84.7810,27.8115;NP-3;Bagmati Province;Beni̇̄ghāṭ
 0;85.9613,27.3570;NP-3;Bagmati Province;Beni Ghāt
 0;83.5670,28.3466;NP-4;Gandaki Pradesh;Beni̇̄
@@ -698,26 +648,18 @@
 0;81.0333,28.9667;NP-7;Sudurpashchim Pradesh;Belgaon
 0;81.3835,28.2608;NP-5;Lumbini Province;Belbhār
 0;84.0622,27.6822;NP-4;Gandaki Pradesh;Bailāni̇̄
-0;83.4702,27.4791;NP-5;Lumbini Province;Belahiyā
-0;81.2658,28.3464;NP-5;Lumbini Province;Beluwā
 0;86.3755,27.9031;NP-3;Bagmati Province;Bediṅ
 0;85.3624,27.7206;NP-3;Bagmati Province;Bauddha
-0;85.1518,26.9607;NP-2;Madhesh;Batarā
 0;84.0439,28.0695;NP-4;Gandaki Pradesh;Bājasthalā
 0;85.1466,27.8962;NP-3;Bagmati Province;Baṭṭār Bajār
-0;87.2197,26.7022;NP-1;Koshi;Basbiṭṭi̇̄
 0;84.4099,28.1255;NP-4;Gandaki Pradesh;Bartār
 0;80.1328,29.0633;NP-7;Sudurpashchim Pradesh;Bramhadev
-0;82.2543,28.9612;NP-6;Karnali Pradesh;Bārekoṭ
-0;86.8799,26.6050;NP-2;Madhesh;Baḍaharā
-0;86.9021,26.6013;NP-2;Madhesh;Barmajhiyā
 0;82.4635,28.6974;NP-6;Karnali Pradesh;Bargāũ
 0;83.3708,27.5172;NP-5;Lumbini Province;Barewā
 0;81.3536,28.3006;NP-5;Lumbini Province;Bardiyā
 0;82.8167,27.9667;NP-5;Lumbini Province;Bardāndā
 0;80.2496,28.8054;NP-7;Sudurpashchim Pradesh;Barbatta
 0;85.0551,28.1597;NP-3;Bagmati Province;Borāṅ
-0;86.0958,27.5435;NP-3;Bagmati Province;Bārhabise
 0;82.0484,28.7581;NP-6;Karnali Pradesh;Baḍāban
 0;81.4719,28.5304;NP-5;Lumbini Province;Bānspāni
 0;83.5275,28.1349;NP-4;Gandaki Pradesh;Bā̃skoṭ
@@ -740,23 +682,19 @@
 0;81.3330,29.3648;NP-7;Sudurpashchim Pradesh;Bājura
 0;81.0982,29.5267;NP-7;Sudurpashchim Pradesh;Bajhang
 0;80.4372,29.5711;NP-7;Sudurpashchim Pradesh;Baitadī
-0;85.3808,27.0152;NP-2;Madhesh;Bairiyā
 0;80.7961,28.6350;NP-7;Sudurpashchim Pradesh;Binauli̇̄
 0;82.5129,28.1208;NP-5;Lumbini Province;Bayali̇̄koṭ
-0;81.6773,28.1489;NP-5;Lumbini Province;Baijanāthpur
 0;85.8991,27.7890;NP-3;Bagmati Province;Bārhabise
 0;80.1960,28.9680;NP-7;Sudurpashchim Pradesh;Bhāsi̇̄gāũ
 0;82.8419,27.5452;NP-5;Lumbini Province;Bahādurgaṅj
 23296;83.5996,28.2673;NP-4;Gandaki Pradesh;Bāgluṅ
 0;84.3391,28.5335;NP-4;Gandaki Pradesh;Bagarchhāp
-0;80.5489,29.8489;NP-7;Sudurpashchim Pradesh;Bāṅgā Bagar
 0;80.7625,29.0596;NP-7;Sudurpashchim Pradesh;Bagar
 0;86.3359,26.6242;NP-2;Madhesh;Bariyārpaṭṭi
 0;82.5046,28.9137;NP-6;Karnali Pradesh;Aulgurtā
 0;85.6178,27.1083;NP-2;Madhesh;Atrauli̇̄
 0;80.8199,29.6412;NP-7;Sudurpashchim Pradesh;Aṭhpāli̇̄
 0;87.6967,26.4541;NP-1;Koshi;Āthmaujā
-0;80.5500,28.8093;NP-7;Sudurpashchim Pradesh;Attariyā
 0;80.3359,28.8886;NP-7;Sudurpashchim Pradesh;Asainā
 0;84.8112,28.0447;NP-4;Gandaki Pradesh;Ārughāṭ
 0;83.1014,28.0189;NP-5;Lumbini Province;Arghākoṭ
@@ -765,7 +703,6 @@
 0;80.2445,28.7940;NP-7;Sudurpashchim Pradesh;Imaliyā
 0;80.4427,28.6839;NP-7;Sudurpashchim Pradesh;Amraiyā
 0;84.9890,27.2797;NP-2;Madhesh;Amalekhgañj
-0;82.2061,27.9733;NP-5;Lumbini Province;Amiliyā
 0;87.5568,26.5375;NP-1;Koshi;Amardaha
 0;86.6337,27.1974;NP-1;Koshi;Ai̇̃selukharka
 0;81.3000,29.0500;NP-7;Sudurpashchim Pradesh;Achhām
@@ -784,7 +721,6 @@
 0;82.8942,28.9528;NP-6;Karnali Pradesh;Dunai
 0;86.6992,26.7917;NP-1;Koshi;Gāi̇̄ghāṭ
 0;82.1577,29.5476;NP-6;Karnali Pradesh;Gamgaḍhi̇̄
-0;85.1485,27.8095;NP-3;Bagmati Province;Bhālukharka
 0;81.6870,28.1909;NP-5;Lumbini Province;Kohalpur
 0;86.7167,27.8333;NP-1;Koshi;Dole
 166258;81.6167,28.0500;NP-5;Lumbini Province;Nepalgunj
@@ -2167,7 +2103,6 @@
 0;84.5112,27.5826;NP-3;Bagmati Province;Bachhauli
 0;81.4356,29.2253;NP-7;Sudurpashchim Pradesh;Patal
 0;84.5201,27.5798;NP-3;Bagmati Province;Jankauli
-0;84.5310,27.5882;NP-3;Bagmati Province;Jhuwani
 0;84.5403,27.5915;NP-3;Bagmati Province;Tarauli
 0;84.5452,27.5907;NP-3;Bagmati Province;Garda
 0;84.3042,27.4744;NP-3;Bagmati Province;Pauwaritol
@@ -2888,7 +2823,6 @@
 0;84.7759,27.7160;NP-3;Bagmati Province;Harrabisauni
 0;84.7865,27.7157;NP-3;Bagmati Province;Chuniyadhara
 0;84.7813,27.7146;NP-3;Bagmati Province;Hogtesh
-0;84.7920,27.7102;NP-3;Bagmati Province;Kandrangadhi
 0;84.7799,27.7088;NP-3;Bagmati Province;Baitesh
 0;84.7878,27.7057;NP-3;Bagmati Province;Loling
 0;84.7935,27.7013;NP-3;Bagmati Province;Chhakapal
@@ -2946,7 +2880,6 @@
 0;84.2241,27.5953;NP-3;Bagmati Province;Gautamnagar
 0;84.2341,27.5937;NP-3;Bagmati Province;Gautamnagar
 0;84.2433,27.5831;NP-3;Bagmati Province;Parsadhap
-0;84.1939,27.5682;NP-3;Bagmati Province;Androli
 0;84.1857,27.5850;NP-3;Bagmati Province;Sisabas
 0;84.1837,27.5790;NP-3;Bagmati Province;Parsa Bajar
 0;84.1813,27.5760;NP-3;Bagmati Province;Lokhani
@@ -3040,7 +2973,6 @@
 0;84.3570,27.5748;NP-3;Bagmati Province;Garbutadi
 0;84.3438,27.5674;NP-3;Bagmati Province;Birendranagar
 0;81.2140,29.2497;NP-7;Sudurpashchim Pradesh;Jarumkholagaun
-0;84.3691,27.5821;NP-3;Bagmati Province;Patlara
 0;84.3695,27.5785;NP-3;Bagmati Province;Ganganagar
 0;84.3669,27.5720;NP-3;Bagmati Province;Ghatgai
 0;84.7035,27.6235;NP-3;Bagmati Province;Mainatar
@@ -3669,7 +3601,6 @@
 0;80.7062,29.3546;NP-7;Sudurpashchim Pradesh;Barna
 0;80.7599,29.3169;NP-7;Sudurpashchim Pradesh;Thapsa
 0;80.7554,29.3306;NP-7;Sudurpashchim Pradesh;Gilla
-0;80.7595,29.3698;NP-7;Sudurpashchim Pradesh;Siraudo
 0;80.7534,29.3556;NP-7;Sudurpashchim Pradesh;Timla
 0;80.7809,29.3729;NP-7;Sudurpashchim Pradesh;Chama
 0;80.7667,29.3726;NP-7;Sudurpashchim Pradesh;Chamgaun
@@ -3868,7 +3799,6 @@
 0;80.4692,29.3506;NP-7;Sudurpashchim Pradesh;Kapadi
 0;80.4728,29.3492;NP-7;Sudurpashchim Pradesh;Budakot
 0;80.4669,29.3460;NP-7;Sudurpashchim Pradesh;Ninali
-0;80.4793,29.3443;NP-7;Sudurpashchim Pradesh;Talpakha
 0;81.2399,29.2082;NP-7;Sudurpashchim Pradesh;Rithagaun
 0;81.0839,29.1826;NP-7;Sudurpashchim Pradesh;Bagarkhal
 0;80.4779,29.3351;NP-7;Sudurpashchim Pradesh;Gharijar
@@ -6725,7 +6655,6 @@
 0;82.6951,27.8955;NP-5;Lumbini Province;Chhaunitola
 0;82.6905,27.8948;NP-5;Lumbini Province;Lewase
 0;82.7042,27.8947;NP-5;Lumbini Province;Ghorahibas
-0;82.7010,27.8929;NP-5;Lumbini Province;Devikot
 0;82.7269,27.9470;NP-5;Lumbini Province;Jelbang
 0;82.7362,27.9461;NP-5;Lumbini Province;Naulatola
 0;82.7238,27.9421;NP-5;Lumbini Province;Nayanbasti
@@ -7330,7 +7259,6 @@
 0;82.2631,27.8064;NP-5;Lumbini Province;Arbaruwa naka
 0;82.2725,27.7992;NP-5;Lumbini Province;Pathariya naka
 0;83.1877,27.9705;NP-5;Lumbini Province;Tikhethum
-0;82.2822,27.7917;NP-5;Lumbini Province;Khangra naka
 0;82.2925,27.7853;NP-5;Lumbini Province;Malkini naka
 0;82.3266,27.7847;NP-5;Lumbini Province;Bhitrikholagaun
 0;82.3131,27.7721;NP-5;Lumbini Province;Phohari naka
@@ -9169,7 +9097,6 @@
 0;84.8406,28.0857;NP-3;Bagmati Province;Pitthe
 0;84.8401,28.0940;NP-3;Bagmati Province;Galane
 0;84.8400,28.0891;NP-3;Bagmati Province;Chaunchuli
-0;84.8451,28.0771;NP-3;Bagmati Province;Budhathum
 0;84.8394,28.0727;NP-3;Bagmati Province;Sukaurabesi
 0;84.7459,27.9478;NP-3;Bagmati Province;Rampurtar
 0;84.7436,27.9413;NP-3;Bagmati Province;Bhagegaun
@@ -11277,7 +11204,6 @@
 0;87.5269,26.9024;NP-1;Koshi;Namphuwa
 0;87.2453,27.0484;NP-1;Koshi;Kamidanda
 0;87.2456,27.0414;NP-1;Koshi;Phaunduwa
-0;87.2264,27.0382;NP-1;Koshi;Muga
 0;83.2011,28.0666;NP-5;Lumbini Province;Sano Chakmi
 0;87.2354,27.0277;NP-1;Koshi;Kattike
 0;87.2083,27.0292;NP-1;Koshi;Baikuntha
@@ -12052,7 +11978,6 @@
 0;85.9304,27.0123;NP-2;Madhesh;Dhapsar
 0;85.9293,27.0237;NP-2;Madhesh;Bhandaritol
 0;85.9269,27.0222;NP-2;Madhesh;Hattigauda
-0;85.9249,27.0200;NP-2;Madhesh;Tulasi
 0;85.9239,27.0143;NP-2;Madhesh;Jiraidanda
 0;85.9350,27.0206;NP-2;Madhesh;Dhadkholagaun
 0;85.9448,27.0503;NP-2;Madhesh;Bismargaun
@@ -12366,7 +12291,6 @@
 0;86.0391,27.5104;NP-3;Bagmati Province;Nigase
 0;86.0421,27.5078;NP-3;Bagmati Province;Danttol
 0;85.9584,27.5932;NP-3;Bagmati Province;Sasmi
-0;85.9678,27.5906;NP-3;Bagmati Province;Phalate
 0;85.9387,27.6181;NP-3;Bagmati Province;Gairi
 0;85.9485,27.6102;NP-3;Bagmati Province;Bute
 0;85.9517,27.6047;NP-3;Bagmati Province;Thekkalghiung
@@ -12715,7 +12639,6 @@
 0;85.9766,27.6166;NP-3;Bagmati Province;Botle
 0;83.2245,27.8069;NP-5;Lumbini Province;Karechuli
 0;85.9851,27.6149;NP-3;Bagmati Province;Bhurunga
-0;85.9631,27.6070;NP-3;Bagmati Province;Kade
 0;85.9765,27.6006;NP-3;Bagmati Province;Dhunge
 0;85.9775,27.6267;NP-3;Bagmati Province;Okhre
 0;85.9990,27.6305;NP-3;Bagmati Province;Jitpur
@@ -13220,7 +13143,6 @@
 0;86.1904,27.5934;NP-3;Bagmati Province;Chipchipe
 0;86.1587,27.5950;NP-3;Bagmati Province;Lise
 0;86.1623,27.5937;NP-3;Bagmati Province;Olikapti
-0;86.1695,27.5907;NP-3;Bagmati Province;Thulo Patal
 0;86.2050,27.5917;NP-3;Bagmati Province;Bhalubuda
 0;86.2158,27.5885;NP-3;Bagmati Province;Chihanedanda
 0;86.2058,27.5858;NP-3;Bagmati Province;Phulping
@@ -13618,7 +13540,6 @@
 0;83.0994,27.9102;NP-5;Lumbini Province;Kapal Butta
 0;82.4830,29.0946;NP-6;Karnali Pradesh;Bhara
 0;82.4843,29.0836;NP-6;Karnali Pradesh;Jimi
-0;82.4803,29.0804;NP-6;Karnali Pradesh;Okta
 0;82.4824,29.0786;NP-6;Karnali Pradesh;Jimichaur
 0;82.4919,29.0840;NP-6;Karnali Pradesh;Gadpari
 0;82.4931,29.0793;NP-6;Karnali Pradesh;Patapati
@@ -13677,7 +13598,6 @@
 0;83.2647,29.5068;NP-6;Karnali Pradesh;Chala Bhanjyang
 0;83.3141,29.5069;NP-6;Karnali Pradesh;Yanang Bhanjyang
 0;83.1863,29.5134;NP-6;Karnali Pradesh;Musi Goth
-0;82.7909,29.0275;NP-6;Karnali Pradesh;Tripurakot
 0;82.8184,29.0099;NP-6;Karnali Pradesh;Maddu
 0;82.8263,29.0059;NP-6;Karnali Pradesh;Rum
 0;82.8355,28.9976;NP-6;Karnali Pradesh;Rumbata
@@ -15144,7 +15064,6 @@
 0;80.8624,29.0649;NP-7;Sudurpashchim Pradesh;Timtala
 0;80.8679,29.0575;NP-7;Sudurpashchim Pradesh;Budechar
 0;80.8695,29.0551;NP-7;Sudurpashchim Pradesh;Khalganda
-0;80.8464,29.0644;NP-7;Sudurpashchim Pradesh;Digeman
 0;80.8365,29.0593;NP-7;Sudurpashchim Pradesh;Junada
 0;80.8304,29.0581;NP-7;Sudurpashchim Pradesh;Kathetola
 0;80.8415,29.0554;NP-7;Sudurpashchim Pradesh;Parmalle
@@ -17274,7 +17193,6 @@
 0;83.4439,28.2679;NP-4;Gandaki Pradesh;Kinkhe
 0;84.7797,28.4439;NP-4;Gandaki Pradesh;Luksum
 0;84.8594,28.4480;NP-4;Gandaki Pradesh;Sehrang
-0;84.8923,28.4447;NP-4;Gandaki Pradesh;Nyak
 0;84.9030,28.3826;NP-4;Gandaki Pradesh;Padi
 0;84.9087,28.3835;NP-4;Gandaki Pradesh;Lokpa
 0;84.8990,28.3794;NP-4;Gandaki Pradesh;Gumjed
@@ -17290,7 +17208,6 @@
 0;84.8837,28.3665;NP-4;Gandaki Pradesh;Paimo
 0;84.8856,28.3624;NP-4;Gandaki Pradesh;Salleri
 0;84.8884,28.3903;NP-4;Gandaki Pradesh;Nagjet
-0;84.8868,28.3839;NP-4;Gandaki Pradesh;Sirdibas
 0;84.7245,28.3609;NP-4;Gandaki Pradesh;Rupina La
 0;83.4512,28.2622;NP-4;Gandaki Pradesh;Manu
 0;84.7268,28.1091;NP-4;Gandaki Pradesh;Swanra
@@ -17794,7 +17711,6 @@
 0;83.3219,28.0051;NP-5;Lumbini Province;Ardanda
 0;83.3111,27.9975;NP-5;Lumbini Province;Tallo Bakhre
 0;83.3803,28.1244;NP-5;Lumbini Province;Pokhari
-0;81.3301,29.0978;NP-7;Sudurpashchim Pradesh;Birpath
 0;83.5824,28.2411;NP-4;Gandaki Pradesh;Dayedanda
 0;83.3886,28.1223;NP-5;Lumbini Province;Bhirkhani
 0;83.3851,28.1195;NP-5;Lumbini Province;Indrachok
@@ -18421,7 +18337,6 @@
 0;83.0680,28.1567;NP-5;Lumbini Province;Pokhara
 0;83.0808,28.1503;NP-5;Lumbini Province;Daduwa
 0;83.0753,28.1467;NP-5;Lumbini Province;Purkot Daha
-0;83.5558,28.0502;NP-5;Lumbini Province;Purtighat Bajar
 0;83.5526,28.0634;NP-5;Lumbini Province;Badachur
 0;83.5573,28.0600;NP-5;Lumbini Province;Waking
 0;83.5455,28.0667;NP-5;Lumbini Province;Sadigaun
@@ -18456,7 +18371,6 @@
 0;83.4314,27.9541;NP-5;Lumbini Province;Thurgagaun
 0;83.4416,27.9490;NP-5;Lumbini Province;Khoyagaun
 0;83.4431,27.9410;NP-5;Lumbini Province;Bisnupanjargaun
-0;83.4374,27.9393;NP-5;Lumbini Province;Ridi Bajar
 0;83.4245,27.9377;NP-5;Lumbini Province;Ekle pipal
 0;83.1329,28.3884;NP-4;Gandaki Pradesh;Thamka
 0;83.4108,27.9436;NP-5;Lumbini Province;Bhadukuwagaun
@@ -19238,7 +19152,6 @@
 0;87.6708,26.7603;NP-1;Koshi;Nunsari Toribari
 0;87.6818,26.7572;NP-1;Koshi;Mawa Toribari
 0;87.6611,26.8358;NP-1;Koshi;Bistagaun
-0;87.6595,26.8282;NP-1;Koshi;Phunamtar
 0;87.6610,26.8504;NP-1;Koshi;Pakhrintar
 0;87.6709,26.8419;NP-1;Koshi;Sagphara
 0;87.6616,26.8446;NP-1;Koshi;Gurungtar
@@ -20793,7 +20706,6 @@
 0;82.0035,28.7577;NP-6;Karnali Pradesh;Gobankholi
 0;82.0164,28.7601;NP-6;Karnali Pradesh;Jewa
 0;82.0273,28.7555;NP-6;Karnali Pradesh;Changkhila
-0;82.0475,28.7614;NP-6;Karnali Pradesh;badaban
 0;82.0555,28.7629;NP-6;Karnali Pradesh;Thalaha
 0;82.1738,28.7937;NP-6;Karnali Pradesh;Kodari
 0;83.6210,28.2305;NP-4;Gandaki Pradesh;Arbak
@@ -23626,7 +23538,6 @@
 0;81.9903,29.2220;NP-6;Karnali Pradesh;Sapuli
 0;81.9945,29.2143;NP-6;Karnali Pradesh;Tunikholagaun
 0;81.9990,29.2233;NP-6;Karnali Pradesh;Raut Bada
-0;82.0186,29.2324;NP-6;Karnali Pradesh;Lumshera
 0;83.2970,28.2614;NP-4;Gandaki Pradesh;Takar
 0;82.0137,29.2411;NP-6;Karnali Pradesh;Kholigaun
 0;82.0213,29.2459;NP-6;Karnali Pradesh;Thapagaun
@@ -23938,7 +23849,6 @@
 0;81.1299,28.6286;NP-7;Sudurpashchim Pradesh;Bageniya
 0;81.1410,28.6267;NP-7;Sudurpashchim Pradesh;Bagaura
 0;81.1606,28.6327;NP-7;Sudurpashchim Pradesh;Thakalipur
-0;81.1532,28.6302;NP-7;Sudurpashchim Pradesh;Jhunga chok
 0;81.1643,28.6279;NP-7;Sudurpashchim Pradesh;Lamki
 0;81.2231,28.6440;NP-7;Sudurpashchim Pradesh;Kharepani
 0;81.2294,28.6416;NP-7;Sudurpashchim Pradesh;Dhakane
@@ -24001,7 +23911,6 @@
 0;80.9744,28.5120;NP-7;Sudurpashchim Pradesh;Gauniya
 0;80.9955,28.5063;NP-7;Sudurpashchim Pradesh;Kanda
 0;80.9879,28.4981;NP-7;Sudurpashchim Pradesh;Perhani
-0;80.9706,28.4992;NP-7;Sudurpashchim Pradesh;Bhajani
 0;80.9673,28.4920;NP-7;Sudurpashchim Pradesh;Thengarpuruwa
 0;80.9757,28.4920;NP-7;Sudurpashchim Pradesh;Padariya
 0;80.9796,28.4798;NP-7;Sudurpashchim Pradesh;Thekipur
@@ -24255,7 +24164,6 @@
 0;80.7671,28.6593;NP-7;Sudurpashchim Pradesh;Gadariya
 0;80.7749,28.6553;NP-7;Sudurpashchim Pradesh;Lambi Phata
 0;80.7611,28.6538;NP-7;Sudurpashchim Pradesh;Jamanipur
-0;80.8002,28.6375;NP-7;Sudurpashchim Pradesh;Binauli
 0;80.7883,28.6285;NP-7;Sudurpashchim Pradesh;Surmi
 0;80.7695,28.6873;NP-7;Sudurpashchim Pradesh;Koilahi Katan
 0;83.4466,28.2051;NP-4;Gandaki Pradesh;Deupuje
@@ -24272,7 +24180,6 @@
 0;83.4516,28.2047;NP-4;Gandaki Pradesh;Kharuwa
 0;80.5782,28.7686;NP-7;Sudurpashchim Pradesh;Barbatagau
 0;80.5534,28.7679;NP-7;Sudurpashchim Pradesh;Margaht
-0;80.5643,28.7740;NP-7;Sudurpashchim Pradesh;Geta
 0;80.5717,28.8116;NP-7;Sudurpashchim Pradesh;Basantapur (Jhanjhatpur)
 0;80.5657,28.8024;NP-7;Sudurpashchim Pradesh;Chaitanyapur
 0;80.5752,28.7943;NP-7;Sudurpashchim Pradesh;Bijaura
@@ -24602,7 +24509,6 @@
 0;80.5592,28.8505;NP-7;Sudurpashchim Pradesh;Teghari (Mahara Katan)
 0;81.3291,29.1874;NP-7;Sudurpashchim Pradesh;Raksekhet
 0;83.1209,28.2652;NP-4;Gandaki Pradesh;Nigalpani
-0;80.5561,28.8425;NP-7;Sudurpashchim Pradesh;Teghari
 0;80.5835,28.8366;NP-7;Sudurpashchim Pradesh;Dhadkuwa
 0;80.5718,28.8314;NP-7;Sudurpashchim Pradesh;Baskota
 0;80.5883,28.8281;NP-7;Sudurpashchim Pradesh;Khairana
@@ -24851,7 +24757,6 @@
 0;80.8029,28.9526;NP-7;Sudurpashchim Pradesh;Malubela
 0;83.4876,28.1571;NP-4;Gandaki Pradesh;Puntol
 0;80.7251,28.9980;NP-7;Sudurpashchim Pradesh;chiura
-0;80.7211,28.9927;NP-7;Sudurpashchim Pradesh;Ojhena
 0;80.7150,28.9872;NP-7;Sudurpashchim Pradesh;Kulban
 0;80.7296,29.0103;NP-7;Sudurpashchim Pradesh;Kimtala
 0;80.7445,29.0067;NP-7;Sudurpashchim Pradesh;Babaid
@@ -26113,7 +26018,6 @@
 0;81.6184,29.1089;NP-6;Karnali Pradesh;Thanagaun
 0;81.6298,29.1129;NP-6;Karnali Pradesh;Chaulagai Bada
 0;81.1909,29.3087;NP-7;Sudurpashchim Pradesh;Kala Lek
-0;83.6440,28.1808;NP-4;Gandaki Pradesh;Jaimunighat
 0;81.6189,29.1170;NP-6;Karnali Pradesh;Syanla
 0;81.6321,29.1060;NP-6;Karnali Pradesh;Adhikari Bada
 0;81.6554,29.1074;NP-6;Karnali Pradesh;Batis
@@ -26172,7 +26076,6 @@
 0;80.4685,28.7058;NP-7;Sudurpashchim Pradesh;Gularpatti
 0;80.4671,28.6894;NP-7;Sudurpashchim Pradesh;Baisi Bichawa
 0;80.4818,28.6945;NP-7;Sudurpashchim Pradesh;Naurangagaun
-0;80.4990,28.6815;NP-7;Sudurpashchim Pradesh;Pachkadiya
 0;80.5095,28.6775;NP-7;Sudurpashchim Pradesh;Bikasbasti
 0;80.5049,28.6721;NP-7;Sudurpashchim Pradesh;Chakmali
 0;80.5140,28.6821;NP-7;Sudurpashchim Pradesh;Bhimbasti
@@ -26637,7 +26540,6 @@
 0;80.5015,28.7859;NP-7;Sudurpashchim Pradesh;Mataiya Katan
 0;80.5088,28.7838;NP-7;Sudurpashchim Pradesh;Simalkot
 0;80.5359,28.7808;NP-7;Sudurpashchim Pradesh;Shantipur
-0;80.5204,28.7717;NP-7;Sudurpashchim Pradesh;Raikawar Bichawa
 0;80.5286,28.7582;NP-7;Sudurpashchim Pradesh;Ghalghale Tol
 0;80.5231,28.7574;NP-7;Sudurpashchim Pradesh;Pipariya
 0;80.5398,28.7484;NP-7;Sudurpashchim Pradesh;Rajghat
@@ -26702,7 +26604,6 @@
 0;80.2501,28.7658;NP-7;Sudurpashchim Pradesh;Baibaha
 0;80.2446,28.9092;NP-7;Sudurpashchim Pradesh;Badhani Kheda
 0;80.2417,28.9017;NP-7;Sudurpashchim Pradesh;Badhani Kheda
-0;80.2415,28.8923;NP-7;Sudurpashchim Pradesh;Pataiya
 0;80.2504,28.9114;NP-7;Sudurpashchim Pradesh;Bhadhani Kheda
 0;83.6425,28.2407;NP-4;Gandaki Pradesh;Tawai
 0;80.2468,28.8773;NP-7;Sudurpashchim Pradesh;Andaiya
@@ -26839,7 +26740,6 @@
 0;82.8573,27.5633;NP-5;Lumbini Province;Ganeshpur
 0;82.8570,27.5598;NP-5;Lumbini Province;Palta
 0;82.8343,27.5326;NP-5;Lumbini Province;Dayangar
-0;82.8529,27.5284;NP-5;Lumbini Province;Dagarmarwa
 0;82.8605,27.5447;NP-5;Lumbini Province;Jamuni
 0;82.8521,27.5397;NP-5;Lumbini Province;Dewangadhiya
 0;83.6211,28.2200;NP-4;Gandaki Pradesh;Raule
@@ -28821,7 +28721,6 @@
 0;83.4441,28.2878;NP-4;Gandaki Pradesh;Sharane
 0;84.2039,28.2627;NP-4;Gandaki Pradesh;Phartar
 0;84.1973,28.2709;NP-4;Gandaki Pradesh;Posi
-0;84.1776,28.3011;NP-4;Gandaki Pradesh;Bakuri
 0;84.1736,28.2993;NP-4;Gandaki Pradesh;Thaljo
 0;84.1817,28.2965;NP-4;Gandaki Pradesh;Chhinglu
 0;84.1885,28.3086;NP-4;Gandaki Pradesh;Sarbikharka
@@ -30552,7 +30451,6 @@
 0;81.2702,29.0196;NP-7;Sudurpashchim Pradesh;Rima
 0;83.3034,28.2066;NP-4;Gandaki Pradesh;Sano Righa
 0;85.5270,27.4381;NP-3;Bagmati Province;Khawasdanda
-0;85.5341,27.4470;NP-3;Bagmati Province;Phalate
 0;85.5064,27.4539;NP-3;Bagmati Province;Dayagaun
 0;85.5141,27.4463;NP-3;Bagmati Province;Anredanda
 0;85.5034,27.4323;NP-3;Bagmati Province;Dayagaunbesi
@@ -31971,7 +31869,6 @@
 0;86.7975,27.2116;NP-1;Koshi;Hatdanda
 0;86.8051,27.2102;NP-1;Koshi;Bayu
 0;86.7859,27.2089;NP-1;Koshi;Khaldedandachhap
-0;86.7910,27.2201;NP-1;Koshi;Diktel Bajar
 0;86.8119,27.2165;NP-1;Koshi;Urleni
 0;86.8084,27.2206;NP-1;Koshi;Harkapur
 0;86.8016,27.2319;NP-1;Koshi;Dandagaun
@@ -33195,7 +33092,6 @@
 0;85.4342,27.4828;NP-3;Bagmati Province;Gurudumdada
 0;85.4380,27.4814;NP-3;Bagmati Province;Simtardanda
 0;85.4221,27.4874;NP-3;Bagmati Province;Dudilabot
-0;85.3043,27.6366;NP-3;Bagmati Province;Khokana
 0;85.3062,27.6338;NP-3;Bagmati Province;Karyabinayak
 0;85.2963,27.6463;NP-3;Bagmati Province;Sano Khokana
 0;85.2964,27.6385;NP-3;Bagmati Province;Wakhat
@@ -33847,7 +33743,6 @@
 0;84.5346,28.2656;NP-4;Gandaki Pradesh;Simi
 0;84.5137,28.2524;NP-4;Gandaki Pradesh;Chhuswara
 0;84.5140,28.2596;NP-4;Gandaki Pradesh;Jhumswara
-0;84.5443,28.2800;NP-4;Gandaki Pradesh;Taje
 0;84.5772,28.2799;NP-4;Gandaki Pradesh;Gothkharka
 0;84.5801,28.3043;NP-4;Gandaki Pradesh;Nalekharka
 0;84.5872,28.3231;NP-4;Gandaki Pradesh;Molochekharka
@@ -35017,7 +34912,6 @@
 0;85.8902,27.0403;NP-2;Madhesh;Bardanda
 0;85.8859,27.0306;NP-2;Madhesh;Atape
 0;85.8790,27.0105;NP-2;Madhesh;Maithan
-0;85.8733,27.0226;NP-2;Madhesh;Nayatol
 0;85.8695,27.0130;NP-2;Madhesh;Maisthan
 0;85.8651,27.0466;NP-2;Madhesh;Dunmsidanda
 0;81.2942,29.0195;NP-7;Sudurpashchim Pradesh;Sungurkhal
@@ -36227,7 +36121,6 @@
 0;85.1393,27.4166;NP-3;Bagmati Province;Banspani
 0;85.1478,27.4143;NP-3;Bagmati Province;Thulo Gadhi
 0;85.1496,27.4128;NP-3;Bagmati Province;Sano Gadhi
-0;85.1420,27.4119;NP-3;Bagmati Province;Makawanpur Gadhi
 0;85.1449,27.4100;NP-3;Bagmati Province;Hatiya
 0;85.1372,27.4094;NP-3;Bagmati Province;Dharapani
 0;85.1609,27.4063;NP-3;Bagmati Province;Majhdanda
@@ -37260,7 +37153,6 @@
 0;87.5745,26.4209;NP-1;Koshi;Bardanga Miyatol
 0;87.6002,26.3975;NP-1;Koshi;Rajbangshitol
 0;87.5953,26.3858;NP-1;Koshi;Sonapur
-0;87.6153,26.4079;NP-1;Koshi;Chunimadi
 0;80.4801,29.5370;NP-7;Sudurpashchim Pradesh;Melaun
 0;87.6040,26.4045;NP-1;Koshi;Sonapur Majhitol
 0;87.5919,26.4370;NP-1;Koshi;Dangi Kudhaili
@@ -39265,7 +39157,6 @@
 0;83.8511,29.0343;NP-4;Gandaki Pradesh;Nyila
 0;83.8320,28.9897;NP-4;Gandaki Pradesh;Yamda
 0;83.8405,28.9929;NP-4;Gandaki Pradesh;Sangboche
-0;83.8594,29.0055;NP-4;Gandaki Pradesh;Ghilin
 0;83.8723,28.8254;NP-4;Gandaki Pradesh;Chhyonggur
 0;83.8552,28.8278;NP-4;Gandaki Pradesh;Jhong
 0;83.8460,28.8302;NP-4;Gandaki Pradesh;Putak
@@ -39645,7 +39536,6 @@
 0;83.6109,28.4310;NP-4;Gandaki Pradesh;Luga Palyang
 0;83.6094,28.4277;NP-4;Gandaki Pradesh;Dosalle Pairhagaug
 0;83.6197,28.4146;NP-4;Gandaki Pradesh;Aul
-0;83.5160,28.4210;NP-4;Gandaki Pradesh;Jhi
 0;83.5159,28.4106;NP-4;Gandaki Pradesh;Bhirkuna
 0;83.5166,28.4134;NP-4;Gandaki Pradesh;Odare
 0;83.5228,28.4096;NP-4;Gandaki Pradesh;Hija
@@ -40391,7 +40281,6 @@
 0;84.3947,27.7161;NP-4;Gandaki Pradesh;Materi
 0;84.4084,27.7132;NP-4;Gandaki Pradesh;Ranital
 0;84.3958,27.7098;NP-4;Gandaki Pradesh;Jhapardi
-0;84.4004,27.7022;NP-4;Gandaki Pradesh;Madhuwaghat
 0;84.4078,27.7001;NP-4;Gandaki Pradesh;Kusumghat
 0;84.4004,27.6952;NP-4;Gandaki Pradesh;Toltola
 0;80.5310,29.6418;NP-7;Sudurpashchim Pradesh;Aultad
@@ -40815,7 +40704,6 @@
 0;83.7210,27.4481;NP-5;Lumbini Province;Kurthawal
 0;83.7224,27.4516;NP-5;Lumbini Province;Betsar
 0;83.7252,27.4581;NP-5;Lumbini Province;Garauri
-0;83.7477,27.4498;NP-5;Lumbini Province;Pusauli
 0;83.7474,27.4428;NP-5;Lumbini Province;Khadauna
 0;80.5869,29.4712;NP-7;Sudurpashchim Pradesh;Kannaula
 0;83.7437,27.4399;NP-5;Lumbini Province;Madhwaliya
@@ -41161,7 +41049,6 @@
 0;85.1649,27.9040;NP-3;Bagmati Province;Kapaskhoriya
 0;85.1491,27.9028;NP-3;Bagmati Province;Sukumbasitol
 0;85.1616,27.9027;NP-3;Bagmati Province;Baniyadanda
-0;85.1489,27.9010;NP-3;Bagmati Province;Battar Bajar
 0;85.1732,27.8977;NP-3;Bagmati Province;Tukanahiti
 0;85.1657,27.8970;NP-3;Bagmati Province;Serabesi
 0;80.4878,29.5083;NP-7;Sudurpashchim Pradesh;Kaphal Katyan
@@ -42613,7 +42500,6 @@
 0;86.5129,27.3935;NP-1;Koshi;Balthumka
 0;86.5008,27.3866;NP-1;Koshi;Pokhare
 0;86.4984,27.4068;NP-1;Koshi;Latebari
-0;86.5011,27.4020;NP-1;Koshi;Jantarkhani
 0;86.4973,27.4160;NP-1;Koshi;Arubote
 0;86.4833,27.4167;NP-1;Koshi;Bakhre
 0;81.2813,28.9525;NP-7;Sudurpashchim Pradesh;Haligaude
@@ -44095,7 +43981,6 @@
 0;83.4085,27.8711;NP-5;Lumbini Province;Damaitol
 0;83.3979,27.8742;NP-5;Lumbini Province;Tawapani
 0;83.4093,27.8742;NP-5;Lumbini Province;Kaule
-0;83.3992,27.8795;NP-5;Lumbini Province;Mujhun
 0;83.4113,27.8937;NP-5;Lumbini Province;Chheukhan
 0;83.4171,27.8912;NP-5;Lumbini Province;Kumalgaun
 0;83.4140,27.8887;NP-5;Lumbini Province;Adherikholagaun
@@ -47175,7 +47060,6 @@
 0;80.5801,29.6732;NP-7;Sudurpashchim Pradesh;Basigaun
 0;82.6770,28.1226;NP-5;Lumbini Province;Swargadwari
 0;82.7166,28.1414;NP-5;Lumbini Province;Kunauta
-0;82.7003,28.1347;NP-5;Lumbini Province;Bhingrikot
 0;82.7065,28.1308;NP-5;Lumbini Province;Bhingrikot Apchaur
 0;82.7135,28.1437;NP-5;Lumbini Province;Tallo Bhingri
 0;82.7116,28.1520;NP-5;Lumbini Province;Jaluki
@@ -48501,7 +48385,6 @@
 0;80.6135,29.5371;NP-7;Sudurpashchim Pradesh;Syaltada
 0;85.9762,27.5201;NP-3;Bagmati Province;Patleghyang
 0;85.9756,27.5150;NP-3;Bagmati Province;Tindhare
-0;85.9713,27.5478;NP-3;Bagmati Province;Chhaga
 0;85.9621,27.5421;NP-3;Bagmati Province;Kattikechhap
 0;85.9659,27.5416;NP-3;Bagmati Province;Rajbhir
 0;85.9609,27.5369;NP-3;Bagmati Province;Dadhuwa
@@ -49588,7 +49471,6 @@
 0;85.3748,28.1251;NP-3;Bagmati Province;Mangche Gumba
 0;85.3637,28.1353;NP-3;Bagmati Province;Garta
 0;85.3315,28.1664;NP-3;Bagmati Province;Komin
-0;85.3376,28.1645;NP-3;Bagmati Province;Shyaphru
 0;85.3325,28.1626;NP-3;Bagmati Province;Narkoti
 0;85.1744,28.0284;NP-3;Bagmati Province;Thulogaun
 0;85.1740,28.0376;NP-3;Bagmati Province;Bhumethan
@@ -49607,7 +49489,6 @@
 0;85.3702,28.2555;NP-3;Bagmati Province;Timure(Sedang)
 0;85.3725,28.2370;NP-3;Bagmati Province;Khaidi
 0;85.4040,28.2486;NP-3;Bagmati Province;Bhrangkharka
-0;85.3802,28.2772;NP-3;Bagmati Province;Rasuwagadhi
 0;85.3808,28.2724;NP-3;Bagmati Province;Bedang
 0;85.4895,28.3293;NP-3;Bagmati Province;Chhoyen
 0;85.4176,28.3147;NP-3;Bagmati Province;Chodhor
@@ -49661,7 +49542,6 @@
 0;85.3381,26.7880;NP-2;Madhesh;Gadahiya
 0;85.3167,26.7961;NP-2;Madhesh;Badharwa Hathiaultol
 0;85.3105,26.7832;NP-2;Madhesh;Patahi
-0;85.3087,26.7876;NP-2;Madhesh;Hajminiyatola
 0;85.3027,26.7910;NP-2;Madhesh;Hijminiya
 0;85.3242,26.9668;NP-2;Madhesh;Basabitti Jingadiya
 0;85.3320,26.9791;NP-2;Madhesh;Birta
@@ -50008,7 +49888,6 @@
 0;85.3414,26.9813;NP-2;Madhesh;Shripur
 0;85.3423,26.9890;NP-2;Madhesh;Sisawa
 0;85.3537,26.9697;NP-2;Madhesh;Aghoritol
-0;85.3202,26.7699;NP-2;Madhesh;Katarbana
 0;85.3401,26.7715;NP-2;Madhesh;Mohanpur
 0;85.3176,26.7746;NP-2;Madhesh;Mathtola
 0;81.2171,29.0382;NP-7;Sudurpashchim Pradesh;Bhalane
@@ -53957,7 +53836,6 @@
 0;83.4426,27.6199;NP-5;Lumbini Province;Sauriya
 0;83.4418,27.6169;NP-5;Lumbini Province;Panbari
 0;83.4615,27.6365;NP-5;Lumbini Province;Anandaban
-0;83.4614,27.6313;NP-5;Lumbini Province;Manigram
 0;83.4705,27.6322;NP-5;Lumbini Province;Ramban
 0;83.4778,27.6326;NP-5;Lumbini Province;Kailashban
 0;83.4480,27.6319;NP-5;Lumbini Province;Golkawa
@@ -54517,7 +54395,6 @@
 0;83.5720,27.6140;NP-5;Lumbini Province;Semarhawa
 0;83.5738,27.6305;NP-5;Lumbini Province;Dewidamar
 0;83.5831,27.6289;NP-5;Lumbini Province;Singaha
-0;83.5898,27.6275;NP-5;Lumbini Province;Kerawani
 0;83.4029,27.6559;NP-5;Lumbini Province;Hirapur
 0;80.9116,29.5479;NP-7;Sudurpashchim Pradesh;Binada
 0;83.3950,27.6496;NP-5;Lumbini Province;Gopalpur Nagar
@@ -54660,7 +54537,6 @@
 0;83.2608,27.5154;NP-5;Lumbini Province;Kukarbhukka
 0;83.2381,27.4978;NP-5;Lumbini Province;Jitwapur
 0;80.9621,29.5358;NP-7;Sudurpashchim Pradesh;Dharain
-0;83.2418,27.4960;NP-5;Lumbini Province;Mugalhawa
 0;83.2327,27.4957;NP-5;Lumbini Province;Sekhuwa Danda
 0;83.2301,27.4901;NP-5;Lumbini Province;Sekhuwa Danda
 0;83.4428,27.6692;NP-5;Lumbini Province;Raniganj
@@ -54902,7 +54778,6 @@
 0;83.4671,27.5170;NP-5;Lumbini Province;Udayapur
 0;81.3005,29.1015;NP-7;Sudurpashchim Pradesh;Khoklegaira
 0;81.0499,29.5225;NP-7;Sudurpashchim Pradesh;Kalimati
-0;83.4492,27.4830;NP-5;Lumbini Province;Pakalihawa
 0;83.4704,27.4809;NP-5;Lumbini Province;Belahiya
 0;83.4611,27.4803;NP-5;Lumbini Province;Naudihawa
 0;83.4770,27.4803;NP-5;Lumbini Province;Benipur
@@ -55703,7 +55578,6 @@
 0;82.2118,28.5937;NP-6;Karnali Pradesh;Basnetgaun
 0;80.9212,29.6137;NP-7;Sudurpashchim Pradesh;Ranibhid
 0;82.1792,28.6137;NP-6;Karnali Pradesh;Kuyapani
-0;82.1737,28.6099;NP-6;Karnali Pradesh;Thadara
 0;82.1856,28.6041;NP-6;Karnali Pradesh;Ranagaun
 0;82.1804,28.5988;NP-6;Karnali Pradesh;Syani Pipli
 0;82.2065,28.5900;NP-6;Karnali Pradesh;Kalagaun
@@ -55736,7 +55610,6 @@
 0;81.8944,28.2672;NP-6;Karnali Pradesh;Hatti Damar
 0;80.9181,29.6187;NP-7;Sudurpashchim Pradesh;Paudi
 0;81.9037,28.3058;NP-6;Karnali Pradesh;Takarkot
-0;81.9144,28.2722;NP-6;Karnali Pradesh;Damdawali
 0;81.9134,28.2559;NP-6;Karnali Pradesh;Batule
 0;81.9358,28.2556;NP-6;Karnali Pradesh;Banchare
 0;81.8890,28.3330;NP-6;Karnali Pradesh;Jogilase
@@ -56730,7 +56603,6 @@
 0;82.3109,28.5187;NP-6;Karnali Pradesh;Maddera
 0;81.3707,29.5845;NP-7;Sudurpashchim Pradesh;Gadghade Goth
 0;82.2935,28.5134;NP-6;Karnali Pradesh;Pirohalne
-0;82.3324,28.5104;NP-6;Karnali Pradesh;Ole Jyula
 0;82.3357,28.5081;NP-6;Karnali Pradesh;Bungelgaun
 0;82.3352,28.5054;NP-6;Karnali Pradesh;Pedikholagaun
 0;82.3191,28.5006;NP-6;Karnali Pradesh;Shivarathkot
@@ -58243,7 +58115,6 @@
 0;86.6990,26.6341;NP-2;Madhesh;Bhidiya Bajar
 0;86.6980,26.6312;NP-2;Madhesh;Sambhunath
 0;86.7313,26.6442;NP-2;Madhesh;Bhaluwahi
-0;86.7132,26.6469;NP-2;Madhesh;Khayarbona
 0;86.6124,26.5301;NP-2;Madhesh;Balati
 0;86.6189,26.5463;NP-2;Madhesh;Kabilasa
 0;86.8022,26.5103;NP-2;Madhesh;Parsahi
@@ -59415,7 +59286,6 @@
 0;85.8510,27.3005;NP-3;Bagmati Province;Jhalkane
 0;85.8309,27.3207;NP-3;Bagmati Province;Tuni Bhanjyang
 0;85.8232,27.3125;NP-3;Bagmati Province;Gopedanda
-0;85.8512,27.3210;NP-3;Bagmati Province;Sukachuri
 0;81.3832,29.7074;NP-7;Sudurpashchim Pradesh;Kunda Goth
 0;85.8525,27.3461;NP-3;Bagmati Province;Chharchhare
 0;85.8424,27.3281;NP-3;Bagmati Province;Dote
@@ -61982,7 +61852,6 @@
 0;85.7703,27.6895;NP-3;Bagmati Province;Meldanda
 0;85.7753,27.6972;NP-3;Bagmati Province;Chhap
 0;85.7823,27.7040;NP-3;Bagmati Province;Pahari Yamuna
-0;85.7839,27.6974;NP-3;Bagmati Province;Bajhe
 0;85.7820,27.6907;NP-3;Bagmati Province;Bhalukharka
 0;85.7723,27.7067;NP-3;Bagmati Province;Salle
 0;85.7758,27.7148;NP-3;Bagmati Province;Kallabari
@@ -62171,7 +62040,6 @@
 0;85.8730,27.8207;NP-3;Bagmati Province;Harre
 0;85.8694,27.8156;NP-3;Bagmati Province;Khiping
 0;85.8744,27.8116;NP-3;Bagmati Province;Maneswara
-0;85.8744,27.7628;NP-3;Bagmati Province;Bansaghu
 0;85.8549,27.7616;NP-3;Bagmati Province;Paharigaun
 0;81.0654,29.4990;NP-7;Sudurpashchim Pradesh;Umri
 0;85.8549,27.7587;NP-3;Bagmati Province;Lamosagun
@@ -62201,7 +62069,6 @@
 0;85.5645,27.8255;NP-3;Bagmati Province;Pandegaun
 0;85.5629,27.8239;NP-3;Bagmati Province;Bahungaun
 0;85.5564,27.8221;NP-3;Bagmati Province;Daduwa
-0;85.5691,27.8404;NP-3;Bagmati Province;Swara
 0;85.5763,27.8380;NP-3;Bagmati Province;Bagaicha
 0;85.5737,27.8367;NP-3;Bagmati Province;Danuwargaun
 0;85.5768,27.8364;NP-3;Bagmati Province;Dobhantar
@@ -62635,7 +62502,6 @@
 0;85.7195,27.7408;NP-3;Bagmati Province;Harre
 0;81.4474,29.0674;NP-7;Sudurpashchim Pradesh;Dansain
 0;80.9690,29.4637;NP-7;Sudurpashchim Pradesh;Palai
-0;85.6976,27.7223;NP-3;Bagmati Province;Swara
 0;85.6988,27.7175;NP-3;Bagmati Province;Dadhuwa
 0;85.6939,27.7091;NP-3;Bagmati Province;Ranitar
 0;85.6785,27.7076;NP-3;Bagmati Province;Jhyangri
@@ -63213,7 +63079,6 @@
 0;86.3387,26.8173;NP-2;Madhesh;Titariya
 0;86.3619,26.8167;NP-2;Madhesh;Turkiya
 0;86.3552,26.8179;NP-2;Madhesh;Telyani
-0;86.3513,26.7976;NP-2;Madhesh;Gurudham
 0;81.1537,29.4215;NP-7;Sudurpashchim Pradesh;Jukena
 0;86.3478,26.8037;NP-2;Madhesh;Aluwatol
 0;86.2207,26.6197;NP-2;Madhesh;Itari
@@ -63376,7 +63241,6 @@
 0;86.2477,26.8312;NP-2;Madhesh;Jiwa
 0;86.2581,26.8422;NP-2;Madhesh;Jiwa
 0;86.2621,26.8271;NP-2;Madhesh;Matiarwa
-0;86.2293,26.8202;NP-2;Madhesh;Kuthanama
 0;86.2270,26.8321;NP-2;Madhesh;Mahadewa
 0;86.2112,26.8404;NP-2;Madhesh;Rampur Birta
 0;81.1017,29.4155;NP-7;Sudurpashchim Pradesh;Maikathan
@@ -63481,7 +63345,6 @@
 0;86.7434,27.5264;NP-1;Koshi;Dihi
 0;86.7318,27.5140;NP-1;Koshi;Rocham
 0;86.7111,27.5113;NP-1;Koshi;Korla
-0;86.7228,27.5366;NP-1;Koshi;Wapsa
 0;86.7251,27.5347;NP-1;Koshi;Labda
 0;86.7131,27.5328;NP-1;Koshi;Tari
 0;86.7263,27.5304;NP-1;Koshi;Tamakhani
@@ -63894,7 +63757,6 @@
 0;86.7879,27.8489;NP-1;Koshi;Omaka
 0;86.7965,27.8522;NP-1;Koshi;Yaren
 0;86.8016,27.8604;NP-1;Koshi;Cholunche
-0;86.8224,27.8541;NP-1;Koshi;Minbo
 0;86.8159,27.8638;NP-1;Koshi;Lapharma Goth
 0;86.8186,27.8689;NP-1;Koshi;Raia Goth
 0;86.8221,27.8872;NP-1;Koshi;Chyakurwa Goth
@@ -63940,7 +63802,6 @@
 0;86.8013,27.8676;NP-1;Koshi;Syomare
 0;86.7536,27.8642;NP-1;Koshi;Kohanar
 0;86.7860,27.9320;NP-1;Koshi;Chola
-0;86.8081,27.9248;NP-1;Koshi;Thokla
 0;81.1967,29.3660;NP-7;Sudurpashchim Pradesh;Bherasain
 0;80.9441,29.4647;NP-7;Sudurpashchim Pradesh;Pathuda
 0;86.7927,27.9599;NP-1;Koshi;Abi
@@ -64104,7 +63965,6 @@
 0;86.6223,27.8229;NP-1;Koshi;Khure Goth
 0;80.9143,29.4772;NP-7;Sudurpashchim Pradesh;Maitoli
 0;86.6338,27.8271;NP-1;Koshi;Gokpuche Goth
-0;86.6539,27.8331;NP-1;Koshi;Thame
 0;86.5988,27.8051;NP-1;Koshi;Thyangmoche
 0;86.6449,27.7942;NP-1;Koshi;Tartikha
 0;86.6510,27.8539;NP-1;Koshi;Thumla Goth
@@ -64509,7 +64369,6 @@
 0;87.2097,26.7481;NP-1;Koshi;Khoriyagaun
 0;87.2089,26.7404;NP-1;Koshi;Tisbigha
 0;87.2108,26.7366;NP-1;Koshi;Bahattarbigha
-0;87.1618,26.8275;NP-1;Koshi;Chatara
 0;87.1629,26.8066;NP-1;Koshi;Buddhejhora
 0;87.1658,26.8119;NP-1;Koshi;Punarbas
 0;87.1572,26.8353;NP-1;Koshi;Bhandaritar
@@ -65277,7 +65136,6 @@
 0;87.1094,26.6881;NP-1;Koshi;Chautis Nambar
 0;87.1050,26.6809;NP-1;Koshi;Bahunikholagaun
 0;87.1144,26.6960;NP-1;Koshi;Shikarithan
-0;87.1109,26.7006;NP-1;Koshi;Hidluwa
 0;87.0344,26.7426;NP-1;Koshi;Jalimtol
 0;87.0393,26.7359;NP-1;Koshi;Bagalitol
 0;87.0306,26.7310;NP-1;Koshi;Gaderitol
@@ -65427,7 +65285,6 @@
 0;87.0379,26.5677;NP-1;Koshi;Trikhandi
 0;87.0219,26.5631;NP-1;Koshi;Mukhaitol
 0;87.0097,26.5679;NP-1;Koshi;Galphadiya
-0;87.0422,26.5821;NP-1;Koshi;Kumiyahi
 0;87.0314,26.5589;NP-1;Koshi;Hurkitol
 0;87.0250,26.5885;NP-1;Koshi;Kujarahi
 0;87.0129,26.5838;NP-1;Koshi;Shivachok
@@ -66197,7 +66054,6 @@
 0;81.3053,28.9051;NP-6;Karnali Pradesh;Salle Takura
 0;81.3235,28.9006;NP-6;Karnali Pradesh;Khop
 0;81.3144,28.8960;NP-6;Karnali Pradesh;Sisne
-0;81.3468,29.4242;NP-7;Sudurpashchim Pradesh;Oligau
 0;81.2979,28.8951;NP-6;Karnali Pradesh;Anthe Pokhari
 0;81.2823,28.8811;NP-6;Karnali Pradesh;Hadakang
 0;81.3229,28.8864;NP-6;Karnali Pradesh;Kuwa
@@ -66531,7 +66387,6 @@
 0;81.0650,28.9424;NP-6;Karnali Pradesh;Kelabot
 0;81.0800,28.9407;NP-6;Karnali Pradesh;Pag
 0;81.0698,28.9401;NP-6;Karnali Pradesh;Khandanda
-0;81.0773,28.9322;NP-6;Karnali Pradesh;Dhanras
 0;81.0873,28.9297;NP-6;Karnali Pradesh;Gailu
 0;81.0776,28.9237;NP-6;Karnali Pradesh;Chabot
 0;81.0506,28.9727;NP-6;Karnali Pradesh;Dugargaun
@@ -67020,7 +66875,6 @@
 0;81.3844,28.7524;NP-6;Karnali Pradesh;Buti
 0;81.4836,28.7668;NP-6;Karnali Pradesh;Budhalekh
 0;81.4964,28.7626;NP-6;Karnali Pradesh;Karange
-0;81.4980,28.7518;NP-6;Karnali Pradesh;Lakharpata
 0;81.5334,28.7635;NP-6;Karnali Pradesh;Tallo Phagune
 0;81.5195,28.7596;NP-6;Karnali Pradesh;Gagalche
 0;81.5311,28.7595;NP-6;Karnali Pradesh;Phagune
@@ -74155,7 +74009,6 @@
 0;86.5224,26.9504;NP-1;Koshi;Dadagau
 0;81.8356,28.0565;NP-5;Lumbini Province;Rihardanda
 0;86.5183,26.9449;NP-1;Koshi;Dahar
-0;86.5222,26.9407;NP-1;Koshi;Udaypur Gadhi
 0;86.5182,26.9398;NP-1;Koshi;Dhamaltar
 0;86.5269,26.9302;NP-1;Koshi;Ambote
 0;86.5258,26.9445;NP-1;Koshi;Kotegau
@@ -74364,7 +74217,6 @@
 0;86.7464,26.8776;NP-1;Koshi;Bardanda
 0;86.8015,26.8748;NP-1;Koshi;Ghirling
 0;86.8170,26.8733;NP-1;Koshi;Simle
-0;86.8211,26.8720;NP-1;Koshi;Kampughat
 0;86.8024,26.8680;NP-1;Koshi;Buluwa
 0;86.8195,26.8671;NP-1;Koshi;Ratmate
 0;86.7408,26.8365;NP-1;Koshi;Bhankharka
@@ -74916,7 +74768,6 @@
 0;81.8631,27.9020;NP-5;Lumbini Province;Rataihiya
 0;81.8735,27.8880;NP-5;Lumbini Province;Balapur
 0;81.8685,27.9010;NP-5;Lumbini Province;Gogali
-0;81.7102,28.0671;NP-5;Lumbini Province;Sidhaniya
 0;81.6848,28.0632;NP-5;Lumbini Province;Shahpurwa
 0;81.2815,29.3041;NP-7;Sudurpashchim Pradesh;Bhuwagada
 0;81.6901,28.0599;NP-5;Lumbini Province;Gadariyanpurwa
@@ -74951,7 +74802,6 @@
 0;81.9165,28.0511;NP-5;Lumbini Province;Hardawa
 0;81.8808,28.0640;NP-5;Lumbini Province;Kachanapur
 0;81.9938,28.1542;NP-5;Lumbini Province;Tarulekhuti
-0;81.2648,29.2903;NP-7;Sudurpashchim Pradesh;Manakali
 0;81.9992,28.1490;NP-5;Lumbini Province;Jamunekhuti
 0;81.9319,28.1460;NP-5;Lumbini Province;Mathillo Khairikhuti
 0;81.8719,28.0664;NP-5;Lumbini Province;Guruwakholagun
@@ -75899,7 +75749,6 @@
 0;84.9536,27.1634;NP-2;Madhesh;Dasbigha
 0;84.9609,27.1586;NP-2;Madhesh;Rambantandi
 0;84.9684,27.1532;NP-2;Madhesh;Bajani
-0;84.9844,27.2005;NP-2;Madhesh;Pathlaiya
 0;84.9891,27.1974;NP-2;Madhesh;Thapatol
 0;81.1567,29.2326;NP-7;Sudurpashchim Pradesh;Malthamna
 0;84.9687,27.1676;NP-2;Madhesh;Narabasti
@@ -77477,7 +77326,6 @@
 0;85.1897,27.5600;NP-3;Bagmati Province;Damki̇̄ Bhañiyāṅ
 0;85.2860,27.9590;NP-3;Bagmati Province;Lachyāṅ
 0;85.2930,27.9620;NP-3;Bagmati Province;Joṅḍānḍā
-0;85.2011,27.5619;NP-3;Bagmati Province;Sāno Ṭār
 0;85.3292,27.9659;NP-3;Bagmati Province;Chheluṅ
 0;85.3419,27.9662;NP-3;Bagmati Province;Duṅṭol
 0;85.4158,27.8370;NP-3;Bagmati Province;Kārāṅluṅ
@@ -77516,7 +77364,6 @@
 0;85.0678,27.9425;NP-3;Bagmati Province;Jhārlāṅ
 0;85.2010,27.9957;NP-3;Bagmati Province;Swā̃rā
 0;85.2101,27.9996;NP-3;Bagmati Province;Dhaibuṅkeṭ
-0;85.2293,27.9884;NP-3;Bagmati Province;Rupsepāni̇̄
 0;85.2267,27.9994;NP-3;Bagmati Province;Jyāṅlāṅ
 0;86.1898,28.1272;NP-3;Bagmati Province;Leṅdeṅwābāri̇̄
 0;86.1629,28.0694;NP-3;Bagmati Province;Thāsiṅ
@@ -77698,7 +77545,6 @@
 0;85.6360,27.8162;NP-3;Bagmati Province;Kalamsa
 0;85.6549,27.8216;NP-3;Bagmati Province;Ḍhānḍe
 0;85.6360,27.8037;NP-3;Bagmati Province;Swā̃rāgāũ
-0;85.6857,27.8603;NP-3;Bagmati Province;Sāni̇̄gaũḍā
 0;85.6842,27.8544;NP-3;Bagmati Province;Kosliṅ
 0;85.7373,27.8438;NP-3;Bagmati Province;Selāṅbāri̇̄
 0;85.7348,27.8084;NP-3;Bagmati Province;Bhusluṅ
@@ -77727,7 +77573,6 @@
 0;86.0781,27.8465;NP-3;Bagmati Province;Koyān
 0;86.0525,27.8535;NP-3;Bagmati Province;Māsiṅ
 0;86.1491,27.7352;NP-3;Bagmati Province;Gogane
-0;85.8396,27.5100;NP-3;Bagmati Province;Sā̃guṭār
 0;86.0236,27.8343;NP-3;Bagmati Province;Kāpthāṅ
 0;85.6097,27.8515;NP-3;Bagmati Province;Ḍablyāṅ
 0;85.6088,27.8367;NP-3;Bagmati Province;Syāṅboṭol
@@ -77739,7 +77584,6 @@
 0;86.0957,27.8221;NP-3;Bagmati Province;Sāṅwā
 0;85.7402,27.5955;NP-3;Bagmati Province;Kolāti
 0;85.8118,27.5316;NP-3;Bagmati Province;Mādan Kunḍāri̇̄
-0;85.8558,27.5078;NP-3;Bagmati Province;Swā̃ye
 0;86.1711,27.6425;NP-3;Bagmati Province;Phāplu
 0;86.1998,27.6389;NP-3;Bagmati Province;Kalaṅ
 0;86.1918,27.7998;NP-3;Bagmati Province;Sasliṅ
@@ -77752,7 +77596,6 @@
 0;86.2367,27.7333;NP-3;Bagmati Province;Dordiṅ
 0;86.2073,27.7228;NP-3;Bagmati Province;Jhyāṅmāriṅ
 0;86.2091,27.7971;NP-3;Bagmati Province;Kurlāṅ
-0;85.8701,27.5331;NP-3;Bagmati Province;Pai̇̃yāpāni̇̄
 0;86.1969,27.7273;NP-3;Bagmati Province;Gorpāṅ
 0;86.1671,27.7490;NP-3;Bagmati Province;Molduṅ
 0;86.1792,27.7152;NP-3;Bagmati Province;Purāngāũ
@@ -77782,7 +77625,6 @@
 0;85.8766,27.8714;NP-3;Bagmati Province;Huṇḍuṅ
 0;86.1587,27.7668;NP-3;Bagmati Province;Nāṅpol
 0;86.1663,27.7676;NP-3;Bagmati Province;Buluṅsi̇̄
-0;85.6299,27.5099;NP-3;Bagmati Province;Syā̃le
 0;85.8870,27.8777;NP-3;Bagmati Province;Pāṅlāṅ
 0;85.8924,27.8751;NP-3;Bagmati Province;Ṭyāṅthali̇̄
 0;85.6178,27.5437;NP-3;Bagmati Province;Dhwākoṭe
@@ -77806,7 +77648,6 @@
 0;85.8922,27.8298;NP-3;Bagmati Province;Sotāṅ
 0;85.5278,27.4479;NP-3;Bagmati Province;Phalā̃ṭe
 0;85.8750,27.8422;NP-3;Bagmati Province;Khannebās
-0;85.5289,27.3960;NP-3;Bagmati Province;Bā̃sghāri̇̄
 0;85.8515,27.8323;NP-3;Bagmati Province;Ḍā̃ḍāgāũ
 0;85.7502,27.8511;NP-3;Bagmati Province;Selāṅ
 0;85.7543,27.8204;NP-3;Bagmati Province;Rāṅtāṅ
@@ -77815,9 +77656,7 @@
 0;85.7939,27.8130;NP-3;Bagmati Province;Dāmsiṅ
 0;85.5011,27.5203;NP-3;Bagmati Province;Lavsi̇̄boṭ
 0;85.8242,27.7827;NP-3;Bagmati Province;Byā̃se
-0;85.8195,27.7775;NP-3;Bagmati Province;Mā̃khā
 0;85.8639,27.8152;NP-3;Bagmati Province;Khipiṅ
-0;85.8722,27.8108;NP-3;Bagmati Province;Māneswā̃rā
 0;85.5937,27.5637;NP-3;Bagmati Province;Kapreḍhuṅgā
 0;85.8815,27.7984;NP-3;Bagmati Province;Sunkhāni̇̄
 0;85.8908,27.8189;NP-3;Bagmati Province;Khorāṅ
@@ -77825,8 +77664,6 @@
 0;85.5126,27.5658;NP-3;Bagmati Province;Chyānchaur
 0;85.9601,27.5544;NP-3;Bagmati Province;Kholākharka
 0;85.7786,27.4983;NP-3;Bagmati Province;Chāpākuri̇̄
-0;85.8223,27.4875;NP-3;Bagmati Province;Bhwā̃sā
-0;85.8260,27.4712;NP-3;Bagmati Province;Dā̃se
 0;85.5699,27.5800;NP-3;Bagmati Province;Aṅdheri̇̄
 0;85.5646,27.5903;NP-3;Bagmati Province;Okharbhoṭ
 0;85.6002,27.4861;NP-3;Bagmati Province;Masarā̃gi̇̄gāũ
@@ -77834,7 +77671,6 @@
 0;85.9887,27.7961;NP-3;Bagmati Province;Chyāṅarsā
 0;85.7131,27.6365;NP-3;Bagmati Province;Sunkoshi̇̄
 0;85.7742,27.4343;NP-3;Bagmati Province;Chyā̃khle
-0;85.6022,27.4402;NP-3;Bagmati Province;Bā̃sghāri̇̄
 0;85.6144,27.4914;NP-3;Bagmati Province;Sā̃jhakoṭ
 0;85.7394,27.6600;NP-3;Bagmati Province;Sāpiṅ
 0;85.8512,27.5426;NP-3;Bagmati Province;Ḍhā̃ḍe Kāmāgāũ
@@ -77872,7 +77708,6 @@
 0;85.6476,27.3680;NP-3;Bagmati Province;Tilbāri̇̄
 0;86.2835,27.7704;NP-3;Bagmati Province;Ṭokdiṅ
 0;85.5131,27.3728;NP-3;Bagmati Province;Sālmechākal
-0;85.5757,27.3580;NP-3;Bagmati Province;Ṭhuṭeā̃p
 0;85.5662,27.3665;NP-3;Bagmati Province;Āruboṭo
 0;86.3621,27.9070;NP-3;Bagmati Province;Rāmdiṅ
 0;85.6033,27.3643;NP-3;Bagmati Province;Bolboṭ
@@ -77900,7 +77735,6 @@
 0;85.7975,27.6740;NP-3;Bagmati Province;Chinne Lahareṭol
 0;85.7928,27.6699;NP-3;Bagmati Province;Titre Bhaṇḍāri̇̄gāũ
 0;85.7683,27.6595;NP-3;Bagmati Province;Sāpiṅ
-0;85.6340,27.4976;NP-3;Bagmati Province;Limbāḍā̃ḍā
 0;85.9304,27.5841;NP-3;Bagmati Province;Gauswā̃rā
 0;85.8654,27.7012;NP-3;Bagmati Province;Bārgāṅ
 0;86.3148,27.5179;NP-3;Bagmati Province;Lūkhigāũ
@@ -77909,8 +77743,6 @@
 0;85.8351,27.6508;NP-3;Bagmati Province;Nārgāṅ
 0;86.3371,27.5383;NP-3;Bagmati Province;Ekāṅ
 0;86.3451,27.5068;NP-1;Koshi;Jyāṅdalu
-0;85.8862,27.6222;NP-3;Bagmati Province;Ḍā̃se
-0;85.9360,27.5873;NP-3;Bagmati Province;Kā̃krābāri̇̄
 0;85.9654,27.5892;NP-3;Bagmati Province;Phalā̃ṭe
 0;86.3685,27.5269;NP-1;Koshi;Buṅdel
 0;85.9584,27.6060;NP-3;Bagmati Province;Kā̃ḍe
@@ -77956,7 +77788,6 @@
 0;86.3256,27.6545;NP-3;Bagmati Province;Garjaṅ
 0;86.3234,27.6617;NP-3;Bagmati Province;Buluṅ
 0;86.3246,27.6693;NP-3;Bagmati Province;Siṅbā
-0;85.8918,27.2488;NP-3;Bagmati Province;Khaṭṭā̃r
 0;85.8894,27.2411;NP-3;Bagmati Province;Sāṅwāle
 0;85.9001,27.2308;NP-3;Bagmati Province;Ā̃sumati̇̄ṭol
 0;85.9250,27.2487;NP-3;Bagmati Province;Chainpur
@@ -77968,20 +77799,15 @@
 0;86.4568,27.5929;NP-1;Koshi;Ṭhemjen
 0;86.4514,27.6694;NP-3;Bagmati Province;Ragaṅ
 0;86.0155,27.6133;NP-3;Bagmati Province;Guruṅgāũ
-0;85.9097,27.4972;NP-3;Bagmati Province;Jā̃te
 0;85.9243,27.4851;NP-3;Bagmati Province;Tālḍuṅ
 0;85.9711,27.4518;NP-3;Bagmati Province;Gāgalṭār
 0;85.9317,27.4318;NP-3;Bagmati Province;Ānpchaur
-0;85.9065,27.4291;NP-3;Bagmati Province;Jhā̃kri̇̄ṭol
-0;85.8894,27.4623;NP-3;Bagmati Province;Sā̃ṅchā
 0;85.8804,27.3965;NP-3;Bagmati Province;Tāmliṅ
 0;85.9482,27.4032;NP-3;Bagmati Province;Sā̃di̇̄kholāgāũ
-0;85.9359,27.3907;NP-3;Bagmati Province;Palā̃se
 0;85.9026,27.3915;NP-3;Bagmati Province;Nayā̃chhāp
 0;85.8986,27.3864;NP-3;Bagmati Province;Bhañjyāṅ
 0;86.0615,27.6140;NP-3;Bagmati Province;Guruṅgāũ
 0;85.9027,27.2134;NP-3;Bagmati Province;Chisāni̇̄jhorā
-0;85.8984,27.2230;NP-3;Bagmati Province;Gaiyā̃ṭār
 0;86.0050,27.5106;NP-3;Bagmati Province;Pākhye
 0;85.7179,27.4283;NP-3;Bagmati Province;Merpā
 0;85.7458,27.4171;NP-3;Bagmati Province;Rāmriṅ
@@ -77989,7 +77815,6 @@
 0;85.6343,27.4010;NP-3;Bagmati Province;Bhaṅṭār
 0;85.6524,27.4041;NP-3;Bagmati Province;Rāṅge Bhañjyāṅ
 0;85.7097,27.3782;NP-3;Bagmati Province;Siṅpāl
-0;85.5256,27.0972;NP-2;Madhesh;Nayā̃roḍ
 0;85.5823,27.0928;NP-2;Madhesh;Ḍā̃geṭol
 0;85.5906,27.0651;NP-2;Madhesh;Nawalpur Bajārṭol
 0;85.5893,27.0545;NP-2;Madhesh;Kālikābasti̇̄
@@ -78222,7 +78047,6 @@
 0;86.3210,27.0695;NP-3;Bagmati Province;Ghyāṅsiṅṭār
 0;85.4635,27.2665;NP-3;Bagmati Province;Karanuje
 0;85.3293,27.3874;NP-3;Bagmati Province;Damdamān
-0;85.3078,27.3957;NP-3;Bagmati Province;Nārpāḍā̃ḍā
 0;85.3405,27.3945;NP-3;Bagmati Province;Ḍā̃ḍāgāũ
 0;85.3695,27.4271;NP-3;Bagmati Province;Bā̃hāgāũ
 0;85.4031,27.4859;NP-3;Bagmati Province;Lāmrāṅ
@@ -78250,12 +78074,9 @@
 0;84.9980,27.1140;NP-2;Madhesh;Khesaraul
 0;85.0339,27.1006;NP-2;Madhesh;Sakhui̇̄
 0;85.1729,27.2605;NP-3;Bagmati Province;Keluṅ
-0;85.0487,27.0899;NP-2;Madhesh;Dhõdhā
 0;85.1940,27.2899;NP-3;Bagmati Province;Ãdheri̇̄
-0;85.1280,27.0368;NP-2;Madhesh;Bārā Bajār
 0;85.1347,27.0017;NP-2;Madhesh;Sipurā
 0;85.1720,27.0096;NP-2;Madhesh;Siṁhāsini̇̄
-0;85.0212,27.0529;NP-2;Madhesh;Pakaḍi̇̄ṭolā
 0;85.2032,27.0319;NP-2;Madhesh;Bijaypur Bajār
 0;85.1269,27.2547;NP-2;Madhesh;Buṅjor
 0;85.1463,27.2721;NP-2;Madhesh;Lāmrāṅ
@@ -78644,7 +78465,6 @@
 0;84.8610,27.7788;NP-3;Bagmati Province;Koṭgāũ
 0;84.8325,27.7852;NP-3;Bagmati Province;Ā̃pṭār
 0;84.8310,27.7701;NP-3;Bagmati Province;Chhepāṅ
-0;84.8262,27.7655;NP-3;Bagmati Province;Chhepaṅ
 0;84.8155,27.7785;NP-3;Bagmati Province;Iraṅṭār
 0;84.8136,27.7692;NP-3;Bagmati Province;Rudiṅ
 0;84.8222,27.7860;NP-3;Bagmati Province;Chhipi̇̄gāũ
@@ -78671,7 +78491,6 @@
 0;84.7490,27.8118;NP-4;Gandaki Pradesh;Belḍā̃ḍā
 0;84.8221,27.7479;NP-3;Bagmati Province;Chhāpḍā̃ḍā
 0;84.9333,26.9766;NP-2;Madhesh;Nayā̃ṭoli̇̄
-0;85.1232,26.9658;NP-2;Madhesh;Nayakāṭolā
 0;85.1375,26.9015;NP-2;Madhesh;Ṭhūlo Iṭawāl
 0;85.1661,26.8817;NP-2;Madhesh;Ṭhūlo Basbari̇̄yā
 0;85.1958,26.9562;NP-2;Madhesh;Shitalpur
@@ -79412,7 +79231,6 @@
 0;82.8268,27.8549;NP-5;Lumbini Province;Raṅle
 0;82.8674,27.7989;NP-5;Lumbini Province;Raṅsiṅ
 0;82.8713,27.8022;NP-5;Lumbini Province;Belṭār
-0;82.7486,27.6301;NP-5;Lumbini Province;Shri Rāmpur
 0;86.8737,26.5845;NP-2;Madhesh;Trikaul Goitāhi̇̄
 0;86.7553,26.5747;NP-2;Madhesh;Dhurgāũ
 0;83.0307,27.9691;NP-5;Lumbini Province;Asārḍā̃ḍā
@@ -79547,7 +79365,6 @@
 0;83.6304,27.8922;NP-5;Lumbini Province;Maleṅ
 0;83.6262,27.8937;NP-5;Lumbini Province;Tikhuṅ
 0;83.6302,27.8818;NP-5;Lumbini Province;Pāleṅban
-0;83.6408,27.8850;NP-5;Lumbini Province;Sorhabisephā̃ṭ
 0;83.6621,27.8872;NP-5;Lumbini Province;Sejugāũ
 0;83.6878,27.8841;NP-5;Lumbini Province;Tuleḍā̃ḍā
 0;83.7219,27.8818;NP-5;Lumbini Province;Maslāṅ
@@ -79670,7 +79487,6 @@
 0;83.9190,27.7870;NP-5;Lumbini Province;Gajeḍā̃ḍā
 0;83.9301,27.7510;NP-5;Lumbini Province;Thuṅsiṅḍā̃ḍā
 0;83.9643,27.7581;NP-5;Lumbini Province;Dunḍā̃ḍā
-0;83.9674,27.7533;NP-5;Lumbini Province;Dhākrebās
 0;83.9700,27.7562;NP-5;Lumbini Province;Satwār
 0;83.9541,27.7828;NP-5;Lumbini Province;Kyāṅruṅ
 0;83.9769,27.7924;NP-5;Lumbini Province;Bhāṅbāṅ
@@ -79722,7 +79538,6 @@
 0;87.9167,26.9336;NP-1;Koshi;Ḍā̃ḍāgāũ
 0;87.9196,26.8947;NP-1;Koshi;Bisṭagāũ
 0;87.9501,26.8849;NP-1;Koshi;Māi̇̄besi̇̄
-0;87.9567,26.8887;NP-1;Koshi;Māi̇̄beni̇̄ghāṭ
 0;87.9629,26.8937;NP-1;Koshi;Gaḍḍiḍā̃ḍā
 0;87.9771,26.9159;NP-1;Koshi;Ḍā̃ḍāgāũ
 0;87.9631,26.9112;NP-1;Koshi;Tāmāṅgāũ
@@ -81931,7 +81746,6 @@
 0;82.0129,28.6341;NP-6;Karnali Pradesh;Kā̃ḍā
 0;82.0170,28.6275;NP-6;Karnali Pradesh;Gureṭhā̃ṭi̇̄
 0;82.0206,28.6268;NP-6;Karnali Pradesh;Rokāyā̃
-0;82.0571,28.6428;NP-6;Karnali Pradesh;Kuṇḍika
 0;82.0606,28.6878;NP-6;Karnali Pradesh;Kolḍā̃ḍā
 0;82.0496,28.6949;NP-6;Karnali Pradesh;Kāptolā
 0;82.0725,28.6998;NP-6;Karnali Pradesh;Kā̃ḍāsoti̇̄
@@ -82159,7 +81973,6 @@
 0;82.5197,28.5766;NP-6;Karnali Pradesh;Liurḍā̃ḍā
 0;82.5312,28.5905;NP-6;Karnali Pradesh;Kā̃subāṅ
 0;82.5188,28.5727;NP-6;Karnali Pradesh;Luir
-0;82.5294,28.5662;NP-6;Karnali Pradesh;Pākhāpāni̇̄
 0;82.5515,28.5566;NP-5;Lumbini Province;Karkaḍerā
 0;82.5432,28.5534;NP-5;Lumbini Province;Ḍā̃ḍā
 0;82.5085,28.5482;NP-5;Lumbini Province;Buṅjelḍā̃ḍā
@@ -82657,7 +82470,6 @@
 0;84.8989,27.5728;NP-3;Bagmati Province;Khāni̇̄ḍā̃ḍā
 0;84.9045,27.5485;NP-3;Bagmati Province;Chhāpḍā̃ḍā
 0;84.9136,27.5439;NP-3;Bagmati Province;Syānsi̇̄rāṅḍā̃ḍā
-0;84.9171,27.5800;NP-3;Bagmati Province;Nākchheḍā
 0;84.9180,27.5970;NP-3;Bagmati Province;Jā̃teṭār
 0;84.9268,27.5867;NP-3;Bagmati Province;Khirki̇̄
 0;84.9361,27.5976;NP-3;Bagmati Province;Devi̇̄ḍā̃ḍā

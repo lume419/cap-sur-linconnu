@@ -68,6 +68,10 @@ app.use(function(req, res, next){
 // Limitation de débit en mémoire, par IP et par famille de routes (fenêtre glissante d'une minute) : empêche qu'un seul
 // client sature le moteur (tirages synchrones) ou fasse bannir le serveur par Overpass, Wikipédia ou Visorando.
 // search-city : 180 -> 60/min (audit du 17/09/2026) — la saisie côté client est temporisée, 60 suffit largement.
+// Requête lancée depuis une page d'un AUTRE site (en-tête posé par le navigateur, qu'une page ne peut pas modifier).
+// Comparaison insensible à la casse et blancs coupés : la valeur d'un en-tête n'est pas normalisée par Node, et un
+// client qui vise le contournement choisit son écriture. Un client qui n'envoie pas l'en-tête n'est jamais concerné.
+function estCrossSite(req){ return String(req.get('Sec-Fetch-Site') || '').trim().toLowerCase() === 'cross-site'; }
 const RATE_LIMITS = [
   { prefix: '/api/search-city', max: 60 },
   { prefix: '/api/generate-trip', max: 20 },
@@ -96,7 +100,7 @@ app.use('/api/', function(req, res, next){
   // pas normalisée par Node, « Cross-Site » ou « cross-site » (avec une espace de tête) passaient à travers alors que
   // la RFC 6265bis/Fetch les décrit comme le même jeton. Les navigateurs écrivent bien « cross-site » en minuscules,
   // mais un client qui vise le contournement, lui, choisit son écriture.
-  if(String(req.get('Sec-Fetch-Site') || '').trim().toLowerCase() === 'cross-site') return res.status(403).json({ error: 'cross-site request' });
+  if(estCrossSite(req)) return res.status(403).json({ error: 'cross-site request' });
   const p = ('/api/' + req.path).toLowerCase().replace(/\/{2,}/g, '/');
   const rule = RATE_LIMITS.find(r => p.startsWith(r.prefix)) || RATE_LIMITS[RATE_LIMITS.length - 1];
   // IP (vérifié le 17/09/2026) : avec « trust proxy 1 », req.ip est la dernière adresse de X-Forwarded-For, celle
@@ -293,6 +297,15 @@ function cpuBudgetIpOf(req){ return req.ip || 'inconnu'; }
 function cpuBudgetCharge(req, ms){
   cpuBudgetAdd(ms);
   cpuBudgetIpAdd(cpuBudgetIpOf(req), ms);
+}
+// Export PDF : le travail se fait dans un FIL, qui ne bloque pas la boucle d'événements de ce processus (19e audit
+// du 21/09/2026). Deux durées, deux budgets : l'adresse demandeuse paie tout ce qui a été calculé pour elle (`ms`),
+// le budget GLOBAL du site ne reçoit que ce que le processus a réellement passé à travailler (`msProcessus`, non nul
+// seulement en repli). Auparavant, un fil qui ne répondait plus imputait jusqu'à 15 000 ms au budget global —
+// 60 % des 25 000 ms par minute de tout le site — pour un export qui n'avait bloqué personne.
+function cpuBudgetChargeExport(req, ms, msProcessus){
+  if(ms > 0) cpuBudgetIpAdd(cpuBudgetIpOf(req), ms);
+  if(msProcessus > 0) cpuBudgetAdd(msProcessus);
 }
 // Contrôle du budget de l'IP seule (recherche de ville : quelques ms, jamais refusée pour cause de charge des autres).
 function cpuBudgetIpGuard(req, res, next){
@@ -1703,7 +1716,7 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: PDF_MAX_BODY }
   } catch(err){
     // Temps déjà dépensé avant l'échec (fil expiré, fil mort en cours de route) : imputé quand même, sinon un
     // export qui échoue serait gratuit — et c'est justement le chemin qu'emprunte un abus (18e audit).
-    if(err && err.msDépensé > 0) cpuBudgetCharge(req, err.msDépensé);
+    if(err && (err.msDépensé > 0 || err.msProcessus > 0)) cpuBudgetChargeExport(req, err.msDépensé || 0, err.msProcessus || 0);
     // File pleine : le service refuse tout de suite plutôt que d'accepter un travail qu'il ne tiendra pas. Même
     // réponse que le créneau d'export déjà pris.
     if(err && err.busy) return sendBusy(res, 2);
@@ -1715,9 +1728,9 @@ app.post('/api/export-pdf', cpuBudgetGuard, express.json({ limit: PDF_MAX_BODY }
     return fail(503, { error: 'pdf unavailable' });
   }
   if(resultat.erreur) console.warn('[export-pdf] erreur de mise en page :', typeof resultat.erreur === 'string' ? resultat.erreur : pdfErrorKind(resultat.erreur));
-  // Temps de calcul RÉELLEMENT dépensé (fil et repli additionnés) imputé au quota de l'adresse demandeuse :
-  // déporter le travail ne doit pas le rendre gratuit.
-  cpuBudgetCharge(req, resultat.ms);
+  // Temps de calcul RÉELLEMENT dépensé (fil et repli additionnés) imputé au quota de l'adresse demandeuse ;
+  // seule la part passée DANS CE PROCESSUS pèse sur le budget global (voir cpuBudgetChargeExport).
+  cpuBudgetChargeExport(req, resultat.ms, resultat.msProcessus || 0);
   // Calcul terminé : il ne reste que l'envoi, qui ne coûte pas de calcul. Le créneau est rendu tout de suite.
   if(res.locals.releasePdfSlot) res.locals.releasePdfSlot();
   // Travail abandonné parce que le demandeur était parti : il n'y a plus personne à qui répondre.
@@ -2002,17 +2015,25 @@ const SEARCH_BUDGET_MIN_MS = 50;
 // calcul, alors que c'est lui qui protège le processus. Les millisecondes sous le seuil s'additionnent maintenant par
 // adresse et sont imputées dès qu'elles franchissent SEARCH_BUDGET_MIN_MS : le total facturé est le même qu'avec des
 // recherches longues, et une recherche ordinaire isolée continue de ne rien peser. La table est bornée à
-// SEARCH_CRUMBS_MAX adresses : au-delà, la plus anciennement insérée sort, ce qui offre au plus 50 ms à celui qui
-// reviendrait après avoir été évincé — sans horloge ni balayage supplémentaires.
+// SEARCH_CRUMBS_MAX adresses ET PURGÉE CHAQUE MINUTE (19e audit du 21/09/2026) : c'était la seule table par adresse
+// du fichier sans purge horaire, si bien qu'une adresse pouvait y rester toute la vie du processus — en contradiction
+// directe avec ce que la politique de confidentialité affiche (« ces compteurs portent sur la dernière minute […]
+// une adresse IP peut rester en mémoire jusqu'à environ deux minutes après votre dernière requête »).
 const searchCrumbs = new Map();
 const SEARCH_CRUMBS_MAX = 20000;
+setInterval(function(){
+  const limite = Date.now() - 60000;
+  for(const [ip, e] of searchCrumbs){ if(e.t < limite) searchCrumbs.delete(ip); }
+}, 60000).unref();
 function chargeSearchMs(req, ms){
   if(ms > SEARCH_BUDGET_MIN_MS) return cpuBudgetCharge(req, ms);
   const ip = cpuBudgetIpOf(req);
-  const cumul = (searchCrumbs.get(ip) || 0) + ms;
+  const maintenant = Date.now();
+  const e = searchCrumbs.get(ip);
+  const cumul = (e && maintenant - e.t <= 60000 ? e.ms : 0) + ms;
   if(cumul > SEARCH_BUDGET_MIN_MS){ searchCrumbs.delete(ip); return cpuBudgetCharge(req, cumul); }
   if(searchCrumbs.size >= SEARCH_CRUMBS_MAX && !searchCrumbs.has(ip)) searchCrumbs.delete(searchCrumbs.keys().next().value);
-  searchCrumbs.set(ip, cumul);
+  searchCrumbs.set(ip, { t: maintenant, ms: cumul });
 }
 // Cache des résultats de recherche (10e audit du 18/09/2026) : une recherche courte et fréquente (« san » avec le pays
 // US, « sant » avec FR) coûte jusqu'à 1 s ; une trentaine d'appels venus d'adresses différentes suffisaient à épuiser
@@ -2169,14 +2190,20 @@ engineStartup.then(precompressStaticFiles).catch(function(err){ console.warn('[p
 // autant de fois qu'il voulait. 30 requêtes par minute et par IP sur ces fichiers, bien au-delà d'un usage réel (le
 // navigateur les met en cache et les revalide).
 // 18e audit du 21/09/2026 : le quota comptait des REQUÊTES, pas des octets — les quatre fichiers visés vont de 6 ko
-// (style.css) à 11 Mo (i18n.js non compressé), et les mêmes 30 requêtes valaient donc 0,2 Mo ou 330 Mo selon celui
-// qu'on demandait. Un plafond d'octets par minute et par adresse s'y ajoute, réglé assez haut pour qu'aucun
-// navigateur ne l'atteigne : une page complète tire environ 1,2 Mo compressés, soit plus de cent chargements par
-// minute avant d'y toucher, mais seulement dix-huit lectures d'i18n.js non compressé. Les 304 de revalidation ne
+// (style.css, 70 513 octets non compressés, 18 343 en brotli) à 11 Mo (i18n.js non compressé), et les mêmes
+// 30 requêtes valaient donc 0,5 Mo ou 330 Mo selon celui qu'on demandait. Un plafond d'octets par minute et par
+// adresse s'y ajoute, réglé assez haut pour qu'aucun navigateur ne l'atteigne : une page complète tire environ
+// 1,2 Mo compressés, soit plus de cent chargements par minute avant d'y toucher, mais seulement vingt lectures
+// d'i18n.js non compressé (mesuré au 19e audit : 20 lectures, 224,0 Mio, avant le premier 429). Les 304 de revalidation ne
 // portent aucun octet et ne comptent donc ni en requêtes (déjà le cas) ni en octets.
 const BIG_STATIC_RE = /^\/(js\/(i18n|trip-data|app)\.js|css\/style\.css)$/;
 const bigStaticHits = new Map();
-const BIG_STATIC_BYTES_MAX = 220 * 1024 * 1024; // par minute et par adresse
+// Par minute et par adresse. Réglable par l'environnement UNIQUEMENT pour les tests : sans cela, éprouver ce plafond
+// demande d'envoyer 220 Mo (19e audit du 21/09/2026).
+const BIG_STATIC_BYTES_MAX = (function(){
+  const v = parseInt(process.env.BIG_STATIC_BYTES_MAX, 10);
+  return (isFinite(v) && v >= 65536 && v <= 4 * 1024 * 1024 * 1024) ? v : 220 * 1024 * 1024;
+})();
 const bigStaticBytes = new Map();
 setInterval(function(){
   const now = Date.now();
@@ -2187,6 +2214,13 @@ setInterval(function(){
 // « /js//i18n.js » ou « /css/../js/i18n.js » échappaient au quota, puis express.static les servait quand même.
 app.use(function(req, res, next){
   if(!BIG_STATIC_RE.test((req.normPath || req.path).toLowerCase())) return next();
+  // Même contrôle d'origine que sur /api/ (19e audit du 21/09/2026). Le raisonnement du 11e audit — « une page tierce
+  // pouvait faire lancer des requêtes par les navigateurs de ses visiteurs » — vaut mot pour mot ici, et le quota de
+  // ces quatre fichiers est ce qui rend le SITE ENTIER inutilisable quand il est épuisé : trente balises
+  // « <img src="…/css/style.css?1"> » sur une page tierce suffisaient à faire répondre 429 à la feuille de style et
+  // aux trois scripts pendant une minute, pour 537 ko envoyés. Mesuré au 19e audit ; l'accueil se chargeait encore,
+  // mais sans style ni code. Aucun usage légitime n'existe : ces fichiers ne servent qu'aux pages du site lui-même.
+  if(estCrossSite(req)) return res.status(403).type('text/plain').send('Cross-site request');
   const ip = req.ip || 'inconnu';
   const now = Date.now();
   let hits = bigStaticHits.get(ip);
@@ -2202,15 +2236,21 @@ app.use(function(req, res, next){
   // Revalidation (304, aucun octet de contenu) : décomptée (11e audit du 19/09/2026) — chaque chargement de page comptait
   // 4 fichiers même en 304, et au 8e chargement dans la minute i18n.js répondait 429 : le site ne marchait plus, plus
   // vite encore derrière une adresse partagée (entreprise, école, opérateur mobile).
-  res.on('finish', function(){
-    if(res.statusCode === 304){
+  // Octets RÉELLEMENT écrits sur la socket, relevés à la FERMETURE de la réponse (19e audit du 21/09/2026).
+  // Auparavant : Content-Length relevé sur « finish ». Deux trous, mesurés : « finish » ne se déclenche PAS sur une
+  // réponse que le client interrompt, si bien que le compteur restait à zéro — 30 coupures à 10 Mio tiraient 301,9 Mio
+  // en une minute contre 224,0 Mio pour un client honnête, le plafond ne mordant que sur ce dernier ; et une requête
+  // HEAD, qui n'envoie aucun corps, comptait l'entièreté du Content-Length. Les réponses d'une même connexion étant
+  // sérialisées, l'écart de `bytesWritten` de la socket entre le début et la fin de CETTE réponse est bien la sienne.
+  const socket = res.socket;
+  const octetsDébut = socket ? socket.bytesWritten : 0;
+  res.on('close', function(){
+    if(res.statusCode === 304 && res.writableEnded){
       const i = hits.lastIndexOf(now);
       if(i >= 0) hits.splice(i, 1);
-      return;
+      return; // revalidation : aucun octet de contenu, ni requête ni octets décomptés
     }
-    // Octets réellement servis : Content-Length quand il est posé (express.static le pose toujours), sinon rien —
-    // mieux vaut ne rien compter qu'un chiffre inventé.
-    const n = Number(res.getHeader('Content-Length'));
+    const n = socket ? socket.bytesWritten - octetsDébut : 0;
     if(isFinite(n) && n > 0) octets.n += n;
   });
   next();
@@ -2320,11 +2360,18 @@ let shuttingDown = false;
     if(shuttingDown) return process.exit(0);
     shuttingDown = true;
     console.log('[serveur] ' + sig + ' : arrêt en cours…');
-    // Fil de l'export arrêté avec le serveur : sans cela il survivrait à la fermeture (et les tests laisseraient
-    // des fils derrière eux).
-    Promise.resolve(PdfService.stop()).catch(function(){});
-    httpServer.close(function(){ process.exit(0); });
-    setTimeout(function(){ process.exit(0); }, 10000).unref(); // filet : connexions gardées ouvertes
+    // ORDRE (19e audit du 21/09/2026) : on ferme d'abord l'écoute — plus aucune nouvelle requête n'entre, les
+    // réponses en cours vont au bout —, et on n'arrête le fil de l'export QU'ENSUITE. L'ordre inverse rejetait
+    // l'export en cours avec un 503 « busy » à chaque redéploiement, c'est-à-dire exactement le cas que le
+    // commentaire ci-dessus dit avoir corrigé. Le fil est de toute façon arrêté par le filet de 10 s, et `unref` sur
+    // le fil au repos l'empêche déjà de retenir le processus.
+    httpServer.close(function(){
+      Promise.resolve(PdfService.stop()).catch(function(){}).then(function(){ process.exit(0); });
+    });
+    setTimeout(function(){
+      Promise.resolve(PdfService.stop()).catch(function(){});
+      process.exit(0);
+    }, 10000).unref(); // filet : connexions gardées ouvertes
   });
 });
 // Une promesse rejetée sans catch termine le process sous Node 20+ : le serveur repartait de zéro (~40 s de chargement)

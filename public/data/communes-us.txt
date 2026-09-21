@@ -105934,7 +105934,6 @@
 0;-76.8622,43.0276;14433;New York;Angells Corner
 0;-79.0984,42.6181;14061;New York;Angola Lake Shore Addition
 1675;-79.0489,42.6548;14006;New York;Angola on the Lake
-0;-79.0548,42.6503;14006;New York;Angola-on-the-Lake
 0;-76.9727,42.7348;14415;New York;Angus
 0;-73.9082,42.0129;12504;New York;Annandale-on-Hudson
 0;-73.9279,41.3076;10566;New York;Annsville
@@ -134404,7 +134403,6 @@
 4258;-106.6392,31.8559;79932;New Mexico;Santa Teresa
 2456;-106.3659,35.5148;87052;New Mexico;Santo Domingo Pueblo
 0;-106.0628,35.9978;87533;New Mexico;Santo Nino
-0;-106.0634,36.0028;87533;New Mexico;Santo Niño
 0;-106.7461,32.1818;88058;New Mexico;Santo Tomas
 0;-105.2533,35.7728;87742;New Mexico;Sapello
 0;-104.4994,36.6389;87728;New Mexico;Schomberg

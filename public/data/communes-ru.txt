@@ -42490,7 +42490,6 @@
 0;57.3227,51.5274;462223;Orenburg Oblast;Biskuzha
 0;47.3409,58.7176;612032;Kirov Oblast;Nizhnyaya Berëzovka
 0;42.6135,55.7152;607249;Nizhny Novgorod Oblast;Berëzovka
-0;57.2336,60.9901;628140;Perm Krai;Berezovo
 0;39.9169,51.9443;396118;Voronezh Oblast;Nizhnyaya Baygora
 0;35.5829,52.7950;309095;Oryol oblast;Nizhnyaya Bayevka
 0;58.4269,52.9017;453642;Bashkortostan Republic;Bol’shebasayevo
@@ -52778,6 +52777,7 @@
 0;35.2507,58.4013;602342;Novgorod Oblast;Lisichikha
 0;34.7152,57.9666;171080;Tver Oblast;Lishutino
 0;38.5205,54.4160;216467;Moscow Oblast;Lishnyagi
+0;35.0000,58.0000;188283;Tver Oblast;Lishneva
 0;30.1817,58.0921;175031;Novgorod Oblast;Lishki
 0;37.2702,56.3582;172712;Moscow Oblast;Lishenino
 0;39.2856,45.6708;352741;Krasnodar Krai;Lisetskiy
@@ -59096,6 +59096,7 @@
 0;36.5835,58.2039;171684;Tver Oblast;Kosovo
 0;36.9368,58.0864;171652;Tver Oblast;Kasovo
 0;35.7824,54.9364;249950;Kaluga Oblast;Kosovo
+0;41.0000,48.0000;347012;Rostov;Kosov
 0;36.7596,52.0984;306520;Kursk Oblast;Kosorzha
 0;37.2666,51.9956;306454;Kursk Oblast;Kosorzha
 0;41.1000,52.5333;392533;Tambov Oblast;Kosorylovka
@@ -81416,6 +81417,7 @@
 0;28.0194,57.6467;181512;Pskov Oblast;Bob’yakovo
 0;36.4335,51.2096;306220;Kursk Oblast;Bobryshevo
 0;27.5667,57.6500;181513;Pskov Oblast;Bobry
+0;29.0000,57.0000;181370;Pskov Oblast;Bobry
 0;33.5844,56.6531;172232;Tver Oblast;Bobry
 0;35.4156,55.5182;141532;Moscow Oblast;Bobry
 0;40.4729,55.3593;391655;Vladimir Oblast;Bobry
@@ -81567,7 +81569,6 @@
 0;43.0703,48.4189;404445;Volgograd Oblast;Blizhnepodgorskiy
 3156;42.1015,55.3456;607044;Nizhny Novgorod Oblast;Blizhne-Pesochnoye
 0;43.0359,48.5265;404443;Volgograd Oblast;Blizhneosinovskiy
-0;43.0631,48.4378;404445;Volgograd Oblast;Blizhnemel’nichnyy
 0;36.6223,56.8274;170505;Tver Oblast;Blizhneye Khoroshovo
 0;38.8510,50.6926;309826;Belgorod Oblast;Blizhneye Chesnochnoye
 0;43.9330,56.1882;607687;Nizhny Novgorod Oblast;Blizhneye Borisovo
@@ -87309,6 +87310,7 @@
 0;51.4053,54.9057;423119;Tatarstan Republic;Akkireyevo
 1264;58.2391,51.2467;462371;Orenburg Oblast;Staraya Akkermanovka
 0;37.6806,45.0098;353342;Krasnodar Krai;Akkermenka
+0;37.0000,56.0000;143512;Moscow Oblast;Akishino
 0;41.1500,54.9500;391334;Ryazan Oblast;Akishino
 0;35.2599,56.6439;171373;Tver Oblast;Akishevo
 0;37.3667,56.0833;141895;Moscow Oblast;Akishevo
@@ -114401,6 +114403,7 @@
 0;91.5650,55.5010;662354;Krasnoyarsk Krai;Malyye Syry
 0;79.3500,53.5833;658782;Altai Krai;Malyye Plesiki
 0;72.3667,66.1667;629752;Yamalo-Nenets;Malyye Nori
+0;61.0000,55.0000;456530;Chelyabinsk;Malyye Malyuki
 0;92.6375,54.3239;662692;Krasnoyarsk Krai;Malyye Knyshi
 0;81.6647,52.7296;658570;Altai Krai;Malyye Butyrki
 0;61.0667,56.0833;456846;Chelyabinsk;Malyye Bulzi
@@ -125377,6 +125380,7 @@
 0;107.9500,52.8000;671272;Buryatiya Republic;Gremyachinsk
 0;108.6342,50.3292;673051;Zabaykalskiy (Transbaikal) Kray;Gremyachka
 0;103.0833,53.4167;669451;Irkutsk Oblast;Grechekhon
+0;128.0000,50.0000;676966;Amur Oblast;Grazhdanovka
 0;104.2833,52.4667;664531;Irkutsk Oblast;Granovshchina
 0;131.5550,43.9089;692545;Primorye;Granatovka
 0;133.6833,45.9500;692130;Primorye;Grafskiy
@@ -128104,7 +128108,6 @@
 0;48.9556,59.1083;613610;Kirov Oblast;Baginy
 0;48.9319,59.1031;613645;Kirov Oblast;Vysokoramenskiy
 0;48.5125,59.1494;613115;Kirov Oblast;Kokyaana
-0;48.4511,59.1383;613115;Kirov Oblast;Gorevshchina
 0;48.4264,59.1700;613723;Kirov Oblast;Polomka
 0;48.2944,59.2503;613722;Kirov Oblast;Mosenki
 0;48.3475,59.3169;613722;Kirov Oblast;Abramovskaya
@@ -139735,7 +139738,6 @@
 0;44.4365,54.0026;431427;Mordoviya Republic;Ushleyka
 0;44.4986,54.0270;433733;Mordoviya Republic;Goristovka
 0;44.4562,54.0168;431900;Mordoviya Republic;Khovan’
-0;44.6439,54.0170;431472;Mordoviya Republic;Staraya Murav’yëvka
 0;44.6971,54.0386;431474;Mordoviya Republic;Russkoye Baymakovo
 0;44.7589,54.0172;431471;Mordoviya Republic;Makarovka
 0;44.8155,54.0195;431470;Mordoviya Republic;Staryy Usad
@@ -141421,7 +141423,6 @@
 0;48.7313,46.1880;416173;Astrakhan Oblast;Zelënyy Ostrov
 0;48.6921,46.1808;416173;Astrakhan Oblast;Alekseyevka
 0;48.6571,46.1879;416192;Astrakhan Oblast;Solonets
-0;48.3031,46.4934;416174;Astrakhan Oblast;Vorob’yevskiy
 0;48.4854,46.4357;416170;Astrakhan Oblast;Malyy Bugor
 0;48.4442,46.4137;368816;Astrakhan Oblast;Aktyube
 0;48.5548,46.4154;416181;Astrakhan Oblast;Paromnyy

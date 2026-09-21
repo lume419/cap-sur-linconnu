@@ -2728,10 +2728,6 @@ ko;대몰;Tae-mol
 ko;대치;Taech’i
 ko;대차촌;Taech’a-ch’on
 ko;대부리;Taebu-ri
-ko;대북포리;Pukp'o-ri
-ko;북포리;Pukp'o-ri
-zh;北浦里;Pukp'o-ri
-zh;大北浦里;Pukp'o-ri
 ko;태봉리;T’aebong-ni
 zh;台峰里;T’aebong-ni
 ko;태복부락;T’aebong-ni
@@ -12537,10 +12533,6 @@ ko;은대동;Ŭndae-dong
 ko;상승곡동;Sangsŭnggok-tong
 ko;효경골;Hyogyŏng-dong
 ko;효경동;Hyogyŏng-dong
-ko;아래되골;Sŏkch'ol-li
-ko;석촌리;Sŏkch'ol-li
-ko;석촌니;Sŏkch'ol-li
-zh;石村里;Sŏkch'ol-li
 ko;광촌동;Kwangch’on-dong
 ko;배릉골;Paerŭng-dong
 ko;배릉동;Paerŭng-dong
@@ -12835,9 +12827,6 @@ ko;색월;Sŏgwŏl-dong
 ko;무릉리;Murŭng-dong
 ko;무능동;Murŭng-dong
 ko;무능리;Murŭng-dong
-ko;비천동;Songch'ŏl-li
-ko;송천리;Songch'ŏl-li
-zh;松川里;Songch'ŏl-li
 ko;안신동;Sŏkpong-ni
 ko;석봉리;Sŏkpong-ni
 ko;반남골;Sŏmin-dong
@@ -17330,8 +17319,6 @@ ko;유곡;Yugok
 ko;유장리;Yugok
 ko;가둔리;Kadunji
 ko;유곡;Yugong-ni
-ko;하판;Sangp'al-li
-ko;상판리;Sangp'al-li
 ko;조차;Choch’a
 ko;집실동;Chipsil-tong
 ko;형제다리;Hyŏngjedari
@@ -21097,8 +21084,6 @@ ko;배덕이;Paedŏgi
 ko;단진리;Tanjil-li
 ko;뫼산단;Moesandan
 ko;상동구리;Sangdonggu-ri
-ko;차골;Ch'abo-ri
-ko;차보리;Ch'abo-ri
 ko;성남동;Sŏngnam-dong
 ko;불암;Pur-am
 ko;회골;Hoegol
@@ -21566,8 +21551,6 @@ ko;송정리상촌;Songjŏngnisang-ch’on
 ko;동춘동;Tongch'un-dong
 ko;이태리;It’ae-ri
 ko;구소;Kuso
-ko;양수평;Samp'o-ri
-ko;삼포리;Samp'o-ri
 ko;낙생리;Ŏgu-ch’on
 ko;어구촌;Ŏgu-ch’on
 ko;낙생동;Ŏgu-ch’on
@@ -22754,9 +22737,6 @@ ko;도리;Tori-gol
 ko;도리골;Tori-gol
 zh;島里;Tori-gol
 ko;도리마을;Tori-gol
-ko;차평리;Ch'ap'yŏng-ni
-zh;塔洞;Ch'ap'yŏng-ni
-zh;車坪里;Ch'ap'yŏng-ni
 ko;홍동;Hongdo-dong
 ko;홍노동;Hongdo-dong
 ko;홍골마을;Hong-gol
@@ -24190,7 +24170,6 @@ ko;제량리;Cheryang-ni
 ko;적두리;Chŏktul-li
 ko;추산리;Ch’usal-li
 ko;Tangch’on;Tang-ch’on
-ko;지을리;Chiŭl-li
 ko;건국동;Kŏnguk-tong
 ko;만월리;Manwŏl-li
 ko;청대리;Ch’ŏngdae-ri
@@ -24496,8 +24475,6 @@ ko;이설포;Isŏlp’o
 ko;영저동;Yŏngjŏ-dong
 ko;금서동;Kŭmsŏ-dong
 ko;샘바우;Saembau
-ko;고령진;In'gye-ri
-ko;인계리;In'gye-ri
 ko;오대산동;Odaesan'gol
 ko;오대산골;Odaesan'gol
 ko;강신동;Kangsin-dong
@@ -25690,7 +25667,6 @@ zh;後倉;Kup'aeng
 ko;구름바위골;Kuryongbawi
 ko;구룡바위;Kuryongbawi
 ko;구룡바위골;Kuryongbawi
-ko;강선골;Kangsŏn'gol
 zh;上興洞;Sanghŭng-dong
 ko;벙덕골;Pŏngdŏk-kol
 ko;소연평;Soyŏnp'yŏng
@@ -28851,3 +28827,4 @@ cs;Čchongdžin;Chongjin
 uk;Чхонджін;Chongjin
 am;ቾንግጂን;Chongjin
 tt;Чхонджин;Chongjin
+ko;가촌리;Kach’ŏl-li

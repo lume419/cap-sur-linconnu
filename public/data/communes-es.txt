@@ -5326,6 +5326,7 @@
 0;-1.7688,38.1405;30439;Murcia;Canara
 337;-3.4281,36.9268;18418;Granada;Cáñar
 1626;-5.3886,39.3800;10136;Cáceres;Cañamero
+0;-3.0000,38.0000;23477;Jaén;Cañamares
 13941;-0.5844,38.9625;46650;Valencia;Canals
 0;-0.9352,38.3051;03688;Alicante;La Canalosa
 0;-0.7500,39.8500;12469;Castellón;Canales
@@ -23290,7 +23291,7 @@
 0;-3.5465,40.3191;28051;Madrid;Casa de Eulogio
 0;-0.7500,40.3833;44432;Teruel;Casa Cosa
 0;-0.6000,40.1500;44415;Teruel;Casa Cervera
-0;-2.4167,43.0333;20560;Guipúzcoa;XXX
+0;-2.4167,43.0333;20560;Guipúzcoa;Casa Blanca
 0;-3.4356,40.4756;28850;Madrid;Casa Blanca
 0;-6.8325,40.1519;10894;Cáceres;Casa Blanca
 0;-7.5846,41.9646;32689;Ourense;Carzoá
@@ -25375,6 +25376,7 @@
 0;-2.1198,42.7838;31272;Navarra;Baquedano
 0;-6.2667,43.5000;33155;Asturias;Baos
 0;-7.1667,43.1833;27116;Lugo;Baos
+0;-9.0000,43.0000;15151;A Coruña;Baos
 0;-5.6492,43.5109;33391;Asturias;Baones
 0;-7.1528,42.2518;32375;Ourense;Bao
 0;-8.8976,42.8862;15236;A Coruña;Banzas
@@ -28410,7 +28412,6 @@
 0;-8.5617,42.9149;15151;A Coruña;Pardaces de Arriba
 0;2.0698,41.3655;08970;Barcelona;La Gabarra
 0;-1.3920,39.0022;02694;Albacete;Caserío de Los Morabios
-0;-3.8617,37.4356;23691;Jaén;Test
 37;-1.9936,37.0161;04277;Almería;Gafares
 0;2.7785,41.7507;17411;Girona;Montbarbat
 319;-2.3463,37.2037;04213;Almería;Senes

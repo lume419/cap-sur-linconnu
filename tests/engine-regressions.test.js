@@ -469,3 +469,28 @@ test('18e audit : paire de ports choisie à la vitesse du MODE, pas à 80 km/h e
     assert.ok(p.km < 40, 'détroit de Messine en voiture : ' + Math.round(p.km) + ' km de route');
   }
 });
+
+test('19e audit : un plafond « hors de portée » calculé sans le filtre des zones à tension le signale', async () => {
+  // Quand tout ce qui entoure le départ est en zone à tension, le premier tirage (filtre actif) ne trouve aucun
+  // candidat, et c'est le SECOND — filtre désactivé — qui fournit le plafond annoncé. Le visiteur lisait « réduisez à
+  // 309 km au plus », réduisait à 309 km, et recevait « décochez Exclure les zones déconseillées » : 28 annonces sur
+  // 268 dans ce cas, mesuré au 19e audit du 21/09/2026. La réponse porte désormais les DEUX informations, et
+  // returnCapExact vaut false — ce plafond n'est pas atteignable avec les réglages du visiteur.
+  const cas = [
+    { ville: 'Kuznetsk', pays: 'RU', transportKey: 'voiture-thermique', minDistanceKm: 500 },
+    { ville: 'Dārāb', pays: 'IR', transportKey: 'moto', minDistanceKm: 700 }
+  ];
+  const manqués = [];
+  for(const c of cas){
+    const dep = H.dep(c.ville, c.pays);
+    if(!dep){ manqués.push(c.ville + ' : départ introuvable dans les données'); continue; }
+    const p = { departureCity: dep, days: 1, budgetKey: 'moyen', transportKey: c.transportKey, tollEnabled: true,
+      ferryEnabled: true, avoidTent: false, avoidTension: true, tripStart: new Date().getFullYear() + '-10-01',
+      maxRadiusKm: 800, minDistanceKm: c.minDistanceKm, maxDistanceKm: 0, maxLegKm: 800, minDaysPerCity: 1, maxDaysPerCity: 1 };
+    const r = H.withSeed(7, () => H.engine.generateTrip(p));
+    if(!(r.legs.length === 0 && r.minDistanceUnreachable)) continue; // ce cas n'emprunte pas ce chemin aujourd'hui
+    if(!r.tensionBlocked) manqués.push(c.ville + ' : plafond ' + r.returnCapKm + ' km annoncé sans dire que le filtre des zones à tension a été ignoré');
+    else if(r.returnCapExact !== false) manqués.push(c.ville + ' : returnCapExact devrait être false');
+  }
+  assert.deepEqual(manqués, []);
+});

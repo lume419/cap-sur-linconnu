@@ -4691,6 +4691,7 @@
 0;125.2500,10.2667;6610;Eastern Visayas;San Vicente
 0;125.2000,10.2500;6616;Eastern Visayas;San Vicente
 0;124.9833,10.1833;6603;Eastern Visayas;San Vicente
+0;119.0000,10.0000;5309;Mimaropa;San Vicente
 0;118.7281,9.9242;5306;Mimaropa;San Vicente
 0;124.2597,9.8770;6322;Central Visayas;San Vicente
 0;123.8506,9.7388;6336;Central Visayas;San Vicente
@@ -20700,6 +20701,7 @@
 0;124.8167,10.2333;6600;Eastern Visayas;Gitnug
 0;124.3833,13.8833;4805;Bicol Region;Gitis
 3126;124.4064,8.5967;9020;Northern Mindanao;Gitagum
+0;125.0000,11.0000;6523;Eastern Visayas;Gitabla
 0;122.9116,11.2097;5043;Western Visayas;Girongan
 0;123.5833,12.9000;4715;Bicol Region;Girawan
 0;124.5137,12.5186;6402;Eastern Visayas;Girarag
@@ -29825,7 +29827,6 @@
 0;122.2496,10.6706;5023;Western Visayas;Banga
 2058;122.8289,10.5018;6101;Western Visayas;Banga
 0;122.7926,9.3723;6220;Central Visayas;Banga
-58855;124.7783,6.4239;9511;Soccsksargen;Bañga
 91536;124.7760,6.4238;9511;Soccsksargen;Banga
 0;120.8667,16.2667;3708;Cagayan Valley;Banet
 0;120.7919,16.7933;2608;Cordillera;Taneg
@@ -30869,6 +30870,7 @@
 0;125.7217,7.0375;8119;Davao Region;Bagsak
 0;125.5767,6.4736;8012;Davao Region;Bagsak
 0;121.3500,5.9333;7404;Autonomous Region in Muslim Mindanao;Bagsak
+0;120.0000,5.0000;7501;Autonomous Region in Muslim Mindanao;Bagsak
 0;123.5086,13.2656;4505;Bicol Region;Bagsa
 2361;122.9362,10.2031;6128;Western Visayas;Bagroy
 0;124.0667,12.9167;4710;Bicol Region;Bagouahan
@@ -32620,6 +32622,7 @@
 0;122.7000,11.1000;5036;Western Visayas;Agutayan
 0;122.6420,11.0705;5036;Western Visayas;Agutayan
 0;122.5167,10.8167;5002;Western Visayas;Agutayan
+0;117.0000,8.0000;5307;Mimaropa;Agutayan
 12867;120.9417,11.1480;5320;Mimaropa;Agutaya
 0;122.4486,12.4553;5511;Mimaropa;Agutay
 0;124.3289,11.8147;6546;Eastern Visayas;Agutay

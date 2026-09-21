@@ -13528,7 +13528,6 @@ nn;Långstrand;Rantala
 nb;Långstrand;Rantala
 is;Långstrand;Rantala
 ru;Мюлляринкюля;Myllärinkylä
-ru;Алаярви;Älajärvi
 nn;Kungshagen;Kuninkaanhaka
 nb;Kungshagen;Kuninkaanhaka
 is;Kungshagen;Kuninkaanhaka
@@ -20538,3 +20537,4 @@ ru;Хуукинпяя;Huukinpää
 ru;Хусанпяя;Husanpää
 ru;Нахкиаисоя;Nahkiaisoja
 ru;Хорнела;Hornela
+ru;Калккола;Kalkkola

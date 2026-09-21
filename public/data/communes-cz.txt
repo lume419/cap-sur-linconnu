@@ -9624,6 +9624,7 @@
 154;14.0038,49.6235;262 31;Příbram;Lazsko
 72;14.0713,49.8582;267 24;Beroun;Lážovice
 183;17.4601,49.5455;751 25;Přerov;Lazníčky
+0;14.0000,49.0000;383 01;Prachatice;Lázně Svaté Markety
 0;17.7667,49.1000;763 26;Zlín;Lázně Luhačovice
 534;15.1904,50.8901;463 62;Liberec;Lázně Libverda
 1647;12.6247,50.0106;354 91;Cheb;Lázně Kynžvart

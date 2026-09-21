@@ -1036,6 +1036,7 @@
 0;25.9167,42.9167;5081;Елена / Elena;Stoychevtsi
 0;25.3500,42.3333;6243;Чирпан / Chirpan;Stoyan Zaimovo
 0;24.0000,43.1167;3134;Роман / Roman;Stoyanovtsi
+0;26.0000,43.0000;5084;Елена / Elena;Stoyanovtsi
 0;23.3403,43.2542;3539;Вършец / Vurshec;Stoyanovo
 0;24.6000,43.1167;5538;Ловеч / Lovech;Radyuvene
 0;25.0333,41.5833;6773;Ардино / Ardino;Stoyanovo
@@ -4753,6 +4754,7 @@
 0;24.9833,41.6667;4946;Баните / Banite;Debelyanovo
 0;25.1000,43.1000;5400;Севлиево / Sevlievo;Debeltsovo
 0;27.2631,42.4026;8314;Средец / Sredec;Debelt
+0;26.0000,43.0000;5084;Елена / Elena;Debeli Rat
 183;22.8693,42.4585;2416;Радомир / Radomir;Debeli Lag
 4418;25.6167,43.0333;5030;Велико Търново / Veliko Turnovo;Debelets
 0;27.4167,42.9833;9261;Дългопол / Dulgopol;Debelets
@@ -4911,6 +4913,7 @@
 0;23.4581,41.4944;2824;Сандански / Sandanski;Chereshnitsa
 0;24.5918,41.5025;4734;Смолян / Smoljan;Chereshkite
 0;25.5167,41.7500;6672;Кърджали / Kurdzhali;Chereshitsa
+0;24.0000,43.0000;2190;Правец / Pravec;Cheresha
 0;27.1333,42.8167;8577;Руен / Ruen;Cheresha
 0;25.7000,42.7333;6198;Гурково / Gurkovo;Cheresha
 0;25.1000,41.6500;6796;Ардино / Ardino;Cheresha

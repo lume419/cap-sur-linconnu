@@ -9826,9 +9826,6 @@ el;Αλαλκομενές;Alalkomenés
 el;Αλαλκομεναί;Alalkomenés
 el;Αλλαγή;Allagí
 el;Αλαγονία;Alagonía
-el;Αλαδινό;Aladinó
-el;Aladinón;Aladinó
-el;Αλαδινόν;Aladinó
 el;Ακτούντα;Aktoúnta
 el;Aktoúnda;Aktoúnta
 el;Ακταίον;Aktaío
@@ -14531,8 +14528,6 @@ el;Λογαράς;Logaras
 el;Παράσπορος;Parasporos
 el;Καλό Λιβάδι;Kalo Livadi
 el;Δρυός;Drios
-el;Φοινικούντα;Foinikounta
-de;Finikounda;Foinikounta
 el;Γράμος;Grámos
 el;Γράμμος;Grámos
 en;Grammos;Grámos
@@ -14939,7 +14934,6 @@ el;Πάνω Γεράνιον;Páno Geráni
 el;Παλαιό Γεράνι;Páno Geráni
 el;Παλιό Γεράνι;Páno Geráni
 el;Ασκύφου;Askýfou
-el;Αρκούδι;Arkoudi
 el;Χατζανά;Chatzaná
 el;Αποσελέμης;Aposelémis
 el;Αγκισαράς;Agkisarás
@@ -15072,9 +15066,6 @@ el;Τημένι;Timénion
 el;Τημένιο;Timénion
 en;Timenio;Timénion
 el;Τύρια;Týria
-bg;Родохори;Rodochori
-el;Ροδοχώρι Κοζάνης;Rodochori
-mk;Радовишта;Rodochori
 el;Σταθμός Λευκοθέας;Stathmós Lefkothéas
 el;Σταθμός Αγγίστας;Stathmós Angístas
 el;Σταθμός Αγγίστης;Stathmós Angístas
@@ -17967,7 +17958,6 @@ ar;فاليراكي;Faliraki
 fa;فالیراکی;Faliraki
 ru;Вурвуру;Vourvourou
 ru;Пефки;Pefki
-ru;Фискардо;Fiskardo
 ru;Потос;Potós
 ru;Педи;Pedi
 ru;Айос-Гордиос;Agios Górdios
@@ -18007,7 +17997,6 @@ ar;نيو بسيخيكو;Néo Psychikó
 uk;Нео-Псіхіко;Néo Psychikó
 ur;نئو پسیخیکو;Néo Psychikó
 tr;Neo Psihiko;Néo Psychikó
-ru;Родохори;Rodochori
 ru;Астероскопио;Asteroskopeío
 uk;Астероскопіо;Asteroskopeío
 uk;Плаки;Pláka

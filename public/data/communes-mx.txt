@@ -1914,7 +1914,6 @@
 0;-97.7667,19.5833;73735;Puebla;Tlaquextla
 1000;-99.6111,18.8794;51988;México;Guadalupe Tlapizalco
 0;-98.1288,19.8111;73302;Puebla;Tlapizahua
-0;-96.9852,19.3007;91625;Veracruz;San Miguel Tlapexcatl
 424;-99.2097,17.8042;41161;Guerrero;Tlapehualapa
 674;-98.0289,20.3128;73088;Puebla;Tlapehuala
 273;-97.5023,16.4461;71367;Oaxaca;Santa María Tlapanalquiahuitl
@@ -7848,7 +7847,6 @@
 1081;-99.2052,20.1832;42780;Hidalgo;Motobatha
 516;-98.3660,21.1665;43003;Veracruz;Motoltepec
 0;-99.6667,19.9000;50528;México;Mota
-0;-99.6306,19.5729;50840;México;Moxtejé
 0;-95.8833,17.6167;68946;Oaxaca;Mosquito
 369;-95.8901,18.7965;95250;Veracruz;Moral y Mosquitero
 0;-93.6514,17.7472;86425;Tabasco;José María Pino Suárez Primera Sección
@@ -10408,7 +10406,6 @@
 0;-89.1097,20.6708;97593;Yucatán;Cancadzonot
 963;-88.7100,20.5098;97924;Yucatán;Kancabdzonot
 0;-88.6120,20.3727;97758;Yucatán;Kancabdzonot
-0;-89.2406,21.1711;97444;Yucatán;Kancabchen Uci
 0;-89.0849,21.1180;97414;Yucatán;Santa Kancabchen Molina
 0;-88.8019,21.0817;97536;Yucatán;Kancabchén
 0;-89.3831,21.0432;97458;Yucatán;Kancabchén
@@ -10718,7 +10715,6 @@
 6649;-96.9839,19.0512;94180;Veracruz;Ixhuatlán del Café
 4975;-97.1490,18.8977;94430;Veracruz;Ixhuatlancillo
 5408;-94.4840,16.3511;70175;Oaxaca;San Francisco Ixhuatan
-0;-94.8770,18.0139;96100;Veracruz;Ixhuapán
 0;-98.3422,17.3695;41670;Guerrero;Ixcuinatoyac
 519;-98.8435,20.9616;43111;Hidalgo;Ixcuicuila
 0;-95.1363,17.6438;96145;Veracruz;Ixtal
@@ -12982,7 +12978,6 @@
 0;-88.3333,21.0000;97730;Yucatán;Dzulá
 0;-89.2167,20.9833;97460;Yucatán;Dzulá
 1223;-88.4157,19.6033;77160;Quintana Roo;Dzula
-0;-89.1966,20.9130;97483;Yucatán;Dziuche
 2870;-88.8095,19.8974;77800;Quintana Roo;Dziuche
 0;-89.5858,20.9032;97370;Yucatán;Dzoyolá
 454;-89.5898,20.7892;97316;Yucatán;Dzoyaxché
@@ -13274,7 +13269,6 @@
 629;-98.7050,18.8211;74522;Puebla;San Felipe Cuapexco
 0;-98.9355,17.6903;41137;Guerrero;Cuapixca
 783;-97.8526,19.8246;73654;Puebla;Cuapancingo
-0;-97.4711,16.8144;71182;Oaxaca;Santa Catarina Cuananá
 0;-98.9149,19.6150;55886;México;Cuanalán
 5728;-98.3279,19.1092;72640;Puebla;Cuanalá
 0;-98.7833,16.7833;41636;Guerrero;Cuanacastitlán
@@ -13755,7 +13749,6 @@
 0;-88.7833,21.2815;97604;Yucatán;Chun-Abal
 0;-89.1127,21.2664;97426;Yucatán;Chumul
 0;-89.3667,20.3833;97850;Yucatán;Chumuché
-0;-87.8124,20.0036;77130;Quintana Roo;Chumpon
 0;-89.3833,19.3000;24678;Quintana Roo;Chumpil
 12;-95.5189,18.4322;95470;Veracruz;Loma de Chumiapa
 246;-88.8161,20.8001;97678;Yucatán;Chumbec
@@ -13832,7 +13825,6 @@
 893;-98.1851,20.6599;92670;Veracruz;Chintipán
 247;-98.5024,21.2876;92161;Veracruz;Chintepec
 0;-99.6167,19.7500;50563;México;Chinté
-0;-89.3922,20.6947;97823;Yucatán;Chinkila
 0;-92.2167,15.2167;30919;Chiapas;Chinganac
 11;-88.4203,20.5136;97769;Yucatán;Chindzonot
 1420;-98.2643,18.2014;74840;Puebla;Chinantla
@@ -14782,7 +14774,6 @@
 0;-99.7500,19.4833;50783;México;Bonisí
 2151;-99.1200,18.7180;62774;Morelos;Bonifacio García
 1643;-99.6977,20.4442;42400;Hidalgo;Bondojito
-0;-99.9549,19.6323;50687;México;San Jerónimo Boncheté
 0;-99.4333,26.8324;88372;Tamaulipas;Bonanza
 0;-99.2463,20.7152;42367;Hidalgo;La Bonanza
 0;-93.0202,16.9482;29783;Chiapas;Bombaná
@@ -20320,7 +20311,6 @@
 0;-97.7558,19.3315;90565;Tlaxcala;Loma Bonita
 4;-97.7554,19.3196;90564;Tlaxcala;Rancho Mazarraza
 2;-97.8129,19.3183;90567;Tlaxcala;Los Pinos
-0;-97.8181,19.3134;90567;Tlaxcala;La Asuncíón Rascona
 0;-97.8213,19.3073;90500;Tlaxcala;Nuevo Centro de Población José María Morelos
 0;-97.8252,19.3053;90500;Tlaxcala;El Cabildo
 24;-97.8462,19.3210;90515;Tlaxcala;Santa María Magdalena Xonecuila
@@ -22085,7 +22075,6 @@
 1554;-99.4003,19.7968;54326;México;San Luis Anáhuac (Toriles)
 4977;-99.9692,19.7697;50717;México;Santiago Casandeje
 1590;-99.5022,19.7098;54345;México;Los Arana
-0;-99.3459,19.7226;54656;México;San Míguel Cañadas
 0;-99.2917,19.6833;54650;México;Malpan
 0;-99.5583,19.7417;54374;México;Llano Grande
 3255;-99.6136,19.6495;50574;México;San Lorenzo Malacota
@@ -23655,7 +23644,6 @@
 84;-87.9094,21.3241;97706;Yucatán;Dzonot Box
 0;-87.7716,21.3336;97702;Yucatán;San Miguel
 0;-87.7469,21.3119;97713;Yucatán;Santa Rosa
-0;-87.9531,21.2957;97704;Yucatán;X-Makulan
 0;-87.9083,21.2828;97717;Yucatán;Kalax Viejo
 0;-87.8161,21.2912;97703;Yucatán;Santa Inés Martín
 0;-87.9268,21.3382;97707;Yucatán;Santa Elena
@@ -23692,7 +23680,6 @@
 0;-89.7333,21.0958;97205;Yucatán;Soytunchén
 0;-89.7167,21.0958;97303;Yucatán;Cosoaya
 220;-89.8142,20.9961;97353;Yucatán;San Antonio Chel
-0;-89.4500,21.1417;97455;Yucatán;Too
 209;-89.3929,21.1268;97453;Yucatán;San Isidro Kuxub
 0;-89.6000,21.0833;97305;Yucatán;Dxililchaltún
 0;-89.3875,21.0292;97470;Yucatán;San Juan Koop
@@ -24220,7 +24207,6 @@
 0;-88.5500,19.6000;77169;Quintana Roo;G. David G.G. Ruiz
 417;-88.6192,19.3986;77178;Quintana Roo;Ramonal
 139;-88.6427,19.3826;77178;Quintana Roo;Santa Lucía
-0;-88.8662,19.2707;77893;Quintana Roo;Nuevo Cunduacan
 0;-88.1833,19.7000;77145;Quintana Roo;X-Mac-Náh
 71;-88.0692,19.6251;77147;Quintana Roo;San Antonio Nuevo
 568;-88.2103,19.6306;77108;Quintana Roo;Chunhuás
@@ -26331,7 +26317,6 @@
 196;-94.8231,17.1883;96976;Oaxaca;Juan de la Luz Enríquez
 334;-94.8849,17.2084;96977;Oaxaca;Juan Escutia
 582;-94.8208,17.2418;96977;Veracruz;Veinticuatro
-0;-94.9047,17.2670;96978;Veracruz;Cuaclan
 0;-94.9124,17.2886;96978;Veracruz;Guadalupe Piedra Bola Castillito
 155;-94.9034,17.2361;96977;Veracruz;Dieciséis de Septiembre
 129;-94.9214,17.3247;96978;Veracruz;San Miguel del Río
@@ -26856,7 +26841,6 @@
 3043;-99.9719,19.6783;50655;México;San Lucas Ocotepec
 1190;-99.9742,19.6872;50655;México;El Carmen Ocotepec
 0;-99.9831,19.6997;50693;México;La Concepción Chico
-0;-99.9986,19.6939;50693;México;Purisima Concepción Mayorazgo
 366;-100.0100,19.7249;50696;México;Tlalchichilpa
 2667;-99.9300,19.6981;50640;México;San Juan Jalpa Centro
 526;-99.9111,19.6919;50753;México;Ejido de San Juan Jalpa
@@ -26878,7 +26862,6 @@
 3887;-99.8383,19.5511;50770;México;San Juan de las Manzanas
 301;-99.8570,19.5264;50925;México;La Soledad Ocoyotepec
 2180;-99.8414,19.5647;50770;México;La Concepción Enyege
-0;-99.8628,19.5725;50770;México;San Miguel Enyegé
 0;-99.9839,19.7508;50717;México;Panteón
 0;-99.9292,19.7814;50713;México;Santiago Citendejé
 0;-99.9681,19.7794;50717;México;Santiago Casandejé
@@ -28676,7 +28659,6 @@
 0;-103.3616,22.3355;46282;Zacatecas;San Miguel
 0;-103.3808,22.2723;99430;Zacatecas;Ojo de Agua de Rojas
 0;-103.4347,22.3013;99436;Zacatecas;Anacleto López Morales
-0;-103.4570,22.2910;99436;Zacatecas;Huejuquillita de los Marquez
 0;-103.4193,22.2645;99436;Zacatecas;Jacales
 0;-103.4379,22.2646;99436;Zacatecas;Berrendos
 0;-103.4253,22.2199;46227;Zacatecas;Estancia de García
@@ -31653,7 +31635,6 @@
 1652;-107.0147,24.0621;82770;Sinaloa;Tanques
 269;-107.0272,24.0821;82770;Sinaloa;Colonia Buenos Aires
 871;-106.9236,24.0632;82747;Sinaloa;Emiliano Zapata
-0;-106.8750,24.0833;82730;Sinaloa;El Tabachin
 239;-106.9232,24.0984;82745;Sinaloa;Higueras de Culiacancito
 0;-106.9331,24.1291;82743;Sinaloa;Veintiséis de Enero
 357;-106.9253,24.1271;82743;Sinaloa;Vida Campesina
@@ -33157,7 +33138,6 @@
 0;-105.8538,25.0361;34617;Durango;El Yaqui
 236;-105.6847,25.0367;34617;Durango;Laguna de la Chaparra (Ranas)
 105;-105.9402,25.1420;35617;Durango;El Refugio
-0;-105.9155,25.1948;35617;Durango;Mesa de los Návar
 0;-105.6179,25.2718;35614;Durango;Presidio de Abajo
 36;-106.1448,25.0128;34624;Durango;El Alamito
 0;-106.2179,25.0361;34536;Durango;La Tembladora
@@ -33409,6 +33389,7 @@
 0;-116.1833,30.9833;22890;Baja California;Villa Hidalgo
 0;-116.2153,30.9925;22890;Baja California;Héroes de Chapultepec
 0;-116.2779,30.9783;22908;Baja California;Veintisiete de Enero
+0;-116.0000,31.0000;22940;Baja California;Generalísimo Morelos
 0;-116.1913,31.0381;22908;Baja California;Rancho Ayala
 0;-116.2527,31.0070;22820;Baja California;Ejido Villa Morelos
 0;-116.0317,31.0898;22910;Baja California;San Rafael de Arriba
@@ -37309,7 +37290,6 @@
 2912;-104.4583,24.7782;34485;Durango;San Juan del Rio del Centauro del Norte
 176;-101.0992,24.8540;25336;Coahuila;San Juan del Retiro
 0;-100.4043,21.3755;37913;Guanajuato;San Juan de los Rangeles
-1268;-102.4390,19.1365;60713;Michoacán;San Juan de los Plátanos
 68;-107.2572,28.8863;31673;Chihuahua;San Juan de los Ojos
 572;-101.3154,21.2778;37620;Guanajuato;San Juan de Llanos
 0;-103.7500,22.4833;46042;Jalisco;San Juan de los Lirios
@@ -40121,6 +40101,7 @@
 0;-111.3146,30.3611;83917;Sonora;Rancho Grande
 0;-111.2519,29.8255;83390;Sonora;Rancho Grande
 0;-105.2893,28.0933;33637;Chihuahua;Rancho Grande
+0;-101.0000,28.0000;26634;Coahuila;Rancho Grande
 0;-103.2497,25.7274;27453;Coahuila;Rancho Grande
 0;-104.0169,25.2891;35737;Durango;Rancho Grande
 3857;-102.9625,23.4506;99014;Zacatecas;Lázaro Cárdenas (Rancho Grande)
@@ -41819,7 +41800,6 @@
 0;-108.5565,26.8054;85775;Sonora;Paparique
 141;-105.3675,20.2125;48400;Jalisco;Paulo
 0;-102.1249,20.1400;59443;Michoacán;Patzímaro de Aviña
-0;-102.1231,20.1390;59443;Michoacán;Patzimaro de Aviña
 55298;-101.6099,19.5132;61600;Michoacán;Pátzcuaro
 999;-108.2418,25.2718;81653;Sinaloa;Batury
 1373;-101.9148,19.3913;61707;Michoacán;Patuán
@@ -42419,6 +42399,7 @@
 0;-103.9167,27.6167;27614;Chihuahua;Ojo del Almagre
 0;-106.5327,31.3648;32730;Chihuahua;Ojo de la Casa
 0;-104.3333,23.6333;34973;Durango;Ojo de la Borrega
+0;-101.0000,28.0000;26634;Coahuila;Ojo de Gracias a Dios
 5;-107.9072,31.0229;31820;Chihuahua;Ojo de Federico
 0;-107.9333,31.0000;31820;Chihuahua;Ojo de Federico
 2;-106.5864,31.3790;32010;Chihuahua;Ojo de Enmedio
@@ -48152,6 +48133,7 @@
 0;-102.8500,21.8333;20864;Aguascalientes;Joya de la Presa
 7;-102.4203,19.4672;60442;Michoacán;Hoyicazuela
 1215;-101.6083,20.7481;36983;Guanajuato;La Joya de Calvillo
+0;-103.0000,19.0000;60554;Michoacán;Joya de Ballesteros
 308;-103.0025,20.7102;45443;Jalisco;La Joya Chica
 277;-101.1942,26.4411;25890;Coahuila;La Joya
 0;-105.5667,25.7833;35685;Durango;Joya
@@ -48959,7 +48941,6 @@
 0;-100.2333,25.0667;67670;Nuevo León;Guaponal Abajo
 0;-101.7667,17.9000;40803;Guerrero;Guapinolar
 0;-110.2824,27.7512;85448;Sonora;Guapari
-0;-110.2819,27.7509;85448;Sonora;Guápari
 508;-107.8942,27.1777;33422;Chihuahua;Guapalayna
 0;-105.7667,23.3833;82670;Sinaloa;Guante
 389;-100.4016,19.3398;61578;Michoacán;Guanoro
@@ -49424,7 +49405,6 @@
 26632;-103.2713,25.7730;27902;Coahuila;Francisco I. Madero
 1905;-102.4321,20.1344;59286;Michoacán;La Plaza del Limón
 0;-102.1644,19.9117;59766;Michoacán;Francisco J. Mújica
-0;-104.4847,24.4926;34794;Durango;Francisco Javíer Mina
 0;-102.5500,20.5833;47766;Jalisco;Francisco Javier Mina
 234;-105.3064,24.9906;34607;Durango;Francisco Javier Leyva
 318;-107.3121,28.9145;31675;Chihuahua;Francisco I. Madero
@@ -50050,6 +50030,7 @@
 2621;-107.3866,29.1811;31960;Chihuahua;El Terrero
 204;-101.9290,19.2957;61713;Michoacán;Terrenate
 0;-105.9333,26.7692;33595;Chihuahua;El Terminal
+0;-104.0000,21.0000;46448;Jalisco;El Tequesquite
 1161;-102.2881,20.3013;59267;Michoacán;El Tequesquite
 1172;-105.3004,20.0658;48466;Jalisco;Tequesquite
 0;-105.2333,22.1000;63637;Nayarit;El Tepozapote
@@ -52610,7 +52591,6 @@
 0;-106.2445,27.1288;33553;Chihuahua;Carlos A. Madrazo
 10;-106.1079,27.0358;33545;Chihuahua;El Alamillo
 0;-105.7593,26.7304;33594;Chihuahua;Las Negras
-0;-108.5280,25.9440;81913;Sinaloa;El Alamo
 0;-107.7529,25.8206;81975;Sinaloa;El Álamo
 0;-107.7772,25.5085;80875;Sinaloa;El Álamo
 0;-101.5000,25.4333;25955;Coahuila;El Álamo
@@ -56044,7 +56024,6 @@
 71;-107.2947,25.5172;80527;Sinaloa;Bamopa
 0;-109.2216,26.4610;85257;Sonora;Bamocha
 2987;-108.3459,25.7057;81140;Sinaloa;Bamoa
-0;-108.4997,26.3797;81830;Sinaloa;Bamicori
 0;-100.4761,20.5516;76908;Querétaro;Ex-Hacienda Balvanera
 0;-109.7100,30.9832;84325;Sonora;Baltasar
 0;-104.5606,25.0068;35783;Durango;Baltazar
@@ -57294,7 +57273,6 @@
 666;-105.3569,22.0033;63640;Nayarit;Los Medina
 4;-105.4525,22.4589;63421;Nayarit;Las Paredes (Humberto Santos)
 97;-105.4719,22.4870;63421;Nayarit;La Higuerita Vieja
-0;-105.2981,22.9867;34966;Nayarit;El Camaron
 130;-105.3265,22.9478;34966;Durango;Balontita
 96;-105.3558,22.8842;63485;Nayarit;Barbacoa
 0;-105.2825,22.8844;63485;Nayarit;Coscomatita
@@ -60271,7 +60249,6 @@
 471;-101.4945,19.6489;58423;Michoacán;Atzimbo
 218;-101.5023,19.6192;58444;Michoacán;Coenembo
 582;-101.4425,19.5007;61644;Michoacán;Las Tablas
-0;-101.4917,19.5000;61648;Michoacán;Tupataro
 0;-101.5647,19.5320;61608;Michoacán;Las Trojes del Durazno
 314;-101.5223,19.5652;61617;Michoacán;Chapultepec
 0;-101.5729,19.5722;58446;Michoacán;Sanabria
@@ -62998,7 +62975,6 @@
 0;-104.5405,22.2712;63534;Nayarit;El Carrizal
 0;-104.5975,22.2512;63534;Nayarit;Arroyo Cañaveral
 0;-104.5833,22.2542;63534;Nayarit;Las Cabezas
-0;-104.5208,22.2542;63530;Nayarit;Jesus María
 0;-104.5109,22.2628;63534;Nayarit;La Concepción
 0;-104.4286,22.4126;34997;Nayarit;Cofradía
 152;-104.3975,22.4111;63535;Nayarit;Atonalisco
@@ -169308,7 +169284,6 @@
 0;-108.1241,27.4378;33393;Chihuahua;Zopetare
 0;-108.1335,27.4352;33393;Chihuahua;Lechedero
 0;-108.1455,27.4222;33393;Chihuahua;Duraznito
-0;-108.0737,27.2869;33422;Chihuahua;La Agüirú
 0;-108.1022,27.2634;33422;Chihuahua;Santa Rita
 0;-107.9960,27.2760;33422;Chihuahua;El Árabe
 0;-108.0198,27.2782;33422;Chihuahua;Las Lomas
@@ -174208,7 +174183,6 @@
 0;-99.3487,20.3522;42394;Hidalgo;La Fe
 0;-99.5918,20.3137;42412;Hidalgo;Tepozan
 0;-99.4033,20.3211;42906;Hidalgo;El Gavillero
-0;-99.2385,20.4971;42327;Hidalgo;El Mandhó
 0;-99.2318,20.4723;42302;Hidalgo;La Reforma
 0;-99.2352,20.4904;42302;Hidalgo;Santa Ana
 124;-99.2622,20.4171;42326;Hidalgo;El Dexthi Alberto
@@ -174482,7 +174456,6 @@
 0;-97.6750,20.0872;73407;Puebla;Lugua
 0;-97.3489,20.0262;73585;Puebla;Las Ánimas
 0;-97.4014,20.0340;73902;Puebla;Santa Cecilia
-0;-97.6422,20.1341;73404;Puebla;Lkuyum Chúchut
 0;-97.6537,20.0603;73436;Puebla;La Esperanza
 0;-97.6531,20.0382;73436;Puebla;Cangatinilla
 0;-97.6298,20.0233;73493;Puebla;Acpalca
@@ -175128,7 +175101,6 @@
 0;-109.1846,25.9092;81280;Sinaloa;Ahome Independencia
 0;-109.1945,25.9357;81285;Sinaloa;Mesarique
 0;-109.1362,25.9246;81311;Sinaloa;San Martín
-0;-109.1770,25.9454;81245;Sinaloa;Campo Gastelúm
 0;-109.1583,25.9570;81311;Sinaloa;El Alto
 0;-109.1031,25.9653;81248;Sinaloa;El Metate
 0;-109.1066,25.9491;81306;Sinaloa;Cuchilla de Cacitoana
@@ -176791,7 +176763,6 @@
 468;-96.6003,17.8931;68652;Oaxaca;San Pedro la Alianza
 530;-96.0200,16.6458;70487;Oaxaca;La Mancornada
 0;-97.9296,17.2456;69724;Oaxaca;Santa Cruz Yucunicoco
-0;-97.9189,17.2375;69724;Oaxaca;Santa Maria Yucunicoco
 0;-95.9903,17.3078;70253;Oaxaca;San Jose Chinantequilla
 0;-97.8203,20.2586;73273;Puebla;Rancho Nuevo
 338;-98.8308,21.4861;79933;San Luis Potosí;El Aquichal
@@ -182577,7 +182548,6 @@
 0;-93.6476,15.9686;30505;Chiapas;San Rafael
 0;-93.6131,15.9591;30506;Chiapas;El Borbollón
 0;-93.6651,15.9704;30505;Chiapas;Salto del Agua
-0;-93.4848,15.9983;30526;Chiapas;Raices del Tajín
 0;-93.4828,15.9798;30526;Chiapas;La Yerbasanta
 0;-93.4210,15.9746;30526;Chiapas;La Florida
 0;-93.3844,15.9482;30526;Chiapas;Villalár
@@ -187889,7 +187859,6 @@
 0;-92.2983,15.3233;30915;Chiapas;El Aserradero
 0;-92.2628,15.3061;30905;Chiapas;El Retiro
 0;-92.2558,15.3161;30918;Chiapas;Trampa del Coyote
-0;-92.2318,15.3222;30918;Chiapas;San Antonio Tuixcúm
 0;-92.2204,15.3279;30918;Chiapas;Tuixcúm Buenavista
 0;-92.1872,15.3194;30926;Chiapas;Matasanos
 0;-92.2006,15.3545;30927;Chiapas;Matasanos
@@ -189774,9 +189743,7 @@
 0;-92.7719,16.9507;29862;Chiapas;Bahachen
 0;-92.7911,16.8272;29337;Chiapas;Takité
 0;-92.7673,16.8243;29337;Chiapas;Nukulpatik
-0;-92.7704,16.8058;29337;Chiapas;Yaaltz Unún
 0;-92.7666,16.7980;29337;Chiapas;Banoctic
-0;-92.7325,16.7905;29320;Chiapas;Jeshbotíc
 0;-92.7286,16.7914;29320;Chiapas;Yok Pol
 0;-92.7204,16.8165;29325;Chiapas;Tzelopatik
 0;-92.7527,16.8203;29325;Chiapas;Tzopilhotik
@@ -189794,17 +189761,14 @@
 0;-92.7146,16.8289;29325;Chiapas;Jolchijtik
 0;-92.6705,16.8147;29328;Chiapas;Tinaho
 0;-92.6694,16.8062;29329;Chiapas;Yaxal Lumilho
-0;-92.7023,16.8128;29325;Chiapas;Tzajaltetíc
 0;-92.7071,16.7672;29350;Chiapas;Najocthik
 0;-92.6471,16.9692;29230;Chiapas;Tierra y Libertad
 0;-92.6606,16.9242;29875;Chiapas;San Antonio Caridad
 0;-92.6444,16.7915;29320;Chiapas;Joloconthen
-0;-92.6095,16.8085;29324;Chiapas;Muquen
 0;-92.6174,16.8271;29327;Chiapas;Yolonam
 0;-92.6108,16.8431;29336;Chiapas;Batojtic
 0;-92.6023,16.8760;29335;Chiapas;Yosilcusmantic
 0;-92.6243,16.8714;29329;Chiapas;Yibelchequen
-0;-92.5758,16.8809;29495;Chiapas;Suyalho
 0;-92.6141,16.9097;29873;Chiapas;Bashulum
 333;-92.5382,16.9244;29872;Chiapas;Takiukum
 0;-92.5687,16.8953;29871;Chiapas;Los Angeles
@@ -189831,8 +189795,6 @@
 0;-92.2863,16.8130;29460;Chiapas;Bumiljá
 0;-92.2674,16.9826;29945;Chiapas;San José Chivalá
 0;-92.2127,16.9764;29945;Chiapas;Pomarrosa
-0;-92.2308,16.9705;29945;Chiapas;Ch Uchteel
-0;-92.1843,16.7867;29953;Chiapas;Chulná
 0;-92.1748,16.8247;29953;Chiapas;Okenchai
 0;-92.1565,16.9433;29953;Chiapas;La Providencia
 0;-92.1667,16.9474;29950;Chiapas;Pomolá
@@ -189890,7 +189852,6 @@
 0;-91.6525,16.7744;29952;Chiapas;Vista Alegre
 0;-91.6474,16.7669;29952;Chiapas;Zacatón
 319;-91.6226,16.8039;29952;Chiapas;San Antonio la Victoria
-0;-91.6092,16.8978;29954;Chiapas;Nuevo Bachajón
 0;-91.3383,16.7993;29950;Chiapas;Río Colorado
 0;-91.2940,16.8238;29952;Chiapas;Alfredo B. Bonfil
 0;-91.3131,16.7785;29950;Chiapas;San Pablo
@@ -189984,7 +189945,6 @@
 0;-92.1116,16.0345;30166;Chiapas;La Florida
 0;-92.1375,16.0010;30166;Chiapas;El Porvenir
 0;-92.1109,16.0079;30166;Chiapas;El Peligro
-0;-92.0752,16.1317;30160;Chiapas;San Caralampio Monte Palido
 422;-92.0770,16.2329;30109;Chiapas;Yocnajab el Rosario
 0;-92.1024,16.2491;30034;Chiapas;Cerrito Norte
 0;-92.0428,16.1875;30078;Chiapas;El Sabinal
@@ -190819,7 +190779,6 @@
 0;-100.1262,25.4258;67310;Nuevo León;La Cabaña
 0;-100.1938,25.4317;67317;Nuevo León;La Pajarera
 0;-100.2793,25.4360;67340;Nuevo León;La Peña
-0;-100.1833,25.4064;67320;Nuevo León;Villa Saldivar
 0;-100.0198,25.3817;67485;Nuevo León;Los Ebanitos
 0;-100.0217,25.3798;67485;Nuevo León;El Tite
 0;-100.0286,25.3805;67373;Nuevo León;Los Pajaritos
@@ -193536,7 +193495,6 @@
 0;-106.4944,25.9970;33493;Chihuahua;Arroyo del Oso
 0;-107.1815,25.9977;33477;Chihuahua;Saucitos de Abajo
 0;-106.3769,25.9919;35443;Durango;Arroyo de las Piedras
-0;-108.3475,25.8411;81902;Sinaloa;Licenciado Benitó Juárez
 0;-106.8994,26.2039;33497;Chihuahua;El Sabino
 0;-104.8292,26.1934;35300;Durango;Las Alazanas
 0;-107.1471,25.9911;33477;Chihuahua;Pie de la Cuesta
@@ -195284,7 +195242,6 @@
 0;-102.3330,23.2880;98471;Zacatecas;El Belén
 0;-104.2475,23.1931;34934;Durango;Los Bajíos
 0;-104.2634,23.1693;34934;Durango;La Joya
-0;-104.3309,23.0519;34988;Durango;El Tejabán
 0;-104.3097,23.0363;34988;Durango;Las Panchas
 0;-104.0731,23.0318;99253;Zacatecas;El Hule
 0;-103.8536,23.2400;99280;Zacatecas;Los Palitos
@@ -211214,7 +211171,6 @@
 0;-92.7166,17.8465;86830;Tabasco;Aquiles Serdán Quinta Sección
 0;-92.7536,17.8137;86878;Tabasco;Aquiles Serdán Cuarta Sección
 0;-92.7595,17.9649;86284;Tabasco;Barrancas y Amate Tercera Sección
-0;-92.6718,17.9184;86710;Tabasco;Ignacio Manuel Altamirano Segunda Sección
 0;-92.7557,17.9250;86284;Tabasco;Miraflores Primera Sección
 0;-92.9864,17.9811;86143;Tabasco;Anacleto Canabal Primera Sección
 0;-100.5100,25.7059;64740;Nuevo León;San José
@@ -225107,7 +225063,6 @@
 0;-100.6912,19.7574;61168;Michoacán;Los Baños de San Pedro
 0;-100.6801,19.7559;61168;Michoacán;San José
 0;-101.6570,19.2636;61838;Michoacán;La Imagen
-0;-101.6570,19.2610;61838;Michoacán;La Imágen
 0;-101.5706,19.2999;61656;Michoacán;Las Latas
 0;-101.5088,19.3257;61655;Michoacán;Pueblo Viejo de la Sierra
 0;-101.5348,19.3917;61827;Michoacán;Felipe Tzintzun

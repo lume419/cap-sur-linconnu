@@ -12018,7 +12018,6 @@ ar;فليفل;Fulayful
 ar;ال صويع;Āl Şuway‘
 ar;ال سهل;Āl Sahl
 ar;ال زين;Āl Zayn
-ar;الصاقط;Aş Şāqiţ
 ar;ال لمد;Āl Lamad
 ar;ال غريب;Āl Ghurayb
 ar;ال حوين;Āl Ḩuwayn

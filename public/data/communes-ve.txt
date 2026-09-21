@@ -8963,6 +8963,7 @@
 0;-63.8667,6.8500;VE-06;Bolívar;Hato Bucaral
 0;-70.9833,9.6833;VE-23;Zulia;Hato Blanco
 0;-67.2960,8.7819;VE-12;Guárico;Hato Becerra
+0;-68.0000,9.0000;VE-08;Cojedes;Hato Bartolomé
 0;-68.5333,9.5667;VE-08;Cojedes;Hato Apure
 0;-70.2434,11.9387;VE-11;Falcón;Hato Abajo
 0;-71.6833,10.6500;VE-23;Zulia;Hato Abajo

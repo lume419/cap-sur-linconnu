@@ -4020,6 +4020,7 @@
 0;-61.8500,-14.7500;BO-08;Santa Cruz Department;Progreso
 0;-65.9667,-10.8000;BO-06;Pando;Progreso
 0;-64.9392,-18.9294;BO-01;Chuquisaca Department;Presto
+0;-66.0000,-11.0000;BO-03;Beni Department;Prado
 0;-65.0500,-21.6667;BO-09;Tarija Department;Pozuelos
 0;-62.8167,-18.6333;BO-08;Santa Cruz Department;Pozo Victoriano
 0;-62.7667,-20.0167;BO-08;Santa Cruz Department;Pozos Negros

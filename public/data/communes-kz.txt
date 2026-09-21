@@ -2449,7 +2449,6 @@
 0;80.1929,50.4153;KZ-15;East Kazakhstan;Stroitel’nyy
 0;80.1875,50.4400;KZ;Abai Region;Dachnyy Posëlok
 0;80.1360,50.4376;KZ;Abai Region;Murat
-0;80.1904,50.4366;KZ-15;East Kazakhstan;Dachnyy Poselok
 0;80.1334,50.4655;KZ;Abai Region;Dachnyy Posëlok
 0;80.1784,50.4654;KZ;Abai Region;Mirnyy
 0;80.0036,50.4716;KZ;Abai Region;Krupskaya
@@ -11689,7 +11688,6 @@
 0;65.6232,44.9243;KZ-14;Kyzylorda;Ayakkol’
 0;65.4013,44.9054;KZ-14;Kyzylorda;Qyzylzharma
 0;65.3532,44.9702;KZ-14;Kyzylorda;Raz”yezd Aktaylak
-0;65.5926,44.6054;KZ-14;Kyzylorda;Lenīno
 0;65.5443,44.7241;KZ-14;Kyzylorda;Zhangadarīya
 0;65.4801,44.8298;KZ-14;Kyzylorda;Qalghandarīya
 0;65.7555,44.6834;KZ-14;Kyzylorda;Yerköl

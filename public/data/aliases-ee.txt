@@ -2684,7 +2684,6 @@ ru;Майдла;Maidla
 ru;Маху;Mahu
 ru;Махтра;Mahtra
 ru;Махма;Mahma
-ru;Мяхма;Mähma
 ru;Мяхккюла;Mähkküla
 ru;Мягисе;Mägise
 ru;Мягипе;Mägipe

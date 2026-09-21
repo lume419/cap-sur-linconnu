@@ -6113,7 +6113,6 @@
 0;15.2269,45.2428;47300;Karlovačka;Kučinić-Selo
 223;15.2192,45.2369;47300;Karlovačka;Salopek-Selo
 0;15.1231,45.1108;47300;Karlovačka;Nikolići
-0;15.9261,46.0244;49210;Krapinsko-Zagorska;Hum-Zabočki
 368;15.9669,46.0027;49240;Krapinsko-Zagorska;Hruševec
 145;15.7136,46.0050;49290;Krapinsko-Zagorska;Draše
 294;15.7322,46.1556;49218;Krapinsko-Zagorska;Sopot
@@ -10253,7 +10252,7 @@
 265;16.0542,45.9600;49240;Krapinsko-Zagorska;Karivaroš
 96;16.0081,45.9613;49240;Krapinsko-Zagorska;Hižakovec
 240;15.9865,45.9647;49240;Krapinsko-Zagorska;Gornja Podgora
-319;15.9700,45.9628;49240;Krapinsko-Zagorska;Donja_Podgora
+319;15.9700,45.9628;49240;Krapinsko-Zagorska;Donja Podgora
 116;15.9985,45.9712;49240;Krapinsko-Zagorska;Milekovo Selo
 319;16.0589,43.6999;22000;Šibensko-Kninska;Danilo
 188;15.9375,43.7050;22000;Šibensko-Kninska;Donje Polje
@@ -11215,11 +11214,11 @@
 752;17.1099,45.3038;44330;Sisačko-Moslavačka;Rajić
 327;16.0403,43.7879;22222;Šibensko-Kninska;Radonić
 295;17.4018,45.7817;33000;Virovitičko-Podravska;Rezovačke Krčevine
-270;15.2455,45.1831;47300;Karlovačka;Gornje_Zagorje
+270;15.2455,45.1831;47300;Karlovačka;Gornje Zagorje
 264;15.6883,45.8300;10430;Zagrebačka;Velika Jazbina
 260;17.5976,43.0259;20350;Dubrovačko-Neretvanska;Krvavac II
 216;15.3425,44.1605;23000;Zadarska;Murvica Gornja
-193;15.5286,45.5911;47280;Karlovačka;Zorkovac_
+193;15.5286,45.5911;47280;Karlovačka;Zorkovac
 187;18.3440,42.5119;20215;Dubrovačko-Neretvanska;Radovčići
 160;16.0178,43.4890;22202;Šibensko-Kninska;Sevid na moru
 152;16.7960,43.5236;21240;Splitsko-Dalmatinska;Nova Sela

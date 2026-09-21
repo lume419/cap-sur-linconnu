@@ -163194,6 +163194,15 @@
   // inverser la mise en page globale (marges, alignement du texte, ordre visuel des icônes) sans
   // rien changer au balisage lui-même — le comportement natif du navigateur pour ce cas précis.
   var RTL_LANGS = { ar: true, fa: true, ckb: true, ur: true, dv: true };
+  var liveEl = null;
+  // Annonce polie du sélecteur de langue. Réécrire le MÊME texte ne déclenche rien chez la plupart des lecteurs
+  // d'écran : on vide d'abord, puis on écrit au tour suivant (même motif que showFormError dans app.js).
+  function annoncer(texte){
+    if(!liveEl) return;
+    if(!texte){ liveEl.textContent = ''; return; }
+    liveEl.textContent = '';
+    setTimeout(function(){ if(liveEl) liveEl.textContent = texte; }, 0);
+  }
   function applyDirection(){
     document.documentElement.setAttribute('dir', RTL_LANGS[lang] ? 'rtl' : 'ltr');
     // L'attribut `lang` sert ici à CSS, pas seulement aux lecteurs d'écran : c'est lui qui déclenche
@@ -163760,15 +163769,18 @@
       var empty = document.createElement('li');
       empty.className = 'lang-option-empty';
       // role="option" + aria-disabled (18e audit du 21/09/2026) : une liste role="listbox" n'admet que des
-      // « option » ou des « group », un enfant générique y est simplement IGNORÉ — la liste paraissait vide au
-      // lieu d'annoncer « aucune langue trouvée ». app.js fait déjà exactement cela pour les messages de la
-      // recherche de ville (voir renderSuggestMessage) ; c'est ici que l'asymétrie s'était glissée.
+      // « option » ou des « group », un enfant générique y est simplement IGNORÉ — la liste paraissait vide.
+      // Mais EXPOSER n'est pas ANNONCER (19e audit du 21/09/2026) : le focus reste dans le champ de recherche, aucun
+      // mécanisme ne signalait le changement, et le visiteur tapait dans le silence. La région vivante ci-dessous
+      // (aria-live="polite", décrite par le champ) prononce le message, comme #export-hint le fait pour l'export.
       empty.setAttribute('role', 'option');
       empty.setAttribute('aria-disabled', 'true');
       empty.textContent = t('lang.searchNoResults');
       listEl.appendChild(empty);
+      annoncer(t('lang.searchNoResults'));
       return;
     }
+    annoncer('');
     matches.forEach(function(code){
       var li = document.createElement('li');
       li.className = 'lang-option' + (code === lang ? ' active' : '');
@@ -163782,6 +163794,14 @@
       codeSpan.alt = ''; // décoratif : le nom est repris en texte juste à côté (nameSpan)
       var nameSpan = document.createElement('span');
       nameSpan.className = 'lang-option-name';
+      // lang + dir sur CHAQUE nom (19e audit du 21/09/2026). La page porte la langue du visiteur : sans cet attribut,
+      // un lecteur d'écran prononçait « 日本語 », « ქართული » ou « မြန်မာ » avec la voix française — charabia ou
+      // silence. C'est le seul endroit du site où la règle « langue d'un passage » compte vraiment : un aveugle ne
+      // peut pas choisir sa langue dans un sélecteur de langues. `dir` isole en plus les noms de droite à gauche du
+      // paragraphe qui les entoure, et inversement : « K'iche' » s'affichait « 'K'iche » dans une page en arabe,
+      // l'apostrophe finale étant un caractère neutre qui prenait la direction du paragraphe.
+      nameSpan.setAttribute('lang', code);
+      nameSpan.setAttribute('dir', RTL_LANGS[code] ? 'rtl' : 'ltr');
       nameSpan.textContent = LANG_NAMES[code];
       li.appendChild(codeSpan);
       li.appendChild(nameSpan);
@@ -163824,6 +163844,15 @@
     searchInput.className = 'lang-search';
     searchInput.autocomplete = 'off';
 
+    // Région vivante du sélecteur (19e audit du 21/09/2026) : c'est elle qui fait PRONONCER « aucune langue trouvée ».
+    // Hors écran, polie (elle n'interrompt pas la frappe), et rattachée au champ par aria-describedby.
+    liveEl = document.createElement('div');
+    liveEl.className = 'visually-hidden';
+    liveEl.id = 'lang-search-live';
+    liveEl.setAttribute('role', 'status');
+    liveEl.setAttribute('aria-live', 'polite');
+    searchInput.setAttribute('aria-describedby', liveEl.id);
+
     listEl = document.createElement('ul');
     listEl.className = 'lang-option-list';
     listEl.id = 'lang-option-list';
@@ -163833,6 +163862,7 @@
 
     panelEl.appendChild(searchInput);
     panelEl.appendChild(listEl);
+    panelEl.appendChild(liveEl); // en dernier : le panneau garde l ordre « champ, liste » sur lequel les tests s appuient
 
     switcherRoot.appendChild(buttonEl);
     switcherRoot.appendChild(panelEl);

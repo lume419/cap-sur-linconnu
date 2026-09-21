@@ -15518,8 +15518,6 @@ ko;점리;Jeomni
 ko;어덕;Eodeok
 ko;기시리;Gisiri
 ko;오음실;Oeumsil
-ko;거창;Koch’ang
-ko;거창군;Koch’ang
 ko;신원;Sinwon
 ko;범모퉁;Beommotung
 ko;골땀;Golttam

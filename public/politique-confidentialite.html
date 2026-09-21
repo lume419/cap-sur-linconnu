@@ -95,8 +95,9 @@
     vive uniquement</strong> l'adresse IP d'origine de certaines requêtes, avec l'heure de chaque requête :
     les requêtes vers <code>/api/</code> (nombre de requêtes par minute, requêtes en cours vers les
     services tiers, temps de calcul consommé) et les téléchargements des plus gros fichiers du site
-    (scripts et feuille de style, limités à 30 par minute ; une simple revalidation par votre navigateur d'un fichier déjà
-    en cache, réponse 304, n'est pas décomptée). Ces compteurs portent sur la dernière minute ;
+    (scripts et feuille de style, limités à 30 requêtes ET à 220 Mo par minute ; une simple revalidation par votre
+    navigateur d'un fichier déjà en cache, réponse 304, n'est décomptée ni en requêtes ni en octets) et le temps de
+    calcul cumulé des recherches de ville trop courtes pour être comptées une par une. Ces compteurs portent sur la dernière minute ;
     ils sont purgés toutes les minutes, si bien qu'une adresse IP peut rester en mémoire jusqu'à environ
     deux minutes après votre dernière requête. Ces informations ne sont jamais écrites sur disque, ni
     journalisées, ni transmises, et disparaissent au plus tard à ce nettoyage ou au redémarrage du serveur.

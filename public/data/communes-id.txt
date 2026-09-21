@@ -4605,6 +4605,7 @@
 0;102.6500,1.0500;28755;Riau;Setatah
 0;115.5351,-3.7917;72275;South Kalimantan;Setarap
 0;116.5001,3.3992;77554;North Kalimantan;Setarap
+0;109.0000,1.0000;79123;West Kalimantan;Setapok
 0;136.0165,-0.8350;98153;Papua;Eroroa
 0;116.7267,-1.3525;76142;East Kalimantan;Sesumpu
 0;116.5980,-1.4058;76284;East Kalimantan;Sesulu
@@ -6157,6 +6158,7 @@
 0;128.1333,-8.2167;97454;Maluku;Polira
 0;121.8333,-4.1333;93519;Southeast Sulawesi;Poli-polia
 0;119.9667,-0.9000;94364;Central Sulawesi;Polipabone
+0;120.0000,0.0000;94475;Central Sulawesi;Poli
 0;119.6297,-4.2643;90752;South Sulawesi;Polewali
 65800;119.3435,-3.4324;91311;West Sulawesi;Polewali
 0;112.6461,-7.9867;65121;East Java;Polehan
@@ -14525,6 +14527,7 @@
 0;109.9333,-7.5667;54224;Central Java;Botorejo
 0;110.7167,-0.5667;78853;West Kalimantan;Botongsimau
 0;126.4823,-3.4227;97572;Maluku;Botit
+0;130.0000,-3.0000;97557;Maluku;Boti
 0;122.3165,-8.6878;86181;East Nusa Tenggara;Botang
 0;124.4564,-8.1526;85819;East Nusa Tenggara;Bhota
 0;136.2283,-1.1572;98152;Papua;Bosnik
@@ -16179,6 +16182,7 @@
 0;120.6667,0.8333;94516;Central Sulawesi;Abali
 0;101.3757,-1.3298;27779;West Sumatra;Abai
 0;124.8714,-8.9903;85764;East Nusa Tenggara;Abat
+0;116.0000,4.0000;77155;North Kalimantan;Kapulu
 0;104.9496,-0.2884;29874;Riau Islands;Bulungkor
 0;121.7526,-7.4186;92863;South Sulawesi;Gorauupa
 0;112.1667,-7.1667;62275;East Java;Taban
@@ -154596,6 +154600,8 @@
 0;124.5660,1.0015;95999;North Sulawesi;Beringin
 0;116.4036,-2.0785;76261;South Kalimantan;Petangis
 0;107.6550,-6.8978;40195;West Java;Saung Angklung Udjo
+0;120.0000,-5.0000;92767;South Sulawesi;Seminyak
+0;120.0000,-5.0000;92767;South Sulawesi;Nusa Dua
 0;119.5218,-1.0413;91574;South Sulawesi;Bolai
 0;119.5185,-1.0004;91574;South Sulawesi;Pebondo Dua
 0;119.7023,-1.0686;94362;Central Sulawesi;Boneludu

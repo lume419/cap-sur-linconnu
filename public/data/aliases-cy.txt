@@ -4,7 +4,6 @@ el;Κιόνια;Kiónia
 el;Ποταμός του Κάμπου;Potamós tou Kámpou
 el;Ágios Ioánnis;Ayios Ioannis
 el;Άγιος Ιωάννης;Ayios Ioannis
-el;Χολέτρια;Cholétria
 el;Στατός-Άγιος Φώτιος;Statós-Ágios Fótios
 en;Statos–Agios Fotios;Statós-Ágios Fótios
 el;Πάνω Πύργος;Páno Pýrgos
@@ -954,9 +953,6 @@ el;Άγιος Σάββας;Agios Savvas
 el;Αγία Μαρίνα Κελοκεδάρων;Ayia Marina Kelokedharon
 el;Δήμος Πάφου;Paphos Municipality
 el;Άγιος Θεόδωρος;Ayios Theodoros
-en;Polis, Cyprus;Polis
-el;Πόλη Χρυσοχούς;Polis
-el;Δήμος Πόλεως Χρυσοχούς;Polis
 el;Άγιος Παύλος;Ayios Pavlos
 el;Άρσος;Arsos
 el;Άγιοι Ανάργυροι Ι;Agioi Anargyroi I

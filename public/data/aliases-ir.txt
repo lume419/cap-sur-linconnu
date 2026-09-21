@@ -4730,7 +4730,6 @@ fa;علمده شرقی;‘Alamdeh-e Sharqī
 fa;علمده غربی;‘Alamdeh-e Gharbī
 fa;دار کلای علیا;Dār Kolāy-e ‘Olyā
 fa;دار کلا;Dār Kolāy-e ‘Olyā
-fa;عالی دَرِّه;`Ālī Darreh
 fa;عالی چَنگَل;‘Ālī Jangal
 fa;عالی جنگل;‘Ālī Jangal
 fa;عبداللّه آباد;‘Abdollāhābād
@@ -22822,9 +22821,6 @@ fa;عسگر آباد;‘Asgarābād-e ‘Abbāsī
 fa;علياباد والی;‘Alīābād
 fa;عَليابادِ مُحيط;‘Alīābād-e Moḩīţ
 fa;علی آباد محيط;‘Alīābād-e Moḩīţ
-fa;علی آباد آهيه;Ahīyeh
-fa;آهيه;Ahīyeh
-fa;اهيه;Ahīyeh
 fa;عبدل آباد;Abdollāhābād
 fa;عبدالله آباد;Abdollāhābād
 fa;عباس آباد لرنی;‘Abbāsābād-e Larnī
@@ -66512,7 +66508,6 @@ fa;اسماعيل محله;Esmā‘īl Maḩalleh
 fa;شَرَف آباد;Pā’īn Sharafābād
 fa;پائين شرف آباد;Pā’īn Sharafābād
 fa;تَكنار;Taknār
-fa;كَلَگَر مَحَلِّه;Kalagar Maḩalleh
 fa;زيار محله;Zīār Maḩalleh
 fa;سيد محله;Seyyed Maḩalleh
 fa;اِسلامدِهِ بالا;Eslāmdeh-e Bālā
@@ -68419,7 +68414,6 @@ fa;چاه عالی;Chāh-e ‘Alī
 fa;مغان شاهی;Moghān Shāhī
 fa;دهان;Dahān
 fa;بنت;Bent
-fa;چال تَرخان;Chāl Tarkhān
 fa;كوهک;Kūhak
 fa;سعادتیه کوهک;Kūhak
 fa;چيتگَرِ جُنوبی;Shahrak-e Chītgar-e Shomālī
@@ -72690,7 +72684,6 @@ fa;ابو طویج;Abū Ţavīj
 fa;ابو تویج;Abū Ţavīj
 fa;حسینیه خزیر;Ḩoseynīyeh-ye Kheẕayer
 fa;حسینیه خضیر;Ḩoseynīyeh-ye Kheẕayer
-fa;شعیطه;Sho‘eyţeh
 fa;حسینیه علیا;Ḩoseynīyeh-ye ‘Olyā
 fa;حسینیه وسطی;Ḩoseynīyeh-ye Mīr Moḩammad
 fa;حسینیه میر محمد;Ḩoseynīyeh-ye Mīr Moḩammad
@@ -72888,7 +72881,6 @@ fa;فیای;Favāẕel-e Do
 fa;سادات فاضل سه;Seyyed Şāleḩ
 fa;بیت سیّد علی;Seyyed Şāleḩ
 fa;سید صالح;Seyyed Şāleḩ
-fa;حموله;Ḩamūleh
 fa;یوبیله;Yabīleh-ye Raḩmān
 fa;یبیله رحمان;Yabīleh-ye Raḩmān
 fa;شیخ رحمان;Yabīleh-ye Raḩmān
@@ -73476,7 +73468,6 @@ fa;پشته مهنو;Poshteh Shahbāz-e Māh Now
 fa;پشته علی آباد;‘Alīābād
 fa;تلابی;Talābī
 fa;سنجری;Sanjarī
-fa;حکمی پائین;Ḩakamī-ye Pā'īn
 fa;ملا حسنی;Mollā Ḩasanī
 fa;ده وسطی پشت باغ;Deh-e Vosţá-ye Posht Bāgh
 fa;سورغان;Sūrghān
@@ -75060,7 +75051,6 @@ fa;Alḩāşī;Almīr
 fa;المیر;Almīr
 fa;اوجله;Ojleh
 fa;قیصریه وسطی;Qeyşarīyeh-ye Vosţá
-fa;قیصریه سفلی;Qeysarīyeh-ye Soflá
 fa;احمد آباد موالی;Aḩmad-e Mavālī
 fa;بیت شیاع;Beyt-e Shīā‘
 fa;سعیدیّه;Beyt-e Shīā‘
@@ -75471,7 +75461,6 @@ fa;کلاه دراز آقا جان;Kolāh Derāz-e Āqājān
 fa;سوخور شهباز;Sūkhvor Shahbāz
 fa;چشمه پهن چلّه;Cheshmeh Pahn-e Chelleh
 fa;فتح المبین قمرالی چله;Fatḩ ol Mobīn Qamrālī-ye Chelleh
-fa;کولسوند;Kūlsavānd
 fa;بیراست;Bīrāst
 fa;میر مینگه سفلی;Mīr Mīngeh-ye Soflā
 fa;دره خیزان سفلی;Darreh Khīzān-e Soflā
@@ -76349,8 +76338,6 @@ fa;عالی آباد;Qamarābād
 fa;داربید زنگیوند;Dārband-e Zangīvand-e Mīr Beyg
 fa;داربند زنگی وند میر بیگ;Dārband-e Zangīvand-e Mīr Beyg
 fa;داربید زنگیوند میر بیگ;Dārband-e Zangīvand-e Mīr Beyg
-fa;تنگ پری;Tang-e Parī-ye ‘Olyā
-fa;تنگ پری علیا;Tang-e Parī-ye ‘Olyā
 fa;شوه;Shovah
 fa;دارونه;Dārvand
 fa;چهار افشار علیا;Chahār Afshār-e ‘Olyā
@@ -77818,9 +77805,6 @@ fa;خره سیاه;Khareh Sīāh
 fa;بید گل;Bīd Hel
 fa;بيد هل;Bīd Hel
 fa;درّه زردی;Darreh Zardī
-fa;زالی آباد لاخری علیا;Zālīābād
-fa;زالی آباد;Zālīābād
-fa;زالی آباد لاخری سفلی;Zālīābād
 fa;تنگ خیّاط;Zīrtang-e Khayyāţ
 fa;زیرتنگ خیاط;Zīrtang-e Khayyāţ
 fa;زير تَنگ;Zīrtang-e Khayyāţ
@@ -79949,7 +79933,6 @@ fa;شهید یوسف زاده;Shahrak-e Shahīd Yūsefzādeh
 fa;عباس آباد;‘Abbāsābād-e Ḩowr
 fa;عباس آباد حور;‘Abbāsābād-e Ḩowr
 fa;موتور عباس آباد بالا حور;‘Abbāsābād-e Ḩowr
-fa;حسن جهازی;Ḩasan Jahāzī
 fa;پوراحمدی;Pūraḩmadī
 fa;پارینگ امیری;Pārīng-e Amīrī
 fa;میرزا آباد;Mīrzāābād-e Pārīg
@@ -83129,7 +83112,6 @@ fa;کلات جعفر;Kalāt-e Ja‘far
 fa;تکزرد;Kalāt-e Ja‘far
 fa;علادر پائين;‘Alādar-e Pā’īn
 fa;الادر پائين;‘Alādar-e Pā’īn
-fa;کلات ميرعلی;Kalāt-e Mīr‘alī
 fa;درويشی;Chāh-e Darvīshī
 fa;چاه درويشی;Chāh-e Darvīshī
 fa;يوشت;Yūsht
@@ -83772,9 +83754,6 @@ fa;سرکوره;Sarkūreh
 fa;تو کله دلی ریچ علیا;Sarkūreh
 fa;کل گه;Kal Geh
 fa;کل گه دلی ریچ علیا;Kal Geh
-fa;ده صفر;Safarābād
-fa;صفر آباد;Safarābād
-fa;صفر آباد چین;Safarābād
 fa;ده بر آفتاب چین;Deh-e Derāz
 fa;نسا كوه;Deh-e Maz̄kūr
 fa;ده مذکور;Deh-e Maz̄kūr
@@ -84232,7 +84211,6 @@ fa;پلام رحیمی;Palam-e Raḩīmī
 fa;پلم رحیمی;Palam-e Raḩīmī
 fa;سر قلعه زیوار;Palam-e Raḩīmī
 fa;ضیاله;Ẕīāleh
-fa;پلام زیوار;Palām-e Zīvār
 fa;پلام باغی;Palām-e Bāghī
 fa;Şafī;Shemīn Zīr Āb
 fa;صفی;Shemīn Zīr Āb
@@ -84396,7 +84374,6 @@ fa;شهرک میثاق;Shahrak-e Mīs̄āq
 fa;رباط کوه;Robāţ Kūh
 fa;دورك سورو;Dowrak
 fa;دورک;Dowrak
-fa;طبرك سفلی;Ţabarak-e Soflá
 fa;دیناب میان دهان;Dīnāb-e Mīān Dahān
 fa;کفت قلعه;Kaft Qal‘eh
 fa;Nāzīābād;Nāzī
@@ -90331,7 +90308,6 @@ fa;گونچان;Gavanchān
 fa;اسلام آباد کهن چنگر;Gavanchān
 fa;کاهوری;Kāḩūrī
 fa;پشته محمد آباد;Poshteh-ye Moḩammadābād
-fa;سوريان;Sūrīān
 fa;نيلو;Nīlū
 fa;شيطان آباد;Emāmābād
 fa;خندان;Khandān

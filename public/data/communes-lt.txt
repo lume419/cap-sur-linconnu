@@ -6704,7 +6704,6 @@
 0;22.3139,55.1200;74012;Jurbarko r. sav.;Jūrava
 0;22.8194,55.0259;74001;Jurbarko r. sav.;Sutkiai
 0;22.3447,55.2869;72001;Tauragės r. sav.;Trakšeliškiai
-0;22.0031,55.4033;75020;Šilalės r. sav.;Bikavenai
 0;22.4554,55.1053;74012;Jurbarko r. sav.;Leipgiriai
 0;22.8377,54.7389;71049;Šakių r. sav.;Keturkaimis
 0;22.8848,54.6222;70061;Vilkaviškio r. sav.;Dailučiai

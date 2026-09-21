@@ -204,28 +204,50 @@ const base = (d, extra) => Object.assign({ departureCity: d, days: 7, budgetKey:
   avoidTent: false, avoidTension: true, tripStart: AN + '-10-01' }, extra || {});
 const run = (p, seed) => H.withSeed(seed, () => E.generateTrip(p));
 
-test('le vérificateur détecte des défauts injectés (sinon les invariants ne prouveraient rien)', () => {
+test('le vérificateur détecte des défauts injectés, et dans la BONNE famille', () => {
+  // 19e audit du 21/09/2026. La version précédente injectait neuf défauts et se contentait de « au moins une
+  // violation » : deux de ses étiquettes désignaient une famille qui n'était pas celle qui réagissait, et dix-huit
+  // familles sur vingt-huit n'étaient jamais éprouvées — dont « mer », « frontiere », « recharge » et « doublons »,
+  // c'est-à-dire des contrôles de sécurité. Chaque injection déclare maintenant la ou les familles qu'elle DOIT faire
+  // lever, et le test vérifie en plus que l'ensemble des familles visées est bien couvert.
   const p0 = base(H.dep('Lyon', 'FR'), { transportKey: 'voiture-electrique', days: 8, maxLegKm: 300, minDistanceKm: 200 });
   const r0 = run(p0, 42);
   assert.ok(r0.legs.length > 0, 'tirage de référence vide');
   assert.deepEqual(H.check(p0, r0, 0).v, [], 'le tirage de référence doit être sans violation');
+  // [nom, injection, familles attendues]
   const muts = [
-    ['distance', r => { r.legs[2].distanceKm += 100; }],
-    ['nuits', r => { r.legs[1].norm = 'zzz'; }],
-    ['retour', r => { r.legs[r.legs.length - 1].lat += 1; }],
-    ['ferry', r => { r.legs[0].ferryInfo = { routeKey: 'x', amount: 1, durationH: 1 }; }],
-    ['peage', r => { r.legs[0].tollInfo = { enabled: true, amount: 5, countries: ['CH'], tolledKm: 50, rate: 0.1 }; }],
-    ['valeurs', r => { r.legs[0].travelMin = NaN; }],
-    ['dates', r => { r.legs[1].checkIn = '2020-01-01'; }],
-    ['tension', r => { r.legs[0].tension = { level: 'red' }; }],
-    ['maxLeg', r => { const l = r.legs.find((x, i) => i > 0 && !x.isReturn && x.norm !== r.legs[i - 1].norm); if(l) l.distanceKm = 900; }],
+    // Une étape qui VOYAGE : allonger la distance d'une journée sur place lève « journeeSurPlace », pas « distance ».
+    ['distance allongée', r => { const l = r.legs.find((x, i) => i > 0 && x.distanceKm > 0 && !x.isReturn); l.distanceKm += 100; }, ['distance']],
+    ['retour ailleurs', r => { r.legs[r.legs.length - 1].lat += 1; }, ['retour']],
+    ['ferry inventé', r => { r.legs[0].ferryInfo = { routeKey: 'x', amount: 1, durationH: 1 }; }, ['ferry']],
+    ['péage dans un pays sans barème', r => { r.legs[0].tollInfo = { enabled: true, amount: 5, countries: ['CH'], tolledKm: 50, rate: 0.1 }; }, ['peage']],
+    ['durée NaN', r => { r.legs[0].travelMin = NaN; }, ['valeurs']],
+    ['date d\'arrivée dans le passé', r => { r.legs[1].checkIn = '2020-01-01'; }, ['dates']],
+    ['tension inventée', r => { r.legs[0].tension = { level: 'red' }; }, ['tension']],
+    ['étape au-delà du plafond', r => { const l = r.legs.find((x, i) => i > 0 && !x.isReturn && x.norm !== r.legs[i - 1].norm); if(l) l.distanceKm = 900; }, ['maxLeg']],
+    ['étape en plein océan', r => { r.legs[1].lat = 40; r.legs[1].lon = -40; }, ['mer']],
+    ['étape sautée au Japon', r => { r.legs[1].lat = 35.68; r.legs[1].lon = 139.76; r.legs[1].country = 'JP'; }, ['frontiere', 'mer']],
+    ['recharges effacées', r => { r.legs.forEach(l => { if(l.chargeInfo) l.chargeInfo = null; }); }, ['recharge']],
+    ['recharges inventées', r => { const l = r.legs.find(x => x.distanceKm > 100); if(l) l.chargeInfo = { stops: 9, minutes: 999 }; }, ['recharge']],
+    ['étape en double', r => { r.legs.push(JSON.parse(JSON.stringify(r.legs[1]))); }, ['doublons', 'nuitsParVille', 'jours']]
   ];
-  const missed = [];
-  for(const [name, f] of muts){
+  const manqués = [], mauvaiseFamille = [], vues = new Set();
+  for(const [nom, f, attendues] of muts){
     const r = JSON.parse(JSON.stringify(r0)); f(r);
-    if(!H.check(p0, r, 0).v.length) missed.push(name);
+    const v = H.check(p0, r, 0).v;
+    const familles = new Set(v.map(x => x.inv));
+    familles.forEach(x => vues.add(x));
+    if(!v.length){ manqués.push(nom); continue; }
+    const absentes = attendues.filter(x => !familles.has(x));
+    if(absentes.length) mauvaiseFamille.push(nom + ' : attendu ' + absentes.join('+') + ', obtenu ' + [...familles].join('+'));
   }
-  assert.deepEqual(missed, [], 'défauts non détectés');
+  assert.deepEqual(manqués, [], 'défauts non détectés');
+  assert.deepEqual(mauvaiseFamille, [], 'défaut détecté, mais pas par le contrôle censé le voir');
+  // Couverture : les familles que ce test s'engage à éprouver. Les autres restent non couvertes, et c'est écrit
+  // plutôt que sous-entendu — voir le rapport de la 19e passe.
+  const VISEES = ['distance', 'retour', 'ferry', 'peage', 'valeurs', 'dates', 'tension', 'maxLeg', 'mer', 'frontiere',
+    'recharge', 'doublons', 'nuitsParVille', 'jours'];
+  assert.deepEqual(VISEES.filter(x => !vues.has(x)), [], 'famille visée jamais levée par aucune injection');
 });
 
 // ------------------------------------------------------------------------------------------ déterminisme et état

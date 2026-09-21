@@ -15153,7 +15153,6 @@
 0;-5.0161,35.4001;MA-01;Tanger-Tetouan-Al Hoceima;Zaouia
 0;-5.0630,35.3902;MA-01;Tanger-Tetouan-Al Hoceima;Icherguitene
 0;-5.0696,35.3692;MA-01;Tanger-Tetouan-Al Hoceima;Douar Yellane
-0;-2.5700,34.2100;MA-02;Oriental;Saïdene
 0;-5.1768,35.3893;MA-01;Tanger-Tetouan-Al Hoceima;Chrouda Lfouqiya
 0;-5.2342,35.3819;MA-01;Tanger-Tetouan-Al Hoceima;Ahadoune
 0;-5.2443,35.3683;MA-01;Tanger-Tetouan-Al Hoceima;Douar Guemfis
@@ -18438,7 +18437,6 @@
 0;-7.9218,32.4007;MA-07;Marrakesh-Safi;Oulad Taleb
 0;-7.9315,32.4164;MA-07;Marrakesh-Safi;El Azzaba
 0;-7.9453,32.4327;MA-07;Marrakesh-Safi;Douar Oulad Slimane
-0;-7.9452,32.4340;MA-07;Marrakesh-Safi;Douar Oulad Slîmane
 0;-7.9571,32.4500;MA-07;Marrakesh-Safi;Azib Lahranka
 0;-7.9557,32.4792;MA-07;Marrakesh-Safi;Douar Laatainna El Koudis
 0;-7.9255,32.4963;MA-07;Marrakesh-Safi;Oulad Labyad

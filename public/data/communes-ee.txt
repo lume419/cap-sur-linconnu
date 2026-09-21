@@ -2323,7 +2323,6 @@
 0;26.7131,59.5144;44015;Viru-Nigula vald;Mahu
 0;25.0236,59.0911;79407;Rapla vald;Mahtra
 0;25.7833,58.4000;70116;Viljandi vald;Mahma
-0;25.7778,58.3953;70116;Viljandi vald;Mähma
 0;25.4319,58.5519;71412;Põhja-Sakala vald;Mähkküla
 0;25.7383,59.1372;73501;Järva vald;Mägise
 0;22.2102,58.9213;92233;Hiiumaa vald;Mägipe

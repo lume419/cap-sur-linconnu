@@ -4961,7 +4961,6 @@
 0;105.6833,18.4500;VN-42;Hà Tĩnh Province;Thanh Khê
 0;106.5000,20.2833;VN-37;Ninh Binh;Thanh Hương
 0;105.0058,21.6046;VN-25;Phu Tho;Thanh Hương
-0;109.0500,13.0333;VN-66;Dak Lak;Thạnh Hội
 0;109.0500,13.0333;VN-66;Dak Lak;Thanh Hội
 0;105.8333,20.7167;VN-01;Hanoi;Thanh Hội
 0;105.3167,20.5500;VN-25;Phu Tho;Thanh Hối
@@ -21307,7 +21306,6 @@
 0;104.6833,20.5833;VN-38;Thanh Hóa Province;Bản Nalai
 0;103.4167,21.3833;VN-14;Sơn La Province;Bản Na La
 0;104.5167,19.3167;VN-40;Nghệ An Province;Bản Na Khom
-0;103.9500,21.1667;VN-14;Sơn La Province;Bản Na Khoang
 0;103.6500,21.4667;VN-14;Sơn La Province;Bản Na Khoan
 0;103.7500,21.0500;VN-14;Sơn La Province;Bản Na Khoa
 0;103.7667,21.3167;VN-14;Sơn La Province;Bản Na Khê
@@ -34548,7 +34546,6 @@
 0;106.0620,21.4086;VN-24;Bac Ninh;Tân An
 0;106.0614,21.4038;VN-24;Bac Ninh;Vân Trung
 0;106.0662,21.4014;VN-24;Bac Ninh;Đông Thanh
-0;106.0721,21.3983;VN-24;Bac Ninh;Bãi Giữa
 0;106.1459,21.3968;VN-24;Bac Ninh;Bờ Thơ
 0;106.1521,21.3975;VN-24;Bac Ninh;Đất Đỏ
 0;106.1648,21.3973;VN-24;Bac Ninh;Lương An
@@ -35421,7 +35418,6 @@
 0;106.1284,21.2079;VN-24;Bac Ninh;Thông Thượng
 0;106.1891,21.2468;VN-24;Bac Ninh;Am Trứ
 0;106.2015,21.2424;VN-24;Bac Ninh;Tân Mỹ
-0;106.2251,21.2498;VN-24;Bac Ninh;Văn Sơn
 0;106.2344,21.2446;VN-24;Bac Ninh;Liễu Đê
 0;106.2352,21.2250;VN-24;Bac Ninh;Liễu Nham
 0;106.2140,21.2263;VN-24;Bac Ninh;Tân Độ

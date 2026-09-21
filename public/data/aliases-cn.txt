@@ -394513,7 +394513,6 @@ zh;科克塔克村;Keketagecun
 zh;科克塔格村;Keketagecun
 zh;库木恰喀;Kumuqiaka
 zh;巴库勒德;Bakulede
-zh;阿克欧吞村;Ake’outuncun
 zh;翁库尔力克阿格孜;Wengku’er Like Aagezi
 zh;阿亚格亚村;Ayage Yacun
 zh;喀尕买里村;Kagamailicun
@@ -479330,7 +479329,6 @@ zh;德庆当;Deqingdang
 zh;德庆当村;Deqingdang
 zh;穷果当;Deqingdang
 zh;卡东;Kadong
-zh;处迂;Chuyu
 zh;孙家垅;Sunjialong
 zh;永塘;Yongtang
 zh;湍源;Tuanyuancun

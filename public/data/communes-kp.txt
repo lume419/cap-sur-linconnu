@@ -2472,7 +2472,6 @@
 0;125.8611,38.8603;KP-12;Pyongyang;Taech’ang-gol
 0;125.2576,38.3209;KP-06;South Hwanghae;Taech’a-ch’on
 0;126.3139,39.2459;KP-15;South Pyongan;Taebu-ri
-0;126.8680,38.3303;KP-07;North Hwanghae;Pukp'o-ri
 0;125.5636,39.0128;KP-15;South Pyongan;Taebosal-li
 0;124.7605,39.8957;KP-11;P'yŏngan-bukto;T’aebong-ni
 0;124.7583,39.8722;KP-11;P'yŏngan-bukto;Taebong-ni
@@ -8394,7 +8393,6 @@
 0;125.6086,38.1447;KP-06;South Hwanghae;Ka-ch’on
 0;125.5586,38.1008;KP-06;South Hwanghae;Ka-ch’on
 0;125.1503,38.0422;KP-06;South Hwanghae;Ka-ch’on
-0;125.8816,38.4733;KP-07;North Hwanghae;Kach’ol-li
 0;125.5333,37.9833;KP-06;South Hwanghae;Kach’isan-dong
 0;126.5987,37.9917;KP-19;Kaesong;Kach’irŭng
 0;126.1903,38.4038;KP-07;North Hwanghae;Kach’ang-ni
@@ -12762,7 +12760,6 @@
 0;126.6406,38.1863;KP-07;North Hwanghae;Yangji-dong
 0;126.6673,38.1798;KP-07;North Hwanghae;Sangsŭnggok-tong
 0;126.6358,38.1737;KP-07;North Hwanghae;Hyogyŏng-dong
-0;126.6784,38.1712;KP-07;North Hwanghae;Sŏkch'ol-li
 0;126.6051,38.1579;KP-07;North Hwanghae;Kwangch’on-dong
 0;126.7003,38.1424;KP-07;North Hwanghae;Ryongsan-dong
 0;126.6005,38.1209;KP-07;North Hwanghae;Paerŭng-dong
@@ -12948,7 +12945,6 @@
 0;126.6118,38.3216;KP-07;North Hwanghae;Hwagok-tong
 0;126.6341,38.3035;KP-07;North Hwanghae;Sŏgwŏl-dong
 0;126.6187,38.2945;KP-07;North Hwanghae;Murŭng-dong
-0;126.6658,38.2978;KP-07;North Hwanghae;Songch'ŏl-li
 0;126.6531,38.2823;KP-07;North Hwanghae;Sŏkpong-ni
 0;126.6177,38.2763;KP-07;North Hwanghae;Sŏmin-dong
 0;126.6461,38.2531;KP-07;North Hwanghae;Kullyang-gol
@@ -15558,7 +15554,6 @@
 0;126.9417,38.4771;KP-09;Kangwŏn-do;Rŭngu-dong
 0;127.0064,38.4997;KP-09;Kangwŏn-do;Namjwa-ri
 0;127.0647,38.4997;KP-09;Kangwŏn-do;Tongmakkol
-0;127.1014,38.4750;KP-09;Kangwŏn-do;Konji-dong
 0;127.1913,38.4935;KP-09;Kangwŏn-do;Araesŏng-dong
 0;127.1672,38.4714;KP-09;Kangwŏn-do;Araemal
 0;127.1943,38.4344;KP-09;Kangwŏn-do;Nae-dong
@@ -16849,7 +16844,6 @@
 0;126.2444,38.1400;KP-06;South Hwanghae;Songam-ni
 0;126.2286,38.1553;KP-06;South Hwanghae;Hwangjŏn-dong
 0;126.2188,38.1457;KP-06;South Hwanghae;Tokchŏng
-0;126.1984,38.1346;KP-06;South Hwanghae;Kusŏng-dong
 0;126.2000,38.1392;KP-06;South Hwanghae;Namjŏng-dong
 0;126.1925,38.1353;KP-06;South Hwanghae;Sangsan
 0;126.1874,38.1303;KP-06;South Hwanghae;Sin-ch’on
@@ -17342,7 +17336,6 @@
 0;127.7562,38.4624;KP-09;Kangwŏn-do;Yugong-ni
 0;127.7498,38.4725;KP-09;Kangwŏn-do;Hŭrigol
 0;127.7258,38.4481;KP-09;Kangwŏn-do;Makkol
-0;127.7779,38.4223;KP-09;Kangwŏn-do;Sangp'al-li
 0;127.7764,38.4072;KP-09;Kangwŏn-do;Choch’a
 0;127.7737,38.4132;KP-09;Kangwŏn-do;Kanch’ŏl-li
 0;127.7952,38.3955;KP-09;Kangwŏn-do;Migol
@@ -23460,7 +23453,6 @@
 0;129.8848,41.9007;KP-17;North Hamgyong;Kisŭng-dong
 0;129.8844,41.8679;KP-17;North Hamgyong;Moesandan
 0;127.7634,41.3357;KP-13;Yanggang-do;Sangdonggu-ri
-0;127.7359,41.2915;KP-13;Yanggang-do;Ch'abo-ri
 0;129.6961,41.6875;KP-17;North Hamgyong;Sŏngbuk-tong
 0;129.6375,41.6786;KP-17;North Hamgyong;Sŏngnam-dong
 0;128.2579,41.4243;KP-13;Yanggang-do;Kŏmsan-dong
@@ -24699,7 +24691,6 @@
 0;129.2625,41.0372;KP-17;North Hamgyong;Namsŏk
 0;129.4108,41.2025;KP-17;North Hamgyong;Hakhyŏn
 0;129.0204,41.9158;KP-17;North Hamgyong;Kuso
-0;129.1259,41.8698;KP-17;North Hamgyong;Samp'o-ri
 0;129.7111,41.9133;KP-17;North Hamgyong;Kuam-dong
 0;129.5453,41.7900;KP-17;North Hamgyong;Sup’ul-gol
 0;129.3890,41.4422;KP-17;North Hamgyong;Ŏmhyanggol
@@ -27597,7 +27588,6 @@
 0;125.7567,40.3856;KP-01;Chagang;Samgŏ-ri
 0;125.7447,40.3652;KP-01;Chagang;Ch’ang-dong
 0;125.8042,40.2633;KP-01;Chagang;Sobaekka-dong
-0;125.8570,40.2751;KP-01;Chagang;Ch'ap'yŏng-ni
 0;125.9922,40.3128;KP-01;Chagang;Nŭngdae-dong
 0;125.8881,40.3258;KP-01;Chagang;Wŏndae-ri
 0;125.8986,40.3839;KP-01;Chagang;Sa-dong
@@ -30034,7 +30024,6 @@
 0;125.5350,38.6464;KP-06;South Hwanghae;Sin’gi-dong
 0;125.5292,38.6508;KP-06;South Hwanghae;Ipsŏk-tong
 0;125.5308,38.6505;KP-06;South Hwanghae;Ŭiyo-dong
-0;125.4881,38.7478;KP-15;South Pyongan;Chiŭl-li
 0;125.4886,38.7325;KP-15;South Pyongan;Kŏnguk-tong
 0;125.5425,38.6878;KP-06;South Hwanghae;Manwŏl-li
 0;125.5342,38.6797;KP-07;North Hwanghae;Ch’ŏngdae-ri
@@ -30523,7 +30512,6 @@
 0;129.8746,42.7353;KP-17;North Hamgyong;Kŭmsŏ-dong
 0;129.8038,42.7441;KP-17;North Hamgyong;Obong-dong
 0;129.8115,42.6830;KP-17;North Hamgyong;Saembau
-0;129.7536,42.5323;KP-17;North Hamgyong;In'gye-ri
 0;129.9605,42.6722;KP-17;North Hamgyong;To-gol
 0;129.8927,42.7150;KP-17;North Hamgyong;Kyesu-dong
 0;129.7773,42.5490;KP-17;North Hamgyong;Odaesan'gol
@@ -31975,7 +31963,6 @@
 0;125.4893,40.2654;KP-11;P'yŏngan-bukto;Kup'aeng
 0;125.4489,40.4665;KP-11;P'yŏngan-bukto;Sinjung
 0;125.4373,40.3275;KP-11;P'yŏngan-bukto;Kuryongbawi
-0;125.4403,40.4801;KP-11;P'yŏngan-bukto;Kangsŏn'gol
 0;125.2665,40.3731;KP-11;P'yŏngan-bukto;Sanghŭng-dong
 0;125.4950,40.4270;KP-11;P'yŏngan-bukto;Pŏngdŏk-kol
 0;125.0718,40.3097;KP-11;P'yŏngan-bukto;Onjŏng

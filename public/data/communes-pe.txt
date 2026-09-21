@@ -6002,7 +6002,6 @@
 0;-80.2923,-4.8337;20200;Piura;Carneros
 0;-80.2683,-4.8388;20200;Piura;Cruceta
 630;-80.2890,-4.9048;20200;Piura;San Pedrillo
-0;-80.3517,-4.8792;20200;Piura;Colera
 0;-80.3550,-4.8897;20200;Piura;Colera
 0;-80.3769,-4.9127;20200;Piura;Pedregal
 0;-80.4285,-4.9120;20200;Piura;Chico Alto
@@ -9493,7 +9492,6 @@
 3;-75.7327,-13.2697;11850;Ica;Santuario
 0;-77.0167,-12.0667;15018;Lima region;Santoyo
 556;-74.4188,-13.1130;09460;Huancavelica;Santo Tomás de Pata
-0;-72.0819,-14.4505;08421;Cuzco Department;Santo Tomás
 0;-71.7662,-17.0937;04431;Arequipa;Santo Domingo Hacienda
 91;-76.5121,-12.2149;15590;Lima region;Santo Domingo de Los Olleros
 472;-74.7953,-11.7691;12241;Junin;Santo Domingo de Acobamba
@@ -10353,7 +10351,6 @@
 0;-75.5167,-11.4167;12825;Junin;Quota
 277;-74.1565,-13.0218;05170;Ayacucho;Quiturara
 5;-69.7333,-13.9833;21245;Puno;Quitún
-0;-75.3276,-13.5285;09665;Huancavelica;Quito-Arma
 151;-75.3275,-13.5292;09665;Huancavelica;Quito Arma
 0;-73.9063,-13.2923;05290;Ayacucho;Quito
 0;-76.5508,-10.5267;19600;Pasco;Quitishcancha
@@ -13438,6 +13435,7 @@
 516;-73.2224,-16.4007;04470;Arequipa;La Planchada
 90;-76.0385,-13.4845;11740;Ica;La Pinta
 344;-76.7982,-11.3722;15205;Lima region;La Perla
+107;-77.0000,-11.0000;15255;Lima region;La Perla
 0;-75.2200,-15.2527;11420;Ica;La Pedregosa
 0;-71.1023,-16.0667;04210;Arequipa;La Patera
 103;-70.8530,-17.0837;18100;Moquegua Department;La Pascana
@@ -20050,7 +20048,6 @@
 0;-71.4050,-17.3833;18610;Moquegua Department;Platanar
 0;-71.4003,-17.3764;18610;Moquegua Department;Los Molles
 0;-70.0329,-17.8372;23550;Tacna;Lluta
-0;-71.5036,-17.0222;04430;Arequipa;Huaynalen
 0;-71.3178,-17.6219;18620;Moquegua Department;La Glorieta
 1;-71.2724,-17.6220;18620;Moquegua Department;La Compañia
 0;-71.3383,-17.6150;18611;Moquegua Department;Pueblo Nuevo
@@ -27973,7 +27970,6 @@
 0;-73.8564,-13.5691;05330;Ayacucho;Astanya
 0;-73.8573,-13.5205;05330;Ayacucho;Cochapata
 344;-73.8009,-13.5255;03850;Apurímac Department;Callebamba
-0;-73.7761,-13.5100;03850;Apurímac Department;Bombón
 0;-73.7262,-13.5259;03851;Apurímac Department;Huancamara
 70;-73.7122,-13.5346;03850;Apurímac Department;Pongoro
 117;-73.7440,-13.5382;03850;Apurímac Department;Ccechuapata
@@ -29497,7 +29493,6 @@
 246;-77.0658,-5.9658;22000;San Martín Department;Pasamayo
 0;-77.0917,-5.9739;22000;San Martín Department;Pajonal
 253;-77.1322,-5.9483;22000;San Martín Department;El Edén
-0;-77.1403,-5.9986;22800;San Martín Department;Faustino Maldonado
 768;-77.3416,-5.9489;22845;San Martín Department;La Florida
 193;-77.4203,-5.0131;16600;Loreto;Pachacútec
 0;-77.3464,-5.0222;16600;Loreto;Zapayacu
@@ -29933,7 +29928,6 @@
 21;-69.7302,-17.1779;21650;Puno;Tirata
 0;-69.7860,-17.1632;21650;Puno;Callaguire
 0;-69.7997,-17.0583;21650;Puno;Inchupalla
-0;-69.7814,-17.0792;21650;Puno;Lecañani
 0;-69.7794,-17.0819;21650;Puno;Pampapuchane
 0;-69.7194,-17.1054;21650;Puno;Capillune
 0;-69.7314,-17.0993;21650;Puno;Jachuta
@@ -31604,7 +31598,6 @@
 31;-75.9603,-9.2319;10140;Huánuco Department;Nuevo Panao
 0;-75.9465,-9.4666;10120;Huánuco Department;Palmas
 0;-75.5932,-9.0767;25550;Ucayali;Pampa Hermosa
-0;-75.6378,-9.0589;25550;Ucayali;Boqueron
 0;-75.8687,-9.1766;10150;Huánuco Department;Pendencia Alta
 0;-75.9604,-9.1481;10170;Huánuco Department;Pendencia Baja
 0;-75.9416,-9.1601;10150;Huánuco Department;Peregrinos
