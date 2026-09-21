@@ -27,6 +27,13 @@
 // (pairEstimated du moteur, ou déduite : distance/durée différentes de toutes celles de la liaison), trajets directs
 // Gênes → Palerme & co. avec témoins sur les paires de référence.
 'use strict';
+
+// DATE DE DÉPART DES TIRAGES, figée pour que la même graine donne le même voyage d'un mois sur l'autre. Mais
+// parseIsoDate (lib/trip-engine.js) n'accepte qu'une date comprise entre l'année PRÉCÉDENTE et trois ans plus tard :
+// à partir de 2028, « 2026-10-01 » serait refusée et le moteur repartirait SILENCIEUSEMENT à la date du jour
+// (20e audit du 21/09/2026). Le contrôle plus bas, dans buildTirages, lève alors une erreur explicite.
+const TRIP_START = '2026-10-01';
+const TRIP_START_AN = Number(TRIP_START.slice(0, 4)), AN_COURANTE = new Date().getFullYear();
 const fs = require('fs');
 const path = require('path');
 const Module = require('module');
@@ -543,9 +550,15 @@ async function runWorker(job, log){
     const place = depCache.get(t.dep);
     if(!place) return null;
     return { d, place, params: Object.assign({ departureCity: depObj(place), days: 1, budgetKey: 'moyen', transportKey: t.mode, tollEnabled: true,
-      ferryEnabled: true, avoidTent: false, avoidTension: true, tripStart: '2026-10-01' }, t.extra) };
+      ferryEnabled: true, avoidTent: false, avoidTension: true, tripStart: TRIP_START }, t.extra) };
   };
   const tagsOf = d => d[3].concat(banFull(d[2]) ? ['moto-interdite'] : []);
+  // Voir TRIP_START : hors fenêtre, le moteur repartirait à la date du jour et la comparaison ne porterait plus
+  // sur les mêmes tirages des deux côtés à des dates différentes.
+  if(!(TRIP_START_AN >= AN_COURANTE - 1 && TRIP_START_AN <= AN_COURANTE + 3)){
+    throw new Error('TRIP_START (' + TRIP_START + ') est sorti de la fenêtre acceptée par parseIsoDate (' +
+      (AN_COURANTE - 1) + '-' + (AN_COURANTE + 3) + ') : la relever dans tests/helpers/compare.js');
+  }
   const tStart = Date.now();
   tirages.forEach((t, i) => {
     const p = paramsOf(t);

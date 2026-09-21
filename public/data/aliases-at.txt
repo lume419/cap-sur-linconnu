@@ -4495,3 +4495,18 @@ ru;Ленгенфельд;Längenfeld
 zh;伦根弗尔德;Längenfeld
 hr;Nova Gora;Neuberg im Burgenland
 hu;Újhegy;Neuberg im Burgenland
+ru;Швехат;Schwechat
+sr;Швехат;Schwechat
+uk;Швехат;Schwechat
+ka;შვეხატი;Schwechat
+fa;شوخات;Schwechat
+kk;Швехат;Schwechat
+zh;施韋夏特;Schwechat
+kk;Обернберг-на-Бреннере;Obernberg am Brenner
+uk;Обернберг-ам-Бреннер;Obernberg am Brenner
+ru;Обернберг-на-Бреннере;Obernberg am Brenner
+zh;布伦纳山口附近奥伯恩贝格;Obernberg am Brenner
+ru;Эрвальд;Ehrwald
+kk;Эрвальд;Ehrwald
+uk;Ервальд;Ehrwald
+zh;埃尔瓦尔德;Ehrwald

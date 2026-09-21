@@ -7564,3 +7564,8 @@ ru;Рееняс;Rejeņas
 ru;Айшпури;Aišpuri
 ru;Струтеле;Strutele
 ru;Жоготи;Žogoti
+en;Jaunķempji;Ķempji
+ru;Кемпьи;Ķempji
+en;Indrica;Lielindrica
+ru;Бол.Индрица;Lielindrica
+ru;Силюкалнс;Sīlukalns

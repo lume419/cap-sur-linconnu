@@ -17,8 +17,21 @@ before(async () => {
   I = E.internals;
 });
 
+// DATE DE DÉPART DES TIRAGES, figée pour que la même graine donne le même voyage d'un mois sur l'autre. Mais
+// parseIsoDate (lib/trip-engine.js) n'accepte qu'une date comprise entre l'année PRÉCÉDENTE et trois ans plus tard :
+// à partir de 2028, « 2026-10-01 » serait refusée et le moteur repartirait SILENCIEUSEMENT à la date du jour — les
+// tirages changeraient, et les attentes de ce fichier porteraient sur autre chose sans qu'aucun test ne bronche
+// (20e audit du 21/09/2026). Le contrôle ci-dessous transforme cette bombe à retardement en échec immédiat et
+// explicite : relever la date, puis revérifier les valeurs attendues du fichier.
+const TRIP_START = '2026-10-01';
+const TRIP_START_AN = Number(TRIP_START.slice(0, 4)), AN_COURANTE = new Date().getFullYear();
+test('date de départ des tirages encore acceptée par le moteur', () => {
+  assert.ok(TRIP_START_AN >= AN_COURANTE - 1 && TRIP_START_AN <= AN_COURANTE + 3,
+    'TRIP_START (' + TRIP_START + ') est sorti de la fenêtre acceptée par parseIsoDate (' + (AN_COURANTE - 1) + '–' + (AN_COURANTE + 3) +
+    ') : le moteur repartirait à la date du jour et les attentes de ce fichier ne porteraient plus sur les mêmes tirages');
+});
 const base = (d, extra) => Object.assign({ departureCity: d, days: 1, budgetKey: 'moyen', transportKey: 'voiture-thermique', tollEnabled: true,
-  ferryEnabled: true, avoidTent: false, avoidTension: true, tripStart: '2026-10-01' }, extra || {});
+  ferryEnabled: true, avoidTent: false, avoidTension: true, tripStart: TRIP_START }, extra || {});
 const run = (p, seed) => H.withSeed(seed, () => E.generateTrip(p));
 // Tirage indépendant de la charge de la machine : horloge ralentie ×10 (budget de 4 s → 40 s réelles), sinon un tirage
 // fait sous charge (autres tests en parallèle) s'arrête plus tôt et la même graine donne un autre voyage.
@@ -365,7 +378,7 @@ test('17e audit : « hors de portée, X km » dit s’il a conclu — X exact, o
   // moteur chaud. Sans le drapeau, la contre-épreuve aurait échoué sur la CHARGE de la machine ; avec un drapeau
   // toujours vrai, elle aurait cessé de contrôler quoi que ce soit. Ce test verrouille les DEUX branches.
   const p = base({ name: 'Tallinn', cp: '10153', lat: 59.437, lon: 24.7535, dept: 'Tallinn', country: 'EE', allCps: ['10153'] },
-    { transportKey: 'van', budgetKey: 'confortable', avoidTent: true, tripStart: '2026-10-02',
+    { transportKey: 'van', budgetKey: 'confortable', avoidTent: true, tripStart: TRIP_START.slice(0, 8) + '02',
       maxRadiusKm: 300, minDistanceKm: 600, maxDistanceKm: 3000, minDaysPerCity: 1, maxDaysPerCity: 3, preferredCurrency: 'JPY' });
   const SEED = 1002629;
   run(p, SEED); // chauffe : le tout premier tirage d'un processus est assez lent pour épuiser le budget du balayage

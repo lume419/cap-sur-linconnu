@@ -1336,3 +1336,10 @@ fa;الاروبیا بماها;Alarobia Bemaha
 bg;Аларобиа;Alarobia
 fa;الاروبیا;Alarobia
 ru;Аларобиа;Alarobia
+fa;وولوئینا;Voloina
+ru;Сандракаци;Sandrakatsy
+fa;ساندراکاتسی;Sandrakatsy
+uk;Маномпана;Manompana
+fa;مانومپانا;Manompana
+fa;ماهازوما;Mahazoma
+fa;امباراکاراکا;Ambarakaraka

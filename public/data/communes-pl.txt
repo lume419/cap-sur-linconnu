@@ -1083,7 +1083,6 @@
 0;20.9408,50.0435;33-102;Tarnów;Zagrody
 0;20.6169,50.0329;32-800;Powiat brzeski;Zagrody
 0;22.0333,50.0000;35-601;Rzeszów;Zagrody
-0;22.0000,50.0000;35-314;Rzeszów;Zagrody
 0;22.8366,49.9519;37-550;Powiat jarosławski;Zagrody
 0;21.0667,49.5667;38-312;Powiat gorlicki;Zagrody
 0;22.5660,50.3622;23-423;Powiat biłgorajski;Zagródki

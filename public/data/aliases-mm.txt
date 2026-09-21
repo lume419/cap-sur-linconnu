@@ -18696,3 +18696,12 @@ hr;Naypyidaw;Nay Pyi Taw
 sr;Нејпјидо;Nay Pyi Taw
 sl;Nepjido;Nay Pyi Taw
 uk;Найп’їдо;Nay Pyi Taw
+my;ရန်ကုန်ပေါက်;Yangon Pauk
+my;ဝါးရုံစွန်း;War Yon Sun
+my;သံပုရာခုံ;Than Pu Yar Khon
+my;နတ်မာ;Nat Mar
+my;အထက်လမုတန်း;Ah Htet La Mu Tan
+my;Chundaung;Kyundaung
+my;ဂီလို အောက်;Gi Lo Lower
+my;ဂီလို အထက်;Gi Lo Upper
+my;တက်သစ်;Tet Thit

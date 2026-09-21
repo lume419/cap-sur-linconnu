@@ -536,3 +536,4 @@ tt;Секонг;Sekong
 uk;Дансаван;Ban Dansavan
 pl;Złoty Trójkąt;Ban Khoan
 uk;Золотий Трикутник;Ban Khoan
+lo;Phou La Vou;Ban Phoulavou

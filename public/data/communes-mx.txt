@@ -33389,7 +33389,6 @@
 0;-116.1833,30.9833;22890;Baja California;Villa Hidalgo
 0;-116.2153,30.9925;22890;Baja California;Héroes de Chapultepec
 0;-116.2779,30.9783;22908;Baja California;Veintisiete de Enero
-0;-116.0000,31.0000;22940;Baja California;Generalísimo Morelos
 0;-116.1913,31.0381;22908;Baja California;Rancho Ayala
 0;-116.2527,31.0070;22820;Baja California;Ejido Villa Morelos
 0;-116.0317,31.0898;22910;Baja California;San Rafael de Arriba
@@ -40101,7 +40100,6 @@
 0;-111.3146,30.3611;83917;Sonora;Rancho Grande
 0;-111.2519,29.8255;83390;Sonora;Rancho Grande
 0;-105.2893,28.0933;33637;Chihuahua;Rancho Grande
-0;-101.0000,28.0000;26634;Coahuila;Rancho Grande
 0;-103.2497,25.7274;27453;Coahuila;Rancho Grande
 0;-104.0169,25.2891;35737;Durango;Rancho Grande
 3857;-102.9625,23.4506;99014;Zacatecas;Lázaro Cárdenas (Rancho Grande)
@@ -42399,7 +42397,6 @@
 0;-103.9167,27.6167;27614;Chihuahua;Ojo del Almagre
 0;-106.5327,31.3648;32730;Chihuahua;Ojo de la Casa
 0;-104.3333,23.6333;34973;Durango;Ojo de la Borrega
-0;-101.0000,28.0000;26634;Coahuila;Ojo de Gracias a Dios
 5;-107.9072,31.0229;31820;Chihuahua;Ojo de Federico
 0;-107.9333,31.0000;31820;Chihuahua;Ojo de Federico
 2;-106.5864,31.3790;32010;Chihuahua;Ojo de Enmedio
@@ -48133,7 +48130,6 @@
 0;-102.8500,21.8333;20864;Aguascalientes;Joya de la Presa
 7;-102.4203,19.4672;60442;Michoacán;Hoyicazuela
 1215;-101.6083,20.7481;36983;Guanajuato;La Joya de Calvillo
-0;-103.0000,19.0000;60554;Michoacán;Joya de Ballesteros
 308;-103.0025,20.7102;45443;Jalisco;La Joya Chica
 277;-101.1942,26.4411;25890;Coahuila;La Joya
 0;-105.5667,25.7833;35685;Durango;Joya
@@ -50030,7 +50026,6 @@
 2621;-107.3866,29.1811;31960;Chihuahua;El Terrero
 204;-101.9290,19.2957;61713;Michoacán;Terrenate
 0;-105.9333,26.7692;33595;Chihuahua;El Terminal
-0;-104.0000,21.0000;46448;Jalisco;El Tequesquite
 1161;-102.2881,20.3013;59267;Michoacán;El Tequesquite
 1172;-105.3004,20.0658;48466;Jalisco;Tequesquite
 0;-105.2333,22.1000;63637;Nayarit;El Tepozapote

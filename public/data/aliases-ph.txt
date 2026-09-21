@@ -4989,3 +4989,5 @@ mk;Сан Хуан;San Juan
 ka;სან-ხუანი;San Juan
 hy;Սան Խուան;San Juan
 he;סן חואן;San Juan
+fil;Triumfo;Triunfo
+fil;Progreso;Progreso Este

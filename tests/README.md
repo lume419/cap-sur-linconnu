@@ -6,7 +6,7 @@ Aucun service externe n'est sollicité, et jamais la production : le serveur de 
 | Commande | Contenu | Durée indicative |
 |---|---|---|
 | `npm run test:quick` | i18n, péages, invariants du moteur (100 tirages) | ~1 min (56 s mesurées le 20/09/2026 ; la ligne annonçait ~2 min, `tests/run.js` ~3 min) |
-| `npm test` | tout sauf les générateurs, tailles par défaut | ~7 à 8 min (448 s mesurées le 21/09/2026 ; le chiffre de 314 s qui figurait ici datait d'avant `search.test.js`, les bornes de données et les exports PDF ; + 2 à 5 min si le serveur doit reconstruire son index de recherche) |
+| `npm test` | tout sauf les générateurs, tailles par défaut | ~7 à 8 min (**274 tests en 439 à 459 s** mesurés le 21/09/2026 au 20e audit sur trois passages de la même machine (l'écart d'un passage à l'autre atteint 4 %, selon la charge) ; 448 s au 19e ; le chiffre de 314 s qui figurait ici datait d'avant `search.test.js`, les bornes de données et les exports PDF ; + 2 à 5 min si le serveur doit reconstruire son index de recherche) |
 | `npm run test:full` | tout, tailles complètes, générateurs compris | 30 à 60 min |
 | `node tests/run.js toll server` | seulement les fichiers dont le nom contient `toll` ou `server` | — |
 
@@ -16,7 +16,7 @@ Les fichiers s'exécutent l'un après l'autre. Ceux qui ont besoin du moteur le 
 
 ## Fichiers
 
-- `engine-invariants.test.js` (contre-épreuve depuis le 15e audit : chaque aller-retour « hors de portée, X km » est rejoué à X km, même graine ; un itinéraire ou, filtre actif, « zones à tension » est attendu ; le vérificateur recalcule aussi les traversées estimées d'après la paire de ports) : tirages à graine (départs spéciaux : îles, enclaves, zones à tension, antiméridien, grand Nord ; paramètres aléatoires), un test par famille d'invariants (jours, nuits par ville ou avis `days.overMaxPerCity`, `maxLegKm` ou `overMaxLeg` justifié, éloignement et rayon, mer et frontières, ferry, zones à tension, péage, valeurs, retour, doublons, état remis à zéro), plus déterminisme, entrées invalides, départs forgés et cas ciblés (mer d'Åland, point 6, Acapulco/Maiduguri…). Un auto-test vérifie que le vérificateur détecte des défauts injectés.
+- `engine-invariants.test.js` (contre-épreuve depuis le 15e audit : chaque aller-retour « hors de portée, X km » est rejoué à X km, même graine ; un itinéraire ou, filtre actif, « zones à tension » est attendu ; le vérificateur recalcule aussi les traversées estimées d'après la paire de ports) : tirages à graine (départs spéciaux : îles, enclaves, zones à tension, antiméridien, grand Nord ; paramètres aléatoires), un test par famille d'invariants (jours, nuits par ville ou avis `days.overMaxPerCity`, `maxLegKm` ou `overMaxLeg` justifié, éloignement et rayon, mer et frontières, ferry, zones à tension, péage, valeurs, retour, doublons, état remis à zéro), plus déterminisme, entrées invalides, départs forgés et cas ciblés (mer d'Åland, point 6, Acapulco/Maiduguri…). Un auto-test vérifie que le vérificateur détecte des défauts injectés, **dans la bonne famille** : 23 des 32 familles qu'il sait lever sont éprouvées par une injection, et les 9 autres sont listées dans le test avec la raison de leur absence (trois ne décrivent pas un tirage mais la campagne : exception, état non remis à zéro, contre-épreuve). Un test vérifie aussi que chaque départ « particulier » de la campagne existe bien dans les données publiées — trois n'existaient plus depuis la 10e passe et étaient donc silencieusement sautés (20e audit du 21/09/2026).
 - `toll.test.js` : modèle en FOURCHETTE depuis le 11e audit (`amountMin` = borne basse « probable », `amount` = borne haute « possible ») — pays sans barème jamais facturés (intérieur et transfrontalier ; un transit par un pays à péage peut apparaître dans la borne haute, jamais dans la borne basse), transit par l'Alsace (DE, CH) et autour de la Bosnie (HR↔HR), 38 liaisons françaises de référence (médiane dans [0,85 ; 1,15], prix officiel dans la fourchette à −20 % / +25 % près pour 80 % des liaisons au moins), autoroutes gratuites longeant des autoroutes payantes (FR, PT, IT, ES, IL : borne basse à 0 €), grands corridors payants (borne basse > 0 €), témoins facturés au bon barème / non facturés, vélo et péage décoché. Le test des autoroutes gratuites suppose la couche `freeCells` de `data/toll-grid.json` complète (`node scripts/build-toll-grid.js --free`).
 - `perf.test.js` : durées de tirage et part de `timedOut` comparées aux seuils de `LIMITS` en tête du fichier. À lancer sur une machine peu chargée.
 - `server.test.js` : `server.js` réel sur un port libre (`PORT`) : en-têtes de sécurité, `/data`, fichiers sources et dépôt jamais servis (réponse 4xx, quelle que soit l'écriture du chemin), quota des gros fichiers, export PDF (valide, budget de temps, écritures complexes, objets forgés → PDF complet avec pied de page), créneau PDF, file des appels sortants, `generate-trip` avec entrées forgées (jamais 500). Ajouté au 17e audit : **export PDF d'un voyage MAXIMAL** (21 journées, 15 villes, électrique avec recharges, ferry, péage, vignettes, restrictions, zone à tension, randonnées, hébergement) construit avec les vraies traductions — 26 langues par défaut, **les 161 avec `--full`** (280 s) : statut 200, document complet, pied de page présent, aucun glyphe manquant, et **aucune langue écourtée** (le voyage doit tenir en entier ; ce contrôle dépend de la vitesse de la machine, comme `perf.test.js`) ; la **recherche de ville en POST** rend exactement ce que rend le GET sur douze saisies (latin, accents, arabe, persan avec liant, cyrillique, idéogrammes, grec, codes postaux à tiret) et refuse les corps aberrants (non-objet, `q` absente, vide, non-chaîne, 121 caractères, corps de 4 ko) avec les mêmes quotas que le GET — le cas « tableau » y figure aussi, mais il réussit parce que `q` y est absente, pas parce que c'est un tableau : la garde `Array.isArray` n'est donc pas éprouvée (18e audit) ; le serveur **répond pendant un export** (sondes sur `/api/status` : au moins trois réponses, la pire sous 200 ms — 391 ms et deux réponses seulement quand la mise en page tourne dans le processus principal) ; le **fil de travail et le repli interne rendent le même document** (octet pour octet, hors date et identifiant), le repli étant obtenu comme en vrai — en laissant expirer le délai de réponse du fil (18e audit ; il l'était par `stop()`, c'est-à-dire par un arrêt propre, alors que les chemins réellement empruntés en panne n'étaient jamais exercés) ; **la faille de déni de service du 18e audit** : une rafale de 40 exports abandonnés ne retarde pas l'export suivant, un travail sans destinataire est abandonné sans être mis en page, la file bornée refuse en 503 plutôt que d'empiler, et la perte du fil ne rejette que le travail en cours ; l'**ordre visuel** des écritures de droite à gauche, sur `_visualLines` et sur le document réellement dessiné, contre bidi-js pris comme oracle indépendant ; deux contrôles de la mise en forme mémorisée (`memoiseLayout`) : chaque appel reçoit une COPIE — un appelant qui modifie ce qu'il reçoit, comme pdfkit le fait, ne doit pas abîmer le suivant, et la copie garde le prototype de `GlyphRun` pour que `advanceWidth` reste un accesseur — et le tracé du cache chaud est identique à celui du cache froid ; plus la taille du corps acceptée, le comptage des caractères distincts, les deux clés de cache, le plafond du cache des randonnées, les titres d'espace de noms précédés d'un souligné, `Sec-Fetch-Site` en casse mêlée, `/api/photo` sans coordonnées, la borne de distance affichée et le nom de fichier sans marque bidi. Le serveur est arrêté à la fin, même en cas d'échec.
@@ -41,10 +41,26 @@ Les fichiers s'exécutent l'un après l'autre. Ceux qui ont besoin du moteur le 
 | `TEST_GENERATORS=1` | active `generators.test.js` | — |
 | `TEST_VERBOSE=1` | durée de chargement du moteur | — |
 
+Réglages du SERVEUR et du service PDF qui n'existent que pour éprouver des chemins autrement inatteignables. Chacun est
+borné dans le code : une valeur absurde retombe sur le défaut, elle n'affaiblit rien (20e audit du 21/09/2026 — ils
+n'étaient documentés nulle part).
+
+| Variable | Effet | Défaut |
+|---|---|---|
+| `BIG_STATIC_BYTES_MAX` | plafond d'octets par minute et par adresse sur les quatre gros fichiers statiques — l'éprouver au plafond réel demanderait d'envoyer 220 Mio | 220 Mio (bornes 64 Kio – 4 Gio) |
+| `PDF_FILE_MAX` | longueur de la file d'attente du service d'export | 4 (1 – 64) |
+| `PDF_REPONSE_MAX_MS` | délai de réponse d'un travail envoyé au fil : seul moyen d'exercer la perte du fil en vol | 15 000 ms (50 – 120 000) |
+| `PDF_REDEMARRAGE_MS` | délai de garde avant de relancer un fil qui vient de mourir | 5 000 ms (50 – 60 000) |
+| `PDF_DEMARRAGE_MAX_MS` | délai laissé au fil pour annoncer ses polices | 15 000 ms (50 – 120 000) |
+| `PDF_FIL_ECHECS_MAX` | échecs de démarrage consécutifs avant de servir en repli | 3 (1 – 100) |
+| `PDF_RECONSIDERATION_MS` | délai après lequel un fil condamné est retenté | 60 000 ms (100 – 3 600 000) |
+| `PDF_FIL_CASSE` | `mort` : fil qui s'arrête aussitôt chargé ; `muet` : fil qui n'annonce jamais ses polices. Aucun chemin de fichier n'est accepté — la variable ne choisit qu'entre deux programmes d'une ligne écrits dans `lib/pdf-service.js` | — |
+| `ONLY_COUNTRY` | générateurs de lieux : régénère cette liste de pays seulement (`ONLY_COUNTRY=ID,KR,PH`). Un code inconnu, ou la variable vide, sort en erreur plutôt que de ne rien faire en silence | — |
+
 **17e audit du 20/09/2026 — le trou de couverture principal était la recherche elle-même.** Vider
 `addAliasesToSearchIndex` (donc retirer les 1,7 million de noms alternatifs de la recherche) ne faisait échouer aucun
 test : tous ne contrôlaient que la FORME des fichiers publiés. `search.test.js` (ci-dessus) comble ce trou ; la même
-mutation y fait maintenant échouer trois tests sur cinq. Si `cache/search-index` est absent ou périmé, le test le dit
+mutation y fait maintenant échouer trois tests sur six. Si `cache/search-index` est absent ou périmé, le test le dit
 sur la sortie d'erreur et n'exerce que le chemin en mémoire — l'index réduit couvre alors le chemin disque.
 
 **Bornes de données ajoutées au 17e audit dans `data.test.js`** (~20 s de plus, un seul parcours des 4,8 millions de
@@ -68,6 +84,36 @@ détecter pour un nom chinois ou coréen) et le relevé des homonymes s'écrasai
 2 lignes sur 85 hors contrôle.
 
 Trois contrôles permanents ajoutés au 16e audit dans `data.test.js` : aucun alias ne contient de caractère invisible (U+200B, U+00AD, U+2060, U+180E, U+FEFF, marques de direction), les ZWNJ/ZWJ devant au contraire rester ; aucun alias lao, khmer, birman ou thaï n'est déclaré dans une autre de ces quatre écritures ; un alias de fusion n'est publié que si le nom gardé est porté par un seul lieu du pays. `engine-regressions.test.js` ajoute : distance annoncée = la PLUS GRANDE faisable, aucune paire de ports de route comparable plus rapide au total, péage d'une étape avec traversée cohérent avec ses kilomètres ; la contre-épreuve de `engine-invariants.test.js` vérifie aussi que X est maximal (X + 5 km ne doit donner aucun itinéraire ; 15 km annoncés ici pour 25 testés jusqu'au 17e audit du 20/09/2026, le balayage est depuis exhaustif et la marge n'est plus qu'une tolérance d'arrondi). Ce contrôle n'est exigé que lorsque le moteur affirme avoir conclu (`returnCapExact`) : si son budget de temps tombe au milieu du balayage, X n'est qu'un minorant et le cas est compté à part dans la ligne de diagnostic de la campagne — sinon la campagne échouerait sur la charge de la machine. Les deux branches du drapeau sont verrouillées par un test de `engine-regressions.test.js` (horloge à bond), prouvé par mutation dans les deux sens.
+
+**19e et 20e audits du 21/09/2026 — ce fichier n'avait pas été mis à jour par la 19e passe.** Ce qu'elle et la 20e ont
+ajouté, et qui manquait ici :
+
+- `engine-invariants.test.js` : la zone à tension, l'adjacence des frontières et la proximité des bornes de recharge
+  sont **recalculées** par le vérificateur à partir des données, au lieu d'être demandées au moteur qu'il vérifie —
+  remplacer `tensionOf` par `return null` laissait 67 tests sur 67 au vert, et en produit 581 depuis, avec quatre tests
+  en échec (remesuré au 20e audit sur l'état final, graine 1, 300 tirages). L'auto-test du vérificateur déclare la
+  famille attendue de chaque injection et vérifie sa couverture ; les dates des tirages sont relatives à l'année en
+  cours.
+- `server.test.js` : file d'attente du service PDF éprouvée **sur le module** et non à travers le créneau d'export (le
+  test précédent restait vert avec une file infinie) ; le plafond d'octets des gros fichiers tient désormais face à des
+  requêtes **enchaînées** (pipelining, serveur dédié avec `BIG_STATIC_BYTES_MAX` abaissé) ; un fil de travail qui meurt
+  au chargement ou qui n'annonce jamais ses polices doit quand même rendre un document, par le repli
+  (`tests/helpers/pdf-fil-casse.js`, processus à part, `PDF_FIL_CASSE`).
+- `search.test.js` : l'index sur disque est refusé quand le normalisateur **ajoute** un caractère, pas seulement quand
+  il cesse d'en traiter un — le test compile une copie de `lib/trip-engine.js` avec un caractère de plus dans
+  `NORM_DROP_RE` après avoir vérifié que les échantillons seuls ne voient aucune différence ; et, sur tous les groupes
+  d'homonymes de même code postal où le choix se voit, les deux chemins de recherche rendent le **même** lieu, le plus
+  peuplé.
+- `i18n.test.js` : l'annonce du sélecteur de langue n'écrit pas après coup et ne se répète pas à chaque frappe (faux
+  minuteurs pilotés à la main) ; chaque langue se retrouve en tapant son nom sans les signes qu'aucun clavier ne donne ;
+  les cinq polices embarquées s'appliquent au nom de la langue dans le sélecteur, pas seulement à la page entière.
+- `ui.test.js` : le bouton de devise porte `dir="ltr"` comme les options de la liste, et le perd quand la devise
+  redevient « automatique ».
+- `data.test.js` : les coordonnées à deux entiers admises sont listées une par une avec leur preuve (13 depuis le 20e
+  audit, 63 au 19e) ; la politique de confidentialité doit décrire les requêtes que le site fait **vraiment** (méthode
+  comprise).
+
+Chacun de ces contrôles a été prouvé par mutation : le défaut d'origine remis en place, le test échoue.
 
 ## Comparer deux versions du moteur (`npm run test:compare`)
 

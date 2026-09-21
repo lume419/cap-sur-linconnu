@@ -1143,3 +1143,6 @@ hy;Այիա Նապա;Ayia Napa
 nn;Agía Nápa;Ayia Napa
 ur;آئیا ناپا;Ayia Napa
 zh;阿依納帕;Ayia Napa
+en;Polis, Cyprus;Pólis
+el;Πόλη Χρυσοχούς;Pólis
+el;Δήμος Πόλεως Χρυσοχούς;Pólis

@@ -45065,3 +45065,10 @@ am;አምናት ቻሮዖን;Amnat Charoen
 tt;Амнат Чарөен;Amnat Charoen
 sv;Koh Lipe;Ban Ko Li Pe
 no;Koh Lipe;Ban Ko Li Pe
+th;บ้านทุ่งข้าวหาง;Ban Thung Khao Hang
+th;บ้านกกเกลี้ยง;Ban Kok Kliang
+th;บ้านหมู่ที่ สอง;Ban Khun Yuam
+th;บ้านอาข่ากิ่วจำปี;Ban A-Kha Kio Champi
+th;บ้านหนองค่าน้อย;Ban Nong Kha Noi
+th;บ้านจะแบปะ;Ban Cha Bae Pa
+th;บ้านบางโศก;Ban Bang Sok

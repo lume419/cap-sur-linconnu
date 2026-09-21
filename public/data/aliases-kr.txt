@@ -26891,3 +26891,12 @@ hak;Nàm-yòng-chû-sṳ;Namyangju
 pl;Sedżong;Sejong
 am;ሴጆንግ;Sejong
 tt;Сежон;Sejong
+ko;상1동;Sangil-tong
+ko;여의리;Yeouiri
+ko;운수리;Unsuri
+ko;거창;Kŏch’ang
+ko;거창군;Kŏch’ang
+ko;여덜밤이;Yeodeolbami
+ko;추소리;Chusori
+ko;관현리;Gwanhyeolli
+ko;담들이왓;Damdeuriwat

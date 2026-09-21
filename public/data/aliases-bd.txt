@@ -2089,3 +2089,4 @@ bn;Dewāipāra;Dawāipāra
 bn;Nabalpāra;Nablaipāra
 bn;Mahiskhālipāra;Mahiskhāliapāra
 bn;Jhimangkhālīpāra;Jhimongkhālīpāra
+bn;Bāze Mādhail;Mādhail

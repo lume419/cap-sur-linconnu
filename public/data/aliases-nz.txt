@@ -799,3 +799,4 @@ th;อัพเปอร์ ฮัท;Upper Hutt
 he;אפר האט;Upper Hutt
 nn;Dannevirke på New Zealand;Dannevirke
 ca;Harihari;Hari Hari
+nn;Bluff på New Zealand;Bluff

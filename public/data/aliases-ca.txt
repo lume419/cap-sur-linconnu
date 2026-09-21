@@ -4433,3 +4433,36 @@ uk;Алерт;Alert
 el;Αλέρτ;Alert
 be;Алерт;Alert
 he;אלרט;Alert
+fa;کوتیکوک، کبک;Coaticook
+sr;Коатикук;Coaticook
+fa;دادسول، کبک;Dudswell
+bg;Фортиервиле;Fortierville
+fa;فورتیه‌ویل;Fortierville
+fa;لاتوک;La Tuque
+sr;Ла Тик;La Tuque
+bg;Лораинвиле;Lorrainville
+fa;لورنویل، کبک;Lorrainville
+bg;Мансеау;Manseau
+fa;مانسو، کبک;Manseau
+eu;Mount Royal;Mont-Royal
+fa;مون رویال، کبک;Mont-Royal
+sr;Мон Роајал;Mont-Royal
+fa;سن-آلبر، کبک;Saint-Albert
+ur;سینٹ-البرٹ، کیوبک;Saint-Albert
+fa;سنت-آگات-ده-مون;Sainte-Agathe-des-Monts
+sr;Сент Агат де Мон;Sainte-Agathe-des-Monts
+uk;Сент-Агат-де-Мон;Sainte-Agathe-des-Monts
+ur;سین-اگاٹھے-دس-مونٹس;Sainte-Agathe-des-Monts
+fa;سنت-دو-لا-پراد، کبک;Sainte-Anne-de-la-Pérade
+ur;سین-این-دے-لا-پردے، کیوبک;Sainte-Anne-de-la-Pérade
+fa;سنت-تکل، کبک;Sainte-Thècle
+ur;سین-تھکلے، کیوبک;Sainte-Thècle
+fa;سن-فلیسین، کبک;Saint-Félicien
+sr;Сен Фелисјен;Saint-Félicien
+uk;Сен-Фелісьєн;Saint-Félicien
+ur;سینٹ-فلیکیں ، کیوبک;Saint-Félicien
+el;Σαιν-Ζοζέφ-ντυ-Λακ;Saint-Joseph-du-Lac
+fa;سن-ژوزف-دو-لاک، کبک;Saint-Joseph-du-Lac
+ur;سینٹ-جوسف-دو-لاک، کیوبک;Saint-Joseph-du-Lac
+fa;سن-تیت، کبک;Saint-Tite
+sr;Сен Тит;Saint-Tite

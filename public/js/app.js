@@ -379,8 +379,14 @@
     // devise varie d'une étape à l'autre) ; sinon CODE + symbole réel (voir CURRENCY_GLYPH), le code
     // toujours présent pour lever l'ambiguïté des trois "kr" (DKK/NOK/SEK, voir son commentaire).
     // « Auto » traduit (clé du bouton de thème, même sens, déjà courte dans les 161 langues) — l'ancien 'AUTO' en dur.
-    currencyButtonEl.querySelector('.currency-toggle-code').textContent =
-      pref ? pref + ' ' + (CURRENCY_GLYPH[pref] || '') : t('theme.auto');
+    // Sens d'écriture forcé de gauche à droite pour un CODE de devise, comme pour les options de la liste (19e audit
+    // du 21/09/2026). Le 19e audit n'avait corrigé QUE les options : le BOUTON, qui affiche en permanence la devise
+    // choisie, gardait le sens de la page. Mesuré sur les 152 devises des pays couverts, 84 étiquettes se
+    // réordonnent dans une page de droite à gauche — « ARS AR$ » s'y affichait « $ARS AR », « AUD A$ » « $AUD A »,
+    // « AWG Afl. » « .AWG Afl » (20e audit du 21/09/2026). « Auto », lui, est traduit : il suit la page.
+    var codeEl = currencyButtonEl.querySelector('.currency-toggle-code');
+    if(pref) codeEl.setAttribute('dir', 'ltr'); else codeEl.removeAttribute('dir');
+    codeEl.textContent = pref ? pref + ' ' + (CURRENCY_GLYPH[pref] || '') : t('theme.auto');
   }
   // returnFocus : rend le focus au bouton (fermeture au clavier ou après un choix), pas lors d'un clic ailleurs.
   function closeCurrencyPanel(returnFocus){

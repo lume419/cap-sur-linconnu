@@ -9238,3 +9238,9 @@ ru;Асин;Asin
 ceb;Tinguatón;Mancha Blanca
 sv;Tinguatón;Mancha Blanca
 ru;Албентоса;Albentosa
+es;Alcibar;Altzibar
+ar;قلعة النسور;Calatañazor
+kk;Калатаньясор;Calatañazor
+uk;Калатаньясор;Calatañazor
+ru;Калатаньясор;Calatañazor
+zh;卡拉塔尼亚索尔;Calatañazor

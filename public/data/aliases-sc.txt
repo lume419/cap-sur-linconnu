@@ -159,3 +159,16 @@ tt;Ла-Пас;La Passe
 uk;Персеверанс;Perseverance
 ru;Персеверанс;Perseverance
 th;อิงลิชริเวอร์;English River
+ru;Анс-Рояль;Anse Royale
+kk;Анс-Рояль;Anse Royale
+ky;Анс-Рояль;Anse Royale
+hi;एन्स रॉयल;Anse Royale
+bn;এনস রয়্যাল;Anse Royale
+ur;ینس رائل;Anse Royale
+am;አንስ ሮያል;Anse Royale
+fa;انس رویال;Anse Royale
+ja;アンスロワイヤル;Anse Royale
+pa;ਐਨਸ ਰੋਈਅਲ;Anse Royale
+ps;ینس رائل;Anse Royale
+tg;Анс-Рояль;Anse Royale
+tt;Анс-Рояль;Anse Royale

@@ -1425,6 +1425,34 @@ test('17e audit : sélecteur de devise — un seul motif ARIA (bouton + listbox)
   assert.ok(/EUR/.test(button.getAttribute('aria-label')), 'devise choisie absente du nom du bouton : ' + button.getAttribute('aria-label'));
 });
 
+test('20e audit : le BOUTON de devise porte aussi son sens d\'écriture (pas seulement les options)', () => {
+  // Le 19e audit avait posé dir="ltr" sur les options de la liste, parce que « ARS AR$ » s'affiche « $ARS AR » dans
+  // une page en arabe, en hébreu ou en persan (le symbole final est neutre, il prend la direction du paragraphe).
+  // Le BOUTON, qui affiche la devise choisie en permanence, était resté sans attribut. Mesuré sur les 152 devises
+  // des pays couverts : 84 étiquettes se réordonnent en page de droite à gauche.
+  const { button, panel, dom } = loadCurrencySwitcher(['ARS', 'AUD', 'EUR', 'JPY']);
+  void dom;
+  const code = button.querySelector('.currency-toggle-code');
+  assert.ok(code, 'le bouton n\'a pas de zone de texte .currency-toggle-code');
+  // Au départ : « Auto », qui est traduit — il doit suivre la page, donc AUCUN dir imposé.
+  assert.equal(code.getAttribute('dir'), null, '« Auto » est traduit : il ne doit pas être forcé en ltr');
+  // Devise choisie : le code et son symbole sont du texte à sens fixe.
+  button.fire('click');
+  const options = panel.children[0].querySelectorAll('.currency-option');
+  const ars = options.find(o => /ARS/.test(o.textContent));
+  assert.ok(ars, 'option ARS absente : ' + options.map(o => o.textContent).join(' / '));
+  ars.fire('click');
+  assert.equal(code.getAttribute('dir'), 'ltr', 'devise choisie sans dir="ltr" sur le bouton');
+  // Contre-épreuve : sans cet attribut, l'étiquette SE RÉORDONNE vraiment (le test ne serait pas vide de sens).
+  const visuelRtl = visual(code.textContent, 'rtl');
+  assert.notEqual(visuelRtl, code.textContent, 'étiquette « ' + code.textContent + ' » insensible au sens : choisir une devise qui l\'est');
+  // Et retour à « Auto » : l'attribut est retiré, pas laissé en place.
+  button.fire('click');
+  const auto = panel.children[0].querySelectorAll('.currency-option')[0];
+  auto.fire('click');
+  assert.equal(code.getAttribute('dir'), null, 'dir="ltr" laissé sur « Auto »');
+});
+
 // ------------------------------------------------------------- 18e audit du 21/09/2026 : la page elle-même
 // Trou trouvé par l'audit : coller une erreur de syntaxe à la fin de public/js/app.js laissait les 63 tests
 // d'interface au vert. Ils n'exécutent que des fonctions EXTRAITES par leur texte (voir extract ci-dessus) et ne

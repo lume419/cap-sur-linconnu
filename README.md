@@ -125,9 +125,9 @@ cap-sur-linconnu/
 │       ├── communes-im.txt     # 43 lieux mannois, même format (aucune correction de nom nécessaire)
 │       ├── aliases-im.txt      # idem pour l'île de Man (mannois/Gaelg en tête)
 │       ├── …                   # un communes-XX.txt et un aliases-XX.txt par pays : 239 fichiers d'alias
-│       │                        # (France comprise), 1 717 755 alias au total au 20/09/2026 (1 717 762
-│       │                        # avant la 16e passe : le chiffre annoncé, 1 717 801, dépassait de
-│       │                        # 39 lignes le contenu réel des fichiers) — voir
+│       │                        # (France comprise), 1 718 520 alias au total au 21/09/2026, 20e audit
+│       │                        # (1 717 755 au 19e ; 1 717 762 avant la 16e passe, le chiffre annoncé
+│       │                        # alors, 1 717 801, dépassant de 39 lignes le contenu réel) — voir
 │       │                        # "Noms alternatifs dans toutes les langues, pour tous les pays"
 │       ├── featured.txt        # ~300 communes françaises avec de vrais points d'intérêt nommés (OSM)
 │       └── toll-reference.json # 38 liaisons de péage françaises vérifiées, qui fixent le tarif €/km (7e audit)
@@ -3727,9 +3727,186 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
   (Belgique), 5 randonnées OpenStreetMap différentes, lien « Grote Routepaden » affiché une fois.
 - « Source : {source} » dans les 161 langues (Visorando ou OpenStreetMap) ; export PDF : source réelle de chaque randonnée.
 
-## Ferries
+## Passes d'audit et corrections
+
+> Titre corrigé au 20e audit du 21/09/2026 : cette section s'appelait « Ferries » et les vingt passes d'audit y
+> figuraient comme sous-sections d'un chapitre sur les traversées maritimes, auquel elles n'ont rien à voir. Le
+> chapitre « Ferries », lui, commence plus bas, là où les liaisons par région sont décrites.
 
 > Les passes d'audit sont listées de la plus récente à la plus ancienne. Les passes 4, 5 et 6 n'ont jamais eu de section ici : elles manquent au README, pas au dépôt (17e audit du 20/09/2026).
+
+### Vingtième passe d'audit (21 septembre 2026)
+
+Relecture complète en cinq volets, comme les deux précédentes. Le résultat principal : **la 19e passe s'est trompée sur
+son propre critère**, et l'a fait en toute bonne foi parce que ce critère était tautologique.
+
+**« Corroboré par un vrai code postal » ne corroborait rien.** La 18e passe avait écarté 139 lieux dont la coordonnée
+tombe sur deux entiers exacts. La 19e en a restitué 63, sur deux critères : (a) une autre fiche du dump porte le même
+nom à coordonnée fine à moins de 5 km, (b) le générateur a joint un vrai code postal. Le critère (b) était
+**TAUTOLOGIQUE** : dans un pays doté d'un fichier postal, le générateur écarte tout lieu sans point postal à moins de
+15 km (`if(!cp) return null` dans `build-country-communes.js`, même règle dans les générateurs Asie et Amériques). Tout
+lieu PUBLIÉ dans un tel pays porte donc un code postal **par construction** : (b) ne triait rien, ne bornait rien — le
+point postal le plus proche peut être à 15 km et rien ne dit qu'il désigne ce lieu-là. Le raisonnement joint était faux
+lui aussi : « les 76 restantes sont toutes dans des pays sans fichier postal » ne tenait pas.
+Le critère (a), lui, est une vraie preuve indépendante, mais il demandait deux garde-fous que la 19e passe n'avait pas
+posés : la fiche corroborante ne doit pas être **un lieu déjà publié du même nom** (sinon on restitue le quasi-doublon
+que la même passe retirait ailleurs : MZ Fotine à 0,84 km, PL Zagrody à 2,38 km), et le point doit être **sur la terre
+ferme** (vérifié sur `lib/land-grid.bin`, 7200×3600 : les quinze le sont).
+Mesure refaite sur les 139 fiches : **15 corroborées par (a), dont 2 quasi-doublons → 13 restituées**, 126 restent
+écartées. **Cinquante lignes sont donc retirées**, dont ID Seminyak et ID Nusa Dua, réintroduits à « 120 / −5 » au
+milieu de Sulawesi du Sud, à 674 km des vrais lieux balinais du même nom, qui sont publiés par ailleurs ; et
+PH Agutayan, dont le « point postal à moins de 15 km » était à 207,8 km.
+Onze pays ont été **régénérés** par leurs générateurs (AU, BG, HT, ID, KR, MX, MZ, PE, PH, RU, TR) : 30 lignes en moins,
+aucune autre différence, ce qui prouve du même coup que ces générateurs restent reproductibles. Les neuf autres (AT, CZ,
+DE, ES, FI, NO, PL, SE, SK) n'ont pas de fichier postal GeoNames dans le dépôt : leurs 20 lignes sont retirées à la main,
+après avoir vérifié qu'aucune autre fiche du dump ne partage leur clé de dédoublonnage — la suppression est alors
+exactement ce que produira la prochaine régénération. Reste 13 coordonnées à deux entiers publiées, listées une par une
+avec leur preuve.
+
+**Fusionner DÉTRUISAIT bien des chemins d'accès.** La 19e passe écrivait, du dédoublonnage de 572 lignes : « fusionner
+ne rend rien introuvable, les deux graphies se normalisent à l'identique ». C'était vrai de la SAISIE et faux des
+**noms alternatifs** : un alias désigne son lieu par son nom canonique BRUT, qui disparaît avec la ligne fusionnée.
+Mesuré sur l'état publié : **71 formes de recherche perdues** (MX 14, KP 13, IR 12, NP 11, GR 7, CY 3…), dont
+« Πόλη Χρυσοχούς » et « Polis, Cyprus » pour **Pólis** (Chypre, 1 975 habitants), qui n'était plus trouvable par son nom
+grec. `build-all-aliases.js` rattache désormais la fiche fusionnée au lieu gardé, exactement comme il le fait depuis le
+15e audit pour les doublons déclarés et **avec la même garantie** (16e audit) : seulement si le nom gardé est unique
+parmi les lieux publiés du pays, sans quoi l'alias désignerait tous ses homonymes. **+980 alias**, 54 fichiers ; les
+71 formes perdues retombent à **24**, toutes dans des groupes où le nom gardé a des homonymes (KP 9, NP 7, GR 4…) :
+la garantie du 16e audit passe avant, et c'est écrit plutôt que corrigé à la va-vite.
+
+**Serveur : le plafond d'octets ne tenait pas une seule connexion.** La 19e passe avait remplacé le comptage par
+`Content-Length` par un relevé des octets réels de la socket, à la fermeture de la réponse. Deux trous, mesurés sur le
+vrai serveur avec le plafond abaissé à 1 Mio : `res.socket` vaut **null** tant que la réponse n'est pas en tête de file,
+donc 2 requêtes ENCHAÎNÉES sur 3 ne comptaient aucun octet ; et surtout, un comptage APRÈS COUP ne peut rien borner,
+puisque toute une salve enchaînée traverse le middleware avant que la première réponse ne soit écrite. Résultat :
+40 requêtes enchaînées sur une seule connexion obtenaient **30 réponses et 9,7 Mio** là où les mêmes requêtes une par
+une n'en obtenaient que 4 et 1,3 Mio — avec le plafond réel de 220 Mio et `i18n.js` non compressé, 330 Mio par
+connexion. Ces quatre fichiers étant précompressés en mémoire, leur taille est **connue d'avance** : elle est portée au
+compteur AVANT d'être servie. Une réponse interrompue est comptée en entier (volontairement sévère), une requête HEAD
+pour rien, et une revalidation 304 est remboursée — elle seule, parce qu'elle seule prouve qu'aucun corps n'est parti.
+Après correction, enchaîné et un-par-un donnent la même chose : **4 réponses, 1,3 Mio**. Vérifié aussi que
+60 revalidations d'affilée restent 60 fois « 304 ».
+
+**Export PDF : un fil de travail qui meurt au démarrage ne rendait JAMAIS rien.** L'en-tête de `lib/pdf-service.js`
+promettait un repli dans le processus principal « au cas où le fil refuse de démarrer ». Ce cas n'existait pas : un fil
+qui meurt à chaque chargement relançait sans fin le cycle « démarrer, mourir, attendre le délai de garde », et un fil
+qui vit sans jamais annoncer ses polices bloquait la file sur « le fil chauffe » **sans minuteur d'aucune sorte**.
+Mesuré sur les deux cas : **aucune réponse après 30 secondes**, et rien n'allait l'interrompre. Deux gardes ajoutés —
+un délai d'annonce des polices (15 s) et un compte d'échecs de démarrage consécutifs (3) au-delà duquel la file part en
+repli, le fil étant reconsidéré une minute plus tard. Après correction, les deux cas rendent un vrai document en
+**868 ms** (fil mort) et **1 704 ms** (fil muet). Un test lance le service dans un processus à part avec un fil
+volontairement défaillant ; il échoue si l'un des deux gardes est retiré.
+
+**Recherche : les deux chemins ne rendaient pas le même lieu.** La clé de dédoublonnage des suggestions est
+« pays | nom normalisé | code postal ». L'index sur disque trie ses candidats par population décroissante avant de
+dédoublonner, donc il garde le plus peuplé ; la recherche **en mémoire** — celle qui sert tant que l'index n'est pas
+construit, donc sur tout déploiement neuf — gardait le premier rencontré dans l'ordre des fichiers. Sur dix saisies
+d'homonymes éprouvées, **sept** donnaient un lieu différent d'un chemin à l'autre, et Robīt (Éthiopie,
+39 600 habitants) n'apparaissait pas du tout en mémoire, effacé par un homonyme de 20 679. Les deux chemins gardent
+désormais le plus peuplé ; un test le vérifie sur **tous** les groupes où le choix se voit (deux graphies, une seule
+ville de plus de 10 000 habitants).
+
+**Interface.**
+- **Le bouton de devise n'avait pas de sens d'écriture.** Le 19e audit avait posé `dir="ltr"` sur les options de la
+  liste ; le BOUTON, qui affiche la devise choisie en permanence, était resté sans attribut. Sur les 152 devises des
+  pays couverts, **84 étiquettes** se réordonnent en page de droite à gauche : « ARS AR$ » s'y affichait « $ARS AR ».
+- **L'annonce du sélecteur de langue parlait après coup, et se répétait.** La région vivante écrit son texte au tour
+  suivant pour que le lecteur d'écran reprononce un message identique. Effacer l'annonce n'annulait pas l'écriture déjà
+  programmée : « Aucune langue trouvée » s'écrivait APRÈS que la frappe suivante eut rempli la liste — le lecteur
+  d'écran annonçait l'inverse de ce qui était affiché. Et chaque lettre tapée dans une recherche déjà sans résultat
+  reprononçait la même phrase.
+- **Huit langues sur 161 étaient introuvables en tapant leur propre nom.** Le champ de recherche replie la casse et les
+  accents, pas les apostrophes ni les lettres modificatives : « kiche » ne trouvait pas « K'iche' », « olelo hawaii »
+  ne trouvait pas « ʻŌlelo Hawaiʻi » (uz, haw, gn, ch, mrq, yua, quc, kek). Le tiret, lui, reste : six codes de langue
+  en contiennent.
+- **Cinq polices embarquées ne s'appliquaient jamais au sélecteur.** Tifinagh, guèze, tibétain, thâna et yi ne sont
+  fournis par presque aucun système ; le projet embarque leurs polices, mais les règles ne visaient que
+  `html[lang="zgh"] body`, c'est-à-dire la page ENTIÈRE déjà dans cette langue. Or l'endroit où ces écritures
+  apparaissent toujours, c'est la liste des langues : « ⵜⴰⵎⴰⵣⵉⵖⵜ », « አማርኛ », « རྫོང་ཁ », « ދިވެހި » et « ꆇꉙ » s'y
+  affichaient en carrés vides pour qui ne lisait pas déjà ces langues — impossible de les CHOISIR faute de les voir.
+
+**Tests : trois contrôles qui ne pouvaient pas échouer.**
+- **L'empreinte du normalisateur ne voyait pas les AJOUTS.** Elle comparait la sortie d'une liste d'échantillons : cela
+  détecte qu'un caractère cesse d'être traité, jamais qu'un caractère nouveau se mette à l'être, puisque aucun
+  échantillon ne le contient — c'est exactement la régression de la 16e passe (3 416 alias devenus introuvables sans
+  erreur visible). Le TEXTE du normalisateur et de ses cinq motifs est désormais joint à l'empreinte. Le test compile
+  une copie de `lib/trip-engine.js` avec un caractère de plus dans `NORM_DROP_RE` et vérifie que l'index est refusé,
+  après avoir vérifié que les échantillons seuls ne voient AUCUNE différence.
+- **Trois départs « particuliers » de la campagne d'invariants n'existaient pas.** « Heraklion », « Tel Aviv » et
+  « Rome » : les données publient « Irákleion », « Tel Aviv-Yafo » et « Roma ». Un nom absent ne fait échouer aucun
+  test — le départ est simplement sauté. Les trois villes qu'on avait justement mises là pour leurs particularités
+  n'étaient jamais tirées, depuis la 10e passe. Corrigées, et un test interdit que cela recommence en silence.
+- **L'auto-test du vérificateur : 32 familles, pas 28.** Le compte annoncé par la 19e passe était faux, et sa
+  couverture de 14 familles se comparait donc à un total erroné. Neuf injections de plus (roulette, `maxLegKm` renvoyé,
+  nombre de villes, éloignement minimal, durées, avis, restrictions, diagnostic « hors de portée », journée sur place)
+  portent la couverture à **23 sur 32** ; les neuf restantes sont listées **dans le test** avec la raison de leur
+  absence, et une assertion échoue si une famille apparaît sans être ni éprouvée ni déclarée.
+- **Bombe à retardement de 2028.** `tests/engine-regressions.test.js`, `tests/perf.test.js` et
+  `tests/helpers/compare.js` figeaient `tripStart: '2026-10-01'`. `parseIsoDate` n'accepte qu'une date de l'année
+  précédente à trois ans plus tard : à partir de 2028, cette date serait refusée et le moteur repartirait
+  **silencieusement** à la date du jour — les tirages changeraient sans qu'aucun test ne bronche. Un contrôle
+  transforme la bombe en échec immédiat et explicite.
+- `ONLY_COUNTRY=ID,KR,PH` ne régénérait RIEN dans les générateurs Asie et Amériques : ils ne comparaient la variable
+  qu'à un seul code, affichaient « TOTAL : 0 » et sortaient en code 0. Ils acceptent une liste, et refusent un code
+  inconnu par une erreur.
+
+**Documentation.**
+- Les vingt passes d'audit étaient rangées comme sous-sections d'un chapitre **« Ferries »**. Elles ont leur propre
+  chapitre ; le chapitre Ferries commence là où les liaisons sont décrites.
+- La politique de confidentialité annonçait `GET /api/search-city` alors que le navigateur **poste** depuis la 17e
+  passe, et portait la date du 19 septembre. Corrigées, et un test compare ce que la page annonce à ce que
+  `server.js` déclare et à ce que `app.js` appelle vraiment.
+- `scripts/communes-corrections.js` se contredisait à cinq cents lignes d'écart : il affirmait que les fichiers publiés
+  de HR et ES n'avaient pas été retouchés, alors que les 18e et 19e passes l'avaient fait (vérifié : plus un seul
+  « _ », plus de « XXX » ni de « Test »).
+- **Six chiffres faux de la 19e passe**, corrigés et remesurés sur l'état final : 194 liaisons de ferry (et non 188) à
+  plus d'un kilomètre sous la ligne droite ; 452 accords et 120 divergences (et non 443 / 129) entre les deux critères
+  de départage des quasi-doublons ; 581 violations (et non 124) quand on désactive le filtre des zones à tension ;
+  7 caractères sur 34 (et non « 4 sur 27 ») couverts par l'ancienne empreinte du normalisateur ; et les comptes de
+  caractères (harakat, apostrophes, accents) avaient été relevés AVANT le dédoublonnage du même commit — ils sont
+  refaits sur l'état publié d'aujourd'hui.
+
+**Ce que la passe a changé, mesuré sur l'état final.** Suite complète : **274 tests, aucun échec** (439 à 459 s sur trois passages ; 5 sautés,
+ce sont les générateurs, qui ne tournent qu'avec `--full`), dont **douze contrôles nouveaux**, chacun prouvé par
+mutation — le défaut d'origine remis en place, le test échoue. Campagne d'invariants à **3 000 tirages : aucune
+violation**. Outil de comparaison de versions : **6 tirages changés sur 380**, tous expliqués — les six départs
+concernés (Munich, Vienne, Bratislava, Ljubljana, Sarajevo) ont entre 3 et 26 des 50 lieux retirés dans leur rayon,
+ce qui déplace la liste des candidats et donc la suite des tirages au sort. Aucun trajet direct changé (0 / 1 610),
+aucun plafond d'hébergement (0 / 3 585), et les **55 contre-épreuves « hors de portée » passent des deux côtés**.
+Données publiées : 4 801 562 lieux (50 lignes en moins) et 1 718 520 noms alternatifs (+980, −4 orphelins).
+
+**Mesuré, documenté, figé — mais pas corrigé.** Cinq limites réelles, chiffrées, que cette passe n'a pas de quoi
+corriger honnêtement :
+- **634 832 lieux (13,2 %) ne peuvent pas être choisis comme départ** : un homonyme du même pays porte le même nom
+  normalisé ET le même code postal, et la clé des suggestions n'en garde qu'un. La part explose là où il n'y a pas de
+  vrais codes postaux et où la colonne porte une étiquette de région — Chine 37,7 %, Népal 28,5 %, Colombie 27,7 %,
+  Brésil 25,5 % — contre 3,5 % en Inde, qui en a. **109 groupes** opposent deux villes de plus de 10 000 habitants
+  (Ganta, au Liberia : 13 802 et 63 523 habitants, 50 km d'écart). Lever la limite demanderait une suggestion qui
+  DÉSIGNE le lieu plutôt que son couple (nom, code postal) : rien dans la ligne affichée — drapeau, nom, code postal —
+  ne distinguerait les deux Ganta, et les afficher tous les deux remplirait la liste de lignes identiques (jusqu'à 138
+  pour un même nom en Chine). Ce qui est corrigé, c'est LEQUEL des deux survit.
+- **Le plafond « hors de portée, X km » annoncé pour un séjour de plusieurs jours n'est pas une distance atteignable** :
+  c'est la contrainte de retour du visiteur lui-même, et le moteur le dit (`returnCapExact: false`). Balayage
+  dichotomique sur 194 cas : les **126** plafonds annoncés exacts le sont tous — aucun dépassement trouvé —, mais sur
+  les 68 annoncés approchés, **61 sont dépassés**, parfois de très loin (Sobradinho dos Melos, Brésil : 400 km
+  annoncés, 2 197 km faisables). Le message affiché reste littéralement vrai (il parle du « rayon/temps de retour
+  choisi »), mais il n'oriente pas : dire mieux demanderait une phrase de plus, donc **161 traductions** que cette
+  passe n'a pas de quoi produire honnêtement.
+- **`tensionBlocked` est posé à tort une fois sur trente-deux.** Quand il accompagne « hors de portée, X km », il
+  promet qu'à X km le filtre des zones à tension est ce qui bloque. Contre-épreuve sur 2 000 tirages : 32 annonces,
+  dont 31 tiennent ; pour la trente-deuxième (Tovédogho, Bénin, plafond 338 km) l'itinéraire passe **même avec** le
+  filtre, et le conseil de décocher ne sert à rien. Le vérifier demanderait un tirage de plus dans un chemin déjà à
+  court de budget.
+- **24 noms alternatifs restent introuvables** après la réparation ci-dessus, parce que le nom conservé a des
+  homonymes dans le pays et qu'un alias ne désigne son lieu que par son nom. Les lever demanderait un format d'alias
+  qui porte l'identifiant du lieu — un changement de format des 1,7 million de lignes publiées.
+- **La recherche de ville reste MUETTE quand elle ne trouve rien.** Le sélecteur de langue, lui, affiche « Aucune
+  langue trouvée » et l'annonce aux lecteurs d'écran depuis la 19e passe. La liste de suggestions de villes sait
+  pourtant afficher un message non sélectionnable (`renderSuggestMessage` : chargement du moteur, réseau coupé,
+  serveur saturé, trop de recherches) ; il ne lui manque qu'une phrase. Mais c'est une phrase de plus à écrire dans
+  **161 langues**, et cette passe n'a pas de source pour les produire à la qualité du reste du dictionnaire : la
+  traduire mécaniquement depuis « Aucune langue trouvée » demanderait le mot « ville » avec son accord dans
+  161 langues. Le défaut est donc décrit ici plutôt que corrigé à moitié.
 
 ### Dix-neuvième passe d'audit (21 septembre 2026)
 
@@ -3739,7 +3916,10 @@ de commune roumain de 3 502 habitants. Le reste de la passe a trouvé deux régr
 semaine précédente, un vérificateur d'invariants qui comparait le moteur à lui-même sur trois contrôles de sécurité, et
 huit chiffres faux écrits par la 18e passe elle-même.
 
-**La règle des coordonnées à deux entiers, révisée et en partie annulée.** Elle se justifiait ainsi : « GeoNames publie
+**La règle des coordonnées à deux entiers, révisée et en partie annulée.** (Le 20e audit du 21/09/2026 a montré que
+le second critère décrit ici — « un point postal officiel à moins de 15 km » — est TAUTOLOGIQUE, donc que 50 des
+63 restitutions ci-dessous étaient infondées : voir la section de la 20e passe. Le paragraphe est conservé tel quel,
+c'est ce qui a été fait et écrit ce jour-là.) Elle se justifiait ainsi : « GeoNames publie
 cinq décimales, la probabilité qu'un lieu réel tombe sur deux entiers exacts est de l'ordre de 1 sur 10 milliards ».
 Mesure refaite sur les dumps (4 989 386 fiches) : **0,13 % des fiches ont une latitude entière**, 1,6 % tombent sur la
 grille du dixième de degré ; l'attendu par hasard n'est pas zéro mais **neuf**, pour 155 observées, et le facteur
@@ -3783,10 +3963,13 @@ qui comptaient un corps qu'elles n'envoient pas.
 filtre des zones à tension** — laissait 67 tests sur 67 au vert et zéro violation sur 300 tirages, y compris les trois
 tests qui portent « tension » dans leur nom. La zone à tension, l'adjacence des frontières et la proximité des bornes
 de recharge sont maintenant **recalculées** à partir des données, avec leur propre index ; la même mutation produit
-**124 violations** et fait tomber quatre tests. Seule la primitive géométrique « un lieu d'un autre pays à moins de
-N km » reste empruntée au moteur, et c'est écrit. L'auto-test du vérificateur couvre **quatorze familles** au lieu de
-dix, chaque injection déclare la famille qu'elle doit faire lever — ce qui a révélé une étiquette fausse de plus — et
-une assertion vérifie que la liste visée est bien couverte. Enfin, le test « file d'attente bornée » ne testait pas la
+**581 violations** et fait tomber quatre tests (« 124 » au 19e audit : relevé avant le dédoublonnage et la restitution
+de lieux du même commit ; remesuré au 20e sur l'état final, graine 1, 300 tirages). Seule la primitive géométrique
+« un lieu d'un autre pays à moins de N km » reste empruntée au moteur, et c'est écrit. L'auto-test du vérificateur
+couvre **quatorze familles** au lieu de dix, chaque injection déclare la famille qu'elle doit faire lever — ce qui a
+révélé une étiquette fausse de plus — et une assertion vérifie que la liste visée est bien couverte. (Le 20e audit a
+montré que « quatorze familles » se comparait à un total lui aussi faux : le vérificateur en lève **32**, pas 28 ; la
+couverture est passée à 23, et les neuf restantes sont listées dans le test avec la raison de leur absence.) Enfin, le test « file d'attente bornée » ne testait pas la
 file : ses 503 venaient du créneau d'export, et rendre la file infinie laissait les soixante tests serveur au vert. Il
 s'adresse désormais au module, et compare deux bornes : la plus large doit servir strictement plus de documents.
 
@@ -3831,11 +4014,15 @@ apostrophes différentes » — c'est **3 351**, dans 475 groupes (Yémen 233). 
 forme normalisée, l'écart entre l'ancien et le nouveau nombre de lieux, en comptant au passage des groupes dont tous les
 membres s'écrivent pourtant à l'identique : le bénéfice réel est 4,3 fois plus modeste. Également : l'écart de durée sur
 une traversée estimée de 1 000 km vaut **30 heures** et non 21 (la passe sous-estimait de neuf heures l'incertitude
-qu'elle signalait) ; 17 689 alias à harakat et non 17 004 ; 40 571 lieux à apostrophe modificative et non 40 696 ;
-147 accents graves, 77 tirets demi-cadratins, 17 accents aigus ; « vingt lectures d'i18n.js » et non dix-huit ;
-`style.css` fait 70 513 octets et non 6 ko. Enfin, l'empreinte du normalisateur prétendait traverser « toute la famille
-élargie » : elle en couvrait **4 caractères sur 27**, et pas U+2019, le plus fréquent (73 761 lieux). Elle les traverse
-tous les 34 désormais, vérifié un par un.
+qu'elle signalait) ; « vingt lectures d'i18n.js » et non dix-huit.
+Les comptes de caractères qui suivaient ont été **remesurés au 20e audit sur l'état final** : ils avaient été relevés
+AVANT le dédoublonnage et la restitution de lieux du même commit, et ne correspondaient donc à aucun état publié.
+Sur les 4 801 562 lieux et 1 718 520 alias d'aujourd'hui : 17 022 alias à harakat ; 40 536 lieux portant U+2018 ;
+140 entrées à accent grave U+0060, 77 à tiret demi-cadratin U+2013, 13 à accent aigu U+00B4 (lieux et alias réunis).
+`style.css` fait 72 870 octets — 70 513 au 19e audit, et non 6 ko comme l'annonçait la 18e. Enfin, l'empreinte du
+normalisateur prétendait traverser « toute la famille élargie » : elle en couvrait **7 caractères sur 34** (et non
+« 4 sur 27 » : la famille compte 22 caractères de `SEP_RE` et 12 de `NORM_DROP_RE`, recomptés un par un au 20e audit),
+et pas U+2019, le plus fréquent. Elle les traverse tous les 34 depuis le 19e.
 
 **Quasi-doublons : le dédoublonnage et la recherche voient enfin les mêmes.** Le dédoublonnage des générateurs
 comparait le nom BRUT, le moteur le nom NORMALISÉ : 1 212 paires de lieux d'un même pays portaient le même nom à moins
@@ -3846,8 +4033,8 @@ se normalisent à l'identique, la recherche les trouvait donc déjà toutes les 
 c'est la suggestion en double et la population contradictoire. Le départage retient la graphie la plus **fréquente**
 dans le pays, puis la population : la population seule gardait la coquille « Älajärvi » (10 308 hab., vue une fois)
 plutôt qu'« Alajärvi » (8 793 hab., vue trois fois), « Berezovo » plutôt que « Berëzovo » (54 fois), « Ar Rubū` »
-plutôt qu'« Ar Rubū‘ ». Sur les 572 groupes, les deux critères désignent la même graphie 443 fois ; sur les
-129 divergences la fréquence l'emporte partout sauf en roumain, où la cédille héritée « Dobreşti » est plus fréquente
+plutôt qu'« Ar Rubū‘ ». Sur les 572 groupes, les deux critères désignent la même graphie **452** fois ; sur les
+**120** divergences la fréquence l'emporte partout sauf en roumain, où la cédille héritée « Dobreşti » est plus fréquente
 que la virgule souscrite correcte « Dobrești » — limite écrite dans le code, faute d'une source orthographique.
 
 **Ce que la passe a changé, mesuré.** Suite complète : **262 tests, aucun échec**, 3 000 tirages sans une seule
@@ -3859,8 +4046,9 @@ Kaboul, Mopti, Lewe, Xarardheere, Calumboyan : le plafond annoncé est le même,
 55 contre-épreuves « hors de portée » passent des deux côtés.
 
 **Mesuré, documenté, figé — mais pas corrigé.** Un défaut réel que le dépôt n'a pas de quoi corriger honnêtement :
-- **365 liaisons de ferry annoncent une traversée plus courte que la ligne droite entre leurs ports**, dont 188 de plus
-  d'un kilomètre, 42 de plus de cinq, 12 de plus de dix. Ce n'est pas une donnée fausse mais la conséquence connue d'un
+- **365 liaisons de ferry annoncent une traversée plus courte que la ligne droite entre leurs ports**, dont 194 de plus
+  d'un kilomètre, 42 de plus de cinq, 12 de plus de dix (« 188 » au 19e audit : le seuil du kilomètre avait été relevé
+  avant le dédoublonnage du même commit — remesuré sur l'état final au 20e). Ce n'est pas une donnée fausse mais la conséquence connue d'un
   port pris au centre de la localité plutôt qu'au quai ; les pires cas sont déjà documentés comme non recalés faute de
   quai relevé. Un test fige les deux seuils : un quai relevé les fera baisser, rien ne les fera monter.
 
@@ -3952,8 +4140,10 @@ d'hébergement (0 / 3 585), et les 55 contre-épreuves « hors de portée » pas
 - **139 coordonnées à deux entiers exacts écartées**, dans 55 pays — **règle révisée et en partie annulée à la 19e
   passe, voir sa section** : l'argument avancé ici (« GeoNames publie cinq décimales, la probabilité qu'un lieu réel
   tombe sur deux entiers exacts est de l'ordre de 1 sur 10 milliards ») était faux de quatre ordres de grandeur, et
-  63 des 139 fiches, corroborées par une autre source du dépôt, ont été restituées. Restent écartées les 76 que rien
-  ne corrobore : Scarborough (CA) à « 60 / −96 », dans la toundra du Manitoba, un lieu nommé « China » en Tanzanie.
+  63 des 139 fiches, corroborées par une autre source du dépôt, ont été restituées — **puis 50 de ces 63 retirées à
+  nouveau à la 20e passe**, dont la corroboration ne tenait qu'à un critère tautologique (voir sa section) : il en
+  reste 13. Restent écartées les 126 que rien ne corrobore : Scarborough (CA) à « 60 / −96 », dans la toundra du
+  Manitoba, un lieu nommé « China » en Tanzanie.
   Aucune position n'a jamais été inventée pour les remplacer : une fiche est écartée, jamais déplacée.
 - **Conséquence assumée, et corrigée** : le seul lieu publié de l'île norvégienne de Hisarøy, `Nyhamar`, portait une
   telle coordonnée (61,0000 ; 5,0000). L'île n'avait alors plus aucun lieu, et la liaison `continental|hisaroy`
@@ -5628,6 +5818,8 @@ Bozcaada/Ténédos et Gökçeada/Imbros, bien plus connues. Anomalie GeoNames co
 (hors périmètre de cet ajout) : une poignée de hameaux quasi inhabités de Gökçeada (Paşaçayırı,
 Gürçeşme...) portent des coordonnées manifestement erronées, placées sur le continent proche plutôt
 que sur l'île elle-même — sans effet pratique réel, aucun n'ayant de population significative.
+
+## Ferries
 
 ### Liaisons sans tarif fixe publié : 156 lignes ajoutées (septembre 2026)
 

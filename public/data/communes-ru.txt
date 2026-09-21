@@ -52777,7 +52777,6 @@
 0;35.2507,58.4013;602342;Novgorod Oblast;Lisichikha
 0;34.7152,57.9666;171080;Tver Oblast;Lishutino
 0;38.5205,54.4160;216467;Moscow Oblast;Lishnyagi
-0;35.0000,58.0000;188283;Tver Oblast;Lishneva
 0;30.1817,58.0921;175031;Novgorod Oblast;Lishki
 0;37.2702,56.3582;172712;Moscow Oblast;Lishenino
 0;39.2856,45.6708;352741;Krasnodar Krai;Lisetskiy
@@ -59096,7 +59095,6 @@
 0;36.5835,58.2039;171684;Tver Oblast;Kosovo
 0;36.9368,58.0864;171652;Tver Oblast;Kasovo
 0;35.7824,54.9364;249950;Kaluga Oblast;Kosovo
-0;41.0000,48.0000;347012;Rostov;Kosov
 0;36.7596,52.0984;306520;Kursk Oblast;Kosorzha
 0;37.2666,51.9956;306454;Kursk Oblast;Kosorzha
 0;41.1000,52.5333;392533;Tambov Oblast;Kosorylovka
@@ -81417,7 +81415,6 @@
 0;28.0194,57.6467;181512;Pskov Oblast;Bob’yakovo
 0;36.4335,51.2096;306220;Kursk Oblast;Bobryshevo
 0;27.5667,57.6500;181513;Pskov Oblast;Bobry
-0;29.0000,57.0000;181370;Pskov Oblast;Bobry
 0;33.5844,56.6531;172232;Tver Oblast;Bobry
 0;35.4156,55.5182;141532;Moscow Oblast;Bobry
 0;40.4729,55.3593;391655;Vladimir Oblast;Bobry
@@ -87310,7 +87307,6 @@
 0;51.4053,54.9057;423119;Tatarstan Republic;Akkireyevo
 1264;58.2391,51.2467;462371;Orenburg Oblast;Staraya Akkermanovka
 0;37.6806,45.0098;353342;Krasnodar Krai;Akkermenka
-0;37.0000,56.0000;143512;Moscow Oblast;Akishino
 0;41.1500,54.9500;391334;Ryazan Oblast;Akishino
 0;35.2599,56.6439;171373;Tver Oblast;Akishevo
 0;37.3667,56.0833;141895;Moscow Oblast;Akishevo
@@ -114403,7 +114399,6 @@
 0;91.5650,55.5010;662354;Krasnoyarsk Krai;Malyye Syry
 0;79.3500,53.5833;658782;Altai Krai;Malyye Plesiki
 0;72.3667,66.1667;629752;Yamalo-Nenets;Malyye Nori
-0;61.0000,55.0000;456530;Chelyabinsk;Malyye Malyuki
 0;92.6375,54.3239;662692;Krasnoyarsk Krai;Malyye Knyshi
 0;81.6647,52.7296;658570;Altai Krai;Malyye Butyrki
 0;61.0667,56.0833;456846;Chelyabinsk;Malyye Bulzi
@@ -125380,7 +125375,6 @@
 0;107.9500,52.8000;671272;Buryatiya Republic;Gremyachinsk
 0;108.6342,50.3292;673051;Zabaykalskiy (Transbaikal) Kray;Gremyachka
 0;103.0833,53.4167;669451;Irkutsk Oblast;Grechekhon
-0;128.0000,50.0000;676966;Amur Oblast;Grazhdanovka
 0;104.2833,52.4667;664531;Irkutsk Oblast;Granovshchina
 0;131.5550,43.9089;692545;Primorye;Granatovka
 0;133.6833,45.9500;692130;Primorye;Grafskiy

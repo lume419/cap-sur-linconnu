@@ -54978,3 +54978,8 @@ ru;Липов рог;Lypiv Rih
 ru;Кустоловы кущи;Kustolovi Kushchi
 ru;Кривая руда;Kryva Ruda
 ru;Каменная яруга;Kamiana Yaruha
+ru;Мала Березовиця;Mala Berezovytsia
+ru;Онацке;Onatske
+ru;Гадинковцы;Hadynkivtsi
+he;סידורוב;Sydoriv
+pl;Sidorów;Sydoriv

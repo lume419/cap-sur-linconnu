@@ -3008,7 +3008,6 @@
 0;12.3167,65.9833;8850;Herøy (Nordland);Nyheim
 0;9.7667,63.5833;7315;Orkland;Nyheim
 0;5.3109,60.4185;5141;Bergen;Nyhavn
-0;5.0000,61.0000;5966;Gulen;Nyhamar
 0;9.9167,62.1167;2580;Folldal;Nygruva
 0;15.5667,68.9167;8484;Andøy;Nygard
 0;17.7050,68.4568;8522;Narvik;Nygård

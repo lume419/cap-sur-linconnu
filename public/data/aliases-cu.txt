@@ -1504,3 +1504,6 @@ ps;آرٹیمیسا;Artemisa
 tg;Артемиса;Artemisa
 uk;Кайо Коко;Cayo Coco
 uk;Kayo Koko;Cayo Coco
+de;Playa Guardalavaca;Guardalavaca
+zh;瓜达拉瓦卡;Guardalavaca
+ja;グアルダラバカ;Guardalavaca

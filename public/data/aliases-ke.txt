@@ -755,3 +755,4 @@ pa;ਕਥਵਾਨਾ;Kathwana
 ps;کتھوانا;Kathwana
 tg;Қатвана;Kathwana
 tt;Катвана;Kathwana
+ja;イクマ;Ikuma

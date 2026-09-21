@@ -1695,3 +1695,5 @@ sv;Akontombra;Sefwi Akontombra
 ja;セフィ・アコントンブラ;Sefwi Akontombra
 pl;Awoshie;Awoshi
 ru;Секонди;Sekondi
+en;Wari Village Number One;Wari Village Number Two
+en;Wari Village Number 1;Wari Village Number Two

@@ -1161,6 +1161,26 @@ html[lang="ii"] body, html[lang="ii"] input, html[lang="ii"] button, html[lang="
   font-family: "Noto Sans Yi", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
+/* ─────────────────────────────────────────────────────────────────────────────────────────────
+   LES MÊMES POLICES, SUR N'IMPORTE QUEL ÉLÉMENT MARQUÉ DE CETTE LANGUE (20e audit du 21/09/2026)
+   Les cinq règles ci-dessus ne se déclenchent que si la PAGE ENTIÈRE est dans la langue concernée
+   (html[lang="zgh"]…). Or l'endroit où ces écritures apparaissent forcément, quelle que soit la
+   langue de la page, c'est le sélecteur de langue : chaque nom y est écrit dans sa propre langue et
+   porte son attribut lang (posé par i18n.js depuis le 19e audit). Résultat, « ⵜⴰⵎⴰⵣⵉⵖⵜ », « አማርኛ »,
+   « རྫོང་ཁ », « ދިވެހި » et « ꆇꉙ » s'affichaient en carrés vides pour tout visiteur dont la page
+   n'était pas déjà dans ces cinq langues — c'est-à-dire pour presque tout le monde : on ne pouvait
+   pas CHOISIR ces langues, faute de les voir. Les sélecteurs d'attribut ci-dessous valent partout,
+   y compris sur <html> ; les règles précédentes restent, elles couvrent en plus les champs de
+   formulaire, dont la police n'est pas héritée sur tous les navigateurs.
+   Le coût de téléchargement reste porté par « unicode-range » : une police n'est tirée que si la page
+   affiche vraiment des caractères de son bloc — donc à l'ouverture du sélecteur, pas avant.
+   ───────────────────────────────────────────────────────────────────────────────────────────── */
+[lang="zgh"]{font-family:"Noto Sans Tifinagh", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;}
+[lang="am"],[lang="ti"]{font-family:"Noto Sans Ethiopic", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;}
+[lang="dz"]{font-family:"Noto Serif Tibetan", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;}
+[lang="dv"]{font-family:"Noto Sans Thaana", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;}
+[lang="ii"]{font-family:"Noto Sans Yi", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;}
+
 /* Message dans la liste de suggestions (chargement en cours) : non cliquable, discret. */
 .suggest-item.suggest-message{cursor:default; font-style:italic; opacity:.75; justify-content:flex-start;}
 

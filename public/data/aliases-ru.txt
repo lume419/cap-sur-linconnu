@@ -131285,5 +131285,29 @@ zh;佐洛京卡;Zolotinka
 zh;霍尔;Khor
 zh;伊塔卡;Itaka
 zh;比拉;Bira
-ru;Лишнева;Lishneva
-ru;Малые Малюки;Malyye Malyuki
+ru;Бешкино;Yushkino
+no;Besjkino;Yushkino
+ru;Хороменские;Khoromnoye
+no;Russkij Aktasj;Russkiy Aktash
+ru;Осташково;Likhoslavl’
+ru;Большие Решники;Reshniki
+ru;Ближнемельничный;Blizhnemel'nichnyy
+ru;Битцы;Bittsa
+no;Golenskij;Golenskiy
+ru;Ll’kov;Il’kov
+no;Starye Saviny;Staryye Saviny
+en;Kopan'ya;Kopon’ya
+no;Koponja;Kopon’ya
+ru;Урск;Ursk
+no;Varganovskoje;Varganovskoye
+no;Tsjiron;Chiron
+no;Kuvsjinskoje;Kuvshinskoye
+ru;Черноретский;Chernoretskiy
+no;Ajosjka;Ayeshka
+ru;Моисеева;Moiseyeva
+ru;Ищина;Ishchina
+ru;Старая Муравьёвка;Staraya Murav'yëvka
+ru;Лукьяники;Luk’yaniki
+ru;Засижье;Zasizh’ye
+ru;Ярцево-Гурьево;Yartsevo-Gur’yevo
+ru;Прелево;Prelevo

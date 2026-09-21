@@ -33,6 +33,7 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
+const Module = require('module');
 
 const ROOT = path.resolve(__dirname, '..');
 const DATA = path.join(ROOT, 'public', 'data');
@@ -199,6 +200,43 @@ test('index disque réduit : refusé quand la normalisation ou les données chan
   assert.equal(SI.open(idxDir, dataDir, engine.internals), null, 'index accepté malgré un fichier de données modifié');
 });
 
+// Copie de lib/trip-engine.js compilée avec un normalisateur MODIFIÉ : c'est le seul moyen d'éprouver ce que
+// l'empreinte doit attraper, puisqu'un simple objet « internals » bricolé ne prouverait que ce qu'on y met.
+function engineAvecNormDrop(remplacement){
+  const fichier = path.join(ROOT, 'lib', 'trip-engine.js');
+  const src0 = fs.readFileSync(fichier, 'utf8');
+  const ancien = 'const NORM_DROP_RE = /[\\u00B7\\u2027\\u0640\\u064B-\\u0652\\u0670]/g;';
+  assert.ok(src0.includes(ancien), 'NORM_DROP_RE introuvable dans lib/trip-engine.js');
+  const m = new Module(fichier, module);
+  m.filename = fichier;
+  m.paths = Module._nodeModulePaths(path.dirname(fichier));
+  m._compile(src0.replace(ancien, remplacement), fichier);
+  return m.exports;
+}
+
+test('20e audit : l\'index sur disque est refusé aussi quand le normalisateur AJOUTE un caractère', () => {
+  // L'empreinte du normalisateur ne comparait que la sortie d'une liste d'échantillons. Elle voyait donc qu'un
+  // caractère cessait d'être traité, jamais qu'un caractère NOUVEAU se mettait à l'être : aucun échantillon ne le
+  // contient. L'index déjà construit restait accepté avec ses anciennes clés — la régression de la 16e passe,
+  // 3 416 alias devenus introuvables sans la moindre erreur visible.
+  const { dataDir, idxDir } = buildMini();
+  assert.ok(SI.open(idxDir, dataDir, engine.internals), 'index réduit refusé alors qu\'il est à jour');
+  // Un caractère de PLUS dans le jeu retiré (ici la lettre syriaque U+0711, absente de tous les échantillons).
+  const plus = engineAvecNormDrop('const NORM_DROP_RE = /[\\u00B7\\u2027\\u0640\\u064B-\\u0652\\u0670\\u0711]/g;');
+  assert.equal(plus.internals.normalizeCityName('aܑb'), 'ab', 'le normalisateur modifié ne retire pas U+0711');
+  assert.equal(engine.internals.normalizeCityName('aܑb'), 'aܑb', 'le normalisateur réel retire déjà U+0711 : choisir un autre caractère');
+  // Contre-épreuve du DÉFAUT : sur les échantillons seuls, les deux normalisateurs rendent la même chose.
+  const NORM_PROBE_SORTIE = f => ['سوم‌دره', 'Œuf-d\'Ange', 'Sainte-Foy', 'ÉLAN  élan', 'İzmir', '北京', 'cn-15']
+    .map(x => f(x)).join('|');
+  assert.equal(NORM_PROBE_SORTIE(plus.internals.normalizeCityName), NORM_PROBE_SORTIE(engine.internals.normalizeCityName),
+    'les échantillons suffisaient à voir la différence : la contre-épreuve ne prouve rien');
+  assert.equal(SI.open(idxDir, dataDir, plus.internals), null,
+    'index accepté alors que le normalisateur retire un caractère de plus : la 16e passe se reproduirait');
+  // Et une copie NON modifiée reste acceptée (l'empreinte ne dépend pas du hasard de la compilation).
+  const pareil = engineAvecNormDrop('const NORM_DROP_RE = /[\\u00B7\\u2027\\u0640\\u064B-\\u0652\\u0670]/g;');
+  assert.ok(SI.open(idxDir, dataDir, pareil.internals), 'index refusé alors que le normalisateur est identique');
+});
+
 // ---------------------------------------------------------------------------------------------------------
 // 2 et 3. Moteur en mémoire (toutes les données) et, s'il est à jour, index de cache/search-index.
 // ---------------------------------------------------------------------------------------------------------
@@ -247,6 +285,65 @@ test('saisies réelles : l\'index sur disque retrouve le bon lieu et donne le M�
   }
   assert.deepEqual(bad, []);
   assert.deepEqual(diverge, [], 'les deux chemins de recherche ne rendent pas le même lieu');
+});
+
+// Groupes « pays|nom normalisé|code postal » partagés par PLUSIEURS lieux publiés. La recherche n'en rend qu'un
+// (limite mesurée et documentée dans lib/trip-engine.js : 634 832 lieux, 13,2 %, sont ainsi masqués) — mais celui
+// qu'elle rend doit être LE PLUS PEUPLÉ, et le même par les deux chemins. Jusqu'au 20e audit du 21/09/2026, la
+// recherche en mémoire gardait le PREMIER rencontré dans l'ordre des fichiers : sur dix saisies éprouvées, sept
+// donnaient un lieu différent de l'index sur disque, et Robīt (Éthiopie, 39 600 habitants) n'apparaissait pas du
+// tout en mémoire, effacé par un homonyme de 20 679 habitants.
+const GROUPES_PARTAGES = (() => {
+  const out = [];
+  const vus = new Set();
+  for(const cc of Object.keys(TripData.COUNTRIES).sort()){
+    const f = TripData.COUNTRIES[cc].file;
+    if(!f || vus.has(f)) continue;
+    vus.add(f);
+    const p = path.join(DATA, f);
+    if(!fs.existsSync(p)) continue;
+    const groupes = new Map();
+    for(const l of fs.readFileSync(p, 'utf8').split('\n')){
+      if(!l) continue;
+      const ch = l.split(';');
+      const nom = ch.slice(4).join(';');
+      const cp = (ch[2] || '').split(',')[0];
+      const k = engine.internals.normalizeCityName(nom) + '|' + cp;
+      const e = { nom, pop: parseInt(ch[0], 10) || 0, cp, norm: engine.internals.normalizeCityName(nom) };
+      const g = groupes.get(k);
+      if(g) g.push(e); else groupes.set(k, [e]);
+    }
+    for(const [, g] of groupes){
+      if(g.length < 2) continue;
+      const pops = g.map(x => x.pop);
+      const max = Math.max.apply(null, pops);
+      // Seulement les groupes où le choix SE VOIT : populations distinctes, et une vraie ville en jeu.
+      if(max <= 10000 || pops.filter(x => x === max).length !== 1) continue;
+      const gagnant = g.find(x => x.pop === max);
+      if(gagnant.norm.length < 3) continue;
+      out.push({ cc, q: gagnant.nom, norm: gagnant.norm, cp: gagnant.cp, pop: max });
+    }
+  }
+  return out;
+})();
+
+test('homonymes de même code postal : les deux chemins rendent le lieu LE PLUS PEUPLÉ', (t) => {
+  assert.ok(GROUPES_PARTAGES.length >= 50, 'échantillon trop maigre (' + GROUPES_PARTAGES.length + ' groupes)');
+  const bad = [];
+  for(const g of GROUPES_PARTAGES){
+    const mem = engine.searchCity(g.q, 40, g.cc, null) || [];
+    const vu = mem.find(x => x.country === g.cc && engine.internals.normalizeCityName(x.name) === g.norm && x.cp === g.cp);
+    if(vu && vu.pop !== g.pop) bad.push('mémoire ' + g.cc + ' ' + JSON.stringify(g.q) + ' cp ' + g.cp + ' : ' + vu.pop + ' hab. rendu au lieu de ' + g.pop);
+    if(diskIdx){
+      const dsk = diskIdx.search(g.q, 40, g.cc, null) || [];
+      const vd = dsk.find(x => x.country === g.cc && engine.internals.normalizeCityName(x.name) === g.norm && x.cp === g.cp);
+      if(vd && vd.pop !== g.pop) bad.push('disque ' + g.cc + ' ' + JSON.stringify(g.q) + ' cp ' + g.cp + ' : ' + vd.pop + ' hab. rendu au lieu de ' + g.pop);
+      if(!!vu !== !!vd) bad.push('divergence ' + g.cc + ' ' + JSON.stringify(g.q) + ' : ' + (vu ? 'mémoire seule' : 'disque seul'));
+    }
+  }
+  if(!diskIdx) t.diagnostic('index de cache/search-index indisponible (' + diskWhy + ') : seul le chemin en mémoire est vérifié');
+  assert.deepEqual(bad.slice(0, 20), []);
+  assert.equal(bad.length, 0);
 });
 
 // Balayage : des alias tirés au hasard dans TOUS les fichiers, chacun doit retrouver son lieu. C'est le contrôle qui

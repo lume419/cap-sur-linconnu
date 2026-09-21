@@ -36,7 +36,9 @@ async function startServer(opts){
   const out = fs.openSync(serverLog, 'w');
   const child = spawn(process.execPath, ['--max-old-space-size=8192', '-r', path.join(__dirname, 'mock-fetch.js'), path.join(ROOT, 'server.js')], {
     cwd: ROOT,
-    env: Object.assign({}, process.env, { PORT: String(port), MOCK_CTRL: ctrl, MOCK_LOG: log, NODE_OPTIONS: '' }),
+    // opts.env : réglages propres à UN serveur de test (20e audit du 21/09/2026 — le plafond d'octets des gros
+    // fichiers statiques ne peut s'éprouver qu'abaissé, et l'abaisser pour le serveur partagé dérèglerait les autres tests).
+    env: Object.assign({}, process.env, opts.env || {}, { PORT: String(port), MOCK_CTRL: ctrl, MOCK_LOG: log, NODE_OPTIONS: '' }),
     stdio: ['ignore', out, out],
     windowsHide: true
   });

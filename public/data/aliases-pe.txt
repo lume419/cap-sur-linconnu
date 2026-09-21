@@ -2655,3 +2655,4 @@ br;Machu Picchu Pueblo;Aguas Calientes
 ka;აგუას-კალიენტესი;Aguas Calientes
 ur;ماچوپیکچو، پیرو;Aguas Calientes
 he;אגואס קליינטס;Aguas Calientes
+es;Obenteni;Oventeni

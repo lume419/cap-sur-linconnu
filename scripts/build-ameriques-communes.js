@@ -59,10 +59,18 @@ fs.readFileSync(path.join(__dirname, 'admin1CodesASCII.txt'), 'utf8').split('\n'
 
 // ONLY_COUNTRY=MX : reconstruit un seul pays (les autres fichiers restent intacts ; 12e audit du 19/09/2026, même
 // option que build-asie-communes.js).
-const ONLY_COUNTRY = process.env.ONLY_COUNTRY || '';
+// 20e audit du 21/09/2026 : une LISTE est acceptée (ONLY_COUNTRY=MX,KR), comme dans build-country-communes.js.
+// Avant, « ONLY_COUNTRY=MX,KR » ne correspondait à aucun pays et le script affichait « TOTAL : 0 » sans rien
+// régénérer ni rien signaler — un code inconnu passe désormais par une erreur, pas par un silence.
+const ONLY_COUNTRY = (process.env.ONLY_COUNTRY || '').split(',').map(x => x.trim()).filter(Boolean);
+const inconnus = ONLY_COUNTRY.filter(c => !COUNTRIES.includes(c));
+if(inconnus.length){
+  console.error('ONLY_COUNTRY : ce script ne traite pas ' + inconnus.join(', ') + '. Pays possibles : ' + COUNTRIES.join(', '));
+  process.exit(1);
+}
 let total = 0;
 for(const country of COUNTRIES){
-  if(ONLY_COUNTRY && country !== ONLY_COUNTRY) continue;
+  if(ONLY_COUNTRY.length && !ONLY_COUNTRY.includes(country)) continue;
   const seen = new Map(); let brut = 0;
   fs.readFileSync(path.join(__dirname, 'dump', country + '_dump.txt'), 'utf8').split('\n').forEach(line => {
     const c = line.split('\t');

@@ -512,3 +512,4 @@ ar;جزيرة دلما;Dalma Island
 ar;شعبية دلما الجديدة;Shabiat Dalma Al Jadeedah
 ar;شعبية دلما;Shabiat Dalma
 ar;شعبية دلما الجبل;Shabiat Dalma Al Jabel
+ar;دلما;Dalma Island

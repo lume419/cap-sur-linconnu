@@ -522,25 +522,35 @@ function fakeDom(){
   dom.el = el;
   return dom;
 }
-function loadSwitcher(){
+// opts.differer : les minuteurs ne partent plus tout seuls, ils s'empilent et on les déclenche à la main (flush).
+// C'est le seul moyen d'observer une annonce PROGRAMMÉE mais pas encore écrite — donc la course que le 20e audit
+// du 21/09/2026 a trouvée dans annoncer().
+function loadSwitcher(opts){
+  opts = opts || {};
   const src = fs.readFileSync(path.join(PUB, 'js', 'i18n.js'), 'utf8');
   const dom = fakeDom();
   const root = dom.el('div');
   root.id = 'lang-switcher';
+  const minuteurs = new Map();
+  let prochainId = 1;
   const ctx = {
     window: {}, navigator: { languages: ['fr'] }, localStorage: { getItem: () => null, setItem(){} },
     document: {
       readyState: 'complete', documentElement: dom.el('html'), querySelectorAll: () => [], addEventListener(){},
       getElementById: id => (id === 'lang-switcher' ? root : null), createElement: dom.el
     },
-    CustomEvent: function(){}, Intl, console, setTimeout: fn => fn()
+    CustomEvent: function(){}, Intl, console,
+    setTimeout: fn => { if(!opts.differer){ fn(); return 0; } const id = prochainId++; minuteurs.set(id, fn); return id; },
+    clearTimeout: id => { minuteurs.delete(id); }
   };
   Object.defineProperty(ctx.document, 'activeElement', { get: () => dom.activeElement });
   ctx.window.addEventListener = () => {};
   ctx.window.dispatchEvent = () => {};
   vm.createContext(ctx);
   vm.runInContext(src, ctx);
-  return { root, button: root.children[0], panel: root.children[1], dom };
+  return { root, button: root.children[0], panel: root.children[1], dom,
+    enAttente: () => minuteurs.size,
+    flush: () => { const l = [...minuteurs.values()]; minuteurs.clear(); l.forEach(fn => fn()); } };
 }
 test('17e audit : sélecteur de langue — un seul motif ARIA (bouton + listbox), clavier inchangé', () => {
   const { root, button, panel, dom } = loadSwitcher();
@@ -596,6 +606,114 @@ test('17e audit : sélecteur de langue — un seul motif ARIA (bouton + listbox)
   assert.ok(filtered.every(o => o.getAttribute('role') === 'option'));
 });
 
+test('20e audit : l\'annonce du sélecteur de langue ne parle pas après coup, et ne se répète pas à chaque frappe', () => {
+  // La région vivante (aria-live="polite") ajoutée au 19e audit écrit son texte au TOUR SUIVANT, pour que le lecteur
+  // d'écran reprononce un message identique. Deux défauts en découlaient :
+  //   - effacer l'annonce n'annulait pas l'écriture déjà programmée : « Aucune langue trouvée » s'écrivait APRÈS que
+  //     la frappe suivante eut rempli la liste — le lecteur d'écran annonçait l'inverse de ce qui était affiché ;
+  //   - chaque lettre tapée dans une recherche déjà sans résultat reprononçait la même phrase.
+  const { button, panel, flush, enAttente } = loadSwitcher({ differer: true });
+  const live = panel.children.find(c => c.id === 'lang-search-live');
+  assert.ok(live, 'région vivante absente du panneau');
+  const search = panel.children.find(c => c.className === 'lang-search');
+  const list = panel.children.find(c => c.className === 'lang-option-list');
+  button.fire('click');
+  flush();
+
+  // 1. Saisie sans résultat : l'annonce est PROGRAMMÉE.
+  search.value = 'zzzzzz';
+  search.fire('input');
+  assert.equal(list.querySelectorAll('.lang-option').length, 0, 'la saisie « zzzzzz » ne devait rien donner');
+  assert.equal(enAttente(), 1, 'aucune annonce programmée pour une recherche sans résultat');
+
+  // 2. Une lettre de plus, toujours sans résultat : RIEN de nouveau n'est programmé, le texte est déjà le bon.
+  search.value = 'zzzzzzz';
+  search.fire('input');
+  assert.equal(enAttente(), 1, 'la même phrase est reprogrammée à chaque frappe (' + enAttente() + ' annonces en attente)');
+  flush();
+  const attendu = live.textContent;
+  assert.ok(attendu, 'la région vivante est restée vide');
+
+  // 3. Saisie qui redonne des résultats AVANT que l'annonce ne soit écrite : l'annonce doit être annulée.
+  search.value = 'zzzzzzzz';
+  search.fire('input');           // reprogramme ? non : même texte
+  search.value = '';
+  search.fire('input');           // la liste se remplit -> annoncer('')
+  assert.ok(list.querySelectorAll('.lang-option').length > 100, 'la liste ne s\'est pas remplie');
+  assert.equal(enAttente(), 0, 'une annonce reste programmée alors que la liste est pleine');
+  flush();
+  assert.equal(live.textContent, '', 'la région vivante annonce « ' + live.textContent + ' » alors que la liste est pleine');
+});
+
+test('20e audit : chaque langue se retrouve en tapant son nom SANS les signes qu\'aucun clavier ne donne', () => {
+  // Le champ de recherche du sélecteur replie la casse et les accents, mais pas les apostrophes ni les lettres
+  // modificatives : « kiche » ne trouvait pas « K'iche' », « olelo hawaii » ne trouvait pas « ʻŌlelo Hawaiʻi ».
+  // Huit langues sur 161 étaient dans ce cas : uz, haw, gn, ch, mrq, yua, quc, kek.
+  const SIGNES = /['ʻʼʽʾʿˈ‘’‛··՚ꞌ]/;
+  const concernées = Object.keys(LANG_NAMES_T).filter(c => langs.indexOf(c) >= 0 && SIGNES.test(LANG_NAMES_T[c]));
+  assert.ok(concernées.length >= 8, 'échantillon trop maigre (' + concernées.length + ' noms à signes)');
+  const { button, panel } = loadSwitcher();
+  const search = panel.children.find(c => c.className === 'lang-search');
+  const list = panel.children.find(c => c.className === 'lang-option-list');
+  button.fire('click');
+  const perdues = [];
+  for(const code of concernées){
+    const saisie = LANG_NAMES_T[code].replace(new RegExp(SIGNES.source, 'g'), '');
+    search.value = saisie;
+    search.fire('input');
+    const trouvé = list.querySelectorAll('.lang-option').some(o => o.getAttribute('data-lang') === code);
+    if(!trouvé) perdues.push(code + ' « ' + LANG_NAMES_T[code] + ' » tapé « ' + saisie + ' »');
+  }
+  assert.deepEqual(perdues, []);
+  // Contre-épreuve : les codes à tiret restent cherchables tels quels (le tiret ne doit PAS être replié).
+  const àTiret = langs.filter(c => c.indexOf('-') >= 0);
+  assert.ok(àTiret.length >= 4, 'aucun code à tiret : la contre-épreuve ne prouve rien');
+  const tiretPerdus = [];
+  for(const code of àTiret){
+    search.value = code;
+    search.fire('input');
+    if(!list.querySelectorAll('.lang-option').some(o => o.getAttribute('data-lang') === code)) tiretPerdus.push(code);
+  }
+  assert.deepEqual(tiretPerdus, []);
+});
+
+test('20e audit : les polices embarquées s\'appliquent au nom de la langue dans le sélecteur, pas seulement à la page entière', () => {
+  // Cinq écritures ne sont fournies par presque aucun système : tifinagh, guèze, tibétain, thâna, yi. Le projet
+  // embarque leurs polices — mais les règles ne visaient que « html[lang="zgh"] body », c'est-à-dire la page
+  // ENTIÈRE déjà dans cette langue. Or l'endroit où ces écritures apparaissent toujours, quelle que soit la langue
+  // de la page, c'est le sélecteur de langue, où chaque nom porte son propre attribut lang. « ⵜⴰⵎⴰⵣⵉⵖⵜ », « አማርኛ »,
+  // « རྫོང་ཁ », « ދިވެހި » et « ꆇꉙ » s'affichaient donc en carrés vides pour qui ne lisait pas déjà ces langues :
+  // impossible de les choisir faute de les voir.
+  const css = fs.readFileSync(path.join(PUB, 'css', 'style.css'), 'utf8');
+  const faces = [...css.matchAll(/@font-face\s*\{([^}]*)\}/g)].map(m => m[1]);
+  assert.ok(faces.length >= 5, faces.length + ' @font-face trouvés dans style.css');
+  const polices = faces.map(bloc => {
+    const nom = (bloc.match(/font-family:\s*"([^"]+)"/) || [])[1];
+    const plages = [];
+    const ur = (bloc.match(/unicode-range:\s*([^;]+);/) || [])[1] || '';
+    ur.split(',').forEach(p => {
+      const m = p.trim().match(/^U\+([0-9A-Fa-f]+)(?:-([0-9A-Fa-f]+))?$/);
+      if(m) plages.push([parseInt(m[1], 16), parseInt(m[2] || m[1], 16)]);
+    });
+    return { nom, plages };
+  }).filter(p => p.nom && p.plages.length);
+  assert.equal(polices.length, faces.length, 'une @font-face sans nom ou sans unicode-range');
+  const manquantes = [];
+  for(const code of langs){
+    const nom = LANG_NAMES_T[code];
+    if(!nom) continue;
+    for(const p of polices){
+      const concerné = [...nom].some(ch => { const cp = ch.codePointAt(0); return p.plages.some(([a, b]) => cp >= a && cp <= b); });
+      if(!concerné) continue;
+      // Une règle qui s'applique à N'IMPORTE QUEL élément portant lang="<code>" : le sélecteur ne doit pas être
+      // limité à <html> (« html[lang="zgh"] body » ne touche pas une option du sélecteur dans une page française).
+      const re = new RegExp('(^|[,\\s])\\[lang="' + code + '"\\][^{]*\\{[^}]*font-family:\\s*"' + p.nom + '"', 'm');
+      if(!re.test(css)) manquantes.push(code + ' « ' + nom + ' » -> ' + p.nom);
+    }
+  }
+  assert.deepEqual(manquantes, []);
+});
+
 // --------------------------------------------------------- 18e audit du 21/09/2026 : écriture des replis
 // La 14e passe a corrigé le touroyo et l'adyguéen, dont la locale de repli imposait une écriture étrangère aux
 // dates, aux nombres et aux noms de pays (« ٦ roj٣ bajar » en kurde). Elle n'a pas passé la règle sur les autres :
@@ -623,7 +741,12 @@ test('18e audit : locale de repli — jamais une écriture étrangère à celle 
     hy: 'l\'arménien a sa propre écriture ; à défaut de locale ICU, le russe est la langue de contact en Arménie'
   };
   const noms = LANG_NAMES_T;
-  assert.ok(noms && Object.keys(noms).length > 100, 'LANG_NAMES non exposée par i18n.js');
+  // 20e audit du 21/09/2026 : « plus de 100 clés » ne pouvait pas échouer — la table en compte 161 depuis longtemps,
+  // et une langue qui perdrait son nom passait inaperçue. La table doit correspondre EXACTEMENT à SUPPORTED.
+  assert.ok(noms, 'LANG_NAMES non exposée par i18n.js');
+  assert.deepEqual(langs.filter(c => !noms[c]), [], 'langue déclarée sans nom dans LANG_NAMES');
+  assert.deepEqual(Object.keys(noms).filter(c => langs.indexOf(c) < 0), [], 'nom de langue sans langue correspondante dans SUPPORTED');
+  assert.equal(Object.keys(noms).length, langs.length);
   const date = new Date(Date.UTC(2026, 8, 23));
   const bad = [], inutiles = [];
   for(const code of Object.keys(F)){

@@ -5845,3 +5845,7 @@ bg;Крива Фея;Kriva Feja
 fa;کریوا فیا;Kriva Feja
 el;Μπανγκλαντές;Bangladeš
 bn;বাংলাদেশ;Bangladeš
+tt;Субъел;Subjel
+ce;Субъел;Subjel
+fa;سوبیل;Subjel
+sr;Субјел;Subjel

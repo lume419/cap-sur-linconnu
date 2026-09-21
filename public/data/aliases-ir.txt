@@ -91497,3 +91497,78 @@ pl;Rej;Rey
 sv;Rayy;Rey
 zh;雷伊;Rey
 fa;گوانی;Gavānī
+fa;كَدكوه;Keykūh
+fa;سيرگاه;Sīrgāh
+fa;خردمند انیسی;Chopūn Boneh
+fa;گيله كلا;Gīleh Kolā
+fa;Şalāt;Şalāḩ
+fa;Şelāt;Şalāḩ
+fa;صِلات;Şalāḩ
+fa;خاكئ شِكَر آباد;Khākī-ye Shekarābād
+fa;پائین محله نوشهر;Bālā Maḩalleh-ye Kachelām
+fa;قلعه نو;Jahīz Khāneh
+fa;علی آباد آهيه;Āhīyeh
+fa;اهيه;Āhīyeh
+fa;اوبه محمد علی آخوند;Moḩammad Qolī Ākhūnd
+fa;عوج بقز;Ūj Boghāz
+fa;اوج بغاز;Ūj Boghāz
+fa;اوچ بغاز;Ūj Boghāz
+fa;قِيتاچ;Qeyqāj
+fa;اِمامابادِ قِيقَچ;Qeyqāj
+fa;قَجَرابِ عُليَ;Qajar Āb-e Bālā
+fa;قَجَراب;Qajar Āb-e Bālā
+fa;کل دوزخ;Kal Dūzakh-e Yek
+fa;کلدوزخ یک;Kal Dūzakh-e Yek
+fa;كَبوران;Kabūrān
+fa;جَگينِ زير;Jagīn
+fa;جگين;Jagīn
+fa;غِيب قُلئ پائين;Ganjvarān-e Vosţá
+fa;غِيب قُلی;Ganjvarān-e Vosţá
+fa;غِيب قُلی پائين;Ganjvarān-e Vosţá
+fa;غیب قلی پایین;Ganjvarān-e Vosţá
+fa;گنجوران وسطی;Ganjvarān-e Vosţá
+fa;دُدَر;Dowdar
+fa;دُو دَران;Dowdar
+fa;پا درازان;Lorān
+fa;رَحيمابادِ يِك;Raḩīmābād-e Yek
+fa;بيجَن آباد;Bījanābād
+fa;بارومو;Berahmā
+fa;بُرما;Berahmā
+fa;بند قیر;Band-e Qīr
+fa;اَنادَر;Anārdar-e Bālā
+fa;اَلچان;Aljān
+fa;كَلَگَر مَحَلِّه;Kalāgar Maḩalleh
+fa;چیرمان علیا;Chīrmān
+fa;چال تَرخان;Chāl Ţarkhān
+fa;گبولان;Gabūlān
+fa;ده عباسعلی;Deh-e ‘Abbās ‘Alī
+fa;کشار چمردان;Keshār-e Chamardān
+fa;شهرابیه;Sohrābīyeh
+fa;سهرابیه;Sohrābīyeh
+fa;باستین;Bāstīn
+fa;بازتین;Bāstīn
+fa;علی آبادتنگ;‘Alīābād-e Tang
+fa;مکران یک;Magrān-e Yek
+fa;کولسوند;Kūlsavand
+fa;گل آباد;Golābān-e Seh
+fa;گل آبان سه;Golābān-e Seh
+fa;تنگ پری;Tang-e Parī-ye `Olyā
+fa;تنگ پری علیا;Tang-e Parī-ye `Olyā
+fa;برزیان;Barzīān
+fa;دوپر برزیان;Barzīān
+fa;پاپو پلنگان;Mūshlakeh
+fa;مهدی محله;Voshmeh Sarā
+fa;زالی آباد لاخری علیا;Z̄ālīābād
+fa;زالی آباد;Z̄ālīābād
+fa;زالی آباد لاخری سفلی;Z̄ālīābād
+fa;باینوج;Bāynūj
+fa;لیموئی;Līmū’ī
+fa;شهسواری;Gowd Band
+fa;فیشدام;Fīshdām
+fa;کلات ميرعلی;Kalāt-e Mīr ‘Alī
+fa;بید تاك;Bīd Tāk
+fa;دهخدا;Gerd Bīsheh
+fa;شهرك اباذر;Shahrak-e Abāz̄ar
+fa;جفت خرمنا;Chāl Ābzā
+fa;سروان محله;Sarvan Maḩalleh
+fa;سوريان;Surian

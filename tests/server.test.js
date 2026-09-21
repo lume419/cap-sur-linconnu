@@ -11,6 +11,8 @@ const assert = require('node:assert/strict');
 const fs = require('fs');
 const vm = require('vm');
 const path = require('path');
+const net = require('net');
+const { spawnSync } = require('child_process');
 const { startServer } = require('./helpers/server.js');
 const { client, freshIp, missingSecurityHeaders } = require('./helpers/http.js');
 const { pdfText, pageCount, isCompletePdf } = require('./helpers/pdf-text.js');
@@ -104,6 +106,54 @@ test('quota des gros fichiers statiques : 30 par minute et par IP, variantes d\'
   // Une autre adresse n'est pas touchée.
   const other = await H.method('HEAD', '/js/i18n.js', { headers: 'Accept-Encoding: br\r\n' });
   assert.equal(other.status, 200);
+});
+
+// Salve de requêtes ENCHAÎNÉES (pipelining HTTP/1.1) : toutes envoyées d'un coup, sans attendre les réponses.
+// Rend les codes de réponse reçus et le volume total.
+function salveEnchaînée(port, chemin, n, ip){
+  const CRLF = '\r\n';
+  return new Promise(resolve => {
+    const s = net.connect(port, '127.0.0.1', () => {
+      let requêtes = '';
+      for(let i = 0; i < n; i++) requêtes += 'GET ' + chemin + ' HTTP/1.1' + CRLF + 'Host: 127.0.0.1' + CRLF +
+        'X-Forwarded-For: ' + ip + CRLF + (i === n - 1 ? 'Connection: close' + CRLF : '') + CRLF;
+      s.write(requêtes);
+    });
+    let buf = '';
+    s.on('data', c => { buf += c.toString('latin1'); });
+    const fin = () => resolve({ octets: Buffer.byteLength(buf, 'latin1'), codes: (buf.match(/^HTTP\/1\.1 (\d\d\d)/gm) || []).map(x => x.slice(9)) });
+    s.on('close', fin);
+    s.on('error', fin);
+  });
+}
+
+test('20e audit : le plafond d\'octets des gros fichiers tient sur des requêtes ENCHAÎNÉES', { timeout: 960000 }, async () => {
+  // La 19e passe relevait les octets APRÈS coup, sur res.socket — qui vaut null tant que la réponse n'est pas en tête
+  // de file d'attente de la connexion : sur des requêtes enchaînées, 2 sur 3 ne comptaient aucun octet, et surtout
+  // TOUTE la salve traversait le middleware avant que la première réponse ne soit écrite, donc avec un compteur à
+  // zéro. Mesuré alors, plafond abaissé à 1 Mio : 40 requêtes enchaînées obtenaient 30 réponses et 9,7 Mio, contre
+  // 4 réponses et 1,3 Mio pour les mêmes requêtes une par une. Les octets sont désormais portés au compteur AVANT
+  // d'être servis — leur taille est connue d'avance, ces quatre fichiers étant précompressés en mémoire.
+  // Serveur dédié : éprouver le plafond réel demanderait 220 Mio, et l'abaisser pour le serveur partagé dérèglerait
+  // les autres tests.
+  const PLAFOND = 1024 * 1024;
+  const srv2 = await startServer({ env: { BIG_STATIC_BYTES_MAX: String(PLAFOND) } });
+  try {
+    const enchaîné = await salveEnchaînée(srv2.port, '/js/app.js', 40, '10.60.0.1');
+    const H2 = client(srv2.port);
+    let seules = 0, octetsSeuls = 0;
+    for(let i = 0; i < 40; i++){
+      const r = await H2.get('/js/app.js', { ip: '10.60.0.2' });
+      if(r.status === 200){ seules++; octetsSeuls += r.body.length; }
+    }
+    const servies = enchaîné.codes.filter(c => c === '200').length;
+    assert.ok(enchaîné.codes.includes('429'), 'aucun 429 sur la salve enchaînée : ' + JSON.stringify(enchaîné.codes));
+    assert.ok(seules >= 1 && seules <= 8, 'témoin une-par-une inattendu : ' + seules + ' réponses, ' + octetsSeuls + ' octets');
+    // Le cœur du test : enchaîner ne doit RIEN rapporter de plus que demander une par une.
+    assert.ok(servies <= seules + 1, 'enchaîner rapporte ' + servies + ' réponses contre ' + seules + ' une par une');
+    assert.ok(enchaîné.octets <= 2 * PLAFOND, 'salve enchaînée : ' + (enchaîné.octets / 1048576).toFixed(1) +
+      ' Mio servis pour un plafond de ' + (PLAFOND / 1048576).toFixed(1) + ' Mio');
+  } finally { srv2.stop(); }
 });
 
 // --------------------------------------------------------------------------------------------- export PDF
@@ -1307,22 +1357,38 @@ test('19e audit : l\'attente d\'un fil perdu n\'est pas facturée au budget de c
   // `ms` est ce que l'export a coûté à l'adresse demandeuse, `msProcessus` ce qu'il a coûté au PROCESSUS — la seule
   // part qui a bloqué la boucle d'événements et qui doit peser sur le budget global. Le 18e audit imputait les deux
   // fois le total, attente comprise : un fil qui ne répond plus retirait jusqu'à 15 s des 25 s par minute du site.
+  // 20e audit du 21/09/2026 : les trois assertions de la 19e passe étaient VRAIES PAR CONSTRUCTION — le repli calcule
+  // ms = msProcessus + min(attente, FIL_CALCUL_MAX_MS), donc « ms >= msProcessus » et « ms - msProcessus <= 3500 » ne
+  // pouvaient pas échouer, et l'attente éprouvée (60 ms) était cinquante fois sous le plafond. Le test mesure
+  // maintenant ce qui est réellement en jeu : la part imputée au fil SUIT l'attente. Deux replis, l'un après 60 ms
+  // d'attente, l'autre après 1 200 ms ; remplacer cette part par une constante, ou la faire porter par msProcessus,
+  // fait échouer le test.
   const chemin = path.join(ROOT, 'lib', 'pdf-service.js');
-  delete require.cache[require.resolve(chemin)];
-  process.env.PDF_REPONSE_MAX_MS = '60';
-  const S = require(chemin);
-  delete process.env.PDF_REPONSE_MAX_MS;
-  try {
-    const r = await S.build({ trip: maxTripPayload('dz'), title: 'essai', lang: 'dz', glyphMax: 6000 });
-    assert.equal(r.source, 'local', 'ce test suppose un repli');
-    assert.ok(r.msProcessus > 0, 'le repli bloque le processus : msProcessus doit être compté');
-    assert.ok(r.ms >= r.msProcessus, 'le total imputé à l\'adresse doit inclure le temps du processus');
-    // Le temps de fil imputable est borné (FIL_CALCUL_MAX_MS = 3,5 s) : au-delà le fil ne calculait plus.
-    assert.ok(r.ms - r.msProcessus <= 3500, 'temps de fil imputé non borné : ' + (r.ms - r.msProcessus) + ' ms');
-  } finally {
-    await S.stop();
+  const imputé = async delai => {
     delete require.cache[require.resolve(chemin)];
-  }
+    process.env.PDF_REPONSE_MAX_MS = String(delai);
+    const S = require(chemin);
+    delete process.env.PDF_REPONSE_MAX_MS;
+    try {
+      const r = await S.build({ trip: maxTripPayload('dz'), title: 'essai', lang: 'dz', glyphMax: 6000 });
+      assert.equal(r.source, 'local', 'ce test suppose un repli (délai ' + delai + ' ms)');
+      assert.ok(r.msProcessus > 0, 'le repli bloque le processus : msProcessus doit être compté');
+      return { fil: r.ms - r.msProcessus, processus: r.msProcessus, ms: r.ms };
+    } finally {
+      await S.stop();
+      delete require.cache[require.resolve(chemin)];
+    }
+  };
+  const court = await imputé(60);
+  const long = await imputé(1200);
+  // Le temps de fil imputable est borné (FIL_CALCUL_MAX_MS = 3,5 s) : au-delà le fil ne calculait plus.
+  assert.ok(long.fil <= 3500 && court.fil <= 3500, 'temps de fil imputé non borné : ' + court.fil + ' / ' + long.fil + ' ms');
+  // Et il SUIT l'attente : 1 200 ms d'attente doivent coûter nettement plus que 60 ms.
+  assert.ok(long.fil >= court.fil + 300,
+    'le temps imputé au fil ne suit pas l\'attente : ' + court.fil + ' ms après 60 ms d\'attente, ' + long.fil + ' ms après 1 200 ms');
+  // La mise en page elle-même ne change pas d'un cas à l'autre : c'est bien l'ATTENTE qui est comptée à part.
+  assert.ok(Math.abs(long.processus - court.processus) < Math.max(400, court.processus),
+    'msProcessus varie avec l\'attente (' + court.processus + ' -> ' + long.processus + ' ms) : l\'attente est comptée comme du calcul');
 });
 
 test('18e audit : le PDF écrit les écritures de droite à gauche dans le bon ordre VISUEL', () => {
@@ -1709,4 +1775,27 @@ test('18e audit : un corps trop gros dit lequel — « itinéraire » pour l\'ex
   const pdf = await H.post('/api/export-pdf', JSON.stringify({ legs: [], x: 'a'.repeat(300000) }));
   assert.equal(pdf.status, 413);
   assert.equal(JSON.parse(pdf.body.toString('utf8')).error, 'trip too large');
+});
+
+test('20e audit : un fil de travail qui meurt ou reste muet ne laisse PAS l\'export sans réponse', { timeout: 180000 }, async () => {
+  // Le service confie la mise en page à un fil persistant et promet, dans son en-tête, un repli dans le processus
+  // principal « au cas où le fil refuse de démarrer ». Ce repli n'existait pas : un fil qui meurt à chaque
+  // chargement relançait sans fin le cycle « démarrer, mourir, attendre le délai de garde », et un fil qui vit sans
+  // jamais annoncer ses polices bloquait la file sur « le fil chauffe » sans minuteur d'aucune sorte. Mesuré sur les
+  // deux cas avant correction : AUCUNE réponse après 30 s (et rien n'allait l'interrompre). Après : un document réel,
+  // en repli, en moins de deux secondes.
+  const bad = [];
+  for(const mode of ['mort', 'muet']){
+    const r = spawnSync(process.execPath, [path.join(__dirname, 'helpers', 'pdf-fil-casse.js'), mode],
+      { encoding: 'utf8', timeout: 60000 });
+    const ligne = String(r.stdout || '').trim().split('\n').filter(Boolean).pop();
+    let o = null;
+    try { o = JSON.parse(ligne); } catch(e){ bad.push(mode + ' : sortie illisible ' + JSON.stringify(String(r.stdout).slice(0, 200)) + ' / ' + String(r.stderr).slice(0, 200)); continue; }
+    if(o.silence) bad.push(mode + ' : aucune réponse du service (statut « ' + o.statut + ' »)');
+    else if(o.erreur) bad.push(mode + ' : rejet « ' + o.erreur + ' »');
+    else if(o.source !== 'local') bad.push(mode + ' : source inattendue « ' + o.source + ' » (le repli devait servir)');
+    else if(!(o.taille > 1000)) bad.push(mode + ' : document de ' + o.taille + ' octets');
+    else if(!(o.ms < 30000)) bad.push(mode + ' : réponse en ' + o.ms + ' ms');
+  }
+  assert.deepEqual(bad, []);
 });

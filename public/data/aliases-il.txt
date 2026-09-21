@@ -3161,3 +3161,6 @@ cs;Šoham;Shoham
 ja;ショハム;Shoham
 fa;شوهام، منطقه مسکونی;Shoham
 pl;Szoham;Shoham
+he;Kfar Shmaryahu Bet;Kfar Shmaryahu
+he;כפר שמריהו ב;Kfar Shmaryahu
+he;Kefar Shemaryahu Bet;Kfar Shmaryahu

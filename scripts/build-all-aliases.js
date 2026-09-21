@@ -310,6 +310,34 @@ for(const cc of Object.keys(COUNTRIES)){
     if(!placeById.has(String(id))) placeById.set(String(id), best);
   }
 
+  // 20e audit du 21/09/2026 — QUASI-DOUBLONS FUSIONNÉS PAR LES GÉNÉRATEURS DE LIEUX (dropNearDuplicates).
+  // Le 19e audit a fait juger le dédoublonnage sur le nom NORMALISÉ, comme le moteur : 572 lignes de plus ont
+  // fusionné, et il écrivait que « fusionner ne rend rien introuvable, les deux graphies se normalisent à
+  // l'identique ». C'ÉTAIT FAUX D'UN CRAN : la SAISIE des deux graphies retrouve bien le lieu, mais les NOMS
+  // ALTERNATIFS de la fiche fusionnée, eux, se rattachent au nom canonique BRUT — disparu avec la ligne. Mesuré
+  // sur l'état publié : 71 formes de recherche perdues (MX 14, KP 13, IR 12, NP 11, GR 7, CY 3…), dont « Πόλη
+  // Χρυσοχούς » et « Polis, Cyprus » pour Pólis (Chypre, 1 975 habitants), qui n'était plus trouvable par son nom grec.
+  // La fiche fusionnée est donc rattachée au lieu gardé, exactement comme les doublons ci-dessus et avec LA MÊME
+  // GARANTIE (16e audit) : seulement si le nom gardé est UNIQUE parmi les lieux publiés du pays, sans quoi l'alias
+  // désignerait tous ses homonymes. Reconstitution de la décision de fusion sans relancer les générateurs : même clé
+  // que dropNearDuplicates (nom normalisé + longitude et latitude au centième de degré), fiche de classe P non écartée.
+  const homonymCount = new Map();
+  published.forEach(p => homonymCount.set(p.name, (homonymCount.get(p.name) || 0) + 1));
+  const byMergeKey = new Map();
+  published.forEach(p => { const k = p.norm + '|' + p.lon.toFixed(2) + '|' + p.lat.toFixed(2); if(!byMergeKey.has(k)) byMergeKey.set(k, p); });
+  let byMerge = 0, mergeSkipped = 0;
+  for(const [k, arr] of byPoint){
+    void k;
+    for(const e of arr){
+      if(e.cls !== 'P' || placeById.has(e.id)) continue;
+      const p = byMergeKey.get(e.norm + '|' + e.lon.toFixed(2) + '|' + e.lat.toFixed(2));
+      if(!p) continue;
+      if(homonymCount.get(p.name) > 1){ mergeSkipped++; continue; }
+      placeById.set(e.id, p); byMerge++;
+    }
+  }
+  if(byMerge || mergeSkipped) console.log(cc + ' : quasi-doublons fusionnés rattachés ' + byMerge + ', écartés (nom gardé non unique) ' + mergeSkipped);
+
   // Fichier existant : gardé, et sert au dédoublonnage.
   const outPath = path.join(DATA, 'aliases-' + cc.toLowerCase() + '.txt');
   let existing = fs.existsSync(outPath) ? fs.readFileSync(outPath, 'utf8').split('\n').filter(Boolean) : [];

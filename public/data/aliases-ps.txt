@@ -792,3 +792,9 @@ sr;Ел-Карара;Al Qarārah
 ceb;Ḩuwwārah;Huwara
 cs;Huvára;Huwara
 ja;フワラ;Huwara
+ar;الكوم;al-Kum
+ja;ヤーバドゥ;Ya‘bad
+fa;یعبد;Ya‘bad
+pl;Dża'bad;Ya‘bad
+he;יעבד;Ya‘bad
+ur;یاعبعد;Ya‘bad

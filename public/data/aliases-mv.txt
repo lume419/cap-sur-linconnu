@@ -303,3 +303,5 @@ am;ፎናዞ;Fonadhoo
 tt;Фонаду;Fonadhoo
 am;ኒላንዶ;Nilandhoo
 tt;Ниланду;Nilandhoo
+am;ናይፋሩ;Naifaru
+tt;Найфару;Naifaru

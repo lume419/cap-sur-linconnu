@@ -11720,3 +11720,4 @@ ru;Пашлавантис;Pašlavantys
 ru;Губишкес;Gubiškės
 ru;Пасудуоне;Pasūduonė
 ru;Каменай;Kamėnai
+lt;Kalnoutė I;Kalnuotė I

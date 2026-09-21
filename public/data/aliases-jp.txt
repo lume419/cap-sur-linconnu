@@ -63341,3 +63341,5 @@ ja;三島村;Mishima
 ja;佐敷町;Sashiki
 ja;大馬木;Ō-maki
 ja;鰍沢町;Kajikazawa
+ja;ぎし;Gishi
+ja;栴檀町;Sendanmachi

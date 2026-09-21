@@ -20310,3 +20310,9 @@ ru;Гейляр Чель;Kishlak Geoglyar
 ru;Даш салахлы;Daş Salahlı
 ru;Беюк дахна;Byuyuk-Dakhne
 ru;Асрик джырдахан;Asrikdzhyrdakhan
+az;Bəndovan;Byandovan
+az;Komsomol;Yuxarı Aran
+ru;Юксары Аран;Yuxarı Aran
+ru;Кылысекенд;Kilisekend
+ru;Дасуз;Daşüz
+ru;Байрамкохалы;Bayramkoxalı

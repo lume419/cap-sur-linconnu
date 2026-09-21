@@ -1003,3 +1003,13 @@ pa;ਦਾਰ ਨਾਈਮ;Dar Naim
 ps;دار النعیم;Dar Naim
 tg;Дар-Наим;Dar Naim
 tt;Дар-Наим;Dar Naim
+kk;Арафат;Arafat
+ky;Арафат;Arafat
+hi;अराफत;Arafat
+bn;আরাফাত;Arafat
+ur;عرفات;Arafat
+am;አራፋት;Arafat
+pa;ਅਰਾਫਤ;Arafat
+ps;عرفات;Arafat
+tg;Арафат;Arafat
+tt;Арафат;Arafat

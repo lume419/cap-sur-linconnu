@@ -20537,4 +20537,8 @@ ru;Хуукинпяя;Huukinpää
 ru;Хусанпяя;Husanpää
 ru;Нахкиаисоя;Nahkiaisoja
 ru;Хорнела;Hornela
-ru;Калккола;Kalkkola
+ru;Пииспаярви;Piispajärvi
+sv;Lemsjöholm;Lempisaari
+fi;Vironmäki;Viro
+sv;Sundet;Sunti
+ru;Вуосанка;Vuosanka

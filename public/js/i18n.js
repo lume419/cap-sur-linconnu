@@ -163195,13 +163195,27 @@
   // rien changer au balisage lui-même — le comportement natif du navigateur pour ce cas précis.
   var RTL_LANGS = { ar: true, fa: true, ckb: true, ur: true, dv: true };
   var liveEl = null;
+  var liveTimer = null;  // annonce programmée pour le tour suivant
+  var liveTexte = '';    // ce qui est annoncé en ce moment (ou sur le point de l'être)
   // Annonce polie du sélecteur de langue. Réécrire le MÊME texte ne déclenche rien chez la plupart des lecteurs
   // d'écran : on vide d'abord, puis on écrit au tour suivant (même motif que showFormError dans app.js).
+  // DEUX DÉFAUTS CORRIGÉS AU 20e AUDIT DU 21/09/2026 :
+  //   - effacer (annoncer('')) n'annulait PAS l'annonce déjà programmée. Taper une lettre qui ne donne aucun
+  //     résultat puis en effacer une aussitôt laissait « Aucune langue trouvée » s'écrire dans la région vivante
+  //     APRÈS que la liste eut été remplie : le lecteur d'écran annonçait l'inverse de ce qui était affiché ;
+  //   - chaque frappe supplémentaire dans une recherche DÉJÀ sans résultat repassait par « vider puis réécrire »,
+  //     donc reprononçait la même phrase à chaque lettre (« zzz » : trois fois « Aucune langue trouvée »).
+  // Le texte courant est donc mémorisé, et le minuteur en attente est toujours annulé.
   function annoncer(texte){
     if(!liveEl) return;
-    if(!texte){ liveEl.textContent = ''; return; }
+    texte = texte || '';
+    // Rien de neuf : on laisse l'annonce en attente faire son travail, on ne l'annule surtout pas.
+    if(texte === liveTexte) return;
+    if(liveTimer){ clearTimeout(liveTimer); liveTimer = null; }
+    liveTexte = texte;
     liveEl.textContent = '';
-    setTimeout(function(){ if(liveEl) liveEl.textContent = texte; }, 0);
+    if(!texte) return;
+    liveTimer = setTimeout(function(){ liveTimer = null; if(liveEl) liveEl.textContent = texte; }, 0);
   }
   function applyDirection(){
     document.documentElement.setAttribute('dir', RTL_LANGS[lang] ? 'rtl' : 'ltr');
@@ -163735,10 +163749,18 @@
   // Recherche aussi par le nom de la langue DANS LA LANGUE D'INTERFACE (10e audit du 18/09/2026) : en français,
   // « allemand » trouve « Deutsch », « japonais » trouve « 日本語 » — Intl.DisplayNames, quand le navigateur connaît la
   // langue ; sans accents ni casse (« francais » trouve « Français »).
+  // Apostrophes et lettres modificatives des noms de langues — ʻokina hawaïenne et marquisienne, saltillo,
+  // apostrophes droites et typographiques, point médian : le nom les porte, aucun clavier ordinaire ne les tape.
+  // Elles sont retirées DES DEUX CÔTÉS (saisie et nom comparé), sans espace de remplacement : « kiche » retrouve
+  // « K'iche' », « olelo hawaii » retrouve « ʻŌlelo Hawaiʻi ». Le TIRET, lui, est conservé : six codes de langue en
+  // contiennent (nrf-je, zh-Hant, pap-AW, qu-EC…) et la comparaison « le code commence par la saisie » cesserait de
+  // fonctionner pour « zh-ha ». 8 langues sur 161 étaient introuvables en tapant leur propre nom sans ses signes :
+  // uz, haw, gn, ch, mrq, yua, quc, kek (20e audit du 21/09/2026).
+  var FOLD_DROP_RE = /['ʻʼʽʾʿˈ‘’‛··՚ꞌ]/g;
   function foldText(s){
     s = String(s || '').toLowerCase();
     try { s = s.normalize('NFD').replace(/[̀-ͯ]/g, ''); } catch(e){}
-    return s;
+    return s.replace(FOLD_DROP_RE, '');
   }
   var displayNamesCache = {};
   function localizedLangName(code){
@@ -163846,6 +163868,8 @@
 
     // Région vivante du sélecteur (19e audit du 21/09/2026) : c'est elle qui fait PRONONCER « aucune langue trouvée ».
     // Hors écran, polie (elle n'interrompt pas la frappe), et rattachée au champ par aria-describedby.
+    if(liveTimer){ clearTimeout(liveTimer); liveTimer = null; }
+    liveTexte = '';
     liveEl = document.createElement('div');
     liveEl.className = 'visually-hidden';
     liveEl.id = 'lang-search-live';

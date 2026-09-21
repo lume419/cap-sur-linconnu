@@ -684,83 +684,37 @@ test('lieux : latitude et longitude bien formées et dans les bornes du globe', 
   assert.equal(BOUNDS.badCoord.length, 0);
 });
 
-// Coordonnées à deux entiers ADMISES parce que corroborées (19e audit du 21/09/2026, voir PLACEHOLDER_COORD_OK dans
-// scripts/communes-corrections.js) : « PAYS|nom|latitude|longitude ». Toute autre fiche à deux entiers fait échouer
-// le test, et une entrée qui disparaît des données aussi — une exception devenue inutile doit être retirée.
+// Coordonnées à deux entiers ADMISES parce que corroborées (19e audit du 21/09/2026, liste REFAITE au 20e — voir
+// PLACEHOLDER_COORD_OK dans scripts/communes-corrections.js) : « PAYS|nom|latitude|longitude ». Toute autre fiche à
+// deux entiers fait échouer le test, et une entrée qui disparaît des données aussi — une exception devenue inutile
+// doit être retirée.
 const ENTIERS_CORROBORES = [
-  'AT|Gressenberg|48|13',
-  'AT|Hochwald|47|11',
-  'AT|Untertiefenbach|47|16',
-  'AU|Yarrigan|-31|149',
-  'BG|Cheresha|43|24',
-  'BG|Debeli Rat|43|26',
-  'BG|Stoyanovtsi|43|26',
   'BO|Prado|-11|-66',
   'CN|Qucain|29|90',
-  'CZ|Lázně Svaté Markety|49|14',
-  'DE|Weißthal|51|13',
-  'ES|Baos|43|-9',
-  'ES|Cañamares|38|-3',
-  'FI|Kalkkola|61|26',
-  'FI|Kirkonkylä|63|23',
-  'FI|Kivijärvi|63|25',
-  'FI|Långö|63|22',
-  'HT|Cayepin|19|-72',
   'ID|Boti|-3|130',
-  'ID|Kapulu|4|116',
-  'ID|Nusa Dua|-5|120',
-  'ID|Poli|0|120',
-  'ID|Seminyak|-5|120',
-  'ID|Setapok|1|109',
-  'KR|Chuam|35|127',
-  'KR|Pyeong|37|127',
   'LK|Jayanthipura|8|81',
   'MG|Ambatolahy|-21|47',
   'MG|Beanana|-22|48',
   'MM|Nyaungbintha|20|95',
-  'MX|El Tequesquite|21|-104',
-  'MX|Generalísimo Morelos|31|-116',
-  'MX|Joya de Ballesteros|19|-103',
-  'MX|Ojo de Gracias a Dios|28|-101',
-  'MX|Rancho Grande|28|-101',
-  'MZ|Fotine|-22|35',
   'NO|Flattum|60|10',
   'NO|Mo|63|9',
-  'NO|Nyhamar|61|5',
-  'PE|La Perla|-11|-77',
-  'PH|Agutayan|8|117',
-  'PH|Bagsak|5|120',
-  'PH|Gitabla|11|125',
-  'PH|San Vicente|10|119',
-  'PL|Zagrody|50|22',
   'RO|Troianul|44|25',
-  'RU|Akishino|56|37',
-  'RU|Bobry|57|29',
-  'RU|Grazhdanovka|50|128',
-  'RU|Kosov|48|41',
-  'RU|Lishneva|58|35',
-  'RU|Malyye Malyuki|55|61',
-  'SE|Blomdal|60|16',
   'SE|Grude|58|13',
-  'SE|Hylle|59|15',
-  'SE|Landsbro|57|14',
-  'SE|Niemisel|66|22',
-  'SE|Norsborg|59|17',
-  'SE|Rosendal|59|16',
-  'SK|Mešťáci|49|18',
-  'TR|Ömerefendi Yaylası|39|33',
   'UG|Kikorongo|0|30',
   'VE|Hato Bartolomé|9|-68'
 ];
 
 test('lieux : coordonnée à deux entiers seulement quand une autre source la corrobore', () => {
-  // 18e audit du 21/09/2026, RÉVISÉ au 19e. Le 18e écartait TOUTE coordonnée à deux entiers, sur l'argument que
-  // « GeoNames publie 5 décimales, donc la probabilité d'un vrai lieu est de 1 sur 10 milliards ». Mesure refaite sur
-  // les dumps : 0,13 % des fiches ont une latitude entière, l'attendu par hasard est de NEUF, pas de zéro, et la règle
-  // avait effacé des lieux réels — dont Troianul (Roumanie, 3 502 habitants, chef-lieu de commune), corroboré par
-  // « Comuna Troianul » à 500 m dans le même dump. Une coordonnée à deux entiers n'est donc plus écartée que si RIEN
-  // ne corrobore sa position : ni une fiche du même nom à coordonnée fine à moins de 5 km, ni un point postal officiel
-  // à moins de 15 km. 63 fiches sont dans ce cas et restent publiées ; 76 restent écartées.
+  // 18e audit du 21/09/2026, RÉVISÉ au 19e, CORRIGÉ au 20e. Le 18e écartait TOUTE coordonnée à deux entiers, sur
+  // l'argument que « GeoNames publie 5 décimales, donc la probabilité d'un vrai lieu est de 1 sur 10 milliards ».
+  // Mesure refaite sur les dumps : 0,13 % des fiches ont une latitude entière, l'attendu par hasard est de NEUF, pas
+  // de zéro, et la règle avait effacé des lieux réels — dont Troianul (Roumanie, 3 502 habitants, chef-lieu de
+  // commune), corroboré par une station paragrêle homonyme à 1,9 km dans le même dump.
+  // Le 19e acceptait une seconde corroboration, « le générateur a joint un vrai code postal » : elle était
+  // TAUTOLOGIQUE (dans un pays doté d'un fichier postal, aucun lieu n'est publié SANS code postal) et elle a restitué
+  // 50 fiches à tort, dont deux quasi-doublons d'un lieu homonyme déjà publié. Seule subsiste la corroboration par
+  // une fiche du même nom à coordonnée fine à moins de 5 km, qui n'est pas un lieu déjà publié et dont le point est
+  // sur la terre ferme : 13 fiches sur les 139 écartées au 18e audit, listées ci-dessus ; 126 restent écartées.
   const vus = BOUNDS.bouchon.map(x => x.cle).sort();
   const attendus = ENTIERS_CORROBORES.slice().sort();
   const enTrop = vus.filter(x => !attendus.includes(x));
@@ -1029,8 +983,12 @@ test('lieux : les quasi-doublons connus ne se multiplient pas (populations contr
   // accent ou un trait d'union. La clé du dédoublonnage est passée au nom normalisé au 19e audit du 21/09/2026 et
   // 572 doublons ont disparu (voir la note 9 bis de communes-corrections.js) ; il en reste, à cheval sur deux cases
   // de 0,01°, que ce dédoublonnage-là ne peut pas voir. Ce contrôle fige ce qui reste.
-  const CONTRADICTIONS_MAX = 6;  // paires à moins de 300 m publiant deux populations non nulles différentes (12 avant)
-  const SUGGESTIONS_MAX = 28;    // paires à moins de 300 m avec deux codes postaux, donc deux suggestions (34 avant)
+  // 20e audit du 21/09/2026 : ces deux nombres étaient des PLAFONDS (« <= »), donc des contrôles à sens unique — une
+  // amélioration les laissait intacts et personne n'était forcé de les resserrer, si bien qu'ils auraient pu finir
+  // très au-dessus du réel sans qu'aucun test ne bronche. Ce sont désormais les valeurs EXACTES relevées sur l'état
+  // publié : une aggravation comme une amélioration font échouer le test, et c'est le chiffre qu'on met à jour.
+  const CONTRADICTIONS = 6;  // paires à moins de 300 m publiant deux populations non nulles différentes (12 avant la 19e passe)
+  const SUGGESTIONS = 28;    // paires à moins de 300 m avec deux codes postaux, donc deux suggestions (34 avant)
   const hv = (a, b, c, d) => { const r = Math.PI / 180, x = Math.sin((c - a) * r / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin((d - b) * r / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)); };
   // Même normalisation que le moteur : c est l écart entre elle et la clé du dédoublonnage qu on mesure ici.
   const norm = require(path.join(ROOT, 'lib', 'trip-engine.js')).internals.normalizeCityName;
@@ -1057,23 +1015,27 @@ test('lieux : les quasi-doublons connus ne se multiplient pas (populations contr
       }
     }
   }
-  assert.ok(contradictions <= CONTRADICTIONS_MAX,
-    contradictions + ' paires publient deux populations contradictoires (plafond ' + CONTRADICTIONS_MAX + ') : ' + exemples.join(' | '));
-  assert.ok(suggestions <= SUGGESTIONS_MAX,
-    suggestions + ' paires produisent deux suggestions distinctes (plafond ' + SUGGESTIONS_MAX + ')');
+  assert.equal(contradictions, CONTRADICTIONS,
+    contradictions + ' paires publient deux populations contradictoires au lieu de ' + CONTRADICTIONS +
+    (contradictions < CONTRADICTIONS ? ' — c\'est une amélioration : abaisser le chiffre figé.' : ' : ') + exemples.join(' | '));
+  assert.equal(suggestions, SUGGESTIONS,
+    suggestions + ' paires produisent deux suggestions distinctes au lieu de ' + SUGGESTIONS +
+    (suggestions < SUGGESTIONS ? ' — c\'est une amélioration : abaisser le chiffre figé.' : ''));
 });
 
 test('ferries : la traversée annoncée n\'est pas plus courte que la ligne droite entre ses ports (écarts connus figés)', () => {
   // Un navire ne peut pas parcourir moins que l'orthodromie entre ses deux quais. Or les ports sont, pour la plupart,
   // le CENTRE de la localité et non le quai (lib/ferry-ports.js le dit en tête) : l'écart est donc réel et connu, mais
   // il n'avait jamais été chiffré (19e audit du 21/09/2026). Mesure sur les 702 liaisons, paires déclarées comprises :
-  // 365 annoncent une distance inférieure à cette ligne droite, 188 de plus d'un kilomètre, 42 de plus de cinq,
-  // 12 de plus de dix. Les pires sont déjà documentés comme non recalés faute de quai relevé (Saint-Laurent-du-Maroni
+  // 365 annoncent une distance inférieure à cette ligne droite, 194 de plus d'un kilomètre, 42 de plus de cinq,
+  // 12 de plus de dix (« 188 » au 19e audit : relevé avant le dédoublonnage du même commit, remesuré au 20e). Les pires sont déjà documentés comme non recalés faute de quai relevé (Saint-Laurent-du-Maroni
   // et le bac de Guyane, Moorea). Conséquence pour le visiteur : la partie routière d'une étape avec traversée mène au
   // centre de la localité, pas au terminal, et la route et la traversée ne se recollent pas exactement.
   // Ce contrôle ne corrige rien : il empêche ces écarts de grandir, et un quai relevé les fera baisser.
-  const AU_DELA_DE_5_KM_MAX = 42;
-  const AU_DELA_DE_10_KM_MAX = 12;
+  // Valeurs EXACTES et non plafonds, pour la même raison que les deux nombres ci-dessus (20e audit du 21/09/2026).
+  const AU_DELA_DE_1_KM = 194;
+  const AU_DELA_DE_5_KM = 42;
+  const AU_DELA_DE_10_KM = 12;
   const FP = require(path.join(ROOT, 'lib', 'ferry-ports.js'));
   const hv = (a, b, c, d) => { const r = Math.PI / 180, x = Math.sin((c - a) * r / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin((d - b) * r / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)); };
   const toutes = Object.assign({}, TripData.FERRY_ROUTES, TripData.SEA_CROSSINGS);
@@ -1094,11 +1056,13 @@ test('ferries : la traversée annoncée n\'est pas plus courte que la ligne droi
     if(écart > 0) écarts.push({ clé, écart });
   }
   écarts.sort((x, y) => y.écart - x.écart);
+  const un = écarts.filter(e => e.écart > 1).length;
   const cinq = écarts.filter(e => e.écart > 5).length;
   const dix = écarts.filter(e => e.écart > 10).length;
   const pires = écarts.slice(0, 5).map(e => e.clé + ' ' + e.écart.toFixed(1) + ' km').join(', ');
-  assert.ok(cinq <= AU_DELA_DE_5_KM_MAX, cinq + ' liaisons annoncent plus de 5 km de moins que la ligne droite entre leurs ports (plafond ' + AU_DELA_DE_5_KM_MAX + ') : ' + pires);
-  assert.ok(dix <= AU_DELA_DE_10_KM_MAX, dix + ' liaisons au-delà de 10 km (plafond ' + AU_DELA_DE_10_KM_MAX + ') : ' + pires);
+  assert.equal(un, AU_DELA_DE_1_KM, un + ' liaisons annoncent plus d\'un kilomètre de moins que la ligne droite au lieu de ' + AU_DELA_DE_1_KM + ' : ' + pires);
+  assert.equal(cinq, AU_DELA_DE_5_KM, cinq + ' liaisons au-delà de 5 km au lieu de ' + AU_DELA_DE_5_KM + ' : ' + pires);
+  assert.equal(dix, AU_DELA_DE_10_KM, dix + ' liaisons au-delà de 10 km au lieu de ' + AU_DELA_DE_10_KM + ' : ' + pires);
 });
 
 // ------------------------------------------------------------------------------------------ péages : barème par pays
@@ -1168,6 +1132,30 @@ test('générateur build-ferry-ports.js : lib/ferry-ports.js reproduit à l\'oct
     for(const j of junctions) try { fs.unlinkSync(j); } catch(e){ try { fs.rmdirSync(j); } catch(e2){} }
     try { fs.rmSync(TMP, { recursive: true, force: true }); } catch(e){}
   }
+});
+
+test('20e audit : la politique de confidentialité décrit les requêtes que le site fait vraiment', () => {
+  // Elle annonçait « GET /api/search-city » alors que le navigateur poste depuis la 17e passe (une URL contenant de
+  // l'écriture arabe se faisait renvoyer un 404 par l'hébergeur avant d'atteindre le serveur). La page reste servie
+  // telle quelle à un visiteur qui veut savoir ce qui part de son navigateur : elle doit dire vrai.
+  const page = fs.readFileSync(path.join(ROOT, 'public', 'politique-confidentialite.html'), 'utf8');
+  const app = fs.readFileSync(path.join(ROOT, 'public', 'js', 'app.js'), 'utf8');
+  const serveur = fs.readFileSync(path.join(ROOT, 'server.js'), 'utf8');
+  const annoncées = [...page.matchAll(/<code>(GET|POST)\s+(\/api\/[a-z-]+)<\/code>/g)].map(m => ({ m: m[1], r: m[2] }));
+  assert.ok(annoncées.length >= 2, 'aucune requête d\'API citée dans la politique de confidentialité');
+  const mauvaises = [];
+  for(const { m, r } of annoncées){
+    // 1. La route existe bien, avec cette méthode, dans server.js.
+    const déclarée = new RegExp('app\\.' + m.toLowerCase() + "\\('" + r.replace(/\//g, '\\/') + "'").test(serveur);
+    if(!déclarée) mauvaises.push(m + ' ' + r + ' : aucune route de ce nom et de cette méthode dans server.js');
+    // 2. C'est bien CETTE méthode que le navigateur emploie pour cette route.
+    const i = app.indexOf("fetch('" + r + "'");
+    if(i < 0){ mauvaises.push(m + ' ' + r + ' : app.js n\'appelle jamais cette route'); continue; }
+    const extrait = app.slice(i, i + 300);
+    const employée = /method:\s*'POST'/.test(extrait) ? 'POST' : 'GET';
+    if(employée !== m) mauvaises.push(r + ' : la page annonce ' + m + ', app.js emploie ' + employée);
+  }
+  assert.deepEqual(mauvaises, []);
 });
 
 test('mentions légales : les polices incorporées dans les PDF sont citées avec leur licence', () => {

@@ -63,10 +63,14 @@
 // régénération, le générateur donnera le même résultat.
 // 12e audit du 19/09/2026 : MX et CU (build-ameriques-communes.js, ONLY_COUNTRY ajouté), NP, KR et CN
 // (build-asie-communes.js) régénérés — reproduits à l'octet près AVANT la correction, puis seules les lignes visées ont
-// changé. HR et ES (build-country-communes.js, fichiers postaux absents) NE SONT PAS régénérés et leurs fichiers publiés
-// n'ont pas été retouchés : « Zorkovac_ », « Donja_Podgora », « Gornje_Zagorje » (HR), « XXX » et « Test » (ES)
-// restent publiés jusqu'à la prochaine régénération avec GeoNames HR_postal / ES_postal ; les corrections sont en place
-// ci-dessous (NAME_FIXES, JUNK_IDS) et tests/data.test.js les tient pour « en attente » tant qu'elles le sont.
+// changé. HR et ES (build-country-communes.js) restaient non régénérables, faute de HR_postal / ES_postal dans le dépôt,
+// et leurs fichiers publiés n'avaient pas été retouchés à ce moment-là.
+// MISE À JOUR au 20e audit du 21/09/2026 : ce n'est plus vrai et ce commentaire se contredisait avec la suite du
+// fichier. Les 18e et 19e audits ont appliqué le traitement ligne à ligne AUSSI à ces fichiers publiés ; vérifié sur
+// l'état actuel : « Zorkovac_ », « Donja_Podgora », « Gornje_Zagorje », « XXX » et « Test » n'y figurent plus, et
+// communes-es.txt comme communes-hr.txt ne contiennent plus aucun « _ ». La règle générale du dépôt tient donc sans
+// exception : quand un pays n'est pas régénérable, le code est corrigé ET les lignes visées du fichier publié le sont
+// aussi, de sorte que la prochaine régénération donne le même résultat.
 // 13e audit du 19/09/2026 : parenthèses non appariées (hasUnbalancedParen), tout « _ » dans un nom, fêtes népalaises
 // « Fair (…) », blocs administratifs indiens et nom « 17 » (ZW) — voir les sections 5 et 6. Régénérés : RU
 // (build-russie-svalbard), AL (build-country-communes, ONLY_COUNTRY ajouté, AL_postal.txt présent), CI
@@ -575,83 +579,48 @@ function repairAliasTypography(text, ignoreReject){
 // (Finlande, 8 793 habitants) est publié à la latitude EXACTEMENT 63,00000 ; si sa longitude l'avait été aussi, la
 // règle effaçait une ville de 8 800 habitants.
 //
-// RÈGLE RÉVISÉE : une coordonnée à deux entiers n'est écartée que si RIEN dans le dépôt ne corrobore sa position.
-// Corroboration (l'une des deux suffit, toutes deux bornent l'erreur du point) :
-//   (a) une autre fiche du dump du pays porte le même nom — ou le contient comme mot entier — avec une coordonnée
-//       NON entière à moins de 5 km : le point publié est grossier, l'écart est borné par ces 5 km ;
-//   (b) le générateur a joint un vrai code postal, donc un point postal officiel à moins de 15 km.
-// Mesure au 19e audit sur les 139 fiches : 15 corroborées par (a), 55 par (b), 63 par l'une ou l'autre — RESTITUÉES,
-// listées ci-dessous avec leur preuve. Les 76 autres restent écartées : toutes sont dans des pays sans fichier
-// postal (la colonne « code » y est une étiquette de région) et aucune fiche fine du même nom n'existe à moins de
-// 5 km — leur point peut être faux de 78 km sans que rien ne permette de le savoir, et le dépôt n'a aucune source
-// pour le corriger. Exemples conservés du 18e audit : CA Scarborough « 60 / -96 » (toundra du Manitoba, le seul
-// Scarborough du dump étant le borough de Toronto), TZ « China » « -3 / 33 ». Une fiche est écartée, jamais déplacée
-// (aucune coordonnée inventée). Le script de corroboration est reproductible : voir la description ci-dessus, il
-// relit les dumps et le diff du 18e audit.
+// RÈGLE RÉVISÉE (19e audit), CORRIGÉE AU 20e DU 21/09/2026 : une coordonnée à deux entiers n'est écartée que si
+// rien dans le dépôt ne corrobore sa position. Le 19e audit acceptait deux corroborations ; la seconde ne valait
+// RIEN et elle a restitué 50 fiches à tort.
+//   (a) VALIDE — une autre fiche du dump du pays porte le même nom, ou le contient comme mot entier, avec une
+//       coordonnée NON entière à moins de 5 km. Le point publié est grossier mais l'écart est borné par ces 5 km,
+//       et la corroboration est indépendante : elle vient d'une fiche que le générateur n'a pas produite.
+//   (b) RETIRÉE — « le générateur a joint un vrai code postal ». C'était TAUTOLOGIQUE : dans un pays doté d'un
+//       fichier postal, le générateur écarte tout lieu sans point postal à moins de 15 km (build-country-communes.js
+//       « if(!cp) return null », même règle dans build-asie-communes.js et build-ameriques-communes.js). Tout lieu
+//       PUBLIÉ dans un tel pays porte donc un code postal par construction : le critère ne triait rien et ne bornait
+//       rien — le point postal le plus proche peut être à 15 km, et rien ne dit qu'il désigne CE lieu. Le 19e audit
+//       en tirait aussi que « les 76 restantes sont toutes dans des pays sans fichier postal », ce qui était faux.
+// Contrôles ajoutés au 20e audit, sur les seules fiches corroborées par (a) :
+//   - la fiche corroborante ne doit pas être un lieu DÉJÀ PUBLIÉ du même nom : sinon restituer fabrique le
+//     quasi-doublon que la même passe retirait ailleurs. Deux cas : MZ Fotine (homonyme publié à 0,84 km) et
+//     PL Zagrody (2,38 km) — retirés.
+//   - le point doit être sur la terre ferme (lib/land-grid.bin, 7200×3600) : les 15 le sont.
+// MESURE SUR LES 139 FICHES écartées au 18e audit (script reproductible : il relit les dumps et le diff du 18e) :
+// 15 corroborées par (a), dont 2 quasi-doublons -> 13 RESTITUÉES, listées ci-dessous avec leur preuve ; 126 restent
+// écartées. Une fiche est écartée, jamais déplacée (aucune coordonnée inventée).
+//
+// Ce que l'erreur du 18e audit coûtait malgré tout, et que (a) répare : TROIANUL (Roumanie, 3 502 habitants,
+// chef-lieu de commune, Teleorman) — station paragrêle homonyme à 1,9 km ; Grude (paroisse suédoise, église
+// homonyme à 1,4 km) ; Qucain (Tibet, 150 m) ; Flattum (Norvège, 730 m). Et la mesure de fréquence qui invalidait
+// le raisonnement d'origine tient toujours : sur 4 989 386 fiches P/PPL*, 0,13 % ont une latitude entière et 1,6 %
+// tombent sur la grille du dixième de degré ; neuf coordonnées à deux entiers sont attendues par pur hasard, pour
+// 155 observées. Deux entiers signalent une source GROSSIÈRE, pas une fiche inventée. Preuve par l'absurde dans les
+// données publiées : Alajärvi (Finlande, 8 793 habitants) est publié à la latitude EXACTEMENT 63,00000.
 const PLACEHOLDER_COORD_OK = new Set([
-  '2778012', // AT Gressenberg (32 hab.) — code postal 5112
-  '2775912', // AT Hochwald — code postal 6450
-  '2762605', // AT Untertiefenbach — code postal 8313
-  '2142438', // AU Yarrigan — code postal 2396
-  '732607', // BG Cheresha — code postal 2190
-  '732357', // BG Debeli Rat — code postal 5084
-  '726766', // BG Stoyanovtsi — code postal 5084
-  '3907488', // BO Prado — Arroyo Prado (H/STM) à 2.6 km
-  '8049327', // CN Qucain — Qucain (H/SPNT) à 0.1 km
-  '3072262', // CZ Lázně Svaté Markety — code postal 383 01
-  '2811699', // DE Weißthal — code postal 09648
-  '3128850', // ES Baos — code postal 15151
-  '2520319', // ES Cañamares — code postal 23477
-  '654760', // FI Kalkkola — code postal 16160
-  '652671', // FI Kirkonkylä — code postal 62101
-  '652434', // FI Kivijärvi — code postal 43660
-  '649090', // FI Långö — code postal 66400
-  '3728099', // HT Cayepin — code postal HT5130
-  '1648108', // ID Boti — Tanjung Boti (T/PT) à 2.4 km
-  '1734149', // ID Kapulu — code postal 77155
-  '6951070', // ID Nusa Dua — code postal 92767
-  '1630931', // ID Poli — code postal 94475
-  '6951059', // ID Seminyak — code postal 92767
-  '1627412', // ID Setapok — code postal 79123
-  '1845333', // KR Chuam — code postal 58142
-  '1838431', // KR Pyeong — code postal 17927
-  '1242796', // LK Jayanthipura — Jayanthipura (A/ADM4) à 3.5 km
-  '1083046', // MG Ambatolahy — Ambatolahy (A/ADM4) à 2.7 km
-  '1068590', // MG Beanana — Beanana (A/ADM4) à 2.1 km
-  '1303668', // MM Nyaungbintha — Nyaungbintha-anauk (P/PPL) à 0.5 km
-  '4007285', // MX El Tequesquite — code postal 46448
-  '3979256', // MX Generalísimo Morelos — code postal 22940
-  '4003843', // MX Joya de Ballesteros — code postal 60554
-  '3994317', // MX Ojo de Gracias a Dios — code postal 26634
-  '3990204', // MX Rancho Grande — code postal 26634
-  '1046285', // MZ Fotine — Fotine (P/PPL) à 0.8 km
-  '3157110', // NO Flattum — Flattum (S/FRM) à 0.7 km
-  '3145712', // NO Mo — Mo (S/CH) à 1.7 km
-  '3143985', // NO Nyhamar — code postal 5966
-  '3936921', // PE La Perla (107 hab.) — code postal 15255
-  '1731796', // PH Agutayan — code postal 5307
-  '1728998', // PH Bagsak — code postal 7501
-  '1712834', // PH Gitabla — code postal 6523
-  '1687478', // PH San Vicente — code postal 5309
-  '754147', // PL Zagrody — Zagrody (P/PPL) à 2.4 km
-  '664591', // RO Troianul (3502 hab.) — Troianul Anti-hail Rocket Firing Station (S/FCL) à 1.9 km
-  '583735', // RU Akishino — code postal 143512
-  '575864', // RU Bobry — code postal 181370
-  '2023885', // RU Grazhdanovka — code postal 676966
-  '544034', // RU Kosov — code postal 347012
-  '534875', // RU Lishneva — code postal 188283
-  '1499601', // RU Malyye Malyuki — code postal 456530
-  '2721301', // SE Blomdal — code postal 737 90
-  '2710349', // SE Grude — Grude Kyrka (S/CH) à 1.4 km
-  '2704049', // SE Hylle — code postal 690 45
-  '12470311', // SE Landsbro — code postal 340 15
-  '604117', // SE Niemisel — code postal 955 95
-  '2688189', // SE Norsborg — code postal 640 51
-  '2681605', // SE Rosendal — code postal 643 01
-  '3058731', // SK Mešťáci — code postal 913 33
-  '303544', // TR Ömerefendi Yaylası — code postal 42770
-  '231290', // UG Kikorongo — Lake Kikorongo (H/LKC) à 2.6 km
-  '3639648', // VE Hato Bartolomé — Hato Bartolomé (S/FRM) à 1.1 km
+  '3907488', // BO Prado — Arroyo Prado (H/STM) à 2,6 km
+  '8049327', // CN Qucain — Qucain (H/SPNT) à 0,1 km
+  '1648108', // ID Boti — Tanjung Boti (T/PT) à 2,4 km
+  '1242796', // LK Jayanthipura — Jayanthipura (A/ADM4) à 3,5 km
+  '1083046', // MG Ambatolahy — Ambatolahy (A/ADM4) à 2,7 km
+  '1068590', // MG Beanana — Beanana (A/ADM4) à 2,1 km
+  '1303668', // MM Nyaungbintha — Nyaungbintha-anauk (P/PPL) à 0,5 km
+  '3157110', // NO Flattum — Flattum (S/FRM) à 0,7 km
+  '3145712', // NO Mo — Mo (S/CH) à 1,7 km
+  '664591', // RO Troianul (3 502 hab.) — Troianul Anti-hail Rocket Firing Station (S/FCL) à 1,9 km
+  '2710349', // SE Grude — Grude Kyrka (S/CH) à 1,4 km
+  '231290', // UG Kikorongo — Lake Kikorongo (H/LKC) à 2,6 km
+  '3639648', // VE Hato Bartolomé — Hato Bartolomé (S/FRM) à 1,1 km
 ]);
 function isPlaceholderCoord(lat, lon, geonameid){
   if(!Number.isInteger(lat) || !Number.isInteger(lon)) return false;

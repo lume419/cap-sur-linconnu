@@ -27879,3 +27879,24 @@ sl;Sindžar;Sinjār
 sr;Синџар;Sinjār
 uk;Синджар;Sinjār
 as;سفاح محمد;Safāḩ Muḩammad
+ar;سازان;Sāzān
+ku;Bîkuł;Bīkūl
+ku;بيكوڵ;Bīkūl
+ar;Bāsāwā;Basawe
+ar;بادلان;Bādalān
+ku;Badełan;Bādalān
+ku;بادەڵان;Bādalān
+ku;سندور;Sindur
+ar;ماوتاوە عليا;Mawetawe
+fa;تاتان;Tatan
+fa;انب;‘Anab
+ar;البو حسن;Albū Ḩasan
+ku;Tîrwansh;Tirwānīsh
+ku;Ṟkava;Rkava kavn
+ar;التورفه;At Tūrfah
+ar;كر قبه;Kir Qubbah
+ar;قبه الوهبي;Qubbat al Wahbī
+ku;Silêman Xilîw;Qaryat ‘Uwaynah
+ar;مجمع شمس آوا;Shemsawa
+ar;ازمك سفلى;Ezmek
+ar;بيبيجك السفلى;Bī Bī Jik as Suflá

@@ -121702,3 +121702,27 @@ zh;约克镇;Yorktown
 zh;齐灵;Zearing
 fa;چانهاسن، مینه‌سوتا;Chanhassen
 ky;Беркли;Berkeley
+tt;Кларкфилд;Clarkfield
+uk;Кларкфілд;Clarkfield
+ur;کلارک فیلڈ، مینیسوٹا;Clarkfield
+sr;Кларкфилд;Clarkfield
+kk;Кларкфилд;Clarkfield
+ce;Кларкфилд;Clarkfield
+ky;Кларкфилд;Clarkfield
+fa;کلارک‌فیلد، مینه‌سوتا;Clarkfield
+fa;دار;Darr
+tt;Гейзер;Geyser
+te;gen;Geyser
+uk;Гейзер;Geyser
+fa;گایزر، مونتانا;Geyser
+sr;Гајзер;Geyser
+tt;Лоло;Lolo
+uk;Лоло;Lolo
+sr;Лоло;Lolo
+fa;لوولوو، مونتانا;Lolo
+fa;ناتلی، نیوجرسی;Nutley
+sr;Натли;Nutley
+en;Pennsauken Township;Pennsauken
+es;Municipio de Pennsauken;Pennsauken
+fa;پنساوکن، نیوجرسی;Pennsauken
+kk;Пэннсаукэн Тауншип;Pennsauken

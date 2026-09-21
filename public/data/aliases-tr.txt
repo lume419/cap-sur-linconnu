@@ -13012,3 +13012,7 @@ az;Yazlıq;Yazlık
 az;Orta Əlican;Orta Alican
 hy;Սուքի;Buruksu
 az;Buruqsu;Buruksu
+tr;Osmaniye;Sarıgerme
+tr;Güvez;Sarıgerme
+tr;Gülbahçe;Çerkeztevfikiye
+tr;Çerkestevfikiye;Çerkeztevfikiye

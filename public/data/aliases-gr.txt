@@ -18028,3 +18028,12 @@ ar;نيابولي;Neapoli
 ja;ネアポリ;Neapoli
 fa;نئاپولی;Neapoli
 ru;Аликес;Alykes
+el;Τσισκιανά;Tsiskianá
+el;Sinoikismós Siskianá;Tsiskianá
+el;Sinoikismós Tsiskianá;Tsiskianá
+el;Néa Chalkidón;Néa Chalkidóna
+el;Νέα Χαλκηδόν;Néa Chalkidóna
+el;Aladinón;Aladino
+el;Αλαδινόν;Aladino
+ru;Фискардо;Fiskárdo
+de;Finikounda;Foinikoúnta

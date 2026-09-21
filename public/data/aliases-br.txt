@@ -4936,3 +4936,14 @@ bs;Fundão;Cidade Universitária
 sr;Фундао;Cidade Universitária
 sr;Урка;Urca
 fa;ورگم پقونا، ریو دو ژانیرو;Vargem Pequena
+kk;Сапукая-ду-Сул;Sapucaia do Sul
+ru;Сапукая-ду-Сул;Sapucaia do Sul
+zh;南萨普卡亚;Sapucaia do Sul
+pt;Cocais;Cocaes
+pt;Havaí;Avaí do Jacinto
+pt;Caiajás;Catajás
+pt;Pereira;Vila Pereira
+pt;Sobradinho;São José do Sobradinho
+pt;Monsuaba;Jacuecanga
+pt;Bendengó;Bedengó
+pt;Poções;Vila Nova dos Poções

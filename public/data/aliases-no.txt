@@ -2468,3 +2468,20 @@ ru;Боргунн;Borgund
 zh;拉姆内斯;Ramnes
 hy;Ռամես;Ramnes
 zh-Hant;拉姆內斯;Ramnes
+no;Hamna;Hamna i Ryggefjord
+sr;Кристијансанд;Kristiansand
+os;Кристиансанн;Kristiansand
+uk;Крістіансанн;Kristiansand
+lt;Kristiansandas;Kristiansand
+ko;크리스티안산;Kristiansand
+fa;کریستیان‌ساند;Kristiansand
+ja;クリスチャンサン;Kristiansand
+nds;Kommun Kristiansand;Kristiansand
+bg;Кристиансан;Kristiansand
+he;קריסטיאנסנד;Kristiansand
+ar;كريستيانزاند;Kristiansand
+sgs;Krėstēnsands;Kristiansand
+ta;கிரிஷ்டியன்சான்ட்;Kristiansand
+th;คริสเตียนซาน;Kristiansand
+ru;Бьяркёй;Bjarkøy
+sv;Bjarkøy kommun;Bjarkøy

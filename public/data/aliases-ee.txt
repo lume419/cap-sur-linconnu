@@ -6366,3 +6366,4 @@ ru;Выдувере-Тагакюла;Võduvere-Tagaküla
 ru;Галбин;Galbin
 ru;Город Лихула;Lihula Linn
 ru;Уус-Сытке;Uus-Sõtke
+ru;Мяхма;Mahma

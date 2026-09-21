@@ -6534,3 +6534,4 @@ am;አልቢ;Alby
 bg;Оре;Åre
 nn;Åre i Sverige;Åre
 ru;Оре;Åre
+fa;وجبیسترند;Vejbystrand

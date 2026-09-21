@@ -10667,3 +10667,11 @@ ru;Молинетто;Molinetto
 sl;Gorenji vrh;Cotici superiore
 ru;Маппано;Mappano
 uk;Роаскія;Roaschia
+be;Чэпа-Марэлі;Ceppo Morelli
+hy;Չեպո Մորելի;Ceppo Morelli
+ja;チェッポ・モレッリ;Ceppo Morelli
+kk;Чеппо-Морелли;Ceppo Morelli
+sr;Чепо Морели;Ceppo Morelli
+uk;Чеппо-Мореллі;Ceppo Morelli
+ru;Чеппо-Морелли;Ceppo Morelli
+zh;切波莫雷利;Ceppo Morelli

@@ -8,6 +8,7 @@
 const { test, before } = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('fs');
+const path = require('path');
 const H = require('./helpers/engine.js');
 const { FULL, num, outFile, summarize } = require('./helpers/config.js');
 
@@ -28,15 +29,15 @@ const SPECIAL = [
   ['Honolulu', 'US'], ['Adak', 'US'], ['Anchorage', 'US'], ['Point Roberts', 'US'], ['Key West', 'US'], ['New York City', 'US'], ['Utqiagvik', 'US'],
   ['Inuvik', 'CA'], ['Iqaluit', 'CA'], ['Ushuaia', 'AR'], ['Punta Arenas', 'CL'], ['Jamestown', 'SH'], ['Edinburgh of the Seven Seas', 'SH'],
   ['Bakı', 'AZ'], ['Cabinda', 'AO'], ['Khasab', 'OM'], ['Pante Makasar', 'TL'], ['Büsingen', 'DE'], ['Campione', 'IT'], ['Genève', 'CH'], ['Lausanne', 'CH'], ['Ljubljana', 'SI'],
-  ['Victoria', 'MT'], ['Valletta', 'MT'], ['Nicosia', 'CY'], ['Lemesos', 'CY'], ['Heraklion', 'GR'], ['Póros', 'GR'], ['Thessaloniki', 'GR'],
+  ['Victoria', 'MT'], ['Valletta', 'MT'], ['Nicosia', 'CY'], ['Lemesos', 'CY'], ['Irákleion', 'GR'], ['Póros', 'GR'], ['Thessaloniki', 'GR'],
   ['Turku', 'FI'], ['Vaasa', 'FI'], ['Helsinki', 'FI'], ['Umeå', 'SE'], ['Stockholm', 'SE'], ['Tallinn', 'EE'], ['Rønne', 'DK'], ['Split', 'HR'], ['Dubrovnik', 'HR'], ['Neum', 'BA'],
-  ['Gaza', 'PS'], ['Rafah', 'PS'], ['Tel Aviv', 'IL'], ['Beyrouth', 'LB'], ['Damashq', 'SY'], ['Kyiv', 'UA'], ['Aden', 'YE'], ['Maiduguri', 'NG'], ['Acapulco', 'MX'], ['Mogadishu', 'SO'],
+  ['Gaza', 'PS'], ['Rafah', 'PS'], ['Tel Aviv-Yafo', 'IL'], ['Beyrouth', 'LB'], ['Damashq', 'SY'], ['Kyiv', 'UA'], ['Aden', 'YE'], ['Maiduguri', 'NG'], ['Acapulco', 'MX'], ['Mogadishu', 'SO'],
   ['Kinshasa', 'CD'], ['Brazzaville', 'CG'], ['Leticia', 'CO'], ['Manaus', 'BR'], ['Jincheng', 'TW'], ['Magong', 'TW'], ['Taipei', 'TW'], ['Jeju City', 'KR'], ['Seoul', 'KR'],
   ['Naha', 'JP'], ['Sapporo', 'JP'], ['Tokyo', 'JP'], ['Okushiri', 'JP'],
   ['Hong Kong', 'HK'], ['Macau', 'MO'], ['Singapore', 'SG'], ['Batam', 'ID'], ['Jayapura', 'ID'], ['Vanimo', 'PG'], ['Bangkok', 'TH'], ['Hanoi', 'VN'],
   ['Manama', 'BH'], ['Doha', 'QA'], ['Dubai', 'AE'], ['Port Blair', 'IN'], ['Malé', 'MV'], ['Colombo', 'LK'], ['Manila', 'PH'], ['Lahore', 'PK'],
   ['Invercargill', 'NZ'], ['Hobart', 'AU'], ['Darwin', 'AU'], ['Port-aux-Français', 'TF'], ['Adamstown', 'PN'], ['Alofi', 'NU'], ['Avarua', 'CK'],
-  ['Istanbul', 'TR'], ['Casablanca', 'MA'], ['Tunis', 'TN'], ['Dakar', 'SN'], ['Lisboa', 'PT'], ['Porto', 'PT'], ['Rome', 'IT'], ['Cagliari', 'IT'], ['Palermo', 'IT'], ['Beograd', 'RS'], ['Skopje', 'MK'],
+  ['Istanbul', 'TR'], ['Casablanca', 'MA'], ['Tunis', 'TN'], ['Dakar', 'SN'], ['Lisboa', 'PT'], ['Porto', 'PT'], ['Roma', 'IT'], ['Cagliari', 'IT'], ['Palermo', 'IT'], ['Beograd', 'RS'], ['Skopje', 'MK'],
   ['Luxembourg', 'LU'], ['Basel', 'CH'], ['Vaduz', 'LI'], ['Monaco', 'MC'], ['San Marino', 'SM'], ['Andorra la Vella', 'AD'], ['Città del Vaticano', 'VA'], ['Berlin', 'DE'], ['Warszawa', 'PL'],
   ['Kabul', 'AF'], ['Tehran', 'IR'], ['Al Qahirah', 'EG'], ['Nairobi', 'KE'], ['Zanzibar', 'TZ'], ['Antananarivo', 'MG'], ['Port Louis', 'MU'], ['Praia', 'CV'], ['Mindelo', 'CV'],
   ['Lima', 'PE'], ['La Paz', 'BO'], ['Havana', 'CU'], ['Kingston', 'JM'], ['Mexico City', 'MX']
@@ -68,11 +69,22 @@ before(async () => {
   A = E.__test;
 });
 
+// Un nom absent des données ne fait échouer AUCUN test : findPlace rend null, le départ est simplement sauté et la
+// campagne tire ailleurs. Trois entrées étaient ainsi inertes depuis la 10e passe — « Heraklion » (publié
+// « Irákleion »), « Tel Aviv » (« Tel Aviv-Yafo ») et « Rome » (« Roma ») : les trois villes qu'on avait justement
+// mises dans cette liste pour leurs particularités (île grecque, zone à tension, capitale) n'étaient jamais tirées.
+// Corrigées au 20e audit du 21/09/2026, et le test ci-dessous interdit que cela recommence en silence.
 function specialDepartures(){
   const out = [];
   for(const [n, cc] of SPECIAL){ const c = H.findPlace(n, cc); if(c) out.push(c); }
   return out;
 }
+
+test('départs particuliers : chaque nom de la liste existe bien dans les données publiées', () => {
+  const absents = SPECIAL.filter(([n, cc]) => !H.findPlace(n, cc)).map(([n, cc]) => cc + ' ' + JSON.stringify(n));
+  assert.deepEqual(absents, [], 'départ particulier introuvable : la campagne le saute sans rien dire');
+  assert.equal(specialDepartures().length, SPECIAL.length);
+});
 
 function runCampaign(){
   const C = A.COMMUNES;
@@ -204,12 +216,18 @@ const base = (d, extra) => Object.assign({ departureCity: d, days: 7, budgetKey:
   avoidTent: false, avoidTension: true, tripStart: AN + '-10-01' }, extra || {});
 const run = (p, seed) => H.withSeed(seed, () => E.generateTrip(p));
 
-test('le vérificateur détecte des défauts injectés, et dans la BONNE famille', () => {
+test('le vérificateur détecte des défauts injectés, et dans la BONNE famille', t => {
   // 19e audit du 21/09/2026. La version précédente injectait neuf défauts et se contentait de « au moins une
-  // violation » : deux de ses étiquettes désignaient une famille qui n'était pas celle qui réagissait, et dix-huit
-  // familles sur vingt-huit n'étaient jamais éprouvées — dont « mer », « frontiere », « recharge » et « doublons »,
-  // c'est-à-dire des contrôles de sécurité. Chaque injection déclare maintenant la ou les familles qu'elle DOIT faire
-  // lever, et le test vérifie en plus que l'ensemble des familles visées est bien couvert.
+  // violation » : deux de ses étiquettes désignaient une famille qui n'était pas celle qui réagissait, et la plupart
+  // des familles n'étaient jamais éprouvées — dont « mer », « frontiere », « recharge » et « doublons », c'est-à-dire
+  // des contrôles de sécurité. Chaque injection déclare maintenant la ou les familles qu'elle DOIT faire lever, et le
+  // test vérifie en plus que l'ensemble des familles visées est bien couvert.
+  // 20e audit du 21/09/2026 : le compte annoncé par la 19e passe était FAUX. Le vérificateur ne lève pas 28 familles
+  // mais 32 (relevées sur les appels bad() de tests/helpers/engine.js et sur les violations poussées ici même), et la
+  // 19e passe n'en éprouvait que 14. Neuf injections de plus sont ajoutées — spinPool, maxLegKmRenvoye, nbVilles,
+  // eloignementMin, durees, notices, restrictions, diagMinDistanceUnreachable, journeeSurPlace — ce qui porte la
+  // couverture à 23 familles sur 32. Les neuf restantes et la raison de leur absence sont listées dans NON_COUVERTES
+  // ci-dessous, et ce partage est lui-même vérifié : une famille qui disparaît ou qui apparaît fait échouer le test.
   const p0 = base(H.dep('Lyon', 'FR'), { transportKey: 'voiture-electrique', days: 8, maxLegKm: 300, minDistanceKm: 200 });
   const r0 = run(p0, 42);
   assert.ok(r0.legs.length > 0, 'tirage de référence vide');
@@ -229,8 +247,24 @@ test('le vérificateur détecte des défauts injectés, et dans la BONNE famille
     ['étape sautée au Japon', r => { r.legs[1].lat = 35.68; r.legs[1].lon = 139.76; r.legs[1].country = 'JP'; }, ['frontiere', 'mer']],
     ['recharges effacées', r => { r.legs.forEach(l => { if(l.chargeInfo) l.chargeInfo = null; }); }, ['recharge']],
     ['recharges inventées', r => { const l = r.legs.find(x => x.distanceKm > 100); if(l) l.chargeInfo = { stops: 9, minutes: 999 }; }, ['recharge']],
-    ['étape en double', r => { r.legs.push(JSON.parse(JSON.stringify(r.legs[1]))); }, ['doublons', 'nuitsParVille', 'jours']]
+    ['étape en double', r => { r.legs.push(JSON.parse(JSON.stringify(r.legs[1]))); }, ['doublons', 'nuitsParVille', 'jours']],
+    // 20e audit : neuf familles de plus, chacune vérifiée par une injection qui la vise.
+    ['roulette gonflée', r => { r.spinPool = new Array(60).fill('x'); }, ['spinPool']],
+    ['maxLegKm renvoyé négatif', r => { r.maxLegKm = -3; }, ['maxLegKmRenvoye']],
+    ['vingt-cinq villes de plus', r => { for(let i = 0; i < 25; i++){ const l = JSON.parse(JSON.stringify(r.legs[1])); l.name = 'Ville' + i; l.norm = 'ville' + i; l.lat += (i + 1) * 0.01; r.legs.splice(1, 0, l); } }, ['nbVilles']],
+    ['tout ramené au point de départ', r => { const f = r.legs[r.legs.length - 1]; r.legs.forEach(l => { l.lat = f.lat; l.lon = f.lon; }); }, ['eloignementMin']],
+    ['durée de trajet absurde', r => { const l = r.legs.find(x => x.distanceKm > 100); if(l) l.travelMin = 2; }, ['durees']],
+    ['avis et journées effacés', r => { r.notices = []; r.days = null; }, ['notices']],
+    ['restriction inventée', r => { r.legs[0].restrictions = [{ kind: 'inventé' }]; }, ['restrictions']],
+    ['diagnostic « hors de portée » sur un voyage trouvé', r => { r.minDistanceUnreachable = true; r.returnCapKm = 10; }, ['diagMinDistanceUnreachable']]
   ];
+  // Une journée SUR PLACE (aucun trajet) n'existe pas dans le tirage de référence ci-dessus : il en faut un second,
+  // avec deux nuits par ville, pour éprouver la famille « journeeSurPlace ».
+  const p1 = base(H.dep('Lyon', 'FR'), { days: 10, minDaysPerCity: 2, maxDistanceKm: 400, maxRadiusKm: 500 });
+  const r1 = run(p1, 7);
+  assert.ok(r1.legs && r1.legs.length > 2, 'second tirage de référence vide');
+  assert.deepEqual(H.check(p1, r1, 0).v, [], 'le second tirage de référence doit être sans violation');
+  assert.ok(r1.legs.some((x, i) => i > 0 && x.distanceKm === null), 'aucune journée sur place dans le second tirage de référence');
   const manqués = [], mauvaiseFamille = [], vues = new Set();
   for(const [nom, f, attendues] of muts){
     const r = JSON.parse(JSON.stringify(r0)); f(r);
@@ -245,9 +279,46 @@ test('le vérificateur détecte des défauts injectés, et dans la BONNE famille
   assert.deepEqual(mauvaiseFamille, [], 'défaut détecté, mais pas par le contrôle censé le voir');
   // Couverture : les familles que ce test s'engage à éprouver. Les autres restent non couvertes, et c'est écrit
   // plutôt que sous-entendu — voir le rapport de la 19e passe.
+  // Journée sur place à laquelle on fait traverser un bras de mer : c'est le second tirage qui sert.
+  {
+    const r = JSON.parse(JSON.stringify(r1));
+    const surPlace = r.legs.findIndex((x, i) => i > 0 && x.distanceKm === null);
+    r.legs[surPlace].ferryInfo = { routeKey: 'FR-Bastia|FR-Nice', amount: 50, durationH: 6, roadKm: 9999 };
+    const v = H.check(p1, r, 0).v;
+    v.forEach(x => vues.add(x.inv));
+    if(!v.some(x => x.inv === 'journeeSurPlace')) mauvaiseFamille.push('ferry un jour sans trajet : attendu journeeSurPlace, obtenu ' + [...new Set(v.map(x => x.inv))].join('+'));
+  }
   const VISEES = ['distance', 'retour', 'ferry', 'peage', 'valeurs', 'dates', 'tension', 'maxLeg', 'mer', 'frontiere',
-    'recharge', 'doublons', 'nuitsParVille', 'jours'];
+    'recharge', 'doublons', 'nuitsParVille', 'jours',
+    'spinPool', 'maxLegKmRenvoye', 'nbVilles', 'eloignementMin', 'durees', 'notices', 'restrictions',
+    'diagMinDistanceUnreachable', 'journeeSurPlace'];
   assert.deepEqual(VISEES.filter(x => !vues.has(x)), [], 'famille visée jamais levée par aucune injection');
+  // Ce que ce test N'ÉPROUVE PAS, écrit plutôt que sous-entendu, avec la raison. Trois de ces familles ne sont pas
+  // injectables du tout : elles ne décrivent pas un résultat de tirage mais la CAMPAGNE elle-même (une exception
+  // levée, un état global resté sale, une contre-épreuve « hors de portée » rejouée). Les six autres demandent des
+  // paramètres ou une géométrie que ces deux tirages de référence n'ont pas.
+  const NON_COUVERTES = {
+    exception: 'la campagne seule peut la lever (le tirage lève une exception)',
+    etat: 'la campagne seule peut la lever (état global non remis à zéro)',
+    contreEpreuve: 'la campagne seule peut la lever (« hors de portée, X km » rejoué à X km)',
+    eloignementMax: 'aucune injection trouvée qui la lève SANS lever d\'abord « mer » ou « distance »',
+    rayonRetour: 'idem : déplacer l\'avant-dernière étape lève « mer » avant le rayon',
+    reposPremierTrajet: 'idem : allonger le premier trajet lève « distance », « maxLeg » et « durees » avant',
+    ferryRoadKm: 'idem : un ferry incohérent lève « ferry » ou « journeeSurPlace » avant',
+    diagDayTrip: 'diagnostic d\'un aller-retour d\'un jour : ne se pose pas sur un tirage de sept jours',
+    diagnostics: 'cohérence d\'ensemble des diagnostics : levée par la campagne, pas par une mutation isolée'
+  };
+  // Le partage lui-même est vérifié : une famille qui apparaît dans le vérificateur sans être ni visée ni
+  // explicitement laissée de côté fait échouer ce test, pour qu'on la traite au lieu de l'ignorer.
+  const émises = new Set();
+  const srcCheck = fs.readFileSync(path.join(__dirname, 'helpers', 'engine.js'), 'utf8');
+  for(const m of srcCheck.matchAll(/bad\(\s*'([^']+)'/g)) émises.add(m[1]);
+  for(const m of fs.readFileSync(__filename, 'utf8').matchAll(/inv:\s*'([^']+)'/g)) émises.add(m[1]);
+  const orphelines = [...émises].filter(x => VISEES.indexOf(x) < 0 && !Object.prototype.hasOwnProperty.call(NON_COUVERTES, x)).sort();
+  assert.deepEqual(orphelines, [], 'famille du vérificateur ni éprouvée ni déclarée non couverte');
+  const inutiles = Object.keys(NON_COUVERTES).filter(x => !émises.has(x) || VISEES.indexOf(x) >= 0).sort();
+  assert.deepEqual(inutiles, [], 'famille déclarée non couverte alors qu\'elle n\'existe plus ou qu\'elle est désormais éprouvée');
+  t.diagnostic('familles du vérificateur : ' + émises.size + ' ; éprouvées par injection : ' + VISEES.length + ' ; non couvertes : ' + Object.keys(NON_COUVERTES).length);
 });
 
 // ------------------------------------------------------------------------------------------ déterminisme et état

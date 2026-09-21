@@ -864,3 +864,8 @@ tt;Дипаял;Dipayal
 eu;Kakarvitta;Kakarbhitta
 uk;Феріче;Pheriche
 pl;Thimi;Madhyapur Thimi
+ne;Mānkhā;Makha
+ne;Māneswānrā;Maneswara
+ne;Jhānkrīṭol;Jhakritol
+ne;Sānṅchā;Sancha
+ne;Shri̇̄ Rāmp;Shri Rampur

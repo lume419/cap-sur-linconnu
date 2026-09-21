@@ -26367,3 +26367,429 @@ sr;Ел Санто Нињо;El Santo Niño
 sr;Намурачи;Namurachi
 es;La Guadalupana;La Guadalupe
 sr;Круз де Уанакастле;Cruz de Huanacaxtle
+es;Tenantepec;San Mateo Tepantepec
+es;Shajay;Hacienda Xajay
+es;Xhajay;Hacienda Xajay
+es;Ixcatepec;San Lucas Ixcotepec
+es;Hacienda Huixcazdhá;Hacienda Huixcasdhá
+es;Huazquilico;El Llano de Huazquilíco
+es;El Porvenir Campo Alegre;Porvenir Campo Alegre
+es;El Fresno;La Mesa del Fresno
+es;Rivera del Carmen;Rivera de la Viuda
+es;Chatañú;San Luis Chatañú
+es;Chanjale;Plan Chanjalé
+es;La Balsa;San Antonio Río Verde
+es;Lachigova;San Pedro Lachigoba
+es;San Pedro Lachigova;San Pedro Lachigoba
+es;El Jinete;Portillo Jinete
+es;El Ojosnal;Ojoshal
+es;Faustino Primera Sección;El Faustino
+es;La Poza del Faustino Primera Sección;El Faustino
+es;Agua Fría;La Camaronera
+es;Miguel Hidalgo Cuarta Sección;Eureka y Belén
+es;Miguel Hidalgo;Eureka y Belén
+es;Cuarta Sección;Eureka y Belén
+es;El Pemuche;Pemuche de Soledad
+es;El Pemoche de Soledad;Pemuche de Soledad
+es;El Llano Dos;Llano Segundo
+es;El Llano II;Llano Segundo
+es;Mantha;El Mamtha
+es;El Súchil;Xúchil el Llano
+es;Xúchitl el Llano;Xúchil el Llano
+es;Montecillo;Ex-Hacienda Montecillos
+es;La Roscorita;La Asunción Rascona
+es;La Rascona;La Asunción Rascona
+es;Chichuntact;Chicumtantic
+es;Yabteclum;Yabteclum Fracción Dos
+es;Yabeteclum;Yabteclum Fracción Dos
+es;Fracción Dos;Yabteclum Fracción Dos
+es;El Tesoro;Nuevo Copal
+es;Celestino Gasca Villaseñor;Nuevo Milenio Celestino Gasca Villaseñor
+es;Celestino Garza V.;Nuevo Milenio Celestino Gasca Villaseñor
+es;El Sabino;Sabino de Guadalupe
+es;Macucam;X-Makulán
+es;Marcela;Encanto Número Dos
+es;Nuevo Coatlán;Cuaclán
+es;Corral Prieto;Rancho Mancañal
+es;El Moncañal;Rancho Mancañal
+es;El Chamizal;Bordo de Santo Niño
+es;Carricillo;Barranca del Sordo
+es;Utah;La Yuta
+es;Ezcalqui;La Yuta
+es;Yecorame;Yecaroma
+es;Rachachiri;Racharichi
+es;Los Álamos;El Galleguito
+es;Paraje El Metate;Huizomachi
+es;Batapilillas;Batopilillas
+es;Guayabito;Rincón de Guayabito
+es;La Haciendita de los Ceballos;Hacienda de los Ceballos
+es;Las Adjuntas;Adjuntas del Norte
+es;Las Sabinas;La Noria de la Sabina
+es;Xoconostle;Las Mesas de Xoconoxtle
+es;Vanegas;Rancho Vanegas
+es;Venegas;Rancho Vanegas
+es;Ranchería Turuachito;San José de Turuachito
+es;Tucheachi;Ranchería Tucheachi
+es;Tasajero;La Crosolia
+es;Ejido Talayotes;Talayotes de los Torres
+es;Santo Domingo;Santa Catarina de Conejo
+es;Santa Maria Jaltemba;Santa María de Jaltemba
+es;Colonia Santa Ana Tepetitlán;Santa Ana Tepetitlán
+es;San Juan;San Juan Ixtapalapa
+es;San Isidro de Ciénega;San Isidro de Ciénega del Toro
+es;San Antonio de los Magueycillos;San Antonio de Magueycillos
+es;Puerca;La Puerca
+es;La Joya;La Joya del Río Verde
+es;Chupi Meadus;Chupi Medous
+es;Peremts;Perempitz de Abajo
+es;Ocote;El Ocote del Terrero
+es;Los Parajes;Los Parajes Viejos
+es;Los Llanitos;Los Llanos de Refugio
+es;Ranchería Las Truchas;El Trigal
+es;Los Pozos;Arroyo los Pozos
+es;La Junta de Bagrecitos;Junta de Bagrecitos
+es;Campo La Guasima;La Guásima de los Guerrero
+es;Ánimas de Abajo;Las Ánimas de Abajo
+es;La Manteca;La Nueva Betania
+es;La Huiscolotila;Huiscolotila
+es;La Ciénega;Ciénega de Norogachi
+es;La Candelaria;La Candelaria de los Yeguales
+es;Jazmines;Jazmines de Coyultita
+es;Guagueachi;Bagueachi
+es;Zapotito;Zapotito de Mancilla
+es;El Frijolar;El Cajón de las Minas
+es;El Cócono;Rancho el Cócono
+es;Aranjuez;El Aranjuez
+es;Ejido Jiquilpan;La Sucursal Jiquilpan
+es;Sucursal Dos de Jiquilpan;La Sucursal Jiquilpan
+es;Heredita;La Hedionda de los Morales
+es;Hedionda de los Morales;La Hedionda de los Morales
+es;Cuaquixpala;Coaquixpala
+es;Clavillos;Los Clavillos
+es;Campo Cerro de los Guerrero;Cerro de los Guerrero
+es;Cayacal;El Cayacal
+es;El Llano de los Becerros;El Llanito de los Becerros
+es;San Gregorio;San Gregorito
+es;La Barranca;Rancho Barranca de Loma Alta
+es;El Corcovado;San José del Corcovado
+es;Las Pilitas;Pilitas de San Juan de los Rangeles
+es;Los Cuartos;Cuartos de Bravo
+es;El Tejocote de Puriantzícuaro;Tejocote de Puriantzícuaro
+es;El Tejocote;Tejocote de Puriantzícuaro
+es;San Isidro;San Isidro de Tavera
+es;Salitrillo;Ex-Hacienda Salitrillo
+es;Salitrillo Ojo de Agua;Ex-Hacienda Salitrillo
+es;Ojo de Agua Salitrillo;Ex-Hacienda Salitrillo
+es;El Tejón;Ojo de Agua del Tejón
+es;Los Pericos;Arroyo de Pericos
+es;El Sol;El Tesoro del Campo
+es;Torchosa;Poblado Torchoza
+es;El León;Rancho de León
+es;La Isleta;Isleta Guillermo Sandoval Ruiz
+es;La y Griega;La Y a Xicoténcatl
+es;José Vargas;Canaimas
+es;San Juan;San Juan del Vado
+es;Santa Rosalía;La Loma de Lara
+es;Navosaycame;Navosaygame
+es;Las Guacamayas;Puerto las Guacamayas
+es;Terrero Blanco;Urabisachi
+es;Baquivo;Vaquibo
+es;Aguajito de Bermúdez;El Aguajito de Bermúdez
+es;El Anchove;Norisina
+es;El Naranjo;Naranjo Ayro
+es;La Sierrita;Sierrita de Cleofas
+es;San Antonio de Arévalo;El Tule de Enmedio
+es;Tule de Enmedio;El Tule de Enmedio
+es;La Presa;Presa de Garza
+es;Providencia;Providencia del Norte
+es;Mesa de Situche;Mesa de Situchi
+es;Rosánachi;Mesa de Situchi
+es;Porochito;Baquere
+es;Mohórabo;Harabo
+es;Sitamora;Sitamoba
+es;Recóhuata;Menerichi
+es;Sicochi;Chicochi
+es;Recohuata;Colurabo
+es;Aboreachi;Boriachi
+es;Recachi;Rojeachi
+es;Gusisóbachi;Güisasogachi
+es;La Mesa;Mesa de Mategoina
+es;Mesa de Mategoyna;Mesa de Mategoina
+es;Paraje La Mesa;Mesa Labiachi
+es;La Cieneguita;La Cieneguita de los Bustillos
+es;Sipurachic;Huatosivo
+es;Raposicuchic;Raposicachi
+es;Churitavo;Churiravo
+es;El Saucillo de Lugo;Saucillo de los Lugo
+es;La Presa de Francisco Valdez;Presa de los Valdez
+es;El Vallecillo;San José del Vallecillo
+es;Las Carme;Resumideros
+es;El Refugio de Zuluoaga;LAS MARIAS
+es;Guadalupe;Campo el Refugio
+es;Chino Games;Chino de los Gámez
+es;Masayachi;Masaguiachi
+es;Chorogue;Chorugue
+es;El Burro;Arroyo del Burro
+es;La Vinatería Dos;El Agua Relumbrosa
+es;Agua Relumbrosa;El Agua Relumbrosa
+es;Tleixpan;Tlexpa
+es;Rancho de Tacajete;Ex-Hacienda de Tecajete
+es;Tecajete;Ex-Hacienda de Tecajete
+es;La Joya;Joya de Santa María
+es;Casay;Cazay
+es;El Muy;El Muhí
+es;Cuaxithá;Coaxithi
+es;Los Paises;El Potrero de los Páez
+es;Campo el Guamuchil;El Guamúchil del Barranco
+es;Lote Dos B;La Giganta
+es;Santana Norte Amajac;Santa Ana Norte
+es;Potrero de Enmedio;Santa Ana Norte
+es;Zabioris;Sapiori
+es;Chac II;Chayil
+es;Dañhe;El Dañe
+es;Xonte;Xonthe
+es;Lcuyunchúchut;Lkuyum Chuchut
+es;La Hoya;La Joya de Casas
+es;El Tío Moncho;Tío Moncho
+es;El Tollocán;Tolloacán
+es;La Mesa;La Mesa del Roble
+es;El Tobos;Los Tobos
+es;Puente de la Vía del Bejuco;Puente el Bejuco
+es;Unión 20 de Junio;Unión Veinte de Junio
+es;Plan de Pardillo;El Pardillo Primero
+es;La Ciénega;Ciénega de Purísima
+es;La Lagunilla;La Lagunita de Martínez
+es;Piedras Coloradas;Las Piedras Coloradas
+es;Quirimicuas;Quiringucas
+es;Lampaces;Los Lampases
+es;La Encinera;Llano de las Vacas
+es;Loma la Copalera;La Loma del Copal
+es;La Hoya;Joya de Amoles
+es;El Cobre;Ojo de Agua del Cobre
+es;Las Sidras;San José de las Cidras
+es;Ojo de Agua del Venado;El Ojo de Agua del Venado
+es;El Zapote;Puerto del Zapote
+es;El Carnez;El Camez
+es;El Pavo Real;Palmo Real
+es;Sacanguerete;Zacanguirete
+es;El Zapote;Zapote de los Díaz
+es;Ojo de Agua de Simón;El Agua de Simón
+es;Los Pijaso;Los Pijazos
+es;El Tajín;Raíces del Tajín
+es;El Carmen;Carmen del Norte
+es;El Tapeiste;Tapeixtle
+es;El Ojo de Agua;Potrero del Ojo de Agua
+es;Marroquincito;Marroquín Chiquito
+es;Marroquín;Marroquín Chiquito
+es;La Cañada;Cañada de San José
+es;Hacienda Chichimequilla;Rancho Ex-Hacienda de Chichimequillas
+es;El Dique;Dique Alto de Corralejo
+es;San Francisquito;San Francisco Tierras Blancas
+es;Alamos Cuates;El Álamo Cuate
+es;La Laguna;Laguna de Álvarez
+es;La Curva;La Pista de la Curva
+es;Presa de San Juaquín;Presa San Joaquín
+es;Ojo de Agua de los Llanos;Ojo de Agua de Valadez
+es;Las Projitas;Rancho Trojitas
+es;El Salzahuate;Salsahuate
+es;La Cruz de la Aparecida;La Aparecida
+es;El Limoncito;Barranca del Limoncito
+es;El Ahijadero;Ahijadero del Pantano
+es;Coruca;La Curuca
+es;Tepozanes;Los Teposanes
+es;Villa Flores;San Antonio Villaflores
+es;Santa María Tepexilpana;Santa María Tepejipana
+es;El Manzano;Capire Manzano
+es;Tres Cruces;San Isidro la Libertad
+es;Vainilla;Vainilla Tonameca
+es;La Peñita;Peña Bermeja
+es;La Ubeca;Lubeca
+es;Tepozapa;Cantón Vega de Tepuzapa
+es;Chaparral;Chaperal
+es;San Antonio Tulxcám;San Antonio Tuixcum
+es;Ungín;El Unguin
+es;Reynoso;Loma de Reinoso
+es;Fracción el Ocote;Buenavista el Ocote
+es;Santa María Tocuela;Ex-Hacienda Tocuela
+es;El Magueyal;Rancho Magueyal
+es;Gonivalle;Guegonivalle
+es;El Coyul;Llano Coyul
+es;Lashí;Lachiburra
+es;El Brasilar;Dolores el Zapote
+es;Chiculmatic;Tzicumaltic
+es;El Chinal;Jesús Arcos Guerra
+es;Yaltzunun;Yaaltz'Unun
+es;Katixtic;Catishtic
+es;Yajaltextik;Jeshbotic
+es;Tzayaltetik;Tzajaltetic
+es;Nitjom;Nitijom
+es;Yutosil;Yut Osil Uno
+es;Zoyalo;Suyalhó
+es;Yashlumil;Yaxalumil
+es;Yutosil;Yut Osil Dos
+es;Tzontealja;Lelenchij
+es;Chustel;Ch'Uchteel
+es;Pueblo Nuevo;Chulna
+es;Colonia Tuxtla;Delicias Casco
+es;Bachajan;Nuevo Bachajon
+es;Zapote Prieto;Zapote Negro
+es;San Caralampio Monte Verde;San Caralampio Monte Pálido
+es;La Cantera;La Cañada del Varal
+es;Las Joyas;La Joya del Clarín
+es;Vikingo 90;Vikingo Noventa
+es;Junguarán;Colonia Junguarán
+es;Paso Largo;Graciela Pintado de Madrazo
+es;Paive;El Paibe
+es;El Bateán;Batián
+es;Las Corcornecas;Las Corcomecas
+es;Chiqueritos del Bosque;Mesa del Chiquerito
+es;Rancho Los Vallejos;Los Vallejo
+es;El Moral;Hacienda del Moral
+es;San Juan;San Juan Ixhualco
+es;Cuauhtencha;Cuauhtinchán
+es;El Cochinito;San José Cochinito
+es;Lindavista Dos;Linda Vista II
+es;Setagábiachi;Zetagaviachi
+es;Selogachi;Mochogache
+es;Veta Grande;Betagrande
+es;La Michucuilera;Michicuilera
+es;El Rodeo;Perrícola
+es;Pericola;Perrícola
+es;El Chacualatal;Cuachalatal
+es;Hupangüaro;Upanguaro
+es;Agua Prieta;El Borbonal
+es;El Mirador;El Zacatecano
+es;Linda Vista;Rancho Lindavista
+es;La Gavia;Colonia la Gavia
+es;El Lorencillo;Jaraleña
+es;El Crucero;Crucero Granja San Luis
+es;Cerro de La Coyota;El Cerrito del Zapote
+es;Fraccionamiento la Lejona;La Lejona
+es;El Litrero;El Iterero
+es;Fraccionamiento Hacienda San Gaspar;Fraccionamiento Club de Golf Hacienda San Gaspar
+es;Fraccionamiento Joya Escondida;La Joya Escondida
+es;El Balazo;Cañón del Balazo
+es;Villas de Túxpam;Villas de Tuxpan
+es;El Pocito;Pimental
+es;El Campanario;El Legendario
+es;La Ponderosa;Granja Pita
+es;San Felipe;Miguel Ronquillo
+es;El Colorado;Rancho de Aguilar
+es;Santa Cruz;Ex-Hacienda Santa Cruz
+es;La Quebrada;Quebrada de los Durán
+es;Leopoldo Heredia;Colonia Leopoldo Heredia
+es;Fraccionamiento Huertas Agua Azul;Fraccionamiento Huertos Agua Azul
+es;Talismán;San José Brahaman
+es;La Cantera;La Cantera Dos
+es;Los López;María de la Luz Frías Enríquez
+es;Chavira;Los Chavira
+es;El Molino;El Molino Tercero
+es;la Ciénega;La Ciénega de la Cruz
+es;Roque;Rancho de Roque
+es;Guadalupe de Arcos;Ex-Hacienda Guadalupe Arcos
+es;San Pedro;Ex-Hacienda San Pedro Tochatlaco
+es;San Antonio Tochatlaco;Ex-Hacienda San Antonio Tochatlaco
+es;La Ocho;La Estación Ocho
+es;Quebale;Rancho Quebale
+es;El Mexe;El Mexe Grande
+es;La Tinaja;Tinaja de Jacalilla
+es;Durango;Durango Daboxtha
+es;Tepetates;San Bartolomé Tepetates
+es;San Ignacio Sotelo;San Ignacio de los Sotelo
+es;Golondrinas;Manzana de Golondrinas
+es;Tavera;Puerto Tavera
+es;El Atorón;Barrio el Atorón
+es;Metlapa;Barrio de Metlapa
+es;Doydhe;El Doydhe
+es;San Francisco;San Francisco de los Salgueiro
+es;El Marquez;Ex-Hacienda el Marqués
+es;Manantiales;Manantiales de Cerro Colorado
+es;Mesa Mulatos;La Mesa de Mulatos
+es;San Isidro;San Isidro Benaox
+es;San Antonio;San Antonio de la Sabana
+es;San Rafael;San Rafael de las Ánimas
+es;Espíritu Santo;El Arroyo del Espíritu Santo
+es;La Cañada;La Cañada del Huaricho
+es;Agua Zarca;Agua Zarca Dos
+es;El Tulillo;El Tulillo de Abajo
+es;San Isidro;San Isidro Mayorazgo
+es;El Limón;El Limón de Apo
+es;Ojo de Agua;El Ojo de Agua de Cuispio
+es;La Cruz;La Cruz del Pilón
+es;El Limón;El Puerto del Limón
+es;Los Amoles;Puerto los Amoles
+es;Las Sidras;Las Sidras de Turio
+es;El Fuerte;El Fuerte de Morelos
+es;San Rafael;San Rafael de Iranahuipio
+es;El Limón;El Limón Viejo
+es;Coyol;Coyol de los Gómez
+es;Jaltomate;El Jaltomate
+es;Palo Alto;La Trinidad de Palo Alto
+es;Castaño;Castaño de Abajo
+es;Pedregudo;El Pedregudo
+es;Las Juntas;Rancho de las Juntas
+es;Barrio Nuevo;Barrio Nuevo de Santa Bárbara
+es;La Lobera;La Nueva Salud
+es;Loma de Dolores;Granja Loma de Dolores
+es;La Bota;La Bota del Monte
+es;Buenavista;Buenavista de Cervantes
+es;El Fresno;El Fresno de la Peña
+es;San Fernando;San Fernando de Cerda
+es;Balbuena;Colonia Balbuena
+es;El Potrero;El Potrero de Ostula
+es;La Laguna;La Laguna de Marmolejo
+es;La Peña;La Peña del Mar
+es;El Zapote;El Zapote de las Viejas
+es;Orocutín;Orocutín de Serdán
+es;Santa Inés;Mina Santa Inés
+es;Piedras Negras;San Juan Piedras Negras
+es;Santa Cruz;Santa Cruz Aguatlán
+es;Santo Domingo;Santo Domingo la Reforma
+es;El Palmito;El Palmito del Sur
+es;El Puerto;Puerto de las Cruces
+es;El Coyote;El Coyote Grande
+es;Río San Pedro;Rancho Río San Pedro
+es;San Elias;San Elías del Álamo
+es;La Capilla;La Capilla de Ocotlán
+es;Queretanillo;Manzana de Queretanillo
+es;Las Minas;Las Minas de Chapatuato
+es;El Arenal;Mesa el Arenal
+es;Las Trojes;Ejido las Trojes
+es;La Nopalera;Granjas Santa Anita de la Nopalera
+es;Las Margaritas;Granja las Margaritas
+es;Comino Real;Granja las Margaritas
+es;Los Puentes;San Agustín de los Puentes
+es;Popotillo;El Popotillo Grande
+es;Aismare;Aismare del Terrero
+es;Cayaquito;El Cayaquito
+es;Torbellinas;Las Torbellinas
+es;El Llano;Ampliación el Llano
+es;El Zapote;Colonia el Zapote
+es;San Vicente;San Vicente Cofradía
+es;Acuitzio;Acuicho
+es;La Pluma;Ciranda Blanca
+es;Zirandas Blancas;Ciranda Blanca
+es;La Pluma;Comunidad la Pluma
+es;El Naranjo;Comunidad la Pluma
+es;El Coecillo;El Coecillo de la Palma
+es;El Cono;El Cono de la Trinidad
+es;El Varal;Rancho el Varal
+es;San Rafael;San Rafael Adjuntas del Bozo
+es;Tuna Mansa;San Rafael Adjuntas del Bozo
+es;El Sauz;El Potrero del Sauz
+es;Río Azul;Río Azul de Maravillas
+es;Río Azul Maravillas;Río Azul de Maravillas
+es;Campo Verde;Rancho Campo Verde
+es;San Rafael;San Rafael de Estala
+es;Loma del Marqués;Cabañas Loma del Marqués
+es;Las Plazuelas;Colonia Plazuelas
+es;Plazuelas;Colonia Plazuelas
+es;Epeján;Hacienda de Epejan
+es;Potrero la Virgen;El Potrero de la Virgen
+es;La Esmeralda;Granja la Esmeralda
+es;El Jazmín;Rancho el Jazmín
+es;Capellanía;Garzas y Capellanía
+es;Azuchilera;La Azuchilera
+es;Colonia la Azuchilera;La Azuchilera
+es;Familia Arteaga Ávila;El Ordaz
+es;El Realito;Manuel Saldaña Ramírez

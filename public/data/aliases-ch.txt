@@ -6175,3 +6175,6 @@ zh;滕尼肯;Tenniken
 hy;Բոնդո;Bondo
 kk;Бондо;Bondo
 ru;Бондо;Bondo
+kk;Хольцикен;Holziken
+ru;Хольцикен;Holziken
+zh;霍齊肯;Holziken

@@ -9,6 +9,20 @@ const assert = require('node:assert/strict');
 const H = require('./helpers/engine.js');
 const { FULL, num } = require('./helpers/config.js');
 
+// DATE DE DÉPART DES TIRAGES, figée pour que la même graine donne le même voyage d'un mois sur l'autre. Mais
+// parseIsoDate (lib/trip-engine.js) n'accepte qu'une date comprise entre l'année PRÉCÉDENTE et trois ans plus tard :
+// à partir de 2028, « 2026-10-01 » serait refusée et le moteur repartirait SILENCIEUSEMENT à la date du jour — les
+// tirages changeraient, et les attentes de ce fichier porteraient sur autre chose sans qu'aucun test ne bronche
+// (20e audit du 21/09/2026). Le contrôle ci-dessous transforme cette bombe à retardement en échec immédiat et
+// explicite : relever la date, puis revérifier les valeurs attendues du fichier.
+const TRIP_START = '2026-10-01';
+const TRIP_START_AN = Number(TRIP_START.slice(0, 4)), AN_COURANTE = new Date().getFullYear();
+test('date de départ des tirages encore acceptée par le moteur', () => {
+  assert.ok(TRIP_START_AN >= AN_COURANTE - 1 && TRIP_START_AN <= AN_COURANTE + 3,
+    'TRIP_START (' + TRIP_START + ') est sorti de la fenêtre acceptée par parseIsoDate (' + (AN_COURANTE - 1) + '–' + (AN_COURANTE + 3) +
+    ') : le moteur repartirait à la date du jour, et les durées mesurées ne seraient plus comparables');
+});
+
 const REP = num('TEST_PERF_REP', FULL ? 10 : 4);
 
 // Seuils
@@ -37,7 +51,7 @@ function measure(deps, cases, seedBase){
     for(const d0 of deps){
       const d = typeof d0 === 'function' ? d0() : d0;
       for(let k = 0; k < REP; k++){
-        const params = Object.assign({ departureCity: d, budgetKey: 'moyen', tollEnabled: true, ferryEnabled: true, avoidTent: false, avoidTension: true, tripStart: '2026-10-01' }, c);
+        const params = Object.assign({ departureCity: d, budgetKey: 'moyen', tollEnabled: true, ferryEnabled: true, avoidTent: false, avoidTension: true, tripStart: TRIP_START }, c);
         const t0 = Date.now();
         const r = H.withSeed(seedBase + ci * 1000 + k, () => E.generateTrip(params));
         const ms = Date.now() - t0;
@@ -93,7 +107,7 @@ test('pires cas connus : le budget de temps du moteur est respecté (≤ budget 
   ];
   const lines = [], bad = [];
   cases.forEach((c, ci) => {
-    const params = Object.assign({ departureCity: c.dep(), budgetKey: 'moyen', tollEnabled: true, ferryEnabled: true, avoidTension: true, tripStart: '2026-10-01' }, c);
+    const params = Object.assign({ departureCity: c.dep(), budgetKey: 'moyen', tollEnabled: true, ferryEnabled: true, avoidTension: true, tripStart: TRIP_START }, c);
     delete params.dep; delete params.id;
     let max = 0;
     for(let k = 0; k < Math.max(2, REP >> 1); k++){

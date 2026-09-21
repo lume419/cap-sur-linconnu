@@ -2210,6 +2210,20 @@ setInterval(function(){
   for(const [ip, hits] of bigStaticHits){ if(!hits.length || now - hits[hits.length - 1] > 60000) bigStaticHits.delete(ip); }
   for(const [ip, o] of bigStaticBytes){ if(now - o.t > 60000) bigStaticBytes.delete(ip); }
 }, 60000).unref();
+// Taille de la réponse que le serveur s'apprête à envoyer pour l'un de ces quatre fichiers, en octets, encodage
+// compris — connue d'avance parce qu'ils sont précompressés en mémoire (voir PRECOMPRESSED_FILES ci-dessus).
+// Rendent zéro : une requête HEAD (aucun corps), et un chemin qui n'est pas exactement celui d'un fichier
+// précompressé (variante d'écriture : la réponse est une redirection 301 de quelques centaines d'octets).
+function tailleAttendue(req){
+  if(req.method === 'HEAD') return 0;
+  if(!Object.prototype.hasOwnProperty.call(PRECOMPRESSED_FILES, req.path)) return 0;
+  const entrée = precompressed.get(req.path);
+  if(!entrée){ // précompression échouée ou fichier changé sur le disque : express.static servira la version du disque
+    try { return fs.statSync(path.join(__dirname, 'public', req.path)).size; } catch(err){ return 0; }
+  }
+  const encodage = req.acceptsEncodings('br') === 'br' ? 'br' : (req.acceptsEncodings('gzip') === 'gzip' ? 'gzip' : null);
+  return encodage && entrée[encodage] ? entrée[encodage].length : entrée.size;
+}
 // Test sur le chemin DÉCODÉ et normalisé, sans tenir compte de la casse (9e audit du 18/09/2026) : « /js/%6918n.js »,
 // « /js//i18n.js » ou « /css/../js/i18n.js » échappaient au quota, puis express.static les servait quand même.
 app.use(function(req, res, next){
@@ -2236,22 +2250,33 @@ app.use(function(req, res, next){
   // Revalidation (304, aucun octet de contenu) : décomptée (11e audit du 19/09/2026) — chaque chargement de page comptait
   // 4 fichiers même en 304, et au 8e chargement dans la minute i18n.js répondait 429 : le site ne marchait plus, plus
   // vite encore derrière une adresse partagée (entreprise, école, opérateur mobile).
-  // Octets RÉELLEMENT écrits sur la socket, relevés à la FERMETURE de la réponse (19e audit du 21/09/2026).
-  // Auparavant : Content-Length relevé sur « finish ». Deux trous, mesurés : « finish » ne se déclenche PAS sur une
-  // réponse que le client interrompt, si bien que le compteur restait à zéro — 30 coupures à 10 Mio tiraient 301,9 Mio
-  // en une minute contre 224,0 Mio pour un client honnête, le plafond ne mordant que sur ce dernier ; et une requête
-  // HEAD, qui n'envoie aucun corps, comptait l'entièreté du Content-Length. Les réponses d'une même connexion étant
-  // sérialisées, l'écart de `bytesWritten` de la socket entre le début et la fin de CETTE réponse est bien la sienne.
-  const socket = res.socket;
-  const octetsDébut = socket ? socket.bytesWritten : 0;
+  // OCTETS COMPTÉS À L'ADMISSION, PAS APRÈS COUP (20e audit du 21/09/2026 — régression de la 19e passe).
+  // Historique : le 18e audit comptait le Content-Length sur « finish », qui ne se déclenche pas sur une réponse
+  // interrompue (30 coupures à 10 Mio tiraient 301,9 Mio en une minute contre 224,0 Mio pour un client honnête) et
+  // qui comptait le corps entier d'une requête HEAD, laquelle n'en envoie aucun. Le 19e a donc relevé les octets
+  // RÉELS de la socket, à la fermeture — et a rouvert le trou en grand, pour deux raisons mesurées sur le vrai
+  // serveur avec le plafond abaissé à 1 Mio (40 requêtes ENCHAÎNÉES sur une seule connexion : 30 réponses et 9,7 Mio
+  // servis, contre 4 réponses et 1,3 Mio pour les mêmes requêtes une par une) :
+  //   1. « res.socket » vaut null tant que la réponse n'est pas en tête de file d'attente de la connexion : sur des
+  //      requêtes enchaînées (pipelining HTTP/1.1), 2 sur 3 ne comptaient AUCUN octet ;
+  //   2. même corrigé (req.socket est toujours là), un comptage APRÈS COUP ne peut rien borner : les 40 requêtes
+  //      d'une salve enchaînée traversent ce middleware avant que la première réponse ne soit écrite, donc toutes
+  //      voient un compteur à zéro. Seul le quota de 30 requêtes mordait, soit 330 Mio avec i18n.js non compressé.
+  // La taille de ces quatre fichiers est CONNUE D'AVANCE (ils sont précompressés en mémoire au démarrage, encodage
+  // compris) : elle est donc portée au compteur AVANT de servir. Une réponse interrompue est comptée pour sa taille
+  // entière (volontairement sévère : le client a fait produire et commencer à envoyer ces octets), une requête HEAD
+  // pour rien puisqu'elle n'envoie aucun corps, et une revalidation 304 est REMBOURSÉE à la fermeture — elle seule,
+  // parce qu'elle seule prouve qu'aucun corps n'est parti. Aucun autre remboursement : un compteur qu'on peut faire
+  // redescendre est un compteur qu'on peut contourner.
+  const réservés = tailleAttendue(req);
+  octets.n += réservés;
   res.on('close', function(){
     if(res.statusCode === 304 && res.writableEnded){
       const i = hits.lastIndexOf(now);
       if(i >= 0) hits.splice(i, 1);
-      return; // revalidation : aucun octet de contenu, ni requête ni octets décomptés
+      octets.n -= réservés; // revalidation : aucun octet de contenu, ni requête ni octets décomptés
+      if(octets.n < 0) octets.n = 0;
     }
-    const n = socket ? socket.bytesWritten - octetsDébut : 0;
-    if(isFinite(n) && n > 0) octets.n += n;
   });
   next();
 });

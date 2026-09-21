@@ -487779,3 +487779,48 @@ cs;Tagccher;Taktser
 he;טקטסר;Taktser
 sr;Сјуџоу;Xuzhou
 zh;雄鸡埭;Xiongjidai
+zh;洗马坪;Ximaping
+zh;紫湖口;Zihukou
+zh;猪母槽;Zhumucao
+zh;章府会;Zhangfuhui
+zh;西种洋;Xizhongyang
+zh;北宛原;Beiwanyuan
+zh;古坑厂;Gukengchang
+zh;分水头;Fenshuitou
+zh;葛家川;Gejiachuan
+zh;博昌;Bochang
+zh;噶隆;Galung
+zh;菜哪乡;Caina
+zh;达嘎乡;Dagar
+zh;吞普;Toinpu
+zh;托嘎;Toigar
+zh;翁果;Onggo
+zh;西石墩;Xishidun
+zh;大石库;Dashiku
+zh;前逊峰;Qianxunfeng
+zh;石河峪;Shiheyu
+zh;大花崖;Dahuaya
+zh;竖旗岭;Shuqiling
+zh;滕家庄子;Tengjia Zhuangzi
+zh;南陈家沟;Nanchenjiagou
+zh;北陈家沟;Beichenjiagou
+zh;牛家官庄;Niujia Guanzhuang
+zh;后大坡;Houdapo
+zh;满堂峪;Mantangyu
+zh;小花崖;Xiaohuaya
+zh;大仲崮;Dazhonggu
+zh;石桥官庄;Shiqiao Guanzhuang
+zh;南西峪;Nanxiyu
+zh;葛家同;Gejiatong
+zh;徐家沈马庄;Xujia Shenmazhuang
+zh;惠家官庄;Huijia Guanzhuang
+zh;滕家河;Tengjiahe
+zh;大双墩坡;Dashuangdunpo
+zh;南车门村;Nanchemen
+zh;北于家村;Beiyujia
+zh;海龙川;Hailongchuan
+zh;牛干村;Niuqiancun
+zh;苦鲁土克;Kulutuke
+zh;解放林场;Jiefang Linchang
+zh;官道蒋家村;Guandao Jiangjiacun
+zh;处迂;Chüyü
