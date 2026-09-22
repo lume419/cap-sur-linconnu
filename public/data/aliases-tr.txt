@@ -13037,3 +13037,9 @@ hy;Ադնականց;Yeniköşk
 hy;Աբլակոնց;Yeniköşk
 tr;Özköy;Özyurt
 tr;Kiliçtutan;Kılıçtutan
+tr;Vakıfköy;Akköy
+ru;Gël’bashi;Gölbaşı
+el;Δορύλαιον;Eskişehir
+en;Dorylaion;Eskişehir
+en;Dorylaeum;Eskişehir
+tr;Şatırhöyük;Eskişehir

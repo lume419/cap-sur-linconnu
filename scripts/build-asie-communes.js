@@ -10,9 +10,10 @@
 //
 // CODES POSTAUX — dix-sept fichiers GeoNames existent. Règle unique, mesurée pays par pays (part des lieux
 // ayant un point postal à moins de 15 km) : au moins 90 % → vrais codes postaux, pipeline standard (lieu
-// rattaché au point postal le plus proche à moins de 15 km, écarté sinon) ; moins de 90 % → aucun code postal,
-// étiquette "XX-<admin1 GeoNames>" comme pour les lots africains (tous les lieux gardés). Mélanger les deux
-// dans un même pays produirait un champ incohérent.
+// rattaché au point postal le plus proche à moins de 15 km, code VIDE sinon — il était écarté jusqu'au
+// 21/09/2026) ; moins de 90 % → aucun code postal, étiquette "XX-<admin1 GeoNames>" comme pour les lots
+// africains. Dans les deux cas tous les lieux sont gardés. Mélanger les deux régimes de code dans un même pays
+// produirait un champ incohérent.
 //   Codes postaux : Inde 97,8 % · Indonésie 97,5 % · Japon 98,2 % · Corée du Sud 100 % · Philippines 93,7 %
 //                   · Bangladesh 93,0 % · Sri Lanka 96,0 % · Singapour 100 %.
 //   Étiquette de région : Chine 14,8 % (2 352 codes pour 806 coordonnées) · Thaïlande 68,8 % · Pakistan 70,6 %
@@ -95,13 +96,15 @@ for(const country of COUNTRIES){
   let grid = null;
   // Philippines (septembre 2026) : certains points du fichier postal GeoNames sont mal placés — Culion (5315),
   // Coron (5316) et Busuanga (5317) sont tous trois à 10,847 N ; 119,7818 E, à ~150 km de leurs îles, si bien
-  // qu'aucun lieu de ces municipalités n'avait de point postal à moins de 15 km et tous étaient écartés. Quand
+  // qu'aucun lieu de ces municipalités n'avait de point postal à moins de 15 km et que tous étaient écartés (ils
+  // seraient aujourd'hui publiés sans code ; ce rattrapage leur donne un vrai code, ce qui vaut mieux). Quand
   // aucun point n'est assez proche, le code est pris par MUNICIPALITÉ : nom de la division ADM3 GeoNames du lieu
   // (même province) identique au nom de localité d'une et une seule ligne du fichier postal.
   let postalByMunicipality = null, admin3Names = null;
   // Japon (septembre 2026) : le fichier postal GeoNames place TOUS les codes de certaines municipalités insulaires au
   // même point, sur le continent — Okushiri (043-1400 à 043-1522 : Okushiri, Akaishi, Aonae…) à 41,9076 N ; 140,2695 E,
-  // à ~70 km de l'île. Aucun lieu de l'île n'avait de point postal à moins de 15 km : tous étaient écartés et la liaison
+  // à ~70 km de l'île. Aucun lieu de l'île n'avait de point postal à moins de 15 km : tous étaient écartés (ils
+  // seraient aujourd'hui publiés sans code) et la liaison
   // Esashi–Okushiri ne pouvait jamais servir. Quand aucun point n'est assez proche, le code est pris par LOCALITÉ :
   // mêmes codes administratifs GeoNames (préfecture, district, municipalité) et nom de localité identique à celui
   // d'une et une seule ligne du fichier postal (données Japan Post reprises par GeoNames).

@@ -845,3 +845,564 @@ pl;Kasr Abu Hadi;Qasr Abu Hadi
 ur;قصر ابو ہادی;Qasr Abu Hadi
 ber;ⵜⴰⵣⵔⴱⵡ;Tāzirbū
 ber;ⵎⵙⵍⴰⵜⴰ;Msalātah
+ar;زيغن;Zīghan
+ber;ⵣⵉⵖⵏ;Zīghan
+ar;زاوية جنزور;Zāwiyat Janzūr
+ar;زاوية زنزور;Zāwiyat Janzūr
+ber;ⵣⴰⵡⵉⵢⴰ ⵣⵏⵣⵡⵔ;Zāwiyat Janzūr
+en;Zawiyat Zanzur;Zāwiyat Janzūr
+ar;زاوية أم ركبة;Zāwiyat Umm Rukbah
+ar;زاوية مسوس;Zāwiyat Masūs
+ru;Масус;Zāwiyat Masūs
+en;Msus;Zāwiyat Masūs
+fa;زاویه مسوس;Zāwiyat Masūs
+ar;مسوس;Zāwiyat Masūs
+ber;ⵎⵙⵓⵙ;Zāwiyat Masūs
+ar;زاوية بشارة;Zāwiyat Bishārah
+ber;ⵣⴰⵡⵉⵢⴰ ⴱⵛⴰⵔⴰ;Zāwiyat Bishārah
+ar;زاوية الطيليمون;Zāwiyat aţ Ţīlīmūn
+ar;زاوية التريت;Zāwiyat at Tarīt
+ar;زاوية المرصص;Zāwiyat al Muraşşaş
+ar;المرصص;Zāwiyat al Muraşşaş
+ber;ⵍⵎⵔⵚⵚ;Zāwiyat al Muraşşaş
+ar;زاوية المنستير;Zāwiyat al Manastīr
+ar;زاوية العزيات;Zāwiyat al ‘Izzīyāt
+ar;زاوية العلزيات;Zāwiyat al ‘Izzīyāt
+ar;العزيات;Zāwiyat al ‘Izzīyāt
+ber;ⵍⵄⵣⵢⴰⵜ;Zāwiyat al ‘Izzīyāt
+ar;قبر أم الهيشة;Qabr Umm al Hīshah
+ar;تيكا;Tīkah
+ber;ⵜⵉⴽⴰ;Tīkah
+ar;تنسلوخ;Tansulūkh
+ar;تاكنس;Tāknis
+ber;ⵜⴰⴽⵏⵙ;Tāknis
+ar;قرية سيدي مهيوب;Qaryat Sīdī Mahyūb
+ar;قرية سيدي خليفة;Qaryat Sīdī Khalīfah
+ar;سيدي خليفة;Qaryat Sīdī Khalīfah
+ber;ⵙⵉⴷⵉ ⵅⵍⵉⴼⴰ;Qaryat Sīdī Khalīfah
+ar;سواني القوارشة;Sawānī al Qawārishah
+ber;ⵙⵡⴰⵏⵉ ⵍⵇⵡⴰⵔⵛⴰ;Sawānī al Qawārishah
+ar;الحمامة;Al Ḩamāmah
+ber;ⵍⵃⵎⴰⵎⴰ;Al Ḩamāmah
+ar;قصر الجدي;Qaşr al Jady
+ar;قرية أم الصفاء;Qaryat Umm aş Şafā’
+ar;قرية أم الصفا;Qaryat Umm aş Şafā’
+ber;ⵓⵎ ⵍⵚⴼⴰ;Qaryat Umm aş Şafā’
+ar;قرية أم الدنانير;Qaryat Umm ad Danānīr
+ar;أم الدنانير;Qaryat Umm ad Danānīr
+ber;ⵓⵎ ⵍⴷⵏⴰⵏⵉⵔ;Qaryat Umm ad Danānīr
+ar;قرية سيدي شاهر الدين;Qaryat Sīdī Shāhir ad Dīn
+ar;قرية قنفوذة;Qaryat Qunfūdhah
+ar;قرية قنفودة;Qaryat Qunfūdhah
+ar;قنفودة;Qaryat Qunfūdhah
+ber;ⵇⵏⴼⵡⴷⴰ;Qaryat Qunfūdhah
+ar;قرية مقرون;Qaryat Maqrūn
+ar;قرية عائلة زيدان;Qaryat ‘Ā’ilat Zaydān
+ar;قرية عيلة زيدان;Qaryat ‘Ā’ilat Zaydān
+ar;أيت زيدان;Qaryat ‘Ā’ilat Zaydān
+ber;ⴰⵉⵜ ⵣⵉⴷⴰⵏ;Qaryat ‘Ā’ilat Zaydān
+en;Qaryat 'Ayt Zaydan;Qaryat ‘Ā’ilat Zaydān
+ar;قرية الطيرة;Qaryat aţ Ţayrah
+ar;الطيرة;Qaryat aţ Ţayrah
+ber;ⵍⵟⵉⵔⴰ;Qaryat aţ Ţayrah
+en;Tayrah;Qaryat aţ Ţayrah
+ar;قرية العنيزي;Qaryat al ‘Unayzī
+ber;ⵍⵄⵏⵉⵣⵉ;Qaryat al ‘Unayzī
+ar;قرية المليحة;Qaryat al Malīḩah
+ar;قرية المجاريس;Qaryat al Majārīs
+ar;قرية اللوفية;Qaryat al Lūfīyah
+ar;قرية العمامة;Qaryat al ‘Imāmah
+ar;العمامة;Qaryat al ‘Imāmah
+ber;ⵍⵄⵎⴰⵎⴰ;Qaryat al ‘Imāmah
+ar;قرية البركات;Qaryat al Barakāt
+ber;ⵍⴱⵔⴽⴰⵜ;Qaryat al Barakāt
+ar;مراوة;Marāwah
+ber;ⵎⵔⴰⵡⴰ;Marāwah
+ar;مدينة بياض;Madīnat Bayāḑ
+ar;لملودة;Lamlūdah
+ber;ⵍⵎⵍⵓⴷⴰ;Lamlūdah
+ber;ⴽⵓⵀⵓⴼ ⵜⵓⵀⵓⴷⵉⵢⴰ;Kuhūf Tuḩūdīyah
+ar;كرسة;Karsah
+ar;كاف مياس;Kāf Miyās
+ber;ⴽⴰⴼ ⵎⵢⴰⵙ;Kāf Miyās
+ar;قرية جردينة;Qaryat Jardīnah
+ar;حيشان العريبات;Ḩīshān al ‘Aryāt
+ar;حشان العريات;Ḩīshān al ‘Aryāt
+ber;ⵃⵛⴰⵏ ⵍⵄⵔⵢⴰⵜ;Ḩīshān al ‘Aryāt
+ar;حوش بارجي;Ḩawsh Barjī
+ber;ⵃⵡⵛ ⴱⴰⵔⵊⵉ;Ḩawsh Barjī
+ar;فرزوغة;Farzūghah
+ar;فرزوغه;Farzūghah
+ber;ⴼⵔⵣⵡⵖⵀ;Farzūghah
+ar;بو مريم;Bū Maryam
+ar;بوزيمة;Buzaymah
+ber;ⴱⵓⵣⵉⵎⴰ;Buzaymah
+ar;قرية بطة;Qaryat Baţţah
+ar;بطة;Qaryat Baţţah
+ber;ⴱⵟⴰ;Qaryat Baţţah
+ar;البومبة;Al Būmbah
+ber;ⵍⴱⵡⵎⴱⴰ;Al Būmbah
+ar;الزاوية;Az Zāwiyah
+ar;التميمي;At Tamīmī
+ber;ⵍⵜⵎⵉⵎⵉ;At Tamīmī
+ar;الطلاب;Aţ Ţallāb
+ber;ⵍⵟⵍⴰⴱ;Aţ Ţallāb
+ar;الصفصاف;Aş Şafşāf
+ber;ⵍⵚⴼⵚⴰⴼ;Aş Şafşāf
+ar;الرجمة;Ar Rajmah
+ber;ⵍⵔⵊⵎⴰ;Ar Rajmah
+ar;النواقية;An Nawwāqīyah
+ber;ⵍⵏⵡⴰⵇⵢⴰ;An Nawwāqīyah
+ar;القيقب;Al Qayqab
+ber;ⵍⵇⵉⵇⴱ;Al Qayqab
+ar;قرية القوارشة;Qaryat al Qawārishah
+ar;القوارشة;Qaryat al Qawārishah
+ar;القرظبة;Al Qarz̧abah
+ar;القعرة;Al Qa‘rah
+ar;القذاذمة;Al Qadhādhimah
+ber;ⵍⵇⴸⴰⴸⵎⴰ;Al Qadhādhimah
+ar;المقرون;Al Maqrūn
+ber;ⵍⵎⵇⵔⵡⵏ;Al Maqrūn
+ar;المقارين;Al Maqārīn
+ar;المبني;Al Mabnī
+ber;ⵍⵎⴱⵏⵉ;Al Mabnī
+ar;الكويفية;Al Kuwayfīyah
+ar;الحمادة;Al Ḩimādah
+ar;الحنية;Al Ḩanīyah
+ber;ⵍⵃⵏⵢⴰ;Al Ḩanīyah
+ar;قرية الغدرة;Qaryat al Ghadrah
+ar;قرية الفائدية;Qaryat al Fā’idīyah
+ar;الفائدية;Qaryat al Fā’idīyah
+ber;ⵍⴼⴰⵉⴷⵢⴰ;Qaryat al Fā’idīyah
+ar;الأثرون;Al Athrūn
+ber;ⵍⴰⵝⵔⵡⵏ;Al Athrūn
+ar;الأشهب;Al Ashhab
+ar;العدم;Al ‘Adam
+ber;ⵍⵄⴷⵎ;Al ‘Adam
+ar;أحقاف الرزات;Aḩqāf ar Rūzāt
+ber;ⴰⵃⵇⴰⴼ ⵍⵔⵣⴰⵜ;Aḩqāf ar Rūzāt
+ar;أحقاف الجبهية;Aḩqāf al Jabhīyah
+ber;ⴰⵃⵇⴰⴼ ⵍⵊⴱⵀⵢⴰ;Aḩqāf al Jabhīyah
+ar;مدينة طلميثة;Madīnat Ţulmaythah
+ar;جيزاو;Zīzāw
+pt;Zizau;Zīzāw
+en;Zizau;Zīzāw
+fa;جیزاو;Zīzāw
+nl;Zizau;Zīzāw
+ber;ⵊⵉⵣⴰⵡ;Zīzāw
+ar;زاوية المحجوب;Zāwiyat al Maḩjūb
+ber;ⵣⴰⵡⵉⵢⴰ ⵍⵎⵃⵊⵡⴱ;Zāwiyat al Maḩjūb
+ar;زلواز;Zalwāz
+ber;ⵣⵍⵡⴰⵣ;Zalwāz
+ar;ويفات;Wīfāt
+ber;ⵡⵉⴼⴰⵜ;Wīfāt
+ar;واو الكبير;Wāw al Kabīr
+ber;ⵡⴰⵡ ⵍⴽⴱⵉⵔ;Wāw al Kabīr
+ar;ونزريك;Wanzarīk
+ber;ⵡⵏⵣⵔⵉⴽ;Wanzarīk
+ar;أم الحمام;Umm al Ḩamām
+ar;ام الحمام;Umm al Ḩamām
+ber;ⵓⵎ ⵍⵃⵎⴰⵎ;Umm al Ḩamām
+ar;أم الأحرار;Umm al Aḩrār
+ar;توزوقو;Tuzugu
+ber;ⵜⵓⵣⵓⵇⵓ;Tuzugu
+ar;تويوا;Tuwaywā
+ar;تويش;Tuwaysh
+ar;قرية تونين;Qaryat Tūnīn
+ar;تونين;Qaryat Tūnīn
+ber;ⵜⵓⵏⵉⵏ;Qaryat Tūnīn
+en;Tunin;Qaryat Tūnīn
+ar;تمسة;Tmassah
+ar;تيراكت;Tirakt
+ber;ⵜⵉⵔⴰⴽⵜ;Tirakt
+ar;تنزغت;Tinzight
+ber;ⵜⵉⵏⵣⴰⵖⵜ;Tinzight
+en;Tinzaght;Tinzight
+ar;تينزغت;Tinzight
+ar;تاورغة;Tāwurghah
+ar;تاورغاء;Tāwurghah
+ber;ⵜⴰⵡⵔⵖⴰ;Tāwurghah
+ar;تساوة;Tasāwah
+ber;ⵜⵙⴰⵡⴰ;Tasāwah
+ar;تاروت;Tārūt
+ber;ⵜⴰⵔⵡⵜ;Tārūt
+ar;تارميسة;Ţarmīşah
+ber;ⵜⴰⵔⵎⵉⵙⴰ;Ţarmīşah
+en;Tarmisa;Ţarmīşah
+ar;تقروتين;Taqrūtīn
+ar;طمينة;Ţamīnah
+ber;ⵟⵎⵉⵏⴰ;Ţamīnah
+ar;تمنهنت;Tamanhint
+ber;ⵜⵎⵏⵀⵏⵜ;Tamanhint
+ar;تالات;Tālāt
+ber;ⵜⴰⵍⴰⵜ;Tālāt
+ber;ⵜⴰⴽⴱⴰⵍ;Tākbāl
+ar;تاكبال;Tākbāl
+ar;تجرهي;Tajarhī
+ber;ⵜⵊⵔⵀⵉ;Tajarhī
+ar;تاقلين;Taglin
+ber;ⵜⴰⵇⵍⵉⵏ;Taglin
+ar;طبقة;Ţabaqah
+ber;ⵜⴰⴱⴰⵍⵓⵜ;Tabālūt
+ar;قرية سوق الجمعة;Qaryat Sūq al Jum‘ah
+ar;سوق الجمعة;Sūq al Jum‘ah
+ber;ⵙⵓⵇ ⵍⵊⵎⵄⴰ;Sūq al Jum‘ah
+ar;سوق العلالقة;Sūq al ‘Alāliqah
+ber;ⵙⵓⵇ ⵍⵄⵍⴰⵍⵇⴰ;Sūq al ‘Alāliqah
+ar;شعواء;Sha‘wā’
+ar;شعوا;Sha‘wā’
+ar;شاتل الغابات;Shatal al Ghābāt
+ar;شكشوك;Shakshūk
+ber;ⵛⴰⴽⵛⵓⴽ;Shakshūk
+ar;صيّاد;Şayyād
+ber;ⵚⵢⴰⴷ;Şayyād
+ar;سواني فسانو;Sawānī Fassānū
+ber;ⵙⵡⴰⵏⵉ ⴼⵙⴰⵏⵓ;Sawānī Fassānū
+ar;رأس الطبل;Ra’s aţ Ţabl
+ar;راس الطبل;Ra’s aţ Ţabl
+ber;ⵔⴰⵙ ⵍⵟⴱⵍ;Ra’s aţ Ţabl
+ar;رأس جدير;Ra’s Judayr
+ar;قطة;Quţţah
+ber;ⵇⵟⴰ;Quţţah
+ar;قُرجي;Qurjī
+ar;قرزة;Qarzah
+ber;ⵇⵔⵣⴰ;Qarzah
+ar;قيقام;Qayqām
+ar;قصر خليف;Qaşr Khulayf
+ber;ⵇⵚⵔ ⵅⵍⵉⴼ;Qaşr Khulayf
+ar;بنت بية;Bint Bayyah
+ber;ⴱⵏⵜ ⴱⵢⴰ;Bint Bayyah
+ar;قصر الوطني;Qaşr al Waţ’ānī
+ber;ⵇⵚⵔ ⵍⵡⵟⵏⵉ;Qaşr al Waţ’ānī
+en;Qasr al Watani;Qaşr al Waţ’ānī
+ar;قصر أحمد القبلية;Qaşr Aḩmad al Qiblīyah
+ar;قصر أحمد;Qaşr Aḩmad al Qiblīyah
+ber;ⵇⵚⵔ ⴰⵃⵎⴷ;Qaşr Aḩmad al Qiblīyah
+ar;قصبة دياب;Qaşbat Diyāb
+ar;تينيناي;Tīnīnāy
+ber;ⵜⵉⵏⵉⵏⴰⵢ;Tīnīnāy
+ar;قرية صّوان;Qaryat Şawwān
+ar;قرية رفيدة;Qaryat Rufaydah
+ar;قرية ندباس;Qaryat Nadbās
+ar;مِزّو;Qaryat Mazzū
+ber;ⵎⵣⵣⵓ;Qaryat Mazzū
+en;Mezzu;Qaryat Mazzū
+ar;قرية مزغورة;Qaryat Mazghūrah
+ar;قرية هنشير البدور;Qaryat Hanshīr al Budūr
+ar;هنشير البدور;Qaryat Hanshīr al Budūr
+ber;ⵀⵏⵛⵉⵔ ⵍⴱⴷⵡⵔ;Qaryat Hanshīr al Budūr
+ar;قرية بو روية;Qaryat Bū Ruwayyah
+ar;قرية أبو فخيرة;Qaryat Abū Fakhīrah
+ar;قرية بشر;Qaryat Bishr
+fa;بشر;Qaryat Bishr
+ar;بشر;Qaryat Bishr
+ber;ⴱⵛⵔ;Qaryat Bishr
+ar;قرية الزريقي;Qaryat az Zurayqī
+ar;قرية عين أبو شيبة;Qaryat ‘Ayn Abū Shaybah
+ar;قرية أولاد دواب;Qaryat Awlād Duwāb
+ar;قرية الصوادق;Qaryat aş Şawādiq
+ar;الصوادق;Qaryat aş Şawādiq
+ber;ⵍⵚⵡⴰⴷⵇ;Qaryat aş Şawādiq
+ar;قرية الصباية;Qaryat aş Şabāyah
+ar;قرية الشياب;Qaryat ash Shuyyāb
+ber;ⵍⵛⵢⴰⴱ;Qaryat ash Shuyyāb
+ar;الشياب;Qaryat ash Shuyyāb
+en;Ichyaben;Qaryat ash Shuyyāb
+ar;قرية النشيه;Qaryat an Nushayh
+ar;قرية الندوة;Qaryat an Nadwah
+ber;ⵜⴰⴷⴷⴰⵔⵜ ⵏ ⵏⵏⴰⴷⵡⴰ;Qaryat an Nadwah
+en;Taddart n Nnadwa;Qaryat an Nadwah
+ar;قرية الوقيات;Qaryat al Wuqayyāt
+ar;قرية المغاربة;Qaryat al Maghāribah
+ar;المغاربة;Qaryat al Maghāribah
+ber;ⵍⵎⵖⴰⵔⴱⴰ;Qaryat al Maghāribah
+ar;قرية الكاران;Qaryat al Kārrān
+ar;قرية الهنادة;Qaryat al Hanādah
+ar;الحنادة;Qaryat al Hanādah
+ber;ⵍⵃⵏⴰⴷⴰ;Qaryat al Hanādah
+ar;قرية الغوط;Qaryat al Ghūţ
+ar;قرية البراني;Qaryat al Barrānī
+ar;أبو الأهناش;Qaryat Abū al Aḩnāsh
+ber;ⴰⴱⵓ ⵍⴰⵀⵏⴰⵛ;Qaryat Abū al Aḩnāsh
+ar;قرقاش;Qarqārish
+ar;قبيلة وادنة;Qabīlat Wādinah
+ar;قبيلة تكوت;Qabīlat Takūt
+ber;ⵜⴽⵓⵜ;Qabīlat Takūt
+en;Tkout;Qabīlat Takūt
+ar;تكوت;Qabīlat Takūt
+ar;قبيلة سوق الداوون;Qabīlat Sūq ad Dāwūn
+ar;قبيلة سيدي معمر;Qabīlat Sīdī Mu‘ammar
+ar;سيدي معمر;Qabīlat Sīdī Mu‘ammar
+ber;ⵙⵉⴷⵉ ⵎⵄⵎⵔ;Qabīlat Sīdī Mu‘ammar
+ar;قبيلة لواتة;Qabīlat Lawātah
+ar;لواتة;Qabīlat Lawātah
+ber;ⵍⵡⴰⵜⴰ;Qabīlat Lawātah
+ar;قبيلة درسونة;Qabīlat Dirsūnah
+ar;قبيلة بني سليم;Qabīlat Banī Salīm
+ar;بني سليم;Qabīlat Banī Salīm
+ber;ⴰⵜ ⵙⵍⵉⵎ;Qabīlat Banī Salīm
+ar;قبيلة بن مسلم;Qabīlat Bin Musallam
+ar;قبيلة بني ليث;Qabīlat Banī Layth
+ar;بني ليث;Qabīlat Banī Layth
+ber;ⴰⵜ ⵍⵉⵝ;Qabīlat Banī Layth
+ar;قبيلة أولاد عمر;Qabīlat Awlād ‘Umar
+ar;اولاد عمر;Qabīlat Awlād ‘Umar
+ber;ⴰⵡⵍⴰⴷ ⵄⵎⵔ;Qabīlat Awlād ‘Umar
+ar;قبيلة أولاد بعيو;Qabīlat Awlād Ba‘ayyū
+ar;قبيلة أولاد الطامد;Qabīlat Awlād aţ Ţāmid
+ar;قبيلة أولاد لطامد;Qabīlat Awlād aţ Ţāmid
+ar;أولاد الثمد;Qabīlat Awlād aţ Ţāmid
+ber;ⵉⵏⴷ ⵍⵝⵎⴷ;Qabīlat Awlād aţ Ţāmid
+en;Qabilat Awlad ath Thamad;Qabīlat Awlād aţ Ţāmid
+ar;قبيلة أولاد أبو حميرة;Awlad Abu Humayra
+ber;ⵇⴱⵉⵍⴰ ⴰⵡⵍⴰⴷ ⴰⴱⵓ ⵃⵎⵉⵔⴰ;Awlad Abu Humayra
+ar;ابوسلامه;Qabīlat Awlād Abū Salāmah
+ber;ⴰⴱⵡⵙⵍⴰⵎⵀ;Qabīlat Awlād Abū Salāmah
+ar;قبيلة الصقوع;Qabīlat aş Şaqū‘
+ar;قبيلة الشطيوية;Qabīlat ash Shuţaywīyah
+ar;قبيلة الشرفة;Qabīlat ash Shurfah
+ber;ⵍⵛⵔⴼⴰ;Qabīlat ash Shurfah
+ar;قبيلة الشعافيين;Qabīlat ash Sha‘āfīyīn
+ar;الشعافيين;Qabīlat ash Sha‘āfīyīn
+ber;ⵍⵛⵄⴰⴼⵉⵢⵉⵏ;Qabīlat ash Sha‘āfīyīn
+ar;قبيلة الرحومات;Qabīlat ar Raḩūmāt
+ar;قبيلة القزير;Qabīlat al Qazzīr
+ar;القناوات;Qabīlat al Qanawāt
+ber;ⵍⵇⵏⴰⵡⴰⵜ;Qabīlat al Qanawāt
+ar;قبيلة القليل;Qabīlat al Qalīl
+ber;ⵍⵇⵍⵉⵍ;Qabīlat al Qalīl
+ar;قبيلة المعمريين;Qabīlat al Mu‘ammarīyīn
+ar;قبيلة المعمرين;Qabīlat al Mu‘ammarīyīn
+ber;ⵍⵎⵄⵎⵔⵉⵢⵉⵏ;Qabīlat al Mu‘ammarīyīn
+ar;قبيلة الفواتير;Qabīlat al Fawātīr
+ar;الفواتير;Qabīlat al Fawātīr
+ber;ⵍⴼⵡⴰⵜⵉⵔ;Qabīlat al Fawātīr
+ar;العقل;Qabīlat al ‘Aql
+ber;ⵍⵄⵇⵍ;Qabīlat al ‘Aql
+ar;قبيلة العباديلة;Qabīlat al ‘Abādīlah
+ar;نسمة;Nasamah
+ber;ⵏⵙⵎⴰ;Nasamah
+ar;محلة نعيمة;Na‘īmah
+ber;ⵏⵄⵉⵎⴰ;Na‘īmah
+ar;أمحية;Amḩayyah
+ar;زاوية سيدي عطية;Minţaqat Zāwiyat Sīdī ‘Aţīyah
+ber;ⵣⴰⵡⵉⵢⴰ ⵙⵉⴷⵉ ⵄⵟⵢⴰ;Minţaqat Zāwiyat Sīdī ‘Aţīyah
+ar;زاوية السماح;Zāwiyat as Samāḩ
+ar;منطقة زاوية السماح;Zāwiyat as Samāḩ
+ber;ⵣⴰⵡⵉⵢⴰ ⵍⵙⵎⴰⵃ;Zāwiyat as Samāḩ
+ar;منطقة وادي هراوة;Minţaqat Wādī Harāwah
+ar;وادي هراوة;Minţaqat Wādī Harāwah
+ber;ⵡⴰⴷⵉ ⵀⵔⴰⵡⴰ;Minţaqat Wādī Harāwah
+ar;منطقة الغنيمة;Minţaqat al Ghanīmah
+ar;مسقوين;Misiqwīn
+ar;مزرعة كتريلا;Mazra‘at Katarīllā
+ar;مرقص;Murquş
+ar;مجدول;Majdūl
+ber;ⵎⵊⴷⵡⵍ;Majdūl
+ar;مدروسة;Madrūsah
+ber;ⵎⴷⵔⵡⵙⴰ;Madrūsah
+ar;خليف;Khulayf
+ar;قرية جيطال;Qaryat Jītāl
+ar;قرية جيتال;Qaryat Jītāl
+ar;جيتال;Qaryat Jītāl
+ber;ⵊⴰⵢⵜⴰⵍ;Qaryat Jītāl
+en;Jaytal;Qaryat Jītāl
+ar;قرية جروفة;Qaryat Jarrūfah
+de;Garama;Jarmah
+ru;Джерма;Jarmah
+fi;Germa;Jarmah
+lt;Germa;Jarmah
+en;Germa;Jarmah
+hr;Germa;Jarmah
+it;Germa;Jarmah
+fr;Germa;Jarmah
+hu;Dzserma;Jarmah
+es;Germa;Jarmah
+zh;傑爾馬;Jarmah
+ar;جرمة;Jarmah
+fa;جرمه;Jarmah
+ro;Germa;Jarmah
+nl;Germa;Jarmah
+ar;جودائم;Jaddā’im
+ar;اينير;Īnīr
+ber;ⵉⵏⵉⵔ;Īnīr
+ar;الحميرة;Al Ḩummayrah
+ber;ⵍⵃⵎⵉⵔⴰ;Al Ḩummayrah
+ar;الحجارة;Ḩijārah
+ar;غدوة;Ghaddūwah
+ber;ⵖⴷⵡⴰ;Ghaddūwah
+ar;قراقارة;Qarāqārah
+ar;فندق طربانة;Funduq Tarbānah
+ber;ⴼⵏⴷⵇ ⵟⵔⴱⴰⵏⴰ;Funduq Tarbānah
+ar;فندق العلوص;Funduq al ‘Allūş
+ber;ⴼⵏⴷⵇ ⵍⵄⵍⵓⵚ;Funduq al ‘Allūş
+ar;أوج واهس;‘Eoj Wāhş
+ber;ⴰⵡⵊ ⵡⴰⵀⵙ;‘Eoj Wāhş
+ar;إيمي مادما;Emi Madema
+ber;ⵉⵎⵉ ⵎⴰⴷⵎⴰ;Emi Madema
+ar;دوشين;Dūshīn
+ber;ⴷⵓⵛⵉⵏ;Dūshīn
+ar;دوجال;Dūjāl
+ber;ⴷⵡⵊⴰⵍ;Dūjāl
+ar;دبدب;Dabdab
+ber;ⴷⴱⴷⴱ;Dabdab
+ar;بريك;Burayk
+ber;ⴱⵓⵇⴰⵢⵇⵉⵍⴰ;Buqayqīlah
+ar;بقيقيلة;Buqayqīlah
+ar;بويرات الحسون;Buwayrāt al Ḩasūn
+ber;ⴱⵡⵉⵔⴰⵜ ⵍⵃⵙⵡⵏ;Buwayrāt al Ḩasūn
+ar;أبو الأشهر;Bū al Ashhar
+ar;برقاوي;Barqāwī
+ar;تقطة;Tuquţţah
+ber;ⵜⵓⵇⵜⴰ;Tuquţţah
+en;Tuqtah;Tuquţţah
+ar;رقرق;Baldat Raqraq
+ber;ⵔⴳⵔⴳ;Baldat Raqraq
+en;Regreg;Baldat Raqraq
+ber;ⵊⵔⵉⵊⵏ;Baldat Jurayjin
+en;Jurayjin;Baldat Jurayjin
+ar;جريجن;Baldat Jurayjin
+ar;الزيغن;Az Zīghan
+ber;ⵍⵣⵉⵖⵏ;Az Zīghan
+ar;قرية الزروق;Qaryat az Zarrūq
+ar;الزرقان;Az Zarqān
+ber;ⵍⵣⵔⵇⴰⵏ;Az Zarqān
+ar;عين زارة;‘Ayn Zārah
+ber;ⵄⵉⵏ ⵣⴰⵔⴰ;‘Ayn Zārah
+ar;أولاد محمود;Awlād Maḩmūd
+ar;تنهمو;Tanahmū
+ar;السبيطات;As Subayţāt
+ar;سنودة;Snūdah
+ar;السدادة;As Sidādah
+ber;ⵍⵙⴷⴰⴷⴰ;As Sidādah
+ar;الصابرية;Aş Şābirīyah
+ber;ⵍⵚⴰⴱⵔⵉⵢⴰ;Aş Şābirīyah
+ar;الشويرف;Ash Shuwayrif
+ber;ⵍⵛⵡⵉⵔⴼ;Ash Shuwayrif
+ar;أشكدة;Ashkidah
+ber;ⴰⵛⴽⴷⴰ;Ashkidah
+ar;الرحيبات;Ar Ruḩaybāt
+ber;ⴰⵎⵙⵉⵏ;Ar Ruḩaybāt
+en;Amsin;Ar Ruḩaybāt
+ar;الرقبة;Ar Raqabah
+ber;ⵍⵔⵇⴱⴰ;Ar Raqabah
+ar;آقار العتبة;Āqār al ‘Atabah
+ar;أنزو;Anzū
+ber;ⴰⵏⵣⵓ;Anzū
+ar;النصف;An Nuşf
+ber;ⵍⵏⵚⴼ;An Nuşf
+ar;النوفلية;An Nawfalīyah
+ber;ⵍⵏⵡⴼⵍⵢⴰ;An Nawfalīyah
+ar;الويغ;Al Wīgh
+ber;ⵍⵡⵉⵖ;Al Wīgh
+de;El Agheila;Al ‘Uqaylah
+ru;Эль-Агейла;Al ‘Uqaylah
+fi;El Agheila;Al ‘Uqaylah
+bg;Ел Агейла;Al ‘Uqaylah
+fr;El Agheila;Al ‘Uqaylah
+oc;El Agheila;Al ‘Uqaylah
+ka;ელ-აღეილა;Al ‘Uqaylah
+uk;Ель-Агейла;Al ‘Uqaylah
+ca;El Agheila;Al ‘Uqaylah
+en;El Agheila;Al ‘Uqaylah
+it;el-Agheila;Al ‘Uqaylah
+es;El Agheila;Al ‘Uqaylah
+zh;厄阿赫拉;Al ‘Uqaylah
+ar;العقيلة;Al ‘Uqaylah
+ja;エル・アゲイラ;Al ‘Uqaylah
+az;Əl Ağeyla;Al ‘Uqaylah
+fa;عقیله;Al ‘Uqaylah
+zu;El Agheila;Al ‘Uqaylah
+pl;Al-Ukajla;Al ‘Uqaylah
+he;אל-עגילה;Al ‘Uqaylah
+nl;El Agheila;Al ‘Uqaylah
+ber;ⵍⵄⵇⵉⵍⴰ;Al ‘Uqaylah
+ar;قصيعة;Quşay‘ah
+ar;القرضة;Al Qurḑah
+ber;ⵍⵇⵔⴹⴰ;Al Qurḑah
+ar;القريات الشرقية;Al Qaryāt ash Sharqīyah
+ber;ⵍⵇⵔⵢⴰⵜ ⵍⵛⵔⵇⵉⵢⴰ;Al Qaryāt ash Sharqīyah
+ar;القريات;Al Qaryāt ash Sharqīyah
+ar;القريات الغربية;Al Qaryāt al Gharbīyah
+ar;قرية القداحية;Qaryat al Qaddāḩīyah
+ar;المطرد;Al Muţrad
+ber;ⵍⵎⵟⵔⴷ;Al Muţrad
+ar;المقاصبة القبلية;Al Maqāşibah al Qiblīyah
+ar;المحروقة;Al Maḩrūqah
+ber;ⵍⵎⵃⵔⵡⵇⴰ;Al Maḩrūqah
+ar;المغاسل;Al Maghāsil
+ber;ⵍⵎⵖⴰⵙⵍ;Al Maghāsil
+ar;الخربة;Al Khirbah
+ber;ⵍⵅⵔⴱⴰ;Al Khirbah
+en;Lkherba;Al Khirbah
+ar;الكراريم;Al Karārīm
+ber;ⵍⴽⵔⴰⵔⵉⵎ;Al Karārīm
+ar;الجوش الكبير;Al Jawsh al Kabīr
+ber;ⵍⵊⵡⵛ ⵍⴽⴱⵉⵔ;Al Jawsh al Kabīr
+ar;الجوش;Al Jawsh
+ber;ⵍⵊⵓⵛ;Al Jawsh
+ar;الهيشة;Al Hīshah
+en;Al Hayshah;Al Hīshah
+fa;ال هیشاه;Al Hīshah
+nl;Al Hayshah;Al Hīshah
+ar;الهيشه;Al Hīshah
+ber;ⵍⵀⵉⵛⵀ;Al Hīshah
+ar;الهنشير;Al Hanshīr
+ber;ⵍⵀⵏⵛⵉⵔ;Al Hanshīr
+ar;الحمراء;Al Ḩamrā’
+ar;الحميدية;Al Ḩamīdīyah
+ber;ⵍⵃⵎⵉⴷⵉⵢⴰ;Al Ḩamīdīyah
+ar;الهدارعة;Al Hadāri‘ah
+ar;الحضرية;Al Hadāri‘ah
+ber;ⵍⵃⴹⵔⵢⴰ;Al Hadāri‘ah
+ar;الزرم;Az Zaram
+ar;الفجيج;Al Fujayj
+ber;ⵍⴼⵊⵉⵊ;Al Fujayj
+ar;الفاتح;Al Fātiḩ
+ar;البدير;Al Budayr
+ber;ⵍⴱⴷⵉⵔ;Al Budayr
+ar;العسة;Al ‘Assah
+ber;ⵍⵄⵙⴰ;Al ‘Assah
+ar;الأبيض;Al Abyaḑ
+ar;الدويسة;Ad Duwaysah
+ar;الدافينة;Ad Dāfīnah
+ar;أبيار السبابيل;Abyār as Sabābīl
+ar;قرية أبو قرين;Qaryat Abū Qurayn
+ar;أبو قرين;Qaryat Abū Qurayn
+ber;ⴰⴱⵓ ⵇⵔⵉⵏ;Qaryat Abū Qurayn
+ar;قرية بو نجيم;Qaryat Bū Nujaym
+ar;أبو كماش;Abū Kammāsh
+ber;ⴰⴱⵓ ⴽⵎⴰⵛ;Abū Kammāsh
+ar;ابو عيسى;Abū ‘Īsá
+ar;أبو الريش;Abū ar Rīsh
+ar;واميس;Wāmīs
+ar;الشقيقة;Ash Shuqayqah
+ar;ماترس;Mātris
+ber;ⵎⴰⵜⵔⵙ;Mātris
+ar;قلعة الوسط;Qal‘at al Wasaţ
+ar;زازمت;Zāzamt
+ar;المنصور;Al Manşūr
+ar;تكركيبة;Takarkībah
+ber;ⵜⴽⵔⴽⵉⴱⴰ;Takarkībah
+ar;الديسة;Ad Dīsah
+ber;ⵍⴷⵉⵙⴰ;Ad Dīsah
+ar;فيويت;Faywīt
+ar;نزلة;Nazlah
+ar;بن حارث;Bin Ḩārith
+ber;ⴱⵏ ⵃⴰⵔⵝ;Bin Ḩārith
+ar;الحطية;Al Ḩaţīyah
+ar;قبر جيرة;Qabr Jīrah
+ar;الهلال;Al Hilāl
+ar;الغزالة;Al Ghazālah
+ar;ملوك;Mallūk
+ar;الزرامقة;Al Zramga
+ar;الزطارنة;Az Zatārinah
+en;Az Zatārnah;Az Zatārinah
+ber;ⵍⵣⵟⴰⵔⵏⴰ;Az Zatārinah
+ar;خلة القمودي;Khallat al Qamūdī
+ar;الحي الصناعي;Hayy as Sina'i
+ber;ⵍⵃⵉ ⵍⵚⵏⴰⵄⵉ;Hayy as Sina'i
+ar;الفرناج;Al Farnaj
+ar;العويلية;Al ‘Uwaylīyah
+ar;العمامرة;Al ‘Amāmirah
+ber;ⵍⵄⵎⴰⵎⵔⴰ;Al ‘Amāmirah

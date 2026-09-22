@@ -507,3 +507,43 @@ test('19e audit : un plafond « hors de portée » calculé sans le filtre des z
   }
   assert.deepEqual(manqués, []);
 });
+
+// Le conseil « décochez Exclure les zones déconseillées » doit être VRAI : au plafond annoncé, le filtre doit
+// réellement bloquer. Le drapeau était posé dès que le tirage sans filtre rendait un plafond, sans rien vérifier —
+// mesuré sur 6 000 tirages avant correction : 3 annonces sur 90 envoyaient le visiteur décocher pour rien (Miquillo
+// de Rio Grande à Porto Rico, Dosé au Togo, Sulby à l'île de Man) ; 0 sur 87 après (22/09/2026).
+// Le contrôle est INDÉPENDANT du moteur : il ne regarde pas les zones, il rejoue le tirage au plafond AVEC le filtre
+// et exige qu'il échoue. Si un itinéraire sort, c'est que le filtre ne bloquait pas et que le conseil était faux.
+test('22/09/2026 : « décochez les zones déconseillées » n\'est conseillé que si le filtre bloque vraiment', { timeout: 600000 }, t => {
+  const AN = new Date().getFullYear();
+  const rnd = H.mulberry32(777001);
+  const pick = a => a[Math.floor(rnd() * a.length)];
+  const parPays = H.byCountry();
+  const pays = [...parPays.keys()].sort();
+  const bad = [];
+  let annonces = 0, tirages = 0;
+  for(let k = 0; k < 260 && annonces < 25; k++){
+    const l = parPays.get(pick(pays));
+    if(!l || !l.length) continue;
+    const d = l[Math.floor(rnd() * l.length)];
+    // Le diagnostic visé n'existe que pour un aller-retour d'un jour : inutile de tirer des séjours longs.
+    const p = { departureCity: H.depObj(d), days: pick([1, 1, 1, 2]), budgetKey: 'moyen',
+      transportKey: pick(['voiture-thermique', 'van', 'moto', 'velo']), tollEnabled: true, ferryEnabled: true,
+      avoidTension: true, tripStart: AN + '-10-01',
+      minDistanceKm: pick([0, 0, 150, 400, 1000]), maxRadiusKm: pick([undefined, 300, 800, 1500]) };
+    let r = null;
+    try { r = H.withSeed(777001 + k, () => E.generateTrip(p)); } catch(e){ continue; }
+    tirages++;
+    if(!r || (r.legs && r.legs.length) || !r.tensionBlocked || !(r.returnCapKm > 0)) continue;
+    annonces++;
+    let avec = null;
+    try { avec = H.withSeed(777001 + k, () => E.generateTrip(Object.assign({}, p, { minDistanceKm: r.returnCapKm }))); } catch(e){ avec = null; }
+    if(avec && avec.legs && avec.legs.length){
+      bad.push(d.name + '/' + d.country + ' ' + p.transportKey + ' ' + p.days + ' j, plafond ' + r.returnCapKm +
+        ' km : un itinéraire existe AVEC le filtre, le conseil de décocher est faux');
+    }
+  }
+  t.diagnostic(tirages + ' tirages, ' + annonces + ' annonces « hors de portée + zones déconseillées » contrôlées');
+  assert.ok(annonces >= 5, 'seulement ' + annonces + ' annonces rencontrées : le test ne contrôle plus rien');
+  assert.deepEqual(bad, []);
+});

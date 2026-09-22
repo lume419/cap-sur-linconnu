@@ -1,114 +1,812 @@
 9149;25.0853,31.7560;LY-BU;;Al Bardīyah
+0;22.1333,25.4833;LY-KF;;Zīghan
+0;24.7481,31.9707;LY-BU;;Zāwiyat Janzūr
+0;24.9191,31.9271;LY-BU;;Zāwiyat Umm Rukbah
+0;21.0097,31.5792;LY-MJ;;Zāwiyat Masūs
+0;22.2203,32.7670;LY-DR;;Zāwiyat Bishārah
+0;20.1736,31.5888;LY-BA;;Zāwiyat aţ Ţīlīmūn
+0;22.0772,32.7870;LY-DR;;Zāwiyat at Tarīt
+0;21.6000,32.8333;LY-JA;;Zāwiyat al ‘Urqūb
+0;23.6693,32.1293;LY-BU;;Zāwiyat al Muraşşaş
 1764;22.2784,32.1600;LY-DR;;Mukhaylá
+0;24.9339,31.7973;LY-BU;;Zāwiyat al Manastīr
+0;22.6662,32.2546;LY-DR;;Zāwiyat al ‘Izzīyāt
+0;22.2934,32.8137;LY-DR;;Zāwiyat al Ḩabīb
+0;22.2833,32.8667;LY-DR;;Zahrah
 8742;23.0090,32.5333;LY-DR;;Umm ar Rizam
+0;20.0523,30.1495;LY-WA;;Qabr Umm al Hīshah
 141499;23.9538,32.0896;LY-BU;;Tubruq
+0;20.0186,31.9104;LY-BA;;Tīkah
+0;20.3749,32.3837;LY-BA;;Tansulūkh
+0;21.1246,32.4801;LY-MJ;;Tāknis
 7285;21.9658,32.8970;LY-JA;;Sūsah
+0;23.9473,32.0769;LY-BU;;Sūq al ‘Ajāj
 19918;20.2521,31.6682;LY-BA;;Qaryat Sulūq
+0;21.7177,32.5914;LY-JA;;Sulunţah
 3672;20.2233,31.0940;LY-BA;;Sulţān
+0;20.7380,32.2467;LY-MJ;;Qaryat Sīdī Mahyūb
+0;20.1969,32.2562;LY-BA;;Qaryat Sīdī Khalīfah
+0;20.0606,32.0059;LY-BA;;Sawānī al Qawārishah
+0;20.2500,32.0667;LY-BA;;Ri’āsat Difā‘ Barqah
+0;21.5167,29.0167;LY-WA;;Rāshidah
+0;21.6324,32.9153;LY-JA;;Al Ḩamāmah
 4206;21.9035,32.7317;LY-JA;;Qirnādah
 5975;21.4167,32.6333;LY-JA;;Qaşr Lībiyā
+0;20.0321,31.9310;LY-BA;;Qaşr al ‘Urayyiḑ
+0;24.7878,31.8529;LY-BU;;Qaşr al Jady
+0;20.1076,31.8391;LY-BA;;Qaryat Umm aş Şafā’
+0;20.0539,31.8979;LY-BA;;Qaryat Umm ad Danānīr
 8031;21.6765,32.6298;LY-JA;;Qaryat ‘Umar al Mukhtār
+0;20.8542,32.6611;LY-MJ;;Qaryat Sīdī Shāhir ad Dīn
+0;20.0164,32.0291;LY-BA;;Qaryat Qunfūdhah
+0;20.2667,32.3000;LY-BA;;Qaryat Qaşr al ‘Ajūz
+0;23.8348,32.1088;LY-BU;;Qaryat Maqrūn
+0;23.9028,32.0903;LY-BU;;Qaryat ‘Ā’ilat Zaydān
+0;23.9800,32.0614;LY-BU;;Qaryat aţ Ţayrah
+0;20.1275,32.1525;LY-BA;;Qaryat al ‘Unayzī
+0;20.0636,31.8311;LY-BA;;Qaryat al Malīḩah
+0;20.0263,32.0162;LY-BA;;Qaryat al Majārīs
+0;20.0477,31.8670;LY-BA;;Qaryat al Lūfīyah
+0;23.8901,32.0982;LY-BU;;Qaryat al ‘Imāmah
+0;20.0315,31.7663;LY-BA;;Qaryat al Barakāt
+0;20.0280,31.7768;LY-BA;;Qaryat al Barakāt
 7760;21.5753,32.5380;LY-JA;;Qandūlah
 8688;20.0170,31.6576;LY-BA;;Qamīnis
+0;22.2333,26.0167;LY-KF;;Posto Trucchi
+0;25.0419,31.7705;LY-BU;;Nuqţat al Khaţţābīyah
+0;25.0497,31.6094;LY-BU;;Musā‘id
+0;21.8667,21.6833;LY-KF;;Ma‘tan as Sārah
 7831;21.6281,32.7525;LY-JA;;Massah
+0;21.5000,29.0500;LY-WA;;Maslīwah
 9357;22.7635,32.5742;LY-DR;;Martūbah
+0;21.4096,32.4857;LY-JA;;Marāwah
+0;21.8500,32.8333;LY-JA;;Manşūrah
+0;23.9775,32.0091;LY-BU;;Madīnat Bayāḑ
+0;22.1429,32.7807;LY-DR;;Lamlūdah
+0;20.0268,31.4261;LY-BA;;Kurkūrah
+0;21.8713,32.7161;LY-JA;;Kuhūf Tuḩūdīyah
+0;22.2488,32.7599;LY-DR;;Kuhūf Bū Qalbūţ
+0;20.0076,31.6974;LY-BA;;Khīshān al Budūr
+0;21.7823,32.5508;LY-JA;;Khaḑrā’
+0;22.4199,32.8472;LY-DR;;Karsah
 6973;24.4784,31.9043;LY-BU;;Kambūt
+0;20.2566,32.0973;LY-BA;;Kamb al ‘Ajjāj
+0;21.7028,32.7222;LY-JA;;Kāf Miyās
+0;21.6333,29.2833;LY-WA;;Jikharrah
+0;20.2035,31.7925;LY-BA;;Qaryat Jardīnah
+0;20.9833,32.2833;LY-MJ;;Jardas al Aḩrār
 6744;20.9861,32.3034;LY-MJ;;Jardas al ‘Abīd
 13401;21.5500,29.0333;LY-WA;;Jālū
+0;21.5667,29.2167;LY-WA;;Jakharrah
+0;20.2311,32.2824;LY-BA;;Ḩīshān al ‘Aryāt
+0;20.2369,32.2899;LY-BA;;Ḩīshān al ‘Arabāt
+0;20.2046,32.2679;LY-BA;;Ḩīshān ‘Ā’ilat Bāqī
+0;20.2167,32.2833;LY-BA;;Ḩawsh Barjī
+0;20.6153,32.1866;LY-BA;;Ghawţ al Ḩişān
+0;20.7030,32.4993;LY-MJ;;Farzūghah
 7558;20.3093,32.3475;LY-BA;;Daryānah
 102581;22.6367,32.7670;LY-DR;;Darnah
+0;20.5074,32.1444;LY-BA;;Bū Maryam
+0;22.3039,32.7884;LY-DR;;Bū ath Thāmir
+0;21.8833,31.1833;LY-JA;;Bi’r Bin Ghunaymah
+0;24.7000,31.9167;LY-BU;;Bi’r al Ashhab
+0;22.0333,24.9167;LY-KF;;Buzaymah
+0;21.1096,32.6599;LY-MJ;;Qaryat Baţţah
 757490;20.0686,32.1149;LY-BA;;Banghazi
+0;23.0672,32.4386;LY-DR;;Al Būmbah
 21015;20.1202,30.9522;LY-WA;;Az Zuwaytīnah
+0;24.6572,31.9811;LY-BU;;Az Zāwiyah
+0;22.3833,32.7500;LY-DR;;‘Ayn Mārrah
 5125;21.2869,29.1081;LY-WA;;Awjilah
+0;23.0576,32.3364;LY-DR;;At Tamīmī
+0;23.1667,24.0167;LY-KF;;Aţ Ţallāb
 46050;23.2857,24.2049;LY-KF;;At Tāj
+0;21.5122,32.2058;LY-JA;;At Tabān
+0;20.1376,32.1703;LY-BA;;Aş Şaq‘ābī
+0;21.9498,32.7797;LY-JA;;Aş Şafşāf
+0;21.5167,29.0500;LY-WA;;Ash Shurraf
+0;21.2942,29.1717;LY-WA;;Ash Shawāshinah
+0;20.3417,32.0716;LY-BA;;Ar Rajmah
+0;20.1686,31.9274;LY-BA;;An Nawwāqīyah
+0;24.8333,21.5667;LY-KF;;Al ‘Uwaynāt
+0;21.0333,32.5667;LY-MJ;;Al ‘Uwaylīyah ash Sharqīyah
 12593;20.5791,32.5341;LY-MJ;;Tūkrah
 24631;22.2411,32.7568;LY-DR;;Al Qubbah
+0;22.0206,32.7258;LY-JA;;Al Qayqab
+0;20.0843,32.0097;LY-BA;;Qaryat al Qawārishah
+0;23.4805,32.1375;LY-BU;;Al Qarz̧abah
+0;24.2022,31.9539;LY-BU;;Al Qa‘rah
+0;20.1333,31.6333;LY-BA;;Al Qadhādhimah
+0;22.2000,32.1500;LY;;Al Mukhaylī
+0;20.6333,32.3667;LY-BA;;Al Milayţānīyah
+0;22.4833,29.4833;LY-WA;;Al Mawāḩī
+0;20.9667,32.2667;LY-MJ;;Al Masīl
 85315;20.8291,32.4926;LY-MJ;;Al Marj
+0;20.1512,31.4411;LY-BA;;Al Maqrūn
+0;20.1367,32.1556;LY-BA;;Al Maqārīn
+0;20.4500,32.4279;LY-BA;;Al Mabnī
+0;21.5667,29.0333;LY-WA;;Al Labbah
+0;20.1691,32.2016;LY-BA;;Al Kuwayfīyah
 42079;23.2909,24.1989;LY-KF;;Al Jawf
 2768;24.5168,29.7426;LY-BU;;Al Jaghbūb
+0;20.0667,32.2500;LY;;Al ‘Izzīyāt
+0;21.5167,29.0500;LY-WA;;Al Hīrī
+0;20.6125,32.4232;LY-BA;;Al Ḩimādah
+0;23.1667,24.3167;LY-KF;;Al Hawwārī
+0;21.5209,32.8410;LY-JA;;Al Ḩanīyah
+0;20.0591,31.8076;LY-BA;;Qaryat al Ghadrah
+0;22.2000,32.8833;LY;;Al Fājir
+0;21.9060,32.6885;LY-JA;;Qaryat al Fā’idīyah
+0;25.0833,31.7667;LY-BU;;Al Burdī
 5538;21.2541,32.5650;LY-MJ;;Qaryat al Bayyāḑah
 129439;21.7551,32.7627;LY-JA;;Al Bayḑā’
+0;22.2787,32.8667;LY-DR;;Al Athrūn
+0;24.6572,31.8887;LY-BU;;Al Ashhab
+0;23.9258,31.8664;LY-BU;;Al ‘Adam
 32563;20.5965,32.1900;LY-MJ;;Al Abyār
 8276;22.0005,32.7899;LY-JA;;Al Abraq
+0;23.6833,32.0333;LY-BU;;‘Akramah
 131773;20.2263,30.7554;LY-WA;;Ajdabiya
+0;20.2292,32.1342;LY-BA;;‘Ā’ilat Lamwīs
+0;21.9048,32.8317;LY-JA;;Aḩqāf ar Rūzāt
+0;21.7214,32.7242;LY-JA;;Aḩqāf al Jabhīyah
+0;21.9110,32.6833;LY-JA;;Aḩqāf al Jabbārāt
+0;20.9387,32.7036;LY-MJ;;Madīnat Ţulmaythah
+0;20.6011,31.1356;LY-BA;;Antalāt
+0;13.0672,32.7125;LY-JI;;Sawānī Bin Ādam
 33887;12.0820,32.9312;LY-NQ;;Zuwarah
 203790;14.5687,32.4674;LY-MI;;Zliten
+0;14.1667,25.9000;LY-MQ;;Zīzāw
 10030;17.5436,28.5510;LY-JU;;Zillah
+0;14.9881,32.3844;LY-MI;;Zāwiyat al Maḩjūb
+0;14.6833,32.0167;LY-MB;;Zāwiyat al Maḩjūb
+0;13.9878,32.5917;LY-MB;;Zāwiyat al ‘Amārīyīn
 4434;15.1252,26.1619;LY-MQ;;Zawīlah
+0;11.6530,31.9206;LY-NL;;Za‘rārah
+0;14.2572,27.5716;LY-WS;;Zalwāz
 14131;11.8667,32.9470;LY-NQ;;Zalţan
 22680;12.5286,32.0633;LY-JG;;Yafran
+0;14.5667,32.4833;LY-MB;;Wurīran
+0;12.9817,32.0822;LY-JG;;Wisādān
+0;11.9561,31.9371;LY-JG;;Wīfāt
 4715;10.6653,31.9420;LY-NL;;Wāzin
+0;16.7153,25.3222;LY-MQ;;Wāw al Kabīr
+0;11.8695,31.8593;LY-JG;;Wānzīraf
+0;13.3302,27.4812;LY-WS;;Wanzarīk
 10150;16.1390,29.1614;LY-JU;;Waddān
+0;12.7000,28.5000;LY-JG;;‘Uwaynāt Wanīn
+0;13.3667,32.2333;LY-TB;;Umm Shuwayshah
+0;11.5615,31.8893;LY-NL;;Umm Şaffār
+0;12.5540,32.0338;LY-JG;;Umm az Zarsān
+0;15.4667,26.0500;LY-MQ;;Umm al ‘Iz̧ām
+0;13.6400,25.9945;LY-MQ;;Umm al Ḩamām
 10493;14.7372,26.1339;LY-MQ;;Umm al Arānib
+0;15.0274,27.5088;LY-WS;;Umm al Aḩrār
+0;15.0333,27.5167;LY-WS;;Umm al ‘Abīd
+0;19.5333,22.3667;LY;;Tuzugu
+0;14.6936,26.1463;LY-MQ;;Tuwaywā
+0;13.5667,26.5833;LY-WD;;Tūskīn
+0;13.1002,26.5402;LY-WD;;Tuwaysh
+0;9.4658,30.1353;LY-NL;;Qaryat Tūnīn
+0;13.1488,26.5585;LY-WD;;Tuwaywā
+0;13.1257,27.4886;LY-WS;;Tmīsān
+0;15.7848,26.3948;LY-MQ;;Tmassah
+0;11.1331,31.8647;LY-NL;;Tirakt
+0;11.5725,31.8879;LY-NL;;Tinzight
 6905;11.3546,32.0149;LY-NL;;Tījī
+0;10.4000,30.1833;LY-NL;;Tfalfalt
+0;12.5637,32.0790;LY-JG;;Tāzmarāyit
+0;15.1135,32.0119;LY-MI;;Tāwurghah
+0;13.5087,26.0874;LY-WD;;Tasāwah
+0;13.9122,27.5256;LY-WS;;Tārūt
+0;12.0478,31.9922;LY-JG;;Ţarmīşah
 52420;13.6332,32.4350;LY-MB;;Tarhuna
+0;12.1146,31.9843;LY-JG;;Tardīyah
+0;15.1649,26.0202;LY-MQ;;Tarbū
 8167;14.4206,25.9233;LY-MQ;;Tarāghin
 1302947;13.1873,32.8874;LY-TB;;Tarabulus
+0;13.6266,26.1015;LY-WD;;Taqrūtīn
+0;11.4687,31.8555;LY-NL;;Tannūshāt
+0;11.5017,31.8642;LY-NL;;Tandimmīrah
+0;11.4210,31.8565;LY-NL;;Ţamzīn
 7410;14.2023,27.5715;LY-WS;;Tamzāwah
+0;15.0833,32.2500;LY-MI;;Ţamīnah
+0;11.9483,31.9186;LY-JG;;Tamazdah
+0;14.6273,27.2074;LY-SB;;Tamanhint
+0;11.2239,31.8447;LY-NL;;Tālāt
+0;12.6339,32.1242;LY-JG;;Tākbāl
 100000;13.3506,32.8817;LY-TB;;Tājūrā’
+0;14.4708,24.3700;LY-MQ;;Tajarhī
+0;12.9000,26.5500;LY-WD;;Taglin
+0;12.9928,32.1328;LY-JG;;Taghrinnah
+0;12.5500,32.0971;LY-JG;;Tāghmah
+0;13.3043,30.4331;LY-JG;;Ţabaqah
+0;12.9619,32.0931;LY-JG;;Tabālūt
 106705;16.5887,31.2089;LY-SR;;Sirte
 77114;12.5716,32.7567;LY-ZA;;Şurmān
+0;13.3833,32.1667;LY-JG;;Sūq Qamāţah al Gharbīyah
+0;13.2000,32.6500;LY-TB;;Sūq as Sabt
+0;14.3469,32.5872;LY-MB;;Sūq al Khamīs
+0;13.2198,32.5277;LY-TB;;Sūq al Khamīs
+0;13.6732,32.6228;LY-TB;;Qaryat Sūq al Jum‘ah
+0;14.4854,32.4695;LY-MB;;Sūq al Jum‘ah
+0;13.3765,32.2622;LY-TB;;Sūq al Jum‘ah
+0;12.4760,32.7553;LY-NQ;;Sūq al ‘Alāliqah
+0;11.9833,32.7500;LY-NQ;;Sūq al ‘Alāliqah
+0;13.4419,32.5517;LY-TB;;Sūq al Aḩad
+0;12.0308,32.8301;LY-NQ;;Sūq ad Dawāwidah
 12077;15.7827,29.0694;LY-JU;;Sūknah
 4059;10.6024,31.0260;LY-NL;;Sīnāwin
+0;13.5667,32.6833;LY-TB;;Sīdī Bin al Bashīrī
 9821;13.4794,32.3346;LY-TB;;Sīdī aş Şayd
+0;13.2536,32.5611;LY-TB;;Sīdī as Sā’iḩ
+0;13.7000,26.6500;LY-WD;;Sīdī ‘Alī
+0;10.5517,30.9869;LY-NL;;Sha‘wā’
+0;13.2858,32.8522;LY-TB;;Shatal al Ghābāt
+0;11.9495,32.0202;LY-JG;;Shakshūk
+0;12.9500,32.8167;LY-JI;;Şayyād
+0;12.7930,31.3074;LY-JG;;Sawānī Fassānū
 4492;14.8819,27.2746;LY-SB;;Samnū
+0;13.0994,32.1844;LY-JG;;Sadrūs
 83398;12.4885,32.7933;LY-ZA;;Şabrātah
 149329;14.4283,27.0377;LY-SB;;Sabha
 31607;11.9873,32.8872;LY-NQ;;Sīdī Bin Zīnah
+0;18.5596,30.5099;LY-SR;;Ra’s Lānūf
+0;13.4927,31.3016;LY-JG;;Ra’s aţ Ţabl
+0;11.5676,33.1485;LY-NQ;;Ra’s Judayr
+0;12.6764,32.1047;LY-JG;;Quwayjilah
+0;13.7916,27.4839;LY-WS;;Quţţah
+0;13.1500,32.8667;LY-TB;;Qurjī
+0;13.9822,32.6342;LY-MB;;Qirrīm
+0;14.5698,30.9659;LY-MI;;Qarzah
 6997;14.3537,27.5860;LY-WS;;Qīrah
+0;14.1824,27.5641;LY-WS;;Qayqām
+0;14.1000,25.9333;LY-MQ;;Qāwāt
+0;13.3167,26.5333;LY-WD;;Qaşr Larocu
+0;13.8667,26.7000;LY-WD;;Qaşr Khulayf
 16708;13.8463,32.6968;LY-TB;;Qaşr Khiyār
+0;13.6525,26.6455;LY-WD;;Bint Bayyah
 100069;13.1833,32.6833;LY-TB;;Qaşr Bin Ghashīr
+0;13.7500,26.6667;LY-WD;;Qaşr Barrūrū
+0;10.6000,31.0333;LY-NL;;Qaşr al Waţ’ānī
 49610;13.7147,32.7451;LY-TB;;Qaşr al Qarabūllī
+0;12.1704,32.0414;LY-JG;;Qaşr al Ḩājj
+0;10.6000,31.0333;LY-NL;;Qaşr al Fawqānī
+0;15.1988,32.3718;LY-MI;;Qaşr Aḩmad al Qiblīyah
+0;10.4502,30.1819;LY-NL;;Qaşbat Diyāb
+0;12.5366,32.0744;LY-JG;;Qaşabat Mādī
+0;12.5873,32.0500;LY-JG;;Qaşabat ‘Akkah
+0;13.7408,31.3933;LY-MI;;Tīnīnāy
+0;10.4632,30.2126;LY-NL;;Qaryat T
+0;15.1324,32.3857;LY-MI;;Qaryat Su‘ūd
+0;15.1092,32.3887;LY-MI;;Qaryat Şūr A‘rābī
+0;15.1363,32.3862;LY-MI;;Qaryat Şūr al ‘Ūd
+0;13.9519,31.4117;LY-MI;;Qaryat Shumaykh
+0;16.1560,29.1739;LY-JU;;Qaryat Şawwān
+0;15.0974,32.3316;LY-MI;;Qaryat Rufaydah
+0;15.0909,32.3825;LY-MI;;Qaryat Ra’s ath Thūmah
+0;15.1072,32.3790;LY-MI;;Qaryat Ra’s ‘Alī
+0;15.1536,32.3648;LY-MI;;Qaryat Ra’s Abū Ḩammār
+0;13.0686,32.2025;LY-JG;;Qaryat Qārāt
+0;13.0758,32.2119;LY-TB;;Qaryat Qārāt
+0;15.1179,32.3801;LY-MI;;Qaryat Qarārah
+0;11.9688,31.9509;LY-JG;;Qaryat Nadbās
+0;13.0375,32.1603;LY-JG;;Qaryat Nābūkar
+0;12.0198,31.9459;LY-JG;;Qaryat Mazzū
+0;11.9691,31.9659;LY-JG;;Qaryat Mazghūrah
+0;13.0692,32.1386;LY-JG;;Qaryat Marwān
+0;15.1404,32.3941;LY-MI;;Qaryat Ismā‘īl
+0;14.5587,32.4576;LY-MB;;Qaryat Ḩujjājah
+0;15.1162,32.3875;LY-MI;;Qaryat Ḩasan al Ḩājj
+0;14.1499,32.6196;LY-MB;;Qaryat Hanshīr al Budūr
+0;15.1313,32.3384;LY-MI;;Qaryat Dajājirah
+0;14.9540,32.3890;LY-MI;;Qaryat Bū Ruwayyah
+0;19.9760,31.9458;LY-BA;;Qaryat Abū Fakhīrah
+0;19.4254,30.2915;LY-WA;;Qaryat Bishr
+0;14.0717,31.8005;LY-MB;;Qaryat Bin Tallīs
+0;14.1342,32.6842;LY-MB;;Qaryat Bin Ḩasan
+0;14.0475,32.5967;LY-MB;;Qaryat Banī Musallam
+0;15.1653,32.3722;LY-MI;;Qaryat Ballālah
+0;14.8973,32.4350;LY-MB;;Qaryat az Zurayqī
+0;15.1271,32.3413;LY-MI;;Qaryat ‘Ayn Makhlūf
+0;15.1379,32.3887;LY-MI;;Qaryat ‘Ayn Kurayyim
+0;15.1052,32.3702;LY-MI;;Qaryat ‘Ayn Fakrūnah
+0;15.1154,32.3618;LY-MI;;Qaryat ‘Ayn Bū al Qā’id
+0;15.1409,32.3430;LY-MI;;Qaryat ‘Ayn az Zayt
+0;15.1325,32.3510;LY-MI;;Qaryat ‘Ayn al Madham
+0;15.1070,32.3234;LY-MI;;Qaryat ‘Ayn al Kabīr
+0;15.0926,32.3000;LY-MI;;Qaryat ‘Ayn Abū Shaybah
+0;15.1350,32.3559;LY-MI;;Qaryat ‘Ayn Abū Ghūlah
+0;13.0483,32.2200;LY-TB;;Qaryat Awlād Jamā‘ah
+0;13.3000,30.7167;LY-JG;;Qaryat Awlād Dhu’ayb
+0;13.2534,30.6767;LY-JG;;Qaryat Awlād Duwāb
+0;15.1521,32.3743;LY-MI;;Qaryat Awlād Abū Sha‘‘ālah
+0;15.1340,32.3788;LY-MI;;Qaryat Awlā Bin Shayyah
+0;15.1257,32.3473;LY-MI;;Qaryat aş Şūwāk ‘Ayn Ghulū
+0;15.1249,32.3944;LY-MI;;Qaryat as Subaykhāt
+0;15.1211,32.0219;LY-MI;;Qaryat aş Şawādiq
+0;14.2334,31.4022;LY-MI;;Qaryat aş Şabāyah
+0;13.0778,30.9105;LY-JG;;Qaryat ash Shuyyāb
+0;15.1169,32.3522;LY-MI;;Qaryat aş Şawābīyah
+0;15.1698,32.3739;LY-MI;;Qaryat ar Rūş
+0;15.1114,32.3660;LY-MI;;Qaryat ar Ru’aysāt
+0;15.1288,32.3852;LY-MI;;Qaryat ar Ramlah
+0;15.1588,32.3670;LY-MI;;Qaryat ar Ra‘īţāt
+0;13.0453,32.2256;LY-TB;;Qaryat ‘Arīfah
+0;10.7612,31.9238;LY-NL;;Qaryat an Nushayh
+0;11.8915,31.8741;LY-JG;;Qaryat an Nadwah
+0;14.5900,32.4197;LY-MB;;Qaryat al Wuqayyāt
+0;15.1206,32.3964;LY-MI;;Qaryat al Wafāwāt
+0;15.1189,32.3918;LY-MI;;Qaryat at Tawālikīyah
+0;15.0902,32.4024;LY-MI;;Qaryat al Quşaybāt
+0;11.8943,31.8658;LY-JG;;Qaryat al Qaţ‘
+0;13.0539,32.2333;LY-TB;;Qaryat al Mayāmīn
+0;15.1184,32.3958;LY-MI;;Qaryat al Maghāribah
+0;12.5449,32.0675;LY-JG;;Qaryat al Ma‘ānīn
+0;11.8950,31.8808;LY-JG;;Qaryat al Khirbah
+0;15.1260,32.3602;LY-MI;;Qaryat al Kārrān
+0;13.1064,32.1428;LY-JG;;Qaryat al Kamshāt
+0;15.1547,32.3862;LY-MI;;Qaryat al Jaţāliwah
+0;15.1492,32.3752;LY-MI;;Qaryat al Ja‘āfirah
+0;14.1417,32.6193;LY-MB;;Qaryat al Ḩuwayjāt
+0;14.1577,32.6769;LY-MB;;Qaryat al Hanādah
+0;12.5292,32.0289;LY-JG;;Qaryat al Hamā’imah
+0;19.9614,31.9214;LY-BA;;Qaryat al Ḩalībīyah
+0;15.1488,32.3616;LY-MI;;Qaryat al Habārah
+0;15.1075,32.3859;LY-MI;;Qaryat al Ghūţ
+0;15.1296,32.3728;LY-MI;;Qaryat al Ghawīl
+0;11.7674,31.8519;LY-JG;;Qaryat al Fayāşilah
+0;13.3303,32.1100;LY-JG;;Qaryat al Bayḑā’
+0;19.9856,31.8567;LY-BA;;Qaryat al Barrānī
+0;12.5062,32.0231;LY-JG;;Qaryat al Barāhimah
+0;15.1049,32.3950;LY-MI;;Qaryat al ‘Awā’idah
+0;13.9761,31.4328;LY-MI;;Qaryat al ‘Arīmah
+0;12.6342,32.1311;LY-JG;;Qaryat al ‘Amrūnī
+0;14.5386,31.3719;LY-MI;;Qaryat ad Dawā’irah
+0;13.0172,32.2175;LY-JI;;Qaryat ad Darārifah
+0;15.0965,32.2941;LY-MI;;Qaryat ad Dabābisah
+0;15.1326,32.3923;LY-MI;;Qaryat Abū Shārwal
+0;12.9700,32.1239;LY-JG;;Qaryat Abū ‘Ayyād
+0;19.9601,31.7846;LY-BA;;Qaryat Abū al Aḩnāsh
+0;13.1078,32.8697;LY-TB;;Qarqārish
+0;14.0364,32.5897;LY-MB;;Qabīlat Za‘farān
+0;12.4633,32.0100;LY-JG;;Qabīlat Warjīn
+0;14.0395,32.5717;LY-MB;;Qabīlat Wādinah
+0;11.0445,31.9530;LY-NL;;Qabīlat Takūt
+0;13.9095,32.4566;LY-MB;;Qabīlat Sūq ad Dāwūn
+0;14.1739,32.6683;LY-MB;;Qabīlat Sīlīn
+0;13.8804,32.4959;LY-MB;;Qabīlat Sīdī Mu‘ammar
+0;13.0572,32.0994;LY-JG;;Qabīlat Saqīn
+0;13.9541,32.6433;LY-MB;;Qabīlat Salimah
+0;13.0117,32.0864;LY-JG;;Qabīlat Qubā‘
+0;15.0660,32.3874;LY-MI;;Qabīlat Mantar
+0;14.0140,32.5577;LY-MB;;Qabīlat Lawātah
+0;14.0267,32.6089;LY-MB;;Qabīlat Indārah
+0;14.6538,32.3357;LY-MB;;Qabīlat Dirsūnah
+0;13.2567,32.9033;LY-TB;;Qabīlat Dajībītah
+0;14.0269,32.6279;LY-MB;;Qabīlat Banī Salīm
+0;14.0502,32.6027;LY-MB;;Qabīlat Bin Musallam
+0;14.0167,32.5694;LY-MB;;Qabīlat Banī Layth
+0;13.0472,32.1661;LY-JG;;Qabīlat Badarthan
+0;12.3667,31.0500;LY-JG;;Qabīlat az Zintān al ‘Umyān
+0;12.8422,32.1575;LY-JG;;Qabīlat az Zarībah
+0;14.1620,32.6480;LY-MB;;Qabīlat Awlād Zā’id
+0;14.1452,32.6852;LY-MB;;Qabīlat Awlād ‘Umar
+0;12.3398,31.9945;LY-JG;;Qabīlat Awlād Jābir
+0;12.8319,32.1556;LY-JG;;Qabīlat Awlād ‘Izāz
+0;14.1517,32.6583;LY-MB;;Qabīlat Awlād ‘Īsá
+0;15.1833,32.0000;LY;;Qabīlat Awlād Ḩāmid
+0;13.2708,32.9022;LY-TB;;Qabīlat Awlād Dhiyāb
+0;13.0722,32.8361;LY-JI;;Qabīlat Awlād Bin Aḩmad
+0;15.0611,32.3695;LY-MI;;Qabīlat Awlād Ba‘ayyū
+0;15.1909,31.9967;LY-MI;;Qabīlat Awlād aţ Ţāmid
+0;12.4576,32.0167;LY-JG;;Qabīlat Awlād aş Şaghīr
+0;13.9014,32.6191;LY-MB;;Qabīlat Awlād ‘Ārif
+0;12.3321,32.0008;LY-JG;;Qabīlat Awlād ‘Āmir
+0;12.7141,32.7804;LY-ZA;;Awlad Abu Humayra
+0;13.0534,32.2617;LY-TB;;Qabīlat Awlād Abū Salāmah
+0;14.6718,32.3653;LY-MB;;Qabīlat aş Şaqū‘
+0;14.6740,32.2927;LY-MB;;Qabīlat ash Shuţaywīyah
+0;13.9707,32.6032;LY-MB;;Qabīlat ash Shurfah
+0;14.2858,32.5831;LY-MB;;Qabīlat ash Shurfah
+0;13.8835,32.5712;LY-MB;;Qabīlat ash Sha‘āfīyīn
+0;13.2031,31.0434;LY-JG;;Qabīlat ar Raqā’iqīyah
+0;14.5444,32.3337;LY-MB;;Qabīlat ar Raḩūmāt
+0;13.0333,32.2500;LY-JI;;Qabīlat ar Raḩbah
+0;13.9009,32.5599;LY-MB;;Qabīlat ar Rāghah
+0;13.9365,32.5974;LY-MB;;Qabīlat ar Radādah
+0;13.0293,32.1442;LY-JG;;Qabīlat an Naţţāţāt
+0;15.0723,32.3503;LY-MI;;Qabīlat al Qazzīr
+0;14.3603,32.5761;LY-MB;;Qabīlat al Qanawāt
+0;13.9897,32.5807;LY-MB;;Qabīlat al Qalīl
+0;13.8890,32.4715;LY-MB;;Qabīlat al Mu‘ammarīyīn
+0;15.0901,32.3707;LY-MI;;Qabīlat al Maqşabah
+0;15.1865,32.3757;LY-MI;;Qabīlat al Malā’iţah
+0;14.2016,32.6570;LY-MB;;Qabīlat al Khums
+0;14.5147,32.4607;LY-MB;;Qabīlat al Kawārighilīyah
+0;13.9622,32.6161;LY-MB;;Qabīlat al Karāwinah
+0;13.8842,32.5834;LY-MB;;Qabīlat al Karāritah
+0;13.9058,32.6429;LY-MB;;Qabīlat al Jawābir
+0;14.6809,32.2983;LY-MB;;Qabīlat al Ḩurmah
+0;12.9936,32.1250;LY-JG;;Qabīlat al Ḩājj ‘Umrān
+0;13.9188,32.5693;LY-MB;;Qabīlat al Fawātīr
+0;13.9317,32.5649;LY-MB;;Qabīlat al Fawātīr
+0;14.6792,32.2627;LY-MB;;Qabīlat al Fawātīr
+0;14.5389,32.4518;LY-MB;;Qabīlat al Bakākishah
+0;14.6862,32.2669;LY-MB;;Qabīlat al ‘Aţāyā
+0;14.1619,32.6541;LY-MB;;Qabīlat al ‘Aql
+0;13.9108,32.6012;LY-MB;;Qabīlat al ‘Amārīyīn
+0;14.1657,32.6419;LY-MB;;Qabīlat al Afāḑil
+0;13.0319,32.2623;LY-JI;;Qabīlat al Abqār
+0;14.7231,32.3248;LY-MB;;Qabīlat al ‘Abādinah
+0;14.6972,32.2803;LY-MB;;Qabīlat al ‘Abādīlah
+0;13.0438,32.2675;LY-TB;;Qabīlat Abū Saḩāmah
+0;13.1025,32.1617;LY-JG;;Qabīlah
+0;13.3305,31.3960;LY-JG;;Nasamah
 28431;10.9812,31.8685;LY-NL;;Nālūt
+0;14.6689,32.4316;LY-MB;;Na‘īmah
 30491;13.9184,25.9155;LY-MQ;;Murzuk
+0;13.5539,32.4034;LY-TB;;Amḩayyah
+0;13.1667,32.8667;LY-TB;;Mu‘askar Jālū
 16735;12.9853,31.4493;LY-JG;;Mizdah
 355657;15.0925,32.3753;LY-MI;;Misratah
+0;14.7167,26.1500;LY;;Misqūwīn
+0;12.8167,32.0167;LY-JG;;Miskah
+0;14.0011,32.5903;LY-MB;;Minţaqat Zāwiyat Sīdī ‘Aţīyah
+0;13.9957,32.5753;LY-MB;;Zāwiyat as Samāḩ
+0;17.2839,31.0526;LY-SR;;Minţaqat Wādī Harāwah
+0;12.9147,32.7425;LY-JI;;Minţaqat al Ḩashshān
+0;14.0427,32.6970;LY-MB;;Minţaqat al Ghanīmah
+0;14.5253,32.3456;LY-MB;;Minţaqat ad Daghdūghī
+0;14.9545,26.1663;LY-MQ;;Misiqwīn
+0;13.0500,31.2667;LY-JG;;Māzūzah
+0;13.7190,32.4713;LY-TB;;Mazra‘at Ţīţānū
+0;13.7047,32.4645;LY-TB;;Mazra‘at Sāqīl
+0;13.6487,32.4343;LY-TB;;Mazra‘at Sāqīl
+0;13.7160,32.4654;LY-TB;;Mazra‘at Katarīllā
+0;14.0000,32.6167;LY-MB;;Masallātah
+0;12.5617,32.0575;LY-JG;;Māryān
 31300;19.5739,30.4062;LY-WA;;Al Burayqah
+0;11.5705,31.8435;LY-NL;;Murquş
 2229;19.2045,29.2205;LY-WA;;Marādah
+0;15.1117,25.8647;LY-MQ;;Majdūl
+0;14.5691,25.9013;LY-MQ;;Maghwah
+0;14.4833,25.9167;LY-MQ;;Ma‘fan
+0;14.5320,24.7854;LY-MQ;;Madrūsah
 11776;12.7000,32.0833;LY-JG;;Kiklah
+0;14.4380,32.5228;LY-MB;;Ki‘ām
+0;13.0061,32.1103;LY-JG;;Ki‘ām
+0;13.8222,26.6944;LY-WD;;Khulayf
+0;13.0320,32.1362;LY-JG;;Kammūn
 7686;11.3306,31.8472;LY-NL;;Kābāw
+0;11.8815,31.8967;LY-JG;;Qaryat Jītāl
+0;19.9797,31.8161;LY-BA;;Qaryat Jarrūfah
+0;13.0667,26.5333;LY-WD;;Jarmah
 154389;13.0173,32.8187;LY-JI;;Janzūr
+0;12.0061,31.9640;LY-JG;;Jannāwan
+0;12.6817,32.1008;LY-JG;;Jandūbah
+0;11.9958,31.9367;LY-JG;;Jammārah
 12507;12.0290,31.9551;LY-JG;;Jādū
+0;12.7828,32.7800;LY-ZA;;Jaddā’im
+0;12.2589,31.1126;LY-JG;;Irmābḩat az Zintān
+0;11.9467,31.9222;LY-JG;;Īnīr
 24431;15.9477,29.1268;LY-JU;;Hūn
+0;14.8091,26.1136;LY-MQ;;Al Ḩummayrah
+0;14.4564,27.0230;LY-SB;;Ḩijārah
+0;14.0381,25.9286;LY-MQ;;Heg’ Hagel
+0;19.9852,31.9132;LY-BA;;Ḩawsh Wārid
+0;19.9736,31.9224;LY-BA;;Ḩawsh ash Shuwayyim
+0;12.7026,32.0561;LY-JG;;Ḩarqah
 186123;12.7278,32.7522;LY-ZA;;Zawiya
+0;12.5731,32.0556;LY-JG;;Ghurām
+0;14.0167,25.9000;LY-MQ;;Ghawāţ
 14630;10.1800,24.9633;LY-GT;;Ghat
 36110;13.0203,32.1722;LY-JG;;Gharyan
+0;14.2758,26.4363;LY-SB;;Ghaddūwah
 12096;9.5007,30.1337;LY-NL;;Ghadames
+0;13.2121,26.5493;LY-WD;;Qarāqārah
+0;14.2500,25.9667;LY-MQ;;Funqul
+0;14.2333,32.5667;LY-MB;;Funduq Tarbānah
+0;13.0500,32.3833;LY-JI;;Funduq ash Shaybānī
+0;14.0667,32.7000;LY-MB;;Funduq an Naqqāzah
+0;13.8333,32.7333;LY-TB;;Funduq al Jaḩsh
+0;13.9400,32.7094;LY-TB;;Funduq al ‘Allūş
+0;13.0136,32.0950;LY-JG;;Fayşalān
+0;11.3794,31.8642;LY-NL;;Faşātah
+0;19.7667,22.2833;LY-KF;;‘Eoj Wāhş
+0;15.3000,23.7500;LY-MQ;;Emi Madema
+0;11.8224,31.8643;LY-JG;;Dūshīn
+0;14.0667,25.9431;LY-MQ;;Dulaym
+0;13.6941,26.1268;LY-WD;;Dūjāl
 6051;10.4580,30.1650;LY-NL;;Daraj
+0;11.7724,31.8707;LY-JG;;Dashrah
+0;12.9369,32.1133;LY-JG;;Dannūn
+0;12.5153,32.7858;LY-ZA;;Dahmān
+0;14.4183,27.5863;LY-WS;;Dabdab
+0;15.4000,23.3667;LY-MQ;;Curni Ebredaa
+0;13.1142,26.5528;LY-WD;;Burayk
+0;11.5840,31.8617;LY-NL;;Buqayqīlah
+0;12.0183,31.9692;LY-JG;;Bū Jabalayn
+0;13.0291,32.2736;LY-JI;;Bū Ghaylān
+0;15.7258,31.3994;LY-SR;;Buwayrāt al Ḩasūn
+0;13.3167,32.8833;LY-TB;;Bū al Ashhar
+0;19.2167,30.3000;LY;;Bishr
+0;14.6022,31.9684;LY-MB;;Bi’r Dūfān
+0;12.4645,32.1317;LY-JG;;Bi’r ‘Ayyād
 4182;12.5694,32.3091;LY-ZA;;Bi’r al Ghanam
 16200;14.2714,27.5496;LY-WS;;Brak
+0;13.6000,30.6333;LY-JG;;Bi’r Abū al Ghurāb
+0;13.0067,32.1281;LY-JG;;Bin Yaḩyá
 15509;18.0772,30.8042;LY-SR;;Bin Jawwād
+0;13.1739,32.6878;LY-TB;;Bin Ghashīr
 5902;13.6291,27.5480;LY-WS;;Barqin
+0;14.2333,27.5749;LY-WS;;Barqāwī
+0;13.0204,32.1406;LY-JG;;Barāshīn
+0;11.5844,31.8462;LY;;Baqqālah
+0;13.0100,32.2328;LY-JI;;Banī Yakhlaf
+0;12.9847,32.0858;LY-JG;;Banī Wazīr
 45734;13.9835,31.7455;LY-MI;;Bani Walid
+0;10.4495,30.1924;LY-NL;;Tuquţţah
+0;11.9568,31.9219;LY-JG;;Baldat Raqraq
+0;11.6062,31.8799;LY;;Baldat Jurayjin
+0;11.6697,31.9461;LY-NL;;Baldat Diqqī
+0;12.2168,31.9295;LY-JG;;Baldat Awlād Mīlād
+0;12.3043,31.9948;LY-JG;;Baldat al ‘Uqaybah
+0;12.2231,31.9210;LY-JG;;Baldat al ‘Umyān
+0;12.2167,31.8500;LY-JG;;Baldat al Qawāsim
+0;11.8873,31.8635;LY-JG;;Baldat al Kurūmah
+0;12.2318,31.9323;LY-JG;;Baldat ad Duwayb
 3797;11.5430,32.0557;LY-NL;;Qaryat al Qī‘ān
+0;13.0222,32.1086;LY-JG;;Az Zuwayyah
+0;12.5085,32.0159;LY-JG;;Az Zurqān
 33000;12.2529,31.9316;LY-JG;;Zintan
+0;14.9079,27.3685;LY-WS;;Az Zīghan
+0;14.5333,25.9500;LY-MQ;;Az Zaytūnah
 200000;12.7276,32.7571;LY-ZA;;Az Zāwīyah
+0;15.1335,32.3749;LY-MI;;Qaryat az Zarrūq
+0;13.7950,25.9758;LY-MQ;;Az Zarqān
+0;13.0369,32.2481;LY-JI;;Az Zamāmiqah
 25684;12.8733,32.6789;LY-JI;;Az Zahrā’
+0;13.2697,32.8133;LY-TB;;‘Ayn Zārah
+0;10.8106,31.9040;LY;;‘Ayn al Ghazāyā
+0;12.6819,32.0706;LY-JG;;Awlād Yūsuf
+0;12.5177,32.0165;LY-JG;;Awlād Yaḩyá
+0;12.2360,31.9489;LY-JG;;Awlād Sīdī Khalīfah
+0;13.0483,32.2092;LY-TB;;Awlād Sālim
+0;12.6690,32.0831;LY-JG;;Awlād Sa‘īd
+0;12.5147,32.0571;LY-JG;;Awlād Sa‘īd
+0;12.3000,31.9833;LY-JG;;Awlād Rayyān
+0;12.6892,32.0792;LY-JG;;Awlād Qalāsī
+0;12.8975,32.0878;LY-JG;;Awlād Mūshād
+0;12.8639,32.1742;LY-JG;;Awlād Muḑīf
+0;12.1220,31.9724;LY-JG;;Awlād Mas‘ūd
+0;13.0483,32.2064;LY-JG;;Awlād Manşūr
+0;12.4777,32.0094;LY-JG;;Awlād Manşūr
+0;11.0471,31.8279;LY-NL;;Awlād Maḩmūd
+0;12.5239,32.0419;LY-JG;;Awlād Khalīfah
+0;12.2542,31.9533;LY-JG;;Awlād Khalīfah
+0;12.5177,32.0384;LY-JG;;Awlād Khalaf Allāh
+0;13.0832,32.1801;LY-JG;;Awlād Jarbū‘
+0;12.1542,31.9491;LY-JG;;Awlād Jābir
+0;12.6894,32.0758;LY-JG;;Awlād ‘Īsá
+0;12.2381,31.9377;LY-JG;;Awlād ‘Īsá
+0;12.1397,31.9782;LY-JG;;Awlād ‘Inān
+0;12.2315,31.9537;LY-JG;;Awlād Ḩāmid
+0;12.5228,32.0353;LY-JG;;Awlād Ḩamad
+0;13.0716,32.1836;LY-JG;;Awlād Bū Ra’s
+0;11.8888,31.8718;LY-JG;;Awlād Bū Jadīd
+0;12.9937,32.1510;LY-JG;;Awlād Bin Ya‘qūb
+0;13.1167,32.8333;LY-TB;;Awlād Bin Aḩmad
+0;11.9672,32.0189;LY-JG;;Awlād Badr
+0;13.0083,32.1446;LY-JG;;Awlād ‘Azzām
+0;12.1667,31.9333;LY-JG;;Awlād ‘Aţīyah
+0;12.5723,32.0463;LY-JG;;Awlād ‘Alī Bū al Qāsim
+0;13.0042,32.1592;LY-JG;;Awlād ‘Alī
+0;12.3715,32.0158;LY-JG;;Awlād ‘Alī
+0;12.7500,32.7667;LY-ZA;;Awlād Abū Suhayyirah
+0;13.0333,32.2500;LY-JI;;Awlād Abū Salāmah
+0;12.6319,32.0830;LY-JG;;Awlād ‘Abd al Mawlá
+0;12.5769,32.0502;LY-JG;;Awlād ‘Abd Allāh
+0;12.1333,31.9500;LY-JG;;Awlād ‘Abd al Jalīl
+0;12.3151,32.0032;LY-JG;;Awlād ‘Abd al ‘Azīz ‘Inān
+0;12.2523,31.9544;LY-JG;;Awlād ‘Abd ad Dā’im
 33569;12.7751,26.5903;LY-WD;;Ubari
+0;12.8394,32.7687;LY-ZA;;Aţ Ţuwaybīyah
+0;19.9496,31.8738;LY-BA;;At Taribjah
+0;13.6233,26.6246;LY-WD;;Tanahmū
+0;12.8819,32.0381;LY-JG;;Aţ Ţalā’i‘īyah
+0;13.8318,32.6565;LY-TB;;Asyādī al ‘Amārīyīn
+0;17.1502,31.1145;LY-SR;;As Sulţān
+0;13.6930,26.0976;LY-WD;;As Subayţāt
+0;13.6476,26.6369;LY-WD;;Snūdah
+0;18.3667,30.6500;LY;;As Sidrah
 57069;13.0667,32.7167;LY-JI;;As Sawānī
+0;13.0828,32.2203;LY-TB;;As Sawā‘idīyah
+0;12.6667,32.0333;LY-JG;;As Sawādinah
+0;13.0289,32.1508;LY-JG;;As Saqā’if
+0;11.7803,31.8769;LY-JG;;As Salāmāt
+0;13.1000,32.1272;LY-JG;;Aş Şāliḩāt
+0;14.7550,31.5175;LY-MI;;As Sidādah
+0;12.6411,32.7283;LY-ZA;;Aş Şābirīyah
+0;14.2667,29.9833;LY-JG;;Ash Shuwayrif
+0;13.9500,32.5833;LY-MB;;Ash Shurūf
+0;11.7919,31.8832;LY-JG;;Ash Shiyāb
+0;13.0200,32.0781;LY-JG;;Ash Shi‘tāf
+0;13.8700,32.5922;LY-MB;;Ash Shi‘āfīyīn
+0;12.3950,32.7339;LY-NQ;;Ash Shaykh Bū ‘Ujaylah
+0;15.1655,32.3755;LY-MI;;Ash Shawāţī
+0;13.6167,32.4667;LY-TB;;Ash Sharshārah
+0;12.0831,31.9965;LY-JG;;Ash Shaqqī
+0;12.5228,32.0728;LY-JG;;Ash Shaqārinah
+0;12.2374,31.9513;LY-JG;;Ash Sha‘binīyah
+0;12.0191,31.9629;LY-JG;;Ash Shabārī
+0;14.4486,27.5606;LY-WS;;Ashkidah
+0;13.1667,32.5167;LY-TB;;Asbī‘ah
+0;12.5167,32.0167;LY-JG;;Ar Rūmīyah
 6419;12.1667,31.9500;LY-JG;;Ar Rujbān
+0;11.8700,31.7572;LY-JG;;Ar Ruḩaybāt
 15031;12.3564,32.0268;LY-JG;;Ar Rayāyinah
+0;13.6333,26.6333;LY-WD;;Ar Raqabah
+0;15.1000,32.3500;LY-MI;;Ar Rajūbāt
+0;13.5584,26.5980;LY-WD;;Ar Raqabah
+0;12.5667,32.2333;LY-ZA;;Ar Rābiţah
+0;13.5314,25.9633;LY-MQ;;‘Aqqār
+0;13.5566,26.0959;LY-WD;;Āqār al ‘Atabah
 4832;14.1625,27.5391;LY-WS;;Āqār
+0;12.6644,32.0531;LY-JG;;Anzū
+0;14.2600,27.5372;LY-WS;;An Nuşf
+0;17.8354,30.7778;LY-SR;;An Nawfalīyah
 20687;12.8736,32.6328;LY-JI;;An Nāşirīyah
+0;12.6572,32.0461;LY-JG;;An Nāqūr
+0;13.0450,32.2029;LY-JG;;An Nakhlayn
+0;12.6942,32.0694;LY-JG;;Amzīr
+0;12.9453,32.1286;LY-JG;;Al Ya‘āqīb
+0;14.5486,24.1907;LY-MQ;;Al Wīgh
+0;11.7679,32.4764;LY-NQ;;Al Wāţīyah
 3881;10.5613,25.7812;LY-GT;;Al ‘Awinat
+0;12.2180,31.9464;LY-JG;;Al ‘Urqūb
+0;13.1500,32.1667;LY-JG;;Al ‘Urbān
+0;19.2010,30.2571;LY-WA;;Al ‘Uqaylah
 130546;12.3763,32.7572;LY-NQ;;Al Ajaylat
+0;12.6953,32.0831;LY-JG;;Al ‘Ubayyāt
+0;12.5477,32.0715;LY-JG;;Al Quşayr
+0;12.0213,31.9622;LY-JG;;Al Quşayr
+0;13.9512,32.4785;LY-MB;;Quşay‘ah
+0;13.9729,27.4928;LY-WS;;Al Qurḑah
+0;12.5450,32.0639;LY-JG;;Al Qurādīyīn
+0;12.6722,32.0989;LY-JG;;Al Qawātī
 15134;13.0604,32.1842;LY-JG;;Al Qawāsim
 7243;14.6486,24.9514;LY-MQ;;Al Qaţrūn
+0;14.0393,32.5860;LY-MB;;Al Qaşabāt
+0;13.5803,30.3880;LY-JG;;Al Qaryāt ash Sharqīyah
+0;13.4185,30.4124;LY-JG;;Al Qaryāt al Gharbīyah
+0;13.3667,26.5333;LY-WD;;Al Qarāyā
+0;11.8304,31.8409;LY-JG;;Al Qanāfidh
+0;12.5603,32.0492;LY-JG;;Al Qal‘ah
+0;13.0167,32.1167;LY-JG;;Al Qaḩāşāt
+0;15.2476,31.3602;LY-MI;;Qaryat al Qaddāḩīyah
+0;13.0269,32.1947;LY-JG;;Al Qābil
+0;12.6158,32.7617;LY-ZA;;Al Muţrad
 14203;12.8792,32.8019;LY-JI;;Al Māyah
+0;12.9913,32.0561;LY-JG;;Al Masūfīyīn
+0;12.5304,32.0620;LY-JG;;Al Mashwashīn
+0;12.9991,32.7984;LY-JI;;Al Mashāshiţah
+0;15.1036,32.3422;LY-MI;;Al Maqāşibah al Qiblīyah
+0;15.1024,32.3576;LY-MI;;Al Maqāşibah al Baḩrīyah
+0;12.8317,32.1614;LY-JG;;Al Manāşīr
+0;12.8569,32.7192;LY-JI;;Al Ma‘mūrah
+0;12.5731,32.0283;LY-JG;;Al Ma‘mūrah
+0;12.5593,32.0297;LY-JG;;Al Ma‘mūrah
+0;11.9333,30.4500;LY-JG;;Al Mallāḩah al Gharbīyah
+0;12.0667,30.6833;LY-JG;;Al Mallāḩah al Baḩrīyah
+0;15.5000,23.3333;LY-MQ;;Al Malāqī
+0;11.1592,31.8600;LY-NL;;Al Majābirah
+0;14.0136,27.5051;LY-WS;;Al Maḩrūqah
+0;14.9833,32.4333;LY;;Al Maḩjūb
+0;14.1816,32.5777;LY-MB;;Al Maghāsil
+0;12.9731,32.0869;LY-JG;;Al Maghāribah
+0;13.0786,32.1786;LY-JG;;Al Lamāmīsh
+0;12.6764,32.0678;LY-JG;;Al La‘āqīb
+0;13.0039,32.0475;LY-JG;;Al Kulaybah
 201943;14.2619,32.6486;LY-MB;;Al Khums
+0;11.1500,31.8416;LY-NL;;Al Khirbah
+0;12.6266,32.0924;LY-JG;;Al Khazūr
+0;13.1833,26.5500;LY-WD;;Al Kharā’iq
+0;12.4792,32.0110;LY-JG;;Al Khalā’ifah
 9521;13.7674,32.4440;LY-MB;;Al Khaḑrā’
+0;13.0258,32.1197;LY-JG;;Al Kashālifah
+0;19.9960,31.9802;LY-BA;;Al Karmah
+0;15.0571,32.3922;LY-MI;;Al Karārīm
 102000;12.0612,32.8529;LY-NQ;;Al Jumayl
+0;12.6542,32.1375;LY-JG;;Al Juḩaysh
+0;11.6789,31.9946;LY-NL;;Al Jawsh aş Şaghīr
+0;11.6608,31.9944;LY-NL;;Al Jawsh al Kabīr
+0;11.6667,32.0000;LY-NL;;Al Jawsh
+0;13.0375,32.2099;LY-TB;;Al Jawāhilīyah
 126386;14.4000,27.0500;LY-SB;;Al Jadīd
+0;13.2833,32.1500;LY-JG;;Al Ja‘āfirah
+0;14.5912,32.3676;LY-MB;;Al Ḩuwayjāt
 81119;12.6739,32.7647;LY-ZA;;Al Ḩurshah
+0;15.2760,31.6483;LY-MI;;Al Hīshah
 4558;11.1622,31.9753;LY-NL;;Al Ḩawāmid
+0;12.9165,26.5741;LY-WD;;Al Ḩaţīyah
+0;12.6034,32.7112;LY-ZA;;Al Ḩāshiyah al Ḩamrā’
+0;11.5436,31.7739;LY-NL;;Al Ḩarābah
+0;13.2376,32.8976;LY-TB;;Al Hanshīr
+0;13.8769,26.7111;LY-WD;;Al Ḩamrā’
+0;13.3908,32.8844;LY-TB;;Al Ḩamīdīyah
+0;14.0181,31.7558;LY-MI;;Al Ḩalamah
+0;12.9678,32.1203;LY-JG;;Al Ḩajarah
+0;15.1789,32.0107;LY-MI;;Al Hadāri‘ah
 23449;13.0107,26.5216;LY-WD;;Al Ghurayfah
+0;13.5667,26.6000;LY-WD;;Al Ghuraybāt
+0;15.0333,32.3500;LY-MI;;Al Ghīrān
+0;10.8353,32.0020;LY-NL;;Az Zaram
+0;13.1667,26.5667;LY-WD;;Al Fuqar
+0;14.0500,31.7833;LY-MB;;Al Fuqahā’
+0;16.3895,27.8110;LY-JU;;Al Fuqahā’
+0;13.3159,26.5424;LY-WD;;Al Fujayj
+0;14.5638,32.4508;LY-MB;;Al Fawātīr
+0;12.3055,32.0093;LY-JG;;Al Fawāḑil
+0;13.2533,32.8322;LY-TB;;Al Fātiḩ
+0;19.3833,30.4000;LY;;Al Burayqah
+0;12.5632,32.0548;LY-JG;;Al Buḩūr
 9908;10.1834,24.8940;LY-GT;;Al Barakāt
+0;14.2131,25.8381;LY-MQ;;Al Bayḑān
+0;12.5261,32.0339;LY-JG;;Al Bayāţinah
+0;12.1833,31.9333;LY-JG;;Al Barāhimah
+0;14.5792,24.9276;LY-MQ;;Al Bakkī
+0;12.5455,32.0665;LY-JG;;Al Bakhābikhah
+0;14.8478,26.1590;LY-MQ;;Al Budayr
 52404;13.0175,32.5319;LY-JI;;Al ‘Azīzīyah
+0;11.6293,32.8299;LY-NQ;;Al ‘Assah
 27713;12.8667,32.0333;LY-JG;;Al Aşābi‘ah
+0;14.1069,32.4547;LY-MB;;Al ‘Amāmirah
+0;12.5697,32.0533;LY-JG;;Al ‘Alāwinah
+0;13.9983,26.7578;LY-WD;;Al Abyaḑ
+0;12.4698,32.0045;LY-JG;;Ahl al Wādī
 4696;13.0517,27.4471;LY-WS;;Idrī
+0;13.9636,27.5025;LY-WS;;Ad Duwaysah
+0;12.9872,32.1456;LY-JG;;Ad Dayāsīr
+0;13.4667,32.4333;LY-TB;;Ad Dāwūn
+0;14.7930,32.4134;LY-MB;;Ad Dāfīnah
+0;13.4419,32.8514;LY-TB;;Abyār as Sabābīl
 14332;12.9786,32.0997;LY-JG;;Abū Zayyān
+0;15.2535,31.4489;LY-MI;;Qaryat Abū Qurayn
+0;15.3958,30.5816;LY-SR;;Qaryat Bū Nujaym
+0;11.7363,33.0739;LY-NQ;;Abū Kammāsh
+0;12.6311,32.7531;LY-ZA;;Abū ‘Īsá
+0;13.0167,32.2667;LY-JI;;Abū Ghaylān
+0;12.4964,32.7284;LY-ZA;;Abū ar Rīsh
+0;13.0386,32.2328;LY-JI;;Banī Yakhlif
 29206;21.8661,32.8043;LY-JA;;Shahhat
 4890;16.6591,31.0593;LY-SR;;Qasr Abu Hadi
+0;21.8634,32.8267;LY;;Shahat
+0;22.1825,32.8830;LY;;Ra's Al Hilal
+0;13.5568,26.0937;LY-MQ;;Akar Etba
+0;13.6868,26.0949;LY-MQ;;Sbitat
+0;12.6964,31.6468;LY-JG;;Wāmīs
+0;12.8069,31.6397;LY-JG;;Ash Shuqayqah
+0;10.3653,30.1925;LY-NL;;Mātris
+0;14.0033,31.4361;LY-MI;;Qal‘at al Wasaţ
+0;14.7322,30.9272;LY-MI;;Zāzamt
+0;13.0281,27.4894;LY-WS;;Al Manşūr
+0;13.2448,26.5607;LY-WD;;Takarkībah
+0;12.8171,26.5876;LY-WD;;Ad Dīsah
+0;10.0814,24.9506;LY-GT;;Faywīt
+0;13.5610,26.6156;LY-WD;;Nazlah
+0;13.9450,26.7477;LY-WD;;Bin Ḩārith
+0;13.5460,27.5577;LY-WS;;Al Ḩaţīyah
+0;20.4323,32.1330;LY-BA;;Qabr Jīrah
+0;22.1842,32.8845;LY-DR;;Al Hilāl
+0;23.3569,32.1462;LY-DR;;Al Ghazālah
+0;15.0388,32.0163;LY-MI;;Mallūk
+0;12.4087,32.7578;LY;;Al Zramga
+0;13.4764,32.7043;LY-TB;;Az Zatārinah
+0;13.4476,32.6894;LY-TB;;Khallat al Qamūdī
+0;21.1436,21.1436;LY-KF;;Kontangyi
+0;13.2379,32.4116;LY-TB;;Hayy as Sina'i
+0;13.2382,32.8513;LY-TB;;Al Farnaj
 17122;13.9671,32.7101;LY-MB;;Al-'Alūaṣ
 17350;12.8423,32.7457;LY-ZA;;Qarqūzah
 8085;21.0729,25.6729;LY-KF;;Tāzirbū
@@ -117,3 +815,6 @@
 11058;21.7910,32.7966;LY-JA;;Wardāmah
 9989;11.8436,31.8464;LY-JG;;Ar-Raḥaībāt
 73907;14.0363,32.5834;LY-MB;;Msalātah
+0;14.2364,32.6211;LY-MB;;Al Khums
+0;20.9906,32.5572;LY-MJ;;Al ‘Uwaylīyah
+0;14.1065,32.5425;LY-MB;;Al ‘Amāmirah

@@ -18049,3 +18049,7 @@ el;Κατσουράτικα;Katsourátika
 el;Χαμουριό;Chamourió
 el;Φώκια;Fókia
 el;Καλοταρίτισσα;Kalotarítissa
+ru;Родохори;Rodochóri
+bg;Родохори;Rodochóri
+el;Ροδοχώρι Κοζάνης;Rodochóri
+mk;Радовишта;Rodochóri

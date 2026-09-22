@@ -49594,3 +49594,4608 @@ co;E Ville di Petrabugnu;Ville-di-Pietrabugno
 kk;Вилле-ди-Пьетрабуньйо;Ville-di-Pietrabugno
 uk;Вілле-ді-Пєтрабуньйо;Ville-di-Pietrabugno
 ru;Вилле-ди-Пьетрабуньо;Ville-di-Pietrabugno
+fr;Zœbersdorf;Zoebersdorf
+fr;Zifignola;Zivignola
+kk;Ивранд;Yvrandes
+uk;Івранд;Yvrandes
+ur;یورانڈس;Yvrandes
+zh;伊夫朗代;Yvrandes
+ca;Ibrac e Maleirand;Yvrac
+oc;Ivrac e Maleirand;Yvrac
+uk;Іврак-е-Маллейран;Yvrac
+ur;یورک-یت-ملے رانڈ;Yvrac
+ru;Иврак-э-Маллеран;Yvrac
+zh;伊夫拉克和马莱朗;Yvrac
+pl;Wœrth;Woerth
+fr;Wœrth;Woerth
+de;Wœrth;Woerth
+en;Wœrth;Woerth
+it;Wœrth;Woerth
+nl;Wœrth;Woerth
+no;Wœrth;Woerth
+bg;Вьорт;Woerth
+ja;ヴルト;Woerth
+kk;Верт;Woerth
+uk;Верт;Woerth
+ru;Вёрт;Woerth
+zh;沃埃尔;Woerth
+ar;ورث;Woerth
+ar;وينغيرشيم;Wingersheim
+fa;وینگرسهایم;Wingersheim
+kk;Венгерсайм;Wingersheim
+uk;Венгерсайм;Wingersheim
+zh;万热尔桑;Wingersheim
+ru;Венгерсайм;Wingersheim
+kk;Вальдигофен;Waldighofen
+uk;Вальдігофен;Waldighofen
+ru;Вальдигофен;Waldighofen
+br;Gwerid;Vritz
+oc;Gwerid;Vritz
+uk;Врі;Vritz
+zh;弗里特;Vritz
+bg;Вов;Voves
+uk;Вов;Voves
+zh;沃韦;Voves
+ru;Вов;Voves
+ca;Vosan;Vieux Vouzan
+oc;Vosan;Vieux Vouzan
+uk;Вузан;Vieux Vouzan
+ru;Вузан;Vieux Vouzan
+zh;武藏;Vieux Vouzan
+fr;Vœu;Voeu
+fr;Vizzavone;Vizzavona
+ca;Visòs;Vizos
+oc;Visòs;Vizos
+uk;Візос;Vizos
+ru;Визос;Vizos
+zh;维佐;Vizos
+fr;Vivès;Vivers
+fr;Vitriccia;Vetriccia
+uk;Вір;Vire
+el;Βιρ;Vire
+ja;ヴィール;Vire
+kk;Вир;Vire
+ru;Вир;Vire
+zh;维尔;Vire
+eu;Bildoze;Viodos
+fr;Viodos-Abense-de-Bas;Viodos
+eu;Bildoze-Onizepea;Viodos
+br;Bildoze-Onizepea;Viodos
+ca;Bildoze-Onizepea;Viodos
+kk;Виодос-Абанс-де-Ба;Viodos
+oc;Biudòs-Avensa de Baish;Viodos
+uk;Віодос-Абанс-де-Ба;Viodos
+ru;Вьодос-Абанс-де-Ба;Viodos
+zh;维奥多斯-阿邦斯德巴;Viodos
+fr;Villossanges;Villosanges
+kk;Вилье-сюр-Толон;Villiers-sur-Tholon
+uk;Вільє-сюр-Толон;Villiers-sur-Tholon
+zh;托隆河畔维利耶尔;Villiers-sur-Tholon
+uk;Вільвек;Villevêque
+zh;维莱韦屈埃;Villevêque
+uk;Віллер-Сен-Фрамбур;Villers-Saint-Frambourg
+zh;维莱尔圣夫朗布尔;Villers-Saint-Frambourg
+kk;Вилькье;Villequier
+uk;Вількє;Villequier
+uk;Вільантруа;Villentrois
+ru;Виллантруа;Villentrois
+zh;维朗特鲁瓦;Villentrois
+ca;Vilanova;Villeneuve-des-Escaldes
+fr;Villeneuve-des Escaldas;Villeneuve-des-Escaldes
+ca;Vilanova de les Escaldes;Villeneuve-des-Escaldes
+uk;Вільмуазан;Villemoisan
+zh;维莱穆瓦桑;Villemoisan
+uk;Вільмор-сюр-Ванн;Villemaur-sur-Vanne
+ru;Вильмор-сюр-Ван;Villemaur-sur-Vanne
+zh;旺河畔维莱莫;Villemaur-sur-Vanne
+fr;Villelongue-dels-Monts;Vilallonga dels Monts
+ca;Vilallonga;Vilallonga dels Monts
+uk;Вільжезю;Villejésus
+ru;Вильжезю;Villejésus
+zh;维莱热叙;Villejésus
+kk;Вильдье-ле-Поель;Villedieu-les-Poêles
+uk;Вільдьє-ле-Поель;Villedieu-les-Poêles
+zh;维莱迪厄莱波埃莱;Villedieu-les-Poêles
+ja;ヴィルデュー＝ラ＝ブルエール;Villedieu-la-Blouère
+uk;Вільдьє-ла-Блуер;Villedieu-la-Blouère
+zh;维莱迪厄拉布卢埃尔;Villedieu-la-Blouère
+fr;Mont;Ville de Mont
+kk;Вильбаден;Villebadin
+uk;Вільбаден;Villebadin
+zh;维勒巴丹;Villebadin
+uk;Вільоннер;Vilhonneur
+oc;Vilonor;Vilhonneur
+ca;Vilonor;Vilhonneur
+zh;维约纳;Vilhonneur
+ru;Вильоннёр;Vilhonneur
+uk;Віє;Vihiers
+zh;维耶尔;Vihiers
+ca;Vigolen e Ausil;Vigoulet
+oc;Vigolen e Ausil;Vigoulet
+uk;Вігулет-Озій;Vigoulet
+zh;维古莱奥齐;Vigoulet
+ru;Вигулет-Озиль;Vigoulet
+ca;Lo Vielh de Maruelh;Vieux-Mareuil
+kk;Вье-Марей;Vieux-Mareuil
+oc;Vielh Maruelh;Vieux-Mareuil
+uk;Вє-Марей;Vieux-Mareuil
+ru;Вьё-Марёй;Vieux-Mareuil
+zh;弗约马勒伊;Vieux-Mareuil
+ar;فيو;Vieu
+uk;Вє;Vieu
+zh;维厄;Vieu
+fa;ویو;Vieu
+hy;Վյո;Vieu
+ru;Вьё;Vieu
+kk;Вьессуа;Viessoix
+uk;Вєссуа;Viessoix
+ru;Вьесуа;Viessoix
+zh;维耶苏瓦;Viessoix
+fr;Viellenave;Viellenave-sur-Bidouze
+es;Erreiti;Viellenave-sur-Bidouze
+fr;Vichione;Viscione
+ca;Vic de Sòs;Vicdessos
+oc;Vic de Sòs;Vicdessos
+uk;Вікдессос;Vicdessos
+ru;Викдессо;Vicdessos
+zh;维克代索;Vicdessos
+uk;Везе;Vezet
+ru;Везе;Vezet
+uk;Вертю;Vertus
+ru;Вертю;Vertus
+zh;韋爾蒂;Vertus
+uk;Верней-сюр-Авр;Verneuil-sur-Avre
+el;Βερνέιγ-συρ-Αβρ;Verneuil-sur-Avre
+kk;Верней-сюр-Авр;Verneuil-sur-Avre
+ru;Вернёй-сюр-Авр;Verneuil-sur-Avre
+zh;阿夫尔河畔韦尔讷伊;Verneuil-sur-Avre
+fa;ورنویل سور آور;Verneuil-sur-Avre
+kk;Верне-ла-Варенн;Vernet-la-Varenne
+oc;Lo Vernet;Vernet-la-Varenne
+uk;Верне-ла-Варенн;Vernet-la-Varenne
+zh;韦尔内拉瓦朗;Vernet-la-Varenne
+ca;Lo Vernet de la Varena;Vernet-la-Varenne
+fa;ورنت لا ورن;Vernet-la-Varenne
+fa;ورگنس;Vergonnes
+uk;Вергонн;Vergonnes
+zh;韦尔戈内;Vergonnes
+sr;Верден на ле Дуу;Verdun-sur-le-Doubs
+fa;وردس;Verdes
+uk;Верд;Verdes
+zh;韦尔代;Verdes
+uk;Веноск;Vénosc
+ru;Веноск;Vénosc
+zh;韦诺斯克;Vénosc
+fa;ونگئونس;Vengeons
+kk;Ванжон;Vengeons
+uk;Ванжон;Vengeons
+zh;旺容;Vengeons
+kk;Вене-ле-Саблон;Veneux-les-Sablons
+uk;Вене-ле-Саблон;Veneux-les-Sablons
+fa;ونوکس لاس سبلنس;Veneux-les-Sablons
+ru;Вене-Ле-Саблон;Veneux-les-Sablons
+fa;وندوور دود پیتو;Vendeuvre-du-Poitou
+uk;Вандевр-дю-Пуату;Vendeuvre-du-Poitou
+zh;旺德夫勒迪普瓦图;Vendeuvre-du-Poitou
+ru;Вандевр-Дю-Пуату;Vendeuvre-du-Poitou
+br;Gwennel;Vendel
+fa;ولویر;Velluire
+uk;Веллюїр;Velluire
+zh;弗吕伊尔;Velluire
+fa;ولین ان های;Velaine-en-Haye
+kk;Велен-ан-Е;Velaine-en-Haye
+uk;Велен-ан-Е;Velaine-en-Haye
+ru;Велен-ан-Э;Velaine-en-Haye
+zh;艾埃地区韦兰;Velaine-en-Haye
+fa;ویگی فنکنکس;Veigy
+uk;Вежі-Фонснекс;Veigy
+uk;Воландрі;Vaulandry
+zh;沃朗德里;Vaulandry
+fa;واولندری;Vaulandry
+ru;Париж 15 Вожирар;Paris 15 Vaugirard
+kk;Водри;Vaudry
+uk;Водрі;Vaudry
+ru;Водри;Vaudry
+zh;沃德里;Vaudry
+fa;واودریمسنیل;Vaudrimesnil
+kk;Водримени;Vaudrimesnil
+uk;Водримені;Vaudrimesnil
+zh;沃德里梅斯尼;Vaudrimesnil
+fa;وستویل;Vasteville
+kk;Ватвиль;Vasteville
+uk;Ватвіль;Vasteville
+zh;瓦斯特维尔;Vasteville
+fa;وارن سور فوزن;Varennes-sur-Fouzon
+uk;Варенн-сюр-Фузон;Varennes-sur-Fouzon
+ru;Варенн-сюр-Фузон;Varennes-sur-Fouzon
+zh;富宗河畔瓦雷内;Varennes-sur-Fouzon
+br;Gwared;Varades
+fr;Valpaja;Chione
+ca;Valerauga;Valleraugue
+kk;Валлерог;Valleraugue
+oc;Valerauga;Valleraugue
+uk;Валлерог;Valleraugue
+ru;Вальрог;Valleraugue
+zh;瓦勒罗盖;Valleraugue
+ca;Valuelh;Valeuil
+kk;Валей;Valeuil
+oc;Valuelh;Valeuil
+uk;Валей;Valeuil
+ru;Валёй;Valeuil
+zh;瓦勒伊;Valeuil
+kk;Юрвиль-Накевиль;Urville-Nacqueville
+uk;Юрвіль-Накевіль;Urville-Nacqueville
+zh;于尔维尔纳屈埃维尔;Urville-Nacqueville
+ru;Юрвиль-Накевиль;Urville-Nacqueville
+fr;Uriniccio;U Rinicciu
+es;Urkodoi;Urcuray
+eu;Ündüreine;Undurein
+uk;Тюзі;Tuzie
+ru;Тюзи;Tuzie
+zh;蒂齐耶;Tuzie
+fr;Tucce;Tuscia
+fr;Tuarelli;Tuvarelli
+fa;تروتمه لو پتی;Truttemer-le-Petit
+kk;Трюттме-ле-Пети;Truttemer-le-Petit
+uk;Трюттме-ле-Петі;Truttemer-le-Petit
+ur;تروتمے ل پیتی;Truttemer-le-Petit
+ru;Трютме-ле-Пти;Truttemer-le-Petit
+zh;小特吕泰梅;Truttemer-le-Petit
+fa;تروتمه لو گران;Truttemer-le-Grand
+kk;Трюттме-ле-Гран;Truttemer-le-Grand
+uk;Трюттме-ле-Гран;Truttemer-le-Grand
+ur;تروتمے ل گراں;Truttemer-le-Grand
+ru;Трютме-ле-Гран;Truttemer-le-Grand
+zh;大特吕泰梅;Truttemer-le-Grand
+uk;Труссюр;Troussures
+zh;特鲁叙雷;Troussures
+kk;Труасго;Troisgots
+uk;Труасго;Troisgots
+zh;特鲁瓦斯戈特;Troisgots
+br;Trese;Tressé
+br;Tremelar;Tréméloir
+fa;ترملویر;Tréméloir
+kk;Тремелуар;Tréméloir
+uk;Тремелуар;Tréméloir
+ru;Тремелуар;Tréméloir
+zh;特雷梅卢瓦;Tréméloir
+br;Kreneg;Tremblay
+kk;Трелли;Trelly
+uk;Треллі;Trelly
+zh;特雷利;Trelly
+kk;Треньи;Treigny
+uk;Треньї;Treigny
+zh;特雷尼;Treigny
+br;Tregon-Poudour;Trégon
+br;Tregastell;Trégastel
+ar;تريفور-كويسيا;Treffort-Cuisiat
+uk;Треффор-Кюїзья;Treffort-Cuisiat
+zh;特雷福尔－屈伊齐亚;Treffort-Cuisiat
+hy;Տրեֆոր Կյուիզիա;Treffort-Cuisiat
+ru;Треффор-Кюизья;Treffort-Cuisiat
+sr;Турнедо на Сени;Tournedos-sur-Seine
+sr;Турне на Одону;Tournay-sur-Odon
+kk;Турлавиль;Tourlaville
+uk;Турлавіль;Tourlaville
+zh;图尔拉维尔;Tourlaville
+ru;Турлавиль;Tourlaville
+kk;Тост;Tostes
+uk;Тост;Tostes
+zh;托斯泰;Tostes
+kk;Ториньи-сюр-Вир;Torigni-sur-Vire
+uk;Ториньї-сюр-Вір;Torigni-sur-Vire
+zh;维尔河畔托里尼;Torigni-sur-Vire
+ru;Ториньи-Сюр-Вир;Torigni-sur-Vire
+kk;Тордуе;Tordouet
+uk;Тордуе;Tordouet
+ru;Тордуэ;Tordouet
+zh;托尔杜埃;Tordouet
+kk;Тирепье;Tirepied
+uk;Тірепє;Tirepied
+zh;蒂雷皮耶;Tirepied
+kk;Теншебре;Tinchebray
+uk;Теншебре;Tinchebray
+zh;坦谢布赖;Tinchebray
+uk;Тіньє;Tigné
+zh;蒂涅;Tigné
+kk;Тюри-Аркур;Thury-Harcourt
+uk;Тюрі-Аркур;Thury-Harcourt
+ru;Тюри-Аркур;Thury-Harcourt
+zh;蒂里阿尔库尔;Thury-Harcourt
+uk;Туарсе;Thouarcé
+zh;图阿尔塞;Thouarcé
+ru;Туарсе;Thouarcé
+uk;Торан-Гльєр;Thorens-Glières
+uk;Туаретт;Thoirette
+zh;图瓦雷特;Thoirette
+ca;Toiraç;Thoiras
+kk;Туарас;Thoiras
+oc;Toiraç;Thoiras
+uk;Туарас;Thoiras
+zh;图瓦拉;Thoiras
+br;Teiz;Theix
+gv;Teiz;Theix
+kk;Те;Theix
+uk;Те;Theix
+zh;泰镇;Theix
+fr;Theix-Noyalo;Theix
+kk;Тей-сюр-Ванн;Theil-sur-Vanne
+uk;Тей-сюр-Ванн;Theil-sur-Vanne
+zh;瓦讷河畔泰;Theil-sur-Vanne
+fr;Tetti;Teti
+kk;Тесси-сюр-Вир;Tessy-sur-Vire
+uk;Тессі-сюр-Вір;Tessy-sur-Vire
+zh;维尔河畔泰西;Tessy-sur-Vire
+ru;Тесси-Сюр-Вир;Tessy-sur-Vire
+uk;Терміньон;Termignon
+fr;Taulis;Teulís
+ca;Targasona;Targassonne
+eu;Targasona;Targassonne
+kk;Таргассонн;Targassonne
+oc;Targasona;Targassonne
+uk;Таргассонн;Targassonne
+zh;塔尔加松;Targassonne
+eu;Atharratze;Tardets
+fr;Tardets-Sorholus;Tardets
+eu;Atharratze-Sorholüze;Tardets
+ca;Taponac e Florinhac;Taponnat
+oc;Taponac e Florinhac;Taponnat
+uk;Тапонна-Флериньяк;Taponnat
+ru;Тапонна-Флёриньяк;Taponnat
+zh;塔波纳弗勒里尼亚克;Taponnat
+uk;Танкуаньє;Tancoigné
+zh;唐夸涅;Tancoigné
+uk;Таллуар;Talloires
+fr;Tailloroso;Tagliu Rossu
+fr;Taillet;Tellet
+co;Tagliu è Isolacciu;Taglio
+kk;Тальйо-Изолаччо;Taglio
+uk;Тальйо-Ізолаччо;Taglio
+ru;Тальо-Изолаччо;Taglio
+ca;Tabalha e Usquenh;Tabaille
+eu;Tabaila-Uzkaine;Tabaille
+kk;Табай-Юскен;Tabaille
+oc;Tabalha e Usquenh;Tabaille
+uk;Табай-Юскен;Tabaille
+ru;Табай-Юскен;Tabaille
+zh;塔拜尔于斯屈安;Tabaille
+ar;سوتريو، أين;Sutrieu
+hy;Սյուտրիյո;Sutrieu
+uk;Сютріє;Sutrieu
+ru;Сютриё;Sutrieu
+zh;叙特里厄;Sutrieu
+uk;Сюрі;Suris
+ru;Сюри;Suris
+zh;叙里;Suris
+ca;Soçairac;Sousceyrac
+oc;Soçairac;Sousceyrac
+uk;Суссейрак;Sousceyrac
+zh;苏斯塞拉克;Sousceyrac
+kk;Суль;Soulles
+uk;Суль;Soulles
+zh;苏莱;Soulles
+uk;Сулер-е-Бур;Soulaire
+zh;苏莱尔和布尔;Soulaire
+uk;Сусель;Soucelles
+zh;苏瑟莱;Soucelles
+fr;Sottana;Magna Suttana
+ca;Sòrjas;Sorges
+kk;Сорж;Sorges
+uk;Сорж;Sorges
+ru;Сорж;Sorges
+zh;索尔热;Sorges
+fr;Soprana;Magna Suprana
+ca;Sòrts e Òssagòr;Soorts
+eu;Sòrts e Òssagòr;Soorts
+ja;ソール＝オスゴール;Soorts
+kk;Соортс-Оссегор;Soorts
+oc;Sòrts e Òssagòr;Soorts
+uk;Соортс-Оссегор;Soorts
+ru;Сорт-Осгор;Soorts
+zh;索奥尔特奥瑟戈;Soorts
+fr;Soorts-Hossegor;Soorts
+uk;Соннвіль;Sonneville
+ru;Сонвиль;Sonneville
+zh;索纳维尔;Sonneville
+uk;Сольєр-Сардьєр;Sollières-Sardières
+fr;Sœurdres;Soeurdres
+uk;Сердр;Soeurdres
+zh;索厄尔德雷;Soeurdres
+eu;Zokoa;Socoa
+es;Sokoa;Socoa
+kk;Сии-ан-Гуфферн;Silly-en-Gouffern
+uk;Сії-ан-Гуфферн;Silly-en-Gouffern
+zh;古弗尔恩地区西利;Silly-en-Gouffern
+kk;Сигольсайм;Sigolsheim
+uk;Сігольсайм;Sigolsheim
+ru;Сигольсайм;Sigolsheim
+uk;Сейтене;Seythenex
+uk;Сейно;Seynod
+ru;Сейно;Seynod
+ko;센;Seyne-les-Alpes
+uk;Сейн;Seyne-les-Alpes
+ca;Sèina;Seyne-les-Alpes
+oc;Sanha;Seyne-les-Alpes
+ru;Сен;Seyne-les-Alpes
+zh;塞恩;Seyne-les-Alpes
+fr;Seyne;Seyne-les-Alpes
+ca;Severac;Sévérac-le-Château
+oc;Severac del Castèl;Sévérac-le-Château
+uk;Северак-ле-Шато;Sévérac-le-Château
+ru;Северак-ле-Шато;Sévérac-le-Château
+zh;塞韦拉克莱沙托;Sévérac-le-Château
+uk;Серванс;Servance
+ru;Серванс;Servance
+fr;Sertello;Sardellu
+fr;Serralongue;Serrallonga
+uk;Сетмонсель;Septmoncel
+zh;塞普特蒙塞;Septmoncel
+kk;Сепо;Sépeaux
+uk;Сепо;Sépeaux
+zh;塞波;Sépeaux
+uk;Сенільє;Senillé
+zh;塞尼勒;Senillé
+ca;Cencenac e Pueideforchas;Sencenac-Puy-de-Fourches
+kk;Сансенак-Пюи-де-Фурш;Sencenac-Puy-de-Fourches
+oc;Cencenac e Puei de Forchas;Sencenac-Puy-de-Fourches
+uk;Сансенак-Пюї-де-Фурш;Sencenac-Puy-de-Fourches
+zh;桑瑟纳克-皮伊德富尔谢;Sencenac-Puy-de-Fourches
+ru;Сансенак-Пюи-де-Фурш;Sencenac-Puy-de-Fourches
+ja;スグレ;Segré
+uk;Сегре;Segré
+zh;塞格雷;Segré
+ru;Сегре;Segré
+ca;Sent Angeu de Nontronh;Sceau
+kk;Со-Сент-Анжель;Sceau
+oc;Vers Ceus Sent Angeu;Sceau
+uk;Со-Сент-Анжель;Sceau
+ru;Со-Сент-Анжель;Sceau
+zh;斯索圣昂热;Sceau
+fr;Scapa di Noce;Scuffa di a Noce
+uk;Созе-Воссе;Sauzé-Vaussais
+eu;Zalgize;Sauguis
+fr;Sauguis-Saint-Étienne;Sauguis
+eu;Zalgize-Doneztebe;Sauguis
+br;Zalgize-Doneztebe;Sauguis
+ca;Zalgize-Doneztebe;Sauguis
+kk;Согис-Сент-Етьенн;Sauguis
+oc;Sauguís-Sent Estève;Sauguis
+uk;Согіс-Сент-Етьєнн;Sauguis
+ru;Согис-Сент-Этьен;Sauguis
+zh;索吉圣埃蒂安;Sauguis
+fr;Saparo;Milella
+fr;Sant'Antonio;Saint-Antoine
+fr;Santa-Manza;Sant'Amanza
+ca;Sent Ibarç;Saint-Ybard
+kk;Сент-Ибар;Saint-Ybard
+oc;Sanch Ibarch;Saint-Ybard
+uk;Сент-Ібар;Saint-Ybard
+ru;Сент-Ибар;Saint-Ybard
+zh;圣伊巴尔;Saint-Ybard
+ca;Sant Vincènç dau Lauset;Saint-Vincent-les-Forts
+oc;Sant Vincenç dei Fòrts;Saint-Vincent-les-Forts
+uk;Сен-Венсан-ле-Фор;Saint-Vincent-les-Forts
+ru;Сен-Венсан-ле-Фор;Saint-Vincent-les-Forts
+zh;圣万桑莱福尔特;Saint-Vincent-les-Forts
+kk;Сен-Вигор-де-Мезере;Saint-Vigor-des-Mézerets
+uk;Сен-Вігор-де-Мезере;Saint-Vigor-des-Mézerets
+ru;Сен-Вигор-де-Мезре;Saint-Vigor-des-Mézerets
+zh;圣维戈代梅泽雷特;Saint-Vigor-des-Mézerets
+uk;Сен-Вальбер;Saint-Valbert
+ru;Сен-Вальбер;Saint-Valbert
+br;Sant-Tegoneg;Saint-Thégonnec
+gv;Sant-Tegoneg;Saint-Thégonnec
+uk;Сен-Тегоннек;Saint-Thégonnec
+oc;Sant-Tegoneg;Saint-Thégonnec
+kk;Сен-Тегоннек;Saint-Thégonnec
+zh;圣泰戈内克;Saint-Thégonnec
+ru;Сен-Тегоннек;Saint-Thégonnec
+ca;Sant Silvestre;Pragoulin
+uk;Сен-Сільвестр-Прагулен;Pragoulin
+zh;圣西尔韦斯特尔普拉古兰;Pragoulin
+uk;Сен-Сюльпіс-ле-Вердон;Saint-Sulpice-le-Verdon
+zh;圣叙尔皮瑟勒弗尔东;Saint-Sulpice-le-Verdon
+ca;Sent Sulpici e Camairac;Saint-Sulpice
+kk;Сен-Сюльпис-е-Камерак;Saint-Sulpice
+oc;Sent Sulpici e Camairac;Saint-Sulpice
+uk;Сен-Сюльпіс-е-Камерак;Saint-Sulpice
+zh;圣叙尔皮克和卡梅拉克;Saint-Sulpice
+br;Sant-Suleg-al-Lanneier;Saint-Sulpice-des-Landes
+ca;Sent Soplesí de Maruelh;Saint-Sulpice-de-Mareuil
+kk;Сен-Сюльпис-де-Марей;Saint-Sulpice-de-Mareuil
+oc;Sent Soplesí de Maruelh;Saint-Sulpice-de-Mareuil
+uk;Сен-Сюльпіс-де-Марей;Saint-Sulpice-de-Mareuil
+ru;Сен-Сюльпис-де-Марёй;Saint-Sulpice-de-Mareuil
+zh;圣叙尔皮克德马勒伊;Saint-Sulpice-de-Mareuil
+uk;Сен-Сюльпіс-де-Коньяк;Saint-Sulpice-de-Cognac
+ru;Сен-Сюльпис-де-Коньяк;Saint-Sulpice-de-Cognac
+zh;圣叙尔皮克德科尼亚克;Saint-Sulpice-de-Cognac
+uk;Сен-Сіме;Saint-Simeux
+ru;Сен-Симё;Saint-Simeux
+zh;圣西默;Saint-Simeux
+uk;Сен-Севе-Кальвадо;Saint-Sever-Calvados
+kk;Сен-Севе-Кальвадо;Saint-Sever-Calvados
+ru;Сен-Севе-Кальвадос;Saint-Sever-Calvados
+zh;圣瑟韦卡尔瓦多;Saint-Sever-Calvados
+ur;سین-سور-کلودوس;Saint-Sever-Calvados
+fr;Saint-Seurin-d'Uze;Saint-Seurin d'Uzet
+uk;Сен-Савйоль;Saint-Saviol
+ur;سین-سوول;Saint-Saviol
+zh;圣萨维奥;Saint-Saviol
+kk;Сен-Совер-Ланделен;Saint-Sauveur-Lendelin
+uk;Сен-Совер-Ланделен;Saint-Sauveur-Lendelin
+ur;سین-سویر-لیندیلن;Saint-Sauveur-Lendelin
+zh;圣索弗朗代兰;Saint-Sauveur-Lendelin
+ru;Сен-Совер-Ланделен;Saint-Sauveur-Lendelin
+uk;Сен-Совер-де-Ландмон;Saint-Sauveur-de-Landemont
+ur;سین-سویر-دے-لنڈےمونٹ;Saint-Sauveur-de-Landemont
+zh;圣索弗德朗代蒙;Saint-Sauveur-de-Landemont
+uk;Сен-Сатюрнен-сюр-Луар;Saint-Saturnin-sur-Loire
+zh;卢瓦尔河畔圣萨蒂尔南;Saint-Saturnin-sur-Loire
+ur;سین-سترنین-سور-لوئر;Saint-Saturnin-sur-Loire
+ru;Сен-Сатюрнен-Сюр-Луар;Saint-Saturnin-sur-Loire
+kk;Сен-Ромен-ле-Пре;Saint-Romain-le-Preux
+uk;Сен-Ромен-ле-Пре;Saint-Romain-le-Preux
+ur;سین-رومین-لے-ڑےش;Saint-Romain-le-Preux
+zh;圣罗曼勒普勒;Saint-Romain-le-Preux
+uk;Сен-Кантен-ле-Борепер;Saint-Quentin-lès-Beaurepaire
+ur;سین-قینٹین-لیس-بورپیرے;Saint-Quentin-lès-Beaurepaire
+zh;圣屈昂坦莱博雷佩尔;Saint-Quentin-lès-Beaurepaire
+uk;Сен-Кантен-ан-Мож;Saint-Quentin-en-Mauges
+ur;سین-قینٹین-ین-مگس;Saint-Quentin-en-Mauges
+zh;莫热地区圣屈昂坦;Saint-Quentin-en-Mauges
+ca;Sent Proget e Sent Constanç;Saint-Projet
+oc;Sent Proget e Sent Constanç;Saint-Projet
+uk;Сен-Проже-Сен-Констан;Saint-Projet
+ur;سین-پروجیٹ-سین-کانسٹنٹ;Saint-Projet
+ru;Сен-Проже-Сен-Констан;Saint-Projet
+zh;圣普罗热圣孔斯唐;Saint-Projet
+fr;Saint-Priest-les-Vergnas;Saint-Priest
+ru;Сен-Поль-сюр-Мер;Saint-Pol-sur-Mer
+br;Sint-Pols-aan-Zee;Saint-Pol-sur-Mer
+fa;سن پول سور مر;Saint-Pol-sur-Mer
+mzn;سن پول سور مر;Saint-Pol-sur-Mer
+uk;Сен-Поль-сюр-Мер;Saint-Pol-sur-Mer
+sr;Сен Пол сир Мер;Saint-Pol-sur-Mer
+kk;Сен-Пьерр-Тарантен;Saint-Pierre-Tarentaine
+uk;Сен-Пєрр-Тарантен;Saint-Pierre-Tarentaine
+ur;سین-پیری-تیرنتین;Saint-Pierre-Tarentaine
+ru;Сен-Пьер-Тарантен;Saint-Pierre-Tarentaine
+zh;圣皮耶尔塔朗坦;Saint-Pierre-Tarentaine
+kk;Сен-Пьерр-сюр-Див;Saint-Pierre-sur-Dives
+uk;Сен-Пєрр-сюр-Дів;Saint-Pierre-sur-Dives
+ru;Сен-Пьер-сюр-Див;Saint-Pierre-sur-Dives
+zh;迪韦河畔圣皮耶尔;Saint-Pierre-sur-Dives
+ur;سین-پیری-سور-دوس;Saint-Pierre-sur-Dives
+uk;Сен-Пєрр-Монлімар;Saint-Pierre-Montlimart
+ur;سین-پیری-مونتلمارٹ;Saint-Pierre-Montlimart
+zh;圣皮耶尔蒙特利马尔;Saint-Pierre-Montlimart
+kk;Сен-Пьерр-ла-Вьей;Saint-Pierre-la-Vieille
+uk;Сен-Пєрр-ла-Вєй;Saint-Pierre-la-Vieille
+ur;سین-پیری-لا-ویلے;Saint-Pierre-la-Vieille
+ru;Сен-Пьер-ла-Вьей;Saint-Pierre-la-Vieille
+zh;圣皮耶尔拉维耶伊尔;Saint-Pierre-la-Vieille
+kk;Сен-Пьерр-дю-Мений;Saint-Pierre-du-Mesnil
+uk;Сен-Пєрр-дю-Меній;Saint-Pierre-du-Mesnil
+ur;سین-پیری-دو-مسنیل;Saint-Pierre-du-Mesnil
+zh;圣皮耶尔迪梅斯尼;Saint-Pierre-du-Mesnil
+br;Sant-Pêr-Plewenn;Saint-Pierre-de-Plesguen
+kk;Сен-Пьерр-де-Плеган;Saint-Pierre-de-Plesguen
+oc;Sant-Pêr-Plewenn;Saint-Pierre-de-Plesguen
+uk;Сен-Пєрр-де-Плеган;Saint-Pierre-de-Plesguen
+zh;圣皮耶尔德普莱斯盖恩;Saint-Pierre-de-Plesguen
+ur;سین-پیری-دے-پلسگین;Saint-Pierre-de-Plesguen
+ru;Сен-Пьерр-Де-Плеган;Saint-Pierre-de-Plesguen
+uk;Сен-Пєрр-де-Лам;Saint-Pierre-de-Lamps
+ur;سین-پیری-دے-لیمپس;Saint-Pierre-de-Lamps
+ru;Сен-Пьер-де-Лам;Saint-Pierre-de-Lamps
+zh;圣皮耶尔德朗普;Saint-Pierre-de-Lamps
+ca;Sent Peir de Furçac;Saint-Pierre-de-Fursac
+kk;Сен-Пьерр-де-Фюрсак;Saint-Pierre-de-Fursac
+oc;Furçac;Saint-Pierre-de-Fursac
+uk;Сен-Пєрр-де-Фюрсак;Saint-Pierre-de-Fursac
+ur;سین-پیری-دے-فرساک;Saint-Pierre-de-Fursac
+ru;Сен-Пьер-де-Фюрсак;Saint-Pierre-de-Fursac
+zh;圣皮耶尔德菲尔萨克;Saint-Pierre-de-Fursac
+en;Saint-Pierre-dAllevard;Saint-Pierre d'Allevard
+ru;Сен-Пьер-д’Альвар;Saint-Pierre d'Allevard
+zh;圣皮耶尔达勒瓦尔;Saint-Pierre d'Allevard
+fr;Saint-Paul-sur-Yenne;Saint-Paul
+uk;Сен-Патрис;Saint-Patrice
+ur;سینٹ-پترکے;Saint-Patrice
+zh;圣帕特里克;Saint-Patrice
+en;Saint-Pantaly-dAns;Saint-Pantaly-d'Ans
+zh;圣庞塔利当;Saint-Pantaly-d'Ans
+ja;サン＝トゥーアン＝ル＝ウ;Saint-Ouen-le-Houx
+kk;Сент-Уан-ле-У;Saint-Ouen-le-Houx
+uk;Сент-Уан-ле-У;Saint-Ouen-le-Houx
+ur;سینٹ-وں -لے-حوش;Saint-Ouen-le-Houx
+ru;Сент-Уан-лез-У;Saint-Ouen-le-Houx
+zh;圣乌昂莱乌;Saint-Ouen-le-Houx
+kk;Сент-Уан-де-ла-Кур;Saint-Ouen-de-la-Cour
+uk;Сент-Уан-де-ла-Кур;Saint-Ouen-de-la-Cour
+ur;سینٹ-وں -دے-لا-کور;Saint-Ouen-de-la-Cour
+zh;圣乌昂德拉-库;Saint-Ouen-de-la-Cour
+sr;Сен Вен на Сени;Saint-Ouen
+uk;Сент-Оффанж-Дессю;Saint-Offenge-dessus
+ur;سینٹ-وففینگے-دسس;Saint-Offenge-dessus
+uk;Сен-Мішель-Мон-Меркюр;Saint-Michel-Mont-Mercure
+ur;سینٹ-مشیل-مونٹ-مرکرے;Saint-Michel-Mont-Mercure
+zh;圣米舍蒙梅尔屈勒;Saint-Michel-Mont-Mercure
+uk;Сен-Мішель-е-Шанво;Saint-Michel-et-Chanveaux
+ur;سینٹ-مشیل-یت-ہنوےش;Saint-Michel-et-Chanveaux
+zh;圣米舍和尚沃;Saint-Michel-et-Chanveaux
+ca;Sant Michèu;Saint-Michel
+oc;Sant Michèu;Saint-Michel
+uk;Сен-Мішель-де-Шайоль;Saint-Michel
+ru;Сен-Мишель-де-Шайоль;Saint-Michel
+zh;圣米舍德谢洛;Saint-Michel
+ur;سینٹ-مشیل-دے-چیلل;Saint-Michel
+br;Lanvaelvon;Saint-M'Hervon
+br;Sant-Masen-ar-Porzh;Saint-Même-le-Tenu
+oc;Sant-Masen-ar-Porzh;Saint-Même-le-Tenu
+uk;Сен-Мем-ле-Теню;Saint-Même-le-Tenu
+ur;سینٹ-ممے-لے-تنوع;Saint-Même-le-Tenu
+zh;圣梅姆莱特尼;Saint-Même-le-Tenu
+ru;Сен-Мем-Ле-Теню;Saint-Même-le-Tenu
+ca;Sent Maime de Perairòus;Saint-Maime-de-Péreyrol
+kk;Сен-Мем-де-Перероль;Saint-Maime-de-Péreyrol
+oc;Sent Maime de Perairòus;Saint-Maime-de-Péreyrol
+uk;Сен-Мем-де-Перероль;Saint-Maime-de-Péreyrol
+ur;سینٹ-مامے-دے-پرےرول;Saint-Maime-de-Péreyrol
+zh;圣曼德佩雷罗;Saint-Maime-de-Péreyrol
+fr;Saint-Mayme-de-Pereyol;Saint-Maime-de-Péreyrol
+ca;Sant Maurici;Saint-Maurice-en-Valgaudemar
+oc;Sant Maurici en Gaudemar;Saint-Maurice-en-Valgaudemar
+uk;Сен-Морис-ан-Вальгодмар;Saint-Maurice-en-Valgaudemar
+ur;سینٹ-موریس-این -ولگودمرد;Saint-Maurice-en-Valgaudemar
+ru;Сен-Морис-ан-Вальгодмар;Saint-Maurice-en-Valgaudemar
+zh;瓦尔戈代马尔地区圣莫里克;Saint-Maurice-en-Valgaudemar
+ca;Sent Maurise de Ventalon;Saint-Maurice-de-Ventalon
+kk;Сен-Морис-де-Ванталон;Saint-Maurice-de-Ventalon
+oc;Sent Maurise de Ventalon;Saint-Maurice-de-Ventalon
+uk;Сен-Морис-де-Ванталон;Saint-Maurice-de-Ventalon
+ur;سینٹ-موریس-دے-ونتالوں;Saint-Maurice-de-Ventalon
+zh;圣莫里克德旺塔隆;Saint-Maurice-de-Ventalon
+uk;Сен-Матюрен-сюр-Луар;Saint-Mathurin-sur-Loire
+zh;卢瓦尔河畔圣马蒂兰;Saint-Mathurin-sur-Loire
+ur;سینٹ-مطہریں -سر-لڑے;Saint-Mathurin-sur-Loire
+fr;Saint-Mathurin;Saint-Mathurin-sur-Loire
+ru;Сен-Матюрен-Сюр-Луар;Saint-Mathurin-sur-Loire
+kk;Сен-Мартен-сюр-Уанн;Saint-Martin-sur-Ouanne
+uk;Сен-Мартен-сюр-Уанн;Saint-Martin-sur-Ouanne
+ur;سینٹ-مارٹن-سر-عوانے;Saint-Martin-sur-Ouanne
+zh;乌昂河畔圣马尔坦;Saint-Martin-sur-Ouanne
+kk;Сен-Мартен-Дон;Saint-Martin-Don
+uk;Сен-Мартен-Дон;Saint-Martin-Don
+ur;سینٹ-مارٹن-ڈان;Saint-Martin-Don
+ru;Сен-Мартен-Дон;Saint-Martin-Don
+zh;圣马丹东;Saint-Martin-Don
+ca;Sent Martin de Vèrn;Saint-Martin-de-Vers
+oc;Sent Martin de Vèrn;Saint-Martin-de-Vers
+uk;Сен-Мартен-де-Вер;Saint-Martin-de-Vers
+ur;سینٹ-مارٹن-دے-ورس;Saint-Martin-de-Vers
+zh;圣马丹德韦尔;Saint-Martin-de-Vers
+uk;Сен-Мартен-де-Безас;Saint-Martin-des-Besaces
+kk;Сен-Мартен-де-Безас;Saint-Martin-des-Besaces
+ru;Сен-Мартен-де-Безас;Saint-Martin-des-Besaces
+zh;圣马丹代贝萨塞;Saint-Martin-des-Besaces
+ur;سینٹ-مارٹن-دس-بسکس;Saint-Martin-des-Besaces
+uk;Сен-Мартен-де-ла-Плас;Saint-Martin-de-la-Place
+ur;سینٹ-مارٹن-دے-لا-پلیس;Saint-Martin-de-la-Place
+zh;圣马丹德拉-普拉克;Saint-Martin-de-la-Place
+ru;Сен-Мартен-Де-Ла-Плас;Saint-Martin-de-la-Place
+uk;Сен-Мартен-де-Лам;Saint-Martin-de-Lamps
+ur;سینٹ-مارٹن-دے-لیمپس;Saint-Martin-de-Lamps
+ru;Сен-Мартен-де-Лам;Saint-Martin-de-Lamps
+zh;圣马丹德朗普;Saint-Martin-de-Lamps
+kk;Сен-Мартен-де-Фонтене;Saint-Martin-de-Fontenay
+uk;Сен-Мартен-де-Фонтене;Saint-Martin-de-Fontenay
+ur;سینٹ-مارٹن-دے-فونٹنے;Saint-Martin-de-Fontenay
+ru;Сен-Мартен-де-Фонтене;Saint-Martin-de-Fontenay
+zh;圣马丹德丰特奈;Saint-Martin-de-Fontenay
+uk;Сен-Мартен-д'Арсе;Saint-Martin-d'Arcé
+zh;圣马丹达尔塞;Saint-Martin-d'Arcé
+uk;Сен-Мартен-Бельвю;Saint-Martin-Bellevue
+ur;سینٹ-مارٹن-بلووے;Saint-Martin-Bellevue
+ru;Сен-Мартен-Бельвю;Saint-Martin-Bellevue
+ar;سان مارتن أو لايرت;Saint-Martin-au-Laërt
+kk;Сен-Мартен-о-Лаер;Saint-Martin-au-Laërt
+uk;Сен-Мартен-о-Лаер;Saint-Martin-au-Laërt
+ur;سینٹ-مارٹن-او-لیرٹ;Saint-Martin-au-Laërt
+zh;圣马丹欧拉埃尔;Saint-Martin-au-Laërt
+ru;Сен-Мартен-О-Лаер;Saint-Martin-au-Laërt
+br;Sant-Marzh-an-Olivenn;Saint-Mars-la-Jaille
+oc;Sant-Marzh-an-Olivenn;Saint-Mars-la-Jaille
+uk;Сен-Марс-ла-Жай;Saint-Mars-la-Jaille
+ur;سینٹ-مارس-لا-جیلے;Saint-Mars-la-Jaille
+zh;圣马尔拉热尔;Saint-Mars-la-Jaille
+ru;Сен-Марс-Ла-Жай;Saint-Mars-la-Jaille
+br;Sant-Marzh-ar-C'houenon;Saint-Marc-sur-Couesnon
+uk;Сен-Маку;Saint-Macoux
+ur;سینٹ-چوش;Saint-Macoux
+zh;圣马库;Saint-Macoux
+ja;サン＝マケール＝アン＝モージュ;Saint-Macaire-en-Mauges
+uk;Сен-Макер-ан-Мож;Saint-Macaire-en-Mauges
+ur;سینٹ-مکرے-این -مگس;Saint-Macaire-en-Mauges
+zh;莫热地区圣马凯尔;Saint-Macaire-en-Mauges
+ru;Сен-Макэр-ан-Мож;Saint-Macaire-en-Mauges
+uk;Сен-Лу-де-Гонуа;Saint-Loup-de-Gonois
+ur;سینٹ-لوپ-دے-گونوس;Saint-Loup-de-Gonois
+zh;圣卢德贡瓦;Saint-Loup-de-Gonois
+uk;Сен-Лезен;Saint-Lézin
+ur;سینٹ-لیزن;Saint-Lézin
+zh;圣莱赞;Saint-Lézin
+ca;Sent Laurenç de Manoira;Saint-Laurent-sur-Manoire
+kk;Сен-Лоран-сюр-Мануар;Saint-Laurent-sur-Manoire
+oc;Sent Laurenç de Manoire;Saint-Laurent-sur-Manoire
+uk;Сен-Лоран-сюр-Мануар;Saint-Laurent-sur-Manoire
+ur;سینٹ-لارنٹ-سر-منویرے;Saint-Laurent-sur-Manoire
+ru;Сен-Лоран-сюр-Мануар;Saint-Laurent-sur-Manoire
+zh;芒瓦尔河畔圣洛朗;Saint-Laurent-sur-Manoire
+fr;Saint Laurent des bains;Saint-Laurent-les-Bains
+uk;Сен-Лоран-ла-Рош;Saint-Laurent-la-Roche
+ur;سینٹ-لارنٹ-لا-روکھے;Saint-Laurent-la-Roche
+zh;圣洛朗拉罗克;Saint-Laurent-la-Roche
+en;Saint-Laurent-dOingt;Saint-Laurent-d'Oingt
+ca;Sent Laurenç daus Bastons;Saint-Laurent-des-Bâtons
+kk;Сен-Лоран-де-Батон;Saint-Laurent-des-Bâtons
+oc;Sent Laurenç daus Bastons;Saint-Laurent-des-Bâtons
+uk;Сен-Лоран-де-Батон;Saint-Laurent-des-Bâtons
+ur;سینٹ-لارنٹ-دس-بتونس;Saint-Laurent-des-Bâtons
+zh;圣洛朗代巴通;Saint-Laurent-des-Bâtons
+ja;サン＝ローラン＝デゾテル;Saint-Laurent-des-Autels
+uk;Сен-Лоран-дез-Отель;Saint-Laurent-des-Autels
+ur;سینٹ-لارنٹ-دس-اٹلس;Saint-Laurent-des-Autels
+zh;圣洛朗代奥泰尔;Saint-Laurent-des-Autels
+uk;Сен-Лоран-де-ла-Плен;Saint-Laurent-de-la-Plaine
+ur;سینٹ-لارنٹ-دے-لا-پلانے;Saint-Laurent-de-la-Plaine
+zh;圣洛朗德拉-普兰;Saint-Laurent-de-la-Plaine
+fr;Saint-Laurent-de-Cerdans;Sant Llorenç de Cerdans
+uk;Сен-Лоран-де-Бельзаго;Saint-Laurent-de-Belzagot
+ur;سینٹ-لارنٹ-دے-بلزگوٹ;Saint-Laurent-de-Belzagot
+ru;Сен-Лоран-де-Бельзаго;Saint-Laurent-de-Belzagot
+zh;圣洛朗德贝尔扎戈;Saint-Laurent-de-Belzagot
+br;Sant-Laoueneg;Saint-Launeuc
+uk;Сен-Ламбер-дю-Латте;Saint-Lambert-du-Lattay
+ur;سینٹ-لیمبرٹ-دو-لاتے;Saint-Lambert-du-Lattay
+zh;圣朗贝尔迪拉泰;Saint-Lambert-du-Lattay
+ru;Сен-Ламбер-Дю-Латте;Saint-Lambert-du-Lattay
+ca;Sent Julian de Bordelha;Saint-Julien-de-Bourdeilles
+kk;Сен-Жульен-де-Бурдей;Saint-Julien-de-Bourdeilles
+oc;Sent Júlia de Bordelha;Saint-Julien-de-Bourdeilles
+uk;Сен-Жульєн-де-Бурдей;Saint-Julien-de-Bourdeilles
+ur;سینٹ-جلیں -دے-بوردیلیس;Saint-Julien-de-Bourdeilles
+ru;Сен-Жюльен-де-Бурдей;Saint-Julien-de-Bourdeilles
+zh;圣瑞利安德布尔代莱;Saint-Julien-de-Bourdeilles
+br;Sant-Yann-ar-C'houenon;Saint-Jean-sur-Couesnon
+ca;Sant Joan e Montorsièr;Saint-Jean
+oc;Sant Joan Sant Nicolau;Saint-Jean
+uk;Сен-Жан-Сен-Нікола;Saint-Jean
+ur;سینٹ-ژاں -سینٹ-نکولس;Saint-Jean
+ru;Сен-Жан-Сен-Никола;Saint-Jean
+zh;圣让圣尼科拉;Saint-Jean
+ca;Sant Joan;St. Jean-Pla-de-Corts
+fr;Saint-Jean-Pla-de-Corts;St. Jean-Pla-de-Corts
+ca;Sant Joan de Pagès;St. Jean-Pla-de-Corts
+kk;Сен-Жан-дю-Корай;Saint-Jean-du-Corail
+uk;Сен-Жан-дю-Корай;Saint-Jean-du-Corail
+ur;سینٹ-ژاں -دو-کوریل;Saint-Jean-du-Corail
+zh;圣让迪科赖;Saint-Jean-du-Corail
+uk;Сен-Жан-де-Мовре;Saint-Jean-des-Mauvrets
+ur;سینٹ-ژاں -دس-مووریٹس;Saint-Jean-des-Mauvrets
+zh;圣让代莫夫雷特;Saint-Jean-des-Mauvrets
+kk;Сен-Жан-дез-Ессартье;Saint-Jean-des-Essartiers
+uk;Сен-Жан-дез-Ессартьє;Saint-Jean-des-Essartiers
+ur;سینٹ-ژاں -دس-اسرتییرس;Saint-Jean-des-Essartiers
+ru;Сен-Жан-де-Эссартьер;Saint-Jean-des-Essartiers
+zh;圣让代埃萨尔蒂耶尔;Saint-Jean-des-Essartiers
+kk;Сен-Жан-де-Безан;Saint-Jean-des-Baisants
+uk;Сен-Жан-де-Безан;Saint-Jean-des-Baisants
+ur;سینٹ-ژاں -دس-بیسنٹس;Saint-Jean-des-Baisants
+zh;圣让代拜圣;Saint-Jean-des-Baisants
+kk;Сен-Жан-де-ла-Лекре;Saint-Jean-de-la-Léqueraye
+uk;Сен-Жан-де-ла-Лекре;Saint-Jean-de-la-Léqueraye
+ur;سینٹ-ژاں -دے-لا-لقیراے;Saint-Jean-de-la-Léqueraye
+zh;圣让德拉-莱屈埃赖埃;Saint-Jean-de-la-Léqueraye
+fr;Saint-Jean-de-Durfort;Saint-Jean
+br;Sant-Yagu-ar-Menez;Saint-Jacut-du-Mené
+uk;Сен-Іметьєр;Saint-Hymetière
+ur;سینٹ-حیمتییرے;Saint-Hymetière
+zh;圣伊梅蒂埃;Saint-Hymetière
+uk;Сен-Ілер-де-Луле;Saint-Hilaire-de-Loulay
+zh;圣伊莱勒德卢莱;Saint-Hilaire-de-Loulay
+ur;سینٹ-ہلیری-دے-لولے;Saint-Hilaire-de-Loulay
+br;Sant-Ervlon-ar-Roz;Saint-Herblon
+oc;Sant-Ervlon-ar-Roz;Saint-Herblon
+uk;Сен-Ерблон;Saint-Herblon
+zh;圣埃尔布隆;Saint-Herblon
+ru;Сен-Ерблон;Saint-Herblon
+br;Sant-Wenn;Saint-Guen
+br;Sant-Gouenoù;Saint-Gouéno
+kk;Сен-Гуено;Saint-Gouéno
+uk;Сен-Гуено;Saint-Gouéno
+ur;سینٹ-گونو;Saint-Gouéno
+ru;Сен-Гуэно;Saint-Gouéno
+zh;圣古埃诺;Saint-Gouéno
+ca;Sent Gladia;Saint-Gladie
+eu;Arriba;Saint-Gladie
+kk;Сен-Глади-Аррив-Мюнен;Saint-Gladie
+oc;Sent Gladia;Saint-Gladie
+uk;Сен-Гладі-Аррив-Мюнен;Saint-Gladie
+ur;سینٹ-گلادے-ارروے-منین;Saint-Gladie
+ru;Сен-Глади-Аррив-Мюнен;Saint-Gladie
+zh;圣格拉迪耶阿尔里夫米南;Saint-Gladie
+br;Sant-Jili-ar-Menez;Saint-Gilles-du-Mené
+kk;Сен-Жиль-дю-Мене;Saint-Gilles-du-Mené
+uk;Сен-Жиль-дю-Мене;Saint-Gilles-du-Mené
+ur;سینٹ-گلیس-دو-منے;Saint-Gilles-du-Mené
+ru;Сен-Жиль-дю-Мене;Saint-Gilles-du-Mené
+zh;圣吉莱迪梅内;Saint-Gilles-du-Mené
+kk;Сен-Жермен-Виллаж;Saint-Germain-Village
+uk;Сен-Жермен-Віллаж;Saint-Germain-Village
+ur;سینٹ-گرمین-ولیج;Saint-Germain-Village
+zh;圣日尔曼维拉格;Saint-Germain-Village
+uk;Сен-Жермен-сюр-Муан;Saint-Germain-sur-Moine
+zh;穆万河畔圣日尔曼;Saint-Germain-sur-Moine
+ur;سینٹ-گرمین-سر-منے;Saint-Germain-sur-Moine
+kk;Сен-Жермен-дю-Криу;Saint-Germain-du-Crioult
+uk;Сен-Жермен-дю-Кріу;Saint-Germain-du-Crioult
+ur;سینٹ-گرمین-دو-کرولٹ;Saint-Germain-du-Crioult
+ru;Сен-Жермен-дю-Криу;Saint-Germain-du-Crioult
+zh;圣日尔曼迪克里乌尔;Saint-Germain-du-Crioult
+kk;Сен-Жермен-де-Тальванд-ла-Ланд-Вомон;Saint-Germain-de-Tallevende-la-Lande-Vaumont
+mk;Сен Жермен де Талванд ла Ланд Вомон;Saint-Germain-de-Tallevende-la-Lande-Vaumont
+uk;Сен-Жермен-де-Тальванд-ла-Ланд-Вомон;Saint-Germain-de-Tallevende-la-Lande-Vaumont
+ru;Сен-Жермен-де-Тальванд-ла-Ланд-Вомон;Saint-Germain-de-Tallevende-la-Lande-Vaumont
+zh;圣日尔曼德塔勒旺代-拉-朗代-沃蒙;Saint-Germain-de-Tallevende-la-Lande-Vaumont
+ur;سینٹ-گرمین-دے-تلونڈے-لا-لنڈے-وومونٹ;Saint-Germain-de-Tallevende-la-Lande-Vaumont
+fr;Saint-Germain-de-Tallevende;Saint-Germain-de-Tallevende-la-Lande-Vaumont
+ja;サン＝ジェルマン＝デ＝ヴォー;Saint-Germain-des-Vaux
+kk;Сен-Жермен-де-Во;Saint-Germain-des-Vaux
+uk;Сен-Жермен-де-Во;Saint-Germain-des-Vaux
+ur;سینٹ-گرمین-دس-وا;Saint-Germain-des-Vaux
+zh;圣日尔曼代沃;Saint-Germain-des-Vaux
+ca;Sent German de Confolents;Saint-Germain-de-Confolens
+uk;Сен-Жермен-де-Конфолан;Saint-Germain-de-Confolens
+ur;سینٹ-گرمین-دے-کونفولینس;Saint-Germain-de-Confolens
+ru;Сен-Жермен-де-Конфолан;Saint-Germain-de-Confolens
+zh;圣日尔曼德孔福朗;Saint-Germain-de-Confolens
+br;Sant-Gerent;Saint-Géréon
+br;Sant-Jelan;Saint-Gérand
+kk;Сен-Жорж-ан-Ож;Saint-Georges-en-Auge
+uk;Сен-Жорж-ан-Ож;Saint-Georges-en-Auge
+ru;Сен-Жорж-ан-Ож;Saint-Georges-en-Auge
+zh;奥格地区圣若尔热;Saint-Georges-en-Auge
+ur;سینٹ-گیورگس-این -آگے;Saint-Georges-en-Auge
+ja;サン＝ジョルジュ＝デ＝ギャルド;Saint-Georges-des-Gardes
+uk;Сен-Жорж-де-Гард;Saint-Georges-des-Gardes
+ur;سینٹ-گیورگس-دس-گردس;Saint-Georges-des-Gardes
+zh;圣若尔热代加尔代;Saint-Georges-des-Gardes
+kk;Сен-Жорж-дю-Мений;Saint-Georges-du-Mesnil
+uk;Сен-Жорж-дю-Меній;Saint-Georges-du-Mesnil
+ur;سینٹ-گیورگس-دو-مسنیل;Saint-Georges-du-Mesnil
+zh;圣若尔热迪梅斯尼;Saint-Georges-du-Mesnil
+uk;Сен-Жорж-де-Сет-Вуа;Saint-Georges-des-Sept-Voies
+ur;سینٹ-گیورگس-دس-سپت-ووئیس;Saint-Georges-des-Sept-Voies
+zh;圣若尔热代斯-塞普瓦;Saint-Georges-des-Sept-Voies
+uk;Сен-Жорж-де-Монтегю;Saint-Georges-de-Montaigu
+ur;سینٹ-گیورگس-دے-مونٹیگو;Saint-Georges-de-Montaigu
+zh;圣热奥尔热德蒙泰居;Saint-Georges-de-Montaigu
+br;Sant-Jord-Kadeneg;Saint-Georges-de-Chesné
+kk;Сен-Жорж-де-Шене;Saint-Georges-de-Chesné
+oc;Sant-Jord-Kadeneg;Saint-Georges-de-Chesné
+uk;Сен-Жорж-де-Шене;Saint-Georges-de-Chesné
+zh;圣若尔热德谢斯内;Saint-Georges-de-Chesné
+ur;سینٹ-گیورگس-دے-چسنے;Saint-Georges-de-Chesné
+de;St. Genis;Saint-Genis
+br;Sant-Jelven;Saint-Gelven
+uk;Сен-Флоран-ле-Вєй;Saint-Florent-le-Vieil
+zh;圣夫洛朗莱维耶伊;Saint-Florent-le-Vieil
+ur;سینٹ-فلورینٹ-لے-ویل;Saint-Florent-le-Vieil
+uk;Сен-Флоран;Saint-Florent
+ur;سینٹ-فلورینٹ، لویریت;Saint-Florent
+zh;圣夫洛朗;Saint-Florent
+uk;Сен-Флоран-де-Буа;Saint-Florent-des-Bois
+ur;سینٹ-فلورینٹ-دس-بوس;Saint-Florent-des-Bois
+zh;圣夫洛朗代布瓦;Saint-Florent-des-Bois
+ca;Sent Feliç de Relhac e Mòrtamar;Saint-Félix de Reillac
+kk;Сен-Феликс-де-Реяк-е-Мортмар;Saint-Félix de Reillac
+oc;Sent Feliç de Relhac e Mòrta Mar;Saint-Félix de Reillac
+uk;Сен-Фелікс-де-Реяк-е-Мортмар;Saint-Félix de Reillac
+ur;سینٹ-فیلکس-دے-ریلاک-یت-موڑتےمارٹ;Saint-Félix de Reillac
+zh;圣费利德雷拉克-埃特-莫尔泰马尔;Saint-Félix de Reillac
+fr;Saint-Étienne-en-Dévoluy;Le Dévoluy
+br;Sant-Stefan-Gougleiz;Saint-Étienne-en-Coglès
+ca;Sent Estefe de Furçac;Saint-Étienne-de-Fursac
+kk;Сент-Етьенн-де-Фюрсак;Saint-Étienne-de-Fursac
+oc;Furçac;Saint-Étienne-de-Fursac
+uk;Сент-Етьєнн-де-Фюрсак;Saint-Étienne-de-Fursac
+ru;Сент-Этьен-де-Фюрсак;Saint-Étienne-de-Fursac
+zh;圣埃蒂安德菲尔萨克;Saint-Étienne-de-Fursac
+ur;سینٹ-ایٹیینے-دے-فرساک;Saint-Étienne-de-Fursac
+ca;Senta Sabina e Bòrn;Sainte-Sabine-Born
+kk;Сент-Сабин-Борн;Sainte-Sabine-Born
+oc;Senta Sabina e Bòrn;Sainte-Sabine-Born
+uk;Сент-Сабін-Борн;Sainte-Sabine-Born
+ur;سین-سبینے-بورن;Sainte-Sabine-Born
+zh;圣萨班博尔恩;Sainte-Sabine-Born
+oc;Sainte-Marie-de-Rosans;Sainte-Marie
+ca;Chinhac;Sainte-Marie-de-Chignac
+kk;Сент-Мари-де-Шиньяк;Sainte-Marie-de-Chignac
+oc;Chinhac;Sainte-Marie-de-Chignac
+uk;Сент-Марі-де-Шиньяк;Sainte-Marie-de-Chignac
+ur;سین-مرے-دے-چگناک;Sainte-Marie-de-Chignac
+ru;Сент-Мари-де-Шиньяк;Sainte-Marie-de-Chignac
+zh;圣玛丽德希尼亚克;Sainte-Marie-de-Chignac
+ca;Sent Jurvèva;Sainte-Geneviève-sur-Argence
+oc;Sant Jurvèva;Sainte-Geneviève-sur-Argence
+uk;Сент-Женевєв-сюр-Аржанс;Sainte-Geneviève-sur-Argence
+ur;سین-گنویوے-سر-ارگنکے;Sainte-Geneviève-sur-Argence
+ru;Сент-Женевьев-сюр-Аржанс;Sainte-Geneviève-sur-Argence
+zh;阿尔让克河畔圣热纳维耶夫;Sainte-Geneviève-sur-Argence
+en;Sainte-Gemmes-dAndigné;Sainte-Gemmes-d'Andigné
+kk;Сент-Еними;Sainte-Enimie
+ca;Santa Enimia;Sainte-Enimie
+uk;Сент-Енімі;Sainte-Enimie
+oc;Santa Enimia;Sainte-Enimie
+mk;Сент Аними;Sainte-Enimie
+zh;圣埃尼米耶;Sainte-Enimie
+fa;سینت انیمی;Sainte-Enimie
+ja;サンテニミー;Sainte-Enimie
+ur;سین-ینمئے;Sainte-Enimie
+kk;Сент-Ебремон-де-Бонфоссе;Saint-Ébremond-de-Bonfossé
+uk;Сент-Ебремон-де-Бонфоссе;Saint-Ébremond-de-Bonfossé
+ur;سینٹ-ایبرموند-دے-بونفوسسے;Saint-Ébremond-de-Bonfossé
+zh;圣埃布雷蒙德邦福塞;Saint-Ébremond-de-Bonfossé
+ca;Sent Desier e la Tor;Saint-Dizier
+kk;Сен-Дизье-ла-Тур;Saint-Dizier
+oc;Sent Desíer la Tor;Saint-Dizier
+uk;Сен-Дізьє-ла-Тур;Saint-Dizier
+ur;سینٹ-دزئر-لا-طور;Saint-Dizier
+ru;Сен-Дизье-ла-Тур;Saint-Dizier
+zh;圣迪济耶拉图;Saint-Dizier
+ca;Sant Disdier;Saint-Disdier
+oc;Sant Disdier;Saint-Disdier
+uk;Сен-Дідьє;Saint-Disdier
+ur;سینٹ-دسدئر;Saint-Disdier
+zh;圣迪斯迪耶;Saint-Disdier
+kk;Сен-Дени-сюр-Уанн;Saint-Denis-sur-Ouanne
+uk;Сен-Дені-сюр-Уанн;Saint-Denis-sur-Ouanne
+ur;سینٹ-ڈینس-سر-عوانے;Saint-Denis-sur-Ouanne
+zh;乌昂河畔圣但尼;Saint-Denis-sur-Ouanne
+kk;Сен-Дени-Мезонсель;Saint-Denis-Maisoncelles
+uk;Сен-Дені-Мезонсель;Saint-Denis-Maisoncelles
+ur;سینٹ-ڈینس-میسونکلیس;Saint-Denis-Maisoncelles
+ru;Сен-Дени-Мезонсель;Saint-Denis-Maisoncelles
+zh;圣德尼迈松瑟莱;Saint-Denis-Maisoncelles
+uk;Сен-Креспен-сюр-Муан;Saint-Crespin-sur-Moine
+ur;سینٹ-کرسپن-سر-منے;Saint-Crespin-sur-Moine
+zh;穆万河畔圣克雷斯潘;Saint-Crespin-sur-Moine
+ca;Sent Crespin de Richmont;Saint-Crépin-de-Richemont
+kk;Сен-Крепен-де-Ришмон;Saint-Crépin-de-Richemont
+oc;Sent Crespin de Richemont;Saint-Crépin-de-Richemont
+uk;Сен-Крепен-де-Ришмон;Saint-Crépin-de-Richemont
+zh;圣克雷潘德里尚翁;Saint-Crépin-de-Richemont
+ur;سینٹ-کرپن-دے-ریچمونٹ;Saint-Crépin-de-Richemont
+ru;Сен-Крепен-де-Ришмон;Saint-Crépin-de-Richemont
+kk;Сен-Корнье-де-Ланд;Saint-Cornier-des-Landes
+uk;Сен-Корньє-де-Ланд;Saint-Cornier-des-Landes
+ur;سینٹ-کورنیر-دس-لنڈس;Saint-Cornier-des-Landes
+zh;圣科尔涅代朗代;Saint-Cornier-des-Landes
+kk;Сен-Ком-дю-Мон;Saint-Côme-du-Mont
+uk;Сен-Ком-дю-Мон;Saint-Côme-du-Mont
+ur;سینٹ-کومے-دو-مونٹ;Saint-Côme-du-Mont
+zh;圣孔迪蒙;Saint-Côme-du-Mont
+uk;Сен-Кристоф-ла-Купері;Saint-Christophe-la-Couperie
+ur;سینٹ-کروسٹوفے-لا-کوپیرے;Saint-Christophe-la-Couperie
+zh;圣克里斯托夫拉库珀里耶;Saint-Christophe-la-Couperie
+uk;Сен-Кристоф-дю-Люа;Saint-Christophe-du-Luat
+ur;سینٹ-کروسٹوفے-دو-لات;Saint-Christophe-du-Luat
+zh;圣克里斯托夫迪吕阿;Saint-Christophe-du-Luat
+ca;Sent Cristòu dAlèst;Saint-Christol-les-Alès
+kk;Сен-Кристоль-лез-Алес;Saint-Christol-les-Alès
+oc;Sent Cristòu dAlès;Saint-Christol-les-Alès
+uk;Сен-Кристоль-лез-Алес;Saint-Christol-les-Alès
+ur;سینٹ-چرستول-لیس-الث;Saint-Christol-les-Alès
+zh;圣克里斯托莱阿莱;Saint-Christol-les-Alès
+ru;Сен-Кристоль-Лез-Алес;Saint-Christol-les-Alès
+mk;Сен Шели ди Тарн;Saint-Chély-du-Tarn
+br;Sant-Brizh-Gougleiz;Saint-Brice-en-Coglès
+kk;Сен-Брис-ан-Когле;Saint-Brice-en-Coglès
+oc;Sant-Brizh-Gougleiz;Saint-Brice-en-Coglès
+uk;Сен-Брис-ан-Когле;Saint-Brice-en-Coglès
+ur;سینٹ-برکے-این -کوگلیس;Saint-Brice-en-Coglès
+zh;科格莱地区圣布里克;Saint-Brice-en-Coglès
+uk;Сен-Бон-Тарантез;Saint-Bon-Tarentaise
+ur;سینٹ-بون-ٹھہریں تیسے;Saint-Bon-Tarentaise
+ru;Сен-Бон-Тарантез;Saint-Bon-Tarentaise
+fr;Saint-Bonnet-Avalouse;Saint-Bonnet-Avalouze
+ca;Sent Biat;Saint-Béat
+oc;Sent Biat;Saint-Béat
+uk;Сен-Беат;Saint-Béat
+zh;圣贝阿;Saint-Béat
+ur;سینٹ-بات;Saint-Béat
+ru;Сен-Беа;Saint-Béat
+ca;Senta Eulàlia de Pueimangor;Saint-Aulaye
+kk;Сент-Оле;Saint-Aulaye
+oc;Senta Eulàlia;Saint-Aulaye
+uk;Сент-Оле;Saint-Aulaye
+zh;圣奥莱埃;Saint-Aulaye
+ur;سینٹ-اولے;Saint-Aulaye
+ru;Сент-Олей;Saint-Aulaye
+kk;Сент-Обен-ле-Гишар;Saint-Aubin-le-Guichard
+uk;Сент-Обен-ле-Гішар;Saint-Aubin-le-Guichard
+ur;سینٹ-آبن-لے-گیچرڈ;Saint-Aubin-le-Guichard
+zh;圣奥班莱吉沙尔;Saint-Aubin-le-Guichard
+br;Sant-Albin-ar-Pavez;Saint-Aubin-du-Pavail
+kk;Сент-Обен-дю-Павай;Saint-Aubin-du-Pavail
+oc;Sant-Albin-ar-Pavez;Saint-Aubin-du-Pavail
+uk;Сент-Обен-дю-Павай;Saint-Aubin-du-Pavail
+zh;圣奥班迪帕韦;Saint-Aubin-du-Pavail
+ur;سینٹ-آبن-دو-پویل;Saint-Aubin-du-Pavail
+uk;Сент-Обен-де-Люїньє;Saint-Aubin-de-Luigné
+zh;圣奥班德吕伊涅;Saint-Aubin-de-Luigné
+ur;سینٹ-آبن-دے-لگنے;Saint-Aubin-de-Luigné
+kk;Сент-Обен-Шато-Неф;Saint-Aubin-Château-Neuf
+uk;Сент-Обен-Шато-Неф;Saint-Aubin-Château-Neuf
+ur;سینٹ-آبن-چتو-نوف;Saint-Aubin-Château-Neuf
+zh;圣奥班沙托纳;Saint-Aubin-Château-Neuf
+ca;Sent Antòni dArtigalonga;Saint-Antoine
+kk;Сент-Антуан;Saint-Antoine
+oc;Sent Antòni;Saint-Antoine
+uk;Сент-Антуан;Saint-Antoine
+ur;سینٹ-انتوینے، گروندے;Saint-Antoine
+zh;圣昂图万;Saint-Antoine
+kk;Сент-Анж-ле-Вьель;Saint-Ange-le-Viel
+uk;Сент-Анж-ле-Вєль;Saint-Ange-le-Viel
+ur;سینٹ-انگے-لے-ویل;Saint-Ange-le-Viel
+ca;Sent Angeu;Saint-Angeau
+uk;Сент-Анжо;Saint-Angeau
+ru;Сент-Анжо;Saint-Angeau
+zh;圣昂若;Saint-Angeau
+ur;سینٹ-انگو;Saint-Angeau
+uk;Сент-Андре-де-ла-Марш;Saint-André-de-la-Marche
+ur;سینٹ-آندرے-دے-لا-مارچے;Saint-André-de-la-Marche
+zh;圣昂德雷德拉-马尔克;Saint-André-de-la-Marche
+ru;Сент-Андре-Де-Ла-Марш;Saint-André-de-la-Marche
+fr;Saint-André;Sant Andreu de Sureda
+ca;Sant Andreu;Sant Andreu de Sureda
+uk;Сент-Андеоль-ле-Шато;Saint-Andéol-le-Château
+ur;سینٹ-اندول-لے-چتو;Saint-Andéol-le-Château
+ru;Сент-Андеоль-Ле-Шато;Saint-Andéol-le-Château
+ca;Sent Amanç;Saint-Amant-de-Bonnieure
+oc;Sent Amanç;Saint-Amant-de-Bonnieure
+uk;Сент-Аман-де-Боньєр;Saint-Amant-de-Bonnieure
+ur;سینٹ-امانت-دے-بونیرے;Saint-Amant-de-Bonnieure
+ru;Сент-Аман-де-Боньёр;Saint-Amant-de-Bonnieure
+zh;圣阿芒德博涅于尔;Saint-Amant-de-Bonnieure
+uk;Сент-Аман;Saint-Amant-de-Montmoreau
+ur;سینٹ-امانت-دے-مونتمورو;Saint-Amant-de-Montmoreau
+ru;Сент-Аман;Saint-Amant-de-Montmoreau
+zh;圣阿芒;Saint-Amant-de-Montmoreau
+ca;Sench Amand de Colac;Saint-Amand-de-Coly
+kk;Сент-Аман-де-Коли;Saint-Amand-de-Coly
+oc;Sench Amand de Còli;Saint-Amand-de-Coly
+uk;Сент-Аман-де-Колі;Saint-Amand-de-Coly
+zh;圣阿芒德科利;Saint-Amand-de-Coly
+ur;سینٹ-امنڈ-دے-کولے;Saint-Amand-de-Coly
+ca;Senta Alvèra;Sainte-Alvère
+kk;Сент-Альвер;Sainte-Alvère
+oc;Senta Alvèra;Sainte-Alvère
+uk;Сент-Альвер;Sainte-Alvère
+ur;سین-الوری;Sainte-Alvère
+zh;圣阿尔韦尔;Sainte-Alvère
+fr;Saint-Alvère;Sainte-Alvère
+uk;Сент-Еньян-де-Ге;Saint-Aignan-des-Gués
+ur;سینٹ-ایگنان-دس-گیس;Saint-Aignan-des-Gués
+zh;圣艾尼昂代盖;Saint-Aignan-des-Gués
+kk;Русевиль;Rouxeville
+uk;Русевіль;Rouxeville
+zh;鲁克塞维尔;Rouxeville
+uk;Рувре-Сен-Дені;Rouvray-Saint-Denis
+zh;鲁夫赖圣德尼;Rouvray-Saint-Denis
+uk;Румазьєр-Лубер;Roumazières-Loubert
+ca;Romasieras e Loberc;Roumazières-Loubert
+zh;鲁马齐埃卢贝尔;Roumazières-Loubert
+ru;Румазьер-Лубер;Roumazières-Loubert
+uk;Ру-Марсон;Rou
+zh;鲁马尔松;Rou
+kk;Руллур;Roullours
+uk;Руллур;Roullours
+ru;Руллур;Roullours
+zh;鲁卢尔;Roullours
+kk;Рукам;Roucamps
+uk;Рукам;Roucamps
+ru;Рукан;Roucamps
+zh;鲁康普;Roucamps
+fr;Rondolino;Rondulinu
+kk;Роканкур;Rocquancourt
+uk;Роканкур;Rocquancourt
+ru;Рокканкур;Rocquancourt
+zh;罗屈昂库尔;Rocquancourt
+fr;Rivière-Saas-et-Gourby;Rivière
+fr;Riunoguès;Riunoguers
+fr;Rieutort;Rieutort-de-Randon
+uk;Рибє;Ribiers
+ru;Рибьер;Ribiers
+zh;里比耶尔;Ribiers
+ru;Париж 12 Рейи;Paris 12 Reuilly
+br;Remengol;Remungol
+kk;Ременголь;Remungol
+uk;Ременголь;Remungol
+zh;雷曼戈;Remungol
+kk;Ремалар;Rémalard
+uk;Ремалар;Rémalard
+zh;雷马拉尔;Rémalard
+ru;Ремалар;Rémalard
+br;Rekourañs;Recouvrance
+zh;勒库夫朗斯;Recouvrance
+ca;Recolas e Previnquièiras;Recoules-Prévinquières
+oc;Recolas-Previnquièiras;Recoules-Prévinquières
+uk;Рекуль-Превінкєр;Recoules-Prévinquières
+ru;Рекуль-Превенкьер;Recoules-Prévinquières
+zh;雷库莱普雷万基埃;Recoules-Prévinquières
+kk;Равеновиль;Ravenoville
+uk;Равеновіль;Ravenoville
+zh;拉韦诺维尔;Ravenoville
+uk;Ранвіль-Брейо;Ranville
+ru;Ранвиль-Брёйо;Ranville
+zh;朗维尔布勒伊洛;Ranville
+uk;Рантешо;Rantechaux
+zh;朗泰绍;Rantechaux
+kk;Рандонне;Randonnai
+uk;Рандонне;Randonnai
+zh;朗多奈;Randonnai
+ca;Ranconha;Rancogne
+oc;Ranconha;Rancogne
+uk;Ранконь;Rancogne
+ru;Ранконь;Rancogne
+zh;朗科尼;Rancogne
+uk;Рабле-сюр-Лейон;Rablay-sur-Layon
+zh;莱翁河畔拉布莱;Rablay-sur-Layon
+fr;Rablay;Rablay-sur-Layon
+br;Killi;Quily
+kk;Керкевиль;Querqueville
+uk;Керкевіль;Querqueville
+zh;屈埃尔屈埃维尔;Querqueville
+br;Kelenneg;Quelneuc
+kk;Кельнек;Quelneuc
+uk;Кельнек;Quelneuc
+zh;屈埃尔纳克;Quelneuc
+es;Comuna de Putanges-Pont-Écrepin;Putanges-Pont-Écrepin
+kk;Пютанж-Пон-Екрепен;Putanges-Pont-Écrepin
+uk;Пютанж-Пон-Екрепен;Putanges-Pont-Écrepin
+zh;皮唐热蓬埃克雷潘;Putanges-Pont-Écrepin
+ru;Пютанж-Пон-Екрепен;Putanges-Pont-Écrepin
+kk;Прюнуа;Prunoy
+uk;Прюнуа;Prunoy
+zh;普吕努瓦;Prunoy
+uk;Прюїльє;Pruillé
+zh;普吕伊莱;Pruillé
+fr;Prucinasca;Puccinasca
+kk;Прованшер-сюр-Фав;Provenchères-sur-Fave
+uk;Прованшер-сюр-Фав;Provenchères-sur-Fave
+zh;法沃河畔普罗旺谢尔;Provenchères-sur-Fave
+kk;Прусси;Proussy
+uk;Пруссі;Proussy
+ru;Прусси;Proussy
+zh;普鲁西;Proussy
+br;Prizieg;Priziac ( Priziac )
+fr;Priziac;Priziac ( Priziac )
+kk;Призьяк;Priziac ( Priziac )
+uk;Призьяк;Priziac ( Priziac )
+zh;普里齐阿克;Priziac ( Priziac )
+uk;Приссе-ла-Шаррієр;Prissé-la-Charrière
+kk;Прето-Сент-Сюзанн;Prétot-Sainte-Suzanne
+uk;Прето-Сент-Сюзанн;Prétot-Sainte-Suzanne
+zh;普雷托圣叙藏;Prétot-Sainte-Suzanne
+kk;Премьер;Premières
+uk;Премєр;Premières
+ru;Премьер;Premières
+zh;普雷米埃;Premières
+uk;Пре-ан-Пай;Pré-en-Pail
+zh;普雷昂帕伊;Pré-en-Pail
+ru;Пре-Ан-Пай;Pré-en-Pail
+kk;Прекорбен;Précorbin
+uk;Прекорбен;Précorbin
+zh;普雷科尔班;Précorbin
+kk;Прео-Сен-Себастьян;Préaux-Saint-Sébastien
+uk;Прео-Сен-Себастьян;Préaux-Saint-Sébastien
+ru;Прео-Сен-Себастьен;Préaux-Saint-Sébastien
+zh;普雷奥圣塞巴斯蒂安;Préaux-Saint-Sébastien
+ca;Porciuvas e Bocoa;Poursiugues
+kk;Пурсиюг-Буку;Poursiugues
+oc;Porciuvas e Bocoa;Poursiugues
+uk;Пурсіюг-Буку;Poursiugues
+ru;Пурсьюг-Буку;Poursiugues
+zh;普尔西于盖布库埃;Poursiugues
+uk;Пуансе;Pouancé
+zh;普昂塞;Pouancé
+ru;Пуансе;Pouancé
+kk;Пор-Вилле;Port-Villez
+uk;Пор-Вілле;Port-Villez
+fr;Port-Vendres;Portvendres
+fr;Ports-sur-Vienne;Ports
+fr;Portovecchiaccio;Porto Vecchiaccio
+fr;Port de Guipry;Le Port de Guipry
+kk;Порбай;Portbail
+uk;Порбай;Portbail
+zh;波尔特拜;Portbail
+ru;Порбай;Portbail
+ru;Париж 11 Попенкур;Paris 11 Popincourt
+uk;Понтіньє;Pontigné
+zh;蓬蒂涅;Pontigné
+kk;Пон-Фарси;Pont-Farcy
+uk;Пон-Фарсі;Pont-Farcy
+ru;Пон-Фарси;Pont-Farcy
+zh;蓬法尔西;Pont-Farcy
+fr;Ponte-Nuovo;Ponte Novu
+uk;Пон-де-Руад;Pont-de-Roide
+zh;蓬德鲁瓦德;Pont-de-Roide
+de;Pont-de-Roide-Vermondans;Pont-de-Roide
+es;Pont-de-Roide-Vermondans;Pont-de-Roide
+fr;Pont-de-Roide-Vermondans;Pont-de-Roide
+ru;Пон-Де-Руад;Pont-de-Roide
+uk;Поншарра-сюр-Тюрдін;Pontcharra-sur-Turdine
+uk;Понтамафре-Монпаскаль;Pontamafrey-Montpascal
+br;Peurid-ar-Roc'h;Pommerit-Jaudy
+br;Peurid-ar-Roch;Pommerit-Jaudy
+kk;Поммери-Жоди;Pommerit-Jaudy
+uk;Поммері-Жоді;Pommerit-Jaudy
+ru;Помрит-Жоди;Pommerit-Jaudy
+zh;波默里若迪;Pommerit-Jaudy
+fr;Poisay-le-Joli;Poizay
+fr;Poizay-le-Joli;Poizay
+fr;Poisay-le-Joly;Poizay
+fr;Poggi;Pratu Tondu
+kk;Плюво;Pluvault
+uk;Плюво;Pluvault
+ru;Плюво;Pluvault
+zh;普吕沃尔;Pluvault
+br;Pluniav;Pluméliau
+kk;Плюмельйо;Pluméliau
+oc;Pluniav;Pluméliau
+uk;Плюмельйо;Pluméliau
+zh;普吕梅利奥;Pluméliau
+ru;Плюмельйо;Pluméliau
+br;Pludunoù;Pluduno
+br;Plouneour-Traezh;Plounéour-Trez
+kk;Плоюнеур-Тре;Plounéour-Trez
+oc;Plouneour-Traezh;Plounéour-Trez
+uk;Плоюнеур-Тре;Plounéour-Trez
+zh;普卢内乌特雷;Plounéour-Trez
+ru;Плоюнеур-Тре;Plounéour-Trez
+br;Plougonwaz;Plouguenast
+kk;Плугенас;Plouguenast
+uk;Плугенас;Plouguenast
+ru;Плугена;Plouguenast
+zh;普卢盖纳斯;Plouguenast
+br;Plouvalae;Ploubalay
+gv;Plouvalae;Ploubalay
+kk;Плубале;Ploubalay
+uk;Плубале;Ploubalay
+ru;Плубале;Ploubalay
+zh;普卢巴莱;Ploubalay
+br;Plagad;Plouagat
+kk;Плуага;Plouagat
+uk;Плуага;Plouagat
+ru;Плуагат;Plouagat
+zh;普卢阿加;Plouagat
+br;Ploheg;Plœuc-sur-Lié
+kk;Плек-сюр-Лье;Plœuc-sur-Lié
+oc;Ploeuc-sur-Lié;Plœuc-sur-Lié
+uk;Плек-сюр-Льє;Plœuc-sur-Lié
+ru;Плёк-сюр-Лье;Plœuc-sur-Lié
+zh;利埃河畔普洛厄克;Plœuc-sur-Lié
+kk;Плеван;Pléven
+uk;Плеван;Pléven
+ru;Плевен;Pléven
+zh;普莱旺;Pléven
+br;Ar Genkiz-Yuzhael;Plessix-Balisson
+kk;Плесси-Балиссон;Plessix-Balisson
+uk;Плессі-Баліссон;Plessix-Balisson
+ru;Плесси-Балиссон;Plessix-Balisson
+zh;普莱西巴利松;Plessix-Balisson
+br;Plesala;Plessala
+br;Plangonwal;Planguenoual
+gv;Plangonwal;Planguenoual
+kk;Плангенуаль;Planguenoual
+uk;Плангенуаль;Planguenoual
+ru;Плангенуаль;Planguenoual
+zh;普朗盖努阿;Planguenoual
+uk;Плезак;Plaizac
+ru;Плезак;Plaizac
+zh;普莱扎克;Plaizac
+fr;Argelès Plage;la Platja d'Argelers
+nl;Argelès-Plage;la Platja d'Argelers
+fr;Capo di Feno;Pisinale
+br;Pereg;Piré-sur-Seiche
+kk;Пире-сюр-Сеш;Piré-sur-Seiche
+oc;Pereg;Piré-sur-Seiche
+uk;Піре-сюр-Сеш;Piré-sur-Seiche
+zh;塞克河畔皮雷;Piré-sur-Seiche
+ru;Пире-Сюр-Сеш;Piré-sur-Seiche
+uk;Пенсо;Pinsot
+ru;Пенсо;Pinsot
+zh;潘索;Pinsot
+fr;Pinito;Pinetu
+fr;Pinello;Pinellu
+fr;Pietra Moneta;Petra Moneta
+fr;Pietralonga;Petra Longa Filippi
+fr;Pietra Bianca;Pietre Bianche
+fr;Pietra Alba;Pietralba
+kk;Пьерр;Pierres
+uk;Пєрр;Pierres
+ru;Пьер;Pierres
+zh;皮耶尔雷;Pierres
+fa;پیروفیت سور سن;Pierrefitte-sur-Seine
+ja;ピエールフィット＝シュル＝セーヌ;Pierrefitte-sur-Seine
+kk;Пьеррфитт-сюр-Сен;Pierrefitte-sur-Seine
+mzn;پیروفیت سور سن;Pierrefitte-sur-Seine
+uk;Пєррфітт-сюр-Сен;Pierrefitte-sur-Seine
+ko;피에르피트쉬르센;Pierrefitte-sur-Seine
+sr;Пјерфит сир Сен;Pierrefitte-sur-Seine
+ru;Пьеррфитт-Сюр-Сен;Pierrefitte-sur-Seine
+uk;Пєрр-Беніт;Pierre-Bénite
+fr;Pedi Quarciu;Pediquarcio
+fr;Pie del Valdo;Piedivaldo
+kk;Пфаффеноффен;Pfaffenhoffen
+uk;Пфаффеноффен;Pfaffenhoffen
+zh;普法方奥方;Pfaffenhoffen
+ar;بفافينهوفين;Pfaffenhoffen
+fa;پفافنهوفن;Pfaffenhoffen
+ru;Пфаффеноффен;Pfaffenhoffen
+ca;Pairilhac e Milhac;Peyrillac-et-Millac
+kk;Перияк-е-Мияк;Peyrillac-et-Millac
+oc;Pairilhac e Milhac;Peyrillac-et-Millac
+uk;Періяк-е-Міяк;Peyrillac-et-Millac
+zh;佩里拉克和米拉克;Peyrillac-et-Millac
+oc;Pèus e Cofolèus;Peux
+uk;Пе-е-Куффуле;Peux
+ru;Пё-э-Куффулё;Peux
+zh;珀和库富勒;Peux
+co;Pitretu è Bicchisgià;Petreto
+kk;Петрето-Биккизано;Petreto
+oc;Pitretu è Bicchisgià;Petreto
+uk;Петрето-Біккізано;Petreto
+ru;Петрето-Биккизано;Petreto
+br;Perred;Perret
+uk;Перей;Péreuil
+ru;Перёй;Péreuil
+zh;佩勒伊;Péreuil
+co;A Penta è Acquatella;Penta
+kk;Пента-Аккуателла;Penta
+uk;Пента-Аккуателла;Penta
+ru;Пента-Акуателла;Penta
+fr;Pellafol;Vieux Pellafol
+fr;Pedimozza;Pedi Mozza
+uk;Пере;Payré
+zh;佩勒;Payré
+ca;Pauçac e Sent Bebian;Paussac
+kk;Поссак-е-Сен-Вивьян;Paussac
+oc;Paussac e Sent Bebian;Paussac
+uk;Поссак-е-Сен-Вівян;Paussac
+ru;Посак-э-Сен-Вивьен;Paussac
+zh;波萨克和圣维维安;Paussac
+ru;Пасси;Paris 16 Passy
+fr;Pascialello;Pascialella
+fr;Pasciale-Fogliaccia;Bergeries de Fugliaccia
+uk;Парпесе;Parpeçay
+ru;Парпесе;Parpeçay
+zh;帕尔佩赛;Parpeçay
+uk;Парсе-ле-Пен;Parçay-les-Pins
+zh;帕尔赛莱潘;Parçay-les-Pins
+fr;Parapoggio;Parapoghiu
+fr;Pajanello;Paganello
+br;Pembo;Paimboeuf
+fr;Paimbœuf;Paimboeuf
+oc;Pembo;Paimboeuf
+uk;Пембеф;Paimboeuf
+zh;潘博厄;Paimboeuf
+ru;Пембеф;Paimboeuf
+ar;أولينز;Oullins
+fa;اولن;Oullins
+ja;ウラン;Oullins
+mzn;اولن;Oullins
+uk;Уллен;Oullins
+ko;울랭;Oullins
+sr;Улен;Oullins
+uk;Укк;Oucques
+zh;乌屈埃;Oucques
+fr;Ostabat-Asme;Ostabat
+es;Izura-Azme;Ostabat
+es;Izura;Ostabat
+br;Izura-Azme;Ostabat
+ca;Izura-Azme;Ostabat
+eu;Izura-Azme;Ostabat
+ja;オスタバ＝アスム;Ostabat
+kk;Остабат-Асм;Ostabat
+oc;Òstavath-Asme;Ostabat
+uk;Остабат-Асм;Ostabat
+ru;Остабат-Асм;Ostabat
+zh;奥斯塔巴阿斯姆;Ostabat
+eu;Ozaraine;Osserain
+fr;Osserain-Rivareyte;Osserain
+eu;Ozaraine-Erribareita;Osserain
+br;Ozaraine-Erribareita;Osserain
+ca;Ossaranh e Arribarèita;Osserain
+kk;Оссерен-Риварет;Osserain
+oc;Ossaranh-Arribarèita;Osserain
+uk;Оссерен-Риварет;Osserain
+ru;Осерен-Риварет;Osserain
+zh;奥瑟兰里瓦雷特;Osserain
+br;Oc'heg;Ossé
+br;Ocheg;Ossé
+kk;Оссе;Ossé
+oc;Ocheg;Ossé
+uk;Оссе;Ossé
+zh;奥塞;Ossé
+ru;Оссе;Ossé
+eu;Ozaze;Ossas
+fr;Ossas-Suhare;Ossas
+eu;Ozaze-Zühara;Ossas
+br;Ozaze-Zühara;Ossas
+ca;Ozaze-Zühara;Ossas
+kk;Оссас-Сюар;Ossas
+oc;Ossàs-Suhara;Ossas
+uk;Оссас-Сюар;Ossas
+ru;Осас-Сюар;Ossas
+zh;奥萨叙阿尔;Ossas
+uk;Орво-Бельсов;Orveau-Bellesauve
+zh;奥尔沃贝莱索夫;Orveau-Bellesauve
+fr;Ornaso;Ornasu
+fr;Ornacieux-l'Hôte;Ornacieux
+uk;Оршез;Orchaise
+zh;奥尔谢斯;Orchaise
+ca;Aupeda;Oppède le Vieux
+oc;Opeda;Oppède le Vieux
+uk;Оппед;Oppède le Vieux
+ru;Оппед;Oppède le Vieux
+zh;奥佩德;Oppède le Vieux
+fr;Opapo;Opapu
+uk;Онзен;Onzain
+zh;翁赞;Onzain
+ru;Онзен;Onzain
+kk;Омонвиль-ла-Рог;Omonville-la-Rogue
+uk;Омонвіль-ла-Рог;Omonville-la-Rogue
+zh;奥蒙维尔拉罗盖;Omonville-la-Rogue
+kk;Омонвиль-ла-Петит;Omonville-la-Petite
+uk;Омонвіль-ла-Петіт;Omonville-la-Petite
+zh;小奥蒙维尔;Omonville-la-Petite
+uk;Олонн-сюр-Мер;Olonne-sur-Mer
+zh;滨海奥洛纳;Olonne-sur-Mer
+ru;Олонн-Сюр-Мер;Olonne-sur-Mer
+fr;Olmi-Cappella;Olmi
+uk;Ольмі-Каппелла;Olmi
+kk;Ольми-Каппелла;Olmi
+co;Olmi è Cappella;Olmi
+ru;Ольми-Каппелла;Olmi
+es;Olheta;Olhette
+uk;Уарон;Oiron
+fa;اون، فرانسه;Oingt
+uk;Уен;Oingt
+ur;اوئن;Oingt
+ca;Odello;Odeillo
+ru;Париж 14 Обсерватуар;Paris 14 Observatoire
+uk;Нюей-сюр-Лейон;Nueil-sur-Layon
+zh;莱翁河畔尼埃;Nueil-sur-Layon
+ru;Нюей-Сюр-Лейон;Nueil-sur-Layon
+kk;Нуае-Бокаж;Noyers-Bocage
+uk;Нуає-Бокаж;Noyers-Bocage
+ru;Нуайе-Бокаж;Noyers-Bocage
+zh;努瓦埃尔博卡格;Noyers-Bocage
+uk;Нуаян-ла-Гравуаєр;Noyant-la-Gravoyère
+zh;努瓦昂拉格拉瓦埃尔;Noyant-la-Gravoyère
+uk;Нуаян;Noyant
+zh;努瓦昂;Noyant
+ru;Нуаян;Noyant
+br;Noaloù;Noyalo
+ca;Sanilhac;Notre-Dame-de-Sanilhac
+kk;Нотр-Дам-де-Саньяк;Notre-Dame-de-Sanilhac
+oc;Nòstra Dama de Sanilhac;Notre-Dame-de-Sanilhac
+uk;Нотр-Дам-де-Саньяк;Notre-Dame-de-Sanilhac
+ru;Нотр-Дам-де-Санийак;Notre-Dame-de-Sanilhac
+zh;诺特雷-当德萨尼亚克;Notre-Dame-de-Sanilhac
+kk;Нотр-Дам-де-Граваншон;Notre-Dame-de-Gravenchon
+uk;Нотр-Дам-де-Граваншон;Notre-Dame-de-Gravenchon
+ru;Нотр-Дам-Де-Граваншон;Notre-Dame-de-Gravenchon
+kk;Нотр-Дам-де-Курсон;Notre-Dame-de-Courson
+uk;Нотр-Дам-де-Курсон;Notre-Dame-de-Courson
+ru;Нотр-Дам-де-Курсон;Notre-Dame-de-Courson
+zh;诺特雷-当德库尔松;Notre-Dame-de-Courson
+uk;Нонавіль;Nonaville
+ru;Нонавиль;Nonaville
+zh;诺纳维尔;Nonaville
+kk;Нонан-ле-Пен;Nonant-le-Pin
+uk;Нонан-ле-Пен;Nonant-le-Pin
+zh;诺南莱潘;Nonant-le-Pin
+ca;Nojals e Clòtas;Nojals-et-Clotte
+kk;Ножаль-е-Клотт;Nojals-et-Clotte
+oc;Nojals e Clòtas;Nojals-et-Clotte
+uk;Ножаль-е-Клотт;Nojals-et-Clotte
+zh;诺雅尔和克洛特;Nojals-et-Clotte
+uk;Ноелле;Noëllet
+zh;诺厄莱;Noëllet
+ar;نيفوليه-مونغريفون;Nivollet
+hy;Նիվոլե Մոնգրիֆոն;Nivollet
+uk;Ніволле-Монгриффон;Nivollet
+ru;Ниволле-Монгриффон;Nivollet
+zh;尼沃莱－蒙居里丰;Nivollet
+uk;Неві-ан-Мож;Neuvy-en-Mauges
+zh;莫热地区讷维;Neuvy-en-Mauges
+kk;Нассандр;Nassandres
+uk;Нассандр;Nassandres
+zh;纳桑德雷;Nassandres
+ru;Нассандр;Nassandres
+fr;Nantouin;Grand Nantoin
+uk;Нанжевіль;Nangeville
+zh;南热维尔;Nangeville
+fr;Nancroit;Nancroix
+br;Neizin;Naizin
+kk;Незен;Naizin
+uk;Незен;Naizin
+zh;奈赞;Naizin
+br;Mur;Mûr-de-Bretagne
+ja;ミュール＝ド＝ブルターニュ;Mûr-de-Bretagne
+kk;Мюр-де-Бретань;Mûr-de-Bretagne
+uk;Мюр-де-Бретань;Mûr-de-Bretagne
+ru;Мюр-де-Бретань;Mûr-de-Bretagne
+zh;米德布雷塔尼;Mûr-de-Bretagne
+kk;Муайон;Moyon
+uk;Муайон;Moyon
+zh;穆瓦翁;Moyon
+uk;Мутонно;Moutonneau
+ru;Мутонно;Moutonneau
+zh;穆托诺;Moutonneau
+br;Moustoer-Remengol;Moustoir-Remungol
+kk;Муссонвилье;Moussonvilliers
+uk;Муссонвільє;Moussonvilliers
+zh;穆松维利耶尔;Moussonvilliers
+uk;Мугон;Mougon
+ru;Мугон;Mougon
+fr;Morthemart;Mortemart
+kk;Мортен;Mortain
+uk;Мортен;Mortain
+ru;Мортен;Mortain
+zh;莫尔坦;Mortain
+kk;Морсалин;Morsalines
+uk;Морсалін;Morsalines
+zh;莫尔萨利内;Morsalines
+br;Morieg;Morieux
+uk;Море;Morez
+zh;莫雷兹;Morez
+ru;Море;Morez
+uk;Море-сюр-Луен;Moret-sur-Loing
+kk;Море-сюр-Луен;Moret-sur-Loing
+ru;Море-Сюр-Луен;Moret-sur-Loing
+ca;Morcens;Morcenx
+kk;Морсанкс;Morcenx
+oc;Morcens;Morcenx
+uk;Морсанкс;Morcenx
+zh;莫尔桑;Morcenx
+uk;Моранн;Morannes
+zh;莫拉内;Morannes
+ru;Моранн;Morannes
+kk;Монвирон;Montviron
+uk;Монвірон;Montviron
+zh;蒙特维龙;Montviron
+kk;Монсекре;Montsecret
+uk;Монсекре;Montsecret
+zh;蒙特塞克雷;Montsecret
+uk;Монришар;Montrichard
+zh;蒙特里沙尔;Montrichard
+ja;モントリシャール;Montrichard
+ru;Монришар;Montrichard
+ja;モントルヴォー;Montrevault
+uk;Монрево;Montrevault
+zh;蒙特勒沃尔;Montrevault
+ru;Монрево;Montrevault
+de;Montreuil-sur-Mer;Montreuil
+en;Montreuil-sur-Mer;Montreuil
+fr;Montreuil-sur-Mer;Montreuil
+it;Montreuil-sur-Mer;Montreuil
+nl;Montreuil-sur-Mer;Montreuil
+sv;Montreuil-sur-Mer;Montreuil
+uk;Монтрей-Боннен;Montreuil-Bonnin
+zh;蒙特勒伊博南;Montreuil-Bonnin
+uk;Монполлен;Montpollin
+zh;蒙特波兰;Montpollin
+br;Montourz;Montours
+uk;Монморо-Сен-Сібар;Montmoreau-Saint-Cybard
+zh;蒙特莫罗圣西巴尔;Montmoreau-Saint-Cybard
+ru;Монморо-Сен-Сибар;Montmoreau-Saint-Cybard
+uk;Монмен;Montmin
+uk;Монжан-сюр-Луар;Montjean-sur-Loire
+zh;卢瓦尔河畔蒙特让;Montjean-sur-Loire
+uk;Монтіньє;Montigné
+ru;Монтинье;Montigné
+zh;蒙蒂涅;Montigné
+uk;Монтіньяк-Шарант;Montignac-Charente
+zh;蒙蒂尼亚克沙朗特;Montignac-Charente
+ru;Монтиньяк-Шарант;Montignac-Charente
+uk;Монгійон;Montguillon
+zh;蒙特吉隆;Montguillon
+zh-Hant;蒙費朗;Montferrand
+zh;蒙费朗;Montferrand
+uk;Монфокон-Монтіньє;Montfaucon-Montigné
+pl;Montfaucon;Montfaucon-Montigné
+zh;蒙特福孔蒙蒂涅;Montfaucon-Montigné
+fr;Montesquieu-des-Albères;Montesquiu d'Albera
+ca;Montesquiu;Montesquiu d'Albera
+br;Mousterrin;Monterrein
+kk;Монтеррен;Monterrein
+uk;Монтеррен;Monterrein
+zh;蒙泰尔兰;Monterrein
+fr;Monte Estremo;Mont Estremo
+fr;Mont-Denis;Montdenis
+ca;Lo Mont de Lans;Mont-de-Lans
+uk;Мон-де-Лан;Mont-de-Lans
+ru;Мон-де-Ланс;Mont-de-Lans
+zh;蒙德朗;Mont-de-Lans
+ca;Montcuc;Montcuq
+oc;Montcuc;Montcuq
+uk;Монкюк;Montcuq
+zh;蒙居克;Montcuq
+uk;Монкорбон;Montcorbon
+zh;蒙特科尔邦;Montcorbon
+uk;Моншод;Montchaude
+ru;Моншод;Montchaude
+zh;蒙特绍德;Montchaude
+kk;Моншатон;Montchaton
+uk;Моншатон;Montchaton
+zh;蒙特沙通;Montchaton
+kk;Мон-Бертран;Mont-Bertrand
+uk;Мон-Бертран;Mont-Bertrand
+ru;Мон-Бертран;Mont-Bertrand
+zh;蒙贝尔特朗;Mont-Bertrand
+uk;Монбенуа;Montbenoît
+ru;Монбенуа;Montbenoît
+zh;蒙特邦瓦;Montbenoît
+kk;Монтанель;Montanel
+uk;Монтанель;Montanel
+zh;蒙塔内;Montanel
+fr;Montalba-d'Amélie;Montalbà
+ca;Montalbà de Paracolls;Montalbà
+uk;Монтемон;Montaimont
+ca;Montsempron e Libós;Monsempron
+kk;Монсампрон-Либос;Monsempron
+oc;Montsempron e Libós;Monsempron
+uk;Монсампрон-Лібос;Monsempron
+zh;蒙桑普龙利博;Monsempron
+ru;Монсампрон-Либос;Monsempron
+ca;Montsec;Monsec
+kk;Монсек;Monsec
+oc;Mont Sec;Monsec
+uk;Монсек;Monsec
+ru;Монсек;Monsec
+zh;蒙塞克;Monsec
+fr;Monguyard;Montguyard
+uk;Монкутан;Moncoutant
+ru;Монкутан;Moncoutant
+eu;Mitikile;Moncayolle
+fr;Moncayolle-Larrory-Mendibieu;Moncayolle
+eu;Mitikile-Larrori-Mendibile;Moncayolle
+br;Mitikile-Larrori-Mendibile;Moncayolle
+ca;Mitikile-Larrori-Mendibile;Moncayolle
+kk;Монкеоль-Ларрори-Мандибье;Moncayolle
+oc;Montcajòla-Larròri-Mendibiu;Moncayolle
+uk;Монкеоль-Ларрорі-Мандібє;Moncayolle
+ru;Монкейоль-Ларрори-Мандибьё;Moncayolle
+zh;蒙凯奥尔拉尔罗里芒迪比厄;Moncayolle
+fr;Molini;Vieux Molini
+uk;Молінеф;Molineuf
+zh;莫利纳;Molineuf
+fr;Moissat;Moissat Haut
+br;Milizag;Milizac
+ja;ミリザック;Milizac
+kk;Милизак;Milizac
+oc;Milizag;Milizac
+uk;Мілізак;Milizac
+zh;米利扎克;Milizac
+ru;Милизак;Milizac
+zh;米亚克多伯罗克;Milhac-d'Auberoche
+uk;Міньє-Оксанс;Migné
+zh;米格奥克桑瑟;Migné
+uk;Мєллен;Miellin
+ru;Мьеллен;Miellin
+kk;Мезидон-Канон;Mézidon-Canon
+uk;Мезідон-Канон;Mézidon-Canon
+ru;Мезидон-Канон;Mézidon-Canon
+zh;梅齐东康翁;Mézidon-Canon
+uk;Мейте;Meythet
+ru;Мейте;Meythet
+ca;Maironas;Meyronnes
+oc;Maironas;Meyronnes
+uk;Мейронн;Meyronnes
+ru;Мерон;Meyronnes
+zh;梅罗内;Meyronnes
+kk;Мель;Meulles
+uk;Мель;Meulles
+ru;Мёль;Meulles
+zh;默莱;Meulles
+bg;Мец Теси;Metz-Tessy
+uk;Мец-Тессі;Metz-Tessy
+br;Mezeg;Messac
+br;Melin;Meslin
+fr;Freyming-Merlebach;Merlebach
+uk;Мерикур-сюр-Сомм;Méricourt-sur-Somme
+zh;索姆河畔梅里库尔;Méricourt-sur-Somme
+ru;Мерибель;Méribel
+lt;Meribelis;Méribel
+uk;Меон;Méon
+zh;梅翁;Méon
+ru;Менильмонтан;Paris 20 Ménilmontant
+uk;Меле;Melay
+zh;默莱;Melay
+ru;Меле;Melay
+uk;Меньє-ле-Віконт;Meigné-le-Vicomte
+zh;梅涅莱维孔特;Meigné-le-Vicomte
+ca;Maseiras;Mazières
+uk;Мазьєр;Mazières
+ru;Мазьер;Mazières
+zh;马齐埃;Mazières
+kk;Ме-сюр-Орн;May-sur-Orne
+uk;Ме-сюр-Орн;May-sur-Orne
+ru;Ме-сюр-Орн;May-sur-Orne
+zh;奥尔恩河畔迈;May-sur-Orne
+uk;Мозе-Туарсе;Mauzé-Thouarsais
+ca;Mausac e Grandcastanh;Mauzac
+kk;Мозак-е-Гран-Кастан;Mauzac
+oc;Mausac e Grand Castanh;Mauzac
+uk;Мозак-е-Гран-Кастан;Mauzac
+zh;莫扎克和格朗德-卡斯唐;Mauzac
+de;Mauzac et Grand Castang;Mauzac
+br;Anast;Maure-de-Bretagne
+kk;Мор-де-Бретань;Maure-de-Bretagne
+oc;Anast;Maure-de-Bretagne
+uk;Мор-де-Бретань;Maure-de-Bretagne
+zh;莫尔德布雷塔尼;Maure-de-Bretagne
+ru;Мор-Де-Бретань;Maure-de-Bretagne
+br;Malvegon;Maumusson
+kk;Мазево;Masevaux
+uk;Мазево;Masevaux
+zh;马瑟沃;Masevaux
+ru;Мазво;Masevaux
+uk;Мартіньє-Бріан;Martigné-Briand
+zh;马尔蒂涅布里昂;Martigné-Briand
+ca;Marçanés;Marsaneix
+kk;Марсане;Marsaneix
+oc;Marsanés;Marsaneix
+uk;Марсане;Marsaneix
+ru;Марсане;Marsaneix
+zh;马尔萨内;Marsaneix
+fr;Marmontaja;Mormontagna
+uk;Марлан;Marlens
+uk;Мариньї-Бризе;Marigny-Brizay
+zh;马里尼布里泽;Marigny-Brizay
+uk;Мариньє;Marigné
+zh;马里涅;Marigné
+fr;Mareuil-sur-Belle;Mareuil
+kk;Марше-Бетон;Marchais-Beton
+uk;Марше-Бетон;Marchais-Beton
+zh;马尔谢贝通;Marchais-Beton
+uk;Манль;Mansle
+zh;芒斯尔;Mansle
+ru;Манль;Mansle
+uk;Маншкур;Manchecourt
+zh;芒谢库尔;Manchecourt
+ca;Manàuria;Manaurie
+kk;Манори;Manaurie
+oc;Manàuria;Manaurie
+uk;Манорі;Manaurie
+zh;马诺里耶;Manaurie
+fr;Malzone;Amalzone
+kk;Маллуе;Malloué
+uk;Маллуе;Malloué
+ru;Маллуэ;Malloué
+zh;马卢埃;Malloué
+uk;Малавіль;Malaville
+ru;Малавиль;Malaville
+zh;马拉维尔;Malaville
+fr;Mallaville;Malaville
+ca;Malarça;Malarce
+oc;Malarce sur la Thines;Malarce
+uk;Маларс-сюр-ла-Тін;Malarce
+ru;Маларс-сюр-ла-Тин;Malarce
+zh;拉-蒂内河畔马拉尔克;Malarce
+kk;Мезонсель-ла-Журдан;Maisoncelles-la-Jourdan
+uk;Мезонсель-ла-Журдан;Maisoncelles-la-Jourdan
+ru;Мезонсель-ла-Журдан;Maisoncelles-la-Jourdan
+zh;迈松瑟莱拉茹尔当;Maisoncelles-la-Jourdan
+uk;Менкс;Mainxe
+ru;Менкс;Mainxe
+zh;曼克斯;Mainxe
+uk;Менфон;Mainfonds
+ru;Менфон;Mainfonds
+zh;曼丰德;Mainfonds
+fr;Masgrangeas;Magrangeas
+ca;Manhac e Vilars;Magnac-Lavalette-Villars
+uk;Маньяк-Лавалетт-Віллар;Magnac-Lavalette-Villars
+ru;Маньяк-Лавалет-Виллар;Magnac-Lavalette-Villars
+zh;马尼亚克拉瓦莱特维拉尔;Magnac-Lavalette-Villars
+uk;Мако-ла-Плань;Mâcot-la-Plagne
+ur;میکوٹ-لا-پلاگنی;Mâcot-la-Plagne
+ru;Мако-Ла-Плань;Mâcot-la-Plagne
+br;Machikoul;Machecoul
+uk;Машкуль;Machecoul
+oc;Machikoul;Machecoul
+zh;马谢库;Machecoul
+ja;マシュクール;Machecoul
+ur;ماچیکول;Machecoul
+fr;Macello;Macellu
+de;St. Sulpice;Paris 06 Luxembourg
+et;Saint-Sulpice;Paris 06 Luxembourg
+it;Chiesa di Saint Sulpice;Paris 06 Luxembourg
+nl;Saint-Sulpice;Paris 06 Luxembourg
+zh;圣叙尔比斯教堂;Paris 06 Luxembourg
+he;כנסיית סן-סולפיס;Paris 06 Luxembourg
+fr;Paris 06;Paris 06 Luxembourg
+ar;بيلمونت-لوتيزيو;Belmont-Luthézieu
+hy;Բելմոն Լյուտեզյո;Belmont-Luthézieu
+sr;Белмон Литезје;Belmont-Luthézieu
+uk;Бельмон-Лютезьє;Belmont-Luthézieu
+ru;Бельмон-Лютезьё;Belmont-Luthézieu
+zh;贝尔蒙－吕泰齐厄;Belmont-Luthézieu
+ca;Luçanhet e Luçon;Lussagnet
+kk;Люссанье-Люссон;Lussagnet
+oc;Luçanhet e Luçon;Lussagnet
+uk;Люссаньє-Люссон;Lussagnet
+ru;Люсаньет-Люсон;Lussagnet
+zh;吕萨盖吕松;Lussagnet
+br;Loezherieg;Luitré
+uk;Люїньє;Luigné
+zh;吕伊涅;Luigné
+kk;Лозон;Lozon
+uk;Лозон;Lozon
+zh;洛宗;Lozon
+uk;Луверньї;Louvergny
+ru;Луверньи;Louvergny
+zh;卢韦尔尼;Louvergny
+uk;Луресс-Рошменьє;Louresse
+zh;卢雷斯罗谢默涅;Louresse
+kk;Луан;Louhans
+uk;Луан;Louhans
+ja;ルーアン;Louhans
+zh;盧昂;Louhans
+ru;Луан;Louhans
+uk;Луерр;Louerre
+zh;卢埃尔;Louerre
+fr;L'Orche;Orche
+kk;Лонни-о-Перш;Longny-au-Perche
+uk;Лонні-о-Перш;Longny-au-Perche
+zh;隆尼奥佩尔克;Longny-au-Perche
+ru;Ломм;Lomme
+eu;Lohitzüne;Lohitzun
+fr;Lohitzun-Oyhercq;Lohitzun
+eu;Lohitzüne-Oihergi;Lohitzun
+br;Lohitzüne-Oihergi;Lohitzun
+ca;Lohitzüne-Oihergi;Lohitzun
+kk;Лоитзен-Уаерк;Lohitzun
+oc;Lohitzüne-Oihergi;Lohitzun
+uk;Лоїтзен-Уаєрк;Lohitzun
+ru;Лоитзён-Уаэрк;Lohitzun
+zh;卢瓦特赞瓦埃尔;Lohitzun
+br;Lokmaria-Berrien;Locmaria-Berrien
+kk;Локмарья-Берриян;Locmaria-Berrien
+oc;Lokmaria-Berrien;Locmaria-Berrien
+uk;Локмаря-Берріян;Locmaria-Berrien
+zh;洛克马里阿贝尔里安;Locmaria-Berrien
+br;Logeginer-Sant-Tegoneg;Loc-Eguiner-Saint-Thégonnec
+ja;ロック＝エギネール＝サン＝テゴネック;Loc-Eguiner-Saint-Thégonnec
+kk;Лок-Егине-Сен-Тегоннек;Loc-Eguiner-Saint-Thégonnec
+oc;Logeginer-Sant-Tegoneg;Loc-Eguiner-Saint-Thégonnec
+uk;Лок-Егіне-Сен-Тегоннек;Loc-Eguiner-Saint-Thégonnec
+zh;洛克埃吉内圣泰戈内克;Loc-Eguiner-Saint-Thégonnec
+kk;Ливаро;Livarot
+uk;Ліваро;Livarot
+ru;Ливаро;Livarot
+zh;利瓦罗;Livarot
+uk;Ліре;Liré
+zh;利雷;Liré
+uk;Ліньєр-Бутон;Linières-Bouton
+zh;利尼埃布通;Linières-Bouton
+fr;Lijay-en-Ladret;Ligeay
+uk;Ліньєр-Соннвіль;Lignières-Sonneville
+ru;Линьер-Сонвиль;Lignières-Sonneville
+zh;利尼埃索纳维尔;Lignières-Sonneville
+eu;Ligi;Licq
+fr;Licq-Athérey;Licq
+eu;Ligi-Atherei;Licq
+br;Ligi-Atherei;Licq
+ca;Ligi-Atherei;Licq
+kk;Лик-Атере;Licq
+oc;Lic-Aterei;Licq
+uk;Лік-Атере;Licq
+ru;Лик-Атере;Licq
+zh;利阿泰雷;Licq
+eu;Lexantzü;Lichans
+fr;Lichans-Sunhar;Lichans
+eu;Lexantzü-Zunharre;Lichans
+br;Lexantzü-Zünharre;Lichans
+ca;Lexantzü-Zunharre;Lichans
+kk;Лишан-Сенар;Lichans
+oc;Lishans-Sunar;Lichans
+uk;Лішан-Сенар;Lichans
+ru;Лишан-Сюнар;Lichans
+zh;利尚叙纳;Lichans
+fr;L'Hospitalet;Lhospitalet
+fr;L'Hôpital;L'Hôpital-sous-Rochefort
+ar;لوبيتال;Lhôpital
+hy;Լոպիտալ;Lhôpital
+uk;Лопіталь;Lhôpital
+ru;Лопиталь;Lhôpital
+zh;洛皮塔尔;Lhôpital
+br;Peniti-Koedrac'h;L'Hermitage-Lorge
+uk;Ле-Вєй-Боже;Le Vieil-Baugé
+zh;勒维耶伊博热;Le Vieil-Baugé
+kk;Ле-Турнер;Le Tourneur
+uk;Ле-Турнер;Le Tourneur
+pt;Tourneur;Le Tourneur
+ru;Ле-Турнёр;Le Tourneur
+zh;勒图尔纳;Le Tourneur
+uk;Ле-Турей;Le Thoureil
+zh;勒图雷;Le Thoureil
+fr;Le Tech;el Tec
+fa;لز ویس;Les Veys
+kk;Ле-Вей;Les Veys
+uk;Ле-Вей;Les Veys
+pt;Veys;Les Veys
+zh;莱斯韦;Les Veys
+uk;Ле-Верше-сюр-Лейон;Les Verchers-sur-Layon
+zh;莱翁河畔莱斯韦尔谢尔;Les Verchers-sur-Layon
+kk;Ле-Ротур;Les Rotours
+uk;Ле-Ротур;Les Rotours
+pl;Rotours;Les Rotours
+zh;莱斯罗图尔;Les Rotours
+uk;Ле-Розьє-сюр-Луар;Les Rosiers-sur-Loire
+zh;卢瓦尔河畔莱斯罗谢尔;Les Rosiers-sur-Loire
+fr;Les Rosiers;Les Rosiers-sur-Loire
+kk;Ле-Перк;Les Perques
+uk;Ле-Перк;Les Perques
+pt;Perques;Les Perques
+zh;莱斯佩尔屈埃;Les Perques
+uk;Ле-Марш;Les Marches
+ru;Ле-Марш;Les Marches
+fr;Les Grands Cléments;Les Gros Cléments
+ca;Los Grauges;Les Graulges
+kk;Ле-Грольж;Les Graulges
+oc;Los Grauges;Les Graulges
+uk;Ле-Грольж;Les Graulges
+pt;Graulges;Les Graulges
+ru;Ле-Грольж;Les Graulges
+zh;莱斯格罗尔热;Les Graulges
+br;Ar Govelioù;Les Forges
+fr;Les Fauries;Le Rif des Fauries
+ru;Лез-Эзи;Les Eyzies-de-Tayac-Sireuil
+ca;Las Eisiás de Taiac;Les Eyzies-de-Tayac-Sireuil
+uk;Лез-Езі-де-Таяк-Сірей;Les Eyzies-de-Tayac-Sireuil
+kk;Лез-Ези-де-Таяк-Сирей;Les Eyzies-de-Tayac-Sireuil
+el;Λεζ Εϊζί-ντε-Τεγιάκ-Σιρέιγ;Les Eyzies-de-Tayac-Sireuil
+oc;Las Aisiás de Taiac e Siruèlh;Les Eyzies-de-Tayac-Sireuil
+zh;莱塞齐耶德泰阿克-西勒伊;Les Eyzies-de-Tayac-Sireuil
+ru;Лез-Эзи-де-Тайак-Сирёй;Les Eyzies-de-Tayac-Sireuil
+ca;Las Còstas;Les Costes
+fa;لز کوست;Les Costes
+oc;Las Còstas;Les Costes
+uk;Ле-Кост;Les Costes
+ru;Ле-Кост;Les Costes
+zh;莱斯科斯泰;Les Costes
+sr;Шатлије Шатомир;Les Châtelliers-Châteaumur
+uk;Ле-Шательє-Шатомюр;Les Châtelliers-Châteaumur
+zh;莱斯沙泰利耶尔沙托米;Les Châtelliers-Châteaumur
+sr;Серке су Пасаван;Les Cerqueux-sous-Passavant
+uk;Ле-Серке-су-Пассаван;Les Cerqueux-sous-Passavant
+zh;莱斯塞尔屈厄苏帕萨旺;Les Cerqueux-sous-Passavant
+fr;Tignes Les Brévières;Les Brévières
+de;Tignes Les Brévières;Les Brévières
+fr;La Preste les Bains;els Banys de la Presta
+ca;els banys;els Banys de la Presta
+el;Λεζ Αβενιέρ;Les Avenières
+sr;Авнијер;Les Avenières
+uk;Лез-Авеньєр;Les Avenières
+ru;Лез-Авеньер;Les Avenières
+zh;莱萨韦尼埃;Les Avenières
+pl;Authieux-Papion;Les Authieux-Papion
+pt;Authieux-Papion;Les Authieux-Papion
+sr;Отје Папион;Les Authieux-Papion
+pl;Ancizes-Comps;Les Ancizes
+fr;Les Ancizes-Comps;Les Ancizes
+it;Les Ancizes-Comps;Les Ancizes
+nl;Les Ancizes-Comps;Les Ancizes
+pt;Ancizes-Comps;Les Ancizes
+sr;Онсиз-Комп;Les Ancizes
+fr;Le Ru;Ar Ru
+br;Roz-Sant-Andrev;Le Roc-Saint-André
+uk;Ле-Рошро;Le Rochereau
+zh;勒罗舍罗;Le Rochereau
+fr;Racou-Plage;el Racó
+fr;Le Racou;el Racó
+ja;ル・ピュイゼ＝ドレ;Le Puiset-Doré
+uk;Ле-Пюїзе-Доре;Le Puiset-Doré
+zh;勒皮伊塞多雷;Le Puiset-Doré
+br;Ar Pontoù;Le Ponthou
+uk;Ле-Плессі-Масе;Le Plessis-Macé
+zh;勒普莱西马塞;Le Plessis-Macé
+kk;Ле-Плесси-Гриму;Le Plessis-Grimoult
+uk;Ле-Плессі-Гриму;Le Plessis-Grimoult
+pt;Plessis-Grimoult;Le Plessis-Grimoult
+ru;Ле-Плесси-Гримуль;Le Plessis-Grimoult
+zh;勒普莱西格里穆尔;Le Plessis-Grimoult
+fr;Le Pin-Saint-Denis;Saint-Denis-du-Pin
+ja;ル・パン＝アン＝モージュ;Le Pin-en-Mauges
+uk;Ле-Пен-ан-Мож;Le Pin-en-Mauges
+zh;莫热地区勒潘;Le Pin-en-Mauges
+uk;Ле-Петі-Борнан-ле-Гльєр;Le Petit-Bornand-les-Glières
+fr;Le Perthus;el Pertús
+kk;Лено;Lénault
+uk;Лено;Lénault
+ru;Лено;Lénault
+zh;莱诺尔;Lénault
+kk;Ле-Мени-Опак;Le Mesnil-Opac
+uk;Ле-Мені-Опак;Le Mesnil-Opac
+pt;Mesnil-Opac;Le Mesnil-Opac
+zh;勒梅斯尼奥帕克;Le Mesnil-Opac
+kk;Ле-Мени-Ерман;Le Mesnil-Herman
+uk;Ле-Мені-Ерман;Le Mesnil-Herman
+pt;Mesnil-Herman;Le Mesnil-Herman
+zh;勒梅斯尼埃尔芒;Le Mesnil-Herman
+kk;Ле-Мений-Жермен;Le Mesnil-Germain
+uk;Ле-Меній-Жермен;Le Mesnil-Germain
+ru;Ле-Мениль-Жермен;Le Mesnil-Germain
+zh;勒梅斯尼热尔曼;Le Mesnil-Germain
+uk;Ле-Меній-ан-Валле;Le Mesnil-en-Vallée
+zh;瓦莱埃地区勒梅斯尼;Le Mesnil-en-Vallée
+kk;Ле-Мений-Бенуа;Le Mesnil-Benoist
+uk;Ле-Меній-Бенуа;Le Mesnil-Benoist
+pl;Mesnil-Benoist;Le Mesnil-Benoist
+ru;Ле-Мениль-Бенуа;Le Mesnil-Benoist
+zh;勒梅斯尼邦瓦斯;Le Mesnil-Benoist
+kk;Ле-Мерлеро;Le Merlerault
+uk;Ле-Мерлеро;Le Merlerault
+zh;勒梅尔勒罗尔;Le Merlerault
+uk;Ле-Маріє;Le Marillais
+zh;勒马里莱;Le Marillais
+kk;Ле-Маньи;Le Magny
+uk;Ле-Маньї;Le Magny
+zh;莱马尼;Le Magny
+uk;Ле-Луру-Беконне;Le Louroux Béconnais
+zh;勒卢鲁贝科奈;Le Louroux Béconnais
+ru;Ле-Луру-Беконне;Le Louroux Béconnais
+br;Al Loc'h;Le Lou-du-Lac
+br;Al Loch;Le Lou-du-Lac
+kk;Ле-Лу-дю-Лак;Le Lou-du-Lac
+oc;Al Loch;Le Lou-du-Lac
+uk;Ле-Лу-дю-Лак;Le Lou-du-Lac
+pt;Lou-du-Lac;Le Lou-du-Lac
+zh;勒卢迪拉克;Le Lou-du-Lac
+fr;Le Lautaret (Ubaye-Serre-Ponçon);Le Lautaret
+kk;Леон;Léhon
+uk;Леон;Léhon
+ru;Леон;Léhon
+zh;莱翁;Léhon
+fa;ل ارون;Le Héron
+kk;Ле-Ерон;Le Héron
+uk;Ле-Ерон;Le Héron
+sr;О ди Там Шато Ламбер;Haut-du-Them
+uk;О-дю-Там-Шато-Ламбер;Haut-du-Them
+ru;О-дю-Тем-Шато-Ламбер;Haut-du-Them
+ca;Lagulhac de Cercle;Léguillac-de-Cercles
+kk;Легияк-де-Серкль;Léguillac-de-Cercles
+oc;Lagulhac de Cercle;Léguillac-de-Cercles
+uk;Легіяк-де-Серкль;Léguillac-de-Cercles
+ru;Легийак-де-Серкль;Léguillac-de-Cercles
+zh;莱吉拉克德塞尔克莱;Léguillac-de-Cercles
+uk;Ле-Геденйо;Le Guédeniau
+zh;勒盖德尼奥;Le Guédeniau
+br;Gorre;Le Gouray
+fr;Legnecq;Leignecq
+kk;Ле-Гаст;Le Gast
+uk;Ле-Гаст;Le Gast
+pl;Gast;Le Gast
+ru;Ле-Гаст;Le Gast
+zh;勒加斯;Le Gast
+ja;ル・フュイレ;Le Fuilet
+uk;Ле-Фюїє;Le Fuilet
+zh;勒菲伊莱;Le Fuilet
+uk;Ле-Фєф-Совен;Le Fief-Sauvin
+zh;勒菲耶索万;Le Fief-Sauvin
+ca;Les e Atàs;Lées
+kk;Ле-Атас;Lées
+oc;Les e Atàs;Lées
+uk;Ле-Атас;Lées
+ru;Ле-Атас;Lées
+zh;莱埃阿塔;Lées
+kk;Ле-Дезер;Le Désert
+uk;Ле-Дезер;Le Désert
+ru;Ле-Дезер;Le Désert
+zh;勒代塞尔;Le Désert
+fr;La Cluse Basse;la Clusa d'Avall
+ca;la Clusa de Baix;la Clusa d'Avall
+fa;لو شزنه;Le Chesnay
+ja;ル・シェネ;Le Chesnay
+kk;Ле-Шене;Le Chesnay
+mzn;لو شزنه;Le Chesnay
+uk;Ле-Шене;Le Chesnay
+ru;Ле-Шене;Le Chesnay
+zh;勒謝奈;Le Chesnay
+ko;르셰네;Le Chesnay
+sr;Ле Шене;Le Chesnay
+fr;Le Cheix-sur-Morge;Le Cheix
+kk;Ле-Шефрен;Le Chefresne
+sr;Шефрен;Le Chefresne
+uk;Ле-Шефрен;Le Chefresne
+pt;Chefresne;Le Chefresne
+zh;勒舍夫雷斯恩;Le Chefresne
+fr;Le Chayla;Le Chayla d'Ance
+ca;Lo Chamnhe;Le Change
+kk;Ле-Шанж;Le Change
+oc;Lo Chamnhe;Le Change
+uk;Ле-Шанж;Le Change
+zh;勒尚格;Le Change
+ru;Ле-Шанж;Le Change
+sr;Шан сир Лајон;Champ-sur-Layon
+uk;Шам-сюр-Лейон;Champ-sur-Layon
+zh;莱翁河畔尚;Champ-sur-Layon
+ru;Кап Д Агд;Le Cap d'Agde
+br;Ar C'hembod;Le Cambout
+br;Ar Bonoù;Bono
+fr;Le Bono;Bono
+fa;ل بویس;Le Bois
+sr;Боа;Le Bois
+uk;Ле-Буа;Le Bois
+ca;Lo Blumar;Le Bleymard
+kk;Ле-Блеймар;Le Bleymard
+oc;Lo Blumar;Le Bleymard
+sr;Блемар;Le Bleymard
+uk;Ле-Блеймар;Le Bleymard
+zh;勒布莱马尔;Le Bleymard
+kk;Ле-Бени-Бокаж;Le Bény-Bocage
+uk;Ле-Бені-Бокаж;Le Bény-Bocage
+ru;Ле-Бени-Бокаж;Le Bény-Bocage
+zh;勒贝尼博卡格;Le Bény-Bocage
+uk;Лавоссо;Lavausseau
+zh;拉沃索;Lavausseau
+ja;ラ・ヴァレンヌ;La Varenne
+uk;Ла-Варенн;La Varenne
+ur;لا وارین، مینے-اے-لوئر;La Varenne
+zh;拉瓦雷讷;La Varenne
+ru;Ла-Варенн;La Varenne
+fr;La Vaysse;La Vaisse
+fr;La Vaguccia;A Laguccia
+fr;La Vaccaja;A Vaccaja
+fr;La Bacaja;A Vaccaja
+ja;ラ・トゥールランドリー;La Tourlandry
+uk;Ла-Турландрі;La Tourlandry
+ur;لا ٹورلانڈری;La Tourlandry
+zh;拉图尔朗德里;La Tourlandry
+ca;La Tor Blancha;La Tour-Blanche
+eu;La Tor Blancha;La Tour-Blanche
+kk;Ла-Тур-Бланш;La Tour-Blanche
+oc;La Tor Blancha;La Tour-Blanche
+uk;Ла-Тур-Бланш;La Tour-Blanche
+pt;Tour-Blanche;La Tour-Blanche
+zh;拉图布朗克;La Tour-Blanche
+ur;لا ٹور-بلانشے;La Tour-Blanche
+fr;La Testa;A Testa
+uk;Ла-Тардьєр;La Tardière
+ur;لا ٹارڈیری;La Tardière
+zh;拉塔尔迪埃;La Tardière
+fr;las Illas;les Illes
+br;Kell-Gougleiz;La Selle-en-Coglès
+uk;Ла-Саль-е-Шапель-Обрі;La Salle-et-Chapelle-Aubry
+ur;لا سالی-اے-شاپیل-وبری;La Salle-et-Chapelle-Aubry
+zh;拉萨尔和沙佩莱-奥布里;La Salle-et-Chapelle-Aubry
+ja;ラ・サル＝ド＝ヴィイエ;La Salle-de-Vihiers
+uk;Ла-Саль-де-Віє;La Salle-de-Vihiers
+ur;لا سالی-دے-ویہیرس;La Salle-de-Vihiers
+zh;拉萨尔德维耶尔;La Salle-de-Vihiers
+fr;Larribar-Sorhapuru;Larribar
+es;Larribarre-Sorhapürü;Larribar
+es;Larribarre;Larribar
+br;Larribarre-Sorhapürü;Larribar
+ca;Larribarre-Sorhapürü;Larribar
+eu;Larribarre-Sorhapürü;Larribar
+kk;Ларрибар-Сорапюрю;Larribar
+oc;Larribarre-Sorhapürü;Larribar
+uk;Ларрибар-Сорапюрю;Larribar
+ur;لاریبار-سورہاپورو;Larribar
+ru;Ларрибар-Сорапюрю;Larribar
+zh;拉尔里巴索拉皮吕;Larribar
+br;Kerrouz;La Rouxière
+kk;Ла-Руж;La Rouge
+uk;Ла-Руж;La Rouge
+zh;拉鲁格;La Rouge
+br;Ar Roc'h-Derrien;La Roche-Derrien
+br;Ar Roch-Derrien;La Roche-Derrien
+gv;Ar Roch-Derrien;La Roche-Derrien
+ja;ラ・ロッシュ＝デリアン;La Roche-Derrien
+kk;Ла-Рош-Дерриян;La Roche-Derrien
+uk;Ла-Рош-Дерріян;La Roche-Derrien
+ur;لا روشے-ڈیرین;La Roche-Derrien
+ru;Ла-Рош-Дерьен;La Roche-Derrien
+zh;拉罗克代尔里安;La Roche-Derrien
+ca;Ròchabòucòrt;La Rochebeaucourt
+kk;Ла-Рошбокур-е-Аржантин;La Rochebeaucourt
+oc;La Ròcha Beucort e Argentina;La Rochebeaucourt
+uk;Ла-Рошбокур-е-Аржантін;La Rochebeaucourt
+pt;Rochebeaucourt-et-Argentine;La Rochebeaucourt
+zh;拉罗谢博库尔和阿尔让坦;La Rochebeaucourt
+ur;لا روشےبیوکورٹ-اے-ارجنٹین;La Rochebeaucourt
+ru;Ла-Рошбокур-э-Аржантин;La Rochebeaucourt
+fr;Larfeuillère;L'Arfeuillère
+ja;ラ・ルノーディエール;La Renaudière
+uk;Ла-Ренодьєр;La Renaudière
+ur;لا رینوڈیری;La Renaudière
+zh;拉雷诺迪埃;La Renaudière
+uk;Ла-Превєр;La Prévière
+ur;لا پریویری;La Prévière
+zh;拉普雷维埃;La Prévière
+uk;Ла-Пуез;La Pouëze
+zh;拉普厄兹;La Pouëze
+ur;لا پویزی;La Pouëze
+ru;Ла-Пуез;La Pouëze
+es;Plaza;La Place
+fr;La Pietra;Pietra Zitamboli
+ca;La Peirusa;La Péruse
+oc;La Peirusa;La Péruse
+uk;Ла-Перюз;La Péruse
+ru;Ла-Перюз;La Péruse
+zh;拉佩吕斯;La Péruse
+ur;لا پیروسی;La Péruse
+kk;Лантей;Lantheuil
+uk;Лантей;Lantheuil
+ur;لاندیویل;Lantheuil
+ru;Лантёй;Lantheuil
+zh;朗特伊;Lantheuil
+uk;Ланлевіллар;Lanslevillard
+ur;لانسلیولارڈ;Lanslevillard
+ca;Lens-le-Bôrg;Lanslebourg-Mont-Cenis
+uk;Ланлебур-Мон-Сені;Lanslebourg-Mont-Cenis
+ur;لانسلیبرگ-مونٹ-سینس;Lanslebourg-Mont-Cenis
+ru;Ланлебур-Мон-Сени;Lanslebourg-Mont-Cenis
+br;Lannoez;Lanouée
+kk;Лануе;Lanouée
+uk;Лануе;Lanouée
+ur;لانوی;Lanouée
+zh;朗乌埃埃;Lanouée
+ru;Лануе;Lanouée
+br;Lanniskad;Laniscat
+br;Lanhelen;Lanhélin
+kk;Ланелен;Lanhélin
+oc;Lanhelen;Lanhélin
+uk;Ланелен;Lanhélin
+ur;لانہیلین;Lanhélin
+zh;拉内兰;Lanhélin
+br;Langourlae;Langourla
+kk;Лангурла;Langourla
+uk;Лангурла;Langourla
+ru;Лангурла;Langourla
+zh;朗古尔拉;Langourla
+ur;لانگورلا;Langourla
+uk;Ланже;Langey
+zh;朗热;Langey
+br;Lanwal;Langast
+uk;Ла-Невіль-Гарньє;La Neuville-Garnier
+ur;لا نیوویل-گارنیر;La Neuville-Garnier
+zh;拉纳维尔加尔涅;La Neuville-Garnier
+kk;Ландперез;Landepéreuse
+uk;Ландперез;Landepéreuse
+ur;لانڈیپیریوسی;Landepéreuse
+zh;朗代佩勒斯;Landepéreuse
+fr;Ouessant;Lampaul
+es;Ouessant;Lampaul
+pl;Ouessant;Lampaul
+en;Ushant;Lampaul
+de;Ouessant;Lampaul
+br;Enez Eusa;Lampaul
+ceb;Ouessant;Lampaul
+it;Ouessant;Lampaul
+nl;Ouessant;Lampaul
+pt;Ouessant;Lampaul
+ru;Уэссан;Lampaul
+ca;La Móngia e Sent Martin;Lamonzie
+kk;Ламонзи-Сен-Мартен;Lamonzie
+oc;La Mongiá e Sent Martin;Lamonzie
+uk;Ламонзі-Сен-Мартен;Lamonzie
+ur;لامونزی-سین-مارٹین;Lamonzie
+ru;Ламонзи-Сен-Мартен;Lamonzie
+zh;拉蒙齐耶圣马尔坦;Lamonzie
+uk;Ламерак;Lamérac
+ur;لامیراک;Lamérac
+ru;Ламерак;Lamérac
+zh;拉梅拉克;Lamérac
+uk;Ла-Мамброль-сюр-Лонгне;La Membrolle-sur-Longuenée
+ur;لا میمبرول-سور-لونگوینی;La Membrolle-sur-Longuenée
+zh;隆盖内埃河畔拉芒布罗尔;La Membrolle-sur-Longuenée
+ru;Ла-Мамброль-Сюр-Лонгне;La Membrolle-sur-Longuenée
+uk;Ла-Меньянн;La Meignanne
+ur;لا میگنانی;La Meignanne
+zh;拉梅尼昂;La Meignanne
+ru;Ла-Меньянн;La Meignanne
+br;Lambal;Lamballe
+ja;ランバル;Lamballe
+kk;Ламбаль;Lamballe
+uk;Ламбаль;Lamballe
+gv;Lambal;Lamballe
+zh;朗巴尔;Lamballe
+ru;Ламбаль;Lamballe
+ur;لامبالی;Lamballe
+fr;Lamanère;la Menera
+kk;Ла-Мансельер-сюр-Вир;La Mancellière-sur-Vire
+uk;Ла-Мансельєр-сюр-Вір;La Mancellière-sur-Vire
+ur;لا مانسیلیرے-سور-ویری;La Mancellière-sur-Vire
+zh;维尔河畔拉芒塞利埃;La Mancellière-sur-Vire
+es;Alpe d'Huez;L'Alpe-d'Huez
+en;Alpe d'Huez;L'Alpe-d'Huez
+ca;L'Aup d'Uès;L'Alpe-d'Huez
+nl;Alpe d'Huez;L'Alpe-d'Huez
+oc;L'Aup d'Ueis;L'Alpe-d'Huez
+pt;Alpe d'Huez;L'Alpe-d'Huez
+sv;Alpe d'Huez;L'Alpe-d'Huez
+gl;Aup d'Ueis;L'Alpe-d'Huez
+he;אלפ ד'ואז;L'Alpe-d'Huez
+ja;ラ・ジュメリエール;La Jumellière
+uk;Ла-Жумельєр;La Jumellière
+ur;لا جومیلیری;La Jumellière
+zh;拉瑞梅利埃;La Jumellière
+ca;La Jamaia;La Jemaye
+kk;Ла-Жеме;La Jemaye
+oc;La Jamaia;La Jemaye
+uk;Ла-Жеме;La Jemaye
+ur;لا جیمائے;La Jemaye
+pt;Jemaye;La Jemaye
+zh;拉热迈埃;La Jemaye
+kk;Лез-ла-Виль;Laize-la-Ville
+uk;Лез-ла-Віль;Laize-la-Ville
+ur;لائزی-لا-ویل;Laize-la-Ville
+ru;Лез-ла-Виль;Laize-la-Ville
+zh;莱兹拉维尔;Laize-la-Ville
+en;LAiguillon-sur-Mer;L'Aiguillon-sur-Mer
+zh;滨海莱居伊隆;L'Aiguillon-sur-Mer
+uk;Леньє;Laigné
+ur;لائگنی;Laigné
+zh;莱涅;Laigné
+kk;Ла-Е-дю-Пюи;La Haye-du-Puits
+sr;Е ди Пит;La Haye-du-Puits
+uk;Ла-Е-дю-Пюї;La Haye-du-Puits
+ur;لا ہائے-دو-پویٹس;La Haye-du-Puits
+zh;拉艾埃迪皮伊特;La Haye-du-Puits
+kk;Ла-От-Шапель;La Haute-Chapelle
+sr;От Шапел;La Haute-Chapelle
+uk;Ла-От-Шапель;La Haute-Chapelle
+zh;拉奥特沙佩尔;La Haute-Chapelle
+uk;Ла-Гюїоньєр;La Guyonnière
+ur;لا گویونیری;La Guyonnière
+zh;拉居伊奥尼埃;La Guyonnière
+eu;Liginaga;Laguinge
+fr;Laguinge-Restoue;Laguinge
+eu;Liginaga-Astüe;Laguinge
+br;Liginaga-Astüe;Laguinge
+ca;Liginaga-Astüe;Laguinge
+kk;Лагенж-Ресту;Laguinge
+oc;Laguinga-Restoa;Laguinge
+uk;Лагенж-Ресту;Laguinge
+ur;لاگوینج-ریسٹو;Laguinge
+ru;Лагенж-Ресту;Laguinge
+zh;拉吉恩格雷斯图埃;Laguinge
+kk;Ла-Граври;La Graverie
+uk;Ла-Граврі;La Graverie
+ur;لا گراویری;La Graverie
+ru;Ла-Граври;La Graverie
+zh;拉格拉韦里耶;La Graverie
+ca;La Gontariá e Bolonés;La Gonterie-Boulouneix
+kk;Ла-Гонтери-Булунес;La Gonterie-Boulouneix
+oc;La Gontariá e Bolonés;La Gonterie-Boulouneix
+uk;Ла-Гонтері-Булунес;La Gonterie-Boulouneix
+ur;لا گونٹیری-بولونیکس;La Gonterie-Boulouneix
+pt;Gonterie-Boulouneix;La Gonterie-Boulouneix
+ru;Ла-Гонтери-Булуне;La Gonterie-Boulouneix
+zh;拉贡特里耶布卢内;La Gonterie-Boulouneix
+fr;L'Agno;L'Agnu
+kk;Ла-Гласери;La Glacerie
+sr;Гласери;La Glacerie
+uk;Ла-Гласері;La Glacerie
+ur;لا گلاکیری;La Glacerie
+pt;Glacerie;La Glacerie
+zh;镜城;La Glacerie
+sr;Фос де Тиње;La Fosse-de-Tigné
+uk;Ла-Фосс-де-Тіньє;La Fosse-de-Tigné
+ur;لا فوسی-دی-ٹیگنی;La Fosse-de-Tigné
+zh;拉福斯德蒂涅;La Fosse-de-Tigné
+br;Ar Fantanig;La Fontenelle
+uk;Ла-Ферте-Вільней;La Ferté-Villeneuil
+zh;拉弗尔泰维勒纳伊;La Ferté-Villeneuil
+uk;Ла-Феррєр-де-Фле;La Ferrière-de-Flée
+ur;لا فیریری-دی-فلی;La Ferrière-de-Flée
+zh;拉弗尔里埃德弗莱埃;La Ferrière-de-Flée
+br;Kerhouarn;La Ferrière
+uk;Ла-Фот-сюр-Мер;La Faute-sur-Mer
+ur;لا فوٹی-سور-میر;La Faute-sur-Mer
+zh;滨海拉福特;La Faute-sur-Mer
+sr;Дагнијер;La Daguenière
+uk;Ла-Дагеньєр;La Daguenière
+ur;لا ڈاگوینیری;La Daguenière
+zh;拉达盖尼埃;La Daguenière
+fr;La Crociata;Cruciata
+sr;Корнијај;La Cornuaille
+uk;Ла-Корнюай;La Cornuaille
+ur;لا کورنوایلی;La Cornuaille
+zh;拉科尔尼艾尔;La Cornuaille
+ca;La Clusa;La Cluse
+oc;La Clusa;La Cluse
+sr;Клиз;La Cluse
+uk;Ла-Клюз;La Cluse
+ur;لا کلیوسی;La Cluse
+ru;Ла-Клюз;La Cluse
+zh;拉克吕斯;La Cluse
+sr;Шосер;La Chaussaire
+uk;Ла-Шоссер;La Chaussaire
+ur;لا شوسایری;La Chaussaire
+zh;拉绍赛尔;La Chaussaire
+sr;Шапел сир Удон;La Chapelle-sur-Oudon
+uk;Ла-Шапель-сюр-Удон;La Chapelle-sur-Oudon
+ur;لا شاپیل-سور-وڈون;La Chapelle-sur-Oudon
+zh;乌东河畔拉沙佩勒;La Chapelle-sur-Oudon
+br;Chapel-ar-Salver;La Chapelle-Saint-Sauveur
+sr;Шапел Сен Флоран;La Chapelle-Saint-Florent
+uk;Ла-Шапель-Сен-Флоран;La Chapelle-Saint-Florent
+ur;لا شاپیل-سین-فلورینٹ;La Chapelle-Saint-Florent
+zh;拉沙佩勒圣夫洛朗;La Chapelle-Saint-Florent
+ja;ラ・シャペル＝ルスラン;La Chapelle-Rousselin
+uk;Ла-Шапель-Русслен;La Chapelle-Rousselin
+ur;لا شاپیل-روسیلین;La Chapelle-Rousselin
+zh;拉沙佩勒鲁瑟兰;La Chapelle-Rousselin
+kk;Ла-Шапель-Реанвиль;La Chapelle-Réanville
+uk;Ла-Шапель-Реанвіль;La Chapelle-Réanville
+zh;拉沙佩勒雷昂维尔;La Chapelle-Réanville
+ru;Ла-Шапель-Реанвиль;La Chapelle-Réanville
+en;La Chapelle-dAndaine;La Chapelle-d'Andaine
+id;La Chapelle-dAndaine;La Chapelle-d'Andaine
+zh;拉沙佩勒当丹;La Chapelle-d'Andaine
+br;Chapel-Yent;La Chapelle-Janson
+uk;Ла-Шапель-Юллен;La Chapelle-Hullin
+zh;拉沙佩勒于兰;La Chapelle-Hullin
+ur;لا شاپیل-ہولین;La Chapelle-Hullin
+ca;La Chapela de Gresinhac;La Chapelle
+kk;Ла-Шапель-Грезиньяк;La Chapelle
+oc;La Chapela de Gresinhac;La Chapelle
+uk;Ла-Шапель-Грезіньяк;La Chapelle
+pt;Chapelle-Grésignac;La Chapelle
+zh;拉沙佩勒格雷西尼亚克;La Chapelle
+ur;لا شاپیل-گریسیگناک;La Chapelle
+br;Ar Chapel-Wagelin;La Chapelle-Gaceline
+kk;Ла-Шапель-ан-Жуже;La Chapelle-en-Juger
+sr;Шапел ан Жигер;La Chapelle-en-Juger
+uk;Ла-Шапель-ан-Жуже;La Chapelle-en-Juger
+ur;لا شاپیل-این-جوگیر;La Chapelle-en-Juger
+pt;Chapelle-en-Juger;La Chapelle-en-Juger
+zh;瑞热地区拉沙佩勒;La Chapelle-en-Juger
+kk;Ла-Шапель-Анжербо;La Chapelle-Engerbold
+sr;Шапел Ангербол;La Chapelle-Engerbold
+uk;Ла-Шапель-Анжербо;La Chapelle-Engerbold
+ur;لا شاپیل-اینگیربولڈ;La Chapelle-Engerbold
+ru;Ла-Шапель-Энжербольд;La Chapelle-Engerbold
+zh;拉沙佩勒昂热尔博尔;La Chapelle-Engerbold
+br;Chapel-al-Loc'h;La Chapelle-du-Lou
+br;Chapel-Baz-Meur;La Chapelle-Basse-Mer
+ja;ラ・シャペル＝バス＝メール;La Chapelle-Basse-Mer
+oc;Chapel-Baz-Meur;La Chapelle-Basse-Mer
+uk;Ла-Шапель-Басс-Мер;La Chapelle-Basse-Mer
+ur;لا شاپیل-باسی-میر;La Chapelle-Basse-Mer
+zh;拉沙佩勒巴斯梅;La Chapelle-Basse-Mer
+ru;Ла-Шапель-Басс-Мер;La Chapelle-Basse-Mer
+br;Chapel-Karozh;La Chapelle-Caro
+kk;Ла-Шапель-Каро;La Chapelle-Caro
+sr;Шапел Каро;La Chapelle-Caro
+uk;Ла-Шапель-Каро;La Chapelle-Caro
+ur;لا شاپیل-کارو;La Chapelle-Caro
+zh;拉沙佩勒卡罗;La Chapelle-Caro
+eu;Lakarri;Lacarry
+fr;Lacarry-Arhan-Charritte-de-Haut;Lacarry
+eu;Lakarri-Arhane-Sarrikotagaine;Lacarry
+br;Lakarri-Arhane-Sarrikotagaine;Lacarry
+ca;Lakarri-Arhane-Sarrikotagaine;Lacarry
+kk;Лакарри-Аран-Шарритт-де-О;Lacarry
+oc;Lacarri-Aran-Sharrita de Haut;Lacarry
+uk;Лакаррі-Аран-Шарритт-де-О;Lacarry
+ur;لاکاری-ارہان-چاریتی-دی-ہوٹ;Lacarry
+ru;Лакарри-Аран-Шаррит-де-О;Lacarry
+zh;拉卡尔里-阿朗-沙尔里特德奥;Lacarry
+ca;La Calm;Lacalm
+oc;La Calm;Lacalm
+uk;Лакальм;Lacalm
+ur;لاکالم;Lacalm
+ru;Лакальм;Lacalm
+zh;拉卡尔姆;Lacalm
+fr;La Callustra;Calustra
+ca;La Breula;La Bréole
+oc;La Breula;La Bréole
+uk;Ла-Бреоль;La Bréole
+ru;Ла-Бреоль;La Bréole
+zh;拉布雷奥尔;La Bréole
+ja;ラ・ボワシエール＝シュル＝エヴル;La Boissière-sur-Èvre
+sr;Боасјер сир Евр;La Boissière-sur-Èvre
+uk;Ла-Буассєр-сюр-Евр;La Boissière-sur-Èvre
+ur;لا بویسییری-سور-یوری;La Boissière-sur-Èvre
+zh;埃夫尔河畔拉布瓦西埃;La Boissière-sur-Èvre
+sr;Боал;La Bohalle
+uk;Ла-Боаль;La Bohalle
+ur;لا بوہالی;La Bohalle
+zh;拉博阿尔;La Bohalle
+fr;Labets-Biscay;Labets
+es;Labetze-Bizkai;Labets
+es;Labetze;Labets
+br;Labetze-Bizkai;Labets
+ca;Labetze-Bizkai;Labets
+eu;Labetze-Bizkai;Labets
+kk;Лабетс-Бискай;Labets
+oc;Labets-Biscai;Labets
+uk;Лабетс-Біскай;Labets
+ur;لابیٹس-بیسکای;Labets
+ru;Лабетс-Биске;Labets
+zh;拉贝特比斯凯;Labets
+br;Kervernarzh;La Bernardière
+sr;Бернардјер;La Bernardière
+uk;Ла-Бернардьєр;La Bernardière
+ur;لا بیرنارڈییری;La Bernardière
+zh;拉贝尔纳尔迪埃;La Bernardière
+kk;Ла-Барош-су-Люсе;La Baroche-sous-Lucé
+sr;Барош су Лисе;La Baroche-sous-Lucé
+uk;Ла-Барош-су-Люсе;La Baroche-sous-Lucé
+zh;拉巴罗克苏吕塞;La Baroche-sous-Lucé
+kk;Кинцайм;Kientzheim
+sr;Кинцхајм;Kientzheim
+uk;Кінцайм;Kientzheim
+ru;Кьенцхайм;Kientzheim
+zh;基安特赞;Kientzheim
+sr;Кајзерсберг;Kaysersberg
+ja;ケゼルスベール;Kaysersberg
+kk;Кезерсберг;Kaysersberg
+uk;Кезерсберг;Kaysersberg
+ru;Кайзерсберг;Kaysersberg
+zh;凯塞尔斯贝尔;Kaysersberg
+he;קייסרסברג;Kaysersberg
+kk;Жувиньи-су-Анден;Juvigny-sous-Andaine
+uk;Жувіньї-су-Анден;Juvigny-sous-Andaine
+zh;瑞维尼苏桑代讷;Juvigny-sous-Andaine
+kk;Журк;Jurques
+uk;Журк;Jurques
+ru;Жюрк;Jurques
+zh;瑞尔克;Jurques
+uk;Журиньяк;Jurignac
+ru;Жюриньяк;Jurignac
+zh;瑞里尼亚克;Jurignac
+fr;Jumilhac-de-Côle;Jumilhac
+ca;Julhaguet;Juillaguet
+uk;Жуяге;Juillaguet
+ru;Жюйаге;Juillaguet
+zh;瑞伊拉盖;Juillaguet
+ru;Жюан-ле-Пен;Juan-les-Pins
+oc;Joan dei Pins;Juan-les-Pins
+zh;瑞昂莱潘;Juan-les-Pins
+ar;جوان لي بان;Juan-les-Pins
+ja;ジュアン・レ・パン;Juan-les-Pins
+az;Jüan-le-Pen;Juan-les-Pins
+he;ז'ואן-לה-פן;Juan-les-Pins
+br;Yaoued;Bourg de Joué-sur-Erdre
+fr;Joué-sur-Erdre;Bourg de Joué-sur-Erdre
+oc;Yaoued;Bourg de Joué-sur-Erdre
+uk;Жуе-сюр-Ердр;Bourg de Joué-sur-Erdre
+zh;埃尔德尔河畔茹埃;Bourg de Joué-sur-Erdre
+ru;Жуэ-сюр-Эрдр;Bourg de Joué-sur-Erdre
+kk;Жобур;Jobourg
+uk;Жобур;Jobourg
+zh;若布尔;Jobourg
+kk;Жефосс;Jeufosse
+uk;Жефосс;Jeufosse
+uk;Жансаньєр;Jeansagnière
+zh;让萨尼埃;Jeansagnière
+kk;Жаволь;Javols
+uk;Жаволь;Javols
+ur;جوولس;Javols
+zh;雅沃尔;Javols
+ca;Javerlhac e la Chapela Sent Robert;Javerlhac
+kk;Жаверлак-е-ла-Шапель-Сен-Робер;Javerlhac
+oc;Javerlhac e La Chapela Sent Robert;Javerlhac
+uk;Жаверлак-е-ла-Шапель-Сен-Робер;Javerlhac
+zh;雅韦尔亚克和拉-沙佩莱-圣罗贝尔;Javerlhac
+ur;جویرلہاک-یت-لا-چپللے -سینٹ-رابرٹ;Javerlhac
+ru;Жаверлак-э-ла-Шапель-Сен-Робер;Javerlhac
+uk;Жоне-Клан;Jaunay-Clan
+zh;若奈克朗;Jaunay-Clan
+ja;ジャレ;Jallais
+uk;Жалле;Jallais
+ur;جللیث;Jallais
+eu;Ithorrotze;Ithorots
+fr;Ithorots-Olhaïby;Ithorots
+fr;Iola;Jola
+ar;إنهيم;Inghem
+kk;Енгем;Inghem
+uk;Енгем;Inghem
+zh;安盖姆;Inghem
+eu;Idauze;Idaux
+fr;Idaux-Mendy;Idaux
+eu;Idauze-Mendi;Idaux
+br;Idauze-Mendi;Idaux
+ca;Idauze-Mendi;Idaux
+kk;Идокс-Манди;Idaux
+oc;Idauze-Mendi;Idaux
+uk;Ідокс-Манді;Idaux
+ru;Идо-Манди;Idaux
+zh;伊多芒迪;Idaux
+uk;Юїльє;Huillé
+zh;于伊莱;Huillé
+ar;هوبي سان ليو;Huby-Saint-Leu
+kk;Юби-Сен-Ле;Huby-Saint-Leu
+uk;Юбі-Сен-Ле;Huby-Saint-Leu
+zh;于比圣勒;Huby-Saint-Leu
+ar;هوتون;Hotonnes
+uk;Отонн;Hotonnes
+ru;Отон;Hotonnes
+zh;奥托恩;Hotonnes
+hy;Հոտոն;Hotonnes
+ka;პარიზის მერია;Paris 04 Hôtel-de-Ville
+kk;Ольцвир;Holtzwihr
+uk;Ольцвір;Holtzwihr
+ru;Хольцвир;Holtzwihr
+zh;奥尔特兹维;Holtzwihr
+uk;Ієр-Бруаж;Hiers
+ru;Йер-Бруаж;Hiers
+zh;耶尔布鲁阿格;Hiers
+hy;Հիեր Բրուաժ;Hiers
+uk;Еє-Коттон;Heuilley-Cotton
+zh;厄伊莱科通;Heuilley-Cotton
+kk;Еден;Hesdin
+uk;Еден;Hesdin
+ru;Эден;Hesdin
+zh;埃丹;Hesdin
+ar;هيسدين;Hesdin
+kk;Ерувиль;Hérouville
+uk;Ерувіль;Hérouville
+ru;Эрувиль;Hérouville
+zh;埃鲁维尔;Hérouville
+ar;هيربيليس;Herbelles
+kk;Ербель;Herbelles
+sr;Ербел;Herbelles
+uk;Ербель;Herbelles
+zh;埃尔贝勒;Herbelles
+br;Hengoad;Hengoat
+kk;Ебекревон;Hébécrevon
+uk;Ебекревон;Hébécrevon
+zh;埃贝克勒翁;Hébécrevon
+ar;هوتفيل-لومني;Hauteville-Lompnes
+sr;Отвил Лон;Hauteville-Lompnes
+uk;Отвіль-Ломне;Hauteville-Lompnes
+zh;奥特维耶－隆内斯;Hauteville-Lompnes
+hy;Հոտվիլ Լոննես;Hauteville-Lompnes
+ru;Отвиль-Лонес;Hauteville-Lompnes
+br;Gwipri;Guipry
+kk;Гипри;Guipry
+oc;Gwipri;Guipry
+uk;Гіпрі;Guipry
+zh;吉普里;Guipry
+ru;Гипри;Guipry
+br;Gwiproñvel;Guipronvel
+ca;Guinarte e Paréntias;Guinarthe
+kk;Гинарт-Паранти;Guinarthe
+oc;Guinarte e Paréntias;Guinarthe
+uk;Гінарт-Паранті;Guinarthe
+ru;Гинарт-Паранти;Guinarthe
+zh;吉纳尔特巴朗迪;Guinarthe
+kk;Гильбервиль;Guilberville
+uk;Гільбервіль;Guilberville
+zh;吉尔贝尔维尔;Guilberville
+uk;Гіньїкур;Guignicourt
+ru;Гиньикур;Guignicourt
+zh;吉尼库尔;Guignicourt
+fr;Guigliazza;Ghigliazza
+fr;Gualdariccio;Gualdaricciu
+en;Grugé-lHôpital;Grugé-l'Hôpital
+zh;格吕热约皮塔;Grugé-l'Hôpital
+uk;Грезіє;Grézillé
+zh;格雷齐莱;Grézillé
+kk;Гревиль-Аг;Gréville-Hague
+uk;Гревіль-Аг;Gréville-Hague
+zh;格雷维尔阿盖;Gréville-Hague
+kk;Гренцинген;Grentzingen
+uk;Гренцинген;Grentzingen
+ru;Гренсинген;Grentzingen
+zh;格朗特赞让;Grentzingen
+el;Γκρανβίλ;Granville
+ja;グランヴィル;Granville
+kk;Гранвиль;Granville
+uk;Гранвіль;Granville
+ru;Гранвиль;Granville
+zh;格蘭佛;Granville
+fr;Grandchamp;Grandchamps-des-Fontaines
+fr;Grandchamp-des-Fontaines;Grandchamps-des-Fontaines
+kk;Граншен;Granchain
+uk;Граншен;Granchain
+zh;格朗尚;Granchain
+kk;Гузангрез;Gouzangrez
+uk;Гузангрез;Gouzangrez
+ru;Гузангрез;Gouzangrez
+zh;古藏格莱;Gouzangrez
+uk;Гу-лез-Юзьє;Goux-les-Usiers
+zh;古莱于谢尔;Goux-les-Usiers
+kk;Гурфалер;Gourfaleur
+sr;Гурфалер;Gourfaleur
+uk;Гурфалер;Gourfaleur
+zh;古尔法勒;Gourfaleur
+fr;Goulier-et-Olbier;Goulier
+fa;گوبرویل;Gouberville
+kk;Губервиль;Gouberville
+sr;Губервил;Gouberville
+uk;Губервіль;Gouberville
+zh;古贝尔维尔;Gouberville
+eu;Gotaine;Gotein
+fr;Gotein-Libarrenx;Gotein
+eu;Gotaine-Irabarne;Gotein
+br;Gotaine-Irabarne;Gotein
+ca;Gotaine-Irabarne;Gotein
+kk;Готен-Либарранкс;Gotein
+oc;Gotenh-Libarren;Gotein
+sr;Готен Либарен;Gotein
+uk;Готен-Лібарранкс;Gotein
+ru;Готен-Либарренс;Gotein
+zh;戈坦利巴朗;Gotein
+uk;Валанжу;Valanjou
+zh;瓦朗茹;Valanjou
+sr;Гондвил;Gondeville
+uk;Гондевіль;Gondeville
+ru;Гондвиль;Gondeville
+zh;贡德维尔;Gondeville
+ce;Гольф Жуан;Golfe-Juan
+ru;Гольф-Жуан;Golfe-Juan
+zh;儒昂湾;Golfe-Juan
+ja;ゴルフ＝ジュアン;Golfe-Juan
+ru;Париж 13 Гобелен;Paris 13 Gobelins
+ru;Глозель;Glozel
+ja;グローゼルの石版;Glozel
+kk;Гло-ла-Феррьер;Glos-la-Ferrière
+sr;Гло ла Ферјер;Glos-la-Ferrière
+uk;Гло-ла-Феррєр;Glos-la-Ferrière
+zh;格洛拉弗尔里埃;Glos-la-Ferrière
+br;Glenneg;Glénac
+kk;Гленак;Glénac
+oc;Glenneg;Glénac
+sr;Гленак;Glénac
+uk;Гленак;Glénac
+zh;格莱纳克;Glénac
+ru;Гландьё;Glandieu
+ar;غلانديو;Glandieu
+uk;Гландьє;Glandieu
+sr;Жионж;Gionges
+uk;Жіонж;Gionges
+zh;容热;Gionges
+fr;Giglio;Cala di Cigliu
+kk;Жьевиль;Giéville
+sr;Жјевил;Giéville
+uk;Жєвіль;Giéville
+zh;吉埃维尔;Giéville
+uk;Женнтей;Genneteil
+zh;热内泰;Genneteil
+uk;Женак;Genac
+ru;Женак;Genac
+zh;热纳克;Genac
+kk;Гавре;Gavray
+uk;Гавре;Gavray
+zh;加夫赖;Gavray
+ru;Гавре;Gavray
+ca;Gavarnia;Gavarnie
+oc;Gavarnia;Gavarnie
+uk;Гаварні;Gavarnie
+zh;加瓦尔涅;Gavarnie
+ru;Гаварни;Gavarnie
+ca;Garraleda e Montdevath;Garlède
+kk;Гарлед-Мондбат;Garlède
+oc;Garraleda e Montdevath;Garlède
+uk;Гарлед-Мондбат;Garlède
+zh;加尔莱德蒙代巴;Garlède
+ru;Гарлед-Мондебат;Garlède
+fr;Garlède-Mondebat;Garlède
+ca;Garda;Gardes
+oc;Garda;Gardes
+uk;Гард-ле-Понтару;Gardes
+ru;Гард-ле-Понтару;Gardes
+zh;加尔代莱蓬塔鲁;Gardes
+kk;Гаданкур;Gadancourt
+uk;Гаданкур;Gadancourt
+ru;Гаданкур;Gadancourt
+zh;加当库尔;Gadancourt
+fr;Gabarliat;Gavarliac
+fr;Fuatese;Cascionu
+ru;Фромантин;Fromentine
+br;Onnod-Raez;Fresnay-en-Retz
+oc;Onnod-Raez;Fresnay-en-Retz
+uk;Френе-ан-Ре;Fresnay-en-Retz
+zh;雷特地区弗雷斯奈;Fresnay-en-Retz
+uk;Френьє;Freigné
+zh;弗雷涅;Freigné
+ca;Fòrs e Amfós;Fox
+oc;Fòs Amfós;Fox
+sr;Фокс Амфу;Fox
+uk;Фокс-Амфу;Fox
+ru;Фокс-Амфу;Fox
+zh;福昂富;Fox
+nl;Fort-Mardijk;Fort-Mardyck
+br;Fort-Mardijk;Fort-Mardyck
+kk;Фор-Мардик;Fort-Mardyck
+sr;Фор Мардик;Fort-Mardyck
+uk;Фор-Мардік;Fort-Mardyck
+kk;Форминьи;Formigny
+sr;Формињи;Formigny
+uk;Форміньї;Formigny
+ru;Форминьи;Formigny
+zh;福尔米尼;Formigny
+fr;Fontpédrouse;Fontpedrosa
+sr;Фонклеро;Fontclaireau
+uk;Фонклеро;Fontclaireau
+ru;Фонклеро;Fontclaireau
+zh;丰特克莱罗;Fontclaireau
+fr;Fontanaccio;Funtanacciu
+uk;Фонтен-Мілон;Fontaine-Milon
+zh;丰坦米隆;Fontaine-Milon
+uk;Фонтен-Герен;Fontaine-Guérin
+zh;丰坦盖兰;Fontaine-Guérin
+de;Folelli - Korsika;Folelli
+fr;Fogolina;Fuculina
+fr;Foce di Vergio;Foce di Verju
+kk;Флорак;Florac
+uk;Флорак;Florac
+ja;フロラック;Florac
+zh;弗洛拉克;Florac
+fa;فلراک;Florac
+ru;Флорак;Florac
+br;Flurinieg;Fleurigné
+ca;Flaunhac;Flaugnac
+ja;フロニャック;Flaugnac
+oc;Flaunhac;Flaugnac
+uk;Флоньяк;Flaugnac
+zh;弗洛尼亚克;Flaugnac
+ca;Flaujac;Flaugeac
+kk;Фложак;Flaugeac
+oc;Flaujac;Flaugeac
+uk;Фложак;Flaugeac
+zh;弗洛雅克;Flaugeac
+fr;Ficajola;Ficaghiola
+kk;Ферваш;Fervaches
+uk;Ферваш;Fervaches
+zh;弗尔瓦谢;Fervaches
+ca;Hiars;Féas
+eu;Inhasi;Féas
+kk;Феас;Féas
+oc;Hiars;Féas
+uk;Феас;Féas
+ru;Феас;Féas
+zh;费阿;Féas
+en;Faye-dAnjou;Faye-d'Anjou
+zh;费埃当茹;Faye-d'Anjou
+uk;Фаверж;Faverges
+ru;Фаверж;Faverges
+uk;Фавере-Машель;Faveraye-Mâchelles
+zh;法韦赖埃马谢莱;Faveraye-Mâchelles
+uk;Фокукур;Faucoucourt
+ru;Фокукур;Faucoucourt
+zh;福库库尔;Faucoucourt
+sr;Евира;Eyvirat
+ca;Eivirac;Eyvirat
+kk;Евира;Eyvirat
+oc;Eivirac;Eyvirat
+uk;Евіра;Eyvirat
+ru;Эвира;Eyvirat
+zh;埃维拉;Eyvirat
+ca;Eilhac;Eyliac
+kk;Елиак;Eyliac
+oc;Eilhac;Eyliac
+sr;Елијак;Eyliac
+uk;Еліак;Eyliac
+zh;埃利阿克;Eyliac
+ru;Эльяк;Eyliac
+ja;エヴリー;Évry
+br;Staol;Étables-sur-Mer
+gv;Staol;Étables-sur-Mer
+kk;Етабль-сюр-Мер;Étables-sur-Mer
+sr;Етабл на Мору;Étables-sur-Mer
+uk;Етабль-сюр-Мер;Étables-sur-Mer
+ru;Этабль-сюр-Мер;Étables-sur-Mer
+zh;滨海埃塔布莱;Étables-sur-Mer
+kk;Естри;Estry
+sr;Естри;Estry
+uk;Естрі;Estry
+ru;Эстри;Estry
+zh;埃斯特里;Estry
+kk;Естуш;Estouches
+sr;Естуш;Estouches
+uk;Естуш;Estouches
+zh;埃斯图舍;Estouches
+br;An Eskevien;Esquibien
+sr;Екибјен;Esquibien
+ja;エスキビアン;Esquibien
+kk;Ескибьян;Esquibien
+oc;An Eskevien;Esquibien
+uk;Ескібян;Esquibien
+zh;埃斯屈伊比安;Esquibien
+fr;Espaco;Espacu
+uk;Еравіль;Éraville
+ru;Эравиль;Éraville
+zh;埃拉维尔;Éraville
+kk;Екердревиль-Енневиль;Équeurdreville-Hainneville
+uk;Екердревіль-Енневіль;Équeurdreville-Hainneville
+zh;埃屈厄尔德勒维尔艾纳维尔;Équeurdreville-Hainneville
+ru;Екердревиль-Енневиль;Équeurdreville-Hainneville
+fr;Enveitg;Enveig
+ar;إنكيوين ليه مينس;Enquin-les-Mines
+kk;Енкен-ле-Мин;Enquin-les-Mines
+uk;Енкен-ле-Мін;Enquin-les-Mines
+zh;坎莱米讷;Enquin-les-Mines
+ar;إنجيوينجات;Enguinegatte
+kk;Ангинегатт;Enguinegatte
+uk;Ангінегатт;Enguinegatte
+zh;昂吉内加特;Enguinegatte
+de;Flize;Élan
+cs;Los evropský;Élan
+da;Elg;Élan
+fi;Hirvi;Élan
+gl;Alce;Élan
+he;אייל קורא;Élan
+it;Alces alces;Élan
+ja;ヘラジカ;Élan
+lt;Briedis;Élan
+nl;Eland;Élan
+nn;Elg;Élan
+no;Elg;Élan
+pt;Alce;Élan
+ru;Лось;Élan
+sv;Älg;Élan
+fr;Flize;Élan
+kk;Екуше;Écouché
+uk;Екуше;Écouché
+zh;埃库谢;Écouché
+fr;Écotay-l'Olme;Écotay
+sr;Ешмире;Échemiré
+uk;Ешміре;Échemiré
+zh;埃舍米雷;Échemiré
+es;Dunkerque;Dunkirk
+de;Dünkirchen;Dunkirk
+bg;Дюнкерк;Dunkirk
+ca;Dunkerque;Dunkirk
+cs;Dunkerk;Dunkirk
+da;Dunkerque;Dunkirk
+fi;Dunkerque;Dunkirk
+fr;Dunkerque;Dunkirk
+it;Dunkerque;Dunkirk
+ja;ダンケルク;Dunkirk
+nl;Duinkerke;Dunkirk
+no;Dunkerque;Dunkirk
+pl;Dunkierka;Dunkirk
+pt;Dunquerque;Dunkirk
+ro;Dunkerque;Dunkirk
+ru;Дюнкерк;Dunkirk
+sv;Dunkerque;Dunkirk
+tl;Dunkerque;Dunkirk
+sl;Dunkerque;Dunkirk
+tl;Lungsod ng Dunkerque;Dunkirk
+br;Dukark;Dunkirk
+is;Dunkerque;Dunkirk
+ur;ڈنکرک;Dunkirk
+hi;दैंकर्क;Dunkirk
+he;דנקרק;Dunkirk
+el;Δουνκέρκη;Dunkirk
+be;Дзюнкерк;Dunkirk
+ar;دونكيرك;Dunkirk
+ka;დიუნკერკი;Dunkirk
+ta;டன்கிர்க்;Dunkirk
+fa;دونکرک;Dunkirk
+lt;Diunkerkas;Dunkirk
+ko;됭케르크;Dunkirk
+mr;डंकर्क;Dunkirk
+sr;Денкерк;Dunkirk
+oc;Dunquèrca;Dunkirk
+uk;Дюнкерк;Dunkirk
+lv;Denkerka;Dunkirk
+kk;Дюнкерк;Dunkirk
+af;Duinkerken;Dunkirk
+zh;敦刻尔克;Dunkirk
+mzn;دنکرک;Dunkirk
+kk;Дюсе;Ducey
+uk;Дюсе;Ducey
+zh;迪塞;Ducey
+uk;Дрюметта-Кларафон;Drumettaz
+sr;Дуј;Douy
+uk;Дуе-ла-Фонтен;Doué-la-Fontaine
+sr;Дуе ла Фонтен;Doué-la-Fontaine
+zh;杜埃拉丰坦;Doué-la-Fontaine
+fa;درنو;Dornot
+kk;Дорно;Dornot
+sr;Дорно;Dornot
+uk;Дорно;Dornot
+ru;Дорно;Dornot
+br;Domper-an-Hent;Dompierre-du-Chemin
+kk;Домпьерр-дю-Шемен;Dompierre-du-Chemin
+oc;Dompêr-an-Hent;Dompierre-du-Chemin
+sr;Домпјер ди Шемен;Dompierre-du-Chemin
+uk;Домпєрр-дю-Шемен;Dompierre-du-Chemin
+zh;东皮耶尔迪谢曼;Dompierre-du-Chemin
+fr;Domnom-lès-Dieuze;Domnon-lès-Dieuze
+eu;Domintxaine;Domezain
+fr;Domezain-Berraute;Domezain
+eu;Domintxaine-Berroeta;Domezain
+br;Domintxaine-Berroeta;Domezain
+ca;Domintxaine-Berroeta;Domezain
+kk;Домезен-Беррот;Domezain
+oc;Domesenh-Berrauta;Domezain
+sr;Домзен Берот;Domezain
+uk;Домезен-Беррот;Domezain
+ru;Домезен-Беррот;Domezain
+zh;多默赞贝尔罗特;Domezain
+br;Dolou;Dolo
+fr;Divajeu;Haut Divajeu
+sr;Дисе су ле Лид;Dissé-sous-le-Lude
+uk;Діссе-су-ле-Люд;Dissé-sous-le-Lude
+kk;Дигюльвиль;Digulleville
+sr;Дигилвил;Digulleville
+uk;Дігюльвіль;Digulleville
+zh;迪居勒维尔;Digulleville
+uk;Денезе-су-ле-Люд;Dénezé-sous-le-Lude
+zh;代内泽苏斯-尔吕德;Dénezé-sous-le-Lude
+sr;Домре;Daumeray
+uk;Домре;Daumeray
+zh;多默赖;Daumeray
+kk;Данву-ла-Феррьер;Danvou-la-Ferrière
+sr;Данву ла Ферјер;Danvou-la-Ferrière
+uk;Данву-ла-Феррєр;Danvou-la-Ferrière
+ru;Данву-ла-Ферьер;Danvou-la-Ferrière
+zh;当武拉弗尔里埃;Danvou-la-Ferrière
+ca;Dalèt;Dallet
+sr;Дале;Dallet
+uk;Далле;Dallet
+zh;达莱;Dallet
+ar;كولوز;Culoz
+sr;Кило;Culoz
+uk;Кюло;Culoz
+zh;屈洛;Culoz
+hy;Կյուլոզ;Culoz
+ru;Кюло;Culoz
+br;Kugant;Cugand
+sr;Киган;Cugand
+uk;Кюган;Cugand
+zh;屈冈;Cugand
+kk;Кюшармуа;Cucharmoy
+sr;Кишармоа;Cucharmoy
+uk;Кюшармуа;Cucharmoy
+ca;Cujac;Cubjac
+kk;Кюбжак;Cubjac
+oc;Cujac;Cubjac
+sr;Кибжак;Cubjac
+uk;Кюбжак;Cubjac
+zh;屈布雅克;Cubjac
+ru;Кюбжак;Cubjac
+fr;Crozon;Grozon
+br;Kroeshañveg;Croixanvec
+ca;Croissança;Croisances
+kk;Круазанс;Croisances
+sr;Кроазанс;Croisances
+uk;Круазанс;Croisances
+zh;克鲁瓦桑塞;Croisances
+ca;Creissençac e Pissòt;Creyssensac
+kk;Крессансак-е-Писсо;Creyssensac
+oc;Creissensac e Pissòt;Creyssensac
+sr;Кресенсак е Писо;Creyssensac
+uk;Крессансак-е-Піссо;Creyssensac
+zh;克雷桑萨克和皮索;Creyssensac
+fr;Crèvecœur-en-Auge;Crevecoeur-en-Auge
+en;Crèvecœur-en-Auge;Crevecoeur-en-Auge
+it;Crèvecœur-en-Auge;Crevecoeur-en-Auge
+nl;Crèvecœur-en-Auge;Crevecoeur-en-Auge
+kk;Крелли;Creully
+sr;Крели;Creully
+uk;Креллі;Creully
+ru;Крёлли;Creully
+zh;克勒利;Creully
+sr;Кресак Сен Жени;Cressac-Saint-Genis
+uk;Крессак-Сен-Жені;Cressac-Saint-Genis
+ru;Крессак-Сен-Жени;Cressac-Saint-Genis
+zh;克雷萨克圣热尼;Cressac-Saint-Genis
+fr;Craz-en-Michaille;Craz
+sr;Кран Жеврије;Cran-Gevrier
+uk;Кран-Жевріє;Cran-Gevrier
+ca;Lo Cos e Bigaròca;Le Coux
+kk;Ку-е-Бигарок;Le Coux
+oc;Lo Cos e Bigaròca;Le Coux
+sr;Кукс ет Бигарок;Le Coux
+uk;Ку-е-Бігарок;Le Coux
+zh;库和比加罗屈埃;Le Coux
+sr;Кутир на Лоари;Couture-sur-Loir
+uk;Кутюр-сюр-Луар;Couture-sur-Loir
+zh;卢瓦河畔库蒂尔;Couture-sur-Loir
+kk;Кутерн;Couterne
+sr;Кутерн;Couterne
+uk;Кутерн;Couterne
+zh;库泰尔恩;Couterne
+ru;Кутерн;Couterne
+fr;Coustouges;Costoja
+sr;Куртален;Courtalain
+uk;Куртален;Courtalain
+zh;库尔塔兰;Courtalain
+sr;Кур ла Вил;Cours-la-Ville
+uk;Кур-Ла-Віль;Cours-la-Ville
+ru;Кур Ла Вил;Cours-la-Ville
+sr;Куркурон;Courcouronnes
+kk;Куркуронн;Courcouronnes
+uk;Куркуронн;Courcouronnes
+zh;库尔库罗纳;Courcouronnes
+ar;كوركورون;Courcouronnes
+kk;Курсро;Courcerault
+sr;Курсеро;Courcerault
+uk;Курсро;Courcerault
+zh;库尔瑟罗尔;Courcerault
+kk;Кульвен;Coulvain
+uk;Кульвен;Coulvain
+ru;Кульвен;Coulvain
+zh;库尔万;Coulvain
+uk;Куе;Couhé
+zh;库厄;Couhé
+nl;Koudekerke-Dorp;Coudekerque-Village
+br;Koudekerke-Dorp;Coudekerque-Village
+kk;Кудкерк-Виллаж;Coudekerque-Village
+uk;Кудкерк-Віллаж;Coudekerque-Village
+zh;库德凯尔克村;Coudekerque-Village
+kk;Коквиль;Cosqueville
+uk;Коквіль;Cosqueville
+zh;科斯屈埃维尔;Cosqueville
+ca;Còuledan;Coslédaà
+kk;Коследаа-Люб-Боаст;Coslédaà
+oc;Còuledan;Coslédaà
+uk;Коследаа-Люб-Боаст;Coslédaà
+ru;Коследаа-Люб-Боаст;Coslédaà
+zh;库斯莱达阿-吕布-博阿斯特;Coslédaà
+ar;كورمارانش-أون-بوغي;Cormaranche-en-Bugey
+fa;کورمارانش-آن-بوژی;Cormaranche-en-Bugey
+hy;Կորմարանշ ան Բյուժե;Cormaranche-en-Bugey
+sr;Кормаранш ан Биже;Cormaranche-en-Bugey
+uk;Кормаранш-ан-Бюже;Cormaranche-en-Bugey
+ru;Кормаранш-ан-Бюже;Cormaranche-en-Bugey
+zh;比热地区科尔马朗什;Cormaranche-en-Bugey
+kk;Контриер;Contrières
+ro;Contrires;Contrières
+sr;Контријер;Contrières
+uk;Контрієр;Contrières
+zh;孔特里埃;Contrières
+zh-Hans;孔提海滩;Contis-les-Bains
+zh-Hant;孔提海灘;Contis-les-Bains
+ru;Конти;Contis-les-Bains
+en;Contis;Contis-les-Bains
+fr;Contis;Contis-les-Bains
+nl;Contis;Contis-les-Bains
+zh;孔蒂海滩;Contis-les-Bains
+sr;Контиње;Contigné
+uk;Контіньє;Contigné
+zh;孔蒂涅;Contigné
+sr;Кон Сен Колон;Cons-Sainte-Colombe
+uk;Кон-Сент-Коломб;Cons-Sainte-Colombe
+sr;Конк;Conques
+ru;Конк;Conques
+ja;コンク;Conques
+ca;Concas;Conques
+th;กงก์;Conques
+uk;Конк;Conques
+oc;Concas;Conques
+zh;孔克;Conques
+br;Concas;Conques
+fa;کونک;Conques
+uk;Конде-сюр-Нуаро;Condé-sur-Noireau
+sr;Конде сир Ноаро;Condé-sur-Noireau
+kk;Конде-сюр-Нуаро;Condé-sur-Noireau
+ru;Конде-сюр-Нуаро;Condé-sur-Noireau
+zh;努瓦罗河畔孔代;Condé-sur-Noireau
+ja;コンデ＝シュル＝ノワロー;Condé-sur-Noireau
+fa;کوند-نورتان;Condé
+kk;Конде-Нортан;Condé
+sr;Конде Нортен;Condé
+uk;Конде-Нортан;Condé
+ru;Конде-Нортан;Condé
+zh;孔代诺尔唐;Condé
+sr;Конкурсон сир Лајон;Concourson-sur-Layon
+uk;Конкурсон-сюр-Лейон;Concourson-sur-Layon
+zh;莱翁河畔孔库尔松;Concourson-sur-Layon
+fr;Conchiglio;Conchigliu
+sr;Комјак;Comiac
+uk;Коміак;Comiac
+zh;科米阿克;Comiac
+sr;Комбре;Combrée
+uk;Комбре;Combrée
+zh;孔布雷埃;Combrée
+ru;Комбре;Combrée
+kk;Кольруа-ла-Гранд;Colroy-la-Grande
+sr;Колроа ла Гранд;Colroy-la-Grande
+uk;Кольруа-ла-Гранд;Colroy-la-Grande
+zh;大科尔鲁瓦;Colroy-la-Grande
+kk;Колонар-Корюбер;Colonard-Corubert
+sr;Колонар Корибер;Colonard-Corubert
+uk;Колонар-Корюбер;Colonard-Corubert
+zh;科洛纳尔科吕贝尔;Colonard-Corubert
+br;Koedlinez;Collinée
+sr;Коаз Сен Жан Пје Готје;Coise
+uk;Куаз-Сен-Жан-Пє-Готьє;Coise
+br;Gougliez;Coglès
+br;Gougleiz;Coglès
+kk;Когле;Coglès
+oc;Gougleiz;Coglès
+sr;Когле;Coglès
+uk;Когле;Coglès
+zh;科格莱;Coglès
+br;Koedlogon;Coëtlogon
+fr;Clavans-d'en-Haut;Clavans le Haut
+fr;Claunay-en-Loudun;Claunay
+ca;Clerà;Clara
+kk;Клерфужер;Clairefougère
+sr;Клерфужер;Clairefougère
+uk;Клерфужер;Clairefougère
+zh;克莱雷富热尔;Clairefougère
+fr;Ciocciajo;Ciucciaja
+fr;Ciaconcella;Sarconacciu
+fr;Chioselle;Chioselli
+fr;Chiornia;Chiorna
+sr;Шиње;Chigné
+uk;Шиньє;Chigné
+zh;希涅;Chigné
+fr;Chidazzo;Chidazzu
+ja;シシュボヴィル;Chicheboville
+kk;Шишбовиль;Chicheboville
+sr;Шишбовил;Chicheboville
+uk;Шишбовіль;Chicheboville
+ru;Шишбовиль;Chicheboville
+zh;希谢博维尔;Chicheboville
+ar;شيزيري-فورين;Chézery
+sr;Шезри Форан;Chézery
+uk;Шезері-Форан;Chézery
+zh;谢泽里－福朗;Chézery
+hy;Շեզերի Ֆորան;Chézery
+ru;Шезери-Форан;Chézery
+sr;Шевире ле Руж;Cheviré-le-Rouge
+uk;Шевіре-ле-Руж;Cheviré-le-Rouge
+zh;谢维雷莱鲁格;Cheviré-le-Rouge
+sr;Шервет;Chervettes
+uk;Шерветт;Chervettes
+ru;Шервет;Chervettes
+zh;谢尔韦泰;Chervettes
+sr;Шерв Ришмон;Cherves-Richemont
+uk;Шерв-Ришмон;Cherves-Richemont
+zh;谢尔韦里尚翁;Cherves-Richemont
+ru;Шерв-Ришмон;Cherves-Richemont
+fr;Cherbourg-en-Cotentin;Cherbourg
+es;Cherburgo-Octeville;Cherbourg
+kk;Шербур-Октвиль;Cherbourg
+hi;शैर्बूर;Cherbourg
+uk;Шербур-Октевіль;Cherbourg
+fa;شربورگ-اکتوویل;Cherbourg
+ta;செர்போர்க்-ஆக்ட்வில்;Cherbourg
+ja;シェルブール＝オクトヴィル;Cherbourg
+el;Σερμπούρ-Οκτβίλ;Cherbourg
+ko;셰르부르옥트빌;Cherbourg
+be;Шэрбур-Актэвіль;Cherbourg
+mzn;شربورگ-اکتوویل;Cherbourg
+ru;Шербур-Октевиль;Cherbourg
+zh;瑟堡-奥克特维尔;Cherbourg
+he;שרבור;Cherbourg
+az;Şerburq-Oktevil;Cherbourg
+gl;Cherburgo-Octeville;Cherbourg
+sr;Шербур Октевил;Cherbourg
+sr;Шеноме;Chenommet
+uk;Шеномме;Chenommet
+ru;Шеномме;Chenommet
+zh;尚奥梅;Chenommet
+kk;Шенуаз;Chenoise
+sr;Шеноаз;Chenoise
+uk;Шенуаз;Chenoise
+sr;Шеније Шанже;Chenillé-Changé
+uk;Шенільє-Шанже;Chenillé-Changé
+zh;谢尼莱尚热;Chenillé-Changé
+sr;Шенит Трев Кино;Chênehutte-Trèves-Cunault
+uk;Шенютт-Трев-Кюно;Chênehutte-Trèves-Cunault
+zh;谢纳特特雷韦屈诺尔;Chênehutte-Trèves-Cunault
+kk;Шендолле;Chênedollé
+sr;Шендоле;Chênedollé
+uk;Шендолле;Chênedollé
+ru;Шендолле;Chênedollé
+zh;谢内多莱;Chênedollé
+sr;Шанеше;Cheneché
+uk;Шенеше;Cheneché
+zh;谢内谢;Cheneché
+sr;Шемире сир Сарт;Chemiré-sur-Sarthe
+uk;Шеміре-сюр-Сарт;Chemiré-sur-Sarthe
+zh;萨尔特河畔谢米雷;Chemiré-sur-Sarthe
+ja;シュミエ＝ムレ;Chemillé-Melay
+br;Keverieg;Chéméré
+oc;Keverieg;Chéméré
+sr;Шемере;Chéméré
+uk;Шемере;Chéméré
+zh;谢梅雷;Chéméré
+ru;Шемере;Chéméré
+sr;Шамлије;Chemellier
+uk;Шемельє;Chemellier
+zh;谢默利耶;Chemellier
+kk;Шеффревиль-Тоннанкур;Cheffreville-Tonnencourt
+uk;Шеффревіль-Тоннанкур;Cheffreville-Tonnencourt
+ru;Шефревиль-Тоннанкур;Cheffreville-Tonnencourt
+zh;谢夫勒维尔托南库尔;Cheffreville-Tonnencourt
+sr;Шазе Анри;Chazé-Henry
+uk;Шазе-Анрі;Chazé-Henry
+zh;沙泽昂里;Chazé-Henry
+sr;Шавена;Chavenat
+uk;Шавена;Chavenat
+ru;Шавна;Chavenat
+zh;沙韦纳;Chavenat
+sr;Шавењ;Chavaignes
+uk;Шавень;Chavaignes
+zh;沙韦盖;Chavaignes
+sr;Шавање;Chavagnes
+uk;Шавань;Chavagnes
+zh;沙瓦盖;Chavagnes
+sr;Шодрон ан Мож;Chaudron-en-Mauges
+uk;Шодрон-ан-Мож;Chaudron-en-Mauges
+zh;莫热地区绍德龙;Chaudron-en-Mauges
+ca;Chaudon e Noranta;Chaudon
+oc;Chaudon e Noranta;Chaudon
+sr;Шодон Норант;Chaudon
+uk;Шодон-Норант;Chaudon
+ru;Шодон-Норант;Chaudon
+zh;绍东诺朗特;Chaudon
+ar;شاتيلون-أون-ميشيل، أين;Châtillon-en-Michaille
+sr;Шатијон ан Мишај;Châtillon-en-Michaille
+uk;Шатійон-ан-Мішай;Châtillon-en-Michaille
+ru;Шатийон-ан-Мишай;Châtillon-en-Michaille
+zh;米沙伊地区沙蒂利翁;Châtillon-en-Michaille
+br;Kastellaodren;Châtelaudren
+sr;Шатле;Châtelais
+uk;Шатле;Châtelais
+zh;沙泰莱;Châtelais
+sr;Шатонеф сир Сарт;Châteauneuf-sur-Sarthe
+uk;Шатонеф-сюр-Сарт;Châteauneuf-sur-Sarthe
+zh;萨尔特河畔沙托纳;Châteauneuf-sur-Sarthe
+uk;Шато-Гонтьє;Château-Gontier
+ja;シャトー＝ゴンティエ;Château-Gontier
+sr;Шато Гонтје;Château-Gontier
+zh;沙托贡蒂耶;Château-Gontier
+sr;Шато ди Лоар;Château-du-Loir
+uk;Шато-дю-Луар;Château-du-Loir
+sr;Шасањи;Chassagny
+uk;Шассаньї;Chassagny
+sr;Шартрене;Chartrené
+uk;Шартрене;Chartrené
+zh;沙尔特雷内;Chartrené
+sr;Шаре;Charrais
+uk;Шарре;Charrais
+zh;沙尔赖;Charrais
+sr;Шарман;Charmant
+uk;Шарман;Charmant
+ru;Шарман;Charmant
+zh;沙尔芒;Charmant
+sr;Шарсе Сент Елије сир Обанс;Charcé-Saint-Ellier-sur-Aubance
+uk;Шарсе-Сент-Ельє-сюр-Обанс;Charcé-Saint-Ellier-sur-Aubance
+zh;奥邦克河畔沙尔塞-圣埃利耶;Charcé-Saint-Ellier-sur-Aubance
+uk;Шанзо;Chanzeaux
+zh;尚佐;Chanzeaux
+br;Kantieg;Chancé
+sr;Шантосо;Champtoceaux
+uk;Шамтосо;Champtoceaux
+zh;尚普托索;Champtoceaux
+ja;シャントソー;Champtoceaux
+sr;Шантесе сир Бакон;Champteussé-sur-Baconne
+uk;Шамтессе-сюр-Баконн;Champteussé-sur-Baconne
+zh;巴孔河畔尚普特塞;Champteussé-sur-Baconne
+sr;Шампињи ле Сек;Champigny-le-Sec
+uk;Шампіньї-ле-Сек;Champigny-le-Sec
+zh;尚皮尼勒瑟;Champigny-le-Sec
+sr;Шампиње;Champigné
+uk;Шампіньє;Champigné
+zh;尚皮涅;Champigné
+ca;Champeus e la Chapela;Champeaux-et-la-Chapelle-Pommier
+eu;Champeus e la Chapela;Champeaux-et-la-Chapelle-Pommier
+kk;Шампо-е-ла-Шапель-Поммье;Champeaux-et-la-Chapelle-Pommier
+oc;Champeus e La Chapela de Pomiers;Champeaux-et-la-Chapelle-Pommier
+sr;Шампокс ет ла Шапел Помје;Champeaux-et-la-Chapelle-Pommier
+uk;Шампо-е-ла-Шапель-Поммє;Champeaux-et-la-Chapelle-Pommier
+ru;Шампо-э-ла-Шапель-Помье;Champeaux-et-la-Chapelle-Pommier
+zh;尚波和拉-沙佩莱-波米耶;Champeaux-et-la-Chapelle-Pommier
+sr;Шанденије Сен Дени;Champdeniers-Saint-Denis
+uk;Шамденьє-Сен-Дені;Champdeniers-Saint-Denis
+ca;Champanha e Fontanas;Champagne
+kk;Шампань-е-Фонтен;Champagne
+oc;Champanha e Fontanas;Champagne
+sr;Шампањ ет Фонтен;Champagne
+uk;Шампань-е-Фонтен;Champagne
+zh;香槟和丰坦;Champagne
+sr;Шам;Chammes
+uk;Шамм;Chammes
+zh;沙梅;Chammes
+ca;Chasameana;Chaméane
+eu;Chasameana;Chaméane
+kk;Шамеан;Chaméane
+sr;Шамеан;Chaméane
+uk;Шамеан;Chaméane
+zh;沙梅昂;Chaméane
+sr;Шамбрето;Chambretaud
+uk;Шамбрето;Chambretaud
+zh;尚布雷托;Chambretaud
+ru;Шамбрето;Chambretaud
+kk;Шамбегль;Chambeugle
+sr;Шамбегл;Chambeugle
+uk;Шамбегль;Chambeugle
+zh;尚伯格勒;Chambeugle
+sr;Шалон су ле Лид;Chalonnes-sous-le-Lude
+uk;Шалонн-су-ле-Люд;Chalonnes-sous-le-Lude
+zh;沙洛内苏斯-尔吕德;Chalonnes-sous-le-Lude
+sr;Шалмазел;Chalmazel
+uk;Шальмазель;Chalmazel
+zh;沙尔马泽;Chalmazel
+sr;Шасе;Chacé
+uk;Шасе;Chacé
+zh;沙塞;Chacé
+uk;Серест;Céreste
+ca;Ceirèsta;Céreste
+sr;Серест;Céreste
+oc;Ceirèsta;Céreste
+ru;Серест;Céreste
+zh;塞雷斯特;Céreste
+ca;Cercle;Cercles
+kk;Серкль;Cercles
+oc;Cercle;Cercles
+sr;Серкл;Cercles
+uk;Серкль;Cercles
+zh;塞尔克莱;Cercles
+eu;Cercle;Cercles
+fr;Cerbère;Cervera de la Marenda
+ca;Cervera;Cervera de la Marenda
+ca;Sendrius;Cendrieux
+kk;Сандрие;Cendrieux
+oc;Sendrius;Cendrieux
+sr;Сендрије;Cendrieux
+uk;Сандріє;Cendrieux
+zh;桑德里厄;Cendrieux
+eu;Sendrius;Cendrieux
+ca;Senac e Sent Julian;Cénac
+kk;Сенак-е-Сен-Жульен;Cénac
+oc;Senac e Sent Julian;Cénac
+sr;Сенак ет Сен Жилијен;Cénac
+uk;Сенак-е-Сен-Жульєн;Cénac
+zh;塞纳克和圣瑞利安;Cénac
+zh-Hant;塞勒訥沃;Celleneuve
+oc;Cèlanòva;Celleneuve
+zh;塞勒讷沃;Celleneuve
+ca;Selha e Rocosèls;Ceilhes
+kk;Сей-е-Рокозель;Ceilhes
+oc;Selha e Rocosèls;Ceilhes
+sr;Сеј ет Рокозел;Ceilhes
+uk;Сей-е-Рокозель;Ceilhes
+zh;塞耶和罗科泽尔;Ceilhes
+sr;Сокс ан Куе;Ceaux-en-Couhé
+uk;Со-ан-Куе;Ceaux-en-Couhé
+zh;库厄地区科;Ceaux-en-Couhé
+ca;Casolés;Cazoulès
+kk;Казуле;Cazoulès
+oc;Casolés;Cazoulès
+sr;Казуле;Cazoulès
+uk;Казуле;Cazoulès
+zh;卡祖莱;Cazoulès
+ca;Caudavalh;Caudeval
+eu;Caudavalh;Caudeval
+kk;Кодваль;Caudeval
+oc;Caudavalh;Caudeval
+sr;Кодвал;Caudeval
+uk;Кодваль;Caudeval
+ru;Кодваль;Caudeval
+zh;科德瓦;Caudeval
+sr;Кодбек ан Ко;Caudebec-en-Caux
+kk;Кодбек-ан-Ко;Caudebec-en-Caux
+uk;Кодбек-ан-Ко;Caudebec-en-Caux
+ru;Кодбек-ан-Ко;Caudebec-en-Caux
+kk;Ка;Catz
+sr;Кац;Catz
+uk;Ка;Catz
+zh;卡特;Catz
+ca;Castèths dAndòrta;Castets-en-Dorthe
+eu;Castèths Andòrta;Castets-en-Dorthe
+kk;Кастетс-ан-Дорт;Castets-en-Dorthe
+oc;Castèths Andòrta;Castets-en-Dorthe
+sr;Кастет ан Дорт;Castets-en-Dorthe
+uk;Кастетс-ан-Дорт;Castets-en-Dorthe
+zh;多尔特地区卡斯泰特;Castets-en-Dorthe
+ca;Castèl;Castels
+eu;Castèl;Castels
+kk;Кастель;Castels
+sr;Кастел;Castels
+uk;Кастель;Castels
+zh;卡斯泰尔;Castels
+fr;Casanova;Posacce
+kk;Карси;Carsix
+sr;Карси;Carsix
+uk;Карсі;Carsix
+zh;卡尔西;Carsix
+kk;Каркебю;Carquebut
+sr;Каркби;Carquebut
+uk;Каркебю;Carquebut
+zh;卡尔屈埃比;Carquebut
+ja;カランタン;Carentan
+el;Καραντάν;Carentan
+uk;Карантан;Carentan
+am;ካረንታን;Carentan
+sr;Карантан;Carentan
+kk;Карантан;Carentan
+ta;கேரன்டான்;Carentan
+he;קרנטן;Carentan
+ru;Карантан;Carentan
+zh;卡朗唐;Carentan
+fr;Capo Toro;Capitoro
+fr;Capo;Capu
+kk;Кантуа;Cantois
+sr;Кантоа;Cantois
+uk;Кантуа;Cantois
+zh;康图瓦;Cantois
+ca;Cantilhac;Cantillac
+kk;Кантияк;Cantillac
+oc;Cantilhac;Cantillac
+sr;Кантијак;Cantillac
+uk;Кантіяк;Cantillac
+zh;康蒂拉克;Cantillac
+eu;Cantilhac;Cantillac
+ru;Кантийак;Cantillac
+fr;Campo Moro;Campomoro
+fr;Campodiloro;Campolidori
+br;Kempel;Campel
+ja;カンパンドレ＝ヴァルコングラン;Campandré-Valcongrain
+kk;Кампандре-Вальконгрен;Campandré-Valcongrain
+sr;Кампандре Валконгрен;Campandré-Valcongrain
+uk;Кампандре-Вальконгрен;Campandré-Valcongrain
+ru;Кампандре-Вальконгрен;Campandré-Valcongrain
+zh;康庞德雷瓦尔孔格兰;Campandré-Valcongrain
+fr;Camou-Mixe-Suhast;Camou
+es;Gamue-Zohazti;Camou
+eu;Gamere;Camou
+fr;Camou-Cihigue;Camou
+eu;Gamere-Zihiga;Camou
+br;Gamere-Zihiga;Camou
+ca;Gamere-Zihiga;Camou
+kk;Каму-Сииг;Camou
+oc;Camon-Cihiga;Camou
+sr;Каму Сиг;Camou
+uk;Каму-Сіїг;Camou
+ru;Каму-Сииг;Camou
+zh;加穆西伊格;Camou
+ca;Camblanas e Meinac;Camblanes
+eu;Camblanas e Meinac;Camblanes
+kk;Камблан-е-Мейнак;Camblanes
+oc;Camblanas e Meinac;Camblanes
+sr;Камблан ет Менак;Camblanes
+uk;Камблан-е-Мейнак;Camblanes
+zh;康布拉内和梅纳克;Camblanes
+fr;Caldégas;Càldegues
+fr;Cala d'Oro;Cala d'Oru
+oc;Cadilhac;Cadillac
+ru;Париж 19 Бют-Шомон;Paris 19 Buttes-Chaumont
+el;Μονμάρτρη;Paris 18 Buttes-Montmartre
+he;מונמארטר;Paris 18 Buttes-Montmartre
+ja;モンマルトル;Paris 18 Buttes-Montmartre
+zh;蒙馬特;Paris 18 Buttes-Montmartre
+ru;Монмартр;Paris 18 Buttes-Montmartre
+fr;Bussunarits-Sarrasquette;Bussunarits
+es;Duzunaritze-Sarrasketa;Bussunarits
+es;Duzunaritze;Bussunarits
+br;Duzunaritze-Sarasketa;Bussunarits
+ca;Duzunaritze-Sarasketa;Bussunarits
+eu;Duzunaritze-Sarasketa;Bussunarits
+kk;Бюссюнаритс-Сарраскетт;Bussunarits
+oc;Bussunarits-Sarrasqueta;Bussunarits
+sr;Бисинарит Сараскет;Bussunarits
+uk;Бюссюнаритс-Сарраскетт;Bussunarits
+ru;Бюсюнаритс-Сарраскет;Bussunarits
+zh;比叙纳里兹萨拉斯杰特;Bussunarits
+fr;Busca Malo;Diceppo
+kk;Брюнстат;Brunstatt
+sr;Брунштат;Brunstatt
+uk;Брюнстат;Brunstatt
+zh;布兰斯塔;Brunstatt
+ru;Брёнстат;Brunstatt
+sr;Бринел;Brunelles
+uk;Брюнель;Brunelles
+zh;布吕内莱;Brunelles
+sr;Брисарт;Brissarthe
+uk;Бриссарт;Brissarthe
+zh;布里萨尔特;Brissarthe
+sr;Брисак Кенсе;Brissac-Quincé
+uk;Бриссак-Кенсе;Brissac-Quincé
+zh;布里萨克屈安塞;Brissac-Quincé
+br;Brignogan;Brignogan-Plages
+fr;Brignogan-Plage;Brignogan-Plages
+ja;ブリニョガン＝プラージュ;Brignogan-Plages
+kk;Бриньоган-Плаж;Brignogan-Plages
+sr;Брињоган Плаж;Brignogan-Plages
+uk;Бриньоган-Плаж;Brignogan-Plages
+zh;布里尼奥冈普拉格;Brignogan-Plages
+sr;Бриње;Brigné
+uk;Бриньє;Brigné
+zh;布里涅;Brigné
+kk;Брикебек;Bricquebec
+sr;Брикебек;Bricquebec
+uk;Брикебек;Bricquebec
+zh;布里屈埃贝克;Bricquebec
+ru;Брикебек;Bricquebec
+kk;Бреван;Brévands
+sr;Бреванд;Brévands
+uk;Бреван;Brévands
+zh;布雷旺德;Brévands
+kk;Бректувиль;Brectouville
+sr;Бректувил;Brectouville
+uk;Бректувіль;Brectouville
+zh;布雷克图维尔;Brectouville
+sr;Бреј ан Вал;Bray-en-Val
+uk;Бре-ан-Валь;Bray-en-Val
+zh;瓦地区布赖;Bray-en-Val
+ru;Бре-Ан-Валь;Bray-en-Val
+sr;Браман;Bramans
+uk;Браман;Bramans
+sr;Брен сир Лонгне;Brain-sur-Longuenée
+uk;Брен-сюр-Лонгне;Brain-sur-Longuenée
+zh;隆盖内埃河畔布兰;Brain-sur-Longuenée
+en;Brain-sur-lAuthion;Brain-sur-l'Authion
+ru;Боярдвиль;Boyard-Ville
+sr;Бузије;Bouzillé
+uk;Бузіє;Bouzillé
+zh;布齐莱;Bouzillé
+sr;Бутаван;Boutavent
+uk;Бутаван;Boutavent
+zh;布塔旺;Boutavent
+sr;Бурникел;Bourniquel
+br;Borniquèl;Bourniquel
+ca;Borniquèl;Bourniquel
+eu;Borniquèl;Bourniquel
+kk;Бурникель;Bourniquel
+oc;Borniquèl;Bourniquel
+uk;Бурнікель;Bourniquel
+zh;布尔尼屈埃;Bourniquel
+kk;Бургтерульд-Енфревиль;Bourgtheroulde-Infreville
+sr;Буртеролд Енфрвил;Bourgtheroulde-Infreville
+uk;Буртерульд-Енфревіль;Bourgtheroulde-Infreville
+zh;布尔格特鲁尔德安夫勒维尔;Bourgtheroulde-Infreville
+ru;Бургундия;Bourgogne
+br;Bourc'hnevez-Raez;Bourgneuf-en-Retz
+br;Bourchnevez-Raez;Bourgneuf-en-Retz
+oc;Bourchnevez-Raez;Bourgneuf-en-Retz
+sr;Бурњеф ан Рец;Bourgneuf-en-Retz
+uk;Бурнеф-ан-Ре;Bourgneuf-en-Retz
+zh;雷特地区布尔盖于;Bourgneuf-en-Retz
+ru;Бурнеф-Ан-Ре;Bourgneuf-en-Retz
+sr;Бурнеф ан Мож;Bourgneuf-en-Mauges
+uk;Бурнеф-ан-Мож;Bourgneuf-en-Mauges
+zh;莫热地区布尔盖于;Bourgneuf-en-Mauges
+fr;Bourg-Madame;la Guingueta d'Ix
+ca;la Guingueta;la Guingueta d'Ix
+ru;Бур-Мадам;la Guingueta d'Ix
+fr;Bourget;Le Bourget
+en;Le Bourg-dIré;Le Bourg-d'Iré
+sr;Бур де Тизи;Bourg-de-Thizy
+uk;Бур-де-Тізі;Bourg-de-Thizy
+ru;Бур Де Тизи;Bourg-de-Thizy
+sr;Бурсја;Bourcia
+uk;Бурсія;Bourcia
+zh;布尔西亚;Bourcia
+sr;Булазак;Boulazac
+ca;Bolasac;Boulazac
+kk;Булазак;Boulazac
+oc;Bolasac;Boulazac
+uk;Булазак;Boulazac
+zh;布拉扎克;Boulazac
+eu;Bolasac;Boulazac
+ru;Булазак;Boulazac
+sr;Бује Лорец;Bouillé-Loretz
+uk;Бує-Лоре;Bouillé-Loretz
+sr;Боц ан Мож;Botz-en-Mauges
+uk;Бо-ан-Мож;Botz-en-Mauges
+zh;莫热地区博特;Botz-en-Mauges
+fr;Bors;Bors(Canton de Montmoreau-Saint-Cybard)
+br;Banvre;Bonnœuvre
+fr;Bonnoeuvre;Bonnœuvre
+sr;Боноевр;Bonnœuvre
+uk;Бонневр;Bonnœuvre
+sv;Bonnoeuvre;Bonnœuvre
+zh;邦奥厄夫尔;Bonnœuvre
+sr;Босе;Bocé
+uk;Босе;Bocé
+zh;博塞;Bocé
+fr;Bocca dell Oro;Bocca di l'Oru
+ca;Bliç e Bòrn;Blis-et-Born
+kk;Блис-е-Борн;Blis-et-Born
+oc;En Bòrn;Blis-et-Born
+sr;Близ ет Борн;Blis-et-Born
+uk;Бліс-е-Борн;Blis-et-Born
+zh;布利和博尔恩;Blis-et-Born
+eu;En Bòrn;Blis-et-Born
+ru;Блис-э-Борн;Blis-et-Born
+sr;Блери;Bleury
+uk;Блері;Bleury
+zh;布勒里;Bleury
+sr;Блале;Blaslay
+uk;Блале;Blaslay
+zh;布拉斯莱;Blaslay
+uk;Бланзак-Поршересс;Blanzac-Porcheresse
+sr;Бланзак Поршерес;Blanzac-Porcheresse
+zh;布朗扎克波尔谢雷斯;Blanzac-Porcheresse
+ru;Бланзак-Поршрес;Blanzac-Porcheresse
+sr;Бландуе;Blandouet
+uk;Бландуе;Blandouet
+zh;布朗杜埃;Blandouet
+sr;Блезон Гоје;Blaison-Gohier
+uk;Блезон-Гоє;Blaison-Gohier
+zh;布莱松瓜;Blaison-Gohier
+sr;Бисеј;Bisseuil
+uk;Біссей;Bisseuil
+zh;比瑟伊;Bisseuil
+br;Binig;Binic
+gv;Binig;Binic
+kk;Биник;Binic
+oc;Binig;Binic
+sr;Биник;Binic
+uk;Бінік;Binic
+ru;Биник;Binic
+zh;比尼克;Binic
+sr;Бињак;Bignac
+uk;Біньяк;Bignac
+ru;Биньяк;Bignac
+zh;比尼亚克;Bignac
+br;Bieuzhi-an-Dour;Bieuzy
+br;Bizhui-an-Dour;Bieuzy
+kk;Бьези;Bieuzy
+oc;Bizhui-an-Dour;Bieuzy
+sr;Бјези;Bieuzy
+uk;Бєзі;Bieuzy
+zh;比耶于齐;Bieuzy
+fr;Bieuzy-les Eaux;Bieuzy
+kk;Бервиль-ан-Румуа;Berville-en-Roumois
+sr;Бервил ан Рмоа;Berville-en-Roumois
+uk;Бервіль-ан-Румуа;Berville-en-Roumois
+zh;鲁穆瓦地区贝尔维尔;Berville-en-Roumois
+eu;Berrogaine;Berrogain
+fr;Berrogain-Laruns;Berrogain
+eu;Berrogaine-Larüntze;Berrogain
+br;Berrogaine-Lahüntze;Berrogain
+ca;Berrogaine-Larüntze;Berrogain
+kk;Берроген-Ларенс;Berrogain
+oc;Berroganh-Laruntz;Berrogain
+sr;Бероген Ларен;Berrogain
+uk;Берроген-Ларенс;Berrogain
+ru;Берроген-Ларёнс;Berrogain
+zh;贝罗甘拉兰;Berrogain
+kk;Берньер-ле-Патри;Bernières-le-Patry
+sr;Бернијер ле Патри;Bernières-le-Patry
+uk;Берньєр-ле-Патрі;Bernières-le-Patry
+ru;Берньер-ле-Патри;Bernières-le-Patry
+zh;贝尔尼埃莱帕特里;Bernières-le-Patry
+kk;Берневаль-ле-Гран;Berneval-le-Grand
+sr;Берневал ле Гран;Berneval-le-Grand
+uk;Берневаль-ле-Гран;Berneval-le-Grand
+kk;Бермери;Bermeries
+sr;Бермери;Bermeries
+uk;Бермері;Bermeries
+zh;贝尔梅里;Bermeries
+ca;Ventajor e Serèr;Bentayou
+kk;Бантею-Сере;Bentayou
+oc;Ventajor e Serèr;Bentayou
+sr;Бентају Сере;Bentayou
+uk;Бантею-Сере;Bentayou
+ru;Бантайу-Сере;Bentayou
+zh;邦泰尤色雷;Bentayou
+sr;Бенасе;Benassay
+uk;Бенассе;Benassay
+zh;贝纳赛;Benassay
+sr;Белве;Belvès
+uk;Бельве;Belvès
+kk;Бельве;Belvès
+zh;贝尔韦;Belvès
+ru;Бельвес;Belvès
+kk;Беллу-сюр-Юин;Bellou-sur-Huisne
+sr;Белу сир Ин;Bellou-sur-Huisne
+uk;Беллу-сюр-Юїн;Bellou-sur-Huisne
+zh;于伊斯恩河畔贝卢;Bellou-sur-Huisne
+br;Belenieg;Belligné
+oc;Belenieg;Belligné
+sr;Белиње;Belligné
+uk;Белліньє;Belligné
+zh;贝利涅;Belligné
+mk;Белевил сир Вие;Belleville-sur-Vie
+sr;Белвил сир Ви;Belleville-sur-Vie
+uk;Бельвіль-сюр-Ві;Belleville-sur-Vie
+zh;维耶河畔贝勒维勒;Belleville-sur-Vie
+fr;Belleville-sur-Saône;Belleville
+es;Belleville sobre Saona;Belleville
+de;Belleville-sur-Saône;Belleville
+ar;بيليفيل;Belleville
+sr;Белвил;Belleville
+uk;Бельвіль;Belleville
+ru;Белвил;Belleville
+uk;Бельгард-сюр-Вальсерин;Bellegarde-sur-Valserine
+ja;ベルガルド＝シュル＝ヴァルスリーヌ;Bellegarde-sur-Valserine
+ar;بيليغارد-سور-فالسيرين;Bellegarde-sur-Valserine
+sr;Белгард сир Валсерин;Bellegarde-sur-Valserine
+ru;Бельгард-сюр-Вальсерин;Bellegarde-sur-Valserine
+zh;瓦尔瑟里恩河畔贝勒加尔德;Bellegarde-sur-Valserine
+fa;بلگارد-سور-والزرین;Bellegarde-sur-Valserine
+ur;بلگارد-سور-والزرین;Bellegarde-sur-Valserine
+eu;Behobia;Béhobie
+es;Behovia;Béhobie
+es;Pausua;Béhobie
+fr;Beg-Léguer;Becléguer
+oc;Beu Vés;Beauvais
+sr;Бос;Beausse
+uk;Босс;Beausse
+zh;博斯;Beausse
+ca;Baussat;Beaussac
+eu;Baussat;Beaussac
+kk;Боссак;Beaussac
+oc;Baussat;Beaussac
+sr;Босак;Beaussac
+uk;Боссак;Beaussac
+ru;Босак;Beaussac
+zh;博萨克;Beaussac
+ca;Bèuregard;Beauregard
+sr;Боргар Баре;Beauregard
+uk;Борегар-Баре;Beauregard
+zh;博雷加尔巴雷;Beauregard
+sr;Бопро;Beaupréau
+uk;Бопрео;Beaupréau
+ru;Бопрео;Beaupréau
+zh;博普雷奥;Beaupréau
+ja;ボープレオ;Beaupréau
+oc;Beuna;Beaune-les-Mines
+fr;Beaumont-Pied-de-Bœuf;Beaumont-Pied-de-Boeuf
+ca;Bèlmont;Beaumont-du-Périgord
+kk;Бомон-дю-Перигор;Beaumont-du-Périgord
+oc;Bèlmont;Beaumont-du-Périgord
+sr;Бомон ди Перигор;Beaumont-du-Périgord
+uk;Бомон-дю-Перигор;Beaumont-du-Périgord
+ru;Бомон-дю-Перигор;Beaumont-du-Périgord
+zh;博蒙迪佩里戈尔;Beaumont-du-Périgord
+eu;Bèlmont de Perigòrd;Beaumont-du-Périgord
+sr;Бофор ан Вале;Beaufort-en-Vallée
+uk;Бофор-ан-Валле;Beaufort-en-Vallée
+zh;瓦莱埃地区博福尔;Beaufort-en-Vallée
+sr;Базуж на Лоари;Bazouges-sur-le-Loir
+uk;Базуж-сюр-ле-Луар;Bazouges-sur-le-Loir
+fa;بازوش-سور-وسل;Bazoches-sur-Vesles
+hy;Բազոշ սյուր Վել;Bazoches-sur-Vesles
+sr;Базош сир Вел;Bazoches-sur-Vesles
+uk;Базош-сюр-Вель;Bazoches-sur-Vesles
+ru;Базош-сюр-Вель;Bazoches-sur-Vesles
+zh;韦勒河畔巴佐什;Bazoches-sur-Vesles
+sr;Бајер;Bayers
+uk;Беє;Bayers
+ru;Байе;Bayers
+zh;拜埃尔;Bayers
+kk;Боке;Bauquay
+sr;Боке;Bauquay
+uk;Боке;Bauquay
+ru;Боке;Bauquay
+zh;博屈艾;Bauquay
+fr;Paris 17;Paris 17 Batignolles-Monceau
+ru;Батиньоль (квартал);Paris 17 Batignolles-Monceau
+pl;Bassilac;Bassillac
+pt;Bassilac;Bassillac
+sr;Bassilac;Bassillac
+ceb;Bassilac;Bassillac
+sr;Басилак;Bassillac
+ca;Bassilhac;Bassillac
+kk;Бассияк;Bassillac
+oc;Bassilhac;Bassillac
+uk;Бассіяк;Bassillac
+zh;巴西拉克;Bassillac
+eu;Bassilhac;Bassillac
+fa;باسیاک;Bassillac
+ru;Басийак;Bassillac
+fr;Basalla;Vasalla
+fr;Barracone;Barraccone
+sr;Барманвиј;Barmainville
+sr;Барменвил;Barmainville
+hy;Բարիզի;Barisis
+sr;Баризи;Barisis
+uk;Баризі;Barisis
+ru;Баризи;Barisis
+zh;巴里西;Barisis
+br;Bargazh;Barbechat
+ja;バルブシャ;Barbechat
+oc;Bargazh;Barbechat
+sr;Барбша;Barbechat
+uk;Барбеша;Barbechat
+zh;巴尔贝沙;Barbechat
+fr;Banyuls-sur-Mer;Banyuls de la Marenda
+ca;Banyuls;Banyuls de la Marenda
+sr;Габи;Gubby Town
+uk;Габбі;Gubby Town
+ru;Габби;Gubby Town
+zh;古比;Gubby Town
+ca;Gubby;Gubby Town
+kk;Баллеруа;Balleroy
+sr;Балроа;Balleroy
+uk;Баллеруа;Balleroy
+ru;Бальруа;Balleroy
+zh;巴勒鲁瓦;Balleroy
+sr;Балоре;Balleray
+sr;Балре;Balleray
+sr;Бале;Ballée
+uk;Балле;Ballée
+zh;巴莱埃;Ballée
+fr;Balla di Botta;Valle di Botta
+sr;Бен ле Бен;Bains-les-Bains
+uk;Бен-ле-Бен;Bains-les-Bains
+kk;Бен-ле-Бен;Bains-les-Bains
+zh;班莱班;Bains-les-Bains
+fr;Bains de Caldaniccia;Les Bains de Caldaniccia
+br;Balieg;Baillé
+ca;Banhòu;Bagnols-les-Bains
+eu;Banhòu;Bagnols-les-Bains
+kk;Баньоль-ле-Бен;Bagnols-les-Bains
+oc;Banhòu;Bagnols-les-Bains
+sr;Бањол ле Бен;Bagnols-les-Bains
+uk;Баньоль-ле-Бен;Bagnols-les-Bains
+zh;巴尼奥尔莱班;Bagnols-les-Bains
+oc;Banheras;Bagnères-de-Bigorre
+sr;Бањер де Бигор;Bagnères-de-Bigorre
+oc;Banhèras de Bigòrra;Bagnères-de-Bigorre
+ja;バニェール＝ド＝ビゴール;Bagnères-de-Bigorre
+eu;Banhèras de Bigòrra;Bagnères-de-Bigorre
+ca;Banhèras de Bigòrra;Bagnères-de-Bigorre
+uk;Баньєр-де-Бігорр;Bagnères-de-Bigorre
+ru;Баньер-де-Бигор;Bagnères-de-Bigorre
+zh;巴涅尔-德比戈尔;Bagnères-de-Bigorre
+br;Banhèras de Bigòrra;Bagnères-de-Bigorre
+ar;باج-لا-فيل;Bâgé-la-Ville
+ko;바제라빌;Bâgé-la-Ville
+sr;Баже ла Вил;Bâgé-la-Ville
+uk;Баже-ла-Віль;Bâgé-la-Ville
+ru;Баже-ла-Виль;Bâgé-la-Ville
+zh;巴热拉维耶;Bâgé-la-Ville
+hy;Բաժե լա Վիլ;Bâgé-la-Ville
+fr;Babœuf;Baboeuf
+sr;Е;Ay
+sr;Аврији;Avrilly
+ru;Аврийи;Avrilly
+ru;Авориаз;Avoriaz
+ka;ავორიაზი;Avoriaz
+uk;Аворя;Avoriaz
+sr;Авире;Aviré
+uk;Авіре;Aviré
+zh;阿维雷;Aviré
+kk;Аверн-су-Ексм;Avernes-sous-Exmes
+sr;Аверн суз Ексм;Avernes-sous-Exmes
+uk;Аверн-су-Ексм;Avernes-sous-Exmes
+zh;阿韦尔内苏埃克斯梅;Avernes-sous-Exmes
+sr;Озовил Обербоск;Auzouville-Auberbosc
+sr;Оксон Деси;Auxon-Dessus
+sr;Оксон Десу;Auxon-Dessous
+sr;Оверс;Auverse
+uk;Оверс;Auverse
+zh;奥韦尔斯;Auverse
+sr;Отрон;Autrans
+uk;Отран;Autrans
+ru;Отран;Autrans
+zh;奥特朗;Autrans
+ca;Autivièla;Autevielle
+eu;Autile;Autevielle
+kk;Отвьель-Сен-Мартен-Бидеран;Autevielle
+oc;Autivièla;Autevielle
+sr;Отвил Сен Мартен Бидеран;Autevielle
+uk;Отвєль-Сен-Мартен-Бідеран;Autevielle
+ru;Отвьель-Сен-Мартен-Бидеран;Autevielle
+zh;奥特维耶尔圣马尔坦比德朗;Autevielle
+ca;Aurèla e Verlac;Aurelle-Verlac
+eu;Aurèla e Verlac;Aurelle-Verlac
+oc;Aurèla e Verlac;Aurelle-Verlac
+sr;Орел;Aurelle-Verlac
+uk;Орель-Верлак;Aurelle-Verlac
+ru;Орель-Верлак;Aurelle-Verlac
+zh;奥雷尔韦尔拉克;Aurelle-Verlac
+kk;Окенвиль;Auquainville
+sr;Окенвил;Auquainville
+uk;Окенвіль;Auquainville
+ru;Окенвиль;Auquainville
+zh;奥屈安维尔;Auquainville
+sr;Ону;Auneau
+uk;Оно;Auneau
+zh;欧诺;Auneau
+sr;Оне на Одону;Aunay-sur-Odon
+kk;Оне-сюр-Одон;Aunay-sur-Odon
+uk;Оне-сюр-Одон;Aunay-sur-Odon
+ru;Оне-сюр-Одон;Aunay-sur-Odon
+zh;奥东河畔奥奈;Aunay-sur-Odon
+fa;اونی-سور-ادون;Aunay-sur-Odon
+sr;Унак;Aunac
+uk;Онак;Aunac
+ru;Онак;Aunac
+zh;奥纳克;Aunac
+ca;Autmont dAubrac;Aumont-Aubrac
+eu;Autmont dAubrac;Aumont-Aubrac
+kk;Омон-Обрак;Aumont-Aubrac
+oc;Autmont dAubrac;Aumont-Aubrac
+sr;Омон Обрак;Aumont-Aubrac
+uk;Омон-Обрак;Aumont-Aubrac
+vi;Auroux;Aumont-Aubrac
+ru;Омон-Обрак;Aumont-Aubrac
+zh;奥蒙奥布拉克;Aumont-Aubrac
+sr;Ож Сен Медар;Auge-Saint-Médard
+uk;Ож-Сен-Медар;Auge-Saint-Médard
+ru;Ож-Сен-Медар;Auge-Saint-Médard
+zh;奥格圣梅达尔;Auge-Saint-Médard
+sr;Ауенхајм;Auenheim
+sr;Уенем;Auenheim
+ar;أوينهيم;Auenheim
+fa;آونهایم;Auenheim
+kk;Оенайм;Auenheim
+uk;Оенайм;Auenheim
+zh;奥埃南;Auenheim
+kk;Одервиль;Auderville
+sr;Одервиј;Auderville
+uk;Одервіль;Auderville
+zh;奥代尔维尔;Auderville
+ca;Aubia e Espessàs;Aubie
+eu;Aubía e Espessàs;Aubie
+kk;Оби-е-Еспессас;Aubie
+oc;Aubía e Espessàs;Aubie
+sr;Оби ет Епеса;Aubie
+uk;Обі-е-Еспессас;Aubie
+zh;奥比耶和埃斯佩萨;Aubie
+kk;Обевуа;Aubevoye
+sr;Обевеј;Aubevoye
+uk;Обвуа;Aubevoye
+ru;Обвуа;Aubevoye
+zh;奥伯瓦埃;Aubevoye
+sr;Обвиј;Aubeville
+uk;Обвіль;Aubeville
+ru;Обвиль;Aubeville
+zh;奥伯维尔;Aubeville
+ca;Obasina;Aubazine
+eu;Obasina;Aubazine
+kk;Обазин;Aubazine
+oc;Obasina;Aubazine
+sr;Обазен;Aubazine
+uk;Обазін;Aubazine
+ru;Обазин;Aubazine
+zh;奥巴齐内;Aubazine
+sr;Атир;Atur
+ru;Атир;Atur
+fr;Attana;Altana
+ca;Atòs e Aspins;Athos
+kk;Атос-Аспис;Athos
+oc;Atòs e Aspins;Athos
+sr;Атоз Аспи;Athos
+uk;Атос-Аспіс;Athos
+ru;Атос-Аспис;Athos
+zh;阿托阿斯皮;Athos
+en;Athis-de-lOrne;Athis-de-l'Orne
+fr;Astro;Astru
+oc;Assosta;Assouste
+kk;Аспак-ле-О;Aspach-le-Haut
+sr;Аспаш лО;Aspach-le-Haut
+uk;Аспак-ле-О;Aspach-le-Haut
+ru;Аспак-ле-О;Aspach-le-Haut
+zh;阿斯帕克莱奥;Aspach-le-Haut
+sr;Алон;Aslonnes
+uk;Аслонн;Aslonnes
+zh;阿斯洛纳;Aslonnes
+ar;اسك;Ascq
+ja;アスク;Ascq
+ru;Аск;Ascq
+sr;Арвиј;Arville
+sr;Арвил;Arville
+br;Arzhon-Raez;Arthon-en-Retz
+ja;アルトン＝アン＝レ;Arthon-en-Retz
+oc;Arzhon-Raez;Arthon-en-Retz
+sr;Артон ан Рец;Arthon-en-Retz
+uk;Артон-ан-Ре;Arthon-en-Retz
+zh;雷特地区阿尔通;Arthon-en-Retz
+sr;Ару;Arrou
+uk;Арру;Arrou
+zh;阿尔鲁;Arrou
+es;Arruntza;Arrauntz
+fr;Arles-sur-Tech;Arles
+ru;Арль;Arles
+bg;Арл;Arles
+ca;Arle;Arles
+he;ארל;Arles
+ja;アルル;Arles
+oc;Arle;Arles
+sr;Арл;Arles
+br;Arle;Arles
+ka;არლი;Arles
+mzn;ارل;Arles
+lv;Arla;Arles
+lt;Arlis;Arles
+os;Арль;Arles
+uk;Арль;Arles
+fa;آرل;Arles
+el;Αρλ;Arles
+ko;아를;Arles
+be;Арль;Arles
+zh;阿爾勒;Arles
+ar;آرل;Arles
+hy;Առլ;Arles
+lrc;ارل;Arles
+fr;Argœuves;Argoeuves
+sr;Аржантон Нотре Дам;Argenton-Notre-Dame
+uk;Аржантон-Нотр-Дам;Argenton-Notre-Dame
+zh;阿尔让通诺特尔当;Argenton-Notre-Dame
+en;Argenton-lÉglise;Argenton-l'Église
+uk;Аржантон-ле-Валле;Argenton-les-Vallées
+fr;Argenton-Château;Argenton-les-Vallées
+ru;Аржантон-Ле-Валле;Argenton-les-Vallées
+sr;Аржента;Argentat
+ja;アルジャンタ;Argentat
+kk;Аржанта;Argentat
+uk;Аржанта;Argentat
+ru;Аржанта;Argentat
+zh;阿尔让塔;Argentat
+ca;Argelers;Argeles
+fr;Argelès-sur-Mer;Argeles
+de;Argeles-sur-Mer;Argeles
+sr;Арђелерс;Argeles
+kk;Арбис;Arbis
+sr;Арби;Arbis
+uk;Арбіс;Arbis
+zh;阿尔比;Arbis
+fr;Araggio;Arraggio
+ca;Anzac e lo Luguèt;Anzat
+kk;Анза-ле-Люге;Anzat
+sr;Анза ле Лике;Anzat
+uk;Анза-ле-Люге;Anzat
+zh;昂扎莱吕盖;Anzat
+br;Entraven;Antrain
+gv;Entraven;Antrain
+kk;Антрен;Antrain
+oc;Entraven;Antrain
+sr;Онтран;Antrain
+uk;Антрен;Antrain
+zh;昂特兰;Antrain
+ca;Entraigas;Antraigues-sur-Volane
+oc;Entraigas;Antraigues-sur-Volane
+sr;Антрек сир Волан;Antraigues-sur-Volane
+uk;Антрег-сюр-Волан;Antraigues-sur-Volane
+ru;Антрег-сюр-Волан;Antraigues-sur-Volane
+zh;沃朗河畔昂特赖盖;Antraigues-sur-Volane
+ca;Antona e Trigonant;Antonne
+eu;Antona e Trigonant;Antonne
+kk;Антонн-е-Тригонан;Antonne
+oc;Antona e Trigonant;Antonne
+sr;Антон е Тригонан;Antonne
+uk;Антонн-е-Тригонан;Antonne
+zh;昂通和特里戈南;Antonne
+fr;Antogné;Antoigné
+kk;Анновиль;Annoville
+sr;Ановил;Annoville
+uk;Анновіль;Annoville
+zh;阿诺维尔;Annoville
+sr;Аноазен Шатлан;Annoisin
+uk;Аннуазен-Шатлан;Annoisin
+ru;Аннуазен-Шатлан;Annoisin
+zh;阿努瓦桑沙泰朗;Annoisin
+kk;Аннеллен;Annoeullin
+sr;Аноелен;Annoeullin
+uk;Аннеллен;Annoeullin
+ru;Аннёллен;Annoeullin
+zh;阿讷兰;Annoeullin
+fr;Annœullin;Annoeullin
+sr;Анеси ле Вје;Annecy-le-Vieux
+ru;Аннеси-ле-Вье;Annecy-le-Vieux
+uk;Аннесі-ле-Вє;Annecy-le-Vieux
+fr;Angoustrine;Angostrina
+ca;Anglars e Sent Felitz;Anglars
+oc;Anglars de Rinhac;Anglars
+sr;Англар Сен Феликс;Anglars
+uk;Англар-Сен-Фелікс;Anglars
+ru;Англар-Сен-Фели;Anglars
+zh;昂格拉尔圣费利;Anglars
+br;Arned;Anetz
+oc;Arned;Anetz
+sr;Анец;Anetz
+uk;Ане;Anetz
+zh;阿内特;Anetz
+ja;アンドルゼ;Andrezé
+sr;Ондрозе;Andrezé
+uk;Андрезе;Andrezé
+zh;昂德雷泽;Andrezé
+sr;Ондиње;Andigné
+uk;Андіньє;Andigné
+zh;昂迪涅;Andigné
+fa;اندرد;Andard
+sr;Ондар;Andard
+uk;Андар;Andard
+zh;昂达尔;Andard
+fa;انکتوویل;Anctoville
+kk;Анктовиль;Anctoville
+sr;Онктовиј;Anctoville
+uk;Анктовіль;Anctoville
+ru;Анктовиль;Anctoville
+zh;昂克托维尔;Anctoville
+fa;انکت‌ویل;Ancteville
+kk;Анктевиль;Ancteville
+sr;Онктевил;Ancteville
+uk;Анктевіль;Ancteville
+zh;昂克特维尔;Ancteville
+br;Ankiniz;Ancenis
+oc;Ankiniz;Ancenis
+ja;アンスニ;Ancenis
+sr;Ансени;Ancenis
+uk;Ансені;Ancenis
+zh;昂瑟尼;Ancenis
+fa;انسینیس;Ancenis
+gv;Ankiniz;Ancenis
+ru;Ансени;Ancenis
+fr;Amorots-Succos;Amorots
+es;Amorotze-Zokotze;Amorots
+es;Amorotze;Amorots
+br;Amorotze-Zokotze;Amorots
+ca;Amorotze-Zokotze;Amorots
+eu;Amorotze-Zokotze;Amorots
+fa;اموراتس-ساکاس;Amorots
+kk;Аморотс-Сюккос;Amorots
+oc;Amoròs-Sucòs;Amorots
+sr;Аморо Сико;Amorots
+uk;Аморотс-Сюккос;Amorots
+ru;Аморотс-Сюккос;Amorots
+zh;阿莫罗特叙科;Amorots
+sr;Амфревиј ла Кампањ;Amfreville-la-Campagne
+sr;Амфревил ла Кампањ;Amfreville-la-Campagne
+es;Amezpetu;Amespétou
+fr;Amendeuix-Oneix;Amendeuix
+es;Amenduze-Unaso;Amendeuix
+es;Amenduze;Amendeuix
+br;Amendüze-Unaso;Amendeuix
+ca;Amendüze-Unaso;Amendeuix
+eu;Amendüze-Unaso;Amendeuix
+fa;امیندو-وانیکس;Amendeuix
+kk;Амандекс-Онекс;Amendeuix
+oc;Amenduish-Oneis;Amendeuix
+sr;Амандекс Онекс;Amendeuix
+uk;Амандекс-Онекс;Amendeuix
+ru;Амандёкс-Онекс;Amendeuix
+zh;阿芒德伊奥内;Amendeuix
+fr;Amélie-les Bains;els Banys d'Arles
+pl;Amélie-les-Bains;els Banys d'Arles
+en;Amélie-les-Bains;els Banys d'Arles
+it;Amélie-les-Bains;els Banys d'Arles
+nl;Amélie-les-Bains;els Banys d'Arles
+sr;Амели ле Бен;els Banys d'Arles
+ca;els Banys;els Banys d'Arles
+kk;Амбли;Amblie
+sr;Омбли;Amblie
+uk;Амблі;Amblie
+ru;Амбли;Amblie
+zh;昂布利耶;Amblie
+fa;امبل‌ویل، چارنت;Ambleville
+sr;Амблвил;Ambleville
+uk;Амблевіль;Ambleville
+ru;Амблевиль;Ambleville
+fa;امبیلو-شتو;Ambillou-Château
+sr;Амбију-Шато;Ambillou-Château
+uk;Амбію-Шато;Ambillou-Château
+zh;昂比卢沙托;Ambillou-Château
+ca;Altpuèg;Alpuech
+eu;Alpuèg;Alpuech
+fa;الپویچ;Alpuech
+oc;Alpuèg;Alpuech
+sr;Алпијеш;Alpuech
+uk;Альпюеш;Alpuech
+ru;Альпюш;Alpuech
+zh;阿尔皮埃克;Alpuech
+sr;Алонвије;Allenwiller
+sr;Аленвилер;Allenwiller
+kk;Алленвиллер;Allenwiller
+uk;Алленвіллер;Allenwiller
+zh;阿朗维莱;Allenwiller
+ar;ألينويلير;Allenwiller
+fa;الین‌ویلر;Allenwiller
+eu;Altzai;Alçay
+fr;Alçay-Alçabéhéty-Sunharette;Alçay
+eu;Altzai-Altzabeheti-Zunharreta;Alçay
+br;Altzai-Altzabeheti-Zunharreta;Alçay
+ca;Altzai-Altzabeheti-Zunharreta;Alçay
+fa;السی-السابهتی-سانهرت;Alçay
+kk;Альсе-Альсабеети-Сенаретт;Alçay
+oc;Aucet-Aucet Juson-Sunarreta;Alçay
+sr;Алсеј Алсабети Синарет;Alçay
+uk;Альсе-Альсабееті-Сенаретт;Alçay
+ru;Альсе-Альсабеэти-Сюнарет;Alçay
+zh;阿尔赛阿尔萨贝埃蒂叙纳雷特;Alçay
+sr;Албан;Albens
+uk;Альбан;Albens
+fa;البنس;Albens
+fr;Albareto;Arbaretto
+sr;Ажу;Ajou
+fr;Aja d'Onica;Arja Donica
+fa;ایکس-ان-اوته;Aix-en-Othe
+sr;Екс-он-От;Aix-en-Othe
+uk;Екс-ан-От;Aix-en-Othe
+ru;Экс-ан-От;Aix-en-Othe
+zh;奥特地区艾克斯;Aix-en-Othe
+kk;Еран;Airan
+sr;Еран;Airan
+uk;Еран;Airan
+ru;Эран;Airan
+zh;艾朗;Airan
+fr;Ainhice-Mongelos;Ainhice
+es;Ainhize-Monjolose;Ainhice
+es;Ainhize;Ainhice
+eu;Ainhize-Monjolose;Ainhice
+br;Ainhize-Monjolose;Ainhice
+ca;Ainhize-Monjolose;Ainhice
+fa;اینهیس-مانگلاس;Ainhice
+kk;Енис-Монжелос;Ainhice
+oc;Aniça-Montgelós;Ainhice
+sr;Енис-Монжло;Ainhice
+uk;Еніс-Монжелос;Ainhice
+ru;Энис-Монжелос;Ainhice
+zh;艾尼克蒙热洛;Ainhice
+sr;Ем;Aime
+uk;Ем;Aime
+ru;Эм;Aime
+sr;Егбланш;Aigueblanche
+uk;Егбланш;Aigueblanche
+fa;ایگوبلانچ;Aigueblanche
+fa;ایگنس-ا-پویپراکس;Aignes-et-Puypéroux
+sr;Ењ-е-Пујперо;Aignes-et-Puypéroux
+uk;Ень-е-Пюїперу;Aignes-et-Puypéroux
+ru;Энь-э-Пюиперу;Aignes-et-Puypéroux
+zh;艾盖和皮伊佩鲁;Aignes-et-Puypéroux
+fr;Aiglun;Le Vieil Aiglun
+fr;Ahaxe-Alciette-Basçassan;Ahaxe
+es;Ahatsa-Altzieta-Bazkazane;Ahaxe
+es;Ahatsa;Ahaxe
+eu;Ahatsa-Altzieta-Bazkazane;Ahaxe
+br;Ahatsa-Altzieta-Bazkazane;Ahaxe
+ca;Ahatsa-Altzieta-Bazkazane;Ahaxe
+kk;Аакс-Альсьетт-Баскассан;Ahaxe
+oc;Ahatsa-Altzieta-Bazkazane;Ahaxe
+sr;Акс Алсијет Бакасан;Ahaxe
+uk;Аакс-Альсьєтт-Баскассан;Ahaxe
+zh;阿阿克斯阿尔谢特巴斯卡桑;Ahaxe
+fa;اهاکس-السیت-باسکاسان;Ahaxe
+ur;اہاکس-السیت-باسکاسان;Ahaxe
+ru;Аакс-Альсьет-Баскасан;Ahaxe
+ca;Anhera de Devolui;Agnières-en-Dévoluy
+eu;Anhera-en-Devoluí;Agnières-en-Dévoluy
+fa;اگنیرز-ان-دولوی;Agnières-en-Dévoluy
+oc;Anhera de Devolui;Agnières-en-Dévoluy
+sr;Ањијер ан Деволи;Agnières-en-Dévoluy
+uk;Аньєр-ан-Деволюї;Agnières-en-Dévoluy
+ur;اگنیرے-آں-دیوولے;Agnières-en-Dévoluy
+ru;Аньер-ан-Деволюи;Agnières-en-Dévoluy
+zh;代沃吕伊地区阿尼埃;Agnières-en-Dévoluy
+ca;Abrièrs;Abriès
+oc;Abrièrs;Abriès
+sr;Абрије;Abriès
+uk;Абріє;Abriès
+ru;Абриес;Abriès
+zh;阿布列;Abriès
+fa;ابریس;Abriès
+fr;Perela;Perelli
+en;Tarco;Tarcu
+fr;Station de Risoul;Risoul 1850
+fr;le Pont de Pierre;Maison du Roi
+ce;Ла Таньа;La Tania
+ru;Ла-Танья;La Tania
+ja;ラ・タニア;La Tania
+zh;拉塔尼亞;La Tania
+fr;La Plagne Centre;La Plagne
+ru;Валь Торанс;Val Thorens
+he;ואל טורנס;Val Thorens
+pt;Vale Thorens;Val Thorens
+ar;دومارتا;Dommartin
+hy;Դոմարտեն;Dommartin
+sr;Домартен;Dommartin
+uk;Доммартен;Dommartin
+ru;Доммартен;Dommartin
+zh;多马尔坦;Dommartin
+ca;Sent Pau de Laubreçac;Saint-Paul-de-Loubressac
+oc;Sent Pau de Laubreçac;Saint-Paul-de-Loubressac
+uk;Сен-Поль-де-Лубрессак;Saint-Paul-de-Loubressac
+ur;سین-پال-دے-لوبرساک;Saint-Paul-de-Loubressac
+zh;圣波德卢布雷萨克;Saint-Paul-de-Loubressac
+uk;Понсе-сюр-ле-Луар;Poncé-sur-le-Loir
+sr;Шаје су лез Ормо;Chaillé-sous-les-Ormeaux
+uk;Шає-су-лез-Ормо;Chaillé-sous-les-Ormeaux
+zh;谢勒苏斯-勒奥尔莫;Chaillé-sous-les-Ormeaux
+br;Runonn;Le Fresne-sur-Loire
+ja;ル・フレンヌ＝シュル＝ロワール;Le Fresne-sur-Loire
+oc;Runonn;Le Fresne-sur-Loire
+uk;Ле-Френ-сюр-Луар;Le Fresne-sur-Loire
+zh;卢瓦尔河畔勒夫雷斯恩;Le Fresne-sur-Loire
+en;Le Bois-dOingt;Le Bois-d'Oingt
+kk;Монтуа-Фланвиль;Montoy-Flanville
+uk;Монтуа-Фланвіль;Montoy-Flanville
+zh;蒙图瓦弗朗维尔;Montoy-Flanville
+ca;Benevent e Charbilhac;Bénévent-et-Charbillac
+eu;Benevent e Charbilhac;Bénévent-et-Charbillac
+oc;Benevent e Charbilhac;Bénévent-et-Charbillac
+sr;Беневант е Шарбијак;Bénévent-et-Charbillac
+uk;Беневан-е-Шарбіяк;Bénévent-et-Charbillac
+ru;Беневан-э-Шарбийак;Bénévent-et-Charbillac
+zh;贝内旺和沙尔比拉克;Bénévent-et-Charbillac
+uk;Мольпре;Molpré
+zh;莫尔普雷;Molpré
+ar;كانتيلوكس;Canteleux
+kk;Кантеле;Canteleux
+sr;Кантле;Canteleux
+uk;Кантеле;Canteleux
+zh;康泰勒;Canteleux
+ru;Бель-Плань;Belle-Plagne
+fr;Garbejaire;Sophia Antipolis
+fr;Haut Sartoux;Sophia Antipolis
+ar;صوفيا أنتيبوليس;Sophia Antipolis
+uk;Софія Антиполіс;Sophia Antipolis
+ja;ソフィア・アンティポリス;Sophia Antipolis
+ru;София-Антиполис;Sophia Antipolis
+zh;法国索菲亚科技园;Sophia Antipolis
+ko;소피아앙티폴리스;Sophia Antipolis
+bg;София Антиполис;Sophia Antipolis
+zh-Hant;法國索菲亞科技園;Sophia Antipolis
+id;Taman Sophia Antipolis;Sophia Antipolis
+zh-HK;法國索菲亞科技園;Sophia Antipolis
+fa;سوفیا آنتیپولیس;Sophia Antipolis
+he;סופיה אנטיפוליס;Sophia Antipolis
+fr;Mate Redune;Mata-rodona
+ca;la Farga;la Farga de la Presta
+ca;la Clusa de Dalt;la Clusa d'Amunt
+fr;La Cluse Haute;la Clusa d'Amunt
+ca;Sant Tomàs;Sant Tomàs de Balaguer
+fr;Espradel;Espradels
+fr;Laubernes;Laubarnès
+fr;L'Estevenes;Lestèvenès
+fr;Les Fournets;Esfounès
+fr;La Maguelanne;La Maguelone
+fr;La Chase;La Chaze
+fr;Barre;Barres
+fr;Le Marichard;Le Mas Richard
+fr;Les Chavailloux;Chabaliou
+fr;Labro;Labrot
+fr;La Villatele;La Vilatelle
+fr;Le Nirgoul;Le Nirgoult
+fr;Mallesvalles;Malevielle
+fr;Le Coudere;Le Couderc
+fr;Le Coudert;Le Couderc
+fr;Espezone;Espezonne
+fr;Argnier;Arnier
+fr;La Veysseyre;La Vaysseire
+fr;Douloy;Le Doulay
+fr;Les Choisinès;Les Choisinets
+fr;Les Utes;Les Huttes
+fr;Lherm;L'Herm
+fr;Regloton;Rogleton
+fr;Rogleton et les Traverses;Rogleton
+fr;La Felgère;Le Pal de la Felgère
+fr;Marseille 1er;Marseille 01
+fr;Marseille 1;Marseille 01
+fr;Marseille 2eme;Marseille 02
+fr;Marseille 2e;Marseille 02
+fr;Marseille 2;Marseille 02
+fr;Marseille 3eme;Marseille 03
+fr;Marseille 3e;Marseille 03
+fr;Marseille 3;Marseille 03
+fr;Marseille 4eme;Marseille 04
+fr;Marseille 4e;Marseille 04
+fr;Marseille 4;Marseille 04
+fr;Marseille 5eme;Marseille 05
+fr;Marseille 5e;Marseille 05
+fr;Marseille 5;Marseille 05
+fr;Marseille 6eme;Marseille 06
+fr;Marseille 6e;Marseille 06
+fr;Marseille 6;Marseille 06
+fr;Marseille 7e arrondissement;Marseille 07
+fr;Marseille 7eme;Marseille 07
+fr;Marseille 7e;Marseille 07
+fr;Marseille 7;Marseille 07
+fr;Marseille 8eme;Marseille 08
+fr;Marseille 8e;Marseille 08
+fr;Marseille 8;Marseille 08
+el;Μασσαλία;Marseille 10
+fr;Marseille 10eme;Marseille 10
+fr;Marseille 10e arrondissement;Marseille 10
+fr;Marseille 10e;Marseille 10
+fr;Marseille 9eme;Marseille 09
+fr;Marseille 9e;Marseille 09
+fr;Marseille 9;Marseille 09
+fr;Marseille 11eme;Marseille 11
+fr;Marseille 11e;Marseille 11
+fr;Marseille 12eme;Marseille 12
+fr;Marseille 12e;Marseille 12
+fr;Marseille 13eme;Marseille 13
+fr;Marseille 13e;Marseille 13
+fr;Marseille 14eme;Marseille 14
+fr;Marseille 14e;Marseille 14
+fr;Marseille 15eme;Marseille 15
+fr;Marseille 15e;Marseille 15
+fr;Marseille 16eme;Marseille 16
+fr;Marseille 16e;Marseille 16
+fr;Courchevel Moriond;Courchevel 1650
+ru;Визавона;Vizzavona
+ru;ле Корбье;Le Corbier
+fr;Pra-Loup;Praloup
+de;Communauté d’agglomération de Saint-Quentin-en-Yvelines;Saint-Quentin-en-Yvelines
+ru;Сен-Кантен-ан-Ивелин;Saint-Quentin-en-Yvelines
+ru;Сержи-Понтуаз;Cergy-Pontoise
+fr;Marina di Pinare;Marina di Pinarello
+fr;Moriani;Moriani Plage
+fr;Chippono;Cipponu
+fr;Sainte-Lucie;Santa Lucia
+fr;La Mola;Mola
+fr;La Chialza;Chialza
+fr;Altoraccia;Alturaja
+fr;Petra Maio;Pietra Maggiore
+fr;Pietro Major;Pietra Maggiore
+fr;L'Argentelle;L'Argentella
+fr;Amico;Amacu
+fr;Terrazone;Tarazone
+fr;Haut Asco;Station de Ski du Haut Asco
+fr;Le Poggio;Poggio
+fr;Le Gouèh;Le Gouerch
+fr;Anvort;Anvorte
+fr;Suarcchio;Suaricchio
+fr;La Vignola;Vignola
+fr;Lostinchello;Lustinchellu
+fr;Pietra di Lama;Petra di Lama
+fr;Sardaigne;Scrivano
+fr;Champ de Chêne;Campo al Quarcio
+fr;Saparelli;Saparelle
+fr;Amaglio;Amadiu
+fr;Pianiccie;Pianiccia
+fr;Casaberte;Casaperta
+fr;Le Moulin d'Anvort;Le Petit Anvorte
+fr;Le Phare;Le Vieux Phare
+ru;Ла Бэдиньер;La Bédinière
+en;La Faye;Le Theil
+fr;Brousses;Brousses Hautes
+fr;Belpuig;La Trinité
+ru;Марне Ла Валлее;Marne La Vallée
+fr;Lavignolle;La Vignolle de Salles
+fr;Lavignolles;La Vignolle de Salles
+fr;Les Quinze-Vingts;Quinze-Vingts
+fr;Rupierre;Rupierres
+fr;Le Mesnil-Touffrey;Le Mesnil Touffray
+fr;Le Douet-Artus;Le Douet Arthus
+fr;Ligueil;Ligueuil
+fr;Coleignes;Colleignes
+fr;Le Benerey;Le Bennerey
+fr;Saint-Quentin-de-la-Roche;Saint-Quentin
+fr;Cirfontaine;Cirfontaines
+fr;Villers-sur-Glos;Villers
+fr;Fresné-le-Crotteur;Fresnay-le-Crotteur
+fr;Bouttemont;Boutemont
+fr;Saint-Cyr-d'Étrancourt;Saint-Cyr-d'Estrancourt
+fr;Le Chêne;Le Chêne-en-Auge
+fr;Saint-Martin-le-Vieux;Saint-Martin
+fr;Dauboeuf-sur-Touques;Dauboeuf
+fr;Saint-Louet-près-Authie;Saint-Louet
+fr;Liroze;Lirose
+fr;Argouges-sur-Mosles;Argouges
+fr;Fontenay-sur-le-Vey;Fontenay
+fr;Coatévez;Coatevès
+fr;Fontsainte;La Font-Sainte
+fr;Guiquelleau;Guicquelleau
+fr;Étableau;Étableaux
+fr;Saint-Martin-d'Étableaux;Étableaux
+fr;Fayolles;Fayolle
+fr;Le Rys-Huella;Le Ris
+fr;Le Ris Huella;Le Ris
+fr;Berchères;Les Berchères
+fr;Saint-Philibert;Saint-Philibert-de-la-Pelouse
+fr;La Fage;Lafage
+fr;La Beisseyre;La Besseyre
+fr;La Boisse;Boissolle
+fr;La Garnauderie;La Garnaudrie
+fr;Saint-Priest-de-Mareuil;Saint-Priest
+fr;La Vergne;Lavergne
+fr;Montausier;Montauzier
+fr;Salles-en-Beaujolais;Salles
+fr;Brasis;Brazis
+fr;Montsalvi;Montsalvy
+fr;Saint-Pierre-de-Rumilly-sous-Cornillon;Saint-Pierre-de-Rumilly
+fr;La Motte-le-Roy;La Motte-le-Roi
+fr;Le Vieux Pont;Ponte
+fr;Ponte d'Asco;Ponte

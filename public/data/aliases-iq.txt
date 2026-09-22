@@ -27900,3 +27900,7 @@ ku;Silêman Xilîw;Qaryat ‘Uwaynah
 ar;مجمع شمس آوا;Shemsawa
 ar;ازمك سفلى;Ezmek
 ar;بيبيجك السفلى;Bī Bī Jik as Suflá
+fa;قمر;Qamar
+ar;عبدالله الحسين;‘Abd Allāh al Ḩusayn
+ar;قرية البو حمد;Qaryat Ālbū Ḩamad
+ar;ماشان السفلى;Mashan

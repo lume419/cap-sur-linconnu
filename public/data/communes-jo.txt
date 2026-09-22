@@ -1,90 +1,1309 @@
+0;36.0320,32.3185;JO-MA;;Ḩammāmat al ‘Umūsh
+0;35.9179,31.6988;JO-AM;;Zuwayzā
+0;36.5074,32.2570;JO-MA;;Zumlat al Amīr Ghāzī
+0;35.7742,32.4306;JO-IR;;Zūbiyā
+0;35.7354,32.5065;JO-IR;;Zimāl
+0;35.7144,32.1057;JO-BA;;Zayy
+0;35.9077,31.6131;JO-AM;;Zaynab
+0;35.7616,31.1705;JO-KA;;Zaḩḩūm
 4150;35.7781,32.5667;JO-IR;;Zaḩar
+0;35.6682,32.5714;JO-IR;;Zabdah al Wasaţīyah
+0;35.8969,31.7554;JO-AM;;Zabāyir ‘Udwān
+0;35.8235,32.6868;JO-IR;;Yublā
 4786;35.6964,31.9758;JO-BA;;Yarqā
+0;35.9246,32.0326;JO-AM;;Yājūz
+0;35.5738,30.1376;JO-MN;;Awhaydah
 5678;35.6051,32.5421;JO-IR;;Waqqāş
+0;35.6727,31.0191;JO-KA;;Wādī Şarārah
 14000;35.4789,30.3210;JO-MN;;Wādī Mūsá
 181212;35.8183,31.9545;JO-AM;;Wādī as Sīr
+0;36.0497,32.1486;JO-AZ;;Wad‘ah
+0;35.9134,32.0705;JO-AM;;‘Uyūn adh Dhi’b
+0;35.9355,31.6381;JO-AM;;Uraynibah al Gharbīyah
+0;35.9460,32.2187;JO-JA;;‘Unaybah
+0;35.7382,31.0298;JO-KA;;Al Khālidīyah
+0;35.8325,32.1191;JO-BA;;Umm Tall
+0;35.8578,31.5453;JO-MD;;Umm Shujayrah ash Sharqīyah
+0;35.8455,31.5188;JO-MD;;Umm Shujayrah al Gharbīyah
+0;35.6666,31.0445;JO-KA;;Umm Şawwānah
+0;35.5027,30.4760;JO-MN;;Al Junaynah
+0;35.9255,32.0941;JO-AZ;;Umm Rummānah
+0;35.8874,31.7617;JO-AM;;Umm Rummānah
+0;35.8925,31.6667;JO-AM;;Umm Quşayr
 4294;35.6846,32.6535;JO-IR;;Umm Qays
+0;35.9508,32.2601;JO-JA;;Umm Qanţarah ash Sharqīyah
+0;35.9417,32.2646;JO-JA;;Umm Qanţarah al Gharbīyah
+0;35.7968,31.9320;JO-AM;;Umm Nuwwārah
+0;35.9961,32.3046;JO-MA;;Umm Kharrūbah
+0;35.7341,31.7137;JO-MD;;Al Fayḩā’
+0;35.7364,32.0953;JO-BA;;Umm Jawzah
+0;35.7613,31.0374;JO-KA;;Umm Ḩamāţ
+0;35.9618,32.3072;JO-MA;;Umm Buţaymah
+0;36.3137,32.4278;JO-MA;;Umm as Surab
 18274;35.8543,31.8854;JO-AM;;Umm as Summāq
+0;35.9184,31.5123;JO-AM;;Umm ar Raşāş
+0;36.1131,32.3611;JO-MA;;Umm an Na‘ām al Gharbīyah
+0;35.8943,31.6480;JO-AM;;Umm al Walīd
+0;35.7824,31.9716;JO-AM;;Umm al Usūd
 4225;36.6283,32.3145;JO-MA;;Umm al Qiţţayn
+0;35.8321,31.8410;JO-AM;;Umm al Qanāfidh
+0;35.7653,32.3729;JO-AJ;;Umm al Manābī‘
+0;36.0957,32.3878;JO-MA;;Umm al Lūlū
+0;35.8826,31.8742;JO-AM;;Um El-Kindam
+0;35.5947,32.6026;JO-IR;;Umm al Khirwa‘
+0;35.6654,31.0124;JO-KA;;Umm al Khanāzīr
+0;35.7202,32.6545;JO-IR;;Dār al Bāshā
+0;36.3679,32.3286;JO-MA;;Umm al Jimāl
+0;35.7811,32.6056;JO-IR;;Umm al Jadāyil
+0;35.8779,31.8245;JO-AM;;Umm al Basātīn
+0;35.8607,31.8132;JO-AM;;Umm al Birak
+0;35.7510,32.1094;JO-BA;;Umm al ‘Amad
+0;35.9010,31.7859;JO-AM;;Umm al ‘Amad
+0;35.8218,32.0848;JO-BA;;Umm ad Danānīr
+0;35.6582,31.2162;JO-KA;;Umm ad Dajāj
+0;35.8810,31.5296;JO-AM;;‘Ulayyān
+0;35.8121,32.2139;JO-JA;;‘Ulaymūn
+0;35.5966,30.3307;JO-MN;;Adhruḩ
+0;35.8086,32.6022;JO-IR;;Tuqbul
 5229;35.7306,32.4752;JO-IR;;Tibnah
+0;36.2274,32.2726;JO-MA;;Thughrat al Jubb
+0;35.5917,32.5847;JO-IR;;Al Qadīmah
+0;35.6474,31.8256;JO-BA;;Ar Rāmah
+0;35.6410,31.9073;JO-BA;;Tall al Misţāḩ
+0;35.8668,32.1723;JO-JA;;Tal‘at ar Ruzz
+0;35.8878,32.0533;JO-AM;;Ţāb Kirā‘
 1000;35.6090,32.4510;JO-IR;;Ţabaqat Faḩl
+0;35.4917,30.0839;JO-MN;;Suwaymirah
+0;35.6007,31.7661;JO-BA;;Suwaymah
+0;36.0730,31.3781;JO-AM;;Suwāqah al Gharbīyah
+0;36.1527,32.3967;JO-MA;;Şurrah
+0;35.7843,32.1607;JO-BA;;Sūmiyā
+0;35.7667,31.8167;JO-AM;;Sūmiyā
+0;36.2422,32.4430;JO-MA;;Khirbat Sumayyah
+0;36.2229,32.4378;JO-MA;;Sumayyā as Sirḩān
+0;35.7261,31.0597;JO-KA;;Sūl
+0;35.7194,32.1580;JO-BA;;Suhayyat ‘Awād
+0;35.8180,31.6549;JO-AM;;Şūfah
 12942;35.8371,32.3137;JO-JA;;Sūf
+0;36.4849,32.3412;JO-MA;;Şubḩīyah
+0;35.6099,32.3595;JO-IR;;Khirbat Subayrah
 4873;35.6544,31.3296;JO-KA;;Şarfā
+0;36.4474,32.3178;JO-MA;;Şīrat al Arnab
+0;35.5669,30.8415;JO-AT;;Şinifḩah
+0;36.1919,32.4798;JO-MA;;Al Ḩarfūshīyah
+0;35.7998,30.9787;JO-KA;;Shuqayrā ash Sharqīyah
+0;35.6178,31.8915;JO-BA;;Ash Shūnah al Janūbīyah
+0;35.8000,31.8333;JO-AM;;Shūnat Ibn ‘Adwān
+0;35.8659,32.4294;JO-IR;;Shaţanā
+0;35.5195,30.4901;JO-MN;;Shammākh
+0;35.6941,32.6138;JO-IR;;Şaydūr
+0;35.7947,32.5876;JO-IR;;Sawm
+0;35.9607,32.1456;JO-AZ;;Şarrūt
+0;35.6514,31.1989;JO-KA;;Samrā’
+0;35.7400,32.5161;JO-IR;;Sammū‘
+0;35.8266,32.6379;JO-IR;;Sammā ar Rawsān
 8926;35.6898,32.5710;JO-IR;;Şammā
+0;35.7872,32.6769;JO-IR;;Samar
+0;35.8324,32.4598;JO-IR;;Şamad
+0;36.2436,32.4686;JO-MA;;Samā as Sirḩān
+0;35.9392,31.4536;JO-AM;;Sāliyah
 6896;35.9119,32.5690;JO-IR;;Sāl
+0;35.6604,31.2068;JO-KA;;Sakkā
 11586;35.8091,32.2843;JO-JA;;Sakib
 10616;35.8427,32.3709;JO-AJ;;Şakhrah
+0;36.0463,32.3285;JO-MA;;Aş Şahāh
 6203;35.7744,32.6985;JO-IR;;Saḩam al Kaffārāt
 40241;36.0048,31.8703;JO-AM;;Saḩāb
+0;35.8327,32.0369;JO-BA;;Şāfūţ
+0;36.4640,32.3385;JO-MA;;Sab‘ Aşīr
+0;35.9501,32.0904;JO-AZ;;Şābir
 5315;36.5016,32.3270;JO-MA;;Şabḩā
+0;35.5815,30.8217;JO-AT;;Aruwaym
+0;35.6877,31.0457;JO-KA;;Rujm al ‘Alandah
+0;35.8680,32.0639;JO-AM;;Rujm Maghghijhah
+0;36.1402,32.3508;JO-MA;;Umm an Na‘ām ash Sharqīyah
+0;36.0049,31.8369;JO-AM;;Rujm ash Shāmī al Gharbī
+0;35.8179,32.0698;JO-BA;;Al Miḑmār
+0;35.2142,29.6589;JO-AQ;;Al Khālidī
+0;35.7853,32.4325;JO-IR;;Arḩābā
 6082;35.8278,32.2820;JO-JA;;Raymūn
 2586;35.7597,32.3998;JO-AJ;;Rāsūn
+0;35.4894,30.0024;JO-MN;;Ra’s an Naqb
+200;35.4213,29.5741;JO-AQ;;Ramm
+0;35.7068,31.2244;JO-KA;;Rākīn
+0;35.6966,32.2385;JO-AJ;;Rājib
+0;36.2397,32.4237;JO-MA;;Rabbā‘ as Sirḩān
+0;35.9728,31.8521;JO-AM;;Qurayyat Sālim
+0;35.9523,31.8679;JO-AM;;Qaryat Nāfi‘
+0;35.8246,31.5223;JO-MD;;Falḩā
+0;35.9324,32.3120;JO-JA;;Quray‘ al Gharbīyah
 5111;35.7345,32.5717;JO-IR;;Qumaym
+0;35.6036,32.5337;JO-IR;;Qulay‘āt
+0;35.7735,31.7710;JO-MD;;Qubūr ‘Abd Allāh
+0;35.9064,32.2639;JO-JA;;Khirbat Qirfill
 1000;36.3323,32.0955;JO-AZ;;Qaşr al Ḩallābāt
+0;35.5770,30.7961;JO-AT;;Khirbat Qaşr ad Dayr
+0;35.8715,32.7071;JO-IR;;Al Yarmūk
+0;35.7257,32.5864;JO-IR;;Qam
 4402;35.9386,32.3485;JO-JA;;Qafqafā
+0;35.5385,30.5179;JO-MN;;Nijil
+0;35.8247,31.8744;JO-AM;;Nā‘ūr
+0;35.8621,31.6510;JO-AM;;Natl
+0;35.8204,32.5204;JO-IR;;Nāţifah
+0;35.8289,32.2745;JO-JA;;Naḩlah
+0;35.5782,32.6345;JO-IR;;Naharāyim
+0;35.9787,32.3096;JO-MA;;Nādirah
+0;35.9299,32.2913;JO-MA;;‘Ayn an Nabī
+0;35.8695,31.5614;JO-AM;;Muzayyir ‘Alyā
+0;35.6944,31.0925;JO-KA;;Mu’tah
+0;35.9860,32.3586;JO-JA;;Al Mushayrifah ash Sharqīyah
+0;36.1256,32.4870;JO-MA;;Al Mushayrifah
+0;35.8642,32.6505;JO-IR;;Al Mushayrifah
+0;35.8712,32.1382;JO-JA;;Murşi‘
+0;35.7776,31.6581;JO-MD;;Murayjimat Ibn Ḩāmid
+0;35.8682,32.3185;JO-JA;;Muqbilah
+0;35.8113,32.3806;JO-AJ;;Rās Munīf
+0;35.6508,31.2256;JO-KA;;Mūmiyā’
+0;35.8072,31.5852;JO-MD;;Mulayḩ
+0;36.1177,32.2782;JO-MA;;Al Mukhayzin
+0;35.6364,31.5662;JO-MD;;Mukāwir
+0;35.8626,30.9921;JO-KA;;Muḩayy
+0;35.5629,32.5190;JO-IR;;Muḩammad Şāliḩ
+0;35.7708,31.4063;JO-KA;;Al Mughayyir
+0;35.8859,32.0951;JO-BA;;Mūbiş
+0;35.6209,32.1637;JO-BA;;Mu‘addī
+0;35.7521,31.4020;JO-KA;;Mis‘ar
+0;35.7244,31.1042;JO-KA;;Mirwad
+0;38.0368,32.4594;JO-MA;;Miqāţ
+0;35.6949,31.1215;JO-KA;;Miḩnā
+0;35.7285,31.1192;JO-KA;;Middīn
+0;35.6197,32.2274;JO-BA;;Abū ‘Ubaydah
+0;35.8374,31.7823;JO-AM;;Māsūḩ
+0;35.8908,32.6075;JO-IR;;Marw
+0;35.6753,32.5105;JO-IR;;Marḩabā
+0;35.5827,32.1578;JO-BA;;Tall al Manţaḩ
+0;35.8537,31.7464;JO-AM;;Manjā
+0;35.6711,32.5536;JO-IR;;Mandaḩ
 6856;35.7485,32.6765;JO-IR;;Malkā
+0;35.6510,32.5782;JO-IR;;Makhrabā
+0;35.6825,31.0250;JO-KA;;Majrā
+0;35.6922,31.9717;JO-BA;;Al Majdalā
+0;35.7320,31.6800;JO-MD;;Mā‘īn
 17754;35.7699,31.9865;JO-BA;;Māḩiş
+0;38.2008,32.5041;JO-MA;;Maḩaţţat al Jufūr
+0;37.1219,32.1940;JO-MA;;Aş Şafāwī
 82335;35.7939,31.7160;JO-MD;;Mādabā
 50350;35.7341,30.1962;JO-MN;;Ma'an
+0;35.6121,32.6046;JO-IR;;Iskān Ma‘ādh
+0;35.6122,32.3793;JO-IR;;Kurkumah
 17837;35.5994,32.2764;JO-IR;;Kurayyimah
+0;35.7021,32.2976;JO-AJ;;Kufrinjah
+0;35.7993,31.7450;JO-MD;;Al Ma’mūnīyah
+0;35.7692,31.7491;JO-MD;;Al Fayşalīyah
+0;35.7882,31.7443;JO-MD;;Al Khaţţābīyah
 5292;35.8968,32.4383;JO-IR;;Kitim
 186158;35.9210,31.8791;JO-AM;;Khuraybat as Sūq
+0;36.0534,32.3048;JO-MA;;Munayfah
+0;36.5921,32.3259;JO-MA;;Khishā‘ Sulayţīn
+0;35.8873,32.3249;JO-JA;;Khirbat ‘Uşfūr
+0;35.8121,32.4058;JO-AJ;;Khirbat ‘Uşaym
+0;35.9709,32.3235;JO-MA;;Umm Rummānah
+0;35.7426,32.5592;JO-IR;;Khirbat Umm an Naml
+0;35.7682,32.1630;JO-BA;;‘Ulayqūn
+0;36.0869,32.4985;JO-MA;;Al Ukaydir
+0;35.6711,32.4748;JO-IR;;Khirbat Tha‘lā’
+0;35.7916,32.4027;JO-AJ;;Şin‘ār
+0;35.8056,32.3894;JO-AJ;;Khirbat Shīn
+0;35.6822,31.9933;JO-BA;;Sha‘thah
+0;35.7601,32.2739;JO-AJ;;As Sarābīs
+0;35.7609,32.0907;JO-BA;;Sal‘ūf
+0;35.6342,32.5166;JO-IR;;Askāyīn
+0;35.6616,32.5244;JO-IR;;Irkhaym
+0;35.8242,32.3188;JO-JA;;Khirbat Ra”s al Madīnah
+0;35.7928,32.2376;JO-JA;;Najdah
+0;35.7524,32.3661;JO-AJ;;Miḩnā
+0;35.6997,32.1312;JO-BA;;Maysarah
+0;35.6136,32.5081;JO-IR;;Khirbat Marqa‘ah
+0;36.0659,32.1150;JO-AZ;;Khirbat Makḩūl
+0;35.7164,31.3345;JO-KA;;Khirbat Majdalayn
+0;35.6524,30.8733;JO-AT;;Majādil
+0;36.1286,32.0896;JO-AZ;;Khirbat Khaww
+0;35.9619,32.2893;JO-MA;;Khaţlah
+0;35.9969,32.0555;JO-AZ;;Juraybah
+0;35.9334,32.3267;JO-JA;;Jabā
+0;35.7262,32.5496;JO-IR;;Ibsar Abū ‘Alī
+0;35.9462,32.3000;JO-MA;;Huwayshān
+0;35.6340,30.8610;JO-AT;;Buţaynah
+0;35.9578,32.0994;JO-AZ;;Bīrayn
+0;35.9065,32.0765;JO-AM;;Khirbat Badrān
+0;36.0563,32.2697;JO-MA;;‘Ayn Banī Ḩasan
+0;35.7569,32.3691;JO-AJ;;Aţ Ţayyārah
+0;35.8730,32.2135;JO-JA;;Khirbat as Suwayrāt
+0;35.7100,32.4927;JO-IR;;Aş Şawwān
+0;35.7643,32.3081;JO-AJ;;Khirbat aş Şālūs
+0;35.7519,32.2457;JO-AJ;;Khirbat as Sākhinah
+0;35.7158,31.4799;JO-MD;;As Saḩīlah
+0;35.7968,32.0895;JO-BA;;As Saḩlūlīyah
+0;35.5878,32.5110;JO-IR;;Khirbat ash Shaykh ‘Ulayyān
+0;35.5840,32.4969;JO-IR;;Khirbat ash Shaykh Muḩammad
+0;35.5944,32.4343;JO-IR;;Al Mashāri‘
+0;35.6091,32.6115;JO-IR;;Khirbat ash Shaykh Ḩusayn
+0;35.8861,32.3101;JO-JA;;Khirbat ash Shawāhid
+0;36.0146,32.0218;JO-AZ;;Khirbat ar Ruşayfah
+0;35.6515,32.4646;JO-IR;;Ar Ruqqah
+0;35.6431,32.3262;JO-AJ;;Khirbat al Wahādinah
+0;35.7550,32.0172;JO-BA;;Khirbat al ‘Unnāb
+0;35.5231,30.0953;JO-MN;;Al Murayghah
+0;35.7771,32.0714;JO-BA;;Al Muḑarī
+0;36.5439,32.3313;JO-MA;;Manshīyat al Qablān
+0;36.3239,32.4127;JO-MA;;Rawḑat ar Ruway‘ī
+0;35.7850,32.2552;JO-AJ;;Khirbat al Ḩusaynīyāt
+0;35.7220,32.4314;JO-IR;;Khirbat al Ḩāwī
+0;35.5979,32.4695;JO-IR;;Sayl al Ḩammah
+0;35.6764,31.9975;JO-BA;;Khirbat al Ḩaddādah
+0;35.6873,31.9893;JO-BA;;Al Bīrah
+0;35.7282,32.1153;JO-BA;;Ad Dayrah ash Sharqīyah
+0;35.8071,32.3807;JO-AJ;;Khirbat ‘Afnā
+0;35.9920,32.3138;JO-MA;;Ad Duqmussah
+0;35.7131,30.7984;JO-AT;;Khirbat ‘Ābūn
+0;35.8874,32.0887;JO-BA;;Abū Ḩāmid
+0;35.7120,31.1785;JO-KA;;Khirbat Abū Ḩāmid
+0;35.7206,32.3115;JO-AJ;;Khirbat Abū Ḩadīd
+0;35.7009,32.3554;JO-AJ;;Abū az Zaytūn
+0;36.0172,32.3071;JO-MA;;Abū as Sūs
+0;36.0489,32.2911;JO-MA;;Al Qaşabah
+0;35.6378,32.4506;JO-IR;;Khirbat Abū al Khass
+0;35.7033,32.4688;JO-IR;;Al Ashrafīyah
+0;35.6242,32.2214;JO-BA;;Khazmah
+0;35.6871,31.0152;JO-KA;;Khawkhā
+0;35.1346,29.5426;JO-AQ;;Khashm al Qatrah
 5498;35.8878,32.6599;JO-IR;;Kharjā
+0;36.4597,32.3669;JO-MA;;Kawm ar Raff
+0;36.3968,32.3637;JO-MA;;Al Kawm al Aḩmar
+0;35.6225,31.1352;JO-KA;;Kathrabbā
+0;35.6876,31.1694;JO-KA;;Umm Rummanā
+0;35.8045,32.5447;JO-IR;;Kafr Yūbā
 7152;35.8010,32.6853;JO-IR;;Kafr Sawm
+0;35.6884,32.4552;JO-IR;;Kafr Rākib
+0;35.7569,32.5804;JO-IR;;Kafr Raḩtā
+0;35.7606,32.5058;JO-IR;;Kafr Kīfiyā
+0;35.8831,32.3576;JO-JA;;Kafr Khall
+0;35.8284,32.6224;JO-IR;;Kafr Jāyiz
+0;35.7019,32.0745;JO-BA;;Kafr Hūdā
+0;35.6841,32.4264;JO-IR;;Kafr ‘Awān
 8203;35.7127,32.5980;JO-IR;;Kafr Asad
+0;35.7622,32.5521;JO-IR;;Kafr ‘Ān
+0;35.6930,32.4837;JO-IR;;Kafr al Mā’
+0;35.7175,32.3508;JO-AJ;;Kafr aḑ Ḑurrah
 6333;35.6630,32.4175;JO-IR;;Kafr Abīl
+0;35.6929,31.0223;JO-KA;;Juwayr
+0;35.8648,30.6921;JO-AT;;Jurf ad Darāwīsh
+0;35.7947,31.7600;JO-MD;;Juraynah
+0;35.7777,32.5543;JO-IR;;Jumḩah
+0;35.8260,32.4896;JO-IR;;Juḩfīyah
+0;35.6538,32.4890;JO-IR;;Juffayn
 20000;35.7080,32.4079;JO-IR;;Judita
+0;35.8825,32.1864;JO-JA;;Jubbah
+0;35.7053,32.5202;JO-IR;;Jinnīn aş Şafā
+0;35.7696,32.5861;JO-IR;;Jijjīn
+0;35.6439,31.1553;JO-KA;;Jawzah
 10628;35.9393,31.8525;JO-AM;;Jāwā
+0;35.7447,32.1522;JO-BA;;Jarrīsh aḑ Ḑuraysāt
 27046;35.8993,32.2808;JO-JA;;Jarash
+0;36.0893,32.0528;JO-AZ;;Jannā‘ah
+0;35.8516,31.7182;JO-AM;;Jalūl
+0;35.7765,32.1204;JO-BA;;Jal‘ad
+0;35.6572,31.0360;JO-KA;;Jaḩrā’
+0;35.7485,31.3644;JO-KA;;Jad‘at al Jubūr
+0;35.7555,31.3844;JO-KA;;Jad‘ah
+0;36.1964,32.5111;JO-MA;;Jābir as Sirḩān
+0;35.8481,32.6477;JO-IR;;‘Izrīt
 22756;35.6928,31.1589;JO-KA;;‘Izrā
+0;35.5619,32.1412;JO-BA;;‘Izbat al Bishārāt
+0;35.7441,32.3587;JO-AJ;;Ishtafaynā
+0;35.7509,32.6275;JO-IR;;Is‘arah
+0;35.7500,32.4000;JO-IR;;Irjān
+0;35.7334,32.3945;JO-AJ;;‘Irjān
 569068;35.8500,32.5556;JO-IR;;Irbid
+0;35.7555,31.9187;JO-AM;;‘Irāq al Amīr
+0;35.6694,31.9947;JO-BA;;‘Īrā
+0;35.7568,32.4792;JO-IR;;‘Inbah
+0;35.6842,31.3513;JO-KA;;Imra‘
+0;35.8241,32.3531;JO-AJ;;‘Ibillīn
+0;35.7842,32.6625;JO-IR;;Ibdar
+0;35.8077,32.3610;JO-AJ;;‘Ibbīn
+0;35.8419,32.6695;JO-IR;;Ḩubrāş
+0;35.8099,31.7982;JO-AM;;Ḩisbān
+0;36.1293,32.2445;JO-MA;;Ḩayyān ar Ruwaybiḑ
+0;36.1208,32.2432;JO-MA;;Manshīyat al ‘Ulyān
+0;36.1537,32.2672;JO-MA;;Ḩayyān al Mushrif
+0;35.9075,32.5329;JO-IR;;Ḩawwārah
+0;35.8470,31.6927;JO-AM;;Ḩawwārah
+0;36.0990,32.4514;JO-MA;;Ḩawshā
+0;35.7109,32.5709;JO-IR;;Ḩawfā
+0;35.7713,32.6015;JO-IR;;Ḩawar
 5542;35.7777,32.6449;JO-IR;;Ḩātim
+0;35.8455,32.6930;JO-IR;;Ḩartā
+0;35.8784,32.6269;JO-IR;;Ḩarīmā
+0;35.8220,32.2195;JO-JA;;Hamtā
+0;36.0599,32.2043;JO-MA;;Ḩamnānah
+0;36.0383,32.3082;JO-MA;;Ḩammāmat al ‘Alīmāt
+0;35.8144,32.5129;JO-IR;;Hām
 5376;35.6617,32.3843;JO-AJ;;Ḩalāwah
+0;35.7239,31.4942;JO-MD;;Ḩalaq ash Shuqayq
 7075;35.8832,32.5935;JO-IR;;Ḩakamā
+0;35.8405,32.4820;JO-IR;;Ḩabakā
+0;36.0713,32.1833;JO-AZ;;Khirbat Gharīsah
+0;36.1440,32.4584;JO-MA;;Ad Durzīyah
+0;35.7022,31.3681;JO-KA;;Fuqū‘
+0;35.4514,30.9359;JO-KA;;Fayfā
+0;35.7664,32.6155;JO-IR;;Faw‘arah
+0;35.6653,32.3643;JO-AJ;;Fārah
+0;36.0813,32.4237;JO-MA;;Fā‘
+0;35.6675,32.4506;JO-IR;;Khirbat ad Duwayr
+0;35.8636,32.4181;JO-IR;;Khirbat Dawḩalah
+0;35.7238,31.0352;JO-KA;;Al ‘Umarīyah
+0;35.8305,31.6396;JO-AM;;Ad Dulaylah
+0;35.7906,31.6193;JO-MD;;Dulaylat al Ḩamāyidah
+0;35.6272,32.2100;JO-BA;;Ḑirār
+0;35.8264,32.2568;JO-JA;;Dibbīn
+0;35.7438,32.0895;JO-BA;;Di‘am
+0;35.7829,31.4989;JO-MD;;Dhībān
+0;35.7631,31.0011;JO-KA;;Dhāt Ra’s
 6223;35.7963,32.4870;JO-IR;;Dayr Yūsuf
+0;36.0468,32.3692;JO-MA;;Dayr Waraq
+0;35.7488,32.5317;JO-IR;;Dayr as Si‘nah
+0;35.6651,32.3396;JO-AJ;;Dayr aş Şamādīyah al Janūbī
+0;35.8757,32.2944;JO-JA;;Dayr al Līyāt
+0;35.6216,32.1957;JO-BA;;Dayr ‘Allā
+0;35.6867,32.4982;JO-IR;;Dayr Abū Sa‘īd
+0;35.7391,32.6003;JO-IR;;Dawqarah
+0;36.0390,32.1357;JO-AZ;;‘Urqūb an Nu‘ayr
+50;35.6102,30.6750;JO-AT;;Ḑānā
+0;35.5656,32.0967;JO-BA;;Dāmiyah
+0;35.9752,32.2735;JO-MA;;Daḩl
+0;35.8952,32.5599;JO-IR;;Bushrá
 7154;35.6094,30.7326;JO-AT;;Buşayrā
 4735;35.7851,32.2193;JO-JA;;Burmā
+0;36.0270,32.4429;JO-MA;;Burayqā
+0;35.3649,30.0893;JO-MN;;Bīr Ḩamad
+0;35.8333,31.8333;JO-AM;;Biddīn
+0;35.7324,32.1497;JO-BA;;Bayyūḑah ash Shamālīyah
+0;35.8492,31.8283;JO-AM;;Bayt Zir‘ah
 7788;35.7862,32.5225;JO-IR;;Bayt Yāfā
+0;35.8567,32.5933;JO-IR;;Bayt Ra’s
 4723;35.6977,32.4378;JO-IR;;Bayt Īdis
+0;35.6319,32.1838;JO-BA;;Bayt al Ḩusaynī
+0;35.7298,32.3830;JO-AJ;;Bā‘ūn
+0;35.7047,31.2642;JO-KA;;Batīr
+0;35.5328,30.2261;JO-MN;;Basţah
+0;35.7604,31.5610;JO-MD;;Nuzhat al Wālah
+0;35.7470,31.5249;JO-MD;;Barzah
+0;35.8724,31.7888;JO-AM;;Barāzīn
+0;35.8769,32.6720;JO-IR;;Barashtā
+0;35.7016,32.2619;JO-AJ;;Ballās
 5206;35.9383,32.3911;JO-JA;;Balīlā
+0;36.0881,32.2365;JO-MA;;Bal‘amā
+0;35.7327,32.6592;JO-IR;;Balad ash Shaykh
+0;35.7246,32.6493;JO-IR;;Al Manşūrah
+0;36.6789,30.7636;JO-MN;;Bā’ir
+0;35.6493,30.9228;JO-AT;;‘Afrā
+0;35.6664,31.2225;JO-KA;;Badhdhān
+0;35.6389,32.2137;JO-BA;;Bāb an Naqb
+0;35.6914,31.1939;JO-KA;;Az Zuţţ
+0;36.1024,32.1983;JO-MA;;Az Zunayyah
+0;36.2169,32.4647;JO-MA;;Zumlat aţ Tarqī
+0;36.2949,32.3786;JO-MA;;Az Zubaydīyah
+0;35.6016,32.5024;JO-IR;;Az Zimālīyah
+0;36.2997,32.3067;JO-MA;;Az Za‘tarī
+0;35.7202,32.2478;JO-AJ;;Az Zarrā‘ah
 792665;36.0880,32.0727;JO-AZ;;Zarqa
+0;36.8149,31.8327;JO-AZ;;Muthallath al Azraq
 14800;36.8302,31.8821;JO-AZ;;Al Azraq ash Shamālī
 7340;35.6437,31.1337;JO-KA;;‘Ayy
+0;35.6817,31.1503;JO-KA;;‘Aynūn
+0;35.8072,32.0880;JO-BA;;Umm Nijaşah
 9586;35.7637,32.3347;JO-AJ;;‘Ayn Jannā
+0;35.8276,32.2266;JO-JA;;‘Ayn aş Şafār
+0;35.4637,30.3038;JO-MN;;‘Ayn Ammūn
+0;35.8311,32.0573;JO-BA;;‘Ayn al Bāshā
+0;35.5948,30.8775;JO-AT;;‘Aymah
+0;35.5363,30.2059;JO-MN;;Ayl
+0;36.1763,32.3091;JO-MA;;Aydūn Banī Ḩasan
+0;35.6952,32.3811;JO-AJ;;Awşarah
+0;36.0789,32.0271;JO-AZ;;‘Awjān ash Sharqī
+0;36.0901,32.0428;JO-AZ;;‘Awjān ash Shamālī
+0;36.0653,32.0233;JO-AZ;;‘Awjān al Gharbī
 14619;35.9894,32.6398;JO-IR;;Aţ Ţurrah
+0;35.9437,31.7992;JO-AM;;Aţ Ţunayb
+0;35.5876,32.1675;JO-BA;;Aţ Ţiwāl al Janūbī
+0;35.5914,32.1826;JO-BA;;Aţ Ţiwāl ash Shamālī
 12615;35.7176,32.5430;JO-IR;;Aţ Ţayyibah
 5231;35.6061,31.0506;JO-KA;;Al Khinzīrah
 4265;35.4657,30.2512;JO-MN;;At-Taybeh
+0;35.6857,32.0169;JO-BA;;Aţ Ţarāzīn
 25429;35.6044,30.8375;JO-AT;;Aţ Ţafīlah
+0;35.7308,32.1413;JO-BA;;Buyūḑah al Gharbīyah
+0;35.7232,31.9425;JO-BA;;Ath Thughrah
+0;35.6286,31.5354;JO-MD;;Ath Thughrah
+0;35.7246,31.1659;JO-KA;;Ath Thanīyah
+0;35.6672,31.5765;JO-MD;;‘Aţrūz
+0;36.1517,32.4822;JO-MA;;As Suwaylimah
+0;36.1141,31.3616;JO-AM;;Suwāqah
+0;35.7591,32.2469;JO-AJ;;As Sūq
+0;35.6018,32.3293;JO-IR;;Sulaykhāt
+0;36.0707,32.1325;JO-AZ;;As Sukhnah
+0;35.7054,32.1484;JO-BA;;Aş Şubayḩī
+0;35.8006,31.3066;JO-KA;;As Simākīyah
+0;35.8724,32.6496;JO-IR;;As Saylah
+0;35.5832,30.7717;JO-AT;;As Sil‘
+0;35.6224,32.1828;JO-BA;;Aş Şawāliḩah
+0;35.8930,32.5016;JO-IR;;Aş Şarīḩ
+0;35.6849,32.5091;JO-IR;;As Samţ
+0;35.7490,31.3646;JO-KA;;Samrā
+0;35.8601,31.7934;JO-AM;;As Sāmik
 107874;35.7272,32.0392;JO-BA;;As Salţ
+0;35.8241,32.1252;JO-BA;;As Salīḩī
+0;35.6153,32.5935;JO-IR;;As Sākhinah
+0;35.7425,32.2531;JO-AJ;;As Sākhinah
+0;35.7076,32.2539;JO-AJ;;As Safīnah
 15200;35.4654,31.0361;JO-KA;;Safi
+0;35.4944,30.1611;JO-MN;;Aş Şadaqah
+0;35.7343,31.5017;JO-MD;;Ash Shuqayq
+0;35.6145,32.6202;JO-IR;;Ash Shūnah ash Shamālīyah
+0;35.9667,31.7833;JO-AM;;Ash Shufatah
+0;35.5934,32.4325;JO-IR;;Ash Shaykh Muḩammad
+50;35.5714,30.5213;JO-MN;;Ash Shawbak
+0;35.7385,32.2392;JO-AJ;;Ash Shakārah
 11243;35.9417,32.6439;JO-IR;;Ash Shajarah
+0;38.2041,32.5015;JO-MA;;Ar Ruwayshid
+0;35.6456,32.2067;JO-IR;;Ar Ruwayḩah
+0;35.4161,30.1390;JO-MN;;Ar Rusays
+0;36.0327,32.0173;JO-AZ;;Ar Ruşayfah
+0;35.8340,32.1640;JO-BA;;Ar Rummān
+0;35.8020,32.1066;JO-BA;;Ar Rumaymīn
+0;35.8747,31.5818;JO-AM;;Rumayl
+0;35.9247,32.2507;JO-JA;;Ar Riyāshī
+0;35.8980,32.2434;JO-JA;;Ar Rashāyidah
+0;35.6305,30.7021;JO-AT;;Ar Rashādīyah
 155693;36.0082,32.5587;JO-IR;;Ar Ramthā
+0;35.4418,30.1909;JO-MN;;Ar Rājif
+0;36.0263,32.5008;JO-IR;;Ar Raḩbah
+0;35.8206,32.7062;JO-IR;;Ar Rafīd
+0;36.3235,32.3978;JO-MA;;An Nahḑah
 4229;35.7383,31.2692;JO-KA;;Ar Rabbah
+0;35.7761,32.0682;JO-BA;;Ar Rab‘ah
+0;35.7855,31.4179;JO-KA;;Arīḩā
+0;35.6122,32.1407;JO-BA;;Muthallath al ‘Āriḑah
+0;35.7988,32.7290;JO-IR;;‘Aqrabā
+0;35.6014,32.1666;JO-BA;;An Nuşayḩī
+0;35.9116,32.4180;JO-IR;;An Nu‘ayyimah
+0;35.8709,32.1973;JO-JA;;An Nu‘aymī
+0;36.1416,32.2180;JO-MA;;An Nimrah
+0;35.6848,31.5673;JO-MD;;An Naqūbah
+0;35.9697,32.4567;JO-IR;;An Naq‘
+0;35.5550,30.8183;JO-AT;;An Namatah
+0;35.9102,32.2574;JO-JA;;An Nabī Hūd
 17634;35.7544,32.3067;JO-AJ;;‘Anjarah
+0;35.9357,32.6864;JO-IR;;‘Amrāwah
+0;36.4397,32.3084;JO-MA;;‘Amrah wa ‘Umayrah
+0;35.8248,31.5604;JO-MD;;‘Ammūrīyā
 1275857;35.9450,31.9552;JO-AM;;'Amman
+0;35.7740,32.0586;JO-BA;;Al Yazīdīyah
+0;35.7225,31.2975;JO-KA;;Al Yārūt
+0;35.9098,31.8435;JO-AM;;Al Yādūdah
+0;35.6414,31.1642;JO-KA;;Al ‘Umyān
 7372;35.3116,29.8005;JO-MN;;Al Quwayrah
+0;35.7437,31.7301;JO-MD;;Al Quwayḩīyah
+0;35.6851,31.5405;JO-MD;;Al Qurayyāt
+0;35.4770,30.1026;JO-MN;;Al Qurayn
+0;35.9952,32.2246;JO-AZ;;Al Qunayyah
+0;35.8634,32.6342;JO-IR;;Al Qişfah
+0;36.3280,32.1861;JO-MA;;Al Khālidīyah ash Sharqīyah
 7070;36.0493,31.2508;JO-KA;;Al Qaţrānah
+0;35.9386,31.7477;JO-AM;;Al Qasţal
 3840;35.7439,31.3141;JO-KA;;Al Qaşr
+0;35.5448,30.2812;JO-MN;;Rawḑat al Amīr Rāshid
+0;35.9740,32.3732;JO-JA;;Al Mushayrifah al Gharbīyah
+0;36.0115,31.8940;JO-AM;;Al Mushayrifah
+0;35.7204,31.1332;JO-KA;;Al Mushayrifah
+0;35.6167,32.6333;JO-IR;;Al Mushargah
+0;35.7750,31.7947;JO-AM;;Al Mushaqqar
+0;35.9864,31.4863;JO-AM;;Al Muşayţibah
+0;35.5658,30.5561;JO-MN;;Al Muqāri‘īyah
+0;35.6814,32.7027;JO-IR;;Al Ḩammah al Urdunīyah
+0;36.6659,32.2894;JO-MA;;Manshīyat al Qunw
+0;36.6538,32.2907;JO-MA;;Al Mukayfitah
+0;35.6555,31.0295;JO-KA;;Al Mujaydah
+0;35.9408,32.6116;JO-IR;;Al Mughayyir
+0;36.0000,32.4637;JO-MA;;Mughayyir as Sirḩān
+0;36.0244,29.3334;JO-MN;;Al Mudawwarah
+0;35.5945,30.7658;JO-AT;;Al Mi‘ţan
+0;35.5167,31.2659;JO-KA;;Ghawr al Mazra‘ah
+0;35.5882,32.4122;JO-IR;;Al Marrazah
+0;35.7969,32.4704;JO-IR;;Al Mazār ash Shamālī
 9383;35.6949,31.0672;JO-KA;;Al Mazār al Janūbī
+0;35.7485,31.4820;JO-MD;;Al Mathlūthah
+0;35.8559,32.1843;JO-JA;;Al Maşţabah
+0;35.6189,32.6345;JO-IR;;Al Mashāriqah
+0;35.9325,32.1628;JO-AZ;;Al Masarrah al Gharbīyah
+0;35.5000,31.2667;JO-KA;;Al Mara‘ah
+0;35.7406,31.0267;JO-KA;;Al Manţarah
+0;36.1696,32.4164;JO-MA;;Al Manşūrah
+0;35.5797,32.5855;JO-IR;;Al Manshīyah
+0;36.2129,32.4786;JO-MA;;Manshīyat al Ka‘bīr
+0;36.0793,32.3707;JO-MA;;Manshīyat Banī Ḩasan
+0;35.7404,31.1867;JO-KA;;Al Manshīyah
+0;35.6803,31.0477;JO-KA;;Al Manshīyah al Mazzār
+0;35.8287,32.1273;JO-BA;;Al Manashsh
+0;35.7367,31.1383;JO-KA;;Al Ma’mūnīyah
+0;35.9150,32.2330;JO-JA;;Al Makhbathah
+0;35.8463,32.2280;JO-JA;;Al Majdal
 57118;36.2080,32.3429;JO-MA;;Mafraq
+0;35.9970,32.2872;JO-MA;;Al Madwar
+0;35.6026,32.5866;JO-IR;;Al Madrasah
+0;35.9624,31.8243;JO-AM;;Al Lubban
+0;35.7435,32.1181;JO-BA;;‘Allān
+0;35.8665,31.2344;JO-KA;;Al Lajjūn
+0;35.6999,30.9071;JO-AT;;Al La‘bān
+0;35.7084,32.6837;JO-IR;;Khirbat al Kursī
+0;35.9298,32.2129;JO-JA;;Al Kufayr
 5626;35.8411,32.2769;JO-JA;;Al Kittah
+0;35.8683,32.6563;JO-IR;;Al Khuraybah
+0;35.5553,30.5717;JO-MN;;Al Manşūrah
+0;36.1645,32.1793;JO-MA;;Al Khirbah as Samrā’
+0;35.7104,32.5853;JO-IR;;Al Kharāj
+0;36.0491,32.3964;JO-MA;;Al Khanāşirī
+0;36.1776,32.2228;JO-MA;;Al Khān
 9384;35.5803,31.9544;JO-BA;;Al Karāmah
 22581;35.7000,31.1825;JO-MN;;Qīr Moāv
+0;35.9062,32.1218;JO-AZ;;Al Kamshah
+0;35.6561,31.8517;JO-BA;;Al Kafrayn
+0;35.9314,31.8871;JO-AM;;Al Juwayyidah
+0;36.2076,32.3660;JO-MA;;Al Jundī
+0;35.9018,31.4817;JO-AM;;Al Jumayyil
+0;35.5163,30.5253;JO-MN;;Al Juhayr
+0;35.6494,31.5354;JO-MD;;Al Judayyidah
+0;35.8117,31.2531;JO-KA;;Al Judayyidah
 46834;35.8980,32.0107;JO-AM;;Al Jubayhah
 4397;35.9553,31.6989;JO-AM;;Al Jīzah
+0;35.5954,32.4639;JO-IR;;Al Jirm
+0;35.8195,32.2321;JO-JA;;Al Jazzāzah
+0;35.5767,30.5230;JO-MN;;Al Jāyah
+0;35.6684,31.0573;JO-KA;;Al Jawzah
+0;35.5900,32.5190;JO-IR;;Ash Shaykh Ḩusayn
 3557;36.1778,30.3184;JO-MN;;Al Jafr
+0;35.6020,32.5276;JO-IR;;Al ‘Izzīyah
+0;35.6623,31.0551;JO-KA;;Al ‘Īsāwīyah
+0;35.6419,30.8375;JO-AT;;Al ‘Īş
+0;35.6419,31.0903;JO-KA;;Al ‘Irāq
+0;35.6875,31.1728;JO-KA;;Al Ifranj
+0;35.7229,31.0261;JO-KA;;Al Ḩusaynīyah
+0;36.6075,32.3468;JO-MA;;Al Ḩusaynīyah
+0;35.8841,32.4845;JO-IR;;Al Ḩişn
+0;35.5068,30.3639;JO-MN;;Al Ḩayy
+0;35.8500,31.8167;JO-AM;;Al Ḩawwāsīyah
+0;35.7134,31.0113;JO-KA;;Al Hāshimīyah al Janūbīyah
+0;36.1213,32.1290;JO-AZ;;Al Hāshimīyah
+0;35.9750,30.8213;JO-AT;;Al Ḩasā
+0;35.8361,31.6596;JO-AM;;Al Harbaj
+0;35.5809,32.4994;JO-IR;;Al Harāwīyah
+0;35.7292,32.1261;JO-BA;;Al Ḩaqāwah
+0;35.5941,30.7945;JO-AT;;Al Ḩannānah
+0;35.7995,31.2909;JO-KA;;Al Ḩamūd
 6211;36.1527,32.4402;JO-MA;;Al Ḩamrā’
+0;35.5333,31.3000;JO-KA;;Al Ḩadīthah
+0;35.8576,32.2634;JO-JA;;Al Ḩaddādah
+0;35.7500,31.1333;JO-KA;;Al Ghuwayr
+0;35.8803,31.8030;JO-AM;;Al Ghubayyah
 18916;35.7809,32.0047;JO-BA;;Al Fuḩayş
+0;38.2205,32.5769;JO-MA;;Al Fayḑah
+0;35.5122,30.1887;JO-MN;;Al Fardhakh
+0;35.7334,32.2445;JO-AJ;;Al Fākhirah
+0;36.0584,32.4703;JO-IR;;Al Buwayḑah
+0;36.0525,32.3458;JO-MA;;Buwayḑah al Gharbīyah
+0;34.9957,29.4929;JO-AQ;;Al Burj
+0;35.6410,31.2226;JO-KA;;Al Buqay‘
+0;35.6564,31.0739;JO-KA;;Al Buqay‘
+0;35.6720,31.0151;JO-KA;;Al Buqay‘
+0;35.8882,31.8790;JO-AM;;Al Bunayyāt al Janūbīyah
+0;35.5311,30.3206;JO-MN;;Bīr al Bayţār
+0;36.9120,31.8612;JO-AZ;;‘Ayn al Bayḑā’
+0;35.7769,31.9362;JO-AM;;Al Başşah
+0;35.5903,32.6410;JO-IR;;Al Bāqūrah
+0;36.3361,32.3677;JO-MA;;Al Bā‘ij
+0;35.6394,31.0689;JO-KA;;Al Baḩr
+0;35.8009,31.9029;JO-AM;;‘Ayn al Baḩḩāth
+0;35.7726,30.9651;JO-KA;;Al ‘Aynā
+0;35.9757,32.5252;JO-IR;;As Saylah
+0;35.7971,32.1056;JO-BA;;Al Ashrafīyah
+0;35.6317,31.5575;JO-MD;;Az Zaynah
+0;35.5457,30.3874;JO-MN;;Al ‘Arjā
+0;35.6574,31.5584;JO-MD;;Al ‘Arīḑ
+0;35.6459,31.1422;JO-KA;;‘Alaqān
 95048;35.0078,29.5267;JO-AQ;;Aqaba
+0;35.7127,32.2914;JO-AJ;;Al ‘Āmirīyah
+0;35.7017,31.0562;JO-KA;;Al ‘Amaqah
+0;35.9226,32.1641;JO-AZ;;Al ‘Ālūk
+0;35.9022,32.6303;JO-IR;;‘Al‘āl
+0;35.8287,31.8171;JO-AM;;Al ‘Āl
+0;35.6244,32.6671;JO-IR;;Al ‘Adasīyah
+0;35.6872,31.1786;JO-KA;;Al ‘Abbāsīyah
 125557;35.7528,32.3333;JO-AJ;;‘Ajlūn
+0;35.6790,32.6746;JO-IR;;Al Mukhaybah at Taḩtā
 4441;35.7615,31.2022;JO-KA;;Adir
+0;35.9069,32.6912;JO-IR;;Adh Dhunaybah
+0;35.7710,31.5098;JO-MD;;Adh Dhuhaybah ash Sharqīyah
+0;35.5667,31.2500;JO-KA;;Ghawr adh Dhrā’ Wa al Ḩanāwah
+0;35.6193,30.8345;JO-AT;;Ad Duwaykhilah
+0;35.7026,31.2920;JO-KA;;Ad Dimnah
+0;35.6715,32.3449;JO-AJ;;Dayr aş Şamādīyah ash Shamālī
+0;36.0213,32.3447;JO-MA;;Ad Dajanīyah
+0;36.5603,32.3127;JO-MA;;Ad Dafyānah
+0;35.6540,31.0617;JO-KA;;Ad Dabbākah
+0;35.6347,31.0365;JO-KA;;Aḑ Ḑabāb
+0;35.7891,31.4090;JO-KA;;Abū Turābah
+0;35.7140,30.7988;JO-AT;;‘Ābūr
+0;35.8667,32.0774;JO-BA;;Abū Nuşayr
+0;35.5793,30.5352;JO-MN;;Abū Makhţūb
+0;35.7364,31.1819;JO-KA;;Abū Ḩammūr
+0;36.3033,32.1790;JO-MA;;Al Khālidīyah
+0;35.5330,30.2563;JO-MN;;Bīr Abū Dannah
+0;35.6408,32.1883;JO-BA;;Abū az Zīghān
+0;36.0897,32.1577;JO-AZ;;Umm aş Şalīḩ
+0;35.7500,31.1333;JO-KA;;Abū ash Shaḩm
+0;35.6679,32.4785;JO-IR;;Abū al Qayn
+0;35.8875,32.6358;JO-IR;;Abū al Lawqas
+0;35.4984,30.0371;JO-MN;;Abū al Lasan
+0;35.5981,30.8032;JO-AT;;‘Ābil
+0;35.2167,30.2244;JO-AQ;;Ar Rīshah
+0;36.0167,31.8000;JO-AM;;Dhuhaybah
+0;36.0774,31.8933;JO-AM;;Al Manākhir
+0;36.1088,31.8147;JO-AM;;Al Muwaqqar
+0;36.0497,31.5500;JO-AM;;Ḑab‘ah
+0;36.1124,31.6044;JO-AM;;Al ‘Āmirīyah
+0;36.0389,31.6056;JO-AM;;Al Qunayţirah
+0;37.0774,31.5328;JO-AZ;;Al ‘Umarī
+0;35.1368,29.9148;JO-AQ;;Raḩmah
+0;35.4067,29.9025;JO-AQ;;Al Ḩumaymah al Jadīdah
+0;38.2000,32.5000;JO-MA;;Al Miqāt
 21678;35.7620,31.1637;JO-KA;;Karak City
+0;35.5937,30.6993;JO-AT;;Laḩz̧ah
+0;35.6067,30.5452;JO-MN;;Al Fujayj
+0;36.0247,30.8358;JO-AT;;Mashrū‘ Tawţīn al Badw
+0;35.9768,30.8525;JO-AT;;Iskān Sharikat al Fūsfāt
+0;35.9043,30.9217;JO-KA;;Al Ḩāmidīyah
+0;35.9836,30.9045;JO-KA;;Iskān Dabbābinah
+0;35.7970,30.5954;JO-MN;;Al Ḩusaynīyah
+0;35.8137,30.8997;JO-AT;;Al ‘Āliyah
+0;35.3218,30.7121;JO-AQ;;Faynān
+0;35.2886,30.4419;JO-AQ;;Umm Muthlā
+0;35.7209,30.5817;JO-MN;;Ad Da‘jāniyah
+0;35.6791,30.8664;JO-AT;;Shayz̧am
+0;35.6828,30.8746;JO-AT;;Abū Bannā
+0;35.6669,30.8536;JO-AT;;Şuwaymīḩ
+0;35.7935,30.5236;JO-MN;;Al Hāshimīyah
+0;35.3849,30.8298;JO-KA;;As Salmānī
+0;35.7542,30.4282;JO-MN;;Al Muḩammadīyah
+0;35.7966,30.4932;JO-MN;;‘Unayzah
+0;35.8228,30.6108;JO-MN;;Tall Burmā
+0;35.6328,30.4844;JO-MN;;Al Fayşalīyah
+0;35.5610,30.5052;JO-MN;;Az Zubayrīyah
+0;35.5690,30.4837;JO-MN;;Az Zaytūnah
+0;35.6319,30.7467;JO-AT;;Umm Sarāb
+0;35.5694,30.5208;JO-MN;;Al Muthallath
+0;35.5213,30.5102;JO-MN;;Al Ḩaddādah
+0;35.5413,30.4412;JO-MN;;Bīr Khidād
+0;35.5148,30.4666;JO-MN;;Ḩuwālah
+0;35.5161,30.4332;JO-MN;;Maqdis wa Umm aş Şawwān
+0;35.5103,30.4194;JO-MN;;Bīr ad Dabbāghāt
+0;35.5953,30.3397;JO-MN;;Aţ Ţumay‘ah
+0;35.6017,30.3712;JO-MN;;Al Jarbā’ al Kabīrah
+0;35.6112,30.3931;JO-MN;;Al Manshīyah
+0;35.5906,30.7163;JO-AT;;Umm Zu‘rūrah
+0;35.6026,30.3610;JO-MN;;Al Jarbā’ aş Şaghīrah
+0;35.7062,30.2973;JO-MN;;Al ‘Uwaynah
+0;35.6464,30.2406;JO-MN;;Aţ Ţāḩūnah
+0;35.4569,30.3433;JO-MN;;Umm Şayḩūn
+0;35.4660,30.3804;JO-MN;;Al Bayḑā
+0;35.4837,30.3608;JO-MN;;Iskān al Ḩayy
+0;35.6244,30.7266;JO-AT;;Sayl Ray‘ā
+0;35.5304,30.3924;JO-MN;;Bīr Abū al ‘Alaq
+0;35.5234,30.4784;JO-MN;;Al Buq‘ah
+0;35.5178,30.4864;JO-MN;;Al Junaynah
+0;35.5547,30.5723;JO-MN;;Al Manşūrah
+0;35.3432,30.4001;JO-AQ;;Bīr Madhkūr
+0;35.4032,30.6261;JO-AQ;;Al Qurayqarah
+0;35.6509,30.7133;JO-AT;;Gharandal
+0;35.6356,30.7166;JO-AT;;Ruwāth
+0;35.6003,30.7841;JO-AT;;Al ‘Ayn al Bayḑā’
+0;35.6467,30.7923;JO-AT;;Zuḩayqah
+0;35.5681,30.8395;JO-AT;;‘Arfah
+0;35.5951,30.9065;JO-AT;;Aḑibā‘ah
+0;35.6154,30.9380;JO-AT;;Arḩāb
+0;35.6717,30.9803;JO-AT;;Al Burbayţah
+0;35.7801,30.9925;JO-KA;;An Na‘īmah
+0;35.7717,30.9900;JO-KA;;Shuqayrā al Gharbīyah
+0;35.6983,31.0096;JO-KA;;Al Madabah
+0;35.6354,30.6539;JO-AT;;Al Qādisīyah
+0;35.4605,30.9187;JO-KA;;Al Ma‘mūrah
+0;35.2049,30.0867;JO-AQ;;Gharandal
+0;35.4727,30.0369;JO-MN;;Al Ḩiyāḑ
+0;35.4680,30.0578;JO-MN;;Ţāsān
+0;35.4913,30.0679;JO-MN;;Al Qāsimīyah
+0;35.5215,30.0943;JO-MN;;Al Murayghah
+0;35.4963,30.0826;JO-MN;;Suwaymirah
+0;35.4861,30.1220;JO-MN;;Ḑawr
+0;35.4953,30.1588;JO-MN;;Aş Şadaqah
+0;35.4094,30.1334;JO-MN;;Dilāghah
+0;35.4294,30.1767;JO-MN;;Umm ar Rakhm
+0;35.6922,30.6199;JO-MN;;Ḩudayrā
+0;35.5942,30.1825;JO-MN;;Al Juththah
+0;35.5740,30.5345;JO-MN;;Al Arzah
+0;35.6052,30.6000;JO-MN;;Badā
+0;35.8475,30.6392;JO-MN;;Tall Burmā
+0;35.2776,29.7148;JO-AQ;;‘Ayn al Hawwārah
+0;34.9762,29.4409;JO-AQ;;Al Yamānīyah
+0;35.6920,29.9478;JO-MN;;Khashm al Batrā’
+0;34.9802,29.3702;JO-AQ;;Ad Durrah
+0;35.2100,29.4298;JO-AQ;;Tutun
+0;35.2810,29.7324;JO-AQ;;Ar Rāshidīyah
+0;34.9899,29.4824;JO-AQ;;Jabal ash Shurayḩ
+0;35.6030,29.5265;JO-AQ;;Al Ghāl
+0;35.5645,29.5871;JO-AQ;;Munayshīr
+0;35.5112,29.6528;JO-AQ;;Ad Dīsah
+0;35.5446,29.6507;JO-AQ;;Aţ Ţuwaysah
+0;35.5661,29.6291;JO-AQ;;Aţ Ţawīl
+0;35.3796,29.6959;JO-AQ;;Aş Şāliḩīyah
+0;35.4369,29.6829;JO-AQ;;Ash Shākirīyah
+0;35.4602,29.9683;JO-AQ;;Dibbat Ḩānūt
+0;35.6330,29.8642;JO-MN;;Al Farsh
+0;35.0925,29.8183;JO-AQ;;Quţr
+0;35.1666,29.6028;JO-AQ;;Al Muzaffar
+0;35.0174,29.5505;JO-AQ;;Ar Rabīyah
 268237;36.0464,32.0178;JO-AZ;;Russeifa
+100;35.5483,31.8364;JO-BA;;Bethany
+0;35.9600,32.6801;JO-IR;;Aţ Ţabriyāt
+0;35.5106,29.6541;JO-MN;;Ad-disi
+0;35.8728,31.7827;JO-AM;;Al Khaḑrā’
+0;35.9008,31.7537;JO-AM;;Az Zaytūnah
+0;35.8969,31.6816;JO-AM;;Al Manārah
+0;35.9789,31.6471;JO-AM;;Uraynibah ash Sharqīyah
+0;35.8710,31.6015;JO-AM;;Az Za‘farān
+0;35.9574,31.5163;JO-AM;;Rujm al ‘Uqāb
+0;35.9436,31.5427;JO-AM;;Rujm Fahīd
+0;35.9044,31.5404;JO-AM;;Abū Ḩulaylīfah
+0;35.9091,31.5924;JO-AM;;Ath Thamad
+0;35.9515,31.6073;JO-AM;;Al Bāsilīyah
+0;35.9813,31.6233;JO-AM;;Ash Shuhadā’
+0;35.9986,31.6072;JO-AM;;Al Khālidīyah
+0;36.0081,31.5936;JO-AM;;Umm Raqībah
+0;35.8535,31.5441;JO-AM;;An Nadwah
+0;35.8516,31.5633;JO-AM;;Ţūr al Ḩashāsh
+0;35.9214,31.7293;JO-AM;;Aş Şalāḩīyah
+0;35.9007,31.7349;JO-AM;;Al Munayţir
+0;35.9390,31.6771;JO-AM;;Al Mawāris
+0;35.9293,31.6517;JO-AM;;Al Mabrūkah
+0;36.0456,31.5442;JO-AM;;Az Zamīlah
+0;36.0516,31.7523;JO-AM;;Al Katīfah
+0;36.0465,31.7290;JO-AM;;Al Katīfah al Gharbīyah
+0;35.9990,31.6178;JO-AM;;Ḑubay‘ah
+0;36.1308,31.5985;JO-AM;;Ḩammām ash Shamūţ
+0;36.0778,31.6217;JO-AM;;Ash Shamūţ
+0;36.0942,31.6122;JO-AM;;Al ‘Arīn
+0;36.1172,31.7412;JO-AM;;Musattarat al Fālij
+0;36.2068,31.6725;JO-AM;;Al Fālij
+0;35.9682,31.4332;JO-AM;;Ath Thurayyā
+0;36.0744,31.3460;JO-AM;;Ad Dāmikhī
+0;36.1068,31.2814;JO-KA;;Abū al Ghurbān
+0;35.9813,31.1954;JO-KA;;Rajul ad Dan‘ān
+0;36.0028,31.0851;JO-KA;;As Sulṭānī
+0;36.0069,30.9682;JO-KA;;Al Wādī al Abyaḑ
+0;35.8795,30.9481;JO-KA;;Al Kaz̧īm
+0;35.9294,31.9584;JO-AM;;Jordan customs
+0;36.3215,32.2974;JO-MA;;Az Za'atri
+0;36.1880,32.4553;JO-MA;;Al ‘Urqūb
+0;36.1534,32.4644;JO-MA;;Ad Dandanīyah
+0;36.0106,32.4570;JO-MA;;Umm Za‘rūrah
+0;36.0522,32.4379;JO-MA;;Al Ḩirsh
+0;36.0572,32.4290;JO-MA;;Dimnat Quţaysh
+0;36.0501,32.4228;JO-MA;;Al Ḩamīd
+0;36.0977,32.4310;JO-MA;;Qā‘ al Qarn
+0;36.1232,32.4034;JO-MA;;Al Jaddah
+0;36.0936,32.3922;JO-MA;;Al Ḩārūz
+0;36.1089,32.3841;JO-MA;;Al Mişţāḩ
+0;36.0620,32.3706;JO-MA;;Iskān al Manshīyah
+0;36.0122,32.3423;JO-MA;;Al Wasīyah
+0;36.0730,32.3481;JO-MA;;Umm Buţmah
+0;36.0739,32.3378;JO-MA;;Buwayḑah al ‘Alīmāt
+0;36.1147,32.3519;JO-MA;;‘Aqīl
+0;36.1984,32.3885;JO-MA;;Al Ghadīr al Abyaḑ
+0;36.0056,32.2572;JO-MA;;Ḩamīd
+0;36.0265,32.2531;JO-MA;;Umm Ḩaşmāşah
+0;35.5789,30.8294;JO-AT;;Al Ḩusayn
+0;36.2657,32.3955;JO-MA;;Ḩuwayjah
+0;36.3762,32.3937;JO-MA;;Ar Raḩmāt
+0;36.3493,32.3879;JO-MA;;Al Mashraf
+0;36.4246,32.3693;JO-MA;;Rasm Ḩişān
+0;36.4106,32.3547;JO-MA;;Manshīyat al Khamīs
+0;36.3551,32.3435;JO-MA;;Abu Ţanţūr
+0;36.3969,32.3337;JO-MA;;Manshīyat al Judū‘
+0;36.4916,32.2888;JO-MA;;Al Fayşalīyah
+0;36.4423,32.2717;JO-MA;;As Sa‘īdīyah
+0;36.4678,32.2601;JO-MA;;Muthallath Şabḩā
+0;36.4855,32.2558;JO-MA;;Aş Şāliḩīyah
+0;36.4339,32.2599;JO-MA;;Al Qayşūmah
+0;36.4110,32.2740;JO-MA;;Al ‘Āqib
+0;36.3859,32.2657;JO-MA;;Az Zuhūr
+0;36.3780,32.2744;JO-MA;;An Nuzhah
+0;36.3815,32.2911;JO-MA;;Ţībat al Masā‘īd
+0;36.4220,32.3127;JO-MA;;Ḩayy Samrah
+0;36.3618,32.3019;JO-MA;;Rawḑat Basmah
+0;36.5281,32.2432;JO-MA;;Al Bustānah
+0;36.2869,32.2152;JO-MA;;Manshīyat az Za‘tarī
+0;38.1321,32.4870;JO-MA;;Manshīyat al Ghayyāth
+0;39.0376,32.5457;JO-MA;;Ar Rīshah
+0;36.9789,32.1092;JO-MA;;Al Aratayn
 2000;34.9792,29.4084;JO-AQ;;Tala Bay
+0;35.0271,29.5589;JO-AQ;;Alherafya
+0;36.2335,32.3459;JO-MA;;Muthallath Jāmi‘at Āl al Bayt
+0;36.9225,32.3447;JO-MA;;Dayr al Qinn
+0;36.7890,32.2942;JO-MA;;Al Jubayyah
+0;36.9068,32.3267;JO-MA;;Khishā‘ al Qinn
+0;36.9222,32.3220;JO-MA;;Madwar al Qinn
+0;36.8827,32.3093;JO-MA;;Tall Armāḩ
+0;36.7390,32.2849;JO-MA;;Ath Thallāj
+0;36.8142,32.1557;JO-MA;;Al Bishrīyah
+0;36.7980,32.1614;JO-MA;;Bānī Hāshim
+0;36.7614,32.1720;JO-MA;;Rawḑat al Amīr Ḩamzah
+0;36.7075,32.1895;JO-MA;;Al Manārah
+0;36.6704,32.2007;JO-MA;;As Sa‘ādah
+0;36.6477,32.2067;JO-MA;;Al Ashrafīyah
+0;36.6191,32.2223;JO-MA;;Nāyifah
+0;36.5542,32.2363;JO-MA;;Al Ḩamīdīyah
+0;36.7144,32.2818;JO-MA;;Al Munayşah
+0;36.7483,32.2279;JO-MA;;Uraynabat an Na‘īmāt
+0;36.7513,32.2622;JO-MA;;Ar Rifā‘īyāt
+0;36.7268,32.2620;JO-MA;;Qāsim
+0;36.6991,32.2641;JO-MA;;Rawḑat al Amīr ‘Alī Bin al Ḩusayn
+0;36.6813,32.3025;JO-MA;;Al Ma‘zūlah
+0;36.6485,32.3044;JO-MA;;Al ‘Awdah
+0;36.6555,32.2731;JO-MA;;Ghadīr an Nāqah
+0;36.5858,32.2236;JO-MA;;Raḩbat Rakkād
+0;36.1042,32.1860;JO-MA;;Az̧ Z̧āhirīyah
+0;36.1172,32.1799;JO-MA;;Aţ Ţawq
+0;36.1294,32.1657;JO-MA;;Al Mazra‘ah
+0;36.1402,32.1674;JO-MA;;Al Muthallaj
+0;36.2898,32.1435;JO-MA;;Al Mashrafah
+0;36.2756,32.1494;JO-MA;;Ḑāḩiyat al Ḩusayn
+0;36.2808,32.1579;JO-MA;;Al Mabrūkah
+0;36.3224,32.2065;JO-MA;;Al Malālīḩ ash Sharqīyah
+0;36.2858,32.2330;JO-MA;;Al Mufarradāt ash Sharqīyah
+0;36.2788,32.2464;JO-MA;;Al Mufarradāt al Gharbīyah
+0;36.1771,32.2425;JO-MA;;Nayyān
+0;36.1724,32.1966;JO-MA;;Al Fayşalīyah
+0;36.1523,32.2154;JO-MA;;Madhbaḩ al Kharūf
+0;36.1653,32.1948;JO-MA;;Al Munqaţi‘ah
+0;36.1191,32.2066;JO-MA;;Al Qar‘ah
+0;36.1105,32.1936;JO-MA;;Ar Rawḑah
+0;36.0810,32.2222;JO-MA;;Ḩamnānah al Jadīdah
+0;36.0698,32.2141;JO-MA;;Al Bustān
+0;36.0318,32.1930;JO-MA;;Umm Ḩawţah
+0;36.0348,32.2107;JO-MA;;Umm Şuwaywinīyah
+0;36.0111,32.2035;JO-MA;;Khuraysān
+0;36.0229,32.2275;JO-MA;;Ash Sharqīyah
+0;36.0321,32.2456;JO-MA;;Al Marājim
+0;35.9960,32.2471;JO-MA;;Al Karm
+0;35.9591,32.2993;JO-MA;;Al Harmashīyah
+0;35.9801,32.2943;JO-MA;;Quţaymah
+0;36.0764,32.2570;JO-MA;;Madāwīr an Nuzhah
+0;36.0934,32.2532;JO-MA;;An Nuzhah
+0;36.0909,32.2679;JO-MA;;Ţālib
+0;36.0887,32.2878;JO-MA;;Al Mu‘ammarīyah
+0;36.1053,32.2823;JO-MA;;Ar Rashādah
+0;36.1241,32.2851;JO-MA;;Az Za‘farānah
+0;36.1266,32.2964;JO-MA;;An Nammārah
+0;36.2965,32.2651;JO-MA;;Al Mufarradāt
+0;36.4828,32.3101;JO-MA;;Al Ḩarārah
+0;36.4278,32.2961;JO-MA;;Ḩamīdīyat al Masā‘īd
+0;36.3086,32.3237;JO-MA;;Ḩayy al Fawā‘irah
+0;36.3150,32.3199;JO-MA;;Manshīyat as Sulţah
+0;36.3246,32.3117;JO-MA;;Al Bawādī
+0;36.2721,32.3191;JO-MA;;Rawḑat Abū al Hayālī
+0;36.2460,32.2998;JO-MA;;Al Amīrah
+0;36.1611,32.3420;JO-MA;;Al Buwayḑah ash Sharqīyah
+0;36.1644,32.3613;JO-MA;;Ţayyib Ism
+0;36.1487,32.3635;JO-MA;;Rujm Sab‘ ash Shamālī
+0;36.1163,32.3334;JO-MA;;Ash Shiyāḩ
+0;36.1937,32.4217;JO-MA;;Al Ḩamrā’
+0;36.1900,32.4340;JO-MA;;Al Maţallah
+0;36.1886,32.1568;JO-AZ;;Al Mujaddil
+0;36.3871,32.1473;JO-AZ;;Dūr Ḩammād Qumayzah
+0;36.0055,32.1845;JO-AZ;;Al Ḩaşab
+0;35.9675,32.1774;JO-AZ;;Al Mikhdhāt
+0;35.9602,32.1819;JO-AZ;;As Saḩḩārah
+0;35.9942,32.1646;JO-AZ;;Muḩrishah
+0;35.9890,32.1997;JO-AZ;;Ţawāḩīn al ‘Udwān
+0;35.9687,32.2125;JO-JA;;Umm Rāmiḩ
+0;35.9521,32.2249;JO-JA;;Al Ḩāzīyah
+0;35.9333,32.2380;JO-JA;;Umm al Mahābīsh
+0;35.9521,32.2459;JO-JA;;Makhzan aḑ Ḑab‘
+0;35.9596,32.3423;JO-JA;;Umm Zaytūnah
+0;35.9457,32.3252;JO-JA;;An Na‘īmīyah
+0;36.7931,31.8395;JO-AZ;;Iskan al Qā‘idah
+0;35.9933,32.3748;JO-JA;;Al Mushayrifah al Wusţá
+0;35.9470,32.3639;JO-JA;;As Saḩāyil
 50931;36.2801,32.1208;JO-AZ;;Az̧ Z̧ulayl
+0;35.9082,31.9650;JO-AM;;Al ‘Abdallī
+0;35.9697,32.4192;JO-IR;;Dimnah
+0;35.9561,32.3985;JO-IR;;Abū ath Thalj
+0;35.9366,32.4117;JO-IR;;Umm Şarārah ash Sharqī
+0;36.8395,32.2754;JO-MA;;Dayr al Kahf
+0;35.9336,32.1638;JO-AZ;;Al Masarrah ash Sharqīyah
+0;35.5881,31.7171;JO-BA;;Sweimeh
+0;35.5863,31.7571;JO-BA;;Sowayma
+0;35.6662,32.6843;JO-IR;;Hamat Gader
+0;35.6726,30.7806;JO-AT;;Al Ḩarīr
+0;35.6977,30.9097;JO-AT;;Khirbat Şāhūl
+0;35.6545,30.8634;JO-AT;;Mahāwish
+0;35.5910,32.5944;JO-IR;;Al Ḩamāmirah
+0;35.6055,32.5716;JO-IR;;Mājid
+0;35.6029,32.5640;JO-IR;;Ḩayy al Hinādī
+0;35.6080,32.5883;JO-IR;;Al Manshīyah al Fawqā
+0;35.6064,32.5789;JO-IR;;Al ‘Arāmishah
+0;35.6101,32.5629;JO-IR;;Fuḑayn
+0;35.7250,32.6634;JO-IR;;Dam as Sarār
+0;35.6045,32.5151;JO-IR;;Buşaylah
+0;35.6151,32.5069;JO-IR;;Abū Ziyād
+0;35.5946,32.4566;JO-IR;;Al Madārij
+0;35.5899,32.3920;JO-IR;;Al Quşayb
+0;35.5851,32.3141;JO-IR;;Abū Sayyidū
+0;35.6033,32.2643;JO-IR;;Faqāris
+0;35.5876,32.3439;JO-IR;;Al Qarn
+0;35.5817,32.3605;JO-IR;;Abū Hābīl
+0;35.5850,32.3845;JO-IR;;Wādī ar Rayyān
+0;35.5888,32.4039;JO-IR;;Maqām Sharḩabīl
+0;35.6697,32.6542;JO-IR;;As Saqī
+0;35.6375,32.4635;JO-IR;;Al Qaşabāt
+0;35.6597,32.4573;JO-IR;;Dayr al ‘Asal
+0;35.6540,32.4416;JO-IR;;Al ‘Urqūb
+0;35.7241,32.7070;JO-IR;;Al ‘Ushshah
+0;35.7180,32.6413;JO-IR;;Sayfīn
+0;35.7289,32.6393;JO-IR;;Khirbat Ar‘ān
+0;35.7460,32.6612;JO-IR;;Dayr ar Rīḩ
+0;35.6973,32.6958;JO-IR;;Iskān as Sarīr
+0;35.7387,32.7104;JO-IR;;Ḩallāb ash Shu‘ayr
+0;35.7618,32.6941;JO-IR;;Al Mushayyadah
+0;35.8020,32.7145;JO-IR;;Khallāt as Sunaynah
+0;35.8236,32.6532;JO-IR;;Al Muzayrīb
+0;35.8335,32.6600;JO-IR;;Al Quşayrīn
+0;35.8442,32.7114;JO-IR;;Baţīn al ‘Alāh
+0;35.9054,32.6631;JO-IR;;Az Zawīyah
+0;35.8091,32.6195;JO-IR;;Al Barz
+0;35.8621,32.6169;JO-IR;;Al Khayrīyah
+0;35.7621,32.6574;JO-IR;;Al Maz̧lūmah
+0;35.8016,32.5786;JO-IR;;Abū Ḩamīdah
+0;35.8061,32.5700;JO-IR;;Al Waşfīyah
+0;35.7592,32.4598;JO-IR;;Al Musajjilānīyah
+0;35.6794,32.4448;JO-IR;;Al Khallah
+0;35.7107,32.3998;JO-IR;;Al Mudḩabirah
+0;35.8136,32.4462;JO-IR;;Sirās
+0;35.8296,32.4474;JO-IR;;Az Za‘tarah
+0;35.9044,32.4653;JO-IR;;Biyārāt al ‘Asal
+0;35.9183,32.4618;JO-IR;;Khirbat Ţayyārah
+0;35.9376,32.4642;JO-IR;;Khirbat Ḩadījah
+0;35.9924,32.3864;JO-IR;;Khirbat ad Duşayrī
+0;35.6404,32.5902;JO-IR;;Umm al Khabāyiş
+0;35.7278,32.5962;JO-IR;;As Sahlah
+0;35.9441,32.6625;JO-IR;;Al Mandashah
+0;35.8244,32.4327;JO-IR;;Al Ibrāhīmīyah
+0;35.7968,32.4461;JO-IR;;Wādī Gharf al Aḩmar
+0;35.8577,32.4531;JO-IR;;Ar Raḩmah
+0;35.7767,32.4487;JO-IR;;Khallat az Zar‘
+0;35.8217,32.6688;JO-IR;;Manshīyat Kafr Sawm
+0;35.7639,32.6518;JO-IR;;Al Maţḩanah
+0;35.7437,32.6453;JO-IR;;Al Ḩujjāj
+0;35.5931,31.8002;JO-BA;;Al ‘Arūs
+0;35.8246,31.8333;JO-AM;;Al Zuqaybah
+0;35.8206,31.8062;JO-AM;;Ḩinw al Murabbiţ
+0;35.8208,31.8133;JO-AM;;Umm ash Shawāmir
+0;35.8132,31.8093;JO-AM;;Karmat Ḩisbān
+0;35.8096,31.7892;JO-AM;;Aţ Ţuwaylah
+0;35.8158,31.8025;JO-AM;;Al Quray‘ah
+0;35.7746,31.7765;JO-MD;;Umm Kuzbarah
+0;35.7843,31.7807;JO-MD;;Al ‘Arīsh
+0;35.7885,31.7555;JO-MD;;Al Wasīyah
+0;35.7616,31.7379;JO-MD;;Al Yusrá al Jadīdah
+0;35.7713,31.7399;JO-MD;;‘Ufnān
+0;35.8172,31.7426;JO-MD;;Al Ma’mūnīyah Ash Sharqīyah
+0;35.8338,31.7366;JO-MD;;Ar Ruwābī
+0;35.8144,31.6891;JO-MD;;Ḩayy al Mazāri‘
+0;35.7949,31.6907;JO-MD;;Al Ḩadab al Janūbī
+0;35.7062,31.6852;JO-MD;;Al Mi‘qar
+0;35.7064,31.6893;JO-MD;;Manshīyat Mā‘īn
+0;35.7727,31.6522;JO-MD;;Al Wāḩah
+0;35.7752,31.6466;JO-MD;;Al Fāliḩah
+0;35.7419,31.6462;JO-MD;;Umm ash Shawāmir
+0;35.7505,31.6379;JO-MD;;Ḩawīyat al Balāwinah
+0;35.7726,31.6362;JO-MD;;Al Hilālīyah
+0;35.7978,31.6360;JO-MD;;Aş Şafā
+0;35.8237,31.6052;JO-MD;;Al Mujaddarah
+0;35.7711,31.6081;JO-MD;;Al Ash‘al
+0;35.7605,31.6170;JO-MD;;Miqla‘ al Khaznah
+0;35.7394,31.6079;JO-MD;;Al Ḩiyāḑ
+0;35.7278,31.6056;JO-MD;;Al Mashz̧
+0;35.7579,31.5991;JO-MD;;Tajammu‘ as Sinn
+0;35.7787,31.5887;JO-MD;;Al Ghadīr
+0;35.7939,31.5875;JO-MD;;Tajammu‘ al Musay‘idāt
+0;35.7889,31.6006;JO-MD;;Ar Rāshidīyah
+0;35.6343,31.5545;JO-MD;;Umm Zuwaytīnah
+0;35.6326,31.5526;JO-MD;;Umm al Awtād
+0;35.6530,31.5474;JO-MD;;Ad Dayr
+0;35.6686,31.5617;JO-MD;;Az Zahrā’
+0;35.6733,31.5493;JO-MD;;An Nāmīyah
+0;35.7972,31.5613;JO-MD;;Umm Nattūlah
+0;35.8321,31.5422;JO-MD;;An Nahḑah
+0;35.7765,31.5463;JO-MD;;Al Mushrifah
+0;35.7732,31.5385;JO-MD;;Umm Shajarah
+0;35.7822,31.5356;JO-MD;;Al Manshīyah
+0;35.6616,31.5404;JO-MD;;Ballūtah
+0;35.6312,31.5440;JO-MD;;Tilā‘ ad Dayr
+0;35.7680,31.5208;JO-MD;;Ar Rayḩānīyah
+0;35.7767,31.5106;JO-MD;;Al Qāsimīyah
+0;35.7780,31.5262;JO-MD;;Al ‘Ālīyah
+0;35.7255,31.4847;JO-MD;;Umm Jurn
+0;35.7553,31.4856;JO-MD;;Umm an Ni‘āj
+0;35.7612,31.4937;JO-MD;;Dhībah
+0;35.8767,31.5064;JO-AM;;Al Manshīyah
+0;35.8781,31.4764;JO-AM;;Al Mushayrifah al Janūbīyah
+0;35.8144,31.4456;JO-KA;;Al Ma‘mūrah
+0;35.8179,31.4341;JO-KA;;Al Mawjib
+0;35.8249,31.4210;JO-KA;;Al Mazra‘ah
+0;35.7927,31.4331;JO-KA;;Karakūn
+0;35.7771,31.4183;JO-KA;;Al ‘Āliyah
+0;35.7612,31.6057;JO-MD;;Libb
+0;35.8507,31.4634;JO-AM;;Al Yāhūn
+0;35.7546,32.1381;JO-BA;;Sīḩān
+0;35.7421,32.1732;JO-BA;;Al Bawayb
+0;35.7786,31.9629;JO-AM;;Al Ghurūs
+0;35.7843,31.9541;JO-AM;;Umm al Qaḩūf
+0;35.7644,31.9488;JO-AM;;Al Suwaysah
+0;35.7560,31.9459;JO-AM;;Zabdah
+0;35.7579,31.5089;JO-MD;;Adh Dhuhaybah al Gharbīyah
+0;35.8691,31.4911;JO-AM;;Al Mushayrifah ash Shamālīyah
+0;35.6725,32.2283;JO-AJ;;Thughrat Zubayd
+0;35.7246,32.2289;JO-AJ;;Rās al Aqra‘
+0;35.6696,32.2487;JO-AJ;;Diḩwas
+0;35.6927,32.2294;JO-AJ;;Ka‘b al Malūl
+0;35.7735,32.2116;JO-JA;;Al Fawwārah
+0;35.8084,32.2307;JO-JA;;Iskān al Qabū
+0;35.8765,32.2390;JO-JA;;‘Amāmah
+0;35.7173,32.2044;JO-JA;;Al Manşūrah
+0;35.7323,32.2095;JO-JA;;Khushaybah ash Sharqīyah
+0;35.7454,32.2154;JO-JA;;Al Hūnah
+0;35.8612,32.1489;JO-JA;;Al Faraḩ
+0;35.8748,32.1670;JO-JA;;Nawwārah
+0;35.8691,32.1572;JO-JA;;Ar Raḩmānīyah
+0;35.8613,32.1426;JO-JA;;Ar Rujm al ‘Ālï
+0;35.8701,32.1318;JO-JA;;Khirbat al ‘Azmah
+0;35.8612,32.1252;JO-BA;;Salḩūb
+0;35.8771,32.1797;JO-JA;;Al Qaşabah
+0;35.8943,32.1349;JO-AZ;;Al Maydān
+0;35.8843,32.1236;JO-AZ;;Qaryat ‘Uqlah
+0;35.8952,32.1238;JO-AZ;;An Nāşirīyah
+0;35.9057,32.0936;JO-AZ;;Maqām ‘Īsá
+0;35.6096,31.9132;JO-BA;;Ash Shūnah al Jadīdah
+0;35.6295,31.8738;JO-BA;;Al Jawāsirah
+0;35.6418,31.8615;JO-BA;;Al Jawfah
+0;35.6146,31.8412;JO-BA;;Al ‘Ajājirah
+0;35.6665,31.8306;JO-BA;;Ar Rawḑah
+0;35.6520,31.8119;JO-BA;;An Nahḑah
+0;35.5975,31.7770;JO-BA;;Al Khaşāş
+0;35.6788,31.9854;JO-BA;;Jumlá
+0;35.7031,31.9715;JO-BA;;Az̧ Z̧ahrah
+0;35.7023,31.9790;JO-BA;;Al Ḩakūr
+0;35.7571,31.9600;JO-BA;;Al Kāshif
+0;35.7688,31.9668;JO-BA;;Al Maysar
+0;35.6378,31.9433;JO-BA;;Saţḩ ‘Adwān
+0;35.6514,31.9200;JO-BA;;Wādī Shu‘ayb
+0;35.7844,31.9856;JO-BA;;Al Hāshimīyah
+0;35.7966,31.9805;JO-BA;;Al Ḩudayb
+0;35.8186,32.1291;JO-BA;;Ash Shawīḩī
+0;35.8515,32.1116;JO-BA;;Al Ju‘aydīyah
+0;35.8115,32.1155;JO-BA;;Abū Nuḩaylah
+0;35.8126,32.0991;JO-BA;;Umm Sindiyānah
+0;35.8475,32.0479;JO-BA;;Bāb ‘Ammān
+0;35.7037,32.1174;JO-BA;;Ad Dayrah al Gharbīyah
+0;35.7477,32.0842;JO-BA;;Di‘am al Ghazālāt
+0;35.7819,32.0971;JO-BA;;Al Wasīyah
+0;35.7542,32.1628;JO-BA;;Al Quşayb
+0;35.6788,32.1405;JO-BA;;Az̧ Z̧ahrah
+0;35.6868,32.1407;JO-BA;;Al Khashfah
+0;35.7313,32.1312;JO-BA;;Buyūḑah ash Sharqīyah
+0;35.7117,32.0934;JO-BA;;Ţabbā‘ah
+0;35.7719,32.1092;JO-BA;;Ḑāḩiyat az Zahrā’
+0;35.6239,32.2407;JO-BA;;Al Balāwinah
+0;35.5746,32.2052;JO-BA;;Az Zubaydāt
+0;35.5830,32.2098;JO-BA;;Ghawr az Zawr
+0;35.6309,32.1914;JO-BA;;Al Dabbāb
+0;35.5962,32.1663;JO-BA;;‘Aţūf
+0;35.6072,32.1274;JO-BA;;Maysarah al Jadīdah
+0;35.5982,32.0642;JO-BA;;Z̧ahrat ar Raml
+0;35.7128,32.0691;JO-BA;;An Nabī Yūsha‘
+0;35.7221,32.0818;JO-BA;;Wādī an Nāqah
+0;35.7742,32.0867;JO-BA;;Al Ḩudayb
+0;35.7718,32.0783;JO-BA;;Az Za‘tarī
+0;35.6983,32.0344;JO-BA;;Umm Kharrūbah
+0;35.7287,32.0516;JO-BA;;Al Buḩayrah
+0;35.7859,32.0481;JO-BA;;As Sarw
+0;35.7078,32.0106;JO-BA;;Al Buţayn
+0;35.7045,32.0000;JO-BA;;Baţnā
 9805;38.2011,32.5041;JO-MA;;Ruwaished
 85000;38.7034,33.3141;JO-MA;;Rukban
+0;38.1578,32.8280;JO-MA;;Al-Reeshah
+0;38.3760,32.9946;JO-MA;;Upper Reesha
+0;35.7390,31.2527;JO-KA;;Ar Rawḑah
+0;35.8578,31.8470;JO-AM;;Sīyāḩ
+0;35.7312,31.0306;JO-KA;;Al Ashrafīyah
+0;35.7338,31.0299;JO-KA;;Mu’āb
+0;35.8975,32.0203;JO-AM;;Abu Laila
+0;35.7288,31.3978;JO-MD;;Umm aţ Ţawwābīn
+0;35.7150,31.4047;JO-MD;;Al ‘Arāqīn
+0;35.7053,31.3737;JO-MD;;Umm Hillāl
+0;35.7400,31.3605;JO-MD;;Al Ḩannāwī
+0;35.7426,31.3325;JO-KA;;Masḩūb
+0;35.7024,31.3316;JO-KA;;Shaḩtūr
+0;35.6838,31.3485;JO-KA;;Abū Sharaf
+0;35.6680,31.3416;JO-KA;;Barşīn
+0;35.5660,31.2704;JO-KA;;Al Bulaydah
+0;35.7302,31.2991;JO-KA;;An Nazzāzah
+0;35.7403,31.3068;JO-KA;;Al Ḩammah
+0;35.7386,31.2264;JO-KA;;Al Wasīyah
+0;35.7099,31.2221;JO-KA;;Karm aş Şāni‘
+0;35.6987,31.2218;JO-KA;;An Nāşirah
+0;35.6969,31.1318;JO-KA;;Al Maḩmūdīyah
+0;35.5300,31.2438;JO-KA;;Madīnat al Būtas
+0;35.6755,31.2120;JO-KA;;Bardá
+0;35.6809,31.1675;JO-KA;;Kumnah
+0;35.6875,31.1738;JO-KA;;Al Shihābīyah
+0;35.6959,31.1880;JO-KA;;Az Za‘tarīah
+0;35.6923,31.1928;JO-KA;;Sayl al Karak
+0;35.7255,31.1745;JO-KA;;Aş Şabīḩāt
+0;35.7505,31.1920;JO-KA;;Ar Rāshidīyah
+0;35.7019,31.1435;JO-KA;;Al Ḩawīyah
+0;35.6784,31.1553;JO-KA;;Al Munqaţa‘ah
+0;35.6804,31.1364;JO-KA;;Al Labbūn
+0;35.6515,31.1539;JO-KA;;Jawzā al Janūbīyah
+0;35.6460,31.1618;JO-KA;;Jawzā ash Shamālīyah
+0;35.5247,31.1246;JO-KA;;Iskān al Būtās
+0;35.6389,31.0959;JO-KA;;Al Ḩalīlah
+0;35.7060,31.0804;JO-KA;;Tal‘at aţ Ţūr
+0;35.7456,31.0576;JO-KA;;Jur‘ab
+0;35.7424,31.0709;JO-KA;;Al Ghuwayţah
+0;35.7002,31.0430;JO-KA;;Sūq al Ḩīţ
+0;35.7086,31.0480;JO-KA;;Al ‘Aḑāylah
+0;35.7124,31.0584;JO-KA;;Al Ḩadabah
+0;35.6871,31.0488;JO-KA;;Al Ḩārithīyah
+0;35.6703,31.0307;JO-KA;;Umm al Ghizlān
+0;35.6408,31.0733;JO-KA;;An Nāmūrah
+0;35.5988,31.0582;JO-KA;;Umm al Wāsi‘
+0;35.8300,32.4540;JO-IR;;Az Zaytūn
+0;35.8364,32.4565;JO-IR;;Al Kabārīyah
+0;35.8623,32.4523;JO-IR;;Umm al Ghizlān
+0;35.8922,32.4177;JO-IR;;Al ‘Aşşārah
+0;35.8921,32.4061;JO-IR;;Ḩāţim
+0;35.9137,32.4129;JO-IR;;Ash Shayyāḩah
+0;35.8037,32.4231;JO-IR;;Darajat Sa‘d
+0;35.8261,32.4076;JO-AJ;;Khallah al Ḩalū
+0;35.8107,32.4050;JO-AJ;;‘Aşīm
+0;35.8216,32.3986;JO-AJ;;Mishmās as Summāq
+0;35.7924,32.3880;JO-AJ;;Al Ḩudayb
+0;35.7888,32.3959;JO-AJ;;Bi’r ad Dālīyah
+0;35.7821,32.3922;JO-AJ;;Al Murjam
+0;35.7403,32.4009;JO-AJ;;Abū al Hawá
+0;35.6572,32.4290;JO-IR;;Ţīrat Zayd
+0;35.6531,32.4190;JO-IR;;Balūţah
+0;35.6401,32.4220;JO-IR;;Al Marūj
+0;35.6489,32.3897;JO-AJ;;Abū ash Shurūsh
+0;35.6601,32.3754;JO-AJ;;Bāb al Ḩabbāşīyah
+0;35.6337,32.3515;JO-AJ;;Al Ḩarūth
+0;35.6641,32.3648;JO-AJ;;Al Hāshimīyah
+0;35.7134,32.3630;JO-AJ;;Al ‘Uqdah
+0;35.6791,32.3573;JO-AJ;;Rās Abū al Khayr
+0;35.7161,32.3424;JO-AJ;;Aş Şawwān
+0;35.7354,32.3549;JO-AJ;;Khallat Umm Khashm
+0;35.7744,32.3513;JO-AJ;;An Najāsh
+0;35.7656,32.3734;JO-AJ;;Khallat Wardah
+0;35.8219,32.3762;JO-AJ;;Rās as Sūs
+0;35.7844,32.3594;JO-AJ;;An Naqab
+0;35.7958,32.3600;JO-AJ;;Al Yābisah
+0;35.7987,32.3589;JO-AJ;;Aş Şawwān
+0;35.8254,32.3649;JO-AJ;;Abū ash Sha‘ar
+0;35.8186,32.3471;JO-AJ;;Bayādir as Suwālimah
+0;35.8605,32.3618;JO-AJ;;Al Mudawwarah
+0;35.9047,32.3280;JO-JA;;Thughrat ‘Uşfūr
+0;35.8688,32.3288;JO-JA;;Al Ḩisbān
+0;35.8634,32.3407;JO-JA;;Al Masqīyah
+0;35.8509,32.3354;JO-JA;;Ibn al ‘Az̧m
+0;35.8411,32.2993;JO-JA;;Al Muşallá
+0;35.8192,32.3059;JO-JA;;Abū al Maghar
+0;35.7954,32.3385;JO-AJ;;Z̧ahr al Khirbah
+0;35.7795,32.3442;JO-AJ;;Al Murūsh
+0;35.7815,32.3115;JO-AJ;;Az Zayzafūnah
+0;35.7557,32.2967;JO-AJ;;Al Kasāyir
+0;35.7276,32.2979;JO-AJ;;‘Ayn al Bustān
+0;35.6814,32.3296;JO-AJ;;Al Mashhad
+0;35.6996,32.3087;JO-AJ;;Aţ Ţawwāḩīn
+0;35.6930,32.3057;JO-AJ;;Al Mushayrifah
+0;35.6850,32.2939;JO-AJ;;Al Bustān
+0;35.6719,32.2657;JO-AJ;;Al Ḩarth
+0;35.6688,32.2728;JO-AJ;;Al Birkah
+0;35.6850,32.2726;JO-AJ;;Umm ar Raml
+0;35.6987,32.2570;JO-AJ;;Marīmīn
+0;35.7180,32.2640;JO-AJ;;Khallat as Samrā’
+0;35.7197,32.2846;JO-AJ;;Başşat ‘Uqlah
+80;35.7272,32.2912;JO-AJ;;Umm al Khashab
+0;35.7511,32.2767;JO-AJ;;Al Ḩanīsh
+0;35.7806,32.2605;JO-AJ;;Şafşāfat at Taḩtā
+0;35.7634,32.2839;JO-AJ;;Rās ad Dallāqah
+0;35.8071,32.2776;JO-JA;;Umm Jawzah
+0;35.8070,32.2628;JO-JA;;Al Masrab
+0;35.8246,32.2687;JO-JA;;Dabbat ad Dayr
+0;35.8265,32.2933;JO-JA;;Al Khuḑar
+0;35.8433,32.2566;JO-JA;;Jumlah
+0;35.8823,32.2591;JO-JA;;Al Jabbārāt
+0;35.8406,32.2925;JO-JA;;Al Busţah
+0;35.8725,32.2325;JO-JA;;Al Musayţīḩ
+0;35.8232,32.2137;JO-JA;;Al Waţīyah
+0;35.8634,32.2826;JO-JA;;Zaqrīţ al Khudrā’
+0;35.8627,32.2911;JO-JA;;Zaqrīţ al Fawqā
+0;35.8981,32.2585;JO-JA;;Adh Dhakhīrah
+0;35.8725,32.2120;JO-JA;;Az Zabalīyah
+0;35.8460,32.2210;JO-JA;;Abū al Layl
+0;35.7271,32.2331;JO-AJ;;Al Jabal al Akhḑar
+0;35.7183,32.2270;JO-AJ;;Khushaybat al Fawqā
+0;35.6027,32.1911;JO-BA;;Tall ar Rabī‘
+0;35.6466,32.2005;JO-BA;;Iskān as Sulţah
+0;35.8317,32.1701;JO-BA;;Al Mughayyarāt
+0;35.7109,32.3995;JO-AJ;;Karm Salmān
+0;35.6730,32.3774;JO-AJ;;Bāb al Ḩabāşīyah
+0;35.6782,32.3487;JO-AJ;;Dayr aş Şimādīyah ash Shamālī
+0;35.9275,32.4048;JO-IR;;Umm Şarārah al Gharbī
+0;35.8210,32.4087;JO-AJ;;Khallat al Ḩalū
+0;35.7863,32.3946;JO-AJ;;Bi’r ad Dālīyah
+0;35.7827,32.3914;JO-AJ;;Al Marjam
+0;35.7754,31.7721;JO-MD;;Ghirnāţah
+0;35.6856,31.5666;JO-MD;;Al Muḩammadīyah Dalḩah
+0;36.0703,32.3160;JO-MA;;Al Qadam
+0;35.9378,32.2556;JO-JA;;Mukhannaq aḑ Ḑab‘
+0;36.0708,32.1972;JO-MA;;Abū az̧ Z̧uhūr
+0;36.0037,32.1633;JO-AZ;;Al Bīrah
 151016;35.8439,32.0221;JO-BA;;Ṣuwayliḥ
 82788;35.8464,31.9027;JO-AM;;Marj Al Hamam
 4275;35.5577,30.5191;JO-MN;;Ash-Shūbak
+0;35.9224,32.2845;JO-JA;;Umm Kharrūbah
+0;35.6908,32.1270;JO-BA;;Al Manşurah
+0;35.3342,29.9609;JO-MN;;Al Ḩumaymah
+0;35.6242,31.0397;JO-KA;;Al Buqay‘
+0;35.8819,32.3244;JO-JA;;‘Uşfūr
+0;35.7218,32.2074;JO-JA;;Khushaybah

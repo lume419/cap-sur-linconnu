@@ -17497,3 +17497,4 @@ kk;Баяш Өтепов;Tochka
 en;Aryqbalyq;Arykbalyk
 ru;Подгородский;Podgorodka
 kk;Теріс;Teris
+ru;Шолпан;Sholpan

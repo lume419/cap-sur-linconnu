@@ -27518,3 +27518,365 @@ es;Tabasco 2000;Tabasco Dos Mil
 es;Nuevo Durango Campo 11;Nuevo Durango Campo Once
 es;Nuevo Durango Campo 12;Nuevo Durango Campo Doce
 es;Nuevo Durango Campo 10;Nuevo Durango Campo Diez
+es;Santa Cruz;San Fernando
+es;San Juan Hueyepán;San Juan Hueyapan
+es;San Francisco;Casa Blanca
+es;Palo Parado;San Ignacio
+es;Palmar de Vista Alegre;Vista Alegre
+es;Mal País;Malpaís
+es;La Joya;Los Potros
+es;Santa Celia;Santa Cecilia
+es;Santa Efigenia;Gabino Vázquez
+es;El Napo;Seis de Enero
+es;El Marente;Escondido
+es;Hormiguero;El Hormiguero
+es;El Gavilán;Florida del Norte
+es;Cerro Mojarra;Peña Blanca
+es;Alvaradito;Tepate Abajo
+es;Soledad Agua Blanca;Agua Blanca
+es;El Dorado;La Gloria
+es;La Rosa;Santa Rosa de Lima
+es;Tapesco;Las Cruces
+es;Reforma Primera Sección;San Gregorio
+es;Reforma;San Gregorio
+es;Primera Sección;San Gregorio
+es;Pablo Sidar Primera Sección;Pablo L. Sidar
+es;Pablo L. Sidar Primera Sección;Pablo L. Sidar
+es;Primera Sección;Pablo L. Sidar
+es;Corozal;Corozo
+es;Casba;El Caoba
+es;Caoba;El Caoba
+es;Dos Arbolitos;El Progreso
+es;Palo Verde;Centro Usumacinta
+es;Jicotea;Bella Vista
+es;Hicotea;Bella Vista
+es;Cuves;Los Cubes
+es;Ranchería los Cubes;Los Cubes
+es;El Rayón;Ignacio López Rayón
+es;Ayocote;Los Coyotes
+es;San Marcos;Los Coyotes
+es;El Varal;San Joaquín
+es;La Guadalupe;La Victoria
+es;El Zoológico;Francisco Villa
+es;El Tigre;Francisco Villa
+es;Crucitas;Las Crucitas
+es;Belenes de Arriba;Los Belenes
+es;Peñas;San Antonio de Peñitas
+es;El Terrero;La Puerta del Terrero
+es;San José;Coremachi
+es;Mesa de los Martínez;Cerro Alto
+es;María;Rancho Viejo
+es;Las Minas;La Ciénega
+es;Guagueachi;Chihuivo
+es;Cerro Prieto;Yanapuchi
+es;Los Cuates;El Venado
+es;Misión San Vicente Ferrer;La Misión
+es;Balamo;El Valamo
+es;Saguachi;Sagoachi
+es;Tamayo;Santo Domingo
+es;Santa Cruz;La Presa
+es;Rancho San Martin;San Martín
+es;San Isidro de Calabaza;El Alamillo
+es;Guadalupe de Olguín;Guadalupe
+es;El Arco Iris;El Arcoíris
+es;Arco Iris;El Arcoíris
+es;Playitas;Las Playitas
+es;Rancho Pilares;Los Pilares
+es;Palomas Número Dos;Palomas Dos
+es;El Molino;Molinitos
+es;Ranchería El Metate;El Metate
+es;Mesa Pajaritos;Mesa de Pajaritos
+es;Tinajuela;Los Pavos
+es;Rancho Los Espejos;Los Espejos
+es;La Troje del Limón;La Troja
+es;Liebres de Suárez;Guamúchil
+es;La Canoa;Las Canoas
+es;Cabeceras de San Diego;Cabeceras
+es;Matancita;Matancitas
+es;La Mojada;La Majada
+es;La Estancia de Magaña;La Estancia
+es;La Colorada;San Alfonso
+es;La Cofradía;Cofradía
+es;San Ignacio de Cieneguita;San Ignacio de Cieneguilla
+es;La Calaverna;La Calavera
+es;Jacal;Los Jacales
+es;Rancho los García;Los García
+es;Galindo;Las Peñitas
+es;Esperanza;La Esperanza
+es;Ranchería El Rodeo;La Zarca
+es;La Pulga;Rinconada
+es;El Prieto de Valenzuela;El Prieto
+es;Barranca de Guadalupe;El Pozole
+es;Calzón Caido;El Chapulín
+es;Guadalupe Victoria;La Niña
+es;Cocovol;Cocoyul
+es;Segorachic;Segorachi
+es;Acatita;El Sauce
+es;El Alambrado;Los Ángeles
+es;Granjas;Granja Ofelia
+es;La Soledad del Río;Soledad del Río
+es;El Xoconoxtle;La Escondida
+es;Joconoxtle;La Escondida
+es;Las Cuevas del Ojo de Agua;Los Ojos de Agua
+es;Ojo de Agua;Los Ojos de Agua
+es;Los Cuitzillos;Cuitzillos
+es;La Clavellina;La Urraca
+es;Los Bonetes;El Barrito
+es;Santo Tomás;Pueblo Viejo
+es;La Nueva Italia;Nueva Italia
+es;El Chalán;San Pablo
+es;El Real;Campo Real
+es;Los Ranchos;El Ranchito
+es;Los Mangos;El Manguito
+es;La Voluntad de Dios;Las Almendras
+es;Los Zamora;Zamora
+es;El Tule;Palomas
+es;La Palma;El Cuarenta
+es;El Fresito;San Simón
+es;Precaución;La Burra
+es;Pinacate;El Pinacate
+es;Tres Erres;Las Tres R
+es;La Cruz;Los Charcos
+es;Francisco Herrera Zárate;Santa Rosa
+es;Juan Martínez;El Ángel
+es;Nuevo Benito Juárez;Licenciado Benito Juárez
+es;La Esperanza;El Olivo
+es;La Col;San Juan
+es;Los Ancones;El Ancón
+es;El Jabal;El Capricho
+es;Nueva Odisea;El Pirul
+es;La Vinata de Abajo;La Vinata
+es;El Encino;Arroyo de Encinos
+es;Los Hoyos;El Norteño
+es;El Tarais;Los Naranjitos
+es;El Baquiachivo;Baqueachi
+es;Siparichi;El Potrero
+es;La Higuerita;La Higuera
+es;Ranchería Cuchubérachi;Cuchiverachi
+es;Paraje Huiyórare;Huillorare
+es;Baqueriachi;Baquiriachi
+es;Regibechi;Puerto Blanco
+es;Cieneguita del Trejo;Los Arbolitos
+es;Bacazórare;Romichi
+es;Bitórachi;Matachique
+es;Hurichique;Parehuachi
+es;Techobampo de los Paredes;El Cedrito
+es;El Saucillo;Lagunilla
+es;Fernández;El Ebanal
+es;San Martín;La Unión
+es;Ejido Real y Cañada;Las Cañadas
+es;Las Mílpas;Los Ranchitos
+es;La Joya;Caracol
+es;Caracoles;Caracol
+es;Santa Ana;Los Nogales
+es;Bahuechi;Huicorachi
+es;Paraje Rohuichique;Rohuichi
+es;Moquinoba;Napuchi
+es;Sayáhuachi;Bacabochi
+es;Ahuichagórare;Huichagorare
+es;Chuguivo;Chihuivo
+es;Ejido Piedra Bola;El Yerbanís
+es;El Alamo;Mesa del Álamo
+es;Chupa Rosa;La Chupa Rosa
+es;El Puerto Chiquito;El Puerto del Aguaje
+es;La Ciénega;Ciénega Prieta
+es;Rechaganachi;Aguachochi
+es;El Guacaporo;Guacaporo
+es;Gamuchín;El Camuchín
+es;San Pedro;El Roble
+es;Araceli;Santa Aracely
+es;El Florado;San Jorge
+es;El Florido;San Jorge
+es;Ex-Aserradero Aguajes del Alto;Aguaje del Alto
+es;La Vaca;Las Vacas
+es;Fraccionamiento Plazas;Las Plazas
+es;El Alamillo;El Alamito
+es;El Cangrejo;El Potrero Grande
+es;Cañita;El Pellizco
+es;El Doce;Tres Hermanas
+es;Cerro la Cruz;Cerro de la Cruz
+es;El Tapeiste;Rancho de Pérez
+es;Bacatete;El Encuentro
+es;Casas Viejas;Las Casas
+es;La Floreña;Ibañez
+es;Punta de la Montaña;El Otoño
+es;Los Tamarindos;El Tamarindo
+es;Los Tamarindo;El Tamarindo
+es;San Mariano;El Herradero
+es;Los Opochis;El Opochi
+es;El Campito;Campo Gastélum
+es;Paso Achote;El Izote
+es;Piedra China;San Agustín
+es;Francisco I. Madero Sección Kilómetro Dieciocho;Kilómetro 18
+es;Final del Río;El Pinal del Río
+es;La Loma;Bronco
+es;El Bronco;Bronco
+es;Pautillas;Palmillas
+es;Manzanillas;El Manzanillo
+es;El Chapotito;El Rodeo
+es;El Sauce;El Sauz
+es;Dos Palmos;Las Dos Palmas
+es;El Limón de Arriba;El Limón
+es;El Aguajito;Los Aguajitos
+es;El Perro;Barranca del Perro
+es;La Ordeñita;Ordeñitas
+es;La Ceiba Negra;Ceibas Negras
+es;El Guayabito;Guayabitos
+es;Las Ceibas;Las Saibas
+es;Los Zapotes;El Zapote
+es;El Rincón;El Encino
+es;Puerto la Mula;Puerto de la Mula
+es;La Hoya del Guayabo;La Hoya
+es;Kino;El Quino
+es;Puerto los Ladrillos;El Puertecito
+es;El Atuto;Paso del Atuto
+es;Las Trincheras;El Naranjo
+es;Piñuelas;Piñuela
+es;El Cuachalalate;Los Cuachalalates
+es;Las Mesas Grandes;La Mesa Grande
+es;Cuatro Milpas;La Higuerilla
+es;Gracias a Dios;La Frontera
+es;Piedras Negras;Piedras Grandes
+es;La Florida;Buenavista
+es;Los Curindales;Cuirindales
+es;Corralito;Los Corrales
+es;La Amole;El Amole
+es;Cerro del Oro;Cristo Rey
+es;Torrecillas;Las Torrecillas
+es;Buenavista;Rancho Barrientos
+es;El Potrero de Guadalupe;Cerro Blanco
+es;Estancia de Guadalupe;Los Olvera
+es;San Juan del Carmen;San Juan
+es;El Almarito;Palmarito
+es;La Cruz;Santa Cruz
+es;Noria de Bernales;Noria Nueva
+es;El Limoncito de las Palmas;Los Limoncitos
+es;Los Razos;Las Higueras
+es;Casco Tecolote;El Tecolote
+es;La Cruciyera;La Crucillera
+es;El Novillo;Puerto del Novillo
+es;El Ucaz;El Ocaso
+es;Canincio;Canoas
+es;El Guacimal;El Huazimal
+es;Los Tepehuajes;El Tepeguaje
+es;Soledad los Cerezos;La Soledad
+es;Cajetal;Villa Nueva
+es;Llano Grande;Llano Redondo
+es;Pashtal;El Pastal
+es;El Cablote;El Cahulote
+es;Cunio;Cuinio
+es;Buenavista;Colonia Buena Vista
+es;El León;Cerro León
+es;Rancho Polvo;El Polvo
+es;La Revancha;San Javier
+es;Chimtik;Chimtic
+es;Mina;Las Minas
+es;Muquem;Muquén
+es;Cruston;Chamizal
+es;Mesa el Carmen;La Mesa
+es;Zapote;El Pitayo
+es;Bocal;El Pitayo
+es;San Diego;Juan Diego
+es;El Limón;Los Limones
+es;Sainz;El Sáiz
+es;San Marcos;Los Tres Reyes
+es;El Pajal y las Truchas;María Isabel
+es;Rancho del Padre;El Padre
+es;Los Nopales;El Nopal
+es;San Cayetano de Luna;El Llanito
+es;Agua de los Coyotes;El Agua de los Coyotes
+es;Tonalisco Peyotán;Atonalisco
+es;Chiquilico;Chililico
+es;El Perico;Puerto del Perico
+es;Aurora;La Espuela
+es;La Mesa;La Mesita
+es;El Encierro;La Gacha
+es;Vázquez;Palo Blanco
+es;El Álamo;El Encino
+es;Las Cablotes;Los Caulotes
+es;El Ranchito;Los Ranchitos
+es;Barranca del Plátano;El Plátano
+es;Buenavista;Vista Hermosa
+es;El Águila;Las Águilas
+es;El Brasil;Brasil
+es;El Cahulote;Cuaulote
+es;El Camarón;La Huerta
+es;El Sevadero;El Cebadero
+es;La Sauceda;Benito Juárez
+es;Cañada del Potrero;El Higuerón
+es;Las Minas;Minas Viejas
+es;La Patricia;Puerto Blanco
+es;Peñas Prietas;Puerto Blanco
+es;Ojo de Agua de la Víbora;Santa Elena de la Cruz
+es;La Resolana;San Juan de los López
+es;Maravillas;San Juan de los López
+es;Banco de Palomas;Palomas
+es;Fraccionamiento San Pablo;San Pablo
+es;Aquiles Serdán;Colonia Aquiles Serdán
+es;Las Palomas Uno;San Román
+es;La Caja;Las Cajas
+es;San Juanico del Carmen;San Juanico
+es;Cerro Azul;Las Margaritas
+es;Los Gallineros;Los Gavilanes
+es;San Juan;La Aurora
+es;Caudillo;Canutillo
+es;La Paz;San Genaro
+es;Luis Echeverría;Colonia Echeverría
+es;Joyas de Corralejo;Corralejo
+es;El Ojito;La Mesa del Ojito
+es;Jarillal;El Jarillal
+es;Huatamote;El Huatamote
+es;Chichimeco;El Chichimeco
+es;La Venta;La Venta Colorada
+es;Tejocotal;El Tejocotal
+es;Isleta;La Isleta
+es;La Piedra Rajada;El Guayabo
+es;Pitahayal;El Pitahayal
+es;Agua Azul;El Agua Azul
+es;Chimeneas;Las Chimeneas
+es;Cucha;La Cucha
+es;Chupaderos;Los Chupaderos
+es;El Pinzán;El Paso del Pinzán
+es;Cobano;El Cóbano
+es;Yerbabuena;La Yerbabuena
+es;San Isidro;San Isidro de las Palmas
+es;Las Trojes;San Isidro
+es;Nombre Dios;Nombre de Dios
+es;El Carmen;Quinta el Carmen
+es;San José;San José de las Adjuntas
+es;El Monte;Puerta del Monte
+es;Ciruelo;El Ciruelo
+es;Duraznal;El Duraznal
+es;Pajarito;El Pajarito
+es;Leal;El Leal
+es;Liberación;Ejido Liberación
+es;Mocorito;El Mocorito
+es;San Diego;Rancho San Diego
+es;El Cerrón;El Mirador
+es;Las Camelinas;La Camelina
+es;Timbinal;El Timbinal
+es;San Antonio;San Antonio de Padua
+es;El Sagrado Corazón;El Sagrado Corazón de Jesús
+es;La Providencia;Granja la Providencia
+es;Jacarandas;Rancho Jacarandas
+es;Los Hernández;Rancho los Hernández
+es;Reyes;Rancho Reyes
+es;Los López;Rancho los López
+es;Los Laureles;Los Laureles Dos
+es;San Rafael;Rancho San Rafael
+es;Guadalupe;Colonia Guadalupe
+es;Palmar;San Isidro del Palmar
+es;Los Álamos;San Francisco
+es;Brecha 116 con Kilómetro 99;Dieciocho de Marzo
+es;Brecha 116 entre Sur 95 y Sur 96;Dieciocho de Marzo
+es;María Villafranca;El Ramireño
+es;Leticia Martínez Valdez;El Pirul
+es;Anastasio de los Santos García;El Último Tirón
+es;Jesús Figueroa;Francisco Nicodemo
+es;Eusebio Figueroa;Francisco Nicodemo
+es;Socotroco;San Juan
+es;Juan Alonso;El Álamo
+es;Ulises Valdez;Rincón de las Bayas
+es;Güero Perla;El Cuete
+es;Marcelo González;Las Cuatrocientas
+es;Julián Cabrera;Las Cuatrocientas

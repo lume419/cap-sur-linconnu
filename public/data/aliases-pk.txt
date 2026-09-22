@@ -7325,3 +7325,4 @@ sr;Таксила;Taxila
 uk;Таксила;Taxila
 en;Daulat Khān Kili;Head Kalle
 en;Goth Tando Yousaf;Tando Yūsuf
+en;Goth Somār;Goth Sumar

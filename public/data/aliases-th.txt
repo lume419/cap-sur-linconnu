@@ -45072,3 +45072,6 @@ th;บ้านอาข่ากิ่วจำปี;Ban A-Kha Kio Champi
 th;บ้านหนองค่าน้อย;Ban Nong Kha Noi
 th;บ้านจะแบปะ;Ban Cha Bae Pa
 th;บ้านบางโศก;Ban Bang Sok
+th;บ้านน้ำจันทร์;Ban Nam Chan
+th;ประจักษ์ศิลปาคม;Ban Na Muang
+th;บ้านเล่าลี;Ban Lao Li

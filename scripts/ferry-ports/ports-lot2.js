@@ -15,7 +15,8 @@ module.exports = [
     } },
   { key: 'luzon|palawan', source: 'https://marina.gov.ph/wp-content/uploads/2026/04/Philippine-Nautical-Highway-Matrix-MAR-2026.pdf ; https://2go.com.ph/travel/book/sailing-schedule/ (Manila ↔ Puerto Princesa)',
     ports: {
-      luzon: [{ cc: 'PH', place: 'Manila' }],
+      // near : une seconde « Manila » existe à Mimaropa, 260 km au sud (voir ports-lot1.js).
+      luzon: [{ cc: 'PH', place: 'Manila', near: [14.60, 120.98] }],
       palawan: [{ cc: 'PH', place: 'Puerto Princesa', near: [9.74, 118.73] }]
     } },
   { key: 'palawan|panay', source: 'https://marina.gov.ph/wp-content/uploads/2026/04/Philippine-Nautical-Highway-Matrix-MAR-2026.pdf (Iloilo ↔ Puerto Princesa)',
@@ -185,7 +186,9 @@ module.exports = [
     } },
   { key: 'continental|sandwip', source: 'https://www.tbsnews.net/bangladesh/ferry-kapataksha-reaches-banshberia-ghat-after-8-hour-stranding-sandwip-route-1532136 ; https://www.tbsnews.net/bangladesh/transport/long-awaited-chattogram-sandwip-ferry-service-begins-operating-1100546 (Banshbaria ↔ Guptachhara (Sandwip))',
     ports: {
-      continental: [{ cc: 'BD', place: 'Banshbaria' }],
+      // near : une seconde « Banshbaria » existe dans la division de Khulna, 190 km à l'ouest ; celle-ci est sur la
+      // côte de Chittagong, face à Sandwip.
+      continental: [{ cc: 'BD', place: 'Banshbaria', near: [22.55, 91.68] }],
       sandwip: [{ cc: 'BD', place: 'Gupta Chara' }]
     } },
   { key: 'continental|ireland', source: 'https://www.stenaline.co.uk/routes/rosslare-cherbourg (Rosslare ↔ Cherbourg)',

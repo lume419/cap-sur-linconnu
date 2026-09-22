@@ -5709,3 +5709,6 @@ sq;Lajqi;Lajq
 sq;Shtuoci;Shtuoc
 sq;Bojnoviqi;Bojnoviq
 sq;Moisilova;Moisilovë
+sr;Стари Мираш;Mirash
+sr;Stari Maraš;Mirash
+sr;Suljović Mahala;Donja Dubnica

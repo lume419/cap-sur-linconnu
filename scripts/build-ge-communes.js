@@ -138,10 +138,15 @@ for(const e of rawEntries){
 
 // --- 5. Regroupement des lieux GeoNames par nom géorgien normalisé (plusieurs lieux distincts
 // peuvent partager le même nom, comme pour tout autre pays de ce pipeline). ---
+// NOM GÉORGIEN PLUS EXIGÉ (22/09/2026, demande de l'utilisateur : « on doit pouvoir les rechercher quand même si on
+// les connaît »). Le rapprochement avec l'annuaire postal se fait par le nom en écriture géorgienne — un lieu qui
+// n'en a pas ne peut donc pas recevoir de code. Mais il existe : il est publié, sans code, comme partout ailleurs
+// depuis le 21/09/2026. Les lieux SANS nom géorgien sont regroupés sous une clé qui ne correspondra à aucun code.
 const placesByKaKey = new Map();
+let sansNomGeorgien = 0;
 for(const p of places){
-  if(!p.ka) continue;
-  const key = norm(p.ka);
+  const key = p.ka ? norm(p.ka) : ' sans-nom-georgien|' + p.geonameid;
+  if(!p.ka) sansNomGeorgien++;
   if(!placesByKaKey.has(key)) placesByKaKey.set(key, []);
   placesByKaKey.get(key).push(p);
 }
@@ -193,7 +198,7 @@ matched++;
 const outPath = path.join(__dirname, '..', 'public', 'data', 'communes-ge.txt');
 fs.writeFileSync(outPath, dropNearDuplicates(lines).join('\n') + '\n', 'utf8'); // quasi-doublons (voir communes-corrections.js)
 fs.writeFileSync(path.join(__dirname, 'ge-canonical-by-geonameid.json'), JSON.stringify(canonicalByGeonameId), 'utf8');
-console.log('GE :', places.length, 'lieux bruts (classe P) ->', placesByKaKey.size, 'noms géorgiens distincts ->',
+console.log('GE :', places.length, 'lieux bruts (classe P) ->', placesByKaKey.size, 'groupes dont', sansNomGeorgien, 'lieux sans nom géorgien (publiés sans code) ->',
   lines.length, 'avec code postal (', matched, 'noms rapprochés, dont Tbilissi en cas spécial) ->', outPath);
 console.log(ambiguousNames.length, 'noms ÉCARTÉS car ambigus :');
 console.log(ambiguousNames.slice(0, 20).join('\n'));

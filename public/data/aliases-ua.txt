@@ -59516,3 +59516,14 @@ ru;Валуевка;Valuivka
 uk;Калинник;Kalynnyk
 ru;Калинник;Kalynnyk
 ru;Олександродар;Oleksandrodar
+pl;Narajów;Naraiv
+nn;Narajiv;Naraiv
+de;Narajiw;Naraiv
+ce;Нараев;Naraiv
+fi;Narajiv;Naraiv
+en;Narayiv;Naraiv
+zh;納拉伊夫;Naraiv
+es;Naráyiv;Naraiv
+nb;Narajiv;Naraiv
+he;נרייב;Naraiv
+ru;Боковое;Bokove

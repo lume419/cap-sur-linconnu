@@ -521,3 +521,2554 @@ nb;Tibnin;Tebnine
 fa;تبنين;Tebnine
 pl;Tibnin;Tebnine
 ur;تبنین;Tebnine
+ar;ذوق مصبح;Zouq Mosbeh
+ru;Зук-Мосбех;Zouq Mosbeh
+en;Zouk Mosbeh;Zouq Mosbeh
+it;Zouk Mosbeh;Zouq Mosbeh
+fa;ذوق مصبح;Zouq Mosbeh
+pl;Zuk Musbah;Zouq Mosbeh
+fr;Zouk Mosbeh;Zouq Mosbeh
+nl;Zouk Mosbeh;Zouq Mosbeh
+ar;ذوق مكايل;Zouq Mkayel
+ar;زلاية;Zellâya
+ar;زلحميا;Zélhmaya
+ar;زلحمايا;Zélhmaya
+ar;زكريت;Zakrît
+ar;زغرين;Zeghrine
+ar;زغدرايا العتيقة;Zeghdrâya El Aatîqa
+ar;زغدرايا;Zeghdrâya
+ar;زفتا;Zeftâ
+ar;زبقين;Zebqîne
+de;Zibqīn;Zebqîne
+en;Zibqīn;Zebqîne
+ar;زبدل;Zebdol
+ar;زبدين;Zebdîne
+ar;زحلتا;Zhilta
+ar;زغرتغرين;Zghartaghrîne
+ar;زغر بتغرين;Zghartaghrîne
+ar;زغرتا المتاولة;Zgharta el Mtâoulé
+ar;زغرتا;Zghartā
+ar;زيتون;Zeïtoûn
+ar;زيتا;Zeïta
+ar;زعيبر;Zaaïber
+ar;زوطر الشرقية;Zaoutar ech Charqîyé
+ar;زوطر الغربية;Zaoutar el Gharbîyé
+ar;الزرعون;Zaraaoûn
+ar;زردق;Zardeq
+ar;زرداق;Zardeq
+ar;زندوقة;Zandoûqa
+ar;زان;Zâne
+ar;زمار;Zoummar
+ar;زكرون;Zakroûn
+ar;زاهريّة;Zâhrîyé
+ar;زغلة;Zaghla
+ar;حاصبيّا الزغلا;Zaghla
+ar;الزغلا;Zaghla
+ar;زغلا;Zaghla
+ar;زبّوغة;Zabboûgha
+ar;يحمر البقاع;Yohmor el Beqâa
+ar;ياطر;Yâtar
+ar;يارون;Yâroun
+nb;Yarun;Yâroun
+fa;یارون;Yâroun
+pl;Jarun;Yâroun
+ur;یاروں;Yâroun
+he;יארון;Yâroun
+ar;ياريتا;Yârîta
+ar;يارين;Yârîne
+ar;يانوح;Yânoûh
+ar;ينطا;Yanta
+ar;ينطة;Yanta
+ar;يحشوش;Yahchoûch
+ar;وطى يوسف;Ouata Yoûssef
+ar;وطى طبرية;Ouata Tabriyé
+ar;طبرية;Ouata Tabriyé
+ar;وطى سلام;Ouata Sillâm
+ar;وطى منصور;Ouata Mansoûr
+ar;وطى حوب;Ouata Hoûb
+ar;وطى فارس;Ouata Fârès
+ar;وطى برّا;Ouata Barra
+ar;وطى المروج;Ouata el Mroûj
+ar;وطى الكلب;Ouata el Kalb
+ar;وطى الجوز;Ouata ej Jaouz
+ar;وطى البرج;Ouata el Borj
+ar;الوطى;Ouata el Borj
+ar;وطى البان;Ouata el Bène
+ar;وجه الحجر;Ouajh el Hajar
+ar;وادي شحرور;Ouadi Chahrour
+ar;وادي شاهين;Ouâdi Châhîne
+ar;وادي جزين;Ouâdi Jezzîne
+ar;وادي دردوريت;Ouâdi Dardoûrît
+ar;وادي بعنقودين;Ouâdi Baanqoûdaïn
+ar;وادي الزينة;Ouâdi ez Zeïni
+ar;وادي عين العليق;Ouâdi Aïn el Aallaïq
+ar;وادي الست;Ouâdi es Sitt
+ar;وادي النحلة;Ouâdi en Nahlé
+ar;وادي الليمون;Oudi el Laïmoûn
+ar;وادي الكرم;Ouâdi el Karm
+ar;وادي الدير;Ouâdi ed Deïr
+ar;عيون أرغوش;Aayoun Orghoush
+ar;أم توتة;Oum et Toût
+ar;أم التوت;Oum et Toût
+ar;عديسة;Aadaïssé
+ar;عبيدات;Aabeïdat
+ar;طورزيا;Tourzaïya
+ar;طورزا;Tourza
+ar;تربل;Tourbol
+ar;طورا;Toûra
+ar;تولين;Toûlîne
+ar;تولا;Toûla
+ar;تولا;Toulâ
+ar;تفاحتا;Teffâhtâ
+ar;طعيد;Taaïd
+ar;تحوم;Thoûm
+ar;Tuḩūm;Thoûm
+ar;ثلثاتة;Toultâta
+ar;طفيل;Tfaïl
+ar;الشهابية;Chehabiyé
+ar;طير زبنا;Chehabiyé
+ar;طير حرفا;Taïr Harfa
+ar;طير فلسية;Taïr Falsay
+ar;طير دِبا;Taïr Debbé
+ar;ترول;Tarouel
+ar;البرج;Tarouel
+ar;ترتج;Tartej
+ar;طريق الجديدة;Tariq ej Jdîdé
+ar;طاراي;Târây
+ar;تنورين التحتا;Tannoûrîne et Tahta
+ar;تنورين الفوقا;Tannoûrîne el Faouqa
+ar;تنّورة;Tannoûra
+ar;طنبوريت;Tanbourît
+ar;تعنايل;Taanâyel
+ar;طليا;Taliâ
+ar;زيتونة;Talssâ
+ar;طلسة;Talssâ
+ar;طلوسة;Talloûssa
+ar;تل زنوب الجديدة;Tall Ḏunūb al-Ǧadida
+ar;تل ذنوب الجديدة;Tall Ḏunūb al-Ǧadida
+en;Tall Dhunub Al Jadida;Tall Ḏunūb al-Ǧadida
+de;Tall Dhunub al-Dschadida;Tall Ḏunūb al-Ǧadida
+ar;تل زنوب;Tall Ḏunūb
+ar;تل ذنوب;Tall Ḏunūb
+de;Tall Dhunub;Tall Ḏunūb
+en;Tall Dhunub;Tall Ḏunūb
+ar;تل الزعتر;Tall ez Zaatar
+ar;تل الزعازع;Tell ez Zaazeaa
+ar;تل الأخضر;Tell el Akhdar
+ar;تعلبايا;Taalabâya
+ar;تحويطة الغدير;Tahouitet el Ghadîr
+ar;تحت القلعة;Taht el Qalaa
+ar;القلعة;Taht el Qalaa
+ar;طبرجا;Tabarja
+fa;طبرجا;Tabarja
+it;Tabarja - Kfaryassine;Tabarja
+pl;Tabardża;Tabarja
+ar;صورات;Soûrât
+ar;سوق الغرب;Souq el Gharb
+ar;سوق الفري;Souq el Firi
+ar;سلّم;Sollom
+ar;صليب بشعلة;Slaïyeb Bchaalé
+ar;قبيبات;Slaïyeb Bchaalé
+ar;مزرعة سوكرة;Soukkara
+ar;سجد;Séjoud
+ar;سحمر;Sohmor
+fa;سحمر;Sohmor
+he;סוחמור;Sohmor
+ar;صربين;Srobbîne
+ar;سرحمول;Srahmoul
+ar;سنية;Sanâya
+ar;سمار جبيل;Smâr Jbaïl
+ar;سرجبال;Serjbâl
+ar;سرعيتا;Seraaïta
+ar;سرعل;Seraaïl
+ar;سيران;Sîrâne
+ar;سير الغربية;Sîr el Gharbiyé
+ar;سير الضنية;Sîr ed Danniyé
+ar;سن الفيل;Sinn el Fil
+ar;سلفايا;Silfâya
+ar;سلعاتا;Selaâta
+ar;سلعا;Silaâ
+ar;صغار;Sghâr
+ar;سبرين;Sebrîne
+ar;سبنية;Sibnaï
+ar;سبعل;Sebaail
+ar;شويت;Chouît
+ar;شويّا;Chouaïya
+ar;شواتا;Chouâta
+ar;شوان;Chouâne
+ar;شوريت;Choûrît
+ar;شوكين;Choukîne
+ar;شتورة;Chtaura
+ar;شيرين;Cherîne
+ar;شقيف;Chqaïf
+ar;الشقيق;Chqaïf
+ar;شننعير;Chenan Aaïr
+ar;شمعرين;Chemhaarîne
+ar;شلوماص;Chloumâs
+ar;شير حميرين;Chîr Hmaïrîne
+ar;الشيخ حميرين;Chîr Hmaïrîne
+de;Schīr Humayrīn;Chîr Hmaïrîne
+en;Shīr Humayrīn;Chîr Hmaïrîne
+ar;شيرا;Chîra
+ar;شناتا;Chnâta
+ar;شنطا;Chnâta
+ar;شملان;Chemlâne
+ar;شخنيا;Chikhnaïya
+ar;شيخان;Chîkhâne
+ar;شيحين;Chîhîne
+ar;شبطين;Chabtîne
+ar;شعبية التحتا;Chaabiyet et Tahta
+ar;شعبية الفوقا;Chaabiyet el Faouqa
+ar;شعابية الفوقا;Chaabiyet el Faouqa
+ar;شبعا;Shebaa
+ar;شحور;Chehoûr
+ar;شحيم;Chhîm
+ar;شبيل;Chbaïl
+ar;الشواليق;Chouâlîq
+ar;شواليق;Chouâlîq
+ar;شاتين;Châtîne
+ar;شارون;Châroûn
+ar;شرتون;Chartoûn
+ar;شقرا;Chaqra
+ar;شقيف بطلّون;Chqîf Btalloûn
+ar;شانية;Chânaï
+ar;شمسين;Chamsîne
+ar;شموت;Chmoût
+ar;شمليخ;Chemlîkh
+ar;شامات;Châmât
+ar;شمع;Chamaa
+ar;شحتول;Chahtoûl
+ar;شحاحير;Chahâhîr
+ar;شبريخا;Chabrîha
+ar;شبريحا;Chabrîha
+ar;سفنتى;Sfenta
+ar;سفنتا;Sfenta
+ar;صفارية;Sfâray
+ar;صفاراي;Sfâray
+ar;صيدون;Saïdoûn
+ar;صوفر;Saoufar
+ar;صربا;Sarba
+ar;سقي رشميا;Saqi Rechmaïya
+ar;ساقية زيدان;Sâqiet Zaîdâne
+ar;ساقية المسك;Sāqiyyat al-Misk
+ar;ساقية الخيط;Sâqiet el Khaït
+ar;صنعالله;Sanaallah
+ar;صليما;Salîma
+ar;صلعة;Salaa
+ar;صخرة;Sakhra
+ar;قرية صخر;Sakhra
+ar;صحرة القش;Sahret el Qach
+ar;سهل علما;Sahêl Aalma
+ar;صغبين;Saghbîne
+ar;صفد البطيخ;Safad el Battîkh
+ar;سعد نايل;Saadnayel
+ar;سعدنايل;Saadnayel
+ar;سد البوشرية;Sadd el Baouchriyé
+ar;السبتية;Es Sabtiyé
+ar;سبلين;Siblîne
+ar;صبّاح;Sabbah
+ar;رومية;Roumiyé
+ar;رومية;Roumié
+ar;رومين;Roûmîne
+ar;رميش;Rmaych
+ar;روم;Roûm
+ar;رجوم;Rjoum
+ar;رويسات صوفر;Rouaïssat Saoufar
+ar;رويسات صليما;Rouaïssât Salîma
+ar;رويسة قبيع;Rouaïsset Qoubbeyaa
+ar;رويسة النعمان;Rouaïsset en Noaamane
+ar;رويسة البلوط;Rouaïsset el Balloût
+ar;رشاف;Rachâf
+en;Riyaq;Rayak
+ar;رياق;Rayak
+fa;ریاق، لبنان;Rayak
+mzn;ریاق;Rayak
+nn;Riyaq;Rayak
+no;Riyaq;Rayak
+sr;Рајак;Rayak
+uk;Райяк;Rayak
+pl;Rijak;Rayak
+zh;里亞格;Rayak
+ar;رعيت;Raïte
+ar;رشميا;Rechmaîya
+ar;رشكنانية;Recheknanây
+ar;رشكنناي;Recheknanây
+ar;رشكنانيه;Recheknanây
+ar;رشعين;Rachaaïne
+ar;رشدبين;Rechdibbîne
+ar;رمحالا;Remhâla
+ar;ريمات;Rimât
+ar;ريفون;Raïfoûn
+ar;رأس اوسطا;Râs Osta
+ar;رأس اسطا;Râs Osta
+ar;رأس أوسطا;Râs Osta
+ar;رأس نحاش;Râs Nhâch
+ar;رأس مسقا الشمالية;Râs Masqa ech Chimâlîyé
+ar;رأس مسقا الجنوبية;Râs Masqa ej Jenoûbîyé
+ar;رسم الحدث;Rasm el Hadeth
+ar;رأس كيفا;Râs Kîfa
+ar;راشكدة;Râchkiddé
+ar;راشكيدة;Rachkîda
+ar;رعشين;Raachîne
+ar;راشيا الفخار;Râchaïya el Foukhâr
+ar;راشانا;Râchâna
+ar;راشا;Râcha
+ar;رأس بعلبك;Râs Baalbek
+ar;راس المصري;Ra's al-Misri
+ar;رأس المصري;Ra's al-Misri
+ar;راس المتن;Râs el Metn
+ar;رأس الحرف;Râs el Harf
+ar;رأس العين;Râs el Aïn
+ar;رقلية;Reqlây
+ar;رامية;Râmîyé
+ar;رامية;Râmié
+ar;رامات;Râmât
+ar;رمادية;Rmâdîyé
+ar;رام;Râm
+ar;رب التلاتين;Rabb et Talatine
+ar;قوالة;Qouâlé
+ar;كوسايا;Qoussaya
+ar;قرنايل;Qornâyel
+ar;قرنة شهوان;Qornet Chahouâne
+ar;قرنة المرج;Qornet el Marj
+ar;Nīḩā;Qornet el Marj
+ar;نيحا;Qornet el Marj
+ar;قرنة الحمرا;Qornet el Hamra
+ar;قتالة;Qtâlé
+ar;قنيور;Qnaïouer
+ar;قنات;Qnât
+ar;قنعبة;El Qinnaabé
+ar;القنعبة;El Qinnaabé
+ar;قيعا;Qiyâa
+ar;قياعة;Qiyâa
+ar;قرطاضة;Qirtada
+ar;قرقريا;Qorqraïya
+ar;قلية;Qelia
+ar;قبرايا;Qebrâya
+ar;كبريا;Qebrâya
+ar;قبّيع;Qoubbeyaa
+ar;قيتولة;Qaïtoûlé
+ar;قصوبة;Assoûba
+ar;قصوبة;Qâssoûba
+ar;قرطبون;Qartaboûn
+ar;قرطبا;Qartaba
+mzn;قرطبه;Qartaba
+ru;Картаба;Qartaba
+fa;قرطبه;Qartaba
+ar;قرنعون;Qarnaoûn
+ar;قرة باش;Qarah Bâch
+ar;كره باش;Qarah Bâch
+ar;قعقعية الصنوبر;Qaaqaïet es Snaoubar
+ar;قعقعية الجسر;Qaaqaïet ej Jisr
+ar;قنّاريت;Qennârît
+ar;قلوية;Qalaouiyé
+ar;قلحات;Qalhât
+ar;قلعة طبّوش;Qalaat Tabboûch
+ar;قلعة سنيورة;Qalaat Sanioûra
+ar;قلعة معراب;Qalaat Maarâb
+fa;قعبرین;Qaabrîne
+ar;قبريخا;Qabrikha
+ar;قبر شمون;Qabrchmoun
+ar;قب إلياس;Qabb Eliâs
+ar;قاع الريم;Qâa er Rîm
+ar;نيحا;Nîha
+ar;نمّورة;Nammoûra
+ar;ناعمة الفوقا;Nâamet el Faouqa
+ar;نهر إبراهيم;Nahr Ibrâhîm
+ar;نهر الذهب;Nahr ed Dahab
+ar;نحلة;Nahlé
+ar;نفاخية;Naffâkhîyé
+ar;نابيه;Nabay
+ar;نهر الصفا;Nabaa es Safa
+ar;نبع العسل;Nabaa el Aassal
+ar;مطيريات;Mtaïrîyât
+ar;مرح كفر صغاب;Morh Kfar Sghâb
+ar;كفر صغاب;Morh Kfar Sghâb
+ar;المريجة;El Mrayjé
+ar;موليد;Moûlîd
+ar;بيت حسان;Moûlîd
+ar;المكلس;Mkallès
+ar;محيبيب;Mhaïbib
+ar;مغر الأحوال;Moghr el Ahoual
+ar;المدورة;El Mdaoura
+ar;مطللي;Mtoll
+ar;مشيخا;Mchîkha
+ar;مشان;Méchâne
+ar;مرستي;Mrousti
+ar;مليخ;Mlîkh
+ar;مزيارة;Miziâra
+ar;مزيارا;Miziâra
+ar;متريت;Metrît
+ar;مشمش;Mechmech
+ar;مشحلان;Mechhlêne
+ar;مرياطة;Meriâta
+ar;مرماتا;Mermâta
+ar;معراب;Maarâb
+ar;ميمس;Mîmess
+ar;معمرية الخراب;Maamârîyet el Kharâb
+ar;محقان المظلوم;Mihqâne el Mazloûm
+ar;محمرش;Mehmarch
+ar;مفتاح السلامة;Meftâh es Slâmé
+ar;مفتاح المير;Meftâh el Mîr
+ar;ميدان الزير;Maydān az Zayr
+ar;مدوخا;Mdoûkha
+ar;مضاميت;Mdâmît
+ar;مزرعة زغرين;Mazraat Zaghrîne
+ar;مزرعة زيتا;Mazraat Zeïta
+ar;مزرعة يشوع;Mazraat Yachouaa
+ar;مزرعة عقماتا;Mazraat Aaqmâta
+ar;مزرعة تول;Mazraat Toûl
+ar;مزرعة تبنا;Mazraat Tibnâ
+ar;مزرعة سيني;Mazraat Sinaï
+ar;مزرعة شلبعل;Mazraat Châl Baal
+ar;مزرعة سردا;Mazraat Sarada
+ar;مزرعة رأس البيدر;Mazraat Râs el Baïdar
+ar;مزرعة قروح;Mazraat Qrouh
+ar;مزرعة نحولة;Mazraat Nahhoûlé
+ar;مزرعة لوزيد;Mazraat Louzîd
+ar;مزرعة خلة خازن;Mazraat Khallet Khâzene
+ar;مزرعة خفيشة;Mazraat Khafîché
+ar;مزرعة كوترية الرز;Mazraat Kaoutariyet er Rizz
+ar;مزرعة كوثرية;Mazraat Kaoutariyet er Rizz
+ar;مزرعة كساب;Mazraat Kassâb
+ar;بيت كساب;Mazraat Kassâb
+ar;مزرعة كفر بدّا;Mazraat Kfar Badda
+ar;مزرعة كفرا;Mazraat Kafrâ
+ar;مزرعة جنجلايا;Mazraat Jinjlâya
+ar;مزرعة جمجيم;Mazraat Jamjîm
+ar;مزرعة جعفر;Jaafar
+ar;جعفر;Jaafar
+ar;مزرعة إسلامية;Mazraat Islamiyé
+ar;مزرعة حنوش;Mazraat Hannoûch
+ar;حنوش;Mazraat Hannoûch
+ar;مزرعة دمول;Mazraat Dmoûl
+ar;مزرعة دير تقلا;Mazraat Deïr Taqla
+ar;مزرعة دير حنا;Mazraat Deïr Hanna
+ar;مزرعة دير العشاير;Mazraat Deïr el Aachâyer
+ar;مزرعة دجاج;Mazraat Djâj
+ar;مزرعة بصفّور;Mazraat Bsaffoûr
+ar;مزرعة براك التل;Mazraat Brâk et Tall
+ar;مزرعة بني صعب;Mazraat Bani Saab
+ar;مزرعة البرغوتية;Mazraat ez Zaaroûrîyé
+ar;مزرعة الزعرورية;Mazraat ez Zaaroûrîyé
+ar;مزرعة الزلوطية;Mazraat ez Zalloûtîyé
+ar;الزلوطية;Mazraat ez Zalloûtîyé
+ar;مزرعة عزّي;Mazraat Aazzi
+ar;عيًة;Mazraat Aaïyé
+ar;مزرعة عية;Mazraat Aaïyé
+ar;مزرعة عين قنية;Mazraat Aïn Qeniyé
+ar;مزرعة عين بو صوار;Mazraat Aïn Bou Souâr
+ar;مزرعة عين القنطرة;Mazraat Aïn el Qantara
+ar;مزرعة التفاح;Mazraat et Teffâh
+ar;الطيبة;Mazraat et Taïbé
+ar;مزرعة الظيبة;Mazraat et Taïbé
+ar;مزرعة السويري;Mazraat es Souaïri
+ar;مزرعة السنيبر;Mazraat es Snaïber
+ar;مزرعة الصنيبر;Mazraat es Snaïber
+ar;مزرعة السياد;Mazraat es Sîyâd
+ar;الرميلة;Mazraat es Sîyâd
+ar;مزرعة السكونية;Mazraat es Saknoûniyé
+ar;مزرعة السكنونية;Mazraat es Saknoûniyé
+ar;مزرعة السكنية;Mazraat es Sakanîyé
+ar;مزرعة الصفاري;Mazraat es Safâri
+ar;مزرعة عساف;Mazraat Aassâf
+ar;مزرعة الشميسة;Mazraat ech Chamîssé
+ar;مزرعة الشوف;Mazraat ech Choûf
+ar;مزرعة الرهبان;Mazraat er Rouhbâne
+ar;مزرعة عرب سكر;Mazraat Aarab Soukkar
+ar;مزرعة النهر;Mazraat en Nahr
+ar;بين النهرين;Mazraat en Nahr
+ar;نبي قاسم;Nabi Qâssem
+ar;الوسيطة;Mazraat el Oussaïta
+ar;مزرعة الوسيطى;Mazraat el Oussaïta
+ar;مزرعة الوازعية;Mazraat el Ouazaaïyé
+ar;مزرعة الواسطة;Mazraat el Ouâsta
+ar;مزرعة الوادي;Mazraat el Ouadi
+ar;مزرعة العرقوب;Mazraat el Aarqoûb
+ar;مزرعة القرية;Mazraat el Qraïyé
+ar;مزرعة القنيطرة;Mazraat el Qnaïtra
+ar;مزرعة المشرف;Mazraat el Michrif
+ar;مزرعة المصيلح;Mazraat el Mseïleh
+ar;مزرعة المطحنة;Mazraat el Mathané
+ar;مزرعة المنحلة;Mazraat el Manhali
+ar;مزرعة المنخلة;Mazraat el Manhali
+ar;مزرعة الخريبة;Mazraat el Khraïbé
+ar;مزرعة خيزران;Mazraat Khaïzarâne
+ar;مزرعة الجميل;Mazraat ej Jmayel
+ar;مزرعة الجوانية;Mazraat ej Joûdîyé
+ar;مزرعة الجوديّة;Mazraat ej Joûdîyé
+ar;مزرعة علي الطاهر;Mazraat Aali et Tâher
+ar;مزرعة حميلة;Mazraat el Hmaïlé
+ar;مزرعة الحميلة;Mazraat el Hmaïlé
+ar;مزرعة الحمرا;Mazraat el Hamra
+ar;مزرعة الحاج خليل;Mazraat el Hajj Khalîl
+ar;مزرعة البتدينية;Mazraat el Btadînîyé
+ar;مزرعة البيّاض;Mazraat Biyâd
+ar;مزرعة العين;Mazraat el Aïn
+ar;مزرعة العاقبية;Mazraat el Aâqbîyé
+ar;مزرعة عبودية;Mazraat Aabboûdîyé
+ar;مزرعة عاضور;Mazraat Aâdoûr
+ar;مزرعة أدونيس;Mazraat Adonis
+ar;مزرعة الداوودية;Mazraat ed Daoudîyé
+ar;مزرعة الداودية;Mazraat ed Daoudîyé
+ar;مزرعة الداودية;Mazraat ed Dâoudîyé
+ar;دحيرجات;Dehayrjate
+ar;مزرعة الضهر;Mazraat ed Dahr
+ar;مزرعة أبي نادر;Mazraat Abi Nâder
+ar;مزمورة;Mazmoûra
+ar;مزبود;Mazboûd
+ar;معيتيق;Maaïtîq
+ar;الميسات;Maïssate
+ar;ميس الجبل;Meïss ej Jabal
+ar;ميروبا;Maïroûba
+ar;ميروبة;Maïroûba
+ar;ميفوق;Maïfoûq
+ar;ميفدون;Maïfadoûn
+ar;ميدون;Maïdoûn
+ar;مطرية الشومار;Matarîyet ech Choûmar
+ar;مستيتا;Mastîtâ
+ar;معصريتي;Maasrîti
+ar;مسرح;Masrah
+ar;معشوق;Maʿšūq
+en;Maʿshūq;Maʿšūq
+de;Maʿschūq;Maʿšūq
+ar;مشتى العزية;Machta el Izzîyé
+ar;مشقيتي;Mechqîti
+ar;مشموشة;Machmoûché
+ar;مشغرة;Machghara
+ar;مزرعة مشاتي;Mchâté
+ar;معسراتي;Maassarâtī
+ar;مار يوسف;Mâr Yoûssef
+ar;مرواحين;Marouâhîne
+ar;ماروس التحتانية;Maroûs el Barranîyé
+ar;مروس البرانية;Maroûs el Barranîyé
+ar;مارون الرأس;Maroun er Ras
+ar;مارون الراس;Maroun er Ras
+ar;معروب;Maaroûb
+ar;مار تقلا;Mâr Taqla
+ar;مار شينا;Mâr Chaînâ
+ar;مار موسى;Mâr Moûssa
+ar;مار مخايل;Mâr Mkhâyel
+ar;مار جبرايل;Mâr Mkhâyel
+ar;مار ماما;Mâr Mâma
+ar;مركبتا;Merkebta
+ar;مركبا;Markaba
+bg;Маркаба;Markaba
+fa;مرکبا;Markaba
+he;מרכבא;Markaba
+ar;مرج كترمايا;Marj Ketermâya
+ar;مرجعيون;Marjayoun
+en;Marj 'Ayoun;Marjayoun
+de;Mardsch Uyun;Marjayoun
+hr;Mardž Ujun;Marjayoun
+he;מרג' עיון;Marjayoun
+el;Μαρζαγιούν;Marjayoun
+ru;Марджъуюн;Marjayoun
+pl;Mardż Ujun;Marjayoun
+ar;مرج السماح;Marj es Samâh
+ar;مرج علي;Marj Aali
+ar;مار إلياس;Mâr Eliâs
+ar;مار الياس;Mar Eliâs
+ar;مار ضومط;Mâr Doûmit
+ar;مار بطرس;Mâr Boutros
+ar;معركة;Maaraké
+ar;مراح الزيات;Mrah ez Ziyât
+ar;مراح الطيط;Mrâh et Tît
+ar;مراح السريج;Mrâh es Sraïj
+ar;مراح صغير;Mrâh Sghîr
+ar;حمار صغير;Mrâh Sghîr
+ar;مراح القاطع;Marāḩ al Qāţi‘
+ar;مراح المير;Mrâh el Mîr
+ar;مراح الحاج;Mrâh el Hajj
+ar;مراح الحباس;Mrâh el Habâs
+ar;مراح أبو شديد;Mrâh Abou Chdîd
+ar;معربون;Maaraboûn
+ar;مقصبة;Maqsaba
+ar;مقنة;Maqné
+ar;ملحون;Malhoûn
+ar;مكسة;Maksé
+ar;المجذوب;El Majzoub
+ar;مجدل زون;Majdel Zoûn
+ar;مجدليون;Mejdelyoûn
+ar;مجدلونا;Majdaloûna
+ar;مجدل سلم;Majdel Selm
+ar;مجدلبعنا;Majdel Baana
+ar;مجدل بلهيص;Majdal Balhîss
+ar;مجدليا;Majdlaya
+ar;مجدليا;Majdlaïya
+ar;مجدل عنجر;Majdel Aanjar
+ar;مجدل المعوش;Majd el Méouch
+ar;مغارة الشيخ;Mghâret ech Cheïkh
+ar;معاد;Maad
+ar;معاصر بيت الدين;Maâsser Beït ed Dîne
+ar;معاصر الشوف;Māâsser ech Choûf
+ar;لوسي;Loûssi
+ar;اللوبية;El Loûbié
+ar;لحفد;Lehfed
+ar;لبّايا;Libbâya
+ar;لبعة;Lebaâ
+ar;لبعا;Lebaâ
+ar;رأس اللوزة;Râs el Laouzé
+ar;لاسا;Lâssa
+ar;لالا;Lâla
+ar;كوسبا;Koûsba
+ar;كروم الفواقة;Kroûm el Fouâqa
+ar;كروم الضيعة;Kroûm ed Daïaa
+ar;كور الهوى;Koûr el Haoua
+ar;كور الهوا;Koûr el Haoua
+ar;كور;Koûr
+ar;كونين;Kounine
+ar;كوكدان;Koûkdâne
+ar;Kūkīn;Koûkdâne
+ar;كوكين;Koûkdâne
+ar;كفور العربة;Kfoûr el Aarbé
+ar;كفور العربي;Kfoûr el Aarbé
+ar;كفير الزيت;Kfaïr ez Zaït
+ar;كبا;Koubba
+ar;كسار المشرقة;Ksâr el Mechrqé
+ar;الكسار;Ksâr el Mechrqé
+ar;كسار الحنش;Ksâr el Hanach
+ar;كسار العبد;Ksâr el Aabed
+ar;كسارة;Ksâra
+ar;كليلي;Klîlaïyé
+ar;كترمايا;Ketermâya
+ar;كلش;Kélech
+ar;كلباتا;Kelbâtâ
+ar;كفريا;Kifraïya
+ar;كفريّا;Kefraïya
+ar;خزيز;Khzaïz
+ar;خمّارة جريصاتي;Khommâret Jraïssâti
+ar;خربة سلم;Khirbet Selm
+fa;خربت سلم;Khirbet Selm
+fr;Kherbet Selm;Khirbet Selm
+ar;خربة روحا;Khirbet Roûha
+ar;خربة قنفار;Khirbet Qanafâr
+ar;خربة عين القناطر;Khirbat ‘Ayn al Qanāţir
+ar;خربة العدس;Khirbet el Aadess
+ar;خربة الدوير;Kherbet ed Douaïr
+ar;خربة الدوير;Khirbet ed Dwayr
+ar;خزان صوفر;Khazzâne Saoufar
+ar;خرطوم;Khartoûm
+ar;خندق التحتا;Khandaq et Tahta
+ar;خندق;Khandaq
+ar;مونسة;Mounsé
+ar;خلة المتين;Khallet el Mtaïn
+ar;الرويسة;Rouaïssé
+ar;خلوات البياضة;Khalouât el Baïyâda
+ar;خعبيا;Khaabîya
+ar;كفون;Kfoûn
+ar;كفيفان;Kfifâne
+ar;كيفون;Kaïfoun
+ar;كوترية السياد;Kaoutariet es Siyâd
+ar;كوكبا بو عرب;Kawkabā Bū ‘Arab
+ar;كوكبا;Kaoukaba
+ar;كرم سدة;Karm Saddé
+ar;كرم المهر;Karm al Mahr
+ar;كرخا;Karkha
+de;Tell Kāmid el-Lōz;Kâmed el Lôz
+en;Kamid al lawz;Kâmed el Lôz
+fr;Kamid el-Loz;Kâmed el Lôz
+ar;كامد اللوز;Kâmed el Lôz
+he;כאמד א-לוז;Kâmed el Lôz
+nn;Kamed Al Lawz;Kâmed el Lôz
+ar;كفتون;Kaftoûn
+ar;كفر زبونا;Kfar Zboûna
+ar;كفر زينا;Kfar Zaïna
+ar;كفر زينة;Kfar Zaïna
+fr;Kafar Zabad;Kfar Zabad
+ar;كفر زبد;Kfar Zabad
+ar;كفر ياسين;Kfar Yâssîne
+ar;كفر ياشيت;Kfar Yâchît
+ar;كفروة;Kfaroué
+ar;كفر عقاب;Kfar Aaqâb
+ar;كفر عبيدا;Kfar Aabîda
+ar;كفر تبنيت;Kfar Tibnît
+ar;كفر تعلا;Kfar Taala
+ar;كفر صير;Kfar Sîr
+ar;كفر شليمان;Kfar Chlaïmâne
+ar;كفر شيما;Kfarchima
+ar;كفر شلان;Kfar Chellâne
+ar;كفر شلال;Kfar Chellâl
+ar;كفر شلة;Kfarchillé
+ar;كفر شيلي;Kfarchillé
+ar;كفر شخي;Kfar Chkhi
+ar;كفر شخة;Kfar Chkhi
+ar;كفر شخنا;Kfar Chakhna
+ar;كفر شبوح;Kfar Chaboûh
+ar;كفر صغاب;Kfar Sghâb
+ar;كفر صارون;Kfar Sâroûn
+ar;كفر صارون;Kfarsâroûn
+ar;كفر سالة;Kfar Sâlé
+ar;كفر سال;Kfar Sâlé
+ar;كفر رمّان;Kfar Roummâne
+ar;كفر قواص;Kfar Qaouâss
+ar;كفر قوق;Kfar Qoûq
+ar;كفر قطرة;Kfar Qatra
+ar;كفر قطرا;Kfar Qatra
+ar;كفر قطره;Kfar Qatra
+ar;كفرقطرة;Kfar Qatra
+ar;قطارة;Kfar Qatra
+ar;كفر قاهل;Kfar Qâhel
+ar;كفر نيس;Kfar Nîss
+ar;كفر نبرخ;Kfar Nabrakh
+ar;كفر مشكي;Kfarmechkî
+ar;كفر ملكي;Kfar Melké
+ar;كفر ملكا;Kfar Melké
+ar;كفر متى;Kfar Matta
+ar;كفر متا;Kfar Matta
+ar;كفرمتى;Kfar Matta
+ar;كفر مسحون;Kfar Mashoûn
+ar;كفر كدة;Kfar Kiddé
+ar;كفر كخلي;Kfar Kikhlé
+ar;كفر كلا;Kfar Kikhlé
+ar;كفر جريف;Kfar Jrîf
+ar;كفر جوز;Kfar Jaouz
+ar;كفر جرّة;Kfar Jarra
+ar;كفر حونة;Kfar Hoûné
+ar;كفر حيم;Kfar Hîm
+ar;كفر حلدا;Kfar Hilda
+ar;كفر حلدة;Kfar Hilda
+ar;كفر حباب;Kfar Hbâb
+ar;كفر حزير;Kfar Hazîr
+ar;كفر حي;Kfar Haï
+ar;كفر حورا;Kfar Haoura
+ar;كفر حتى;Kfar Hatta
+ar;كفر حتا;Kfar Hitta
+ar;كفر حتنا;Kfar Hatna
+ar;كفر حاتا;Kfar Hâta
+ar;كفر حاتا;Kfar Hâtâ
+ar;كفر حمل;Kfar Hamel
+ar;كفر حمام;Kfar Hamâm
+ar;كفر حبو;Kafr Haboū
+ar;كفر فو;Kfarfou
+fa;كفرفو;Kfarfou
+ar;كفر فيلا;Kfar Fîla
+ar;كفر فاقود;Kfar Fâqoûd
+ar;كفر فالوس;Kfar Fâloûs
+ar;كفر دونين;Kfar Doûnîne
+ar;كفر دلاقوس;Kfar Dlâqos
+ar;كفر دلاقس;Kfar Dlâqos
+ar;كفر دجال;Kfar Dajjâl
+ar;كفر دنيس;Kfardenîs
+ar;كفر دبش;Kafr Dabash
+ar;كفردبش;Kafr Dabash
+de;Kafr Dabasch;Kafr Dabash
+ar;كفر بيت;Kfar Beït
+ar;كفر بعال;Kfar Baâl
+ar;كفريا;Kafraïya
+ar;كفر عص;Kfar Aass
+ar;كفر عقا;Kfar Aaqqa
+ar;كفر عميه;Kfar Aammaï
+ar;كفرة;Kafra
+ar;كفرا;Kafra
+ar;كاف الملول;Kâf el Malloûl
+ar;كهف الملول;Kâf el Malloûl
+ar;كعبوش;Kaaboûch
+ar;جويا;Jouaïya
+mzn;جویا;Jouaïya
+ru;Джувай;Jouaïya
+en;Jwaya;Jouaïya
+fa;جویا، لبنان;Jouaïya
+it;Jwaya;Jouaïya
+fr;Jwaya;Jouaïya
+nl;Jwaya;Jouaïya
+ar;جرنايا;Jernâya
+ar;جورة معلّى;Jouret Maalla
+ar;جورة بدران;Joûret Bedrâne
+ar;جورة الترمس;Joûret et Termos
+ar;جورة أرصون;Joûret Arsoûn
+ar;جورة القطين;Jouret el Qattîne
+ar;جورة مهاد;Joûret Mhâd
+ar;جورة البلّوط;Joûret el Balloût
+ar;جنجل;Jinjol
+ar;جون;Joûn
+ar;الجمهور;Jamhour
+ar;جميجمة;Jmaïjmé
+ar;جديدة غزير;Jdaïdet Ghazîr
+ar;جديدة الشوف;Jdaïdet ech Choûf
+ar;جب جنين;Joubb Jannîne
+ar;جب فرح;Jebb Farah
+ar;جب الغبرا;Joubb el Ghabra
+ar;جران الحارة;Jrane el Hâra
+ar;جران;Jrâne
+ar;جربتا;Jrabtâ
+ar;جربتا;Jrabta
+ar;جليسة;Jlaïssi
+ar;الجليسة;Jlaïssi
+ar;جور السوس;Jouâr es Souss
+ar;جوار النخل;Jouâr en Nakhl
+ar;جوار الحشيش;Jouâr el Hachîch
+ar;جعيتا;Jiîta
+ar;جسر القاضي;Jisr al Qâdi
+ar;جسر المصري;Jisr el Misri
+ar;جسر الباشا;Jisr el Bacha
+ar;جسر الدجاج;Jesr ed Djêj
+ar;جنسنايا;Jinsnâya
+ar;جناتا;Jennâta
+ar;جبشيت;Jibchît
+nn;Jebchit;Jibchît
+en;Jebchit;Jibchît
+it;Jebchit;Jibchît
+fa;جبشیت;Jibchît
+fr;Jebchit;Jibchît
+he;ג'בשית;Jibchît
+nl;Jebchit;Jibchît
+ar;جبلي;Jiblayé
+ar;جبلا;Jibla
+ar;جبال البطم;Jbâl el Botm
+ar;جديتا;Jdîta
+ar;جباع الشوف;Jbâa ech Choûf
+ar;جباع;Jbâa
+ar;جزين;Jezzine
+hr;Džezin;Jezzine
+he;ג'זין;Jezzine
+fa;جزین;Jezzine
+ru;Джеззин;Jezzine
+ar;الزاير;Ez Zayer
+ar;الجزاير;Ez Zayer
+ar;جرجور;Jarjoûr
+ar;فرجة;Jarjoûr
+ar;جرجوع;Jarjoûaa
+ar;جنة;Janné
+ar;جمجيم التحتا;Jamjîm et Tahta
+ar;جل ناشي;Jall Nachi
+ar;جل بو حيدر;Jall Bou Haïdar
+ar;جل البحر;Jall el Bahr
+ar;جل الديب;Jall Al Dieb
+ar;جلاب الفوقا;Jellab el Faouqa
+ar;جلاب;Jellab el Faouqa
+ar;جلالا;Jalâla
+ar;جاج;Jâj
+ar;جدرا;Jadra
+ar;جدايل;Jeddâyel
+ar;عز العرب;Aaz el Arab
+ar;عزة;Aazzé
+ar;إيزال;Izâl
+ar;عترين;Aatrîne
+ar;عشاش;Aachâch
+ar;أرزي;Arzaï
+ar;أرنيا;Ernaya
+ar;قرنايا;Ernaya
+ar;عرنبا;Aarnâba
+ar;عرنابة;Aarnâba
+ar;إركي;Erkay
+ar;عنايا;Aannâya
+ar;أجد عبرين;Ijd Aabrîne
+ar;إجدبرا;Ijdabrâ
+ar;إهمج;Ehmej
+ar;إهدن;Ehden
+ru;Эден;Ehden
+fa;اهدن;Ehden
+pl;Ihdan;Ehden
+he;אהדן;Ehden
+ar;إدة;Eddé
+ar;عبرين;Aabrîne
+ar;إبل السقي;Ebel es Saqi
+ar;إيعات;Îaât
+ar;إيعال;Iaal
+ar;حصنا;Hosna
+ar;حشمش;Hoshmosh
+ar;حريقص;Hraïqess
+ar;حوراتا;Hourâtâ
+ar;حومين التحتا;Hoûmîne et Tahta
+ar;حومين الفوقا;Hoûmîne el Faouqa
+ar;حميري;Hmaïrî
+ar;حومال;Houmâl
+ar;حولا;Houla
+ar;حبيشية;Hbeïchîyé
+ar;جيشية;Hbeïchîyé
+ar;حميص;Hmaïss
+ar;حجولا;Hjoûla
+ar;حصرايل;Hosrâyel
+ar;حصن عار;Hosn Aâr
+ar;حصارات;Hsârât
+ar;حملايا;Hemlâya
+ar;حلتا;Helta
+fa;حلتا;Helta
+ar;حدشات;Hidchêt
+ar;حدشت;Hidchêt
+ar;الهديني;El Hdaïnï
+ar;هدينة;El Hdaïnï
+ar;حبالين;Hbêlîne
+ar;حزرتا;Hazerta
+ar;حي سيدة مرتين;Haï Saïdet Martine
+ar;حي سيدة النشيف;Haï Saïdet en Nchîf
+ar;النشيف;Haï Saïdet en Nchîf
+ar;حي صبرا;Haï Sabra
+ar;حي مار تقلا;Haï Mâr Taqlâ
+ar;حي مار سابا;Haï Mâr Saba
+ar;حي مار إلياس;Haï Mâr Eliâs
+ar;حي بير ناصر;Hay Bir Nasser
+ar;حياطة;Hiyâta
+ar;حي الشامي;Haï ech Châmi
+ar;حي الشبّوق;Haï ech Chabboûq
+ar;حي المسلخ;Hay el Maslakh
+ar;حي الجامع;Haï ej Jamia
+ar;حي الجامع;Haï ej Jâmia
+ar;حي الفوقا;Haï el Faouqa
+ar;علمات الجنوبية;Haï el Faouqa
+ar;حي البعلبكية;Haï el Baalbakié
+ar;حي العربة;Haï el Aarbé
+ar;حي العقبة;Haï el Aaqbi
+ar;حي الدهيني;Haï ed Dhaïni
+ar;حي الضهر;Haï ed Dahr
+ar;حيطورا;Haïtoura
+ar;حيتولة;Haïtoûlé
+ar;حيلان;Haïlâne
+ar;حيلان;Hillêne
+ar;هداب;Hidâb
+ar;حوش قيصر;Haouch Qaïssar
+ar;حوش الحريمة;Haouch el Harîmé
+ar;حوش حريمة;Haouch el Harîmé
+ar;حوش الدبس;Haouch ed Dibs
+ar;حورة;Houra
+ar;حصورت;Hasroût
+ar;حصرون الجديدة;Hasroûn ej Jdîdé
+ar;حصرون;Hasroûn
+ar;حاصبيّا;Hâsbaïya
+en;Hasbeiya;Hasbaya
+ar;حاصبيا;Hasbaya
+hr;Hasbaja;Hasbaya
+he;חאצביא;Hasbaya
+ru;Хасбайя;Hasbaya
+fa;حاصبیا;Hasbaya
+ar;هارون;Haroûn
+ar;حاروف;Hâroûf
+ar;حرشا;Harcha
+ar;خريصا;Harîssa
+ar;الحريصة;Harîssa
+ar;حريصا;Harîssa
+ar;حاريص;Hâriîs
+ar;حريق الكفور;Hrîq el Kfoûr
+ar;الكفور;Hrîq el Kfoûr
+ar;حاربي;Hârîbi
+ar;حرف مزيارة;Harf Miziâra
+ar;الحرف;Harf Miziâra
+ar;حرف حزير;Harf Hzîr
+ar;حرف أردة;Harf Ardé
+ar;حردين;Hardîne
+ar;حربونة;Harboûna
+ar;حارة جندل;Hâret Jandal
+ar;حارة حريك;Haret Hreïk
+ar;حارة حمزة;Hâret Hamzé
+ar;حارة بيت ماضي;Hâret Beït Mâdi
+ar;حارة بعاصير;Hâret Baassîr
+ar;حارة التحتا;Hâret et Tahta
+ar;حارة السدري;Haret es Sidri
+ar;حارة صخر;Hâret Sakhr
+ar;حارة الناعمة;Hâret en Nâamé
+ar;حارة النبع;Hâret en Nabaa
+ar;حارة الواسطة;Hâret el Ouâsta
+ar;حارة المغاير;Haret el Mghayèr
+ar;حارة المعبد;Haret el Maabad
+ar;حارة الخسة;Hâret el Khassé
+ar;حارة الخالصة;Hâret el Khassé
+ar;حارة;Hâret el Knissé
+ar;حارة الجديدة;Hâret ej Jdîdé
+ar;حارة الحجر;Hâret el Hajar
+ar;حارة الفوقا;Hâret el Faouqâ
+ar;حارة البطم;Haret el Botm
+ar;حارة البستان;Hâret el Boustâne
+ar;حارة البيادر;Hâret el Bayâder
+ar;حارة البيادر;Hâret el Biyâder
+ar;حارة البلان;Haret el Béllané
+ar;حقل حسن;Haql Hassan
+ar;حقلة التينة;Haqlet et Tîné
+ar;حقل الريس;Haql er Rayess
+ar;حقل العين;Haql el Aïn
+ar;حاقل;Hâqel
+ar;حناوية;Hanâouây
+ar;حانين;Hanïne
+ar;حمّارة;Hammâra
+ar;المنارة;Hammâra
+ar;حمّانا;Hammâna
+ar;حمادية;Hammâdîyé
+ar;حامات;Hâmât
+ar;حام;Hâm
+ar;هليونة;Halioûnet et Tahta
+ar;هليونة التحتا;Halioûnet et Tahta
+ar;هليونة;Halîoûnet el Faouqa
+ar;هليونة الفوقا;Halîoûnet el Faouqa
+ar;حلتا الفوقا;Hilta el Faouqa
+ar;حلوسية التحتا;Halloûssîyet et Tahta
+ar;حلوسية الفوقا;Halloûssîyet el Faouqa
+ar;حالات;Hâlât
+ar;عين حالا;Aïn Hâla
+ar;حفة بو حجلي;Haffet Bou Hajli
+ar;حافة الحجل;Haffet el Hajal
+ar;حفة الحجل;Haffet el Hajal
+ar;حدتون;Hadtoûn
+ar;حدشيت;Hadchît
+ar;حداثا;Haddatha
+it;Hdatha;Haddatha
+fa;حداثا;Haddatha
+he;חדאת'א;Haddatha
+ar;حدث الجبة;Hadet ej Jobbé
+ar;حبرمون;Habramoûn
+ar;هابيل;Hâbîl
+ar;حبوب;Hboûb
+ar;Ḩubūb;Hboûb
+ar;غوسطا;Ghosta
+ar;غوما;Ghoûmâ
+ar;غدراس;Ghidrâs
+ar;غبالة;Ghbâlé
+ar;غبالين;Ghbâlîne
+ar;غزة;Ghazzé
+ar;غزير;Ghazîr
+ar;غسانيّة;Ghassânîyé
+ar;غرزوز;Gharzoûz
+ar;غريفة;Gharîfé
+ar;غرفين;Ghorfîne
+ar;غندورية;Ghandoûriyé
+ar;غلبون;Ghalboûn
+ar;غابة بولونيا;Bois de Boulogne
+ar;فتيحات القرقوف;Ftaïhât el Qarqoûf
+ar;فرن الشباك;Forn ech Chebbak
+ar;فرون;Froûn
+ar;فراط;Frât
+ar;Furāţ;Frât
+ar;فنيوان;Fnîouêne
+ar;فنيون;Fnîouêne
+ar;فوترا;Foûtra
+ar;Fūtrā;Foûtra
+ar;فترا;Foûtra
+ar;فرحت;Ferhet
+ar;فيع;Fîaa
+nn;Fih i Libanon;Fîaa
+en;Fih;Fîaa
+it;Fih;Fîaa
+fa;فیع;Fîaa
+nl;Fih;Fîaa
+ar;فغال;Fghâl
+ar;فيطرون;Faïtroûn
+ar;عين الفوار;Aïn el Faouâr
+ar;فتقا;Fatqâ
+ar;فاريا;Faraiya
+nn;Faraya;Faraiya
+en;Faraya;Faraiya
+it;Faraya;Faraiya
+fr;Faraya;Faraiya
+es;Faraya;Faraiya
+hy;Ֆարայա;Faraiya
+fa;فارايا;Faraiya
+nl;Faraya;Faraiya
+tr;Faraya;Faraiya
+ar;فاقوس;Fâqoûs
+ar;فالوغا;Fâloûqha
+ar;فخارة;Fkhâra
+ar;فدار التحتا;Fdâr et Tahta
+ar;فيدار التحتا;Fdâr et Tahta
+ar;فدار الفوقا;Fdâr el Faouqa
+ar;فيدار الفوقا;Fdâr el Faouqa
+ar;دوير الرمان;Doueïr er Roummane
+ar;دوير;Douaïr el Hâra
+ar;دوير الحارة;Douaïr el Hâra
+ar;دوير;Douaïr ed Debbîyé
+ar;دوير الدبيّة;Douaïr ed Debbîyé
+ar;دوما;Doûma
+ar;دليبة;Dlaïbé
+ar;دكان الضهر;Dekkâne ed Dahr
+ar;ضهور درب السيم;Dhoûr Darb es Sîm
+ar;ضهور برمّانا;Dhoûr Broummâna
+ar;ضهور عين الحور;Dahr Aïn el Haour
+ar;ضهر عين الحور;Dahr Aïn el Haour
+ar;ضهور الشوير;Dhoûr ech Choueïr
+ar;ضهور العبادية;Dhoûr el Aabâdîyé
+ar;دقون;Daqqoun
+ar;دميت الجوانية;Dmît ej Jouânîyé
+ar;دميت البرانية;Dmît el Berrânîyé
+ar;دملصا;Dmalsâ
+ar;دلبتا;Dlebta
+ar;دريا;Diria
+ar;دردغيا;Derdghaya
+ar;ديك المحدي;Dîk el Mehdi
+ar;ددة;Deddé
+ar;دبل;Débel
+ar;دبين;Dibbîne
+ar;دبعال;Debaâl
+ar;دفون;Dfoûn
+ar;دير طحنيش;Deïr Tahnîch
+ar;دير سريان;Deïr Siriane
+ar;دير شواح;Deïr Chouâh
+ar;دير شمرا;Deïr Chamra
+ar;دير قوبل;Deïr Qoubil
+ar;دير قانون النهر;Deïr Qanoun en Nahr
+ar;دير قانون;Deïr Qânoûn
+ar;دير أنطار;Deïr Ntâr
+ar;دير نطار;Deïr Ntâr
+ar;دير نبوح;Deïr Nboûh
+ar;دير ميماس;Deïr Mimass
+nn;Deir Mimas;Deïr Mimass
+cy;Deir Mimas;Deïr Mimass
+en;Deir Mimas;Deïr Mimass
+fa;دیر میماس;Deïr Mimass
+pl;Dajr Mimas;Deïr Mimass
+fr;Deir Mimas;Deïr Mimass
+he;דיר מימאס;Deïr Mimass
+nl;Deir Mimas;Deïr Mimass
+zh;代尔米马斯;Deïr Mimass
+ar;دير مار يوحنا;Deïr Mâr Yoûhanna
+ar;دير كوشة;Deïrkoûché
+ar;دير كيفا;Deïr Kîfa
+ar;دير خونا;Deïr Khoûna
+ar;دير بلا;Deïr Billa
+ar;دير بصا;Deïr Bassa
+ar;دير بصة;Deïr Bassa
+ar;دير بابا;Deir Baba
+ar;دير الزهراني;Deïr ez Zahrâni
+ar;دير عين الجوزة;Deïr Aïn ej Jaouzé
+ar;دير عمار;Deïr Aamâr
+ar;دير عامص;Deïr Aâmes
+ar;دير عامس;Deïr Aâmes
+ar;ديرعامص;Deïr Aâmes
+ar;دير القمر;Deïr el Qamar
+ar;دير الحرف;Deïr el Harf
+ar;دير الغزال;Deïr el Ghazaal
+ar;دير العشاير;Deïr el Aachâyer
+ar;الدورة;Ed Daoura
+ar;دير زنون;Deïr Zenoûn
+ar;درعون;Daraaoûn
+ar;دار شمزين;Dâr Chmizzîne
+ar;دار بشمزين;Dâr Chmizzîne
+ar;دردوريت;Dardourît
+ar;دار بعشتار;Dâr Beachtâr
+ar;درب السيم;Darb es Sîm
+ar;داريا;Dâraïya
+ar;دلافي;Dellâfi
+ar;دلهون;Dalhoûn
+ar;داعل;Dâal
+ar;ضهر مار ريشا;Dahr Mâr Rîchâ
+ar;سيدة شوان;Dahr Mâr Rîchâ
+ar;ضهر الصليّب;Dahr es Slaïyeb
+ar;ضهر الصوان;Dahr es Saouâne
+ar;ضهر الصوان;Dahr es Souâne
+ar;ضهر الصفا;Dahr es Safa
+ar;الرويس;Dahr es Safa
+ar;ضهر الشقيف;Dahr ech Chqîf
+ar;ضهر عقلين;Dahr Aaqlaïn
+ar;ضهر القطلب;Dahr el Qatlab
+ar;ضهر القتلب;Dahr el Qatlab
+ar;ضهر المغارة;Dahr el Mghâra
+ar;ضهر الجرذون;Dahr ej Jardaoun
+ar;ضهر الحصون;Dahr el Hsoûn
+ar;ضهر الغبار;Dahr el Ghbâr
+ar;ضهر البيدر;Dahr el Baïdar
+ar;ضهر الباشق;Dahr el Bacheq
+ar;ضهر البلايط;Dahr el Blâyet
+ar;ضهر العين;Dahr el Aïn
+ar;ضهر الأحمر;Dahr el Ahmar
+ar;دوير;Dahr ed Douaïr
+ar;ضهر الدوير;Dahr ed Douaïr
+ar;ضهر أبي ياغي;Dahr Abi Yâghi
+ar;بزمّار;Bzoummâr
+hy;Զմմառ;Bzoummâr
+ar;بزيزا;Bzîza
+ar;بزينا;Bzîna
+ar;بزبدين;Bzibdîne
+ar;بياقوت;Biaqout
+ar;بو زريدة;Bouzraïdé
+ar;مزرعة بيوت السياد;Biout es Sayed
+ar;بيوت السيد;Biout es Sayed
+ar;بيوت السياد;Biout es Sayed
+ar;بيوت القبو;Bioût el Aïn
+ar;بطمة;Boutmé
+ar;البستان;Boustâne
+ar;بستان;Boustâne
+ar;بصلية;Bouslaya
+ar;بوسيط;Boussît
+ar;برج رحال;Borj Rahhâl
+ar;برج قلوية;Borj Qalaouiyé
+ar;برج حمود;Bourj Hammoud
+hy;Բուրջ Համուդ;Bourj Hammoud
+ar;برج الشمالي;Borj ech Chémâli
+ar;برج اليهودية;Borj el Yahoudîyé
+ar;برج القبلي;Borj el Qibli
+ar;برج القبلة;Borj el Qibli
+ar;برج البراجنة;Borj el Branjé
+ar;بوريا;Boûria
+ar;برغوس;Bourghôs
+ar;بقعاتا;Boqaâta
+ar;بقعاتة عشقوت;Boqaâta
+ar;بقعاتا;Baqâata
+ar;بولونيا;Boulogne
+ar;بلحص;Bolhos
+ar;بليبل;Blaïbel
+ar;بطرام;Bterrâm
+ar;بتوراتيج;Btoûrâtîj
+ar;بتِلَّية;Btellaïyé
+ar;بتحلين;Btehlîne
+ar;بتغرين;Bteghrîne
+ar;بتبيات;Btebiât
+ar;بتاتر;Btâter
+ar;بطلّون;Btalloûn
+ar;بتعلين;Btaalîne
+ar;بتدين اللقش;Bteddîne el Liqch
+ar;بتعبورا;Btaaboûra
+ar;بتعبورة;Btaaboûra
+ar;بسوس;Bsous
+ar;بسرّين;Bserrîne
+ar;بسبعل;Bisbeel
+ar;بشعقاب;Bcheaaqâb
+ar;بشنين;Bchannîne
+ar;بشتين;Bchannîne
+ar;بشنّاتا;Bchennâta
+ar;بشللي;Bchillé
+ar;بشعلة;Bchaalé
+ar;بشتفين;Bchetfîne
+ar;بشامون;Bchamoun
+ar;بشحارا;Bchehhâra
+ar;بشحارة;Bchehhâra
+ar;بصرما;Bsarma
+ru;Бсарма;Bsarma
+ar;بصاليم;Bsalîm
+ar;بسابا;Bsaba
+ar;برمّانا;Broummâna
+ar;بريح;Brîh
+ar;بريسات;Brîssât
+ar;بيت رعد;Brîssât
+ar;بريقع;Braïqaa
+ar;برينسا;Braïnsa
+ar;برعشيت;Baraachît
+ar;براريخا;Brârîkha
+ar;قرنة المراح;Brârîkha
+ar;برامية التحتا;Brâmîyé et Tahta
+ar;بقسطا;Bqosta
+ar;بقر قاشا;Bqôrqâcha
+ar;بقنايا;Bqinnâya
+ar;بقاق الدين;Bqâq ed Dîne
+ar;بنشعي;Bnechaaï
+ar;بنهران;Bnahrâne
+ar;بنعفول;Bnaafoûl
+ar;بنابيل;Bnâbîl
+ar;بمريمين;Bmaryamîne
+ar;بمريم;Bmariam
+ar;بمهرين;Bmehrîne
+ar;مهرين;Bmehrîne
+ar;بمهراي;Bmahraï
+ar;بليدا;Blida
+ar;بلوزا;Blaouza
+it;Blawza;Blaouza
+fa;بلوزا;Blaouza
+ar;بكونا;Bkoûna
+ar;بكوان;Bkoûna
+ar;بكشتين;Bkechtîne
+ar;بكركز;Bkourkoz
+ar;كركز;Bkourkoz
+ar;بكفتين;Bkeftîne
+ar;بخشتية;Bkhochtaï
+ar;بكاسين;Bkâssîne
+ar;بكرتا;Bkarta
+ar;بقرتا;Bkarta
+ar;بزحل;Bazhal
+ar;بعورتا;Baaouarta
+ar;بعورتة;Baaouarta
+ar;بطشية;Boutchaï
+ar;بثيّات;Bestiyât
+ar;بثتيات;Bestiyât
+ar;بسري;Bisri
+ar;بعشتا;Beaachta
+ar;بشمزين;Bechmizzîne
+ar;بئر قديم;Bîr Qadîm
+ar;بركة حجولا;Birket Hjoûla
+ar;بئر حسن;Bir Hassan
+ar;بير حسن;Bir Hassan
+ar;بير بتريا;Bîr Btaria
+ar;بير السناسل;Bîr es Sanâssel
+ar;بير الشهدا;Bîr ech Chouhada
+ar;بير الهيت;Bîr el Haït
+ar;بير الدويك;Bîr ed Douaïk
+ar;بقسميا;Boqsmaïya
+ar;بنواتي;Benouâti
+ar;بنواتة;Benouâté
+ar;بنت جبيل;Bent Jbaïl
+en;Bint Jbeil;Bent Jbaïl
+de;Bint Dschubail;Bent Jbaïl
+he;בינת ג'בייל;Bent Jbaïl
+hr;Bint Džubail;Bent Jbaïl
+pl;Bint Dżubajl;Bent Jbaïl
+ru;Бинт-Джубайль;Bent Jbaïl
+uk;Бінт-Джбейль;Bent Jbaïl
+ar;بنتاعل;Bentâael
+ar;بلا;Billa
+ar;بخعاز;Bekhaaz
+ar;بكفيّا;Bikfaïya
+nn;Bikfaya;Bikfaïya
+de;Bikfaya;Bikfaïya
+ru;Бикфайя;Bikfaïya
+en;Bikfaya;Bikfaïya
+it;Bikfaya - Mhaydseh;Bikfaïya
+fr;Bikfaya;Bikfaïya
+nb;Bikfaya;Bikfaïya
+uk;Бікфая;Bikfaïya
+ja;ビクファヤー;Bikfaïya
+az;Bikfəyya;Bikfaïya
+fa;بكفيا;Bikfaïya
+id;Bikfaya;Bikfaïya
+pl;Bikfajja;Bikfaïya
+ur;بکفیا;Bikfaïya
+he;בכפיא;Bikfaïya
+da;Bikfaya;Bikfaïya
+nl;Bikfaya;Bikfaïya
+ar;بجة;Béjjé
+ar;بجدرفل;Bijdarfil
+ar;بجدرفيل;Bijdarfil
+ar;بحديدات;Behdaïdât
+ar;بيحات;Bîhât
+ar;بدياس;Bediâs
+ar;بدنايل;Bednâyel
+ar;ببين;Bebnîne
+ar;مراح البيارة;Mrâh el Byâra
+ar;بحوارة;Bhouara
+ar;بحرصاف;Bhersâf
+ar;بحنين;Bhannîne
+ar;بديبا;Bdebba
+fa;بدیبا;Bdebba
+ar;بدادون;Bdédoun
+ar;برحليون;Berhalioûn
+ar;بزيون;Bazyoûn
+ar;بزعون;Bazaoun
+ar;بيت زود;Beït Zoûd
+ar;بيت زخور;Beït Zakhoûr
+ar;بيت عبيد;Beït Aabeïd
+ar;بيت شلالا;Beït Chlâla
+ar;بيت شاهين;Beït Châhîne
+ar;بيت شباب;Beït Chabâb
+ar;بيت قناتي;Beït Qnâti
+ar;العيون;Beït Qnâti
+ar;بيت منذر;Beït Menzer
+ar;بيت مري;Beït Meri
+ar;بيت ليف;Beït Lîf
+ar;بيت لهيه;Beït Lahia
+ar;بيت لهية;Beït Lahia
+ar;بيت لهيا;Beït Lahia
+ar;بيت كريدي;Beït Kreïdé
+ar;بيت عيد;Beït Eid
+ar;بيت عتمان;Beït Aatmâne
+ar;بيت حتمان;Beït Aatmâne
+ar;بيت عثمان;Beït Aatmâne
+ar;بيت حسنا;Beït Hasna
+ar;بيت حسني;Beït Hasna
+ar;بيت حباق;Beït Hebbâq
+ar;بيت داود;Beït Dâoud
+ar;بيت داوود;Beït Dâoud
+ar;بيت بكّور;Beït Bakkour
+ar;بفحوم;Beït Bakkour
+ar;بيت عوكر;Beït Aaoukar
+ar;بيت الشعار;Beït ech Chaar
+ar;بيت علّام;Beït Aallâm
+ar;بيت الككو;Beït el Kekko
+ar;بيت الحوش;Beït el Haouch
+ar;بيت حوش;Beït el Haouch
+ar;بيت البومي;Beït el Boûmi
+ar;بيت البومة;Beït el Boûmi
+ar;بيت العرب;Beït el Aarab
+ar;بيت الدين;Beït ed Dîne
+ar;بيصور;Baïssour
+ar;بيصور;Bayssoûr
+ar;بيقون;Beïqoûn
+ar;عبي;Aabay
+ar;بيدر الرمل;Baïdar er Raml
+ar;بيادر رشعين;Biâder Rachaaïne
+ar;بوارج;Bouârej
+ar;باتولية;Bâtoulây
+ar;باتولي;Bâtoulây
+ar;باتوليه;Bâtoulây
+ar;الباتولية;Bâtoulây
+ar;بترومين;Batroûmîne
+ar;بتلون;Batloûn
+ar;باتر الشوف;Bâter ech Choûf
+ar;بطحا;Batha
+ar;بعتارة;Baatâra
+ar;بسلوقيت;Basloûqît
+ar;بعاصير;Baassîr
+ar;بشتودار;Bechtoûdâr
+ar;بشتايل;Bechtâyel
+ar;بشتايا;Bechtâyel
+ar;بشتليدا;Bechtelîda
+ar;بسبينا;Basbînâ
+ar;بساتين العصي;Bsâtîne el Aossi
+ar;بستان العصي;Bsâtîne el Aossi
+ar;برزقين;Berzqaïn
+ar;برتي;Berti
+ar;برسا;Barsa
+ar;بر الياس;Barr Eliâs
+ar;برجا;Barja
+ru;Барджа;Barja
+fa;برجا الشوف;Barja
+ar;باريش;Bârich
+ar;برغون;Barghoûn
+ar;البقعون;Baqaoun et Tahta
+ar;بقعون التحتا;Baqaoun et Tahta
+ar;البقعون;Baqaoun el Faouqa
+ar;بقعون الفوقا;Baqaoun el Faouqa
+fr;Baakline;Baakleen
+ar;بعقلين;Baakleen
+de;Baaklin;Baakleen
+hr;Baaklin;Baakleen
+he;בעקלין;Baakleen
+tr;Baaklin;Baakleen
+ar;بني حيّان;Beni Haïyâne
+ar;بان;Bâne
+ar;بالوع;Baloûh
+ar;بعلول;Baaloûl
+ar;بعلشمية الجديدة;Baalchmay ej Jdîdé
+ar;بعلشمية;Baalchmay
+ar;بلّونة;Balloûné
+ar;بلاطة جمجيم;Blatet ej Jamjîm
+ar;بلاطة الجمجيم;Blatet ej Jamjîm
+en;Blatt;Blât
+ar;زقاق البلاط;Blât
+ar;بلاط;Blât
+ar;بعل الناعمة;Baal en Nâamé
+ar;بلعة;Balaa
+ar;بكيفا;Bkîfa
+ar;بقيفا;Bakkîfa
+ar;بكيفا;Bakkîfa
+ar;بكا;Bakka
+ar;بكه;Bakka
+ar;بحويتا;Behouaïta
+ar;بحبوش;Bhabboûch
+ar;بافلية;Bâfliyé
+ar;بعدران;Baadarâne
+ar;بدغان;Bedghâne
+ar;بدّه;Baddé
+ar;باب مارع;Bâb Mâréaa
+ar;بعبدات;Baabdât
+ar;باب الرجم;Bâb er Rejm
+ar;الزعروريّة;Ez Zaaroûrîyé
+ar;الزعرورة;Ez Zaaroûra
+ar;الزهيرية;Ez Zheïrîyé
+ar;زعيترة;El Zaaïtré
+ar;الزراريّة;Ez Zrârîyé
+ar;الزيرة;Ez Zîré
+ar;الزيتونية;Ez Zaïtoûnîyé
+ar;الزاروب;Ez Zâroûb
+ar;الزلقا;Ez Zalqa
+ar;عازور;Aâzoûr
+ar;عزقي;Aazqaï
+ar;أيطو;Aïtou
+ar;عيتات;Aïtât
+ar;عيترون;Aïtaroun
+ar;عيتا الزط;Aaïta ez Zott
+ar;عيتا الشعب;Aïïta ech Chaab
+ar;عيتا الفخّار;Aïta el Foukhâr
+ar;عين زبدة;Aïn Zebdé
+ar;عين زحلتا;Aïn Zhalta
+ar;عين زيتون;Aïn Zaïtoûn
+ar;عين وزين;Aïn Ouzaïn
+ar;عين ورقة;Aïn Ouarqa
+ar;عينطورين;Aaïntoûrîne
+ar;عينطورة;Aïntoûra
+ar;عين تراز;Aïn Trêz
+ar;عين تريز;Aïn Trêz
+ar;عين ثنتا;Aïn Tanta
+ar;عين صوفر;Aïn Saoufar
+ar;عين سعادة;Aïn Saadé
+ar;عين قنية;Aïn Qénia
+ar;عين قنية;Aïn Qanîyé
+ar;عين قانا;Aïn Qâna
+ar;عين عنوب;Aïn Aanoub
+ar;عين نعيم;Aïn Najm
+ar;عين موفّق;Aïn Mouaffaq
+ar;عين مجدلين;Aïn Majdalaïne
+ar;عين كسور;Aïn Ksoûr
+ar;عين كفاع;Aïn Kfâa
+ar;عين جويا;Aïn Jouaïya
+ar;عين جرين;Aïn Jraïn
+ar;عين جرفا;Aïn Jarfa
+de;Ain Dscharfā;Aïn Jarfa
+en;Ayn Jarfā;Aïn Jarfa
+ar;عين عكرين;Aïn Aakrîne
+ar;عين حرشة;Aïn Horché
+ar;عين حرشه;Aïn Horché
+ar;عين حرشي;Aïn Horché
+ar;عين درافيل;Aïn Drâfîl
+ar;عين دارة;Aïn Dâra
+ar;عين البنية;Aïn el Bounaya
+ar;عين بعال;Aïn Baâl
+ar;عين الزيتونة;Aïn ez Zaïtoûné
+ar;عين الطغرة;Aïn et Toghra
+ar;عين التفاحة;Aïn ett Teffâha
+ar;عين التينة;Aïn et Tîné
+ar;عين عطا;Aïn Aata
+ar;عيناتا;Aïnata
+ar;عينات;Aïnât
+ar;عين السنديانة;Aïn es Sindiâné
+ar;الصالحية;Es Salhîyé
+ar;عين الصالحية;Es Salhîyé
+ar;عين الصفصاف;Aïn es Safsâf
+ar;عين الرمانة;Ain er Remmané
+ar;عين الريحانة;Aïn er Rîhâné
+ar;عين الريحانة;Aïn er Rîhâni
+ar;عين عرب;Aïn Aarab
+ar;عين عار;Aïn Aâr
+ar;عين المهنيدة;Aïn el Mehnaïde
+ar;عين المعيسري;Aïn el Maaïsre
+ar;إسطبل;Establ
+ar;عين المنتنة;Aïn el Mentné
+ar;عين المرج;Aïn el Marj
+ar;عين اللبوة;Aïn el Laboué
+ar;عين الخرّوبة;Aïn el Kharroûbé
+ar;الجناح;Jnah
+ar;عين الجديدة;Aïn ej Jdîdé
+ar;عين الحلوة;Aïn el Hiloué
+ar;عين الحور;Aïn el Hâour
+ar;عين الحلزون;Aïn el Halazoûn
+ar;عين الفرديس;Aïn el Fardiss
+ar;عين الباطية;Aïn el Bâtié
+ar;حورالا;Aïn el Bâtié
+ar;عين الأسد;Aïn el Assad
+ar;عين علق;Aïn Aalaq
+ar;عين الدلبة;Aïn ed Delbé
+ar;عين الدلب;Aïn ed Delb
+ar;عين الدير;Aïn ed Deïr
+ar;الرميلة;Aïn ed Deïr
+ar;عيناب;Aïnab
+ar;عمار;Aaïmâr
+ar;عيمار;Aaïmâr
+ar;عيلوت;Aïlout
+ar;ايحة;Aayha
+ar;ايحه;Aayha
+ar;عيحا;Aayha
+ar;عيدمون;Aïdamoûn
+ar;عورة;Aaoura
+ar;التويتي;Touaïté
+ar;طويري;Touaïri
+ar;الطيري;Et Tiri
+ar;الطيبة;Et Taïbé
+ar;التاروع;Et Târouaa
+ar;التعمير;Et Taamîr
+ar;التلة;Et Tallé
+ar;التامرية;Et Tâmrîyé
+ar;آصيا;Assia
+ar;Āşiyā;Assia
+ar;السويديي;Es Souaïdîyé
+ar;السريري;Es Sraïri
+ar;السريج;Es Sraïj
+ar;السلطان يعقوب التحتا;Soultâne Yaaqoûb et Tahta
+ar;السلطان يعقوب;Soultâne Yaaqoûb
+ar;سلطانية;Es Soultânîyé
+ar;السلطانية;Es Soultânîyé
+ar;صليًب;Slaïyeb
+ar;صليب غلبون;Slaïyeb
+ar;الصليب;Es Slaïyeb
+ar;سهيلة;Shaïlé
+ar;سفيلة;Sfayla
+ar;سبيل;Sbayel
+ar;السيّار;Es Siyâr
+ar;السياحة;Es Siâha
+ar;الصفّي;Es Seffaï
+ar;صديقين;Saddîqîne
+ar;الصوّانة;Es Saouêné
+ar;الصوانة;Es Souâné
+ar;صوانة;Es Saoûâné
+ar;الصوانة;Es Saoûâné
+ar;صويري;Saouîri
+ar;السواقي;Es Souâqi
+ar;السرعونية;Es Saraaounîyé
+ar;السرجي;Es Sarji
+ar;السقي;Es Saqi
+ar;صنوبر;Es Snaoubar
+ar;السمقانية;Es Semqânîyé
+ar;السماعية;Es Smâïyé
+ar;الصالحية;Sâlhîyé
+ar;صالحية;Sâlhîyé
+ar;صالحاني;Es Sâlhâni
+ar;الصالحاني;Es Sâlhâni
+ar;السكسكية;Es Saksakîyé
+ar;السهل;Es Sahl
+ar;الساحة;Es Saha
+ar;الصفرة;Es Safra
+ar;الصفرا;Es Safrâ
+ar;السفرجلة;Es Sfarjlé
+ar;السعديات;Es Saadîyât
+ar;الصابونية;Es Sâboûnîyé
+ar;أصنون;Asnoûn
+ar;‘Āşūn;Asnoûn
+ar;عاصون;Asnoûn
+ar;أسلوت;Asloût
+ar;الشوير;Ech Choueïr
+ar;الشويفات;Ech Chouaïfât
+nn;Choueifat;Ech Chouaïfât
+ru;Эш-Шувайфат;Ech Chouaïfât
+en;Choueifat;Ech Chouaïfât
+it;Shueyfat;Ech Chouaïfât
+fr;Choueifat;Ech Chouaïfât
+es;Choueifat;Ech Chouaïfât
+nb;Choueifat;Ech Chouaïfât
+ja;ショイファット;Ech Chouaïfât
+fa;الشويفات;Ech Chouaïfât
+ur;شویفات;Ech Chouaïfât
+he;שוויפאת;Ech Chouaïfât
+nl;Choueifat;Ech Chouaïfât
+ar;الشياح;Chiyah
+ar;الشعب;Ech Chaab
+ar;شعيتية;Ech Chaaïtîyé
+ar;الشعيتية;Ech Chaaïtîyé
+ar;الشاوية;Ech Châouié
+ar;الشوايا;Ech Chouâya
+ar;شوايا;Ech Chouâya
+ar;الشواليق;Ech Chaouâlîq
+ar;الشواكير;Ech Chaouâkîr
+ar;الشطوح;Ech Chattoûh
+ar;الشروي;Ech Charoui
+ar;الشرقية;Ech Charqîyé
+ar;الشربينة;Ech Charbîné
+ar;الشربين;Ech Chârbîne
+ar;الشمسية;Achamssîyé
+ar;شميس;Chemmîs
+ar;الشالوت;Ech Châloût
+ar;Shālūţ;Ech Châloût
+ar;شالوط;Ech Châloût
+ar;الشاغور;Ech Châghoûr
+ar;الشبرقية;Chebrqiyé
+ar;الشبانية;Ech Chebbânîyé
+ar;عشقوت;Aachqoût
+ar;أرزون;Arzoûn
+ar;عرتز;Aartez
+ar;أرصون;Arsoûn
+ar;الرمانة;Er Roummâné
+ar;الرميلة;Rmaïla
+ar;رميلة;Rmaïla
+ar;الرميلة;Er Rmaïlé
+ar;الروماني;Er Roummani
+ar;رجمة;Rejmé
+ar;الرويسة;Er Rouaïssé
+ar;الرويس;Er Rouaïs
+ar;الريحانة;Rîhâne
+ar;ريحانة;Rîhâne
+ar;ريحان;Rihâne
+ar;الرويس;Er Rouâyess
+ar;الروايس;Er Rouâyess
+ar;رانسية;Rinsîyé
+ar;رنسيّة;Rinsîyé
+ar;الراموط;Er Râmoût
+ar;الرملية;Er Ramlîyé
+ar;الرامية;Er Râmié
+ar;الرفيد;Er Rafîd
+ar;الربوة;Er Raboué
+ar;أرنون;Arnoun
+ru;Арнун;Arnoun
+fa;أرنون;Arnoun
+he;ארנון;Arnoun
+ar;عرجس;Aarjess
+ar;أردة;Ardé
+ar;عاريّا;Aaraïya
+ar;عارية;Aaray
+ar;عرمون;Aaramoûn
+ar;عرمون;Aaramoun
+nn;Aramoun;Aaramoun
+en;Aramoun;Aaramoun
+it;Aramoun;Aaramoun
+nl;Aramoun;Aaramoun
+ar;عرمتى;Aaramta
+ar;عرب طبايا;Aarab Tabbâya
+ar;عرب صليم;Aarab Salîm
+ar;عربة قزحيا;Aarbet Qouzhaïya
+ar;عربة هلالي;Aarbet Hlâli
+ar;عرب اللزاب;Aarab el Lizzâb
+ar;عرب الجل;Aarab ej Jall
+ar;عقتنيت;Aaqtanît
+ar;عقلين;Aaqlaïn
+ar;عقبة حيرونا;Aaqabet Haïroûna
+ar;مراح عقبة;Mrâh el Aaqbé
+ar;مراح العقبة;Mrâh el Aaqbé
+ar;عانوت;Âanoût
+ar;انطلياس;Antelias
+ru;Антелиас;Antelias
+hy;Անթիլիաս;Antelias
+zh-Hant;安特利亞斯;Antelias
+ur;انطلیاس;Antelias
+uz;Antilyos;Antelias
+el;Αντήλιος;Antelias
+zh;安特利亚斯;Antelias
+tg;Антилёс;Antelias
+ja;アンテリアス;Antelias
+az;Əntilyas;Antelias
+fa;أنطلیاس;Antelias
+pl;Antilias;Antelias
+he;אנטליאס;Antelias
+ar;انصار;Insâr
+ar;عنقون;Aanqoûn
+ar;النميرية;En Nmaïrîyé
+ar;النقور;En Nqoûr
+ar;النواعيص;En Nouaaïss
+ar;النعصات;En Naassât
+ar;النعص;En Naas
+ar;النقبة;En Naqbé
+ar;النمورة;En Namoûrā
+ar;النخلة;En Nakhlé
+ar;الجارية;En Najjarîyé
+ar;النجّارية;En Najjarîyé
+ar;النبي يوشع;En Nabi Yoûchaa
+ar;النبي يونس;En Nabi Yoûnés
+ar;النبيي;En Nabiyé
+ar;النبي شيث;En Nabi Chît
+ar;نبي شيث;En Nabi Chît
+ar;النبي شيت;En Nabi Chît
+ar;نبي شيت;En Nabi Chît
+ur;النبی شیت;En Nabi Chît
+de;an-Nabī Schaith;En Nabi Chît
+en;an-Nabī Shayth;En Nabi Chît
+ar;النبي كزيبر;En Nabi Kzaïber
+ar;الأوزاعي;El Ouzaaï
+ar;النبوط;En Nabboût
+ar;نبطيّة الفوقا;Nabatîyé el Faouqa
+ar;نبط;Nabaât
+ar;نبعات;Nabaât
+ar;النبعة;En Nabaa
+ar;عنج النحلة;Aanj en Nahlé
+ar;أنفة;Enfé
+nn;Enfeh;Enfé
+ru;Энфе;Enfé
+en;Enfeh;Enfé
+it;Anfeh;Enfé
+fa;انفه;Enfé
+fr;Anfeh;Enfé
+es;Enfeh;Enfé
+nl;Enfeh;Enfé
+ca;Enfeh;Enfé
+zh;恩費;Enfé
+ar;عنبال;Aanbâl
+ar;أنان;Anâne
+ar;عانا;Aâna
+ar;أميون;Amioûn
+ar;عمشيت;Amchît
+ar;عميق;Aammîq
+ar;عماطور;Aammâtour
+ar;الوزاني;El Wazzani
+ar;الوطايا;El Ouatâyâ
+ar;الوسطاني;Ouastani
+ar;الورهانية;El Ouardânîyé
+ar;الوردية;El Ouardîyé
+ar;الوردانية;El Ouardânîyé
+ar;الورداني;El Ouardâni
+ar;الوادي;El Ouâdi
+ar;وادي تنورين;El Ouâdi
+ar;العيون;El Aayoûn
+ar;فتري;Fatré
+ar;العويني;El Aouaïni
+ar;العربانيّة;El Aarbânîyé
+ar;العقيدة;El Aaqaïdé
+ar;حارة الأمرا;Haret el Amâra
+ar;القطراني;El Qatrâni
+ar;القصير;El Qoussaïr
+ar;القصيبة;El Qsaïbé
+ar;قصيبة;El Qsaïbé
+ar;القريّة;El Qrayé
+ar;القرية;El Qraïyé
+ar;القريعة;El Qreiaâ
+ar;القنيطرة;El Qnaïtra
+ar;القليلة;El Qlaïlé
+ar;قليعات;Qlaïaât
+ar;القليعة;El Qlaïaa
+ar;حارة القبّة;Haret el Qobbé
+ar;القبعة;El Qabaa
+ar;القبع;El Qobaa
+ar;القميزري;El Qmaïzri
+ar;القميرزة;El Qmaïzri
+ar;القرعون;El Qaraaoun
+ar;قرعون;El Qaraaoun
+ar;القدامية;El Qiddémiyé
+ar;القبع;El Qabaa
+ar;القيصرية;El Qaïssarîyé
+ar;قوزح;Qaouzah
+it;Kawzah;Qaouzah
+fa;القوزح;Qaouzah
+he;קוזה;Qaouzah
+ar;القطين;El Qattîne
+ar;القطّارة;El Qattâra
+ar;القاطع;El Qâteaa
+ar;القص;El Qass
+ar;قص;El Qass
+ar;القصر;El Qasr
+ar;القاسمية;Qâsmiyé
+ar;القشا;El Qacha
+ar;قرصا;Qarsâ
+ar;القرقوف;El Qarqoûf
+ar;القرن;El Qarn
+ar;المزرعة;El Qarn
+ar;القرقفي;El Qarqfi
+ar;القعقور;El Qaaqoûr
+ar;القنطرة;Qantara
+ar;قنطرة;Qantara
+ar;قنابة;Qennâbé
+ar;القناية;El Qanâyé
+ar;القاموع;El Qâmoûaa
+ar;الرويس;El Qâmoûaa
+ar;القماطية;Qmatiyé
+ar;القلمون;El Qalamoûn
+ar;القلعة;El Qalaa
+ar;القلع;El Qalaâ
+ar;القلع;El Qalaa
+ar;القادرية;El Qâdrîyé
+ar;الفنار;El Fanar
+ar;المزيرعة;El Mzaïraâ
+ar;المطيرية;El Mtaïrîyé
+ar;المتين;El Mtaïn
+ar;المطل;El Mtoll
+ar;المسيد;El Msayed
+ar;المصيطبة;El Msaïtbé
+ar;المسيجد;El Msaïjed
+ar;المروج;El Mroûj
+ar;المريجات;El Mraïjât
+ar;المرادية;El Mrâdîyé
+ar;المربعة;El Mrabbaa
+ar;المنصف;El Mounsef
+ar;المنقلبة;El Manqalbé
+ar;المنيطرة;El Mnaïtra
+ar;المختارة;El Moukhtâra
+ar;المكيدس;El Mkaïdês
+ar;مجيدل;Mjeïdel
+ar;مجيدل;Mjeïdil
+ar;مزرعة المحتقرة;Mazraat el Mahtaqra
+ar;المحيدثة;Al Muḩaydithah
+ar;المحيدثة;El Mhaïdthé
+ar;المغيري;El Mghaïri
+ar;المغيرية;El Mghaïrîyé
+ar;المغيري;El Mogheïri
+ar;المغيرة;El Mogheïri
+ar;المديرج;El Mdaïrej
+ar;المعيزية;El Maaïzîyé
+ar;المعيصرة;El Maaïsra
+ar;المطلّة;El Mtollé
+ar;المطيلة;El Mtaïlé
+ar;المياسة;El Miyâssé
+ar;مية و مية;Mîyé ou Mîyé
+ar;ميّه و ميّه;Mîyé ou Mîyé
+ar;مرداشة;Merdaché
+ar;المرداشة;Merdaché
+ar;بطشاي مرداشة;Merdaché
+ar;المنية;El Minié
+ar;المعمرية;El Maamarîyé
+ar;المغراقة;El Maghrâqa
+ar;الميدان;El Midâne
+ar;محاربيّة;Mhârbîyé
+ar;مزكّة;Mzakké
+ar;المزاريب;El Mzârib
+ar;المطمورة;El Matmoûra
+ar;المتمورة;El Matmoûra
+ar;مطمورة;El Matmoûra
+de;Al-Maṭmūra;El Matmoûra
+en;Al-Maṭmūra;El Matmoûra
+ar;علمات;Aalmât
+ar;علمات الشمالية;Aalmât
+ar;المصيف;El Massiaf
+ar;المسرب;El Masrab
+ar;المسقى;El Masqa
+ar;المسلوخ;El Masloûkh
+ar;المشرفة;El Mécherfé
+ar;المشرف;El Mechref
+ar;المشرع;El Machraa
+ar;المشنقة;El Machnaqa
+ar;المشاتي;El Mchété
+ar;المروانية;El Merouânîyé
+ar;المرج;El Marj
+ar;الوري;El Meri
+ar;المرادسين;El Mradsine
+ar;المنزلة;El Manzlé
+ar;المنزلة;El Manzalé
+ar;المنطرة;El Mantara
+ar;المنطرة;El Mantra
+ar;المنصورية;El Mansouriyet
+ar;المنصوريّة;El Mansoûrîyé
+ar;منصوري;Al-Manṣūrī
+ar;المنصوري;Al-Manṣūrī
+ar;المنصورة;Mansoûra
+ar;المنشية;El Minchîyé
+ar;معنية;El Maanîyé
+ar;المنازيل;El Mnâzîl
+ar;علمان;Aalmâne ed Daïaa
+ar;علمان الضيعة;Aalmâne ed Daïaa
+ar;علمان;Aalmâne
+ar;معلية;El Maallîyé
+ar;المعلّية;El Maallîyé
+ar;الملاحة;El Millâha
+ar;مالكية الساحل;El Mâlkîyé
+ar;المالكيّة;El Mâlkîyé
+ar;المالحة;El Mélha
+ar;مكنونية;Maknounîyé
+ar;المخاضة;El Moukhâda
+ar;المخابي;El Makhâbi
+ar;المجيدية;El Majidiyé
+ar;المجدل;El Majdel
+ar;المجدل;El Mejdel
+ar;المجادل;El Mjâdel
+ar;المحمودية;El Mahmoûdîyé
+ar;المحمرا;El Mahmara
+ar;محمرة بجة;El Mahmara
+ar;المحطة;El Mahatta
+ar;ريحان;El Mahatta
+ar;المحطة;El Mhatta
+ar;المحطة;Mhatta
+ar;المغار;El Mghâr
+ar;المدفون;El Madfoûn
+ar;مدفون;El Madfoûn
+ar;المدفن;El Madfan
+ar;المداوش;El Mdâouich
+ar;المبرك;El Mabrak
+ar;الماعول;El Méaaoul
+ar;المعاملتين;El Maâmelteïne
+ar;علما;Aalma
+ar;اللويزة;El Louaïzé
+ar;اللقلوق;El Laqloûq
+ar;لبونة;Labbūna
+ar;اللبّونة;Labbūna
+ar;لبوني;Labbūna
+ar;الكتيفة;El Ktaïfé
+ar;كفور;El Kfoûr
+ar;الكفور;El Kfoûr
+ar;الكنيسة;El Kneïssé
+ar;الكنيسة;El Knaïssé
+ar;الكنيسة;Knaïssé
+ar;كنيسة;Knaïssé
+ar;الخريبة;El Khraïbé
+ar;الخربية;El Khraïbé
+ar;الخضيرة;El Khdaïra
+ar;غشريا;El Khdaïra
+ar;الخيارة;El Khiâra
+ar;الخيام;El Khiyam
+ar;الخربة;El Kherbé
+ar;مزرعة الخربة;El Kherbé
+ar;الخنشارة;El Khenchâra
+ar;الخيّام;El Khiâm
+ar;الخاربة;El Khârbé
+ar;الخرايب;El Kharâyeb
+ar;خلوة;Khaloué
+ar;الخلوة;Khaloué
+ar;الخالديّة;El Khâldîyé
+ar;الخلوات;El Khalouât
+ar;الكرنيش;El Karnîch
+ar;الكحلونيّة;El Kahloûnîyé
+ar;الكحالة;Kahhalé
+ar;الكفر;El Kafr
+ar;الجرن;Ej Jorn
+ar;الجريد;Ej Jraïd
+ar;الجندي;Ej Jendi
+ar;الجميلية;Ej Jmaïlîyé
+ar;جديدة;Jdaïdé
+ar;جديدة المتن;Jdaidet el Matn
+ar;الجديدة;Jdaidet el Matn
+ar;الجديدة;Ej Jdaïdé
+ar;الجليليّة;Ej Jleïlîyé
+ar;الجية;Ej Jîyé
+ar;الجوار;Ej Jouar
+ar;جبين;Ej Jibbaïn
+ar;الجبّين;Ej Jibbaïn
+ar;جيبين;Ej Jibbaïn
+ar;الجزيرة;Ej Jezîré
+ar;هوشرية;Jaouharîyé
+ar;جوهرية;Jaouharîyé
+ar;الجرمق;El Jarmaq
+ar;الجاهلية;EJ Jâhlîyé
+ar;الجعايل;Ej Jaâyel
+ar;عزيّة;El Izzîyé
+ar;العزّية;El Izzîyé
+ar;عليتا;Aâlîtâ
+ar;عاليتا;Aâlîtâ
+ar;الروضة;El Establ
+ar;إنصارية;Insârîyé
+ar;علي النهري;Ali en Nahri
+ar;الحصون;El Hsoûn
+ar;الحصين;El Hsaïne
+ar;الحورية;El Hourîyi
+ar;الحريفات;El Hraïfât
+ar;الحريقات;El Hraïfât
+ar;الحورانيّة;El Hoûrânîyé
+ar;الحمصية;El Homsîyé
+ar;الحلوة;El Héloué
+ar;حلوة;Haloua
+ar;الحلوة;Haloua
+ar;الهري;El Héri
+ar;حردوش;Herdaouch
+ar;حنيّة;Al-Ḥaniyya
+ar;الحنّية;Al-Ḥaniyya
+ar;الهنية;Al-Ḥaniyya
+ar;الحنيه;Al-Ḥaniyya
+ar;الهلاليّة;El Hlâlîyé
+ar;الحبابية;El Habâbîyé
+ar;الحازمية;Hazmiyé
+ar;الحوطة;El Haouta
+ar;حوش الذنيبة;Haouch el Qinnaabé
+ar;حوش الذنيبه;Haouch el Qinnaabé
+ar;حوش القنعبة;Haouch el Qinnaabé
+ar;حوقا;Haouqa
+ar;حوقا النهر;Haouqa
+ar;حسّانية;Hassânîyé
+ar;حرقان;El Harqâne
+ar;الحرقان;El Harqâne
+ar;الحارتية;El Hârtîyé
+ar;الحريقة;El Hrîqa
+ar;الحرف;El Harf
+ar;الحسينات;El Harf
+ar;الحرايق;El Harâyeq
+ar;الحارة;El Hâra
+ar;الحارة;Al Ḩārah
+ar;حارة علمان;El Hâra
+ar;الحقلة;El Haqlé
+ar;الحمرا;El Hamrâ
+ar;الحمرا;El Hamra
+ar;الحلزون;El Halzoûn
+ar;الحجة;El Hajjé
+ar;الحدث;Al Ḩadath
+ar;حدث;Al Ḩadath
+ar;حدث (بعبدا);Al Ḩadath
+ar;حدث - بيروت;Al Ḩadath
+ar;الحبيس;El Habis
+ar;الهبارية;El Habbârîyé
+ar;الحباق;El Hebbâq
+ar;الغمق;El Ghomq
+ar;الغبيري;Ghobeïré
+ar;الغينة;El Ghîné
+ar;الغماق;El Ghmâq
+ar;غندورية;El Ghandoûrîyé
+ar;الغندوريّة;El Ghandoûrîyé
+ar;الغابون;Ghâboun
+ar;الغباطية;El Ghabbatîyé
+ar;الغابات;El Ghâbât
+ar;الغابة;El Ghâbé
+ar;الفرن;El Forn
+ar;الفريديس;El Fraïdîs
+ar;الفخيتة;El Fkhaïté
+ar;الفتاحات;El Ftâhât
+ar;الفساقين;Fsaqîne
+ar;الفريكة;El Fraïké
+ar;الفيدار;El Fîdâr
+ar;الفياضية;Fayadiyé
+ar;الفوّارة;El Faouâra
+ar;الفوار;El Faouâr
+ar;حارة الفوار;El Faouâr
+ar;الفوار;El Fouâr
+ar;الفاعور;El Fâaoûr
+ar;الفرديس;El Fardîs
+ar;الفراديس;El Frâdîs
+ar;فراديس;El Frâdîs
+ar;فاكهة;Fékehé
+ar;البوار;El Bouâr
+ar;البويضة;El Bouaïda
+ar;البويب;El Bouaïb
+ar;البرجين;El Borjeïn
+ar;البرج;El Borj
+ar;البرغلية;El Bourghélîyé
+ar;البريج;El Braïj
+ar;البقعة;El Boqaa
+ar;البحيري;El Bhaïri
+ar;البحيرة;El Bhaïra
+ar;بحيرة تولا;El Bhaïra
+ar;البرامية;El Brâmîyé
+ar;بيسارية;Bissârîyé
+ar;البركة;El Birké
+ar;البيرة;El Bîré
+ar;البنية;El Binnay
+ar;البازورية;El Bâzoûrîyé
+ar;مزرعة البياضة;El Bïyâda
+ar;البيّاضة;El Bïyâda
+ar;البياض;El Baïyad
+ar;البياض;El Biyâd
+ar;البيدر;El Baïdar
+ar;البياضة;El Biyâda
+ar;البوشرية;El Baouchriyé
+ar;البطال;El Battâl
+ar;الباشقية;El Bâchqiyé
+ar;الباروك;El Bâroûk
+ar;البرانية;El Barranîyé
+ar;البارد;El Bâred
+ar;عرب اللهيب;El Bâred
+ar;البربيس;El Barbîs
+ar;بقسة;El Baqsi
+ar;البقسي;El Baqsi
+ar;البلاطة;El Blâta
+ar;البلاط;El Blât
+ar;البحرا;El Bahra
+ar;البحرة;El Bahra
+ar;البادواني;El Bâdouâni
+ar;البداوي;El Beddâoui
+ar;البابلية;El Bâblîyé
+ar;البابة;El Bébé
+ar;العزّونية;El Aazzoûnîyé
+ar;الغربية;El Aazîbé
+ar;العزاقة;El Aazéqa
+ar;العيشية;El Aaïchîyé
+ar;العيرون;El Aayroûn
+ar;العين;El Aïn
+ar;العطشانة;El Aatchâné
+ar;العتيقة;El Aataïqa
+ar;الأشرفية;El Achrafîyé
+ar;العرعار;El Aaraâr
+ar;العربة;El Aarbé
+ar;العربي;El Aarbé
+ar;العاقورة;El Aaqoûra
+ar;العقبة;El Aaqbé
+ar;العقبة;El Aaqabé
+ar;حارة العمروسية;Haret el Aamroussiyé
+ar;عمرة;Aamra
+ar;العموري;El Aammoûri
+ar;العمارية;El Aammariyé
+ar;العلالي;El Aalâlé
+ar;العفص;El Aafs
+ar;العذرة;El Aazra
+ar;العذرة و العذر;El Aazra
+ar;العدوسية;El Aaddoûssîyé
+ar;العبسيّة;El Aabsîyé
+ar;العبرة;El Aabri
+ar;العبادية;Aabadiyé
+ar;أغميد;Eghmîd
+ar;أغبة التحتا;Eghbet et Tahta
+ar;أغبة الفوقا;Eghbet el Faouqa
+ar;عفصديق;Aafsdîq
+ar;أفقا;Afqa
+ar;عدوي;Aadoui
+ar;الحسينية;Aadoui
+ar;أدونيس;Adonîs
+ar;عدشيت القصير;Aadchît el Qoussaïr
+ar;عدشيت;Aadchît
+ar;أدما و الدفني;Adma et Defné
+ar;الدفنة;Adma et Defné
+ar;أدما;Adma
+ar;عدلون;Aadloûn
+ar;الدنيبة;Ed Dnaïbé
+ar;الدوير;Ed Douaïr
+ar;الدوير;Ed Doueïr
+ar;الدوقا;Ed Doûqa
+ar;دوق;Doûq
+ar;Dūq;Doûq
+ar;الدلب;Ed Delb
+ar;الضهيرة;Ed Dhaïra
+ar;الدبية;Ed Debbîyé
+ar;الدكارين;Ed Dkârîne
+ar;الدقار;Ed Diqâr
+ar;الدمشقية;Ed Demachqîyé
+ar;الديمان;Ed Dîmâne
+ar;بريسات;Ed Dîmâne
+ar;الدلغان;Ed Delghêne
+ar;الدكوانة;Ed Dekouané
+ar;الدوارة;Ed Daoura
+ar;الدوار;Ed Douâr
+ar;الدورة;Ed Daourâ
+ar;الدواوير;Ed Douâouîr
+ar;الديشونية;Ed Daïchouniyé
+ar;الدرجة;Ed Darjé
+ar;الدامور;Ed Dâmoûr
+nn;Damour;Ed Dâmoûr
+de;Damur;Ed Dâmoûr
+ru;Эд-Дамур;Ed Dâmoûr
+pt;Damour;Ed Dâmoûr
+en;Damour;Ed Dâmoûr
+it;Damour;Ed Dâmoûr
+fr;Damour;Ed Dâmoûr
+es;Damour;Ed Dâmoûr
+zh;達穆爾;Ed Dâmoûr
+cs;Damur;Ed Dâmoûr
+nb;Damour;Ed Dâmoûr
+fa;الدامور;Ed Dâmoûr
+pl;Damur;Ed Dâmoûr
+he;דאמור;Ed Dâmoûr
+ca;Damur;Ed Dâmoûr
+nl;Damour;Ed Dâmoûr
+ar;دلهمية;Delhamîyé
+ar;الدكوة;Ed Dakoué
+ar;الضهر;Ed Dahr
+ar;الدبشة;Ed Dabché
+ar;أبو شاش;Abou Chêch
+de;Abū Schāsch;Abou Chêch
+ar;أبو قمحة;Abou Qamha
+ar;أبو ميزان;Abou Mîzâne
+ar;أبو عفتا;Abou Aafta
+ar;عبرا;Aabra
+ar;عبدين;Aabdîne
+ar;عبد اللي;Aabdilli
+ar;عبد للي;Aabdilli
+ar;عبود;Aabboûd
+ar;عباسية;Aabbâssîyé
+ar;عبّا;Aabbâ
+ar;عابا;Aâba
+ru;Аба;Aâba
+en;Kobayat;Qoubaiyat
+ar;المملحة;El Mamlaha
+ar;مقفتي;Mqoufti
+ar;القشايا;El Qachâya
+ar;مزرعة الزحزلان;Mazraat ez Zehzlâne
+ar;المسهلة;El Msahlé
+ar;الجربانة;Ej Jerbâné
+ar;ملازق حرقتة;Mlâzeq Hreqta
+ar;الملازق;El Mlâzeq
+ar;الخنادق;El Khanâdeq
+ar;اللزاق;El Lzâq
+ar;المهنبر;El Mhanbar
+ar;الجزاير;Ej Jazâyer
+ar;الشومة;Ech Choûmé
+ar;الشاحوطة;Ech Châhoûta
+ar;بياضات;Bayâdât
+ar;دبشة الصحرا;Dabchet es Sahra
+ar;النفّارة;En Naffâra
+ar;المياس;El Mayâs
+ar;الهويّ;El Hoûé
+ar;النقيري;En Nqîri
+ar;الحدايا;El Hadâya
+ar;بيلون;Bilone
+ar;عمرا;Aamra
+ar;عيشانة;Aïchâné
+ar;البالوع;El Bâloûaa
+ar;العوجا;El Aaouja
+ar;عردات;Aardât
+ar;الكردي;El Kerdi
+ar;حارة البكليك;Hâret el Baklîl
+ar;دقور;Daqqoûr
+ar;حقلة البيضة;Haqlet el Baïda
+ar;بيت رضوان;Beït Radouâne
+ar;الزراقي;Ez Zrâqi
+ar;كر بريبة;Krabraïbé
+ar;مكاتبة;Mkâtbé
+ar;الدكرمان;Ed Dikermâne
+ar;الربطية;Er Rabatîyé
+ar;كرم الحنش;Karm Houâch
+ar;كرم حوّاش;Karm Houâch
+ar;الروس;Er Roûs
+ar;العودة;El Aaoudé
+ar;المغاريق;El Mghârîq
+ar;العواد;El Aaouâd
+ar;النواويس;En Naouaouis
+ar;كروم الحمر;Kroûm el Hamr
+ar;الإسكندرانية;El Eskandaraniyé
+ar;الوقف;El Ouaqf
+ar;المقصف;El Maqsaf
+ar;الرجوم;Er Rjoûm
+ar;البطيشية;Btaïchîyé
+ar;بطيشية;Btaïchîyé
+ar;برج الملوك;Borj el Mlouk
+ar;حلتا;Hilta
+ar;مريمس;Mraymîs
+ar;راشيّا;Râchaïya el Ouadi
+ar;حارة الكواسي;Haret el Kaouasbé
+ar;الفاقعة;El Fâqaâ
+ar;بيت ياحون;Beït Yahoun
+ar;الصوانة;Es Saouané
+ar;كروم شهاب;Kroum Chehab
+ar;صدر المصاويل;Sadr el Massaouil
+ar;القطاعي;El Qatâî
+ar;دير تنّا;Deïr Tinna
+ar;شمالية;Chmâlîyé
+ar;مرجيات;Merjîyât
+ar;العانسية;El Aansîyé
+ar;المغريقة;El Meghraïqa
+ar;الفتيحات;El Ftaïhât
+ar;المغيرة;El Moughaïré
+ar;مخفر;Caracol
+ar;كعب المصّار;Kaab el Massâr
+ar;الفبركة;El Fabraka
+ar;الحفة;El Haffé
+ar;البليط;El Balitt
+ar;المسايقة;El Msaïqa
+ar;خندق سعد;Khandaq Saad
+ar;بصغي;Bosghaï
+ar;راعي الصالح;Râai es Sâleh
+ar;كعب الكروم;Kaab el Kroûm
+ar;الرامي;Er Râmi
+ar;القموعة;El Qammoûaâ
+ar;عند السيري;Aaind es Siré
+ar;الشندابة;Ech Chindâbé
+ar;كروم البركة;Kroûm el Birke
+ar;مزهر;Mezher
+ar;مقصبة;El Maqsbé
+ar;المقصبة;El Maqsbé
+ar;الغزالات;El Ghazelet
+ar;خانوق نجلا;Khânoûq Najla
+ar;جلول الشويخ;Jloûl ech Chouaikh
+ar;القندولي;El Qandaoûli
+ar;خربة القليلة;Khirbet el Qlaïlé
+ar;المزابل;El Mazâbil
+ar;جل الجنزير;Jall el Khanzîr
+ar;خلة أبو حيدر;Khallet Abou Haïdar
+ar;ضهر القصعة;Dahr el Qassaâ
+ar;خربة عين القناطر;Kherbet Aïn el Qanâter
+ar;مزرعة العيتانية;Mazraat el Aïté Nîyé
+ar;مزرعة اليهودية;Mazraat el Aïté Nîyé
+ar;مزرعة العيتانية اليهودية;Mazraat el Aïté Nîyé
+ar;معلقة الجديدة;Maallaqet
+ar;حي الجامع;Haï ej Jameaa
+ar;حي السلم;Haï es Sellom
+ar;العمروسية;Aamroussiyé
+ar;حارة التحتا;Haret et Tahta
+ar;دوار;Ed Douâr
+ar;الغابون;El Ghaboun
+ar;الرميل;Rmaïlé
+ar;عبادية الجديدة;Aabadiyé ej Jdidé
+ar;خان الشيخ;Khane ech Cheïkh
+ar;ضهور العبادية;Dhour el Aabadiyé
+ar;حارة سالم;Haret Sâlem
+ar;حارة الست;Haret es Sitt
+ar;حارة الفغالية;Haret el Feghaliyé
+ar;عين الدبية;Aïn ed Debbiyé
+ar;خربة الضهر;Haï ed Dahr
+ar;صباحيّة;Sbahiyé
+ar;حارة مجادين;Mejjadîne
+ar;مقتانة;Maqtané
+ar;البوابية;Bouâbiyé
+ar;الحوير;El Houaîr
+ar;بمكين;Bmakkine
+ar;عين السيدة;Aïn es Saïdé
+ar;معروفية;Maaroufiyé
+ar;ينار;Yanâr
+ar;سيل;Sîl
+ar;بطرس;Boutros
+ar;حارة شبيب;Haret Chbîb
+ar;جورة البلوط;Jouret el Ballout
+ar;زيتونات الهوا;Zeitounet el Haoua
+ar;الدوحة;Doha
+ar;البويدرات;Bouaydrât
+ar;العقبة;Aaqabé
+ar;حرقان عينابة;Herqâne Aïnab
+ar;تصوينة;Tassouîné
+ar;خلدة;Khaldé
+ar;حارة الفوقا;Haret el Faouqa
+ar;مرج شارون;Marj Chartoun
+ar;سبعل;Sebaal
+ar;المحمية;El Mehmaïha
+ar;الحمرا;Hamra
+ar;رملة البيضاء;Ramlet el Bayda
+ar;المريجة;Mraïjé
+ar;الانطونية;El Antouniyé
+ar;حارة المجادلة;Haret el Mjadlé
+ar;عين الرمانة;Aïn er Roummane
+ar;التحويطة;Et Tahouita
+ar;اليزرة;Yarzé
+ar;الريحانية;Er Rihaniyé
+ar;الشيمة;Es Sheïmé
+ar;مار تقلا;Mar Taqla
+ar;الحمى;El Hima
+ar;الروضة;Er Raouda
+ar;الصالومي;Es Salomé
+ar;عمارة شلهوب;Aamaret Chalhoub
+ar;طريق العين;Tariq el Aïn
+ar;زعترية;Zaaïtriyé
+ar;رأس الجديدة;Ras ej Jdaïdé
+ar;فنار الجديدة;Fanar ej Jdîd
+ar;الفردوس;El Firdaous
+ar;النقار;En Naqar
+ar;الزيرة;Ez Ziré
+ar;المنتزة;El Mountazah
+ar;الزعيترية;Ez Zaaïtriyé
+ar;حارة الغوارنة;Haret el Ghaouarni
+ar;ضهر البرج;Dahr el Borj
+ar;جل حسان;Jall Hossaïn
+ar;حي العين;Haï el Aïn
+ar;ياتون الخروبة;Yatoun el Kharroubé
+ar;مونتفردة;Monteverdé
+ar;الجورة;Ej Joura
+ar;قنابة;Qannabé
+ar;جوانية;Ej Jouaniyé
+ar;حي النعص;Haï en Naas
+ar;مراح غانم;Mrah Ghanem
+ar;الجوانيات;Ej Jouaniat
+ar;الخوزية;El Khouziyé
+ar;بير الضيعة;Bir ed Daïaa
+ar;الرادوق;Er Radouq
+ar;الضيعة;Ed Daïaa
+ar;ساحة العين;Sahet el Aïn
+ar;شارع الحمرا;Chareaa el Hamra
+ar;المدورة;Mdaouara
+ar;حفة المخروقة;Haffet el Mahrouqa
+ar;سطلية;Sotlay
+ar;وصيات;Woussiyat
+ar;الجورة;Ej Joûra
+ar;الميّر;El Maïyr
+ar;الكسار;El Ksâr
+ar;الكساير;El Ksâyer
+ar;مزرعة كفر ذبيان;Mazraat Kfar Debiâne
+ar;خلة ام سليمان;Khallet Im Sleïmane
+ar;حارة التحتا;Hâret et Tahtâ
+ar;وادي الدلم;Ouâdi ed Delem
+ar;النهرية;En Nâhrîyé
+ar;بشلامة;Bchellâma
+ar;بحالا;Bhâla
+ar;بتخناي;Btekhnay
+ar;حيّ عين الجعايل;Haï Aïn el Jaâyel
+ar;مرح الوعرات;Morh el Ouaarât
+ar;مرح الوعرة;Morh el Ouaarât
+ar;فوق البير;Faouq el Bîr
+ar;عين كفر زبد;Aïn Kfar Zabad
+ar;حارة الشمالية;Haret ech Chmaliyé
+ar;حسكتا;Hssakta
+ar;الشمالية;Ech Chmaliyé
+ar;القبلية;El Qobliyé
+ar;خربة التينة;Khirbet et Tiné
+ar;بيت علّو;Beït Aallaou
+ar;الوعر;El Ouaar
+ar;بيثنية;Baïtsanîyé
+ar;عين ابعل;Aïn Abael
+ar;عين بعال;Aïn Abael
+ar;نمورة التحتا;Namoûret et Tahta
+ar;مار أدنا;Namoûret et Tahta
+ar;العقيبة;El Aaqaïbé
+ar;الريحانية;Er Rîhanîyé
+ar;حكر إطي;Hokr Etti
+ar;البقيعة;El Bqaïaa
+ar;عيون العلق;Aayoûn el Aalaq
+ar;عرب اللقلوق;Aayoûn el Aalaq
+ar;رجكل;Rijkol
+ar;رشكل;Rijkol
+ar;دقّار غفرين;Diqqâr Ghorfîne
+ar;مفرق عمشيت;Mafraq Aamchît
+ar;كفر صيادا;Kfar Siyâdâ
+ar;قلعة سوق الفري;Qalaat Souq el Firi
+ar;العوينات;El Oueinâte
+ar;جسر الحجر;Jisr el Hajar
+ar;الشميس;Ech Chmîs
+ar;بين الدربين;Beïn ed Darbaïn
+ar;حي مار سمعان;Haï Mâr Semaâne
+ar;بدبهون;Badbhoûn
+ar;بديهون;Badbhoûn
+ar;شكا;Chekka
+ru;Шекка;Chekka
+fa;شكا;Chekka
+pl;Szakka;Chekka
+he;שכא;Chekka
+ar;قهمز;Qamez
+ar;عرستا;Aarasta
+ar;الفقرات;El Faqrât
+ar;البص;El Bass
+ar;حازمية;Hazmiyeh
+it;Hazmieh;Hazmiyeh
+fr;Hazmieh;Hazmiyeh
+he;חזמיה;Hazmiyeh
+nn;Jieh;Jiyeh
+ar;جية;Jiyeh
+sv;Jieh;Jiyeh
+nb;Jieh;Jiyeh
+en;Jieh;Jiyeh
+fa;الجية;Jiyeh
+fr;Jieh;Jiyeh
+nl;Jieh;Jiyeh
+ru;Кфар-шима;Kfarshima
+bg;Кфаршима;Kfarshima
+it;Kfarchima;Kfarshima
+fr;Kfarchima;Kfarshima
+ar;كفر شيما;Kfarshima
+az;Kfar-şima;Kfarshima
+fa;کفرشیما;Kfarshima
+ur;کفر شیما;Kfarshima
+he;כפרשימה;Kfarshima
+ar;بعورتة;Baawerta
+ar;بعورته;Baawerta
+de;Nabatäa;Nabatieh
+it;Nabatiye;Nabatieh
+nl;Nabatiye;Nabatieh
+ar;النبطية;Nabatieh
+et;An-Nabaţīyah at-Taḩtā;Nabatieh
+fa;نبطیه، لبنان;Nabatieh
+he;א-נבטיה;Nabatieh
+ko;나바티예;Nabatieh
+lt;Nabatija;Nabatieh
+mzn;نبطیه;Nabatieh
+no;Nabatiye;Nabatieh
+sr;Набатија;Nabatieh
+tr;Nebatiye;Nabatieh
+uk;Набатія;Nabatieh
+pl;An-Nabatijja;Nabatieh
+pt;Nabatiye;Nabatieh
+ru;Эн-Набатия;Nabatieh
+zh;納巴泰;Nabatieh
+hr;Nabateja;Nabatieh
+el;Ναμπατίγια;Nabatieh
+nn;Mahrouna;Mahrouneh
+ru;Махруна;Mahrouneh
+en;Mahrouna;Mahrouneh
+it;Mahrouna;Mahrouneh
+fr;Mahrouna;Mahrouneh
+es;Mahrouna;Mahrouneh
+ar;محرونة;Mahrouneh
+hy;Մահրունա;Mahrouneh
+fa;محرونه;Mahrouneh
+he;מחרונה;Mahrouneh
+da;Mahrouna;Mahrouneh
+nl;Mahrouna;Mahrouneh
+nn;Kefraya;Kafraiya
+ar;كفريا;Kafraiya
+pt;Kefraya;Kafraiya
+en;Kefraya;Kafraiya
+it;Kefraya;Kafraiya
+fa;کفریا، البقاع;Kafraiya
+fr;Kefraya;Kafraiya
+nl;Kefraya;Kafraiya
+ar;جنينة جنبلاط;Junaynat Junbalāţ
+ar;الصوانة;As Şawwānah
+ar;النبي يوشع;Nabi Youcha
+ar;عمران;Aamrane
+ar;مزرعة جل البحر;Mazraat Jall el Bahr
+ar;بستان جور التنور;Boustane Jouar et Tannour
+ar;وادي جيلو;Ouâdi Jîlo
+ar;عين الحمرانية;Aïn Hamraniyé
+ar;مراح الجديدة;Jdaidé
+ar;جزيرة;Jaziré
+ar;مزرعة بيساري;Sari
+ar;عين الغويبة;Aïn el Ghouaïbé
+ar;بقشقش;Bqechqech
+ar;عين قونا;Aïn Qouna
+ar;مرجة الصيفية;Majret as Saïfiyé
+ar;مزرعة صبرين;Mazraat Sabrïn
+ar;هرهريا;Harhraïya
+ar;مزرعة البستان;Mazraat el Boustane
+ar;مزرعة مهيبت;Mazraat Mhaïbet
+ar;القميرة;Qmaïra
+ar;بريح;Brih
+ar;زوق الباشا;Zouq el Bacha
+ar;بيت الشامي;Beït ech Chami
+ar;زقزوق;Zaqzouq
+ar;ضهر الحسين;Dahr el Housseïn
+ar;بيت بركات;Beït Barakat
+ar;المضيق;El Mdiq
+ar;بشمرا;Bchamra
+ar;جورة الخوري;Jouret el Khouri
+ar;مزرعة بلحص;Mazraat Bolhos
+ar;العقبة;Aaqbé
+ar;مار ضومط;Mar Doumit
+ar;مراح الحبشي;Mrah el Habchi
+ar;الخريبة;Khraïbé
+ar;المعادن;Maaden
+ar;المروج;Mrouj
+ar;عركبة;Aarkaba
+ar;قرقفة;Qarqafá
+ar;صورات;Sourat
+ar;Şūrāt;Sourat
+ar;حصارات;Sourat
+ar;بوار;Bouar
+ar;المركبانيات;El Markabanîyât
+ar;اينوس;Aïnoûs
+ar;العقبات;El Aaqabât
+ar;عين العشاير;Aïn el Aachâyer
+ar;سيدة الدنورية;Saydet ed Danouriyé
+ar;مجادع;Mjadeaa
+ar;حارة التين;Haret et Tine
+ar;حي الدباغات;Hay ed Dabbaghate
+ar;المشرح;El Mashrah
+ar;كتاني;Kittani
+ar;البلايط;El Blayet
+ar;المسلخ;El Maslakh
+ar;حي النزهة;Hay en Nozha
+ar;حارة بو حرب;Haref Bou Harb
+ar;شاوية;Shawiyé
+ar;شاوية عالية;Shawyet Aaley
+ar;فليجين;Flajjine
+ar;القلع;El Qilaa
+ar;قلع شما;Qilaa Shamma
+ar;النجاصة;En Njassa
+ar;قلع الياتون;Qilaa el Yatoun
+ar;حرف فخر الدين;Hart Fakhr ed Dine
+ar;الكروم;El Kroum
+ar;الشكاير;Esh Shkayer
+ar;حي الجور;Hay ej Jouar
+ar;حي النهر;Hay en Nahr
+ar;المريجات;El Mrayjate
+ar;بيدر فرحات;Baïdar Farhat
+ar;بسفرين;Bsifrīn
+ar;القنطرة;Al Qanţarah
+ar;بيوت الحاج حسن;Buyūt al Ḩājj Ḩasan
+ar;القريطة;Al Qurayţah
+ar;بيوت عواد;Buyūt ‘Awwād
+ar;بيت الحاج حسين;Bayt al Ḩājj Ḩusayn
+ar;بو صوايا;Bū Şawāyā
+ar;بيوت الرويس;Buyūt ar Ruways
+ar;هوة السوح;Huwwat as Sawḩ
+ar;جوار البواشق;Juwār al Bawāshiq
+ar;الوطى;Ouata
+ar;الحرف;Harf

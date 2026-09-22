@@ -7866,3 +7866,5 @@ bg;Иван Вазово;Ivan-Vazovo
 ru;Смядово;Smyadovo
 bg;Българево;Balgarevo
 bg;Ахелой;Aheloy
+bg;Злокучене;Komarevo
+en;Shef;Antimovo

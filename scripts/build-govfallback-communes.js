@@ -117,7 +117,13 @@ for(const country of Object.keys(CONFIGS)){
       admin1Code: c[10] || '',
       pop: parseInt(c[14], 10) || 0
     }))
-    .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name && p.pop >= minPop);
+    // SEUIL DE POPULATION LEVÉ (22/09/2026, demande de l'utilisateur : « on doit pouvoir les rechercher quand même
+    // si on les connaît »). Ces six pays n'ont aucune source de codes postaux exploitable ; la couverture avait été
+    // volontairement limitée aux localités d'au moins 500 ou 1 000 habitants, ce qui écartait 17 899 lieux réels
+    // (Égypte 11 391, Liban 3 268, Jordanie 1 229, Israël 820, Libye 702, Palestine 489). Une population inconnue ou
+    // basse n'est pas une raison de rendre un village introuvable. Le seuil est conservé dans les compteurs pour
+    // mémoire, il ne filtre plus rien.
+    .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name);
 
   const seen = new Map();
   for(const p of places){
@@ -127,14 +133,17 @@ for(const country of Object.keys(CONFIGS)){
   }
   const deduped = Array.from(seen.values());
 
+  // Division administrative inconnue de la table ISO : le lieu est publié quand même, avec l'étiquette du PAYS seul
+  // (22/09/2026). Il était écarté — encore un lieu réel rendu introuvable pour une étiquette manquante.
+  let sansIso = 0;
   const lines = deduped.map(p => {
     const cp = admin1ToIso[p.admin1Code];
-    if(!cp) return null;
-    return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp};;${p.name}`;
-  }).filter(Boolean);
+    if(!cp) sansIso++;
+    return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp || country};;${p.name}`;
+  });
 
   const outPath = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');
   fs.writeFileSync(outPath, dropNearDuplicates(lines).join('\n') + '\n', 'utf8'); // quasi-doublons (voir communes-corrections.js)
-  console.log(country, ': ', rows.length, 'lignes brutes -> pop >=', minPop, '->', places.length,
-    '->', deduped.length, 'dédoublonnés ->', lines.length, 'avec code ->', outPath);
+  console.log(country, ': ', rows.length, 'lignes brutes ->', places.length, '(dont', places.filter(p => p.pop >= minPop).length, 'au-dessus de l\'ancien seuil de', minPop, 'habitants) ->',
+    '->', deduped.length, 'dédoublonnés ->', lines.length, 'publiés dont', sansIso, 'avec l\'étiquette du pays seul ->', outPath);
 }

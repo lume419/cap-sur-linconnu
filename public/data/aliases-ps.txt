@@ -798,3 +798,384 @@ fa;یعبد;Ya‘bad
 pl;Dża'bad;Ya‘bad
 he;יעבד;Ya‘bad
 ur;یاعبعد;Ya‘bad
+ar;أُم الكِلاب;Umm al Kilāb
+ar;قيزان النجار;Qīzān an Najjār
+ar;قاع القرين;Qā‘ al Qurayn
+ar;أُم كميل;Umm Kamīl
+ar;زبدة;Zabdah
+ar;خربة زنوتة;Khirbat Zanūtah
+ar;خربة يرزة;Khirbat Yarzah
+ar;يانون;Yānūn
+ar;يبرود;Yabrūd
+ar;واضح;Wāḑiḩ
+ar;إعزيز;‘Izīz
+ar;أم صفا;Umm Şafā
+ar;أم التوت;Umm at Tūt
+ar;أم العمد;Umm al ‘Amd
+ar;سهل واد الماء;Umm al ‘Amd
+ar;خربة التوامين;Khirbat at Tuwāmīn
+ar;طورة الشرقية;Ţūrah ash Sharqīyah
+ar;طورة الغربية;Ţūrah al Gharbīyah
+ar;تلفيت;Tilfīt
+ar;تعنك;Ti‘innik
+ar;طواس;Ţawās
+ar;الطرم;Aţ Ţarm
+ar;تنين;Tannīn
+ar;خربة طانا;Khirbat Ţānā
+ar;خربة التبان;Khirbat at Tabbān
+ar;الطبقة;Aţ Ţabaqah
+ar;صوبا;Şūbā
+ar;صير;Şīr
+ar;السيميا;As Sīmyā
+ar;إسكيك;Iskīk
+ar;خربة شويكة;Khirbat Shuwaykah
+ar;شرفات;Sharafāt
+ar;شبتين;Shabtīn
+ar;خربة صارورة;Khirbat Şārūrah
+ar;سفارين;Saffārīn
+ar;خربة سبعين;Khirbat Sab‘īn
+ar;خربة الرهوة;Khirbat ar Rahwah
+he;קריית ארבע;Qiryat Arba‘
+ar;عناب الكبير;‘Innāb al Kabīr
+ar;نصف جبيل;Nişf Jubayl
+ar;نزلة أبو نار;Nazlat Abū Nār
+he;קליה;Naẖal Kalya
+en;Argaman;Naẖal Argaman
+he;ארגמן;Naẖal Argaman
+ar;المورق;Al Muwarraq
+ar;المنطار;Al Munţār
+ar;خربة مسعود;Khirbat Mas‘ūd
+ar;مرج نعجة;Marj Na‘jah
+ar;خربة المراجم;Khirbat al Marājim
+ar;المالح;Al Māliḩ
+ar;قواويس;Qawāwīs
+ar;كور;Kūr
+ar;الكفير;Al Kufayr
+ar;قلاع زيتا;Qilā‘ Zaytā
+ar;ظهر العبد;Z̧ahr al ‘Abd
+ar;وادي الضبع;Wādī aḑ Ḑabi‘
+ar;أم طوبا;Umm Ţūbā
+ar;أم سلمونة;Umm Salmūnah
+ar;أم الريحان;Umm ar Rīḩān
+ar;خربة صير;Khirbat Şīr
+ar;خربة صرة;Khirbat Şarrah
+ar;صافا;Şāfā
+ar;بيار العروس;Biyār al ‘Arūs
+ar;راس الطيرة;Rās aţ Ţīrah
+ar;أبو العرقان;Abū al ‘Urqān
+ar;خربة قيس;Khirbat Qays
+ar;الضبعة;Aḑ Ḑab‘ah
+ar;كشدة;Kashdah
+ar;كرزة;Kurzah
+ar;كفا;Kafā
+ar;دير الرازح;Dayr ar Rāziḩ
+ar;دير العسل التحتا;Dayr al ‘Asal at Taḩtā
+ar;بريضعة;Burayḑi‘ah
+ar;خلة سكاريا;Khallat Sakāryā
+ar;بيت مرسم;Bayt Mirsim
+ar;بيت أمين;Bayt Amīn
+ar;خرائب أم اللحم;Kharā’ib Umm al Laḩm
+ar;البقار;Al Baqqār
+ar;خربة عطوف;Khirbat ‘Aţūf
+ar;تل الخشبة;Tall al Khashbah
+aa;طرامة;Ţarrāmah
+ar;طرامة;Ţarrāmah
+ar;سكة;Sikkah
+ar;بيت الروش التحتا;Bayt ar Rūsh at Taḩtā
+ar;بيت الروش الفوقا;Bayt ar Rūsh al Fawqā
+ar;عكابة;‘Akkābah
+ar;نزلة الشيخ زيد;Nazlat ash Shaykh Zayd
+ar;العسكرة;Al ‘Askirah
+ar;المطلة;Al Muţillah
+ar;خربة المشرف;Khirbat al Mushrif
+ar;خربة المنقطعة;Khirbat al Munqaţi‘ah
+ar;خريسة;Khuraysah
+ar;الجاروشية;Al Jārūshīyah
+ar;خربة الهجرة;Khirbat al Hijrah
+ar;خربة تل الحمة;Khirbat Tall al Ḩimmah
+ar;خربة الأشقر;Khirbat al Ashqar
+ar;العقربانية;Al ‘Aqrabānīyah
+ar;خربة الدير;Khirbat ad Dayr
+ar;أبو نجيم;Abū Nujaym
+ar;عزبة أبو حمادة;‘Izbat Abū Ḩamādah
+ar;خربة عبد الله اليونس;Khirbat ‘Abd Allāh al Yūnis
+ar;كفر رمان;Kafr Rummān
+ar;كفر لاقف;Kafr Lāqif
+ar;جرون اللوز;Jurūn al Lawz
+ar;جنيد;Junayd
+ar;جلجيليا;Jiljīlīyā
+ar;جيبيا;Jībiyā
+ar;خربة الجمرورة;Khirbat al Jamrūrah
+ar;جالود;Jālūd
+ar;عزبة الطبيب;‘Izbat aţ Ţabīb
+ar;عسلة;‘Aslah
+ar;إسكاكة;Iskākā
+ar;عراق بورين;‘Irāq Būrīn
+ar;إجنسنيا;Ijnisinyā
+ar;إبزيق;Ibzīq
+ar;هريبة النبي;Huraybat an Nabī
+ar;خربة حمصة;Khirbat Ḩumşah
+ar;حمصة;Ḩumşah
+ar;الحفيرة;Al Ḩafīrah
+ar;خربة الحسكة;Khirbat al Ḩasakah
+ar;الحديدية;Al Ḩadīdīyah
+ar;خربة غوين الفوقا;Khirbat Ghuwayn al Fawqā
+ar;خربة الفخيت;Khirbat al Fakhīt
+ar;فرعتا;Far‘atā
+ar;فلامية;Falāmyah
+ar;دير نظام;Dayr Niz̧ām
+ar;دير غزالة;Dayr Ghazālah
+ar;خربة دير شمس;Khirbat Dayr Shams
+ar;دير عمار;Dayr ‘Ammār
+ar;برهام;Burhām
+ar;خربة بسم;Khirbat Bism
+ar;خربة بير العد;Khirbat Bīr al ‘Idd
+ar;بيت عور الفوقا;Bayt ‘Ūr al Fawqā
+ar;بيت نوبا;Bayt Nūbā
+ar;بيت إجزا;Bayt Ijzā
+ar;برغشة;Barghashah
+ar;عين سينيا;‘Ayn Sīnyā
+ar;عين قينيا;‘Ayn Qīniyā
+ar;الطور;Aţ Ţūr
+ar;عارورة;‘Ārūrah
+ar;الراس;Ar Rās
+ar;الرامة;Ar Rāmah
+ar;عربونة;‘Arabbūnah
+ar;النزلة الوسطى;An Nazlah al Wusţá
+ar;النزلة الغربية;An Nazlah al Gharbīyah
+ar;النبي صنوئيل;An Nabī Şamū’īl
+ar;النبي صالح;An Nabī Şāliḩ
+ar;عمورية;‘Ammūryah
+ar;المخروق;Al Makhrūq
+ar;الجبعة;Al Jab‘ah
+ar;الفندق;Al Funduq
+ar;العلقة التحتا;Al ‘Alaqah at Taḩtā
+ar;عين الديوك الفوقا;‘Ayn ad Duyūk al Fawqā
+ar;أبو شخيدم;Abū Shukhaydim
+ar;عبدة;‘Abdah
+ar;عابا;‘Ābā
+ar;قاع الخَرابَة;Qā‘ al Kharābah
+ar;عزبة بيت حنون;‘Izbat Bayt Ḩanūn
+ar;عرب مسلخ بيت لائيا;‘Arab Maslakh Bayt Lāhyā
+ar;عرب مسلخ بيت لاهيا;‘Arab Maslakh Bayt Lāhyā
+ar;مدينة العودة;Madīnat al ‘Awdah
+ar;السريج;As Surayij
+ar;المواصي;Al Mawāşī
+av;Rafaḩ;Al Mawāşī
+ar;رفح;Al Mawāşī
+he;קרני שומרון;Karney Shomron
+cs;Izna;Idhna
+eu;Idna;Idhna
+ar;إذنا;Idhna
+ja;イドナ;Idhna
+fa;اذنا;Idhna
+pl;Izna;Idhna
+he;אידנא;Idhna
+ur;اذنا;Idhna
+ar;راس الفارعة;Ras al-Far'a
+he;ראס אל-פארעה;Ras al-Far'a
+ar;المسقوفة;Al Masqūfah
+ar;الحفاصي;Al Ḩafāşī
+ar;خربة جبارة;Khirbat Jubārah
+ar;عرب أبو فردة;‘Arab Abū Fardah
+ar;عرب الرمضين الجنوبي;‘Arab ar Ramāḑīn al Janūbī
+ar;عرب الرمضين الشمالي;‘Arab ar Ramaḑīn ash Shamālī
+ar;وادي الرشا;Wādī ar Rashā
+ar;عزبة جلعود;‘Izbat Jal‘ūd
+ar;عزبة سلمان;‘Izbat Salmān
+ar;خربة سوسة;Khirbat Sūsah
+ar;بدو المعرجات;Badiw al Mu‘arrajāt
+ar;خربة كفر شيان;Khirbat Kafr Shayyān
+ar;عين سامية;‘Ayn Sāmyah
+ar;خربة الطياح;Khirbat aţ Ţayyāḩ
+ar;عزبة الخلال;‘Izbat al Khilāl
+ar;خربة أبو خميش;Khirbat Abū Khamīsh
+ar;وادي قانا;Wādī Qānā
+ar;عزبة أبو آدم;‘Izbat Abū Ādam
+ar;الكعابنه تجمع بدوي;Al Ka‘ābinah (Tajammu‘ Badawī)
+ar;الكعابنه;Al Ka‘ābinah (Tajammu‘ Badawī)
+ar;عرب الجهالين;‘Arab al Jahālīn
+ar;جبل المكبر;Jabal al Mukabbir
+ar;الثوري;Ath Thawrī
+ar;راس العامود;Rās al ‘Āmūd
+ar;الشياح;Ash Shayyāḩ
+ar;باب الساهرة;Bāb as Sāhirah
+ar;الصوانة;Aş Şuwānah
+ar;شيخ الجراح;Shaykh Jarrāḩ
+ar;العيسوية;Al ‘Īsawīyah
+ar;الخاص;Al Khāş
+ar;الحدادية;Al Ḩaddādīyah
+ar;السواحرة الغربية;As Sawāḩirah al Gharbīyah
+ar;بئر عونة;Bi’r ‘Awnah
+ar;خلة اللوزة;Khallat al Lūzah
+ar;جبة الذيب;Jubbit adh Dhīb
+ar;خلة الحداد;Khallat al Ḩaddād
+ar;وادي النيص;Wādī an Nīş
+ar;مراح معلا;Marāḩ Ma‘allā
+ar;المنشية;Al Manshīyah
+ar;المنية;Al Manīyah
+ar;كيسان;Kīsān
+ar;وادي العرايس;Wādī al ‘Arāyis
+ar;جهضم;Juhḑum
+ar;أم عسلة;Umm ‘Aslah
+ar;الحجيلة;Al Ḩujaylah
+ar;القسيس;Al Qasayyis
+ar;راس الواد;Rās al Wād
+ar;فخت الجول;Fakht al Jūl
+ar;الخشنة;Al Khushnah
+ar;ظهرة الندى;Z̧ahrat an Nadá
+ar;وادي أم قلعة;Wādī Umm Qal‘ah
+ar;رخمة;Rakhmah
+ar;خلة حمد;Khallat Ḩamad
+ar;خربة النجلة;Khirbat an Naḩlah
+ar;وادي محمد;Wādī Muḩammad
+ar;العزازمة;Al ‘Azāzimah
+ar;الرواعين;Ar Rawā‘īin
+ar;البيضا;Al Bayḑā
+ar;الثبرة;Ath Thabrah
+ar;خلة البلوطة;Khallat al Ballūţah
+ar;خلة عفانة;Khallat ‘Afānah
+ar;الحلقوم;Al Ḩalqūm
+ar;خلة القرانين;Khallat al Qarānīn
+ar;حرملة;Ḩarmalah
+ar;الفريديس;Al Furaydīs
+ar;العقاب;Al ‘Iqāb
+ar;جالا;Jālā
+ar;حتا;Ḩattā
+ar;البويرة;Al Buwayrah
+ar;خلة المسافر;Khallat al Musāfir
+ar;الرواعين;Khallat al Musāfir
+ar;مسفرة بني نعيم;Khallat al Musāfir
+ar;خربة السلامة;Khirbat as Salāmah
+ar;وادي عبيد;Wādī ‘Ubayd
+ar;فقيقيس;Fuqayqīs
+ar;مراح البقار;Marāḩ al Baqqār
+ar;وادي الشاجنة;Wādī ash Shājinah
+ar;زيف;Zīf
+ar;خلة العقد;Khallat al ‘Aqd
+ar;البويب;Al Buwayb
+ar;حدب العلقة;Ḩadb al ‘Alqah
+ar;أم الدرج;Umm ad Daraj
+ar;الزويدين;Umm ad Daraj
+ar;عرب الكعابنة;Umm ad Daraj
+ar;أم الشقحان;Umm ash Shaqḩān
+ar;خير وشيوش والحديدية;Khayr wa Shuyūsh wal Ḩadīdīyah
+ar;الديرات;Ad Dayrāt
+ar;خشم الدرج;Khashm ad Daraj
+ar;الهذالين;Khashm ad Daraj
+ar;أم لصفا;Umm Laşafā
+ar;أم الخير;Umm al Khayr
+ar;الفقير;Umm al Khayr
+ar;التواني;At Tuwānī
+ar;معين;Ma‘īn
+ar;النجادة;An Najādah
+ar;منطقة شعب الباطن;Minţaqat Shi‘ib al Bāţin
+ar;وادي العماير;Wādī al ‘Amāyir
+ar;خربة الخرابة;Wādī al ‘Amāyir
+ar;خربة طويل الشيح;Khirbat Ţawīl ash Shīḩ
+ar;إمنيزل;Imnīzil
+ar;عرب الفريجات;‘Arab al Furayjāt
+ar;قيلا;Qīlā
+ar;راس الجورة;Rās al Jūrah
+ar;شمالية الهوى;Shamālīyah al Hawá
+ar;عرقان طراد;‘Irqān Ţurād
+ar;كوزيبا;Kūzībah
+ar;حمروش;Ḩamrūsh
+ar;أم البطم;Umm al Buţm
+ar;قفان الخميس;Qafān al Khamīs
+ar;راس الطويل;Rās aţ Ţawīl
+ar;الدوارة;Ad Duwwārah
+ar;العديسة;Al ‘Udaysah
+ar;قنان النمر;Qinān an Nimir
+ar;وادي الريم;Wādī ar Rīm
+ar;الخمجات;Al Khamjāt
+ar;بير مسلم;Bīr Musallam
+ar;طاروسة;Ţārūsah
+ar;كريسة;Kurīsah
+ar;رفادة;Rafādah
+ar;خربة أبو حامد;Khirbat Abū Ḩāmid
+ar;العلقة الفوقا;Al ‘Alaqah al Fawqā
+ar;أبو الغزلان;Abū al Ghuzlān
+ar;أبو العسجا;Abū al ‘Asjā
+ar;قنان النجمة;Qinān an Najmah
+ar;وادي السادة;Wādī as Sādah
+ar;خلة عربي;Khallat ‘Arabī
+ar;بيرين;Bīrīn
+ar;حريز;Ḩurayz
+ar;الدوير;Ad Duwayr
+ar;قرنة الراس;Qurnat ar Rās
+ar;الرفاعية;Ar Rifā‘īya
+ar;قنان جابر;Qanān Jābir
+ar;خشم الكرم;Khashm al Karm
+ar;الركيز;Ar Rakīz
+ar;خربة المجاز;Khirbat al Majāz
+ar;خربة المقعورة;Khirbat al Maq‘ūrah
+ar;خربة أصفي;Khirbat Aşafī
+ar;مغاير العبيد;Maghāyir al ‘Abīd
+ar;ظهر المالح;Z̧ahr al Māliḩ
+ar;أم دار;Umm Dār
+ar;الخلجان;Al Khuljān
+ar;إمريحا;Imrīḩā
+ar;وادي دعوق;Wādī Du‘ūq
+ar;المنصورة;Al Manşūrah
+as;العصاعصة;Al ‘Aşā‘şah
+ar;العصاعصة;Al ‘Aşā‘şah
+ar;السايدة;As Sāyidah
+ar;خربة سروج;Khirbat Surūj
+ar;عرب الحمدون;‘Arab al Ḩamdūn
+ar;خربة الشيخ سعيد;Khirbat ash Shaykh Sa‘īd
+ar;خربة المنطار الغربية;Khirbat al Munţār al Gharbīyah
+ar;خربة المنطار الشرقية;Khirbat al Munţār ash Sharqīyah
+ar;قيقس;Qīqis
+ar;ضاحية صباح الخير;Ḑāḩiyat Şabāḩ al Khayr
+ar;الجميلات;Al Jamīlāt
+ar;أم قابوب;Umm Qābūb
+ar;خربة خروبة;Khirbat Kharrūbah
+ar;خربة مراح الرهى;Khirbat Marāḩ ar Rahá
+ar;عرب السويطات;‘Arab as Suwayţāt
+ar;الضمارة;Aḑ Ḑamārah
+ar;عين شبلي;‘Ayn Shiblī
+ar;الرجمان;Ar Rajmān
+ar;الدوا;Ad Dawā
+ar;جفا النون;Jafā an Nūn
+ar;شحدة وهملان;Shiḩda wa Hamlān
+ar;خربة تل الغار;Khirbat Tall al Ghār
+ar;المسعودية;Al Mas‘ūdīyah
+ar;الفارسية;Al Fārisīyah
+ar;الثغرة;Ath Thaghrah
+ar;العقبة;Al ‘Aqbah
+ar;خربة الراس الأحمر;Khirbat ar Rās al Aḩmar
+ar;مرج الغزال;Marj al Ghazāl
+ar;النبي موسى;An Nabī Mūsá
+ar;دير قرنطل;Dayr Qurunţul
+ar;دير القلط;Dayr al Qilţ
+ar;دير حجلة;Dayr Ḩajalah
+ar;خربة أبو عنقر;Khirbat Abū ‘Anqar
+ar;محطة تحسين منصور;Maḩaţţat Taḩsīn Manşūr
+ar;القرية السويدية;Al Qaryah as Suwaydīyah
+ar;المعصرة;Al Ma‘şarah
+ar;خربة المنطرة;Khirbat al Manţarah
+ar;عين الديوك التحتا;‘Ayn ad Duyūk at Taḩtā
+ar;الكتيبة;Al Katībah
+ar;الأمل;Al Amal
+ar;حي الحسيني;Ḩayy al Ḩusaynī
+ar;العمارة;Al ‘Imārah
+ar;عزبة شوفة;‘Izbat Shūfah
+ar;بيت حنينا البلد;Bayt Ḩanīnā al Balad
+ar;السواحرة الشرقية;As Sawāḩirah ash Sharqīyah
+ar;الولجة;Al Walajah
+ar;فحمة الجديدة;Faḩmah al Jadīdah
+ar;فروش بيت دجن;Furūsh Bayt Dajan
+ar;كردلة;Kardalah
+ar;راس الفارعة;Rās al Fār‘ah
+ar;وادي الفارعة;Wādī al Fār‘ah
+he;ורד יריחו;Vered Yeriho
+cs;Vered Jericho;Vered Yeriho
+ar;فيريد يريحو;Vered Yeriho
+ru;Веред-Йерихо;Vered Yeriho
+pl;Vered Jerycho;Vered Yeriho
+ar;بيت ساحور;Beit Sahour
+en;Beit Sahur;Beit Sahour
+he;אבנת;Avnat
+he;אלון מורה;Elon Moreh
+ar;عزون عتمة;‘Azzūn ‘Atmah

@@ -123430,3 +123430,119 @@ fa;تراوت ولی;Trout Valley
 sr;Траут Вали;Trout Valley
 en;West Point;West Point Village
 en;Kavik River;Kavik River Camp
+tt;Грин-Форест;Green Forest
+uk;Грін-Форест;Green Forest
+sr;Грин Форист;Green Forest
+ce;Грин-Форест;Green Forest
+fa;گرین فارست;Green Forest
+fa;بریستول، ویرجینیا;Bristol
+ur;برسٹل، ورجینیا;Bristol
+fa;بردفورد، آیووا;Bradford
+ur;فیئرپورٹ، آئیوا;Fairport
+fa;مارکوت، آیووا;Marquette
+kk;Маркуэтт;Marquette
+ur;مارکوئٹ، آئیووا;Marquette
+ky;Маркуэтт;Marquette
+fa;واتکینس، آیووا;Watkins
+fa;بنسون، مینه‌سوتا;Benson
+kk;Бэнсон;Benson
+ur;بینسون، مینیسوٹا;Benson
+tt;Данверс;Danvers
+uk;Данверс;Danvers
+ur;ڈینورز، مینیسوٹا;Danvers
+ce;Данверс;Danvers
+ky;Данвэрс;Danvers
+fa;دنورز، مینه‌سوتا;Danvers
+fa;اورلند;Overland
+hy;Ուեսթ Հիլզ;West Hills
+fa;وست هیلز، نیویورک;West Hills
+bg;Сан Франциско;San Francisco
+eu;San Frantzisko;San Francisco
+fa;سان فرانسیسکو;San Francisco
+he;סן פרנסיסקו;San Francisco
+ka;სან-ფრანცისკო;San Francisco
+lt;San Fransiskas;San Francisco
+th;ซานฟรานซิสโก;San Francisco
+uk;Сан-Франціско;San Francisco
+tl;Lungsod ng San Francisco;San Francisco
+ug;San Fransisko;San Francisco
+el;Σαν Φρανσίσκο;San Francisco
+mk;Сан Франциско;San Francisco
+ro;Сан Франциско;San Francisco
+sr;Сан Франциско;San Francisco
+uk;Сан-Франциско;San Francisco
+be;Сан-Францыска;San Francisco
+uz;San Fransisko;San Francisco
+tt;Сан-Франциско;San Francisco
+ur;سان فرانسسکو;San Francisco
+hy;Սան Ֆրանցիսկո;San Francisco
+hak;Khiu-kîm-sân;San Francisco
+bn;সান ফ্রান্সিস্কো;San Francisco
+bo;སན་ཧྥུ་རན་སིས་ཁོ;San Francisco
+lv;Sanfrancisko;San Francisco
+ml;സാൻ ഫ്രാൻസിസ്കോ;San Francisco
+te;శాన్ ఫ్రాన్సిస్కో;San Francisco
+az;San-Fransisko;San Francisco
+krc;Сан-Франциско;San Francisco
+ckb;سان فرانسیسکۆ;San Francisco
+my;ဆန်ဖရန်စစ္စကိုမြို့;San Francisco
+ta;சான் பிரான்சிஸ்கோ;San Francisco
+mr;सॅन फ्रान्सिस्को;San Francisco
+os;Сан-Франциско;San Francisco
+sah;Сан Франсиско;San Francisco
+cv;Сан-Франциско;San Francisco
+vep;San Francisko;San Francisco
+ce;Сан-Франциско;San Francisco
+kk;Сан Франсиско;San Francisco
+mhr;Сан-Франциско;San Francisco
+mn;Сан-Франциско;San Francisco
+pa;ਸੈਨ ਫਰਾਂਸਿਸਕੋ;San Francisco
+si;සැන් ෆ්‍රැන්සිස්කෝ;San Francisco
+yue;三藩市;San Francisco
+zh-TW;舊金山;San Francisco
+zh-HK;三藩市;San Francisco
+tt;Гила;Gila
+ce;Гила;Gila
+uk;Гіла;Gila
+fa;گیلا;Gila
+sr;Хила;Gila
+fa;ایون، مونتانا;Avon
+ur;کلنٹن، مونٹانا;Clinton
+fa;کلینتن، مونتانا;Clinton
+tt;Едгар;Edgar
+fa;ادگر، مونتانا;Edgar
+ur;فلورنس، مونٹانا;Florence
+fa;فلرنس، مونتانا;Florence
+kk;Левистаун;Lewistown
+bg;Луистаун;Lewistown
+fa;لویستوون، مونتانا;Lewistown
+ur;لیوس ٹاؤن، مونٹانا;Lewistown
+fa;ریسرو، مونتانا;Reserve
+fa;ون، مونتانا;Vaughn
+fa;ویلوو کریک، مونتانا;Willow Creek
+fa;وینستون، مونتانا;Winston
+sr;Винстон;Winston
+fa;بریا، نبراسکا;Berea
+ur;لیک سائڈ، نیبراسکا;Lakeside
+kk;Митчел;Mitchell
+ky;Митчел;Mitchell
+fa;میچل، نبراسکا;Mitchell
+uk;Веллфліт;Wellfleet
+sr;Велфлит;Wellfleet
+kk;Вэлфлит;Wellfleet
+ky;Вэлфлит;Wellfleet
+fa;ولفلت، نبراسکا;Wellfleet
+en;Ewing Township;Ewing
+fa;اوینگ، نیوجرسی;Ewing
+es;Municipio de Cranford;Cranford
+fa;کرنفورد، نیوجرسی;Cranford
+kk;Гранфорд Тауншип;Cranford
+sr;Кранфорд;Cranford
+bg;Монтклеър;Montclair
+fa;مونتکلیر، نیوجرسی;Montclair
+fa;راشل پارک، نیوجرسی;Rochelle Park
+kk;Рошэл Парк;Rochelle Park
+fa;مپلوود، نیوجرسی;Maplewood
+fa;ورونا، نیوجرسی;Verona
+ur;ویرونا، نیو جرسی;Verona
+fa;شیلو، مونتگومری کانتی، اوهایو;Shiloh

@@ -4466,3 +4466,10 @@ fa;سن-ژوزف-دو-لاک، کبک;Saint-Joseph-du-Lac
 ur;سینٹ-جوسف-دو-لاک، کیوبک;Saint-Joseph-du-Lac
 fa;سن-تیت، کبک;Saint-Tite
 sr;Сен Тит;Saint-Tite
+el;Μονκάλμ;Montcalm
+fa;مونکالم، کبک;Montcalm
+sr;Пелам;Pelham
+uk;Пілгам;Pelham
+uk;Бівер-Крик;Beaver Creek
+fa;بیور کریک، یوکان;Beaver Creek
+ur;بیور کریک، یوکون;Beaver Creek

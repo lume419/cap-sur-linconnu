@@ -584,3 +584,4 @@ uk;Горня Врбиця;Gornja Vrbica
 fa;گورنیا وربیتسا;Gornja Vrbica
 sr;Горња Врбица;Gornja Vrbica
 ru;Будечевица;Budechevitsa
+ru;Пржно;Pržno

@@ -63760,3 +63760,5 @@ ja;どろめな;Doromena
 ja;ニケウル;Nikeuru
 ja;にけうる;Nikeuru
 ja;青ヶ島村;Aogashima
+ja;平泉;Tateishi
+ja;香木穴;Kagiana

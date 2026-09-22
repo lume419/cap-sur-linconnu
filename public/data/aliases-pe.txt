@@ -2662,3 +2662,4 @@ es;Falso Paquisha;Puesto de Vigilancia Veintidós
 es;P.V. 4 Nuevo;Puesto de Vigilancia Cuatro Nuevo
 es;P.V. 4 B;Puesto de Vigilancia Cuatro B
 ru;Ремансо;Remanso
+es;Hacienda Huarangal;Huarangal

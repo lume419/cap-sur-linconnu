@@ -280,3 +280,1206 @@ cy;Rwseiffa;Russeifa
 ja;ルセイファ;Russeifa
 fa;الرصیفه;Russeifa
 pl;Ar-Rusajfa;Russeifa
+ar;حمامة العموش;Ḩammāmat al ‘Umūsh
+ar;حمامات العشوش;Ḩammāmat al ‘Umūsh
+ar;زويزا;Zuwayzā
+ar;زملة الأمير غازي;Zumlat al Amīr Ghāzī
+ar;زوبيا;Zūbiyā
+ar;زمال;Zimāl
+ar;زي;Zayy
+ar;زينب;Zaynab
+ar;زحوم;Zaḩḩūm
+ar;زبدة الوسطية;Zabdah al Wasaţīyah
+ar;زبدة;Zabdah al Wasaţīyah
+ar;زباير عدوان;Zabāyir ‘Udwān
+ar;يبلا;Yublā
+ar;أوهيدة;Awhaydah
+ar;وادي صرارة;Wādī Şarārah
+ar;ودعة;Wad‘ah
+ar;أرينبة الغربية;Uraynibah al Gharbīyah
+ar;أرينبة;Uraynibah al Gharbīyah
+ar;عنيبة;‘Unaybah
+ar;الخالدية;Al Khālidīyah
+aa;Umm Zabāyir;Al Khālidīyah
+ar;ام زباير;Al Khālidīyah
+ar;أم تل;Umm Tall
+ar;ام شجيرة الشرقية;Umm Shujayrah ash Sharqīyah
+ar;ام شجيرة الغربية;Umm Shujayrah al Gharbīyah
+no;Umm Sawwanah;Al Junaynah
+ar;أم صوّانة;Al Junaynah
+ar;الجنينة;Al Junaynah
+ar;أم رمّانة;Umm Rummānah
+ar;أم قصير;Umm Quşayr
+ar;أم قنطرة الشرقية;Umm Qanţarah ash Sharqīyah
+ar;أم قنطرة الغربية;Umm Qanţarah al Gharbīyah
+ar;ام خروبة;Umm Kharrūbah
+ar;أم جريسات;Al Fayḩā’
+ar;الفيحاء;Al Fayḩā’
+ar;ام جريسات;Al Fayḩā’
+ar;أم جوزة;Umm Jawzah
+ar;أم حماط;Umm Ḩamāţ
+ar;أم بطيمة;Umm Buţaymah
+ar;أم السرب;Umm as Surab
+ar;أم الرصاص;Umm ar Raşāş
+ar;ام النعام الغربية;Umm an Na‘ām al Gharbīyah
+ar;ام النعام;Umm an Na‘ām al Gharbīyah
+ar;أم الوليد;Umm al Walīd
+ar;ام الأسود;Umm al Usūd
+ar;ام المنابيع;Umm al Manābī‘
+ar;أم اللولو;Umm al Lūlū
+ar;أم الكدام;Um El-Kindam
+ar;ام الخروع;Umm al Khirwa‘
+ar;أم الخنازير;Umm al Khanāzīr
+ar;ام الخنازير;Umm al Khanāzīr
+ar;بلد الباشا;Dār al Bāshā
+ar;دار الباشا;Dār al Bāshā
+ar;أم الجمال;Umm al Jimāl
+ar;أم الجدايل;Umm al Jadāyil
+ar;أم البساتين;Umm al Basātīn
+ar;ام البرك;Umm al Birak
+fa;ام‌البیرک;Umm al Birak
+ar;أم العمد;Umm al ‘Amad
+ar;أم الدنانير;Umm ad Danānīr
+ar;أم الدجاج;Umm ad Dajāj
+ar;عليّان;‘Ulayyān
+ar;عليمون;‘Ulaymūn
+ar;أذرح;Adhruḩ
+ar;تقبل;Tuqbul
+ar;ثغرة الجب;Thughrat al Jubb
+ar;الثغرة;Thughrat al Jubb
+ar;القديمة;Al Qadīmah
+ar;الرامة;Ar Rāmah
+ar;تلعة الرز;Tal‘at ar Ruzz
+ar;سويمرة;Suwaymirah
+ar;سويمره;Suwaymirah
+ar;سويمة;Suwaymah
+ar;سواقة الغربية;Suwāqah al Gharbīyah
+ar;صرة;Şurrah
+ar;سوميا;Sūmiyā
+ar;سميا السرحان;Sumayyā as Sirḩān
+ar;سول;Sūl
+ar;سهية عواد;Suhayyat ‘Awād
+ar;صوفة;Şūfah
+ar;صبحية;Şubḩīyah
+ar;خربة سبيرة;Khirbat Subayrah
+ar;اسبيرة;Khirbat Subayrah
+ar;صيرة الأرنب;Şīrat al Arnab
+ar;صنفحة;Şinifḩah
+en;Sinfaha;Şinifḩah
+no;Sinfaha;Şinifḩah
+ar;الحرفوشية;Al Ḩarfūshīyah
+ar;شقيرا الشرقية;Shuqayrā ash Sharqīyah
+ar;شقيرا;Shuqayrā ash Sharqīyah
+ar;الشونة الجنوبية;Ash Shūnah al Janūbīyah
+ar;شونة ابن عدوان;Shūnat Ibn ‘Adwān
+ar;شطنا;Shaţanā
+ar;شماخ;Shammākh
+ar;صيدور;Şaydūr
+ar;سوم;Sawm
+ar;صروت;Şarrūt
+ar;سمرا;Samrā’
+ar;سمّوع;Sammū‘
+ar;سما الروسان;Sammā ar Rawsān
+ar;سما;Sammā ar Rawsān
+ar;سمر;Samar
+ar;صمد;Şamad
+ar;سما السرحان;Samā as Sirḩān
+ar;سما;Samā as Sirḩān
+ar;سالية;Sāliyah
+ar;سكا;Sakkā
+ar;الصهاة;Aş Şahāh
+ar;صافوط;Şāfūţ
+ar;سبع اصير;Sab‘ Aşīr
+ar;كوم الرف;Sab‘ Aşīr
+ar;رويم;Aruwaym
+ar;ارويم;Aruwaym
+ar;رجم العلندة;Rujm al ‘Alandah
+ar;أم النعام الشرقية;Umm an Na‘ām ash Sharqīyah
+ar;رجم الشامي الغربي;Rujm ash Shāmī al Gharbī
+ar;رجم الشامي;Rujm ash Shāmī al Gharbī
+ar;المضمار;Al Miḑmār
+ar;رأيسة الخالدي;Al Khālidī
+ar;الخالدي;Al Khālidī
+ar;إرحابا;Arḩābā
+ar;رحابا;Arḩābā
+ar;النقب;Ra’s an Naqb
+ar;رأس النقب;Ra’s an Naqb
+ar;رم;Ramm
+ru;Вади Рам;Ramm
+ar;وادي رم;Ramm
+ar;راكين;Rākīn
+ar;راجب;Rājib
+ar;رباع السرحان;Rabbā‘ as Sirḩān
+ar;قرية سالم;Qurayyat Sālim
+ar;قرية نافع;Qaryat Nāfi‘
+ar;فلحا;Falḩā
+ar;قريّة فلحة;Falḩā
+ar;قريع الغربية;Quray‘ al Gharbīyah
+ar;قليعات;Qulay‘āt
+ar;قبور عبد الله;Qubūr ‘Abd Allāh
+ar;خربة قصر الدير;Khirbat Qaşr ad Dayr
+ar;قصر الدير;Khirbat Qaşr ad Dayr
+ar;اليرموك;Al Yarmūk
+ar;قم;Qam
+ar;نجل;Nijil
+ar;ناعور;Nā‘ūr
+ar;نتل;Natl
+ar;ناطفة;Nāţifah
+ar;نحلة;Naḩlah
+ar;نهرايم;Naharāyim
+ar;نادرة;Nādirah
+ar;عين النبي;‘Ayn an Nabī
+ar;مزير عليا;Muzayyir ‘Alyā
+ar;مؤتة;Mu’tah
+ar;المشيرفة الشرقية;Al Mushayrifah ash Sharqīyah
+ar;المشيرفة;Al Mushayrifah
+ar;مرصع;Murşi‘
+ar;مقبلة;Muqbilah
+ar;جبل منيف;Rās Munīf
+ar;راس منيف;Rās Munīf
+ar;موميا;Mūmiyā’
+ar;مليح;Mulayḩ
+ar;المخيزن;Al Mukhayzin
+ar;مكاور;Mukāwir
+ar;محي;Muḩayy
+ar;محمد صالح;Muḩammad Şāliḩ
+ar;مغيّر;Al Mughayyir
+ar;المغير;Al Mughayyir
+ar;موبص;Mūbiş
+ar;معدي;Mu‘addī
+ar;مسعر;Mis‘ar
+ar;مرود;Mirwad
+ar;مقاط;Miqāţ
+ar;مدين;Middīn
+ar;ابو عبيدة;Abū ‘Ubaydah
+ar;ماسوح;Māsūḩ
+ar;مرو;Marw
+ar;مرحبا;Marḩabā
+ar;تل المنطح;Tall al Manţaḩ
+ar;منجا;Manjā
+ar;مندح;Mandaḩ
+ar;مخربا;Makhrabā
+ar;مجرا;Majrā
+ar;المجدلا;Al Majdalā
+ar;ماعين;Mā‘īn
+ar;الصفاوي;Aş Şafāwī
+ar;اسكان معاذ;Iskān Ma‘ādh
+ar;معاد;Iskān Ma‘ādh
+ar;كركمة;Kurkumah
+ar;كفرنجة;Kufrinjah
+ar;المأمونية;Al Ma’mūnīyah
+ar;الفيصلية;Al Fayşalīyah
+ar;الخطابية;Al Khaţţābīyah
+ar;منيفة;Munayfah
+ar;خشاع سليتين;Khishā‘ Sulayţīn
+ar;خربة ام النمل;Khirbat Umm an Naml
+ar;عليقون;‘Ulayqūn
+ar;الأكيدر;Al Ukaydir
+ar;صنعار;Şin‘ār
+ar;خربة شين;Khirbat Shīn
+ar;شعثة;Sha‘thah
+ar;السرابيس;As Sarābīs
+ar;سلعوف;Sal‘ūf
+ar;خربة سكاين;Askāyīn
+ar;اسكايين;Askāyīn
+ar;خربة سكايين;Askāyīn
+ar;ارخيم;Irkhaym
+ar;رخيم;Irkhaym
+ar;نجدة;Najdah
+ar;محنا;Miḩnā
+ar;ميسرة;Maysarah
+ar;خربة مرقعة;Khirbat Marqa‘ah
+ar;خربة مكحول;Khirbat Makḩūl
+ar;مجادل;Majādil
+ar;خربة خو;Khirbat Khaww
+fa;خیربت خهوو;Khirbat Khaww
+ar;خطلة;Khaţlah
+ar;جريبة;Juraybah
+ar;جبا;Jabā
+ar;خربة إبصار;Ibsar Abū ‘Alī
+ar;ابسر ابو علي;Ibsar Abū ‘Alī
+ar;ابسر;Ibsar Abū ‘Alī
+ar;هويشان;Huwayshān
+ar;بطينة;Buţaynah
+ar;بيرين;Bīrayn
+ar;عين بني حسن;‘Ayn Banī Ḩasan
+ar;خربة عين;‘Ayn Banī Ḩasan
+ar;خربة الطيارة;Aţ Ţayyārah
+ar;الطيارة;Aţ Ţayyārah
+ar;الصوان;Aş Şawwān
+ar;خربة السحيلة;As Saḩīlah
+ar;السحيلة;As Saḩīlah
+ar;السحلولية;As Saḩlūlīyah
+ar;خربة الشيخ عليان;Khirbat ash Shaykh ‘Ulayyān
+ar;خربة الشيخ محمد;Khirbat ash Shaykh Muḩammad
+ar;المشارع;Al Mashāri‘
+ar;خربة الشيخ حسين;Khirbat ash Shaykh Ḩusayn
+ar;خربة الشواهد;Khirbat ash Shawāhid
+ar;الرقة;Ar Ruqqah
+ar;خربة الوهادنة;Khirbat al Wahādinah
+ar;خربة العناب;Khirbat al ‘Unnāb
+ar;المريغة;Al Murayghah
+ar;المضري;Al Muḑarī
+ar;منشية القبلان;Manshīyat al Qablān
+ar;روضة الرويعي;Rawḑat ar Ruway‘ī
+ar;خربة الحاوي;Khirbat al Ḩāwī
+ar;الحاوي;Khirbat al Ḩāwī
+ar;سيل الحمة;Sayl al Ḩammah
+ar;الحمة;Sayl al Ḩammah
+ar;البيرة;Al Bīrah
+ar;الديرة الشرقية;Ad Dayrah ash Sharqīyah
+ar;خربة عفنا;Khirbat ‘Afnā
+ar;الدقمسة;Ad Duqmussah
+ar;خربة عابور (عابون);Khirbat ‘Ābūn
+ar;ابو حامد;Abū Ḩāmid
+ar;خربة أبو الزيتون;Abū az Zaytūn
+ar;ابو الزيتون;Abū az Zaytūn
+ar;أبو السوس;Abū as Sūs
+ar;القصبة;Al Qaşabah
+ar;الاشرفية;Al Ashrafīyah
+ar;خنزيرة;Al Ashrafīyah
+ar;خزمة;Khazmah
+ar;خوخا;Khawkhā
+ar;خشم القطرة;Khashm al Qatrah
+ar;كوم الرف;Kawm ar Raff
+ar;الكوم الاحمر;Al Kawm al Aḩmar
+ar;كثربا;Kathrabbā
+ar;كفر يوبا;Kafr Yūbā
+ar;كفر راكب;Kafr Rākib
+ar;كفر رحتا;Kafr Raḩtā
+ar;كفر كيفيا;Kafr Kīfiyā
+ar;كفر خل;Kafr Khall
+ar;كفر جايز;Kafr Jāyiz
+ar;كفر هودا;Kafr Hūdā
+ar;كفر عوان;Kafr ‘Awān
+ar;كفر عان;Kafr ‘Ān
+ar;كفر الماء;Kafr al Mā’
+ar;كفر الدرة;Kafr aḑ Ḑurrah
+ar;جوير;Juwayr
+ar;الجرف;Jurf ad Darāwīsh
+ar;جرف الدراويش;Jurf ad Darāwīsh
+ar;جرينة;Juraynah
+ar;جمحة;Jumḩah
+ar;جحفية;Juḩfīyah
+ar;جفين;Juffayn
+ar;جبة;Jubbah
+ar;جنين الصّفا;Jinnīn aş Şafā
+ar;جنين الصنا;Jinnīn aş Şafā
+ar;جنين;Jinnīn aş Şafā
+ar;ججين;Jijjīn
+ar;جوزا;Jawzah
+ar;جريش الضريسات;Jarrīsh aḑ Ḑuraysāt
+ar;جلول;Jalūl
+ar;جلعد;Jal‘ad
+ar;جحرا;Jaḩrā’
+ar;جدعا;Jad‘ah
+ar;جابر;Jābir as Sirḩān
+ar;جابر السرحان;Jābir as Sirḩān
+ar;عزريت;‘Izrīt
+ar;اشتفينا;Ishtafaynā
+ar;اسعرة;Is‘arah
+ar;عرجان;Irjān
+ar;عرجان;‘Irjān
+ar;عيرا;‘Īrā
+ar;عنبة;‘Inbah
+ar;إمراع;Imra‘
+ar;امرع;Imra‘
+ar;عبلين;‘Ibillīn
+ar;ابدر;Ibdar
+ar;عبين;‘Ibbīn
+ar;حبراص;Ḩubrāş
+ar;حسبان;Ḩisbān
+ar;حيان الرويبض;Ḩayyān ar Ruwaybiḑ
+ar;حيان الرويبض الشرقي;Ḩayyān ar Ruwaybiḑ
+ar;حيان الرويبض الغربي;Ḩayyān ar Ruwaybiḑ
+ar;منشية العليان;Manshīyat al ‘Ulyān
+ar;حيان المشرف;Ḩayyān al Mushrif
+ar;حوارة;Ḩawwārah
+ar;حوشا;Ḩawshā
+ar;حوفا;Ḩawfā
+ar;حور;Ḩawar
+ar;حرتا;Ḩartā
+ar;حريما;Ḩarīmā
+ar;همتا;Hamtā
+ar;حمنانة;Ḩamnānah
+ar;حمامة العليمات;Ḩammāmat al ‘Alīmāt
+ar;حمامة;Ḩammāmat al ‘Alīmāt
+ar;هام;Hām
+ar;حَلَق الشقيق;Ḩalaq ash Shuqayq
+ar;حبكا;Ḩabakā
+ar;خربة غريسة;Khirbat Gharīsah
+ar;غريسة;Khirbat Gharīsah
+ar;الدرزية;Ad Durzīyah
+ar;فقوع;Fuqū‘
+ar;فيفا;Fayfā
+ar;فوعرة;Faw‘arah
+ar;فارة;Fārah
+ar;فاع;Fā‘
+ar;خربة الدوير;Khirbat ad Duwayr
+ar;خربة دوحلة;Khirbat Dawḩalah
+ar;العمرية;Al ‘Umarīyah
+ar;دليقة;Al ‘Umarīyah
+ar;الدليلة;Ad Dulaylah
+ar;دليلة المطيرات;Ad Dulaylah
+ar;دليلة الحمايدة;Dulaylat al Ḩamāyidah
+ar;ضرار;Ḑirār
+ar;دبين;Dibbīn
+ar;دعم;Di‘am
+ar;ذيبان;Dhībān
+ar;ذات رأس;Dhāt Ra’s
+ar;دير ورق;Dayr Waraq
+ar;دير السعنة;Dayr as Si‘nah
+ar;دير الصمادية;Dayr aş Şamādīyah al Janūbī
+ar;دير الصمادية الجنوبي;Dayr aş Şamādīyah al Janūbī
+ar;دير الليات;Dayr al Līyāt
+ar;دير علا;Dayr ‘Allā
+ar;دير أبي سعيد;Dayr Abū Sa‘īd
+am;دير ابو سعيد;Dayr Abū Sa‘īd
+ar;دوقرة;Dawqarah
+ar;عرقوب النعير;‘Urqūb an Nu‘ayr
+ar;ضانا;Ḑānā
+ru;Дана;Ḑānā
+ar;دامية;Dāmiyah
+ar;دحل;Daḩl
+ar;بشرى;Bushrá
+ar;بريقا;Burayqā
+ar;بريقة;Burayqā
+ar;بئر حمد;Bīr Ḩamad
+ar;بير حمد;Bīr Ḩamad
+ar;بديّن;Biddīn
+ar;بيوضة الشمالية;Bayyūḑah ash Shamālīyah
+ar;بيت زرعة;Bayt Zir‘ah
+ar;بيت رأس;Bayt Ra’s
+ar;بيت راس;Bayt Ra’s
+ar;باعون;Bā‘ūn
+ar;بتير;Batīr
+ar;بسطة;Basţah
+ar;بسطه;Basţah
+ar;برزا;Nuzhat al Wālah
+ar;نزهة الوالة;Nuzhat al Wālah
+ar;برزا;Barzah
+ar;برزة;Barzah
+ar;برازين;Barāzīn
+ar;برشتا;Barashtā
+ar;بلاّص;Ballās
+ar;بلعما;Bal‘amā
+ar;بلد الشيخ;Balad ash Shaykh
+ar;بلد المنصورة;Al Manşūrah
+ar;المنصورة;Al Manşūrah
+ar;عفرا;‘Afrā
+ar;بهلول;‘Afrā
+ar;بذّان;Badhdhān
+ar;الزنية;Az Zunayyah
+ar;زملة الطرقي;Zumlat aţ Tarqī
+ar;الزبيدية;Az Zubaydīyah
+ar;الزمالية;Az Zimālīyah
+ar;الزعتري;Az Za‘tarī
+ar;الزّرّاعة;Az Zarrā‘ah
+ar;مثلث الأزرق;Muthallath al Azraq
+ar;عينون;‘Aynūn
+ar;أم نجاصة;Umm Nijaşah
+ar;عين عمون;‘Ayn Ammūn
+ar;عين أمون;‘Ayn Ammūn
+ar;عين الباشا;‘Ayn al Bāshā
+ar;عيمة;‘Aymah
+ar;ايل;Ayl
+ar;Īyl;Ayl
+ar;أيدون بني حسن;Aydūn Banī Ḩasan
+ar;ايدون;Aydūn Banī Ḩasan
+ar;أوصرة;Awşarah
+ar;الطنيب;Aţ Ţunayb
+ar;الطوال الجنوبي;Aţ Ţiwāl al Janūbī
+ar;الطوال الشمالي;Aţ Ţiwāl ash Shamālī
+ar;الطرازين;Aţ Ţarāzīn
+ar;بيوضة الغربية;Buyūḑah al Gharbīyah
+ar;الثغرة;Ath Thughrah
+ar;الثنية;Ath Thanīyah
+ar;عطروز;‘Aţrūz
+ar;السويلمة;As Suwaylimah
+ar;سواقة;Suwāqah
+ar;سليخات;Sulaykhāt
+ar;السخنة;As Sukhnah
+ar;الصبيحي;Aş Şubayḩī
+ar;السماكية;As Simākīyah
+ar;السيلة;As Saylah
+ar;السلع;As Sil‘
+ar;الصوالحة;Aş Şawāliḩah
+ar;الصريح;Aş Şarīḩ
+en;Al Sarih;Aş Şarīḩ
+ar;السّمط;As Samţ
+ar;سمرا;Samrā
+ar;السامك;As Sāmik
+ar;السليحي;As Salīḩī
+ar;الساخنة;As Sākhinah
+ar;السفينة;As Safīnah
+ar;الصدقة;Aş Şadaqah
+ar;الشقيق;Ash Shuqayq
+fa;الشقیق;Ash Shuqayq
+pl;Asz-Szukajk;Ash Shuqayq
+ar;الشونة الشمالية;Ash Shūnah ash Shamālīyah
+ar;الشفتة;Ash Shufatah
+fa;شوفاته;Ash Shufatah
+ar;الشيخ محمد;Ash Shaykh Muḩammad
+ar;الشوبك;Ash Shawbak
+ru;Шобак;Ash Shawbak
+ar;الشكارة;Ash Shakārah
+ar;الرويشد;Ar Ruwayshid
+ar;الرسيس;Ar Rusays
+ar;الرصيفة;Ar Ruşayfah
+ar;الرمان;Ar Rummān
+ar;الرميمين;Ar Rumaymīn
+ar;الرميل;Rumayl
+ar;رميل;Rumayl
+ar;الرياشي;Ar Riyāshī
+ar;الرشايدة;Ar Rashāyidah
+ar;الرشادية;Ar Rashādīyah
+ar;الراجف;Ar Rājif
+ar;الرحبة;Ar Raḩbah
+ar;الرفيد;Ar Rafīd
+ar;النهضة;An Nahḑah
+ar;اريحا;Arīḩā
+ar;مثلث العارضة;Muthallath al ‘Āriḑah
+ar;عقربا;‘Aqrabā
+ar;النعيمة;An Nu‘ayyimah
+ar;النعيمي;An Nu‘aymī
+ar;النمرة;An Nimrah
+ar;الناقوبة;An Naqūbah
+ar;النقع;An Naq‘
+ar;النمتة;An Namatah
+ar;النبي هود;An Nabī Hūd
+ar;عمراوة;‘Amrāwah
+ar;عمرة و عميرة;‘Amrah wa ‘Umayrah
+ar;عمرة;‘Amrah wa ‘Umayrah
+ar;عميرة;‘Amrah wa ‘Umayrah
+ar;عموريا;‘Ammūrīyā
+ar;اليزيدية;Al Yazīdīyah
+ar;الياروت;Al Yārūt
+ar;اليادودة;Al Yādūdah
+ar;العميان;Al ‘Umyān
+ar;القويحية;Al Quwayḩīyah
+ar;القريّات;Al Qurayyāt
+ar;قرين;Al Qurayn
+ar;القرين;Al Qurayn
+ar;القنية;Al Qunayyah
+ar;القصفة;Al Qişfah
+ar;Al Qiḩāţī;Al Khālidīyah ash Sharqīyah
+ar;الخالدية الشرقية;Al Khālidīyah ash Sharqīyah
+ar;القسطل;Al Qasţal
+ar;روضة الأمير راشد;Rawḑat al Amīr Rāshid
+ar;القاع;Rawḑat al Amīr Rāshid
+ar;المشيرفة الغربية;Al Mushayrifah al Gharbīyah
+ar;المشقّر;Al Mushaqqar
+ar;المصيطبة;Al Muşayţibah
+ar;المسيطبة;Al Muşayţibah
+ar;المقارعية;Al Muqāri‘īyah
+ar;الحمة الأردنية;Al Ḩammah al Urdunīyah
+ar;منشية القنو;Manshīyat al Qunw
+ar;المكيفتة;Al Mukayfitah
+ar;المجيدل;Al Mujaydah
+ar;المجيدة;Al Mujaydah
+ar;مغير السرحان;Mughayyir as Sirḩān
+ar;المغير;Mughayyir as Sirḩān
+ar;المعطن;Al Mi‘ţan
+ar;غور المزرعة;Ghawr al Mazra‘ah
+ar;المرزة;Al Marrazah
+ar;المزار الشمالي;Al Mazār ash Shamālī
+ar;المزار;Al Mazār ash Shamālī
+ar;المثلوثة;Al Mathlūthah
+ar;المصطبة;Al Maşţabah
+ar;المشارقة;Al Mashāriqah
+ar;المسرة الغربية;Al Masarrah al Gharbīyah
+ar;المنشية;Al Manshīyah
+ar;منشية الكعبير;Manshīyat al Ka‘bīr
+ar;منشية بني حسن;Manshīyat Banī Ḩasan
+ar;المنشية;Manshīyat Banī Ḩasan
+ar;المنشية;Al Manshīyah al Mazzār
+ar;المنشية المزار;Al Manshīyah al Mazzār
+ar;المنش;Al Manashsh
+ar;المخبثة;Al Makhbathah
+ar;المجدل;Al Majdal
+ar;المدور;Al Madwar
+ar;المدرسة;Al Madrasah
+ar;اللبّن;Al Lubban
+ar;علان;‘Allān
+ar;اللجون;Al Lajjūn
+ar;اللعبان;Al La‘bān
+ar;خربة الكرسي;Khirbat al Kursī
+ar;الكرسي;Khirbat al Kursī
+ar;الكفير;Al Kufayr
+ar;الخريبة;Al Khuraybah
+ar;الخريبة;Al Manşūrah
+ar;الخربة السمراء;Al Khirbah as Samrā’
+ar;خربة السمراء;Al Khirbah as Samrā’
+ar;الخراج;Al Kharāj
+ar;الخناصري;Al Khanāşirī
+ar;الخان;Al Khān
+ar;الكمشة;Al Kamshah
+ar;الكفرين;Al Kafrayn
+ar;الجويدة;Al Juwayyidah
+ar;الجندي;Al Jundī
+ar;جميل;Al Jumayyil
+ar;الجميّل;Al Jumayyil
+fa;الجمیل;Al Jumayyil
+ur;الجمیل;Al Jumayyil
+ar;الجهير;Al Juhayr
+ar;الجدَيدة;Al Judayyidah
+fa;ال جودایاده;Al Judayyidah
+pl;Al-Dżudajjida;Al Judayyidah
+ar;الجرم;Al Jirm
+ar;الجزازة;Al Jazzāzah
+ar;الجاية;Al Jāyah
+ar;الجوزة;Al Jawzah
+ar;الشيخ حسين;Ash Shaykh Ḩusayn
+ar;قلاعات;Ash Shaykh Ḩusayn
+ar;العزيّة;Al ‘Izzīyah
+ar;العيساوية;Al ‘Īsāwīyah
+ar;العيص;Al ‘Īş
+ar;العيس;Al ‘Īş
+ar;العراق;Al ‘Irāq
+ar;الحسينية;Al Ḩusaynīyah
+ar;الحصن;Al Ḩişn
+ar;الحي;Al Ḩayy
+ar;اسكان الحي;Al Ḩayy
+ar;الحواسية;Al Ḩawwāsīyah
+ar;الدّويخلة;Al Hāshimīyah al Janūbīyah
+ar;الدوخيلة;Al Hāshimīyah al Janūbīyah
+ar;الهاشمية;Al Hāshimīyah
+ar;الحسا;Al Ḩasā
+ar;الهربج;Al Harbaj
+ar;الحراوية;Al Harāwīyah
+ar;الحقاوة;Al Ḩaqāwah
+ar;الحنانة;Al Ḩannānah
+ar;الحمود;Al Ḩamūd
+ar;الحدادة;Al Ḩaddādah
+ar;الغوير;Al Ghuwayr
+ar;الغبيّة;Al Ghubayyah
+ar;الفيضة;Al Fayḑah
+ar;الفرذخ;Al Fardhakh
+ar;الفاخرة;Al Fākhirah
+ar;البويضة;Al Buwayḑah
+ar;البويضا;Al Buwayḑah
+ar;بويضة الغربية;Buwayḑah al Gharbīyah
+ar;البويضا;Buwayḑah al Gharbīyah
+ar;البرج;Al Burj
+ar;البقيع;Al Buqay‘
+ar;البنيّات الجنوبية;Al Bunayyāt al Janūbīyah
+ar;بير البيطار;Bīr al Bayţār
+ar;عين البيضاء;‘Ayn al Bayḑā’
+ar;الباقورة;Al Bāqūrah
+ar;الباعج;Al Bā‘ij
+ar;البحر;Al Baḩr
+ar;عين البحّاث;‘Ayn al Baḩḩāth
+ar;العينا;Al ‘Aynā
+ar;الأشرفية;Al Ashrafīyah
+ar;العروضة;Az Zaynah
+ar;الزينة;Az Zaynah
+ar;العرجا;Al ‘Arjā
+ar;العريض;Al ‘Arīḑ
+ar;علاقان;‘Alaqān
+ar;العامرية;Al ‘Āmirīyah
+ar;العمقة;Al ‘Amaqah
+ar;العالوك;Al ‘Ālūk
+ar;علعال;‘Al‘āl
+ar;العال;Al ‘Āl
+ar;خربة العال;Al ‘Āl
+ar;العدسية;Al ‘Adasīyah
+ar;العباسية;Al ‘Abbāsīyah
+ar;‘Ajāj;Al Mukhaybah at Taḩtā
+ar;المزرعة;Al Mukhaybah at Taḩtā
+ar;المخيبة التحتا;Al Mukhaybah at Taḩtā
+ar;ذنيبّة;Adh Dhunaybah
+ar;الذنيبة;Adh Dhunaybah
+ar;الضهيبة;Adh Dhuhaybah ash Sharqīyah
+ar;الذهيبة الشرقية;Adh Dhuhaybah ash Sharqīyah
+ar;الذهيبة;Adh Dhuhaybah ash Sharqīyah
+nn;Adh Dhuhaybah;Adh Dhuhaybah ash Sharqīyah
+en;Adh Dhuhaybah;Adh Dhuhaybah ash Sharqīyah
+fa;اده داهایبا;Adh Dhuhaybah ash Sharqīyah
+sco;Adh Dhuhaybah;Adh Dhuhaybah ash Sharqīyah
+nl;Adh Dhuhaybah;Adh Dhuhaybah ash Sharqīyah
+sq;Adh Dhuhaybah;Adh Dhuhaybah ash Sharqīyah
+ar;غور الذراع و الحناوة;Ghawr adh Dhrā’ Wa al Ḩanāwah
+ar;الدويخلة;Ad Duwaykhilah
+ar;الدمنة;Ad Dimnah
+ar;الدير;Dayr aş Şamādīyah ash Shamālī
+ar;دير الصمادية الشمالي;Dayr aş Şamādīyah ash Shamālī
+ar;الدجنية;Ad Dajanīyah
+ar;الدفيانة;Ad Dafyānah
+ar;الدباكة;Ad Dabbākah
+ar;أبو ترابة;Abū Turābah
+ar;ابو ترابة;Abū Turābah
+ar;عابور;‘Ābūr
+ar;ابو نصير;Abū Nuşayr
+ar;أبو مخطوب;Abū Makhţūb
+ar;ابو حمور;Abū Ḩammūr
+ar;بير أبو دنة;Bīr Abū Dannah
+ar;بير ابو دنه;Bīr Abū Dannah
+ar;ابو الزيغان;Abū az Zīghān
+ar;أم الصليح;Umm aş Şalīḩ
+ar;ابو صليح;Umm aş Şalīḩ
+ar;أبو القين;Abū al Qayn
+ar;أبو اللوقس;Abū al Lawqas
+ar;ابو اللسن;Abū al Lasan
+ar;عابل;‘Ābil
+ar;الريشة;Ar Rīshah
+ar;المناخر;Al Manākhir
+ar;الموقر;Al Muwaqqar
+ar;ضبعة;Ḑab‘ah
+ar;العمري;Al ‘Umarī
+ar;رحمة;Raḩmah
+ar;ضربة;Raḩmah
+ar;الحميمة الجديدة;Al Ḩumaymah al Jadīdah
+ar;لحظة;Laḩz̧ah
+ar;الفجيج;Al Fujayj
+ar;مشروع توطين البدو;Mashrū‘ Tawţīn al Badw
+ar;اسكان شركة الفوسفات;Iskān Sharikat al Fūsfāt
+ar;الحامدية;Al Ḩāmidīyah
+ar;اسكان دبّابنة;Iskān Dabbābinah
+ar;العالية;Al ‘Āliyah
+ar;فينان;Faynān
+ar;Fīnān;Faynān
+ar;ام مثلا;Umm Muthlā
+ar;الدعجانية;Ad Da‘jāniyah
+ar;شيظم;Shayz̧am
+ar;ابو بنا;Abū Bannā
+ar;صويميح;Şuwaymīḩ
+ar;السلماني;As Salmānī
+ar;المحمدية;Al Muḩammadīyah
+ar;عنيزة;‘Unayzah
+ar;تل برما;Tall Burmā
+ar;الزبيرية;Az Zubayrīyah
+ar;الزيتونه;Az Zaytūnah
+ar;أم سراب;Umm Sarāb
+ar;المثلث;Al Muthallath
+ar;بير خداد;Bīr Khidād
+ar;حوالة;Ḩuwālah
+ar;حواله;Ḩuwālah
+ar;مقدس وأم الصوان;Maqdis wa Umm aş Şawwān
+ar;بير الدباغات;Bīr ad Dabbāghāt
+ar;بئر الدباغات;Bīr ad Dabbāghāt
+ar;الطميعة;Aţ Ţumay‘ah
+ar;الجرباء الكبيرة;Al Jarbā’ al Kabīrah
+ar;أم زعرورة;Umm Zu‘rūrah
+ar;الجرباء الصغيرة;Al Jarbā’ aş Şaghīrah
+ar;العوينة;Al ‘Uwaynah
+ar;الطاحونة;Aţ Ţāḩūnah
+ar;الطاحونه;Aţ Ţāḩūnah
+ar;ام صيحون;Umm Şayḩūn
+ar;البيضا;Al Bayḑā
+ar;اسكان الحي;Iskān al Ḩayy
+ar;سيل ريعا;Sayl Ray‘ā
+ar;بير ابو العلق;Bīr Abū al ‘Alaq
+ar;البقعة;Al Buq‘ah
+ar;بير مذكور;Bīr Madhkūr
+ar;القريقرة;Al Qurayqarah
+ar;غرندل;Gharandal
+ar;رواث;Ruwāth
+ar;العين البيضاء;Al ‘Ayn al Bayḑā’
+ar;زحيقة;Zuḩayqah
+ar;عرفة;‘Arfah
+ar;اضباعة;Aḑibā‘ah
+ar;ارحاب;Arḩāb
+ar;البربيطة;Al Burbayţah
+ar;الهاشمية الجنوبية;Al Hāshimīyah al Janūbīyah
+ar;النعيمة;An Na‘īmah
+ar;شقيرا الغربية;Shuqayrā al Gharbīyah
+ar;المدبة;Al Madabah
+ar;القادسية;Al Qādisīyah
+ar;المعمورة;Al Ma‘mūrah
+ar;الحياض;Al Ḩiyāḑ
+ar;طاسان;Ţāsān
+ar;القاسمية;Al Qāsimīyah
+ar;ضور;Ḑawr
+ar;دلاغة;Dilāghah
+ar;دلاغه;Dilāghah
+ar;أم الرخم;Umm ar Rakhm
+ar;حديرا;Ḩudayrā
+ar;الجثة;Al Juththah
+ar;الأرزة;Al Arzah
+ar;بدا;Badā
+ar;عين الهوارة;‘Ayn al Hawwārah
+ar;اليمانية;Al Yamānīyah
+ar;خشم البتراء;Khashm al Batrā’
+ar;الدرة;Ad Durrah
+ar;الدره;Ad Durrah
+ar;تتن;Tutun
+ar;الراشدية;Ar Rāshidīyah
+ar;جبل الشريح;Jabal ash Shurayḩ
+ar;الغال;Al Ghāl
+ar;قاع الغال;Al Ghāl
+ar;منيشير;Munayshīr
+ar;الديسة;Ad Dīsah
+ar;الطويسة;Aţ Ţuwaysah
+ar;الطويل;Aţ Ţawīl
+ar;الصالحية;Aş Şāliḩīyah
+ar;الشاكرية;Ash Shākirīyah
+ar;دبة حانوت;Dibbat Ḩānūt
+ar;الفرش;Al Farsh
+ar;قطر;Quţr
+ar;المزفر;Al Muzaffar
+ar;الرابية;Ar Rabīyah
+ru;Вифания;Bethany
+ar;الطبريات;Aţ Ţabriyāt
+ar;الخضراء;Al Khaḑrā’
+ar;الزيتونة;Az Zaytūnah
+ar;المنارة;Al Manārah
+ar;أرينبة الشرقية;Uraynibah ash Sharqīyah
+ar;الزعفران;Az Za‘farān
+ar;رجم العقاب;Rujm al ‘Uqāb
+ar;رجم فهيد;Rujm Fahīd
+ar;أبو حليليفة;Abū Ḩulaylīfah
+ar;الثمد;Ath Thamad
+ar;الباسلية;Al Bāsilīyah
+ar;الشهداء;Ash Shuhadā’
+ar;أم رقيبة;Umm Raqībah
+ar;الندوة;An Nadwah
+ar;طور الحساس;Ţūr al Ḩashāsh
+ar;طور الحشاش;Ţūr al Ḩashāsh
+ar;الصلاحية;Aş Şalāḩīyah
+ar;المنيطر;Al Munayţir
+ar;الموارس;Al Mawāris
+ar;المبروكة;Al Mabrūkah
+ar;الزميلة;Az Zamīlah
+ar;الكتيفة;Al Katīfah
+ar;الكتيفة الغربية;Al Katīfah al Gharbīyah
+ar;ضبيعة;Ḑubay‘ah
+ar;حمام الشموط;Ḩammām ash Shamūţ
+ar;الشموط;Ash Shamūţ
+ar;العرين;Al ‘Arīn
+ar;مسترة الفالج;Musattarat al Fālij
+ar;الفالج;Al Fālij
+ar;الثريا;Ath Thurayyā
+ar;الدامخي;Ad Dāmikhī
+ar;ابو الغربان;Abū al Ghurbān
+ar;رجل الدنعان;Rajul ad Dan‘ān
+ar;السلطاني;As Sulṭānī
+ar;الوادي الأبيض;Al Wādī al Abyaḑ
+ar;الكظيم;Al Kaz̧īm
+ar;العرقوب;Al ‘Urqūb
+ar;الدندنية;Ad Dandanīyah
+ar;ام زعرورة;Umm Za‘rūrah
+ar;الحرش;Al Ḩirsh
+ar;دمنة قطيش;Dimnat Quţaysh
+ar;الحميد;Al Ḩamīd
+ar;قاع القرن;Qā‘ al Qarn
+ar;الجدة;Al Jaddah
+ar;الحاروز;Al Ḩārūz
+ar;المصطاح;Al Mişţāḩ
+ar;اسكان المنشية;Iskān al Manshīyah
+ar;الوسية;Al Wasīyah
+ar;ام بطمة;Umm Buţmah
+ar;بويضة العليمات;Buwayḑah al ‘Alīmāt
+ar;عقيل;‘Aqīl
+ar;الغدير الابيض;Al Ghadīr al Abyaḑ
+ar;حميد;Ḩamīd
+ar;ام حصماصة;Umm Ḩaşmāşah
+ar;الحسين;Al Ḩusayn
+ar;حويجة;Ḩuwayjah
+ar;الرحمات;Ar Raḩmāt
+ar;المشرف;Al Mashraf
+ar;رسم حصان;Rasm Ḩişān
+ar;منشية الخميس;Manshīyat al Khamīs
+ar;ابو طنطور;Abu Ţanţūr
+ar;منشية الجدوع;Manshīyat al Judū‘
+ar;السعيدية;As Sa‘īdīyah
+ar;مثلث صبحا;Muthallath Şabḩā
+ar;القيصومة;Al Qayşūmah
+ar;العاقب;Al ‘Āqib
+ar;الزهور;Az Zuhūr
+ar;النزهة;An Nuzhah
+ar;طيبة المساعيد;Ţībat al Masā‘īd
+ar;حي سمرة;Ḩayy Samrah
+ar;روضة بسمة;Rawḑat Basmah
+ar;البستانة;Al Bustānah
+ar;منشية الزعتري;Manshīyat az Za‘tarī
+ar;منشية الغياث;Manshīyat al Ghayyāth
+ar;الأرتين;Al Aratayn
+ar;مثلث جامعة آل البيت;Muthallath Jāmi‘at Āl al Bayt
+ar;مثلث الجامعة;Muthallath Jāmi‘at Āl al Bayt
+ar;دير القن;Dayr al Qinn
+ar;الجبية;Al Jubayyah
+ar;خشاع القن;Khishā‘ al Qinn
+ar;مدور القن;Madwar al Qinn
+ar;تل أرماح;Tall Armāḩ
+ar;الثلاج;Ath Thallāj
+ar;البشرية;Al Bishrīyah
+ar;بني هاشم;Bānī Hāshim
+ar;روضة الأمير حمزة;Rawḑat al Amīr Ḩamzah
+ar;السعادة;As Sa‘ādah
+ar;نايفة;Nāyifah
+ar;الحميدية;Al Ḩamīdīyah
+ar;المنيصة;Al Munayşah
+ar;أرينبة النعيمات;Uraynabat an Na‘īmāt
+ar;الرفاعيات;Ar Rifā‘īyāt
+ar;قاسم;Qāsim
+ar;روضة الأمير علي بن الحسين;Rawḑat al Amīr ‘Alī Bin al Ḩusayn
+ar;المعزولة;Al Ma‘zūlah
+ar;العودة;Al ‘Awdah
+ar;غدير الناقة;Ghadīr an Nāqah
+ar;رحبة ركاد;Raḩbat Rakkād
+ar;الظاهرية;Az̧ Z̧āhirīyah
+ar;الطوق;Aţ Ţawq
+ar;المزرعة;Al Mazra‘ah
+ar;المثلج;Al Muthallaj
+ar;المشرفة;Al Mashrafah
+ar;ضاحية الحسين;Ḑāḩiyat al Ḩusayn
+ar;الملاليح الشرقية;Al Malālīḩ ash Sharqīyah
+ar;المفردات الشرقية;Al Mufarradāt ash Sharqīyah
+ar;المفردات الغربية;Al Mufarradāt al Gharbīyah
+ar;نيان;Nayyān
+ar;مذبح الخروف;Madhbaḩ al Kharūf
+ar;المنقطعة;Al Munqaţi‘ah
+ar;القرعة;Al Qar‘ah
+ar;الروضة;Ar Rawḑah
+ar;حمنانة الجديدة;Ḩamnānah al Jadīdah
+ar;البستان;Al Bustān
+ar;أم حوطة;Umm Ḩawţah
+ar;أم صويونية;Umm Şuwaywinīyah
+ar;خريسان;Khuraysān
+ar;الشرقية;Ash Sharqīyah
+ar;المراجم;Al Marājim
+ar;الكرم;Al Karm
+ar;الهرمشية;Al Harmashīyah
+ar;قطيمة;Quţaymah
+ar;مداوير النزهة;Madāwīr an Nuzhah
+ar;طالب;Ţālib
+ar;المعمرية;Al Mu‘ammarīyah
+ar;الرشادة;Ar Rashādah
+ar;الزعفرانة;Az Za‘farānah
+ar;النمارة;An Nammārah
+ar;المفردات;Al Mufarradāt
+ar;الحرارة;Al Ḩarārah
+ar;حميدية المساعيد;Ḩamīdīyat al Masā‘īd
+ar;حي الفواعرة;Ḩayy al Fawā‘irah
+ar;منشية السلطة;Manshīyat as Sulţah
+ar;البوادي;Al Bawādī
+ar;روضة أبو الهيال;Rawḑat Abū al Hayālī
+ar;الأميرة;Al Amīrah
+ar;البويضة الشرقية;Al Buwayḑah ash Sharqīyah
+ar;طيب إسم;Ţayyib Ism
+ar;رجم سبع الشمالي;Rujm Sab‘ ash Shamālī
+ar;الشياح;Ash Shiyāḩ
+ar;المطلة;Al Maţallah
+ar;المجدل;Al Mujaddil
+ar;دور حماد قميزة;Dūr Ḩammād Qumayzah
+ar;الحصب;Al Ḩaşab
+ar;المخذات;Al Mikhdhāt
+ar;السحارة;As Saḩḩārah
+ar;محرشة;Muḩrishah
+ar;طواحين العدوان;Ţawāḩīn al ‘Udwān
+ar;أم رامح;Umm Rāmiḩ
+ar;الحازية;Al Ḩāzīyah
+ar;أم المهابيش;Umm al Mahābīsh
+ar;مخزن الضبع;Makhzan aḑ Ḑab‘
+ar;أم زيتونة;Umm Zaytūnah
+ar;النعيمية;An Na‘īmīyah
+ar;إسكان القاعدة;Iskan al Qā‘idah
+ar;المشيرفة الوسطى;Al Mushayrifah al Wusţá
+ar;السحايل;As Saḩāyil
+ar;العبدلي;Al ‘Abdallī
+ar;دمنة;Dimnah
+ar;أبو الثلج;Abū ath Thalj
+ar;أم صرارة الشرقي;Umm Şarārah ash Sharqī
+ar;دير الكهف;Dayr al Kahf
+ar;المسرة الشرقية;Al Masarrah ash Sharqīyah
+he;חמת גדר;Hamat Gader
+ar;الحرير;Al Ḩarīr
+ar;خربة صاهول;Khirbat Şāhūl
+ar;مهاوش;Mahāwish
+ar;الحمامرة;Al Ḩamāmirah
+ar;ماجد;Mājid
+ar;حي الهنادي;Ḩayy al Hinādī
+ar;المنشية الفوقا;Al Manshīyah al Fawqā
+ar;العرامشة;Al ‘Arāmishah
+ar;فضين;Fuḑayn
+ar;دم السرار;Dam as Sarār
+ar;بصيلة;Buşaylah
+ar;أبو زياد;Abū Ziyād
+ar;المدارج;Al Madārij
+ar;القصيب;Al Quşayb
+ar;ابو سيدو;Abū Sayyidū
+ar;فقارس;Faqāris
+ar;القرن;Al Qarn
+ar;ابو هابيل;Abū Hābīl
+ar;وادي الريان;Wādī ar Rayyān
+ar;مقام شرحبيل;Maqām Sharḩabīl
+ar;السقي;As Saqī
+ar;القصبات;Al Qaşabāt
+ar;دير العسل;Dayr al ‘Asal
+ar;العشة;Al ‘Ushshah
+ar;سيفين;Sayfīn
+ar;خربة ارعان;Khirbat Ar‘ān
+ar;خربة ادعان;Khirbat Ar‘ān
+ar;دير الريح;Dayr ar Rīḩ
+ar;اسكان السرير;Iskān as Sarīr
+ar;حلاب الشعير;Ḩallāb ash Shu‘ayr
+ar;المشيدة;Al Mushayyadah
+ar;خلات السنينة;Khallāt as Sunaynah
+ar;المزيريب;Al Muzayrīb
+ar;القصيرين;Al Quşayrīn
+ar;بطين العلاة;Baţīn al ‘Alāh
+ar;الزوية;Az Zawīyah
+ar;البرز;Al Barz
+ar;الخيرية;Al Khayrīyah
+ar;المظلومة;Al Maz̧lūmah
+ar;أبو حميدة;Abū Ḩamīdah
+ar;الوصفية;Al Waşfīyah
+ar;المسجلانية;Al Musajjilānīyah
+ar;الخلة;Al Khallah
+ar;المدحبرة;Al Mudḩabirah
+ar;سراس;Sirās
+ar;الزعترة;Az Za‘tarah
+ar;بيارات العسل;Biyārāt al ‘Asal
+ar;خربة طيارة;Khirbat Ţayyārah
+ar;خربة حديجة;Khirbat Ḩadījah
+ar;خربة الدصيري;Khirbat ad Duşayrī
+ar;أم الخبايص;Umm al Khabāyiş
+ar;السهلة;As Sahlah
+ar;المندشة;Al Mandashah
+ar;الابراهيمية;Al Ibrāhīmīyah
+ar;وادي غرف الاحمر;Wādī Gharf al Aḩmar
+ar;الرحمة;Ar Raḩmah
+ar;خلة الزرع;Khallat az Zar‘
+ar;منشية كفر سوم;Manshīyat Kafr Sawm
+ar;المطحنة;Al Maţḩanah
+ar;الحجاج;Al Ḩujjāj
+ar;العروس;Al ‘Arūs
+ar;الزقيبة;Al Zuqaybah
+ar;حنو المربط;Ḩinw al Murabbiţ
+ar;ام الشوامر;Umm ash Shawāmir
+ar;كرمة حسبان;Karmat Ḩisbān
+ar;الطويلة;Aţ Ţuwaylah
+ar;القريعة;Al Quray‘ah
+ar;ام كزبرة;Umm Kuzbarah
+ar;العريش;Al ‘Arīsh
+ar;اليسرى الجديدة;Al Yusrá al Jadīdah
+ar;عفنان;‘Ufnān
+ar;المأمونية الشرقية;Al Ma’mūnīyah Ash Sharqīyah
+ar;الروابي;Ar Ruwābī
+ar;حي المزارع;Ḩayy al Mazāri‘
+ar;الحدب الجنوبي;Al Ḩadab al Janūbī
+ar;المعقر;Al Mi‘qar
+ar;منشية ماعين;Manshīyat Mā‘īn
+ar;الواحة;Al Wāḩah
+ar;الفالحة;Al Fāliḩah
+ar;حوية البلاونة;Ḩawīyat al Balāwinah
+ar;الهلالية;Al Hilālīyah
+ar;الصفا;Aş Şafā
+ar;المجدرة;Al Mujaddarah
+ar;الاشعل;Al Ash‘al
+ar;مقلع الخزنة;Miqla‘ al Khaznah
+ar;المشظ;Al Mashz̧
+ar;تجمع السن;Tajammu‘ as Sinn
+ar;الغدير;Al Ghadīr
+ar;تجمع المسيعدات;Tajammu‘ al Musay‘idāt
+ar;ام زويتينة;Umm Zuwaytīnah
+ar;ام الاوتاد;Umm al Awtād
+ar;الدير;Ad Dayr
+ar;الزهراء;Az Zahrā’
+ar;النامية;An Nāmīyah
+ar;ام نتولة;Umm Nattūlah
+ar;المشرفة;Al Mushrifah
+ar;ام شجرة;Umm Shajarah
+ar;بلوطة;Ballūtah
+ar;تلاع الدير;Tilā‘ ad Dayr
+ar;الريحانية;Ar Rayḩānīyah
+ar;العالية;Al ‘Ālīyah
+ar;ام جرن;Umm Jurn
+ar;ام النعاج;Umm an Ni‘āj
+ar;ذيبة;Dhībah
+ar;حي المشيرفة الحنوبية;Al Mushayrifah al Janūbīyah
+ar;الموجب;Al Mawjib
+ar;كركون;Karakūn
+ar;لب;Libb
+ar;الياهون;Al Yāhūn
+ar;الغروس;Al Ghurūs
+ar;أم القحوف;Umm al Qaḩūf
+ar;السويسة;Al Suwaysah
+ar;زبدة;Zabdah
+ar;الذهيبة الغربية;Adh Dhuhaybah al Gharbīyah
+ar;المشيرفة الشمالية;Al Mushayrifah ash Shamālīyah
+ar;ثغرة زبيد;Thughrat Zubayd
+ar;راس الاقرع;Rās al Aqra‘
+ar;دحوس;Diḩwas
+ar;كعب الملول;Ka‘b al Malūl
+ar;الفوارة;Al Fawwārah
+ar;اسكان القبو;Iskān al Qabū
+ar;عمامة;‘Amāmah
+ar;خشيبة الشرقية;Khushaybah ash Sharqīyah
+ar;الهونة;Al Hūnah
+ar;الفرح;Al Faraḩ
+ar;نوارة;Nawwārah
+ar;الرحمانية;Ar Raḩmānīyah
+ar;الرجم العالي;Ar Rujm al ‘Ālï
+ar;خربة العزمة;Khirbat al ‘Azmah
+ar;سلحوب;Salḩūb
+ar;الميدان;Al Maydān
+ar;قرية عقلة;Qaryat ‘Uqlah
+ar;الناصرية;An Nāşirīyah
+ar;مقام عيسى;Maqām ‘Īsá
+ar;الشونة الجديدة;Ash Shūnah al Jadīdah
+ar;الجواسرة;Al Jawāsirah
+ar;الجوفة;Al Jawfah
+ar;العجاجرة;Al ‘Ajājirah
+ar;الخصاص;Al Khaşāş
+ar;جملى;Jumlá
+ar;الظهرة;Az̧ Z̧ahrah
+ar;الحكور;Al Ḩakūr
+ar;الكاشف;Al Kāshif
+ar;الميسر;Al Maysar
+ar;سطح عدوان;Saţḩ ‘Adwān
+ar;وادي شعيب;Wādī Shu‘ayb
+ar;الحديب;Al Ḩudayb
+ar;الشويحي;Ash Shawīḩī
+ar;الجعيدية;Al Ju‘aydīyah
+ar;ابو نحيلة;Abū Nuḩaylah
+ar;أم سنديانة;Umm Sindiyānah
+ar;باب عمان;Bāb ‘Ammān
+ar;الديرة الغربية;Ad Dayrah al Gharbīyah
+ar;دعم الغزالات;Di‘am al Ghazālāt
+ar;الخشفة;Al Khashfah
+ar;بيوضة الشرقية;Buyūḑah ash Sharqīyah
+ar;طباعة;Ţabbā‘ah
+ar;ضاحية الزهراء;Ḑāḩiyat az Zahrā’
+ar;البلاونة;Al Balāwinah
+ar;الزبيدات;Az Zubaydāt
+ar;غور الزور;Ghawr az Zawr
+ar;الدباب;Al Dabbāb
+ar;عطوف;‘Aţūf
+ar;ميسرة الجديدة;Maysarah al Jadīdah
+ar;ظهرة الرمل;Z̧ahrat ar Raml
+ar;النبي يوشع;An Nabī Yūsha‘
+ar;وادي الناقة;Wādī an Nāqah
+ar;البحيرة;Al Buḩayrah
+ar;السرو;As Sarw
+ar;البطين;Al Buţayn
+ar;بطنا;Baţnā
+ar;الريشة التحتى;Al-Reeshah
+ar;الريشة الفوقا;Upper Reesha
+ar;سيّاح;Sīyāḩ
+ar;مؤاب;Mu’āb
+ar;ام الطوابين;Umm aţ Ţawwābīn
+ar;العراقين;Al ‘Arāqīn
+ar;ام هلال;Umm Hillāl
+ar;الحناوي;Al Ḩannāwī
+ar;مسحوب;Masḩūb
+ar;شحتور;Shaḩtūr
+ar;ابو شرف;Abū Sharaf
+ar;برصين;Barşīn
+ar;البليدة;Al Bulaydah
+ar;النزازة;An Nazzāzah
+ar;الحمة;Al Ḩammah
+ar;كرم الصانع;Karm aş Şāni‘
+ar;الناصرة;An Nāşirah
+ar;المحمودية;Al Maḩmūdīyah
+ar;مدينة البوتاس;Madīnat al Būtas
+ar;بردى;Bardá
+ar;كمنة;Kumnah
+ar;الشهابية;Al Shihābīyah
+ar;الزعترية;Az Za‘tarīah
+ar;سيل الكرك;Sayl al Karak
+ar;الصبيحات;Aş Şabīḩāt
+ar;الحوية;Al Ḩawīyah
+ar;المنقطعة;Al Munqaţa‘ah
+ar;اللبون;Al Labbūn
+ar;جوزا الجنوبية;Jawzā al Janūbīyah
+ar;جوزا الشمالية;Jawzā ash Shamālīyah
+ar;اسكان البوتاس;Iskān al Būtās
+ar;الحليلة;Al Ḩalīlah
+ar;تلعة الطور;Tal‘at aţ Ţūr
+ar;جرعب;Jur‘ab
+ar;الغويطة;Al Ghuwayţah
+ar;سوق الحيط;Sūq al Ḩīţ
+ar;العضايلة;Al ‘Aḑāylah
+ar;الحدبة;Al Ḩadabah
+ar;الحارثية;Al Ḩārithīyah
+ar;أم الغزلان;Umm al Ghizlān
+ar;النامورة;An Nāmūrah
+ar;أم الواسع;Umm al Wāsi‘
+ar;الزيتون;Az Zaytūn
+ar;الكبارية;Al Kabārīyah
+ar;العصارة;Al ‘Aşşārah
+ar;حاطم;Ḩāţim
+ar;الشياحة;Ash Shayyāḩah
+ar;درجة سعد;Darajat Sa‘d
+ar;خلة الحلو;Khallah al Ḩalū
+ar;عصيم;‘Aşīm
+ar;مشماس السماق;Mishmās as Summāq
+ar;بئر الدالية;Bi’r ad Dālīyah
+ar;المرجم;Al Murjam
+ar;ابو الهوى;Abū al Hawá
+ar;طيرة زيد;Ţīrat Zayd
+ar;بلوطة;Balūţah
+ar;المروج;Al Marūj
+ar;ابو الشروش;Abū ash Shurūsh
+ar;باب الحباصية;Bāb al Ḩabbāşīyah
+ar;الحروث;Al Ḩarūth
+ar;العقدة;Al ‘Uqdah
+ar;راس ابو الخير;Rās Abū al Khayr
+ar;خلة ام خشم;Khallat Umm Khashm
+ar;النجاش;An Najāsh
+ar;خلة وردة;Khallat Wardah
+ar;راس السوس;Rās as Sūs
+ar;النقب;An Naqab
+ar;اليابسة;Al Yābisah
+ar;ابو الشعر;Abū ash Sha‘ar
+ar;بيادر السوالمة;Bayādir as Suwālimah
+ar;المدورة;Al Mudawwarah
+ar;ثغرة عصفور;Thughrat ‘Uşfūr
+ar;الحسبان;Al Ḩisbān
+ar;المسقية;Al Masqīyah
+ar;ابن العظم;Ibn al ‘Az̧m
+ar;المصلى;Al Muşallá
+ar;ابو المغر;Abū al Maghar
+ar;ظهر الخربة;Z̧ahr al Khirbah
+ar;المروش;Al Murūsh
+ar;الزيزفونة;Az Zayzafūnah
+ar;الكسائر;Al Kasāyir
+ar;عين البستان;‘Ayn al Bustān
+ar;المشهد;Al Mashhad
+ar;الطواجين;Aţ Ţawwāḩīn
+ar;الحرث;Al Ḩarth
+ar;البركة;Al Birkah
+ar;ام الرمل;Umm ar Raml
+ar;مريمين;Marīmīn
+ar;خلة السمراء;Khallat as Samrā’
+ar;بصة عقلة;Başşat ‘Uqlah
+ar;ام الخشب;Umm al Khashab
+ar;الحنيش;Al Ḩanīsh
+ar;صفصافة التحتا;Şafşāfat at Taḩtā
+ar;راس الدلاقة;Rās ad Dallāqah
+ar;ام جوزة;Umm Jawzah
+ar;المسرب;Al Masrab
+ar;دبة الدير;Dabbat ad Dayr
+ar;الخضر;Al Khuḑar
+ar;جملة;Jumlah
+ar;الجبارات;Al Jabbārāt
+ar;البسطة;Al Busţah
+ar;المسيطيح;Al Musayţīḩ
+ar;الوطية;Al Waţīyah
+ar;زقريط الخضراء;Zaqrīţ al Khudrā’
+ar;زقريط الفوقا;Zaqrīţ al Fawqā
+ar;الذخيرة;Adh Dhakhīrah
+ar;الزبلية;Az Zabalīyah
+ar;ابو الليل;Abū al Layl
+ar;الجبل الاخضر;Al Jabal al Akhḑar
+ar;خشيبة الفوقا;Khushaybat al Fawqā
+ar;تل الربيع;Tall ar Rabī‘
+ar;اسكان السلطة;Iskān as Sulţah
+ar;المغريات;Al Mughayyarāt
+ar;كرم سلمان;Karm Salmān
+ar;باب الحباصية;Bāb al Ḩabāşīyah
+ar;دير الصمادية الشمالي;Dayr aş Şimādīyah ash Shamālī
+ar;ام صرارة الغربي;Umm Şarārah al Gharbī
+ar;خلة الحلو;Khallat al Ḩalū
+ar;المرجم;Al Marjam
+ar;غرناطة;Ghirnāţah
+ar;المحمدية دلحة;Al Muḩammadīyah Dalḩah
+ar;القدم;Al Qadam
+ar;مخنق الضبع;Mukhannaq aḑ Ḑab‘
+ar;ابو الظهور;Abū az̧ Z̧uhūr
+ar;أم خروبة;Umm Kharrūbah
+ar;المنصورة;Al Manşurah
+ar;الحميمة;Al Ḩumaymah
+ar;عصفور;‘Uşfūr
+ar;خشيبة;Khushaybah

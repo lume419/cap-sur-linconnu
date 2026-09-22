@@ -440,13 +440,15 @@ test('alias : lao / khmer / birman / thaï jamais déclarés dans une autre de c
 // (LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES) n'est donc rattaché au nom gardé que si ce nom est UNIQUE parmi les
 // lieux publiés du pays ; sinon l'alias vaudrait pour tous les homonymes (« 平泉 » renvoyait les 15 Tateishi du Japon,
 // « 蓮湖 » les 16 Lianhu de Chine, sans le bon lieu dans les dix premiers résultats).
-test('alias de fusion : seulement quand le nom gardé est unique dans le pays', () => {
+test('alias de fusion : publié pour CHAQUE fiche écartée, homonymes compris', () => {
+  // 22/09/2026, demande de l'utilisateur : « renvoyer tous les homonymes pour l'inclusion est meilleur ».
+  // Le 16e audit avait posé la règle inverse — l'alias d'une fiche écartée n'était rattaché au nom gardé que si ce nom
+  // était UNIQUE dans le pays, parce qu'un alias désigne son lieu par son NOM et ramène donc tous ses homonymes
+  // (« 平泉 » rendait les 15 Tateishi du Japon). Deux noms étaient ainsi devenus introuvables. La règle est inversée :
+  // mieux vaut quinze propositions dont la bonne qu'aucune. Ce test vérifie donc l'inverse de ce qu'il vérifiait :
+  // CHAQUE fiche écartée dont le nom gardé est publié doit avoir son alias, qu'il y ait des homonymes ou non.
   const bad = [];
-  // Nombre de lieux publiés portant chaque nom gardé (le fichier en compte plusieurs, published ne garde qu'un jeu de noms).
-  // 17e audit du 20/09/2026 : les noms VOULUS étaient rassemblés table par table et `counts.set(cc, m)` écrasait le
-  // relevé précédent — pour la Chine, l'Iran et le Japon, présents dans les DEUX tables, les lignes de la première
-  // ressortaient à 0 homonyme et n'étaient donc jamais contrôlées (2 lignes sur 85). Un seul relevé par pays.
-  const counts = new Map();
+  const publiés = new Map(); // pays -> noms publiés
   const wanted = new Map();
   for(const [cc, rows] of Object.entries(C.SAME_POINT_DUPLICATES).concat(Object.entries(C.LOCAL_SCRIPT_DUPLICATES))){
     if(!wanted.has(cc)) wanted.set(cc, new Set());
@@ -455,38 +457,35 @@ test('alias de fusion : seulement quand le nom gardé est unique dans le pays', 
   for(const [cc, want] of wanted){
     const m = new Map();
     eachLine(path.join(DATA, TripData.COUNTRIES[cc].file), l => { const n = nameOf(l); if(want.has(n)) m.set(n, (m.get(n) || 0) + 1); });
-    counts.set(cc, m);
+    publiés.set(cc, m);
   }
-  // 17e audit du 20/09/2026 — cette boucle ne pouvait RIEN détecter : elle codait « ja; » en dur (« 蓮湖 » est chinois,
-  // sa ligne commencerait par « zh; ») et ne regardait que deux noms, déjà couverts un à un plus bas. Elle parcourt
-  // maintenant TOUTES les lignes de fusion dont le nom gardé porte des homonymes, quelle que soit la langue :
-  //   - celles de MERGE_WITHDRAWN (retirées par la 16e passe) ne doivent avoir AUCUN alias publié ;
-  //   - les autres en ont une, et ce n'est pas la fusion qui l'a écrite : c'est un nom alternatif GeoNames d'une fiche
-  //     homonyme GARDÉE (« zh;东坑;Dongkeng » vient des fiches Dongkeng elles-mêmes). Le nom reste donc cherchable, mais
-  //     il renvoie les 138 Dongkeng ou les 172 Aḩmadābād — limite assumée, et c'est l'inverse de ce que le commentaire
-  //     de build-all-aliases.js prétendait. Le test échoue si ce partage change dans un sens ou dans l'autre (une
-  //     régénération qui remettrait 平泉, ou qui retirerait une des lignes GeoNames).
-  const MERGE_WITHDRAWN = new Set(['JP|平泉|Tateishi', 'CN|蓮湖|Lianhu']);
-  const MERGE_ALIAS_KEPT = 83; // lignes de fusion à homonymes dont le nom écarté reste publié comme alias (20/09/2026)
-  let kept = 0, homonymRows = 0;
+  let avecHomonymes = 0, total = 0;
   for(const [cc, rows] of Object.entries(C.SAME_POINT_DUPLICATES).concat(Object.entries(C.LOCAL_SCRIPT_DUPLICATES))){
     for(const [, name, , keptName] of rows){
-      const n = counts.get(cc).get(keptName) || 0;
-      if(n <= 1) continue;
-      homonymRows++;
+      const n = publiés.get(cc).get(keptName) || 0;
+      if(n === 0) continue; // nom gardé absent des lieux publiés : l'alias serait orphelin, un autre test le couvre
+      total++;
+      if(n > 1) avecHomonymes++;
       const lines = [...aliasSet(cc)].filter(l => { const p = l.split(';'); return p[1] === name && p[2] === keptName; });
-      const withdrawn = MERGE_WITHDRAWN.has(cc + '|' + name + '|' + keptName);
-      if(withdrawn && lines.length) bad.push(cc + ' : « ' + name + ' » rattaché à « ' + keptName + ' » (' + n + ' homonymes) : ' + lines.join(' , '));
-      if(!withdrawn && !lines.length) bad.push(cc + ' : « ' + name + ' » -> « ' + keptName + ' » (' + n + ' homonymes) : plus aucun alias publié, à ajouter à MERGE_WITHDRAWN');
-      if(!withdrawn) kept++;
+      // Une seule exception, vérifiée : le nom de la fiche écartée n'est alias de RIEN dans le pays, la source
+      // GeoNames ne le porte sous aucune langue d'interface — il n'y a donc rien à rattacher. Si un autre cas
+      // apparaît, il faut le regarder plutôt que l'ignorer : la liste est fermée.
+      const RIEN_A_RATTACHER = new Set(['JP|Yanagidamen|Ō-maki']);
+      const jamaisAlias = ![...aliasSet(cc)].some(l => l.split(';')[1] === name);
+      if(!lines.length && !(jamaisAlias && RIEN_A_RATTACHER.has(cc + '|' + name + '|' + keptName)))
+        bad.push(cc + ' : « ' + name + ' » -> « ' + keptName + ' » (' + n + ' lieu(x) de ce nom) : aucun alias publié');
+      if(lines.length && RIEN_A_RATTACHER.has(cc + '|' + name + '|' + keptName))
+        bad.push(cc + ' : « ' + name + ' » a désormais un alias : le retirer de RIEN_A_RATTACHER');
     }
   }
-  assert.ok(homonymRows >= 80, 'seulement ' + homonymRows + ' lignes de fusion à homonymes : la boucle ne teste plus rien');
-  if(kept !== MERGE_ALIAS_KEPT) bad.push(kept + ' lignes de fusion à homonymes gardent un alias publié au lieu de ' + MERGE_ALIAS_KEPT);
+  assert.ok(avecHomonymes >= 80, 'seulement ' + avecHomonymes + ' lignes de fusion à homonymes : la boucle ne teste plus rien');
+  assert.ok(total >= 140, 'seulement ' + total + ' lignes de fusion contrôlées');
+  // Les deux lignes que la 16e passe avait RETIRÉES doivent être revenues : c'est le cœur du changement.
+  for(const [cc, l] of [['JP', 'ja;平泉;Tateishi'], ['CN', 'zh;蓮湖;Lianhu']])
+    if(!aliasSet(cc).has(l)) bad.push(cc + ' : alias de fusion à homonymes toujours absent ' + JSON.stringify(l));
+  // Et celles qui n'ont jamais posé de problème sont toujours là.
   for(const [cc, l] of [['CN', 'zh;雄鸡埭;Xiongjidai'], ['IR', 'fa;گوانی;Gavānī'], ['JP', 'ja;大馬木;Ō-maki']])
     if(!aliasSet(cc).has(l)) bad.push(cc + ' : alias de fusion attendu absent ' + JSON.stringify(l));
-  for(const [cc, l] of [['JP', 'ja;平泉;Tateishi'], ['CN', 'zh;蓮湖;Lianhu']])
-    if(aliasSet(cc).has(l)) bad.push(cc + ' : alias de fusion publié malgré les homonymes ' + JSON.stringify(l));
   assert.deepEqual(bad, []);
 });
 

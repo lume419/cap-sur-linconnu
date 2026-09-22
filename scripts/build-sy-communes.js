@@ -80,7 +80,11 @@ const places = rows
     admin1Code: c[10] || '',
     pop: parseInt(c[14], 10) || 0
   }))
-  .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name && p.pop >= MIN_POP);
+  // SEUIL DE POPULATION LEVÉ (22/09/2026, demande de l'utilisateur : « on doit pouvoir les rechercher quand même si
+  // on les connaît »). La couverture syrienne était volontairement limitée aux localités d'au moins 1 000 habitants
+  // parce que le champ population du dump est très lacunaire — mais une population absente n'est pas une raison de
+  // rendre un village introuvable : 10 687 lieux réels étaient écartés. MIN_POP ne sert plus qu'au compteur.
+  .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name);
 
 const seen = new Map();
 for(const p of places){
@@ -90,13 +94,15 @@ for(const p of places){
 }
 const deduped = Array.from(seen.values());
 
+let sansGouvernorat = 0;
 const lines = deduped.map(p => {
   const cp = ADMIN1_TO_ISO[p.admin1Code];
-  if(!cp) return null;
-  return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp};;${p.name}`;
-}).filter(Boolean);
+  // Gouvernorat inconnu de la table ISO : publié avec l'étiquette du pays seul plutôt qu'écarté (22/09/2026).
+  if(!cp) sansGouvernorat++;
+  return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp || 'SY'};;${p.name}`;
+});
 
 const outPath = path.join(__dirname, '..', 'public', 'data', 'communes-sy.txt');
 fs.writeFileSync(outPath, dropNearDuplicates(lines).join('\n') + '\n', 'utf8'); // quasi-doublons (voir communes-corrections.js)
-console.log('SY : ', rows.length, 'lignes brutes ->', places.length, 'avec pop >=', MIN_POP, '->',
-  deduped.length, 'dédoublonnés ->', lines.length, 'avec gouvernorat ->', outPath);
+console.log('SY : ', rows.length, 'lignes brutes ->', places.length, 'publiés (dont', places.filter(p => p.pop >= MIN_POP).length, 'au-dessus de l' + String.fromCharCode(39) + 'ancien seuil de', MIN_POP, 'habitants) ->',
+  deduped.length, 'dédoublonnés ->', lines.length, 'publiés dont', sansGouvernorat, 'avec l\'étiquette du pays seul ->', outPath);

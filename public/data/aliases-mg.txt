@@ -1343,3 +1343,6 @@ uk;Маномпана;Manompana
 fa;مانومپانا;Manompana
 fa;ماهازوما;Mahazoma
 fa;امباراکاراکا;Ambarakaraka
+uk;Рантабе;Rantabe
+fa;رانتابه;Rantabe
+fa;آندرانوبوکا;Andranoboka

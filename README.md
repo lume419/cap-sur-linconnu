@@ -125,8 +125,8 @@ cap-sur-linconnu/
 │       ├── communes-im.txt     # 43 lieux mannois, même format (aucune correction de nom nécessaire)
 │       ├── aliases-im.txt      # idem pour l'île de Man (mannois/Gaelg en tête)
 │       ├── …                   # un communes-XX.txt et un aliases-XX.txt par pays : 239 fichiers d'alias
-│       │                        # (France comprise), 1 759 644 alias au total au 21/09/2026, après la
-│       │                        # publication des lieux sans code postal (1 718 520 avant, 1 717 755 au
+│       │                        # (France comprise), 1 792 471 alias au total au 22/09/2026, après la levée des
+│       │                        # exclusions sans rapport avec un code (1 759 644 au 21/09/2026, 1 718 520 avant, 1 717 755 au
 │       │                        # 19e audit ; 1 717 762 avant la 16e passe, le chiffre annoncé alors,
 │       │                        # 1 717 801, dépassant de 39 lignes le contenu réel) — voir
 │       │                        # "Noms alternatifs dans toutes les langues, pour tous les pays"
@@ -1490,6 +1490,10 @@ local (voir "Langues" ci-dessous, `scripts/build-aliases.js`), puis `scripts/bui
 qui complète tous les pays dans toutes les langues d'interface — France comprise : ses communes viennent
 de geo.api.gouv.fr, sans identifiant GeoNames, et sont donc rattachées aux noms alternatifs par nom et
 proximité (voir "Noms alternatifs dans toutes les langues, pour tous les pays").
+Depuis le 22/09/2026, `scripts/build-france-lieux.js` ajoute par-dessus les 46 654 lieux habités que GeoNames
+connaît en France et que la liste officielle des communes ne contient pas (anciennes communes fusionnées, hameaux,
+lieux-dits, arrondissements de Paris, Lyon et Marseille) — sans toucher une ligne IGN, et sans leur inventer de code
+postal.
 
 ### Asie : trente-cinq pays et territoires (septembre 2026)
 
@@ -1616,8 +1620,8 @@ Pays-Bas caribéens, Colombie, Venezuela, Guyana, Suriname, Équateur, Pérou, B
 Argentine, Chili, Malouines, Géorgie du Sud-et-les îles Sandwich du Sud — **763 003 lieux**
 (`scripts/build-ameriques-communes.js`) : Mexique 256 393, États-Unis 162 937, Brésil 66 533, Pérou 46 394, Colombie
 33 884, Bolivie 25 597, Venezuela 23 225, Canada 19 687… ; **~80 000 alias** (`scripts/build-ameriques-aliases.js`). Le
-site compte désormais **~4,9 millions de lieux** (4 907 889 exactement depuis la publication des lieux sans code
-postal, 21/09/2026 ; bundle communes 220 Mo bruts ; index de recherche 18,0 millions
+site compte désormais **~5,0 millions de lieux** (4 984 259 exactement depuis la levée des exclusions sans rapport avec un code
+postal, 22/09/2026 — 4 907 889 la veille ; bundle communes 220 Mo bruts ; index de recherche 18,0 millions
 d'entrées à l'époque, 17,65 millions aujourd'hui ; serveur ~2,4 Go, tirages prêts en ~14 s en local).
 
 **Codes postaux** (règle des 90 %) : États-Unis 96,6 %, Mexique 97,5 %, Bermudes, Costa Rica, Panama, Haïti, Porto Rico,
@@ -3741,6 +3745,123 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
 
 > Les passes d'audit sont listées de la plus récente à la plus ancienne. Les passes 4, 5 et 6 n'ont jamais eu de section ici : elles manquent au README, pas au dépôt (17e audit du 20/09/2026).
 
+### Les six limites traitées point par point (22 septembre 2026)
+
+L'utilisateur a repris une à une les limites « mesurées, écrites, pas corrigées » et dit quoi faire de chacune.
+Voici ce que chaque décision a donné, mesuré sur l'état final.
+
+**1. Homonymes de même code postal : fusionnés seulement s'ils sont AU MÊME ENDROIT.**
+« Si les coordonnées sont éloignées, c'est peut-être une autre ville. » Mesuré avant de trancher : sur les
+635 715 lieux qu'un homonyme de même code rendait inatteignables, **10,3 % seulement étaient à moins de 10 km** de
+celui qui survivait — ceux-là sont bien la même localité vue deux fois. Les **89,7 % autres sont d'autres villes**,
+et la moitié à plus de 100 km : Robīt (Éthiopie, 20 679 habitants) masqué par un homonyme à 227 km, Mafinga
+(Tanzanie, 34 958) à 119 km, Al Jubayl (Arabie saoudite) à 180 km, Ganta (Liberia) à 51 km. La clé des suggestions
+compare donc désormais la DISTANCE : au-delà de 10 km ce sont deux villes, et les deux sont proposées.
+**635 715 → 94 977 lieux masqués (13,0 % → 1,94 %)**, et il ne reste dans ce compte que 542 lieux à population
+connue. Les deux chemins de recherche — mémoire et index sur disque — appliquent la même règle, vérifié sur les
+cas cités.
+
+**2. Plafond « hors de portée » dépassé : voulu, rien à faire.** Le plafond annoncé pour un séjour de plusieurs
+jours est la contrainte de retour du visiteur, pas une distance atteignable, et le moteur le dit déjà
+(`returnCapExact: false`). Ce n'est donc pas un défaut : la ligne quitte la liste des limites.
+
+**3. `tensionBlocked` posé à tort : corrigé.** Le conseil « décochez Exclure les zones déconseillées » était donné
+dès que le tirage sans filtre rendait un plafond, **sans vérifier que le filtre bloquait vraiment**. Mesuré sur
+6 000 tirages : 3 annonces sur 90 envoyaient le visiteur décocher pour rien (Miquillo de Rio Grande à Porto Rico,
+Dosé au Togo, Sulby à l'île de Man). Le drapeau suit maintenant la règle que le reste du moteur applique depuis le
+9e audit : il faut **passer par un lieu tagué**. Un tirage de plus est fait au plafond, sans filtre, et le drapeau
+n'est posé que si cet itinéraire traverse réellement une zone ; s'il n'y a plus de budget de temps, le drapeau reste
+à faux plutôt que d'affirmer sans avoir vérifié. Remesuré après correction : **0 annonce à tort sur 87**. Un test
+rejoue le tirage au plafond AVEC le filtre et exige qu'il échoue — contrôle indépendant, qui ne regarde pas les
+zones ; il tombe si l'on remet l'affirmation sans preuve.
+
+**4. Alias : tous les homonymes sont renvoyés.** Le 16e audit ne rattachait l'alias d'une fiche fusionnée que si le
+nom gardé était UNIQUE dans le pays, parce qu'un alias désigne son lieu par son nom et ramène donc tous ses
+homonymes (« 平泉 » rendait les 15 Tateishi du Japon). Décision de l'utilisateur : mieux vaut quinze propositions
+dont la bonne qu'aucune. La restriction est levée — **+732 alias**, dont les deux que la 16e passe avait retirés
+(« 平泉 » → Tateishi, « 蓮湖 » → Lianhu), et les 24 formes de recherche encore perdues la veille. Le test qui
+verrouillait l'ancienne règle vérifie maintenant l'inverse : chaque fiche écartée doit avoir son alias, homonymes
+compris. Une seule exception, écrite et fermée : `JP|Yanagidamen|Ō-maki`, dont le nom n'est alias de rien dans le
+pays — la source GeoNames ne le porte sous aucune langue d'interface, il n'y a rien à rattacher.
+
+**5. « Aucune ville trouvée » dans les 161 langues.** La liste de suggestions se refermait en silence quand la
+recherche ne trouvait rien. La clé `form.city.searchNoResults` est ajoutée dans les 161 dictionnaires, chacune
+construite sur le motif « aucun X trouvé » de sa propre langue et sur son propre mot pour « ville » (tous deux déjà
+présents dans le dictionnaire : `lang.searchNoResults` et `form.city.label`), avec l'accord de la langue —
+« Aucune ville trouvée. », « Kein Ort gefunden. », « Ez da hiririk aurkitu. », « ⵓⵔ ⵜⵜⵓⴼⵉ ⵓⵍⴰ ⵢⴰⵜ ⵜⵎⴷⵉⵏⵜ. ». Le
+message n'apparaît que pour une réponse du serveur : une saisie trop courte referme la liste comme avant, sans
+reprocher au visiteur de ne pas avoir fini de taper.
+
+**6. Ports de ferry au centre de la localité : rien à faire.** Les 365 traversées annoncées plus courtes que la
+ligne droite entre leurs ports viennent du port pris au centre de la localité faute de quai relevé. La ligne reste
+dans les limites documentées, avec ses trois seuils figés par un test.
+
+**Roumain : la graphie la plus répandue gagne, et c'est la règle voulue.** Le départage des quasi-doublons retient
+la cédille héritée « Dobreşti » (5 occurrences) plutôt que la virgule souscrite « Dobrești » (3). C'était écrit
+comme une limite ; c'est en fait le comportement demandé — garder la forme la plus recherchée. Et les deux graphies
+se normalisent à l'identique : l'une comme l'autre retrouve le lieu, seul l'affichage diffère.
+
+**Îles « non distinguées » : deux des trois cas étaient déjà traités, le commentaire mentait.**
+`lib/trip-engine.js` affirmait que « les îles habitées au large (Vestmannaeyjar, Grímsey, Hrísey) ne sont pas
+distinguées, faute de découpage dans les données » et que les îles du sud de la mer de Marmara « ne sont PAS
+modélisées ». Vérifié le 22/09/2026 : `landmassOf` rend bien `vestmannaeyjar`, `grimsey`, `hrisey`, `avsa`,
+`marmaraIsland`, `ekinlik` et `pasalimani`, par les règles génériques `ISLAND_RULES`, et les liaisons existent avec
+leur source — grille Herjólfur 2026 pour Vestmannaeyjar, Sæfari pour Grímsey, grille GESTAŞ 2026 pour les cinq
+escales de la ligne d'Erdek. Les deux commentaires dataient d'avant l'ajout de ces règles et n'avaient pas été
+relus : ils sont corrigés. Restent volontairement de côté les ferries des fjords norvégiens — les vraies îles
+norvégiennes (Lofoten, Senja, Hitra/Frøya) sont reliées par pont ou tunnel, donc correctement traitées comme le
+continent — et une trentaine d'îlots grecs et croates, qui demandent chacun un opérateur, une grille et une durée
+réels que le dépôt n'a pas.
+
+**Exclusions sans rapport avec un code : levées.** « On doit pouvoir les rechercher quand même si on les connaît. »
+- **Sept pays du Levant** appliquaient un seuil de population assumé (500 ou 1 000 habitants), hérité du choix de
+  couverture de leur ajout. Levé : **Liban 41 → 3 300 lieux, Syrie 126 → 10 793, Égypte 251 → 11 634, Jordanie
+  90 → 1 310, Israël 407 → 1 227, Libye 119 → 820, Palestine 337 → 837.** Les lieux dont la division administrative
+  ne figure pas dans la table ISO sont publiés avec l'étiquette du pays seul au lieu d'être écartés.
+- **La Géorgie** exigeait un nom en écriture géorgienne, parce que c'est par lui que se fait le rapprochement avec
+  l'annuaire postal. Un lieu qui n'en a pas est publié sans code : **4 147 → 5 336**.
+- **La France** publiait la seule liste officielle des communes (IGN / geo.api.gouv.fr), sans les lieux habités que
+  GeoNames connaît en plus — alors que tous les autres pays les publient. Mesuré : 46 654 lieux sans équivalent
+  publié, dont **3 005 avec une population** : pour l'essentiel des communes FUSIONNÉES depuis 2016 dans une commune
+  nouvelle, que tout le monde connaît encore sous leur nom et qui ne se trouvaient pas — Vire (14 603 habitants,
+  aujourd'hui Vire Normandie), Verneuil-sur-Avre (7 229, Verneuil d'Avre et d'Iton), Voves (3 041, Éole-en-Beauce),
+  Villedieu-les-Poêles (3 927) — et 43 649 hameaux et lieux-dits. Un générateur dédié
+  (`scripts/build-france-lieux.js`) les ajoute sans toucher une seule ligne IGN : code postal vide, département de la
+  commune publiée la plus proche (40 574 des 46 654 sont à moins de 3 km d'une commune), et rien n'est ajouté à plus
+  de 30 km de toute commune. **34 964 → 81 612 lieux français.** Le script est idempotent : il repart des lignes IGN
+  du fichier publié et recalcule les autres, donc il se relance sans faire enfler le fichier et sans la source IGN,
+  qui n'est pas dans le dépôt.
+
+**Un test rouge depuis toujours, découvert en vérifiant ce lot.** Le contrôle « le générateur build-ferry-ports.js
+reproduit lib/ferry-ports.js à l'octet près » est désactivé par défaut (il coûte 15 s). Lancé ici parce que les données
+de lieux changeaient, il a **refusé de tourner sur le dépôt TEL QU'IL ÉTAIT** : « Manila : 2 homonymes sur cette rive »
+pour trois liaisons philippines, et « Banshbaria » pour la liaison de Sandwip au Bangladesh. Deux villes portuaires
+dont le nom désigne deux lieux — une seconde Manila à Mimaropa, 260 km au sud, une seconde Banshbaria dans la division
+de Khulna, 190 km à l'ouest — sur lesquelles le générateur refuse de choisir tout seul, à juste titre. Le fichier livré
+était donc juste, mais plus reproductible : personne n'aurait pu le régénérer. S'y sont ajoutés, du fait des lieux-dits
+français publiés ce jour-là, quatre ports français devenus ambigus à leur tour (hameaux « Toulon » en Vienne et en
+Charente-Maritime, « Calais » en Dordogne et dans l'Eure, « Le Havre » dans la Manche, « Saint-Malô » dans l'Orne).
+Les neuf entrées reçoivent le `near` prévu par le format depuis l'origine — la coordonnée de la ville portuaire
+elle-même, qui fait retenir le lieu le plus proche à 30 km au plus. **lib/ferry-ports.js régénéré est identique à
+l'octet près** à celui du dépôt : aucune traversée ne change, c'est la reproductibilité qui est rendue.
+
+**Ce que la comparaison de moteur montre.** 380 tirages rejoués contre le commit précédent : **57 changent (15 %)**,
+et tous pour la même raison — 76 370 lieux de plus dans les listes de candidats déplacent le tirage au sort. Aucun
+n'est une régression : **0 trajet direct changé sur 1 603**, **0 plafond d'hébergement sur 3 585**, et les
+**55 contre-épreuves « hors de portée » restent faisables des deux côtés**. Deux diagnostics seulement basculent, et
+c'est ce qui était voulu : Calumboyan aux Philippines **perd son `tensionBlocked`** — le plafond annoncé ne bouge pas
+(220 km), c'est l'affirmation sans preuve qui disparaît — et Sharm el-Sheikh, jusqu'ici bloqué net, **rend deux
+itinéraires** parce que les 11 383 lieux égyptiens ajoutés lui donnent enfin des voisins atteignables. Sept paires de
+référence de plus apparaissent (Cergy-Pontoise → Paris 18 Buttes-Montmartre) : les **vingt arrondissements de Paris et
+les seize de Lyon et Marseille** sont désormais des lieux à part entière, comme GeoNames les classe (code PPL, avec
+leur population) — « Paris 18 » se cherche maintenant, ce qui était le but. Aucune alerte de temps de calcul.
+
+**Données publiées après ce lot : 4 984 259 lieux (+76 370) et 1 792 471 noms alternatifs (+32 827).**
+
+**Une fiche fausse de plus, démasquée par l'ouverture du Levant** : « Maqhaka », rangée en Égypte mais située à la
+latitude −29,25, c'est-à-dire au Lesotho, 5 800 km plus au sud. Signalée par le contrôle « lieu isolé de son pays »
+dès sa première publication, écartée à la source.
+
 ### Le code postal devient facultatif : 106 327 villes réelles rendues au site (21 septembre 2026)
 
 **Demande de l'utilisateur, mot pour mot :** « les codes postaux sont optionnels (aide pour retrouver sa ville), il
@@ -3956,26 +4077,37 @@ Données publiées : 4 801 562 lieux (50 lignes en moins) et 1 718 520 noms alte
 
 **Mesuré, documenté, figé — mais pas corrigé.** Cinq limites réelles, chiffrées, que cette passe n'a pas de quoi
 corriger honnêtement :
-- **634 832 lieux (13,2 %) ne peuvent pas être choisis comme départ** : un homonyme du même pays porte le même nom
-  normalisé ET le même code postal, et la clé des suggestions n'en garde qu'un. La part explose là où il n'y a pas de
-  vrais codes postaux et où la colonne porte une étiquette de région — Chine 37,7 %, Népal 28,5 %, Colombie 27,7 %,
-  Brésil 25,5 % — contre 3,5 % en Inde, qui en a. **109 groupes** opposent deux villes de plus de 10 000 habitants
+
+> **Reprises le 22/09/2026**, une à une, sur décision de l'utilisateur (section « Les six limites traitées point
+> par point », plus haut) : la première, la troisième et la quatrième sont corrigées et remesurées, la cinquième est
+> traduite dans les 161 langues, la deuxième est le comportement voulu. Les chiffres ci-dessous sont ceux du
+> 21/09/2026, gardés tels quels : ils disent d'où l'on partait.
+
+- **635 715 lieux (13,0 %) ne peuvent pas être choisis comme départ** : un homonyme du même pays porte le même nom
+  normalisé ET le même code postal, et la clé des suggestions n'en garde qu'un. (Chiffres remesurés le 21/09/2026
+  après la publication des lieux sans code postal — 634 832 et 13,2 % avant ; la clé retombant sur la coordonnée
+  quand il n'y a pas de code, les 106 327 lieux ajoutés n'aggravent pas le compte, ils diluent la part.) Elle explose
+  là où il n'y a pas de vrais codes postaux et où la colonne porte une étiquette de région — Sierra Leone 40,1 %,
+  Chine 37,7 %, Rwanda 34,1 %, Taïwan 30,7 %, Népal 28,5 %, Colombie 27,7 %, Brésil 25,5 % — contre 3,4 % en Inde,
+  qui en a. **109 groupes** opposent deux villes de plus de 10 000 habitants
   (Ganta, au Liberia : 13 802 et 63 523 habitants, 50 km d'écart). Lever la limite demanderait une suggestion qui
   DÉSIGNE le lieu plutôt que son couple (nom, code postal) : rien dans la ligne affichée — drapeau, nom, code postal —
   ne distinguerait les deux Ganta, et les afficher tous les deux remplirait la liste de lignes identiques (jusqu'à 138
   pour un même nom en Chine). Ce qui est corrigé, c'est LEQUEL des deux survit.
 - **Le plafond « hors de portée, X km » annoncé pour un séjour de plusieurs jours n'est pas une distance atteignable** :
   c'est la contrainte de retour du visiteur lui-même, et le moteur le dit (`returnCapExact: false`). Balayage
-  dichotomique sur 194 cas : les **126** plafonds annoncés exacts le sont tous — aucun dépassement trouvé —, mais sur
-  les 68 annoncés approchés, **61 sont dépassés**, parfois de très loin (Sobradinho dos Melos, Brésil : 400 km
-  annoncés, 2 197 km faisables). Le message affiché reste littéralement vrai (il parle du « rayon/temps de retour
+  dichotomique sur 194 cas, remesuré le 21/09/2026 après la publication des lieux sans code postal : les **126**
+  plafonds annoncés exacts le sont tous — aucun dépassement trouvé —, mais sur les 68 annoncés approchés,
+  **63 sont dépassés** (61 avant), parfois de très loin (Sobradinho dos Melos, Brésil : 400 km annoncés,
+  2 197 km faisables). Le message affiché reste littéralement vrai (il parle du « rayon/temps de retour
   choisi »), mais il n'oriente pas : dire mieux demanderait une phrase de plus, donc **161 traductions** que cette
   passe n'a pas de quoi produire honnêtement.
-- **`tensionBlocked` est posé à tort une fois sur trente-deux.** Quand il accompagne « hors de portée, X km », il
-  promet qu'à X km le filtre des zones à tension est ce qui bloque. Contre-épreuve sur 2 000 tirages : 32 annonces,
-  dont 31 tiennent ; pour la trente-deuxième (Tovédogho, Bénin, plafond 338 km) l'itinéraire passe **même avec** le
-  filtre, et le conseil de décocher ne sert à rien. Le vérifier demanderait un tirage de plus dans un chemin déjà à
-  court de budget.
+- **`tensionBlocked` est posé à tort une fois sur trente.** Quand il accompagne « hors de portée, X km », il promet
+  qu'à X km le filtre des zones à tension est ce qui bloque. Contre-épreuve sur 6 000 tirages, remesurée le
+  21/09/2026 après la publication des lieux sans code postal : 90 annonces, dont 87 tiennent ; pour trois d'entre
+  elles (Miquillo de Rio Grande à Porto Rico, Dosé au Togo, Sulby à l'île de Man) l'itinéraire passe **même avec** le
+  filtre, et le conseil de décocher ne sert à rien. Le taux n'a pas bougé (1 sur 32 mesuré sur 2 000 tirages avant la
+  publication). Le vérifier demanderait un tirage de plus dans un chemin déjà à court de budget.
 - **24 noms alternatifs restent introuvables** après la réparation ci-dessus, parce que le nom conservé a des
   homonymes dans le pays et qu'un alias ne désigne son lieu que par son nom. Les lever demanderait un format d'alias
   qui porte l'identifiant du lieu — un changement de format des 1,7 million de lignes publiées.
@@ -4096,7 +4228,7 @@ une traversée estimée de 1 000 km vaut **30 heures** et non 21 (la passe sous-
 qu'elle signalait) ; « vingt lectures d'i18n.js » et non dix-huit.
 Les comptes de caractères qui suivaient ont été **remesurés au 20e audit sur l'état final** : ils avaient été relevés
 AVANT le dédoublonnage et la restitution de lieux du même commit, et ne correspondaient donc à aucun état publié.
-Sur les 4 801 562 lieux et 1 718 520 alias d'aujourd'hui : 17 022 alias à harakat ; 40 536 lieux portant U+2018 ;
+Sur les 4 801 562 lieux et 1 718 520 alias publiés ce jour-là (avant que le code postal ne devienne facultatif) : 17 022 alias à harakat ; 40 536 lieux portant U+2018 ;
 140 entrées à accent grave U+0060, 77 à tiret demi-cadratin U+2013, 13 à accent aigu U+00B4 (lieux et alias réunis).
 `style.css` fait 72 870 octets — 70 513 au 19e audit, et non 6 ko comme l'annonçait la 18e. Enfin, l'empreinte du
 normalisateur prétendait traverser « toute la famille élargie » : elle en couvrait **7 caractères sur 34** (et non

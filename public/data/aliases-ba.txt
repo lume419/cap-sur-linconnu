@@ -3307,3 +3307,4 @@ ar;كولا;Kula
 sr;Кула;Kula
 ru;Лазарево;Lazarevo
 sr;Лазарево;Lazarevo
+sr;Доњи Лукавац;Donji Lukavac

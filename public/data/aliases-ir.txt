@@ -91572,3 +91572,62 @@ fa;شهرك اباذر;Shahrak-e Abāz̄ar
 fa;جفت خرمنا;Chāl Ābzā
 fa;سروان محله;Sarvan Maḩalleh
 fa;سوريان;Surian
+fa;محله اللّه آباد;Allāhābād
+fa;كِرد آباد;Kerdābād
+fa;صَفی خانلوی سُفلَى;Seyf Khānlū
+fa;وه وسطی;Deh Sefīd
+fa;عصر آباد;Asadābād
+fa;‘Aşrābād;Asadābād
+fa;Reẕāābād;Khānīk
+fa;خانیک رضا آباد;Khānīk
+fa;خانیق;Khānīk
+fa;رضا آباد;Khānīk
+fa;ميرزاءئ اَهَنگَری;Āhangarī
+fa;هارکله محمد جعفر;Maḩmūdābād
+fa;دمیر او غلی کش;Bahārestān
+fa;بيشَك تَپِّه;Bīshak Tappeh
+fa;پيشَك تَپِّه;Bīshak Tappeh
+fa;اسلام آباد;Rīz
+fa;رُق آباد;Deh-e Aşghar
+fa;ريگ آباد;Deh-e Aşghar
+fa;Rīgābād;Deh-e Aşghar
+fa;رَجی آباد;Raẕīābād
+fa;پلاسی;Pālāsī
+fa;نذر آباد;Naz̧arābād
+fa;كَمَر آب;Kamar Āb
+fa;گاومیش;Jamālābād
+fa;گاو میش;Jamālābād
+fa;گَنابِه;Gandābeh
+fa;گناوه;Gandābeh
+fa;بوستانو;Bostānū
+fa;Būstānū;Bostānū
+fa;آچار;Towḩīd
+fa;Āchār;Towḩīd
+fa;آبا باريك;Rostamābād
+fa;آب باريک;Rostamābād
+fa;شاهدان;Nehẕatābād
+fa;گل;Kal
+fa;کل;Kal
+fa;لاورساحلی;Lāvar-e Sāḩelī
+fa;باریکان;Bārīkān
+fa;عابید;Āb Bīd
+fa;فدک هند مینی;Fadak
+fa;نر آب;Narāb
+fa;سر نراب;Narāb
+fa;محمود آباد;Ḩoseynābād
+fa;سراب پائين;Sarāb-e Pā’īn
+fa;Tānān;Nokūch
+fa;تانان;Nokūch
+fa;ماهبان;Nokūch
+fa;چاه بنی کن;Vaḩdat
+fa;Āb Nārū;‘Abbāsābād
+fa;آب نارو;‘Abbāsābād
+fa;ده صفر;Şafarābād
+fa;صفر آباد چین;Şafarābād
+fa;درّه سپیدار;Mow’menābād
+fa;بر آفتاب دپوک;Dūpūk
+fa;بر آفتاب چاه دوپوک;Dūpūk
+fa;شهید محمدخون بنیاد;Āb Sardūn
+fa;شهید محمدخون بلیاد;Āb Sardūn
+fa;خون باز;Āb Sardūn
+fa;ده خون باز;Āb Sardūn

@@ -5861,3 +5861,7 @@ sr;Ðurovići;Đurovići
 fa;زاگرادینا;Zagradina
 ur;زگرادنا;Zagradina
 fa;تسروسکو;Crvsko
+fa;زابرنگیتسا;Zabrnjica
+ur;زبرنجیکا;Zabrnjica
+fa;بوبوویک;Bobovik
+sr;Бобовик;Bobovik

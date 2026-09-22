@@ -319,3 +319,5 @@ hy;Արթինգտոն;Arthington
 ja;アーシントン;Arthington
 ur;آرتھنگٹن، لائبیریا;Arthington
 he;ארת'ינגטון;Arthington
+en;Charlesville (4);Charlesville
+en;Charlesville (2);Charlesville

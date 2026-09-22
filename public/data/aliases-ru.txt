@@ -142621,3 +142621,8 @@ ru;Терлиг-Хая;Terlig-Khaya
 ru;Чемурнаут;Chemurnaut
 ru;Суоперя;Suoperya
 ru;Нижние Храпуны;Nizhniye Khrapuny
+fi;Järvenperä;Zaozër’ye
+ru;Пена;Imeni Karla Libknekhta
+ru;Zhuravlëvo;Garino
+ru;Журавлёво;Garino
+ru;Галитское;Galitskoye

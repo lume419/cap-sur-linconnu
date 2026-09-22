@@ -131,6 +131,9 @@ const WRONG_COUNTRY = {
   '7779239':  ['SD', 'Naam', 'SS', 'absent', 'latitude 5,88 : Soudan du Sud (frontière de 2011 non reprise par la fiche)'],
   '7828712':  ['SD', 'Faraksika', 'SS', 'absent', 'latitude 5,02 : Soudan du Sud, même cas que Naam'],
   '11072304': ['ET', 'Figuiratomo', 'ML', 'absent', 'longitude −8,36 : Mali. L\'Éthiopie commence à 33° Est'],
+  // 22/09/2026 — trouvée en levant le seuil de population du Levant : une fiche de plus aux coordonnées d'un
+  // autre continent, signalée par le contrôle « lieu isolé de son pays » dès sa première publication.
+  '11397269': ['EG', 'Maqhaka', 'LS', 'absent', "latitude −29,25 : Lesotho, 5 800 km au sud de l'Égypte"],
   '10179428': ['JP', 'Inarizako', 'EG', 'absent', 'longitude 30,97 au lieu de 130,97 (le « 1 » manque) : la fiche tombe dans le delta du Nil, alors qu\'elle se dit de Kagoshima']
 };
 
@@ -880,15 +883,18 @@ function preparePlaceName(country, geonameid, name){ return cleanPlaceName(fixNa
 //     population seule choisissait mal dès que les deux lignes ne s'écrivent pas pareil : elle gardait la coquille
 //     « Älajärvi » (10 308 hab., vue 1 fois) plutôt qu'« Alajärvi » (8 793 hab., vue 3 fois), « Berezovo » (vue
 //     2 fois) plutôt que « Berëzovo » (54 fois), « Ar Rubū` » plutôt qu'« Ar Rubū‘ » (vue 11 fois). Sur les
-//     572 groupes, les deux critères désignent la même graphie 443 fois ; sur les 129 divergences, la fréquence
+//     572 groupes, les deux critères désignent la même graphie 452 fois ; sur les 120 divergences (« 443 / 129 »
+//     au 19e audit, recompté au 20e sur l'état d'avant la fusion, dans l'ordre réel des fichiers), la fréquence
 //     l'emporte partout sauf un motif connu : le roumain, où la cédille héritée « Dobreşti » (5 occurrences) est
 //     plus fréquente que la virgule souscrite correcte « Dobrești » (3). Limite assumée et écrite : départager deux
 //     orthographes demande une source orthographique que le dépôt n'a pas ; la fréquence est le meilleur signal
 //     disponible hors ligne.
 //   - CE QUI RESTE après la fusion : 6 paires à moins de 300 m publient encore deux populations non nulles
-//     différentes (12 avant) et 28 produisent deux suggestions (34 avant) — celles dont les deux points tombent de
-//     part et d'autre d'une limite de case de 0,01°, que cette clé ne peut pas rapprocher. tests/data.test.js fige
-//     ces deux nombres : ils ne peuvent plus grandir en silence.
+//     différentes (12 avant) et 29 produisent deux suggestions (34 avant la fusion, 28 avant que les lieux sans code
+//     postal ne soient publiés le 21/09/2026) — celles dont les deux points tombent de part et d'autre d'une limite
+//     de case de 0,01°, que cette clé ne peut pas rapprocher. tests/data.test.js fige ces deux nombres, à la valeur
+//     EXACTE et non en plafond depuis le 20e audit : ils ne peuvent plus bouger en silence, ni à la hausse ni à la
+//     baisse.
 
 // 9. QUASI-DOUBLONS (audit n° 11) — le dédoublonnage des générateurs compare le nom et les coordonnées BRUTES arrondies
 //    à 0,01° : deux fiches du même lieu de part et d'autre d'une limite d'arrondi (64,24497 et 64,24503) passaient

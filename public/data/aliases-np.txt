@@ -869,3 +869,19 @@ ne;Māneswānrā;Maneswara
 ne;Jhānkrīṭol;Jhakritol
 ne;Sānṅchā;Sancha
 ne;Shri̇̄ Rāmp;Shri Rampur
+ne;Sirsia;Sirsiya
+ne;Sarswati;Saraswati
+ne;Rāmdighāt;Ramdi
+ne;Nawākot;Nuwakot
+ne;Labsibot;Lapsibot
+ne;Diwātoli̇̄;Khairani
+ne;Bināikgaon;Binayak
+ne;Bholi;Bhuli
+ne;Bhagwanpur;Bhagawanpur
+ne;Berhampuri;Bramhapuri
+ne;Barīkot;Barekot
+ne;Bānsghārī;Basghari
+ne;Jānte;Jate
+ne;Palānse;Palase
+ne;Ḍhānḍkholā;Dhadkhola
+ne;Nayā̃ṭolā;Nayakatola

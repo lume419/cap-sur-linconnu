@@ -2927,3 +2927,4 @@ am;ንጋ ናም;Ngã Năm
 tt;Нга Нам;Ngã Năm
 uk;Єн-Шон;Yên Sơn
 uk;Yen-Shon;Yên Sơn
+vi;Huyện Tam Thanh;Hưng Hóa

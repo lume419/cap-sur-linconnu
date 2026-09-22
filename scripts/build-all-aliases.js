@@ -293,7 +293,14 @@ for(const cc of Object.keys(COUNTRIES)){
   //   - deux seulement ne sont vraiment plus cherchables : « 平泉 » (Tateishi) et « 蓮湖 » (Lianhu).
   // Ce partage est verrouillé par tests/data.test.js (« alias de fusion : seulement quand le nom gardé est unique
   // dans le pays »). La limite de fond reste la même : aucun format d'alias ne désigne le lieu par son geonameid.
+  // HOMONYMES : ON LES RENVOIE TOUS (22/09/2026, demande de l'utilisateur — « renvoyer tous les homonymes pour
+  // l'inclusion est meilleur »). Le 16e audit avait posé l'inverse : l'alias d'une fiche fusionnée n'était rattaché
+  // que si le nom gardé était UNIQUE dans le pays, parce qu'un alias désigne son lieu par son NOM et ramènerait donc
+  // tous ses homonymes — « 平泉 » rendait les 15 Tateishi du Japon. Mais mieux vaut quinze propositions dont la bonne
+  // qu'aucune : le nom cherché redevient trouvable, et c'est au visiteur de choisir dans la liste. La règle de
+  // PROXIMITÉ reste, elle : la fiche écartée n'est rattachée qu'au lieu du même nom le plus proche, à moins de 2 km.
   const mergeRejectedIds = new Set(), mergeRejectedName = new Map();
+  let fusionsHomonymes = 0;
   for(const [id, , keptId, keptName] of [].concat(LOCAL_SCRIPT_DUPLICATES[cc] || [], SAME_POINT_DUPLICATES[cc] || [])){
     const k = dupCoords.get(String(keptId));
     if(!k) continue;
@@ -301,14 +308,11 @@ for(const cc of Object.keys(COUNTRIES)){
     let best = null, bestKm = 2;
     for(const p of homonyms){ const d = km(k.lat, k.lon, p.lat, p.lon); if(d < bestKm){ bestKm = d; best = p; } }
     if(!best) continue;
-    if(homonyms.length > 1){
-      mergeRejectedIds.add(String(id)); mergeRejectedName.set(String(id), keptName);
-      console.log(cc + ' : fusion ' + id + ' -> « ' + keptName + ' » abandonnée, ' + homonyms.length + ' lieux publiés portent ce nom');
-      continue;
-    }
+    if(homonyms.length > 1) fusionsHomonymes++;
     if(!placeById.has(String(keptId))) placeById.set(String(keptId), best);
     if(!placeById.has(String(id))) placeById.set(String(id), best);
   }
+  if(fusionsHomonymes) console.log(cc + ' : ' + fusionsHomonymes + ' fusion(s) vers un nom porté par plusieurs lieux publiés — rattachées quand même (inclusion)');
 
   // 20e audit du 21/09/2026 — QUASI-DOUBLONS FUSIONNÉS PAR LES GÉNÉRATEURS DE LIEUX (dropNearDuplicates).
   // Le 19e audit a fait juger le dédoublonnage sur le nom NORMALISÉ, comme le moteur : 572 lignes de plus ont
@@ -332,11 +336,11 @@ for(const cc of Object.keys(COUNTRIES)){
       if(e.cls !== 'P' || placeById.has(e.id)) continue;
       const p = byMergeKey.get(e.norm + '|' + e.lon.toFixed(2) + '|' + e.lat.toFixed(2));
       if(!p) continue;
-      if(homonymCount.get(p.name) > 1){ mergeSkipped++; continue; }
+      if(homonymCount.get(p.name) > 1) mergeSkipped++; // renvoyé quand même : voir « ON LES RENVOIE TOUS » plus haut
       placeById.set(e.id, p); byMerge++;
     }
   }
-  if(byMerge || mergeSkipped) console.log(cc + ' : quasi-doublons fusionnés rattachés ' + byMerge + ', écartés (nom gardé non unique) ' + mergeSkipped);
+  if(byMerge) console.log(cc + ' : quasi-doublons fusionnés rattachés ' + byMerge + (mergeSkipped ? ' (dont ' + mergeSkipped + ' vers un nom porté par plusieurs lieux)' : ''));
 
   // Fichier existant : gardé, et sert au dédoublonnage.
   const outPath = path.join(DATA, 'aliases-' + cc.toLowerCase() + '.txt');
@@ -452,6 +456,8 @@ for(const cc of Object.keys(COUNTRIES)){
     if(!c[3]) return;
     const lang = langOf(c[2]);
     if(!LANGS.has(lang)) return;
+    // mergeRejectedIds reste VIDE depuis le 22/09/2026 (plus aucune fusion n'est abandonnée pour cause d'homonymes) :
+    // le code est conservé pour que le mécanisme de retrait reste complet si une autre raison d'abandon apparaît.
     if(mergeRejectedIds.has(c[1])){
       const name = mergeRejectedName.get(c[1]);
       const t = cleanAliasText(c[3], name, c[2]);

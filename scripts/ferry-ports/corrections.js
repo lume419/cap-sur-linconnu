@@ -127,7 +127,8 @@ module.exports = {
    "side": "continental",
    "port": {
     "cc": "FR",
-    "place": "Toulon"
+    "place": "Toulon",
+    "near": [43.14, 5.93]
    },
    "source": "https://www.ferryhopper.com/en/ferries/spain/mallorca (Corsica Ferries Toulon ↔ Alcúdia, avr.-nov.)"
   },

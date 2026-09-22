@@ -2,9 +2,10 @@
 //
 // Les deux ont un vrai fichier de codes postaux GeoNames (export/zip/RU.zip, SJ.zip) : retour au
 // principe du pipeline STANDARD (build-country-communes.js, utilisé pour l'Ukraine et la Biélorussie)
-// — chaque lieu habité reçoit le code postal du point postal le plus proche à moins de 15 km, et un
-// lieu sans point postal assez proche est écarté (sans code, impossible de le distinguer à l'affichage
-// de ses homonymes). Trois différences, écrites ici :
+// — chaque lieu habité reçoit le code postal du point postal le plus proche à moins de 15 km. Un lieu sans point
+// postal assez proche était ÉCARTÉ jusqu'au 21/09/2026 (« sans code, impossible de le distinguer à l'affichage de
+// ses homonymes ») ; il est désormais publié avec un code VIDE — le code postal aide à retrouver sa ville, il ne
+// décide pas si elle existe. 15 498 lieux russes concernés. Trois différences, écrites ici :
 //
 // 1. RÉGION : le fichier postal russe donne ses noms de région en cyrillique (« Адыгея Республика »)
 //    alors que GeoNames range les noms de lieux en translittération latine (« Maykop »). Pour ne pas
@@ -23,10 +24,11 @@
 //    région : le fichier postal range Noïabrsk dans l'oblast de Tioumen (78), GeoNames dans le district
 //    des Iamalo-Nénètses (87), deux découpages légitimes d'un même territoire gigogne. Entre plusieurs
 //    lignes homonymes, le plus petit code (bureau principal) est retenu. Résultat mesuré : 4 villes
-//    rattachées (dont Noïabrsk, 629800). Les 12 autres restent ÉCARTÉES, faute de donnée fiable :
+//    rattachées (dont Noïabrsk, 629800). Les 12 autres n'ont toujours PAS de code, faute de donnée fiable :
 //    absentes du fichier postal (Kogalym, Monchegorsk, Nadym, Dalnegorsk, Kovdor…) ou géolocalisées
 //    à plus de 60 km de leur position réelle (Ielizovo placée à ~190 km, sur les coordonnées de
-//    Petropavlovsk). Limite assumée plutôt qu'un code deviné.
+//    Petropavlovsk). Limite assumée plutôt qu'un code deviné — mais elles sont PUBLIÉES depuis le
+//    21/09/2026, code vide, au lieu d'être écartées.
 //
 // CRIMÉE : GeoNames range quelques lieux de Crimée et Sébastopol sous RU (admin1 RU.47 pour
 // Sébastopol) tout en gardant la Crimée sous UA dans le dump ukrainien. Repris TEL QUEL, sans retouche

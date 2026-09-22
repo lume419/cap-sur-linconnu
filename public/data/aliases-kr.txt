@@ -26902,3 +26902,7 @@ ko;관현리;Gwanhyeolli
 ko;담들이왓;Damdeuriwat
 ko;여서리;Reizui-ri
 ko;Yŏsŏ-ri;Reizui-ri
+ko;운본;Seojeong
+ko;Songjŏng;Seojeong
+ko;원모루;Wonmoru
+ko;괴음;Goeeum

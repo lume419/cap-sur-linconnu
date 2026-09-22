@@ -9988,3 +9988,5 @@ pl;Jawor;Stary Jawor
 ru;Малта;Malta
 uk;Сад;Sad
 de;Muttrin;Motarzyn
+en;Biskupie;Biskupiec
+de;Marienbusch;Średnica

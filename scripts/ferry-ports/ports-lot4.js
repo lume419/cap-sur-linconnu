@@ -239,7 +239,8 @@ module.exports = [
   { key: 'busuanga|luzon', source: 'https://travel.2go.com.ph (Manille ↔ Coron)',
     ports: {
       busuanga: [{ cc: 'PH', place: 'Coron' }],
-      luzon: [{ cc: 'PH', place: 'Manila' }]
+      // near : une seconde « Manila » existe à Mimaropa, 260 km au sud (voir ports-lot1.js).
+      luzon: [{ cc: 'PH', place: 'Manila', near: [14.60, 120.98] }]
     } },
   { key: 'continental|olkhon', source: 'https://vsrp.ru/routes/paromnaya-pereprava-mrs-ostrov-olkhon-02/ ; https://www.magicbaikal.ru/rest/ferry-to-olkhon.htm (Sakhiurta (MRS) ↔ Olkhon)',
     ports: {

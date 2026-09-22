@@ -41610,3 +41610,6 @@ sw;Adeni;Aden
 tg;Адан;Aden
 tt;Аден;Aden
 aa;المورد;Al Mawrad
+ar;الصاقط;As Sāqiţ
+ar;العدني;Al ‘Adānī
+ar;العدانة;Al ‘Adanah

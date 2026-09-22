@@ -22,11 +22,12 @@
 // Le champ "region" porte le nom de la division tel que GeoNames le publie (admin1CodesASCII.txt).
 //
 // ── LIEUX SANS DIVISION ADMINISTRATIVE ─────────────────────────────────────────────────────────
-// Écartés, comme le pipeline standard écarte les communes sans code postal. Mesuré avant de trancher
-// pour vérifier que cela ne coûtait rien de réel : les lieux concernés n'ont, à une poignée près,
+// Écartés jusqu'au 21/09/2026, « comme le pipeline standard écarte les communes sans code postal » — et ce
+// pipeline-là ne les écarte plus. Ils sont désormais PUBLIÉS avec l'étiquette du pays seul, comme le faisait déjà
+// le lot d'Afrique orientale et australe. Mesuré à l'époque : les lieux concernés n'ont, à une poignée près,
 // AUCUNE population renseignée. Mali 1 157 lieux sans admin1 dont 0 avec population ; Togo 3 443 dont
 // 0 ; Guinée-Bissau 3 183 dont 7. Partout ailleurs le trou est négligeable (0 à 68 lieux).
-// Ce sont des hameaux sans population connue, pas des destinations perdues.
+// Ce sont des hameaux sans population connue — raison de plus pour ne pas les jeter : ils ne gênent personne.
 //
 // ── CAP-VERT : UN ARCHIPEL ─────────────────────────────────────────────────────────────────────
 // Seul pays insulaire du lot, et le premier du projet dont TOUT le territoire est morcelé. Les neuf

@@ -17664,3 +17664,4 @@ am;ሻራን;Sharan
 az;Şaran;Sharan
 tt;Шаран;Sharan
 am;ሳላም ኸል;Salām Khēl
+fa;ده نو;Deh-e Now

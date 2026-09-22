@@ -20932,3 +20932,13 @@ fi;Pättikkä;Beattet
 ru;Пяттиккя;Beattet
 ru;Келоттиярви;Kelottijärvi
 ru;Ятуни;Jatuni
+ru;Вала;Vaala
+en;Järventausta;Järventaus
+ru;Хапаярви;Haapajärvi
+sv;Sököudd;Soukanniemi
+da;Sököudd;Soukanniemi
+no;Sököudd;Soukanniemi
+is;Sököudd;Soukanniemi
+is;Sågfors;Sahakoski
+fi;Lehtimäki kk;Kirkonkylä
+fi;Lehtimäen kirkonkylä;Kirkonkylä

@@ -2566,3 +2566,4 @@ be;Сігішаара;Sighișoara
 ka;სიგიშოარა;Sighișoara
 lt;Slobozija;Slobozia
 ru;Слободзея;Slobozia
+ro;Fînaţe;Fânațe

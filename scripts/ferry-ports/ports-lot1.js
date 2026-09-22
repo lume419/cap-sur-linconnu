@@ -1,4 +1,11 @@
 // Villes portuaires du lot 1 (liaisons FERRY_ROUTES) — voir scripts/build-ferry-ports.js.
+// 22/09/2026 : Toulon, Calais, Le Havre, Saint-Malo et Manila ont reçu leur « near ». Ces noms ne désignaient plus un
+// seul lieu — Manila depuis toujours (une seconde Manila à Mimaropa, 260 km au sud, et le générateur REFUSAIT déjà de
+// tourner sur le dépôt : personne ne l'avait vu, son test est désactivé par défaut), les quatre français depuis que
+// les lieux-dits GeoNames sont publiés (un hameau « Toulon » en Vienne et un autre en Charente-Maritime, « Calais »
+// en Dordogne et dans l'Eure, « Le Havre » dans la Manche, « Saint-Malô » dans l'Orne). Le « near » est la coordonnée
+// de la ville portuaire elle-même, prise dans les données publiées : le générateur retient le lieu le plus proche à
+// 30 km au plus, donc le bon, et refuserait de choisir si la ville portuaire disparaissait.
 // Les coordonnées viennent des données de lieux du projet ; quand la localité du port n'existe pas sous son nom,
 // la localité la plus proche du terminal sur la bonne masse terrestre est retenue (commentaire « port → lieu »).
 const P = (cc, place, near) => near ? { cc, place, near } : { cc, place };
@@ -8,7 +15,7 @@ module.exports = [
   { key: 'continental|corsica',
     source: 'https://www.corsicalinea.com/preparer-votre-voyage/les-ports ; https://www.lameridionale.fr ; https://www.corsica-ferries.co.uk/crossing/corsica-ferry/ ; https://www.mobylines.com',
     ports: {
-      continental: [P('FR', 'Marseille'), P('FR', 'Toulon'), P('FR', 'Nice'), P('IT', 'Savona'), P('IT', 'Genova', [44.40, 8.94]), P('IT', 'Livorno'), P('IT', 'Piombino', [42.93, 10.53])],
+      continental: [P('FR', 'Marseille'), P('FR', 'Toulon', [43.14, 5.93]), P('FR', 'Nice'), P('IT', 'Savona'), P('IT', 'Genova', [44.40, 8.94]), P('IT', 'Livorno'), P('IT', 'Piombino', [42.93, 10.53])],
       corsica: [P('FR', 'Ajaccio'), P('FR', 'Bastia'), P('FR', 'Calvi'), P('FR', "L'Île-Rousse"), P('FR', 'Porto-Vecchio'), P('FR', 'Propriano')] } },
   // Masse « balearic » = Majorque seule (Minorque et Ibiza ont leur propre masse).
   { key: 'balearic|continental',
@@ -25,7 +32,7 @@ module.exports = [
   { key: 'continental|sardinia',
     source: 'https://www.ferryhopper.com/en/ferries/italy/sardinia ; https://www.ferryhopper.com/en/ferry-routes/direct/france-sardinia ; https://www.corsica-ferries.co.uk/crossing/sardinia-ferry/ ; https://www.mobylines.com',
     ports: {
-      continental: [P('IT', 'Genova', [44.40, 8.94]), P('IT', 'Livorno'), P('IT', 'Piombino', [42.93, 10.53]), P('IT', 'Civitavecchia', [42.09, 11.80]), P('IT', 'Napoli'), P('FR', 'Toulon'), P('FR', 'Nice'), P('ES', 'Barcelona')],
+      continental: [P('IT', 'Genova', [44.40, 8.94]), P('IT', 'Livorno'), P('IT', 'Piombino', [42.93, 10.53]), P('IT', 'Civitavecchia', [42.09, 11.80]), P('IT', 'Napoli'), P('FR', 'Toulon', [43.14, 5.93]), P('FR', 'Nice'), P('ES', 'Barcelona')],
       sardinia: [P('IT', 'Olbia'), P('IT', 'Golfo Aranci'), P('IT', 'Porto Torres'), P('IT', 'Cagliari'), P('IT', 'Arbatax')] } },
   { key: 'continental|sicily',
     source: 'https://www.ferryhopper.com/en/ferries/italy/sicily ; https://www.gnv.it/en/ferries-destinations/sicily ; https://www.carontetourist.it',
@@ -38,9 +45,9 @@ module.exports = [
   { key: 'gozo|malta', source: 'https://www.gozochannel.com (Ċirkewwa ↔ Mġarr)',
     ports: { gozo: [P('MT', 'Mġarr')], malta: [P('MT', 'Mellieħa')] } },
   { key: 'continental|jersey', source: 'https://www.condorferries.co.uk (St Malo ↔ St Helier)',
-    ports: { continental: [P('FR', 'Saint-Malo')], jersey: [P('JE', 'Saint Helier')] } },
+    ports: { continental: [P('FR', 'Saint-Malo', [48.65, -2.01])], jersey: [P('JE', 'Saint Helier')] } },
   { key: 'continental|guernsey', source: 'https://www.condorferries.co.uk (St Malo ↔ St Peter Port)',
-    ports: { continental: [P('FR', 'Saint-Malo')], guernsey: [P('GG', 'Saint Peter Port')] } },
+    ports: { continental: [P('FR', 'Saint-Malo', [48.65, -2.01])], guernsey: [P('GG', 'Saint Peter Port')] } },
   { key: 'guernsey|jersey', source: 'https://www.condorferries.co.uk (St Helier ↔ St Peter Port)',
     ports: { guernsey: [P('GG', 'Saint Peter Port')], jersey: [P('JE', 'Saint Helier')] } },
   // Brestova → Zagorje (Istrie) ; Valbiska (Krk, relié par pont) → Pinezići.
@@ -73,7 +80,7 @@ module.exports = [
   { key: 'continental|greatBritain',
     source: 'https://ferrygogo.co.uk/united-kingdom/ ; https://ferrygogo.co.uk/france/ferry-to-france-from-the-uk/ ; https://www.dfds.com ; https://www.brittany-ferries.co.uk ; https://www.stenaline.co.uk',
     ports: {
-      continental: [P('FR', 'Calais'), P('FR', 'Dunkerque'), P('FR', 'Dieppe'), P('FR', 'Le Havre'), P('FR', 'Ouistreham'), P('FR', 'Cherbourg-en-Cotentin'), P('FR', 'Saint-Malo'), P('FR', 'Roscoff'), P('ES', 'Santander'), P('ES', 'Bilbao'), P('NL', 'Hoek van Holland'), P('NL', 'IJmuiden')],
+      continental: [P('FR', 'Calais', [50.95, 1.87]), P('FR', 'Dunkerque'), P('FR', 'Dieppe'), P('FR', 'Le Havre', [49.50, 0.13]), P('FR', 'Ouistreham'), P('FR', 'Cherbourg-en-Cotentin'), P('FR', 'Saint-Malo', [48.65, -2.01]), P('FR', 'Roscoff'), P('ES', 'Santander'), P('ES', 'Bilbao'), P('NL', 'Hoek van Holland'), P('NL', 'IJmuiden')],
       greatBritain: [P('GB', 'Dover'), P('GB', 'Newhaven', [50.80, 0.055]), P('GB', 'Portsmouth', [50.80, -1.09]), P('GB', 'Poole', [50.71, -1.98]), P('GB', 'Plymouth'), P('GB', 'Harwich'), P('GB', 'Kingston upon Hull'), P('GB', 'North Shields')] } },
   { key: 'greatBritain|ireland',
     source: 'https://ferrygogo.co.uk/united-kingdom/ ; https://www.stenaline.co.uk ; https://www.irishferries.com (Holyhead ↔ Dublin, Fishguard/Pembroke ↔ Rosslare, Liverpool/Birkenhead ↔ Dublin/Belfast, Cairnryan ↔ Belfast/Larne)',
@@ -274,5 +281,5 @@ module.exports.push(
   PH('basilan|mindanao', 'Zamboanga ↔ Isabela', { basilan: [P('PH', 'San Rafael', [6.70, 121.97])], mindanao: [P('PH', 'Zamboanga')] }),
   PH('jolo|mindanao', 'Zamboanga ↔ Jolo', { jolo: [P('PH', 'Jolo')], mindanao: [P('PH', 'Zamboanga')] }),
   PH('luzon|tablas', 'Batangas ↔ Odiongan', { luzon: [P('PH', 'Batangas', [13.76, 121.06])], tablas: [P('PH', 'Odiongan')] }),
-  PH('lubang|luzon', 'Manila ↔ Tilik', { lubang: [P('PH', 'Tilik')], luzon: [P('PH', 'Manila')] })
+  PH('lubang|luzon', 'Manila ↔ Tilik', { lubang: [P('PH', 'Tilik')], luzon: [P('PH', 'Manila', [14.60, 120.98])] })
 );

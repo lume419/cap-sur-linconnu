@@ -4947,3 +4947,9 @@ pt;Sobradinho;São José do Sobradinho
 pt;Monsuaba;Jacuecanga
 pt;Bendengó;Bedengó
 pt;Poções;Vila Nova dos Poções
+pt;Bairro Jesus;Bairro Barra das Provas
+pt;Água Azul de Baixo;Água Azul
+pt;Barra do Rio da Prata;Barra da Prata
+pt;Joó;Icó
+pt;Itabalana;Itabaiana
+pt;Palmito;Macacos

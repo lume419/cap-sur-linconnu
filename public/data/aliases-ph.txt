@@ -5021,3 +5021,7 @@ tl;Bayan ng Bataraza;Batarasa
 fil;Baroguiron;Boboguiron
 ru;Азия;Asia
 fil;Alicia;Project 8
+fil;San Juan del Monte;San Juan
+fil;Salat;Salay
+fil;Palsahingin;San Pascual
+fil;Lubang;Lubong

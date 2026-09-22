@@ -1868,7 +1868,13 @@
             }, data.busy ? 5000 : 2000);
             return;
           }
-          renderSuggestions(data.results || []);
+          // Recherche SANS RÉSULTAT : on le dit (22/09/2026, demande de l'utilisateur). La liste se refermait en
+          // silence — le sélecteur de langue, lui, affiche « Aucune langue trouvée » depuis la 19e passe. Le message
+          // n'est montré QUE pour une réponse du serveur : une saisie trop courte referme la liste comme avant, sans
+          // reprocher au visiteur de ne pas avoir fini de taper (voir l'autre appel à renderSuggestions).
+          var trouvés = data.results || [];
+          if(!trouvés.length) renderSuggestMessage(t('form.city.searchNoResults'));
+          else renderSuggestions(trouvés);
         })
         // Panne réseau : même traitement que le tirage depuis la 16e passe — on le dit, au lieu de refermer la liste.
         .catch(function(){ if(mySeq === searchRequestSeq) renderSuggestMessage(t('error.network')); });
