@@ -3826,9 +3826,10 @@ réels que le dépôt n'a pas.
   nouvelle, que tout le monde connaît encore sous leur nom et qui ne se trouvaient pas — Vire (14 603 habitants,
   aujourd'hui Vire Normandie), Verneuil-sur-Avre (7 229, Verneuil d'Avre et d'Iton), Voves (3 041, Éole-en-Beauce),
   Villedieu-les-Poêles (3 927) — et 43 649 hameaux et lieux-dits. Un générateur dédié
-  (`scripts/build-france-lieux.js`) les ajoute sans toucher une seule ligne IGN : code postal vide, département de la
-  commune publiée la plus proche (40 574 des 46 654 sont à moins de 3 km d'une commune), et rien n'est ajouté à plus
-  de 30 km de toute commune. **34 964 → 81 612 lieux français.** Le script est idempotent : il repart des lignes IGN
+  (`scripts/build-france-lieux.js`) les ajoute sans toucher une seule ligne IGN : code postal vide,
+  département LU DANS LA SOURCE (colonne admin2 du dump, même vocabulaire que l'IGN ; 45 414 des 46 654 en portent un,
+  les 1 240 autres reprennent celui de la commune la plus proche), et rien n'est ajouté à plus de 30 km de toute
+  commune. **34 964 → 81 612 lieux français.** Le script est idempotent : il repart des lignes IGN
   du fichier publié et recalcule les autres, donc il se relance sans faire enfler le fichier et sans la source IGN,
   qui n'est pas dans le dépôt.
 
@@ -3844,6 +3845,19 @@ Charente-Maritime, « Calais » en Dordogne et dans l'Eure, « Le Havre » dans 
 Les neuf entrées reçoivent le `near` prévu par le format depuis l'origine — la coordonnée de la ville portuaire
 elle-même, qui fait retenir le lieu le plus proche à 30 km au plus. **lib/ferry-ports.js régénéré est identique à
 l'octet près** à celui du dépôt : aucune traversée ne change, c'est la reproductibilité qui est rendue.
+
+**Vérification en production, et un défaut trouvé là (23/09/2026).** Le site déployé rend bien les deux Ganta du
+Liberia (63 523 et 13 802 habitants, même code LR-09, 51 km d'écart) et les deux Robīt d'Éthiopie (39 600 et 20 679,
+même code ET-46, 227 km) : le premier point est vérifié sur le vrai site, pas seulement en test. Mais la recherche
+« Paris 18 » a rendu **« Paris 18 Buttes-Montmartre, 93 »** — la Seine-Saint-Denis, alors que le 18e est à Paris.
+Le générateur français reprenait le département de la commune publiée la plus proche ; or Paris est UNE commune de
+105 km² dont le centre est à 4 km du 18e, quand Saint-Ouen est à 2 km. **Le voisin le plus proche n'est pas le bon
+juge quand les communes n'ont pas la même taille.** Mesuré : **943 lieux sur 46 654 (2,0 %) portaient un département
+faux** — neuf des vingt arrondissements de Paris, mais aussi Arles rangée dans le Gard, Andevanne dans la Meuse au
+lieu des Ardennes, Ambly dans l'Allier au lieu de la Saône-et-Loire. Le département n'est plus deviné : il est **lu
+dans la source**, colonne `admin2` du dump GeoNames, dont le vocabulaire coïncide exactement avec celui de l'IGN
+(aucun code inconnu sur 79 045 lieux). Les 1 240 lieux que la source ne renseigne pas gardent l'ancienne règle, faute
+de mieux. Nombre de lignes inchangé : seule la colonne du département bouge.
 
 **Ce que la comparaison de moteur montre.** 380 tirages rejoués contre le commit précédent : **57 changent (15 %)**,
 et tous pour la même raison — 76 370 lieux de plus dans les listes de candidats déplacent le tirage au sort. Aucun

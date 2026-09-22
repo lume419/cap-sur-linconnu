@@ -18,9 +18,16 @@
 // lignes ajoutées est VIDE, comme pour les 97 728 lieux sans code publiés la veille.
 //
 // DÉPARTEMENT. La colonne 4 de communes.txt porte le code de département à deux chiffres (« 01 », « 2A », « 974 »).
-// Un lieu ajouté reprend celui de la commune publiée la plus proche : à ces distances (40 574 des 46 654 sont à
-// moins de 3 km d'une commune) le département ne fait aucun doute. Un lieu sans aucune commune à moins de 30 km
-// n'est pas publié — il serait hors de France, ou mal placé.
+// Il est lu dans la SOURCE : la colonne admin2 du dump GeoNames porte exactement ce code, et son vocabulaire coïncide
+// avec celui de l'IGN — 79 045 lieux habités sur 80 290 en portent un, et pas un seul code inconnu.
+// La première version de ce script (22/09/2026) reprenait à la place le département de la commune publiée la plus
+// proche. C'ÉTAIT FAUX là où les communes sont petites et le département dense : mesuré en production, **neuf des vingt
+// arrondissements de Paris** se retrouvaient en Seine-Saint-Denis, dans les Hauts-de-Seine ou le Val-de-Marne, parce
+// que Paris est UNE commune de 105 km² dont le centre est à 4 km du 18e, quand Saint-Ouen est à 2 km. Le voisin le plus
+// proche n'est pas le bon juge quand les communes n'ont pas la même taille.
+// Les 1 245 lieux dont la source ne donne pas de département gardent l'ancienne règle, faute de mieux : celui de la
+// commune publiée la plus proche (40 574 des 46 654 sont à moins de 3 km d'une commune).
+// Un lieu sans aucune commune à moins de 30 km n'est pas publié — il serait hors de France, ou mal placé.
 //
 // RELANCE. Le script est IDEMPOTENT : il repart des lignes IGN du fichier publié (celles qui ont un code postal),
 // jette les lignes ajoutées par une exécution précédente (code vide) et les recalcule. Il peut donc être relancé
@@ -72,7 +79,9 @@ function communeLaPlusProche(lat, lon){
 }
 
 const dump = fs.readFileSync(path.join(__dirname, 'dump', 'FR_dump.txt'), 'utf8');
-let bruts = 0, déjàPubliés = 0, sansDépartement = 0;
+// Codes de département réellement publiés par l'IGN : le seul vocabulaire accepté pour la colonne admin2 du dump.
+const DEPTS_IGN = new Set(ign.map(l => l.split(';')[3]));
+let bruts = 0, déjàPubliés = 0, sansDépartement = 0, depSource = 0, depVoisin = 0;
 const ajouts = [];
 for(const ligne of dump.split('\n')){
   if(!ligne) continue;
@@ -86,9 +95,14 @@ for(const ligne of dump.split('\n')){
   bruts++;
   const mêmes = parNom.get(normalizeCityName(nom)) || [];
   if(mêmes.some(o => haversineKm(lat, lon, o.lat, o.lon) <= MEME_NOM_KM)){ déjàPubliés++; continue; }
-  const dep = communeLaPlusProche(lat, lon);
-  if(!dep){ sansDépartement++; continue; }
-  ajouts.push(`${parseInt(c[14], 10) || 0};${lon.toFixed(4)},${lat.toFixed(4)};;${dep.dept};${nom}`);
+  // Département : celui de la source quand elle le donne ; sinon celui de la commune publiée la plus proche.
+  // Dans les deux cas, un lieu sans aucune commune à moins de DEPT_MAX_KM n'est pas publié — hors de France ou mal placé.
+  const voisin = communeLaPlusProche(lat, lon);
+  if(!voisin){ sansDépartement++; continue; }
+  let dept;
+  if(DEPTS_IGN.has(c[11])){ dept = c[11]; depSource++; }
+  else { dept = voisin.dept; depVoisin++; }
+  ajouts.push(`${parseInt(c[14], 10) || 0};${lon.toFixed(4)},${lat.toFixed(4)};;${dept};${nom}`);
 }
 ajouts.sort((a, b) => {
   const x = a.split(';').slice(4).join(';'), y = b.split(';').slice(4).join(';');
@@ -102,3 +116,5 @@ console.log('FR : ' + ign.length + ' communes IGN (inchangées) + ' + ajouts.len
   ' -> ' + lignes.length + ' lignes après dédoublonnage.');
 console.log('   ' + bruts + ' lieux habités dans le dump, ' + déjàPubliés + ' déjà publiés sous le même nom à moins de ' +
   MEME_NOM_KM + ' km, ' + sansDépartement + ' sans commune à moins de ' + DEPT_MAX_KM + ' km (non publiés).');
+console.log('   département : ' + depSource + ' lus dans la source (admin2), ' + depVoisin +
+  ' déduits de la commune publiée la plus proche faute de code dans la source.');
