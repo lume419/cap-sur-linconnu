@@ -291,6 +291,22 @@ module.exports = {
       priceByClass: { 1: null, 2: null, 5: null, foot: 55.83 },
       currency: 'USD', original: { foot: 65 },
       source: 'https://seabridgeferries.com/', date: '2026-09-23',
-      note: "« We sail to & from Barbuda every day of the week », « Our wave-piercing vessels have a journey time of approximately 90 minutes each way », « One-way adult fares starting at US\$65.00 » — tarif adulte le moins cher retenu. Deux navires « carry both passengers and large cargo » : la liaison n'est donc PAS déclarée sans véhicules, mais aucun tarif véhicule n'étant publié, les classes motorisées restent sans prix. Des sources tierces disent l'embarquement d'Antigua déplacé à Jolly Harbour en novembre 2023, ce que le site de l'armateur ne dit pas : le port retenu reste Saint John's, à 7 km. Taux InforEuro 09/2026 : 1 € = 1,1643 USD. Distance mesurée entre les deux lieux publiés." }
+      note: "« We sail to & from Barbuda every day of the week », « Our wave-piercing vessels have a journey time of approximately 90 minutes each way », « One-way adult fares starting at US\$65.00 » — tarif adulte le moins cher retenu. Deux navires « carry both passengers and large cargo » : la liaison n'est donc PAS déclarée sans véhicules, mais aucun tarif véhicule n'étant publié, les classes motorisées restent sans prix. Des sources tierces disent l'embarquement d'Antigua déplacé à Jolly Harbour en novembre 2023, ce que le site de l'armateur ne dit pas : le port retenu reste Saint John's, à 7 km. Taux InforEuro 09/2026 : 1 € = 1,1643 USD. Distance mesurée entre les deux lieux publiés." },
+    // ------------------------------------------------- Îles Vierges américaines et Grand Bahama
+    { a: 'saintCroix', b: 'saintThomasVI', routeKey: 'christianstedCharlotteAmalie', passengerOnly: true, "priceCovers": null,
+      "coversSource": "la grille de l'armateur ne comporte que des tarifs par personne, aucune ligne véhicule",
+      name: 'Gallows Bay (Sainte-Croix) ↔ Charlotte-Amalie (Saint-Thomas)',
+      operator: 'QE IV Ferry', durationH: 2.17, distanceKm: 71,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 60.12 },
+      currency: 'USD', original: { foot: 70 },
+      source: 'https://qe4ferry.com/services/', date: '2026-09-23',
+      note: "Horaire publié : Gallows Bay 8 h 00 → Blyden Terminal 10 h 10 (2 h 10), du mercredi au lundi ; retour 15 h 00 → 17 h 10. Tarifs « One-way: \$70 », « Round trip: \$60 » : c'est l'aller simple qui est retenu, une traversée valant un trajet. Sainte-Croix était isolée alors que Saint-Thomas est déjà reliée. Taux InforEuro 09/2026 : 1 € = 1,1643 USD. Distance mesurée entre les deux lieux publiés." },
+    { a: 'grandBahama', b: 'northAmerica', routeKey: 'fortLauderdaleFreeport', "priceCovers": null,
+      "coversSource": "l'armateur ne publie pas de tarif véhicule pour cette ligne : les classes motorisées restent sans prix",
+      name: 'Fort Lauderdale ↔ Freeport (Grand Bahama)',
+      operator: 'Baleària Caribbean (Jaume II)', durationH: 3, distanceKm: 151,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://www.baleariacaribbean.com/en/fort-lauderdale-grand-bahama', date: '2026-09-23',
+      note: "« Sailing Time: Around 3 hours, weather permitting », de Port Everglades Terminal 21 (Fort Lauderdale) à Freeport, à bord du Jaume II. La page annonce « From 235 \$ » SANS dire si c'est un aller simple ou un aller-retour : aucun montant n'est donc écrit ici plutôt qu'un prix peut-être doublé. La rubrique « I Travel with a Car » du site est un gabarit générique, repris à l'identique pour les animaux et l'accessibilité : elle ne prouve pas que cette ligne embarque des voitures, et rien d'autre ne le dit. Distance mesurée entre les deux lieux publiés." }
   ]
 };

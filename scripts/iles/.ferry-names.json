@@ -1388,6 +1388,14 @@
   "name": "Saint John's ↔ Codrington (Barbuda)"
  },
  {
+  "routeKey": "christianstedCharlotteAmalie",
+  "name": "Gallows Bay (Sainte-Croix) ↔ Charlotte-Amalie (Saint-Thomas)"
+ },
+ {
+  "routeKey": "fortLauderdaleFreeport",
+  "name": "Fort Lauderdale ↔ Freeport (Grand Bahama)"
+ },
+ {
   "routeKey": "calicaCozumel",
   "name": "Calica (Punta Venado) ↔ Cozumel"
  },

@@ -116,6 +116,31 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Tri des 111 masses les plus peuplées sans liaison (lot 1 sur 4), et deux liaisons de plus.**
+  - **Gallows Bay ⇔ Charlotte-Amalie**, QE IV Ferry, 2 h 10, 71 km, **60,12 €** (« One-way: \$70 »,
+    « Round trip: \$60 » : l'aller simple est retenu, une traversée valant un trajet). `passengerOnly` :
+    la grille ne comporte que des tarifs par personne. Sainte-Croix (52 995 habitants publiés) était isolée
+    alors que Saint-Thomas est déjà reliée.
+  - **Fort Lauderdale ⇔ Freeport**, Baleària Caribbean (Jaume II), 3 h, 151 km, sans prix : la page annonce
+    « From 235 \$ » **sans dire si c'est un aller simple ou un aller-retour**, et sa rubrique « I Travel with a
+    Car » est un gabarit générique, repris mot pour mot pour les animaux et l'accessibilité — elle ne prouve
+    rien sur les véhicules. Grand Bahama : 89 903 habitants.
+  - **Ce que le tri a montré.** Sur les 111, une douzaine seulement ont un armateur qui publie ses tarifs.
+    Le gros du reste se répartit en trois familles : **aucun service maritime à modéliser** (Hawaï depuis
+    l'arrêt du Superferry en 2009, Jamaïque, Bermudes, Guam, Saipan, Grand Cayman, Cayman Brac, Curaçao,
+    Aruba, Bonaire, Barbade, La Réunion, Kamtchatka, Norilsk, Tchoukotka) ; **service réel mais sans source
+    lisible** (Cat Cocos aux Seychelles, ASDP et Pelni en Indonésie, matrice MARINA aux Philippines, vedettes
+    des Galápagos, chaloupes de l'Amazone, Comores) ; **liaisons internes à une masse déjà nommée**, qui ne
+    relient donc rien (Atlânticoline aux Açores, MTCC aux Maldives). La suite du lot 1 est une liste courte et
+    nommée : Saint-Martin ⇔ Anguilla, Saint-Martin ⇔ Saint-Barthélemy, Port-Vila ⇔ Luganville, Sóc Trăng ⇔
+    Côn Đảo, Providenciales ⇔ North Caicos, Tortola ⇔ Saint-Thomas, Flores ⇔ Faial, Kinmen ⇔ Xiamen.
+  - Même effet de bord que le lot précédent, mesuré : les deux nouvelles distances déplacent deux médianes de
+    vitesse, celle de la classe 45-100 km de **22,69 à 23,00 km/h** et celle de la classe 100-300 km de
+    **26,67 à 28,25 km/h**. `compare-engine` remonte deux tirages changés (Dublin à vélo, Ajaccio à moto).
+  - **Izu Ōshima mise de côté, et pourquoi** : le jetfoil de Tōkai Kisen fait les 110 km en 1 h 45, soit
+    63 km/h — au-dessus du plafond de 60 km/h que `data.test.js` impose aux ferries. La modéliser demande une
+    exception écrite pour les engins à grande vitesse, et la durée du grand navire, celui qui embarque les
+    véhicules, n'a pas pu être lue de façon fiable.
 - **Deux liaisons de plus, quatre masses rendues au site — et trois pistes écartées faute de source.**
   - **Mā'alaea (Maui) ⇔ Mānele (Lāna'i)**, Lāna'i Expeditions, 1 h 10, 44 km, **34,36 €**. L'armateur titre
     « Maui to Lāna'i Passenger Ferry » : `passengerOnly`. Le départ était à Lahaina, transféré à Mā'alaea après
@@ -274,7 +299,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **444 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+- **442 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
   Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.

@@ -303,4 +303,8 @@ module.exports = [
     ports: { lanai: [{ cc: 'US', place: 'Lanai City' }], maui: [{ cc: 'US', place: 'Mā‘alaea' }] } },
   { key: 'antigua|barbuda', source: 'https://seabridgeferries.com/ (Antigua ↔ Barbuda)',
     ports: { antigua: [{ cc: 'AG', place: 'Saint John’s' }], barbuda: [{ cc: 'AG', place: 'Codrington' }] } },
+  { key: 'saintCroix|saintThomasVI', source: 'https://qe4ferry.com/services/ (Gallows Bay ↔ Blyden Terminal)',
+    ports: { saintCroix: [{ cc: 'VI', place: 'Christiansted' }], saintThomasVI: [{ cc: 'VI', place: 'Charlotte Amalie' }] } },
+  { key: 'grandBahama|northAmerica', source: 'https://www.baleariacaribbean.com/en/fort-lauderdale-grand-bahama (Port Everglades ↔ Freeport)',
+    ports: { grandBahama: [{ cc: 'BS', place: 'Freeport', near: [26.5333, -78.7] }], northAmerica: [{ cc: 'US', place: 'Fort Lauderdale' }] } },
 ];
