@@ -1648,6 +1648,174 @@
   "name": "Leppneeme ↔ Prangli"
  },
  {
+  "routeKey": "comores1Couv",
+  "name": "Moroni ↔ Mutsamudu"
+ },
+ {
+  "routeKey": "comores2Couv",
+  "name": "Mutsamudu ↔ Fomboni"
+ },
+ {
+  "routeKey": "comores3Couv",
+  "name": "Moroni ↔ Fomboni"
+ },
+ {
+  "routeKey": "sey1Couv",
+  "name": "Victoria (Mahé) ↔ Baie Sainte-Anne (Praslin)"
+ },
+ {
+  "routeKey": "sey2Couv",
+  "name": "Praslin ↔ La Digue"
+ },
+ {
+  "routeKey": "lamuCouv",
+  "name": "Mokowe ↔ Lamu"
+ },
+ {
+  "routeKey": "sainteMarieCouv",
+  "name": "Soanierana-Ivongo ↔ Ambodifotatra"
+ },
+ {
+  "routeKey": "sanAndresCouv",
+  "name": "San Andrés ↔ Providencia"
+ },
+ {
+  "routeKey": "sb1Couv",
+  "name": "Honiara ↔ Auki"
+ },
+ {
+  "routeKey": "sb2Couv",
+  "name": "Honiara ↔ Buala"
+ },
+ {
+  "routeKey": "sb3Couv",
+  "name": "Honiara ↔ Kirakira"
+ },
+ {
+  "routeKey": "sb4Couv",
+  "name": "Honiara ↔ Noro"
+ },
+ {
+  "routeKey": "sb5Couv",
+  "name": "Noro ↔ Gizo"
+ },
+ {
+  "routeKey": "pg1Couv",
+  "name": "Kokopo ↔ Kavieng"
+ },
+ {
+  "routeKey": "pg2Couv",
+  "name": "Kokopo ↔ Arawa"
+ },
+ {
+  "routeKey": "id1Couv",
+  "name": "Baubau ↔ Kendari"
+ },
+ {
+  "routeKey": "id2Couv",
+  "name": "Gresik ↔ Sangkapura"
+ },
+ {
+  "routeKey": "id3Couv",
+  "name": "Manado ↔ Tahuna"
+ },
+ {
+  "routeKey": "id4Couv",
+  "name": "Larantuka ↔ Lewoleba"
+ },
+ {
+  "routeKey": "id5Couv",
+  "name": "Jayapura ↔ Biak"
+ },
+ {
+  "routeKey": "id6Couv",
+  "name": "Ambon ↔ Tual"
+ },
+ {
+  "routeKey": "id7Couv",
+  "name": "Jayapura ↔ Serui"
+ },
+ {
+  "routeKey": "id8Couv",
+  "name": "Sorong ↔ Waisai"
+ },
+ {
+  "routeKey": "id9Couv",
+  "name": "Ambon ↔ Saumlaki"
+ },
+ {
+  "routeKey": "jp1Couv",
+  "name": "Ishigaki ↔ Shirahama (Iriomote)"
+ },
+ {
+  "routeKey": "cn1Couv",
+  "name": "Dalian ↔ Changshan"
+ },
+ {
+  "routeKey": "mm1Couv",
+  "name": "Kyaukpyu ↔ Manaung"
+ },
+ {
+  "routeKey": "ph1Couv",
+  "name": "Masbate ↔ San Jacinto"
+ },
+ {
+  "routeKey": "ph3Couv",
+  "name": "Coron ↔ Culion"
+ },
+ {
+  "routeKey": "ph4Couv",
+  "name": "Pio Duran ↔ Claveria"
+ },
+ {
+  "routeKey": "ph5Couv",
+  "name": "Bongao ↔ Languyan"
+ },
+ {
+  "routeKey": "ph6Couv",
+  "name": "Puerto Princesa ↔ Cuyo"
+ },
+ {
+  "routeKey": "ph7Couv",
+  "name": "Roxas ↔ Dumaran"
+ },
+ {
+  "routeKey": "ph9Couv",
+  "name": "Estancia ↔ Gigantes Norte"
+ },
+ {
+  "routeKey": "ph10Couv",
+  "name": "Estancia ↔ Gigantes Sur"
+ },
+ {
+  "routeKey": "mv1Couv",
+  "name": "Malé ↔ Eydhafushi"
+ },
+ {
+  "routeKey": "sc1Couv",
+  "name": "Victoria (Mahé) ↔ La Digue"
+ },
+ {
+  "routeKey": "gt1Couv",
+  "name": "Puerto Barrios ↔ Lívingston"
+ },
+ {
+  "routeKey": "mx1Couv",
+  "name": "Chiquilá ↔ Isla Holbox"
+ },
+ {
+  "routeKey": "pr1Couv",
+  "name": "Ceiba ↔ Culebra"
+ },
+ {
+  "routeKey": "th2Couv",
+  "name": "Ko Chang ↔ Ko Kood"
+ },
+ {
+  "routeKey": "my1Couv",
+  "name": "Lumut ↔ Pangkor"
+ },
+ {
   "routeKey": "aomoriHakodate",
   "name": "Aomori ↔ Hakodate"
  },

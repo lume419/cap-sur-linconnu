@@ -116,6 +116,18 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Lot de couverture, passe 2 : 42 liaisons hors d'Europe, 49 masses reliées.**
+  - Les trois Comores, les Seychelles (Mahé, Praslin, La Digue), Lamu, Sainte-Marie, San Andrés ⇔ Providencia,
+    cinq liaisons des Salomon, deux de Papouasie, neuf indonésiennes (Pelni et ASDP), Iriomote, Changshan,
+    Cheduba, neuf philippines, Malé ⇔ Eydhafushi, Lívingston, Holbox, Culebra, Ko Kood et Pangkor.
+    Même règle que la passe 1, même fichier source : durée déduite de la médiane du projet, aucun prix.
+  - **Trois candidates écartées faute de pouvoir les attester** : São Tomé ⇔ Príncipe (aucune liaison
+    régulière de passagers, déjà cherchée plus haut), Malé ⇔ Addu et Tarawa ⇔ Butaritari, aériennes en pratique.
+  - Le contrôle des rives a arrêté huit entrées de plus : sept homonymes de ports (Kokopo, Dalian, Kyaukpyu,
+    Estancia deux fois, Ceiba…) et un `near` mal placé — **Waisai était à 30 km de la coordonnée donnée**.
+  - `compare-engine` remonte 11 tirages changés sur 380, tous dans les régions touchées (Kuala Lumpur et Kota
+    Bharu pour Pangkor, Antananarivo pour Sainte-Marie, Nanma pour Changshan, Cebu pour les Philippines), et
+    aucune médiane de vitesse ne bouge.
 - **Lot de COUVERTURE : 37 îles d'un coup, à barre volontairement abaissée.**
   - Douze croates (Prvić, Zlarin, Kaprije, Krapanj, Vrgada, Silba, Lopud, Koločep, Susak, Unije, Ilovik,
     Biševo), cinq grecques (Spétses, Hydra, Kálamos, Kastós, Télendos), trois écossaises (Iona, Eigg, Rum),
@@ -465,7 +477,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **373 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+- **324 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
   Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.
