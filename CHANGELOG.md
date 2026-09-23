@@ -116,6 +116,26 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Lot 2 (rangs 112 à 222), début : Scilly et Juist.**
+  - **Penzance ⇔ St Mary's**, Isles of Scilly Travel (Scillonian III), 2 h 45, 60 km, sans prix. « Dogs allowed »
+    est la seule mention, sur la page de la ligne, de ce qui embarque à côté des passagers ; aucun tarif n'y est
+    chiffré. De mars à novembre, six jours sur sept et sept en haute saison.
+  - **Norddeich ⇔ Juist**, Reederei Norden-Frisia, 1 h 30, 13 km, sans prix. **La meilleure source de tout le
+    chantier** pour `passengerOnly` : « Juist ist eine autofreie Insel. Daher werden keine PKW transportiert und
+    dein Auto bleibt sicher auf einem der Langzeitparkplätze des INSELPARKERS zurück » — l'armateur décrit mot
+    pour mot le cas que ce champ modélise, voiture laissée au port comprise.
+  - **Une grille lisible, et pourtant aucun prix écrit.** Norden-Frisia publie adulte 24,30 € au guichet et
+    22,80 € en ligne, enfant 12,15 € et 11,40 €, chien 10,20 € — mais **la page ne dit nulle part si ces
+    montants valent l'aller simple ou l'aller-retour**, et les mots « einfache Fahrt » comme
+    « Hin- und Rückfahrt » en sont absents. Écrire l'un ou l'autre serait un chiffre sur deux faux.
+  - Effet de bord mesuré, une seule médiane bouge : Scilly (21,8 km/h) est plus lente que la médiane de sa
+    classe, qui redescend de **23,00 à 22,69 km/h** pour les 45-100 km ; Juist ne déplace pas celle des moins de
+    15 km. `compare-engine` remonte un seul tirage changé sur 380 (Ajaccio, une minute et un kilomètre d'écart).
+  - **Le lot 2 est bien moins peuplé que le lot 1** : il s'ouvre à 5 656 habitants (Ascension) et descend sous
+    2 000 dès le rang 160. Les candidats repérés qui se raccordent à une masse DÉJÀ reliée : Virgin Gorda
+    (depuis Tortola), Montserrat (depuis Antigua), Guanaja (depuis Roatán), Hydra et Spétses (depuis le
+    continent grec), Heybeliada et Kınalıada (même ligne Adalar que Büyükada). Catalina a été cherchée puis
+    écartée : Catalina Express ne publie ni durée ni tarif, tout passe par sa billetterie.
 - **Les trois dernières liaisons cherchées du lot 1.**
   - **Port-Vila ⇔ Luganville**, Big Sista, 24 h (estimée), 276 km, sans prix. Seul lien maritime régulier entre
     les deux principales îles du Vanuatu : « a 33 metre passenger vessel […] stopping at Epi and Malekula along
@@ -333,7 +353,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **434 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+- **432 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
   Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.

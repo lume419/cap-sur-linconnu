@@ -7485,6 +7485,23 @@ module.exports = {
    "source": "https://elinvoimakeskus.fi/yhteysalusliikenne",
    "date": "2026-09-16",
    "note": "Navire de liaison prenant des voitures ; passagers gratuits, tarif voiture fixé à la réservation (booking.finferries.fi), sans grille lisible."
+  },
+  {
+   "a": "continental",
+   "b": "juist",
+   "routeKey": "norddeichJuist",
+   "name": "Norddeich ↔ Juist",
+   "operator": "Reederei Norden-Frisia (INSELFÄHRE)",
+   "durationH": 1.5,
+   "distanceKm": 13,
+   "passengerOnly": true,
+   "priceCovers": null,
+   "coversSource": "l'armateur écrit « Juist ist eine autofreie Insel. Daher werden keine PKW transportiert »",
+   "priceStatus": "unknown",
+   "priceByClass": { "1": null, "2": null, "5": null, "foot": null },
+   "source": "https://www.inselfaehre.de/juist",
+   "date": "2026-09-23",
+   "note": "« Die Fahrtdauer beträgt in der Regel etwa 90 Minuten » depuis Norddeich-Mole ; les express font la traversée en 45 min. Île SANS VOITURES, dit par l'armateur : « Juist ist eine autofreie Insel. Daher werden keine PKW transportiert und dein Auto bleibt sicher auf einem der Langzeitparkplätze des INSELPARKERS zurück » — exactement le cas que passengerOnly décrit. Grille publiée : adulte à partir de 14 ans 24,30 € au guichet et 22,80 € en ligne, enfant de 6 à 13 ans 12,15 € et 11,40 €, moins de 6 ans gratuit, chien 10,20 €. AUCUN prix n'est écrit ici : la page ne dit nulle part si ces montants valent l'aller simple ou l'aller-retour, et les mots « einfache Fahrt » comme « Hin- und Rückfahrt » en sont absents. Distance mesurée entre les deux lieux publiés."
   }
  ]
 };

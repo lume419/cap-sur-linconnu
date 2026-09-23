@@ -804,6 +804,10 @@
   "name": "Tórshavn ↔ Nólsoy"
  },
  {
+  "routeKey": "penzanceStMarys",
+  "name": "Penzance ↔ St Mary's (Scilly)"
+ },
+ {
   "routeKey": "untenNakada",
   "name": "Unten (Nakijin) ↔ Nakada"
  },
@@ -1306,6 +1310,10 @@
  {
   "routeKey": "kasnasRosala",
   "name": "Kasnäs ↔ Rosala/Hitis"
+ },
+ {
+  "routeKey": "norddeichJuist",
+  "name": "Norddeich ↔ Juist"
  },
  {
   "routeKey": "santoDomingoSanJuan",

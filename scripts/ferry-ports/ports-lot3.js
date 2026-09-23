@@ -321,4 +321,8 @@ module.exports = [
     ports: { northMiddleCaicos: [{ cc: 'TC', place: 'Sandy Point', near: [21.9393, -72.038] }], providenciales: [{ cc: 'TC', place: 'The Bight Settlements' }] } },
   { key: 'saintThomasVI|tortola', source: 'https://www.roadtownfastferry.com/ (Charlotte Amalie ↔ Road Town)',
     ports: { saintThomasVI: [{ cc: 'VI', place: 'Charlotte Amalie' }], tortola: [{ cc: 'VG', place: 'Road Town' }] } },
+  { key: 'greatBritain|scillyStMarys', source: "https://www.islesofscilly-travel.co.uk/ferry/route/ (Penzance ↔ St Mary's)",
+    ports: { greatBritain: [{ cc: 'GB', place: 'Penzance' }], scillyStMarys: [{ cc: 'GB', place: 'Hugh Town' }] } },
+  { key: 'continental|juist', source: 'https://www.inselfaehre.de/juist (Norddeich-Mole ↔ Juist)',
+    ports: { continental: [{ cc: 'DE', place: 'Norddeich', near: [53.6135, 7.1604] }], juist: [{ cc: 'DE', place: 'Juist' }] } },
 ];

@@ -282,6 +282,13 @@ module.exports = {
     { a: 'faroe', b: 'nolsoy', routeKey: 'torshavnNolsoy', "priceCovers": null, "coversSource": "grille SSL : inclusion du conducteur non précisée", name: 'Tórshavn ↔ Nólsoy', operator: 'Strandfaraskip Landsins',
       durationH: 0.5, distanceKm: 5, priceByClass: { 1: k(336 / 2), 2: k(428 / 2), 5: k(214 / 2), foot: k(131 / 2) },
       source: 'https://www.ssl.fo/en/prices/prices-ferries', date: D,
-      note: 'Ligne 90, même grille que Kalsoy. M/F Ternan, « Sailing time: 30 min ».' }
+      note: 'Ligne 90, même grille que Kalsoy. M/F Ternan, « Sailing time: 30 min ».' },
+    { a: 'greatBritain', b: 'scillyStMarys', routeKey: 'penzanceStMarys', passengerOnly: true, "priceCovers": null,
+      "coversSource": "la page de la ligne ne liste que des passagers et des chiens, aucun tarif ni pont véhicule",
+      name: "Penzance ↔ St Mary's (Scilly)",
+      operator: 'Isles of Scilly Travel (Scillonian III)', durationH: 2.75, distanceKm: 60,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://www.islesofscilly-travel.co.uk/ferry/route/', date: '2026-09-23',
+      note: "« The crossing from Penzance to St Mary's takes around 2 hours and 45 minutes », à bord du Scillonian III, de mars à novembre, six jours sur sept et sept en haute saison avec double rotation le samedi. La page de la ligne ne chiffre aucun tarif ; « Dogs allowed » y est la seule mention de ce qui embarque à côté des passagers. Distance mesurée entre les deux lieux publiés (Penzance et Hugh Town)." }
   ]
 };
