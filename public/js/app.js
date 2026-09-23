@@ -1726,8 +1726,8 @@
         matchedSpan.textContent = ' (' + r.matchedName + ')';
         nameTextSpan.appendChild(matchedSpan);
       }
-      // Lieu-dit rattaché à une commune (23/09/2026) : « Le Marchais Vert » ne dit pas où il est, « Le Marchais Vert
-      // · Tinchebray-Bocage » si. Le point sépare deux NOMS DE LIEUX, là où la parenthèse ci-dessus signale un nom
+      // Lieu-dit rattaché à une commune (23/09/2026) : « Belzaises » ne dit pas où il est, « Belzaises ·
+      // Saint-Sulpice-sur-Risle » si. Le point sépare deux NOMS DE LIEUX, là où la parenthèse ci-dessus signale un nom
       // dans une autre langue : deux signes différents pour deux sens différents. Jamais affiché quand la commune
       // porte le nom du lieu (ce serait se répéter), ni pour les lieux qui n'en ont pas.
       if(r.commune && r.commune !== r.name){

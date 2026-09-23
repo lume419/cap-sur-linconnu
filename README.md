@@ -3749,14 +3749,17 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
 
 **Demande de l'utilisateur, mot pour mot :** « Les lieux dit sont généralement rattaché a des villes environnantes,
 ex : "le marchais vert" est rattaché a Beauchêne ». C'est exact, et la veille le site publiait ces lieux-dits comme
-des points autonomes : un nom, un département, rien d'autre. « Le Marchais Vert » ne dit pas où il est.
+des points autonomes : un nom, un département, rien d'autre. « Belzaises » ne dit pas où il est.
+(L'exemple donné par l'utilisateur, « Le Marchais Vert », **ne figure pas dans GeoNames** — vérifié après coup, en
+production : la source y connaît 22 « Marchais » mais pas celui-là. Il n'a donc jamais pu être publié, ni avant ni
+après. Les exemples ci-dessous sont pris dans les données réelles, pour que le lecteur puisse les vérifier.)
 
 **La source porte le lien.** La colonne `admin4` du dump GeoNames est le CODE INSEE de la commune dont le lieu
 dépend — 79 002 des 80 290 lieux habités français en portent un. Ce code est rapproché de la commune PUBLIÉE du même
 nom dans ce département ; c'est licite parce que les noms de communes sont **uniques dans un département**
 (vérifié : 0 doublon sur les 34 964 lignes IGN). Un lieu rattaché reçoit alors les **codes postaux de sa commune** —
 c'est par eux que le courrier lui parvient, rien n'est inventé — et le **nom de cette commune**, affiché dans la
-suggestion : « Le Marchais Vert · Tinchebray-Bocage ». Le point sépare deux noms de LIEUX, là où la parenthèse
+suggestion : « Belzaises · Saint-Sulpice-sur-Risle ». Le point sépare deux noms de LIEUX, là où la parenthèse
 signale depuis le 16e audit un nom dans une autre langue : deux signes pour deux sens. Une commune à plusieurs codes
 postaux les transmet tous — on ne sait pas lequel des vingt codes de Paris sert le 18e arrondissement, la liste
 complète est donc publiée et n'importe lequel le retrouve.

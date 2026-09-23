@@ -19,7 +19,9 @@
 // marchais vert" est rattaché à Beauchêne » (utilisateur). C'est exact, et la source le dit : la colonne admin4 du
 // dump porte le CODE INSEE de la commune dont le lieu dépend. Un lieu rattaché reçoit donc les CODES POSTAUX de sa
 // commune — c'est par eux que le courrier lui parvient, rien n'est inventé — et le NOM de cette commune dans un
-// 6e champ, affiché dans la suggestion (« Le Marchais Vert · Tinchebray-Bocage »).
+// 6e champ, affiché dans la suggestion (« Belzaises · Saint-Sulpice-sur-Risle », « A Castagnola · Alata »).
+// L'exemple donné par l'utilisateur, « Le Marchais Vert », ne figure PAS dans GeoNames (22 « Marchais » y sont, pas
+// celui-là) : il n'a jamais pu être publié. Les exemples de ce fichier sont pris dans les données réelles.
 // 39 955 des 46 467 lieux ajoutés sont ainsi rattachés. Les 6 512 autres dépendent d'une commune qui a ELLE-MÊME
 // fusionné depuis et ne figure plus dans la liste officielle (Beauchêne est passée dans Tinchebray-Bocage en 2015) :
 // faute de table des fusions dans le dépôt, ils restent sans code et sans rattachement, plutôt que d'être rattachés
@@ -92,7 +94,7 @@ for(const l of ign){
   let h = grille.get(c); if(!h) grille.set(c, h = []); h.push(o);
 }
 // Commune de rattachement : le dump porte, colonne admin4, le code INSEE de la commune dont le lieu-dit dépend
-// (« Le Marchais Vert » -> 61486, Beauchêne). Ce code est rapproché de la commune PUBLIÉE portant ce nom dans ce
+// (« Belzaises » -> 61456, Saint-Sulpice-sur-Risle). Ce code est rapproché de la commune PUBLIÉE portant ce nom dans ce
 // département — les noms de communes sont uniques dans un département. 33 789 codes INSEE se résolvent ainsi.
 // Les autres désignent des communes qui ont elles-mêmes fusionné depuis (Beauchêne est passée dans Tinchebray-Bocage
 // en 2015) et ne figurent donc plus dans la liste officielle : ces lieux-là restent sans rattachement, plutôt que

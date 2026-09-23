@@ -1610,7 +1610,8 @@ test('19e audit : chaque nom de langue porte sa langue et son sens d\'écriture'
 });
 
 test('23/09/2026 : un lieu-dit affiche la commune qui le porte, et ne se répète pas', () => {
-  // « Le Marchais Vert » ne dit pas où il est ; « Le Marchais Vert · Tinchebray-Bocage » si. Le rattachement n'a
+  // « Belzaises » ne dit pas où il est ; « Belzaises · Saint-Sulpice-sur-Risle » si. Les trois fiches ci-dessous sont
+  // prises dans les données réellement publiées (Orne et Corse-du-Sud), et non inventées. Le rattachement n'a
   // d'intérêt que s'il ARRIVE À L'ÉCRAN : renderSuggestions est donc exécutée pour de vrai, comme au 18e audit, et
   // c'est le texte de l'option qu'on lit. Trois cas dans le même rendu : un lieu-dit rattaché (la commune s'affiche),
   // une commune (aucune commune de rattachement, rien ne s'ajoute), et un lieu dont la commune porte SON nom — se
@@ -1631,8 +1632,8 @@ test('23/09/2026 : un lieu-dit affiche la commune qui le porte, et ne se répèt
   vm.createContext(ctx);
   vm.runInContext(src.trim() + '\nthis.renderSuggestions = renderSuggestions;', ctx);
   ctx.renderSuggestions([
-    { name: 'Le Marchais Vert', cp: '61800', allCps: ['61800'], country: 'FR', dept: '61', lat: 48.7, lon: -0.7, pop: 0, commune: 'Tinchebray-Bocage' },
-    { name: 'Tinchebray-Bocage', cp: '61800', allCps: ['61800'], country: 'FR', dept: '61', lat: 48.76, lon: -0.73, pop: 5000, commune: null },
+    { name: 'Belzaises', cp: '61300', allCps: ['61300'], country: 'FR', dept: '61', lat: 48.7710, lon: 0.6714, pop: 0, commune: 'Saint-Sulpice-sur-Risle' },
+    { name: 'Saint-Sulpice-sur-Risle', cp: '61300', allCps: ['61300'], country: 'FR', dept: '61', lat: 48.7594, lon: 0.6386, pop: 1755, commune: null },
     { name: 'Alata', cp: '20167', allCps: ['20167'], country: 'FR', dept: '2A', lat: 42.0, lon: 8.76, pop: 800, commune: 'Alata' }
   ]);
   const visible = e => {
@@ -1642,7 +1643,7 @@ test('23/09/2026 : un lieu-dit affiche la commune qui le porte, et ne se répèt
   };
   const options = suggest.children;
   assert.equal(options.length, 3, 'suggestions non construites');
-  assert.ok(/Le Marchais Vert.*·.*Tinchebray-Bocage/.test(visible(options[0])),
+  assert.ok(/Belzaises.*·.*Saint-Sulpice-sur-Risle/.test(visible(options[0])),
     'commune de rattachement absente : ' + JSON.stringify(visible(options[0])));
   assert.ok(!/·/.test(visible(options[1])), 'une commune ne se rattache à rien : ' + JSON.stringify(visible(options[1])));
   assert.ok(!/·/.test(visible(options[2])), 'un lieu dont la commune porte son nom ne doit pas se répéter : ' + JSON.stringify(visible(options[2])));
