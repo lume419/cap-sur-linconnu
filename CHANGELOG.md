@@ -116,6 +116,48 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Lot de couverture, passe 4 : 47 liaisons, 51 masses reliées — la passe la plus faible du lot, et elle le dit.**
+  - Les six îles féroïennes desservies par Strandfaraskip Landsins (Svínoy, Skúvoy, Hestur, Fugloy, Mykines,
+    Koltur), Rakiura/Stewart Island, Mackinac Island, Fire Island, Asinara, Naissaar, Kiji, Valaam, Solovki,
+    Anegada, Dokós, Trizonía, Canna, Gröde, Koh Samet, l'Île-aux-Moines, Larak, Gaua, Sebatik, Bacan, Ibo,
+    Sherbro, Daru, Dahlak Kebir, la Mosquitia, cinq îles mexicaines et panaméennes, quatre des Bahamas,
+    Kinmen, Tinian, Peleliu, Babeldaob, Weno, Saint-Barthélemy et le Calha Norte amazonien.
+  - **Ce qui change par rapport aux passes 1 à 3, et qui est écrit dans chaque note :** les paires ne sont plus
+    trouvées à la lecture d'un opérateur, elles sont **proposées automatiquement** — pour chaque masse habitée
+    sans liaison, la rive publiée la plus proche sur une autre masse, à 40 km au plus. Aucune source propre à la
+    liaison n'a été lue. La durée reste déduite de la distance entre les deux lieux publiés, à la vitesse médiane
+    du projet, et reste marquée estimée ; aucun prix n'est écrit. **Cette passe se reprend ou se retire d'un bloc**,
+    et ses 47 entrées portent toutes le suffixe `P4`.
+  - **95 paires proposées, 47 retenues.** Écartées avec leur raison : le Kamtchatka et la Tchoukotka (les greffer
+    au réseau routier eurasien par une traversée de baie serait faux), Curaçao et Aruba (aucun ferry vers le
+    Venezuela), Molokai (la ligne a cessé en 2016), Montserrat (le service n'a pas encore ouvert), Kharg et la
+    Grande Tunb (accès restreint ou disputé), Cayman Brac (avion), Mustique (île privée, avion), Milingimbi
+    (avion et barge de fret), onze localités arctiques ou alaskiennes desservies par avion, et 26 paires dont la
+    contrepartie est une masse synthétique, sans clé stable.
+  - **Un cas écarté vaut signalement :** la paire proposée pour `capeVerdeOther` reliait deux lieux distants de
+    2 km **à l'intérieur de Santiago**. Ce n'est pas une traversée, c'est un classement de masse à revoir.
+  - Le contrôle des rives n'a rien arrêté cette fois : les 47 paires résolvent leurs deux ports et leurs homonymes
+    du premier coup, chaque port portant sa position.
+  - **Les cinq médianes ne bougent pas** (12,00 / 20,00 / 23,00 / 28,25 / 27,12 km/h) : les 47 durées étant
+    estimées, elles sont exclues du calcul par construction.
+  - `compare-engine` remonte **6 tirages changés sur 380**, tous en Thaïlande, en Italie, en Grèce et aux
+    États-Unis — les quatre pays où cette passe ajoute une île (Koh Samet, Asinara, Trizonía et Dokós, Fire
+    Island et Mackinac). Aucun pays non touché ne bouge, aucune paire de ferry ne change, aucun plafond
+    d'hébergement non plus. Suite complète : **291 tests, 0 échec, 521 s.**
+  - **Ce que la passe ne prouve pas.** Une sonde de 36 tirages par île ne voit la traversée empruntée que sur
+    7 des 47 (les six féroïennes et l'Île-aux-Moines) ; ailleurs le tirage reste sur l'île, et 17 îles ne rendent
+    aucun trajet. Ce n'est pas une régression — Stornoway, reliée depuis l'origine par CalMac, se comporte
+    pareil — mais la liaison ajoutée ouvre la couverture sans garantir qu'un tirage donné la prenne.
+- **Les impasses réelles sont enfin comptées : 42.** La mesure tentée le 23/09/2026 avait été faussée par la
+  limitation de débit du serveur, qui répond 429 et fait passer pour mortes des masses jamais interrogées. La
+  sonde tourne maintenant **en direct dans le moteur, sans HTTP donc sans quota** : pour chacune des 232 masses
+  nommées sans liaison, jusqu'à trois départs (les lieux les plus peuplés) × trois durées × trois tirages.
+  - **174 rendent un trajet** de l'intérieur : le message « réessayez, ou élargissez le rayon » y est juste.
+  - **16 sont refusées au départ par la règle des zones à tension** — Kamtchatka, Norilsk, Tchoukotka, Socotra,
+    l'Île de la Tortue… Ce ne sont pas des impasses : c'est une décision assumée, et le message devrait le dire.
+  - **42 sont de vraies impasses** : 95 lieux publiés, 68 792 habitants. Wallis, Futuna, Maupiti, Tristan da
+    Cunha, Fernando de Noronha, Ilulissat, Utqiagvik, Batanes, cinq atolls de Tuvalu. Là, et là seulement,
+    le message affiché est faux : rien ne marchera jamais.
 - **Lot de couverture, passe 3 : 39 liaisons, 41 masses reliées.**
   - Quatre du Vanuatu (Malekula, Tanna, Ambrym, Vanua Lava), Ouvéa et Belep, deux des Galápagos, **sept des
     Bahamas** (Eleuthera, Exuma, Abaco, Andros, Cat Island, Long Island, San Salvador), Grand Turk et South
@@ -493,17 +535,23 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **283 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
-  Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
+- **232 masses terrestres nommées n'ont aucune liaison modélisée** — Wallis, Futuna, Corvo, Tristan da
+  Cunha, Maupiti, Hœdic, l'Île-de-Sein. Méthode, écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.
-  **Toutes ne sont pas des impasses** : Sri Lanka (17 740 lieux publiés) ou la Jamaïque (3 199) se visitent très
-  bien de l'intérieur, tandis que Corvo ou Hœdic, à un seul lieu, ne peuvent rien rendre. Pour celles-là, le
-  message affiché conseille « réessayez, ou élargissez le rayon », ce qui est FAUX : rien ne marchera jamais.
-  **Combien sont réellement des impasses n'est pas connu.** La mesure du 23/09/2026 (184 masses, 386 lieux) a
-  été écrite sans sa méthode et n'a pas pu être rejouée ; une sonde du moteur, un tirage par masse, a été
-  tentée le même jour et faussée par la limitation de débit du serveur, qui répond 429 et fait passer pour
-  mortes des masses jamais interrogées. Ce chiffre-là reste à mesurer, avec une sonde qui respecte le quota.
+  **Toutes ne sont pas des impasses**, et le compte est désormais fait (24/09/2026, sonde en direct dans le
+  moteur, sans HTTP donc sans quota — trois départs × trois durées × trois tirages par masse) :
+  - **174 rendent un trajet** de l'intérieur — Sri Lanka (17 740 lieux publiés), la Jamaïque (3 199) se visitent
+    très bien sans jamais embarquer. Le message « réessayez, ou élargissez le rayon » y est juste.
+  - **16 sont refusées au départ par la règle des zones à tension** (Kamtchatka, Norilsk, Tchoukotka, Socotra,
+    Île de la Tortue, Idjwi…), et non faute de liaison. Le message affiché ne le dit pas, alors que le refus est
+    délibéré : **à corriger**.
+  - **42 sont de vraies impasses** : 95 lieux publiés, 68 792 habitants — Wallis, Futuna, Maupiti, Tristan da
+    Cunha, Fernando de Noronha, Ilulissat, Utqiagvik, Batanes, cinq atolls de Tuvalu, Corvo ou Hœdic à un seul
+    lieu. Là, et là seulement, « réessayez, ou élargissez le rayon » est FAUX : rien ne marchera jamais.
+  La mesure du 23/09/2026 (184 masses, 386 lieux) avait été écrite sans sa méthode ; celle tentée le même jour
+  par l'API a été faussée par la limitation de débit, qui répond 429 et fait passer pour mortes des masses
+  jamais interrogées. Les deux sont remplacées par celle-ci.
 - **86 des 244 fonctions de `public/js/app.js` ne sont exercées par aucun test** (114 au matin du
   23/09/2026). Ce qui reste : le rendu du voyage à l'écran (19), l'orchestration asynchrone des photos,
   points d'intérêt et randonnées (18), les erreurs de formulaire encore non couvertes (14), la carte

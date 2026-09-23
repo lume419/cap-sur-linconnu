@@ -1972,6 +1972,194 @@
   "name": "Batam ↔ Tanjung Balai (Karimun)"
  },
  {
+  "routeKey": "calhaNorteP4",
+  "name": "Curuá ↔ Pacoval"
+ },
+ {
+  "routeKey": "kinmenP4",
+  "name": "Jincheng ↔ Huxiacun"
+ },
+ {
+  "routeKey": "babeldaobP4",
+  "name": "Ngerbeched Hamlet ↔ Imelechol Hamlet"
+ },
+ {
+  "routeKey": "daruP4",
+  "name": "Daru ↔ New Katatai"
+ },
+ {
+  "routeKey": "tinianP4",
+  "name": "San Jose Village ↔ Koblerville Village"
+ },
+ {
+  "routeKey": "wenoP4",
+  "name": "Neiwe ↔ Tonof"
+ },
+ {
+  "routeKey": "islaDelTigreP4",
+  "name": "Punta Honda ↔ Gualora"
+ },
+ {
+  "routeKey": "saintBarthelemyP4",
+  "name": "Saint-Barthélemy ↔ Upper Prince’s Quarter"
+ },
+ {
+  "routeKey": "sherbroP4",
+  "name": "Wa ↔ Mokimanya"
+ },
+ {
+  "routeKey": "mosquitiaHNP4",
+  "name": "Yabaltara ↔ Quihuastara"
+ },
+ {
+  "routeKey": "bacanP4",
+  "name": "Waisabatang ↔ Dolit"
+ },
+ {
+  "routeKey": "iboP4",
+  "name": "Ibo ↔ Mussemuco"
+ },
+ {
+  "routeKey": "sebatikP4",
+  "name": "Mentadak ↔ Nunukan"
+ },
+ {
+  "routeKey": "dahlakKebirP4",
+  "name": "Debe’āluwa ↔ Dahrat Dyl’ke"
+ },
+ {
+  "routeKey": "islaDelReyP4",
+  "name": "Río Sucio Afuera ↔ Cuatro Caminos"
+ },
+ {
+  "routeKey": "fireIslandP4",
+  "name": "Davis Park ↔ Bayport"
+ },
+ {
+  "routeKey": "solovkiP4",
+  "name": "Beluzh’ye ↔ Rabocheostrovsk"
+ },
+ {
+  "routeKey": "peleliuP4",
+  "name": "Koska ↔ Angaur"
+ },
+ {
+  "routeKey": "ileAuxMoinesP4",
+  "name": "Le Trec'H ↔ Arradon"
+ },
+ {
+  "routeKey": "trizoniaP4",
+  "name": "Spiliá ↔ Elaía"
+ },
+ {
+  "routeKey": "isletasCerroDeOroP4",
+  "name": "Amado Nervo ↔ Monte Liberal"
+ },
+ {
+  "routeKey": "mackinacIslandP4",
+  "name": "British Landing ↔ Saint Ignace"
+ },
+ {
+  "routeKey": "larakP4",
+  "name": "Lārak Kūhī ↔ Qeshm"
+ },
+ {
+  "routeKey": "kohSametP4",
+  "name": "Ban Ko Samet ↔ Ban Phe"
+ },
+ {
+  "routeKey": "islaDelIdoloP4",
+  "name": "El Aguacatal ↔ Punta de Perros"
+ },
+ {
+  "routeKey": "rakiuraP4",
+  "name": "Oban ↔ Bluff"
+ },
+ {
+  "routeKey": "crookedIslandP4",
+  "name": "Majors ↔ Lovely Bay"
+ },
+ {
+  "routeKey": "valaamP4",
+  "name": "Valaam ↔ Markatsu"
+ },
+ {
+  "routeKey": "anegadaP4",
+  "name": "The Settlement ↔ North Sound Settlement"
+ },
+ {
+  "routeKey": "islaSantaMargaritaP4",
+  "name": "Puerto Alcatraz ↔ Puerto Argudin"
+ },
+ {
+  "routeKey": "islaMagdalenaP4",
+  "name": "Puerto Magdalena ↔ Puerto San Carlos"
+ },
+ {
+  "routeKey": "svinoyP4",
+  "name": "Svínoy ↔ Norðtoftir"
+ },
+ {
+  "routeKey": "rumCayP4",
+  "name": "Port Boyd ↔ Sugar Loaf"
+ },
+ {
+  "routeKey": "southAndrosP4",
+  "name": "Congo Town ↔ Behring Point"
+ },
+ {
+  "routeKey": "islaCebacoP4",
+  "name": "El Divorcio ↔ Playa La Reina"
+ },
+ {
+  "routeKey": "skuvoyP4",
+  "name": "Skúvoy ↔ Skarvanes"
+ },
+ {
+  "routeKey": "gauaP4",
+  "name": "Avira ↔ Tino"
+ },
+ {
+  "routeKey": "hesturP4",
+  "name": "Hestur ↔ Velbastaður"
+ },
+ {
+  "routeKey": "fugloyP4",
+  "name": "Kirkja ↔ Hvannasund"
+ },
+ {
+  "routeKey": "mykinesP4",
+  "name": "Mykines ↔ Gásadalur"
+ },
+ {
+  "routeKey": "kizhiP4",
+  "name": "Ersenevo ↔ Oyatevshchina"
+ },
+ {
+  "routeKey": "dokosP4",
+  "name": "Dokós ↔ Ermióni"
+ },
+ {
+  "routeKey": "groedeP4",
+  "name": "Gröde ↔ Bandixwarf"
+ },
+ {
+  "routeKey": "naissaarP4",
+  "name": "Naissaar ↔ Tagaküla"
+ },
+ {
+  "routeKey": "cannaP4",
+  "name": "A'Chill ↔ Kilmory"
+ },
+ {
+  "routeKey": "kolturP4",
+  "name": "Koltur ↔ Syðradalur"
+ },
+ {
+  "routeKey": "asinaraP4",
+  "name": "Santa Maria ↔ Stintino"
+ },
+ {
   "routeKey": "aomoriHakodate",
   "name": "Aomori ↔ Hakodate"
  },
