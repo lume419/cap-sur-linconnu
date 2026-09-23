@@ -490,3 +490,33 @@ test('les deux chemins de recherche rendent la MÊME liste, dans le même ordre'
   assert.deepEqual(écarts.slice(0, 15), [], écarts.length + ' saisie(s) sur ' + saisies.length +
     ' ne rendent pas la même liste selon le chemin :\n' + écarts.slice(0, 15).map(x => '  - ' + x).join('\n'));
 });
+
+// 23/09/2026 — LIGATURES. « œ », « æ », « ß », « ĳ » valent DEUX lettres, et la décomposition NFD ne les touche pas :
+// un nom qui en porte une ne se trouvait qu'en tapant exactement ce caractère, qu'aucun clavier français ou anglais
+// ne produit simplement. Mesuré alors : sur 206 lieux à ligature tirés au hasard, 11 seulement (5 %) se retrouvaient
+// en tapant la forme dépliée. Les lettres à barre ou à panse (ø, ð, þ, đ, ł) ne sont PAS dépliées — ce sont des
+// lettres à part entière, pas des ligatures — et le test le vérifie aussi, pour que personne ne les ajoute par
+// symétrie sans le décider.
+test('ligatures : la forme dépliée retrouve le lieu, les lettres à barre restent intactes', () => {
+  const n = engine.internals.normalizeCityName;
+  // Le normalisateur déplie, et les deux graphies donnent la MÊME clé.
+  for(const [lig, plat] of [['Belœil', 'Beloeil'], ['Große', 'Grosse'], ['Straß', 'Strass'], ['Nĳmegen', 'Nijmegen']]){
+    assert.equal(n(lig), n(plat), JSON.stringify(lig) + ' et ' + JSON.stringify(plat) + ' doivent donner la même clé');
+  }
+  assert.equal(n('Æðuvík'), 'aeðuvik', 'æ déplié, mais ð conservé : ce n\'est pas une ligature');
+  assert.equal(n('Tromsø'), 'tromsø', 'ø est une lettre, pas une ligature : elle ne doit pas devenir « o »');
+  assert.equal(n('Þingvellir'), 'þingvellir', 'þ est une lettre, pas une ligature');
+
+  // De bout en bout : des lieux RÉELLEMENT publiés se retrouvent en tapant la forme dépliée.
+  const cas = [
+    { q: 'Beloeil', cc: 'BE' },
+    { q: 'Grossarl', cc: 'AT' },
+    { q: 'Strasswalchen', cc: 'AT' }
+  ];
+  const manques = [];
+  for(const c of cas){
+    const r = engine.searchCity(c.q, 20, null, null) || [];
+    if(!r.some(x => x.country === c.cc)) manques.push(c.q + ' (' + c.cc + ')');
+  }
+  assert.deepEqual(manques, [], 'saisies dépliées sans résultat dans le bon pays : ' + manques.join(', '));
+});

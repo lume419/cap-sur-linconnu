@@ -75,6 +75,18 @@ marqués `[à vérifier]` et listés en fin de fichier.
   Xincun sont tous en Guangdong et tous à population inconnue). Aucune recherche spatiale n'est faite :
   un « près de telle ville » serait plus lisible mais demanderait une requête de voisinage par
   suggestion, à chaque frappe, sur le chemin le plus chaud du moteur.
+- **Ligatures introuvables.** « œ », « æ », « ß », « ĳ » valent DEUX lettres, mais la décomposition NFD ne
+  les touche pas — elle sépare une lettre de son accent, pas une ligature de ses composantes. Un nom qui en
+  portait une ne se trouvait donc qu'en tapant exactement ce caractère, qu'aucun clavier français ou anglais
+  ne produit simplement. **5 584 lieux et 2 209 alias** en portent une : ß 4 857 (« Große », « Straß »),
+  æ 1 813 (« Æðuvík »), œ 1 068 (« Belœil »), Æ 50, Œ 11, ĳ 1. Mesuré sur 206 de ces lieux tirés au hasard :
+  **11 seulement (5 %) se retrouvaient en tapant la forme dépliée**. Après correction : **205 sur 206
+  (100 %)** — le seul manquant, « Straß » en Allemagne, est chassé des vingt premiers résultats par ses
+  homonymes autrichiens. Le dépliage réunit en outre **69 groupes de noms (140 graphies)** qui coexistaient
+  sans être reconnus comme le même nom (« Größing » et « Grössing », « Nußberg » et « Nussberg »).
+  Les lettres à barre ou à panse (ø, ð, þ, đ, ł) ne sont PAS dépliées : ce sont des lettres à part entière,
+  et les déplier demanderait un choix par langue (þ vaut « th » en islandais, ð « d » ou « dh »). Un test
+  le vérifie, pour que personne ne les ajoute par symétrie sans le décider.
 - Parenthèse vide dans le champ de ville après avoir choisi un lieu sans code postal (« Hrazdan () ») :
   98 910 lieux publiés n'en ont pas.
 - « Aucune ville trouvée. » n'était pas annoncée aux lecteurs d'écran, alors que « Aucune langue
@@ -156,9 +168,6 @@ marqués `[à vérifier]` et listés en fin de fichier.
   le conseil « décochez les zones déconseillées » disparaît alors, sans que la réponse le signale.
 - **Hrísey (Islande) est une masse terrestre sans liaison.** `landmassOf` la distingue, mais aucune ligne
   de ferry ne la dessert : un départ de là ne rend aucun itinéraire, et aucun diagnostic.
-- **`normalizeCityName` ne replie pas la ligature œ** : « Annœullin » et « Annoeullin » sont deux clés
-  distinctes, donc deux fiches et deux résultats de recherche. Corriger invalide l'index et déplace de
-  nombreux tirages.
 - **52 lieux français ne sont pas publiés** : leur commune est nommée en abrégé par GeoNames (« Louhans »
   pour Louhans-Châteaurenaud), et les rapprocher demanderait l'approximation qui a produit les 997
   rattachements faux.
