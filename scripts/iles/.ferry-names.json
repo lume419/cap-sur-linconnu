@@ -2160,6 +2160,50 @@
   "name": "Santa Maria ↔ Stintino"
  },
  {
+  "routeKey": "muckP5",
+  "name": "Mallaig ↔ Port Mòr (Muck)"
+ },
+ {
+  "routeKey": "kerreraP5",
+  "name": "Gallanach (Oban) ↔ Kerrera"
+ },
+ {
+  "routeKey": "hermP5",
+  "name": "Saint-Pierre-Port ↔ Herm"
+ },
+ {
+  "routeKey": "petiteMartiniqueP5",
+  "name": "Hillsborough (Carriacou) ↔ Petite Martinique"
+ },
+ {
+  "routeKey": "kohRongP5",
+  "name": "Sihanoukville ↔ Koh Rong"
+ },
+ {
+  "routeKey": "saltCayP5",
+  "name": "Cockburn Town (Grand Turk) ↔ Balfour Town (Salt Cay)"
+ },
+ {
+  "routeKey": "piirissaarP5",
+  "name": "Laaksaare ↔ Piirissaar"
+ },
+ {
+  "routeKey": "christianIslandP5",
+  "name": "Cedar Point ↔ Christian Island"
+ },
+ {
+  "routeKey": "palaioTrikeriP5",
+  "name": "Agía Kyriakí ↔ Palaió Tríkeri"
+ },
+ {
+  "routeKey": "sirBaniYasP5",
+  "name": "Jebel Dhanna ↔ Sir Bani Yas"
+ },
+ {
+  "routeKey": "apolimaP5",
+  "name": "Apolima-uta ↔ Apolima"
+ },
+ {
   "routeKey": "aomoriHakodate",
   "name": "Aomori ↔ Hakodate"
  },

@@ -116,6 +116,37 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Lot de couverture, passe 5 : 11 liaisons cherchées une par une pour des IMPASSES — 42 impasses tombent à 31.**
+  - Cette passe ne part pas d'une proposition automatique comme la passe 4, mais de la liste des 42 masses que la
+    sonde du 24/09/2026 classait en impasse. Chacune a été cherchée séparément et n'est retenue que si sa
+    liaison publique est attestée : **Muck** et **Kerrera** (Caledonian MacBrayne), **Herm** (Travel Trident),
+    **Petite Martinique** (Osprey Lines), **Koh Rong** (vedettes de Sihanoukville), **Salt Cay** (ferry
+    communautaire de Grand Turk), **Piirissaar** (praam Koidula de Laaksaare), **Christian Island** (Beausoleil
+    First Nation), **Palaió Tríkeri** (navettes du golfe Pagasétique), **Sir Bani Yas** (navette de Jebel
+    Dhanna) et **Apolima** (bateaux d'Apolima-uta).
+  - **Deux de ces navires embarquent des véhicules, et le drapeau ne leur est donc PAS posé** : le praam Koidula
+    de Piirissaar prend cinq voitures, le MV Sandy Graham de Christian Island en prend vingt-huit. Les neuf
+    autres sont des navires à passagers, dont quatre desservent une île sans voitures (Herm, Palaió Tríkeri,
+    Kerrera, Muck — les Small Isles ne prennent pas les voitures des visiteurs).
+  - Les durées restent déduites de la médiane et marquées estimées, aucun prix n'est écrit : les chiffres
+    trouvés sont des fourchettes de sources secondaires (« 15 à 20 minutes », « 30 à 45 minutes », « environ
+    une heure »), pas des horaires lus chez l'opérateur. **Les cinq médianes ne bougent donc pas.**
+  - **Un défaut de donnée trouvé en passant, et non corrigé ici : le lieu publié « Maupiti » (PF) est aux
+    coordonnées de Maupihaa (Mopelia)** — 16°47′S 153°56′W au lieu de 16°26′S 152°15′W. Mesurée depuis ce
+    point, la liaison du Maupiti Express vers Bora Bora ferait 236 km au lieu d'une quarantaine. La liaison
+    n'a donc pas été écrite : c'est la position du lieu qu'il faut reprendre d'abord.
+  - Écartées avec leur raison : **Tuvalu** (Nivaga III et Manu Folau desservent bien les atolls, mais une fois
+    toutes les trois ou quatre semaines pour une traversée de plusieurs jours — ce n'est pas une traversée
+    qu'on planifie dans un road-trip), **Ilulissat** et **Kap Tobin** (le Sarfaq Ittuk de l'Arctic Umiaq Line
+    est un vrai caboteur hebdomadaire, mais tous ses autres ports sont des masses synthétiques, sans clé
+    stable), **Batanes** (les falowa relient Batan à Sabtang et Itbayat, qui sont dans la MÊME masse ; rien
+    ne la relie au reste), **Quirimba** (sa source dit explicitement qu'aucun service régulier ne relie Ibo à
+    Pemba), **Kirr** et **Lavan** (réserve naturelle, terminal pétrolier).
+  - `compare-engine` : **0 tirage changé sur 380**, 0 trajet direct changé, 55/55 contre-épreuves faisables
+    avant comme après. Ces onze îles sont trop petites pour déplacer un tirage échantillonné. Suite complète :
+    **291 tests, 0 échec, 557 s.**
+  - Au passage, la parenthèse fermante de `scripts/ferry-ports/ports-lot3.js`, collée en fin de dernière ligne
+    depuis la passe 4 (valide, mais illisible et piégeuse à l'insertion), retrouve sa propre ligne.
 - **Lot de couverture, passe 4 : 47 liaisons, 51 masses reliées — la passe la plus faible du lot, et elle le dit.**
   - Les six îles féroïennes desservies par Strandfaraskip Landsins (Svínoy, Skúvoy, Hestur, Fugloy, Mykines,
     Koltur), Rakiura/Stewart Island, Mackinac Island, Fire Island, Asinara, Naissaar, Kiji, Valaam, Solovki,
@@ -536,11 +567,11 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **232 masses terrestres nommées n'ont aucune liaison modélisée** — Wallis, Futuna, Corvo, Tristan da
-  Cunha, Maupiti, Hœdic, l'Île-de-Sein. Méthode, écrite : on range chaque lieu publié par
+- **221 masses terrestres nommées n'ont aucune liaison modélisée** — Wallis, Futuna, Maupiti, Tristan da
+  Cunha, Fernando de Noronha, Batanes, le Kamtchatka. Méthode, écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.
-  **Toutes ne sont pas des impasses**, et le compte est désormais fait (24/09/2026, sonde en direct dans le
+  **Toutes ne sont pas des impasses**, et le compte est désormais fait (24/09/2026, refait après la passe 5, sonde en direct dans le
   moteur, sans HTTP donc sans quota — trois départs × trois durées × trois tirages par masse) :
   - **174 rendent un trajet** de l'intérieur — Sri Lanka (17 740 lieux publiés), la Jamaïque (3 199) se visitent
     très bien sans jamais embarquer. Le message « réessayez, ou élargissez le rayon » y est juste.
@@ -551,9 +582,10 @@ marqués `[à vérifier]` et listés en fin de fichier.
     filtre décoché, **les 27 tirages de chacune rendent un trajet**. Rien à corriger — la première rédaction de
     cette ligne annonçait un message trompeur, déduit d'un tirage vide sans lire la branche cliente qui traite
     déjà `tensionBlocked` (`public/js/app.js:4589`).
-  - **42 sont de vraies impasses** : 95 lieux publiés, 68 792 habitants — Wallis, Futuna, Maupiti, Tristan da
-    Cunha, Fernando de Noronha, Ilulissat, Utqiagvik, Batanes, cinq atolls de Tuvalu, Corvo ou Hœdic à un seul
-    lieu. Là, et là seulement, « réessayez, ou élargissez le rayon » est FAUX : rien ne marchera jamais.
+  - **31 sont de vraies impasses** : 65 lieux publiés, 68 792 habitants — Wallis, Futuna, Maupiti, Tristan da
+    Cunha, Fernando de Noronha, Utqiagvik, Batanes, cinq atolls de Tuvalu, Pitcairn, la Géorgie du Sud, Jan
+    Mayen et Clipperton. Là, et là seulement, « réessayez, ou élargissez le rayon » est FAUX : rien ne
+    marchera jamais.
   La mesure du 23/09/2026 (184 masses, 386 lieux) avait été écrite sans sa méthode ; celle tentée le même jour
   par l'API a été faussée par la limitation de débit, qui répond 429 et fait passer pour mortes des masses
   jamais interrogées. Les deux sont remplacées par celle-ci.
