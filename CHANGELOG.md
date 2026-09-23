@@ -116,6 +116,17 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Makana Ferry : Saba et Sint Eustatius, trois traversées d'un même catamaran.**
+  - **Fort Bay ⇔ Philipsburg** (1 h 15, 50 km), **Philipsburg ⇔ Oranjestad** (1 h 25, 61 km) et
+    **Fort Bay ⇔ Oranjestad** (45 min, 33 km), sans prix : les tarifs ne sont publiés qu'en image sur le site
+    de l'armateur. Saba (4 468 habitants publiés) et Sint Eustatius (1 971) se raccordent à Saint-Martin,
+    reliée au lot précédent.
+  - **Les durées se recoupent avec la vitesse du navire.** L'armateur annonce un « 72' Sabre catamaran fast
+    ferry » à 23 nœuds, soit 42,6 km/h ; les trois durées publiées, rapportées aux distances mesurées, donnent
+    40,0, 43,0 et 44,0 km/h. Deux sources indépendantes du même site qui s'accordent à moins de 4 % : c'est le
+    seul contrôle croisé qu'on ait pu faire sur une durée de tout ce chantier.
+  - Un tirage au départ d'Oranjestad enchaîne Saba, Sint Maarten puis Anguilla par Marigot : tout le nord des
+    îles Sous-le-Vent forme désormais un réseau continu, entièrement sans véhicules.
 - **Virgin Gorda et Guanaja : deux tarifs publiés, deux durées qui ne le sont pas.**
   - **Road Town ⇔ Spanish Town**, Speedy's, 36 min (estimée), 20 km, **25,77 €** (« \$30 » l'aller simple
     adulte, 40 \$ l'aller-retour). Virgin Gorda rejoint le réseau des îles Vierges par Tortola, reliée la veille.
@@ -380,7 +391,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **427 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+- **425 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
   Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.

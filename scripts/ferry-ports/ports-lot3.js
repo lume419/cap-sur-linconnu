@@ -336,4 +336,11 @@ module.exports = [
     ports: { tortola: [{ cc: 'VG', place: 'Road Town' }], virginGorda: [{ cc: 'VG', place: 'Spanish Town' }] } },
   { key: 'guanaja|roatan', source: 'https://www.roatanferry.com/schedule-fares/ (Roatán ↔ Guanaja)',
     ports: { guanaja: [{ cc: 'HN', place: 'Savannah Bight' }], roatan: [{ cc: 'HN', place: 'Coxen Hole' }] } },
+  // Makana Ferry : Fort Bay est au sud de The Bottom, le lieu publié le plus proche sur Saba.
+  { key: 'saba|saintMartinFR', source: 'https://www.sabaferry.com/makana (Fort Bay ↔ Bobby\'s Marina, Philipsburg)',
+    ports: { saba: [{ cc: 'BQ', place: 'The Bottom' }], saintMartinFR: [{ cc: 'SX', place: 'Philipsburg' }] } },
+  { key: 'saintMartinFR|sintEustatius', source: 'https://www.sabaferry.com/makana (Bobby\'s Marina ↔ Gallow\'s Bay)',
+    ports: { saintMartinFR: [{ cc: 'SX', place: 'Philipsburg' }], sintEustatius: [{ cc: 'BQ', place: 'Oranjestad', near: [17.483, -62.9864] }] } },
+  { key: 'saba|sintEustatius', source: 'https://www.sabaferry.com/makana (Fort Bay ↔ Gallow\'s Bay)',
+    ports: { saba: [{ cc: 'BQ', place: 'The Bottom' }], sintEustatius: [{ cc: 'BQ', place: 'Oranjestad', near: [17.483, -62.9864] }] } },
 ];

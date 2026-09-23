@@ -1428,6 +1428,18 @@
   "name": "Roatán ↔ Guanaja"
  },
  {
+  "routeKey": "fortBayPhilipsburg",
+  "name": "Fort Bay (Saba) ↔ Philipsburg (Sint Maarten)"
+ },
+ {
+  "routeKey": "philipsburgOranjestadStatia",
+  "name": "Philipsburg (Sint Maarten) ↔ Oranjestad (Sint Eustatius)"
+ },
+ {
+  "routeKey": "fortBayOranjestadStatia",
+  "name": "Fort Bay (Saba) ↔ Oranjestad (Sint Eustatius)"
+ },
+ {
   "routeKey": "calicaCozumel",
   "name": "Calica (Punta Venado) ↔ Cozumel"
  },

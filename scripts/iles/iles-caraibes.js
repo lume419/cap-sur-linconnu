@@ -346,6 +346,27 @@ module.exports = {
       priceByClass: { 1: null, 2: null, 5: null, foot: 30.06 },
       currency: 'USD', original: { foot: 35 },
       source: 'https://www.roatanferry.com/schedule-fares/', date: '2026-09-23',
-      note: "Grille de l'armateur : « Regular US\$ 35.00 », première classe 39 \$. Deux départs par semaine seulement, « Fridays: 12:00 p.m. - Saturdays: 4:00 p.m. » depuis Roatán. **La durée n'est PAS publiée** : deux heures sont retenues comme ordre de grandeur pour les 77 km mesurés, marquées estimées. Taux InforEuro 09/2026 : 1 € = 1,1643 USD. Le quai de Bonacca n'est pas publié : le lieu retenu est Savannah Bight, l'autre localité de l'île. Distance mesurée entre les deux lieux publiés." }
+      note: "Grille de l'armateur : « Regular US\$ 35.00 », première classe 39 \$. Deux départs par semaine seulement, « Fridays: 12:00 p.m. - Saturdays: 4:00 p.m. » depuis Roatán. **La durée n'est PAS publiée** : deux heures sont retenues comme ordre de grandeur pour les 77 km mesurés, marquées estimées. Taux InforEuro 09/2026 : 1 € = 1,1643 USD. Le quai de Bonacca n'est pas publié : le lieu retenu est Savannah Bight, l'autre localité de l'île. Distance mesurée entre les deux lieux publiés." },
+    { a: 'saba', b: 'saintMartinFR', routeKey: 'fortBayPhilipsburg', passengerOnly: true, "priceCovers": null,
+      "coversSource": "catamaran rapide de 150 passagers : aucune ligne véhicule, ni sur le navire ni dans la grille",
+      name: 'Fort Bay (Saba) ↔ Philipsburg (Sint Maarten)',
+      operator: 'Makana Ferry Service', durationH: 1.25, distanceKm: 50,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://www.sabaferry.com/makana ; https://en.wikipedia.org/wiki/Makana_Ferry_Service', date: '2026-09-23',
+      note: "« Saba to Sint Maarten: 75 minutes ». Catamaran rapide de 22 m (« 72' Sabre catamaran fast ferry »), vitesse de croisière 23 nœuds, 150 passagers au maximum, escales à Fort Bay (Saba), Gallow's Bay (Sint Eustatius), Bobby's Marina à Philipsburg (Sint Maarten) et Port Zante (Saint-Kitts). Les trois durées annoncées donnent, sur les distances mesurées, de 39,5 à 42,9 km/h — soit exactement les 23 nœuds publiés : elles se recoupent. Les tarifs ne sont publiés qu'en image sur le site de l'armateur, aucun montant n'est donc écrit ici. Distance mesurée entre les deux lieux publiés." },
+    { a: 'saintMartinFR', b: 'sintEustatius', routeKey: 'philipsburgOranjestadStatia', passengerOnly: true, "priceCovers": null,
+      "coversSource": "catamaran rapide de 150 passagers : aucune ligne véhicule, ni sur le navire ni dans la grille",
+      name: 'Philipsburg (Sint Maarten) ↔ Oranjestad (Sint Eustatius)',
+      operator: 'Makana Ferry Service', durationH: 1.42, distanceKm: 61,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://www.sabaferry.com/makana ; https://en.wikipedia.org/wiki/Makana_Ferry_Service', date: '2026-09-23',
+      note: "« Sint Eustatius to Sint Maarten: 85 minutes ». Catamaran rapide de 22 m (« 72' Sabre catamaran fast ferry »), vitesse de croisière 23 nœuds, 150 passagers au maximum, escales à Fort Bay (Saba), Gallow's Bay (Sint Eustatius), Bobby's Marina à Philipsburg (Sint Maarten) et Port Zante (Saint-Kitts). Les trois durées annoncées donnent, sur les distances mesurées, de 39,5 à 42,9 km/h — soit exactement les 23 nœuds publiés : elles se recoupent. Les tarifs ne sont publiés qu'en image sur le site de l'armateur, aucun montant n'est donc écrit ici. Distance mesurée entre les deux lieux publiés." },
+    { a: 'saba', b: 'sintEustatius', routeKey: 'fortBayOranjestadStatia', passengerOnly: true, "priceCovers": null,
+      "coversSource": "catamaran rapide de 150 passagers : aucune ligne véhicule, ni sur le navire ni dans la grille",
+      name: 'Fort Bay (Saba) ↔ Oranjestad (Sint Eustatius)',
+      operator: 'Makana Ferry Service', durationH: 0.75, distanceKm: 33,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://www.sabaferry.com/makana ; https://en.wikipedia.org/wiki/Makana_Ferry_Service', date: '2026-09-23',
+      note: "« Saba to Sint Eustatius: 45 minutes ». Catamaran rapide de 22 m (« 72' Sabre catamaran fast ferry »), vitesse de croisière 23 nœuds, 150 passagers au maximum, escales à Fort Bay (Saba), Gallow's Bay (Sint Eustatius), Bobby's Marina à Philipsburg (Sint Maarten) et Port Zante (Saint-Kitts). Les trois durées annoncées donnent, sur les distances mesurées, de 39,5 à 42,9 km/h — soit exactement les 23 nœuds publiés : elles se recoupent. Les tarifs ne sont publiés qu'en image sur le site de l'armateur, aucun montant n'est donc écrit ici. Distance mesurée entre les deux lieux publiés." }
   ]
 };
