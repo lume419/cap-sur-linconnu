@@ -343,4 +343,8 @@ module.exports = [
     ports: { saintMartinFR: [{ cc: 'SX', place: 'Philipsburg' }], sintEustatius: [{ cc: 'BQ', place: 'Oranjestad', near: [17.483, -62.9864] }] } },
   { key: 'saba|sintEustatius', source: 'https://www.sabaferry.com/makana (Fort Bay ↔ Gallow\'s Bay)',
     ports: { saba: [{ cc: 'BQ', place: 'The Bottom' }], sintEustatius: [{ cc: 'BQ', place: 'Oranjestad', near: [17.483, -62.9864] }] } },
+  { key: 'guadeloupe|terreDeHaut', source: 'https://www.frs-express.com/en/timetable-rates/les-saintes-from-trois-rivieres-timetables-fares (Trois-Rivières ↔ Terre-de-Haut)',
+    ports: { guadeloupe: [{ cc: 'FR', place: 'Trois-Rivières', near: [15.9931, -61.6493] }], terreDeHaut: [{ cc: 'FR', place: 'Terre-de-Haut' }] } },
+  { key: 'guadeloupe|terreDeBas', source: 'https://www.frs-express.com/en/timetable-rates/les-saintes-from-trois-rivieres-timetables-fares (Trois-Rivières ↔ Terre-de-Bas)',
+    ports: { guadeloupe: [{ cc: 'FR', place: 'Trois-Rivières', near: [15.9931, -61.6493] }], terreDeBas: [{ cc: 'FR', place: 'Terre-de-Bas' }] } },
 ];

@@ -116,6 +116,17 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Les Saintes rendues au site, sur la troisième page d'armateur à dire non aux véhicules.**
+  - **Trois-Rivières ⇔ Terre-de-Haut** (25 min, 17 km) et **⇔ Terre-de-Bas** (35 min, 16 km), FRS Express des
+    Îles, sans prix. « VEHICLE TRANSPORT: Not available » : après Marie-Galante (« NOT AVAILABLE ») et la
+    Dominique (« Not available »), c'est la troisième fois que le même armateur écrit lui-même ce que
+    `passengerOnly` modélise.
+  - Terre-de-Bas met **plus longtemps pour moins de distance** : sa traversée passe par Terre-de-Haut
+    (« with stopover at Terre-de-Haut »), ce que les 35 min publiées contre 25 reflètent.
+  - La même compagnie dessert aussi Les Saintes depuis Pointe-à-Pitre en 1 h, avec la même mention
+    « VEHICLE TRANSPORT: NO » : c'est la traversée la plus courte qui est modélisée.
+  - Un tirage au départ de Terre-de-Haut enchaîne la Guadeloupe, la Martinique — par la seule traversée du lot
+    qui embarque les véhicules — puis Sainte-Lucie.
 - **Makana Ferry : Saba et Sint Eustatius, trois traversées d'un même catamaran.**
   - **Fort Bay ⇔ Philipsburg** (1 h 15, 50 km), **Philipsburg ⇔ Oranjestad** (1 h 25, 61 km) et
     **Fort Bay ⇔ Oranjestad** (45 min, 33 km), sans prix : les tarifs ne sont publiés qu'en image sur le site
@@ -391,7 +402,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **425 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+- **423 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
   Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.

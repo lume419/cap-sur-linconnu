@@ -367,6 +367,21 @@ module.exports = {
       operator: 'Makana Ferry Service', durationH: 0.75, distanceKm: 33,
       priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
       source: 'https://www.sabaferry.com/makana ; https://en.wikipedia.org/wiki/Makana_Ferry_Service', date: '2026-09-23',
-      note: "« Saba to Sint Eustatius: 45 minutes ». Catamaran rapide de 22 m (« 72' Sabre catamaran fast ferry »), vitesse de croisière 23 nœuds, 150 passagers au maximum, escales à Fort Bay (Saba), Gallow's Bay (Sint Eustatius), Bobby's Marina à Philipsburg (Sint Maarten) et Port Zante (Saint-Kitts). Les trois durées annoncées donnent, sur les distances mesurées, de 39,5 à 42,9 km/h — soit exactement les 23 nœuds publiés : elles se recoupent. Les tarifs ne sont publiés qu'en image sur le site de l'armateur, aucun montant n'est donc écrit ici. Distance mesurée entre les deux lieux publiés." }
+      note: "« Saba to Sint Eustatius: 45 minutes ». Catamaran rapide de 22 m (« 72' Sabre catamaran fast ferry »), vitesse de croisière 23 nœuds, 150 passagers au maximum, escales à Fort Bay (Saba), Gallow's Bay (Sint Eustatius), Bobby's Marina à Philipsburg (Sint Maarten) et Port Zante (Saint-Kitts). Les trois durées annoncées donnent, sur les distances mesurées, de 39,5 à 42,9 km/h — soit exactement les 23 nœuds publiés : elles se recoupent. Les tarifs ne sont publiés qu'en image sur le site de l'armateur, aucun montant n'est donc écrit ici. Distance mesurée entre les deux lieux publiés." },
+    // ------------------------------------------------- Les Saintes (Guadeloupe) : « VEHICLE TRANSPORT: Not available »
+    { a: 'guadeloupe', b: 'terreDeHaut', routeKey: 'troisRivieresTerreDeHaut', passengerOnly: true, "priceCovers": null,
+      "coversSource": "la page de la ligne, chez l'armateur, porte « VEHICLE TRANSPORT: Not available »",
+      name: 'Trois-Rivières ↔ Terre-de-Haut (Les Saintes)',
+      operator: 'FRS Express des Îles', durationH: 0.42, distanceKm: 17,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://www.frs-express.com/en/timetable-rates/les-saintes-from-trois-rivieres-timetables-fares', date: '2026-09-23',
+      note: "« Terre-de-Haut : 25 minutes », non-stop, depuis Trois-Rivières. L'armateur dessert aussi Les Saintes depuis le terminal de Bergevin (Pointe-à-Pitre) en 1 h, avec la même mention « VEHICLE TRANSPORT: NO » : c'est la traversée la plus courte qui est modélisée. Aucun tarif adulte n'est chiffré hors du tunnel de réservation ; seuls le bébé (3 € l'aller-retour) et la gratuité avant un an y figurent. Distance mesurée entre les deux lieux publiés." },
+    { a: 'guadeloupe', b: 'terreDeBas', routeKey: 'troisRivieresTerreDeBas', passengerOnly: true, "priceCovers": null,
+      "coversSource": "la page de la ligne, chez l'armateur, porte « VEHICLE TRANSPORT: Not available »",
+      name: 'Trois-Rivières ↔ Terre-de-Bas (Les Saintes)',
+      operator: 'FRS Express des Îles', durationH: 0.58, distanceKm: 16,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://www.frs-express.com/en/timetable-rates/les-saintes-from-trois-rivieres-timetables-fares', date: '2026-09-23',
+      note: "« Terre-de-Bas : 35 minutes », « with stopover at Terre-de-Haut » — d'où une durée plus longue que Terre-de-Haut pour une distance à peine plus courte. Aucun tarif adulte n'est chiffré hors du tunnel de réservation. Distance mesurée entre les deux lieux publiés." }
   ]
 };

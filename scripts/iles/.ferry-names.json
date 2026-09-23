@@ -1440,6 +1440,14 @@
   "name": "Fort Bay (Saba) ↔ Oranjestad (Sint Eustatius)"
  },
  {
+  "routeKey": "troisRivieresTerreDeHaut",
+  "name": "Trois-Rivières ↔ Terre-de-Haut (Les Saintes)"
+ },
+ {
+  "routeKey": "troisRivieresTerreDeBas",
+  "name": "Trois-Rivières ↔ Terre-de-Bas (Les Saintes)"
+ },
+ {
   "routeKey": "calicaCozumel",
   "name": "Calica (Punta Venado) ↔ Cozumel"
  },
