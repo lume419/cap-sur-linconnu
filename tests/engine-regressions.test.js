@@ -580,3 +580,46 @@ test('23/09/2026 : une traversée sans véhicules est proposée à tous les mode
     assert.equal(vu.ferryInfo.amount, route.priceByClass.foot, mode + ' : montant différent du tarif passager publié');
   }
 });
+
+// IMPASSE DÉFINITIVE (24/09/2026). Certaines masses terrestres ne peuvent RIEN rendre : aucun autre lieu n'y est
+// atteignable, quels que soient les réglages du visiteur (Wallis, Tristan da Cunha, Pitcairn, Clipperton, les
+// atolls de Tuvalu…). Le site y affichait « réessayez, ou élargissez le rayon » — un conseil faux, qui renvoyait
+// le visiteur régler des curseurs qui ne changeraient jamais rien. Le moteur pose désormais `deadEnd`, et il le
+// PROUVE par un dernier tirage aux réglages les plus permissifs possibles.
+//
+// Les deux contrôles ci-dessous tiennent ensemble : sans le second, un moteur qui poserait le drapeau PARTOUT
+// passerait le premier.
+test('impasse définitive : le drapeau est posé là où rien n\'est atteignable', () => {
+  // Une par continent/océan, choisies dans les 31 mesurées le 24/09/2026.
+  const cas = [['Mata-Utu', 'FR'], ['Edinburgh of the Seven Seas', 'SH'], ['Adamstown', 'PN'],
+    ['Vila dos Remédios', 'BR'], ['Funafuti', 'TV'], ['Utqiagvik', 'US']];
+  const manqués = [], absents = [];
+  for (const [ville, pays] of cas) {
+    const dep = H.dep(ville, pays);
+    if (!dep) { absents.push(ville); continue; }
+    const r = H.withSeed(7, () => E.generateTrip({ departureCity: dep, days: 4, budgetKey: 'moyen',
+      tripStart: TRIP_START, maxRadiusKm: 300 }));
+    if (r.legs.length) continue;              // ce départ rend un voyage : ce n'est pas une impasse
+    if (!r.deadEnd) manqués.push(ville + ' : tirage vide annoncé sans dire que rien n\'y est atteignable');
+  }
+  // Un départ disparu des données ne doit pas faire passer le test en silence.
+  assert.ok(absents.length < cas.length, 'aucun des départs témoins n\'existe dans les données : ' + absents.join(', '));
+  assert.deepEqual(manqués, []);
+});
+
+test('impasse définitive : le drapeau n\'est JAMAIS posé sur un départ ordinaire', () => {
+  // Dont deux îles : l'Île-de-Sein et Herm ont un ferry, donc quelque chose est atteignable même quand le tirage
+  // rend zéro étape. Un tirage vide n'est PAS une impasse.
+  const cas = [['Paris', 'FR'], ['Brest', 'FR'], ['Oban', 'GB'], ['Tokyo', 'JP'], ['Casablanca', 'MA'],
+    ['Île-de-Sein', 'FR'], ['Herm', 'GG']];
+  const fauxPositifs = [], absents = [];
+  for (const [ville, pays] of cas) {
+    const dep = H.dep(ville, pays);
+    if (!dep) { absents.push(ville); continue; }
+    const r = H.withSeed(7, () => E.generateTrip({ departureCity: dep, days: 4, budgetKey: 'moyen',
+      tripStart: TRIP_START, maxRadiusKm: 300 }));
+    if (r.deadEnd) fauxPositifs.push(ville + (r.legs.length ? ' (qui rend pourtant ' + r.legs.length + ' étapes)' : ''));
+  }
+  assert.ok(absents.length < cas.length, 'aucun des départs témoins n\'existe dans les données : ' + absents.join(', '));
+  assert.deepEqual(fauxPositifs, []);
+});

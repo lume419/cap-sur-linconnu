@@ -2092,3 +2092,34 @@ test('23/09/2026 : drapeau d\'un pays et regroupement des centres d\'intérêt',
   assert.equal(F.diversityGroup('memorial'), 'memorial');
   assert.equal(F.diversityGroup('museum'), 'museum', 'un type sans regroupement reste lui-même');
 });
+
+test('24/09/2026 : impasse définitive — message dédié, jamais « élargissez le rayon »', () => {
+  // 31 masses terrestres ne peuvent RIEN rendre : aucun autre lieu n'y est atteignable, quels que soient les
+  // réglages (Wallis, Tristan da Cunha, Pitcairn, Clipperton, les atolls de Tuvalu…). Le moteur le PROUVE et pose
+  // deadEnd ; le client doit le dire au lieu d'envoyer le visiteur élargir un rayon qui ne servira à rien.
+  // La GARDE elle-même, pas seulement le nom du drapeau quelque part : un mutant qui renomme la condition
+  // (data.deadEndXX) laissait passer un test qui cherchait la simple sous-chaîne.
+  const garde = 'if(legs.length === 0 && data.deadEnd){';
+  const i = APP.indexOf(garde);
+  assert.ok(i > 0, "garde de l'impasse absente d'app.js : " + garde);
+  const bloc = APP.slice(i, i + 400).split('\n').filter(x => !/^\s*\/\//.test(x)).join('\n');
+  assert.ok(bloc.includes('error.deadEnd'), 'deadEnd lu mais message dédié absent : ' + bloc);
+  assert.ok(!bloc.includes('error.routeImpossible'), 'error.routeImpossible encore affiché sur une impasse : ' + bloc);
+  // L'ordre compte : un refus RÉVERSIBLE (zones à tension, distances) doit garder son propre message, qui dit
+  // quoi décocher ou réduire. L'impasse, elle, est le dernier mot avant le repli générique.
+  const iTension = APP.indexOf('data.tensionBlocked');
+  const iGenerique = APP.indexOf("msg('error.routeImpossible')", i);
+  assert.ok(iTension > 0 && iTension < i, 'la branche impasse passe AVANT les zones à tension');
+  assert.ok(iGenerique > i, 'le repli générique ne suit plus la branche impasse');
+  // Message réellement traduit et distinct, dans toutes les langues (voir aussi tests/i18n.test.js).
+  const bad = [];
+  for(const l of Array.from(W.I18N.SUPPORTED)){
+    A.setLang(l);
+    const s = A.msg('error.deadEnd')();
+    if(!s || s === 'error.deadEnd') bad.push(l + ' : non traduit');
+    else if(s === A.msg('error.routeImpossible')()) bad.push(l + ' : identique à error.routeImpossible');
+    else if(s === A.msg('error.tensionBlocked')()) bad.push(l + ' : identique à error.tensionBlocked');
+  }
+  A.setLang('fr');
+  assert.deepEqual(bad, []);
+});

@@ -116,6 +116,30 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Les 31 impasses définitives ne conseillent plus d'élargir le rayon.** Un tirage vide qui n'était ni un manque
+  de temps, ni le filtre des zones à tension, ni un éloignement introuvable retombait sur « Impossible de
+  construire un itinéraire depuis cette ville pour l'instant — réessayez, ou élargissez le rayon ». Pour Wallis,
+  Tristan da Cunha, Pitcairn, Clipperton, les atolls de Tuvalu et 26 autres masses, ce conseil est FAUX : aucun
+  réglage ne peut rien y changer, et « pour l'instant » laisse croire à un contretemps.
+  - **Le moteur ne présume pas l'impasse, il la PROUVE** (`deadEnd`, `lib/trip-engine.js`) : un dernier tirage,
+    aux réglages les plus permissifs que l'interface puisse produire — un jour, rayon maximal de 3 000 km,
+    aucune distance minimale ni maximale, ferries autorisés, filtre des zones levé, aucun plafond par étape.
+    S'il ne trouve toujours rien, rien n'existe. **Mesuré : le drapeau se pose sur 31 des 31 impasses et sur
+    aucun des départs témoins.** Herm rend zéro étape sur certains tirages sans jamais être marquée impasse,
+    parce qu'elle a désormais un ferry : un tirage vide n'est pas une impasse.
+  - Comme partout ailleurs dans cette fonction, **faute de temps le drapeau reste à faux** plutôt que
+    d'affirmer sans avoir vérifié : mieux vaut le vieux message imprécis qu'une impasse annoncée à tort.
+  - Nouveau message `error.deadEnd`, écrit dans les **161 langues** : « Aucun itinéraire n'est possible depuis ce
+    point de départ, quels que soient vos réglages. Choisissez un autre point de départ. » Il est posé APRÈS les
+    zones à tension et les diagnostics de distance, qui sont, eux, des refus réversibles et gardent leur propre
+    conseil.
+  - **Cinq mutants, tous tués** : drapeau jamais posé, drapeau posé sur tout tirage vide, preuve affaiblie en
+    reprenant les réglages du visiteur au lieu des plus permissifs, branche cliente retirée, message dédié
+    remplacé par le générique. Le quatrième a d'abord SURVÉCU — le test cherchait la sous-chaîne `data.deadEnd`,
+    que le mutant `data.deadEndXX` contenait encore ; il exige désormais la garde entière.
+  - `compare-engine` : **0 tirage changé sur 380**, 0 trajet direct, 0 plafond d'hébergement ; temps de calcul
+    médian inchangé (23 ms), le tirage de preuve n'ayant lieu que sur un tirage déjà vide. Suite complète :
+    **294 tests, 0 échec, 546 s.**
 - **Lot de couverture, passe 5 : 11 liaisons cherchées une par une pour des IMPASSES — 42 impasses tombent à 31.**
   - Cette passe ne part pas d'une proposition automatique comme la passe 4, mais de la liste des 42 masses que la
     sonde du 24/09/2026 classait en impasse. Chacune a été cherchée séparément et n'est retenue que si sa
@@ -584,8 +608,9 @@ marqués `[à vérifier]` et listés en fin de fichier.
     déjà `tensionBlocked` (`public/js/app.js:4589`).
   - **31 sont de vraies impasses** : 65 lieux publiés, 68 792 habitants — Wallis, Futuna, Maupiti, Tristan da
     Cunha, Fernando de Noronha, Utqiagvik, Batanes, cinq atolls de Tuvalu, Pitcairn, la Géorgie du Sud, Jan
-    Mayen et Clipperton. Là, et là seulement, « réessayez, ou élargissez le rayon » est FAUX : rien ne
-    marchera jamais.
+    Mayen et Clipperton. Elles reçoivent depuis le 24/09/2026 leur propre message (« Aucun itinéraire
+    n'est possible depuis ce point de départ, quels que soient vos réglages »), posé seulement après que le
+    moteur a PROUVÉ que rien n'y est atteignable — voir plus haut.
   La mesure du 23/09/2026 (184 masses, 386 lieux) avait été écrite sans sa méthode ; celle tentée le même jour
   par l'API a été faussée par la limitation de débit, qui répond 429 et fait passer pour mortes des masses
   jamais interrogées. Les deux sont remplacées par celle-ci.

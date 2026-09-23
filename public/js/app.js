@@ -4590,6 +4590,14 @@
         showFormError(msg('error.tensionBlocked'));
         return;
       }
+      // Impasse DÉFINITIVE : le serveur a PROUVÉ qu'aucun réglage ne peut rendre un itinéraire depuis ce
+      // départ (voir deadEnd dans lib/trip-engine.js). On y affichait « réessayez, ou élargissez le rayon »,
+      // qui est faux : rien ne marchera jamais. Placé APRÈS les zones à tension et les diagnostics de
+      // distance, qui sont, eux, des refus réversibles.
+      if(legs.length === 0 && data.deadEnd){
+        showFormError(msg('error.deadEnd'));
+        return;
+      }
     } catch(err){
       if(drawId !== currentDrawId) return;
       // Délai dépassé côté navigateur (AbortController) : même message que le délai dépassé côté serveur.
