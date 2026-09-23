@@ -427,6 +427,14 @@ module.exports = {
       operator: 'GESTAŞ (Güney Marmara Adalar Hattı)', durationH: 0.33, distanceKm: 4,
       priceByClass: { 1: 24.92, 2: 36.5, 5: 11.75, foot: 2.4 },
       source: 'https://gdu.com.tr/sefer-tarifeleri', date: D,
-      note: "Escale d'Ekinlik les lundis, jeudis et samedis (06:20 après Avşa 06:00). Même tarif de ligne (gdu.com.tr/ucret-tarifeleri)." }
+      note: "Escale d'Ekinlik les lundis, jeudis et samedis (06:20 après Avşa 06:00). Même tarif de ligne (gdu.com.tr/ucret-tarifeleri)." },
+    // ---------------------------------------------------------------- Îles des Princes : Büyükada
+    { a: 'buyukada', b: 'continental', routeKey: 'istanbulBuyukada', passengerOnly: true, "priceCovers": null,
+      "coversSource": "« motorized vehicles – except service vehicles – are forbidden » à Büyükada : la ligne n'a pas de tarif véhicule",
+      "durationEstimated": true, name: 'İstanbul ↔ Büyükada',
+      operator: 'Şehir Hatları (ligne Adalar)', durationH: 0.67, distanceKm: 22,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://sehirhatlari.istanbul/en/timetables/domestic-trips/adalar-princes-islands-lines/kabatas-adalar-177 ; https://en.wikipedia.org/wiki/Princes%27_Islands ; https://tuhim.ibb.gov.tr/ucret-tarifeler/', date: '2026-09-23',
+      note: "Ligne Adalar de Şehir Hatları, escales Kınalıada, Burgazada, Heybeliada puis Büyükada. Durée d'après Wikipédia (« The voyage takes about 25 minutes by fast ferry and 40 minutes by regular ferry ») : 40 min, la plus longue des deux, marquée estimée faute d'horaire lisible chez l'armateur. Le seul lieu publié sur l'île s'appelle « Adalar » ; le « Büyükada » des données est un homonyme de la mer Noire, à 761 km (Bulancak, Giresun). Tarif NON écrit : la grille de l'armateur est derrière une vérification anti-robot (non contournée) et le tableau « Adalar » du barème İBB, seul document officiel accessible, est un PDF dont les libellés de lignes ne survivent pas à l'extraction — deux montants y voisinent sans qu'on puisse dire lequel est la rive européenne et lequel Bostancı. Rien n'est donc publié plutôt qu'un chiffre incertain. Distance mesurée entre les deux lieux publiés." }
   ]
 };

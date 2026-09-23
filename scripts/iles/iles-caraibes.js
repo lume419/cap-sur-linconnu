@@ -205,6 +205,22 @@ module.exports = {
       priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
       source: 'https://www.granma.cu/cuba/2022-08-20/que-sabemos-del-nuevo-ferry-para-la-ruta-gerona-batabano ; https://www.cibercuba.com/noticias/2026-08-08-u1-e209363-s27061-nid337318-mientras-falta-transporte-publico-isla-juventud',
       date: '2026-09-16',
-      note: "Ferry Perseverancia : ~400 passagers + véhicules et fret roulant, ~5 h (Granma). Service très irrégulier : appel à pièces pour réparer le moteur (mai 2026), réduit à UN aller-retour hebdomadaire depuis le 20 juin 2026 (carburant). Aucun tarif véhicules publié. À retirer si la ligne est déclarée suspendue." }
+      note: "Ferry Perseverancia : ~400 passagers + véhicules et fret roulant, ~5 h (Granma). Service très irrégulier : appel à pièces pour réparer le moteur (mai 2026), réduit à UN aller-retour hebdomadaire depuis le 20 juin 2026 (carburant). Aucun tarif véhicules publié. À retirer si la ligne est déclarée suspendue." },
+    // ---------------------------------------------------------------- Guadeloupe : Marie-Galante
+    { a: 'guadeloupe', b: 'marieGalante', routeKey: 'pointeAPitreGrandBourg', passengerOnly: true, "priceCovers": null,
+      "coversSource": "la page de la ligne, chez l'armateur, porte « VEHICLE TRANSPORT: NOT AVAILABLE » et « FREIGHT TRANSPORT: NO »",
+      name: 'Pointe-à-Pitre ↔ Grand-Bourg (Marie-Galante)',
+      operator: 'FRS Express des Îles', durationH: 1, distanceKm: 45,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://www.frs-express.com/en/timetable-rates/marie-galante-departing-from-pointe-a-pitre-timetables-f ; https://www.kazamariegalante.com/blog/organiser-sejour-marie-galante-ferry-transports', date: '2026-09-23',
+      note: "« SAILING TIME: 1h00 », terminal maritime de Bergevin, 2 à 3 traversées par jour toute l'année, « + over 650,000 passengers transported in 2025 ». Tarifs « effective from March 31, 2026 » : la page publie l'enfant de moins de 12 ans (34 € AR, 22,50 € l'aller) et le bébé (6 € AR), mais le tarif ADULTE n'apparaît que dans le tunnel de réservation — d'où priceStatus 'unknown' plutôt qu'un montant deviné. Val'Ferry, dont le navire embarquait 21 véhicules, ne dessert plus Marie-Galante (kazamariegalante.com). Distance mesurée entre les deux lieux publiés." },
+    // ---------------------------------------------------------------- Belize : Ambergris Caye
+    { a: 'ambergrisCaye', b: 'northAmerica', routeKey: 'belizeCitySanPedro', passengerOnly: true, "priceCovers": null,
+      "coversSource": "navette de passagers (water taxi) : la compagnie ne publie aucune ligne véhicule",
+      name: 'Belize City ↔ San Pedro (Ambergris Caye)',
+      operator: 'San Pedro Belize Express Water Taxi', durationH: 1.5, distanceKm: 52,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://belizewatertaxi.com/information/faq/ ; https://belizewatertaxi.com/destinations/san-pedro/', date: '2026-09-23',
+      note: "« approximately 1 hr 30 mins » depuis le Belize Marine Terminal (#111 North Front Street) ; plusieurs départs par jour vers San Pedro, Caye Caulker et Chetumal. Aucun tarif n'est publié sur le site : il n'apparaît que dans le tunnel de réservation (TDS Tickets), non parcouru. Distance mesurée entre les deux lieux publiés." }
   ]
 };

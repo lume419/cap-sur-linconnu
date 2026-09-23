@@ -364,6 +364,14 @@
   "name": "Banshbaria ↔ Guptachhara (Sandwip)"
  },
  {
+  "routeKey": "phanThietPhuQuy",
+  "name": "Phan Thiết ↔ Phú Quý"
+ },
+ {
+  "routeKey": "saKyLySon",
+  "name": "Sa Kỳ ↔ Bến Đình (Lý Sơn)"
+ },
+ {
   "routeKey": "rosslareCherbourg",
   "name": "Rosslare ↔ Cherbourg"
  },
@@ -1340,6 +1348,14 @@
   "name": "Surgidero de Batabanó ↔ Nueva Gerona"
  },
  {
+  "routeKey": "pointeAPitreGrandBourg",
+  "name": "Pointe-à-Pitre ↔ Grand-Bourg (Marie-Galante)"
+ },
+ {
+  "routeKey": "belizeCitySanPedro",
+  "name": "Belize City ↔ San Pedro (Ambergris Caye)"
+ },
+ {
   "routeKey": "calicaCozumel",
   "name": "Calica (Punta Venado) ↔ Cozumel"
  },
@@ -1694,6 +1710,10 @@
  {
   "routeKey": "avsaEkinlik",
   "name": "Avşa ↔ Ekinlik"
+ },
+ {
+  "routeKey": "istanbulBuyukada",
+  "name": "İstanbul ↔ Büyükada"
  },
  {
   "routeKey": "hainesJuneau",
@@ -2262,6 +2282,10 @@
  {
   "routeKey": "balingoanBenoni",
   "name": "Balingoan ↔ Benoni (Camiguin)"
+ },
+ {
+  "routeKey": "caticlanCagban",
+  "name": "Caticlan ↔ Cagban (Boracay)"
  },
  {
   "routeKey": "parguaChacao",

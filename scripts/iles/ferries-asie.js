@@ -1564,6 +1564,42 @@ module.exports = {
       "source": "https://www.tbsnews.net/bangladesh/ferry-kapataksha-reaches-banshberia-ghat-after-8-hour-stranding-sandwip-route-1532136 ; https://www.tbsnews.net/bangladesh/transport/long-awaited-chattogram-sandwip-ferry-service-begins-operating-1100546",
       "date": "2025-03",
       "note": "Premier bac maritime du pays (mars 2025), 35 véhicules et 600 passagers par ferry, 4 rotations/jour selon la marée, 1 h 10. Tarifs annoncés à l'ouverture (passager 100, moto 200, voiture 900 BDT) relayés par la presse mais grille BIWTC non consultable (portail hors ligne) et non confirmée en 2026 : non retenus. Distance orthodromique."
+    },
+    {
+      "a": "continental",
+      "b": "phuQuy",
+      "routeKey": "phanThietPhuQuy",
+      "name": "Phan Thiết ↔ Phú Quý",
+      "operator": "Superdong (Superdong Phú Quý I et II)",
+      "durationH": 2.5,
+      "distanceKm": 102,
+      "durationEstimated": true,
+      "passengerOnly": true,
+      "priceCovers": null,
+      "coversSource": "navires à grande vitesse : l'horaire officiel ne donne qu'une capacité en PASSAGERS (306 et 246), aucun pont véhicules",
+      "priceStatus": "unknown",
+      "priceByClass": { "1": null, "2": null, "5": null, "foot": null },
+      "source": "https://online.superdong.com.vn/Home/ScheduleBoat",
+      "date": "2026-09-23",
+      "note": "Horaire officiel Superdong : ligne « Phan Thiết ‹-› Phú Quý », deux navires en rotation, 26 à 28 nœuds, « Giờ khởi hành có thể thay đổi theo thủy triều, điều kiện thời tiết ». Ni durée ni tarif sur la page : la durée de 2 h 30 est un ordre de grandeur (marquée estimée) et aucun prix n'est écrit, la billetterie ne les affichant que dans le tunnel de réservation. Distance mesurée entre les deux lieux publiés."
+    },
+    {
+      "a": "continental",
+      "b": "lySon",
+      "routeKey": "saKyLySon",
+      "name": "Sa Kỳ ↔ Bến Đình (Lý Sơn)",
+      "operator": "Ban Quản lý cảng Sa Kỳ (tàu cao tốc)",
+      "passengerOnly": true,
+      "priceCovers": null,
+      "coversSource": "la grille du port ne comporte qu'un tarif passager, sans ligne xe máy ni ô tô",
+      "durationH": 0.58,
+      "distanceKm": 28,
+      "priceByClass": { "1": null, "2": null, "5": null, "foot": 5.93 },
+      "currency": "VND",
+      "original": { "foot": 180000 },
+      "source": "https://vetausakylyson.com/bang-gia/ ; https://cangsaky.com.vn/",
+      "date": "2026-09-23",
+      "note": "Grille du Ban Quản lý cảng Sa Kỳ (mise à jour du 16/04/2026) : 180 000 VND pour la quasi-totalité des navires — « thuế VAT, bảo hiểm hành khách và 18.000 đồng giá hành khách qua cầu bến » compris — et 35 minutes annoncées. Deux services Phú Quốc Express sont à 182 000 VND : le montant retenu est le plus courant et le moins cher. Le terminal de Sa Kỳ n'est pas publié sous ce nom : le lieu retenu est Châu Bình, à 1,9 km du quai. Distance mesurée entre les deux lieux publiés."
     }
   ]
 };

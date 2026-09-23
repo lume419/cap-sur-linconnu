@@ -116,6 +116,29 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Six îles de plus, toutes par des liaisons de passagers.** Marie-Galante, Ambergris Caye, Büyükada, Boracay,
+  Phú Quý et Lý Sơn étaient hors de la couverture faute de ferry *voiture*. Leurs masses terrestres étaient déjà
+  déclarées : il ne manquait que la liaison. Distances mesurées entre les deux lieux publiés.
+  - **Pointe-à-Pitre ⇔ Grand-Bourg**, FRS Express des Îles, 1 h, 45 km. La page de la ligne, chez l'armateur, porte
+    « VEHICLE TRANSPORT: NOT AVAILABLE » — c'est la source la plus nette de tout le lot. Val'Ferry, qui embarquait des
+    véhicules, ne dessert plus l'île.
+  - **Belize City ⇔ San Pedro**, San Pedro Belize Express Water Taxi, 1 h 30, 52 km.
+  - **İstanbul ⇔ Büyükada**, Şehir Hatları, 40 min (estimée), 22 km : « motorized vehicles – except service
+    vehicles – are forbidden » à Büyükada.
+  - **Caticlan ⇔ Cagban**, CBTMPC, 10 à 15 min, 2 km, d'après le portail officiel Boracay iPass : la voiture reste
+    à Caticlan.
+  - **Phan Thiết ⇔ Phú Quý**, Superdong, 2 h 30 (estimée), 102 km : l'horaire officiel ne donne qu'une capacité en
+    passagers (306 et 246) et une vitesse de 26 à 28 nœuds, aucun pont véhicules.
+  - **Sa Kỳ ⇔ Bến Đình (Lý Sơn)**, 35 min, 28 km, **180 000 VND soit 5,93 €** — le seul tarif du lot qui soit
+    réellement publié (grille du Ban Quản lý cảng Sa Kỳ du 16/04/2026, TVA, assurance et droit de pont compris).
+- **Cinq de ces six liaisons n'ont pas de prix, et c'est écrit comme tel.** Pour chacune, ce qui a bloqué est nommé
+  dans la note : tarif adulte visible seulement dans le tunnel de réservation (Marie-Galante, Belize, Superdong),
+  sommes officiellement nommées mais jamais chiffrées (Boracay iPass), grille de l'armateur derrière une vérification
+  anti-robot non contournée et tableau « Adalar » du barème İBB dont les libellés de lignes ne survivent pas à
+  l'extraction du PDF (Büyükada). `priceStatus: 'unknown'` plutôt qu'un chiffre deviné.
+- Le contrôle des rives, dans le générateur de ports, a arrêté deux erreurs avant qu'elles n'entrent dans les données :
+  le seul lieu publié sur Büyükada s'appelle **Adalar** (le « Büyükada » des données est un homonyme de la mer Noire,
+  à 761 km), et **Caticlan est sur `panay`, pas sur `luzon`** — la liaison aurait relié Boracay à la mauvaise rive.
 - Uturoa ⇔ Taha'a annonçait 10 km pour 14,2 km mesurés, et une route déjà publiée (Gladstone ⇔ Curtis Island)
   avait été modifiée par erreur : un script de correction remplaçait la **première** occurrence d'un motif
   présent deux fois. Les deux valeurs sont rétablies d'après les coordonnées publiées.
@@ -212,11 +235,15 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **184 masses terrestres (386 lieux publiés) n'ont aucune liaison modélisée** — Bora-Bora,
-  Saint-Barthélemy, Corvo, Tristan da Cunha, Ouvéa, Hœdic, l'Île-de-Sein, les îles aux Princes. Un départ de
-  là ne rend aucun itinéraire, et le message affiché conseille alors « réessayez, ou élargissez le rayon »,
-  ce qui est FAUX : rien ne marchera jamais. Le corriger demande soit la liaison réelle de chacune, soit un
-  message neuf dans les 161 langues, sans vocabulaire réutilisable. Mesuré le 23/09/2026, Hrísey déduite.
+- **172 masses terrestres (360 lieux publiés) n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo,
+  Tristan da Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Un départ de là ne rend aucun itinéraire, et le message
+  affiché conseille alors « réessayez, ou élargissez le rayon », ce qui est FAUX : rien ne marchera jamais.
+  Le corriger demande soit la liaison réelle de chacune, soit un message neuf dans les 161 langues, sans
+  vocabulaire réutilisable. Les 184 masses (386 lieux) mesurées le 23/09/2026 moins les **douze reliées
+  depuis** (26 lieux publiés) : Hrísey, Capri, Procida, Huahine, Raiatea, Taha'a, Bora-Bora, Marie-Galante,
+  Ambergris Caye, Büyükada, Boracay, Phú Quý et Lý Sơn — soit treize, Hrísey ayant déjà été déduite du 184.
+  La méthode de la mesure d'origine n'a pas été notée et n'a pas pu être rejouée : ce nombre est une
+  soustraction, pas une nouvelle mesure, et il demande à être remesuré avec une méthode écrite.
 - **86 des 244 fonctions de `public/js/app.js` ne sont exercées par aucun test** (114 au matin du
   23/09/2026). Ce qui reste : le rendu du voyage à l'écran (19), l'orchestration asynchrone des photos,
   points d'intérêt et randonnées (18), les erreurs de formulaire encore non couvertes (14), la carte

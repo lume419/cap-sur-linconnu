@@ -266,4 +266,20 @@ module.exports = [
     ports: { saaremaa: [{ cc: 'EE', place: 'Roomassaare' }], abruka: [{ cc: 'EE', place: 'Abruka' }] } },
   { key: 'finnoyaAlesund|gossa', source: 'https://autopassferje.no/en/free-ferries-from-july-1st-2022/ (Småge ↔ Finnøya)',
     ports: { gossa: [{ cc: 'NO', place: 'Horrem' }], finnoyaAlesund: [{ cc: 'NO', place: 'Finnøy' }] } },
+  // Six liaisons de passagers ajoutées le 23/09/2026 : quand le quai n'est pas publié sous son nom, le lieu retenu est
+  // la localité la plus proche du terminal sur la bonne rive (near = position du quai, pour lever les homonymes).
+  { key: 'guadeloupe|marieGalante', source: 'https://www.frs-express.com/en/timetable-rates/marie-galante-departing-from-pointe-a-pitre-timetables-f (Pointe-à-Pitre (Bergevin) ↔ Grand-Bourg)',
+    ports: { guadeloupe: [{ cc: 'FR', place: 'Pointe-à-Pitre' }], marieGalante: [{ cc: 'FR', place: 'Grand-Bourg' }] } },
+  { key: 'ambergrisCaye|northAmerica', source: 'https://belizewatertaxi.com/destinations/san-pedro/ (Belize City ↔ San Pedro)',
+    ports: { ambergrisCaye: [{ cc: 'BZ', place: 'San Pedro', near: [17.916, -87.966] }], northAmerica: [{ cc: 'BZ', place: 'Belize City' }] } },
+  { key: 'buyukada|continental', source: 'https://sehirhatlari.istanbul/en/timetables/domestic-trips/adalar-princes-islands-lines/kabatas-adalar-177 (İstanbul ↔ Büyükada)',
+    ports: { buyukada: [{ cc: 'TR', place: 'Adalar' }], continental: [{ cc: 'TR', place: 'İstanbul' }] } },
+  // Le quai de Boracay est à Cagban, dans le barangay Manoc-Manoc : c'est le lieu publié le plus proche du terminal.
+  { key: 'boracay|panay', source: 'https://www.boracayipass.ph/ (Caticlan Seaport ↔ Cagban Seaport)',
+    ports: { boracay: [{ cc: 'PH', place: 'Manoc-Manoc' }], panay: [{ cc: 'PH', place: 'Caticlan' }] } },
+  { key: 'continental|phuQuy', source: 'https://online.superdong.com.vn/Home/ScheduleBoat (Phan Thiết ↔ Phú Quý)',
+    ports: { continental: [{ cc: 'VN', place: 'Phan Thiết' }], phuQuy: [{ cc: 'VN', place: 'Phú Quý', near: [10.5166, 108.9329] }] } },
+  // Le terminal de Sa Kỳ n'est pas publié sous ce nom : Châu Bình est le lieu publié le plus proche du quai (1,9 km).
+  { key: 'continental|lySon', source: 'https://cangsaky.com.vn/ (Sa Kỳ ↔ Bến Đình (Lý Sơn))',
+    ports: { continental: [{ cc: 'VN', place: 'Châu Bình', near: [15.2417, 108.8842] }], lySon: [{ cc: 'VN', place: 'Lý Sơn' }] } },
 ];

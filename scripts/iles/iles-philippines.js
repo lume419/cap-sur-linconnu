@@ -187,6 +187,14 @@ module.exports = {
       priceByClass: { 1: 37.18, 2: 46.49, 5: 10.61, foot: 5.52 },
       currency: 'PHP', original: { car: 2695, van: 3370, moto: 769, foot: 400 },
       source: 'http://www.pmocdo.ppa.com.ph/fare-rates-for-rolling-cargo-port-of-balingoan-to-benoni-and-vice-versa/ ; http://www.pmocdo.ppa.com.ph/fare-rates-for-passenger-vessels-port-of-balingoan-to-benoni-and-vice-versa/', date: '2026-09-16',
-      note: "page PPA « Fare Rates for Rolling Cargo » (dernière modification 2021) : Auto/Multicab 2 695, L300/Urvan 3 370, Motorcycle 769 ; passager economy Benoni/Guinsiliban 400 PHP « as of March 31, 2023 » ; grilles anciennes mais seules officielles trouvées ; distance estimée (18 km en ligne droite)" }
+      note: "page PPA « Fare Rates for Rolling Cargo » (dernière modification 2021) : Auto/Multicab 2 695, L300/Urvan 3 370, Motorcycle 769 ; passager economy Benoni/Guinsiliban 400 PHP « as of March 31, 2023 » ; grilles anciennes mais seules officielles trouvées ; distance estimée (18 km en ligne droite)" },
+    // ---------------------------------------------------------------- Boracay
+    { a: 'boracay', b: 'panay', routeKey: 'caticlanCagban', passengerOnly: true, "priceCovers": null,
+      "coversSource": "service de passagers : le portail officiel ne connaît qu'un « Boat Transport Service », sans aucun tarif véhicule",
+      name: 'Caticlan ↔ Cagban (Boracay)',
+      operator: 'Caticlan-Boracay Transport Multi-Purpose Cooperative (CBTMPC)', durationH: 0.25, distanceKm: 2,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://www.boracayipass.ph/ ; https://en.wikipedia.org/wiki/Boracay', date: '2026-09-23',
+      note: "Portail officiel Boracay iPass (province d'Aklan, municipalité de Malay, CBTMPC) : « Public Ferry ranges from 10 to 15 minutes while Speedboat ranges from 3 to 5 minutes », entre Caticlan Seaport et Cagban Seaport. Le portail nomme les trois sommes dues — Port Terminal Fee, Environmental Fee, Boat Transport Service — sans en publier les montants : aucun prix n'est donc écrit ici. Sur l'île, les déplacements se font en tricycles et e-trikes (Wikipédia) ; aucune source ne décrit d'embarquement de voitures de visiteurs. Distance mesurée entre les deux lieux publiés." }
   ]
 };
