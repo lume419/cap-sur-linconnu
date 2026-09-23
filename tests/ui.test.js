@@ -1756,7 +1756,9 @@ test('23/09/2026 : deux suggestions au rendu identique reçoivent ce qui les dis
   ]);
   assert.notEqual(karez[0].distinct, karez[1].distinct, 'deux fiches sans région ni population distinctes doivent porter leur coordonnée');
   assert.ok(karez[0].distinctLtr && karez[1].distinctLtr, 'une coordonnée doit être marquée de gauche à droite');
-  assert.match(karez[0].distinct, /32,10/, 'coordonnée attendue, obtenu ' + JSON.stringify(karez[0].distinct));
+  // Le séparateur ne doit pas être une virgule : en français elle sert déjà de séparateur décimal, et
+  // « 32,10, 67,20 » aligne trois virgules qui font deux métiers différents.
+  assert.equal(karez[0].distinct, '32,10 / 67,20', 'coordonnée attendue, obtenu ' + JSON.stringify(karez[0].distinct));
 
   // 3. Régions différentes : c'est la mention la plus parlante, elle passe avant la population.
   const springfield = ctx.marquerDistinctions([

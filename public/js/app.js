@@ -1828,7 +1828,10 @@
   // de voisinage par suggestion, sur le chemin le plus chaud du moteur, à chaque frappe.
   function coordTexte(r){
     var n = function(v){ return Number(v).toLocaleString(localeTag(), { minimumFractionDigits: 2, maximumFractionDigits: 2 }); };
-    return n(r.lat) + ', ' + n(r.lon);
+    // Séparateur « / » et non « , » : dans les langues à virgule décimale — le français en tête — « 31,23, 119,20 »
+    // aligne trois virgules qui font deux métiers différents, et la paire devient illisible. Constaté à l'écran en
+    // production le 23/09/2026, sur la langue par défaut du site.
+    return n(r.lat) + ' / ' + n(r.lon);
   }
   function popTexte(r){
     var vars = { n: r.pop.toLocaleString(localeTag()) };

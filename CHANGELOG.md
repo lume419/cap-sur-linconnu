@@ -67,7 +67,10 @@ marqués `[à vérifier]` et listés en fin de fichier.
   s'affichaient à l'identique. Chaque ligne porte désormais ce qui la distingue de ses homonymes, et
   seulement quand elle en a : la **région** si elle diffère, sinon la **population**, sinon la
   **coordonnée**. Remesuré sur toutes les données : **0 groupe reste identique** — 5 019 distingués
-  par la région, 5 217 par la population, 227 845 par la coordonnée. Le repli est peu lisible mais il
+  par la région, 5 217 par la population, 227 845 par la coordonnée.
+  Les deux nombres d'une coordonnée sont séparés par « / » et non par une virgule : en français celle-ci
+  sert déjà de séparateur décimal, et « 31,23, 119,20 » aligne trois virgules qui font deux métiers
+  différents — constaté à l'écran en production, dans la langue par défaut du site. Le repli est peu lisible mais il
   désigne toujours, et la région comme la population sont identiques dans les cas de masse (les 287
   Xincun sont tous en Guangdong et tous à population inconnue). Aucune recherche spatiale n'est faite :
   un « près de telle ville » serait plus lisible mais demanderait une requête de voisinage par
