@@ -42,6 +42,10 @@ module.exports = [
     ports: { iceland: [{ cc: 'IS', place: 'Hvolsvöllur' }], vestmannaeyjar: [{ cc: 'IS', place: 'Vestmannaeyjar' }] } },
   { key: 'grimsey|iceland', source: 'https://www.vegagerdin.is/en/the-transportation-system/public-transport/ferries/saefari-grimsey (Dalvík ↔ Grímsey)',
     ports: { grimsey: [{ cc: 'IS', place: 'Grímsey' }], iceland: [{ cc: 'IS', place: 'Dalvík' }] } },
+  // Le terminal continental est à Árskógssandur, qui n'est pas publié sous ce nom : le lieu publié est
+  // « Litli-Árskógssandur », le village du terminal, à 3,9 km de Hrísey.
+  { key: 'hrisey|iceland', source: 'https://www.vegagerdin.is/en/the-transportation-system/public-transport/ferries/saevar-hrisey (Árskógssandur ↔ Hrísey)',
+    ports: { hrisey: [{ cc: 'IS', place: 'Hrísey' }], iceland: [{ cc: 'IS', place: 'Litli-Árskógssandur' }] } },
   { key: 'faroe|kalsoy', source: 'https://www.ssl.fo/en/prices/prices-ferries (Klaksvík ↔ Syðradalur (Kalsoy))',
     ports: { faroe: [{ cc: 'FO', place: 'Klaksvík' }], kalsoy: [{ cc: 'FO', place: 'Syðradalur', near: [62.245, -6.668] }] } },
   { key: 'faroe|nolsoy', source: 'https://www.ssl.fo/en/prices/prices-ferries (Tórshavn ↔ Nólsoy)',

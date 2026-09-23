@@ -87,6 +87,21 @@ marqués `[à vérifier]` et listés en fin de fichier.
   Les lettres à barre ou à panse (ø, ð, þ, đ, ł) ne sont PAS dépliées : ce sont des lettres à part entière,
   et les déplier demanderait un choix par langue (þ vaut « th » en islandais, ð « d » ou « dh »). Un test
   le vérifie, pour que personne ne les ajoute par symétrie sans le décider.
+- **Hrísey (Islande) était hors de la couverture, et les liaisons sans véhicules n'existaient pas.**
+  `landmassOf` distinguait l'île, mais aucune liaison ne la desservait : aucun itinéraire n'en partait, quel
+  que soit le mode, et le site conseillait « réessayez, ou élargissez le rayon » — un conseil faux, rien
+  n'aurait jamais marché. La liaison **Árskógssandur ↔ Hrísey** (Sævar, Almenningssamgöngur ehf.) est ajoutée :
+  15 min, 3,9 km mesurés entre les deux lieux publiés, adulte 1 500 ISK, neuf départs par jour l'été. Source :
+  [vegagerdin.is](https://www.vegagerdin.is/en/the-transportation-system/public-transport/ferries/saevar-hrisey).
+  Mais ce bateau **n'embarque aucun véhicule** — Hrísey est sans voitures, et sa grille ne comporte que des
+  tarifs passagers. Or un prix de classe absent voulait dire « tarif non publié », jamais « véhicule refusé » :
+  toute liaison était proposée à tous les modes. Nouveau champ `passengerOnly`. Deux façons de se tromper ont
+  été écartées : faire traverser une voiture sur un bateau qui la refuse aurait publié une donnée fausse ;
+  interdire la liaison aux modes motorisés aurait retiré l'île de la couverture mondiale, alors qu'on la visite
+  très bien en laissant sa voiture au port. Le trajet est donc proposé à tous, **toujours au tarif piéton**, et
+  marqué comme tel. `fareClass` était lu par l'interface sans que rien ne le pose jamais : il sert enfin, et
+  le prix s'affiche « par personne » — chaîne déjà traduite dans les 161 langues, aucune n'a été ajoutée.
+  Vérifié : les quatre modes partent désormais de Hrísey, au tarif passager publié.
 - Parenthèse vide dans le champ de ville après avoir choisi un lieu sans code postal (« Hrazdan () ») :
   98 910 lieux publiés n'en ont pas.
 - « Aucune ville trouvée. » n'était pas annoncée aux lecteurs d'écran, alors que « Aucune langue
@@ -175,13 +190,16 @@ marqués `[à vérifier]` et listés en fin de fichier.
   terme de recherche.
 - **`tensionBlocked` peut manquer** quand le budget de 4 s est épuisé avant le tirage de vérification :
   le conseil « décochez les zones déconseillées » disparaît alors, sans que la réponse le signale.
-- **Hrísey (Islande) est une masse terrestre sans liaison.** `landmassOf` la distingue, mais aucune ligne
-  de ferry ne la dessert : un départ de là ne rend aucun itinéraire, et aucun diagnostic.
 - **52 lieux français ne sont pas publiés** : leur commune est nommée en abrégé par GeoNames (« Louhans »
   pour Louhans-Châteaurenaud), et les rapprocher demanderait l'approximation qui a produit les 997
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
+- **184 masses terrestres (386 lieux publiés) n'ont aucune liaison modélisée** — Bora-Bora,
+  Saint-Barthélemy, Corvo, Tristan da Cunha, Ouvéa, Hœdic, l'Île-de-Sein, les îles aux Princes. Un départ de
+  là ne rend aucun itinéraire, et le message affiché conseille alors « réessayez, ou élargissez le rayon »,
+  ce qui est FAUX : rien ne marchera jamais. Le corriger demande soit la liaison réelle de chacune, soit un
+  message neuf dans les 161 langues, sans vocabulaire réutilisable. Mesuré le 23/09/2026, Hrísey déduite.
 - **86 des 244 fonctions de `public/js/app.js` ne sont exercées par aucun test** (114 au matin du
   23/09/2026). Ce qui reste : le rendu du voyage à l'écran (19), l'orchestration asynchrone des photos,
   points d'intérêt et randonnées (18), les erreurs de formulaire encore non couvertes (14), la carte

@@ -760,6 +760,10 @@
   "name": "Landeyjahöfn ↔ Vestmannaeyjar"
  },
  {
+  "routeKey": "arskogssandurHrisey",
+  "name": "Árskógssandur ↔ Hrísey"
+ },
+ {
   "routeKey": "dalvikGrimsey",
   "name": "Dalvík ↔ Grímsey"
  },

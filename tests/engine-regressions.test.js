@@ -547,3 +547,36 @@ test('22/09/2026 : « décochez les zones déconseillées » n\'est conseillé q
   assert.ok(annonces >= 5, 'seulement ' + annonces + ' annonces rencontrées : le test ne contrôle plus rien');
   assert.deepEqual(bad, []);
 });
+
+// 23/09/2026 — LIAISON SANS VÉHICULES. Un prix de classe absent veut dire « tarif non publié », jamais « véhicule
+// refusé » : toute liaison était donc proposée à tous les modes. Le Sævar d'Árskógssandur à Hrísey (Islande)
+// n'embarque que des passagers — l'île est sans voitures. Avant l'ajout de cette liaison, AUCUN itinéraire ne partait
+// de Hrísey, quel que soit le mode, et le site conseillait à tort « réessayez, ou élargissez le rayon ».
+// Le voyage est désormais proposé à tous, le véhicule restant au port : la traversée est facturée au tarif PIÉTON et
+// marquée comme telle, pour que l'interface affiche « par personne » au lieu d'un prix de véhicule qui n'existe pas.
+test('23/09/2026 : une traversée sans véhicules est proposée à tous les modes, au tarif piéton', () => {
+  const TD = H.TripData || require('../public/js/trip-data.js');
+  const route = TD.FERRY_ROUTES['hrisey|iceland'];
+  assert.ok(route, 'la liaison Árskógssandur ↔ Hrísey doit être publiée');
+  assert.equal(route.passengerOnly, true, 'elle doit être marquée sans véhicules');
+  assert.equal(route.priceByClass['1'], null, 'aucun tarif voiture ne doit être inventé');
+  assert.equal(route.priceByClass['2'], null);
+  assert.equal(route.priceByClass['5'], null);
+  assert.ok(route.priceByClass.foot > 0, 'le tarif passager doit être publié');
+
+  const dep = { name: 'Hrísey', lat: 65.9784, lon: -18.3778, country: 'IS', cp: '630', allCps: ['630'], dept: '' };
+  for(const mode of ['velo', 'voiture-thermique', 'moto', 'van']){
+    let vu = null;
+    // Le tirage est aléatoire : quelques essais suffisent à obtenir un itinéraire depuis une île d'un seul lieu.
+    for(let i = 0; i < 6 && !vu; i++){
+      const t = run(base(dep, { transportKey: mode, maxRadiusKm: 400 }), 1000 + i);
+      const legs = t.legs || [];
+      assert.ok(legs.length > 0, mode + ' : aucun itinéraire depuis Hrísey — l\'île est sortie de la couverture');
+      vu = legs.find(l => l.ferryInfo && l.ferryInfo.routeKey === 'ferry.route.arskogssandurHrisey');
+    }
+    assert.ok(vu, mode + ' : aucune étape n\'emprunte la traversée de Hrísey en six tirages');
+    assert.equal(vu.ferryInfo.fareClass, 'foot', mode + ' : la traversée doit être facturée au tarif piéton');
+    assert.equal(vu.ferryInfo.passengerOnly, true, mode + ' : la traversée doit être signalée sans véhicules');
+    assert.equal(vu.ferryInfo.amount, route.priceByClass.foot, mode + ' : montant différent du tarif passager publié');
+  }
+});

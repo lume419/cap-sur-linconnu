@@ -161,7 +161,8 @@ const ferryOut = ferries.map(x => {
     ('priceCovers' in x ? ', priceCovers:' + cov(x.priceCovers) : '') +
     (byClass.length ? ', priceCoversByClass:{' + byClass.map(([k, v]) => k + ':' + cov(v)).join(', ') + '}' : '') +
     (x.durationEstimated ? ', durationEstimated:true' : '') +
-    (x.mode ? ", mode:'" + x.mode + "'" : '') + ' },';
+    (x.mode ? ", mode:'" + x.mode + "'" : '') +
+    (x.passengerOnly ? ', passengerOnly:true' : '') + ' },';
 });
 s = s.replace(AUTO_FERRIES_RE, (m, a, b) => a + ferryOut.join('\n') + (ferryOut.length ? '\n' : '') + b.replace(/^\n/, ''));
 // trip-data.js est modifié en parallèle par d'autres scripts (autres blocs) : on n'écrit que si le fichier est encore

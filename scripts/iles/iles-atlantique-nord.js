@@ -260,6 +260,16 @@ module.exports = {
       durationH: 0.58, distanceKm: 12, priceByClass: { 1: i(4050), 2: i(5400), 5: i(2700), foot: i(2700) },
       source: 'https://herjolfur.is/en/prices', date: D,
       note: "Prix 2026 par trajet : voiture < 5 m 4 050 ISK, véhicule > 5 m 5 400 ISK (classe 2), moto 2 700 ISK, adulte 2 700 ISK. 7 départs/jour de chaque côté. Environ 35 min ; l'hiver, déroutement fréquent sur Þorlákshöfn (≈ 2 h 45)." },
+    // SANS VÉHICULES : Hrísey est une île sans voitures et le Sævar n'embarque que des passagers — sa grille ne
+    // comporte aucun tarif véhicule, seulement adulte et 12-15 ans. `passengerOnly` rend donc la liaison invisible à
+    // tout mode qui n'embarque pas comme piéton : seul le vélo peut la prendre. Sans ce champ, un prix de classe
+    // absent aurait voulu dire « tarif non publié » et la voiture aurait traversé sur un bateau qui la refuse.
+    { a: 'hrisey', b: 'iceland', routeKey: 'arskogssandurHrisey', passengerOnly: true, "durationEstimated": true,
+      "priceCovers": null, "coversSource": "aucun tarif véhicule : le bateau n'en embarque pas, la question ne se pose pas",
+      name: 'Árskógssandur ↔ Hrísey', operator: 'Almenningssamgöngur ehf. (Sævar)',
+      durationH: 0.25, distanceKm: 4, priceByClass: { 1: null, 2: null, 5: null, foot: i(1500) },
+      source: 'https://www.vegagerdin.is/en/the-transportation-system/public-transport/ferries/saevar-hrisey', date: D,
+      note: "Adulte 1 500 ISK, 12-15 ans 750 ISK ; aucun tarif véhicule publié — l'île est sans voitures et le bateau n'en embarque pas. Neuf départs par jour du 1er juin au 31 août (07:00 à 23:00 depuis Hrísey, 20 min plus tard depuis Árskógssandur) ; hors saison, certaines rotations sur appel. « The ferry ride is only 15 minutes » (northiceland.is). Distance mesurée entre les deux lieux publiés (Hrísey et Litli-Árskógssandur, le village du terminal) : 3,9 km." },
     { a: 'grimsey', b: 'iceland', routeKey: 'dalvikGrimsey', "durationEstimated": true, name: 'Dalvík ↔ Grímsey', operator: 'Vegagerðin (Sæfari)',
       durationH: 3, distanceKm: 68, priceByClass: { 1: null, 2: null, 5: null, foot: null }, priceStatus: 'unknown',
       source: 'https://www.vegagerdin.is/en/the-transportation-system/public-transport/ferries/saefari-grimsey', date: D,
