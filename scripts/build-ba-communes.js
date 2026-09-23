@@ -63,7 +63,7 @@ const wikiEntries = fs.existsSync(sourcePath)
   ? JSON.parse(fs.readFileSync(sourcePath, 'utf8'))
   : fs.readFileSync(publiéPath, 'utf8').split('\n').filter(Boolean).flatMap(l => {
       const ch = l.split(';');
-      return ch[2] ? ch[2].split(',').map(cp => ({ nameBare: ch.slice(4).join(';'), cp: cp })) : [];
+      return ch[2] ? ch[2].split(',').map(cp => ({ nameBare: ch[4], cp: cp })) : [];
     });
 if(!fs.existsSync(sourcePath)) console.log('BA : ba-postal-wiki.json absent — ' + wikiEntries.length + ' codes repris du fichier déjà publié');
 const cpByName = new Map();

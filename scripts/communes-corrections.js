@@ -903,7 +903,7 @@ function preparePlaceName(country, geonameid, name){ return cleanPlaceName(fixNa
 //    PUBLIÉES -> une seule ligne gardée, la plus peuplée (à égalité, la première). Ne fait que retirer des lignes, jamais
 //    en séparer ; l'ordre des lignes gardées est inchangé.
 function dropNearDuplicates(lines){
-  const nomOf = l => l.split(';').slice(4).join(';');
+  const nomOf = l => l.split(';')[4];
   // Fréquence de chaque GRAPHIE dans le pays : premier critère de départage (voir 9 bis).
   const fréquence = new Map();
   lines.forEach(l => { if(l){ const n = nomOf(l); fréquence.set(n, (fréquence.get(n) || 0) + 1); } });
@@ -912,7 +912,7 @@ function dropNearDuplicates(lines){
   // lignes du même lieu qui ne diffèrent que par un accent ou un trait d'union passaient toutes les deux.
   const keyOf = l => {
     const p = l.split(';'); const ll = (p[1] || '').split(',');
-    return normalizeCityName(p.slice(4).join(';')) + '|' + (+ll[1]).toFixed(2) + '|' + (+ll[0]).toFixed(2);
+    return normalizeCityName(p[4]) + '|' + (+ll[1]).toFixed(2) + '|' + (+ll[0]).toFixed(2);
   };
   lines.forEach((l, i) => {
     if(!l) return;

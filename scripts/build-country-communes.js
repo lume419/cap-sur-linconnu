@@ -539,7 +539,7 @@ for(const country of COUNTRIES){
       const ch = l.split(';'), ll = ch[1].split(',');
       const e = { postcode: ch[2], admin2: ch[3], admin1: ch[3], lat: +ll[1], lon: +ll[0] };
       déjàPubliés.set(ll[1] + ',' + ll[0], e);
-      const k = ch.slice(4).join(';').toLowerCase();
+      const k = ch[4].toLowerCase();
       let g = déjàParNom.get(k); if(!g) déjàParNom.set(k, g = []);
       g.push(e);
     });

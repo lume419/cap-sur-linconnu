@@ -1620,8 +1620,8 @@ Pays-Bas caribéens, Colombie, Venezuela, Guyana, Suriname, Équateur, Pérou, B
 Argentine, Chili, Malouines, Géorgie du Sud-et-les îles Sandwich du Sud — **763 003 lieux**
 (`scripts/build-ameriques-communes.js`) : Mexique 256 393, États-Unis 162 937, Brésil 66 533, Pérou 46 394, Colombie
 33 884, Bolivie 25 597, Venezuela 23 225, Canada 19 687… ; **~80 000 alias** (`scripts/build-ameriques-aliases.js`). Le
-site compte désormais **~5,0 millions de lieux** (4 984 259 exactement depuis la levée des exclusions sans rapport avec un code
-postal, 22/09/2026 — 4 907 889 la veille ; bundle communes 220 Mo bruts ; index de recherche 18,0 millions
+site compte désormais **~5,0 millions de lieux** (4 977 561 exactement depuis le rattachement des lieux-dits français, sans rapport avec un code
+postal, 23/09/2026 — 4 984 259 le 22/09, 4 907 889 le 21/09 ; bundle communes 220 Mo bruts ; index de recherche 18,0 millions
 d'entrées à l'époque, 17,65 millions aujourd'hui ; serveur ~2,4 Go, tirages prêts en ~14 s en local).
 
 **Codes postaux** (règle des 90 %) : États-Unis 96,6 %, Mexique 97,5 %, Bermudes, Costa Rica, Panama, Haïti, Porto Rico,
@@ -3744,6 +3744,74 @@ qu'en France, résultats vides ou randonnées d'un homonyme (le client ne l'appe
 > chapitre « Ferries », lui, commence plus bas, là où les liaisons par région sont décrites.
 
 > Les passes d'audit sont listées de la plus récente à la plus ancienne. Les passes 4, 5 et 6 n'ont jamais eu de section ici : elles manquent au README, pas au dépôt (17e audit du 20/09/2026).
+
+### Les lieux-dits français rattachés à leur commune (23 septembre 2026)
+
+**Demande de l'utilisateur, mot pour mot :** « Les lieux dit sont généralement rattaché a des villes environnantes,
+ex : "le marchais vert" est rattaché a Beauchêne ». C'est exact, et la veille le site publiait ces lieux-dits comme
+des points autonomes : un nom, un département, rien d'autre. « Le Marchais Vert » ne dit pas où il est.
+
+**La source porte le lien.** La colonne `admin4` du dump GeoNames est le CODE INSEE de la commune dont le lieu
+dépend — 79 002 des 80 290 lieux habités français en portent un. Ce code est rapproché de la commune PUBLIÉE du même
+nom dans ce département ; c'est licite parce que les noms de communes sont **uniques dans un département**
+(vérifié : 0 doublon sur les 34 964 lignes IGN). Un lieu rattaché reçoit alors les **codes postaux de sa commune** —
+c'est par eux que le courrier lui parvient, rien n'est inventé — et le **nom de cette commune**, affiché dans la
+suggestion : « Le Marchais Vert · Tinchebray-Bocage ». Le point sépare deux noms de LIEUX, là où la parenthèse
+signale depuis le 16e audit un nom dans une autre langue : deux signes pour deux sens. Une commune à plusieurs codes
+postaux les transmet tous — on ne sait pas lequel des vingt codes de Paris sert le 18e arrondissement, la liste
+complète est donc publiée et n'importe lequel le retrouve.
+
+**Un 6e champ, sans changer le format pour autant.** `parseCommunesFile` lisait déjà `parts[4]` SEUL et ignorait la
+suite, et aucune des 4,98 millions de lignes publiées ne contient de « ; » dans son nom (vérifié sur les
+239 fichiers de pays). Une ligne à cinq champs se lit donc exactement comme avant. Six lecteurs qui reconstruisaient
+le nom par `slice(4).join(';')` — deux générateurs, le dédoublonneur, deux fichiers de tests — sont corrigés en
+`parts[4]`. L'index sur disque passe en **version 4** : un index de version 3 est refusé et reconstruit, plutôt que
+de lire la colonne suivante à la place de la commune.
+
+**Les fiches qui ne se rattachent à rien ne sont plus publiées.** « Si les lieux dits ont été absorbé a une date
+antérieures, ils n'existent plus et ne doivent donc plus apparaitres » (utilisateur). Quand le code INSEE désigne une
+commune qui a elle-même disparu, la fiche décrit un état du territoire qui n'a plus cours. **6 512 fiches retirées** :
+2 230 anciennes communes absorbées (Cherbourg → Cherbourg-en-Cotentin, Évry → Évry-Courcouronnes, Saint-Ouen →
+Saint-Ouen-sur-Seine, Oullins → Oullins-Pierre-Bénite, Tourlaville et Équeurdreville-Hainneville → Cherbourg-en-
+Cotentin), 4 281 lieux-dits de ces mêmes communes, et deux fiches qui n'ont jamais été des communes — **« Dunkirk »**
+(86 263 habitants annoncés), le nom ANGLAIS de Dunkerque, et **« Marne La Vallée »** (318 325), ville nouvelle à
+cheval sur plusieurs communes. Le prix est écrit : seuls 19 % de ces noms sont un préfixe du nom actuel, donc un
+visiteur qui cherche « Équeurdreville » ou « Tourlaville » ne trouve plus rien, là où « Cherbourg » mène toujours à
+Cherbourg-en-Cotentin.
+
+**France : 81 612 → 74 914 lieux** — 34 964 communes IGN, inchangées, et 39 955 lieux rattachés. Chaque lieu ajouté
+a désormais une commune, ses codes postaux et son département.
+
+**Ce qui a été REFUSÉ, et pourquoi.** L'utilisateur proposait aussi : « un hameau sans population n'est pas un lieu
+habité, autant le retirer ». La prémisse ne tient pas. Chez GeoNames tous les lieux publiés ici sont de classe P
+(*populated place*) ; la colonne population est **inconnue**, pas nulle, pour la plupart. Mesuré : **509 chefs-lieux**
+portent une population nulle dans les seuls dumps du dépôt, dont **Le Vigan**, sous-préfecture du Gard. Et le critère
+supprimerait **4 504 522 lieux sur 4 977 561 — 90 % du site** : 100 % de la Chine, 99 % de l'Inde, 100 % de
+l'Indonésie. La règle n'a donc pas été appliquée, et la raison est écrite ici plutôt que le chiffre subi.
+
+**Deux défauts trouvés en chemin.**
+- **Arles et Aix-en-Provence étaient publiées DEUX FOIS.** Le générateur écartait un lieu quand une commune du même
+  nom se trouvait à moins de 5 km ; mais une commune n'est pas un point, et le centre publié par l'IGN est celui de
+  la SURFACE. Arles fait 759 km², la plus vaste de France : son centre est à 14,7 km du village, et les deux fiches
+  passaient, avec deux populations différentes (51 811 et 53 431). Aix-en-Provence aussi, à 5 km (146 821 et
+  149 695). **734 lieux portaient le nom d'une commune de leur propre département** ; la population les départage,
+  puisque GeoNames n'en donne pas à un hameau : **187 doublons retirés**, et les 547 restants — tous à population
+  nulle, de vrais lieux-dits homonymes — sont gardés.
+- **Donner leur code postal aux lieux rattachés a cassé l'idempotence du générateur.** Il reconnaissait ses propres
+  ajouts à leur code postal VIDE ; ceux-ci en ayant désormais un, une relance les reprenait pour des lignes IGN —
+  34 964 communes devenues 74 914 en une exécution. Le marqueur est maintenant le 6e champ. Deux exécutions de suite
+  donnent le même fichier, ce qui est le seul test qui vaille.
+
+**Ce que la comparaison de moteur montre.** 380 tirages rejoués contre le commit précédent : **50 changent (13 %)**, TOUS par déplacement du tirage au sort — 6 698 lieux français en moins dans les listes de candidats. **Aucune transition de diagnostic**, **0 trajet direct changé sur 1 603**, **0 plafond d'hébergement sur 3 585**, **55/55 contre-épreuves faisables des deux côtés**, aucune alerte de temps de calcul. Les paires de référence bougent elles aussi (Cergy-Pontoise → Paris 18 disparaît, Rennes → Paris 15 et Paris 20 → Cergy-Pontoise apparaissent) : elles sont tirées des données, qui ont changé. Suite complète : **278 tests, 0 échec**, et 43/43 avec `TEST_GENERATORS=1`.
+
+**Les alias suivent.** Retirer 6 512 fiches laissait autant d'alias pointant dans le vide — le contrôle « aucun alias orphelin » l'a relevé aussitôt (3 382 lignes, « Yvrandes », « Zœbersdorf »…). `build-all-aliases.js` a été relancé sur la France : **3 037 lignes écartées, 345 rattachées** à la fiche qui subsiste. Les 74 914 lieux français portent 51 164 alias, dont 73 707 lieux rattachés à un identifiant GeoNames (39 952 par coordonnées, 33 749 par nom).
+
+**Vérifications.** Un test tire 40 lieux rattachés au hasard, parmi ceux dont le nom ne désigne qu'un seul lieu, et
+exige des DEUX chemins de recherche qu'ils rendent la commune ET un code postal de cette commune. Éprouvé par
+mutation : en retirant le champ du moteur, il relève 116 rattachements perdus. Sa première version échouait sur
+« Fontaine » — publiée 19 fois, rattachée à 19 communes différentes, donc hors des 20 premiers résultats pour une
+raison étrangère au rattachement : c'est le test qui a été corrigé, pas la donnée, et ces 19 Fontaine sont justement
+ce que le rattachement sert à distinguer.
 
 ### Les six limites traitées point par point (22 septembre 2026)
 

@@ -88,7 +88,7 @@ function eachLine(file, fn){
     pos = nl + 1;
   }
 }
-const nameOf = line => line.split(';').slice(4).join(';');
+const nameOf = line => line.split(';')[4];
 const isPending = (cc, name) => (PENDING[cc] || []).includes(name);
 
 // Noms publiés par pays (chargés une fois : ~4,8 millions de lieux, quelques secondes).
@@ -764,7 +764,7 @@ test('lieux : aucun lieu réel écarté faute de code postal (échantillon de ' 
       const ch = line.split(';'), ll = ch[1].split(',');
       const lat = +ll[1], lon = +ll[0];
       points.add(lat.toFixed(4) + ',' + lon.toFixed(4));
-      const k = norm(ch.slice(4).join(';'));
+      const k = norm(ch[4]);
       let g = parNom.get(k); if(!g) parNom.set(k, g = []);
       g.push([lat, lon]);
     });
@@ -1066,7 +1066,7 @@ test('lieux : les quasi-doublons connus ne se multiplient pas (populations contr
     const par = new Map();
     eachLine(path.join(DATA, file), line => {
       const c = line.split(';'); const ll = (c[1] || '').split(',');
-      const o = { pop: parseInt(c[0], 10) || 0, lat: +ll[1], lon: +ll[0], cp: c[2], nom: c.slice(4).join(';') };
+      const o = { pop: parseInt(c[0], 10) || 0, lat: +ll[1], lon: +ll[0], cp: c[2], nom: c[4] };
       const k = norm(o.nom);
       let g = par.get(k); if(!g) par.set(k, g = []);
       g.push(o);

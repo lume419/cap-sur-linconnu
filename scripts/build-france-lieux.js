@@ -13,9 +13,19 @@
 // Demande de l'utilisateur (22/09/2026) : « on doit pouvoir les rechercher quand même si on les connaît ».
 //
 // CE QUE CE SCRIPT NE FAIT PAS. Il ne retouche AUCUNE ligne IGN : elles sont recopiées telles quelles, dans leur
-// ordre, avec leur code postal et leur département. Il n'invente aucun code postal (le fichier postal GeoNames
-// français n'est pas dans le dépôt, et de toute façon un lieu-dit n'en a pas en propre) : la colonne « code » des
-// lignes ajoutées est VIDE, comme pour les 97 728 lieux sans code publiés la veille.
+// ordre, avec leur code postal et leur département. Il n'invente aucun code postal.
+//
+// RATTACHEMENT (23/09/2026). « Les lieux-dits sont généralement rattachés à des villes environnantes, ex : "le
+// marchais vert" est rattaché à Beauchêne » (utilisateur). C'est exact, et la source le dit : la colonne admin4 du
+// dump porte le CODE INSEE de la commune dont le lieu dépend. Un lieu rattaché reçoit donc les CODES POSTAUX de sa
+// commune — c'est par eux que le courrier lui parvient, rien n'est inventé — et le NOM de cette commune dans un
+// 6e champ, affiché dans la suggestion (« Le Marchais Vert · Tinchebray-Bocage »).
+// 39 955 des 46 467 lieux ajoutés sont ainsi rattachés. Les 6 512 autres dépendent d'une commune qui a ELLE-MÊME
+// fusionné depuis et ne figure plus dans la liste officielle (Beauchêne est passée dans Tinchebray-Bocage en 2015) :
+// faute de table des fusions dans le dépôt, ils restent sans code et sans rattachement, plutôt que d'être rattachés
+// à une commune devinée — le voisin le plus proche s'est déjà montré mauvais juge (voir DÉPARTEMENT ci-dessous).
+// Une commune à plusieurs codes postaux les transmet TOUS : on ne sait pas lequel des vingt codes de Paris sert le
+// 18e arrondissement, la liste complète est donc publiée et l'un quelconque le retrouve.
 //
 // DÉPARTEMENT. La colonne 4 de communes.txt porte le code de département à deux chiffres (« 01 », « 2A », « 974 »).
 // Il est lu dans la SOURCE : la colonne admin2 du dump GeoNames porte exactement ce code, et son vocabulaire coïncide
@@ -39,7 +49,16 @@ const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./commun
 const { normalizeCityName } = require('../lib/trip-engine.js').internals;
 
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
-const MEME_NOM_KM = 5;      // même nom à moins de 5 km : c'est la commune déjà publiée, pas un lieu de plus
+const MEME_NOM_KM = 5;      // même nom à moins de 5 km, où que ce soit : c'est la commune déjà publiée
+// Même nom ET MÊME DÉPARTEMENT : c'est la commune, pas un lieu de plus — les noms de communes sont UNIQUES dans un
+// département (vérifié : 0 doublon sur les 34 964 lignes IGN publiées). Deux seuils, parce qu'une commune n'est pas un
+// point : le centre publié par l'IGN est le centre de la SURFACE, qui peut être loin du village. Arles (759 km², la
+// plus vaste de France) était ainsi publiée deux fois, à 14,7 km d'écart, avec deux populations différentes
+// (51 811 et 53 431) ; Aix-en-Provence aussi, à 5 km (146 821 et 149 695).
+const MEME_DEPT_KM = 15;    // même nom, même département, moins de 15 km : la commune, quelle que soit la population
+// Au-delà, la population tranche : GeoNames ne donne pas de population à un hameau. Un lieu qui en porte une ET qui
+// porte le nom d'une commune de son département EST cette commune, même à 60 km — les autres (281 à plus de 40 km,
+// tous à population nulle) sont de vrais lieux-dits homonymes, qu'il faut garder.
 const DEPT_MAX_KM = 30;     // aucune commune à moins de 30 km : on ne devine pas le département, on n'ajoute pas
 
 function haversineKm(lat1, lon1, lat2, lon2){
@@ -50,9 +69,13 @@ function haversineKm(lat1, lon1, lat2, lon2){
 
 const fichier = path.join(__dirname, '..', 'public', 'data', 'communes.txt');
 const publié = fs.readFileSync(fichier, 'utf8').split('\n').filter(Boolean);
-// Lignes IGN = celles qui portent un code postal. Les lignes ajoutées par une exécution précédente (code vide)
-// sont écartées et recalculées.
-const ign = publié.filter(l => (l.split(';')[2] || '') !== '');
+// Lignes IGN = celles qui portent un code postal ET PAS de 6e champ. Les lignes ajoutées par une exécution précédente
+// sont écartées et recalculées : elles se reconnaissent à leur 6e champ (la commune de rattachement), ou, pour celles
+// d'avant le rattachement du 23/09/2026, à leur code postal vide.
+// Le seul test « pas de code postal » ne suffit plus DEPUIS que les lieux rattachés reçoivent celui de leur commune :
+// une relance les aurait pris pour des lignes IGN et les aurait gardées à jamais (mesuré : 34 964 lignes IGN devenues
+// 74 914 en une relance).
+const ign = publié.filter(l => { const p = l.split(';'); return p[2] !== '' && p.length < 6; });
 const ajoutéesAvant = publié.length - ign.length;
 
 const parNom = new Map();
@@ -60,13 +83,22 @@ const grille = new Map();
 const cellule = (lat, lon) => Math.round(lat * 10) + '_' + Math.round(lon * 10);
 for(const l of ign){
   const ch = l.split(';'), ll = ch[1].split(',');
-  const o = { lat: +ll[1], lon: +ll[0], dept: ch[3] };
-  const k = normalizeCityName(ch.slice(4).join(';'));
+  const o = { lat: +ll[1], lon: +ll[0], dept: ch[3], cps: ch[2], nom: ch[4] };
+  const k = normalizeCityName(ch[4]);
   let g = parNom.get(k); if(!g) parNom.set(k, g = []);
   g.push(o);
+  o.cle = k + '|' + ch[3];
   const c = cellule(o.lat, o.lon);
   let h = grille.get(c); if(!h) grille.set(c, h = []); h.push(o);
 }
+// Commune de rattachement : le dump porte, colonne admin4, le code INSEE de la commune dont le lieu-dit dépend
+// (« Le Marchais Vert » -> 61486, Beauchêne). Ce code est rapproché de la commune PUBLIÉE portant ce nom dans ce
+// département — les noms de communes sont uniques dans un département. 33 789 codes INSEE se résolvent ainsi.
+// Les autres désignent des communes qui ont elles-mêmes fusionné depuis (Beauchêne est passée dans Tinchebray-Bocage
+// en 2015) et ne figurent donc plus dans la liste officielle : ces lieux-là restent sans rattachement, plutôt que
+// d'être rattachés à une commune inventée.
+const parCleIgn = new Map();
+for(const g of parNom.values()) for(const o of g) if(!parCleIgn.has(o.cle)) parCleIgn.set(o.cle, o);
 function communeLaPlusProche(lat, lon){
   let best = null, bd = Infinity;
   const a = Math.round(lat * 10), b = Math.round(lon * 10);
@@ -79,9 +111,18 @@ function communeLaPlusProche(lat, lon){
 }
 
 const dump = fs.readFileSync(path.join(__dirname, 'dump', 'FR_dump.txt'), 'utf8');
+// INSEE -> commune publiée : l'enregistrement du dump dont le nom correspond à une commune publiée de son département.
+const communeParInsee = new Map();
+for(const ligne of dump.split('\n')){
+  if(!ligne) continue;
+  const c = ligne.split('\t');
+  if(!KEEP_FEATURE_CODES.has(c[7]) || !c[13]) continue;
+  const co = parCleIgn.get(normalizeCityName(c[1]) + '|' + c[11]);
+  if(co && !communeParInsee.has(c[13])) communeParInsee.set(c[13], co);
+}
 // Codes de département réellement publiés par l'IGN : le seul vocabulaire accepté pour la colonne admin2 du dump.
 const DEPTS_IGN = new Set(ign.map(l => l.split(';')[3]));
-let bruts = 0, déjàPubliés = 0, sansDépartement = 0, depSource = 0, depVoisin = 0;
+let bruts = 0, déjàPubliés = 0, sansDépartement = 0, depSource = 0, depVoisin = 0, rattachés = 0, orphelins = 0;
 const ajouts = [];
 for(const ligne of dump.split('\n')){
   if(!ligne) continue;
@@ -93,19 +134,40 @@ for(const ligne of dump.split('\n')){
   if(!nom) continue;
   if(excludePlace('FR', c[0], nom, lat, lon)) continue;
   bruts++;
+  const pop = parseInt(c[14], 10) || 0;
+  const deptSource = DEPTS_IGN.has(c[11]) ? c[11] : null;
   const mêmes = parNom.get(normalizeCityName(nom)) || [];
-  if(mêmes.some(o => haversineKm(lat, lon, o.lat, o.lon) <= MEME_NOM_KM)){ déjàPubliés++; continue; }
+  const déjàLà = mêmes.some(o => {
+    const d = haversineKm(lat, lon, o.lat, o.lon);
+    if(d <= MEME_NOM_KM) return true;                                   // même nom, tout près : la commune
+    if(deptSource && o.dept === deptSource) return d <= MEME_DEPT_KM || pop > 0; // même nom, même département
+    return false;
+  });
+  if(déjàLà){ déjàPubliés++; continue; }
   // Département : celui de la source quand elle le donne ; sinon celui de la commune publiée la plus proche.
   // Dans les deux cas, un lieu sans aucune commune à moins de DEPT_MAX_KM n'est pas publié — hors de France ou mal placé.
   const voisin = communeLaPlusProche(lat, lon);
   if(!voisin){ sansDépartement++; continue; }
   let dept;
-  if(DEPTS_IGN.has(c[11])){ dept = c[11]; depSource++; }
+  if(deptSource){ dept = deptSource; depSource++; }
   else { dept = voisin.dept; depVoisin++; }
-  ajouts.push(`${parseInt(c[14], 10) || 0};${lon.toFixed(4)},${lat.toFixed(4)};;${dept};${nom}`);
+  // RATTACHEMENT (23/09/2026, demande de l'utilisateur : « les lieux-dits sont généralement rattachés à des villes
+  // environnantes »). Un lieu-dit rattaché reçoit les CODES POSTAUX de sa commune — c'est par eux que le courrier lui
+  // parvient, rien n'est inventé — et le NOM de cette commune en 6e champ, pour que la suggestion dise où c'est.
+  // Sans rattachement résolu, la ligne reste comme avant : pas de code, pas de 6e champ.
+  // Sans rattachement résolu, le lieu N'EST PAS PUBLIÉ (décision de l'utilisateur, 23/09/2026 : « si les lieux-dits
+  // ont été absorbés à une date antérieure, ils n'existent plus et ne doivent donc plus apparaître »). Le code INSEE
+  // désigne alors une commune qui a elle-même disparu, et la fiche décrit un état du territoire qui n'a plus cours :
+  // d'anciennes communes absorbées (Cherbourg, Évry, Saint-Ouen, Équeurdreville-Hainneville…), mais aussi des fiches
+  // qui n'ont jamais été des communes — « Dunkirk », le nom anglais de Dunkerque, et « Marne La Vallée », ville
+  // nouvelle à cheval sur plusieurs communes. Aucune n'est une destination réelle aujourd'hui.
+  const commune = communeParInsee.get(c[13]);
+  if(!commune){ orphelins++; continue; }
+  rattachés++;
+  ajouts.push(`${pop};${lon.toFixed(4)},${lat.toFixed(4)};${commune.cps};${dept};${nom};${commune.nom}`);
 }
 ajouts.sort((a, b) => {
-  const x = a.split(';').slice(4).join(';'), y = b.split(';').slice(4).join(';');
+  const x = a.split(';')[4], y = b.split(';')[4];
   return x < y ? -1 : x > y ? 1 : 0;
 });
 
@@ -114,7 +176,10 @@ fs.writeFileSync(fichier, lignes.join('\n') + '\n', 'utf8');
 console.log('FR : ' + ign.length + ' communes IGN (inchangées) + ' + ajouts.length + ' lieux GeoNames ajoutés' +
   (ajoutéesAvant ? ' (' + ajoutéesAvant + ' ajouts d\'une exécution précédente remplacés)' : '') +
   ' -> ' + lignes.length + ' lignes après dédoublonnage.');
-console.log('   ' + bruts + ' lieux habités dans le dump, ' + déjàPubliés + ' déjà publiés sous le même nom à moins de ' +
-  MEME_NOM_KM + ' km, ' + sansDépartement + ' sans commune à moins de ' + DEPT_MAX_KM + ' km (non publiés).');
+console.log('   ' + bruts + ' lieux habités dans le dump, ' + déjàPubliés + ' déjà publiés (même nom à moins de ' +
+  MEME_NOM_KM + ' km, ou même nom dans le même département à moins de ' + MEME_DEPT_KM + ' km ou avec une population), ' +
+  sansDépartement + ' sans commune à moins de ' + DEPT_MAX_KM + ' km (non publiés).');
+console.log('   rattachement : ' + rattachés + ' lieux reçoivent le code postal et le nom de leur commune (colonne admin4), ' +
+  orphelins + " NON PUBLIÉS faute de rattachement : leur commune a elle-même disparu, la fiche décrit un état du territoire qui n'a plus cours.");
 console.log('   département : ' + depSource + ' lus dans la source (admin2), ' + depVoisin +
   ' déduits de la commune publiée la plus proche faute de code dans la source.');

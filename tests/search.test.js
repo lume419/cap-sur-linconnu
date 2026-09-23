@@ -306,7 +306,7 @@ const GROUPES_PARTAGES = (() => {
     for(const l of fs.readFileSync(p, 'utf8').split('\n')){
       if(!l) continue;
       const ch = l.split(';');
-      const nom = ch.slice(4).join(';');
+      const nom = ch[4];
       const cp = (ch[2] || '').split(',')[0];
       const k = engine.internals.normalizeCityName(nom) + '|' + cp;
       const e = { nom, pop: parseInt(ch[0], 10) || 0, cp, norm: engine.internals.normalizeCityName(nom) };
@@ -384,4 +384,56 @@ test('balayage : ' + SAMPLE + ' alias tirés au hasard retrouvent leur lieu', ()
     assert.ok(Math.abs(d - miss.length) <= Math.max(5, picks.length * 0.01),
       'index disque : ' + d + ' échecs contre ' + miss.length + ' en mémoire — les deux chemins ne voient pas les mêmes alias');
   }
+});
+
+// 23/09/2026 — RATTACHEMENT DES LIEUX-DITS FRANÇAIS. « Les lieux-dits sont généralement rattachés à des villes
+// environnantes » (utilisateur). Un lieu-dit publié avec un 6e champ porte le nom de sa commune, et les codes postaux
+// de cette commune : les DEUX chemins de recherche doivent rendre l'un et l'autre, sinon la suggestion ne dit pas où
+// est le lieu. Le test lit le fichier publié, tire les lieux rattachés au hasard (reproductible) et les cherche.
+test('lieux-dits français : la commune de rattachement et son code postal suivent le lieu, par les deux chemins', () => {
+  const lignes = fs.readFileSync(path.join(DATA, 'communes.txt'), 'utf8').split('\n');
+  const rattachés = [];
+  // Combien de lieux français portent chaque nom normalisé : « Fontaine » est publié 19 fois, rattaché à 19 communes
+  // différentes (donnée juste — c'est même ce que le rattachement sert à distinguer). Un tel nom ne peut pas servir à
+  // ce test : sa fiche attendue sort des 20 premiers résultats pour une raison étrangère au rattachement.
+  // L'échantillon est donc tiré parmi les noms qui ne désignent qu'un seul lieu.
+  const combien = new Map();
+  for(const l of lignes){
+    if(!l) continue;
+    const n = engine.internals.normalizeCityName(l.split(';')[4]);
+    combien.set(n, (combien.get(n) || 0) + 1);
+  }
+  for(const l of lignes){
+    if(!l) continue;
+    const ch = l.split(';');
+    if(ch.length < 6 || !ch[5]) continue;
+    rattachés.push({ nom: ch[4], commune: ch[5], cps: ch[2].split(','),
+      unique: combien.get(engine.internals.normalizeCityName(ch[4])) === 1 });
+  }
+  assert.ok(rattachés.length > 30000, 'trop peu de lieux rattachés publiés (' + rattachés.length + ')');
+  // Un lieu rattaché porte forcément les codes postaux de sa commune : la colonne ne doit jamais être vide.
+  const sansCode = rattachés.filter(r => !r.cps[0]);
+  assert.equal(sansCode.length, 0, sansCode.length + ' lieux rattachés sans code postal, ex. ' +
+    sansCode.slice(0, 3).map(r => r.nom + ' -> ' + r.commune).join(', '));
+
+  let graine = 20260923;
+  const suivant = () => (graine = (graine * 1103515245 + 12345) % 2147483648) / 2147483648;
+  const tirés = [];
+  for(let i = 0; i < 200; i++){
+    const r = rattachés[Math.floor(suivant() * rattachés.length)];
+    // Un nom trop court ou ambigu ne se cherche pas : on veut éprouver le rattachement, pas la recherche.
+    if(r.unique && r.nom.length >= 6 && r.commune !== r.nom) tirés.push(r);
+  }
+  assert.ok(tirés.length >= 40, 'échantillon trop maigre (' + tirés.length + ')');
+  const manques = [];
+  for(const r of tirés){
+    for(const [voie, liste] of [['mémoire', engine.searchCity(r.nom, 20, 'FR', null)],
+                                ['disque', diskIdx ? diskIdx.search(r.nom, 20, 'FR', null) : null]]){
+      if(!liste) continue;
+      const trouvé = liste.find(x => x.country === 'FR' && x.name === r.nom && x.commune === r.commune);
+      if(!trouvé){ manques.push(voie + ' : ' + r.nom + ' (commune attendue ' + r.commune + ')'); continue; }
+      if(r.cps.indexOf(trouvé.cp) === -1) manques.push(voie + ' : ' + r.nom + ' rendu avec le code ' + trouvé.cp + ', attendu l\'un de ' + r.cps.join(','));
+    }
+  }
+  assert.equal(manques.length, 0, manques.length + ' rattachements perdus :\n' + manques.slice(0, 10).map(x => '  - ' + x).join('\n'));
 });
