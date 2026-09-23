@@ -154,7 +154,8 @@ marqués `[à vérifier]` et listés en fin de fichier.
   nommées sans liaison, jusqu'à trois départs (les lieux les plus peuplés) × trois durées × trois tirages.
   - **174 rendent un trajet** de l'intérieur : le message « réessayez, ou élargissez le rayon » y est juste.
   - **16 sont refusées au départ par la règle des zones à tension** — Kamtchatka, Norilsk, Tchoukotka, Socotra,
-    l'Île de la Tortue… Ce ne sont pas des impasses : c'est une décision assumée, et le message devrait le dire.
+    l'Île de la Tortue… Ce ne sont pas des impasses, et elles ont déjà leur propre message, vérifié : filtre
+    décoché, les 27 tirages de chacune rendent un trajet.
   - **42 sont de vraies impasses** : 95 lieux publiés, 68 792 habitants. Wallis, Futuna, Maupiti, Tristan da
     Cunha, Fernando de Noronha, Ilulissat, Utqiagvik, Batanes, cinq atolls de Tuvalu. Là, et là seulement,
     le message affiché est faux : rien ne marchera jamais.
@@ -544,8 +545,12 @@ marqués `[à vérifier]` et listés en fin de fichier.
   - **174 rendent un trajet** de l'intérieur — Sri Lanka (17 740 lieux publiés), la Jamaïque (3 199) se visitent
     très bien sans jamais embarquer. Le message « réessayez, ou élargissez le rayon » y est juste.
   - **16 sont refusées au départ par la règle des zones à tension** (Kamtchatka, Norilsk, Tchoukotka, Socotra,
-    Île de la Tortue, Idjwi…), et non faute de liaison. Le message affiché ne le dit pas, alors que le refus est
-    délibéré : **à corriger**.
+    Île de la Tortue, Idjwi…), et non faute de liaison. Elles reçoivent déjà leur propre message, traduit dans les
+    161 langues : « Aucune étape possible hors des zones déconseillées autour de ce point de départ : décochez
+    "Exclure les zones déconseillées" pour les inclure. » Le conseil a été VÉRIFIÉ le 24/09/2026 sur les seize :
+    filtre décoché, **les 27 tirages de chacune rendent un trajet**. Rien à corriger — la première rédaction de
+    cette ligne annonçait un message trompeur, déduit d'un tirage vide sans lire la branche cliente qui traite
+    déjà `tensionBlocked` (`public/js/app.js:4589`).
   - **42 sont de vraies impasses** : 95 lieux publiés, 68 792 habitants — Wallis, Futuna, Maupiti, Tristan da
     Cunha, Fernando de Noronha, Ilulissat, Utqiagvik, Batanes, cinq atolls de Tuvalu, Corvo ou Hœdic à un seul
     lieu. Là, et là seulement, « réessayez, ou élargissez le rayon » est FAUX : rien ne marchera jamais.
