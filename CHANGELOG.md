@@ -116,6 +116,22 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Lot de couverture, passe 3 : 39 liaisons, 41 masses reliées.**
+  - Quatre du Vanuatu (Malekula, Tanna, Ambrym, Vanua Lava), Ouvéa et Belep, deux des Galápagos, **sept des
+    Bahamas** (Eleuthera, Exuma, Abaco, Andros, Cat Island, Long Island, San Salvador), Grand Turk et South
+    Caicos, Izu Ōshima, quatre d'Australie du Nord (Rottnest, Melville, Elcho, Groote Eylandt), Catalina,
+    Tioman, Ko Tao, Ko Tarutao, Coche, Manus, Lihir, Chizumulu, La Gonâve, trois philippines, Addu, Mafia,
+    Bubaque, Bolama et Karimun. Même règle, même fichier source, qui compte désormais 118 liaisons.
+  - **Izu Ōshima entre enfin.** Elle avait été écartée deux fois : les durées trouvées donnaient 63 km/h, au-dessus
+    du plafond, et rien ne permettait de choisir entre deux chiffres qui se contredisaient. La règle du lot —
+    durée déduite de la médiane du projet — résout le problème par construction, sans arbitrage arbitraire.
+  - Le contrôle des rives a arrêté quatre entrées : deux homonymes (Long Beach, Catarman) et deux masses
+    attendues fausses — **Port-au-Prince est sur `hispaniola`** et **Lae sur `newGuinea`**.
+  - `compare-engine` remonte 5 tirages changés sur 380 (Tokyo pour Izu Ōshima, Kuala Lumpur et Kota Bharu pour
+    Tioman), aucune médiane ne bougeant.
+  - **La suite complète repasse à 291 tests, 0 échec, en 637 s.** Le contrôle PDF « fil de travail contre repli
+    interne », qui échouait depuis plusieurs lots, repasse au vert dès que la machine retrouve sa vitesse :
+    c'était bien le budget de temps de mise en page, jamais le code.
 - **Lot de couverture, passe 2 : 42 liaisons hors d'Europe, 49 masses reliées.**
   - Les trois Comores, les Seychelles (Mahé, Praslin, La Digue), Lamu, Sainte-Marie, San Andrés ⇔ Providencia,
     cinq liaisons des Salomon, deux de Papouasie, neuf indonésiennes (Pelni et ASDP), Iriomote, Changshan,
@@ -477,7 +493,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **324 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+- **283 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
   Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.

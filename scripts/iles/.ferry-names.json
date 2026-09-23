@@ -1816,6 +1816,162 @@
   "name": "Lumut ↔ Pangkor"
  },
  {
+  "routeKey": "vu1Couv",
+  "name": "Port-Vila ↔ Norsup (Malekula)"
+ },
+ {
+  "routeKey": "vu2Couv",
+  "name": "Port-Vila ↔ Isangel (Tanna)"
+ },
+ {
+  "routeKey": "vu3Couv",
+  "name": "Port-Vila ↔ Port-Vato (Ambrym)"
+ },
+ {
+  "routeKey": "vu4Couv",
+  "name": "Luganville ↔ Sola (Vanua Lava)"
+ },
+ {
+  "routeKey": "nc1Couv",
+  "name": "Nouméa ↔ Ouvéa"
+ },
+ {
+  "routeKey": "nc2Couv",
+  "name": "Nouméa ↔ Belep"
+ },
+ {
+  "routeKey": "ga1Couv",
+  "name": "Puerto Ayora ↔ Puerto Baquerizo Moreno"
+ },
+ {
+  "routeKey": "ga2Couv",
+  "name": "Puerto Ayora ↔ Puerto Villamil"
+ },
+ {
+  "routeKey": "bs1Couv",
+  "name": "Nassau ↔ Governor’s Harbour (Eleuthera)"
+ },
+ {
+  "routeKey": "bs2Couv",
+  "name": "Nassau ↔ George Town (Exuma)"
+ },
+ {
+  "routeKey": "bs3Couv",
+  "name": "Nassau ↔ Marsh Harbour (Abaco)"
+ },
+ {
+  "routeKey": "bs4Couv",
+  "name": "Nassau ↔ San Andros (Andros)"
+ },
+ {
+  "routeKey": "bs5Couv",
+  "name": "Nassau ↔ Arthur’s Town (Cat Island)"
+ },
+ {
+  "routeKey": "bs6Couv",
+  "name": "Nassau ↔ Clarence Town (Long Island)"
+ },
+ {
+  "routeKey": "bs7Couv",
+  "name": "Nassau ↔ Cockburn Town (San Salvador)"
+ },
+ {
+  "routeKey": "tc1Couv",
+  "name": "Providenciales ↔ Grand Turk"
+ },
+ {
+  "routeKey": "tc2Couv",
+  "name": "Grand Turk ↔ South Caicos"
+ },
+ {
+  "routeKey": "jp2Couv",
+  "name": "Tokyo ↔ Ōshima"
+ },
+ {
+  "routeKey": "au1Couv",
+  "name": "Fremantle ↔ Rottnest Island"
+ },
+ {
+  "routeKey": "au2Couv",
+  "name": "Darwin ↔ Milikapiti (Melville)"
+ },
+ {
+  "routeKey": "au3Couv",
+  "name": "Nhulunbuy ↔ Galiwin’ku (Elcho)"
+ },
+ {
+  "routeKey": "au4Couv",
+  "name": "Nhulunbuy ↔ Alyangula (Groote Eylandt)"
+ },
+ {
+  "routeKey": "us1Couv",
+  "name": "Long Beach ↔ Avalon (Catalina)"
+ },
+ {
+  "routeKey": "my2Couv",
+  "name": "Mersing ↔ Kampung Tekek (Tioman)"
+ },
+ {
+  "routeKey": "th3Couv",
+  "name": "Chumphon ↔ Ko Tao"
+ },
+ {
+  "routeKey": "th4Couv",
+  "name": "La-ngu ↔ Ko Tarutao"
+ },
+ {
+  "routeKey": "ve1Couv",
+  "name": "Porlamar ↔ San Pedro de Coche"
+ },
+ {
+  "routeKey": "pg3Couv",
+  "name": "Lae ↔ Lorengau (Manus)"
+ },
+ {
+  "routeKey": "pg4Couv",
+  "name": "Kavieng ↔ Londolovit (Lihir)"
+ },
+ {
+  "routeKey": "mw1Couv",
+  "name": "Likoma ↔ Chizumulu"
+ },
+ {
+  "routeKey": "ht1Couv",
+  "name": "Port-au-Prince ↔ Anse-à-Galets (La Gonâve)"
+ },
+ {
+  "routeKey": "ph12Couv",
+  "name": "Santa Fe ↔ Hagdan (Kinatarkan)"
+ },
+ {
+  "routeKey": "ph13Couv",
+  "name": "Allen ↔ San Vicente"
+ },
+ {
+  "routeKey": "ph14Couv",
+  "name": "Catarman ↔ Laoang"
+ },
+ {
+  "routeKey": "mv3Couv",
+  "name": "Hithadhoo ↔ Meedhoo (Addu)"
+ },
+ {
+  "routeKey": "tz2Couv",
+  "name": "Kisiju ↔ Kilindoni (Mafia)"
+ },
+ {
+  "routeKey": "gw1Couv",
+  "name": "Bissau ↔ Bubaque"
+ },
+ {
+  "routeKey": "gw2Couv",
+  "name": "Bissau ↔ Bolama"
+ },
+ {
+  "routeKey": "id12Couv",
+  "name": "Batam ↔ Tanjung Balai (Karimun)"
+ },
+ {
   "routeKey": "aomoriHakodate",
   "name": "Aomori ↔ Hakodate"
  },
