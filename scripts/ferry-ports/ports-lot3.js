@@ -282,4 +282,21 @@ module.exports = [
   // Le terminal de Sa Kỳ n'est pas publié sous ce nom : Châu Bình est le lieu publié le plus proche du quai (1,9 km).
   { key: 'continental|lySon', source: 'https://cangsaky.com.vn/ (Sa Kỳ ↔ Bến Đình (Lý Sơn))',
     ports: { continental: [{ cc: 'VN', place: 'Châu Bình', near: [15.2417, 108.8842] }], lySon: [{ cc: 'VN', place: 'Lý Sơn' }] } },
+  // Ligne internationale FRS Express des Îles (Guadeloupe – Dominique – Martinique – Sainte-Lucie).
+  // Le terminal de Castries n'est pas publié sous son nom : Castries même est le lieu le plus proche (2,7 km).
+  { key: 'guadeloupe|martinique', source: 'https://www.frs-express.com/en/timetable-rates/martinique-timetables-fares (Pointe-à-Pitre (Bergevin) ↔ Fort-de-France)',
+    ports: { guadeloupe: [{ cc: 'FR', place: 'Pointe-à-Pitre' }], martinique: [{ cc: 'FR', place: 'Fort-de-France' }] } },
+  { key: 'dominica|guadeloupe', source: 'https://www.frs-express.com/en/timetable-rates/dominica-timetables-fares (Pointe-à-Pitre (Bergevin) ↔ Roseau)',
+    ports: { dominica: [{ cc: 'DM', place: 'Roseau' }], guadeloupe: [{ cc: 'FR', place: 'Pointe-à-Pitre' }] } },
+  { key: 'dominica|martinique', source: 'https://www.frs-express.com/en/timetable-rates/dominica-timetables-fares (Fort-de-France ↔ Roseau)',
+    ports: { dominica: [{ cc: 'DM', place: 'Roseau' }], martinique: [{ cc: 'FR', place: 'Fort-de-France' }] } },
+  { key: 'martinique|saintLucia', source: 'https://www.frs-express.com/en/timetable-rates/saint-lucia-timetables-fares (Fort-de-France ↔ Castries)',
+    ports: { martinique: [{ cc: 'FR', place: 'Fort-de-France' }], saintLucia: [{ cc: 'LC', place: 'Castries' }] } },
+  // Bahamas : les trois escales du Bo Hengy III sont publiées sous leur nom (Dunmore Town pour Harbour Island).
+  { key: 'newProvidence|spanishWells', source: 'https://bahamasferries.com/your-travel/ (Nassau ↔ Spanish Wells)',
+    ports: { newProvidence: [{ cc: 'BS', place: 'Nassau', near: [25.0582, -77.3431] }], spanishWells: [{ cc: 'BS', place: 'Spanish Wells' }] } },
+  { key: 'harbourIsland|spanishWells', source: 'https://bahamasferries.com/your-travel/ (Spanish Wells ↔ Harbour Island)',
+    ports: { harbourIsland: [{ cc: 'BS', place: 'Dunmore Town' }], spanishWells: [{ cc: 'BS', place: 'Spanish Wells' }] } },
+  { key: 'harbourIsland|newProvidence', source: 'https://bahamasferries.com/your-travel/ (Nassau ↔ Harbour Island)',
+    ports: { harbourIsland: [{ cc: 'BS', place: 'Dunmore Town' }], newProvidence: [{ cc: 'BS', place: 'Nassau', near: [25.0582, -77.3431] }] } },
 ];

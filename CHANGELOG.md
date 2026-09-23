@@ -116,6 +116,28 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Sept liaisons de plus, six masses terrestres rendues au site, les plus peuplées d'abord.**
+  - **Ligne internationale FRS Express des Îles** : Guadeloupe – Dominique – Martinique – Sainte-Lucie, quatre
+    traversées d'un seul armateur. Pointe-à-Pitre ⇔ Fort-de-France (4 h 45 avec escale en Dominique, 184 km),
+    Pointe-à-Pitre ⇔ Roseau (2 h 30, 106 km), Fort-de-France ⇔ Roseau (2 h 15, 81 km), Fort-de-France ⇔ Castries
+    (1 h 30, 73 km). L'armateur écrit « VEHICLE TRANSPORT : Available only between Guadeloupe and Martinique » :
+    **une seule des quatre embarque des véhicules**, les trois autres sont `passengerOnly`. Vérifié : un tirage au
+    départ de Fort-de-France enchaîne les trois îles et n'avertit que sur les traversées sans véhicules.
+    Martinique (360 630 habitants publiés) et Sainte-Lucie (130 166) étaient les deux plus grosses masses reliables
+    encore isolées.
+  - **Bo Hengy III (Bahamas Ferries)** : Nassau ⇔ Spanish Wells (2 h 10, 80 km, **119,39 €**), Spanish Wells ⇔
+    Harbour Island (45 min, 14 km, **40,37 €**), Nassau ⇔ Harbour Island (3 h 10, 87 km, même tarif que Spanish
+    Wells). Grille publiée TVA comprise, convertie au taux InforEuro de septembre 2026 (1 EUR = 1,1643 USD, le
+    dollar bahaméen étant au pair). Le projet **connaissait déjà cette ligne** et rangeait ses deux escales en îles
+    isolées « passagers seulement » : elles reçoivent une clé nommée (`spanishWells`, `harbourIsland`) et New
+    Providence (245 619 habitants) cesse d'être une impasse.
+  - Les tarifs sont publiés pour les trois liaisons des Bahamas ; les quatre antillaises portent
+    `priceStatus: 'unknown'`, leurs montants n'existant que dans le tunnel de réservation.
+  - **Effet de bord voulu, et mesuré** : la vitesse médiane qui sert aux traversées ESTIMÉES est calculée sur
+    toutes les liaisons publiées. Trois des nouvelles tombent dans la classe 45-100 km et sont rapides, ce qui
+    fait passer la médiane de cette classe de **21,43 à 22,69 km/h** ; les quatre autres classes ne bougent pas.
+    Les traversées estimées de 45 à 100 km raccourcissent donc d'environ 6 % partout — c'est ce que
+    `compare-engine` remonte sur deux tirages (Dublin, Ajaccio), et non un changement de route.
 - **Six îles de plus, toutes par des liaisons de passagers.** Marie-Galante, Ambergris Caye, Büyükada, Boracay,
   Phú Quý et Lý Sơn étaient hors de la couverture faute de ferry *voiture*. Leurs masses terrestres étaient déjà
   déclarées : il ne manquait que la liaison. Distances mesurées entre les deux lieux publiés.
@@ -235,15 +257,17 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **172 masses terrestres (360 lieux publiés) n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo,
-  Tristan da Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Un départ de là ne rend aucun itinéraire, et le message
-  affiché conseille alors « réessayez, ou élargissez le rayon », ce qui est FAUX : rien ne marchera jamais.
-  Le corriger demande soit la liaison réelle de chacune, soit un message neuf dans les 161 langues, sans
-  vocabulaire réutilisable. Les 184 masses (386 lieux) mesurées le 23/09/2026 moins les **douze reliées
-  depuis** (26 lieux publiés) : Hrísey, Capri, Procida, Huahine, Raiatea, Taha'a, Bora-Bora, Marie-Galante,
-  Ambergris Caye, Büyükada, Boracay, Phú Quý et Lý Sơn — soit treize, Hrísey ayant déjà été déduite du 184.
-  La méthode de la mesure d'origine n'a pas été notée et n'a pas pu être rejouée : ce nombre est une
-  soustraction, pas une nouvelle mesure, et il demande à être remesuré avec une méthode écrite.
+- **448 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+  Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
+  `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
+  garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.
+  **Toutes ne sont pas des impasses** : Sri Lanka (17 740 lieux publiés) ou la Jamaïque (3 199) se visitent très
+  bien de l'intérieur, tandis que Corvo ou Hœdic, à un seul lieu, ne peuvent rien rendre. Pour celles-là, le
+  message affiché conseille « réessayez, ou élargissez le rayon », ce qui est FAUX : rien ne marchera jamais.
+  **Combien sont réellement des impasses n'est pas connu.** La mesure du 23/09/2026 (184 masses, 386 lieux) a
+  été écrite sans sa méthode et n'a pas pu être rejouée ; une sonde du moteur, un tirage par masse, a été
+  tentée le même jour et faussée par la limitation de débit du serveur, qui répond 429 et fait passer pour
+  mortes des masses jamais interrogées. Ce chiffre-là reste à mesurer, avec une sonde qui respecte le quota.
 - **86 des 244 fonctions de `public/js/app.js` ne sont exercées par aucun test** (114 au matin du
   23/09/2026). Ce qui reste : le rendu du voyage à l'écran (19), l'orchestration asynchrone des photos,
   points d'intérêt et randonnées (18), les erreurs de formulaire encore non couvertes (14), la carte

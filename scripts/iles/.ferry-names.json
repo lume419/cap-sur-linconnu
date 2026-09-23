@@ -1356,6 +1356,34 @@
   "name": "Belize City ↔ San Pedro (Ambergris Caye)"
  },
  {
+  "routeKey": "pointeAPitreFortDeFrance",
+  "name": "Pointe-à-Pitre ↔ Fort-de-France"
+ },
+ {
+  "routeKey": "pointeAPitreRoseau",
+  "name": "Pointe-à-Pitre ↔ Roseau (Dominique)"
+ },
+ {
+  "routeKey": "fortDeFranceRoseau",
+  "name": "Fort-de-France ↔ Roseau (Dominique)"
+ },
+ {
+  "routeKey": "fortDeFranceCastries",
+  "name": "Fort-de-France ↔ Castries (Sainte-Lucie)"
+ },
+ {
+  "routeKey": "nassauSpanishWells",
+  "name": "Nassau ↔ Spanish Wells"
+ },
+ {
+  "routeKey": "spanishWellsHarbourIsland",
+  "name": "Spanish Wells ↔ Harbour Island"
+ },
+ {
+  "routeKey": "nassauHarbourIsland",
+  "name": "Nassau ↔ Harbour Island"
+ },
+ {
   "routeKey": "calicaCozumel",
   "name": "Calica (Punta Venado) ↔ Cozumel"
  },
