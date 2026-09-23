@@ -46,6 +46,16 @@ marqués `[à vérifier]` et listés en fin de fichier.
   et consommaient 53,4 s de processeur. Les 13 fichiers concernés sont désormais précompressés une
   fois au démarrage et soumis au même quota ; un contrôle de démarrage signale tout nouveau fichier
   oublié. Une navigation de premier niveau reste acceptée, pour ne pas refuser les liens entrants.
+  **Portée réelle en production, vérifiée après déploiement :** les 53,4 s ont été mesurées sur une
+  instance LOCALE. Chez o2switch, `leaflet.js.map` et les polices `.ttf` sont servis directement
+  depuis le disque par le frontal, sans passer par Node — ils reviennent non compressés, avec
+  `Accept-Ranges: bytes` et sans `Vary`, deux signatures que le serveur ne produit jamais, alors que
+  le même code rend bien du brotli en local. Ces deux types ne coûtaient donc aucun CPU à
+  l'application en production. Le coût réellement supprimé porte sur les fichiers que Node sert :
+  `leaflet.js` (148 ko), `leaflet.css`, `index.html` et `mentions-legales.html`, désormais
+  précompressés au lieu d'être recompressés à chaque requête. Le contrôle d'origine, lui, s'applique
+  bien à tous — un `Sec-Fetch-Site: cross-site` sur le `.map` ou sur une police rend « Cross-site
+  request », donc la réponse de l'application.
 - Écart de casse entre le quota, le calcul de taille et la voie de service : sur un système de
   fichiers insensible à la casse, `/js/I18N.js` passait le quota en réservant zéro octet et se faisait
   recompresser. Les trois emploient la même clé, et une variante de casse est redirigée.
