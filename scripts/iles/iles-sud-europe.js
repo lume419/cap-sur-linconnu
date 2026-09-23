@@ -318,6 +318,13 @@ module.exports = {
       operator: 'ACTV (groupe AVM)', durationH: 0.17, distanceKm: 2,
       priceByClass: { 1: 8.00, 2: 13.00, 5: 3.00, foot: null },
       source: 'https://actv.avmspa.it/it/content/ferry-boat-tariffe', date: D,
-      note: "Grille ACTV ligne 11 : auto ≤ 4 m 8,00 € (≤ 4,50 m 12,00), > 4,50 m 13,00 € (classe 2), moto 3,00 €. Conducteur non inclus ; passager non lu : foot null. Pellestrina ↔ Chioggia : passagers seulement. Durée : ordre de grandeur." }
+      note: "Grille ACTV ligne 11 : auto ≤ 4 m 8,00 € (≤ 4,50 m 12,00), > 4,50 m 13,00 € (classe 2), moto 3,00 €. Conducteur non inclus ; passager non lu : foot null. Pellestrina ↔ Chioggia : passagers seulement. Durée : ordre de grandeur." },
+    { a: 'lanzarote', b: 'laGraciosa', routeKey: 'orzolaCaletaDeSebo', passengerOnly: true, "priceCovers": null,
+      "coversSource": "navette de passagers : aucune grille véhicule publiée ; l'île n'a pas de route goudronnée",
+      "durationEstimated": true, name: 'Órzola ↔ Caleta de Sebo (La Graciosa)',
+      operator: 'Líneas Marítimas Romero et Biosfera Express', durationH: 0.42, distanceKm: 6,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://www.visitlagraciosa.com/en/ferry-lanzarote-la-graciosa/', date: '2026-09-23',
+      note: "Traversée de 25 min entre Órzola (Lanzarote) et Caleta de Sebo, toute l'année, jusqu'à 18 rotations par jour en haute saison, par deux compagnies. La Graciosa n'a aucune route goudronnée et les véhicules des visiteurs n'y circulent pas. Durée marquée estimée, annoncée en minutes rondes. Aucun tarif écrit. Distance mesurée entre les deux lieux publiés." }
   ]
 };

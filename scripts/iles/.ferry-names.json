@@ -1500,6 +1500,154 @@
   "name": "Korsakov ↔ Kourilsk (Itouroup)"
  },
  {
+  "routeKey": "prvicCouverture",
+  "name": "Šibenik ↔ Prvić Šepurine"
+ },
+ {
+  "routeKey": "zlarinCouverture",
+  "name": "Šibenik ↔ Zlarin"
+ },
+ {
+  "routeKey": "kaprijeCouverture",
+  "name": "Šibenik ↔ Kaprije"
+ },
+ {
+  "routeKey": "krapanjCouverture",
+  "name": "Brodarica ↔ Krapanj"
+ },
+ {
+  "routeKey": "vrgadaCouverture",
+  "name": "Pakoštane ↔ Vrgada"
+ },
+ {
+  "routeKey": "silbaCouverture",
+  "name": "Zadar ↔ Silba"
+ },
+ {
+  "routeKey": "lopudCouverture",
+  "name": "Dubrovnik ↔ Lopud"
+ },
+ {
+  "routeKey": "kolocepCouverture",
+  "name": "Dubrovnik ↔ Koločep"
+ },
+ {
+  "routeKey": "susakCouverture",
+  "name": "Mali Lošinj ↔ Susak"
+ },
+ {
+  "routeKey": "unijeCouverture",
+  "name": "Mali Lošinj ↔ Unije"
+ },
+ {
+  "routeKey": "ilovikCouverture",
+  "name": "Mali Lošinj ↔ Ilovik"
+ },
+ {
+  "routeKey": "bisevoCouverture",
+  "name": "Komiža ↔ Biševo"
+ },
+ {
+  "routeKey": "spetsesCouverture",
+  "name": "Kósta ↔ Spétses"
+ },
+ {
+  "routeKey": "hydraCouverture",
+  "name": "Ermióni ↔ Ýdra"
+ },
+ {
+  "routeKey": "kalamosCouverture",
+  "name": "Mýtikas ↔ Kálamos"
+ },
+ {
+  "routeKey": "kastosCouverture",
+  "name": "Mýtikas ↔ Kastós"
+ },
+ {
+  "routeKey": "telendosCouverture",
+  "name": "Myrtiés ↔ Télendos"
+ },
+ {
+  "routeKey": "ionaCouverture",
+  "name": "Fionnphort ↔ Iona"
+ },
+ {
+  "routeKey": "eiggCouverture",
+  "name": "Mallaig ↔ Eigg"
+ },
+ {
+  "routeKey": "rumCouverture",
+  "name": "Mallaig ↔ Rum"
+ },
+ {
+  "routeKey": "scillyTrescoCouverture",
+  "name": "Hugh Town ↔ Tresco"
+ },
+ {
+  "routeKey": "scillyStMartinsCouverture",
+  "name": "Hugh Town ↔ St Martin's"
+ },
+ {
+  "routeKey": "scillyBryherCouverture",
+  "name": "Hugh Town ↔ Bryher"
+ },
+ {
+  "routeKey": "scillyStAgnesCouverture",
+  "name": "Hugh Town ↔ St Agnes"
+ },
+ {
+  "routeKey": "langenessCouverture",
+  "name": "Schlüttsiel ↔ Langeneß"
+ },
+ {
+  "routeKey": "hoogeCouverture",
+  "name": "Schlüttsiel ↔ Hooge"
+ },
+ {
+  "routeKey": "baltrumCouverture",
+  "name": "Neßmersiel ↔ Baltrum"
+ },
+ {
+  "routeKey": "seinCouverture",
+  "name": "Audierne ↔ Île-de-Sein"
+ },
+ {
+  "routeKey": "hoedicCouverture",
+  "name": "Quiberon ↔ Hœdic"
+ },
+ {
+  "routeKey": "monteIsolaCouverture",
+  "name": "Sulzano ↔ Monte Isola"
+ },
+ {
+  "routeKey": "tremitiCouverture",
+  "name": "Termoli ↔ Isole Tremiti"
+ },
+ {
+  "routeKey": "stromboliCouverture",
+  "name": "Milazzo ↔ Stromboli"
+ },
+ {
+  "routeKey": "panareaCouverture",
+  "name": "Milazzo ↔ Panarea"
+ },
+ {
+  "routeKey": "floresAzoresCouverture",
+  "name": "Horta ↔ Lajes das Flores"
+ },
+ {
+  "routeKey": "corvoCouverture",
+  "name": "Lajes das Flores ↔ Vila do Corvo"
+ },
+ {
+  "routeKey": "venCouverture",
+  "name": "Landskrona ↔ Ven"
+ },
+ {
+  "routeKey": "prangliCouverture",
+  "name": "Leppneeme ↔ Prangli"
+ },
+ {
   "routeKey": "aomoriHakodate",
   "name": "Aomori ↔ Hakodate"
  },
@@ -1554,6 +1702,34 @@
  {
   "routeKey": "leConquetOuessant",
   "name": "Le Conquet ↔ Ouessant"
+ },
+ {
+  "routeKey": "vannesIleDArz",
+  "name": "Vannes ↔ Île-d'Arz"
+ },
+ {
+  "routeKey": "roscoffIleDeBatz",
+  "name": "Roscoff ↔ Île-de-Batz"
+ },
+ {
+  "routeKey": "arcouestBrehat",
+  "name": "Pointe de l'Arcouest ↔ Île-de-Bréhat"
+ },
+ {
+  "routeKey": "quiberonHouat",
+  "name": "Quiberon ↔ Île-d'Houat"
+ },
+ {
+  "routeKey": "leConquetMolene",
+  "name": "Le Conquet ↔ Île-Molène"
+ },
+ {
+  "routeKey": "fourasIleDAix",
+  "name": "Fouras ↔ Île-d'Aix"
+ },
+ {
+  "routeKey": "saintFrancoisLaDesirade",
+  "name": "Saint-François ↔ La Désirade"
  },
  {
   "routeKey": "merakBakauheni",
@@ -2642,6 +2818,10 @@
  {
   "routeKey": "alberoniSantaMariaDelMare",
   "name": "Alberoni ↔ Santa Maria del Mare (ferry-boat ligne 11)"
+ },
+ {
+  "routeKey": "orzolaCaletaDeSebo",
+  "name": "Órzola ↔ Caleta de Sebo (La Graciosa)"
  },
  {
   "routeKey": "donsakLipaNoi",

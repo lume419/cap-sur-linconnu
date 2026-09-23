@@ -116,6 +116,47 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Lot de COUVERTURE : 37 îles d'un coup, à barre volontairement abaissée.**
+  - Douze croates (Prvić, Zlarin, Kaprije, Krapanj, Vrgada, Silba, Lopud, Koločep, Susak, Unije, Ilovik,
+    Biševo), cinq grecques (Spétses, Hydra, Kálamos, Kastós, Télendos), trois écossaises (Iona, Eigg, Rum),
+    quatre des Scilly (Tresco, St Martin's, Bryher, St Agnes), trois allemandes (Langeneß, Hooge, Baltrum),
+    deux françaises (Sein, Hœdic), quatre italiennes (Monte Isola, Tremiti, Stromboli, Panarea), deux
+    açoriennes (Flores, Corvo), plus Ven et Prangli. Toutes `passengerOnly`.
+  - **La règle du lot, écrite dans chaque note et dans un fichier source à part** (`iles-couverture.js`) : la
+    liaison publique est attestée et ses deux rives sont des lieux publiés, mais **aucune durée ni aucun tarif
+    n'a pu être lu à la source**. La durée n'est donc pas un chiffre trouvé quelque part : elle est **déduite de
+    la distance mesurée entre les deux lieux publiés, à la vitesse médiane que le projet observe lui-même sur
+    cette classe de distance** (`ferryMedianSpeed`), et marquée estimée. Aucun prix n'est écrit.
+  - **Pourquoi ce lot existe.** Les lots précédents avançaient de deux à huit îles à la fois parce que chaque
+    liaison attendait qu'un armateur publie sa grille. La plupart des armateurs restants ne publient rien de
+    lisible. Ce lot troque la précision tarifaire contre la couverture, le dit, et se range dans son propre
+    fichier pour qu'on puisse le reprendre ou le retirer d'un bloc.
+  - **Ce que le lot ne fait PAS** : inventer une durée, inventer un prix, ou affirmer qu'un navire refuse les
+    véhicules sans raison. Chaque `coversSource` dit laquelle : île sans voitures, absence de rampe, ou navire
+    de passagers.
+  - Le contrôle des rives du générateur a encore arrêté sept entrées : six ports homonymes (Šibenik ×3,
+    Brodarica, Mýtikas ×2) et une rive attendue fausse — **Milazzo est en Sicile, pas sur le continent**.
+    Santa Maria est restée dehors, faute de pouvoir départager les trois Ponta Delgada.
+  - `compare-engine` remonte **16 tirages changés sur 380**, le plus gros écart du chantier, tous dans les
+    régions touchées : Sarajevo, Ljubljana, Vienne, Munich et Bratislava pour l'Adriatique, Brest trois fois
+    pour Sein et Molène, Rome et Cagliari pour l'Italie, Héraklion pour la Grèce. **Aucune médiane de vitesse
+    ne bouge** : les 37 durées étant estimées, elles sont exclues du calcul.
+- **Huit îles sans voitures en une passe : sept françaises et La Graciosa.**
+  - Vannes ⇔ Île-d'Arz (30 min, 9 km), Roscoff ⇔ Île-de-Batz (15 min, 4 km), l'Arcouest ⇔ Bréhat (10 min,
+    6 km), Quiberon ⇔ Houat (45 min, 15 km), Le Conquet ⇔ Molène (30 min, 7 km), Fouras ⇔ Île-d'Aix (20 min,
+    8 km), Saint-François ⇔ La Désirade (45 min, 19 km), Órzola ⇔ Caleta de Sebo (25 min, 6 km).
+    Toutes `passengerOnly`, aucune avec un tarif : les compagnies de ces navettes ne publient pas de grille
+    lisible automatiquement.
+  - **Méthode assumée pour ce lot** : la durée vient de l'armateur ou de la commune, en minutes rondes et sans
+    horaire d'arrivée, donc marquée `durationEstimated` — sauf Bréhat, dont les 10 min figurent sur la page de
+    la traversée directe chez l'armateur. C'est un lot de COUVERTURE : il rend des îles au site sans prétendre
+    à la précision tarifaire des lots précédents, et chaque note le dit.
+  - **Deux îles cherchées puis écartées, sur un chiffre.** Île-aux-Moines : le quai de Port-Blanc n'est pas
+    publié et Baden, le lieu le plus proche, est à 4,6 km — la traversée de 5 min y roulerait à **60,2 km/h**,
+    au-dessus du plafond. Stromboli : les 1 h 05 annoncées par un revendeur donnent **60,2 km/h** sur les 65 km
+    mesurés, et la durée voisine de Panarea trouvée au même endroit est incohérente avec elle. Aucune des deux
+    n'est écrite.
+  - Un contrôle du générateur a encore servi : « Vannes : 2 homonymes sur cette rive, préciser near ».
 - **Cinq îles sans voitures d'Europe du Nord, et un prix existant corrigé.**
   - **Harlingen ⇔ Vlieland** (1 h 35, 27 km, **22,14 €**), **Lauwersoog ⇔ Schiermonnikoog** (45 min, 10 km,
     **7,95 €**), **Le Conquet ⇔ Ouessant** (1 h 30, 19 km), **Harlesiel ⇔ Wangerooge** (1 h, 12 km, **39 €**)
@@ -424,7 +465,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **418 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+- **373 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
   Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.
