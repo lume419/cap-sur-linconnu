@@ -307,4 +307,10 @@ module.exports = [
     ports: { saintCroix: [{ cc: 'VI', place: 'Christiansted' }], saintThomasVI: [{ cc: 'VI', place: 'Charlotte Amalie' }] } },
   { key: 'grandBahama|northAmerica', source: 'https://www.baleariacaribbean.com/en/fort-lauderdale-grand-bahama (Port Everglades ↔ Freeport)',
     ports: { grandBahama: [{ cc: 'BS', place: 'Freeport', near: [26.5333, -78.7] }], northAmerica: [{ cc: 'US', place: 'Fort Lauderdale' }] } },
+  // Le quai de Marigot n'est pas publié : St. Peters est le lieu publié le plus proche (2,2 km).
+  { key: 'anguilla|saintMartinFR', source: 'https://www.portdemarigot.com/en/gare (Marigot ↔ Blowing Point)',
+    ports: { anguilla: [{ cc: 'AI', place: 'Blowing Point Village' }], saintMartinFR: [{ cc: 'SX', place: 'St. Peters', near: [18.0689, -63.0833] }] } },
+  // Le quai de Trần Đề n'est pas publié : Kinh Ba est le lieu publié le plus proche (0,8 km).
+  { key: 'conDao|continental', source: 'https://online.superdong.com.vn/Home/ScheduleBoat (Sóc Trăng ↔ Côn Đảo)',
+    ports: { conDao: [{ cc: 'VN', place: 'Côn Đảo' }], continental: [{ cc: 'VN', place: 'Kinh Ba', near: [9.5167, 106.2] }] } },
 ];

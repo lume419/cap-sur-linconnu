@@ -307,6 +307,14 @@ module.exports = {
       operator: 'Baleària Caribbean (Jaume II)', durationH: 3, distanceKm: 151,
       priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
       source: 'https://www.baleariacaribbean.com/en/fort-lauderdale-grand-bahama', date: '2026-09-23',
-      note: "« Sailing Time: Around 3 hours, weather permitting », de Port Everglades Terminal 21 (Fort Lauderdale) à Freeport, à bord du Jaume II. La page annonce « From 235 \$ » SANS dire si c'est un aller simple ou un aller-retour : aucun montant n'est donc écrit ici plutôt qu'un prix peut-être doublé. La rubrique « I Travel with a Car » du site est un gabarit générique, repris à l'identique pour les animaux et l'accessibilité : elle ne prouve pas que cette ligne embarque des voitures, et rien d'autre ne le dit. Distance mesurée entre les deux lieux publiés." }
+      note: "« Sailing Time: Around 3 hours, weather permitting », de Port Everglades Terminal 21 (Fort Lauderdale) à Freeport, à bord du Jaume II. La page annonce « From 235 \$ » SANS dire si c'est un aller simple ou un aller-retour : aucun montant n'est donc écrit ici plutôt qu'un prix peut-être doublé. La rubrique « I Travel with a Car » du site est un gabarit générique, repris à l'identique pour les animaux et l'accessibilité : elle ne prouve pas que cette ligne embarque des voitures, et rien d'autre ne le dit. Distance mesurée entre les deux lieux publiés." },
+    { a: 'anguilla', b: 'saintMartinFR', routeKey: 'marigotBlowingPoint', passengerOnly: true, "priceCovers": null,
+      "coversSource": "la grille du port ne comporte que des tarifs par personne, aucune ligne véhicule",
+      name: 'Marigot (Saint-Martin) ↔ Blowing Point (Anguilla)',
+      operator: 'Navettes Marigot – Blowing Point (port de Marigot)', durationH: 0.33, distanceKm: 15,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 37 },
+      currency: 'EUR', original: { foot: 37 },
+      source: 'https://www.portdemarigot.com/en/gare', date: '2026-09-23',
+      note: "Page du port de Marigot : « approximately 20 minutes », dix départs par jour depuis Marigot (8 h 30 à 18 h) et dix depuis Blowing Point (7 h 30 à 17 h 15), sept jours sur sept. Tarif adulte aller simple « \$30/30 € » payable en espèces à bord, plus « 7 € » de droit de passager à partir de 4 ans, payable seulement en euros ou par carte au guichet : 37 € en tout, le montant retenu. Enfant de 2 à 11 ans : 15 € plus le même droit. Le quai de Marigot n'est pas publié dans les données : le lieu retenu est St. Peters, à 2,2 km. Distance mesurée entre les deux lieux publiés." }
   ]
 };

@@ -1600,6 +1600,24 @@ module.exports = {
       "source": "https://vetausakylyson.com/bang-gia/ ; https://cangsaky.com.vn/",
       "date": "2026-09-23",
       "note": "Grille du Ban Quản lý cảng Sa Kỳ (mise à jour du 16/04/2026) : 180 000 VND pour la quasi-totalité des navires — « thuế VAT, bảo hiểm hành khách và 18.000 đồng giá hành khách qua cầu bến » compris — et 35 minutes annoncées. Deux services Phú Quốc Express sont à 182 000 VND : le montant retenu est le plus courant et le moins cher. Le terminal de Sa Kỳ n'est pas publié sous ce nom : le lieu retenu est Châu Bình, à 1,9 km du quai. Distance mesurée entre les deux lieux publiés."
+    },
+    {
+      "a": "conDao",
+      "b": "continental",
+      "routeKey": "socTrangConDao",
+      "name": "Sóc Trăng (Trần Đề) ↔ Bến Đầm (Côn Đảo)",
+      "operator": "Superdong (Superdong Con Dao I et II)",
+      "durationH": 2.5,
+      "distanceKm": 104,
+      "durationEstimated": true,
+      "passengerOnly": true,
+      "priceCovers": null,
+      "coversSource": "navires à grande vitesse : l'horaire officiel ne donne qu'une vitesse et des navires de PASSAGERS, aucun pont véhicules",
+      "priceStatus": "unknown",
+      "priceByClass": { "1": null, "2": null, "5": null, "foot": null },
+      "source": "https://online.superdong.com.vn/Home/ScheduleBoat",
+      "date": "2026-09-23",
+      "note": "Horaire officiel Superdong : ligne « Sóc Trăng – Côn Đảo », navires Superdong Con Dao I et II, départs 8 h 00 et 13 h 15, 26 à 28 nœuds. Ni durée ni tarif sur la page : la durée retenue est 2 h 30, la PLUS LENTE des deux annoncées par les revendeurs sur cette traversée (2 h 15 pour Superdong, 2 h 30 pour Phú Quốc Express) et marquée estimée : à 2 h 15, les 104 km mesurés donneraient 46 km/h, au-dessus du plafond de 45 km/h que tests/data.test.js impose aux durées estimées et aucun prix n'est écrit — comme pour Phan Thiết ⇔ Phú Quý, du même armateur, la billetterie ne les affiche que dans le tunnel de réservation, les revendeurs annonçant de leur côté 350 000 à 390 000 VND. Le quai de Trần Đề n'est pas publié : le lieu retenu est Kinh Ba, à 0,8 km. Distance mesurée entre les deux lieux publiés."
     }
   ]
 };

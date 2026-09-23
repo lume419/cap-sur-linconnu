@@ -116,6 +116,24 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Suite du lot 1 : deux liaisons de plus sur les huit repérées.**
+  - **Marigot ⇔ Blowing Point**, navettes du port de Marigot, 20 min, 15 km, **37 €** : « \$30/30 € » l'aller
+    simple adulte payable en espèces à bord, plus « 7 € » de droit de passager à partir de 4 ans, payable
+    seulement en euros ou par carte. Dix départs par jour dans chaque sens, sept jours sur sept.
+    `passengerOnly` : la grille du port ne comporte que des tarifs par personne. Saint-Martin (65 328 habitants
+    publiés) et Anguilla entrent ensemble dans la couverture.
+  - **Sóc Trăng (Trần Đề) ⇔ Bến Đầm (Côn Đảo)**, Superdong, 2 h 30 (estimée), 104 km, sans prix — même armateur
+    et même situation que Phan Thiết ⇔ Phú Quý : l'horaire officiel donne les navires, les départs et la vitesse
+    (26 à 28 nœuds), jamais les tarifs.
+  - **Un test a corrigé une estimation.** La durée d'abord écrite, 2 h 15, donnait 46 km/h sur les 104 km
+    mesurés, au-dessus du plafond de 45 km/h que `data.test.js` impose aux durées ESTIMÉES : `data.test.js` a
+    refusé la ligne. La durée retenue est 2 h 30, la plus lente des deux annoncées sur cette traversée.
+  - **Six des huit restent à faire, avec leur obstacle nommé.** Saint-Martin ⇔ Saint-Barthélemy : la page
+    d'horaires de Great Bay Express rend 404 et l'accueil ne chiffre rien. Flores ⇔ Faial : Atlânticoline
+    confirme la ligne mais ses tarifs et durées sont derrière un moteur de recherche. Kinmen ⇔ Xiamen : les deux
+    « Xiamen » publiés dans les données sont au Shanxi et au Zhejiang, à des centaines de kilomètres du vrai port
+    du Fujian — la rive continentale serait fausse. Restent Port-Vila ⇔ Luganville, Providenciales ⇔ North
+    Caicos et Tortola ⇔ Saint-Thomas, non encore cherchées.
 - **Tri des 111 masses les plus peuplées sans liaison (lot 1 sur 4), et deux liaisons de plus.**
   - **Gallows Bay ⇔ Charlotte-Amalie**, QE IV Ferry, 2 h 10, 71 km, **60,12 €** (« One-way: \$70 »,
     « Round trip: \$60 » : l'aller simple est retenu, une traversée valant un trajet). `passengerOnly` :
@@ -299,7 +317,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **442 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+- **439 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
   Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.

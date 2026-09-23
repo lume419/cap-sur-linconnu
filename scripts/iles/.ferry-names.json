@@ -372,6 +372,10 @@
   "name": "Sa Kỳ ↔ Bến Đình (Lý Sơn)"
  },
  {
+  "routeKey": "socTrangConDao",
+  "name": "Sóc Trăng (Trần Đề) ↔ Bến Đầm (Côn Đảo)"
+ },
+ {
   "routeKey": "rosslareCherbourg",
   "name": "Rosslare ↔ Cherbourg"
  },
@@ -1394,6 +1398,10 @@
  {
   "routeKey": "fortLauderdaleFreeport",
   "name": "Fort Lauderdale ↔ Freeport (Grand Bahama)"
+ },
+ {
+  "routeKey": "marigotBlowingPoint",
+  "name": "Marigot (Saint-Martin) ↔ Blowing Point (Anguilla)"
  },
  {
   "routeKey": "calicaCozumel",
