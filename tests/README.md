@@ -6,7 +6,7 @@ Aucun service externe n'est sollicité, et jamais la production : le serveur de 
 | Commande | Contenu | Durée indicative |
 |---|---|---|
 | `npm run test:quick` | i18n, péages, invariants du moteur (100 tirages) | ~1 min (56 s mesurées le 20/09/2026 ; la ligne annonçait ~2 min, `tests/run.js` ~3 min) |
-| `npm test` | tout sauf les générateurs, tailles par défaut | ~7 à 9 min (**283 tests en 439 à 668 s** — 283 depuis le 23/09/2026, mesurés sur plusieurs passages de la même machine (l'écart d'un passage à l'autre atteint 6 %, selon la charge) ; 448 s au 19e ; le chiffre de 314 s qui figurait ici datait d'avant `search.test.js`, les bornes de données et les exports PDF ; + 2 à 5 min si le serveur doit reconstruire son index de recherche) |
+| `npm test` | tout sauf les générateurs, tailles par défaut | ~7 à 9 min (**289 tests en 439 à 668 s** — 289 depuis le 23/09/2026, mesurés sur plusieurs passages de la même machine (l'écart d'un passage à l'autre atteint 6 %, selon la charge) ; 448 s au 19e ; le chiffre de 314 s qui figurait ici datait d'avant `search.test.js`, les bornes de données et les exports PDF ; + 2 à 5 min si le serveur doit reconstruire son index de recherche) |
 | `npm run test:full` | tout, tailles complètes, générateurs compris | 30 à 60 min |
 | `node tests/run.js toll server` | seulement les fichiers dont le nom contient `toll` ou `server` | — |
 

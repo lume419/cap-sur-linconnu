@@ -127,6 +127,15 @@ marqués `[à vérifier]` et listés en fin de fichier.
 
 ### Tests
 
+- **Couverture de `public/js/app.js` : 114 fonctions non testées ramenées à 86.** Six tests neufs,
+  choisis par le risque et non pour atteindre un chiffre — construction d'URL et d'HTML à partir de
+  données distantes, accessibilité du formulaire et de la liste de suggestions, argent des liens
+  d'hébergement, dates et tirage au sort. **Seize mutations éprouvées, seize détectées** : `safeHref`
+  qui n'écarte plus `javascript:`, `photoFilePage` qui accepte n'importe quel hôte, `removeDescribedBy`
+  qui ne retire rien, `showFieldError` qui marque tous les champs, `linkLodgingCap` qui laisse une
+  devise refusée par les plateformes, `lodgingUrlWithCurrency` qui réécrit un hôte inconnu, `shuffle`
+  qui perd un élément ou modifie son entrée, `addDays` qui décale du mauvais côté, `hikeCardHtml` qui
+  n'échappe plus le nom, `updateActiveSuggest` qui laisse `aria-activedescendant` derrière lui.
 - Tautologie fermée : le vérificateur d'invariants demandait au moteur si la moto est interdite sur
   autoroute, c'est-à-dire à la fonction même qu'il contrôle. Supprimer l'interdiction laissait les
   42 tests verts ; l'attente est maintenant recalculée depuis `MOTO_RULES`, comme pour le van.
@@ -173,8 +182,11 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **115 des 239 fonctions de `public/js/app.js` ne sont exercées par aucun test** — tout le rendu du
-  voyage à l'écran, les photos, les messages d'erreur du formulaire, la visionneuse.
+- **86 des 244 fonctions de `public/js/app.js` ne sont exercées par aucun test** (114 au matin du
+  23/09/2026). Ce qui reste : le rendu du voyage à l'écran (19), l'orchestration asynchrone des photos,
+  points d'intérêt et randonnées (18), les erreurs de formulaire encore non couvertes (14), la carte
+  Leaflet (5). La visionneuse d'images, en particulier, demande un DOM qui analyse `innerHTML` : le
+  projet s'interdit une dépendance de test, et le DOM factice ne le fait pas.
 - **Le taux d'échec toléré du balayage d'alias est de 8 % pour un taux réel de 2,2 %** : une régression
   perdant jusqu'à 100 000 alias passerait au vert.
 

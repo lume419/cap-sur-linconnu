@@ -1776,3 +1776,278 @@ test('23/09/2026 : deux suggestions au rendu identique reçoivent ce qui les dis
   assert.equal(seule[0].distinct, null);
   assert.equal(seule[1].distinct, null);
 });
+
+// =========================================================================================================
+// 23/09/2026 — COUVERTURE DE public/js/app.js. L'audit du jour a mesuré que 114 des 244 fonctions du fichier
+// n'étaient chargées par AUCUN test : tout le rendu du voyage à l'écran, les photos, les messages d'erreur du
+// formulaire, la visionneuse. Les lots ci-dessous couvrent d'abord ce dont un défaut ferait le plus de dégâts —
+// construction d'URL et d'HTML à partir de données distantes, accessibilité du formulaire, piège à focus — plutôt
+// que d'atteindre un chiffre en testant 114 fonctions à la même profondeur.
+// =========================================================================================================
+
+test('23/09/2026 : crédits photo — une URL distante ne devient jamais un lien arbitraire', () => {
+  const ctx = {
+    URL: URL,
+    t: (key, vars) => (key === 'photo.credit' ? (vars.author + ' — ' + vars.license) : 'Voir la page du fichier'),
+    escHtml: null, safeUrl: null
+  };
+  const src = ['escHtml', 'safeUrl', 'safeHref', 'plainText', 'photoFilePage', 'photoCreditInfo', 'photoCreditHtml']
+    .map(extract).join('\n');
+  vm.createContext(ctx);
+  vm.runInContext(src + '\nthis.F = { safeHref, plainText, photoFilePage, photoCreditInfo, photoCreditHtml };', ctx);
+  const F = ctx.F;
+
+  // safeHref : tout ce qui n'est pas http(s) est neutralisé.
+  assert.equal(F.safeHref('https://commons.wikimedia.org/wiki/File:X.jpg'), 'https://commons.wikimedia.org/wiki/File:X.jpg');
+  for(const mauvais of ['javascript:alert(1)', 'data:text/html,<script>', 'file:///etc/passwd', '//evil.test/x', '', null, 'JAVASCRIPT:alert(1)']){
+    assert.equal(F.safeHref(mauvais), '#', 'URL acceptée à tort : ' + JSON.stringify(mauvais));
+  }
+
+  // photoFilePage : déduit la page de description depuis l'adresse de l'image. Un hôte inattendu ne doit rien rendre.
+  assert.equal(F.photoFilePage('https://upload.wikimedia.org/wikipedia/commons/a/ab/Lyon.jpg'),
+    'https://commons.wikimedia.org/wiki/File:Lyon.jpg');
+  assert.equal(F.photoFilePage('https://upload.wikimedia.org/wikipedia/fr/thumb/1/23/Vieux.jpg'),
+    'https://fr.wikipedia.org/wiki/File:Vieux.jpg');
+  for(const mauvais of ['https://evil.test/wikipedia/commons/a/ab/X.jpg', 'http://upload.wikimedia.org/wikipedia/commons/a/ab/X.jpg',
+                        'https://upload.wikimedia.org/autre/chose.jpg', 'pas une url', '']){
+    assert.equal(F.photoFilePage(mauvais), null, 'page de fichier déduite à tort de ' + JSON.stringify(mauvais));
+  }
+
+  // plainText : sans DOMParser dans ce bac à sable, le repli par expression régulière doit quand même retirer le balisage.
+  assert.equal(F.plainText('<b>Jean</b> Dupont'), 'Jean Dupont');
+  assert.equal(F.plainText('  Marie  '), 'Marie');
+
+  // photoCreditInfo : un filePage non http(s) fourni par le serveur est ignoré au profit de la déduction.
+  const info = F.photoCreditInfo({ artist: '<i>Jean</i>', license: 'CC BY-SA 4.0', licenseUrl: 'javascript:alert(1)',
+    filePage: 'javascript:alert(2)' }, 'https://upload.wikimedia.org/wikipedia/commons/a/ab/Lyon.jpg');
+  assert.equal(info.author, 'Jean');
+  assert.equal(info.licenseUrl, null, 'licenseUrl non http(s) doit être rejetée');
+  assert.equal(info.filePage, 'https://commons.wikimedia.org/wiki/File:Lyon.jpg', 'filePage non http(s) doit être rejetée puis déduite');
+
+  // photoCreditHtml : le nom d'auteur venant de Wikimedia est échappé, jamais interprété.
+  const html = F.photoCreditHtml(F.photoCreditInfo({ artist: 'a"><img src=x onerror=alert(1)>', license: 'CC0' },
+    'https://upload.wikimedia.org/wikipedia/commons/a/ab/Lyon.jpg'));
+  assert.ok(!/<img/i.test(html), 'balise injectée depuis le nom d\'auteur : ' + html);
+  assert.ok(html.includes('&lt;img') || html.includes('&gt;'), 'le nom d\'auteur doit apparaître échappé : ' + html);
+  assert.equal(F.photoCreditHtml(null), '');
+});
+
+test('23/09/2026 : erreurs de formulaire — aria-invalid et aria-describedby posés puis RETIRÉS', () => {
+  // i18n.test.js vérifie que les clés d'erreur existent dans les 161 langues ; rien ne vérifiait qu'elles sont
+  // AFFICHÉES ni que le lien accessible entre le champ et son message est posé puis défait. Un aria-describedby
+  // oublié laisse un lecteur d'écran annoncer une erreur corrigée depuis longtemps.
+  const dom = fakeDom();
+  const champA = dom.el('input'), champB = dom.el('select');
+  const bloc = dom.el('div'), err = dom.el('span');
+  err.id = 'dates-error';
+  bloc.querySelectorAll = () => [champA, champB];   // fakeDom ne gère que les sélecteurs de classe
+  bloc.offsetWidth = 0;
+  const ctx = { Array: Array };
+  const src = ['addDescribedBy', 'removeDescribedBy', 'fieldInputs', 'clearFieldError', 'setErrorText', 'showFieldError']
+    .map(extract).join('\n');
+  vm.createContext(ctx);
+  vm.runInContext(src + '\nthis.F = { addDescribedBy, removeDescribedBy, clearFieldError, showFieldError };', ctx);
+  const F = ctx.F;
+
+  // Un identifiant déjà présent n'est pas dupliqué, et le retrait n'efface que le sien.
+  champA.setAttribute('aria-describedby', 'aide-1');
+  F.addDescribedBy(champA, 'dates-error');
+  F.addDescribedBy(champA, 'dates-error');
+  assert.equal(champA.getAttribute('aria-describedby'), 'aide-1 dates-error');
+  F.removeDescribedBy(champA, 'dates-error');
+  assert.equal(champA.getAttribute('aria-describedby'), 'aide-1', 'le retrait a emporté un identifiant qui n\'était pas le sien');
+  F.removeDescribedBy(champA, 'aide-1');
+  assert.equal(champA.getAttribute('aria-describedby'), null, 'l\'attribut doit disparaître quand il ne reste rien');
+
+  // Erreur affichée sur UN seul champ du bloc : l'autre ne doit rien porter.
+  F.showFieldError(bloc, err, 'Date de départ manquante.', [champA]);
+  assert.equal(err.textContent, 'Date de départ manquante.');
+  assert.ok(err.classList.contains('show'), 'le message doit être montré');
+  assert.ok(bloc.classList.contains('invalid'), 'le bloc doit être marqué invalide');
+  assert.equal(champA.getAttribute('aria-invalid'), 'true');
+  assert.equal(champA.getAttribute('aria-describedby'), 'dates-error');
+  assert.equal(champB.getAttribute('aria-invalid'), null, 'le champ non fautif ne doit pas être marqué invalide');
+  assert.equal(champB.getAttribute('aria-describedby'), null);
+  assert.equal(dom.activeElement, champA, 'le premier champ fautif doit recevoir le focus');
+
+  // Correction : tout est défait sur les DEUX champs.
+  F.clearFieldError(bloc, err);
+  assert.ok(!bloc.classList.contains('invalid'));
+  assert.ok(!err.classList.contains('show'));
+  for(const c of [champA, champB]){
+    assert.equal(c.getAttribute('aria-invalid'), null, 'aria-invalid laissé après correction');
+    assert.equal(c.getAttribute('aria-describedby'), null, 'aria-describedby laissé après correction');
+  }
+  // Appel défensif : ni bloc ni message, rien ne doit lever.
+  F.clearFieldError(null, null);
+});
+
+test('23/09/2026 : liens d\'hébergement — devise, plafond et langue réécrits, hôte inconnu laissé intact', () => {
+  // Ces liens portent de l'ARGENT : un plafond ou une devise mal réécrits envoient le visiteur sur une recherche
+  // fausse. lodgingUrlWithCurrency n'était exercée par aucun test, alors qu'elle manipule des URL tierces.
+  const TripData = require(path.join(PUB, 'trip-data.js'));
+  const ctx = {
+    URL: URL, TripData: TripData,
+    COUNTRIES: TripData.COUNTRIES,
+    getPreferredCurrency: () => null,               // mode automatique : devise du pays
+    localeTag: () => 'fr-FR',
+    AIRBNB_LOCALES: ['fr', 'en', 'de', 'es', 'it', 'pt', 'zh'],
+    BOOKING_LOCALES: { fr: 'fr', en: 'en-gb', de: 'de', pt: 'pt-pt' }
+  };
+  const src = ['countryCurrency', 'lodgingCap', 'linkLodgingCap', 'platformLang', 'lodgingUrlWithCurrency'].map(extract).join('\n');
+  vm.createContext(ctx);
+  vm.runInContext(src + '\nthis.F = { countryCurrency, linkLodgingCap, platformLang, lodgingUrlWithCurrency };', ctx);
+  const F = ctx.F;
+
+  assert.equal(F.countryCurrency('CH'), 'CHF');
+  assert.equal(F.countryCurrency('FR'), 'EUR');
+  assert.equal(F.countryCurrency('XX'), 'EUR', 'pays inconnu : euro par défaut');
+  assert.equal(F.platformLang().airbnb, 'fr');
+  assert.equal(F.platformLang().booking, 'fr');
+
+  // Le plafond des LIENS doit toujours être dans une devise que les plateformes acceptent.
+  const ok = TripData.LODGING_LINK_CURRENCIES || ['EUR'];
+  for(const cc of ['FR', 'CH', 'JP', 'MG', 'IS']){
+    const cap = F.linkLodgingCap(cc, 'moyen');
+    assert.ok(ok.indexOf(cap.currency) >= 0, cc + ' : devise « ' + cap.currency + ' » refusée par les plateformes');
+    assert.ok(cap.max > 0, cc + ' : plafond nul ou absent');
+  }
+
+  // Airbnb : devise, plafond et langue réécrits ; les paramètres absents ne sont PAS inventés.
+  const air = F.lodgingUrlWithCurrency('https://www.airbnb.fr/s/Zurich/homes?currency=USD&price_max=999', 'CH', 'moyen');
+  const au = new URL(air);
+  assert.equal(au.searchParams.get('currency'), F.linkLodgingCap('CH', 'moyen').currency);
+  assert.equal(au.searchParams.get('price_max'), String(Math.round(F.linkLodgingCap('CH', 'moyen').max)));
+  assert.equal(au.searchParams.get('locale'), 'fr');
+  const sansPrix = new URL(F.lodgingUrlWithCurrency('https://www.airbnb.fr/s/Zurich/homes', 'CH', 'moyen'));
+  assert.equal(sansPrix.searchParams.get('price_max'), null, 'un plafond absent ne doit pas être ajouté');
+
+  // Booking : chemin localisé, devise d'affichage et filtre de prix cohérents.
+  const bk = new URL(F.lodgingUrlWithCurrency(
+    'https://www.booking.com/searchresults.en-gb.html?ss=Zurich&nflt=price%3DEUR-50-200-1', 'CH', 'moyen'));
+  const dev = F.linkLodgingCap('CH', 'moyen').currency;
+  assert.equal(bk.pathname, '/searchresults.fr.html');
+  assert.equal(bk.searchParams.get('selected_currency'), dev);
+  assert.match(bk.searchParams.get('nflt'), new RegExp('^price=' + dev + '-50-[0-9]+-1$'),
+    'le filtre de prix doit garder sa borne basse et prendre la devise et le plafond : ' + bk.searchParams.get('nflt'));
+
+  // Hôte inconnu ou URL non http(s) : rendus tels quels, jamais réécrits.
+  for(const u of ['https://evil.test/s/Zurich?currency=USD', 'pas une url', 'javascript:alert(1)']){
+    assert.equal(F.lodgingUrlWithCurrency(u, 'CH', 'moyen'), u, 'URL réécrite à tort : ' + u);
+  }
+});
+
+test('23/09/2026 : dates, tirage au sort et cartes HTML — bornes et échappement', () => {
+  const TripData = require(path.join(PUB, 'trip-data.js'));
+  const ctx = {
+    Date: Date, Math: Math, Array: Array, String: String,
+    MAX_TRIP_DAYS: TripData.MAX_TRIP_DAYS || 21,
+    t: (k) => '[' + k + ']',
+    icon: () => '<svg></svg>',
+    safeUrl: null, escHtml: null,
+    hikeDistanceText: () => '<b>8</b> km', hikeDurationText: () => '2 h', hikeDifficultyText: () => 'facile'
+  };
+  const src = ['escHtml', 'safeUrl', 'addDays', 'tripNightsAndDays', 'rand', 'randInt', 'pick', 'shuffle',
+    'tensionRowHtml', 'hikeCardHtml'].map(extract).join('\n');
+  vm.createContext(ctx);
+  vm.runInContext(src + '\nthis.F = { addDays, tripNightsAndDays, randInt, pick, shuffle, tensionRowHtml, hikeCardHtml };', ctx);
+  const F = ctx.F;
+
+  // addDays traverse un changement de mois, une année bissextile et un passage à l'heure d'été sans dériver.
+  assert.equal(F.addDays(new Date(2026, 0, 31), 1).getDate(), 1);
+  assert.equal(F.addDays(new Date(2024, 1, 28), 1).getDate(), 29, '2024 est bissextile');
+  assert.equal(F.addDays(new Date(2026, 2, 28), 1).getDate(), 29, 'passage à l\'heure d\'été');
+
+  // tripNightsAndDays : jamais de nuitée négative, et le plafond de durée est signalé.
+  // JSON plutôt que deepEqual : ces objets viennent du bac à sable VM, donc d'un autre realm, et la comparaison
+  // stricte de node:assert compare aussi le prototype.
+  const nd = (a, b) => JSON.stringify(F.tripNightsAndDays(a, b));
+  assert.equal(nd(new Date(2026, 0, 1), new Date(2026, 0, 3)), JSON.stringify({ nights: 2, days: 3, capped: false }));
+  assert.equal(nd(new Date(2026, 0, 1), new Date(2026, 0, 1)), JSON.stringify({ nights: 0, days: 1, capped: false }));
+  const inverse = F.tripNightsAndDays(new Date(2026, 0, 5), new Date(2026, 0, 1));
+  assert.equal(inverse.nights, 0, 'dates inversées : jamais de nuitée négative');
+  const trop = F.tripNightsAndDays(new Date(2026, 0, 1), new Date(2027, 0, 1));
+  assert.equal(trop.days, ctx.MAX_TRIP_DAYS, 'la durée doit être ramenée au plafond');
+  assert.equal(trop.capped, true, 'le plafond doit être signalé');
+
+  // shuffle : ne perd, ne duplique et ne modifie rien — les trois façons de casser un mélange.
+  const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  for(let i = 0; i < 200; i++){
+    const m = F.shuffle(source);
+    assert.equal(m.length, source.length, 'le mélange a changé de taille');
+    assert.equal(JSON.stringify(Array.from(m).sort((a, b) => a - b)), JSON.stringify(source), 'le mélange a perdu ou dupliqué un élément');
+  }
+  assert.equal(JSON.stringify(source), JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]), 'shuffle doit laisser son entrée intacte');
+  for(let i = 0; i < 500; i++){ const n = F.randInt(3, 5); assert.ok(n >= 3 && n <= 5, 'randInt hors bornes : ' + n); }
+
+  // Les cartes HTML échappent ce qui vient des données ; la source d'une zone à tension est filtrée comme une URL.
+  const carte = F.hikeCardHtml({ name: '<img src=x onerror=alert(1)>', distance: 8 });
+  assert.ok(!/<img/i.test(carte), 'nom de randonnée injecté : ' + carte);
+  assert.ok(carte.includes('&lt;img'), 'le nom doit apparaître échappé');
+  assert.ok(!/<b>8<\/b>/.test(carte), 'les métadonnées doivent aussi être échappées');
+  assert.ok(F.tensionRowHtml({ source: 'javascript:alert(1)' }, 'tension.red').indexOf('javascript:') === -1,
+    'une source non http(s) ne doit pas devenir un lien');
+  assert.ok(F.tensionRowHtml({ source: 'https://www.diplomatie.gouv.fr/x' }, 'tension.red').includes('https://www.diplomatie.gouv.fr/x'));
+});
+
+test('23/09/2026 : navigation au clavier dans les suggestions — aria-activedescendant suivi et RETIRÉ', () => {
+  // La liste de suggestions est une listbox : le focus reste dans le champ, et c'est aria-activedescendant qui dit
+  // au lecteur d'écran quelle option est active. Un attribut laissé après fermeture fait annoncer une option qui
+  // n'existe plus. Ni updateActiveSuggest ni hideSuggestions n'étaient exercées.
+  const dom = fakeDom();
+  const suggest = dom.el('ul'), city = dom.el('input');
+  const opts = ['a', 'b', 'c'].map((x, i) => { const li = dom.el('li'); li.className = 'suggest-item'; li.id = 'city-opt-' + i; return li; });
+  opts.forEach(o => suggest.appendChild(o));
+  opts.forEach(o => { o.scrollIntoView = () => {}; o.classList.toggle = (c, on) => { if(on) o.classList.add(c); else o.classList.remove(c); }; });
+
+  const ctx = {
+    els: { citySuggest: suggest, city: city },
+    activeSuggestIndex: 1, currentSuggestions: [1, 2, 3],
+    searchRequestSeq: 0, searchDebounceTimer: null, clearTimeout(){}
+  };
+  const src = ['updateActiveSuggest', 'hideSuggestions'].map(extract).join('\n');
+  vm.createContext(ctx);
+  vm.runInContext(src + '\nthis.F = { updateActiveSuggest, hideSuggestions };\nthis.setIndex = function(i){ activeSuggestIndex = i; };', ctx);
+
+  ctx.F.updateActiveSuggest();
+  assert.equal(city.getAttribute('aria-activedescendant'), 'city-opt-1', 'l\'option active doit être désignée');
+  assert.equal(opts[1].getAttribute('aria-selected'), 'true');
+  assert.equal(opts[0].getAttribute('aria-selected'), 'false');
+  assert.ok(opts[1].classList.contains('active'));
+  assert.ok(!opts[0].classList.contains('active'), 'une seule option active à la fois');
+
+  ctx.setIndex(-1);
+  ctx.F.updateActiveSuggest();
+  assert.equal(city.getAttribute('aria-activedescendant'), null, 'aucune option active : l\'attribut doit disparaître');
+
+  // Fermeture : plus rien ne doit désigner une option, et la liste est vidée.
+  ctx.setIndex(2);
+  ctx.F.updateActiveSuggest();
+  ctx.F.hideSuggestions();
+  assert.equal(city.getAttribute('aria-expanded'), 'false');
+  assert.equal(city.getAttribute('aria-activedescendant'), null, 'attribut laissé après fermeture de la liste');
+  assert.ok(!suggest.classList.contains('show'));
+  assert.equal(suggest.children.length, 0, 'la liste doit être vidée');
+});
+
+test('23/09/2026 : drapeau d\'un pays et regroupement des centres d\'intérêt', () => {
+  const TripData = require(path.join(PUB, 'trip-data.js'));
+  const ctx = { String: String, POI_DIVERSITY_GROUP: { monument: 'memorial', memorial: 'memorial' } };
+  vm.createContext(ctx);
+  vm.runInContext(['countryFlagEmoji', 'diversityGroup'].map(extract).join('\n') +
+    '\nthis.F = { countryFlagEmoji, diversityGroup };', ctx);
+  const F = ctx.F;
+
+  // Deux indicateurs régionaux, un par lettre : c'est ce qui fait un drapeau. Repli seulement quand l'image manque.
+  assert.equal(F.countryFlagEmoji('FR'), '\u{1F1EB}\u{1F1F7}');
+  assert.equal(F.countryFlagEmoji('JE'), '\u{1F1EF}\u{1F1EA}', 'les dépendances de la Couronne ont un code ISO à part entière');
+  for(const mauvais of ['', 'F', 'FRA', null, undefined]) assert.equal(F.countryFlagEmoji(mauvais), '', 'code invalide accepté : ' + mauvais);
+  // Tous les pays du projet doivent produire deux indicateurs régionaux, sans exception.
+  for(const cc of Object.keys(TripData.COUNTRIES)){
+    assert.equal([...F.countryFlagEmoji(cc)].length, 2, cc + ' : drapeau mal formé');
+  }
+  // Monument et mémorial comptent pour un seul genre dans la diversité des suggestions.
+  assert.equal(F.diversityGroup('monument'), 'memorial');
+  assert.equal(F.diversityGroup('memorial'), 'memorial');
+  assert.equal(F.diversityGroup('museum'), 'museum', 'un type sans regroupement reste lui-même');
+});
