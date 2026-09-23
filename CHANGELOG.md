@@ -116,6 +116,28 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Cinq îles sans voitures d'Europe du Nord, et un prix existant corrigé.**
+  - **Harlingen ⇔ Vlieland** (1 h 35, 27 km, **22,14 €**), **Lauwersoog ⇔ Schiermonnikoog** (45 min, 10 km,
+    **7,95 €**), **Le Conquet ⇔ Ouessant** (1 h 30, 19 km), **Harlesiel ⇔ Wangerooge** (1 h, 12 km, **39 €**)
+    et **Schaprode ⇔ Hiddensee** (45 min, 8 km). Toutes `passengerOnly`, toutes dites telles par leur source :
+    « Vlieland is autovrij, het is dan ook niet toegestaan uw auto mee te nemen naar het eiland » ;
+    « Da Wangerooge für Privatfahrzeuge gesperrt ist, müssen Autos am Festland bleiben » ; Ouessant où
+    « la voiture reste sur le continent » ; Hiddensee « eine der wenigen autofreien Inseln Deutschlands » ;
+    Schiermonnikoog fermée aux véhicules des non-résidents depuis 1968.
+  - **Le projet avait déjà écrit pourquoi il les excluait.** Le commentaire des traversées Wadden disait :
+    « Vlieland et Schiermonnikoog : AUCUNE liaison […] Sans entrée FERRY_ROUTES, leurs masses restent isolées :
+    leurs lieux ne sont plus proposés en road trip. » C'était la description exacte du trou que `passengerOnly`
+    a été fait pour combler ; il ne restait qu'à l'appliquer.
+  - **Un prix déjà publié était faux, et la même page le prouve.** Le tarif piéton de Terschelling avait été
+    obtenu en divisant le retour par deux (36,90 → 18,45 €). Or Rederij Doeksen écrit sur cette même page
+    « Het tarief voor een enkele reis is 60% van de retourprijs » : l'aller simple vaut **22,14 €**, pas 18,45 €
+    — une sous-estimation de 17 %, corrigée. Wagenborg, lui, vend l'aller simple à 44 % du retour (7,95 € pour
+    18,24 € à Schiermonnikoog) : le tarif piéton d'**Ameland**, obtenu de la même façon en divisant par deux,
+    reste **à vérifier** — c'est écrit dans le commentaire du bloc.
+  - Schiermonnikoog ne se vend en aller simple que **depuis l'île** (7,95 €) ; depuis le continent, seul le
+    retour existe (18,24 €). C'est l'aller simple publié qui est retenu.
+  - Ouessant et Hiddensee restent sans prix : Penn Ar Bed **répond 403 à toute lecture automatique**, page des
+    tarifs comme PDF, et les montants d'Hiddensee ne viennent que de comparateurs.
 - **Les Saintes rendues au site, sur la troisième page d'armateur à dire non aux véhicules.**
   - **Trois-Rivières ⇔ Terre-de-Haut** (25 min, 17 km) et **⇔ Terre-de-Bas** (35 min, 16 km), FRS Express des
     Îles, sans prix. « VEHICLE TRANSPORT: Not available » : après Marie-Galante (« NOT AVAILABLE ») et la
@@ -402,7 +424,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **423 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+- **418 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
   Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.

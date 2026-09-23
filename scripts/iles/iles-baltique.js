@@ -7502,6 +7502,42 @@ module.exports = {
    "source": "https://www.inselfaehre.de/juist",
    "date": "2026-09-23",
    "note": "« Die Fahrtdauer beträgt in der Regel etwa 90 Minuten » depuis Norddeich-Mole ; les express font la traversée en 45 min. Île SANS VOITURES, dit par l'armateur : « Juist ist eine autofreie Insel. Daher werden keine PKW transportiert und dein Auto bleibt sicher auf einem der Langzeitparkplätze des INSELPARKERS zurück » — exactement le cas que passengerOnly décrit. Grille publiée : adulte à partir de 14 ans 24,30 € au guichet et 22,80 € en ligne, enfant de 6 à 13 ans 12,15 € et 11,40 €, moins de 6 ans gratuit, chien 10,20 €. AUCUN prix n'est écrit ici : la page ne dit nulle part si ces montants valent l'aller simple ou l'aller-retour, et les mots « einfache Fahrt » comme « Hin- und Rückfahrt » en sont absents. Distance mesurée entre les deux lieux publiés."
+  },
+  {
+   "a": "continental",
+   "b": "wangerooge",
+   "routeKey": "harlesielWangerooge",
+   "name": "Harlesiel ↔ Wangerooge",
+   "operator": "Schifffahrt und Inselbahn Wangerooge (Deutsche Bahn)",
+   "durationH": 1,
+   "distanceKm": 12,
+   "passengerOnly": true,
+   "priceCovers": null,
+   "coversSource": "« Da Wangerooge für Privatfahrzeuge gesperrt ist, müssen Autos am Festland bleiben »",
+   "priceByClass": { "1": null, "2": null, "5": null, "foot": 39 },
+   "currency": "EUR",
+   "original": { "foot": 39 },
+   "source": "https://www.wangerooge.de/reisen-buchen/preise-gebuehren/ ; https://www.siw-wangerooge.de/siw-de",
+   "date": "2026-09-23",
+   "note": "Île fermée aux véhicules privés : « Da Wangerooge für Privatfahrzeuge gesperrt ist, müssen Autos am Festland bleiben ». Traversée d'environ 60 min depuis Harlesiel ; avec le train de l'île jusqu'au village, l'ensemble prend environ 90 min. Tarif publié comme ALLER SIMPLE : « Der Fahrpreise für die Einfache Fahrt ist für Erwachsene 39,00 Euro », enfant de 2 à 14 ans 23,00 €, chien 17,00 €. Le quai de Harlesiel est publié ; Carolinensiel, à 1,8 km, est la commune. Distance mesurée entre les deux lieux publiés."
+  },
+  {
+   "a": "continental",
+   "b": "hiddensee",
+   "routeKey": "schaprodeHiddensee",
+   "name": "Schaprode ↔ Vitte (Hiddensee)",
+   "operator": "Reederei Hiddensee",
+   "durationH": 0.75,
+   "distanceKm": 8,
+   "durationEstimated": true,
+   "passengerOnly": true,
+   "priceCovers": null,
+   "coversSource": "« Hiddensee ist eine der wenigen autofreien Inseln Deutschlands »",
+   "priceStatus": "unknown",
+   "priceByClass": { "1": null, "2": null, "5": null, "foot": null },
+   "source": "https://www.reederei-hiddensee.de/en/timetable/schaprode",
+   "date": "2026-09-23",
+   "note": "Île sans voitures. Traversée d'environ 45 min depuis Schaprode, sur Rügen (reliée au continent par le pont) — durée marquée estimée, les horaires n'étant publiés qu'en PDF saisonniers. Aucun tarif n'est écrit : les montants trouvés (« à partir de 6 € l'aller ») viennent de comparateurs, pas de l'armateur. Distance mesurée entre les deux lieux publiés."
   }
  ]
 };

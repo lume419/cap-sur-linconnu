@@ -1316,6 +1316,14 @@
   "name": "Norddeich ↔ Juist"
  },
  {
+  "routeKey": "harlesielWangerooge",
+  "name": "Harlesiel ↔ Wangerooge"
+ },
+ {
+  "routeKey": "schaprodeHiddensee",
+  "name": "Schaprode ↔ Vitte (Hiddensee)"
+ },
+ {
   "routeKey": "santoDomingoSanJuan",
   "name": "Santo Domingo ↔ San Juan"
  },
@@ -1542,6 +1550,10 @@
  {
   "routeKey": "fromentineYeu",
   "name": "Fromentine ↔ Port-Joinville (Île d'Yeu)"
+ },
+ {
+  "routeKey": "leConquetOuessant",
+  "name": "Le Conquet ↔ Ouessant"
  },
  {
   "routeKey": "merakBakauheni",
