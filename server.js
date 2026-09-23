@@ -2143,12 +2143,36 @@ app.use('/api', function(req, res){
 // Tant que la précompression n'est pas prête (ou si le fichier a changé sur le disque depuis), comportement habituel
 // (express.static + compression à la volée). Mêmes en-têtes qu'express.static : ETag faible taille-date (identique d'une
 // voie à l'autre, donc 304 cohérents), Last-Modified, Cache-Control no-cache/must-revalidate, plus Vary: Accept-Encoding.
+// TOUS les fichiers statiques gros ET compressibles que le navigateur peut demander. Chacun est compressé UNE fois en
+// mémoire au démarrage, ne repasse jamais par la compression à la volée, et tombe sous le quota de BIG_STATIC (voir
+// plus bas). Les quatre premiers y étaient depuis le 17e audit ; les huit autres ont été ajoutés le 23/09/2026 après
+// mesure : servis par express.static derrière la compression, sans quota, sans contrôle d'origine et hors budget CPU,
+// ils coûtaient 27 à 30 ms de CPU par requête en brotli contre 0,89 ms sans. Mesuré sur une instance locale :
+// 2 000 requêtes sur /vendor/leaflet/leaflet.js.map en « br », depuis UNE seule adresse et en Sec-Fetch-Site:
+// cross-site, rendaient 2 000 réponses 200, aucun 429, et consommaient 53,4 s de temps processeur. C'est le scénario
+// que le 19e audit décrit pour les quatre premiers, appliqué à la liste des fichiers connus au lieu du CHEMIN.
+// Les fichiers de public/data/ ne figurent pas ici : /data/ n'est pas servi au navigateur (404). og-image.png non
+// plus : une image PNG est déjà compressée, compression.filter ne la traite pas.
+// AJOUTER ICI tout nouveau fichier statique compressible de plus de PRECOMPRESS_MIN_BYTES — le contrôle de démarrage
+// ci-dessous le signale dans le journal s'il est oublié.
 const PRECOMPRESSED_FILES = {
   '/js/i18n.js': 'application/javascript; charset=UTF-8',
   '/js/trip-data.js': 'application/javascript; charset=UTF-8',
   '/js/app.js': 'application/javascript; charset=UTF-8',
-  '/css/style.css': 'text/css; charset=UTF-8'
+  '/css/style.css': 'text/css; charset=UTF-8',
+  '/vendor/leaflet/leaflet.js': 'application/javascript; charset=UTF-8',
+  '/vendor/leaflet/leaflet.js.map': 'application/json; charset=UTF-8',
+  '/vendor/leaflet/leaflet.css': 'text/css; charset=UTF-8',
+  '/index.html': 'text/html; charset=UTF-8',
+  '/mentions-legales.html': 'text/html; charset=UTF-8',
+  '/fonts/NotoSerifTibetan-Regular.ttf': 'font/ttf',
+  '/fonts/NotoSansEthiopic-Regular.ttf': 'font/ttf',
+  '/fonts/NotoSansYi-Regular.ttf': 'font/ttf',
+  '/fonts/NotoSansTifinagh-Regular.ttf': 'font/ttf',
+  '/fonts/NotoSansThaana-Regular.ttf': 'font/ttf'
 };
+// Seuil du contrôle de démarrage : au-dessous, la compression à la volée coûte trop peu pour mériter une protection.
+const PRECOMPRESS_MIN_BYTES = 24 * 1024;
 const precompressed = new Map(); // chemin d'URL -> { size, mtimeMs, etag, lastModified, br, gzip }
 function staticEtag(stat){
   return 'W/"' + stat.size.toString(16) + '-' + stat.mtime.getTime().toString(16) + '"';
@@ -2171,6 +2195,24 @@ async function precompressStaticFiles(){
   }
   startupStatus.precompressed = precompressed.size + ' fichier(s) en ' + Math.round((Date.now() - t0) / 100) / 10 + ' s';
   console.log('[précompression] ' + startupStatus.precompressed);
+  // Contrôle de démarrage : tout fichier statique servi au navigateur, compressible et plus gros que
+  // PRECOMPRESS_MIN_BYTES doit figurer dans PRECOMPRESSED_FILES, sinon il repasse par la compression à la volée sans
+  // quota ni contrôle d'origine. Le signaler dans le journal plutôt que de le découvrir sous la charge.
+  try {
+    const compressible = /\.(js|css|html|json|map|svg|txt|xml|ttf|otf)$/i;
+    const oubliés = [];
+    (function balayer(dir, url){
+      for(const e of fs.readdirSync(dir, { withFileTypes: true })){
+        const sousUrl = url + '/' + e.name;
+        if(e.isDirectory()){ if(e.name !== 'data') balayer(path.join(dir, e.name), sousUrl); continue; }
+        if(!compressible.test(e.name)) continue;
+        if(Object.prototype.hasOwnProperty.call(PRECOMPRESSED_FILES, sousUrl)) continue;
+        const taille = fs.statSync(path.join(dir, e.name)).size;
+        if(taille >= PRECOMPRESS_MIN_BYTES) oubliés.push(sousUrl + ' (' + Math.round(taille / 1024) + ' ko)');
+      }
+    })(path.join(__dirname, 'public'), '');
+    if(oubliés.length) console.warn('[précompression] gros fichiers servis SANS quota — à ajouter à PRECOMPRESSED_FILES : ' + oubliés.join(', '));
+  } catch(err){ console.warn('[précompression] contrôle des gros fichiers impossible :', err.message); }
 }
 engineStartup.then(precompressStaticFiles).catch(function(err){ console.warn('[précompression] échec :', err.message); })
   .then(function(){
@@ -2196,7 +2238,18 @@ engineStartup.then(precompressStaticFiles).catch(function(err){ console.warn('[p
 // 1,2 Mo compressés, soit plus de cent chargements par minute avant d'y toucher, mais seulement vingt lectures
 // d'i18n.js non compressé (mesuré au 19e audit : 20 lectures, 224,0 Mio, avant le premier 429). Les 304 de revalidation ne
 // portent aucun octet et ne comptent donc ni en requêtes (déjà le cas) ni en octets.
-const BIG_STATIC_RE = /^\/(js\/(i18n|trip-data|app)\.js|css\/style\.css)$/;
+// Le quota porte sur EXACTEMENT les fichiers précompressés : c'est la même liste, et elle ne peut donc plus se
+// désynchroniser. Jusqu'au 23/09/2026 c'était une expression régulière énumérant quatre chemins à la main, que
+// l'ajout d'un gros fichier ne mettait pas à jour.
+const BIG_STATIC_PATHS = new Map(Object.keys(PRECOMPRESSED_FILES).map(function(p){ return [p.toLowerCase(), p]; }));
+// Chemin canonique d'un fichier précompressé, quelle que soit la CASSE de l'écriture demandée, ou null.
+// Le quota testait déjà en minuscules alors que la voie de service et le calcul de taille testaient le chemin exact :
+// sur un système de fichiers insensible à la casse (Windows, macOS — les postes de développement du projet),
+// « /js/I18N.js » passait le quota en réservant ZÉRO octet, manquait la précompression, et express.static servait
+// quand même les 11 Mo en les recompressant. Les trois tests emploient désormais la même clé (23/09/2026).
+function cheminPrecompresse(p){
+  return (typeof p === 'string' && BIG_STATIC_PATHS.get(p.toLowerCase())) || null;
+}
 const bigStaticHits = new Map();
 // Par minute et par adresse. Réglable par l'environnement UNIQUEMENT pour les tests : sans cela, éprouver ce plafond
 // demande d'envoyer 220 Mo (19e audit du 21/09/2026).
@@ -2216,10 +2269,11 @@ setInterval(function(){
 // précompressé (variante d'écriture : la réponse est une redirection 301 de quelques centaines d'octets).
 function tailleAttendue(req){
   if(req.method === 'HEAD') return 0;
-  if(!Object.prototype.hasOwnProperty.call(PRECOMPRESSED_FILES, req.path)) return 0;
-  const entrée = precompressed.get(req.path);
+  const canon = cheminPrecompresse(req.path);
+  if(!canon) return 0;
+  const entrée = precompressed.get(canon);
   if(!entrée){ // précompression échouée ou fichier changé sur le disque : express.static servira la version du disque
-    try { return fs.statSync(path.join(__dirname, 'public', req.path)).size; } catch(err){ return 0; }
+    try { return fs.statSync(path.join(__dirname, 'public', canon)).size; } catch(err){ return 0; }
   }
   const encodage = req.acceptsEncodings('br') === 'br' ? 'br' : (req.acceptsEncodings('gzip') === 'gzip' ? 'gzip' : null);
   return encodage && entrée[encodage] ? entrée[encodage].length : entrée.size;
@@ -2227,14 +2281,20 @@ function tailleAttendue(req){
 // Test sur le chemin DÉCODÉ et normalisé, sans tenir compte de la casse (9e audit du 18/09/2026) : « /js/%6918n.js »,
 // « /js//i18n.js » ou « /css/../js/i18n.js » échappaient au quota, puis express.static les servait quand même.
 app.use(function(req, res, next){
-  if(!BIG_STATIC_RE.test((req.normPath || req.path).toLowerCase())) return next();
+  if(!cheminPrecompresse(req.normPath || req.path)) return next();
   // Même contrôle d'origine que sur /api/ (19e audit du 21/09/2026). Le raisonnement du 11e audit — « une page tierce
   // pouvait faire lancer des requêtes par les navigateurs de ses visiteurs » — vaut mot pour mot ici, et le quota de
   // ces quatre fichiers est ce qui rend le SITE ENTIER inutilisable quand il est épuisé : trente balises
   // « <img src="…/css/style.css?1"> » sur une page tierce suffisaient à faire répondre 429 à la feuille de style et
   // aux trois scripts pendant une minute, pour 537 ko envoyés. Mesuré au 19e audit ; l'accueil se chargeait encore,
   // mais sans style ni code. Aucun usage légitime n'existe : ces fichiers ne servent qu'aux pages du site lui-même.
-  if(estCrossSite(req)) return res.status(403).type('text/plain').send('Cross-site request');
+  // Une NAVIGATION de premier niveau est toujours légitime : un visiteur qui suit un lien vers le site depuis
+  // ailleurs envoie « Sec-Fetch-Site: cross-site » avec « Sec-Fetch-Mode: navigate ». Sans cette exemption, ajouter
+  // une page HTML à la liste des fichiers protégés (mentions-legales.html, index.html, 23/09/2026) refuserait 403 à
+  // tout lien entrant — vérifié avant de le commettre. Le refus ne vise que les SOUS-RESSOURCES, c'est-à-dire le
+  // « <img src="…/css/style.css"> » d'une page tierce, qui n'a aucun usage légitime.
+  const navigation = String(req.get('Sec-Fetch-Mode') || '').trim().toLowerCase() === 'navigate';
+  if(!navigation && estCrossSite(req)) return res.status(403).type('text/plain').send('Cross-site request');
   const ip = req.ip || 'inconnu';
   const now = Date.now();
   let hits = bigStaticHits.get(ip);
@@ -2285,19 +2345,22 @@ app.use(function(req, res, next){
   if(req.method !== 'GET' && req.method !== 'HEAD') return next();
   // Variante d'écriture d'un fichier précompressé (« /js/%6918n.js ») : redirigée vers son chemin normal plutôt que
   // recompressée à la volée par express.static (~1 s de calcul par réponse de 11 Mo, 9e audit du 18/09/2026).
-  if(req.normPath && req.normPath !== req.path && Object.prototype.hasOwnProperty.call(PRECOMPRESSED_FILES, req.normPath)){
-    return res.redirect(301, req.normPath);
+  // …y compris une simple variante de CASSE (« /js/I18N.js ») : un système de fichiers insensible à la casse la
+  // servait sinon en la recompressant, hors quota (23/09/2026).
+  const canonique = cheminPrecompresse(req.normPath || req.path);
+  if(canonique && canonique !== req.path){
+    return res.redirect(301, canonique);
   }
-  const entry = Object.prototype.hasOwnProperty.call(PRECOMPRESSED_FILES, req.path) ? precompressed.get(req.path) : null;
+  const entry = canonique ? precompressed.get(canonique) : null;
   if(!entry) return next();
   // Brotli d'abord dès qu'il est accepté : les navigateurs envoient « gzip, deflate, br », et la négociation par ordre
   // choisissait gzip (3,3 Mo au lieu de 750 Ko pour i18n.js).
   const encoding = req.acceptsEncodings('br') === 'br' ? 'br' : (req.acceptsEncodings('gzip') === 'gzip' ? 'gzip' : null);
   if(!encoding) return next(); // client sans compression : express.static
   // Fichier modifié sur le disque depuis la précompression (mise à jour sans redémarrage) : version du disque.
-  fs.stat(path.join(__dirname, 'public', req.path), function(err, stat){
+  fs.stat(path.join(__dirname, 'public', canonique), function(err, stat){
     if(err || stat.size !== entry.size || stat.mtimeMs !== entry.mtimeMs){
-      precompressed.delete(req.path);
+      precompressed.delete(canonique);
       return next();
     }
     res.locals.precompressed = true;
@@ -2305,7 +2368,7 @@ app.use(function(req, res, next){
     res.setHeader('ETag', entry.etag);
     res.setHeader('Last-Modified', entry.lastModified);
     res.setHeader('Vary', 'Accept-Encoding');
-    res.setHeader('Content-Type', PRECOMPRESSED_FILES[req.path]);
+    res.setHeader('Content-Type', PRECOMPRESSED_FILES[canonique]);
     if(req.fresh) return res.status(304).end();
     const body = entry[encoding];
     res.setHeader('Content-Encoding', encoding);

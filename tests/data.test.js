@@ -1018,14 +1018,15 @@ test('ferries : chaque classe de distance garde au moins 5 durées publiées (si
     parClasse.map((a, i) => nom(i) + '=' + a.length).join(', '));
 });
 
-test('bundles : communes-bundle.txt et aliases-bundle.txt reflètent les fichiers de pays', () => {
+test('bundles : communes-bundle.txt et aliases-bundle.txt reflètent les fichiers de pays', (t) => {
   // Le serveur charge le moteur DEPUIS les bundles, et tests/search.test.js aussi : un fichier de pays modifié sans
   // reconstruction laissait les deux lire l'ancienne donnée sans que rien ne le signale (18e audit du 21/09/2026).
   // Les bundles ne sont pas commités (ils sont reconstruits par postinstall) : le test ne s'applique que s'ils sont
-  // présents, et dit alors comment les régénérer.
+  // présents. Il se DÉCLARE alors sauté (23/09/2026) : il se contentait d'un console.log puis d'un continue, donc il
+  // comptait pour une réussite sans avoir rien contrôlé — un test vert qui ne garde rien est pire qu'un test absent.
   for(const [bundle, champ] of [['communes-bundle.txt', 'file'], ['aliases-bundle.txt', 'aliasFile']]){
     const p = path.join(DATA, bundle);
-    if(!fs.existsSync(p)){ console.log('[tests] ' + bundle + ' absent : contrôle ignoré (npm run build-bundles)'); continue; }
+    if(!fs.existsSync(p)){ t.skip(bundle + ' absent (npm run build-bundles)'); return; }
     const parts = fs.readFileSync(p, 'utf8').split(/###([A-Z]{2})###\n/);
     const vu = new Map();
     for(let i = 1; i < parts.length; i += 2) vu.set(parts[i], parts[i + 1]);

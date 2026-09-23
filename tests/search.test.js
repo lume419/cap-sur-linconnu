@@ -240,7 +240,7 @@ test('20e audit : l\'index sur disque est refusé aussi quand le normalisateur A
 // ---------------------------------------------------------------------------------------------------------
 // 2 et 3. Moteur en mémoire (toutes les données) et, s'il est à jour, index de cache/search-index.
 // ---------------------------------------------------------------------------------------------------------
-let diskIdx = null, diskWhy = '';
+let diskIdx = null, diskWhy = '', indexPresentMaisRefuse = false;
 let loaded = false;
 
 before(async () => {
@@ -249,6 +249,10 @@ before(async () => {
   if(!diskIdx && !diskWhy) diskWhy = 'absent, d\'une autre version, périmé ou construit avec un autre normalisateur';
   if(!diskIdx) process.stderr.write('[tests] index de cache/search-index non utilisé (' + diskWhy + ') : seul le moteur en mémoire est vérifié.\n' +
     '        Pour couvrir aussi le chemin disque : npm run build-bundles\n');
+  // Index PRÉSENT mais REFUSÉ : ce n'est pas une absence, c'est un index périmé ou incohérent — et c'est aussi ce que
+  // le serveur trouverait au démarrage. Le laisser passer en silence a caché une mutation du champ « commune » côté
+  // disque (23/09/2026) : trois tests restaient verts en ne contrôlant qu'une voie sur deux.
+  indexPresentMaisRefuse = !diskIdx && fs.existsSync(path.join(ROOT, 'cache', 'search-index', 'meta.json'));
   await engine.init(fs.readFileSync(path.join(DATA, 'communes-bundle.txt'), 'utf8'),
     fs.readFileSync(path.join(DATA, 'aliases-bundle.txt'), 'utf8'),
     fs.readFileSync(path.join(DATA, 'featured.txt'), 'utf8'), {});
@@ -366,7 +370,7 @@ function sampleAliases(n){
 // homonymes plus peuplés (2,2 % mesuré sur 2 000 tirages le 20/09/2026), et les noms de moins de 3 caractères dans
 // une écriture non idéographique (amharique « ዋጅ ») ne sont pas cherchables — limite connue.
 const MAX_MISS_RATE = 0.08;
-test('balayage : ' + SAMPLE + ' alias tirés au hasard retrouvent leur lieu', () => {
+test('balayage : ' + SAMPLE + ' alias tirés au hasard retrouvent leur lieu', (t) => {
   const picks = sampleAliases(SAMPLE);
   assert.ok(picks.length > SAMPLE * 0.9, 'échantillon incomplet (' + picks.length + ')');
   const miss = [];
@@ -378,6 +382,7 @@ test('balayage : ' + SAMPLE + ' alias tirés au hasard retrouvent leur lieu', ()
   assert.ok(rate <= MAX_MISS_RATE, miss.length + ' alias sur ' + picks.length + ' (' + (100 * rate).toFixed(2) + ' %) ne retrouvent pas leur lieu, maximum ' +
     (100 * MAX_MISS_RATE) + ' % :\n' + miss.slice(0, 20).map(x => '  - ' + x).join('\n'));
   // Contre-épreuve : le même balayage à travers l'index disque doit donner un taux comparable.
+  if(!diskIdx) t.diagnostic('contre-épreuve disque NON exécutée (' + diskWhy + ')');
   if(diskIdx){
     let d = 0;
     for(const a of picks) if(!diskIdx.search(a.text, 20, null, a.lang).some(x => x.country === a.cc && x.name === a.name)) d++;
@@ -393,15 +398,21 @@ test('balayage : ' + SAMPLE + ' alias tirés au hasard retrouvent leur lieu', ()
 test('lieux-dits français : la commune de rattachement et son code postal suivent le lieu, par les deux chemins', () => {
   const lignes = fs.readFileSync(path.join(DATA, 'communes.txt'), 'utf8').split('\n');
   const rattachés = [];
-  // Combien de lieux français portent chaque nom normalisé : « Fontaine » est publié 19 fois, rattaché à 19 communes
-  // différentes (donnée juste — c'est même ce que le rattachement sert à distinguer). Un tel nom ne peut pas servir à
-  // ce test : sa fiche attendue sort des 20 premiers résultats pour une raison étrangère au rattachement.
-  // L'échantillon est donc tiré parmi les noms qui ne désignent qu'un seul lieu.
+  // La recherche se fait par PRÉFIXE : « Fontaine » est publié 18 fois, et « Fresne » est chassé des 20 premiers
+  // résultats par « Fresnes », « Fresnes-sur-Escaut », « Fresney-le-Puceux »… qui commencent tous par lui et sont
+  // plus peuplés. Un tel nom ne peut pas servir ici : sa fiche sortirait de la liste pour une raison étrangère au
+  // rattachement. L'échantillon est donc tiré parmi les noms qui sont le préfixe d'UN SEUL lieu publié — le critère
+  // qui modèle vraiment la recherche, là où compter les noms exactement identiques ne suffisait pas.
+  const noms = [];
+  for(const l of lignes){ if(l) noms.push(engine.internals.normalizeCityName(l.split(';')[4])); }
+  noms.sort();
   const combien = new Map();
-  for(const l of lignes){
-    if(!l) continue;
-    const n = engine.internals.normalizeCityName(l.split(';')[4]);
-    combien.set(n, (combien.get(n) || 0) + 1);
+  for(const n of noms){
+    if(combien.has(n)) continue;
+    // noms est trié : les noms commençant par n sont contigus à partir de la première occurrence.
+    let i = noms.indexOf(n), k = 0;
+    while(i + k < noms.length && noms[i + k].startsWith(n)) k++;
+    combien.set(n, k);
   }
   for(const l of lignes){
     if(!l) continue;
@@ -429,7 +440,7 @@ test('lieux-dits français : la commune de rattachement et son code postal suive
   for(const r of tirés){
     for(const [voie, liste] of [['mémoire', engine.searchCity(r.nom, 20, 'FR', null)],
                                 ['disque', diskIdx ? diskIdx.search(r.nom, 20, 'FR', null) : null]]){
-      if(!liste) continue;
+      if(!liste){ t.diagnostic('chemin disque NON contrôlé (' + diskWhy + ')'); continue; }
       const trouvé = liste.find(x => x.country === 'FR' && x.name === r.nom && x.commune === r.commune);
       if(!trouvé){ manques.push(voie + ' : ' + r.nom + ' (commune attendue ' + r.commune + ')'); continue; }
       if(r.cps.indexOf(trouvé.cp) === -1) manques.push(voie + ' : ' + r.nom + ' rendu avec le code ' + trouvé.cp + ', attendu l\'un de ' + r.cps.join(','));

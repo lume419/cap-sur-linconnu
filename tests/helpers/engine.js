@@ -663,7 +663,19 @@ function check(params, res, elapsedMs){
     const crossedAll = [];
     legs.forEach(l => { if(l.distanceKm == null && !l.isReturn) return; if(prevC !== l.country) crossedAll.push(...(l.countriesCrossed || [])); prevC = l.country; });
     const countries = new Set([dep.country].concat(legs.map(l => l.country), crossedAll));
-    countries.forEach(cc => { if(A.motoMotorwayBan(cc) && !motoSeen[cc]) bad('restrictions', 'moyenne', 'pays ' + cc + ' aux autoroutes interdites aux motos sans avertissement'); });
+    // L'attente est RECALCULÉE depuis la donnée publiée (TD.MOTO_RULES), comme le van l'est depuis TD.VAN_RULES —
+    // et non demandée au moteur. Jusqu'au 23/09/2026 cette ligne appelait A.motoMotorwayBan(cc), c'est-à-dire la
+    // fonction même qu'elle contrôle : supprimer l'interdiction du moteur supprimait aussi l'attente, et la famille
+    // « restrictions » restait verte sur 150 tirages. Contre-épreuve : la même mutation fait bien tomber
+    // engine-regressions.test.js — la fonctionnalité était gardée, mais pas par l'invariant qui porte son nom.
+    // Règle nationale = une règle noMotorway sans « partial » (les règles partielles visent une autoroute précise et
+    // sont contrôlées par la voie « near » plus haut).
+    const motoBanParPays = {};
+    (TD.MOTO_RULES || []).forEach(r => { if(r.type === 'noMotorway' && !r.partial) motoBanParPays[r.country] = r; });
+    countries.forEach(cc => {
+      const r = motoBanParPays[cc];
+      if(r && !motoSeen[cc]) bad('restrictions', 'moyenne', 'pays ' + cc + ' aux autoroutes interdites aux motos sans avertissement');
+    });
   }
   ap('notices');
   const notices = res.notices || [];

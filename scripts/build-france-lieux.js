@@ -94,11 +94,20 @@ for(const l of ign){
   let h = grille.get(c); if(!h) grille.set(c, h = []); h.push(o);
 }
 // Commune de rattachement : le dump porte, colonne admin4, le code INSEE de la commune dont le lieu-dit dépend
-// (« Belzaises » -> 61456, Saint-Sulpice-sur-Risle). Ce code est rapproché de la commune PUBLIÉE portant ce nom dans ce
-// département — les noms de communes sont uniques dans un département. 33 789 codes INSEE se résolvent ainsi.
-// Les autres désignent des communes qui ont elles-mêmes fusionné depuis (Beauchêne est passée dans Tinchebray-Bocage
-// en 2015) et ne figurent donc plus dans la liste officielle : ces lieux-là restent sans rattachement, plutôt que
-// d'être rattachés à une commune inventée.
+// (« Belzaises » -> 61456, Saint-Sulpice-sur-Risle).
+//
+// Ce code est traduit en nom de commune par les enregistrements ADM4 du dump, qui sont les communes elles-mêmes.
+// La première version (23/09/2026) prenait à la place le premier lieu HABITÉ dont le nom correspondait à une commune
+// publiée du même département. C'était faux : un hameau qui porte le nom d'une AUTRE commune du département
+// détournait le code INSEE de la sienne. Mesuré : 997 lieux rattachés à la mauvaise commune, donc publiés avec le
+// mauvais code postal, jusqu'à 122 km de distance — les 12 lieux de Meaulne (03360) sous « Le Vernet » (03200),
+// « Cosnes » (2 110 habitants, Cosnes-et-Romain, 54400) sous « Romain » (54360), 14 lieux de Dijon sous « Larrey ».
+// L'enregistrement ADM4 lève l'ambiguïté : il donne « Cosnes-et-Romain » pour 54138 et « Meaulne-Vitray » pour 03168.
+//
+// Correspondance STRICTE avec une commune publiée (même nom normalisé, même département). 34 727 codes INSEE sur
+// 34 742 se résolvent ainsi. Les 15 restants sont des communes que GeoNames nomme en abrégé (« Louhans » pour
+// Louhans-Châteaurenaud, « Éragny » pour Éragny-sur-Oise) : leurs 52 lieux ne sont pas publiés. Les rattacher
+// demanderait de rapprocher deux noms qui diffèrent — exactement l'approximation qui a produit les 997 erreurs.
 const parCleIgn = new Map();
 for(const g of parNom.values()) for(const o of g) if(!parCleIgn.has(o.cle)) parCleIgn.set(o.cle, o);
 function communeLaPlusProche(lat, lon){
@@ -113,12 +122,13 @@ function communeLaPlusProche(lat, lon){
 }
 
 const dump = fs.readFileSync(path.join(__dirname, 'dump', 'FR_dump.txt'), 'utf8');
-// INSEE -> commune publiée : l'enregistrement du dump dont le nom correspond à une commune publiée de son département.
+// INSEE -> commune publiée, par les enregistrements ADM4 du dump : ce sont les communes elles-mêmes, pas des lieux
+// habités qui s'y trouvent. Un enregistrement ADM4 porte son propre code INSEE en colonne admin4.
 const communeParInsee = new Map();
 for(const ligne of dump.split('\n')){
   if(!ligne) continue;
   const c = ligne.split('\t');
-  if(!KEEP_FEATURE_CODES.has(c[7]) || !c[13]) continue;
+  if(c[7] !== 'ADM4' || !c[13]) continue;
   const co = parCleIgn.get(normalizeCityName(c[1]) + '|' + c[11]);
   if(co && !communeParInsee.has(c[13])) communeParInsee.set(c[13], co);
 }

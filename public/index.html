@@ -105,6 +105,10 @@
           <ul class="suggest-list" id="city-suggest" role="listbox"></ul>
         </div>
         <span class="field-error" id="city-error" role="alert" data-i18n="form.city.error.required">Merci d'indiquer une ville de départ.</span>
+        <!-- Région vivante de la recherche de ville (23/09/2026) : « Aucune ville trouvée. » s'affichait dans la liste
+             sans être annoncée, alors que le sélecteur de langue annonce « Aucune langue trouvée ». Région dédiée, pas
+             #reveal-announce, qui porte le résultat du tirage et serait écrasée. -->
+        <p class="visually-hidden" id="city-search-announce" aria-live="polite" aria-atomic="true"></p>
       </div>
 
       <div class="field" id="dates-field">

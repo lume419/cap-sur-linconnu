@@ -1648,3 +1648,65 @@ test('23/09/2026 : un lieu-dit affiche la commune qui le porte, et ne se répèt
   assert.ok(!/·/.test(visible(options[1])), 'une commune ne se rattache à rien : ' + JSON.stringify(visible(options[1])));
   assert.ok(!/·/.test(visible(options[2])), 'un lieu dont la commune porte son nom ne doit pas se répéter : ' + JSON.stringify(visible(options[2])));
 });
+
+test('23/09/2026 : choisir un lieu SANS code postal ne laisse pas une parenthèse vide', () => {
+  // Le code postal est facultatif depuis le 21/09/2026 (98 910 lieux publiés n'en ont pas) : le champ affichait
+  // « Hrazdan () ». Les quatre autres emplacements qui montrent un code postal gardaient déjà, celui-ci non.
+  // selectCommune n'était exercée par aucun test : elle n'était que stubbée dans les deux bacs à sable voisins.
+  const dom = fakeDom();
+  const city = dom.el('input'), suggest = dom.el('ul');
+  const ctx = {
+    els: { city: city, citySuggest: suggest },
+    searchRequestSeq: 0, searchDebounceTimer: null, selectedCity: null,
+    clearTimeout(){}, hideSuggestions(){}, clearCityError(){}, updateBudgetHint(){}
+  };
+  const src = extract('selectCommune');
+  vm.createContext(ctx);
+  vm.runInContext(src.trim() + '\nthis.selectCommune = selectCommune;', ctx);
+
+  ctx.selectCommune({ name: 'Hrazdan', cp: '2301', allCps: ['2301'], lat: 40.5, lon: 44.77, dept: 'Kotayk', country: 'AM' });
+  assert.equal(city.value, 'Hrazdan (2301)', 'un lieu AVEC code postal doit garder sa parenthèse');
+
+  ctx.selectCommune({ name: 'Hrazdan', cp: '', allCps: [], lat: 40.49, lon: 44.72, dept: 'Kotayk', country: 'AM' });
+  assert.equal(city.value, 'Hrazdan', 'un lieu SANS code postal : aucune parenthèse, ' + JSON.stringify(city.value));
+  assert.ok(!/\(\s*\)/.test(city.value), 'parenthèse vide dans le champ : ' + JSON.stringify(city.value));
+
+  // Le lieu choisi est bien transmis au tirage, code postal vide compris.
+  assert.equal(ctx.selectedCity.name, 'Hrazdan');
+  assert.equal(ctx.selectedCity.cp, '');
+  assert.equal(ctx.selectedCity.country, 'AM');
+});
+
+test('23/09/2026 : « Aucune ville trouvée » est annoncée aux lecteurs d\'écran, et ne se répète pas', () => {
+  // Le sélecteur de LANGUE annonce « Aucune langue trouvée » depuis le 20e audit ; la recherche de VILLE posait sa
+  // phrase dans la liste sans région vivante. Mêmes deux pièges qu'alors : ne pas répéter à chaque frappe, et annuler
+  // l'annonce en attente quand des résultats arrivent.
+  const dom = fakeDom();
+  const live = dom.el('p');
+  live.id = 'city-search-announce';
+  const minuteurs = [];
+  const ctx = {
+    document: { getElementById: (id) => (id === 'city-search-announce' ? live : null) },
+    setTimeout: (fn) => { minuteurs.push(fn); return minuteurs.length; },
+    clearTimeout: (h) => { if(h) minuteurs[h - 1] = null; }
+  };
+  const src = extract('annonceRecherche');
+  vm.createContext(ctx);
+  vm.runInContext('var rechercheLiveTexte = \'\'; var rechercheLiveTimer = null;\n' + src.trim() + '\nthis.annonceRecherche = annonceRecherche;', ctx);
+  const vider = () => { minuteurs.forEach(fn => fn && fn()); minuteurs.length = 0; };
+
+  ctx.annonceRecherche('Aucune ville trouvée.');
+  assert.equal(live.textContent, '', 'la région doit d\'abord être vidée, sinon le même texte n\'est pas relu');
+  vider();
+  assert.equal(live.textContent, 'Aucune ville trouvée.', 'texte non annoncé');
+
+  // Frappe suivante, toujours sans résultat : la même phrase ne doit PAS être reprononcée.
+  ctx.annonceRecherche('Aucune ville trouvée.');
+  assert.equal(live.textContent, 'Aucune ville trouvée.', 'la phrase a été réécrite, donc répétée à chaque frappe');
+
+  // Des résultats arrivent : l'annonce est retirée, et une annonce en attente ne doit pas s'écrire après coup.
+  ctx.annonceRecherche('Aucune ville trouvée.');
+  ctx.annonceRecherche('');
+  vider();
+  assert.equal(live.textContent, '', 'annonce périmée écrite alors que la liste est pleine');
+});

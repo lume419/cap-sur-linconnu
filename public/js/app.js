@@ -1770,13 +1770,37 @@
     ++searchRequestSeq;
     clearTimeout(searchDebounceTimer);
     selectedCity = { name:r.name, cp:r.cp, allCps:r.allCps, lat:r.lat, lon:r.lon, dept:r.dept, country:r.country };
-    els.city.value = r.name + ' (' + r.cp + ')';
+    // Le code postal est FACULTATIF depuis le 21/09/2026 : 98 910 lieux publiés n'en ont pas. Sans cette garde, le
+    // champ affichait « Hrazdan () » — une parenthèse vide. Les quatre autres endroits qui affichent un code postal
+    // la posaient déjà ; celui-ci avait été oublié (23/09/2026).
+    els.city.value = r.cp ? r.name + ' (' + r.cp + ')' : r.name;
     hideSuggestions();
     clearCityError();
     updateBudgetHint(); // la devise du plafond affiché dépend du pays de la ville choisie (voir plus bas)
   }
   // Message non sélectionnable dans la liste (ex. moteur encore en chargement côté serveur) : sans lui, la
   // liste restait simplement vide et l'autocomplétion semblait cassée pendant le démarrage du serveur.
+  // Annonce de la recherche de ville aux lecteurs d'écran (23/09/2026). Même motif que `annoncer` dans i18n.js pour le
+  // sélecteur de langue, et pour les mêmes raisons mesurées au 20e audit : réécrire le MÊME texte n'annonce rien chez
+  // la plupart des lecteurs, donc on vide puis on écrit au tour suivant ; le texte courant est mémorisé pour ne pas
+  // répéter la phrase à chaque frappe d'une recherche déjà vide ; le minuteur en attente est toujours annulé, sans
+  // quoi une annonce périmée s'écrit APRÈS que la liste a été remplie.
+  var rechercheLiveTexte = '';
+  var rechercheLiveTimer = null;
+  function annonceRecherche(texte){
+    // getElementById absent : renderSuggestions est aussi exécutée dans un DOM factice par tests/ui.test.js, qui ne
+    // fournit que createElement. L'annonce est un supplément, jamais une condition d'affichage de la liste.
+    if(typeof document.getElementById !== 'function') return;
+    var live = document.getElementById('city-search-announce');
+    if(!live) return;
+    texte = texte || '';
+    if(texte === rechercheLiveTexte) return;
+    if(rechercheLiveTimer){ clearTimeout(rechercheLiveTimer); rechercheLiveTimer = null; }
+    rechercheLiveTexte = texte;
+    live.textContent = '';
+    if(!texte) return;
+    rechercheLiveTimer = setTimeout(function(){ rechercheLiveTimer = null; live.textContent = texte; }, 0);
+  }
   function renderSuggestMessage(text){
     els.citySuggest.innerHTML = '';
     currentSuggestions = [];
@@ -1883,8 +1907,8 @@
           // n'est montré QUE pour une réponse du serveur : une saisie trop courte referme la liste comme avant, sans
           // reprocher au visiteur de ne pas avoir fini de taper (voir l'autre appel à renderSuggestions).
           var trouvés = data.results || [];
-          if(!trouvés.length) renderSuggestMessage(t('form.city.searchNoResults'));
-          else renderSuggestions(trouvés);
+          if(!trouvés.length){ renderSuggestMessage(t('form.city.searchNoResults')); annonceRecherche(t('form.city.searchNoResults')); }
+          else { renderSuggestions(trouvés); annonceRecherche(''); }
         })
         // Panne réseau : même traitement que le tirage depuis la 16e passe — on le dit, au lieu de refermer la liste.
         .catch(function(){ if(mySeq === searchRequestSeq) renderSuggestMessage(t('error.network')); });
