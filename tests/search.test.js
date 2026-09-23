@@ -448,3 +448,45 @@ test('lieux-dits français : la commune de rattachement et son code postal suive
   }
   assert.equal(manques.length, 0, manques.length + ' rattachements perdus :\n' + manques.slice(0, 10).map(x => '  - ' + x).join('\n'));
 });
+
+// 23/09/2026 — LES DEUX CHEMINS RENDENT EXACTEMENT LA MÊME CHOSE. Le contrôle voisin (« homonymes de même code
+// postal ») ne regarde que les groupes dont une fiche dépasse 10 000 habitants, et seulement la PRÉSENCE d'une fiche
+// attendue : il était aveugle à la divergence mesurée ce jour-là. Le regroupement à 10 km était glouton et non
+// transitif, et les deux chemins ne parcouraient pas leurs candidats dans le même ordre — « Cuitaca » (Mexique)
+// rendait 1 résultat en mémoire et 2 sur disque, soit un résultat différent selon que l'index était construit ou non.
+// Ce test compare les LISTES ENTIÈRES, identité des lieux comprise.
+const DIVERGENCES_CONNUES = ['Cuitaca', 'Vërri', 'Dolovi', 'Ad Darb', 'Al Kawlah', 'As Sarw', 'Al Ḩişn', 'Ad Daḩlah'];
+test('les deux chemins de recherche rendent la MÊME liste, dans le même ordre', (t) => {
+  if(!diskIdx){ t.skip('index de cache/search-index indisponible (' + diskWhy + ')'); return; }
+  // Les huit cas historiques, plus un balayage à graine dans les noms publiés : une divergence nouvelle tombe aussi.
+  let graine = 20260923;
+  const suivant = () => (graine = (graine * 1103515245 + 12345) % 2147483648) / 2147483648;
+  const saisies = DIVERGENCES_CONNUES.slice();
+  for(const cc of Object.keys(TripData.COUNTRIES)){
+    const f = TripData.COUNTRIES[cc].file;
+    if(!f) continue;
+    const p = path.join(DATA, f);
+    if(!fs.existsSync(p)) continue;
+    const L = fs.readFileSync(p, 'utf8').split('\n');
+    for(let i = 0; i < 2 && L.length > 10; i++){
+      const l = L[Math.floor(suivant() * L.length)];
+      if(l) saisies.push(l.split(';')[4]);
+    }
+  }
+  assert.ok(saisies.length >= 200, 'échantillon trop maigre (' + saisies.length + ')');
+
+  const cle = r => r.country + '|' + r.name + '|' + (r.cp || '') + '|' + r.lat.toFixed(4) + ',' + r.lon.toFixed(4);
+  const écarts = [];
+  for(const q of saisies){
+    if(!q) continue;
+    const mem = engine.searchCity(q, 20, null, null) || [];
+    const dsk = diskIdx.search(q, 20, null, null) || [];
+    const a = mem.map(cle), b = dsk.map(cle);
+    if(a.join(' ; ') !== b.join(' ; ')){
+      écarts.push(JSON.stringify(q) + ' : mémoire ' + a.length + ' résultat(s), disque ' + b.length +
+        (a.length === b.length ? ' (même nombre, contenu ou ordre différent)' : ''));
+    }
+  }
+  assert.deepEqual(écarts.slice(0, 15), [], écarts.length + ' saisie(s) sur ' + saisies.length +
+    ' ne rendent pas la même liste selon le chemin :\n' + écarts.slice(0, 15).map(x => '  - ' + x).join('\n'));
+});

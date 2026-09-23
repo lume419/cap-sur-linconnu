@@ -81,9 +81,23 @@ marqués `[à vérifier]` et listés en fin de fichier.
   trouvée » l'est depuis le 21/09. Région vivante dédiée, sans répétition à chaque frappe.
 - `tensionBlocked` posé seulement après un tirage de vérification au plafond : **3 annonces à tort sur
   90 → 0 sur 87**. `bc2521a`
-- Recherche : test d'enveloppe avant le calcul de distance. Un groupe d'homonymes peut compter 512
-  fiches (« Xincun », code CN-30) ; la saisie « xin » calculait 246 855 distances, soit **28,7 ms par
-  frappe contre 10,4 ms** avant le regroupement par distance.
+- **Les deux chemins de recherche rendaient des résultats différents.** Le regroupement des homonymes à
+  10 km est glouton et non transitif : le résultat dépend de l'ordre dans lequel les candidats sont
+  examinés. L'index sur disque les parcourt par population décroissante et ne déplace jamais l'ancre d'un
+  groupe ; la recherche en mémoire — celle qui sert tant que l'index n'est pas construit, donc sur tout
+  déploiement neuf — les prenait dans l'ordre des fichiers ET remplaçait l'ancre dès qu'un lieu plus
+  peuplé tombait à moins de 10 km, ce qui déplaçait le point de référence en cours de route. « Cuitaca »
+  (Mexique) rendait **1 résultat en mémoire et 2 sur disque** : la même saisie, sur les mêmes données,
+  donnait une réponse différente selon que l'index était construit ou non.
+  Le balayage en mémoire ne décide plus rien : il empile ses candidats, et les réduit une fois tous
+  connus, avec EXACTEMENT l'algorithme du disque — tri par population décroissante, regroupement au plus
+  proche, ancre jamais déplacée, puis même ordre global de sortie. Le tri portant sur la donnée et non sur
+  l'ordre d'arrivée, le résultat ne dépend plus du chemin. Mesuré sur 4 487 saisies : **9 divergentes
+  avant, 0 après**.
+  Le chemin en mémoire y gagne **3 à 8 fois en vitesse**, parce qu'il emploie désormais la sélection
+  bornée du disque (`topK`, les 160 meilleurs candidats) au lieu de regrouper les dizaines de milliers
+  que ramène un préfixe courant : « san » **1 278 → 150 ms**, « xia » 127 → 30 ms, « xin » 74 → 22 ms,
+  « don » 122 → 28 ms — par frappe, en calcul synchrone.
 - Générateur France redevenu idempotent : donner leur code postal aux lieux rattachés lui faisait
   prendre ses propres ajouts pour des lignes IGN, et une relance faisait passer 34 964 communes à
   74 914. `2dcd2d5`
@@ -108,6 +122,10 @@ marqués `[à vérifier]` et listés en fin de fichier.
   il se déclare sauté.
 - Les contrôles du chemin de recherche sur disque le disaient en silence quand l'index manquait : ils
   le signalent, et un index présent mais refusé est distingué d'un index absent.
+- Les deux chemins de recherche doivent rendre la MÊME LISTE, identité des lieux et ordre compris, sur
+  les huit cas historiques plus un balayage à graine. Le contrôle voisin ne regardait que les groupes
+  dont une fiche dépasse 10 000 habitants, et seulement la PRÉSENCE d'une fiche attendue : il était
+  structurellement aveugle à cette divergence.
 - Nouveaux tests : rattachement traversant les deux chemins de recherche, affichage de la commune,
   parenthèse vide, annonce aux lecteurs d'écran — tous éprouvés par mutation.
 
@@ -127,11 +145,6 @@ marqués `[à vérifier]` et listés en fin de fichier.
 
 ### Limites mesurées, écrites, non corrigées
 
-- **Les deux chemins de recherche divergent sur 8 groupes.** Le regroupement à 10 km est glouton et non
-  transitif ; l'index disque parcourt par population décroissante, la mémoire dans l'ordre des fichiers.
-  « Cuitaca » (Mexique) rend 1 suggestion en mémoire et 2 sur disque, donc 1 sur un déploiement neuf et 2
-  une fois l'index construit. Corriger demande de refondre le chemin le plus chaud du moteur ; le gain ne
-  vaut pas le risque tant que 8 groupes sur 243 281 sont concernés.
 - **Le démasquage ne s'applique pas à la recherche par code postal.** Les deux chemins ne gardent qu'un
   lieu par couple (pays, nom) atteint par un code : « Robit » rend deux suggestions, « ET-46 » une seule.
   Comportement inchangé et identique des deux côtés, mais l'objectif « dans les deux chemins » n'est
