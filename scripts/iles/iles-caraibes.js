@@ -283,6 +283,14 @@ module.exports = {
       priceByClass: { 1: null, 2: null, 5: null, foot: 119.39 },
       currency: 'BSD', original: { foot: 139 },
       source: 'https://bahamasferries.com/your-travel/', date: '2026-09-23',
-      note: "Même navire et même tarif que Spanish Wells (« Nassau to SPANISH WELLS/ HARBOUR ISLAND », \$139.00 l'aller) : départ Nassau 8 h 00, arrivée Harbour Island 11 h 10 après l'escale de Spanish Wells, soit 3 h 10. Distance mesurée entre les deux lieux publiés." }
+      note: "Même navire et même tarif que Spanish Wells (« Nassau to SPANISH WELLS/ HARBOUR ISLAND », \$139.00 l'aller) : départ Nassau 8 h 00, arrivée Harbour Island 11 h 10 après l'escale de Spanish Wells, soit 3 h 10. Distance mesurée entre les deux lieux publiés." },
+    { a: 'antigua', b: 'barbuda', routeKey: 'stJohnsCodrington', "priceCovers": null,
+      "coversSource": "tarif passager seul : l'armateur publie un tarif adulte et aucune ligne véhicule",
+      name: "Saint John's ↔ Codrington (Barbuda)",
+      operator: 'Sea Bridge Ferries (ex-Barbuda Express)', durationH: 1.5, distanceKm: 59,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 55.83 },
+      currency: 'USD', original: { foot: 65 },
+      source: 'https://seabridgeferries.com/', date: '2026-09-23',
+      note: "« We sail to & from Barbuda every day of the week », « Our wave-piercing vessels have a journey time of approximately 90 minutes each way », « One-way adult fares starting at US\$65.00 » — tarif adulte le moins cher retenu. Deux navires « carry both passengers and large cargo » : la liaison n'est donc PAS déclarée sans véhicules, mais aucun tarif véhicule n'étant publié, les classes motorisées restent sans prix. Des sources tierces disent l'embarquement d'Antigua déplacé à Jolly Harbour en novembre 2023, ce que le site de l'armateur ne dit pas : le port retenu reste Saint John's, à 7 km. Taux InforEuro 09/2026 : 1 € = 1,1643 USD. Distance mesurée entre les deux lieux publiés." }
   ]
 };

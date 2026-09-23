@@ -1384,6 +1384,10 @@
   "name": "Nassau ↔ Harbour Island"
  },
  {
+  "routeKey": "stJohnsCodrington",
+  "name": "Saint John's ↔ Codrington (Barbuda)"
+ },
+ {
   "routeKey": "calicaCozumel",
   "name": "Calica (Punta Venado) ↔ Cozumel"
  },
@@ -2246,6 +2250,10 @@
  {
   "routeKey": "bellaBellaShearwater",
   "name": "Bella Bella (McLoughlin Bay) ↔ Shearwater"
+ },
+ {
+  "routeKey": "maalaeaManele",
+  "name": "Mā'alaea (Maui) ↔ Mānele (Lāna'i)"
  },
  {
   "routeKey": "mulifanuaSalelologa",

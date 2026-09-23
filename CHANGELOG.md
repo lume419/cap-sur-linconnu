@@ -116,6 +116,23 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Deux liaisons de plus, quatre masses rendues au site — et trois pistes écartées faute de source.**
+  - **Mā'alaea (Maui) ⇔ Mānele (Lāna'i)**, Lāna'i Expeditions, 1 h 10, 44 km, **34,36 €**. L'armateur titre
+    « Maui to Lāna'i Passenger Ferry » : `passengerOnly`. Le départ était à Lahaina, transféré à Mā'alaea après
+    les incendies de Maui d'août 2023. Tarif : hausse autorisée par la Public Utilities Commission d'Hawaï
+    (dossier 2023-0204), applicable au 5 octobre 2024, « adult fares that range between \$40.00 and \$66.00 » —
+    le tarif adulte le moins cher est retenu, comme partout ici. Maui : 168 146 habitants publiés.
+  - **Saint John's ⇔ Codrington (Barbuda)**, Sea Bridge Ferries, 1 h 30, 59 km, **55,83 €** pour l'adulte.
+    Ses navires « carry both passengers and large cargo » : la liaison n'est donc PAS déclarée sans véhicules,
+    mais aucun tarif véhicule n'étant publié, les classes motorisées restent sans prix — une voiture traverse
+    avec l'avertissement « tarif non communiqué », un vélo au tarif adulte publié. Antigua : 120 870 habitants.
+  - **Trois pistes écartées, et pourquoi.** *Sri Lanka* (4 455 053 habitants publiés, la plus grosse masse sans
+    liaison) : le ferry Nagapattinam ⇔ Kankesanthurai a ouvert en 2023, s'est interrompu, a repris en août 2024,
+    et le domaine de l'armateur (indsri.com) est aujourd'hui **parqué chez un revendeur** — aucune source vivante
+    ne dit qu'il navigue, les tarifs trouvés se contredisent (₹7 670 chez Wikipédia, ₹5 000 à 7 500 ailleurs).
+    *São Tomé ⇔ Príncipe* : aucune liaison régulière de passagers documentée, le lien courant est aérien.
+    *Seychelles (Cat Cocos)* : la ligne existe et est quotidienne, mais horaires et tarifs ne sont publiés qu'en
+    images et derrière la réservation — à reprendre avec une source lisible.
 - **Sept liaisons de plus, six masses terrestres rendues au site, les plus peuplées d'abord.**
   - **Ligne internationale FRS Express des Îles** : Guadeloupe – Dominique – Martinique – Sainte-Lucie, quatre
     traversées d'un seul armateur. Pointe-à-Pitre ⇔ Fort-de-France (4 h 45 avec escale en Dominique, 184 km),
@@ -257,7 +274,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **448 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+- **444 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
   Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.

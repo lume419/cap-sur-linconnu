@@ -624,6 +624,14 @@ module.exports = {
     { a: 'bellaBella', b: 'shearwater', routeKey: 'bellaBellaShearwater', "priceCovers": "vehicle", "coversSource": "véhicule seul : grille BC Ferries « STANDARD VEHICLE (Excludes Driver & Passengers) », motos comprises", "durationEstimated": true, name: 'Bella Bella (McLoughlin Bay) ↔ Shearwater', operator: 'BC Ferries', durationH: 0.25, distanceKm: 4,
       priceByClass: bcf(53.75, 4.30, 26.90, 14.35, false), source: BCF_SRC, date: D,
       note: '« Bella Bella – Shearwater Only », aller simple : véhicule 53,75 $ (+4,30 $/pi), moto 26,90 $, adulte 14,35 $, +5 % carburant.' },
-
+,
+    { a: 'lanai', b: 'maui', routeKey: 'maalaeaManele', passengerOnly: true, "priceCovers": null,
+      "coversSource": "l'armateur titre « Maui to Lāna'i Passenger Ferry » et sa grille ne comporte que des tarifs passagers",
+      name: "Mā'alaea (Maui) ↔ Mānele (Lāna'i)",
+      operator: "Lāna'i Expeditions", durationH: 1.17, distanceKm: 44,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 34.36 },
+      currency: 'USD', original: { foot: 40 },
+      source: 'https://go-lanai.com/ ; https://go-lanai.com/wp-content/uploads/sites/5733/2024/09/2024-Press-Release-2.pdf', date: '2026-09-23',
+      note: "« approximately 1 hour & 10 minutes » à travers le canal 'Au'au, trois allers-retours par jour (6 h 30, 11 h, 15 h 30 depuis Mā'alaea). Le départ était à Lahaina : il a été transféré à Mā'alaea après les incendies de Maui d'août 2023. Tarifs : communiqué de l'armateur, hausse autorisée par la Public Utilities Commission d'Hawaï (dossier 2023-0204) et applicable au 5 octobre 2024 — « adult fares that range between \$40.00 and \$66.00 », enfants et aînés résidents de 10 à 15 \$. Le tarif adulte le MOINS CHER est retenu, comme partout dans ce projet. Taux InforEuro 09/2026 : 1 € = 1,1643 USD. Distance mesurée entre les deux lieux publiés." }
   ]
 };

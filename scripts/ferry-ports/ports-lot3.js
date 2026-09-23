@@ -299,4 +299,8 @@ module.exports = [
     ports: { harbourIsland: [{ cc: 'BS', place: 'Dunmore Town' }], spanishWells: [{ cc: 'BS', place: 'Spanish Wells' }] } },
   { key: 'harbourIsland|newProvidence', source: 'https://bahamasferries.com/your-travel/ (Nassau ↔ Harbour Island)',
     ports: { harbourIsland: [{ cc: 'BS', place: 'Dunmore Town' }], newProvidence: [{ cc: 'BS', place: 'Nassau', near: [25.0582, -77.3431] }] } },
+  { key: 'lanai|maui', source: "https://go-lanai.com/ (Mā’alaea ↔ Mānele)",
+    ports: { lanai: [{ cc: 'US', place: 'Lanai City' }], maui: [{ cc: 'US', place: 'Mā‘alaea' }] } },
+  { key: 'antigua|barbuda', source: 'https://seabridgeferries.com/ (Antigua ↔ Barbuda)',
+    ports: { antigua: [{ cc: 'AG', place: 'Saint John’s' }], barbuda: [{ cc: 'AG', place: 'Codrington' }] } },
 ];
