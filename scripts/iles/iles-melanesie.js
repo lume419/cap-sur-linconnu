@@ -153,5 +153,15 @@ module.exports = {
       ]
     },
   },
-  ferries: []
+  ferries: [
+    // Vanuatu : seul lien maritime régulier entre les deux principales îles. Navire de PASSAGERS de 33 m,
+    // qui emporte aussi du fret vers les marchés ; aucun tarif n'est publié, l'armateur n'ayant pas de site.
+    { a: 'efate', b: 'santo', routeKey: 'portVilaLuganville', passengerOnly: true, "priceCovers": null,
+      "coversSource": "l'office du tourisme décrit « a 33 metre passenger vessel » : aucun tarif ni pont véhicule publié",
+      "durationEstimated": true, name: 'Port-Vila ↔ Luganville (Espiritu Santo)',
+      operator: 'Big Sista', durationH: 24, distanceKm: 276,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://www.vanuatu.travel/en/big-sista', date: '2026-09-23',
+      note: "Office du tourisme de Vanuatu : « a 33 metre passenger vessel operating between Port Vila and Luganville Santo, stopping at Epi and Malekula along the way », départ le lundi soir, retour le jeudi. Durée : la traversée est « often advertised as a 24 hour journey » (guide Triton Explorers, départ 8 h, arrivée « usually around noon the following day ») — 24 h retenues, marquées estimées. Aucun prix n'est écrit : l'armateur n'a pas de site, seulement une page Facebook et deux guichets, et le seul montant trouvé (10 000 VUV l'aller, plus 1 000 VUV par bagage et 100 VUV de taxe de départ) vient d'un guide tiers. Distance mesurée entre les deux lieux publiés." }
+  ]
 };

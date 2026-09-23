@@ -1404,6 +1404,14 @@
   "name": "Marigot (Saint-Martin) ↔ Blowing Point (Anguilla)"
  },
  {
+  "routeKey": "providencialesSandyPoint",
+  "name": "Providenciales ↔ Sandy Point (North Caicos)"
+ },
+ {
+  "routeKey": "charlotteAmalieRoadTown",
+  "name": "Charlotte-Amalie (Saint-Thomas) ↔ Road Town (Tortola)"
+ },
+ {
   "routeKey": "calicaCozumel",
   "name": "Calica (Punta Venado) ↔ Cozumel"
  },
@@ -1762,6 +1770,10 @@
  {
   "routeKey": "istanbulBuyukada",
   "name": "İstanbul ↔ Büyükada"
+ },
+ {
+  "routeKey": "portVilaLuganville",
+  "name": "Port-Vila ↔ Luganville (Espiritu Santo)"
  },
  {
   "routeKey": "hainesJuneau",

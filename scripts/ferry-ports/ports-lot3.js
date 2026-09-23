@@ -313,4 +313,12 @@ module.exports = [
   // Le quai de Trần Đề n'est pas publié : Kinh Ba est le lieu publié le plus proche (0,8 km).
   { key: 'conDao|continental', source: 'https://online.superdong.com.vn/Home/ScheduleBoat (Sóc Trăng ↔ Côn Đảo)',
     ports: { conDao: [{ cc: 'VN', place: 'Côn Đảo' }], continental: [{ cc: 'VN', place: 'Kinh Ba', near: [9.5167, 106.2] }] } },
+  { key: 'efate|santo', source: 'https://www.vanuatu.travel/en/big-sista (Port-Vila ↔ Luganville)',
+    ports: { efate: [{ cc: 'VU', place: 'Port-Vila' }], santo: [{ cc: 'VU', place: 'Luganville' }] } },
+  // Le quai de Heaving Down Rock (pointe est de Providenciales) n'est pas publié : The Bight Settlements est le
+  // lieu publié le plus proche sur cette rive, à 18 km.
+  { key: 'northMiddleCaicos|providenciales', source: 'https://caribbeancruisin.com/tci-ferry-schedule/ (Heaving Down Rock ↔ Sandy Point)',
+    ports: { northMiddleCaicos: [{ cc: 'TC', place: 'Sandy Point', near: [21.9393, -72.038] }], providenciales: [{ cc: 'TC', place: 'The Bight Settlements' }] } },
+  { key: 'saintThomasVI|tortola', source: 'https://www.roadtownfastferry.com/ (Charlotte Amalie ↔ Road Town)',
+    ports: { saintThomasVI: [{ cc: 'VI', place: 'Charlotte Amalie' }], tortola: [{ cc: 'VG', place: 'Road Town' }] } },
 ];

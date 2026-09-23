@@ -116,6 +116,22 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Les trois dernières liaisons cherchées du lot 1.**
+  - **Port-Vila ⇔ Luganville**, Big Sista, 24 h (estimée), 276 km, sans prix. Seul lien maritime régulier entre
+    les deux principales îles du Vanuatu : « a 33 metre passenger vessel […] stopping at Epi and Malekula along
+    the way », départ le lundi soir, retour le jeudi (office du tourisme de Vanuatu). L'armateur n'a **pas de
+    site**, seulement une page Facebook et deux guichets : le seul montant trouvé (10 000 VUV l'aller) vient
+    d'un guide tiers et n'est donc pas écrit comme prix. Efate (38 386 habitants publiés) et Espiritu Santo
+    (15 697) entrent ensemble dans la couverture.
+  - **Providenciales ⇔ Sandy Point (North Caicos)**, Caribbean Cruisin' (TCI Ferry), 30 min, 25 km, **34,36 €**
+    (« Single Adult: \$40 one-way », grille du 1er juin 2025). **Une approximation est dite plutôt que cachée** :
+    le quai de Heaving Down Rock, à la pointe est de Providenciales, n'a aucun lieu publié à moins de 18 km, si
+    bien que la distance modélisée (25 km) dépasse la vraie traversée (une douzaine de kilomètres) et que la
+    vitesse apparente est trop élevée.
+  - **Charlotte-Amalie ⇔ Road Town**, Road Town Fast Ferry, 50 min, 35 km, sans prix : la grille existe sur le
+    site de l'armateur mais chaque montant y est affiché « Not Available Yet ». Tortola rejoint le réseau déjà
+    relié des îles Vierges — un tirage au départ de Road Town enchaîne Charlotte-Amalie, Cruz Bay et
+    Christiansted, en avertissant sur les traversées sans véhicules et pas sur le bac de Red Hook.
 - **Suite du lot 1 : deux liaisons de plus sur les huit repérées.**
   - **Marigot ⇔ Blowing Point**, navettes du port de Marigot, 20 min, 15 km, **37 €** : « \$30/30 € » l'aller
     simple adulte payable en espèces à bord, plus « 7 € » de droit de passager à partir de 4 ans, payable
@@ -317,7 +333,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **439 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+- **434 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
   Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.

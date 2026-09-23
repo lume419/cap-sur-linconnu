@@ -315,6 +315,21 @@ module.exports = {
       priceByClass: { 1: null, 2: null, 5: null, foot: 37 },
       currency: 'EUR', original: { foot: 37 },
       source: 'https://www.portdemarigot.com/en/gare', date: '2026-09-23',
-      note: "Page du port de Marigot : « approximately 20 minutes », dix départs par jour depuis Marigot (8 h 30 à 18 h) et dix depuis Blowing Point (7 h 30 à 17 h 15), sept jours sur sept. Tarif adulte aller simple « \$30/30 € » payable en espèces à bord, plus « 7 € » de droit de passager à partir de 4 ans, payable seulement en euros ou par carte au guichet : 37 € en tout, le montant retenu. Enfant de 2 à 11 ans : 15 € plus le même droit. Le quai de Marigot n'est pas publié dans les données : le lieu retenu est St. Peters, à 2,2 km. Distance mesurée entre les deux lieux publiés." }
+      note: "Page du port de Marigot : « approximately 20 minutes », dix départs par jour depuis Marigot (8 h 30 à 18 h) et dix depuis Blowing Point (7 h 30 à 17 h 15), sept jours sur sept. Tarif adulte aller simple « \$30/30 € » payable en espèces à bord, plus « 7 € » de droit de passager à partir de 4 ans, payable seulement en euros ou par carte au guichet : 37 € en tout, le montant retenu. Enfant de 2 à 11 ans : 15 € plus le même droit. Le quai de Marigot n'est pas publié dans les données : le lieu retenu est St. Peters, à 2,2 km. Distance mesurée entre les deux lieux publiés." },
+    { a: 'northMiddleCaicos', b: 'providenciales', routeKey: 'providencialesSandyPoint', passengerOnly: true, "priceCovers": null,
+      "coversSource": "grille de passagers : adultes, enfants et chiens sont tarifés, aucune ligne véhicule",
+      name: 'Providenciales ↔ Sandy Point (North Caicos)',
+      operator: "Caribbean Cruisin' (TCI Ferry)", durationH: 0.5, distanceKm: 25,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 34.36 },
+      currency: 'USD', original: { foot: 40 },
+      source: 'https://caribbeancruisin.com/tci-ferry-schedule/', date: '2026-09-23',
+      note: "Grille de l'armateur en vigueur au 1er juin 2025 : « Single Adult: \$40 one-way », aller-retour 70 \$, enfant 30 \$ l'aller, chien 10 \$. Cinq départs par jour du lundi au samedi en haute saison (16 novembre – 1er avril), trois en basse saison. La traversée réelle, du quai de Heaving Down Rock (pointe est de Providenciales) à Sandy Point, fait une douzaine de kilomètres en une demi-heure : **aucun lieu n'est publié à cette pointe**, le plus proche sur Providenciales étant The Bight Settlements à 18 km à l'ouest, si bien que la distance modélisée (25 km) est plus longue que la vraie et la vitesse apparente plus élevée. Taux InforEuro 09/2026 : 1 € = 1,1643 USD. Distance mesurée entre les deux lieux publiés." },
+    { a: 'saintThomasVI', b: 'tortola', routeKey: 'charlotteAmalieRoadTown', passengerOnly: true, "priceCovers": null,
+      "coversSource": "navette rapide de passagers : la grille de l'armateur ne prévoit qu'adultes, aînés et enfants, aucune ligne véhicule",
+      name: 'Charlotte-Amalie (Saint-Thomas) ↔ Road Town (Tortola)',
+      operator: 'Road Town Fast Ferry', durationH: 0.83, distanceKm: 35,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://www.roadtownfastferry.com/', date: '2026-09-23',
+      note: "Site de l'armateur : liaison Charlotte Amalie ↔ Road Town, « approximately 50 minutes », les mardis, samedis et certains dimanches. Les montants de la grille (adulte, aîné, enfant, aller simple et aller-retour) y sont annoncés mais affichés « Not Available Yet » : aucun prix n'est donc écrit ici. Tortola était isolée alors que Saint-Thomas est déjà reliée. Distance mesurée entre les deux lieux publiés." }
   ]
 };
