@@ -330,6 +330,22 @@ module.exports = {
       operator: 'Road Town Fast Ferry', durationH: 0.83, distanceKm: 35,
       priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
       source: 'https://www.roadtownfastferry.com/', date: '2026-09-23',
-      note: "Site de l'armateur : liaison Charlotte Amalie ↔ Road Town, « approximately 50 minutes », les mardis, samedis et certains dimanches. Les montants de la grille (adulte, aîné, enfant, aller simple et aller-retour) y sont annoncés mais affichés « Not Available Yet » : aucun prix n'est donc écrit ici. Tortola était isolée alors que Saint-Thomas est déjà reliée. Distance mesurée entre les deux lieux publiés." }
+      note: "Site de l'armateur : liaison Charlotte Amalie ↔ Road Town, « approximately 50 minutes », les mardis, samedis et certains dimanches. Les montants de la grille (adulte, aîné, enfant, aller simple et aller-retour) y sont annoncés mais affichés « Not Available Yet » : aucun prix n'est donc écrit ici. Tortola était isolée alors que Saint-Thomas est déjà reliée. Distance mesurée entre les deux lieux publiés." },
+    { a: 'tortola', b: 'virginGorda', routeKey: 'roadTownSpanishTown', passengerOnly: true, "priceCovers": null,
+      "coversSource": "grille de passagers : adultes, enfants et nourrissons, aucune ligne véhicule",
+      "durationEstimated": true, name: 'Road Town (Tortola) ↔ Spanish Town (Virgin Gorda)',
+      operator: "Speedy's", durationH: 0.6, distanceKm: 20,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 25.77 },
+      currency: 'USD', original: { foot: 30 },
+      source: 'https://www.speedysbvi.com/ferry-rates ; https://www.speedysbvi.com/speedys-bvi-ferry-schedule', date: '2026-09-23',
+      note: "Grille de l'armateur : adulte de 12 ans et plus « \$30 » l'aller simple, 40 \$ l'aller-retour ; enfant de 5 à 11 ans 20 \$, de 3 à 4 ans 10 \$, moins de 3 ans gratuit. Cinq à sept départs par jour dans chaque sens du lundi au samedi, deux le dimanche. **La durée n'est PAS publiée** : ni la page des horaires (qui ne donne que les départs) ni celle des tarifs ne la donnent. Elle est déduite de la seule vitesse que l'armateur publie, sur sa ligne de Saint-Thomas (« St. Thomas to Virgin Gorda in 90 minutes » pour une cinquantaine de kilomètres, soit environ 37 km/h), ce qui donne une demi-heure ici ; elle est portée à 36 min pour rester sous le plafond de 35 km/h que tests/data.test.js impose aux durées estimées. Taux InforEuro 09/2026 : 1 € = 1,1643 USD. Distance mesurée entre les deux lieux publiés." },
+    { a: 'guanaja', b: 'roatan', routeKey: 'roatanGuanaja', passengerOnly: true, "priceCovers": null,
+      "coversSource": "grille de passagers en deux classes, aucune ligne véhicule",
+      "durationEstimated": true, name: 'Roatán ↔ Guanaja',
+      operator: 'Galaxy Wave', durationH: 2, distanceKm: 77,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 30.06 },
+      currency: 'USD', original: { foot: 35 },
+      source: 'https://www.roatanferry.com/schedule-fares/', date: '2026-09-23',
+      note: "Grille de l'armateur : « Regular US\$ 35.00 », première classe 39 \$. Deux départs par semaine seulement, « Fridays: 12:00 p.m. - Saturdays: 4:00 p.m. » depuis Roatán. **La durée n'est PAS publiée** : deux heures sont retenues comme ordre de grandeur pour les 77 km mesurés, marquées estimées. Taux InforEuro 09/2026 : 1 € = 1,1643 USD. Le quai de Bonacca n'est pas publié : le lieu retenu est Savannah Bight, l'autre localité de l'île. Distance mesurée entre les deux lieux publiés." }
   ]
 };

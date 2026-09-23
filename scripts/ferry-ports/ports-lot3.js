@@ -325,4 +325,15 @@ module.exports = [
     ports: { greatBritain: [{ cc: 'GB', place: 'Penzance' }], scillyStMarys: [{ cc: 'GB', place: 'Hugh Town' }] } },
   { key: 'continental|juist', source: 'https://www.inselfaehre.de/juist (Norddeich-Mole ↔ Juist)',
     ports: { continental: [{ cc: 'DE', place: 'Norddeich', near: [53.6135, 7.1604] }], juist: [{ cc: 'DE', place: 'Juist' }] } },
+  // Îles des Princes : chaque île n'a qu'un lieu publié (Heybeliada, Burgaz, Kınalı).
+  { key: 'continental|heybeliada', source: 'https://sehirhatlari.istanbul/en/timetables/domestic-trips/adalar-princes-islands-lines/kabatas-adalar-177 (İstanbul ↔ Heybeliada)',
+    ports: { continental: [{ cc: 'TR', place: 'İstanbul' }], heybeliada: [{ cc: 'TR', place: 'Heybeliada' }] } },
+  { key: 'burgazada|continental', source: 'https://sehirhatlari.istanbul/en/timetables/domestic-trips/adalar-princes-islands-lines/kabatas-adalar-177 (İstanbul ↔ Burgazada)',
+    ports: { burgazada: [{ cc: 'TR', place: 'Burgaz', near: [40.8826, 29.065] }], continental: [{ cc: 'TR', place: 'İstanbul' }] } },
+  { key: 'continental|kinaliada', source: 'https://sehirhatlari.istanbul/en/timetables/domestic-trips/adalar-princes-islands-lines/kabatas-adalar-177 (İstanbul ↔ Kınalıada)',
+    ports: { continental: [{ cc: 'TR', place: 'İstanbul' }], kinaliada: [{ cc: 'TR', place: 'Kınalı', near: [40.9071, 29.055] }] } },
+  { key: 'tortola|virginGorda', source: 'https://www.speedysbvi.com/ferry-rates (Road Town ↔ Spanish Town)',
+    ports: { tortola: [{ cc: 'VG', place: 'Road Town' }], virginGorda: [{ cc: 'VG', place: 'Spanish Town' }] } },
+  { key: 'guanaja|roatan', source: 'https://www.roatanferry.com/schedule-fares/ (Roatán ↔ Guanaja)',
+    ports: { guanaja: [{ cc: 'HN', place: 'Savannah Bight' }], roatan: [{ cc: 'HN', place: 'Coxen Hole' }] } },
 ];

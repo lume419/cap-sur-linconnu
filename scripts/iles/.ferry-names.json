@@ -1420,6 +1420,14 @@
   "name": "Charlotte-Amalie (Saint-Thomas) ↔ Road Town (Tortola)"
  },
  {
+  "routeKey": "roadTownSpanishTown",
+  "name": "Road Town (Tortola) ↔ Spanish Town (Virgin Gorda)"
+ },
+ {
+  "routeKey": "roatanGuanaja",
+  "name": "Roatán ↔ Guanaja"
+ },
+ {
   "routeKey": "calicaCozumel",
   "name": "Calica (Punta Venado) ↔ Cozumel"
  },
@@ -1778,6 +1786,18 @@
  {
   "routeKey": "istanbulBuyukada",
   "name": "İstanbul ↔ Büyükada"
+ },
+ {
+  "routeKey": "istanbulHeybeliada",
+  "name": "İstanbul ↔ Heybeliada"
+ },
+ {
+  "routeKey": "istanbulBurgazada",
+  "name": "İstanbul ↔ Burgazada"
+ },
+ {
+  "routeKey": "istanbulKinaliada",
+  "name": "İstanbul ↔ Kınalıada"
  },
  {
   "routeKey": "portVilaLuganville",

@@ -116,6 +116,33 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Virgin Gorda et Guanaja : deux tarifs publiés, deux durées qui ne le sont pas.**
+  - **Road Town ⇔ Spanish Town**, Speedy's, 36 min (estimée), 20 km, **25,77 €** (« \$30 » l'aller simple
+    adulte, 40 \$ l'aller-retour). Virgin Gorda rejoint le réseau des îles Vierges par Tortola, reliée la veille.
+  - **Roatán ⇔ Guanaja**, Galaxy Wave, 2 h (estimée), 77 km, **30,06 €** (« Regular US\$ 35.00 »), deux départs
+    par semaine seulement. Roatán était déjà reliée au continent.
+  - **Comment ces deux durées ont été posées, faute d'être publiées.** Speedy's ne donne que des heures de
+    départ : la durée est déduite de la seule vitesse que l'armateur annonce, sur sa ligne de Saint-Thomas
+    (« St. Thomas to Virgin Gorda in 90 minutes » pour une cinquantaine de kilomètres, soit ~37 km/h), ce qui
+    donne une demi-heure ici — portée à 36 min pour rester sous le plafond de 35 km/h des durées estimées.
+    Galaxy Wave n'annonce rien : deux heures sont retenues comme ordre de grandeur. Les deux sont marquées
+    `durationEstimated` et le disent dans leur note.
+  - **Montserrat écartée, et pourquoi** : le service n'existe pas encore. Montserrat Ferry Services écrit
+    « Our detailed schedule and fare structure for the Montserrat–Antigua route are currently being finalized ».
+- **Les trois autres îles des Princes, par la même ligne que Büyükada.**
+  - **İstanbul ⇔ Heybeliada** (20 km), **⇔ Burgazada** (18 km) et **⇔ Kınalıada** (15 km), Şehir Hatları,
+    40 min (estimée), sans prix. Même armateur, même source et **même obstacle** que Büyükada : la grille est
+    derrière une vérification anti-robot et le tableau « Adalar » du barème İBB ne survit pas à l'extraction du
+    PDF. Les véhicules à moteur y sont interdits comme sur toute l'archipel — « motorized vehicles – except
+    service vehicles – are forbidden ».
+  - Burgazada ne figurait pas dans la liste des sept repérées : elle est venue avec les deux autres, son lieu
+    publié (« Burgaz ») étant sur la même ligne et à la même escale près.
+  - Un tirage au départ de Heybeliada enchaîne d'ailleurs sur Lesbos, en avertissant sur la traversée des
+    Princes et pas sur celle de Lesbos, qui embarque les voitures.
+  - **Quatre des sept restent.** Hydra et Spétses : la politique véhicules est solide — les hydroglisseurs et
+    navires rapides du golfe Saronique **n'ont pas de garage** et Hydra est sans voitures — mais Hellenic
+    Seaways n'a plus de page de ligne, seulement une billetterie, donc ni durée ni tarif citables. Virgin Gorda,
+    Montserrat et Guanaja : pas encore cherchées.
 - **Lot 2 (rangs 112 à 222), début : Scilly et Juist.**
   - **Penzance ⇔ St Mary's**, Isles of Scilly Travel (Scillonian III), 2 h 45, 60 km, sans prix. « Dogs allowed »
     est la seule mention, sur la page de la ligne, de ce qui embarque à côté des passagers ; aucun tarif n'y est
@@ -353,7 +380,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **432 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
+- **427 masses terrestres nommées n'ont aucune liaison modélisée** — Saint-Barthélemy, Corvo, Tristan da
   Cunha, Ouvéa, Hœdic, l'Île-de-Sein. Méthode, cette fois écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.
