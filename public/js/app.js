@@ -1736,6 +1736,17 @@
         communeSpan.textContent = ' · ' + r.commune;
         nameTextSpan.appendChild(communeSpan);
       }
+      // Ce qui distingue cette ligne de ses homonymes au rendu identique (voir marquerDistinctions) : région,
+      // population ou coordonnée. Absent quand la ligne est déjà seule de son espèce.
+      if(r.distinct){
+        var distinctSpan = document.createElement('span');
+        distinctSpan.className = 'suggest-distinct';
+        // Une coordonnée est faite de chiffres et de virgules : en écriture de droite à gauche, elle s'inverserait
+        // comme le code postal le faisait avant le 19e audit. Une région, elle, garde le sens de la page.
+        if(r.distinctLtr) distinctSpan.setAttribute('dir', 'ltr');
+        distinctSpan.textContent = ' · ' + r.distinct;
+        nameTextSpan.appendChild(distinctSpan);
+      }
       nameSpan.appendChild(flagSpan);
       nameSpan.appendChild(nameTextSpan);
       var cpSpan = document.createElement('span');
@@ -1800,6 +1811,62 @@
     live.textContent = '';
     if(!texte) return;
     rechercheLiveTimer = setTimeout(function(){ rechercheLiveTimer = null; live.textContent = texte; }, 0);
+  }
+  // SUGGESTIONS INDISCERNABLES (23/09/2026). Deux lignes qui affichent exactement le même texte ne désignent rien :
+  // le visiteur ne peut pas choisir. C'est le prix du démasquage des homonymes du 22/09 — avant lui, un seul lieu par
+  // couple (nom, code postal) était proposé, donc la question ne se posait pas. Mesuré sur les données publiées :
+  // 237 599 groupes rendaient au moins deux lignes au rendu identique, soit 789 499 lignes. « Xincun », code CN-30,
+  // en rend 287 à lui seul, et les deux Robīt d'Éthiopie — 20 679 habitants et population inconnue, 227 km d'écart —
+  // s'affichaient « Robīt — ET-46 » l'un comme l'autre.
+  //
+  // Chaque ligne reçoit donc ce qui la DISTINGUE de ses homonymes, et seulement quand elle en a. Trois étapes, de la
+  // plus parlante à la plus sûre : la RÉGION, sinon la POPULATION, sinon la COORDONNÉE. Les deux premières viennent
+  // de la réponse et ne coûtent rien ; la troisième ne se lit pas bien, mais elle désigne TOUJOURS, et elle n'est
+  // employée que là où rien d'autre ne sépare les fiches — mesuré : la région et la population sont identiques pour
+  // les 287 Xincun comme pour les 8 Kārēz d'Afghanistan.
+  // Aucune recherche spatiale ici : un « près de telle ville » serait plus lisible, mais il demanderait une requête
+  // de voisinage par suggestion, sur le chemin le plus chaud du moteur, à chaque frappe.
+  function coordTexte(r){
+    var n = function(v){ return Number(v).toLocaleString(localeTag(), { minimumFractionDigits: 2, maximumFractionDigits: 2 }); };
+    return n(r.lat) + ', ' + n(r.lon);
+  }
+  function popTexte(r){
+    var vars = { n: r.pop.toLocaleString(localeTag()) };
+    return pluralPhrase('reveal.inhabitants', r.pop, vars) || t('reveal.inhabitants', vars);
+  }
+  // Un groupe encore ambigu est redécoupé par l'étape suivante. Une étape qui ne sépare rien est sautée sans rien
+  // afficher : mieux vaut aucune mention qu'une mention identique partout.
+  function affinerDistinctions(groupe, etape){
+    if(groupe.length < 2) return;
+    if(etape >= 2){
+      groupe.forEach(function(r){ r.distinct = coordTexte(r); r.distinctLtr = true; });
+      return;
+    }
+    var valeur = etape === 0 ? function(r){ return r.dept || ''; } : function(r){ return r.pop ? popTexte(r) : ''; };
+    var sous = {}, ordre = [];
+    groupe.forEach(function(r){
+      var v = valeur(r);
+      if(!Object.prototype.hasOwnProperty.call(sous, v)){ sous[v] = []; ordre.push(v); }
+      sous[v].push(r);
+    });
+    if(ordre.length < 2) return affinerDistinctions(groupe, etape + 1); // cette étape ne distingue rien
+    ordre.forEach(function(v){
+      if(v) sous[v].forEach(function(r){ r.distinct = v; r.distinctLtr = false; });
+      affinerDistinctions(sous[v], etape + 1); // sous-groupe encore ambigu : on affine, quitte à remplacer
+    });
+  }
+  function marquerDistinctions(results){
+    var parTexte = {}, ordre = [];
+    results.forEach(function(r){
+      r.distinct = null; r.distinctLtr = false;
+      // La clé est EXACTEMENT ce que la ligne montre aujourd'hui (voir renderSuggestions) : drapeau, nom, nom
+      // alternatif, commune de rattachement, code postal. Deux fiches qui en diffèrent sont déjà distinguables.
+      var k = r.country + '|' + r.name + '|' + (r.matchedName || '') + '|' + (r.cp || '') + '|' + (r.commune || '');
+      if(!Object.prototype.hasOwnProperty.call(parTexte, k)){ parTexte[k] = []; ordre.push(k); }
+      parTexte[k].push(r);
+    });
+    ordre.forEach(function(k){ affinerDistinctions(parTexte[k], 0); });
+    return results;
   }
   function renderSuggestMessage(text){
     els.citySuggest.innerHTML = '';
@@ -1908,7 +1975,7 @@
           // reprocher au visiteur de ne pas avoir fini de taper (voir l'autre appel à renderSuggestions).
           var trouvés = data.results || [];
           if(!trouvés.length){ renderSuggestMessage(t('form.city.searchNoResults')); annonceRecherche(t('form.city.searchNoResults')); }
-          else { renderSuggestions(trouvés); annonceRecherche(''); }
+          else { renderSuggestions(marquerDistinctions(trouvés)); annonceRecherche(''); }
         })
         // Panne réseau : même traitement que le tirage depuis la 16e passe — on le dit, au lieu de refermer la liste.
         .catch(function(){ if(mySeq === searchRequestSeq) renderSuggestMessage(t('error.network')); });

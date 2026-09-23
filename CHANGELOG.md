@@ -59,6 +59,19 @@ marqués `[à vérifier]` et listés en fin de fichier.
 - Écart de casse entre le quota, le calcul de taille et la voie de service : sur un système de
   fichiers insensible à la casse, `/js/I18N.js` passait le quota en réservant zéro octet et se faisait
   recompresser. Les trois emploient la même clé, et une variante de casse est redirigée.
+- **Suggestions indiscernables.** Lever la fusion des homonymes avait échangé « introuvable » contre
+  « trouvable mais indésignable » : **238 081 groupes rendaient au moins deux lignes au rendu
+  identique — 789 210 lignes** avec le même drapeau, le même nom, le même code postal et rien
+  d'autre. « Xincun », code CN-30 : 512 fiches, 287 suggestions, dont 20 affichées, toutes pareilles ;
+  les deux Robīt d'Éthiopie, 20 679 habitants et population inconnue à 227 km l'un de l'autre,
+  s'affichaient à l'identique. Chaque ligne porte désormais ce qui la distingue de ses homonymes, et
+  seulement quand elle en a : la **région** si elle diffère, sinon la **population**, sinon la
+  **coordonnée**. Remesuré sur toutes les données : **0 groupe reste identique** — 5 019 distingués
+  par la région, 5 217 par la population, 227 845 par la coordonnée. Le repli est peu lisible mais il
+  désigne toujours, et la région comme la population sont identiques dans les cas de masse (les 287
+  Xincun sont tous en Guangdong et tous à population inconnue). Aucune recherche spatiale n'est faite :
+  un « près de telle ville » serait plus lisible mais demanderait une requête de voisinage par
+  suggestion, à chaque frappe, sur le chemin le plus chaud du moteur.
 - Parenthèse vide dans le champ de ville après avoir choisi un lieu sans code postal (« Hrazdan () ») :
   98 910 lieux publiés n'en ont pas.
 - « Aucune ville trouvée. » n'était pas annoncée aux lecteurs d'écran, alors que « Aucune langue
@@ -120,11 +133,6 @@ marqués `[à vérifier]` et listés en fin de fichier.
   lieu par couple (pays, nom) atteint par un code : « Robit » rend deux suggestions, « ET-46 » une seule.
   Comportement inchangé et identique des deux côtés, mais l'objectif « dans les deux chemins » n'est
   atteint que sur deux des trois voies d'accès.
-- **789 499 suggestions sont indiscernables.** Lever la fusion a échangé « introuvable » contre
-  « trouvable mais indésignable » : 237 599 groupes rendent au moins deux lignes au rendu identique — même
-  nom, même code, rien d'autre affiché. « Xincun », code CN-30 : 512 fiches, 287 suggestions, dont 20
-  affichées, toutes identiques. Les distinguer demande d'ajouter une colonne à la ligne de suggestion,
-  donc une décision d'interface.
 - **355 lieux français sont leur propre commune sous un nom abrégé** (« Abriès » à côté d'« Abriès-Ristolas »,
   même population, même point). Conservés sur décision : les retirer ferait perdre le nom abrégé comme
   terme de recherche.

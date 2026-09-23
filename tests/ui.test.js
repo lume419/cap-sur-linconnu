@@ -1710,3 +1710,67 @@ test('23/09/2026 : « Aucune ville trouvée » est annoncée aux lecteurs d\'éc
   vider();
   assert.equal(live.textContent, '', 'annonce périmée écrite alors que la liste est pleine');
 });
+
+test('23/09/2026 : deux suggestions au rendu identique reçoivent ce qui les distingue', () => {
+  // Le démasquage des homonymes du 22/09 a produit 789 499 lignes indiscernables : même drapeau, même nom, même code
+  // postal, rien d'autre. Les trois cas ci-dessous sont mesurés sur les données publiées — région identique partout,
+  // donc chaque étape du discriminant est réellement exercée.
+  const ctx = {
+    localeTag: () => 'fr-FR',
+    pluralPhrase: (key, n, vars) => null,                       // pas de forme plurielle en français
+    t: (key, vars) => vars.n + ' habitants',
+    Object: Object, Number: Number
+  };
+  const src = [extract('coordTexte'), extract('popTexte'), extract('affinerDistinctions'), extract('marquerDistinctions')].join('\n');
+  vm.createContext(ctx);
+  vm.runInContext(src + '\nthis.marquerDistinctions = marquerDistinctions;', ctx);
+
+  // 1. Deux Robīt d'Éthiopie : même région (Amhara), même code. Seule la population les sépare.
+  const robit = ctx.marquerDistinctions([
+    { country: 'ET', name: 'Robīt', cp: 'ET-46', dept: 'Amhara', pop: 20679, lat: 12.0167, lon: 39.6333 },
+    { country: 'ET', name: 'Robīt', cp: 'ET-46', dept: 'Amhara', pop: 0, lat: 12.35, lon: 37.3667 }
+  ]);
+  // L'attente est construite comme le code la produit : « fr-FR » sépare les milliers par une espace fine insécable
+  // (U+202F) depuis Node 20, l'écrire à la main donnerait un faux échec.
+  assert.equal(robit[0].distinct, (20679).toLocaleString('fr-FR') + ' habitants', 'population attendue, obtenu ' + JSON.stringify(robit[0].distinct));
+  // La fiche à population INCONNUE n'affiche rien : c'est déjà une différence visible, et inventer une mention
+  // (« population inconnue ») alourdirait la ligne sans rien apprendre.
+  assert.equal(robit[1].distinct, null);
+  assert.notEqual(robit[0].distinct, robit[1].distinct, 'les deux lignes restent identiques');
+
+  // 1 bis. Trois fiches, une seule à population connue : les deux autres restent indiscernables entre elles et
+  // doivent donc descendre d'un cran, jusqu'à la coordonnée.
+  const trois = ctx.marquerDistinctions([
+    { country: 'ET', name: 'Robīt', cp: 'ET-46', dept: 'Amhara', pop: 20679, lat: 12.0167, lon: 39.6333 },
+    { country: 'ET', name: 'Robīt', cp: 'ET-46', dept: 'Amhara', pop: 0, lat: 12.35, lon: 37.3667 },
+    { country: 'ET', name: 'Robīt', cp: 'ET-46', dept: 'Amhara', pop: 0, lat: 11.90, lon: 39.10 }
+  ]);
+  const vus = trois.map(r => r.distinct);
+  assert.equal(new Set(vus).size, 3, 'les trois lignes doivent différer, obtenu ' + JSON.stringify(vus));
+  assert.ok(trois[1].distinctLtr && trois[2].distinctLtr, 'les deux fiches sans population doivent porter leur coordonnée');
+
+  // 2. Deux Kārēz d'Afghanistan : même région (Zabul), population inconnue des deux côtés -> coordonnée.
+  const karez = ctx.marquerDistinctions([
+    { country: 'AF', name: 'Kārēz', cp: 'AF-28', dept: 'Zabul', pop: 0, lat: 32.1, lon: 67.2 },
+    { country: 'AF', name: 'Kārēz', cp: 'AF-28', dept: 'Zabul', pop: 0, lat: 32.4, lon: 66.9 }
+  ]);
+  assert.notEqual(karez[0].distinct, karez[1].distinct, 'deux fiches sans région ni population distinctes doivent porter leur coordonnée');
+  assert.ok(karez[0].distinctLtr && karez[1].distinctLtr, 'une coordonnée doit être marquée de gauche à droite');
+  assert.match(karez[0].distinct, /32,10/, 'coordonnée attendue, obtenu ' + JSON.stringify(karez[0].distinct));
+
+  // 3. Régions différentes : c'est la mention la plus parlante, elle passe avant la population.
+  const springfield = ctx.marquerDistinctions([
+    { country: 'US', name: 'Springfield', cp: '62701', dept: 'Illinois', pop: 114394, lat: 39.8, lon: -89.6 },
+    { country: 'US', name: 'Springfield', cp: '62701', dept: 'Missouri', pop: 169176, lat: 37.2, lon: -93.3 }
+  ]);
+  assert.equal(springfield[0].distinct, 'Illinois');
+  assert.equal(springfield[1].distinct, 'Missouri');
+
+  // 4. Une suggestion seule de son espèce ne porte aucune mention : la ligne ne doit pas s'alourdir sans raison.
+  const seule = ctx.marquerDistinctions([
+    { country: 'FR', name: 'Lyon', cp: '69001', dept: '69', pop: 519127, lat: 45.75, lon: 4.85 },
+    { country: 'FR', name: 'Marseille', cp: '13001', dept: '13', pop: 861635, lat: 43.3, lon: 5.4 }
+  ]);
+  assert.equal(seule[0].distinct, null);
+  assert.equal(seule[1].distinct, null);
+});

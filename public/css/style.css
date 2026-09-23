@@ -358,8 +358,10 @@
   .hike-portals{grid-column:1 / -1; font-style:normal; font-weight:400; font-size:.8rem; line-height:1.4; color:var(--ink-soft); padding:.2rem .1rem;}
   .hike-portals a{color:var(--accent-3);}
   .suggest-matched{font-weight:400; color:var(--ink-soft);} /* sans opacité : 3,9:1 avant (10e audit), 5,5:1 désormais */
-  /* Commune de rattachement d'un lieu-dit : même traitement que le nom alternatif, même contraste (5,5:1). */
-  .suggest-commune{font-weight:400; color:var(--ink-soft);}
+  /* Commune de rattachement d'un lieu-dit, et ce qui distingue une ligne de ses homonymes identiques (région,
+     population ou coordonnée) : même traitement que le nom alternatif, même contraste (5,5:1). */
+  .suggest-commune,
+  .suggest-distinct{font-weight:400; color:var(--ink-soft);}
   /* Drapeau d'une suggestion : image SVG ronde de 16 px (public/img/flags/), ou l'émoji de repli à la même taille. */
   .suggest-flag{flex:none; font-size:1rem; line-height:1;}
   img.suggest-flag{width:16px; height:16px; border-radius:50%; object-fit:cover; display:block;}
