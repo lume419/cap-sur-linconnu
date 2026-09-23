@@ -239,9 +239,23 @@ module.exports = {
       priceByClass: { 1: 36.10, 2: 48.20, 5: 18.00, foot: 11.20 },
       source: 'https://mobile.caremar.it/it/tariffe/', date: D,
       note: "Grille Caremar (traghetto) : auto ≤ 4 m 36,10 €, > 4 m 48,20 € (classe 2), moto ≤ 250 cc 18,00 € (> 250 cc 20,30), passager 11,20 €. Page sans date de validité. RESTRICTION : du 3 avril au 31 octobre 2026, afflux et circulation interdits aux véhicules des résidents de CAMPANIE non insulaires (décret du président de la Région) ; les véhicules immatriculés/possédés hors Campanie restent admis. ~60 min." },
-    // Procida : mêmes grilles Caremar (Pozzuoli ↔ Procida auto ≤ 4 m 36,10 €, > 4 m 48,20 €, moto 18,00/20,30 €, passager 9,50 € ;
-    //   Ischia ↔ Procida auto 36,10/48,20 €, passager 9,40 €) MAIS débarquement et circulation interdits à TOUS les véhicules de
-    //   non-résidents du 30 mars au 15 octobre 2026 (délibération communale) -> isolée sans ferry (véhicules de résidents seulement en saison).
+    // Procida et Capri étaient LAISSÉES SANS LIAISON, faute de pouvoir dire « le bateau prend les passagers mais pas
+    // les véhicules » : le débarquement des voitures de non-résidents y est interdit la plus grande partie de l'année.
+    // Le champ `passengerOnly` (23/09/2026) le permet désormais. Les deux îles sont donc rendues au site avec leur
+    // ligne de PASSAGERS, qui elle circule toute l'année et sans restriction : on y va en laissant sa voiture au port,
+    // ce que font les visiteurs. Le tarif retenu est celui de l'aliscafo (passagers seuls), pas celui du traghetto.
+    { a: 'continental', b: 'procida', routeKey: 'napoliProcida', passengerOnly: true, "priceCovers": null,
+      "coversSource": "tarif passager seul : l'aliscafo n'embarque aucun véhicule", name: 'Napoli ↔ Procida',
+      operator: 'Caremar (aussi Medmar, SNAV)', durationH: 0.58, distanceKm: 24,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 17.40 },
+      source: 'https://mobile.caremar.it/it/tariffe/', date: D,
+      note: "Grille Caremar, colonne aliscafo Napoli ↔ Procida : passager 17,40 €. « L'aliscafo trasporta esclusivamente passeggeri » — aucun tarif auto ni moto sur cette colonne, contrairement au traghetto (auto ≤ 4 m 37,30 €, > 4 m 49,60 €, moto 19,50/22,00 €, passager 12,70 €). Le traghetto n'est pas retenu : le débarquement et la circulation sont interdits à TOUS les véhicules de non-résidents du 30 mars au 15 octobre 2026 (délibération communale), soit la plus grande partie de l'année. ~35 min depuis Molo Beverello." },
+    { a: 'capri', b: 'continental', routeKey: 'napoliCapri', passengerOnly: true, "priceCovers": null,
+      "coversSource": "tarif passager seul : l'aliscafo n'embarque aucun véhicule", name: 'Napoli ↔ Capri',
+      operator: 'Caremar (aussi SNAV, NLG, Gescab, Laser Capri)', durationH: 0.83, distanceKm: 34,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 21.50 },
+      source: 'https://mobile.caremar.it/it/tariffe/', date: D,
+      note: "Grille Caremar, colonne TMV (rapide) Napoli ↔ Capri : passager 21,50 €. Le traghetto embarque bien les véhicules (auto ≤ 4 m 47,30 €, moto > 250 cc 28,20 €) depuis Calata Porta di Massa, mais « non-residents can only embark vehicles for the island starting in the beginning of November to around Easter » (capri.com) : interdiction du 31 mars au 2 novembre plus la période du 22 décembre au 6 janvier (décret du président de la Région Campanie), amendes de 430 à 1 731 €. La ligne passagers, elle, circule toute l'année sans restriction. 50 à 80 min selon le navire." },
     // Capri : Caremar Napoli ↔ Capri (auto ≤ 4 m 47,30 €, > 4 m 67,60 €, moto 23,40/28,20 €, passager 14,80 €) MAIS décret régional
     //   n° 22 du 25/03/2026 : véhicules de non-résidents interdits du 30 mars au 2 novembre 2026 et du 28 décembre 2026 au 3 janvier 2027
     //   -> isolée sans ferry. Si la session principale veut les relier hors saison, les chiffres ci-dessus sont prêts.

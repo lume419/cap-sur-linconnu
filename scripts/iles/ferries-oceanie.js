@@ -158,6 +158,40 @@ module.exports = {
       priceByClass: { 1: 527.84, 2: 754.05, 5: 159.19, foot: 68.70 },
       currency: 'XPF', original: { car: 63000, van: 90000, moto: 19000, foot: 8200 },
       source: 'https://www.betico.nc/tarifs', date: '2026-09-16',
-      note: "Grille Betico colonne « Île des Pins & inter-îles (Lifou-Maré) » : mêmes montants que Nouméa ↔ Île des Pins. Passager inter-îles Standard 8 200 F. 2 h (betico.nc)." }
+      note: "Grille Betico colonne « Île des Pins & inter-îles (Lifou-Maré) » : mêmes montants que Nouméa ↔ Île des Pins. Passager inter-îles Standard 8 200 F. 2 h (betico.nc)." },
+    // ------------------------------------------------------------ Polynésie française : Îles Sous-le-Vent (Apetahi Express)
+    // SANS VÉHICULES. Ces quatre îles — Huahine, Raiatea, Taha'a, Bora-Bora — n'avaient aucune liaison et sortaient donc
+    // des voyages. L'Apetahi Express les dessert toute l'année, mais n'embarque que des passagers : sa grille tarifaire
+    // officielle ne comporte aucune ligne véhicule, alors que celle du Tauati Ferry (Papeete ↔ Moorea), du même groupe,
+    // en a une (voiture 4 400 f, deux-roues 1 300 f l'aller). Tarif unique 7 000 XPF le segment, sans distinction de
+    // distance ni de classe. Durées annoncées par Tahiti Tourisme, escale d'une demi-heure à chaque île.
+    { a: 'huahine', b: 'tahiti', routeKey: 'papeeteHuahine', passengerOnly: true, "priceCovers": null,
+      "coversSource": "tarif passager seul : la grille Apetahi Express ne comporte aucune ligne véhicule",
+      name: 'Papeete ↔ Fare (Huahine)', operator: 'Apetahi Express (Tuatea Ferries)', durationH: 3, distanceKm: 177,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 58.65 },
+      currency: 'XPF', original: { foot: 7000 },
+      source: 'https://tuateaferries.com/en/fares/', date: '2026-09-23',
+      note: "Tarif unique 7 000 XPF l'aller (14 000 aller-retour), page des tarifs horodatée du 1er juin 2026. Tahiti ↔ Huahine « in 3 hours ». Aller les mardis, mercredis, vendredis et dimanches ; retour les lundis, mercredis, jeudis et samedis. Réservation obligatoire entre Tahiti et les Îles Sous-le-Vent." },
+    { a: 'huahine', b: 'raiatea', routeKey: 'huahineUturoa', passengerOnly: true, "priceCovers": null,
+      "coversSource": "tarif passager seul : la grille Apetahi Express ne comporte aucune ligne véhicule",
+      name: 'Fare (Huahine) ↔ Uturoa (Raiatea)', operator: 'Apetahi Express (Tuatea Ferries)', durationH: 1, distanceKm: 49,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 58.65 },
+      currency: 'XPF', original: { foot: 7000 },
+      source: 'https://tuateaferries.com/en/fares/', date: '2026-09-23',
+      note: "Tarif unique 7 000 XPF l'aller (14 000 aller-retour), page des tarifs horodatée du 1er juin 2026. Huahine ↔ Raiatea « in 1 hour ». Aller les mardis, mercredis, vendredis et dimanches ; retour les lundis, mercredis, jeudis et samedis. Réservation obligatoire entre Tahiti et les Îles Sous-le-Vent." },
+    { a: 'raiatea', b: 'tahaa', routeKey: 'uturoaTahaa', passengerOnly: true, "priceCovers": null,
+      "coversSource": "tarif passager seul : la grille Apetahi Express ne comporte aucune ligne véhicule",
+      name: "Uturoa (Raiatea) ↔ Taha'a", operator: 'Apetahi Express (Tuatea Ferries)', durationH: 0.75, distanceKm: 14,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 58.65 },
+      currency: 'XPF', original: { foot: 7000 },
+      source: 'https://tuateaferries.com/en/fares/', date: '2026-09-23',
+      note: "Tarif unique 7 000 XPF l'aller (14 000 aller-retour), page des tarifs horodatée du 1er juin 2026. Raiatea ↔ Taha a « in 45 minutes ». Aller les mardis, mercredis, vendredis et dimanches ; retour les lundis, mercredis, jeudis et samedis. Réservation obligatoire entre Tahiti et les Îles Sous-le-Vent." },
+    { a: 'boraBora', b: 'tahaa', routeKey: 'tahaaBoraBora', passengerOnly: true, "priceCovers": null,
+      "coversSource": "tarif passager seul : la grille Apetahi Express ne comporte aucune ligne véhicule",
+      name: "Taha'a ↔ Vaitape (Bora-Bora)", operator: 'Apetahi Express (Tuatea Ferries)', durationH: 1, distanceKm: 35,
+      priceByClass: { 1: null, 2: null, 5: null, foot: 58.65 },
+      currency: 'XPF', original: { foot: 7000 },
+      source: 'https://tuateaferries.com/en/fares/', date: '2026-09-23',
+      note: "Tarif unique 7 000 XPF l'aller (14 000 aller-retour), page des tarifs horodatée du 1er juin 2026. Taha a ↔ Bora « in 1 hour ». Aller les mardis, mercredis, vendredis et dimanches ; retour les lundis, mercredis, jeudis et samedis. Réservation obligatoire entre Tahiti et les Îles Sous-le-Vent." },
   ]
 };

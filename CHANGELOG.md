@@ -102,6 +102,23 @@ marqués `[à vérifier]` et listés en fin de fichier.
   marqué comme tel. `fareClass` était lu par l'interface sans que rien ne le pose jamais : il sert enfin, et
   le prix s'affiche « par personne » — chaîne déjà traduite dans les 161 langues, aucune n'a été ajoutée.
   Vérifié : les quatre modes partent désormais de Hrísey, au tarif passager publié.
+- **Six îles rendues au site par des liaisons sans véhicules.** Le champ `passengerOnly` ouvert pour Hrísey
+  vaut pour toute une classe d'îles que le projet écartait faute de ferry *voiture*. Six sont ajoutées, avec
+  des distances mesurées entre les deux lieux publiés : **Capri** (Naples ⇔ Capri, 50 min, 34 km, 21,50 €) et
+  **Procida** (35 min, 24 km, 17,40 €), source [caremar.it](https://mobile.caremar.it/it/tariffe/) ;
+  **Huahine, Raiatea, Taha'a et Bora-Bora** par l'Apetahi Express (Tahiti ⇔ Huahine 3 h / 177 km,
+  Huahine ⇔ Raiatea 1 h / 49 km, Raiatea ⇔ Taha'a 45 min / 14 km, Taha'a ⇔ Bora-Bora 1 h / 35 km), tarif
+  unique 7 000 XPF le segment soit 58,65 €, source [tuateaferries.com](https://tuateaferries.com/en/fares/).
+  Aucune des deux grilles ne comporte de ligne véhicule, là où celle du Tauati Ferry (même groupe) en a une :
+  les sept liaisons sont donc `passengerOnly`, proposées à tous les modes au tarif piéton.
+- **Avertissement « ce ferry n'embarque pas de véhicules », dans les 161 langues.** Proposer l'île sans le dire
+  aurait envoyé quelqu'un au port avec sa voiture. La phrase s'affiche sous la traversée, dans le bandeau orange
+  des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
+  sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
+  ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- Uturoa ⇔ Taha'a annonçait 10 km pour 14,2 km mesurés, et une route déjà publiée (Gladstone ⇔ Curtis Island)
+  avait été modifiée par erreur : un script de correction remplaçait la **première** occurrence d'un motif
+  présent deux fois. Les deux valeurs sont rétablies d'après les coordonnées publiées.
 - Parenthèse vide dans le champ de ville après avoir choisi un lieu sans code postal (« Hrazdan () ») :
   98 910 lieux publiés n'en ont pas.
 - « Aucune ville trouvée. » n'était pas annoncée aux lecteurs d'écran, alors que « Aucune langue

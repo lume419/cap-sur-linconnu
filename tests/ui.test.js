@@ -64,7 +64,7 @@ function extractVar(name){
 
 const FNS = ['isoDate', 'parseIsoDate', 'formatFrDate', 'formatDateRange', 'formatStayRange', 'formatNum', 'formatMoney',
   'approxMark', 'approxMoney', 'rangeDecimals', 'approxMoneyRange', 'formatList', 'tIfDefined', 'statsLabel', 'pluralPhrase', 'chargeStopsText',
-  'nounFirstLang', 'stopKey', 'tripTotalKm', 'tripFerryKm', 'tollRange', 'tollRangeKind', 'ferryLabel', 'ferryFootFare', 'ferryPriceText',
+  'nounFirstLang', 'stopKey', 'tripTotalKm', 'tripFerryKm', 'tollRange', 'tollRangeKind', 'ferryLabel', 'ferryFootFare', 'ferryNoVehicles', 'ferryPriceText',
   'withoutEmptyRoute', 'ferryText', 'ferryTotalLabel', 'formatDurationMin', 'fmtHours', 'tripStatsParts', 'vignetteCountriesOfGroup',
   'durationLabel', 'maxDaysSuffix', 'groupLegsByStay', 'dayBadgeText', 'tripLabelText',
   // Unité de distance (13e audit).
@@ -102,7 +102,7 @@ function sandbox(){
   const glue = [
     'var t = window.I18N.t, localeTag = function(c){ return window.I18N.localeTag(c); };',
     'var VISITOR_LANG = "fr", MAX_TRIP_DAYS = 21;',
-    'var TRANSPORT = { "voiture-thermique": { tollClass: 1, ferryClass: 1 }, "velo": { tollClass: null, ferryClass: "foot" } };',
+    'var TRANSPORT = { "voiture-thermique": { tollClass: 1, ferryClass: 1 }, "moto": { tollClass: 2, ferryClass: 2 }, "velo": { tollClass: null, ferryClass: "foot" } };',
     'var COUNTRIES = { CH: { name: "Suisse", vignette: { url: "https://www.via.admin.ch/shop/" } }, FR: { name: "France" } };',
     'var TOLL_SOURCE = { FR: "autoroutes françaises 2026" }, KNOWN_POI_TYPES = { museum: 1 }, CURRENCY_OPTIONS = ["EUR"];',
     'var sessionCurrency, currentTripData = null, currentTripLabel = "", fieldDistanceUnit = "km", radiusMode = "km";',
@@ -1003,6 +1003,47 @@ test('traversée ESTIMÉE (paire de ports) : « environ », tarif inconnu, à l\
     assert.ok(!parts.some(x => MONEY_SIGNS.test(x.value)), l + ' : montant dans les statistiques : ' + JSON.stringify(parts));
     const unpriced = A.statsLabel(1, 'stats.ferryUnpriced');
     assert.ok(parts.some(x => x.label === unpriced || x.value === unpriced), l + ' : traversée sans tarif non comptée : ' + JSON.stringify(parts));
+    A.setTrip(null);
+  }
+  A.setLang('fr');
+});
+
+
+// Ferry PIÉTON UNIQUEMENT (routes passengerOnly : Capri, Procida, Hínsey, Apetahi Express…). L'île doit rester
+// proposée — le voyageur laisse son véhicule au port — mais l'avertissement doit être lisible, dans sa langue, à
+// l'écran ET dans le PDF, et ne JAMAIS s'afficher pour un cycliste (classe 'foot' : la phrase serait fausse).
+test("ferry sans véhicules : avertissement traduit à l'écran et dans le PDF, jamais à vélo", () => {
+  const fi = { routeKey: 'ferry.route.napoliCapri', amount: 21.5, fareClass: 'foot', passengerOnly: true, durationH: 0.83 };
+  for(const k of ['voiture-thermique', 'moto']){
+    assert.equal(A.ferryNoVehicles(fi, k), true, k);
+  }
+  assert.equal(A.ferryNoVehicles(fi, 'velo'), false, 'vélo : le tarif est déjà piéton');
+  assert.equal(A.ferryNoVehicles({ amount: 21.5 }, 'voiture-thermique'), false, 'route ordinaire');
+  assert.equal(A.ferryNoVehicles(null, 'voiture-thermique'), false);
+
+  // L'écran ne se rend pas dans ce bac à sable : on contrôle sur la SOURCE que la ligne d'avertissement existe,
+  // qu'elle est posée DANS le bloc ferryInfo et qu'elle affiche la phrase traduite.
+  assert.equal(APP.split('if(firstLeg.ferryInfo){').length, 2, 'bloc ferryInfo introuvable ou dupliqué');
+  const bloc = APP.split('if(firstLeg.ferryInfo){')[1].slice(0, 1400);
+  assert.ok(bloc.indexOf('ferryNoVehicles(fi, trip.transportKey)') >= 0, "avertissement absent de l'écran");
+  assert.ok(bloc.indexOf("t('ferry.noVehicles')") >= 0, "phrase non traduite à l'écran");
+
+  for(const l of ['fr', 'en', 'ja', 'ar', 'kek']){
+    A.setLang(l);
+    const phrase = W.I18N.t('ferry.noVehicles');
+    assert.ok(phrase && phrase.indexOf('ferry.noVehicles') < 0, l + ' : clé non traduite');
+    // PDF : la phrase suit le texte de la traversée, et le drapeau voyage dans le corps envoyé au serveur.
+    const trip = fakeTrip('voiture-thermique');
+    trip.legs[1].ferryInfo = Object.assign({}, fi);
+    A.setTrip(trip);
+    const p = A.buildTripExportPayload();
+    assert.ok(p.legs[1].texts.ferry.endsWith(phrase), l + ' PDF : « ' + p.legs[1].texts.ferry + ' »');
+    assert.equal(p.legs[1].ferryInfo.passengerOnly, true, l + ' : drapeau absent du corps');
+    // À vélo, la même traversée ne porte AUCUN avertissement.
+    const vlo = fakeTrip('velo');
+    vlo.legs[1].ferryInfo = Object.assign({}, fi);
+    A.setTrip(vlo);
+    assert.ok(A.buildTripExportPayload().legs[1].texts.ferry.indexOf(phrase) < 0, l + ' : avertissement affiché à vélo');
     A.setTrip(null);
   }
   A.setLang('fr');

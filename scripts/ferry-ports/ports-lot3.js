@@ -46,6 +46,21 @@ module.exports = [
   // « Litli-Árskógssandur », le village du terminal, à 3,9 km de Hrísey.
   { key: 'hrisey|iceland', source: 'https://www.vegagerdin.is/en/the-transportation-system/public-transport/ferries/saevar-hrisey (Árskógssandur ↔ Hrísey)',
     ports: { hrisey: [{ cc: 'IS', place: 'Hrísey' }], iceland: [{ cc: 'IS', place: 'Litli-Árskógssandur' }] } },
+  // Îles Sous-le-Vent (Apetahi Express) : les ports sont les chefs-lieux publiés — Fare, Vaitape et les quais de Taha'a
+  // ne figurent pas dans les données, l'île elle-même y tient lieu de point d'embarquement.
+  { key: 'huahine|tahiti', source: 'https://tuateaferries.com/en/fares/ (Papeete ↔ Fare (Huahine))',
+    ports: { huahine: [{ cc: 'FR', place: 'Huahine' }], tahiti: [{ cc: 'FR', place: 'Papeete' }] } },
+  { key: 'huahine|raiatea', source: 'https://tuateaferries.com/en/fares/ (Fare (Huahine) ↔ Uturoa (Raiatea))',
+    ports: { huahine: [{ cc: 'FR', place: 'Huahine' }], raiatea: [{ cc: 'FR', place: 'Uturoa' }] } },
+  { key: 'raiatea|tahaa', source: 'https://tuateaferries.com/en/fares/ (Uturoa (Raiatea) ↔ Taha\'a)',
+    ports: { raiatea: [{ cc: 'FR', place: 'Uturoa' }], tahaa: [{ cc: 'FR', place: 'Tahaa' }] } },
+  { key: 'boraBora|tahaa', source: 'https://tuateaferries.com/en/fares/ (Taha\'a ↔ Vaitape (Bora-Bora))',
+    ports: { boraBora: [{ cc: 'FR', place: 'Bora-Bora' }], tahaa: [{ cc: 'FR', place: 'Tahaa' }] } },
+  // Golfe de Naples : lignes de PASSAGERS, les seules ouvertes toute l'année aux non-résidents.
+  { key: 'continental|procida', source: 'https://mobile.caremar.it/it/tariffe/ (Napoli ↔ Procida)',
+    ports: { continental: [{ cc: 'IT', place: 'Napoli' }], procida: [{ cc: 'IT', place: 'Procida' }] } },
+  { key: 'capri|continental', source: 'https://mobile.caremar.it/it/tariffe/ (Napoli ↔ Capri)',
+    ports: { capri: [{ cc: 'IT', place: 'Capri' }], continental: [{ cc: 'IT', place: 'Napoli' }] } },
   { key: 'faroe|kalsoy', source: 'https://www.ssl.fo/en/prices/prices-ferries (Klaksvík ↔ Syðradalur (Kalsoy))',
     ports: { faroe: [{ cc: 'FO', place: 'Klaksvík' }], kalsoy: [{ cc: 'FO', place: 'Syðradalur', near: [62.245, -6.668] }] } },
   { key: 'faroe|nolsoy', source: 'https://www.ssl.fo/en/prices/prices-ferries (Tórshavn ↔ Nólsoy)',

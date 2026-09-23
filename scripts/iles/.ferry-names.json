@@ -624,6 +624,22 @@
   "name": "Tadine (Maré) ↔ Wé (Lifou)"
  },
  {
+  "routeKey": "papeeteHuahine",
+  "name": "Papeete ↔ Fare (Huahine)"
+ },
+ {
+  "routeKey": "huahineUturoa",
+  "name": "Fare (Huahine) ↔ Uturoa (Raiatea)"
+ },
+ {
+  "routeKey": "uturoaTahaa",
+  "name": "Uturoa (Raiatea) ↔ Taha'a"
+ },
+ {
+  "routeKey": "tahaaBoraBora",
+  "name": "Taha'a ↔ Vaitape (Bora-Bora)"
+ },
+ {
   "routeKey": "ardrossanBrodick",
   "name": "Ardrossan ↔ Brodick"
  },
@@ -2422,6 +2438,14 @@
  {
   "routeKey": "pozzuoliIschia",
   "name": "Pozzuoli ↔ Ischia"
+ },
+ {
+  "routeKey": "napoliProcida",
+  "name": "Napoli ↔ Procida"
+ },
+ {
+  "routeKey": "napoliCapri",
+  "name": "Napoli ↔ Capri"
  },
  {
   "routeKey": "formiaPonza",

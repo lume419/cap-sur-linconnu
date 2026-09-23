@@ -3478,6 +3478,12 @@
     if(fi.fareClass) return fi.fareClass === 'foot';
     return !('priceCovers' in fi) && !!(TRANSPORT[transportKey] && TRANSPORT[transportKey].ferryClass === 'foot');
   }
+  // Ferry PIÉTON UNIQUEMENT (route passengerOnly du moteur) : l'île reste proposée, mais le véhicule doit rester au
+  // port. L'avertissement ne concerne que les voyageurs motorisés : à vélo la classe est déjà 'foot' et la phrase
+  // serait fausse.
+  function ferryNoVehicles(fi, transportKey){
+    return !!(fi && fi.passengerOnly && TRANSPORT[transportKey] && TRANSPORT[transportKey].ferryClass !== 'foot');
+  }
   function ferryPriceText(fi, transportKey){
     var amt = Number(fi.amount);
     if(amt === 0) return t('ferry.price.free');
@@ -3716,6 +3722,12 @@
         var ferryTxt = ferryText(fi, ferryRoute ? escHtml(ferryRoute) : '', true, trip.transportKey);
         ferryRow.innerHTML = icon(fi.mode === 'train' ? 'train' : 'ferry') + '<span><span class="lbl">'+escHtml(ferryLabel(fi))+'</span>'+ferryTxt+'</span>';
         body.appendChild(ferryRow);
+        if(ferryNoVehicles(fi, trip.transportKey)){
+          var ferryNoVeh = document.createElement('div');
+          ferryNoVeh.className = 'day-row tension-row tension-orange';
+          ferryNoVeh.innerHTML = icon('warn') + '<span>'+t('ferry.noVehicles')+'</span>';
+          body.appendChild(ferryNoVeh);
+        }
         // Liaison réelle sans tarif fixe publié : avertissement dans le style des zones à tension (orange).
         if(fi.amount === null){
           var ferryWarn = document.createElement('div');
@@ -4287,7 +4299,8 @@
     if(leg.ferryInfo){
       var fi = leg.ferryInfo;
       out.ferry = ferryLabel(fi) + ' — ' + ferryText(fi, tIfDefined(fi.routeKey) || '', false, currentTripData && currentTripData.transportKey) +
-        (fi.amount === null ? ' ' + t(fi.priceStatus === 'variable' ? 'ferry.price.variable' : 'ferry.price.unknown') : '');
+        (fi.amount === null ? ' ' + t(fi.priceStatus === 'variable' ? 'ferry.price.variable' : 'ferry.price.unknown') : '') +
+        (ferryNoVehicles(fi, currentTripData && currentTripData.transportKey) ? ' ' + t('ferry.noVehicles') : '');
     }
     if(leg.lodgingCheckIn) out.lodging = t('lodging.find', {range: formatStayRange(leg.lodgingCheckIn, leg.lodgingCheckOut)});
     return out;
@@ -4413,6 +4426,7 @@
           ferryInfo: leg.ferryInfo ? compact({ route: tIfDefined(leg.ferryInfo.routeKey) || '', amount: leg.ferryInfo.amount, priceStatus: leg.ferryInfo.priceStatus || null,
             priceCovers: leg.ferryInfo.priceCovers === undefined ? null : leg.ferryInfo.priceCovers, footAmount: leg.ferryInfo.footAmount != null ? leg.ferryInfo.footAmount : null,
             durationEstimated: leg.ferryInfo.durationEstimated ? true : null, mode: leg.ferryInfo.mode || null,
+            passengerOnly: leg.ferryInfo.passengerOnly ? true : null,
             durationH: typeof leg.ferryInfo.durationH === 'number' ? leg.ferryInfo.durationH : null }, ['amount']) : null, // texte de secours du PDF (12e audit)
           checkInLabel: checkInLabel,
           lodgingLinks: checkInLabel ? exportLodgingLinks(leg.lodgingLinks, leg.country, budgetKey) : null,
