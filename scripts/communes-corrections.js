@@ -762,6 +762,15 @@ const DIVISION_FIXES = [
   { cc: 'DK', name: "Gislum", lat: 56.7665, lon: 9.5203, to: "Vesthimmerland Kommune" },   // au lieu de Københavns Kommune
   { cc: 'DK', name: "Aars", lat: 56.804, lon: 9.5144, to: "Vesthimmerland Kommune" },   // au lieu de Københavns Kommune
   { cc: 'DK', name: "Skagen port", lat: 57.7181, lon: 10.5945, to: "Frederikshavn Kommune" },   // au lieu de Københavns Kommune
+  // Croatie (24/09/2026) — trouvée par RICOCHET, en contrôlant en production une fiche dont le code postal venait
+  //    d'être effacé : la réponse affichait « Splitsko-Dalmatinska » pour un lieu de la presqu'île de Pelješac.
+  //    Le crible ci-dessus l'avait RATÉE, et c'est son seuil qui explique pourquoi : il exigeait plus de 50 km
+  //    d'écart d'avec les siens, or le lieu le plus proche réellement étiqueté Split-Dalmatie est à 19 km — de
+  //    l'autre côté de l'eau. Ses 68 voisins à moins de 15 km sont TOUS en Dubrovnik-Neretva, et la carte place
+  //    le lieu comme son voisin de 2 km (Pijavičino) dans la même županija. Sans effet sur la masse terrestre :
+  //    en Croatie c'est le CODE POSTAL qui décide d'une île (HR_POSTCODE_TO_ISLAND), pas l'étiquette — vérifié,
+  //    la fiche reste « continental » avant comme après, Pelješac étant une presqu'île.
+  { cc: 'HR', name: "Gornji Dingač", lat: 42.9256, lon: 17.3533, to: "Dubrovačko-Neretvanska" },   // au lieu de Splitsko-Dalmatinska
 ];
 // Comparaison au dix-millième de degré (~11 m) : la fiche visée est désignée sans risque d'en emporter une autre.
 function fixDivision(country, name, lat, lon){

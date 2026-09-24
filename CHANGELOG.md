@@ -129,6 +129,20 @@ marqués `[à vérifier]` et listés en fin de fichier.
     les régénérations de la veille n'avaient rien abîmé — elles avaient 3 et 235 collisions, sans conséquence.
   - Ce n'est donc plus une limite à consigner : le défaut est réparé, et tout pays du lot peut être régénéré sans
     son fichier postal sans perdre de région.
+- **« Gornji Dingač » (Croatie) était rangée dans la mauvaise županija — trouvée par RICOCHET, en vérifiant la
+  production.** En contrôlant une fiche dont le code postal venait d'être effacé, la réponse du serveur affichait
+  `Splitsko-Dalmatinska` pour un lieu de la presqu'île de **Pelješac**, qui relève de Dubrovnik-Neretva.
+  - **Le crible des divisions l'avait ratée, et son seuil explique pourquoi** : il exigeait plus de **50 km** d'écart
+    d'avec les siens, or le lieu le plus proche réellement étiqueté Split-Dalmatie est à **19 km** — de l'autre côté
+    de l'eau. Le cas tombait dans l'angle mort.
+  - Établi comme les 56 autres : ses **68 voisins à moins de 15 km sont tous** en Dubrovnik-Neretva, et la carte
+    place le lieu ET son voisin de 2 km (Pijavičino) dans la **même županija**. Entrée ajoutée à `DIVISION_FIXES`,
+    Croatie incluse pour la première fois.
+  - **Sans effet sur la masse terrestre** : en Croatie c'est le CODE POSTAL qui décide d'une île
+    (`HR_POSTCODE_TO_ISLAND`), pas l'étiquette. Vérifié fiche en main, elle reste « continental » avant comme après —
+    Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
+  - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
+
 - **Le crible des AGRÉGATS par la population a ÉCHOUÉ — et c'est le code postal qui a pris le relais.**
   Signature cherchée, celle de Campiña : une population énorme posée au milieu de villages (≥ 10 000 habitants
   et au moins dix fois la somme du voisinage à 25 km). Il a sorti **sept vraies villes** — Zaragoza, Córdoba,
