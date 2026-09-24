@@ -27,7 +27,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { excludePlace, preparePlaceName, dropNearDuplicates, regionLabel, fixDivision, cpContredit } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
+const { excludePlace, preparePlaceName, dropNearDuplicates, regionLabel, fixDivision, cpContredit, uniformiseEtiquette } = require('./communes-corrections.js'); // lieux mal rangés, disparus, Sercq, Antarctique (voir ce fichier)
 
 const POSTAL = new Set(['IN', 'ID', 'JP', 'KR', 'PH', 'BD', 'LK', 'SG']);
 const SINGLE_CODE = { IO: 'BBND 1ZZ', CX: '6798', CC: '6799' };
@@ -151,6 +151,8 @@ for(const country of COUNTRIES){
     // Étiquette de région démentie par la carte (voir DIVISION_FIXES) : on écrit celle du terrain, pas celle
     // du dump. Ne touche que les fiches nommément vérifiées.
     const regionCorrigee = fixDivision(country, p.name, p.lat, p.lon);
+    // Graphie minoritaire d'une région (voir ETIQUETTE_UNIFIEE) : une seule graphie par région et par pays.
+    const regionUnifiee = uniformiseEtiquette(country, region);
     let cp;
     if(grid){
       // Ordre : point postal le plus proche, puis — faute de point assez proche — code de la LOCALITÉ de même nom
@@ -180,7 +182,7 @@ for(const country of COUNTRIES){
     // Code postal DÉMENTI par les coordonnées (voir CP_CONTREDIT) : EFFACÉ, jamais remplacé — celui que rend
     // la carte est celui du bourg voisin. Ne touche que les fiches nommément vérifiées ; la région est conservée.
     const cpFinal = cpContredit(country, p.name, p.lat, p.lon) ? '' : cp;
-    lines.push(`${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cpFinal};${regionCorrigee || region};${p.name}`);
+    lines.push(`${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cpFinal};${regionCorrigee || regionUnifiee || region};${p.name}`);
   }
   lines = dropNearDuplicates(lines); // quasi-doublons (voir communes-corrections.js)
   fs.writeFileSync(path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt'), lines.join('\n') + '\n', 'utf8');

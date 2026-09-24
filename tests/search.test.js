@@ -366,10 +366,19 @@ function sampleAliases(n){
   }
   return out;
 }
-// Marge : quelques alias très communs sont légitimement repoussés au-delà des 20 premiers résultats par des
-// homonymes plus peuplés (2,2 % mesuré sur 2 000 tirages le 20/09/2026), et les noms de moins de 3 caractères dans
-// une écriture non idéographique (amharique « ዋጅ ») ne sont pas cherchables — limite connue.
-const MAX_MISS_RATE = 0.08;
+// SEUIL RESSERRÉ (24/09/2026). Il valait 0,08 pour un taux réel de 2,2 % : une régression perdant jusqu à
+// 100 000 alias serait passée au vert, et c était écrit comme limite connue sans être corrigé.
+// Le taux vient de deux causes légitimes, toutes deux mesurées : quelques alias très communs sont repoussés
+// au-delà des vingt premiers résultats par des homonymes plus peuplés, et les noms de moins de trois caractères
+// dans une écriture non idéographique (amharique « ዋጅ ») ne sont pas cherchables.
+// MESURE du 24/09/2026 : 230 échecs sur 10 000 alias, soit 2,30 % — stable depuis les 2,2 % relevés sur 2 000
+// le 20/09/2026.
+// La tolérance SUIT LA TAILLE DE L ÉCHANTILLON au lieu d être une constante, parce que le balayage est un
+// TIRAGE : à 10 000 alias l écart-type vaut 0,15 point, à 1 000 il vaut 0,47. Un seuil fixe assez serré pour le
+// grand échantillon ferait échouer le petit sur le seul bruit. Quatre écarts-types au-dessus du taux de
+// référence : 2,9 % en mode complet, 4,2 % en mode rapide.
+const TAUX_REF = 0.023;
+const seuilEchec = n => TAUX_REF + 4 * Math.sqrt(TAUX_REF * (1 - TAUX_REF) / Math.max(1, n));
 test('balayage : ' + SAMPLE + ' alias tirés au hasard retrouvent leur lieu', (t) => {
   const picks = sampleAliases(SAMPLE);
   assert.ok(picks.length > SAMPLE * 0.9, 'échantillon incomplet (' + picks.length + ')');
@@ -379,8 +388,11 @@ test('balayage : ' + SAMPLE + ' alias tirés au hasard retrouvent leur lieu', (t
     if(!r.some(x => x.country === a.cc && x.name === a.name)) miss.push(a.cc + ' ' + a.lang + ';' + a.text + ';' + a.name);
   }
   const rate = miss.length / picks.length;
+  const MAX_MISS_RATE = seuilEchec(picks.length);
+  // Le taux était calculé mais affiché SEULEMENT en cas d échec : on ne pouvait pas voir le seuil se rapprocher.
+  t.diagnostic('taux d échec du balayage : ' + miss.length + ' / ' + picks.length + ' = ' + (100 * rate).toFixed(2) + ' % (maximum toléré ' + (100 * MAX_MISS_RATE).toFixed(2) + ' %)');
   assert.ok(rate <= MAX_MISS_RATE, miss.length + ' alias sur ' + picks.length + ' (' + (100 * rate).toFixed(2) + ' %) ne retrouvent pas leur lieu, maximum ' +
-    (100 * MAX_MISS_RATE) + ' % :\n' + miss.slice(0, 20).map(x => '  - ' + x).join('\n'));
+    (100 * MAX_MISS_RATE).toFixed(2) + ' % :\n' + miss.slice(0, 20).map(x => '  - ' + x).join('\n'));
   // Contre-épreuve : le même balayage à travers l'index disque doit donner un taux comparable.
   if(!diskIdx) t.diagnostic('contre-épreuve disque NON exécutée (' + diskWhy + ')');
   if(diskIdx){

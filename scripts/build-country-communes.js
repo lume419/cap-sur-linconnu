@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 // lieux mal rangés, disparus, Sercq, Antarctique ; noms nettoyés et quasi-doublons (audit n° 11) — voir ce fichier
-const { excludePlace, preparePlaceName, dropNearDuplicates, fixDivision, cpContredit, REGION_DU_DUMP } = require('./communes-corrections.js');
+const { excludePlace, preparePlaceName, dropNearDuplicates, fixDivision, cpContredit, REGION_DU_DUMP, uniformiseEtiquette } = require('./communes-corrections.js');
 
 // 13e audit du 19/09/2026 : ONLY_COUNTRY=AL (ou AL,TR…) régénère ces seuls pays, à condition que scripts/dump/XX_dump.txt
 // ET scripts/postal/XX_postal.txt soient sur le disque (liste vide par défaut, comme avant).
@@ -647,7 +647,9 @@ for(const country of COUNTRIES){
     // Étiquette de région démentie par la carte (voir DIVISION_FIXES dans communes-corrections.js) : on écrit
     // celle du terrain, pas celle du dump. Ne touche que les fiches nommément vérifiées.
     const regionCorrigee = fixDivision(country, p.name, p.lat, p.lon);
-    return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp};${regionCorrigee || region};${p.name}`;
+    // Graphie minoritaire d'une région (voir ETIQUETTE_UNIFIEE) : une seule graphie par région et par pays.
+    const regionUnifiee = uniformiseEtiquette(country, region);
+    return `${p.pop};${p.lon.toFixed(4)},${p.lat.toFixed(4)};${cp};${regionCorrigee || regionUnifiee || region};${p.name}`;
   });
 
   const outPath = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');

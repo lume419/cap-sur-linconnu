@@ -143,6 +143,54 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **Les cribles deviennent des OUTILS DU DÉPÔT, plus des scripts de session.** Trois entrent dans `scripts/`,
+  chacun documenté avec ce qu'il ne peut PAS décider :
+  - `audit-codes-postaux.js` — calibre la longueur de préfixe **pays par pays** au lieu de la supposer, puis
+    signale les codes démentis. Sans argument, il balaie tous les pays publiés.
+  - `audit-divisions.js` — crible des divisions **par vote du voisinage**. C'est le discriminant qui avait trouvé
+    Gornji Dingač, que le crible historique ne pouvait pas voir : celui-ci exige 50 km d'isolement ET un rapport
+    de 10, or la fiche était à 19,1 km pour un rapport de 8,97. Elle échouait aux DEUX portes, et abaisser le
+    seuil n'aurait rien donné — mesuré : 1 499 suspects à 15 km, 1 182 à 25 km, presque tous du bruit, la fiche
+    restant introuvable dans les deux.
+  - `audit-etiquettes-doubles.js` — repère une même région publiée sous **deux noms** dans le même pays.
+- **1 154 étiquettes allemandes unifiées.** Le pays portait **43 étiquettes de région pour seize Länder** : 893
+  fiches en « Lower Saxony » quand 7 890 sont en « Niedersachsen », 140 en « Saxony » contre 4 422 en « Sachsen ».
+  - **Le vote du voisinage ne suffisait pas** : les 893 fiches « Lower Saxony » forment leurs propres grappes,
+    donc leurs voisins portent la même graphie qu'elles et personne ne vote contre. C'est le **recouvrement
+    territorial** qui les voit — deux étiquettes occupant les mêmes cases du globe désignent le même territoire.
+  - **Aucun critère spatial ne distingue une traduction d'une région ENCLAVÉE**, et la carte l'a prouvé en sauvant
+    deux Länder que le recouvrement accusait : la **SARRE** (472 fiches) et **BRÊME** (58 fiches, enclavée à
+    100 % dans la Basse-Saxe). Trois sondages par étiquette, géocodage inverse au zoom 8.
+  - Non retenues : « Düsseldorf District » (307) et « Regierungsbezirk Gießen » (53), la carte répondant au rang
+    du Land et non du district ; « Hamburg » (69) et « North Rhine-Westphalia » (13), sondages contradictoires ;
+    « Berlin » et « Land Berlin » (14 en tout), où la carte dit Brandebourg mais où quatorze fiches et un sondage
+    incomplet ne suffisent pas à renommer la capitale.
+  - Régénération de l'Allemagne : **1 154 lignes changées, toutes dans le seul champ de région**.
+- **Deux seuils de test resserrés, mesure à l'appui.**
+  - Balayage des alias : **2,30 % d'échec mesuré sur 10 000 alias** pour un seuil à **8 %** — une régression
+    perdant 100 000 alias serait passée au vert. La tolérance **suit désormais la taille de l'échantillon**,
+    parce que le balayage est un TIRAGE : quatre écarts-types au-dessus du taux de référence, soit 2,9 % en mode
+    complet et 4,2 % en mode rapide. Un seuil fixe assez serré pour 10 000 alias ferait échouer les 1 000 du mode
+    rapide sur le seul bruit. Le taux est en outre **affiché à chaque passage**, alors qu'il n'apparaissait qu'en
+    cas d'échec.
+  - Campagne de tirages : **35,5 % de tirages vides mesurés** pour un seuil à **60 %**, ramené à **45 %**.
+- **Journal corrigé : 220 masses sans liaison deviennent 219, et 174 vivantes deviennent 173** — l'ajout de la
+  liaison de Maupiti avait fait passer une masse de « sans liaison » à « reliée ».
+- **Couverture de `public/js/app.js` : le décompte était FAUX, et douze fonctions sont désormais exercées.**
+  Le journal annonçait « 86 des 244 fonctions » sans que rien ne s'y attaque. Le compte incluait des fonctions
+  **internes** à d'autres — « hasPrice » et « sumOf » sont des fermetures de `tripStatsParts`, déjà exercée, et
+  ne sont pas extractibles isolément. Sur les seules fonctions du **premier niveau**, celles que le bac à sable
+  peut extraire : **244 fonctions, 73 jamais citées**, classées par ce qu'il leur faut pour tourner sans
+  navigateur — **37 pures**, 19 qui touchent au DOM, 8 qui écrivent de l'innerHTML, 4 qui appellent le réseau,
+  3 qui posent une minuterie, 2 qui appellent Leaflet.
+  - Nouveau `tests/ui-couverture.test.js`, **douze fonctions exercées** avec de vraies assertions : construction
+    de la requête photo (le nom d'un lieu ne doit pas pouvoir injecter un second paramètre `lang`), liens de
+    repli, repli de langue Wikipédia, éviction du cache client, plage de jours, libellé d'hébergement, durée du
+    séjour, rayon effectif, convertibilité d'une devise, icône de carte.
+  - **Reste 61 fonctions**, dont la plupart sont atteignables : le bac à sable sait déjà simuler un nœud, et une
+    fonction qui écrit de l'innerHTML peut être jugée sur la CHAÎNE qu'elle produit. C'est un travail de volume,
+    pas un obstacle technique.
+
 - **Les cinq pays « non régénérables » le sont redevenus — et l'un d'eux ne l'avait jamais été.** La veille, cinq
   pays étaient consignés comme impossibles à régénérer fidèlement : leur régénération changeait des milliers de
   lignes. La passe a montré que ce n'était pas un problème mais **trois**, dont un imaginaire.
@@ -1059,13 +1107,14 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **220 masses terrestres nommées n'ont aucune liaison modélisée** — Wallis, Futuna, Tristan da
+- **219 masses terrestres nommées n'ont aucune liaison modélisée** — Wallis, Futuna, Tristan da
   Cunha, Fernando de Noronha, Batanes, le Kamtchatka. Méthode, écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.
-  **Toutes ne sont pas des impasses**, et le compte est désormais fait (24/09/2026, refait après la passe 5, sonde en direct dans le
-  moteur, sans HTTP donc sans quota — trois départs × trois durées × trois tirages par masse) :
-  - **174 rendent un trajet** de l'intérieur — Sri Lanka (17 740 lieux publiés), la Jamaïque (3 199) se visitent
+  **Toutes ne sont pas des impasses**, et le compte est REFAIT le 24/09/2026 après l'ajout de la liaison de Maupiti,
+  qui a fait passer une masse de « sans liaison » à « reliée » (220 -> 219, 174 -> 173 vivantes). Sonde en direct dans le
+  moteur, sans HTTP donc sans quota : trois départs × trois durées × trois tirages par masse.
+  - **173 rendent un trajet** de l'intérieur — Sri Lanka (17 740 lieux publiés), la Jamaïque (3 199) se visitent
     très bien sans jamais embarquer. Le message « réessayez, ou élargissez le rayon » y est juste.
   - **16 sont refusées au départ par la règle des zones à tension** (Kamtchatka, Norilsk, Tchoukotka, Socotra,
     Île de la Tortue, Idjwi…), et non faute de liaison. Elles reçoivent déjà leur propre message, traduit dans les

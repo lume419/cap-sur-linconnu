@@ -1105,6 +1105,38 @@ function cpContredit(country, name, lat, lon){
 //    Pour ces pays, la région est donc prise au DUMP, comme si aucun fichier postal n'existait — le code postal,
 //    lui, continue de venir du point postal. Les quatre redeviennent régénérables à l'identique.
 const REGION_DU_DUMP = new Set(['RU', 'AU', 'UY', 'CR']);
+// 15. UNE MÊME RÉGION PUBLIÉE SOUS DEUX NOMS DANS LE MÊME PAYS (24/09/2026). L'Allemagne portait 43 étiquettes
+//    de région pour seize Länder : 893 fiches en « Lower Saxony » quand 7 890 sont en « Niedersachsen », 140 en
+//    « Saxony » contre 4 422 en « Sachsen ». Sans effet sur les itinéraires, bien visible à l'écran.
+//    DÉTECTION (scripts/audit-etiquettes-doubles.js), sans aucune table de référence : deux étiquettes qui
+//    occupent LES MÊMES CASES du globe désignent le même territoire, la minoritaire étant la graphie à corriger.
+//    Un premier critère — le vote du voisinage, fiche par fiche — a été gardé mais ne suffit PAS : les 893 fiches
+//    « Lower Saxony » forment leurs propres grappes, donc leurs voisins portent la même graphie qu'elles et
+//    personne ne vote contre. C'est le RECOUVREMENT TERRITORIAL qui les voit.
+//    AUCUN critère spatial ne peut toutefois distinguer une traduction d'une région ENCLAVÉE : la carte tranche,
+//    et elle a sauvé deux Länder que le recouvrement accusait — la SARRE (472 fiches, recouvrement de 57 % avec
+//    la Rhénanie-Palatinat) et BRÊME (58 fiches, enclavée à 100 % dans la Basse-Saxe). Trois sondages par
+//    étiquette, géocodage inverse au zoom 8, qui rend le nom LOCAL de la région.
+//    NON RETENUES, et c'est le contrôle qui les écarte :
+//      - « Düsseldorf District » (307), « Regierungsbezirk Gießen » (53) : la carte répond au rang du LAND, pas
+//        du district, elle ne peut donc pas les départager de leur cible ;
+//      - « Hamburg » (69) et « North Rhine-Westphalia » (13) : sondages contradictoires ;
+//      - « Berlin » (6) et « Land Berlin » (8) : la carte dit Brandebourg à ces coordonnées, mais quatorze fiches
+//        et un sondage incomplet ne suffisent pas à renommer la capitale. Laissées telles quelles, à revoir.
+const ETIQUETTE_UNIFIEE = {
+  DE: {
+    'Lower Saxony': 'Niedersachsen',                                 // 893 fiches, carte 3/3
+    'Saxony': 'Sachsen',                                             // 140 fiches, carte 3/3
+    'Thuringia': 'Thüringen',                                        //  57 fiches, carte 3/3
+    'Mecklenburg-Western Pomerania': 'Mecklenburg-Vorpommern',       //  36 fiches, carte 3/3
+    'Saxony-Anhalt': 'Sachsen-Anhalt'                                //  28 fiches, carte 3/3
+  }
+};
+// Rend la graphie majoritaire du pays, ou null si l'étiquette n'est pas une graphie minoritaire connue.
+function uniformiseEtiquette(country, region){
+  var m = ETIQUETTE_UNIFIEE[country];
+  return (m && Object.prototype.hasOwnProperty.call(m, region)) ? m[region] : null;
+}
 function excludePlace(country, geonameid, name, lat, lon){
   return isWrongCountry(country, geonameid) || isJunkId(country, geonameid) || HISTORICAL_NAME_RE.test(name || '') || isJunkName(name) ||
     isProjectBatch(country, geonameid) || isAntarcticUnderAR(country, lat) || isSark(country, lat, lon) || isPlaceholderCoord(lat, lon, geonameid) ||
@@ -1470,4 +1502,4 @@ function fixIgnCoord(nom, dept){
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
   PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES, INPUT_SYMBOL_RE, ALIAS_REPAIR_REJECT, repairAliasTypography, repairAliasLoose,
   BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, isPlaceholderCoord, PLACEHOLDER_COORD_OK, regionLabel, excludePlace,
-  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates, ADMIN_COORD_CONFLICT, isAdminCoordConflict, DIVISION_FIXES, fixDivision, CP_CONTREDIT, cpContredit, REGION_DU_DUMP, IGN_COORD_FIXES, fixIgnCoord };
+  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates, ADMIN_COORD_CONFLICT, isAdminCoordConflict, DIVISION_FIXES, fixDivision, CP_CONTREDIT, cpContredit, REGION_DU_DUMP, ETIQUETTE_UNIFIEE, uniformiseEtiquette, IGN_COORD_FIXES, fixIgnCoord };

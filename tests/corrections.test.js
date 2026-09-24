@@ -161,6 +161,39 @@ test('corrections : les étiquettes de région démenties par la carte sont cell
   assert.deepEqual(bad, []);
 });
 
+test('corrections : une seule graphie par région et par pays', () => {
+  // Voir ETIQUETTE_UNIFIEE. L Allemagne portait 43 étiquettes pour seize Länder : 893 fiches en « Lower Saxony »
+  // quand 7 890 sont en « Niedersachsen ». Le test garde les DEUX sens : la graphie minoritaire ne doit plus être
+  // publiée, et la graphie majoritaire doit exister — sans quoi la table renverrait vers un nom inconnu.
+  const bad = [];
+  for(const cc of Object.keys(C.ETIQUETTE_UNIFIEE)){
+    const fiches = fichesDe(cc);
+    const etiquettes = new Set(fiches.map(f => f.div));
+    for(const de of Object.keys(C.ETIQUETTE_UNIFIEE[cc])){
+      const vers = C.ETIQUETTE_UNIFIEE[cc][de];
+      const restants = fiches.filter(f => f.div === de).length;
+      if(restants) bad.push(cc + ' : ' + restants + ' fiche(s) portent encore « ' + de + ' »');
+      if(!etiquettes.has(vers)) bad.push(cc + ' : la graphie retenue « ' + vers + ' » n est portée par aucune fiche');
+      if(C.uniformiseEtiquette(cc, de) !== vers) bad.push(cc + ' : uniformiseEtiquette() ne rend plus « ' + vers + ' » pour « ' + de + ' »');
+    }
+  }
+  assert.deepEqual(bad, []);
+});
+
+// Régions que le recouvrement territorial accusait et que la CARTE a sauvées : elles doivent RESTER distinctes.
+const ETIQUETTES_EPARGNEES = [
+  { cc: 'DE', region: 'Saarland', pourquoi: 'Land à part entière, 57 % de recouvrement avec la Rhénanie-Palatinat' },
+  { cc: 'DE', region: 'Bremen', pourquoi: 'Land enclavé à 100 % dans la Basse-Saxe — le recouvrement seul le condamnait' }
+];
+test('corrections : les régions sauvées par la carte gardent leur étiquette', () => {
+  const bad = [];
+  for(const e of ETIQUETTES_EPARGNEES){
+    const n = fichesDe(e.cc).filter(f => f.div === e.region).length;
+    if(!n) bad.push(e.cc + ' : plus aucune fiche en « ' + e.region + ' » — ' + e.pourquoi);
+    if(C.uniformiseEtiquette(e.cc, e.region)) bad.push(e.cc + ' : « ' + e.region + ' » est entrée dans ETIQUETTE_UNIFIEE, alors que la carte la CONFIRME — ' + e.pourquoi);
+  }
+  assert.deepEqual(bad, []);
+});
 test('corrections : « Ponta Verde » (Cap-Vert) n\'est publiée qu\'une fois, et sur Fogo', () => {
   // Voir ADMIN_COORD_CONFLICT. Deux fiches portaient le concelho CV-18 (São Filipe, sur Fogo) : l'une sur Fogo,
   // cohérente ; l'autre SUR SANTIAGO, à 80 km de son propre concelho. La seconde faisait se chevaucher les boîtes

@@ -195,7 +195,12 @@ test('campagne de tirages aléatoires à graine (' + TRIPS + ' tirages, graine '
   t.diagnostic(campaign.trips + ' tirages en ' + Math.round((Date.now() - t0) / 1000) + ' s ; vides ' + campaign.empties + ' ' + JSON.stringify(campaign.emptyKinds) +
     ' ; médiane ' + ts[ts.length >> 1] + ' ms, max ' + ts[ts.length - 1] + ' ms ; contre-épreuves ' + (campaign.replays || 0) + (campaign.capsApprox ? ' (dont ' + campaign.capsApprox + ' plafond(s) approché(s), budget de temps épuisé)' : '') + ' ; ' + campaign.violations.length + ' violation(s) -> ' + file);
   // La campagne doit produire des itinéraires (un moteur qui renverrait toujours des étapes vides passerait tout le reste).
-  assert.ok(campaign.trips - campaign.empties >= campaign.trips * 0.4, 'trop de tirages vides : ' + campaign.empties + '/' + campaign.trips);
+  // SEUIL RESSERRÉ (24/09/2026). Il tolérait 60 % de tirages vides pour un taux réel de 35,5 % (1 064 sur 3 000,
+  // dont 368 « éloignement introuvable », 262 « éloignement hors de portée », 210 zones à tension, 182 vides et
+  // 42 expirés) : une régression doublant les tirages vides serait passée au vert. Il tolère désormais 45 %, soit
+  // dix écarts-types au-dessus du taux mesuré — assez large pour la variation d une campagne à l autre, assez
+  // serré pour voir une vraie dérive.
+  assert.ok(campaign.trips - campaign.empties >= campaign.trips * 0.55, 'trop de tirages vides : ' + campaign.empties + '/' + campaign.trips);
 });
 
 for(const [title, invs] of FAMILIES){
