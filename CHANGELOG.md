@@ -873,6 +873,39 @@ marqués `[à vérifier]` et listés en fin de fichier.
 
 ### Tests
 
+- **Les tables de correction n'étaient gardées par RIEN, sauf une — nouveau fichier `tests/corrections.test.js`,
+  neuf tests.** Seules `NAME_FIXES` et `JUNK_IDS` avaient leurs deux tests dans `data.test.js`. Les autres tables —
+  codes postaux démentis, étiquettes de région, fiche en double du Cap-Vert, coordonnées IGN — pouvaient être
+  **vidées**, ou leur effet défait par une régénération, sans qu'un seul test ne bronche. Chacune avait pourtant
+  coûté un crible puis un contrôle fiche par fiche sur la carte.
+  - Les tests lisent la **donnée publiée**, pas la table : ils échouent aussi bien si la table est vidée que si le
+    générateur cesse de l'appliquer. Ils refusent en outre toute entrée **morte** (qui ne désigne plus aucune fiche)
+    et toute entrée **ambiguë** (qui en désignerait deux), pour que ces tables ne se mettent pas à porter des lignes
+    sans objet.
+  - Ils gardent aussi le **sens inverse**, qui manquait partout : les fiches que la carte a **innocentées** — Osidda,
+    Tunø By, Morawsko, et Campiña — doivent **garder** leur code postal. Sans cela, élargir une table pour « finir
+    le travail » casserait des données justes en silence. C'est le seul test qui protège Campiña.
+  - Deux invariants de calcul entrent au passage : les **neuf boîtes d'îles du Cap-Vert** sont disjointes et
+    contiennent **les 2 729 lieux publiés** (zéro dehors, zéro dans deux boîtes) ; et les **30 masses terrestres**
+    des fiches dont le code a été effacé sont **figées une à une**, dont quatre insulaires — Tenerife, Sardaigne,
+    Pico — qui sont précisément celles qui prouvent que l'effacement est resté inerte.
+  - Les chiffres re-sourcés sont ancrés eux aussi, parce qu'un chiffre **déduit** qui ressemble à un chiffre publié
+    ne se voit pas : les cinq tronçons de l'**Apetahi Express** avec leurs durées et leur `passengerOnly`, le
+    `priceStatus: 'unknown'` de Maupiti — un prix inventé serait pire qu'un prix absent —, et les tarifs piétons du
+    **Wadden** à 9,54 €, là où Ameland et Schiermonnikoog portaient 10,58 € et 7,95 € déduits.
+- **31 mutants, 31 tués.** Le premier jet en comptait cinq « survivants » : tous les cinq étaient des **mutants
+  défectueux**, pas des tests faibles, et il a fallu le vérifier plutôt que le supposer.
+  - Trois modifiaient `scripts/iles/ferries-oceanie.js`, que le moteur **ne lit pas** à l'exécution — `trip-data.js`
+    en est le produit généré.
+  - Un remplaçait la première occurrence de « 9.54 » du fichier, qui est le « 2**9.54** » du prix de Madère : une
+    sous-chaîne.
+  - Un remplaçait la première ligne « Vesthimmerland Kommune » du Danemark, soit **Vognsild**, qui est légitimement
+    de cette commune et ne figure dans aucune table.
+  - Réécrits pour frapper la ligne exacte dans le fichier réellement lu, les onze mutants correspondants tombent
+    tous. Un douzième, qui changeait l'étiquette d'île de Piedade, a été **retiré** : il ne changeait aucune masse
+    terrestre, il n'y avait donc rien à détecter.
+
+
 - **Couverture de `public/js/app.js` : 114 fonctions non testées ramenées à 86.** Six tests neufs,
   choisis par le risque et non pour atteindre un chiffre — construction d'URL et d'HTML à partir de
   données distantes, accessibilité du formulaire et de la liste de suggestions, argent des liens
