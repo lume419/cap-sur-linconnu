@@ -25,9 +25,7 @@ module.exports = {
         { key: 'clipperton', match: { cpPrefix: ['98799'] }, note: 'Atoll inhabité. Placée AVANT les règles de Polynésie : son code 98799 commence par 987.' },
         // ---------- Polynésie française (987) : chaque commune est un point ; beaucoup couvrent plusieurs îles/atolls ----------
         { key: 'tahiti', match: { box: [[-17.92, -17.45, -149.65, -149.10]] },
-          note: "Tahiti Nui + Tahiti Iti (isthme de Taravao, route) : Papeete, Faaa, Punaauia, Paea, Papara, Teva I Uta, Taiarapu-Est (y c. Tautira), Taiarapu-Ouest, Hitiaa O Te Ra, Mahina, Pirae (11 lieux) ; Arue par la règle suivante." },
-        { key: 'tahiti', match: { cpPrefix: ['98701'] },
-          note: "Arue : commune de Tahiti (entre Papeete et Mahina) dont le point du fichier est erroné (-17.0496, -149.5463, en mer ~50 km au nord) ; rangée par son code postal 98701, propre à Arue." },
+          note: "Tahiti Nui + Tahiti Iti (isthme de Taravao, route) : Papeete, Faaa, Punaauia, Paea, Papara, Teva I Uta, Taiarapu-Est (y c. Tautira), Taiarapu-Ouest, Hitiaa O Te Ra, Mahina, Pirae et Arue (12 lieux). Arue était rangée à part par son code postal 98701, parce que son point de fichier était erroné — il tombait sur l'atoll de TETIAROA, que la commune couvre aussi, à 52 km au nord. La position est corrigée depuis le 24/09/2026 (voir IGN_COORD_FIXES dans scripts/communes-corrections.js) et la commune entre dans cette boîte comme ses voisines : le contournement, devenu mort, est retiré." },
         { key: 'moorea', match: { box: [[-17.65, -17.42, -150.00, -149.72]] },
           note: "Commune Moorea-Maiao, point sur Moorea ; elle couvre aussi Maiao (île distincte sans liaison), non représentable séparément." },
         { key: 'raiatea', match: { box: [[-16.95, -16.70, -151.52, -151.33]] },

@@ -116,6 +116,20 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Arue était publiée en mer, sur l'atoll de Tetiaroa, à 52 km de ses habitants.** Même maladie que Maupiti, et
+  la même cause : la commune d'Arue, dans la banlieue est de Papeete, **couvre aussi l'atoll de TETIAROA**, à
+  58 km au nord de Tahiti. `geo.api.gouv.fr` publie **-17,0496 / -149,5463 pour le `centre` ET pour la
+  `mairie`** — ce point est sur Tetiaroa, où vivaient **240 personnes en 2017**, quand la commune en compte
+  **10 322**. Arue est en réalité à 17°30′58″S 149°30′42″O.
+  - **Le projet le savait, et le contournait sans le corriger.** La règle d'île rangeait Arue par son code
+    postal 98701, en notant que « le point du fichier est erroné (…) en mer ~50 km au nord ». Le contournement
+    réglait le CLASSEMENT, pas la POSITION : Arue restait publiée à 56,5 km de Papeete au lieu de 6,5.
+  - Deuxième entrée de `IGN_COORD_FIXES`, même méthode que Maupiti : la régénération de `communes.txt` ne
+    change **qu'une seule ligne**, et l'Arue des Landes — même nom, autre département — ne bouge pas.
+  - **Le contournement, devenu mort, est retiré** : Arue entre désormais dans la boîte de Tahiti comme ses
+    onze voisines, ce qui a été vérifié en retirant la règle avant de la supprimer. La masse `tahiti` compte
+    12 lieux, conformément à sa note, corrigée elle aussi.
+  - `compare-engine` : **0 tirage changé sur 380** — aucun tirage de l'échantillon ne part de Polynésie.
 - **Bora Bora ↔ Maupiti : le tronçon manquant de l'Apetahi Express — 31 impasses tombent à 30.**
   Une fois le lieu remis sur Maupiti, la traversée mesure **56 km** entre les deux lieux publiés au lieu de 236,
   et Maupiti rejoint le réseau par Bora Bora. Elle **sort des impasses** avec ses 1 302 habitants (population
@@ -194,8 +208,9 @@ marqués `[à vérifier]` et listés en fin de fichier.
     générateur annonce désormais le nombre de points corrigés au lieu de « inchangées ».
   - L'ancre de la règle d'île `maupiti` est recalée sur le même point : sans cela, le lieu corrigé serait sorti
     de son cercle de 8 km et serait devenu une masse synthétique.
-  - Reste à faire, signalé : **Arue** (Tahiti) souffre du même mal — son point est « en mer ~50 km au nord »,
-    de l'aveu même de la règle d'île qui la contourne par son code postal. Elle n'est PAS corrigée ici.
+  - Signalé alors, **corrigé depuis** (voir plus haut) : **Arue** (Tahiti) souffrait du même mal — son point
+    officiel tombait « en mer ~50 km au nord », sur l'atoll de Tetiaroa que la commune couvre aussi. La règle
+    d'île la contournait par son code postal ; la position est corrigée et le contournement retiré.
 - **Neuf doublons de ligature œ disparaissent enfin des données.** La régénération de `communes.txt` applique le
   correctif du normalisateur (ligature œ), jamais réappliqué aux données depuis : Annoeullin, Argoeuves,
   Baboeuf, Beaumont-Pied-de-Boeuf (×2), Paimboeuf, Roeschwoog et Woerth étaient publiés EN PLUS de leur graphie

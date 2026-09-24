@@ -942,6 +942,14 @@ const IGN_COORD_FIXES = {
   // mesurait 236 km au lieu de 40, et n'a pas pu être écrite (lot de couverture, passe 5).
   // L'erreur est dans la source officielle, pas dans sa reprise : le projet la corrige ici plutôt que de
   // republier une commune habitée sur un atoll désert.
+  // La commune d'Arue couvre Arue, dans la banlieue est de Papeete, ET l'atoll de TETIAROA, à 58 km au nord de
+  // Tahiti. geo.api.gouv.fr publie -17,0496 / -149,5463 pour le `centre` ET pour la `mairie` : ce point est sur
+  // Tetiaroa (17°00′S 149°35′W), où vivaient 240 personnes en 2017, à 52 km d'Arue et de ses 10 322 habitants.
+  // Le projet le savait déjà et le contournait : la règle d'île d'Arue rangeait la commune par son code postal
+  // 98701 « dont le point du fichier est erroné (…) en mer ~50 km au nord ». Le contournement réglait le
+  // classement, pas la POSITION — Arue restait publiée en mer, à 52 km de là où elle est.
+  'Arue|987': { lat: -17.5161, lon: -149.5117,
+    source: 'https://en.wikipedia.org/wiki/Arue,_French_Polynesia (17°30′58″S 149°30′42″O)' },
   'Maupiti|987': { lat: -16.4401, lon: -152.2743,
     source: 'https://en.wikipedia.org/wiki/Maupiti (16°26′24,3″S 152°16′27,3″O ; village de Vaiea)' },
 };
