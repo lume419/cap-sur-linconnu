@@ -538,7 +538,13 @@ for(const country of COUNTRIES){
     fs.readFileSync(publiéPath, 'utf8').split('\n').filter(Boolean).forEach(l => {
       const ch = l.split(';'), ll = ch[1].split(',');
       const e = { postcode: ch[2], admin2: ch[3], admin1: ch[3], lat: +ll[1], lon: +ll[0] };
-      déjàPubliés.set(ll[1] + ',' + ll[0], e);
+      // Clé = COORDONNÉES **ET NOM** (24/09/2026). Indexée par les seules coordonnées, cette table perdait une
+      // ligne sur douze : 2 280 lignes suédoises partagent leur position arrondie au dix-millième avec une
+      // autre, et la dernière écrasait la précédente. Un lieu recevait alors le code postal ET LA RÉGION de son
+      // homonyme de position — mesuré : une régénération de la Suède sans fichier postal changeait cinq lignes,
+      // dont trois RÉGRESSIONS (Västanå prenait la région de Gulsele, Ramsvik celle de Liden, Östanbro celle
+      // d'Ekensberg), toutes trois démenties par la carte. COLLISION de coordonnées levée par le nom.
+      déjàPubliés.set(ll[1] + ',' + ll[0] + '|' + ch[4], e);
       const k = ch[4].toLowerCase();
       let g = déjàParNom.get(k); if(!g) déjàParNom.set(k, g = []);
       g.push(e);
@@ -546,7 +552,7 @@ for(const country of COUNTRIES){
     console.log(country + ' : fichier postal absent — ' + déjàPubliés.size + ' codes repris du fichier déjà publié');
   }
   const codePublié = p => {
-    const exact = déjàPubliés.get(p.lat.toFixed(4) + ',' + p.lon.toFixed(4));
+    const exact = déjàPubliés.get(p.lat.toFixed(4) + ',' + p.lon.toFixed(4) + '|' + p.name);
     if(exact) return exact;
     let best = null, bestKm = 5; // 5 km : le rapprochement postal lui-même en autorise 15, et il s'agit ici du MÊME nom
     for(const e of (déjàParNom.get(p.name.toLowerCase()) || [])){

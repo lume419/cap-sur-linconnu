@@ -687,7 +687,12 @@ function isAdminCoordConflict(country, name, lat, lon){
 //    étiquette : cela se passe de toute table de correspondance entre rangs administratifs.
 //    NON retenus, et c'est le contrôle qui les a écartés : trois fiches que la carte CONFIRME (elles n'étaient
 //    signalées que parce que leur voisin était mal étiqueté — Nakanoshima au Japon, Leipämäki en Finlande,
-//    København au Danemark), et une indécise (Campiña, Espagne : la carte ne descend pas au rang provincial).
+//    København au Danemark), et une ÉCARTÉE APRÈS COUP : « Campiña » (Espagne). La carte la place à Sorihuela
+//    del Guadalimar, dans la province de JAÉN, et j'ai d'abord corrigé son étiquette. À tort : sa population de
+//    67 904 — la deuxième de Córdoba après la ville même — et son code postal 14600 (146xx = Córdoba, 232xx =
+//    Jaén) en font un enregistrement de COMARQUE dont DEUX attributs sur trois disent Córdoba. C'est la
+//    COORDONNÉE qui est fausse, pas l'étiquette, et corriger celle-ci aurait aggravé la fiche. Laissée telle
+//    quelle : on ne sait pas où ce point devrait être.
 //    Les divisions légitimement éclatées ne sont PAS touchées : Tokyo administre les Ogasawara à 1 200 km,
 //    Kagoshima les Amami, la Sicile Pantelleria et Lampedusa. Une préfecture peut s'étaler, une commune non.
 const DIVISION_FIXES = [

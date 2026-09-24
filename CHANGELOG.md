@@ -116,6 +116,29 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **La Suède ne pouvait plus être régénérée : la cause était un défaut du générateur, pas un fichier manquant.**
+  Signalé la veille comme « fichier postal absent, donc régénération dégradante », le problème avait une autre
+  origine. `build-country-communes.js` reprend les codes du fichier déjà publié quand le fichier postal manque,
+  mais il indexait ces lignes **par les seules COORDONNÉES**. Or **2 280 lignes suédoises partagent leur position
+  arrondie au dix-millième avec une autre** : la dernière écrasait la précédente, et un lieu recevait le code
+  postal ET LA RÉGION de son homonyme de position.
+  - Mesuré : l'index ne retenait que **25 680 lignes sur 27 960**. Västanå prenait la région de Gulsele, Ramsvik
+    celle de Liden, Östanbro celle d'Ekensberg — trois régressions que la carte avait démenties.
+  - **La clé porte désormais les coordonnées ET le nom.** L'index passe à 27 960 lignes, et **la Suède se
+    régénère à l'identique : zéro ligne changée**. Le Danemark et la Norvège aussi, ce qui montre au passage que
+    les régénérations de la veille n'avaient rien abîmé — elles avaient 3 et 235 collisions, sans conséquence.
+  - Ce n'est donc plus une limite à consigner : le défaut est réparé, et tout pays du lot peut être régénéré sans
+    son fichier postal sans perdre de région.
+- **« Campiña » (Espagne) : correction ENTREPRISE PUIS RETIRÉE, et c'est le code postal qui l'a sauvée.**
+  Seule fiche restée indécise du crible des divisions, reprise au rang municipal : la carte la place à Sorihuela
+  del Guadalimar, **province de Jaén**, et son voisin d'un kilomètre porte justement « Jaén ». J'ai donc corrigé
+  son étiquette — à tort.
+  - Deux autres attributs disent **Córdoba** : son code postal **14600** (146xx = Córdoba, 232xx = Jaén) et sa
+    population de **67 904**, la deuxième de la province après la ville de Córdoba elle-même. C'est un
+    enregistrement de **COMARQUE**, dont la COORDONNÉE est fausse — pas l'étiquette. Corriger celle-ci aurait
+    aggravé la fiche.
+  - Elle est donc laissée telle quelle, avec sa raison écrite dans `DIVISION_FIXES` : on ne sait pas où ce point
+    devrait être. Le verdict « indécis » du crible était le bon, et vouloir le forcer était l'erreur.
 - **56 étiquettes de région étaient fausses, dans huit pays — et c'est la CARTE qui l'a établi, pas une présomption.**
   Le crible du Cap-Vert, qui s'appuyait sur des boîtes d'îles, a été généralisé : **un lieu LOIN de tous les
   autres de sa division et posé AU MILIEU d'une autre**. Ni la distance seule (des divisions sont réellement
