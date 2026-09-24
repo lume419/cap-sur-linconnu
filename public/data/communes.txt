@@ -34897,7 +34897,7 @@
 14623;-149.4753,-17.5575;98709,98710;987;Mahina
 1391;-143.3857,-16.6551;98769,98789,98790;987;Makemo
 1138;-146.0776,-14.4453;98770,98771;987;Manihi
-1302;-153.9401,-16.78;98732;987;Maupiti
+1302;-152.2743,-16.4401;98732;987;Maupiti
 18201;-149.9179,-17.506;98728,98729;987;Moorea-Maiao
 307;-141.2747,-14.1661;98772;987;Napuka
 3025;-140.6052,-8.6775;98742,98748,98796;987;Nuku-Hiva
@@ -35329,7 +35329,6 @@
 0;0.5722,45.1638;24430;24;Annesse;Annesse-et-Beaulieu
 0;0.5429,49.7832;76540;76;Anneville;Sassetot-le-Mauconduit
 198;-1.5819,49.1207;50200,50560;50;Anneville-sur-Mer;Gouville-sur-Mer
-10528;2.9318,50.5292;59112;59;Annoeullin;Annœullin
 630;5.2921,45.7572;38460;38;Annoisin;Annoisin-Chatelans
 557;-1.5361,48.9663;50660;50;Annoville;Tourneville-sur-Mer
 0;6.6018,45.7576;73620;73;Annuit;Hauteluce
@@ -35504,7 +35503,6 @@
 0;1.0712,45.0363;24290;24;Argiller;Saint-Léon-sur-Vézère
 0;2.7382,46.3869;03170;03;Arginy;Bizeneuille
 0;3.0345,45.8459;63530;63;Argnat;Sayat
-564;2.2278,49.9299;80470;80;Argoeuves;Argœuves
 553;-1.3968,48.5023;50240;50;Argouges;Saint-James
 0;-0.8280,49.3179;14400;14;Argouges;Mosles
 233;6.0015,47.1975;25660,25720;25;Arguel;Fontain
@@ -35970,7 +35968,6 @@
 275;2.9088,43.4360;34360;34;Babeau;Babeau-Bouldoux
 0;1.1020,44.7062;24170;24;Babiot;Doissat
 0;3.8012,46.9760;58290;58;Babise;Moulins-Engilbert
-483;3.0851,49.5880;60400;60;Baboeuf;Babœuf
 0;3.5849,44.8761;43170,43580;43;Babonnès;Thoras
 0;4.8563,48.4924;52130;52;Babottes;Voillecomte
 0;3.0689,44.6803;48260;48;Baboyères;Nasbinals
@@ -36539,8 +36536,6 @@
 0;4.3771,49.6018;08270;08;Beaumont En Aviotte;Sery
 0;0.7744,49.0939;27170;27;Beaumont La Ville;Beaumontel
 1413;-1.8382,49.6639;50440,50460,50690;50;Beaumont-Hague;La Hague
-200;-0.4329,47.9046;53290;53;Beaumont-Pied-de-Boeuf;Beaumont-Pied-de-Bœuf
-499;0.4017,47.7608;72500;72;Beaumont-Pied-de-Boeuf;Beaumont-Pied-de-Bœuf
 1222;0.7673,44.7699;24440;24;Beaumont-du-Périgord;Beaumontois en Périgord
 1034;0.6702,47.5695;37360,37370;37;Beaumont-la-Ronce;Beaumont-Louestault
 0;-0.1260,46.1482;79110;79;Beaumoreau;Chef-Boutonne
@@ -70360,7 +70355,6 @@
 0;2.4148,45.4037;19110;19;Paillier;Sarroux - Saint Julien
 0;2.9749,47.3650;58150;58;Paillot;Saint-Martin-sur-Nohain
 0;4.4806,44.7846;07190;07;Paillès;Issamoulenc
-3015;-2.0305,47.2865;44560;44;Paimboeuf;Paimbœuf
 0;1.3509,48.6257;28170;28;Paincuit;Le Boullay-les-Deux-Églises
 0;-1.9762,47.6840;44460;44;Painfaut;Avessac
 0;-2.1286,47.7091;56350;56;Painfaut;Saint-Vincent-sur-Oust
@@ -73352,7 +73346,6 @@
 0;1.9716,48.7467;78320;78;Rodon;Le Mesnil-Saint-Denis
 0;4.0883,46.1572;42720;42;Rodon;Briennon
 0;7.4357,48.4616;67210;67;Roedel;Obernai
-2156;8.0368,48.8268;67480;67;Roeschwoog;Rœschwoog
 0;7.6954,48.5658;67380;67;Roethig;Lingolsheim
 0;3.8971,50.2965;59750;59;Roeux;Feignies
 0;0.1569,45.6775;16160;16;Roffit;Gond-Pontouvre
@@ -79768,7 +79761,6 @@
 0;1.6833,49.9531;80140;80;Witainéglise;Framicourt
 0;6.0552,49.3626;57440;57;Witten;Algrange
 0;7.5102,48.6795;67370;67;Woellenheim;Willgottheim
-1833;7.7428,48.9395;67360;67;Woerth;Wœrth
 0;5.6614,48.8968;55300;55;Woinville;Buxières-sous-les-Côtes
 0;7.8764,48.9332;67250;67;Wolfsgarten;Soultz-sous-Forêts
 0;7.6350,48.3892;67150;67;Wœrth;Matzenheim

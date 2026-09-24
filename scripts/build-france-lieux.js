@@ -47,7 +47,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const { excludePlace, preparePlaceName, dropNearDuplicates } = require('./communes-corrections.js');
+const { excludePlace, preparePlaceName, dropNearDuplicates, fixIgnCoord } = require('./communes-corrections.js');
 const { normalizeCityName } = require('../lib/trip-engine.js').internals;
 
 const KEEP_FEATURE_CODES = new Set(['PPL','PPLA','PPLA2','PPLA3','PPLA4','PPLA5','PPLC','PPLF','PPLG','PPLL','PPLS']);
@@ -79,6 +79,21 @@ const publié = fs.readFileSync(fichier, 'utf8').split('\n').filter(Boolean);
 // 74 914 en une relance).
 const ign = publié.filter(l => { const p = l.split(';'); return p[2] !== '' && p.length < 6; });
 const ajoutéesAvant = publié.length - ign.length;
+
+// POINT OFFICIEL HORS DE L'ÎLE HABITÉE (24/09/2026) — la SEULE retouche d'une ligne IGN de tout ce script, et
+// elle ne touche que les coordonnées : ni le nom, ni le code postal, ni le département. Chaque cas est décrit,
+// mesuré et sourcé dans IGN_COORD_FIXES (scripts/communes-corrections.js). Aujourd'hui : Maupiti, que la source
+// officielle publie sur Maupihaʻa — un atoll de sept habitants, à 236 km des 1 302 habitants de la commune.
+let coordsCorrigées = 0;
+for(let i = 0; i < ign.length; i++){
+  const ch = ign[i].split(';');
+  const fix = fixIgnCoord(ch[4], ch[3]);
+  if(!fix) continue;
+  ch[1] = fix.lon + ',' + fix.lat;
+  ign[i] = ch.join(';');
+  coordsCorrigées++;
+}
+
 
 const parNom = new Map();
 const grille = new Map();
@@ -185,7 +200,7 @@ ajouts.sort((a, b) => {
 
 const lignes = dropNearDuplicates(ign.concat(ajouts));
 fs.writeFileSync(fichier, lignes.join('\n') + '\n', 'utf8');
-console.log('FR : ' + ign.length + ' communes IGN (inchangées) + ' + ajouts.length + ' lieux GeoNames ajoutés' +
+console.log('FR : ' + ign.length + ' communes IGN (' + (coordsCorrigées ? coordsCorrigées + ' point(s) corrigé(s)' : 'inchangées') + ') + ' + ajouts.length + ' lieux GeoNames ajoutés' +
   (ajoutéesAvant ? ' (' + ajoutéesAvant + ' ajouts d\'une exécution précédente remplacés)' : '') +
   ' -> ' + lignes.length + ' lignes après dédoublonnage.');
 console.log('   ' + bruts + ' lieux habités dans le dump, ' + déjàPubliés + ' déjà publiés (même nom à moins de ' +

@@ -514,7 +514,11 @@ function check(params, res, elapsedMs){
         const pairKm = fp && fp.fromPort ? hav(fp.fromPort.lat, fp.fromPort.lon, fp.toPort.lat, fp.toPort.lon) : null;
         const refKm = fp ? fp.refSeaKm : null;
         const estimated = pairKm > 0 && refKm > 0 && route.distanceKm > 0 && (pairKm > refKm * 1.5 + 5 || pairKm * 1.5 + 5 < refKm);
-        const amt = estimated ? null : (route.priceByClass ? route.priceByClass[N.ferryClass] : null);
+        // Liaison SANS VÉHICULES : le véhicule reste au port et c'est le tarif PIÉTON qui s'applique, la classe
+        // demandée n'existant pas à bord (lib/trip-engine.js:546, info.fareClass = 'foot'). Sans cette ligne, le
+        // contrôle réclamait le tarif de la voiture — donc null — et signalait à tort le prix réellement facturé.
+        const classeFacturée = route.passengerOnly ? 'foot' : N.ferryClass;
+        const amt = estimated ? null : (route.priceByClass ? route.priceByClass[classeFacturée] : null);
         const expAmt = typeof amt === 'number' ? amt : null;
         if(leg.ferryInfo.amount !== expAmt) bad('ferry', 'moyenne', 'montant ferry ' + leg.ferryInfo.amount + ' ≠ ' + expAmt + (estimated ? ' (traversée estimée)' : ''), { i });
         if(expAmt === null && ['variable', 'unknown'].indexOf(leg.ferryInfo.priceStatus) < 0) bad('ferry', 'basse', 'priceStatus absent', { i });

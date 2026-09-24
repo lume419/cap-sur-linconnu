@@ -37,8 +37,8 @@ module.exports = {
           note: 'Huahine Nui et Huahine Iti reliées par un pont routier (Maroe).' },
         { key: 'boraBora', match: { near: [{ name: 'Bora-Bora', lat: -16.4376, lon: -151.7585, km: 8 }] },
           note: 'Commune Bora-Bora (couvre aussi l’atoll de Tupai).' },
-        { key: 'maupiti', match: { near: [{ name: 'Maupiti', lat: -16.78, lon: -153.9401, km: 8 }] },
-          note: 'Commune Maupiti (couvre aussi Manuae/Scilly, Motu One/Bellingshausen).' },
+        { key: 'maupiti', match: { near: [{ name: 'Maupiti', lat: -16.4401, lon: -152.2743, km: 8 }] },
+          note: "Commune Maupiti (couvre aussi Maupihaʻa/Mopelia, Manuae/Scilly, Motu One/Bellingshausen). Ancre recalée le 24/09/2026 en même temps que le point du lieu : la source officielle publiait la commune sur Maupihaʻa, 236 km à l'ouest (voir IGN_COORD_FIXES dans scripts/communes-corrections.js)." },
         { key: '*', match: { cpPrefix: ['987'] },
           note: "Tous les autres lieux de Polynésie isolés, un par commune : Tuamotu (Anaa, Arutua, Fakarava, Fangatau, Hao, Hikueru, Makemo, Manihi, Napuka, Nukutavake, Pukapuka, Rangiroa, Reao, Takaroa, Tatakoto, Tureia — chacune regroupe plusieurs atolls), Marquises (Nuku-Hiva, Hiva-Oa, Ua-Pou, Ua-Huka, Tahuata, Fatu-Hiva — Nuku-Hiva couvre Eiao/Hatutu, Hiva-Oa Mohotani), Australes (Tubuai, Rurutu, Rimatara, Raivavae, Rapa), Gambier (Mangareva + atolls)." },
         // ---------- Nouvelle-Calédonie (988) ----------

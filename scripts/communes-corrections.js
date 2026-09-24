@@ -925,7 +925,32 @@ function dropNearDuplicates(lines){
   return lines.filter((l, i) => !l || best.get(keyOf(l)).i === i);
 }
 
+// 10. COMMUNES FRANÇAISES DONT LE POINT OFFICIEL N'EST PAS SUR L'ÎLE HABITÉE (24/09/2026).
+//     `public/data/communes.txt` reprend la liste officielle (geo.api.gouv.fr, IGN / Etalab) et
+//     build-france-lieux.js promet de ne retoucher AUCUNE ligne IGN. Cette table est la seule exception, et
+//     chaque entrée porte la mesure qui la justifie. Elle ne vaut QUE pour les communes d'outre-mer étalées sur
+//     plusieurs îles, où le point officiel tombe sur un atoll quasi désert à des centaines de kilomètres de la
+//     population : là, recopier fidèlement revient à publier une ville au mauvais endroit.
+//     La correction est appliquée par le générateur, donc elle survit à une régénération ; le nom, le code
+//     postal et le département de la ligne IGN ne sont jamais touchés, seul le couple de coordonnées l'est.
+const IGN_COORD_FIXES = {
+  // La commune de Maupiti couvre Maupiti, Maupihaʻa (Mopelia), Manuae (Scilly) et Motu One (Bellingshausen).
+  // geo.api.gouv.fr publie -16,78 / -153,9401 pour le `centre` ET pour la `mairie` — c'est Maupihaʻa, à 2,5 km
+  // près (16°48′S 153°57′W), où vivaient SEPT personnes au 27/08/2023. L'île de Maupiti, où vivent les 1 302
+  // habitants de la commune et où siège la mairie, est à 16°26′24″S 152°16′27″W, soit 236 km plus à l'est.
+  // Conséquence mesurée avant correction : la liaison du Maupiti Express vers Bora Bora, trois fois par semaine,
+  // mesurait 236 km au lieu de 40, et n'a pas pu être écrite (lot de couverture, passe 5).
+  // L'erreur est dans la source officielle, pas dans sa reprise : le projet la corrige ici plutôt que de
+  // republier une commune habitée sur un atoll désert.
+  'Maupiti|987': { lat: -16.4401, lon: -152.2743,
+    source: 'https://en.wikipedia.org/wiki/Maupiti (16°26′24,3″S 152°16′27,3″O ; village de Vaiea)' },
+};
+// La clé est « nom|département » : communes.txt ne porte pas de code INSEE.
+function fixIgnCoord(nom, dept){
+  return IGN_COORD_FIXES[nom + '|' + dept] || null;
+}
+
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
   PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES, INPUT_SYMBOL_RE, ALIAS_REPAIR_REJECT, repairAliasTypography, repairAliasLoose,
   BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, isPlaceholderCoord, PLACEHOLDER_COORD_OK, regionLabel, excludePlace,
-  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates };
+  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates, IGN_COORD_FIXES, fixIgnCoord };

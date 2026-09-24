@@ -395,7 +395,7 @@ test('balayage : ' + SAMPLE + ' alias tirés au hasard retrouvent leur lieu', (t
 // environnantes » (utilisateur). Un lieu-dit publié avec un 6e champ porte le nom de sa commune, et les codes postaux
 // de cette commune : les DEUX chemins de recherche doivent rendre l'un et l'autre, sinon la suggestion ne dit pas où
 // est le lieu. Le test lit le fichier publié, tire les lieux rattachés au hasard (reproductible) et les cherche.
-test('lieux-dits français : la commune de rattachement et son code postal suivent le lieu, par les deux chemins', () => {
+test('lieux-dits français : la commune de rattachement et son code postal suivent le lieu, par les deux chemins', t => {
   const lignes = fs.readFileSync(path.join(DATA, 'communes.txt'), 'utf8').split('\n');
   const rattachés = [];
   // La recherche se fait par PRÉFIXE : « Fontaine » est publié 18 fois, et « Fresne » est chassé des 20 premiers

@@ -116,6 +116,45 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Maupiti était publiée sur un atoll de sept habitants, à 236 km de ses 1 302 habitants.**
+  `public/data/communes.txt` reprend la liste officielle (geo.api.gouv.fr, IGN/Etalab). Pour la commune de
+  Maupiti — qui couvre Maupiti, Maupihaʻa (Mopelia), Manuae et Motu One — cette source publie **-16,78 /
+  -153,9401 pour le `centre` ET pour la `mairie` : c'est Maupihaʻa**, à 2,5 km près (16°48′S 153°57′W), où
+  vivaient **sept personnes** au 27/08/2023. L'île de Maupiti, où vivent les 1 302 habitants de la commune et où
+  siège la mairie, est à 16°26′24″S 152°16′27″W. **L'erreur est dans la source officielle, pas dans sa reprise.**
+  - Conséquence mesurée : la liaison du Maupiti Express vers Bora Bora, trois fois par semaine, mesurait
+    **236 km au lieu de 55** entre les deux lieux publiés, et n'avait pas pu être écrite (passe 5).
+    **La liaison n'est pas écrite pour autant** : Maupiti reste l'une des 31 impasses tant qu'elle ne l'est pas.
+    Ce correctif lève l'obstacle, il ne le remplace pas.
+  - **Nouvelle table `IGN_COORD_FIXES`** (`scripts/communes-corrections.js`), appliquée par
+    `build-france-lieux.js` : la correction survit donc à une régénération. C'est la **seule exception** à la
+    règle « aucune ligne IGN n'est retouchée », elle ne touche **que** le couple de coordonnées — ni le nom, ni
+    le code postal, ni le département — et chaque entrée porte sa mesure et sa source. Le compte rendu du
+    générateur annonce désormais le nombre de points corrigés au lieu de « inchangées ».
+  - L'ancre de la règle d'île `maupiti` est recalée sur le même point : sans cela, le lieu corrigé serait sorti
+    de son cercle de 8 km et serait devenu une masse synthétique.
+  - Reste à faire, signalé : **Arue** (Tahiti) souffre du même mal — son point est « en mer ~50 km au nord »,
+    de l'aveu même de la règle d'île qui la contourne par son code postal. Elle n'est PAS corrigée ici.
+- **Neuf doublons de ligature œ disparaissent enfin des données.** La régénération de `communes.txt` applique le
+  correctif du normalisateur (ligature œ), jamais réappliqué aux données depuis : Annoeullin, Argoeuves,
+  Baboeuf, Beaumont-Pied-de-Boeuf (×2), Paimboeuf, Roeschwoog et Woerth étaient publiés EN PLUS de leur graphie
+  « œ ». Chacun des neuf a bien son équivalent conservé — aucun lieu perdu, que des doublons.
+  - Leurs 29 alias ont été **repointés** vers la graphie survivante plutôt que supprimés : « ヴルト », « Пембеф »,
+    « 沃埃尔 » ou le breton « Pembo » désignent de vrais noms. 17 repointés, 12 retirés parce qu'ils seraient
+    devenus identiques au nom publié.
+  - `compare-engine` : **9 tirages changés sur 380**, tous au départ de Paris, Lille, Strasbourg, Fribourg ou
+    Munich — soit les départements des doublons retirés (59, 80, 60, 67) et leurs voisins. Aucun tirage
+    polynésien dans l'échantillon : le déplacement de Maupiti n'en change aucun.
+- **Deux défauts de tests, révélés parce que l'échantillonnage les a enfin atteints.**
+  - `tests/search.test.js` : la fonction de test était déclarée sans son contexte, si bien que la branche
+    « chemin disque non contrôlé » levait `ReferenceError: t is not defined` au lieu d'émettre un simple
+    avertissement. Un index de recherche momentanément absent faisait donc échouer un test qui devait le signaler.
+  - `tests/helpers/engine.js` : l'invariant ferry ignorait les liaisons **sans véhicules**. Il réclamait le
+    tarif de la classe du véhicule — donc `null` — alors que le moteur applique délibérément le tarif PIÉTON et
+    pose `fareClass = 'foot'` (`lib/trip-engine.js:546`), le véhicule restant au port. Il signalait donc comme
+    faute le prix réellement facturé (Sa Kỳ ↔ Lý Sơn, 5,93 €). **Défaut vérifié préexistant** : le même cas
+    échoue à l'identique sur `4f0a4d4`, déjà déployé. Deux mutants le tuent (tarif piéton pour toutes les
+    liaisons ; retour à la classe du véhicule).
 - **Les 31 impasses définitives ne conseillent plus d'élargir le rayon.** Un tirage vide qui n'était ni un manque
   de temps, ni le filtre des zones à tension, ni un éloignement introuvable retombait sur « Impossible de
   construire un itinéraire depuis cette ville pour l'instant — réessayez, ou élargissez le rayon ». Pour Wallis,

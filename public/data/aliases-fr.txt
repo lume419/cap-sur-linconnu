@@ -51167,20 +51167,13 @@ kk;Ивранд;Yvrandes
 uk;Івранд;Yvrandes
 ur;یورانڈس;Yvrandes
 zh;伊夫朗代;Yvrandes
-pl;Wœrth;Woerth
-fr;Wœrth;Woerth
-de;Wœrth;Woerth
-en;Wœrth;Woerth
-it;Wœrth;Woerth
-nl;Wœrth;Woerth
-no;Wœrth;Woerth
-bg;Вьорт;Woerth
-ja;ヴルト;Woerth
-kk;Верт;Woerth
-uk;Верт;Woerth
-ru;Вёрт;Woerth
-zh;沃埃尔;Woerth
-ar;ورث;Woerth
+bg;Вьорт;Wœrth
+ja;ヴルト;Wœrth
+kk;Верт;Wœrth
+uk;Верт;Wœrth
+ru;Вёрт;Wœrth
+zh;沃埃尔;Wœrth
+ar;ورث;Wœrth
 ar;وينغيرشيم;Wingersheim
 fa;وینگرسهایم;Wingersheim
 kk;Венгерсайм;Wingersheim
@@ -52212,12 +52205,11 @@ ru;Пента-Акуателла;Penta
 fr;Pellafol;Vieux Pellafol
 uk;Парсе-ле-Пен;Parçay-les-Pins
 zh;帕尔赛莱潘;Parçay-les-Pins
-br;Pembo;Paimboeuf
-fr;Paimbœuf;Paimboeuf
-oc;Pembo;Paimboeuf
-uk;Пембеф;Paimboeuf
-zh;潘博厄;Paimboeuf
-ru;Пембеф;Paimboeuf
+br;Pembo;Paimbœuf
+oc;Pembo;Paimbœuf
+uk;Пембеф;Paimbœuf
+zh;潘博厄;Paimbœuf
+ru;Пембеф;Paimbœuf
 ar;أولينز;Oullins
 fa;اولن;Oullins
 ja;ウラン;Oullins
@@ -54059,7 +54051,6 @@ uk;Бопрео;Beaupréau
 ru;Бопрео;Beaupréau
 zh;博普雷奥;Beaupréau
 ja;ボープレオ;Beaupréau
-fr;Beaumont-Pied-de-Bœuf;Beaumont-Pied-de-Boeuf
 ca;Bèlmont;Beaumont-du-Périgord
 kk;Бомон-дю-Перигор;Beaumont-du-Périgord
 oc;Bèlmont;Beaumont-du-Périgord
@@ -54150,7 +54141,6 @@ uk;Баже-ла-Віль;Bâgé-la-Ville
 ru;Баже-ла-Виль;Bâgé-la-Ville
 zh;巴热拉维耶;Bâgé-la-Ville
 hy;Բաժե լա Վիլ;Bâgé-la-Ville
-fr;Babœuf;Baboeuf
 sr;Е;Ay
 sr;Авире;Aviré
 uk;Авіре;Aviré
@@ -54258,7 +54248,6 @@ zh;雷特地区阿尔通;Arthon-en-Retz
 sr;Ару;Arrou
 uk;Арру;Arrou
 zh;阿尔鲁;Arrou
-fr;Argœuves;Argoeuves
 sr;Аржантон Нотре Дам;Argenton-Notre-Dame
 uk;Аржантон-Нотр-Дам;Argenton-Notre-Dame
 zh;阿尔让通诺特尔当;Argenton-Notre-Dame
@@ -54313,12 +54302,11 @@ sr;Аноазен Шатлан;Annoisin
 uk;Аннуазен-Шатлан;Annoisin
 ru;Аннуазен-Шатлан;Annoisin
 zh;阿努瓦桑沙泰朗;Annoisin
-kk;Аннеллен;Annoeullin
-sr;Аноелен;Annoeullin
-uk;Аннеллен;Annoeullin
-ru;Аннёллен;Annoeullin
-zh;阿讷兰;Annoeullin
-fr;Annœullin;Annoeullin
+kk;Аннеллен;Annœullin
+sr;Аноелен;Annœullin
+uk;Аннеллен;Annœullin
+ru;Аннёллен;Annœullin
+zh;阿讷兰;Annœullin
 fr;Angoustrine;Angostrina
 br;Arned;Anetz
 oc;Arned;Anetz
