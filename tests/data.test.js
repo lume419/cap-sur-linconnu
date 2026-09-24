@@ -600,6 +600,10 @@ const ISOLATED_OK = {
   'FR|Miquelon-Langlade': 'Saint-Pierre-et-Miquelon, au large de Terre-Neuve',
   'FR|Saint-Pierre': 'Saint-Pierre-et-Miquelon, au large de Terre-Neuve',
   'FR|Rapa': 'Rapa Iti, Australes, 1 100 km au sud de Tahiti',
+  // Ajoutée le 24/09/2026 : la commune des Gambier était publiée en pleine mer, 174 km au nord-ouest de son
+  // chef-lieu, ce qui la rapprochait artificiellement des Tuamotu et la faisait passer sous ce contrôle.
+  // Remise sur Rikitea (voir IGN_COORD_FIXES), elle montre son isolement RÉEL : 530 km.
+  'FR|Gambier': 'Rikitea, sur Mangareva, archipel des Gambier, 530 km du lieu français le plus proche',
   'ZA|Fairbairn Settlement': 'île Marion (îles du Prince-Édouard), sud-africaine, 1 900 km au sud-est du Cap',
   'KI|Kanton Village': 'Kanton, îles Phœnix, 1 800 km des Gilbert',
   'KI|Antereen Village': 'Banaba (Ocean Island), 400 km à l\'ouest des Gilbert',

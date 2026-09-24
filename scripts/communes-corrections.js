@@ -934,6 +934,41 @@ function dropNearDuplicates(lines){
 //     La correction est appliquée par le générateur, donc elle survit à une régénération ; le nom, le code
 //     postal et le département de la ligne IGN ne sont jamais touchés, seul le couple de coordonnées l'est.
 const IGN_COORD_FIXES = {
+  // La commune de Fangatau réunit l'atoll de Fangatau, qui lui donne son nom et porte son chef-lieu, et celui
+  // de FAKAHINA, à 72 km au sud-est. Le point officiel est sur Fakahina, à 1,5 km de son centre, donc à 79 km
+  // de l'atoll de Fangatau. Même choix que pour Nukutavake : le point va sur l'atoll qui nomme la commune.
+  'Fangatau|987': { lat: -15.82, lon: -140.8872,
+    source: 'https://en.wikipedia.org/wiki/Fangatau (15°49′12″S 140°53′14″O)' },
+  // Les 1 570 habitants de la commune des Gambier vivent TOUS sur les îles Mangareva ; la commune couvre en
+  // outre Temoe, Marutea Sud, Morane et Maria Est. Le point officiel, -22,0353 / -136,186, est en PLEINE MER
+  // à 174 km au nord-ouest de Rikitea, son chef-lieu : c'est le plus gros écart des 48 communes polynésiennes.
+  'Gambier|987': { lat: -23.1203, lon: -134.9692,
+    source: 'https://en.wikipedia.org/wiki/Rikitea (23°7′13″S 134°58′9″O, chef-lieu sur Mangareva)' },
+  // La commune de Tureia couvre Tureia, Vanavana, Tematagi, MORUROA et Fangataufa. Le point officiel tombe à
+  // 14 km de Moruroa, inhabité, soit 133 km de l'atoll de Tureia où vivent les 261 habitants.
+  'Tureia|987': { lat: -20.7711, lon: -138.5647,
+    source: 'https://en.wikipedia.org/wiki/Tureia (20°46′16″S 138°33′53″O)' },
+  // La commune de Hao regroupe douze îles. Le point officiel tombe à 13 km de Nengonengo, inhabité, soit
+  // 121 km de l'atoll de Hao et de son chef-lieu Otepa, où vivent les 1 227 habitants.
+  'Hao|987': { lat: -18.0753, lon: -140.9453,
+    source: 'https://en.wikipedia.org/wiki/Hao_(French_Polynesia) (18°4′31″S 140°56′43″O)' },
+  // La commune d'Anaa couvre Anaa, Faaite et les atolls INHABITÉS de Tahanea et Motutunga. Le point officiel
+  // tombe à 15 km de Tahanea, soit 84 km de l'atoll d'Anaa. Les 970 habitants sont sur Anaa et Faaite.
+  'Anaa|987': { lat: -17.3419, lon: -145.5086,
+    source: 'https://en.wikipedia.org/wiki/Anaa (17°20′31″S 145°30′31″O)' },
+  // La commune de Nuku-Hiva couvre l'île de Nuku Hiva (339 km²) et les îles INHABITÉES d'Eiao et Hatutu, à
+  // 97 et 103 km au nord-ouest. Le point officiel part vers elles : 61 km de Taiohae, chef-lieu, où se
+  // concentrent les 3 025 habitants. C'est la commune la plus peuplée des sept.
+  'Nuku-Hiva|987': { lat: -8.9097, lon: -140.1014,
+    source: 'https://en.wikipedia.org/wiki/Taioha%27e (8°54′35″S 140°6′5″O, chef-lieu)' },
+  // La commune de Nukutavake couvre Nukutavake, Vahitahi, Pinaki et Vairaatea. Le point officiel est sur
+  // VAHITAHI (105 habitants), à 55 km de l'atoll de Nukutavake qui donne son nom à la commune.
+  'Nukutavake|987': { lat: -19.2667, lon: -138.7667,
+    source: 'https://en.wikipedia.org/wiki/Nukutavake (19°16′S 138°46′O)' },
+  // La commune d'Arutua couvre Arutua (826 hab.), Apataki (350) et Kaukura (475). Le point officiel est à
+  // 13 km d'Apataki, soit 33 km de l'atoll d'Arutua, le plus peuplé et celui qui nomme la commune.
+  'Arutua|987': { lat: -15.2453, lon: -146.6119,
+    source: 'https://en.wikipedia.org/wiki/Arutua (15°14′43″S 146°36′43″O)' },
   // La commune de Maupiti couvre Maupiti, Maupihaʻa (Mopelia), Manuae (Scilly) et Motu One (Bellingshausen).
   // geo.api.gouv.fr publie -16,78 / -153,9401 pour le `centre` ET pour la `mairie` — c'est Maupihaʻa, à 2,5 km
   // près (16°48′S 153°57′W), où vivaient SEPT personnes au 27/08/2023. L'île de Maupiti, où vivent les 1 302

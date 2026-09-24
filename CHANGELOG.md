@@ -116,6 +116,38 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Les 48 communes de Polynésie passées au crible : huit de plus étaient publiées loin de leurs habitants.**
+  Maupiti et Arue n'étaient pas des cas isolés. Le même défaut — une commune étalée sur plusieurs îles dont le
+  point officiel dérive vers les îlots excentrés — touche **huit autres communes, 9 399 habitants** :
+
+  | Commune | Hab. | Écart | Où tombait le point publié |
+  |---|---:|---:|---|
+  | **Gambier** | 1 570 | **174 km** | en pleine mer, au nord-ouest de Mangareva |
+  | **Tureia** | 261 | **133 km** | à 14 km de Moruroa, inhabité |
+  | **Hao** | 1 227 | **121 km** | à 13 km de Nengonengo, inhabité |
+  | **Anaa** | 970 | **84 km** | à 15 km de Tahanea, inhabité |
+  | **Fangatau** | 323 | **79 km** | sur Fakahina, l'autre atoll de la commune |
+  | **Nuku-Hiva** | 3 025 | **61 km** | vers Eiao et Hatutu, inhabitées |
+  | **Nukutavake** | 287 | **55 km** | sur Vahitahi (105 hab.) |
+  | **Arutua** | 1 736 | **33 km** | près d'Apataki (350 hab.) |
+
+  `IGN_COORD_FIXES` compte désormais **dix entrées**, chacune avec sa mesure et sa source. La régénération de
+  `communes.txt` ne change que ces lignes.
+  - **La grille terre/mer du projet ne sert à rien ici, et c'est mesuré.** Sa maille de 0,05° (~5,5 km) ne voit
+    pas les atolls : elle a signalé Bora-Bora et Taiarapu-Est, évidemment sur la terre ferme, et surtout elle a
+    **laissé passer Gambier**, le pire cas des huit. Chaque écart ci-dessus est donc mesuré contre les
+    coordonnées du chef-lieu ou de l'île principale, relevées une par une.
+  - **Le crible est exhaustif.** Sur les 48 : 10 corrigées ; **18 sont contraintes par une règle d'île nommée**,
+    donc leur point tombe forcément dans la boîte ou le cercle de leur île (les onze communes de Tahiti,
+    Bora-Bora, Moorea, Huahine, Taha'a, les trois de Raiatea) ; les **20 dernières ont été vérifiées une par
+    une** contre les coordonnées de leur île, toutes à moins de 7 km, sauf Rangiroa — voir ci-dessous.
+  - **Rangiroa, signalée sans être corrigée** : son point est à 27 km du centre de son atoll et 35 km d'Avatoru,
+    son chef-lieu. Mais Rangiroa fait 80 km de long : le point reste sur l'atoll qui nomme la commune, ce n'est
+    pas le défaut des huit autres. Un centroïde d'atoll géant, pas une île fausse.
+  - **Un isolement réel apparaît, que le point faux masquait** : remise sur Rikitea, la commune des Gambier est
+    à **530 km du lieu français le plus proche** et déclenche le contrôle d'isolement. L'exception est déclarée
+    dans `ISOLATED_OK` avec sa raison — l'ancien point, 174 km plus près des Tuamotu, passait sous le seuil.
+  - `compare-engine` : **0 tirage changé sur 380**. Aucun tirage de l'échantillon ne part de Polynésie.
 - **Arue était publiée en mer, sur l'atoll de Tetiaroa, à 52 km de ses habitants.** Même maladie que Maupiti, et
   la même cause : la commune d'Arue, dans la banlieue est de Papeete, **couvre aussi l'atoll de TETIAROA**, à
   58 km au nord de Tahiti. `geo.api.gouv.fr` publie **-17,0496 / -149,5463 pour le `centre` ET pour la
