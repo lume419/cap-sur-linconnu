@@ -35,7 +35,7 @@
 1122;-54.7667,-32.8333;36100;Cerro Largo;Tupambaé
 0;-56.5333,-34.4000;80400;San José Department;Tropezón
 22897;-56.8996,-33.5165;85000;Flores Department;Trinidad
-0;-54.6833,-32.5167;36200;Montevideo Department;Tres Islas
+0;-54.6833,-32.5167;36200;Cerro Largo;Tres Islas
 0;-57.3718,-34.1223;70200;Colonia;Tres Esquinas
 0;-55.6667,-31.3667;45000;Rivera Department;Tres Cerros
 0;-56.6500,-30.9500;55000;Artigas;Tres Cerros
@@ -58,7 +58,7 @@
 0;-56.6677,-30.4736;55000;Artigas;Tarumán
 6632;-57.6187,-34.2655;70600;Colonia;Tarariras
 213;-55.7511,-34.5677;91600;Canelones;Estación Tapia
-1561;-56.2444,-31.8774;45000;Tacuarembó Department;Tambores
+1561;-56.2444,-31.8774;45000;Paysandú Department;Tambores
 0;-56.5070,-30.4643;55000;Artigas;Tamanduá
 4949;-55.7638,-34.3435;91800;Canelones;Tala
 60586;-55.9793,-31.7188;45000;Tacuarembó Department;Tacuarembó

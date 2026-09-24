@@ -770,6 +770,10 @@ const DIVISION_FIXES = [
   //    le lieu comme son voisin de 2 km (Pijavičino) dans la même županija. Sans effet sur la masse terrestre :
   //    en Croatie c'est le CODE POSTAL qui décide d'une île (HR_POSTCODE_TO_ISLAND), pas l'étiquette — vérifié,
   //    la fiche reste « continental » avant comme après, Pelješac étant une presqu'île.
+  // Uruguay (24/09/2026) — trouvées en arbitrant les étiquettes des pays non régénérables : sur douze fiches
+  //    tirées au sort, la carte en a démenti DEUX. « Tres Islas » était rangée à Montevideo, à 300 km de là.
+  { cc: 'UY', name: "Tres Islas", lat: -32.5167, lon: -54.6833, to: "Cerro Largo" },   // au lieu de Montevideo Department
+  { cc: 'UY', name: "Tambores", lat: -31.8774, lon: -56.2444, to: "Paysandú Department" },   // au lieu de Tacuarembó Department
   { cc: 'HR', name: "Gornji Dingač", lat: 42.9256, lon: 17.3533, to: "Dubrovačko-Neretvanska" },   // au lieu de Splitsko-Dalmatinska
 ];
 // Comparaison au dix-millième de degré (~11 m) : la fiche visée est désignée sans risque d'en emporter une autre.
@@ -1076,6 +1080,31 @@ function cpContredit(country, name, lat, lon){
   }
   return false;
 }
+// 14. RÉGION PRISE AU DUMP, PAS AU POINT POSTAL (24/09/2026). Quatre pays étaient devenus NON RÉGÉNÉRABLES :
+//    leur régénération changeait des milliers d'étiquettes de région — Russie 173 477 lignes, Australie 13 036,
+//    Costa Rica 4 425, Uruguay 554 — sans qu'aucune fiche ne soit perdue, ajoutée ni déplacée : SEULE l'étiquette
+//    changeait. Cause : le fichier publié avait été fabriqué SANS fichier postal, donc avec l'admin1 du dump
+//    (l'État, la province, l'oblast) ; ces fichiers postaux sont là aujourd'hui, et le générateur prend alors la
+//    région au POINT POSTAL LE PLUS PROCHE, qui porte l'admin2 — le district.
+//    CE N'EST PAS UN SIMPLE CHANGEMENT DE RANG, c'est une PERTE DE JUSTESSE, et la carte l'a mesurée sur douze
+//    fiches tirées au sort par pays (géocodage inverse, une requête par seconde, zoom 10, qui rend l'État ET le
+//    district dans la même réponse) :
+//      - COSTA RICA : province publiée juste 12 fois sur 12 ; canton régénéré FAUX 4 fois sur 12 (Cueva rangée
+//        à San Ramón quand la carte dit Naranjo, Quebrador à Paraíso quand la carte dit Dota, Peñas Blancas à
+//        San Ramón quand la carte dit Esparza).
+//      - RUSSIE : l'oblast publié est juste (Смоленская область, Тверская область, Татарстан…) ; le raïon
+//        régénéré est FAUX au moins une fois sur douze (Mishino rangée au raïon de Novgorod quand la carte dit
+//        Borovitchi) et il est écrit EN CAPITALES CYRILLIQUES, là où tout le reste du fichier est en latin.
+//      - AUSTRALIE : l'État publié est confirmé 12 fois sur 12 ; les shires régénérés ne sont pas vérifiables,
+//        la carte ne rendant pas de comté pour ce pays. On ne troque pas du confirmé contre de l'invérifiable.
+//      - URUGUAY : les deux se valent presque — 2 erreurs publiées contre 3 régénérées sur douze. Les deux
+//        erreurs publiées relevées sont corrigées à part, dans DIVISION_FIXES.
+//    RAISON DE FOND : le point postal le plus proche peut se trouver DE L'AUTRE CÔTÉ d'une limite de district.
+//    L'erreur est rare au rang de l'État, fréquente au rang du district. C'est la même mécanique qui a produit
+//    les étiquettes fausses corrigées une à une dans DIVISION_FIXES.
+//    Pour ces pays, la région est donc prise au DUMP, comme si aucun fichier postal n'existait — le code postal,
+//    lui, continue de venir du point postal. Les quatre redeviennent régénérables à l'identique.
+const REGION_DU_DUMP = new Set(['RU', 'AU', 'UY', 'CR']);
 function excludePlace(country, geonameid, name, lat, lon){
   return isWrongCountry(country, geonameid) || isJunkId(country, geonameid) || HISTORICAL_NAME_RE.test(name || '') || isJunkName(name) ||
     isProjectBatch(country, geonameid) || isAntarcticUnderAR(country, lat) || isSark(country, lat, lon) || isPlaceholderCoord(lat, lon, geonameid) ||
@@ -1441,4 +1470,4 @@ function fixIgnCoord(nom, dept){
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
   PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES, INPUT_SYMBOL_RE, ALIAS_REPAIR_REJECT, repairAliasTypography, repairAliasLoose,
   BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, isPlaceholderCoord, PLACEHOLDER_COORD_OK, regionLabel, excludePlace,
-  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates, ADMIN_COORD_CONFLICT, isAdminCoordConflict, DIVISION_FIXES, fixDivision, CP_CONTREDIT, cpContredit, IGN_COORD_FIXES, fixIgnCoord };
+  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates, ADMIN_COORD_CONFLICT, isAdminCoordConflict, DIVISION_FIXES, fixDivision, CP_CONTREDIT, cpContredit, REGION_DU_DUMP, IGN_COORD_FIXES, fixIgnCoord };

@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 // lieux mal rangés, disparus, Sercq, Antarctique ; noms nettoyés et quasi-doublons (audit n° 11) — voir ce fichier
-const { excludePlace, preparePlaceName, dropNearDuplicates, fixDivision, cpContredit } = require('./communes-corrections.js');
+const { excludePlace, preparePlaceName, dropNearDuplicates, fixDivision, cpContredit, REGION_DU_DUMP } = require('./communes-corrections.js');
 
 // 13e audit du 19/09/2026 : ONLY_COUNTRY=AL (ou AL,TR…) régénère ces seuls pays, à condition que scripts/dump/XX_dump.txt
 // ET scripts/postal/XX_postal.txt soient sur le disque (liste vide par défaut, comme avant).
@@ -534,7 +534,13 @@ for(const country of COUNTRIES){
   // depuis la dernière génération perdrait son code postal et son district, ce qui serait une régression.
   const déjàPubliés = new Map();
   const déjàParNom = new Map();
-  if(postalAbsent){
+  // REPLI SUR LE CODE DÉJÀ PUBLIÉ (24/09/2026) : cette table était bâtie seulement quand le fichier postal
+  // manquait. Elle l est désormais TOUJOURS, car elle sert aussi de dernier recours quand la recherche postale ne
+  // trouve AUCUN point à moins de 15 km. Mesuré sur la Russie : quatre codes RÉELS étaient perdus à chaque
+  // régénération — Pangody 629757, Noïabrsk 629800, Lyantor 628449, Mejgorié 453570, quatre villes du Grand Nord
+  // et une ville fermée, qu aucun point du fichier postal actuel n approche. Reprendre un code déjà publié
+  // n invente rien : il vient d une génération antérieure, sourcée de la même façon.
+  if(fs.existsSync(publiéPath)){
     fs.readFileSync(publiéPath, 'utf8').split('\n').filter(Boolean).forEach(l => {
       const ch = l.split(';'), ll = ch[1].split(',');
       const e = { postcode: ch[2], admin2: ch[3], admin1: ch[3], lat: +ll[1], lon: +ll[0] };
@@ -628,8 +634,14 @@ for(const country of COUNTRIES){
     // Code postal DÉMENTI par les coordonnées (voir CP_CONTREDIT dans communes-corrections.js) : il est
     // EFFACÉ, pas remplacé — le code rendu par la carte est celui du bourg voisin, l'écrire ici serait inventer.
     // Ne touche que les fiches nommément vérifiées sur la carte ; la région, elle, est conservée.
-    const cp = cpContredit(country, p.name, p.lat, p.lon) ? '' : (near ? near.postcode : '');
-    const region = near ? (near.admin2 || near.admin1 || '')
+    // Dernier recours : aucun point postal à moins de 15 km, mais un code DÉJÀ PUBLIÉ pour cette fiche.
+    const replí = near ? null : codePublié(p);
+    const cp = cpContredit(country, p.name, p.lat, p.lon) ? '' : (near ? near.postcode : (replí ? replí.postcode : ''));
+    // Pays dont la région se prend au DUMP même quand un fichier postal existe (voir REGION_DU_DUMP dans
+    // communes-corrections.js) : le point postal le plus proche peut être de l'autre côté d'une limite de
+    // district, et la carte a mesuré la perte — canton faux 4 fois sur 12 au Costa Rica. Le CODE postal, lui,
+    // continue de venir du point postal.
+    const region = (near && !REGION_DU_DUMP.has(country)) ? (near.admin2 || near.admin1 || '')
       : (admin1Names.get(country + '.' + p.admin1Code) || '');
     if(!cp) sansCode++;
     // Étiquette de région démentie par la carte (voir DIVISION_FIXES dans communes-corrections.js) : on écrit

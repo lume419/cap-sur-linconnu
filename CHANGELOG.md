@@ -143,6 +143,44 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **Les cinq pays « non régénérables » le sont redevenus — et l'un d'eux ne l'avait jamais été.** La veille, cinq
+  pays étaient consignés comme impossibles à régénérer fidèlement : leur régénération changeait des milliers de
+  lignes. La passe a montré que ce n'était pas un problème mais **trois**, dont un imaginaire.
+  - **L'ARMÉNIE n'était pas cassée.** Comparée ligne à ligne, elle semblait perdre noms, coordonnées et
+    population sur 1 119 fiches. Comparée **par clé**, elle est **identique : 1 304 fiches, zéro écart** — seul
+    l'ORDRE des lignes change, le fichier publié venant d'une version antérieure du générateur. La mesure de la
+    veille était fausse parce que la comparaison par position ne vaut rien quand l'ordre bouge. Le fichier
+    réordonné est adopté tel quel.
+  - **Quatre pays changeaient de RANG administratif, et c'était une PERTE DE JUSTESSE, pas un choix de goût.**
+    Le fichier publié portait l'admin1 du dump — l'État, la province, l'oblast — parce qu'il avait été fabriqué
+    SANS fichier postal ; ces fichiers sont là aujourd'hui, et le générateur prend alors la région au POINT
+    POSTAL, qui porte l'admin2, le district. Or **ce point peut être de l'autre côté d'une limite de district**.
+    Douze fiches tirées au sort par pays, soumises à la carte (zoom 10, qui rend l'État ET le district) :
+    - **Costa Rica** : province publiée juste **12 fois sur 12**, canton régénéré **faux 4 fois sur 12** — Cueva
+      rangée à San Ramón quand la carte dit Naranjo, Quebrador à Paraíso quand la carte dit Dota, Peñas Blancas
+      à San Ramón quand la carte dit Esparza.
+    - **Russie** : l'oblast publié est juste (Смоленская область, Тверская область, Татарстан…) ; le raïon
+      régénéré est **faux au moins une fois sur douze** (Mishino rangée au raïon de Novgorod quand la carte dit
+      Borovitchi) et il est écrit **en capitales cyrilliques**, là où tout le reste du fichier est en latin.
+    - **Australie** : l'État publié est confirmé **12 fois sur 12** ; les shires régénérés ne sont pas
+      vérifiables, la carte ne rendant pas de comté pour ce pays. On ne troque pas du confirmé contre de
+      l'invérifiable.
+    - **Uruguay** : les deux se valent presque, **2 erreurs publiées contre 3 régénérées**. Les deux erreurs
+      publiées sont corrigées à part (voir plus bas).
+    Nouvelle table `REGION_DU_DUMP` : pour ces quatre pays la région vient du dump, le CODE postal continuant de
+    venir du point postal. C'est la même mécanique qui avait produit les étiquettes fausses de `DIVISION_FIXES`.
+  - **La régénération de la Russie PERDAIT QUATRE CODES POSTAUX RÉELS**, et rien ne le signalait : Pangody 629757,
+    Noïabrsk 629800, Lyantor 628449, Mejgorié 453570 — trois villes du Grand Nord et une ville fermée, qu'aucun
+    point du fichier postal actuel n'approche à moins de 15 km. Le générateur savait déjà reprendre un code déjà
+    publié quand le fichier postal MANQUE ; il le fait désormais aussi quand la recherche ne trouve RIEN.
+    Reprendre un code déjà publié n'invente rien : il vient d'une génération antérieure, sourcée de la même façon.
+  - **Résultat : Russie, Australie, Uruguay et Costa Rica se régénèrent à l'identique, ZÉRO ligne changée.**
+    L'Arménie ne diffère que par l'ordre, à données rigoureusement égales. La limite « cinq pays non
+    régénérables » est levée.
+  - **Deux étiquettes uruguayennes fausses trouvées au passage**, par l'arbitrage lui-même : **« Tres Islas »
+    était rangée à Montevideo, à 300 km de là** (la carte dit Cerro Largo), et « Tambores » à Tacuarembó quand la
+    carte dit Paysandú. Ajoutées à `DIVISION_FIXES`, qui passe à 59 entrées.
+
 - **CRIBLE CALIBRÉ PAR PAYS : 169 codes postaux effacés de plus, dans treize pays.** La première passe supposait
   un préfixe de DEUX caractères partout. Faux dans les deux sens, et vérifié : **Poltava porte 36000, son VRAI
   code** — ses voisins en 38xxx sont dans la même oblast, qui couvre 36xxx à 39xxx — tandis que **Grozny porte

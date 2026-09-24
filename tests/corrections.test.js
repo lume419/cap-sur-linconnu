@@ -149,7 +149,7 @@ test('corrections : les étiquettes de région démenties par la carte sont cell
   // Voir DIVISION_FIXES : chaque étiquette a été confrontée au géocodage inverse, une par une, en comparant le
   // lieu à son VOISIN d'un kilomètre plutôt qu'à son étiquette — ce qui se passe de toute table de correspondance
   // entre rangs administratifs.
-  assert.ok(C.DIVISION_FIXES.length >= 56, 'DIVISION_FIXES est tombée à ' + C.DIVISION_FIXES.length + ' entrées (56 au minimum)');
+  assert.ok(C.DIVISION_FIXES.length >= 59, 'DIVISION_FIXES est tombée à ' + C.DIVISION_FIXES.length + ' entrées (59 au minimum)');
   const bad = [];
   for(const e of C.DIVISION_FIXES){
     const f = uneSeuleFiche(bad, 'DIVISION_FIXES', e);
