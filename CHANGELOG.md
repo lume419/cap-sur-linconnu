@@ -116,6 +116,42 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **56 étiquettes de région étaient fausses, dans huit pays — et c'est la CARTE qui l'a établi, pas une présomption.**
+  Le crible du Cap-Vert, qui s'appuyait sur des boîtes d'îles, a été généralisé : **un lieu LOIN de tous les
+  autres de sa division et posé AU MILIEU d'une autre**. Ni la distance seule (des divisions sont réellement
+  étalées), ni la proximité seule (elles se touchent) ne suffisent — c'est leur RAPPORT qui trahit.
+  Balayage : **16 pays, 641 000 lieux, 46 suspects**.
+  - **Chacun a été confronté au terrain** par géocodage inverse OpenStreetMap, une requête par seconde, même
+    méthode que celle déjà employée par ce projet pour ses corrections de pays. Astuce décisive : comparer le
+    lieu **à son voisin d'un kilomètre**, et non à son étiquette — cela se passe de toute table entre rangs
+    administratifs (Nominatim rend la province philippine quand le fichier porte la région).
+  - **Verdict : 42 étiquettes fausses, 3 fiches correctes signalées par ricochet** (leur voisin était le fautif —
+    Nakanoshima, Leipämäki, København), **1 indécise** (Campiña, en Espagne : la carte ne descend pas au rang
+    provincial). Les trois correctes et l'indécise ne sont PAS touchées.
+  - **Un angle mort du crible, trouvé et comblé.** Il cherche un lieu ISOLÉ dans sa division ; quand la mauvaise
+    étiquette frappe tout un GROUPE, ce sont les fiches correctes qui paraissent isolées. Un second crible, par
+    grappes, l'a montré au Danemark : **sur les 15 lieux étiquetés « Københavns Kommune », 14 ne sont pas à
+    Copenhague** — deux à Skagen, douze autour d'Aars, à 113 et 221 km. Seule København était juste, et c'est
+    elle que le premier crible avait signalée.
+  - Ce second crible est plus bruyant, et il faut le dire : la plupart des divisions éclatées sont **légitimes** —
+    Tokyo administre les Ogasawara à 1 200 km, Kagoshima les Amami, la Sicile Pantelleria et Lampedusa. Une
+    préfecture peut s'étaler, une commune non ; les distinguer demanderait le rang administratif, que les
+    données ne portent pas.
+  - **Les 14 fiches danoises ont été vérifiées UNE PAR UNE, et cela a évité deux erreurs** : Store Binderup et
+    Lille Binderup sont à **Rebild**, pas à Vesthimmerland comme leurs dix voisines.
+  - Nouvelle table `DIVISION_FIXES` (`scripts/communes-corrections.js`), appliquée par les deux générateurs
+    concernés. Répartition : Philippines 23, Danemark 14, Indonésie 13, Japon 3, Norvège 2, Suède 1.
+    **Après correction, le crible retombe à zéro suspect** dans les six pays touchés.
+  - **LA SUÈDE NE PEUT PLUS ÊTRE RÉGÉNÉRÉE FIDÈLEMENT, et c'est un défaut à part entière.** Son fichier postal
+    n'est plus sur le disque ; le générateur retombe alors sur le code de région de GeoNames, moins fiable que
+    la valeur tirée du point postal. Mesuré : une régénération complète changeait **cinq** lignes, dont **trois
+    RÉGRESSIONS** — Västanå, Ramsvik et Östanbro étaient correctes et devenaient fausses, la carte le confirme.
+    La Suède a donc été restaurée et la seule ligne vérifiée (Ävjeboda) appliquée. L'entrée reste dans
+    `DIVISION_FIXES` pour qu'une régénération future, avec le fichier postal, la reprenne.
+  - `compare-engine` : **0 tirage changé sur 380** — `dept` n'entre dans aucune règle de masse terrestre pour ces
+    huit pays. Le contrôle vaut d'ailleurs comme résultat : **France, Italie, Croatie, Cap-Vert, Maldives,
+    Royaume-Uni, Nouvelle-Zélande et Portugal ressortent à zéro**, or ce sont précisément les pays où `dept`
+    décide d'une masse terrestre (Corse, DOM, Mayotte, Wadden, Sardaigne, Sicile).
 - **« Ponta Verde » était publiée deux fois, dont une sur la mauvaise île — et c'est la seule du Cap-Vert.**
   Les deux fiches portent le concelho **CV-18 (São Filipe, sur Fogo)** : l'une à -24,4598 / 14,9820, sur Fogo,
   cohérente ; l'autre à **-23,6000 / 15,1992, SUR SANTIAGO**, à 80 km de son propre concelho, avec une

@@ -778,7 +778,7 @@
 0;11.0918,63.8403;7690;Inderøy;Vangshylla
 0;18.0215,69.4752;9373;Senja;Vangshamn
 0;11.1000,62.5500;2550;Os;Vangsgjelta
-0;6.8541,60.4926;5732;Modalen;Vangsbygdi
+0;6.8541,60.4926;5732;Ulvik;Vangsbygdi
 0;11.0593,62.5271;2550;Os;Vangrøfta
 0;11.0000,59.8167;1404;Nordre Follo;Vangen
 0;18.0000,69.4667;9373;Senja;Vang
@@ -9486,7 +9486,7 @@
 0;5.3201,60.5586;5902;Alver;Gjerdviki,in
 0;5.4341,60.5568;5282;Osterøy;Nedre Raknes
 0;7.1081,58.5398;4596;Hægebostad;Rossevatn
-0;5.7938,60.5812;5729;Modalen;Dalegarden
+0;5.7938,60.5812;5729;Vaksdal;Dalegarden
 0;7.1438,58.5017;4596;Hægebostad;Orta
 0;7.3357,58.1178;4540;Åseral;Foss
 0;6.3763,60.6216;5700;Voss;Gullfjordungen

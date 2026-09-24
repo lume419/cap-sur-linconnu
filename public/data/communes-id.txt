@@ -1211,7 +1211,7 @@
 0;96.5289,5.1683;24263;Aceh;Sinebukpanti
 0;98.1843,3.4923;20774;North Sumatra;Bohorok
 0;97.8282,1.0959;22876;North Sumatra;Bodsihona
-0;98.8889,-1.2244;25394;North Sumatra;Bobokan
+0;98.8889,-1.2244;25394;West Sumatra;Bobokan
 0;96.2350,4.9872;24416;Aceh;Bleve
 0;95.8392,5.4022;24161;Aceh;Blang Urong
 0;95.0582,5.7091;23391;Aceh;Blangujung
@@ -3881,7 +3881,7 @@
 0;113.4333,-8.0500;67354;East Java;Tanahmerah
 0;114.1374,-7.8546;68371;East Java;Tanahmerah
 0;112.8888,-7.0896;69172;East Java;Tanahmerah
-0;117.5167,3.6833;;East Kalimantan;Tanahmerah
+0;117.5167,3.6833;;North Kalimantan;Tanahmerah
 0;132.6833,-3.4500;98662;West Papua;Tanahmerah
 0;117.0833,-1.0667;75391;East Kalimantan;Tanahmerah
 0;101.2570,0.4024;28452;Riau;Tanah Merah
@@ -13385,7 +13385,7 @@
 0;102.9608,-3.8325;31593;South Sumatra;Jarakan
 0;103.1833,-3.9000;31591;South Sumatra;Jarai
 0;108.4167,-6.5500;45164;West Java;Japura-kidul
-0;102.3138,-0.3251;29353;Riau Islands;Japura
+0;102.3138,-0.3251;29353;Riau;Japura
 0;111.2903,-6.9423;58257;Central Java;Japah
 0;111.4495,-6.7495;59261;Central Java;Japerejo
 0;112.6901,-7.5647;67155;East Java;Kejapanan
@@ -35151,7 +35151,7 @@
 0;112.5714,-7.8491;65333;East Java;Borolasah
 0;112.5790,-7.8482;65333;East Java;Borogragal Kulon
 0;112.5958,-7.8599;65333;East Java;Supiturang
-0;112.5908,-7.8747;65324;Central Java;Bocek
+0;112.5908,-7.8747;65324;East Java;Bocek
 0;112.5822,-7.8781;65324;East Java;Karangan
 0;112.5861,-7.8806;65324;East Java;Donowarih
 0;112.5903,-7.8744;65324;East Java;Jameon
@@ -46009,7 +46009,7 @@
 0;110.5344,-7.6233;57331;Central Java;Tanjungsari
 0;110.5344,-7.6322;57483;Central Java;Buturejo
 0;110.5394,-7.6300;57481;Central Java;Bunder
-0;110.5325,-7.6250;57331;Aceh;Tempelrejo
+0;110.5325,-7.6250;57331;Central Java;Tempelrejo
 0;110.5417,-7.6333;57483;Central Java;Jarakan
 0;110.5500,-7.6247;57481;Central Java;Bandungan
 0;110.5539,-7.6253;57481;Central Java;Dombon
@@ -52830,7 +52830,7 @@
 0;110.1636,-7.2711;56252;Central Java;Kahuripan
 0;110.1644,-7.2681;56252;Central Java;Dukuhsari
 0;110.1642,-7.2622;56281;Central Java;Ngadiprono
-0;110.1775,-7.2550;56281;Jakarta;Bendokuluk
+0;110.1775,-7.2550;56281;Central Java;Bendokuluk
 0;110.1822,-7.2503;56281;Central Java;Ploso
 0;110.1817,-7.2608;56281;Central Java;Balun
 0;110.1764,-7.2633;56281;Central Java;Kelingan
@@ -112493,7 +112493,7 @@
 0;97.6796,4.9935;24455;Aceh;Payaenjeu
 0;97.6659,4.9913;24455;Aceh;Bukitpapeuen
 0;97.6783,4.9849;24455;Aceh;Paharusa
-0;97.7393,4.9813;24455;West Kalimantan;Alueduamuka
+0;97.7393,4.9813;24455;Aceh;Alueduamuka
 0;97.7342,4.9726;24454;Aceh;Blangthokpante
 0;97.7175,4.9670;24455;Aceh;Jungkagajan
 0;97.7061,4.9717;24455;Aceh;Lhokmeureubok
@@ -174530,7 +174530,7 @@
 0;113.4606,-8.1248;68155;East Java;Liprak
 0;113.4622,-8.1187;68155;East Java;Zelandia
 0;113.4729,-8.1224;68155;East Java;Sumbercengkir
-0;113.3790,-8.1133;68156;Jakarta;Jopo
+0;113.3790,-8.1133;68156;East Java;Jopo
 0;113.3387,-8.1270;67383;East Java;Lor Kanal
 0;113.3635,-8.2467;68168;East Java;Gumuktopi
 0;113.2601,-8.1288;67316;East Java;Boreng
@@ -192105,7 +192105,7 @@
 0;120.4862,-8.3705;86592;East Nusa Tenggara;Konca
 0;120.4841,-8.2942;86592;East Nusa Tenggara;Pondoknener
 0;121.0041,-8.4062;86419;East Nusa Tenggara;Watuzape
-0;99.6906,-2.0873;25392;East Nusa Tenggara;Rokot
+0;99.6906,-2.0873;25392;West Sumatra;Rokot
 0;121.0201,-8.4110;86419;East Nusa Tenggara;Goloite
 0;121.0286,-8.4144;86419;East Nusa Tenggara;Nangamese
 0;121.0950,-8.4220;86419;East Nusa Tenggara;Sambirandak
@@ -206288,7 +206288,7 @@
 0;101.3672,-0.8939;27572;West Sumatra;Kiliranjao
 0;115.2358,-8.6188;80238;Bali;Penatih
 0;116.1227,-3.0678;72161;South Kalimantan;Tarjun
-0;127.3667,0.7833;97711;Maluku;Kota Ternate
+0;127.3667,0.7833;97711;North Maluku;Kota Ternate
 0;106.8007,-7.0090;43366;West Java;Sunggapan
 0;106.9960,-7.1074;43265;West Java;Cigembong
 0;106.9938,-7.1150;43265;West Java;Cicadas Satu
@@ -236388,7 +236388,7 @@
 0;116.5875,1.8940;;East Kalimantan;Lamtjin
 0;116.7815,2.2268;;East Kalimantan;Muarasegah
 0;116.9000,2.3327;;East Kalimantan;Longkluh
-0;115.5679,2.5039;;East Kalimantan;Longsaan
+0;115.5679,2.5039;;North Kalimantan;Longsaan
 0;118.7514,1.2112;;East Kalimantan;Bidukbiduk
 0;118.6557,1.2875;;East Kalimantan;Pengabakan
 0;118.0534,1.1265;;East Kalimantan;Danumbuluh
@@ -241012,8 +241012,8 @@
 0;114.8792,-2.8143;70655;Central Kalimantan;Batalas
 0;114.4947,-2.8999;73521;West Kalimantan;Tatas
 0;114.3044,-2.7902;73552;West Kalimantan;Mandowai
-0;112.8709,-2.7185;;West Kalimantan;Ramban
-0;111.5893,-2.7261;;West Kalimantan;Karanganjar
+0;112.8709,-2.7185;;Central Kalimantan;Ramban
+0;111.5893,-2.7261;;Central Kalimantan;Karanganjar
 0;114.6572,-3.0574;70566;South Kalimantan;Sungaikali
 0;105.3215,-4.5831;34698;Lampung;Umbulan Garunggang
 0;105.4952,-4.6276;34169;Lampung;Umbulan Radinkepala

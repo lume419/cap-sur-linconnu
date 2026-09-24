@@ -24944,7 +24944,7 @@
 0;14.3500,58.0667;560 34;Jönköping;Avlösa
 0;15.7000,57.3000;570 80;Hultsfred;Ävlingebo
 0;17.1333,59.1167;640 50;Nyköping;Avla
-0;15.9000,58.0333;;Jönköping;Ävjeboda
+0;15.9000,58.0333;;Kinda;Ävjeboda
 0;17.7217,62.5103;;Västernorrland;Åvikebruk
 0;16.5500,61.9000;820 62;Hudiksvall;Avholm
 0;15.8333,59.9500;737 00;Fagersta;Åvestbo

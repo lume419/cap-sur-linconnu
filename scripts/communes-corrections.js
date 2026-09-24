@@ -676,6 +676,96 @@ function isAdminCoordConflict(country, name, lat, lon){
   }
   return false;
 }
+// 12. L'ÉTIQUETTE DE DIVISION CONTREDIT LES COORDONNÉES (24/09/2026). Différent du point 11 : là, une fiche
+//    en double était ÉCARTÉE ; ici la fiche est bonne et unique, c'est son étiquette de région qui est fausse.
+//    Deux cribles l'ont établi, sur seize pays et 641 000 lieux :
+//      - un lieu ISOLÉ dans sa division (à plus de 50 km des siens, à moins de 3 km d'une autre, rapport ≥ 10) ;
+//      - une division ÉCLATÉE en grappes lointaines — c'est ce second crible qui a trouvé le Danemark, car quand
+//        la mauvaise étiquette frappe tout un GROUPE, ce sont les fiches correctes qui paraissent isolées.
+//    CHAQUE cas a ensuite été confronté à la CARTE (géocodage inverse OpenStreetMap, une requête par seconde,
+//    même méthode que WRONG_COUNTRY plus haut), en comparant le lieu à son VOISIN d'un kilomètre plutôt qu'à son
+//    étiquette : cela se passe de toute table de correspondance entre rangs administratifs.
+//    NON retenus, et c'est le contrôle qui les a écartés : trois fiches que la carte CONFIRME (elles n'étaient
+//    signalées que parce que leur voisin était mal étiqueté — Nakanoshima au Japon, Leipämäki en Finlande,
+//    København au Danemark), et une indécise (Campiña, Espagne : la carte ne descend pas au rang provincial).
+//    Les divisions légitimement éclatées ne sont PAS touchées : Tokyo administre les Ogasawara à 1 200 km,
+//    Kagoshima les Amami, la Sicile Pantelleria et Lampedusa. Une préfecture peut s'étaler, une commune non.
+const DIVISION_FIXES = [
+  // Japon — préfecture rendue par la carte (zoom 8), suffixe « Prefecture » retiré pour suivre la graphie du fichier.
+  { cc: 'JP', name: "Takou", lat: 29.8411, lon: 129.8744, to: "Kagoshima" },   // au lieu de Okinawa
+  { cc: 'JP', name: "Hara", lat: 35.9981, lon: 139.0307, to: "Saitama" },   // au lieu de Tochigi
+  { cc: 'JP', name: "Koshimoto", lat: 36.8031, lon: 139.2346, to: "Gunma" },   // au lieu de Saitama
+  // Norvège — commune rendue par la carte au rang municipal (zoom 10) : le rang large ne distinguait que « Vestland ».
+  { cc: 'NO', name: "Vangsbygdi", lat: 60.4926, lon: 6.8541, to: "Ulvik" },   // au lieu de Modalen
+  { cc: 'NO', name: "Dalegarden", lat: 60.5812, lon: 5.7938, to: "Vaksdal" },   // au lieu de Modalen
+  // Suède — idem. « Kinda » est la seule étiquette cible qu'aucun autre lieu publié ne porte encore.
+  { cc: 'SE', name: "Ävjeboda", lat: 58.0333, lon: 15.9, to: "Kinda" },   // au lieu de Jönköping
+  // Philippines — le fichier porte la RÉGION, la carte rend la PROVINCE : on ne peut pas les comparer directement.
+//    La carte place le lieu et son voisin dans la MÊME province, donc dans la même région : c'est l'étiquette du
+//    voisin qui est retenue, dans la graphie du fichier.
+  { cc: 'PH', name: "Villarosa", lat: 15.55, lon: 120.75, to: "Central Luzon" },   // au lieu de Cordillera
+  { cc: 'PH', name: "Tayquin", lat: 14.1333, lon: 121.4333, to: "Calabarzon" },   // au lieu de Central Luzon
+  { cc: 'PH', name: "San Miguel", lat: 13.7, lon: 121.0667, to: "Calabarzon" },   // au lieu de Bicol Region
+  { cc: 'PH', name: "Potol", lat: 13.9751, lon: 121.5941, to: "Calabarzon" },   // au lieu de Mimaropa
+  { cc: 'PH', name: "Payasan", lat: 13.2333, lon: 121.9667, to: "Mimaropa" },   // au lieu de Calabarzon
+  { cc: 'PH', name: "Palang Norte", lat: 17.55, lon: 120.5167, to: "Cordillera" },   // au lieu de Calabarzon
+  { cc: 'PH', name: "Malanoog", lat: 17.6167, lon: 120.8667, to: "Cordillera" },   // au lieu de Bicol Region
+  { cc: 'PH', name: "Lumit", lat: 5.9344, lon: 124.7258, to: "Soccsksargen" },   // au lieu de Davao Region
+  { cc: 'PH', name: "Kulambugan", lat: 6.7, lon: 124.7833, to: "Autonomous Region in Muslim Mindanao" },   // au lieu de Northern Mindanao
+  { cc: 'PH', name: "Kabasalan", lat: 7.0667, lon: 124.65, to: "Autonomous Region in Muslim Mindanao" },   // au lieu de Zamboanga Peninsula
+  { cc: 'PH', name: "Imelda", lat: 7.647, lon: 122.9535, to: "Zamboanga Peninsula" },   // au lieu de Northern Mindanao
+  { cc: 'PH', name: "Ibaba", lat: 14.65, lon: 120.95, to: "National Capital Region" },   // au lieu de Western Visayas
+  { cc: 'PH', name: "Despujols", lat: 8.5833, lon: 124.5, to: "Northern Mindanao" },   // au lieu de Zamboanga Peninsula
+  { cc: 'PH', name: "Dalahuan", lat: 7.9333, lon: 117.0667, to: "Mimaropa" },   // au lieu de Davao Region
+  { cc: 'PH', name: "Dacong Cog", lat: 9.7833, lon: 123.7667, to: "Central Visayas" },   // au lieu de Western Visayas
+  { cc: 'PH', name: "Borong", lat: 6.2833, lon: 124.1333, to: "Soccsksargen" },   // au lieu de Mimaropa
+  { cc: 'PH', name: "Bacjauan Sur", lat: 11.2167, lon: 123.1, to: "Western Visayas" },   // au lieu de Bicol Region
+  { cc: 'PH', name: "Valebermoso", lat: 10.4167, lon: 123.25, to: "Central Visayas" },   // au lieu de Ilocos
+  { cc: 'PH', name: "Hondo Point", lat: 9.25, lon: 118, to: "Mimaropa" },   // au lieu de Ilocos
+  { cc: 'PH', name: "Nahas", lat: 11.75, lon: 122, to: "Western Visayas" },   // au lieu de Ilocos
+  { cc: 'PH', name: "Bago", lat: 10.75, lon: 122.5, to: "Western Visayas" },   // au lieu de Ilocos
+  { cc: 'PH', name: "Pinaninding Barrio School", lat: 13.9142, lon: 121.8343, to: "Calabarzon" },   // au lieu de Ilocos
+  { cc: 'PH', name: "Brgy. Aiburo", lat: 9.8959, lon: 126.0254, to: "Caraga" },   // au lieu de Northern Mindanao
+  // Indonésie — province rendue par la carte, au même rang que le fichier.
+  { cc: 'ID', name: "Bobokan", lat: -1.2244, lon: 98.8889, to: "West Sumatra" },   // au lieu de North Sumatra
+  { cc: 'ID', name: "Tanahmerah", lat: 3.6833, lon: 117.5167, to: "North Kalimantan" },   // au lieu de East Kalimantan
+  { cc: 'ID', name: "Japura", lat: -0.3251, lon: 102.3138, to: "Riau" },   // au lieu de Riau Islands
+  { cc: 'ID', name: "Bocek", lat: -7.8747, lon: 112.5908, to: "East Java" },   // au lieu de Central Java
+  { cc: 'ID', name: "Tempelrejo", lat: -7.625, lon: 110.5325, to: "Central Java" },   // au lieu de Aceh
+  { cc: 'ID', name: "Bendokuluk", lat: -7.255, lon: 110.1775, to: "Central Java" },   // au lieu de Jakarta
+  { cc: 'ID', name: "Alueduamuka", lat: 4.9813, lon: 97.7393, to: "Aceh" },   // au lieu de West Kalimantan
+  { cc: 'ID', name: "Jopo", lat: -8.1133, lon: 113.379, to: "East Java" },   // au lieu de Jakarta
+  { cc: 'ID', name: "Rokot", lat: -2.0873, lon: 99.6906, to: "West Sumatra" },   // au lieu de East Nusa Tenggara
+  { cc: 'ID', name: "Kota Ternate", lat: 0.7833, lon: 127.3667, to: "North Maluku" },   // au lieu de Maluku
+  { cc: 'ID', name: "Longsaan", lat: 2.5039, lon: 115.5679, to: "North Kalimantan" },   // au lieu de East Kalimantan
+  { cc: 'ID', name: "Ramban", lat: -2.7185, lon: 112.8709, to: "Central Kalimantan" },   // au lieu de West Kalimantan
+  { cc: 'ID', name: "Karanganjar", lat: -2.7261, lon: 111.5893, to: "Central Kalimantan" },   // au lieu de West Kalimantan
+  // Danemark — commune rendue par la carte au rang municipal. Les quinze lieux étiquetés « Københavns Kommune »
+//    ont été vérifiés UN PAR UN : dix sont à Vesthimmerland, DEUX à Rebild (Store et Lille Binderup — les supposer
+//    identiques à leurs voisins aurait introduit deux erreurs), deux à Frederikshavn, et København seule est juste.
+  { cc: 'DK', name: "Troelstrup", lat: 56.8458, lon: 9.5346, to: "Vesthimmerland Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Store Binderup", lat: 56.7638, lon: 9.5594, to: "Rebild Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Skagen", lat: 57.7209, lon: 10.5839, to: "Frederikshavn Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Sjøstrup", lat: 56.7937, lon: 9.5661, to: "Vesthimmerland Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Nyrup", lat: 56.7715, lon: 9.4927, to: "Vesthimmerland Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Lille Binderup", lat: 56.7866, lon: 9.5924, to: "Rebild Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Langdal", lat: 56.8671, lon: 9.5439, to: "Vesthimmerland Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Kelddal Gårde", lat: 56.8759, lon: 9.547, to: "Vesthimmerland Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Katby", lat: 56.8333, lon: 9.5833, to: "Vesthimmerland Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Gundestrup", lat: 56.8143, lon: 9.564, to: "Vesthimmerland Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Giver", lat: 56.8269, lon: 9.5842, to: "Vesthimmerland Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Gislum", lat: 56.7665, lon: 9.5203, to: "Vesthimmerland Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Aars", lat: 56.804, lon: 9.5144, to: "Vesthimmerland Kommune" },   // au lieu de Københavns Kommune
+  { cc: 'DK', name: "Skagen port", lat: 57.7181, lon: 10.5945, to: "Frederikshavn Kommune" },   // au lieu de Københavns Kommune
+];
+// Comparaison au dix-millième de degré (~11 m) : la fiche visée est désignée sans risque d'en emporter une autre.
+function fixDivision(country, name, lat, lon){
+  for(var i = 0; i < DIVISION_FIXES.length; i++){
+    var e = DIVISION_FIXES[i];
+    if(e.cc === country && e.name === name && Math.abs(e.lat - lat) < 1e-4 && Math.abs(e.lon - lon) < 1e-4) return e.to;
+  }
+  return null;
+}
 function excludePlace(country, geonameid, name, lat, lon){
   return isWrongCountry(country, geonameid) || isJunkId(country, geonameid) || HISTORICAL_NAME_RE.test(name || '') || isJunkName(name) ||
     isProjectBatch(country, geonameid) || isAntarcticUnderAR(country, lat) || isSark(country, lat, lon) || isPlaceholderCoord(lat, lon, geonameid) ||
@@ -1041,4 +1131,4 @@ function fixIgnCoord(nom, dept){
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
   PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES, INPUT_SYMBOL_RE, ALIAS_REPAIR_REJECT, repairAliasTypography, repairAliasLoose,
   BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, isPlaceholderCoord, PLACEHOLDER_COORD_OK, regionLabel, excludePlace,
-  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates, ADMIN_COORD_CONFLICT, isAdminCoordConflict, IGN_COORD_FIXES, fixIgnCoord };
+  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates, ADMIN_COORD_CONFLICT, isAdminCoordConflict, DIVISION_FIXES, fixDivision, IGN_COORD_FIXES, fixIgnCoord };
