@@ -18062,7 +18062,7 @@
 0;10.9923,50.4584;98678;Thüringen;Saargrund
 0;6.6730,49.3933;66701;Saarland;Saarfels
 6222;6.5437,49.6064;54439;Rheinland-Pfalz;Saarburg
-182971;7.0098,49.2326;50424;Saarland;Saarbrücken
+182971;7.0098,49.2326;;Saarland;Saarbrücken
 0;7.9235,52.2791;49504;Reg.-Bez. Münster;Saarbeck
 0;9.1199,52.1725;31737;Niedersachsen;Saarbeck
 3199;12.4210,50.9328;04603;Thüringen;Saara
@@ -48849,7 +48849,7 @@
 0;8.6000,53.2333;28788;Lower Saxony;Heidkamp
 0;8.8167,53.2167;27709;Lower Saxony;Heidkamp
 0;8.1595,53.1900;26119;Lower Saxony;Heidkamp
-0;9.9422,49.7611;74064;Regierungsbezirk Unterfranken;Heidingsfeld
+0;9.9422,49.7611;;Regierungsbezirk Unterfranken;Heidingsfeld
 0;8.3565,53.0571;26209;Niedersachsen;Heidhusen
 0;7.5918,53.3877;26629;Niedersachsen;Heidhörnerweg
 0;9.9854,54.3796;24214;Schleswig-Holstein;Heidholm
@@ -72495,7 +72495,7 @@
 0;9.7668,48.1568;88433;Tübingen Region;Alberweiler
 0;9.1526,47.8769;78355;Freiburg Region;Alberweiler
 0;9.6667,47.6667;88099;Tübingen Region;Alberweiler
-3269;13.7667,51.0833;04063;Saxony;Albertstadt
+3269;13.7667,51.0833;;Saxony;Albertstadt
 0;12.8385,48.9025;94374;Lower Bavaria;Albertsried
 0;11.8852,50.1852;95237;Upper Franconia;Albertsreuth
 2094;10.1667,49.7667;97320;Regierungsbezirk Unterfranken;Albertshofen

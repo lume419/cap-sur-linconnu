@@ -2271,7 +2271,7 @@
 0;9.3433,39.1925;09045;Cagliari;Terra Mala
 340;9.5250,39.2781;;Sardinia;Olia Speciosa
 0;9.0094,39.1122;09018;Cagliari;Villa d'Orri
-0;9.0633,39.1958;08030;Cagliari;Villa Aresu
+0;9.0633,39.1958;;Cagliari;Villa Aresu
 0;9.5358,39.1306;;Sardinia;Is Traias
 48;9.5313,39.1312;;Sardinia;Simius
 0;9.5250,39.1247;;Sardinia;Tanka Village
@@ -14992,7 +14992,7 @@
 0;11.2500,45.2333;37050;Verona;Bindella
 7102;9.0944,45.3310;20082;Milano;Binasco
 409;10.2203,45.2163;26030;Cremona;Gabbioneta
-0;9.0242,40.7837;08020;Sassari;Bilgalzu
+0;9.0242,40.7837;;Sassari;Bilgalzu
 1541;12.0169,45.8667;31049;Treviso;Bigolino
 104;10.0496,44.2320;54011;Massa-Carrara;Bigliolo
 399;7.9817,44.7046;12066;Cuneo;Biglini
@@ -61777,7 +61777,7 @@
 0;8.6838,39.8306;09094;Oristano;is Tirideddas
 0;8.7788,39.9395;09080;Oristano;Canaioba
 0;8.7206,39.9516;09088;Oristano;Ingialis
-0;8.7047,39.9866;08010;Oristano;Pauli Mannu
+0;8.7047,39.9866;;Oristano;Pauli Mannu
 0;8.8245,39.8139;09090;Oristano;Tuppa sa Canna
 0;8.6718,39.8927;09090;Oristano;San Quirico
 0;8.6743,39.8730;09090;Oristano;Nai Ispitzadas

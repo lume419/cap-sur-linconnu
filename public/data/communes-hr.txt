@@ -4633,7 +4633,7 @@
 0;17.7156,42.8533;20230;Dubrovačko-Neretvanska;Mali Voz
 4;17.4950,42.9781;20355;Dubrovačko-Neretvanska;Duba
 0;17.4822,42.9950;20355;Dubrovačko-Neretvanska;Postinje
-0;17.3533,42.9256;21310;Splitsko-Dalmatinska;Gornji Dingač
+0;17.3533,42.9256;;Splitsko-Dalmatinska;Gornji Dingač
 0;17.2614,42.9575;20250;Dubrovačko-Neretvanska;Borje
 0;17.0890,43.2380;21327;Splitsko-Dalmatinska;Kržanići
 0;18.2172,45.2625;31400;Osječko-Baranjska;Novi Hrkanovci

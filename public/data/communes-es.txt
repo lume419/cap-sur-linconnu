@@ -1024,7 +1024,7 @@
 0;-17.7667,28.6500;38711;Santa Cruz de Tenerife;San Antonio
 0;-17.7589,28.7978;38729;Santa Cruz de Tenerife;San Andrés
 0;-16.1941,28.5033;38129;Santa Cruz de Tenerife;San Andrés
-0;-16.1833,28.5000;35414;Las Palmas;San Andrés
+0;-16.1833,28.5000;;Las Palmas;San Andrés
 0;-17.9536,27.7709;38915;Santa Cruz de Tenerife;San Andrés
 0;-5.3004,35.8957;51005;Ceuta;San Amaro
 0;-0.4833,38.6667;03819;Alicante;Sambenet Alto
@@ -3553,7 +3553,7 @@
 0;-0.2833,38.5667;03579;Alicante;Hoyas de Orcheta
 0;-1.1500,38.2500;30629;Murcia;Hoya Hermosa
 0;-17.9234,28.7890;38788;Santa Cruz de Tenerife;Hoyagrande
-0;-16.7500,28.1333;35299;Las Palmas;Hoya Grande
+0;-16.7500,28.1333;;Las Palmas;Hoya Grande
 938;-1.5568,38.9579;02696;Albacete;Hoya-Gonzalo
 0;-16.2984,28.4339;38107;Santa Cruz de Tenerife;Hoya Fría
 0;-1.5695,38.6860;02692;Albacete;Hoya de Santa Ana
@@ -4292,7 +4292,7 @@
 1000;-16.5363,28.0462;38612;Santa Cruz de Tenerife;El Médano
 0;-2.1211,37.1203;04279;Almería;El Mayordomo
 0;-13.8671,28.4322;35610;Las Palmas;El Matorral
-0;-3.8115,37.2144;14940;Córdoba;El Martinete
+0;-3.8115,37.2144;;Córdoba;El Martinete
 0;-2.4502,36.9361;04260;Almería;El Marraque
 0;-3.4332,38.0601;23412;Jaén;El Mármol
 0;-2.2349,37.5230;04811;Almería;El Margen
@@ -6132,7 +6132,7 @@
 4949;-3.5681,37.2374;18170;Granada;Alfacar
 1022;-1.5736,37.7934;30859;Murcia;Aledo
 0;-0.5059,38.5579;03100;Alicante;Alècua
-742;-3.0720,37.1601;04897;Almería;Aldeire
+742;-3.0720,37.1601;;Almería;Aldeire
 0;-3.2000,38.1833;23250;Jaén;Aldeílla
 529;-3.3714,38.4121;23215;Jaén;Aldeaquemada
 517;-5.1131,39.6361;45575;Toledo;Aldeanueva de San Bartolomé
@@ -6373,7 +6373,7 @@
 1032;-3.9953,43.3434;39479;Cantabria;Zurita
 0;-1.5661,42.8803;31699;Navarra;Zuriáin
 0;-5.8492,43.0909;33629;Asturias;Zureda
-0;-2.6181,42.8707;48110;Vizcaya;Zurbao / Zurbano
+0;-2.6181,42.8707;;Vizcaya;Zurbao / Zurbano
 120;-1.5586,43.1239;31796;Navarra;Barrio Zigaurre
 0;-1.4500,42.8500;31484;Navarra;Zuntzarren
 191;-2.2998,42.6925;31284;Navarra;Zúñiga
@@ -6636,7 +6636,7 @@
 0;-8.1500,42.8667;36512;Pontevedra;Viñós
 0;-5.4240,43.4272;33310;Asturias;Viñón
 0;-4.6394,43.1853;39584;Cantabria;Viñón
-0;1.0333,41.1167;25144;Lleida;Vinyols i els Arcs
+0;1.0333,41.1167;;Lleida;Vinyols i els Arcs
 0;-7.7412,42.4275;32448;Ourense;Viñoás
 45;-2.8330,42.0951;26329;La Rioja;Viniegra de Arriba
 110;-2.8893,42.1506;26329;La Rioja;Viniegra de Abajo
@@ -8352,7 +8352,7 @@
 0;2.6600,41.6742;08389;Barcelona;Valmanyá
 32;-3.2546,42.3059;09268;Burgos;Valmala
 102;-0.8848,41.4435;50138;Zaragoza;Valmadrid
-0;1.3167,41.4667;25261;Lleida;Vallverd de Queralt
+0;1.3167,41.4667;;Lleida;Vallverd de Queralt
 0;0.9515,41.6971;25261;Lleida;Vallvert
 0;-4.1097,42.2410;09119;Burgos;Vallunquera
 103;-3.1211,42.5722;09219;Burgos;Valluércanes
@@ -12394,7 +12394,7 @@
 177;-4.5165,42.1525;34411;Palencia;Ribas de Campos
 0;-8.6500,42.8000;15895;A Coruña;Ribasar
 0;-7.4965,42.5497;27411;Lugo;Ribasaltas
-0;2.1833,42.3167;25289;Lleida;Ribes Altes
+0;2.1833,42.3167;;Lleida;Ribes Altes
 0;-3.5019,43.3435;39766;Cantabria;Ribas
 0;-6.4175,41.7618;49515;Zamora;Ribas
 0;-8.4000,42.1167;36449;Pontevedra;Ribarteme
@@ -16285,7 +16285,7 @@
 0;-7.1174,43.5527;27715;Lugo;Meirengos
 0;-7.9615,42.9059;27204;Lugo;Meire
 0;-8.1833,43.5833;15550;A Coruña;Meirás
-0;-8.3000,43.3500;36870;Pontevedra;Meirás
+0;-8.3000,43.3500;;Pontevedra;Meirás
 0;-7.1559,42.6534;27324;Lugo;Meiraos
 278;-8.4333,43.2167;15188;A Coruña;Meirama
 0;-7.2000,42.3667;32358;Ourense;Meiral
@@ -22078,7 +22078,7 @@
 0;-3.6274,43.0273;09568;Burgos;Cornejo
 0;-8.8164,42.9566;15838;A Coruña;Corneira
 0;-8.0667,42.9833;36520;Pontevedra;Corneda
-0;-8.1167,42.4667;27528;Lugo;Corneda
+0;-8.1167,42.4667;;Lugo;Corneda
 0;-7.1340,42.9714;27131;Lugo;Córneas
 0;-7.6511,42.6695;27547;Lugo;Córneas
 0;-6.9190,42.8776;27662;Lugo;Corneantes
@@ -26995,7 +26995,7 @@
 0;-2.7506,43.2367;48340;Vizcaya;Agirre
 0;-9.1545,43.0291;15124;A Coruña;Agar
 180;-6.4418,40.4487;37510;Salamanca;Agallas
-0;-2.2986,43.0761;48003;Vizcaya;Aeta
+0;-2.2986,43.0761;;Vizcaya;Aeta
 0;-3.9567,43.2829;39670;Cantabria;Aés
 0;-3.3716,42.8836;09515;Burgos;Ael
 1462;-0.1703,40.2162;12131;Castellón;Adzaneta

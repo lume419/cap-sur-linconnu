@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 // lieux mal rangés, disparus, Sercq, Antarctique ; noms nettoyés et quasi-doublons (audit n° 11) — voir ce fichier
-const { excludePlace, preparePlaceName, dropNearDuplicates, fixDivision } = require('./communes-corrections.js');
+const { excludePlace, preparePlaceName, dropNearDuplicates, fixDivision, cpContredit } = require('./communes-corrections.js');
 
 // 13e audit du 19/09/2026 : ONLY_COUNTRY=AL (ou AL,TR…) régénère ces seuls pays, à condition que scripts/dump/XX_dump.txt
 // ET scripts/postal/XX_postal.txt soient sur le disque (liste vide par défaut, comme avant).
@@ -625,7 +625,10 @@ for(const country of COUNTRIES){
       : (country === 'AD')
       ? (postalByAdmin1Code.get(p.admin1Code) || null)
       : nearest(postalGrid, p.lat, p.lon, 15);
-    const cp = near ? near.postcode : '';
+    // Code postal DÉMENTI par les coordonnées (voir CP_CONTREDIT dans communes-corrections.js) : il est
+    // EFFACÉ, pas remplacé — le code rendu par la carte est celui du bourg voisin, l'écrire ici serait inventer.
+    // Ne touche que les fiches nommément vérifiées sur la carte ; la région, elle, est conservée.
+    const cp = cpContredit(country, p.name, p.lat, p.lon) ? '' : (near ? near.postcode : '');
     const region = near ? (near.admin2 || near.admin1 || '')
       : (admin1Names.get(country + '.' + p.admin1Code) || '');
     if(!cp) sansCode++;

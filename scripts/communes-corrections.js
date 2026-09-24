@@ -771,6 +771,79 @@ function fixDivision(country, name, lat, lon){
   }
   return null;
 }
+// 13. LE CODE POSTAL EST DÉMENTI PAR LES COORDONNÉES (24/09/2026). Troisième famille après les points 11 et 12 :
+//    là c'était la fiche en double, puis l'étiquette de région ; ici c'est le CODE POSTAL qui contredit le terrain.
+//    CAUSE : le code n'est pas recopié d'une table, il est pris au POINT POSTAL LE PLUS PROCHE à moins de 15 km
+//    (voir build-country-communes.js). Quand le fichier postal GeoNames contient un point mal placé, tout lieu
+//    situé près de lui hérite d'un code d'une autre région — Sarrebruck, 182 971 habitants, porte ainsi 50424,
+//    qui est Cologne, alors que ses propres quartiers portent 66104 et 66119.
+//    CRIBLE : est signalé un lieu dont le préfixe postal diffère de celui de TOUS ses voisins à moins de 12 km
+//    (cinq au minimum), ces voisins s'accordant entre eux. Aucune table de référence n'est nécessaire : les
+//    lieux déjà publiés font foi. 40 suspects sur seize pays.
+//    CONTRÔLE : chaque suspect a été soumis à la CARTE, qui renvoie elle-même un code postal (géocodage inverse
+//    OpenStreetMap, une requête par seconde, zoom 14 puis 18). Rien n'est déduit du voisinage seul.
+//    NON retenus, et c'est le contrôle qui les a écartés :
+//      - TROIS faux positifs que la carte CONFIRME, de vraies enclaves postales que le crible seul aurait cassées :
+//        Osidda (province de Nuoro enclavée en pays de Sassari), Tunø By (île), Morawsko ;
+//      - SIX indécis, la carte ne renvoyant aucun code aux deux zooms : Conquista de la Sierra, Vale de Boi,
+//        Corujeira, Castanheira, Kawaichō-jōgashima, Vrysopoyles ;
+//      - CAMPIÑA (Espagne), qui est un cas INVERSE et reste OUVERT : son code 14600 et son étiquette disent
+//        Cordoue, ses seules coordonnées disent Jaén, et ses 67 904 habitants sont le chiffre d'une comarque.
+//        C'est la POSITION qui est fausse, pas le code : l'effacer détruirait la donnée juste. Sa bonne
+//        position reste inconnue, aucune correction n'est donc appliquée.
+//    GESTE : le code démenti est EFFACÉ, non remplacé. Le code rendu par la carte est celui de l'objet adressable
+//    le plus proche — souvent le bourg voisin ou la commune englobante — et l'écrire ici reviendrait à attribuer
+//    à un hameau le code d'un autre lieu. Le projet publie déjà des codes vides depuis le 21/09/2026 : un code
+//    absent se voit, un code faux trompe. Vérifié : aucune de ces fiches ne change de masse terrestre une fois
+//    son code effacé, la correction est donc sans effet sur les itinéraires.
+const CP_CONTREDIT = [
+  // Allemagne — 3 fiches.
+  { cc: 'DE', name: "Saarbrücken", lat: 49.2326, lon: 7.0098 },   // 50424 ; la carte donne 66121 et ses 73 voisins sont tous en 66xx
+  { cc: 'DE', name: "Albertstadt", lat: 51.0833, lon: 13.7667 },   // 04063 ; la carte donne 01099 et ses 118 voisins sont tous en 01xx
+  { cc: 'DE', name: "Heidingsfeld", lat: 49.7611, lon: 9.9422 },   // 74064 ; la carte donne 97084 et ses 54 voisins sont tous en 97xx
+  // Pays-Bas — 1 fiche.
+  { cc: 'NL', name: "Zeewolde", lat: 52.33, lon: 5.5417 },   // 3981 ; la carte donne 3891 EV et ses 23 voisins sont tous en 38xx
+  // Espagne — 11 fiches.
+  { cc: 'ES', name: "Aldeire", lat: 37.1601, lon: -3.072 },   // 04897 ; la carte donne 18514 et ses 11 voisins sont tous en 18xx
+  { cc: 'ES', name: "Zurbao / Zurbano", lat: 42.8707, lon: -2.6181 },   // 48110 ; la carte donne 01520 et ses 95 voisins sont tous en 01xx
+  { cc: 'ES', name: "Vinyols i els Arcs", lat: 41.1167, lon: 1.0333 },   // 25144 ; la carte donne 43391 et ses 23 voisins sont tous en 43xx
+  { cc: 'ES', name: "Ribes Altes", lat: 42.3167, lon: 2.1833 },   // 25289 ; la carte donne 17534 et ses 23 voisins sont tous en 17xx
+  { cc: 'ES', name: "San Andrés", lat: 28.5, lon: -16.1833 },   // 35414 ; la carte donne 38120 et ses 59 voisins sont tous en 38xx
+  { cc: 'ES', name: "Hoya Grande", lat: 28.1333, lon: -16.75 },   // 35299 ; la carte donne 38677 et ses 35 voisins sont tous en 38xx
+  { cc: 'ES', name: "El Martinete", lat: 37.2144, lon: -3.8115 },   // 14940 ; la carte donne 18339 et ses 37 voisins sont tous en 18xx
+  { cc: 'ES', name: "Vallverd de Queralt", lat: 41.4667, lon: 1.3167 },   // 25261 ; la carte donne 43424 et ses 29 voisins sont tous en 43xx
+  { cc: 'ES', name: "Meirás", lat: 43.35, lon: -8.3 },   // 36870 ; la carte donne 15168 et ses 85 voisins sont tous en 15xx
+  { cc: 'ES', name: "Corneda", lat: 42.4667, lon: -8.1167 },   // 27528 ; la carte donne 32536 et ses 81 voisins sont tous en 32xx
+  { cc: 'ES', name: "Aeta", lat: 43.0761, lon: -2.2986 },   // 48003 ; la carte donne 20709 et ses 63 voisins sont tous en 20xx
+  // Italie — 3 fiches.
+  { cc: 'IT', name: "Villa Aresu", lat: 39.1958, lon: 9.0633 },   // 08030 ; la carte donne 09122 et ses 45 voisins sont tous en 09xx
+  { cc: 'IT', name: "Bilgalzu", lat: 40.7837, lon: 9.0242 },   // 08020 ; la carte donne 07027 et ses 18 voisins sont tous en 07xx
+  { cc: 'IT', name: "Pauli Mannu", lat: 39.9866, lon: 8.7047 },   // 08010 ; la carte donne 09077 et ses 59 voisins sont tous en 09xx
+  // Portugal — 4 fiches.
+  { cc: 'PT', name: "Laranjeiras", lat: 37.4058, lon: -7.4582 },   // 8800-164 ; la carte donne 21595 et ses 34 voisins sont tous en 89xx
+  { cc: 'PT', name: "Hortas", lat: 37.1931, lon: -7.4379 },   // 8800-162 ; la carte donne 8900-265 et ses 30 voisins sont tous en 89xx
+  { cc: 'PT', name: "Fontainhas", lat: 39.2437, lon: -8.7205 },   // 2140-436 ; la carte donne 2005-297 et ses 116 voisins sont tous en 20xx
+  { cc: 'PT', name: "Piedade", lat: 38.4276, lon: -28.0597 },   // 9800-501 ; la carte donne 9930-229 et ses 18 voisins sont tous en 99xx
+  // Croatie — 1 fiche.
+  { cc: 'HR', name: "Gornji Dingač", lat: 42.9256, lon: 17.3533 },   // 21310 ; la carte donne 20244 et ses 35 voisins sont tous en 20xx
+  // Pologne — 7 fiches.
+  { cc: 'PL', name: "Godowa", lat: 49.8525, lon: 21.7983 },   // 39-102 ; la carte donne 38-100 et ses 56 voisins sont tous en 38xx
+  { cc: 'PL', name: "Gniewczyna", lat: 50.1167, lon: 22.4833 },   // 38-120 ; la carte donne 37-306 et ses 56 voisins sont tous en 37xx
+  { cc: 'PL', name: "Staroscin", lat: 50.9965, lon: 17.8262 },   // 48-112 ; la carte donne 46-112 et ses 50 voisins sont tous en 46xx
+  { cc: 'PL', name: "Jeziorki Zabartowskie", lat: 53.2578, lon: 17.4413 },   // 85-115 ; la carte donne 89-115 et ses 46 voisins sont tous en 89xx
+  { cc: 'PL', name: "Kunów", lat: 49.6004, lon: 20.742 },   // 30-000 ; la carte donne 33-327 et ses 77 voisins sont tous en 33xx
+  { cc: 'PL', name: "Szydlice", lat: 54.1199, lon: 17.9614 },   // 82-400 ; la carte donne 83-400 et ses 55 voisins sont tous en 83xx
+  { cc: 'PL', name: "Grójec", lat: 50.6535, lon: 18.95 },   // 41-283 ; la carte donne 42-283 et ses 62 voisins sont tous en 42xx
+];
+// Comparaison au dix-millième de degré (~11 m), comme fixDivision : la fiche visée est désignée sans risque
+// d'en emporter une autre — « Laranjeiras » existe cinq fois au Portugal, une seule est visée.
+function cpContredit(country, name, lat, lon){
+  for(var i = 0; i < CP_CONTREDIT.length; i++){
+    var e = CP_CONTREDIT[i];
+    if(e.cc === country && e.name === name && Math.abs(e.lat - lat) < 1e-4 && Math.abs(e.lon - lon) < 1e-4) return true;
+  }
+  return false;
+}
 function excludePlace(country, geonameid, name, lat, lon){
   return isWrongCountry(country, geonameid) || isJunkId(country, geonameid) || HISTORICAL_NAME_RE.test(name || '') || isJunkName(name) ||
     isProjectBatch(country, geonameid) || isAntarcticUnderAR(country, lat) || isSark(country, lat, lon) || isPlaceholderCoord(lat, lon, geonameid) ||
@@ -1136,4 +1209,4 @@ function fixIgnCoord(nom, dept){
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
   PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES, INPUT_SYMBOL_RE, ALIAS_REPAIR_REJECT, repairAliasTypography, repairAliasLoose,
   BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, isPlaceholderCoord, PLACEHOLDER_COORD_OK, regionLabel, excludePlace,
-  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates, ADMIN_COORD_CONFLICT, isAdminCoordConflict, DIVISION_FIXES, fixDivision, IGN_COORD_FIXES, fixIgnCoord };
+  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates, ADMIN_COORD_CONFLICT, isAdminCoordConflict, DIVISION_FIXES, fixDivision, CP_CONTREDIT, cpContredit, IGN_COORD_FIXES, fixIgnCoord };

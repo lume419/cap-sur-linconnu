@@ -160,7 +160,7 @@
 737;6.5458,53.0475;9491;Gemeente Tynaarlo;Zeyen
 2348;4.8361,52.1150;3474;Gemeente Woerden;Zegveld
 1575;4.5181,51.5567;4735;Rucphen Municipality;Zegge
-19022;5.5417,52.3300;3981;Gemeente Zeewolde;Zeewolde
+19022;5.5417,52.3300;;Gemeente Zeewolde;Zeewolde
 0;6.4375,52.5117;7731;Ommen Municipality;Zeesse
 450;6.7611,53.3492;9914;Eemsdelta Municipality;Zeerijp
 0;6.1417,51.5250;5856;Bergen Municipality;Zeelberg

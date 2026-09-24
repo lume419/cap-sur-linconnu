@@ -12214,7 +12214,7 @@
 0;22.4777,51.5674;21-136;Powiat lubartowski;Kunów
 0;21.3000,50.9833;27-415;Powiat ostrowiecki;Kunow MIasto
 3078;21.2806,50.9616;27-415;Powiat ostrowiecki;Kunów
-0;20.7420,49.6004;30-000;Powiat nowosądecki;Kunów
+0;20.7420,49.6004;;Powiat nowosądecki;Kunów
 0;22.7184,49.8059;37-700;Powiat przemyski;Kuńkowce
 0;21.1289,49.5550;38-315;Powiat gorlicki;Kunkowa
 0;20.3085,53.5384;11-015;Powiat olsztyński;Kunki
@@ -16637,7 +16637,7 @@
 0;22.6035,54.0441;19-404;Powiat olecki;Godziejewo
 0;22.9363,52.8786;17-132;Powiat bielski;Godzieby
 921;20.0359,51.8969;96-126;Powiat skierniewicki;Godzianów
-0;21.7983,49.8525;39-102;Powiat strzyżowski;Godowa
+0;21.7983,49.8525;;Powiat strzyżowski;Godowa
 0;21.1474,51.3628;26-606;Radom;Godów
 451;22.1108,51.0916;24-350;Powiat opolski;Godów
 510;21.1875,50.9683;27-225;Powiat starachowicki;Godów
@@ -16670,7 +16670,7 @@
 0;20.5360,52.4113;05-155;Powiat nowodworski;Gniewniewice Nowe
 0;20.0584,50.5372;28-340;Powiat jędrzejowski;Gniewięcin
 0;22.5026,50.1154;37-204;Powiat przeworski;Gniewczyna Tryniecka
-0;22.4833,50.1167;38-120;Powiat przeworski;Gniewczyna
+0;22.4833,50.1167;;Powiat przeworski;Gniewczyna
 0;21.5426,50.6030;27-660;Powiat sandomierski;Gnieszowice
 0;20.9335,51.7970;05-604;Powiat grójecki;Gniejewice
 0;23.3671,52.9922;16-060;Powiat białostocki;Gnieciuki
@@ -24140,7 +24140,7 @@
 232;19.1226,51.7898;95-083;Powiat pabianicki;Szydłów
 156;19.5907,51.4463;97-306;Powiat piotrkowski;Szydłów
 500;17.7276,50.6052;49-130;Powiat opolski;Szydłów
-0;17.9614,54.1199;82-400;Powiat kościerski;Szydlice
+0;17.9614,54.1199;;Powiat kościerski;Szydlice
 0;16.5707,50.3362;57-521;Kłodzko County;Szychów
 0;19.6806,50.5226;42-436;Powiat zawierciański;Szyce
 0;19.8580,50.1468;32-085;Powiat krakowski;Szyce
@@ -25199,7 +25199,7 @@
 0;14.8211,51.8578;66-633;Powiat krośnieński;Starosiedle
 0;19.2830,50.3625;41-300;Dąbrowa Górnicza;Starosiedle
 0;14.8556,52.3620;69-110;Powiat słubicki;Starościn
-0;17.8262,50.9965;48-112;Powiat namysłowski;Staroscin
+0;17.8262,50.9965;;Powiat namysłowski;Staroscin
 0;19.4085,53.0898;87-500;Powiat rypiński;Starorypin
 0;15.4449,52.3456;66-218;Powiat świebodziński;Staropole
 0;19.5308,50.7687;42-250;Powiat częstochowski;Staropole
@@ -36065,7 +36065,7 @@
 0;19.8457,51.7720;95-040;Powiat łódzki wschodni;Jeziorko
 0;18.8680,51.4971;98-161;Zduńska Wola County;Jeziorko
 0;18.3026,51.1881;98-432;Powiat wieruszowski;Jeziorko
-0;17.4413,53.2578;85-115;Powiat nakielski;Jeziorki Zabartowskie
+0;17.4413,53.2578;;Powiat nakielski;Jeziorki Zabartowskie
 0;17.1485,53.1711;89-320;Powiat pilski;Jeziorki Kosztowskie
 70;16.4701,53.7046;78-460;Powiat szczecinecki;Jeziorki
 239;18.1865,53.4820;86-141;Powiat świecki;Jeziorki
@@ -37052,7 +37052,7 @@
 0;18.5611,51.4590;98-270;Powiat sieradzki;Grójec Mały
 0;18.3165,52.2230;62-513;Konin County;Grójec
 0;17.3942,52.1855;63-013;Powiat średzki;Grójec
-0;18.9500,50.6535;41-283;Powiat lubliniecki;Grójec
+0;18.9500,50.6535;;Powiat lubliniecki;Grójec
 1259;19.5570,50.0898;32-566;Powiat chrzanowski;Grojec
 2923;19.2379,49.9815;32-600;Powiat oświęcimski;Grojec
 0;18.8440,52.4755;87-851;Powiat włocławski;Grójczyk

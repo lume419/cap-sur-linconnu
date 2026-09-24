@@ -129,6 +129,38 @@ marqués `[à vérifier]` et listés en fin de fichier.
     les régénérations de la veille n'avaient rien abîmé — elles avaient 3 et 235 collisions, sans conséquence.
   - Ce n'est donc plus une limite à consigner : le défaut est réparé, et tout pays du lot peut être régénéré sans
     son fichier postal sans perdre de région.
+- **Le crible des AGRÉGATS par la population a ÉCHOUÉ — et c'est le code postal qui a pris le relais.**
+  Signature cherchée, celle de Campiña : une population énorme posée au milieu de villages (≥ 10 000 habitants
+  et au moins dix fois la somme du voisinage à 25 km). Il a sorti **sept vraies villes** — Zaragoza, Córdoba,
+  Vitoria, Burgos, Albacete, Ceuta, Cuenca — et **raté Campiña**. Une ville isolée et un agrégat ont le même
+  profil démographique. Le crible a été écarté, pas rafistolé.
+  - Le crible qui marche compare le **CODE POSTAL** aux coordonnées : est signalé un lieu dont le préfixe diffère
+    de celui de **tous** ses voisins à moins de 12 km, ces voisins s'accordant entre eux. Aucune table de
+    référence n'est nécessaire, les lieux déjà publiés font foi. **40 suspects sur seize pays.**
+  - **CAUSE, et elle n'est pas une erreur de recopie :** le code n'est pas lu dans une table, il est pris au
+    **point postal le plus proche à moins de 15 km**. Un point mal placé dans le fichier postal GeoNames
+    contamine tout ce qui l'entoure. **Sarrebruck, 182 971 habitants, portait ainsi 50424 — qui est Cologne**,
+    quand ses propres quartiers (Stahlhammer, Schönbach, Scheidterberg) portent 66104 et 66119.
+  - **CONTRÔLE par la carte**, qui renvoie elle-même un code postal (géocodage inverse OpenStreetMap, une requête
+    par seconde, zoom 14 puis 18) : rien n'est déduit du voisinage seul. Il a écarté **trois faux positifs** que
+    le crible seul aurait cassés — **Osidda** (province de Nuoro enclavée en pays de Sassari), **Tunø By** (île),
+    **Morawsko** : la carte y **confirme** le code inscrit. Et **six indécis**, sans code rendu aux deux zooms.
+  - **30 codes effacés**, dans sept pays : Espagne 11, Pologne 7, Portugal 4, Allemagne 3, Italie 3, Pays-Bas 1,
+    Croatie 1. Nouvelle table `CP_CONTREDIT` (`scripts/communes-corrections.js`), appliquée par
+    `build-country-communes.js`. Régénération des sept pays : **30 lignes changées, toutes dans le seul champ
+    du code postal**, aucune ligne ajoutée ni retirée.
+  - **EFFACÉ, jamais remplacé.** Le code rendu par la carte est celui de l'objet adressable le plus proche —
+    souvent le bourg voisin ou la commune englobante — et l'écrire ici reviendrait à donner à un hameau le code
+    d'un autre lieu. Le projet publie des codes vides depuis le 21/09/2026 : un code absent se voit, un code
+    faux trompe.
+  - Vérifié avant correction : **aucune des 40 fiches ne change de masse terrestre** une fois son code effacé.
+    La correction est sans effet sur les itinéraires.
+  - **Campiña reste OUVERTE, et l'exception est délibérée.** Son cas est l'inverse des trente autres : son code
+    14600 et son étiquette disent Cordoue, ses seules coordonnées disent Jaén. C'est la POSITION qui est fausse ;
+    effacer son code aurait détruit la donnée juste. Sa bonne position reste inconnue.
+  - Autre fiche éclairée au passage : **« Laranjeiras » (Portugal, 8800-164, concelho de Tavira)** est à 500 m de
+    « Montinho das Laranjeiras » (Alcoutim, 8970-026) — la même localité affublée de l'identité d'un lieu situé
+    ailleurs. Son code est effacé ; son étiquette de concelho reste à vérifier.
 - **« Campiña » (Espagne) : correction ENTREPRISE PUIS RETIRÉE, et c'est le code postal qui l'a sauvée.**
   Seule fiche restée indécise du crible des divisions, reprise au rang municipal : la carte la place à Sorihuela
   del Guadalimar, **province de Jaén**, et son voisin d'un kilomètre porte justement « Jaén ». J'ai donc corrigé
