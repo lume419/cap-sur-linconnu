@@ -977,6 +977,20 @@ const IGN_COORD_FIXES = {
   // mesurait 236 km au lieu de 40, et n'a pas pu être écrite (lot de couverture, passe 5).
   // L'erreur est dans la source officielle, pas dans sa reprise : le projet la corrige ici plutôt que de
   // republier une commune habitée sur un atoll désert.
+  // ÉLARGISSEMENT du 24/09/2026 : les deux entrées ci-dessous ne corrigent pas une île FAUSSE — le point y est
+  // sur la bonne masse terrestre — mais un CENTROÏDE posé loin de la population, sur la partie déserte. Le
+  // crible des 170 communes d'outre-mer hors Polynésie n'a trouvé que ces deux-là ; ailleurs, les communes
+  // multi-îles ont toutes leur point sur l'île habitée.
+  // La commune d'Ouvéa couvre l'atoll (croissant de 35 km, trois districts : Saint-Joseph, Fayaoué, Mouli) et
+  // les îlots Beautemps-Beaupré. Le point officiel est à 28 km de la référence de l'île, à l'extrémité nord,
+  // vers les îlots Pléiades, quand les 3 162 habitants vivent le long du croissant.
+  'Ouvéa|988': { lat: -20.6522, lon: 166.5619,
+    source: 'https://en.wikipedia.org/wiki/Ouv%C3%A9a_Island (20°39′8″S 166°33′43″E)' },
+  // Miquelon et Langlade sont soudées par la dune de Langlade, donc une seule masse — mais LANGLADE N'A PLUS
+  // D'HABITANT PERMANENT depuis 2006, et les 596 habitants de la commune vivent tous au village de Miquelon,
+  // sur la pointe nord. Le point officiel est à 15 km au sud, sur l'isthme désert.
+  'Miquelon-Langlade|975': { lat: 47.1000, lon: -56.3792,
+    source: 'https://en.wikipedia.org/wiki/Miquelon-Langlade (47°06′00″N 56°22′45″O, village de Miquelon)' },
   // La commune d'Arue couvre Arue, dans la banlieue est de Papeete, ET l'atoll de TETIAROA, à 58 km au nord de
   // Tahiti. geo.api.gouv.fr publie -17,0496 / -149,5463 pour le `centre` ET pour la `mairie` : ce point est sur
   // Tetiaroa (17°00′S 149°35′W), où vivaient 240 personnes en 2017, à 52 km d'Arue et de ses 10 322 habitants.

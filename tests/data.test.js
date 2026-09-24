@@ -597,8 +597,11 @@ const ISOLATED_KM = 400, ISOLATED_MAX_PLACES = 3;
 // échouer le test : c'est ce qui force à les retirer d'ici quand la donnée est réparée.
 const ISOLATED_OK = {
   'FR|Île de Clipperton': 'atoll inhabité du Pacifique oriental, français, à 3 900 km de la Polynésie',
-  'FR|Miquelon-Langlade': 'Saint-Pierre-et-Miquelon, au large de Terre-Neuve',
-  'FR|Saint-Pierre': 'Saint-Pierre-et-Miquelon, au large de Terre-Neuve',
+  // Saint-Pierre et Miquelon-Langlade ont quitté cette liste le 24/09/2026. Le point de Miquelon-Langlade a été
+  // remonté au village de Miquelon, où vivent ses 596 habitants (il était 15 km au sud, sur l'isthme désert de
+  // Langlade) : les deux communes tombent désormais dans DEUX cases voisines au lieu d'une seule, chacune a
+  // l'autre pour plus proche voisine à ~40 km, et le contrôle ne les signale plus. Leurs exceptions sont donc
+  // devenues inutiles — ce que ce fichier refuse de garder.
   'FR|Rapa': 'Rapa Iti, Australes, 1 100 km au sud de Tahiti',
   // Ajoutée le 24/09/2026 : la commune des Gambier était publiée en pleine mer, 174 km au nord-ouest de son
   // chef-lieu, ce qui la rapprochait artificiellement des Tuamotu et la faisait passer sous ce contrôle.

@@ -1353,7 +1353,7 @@ test('19e audit : un fil perdu ne déverse pas la file dans le processus princip
   }
 });
 
-test('19e audit : l\'attente d\'un fil perdu n\'est pas facturée au budget de calcul du site', { timeout: 300000 }, async () => {
+test('19e audit : l\'attente d\'un fil perdu n\'est pas facturée au budget de calcul du site', { timeout: 300000 }, async t => {
   // `ms` est ce que l'export a coûté à l'adresse demandeuse, `msProcessus` ce qu'il a coûté au PROCESSUS — la seule
   // part qui a bloqué la boucle d'événements et qui doit peser sur le budget global. Le 18e audit imputait les deux
   // fois le total, attente comprise : un fil qui ne répond plus retirait jusqu'à 15 s des 25 s par minute du site.
@@ -1364,13 +1364,16 @@ test('19e audit : l\'attente d\'un fil perdu n\'est pas facturée au budget de c
   // d'attente, l'autre après 1 200 ms ; remplacer cette part par une constante, ou la faire porter par msProcessus,
   // fait échouer le test.
   const chemin = path.join(ROOT, 'lib', 'pdf-service.js');
-  const imputé = async delai => {
+  const imputé = async (delai, obligatoire) => {
     delete require.cache[require.resolve(chemin)];
     process.env.PDF_REPONSE_MAX_MS = String(delai);
     const S = require(chemin);
     delete process.env.PDF_REPONSE_MAX_MS;
     try {
       const r = await S.build({ trip: maxTripPayload('dz'), title: 'essai', lang: 'dz', glyphMax: 6000 });
+      // Prémisse : le fil doit être PLUS LENT que le délai, sinon il répond et il n'y a pas de repli à mesurer.
+      // À 60 ms c'est vrai partout, donc l'assertion reste dure et le mécanisme de repli reste couvert.
+      if(r.source !== 'local' && !obligatoire) return null;
       assert.equal(r.source, 'local', 'ce test suppose un repli (délai ' + delai + ' ms)');
       assert.ok(r.msProcessus > 0, 'le repli bloque le processus : msProcessus doit être compté');
       return { fil: r.ms - r.msProcessus, processus: r.msProcessus, ms: r.ms };
@@ -1379,8 +1382,16 @@ test('19e audit : l\'attente d\'un fil perdu n\'est pas facturée au budget de c
       delete require.cache[require.resolve(chemin)];
     }
   };
-  const court = await imputé(60);
-  const long = await imputé(1200);
+  const court = await imputé(60, true);
+  // Délai long choisi selon la machine : 1 200 ms si le fil est plus lent, 400 ms sinon. 400 suffit à la
+  // comparaison (il faut long >= court + 300) et laisse au fil une marge que très peu de machines franchissent.
+  let long = await imputé(1200, false);
+  if(!long) long = await imputé(400, false);
+  if(!long){
+    t.diagnostic('fil plus rapide que 400 ms : la comparaison des attentes n\'est pas mesurable ici ; le repli lui-même reste vérifié à 60 ms');
+    assert.ok(court.fil <= 3500, 'temps de fil imputé non borné : ' + court.fil + ' ms');
+    return;
+  }
   // Le temps de fil imputable est borné (FIL_CALCUL_MAX_MS = 3,5 s) : au-delà le fil ne calculait plus.
   assert.ok(long.fil <= 3500 && court.fil <= 3500, 'temps de fil imputé non borné : ' + court.fil + ' / ' + long.fil + ' ms');
   // Et il SUIT l'attente : 1 200 ms d'attente doivent coûter nettement plus que 60 ms.

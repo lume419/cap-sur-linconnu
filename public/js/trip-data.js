@@ -3379,7 +3379,10 @@
     //   camper ≤ 6 m 215,16 € le retour -> 107,58 € ; moto 61,62 € -> 30,81 € ; adulte 36,90 € -> 18,45 €. ~2 h.
     // - Holwerd ↔ Ameland — Wagenborg Passagiersdiensten, https://www.wpd.nl/tarieven-ameland (18/09/2026), été (1/04-30/09) :
     //   « Voertuig tot 5,5 m » 136,70 € le retour -> 68,35 € (passagers en sus) ; motor 34,18 € -> 17,09 € ; adulte 21,16 €
-    //   (taxe de séjour de 2,08 € comprise) -> 10,58 €. Au-delà de 5,5 m, prix au mètre : classe 2 null. ~45 min.
+    //   (taxe de séjour de 2,08 € comprise). Au-delà de 5,5 m, prix au mètre : classe 2 null. ~45 min. Le tarif
+    //   PIÉTON n'est plus dérivé (24/09/2026) : Wagenborg PUBLIE l'aller simple, 9,54 € l'été (7,95 € hors saison),
+    //   et précise « Een enkele reis met de veerdienst is alleen mogelijk vanaf het eiland. Daarom is de
+    //   toeristenbelasting niet inbegrepen » — d'où l'écart avec la moitié du retour, qui la contient.
     // - Harlingen ↔ Vlieland — Rederij Doeksen, https://www.rederij-doeksen.nl/tarieven/tarieven-voor-personen (23/09/2026).
     //   Île SANS VOITURES : « Vlieland is autovrij, het is dan ook niet toegestaan uw auto mee te nemen naar het eiland »
     //   (gemeente Vlieland). Ferry classique 1 h 35 (le bateau rapide 50 min). Adulte 36,90 € le retour l'été, et l'armateur
@@ -3393,9 +3396,14 @@
     // - CORRECTION du 23/09/2026 sur Terschelling : le tarif piéton avait été obtenu en divisant le retour par deux
     //   (36,90 -> 18,45). Rederij Doeksen publie sur la même page « Het tarief voor een enkele reis is 60% van de
     //   retourprijs » : l'aller simple vaut 22,14 €, pas 18,45 €. Le prix était sous-estimé de 17 %.
-    //   Wagenborg (Ameland) vend ses allers simples à un autre rapport encore — 7,95 € pour 18,24 € de retour à
-    //   Schiermonnikoog, soit 44 % : le tarif piéton d'Ameland, lui aussi obtenu en divisant par deux, reste À VÉRIFIER
-    //   sur la page tarifaire d'Ameland.
+    //   VÉRIFIÉ le 24/09/2026 sur https://www.wpd.nl/tarieven-ameland : le soupçon était fondé. Wagenborg publie
+    //   l'aller simple d'Ameland à 9,54 € l'été, pas 10,58 € — le prix était SURESTIMÉ de 11 %, parce que la moitié
+    //   du retour inclut une taxe de séjour que l'aller simple ne porte pas. Aucun des cinq tarifs piétons du Wadden
+    //   n'est plus obtenu en divisant un retour par deux.
+    //   La vérification a montré autre chose : Schiermonnikoog était retenue à 7,95 €, son aller simple HORS SAISON,
+    //   quand Terschelling, Vlieland et Ameland sont toutes sur les tarifs d'ÉTÉ. Wagenborg publie le même aller
+    //   simple pour les deux îles (7,95 € hors saison, 9,54 € l'été) : Schiermonnikoog passe donc à 9,54 €, sur la
+    //   même base saisonnière que ses voisines.
     // Distance : écart à vol d'oiseau entre les ports. Durées : exploitants.
     // Prix couvre (11e audit) : Texel 'vehicleAndOccupants' (TESO « incl. inzittenden », « motor (2 personen) ») ; Terschelling
     // 'vehicle' (Doeksen « exclusief inzittenden ») ; Ameland 'vehicle' (Wagenborg, passagers en sus).
@@ -3403,8 +3411,8 @@
       texel: { durationH:0.33, distanceKm:5, priceByClass:{1:24, 2:null, 5:7, foot:1.5}, priceCovers:'vehicleAndOccupants' },
       terschelling: { durationH:2, distanceKm:25, priceByClass:{1:107.58, 2:107.58, 5:30.81, foot:22.14}, priceCovers:'vehicle' },
       vlieland: { durationH:1.58, distanceKm:27, priceByClass:{1:null, 2:null, 5:null, foot:22.14}, priceCovers:null, passengerOnly:true },
-      schiermonnikoog: { durationH:0.75, distanceKm:10, priceByClass:{1:null, 2:null, 5:null, foot:7.95}, priceCovers:null, passengerOnly:true },
-      ameland: { durationH:0.83, distanceKm:12, priceByClass:{1:68.35, 2:null, 5:17.09, foot:10.58}, priceCovers:'vehicle' }
+      schiermonnikoog: { durationH:0.75, distanceKm:10, priceByClass:{1:null, 2:null, 5:null, foot:9.54}, priceCovers:null, passengerOnly:true },
+      ameland: { durationH:0.83, distanceKm:12, priceByClass:{1:68.35, 2:null, 5:17.09, foot:9.54}, priceCovers:'vehicle' }
     };
     Object.keys(WADDEN_CROSSINGS).forEach(function(island){
       FERRY_ROUTES['continental|wadden-' + island] = { routeKey:'ferry.route.wadden', durationH:WADDEN_CROSSINGS[island].durationH,
@@ -4242,7 +4250,26 @@
       {"country":"ZW","level":"orange","label":"Frontière nord avec le Mozambique (mines antipersonnel)","match":{"borderKm":10,"with":"MZ"},"except":{"regions":["Manicaland","Masvingo Province"]},"source":"https://www.diplomatie.gouv.fr/fr/information-par-pays/zimbabwe/conseils-aux-voyageurs-securite","date":"2026-09-15"}
     ];
 
-    var CV_CONCELHO_TO_ISLAND = {
+    // REPLI de coordonnées quand le code de concelho manque (24/09/2026). 22 lieux publiés du Cap-Vert ne portent
+  // aucun code — leur champ vaut « CV », le code pays — et retombaient tous dans « capeVerdeOther », coupés de
+  // leur île alors qu'ils sont à moins de 2 km d'un lieu déjà classé. Ces boîtes sont MESURÉES sur les lieux que
+  // le code classe déjà, sans marge : elles sont disjointes deux à deux, et chacun des 22 tombe dans une seule
+  // (Santiago 10, Fogo 6, São Vicente 3, Santo Antão 1, Sal 1, Maio 1 — la même répartition que le plus proche
+  // voisin). Sans marge à dessein : São Vicente et Santo Antão ne sont séparées que par un canal de 10 km, et un
+  // lieu hors de toute boîte doit retomber sur le fourre-tout plutôt que d'être rattaché au jugé.
+  // [latMin, latMax, lonMin, lonMax]
+  var CV_ISLAND_BOXES = {
+    boaVista: [15.979, 16.223, -22.942, -22.679],
+    brava: [14.825, 14.892, -24.736, -24.675],
+    fogo: [14.834, 15.048, -24.500, -24.284],
+    maio: [15.128, 15.300, -23.228, -23.101],
+    sal: [16.596, 16.851, -22.983, -22.893],
+    santiago: [14.907, 15.316, -23.768, -23.442],
+    santoAntao: [16.913, 17.202, -25.334, -24.974],
+    saoNicolau: [16.547, 16.675, -24.411, -24.040],
+    saoVicente: [16.746, 16.903, -25.070, -24.745]
+  };
+  var CV_CONCELHO_TO_ISLAND = {
       'CV-07': 'santoAntao', 'CV-05': 'santoAntao', 'CV-21': 'santoAntao',
       'CV-11': 'saoVicente',
       'CV-22': 'saoNicolau', 'CV-27': 'saoNicolau',
@@ -4495,7 +4522,7 @@
     TOLL_RATE_BY_CLASS: TOLL_RATE_BY_CLASS, TOLL_RATE_BY_COUNTRY: TOLL_RATE_BY_COUNTRY, TOLL_SOURCE: TOLL_SOURCE,
     TOLL_LANDMASSES: TOLL_LANDMASSES,
     HR_ISLAND_POSTCODES: HR_ISLAND_POSTCODES, HR_POSTCODE_TO_ISLAND: HR_POSTCODE_TO_ISLAND,
-    CV_CONCELHO_TO_ISLAND: CV_CONCELHO_TO_ISLAND,
+    CV_CONCELHO_TO_ISLAND: CV_CONCELHO_TO_ISLAND, CV_ISLAND_BOXES: CV_ISLAND_BOXES,
     ISLAND_BOXES: ISLAND_BOXES,
     ISLAND_ONLY_COUNTRIES: ISLAND_ONLY_COUNTRIES,
     NO_TRIP_LANDMASSES: NO_TRIP_LANDMASSES,

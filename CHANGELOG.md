@@ -116,6 +116,56 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Le test du fil perdu échouait quand la machine était trop RAPIDE.** Il règle `PDF_REPONSE_MAX_MS` à 1 200 ms
+  et suppose que le fil de travail mette plus longtemps à composer le PDF, pour forcer le repli qu'il veut
+  mesurer ; quand le fil répondait avant, sa propre assertion disait « ce test suppose un repli » et la suite
+  échouait sur une prémisse non remplie, pas sur un défaut.
+  - **Première tentative écartée, et c'est la mesure qui l'a écartée** : rendre la comparaison conditionnelle
+    (« si le fil devance, on renonce ») laissait passer un mutant — le temps de fil remplacé par une constante.
+    Le correctif aurait rendu le test vert *et* aveugle.
+  - **Deuxième tentative écartée aussi** : forcer un fil `muet` (`PDF_FIL_CASSE`) ne marche pas — ce fil
+    n'annonce jamais ses polices, le travail ne lui est donc jamais envoyé, et le temps imputé tombe à zéro.
+  - **Retenu** : le délai long est CHOISI selon la machine — 1 200 ms, puis 400 ms si le fil a devancé. 400 suffit
+    à la comparaison (il faut long ≥ court + 300) et seule une machine qui compose ce PDF en moins de 400 ms y
+    échapperait encore, avec un avertissement. Le repli à 60 ms reste une assertion dure : le mécanisme est
+    toujours couvert. **Deux mutants, tous deux tués** (temps de fil constant ; attente portée par `msProcessus`).
+- **Le tarif piéton d'Ameland était surestimé de 11 %.** Il avait été obtenu en divisant le retour d'été par
+  deux — 21,16 € → 10,58 €. Wagenborg **publie** l'aller simple : **9,54 €** l'été (7,95 € hors saison), et
+  précise « Een enkele reis met de veerdienst is alleen mogelijk vanaf het eiland. Daarom is de
+  toeristenbelasting niet inbegrepen » — d'où l'écart, la moitié du retour contenant une taxe de séjour de
+  2,08 € que l'aller simple ne porte pas. **Aucun des cinq tarifs piétons du Wadden n'est plus dérivé.**
+  - La vérification a montré autre chose : **Schiermonnikoog était sur une autre base saisonnière** que ses
+    voisines — 7,95 €, son aller simple HORS SAISON, quand Terschelling, Vlieland et Ameland sont toutes sur les
+    tarifs d'été. Wagenborg publie le même aller simple pour les deux îles : Schiermonnikoog passe à 9,54 €.
+- **`capeVerdeOther` ne contenait aucune « autre île » : 22 lieux bien réels, tous sur une île nommée.**
+  Le rattachement des lieux du Cap-Vert se fait par le CODE de concelho. Ces 22 n'en portent **aucun** — leur
+  champ de code vaut « CV », le code pays — et retombaient donc tous dans le fourre-tout, coupés de leur île
+  alors qu'ils sont **à moins de 2 km** d'un lieu déjà classé.
+  - Remède : une **boîte de coordonnées par île, en REPLI du code**, et seulement quand le code manque ; un code
+    présent fait toujours foi. Les neuf boîtes sont MESURÉES sur les lieux que le code classe déjà, **sans
+    marge** — São Vicente et Santo Antão ne sont séparées que par un canal de 10 km — et elles sont disjointes
+    deux à deux. Chacun des 22 tombe dans **une seule** : Santiago 10, Fogo 6, São Vicente 3, Santo Antão 1,
+    Sal 1, Maio 1 — la même répartition que le plus proche voisin, calculé indépendamment.
+  - **`capeVerdeOther` est désormais vide**, et les masses sans liaison passent de 220 à 219. Le repli sur le
+    fourre-tout est conservé pour tout lieu hors de toute boîte : on isole plutôt que de rattacher au jugé.
+  - **Un second défaut trouvé en chemin, NON corrigé : « Ponta Verde » est publiée deux fois**, les deux fois
+    avec le concelho CV-18 (São Filipe, sur Fogo) — l'une à −24,4598 / 14,9820, sur Fogo, l'autre à
+    −23,6000 / 15,1992, **sur Santiago**, à 80 km. C'est cette fiche qui faisait se chevaucher les boîtes de
+    Fogo et de Santiago ; les boîtes publiées ici sont mesurées sans elle.
+- **Ouvéa et Miquelon-Langlade : la règle des points s'élargit.** Les dix corrections précédentes ne visaient que
+  les points posés sur la MAUVAISE ÎLE. Ces deux-là sont sur la bonne masse, mais loin de la population :
+  - **Ouvéa** (Nouvelle-Calédonie, 3 162 hab.) — point à 28 km de la référence de l'île, à l'extrémité nord du
+    croissant, vers les îlots Pléiades.
+  - **Miquelon-Langlade** (596 hab.) — point à 15 km au sud du village de Miquelon, sur l'isthme désert de
+    Langlade, **qui n'a plus d'habitant permanent depuis 2006**.
+  - Effet de bord mesuré : remonté au village, le point de Miquelon-Langlade tombe dans une case voisine de
+    celle de Saint-Pierre au lieu de la même. Chacune a désormais l'autre pour plus proche voisine, le contrôle
+    d'isolement ne les signale plus, et **leurs deux exceptions ont dû être retirées** — ce que le fichier de
+    tests refuse de garder quand elles ne servent plus.
+- **Les 30 impasses restantes : rien à corriger.** Elles sont correctement identifiées, le moteur PROUVE
+  l'impasse avant de l'annoncer, le message dédié existe dans les 161 langues, et chacune porte ici la raison
+  documentée de son absence de liaison. Ajouter davantage reviendrait à inventer une liaison qui n'existe pas.
+- `compare-engine` sur ces cinq points : **0 tirage changé sur 380**, 0 trajet direct, 0 plafond d'hébergement.
 - **Les quatre tronçons de l'Apetahi Express attribuaient leur durée à une page qui n'en porte aucune.**
   Leurs notes citaient `tuateaferries.com/en/fares/` pour le tarif ET pour la durée. Le tarif y est bien — 7 000 XPF
   l'aller, grille horodatée du 1er juin 2026, sans aucune ligne véhicule. **La durée, non** : cette page n'en porte
