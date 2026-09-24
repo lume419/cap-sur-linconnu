@@ -193,5 +193,11 @@ module.exports = {
       currency: 'XPF', original: { foot: 7000 },
       source: 'https://tuateaferries.com/en/fares/', date: '2026-09-23',
       note: "Tarif unique 7 000 XPF l'aller (14 000 aller-retour), page des tarifs horodatée du 1er juin 2026. Taha a ↔ Bora « in 1 hour ». Aller les mardis, mercredis, vendredis et dimanches ; retour les lundis, mercredis, jeudis et samedis. Réservation obligatoire entre Tahiti et les Îles Sous-le-Vent." },
+    { a: 'boraBora', b: 'maupiti', routeKey: 'boraBoraMaupiti', passengerOnly: true, "priceCovers": null,
+      "coversSource": "tarif passager seul : la grille Apetahi Express ne comporte aucune ligne véhicule, et ce tronçon n'y est pas tarifé",
+      name: "Vaitape (Bora-Bora) ↔ Maupiti", operator: 'Apetahi Express (Tuatea Ferries)', durationH: 1, distanceKm: 56,
+      priceStatus: 'unknown', priceByClass: { 1: null, 2: null, 5: null, foot: null },
+      source: 'https://tuateaferries.com/en/', date: '2026-09-24',
+      note: "Dernier tronçon de la ligne, et le plus fragile : la passe de Maupiti est dangereuse par forte houle et l'escale est régulièrement annulée. AUCUN PRIX n'est écrit, contrairement aux quatre autres tronçons : la grille de l'opérateur, horodatée du 1er juin 2026, ne price que « Tahiti ↔ Raromatai » et « Raiatea ↔ Taha'a » — Maupiti y figure au menu mais sans ligne tarifaire, et appliquer les 7 000 XPF forfaitaires serait une extrapolation. La durée d'une heure vient de deux sources secondaires concordantes (« Bora et Maupiti en 1 heure », « un peu plus d'une heure »), non de l'opérateur, qui ne publie aucune durée ; elle est cohérente avec la vitesse du navire sur le tronçon Tahiti ↔ Huahine déjà publié ici (177 km en 3 h). Aller les mardis, mercredis, vendredis et dimanches ; retour les lundis, jeudis et samedis." },
   ]
 };

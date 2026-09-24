@@ -652,6 +652,10 @@
   "name": "Taha'a ↔ Vaitape (Bora-Bora)"
  },
  {
+  "routeKey": "boraBoraMaupiti",
+  "name": "Vaitape (Bora-Bora) ↔ Maupiti"
+ },
+ {
   "routeKey": "ardrossanBrodick",
   "name": "Ardrossan ↔ Brodick"
  },

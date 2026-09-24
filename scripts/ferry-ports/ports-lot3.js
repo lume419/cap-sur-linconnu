@@ -56,6 +56,8 @@ module.exports = [
     ports: { raiatea: [{ cc: 'FR', place: 'Uturoa' }], tahaa: [{ cc: 'FR', place: 'Tahaa' }] } },
   { key: 'boraBora|tahaa', source: 'https://tuateaferries.com/en/fares/ (Taha\'a ↔ Vaitape (Bora-Bora))',
     ports: { boraBora: [{ cc: 'FR', place: 'Bora-Bora' }], tahaa: [{ cc: 'FR', place: 'Tahaa' }] } },
+  { key: 'boraBora|maupiti', source: 'https://tuateaferries.com/en/ (Vaitape (Bora-Bora) ↔ Maupiti)',
+    ports: { boraBora: [{ cc: 'FR', place: 'Bora-Bora' }], maupiti: [{ cc: 'FR', place: 'Maupiti' }] } },
   // Golfe de Naples : lignes de PASSAGERS, les seules ouvertes toute l'année aux non-résidents.
   { key: 'continental|procida', source: 'https://mobile.caremar.it/it/tariffe/ (Napoli ↔ Procida)',
     ports: { continental: [{ cc: 'IT', place: 'Napoli' }], procida: [{ cc: 'IT', place: 'Procida' }] } },

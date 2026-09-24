@@ -116,6 +116,32 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Bora Bora ↔ Maupiti : le tronçon manquant de l'Apetahi Express — 31 impasses tombent à 30.**
+  Une fois le lieu remis sur Maupiti, la traversée mesure **56 km** entre les deux lieux publiés au lieu de 236,
+  et Maupiti rejoint le réseau par Bora Bora. Elle **sort des impasses** avec ses 1 302 habitants (population
+  sur les impasses : 68 792 → 67 490).
+  - **Première rédaction FAUSSE, corrigée par l'utilisateur** : je l'avais attribuée au *Maupiti Express II* et
+    rangée dans le lot de couverture. C'est l'**Apetahi Express** qui dessert principalement Maupiti — et ses
+    **quatre autres tronçons étaient déjà dans le projet** (Tahiti ↔ Huahine, Huahine ↔ Raiatea, Raiatea ↔
+    Taha'a, Taha'a ↔ Bora-Bora), dans `ferries-oceanie.js`. Il ne manquait que le dernier. La liaison a donc
+    quitté le lot de couverture pour rejoindre sa famille, avec la même forme et le même opérateur.
+  - **Sans véhicules** : la grille de l'opérateur ne comporte aucune ligne véhicule pour l'Apetahi Express
+    (seul le Tauati price une voiture, sur Papeete ↔ Moorea).
+  - **Aucun prix, contrairement à ses quatre frères.** La grille, horodatée du 1er juin 2026, ne price que
+    « Tahiti ↔ Raromatai » et « Raiatea ↔ Taha'a » : **Maupiti y figure au menu mais sans ligne tarifaire.**
+    Appliquer les 7 000 XPF forfaitaires aurait été une extrapolation.
+  - **Durée d'une heure, et ce qu'elle coûte.** Elle vient de deux sources secondaires concordantes (« Bora et
+    Maupiti en 1 heure », « un peu plus d'une heure »), non de l'opérateur, qui ne publie aucune durée — y
+    compris pour les quatre tronçons déjà présents, dont les notes attribuent un « in 1 hour » à une page qui
+    n'en porte pas ; **approximation de source signalée, non corrigée ici**. Écrite comme durée publiée, elle
+    entre dans le vivier des références et **déplace la médiane de la classe [45,100) de 23,00 à 25,47 km/h**,
+    raccourcissant toutes les durées estimées de cette classe. Ce n'est pas une anomalie : un tronçon Apetahi y
+    figurait déjà à 49 km/h, et 56 km/h est cohérent avec la vitesse du navire sur Tahiti ↔ Huahine (177 km en
+    3 h). `compare-engine` : **2 tirages changés sur 380** (Dublin, Ajaccio — deux départs insulaires dont les
+    itinéraires comportent une traversée de cette classe), 0 trajet direct, 0 plafond d'hébergement.
+  - Le drapeau `deadEnd` ne se pose plus sur Maupiti. Un tirage ordinaire y rend encore souvent zéro étape — un
+    seul lieu publié sur l'île, comme Herm — mais ce n'est plus une impasse : quelque chose est atteignable, et
+    le message affiché redevient celui d'un échec passager, qui est alors vrai.
 - **L'arabe n'est plus sous le drapeau syrien, et la Syrie ne porte plus aucune langue.**
   Quatre langues y étaient posées — arabe, kurde kurmandji, touroyo, adyguéen — pour une raison que le
   commentaire du fichier avouait lui-même : « c'est l'ajout de la Syrie qui a introduit cette langue ». Mettre
@@ -159,7 +185,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   siège la mairie, est à 16°26′24″S 152°16′27″W. **L'erreur est dans la source officielle, pas dans sa reprise.**
   - Conséquence mesurée : la liaison du Maupiti Express vers Bora Bora, trois fois par semaine, mesurait
     **236 km au lieu de 55** entre les deux lieux publiés, et n'avait pas pu être écrite (passe 5).
-    **La liaison n'est pas écrite pour autant** : Maupiti reste l'une des 31 impasses tant qu'elle ne l'est pas.
+    **La liaison a été écrite juste après** (voir plus haut) : Maupiti est sortie des impasses.
     Ce correctif lève l'obstacle, il ne le remplace pas.
   - **Nouvelle table `IGN_COORD_FIXES`** (`scripts/communes-corrections.js`), appliquée par
     `build-france-lieux.js` : la correction survit donc à une régénération. C'est la **seule exception** à la
@@ -665,7 +691,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
   rattachements faux.
 - **365 traversées sont annoncées plus courtes que la ligne droite entre leurs ports**, dont 194 de plus
   d'un kilomètre : le port est pris au centre de la localité faute de quai relevé.
-- **221 masses terrestres nommées n'ont aucune liaison modélisée** — Wallis, Futuna, Maupiti, Tristan da
+- **220 masses terrestres nommées n'ont aucune liaison modélisée** — Wallis, Futuna, Tristan da
   Cunha, Fernando de Noronha, Batanes, le Kamtchatka. Méthode, écrite : on range chaque lieu publié par
   `landmassOf`, on écarte les masses synthétiques (règles `'*'`, une par lieu, isolées par construction), et on
   garde les clés nommées qui n'apparaissent dans aucune clé de `FERRY_ROUTES` ni de `SEA_CROSSINGS`.
@@ -680,7 +706,7 @@ marqués `[à vérifier]` et listés en fin de fichier.
     filtre décoché, **les 27 tirages de chacune rendent un trajet**. Rien à corriger — la première rédaction de
     cette ligne annonçait un message trompeur, déduit d'un tirage vide sans lire la branche cliente qui traite
     déjà `tensionBlocked` (`public/js/app.js:4589`).
-  - **31 sont de vraies impasses** : 65 lieux publiés, 68 792 habitants — Wallis, Futuna, Maupiti, Tristan da
+  - **30 sont de vraies impasses** : 64 lieux publiés, 67 490 habitants — Wallis, Futuna, Tristan da
     Cunha, Fernando de Noronha, Utqiagvik, Batanes, cinq atolls de Tuvalu, Pitcairn, la Géorgie du Sud, Jan
     Mayen et Clipperton. Elles reçoivent depuis le 24/09/2026 leur propre message (« Aucun itinéraire
     n'est possible depuis ce point de départ, quels que soient vos réglages »), posé seulement après que le
