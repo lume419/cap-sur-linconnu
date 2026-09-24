@@ -116,6 +116,30 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **Les quatre tronçons de l'Apetahi Express attribuaient leur durée à une page qui n'en porte aucune.**
+  Leurs notes citaient `tuateaferries.com/en/fares/` pour le tarif ET pour la durée. Le tarif y est bien — 7 000 XPF
+  l'aller, grille horodatée du 1er juin 2026, sans aucune ligne véhicule. **La durée, non** : cette page n'en porte
+  aucune, pas plus que le reste du site de l'opérateur.
+  - Les durées viennent en fait de la fiche **Tahiti Tourisme**, qui en donne **DEUX jeux contradictoires** sans
+    dater ni l'un ni l'autre : « Tahiti and Huahine in 3 hours, Huahine and Raiatea in 1 hour, Raiatea and Taha'a
+    in 45 minutes and Taha'a and Bora in 1 hour », puis « Tahiti and Huahine in 03h30, Huahine and Raiatea in
+    01h00, Raiatea and Taha'a in 01h00 and Taha'a and Bora Bora in 01h00 ». **Le projet retenait le premier jeu
+    sans le dire.**
+  - Les quatre notes portent désormais les deux sources séparément, les deux jeux de durées, et la règle retenue :
+    **le plus lent des deux**, comme pour Côn Đảo. Deux tronçons changent, deux ne changent pas :
+
+    | Tronçon | Avant | Après | Vitesse implicite |
+    |---|---|---|---|
+    | Tahiti ↔ Huahine | 3 h | **3 h 30** | 59 → 50,6 km/h |
+    | Raiatea ↔ Taha'a | 45 min | **1 h** | 18,7 → 14,0 km/h |
+    | Huahine ↔ Raiatea | 1 h | 1 h | les deux jeux concordent |
+    | Taha'a ↔ Bora-Bora | 1 h | 1 h | les deux jeux concordent |
+
+  - **Les cinq médianes ne bougent pas**, et ce n'est pas un hasard heureux qu'il faille taire : les deux valeurs
+    changées restent du même côté de la médiane de leur classe, donc l'index médian ne se déplace pas.
+    `compare-engine` : **0 tirage changé sur 380**, 0 trajet direct, 0 plafond d'hébergement.
+  - Le cinquième tronçon, Bora Bora ↔ Maupiti, n'est pas touché : la fiche Tahiti Tourisme s'arrête à Bora, et sa
+    note dit déjà d'où vient son heure.
 - **Les 48 communes de Polynésie passées au crible : huit de plus étaient publiées loin de leurs habitants.**
   Maupiti et Arue n'étaient pas des cas isolés. Le même défaut — une commune étalée sur plusieurs îles dont le
   point officiel dérive vers les îlots excentrés — touche **huit autres communes, 9 399 habitants** :
