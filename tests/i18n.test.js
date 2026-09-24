@@ -30,7 +30,7 @@ function loadI18n(){
   let src = fs.readFileSync(path.join(PUB, 'js', 'i18n.js'), 'utf8');
   const i = src.lastIndexOf('window.I18N = {');
   assert.ok(i > 0, 'window.I18N introuvable dans i18n.js');
-  src = src.slice(0, i) + 'window.__S = STRINGS; window.__L = LISTS; window.__F = LOCALE_FALLBACK; window.__N = LANG_NAMES; ' + src.slice(i);
+  src = src.slice(0, i) + 'window.__S = STRINGS; window.__L = LISTS; window.__F = LOCALE_FALLBACK; window.__N = LANG_NAMES; window.__FL = LANG_FLAGS; ' + src.slice(i);
   const fakeEl = () => ({ setAttribute(){}, getAttribute(){ return null; }, classList: { add(){}, remove(){}, contains(){ return false; } }, appendChild(){}, addEventListener(){},
     querySelector(){ return fakeEl(); }, querySelectorAll(){ return []; }, style: {} });
   const ctx = { window: {}, navigator: { languages: ['fr'] }, localStorage: { getItem: () => null, setItem(){} },
@@ -39,9 +39,9 @@ function loadI18n(){
   ctx.window.addEventListener = () => {}; ctx.window.dispatchEvent = () => {};
   vm.createContext(ctx);
   vm.runInContext(src, ctx);
-  return { S: ctx.window.__S, L: ctx.window.__L, F: ctx.window.__F, N: ctx.window.__N, langs: Array.from(ctx.window.I18N.SUPPORTED), I18N: ctx.window.I18N };
+  return { S: ctx.window.__S, L: ctx.window.__L, F: ctx.window.__F, N: ctx.window.__N, FL: ctx.window.__FL, langs: Array.from(ctx.window.I18N.SUPPORTED), I18N: ctx.window.I18N };
 }
-const { S, L, F: LOCALE_FALLBACK_T, N: LANG_NAMES_T, langs, I18N } = loadI18n();
+const { S, L, F: LOCALE_FALLBACK_T, N: LANG_NAMES_T, FL: LANG_FLAGS_T, langs, I18N } = loadI18n();
 const frKeys = Object.keys(S.fr);
 const placeholders = s => (String(s).match(/\{(\w+)\}/g) || []).sort().join(',');
 const report = (list, max) => list.length + ' problème(s) :\n  ' + list.slice(0, max || 25).join('\n  ') + (list.length > (max || 25) ? '\n  …' : '');
@@ -760,4 +760,65 @@ test('18e audit : locale de repli — jamais une écriture étrangère à celle 
   }
   assert.deepEqual(bad, []);
   assert.deepEqual(inutiles, [], 'exception devenue inutile : la retirer de ASSUMÉES');
+});
+
+// DRAPEAUX DU SÉLECTEUR DE LANGUE (24/09/2026). LANG_FLAGS n'était couverte par AUCUN test, alors qu'elle
+// décide bien plus que l'image : la région de la locale Intl (localeTag) et le pays dont les villes remontent
+// dans les suggestions (langCountry). Un code fautif ne cassait rien de visible — langFlagSrc retombe sur
+// « fr » — il affichait simplement le drapeau français à côté d'une langue qui n'a rien de français.
+test('drapeaux : une entrée par langue, aucune orpheline, chaque fichier présent', () => {
+  const manquantes = langs.filter(l => !LANG_FLAGS_T[l]);
+  const orphelines = Object.keys(LANG_FLAGS_T).filter(l => langs.indexOf(l) < 0);
+  assert.deepEqual(manquantes, [], 'langues sans drapeau (elles afficheraient le drapeau français)');
+  assert.deepEqual(orphelines, [], 'entrées de drapeau sans langue');
+  const sansFichier = [...new Set(Object.values(LANG_FLAGS_T))]
+    .filter(f => !fs.existsSync(path.join(PUB, 'img', 'flags', f + '.svg')));
+  assert.deepEqual(sansFichier, [], 'codes de drapeau sans fichier dans public/img/flags/');
+});
+
+// Un code qui n'est pas un code pays (« amazigh », « occitania », « arab-league ») ne se laisse pas découper
+// en région par localeTag ni en pays par langCountry : sans entrée explicite dans les deux tables, la locale
+// retombe sur la langue nue (les mois changent de forme) et la devise proposée retombe sur l'euro. C'est la
+// garde qui manquait quand le drapeau de la Ligue arabe a remplacé celui de la Syrie pour l'arabe.
+test('drapeaux : tout drapeau non étatique est déclaré dans les deux tables dérivées', () => {
+  const nonEtat = [...new Set(Object.values(LANG_FLAGS_T))].filter(f => !/^[a-z]{2}(-|$)/.test(f));
+  assert.ok(nonEtat.length > 0, 'aucun drapeau non étatique : ce test ne contrôle plus rien');
+  const oubliés = [];
+  for (const f of nonEtat) {
+    const langue = langs.find(l => LANG_FLAGS_T[l] === f);
+    if (!I18N.localeTag(langue) || I18N.localeTag(langue).indexOf('-') < 0)
+      oubliés.push(f + ' : localeTag(' + langue + ') = ' + I18N.localeTag(langue) + ' (région perdue, LOCALE_FLAG_REGION)');
+    if (!I18N.country(langue))
+      oubliés.push(f + ' : country(' + langue + ') vide (devise et villes perdues, FLAG_COUNTRY)');
+  }
+  assert.deepEqual(oubliés, []);
+});
+
+// Un drapeau partagé par plusieurs langues n'est pas une faute en soi — c'est le repli assumé quand la langue
+// n'a pas de drapeau propre (bas-allemand sur l'Allemagne, cachoube sur la Pologne). Mais chaque partage doit
+// être VOULU : la liste ci-dessous est exhaustive, et le test échoue aussi bien si un partage apparaît que si
+// l'un d'eux disparaît sans que la liste soit mise à jour.
+const PARTAGES_ASSUMÉS = {
+  za: ['af', 'zu', 'xh', 'nso', 'st', 'tn', 'nr', 've', 'ts'],   // onze langues officielles d'Afrique du Sud
+  de: ['de', 'nds', 'hsb', 'frr'], in: ['hi', 'mr', 'ta', 'ml'],
+  pl: ['pl', 'csb', 'rue'], cn: ['zh', 'za', 'ii'], gt: ['quc', 'cak', 'kek'],
+  gb: ['en', 'kw'], 'gb-sct': ['gd', 'sco'], pt: ['pt', 'mwl'], hr: ['hr', 'ruo'],
+  lv: ['lv', 'ltg'], lt: ['lt', 'sgs'], ee: ['et', 'vro'], ua: ['uk', 'crh'],
+  ge: ['ka', 'ab'], id: ['id', 'jv'], tw: ['zh-Hant', 'hak'], pf: ['ty', 'mrq'],
+  'ru-mo': ['myv', 'mdf'], amazigh: ['zgh', 'kab'],
+  // 24/09/2026 : les deux dialectes kurdes partagent le drapeau kurde ; le touroyo rejoint la Turquie, où se
+  // trouve le Tur Abdin. La Syrie, qui portait ar/ku/tru/ady, ne porte plus aucune langue.
+  'iq-kr': ['ku', 'ckb'], tr: ['tr', 'tru'],
+};
+test('drapeaux : les partages entre langues sont tous assumés, et la liste est à jour', () => {
+  const par = {};
+  for (const l of langs) (par[LANG_FLAGS_T[l]] = par[LANG_FLAGS_T[l]] || []).push(l);
+  const réels = {};
+  for (const f of Object.keys(par)) if (par[f].length > 1) réels[f] = par[f].slice().sort();
+  const attendus = {};
+  for (const f of Object.keys(PARTAGES_ASSUMÉS)) attendus[f] = PARTAGES_ASSUMÉS[f].slice().sort();
+  assert.deepEqual(réels, attendus, 'partages de drapeau : la réalité ne correspond plus à la liste assumée');
+  // Et la Syrie, précisément, ne doit plus porter aucune langue : c'est l'objet du changement du 24/09/2026.
+  const surLaSyrie = langs.filter(l => LANG_FLAGS_T[l] === 'sy');
+  assert.deepEqual(surLaSyrie, [], 'des langues sont revenues sur le drapeau syrien');
 });

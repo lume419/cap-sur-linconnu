@@ -116,6 +116,41 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **L'arabe n'est plus sous le drapeau syrien, et la Syrie ne porte plus aucune langue.**
+  Quatre langues y étaient posées — arabe, kurde kurmandji, touroyo, adyguéen — pour une raison que le
+  commentaire du fichier avouait lui-même : « c'est l'ajout de la Syrie qui a introduit cette langue ». Mettre
+  UN pays sur vingt-deux en avant pour l'arabe n'avait pas d'autre justification que l'ordre dans lequel ce
+  projet a grandi.
+  - `ar` → **drapeau de la Ligue arabe** : aucun pays mis en avant. Même précédent que l'amazigh et l'occitan,
+    déjà en production — un drapeau non étatique, servi localement.
+  - `ku` → **drapeau kurde** (Alay Rengîn, `iq-kr`), qui rejoint le sorani `ckb` : un drapeau kurde pour les
+    deux dialectes kurdes, au lieu d'un drapeau d'État.
+  - `tru` → **Turquie**, où se trouve le Tur Abdin, et `ady` → **Adyguée**, république de Russie. Ces deux-là
+    étaient les plus mal placées : leurs locales de repli disaient déjà `tr-TR` et `ru-RU`, en contradiction
+    frontale avec leur drapeau. L'adyguéen rejoint les six autres langues minoritaires de Russie de la table,
+    qui portent toutes le drapeau de leur RÉPUBLIQUE et non celui de la Fédération.
+  - **Le piège de ce changement, qui n'était couvert par aucun test :** `LANG_FLAGS` n'est pas décorative. Le
+    code du drapeau sert de source à la **région de la locale Intl** (`localeTag`) et au **pays dont les villes
+    remontent dans les suggestions**, lequel fixe aussi la **devise proposée par défaut**. Un code qui n'est
+    pas un code pays — « arab-league » — doit donc être déclaré dans `LOCALE_FLAG_REGION` **et** dans
+    `FLAG_COUNTRY`, sans quoi la locale retombe sur « ar » nu (les mois passent de « أيلول » à « سبتمبر ») et
+    la devise sur l'euro. L'Arabie saoudite y est retenue : **elle n'apparaît nulle part à l'écran**.
+    Vérifié en production locale : drapeau `arab-league.svg`, locale `ar-SA`, pays `SA`, écriture RTL intacte.
+  - **Les deux drapeaux ajoutés viennent de Wikimedia Commons**, recadrés en cercle sans retoucher leur tracé,
+    comme les quatre autres : Ligue arabe (versé au domaine public par son auteur), Adyguée (symbole d'État,
+    hors du champ du droit d'auteur selon l'article 1259 du code civil russe). Tous deux crédités.
+- **`LANG_FLAGS` n'était couverte par AUCUN test** — un code fautif ne cassait rien de visible : `langFlagSrc`
+  retombe sur « fr » et affichait le **drapeau français** à côté de la langue concernée. Trois tests l'encadrent
+  désormais : une entrée par langue sans orpheline et chaque fichier présent ; tout drapeau non étatique déclaré
+  dans les deux tables dérivées ; et la liste **exhaustive des partages assumés**, qui échoue aussi bien si un
+  partage apparaît que s'il disparaît sans mise à jour. Quatre mutants, tous tués, chacun par le bon test.
+  - État mesuré : **22 drapeaux servent à plusieurs langues, pour 58 langues**. Le plus chargé est l'Afrique du
+    Sud, partagé par **neuf** langues. Ce n'est pas une faute en soi — c'est le repli assumé quand la langue n'a
+    pas de drapeau propre (bas-allemand sur l'Allemagne, cachoube sur la Pologne) — mais c'est désormais écrit.
+- **Contradiction levée sur le drapeau amazigh** : le commentaire d'`i18n.js` le disait « dessiné pour ce
+  projet », les mentions légales le donnaient pour un recadrage de Wikimedia « sans modification de son tracé ».
+  L'une des deux était fausse. Le fichier porte bien la signature d'un recadrage (mise à l'échelle et tracés
+  vectorisés) : le commentaire est corrigé dans le sens des mentions légales.
 - **Maupiti était publiée sur un atoll de sept habitants, à 236 km de ses 1 302 habitants.**
   `public/data/communes.txt` reprend la liste officielle (geo.api.gouv.fr, IGN/Etalab). Pour la commune de
   Maupiti — qui couvre Maupiti, Maupihaʻa (Mopelia), Manuae et Motu One — cette source publie **-16,78 /

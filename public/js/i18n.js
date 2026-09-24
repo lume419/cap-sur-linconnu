@@ -76,13 +76,32 @@
     // fr/en/es/... en tête de cette table. "ar"/"ku"/"tru"/"ady" retombent tous les quatre sur le
     // drapeau syrien ("sy") : aucun des trois derniers n'a de drapeau dédié dans circle-flags (le
     // kurde n'a pas d'Etat propre, le touroyo/le circassien encore moins) — même mécanisme de repli
-    // déjà utilisé pour nds/hsb/frr (Allemagne) ou csb/rue (Pologne) plus haut. L'arabe lui-même
-    // retombe sur la Syrie plutôt qu'un autre pays arabophone : c'est l'ajout de la Syrie qui a
-    // introduit cette langue dans l'interface, cohérent avec la convention "drapeau du pays qui a
-    // amené la langue" suivie partout ailleurs dans cette table (ex. "ka"/"ab" -> Géorgie).
-    hy: 'am', az: 'az', ar: 'sy', ku: 'sy', tru: 'sy', ady: 'sy',
-    // Les deux langues amazighes partagent le drapeau amazigh, dessiné pour ce projet faute d'en
-    // trouver un dans circle-flags (645 drapeaux vérifiés, aucun berbère) — voir mentions légales.
+    // déjà utilisé pour nds/hsb/frr (Allemagne) ou csb/rue (Pologne) plus haut.
+    //
+    // 24/09/2026 — LES QUATRE SONT RECALÉES (demande de l'utilisateur). Poser l'arabe, parlé dans une
+    // vingtaine de pays, sur le drapeau d'UN seul d'entre eux n'avait d'autre raison que l'ordre dans
+    // lequel ce projet a grandi : "c'est l'ajout de la Syrie qui a introduit cette langue". Et les trois
+    // autres y étaient de surcroît mal placées, de l'aveu des commentaires de ce fichier : le Tur Abdin
+    // du touroyo est en TURQUIE, et l'adyguéen est la langue d'une république de RUSSIE — leurs locales
+    // de repli disaient déjà "tr-TR" et "ru-RU", en contradiction frontale avec leur drapeau.
+    //   ar  -> "arab-league", drapeau de la Ligue arabe : aucun pays mis en avant. Même précédent que
+    //          l'amazigh et l'occitan, déjà en production — un drapeau non étatique, servi localement.
+    //          ATTENTION : ce code n'étant pas un code pays, il lui faut une entrée dans
+    //          LOCALE_FLAG_REGION *et* dans FLAG_COUNTRY, plus bas, sans quoi la locale retombe sur
+    //          "ar" nu (mois "سبتمبر" au lieu de "أيلول") et la devise proposée sur l'euro.
+    //   ku  -> "iq-kr", le drapeau kurde (Alay Rengîn), qui est aussi celui de la région du Kurdistan :
+    //          il rejoint le sorani "ckb", déjà là. Un drapeau kurde pour les deux dialectes kurdes.
+    //   tru -> "tr" (Turquie), d'accord avec sa locale de repli tr-TR et avec la géographie du Tur Abdin.
+    //   ady -> "ru-ad" (Adyguée), d'accord avec sa locale ru-RU et avec les six autres langues
+    //          minoritaires de Russie de cette table, qui portent toutes le drapeau de leur RÉPUBLIQUE
+    //          (tt, ba, sah, ce, myv/mdf, udm) et non celui de la Fédération.
+    hy: 'am', az: 'az', ar: 'arab-league', ku: 'iq-kr', tru: 'tr', ady: 'ru-ad',
+    // Les deux langues amazighes partagent le drapeau amazigh, absent de circle-flags (645 drapeaux
+    // vérifiés, aucun berbère) : il vient de Wikimedia Commons (domaine public), recadré en cercle
+    // sans retoucher son tracé, comme ceux de Sakha, de Mordovie, du Karakalpakstan, de la Ligue
+    // arabe et de l'Adyguée — voir mentions légales. Ce commentaire disait « dessiné pour ce projet »
+    // et contredisait les mentions légales ; corrigé le 24/09/2026 dans le sens de celles-ci, le
+    // fichier portant bien la signature d'un recadrage (mise à l'échelle et tracés vectorisés).
     zgh: 'amazigh', kab: 'amazigh',
     // Lot Sahel / Corne de l'Afrique. Drapeau du pays qui accorde le statut juridique : le haoussa
     // est langue nationale du NIGER (charte de la refondation du 26 mars 2025, art. 12), le sango
@@ -201150,7 +201169,10 @@
   // LANGUE DE CONTACT officielle du territoire (LOCALE_FALLBACK : espagnol du Guatemala pour le k'iche',
   // danois du Groenland pour le groenlandais, russe pour les langues des républiques de Russie…),
   // jamais le français par défaut ; le français ne reste qu'en tout dernier recours.
-  var LOCALE_FLAG_REGION = { occitania: 'FR', amazigh: 'MA' };
+  // 'arab-league' : la Ligue arabe n'est pas un pays. Le drapeau affiché n'en met aucun en avant, mais il
+  // FAUT quand même une région ici, sinon la locale retombe sur « ar » nu et les mois changent de forme.
+  // L'Arabie saoudite est retenue (choix de l'utilisateur, 24/09/2026) : elle n'apparaît nulle part à l'écran.
+  var LOCALE_FLAG_REGION = { occitania: 'FR', amazigh: 'MA', 'arab-league': 'SA' };
   // Langues nationales aussi : les navigateurs à données réduites (vues web intégrées, certains Android) n'ont
   // parfois ni le basque, ni l'islandais, ni le géorgien… — repli sur la langue de contact la plus répandue du pays
   // (russe dans l'ex-URSS, anglais ailleurs à défaut de seconde langue officielle).
@@ -201229,7 +201251,7 @@
   // 'ca' (es-ct) -> ES, 'haw' (us-hi) -> US. Les collectivités françaises d'outre-mer sont rangées sous FR dans les
   // données (marquisien, tahitien : drapeau pf -> FR) ; drapeaux sans pays : occitan -> FR, amazighe -> MA.
   // Sert à faire passer les villes de ce pays en tête des suggestions de ville de départ.
-  var FLAG_COUNTRY = { occitania: 'FR', amazigh: 'MA', gp: 'FR', mq: 'FR', gf: 'FR', re: 'FR', yt: 'FR', nc: 'FR',
+  var FLAG_COUNTRY = { occitania: 'FR', amazigh: 'MA', 'arab-league': 'SA', gp: 'FR', mq: 'FR', gf: 'FR', re: 'FR', yt: 'FR', nc: 'FR',
     pf: 'FR', wf: 'FR', pm: 'FR', bl: 'FR', mf: 'FR' };
   function langCountry(code){
     var flag = LANG_FLAGS[code || lang] || '';
