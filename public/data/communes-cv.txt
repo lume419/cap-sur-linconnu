@@ -250,7 +250,6 @@
 0;-24.4064,14.8895;CV;;Monte Grande
 0;-24.3584,14.8723;CV;;Achada Furna
 1811;-23.5670,15.1490;CV-16;Santa Cruz;Cancelo
-1117;-23.6000,15.1992;CV-18;São Filipe;Ponta Verde
 401;-23.5063,15.1044;CV-16;Santa Cruz;Achada Ponta
 296;-23.7184,15.2249;CV-20;Tarrafal;Achada Longueira
 1138;-25.1650,17.1140;CV-07;Ribeira Grande;Garça de Cima

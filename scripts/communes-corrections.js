@@ -653,9 +653,33 @@ function regionLabel(country, admin1){
   return /^\d{5,}$/.test(String(admin1)) ? country : country + '-' + admin1;
 }
 // Filtre commun, appelé par chaque générateur sur chaque ligne du dump : true = lieu écarté.
+// 11. LE CODE ADMINISTRATIF CONTREDIT LES COORDONNÉES (24/09/2026). Une fiche dont le code de division dit une
+//    île et dont le point en dit une autre est fausse par l'un des deux bouts. Elle n'est écartée que lorsque
+//    le MÊME lieu existe déjà, correctement placé, sous le MÊME code : on retire alors un doublon corrompu,
+//    pas une information. Repérée par un crible géométrique : au Cap-Vert, les neuf îles ont des boîtes de
+//    coordonnées disjointes (CV_ISLAND_BOXES dans public/js/trip-data.js), et une seule fiche sur 2 780 s'y
+//    trouve en contradiction avec son concelho.
+const ADMIN_COORD_CONFLICT = [
+  // « Ponta Verde », concelho CV-18 (São Filipe), qui est sur FOGO. Deux fiches portent ce code : l'une à
+  // -24,4598 / 14,9820, sur Fogo, cohérente ; l'autre à -23,6000 / 15,1992, SUR SANTIAGO, à 80 km de là, avec
+  // une population voisine mais différente (1 117 contre 1 072). La longitude ronde (-23,6000) et l'écart de
+  // population désignent la seconde comme la fiche abîmée. C'est elle qui faisait se chevaucher les boîtes de
+  // Fogo et de Santiago, lesquelles sont mesurées sans elle.
+  { cc: 'CV', name: 'Ponta Verde', lat: 15.1992, lon: -23.6,
+    raison: 'concelho CV-18 (São Filipe, Fogo) mais coordonnées sur Santiago, à 80 km ; doublon de la fiche correcte à -24,4598 / 14,9820' },
+];
+// Comparaison au dix-millième de degré (~11 m) : la fiche visée est désignée sans risque d'en emporter une autre.
+function isAdminCoordConflict(country, name, lat, lon){
+  for(var i = 0; i < ADMIN_COORD_CONFLICT.length; i++){
+    var e = ADMIN_COORD_CONFLICT[i];
+    if(e.cc === country && e.name === name && Math.abs(e.lat - lat) < 1e-4 && Math.abs(e.lon - lon) < 1e-4) return true;
+  }
+  return false;
+}
 function excludePlace(country, geonameid, name, lat, lon){
   return isWrongCountry(country, geonameid) || isJunkId(country, geonameid) || HISTORICAL_NAME_RE.test(name || '') || isJunkName(name) ||
-    isProjectBatch(country, geonameid) || isAntarcticUnderAR(country, lat) || isSark(country, lat, lon) || isPlaceholderCoord(lat, lon, geonameid);
+    isProjectBatch(country, geonameid) || isAntarcticUnderAR(country, lat) || isSark(country, lat, lon) || isPlaceholderCoord(lat, lon, geonameid) ||
+    isAdminCoordConflict(country, name, lat, lon);
 }
 
 // 7. LETTRES D'UN AUTRE ALPHABET GLISSÉES DANS UN MOT (audit n° 11) — « Áno Tripοdo » (omicron grec au milieu d'un nom
@@ -981,6 +1005,13 @@ const IGN_COORD_FIXES = {
   // sur la bonne masse terrestre — mais un CENTROÏDE posé loin de la population, sur la partie déserte. Le
   // crible des 170 communes d'outre-mer hors Polynésie n'a trouvé que ces deux-là ; ailleurs, les communes
   // multi-îles ont toutes leur point sur l'île habitée.
+  // La commune de Rangiroa couvre l'atoll de Rangiroa (80 km de long, 2 785 hab.) et ceux de Tikehau, Mataiva
+  // et Makatea. Le point officiel, -15,1921 / -147,8597, est à l'extrémité SUD-OUEST de l'atoll, à 35 km de
+  // TIPUTA, son chef-lieu, et d'Avatoru : les deux villages, où vit l'essentiel de la population, sont au NORD.
+  // Contrairement aux dix premières entrées, le point n'était pas sur une île fausse — c'est un centroïde d'un
+  // atoll géant, comme Ouvéa et Miquelon-Langlade ; il rejoint la même règle, le point va où vivent les gens.
+  'Rangiroa|987': { lat: -14.9761, lon: -147.6250,
+    source: 'https://en.wikipedia.org/wiki/Tiputa (14°58′34″S 147°37′30″O, chef-lieu de la commune)' },
   // La commune d'Ouvéa couvre l'atoll (croissant de 35 km, trois districts : Saint-Joseph, Fayaoué, Mouli) et
   // les îlots Beautemps-Beaupré. Le point officiel est à 28 km de la référence de l'île, à l'extrémité nord,
   // vers les îlots Pléiades, quand les 3 162 habitants vivent le long du croissant.
@@ -1010,4 +1041,4 @@ function fixIgnCoord(nom, dept){
 module.exports = { NAME_FIXES, fixName, LOST_CHARS_RE, WRONG_COUNTRY, isWrongCountry, HISTORICAL_NAME_RE, EDITOR_COMMENT_NAME_RE, PLACEHOLDER_NAMES,
   PLACEHOLDER_QUALIFIED_RE, JUNK_IDS, isJunkId, LOCAL_SCRIPT_DUPLICATES, SAME_POINT_DUPLICATES, INPUT_SYMBOL_RE, ALIAS_REPAIR_REJECT, repairAliasTypography, repairAliasLoose,
   BROKEN_BRACKET_RE, hasUnbalancedParen, UNDERSCORE_RE, PROJECT_BATCH, isProjectBatch, isJunkName, ANTARCTIC_TREATY_LAT, isAntarcticUnderAR, SARK_BOX, isSark, isPlaceholderCoord, PLACEHOLDER_COORD_OK, regionLabel, excludePlace,
-  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates, IGN_COORD_FIXES, fixIgnCoord };
+  fixMixedScript, hasMixedScriptWord, aliasLangFromScript, SCRIPT_ONE_LANG, SCRIPT_MANY_LANGS, cleanPlaceName, preparePlaceName, dropNearDuplicates, ADMIN_COORD_CONFLICT, isAdminCoordConflict, IGN_COORD_FIXES, fixIgnCoord };

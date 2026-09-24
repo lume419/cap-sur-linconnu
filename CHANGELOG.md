@@ -116,6 +116,29 @@ marqués `[à vérifier]` et listés en fin de fichier.
   des zones à tension, et dans le PDF — y compris dans le texte de secours du serveur. Elle est tue pour le vélo :
   sa classe de ferry est déjà `foot`, la phrase y serait fausse. Six mutants (drapeau ignoré, classe inversée,
   ligne retirée, phrase vidée, phrase retirée du PDF, drapeau retiré du corps envoyé) sont tous tués par les tests.
+- **« Ponta Verde » était publiée deux fois, dont une sur la mauvaise île — et c'est la seule du Cap-Vert.**
+  Les deux fiches portent le concelho **CV-18 (São Filipe, sur Fogo)** : l'une à -24,4598 / 14,9820, sur Fogo,
+  cohérente ; l'autre à **-23,6000 / 15,1992, SUR SANTIAGO**, à 80 km de son propre concelho, avec une
+  population voisine mais différente (1 117 contre 1 072). La longitude ronde et l'écart de population
+  désignent la seconde comme la fiche abîmée. C'est elle qui faisait se chevaucher les boîtes de Fogo et de
+  Santiago.
+  - **Nouvelle catégorie d'exclusion** dans `scripts/communes-corrections.js` : « le code administratif
+    contredit les coordonnées ». Elle n'écarte une fiche que lorsque le MÊME lieu existe déjà, correctement
+    placé, sous le MÊME code — on retire un doublon corrompu, jamais une information. La comparaison se fait au
+    dix-millième de degré (~11 m), pour désigner la fiche visée sans risque d'en emporter une autre.
+  - **Le crible est complet pour le Cap-Vert, et il ne trouve qu'elle.** Les neuf boîtes d'îles étant
+    disjointes, chaque fiche peut être confrontée à son concelho : **une seule des 2 780 est en contradiction**.
+    La régénération de `communes-cv.txt` ne retire que cette ligne, et aucun des douze autres pays du lot
+    Afrique de l'Ouest ne bouge.
+  - Les boîtes sont recalculées sans elle et **arrondies vers l'EXTÉRIEUR** : 19 lieux côtiers tombaient hors de
+    leur propre boîte par un arrondi trop serré. Aucun n'en sort désormais, et elles restent disjointes.
+- **Rangiroa rejoint la règle du point : il va où vivent les gens.** Son point officiel, -15,1921 / -147,8597,
+  est à l'extrémité **sud-ouest** de l'atoll — à 35 km de **Tiputa**, son chef-lieu, et d'Avatoru, les deux
+  villages du **nord** où vit l'essentiel des 2 785 habitants. Signalée le 24/09/2026 comme centroïde d'un atoll
+  de 80 km, donc pas une île fausse, elle est corrigée au même titre qu'Ouvéa et Miquelon-Langlade.
+  `IGN_COORD_FIXES` compte **treize entrées**, et plus aucune commune polynésienne n'est à plus de 25 km de sa
+  population.
+- `compare-engine` sur ces deux points : **0 tirage changé sur 380**, 0 trajet direct, 0 plafond d'hébergement.
 - **Le test du fil perdu échouait quand la machine était trop RAPIDE.** Il règle `PDF_REPONSE_MAX_MS` à 1 200 ms
   et suppose que le fil de travail mette plus longtemps à composer le PDF, pour forcer le repli qu'il veut
   mesurer ; quand le fil répondait avant, sa propre assertion disait « ce test suppose un repli » et la suite

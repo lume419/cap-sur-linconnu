@@ -4253,21 +4253,22 @@
     // REPLI de coordonnées quand le code de concelho manque (24/09/2026). 22 lieux publiés du Cap-Vert ne portent
   // aucun code — leur champ vaut « CV », le code pays — et retombaient tous dans « capeVerdeOther », coupés de
   // leur île alors qu'ils sont à moins de 2 km d'un lieu déjà classé. Ces boîtes sont MESURÉES sur les lieux que
-  // le code classe déjà, sans marge : elles sont disjointes deux à deux, et chacun des 22 tombe dans une seule
+  // le code classe déjà, arrondies au millième VERS L'EXTÉRIEUR pour qu'aucun lieu ne tombe hors de sa
+  // propre boîte, et sans marge au-delà : elles restent disjointes deux à deux, et chacun des 22 tombe dans une seule
   // (Santiago 10, Fogo 6, São Vicente 3, Santo Antão 1, Sal 1, Maio 1 — la même répartition que le plus proche
   // voisin). Sans marge à dessein : São Vicente et Santo Antão ne sont séparées que par un canal de 10 km, et un
   // lieu hors de toute boîte doit retomber sur le fourre-tout plutôt que d'être rattaché au jugé.
   // [latMin, latMax, lonMin, lonMax]
   var CV_ISLAND_BOXES = {
-    boaVista: [15.979, 16.223, -22.942, -22.679],
-    brava: [14.825, 14.892, -24.736, -24.675],
-    fogo: [14.834, 15.048, -24.500, -24.284],
-    maio: [15.128, 15.300, -23.228, -23.101],
-    sal: [16.596, 16.851, -22.983, -22.893],
-    santiago: [14.907, 15.316, -23.768, -23.442],
-    santoAntao: [16.913, 17.202, -25.334, -24.974],
-    saoNicolau: [16.547, 16.675, -24.411, -24.040],
-    saoVicente: [16.746, 16.903, -25.070, -24.745]
+    boaVista: [15.979, 16.223, -22.942, -22.678],
+    brava: [14.824, 14.892, -24.737, -24.675],
+    fogo: [14.834, 15.048, -24.500, -24.283],
+    maio: [15.127, 15.301, -23.229, -23.101],
+    sal: [16.596, 16.852, -22.984, -22.892],
+    santiago: [14.906, 15.316, -23.769, -23.442],
+    santoAntao: [16.913, 17.202, -25.334, -24.973],
+    saoNicolau: [16.546, 16.675, -24.412, -24.040],
+    saoVicente: [16.746, 16.904, -25.071, -24.745]
   };
   var CV_CONCELHO_TO_ISLAND = {
       'CV-07': 'santoAntao', 'CV-05': 'santoAntao', 'CV-21': 'santoAntao',
