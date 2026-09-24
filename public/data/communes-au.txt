@@ -2428,7 +2428,7 @@
 29;142.4500,-35.4500;3488;Victoria;Turriff
 73;149.8849,-30.4642;2390;New South Wales;Turrawan
 11690;151.1285,-33.7334;2074;New South Wales;Turramurra
-2183;150.1332,-36.0533;2630;New South Wales;Tuross Head
+2183;150.1332,-36.0533;;New South Wales;Tuross Head
 73;149.6167,-33.0833;2795;New South Wales;Turondale
 0;143.0500,-35.1667;3546;Victoria;Turoar
 251;147.1311,-41.2666;7267;Tasmania;Turners Marsh
@@ -2660,7 +2660,7 @@
 6;152.4167,-28.2833;4373;Queensland;The Head
 154;150.1833,-27.3333;4406;Queensland;The Gums
 0;151.4833,-29.3167;2365;New South Wales;The Gulf
-0;152.4167,-24.8167;4051;Queensland;The Grange
+0;152.4167,-24.8167;;Queensland;The Grange
 0;147.0652,-41.1719;7252;Tasmania;The Glen
 0;152.0167,-32.7333;2319;New South Wales;The Gibbers
 0;149.7167,-34.6333;2580;New South Wales;The Forest
@@ -2908,7 +2908,7 @@
 282;145.7500,-36.8500;3666;Victoria;Strathbogie
 0;151.4833,-29.4667;2371;New South Wales;Strathbogie
 129;146.9705,-43.3341;7109;Tasmania;Strathblane
-139;144.7500,-36.2500;3622;Victoria;Strathallan
+139;144.7500,-36.2500;;Victoria;Strathallan
 2509;147.0826,-37.9634;3862;Victoria;Stratford
 143;151.9333,-32.1167;2422;New South Wales;Stratford
 84;144.1167,-37.1500;3461;Victoria;Strangways
@@ -3217,7 +3217,7 @@
 412;147.4927,-42.0308;7209;Tasmania;Ross
 210;147.8626,-35.6731;2652;New South Wales;Rosewood
 331;147.0043,-41.3243;7277;Tasmania;Rosevears
-70;150.8096,-34.7235;2630;New South Wales;Rose Valley
+70;150.8096,-34.7235;;New South Wales;Rose Valley
 115;146.9333,-41.4167;7292;Tasmania;Rosevale
 195;152.4852,-27.8701;4340;Queensland;Rosevale
 0;152.1833,-32.3833;2423;New South Wales;Rosenthall
@@ -4291,7 +4291,7 @@
 0;146.3333,-18.9833;4816;Queensland;Moongobulla
 116;150.4000,-23.6000;4714;Queensland;Moongan
 209;151.0333,-24.7667;4630;Queensland;Moonford
-1985;153.1529,-30.2057;2259;New South Wales;Moonee Beach
+1985;153.1529,-30.2057;;New South Wales;Moonee Beach
 72;152.6846,-31.0402;2440;New South Wales;Mooneba
 60;152.0000,-26.2333;4605;Queensland;Moondooner
 42;146.3667,-38.0167;3825;Victoria;Moondarra
@@ -4357,7 +4357,7 @@
 105;148.6833,-32.0667;2830;New South Wales;Mogriguy
 0;152.0333,-32.0333;2422;New South Wales;Mograni Creek
 0;148.2833,-33.9333;2810;New South Wales;Mogongong
-316;150.1417,-35.7848;2850;New South Wales;Mogo
+316;150.1417,-35.7848;;New South Wales;Mogo
 24;145.5333,-36.6500;3666;Victoria;Moglonemby
 0;148.6857,-29.3587;;New South Wales;Mogil Mogil
 69;149.5846,-36.6985;2550;New South Wales;Mogilla
@@ -4933,7 +4933,7 @@
 0;145.6667,-26.1333;4470;Queensland;Langlo Crossing
 51;152.5616,-31.7800;2426;New South Wales;Langley Vale
 40;144.5000,-37.1500;3444;Victoria;Langley
-0;150.4517,-23.4655;4630;Queensland;Langley
+0;150.4517,-23.4655;;Queensland;Langley
 102;141.0333,-37.1000;3318;Victoria;Langkoop
 25;142.9256,-37.3922;3377;Victoria;Langi Logan
 0;148.7667,-21.1000;4754;Queensland;Langdon
@@ -5735,7 +5735,7 @@
 190;146.7504,-41.0848;7270;Tasmania;Greens Beach
 155;153.1231,-28.8969;2471;New South Wales;Greenridge
 158;153.0871,-28.4789;2474;New South Wales;Green Pigeon
-689;151.9008,-27.7858;4225;Queensland;Greenmount
+689;151.9008,-27.7858;;Queensland;Greenmount
 0;149.1000,-33.9333;2583;New South Wales;Greenmantle
 171;151.1833,-32.3833;2330;New South Wales;Greenland
 0;142.3000,-36.7833;3401;Victoria;Green Lakes
@@ -8484,7 +8484,7 @@
 0;136.4614,-13.9803;0822;Northern Territory;Angurugu Community, Anindilyakwa
 448;146.0965,-17.8295;4852;Queensland;Bingil Bay
 1054;150.4695,-23.5705;4702;Queensland;Bouldercombe
-1555;150.6256,-33.5719;2800;New South Wales;Bowen Mountain
+1555;150.6256,-33.5719;;New South Wales;Bowen Mountain
 1350;142.1735,-34.1707;2739;New South Wales;Buronga
 97;148.3788,-35.9373;2629;New South Wales;Cabramurra
 774;145.4457,-38.4391;3984;Victoria;Coronet Bay
@@ -9857,7 +9857,7 @@
 0;149.4239,-33.2015;2795;New South Wales;Warra Creek
 0;149.3990,-33.2865;2795;New South Wales;Combogolong
 0;149.3637,-33.4455;2799;New South Wales;Carawatha
-0;149.2635,-33.3433;2630;New South Wales;Springfield
+0;149.2635,-33.3433;;New South Wales;Springfield
 0;149.2110,-33.4894;2799;New South Wales;Polona Loop
 0;149.4406,-33.6452;2795;New South Wales;Kilbournie
 44;149.3909,-33.7284;2795;New South Wales;Arkell
@@ -9898,7 +9898,7 @@
 0;149.6453,-35.5310;2622;New South Wales;Mount Elrington
 0;149.9467,-35.5062;2622;New South Wales;Cirrajugg
 0;149.7834,-35.3681;2622;New South Wales;Coolavin
-0;149.8863,-35.3166;2536;New South Wales;Woodlands
+0;149.8863,-35.3166;;New South Wales;Woodlands
 0;149.5392,-35.2671;2622;New South Wales;Broadlands
 0;149.8480,-35.2210;2622;New South Wales;Virginia
 151;149.9622,-35.1665;2622;New South Wales;Oallen
@@ -9976,7 +9976,7 @@
 0;150.1337,-34.2045;2787;New South Wales;Tomat Creek
 405;150.3012,-34.3652;2575;New South Wales;High Range
 0;150.0318,-34.4253;2580;New South Wales;Wanina
-123;150.2823,-34.4916;2820;New South Wales;Medway
+123;150.2823,-34.4916;;New South Wales;Medway
 0;150.4780,-34.5622;2577;New South Wales;Calwalla
 0;150.0911,-34.9547;2622;New South Wales;Touga
 0;150.1150,-35.0903;2622;New South Wales;Wiluna
@@ -11839,7 +11839,7 @@
 140;152.3840,-27.0417;4313;Queensland;Braemore
 221;143.8528,-37.4658;3352;Victoria;Sulky
 156;153.2658,-28.7128;2480;New South Wales;Keerrong
-72;152.4997,-25.6988;4570;Queensland;St Mary
+72;152.4997,-25.6988;;Queensland;St Mary
 500;152.6709,-25.5885;4650;Queensland;Tinana South
 127;150.2206,-34.4217;2575;New South Wales;Joadja
 57;147.3821,-43.2298;7150;Tasmania;Great Bay
@@ -12885,7 +12885,7 @@
 21;149.1289,-35.8469;2626;New South Wales;Bumbalong
 27;149.6771,-32.7401;2850;New South Wales;Queens Pinch
 15;122.1751,-33.4612;6447;Western Australia;Wittenoom Hills
-36;146.1925,-36.6368;3875;Victoria;Upper Ryans Creek
+36;146.1925,-36.6368;;Victoria;Upper Ryans Creek
 37;118.3248,-34.5457;6328;Western Australia;Kojaneerup South
 7;115.9745,-33.4687;6236;Western Australia;Wellington Forest
 28;147.4487,-26.7650;4467;Queensland;Mungallala South
@@ -13806,7 +13806,7 @@
 0;153.4690,-28.5711;2482;New South Wales;Longfield
 0;153.4744,-28.5748;2482;New South Wales;Pulpit Hill
 0;153.4227,-28.5727;2482;New South Wales;Arcadia
-0;153.4457,-28.5973;2370;New South Wales;Mountain Spring Dairy
+0;153.4457,-28.5973;;New South Wales;Mountain Spring Dairy
 0;153.3505,-28.6844;2480;New South Wales;Silver Lining
 0;153.2904,-28.6916;2480;New South Wales;Shreydon
 0;153.3021,-28.6954;2480;New South Wales;The Haven

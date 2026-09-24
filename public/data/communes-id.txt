@@ -76619,7 +76619,7 @@
 0;108.3158,-6.3400;45224;West Java;Terusan Lor
 0;108.3242,-6.3286;45211;West Java;Lemahabang Empat
 0;108.3147,-6.2761;45229;West Java;Pancer Satu
-0;108.3081,-6.3094;16125;West Java;Kebon Kelapa
+0;108.3081,-6.3094;;West Java;Kebon Kelapa
 0;108.3061,-6.3172;45223;West Java;Wanantara Timur
 0;108.2728,-6.3408;45365;West Java;Dirjan
 0;108.2714,-6.3400;45365;West Java;Dampiang

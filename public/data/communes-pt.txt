@@ -2069,7 +2069,7 @@
 0;-8.7492,39.2238;2005-080;Santarém;Pinheirinho
 0;-8.6677,37.1357;8600-254;Lagos;Pinheiral
 0;-8.4447,39.3245;2300-421;Tomar;Pinhão
-23510;-8.9138,38.6311;7570-701;Grândola;Pinhal Novo
+23510;-8.9138,38.6311;;Grândola;Pinhal Novo
 0;-8.4698,39.6826;2305-619;Tomar;Pinhal
 0;-9.0167,39.5500;2460-302;Alcobaça;Pinhal
 0;-9.1630,39.3547;2510-137;Óbidos;Pinhal

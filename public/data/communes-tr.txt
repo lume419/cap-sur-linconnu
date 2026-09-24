@@ -2864,7 +2864,7 @@
 274;32.9256,39.3444;06720;Bala;Gülbağı
 0;40.8667,38.6500;21900;Kulp;Tıraret
 0;43.8667,37.8333;65600;Başkale;Tiranis
-0;35.7701,38.5318;99655;Gazimağusa;İncirli
+0;35.7701,38.5318;;Gazimağusa;İncirli
 0;27.1667,38.1000;35470;Menderes(Cumaovasi);Tıraça
 0;39.6823,37.9842;21950;Ergani;Bitici
 0;35.4029,39.9702;66500;Çekerek;Tipideresi
@@ -3631,7 +3631,7 @@
 0;33.2047,38.2262;42290;Karatay;Sürüç
 101178;38.4253,36.9761;63800;Suruç;Suruç
 0;39.4167,39.4333;62900;Ovacik;Sürü
-0;35.2862,38.5783;99655;Gazimağusa;Sürtme
+0;35.2862,38.5783;;Gazimağusa;Sürtme
 0;42.7667,38.1000;65710;Bahçesaray;Sürs
 0;43.5175,39.4961;04900;Diyadin;Sürmelikoç
 0;40.0089,39.0988;12650;Yayladere;Sürmelikoç
@@ -12343,7 +12343,7 @@
 0;43.3833,38.0167;65450;Erciş;İspindar
 0;37.5677,38.5069;44740;Darende;Akçatoprak
 391;32.1756,36.4400;07400;Alanya;İspatlı
-172334;30.5522,37.7644;33080;Toroslar;Isparta
+172334;30.5522,37.7644;;Toroslar;Isparta
 0;39.8559,38.9194;62800;Mazgirt;Sökücek
 0;30.8806,39.4683;26800;Mahmudiye;İsmetpaşa
 0;28.3917,38.4619;45600;Alaşehir;İsmetiye
@@ -20618,7 +20618,7 @@
 0;41.6166,39.6916;25560;Tekman;Beyköy
 0;29.4782,39.5685;43300;Tavşanli;Beyköy
 0;27.6270,39.4777;10580;Savaştepe;Beyköy
-0;29.9153,39.2143;20600;Çivril;Esenköy
+0;29.9153,39.2143;;Çivril;Esenköy
 0;31.0550,39.1229;03600;Emirdağ;Beyköy
 45;30.4661,39.0461;03370;İhsaniye;Beyköy
 0;31.3822,38.0594;32800;Şarkikaraağaç;Beyköy
@@ -39585,7 +39585,7 @@
 0;27.3482,38.6581;45140;Yunusemre;Evrenos
 441;32.8889,39.8000;06700;Çankaya;Yaylabağ
 0;27.2863,38.5747;35040;Bornova;Gökçeler
-0;27.2855,38.5006;45750;Gördes;Çiçekli
+0;27.2855,38.5006;;Gördes;Çiçekli
 0;27.3312,38.5600;35040;Bornova;Karakoca
 0;32.4730,39.9067;06890;Kizilcahamam;Tatlar
 0;32.5370,39.8700;06365;Altindağ;Çiçektepe

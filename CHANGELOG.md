@@ -143,6 +143,54 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **CRIBLE CALIBRÉ PAR PAYS : 169 codes postaux effacés de plus, dans treize pays.** La première passe supposait
+  un préfixe de DEUX caractères partout. Faux dans les deux sens, et vérifié : **Poltava porte 36000, son VRAI
+  code** — ses voisins en 38xxx sont dans la même oblast, qui couvre 36xxx à 39xxx — tandis que **Grozny porte
+  385798 quand toute sa région est en 36xxxx**. Deux caractères, c'est exact en Espagne, trop fin en Ukraine,
+  trop grossier en Russie.
+  - **Calibrage, sans aucune table de référence.** Pour chaque longueur L, on demande à chaque lieu si le préfixe
+    MAJORITAIRE de ses voisins à 12 km est le sien ; la part de oui est la COHÉRENCE de L. On garde le préfixe le
+    plus FIN dont la cohérence reste à moins de **cinq points** de celle du plus GROSSIER, chaque pays étant ainsi
+    jugé à son propre étalon. Longueurs retenues : 1 pour 26 pays, 2 pour 21, 3 pour 5, 4 pour 1.
+  - **Deux règles plus simples ont été essayées et écartées**, et leurs contre-exemples sont gardés parce qu'ils
+    expliquent la troisième : « le plus grand L au-dessus de 0,97 » écartait l'**Espagne** (L2 = 0,960), où deux
+    chiffres valent pourtant une province — le niveau de cohérence ne veut rien dire en soi, un lieu de frontière
+    a légitimement une majorité de voisins d'à côté ; et « le L qui précède la plus forte chute » donnait **L = 4**
+    à l'Espagne, la courbe décroissant sans fin. La marge de cinq points n'est pas libre : à six, l'Ukraine
+    repasse à L = 2 et le bruit revient.
+  - **GARDE INDISPENSABLE, trouvée en lisant des suspects zambiens : pour 143 pays sur 239, ce champ ne contient
+    pas un code postal mais l'identifiant de RÉGION ISO** (« ZM-08 », « BO-05 »), que le générateur y écrit faute
+    de fichier postal. Y faire tourner ce crible revient à tester la région sous couvert du code, et l'effacer y
+    détruirait la seule étiquette de région dont ces fiches disposent. Sans cette garde : **935 suspects**, dont
+    l'essentiel venait de ces pays. Avec elle : **301**, sur les 53 pays réellement calibrables.
+  - **Arbitrage des 301 par la carte** (géocodage inverse, une requête par seconde, zoom 14 puis 18) : **180 codes
+    contredits, 16 fiches innocentées, 5 sans verdict clair, 100 indécises.**
+  - **Onze des 180 ont été écartées À LA MAIN, chacune pour une raison nommée.** **Sacramento (94203)** et
+    **Holtsville (00501)** portent des codes RÉELS et valides — ceux des boîtes postales de l'État de Californie
+    et du fisc fédéral ; **Kalamunda (6926)** et **Manchester Square (1209)** tombent dans des plages australiennes
+    de boîtes postales. Ni le crible ni la carte ne distinguent « code d'ailleurs » de « autre code du même
+    endroit » : les effacer aurait détruit une donnée juste. L'**Algérie** (3) sort parce qu'Assi Bou Nif oppose
+    318 à 310, deux sous-zones du MÊME wilaya d'Oran — le calibrage y a retenu L = 3, trop fin ; la **Géorgie** (3)
+    parce que sa cohérence est plate au-delà de L2 (0,886 partout), donc son L = 4 n'apporte rien. **Campiña**
+    reste écartée comme cas inverse.
+  - **Un filtre automatique a été tenté pour ces cas, puis ABANDONNÉ** : mesurer la distance au lieu le plus proche
+    portant le même préfixe. Il est **plafonné par construction**, le crible exigeant déjà qu'aucun voisin à 12 km
+    ne partage ce préfixe — minimum mesuré 12,1 km. Il ne sépare rien, et le dire vaut mieux que de s'en remettre
+    à lui.
+  - **Cinq pays ne peuvent pas être régénérés fidèlement, et c'est une limite à part entière** : leur régénération
+    change des milliers d'étiquettes de région étrangères au sujet — **Russie 173 477 lignes**, Australie 13 036,
+    Costa Rica 4 425, Arménie 1 120, Uruguay 554. Leur fichier postal est présent et le générateur y prend la
+    région au POINT POSTAL, qui porte le raïon en capitales cyrilliques là où le fichier publié porte l'oblast.
+    La correction leur a donc été appliquée **directement au fichier publié**, sur ce seul champ, comme le projet
+    l'avait fait pour la Suède ; l'entrée reste dans `CP_CONTREDIT` pour qu'une régénération future la reproduise.
+  - **Bilan : 169 codes effacés, aucun changement hors du champ postal, aucun fichier au nombre de lignes modifié.**
+    Répartition : Ukraine 96, Russie 38, Australie 15, Inde 6, Turquie 5, Uruguay 2, et une fiche pour le
+    Portugal, l'Arménie, la Roumanie, le Costa Rica, la Tchéquie, l'Indonésie et la Tunisie.
+  - `CP_CONTREDIT` passe de 30 à **199 entrées**, et les tests suivent : les **20 fiches à protéger** (16 innocentées
+    par la carte, 4 écartées à la main) entrent dans `CP_ÉPARGNÉS`, et les **199 masses terrestres** sont figées une
+    à une. Le test comparait le champ publié en entier alors qu'il peut porter **plusieurs codes** — Gyumri en
+    compte treize : il compare désormais le premier, celui que retiennent les tables.
+
 - **Le crible des AGRÉGATS par la population a ÉCHOUÉ — et c'est le code postal qui a pris le relais.**
   Signature cherchée, celle de Campiña : une population énorme posée au milieu de villages (≥ 10 000 habitants
   et au moins dix fois la somme du voisinage à 25 km). Il a sorti **sept vraies villes** — Zaragoza, Córdoba,

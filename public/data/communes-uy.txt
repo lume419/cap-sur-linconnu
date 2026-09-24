@@ -182,7 +182,7 @@
 0;-54.3787,-32.7251;33000;Cerro Largo;Puntas del Parao
 0;-55.2000,-31.3167;40000;Rivera Department;Puntas de Corrales
 0;-56.9167,-31.6333;50000;Salto Department;Puntas de Cañas
-0;-56.7392,-34.4079;15600;San José Department;Puntas de Cañada Grande
+0;-56.7392,-34.4079;;San José Department;Puntas de Cañada Grande
 0;-57.3429,-31.8628;60000;Paysandú Department;Puntas del Buricayupí
 9277;-54.9338,-34.9475;20000;Maldonado;Punta del Este
 0;-56.1597,-34.9228;11300;Montevideo Department;Punta Carretas
@@ -310,7 +310,7 @@
 0;-54.3161,-34.2215;27000;Rocha Department;Parallé
 0;-57.7923,-31.3670;50000;Salto Department;Parada Herrería
 24047;-55.9584,-34.7172;15600;Canelones;Pando
-6597;-55.2358,-34.7787;30300;Maldonado;Pan de Azúcar
+6597;-55.2358,-34.7787;;Maldonado;Pan de Azúcar
 0;-57.6093,-31.0809;50000;Salto Department;Palomas
 2123;-57.8008,-33.5072;75500;Soriano;Palmitas
 0;-57.5167,-30.6833;55000;Artigas;Palma Sola

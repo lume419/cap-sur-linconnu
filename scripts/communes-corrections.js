@@ -843,6 +843,229 @@ const CP_CONTREDIT = [
   { cc: 'PL', name: "Kunów", lat: 49.6004, lon: 20.742 },   // 30-000 ; la carte donne 33-327 et ses 77 voisins sont tous en 33xx
   { cc: 'PL', name: "Szydlice", lat: 54.1199, lon: 17.9614 },   // 82-400 ; la carte donne 83-400 et ses 55 voisins sont tous en 83xx
   { cc: 'PL', name: "Grójec", lat: 50.6535, lon: 18.95 },   // 41-283 ; la carte donne 42-283 et ses 62 voisins sont tous en 42xx
+  // ---------------------------------------------------------------------------------------------------------
+  // SECONDE PASSE (24/09/2026), CRIBLE CALIBRÉ PAR PAYS — 169 fiches, treize pays.
+  //
+  // La première passe supposait un préfixe de DEUX caractères partout. Faux dans les deux sens, vérifié :
+  // POLTAVA porte 36000, son VRAI code, et ses voisins en 38xxx sont dans la même oblast (une oblast ukrainienne
+  // couvre 36xxx à 39xxx) ; tandis que GROZNY porte 385798 quand toute sa région est en 36xxxx. Deux caractères,
+  // c'est exact en Espagne, trop fin en Ukraine, trop grossier en Russie.
+  //
+  // CALIBRAGE, sans aucune table de référence. Pour chaque longueur L on demande à chaque lieu si le préfixe
+  // MAJORITAIRE de ses voisins à 12 km est le sien ; la part de oui est la COHÉRENCE de L. On garde le préfixe le
+  // plus FIN dont la cohérence reste à moins de cinq points de celle du plus GROSSIER — chaque pays jugé à son
+  // propre étalon. Deux règles plus simples ont été essayées et écartées, et leurs contre-exemples sont gardés :
+  //   - « le plus grand L au-dessus de 0,97 » écartait l'ESPAGNE (L2 = 0,960), où deux chiffres valent pourtant
+  //     une province : le niveau de cohérence ne veut rien dire en soi, un lieu de frontière a légitimement une
+  //     majorité de voisins d'à côté, et ce plancher dépend de la densité du pays ;
+  //   - « le L qui précède la plus forte chute » donnait L = 4 à l'Espagne : la courbe décroît sans fin, donc la
+  //     plus forte chute tombe toujours à la queue.
+  // La marge de cinq points n'est pas libre : à six, l'Ukraine repasse à L = 2 et le bruit revient.
+  //
+  // GARDE INDISPENSABLE, trouvée en lisant des suspects zambiens : pour 143 pays sur 239, ce champ ne contient
+  // PAS un code postal mais l'identifiant de RÉGION ISO (« ZM-08 », « BO-05 »), que le générateur y écrit faute
+  // de fichier postal. Y faire tourner ce crible revient à tester la région sous couvert du code, et l'effacer y
+  // détruirait la seule étiquette de région dont ces fiches disposent. Sans cette garde : 935 suspects, dont
+  // l'essentiel venait de ces pays. Avec elle : 301, sur les 53 pays réellement calibrables.
+  //
+  // ARBITRAGE des 301 par la CARTE (géocodage inverse, une requête par seconde, zoom 14 puis 18) : 180 codes
+  // contredits, 16 fiches INNOCENTÉES — la carte y confirme le code inscrit —, 5 sans verdict clair, 100 indécises.
+  //
+  // ONZE des 180 ont ensuite été ÉCARTÉES À LA MAIN, et chacune pour une raison nommée :
+  //   - SACRAMENTO (94203) et HOLTSVILLE (00501) : codes RÉELS et valides, ceux des boîtes postales de l'État de
+  //     Californie et du fisc fédéral. Ni le crible ni la carte ne distinguent « code d'ailleurs » de « autre code
+  //     du même endroit » ; les effacer aurait détruit une donnée juste.
+  //   - KALAMUNDA (6926) et MANCHESTER SQUARE (1209) : plages australiennes de boîtes postales, même raison.
+  //   - ALGÉRIE (3 fiches) : Assi Bou Nif oppose 318 à 310, deux sous-zones du MÊME wilaya d'Oran — le calibrage
+  //     y a retenu L = 3, trop fin. GÉORGIE (3 fiches) : cohérence plate au-delà de L2 (0,886 partout), donc le
+  //     L = 4 retenu n'apporte aucune information.
+  //   - CAMPIÑA : cas inverse déjà connu, protégé par tests/corrections.test.js.
+  // Un filtre automatique a été tenté pour ces cas — distance au lieu le plus proche portant le même préfixe —
+  // puis ABANDONNÉ : il est plafonné par construction, le crible exigeant déjà qu'aucun voisin à 12 km ne partage
+  // ce préfixe. Minimum mesuré 12,1 km. Il ne sépare rien, et le dire vaut mieux que de s'en remettre à lui.
+  // ---------------------------------------------------------------------------------------------------------
+  // Ukraine — 96 fiches, préfixe calibré à 1 caractère.
+  { cc: 'UA', name: "Lebedyn", lat: 50.5823, lon: 34.4826 },   // 28613 ; la carte donne 42200 et ses 28 voisins sont tous en 4
+  { cc: 'UA', name: "Stebnyk", lat: 49.301, lon: 23.552 },   // 77453 ; la carte donne 82172 et ses 30 voisins sont tous en 8
+  { cc: 'UA', name: "Trostyanets", lat: 50.4848, lon: 34.9657 },   // 19056 ; la carte donne 42600-42615 et ses 21 voisins sont tous en 4
+  { cc: 'UA', name: "Pyryatyn", lat: 50.2439, lon: 32.5203 },   // 80359 ; la carte donne 37000-37004 et ses 31 voisins sont tous en 3
+  { cc: 'UA', name: "Karlivka", lat: 49.4555, lon: 35.1349 },   // 27643 ; la carte donne 39500-39507 et ses 17 voisins sont tous en 3
+  { cc: 'UA', name: "Mykolaivka", lat: 48.8619, lon: 37.7683 },   // 19449 ; la carte donne 84180 et ses 20 voisins sont tous en 8
+  { cc: 'UA', name: "Hulyaypole", lat: 47.6668, lon: 36.2558 },   // 39036 ; la carte donne 70200-70205 et ses 26 voisins sont tous en 7
+  { cc: 'UA', name: "Mykhaylivka", lat: 47.2686, lon: 35.2221 },   // 60400 ; la carte donne 72000-72007 et ses 15 voisins sont tous en 7
+  { cc: 'UA', name: "Pivdenne", lat: 49.8813, lon: 36.0681 },   // 85293 ; la carte donne 62464 et ses 34 voisins sont tous en 6
+  { cc: 'UA', name: "Rokytne", lat: 51.2789, lon: 27.2171 },   // 60320 ; la carte donne 34200 et ses 15 voisins sont tous en 3
+  { cc: 'UA', name: "Talalaivka", lat: 50.9578, lon: 31.9209 },   // 20031 ; la carte donne 16651 et ses 28 voisins sont tous en 1
+  { cc: 'UA', name: "Vynohradivka", lat: 45.679, lon: 28.5757 },   // 32123 ; la carte donne 68733 et ses 6 voisins sont tous en 6
+  { cc: 'UA', name: "Sloboda", lat: 51.1981, lon: 33.6069 },   // 09250 ; la carte donne 41714 et ses 20 voisins sont tous en 4
+  { cc: 'UA', name: "Vepryk", lat: 50.3701, lon: 34.176 },   // 08531 ; la carte donne 37362 et ses 19 voisins sont tous en 3
+  { cc: 'UA', name: "Novodanylivka", lat: 46.6457, lon: 35.0249 },   // 28527 ; la carte donne 72520 et ses 13 voisins sont tous en 7
+  { cc: 'UA', name: "Rozumivka", lat: 47.7539, lon: 35.1394 },   // 07716 ; la carte donne 70424 et ses 11 voisins sont tous en 7
+  { cc: 'UA', name: "Novovodyane", lat: 47.429, lon: 34.6902 },   // 85017 ; la carte donne 71322 et ses 13 voisins sont tous en 7
+  { cc: 'UA', name: "Pishchane", lat: 51.5076, lon: 25.1673 },   // 27204 ; la carte donne 44565 et ses 15 voisins sont tous en 4
+  { cc: 'UA', name: "Bubnivska Slobidka", lat: 49.7026, lon: 31.7103 },   // 20240 ; la carte donne 19750 et ses 11 voisins sont tous en 1
+  { cc: 'UA', name: "Valeryanivka", lat: 47.6387, lon: 37.3812 },   // 64812 ; la carte donne 85754 et ses 21 voisins sont tous en 8
+  { cc: 'UA', name: "Brovarky", lat: 49.3693, lon: 32.9712 },   // 19712 ; la carte donne 39026 et ses 18 voisins sont tous en 3
+  { cc: 'UA', name: "Troianivka", lat: 51.3363, lon: 25.2853 },   // 30624 ; la carte donne 44622 et ses 11 voisins sont tous en 4
+  { cc: 'UA', name: "Sichove", lat: 46.6805, lon: 34.7876 },   // 28619 ; la carte donne 72513 et ses 17 voisins sont tous en 7
+  { cc: 'UA', name: "Sushky", lat: 49.1075, lon: 33.9302 },   // 19024 ; la carte donne 39152 et ses 36 voisins sont tous en 3
+  { cc: 'UA', name: "Kharkivtsi", lat: 50.2815, lon: 33.858 },   // 08433 ; la carte donne 37341 et ses 27 voisins sont tous en 3
+  { cc: 'UA', name: "Fediivka", lat: 49.6788, lon: 34.2032 },   // 27230 ; la carte donne 38412 et ses 54 voisins sont tous en 3
+  { cc: 'UA', name: "Luhovyky", lat: 50.2594, lon: 32.8298 },   // 07031 ; la carte donne 37122 et ses 21 voisins sont tous en 3
+  { cc: 'UA', name: "Yerkivtsi", lat: 49.9216, lon: 33.0046 },   // 08430 ; la carte donne 37810 et ses 28 voisins sont tous en 3
+  { cc: 'UA', name: "Severynivka", lat: 51.2506, lon: 25.6259 },   // 08039 ; la carte donne 44640 et ses 18 voisins sont tous en 4
+  { cc: 'UA', name: "Sokolivshchyna", lat: 50.1991, lon: 34.2995 },   // 07718 ; la carte donne 38104 et ses 39 voisins sont tous en 3
+  { cc: 'UA', name: "Dibrova", lat: 51.1556, lon: 27.979 },   // 59349 ; la carte donne 11023 et ses 24 voisins sont tous en 1
+  { cc: 'UA', name: "Kochubeyivka", lat: 50.2658, lon: 36.2384 },   // 20323 ; la carte donne 62313 et ses 41 voisins sont tous en 6
+  { cc: 'UA', name: "Didivshchyna", lat: 51.6566, lon: 33.3911 },   // 08514 ; la carte donne 41317 et ses 36 voisins sont tous en 4
+  { cc: 'UA', name: "Buzova Paskivka", lat: 49.5022, lon: 34.783 },   // 62026 ; la carte donne 38773 et ses 39 voisins sont tous en 3
+  { cc: 'UA', name: "Yaremivka", lat: 48.977, lon: 32.9991 },   // 64369 ; la carte donne 27534 et ses 19 voisins sont tous en 2
+  { cc: 'UA', name: "Skybyntsi", lat: 50.1916, lon: 32.6962 },   // 09813 ; la carte donne 37124 et ses 25 voisins sont tous en 3
+  { cc: 'UA', name: "Svystunivka", lat: 49.2563, lon: 34.7546 },   // 92642 ; la carte donne 39451 et ses 17 voisins sont tous en 3
+  { cc: 'UA', name: "Lavryky", lat: 49.6162, lon: 34.3684 },   // 09054 ; la carte donne 38715 et ses 51 voisins sont tous en 3
+  { cc: 'UA', name: "Shovkopliasy", lat: 49.3447, lon: 34.138 },   // 62338 ; la carte donne 39331 et ses 45 voisins sont tous en 3
+  { cc: 'UA', name: "Shakhove", lat: 49.8028, lon: 38.4895 },   // 85050 ; la carte donne 92123 et ses 28 voisins sont tous en 9
+  { cc: 'UA', name: "Derylove", lat: 49.0669, lon: 37.7288 },   // 64350 ; la carte donne 84450 et ses 16 voisins sont tous en 8
+  { cc: 'UA', name: "Zavitne", lat: 50.9358, lon: 25.4823 },   // 26615 ; la carte donne 45221 et ses 29 voisins sont tous en 4
+  { cc: 'UA', name: "Lisove", lat: 51.6667, lon: 26.4 },   // 07036 ; la carte donne 34141 et ses 11 voisins sont tous en 3
+  { cc: 'UA', name: "Yasenivka", lat: 50.9929, lon: 24.9461 },   // 32150 ; la carte donne 45120 et ses 37 voisins sont tous en 4
+  { cc: 'UA', name: "Vysochynivka", lat: 49.7068, lon: 39.5499 },   // 63431 ; la carte donne 92411 et ses 9 voisins sont tous en 9
+  { cc: 'UA', name: "Vyshniv", lat: 51.1977, lon: 24.0304 },   // 77063 ; la carte donne 44301 et ses 22 voisins sont tous en 4
+  { cc: 'UA', name: "Velykosillia", lat: 49.3946, lon: 22.822 },   // 60511 ; la carte donne 82074 et ses 29 voisins sont tous en 8
+  { cc: 'UA', name: "Tseniava", lat: 48.5518, lon: 25.1256 },   // 60010 ; la carte donne 78255 et ses 33 voisins sont tous en 7
+  { cc: 'UA', name: "Striletska Pushkarka", lat: 50.4397, lon: 35.4311 },   // 92650 ; la carte donne 42820 et ses 23 voisins sont tous en 4
+  { cc: 'UA', name: "Spivakivka", lat: 49.0525, lon: 38.9081 },   // 64351 ; la carte donne 93512 et ses 17 voisins sont tous en 9
+  { cc: 'UA', name: "Simianivka", lat: 51.1606, lon: 33.3587 },   // 38721 ; la carte donne 41656 et ses 27 voisins sont tous en 4
+  { cc: 'UA', name: "Rozhny", lat: 50.6669, lon: 30.735 },   // 31520 ; la carte donne 07412 et ses 11 voisins sont tous en 0
+  { cc: 'UA', name: "Prokhorivka", lat: 47.5268, lon: 37.6705 },   // 19023 ; la carte donne 85773 et ses 19 voisins sont tous en 8
+  { cc: 'UA', name: "Pokhuvka", lat: 48.8011, lon: 24.5988 },   // 60512 ; la carte donne 77716 et ses 39 voisins sont tous en 7
+  { cc: 'UA', name: "Pidluby", lat: 50.9231, lon: 27.7487 },   // 81066 ; la carte donne 11225 et ses 17 voisins sont tous en 1
+  { cc: 'UA', name: "Pidlisky", lat: 50.5784, lon: 26.4597 },   // 81373 ; la carte donne 35440 et ses 43 voisins sont tous en 3
+  { cc: 'UA', name: "Ploske", lat: 50.0448, lon: 37.3439 },   // 20762 ; la carte donne 62607 et ses 36 voisins sont tous en 6
+  { cc: 'UA', name: "Mykilske", lat: 49.5358, lon: 39.9594 },   // 84011 ; la carte donne 92510 et ses 16 voisins sont tous en 9
+  { cc: 'UA', name: "Nemyrivka", lat: 50.9907, lon: 28.7183 },   // 35563 ; la carte donne 11542 et ses 32 voisins sont tous en 1
+  { cc: 'UA', name: "Naraivka", lat: 50.8062, lon: 27.9048 },   // 77191 ; la carte donne 11242 et ses 28 voisins sont tous en 1
+  { cc: 'UA', name: "Nahoriany", lat: 51.3681, lon: 28.5367 },   // 60114 ; la carte donne 11131 et ses 47 voisins sont tous en 1
+  { cc: 'UA', name: "Moskalenky", lat: 51.0753, lon: 34.2745 },   // 09742 ; la carte donne 41841 et ses 49 voisins sont tous en 4
+  { cc: 'UA', name: "Mlyny", lat: 51.1376, lon: 28.6668 },   // 78416 ; la carte donne 11190 et ses 17 voisins sont tous en 1
+  { cc: 'UA', name: "Myrivka", lat: 47.7772, lon: 35.8813 },   // 31246 ; la carte donne 70153 et ses 34 voisins sont tous en 7
+  { cc: 'UA', name: "Mircha", lat: 50.6463, lon: 29.2792 },   // 07810 ; la carte donne 12231 et ses 27 voisins sont tous en 1
+  { cc: 'UA', name: "Litky", lat: 51.0507, lon: 28.421 },   // 07411 ; la carte donne 11325 et ses 26 voisins sont tous en 1
+  { cc: 'UA', name: "Lypyne", lat: 50.9098, lon: 27.3961 },   // 81057 ; la carte donne 11713 et ses 21 voisins sont tous en 1
+  { cc: 'UA', name: "Kotliarivka", lat: 47.1199, lon: 36.2535 },   // 63745 ; la carte donne 71200 et ses 19 voisins sont tous en 7
+  { cc: 'UA', name: "Komarivka", lat: 51.0701, lon: 26.3342 },   // 08020 ; la carte donne 35016 et ses 28 voisins sont tous en 3
+  { cc: 'UA', name: "Kobylianka", lat: 51.5715, lon: 31.5391 },   // 20536 ; la carte donne 15531 et ses 23 voisins sont tous en 1
+  { cc: 'UA', name: "Kyselivka", lat: 51.601, lon: 32.2213 },   // 20513 ; la carte donne 15640 et ses 22 voisins sont tous en 1
+  { cc: 'UA', name: "Zabiliany", lat: 48.6381, lon: 28.5599 },   // 19117 ; la carte donne 24220 et ses 25 voisins sont tous en 2
+  { cc: 'UA', name: "Grabovo", lat: 51.4383, lon: 23.6977 },   // 80719 ; la carte donne 44023 et ses 14 voisins sont tous en 4
+  { cc: 'UA', name: "Chystopillia", lat: 47.3712, lon: 35.6655 },   // 93500 ; la carte donne 71725 et ses 20 voisins sont tous en 7
+  { cc: 'UA', name: "Hlynianka", lat: 51.1351, lon: 24.1977 },   // 23017 ; la carte donne 44356 et ses 28 voisins sont tous en 4
+  { cc: 'UA', name: "Bystrytsia", lat: 49.2583, lon: 23.2251 },   // 32535 ; la carte donne 82190 et ses 26 voisins sont tous en 8
+  { cc: 'UA', name: "Brusivka", lat: 49.3303, lon: 39.4015 },   // 28645 ; la carte donne 92814 et ses 16 voisins sont tous en 9
+  { cc: 'UA', name: "Borysivka", lat: 46.7876, lon: 36.4093 },   // 27269 ; la carte donne 72151 et ses 6 voisins sont tous en 7
+  { cc: 'UA', name: "Berezhnytsia", lat: 49.4616, lon: 23.118 },   // 59217 ; la carte donne 81480 et ses 51 voisins sont tous en 8
+  { cc: 'UA', name: "Baranivka", lat: 50.8745, lon: 29.2201 },   // 32143 ; la carte donne 11618 et ses 35 voisins sont tous en 1
+  { cc: 'UA', name: "Sotniki", lat: 50.1853, lon: 36.1217 },   // 19415 ; la carte donne 62322 et ses 55 voisins sont tous en 6
+  { cc: 'UA', name: "Slobidske", lat: 49.3485, lon: 36.3915 },   // 20842 ; la carte donne 64123 et ses 32 voisins sont tous en 6
+  { cc: 'UA', name: "Rozhdestvenske", lat: 51.8908, lon: 33.8442 },   // 16260 ; la carte donne 41242 et ses 31 voisins sont tous en 4
+  { cc: 'UA', name: "Pidlissia", lat: 51.3127, lon: 23.6975 },   // 31036 ; la carte donne 44310 et ses 19 voisins sont tous en 4
+  { cc: 'UA', name: "Lonivka", lat: 50.9546, lon: 27.9455 },   // 81277 ; la carte donne 11212 et ses 19 voisins sont tous en 1
+  { cc: 'UA', name: "Illinske", lat: 51.3768, lon: 33.8308 },   // 07633 ; la carte donne 41508 et ses 55 voisins sont tous en 4
+  { cc: 'UA', name: "Hlyniane", lat: 50.9553, lon: 34.5813 },   // 27041 ; la carte donne 42304 et ses 57 voisins sont tous en 4
+  { cc: 'UA', name: "Prosika", lat: 50.8316, lon: 27.6543 },   // 60424 ; la carte donne 11234 et ses 24 voisins sont tous en 1
+  { cc: 'UA', name: "Zoria", lat: 50.5549, lon: 30.9467 },   // 20231 ; la carte donne 07452 et ses 21 voisins sont tous en 0
+  { cc: 'UA', name: "Sofiivka", lat: 50.7467, lon: 31.7987 },   // 07641 ; la carte donne 17150 et ses 35 voisins sont tous en 1
+  { cc: 'UA', name: "Step", lat: 50.7296, lon: 32.6733 },   // 07551 ; la carte donne 17311 et ses 23 voisins sont tous en 1
+  { cc: 'UA', name: "Vovkivka", lat: 49.1191, lon: 35.5852 },   // 20720 ; la carte donne 64041 et ses 25 voisins sont tous en 6
+  { cc: 'UA', name: "Yurivka", lat: 48.4255, lon: 36.6758 },   // 85194 ; la carte donne 52912 et ses 21 voisins sont tous en 5
+  { cc: 'UA', name: "Osykuvate", lat: 48.4049, lon: 33.7682 },   // 27662 ; la carte donne 52119 et ses 25 voisins sont tous en 5
+  { cc: 'UA', name: "Yabluniv", lat: 49.6865, lon: 31.4013 },   // 09130 ; la carte donne 19032 et ses 18 voisins sont tous en 1
+  { cc: 'UA', name: "Heronymivka", lat: 49.4517, lon: 31.9504 },   // 32010 ; la carte donne 19601 et ses 6 voisins sont tous en 1
+  // Russie — 38 fiches, préfixe calibré à 2 caractères.
+  { cc: 'RU', name: "Grozny", lat: 43.312, lon: 45.6889 },   // 385798 ; la carte donne 364022 et ses 11 voisins sont tous en 36
+  { cc: 'RU', name: "Mikhaylovka", lat: 50.0619, lon: 43.2334 },   // 412336 ; la carte donne 403343 et ses 10 voisins sont tous en 40
+  { cc: 'RU', name: "Izobil’nyy", lat: 45.3665, lon: 41.7091 },   // 347674 ; la carte donne 356141 et ses 12 voisins sont tous en 35
+  { cc: 'RU', name: "Konstantinovsk", lat: 47.5811, lon: 41.0934 },   // 352410 ; la carte donne 347250 et ses 9 voisins sont tous en 34
+  { cc: 'RU', name: "Tsentral’nyy", lat: 56.297, lon: 42.7887 },   // 155929 ; la carte donne 606087 et ses 18 voisins sont tous en 60
+  { cc: 'RU', name: "Malinovo", lat: 55.7483, lon: 38.8726 },   // 303659 ; la carte donne 142632 et ses 60 voisins sont tous en 14
+  { cc: 'RU', name: "Yelizavetino", lat: 57.6833, lon: 42.5833 },   // 141332 ; la carte donne 157900 et ses 11 voisins sont tous en 15
+  { cc: 'RU', name: "Viflyantsev", lat: 47.8953, lon: 41.5048 },   // 396721 ; la carte donne 347276 et ses 9 voisins sont tous en 34
+  { cc: 'RU', name: "Verkhniye Yaki", lat: 55.6904, lon: 51.0294 },   // 612931 ; la carte donne 422172 et ses 18 voisins sont tous en 42
+  { cc: 'RU', name: "Tenishevo", lat: 54.355, lon: 43.7599 },   // 422839 ; la carte donne 431273 et ses 30 voisins sont tous en 43
+  { cc: 'RU', name: "Stepnoy", lat: 46.6954, lon: 48.1783 },   // 352411 ; la carte donne 416150 et ses 18 voisins sont tous en 41
+  { cc: 'RU', name: "Stakhanovskiy", lat: 59.5487, lon: 48.835 },   // 301275 ; la carte donne 613750 et ses 7 voisins sont tous en 61
+  { cc: 'RU', name: "Sergiyevskoye", lat: 44.9516, lon: 42.7034 },   // 385637 ; la carte donne 356274 et ses 5 voisins sont tous en 35
+  { cc: 'RU', name: "Rozovka", lat: 51.098, lon: 47.1912 },   // 359066 ; la carte donne 413247 et ses 5 voisins sont tous en 41
+  { cc: 'RU', name: "Rodina", lat: 57.2833, lon: 59.3 },   // 453072 ; la carte donne 623036 et ses 5 voisins sont tous en 62
+  { cc: 'RU', name: "Progress", lat: 52.0627, lon: 42.2148 },   // 352212 ; la carte donne 393462 et ses 15 voisins sont tous en 39
+  { cc: 'RU', name: "Petrovskiy", lat: 50.7531, lon: 41.978 },   // 309547 ; la carte donne 403115 et ses 15 voisins sont tous en 40
+  { cc: 'RU', name: "Ozerki", lat: 53.59, lon: 47.938 },   // 429921 ; la carte donne 433781 et ses 10 voisins sont tous en 43
+  { cc: 'RU', name: "Gashkovo", lat: 60.0963, lon: 35.4914 },   // 187736 ; la carte donne 162468 et ses 11 voisins sont tous en 16
+  { cc: 'RU', name: "Nikol’skoye", lat: 51.6747, lon: 54.515 },   // 452444 ; la carte donne 460504 et ses 5 voisins sont tous en 46
+  { cc: 'RU', name: "Moiseyevka", lat: 54.0333, lon: 49.7667 },   // 607861 ; la carte donne 433528 et ses 7 voisins sont tous en 43
+  { cc: 'RU', name: "Lebyazh’ye", lat: 54.1167, lon: 49.6167 },   // 393474 ; la carte donne 433540 et ses 8 voisins sont tous en 43
+  { cc: 'RU', name: "Kiselëvka", lat: 56.7702, lon: 58.6144 },   // 617821 ; la carte donne 623040 et ses 7 voisins sont tous en 62
+  { cc: 'RU', name: "Blagodatka", lat: 53.0973, lon: 46.4264 },   // 393937 ; la carte donne 442501 et ses 11 voisins sont tous en 44
+  { cc: 'RU', name: "Araslambayevskiy", lat: 53.5419, lon: 59.6033 },   // 163020 ; la carte donne 457658 et ses 10 voisins sont tous en 45
+  { cc: 'RU', name: "Ternovskaya", lat: 47.7745, lon: 42.1688 },   // 352102 ; la carte donne 347316 et ses 8 voisins sont tous en 34
+  { cc: 'RU', name: "Internatsional’nyy", lat: 43.48, lon: 44.104 },   // 346473 ; la carte donne 361201 et ses 15 voisins sont tous en 36
+  { cc: 'RU', name: "Yachmeneva", lat: 57.8696, lon: 62.2274 },   // 617565 ; la carte donne 624683 et ses 16 voisins sont tous en 62
+  { cc: 'RU', name: "Stantsionnyy-Polevskoy", lat: 56.4412, lon: 60.3156 },   // 456653 ; la carte donne 623388 et ses 6 voisins sont tous en 62
+  { cc: 'RU', name: "Malinovka", lat: 55.8675, lon: 63.0106 },   // 452021 ; la carte donne 641756 et ses 6 voisins sont tous en 64
+  { cc: 'RU', name: "Georgiyevka", lat: 56.2752, lon: 88.6226 },   // 663643 ; la carte donne 652256 et ses 8 voisins sont tous en 65
+  { cc: 'RU', name: "Chernovskoye", lat: 54.9224, lon: 60.0621 },   // 680520 ; la carte donne 456388 et ses 5 voisins sont tous en 45
+  { cc: 'RU', name: "Berëzovo", lat: 55.2333, lon: 86.25 },   // 633574 ; la carte donne 650510 et ses 7 voisins sont tous en 65
+  { cc: 'RU', name: "Anyshtaikha", lat: 53.15, lon: 86.2 },   // 680700 ; la carte donne 659470 et ses 6 voisins sont tous en 65
+  { cc: 'RU', name: "Kamenushka", lat: 56.2043, lon: 60.4487 },   // 623375 ; la carte donne 456813 et ses 8 voisins sont tous en 45
+  { cc: 'RU', name: "Sotsposëlok", lat: 58.0929, lon: 56.2305 },   // 456656 ; la carte donne 614112 et ses 19 voisins sont tous en 61
+  { cc: 'RU', name: "Nikol’skiy", lat: 54.8415, lon: 44.1392 },   // 307233 ; la carte donne 607742 et ses 23 voisins sont tous en 60
+  { cc: 'RU', name: "Firyusikha", lat: 55.1929, lon: 42.1935 },   // 391561 ; la carte donne 607042 et ses 12 voisins sont tous en 60
+  // Australie — 15 fiches, préfixe calibré à 2 caractères.
+  { cc: 'AU', name: "Tuross Head", lat: -36.0533, lon: 150.1332 },   // 2630 ; la carte donne 2537 et ses 8 voisins sont tous en 25
+  { cc: 'AU', name: "Moonee Beach", lat: -30.2057, lon: 153.1529 },   // 2259 ; la carte donne 2450 et ses 10 voisins sont tous en 24
+  { cc: 'AU', name: "Bowen Mountain", lat: -33.5719, lon: 150.6256 },   // 2800 ; la carte donne 2753 et ses 9 voisins sont tous en 27
+  { cc: 'AU', name: "Greenmount", lat: -27.7858, lon: 151.9008 },   // 4225 ; la carte donne 4359 et ses 8 voisins sont tous en 43
+  { cc: 'AU', name: "Mogo", lat: -35.7848, lon: 150.1417 },   // 2850 ; la carte donne 2536 et ses 14 voisins sont tous en 25
+  { cc: 'AU', name: "Strathallan", lat: -36.25, lon: 144.75 },   // 3622 ; la carte donne 3564 et ses 5 voisins sont tous en 35
+  { cc: 'AU', name: "Medway", lat: -34.4916, lon: 150.2823 },   // 2820 ; la carte donne 2577 et ses 9 voisins sont tous en 25
+  { cc: 'AU', name: "St Mary", lat: -25.6988, lon: 152.4997 },   // 4570 ; la carte donne 4650 et ses 8 voisins sont tous en 46
+  { cc: 'AU', name: "Rose Valley", lat: -34.7235, lon: 150.8096 },   // 2630 ; la carte donne 2534 et ses 6 voisins sont tous en 25
+  { cc: 'AU', name: "Upper Ryans Creek", lat: -36.6368, lon: 146.1925 },   // 3875 ; la carte donne 3673 et ses 7 voisins sont tous en 36
+  { cc: 'AU', name: "The Grange", lat: -24.8167, lon: 152.4167 },   // 4051 ; la carte donne 4670 et ses 14 voisins sont tous en 46
+  { cc: 'AU', name: "Langley", lat: -23.4655, lon: 150.4517 },   // 4630 ; la carte donne 4702 et ses 8 voisins sont tous en 47
+  { cc: 'AU', name: "Springfield", lat: -33.3433, lon: 149.2635 },   // 2630 ; la carte donne 2800 et ses 7 voisins sont tous en 28
+  { cc: 'AU', name: "Woodlands", lat: -35.3166, lon: 149.8863 },   // 2536 ; la carte donne 2622 et ses 8 voisins sont tous en 26
+  { cc: 'AU', name: "Mountain Spring Dairy", lat: -28.5973, lon: 153.4457 },   // 2370 ; la carte donne 2482 et ses 69 voisins sont tous en 24
+  // Inde — 6 fiches, préfixe calibré à 2 caractères.
+  { cc: 'IN', name: "Mathurāpur", lat: 22.1151, lon: 88.3925 },   // 700039 ; la carte donne 743354 et ses 45 voisins sont tous en 74
+  { cc: 'IN', name: "Jamrauli", lat: 27.1523, lon: 76.6695 },   // 321609 ; la carte donne 301409 et ses 5 voisins sont tous en 30
+  { cc: 'IN', name: "Chinchura", lat: 23.1963, lon: 87.0887 },   // 713150 ; la carte donne 722101 et ses 7 voisins sont tous en 72
+  { cc: 'IN', name: "Thotta Rāmachandrapuram", lat: 16.7702, lon: 81.444 },   // 521340 ; la carte donne 534406 et ses 91 voisins sont tous en 53
+  { cc: 'IN', name: "Siripuram", lat: 16.2843, lon: 80.6945 },   // 533432 ; la carte donne 522306 et ses 76 voisins sont tous en 52
+  { cc: 'IN', name: "Handigund", lat: 16.4208, lon: 75.0606 },   // 591235 ; la carte donne 587312 et ses 7 voisins sont tous en 58
+  // Turquie — 5 fiches, préfixe calibré à 2 caractères.
+  { cc: 'TR', name: "Isparta", lat: 37.7644, lon: 30.5522 },   // 33080 ; la carte donne 32100 et ses 13 voisins sont tous en 32
+  { cc: 'TR', name: "İncirli", lat: 38.5318, lon: 35.7701 },   // 99655 ; la carte donne 38900 et ses 26 voisins sont tous en 38
+  { cc: 'TR', name: "Sürtme", lat: 38.5783, lon: 35.2862 },   // 99655 ; la carte donne 38560 et ses 10 voisins sont tous en 38
+  { cc: 'TR', name: "Esenköy", lat: 39.2143, lon: 29.9153 },   // 20600 ; la carte donne 43210 et ses 25 voisins sont tous en 43
+  { cc: 'TR', name: "Çiçekli", lat: 38.5006, lon: 27.2855 },   // 45750 ; la carte donne 35040 et ses 29 voisins sont tous en 35
+  // Uruguay — 2 fiches, préfixe calibré à 2 caractères.
+  { cc: 'UY', name: "Pan de Azúcar", lat: -34.7787, lon: -55.2358 },   // 30300 ; la carte donne 20300 et ses 10 voisins sont tous en 20
+  { cc: 'UY', name: "Puntas de Cañada Grande", lat: -34.4079, lon: -56.7392 },   // 15600 ; la carte donne 80000 et ses 5 voisins sont tous en 80
+  // Portugal — 1 fiche, préfixe calibré à 1 caractère.
+  { cc: 'PT', name: "Pinhal Novo", lat: 38.6311, lon: -8.9138 },   // 7570-701 ; la carte donne 2955-093 et ses 49 voisins sont tous en 2
+  // Arménie — 1 fiche, préfixe calibré à 1 caractère.
+  { cc: 'AM', name: "Vardenis", lat: 40.1827, lon: 45.7316 },   // 0309 ; la carte donne 1601 et ses 6 voisins sont tous en 1
+  // Roumanie — 1 fiche, préfixe calibré à 2 caractères.
+  { cc: 'RO', name: "Oreavu", lat: 45.5895, lon: 27.1507 },   // 127661 ; la carte donne 627156 et ses 43 voisins sont tous en 62
+  // Costa Rica — 1 fiche, préfixe calibré à 1 caractère.
+  { cc: 'CR', name: "Quebrador", lat: 9.6035, lon: -83.7909 },   // 30203 ; la carte donne 11703 et ses 9 voisins sont tous en 1
+  // Tchéquie — 1 fiche, préfixe calibré à 1 caractère.
+  { cc: 'CZ', name: "Lhotka", lat: 49.9013, lon: 14.189 },   // 142 00 ; la carte donne 267 28 et ses 94 voisins sont tous en 2
+  // Indonésie — 1 fiche, préfixe calibré à 2 caractères.
+  { cc: 'ID', name: "Kebon Kelapa", lat: -6.3094, lon: 108.3081 },   // 16125 ; la carte donne 45222 et ses 314 voisins sont tous en 45
+  // Tunisie — 1 fiche, préfixe calibré à 2 caractères.
+  { cc: 'TN', name: "Douar el Haj Salah", lat: 36.4908, lon: 8.4814 },   // 7112 ; la carte donne 8160 et ses 14 voisins sont tous en 81
 ];
 // Comparaison au dix-millième de degré (~11 m), comme fixDivision : la fiche visée est désignée sans risque
 // d'en emporter une autre — « Laranjeiras » existe cinq fois au Portugal, une seule est visée.

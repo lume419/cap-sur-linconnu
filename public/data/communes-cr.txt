@@ -3530,7 +3530,7 @@
 0;-83.7070,9.8319;30402;Cartago Province;Volconda
 0;-83.9034,9.6077;11703;San José;San Carlos
 0;-83.8501,9.6439;11703;Cartago Province;Salsipuedes
-0;-83.7909,9.6035;30203;San José;Quebrador
+0;-83.7909,9.6035;;San José;Quebrador
 0;-83.9279,9.6434;11702;San José;Florida
 0;-83.9749,9.5988;11701;San José;Guaria
 0;-83.9490,9.6178;11701;San José;San Lucas

@@ -9391,7 +9391,7 @@
 0;14.0985,49.9958;266 01;Beroun;Lhotka
 0;16.4394,49.9263;560 02;Ústí nad Orlicí;Lhotka
 0;13.7301,49.9072;338 08;Rokycany;Lhotka
-0;14.1890,49.9013;142 00;Hlavní město Praha;Lhotka
+0;14.1890,49.9013;;Hlavní město Praha;Lhotka
 76;13.5815,49.8901;338 24;Rokycany;Lhotka u Radnic
 0;18.2274,49.8592;725 28;Ostrava-město;Lhotka
 219;17.7308,49.8737;747 84;Opava;Lhotka u Litultovic
