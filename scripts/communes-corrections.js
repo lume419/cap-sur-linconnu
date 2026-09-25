@@ -1108,7 +1108,7 @@ function cpContredit(country, name, lat, lon){
 //    passait ses 58 977 étiquettes d'un nom de province en latin (« Jeollabuk-do ») à un nom de comté EN
 //    HANGUL (« 고창군 »), alors que ses noms de lieux restent en latin. Changement de rang ET d'écriture : le
 //    fichier devenait incohérent avec lui-même, et l'affichage aurait mêlé deux écritures sur la même ligne.
-const REGION_DU_DUMP = new Set(['RU', 'AU', 'UY', 'CR', 'KR']);
+const REGION_DU_DUMP = new Set(['RU', 'AU', 'UY', 'CR', 'KR', 'BR']);
 // 15. UNE MÊME RÉGION PUBLIÉE SOUS DEUX NOMS DANS LE MÊME PAYS (24/09/2026). L'Allemagne portait 43 étiquettes
 //    de région pour seize Länder : 893 fiches en « Lower Saxony » quand 7 890 sont en « Niedersachsen », 140 en
 //    « Saxony » contre 4 422 en « Sachsen ». Sans effet sur les itinéraires, bien visible à l'écran.
@@ -1128,6 +1128,28 @@ const REGION_DU_DUMP = new Set(['RU', 'AU', 'UY', 'CR', 'KR']);
 //      - « Berlin » (6) et « Land Berlin » (8) : la carte dit Brandebourg à ces coordonnées, mais quatorze fiches
 //        et un sondage incomplet ne suffisent pas à renommer la capitale. Laissées telles quelles, à revoir.
 const ETIQUETTE_UNIFIEE = {
+  // Pakistan et Brésil — 5 graphies, 1 238 fiches (25/09/2026). Elles ne sont pas corrigées pour elles-mêmes :
+  // ces deux pays gagnent 148 839 VRAIS codes postaux à la régénération, et celle-ci était refusée parce qu'elle
+  // recréait ces doublons d'étiquette. Les unifier lève le blocage.
+  //   PAKISTAN : « Gilgit Baltistan » contre « Gilgit-Baltistan » — espace contre tiret, lieux voisins à 10 km.
+  //   BRÉSIL : trois États dont l'accent manque, et un nom suivi d'une espace.
+  // NEUF paires brésiliennes ont été ÉPARGNÉES par le contrôle de distance, et elles valent d'être nommées car
+  // le Brésil abonde en quasi-homonymes : Araçoiaba / Aracoiaba (530 km), Goianá / Goiana (1 784 km), Marau /
+  // Maraú (2 086 km), Iporá / Iporã (891 km), Ipirá / Ipira (2 081 km), Arapuã / Arapuá (827 km), São Vicente
+  // Ferrer / Férrer (1 176 km), Santaluz / Santa Luz (576 km) et MONTE NEGRO / MONTENEGRO (2 476 km).
+  // Ce dernier a imposé de resserrer la règle : « ne diffère que par la ponctuation » traitait la suppression
+  // d'une ESPACE INTERNE comme un détail, et déclarait donc certaines deux communes séparées de 2 476 km — l'une
+  // en Rondônia, l'autre au Rio Grande do Sul. Retirer une espace ne change pas l'écriture d'un mot : cela en
+  // fait un autre. Seules la casse et les espaces de tête, de fin ou répétées sont désormais tenues pour sûres.
+  PK: {
+    "Gilgit Baltistan": "Gilgit-Baltistan",   // 1 182 fiches, lieux voisins à 10,1 km
+    // DEUX NOMS SANS PARENTÉ ORTHOGRAPHIQUE pour une même région : le générateur puise le nom à deux sources — le
+    // fichier postal et le dump — et le crible des graphies ne voit pas que ce sont les mêmes territoires. Ici la
+    // CARTE tranche contre la majorité : elle rend « Azad Kashmir » (PK-JK) et « Islamabad Capital Territory »
+    // (PK-IS), soit les deux formes du dump, pourtant minoritaires dans le fichier (994 contre 3 646, 85 contre 288).
+    "Azad Jammu and Kashmir": "Azad Kashmir",   // 3 646 fiches — Nominatim zoom 8 sur Rawalakot et Bagh : « Azad Kashmir »
+    "Federal Capital": "Islamabad"             //   288 fiches — Nominatim zoom 8 sur Islamabad : « Islamabad Capital Territory »
+  },
   // Guatemala — 23 étiquettes. Le fichier postal guatémaltèque écrit les départements EN CAPITALES et
   // avec un préfixe redondant (« DEPTO DE HUEHUETENANGO »), et la régénération — qui apporte 13 540 VRAIS codes
   // postaux là où le pays n'avait que des identifiants ISO — les importait tels quels. On garde les codes et on

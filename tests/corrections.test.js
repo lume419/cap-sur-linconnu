@@ -195,6 +195,42 @@ test('corrections : les régions sauvées par la carte gardent leur étiquette',
   }
   assert.deepEqual(bad, []);
 });
+// RANG DE L'ÉTIQUETTE ET VRAIS CODES POSTAUX (25/09/2026). Le Pakistan et le Brésil ont gagné 148 839 vrais codes
+// postaux là où ils portaient un identifiant de région ISO (« PK-JK », « BR-SP »). Ce gain était bloqué parce que la
+// régénération abîmait les étiquettes, de deux façons distinctes :
+//   - le PAKISTAN publiait une même province sous deux noms, le fichier postal et le dump ne l'écrivant pas pareil
+//     (« Gilgit Baltistan » / « Gilgit-Baltistan », « Azad Jammu and Kashmir » / « Azad Kashmir », « Federal
+//     Capital » / « Islamabad ») — réglé par ETIQUETTE_UNIFIEE, la carte ayant tranché chaque forme ;
+//   - le BRÉSIL faisait glisser 33 497 fiches de l'ÉTAT à la COMMUNE (« Paraíba » -> « Alagoa Grande »), le
+//     changement de rang refusé à l'Inde le même jour — réglé par REGION_DU_DUMP, qui donne les codes sans toucher
+//     aux étiquettes.
+// Ces deux tests gardent le résultat par les deux bouts : le gain ne doit pas se perdre, le rang ne doit pas bouger.
+test('corrections : le Pakistan et le Brésil gardent leurs vrais codes postaux', () => {
+  const bad = [];
+  for(const [cc, mini] of [['PK', 100000], ['BR', 45000]]){
+    const fiches = fichesDe(cc);
+    const vrais = fiches.filter(f => f.cp && !/^[A-Za-z]{2}-/.test(f.cp)).length;
+    if(vrais < mini) bad.push(cc + ' : ' + vrais + ' vrais codes postaux, attendu au moins ' + mini
+      + ' — un identifiant de région ISO n\'est pas un code postal');
+  }
+  assert.deepEqual(bad, []);
+});
+test('corrections : l\'étiquette reste la PROVINCE au Pakistan et l\'ÉTAT au Brésil', () => {
+  const bad = [];
+  // Sept provinces et territoires pakistanais — plus UNE fiche sans division, « Ayoob Kandra Chowk », qui n'en a
+  // jamais eu et n'est donc pas comptée ici — et vingt-sept unités fédérées brésiliennes.
+  for(const [cc, attendu] of [['PK', 7], ['BR', 27]]){
+    const divs = new Set(fichesDe(cc).map(f => f.div).filter(Boolean));
+    if(divs.size !== attendu) bad.push(cc + ' : ' + divs.size + ' étiquettes distinctes, attendu ' + attendu
+      + ' — le rang a changé (commune au lieu de province ou d\'État), ou une région est écrite de deux façons');
+  }
+  // Les trois formes que la carte a écartées au Pakistan ne doivent réapparaître sous aucune fiche.
+  for(const forme of ['Gilgit Baltistan', 'Azad Jammu and Kashmir', 'Federal Capital']){
+    const n = fichesDe('PK').filter(f => f.div === forme).length;
+    if(n) bad.push('PK : ' + n + ' fiche(s) portent encore « ' + forme + ' »');
+  }
+  assert.deepEqual(bad, []);
+});
 test('corrections : « Ponta Verde » (Cap-Vert) n\'est publiée qu\'une fois, et sur Fogo', () => {
   // Voir ADMIN_COORD_CONFLICT. Deux fiches portaient le concelho CV-18 (São Filipe, sur Fogo) : l'une sur Fogo,
   // cohérente ; l'autre SUR SANTIAGO, à 80 km de son propre concelho. La seconde faisait se chevaucher les boîtes

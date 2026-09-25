@@ -143,6 +143,60 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **LE PAKISTAN ET LE BRÉSIL SONT RÉCUPÉRÉS : 148 839 vrais codes postaux gagnés, et PAS UNE étiquette changée.**
+  Ces deux pays avaient été restaurés la veille — 102 784 et 46 055 codes postaux refusés — parce que leur
+  régénération abîmait les étiquettes de région. Le défaut n'était pas le même dans les deux cas, et il a fallu le
+  nommer séparément avant de pouvoir le traiter.
+  - **PAKISTAN : une même province publiée sous DEUX noms.** Le générateur puise le nom de région à deux sources —
+    `admin_name1` du fichier postal, `admin1CodesASCII` du dump — et les deux ne l'écrivent pas pareil. Trois
+    provinces sortaient donc en double : « Gilgit Baltistan » contre « Gilgit-Baltistan », « Azad Jammu and Kashmir »
+    contre « Azad Kashmir », « Federal Capital » contre « Islamabad ». Les trois formes sont unifiées par
+    `ETIQUETTE_UNIFIEE`, et **la carte a tranché contre la majorité** : Nominatim (zoom 8) rend « Azad Kashmir »
+    sur Rawalakot et sur Bagh, et « Islamabad Capital Territory » sur Islamabad, soit les deux formes du dump,
+    pourtant minoritaires dans le fichier (994 contre 3 646, 85 contre 288). Résultat mesuré : **102 784 codes
+    postaux gagnés, 0 étiquette changée, 7 provinces avant comme après, nombre de lignes inchangé**.
+  - **BRÉSIL : ce n'était pas une affaire d'orthographe.** Quatre États y manquaient leur accent dans le fichier
+    postal (« Paraiba », « Rondonia », « Amapa ») et un traînait une espace en fin de nom ; les unifier suffisait à
+    faire taire le crible. Mais la mesure montrait alors **33 497 fiches passées de l'ÉTAT à la COMMUNE**
+    (« Paraíba » → « Alagoa Grande »), et 27 étiquettes devenues 4 883 : exactement le changement de rang refusé à
+    l'Inde le même jour. Or **le code postal ne dépend pas de ce choix** — il vient du point postal le plus proche
+    dans les deux cas. Le Brésil rejoint donc `REGION_DU_DUMP` : **46 055 codes gagnés, 0 étiquette changée, ses
+    27 unités fédérées intactes**. Les cinq entrées d'`ETIQUETTE_UNIFIEE` écrites pour lui ont été retirées avec
+    le même soin — une table morte est une dette, pas une trace.
+  - **Neuf quasi-homonymes brésiliens ont été ÉPARGNÉS**, et l'un d'eux a corrigé une règle : « Monte Negro » et
+    « Montenegro » sont **deux communes distinctes, séparées de 2 476 km**, l'une en Rondônia, l'autre au Rio Grande
+    do Sul. Le crible les déclarait « identiques à la ponctuation près » parce qu'il retirait TOUTE la ponctuation,
+    espaces internes comprises. *Retirer une espace ne change pas l'écriture d'un mot : cela en fait un autre.* Seules
+    la casse et les espaces de tête, de fin ou répétées sont désormais tenues pour certaines ; tout le reste passe par
+    le contrôle de distance. Les huit autres épargnés : Araçoiaba/Aracoiaba (530 km), Santaluz/Santa Luz (576 km),
+    Arapuã/Arapuá (827 km), Iporá/Iporã (891 km), São Vicente Ferrer/Férrer (1 176 km), Goianá/Goiana (1 784 km),
+    Ipirá/Ipira (2 081 km), Marau/Maraú (2 086 km).
+  - **Le journal du générateur mentait à chaque pays.** Il annonçait « fichier postal absent » pour tous, y compris
+    ceux dont le fichier est présent et exploité : la phrase datait du temps où la table de repli n'était bâtie que
+    dans ce cas, et elle est restée quand la table est devenue inconditionnelle. Elle m'a fait croire un instant que
+    le Pakistan gagnait 102 784 codes sans fichier postal, ce qui n'a aucun sens. Corrigée : elle dit maintenant
+    lequel des deux cas s'applique.
+  - **Deux ancres de non-régression** dans `tests/corrections.test.js` : les vrais codes postaux des deux pays ne
+    doivent pas retomber sous 100 000 et 45 000, et l'étiquette doit rester la province au Pakistan (7) et l'État au
+    Brésil (27) — les trois formes écartées par la carte ne devant réapparaître sous aucune fiche.
+  - **Le compteur figé des quasi-doublons passe de 28 à 31, et les trois paires ajoutées instruisent le RAYON de
+    15 km.** Chacune est un même village que le dump publie DEUX FOIS à ~250 m, ce que le dédoublonnage ne voit pas
+    (sa clé arrondit au centième de degré, et les deux copies tombent de part et d'autre de la coupure). Tant que
+    les deux copies portaient le même identifiant ISO, elles proposaient la même chose ; avec de vrais codes, 250 m
+    suffisent à les séparer : Malka Hans est à **14,84 km** d'un Malikpur et **15,08 km** de l'autre, Vargem Grande
+    Paulista à **14,88 et 15,13 km** des deux Sítio Sabiá — la règle des 15 km passe ENTRE les deux copies. Pour Ali
+    Haidarpur, les 250 m inversent le classement de deux points postaux à 4,70 et 4,78 km. **Le défaut à corriger
+    n'est donc pas le code postal mais le doublon lui-même, et il précède ce lot.**
+  - **Reste à traiter, mesuré et non corrigé : 92 régions publiées sous DEUX noms dans sept pays** — Kenya 38
+    (« Bomet » et « Bomet County »), Roumanie 19 (« Bacău » et « Bacău County »), Honduras 17 (« Atlántida » et
+    « Atlántida Department »), Ukraine 11 (« Odeska » et « Odesa »), Lettonie 4, Azerbaïdjan 2, Bermudes 1. C'est la
+    maladie pakistanaise, à l'échelle du monde : un suffixe administratif redondant, ou une forme adjectivale, selon
+    la source consultée. Le crible des graphies ne la voit pas, les deux noms n'ayant pas la même terminaison. Le
+    détecteur écrit pour la trouver **ne peut pas être publié tel quel** : il apparie les noms par le CODE de
+    division, et ces codes ne coïncident pas d'une source à l'autre — en Thaïlande le fichier postal numérote les
+    provinces comme les codes postaux (51 = Lamphun) et le dump autrement (TH.51 = Suphan Buri), ce qui fabrique
+    95 couples faux sur 211. Il faut le tenir sur le TRONC du nom, non sur le code, avant d'en faire un outil du dépôt.
+
 - **LA DÉRIVE DES CODES POSTAUX DES TRENTE PAYS ÉTAIT UNE MISE À JOUR, PAS UNE RÉGRESSION : 271 747 vrais codes
   postaux gagnés dans dix-sept pays.** Ces pays portaient un identifiant de région ISO (« ZA-06 », « HN-06 ») dans
   le champ du code postal, parce que leur fichier publié avait été fabriqué SANS fichier postal. Ces fichiers

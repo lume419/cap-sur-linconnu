@@ -34,9 +34,12 @@ const DISTANCE_MAX_KM = 150;
 // le å est une lettre à part entière : ce sont deux communes bien distinctes, à 246 km l'une de l'autre.
 // Le contrôle spatial n'est donc exigé que pour les différences de diacritique — sans quoi il écartait à tort
 // « illizi » et « ouargla », dont les quelques lieux sont dispersés sur des wilayas sahariennes immenses.
-const ponctuation = /[\s.,'\u2019\-_()]+/g;
-const casseSeule = (a, b) => a !== b
-  && a.toLowerCase().replace(ponctuation, '') === b.toLowerCase().replace(ponctuation, '');
+// CERTAIN = ne diffère que par la CASSE et les espaces de tête, de fin ou répétées. Un premier jet retirait
+// TOUTE la ponctuation, espaces internes comprises : il déclarait certaines « Monte Negro » et « Montenegro »,
+// qui sont deux communes brésiliennes distinctes à 2 500 km l'une de l'autre. Retirer une espace ne change pas
+// l'écriture d'un mot, cela en fait un autre — ce cas passe donc par le contrôle de distance comme les autres.
+const espaces = s => String(s || '').replace(/\s+/g, ' ').trim().toLowerCase();
+const casseSeule = (a, b) => a !== b && espaces(a) === espaces(b);
 
 const LETTRES = { 'ø': 'o', 'æ': 'ae', 'å': 'a', 'ß': 'ss', 'đ': 'd', 'ð': 'd', 'ł': 'l', 'þ': 'th', 'ħ': 'h', 'ı': 'i' };
 const ortho = s => String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()

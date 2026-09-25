@@ -1064,7 +1064,17 @@ test('lieux : les quasi-doublons connus ne se multiplient pas (populations contr
   // très au-dessus du réel sans qu'aucun test ne bronche. Ce sont désormais les valeurs EXACTES relevées sur l'état
   // publié : une aggravation comme une amélioration font échouer le test, et c'est le chiffre qu'on met à jour.
   const CONTRADICTIONS = 6;  // paires à moins de 300 m publiant deux populations non nulles différentes (12 avant la 19e passe)
-  const SUGGESTIONS = 28;    // paires à moins de 300 m avec deux codes postaux, donc deux suggestions (34 avant la 19e passe ; 28 avant que les lieux sans code postal ne soient publiés, 21/09/2026 ; 29 ensuite, et de nouveau 28 le 25/09/2026 quand dix-sept pays ont gagné de vrais codes postaux — une paire qui portait deux identifiants ISO distincts n en porte plus qu un seul vrai)
+  const SUGGESTIONS = 31;    // paires à moins de 300 m avec deux codes postaux, donc deux suggestions (34 avant la 19e passe ; 28 avant que les lieux sans code postal ne soient publiés, 21/09/2026 ; 29 ensuite, et de nouveau 28 le 25/09/2026 quand dix-sept pays ont gagné de vrais codes postaux — une paire qui portait deux identifiants ISO distincts n en porte plus qu un seul vrai ; 31 le même jour quand le Pakistan et le Brésil ont gagné les leurs, voir ci-dessous)
+  // LES TROIS PAIRES AJOUTÉES LE 25/09/2026 sont mesurées, et elles disent quelque chose du RAYON de 15 km.
+  // Chacune est UN MÊME VILLAGE que le dump publie DEUX FOIS à ~250 m d écart, ce que le dédoublonnage ne voit
+  // pas : sa clé arrondit au centième de degré, et les deux copies tombent de part et d autre de la coupure
+  // (73,3731 -> 73,37 et 73,3750 -> 73,38). Tant que les deux copies portaient le même identifiant ISO, elles
+  // proposaient la même chose ; avec de vrais codes postaux, 250 m suffisent à les séparer :
+  //   PK Malikpur    57110 / PK-04     — Malka Hans est à 14,84 km d une copie et 15,08 km de l autre : la règle
+  //                                      des 15 km passe ENTRE les deux, l une reçoit le code, l autre non.
+  //   BR Sítio Sabiá 06730-000 / BR-27 — même cas, Vargem Grande Paulista à 14,88 km et 15,13 km.
+  //   PK Ali Haidarpur 48000 / 48020   — deux points postaux à 4,70 et 4,78 km : les 250 m INVERSENT le classement.
+  // Le défaut à corriger n est donc pas le code postal mais le DOUBLON lui-même, et il précède ce lot.
   const hv = (a, b, c, d) => { const r = Math.PI / 180, x = Math.sin((c - a) * r / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin((d - b) * r / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)); };
   // Même normalisation que le moteur : c est l écart entre elle et la clé du dédoublonnage qu on mesure ici.
   const norm = require(path.join(ROOT, 'lib', 'trip-engine.js')).internals.normalizeCityName;

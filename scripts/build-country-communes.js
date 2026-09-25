@@ -574,7 +574,11 @@ for(const country of COUNTRIES){
       let g = déjàParNom.get(k); if(!g) déjàParNom.set(k, g = []);
       g.push(e);
     });
-    console.log(country + ' : fichier postal absent — ' + déjàPubliés.size + ' codes repris du fichier déjà publié');
+    // Ce message disait « fichier postal absent » pour TOUS les pays, la table de repli étant devenue
+    // inconditionnelle sans que la phrase suive. Il dit maintenant ce qui est vrai de ce pays-ci.
+    console.log(country + (postalAbsent
+      ? ' : fichier postal absent — ' + déjàPubliés.size + ' codes repris du fichier déjà publié'
+      : ' : ' + déjàPubliés.size + ' codes déjà publiés chargés en dernier recours (fichier postal présent)'));
   }
   const codePublié = p => {
     const exact = déjàPubliés.get(p.lat.toFixed(4) + ',' + p.lon.toFixed(4) + '|' + p.name);
