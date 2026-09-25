@@ -1124,6 +1124,80 @@ const REGION_DU_DUMP = new Set(['RU', 'AU', 'UY', 'CR']);
 //      - « Berlin » (6) et « Land Berlin » (8) : la carte dit Brandebourg à ces coordonnées, mais quatorze fiches
 //        et un sondage incomplet ne suffisent pas à renommer la capitale. Laissées telles quelles, à revoir.
 const ETIQUETTE_UNIFIEE = {
+  // ---------------------------------------------------------------------------------------------------------
+  // MÊME RÉGION ÉCRITE DEUX FOIS (25/09/2026) — 46 graphies, 354 fiches, quatre pays.
+  //
+  // Famille DISTINCTE de celle de l'Allemagne plus haut, et bien plus sûre à établir. Là, deux NOMS différents
+  // désignaient peut-être le même territoire, ce que seule la carte pouvait trancher. Ici les deux étiquettes
+  // sont LE MÊME NOM, à la casse et aux accents près : « msila » et « M'Sila » ne peuvent pas être deux wilayas.
+  // Relevé par scripts/audit-etiquettes-orthographe.js, qui a trouvé 46 paires là où le crible SPATIAL n'en
+  // voyait que 11 — ses seuils écartaient les paires trop petites ou trop entremêlées.
+  //
+  // DEUX FORCES DE PREUVE, et elles ne se valent pas :
+  //   - 41 paires ne diffèrent QUE PAR LA CASSE ou la ponctuation (« illizi » / « Illizi », « Criuleni- Dub. » /
+  //     « Criuleni-Dub. ») : aucune langue n'en fait deux mots, aucun contrôle n'est nécessaire ;
+  //   - 5 diffèrent par un DIACRITIQUE, et là il faut vérifier, car un diacritique peut être une vraie lettre.
+  //     Contrôle : la distance médiane d'un lieu de la graphie minoritaire au plus proche lieu de la majoritaire.
+  //     Mesuré : 11 à 38 km quand c'est la même région, 246 km entre HÅBO et HABO — deux communes suédoises
+  //     réellement distinctes, que ce contrôle a ÉPARGNÉES et qui sont la raison d'être de cette distinction.
+  //
+  // Un premier contrôle par RECOUVREMENT DE CASES a été écarté : il rejetait « adrar » et « Adrar » (14 % de
+  // cases communes) parce qu'une wilaya saharienne est immense et ses quelques lieux dispersés.
+  // ---------------------------------------------------------------------------------------------------------
+  DZ: {
+    "msila": "M'Sila",   // 38 fiches, casse ou ponctuation seule
+    "bouira": "Bouira",   // 26 fiches, casse ou ponctuation seule
+    "djelfa": "Djelfa",   // 23 fiches, casse ou ponctuation seule
+    "soukahras": "Souk-Ahras",   // 21 fiches, casse ou ponctuation seule
+    "batna": "Batna",   // 20 fiches, casse ou ponctuation seule
+    "tebessa": "Tebessa",   // 20 fiches, casse ou ponctuation seule
+    "tiaret": "Tiaret",   // 18 fiches, casse ou ponctuation seule
+    "bordjbouarreridj": "Bordj-Bou-Arreridj",   // 12 fiches, casse ou ponctuation seule
+    "adrar": "Adrar",   // 12 fiches, casse ou ponctuation seule
+    "eloued": "El-Oued",   // 11 fiches, casse ou ponctuation seule
+    "tissemsilt": "Tissemsilt",   // 11 fiches, casse ou ponctuation seule
+    "biskra": "Biskra",   // 10 fiches, casse ou ponctuation seule
+    "tamanrasset": "Tamanrasset",   // 9 fiches, casse ou ponctuation seule
+    "bechar": "Bechar",   // 7 fiches, casse ou ponctuation seule
+    "elbayadh": "El-Bayadh",   // 7 fiches, casse ou ponctuation seule
+    "annaba": "Annaba",   // 7 fiches, casse ou ponctuation seule
+    "skikda": "Skikda",   // 6 fiches, casse ou ponctuation seule
+    "laghouat": "L.Aghouat",   // 6 fiches, casse ou ponctuation seule
+    "oumelbouaghi": "Oum-El-Bouaghi",   // 6 fiches, casse ou ponctuation seule
+    "naama": "Naama",   // 5 fiches, casse ou ponctuation seule
+    "mila": "Mila",   // 4 fiches, casse ou ponctuation seule
+    "Illizi": "illizi",   // 4 fiches, casse ou ponctuation seule
+    "saida": "Saida",   // 4 fiches, casse ou ponctuation seule
+    "medea": "Medea",   // 3 fiches, casse ou ponctuation seule
+    "blida": "Blida",   // 3 fiches, casse ou ponctuation seule
+    "tiziouzou": "Tizi-Ouzou",   // 2 fiches, casse ou ponctuation seule
+    "sidibelabbes": "Sidi-Bel-Abbes",   // 2 fiches, casse ou ponctuation seule
+    "ghardaia": "Ghardaia",   // 2 fiches, casse ou ponctuation seule
+    "ouargla": "Ouargla",   // 2 fiches, casse ou ponctuation seule
+    "guelma": "Guelma",   // 2 fiches, casse ou ponctuation seule
+    "mostaganem": "Mostaganem",   // 2 fiches, casse ou ponctuation seule
+    "bejaia": "Bejaia",   // 1 fiches, casse ou ponctuation seule
+    "setif": "Setif",   // 1 fiches, casse ou ponctuation seule
+    "jijel": "Jijel",   // 1 fiches, casse ou ponctuation seule
+    "khenchela": "Khenchela",   // 1 fiches, casse ou ponctuation seule
+    "tlemcen": "Tlemcen",   // 1 fiches, casse ou ponctuation seule
+    "mascara": "Mascara",   // 1 fiches, casse ou ponctuation seule
+    "chlef": "Chlef",   // 1 fiches, casse ou ponctuation seule
+    "tipaza": "Tipaza",   // 1 fiches, casse ou ponctuation seule
+    "tindouf": "Tindouf"   // 1 fiches, casse ou ponctuation seule
+  },
+  AZ: {
+    "Qubadlı": "Qubadli",   // 23 fiches, diacritique, plus proche à 3.8 km
+    "Xızı": "Xizi",   // 11 fiches, diacritique, plus proche à 6.2 km
+    "Siyǝzǝn": "Siyəzən",   // 2 fiches, diacritique, plus proche à 4 km
+    "Şamaxı": "Şamaxi"   // 1 fiches, diacritique, plus proche à 5.6 km
+  },
+  MD: {
+    "Criuleni- Dub.": "Criuleni-Dub."   // 2 fiches, casse ou ponctuation seule
+  },
+  RO: {
+    "Arges": "Argeş"   // 1 fiches, diacritique, plus proche à 13 km
+  },
   DE: {
     'Lower Saxony': 'Niedersachsen',                                 // 893 fiches, carte 3/3
     'Saxony': 'Sachsen',                                             // 140 fiches, carte 3/3

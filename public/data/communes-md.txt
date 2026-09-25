@@ -728,7 +728,7 @@
 0;28.2461,47.8837;MD-5008;Floresti;Mărculeşti
 2400;28.2411,47.8690;MD-5008;Floresti;Mărculeşti
 0;27.2239,48.3138;MD-4732;Briceni;Mărcăuţi
-0;29.0591,47.3542;MD-4575;Criuleni- Dub.;Marcăuţi
+0;29.0591,47.3542;MD-4575;Criuleni-Dub.;Marcăuţi
 0;28.1635,46.9688;MD-6430;Nisporeni;Marinici
 0;27.8315,47.6650;MD-5933;Falesti;Mărăndeni
 0;27.7979,48.2024;MD-5125;Drochia;Maramonovca
@@ -738,7 +738,7 @@
 0;29.0337,47.9337;MD-5527;Ribnita Tr.;Molochişul Mic
 0;28.8023,46.9064;MD-6819;Ialoveni;Mileştii Mici
 0;28.3054,47.7030;MD-6220;Singerei;Cotiujenii Mici
-0;29.1145,47.3497;MD-4577;Criuleni- Dub.;Molovata
+0;29.1145,47.3497;MD-4577;Criuleni-Dub.;Molovata
 0;29.0927,47.3455;MD-4576;Criuleni-Dub.;Molovata Nouă
 0;28.6315,47.0258;MD-6818;Ialoveni;Malcoci
 0;27.9434,48.2147;MD-3018;Soroca;Mălcăuţi

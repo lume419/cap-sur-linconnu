@@ -133,7 +133,7 @@
 0;46.6042,39.5979;AZ 4100;Laçin;Unannovu
 0;45.0497,39.5898;;Nakhchivan;Oğlanqala
 0;46.4664,39.6480;AZ 4100;Laçin;Uludüz
-0;46.7050,39.2263;;Qubadlı;Ulaşlı
+0;46.7050,39.2263;;Qubadli;Ulaşlı
 0;48.5493,39.9415;AZ 1040;Baki;Ukrainskiye Otruba
 0;46.6864,39.0600;AZ 6400;Zəngilan;Üdgün
 0;48.4269,39.3367;AZ 1528;Cəlilabad;Uchtepe
@@ -305,7 +305,7 @@
 0;46.9832,39.5158;;Khojavend;Şahyeri
 0;45.4954,39.4870;;Nakhchivan;Şada
 0;48.3790,39.2489;AZ 1526;Cəlilabad;Şabanlı
-0;46.4214,39.3867;;Qubadlı;Seytas
+0;46.4214,39.3867;;Qubadli;Seytas
 0;46.4632,39.7086;AZ 4100;Laçin;Seyidlar
 0;48.9521,39.7323;AZ 5220;Salyan;Seydan
 0;48.8527,38.6978;AZ 4232;Lənkəran;Seyde-Karan
@@ -454,7 +454,7 @@
 0;48.5730,39.4719;AZ 1312;Biləsuvar;Novomikhaylovka
 0;48.6069,39.2184;AZ 1527;Cəlilabad;Novogolovka
 0;48.6471,39.9616;AZ 5446;Sabirabad;Novodonetskoye
-0;46.4491,39.4158;;Qubadlı;Novlu
+0;46.4491,39.4158;;Qubadli;Novlu
 0;48.5798,39.3740;AZ 1316;Biləsuvar;Novaya Teklya
 0;46.9824,39.8480;AZ 2800;Xocavənd;Norshen
 0;49.2668,39.4924;AZ 4713;Neftçala;Nord-Ost Qultuq
@@ -498,14 +498,14 @@
 0;47.1862,39.4750;AZ 1900;Füzuli;Musabeyli
 0;48.4060,38.8330;AZ 4323;Lerik;Murya
 0;48.1459,39.8634;AZ 3024;Imişli;Murğuzalılı
-0;46.6264,39.4544;;Qubadlı;Muradxanlı
+0;46.6264,39.4544;;Qubadli;Muradxanlı
 0;46.9335,39.9814;AZ 0200;Ağdam;Muradbeyli
 0;48.1058,39.8242;AZ 3024;Imişli;Muradalılı
 0;46.3843,39.8215;;Lachin Rayon;Muncuqlu
 0;46.9397,39.9409;AZ 0200;Ağdam;Muğanlı
 0;47.1401,39.8251;AZ 2800;Xocavənd;Muğanlı
 0;44.9235,39.5442;;Nakhchivan;Muğanlı
-0;46.7313,39.2369;;Qubadlı;Muğanlı
+0;46.7313,39.2369;;Qubadli;Muğanlı
 0;46.7753,39.0923;AZ 6400;Zəngilan;Muğanlı
 0;48.9557,39.7136;AZ 5220;Salyan;Mugan-Gyandzhali
 0;45.0162,39.5551;;Nakhchivan;Muğancıq Müslüm
@@ -543,7 +543,7 @@
 0;48.8928,39.9264;AZ 5429;Sabirabad;Minbaşı
 0;47.1923,39.9808;AZ 0425;Ağcabədi;Minaxorlu
 0;47.7908,39.8047;AZ 1217;Beyləqan;Milskii
-0;46.7324,39.4927;;Qubadlı;Milanlı
+0;46.7324,39.4927;;Qubadli;Milanlı
 0;45.7402,39.2710;;Nakhchivan;Milax
 0;48.7268,38.5892;AZ 0725;Astara;Miki
 0;48.8364,39.8331;AZ 5221;Salyan;Mikhaylovskoye
@@ -561,7 +561,7 @@
 0;48.3118,38.9612;AZ 6512;Yardimli;Myalikli
 0;48.2189,39.2248;AZ 1513;Cəlilabad;Melikkasymly
 0;47.0831,39.5293;AZ 1900;Füzuli;Melikcanlı
-0;46.5131,39.4530;;Qubadlı;Melikakhmedli
+0;46.5131,39.4530;;Qubadli;Melikakhmedli
 0;46.5592,39.3030;AZ 3900;Qubadli;Mehrili
 0;46.7346,39.8927;AZ 2900;Xocali;Mekhtishen
 0;47.2784,39.3826;;Jabrayil;Mehdili
@@ -569,7 +569,7 @@
 0;48.8458,38.4541;AZ 0721;Astara;Məsçitməhəllə
 0;48.2466,39.9139;AZ 4916;Saatli;Maztaly
 0;48.0325,39.7740;AZ 3029;Imişli;Mazarli
-0;46.4110,39.4102;;Qubadlı;Mazra
+0;46.4110,39.4102;;Qubadli;Mazra
 0;47.0820,39.2920;;Jabrayil;Mazraly
 0;45.9222,39.0556;;Nakhchivan;Mazrya
 0;46.9356,39.7132;;Khojavend;Mavas
@@ -647,7 +647,7 @@
 0;48.9803,39.5802;AZ 5218;Salyan;Kür Qaraqaşlı
 0;49.0195,39.4648;AZ 4728;Neftçala;Kürqarabucaq
 0;48.1303,38.8870;AZ 6523;Yardimli;Kyurekchi
-0;46.7358,39.2150;;Qubadlı;Kürd Mahruzlu
+0;46.7358,39.2150;;Qubadli;Kürd Mahruzlu
 0;48.2108,39.8057;AZ 3024;Imişli;Kürdmahmudlu
 0;47.4507,39.6022;AZ 1921;Füzuli;Yuxarı Kürdmahmudlu
 0;47.1573,39.9893;AZ 0217;Ağdam;Kyurdlyar
@@ -768,7 +768,7 @@
 0;46.9180,39.3788;;Jabrayil;Hovuslu
 0;47.1072,39.5137;AZ 1900;Füzuli;Xatınbulaq
 0;46.3479,39.8302;;Lachin Rayon;Khatamlar
-0;46.7212,39.4931;;Qubadlı;Hat
+0;46.7212,39.4931;;Qubadli;Hat
 0;48.7393,38.8532;AZ 4230;Lənkəran;Xarxatan
 0;48.5676,38.7775;AZ 4335;Lerik;Haran
 0;48.3521,39.2071;AZ 1513;Cəlilabad;Xanılı
@@ -1104,7 +1104,7 @@
 0;45.4361,39.3056;;Nakhchivan;Didivar
 0;44.9813,39.4488;;Nakhchivan;Diadin
 0;45.0542,39.4941;;Nakhchivan;Danyeri
-0;46.6981,39.5022;;Qubadlı;Deşdahat
+0;46.6981,39.5022;;Qubadli;Deşdahat
 0;48.2900,38.9074;AZ 6518;Yardimli;Deryavar
 0;44.9961,39.5173;;Nakhchivan;Dervishlyar
 0;46.8421,39.7142;AZ 5800;Şuşa;Demirchilyar
@@ -1118,7 +1118,7 @@
 0;47.1496,39.3482;;Jabrayil;Dezhal
 0;48.8694,39.4553;AZ 5227;Salyan;Dayykend
 0;46.6433,39.5904;AZ 4100;Laçin;Daygyan
-0;46.4279,39.4401;;Qubadlı;Davudlu
+0;46.4279,39.4401;;Qubadli;Davudlu
 0;48.6070,38.7210;AZ 4327;Lerik;Davaradibi
 0;48.6035,38.6453;AZ 4332;Lerik;Dostar
 4282;45.9096,38.8837;;Nakhchivan;Deste
@@ -1243,7 +1243,7 @@
 0;46.1301,39.9775;;Kalbajar;Başlıbel
 0;48.9397,39.8529;AZ 5221;Salyan;Beshir-Beyli
 0;45.8269,38.9849;;Nakhchivan;Bashdiza
-0;46.7296,39.4677;;Qubadlı;Başarat
+0;46.7296,39.4677;;Qubadli;Başarat
 0;48.4695,38.7523;AZ 4318;Lerik;Barzavu
 7075;49.2479,39.4112;AZ 4713;Neftçala;Severo-Vostotchnyi Bank
 0;48.6258,39.0397;AZ 4424;Masalli;Banbaşı
@@ -1394,7 +1394,7 @@
 0;47.6971,39.7873;AZ 1213;Beyləqan;Alinazarli
 0;47.9309,39.9087;AZ 3031;Imişli;Alikulular
 0;46.4119,39.7456;;Lachin Rayon;Alıqulu
-0;46.4750,39.4521;;Qubadlı;Alikuluushagly
+0;46.4750,39.4521;;Qubadli;Alikuluushagly
 0;47.0427,39.2335;;Jabrayil;Alıkeyxalı
 0;48.4569,39.2866;AZ 1529;Cəlilabad;Alikasymly
 0;45.9437,39.9859;;Kalbajar;Mollabayramlı
@@ -1456,7 +1456,7 @@
 0;48.4047,39.2581;AZ 1525;Cəlilabad;Abışabad
 1858;45.6374,39.1363;;Nakhchivan;Abrakunis
 0;48.4541,39.4275;AZ 1311;Biləsuvar;Abish-Kyand
-0;46.7071,39.2192;;Qubadlı;Abilja
+0;46.7071,39.2192;;Qubadli;Abilja
 0;48.1564,38.9224;AZ 6523;Yardimli;Abdinli
 0;46.5488,39.4118;AZ 3900;Qubadli;Abdalanlı
 0;46.9213,39.8625;AZ 2900;Xocali;Abdal
@@ -1507,7 +1507,7 @@
 0;48.8333,38.6500;AZ 4223;Lənkəran;Daşdalıqcar
 0;48.8104,38.6354;AZ 4217;Lənkəran;Telman
 0;48.7673,38.5919;AZ 0725;Astara;Reyna
-0;46.7097,39.2388;;Qubadlı;Kavdadıq
+0;46.7097,39.2388;;Qubadli;Kavdadıq
 0;48.4300,39.0308;AZ 1511;Cəlilabad;Dzhardu
 0;48.2792,39.2819;AZ 1520;Cəlilabad;Taza-Abad
 0;48.2130,39.3125;AZ 1520;Cəlilabad;Chay-Karali
@@ -1592,7 +1592,7 @@
 0;47.0314,39.7575;AZ 2800;Xocavənd;Xanoba
 0;47.1619,39.8300;AZ 2800;Xocavənd;Kuropatkino
 0;47.0784,39.5636;AZ 1900;Füzuli;Axullu
-0;46.7290,39.2347;;Qubadlı;Mahruzlu
+0;46.7290,39.2347;;Qubadli;Mahruzlu
 0;45.0150,39.5401;;Nakhchivan;Yuxarı Aralıq
 0;47.9906,39.9624;AZ 3011;Imişli;Dzhafarli
 0;45.0882,39.6445;;Nakhchivan;Gyumyushlu
@@ -1601,8 +1601,8 @@
 0;45.9156,39.1098;;Nakhchivan;Agdere
 0;45.5150,39.4286;;Nakhchivan;Badamlı
 0;46.5907,39.2814;AZ 3900;Qubadli;Gartiz
-0;46.3959,39.4341;;Qubadlı;Eyvazlı
-0;46.4393,39.3679;;Qubadlı;Yuxarı Cibikli
+0;46.3959,39.4341;;Qubadli;Eyvazlı
+0;46.4393,39.3679;;Qubadli;Yuxarı Cibikli
 0;46.6514,39.3949;AZ 3900;Qubadli;Qarağac
 0;47.0530,39.3263;;Jabrayil;Hüseynalılar
 0;47.0283,39.3580;;Jabrayil;Agtepe
@@ -1664,7 +1664,7 @@
 0;46.6125,39.6667;AZ 4100;Laçin;Tsaxkadzor
 0;45.4413,39.1609;;Nakhchivan;Yamxana
 0;46.7153,39.4072;AZ 3900;Qubadli;Chullu
-0;46.5024,39.4641;;Qubadlı;Nerkin Khndzoresk
+0;46.5024,39.4641;;Qubadli;Nerkin Khndzoresk
 0;46.1312,40.2644;;Kalbajar;Tekekayasy
 0;47.0167,40.3000;AZ 5924;Tər-Tər;Sarvanlar
 0;47.4632,40.3553;AZ 6312;Zərdab;Xınaxlı
@@ -1827,7 +1827,7 @@
 1900;46.0718,40.4936;AZ 1626;Daşkəsən;Yukhari Dashkasan
 0;46.6392,41.4583;AZ 6218;Zaqatala;Verkhiyan
 0;46.5344,40.1309;;Kalbajar;Yuxarı Oratağ
-0;48.9476,40.8985;;Xızı;Verdekh
+0;48.9476,40.8985;;Xizi;Verdekh
 0;47.2529,40.3995;AZ 0937;Bərdə;Veliushakhly
 0;47.7542,40.2383;AZ 6300;Zərdab;Velikhanly
 0;47.8622,40.7781;AZ 3620;Qəbələ;Velasli
@@ -1890,7 +1890,7 @@
 307;47.5436,40.7047;AZ 0331;Ağdaş;Türyançay
 0;47.2127,40.3001;AZ 0929;Bərdə;Tumaslı
 0;46.2434,40.4394;AZ 2111;Gədəbəy;Tulallar
-0;49.0702,40.7354;;Xızı;Tudar
+0;49.0702,40.7354;;Xizi;Tudar
 0;48.1876,40.7067;AZ 3115;Ismayilli;Tuvikend
 0;46.4516,41.7296;AZ 0822;Balakən;Solban
 0;46.5835,40.0577;;Kalbajar;Tsmakaog
@@ -1911,7 +1911,7 @@
 0;48.3284,40.7360;AZ 3127;Ismayilli;Tircan
 1850;47.7554,41.0211;AZ 3611;Qəbələ;Tikanlı
 0;48.8444,41.5851;AZ 2713;Xaçmaz;Tikanlıoba
-0;49.1833,40.6333;;Xızı;Tervakharva
+0;49.1833,40.6333;;Xizi;Tervakharva
 0;48.6181,41.1951;AZ 4014;Quba;Tengyaalty
 0;48.0739,40.1183;AZ 3320;Kürdəmir;Telişli
 0;48.6432,41.7594;AZ 2724;Xaçmaz;Tel
@@ -2040,7 +2040,7 @@
 0;46.7839,40.5712;AZ 2237;Goranboy;Abbasqulular
 0;45.5844,40.5470;AZ 2112;Gədəbəy;Şahdağ
 0;45.8109,40.5232;AZ 2100;Gədəbəy;Shurakend
-2100;49.4677,40.8199;;Xızı;Shorabad
+2100;49.4677,40.8199;;Xizi;Shorabad
 0;46.9996,40.2093;AZ 5924;Tər-Tər;Şuraabad
 0;48.6167,41.6167;AZ 2734;Xaçmaz;Shumagir
 0;48.0667,40.6918;AZ 3112;Ismayilli;Shyukyurchi
@@ -2094,7 +2094,7 @@
 0;46.7125,40.7547;AZ 2225;Goranboy;Shamkhalar
 0;46.3255,41.6699;AZ 0826;Balakən;Shambulbina
 0;46.2720,41.6921;AZ 0827;Balakən;Şambul
-0;49.3578,40.7427;;Xızı;Shalgyakh
+0;49.3578,40.7427;;Xizi;Shalgyakh
 0;47.8760,40.1397;AZ 6322;Zərdab;Şahhüseynli
 0;48.0496,40.6190;AZ 2323;Göyçay;Şahsoltanlı
 0;47.2305,39.9997;AZ 0425;Ağcabədi;Tazakend
@@ -2109,7 +2109,7 @@
 0;49.4569,40.2962;;Baki;Sahqaya
 0;48.3940,40.4694;AZ 0630;Ağsu;Shebaly
 0;48.2846,40.4363;AZ 3313;Kürdəmir;Shakhbeyli
-0;49.2298,40.6243;;Xızı;Şixandağ
+0;49.2298,40.6243;;Xizi;Şixandağ
 0;47.7121,40.6321;AZ 2330;Göyçay;Shakhadat
 0;45.4633,41.1719;AZ 0511;Ağstafa;Shakarly
 0;50.1306,40.4939;;Baki;Şağan
@@ -2187,7 +2187,7 @@
 0;45.6691,40.7897;AZ 2133;Gədəbəy;Sadıqlı
 0;47.5724,40.6269;AZ 0321;Ağdaş;Sadavat
 0;47.0333,40.5167;AZ 6624;Yevlax;Sadafli
-0;48.6376,40.8989;;Şamaxı;Sachyarni
+0;48.6376,40.8989;;Şamaxi;Sachyarni
 0;46.7965,41.5886;AZ 6238;Zaqatala;Sabunçu
 20996;49.9481,40.4425;AZ 0127;Abşeron;Sabunçu
 0;48.7900,41.6252;AZ 2713;Xaçmaz;Sabiroba
@@ -2677,7 +2677,7 @@
 0;46.5697,40.7639;AZ 2218;Goranboy;Kurbanzade
 0;48.1051,40.8752;AZ 3129;Ismayilli;Kurbanefendili
 0;48.9608,40.5680;AZ 3700;Qobustan;Qurbançı
-0;48.9465,40.9418;;Siyǝzǝn;Kunshady
+0;48.9465,40.9418;;Siyəzən;Kunshady
 0;48.5968,41.1461;AZ 4025;Quba;Kunxırt
 0;45.8228,40.5769;AZ 2100;Gədəbəy;Qumlu
 0;47.4878,41.0248;AZ 4821;Oğuz;Qumlaq
@@ -2924,7 +2924,7 @@
 0;46.5516,41.6560;AZ 0815;Balakən;Katex
 0;45.6124,40.5630;AZ 2116;Gədəbəy;Qasımlı
 0;48.6698,41.7671;AZ 2724;Xaçmaz;Kasymkend
-0;49.0827,40.7445;;Xızı;Kasymkend
+0;49.0827,40.7445;;Xizi;Kasymkend
 0;48.1990,40.5354;AZ 0616;Ağsu;Kasymbeyli
 0;46.8374,40.5047;AZ 4600;Naftalan;Kasymbeyli
 0;47.0762,40.3654;AZ 0900;Bərdə;Kasymbeyli
@@ -3320,7 +3320,7 @@
 0;48.3916,41.4687;AZ 3817;Qusar;Evedzhyuk
 0;46.9414,40.0259;AZ 0200;Ağdam;Ətyeməzli
 0;48.6613,40.0476;AZ 2418;Haciqabul;Etchelyar
-0;48.9112,40.9436;;Siyǝzǝn;Erzikyush
+0;48.9112,40.9436;;Siyəzən;Erzikyush
 0;48.5057,41.2780;AZ 4026;Quba;Ermyaki
 0;47.2207,40.7220;AZ 6613;Yevlax;Ermenibazar
 0;46.4755,40.4646;AZ 2212;Goranboy;Erkeç
@@ -3552,7 +3552,7 @@
 3189;45.5592,40.7262;AZ 2120;Gədəbəy;Çatax
 0;48.4903,41.4392;AZ 4019;Quba;Chartepe
 0;48.0608,40.1445;AZ 3320;Kürdəmir;Chartayaz
-0;49.3031,40.6406;;Xızı;Charmimazar
+0;49.3031,40.6406;;Xizi;Charmimazar
 0;48.8695,41.3920;AZ 2712;Xaçmaz;Çarxı
 0;49.0620,41.0438;AZ 5314;Siyəzən;Çarxana
 0;47.7046,40.8344;AZ 3616;Qəbələ;Çarxana
@@ -3874,7 +3874,7 @@
 0;47.2531,41.0062;AZ 5535;Şəki;Alyar
 1012;47.8737,40.1073;AZ 6322;Zərdab;Alvand
 700;46.0523,40.5296;AZ 1600;Daşkəsən;Alunitdagh
-1700;48.9354,40.8578;;Xızı;Altiaghaj
+1700;48.9354,40.8578;;Xizi;Altiaghaj
 0;47.7366,40.4878;AZ 6119;Ucar;Alpı
 0;48.5587,40.5567;AZ 0611;Ağsu;Razvaliny Alpout
 0;45.2124,41.0875;AZ 3512;Qazax;Alpout
@@ -4573,8 +4573,8 @@
 0;45.4620,41.2995;;Ağstafa;Ceyrançöl
 0;48.9459,41.0907;AZ 5316;Siyəzən;Qalaaltı
 0;49.3946,40.8378;AZ 8011;Xizi;Məşədi Həsən
-0;49.4706,40.7556;;Xızı;Yeni Yaşma
-0;49.4610,40.7956;;Xızı;Türkoba
+0;49.4706,40.7556;;Xizi;Yeni Yaşma
+0;49.4610,40.7956;;Xizi;Türkoba
 0;49.1343,40.8043;AZ 8000;Xizi;Dizəvər
 0;45.4521,41.1237;AZ 0500;Ağstafa;Qaçaq Kərəm
 0;45.6070,40.9961;AZ 6011;Tovuz;Abulbəyli
@@ -4862,9 +4862,9 @@
 0;46.8714,39.4346;;Jabrayil;Molla Həsənli
 0;46.7748,39.4179;;Jabrayil;Xanağabulaq
 0;46.5423,39.5303;AZ 4100;Laçin;Aşağı Cicimli
-0;46.6818,39.4588;;Qubadlı;Armudlu
-0;46.9194,39.4139;;Qubadlı;Nüsüs
-0;46.9025,39.4005;;Qubadlı;Niftalılar
+0;46.6818,39.4588;;Qubadli;Armudlu
+0;46.9194,39.4139;;Qubadli;Nüsüs
+0;46.9025,39.4005;;Qubadli;Niftalılar
 0;46.1870,40.1660;;Kalbajar;Pirilər
 0;46.0126,40.1001;AZ 3200;Kəlbəcər;Kaha
 0;46.0655,40.1197;AZ 3200;Kəlbəcər;Boyaqlı

@@ -183,7 +183,8 @@ test('corrections : une seule graphie par région et par pays', () => {
 // Régions que le recouvrement territorial accusait et que la CARTE a sauvées : elles doivent RESTER distinctes.
 const ETIQUETTES_EPARGNEES = [
   { cc: 'DE', region: 'Saarland', pourquoi: 'Land à part entière, 57 % de recouvrement avec la Rhénanie-Palatinat' },
-  { cc: 'DE', region: 'Bremen', pourquoi: 'Land enclavé à 100 % dans la Basse-Saxe — le recouvrement seul le condamnait' }
+  { cc: 'DE', region: 'Bremen', pourquoi: 'Land enclavé à 100 % dans la Basse-Saxe — le recouvrement seul le condamnait' },
+  { cc: 'SE', region: 'Håbo', pourquoi: 'commune d\'Uppsala, HOMONYME de Habo (Jönköping) à un diacritique près. En suédois le å est une lettre à part entière : ce sont deux communes distinctes, séparées de 246 km. C\'est le cas qui a imposé de distinguer une différence de CASSE, certaine, d\'une différence de DIACRITIQUE, à vérifier' }
 ];
 test('corrections : les régions sauvées par la carte gardent leur étiquette', () => {
   const bad = [];

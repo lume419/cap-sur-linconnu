@@ -143,6 +143,51 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **Les 2 095 étiquettes candidates hors d'Allemagne ont été arbitrées : AUCUNE n'était à corriger, et c'est le
+  résultat le plus utile de la passe.** 3 562 requêtes de carte en 77 minutes, une par seconde. Verdicts :
+  **1 286 régions bel et bien DISTINCTES**, 647 indécises, et 162 que la méthode donnait « même territoire » —
+  mais ces 162 n'en étaient pas.
+  - **La question avait d'abord été mal posée.** Demander à la carte « quel nom est le bon » ne marche pas : selon
+    la langue demandée elle répond « Niedersachsen » ou « Lower Saxony », donc elle confirmerait tantôt l'un tantôt
+    l'autre. La bonne question est « **A et B désignent-ils le même territoire ?** », et on y répond en comparant
+    LA RÉPONSE DE LA CARTE pour une fiche A à SA RÉPONSE pour une fiche B — indépendamment de toute langue.
+  - **Une garde a été ajoutée après un échec de validation sur l'ANDORRE** : au zoom 8, Encamp et Canillo — deux
+    paroisses distinctes — répondent tous deux la relation du PAYS, la carte ne descendant pas à leur rang. La
+    méthode les aurait fusionnées. Désormais « même territoire » n'est retenu que si la carte NOMME l'une des deux
+    étiquettes ; sinon le cas est indécis.
+  - **Et malgré cette garde, les 162 restants ne sont pas des identités mais des INCLUSIONS ou des voisinages.**
+    Mesuré sur les trois plus gros : « Skellefteå » est une COMMUNE entièrement contenue dans le COMTÉ de
+    « Västerbotten » (100 % de ses lieux dans la boîte de l'autre, qui est quatre fois plus vaste) ; « Bashkia
+    Librazhd » et « Bashkia Elbasan » sont deux communes albanaises VOISINES (31 % et 6 %) ; « Etelä-Pirkanmaa » et
+    « Tampere » de même (22 % et 10 %). Les unifier aurait remplacé une étiquette fine et juste par une plus
+    grossière — une perte d'information déguisée en correction.
+  - **Le critère spatial ne sait pas distinguer « A est la même chose que B » de « A est DANS B ».** C'est la
+    troisième fois de la journée qu'un critère purement géométrique trompe, après la Sarre et Brême. Les 86 533
+    fiches signalées ne sont donc pas un gisement de corrections : ce sont, pour l'essentiel, de vraies régions
+    distinctes que le crible de recouvrement accuse à tort.
+- **En revanche une AUTRE famille, elle, était prouvable : 46 graphies, 354 fiches, quatre pays.** Nouveau
+  `scripts/audit-etiquettes-orthographe.js` : une même région écrite deux fois, à la casse et aux accents près.
+  « msila » et « M'Sila » ne peuvent pas être deux wilayas d'Algérie. Le crible SPATIAL n'en voyait que 11, ses
+  seuils écartant les paires trop petites ou trop entremêlées.
+  - **Deux forces de preuve, et elles ne se valent pas.** 41 paires ne diffèrent QUE PAR LA CASSE ou la ponctuation
+    (« illizi » / « Illizi », « Criuleni- Dub. » / « Criuleni-Dub. ») : aucune langue n'en fait deux mots, aucun
+    contrôle n'est nécessaire. 5 diffèrent par un DIACRITIQUE, et là il faut vérifier — car un diacritique peut
+    être une vraie lettre.
+  - **C'est HÅBO qui a imposé cette distinction, et elle a été épargnée.** Håbo (Uppsala) et Habo (Jönköping) sont
+    deux communes suédoises réellement distinctes, séparées de 246 km : en suédois le å est une lettre à part
+    entière. Contrôle retenu : la distance médiane d'un lieu de la graphie minoritaire au plus proche lieu de la
+    majoritaire — 11 à 38 km quand c'est la même région, 246 km ici. Håbo entre dans les étiquettes protégées par
+    les tests.
+  - **Deux essais écartés en chemin**, et leurs contre-exemples sont gardés : le recouvrement de CASES rejetait
+    « adrar » et « Adrar » (14 % de cases communes), une wilaya saharienne étant immense et ses lieux dispersés ;
+    et un normaliseur qui SUPPRIMAIT les lettres hors [a-z] faisait de « Tromsø » un « troms » confondu avec le
+    COMTÉ de Troms — d'où une translittération (ø → o) plutôt qu'une suppression.
+  - **L'Algérie rejoint les pays non régénérables fidèlement** : sa régénération changeait 684 lignes de codes
+    postaux et de régions étrangères au sujet, son fichier postal étant présent. Correction appliquée directement
+    au fichier publié, sur le seul champ de la région, comme pour la Russie et les trois autres.
+  - **Bilan : 354 étiquettes unifiées, aucun changement hors du champ de la région** — Algérie 314, Azerbaïdjan 37,
+    Moldavie 2, Roumanie 1.
+
 - **`public/js/app.js` est entièrement couvert : 244 fonctions sur 244, contre 171 au matin.** Le journal
   consignait « 86 des 244 fonctions ne sont exercées par aucun test » depuis plusieurs passes sans que rien ne s'y
   attaque. `tests/ui-couverture.test.js` compte désormais **102 tests** en treize lots.
