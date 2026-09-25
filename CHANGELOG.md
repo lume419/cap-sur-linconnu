@@ -143,6 +143,40 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **Le correctif du générateur est appliqué PAYS PAR PAYS, avec contrôle : 6 560 étiquettes corrigées dans six
+  pays, et 49 pays restaurés.** 81 pays ont un fichier postal et un dump, soit 3 341 846 fiches. Chacun a été
+  régénéré seul, mesuré, puis gardé ou remis en l'état — jamais sur une impression.
+  - **Procédure, et elle refuse par défaut** : sauvegarde, régénération, puis trois portes. Si des champs AUTRES
+    que la région changent, le pays dérive pour une raison étrangère à ce correctif et il est RESTAURÉ. Sinon un
+    échantillon des fiches changées est soumis à la carte, ancienne étiquette contre nouvelle. Le résultat n'est
+    gardé que si la carte tranche pour la nouvelle **au moins quatre fois décisives, au moins trois fois, et deux
+    fois plus souvent que pour l'ancienne**. Faute de preuves, on restaure : ne rien changer est le choix sûr.
+  - **Une première règle a été écartée après un essai** : elle gardait la Moldavie sur **un seul** sondage décisif
+    pour 389 changements, sept des huit réponses de la carte ne reconnaissant ni l'ancienne étiquette ni la
+    nouvelle — la carte répondant dans une autre écriture. Une décision ne peut pas reposer là-dessus.
+  - **UNE QUATRIÈME PORTE a dû être ajoutée, et c'est la suite complète qui l'a révélée.** Huit pays étaient
+    d'abord gardés sur des sondages sans contradiction. Deux d'entre eux CRÉAIENT pourtant de nouveaux doublons
+    orthographiques — exactement le défaut corrigé quelques heures plus tôt : la MOLDAVIE en fabriquait douze
+    (« Donduşeni » face à « Donduseni », « Floreşti » face à « Floresti »…) et la LETTONIE un (« Jūrmala » face à
+    « Jurmala »), la régénération n'accentuant qu'une partie des fiches. Elles sont restaurées.
+  - **Deux tests l'ont attrapé, et aucun n'avait été écrit pour ça.** Celui des tables de correction a vu que
+    l'étiquette « Criuleni-Dub. » visée par ETIQUETTE_UNIFIEE n'était plus portée par aucune fiche moldave ; et
+    celui de `build-tension-zones.js` a vu que `trip-data.js` n'était plus reproduit à l'octet près, les zones à
+    tension étant définies par des LIBELLÉS DE RÉGION dont le générateur vérifie l'existence. Un changement
+    d'étiquette peut donc casser une zone à tension : c'est une dépendance qu'il faut avoir en tête.
+  - **GARDÉS, six pays, tous sur des sondages sans aucune contradiction (4 contre 0)** : Lituanie 3 796,
+    Albanie 1 726, Haïti 705, Féroé 180, Estonie 111, Roumanie 42 — soit **6 560 étiquettes**.
+  - **RESTAURÉS pour dérive étrangère au correctif : 30 pays**, et c'est la mesure la plus parlante du défaut qui
+    reste : Chine **132 396** lignes, Pakistan **102 784**, Thaïlande 59 817, Brésil 46 055, Maroc 45 957,
+    Colombie 23 802, Malaisie 17 513… Leur code postal change à la régénération, indépendamment des régions. C'est
+    le même défaut que celui de l'Algérie, et il n'est pas traité.
+  - **RESTAURÉS faute de sondages décisifs : 8** — Chypre, Islande, Macédoine du Nord, Bulgarie, Serbie,
+    Biélorussie, Ukraine, Turquie. La carte y répond dans une écriture que la comparaison ne sait pas rapprocher.
+  - **RESTAURÉS parce que la carte NE TRANCHE PAS pour la nouvelle : 9** — Azerbaïdjan (2 contre 2), Équateur et
+    Panama (0 contre 1), États-Unis, Mexique, Pérou, Nouvelle-Zélande, Porto Rico, Bermudes. Le correctif n'y
+    apporte rien de démontrable, on n'y touche pas.
+  - **26 pays inchangés** : le correctif ne modifie rien chez eux.
+
 - **LE DÉFAUT DE FOND DU GÉNÉRATEUR EST CORRIGÉ : un lieu ne prend plus sa région chez son voisin.** C'est la
   cause commune des trois familles de corrections à la main de ces deux jours — les 59 étiquettes de
   `DIVISION_FIXES`, les 199 codes de `CP_CONTREDIT`, et six pays devenus non régénérables. Le générateur prenait

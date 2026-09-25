@@ -10,7 +10,7 @@
 334;25.9753,59.5725;45501;Haljala vald;Võsu
 0;26.4286,58.3372;61319;Elva vald;Võsivere
 0;27.0506,57.8278;65565;Võru vald;Võrusoo
-12367;27.0194,57.8339;65565;Võru vald;Võru
+12367;27.0194,57.8339;65565;Võrumaa;Võru
 0;25.9711,58.7028;48221;Põltsamaa vald;Vorsti
 0;22.7631,58.3958;94323;Saaremaa vald;Võrsna
 415;23.2167,59.0000;91304;Vormsi vald;Vormsi
@@ -23,7 +23,7 @@
 0;27.1311,59.4058;43310;Lüganuse vald;Voorepera
 0;24.5814,59.2574;76410;Saue vald;Voore
 0;26.5028,59.2336;46642;Vinni vald;Voore
-112;27.5370,58.0812;64401;Räpina vald;Võõpsu
+112;27.5370,58.0812;64401;Võrumaa;Võõpsu
 0;23.5011,59.0714;91215;Lääne-Nigula vald;Vööla
 131;27.0797,58.3511;62316;Kastre vald;Võõpste
 42;23.8044,58.9689;90820;Lääne-Nigula vald;Võntküla
@@ -88,7 +88,7 @@
 596;26.6003,59.1703;46602;Vinni vald;Roela
 0;27.0458,59.1953;42324;Lüganuse vald;Virunurme
 364;26.6875,59.4442;44001;Viru-Nigula vald;Viru-Nigula
-0;23.9989,58.4969;88108;Pärnu linn;Viruna
+0;23.9989,58.4969;88108;Pärnumaa;Viruna
 0;24.2025,59.0922;76206;Saue vald;Viruküla
 186;26.6756,59.3531;46714;Vinni vald;Viru-Kabala
 376;26.4758,59.2425;46604;Vinni vald;Viru-Jaagupi
@@ -106,9 +106,9 @@
 1032;26.4322,59.2958;46601;Vinni vald;Vinni
 0;26.3969,59.2894;46640;Vinni vald;Vana-Vinni
 0;24.2489,58.8983;78113;Märjamaa vald;Vinguta
-0;24.4989,58.4150;80043;Pärnu linn;Vingiküla
+0;24.4989,58.4150;80043;Pärnumaa;Vingiküla
 0;24.8017,58.3333;86405;Saarde vald;Vingerja
-17407;25.5916,58.3632;71024;Viljandi vald;Viljandi
+17407;25.5916,58.3632;71024;Viljandimaa;Viljandi
 124;27.3303,57.9864;64225;Räpina vald;Viluste
 0;26.9553,58.8778;42007;Mustvee vald;Vilusi
 0;23.0547,58.4086;94418;Saaremaa vald;Viltina
@@ -367,7 +367,7 @@
 346;26.2917,58.8128;48446;Jõgeva vald;Vaimastvere
 0;24.3667,59.3964;76920;Harku vald;Vaila
 0;24.8817,58.2842;86411;Saarde vald;Väikseküla
-0;24.1194,58.9269;90712;Lääne-Nigula vald;Vaikna
+0;24.1194,58.9269;90712;Raplamaa;Vaikna
 0;27.3669,59.0756;41114;Alutaguse vald;Vaikla
 0;25.4711,58.6625;72006;Türi vald;Väike-Villevere
 0;27.4369,58.0228;64228;Räpina vald;Veerksu
@@ -427,7 +427,7 @@
 0;24.8333,58.1167;86105;Saarde vald;Vaarja
 19;23.8317,58.9703;90819;Lääne-Nigula vald;Väändla
 0;23.9242,58.5436;88428;Lääneranna vald;Väänja
-0;26.3983,58.5136;60606;Tartu vald;Väänikvere
+0;26.3983,58.5136;60606;Jõgevamaa;Väänikvere
 0;24.4333,59.3833;76918;Harku vald;Vääna-Mõisaküla
 230;24.4120,59.3909;76903;Harku vald;Vääna
 0;25.9719,58.8531;72513;Järva vald;Vaali
@@ -448,7 +448,7 @@
 0;25.6806,59.4536;74708;Kuusalu vald;Uurita
 113;25.5803,59.4892;74640;Kuusalu vald;Uuri
 0;24.5833,58.2500;86505;Häädemeeste vald;Uulu-Leina
-0;24.6167,58.3000;86508;Häädemeeste vald;Uuluküla
+0;24.6167,58.3000;86508;Pärnumaa;Uuluküla
 524;24.5872,58.2836;86502;Häädemeeste vald;Uulu
 22;23.7608,58.9919;91013;Lääne-Nigula vald;Uugla
 0;25.6000,58.4000;71070;Viljandi vald;Uue Võidu
@@ -515,7 +515,7 @@
 226;26.8136,58.9086;42102;Mustvee vald;Ulvi
 0;24.0850,58.7319;90247;Lääneranna vald;Uluste
 0;25.5550,58.0669;69115;Mulgi vald;Ülpre
-0;24.4375,58.4336;85001;Tori vald;Ullaste
+0;24.4375,58.4336;85001;Pärnumaa;Ullaste
 0;26.7639,59.3486;46713;Vinni vald;Uljaste
 0;22.2740,58.2843;93529;Saaremaa vald;Ulje
 0;22.6414,58.7619;92030;Hiiumaa vald;Ulja
@@ -538,7 +538,7 @@
 0;23.8169,59.2669;76018;Lääne-Harju vald;Ugla
 0;24.5383,58.6183;87209;Põhja-Pärnumaa vald;Uduvere
 0;22.5786,58.3397;93745;Saaremaa vald;Uduvere
-0;25.6731,58.6650;72010;Türi vald;Uduallika
+0;25.6731,58.6650;72010;Viljandimaa;Uduallika
 73;24.0756,58.8117;90720;Lääne-Nigula vald;Üdruma
 0;26.0700,59.2969;45233;Kadrina vald;Udriku
 0;26.7892,59.2261;46630;Vinni vald;Udriku
@@ -563,7 +563,7 @@
 0;25.6339,58.2844;69601;Viljandi vald;Turva
 0;25.6500,58.5167;70402;Põhja-Sakala vald;Turu
 0;23.9878,58.1189;88004;Kihnu vald;Turu
-0;27.7500,59.4000;40116;Narva-Jõesuu linn;Türsamäe
+0;27.7500,59.4000;40116;Ida-Virumaa;Türsamäe
 0;25.4439,58.5900;71407;Põhja-Sakala vald;Turpsi
 0;22.0322,57.9778;93112;Saaremaa vald;Türju
 0;25.9406,59.0628;46025;Tapa vald;Türje
@@ -613,7 +613,7 @@
 0;27.0881,58.6228;60206;Peipsiääre vald;Tõruvere
 0;22.4644,58.4314;93887;Saaremaa vald;Tõru
 0;26.3481,59.3133;44406;Rakvere vald;Tõrma
-0;25.9997,59.2842;45001;Tapa vald;Tõrma
+0;25.9997,59.2842;45001;Lääne-Virumaa;Tõrma
 533;26.7383,58.8128;48502;Jõgeva vald;Torma
 0;22.4881,58.4533;93886;Saaremaa vald;Tõrise
 0;25.5172,58.8336;72233;Türi vald;Tori
@@ -628,7 +628,7 @@
 0;25.1000,58.3000;86204;Saarde vald;Tõõtse
 0;27.4714,58.1375;64424;Räpina vald;Tooste
 0;25.4886,58.1728;69514;Mulgi vald;Toosi
-0;25.1167,58.5000;87613;Põhja-Pärnumaa vald;Toonoja
+0;25.1167,58.5000;87613;Viljandimaa;Toonoja
 0;27.5233,58.3731;62602;Tartu vald;Tooni
 0;25.0889,59.0208;79323;Rapla vald;Toomja
 0;26.7294,59.4075;44030;Viru-Nigula vald;Toomika
@@ -893,7 +893,7 @@
 0;26.4950,59.0244;46518;Vinni vald;Sootaguse
 0;27.5844,59.1850;41213;Alutaguse vald;Sootaguse
 0;26.7075,58.4914;60529;Tartu vald;Sootaga
-0;26.5756,58.3214;61710;Kambja vald;Soosilla
+0;26.5756,58.3214;61710;Tartu;Soosilla
 0;25.6289,59.1761;73414;Järva vald;Soosalu
 0;24.2053,59.0206;78119;Märjamaa vald;Soosalu
 0;24.6039,58.6003;87236;Põhja-Pärnumaa vald;Soosalu
@@ -909,7 +909,7 @@
 0;23.0100,58.8481;92323;Hiiumaa vald;Soonlepa
 0;24.2142,58.9658;78118;Märjamaa vald;Sooniste
 0;23.9322,58.3442;88118;Pärnu linn;Sööni
-0;24.9000,58.5631;87627;Põhja-Pärnumaa vald;Soone
+0;24.9000,58.5631;87627;Pärnumaa;Soone
 0;23.2753,58.6042;94762;Muhu vald;Soonda
 0;25.8958,59.4086;45222;Kadrina vald;Soomukse
 0;24.1064,58.3969;88324;Pärnu linn;Soomra
@@ -972,13 +972,13 @@
 0;25.8608,58.8736;72507;Järva vald;Silmsi
 0;25.9333,58.8667;73024;Järva vald;Silmsi
 0;25.5853,58.8992;72758;Paide linn;Sillaotsa
-12480;27.7633,59.3970;40116;Narva-Jõesuu linn;Sillamäe
+12480;27.7633,59.3970;40116;Ida-Virumaa;Sillamäe
 22;24.0908,58.8611;90713;Lääne-Nigula vald;Silla
 0;22.2636,58.4461;93615;Saaremaa vald;Silla
 0;22.8333,58.3667;94318;Saaremaa vald;Silla
 0;24.7311,59.0281;79607;Rapla vald;Sikeldi
 0;22.5181,58.2811;93876;Saaremaa vald;Sikassaare
-0;24.8769,58.5736;87627;Põhja-Pärnumaa vald;Sikana
+0;24.8769,58.5736;87627;Pärnumaa;Sikana
 0;27.3117,58.2267;62510;Räpina vald;Sikakurmu
 797;26.3394,58.7297;48444;Jõgeva vald;Siimusti
 0;26.0833,58.4500;70304;Viljandi vald;Siimusaare
@@ -1044,7 +1044,7 @@
 0;24.9629,59.3896;75329;Rae vald;Tuulevälja
 0;24.7003,59.1956;79744;Kohila vald;Saunaküla
 0;24.5658,58.4444;85003;Tori vald;Saunaküla
-0;24.8089,58.9728;79540;Rapla vald;Saunaküla
+0;24.8089,58.9728;79540;Raplamaa;Saunaküla
 0;23.8036,58.3722;88216;Lääneranna vald;Saulepi
 0;24.2897,58.3561;88322;Pärnu linn;Saulepa
 103;25.0292,59.1944;75121;Kose vald;Saula
@@ -1082,7 +1082,7 @@
 0;26.5681,59.0531;46501;Vinni vald;Salutaguse
 0;25.0533,58.9914;79320;Rapla vald;Salutaguse
 0;25.9294,58.9853;73009;Järva vald;Salutaguse
-0;24.1183,58.9333;90712;Lääne-Nigula vald;Salutaguse
+0;24.1183,58.9333;90712;Raplamaa;Salutaguse
 0;25.2239,59.3636;75226;Anija vald;Salumäe
 0;24.3167,58.6167;87226;Põhja-Pärnumaa vald;Saluküla
 0;25.0784,59.2681;75217;Rae vald;Salu
@@ -1092,7 +1092,7 @@
 138;26.3833,58.9506;46302;Väike-Maarja vald;Salla
 0;22.9492,58.8297;92317;Hiiumaa vald;Salinõmme
 0;27.3025,59.0572;41110;Alutaguse vald;Sälliku
-0;25.9333,58.1000;68705;Tõrva vald;Sälgu
+0;25.9333,58.1000;68705;Viljandimaa;Sälgu
 0;23.5981,58.6900;90116;Lääneranna vald;Salevere
 0;24.2047,58.5614;88432;Lääneranna vald;Salevere
 0;22.6500,58.3667;94150;Saaremaa vald;Salavere
@@ -1180,7 +1180,7 @@
 114;24.4283,59.1900;76315;Saue vald;Ruila
 0;23.0367,58.3758;94423;Saaremaa vald;Ruhve
 64;23.2483,57.8003;93001;Ruhnu vald;Ruhnu
-0;27.4808,59.3006;41214;Alutaguse vald;Rausvere
+0;27.4808,59.3006;41214;Ida-Virumaa;Rausvere
 0;23.5528,58.6319;90104;Lääneranna vald;Rõuste
 0;25.1094,58.6683;87624;Põhja-Pärnumaa vald;Rõusa
 50;24.0569,59.0233;90904;Lääne-Nigula vald;Rõuma
@@ -1345,7 +1345,7 @@
 0;27.0967,58.7269;49417;Peipsiääre vald;Ranna
 0;23.1500,58.6500;94758;Muhu vald;Ranna
 0;22.0544,58.4678;93453;Saaremaa vald;Ranna
-0;26.6128,58.3489;61402;Tartu linn;Ränna
+0;26.6128,58.3489;61402;Tartu;Ränna
 0;22.8217,58.2664;94119;Saaremaa vald;Ranna
 0;25.7025,58.1153;69004;Mulgi vald;Rängle
 0;22.4331,58.2675;93836;Saaremaa vald;Randvere-Parila
@@ -1363,11 +1363,11 @@
 0;26.0192,59.0350;73309;Järva vald;Ramma
 0;23.6117,58.5667;90127;Lääneranna vald;Rame
 19;23.2850,59.0138;91310;Vormsi vald;Rälby
-14984;26.3578,59.3481;44204;Rakvere vald;Rakvere
+14984;26.3578,59.3481;44204;Lääne-Virumaa;Rakvere
 1015;26.2544,58.9817;46328;Väike-Maarja vald;Rakke
 0;25.8167,59.1833;73505;Järva vald;Raka
 0;24.6822,59.0594;79620;Rapla vald;Raka
-0;26.7244,58.9686;42122;Mustvee vald;Rajametsa
+0;26.7244,58.9686;42122;Lääne-Virumaa;Rajametsa
 0;27.3425,59.2386;41317;Alutaguse vald;Rajaküla
 0;26.5808,59.1142;46513;Vinni vald;Rajaküla
 0;26.7394,58.9594;42110;Mustvee vald;Raja
@@ -1388,11 +1388,11 @@
 0;22.7833,58.3000;94118;Saaremaa vald;Rahniku
 0;26.5817,59.3536;44220;Rakvere vald;Rahkla
 0;26.5311,59.0981;46503;Vinni vald;Rahkla
-0;24.7833,58.5667;87501;Põhja-Pärnumaa vald;Rahkema
+0;24.7833,58.5667;87501;Pärnumaa;Rahkema
 0;24.7231,58.7336;87406;Põhja-Pärnumaa vald;Rahkema
 346;26.6106,58.3844;61408;Tartu linn;Rahinge
 0;23.7839,58.4158;88206;Lääneranna vald;Raheste
-0;26.4819,59.3186;44205;Rakvere vald;Rägavere
+0;26.4819,59.3186;44205;Lääne-Virumaa;Rägavere
 0;25.7950,59.2297;73613;Tapa vald;Rägavere
 0;23.8111,58.3517;88226;Lääneranna vald;Raespa
 0;24.7653,58.9456;78409;Rapla vald;Raela
@@ -1495,7 +1495,7 @@
 0;26.3658,59.0869;46225;Väike-Maarja vald;Pudivere
 0;26.1478,58.6650;48019;Põltsamaa vald;Pudivere
 0;25.5631,59.5175;74626;Kuusalu vald;Pudisoo
-0;25.7631,59.3031;73611;Tapa vald;Pruunakõrve
+0;25.7631,59.3031;73611;Harjumaa;Pruunakõrve
 0;25.8528,59.2622;73615;Tapa vald;Pruuna
 0;25.8589,59.2314;73610;Tapa vald;Pruuna
 0;25.8506,59.1492;73504;Järva vald;Prümli
@@ -1519,7 +1519,7 @@
 0;25.8364,59.2178;73606;Tapa vald;Põriki
 0;25.8481,58.0717;68708;Tõrva vald;Pori
 0;25.8150,58.1228;69726;Viljandi vald;Põrga
-0;25.9014,58.1369;69730;Viljandi vald;Põra
+0;25.9014,58.1369;69730;Valgamaa;Põra
 0;27.3919,59.0589;41109;Alutaguse vald;Pootsiku
 109;24.1242,58.2708;88115;Pärnu linn;Pootsi
 0;23.5333,59.2167;91114;Lääne-Nigula vald;Põõsaspea
@@ -1555,13 +1555,13 @@
 0;25.4344,59.4792;74635;Kuusalu vald;Põhja
 93;24.2233,58.4639;88318;Pärnu linn;Põhara
 151;26.3528,59.4150;45316;Haljala vald;Põdruse
-0;26.7117,59.3750;44018;Viru-Nigula vald;Põdri
+0;26.7117,59.3750;44018;Lääne-Virumaa;Põdri
 113;26.1389,59.1331;46022;Tapa vald;Põdrangu
 0;27.6633,58.0056;64018;Setomaa vald;Podmotsa
 0;23.6803,58.6828;90224;Lääneranna vald;Poanse
 0;22.3489,58.9347;92259;Hiiumaa vald;Poama
 0;27.0611,57.7019;65135;Rõuge vald;Plaksi
-0;27.4653,57.8400;65356;Setomaa vald;Piusa
+0;27.4653,57.8400;65356;Võrumaa;Piusa
 0;24.4208,58.5642;87230;Põhja-Pärnumaa vald;Pitsalu
 300;25.9683,58.7239;48216;Põltsamaa vald;Pisisaare
 0;25.7167,59.2167;73612;Tapa vald;Pirsu
@@ -1647,7 +1647,7 @@
 195;25.1581,59.3356;75211;Raasiku vald;Peningi
 0;23.8181,58.7142;90305;Lääneranna vald;Penijõe
 0;25.9500,58.7833;72512;Järva vald;Pendi
-0;25.2500,58.2167;69522;Mulgi vald;Pekre
+0;25.2500,58.2167;69522;Pärnumaa;Pekre
 0;26.3647,59.4878;45315;Haljala vald;Pehka
 0;24.4961,59.3417;76914;Saue vald;Peetri-Mõisaküla
 6352;24.8145,59.3947;75312;Rae vald;Peetri
@@ -1673,7 +1673,7 @@
 172;24.9433,59.3110;75316;Rae vald;Patika
 0;25.7456,59.2611;73607;Tapa vald;Patika
 0;25.0167,58.1167;86209;Saarde vald;Pati
-0;26.7833,58.3333;62105;Kastre vald;Pataste
+0;26.7833,58.3333;62105;Tartu;Pataste
 0;26.3833,58.1553;67512;Elva vald;Pastaku
 74;23.4819,59.0250;91215;Lääne-Nigula vald;Paslepa
 0;25.2000,58.1167;69304;Mulgi vald;Pässaste
@@ -1777,7 +1777,7 @@
 0;23.0186,58.4336;94411;Saaremaa vald;Paju-Kurdla
 0;24.4213,59.0724;78248;Märjamaa vald;Pajaka
 0;27.6921,59.3956;40104;Toila vald;Päite
-0;24.1500,58.8000;90715;Lääne-Nigula vald;Paisuotsa
+0;24.1500,58.8000;90715;Raplamaa;Paisuotsa
 0;24.6594,58.8197;78243;Märjamaa vald;Paisumaa
 0;25.4000,58.4333;71305;Põhja-Sakala vald;Paistu
 346;25.6228,58.2706;69601;Viljandi vald;Paistu
@@ -2050,7 +2050,7 @@
 0;26.5800,59.2469;46620;Vinni vald;Näsu
 0;26.3244,58.3736;61311;Elva vald;Nasja
 2681;28.0408,59.4589;29021;Narva-Jõesuu linn;Narva-Jõesuu
-54409;28.1903,59.3772;40103;Narva-Jõesuu linn;Narva
+54409;28.1903,59.3772;40103;Ida-Virumaa;Narva
 100;24.3822,58.6883;78022;Märjamaa vald;Naravere
 0;26.3500,59.1667;46226;Väike-Maarja vald;Naraka
 0;24.8294,58.1556;86210;Saarde vald;Napsu
@@ -2060,14 +2060,14 @@
 0;26.3000,57.7333;68010;Valga vald;Nakatu
 0;25.3408,58.2800;69519;Mulgi vald;Naistevalla
 0;24.1833,58.6000;88422;Lääneranna vald;Naissoo
-0;24.5275,59.5583;76925;Harku vald;Naissaar
+0;24.5275,59.5583;76925;Harjumaa;Naissaar
 0;25.7267,59.3244;74502;Anija vald;Nahe
 124;27.4403,58.1733;64411;Räpina vald;Naha
 0;26.5947,57.5214;66005;Rõuge vald;Naha
 0;26.3197,59.0717;46221;Väike-Maarja vald;Nadalama
 146;24.8729,59.2738;75407;Kiili vald;Nabala
 0;25.4833,58.2833;71112;Viljandi vald;Naba
-0;24.2594,58.6242;87241;Põhja-Pärnumaa vald;Naartse
+0;24.2594,58.6242;87241;Pärnumaa;Naartse
 0;24.6217,58.8253;78243;Märjamaa vald;Nääri
 0;24.3633,59.4050;76920;Harku vald;Naage
 128;25.9025,58.9217;73105;Järva vald;Müüsleri
@@ -2372,7 +2372,7 @@
 192;26.7058,58.1497;63417;Kanepi vald;Maaritsa
 0;25.2667,58.9667;79333;Rapla vald;Määrissoo
 0;26.4178,59.0756;46219;Väike-Maarja vald;Määri
-16630;24.9822,59.4653;74120;Jõelähtme vald;Maardu
+16630;24.9822,59.4653;74120;Harjumaa;Maardu
 0;25.0190,59.4293;74210;Jõelähtme vald;Maardu
 0;25.2533,59.1947;75108;Kose vald;Maardu
 0;26.7100,58.7031;49309;Mustvee vald;Maardla
@@ -2422,7 +2422,7 @@
 0;25.8703,58.0625;68707;Tõrva vald;Lõve
 0;26.4650,59.3833;44217;Rakvere vald;Lõuta
 0;22.1331,58.0483;93245;Saaremaa vald;Lõupõllu
-7;24.5322,59.5408;76925;Harku vald;Lõunaküla
+7;24.5322,59.5408;76925;Harjumaa;Lõunaküla
 0;22.1914,58.0881;93234;Saaremaa vald;Lõu
 0;26.2158,57.9469;67105;Valga vald;Lota
 0;23.5333,58.7833;90409;Haapsalu linn;Lopi
@@ -2447,7 +2447,7 @@
 0;25.9233,59.4489;45220;Kadrina vald;Loobu
 0;24.0297,58.3142;88119;Pärnu linn;Lõõba
 2093;24.9495,59.4312;74201;Jõelähtme vald;Loo
-0;25.7167,58.9167;73111;Järva vald;Lõo
+0;25.7167,58.9167;73111;Järvamaa;Lõo
 0;24.7942,58.6967;87401;Põhja-Pärnumaa vald;Lõo
 0;23.6936,58.5939;90122;Lääneranna vald;Lõo
 0;26.5500,59.5167;44109;Viru-Nigula vald;Lontova
@@ -2459,7 +2459,7 @@
 135;24.9222,58.8033;79006;Kehtna vald;Lokuta
 0;26.0469,59.2667;45003;Tapa vald;Loksu
 0;26.1939,59.1636;46018;Tapa vald;Loksaküla
-3463;25.7214,59.5764;74816;Kuusalu vald;Loksa
+3463;25.7214,59.5764;74816;Harjumaa;Loksa
 108;24.7447,59.2816;75514;Saku vald;Lokuti
 0;22.8294,58.9325;92370;Hiiumaa vald;Loja
 0;24.8856,59.1233;79405;Rapla vald;Lõiuse
@@ -2638,7 +2638,7 @@
 0;26.3389,58.9406;46320;Väike-Maarja vald;Lasinurme
 152;26.2131,59.2489;44401;Rakvere vald;Lasila
 0;25.2122,58.1100;69306;Mulgi vald;Lasari
-0;24.1333,59.1667;76004;Lääne-Harju vald;Larvi
+0;24.1333,59.1667;76004;Harjumaa;Larvi
 0;25.7425,59.2467;73607;Tapa vald;Läpi
 152;26.1906,58.1758;61008;Elva vald;Lapetukme
 0;27.5800,58.0300;64308;Setomaa vald;Laossina
@@ -2688,10 +2688,10 @@
 0;22.0961,57.9357;93244;Saaremaa vald;Läbara
 0;25.2419,58.0106;69305;Mulgi vald;Laatre
 267;26.2536,57.8689;68314;Valga vald;Laatre
-125;27.1353,58.2622;62411;Kastre vald;Lääniste
+125;27.1353,58.2622;62411;Põlvamaa;Lääniste
 94;26.3167,57.6500;68013;Valga vald;Laanemetsa
 0;25.4514,58.3144;71107;Viljandi vald;Laanekuru
-0;24.5220,59.5566;76925;Harku vald;Star Fort
+0;24.5220,59.5566;76925;Harjumaa;Star Fort
 0;25.0833,58.9000;79213;Türi vald;Laane
 0;25.2233,58.8303;79212;Türi vald;Laane
 0;25.2772,58.3558;71202;Põhja-Sakala vald;Laane
@@ -2825,7 +2825,7 @@
 0;26.2056,58.0119;68222;Otepää vald;Kuigatsi
 0;24.0258,59.0989;90903;Lääne-Nigula vald;Kuijõemõisa
 0;26.0608,59.1092;46014;Tapa vald;Kuie
-48;24.0672,59.1294;76009;Lääne-Harju vald;Kuijõe
+48;24.0672,59.1294;76009;Lääne;Kuijõe
 0;25.6019,58.5283;70408;Põhja-Sakala vald;Kuiavere
 0;24.2256,58.5558;88417;Lääneranna vald;Kuhu
 0;25.6933,58.5022;70403;Põhja-Sakala vald;Kuhjavere
@@ -2844,7 +2844,7 @@
 0;26.9422,58.2889;62112;Kastre vald;Kriimani
 0;22.7824,58.8752;92138;Hiiumaa vald;Kreiandi
 94;25.1250,59.1858;75123;Kose vald;Krei
-0;28.1700,59.3622;40103;Narva-Jõesuu linn;Kreenholmi
+0;28.1700,59.3622;40103;Ida-Virumaa;Kreenholmi
 156;26.8339,57.6096;66102;Rõuge vald;Krabi
 0;26.8183,58.9769;42109;Mustvee vald;Kõveriku
 0;24.7367,58.1567;86406;Saarde vald;Kõveri
@@ -2991,7 +2991,7 @@
 0;22.9856,58.3897;94421;Saaremaa vald;Kõiguste
 0;26.5503,57.9725;67308;Otepää vald;Koigu
 0;26.5322,57.9350;66513;Antsla vald;Koigu
-0;25.7500,58.8667;72603;Paide linn;Koigi-Aru
+0;25.7500,58.8667;72603;Järvamaa;Koigi-Aru
 448;25.9731,59.1717;73507;Järva vald;Koigi
 0;24.7564,59.0728;79630;Rapla vald;Koigi
 0;25.7544,58.8289;72501;Järva vald;Koigi
@@ -3032,7 +3032,7 @@
 0;25.9972,59.1075;46002;Tapa vald;Kõdeküla
 0;27.1431,58.6869;49407;Peipsiääre vald;Kodavere
 0;25.2722,59.4444;74632;Kuusalu vald;Kodasoo
-0;24.2000,58.5000;88306;Pärnu linn;Kodasmaa
+0;24.2000,58.5000;88306;Pärnumaa;Kodasmaa
 0;24.5292,59.3933;76915;Saue vald;Kodasema
 178;25.4539,58.4706;71306;Põhja-Sakala vald;Kobruvere
 0;24.1578,59.1697;76004;Lääne-Harju vald;Kobru
@@ -3180,7 +3180,7 @@
 64;25.0092,59.6347;74006;Viimsi vald;Kelnase
 0;22.4736,58.2711;93817;Saaremaa vald;Kellamäe
 0;24.6317,59.0825;79611;Rapla vald;Kelba
-10068;24.4131,59.3036;76613;Lääne-Harju vald;Keila
+10068;24.4131,59.3036;76613;Harjumaa;Keila
 0;23.7644,59.2589;76019;Lääne-Harju vald;Keibu
 1579;24.8781,58.9303;79001;Kehtna vald;Kehtna
 2694;25.3211,59.3361;74305;Anija vald;Kehra
@@ -3193,8 +3193,8 @@
 15;23.8036,58.9469;90812;Lääne-Nigula vald;Kedre
 294;24.9033,58.9464;79005;Kehtna vald;Keava
 0;26.1347,59.4717;45309;Haljala vald;Kavastu
-284;27.0442,58.3747;62204;Luunja vald;Kavastu
-0;24.9664,58.5336;87622;Põhja-Pärnumaa vald;Kavasoo
+284;27.0442,58.3747;62204;Tartu;Kavastu
+0;24.9664,58.5336;87622;Pärnumaa;Kavasoo
 0;24.1717,58.2711;88107;Pärnu linn;Kavaru
 0;26.6453,58.1925;62007;Kambja vald;Kavandu
 0;22.8531,58.5925;94655;Saaremaa vald;Kavandi
@@ -3204,7 +3204,7 @@
 0;22.0903,58.0392;93242;Saaremaa vald;Kaunispe
 0;27.2206,58.9897;41008;Alutaguse vald;Kauksi
 317;27.2206,58.0883;64617;Põlva vald;Kauksi
-0;25.2822,59.3153;74312;Anija vald;Kaugemäe
+0;25.2822,59.3153;74312;Harjumaa;Kaugemäe
 0;22.2092,58.1200;93233;Saaremaa vald;Kaugatuma
 0;22.5308,58.4292;93882;Saaremaa vald;Kaubi
 0;25.3958,58.1406;69509;Mulgi vald;Kaubi
@@ -3266,7 +3266,7 @@
 0;24.8631,58.8867;79061;Kehtna vald;Kärpla
 0;27.7408,59.0550;41011;Alutaguse vald;Karoli
 97;23.1314,58.5017;94501;Saaremaa vald;Tornimäe
-0;24.9359,59.4534;74206;Jõelähtme vald;Kärmu
+0;24.9359,59.4534;74206;Harjumaa;Kärmu
 0;24.9269,59.3698;75326;Rae vald;Karla
 0;25.1294,59.1583;75106;Kose vald;Karla
 988;22.2597,58.3358;93501;Saaremaa vald;Kärla
@@ -3524,7 +3524,7 @@
 0;22.7950,58.5950;94232;Saaremaa vald;Jõiste
 10130;27.4211,59.3592;41531;Jõhvi vald;Jõhvi
 0;24.8519,58.4328;86821;Tori vald;Jõhve
-223;24.5067,59.2743;76415;Saku vald;Jõgisoo
+223;24.5067,59.2743;76415;Harjumaa;Jõgisoo
 127;25.8631,59.1750;73502;Järva vald;Jõgisoo
 40;24.0094,58.8644;90710;Lääne-Nigula vald;Jõgisoo
 153;26.0375,57.9858;68618;Tõrva vald;Jõgeveste
@@ -3603,9 +3603,9 @@
 0;24.6233,58.9706;78415;Rapla vald;Jalase
 0;25.7883,58.7817;72403;Järva vald;Jalametsa
 0;25.8536,59.0547;73308;Järva vald;Jalalõpe
-0;26.6833,57.7000;66302;Antsla vald;Jakobi
+0;26.6833,57.7000;66302;Võrumaa;Jakobi
 143;25.2386,59.4172;74205;Jõelähtme vald;Jägala
-0;24.4531,58.6850;87228;Põhja-Pärnumaa vald;Jädivere
+0;24.4531,58.6850;87228;Raplamaa;Jädivere
 0;27.0606,59.4114;43304;Lüganuse vald;Jabara
 0;26.5092,59.4261;44211;Rakvere vald;Jäätma
 0;26.4167,58.9167;46306;Väike-Maarja vald;Jäätma
@@ -3716,7 +3716,7 @@
 0;27.5000,57.9667;64304;Setomaa vald;Helbi
 0;22.2872,58.9322;92270;Hiiumaa vald;Heistesoo
 0;22.5211,58.9243;92242;Hiiumaa vald;Heiste
-0;25.5000,59.0833;75018;Kose vald;Heimtali
+0;25.5000,59.0833;75018;Järvamaa;Heimtali
 0;22.7981,58.9985;92421;Hiiumaa vald;Heilu
 0;22.5561,58.9675;92241;Hiiumaa vald;Heigi
 0;25.7167,59.6500;74706;Kuusalu vald;Hauaneeme
@@ -3737,7 +3737,7 @@
 0;23.8542,59.0139;90802;Lääne-Nigula vald;Hardu
 102;25.6436,59.5639;74810;Kuusalu vald;Hara
 33;23.5325,59.0794;91215;Lääne-Nigula vald;Hara
-0;26.4667,57.7500;66412;Antsla vald;Hansi
+0;26.4667,57.7500;66412;Valgamaa;Hansi
 0;26.7697,57.8417;66628;Võru vald;Hänike
 0;22.0806,57.9508;93111;Saaremaa vald;Hänga
 0;22.7861,58.2922;94111;Saaremaa vald;Hämmelepa
@@ -3785,7 +3785,7 @@
 0;23.5689,58.6364;90106;Lääneranna vald;Esivere
 0;22.8352,58.8069;92113;Hiiumaa vald;Esiküla
 243;26.0764,58.9317;73002;Järva vald;Ervita
-0;25.8461,59.5628;74715;Kuusalu vald;Eru
+0;25.8461,59.5628;74715;Lääne-Virumaa;Eru
 0;24.4625,58.6147;87211;Põhja-Pärnumaa vald;Ertsma
 237;26.9900,59.3719;43131;Lüganuse vald;Erra
 0;24.0133,58.3653;88105;Pärnu linn;Ermistu
@@ -3938,7 +3938,7 @@
 0;23.0181,58.4978;94511;Saaremaa vald;Are
 559;25.3708,59.1006;75001;Kose vald;Ardu
 0;23.1136,58.4886;94531;Saaremaa vald;Ardla
-0;26.8647,58.4181;62210;Luunja vald;Aravuste
+0;26.8647,58.4181;62210;Tartu;Aravuste
 144;27.3858,58.2314;62503;Räpina vald;Aravu
 955;25.7614,59.1417;73514;Järva vald;Aravete
 0;24.6164,58.9367;78423;Rapla vald;Aravere
@@ -4174,7 +4174,7 @@
 0;25.9222,59.0003;73008;Järva vald;Kuusna
 0;26.0275,58.9781;73007;Järva vald;Kapu
 0;26.1556,58.9678;46321;Väike-Maarja vald;Lahu
-0;26.1572,58.9469;46314;Väike-Maarja vald;Piibe
+0;26.1572,58.9469;46314;Järvamaa;Piibe
 0;26.0864,58.9486;73021;Järva vald;Väinjärve
 0;26.1364,58.9317;73017;Järva vald;Preedi
 0;26.0781,58.9214;73018;Järva vald;Rõhu
@@ -4634,7 +4634,7 @@
 0;26.8908,58.2308;63607;Põlva vald;Logina
 0;26.8167,58.2406;62024;Kambja vald;Sipe
 106;26.8469,58.2611;62109;Kastre vald;Ignase
-0;27.0161,58.2319;62412;Kastre vald;Mötsküla
+0;27.0161,58.2319;62412;Põlvamaa;Mötsküla
 0;27.0089,58.2472;62412;Kastre vald;Rookse
 0;27.0072,58.2758;62406;Kastre vald;Issaku
 0;26.9486,58.3044;62307;Kastre vald;Mäletjärve
@@ -4869,7 +4869,7 @@
 108;26.6039,57.7789;66414;Antsla vald;Rimmi
 0;26.6911,57.7722;66307;Antsla vald;Luhametsa
 0;26.6808,57.7528;66307;Antsla vald;Savilöövi
-0;26.7094,57.7411;66309;Rõuge vald;Roosiku
+0;26.7094,57.7411;66309;Võrumaa;Roosiku
 0;26.6889,57.7167;66302;Antsla vald;Kikkaoja
 0;26.6544,57.7258;66308;Antsla vald;Viirapalu
 0;26.8419,57.7125;66219;Rõuge vald;Hurda
@@ -4959,7 +4959,7 @@
 218;26.3706,57.8572;68315;Valga vald;Tagula
 0;26.2900,57.8642;68309;Valga vald;Muhkva
 0;26.2808,57.8742;68312;Valga vald;Väljaküla
-0;26.4175,57.9103;67009;Otepää vald;Sarapuu
+0;26.4175,57.9103;67009;Võrumaa;Sarapuu
 101;26.2961,57.9058;67005;Otepää vald;Lossiküla
 125;26.2725,57.9161;67010;Otepää vald;Tiidu
 0;26.2367,57.7919;68110;Valga vald;Mürgi
@@ -5189,9 +5189,9 @@
 0;24.9486,59.3388;75315;Rae vald;Kautjala
 0;24.9697,59.3002;75318;Rae vald;Suuresta
 0;24.7805,59.3083;75415;Kiili vald;Sausti
-0;24.8038,59.2495;75402;Kiili vald;Arusta
+0;24.8038,59.2495;75402;Harjumaa;Arusta
 0;24.7918,59.2686;75409;Kiili vald;Sookaera
-136;24.6528,59.2378;75519;Saue vald;Roobuka
+136;24.6528,59.2378;75519;Harjumaa;Roobuka
 150;24.7270,59.2726;75508;Saku vald;Tõdva
 0;24.5720,59.3047;76405;Saku vald;Kanama
 0;24.6294,59.3115;75512;Saku vald;Juuliku
@@ -5271,7 +5271,7 @@
 0;22.7325,58.5194;94213;Saaremaa vald;Linnaka
 0;27.0461,58.4094;62221;Luunja vald;Tõrvassoo
 0;24.3614,58.7000;78022;Märjamaa vald;Õruste
-56;26.6711,58.3619;50501;Tartu linn;Mäeküla
+56;26.6711,58.3619;50501;Tartu;Mäeküla
 0;23.3269,58.6383;94749;Muhu vald;Kesetküla
 0;22.6947,58.8069;92124;Hiiumaa vald;Kleemu
 0;24.2833,58.8442;78120;Märjamaa vald;Ketu
@@ -5288,7 +5288,7 @@
 0;27.0103,58.3503;62312;Kastre vald;Kägari
 0;22.1928,58.9035;92235;Hiiumaa vald;Ojaküla
 0;25.6919,58.7444;72412;Järva vald;Pällastvere
-0;26.5625,58.3264;61710;Kambja vald;Kaasmaru
+0;26.5625,58.3264;61710;Tartu;Kaasmaru
 0;27.1853,58.5444;60303;Peipsiääre vald;Savka
 0;24.2933,58.9336;79837;Märjamaa vald;Seljaküla
 0;24.8222,58.5208;86817;Tori vald;Kaseküla
@@ -5336,12 +5336,12 @@
 0;24.9331,58.5992;87636;Põhja-Pärnumaa vald;Vainussaare
 0;25.8231,58.7319;72405;Järva vald;Kureküla
 0;27.0292,58.3594;62304;Kastre vald;Telliskivi
-0;27.0872,58.3836;62305;Kastre vald;Alevi
+0;27.0872,58.3836;62305;Tartu;Alevi
 0;26.4750,58.6422;49208;Jõgeva vald;Soosaare
 0;26.4667,58.6614;48410;Jõgeva vald;Udriku
 0;23.9094,58.5167;88235;Lääneranna vald;Tiilima
 0;26.6314,58.4531;60513;Tartu vald;Metsanurga
-0;26.6247,58.4439;60513;Tartu vald;Soomeküla
+0;26.6247,58.4439;60513;Tartu;Soomeküla
 0;27.1408,58.4814;60404;Peipsiääre vald;Sookurgu
 0;26.4694,58.4531;60603;Tartu vald;Ojaküla
 0;22.7594,58.9800;92364;Hiiumaa vald;Prählamäe
@@ -5480,11 +5480,11 @@
 0;26.5667,58.8942;48519;Jõgeva vald;Pedasi
 11;23.4344,59.0600;91215;Lääne-Nigula vald;Telise
 0;26.0356,59.0292;73309;Järva vald;Kaarli
-0;26.6928,58.9656;46509;Vinni vald;Kullissaare
+0;26.6928,58.9656;46509;Jõgevamaa;Kullissaare
 0;26.4514,58.8056;48427;Jõgeva vald;Kasevere
 0;26.6650,58.7669;48516;Jõgeva vald;Aoveski
 0;26.6486,58.7617;48516;Jõgeva vald;Rääbise-Metsanurga
-0;25.5122,58.9267;72754;Paide linn;Palivere
+0;25.5122,58.9267;72754;Järvamaa;Palivere
 0;25.9125,58.7592;48021;Põltsamaa vald;Metsaküla
 0;26.0858,59.2347;45010;Tapa vald;Kalle
 0;25.5253,58.9139;72754;Paide linn;Viraksaare
@@ -5597,15 +5597,15 @@
 0;26.5642,59.1164;46513;Vinni vald;Rahkla-Raja
 0;26.5889,59.3744;44224;Rakvere vald;Jänesküla
 0;26.5464,59.1267;46503;Vinni vald;Sarapiku
-0;26.3128,59.1889;46206;Väike-Maarja vald;Kõrtsiküla
+0;26.3128,59.1889;46206;Lääne-Virumaa;Kõrtsiküla
 0;27.1139,59.2869;42315;Lüganuse vald;Ojamaa
 0;27.3528,59.0578;41114;Alutaguse vald;Liiva
 0;26.0225,59.3294;45228;Kadrina vald;Kääbaste
 0;26.7275,59.3556;46714;Vinni vald;Haansalu
-0;26.8094,59.0831;42121;Alutaguse vald;Aadumäe
+0;26.8094,59.0831;42121;Lääne-Virumaa;Aadumäe
 0;26.4842,57.6558;66006;Rõuge vald;Arukülä
 0;26.5311,57.6964;66420;Antsla vald;Saera
-0;26.3733,59.4711;44213;Rakvere vald;Mõislõpe
+0;26.3733,59.4711;44213;Lääne-Virumaa;Mõislõpe
 0;26.3461,59.4883;45315;Haljala vald;Saariku
 0;27.1100,57.5753;65016;Rõuge vald;Laisi
 0;26.8525,57.6175;66102;Rõuge vald;Kahrusoo
@@ -5613,7 +5613,7 @@
 0;25.6361,59.2911;74501;Anija vald;Saukõrve
 0;26.7200,57.7222;66104;Rõuge vald;Pakla
 0;26.7075,57.7011;66104;Rõuge vald;Saarõperä
-0;26.2431,59.3556;45203;Kadrina vald;Laanemõisa
+0;26.2431,59.3556;45203;Lääne-Virumaa;Laanemõisa
 0;25.9769,59.3131;45229;Kadrina vald;Uudeküla
 0;24.6730,59.4542;11713;Tallinn;Bekkeri
 0;27.3025,59.2422;41314;Alutaguse vald;Liivakünka
@@ -5633,7 +5633,7 @@
 0;26.3769,59.1153;46208;Väike-Maarja vald;Võnnusvere
 0;26.3131,59.4661;45320;Haljala vald;Tõugu
 0;26.3075,59.4769;45320;Haljala vald;Varangu-Raja
-0;26.3328,59.2658;46619;Vinni vald;Sepa-Nõmme
+0;26.3328,59.2658;46619;Lääne-Virumaa;Sepa-Nõmme
 0;26.3381,59.2428;46628;Vinni vald;Tõnuvere
 0;26.6414,59.3511;46710;Vinni vald;Kukelinna
 101;24.8809,59.3577;75308;Rae vald;Pildiküla
@@ -5646,7 +5646,7 @@
 0;26.1614,59.3928;45215;Kadrina vald;Telliste
 0;26.2619,59.2550;44404;Rakvere vald;Täru
 0;26.9783,59.3086;42311;Lüganuse vald;Kulja
-0;26.1403,59.2561;45227;Kadrina vald;Metspere
+0;26.1403,59.2561;45227;Lääne-Virumaa;Metspere
 0;26.5111,59.1958;46617;Vinni vald;Ridaküla
 0;26.6075,58.5378;49124;Tartu vald;Kaste
 0;26.5411,58.5703;49118;Tartu vald;Muru
@@ -5654,7 +5654,7 @@
 0;26.8136,58.5472;60520;Tartu vald;Puiatu
 0;26.8600,58.5700;60412;Peipsiääre vald;Tootsi
 0;26.9161,58.5942;60422;Peipsiääre vald;Nudi
-0;26.8644,58.6283;49312;Mustvee vald;Kivinõmme
+0;26.8644,58.6283;49312;Tartu;Kivinõmme
 0;26.9019,58.6094;60427;Peipsiääre vald;Välgi-Alajõe
 0;26.7744,58.6139;49121;Tartu vald;Kulmuvere
 0;26.7853,58.6006;49115;Tartu vald;Tindimurru
@@ -5694,7 +5694,7 @@
 0;27.0042,57.6103;65159;Rõuge vald;Kikri
 0;26.9964,59.2539;42323;Lüganuse vald;Veneoja
 0;24.7588,59.3667;11218;Tallinn;Raudalu
-0;24.7753,59.3428;75412;Saku vald;Tammejärve
+0;24.7753,59.3428;75412;Harjumaa;Tammejärve
 0;26.6186,57.7403;66301;Antsla vald;Kannussaarõ
 0;26.8281,57.6428;66249;Rõuge vald;Härmiku
 0;26.8319,57.6572;66283;Rõuge vald;Pundi
@@ -5712,7 +5712,7 @@
 0;26.5703,59.4792;44028;Viru-Nigula vald;Kureküla
 0;26.2483,59.2933;44407;Rakvere vald;Vasivere
 0;26.7028,57.6875;66103;Rõuge vald;Sika
-0;26.6708,57.7014;66302;Antsla vald;Virulasõ
+0;26.6708,57.7014;66302;Võrumaa;Virulasõ
 0;27.0453,59.4278;43304;Lüganuse vald;Sope
 0;26.4947,59.4231;44210;Rakvere vald;Vanamõisa
 0;24.1278,59.2883;76023;Lääne-Harju vald;Madise
@@ -5722,7 +5722,7 @@
 0;26.1033,59.3692;45215;Kadrina vald;Ojaveski
 0;26.8322,59.4211;43404;Viru-Nigula vald;Abaja
 0;26.5153,59.1783;46634;Vinni vald;Roela-Kannastiku
-0;26.3536,59.3958;44419;Rakvere vald;Kommi
+0;26.3536,59.3958;44419;Lääne-Virumaa;Kommi
 0;26.4692,59.4311;44210;Rakvere vald;Altküla
 0;25.6561,59.3194;74502;Anija vald;Uuejärve
 0;25.4806,59.4911;74614;Kuusalu vald;Soorinna
@@ -5756,7 +5756,7 @@
 0;26.2119,59.2739;44401;Rakvere vald;Järtu
 0;26.4017,59.2594;46618;Vinni vald;Vabatküla
 0;26.6319,59.2694;46712;Vinni vald;Sae
-0;26.9164,59.2081;42310;Lüganuse vald;Jõepere
+0;26.9164,59.2081;42310;Lääne-Virumaa;Jõepere
 0;26.8656,59.3119;43003;Lüganuse vald;Päsula
 0;26.7125,59.4511;44002;Viru-Nigula vald;Kalda
 0;26.5428,59.4586;44014;Viru-Nigula vald;Pari
@@ -5771,7 +5771,7 @@
 0;25.8569,58.7597;72409;Järva vald;Metsapere
 0;25.4481,59.1889;74410;Anija vald;Nirgu
 0;25.4072,59.1747;75007;Kose vald;Laane
-0;25.4003,59.1994;75007;Kose vald;Ojaküla
+0;25.4003,59.1994;75007;Harjumaa;Ojaküla
 0;25.4319,59.2011;74410;Anija vald;Mäeküla
 0;25.2547,59.0731;75025;Kose vald;Paunaste
 0;25.4331,58.8353;72232;Türi vald;Saatre
@@ -5783,7 +5783,7 @@
 0;26.2856,58.8256;48446;Jõgeva vald;Koidu
 0;24.9142,59.1700;79742;Kohila vald;Džungli
 0;25.7844,58.8914;72510;Järva vald;Kassisaba
-0;24.9608,59.4767;74004;Viimsi vald;Uus-Muuga
+0;24.9608,59.4767;74004;Harjumaa;Uus-Muuga
 0;26.4997,57.5647;66017;Rõuge vald;Põldõ
 0;26.5017,57.5478;66017;Rõuge vald;Tämbälse
 0;26.5650,57.5736;66007;Rõuge vald;Ala-Kasa
@@ -5815,7 +5815,7 @@
 0;27.1025,57.7036;65105;Rõuge vald;Haavistu
 0;27.0931,57.6933;65118;Rõuge vald;Kirbu
 0;27.6911,59.3389;40121;Narva-Jõesuu linn;Viivikonna Linnaosa
-0;27.3219,57.6722;65242;Rõuge vald;Järvemäe
+0;27.3219,57.6722;65242;Võrumaa;Järvemäe
 0;27.3239,57.6836;65256;Võru vald;Tsäpsi
 0;26.5175,57.9775;67307;Otepää vald;Oriku
 0;27.4817,57.8792;64131;Võru vald;Mäe-Vivva
@@ -5843,7 +5843,7 @@
 0;27.2928,59.4047;30326;Kohtla-Järve linn;Keskelurajoon
 0;27.2964,59.3983;30327;Kohtla-Järve linn;Lõunaelurajoon
 0;27.3286,59.4078;30625;Toila vald;Paate
-0;27.3044,59.3958;30327;Kohtla-Järve linn;Sinivoore
+0;27.3044,59.3958;30327;Ida-Virumaa;Sinivoore
 0;26.7011,57.8400;66631;Võru vald;Kurenurme
 0;27.4792,59.2500;41204;Alutaguse vald;Oru-Võhma
 0;26.2842,57.8272;68308;Valga vald;Lüüdi
@@ -5938,7 +5938,7 @@
 0;26.5883,57.7692;66425;Antsla vald;Andsi
 0;26.6208,57.7917;66414;Antsla vald;Piidsakülä
 0;26.6661,57.7553;66307;Antsla vald;Haavikolga
-0;26.7261,57.7531;66309;Rõuge vald;Raudsepä
+0;26.7261,57.7531;66309;Võrumaa;Raudsepä
 0;26.8017,57.7731;66246;Rõuge vald;Laossaarõ
 0;26.8225,57.7831;66251;Rõuge vald;Lükkä
 0;26.5431,57.7731;66415;Antsla vald;Haavistu
@@ -6025,7 +6025,7 @@
 0;26.7792,58.7611;49304;Mustvee vald;Kiige
 0;26.7156,58.8194;48502;Jõgeva vald;Lullikatku
 0;26.6692,58.7878;48516;Jõgeva vald;Konnaküla
-0;26.7803,58.8678;48514;Jõgeva vald;Jõemetsa
+0;26.7803,58.8678;48514;Jõgevamaa;Jõemetsa
 0;26.7531,58.8283;48518;Jõgeva vald;Sääse
 0;26.7153,58.8289;48518;Jõgeva vald;Väägu
 0;26.7919,58.9075;42102;Mustvee vald;Metsara
@@ -6051,7 +6051,7 @@
 0;24.8008,58.9822;79543;Rapla vald;Väljataguse
 0;24.5111,58.8647;78221;Märjamaa vald;Lokuta
 0;27.0786,57.9436;65511;Võru vald;Pikasilla
-0;26.3536,57.8806;68315;Valga vald;Kakulaane
+0;26.3536,57.8806;68315;Valgamaa;Kakulaane
 0;27.2061,57.8731;65405;Võru vald;Kühmamäe
 0;27.1717,57.8747;65547;Võru vald;Mõskülä
 0;22.1203,57.9511;93122;Saaremaa vald;Mõntu
@@ -6086,16 +6086,16 @@
 0;26.8714,59.1681;46606;Vinni vald;Ojaküla
 0;26.3661,59.3069;46639;Vinni vald;Mäetaguse
 0;26.7350,59.3928;44018;Viru-Nigula vald;Voorse
-0;26.8067,59.0653;42121;Alutaguse vald;Lippoja
+0;26.8067,59.0653;42121;Lääne-Virumaa;Lippoja
 0;26.8036,59.0192;42113;Mustvee vald;Punasoo
-0;26.8050,59.0550;42121;Alutaguse vald;Punasoo
+0;26.8050,59.0550;42121;Lääne-Virumaa;Punasoo
 0;27.2833,57.5456;65032;Rõuge vald;Sakudi
 0;27.3472,57.7600;65243;Võru vald;Savioja
 0;27.3836,57.7089;65319;Setomaa vald;Miikse
 0;27.2844,57.6656;65209;Rõuge vald;Häärmäni
 0;27.2858,57.6694;65209;Rõuge vald;Rebäse
-0;27.2878,57.6844;65225;Rõuge vald;Valdi
-0;27.2878,57.6844;65225;Rõuge vald;Veerkali
+0;27.2878,57.6844;65225;Võrumaa;Valdi
+0;27.2878,57.6844;65225;Võrumaa;Veerkali
 0;27.5661,57.8458;64036;Setomaa vald;Suurõ-Kolodavitsa
 0;24.5781,57.9761;86004;Häädemeeste vald;Tauste
 0;26.5897,59.5122;44029;Viru-Nigula vald;Simunamäe
@@ -6173,13 +6173,13 @@
 0;27.1031,57.7353;65140;Rõuge vald;Hääli
 0;27.1172,57.7522;65147;Rõuge vald;Sitasilla
 0;26.5839,57.9381;66518;Antsla vald;Keema
-0;26.5906,57.9431;63120;Kanepi vald;Tutiliin
+0;26.5906,57.9431;63120;Võrumaa;Tutiliin
 0;26.0825,57.9397;67107;Valga vald;Kingu
 0;26.1167,57.9061;67107;Valga vald;Liivaküla
 0;27.4092,57.7750;65307;Setomaa vald;Kangavitsa
 0;27.4064,57.7689;65307;Setomaa vald;Kärnä
 0;27.4342,57.7508;65303;Setomaa vald;Väiko-Ulaskova
-0;27.3708,57.6736;65039;Setomaa vald;Savihoovi
+0;27.3708,57.6736;65039;Võrumaa;Savihoovi
 0;27.1600,57.9961;63223;Põlva vald;Saarjärve
 0;27.0678,57.7214;65114;Rõuge vald;Kaldemäe
 0;27.0828,57.7075;65137;Rõuge vald;Purka
@@ -6203,11 +6203,11 @@
 0;27.1869,57.8275;65215;Võru vald;Kaku
 0;27.2211,57.9911;64220;Räpina vald;Mustaots
 0;27.2181,57.9875;64220;Räpina vald;Ülejõe
-0;27.3089,59.3367;30721;Kohtla-Järve linn;Kahula-Rutiku
+0;27.3089,59.3367;30721;Ida-Virumaa;Kahula-Rutiku
 0;27.2614,59.3481;30506;Toila vald;Servaääre
 0;26.8031,57.8375;66637;Võru vald;Mustassaare
-0;26.8456,57.8242;66637;Võru vald;Nursipalu
-0;28.0817,59.3289;40106;Narva-Jõesuu linn;Kõrgesoo
+0;26.8456,57.8242;66637;Võrumaa;Nursipalu
+0;28.0817,59.3289;40106;Ida-Virumaa;Kõrgesoo
 0;27.5128,57.9917;64316;Setomaa vald;Väiko-Usinitsa
 0;27.5572,57.9006;64015;Setomaa vald;Suurõ-Nedsäjä
 0;26.9094,57.8872;65514;Võru vald;Kanamõtsa
@@ -6215,7 +6215,7 @@
 0;26.4064,59.5164;45441;Haljala vald;Tidriku
 0;27.3172,57.6111;65031;Rõuge vald;Saagrimäe
 0;26.3269,57.9150;67013;Otepää vald;Vastsemõisa
-0;27.2156,59.4072;30197;Kohtla-Järve linn;Suttermu
+0;27.2156,59.4072;30197;Ida-Virumaa;Suttermu
 0;26.1006,59.5086;45449;Haljala vald;Villandi
 0;26.0367,59.5414;45403;Haljala vald;Altküla
 0;27.3878,57.7489;65331;Setomaa vald;Puista
@@ -6243,7 +6243,7 @@
 0;25.9892,57.9375;68411;Tõrva vald;Peedu
 0;25.9628,57.9108;68411;Tõrva vald;Sarapuu
 0;27.1756,57.7050;65168;Võru vald;Andrimäe
-0;27.7956,59.3919;40241;Narva-Jõesuu linn;Kannuka
+0;27.7956,59.3919;40241;Ida-Virumaa;Kannuka
 0;27.2586,57.6986;65234;Võru vald;Keldo
 0;25.6103,57.9519;68504;Tõrva vald;Järve
 0;28.0561,59.3956;40112;Narva-Jõesuu linn;Põlendiku
@@ -6381,7 +6381,7 @@
 0;27.3917,57.6336;65018;Setomaa vald;Lütä
 0;27.3850,57.6142;65038;Setomaa vald;Toodsi
 0;27.3239,57.6644;65005;Rõuge vald;Horosuu
-0;27.3383,57.6683;65005;Rõuge vald;Kiimagu
+0;27.3383,57.6683;65005;Võrumaa;Kiimagu
 0;27.3756,57.6483;65009;Setomaa vald;Koorla
 0;27.2875,57.6972;65205;Võru vald;Raudoja
 0;27.2833,57.7061;65205;Võru vald;Pütsepä
@@ -6449,7 +6449,7 @@
 0;27.0408,57.8636;65554;Võru vald;Villa
 0;27.0044,57.8800;65548;Võru vald;Korgõmäe
 0;26.9686,57.8839;65550;Võru vald;Vana-Luka
-0;27.0667,57.9128;65507;Võru vald;Joosu-Mõrgi
+0;27.0667,57.9128;65507;Põlvamaa;Joosu-Mõrgi
 0;27.1136,57.8933;65549;Võru vald;Punsaku
 0;27.1531,57.8994;65544;Võru vald;Tõudsimäe
 0;27.0075,57.7417;66243;Rõuge vald;Kuuda
@@ -6545,7 +6545,7 @@
 0;25.6842,58.3664;70110;Viljandi vald;Vennijaagu
 0;25.7939,58.3336;70107;Viljandi vald;Tagatküla
 0;25.5950,58.3372;70109;Viljandi vald;Sammuli
-0;25.5106,58.2819;69683;Mulgi vald;Tagamõtsa
+0;25.5106,58.2819;69683;Viljandimaa;Tagamõtsa
 0;25.3703,58.3800;71124;Viljandi vald;Nutru
 0;25.7153,58.3808;70102;Viljandi vald;Ülejõe
 0;25.5553,58.3686;71067;Viljandi vald;Kirikumõisa
@@ -6554,7 +6554,7 @@
 0;25.4375,58.3953;71302;Põhja-Sakala vald;Aruküla
 0;25.9264,58.3564;70121;Viljandi vald;Altnurga
 0;26.3100,58.4017;61311;Elva vald;Kaldasaare
-0;26.3058,58.4342;60547;Elva vald;Sooküla
+0;26.3058,58.4342;60547;Tartu;Sooküla
 0;26.3347,58.2636;61212;Elva vald;Marana
 0;25.6944,58.3106;69610;Viljandi vald;Rebase
 0;25.6756,58.2994;69620;Viljandi vald;Vasila
@@ -6580,7 +6580,7 @@
 0;25.5283,58.3142;71101;Viljandi vald;Rabina
 0;25.4806,58.3258;71102;Viljandi vald;Kaseküla
 0;25.5583,58.3442;71065;Viljandi vald;Reinu
-0;25.3944,58.3067;69518;Põhja-Sakala vald;Piska
+0;25.3944,58.3067;69518;Viljandimaa;Piska
 0;25.4367,58.2861;71110;Viljandi vald;Kärgiste
 0;25.6236,58.4228;71068;Viljandi vald;Selja
 0;25.7906,58.2608;69711;Viljandi vald;Turva
@@ -6605,7 +6605,7 @@
 0;27.4250,58.0239;64228;Räpina vald;Vennekülä
 0;25.8753,58.1511;69730;Viljandi vald;Laanekuru
 0;21.9897,58.2983;93319;Saaremaa vald;Antsi
-0;24.6169,58.3167;86508;Häädemeeste vald;Jõeküla
+0;24.6169,58.3167;86508;Pärnumaa;Jõeküla
 0;25.9869,58.1633;69732;Viljandi vald;Retsnigu
 0;25.4139,58.1628;69509;Mulgi vald;Aliste
 0;24.7339,58.1942;86410;Saarde vald;Ulli
@@ -6652,7 +6652,7 @@
 0;26.1494,58.1108;67215;Elva vald;Sootla
 0;26.4256,58.0386;67409;Otepää vald;Annimatsi
 0;25.3361,58.1589;69408;Mulgi vald;Muku
-0;26.1856,58.0031;68222;Otepää vald;Tõnu
+0;26.1856,58.0031;68222;Valgamaa;Tõnu
 0;26.7550,58.1625;63508;Kanepi vald;Aiaküla
 0;26.7583,58.1669;63508;Kanepi vald;Klimbiküla
 0;26.7761,58.1497;63508;Kanepi vald;Russaku
@@ -6673,7 +6673,7 @@
 0;27.1019,58.0344;63221;Põlva vald;Suukülä
 0;26.4011,58.1739;61016;Elva vald;Rundsu
 0;25.6586,58.1906;71056;Mulgi vald;Volmre
-0;26.4719,58.1433;61613;Nõo vald;Mõrtsuka
+0;26.4719,58.1433;61613;Valgamaa;Mõrtsuka
 0;27.3814,58.0058;64210;Räpina vald;Kullamäe
 0;26.4806,58.0614;67417;Otepää vald;Hundisoo
 0;25.7075,58.2272;69722;Viljandi vald;Vahemõtsa
@@ -6734,7 +6734,7 @@
 0;27.2050,58.0756;63230;Põlva vald;Kusõkurm
 0;27.0003,58.1378;63604;Põlva vald;Järve
 0;27.0211,58.1239;63604;Põlva vald;Visse
-0;24.6072,58.3306;86604;Pärnu linn;Altküla
+0;24.6072,58.3306;86604;Pärnumaa;Altküla
 0;22.4689,58.2469;93813;Saaremaa vald;Tori
 0;22.4836,58.2533;93801;Saaremaa vald;Kesklinn
 0;22.4886,58.2619;93817;Saaremaa vald;Smuuli
@@ -6837,7 +6837,7 @@
 0;27.3922,58.0706;64416;Räpina vald;Rõsna
 0;27.5039,58.0664;64422;Räpina vald;Kürsä
 0;27.5047,58.0789;64418;Räpina vald;Lokuta
-0;27.4975,58.0558;64320;Setomaa vald;Parma
+0;27.4975,58.0558;64320;Põlvamaa;Parma
 0;27.4869,58.0806;64418;Räpina vald;Kuuksi
 0;27.4853,58.1006;64503;Räpina vald;Vaadimäe
 0;27.2000,58.1044;63214;Põlva vald;Kükänukk
@@ -6896,7 +6896,7 @@
 0;26.5719,59.3603;44230;Rakvere vald;Vabatküla
 0;26.9128,59.3056;42320;Lüganuse vald;Hirmuse
 0;26.9239,59.4319;43405;Viru-Nigula vald;Vabatküla
-0;26.1900,59.3850;45306;Haljala vald;Tirbiku
+0;26.1900,59.3850;45306;Lääne-Virumaa;Tirbiku
 0;26.9964,59.0742;42204;Alutaguse vald;Kellassaare
 0;25.0964,59.4409;74228;Jõelähtme vald;Loo
 0;26.8033,57.9094;66613;Võru vald;Lilli
