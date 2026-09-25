@@ -5659,7 +5659,7 @@
 0;127.6567,38.1864;24102;Gangwon-do;Naiton
 0;128.3696,37.4309;25365;Gangwon-do;Maltari
 0;126.2534,33.2205;63508;Jeju-do;Museulpo
-0;126.7533,34.2017;59164;Jeollanam-do;Mosŏ
+0;126.7533,34.2017;59165;Jeollanam-do;Mosŏ
 0;126.9667,36.5000;32525;Chungcheongnam-do;Mosil
 0;127.4760,35.8917;55410;Jeollabuk-do;Mogok
 0;127.3667,36.8000;31259;Chungcheongnam-do;Mosan-ni

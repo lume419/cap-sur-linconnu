@@ -143,6 +143,54 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **LA DÉRIVE DES CODES POSTAUX DES TRENTE PAYS ÉTAIT UNE MISE À JOUR, PAS UNE RÉGRESSION : 271 747 vrais codes
+  postaux gagnés dans dix-sept pays.** Ces pays portaient un identifiant de région ISO (« ZA-06 », « HN-06 ») dans
+  le champ du code postal, parce que leur fichier publié avait été fabriqué SANS fichier postal. Ces fichiers
+  existent désormais : la régénération donne un vrai code postal. Chine 132 396, Guatemala 13 540, Malaisie 17 513,
+  Thaïlande 59 817, Argentine 11 997, Canada 8 688, Afrique du Sud 6 175, Malawi 6 015, Kenya 5 460, Dominicaine
+  5 064, Honduras 3 137, Chili 1 900, Groenland 45.
+  - **Établi par la mesure, pas par l'hypothèse.** La dérive est d'abord **déterministe** : deux régénérations
+    successives de Hong Kong donnent le même fichier, seul le publié diffère — il vient donc d'un état antérieur.
+    Ensuite le sens du changement est mesuré sur les trente : **aucun pays ne perd un vrai code postal**, dix-sept
+    en gagnent. Contrôle sur dix fiches peuplées d'Afrique du Sud : deux codes confirmés au chiffre près par la
+    carte, cinq voisins de quelques kilomètres (le rapprochement postal en autorise quinze), trois muets — mais
+    tous de vrais codes sud-africains à quatre chiffres, là où « ZA-06 » n'est pas un code postal.
+  - **DEUX GARDES ajoutées au générateur, chacune née d'une régression constatée.**
+    - **Un fichier postal à UN SEUL CODE est SANS INFORMATION.** Hong Kong, Macao, Samoa et Heard-et-McDonald n'ont
+      pas de codes postaux : leur fichier GeoNames ne contient qu'une valeur bouche-trou — **999077 pour les 1 334
+      fiches de Hong Kong**. Le générateur la préférait au code ISO du district (« HK-NTW »), qui distingue au moins
+      les districts. Le fichier est désormais ignoré dans ce cas, et Hong Kong se régénère à l'identique.
+    - **La CORÉE DU SUD passait ses 58 977 étiquettes** d'un nom de province en latin (« Jeollabuk-do ») à un nom de
+      comté **en hangul** (« 고창군 »), alors que ses noms de lieux restent en latin : le fichier devenait incohérent
+      avec lui-même. Elle rejoint `REGION_DU_DUMP`, et ne change plus qu'une ligne.
+  - **HUIT pays restaurés, chacun pour un motif nommé** : nombre de lignes changé (Heard-et-McDonald, Émirats,
+    Maroc) ou **nouveaux doublons d'étiquette** (Algérie, Colombie, Japon, Brésil 13, Pakistan) — le défaut même
+    corrigé quelques heures plus tôt. Le Pakistan et le Brésil coûtent cher à refuser (102 784 et 46 055 codes),
+    mais publier des doublons pour les gagner serait défaire d'une main ce qu'on vient de faire de l'autre.
+  - **CINQ pays restaurés faute de gain démontrable** : Sri Lanka, Philippines, Bangladesh, Indonésie et **Inde**.
+    Leur régénération n'apporte aucun code postal — elle ne fait que passer l'étiquette de l'État au district
+    (« Uttar Pradesh » → « Gonda »), et la carte donne raison **aux deux** : elle rend « Uttar Pradesh/Harraiya/
+    Basti ». Ce n'est donc pas une correction mais un choix de rang, et 457 090 fiches indiennes ne changent pas
+    pour un choix de rang. Là où un pays gagne de vrais codes, le changement de rang est accepté comme effet de
+    bord et écrit ici ; là où il n'y a rien à gagner, on ne touche à rien.
+  - **Trois tests ont réagi, et chacun disait quelque chose.** Celui des quasi-doublons a signalé une
+    **amélioration** en demandant d'abaisser son chiffre figé, de 29 paires à 28 : une paire qui portait deux
+    identifiants ISO distincts n'en porte plus qu'un seul vrai code. Les deux autres cherchaient Pékin en tapant
+    **« cn-22 »**, son identifiant ISO, qui ne le désigne plus : la ville porte désormais 100000. Le mécanisme que
+    ces cas éprouvaient reste utile — un code à TIRET ne doit pas être normalisé en espace avant d'être cherché —
+    il est donc éprouvé sur « 00-510 » (Varsovie), et le nouveau code chinois est éprouvé pour lui-même.
+  - **La Chine est désormais MIXTE, et c'est à savoir** : 132 396 fiches ont gagné un vrai code postal, les
+    763 473 autres gardent leur identifiant ISO faute de point postal à moins de 15 km. Les deux formes restent
+    donc trouvables à la recherche.
+  - **Le GUATEMALA a été sauvé plutôt que refusé.** Il gagnait 13 540 codes mais son fichier postal écrit les
+    départements EN CAPITALES avec un préfixe redondant (« DEPTO DE HUEHUETENANGO »), et 11 785 étiquettes
+    partaient ainsi. Les 23 formes sont remises en forme par `ETIQUETTE_UNIFIEE` : les codes sont gardés, aucune
+    capitale ne subsiste, et 1 102 étiquettes y gagnent — « Santa Rosa Department » devient « Santa Rosa », et
+    **17 fiches rangées à tort dans « Guatemala » sont rendues à « El Progreso »**.
+    Un premier essai déduisait la forme propre de l'ANCIENNE étiquette de la fiche : il envoyait « DEPTO DE EL
+    PROGRESO » vers « Guatemala », l'ancien fichier se trompant déjà sur ces fiches. Déduire une correction d'une
+    donnée fausse ne pouvait que propager l'erreur ; la forme est donc déduite du NOM lui-même.
+
 - **Le correctif du générateur est appliqué PAYS PAR PAYS, avec contrôle : 6 560 étiquettes corrigées dans six
   pays, et 49 pays restaurés.** 81 pays ont un fichier postal et un dump, soit 3 341 846 fiches. Chacun a été
   régénéré seul, mesuré, puis gardé ou remis en l'état — jamais sur une impression.

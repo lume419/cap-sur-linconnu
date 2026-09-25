@@ -68,8 +68,12 @@ const CASES = [
   { label: 'code postal français', q: '69001', place: 'FR|Lyon' },
   { label: 'code postal japonais à tiret', q: '100-0002', place: 'JP|Marunouchi' },
   { label: 'code postal portugais à tiret', q: '3020-578', place: 'PT|São Paulo de Frades' },
-  { label: 'code postal chinois à tiret', q: 'cn-22', place: 'CN|Beijing' },
-  { label: 'code postal chinois, saisie en majuscules', q: 'CN-22', place: 'CN|Beijing' },
+  { label: 'code postal à tiret', q: '00-510', place: 'PL|Warszawa' },
+  { label: 'code postal à tiret, saisie en majuscules', q: '00-510', place: 'PL|Warszawa' },
+  // Pékin portait « CN-22 » tant que la Chine n'avait pas de fichier postal exploité ; elle en a un depuis le
+  // 25/09/2026 et 132 396 fiches y ont gagné un vrai code. Les 763 473 autres gardent leur identifiant ISO,
+  // faute de point postal à moins de 15 km : le pays est donc mixte.
+  { label: 'vrai code postal chinois', q: '100000', place: 'CN|Beijing' },
   // --- alias dans une autre écriture ---
   { label: 'arabe', q: 'القاهرة', place: 'EG|Al Qahirah', alias: 'القاهرة' },
   { label: 'cyrillique', q: 'Москва', place: 'RU|Moscow', alias: 'Москва' },

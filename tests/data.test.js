@@ -1064,7 +1064,7 @@ test('lieux : les quasi-doublons connus ne se multiplient pas (populations contr
   // très au-dessus du réel sans qu'aucun test ne bronche. Ce sont désormais les valeurs EXACTES relevées sur l'état
   // publié : une aggravation comme une amélioration font échouer le test, et c'est le chiffre qu'on met à jour.
   const CONTRADICTIONS = 6;  // paires à moins de 300 m publiant deux populations non nulles différentes (12 avant la 19e passe)
-  const SUGGESTIONS = 29;    // paires à moins de 300 m avec deux codes postaux, donc deux suggestions (34 avant la 19e passe ; 28 avant que les lieux sans code postal ne soient publiés, 21/09/2026)
+  const SUGGESTIONS = 28;    // paires à moins de 300 m avec deux codes postaux, donc deux suggestions (34 avant la 19e passe ; 28 avant que les lieux sans code postal ne soient publiés, 21/09/2026 ; 29 ensuite, et de nouveau 28 le 25/09/2026 quand dix-sept pays ont gagné de vrais codes postaux — une paire qui portait deux identifiants ISO distincts n en porte plus qu un seul vrai)
   const hv = (a, b, c, d) => { const r = Math.PI / 180, x = Math.sin((c - a) * r / 2) ** 2 + Math.cos(a * r) * Math.cos(c * r) * Math.sin((d - b) * r / 2) ** 2; return 12742 * Math.asin(Math.sqrt(x)); };
   // Même normalisation que le moteur : c est l écart entre elle et la clé du dédoublonnage qu on mesure ici.
   const norm = require(path.join(ROOT, 'lib', 'trip-engine.js')).internals.normalizeCityName;

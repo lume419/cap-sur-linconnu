@@ -1104,7 +1104,11 @@ function cpContredit(country, name, lat, lon){
 //    les étiquettes fausses corrigées une à une dans DIVISION_FIXES.
 //    Pour ces pays, la région est donc prise au DUMP, comme si aucun fichier postal n'existait — le code postal,
 //    lui, continue de venir du point postal. Les quatre redeviennent régénérables à l'identique.
-const REGION_DU_DUMP = new Set(['RU', 'AU', 'UY', 'CR']);
+//    CORÉE DU SUD ajoutée le 25/09/2026, pour une raison DIFFÉRENTE des quatre premières : sa régénération
+//    passait ses 58 977 étiquettes d'un nom de province en latin (« Jeollabuk-do ») à un nom de comté EN
+//    HANGUL (« 고창군 »), alors que ses noms de lieux restent en latin. Changement de rang ET d'écriture : le
+//    fichier devenait incohérent avec lui-même, et l'affichage aurait mêlé deux écritures sur la même ligne.
+const REGION_DU_DUMP = new Set(['RU', 'AU', 'UY', 'CR', 'KR']);
 // 15. UNE MÊME RÉGION PUBLIÉE SOUS DEUX NOMS DANS LE MÊME PAYS (24/09/2026). L'Allemagne portait 43 étiquettes
 //    de région pour seize Länder : 893 fiches en « Lower Saxony » quand 7 890 sont en « Niedersachsen », 140 en
 //    « Saxony » contre 4 422 en « Sachsen ». Sans effet sur les itinéraires, bien visible à l'écran.
@@ -1124,6 +1128,38 @@ const REGION_DU_DUMP = new Set(['RU', 'AU', 'UY', 'CR']);
 //      - « Berlin » (6) et « Land Berlin » (8) : la carte dit Brandebourg à ces coordonnées, mais quatorze fiches
 //        et un sondage incomplet ne suffisent pas à renommer la capitale. Laissées telles quelles, à revoir.
 const ETIQUETTE_UNIFIEE = {
+  // Guatemala — 23 étiquettes. Le fichier postal guatémaltèque écrit les départements EN CAPITALES et
+  // avec un préfixe redondant (« DEPTO DE HUEHUETENANGO »), et la régénération — qui apporte 13 540 VRAIS codes
+  // postaux là où le pays n'avait que des identifiants ISO — les importait tels quels. On garde les codes et on
+  // remet les étiquettes en forme. La forme propre est déduite DU NOM LUI-MÊME, préfixe retiré puis rapproché des
+  // étiquettes déjà publiées pour retrouver les accents. Un premier essai la déduisait de l'ANCIENNE étiquette de
+  // la fiche : il envoyait « DEPTO DE EL PROGRESO » vers « Guatemala », l'ancien fichier se trompant déjà sur ces
+  // fiches — déduire une correction d'une donnée fausse ne pouvait que propager l'erreur.
+  GT: {
+    "Ciudad de Guatemala": "Guatemala",
+    "DEPTO DE ALTA VERAPAZ": "Alta Verapaz",
+    "DEPTO DE BAJA VERAPAZ": "Baja Verapaz",
+    "DEPTO DE CHIMALTENANGO": "Chimaltenango",
+    "DEPTO DE CHIQUIMULA": "Chiquimula",
+    "DEPTO DE EL PROGRESO": "El Progreso",
+    "DEPTO DE ESCUINTLA": "Escuintla",
+    "DEPTO DE GUATEMALA": "Guatemala",
+    "DEPTO DE HUEHUETENANGO": "Huehuetenango",
+    "DEPTO DE IZABAL": "Izabal",
+    "DEPTO DE JALAPA": "Jalapa",
+    "DEPTO DE JUTIAPA": "Jutiapa",
+    "DEPTO DE PETEN": "Petén",
+    "DEPTO DE QUETZALTENANGO": "Quetzaltenango",
+    "DEPTO DE RETALHULEU": "Retalhuleu",
+    "DEPTO DE SACATEPEQUEZ": "Sacatepéquez",
+    "DEPTO DE SAN MARCOS": "San Marcos",
+    "DEPTO DE SANTA ROSA": "Santa Rosa",
+    "DEPTO DE SOLOLA": "Sololá",
+    "DEPTO DE SUCHITEPEQUEZ": "Suchitepequez",
+    "DEPTO DE TOTONICAPAN": "Totonicapán",
+    "DEPTO DE ZACAPA": "Zacapa",
+    "DEPTO DEL QUICHE": "Quiché"
+  },
   // ---------------------------------------------------------------------------------------------------------
   // MÊME RÉGION ÉCRITE DEUX FOIS (25/09/2026) — 46 graphies, 354 fiches, quatre pays.
   //

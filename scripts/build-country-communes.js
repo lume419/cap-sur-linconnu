@@ -524,7 +524,26 @@ for(const country of COUNTRIES){
   // régénération pour la colonne « code », et reproductible : relancer le script ne change plus rien.
   const postalPath = path.join(__dirname, 'postal', country + '_postal.txt');
   const publiéPath = path.join(__dirname, '..', 'public', 'data', 'communes-' + country.toLowerCase() + '.txt');
-  const postalAbsent = !fs.existsSync(postalPath);
+  // UN FICHIER POSTAL À UN SEUL CODE EST SANS INFORMATION (25/09/2026). Hong Kong, Macao, Samoa et
+  // Heard-et-McDonald n'ont pas de codes postaux : leur fichier GeoNames ne contient qu'une valeur bouche-trou
+  // — 999077 pour les 1 334 fiches de Hong Kong. Le générateur la préférait au code ISO du district
+  // (« HK-NTW »), qui distingue au moins les districts et sert à désambiguïser une recherche. On l'ignore donc,
+  // exactement comme s'il était absent, et le lieu garde son identifiant de région.
+  const codesDuFichier = (() => {
+    if(!fs.existsSync(postalPath)) return 0;
+    const vus = new Set();
+    for(const l of fs.readFileSync(postalPath, 'utf8').split('\n')){
+      if(!l) continue;
+      const c = l.split('\t')[1];
+      if(c) vus.add(c);
+      if(vus.size > 1) return 2;   // deux codes suffisent à prouver que le fichier discrimine
+    }
+    return vus.size;
+  })();
+  const postalAbsent = !fs.existsSync(postalPath) || codesDuFichier <= 1;
+  if(fs.existsSync(postalPath) && codesDuFichier <= 1){
+    console.log(country + ' : fichier postal IGNORÉ — il ne contient qu\'un seul code, donc aucune information');
+  }
   if(postalAbsent && !fs.existsSync(publiéPath)){
     console.error(country + ' : ni scripts/postal/' + country + '_postal.txt ni le fichier publié — impossible de régénérer.');
     process.exit(1);
