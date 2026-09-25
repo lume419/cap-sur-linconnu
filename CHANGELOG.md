@@ -143,6 +143,34 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **LE DÉFAUT DE FOND DU GÉNÉRATEUR EST CORRIGÉ : un lieu ne prend plus sa région chez son voisin.** C'est la
+  cause commune des trois familles de corrections à la main de ces deux jours — les 59 étiquettes de
+  `DIVISION_FIXES`, les 199 codes de `CP_CONTREDIT`, et six pays devenus non régénérables. Le générateur prenait
+  la région au POINT POSTAL LE PLUS PROCHE dans un rayon de 15 km, or ce point peut relever d'une autre division.
+  - **RATTACHEMENT VÉRIFIÉ** : le point postal n'est désormais cru que s'il relève de la **même division** que la
+    fiche. Les deux fichiers GeoNames — le dump et le fichier postal — emploient le même référentiel de codes
+    admin1/admin2 : la comparaison est **exacte**, là où le rapprochement par distance était approximatif. Sinon
+    c'est le nom d'admin1 de LA FICHE, pris au dump, qui est écrit.
+  - **Une PREMIÈRE VERSION a été écrite, mesurée, puis JETÉE**, et son contre-exemple est gardé parce qu'il dit
+    quelque chose d'important. Elle déduisait la région du nom d'admin2 que le fichier postal donne pour les codes
+    de la fiche — plus fin, plus « propre » en apparence. Soumise à la carte sur 24 fiches tirées au sort en
+    Roumanie, Moldavie et Azerbaïdjan : **2 corrections pour 3 RÉGRESSIONS**, 11 changements purement cosmétiques
+    (« Bacău » → « Bacău County ») et une **anglicisation** des noms azerbaïdjanais (« Şəki » → « Shaki ») que la
+    carte contredit — exactement la faute de « Lower Saxony ». Elle changeait **16 314 fiches sur trois petits
+    pays pour deux corrections**. Ce qu'il fallait corriger n'était pas la SOURCE DU NOM mais le RATTACHEMENT.
+  - **La seconde version est un gain net, mesuré de la même façon** : sur 30 fiches tirées au sort, la carte donne
+    raison à la nouvelle étiquette **14 fois**, à l'ancienne **5 fois** (dont une simple translittération, donc
+    quatre vraies), les deux collent 2 fois, aucune 9 fois. Les erreurs qui restent viennent des codes
+    administratifs de GeoNames eux-mêmes, que rien ici ne peut corriger. L'ampleur est cent fois moindre : 42
+    fiches en Roumanie, 389 en Moldavie, 813 en Azerbaïdjan, contre 16 314 pour la première version.
+  - **Ce que le correctif NE règle PAS, et il faut le dire** : l'Algérie reste non régénérable. Ses étiquettes
+    s'améliorent (« Setif » → « Sétif », les diacritiques revenant du nom propre de la fiche), mais **ses codes
+    postaux changent aussi** — 44009 → 02083 pour Zekara — et cette dérive-là est antérieure, étrangère au
+    rattachement des régions. Les six pays traités à la main le restent donc pour l'instant.
+  - **Aucune donnée publiée n'est régénérée dans ce lot.** Le générateur est juste désormais ; appliquer sa
+    correction à tous les pays qui ont un fichier postal est une autre décision, qui changerait des milliers
+    d'étiquettes et demande d'être prise en connaissance du rapport mesuré ci-dessus.
+
 - **Les 2 095 étiquettes candidates hors d'Allemagne ont été arbitrées : AUCUNE n'était à corriger, et c'est le
   résultat le plus utile de la passe.** 3 562 requêtes de carte en 77 minutes, une par seconde. Verdicts :
   **1 286 régions bel et bien DISTINCTES**, 647 indécises, et 162 que la méthode donnait « même territoire » —

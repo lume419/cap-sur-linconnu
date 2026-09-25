@@ -578,11 +578,24 @@ for(const country of COUNTRIES){
       admin1: c[3] || '',
       code1: c[4] || '',
       admin2: c[5] || '',
+      code2: c[6] || '',
       lat: parseFloat(c[9]),
       lon: parseFloat(c[10])
     };
   }).filter(p => !isNaN(p.lat) && !isNaN(p.lon));
   const postalGrid = buildGrid(postalPoints);
+  // DICTIONNAIRE DE NOMS (25/09/2026). Le fichier postal ne sert plus à RATTACHER un lieu à une division — il
+  // donne le NOM d'une division dont on connaît déjà le code. Les deux fichiers GeoNames emploient le même
+  // référentiel de codes admin1/admin2 : le rapprochement est donc EXACT, là où le rapprochement par distance
+  // était approximatif et se trompait dès qu'un point postal se trouvait de l'autre côté d'une limite.
+  // C'est ce défaut qui a produit les 59 étiquettes de DIVISION_FIXES, les 199 codes de CP_CONTREDIT, et six
+  // pays devenus non régénérables.
+  const nomAdmin2 = new Map();
+  for(const p of postalPoints){
+    if(!p.code1 || !p.code2 || !p.admin2) continue;
+    const k = p.code1 + '|' + p.code2;
+    if(!nomAdmin2.has(k)) nomAdmin2.set(k, p.admin2);
+  }
   // L'Andorre n'a que 7 codes postaux (un par paroisse) : les centroïdes des paroisses sont trop
   // proches les uns des autres pour qu'un rapprochement par COORDONNÉES les distingue de façon
   // fiable (testé : Sispony, réellement en paroisse de La Massana, se voyait rattaché à Andorra-
@@ -604,6 +617,7 @@ for(const country of COUNTRIES){
       lat: parseFloat(c[4]),
       lon: parseFloat(c[5]),
       admin1Code: c[10] || '',
+      admin2Code: c[11] || '',
       pop: parseInt(c[14], 10) || 0
     }))
     .filter(p => !isNaN(p.lat) && !isNaN(p.lon) && p.name)
@@ -641,8 +655,20 @@ for(const country of COUNTRIES){
     // communes-corrections.js) : le point postal le plus proche peut être de l'autre côté d'une limite de
     // district, et la carte a mesuré la perte — canton faux 4 fois sur 12 au Costa Rica. Le CODE postal, lui,
     // continue de venir du point postal.
-    const region = (near && !REGION_DU_DUMP.has(country)) ? (near.admin2 || near.admin1 || '')
-      : (admin1Names.get(country + '.' + p.admin1Code) || '');
+    // RATTACHEMENT VÉRIFIÉ (25/09/2026). Le point postal le plus proche n'est cru QUE s'il relève de la même
+    // division que la fiche : les deux fichiers GeoNames emploient le même référentiel de codes admin1/admin2,
+    // la comparaison est donc exacte, là où le rapprochement par DISTANCE se trompait dès qu'un point postal se
+    // trouvait de l'autre côté d'une limite. C'est ce défaut qui a produit les 59 étiquettes de DIVISION_FIXES.
+    // Sinon on prend le nom d'admin1 du dump, qui est celui de LA FICHE, et non celui d'un voisin.
+    // Une première version déduisait le nom d'admin2 du fichier postal pour les codes de la fiche : soumise à la
+    // carte, elle rendait 2 corrections pour 3 régressions, anglicisait les noms azerbaïdjanais et changeait
+    // 16 314 fiches sur trois pays. Écartée — voir le journal du 25/09/2026.
+    const regionDump = admin1Names.get(country + '.' + p.admin1Code) || '';
+    const memeDivision = !!(near && near.code1 && p.admin1Code && near.code1 === p.admin1Code
+      && (!near.code2 || !p.admin2Code || near.code2 === p.admin2Code));
+    const region = REGION_DU_DUMP.has(country) ? regionDump
+      : (near && memeDivision) ? (near.admin2 || near.admin1 || '')
+      : (regionDump || (near ? (near.admin2 || near.admin1 || '') : ''));
     if(!cp) sansCode++;
     // Étiquette de région démentie par la carte (voir DIVISION_FIXES dans communes-corrections.js) : on écrit
     // celle du terrain, pas celle du dump. Ne touche que les fiches nommément vérifiées.
