@@ -143,6 +143,33 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **`public/js/app.js` est entièrement couvert : 244 fonctions sur 244, contre 171 au matin.** Le journal
+  consignait « 86 des 244 fonctions ne sont exercées par aucun test » depuis plusieurs passes sans que rien ne s'y
+  attaque. `tests/ui-couverture.test.js` compte désormais **102 tests** en treize lots.
+  - **La MESURE elle-même était fausse, deux fois.** D'abord elle comptait des fonctions INTERNES à d'autres :
+    « hasPrice » et « sumOf » sont des fermetures de `tripStatsParts`, déjà exercée, et ne sont pas extractibles
+    isolément. Ensuite — et c'est le piège le plus vicieux — elle comptait les **occurrences d'un NOM** : un
+    bouchon écrivant `function renderDays(){ redessins++; }` dans la colle d'un bac à sable faisait passer
+    renderDays pour couverte alors qu'elle n'était pas exercée du tout. Nouveau `scripts/audit-couverture-app.js` :
+    une citation ne compte plus si elle est la déclaration d'une doublure. **Résultat strict : 244/244, et zéro
+    fonction couverte par un simple bouchon.**
+  - **La limite « la visionneuse d'images demande un DOM qui analyse innerHTML » était mal posée.** C'est vrai du
+    DOM réel, pas du problème : ce qu'on veut vérifier, c'est la CHAÎNE produite et le comportement. Il suffit que
+    le nœud factice rende des enfants enregistrés par sélecteur. La visionneuse est couverte, ainsi que les huit
+    fonctions qui écrivent de l'innerHTML — y compris `renderDays`, 362 lignes et trente-huit appels, testée pour
+    ce qu'elle est : un ORCHESTRATEUR, sur ce qu'elle assemble et dans quel ordre.
+  - **Trois fois, c'est mon DOUBLE qui était infidèle, et non le code qui avait tort** : `input.title = x` écrit
+    aussi l'attribut et `removeAttribute` efface les deux ; `el.className = "a b"` alimente `classList` ; et
+    l'extraction par indentation dépassait la fin de `renderDrawnTrip`, dont la fermeture est à quatre espaces
+    alors qu'elle est déclarée à deux — d'où une extraction **par équilibre des accolades**.
+  - Ce que les tests verrouillent, et qui n'était gardé par rien : un nom de lieu ne peut pas injecter un second
+    paramètre `lang` dans l'URL photo ; une légende venue d'un tiers est échappée ; un lien d'hébergement non-https
+    est écarté ; la vignette d'activité est un **bouton atteignable au clavier** ; un `role="dialog"` a toujours un
+    nom ; un échec réseau **n'est pas mémorisé** ; un changement de langue **garde l'image affichée** et ne
+    remplace que le lien ; deux rafraîchissements au plus à la fois, et **un seul redessin** à la fin ; un séjour
+    de plusieurs nuits fait une seule case mais garde **une section d'activités par jour** ; un rappel de vignette
+    **par pays**, pas par étape ; et une randonnée arrivée trop tard est **rendue à la file** pour un autre jour.
+
 - **Les cribles deviennent des OUTILS DU DÉPÔT, plus des scripts de session.** Trois entrent dans `scripts/`,
   chacun documenté avec ce qu'il ne peut PAS décider :
   - `audit-codes-postaux.js` — calibre la longueur de préfixe **pays par pays** au lieu de la supposer, puis
@@ -1131,13 +1158,14 @@ marqués `[à vérifier]` et listés en fin de fichier.
   La mesure du 23/09/2026 (184 masses, 386 lieux) avait été écrite sans sa méthode ; celle tentée le même jour
   par l'API a été faussée par la limitation de débit, qui répond 429 et fait passer pour mortes des masses
   jamais interrogées. Les deux sont remplacées par celle-ci.
-- **86 des 244 fonctions de `public/js/app.js` ne sont exercées par aucun test** (114 au matin du
-  23/09/2026). Ce qui reste : le rendu du voyage à l'écran (19), l'orchestration asynchrone des photos,
-  points d'intérêt et randonnées (18), les erreurs de formulaire encore non couvertes (14), la carte
-  Leaflet (5). La visionneuse d'images, en particulier, demande un DOM qui analyse `innerHTML` : le
-  projet s'interdit une dépendance de test, et le DOM factice ne le fait pas.
-- **Le taux d'échec toléré du balayage d'alias est de 8 % pour un taux réel de 2,2 %** : une régression
-  perdant jusqu'à 100 000 alias passerait au vert.
+- ~~**86 des 244 fonctions de `public/js/app.js` ne sont exercées par aucun test**~~ — **LEVÉE le
+  25/09/2026 : 244 sur 244.** La mesure était en outre fausse deux fois (fonctions internes comptées, puis
+  occurrences d'un NOM comptées, ce qui laissait un bouchon faire passer une fonction pour couverte), et la
+  raison invoquée pour la visionneuse d'images était mal posée : on juge la CHAÎNE produite, pas la capacité du
+  navigateur à l'analyser. Voir l'entrée du 25/09/2026 et `scripts/audit-couverture-app.js`.
+- ~~**Le taux d'échec toléré du balayage d'alias est de 8 % pour un taux réel de 2,2 %**~~ — **LEVÉE le
+  24/09/2026** : la tolérance suit désormais la taille de l'échantillon (2,90 % en mode complet, 4,20 % en
+  mode rapide), et le taux mesuré s'affiche à chaque passage.
 
 ---
 
