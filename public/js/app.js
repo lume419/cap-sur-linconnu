@@ -1660,9 +1660,30 @@
   var currentSuggestions = [];
   var activeSuggestIndex = -1;
 
+  // LE BADGE D'UNE SUGGESTION : LE CODE POSTAL, OU À DÉFAUT LA RÉGION (25/09/2026, demande de l'utilisateur).
+  // Mesuré sur les données publiées : 99 109 fiches n'ont AUCUN code postal — la Bosnie à 98 %, le Monténégro et le
+  // Kosovo presque entiers, 60 pays en tout — et leur badge restait vide. Or 25 282 d'entre elles sont HOMONYMES
+  // d'une fiche qui, elle, en a un : la liste montrait « Vagalat 9701 » au-dessus de « Vagalat » tout court, ce qui
+  // se lit comme un doublon mal résolu alors que ce sont deux villages albanais distincts, l'un dans le comté de
+  // Vlorë, l'autre dans celui de Gjirokastër. La région prend donc la place laissée libre : 95 473 fiches y gagnent
+  // une mention, et rien n'est dépaysant puisque 2 024 479 fiches affichent déjà dans ce même emplacement un
+  // IDENTIFIANT DE RÉGION ISO (« BA-BIH ») faute de fichier postal pour leur pays.
+  // Deux garde-fous, tous deux repris de règles déjà en place ailleurs dans ce fichier :
+  //   - une région qui porte le NOM DU LIEU n'est pas affichée (6 fiches) : se répéter n'apprend rien, exactement
+  //     comme pour la commune de rattachement ;
+  //   - 3 630 fiches n'ont ni code ni région : leur badge reste vide, et ce sont alors la population ou la
+  //     coordonnée qui les distinguent (voir affinerDistinctions).
+  // `r.name || r.stop` : une SUGGESTION nomme son lieu « name », une ÉTAPE de voyage le nomme « stop », et les deux
+  // passent par ici. Comparer au seul « name » rendait la garde inopérante sur les étapes, où elle aurait laissé
+  // écrire « Kotayk (Kotayk) ».
   function formatCpBadge(r){
-    return (r.allCps && r.allCps.length > 1) ? (r.cp + ' +' + (r.allCps.length - 1)) : r.cp;
+    if(r.cp) return (r.allCps && r.allCps.length > 1) ? (r.cp + ' +' + (r.allCps.length - 1)) : r.cp;
+    return (r.dept && r.dept !== (r.name || r.stop)) ? r.dept : '';
   }
+  // Un code postal est fait de chiffres, une région de lettres, et les deux ne se lisent pas dans le même sens : le
+  // premier garde l'ordre de gauche à droite jusque dans une page en arabe (19e audit du 21/09/2026), la seconde
+  // suit le sens de la page. C'est déjà la distinction que fait affinerDistinctions avec distinctLtr.
+  function badgeEstRegion(r){ return !r.cp && !!formatCpBadge(r); }
   // Émoji drapeau générique à partir d'un code pays ISO 3166-1 alpha-2 (ex. "SM" -> 🇸🇲) : chaque
   // lettre est encodée en "regional indicator symbol" Unicode (U+1F1E6 = 'A' + 127397) — fonctionne
   // pour N'IMPORTE QUEL code à 2 lettres sans table de correspondance à maintenir par pays, y compris
@@ -1750,10 +1771,12 @@
       nameSpan.appendChild(flagSpan);
       nameSpan.appendChild(nameTextSpan);
       var cpSpan = document.createElement('span');
-      cpSpan.className = 'suggest-cp';
+      var badgeRegion = badgeEstRegion(r);
+      cpSpan.className = badgeRegion ? 'suggest-cp suggest-cp-region' : 'suggest-cp';
       // Même raison que pour les devises : « 69001 +8 » s'affichait « 8+ 69001 » dans une page de droite à gauche,
-      // le « + » étant neutre (19e audit du 21/09/2026).
-      cpSpan.setAttribute('dir', 'ltr');
+      // le « + » étant neutre (19e audit du 21/09/2026). Une RÉGION, elle, n'est pas forcée : c'est du texte, il
+      // doit suivre le sens de la page comme le fait déjà la mention distinctive.
+      if(!badgeRegion) cpSpan.setAttribute('dir', 'ltr');
       cpSpan.textContent = formatCpBadge(r);
       // Nom du pays dans la langue d'interface (COUNTRIES[..].name est en français) — voir countryDisplayName.
       var countryName = countryDisplayName(r.country, (COUNTRIES[r.country] && COUNTRIES[r.country].name) || '');
@@ -1781,10 +1804,13 @@
     ++searchRequestSeq;
     clearTimeout(searchDebounceTimer);
     selectedCity = { name:r.name, cp:r.cp, allCps:r.allCps, lat:r.lat, lon:r.lon, dept:r.dept, country:r.country };
-    // Le code postal est FACULTATIF depuis le 21/09/2026 : 98 910 lieux publiés n'en ont pas. Sans cette garde, le
-    // champ affichait « Hrazdan () » — une parenthèse vide. Les quatre autres endroits qui affichent un code postal
-    // la posaient déjà ; celui-ci avait été oublié (23/09/2026).
-    els.city.value = r.cp ? r.name + ' (' + r.cp + ')' : r.name;
+    // Le code postal est FACULTATIF depuis le 21/09/2026 : 99 109 lieux publiés n'en ont pas. Sans garde, le champ
+    // affichait « Hrazdan () » — une parenthèse vide. La garde posée le 23/09/2026 n'affichait alors RIEN ; depuis le
+    // 25/09/2026 la parenthèse reçoit la RÉGION, qui dit au moins où l'on part (voir formatCpBadge). Le code postal
+    // reste seul quand il existe : le badge de la liste peut y ajouter « +8 » pour les codes multiples, ce qui n'a
+    // pas de sens dans un champ de saisie.
+    els.city.value = r.cp ? r.name + ' (' + r.cp + ')'
+      : (badgeEstRegion(r) ? r.name + ' (' + formatCpBadge(r) + ')' : r.name);
     hideSuggestions();
     clearCityError();
     updateBudgetHint(); // la devise du plafond affiché dépend du pays de la ville choisie (voir plus bas)
@@ -1864,7 +1890,9 @@
       r.distinct = null; r.distinctLtr = false;
       // La clé est EXACTEMENT ce que la ligne montre aujourd'hui (voir renderSuggestions) : drapeau, nom, nom
       // alternatif, commune de rattachement, code postal. Deux fiches qui en diffèrent sont déjà distinguables.
-      var k = r.country + '|' + r.name + '|' + (r.matchedName || '') + '|' + (r.cp || '') + '|' + (r.commune || '');
+      // Depuis le 25/09/2026 la clé prend le BADGE et non le code postal brut : le badge d'un lieu sans code porte sa
+      // région, et deux fiches qui affichent déjà des régions différentes n'ont pas besoin d'une mention en plus.
+      var k = r.country + '|' + r.name + '|' + (r.matchedName || '') + '|' + formatCpBadge(r) + '|' + (r.commune || '');
       if(!Object.prototype.hasOwnProperty.call(parTexte, k)){ parTexte[k] = []; ordre.push(k); }
       parTexte[k].push(r);
     });
@@ -2674,8 +2702,11 @@
   function updateRevealTexts(firstStop){
     setRevealLabel('reveal.confirmed');
     els.stamp.textContent = t('reveal.stamp');
-    // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France).
-    var bits = [firstStop.name + (firstStop.cp ? ' (' + formatCpBadge(firstStop) + ')' : '')];
+    // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France). À défaut de code —
+    // 99 109 lieux publiés n'en ont pas — c'est la RÉGION qui tient ce rôle, et la parenthèse reste vide de rien
+    // (25/09/2026, voir formatCpBadge).
+    var badge = formatCpBadge(firstStop);
+    var bits = [firstStop.name + (badge ? ' (' + badge + ')' : '')];
     // Nombre d'habitants et de lieux repérés au bon pluriel (15e audit du 19/09/2026 : « 2 настоящих интересных точек »,
     // « 21 жителей », « تم العثور على ٢ معالم ») : forme exacte de I18N.plural quand la langue en a plusieurs (duel arabe
     // écrit sans nombre, voir dualWithoutNumber), sinon la phrase traduite.
@@ -3617,7 +3648,10 @@
       stopEl.className = 'day-stop';
       // Le code postal désambiguïse les nombreuses communes homonymes (ex. 3 "Thoiry" en France) —
       // sans lui, impossible de savoir laquelle a été tirée au sort rien qu'au nom.
-      var stopLabel = firstLeg.stop + (firstLeg.cp ? ' (' + formatCpBadge(firstLeg) + ')' : '');
+      // Et quand il n'y a pas de code — c'est le cas de 99 109 lieux publiés — c'est la RÉGION qui le dit
+      // (25/09/2026, voir formatCpBadge).
+      var badgeEtape = formatCpBadge(firstLeg);
+      var stopLabel = firstLeg.stop + (badgeEtape ? ' (' + badgeEtape + ')' : '');
       stopEl.textContent = t(firstLeg.isReturn ? 'day.returnTo' : 'day.stepMystery', {stop: stopLabel});
       body.appendChild(stopEl);
 
@@ -4267,7 +4301,9 @@
     if(leg.overMaxLeg) out.overMaxLeg = overMaxLegText(leg.overMaxLeg);
     var route = legRouteText(leg);
     if(route) out.route = route;
-    out.stop = t(leg.isReturn ? 'day.returnTo' : 'day.stepMystery', {stop: leg.stop + (leg.cp ? ' (' + formatCpBadge(leg) + ')' : '')});
+    // Même règle qu'à l'écran : le code postal, ou à défaut la région (25/09/2026, voir formatCpBadge).
+    var badgeLeg = formatCpBadge(leg);
+    out.stop = t(leg.isReturn ? 'day.returnTo' : 'day.stepMystery', {stop: leg.stop + (badgeLeg ? ' (' + badgeLeg + ')' : '')});
     if(leg.tension && !leg.isReturn) out.tension = t('tension.label') + ' — ' + t(leg.tension.level === 'red' ? 'tension.red' : 'tension.orange');
     if(leg.tollInfo){
       var ti = leg.tollInfo;
@@ -4410,7 +4446,8 @@
           badge: legBadges[idx] || null,
           label: singleLegLabel(leg),
           stop: leg.stop,
-          cpBadge: leg.cp ? formatCpBadge(leg) : null,
+          // Le PDF le tronque à 20 caractères (lib/trip-pdf.js) : une région longue y tient donc sans déborder.
+          cpBadge: formatCpBadge(leg) || null,
           isReturn: leg.isReturn ? true : null, // false = valeur par défaut du serveur : inutile de l'écrire
           distanceKm: leg.distanceKm,
           travelTime: leg.travelTime,
@@ -4657,7 +4694,9 @@
 
     if(rouletteTimer) clearTimeout(rouletteTimer);
 
-    var firstStopInfo = { name: firstLeg.stop, norm: firstLeg.norm, pop: firstLeg.pop, cp: firstLeg.cp, allCps: firstLeg.allCps, featuredCount: firstLeg.featuredCount || 0 };
+    // `dept` ajouté le 25/09/2026 : sans lui, un premier arrêt SANS code postal s'annonçait sous son seul nom, la
+    // région n'étant pas là pour prendre la place du code (voir formatCpBadge et updateRevealTexts).
+    var firstStopInfo = { name: firstLeg.stop, norm: firstLeg.norm, pop: firstLeg.pop, cp: firstLeg.cp, allCps: firstLeg.allCps, dept: firstLeg.dept, featuredCount: firstLeg.featuredCount || 0 };
     runReveal(firstStopInfo, spinPool, drawId, function(){
       Promise.race([assetsReady, new Promise(function(resolve){ setTimeout(resolve, Math.max(0, preloadDeadline - Date.now())); })])
         .then(function(){ if(drawId === currentDrawId) showDrawnTrip(); });

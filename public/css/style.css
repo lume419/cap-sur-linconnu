@@ -366,6 +366,12 @@
   .suggest-flag{flex:none; font-size:1rem; line-height:1;}
   img.suggest-flag{width:16px; height:16px; border-radius:50%; object-fit:cover; display:block;}
   .suggest-cp{font:var(--font-mono); font-size:.72rem; color:var(--ink-faint); white-space:nowrap; flex:none;}
+  /* Badge portant une RÉGION plutôt qu'un code postal (25/09/2026, voir formatCpBadge) : le chasse-fixe est fait
+     pour des chiffres, et une région est du texte — en italique pour qu'on ne la prenne pas pour un code. Elle peut
+     être longue : la médiane fait 9 caractères, mais « Dadra and Nagar Haveli and Daman and Diu » en fait 40. Elle
+     est donc bornée à 45 % de la ligne et coupée aux points de suspension, plutôt que d'écraser le nom du lieu qui
+     est ce qu'on est venu lire. `flex:none` cède la place à `flex:0 1 auto` pour que la coupe puisse opérer. */
+  .suggest-cp-region{font:inherit; font-size:.72rem; font-style:italic; flex:0 1 auto; max-width:45%; overflow:hidden; text-overflow:ellipsis;}
   .suggest-empty{padding:.6rem; font-size:.82rem; color:var(--ink-faint); font-style:italic;}
 
   .toll-field{display:flex; flex-direction:column; gap:.35rem;}

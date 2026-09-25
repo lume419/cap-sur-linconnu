@@ -143,6 +143,36 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **LA RÉGION PREND LA PLACE DU CODE POSTAL QUAND IL N'Y EN A PAS : 95 473 fiches cessent de se ressembler**
+  (demande de l'utilisateur). Une ligne de suggestion montre le code postal à droite du nom. Or **99 109 fiches
+  publiées n'ont aucun code postal** — la Bosnie à 98 %, le Monténégro et le Kosovo presque entiers, 60 pays en
+  tout — et cet emplacement restait VIDE. Le défaut n'est pas l'espace perdu : **25 282 de ces fiches sont homonymes
+  d'une fiche qui, elle, a un code**. La liste affichait « Vagalat 9701 » au-dessus de « Vagalat » tout court, ce qui
+  se lit comme un doublon mal résolu, alors que ce sont deux villages albanais distincts — comtés de Vlorë et de
+  Gjirokastër. La région occupe désormais cette place.
+  - **Rien de dépaysant** : 2 024 479 fiches y affichent déjà un identifiant de région ISO (« BA-BIH »), faute de
+    fichier postal pour leur pays. La nouveauté est d'y mettre le nom lisible plutôt que rien.
+  - **Cinq emplacements suivent la même règle** : la liste de suggestions, le champ de saisie après le choix,
+    l'annonce du dévoilement, la carte de la journée et le PDF. Deux garde-fous, repris de règles déjà en place :
+    une région qui **porte le nom du lieu** ne s'affiche pas (6 fiches) — se répéter n'apprend rien, comme pour la
+    commune de rattachement — et les **3 630 fiches sans région NI code** gardent un badge vide, la population ou la
+    coordonnée les distinguant comme avant.
+  - **Une décision du 23/09 est révoquée en connaissance de cause.** Le champ de saisie n'affichait alors RIEN pour
+    un lieu sans code, pour éviter la parenthèse vide « Hrazdan () ». Ne rien afficher laissait justement les
+    homonymes indiscernables : la parenthèse reçoit maintenant la région. Ce que le test gardait n'a pas changé —
+    jamais de parenthèse vide.
+  - **La clé de `marquerDistinctions` suit le BADGE et non le code brut**, sans quoi deux lignes affichant déjà des
+    régions différentes auraient reçu en plus une mention distinctive répétant la même chose.
+  - **Trois détails qui ne se voient qu'à l'essai.** Un code postal est forcé de gauche à droite pour ne pas
+    s'inverser dans une page en arabe ; une région est du texte et doit suivre le sens de la page — vérifié à
+    l'écran en arabe, la ligne se renverse et la région reste lisible. La police à chasse fixe est faite pour des
+    chiffres : la région est en italique, dans la police du texte. Et elle peut être longue — la médiane fait
+    9 caractères, mais « Dadra and Nagar Haveli and Daman and Diu » en fait 40 : elle est bornée à 45 % de la ligne
+    et coupée aux points de suspension, mesuré à 43 % à l'écran, le nom du lieu restant entier.
+  - **Une étape de voyage nomme son lieu `stop`, une suggestion le nomme `name`** : la garde « ne pas répéter le
+    nom » ne regardait que `name` et serait restée inopérante sur les cartes de journée. Les trois mutants — région
+    jamais affichée, garde retirée, garde aveugle à la forme « étape » — sont tués par les tests.
+
 - **LES RÉGIONS PUBLIÉES SOUS DEUX NOMS SONT TRAITÉES : 11 902 fiches, et trois pays qui tombent enfin sur leur
   compte exact de divisions.** Le Kenya publiait 85 étiquettes pour 47 comtés, le Honduras 37 pour 18 départements,
   la Roumanie 62 pour 42 judeţe — parce que le générateur puise le nom de région à deux sources qui ne l'écrivent

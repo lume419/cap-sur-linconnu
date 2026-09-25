@@ -1542,13 +1542,14 @@ test('18e audit : une suggestion de ville nomme son pays, pas seulement son drap
     currentSuggestions: null, activeSuggestIndex: -1,
     COUNTRIES: { FR: { name: 'France' }, US: { name: 'États-Unis' } },
     countryDisplayName: (cc, repli) => repli,          // pas d'Intl ici : le nom des données suffit
-    formatCpBadge: r => r.cp,
+
     selectCommune: () => {}
   };
   ctx.window = { I18N: { country: () => 'FR', current: () => 'fr' } };
-  const src = extract('renderSuggestions');
+  const src = [extract('formatCpBadge'), extract('badgeEstRegion'), extract('renderSuggestions')].join('\n');
   vm.createContext(ctx);
-  vm.runInContext('(' + src.trim().replace(/^function/, 'function') + ')', ctx); // contrôle de syntaxe
+  // Le contrôle de syntaxe qui enveloppait la source dans des parenthèses est retiré : il valait pour UNE fonction,
+  // et le bac à sable en reçoit trois depuis le 25/09/2026. L'exécution ci-dessous contrôle la syntaxe aussi bien.
   vm.runInContext(src.trim() + '\nthis.renderSuggestions = renderSuggestions;', ctx);
   ctx.renderSuggestions([
     { name: 'Lyon', cp: '69001', allCps: ['69001'], country: 'FR', dept: '69', lat: 45.75, lon: 4.85, pop: 519127 },
@@ -1665,11 +1666,11 @@ test('23/09/2026 : un lieu-dit affiche la commune qui le porte, et ne se répèt
     currentSuggestions: null, activeSuggestIndex: -1,
     COUNTRIES: { FR: { name: 'France' } },
     countryDisplayName: (cc, repli) => repli,
-    formatCpBadge: r => r.cp,
+
     selectCommune: () => {}
   };
   ctx.window = { I18N: { country: () => 'FR', current: () => 'fr' } };
-  const src = extract('renderSuggestions');
+  const src = [extract('formatCpBadge'), extract('badgeEstRegion'), extract('renderSuggestions')].join('\n');
   vm.createContext(ctx);
   vm.runInContext(src.trim() + '\nthis.renderSuggestions = renderSuggestions;', ctx);
   ctx.renderSuggestions([
@@ -1690,6 +1691,82 @@ test('23/09/2026 : un lieu-dit affiche la commune qui le porte, et ne se répèt
   assert.ok(!/·/.test(visible(options[2])), 'un lieu dont la commune porte son nom ne doit pas se répéter : ' + JSON.stringify(visible(options[2])));
 });
 
+test('25/09/2026 : un lieu sans code postal montre sa RÉGION à la place, et cesse de ressembler à un doublon', () => {
+  // Le cas signalé par l'utilisateur : deux lignes du même nom, l'une avec un code postal et l'autre sans, se lisent
+  // comme un doublon mal résolu. Mesuré sur les données publiées : 99 109 fiches n'ont aucun code postal, et 25 282
+  // d'entre elles sont homonymes d'une fiche qui en a un. Les deux Vagalat albanais ci-dessous sont réels, et bien
+  // distincts — comtés de Vlorë et de Gjirokastër.
+  // marquerDistinctions est appelée comme le fait le vrai flux (voir searchCity), sans quoi le test éprouverait un
+  // rendu que personne ne produit.
+  const dom = fakeDom();
+  const suggest = dom.el('ul'), city = dom.el('input');
+  const ctx = {
+    document: { createElement: dom.el },
+    els: { citySuggest: suggest, city: city },
+    currentSuggestions: null, activeSuggestIndex: -1,
+    COUNTRIES: { AL: { name: 'Albanie' }, BA: { name: 'Bosnie-Herzégovine' } },
+    countryDisplayName: (cc, repli) => repli,
+    localeTag: () => 'fr-FR',
+    pluralPhrase: () => null,
+    t: (key, vars) => vars.n + ' habitants',
+    selectCommune: () => {},
+    Object: Object, Number: Number
+  };
+  ctx.window = { I18N: { country: () => 'AL', current: () => 'fr' } };
+  const src = [extract('formatCpBadge'), extract('badgeEstRegion'), extract('coordTexte'), extract('popTexte'),
+    extract('affinerDistinctions'), extract('marquerDistinctions'), extract('renderSuggestions')].join('\n');
+  vm.createContext(ctx);
+  vm.runInContext(src.trim() + '\nthis.renderSuggestions = renderSuggestions; this.marquerDistinctions = marquerDistinctions; this.formatCpBadge = formatCpBadge;', ctx);
+
+  const badge = li => {
+    const el = li.querySelectorAll('.suggest-cp')[0];
+    return el ? (el.textContent || '') : null;
+  };
+  ctx.renderSuggestions(ctx.marquerDistinctions([
+    { name: 'Vagalat', cp: '9701', allCps: ['9701'], country: 'AL', dept: 'Vlorë County', lat: 40.1, lon: 19.8, pop: 0 },
+    { name: 'Vagalat', cp: '', allCps: [], country: 'AL', dept: 'Gjirokastër County', lat: 40.0, lon: 20.2, pop: 0 }
+  ]));
+  let o = suggest.children;
+  assert.equal(o.length, 2, 'suggestions non construites');
+  assert.equal(badge(o[0]), '9701', 'le lieu AVEC code garde son code : ' + JSON.stringify(badge(o[0])));
+  assert.equal(badge(o[1]), 'Gjirokastër County', 'le lieu SANS code doit montrer sa région : ' + JSON.stringify(badge(o[1])));
+  assert.notEqual(badge(o[0]), badge(o[1]), 'les deux lignes restent indiscernables');
+  // Un code postal garde l'ordre de gauche à droite (des chiffres) ; une région suit le sens de la page (du texte).
+  assert.equal(o[0].querySelectorAll('.suggest-cp')[0].getAttribute('dir'), 'ltr', 'un code postal doit rester en ltr');
+  assert.equal(o[1].querySelectorAll('.suggest-cp')[0].getAttribute('dir'), null, 'une région ne doit pas être forcée en ltr');
+  assert.ok(/suggest-cp-region/.test(o[1].querySelectorAll('.suggest-cp')[0].className),
+    'la région doit porter sa propre classe pour ne pas être rendue en chasse-fixe');
+
+  // DEUX lieux sans code dans la MÊME région : le badge ne les distingue plus, et c'est alors la population ou la
+  // coordonnée qui prend le relais — la mécanique de marquerDistinctions doit continuer de jouer par-dessus le badge.
+  ctx.renderSuggestions(ctx.marquerDistinctions([
+    { name: 'Vitez', cp: '', allCps: [], country: 'BA', dept: 'Central Bosnia', lat: 44.15, lon: 17.79, pop: 4393 },
+    { name: 'Vitez', cp: '', allCps: [], country: 'BA', dept: 'Central Bosnia', lat: 44.10, lon: 17.70, pop: 0 }
+  ]));
+  o = suggest.children;
+  assert.equal(badge(o[0]), 'Central Bosnia', 'les deux doivent montrer leur région commune');
+  assert.equal(badge(o[1]), 'Central Bosnia');
+  const texte = e => { let t = e.textContent || ''; (e.children || []).forEach(c => { t += ' ' + texte(c); }); return t.replace(/\s+/g, ' ').trim(); };
+  assert.notEqual(texte(o[0]), texte(o[1]), 'à région identique, population ou coordonnée doit séparer les deux lignes');
+  assert.ok(/habitants/.test(texte(o[0])), 'la population devait distinguer la première : ' + JSON.stringify(texte(o[0])));
+  // La région ne doit PAS être répétée en mention distinctive alors qu'elle est déjà dans le badge.
+  assert.ok(!/Central Bosnia.*Central Bosnia/.test(texte(o[0])), 'région affichée deux fois : ' + JSON.stringify(texte(o[0])));
+
+  // Une ÉTAPE de voyage nomme son lieu « stop » et non « name » : la garde « ne pas répéter le nom » doit valoir
+  // pour les deux formes, sans quoi une carte de journée écrirait « Kotayk (Kotayk) ».
+  {
+    const badgeDe = ctx.formatCpBadge || null;
+    assert.ok(badgeDe, 'formatCpBadge doit être dans le bac à sable');
+    assert.equal(badgeDe({ stop: 'Vitez', cp: '', dept: 'Central Bosnia' }), 'Central Bosnia', 'une étape sans code doit porter sa région');
+    assert.equal(badgeDe({ stop: 'Kotayk', cp: '', dept: 'Kotayk' }), '', 'une étape ne doit pas répéter son propre nom');
+  }
+  // Ni code ni région : le badge reste vide, sans espace ni parenthèse fantôme.
+  ctx.renderSuggestions(ctx.marquerDistinctions([
+    { name: 'Ayoob Kandra Chowk', cp: '', allCps: [], country: 'AL', dept: '', lat: 25.12, lon: 66.56, pop: 0 }
+  ]));
+  assert.equal(badge(suggest.children[0]), '', 'sans code ni région, le badge doit rester vide');
+});
+
 test('23/09/2026 : choisir un lieu SANS code postal ne laisse pas une parenthèse vide', () => {
   // Le code postal est facultatif depuis le 21/09/2026 (98 910 lieux publiés n'en ont pas) : le champ affichait
   // « Hrazdan () ». Les quatre autres emplacements qui montrent un code postal gardaient déjà, celui-ci non.
@@ -1701,21 +1778,34 @@ test('23/09/2026 : choisir un lieu SANS code postal ne laisse pas une parenthès
     searchRequestSeq: 0, searchDebounceTimer: null, selectedCity: null,
     clearTimeout(){}, hideSuggestions(){}, clearCityError(){}, updateBudgetHint(){}
   };
-  const src = extract('selectCommune');
+  // Les deux fonctions du badge entrent dans le bac à sable : selectCommune s'en sert pour mettre la RÉGION dans la
+  // parenthèse quand il n'y a pas de code postal, et un double s'en écarterait tôt ou tard.
+  const src = [extract('formatCpBadge'), extract('badgeEstRegion'), extract('selectCommune')].join('\n');
   vm.createContext(ctx);
   vm.runInContext(src.trim() + '\nthis.selectCommune = selectCommune;', ctx);
 
   ctx.selectCommune({ name: 'Hrazdan', cp: '2301', allCps: ['2301'], lat: 40.5, lon: 44.77, dept: 'Kotayk', country: 'AM' });
   assert.equal(city.value, 'Hrazdan (2301)', 'un lieu AVEC code postal doit garder sa parenthèse');
 
+  // 25/09/2026 : la parenthèse reçoit désormais la RÉGION au lieu de disparaître. La décision du 23/09 — « ne rien
+  // afficher plutôt qu'une parenthèse vide » — est révoquée en connaissance de cause : ne rien afficher laissait deux
+  // homonymes indiscernables dès que l'un des deux avait un code postal, ce qui arrive à 25 282 fiches. Ce que ce
+  // test garde n'a pas changé : JAMAIS de parenthèse vide.
   ctx.selectCommune({ name: 'Hrazdan', cp: '', allCps: [], lat: 40.49, lon: 44.72, dept: 'Kotayk', country: 'AM' });
-  assert.equal(city.value, 'Hrazdan', 'un lieu SANS code postal : aucune parenthèse, ' + JSON.stringify(city.value));
+  assert.equal(city.value, 'Hrazdan (Kotayk)', 'un lieu sans code postal doit porter sa RÉGION, ' + JSON.stringify(city.value));
   assert.ok(!/\(\s*\)/.test(city.value), 'parenthèse vide dans le champ : ' + JSON.stringify(city.value));
-
   // Le lieu choisi est bien transmis au tirage, code postal vide compris.
   assert.equal(ctx.selectedCity.name, 'Hrazdan');
   assert.equal(ctx.selectedCity.cp, '');
   assert.equal(ctx.selectedCity.country, 'AM');
+
+  // Les deux cas où la parenthèse doit RESTER absente. Ils viennent après les trois contrôles ci-dessus, et non
+  // avant : chaque appel écrase selectedCity, et les y glisser faisait échouer l'assertion suivante sur un « Kotayk »
+  // qui n'était que le reste du cas précédent.
+  ctx.selectCommune({ name: 'Hrazdan', cp: '', allCps: [], lat: 40.49, lon: 44.72, dept: '', country: 'AM' });
+  assert.equal(city.value, 'Hrazdan', 'sans code NI région : aucune parenthèse, ' + JSON.stringify(city.value));
+  ctx.selectCommune({ name: 'Kotayk', cp: '', allCps: [], lat: 40.49, lon: 44.72, dept: 'Kotayk', country: 'AM' });
+  assert.equal(city.value, 'Kotayk', 'une région qui porte le nom du lieu ne doit pas se répéter, ' + JSON.stringify(city.value));
 });
 
 test('23/09/2026 : « Aucune ville trouvée » est annoncée aux lecteurs d\'écran, et ne se répète pas', () => {
@@ -1762,7 +1852,9 @@ test('23/09/2026 : deux suggestions au rendu identique reçoivent ce qui les dis
     t: (key, vars) => vars.n + ' habitants',
     Object: Object, Number: Number
   };
-  const src = [extract('coordTexte'), extract('popTexte'), extract('affinerDistinctions'), extract('marquerDistinctions')].join('\n');
+  // formatCpBadge entre dans le bac à sable depuis le 25/09/2026 : marquerDistinctions clé désormais sur le BADGE
+  // affiché, et non sur le code postal brut, puisqu'un lieu sans code affiche sa région à cette place.
+  const src = [extract('coordTexte'), extract('popTexte'), extract('formatCpBadge'), extract('affinerDistinctions'), extract('marquerDistinctions')].join('\n');
   vm.createContext(ctx);
   vm.runInContext(src + '\nthis.marquerDistinctions = marquerDistinctions;', ctx);
 
