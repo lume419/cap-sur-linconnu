@@ -762,7 +762,7 @@
 0;47.6612,45.7510;416367;Astrakhan Oblast;Zyuzino
 0;33.7000,55.7500;216223;Smolensk Oblast;Zyuzili
 0;51.3535,55.9447;422153;Tatarstan Republic;Zyuri
-86;59.2314,54.9259;;Chelyabinsk;Zyuratkul’
+86;59.2314,54.9259;456915;Chelyabinsk;Zyuratkul’
 0;42.0683,46.0408;369385;Kalmykiya Republic;Zyungar-Kebyut
 0;42.1000,47.1667;352525;Rostov;Zyungar
 4556;54.7078,58.2042;617110;Perm Krai;Zyukayka
@@ -8157,7 +8157,7 @@
 0;37.3738,54.0274;301211;Tula Oblast;Vozdremo
 0;55.0187,59.8050;619452;Perm Krai;Voyvyl
 0;55.1240,64.3418;169534;Komi;Voyvozh
-3727;54.9635,62.8920;;Komi;Voyvozh
+3727;54.9635,62.8920;169534;Komi;Voyvozh
 0;49.1667,59.6500;;Komi;Voyvozh
 0;41.8333,55.2500;602138;Vladimir Oblast;Voyutino
 0;31.6152,58.3445;173530;Novgorod Oblast;Voytsy
@@ -13046,7 +13046,7 @@
 0;46.9852,64.0224;169245;Komi;Ust’-Kula
 0;58.1333,57.4333;;Sverdlovsk Oblast;Ust’-Kryuk
 0;38.7267,63.6313;165512;Arkhangelskaya;Ust’-Kozha
-301;58.2101,58.2224;;Perm Krai;Ust’-Koyva
+301;58.2101,58.2224;618831;Perm Krai;Ust’-Koyva
 300;39.5679,47.1401;346741;Rostov;Ust'-Koysug
 0;56.2167,58.8167;617040;Perm Krai;Ust’-Kos’va
 0;55.1723,60.2008;;Perm Krai;Ust’-Kosa
@@ -16332,7 +16332,7 @@
 0;35.1481,55.1653;216466;Smolensk Oblast;Tishakovo
 0;57.6020,57.0091;617553;Perm Krai;Tis
 0;48.9941,60.7662;;Komi;Porub-Kepovskaya
-5758;58.5806,54.2109;;Bashkortostan Republic;Tirlyanskiy
+5758;58.5806,54.2109;453530;Bashkortostan Republic;Tirlyanskiy
 0;58.6744,54.2262;;Bashkortostan Republic;Tirlyanskiy
 0;30.4455,61.8058;186770;Karelia;Tirivara
 0;53.3333,53.7333;461776;Orenburg Oblast;Tiris-Usmanovo
@@ -24140,7 +24140,7 @@
 0;51.8500,58.2167;427509;Udmurtiya Republic;Sibirskiy
 0;41.7160,48.3013;347210;Rostov;Sibirki
 0;41.1469,58.2540;152490;Kostroma Oblast;Sibirka
-128;58.9933,54.8700;;Chelyabinsk;Sibirka
+128;58.9933,54.8700;456915;Chelyabinsk;Sibirka
 0;50.9833,59.8000;613257;Kirov Oblast;Sibir’
 0;56.8445,59.2628;618451;Perm Krai;Sibir’
 0;55.1667,59.0333;619194;Perm Krai;Sibir'
@@ -47619,7 +47619,7 @@
 0;45.1333,47.6833;;Kalmykiya Republic;Muzanga
 0;40.0409,54.2375;391175;Ryazan Oblast;Muzalëvo
 0;35.3688,53.0718;303930;Oryol oblast;Muzalëvka
-3901;31.9874,63.9576;;Karelia;Muyezerskiy
+3901;31.9874,63.9576;186960;Karelia;Muyezerskiy
 0;31.4782,62.1010;;Karelia;Muyelampi
 0;53.5890,57.2979;427078;Udmurtiya Republic;Muvyr
 0;52.7019,56.0455;427887;Udmurtiya Republic;Muvazhi
@@ -48530,7 +48530,7 @@
 0;33.0576,54.7199;309217;Smolensk Oblast;Monino
 0;37.4833,59.9333;161221;Vologda Oblast;Mondoma
 0;38.9202,63.6826;164892;Arkhangelskaya;Mondino
-49868;32.8739,67.9397;;Murmansk;Monchegorsk
+49868;32.8739,67.9397;184530;Murmansk;Monchegorsk
 0;49.4141,58.8965;613611;Kirov Oblast;Monastyrskoye
 0;48.8394,55.0406;613620;Tatarstan Republic;Monastyrskoye
 0;45.5515,54.2260;607956;Mordoviya Republic;Monastyrskaya Vtoraya
@@ -54938,7 +54938,7 @@
 0;39.2478,55.0078;140530;Moscow Oblast;Lovtsy
 0;35.8929,57.2812;171291;Tver Oblast;Lovtsovo
 0;37.8458,55.4033;140579;Moscow Oblast;Lovtsovo
-2963;35.0187,68.0056;;Murmansk;Lovozero
+2963;35.0187,68.0056;184592;Murmansk;Lovozero
 0;30.2556,56.2326;182130;Pskov Oblast;Lovno
 0;34.3397,58.1208;;Tver Oblast;Lavnitsa
 0;49.3882,59.9082;;Komi;Lovlya
@@ -57681,7 +57681,7 @@
 0;29.5528,57.1423;182816;Pskov Oblast;Kuzino
 0;43.4241,57.0270;606676;Nizhny Novgorod Oblast;Kuzino
 0;59.5667,57.0167;623140;Sverdlovsk Oblast;Kuzino
-3213;59.4412,57.0224;;Sverdlovsk Oblast;Kuzino
+3213;59.4412,57.0224;623140;Sverdlovsk Oblast;Kuzino
 0;33.5658,55.6147;181270;Smolensk Oblast;Kuzino
 0;39.9820,55.1496;301351;Ryazan Oblast;Kuzino
 0;31.5663,55.0414;214546;Smolensk Oblast;Kuzino
@@ -63475,7 +63475,7 @@
 0;33.4096,60.8644;;Leningradskaya Oblast';Filippovskaya
 0;33.4020,60.8625;;Leningradskaya Oblast';Churova Gora
 0;33.4170,60.8324;;Leningradskaya Oblast';Kondushi-Andreyevshchina
-500;33.4170,60.8283;;Leningradskaya Oblast';Kondushi
+500;33.4170,60.8283;187720;Leningradskaya Oblast';Kondushi
 0;33.0697,61.2654;186012;Karelia;Kondu-Sel’ga
 0;56.6902,51.5268;462150;Orenburg Oblast;Kandurovka
 0;50.3500,51.7833;413750;Saratov Oblast;Konduktorovskiy
@@ -63588,7 +63588,7 @@
 0;42.4798,50.9804;308514;Volgograd Oblast;Komsomol’skiy
 0;46.7558,49.5418;404251;Volgograd Oblast;Komsomol’skiy
 0;47.2500,47.4000;416010;Astrakhan Oblast;Komsomol’skiy
-5099;46.0421,45.3294;;Kalmykiya Republic;Komsomol’skiy
+5099;46.0421,45.3294;359240;Kalmykiya Republic;Komsomol’skiy
 2753;46.6985,43.9783;368874;Dagestan;Komsomol’skiy
 0;45.6067,43.0561;366505;Chechnya;Komsomol’skoye
 0;39.0075,46.2031;353898;Krasnodar Krai;Komsomol’skaya Pravda
@@ -69218,7 +69218,7 @@
 0;44.8118,61.7812;;Arkhangelskaya;Kamennoye
 0;28.5241,60.5052;188909;Leningradskaya Oblast';Kamenka
 0;33.4000,60.4833;;Leningradskaya Oblast';Kamenka
-8212;29.0829,60.4464;;Leningradskaya Oblast';Kamenka
+8212;29.0829,60.4464;188827;Leningradskaya Oblast';Kamenka
 0;47.8492,60.3419;613920;Kirov Oblast;Kamenka
 0;48.2833,59.8167;613810;Kirov Oblast;Kamenka
 0;31.5500,59.8167;187326;Leningradskaya Oblast';Kamenka
@@ -87383,7 +87383,7 @@
 2171;40.0095,50.4904;306715;Voronezh Oblast;Belogor’ye
 0;48.1779,53.5819;433365;Ulyanovsk;Belogorskoye
 0;45.6217,50.6481;403866;Saratov Oblast;Belogorskoye
-713;42.3433,64.1894;;Arkhangelskaya;Belogorskiy
+713;42.3433,64.1894;164563;Arkhangelskaya;Belogorskiy
 0;56.5300,51.5680;461342;Orenburg Oblast;Belogorskiy
 0;41.8847,50.6353;403141;Volgograd Oblast;Belogorskiy
 0;41.9276,49.9097;396604;Volgograd Oblast;Belogorskiy
@@ -110717,7 +110717,7 @@
 5159;31.3175,59.8720;187310;Leningradskaya Oblast';Priladozhskiy
 0;34.2470,61.8620;185505;Karelia;Meliorativnyy
 5308;33.0205,68.8539;184380;Murmansk;Molochnyy
-6545;53.1512,67.6803;;Nenets;Iskateley
+6545;53.1512,67.6803;166700;Nenets;Iskateley
 0;45.1997,53.2063;442960;Penza Oblast;Seliksa
 0;22.1969,55.0142;238534;Kaliningrad Oblast;Lesnoye
 0;22.2214,55.0208;238534;Kaliningrad Oblast;Lagernoye
@@ -112972,7 +112972,7 @@
 0;77.3500,57.7500;;Tomsk Oblast;Yelizarovka
 0;64.8813,65.8140;;Yamalo-Nenets;Yeliseygort
 0;95.1003,55.5922;663582;Krasnoyarsk Krai;Yeliseyevka
-150;84.3998,51.4073;;Altai Krai;Yelinovo
+150;84.3998,51.4073;659685;Altai Krai;Yelinovo
 0;84.8461,55.9194;652086;Kuzbass;Yelgino
 0;83.3336,56.2511;636166;Tomsk Oblast;Yelgay
 0;84.6871,55.6334;633351;Novosibirsk Oblast;Yelfimovo
@@ -113644,7 +113644,7 @@
 0;62.1287,60.9941;624582;Sverdlovsk Oblast;Vershina
 0;66.1030,60.7752;;Khanty-Mansia;Vershina
 0;81.8500,56.0333;;Novosibirsk Oblast;Vershina
-500;99.8194,54.6282;;Irkutsk Oblast;Vershina
+500;99.8194,54.6282;665138;Irkutsk Oblast;Vershina
 0;82.4667,54.8000;630523;Novosibirsk Oblast;Vernyy Put’
 579;85.7394,50.2133;649494;Altai;Verkh-Uymon
 0;77.4987,56.6225;632293;Novosibirsk Oblast;Verkh-Tarka
@@ -113719,7 +113719,7 @@
 0;92.8500,59.5667;;Krasnoyarsk Krai;Verkhnyaya Lendakha
 0;90.5985,52.9485;655784;Khakasiya Republic;Verkhnyaya Kyndyrla
 0;93.2032,53.7355;;Krasnoyarsk Krai;Verkhnyaya Kuryata
-5;85.2952,51.4570;;Altai;Verkhnyaya Kukuya
+5;85.2952,51.4570;649211;Altai;Verkhnyaya Kukuya
 0;77.9333,56.3667;632072;Novosibirsk Oblast;Verkhnyaya Krasnoyarka
 0;92.1626,53.4932;662625;Krasnoyarsk Krai;Verkhnyaya Koya
 0;84.9500,58.4833;665123;Tomsk Oblast;Verkhnyaya Koroma
@@ -113741,7 +113741,7 @@
 0;85.1316,55.9838;659857;Kuzbass;Verkhnyaya Itkara
 0;86.2667,51.7000;;Altai;Verkhnyaya Isha
 0;82.2413,54.5727;633272;Novosibirsk Oblast;Verkh-Irmen’
-1975;60.3094,65.9811;;Komi;Verkhnyaya Inta
+1975;60.3094,65.9811;169834;Komi;Verkhnyaya Inta
 0;78.0167,55.7167;632373;Novosibirsk Oblast;Verkhnyaya Icha
 0;96.9739,54.2177;;Irkutsk Oblast;Verkhnyaya Gutara
 0;81.8500,56.8833;636205;Tomsk Oblast;Verkhnyaya Galka
@@ -115652,7 +115652,7 @@
 0;62.5594,54.7622;641087;Kurgan Oblast;Suleymanovo
 0;61.2687,55.6767;456701;Chelyabinsk;Suleymanovo
 0;96.3947,56.1650;663850;Krasnoyarsk Krai;Sulemka
-3648;94.2670,51.6460;;Republic of Tyva;Sukpak
+3648;94.2670,51.6460;667904;Republic of Tyva;Sukpak
 0;66.7500,56.2000;627192;Tyumen Oblast;Suklem
 0;60.0822,53.9453;457683;Chelyabinsk;Sukhtelinskiy
 0;63.3821,56.1325;641857;Kurgan Oblast;Sukhrinskoye
@@ -116730,7 +116730,7 @@
 0;84.1561,56.5526;636143;Tomsk Oblast;Staraya Shegarka
 0;83.2667,57.6500;658722;Tomsk Oblast;Shegarovka
 0;78.9167,53.1667;658842;Altai Krai;Shefel’d
-1500;99.8921,54.6418;;Irkutsk Oblast;Sheberta
+1500;99.8921,54.6418;665136;Irkutsk Oblast;Sheberta
 0;85.7892,52.7166;659360;Altai Krai;Shebalino
 4939;85.6775,51.2951;649220;Altai;Shebalino
 0;83.5000,55.7667;636172;Tomsk Oblast;Shchukino
@@ -116904,7 +116904,7 @@
 0;86.7218,54.0601;653225;Kuzbass;Sevsk
 0;94.9147,52.5039;668520;Republic of Tyva;Sevi
 0;92.5667,53.6500;662855;Krasnoyarsk Krai;Severyanova-Chuprasova
-6564;93.0302,60.3755;;Krasnoyarsk Krai;Severo-Yeniseyskiy
+6564;93.0302,60.3755;663282;Krasnoyarsk Krai;Severo-Yeniseyskiy
 0;71.6500,54.7667;646005;Omsk Oblast;Severo-Umanka
 0;75.8931,55.1845;632115;Novosibirsk Oblast;Severotatarskoye
 0;72.7918,55.1938;646160;Omsk Oblast;Severo-Lyubinskiy
@@ -120848,7 +120848,7 @@
 0;84.0927,56.2578;636181;Tomsk Oblast;Molchanova
 0;65.1796,57.2861;625509;Tyumen Oblast;Molchanova
 0;82.7833,51.7500;658346;Altai Krai;Molchanikha
-130;85.3386,51.4042;;Altai;Mukhorcherga
+130;85.3386,51.4042;649211;Altai;Mukhorcherga
 0;72.3173,55.3488;;Omsk Oblast;Mokshino
 0;95.3117,56.7172;663710;Krasnoyarsk Krai;Mokryy Yel’nik
 0;61.2500,54.1000;457124;Chelyabinsk;Mokryye Rusty
@@ -121020,7 +121020,7 @@
 0;78.7833,53.7167;632942;Novosibirsk Oblast;Mikhaylovskiy
 0;86.3041,53.4096;659481;Altai Krai;Mikhaylovskiy
 0;85.2000,53.2333;659257;Altai Krai;Mikhaylovskiy
-11467;79.7214,51.8223;;Altai Krai;Mikhaylovskoye
+11467;79.7214,51.8223;658960;Altai Krai;Mikhaylovskoye
 0;81.1939,51.1456;658400;Altai Krai;Novomikhaylovka
 0;81.9614,50.8139;658459;Altai Krai;Mikhaylovka
 0;97.5167,56.1833;665046;Irkutsk Oblast;Mikhaylovskaya
@@ -121479,7 +121479,7 @@
 0;65.5469,55.7136;641363;Kurgan Oblast;Malyy Zapoloy
 0;83.3833,56.2000;636166;Tomsk Oblast;Malyy Yelgay
 0;80.0000,58.9667;;Tomsk Oblast;Malyy Yar
-200;86.5667,50.5000;;Altai;Malyy Yaloman
+200;86.5667,50.5000;649446;Altai;Malyy Yaloman
 0;70.0000,57.6000;;Tyumen Oblast;Malyy Uvat
 0;93.3575,55.4417;663506;Krasnoyarsk Krai;Malyy Ungut
 0;90.4269,56.1188;662172;Krasnoyarsk Krai;Malyy Uluy
@@ -122016,7 +122016,7 @@
 0;81.8244,51.2575;658461;Altai Krai;Lokotok
 0;86.2128,53.0530;659438;Altai Krai;Lokot’
 0;81.1958,51.1847;658401;Altai Krai;Lokot’
-3915;74.8167,61.1333;;Khanty-Mansia;Lokosovo
+3915;74.8167,61.1333;628454;Khanty-Mansia;Lokosovo
 0;72.4167,60.7167;628325;Khanty-Mansia;Lokateyevy
 0;62.3030,56.2065;641712;Kurgan Oblast;Logulovo
 0;64.9100,55.4117;641328;Kurgan Oblast;Logovushka
@@ -125149,7 +125149,7 @@
 0;83.8996,53.9289;658014;Altai Krai;Inyushevo
 0;84.3436,53.6335;658070;Altai Krai;Inyushevo
 2300;82.6712,53.5044;659060;Altai Krai;Inya
-2000;86.6267,50.4561;;Altai;Inya
+2000;86.6267,50.4561;649446;Altai;Inya
 0;74.8611,56.4938;646447;Omsk Oblast;Intsiss
 0;90.5897,54.9553;;Krasnoyarsk Krai;Intikul’
 0;73.4875,55.7743;646413;Omsk Oblast;Intenis
@@ -125172,7 +125172,7 @@
 0;97.6327,55.6975;665021;Irkutsk Oblast;Ingashet
 0;74.2192,55.8481;646683;Omsk Oblast;Ingaly
 0;65.9477,56.4244;627183;Tyumen Oblast;Ingalinskoye
-234;86.6955,50.3194;;Altai;Inegen’
+234;86.6955,50.3194;649446;Altai;Inegen’
 0;94.5964,55.3708;663543;Krasnoyarsk Krai;Induk
 0;88.5000,57.7000;;Tomsk Oblast;Indol’skaya Baza
 0;70.0333,66.5667;;Yamalo-Nenets;Indey
@@ -127193,7 +127193,7 @@
 0;82.2667,54.0307;633631;Novosibirsk Oblast;Boltovo
 0;85.2333,55.9000;652042;Kuzbass;Boltovka
 0;69.3000,59.5500;626184;Tyumen Oblast;Bol’shoy Yarok
-300;86.4167,50.4833;;Altai;Bol’shoy Yaloman
+300;86.4167,50.4833;649445;Altai;Bol’shoy Yaloman
 0;62.5167,58.1500;;Sverdlovsk Oblast;Bol’shoy Ural
 0;93.4018,55.4204;663506;Krasnoyarsk Krai;Bol’shoy Ungut
 0;90.5837,56.6589;662110;Krasnoyarsk Krai;Bol’shoy Uluy
@@ -129738,7 +129738,7 @@
 0;85.0155,56.4299;634507;Tomsk Oblast;Zonal’naya Stantsiya
 0;83.5639,57.6833;636346;Tomsk Oblast;Narga
 0;82.7511,57.7164;652582;Tomsk Oblast;Yermilovka
-3061;79.5687,57.5623;;Tomsk Oblast;Kedrovyy
+3061;79.5687,57.5623;636615;Tomsk Oblast;Kedrovyy
 0;69.9250,59.9717;628521;Khanty-Mansia;Bobrovskiy
 0;69.4153,59.6661;626184;Tyumen Oblast;Murza
 0;70.7939,59.8053;;Tyumen Oblast;Mugen
@@ -130906,7 +130906,7 @@
 235600;129.7229,62.0311;677000;Sakha;Yakutsk
 0;105.9748,56.8179;666764;Irkutsk Oblast;Yakurim
 0;118.6546,51.5019;;Zabaykalskiy (Transbaikal) Kray;Yakovlevsk
-4996;133.4758,44.4268;;Primorye;Yakovlevka
+4996;133.4758,44.4268;692361;Primorye;Yakovlevka
 0;131.6975,43.7331;692543;Primorye;Yakonovka
 0;125.8352,58.8980;678952;Sakha;Yakokit
 0;125.7152,58.5297;;Sakha;Yakokut
@@ -132094,7 +132094,7 @@
 0;137.5649,66.4789;;Sakha;Tayakh-Yurekh
 0;126.7333,59.1833;;Sakha;Tayakhtakh
 0;132.1000,63.2167;678355;Sakha;Tayakh-Kyrdala
-8352;131.8626,43.3255;;Primorye;Tavrichanka
+8352;131.8626,43.3255;692495;Primorye;Tavrichanka
 0;136.7856,45.1864;;Primorye;Tavayza
 0;132.2500,43.2667;692813;Primorye;Tavayza
 0;134.8667,48.6333;;Jewish Autonomous Oblast;Taudi
@@ -132555,7 +132555,7 @@
 0;104.0000,55.8333;;Irkutsk Oblast;Solodkova
 1230;137.5556,60.3022;678635;Sakha;Solnechnyy
 0;100.6000,55.4167;;Irkutsk Oblast;Solnechnyy
-14227;136.6356,50.7250;;Khabarovsk;Solnechnyy
+14227;136.6356,50.7250;682711;Khabarovsk;Solnechnyy
 13993;137.0333,50.5833;681000;Khabarovsk;Solnechnyy
 0;119.0333,51.0833;674362;Zabaykalskiy (Transbaikal) Kray;Solkokon
 0;126.4167,52.2667;;Amur Oblast;Soldatka
@@ -132901,7 +132901,7 @@
 0;134.1167,45.8833;692104;Primorye;Semënovka
 0;136.8495,70.6249;;Sakha;Semen-Kyuyele
 0;118.3304,50.5657;674312;Zabaykalskiy (Transbaikal) Kray;Selinda
-4722;137.5036,50.3675;;Khabarovsk;Selikhino
+4722;137.5036,50.3675;681085;Khabarovsk;Selikhino
 0;131.4667,43.0000;692721;Primorye;Selikat
 0;125.3167,59.0333;;Sakha;Seligdar
 0;125.2000,58.6000;;Sakha;Seligdar
@@ -133241,7 +133241,7 @@
 0;112.8279,52.2151;;Zabaykalskiy (Transbaikal) Kray;Preobrazhenka
 0;134.2500,48.8667;;Khabarovsk;Preobrazhenka
 0;133.6326,45.0748;692086;Primorye;Preobrazhenka
-9113;133.9042,42.9009;;Primorye;Preobrazheniye
+9113;133.9042,42.9009;692998;Primorye;Preobrazheniye
 0;125.6667,57.7667;;Sakha;Pravyy Nimger
 0;128.1866,50.3276;676556;Amur Oblast;Pravovostochnyy
 0;129.2696,49.6167;676688;Amur Oblast;Pravaya Raychikha
@@ -134875,7 +134875,7 @@
 0;134.6333,45.9833;692175;Primorye;Lazo Vtoroye
 0;136.5141,66.6891;;Sakha;Lazo
 3240;133.6463,45.8702;692120;Primorye;Lazo
-3551;133.9036,43.3830;;Primorye;Lazo
+3551;133.9036,43.3830;692980;Primorye;Lazo
 0;132.4461,48.2425;679350;Jewish Autonomous Oblast;Lazarevo
 0;128.3386,50.2247;676954;Amur Oblast;Lazarevka
 0;133.4105,44.3468;692352;Primorye;Lazarevka
@@ -135468,7 +135468,7 @@
 0;109.5500,49.8333;;Zabaykalskiy (Transbaikal) Kray;Kobachki
 0;101.3700,55.4322;665794;Irkutsk Oblast;Kob’
 0;133.7355,46.0831;692119;Primorye;Knyazhevka
-8936;135.4548,48.4653;;Khabarovsk;Knyaze-Volkonskoye
+8936;135.4548,48.4653;680550;Khabarovsk;Knyaze-Volkonskoye
 0;139.2426,52.9449;;Khabarovsk;Knyazevo
 4605;132.1871,43.4022;692777;Primorye;Knevichi
 0;105.7578,51.6878;671215;Buryatiya Republic;Klyuyevka
@@ -136211,7 +136211,7 @@
 0;114.1667,55.4667;;Buryatiya Republic;Kadali
 0;114.2498,51.6127;673315;Zabaykalskiy (Transbaikal) Kray;Kadakhta
 0;139.5553,58.9222;;Khabarovsk;Kadakchan
-6971;105.8859,53.9623;;Irkutsk Oblast;Kachug
+6971;105.8859,53.9623;666203;Irkutsk Oblast;Kachug
 808;128.9449,61.3208;678005;Sakha;Kachikattsy
 0;105.2740,52.1394;664515;Irkutsk Oblast;Nizhniy Kochergat
 0;104.7717,54.6134;666418;Irkutsk Oblast;Kachen’
@@ -137809,7 +137809,7 @@
 0;133.7970,44.8866;692082;Primorye;Berëzovka
 0;134.2197,43.8985;;Primorye;Berëzovka
 0;102.6167,58.6000;;Irkutsk Oblast;Berëzova
-1149;103.5851,56.9366;;Irkutsk Oblast;Bereznyaki
+1149;103.5851,56.9366;665696;Irkutsk Oblast;Bereznyaki
 0;122.9682,54.4709;;Amur Oblast;Berezitovyy
 0;134.2833,58.6500;;Khabarovsk;Berezinskaya
 0;107.1667,59.4333;;Irkutsk Oblast;Berezina
@@ -138518,7 +138518,7 @@
 0;131.9641,43.3979;692770;Primorye;Klyuchevoy
 0;131.8475,43.3842;;Primorye;Yushchenki
 0;131.8969,43.3781;;Primorye;Rybachiy
-85;131.7468,43.4206;;Primorye;Venevitinovo
+85;131.7468,43.4206;692481;Primorye;Venevitinovo
 914;131.9218,43.4794;692481;Primorye;Kiparisovo
 0;131.9354,43.4718;692481;Primorye;Tayëzhnyy
 0;131.9617,43.4339;692481;Primorye;Sirenevka
@@ -138703,7 +138703,7 @@
 0;107.5198,50.6275;671371;Buryatiya Republic;Sakharnyy Zavod
 0;107.0712,50.1518;;Buryatiya Republic;Ulan-Ganga
 0;107.3244,50.0236;671835;Buryatiya Republic;Khutor
-38424;135.6209,44.5575;;Primorye;Dalnegorsk
+38424;135.6209,44.5575;692441;Primorye;Dalnegorsk
 0;135.4919,44.5650;692437;Primorye;Granitnyy
 0;135.4349,44.6109;692437;Primorye;Tayga
 0;135.7465,44.4410;692436;Primorye;Serzhantovo
@@ -139470,7 +139470,7 @@
 0;145.8333,67.7667;;Sakha;Solkon
 0;169.8333,64.7500;;Chukotka;Soldatovo
 0;141.9450,46.7780;694730;Sakhalin Oblast;Sokol’niki
-4374;150.7440,59.9218;;Magadan Oblast;Sokol
+4374;150.7440,59.9218;685918;Magadan Oblast;Sokol
 3228;142.7538,47.2440;694060;Sakhalin Oblast;Sokol
 0;157.6885,53.1534;;Kamchatka;Sokoch
 0;145.0833,70.0000;;Sakha;Sobonoydokh
@@ -139498,7 +139498,7 @@
 469;-173.9401,64.4081;689273;Chukotka;Sireniki
 0;143.4000,46.1333;;Sakhalin Oblast;Siraiva
 0;172.6000,67.0167;;Chukotka;Sin’zrun
-3088;150.5216,62.0878;;Magadan Oblast;Sinegor'ye
+3088;150.5216,62.0878;686222;Magadan Oblast;Sinegor'ye
 2444;142.5181,47.1722;;Sakhalin Oblast;Sinegorsk
 0;142.0591,47.1195;694630;Sakhalin Oblast;Simakovo
 0;144.4167,71.4167;;Sakha;Sil’gyaki
@@ -139803,7 +139803,7 @@
 0;142.6333,46.7333;694030;Sakhalin Oblast;Ozeretskoye
 0;154.7084,68.2768;678786;Sakha;Oyusardakh
 0;143.0833,66.5833;678871;Sakha;Oyukhordakh
-800;142.7949,63.4622;;Sakha;Oymyakon
+800;142.7949,63.4622;678752;Sakha;Oymyakon
 0;160.7833,62.2667;;Magadan Oblast;Otvorot
 0;172.7976,65.1225;;Chukotka;Otrozhnyy
 0;156.5000,51.9167;;Kamchatka;Otradnoye
@@ -160243,7 +160243,7 @@
 0;57.5656,59.1414;618320;Perm Krai;Лытвенский
 200;40.0928,44.1799;385796;Adygeya Republic;turbaza "Sibir'"
 0;75.9636,63.7230;;Yamalo-Nenets;Khanymey
-18000;76.9242,60.9794;;Khanty-Mansia;Izluchinsk
+18000;76.9242,60.9794;628634;Khanty-Mansia;Izluchinsk
 0;37.8451,55.6383;140090;Moscow Oblast;Угрешская 6
 0;37.8848,55.6354;140053;Moscow Oblast;Пляж
 83;38.7825,56.7215;152015;Yaroslavl Oblast;Ves'kovo
@@ -166932,7 +166932,7 @@
 0;31.8867,56.6184;172815;Tver Oblast;Monino
 0;31.8662,56.6120;172815;Tver Oblast;Simonka
 0;107.6098,51.8261;670000;Buryatiya Republic;Ulan-Ude
-676;33.3868,61.9222;;Karelia;Syapsya
+676;33.3868,61.9222;186134;Karelia;Syapsya
 2837;72.6607,61.1545;628300;Khanty-Mansia;Singapay
 0;31.8567,56.5659;172895;Tver Oblast;Vas’kovo
 0;31.8729,56.5642;172895;Tver Oblast;Martesovo
@@ -186202,7 +186202,7 @@
 0;28.3143,59.3757;188490;Leningradskaya Oblast';Karlovo
 0;28.2887,59.3777;188490;Leningradskaya Oblast';Zarech’ye
 0;28.2589,59.3861;188490;Leningradskaya Oblast';Zakhon’ye Vtoroye
-1506;29.2970,60.3202;;Leningradskaya Oblast';Semiozerje
+1506;29.2970,60.3202;188823;Leningradskaya Oblast';Semiozerje
 0;37.2813,55.2441;142137;Moscow;Chekhov-7
 23375;73.7142,61.6063;;Khanty-Mansia;Fedorovskiy
 190;37.4565,56.1039;141862;Moscow Oblast;Samoryadovo
@@ -186213,11 +186213,11 @@
 6860;33.4192,68.1358;184530;Murmansk;Vysokiy
 0;39.7154,59.2796;160555;Vologda Oblast;Semenkovo-1
 7876;37.2119,55.6564;143086;Moscow Oblast;Vniissok
-245;67.9767,57.8353;;Tyumen Oblast;Kutarbitka
+245;67.9767,57.8353;626115;Tyumen Oblast;Kutarbitka
 10103;73.1814,61.2794;628433;Khanty-Mansia;Solnechniy
 0;40.2958,61.6360;164200;Arkhangelskaya;Kargopol-2
 10903;50.4967,53.0511;443526;Samara Oblast;Roschinskiy
-6998;78.2092,65.9103;;Yamalo-Nenets;Korotchaevo
+6998;78.2092,65.9103;629320;Yamalo-Nenets;Korotchaevo
 1870;36.4739,53.5465;301516;Tula Oblast;Slavniy
 391;71.5094,54.9325;646003;Omsk Oblast;Puchkovo
 882;34.0822,67.6558;;Murmansk;Koashva
@@ -187985,7 +187985,7 @@
 1069;115.6402,50.7028;674475;Zabaykalskiy (Transbaikal) Kray;Kusocha
 0;115.3035,50.8305;;Zabaykalskiy (Transbaikal) Kray;Kurilzha
 552;115.9669,50.7274;674515;Zabaykalskiy (Transbaikal) Kray;Urtuyskiy
-7785;115.8031,50.8283;;Zabaykalskiy (Transbaikal) Kray;Yasnaya
+7785;115.8031,50.8283;674504;Zabaykalskiy (Transbaikal) Kray;Yasnaya
 0;149.6745,61.9432;;Magadan Oblast;Sibik-Tyellakh
 0;148.4524,61.3630;;Magadan Oblast;Imeni Belova
 0;149.7730,61.7938;;Magadan Oblast;Obo
@@ -188804,7 +188804,7 @@
 0;32.9835,61.6794;186142;Karelia;Chjornaya Lamba
 0;33.0762,61.6902;186142;Karelia;Gonganalitsa
 0;33.3535,61.6001;;Karelia;Kokkojla
-3333;66.4422,61.5506;;Khanty-Mansia;Talinka
+3333;66.4422,61.5506;628195;Khanty-Mansia;Talinka
 0;126.5287,52.7744;676135;Amur Oblast;Lesopunkt Nomer Dva
 0;127.5392,52.9944;;Amur Oblast;Psolyakovskiy
 0;124.3028,54.2617;676271;Amur Oblast;Preobrazhenovskiy

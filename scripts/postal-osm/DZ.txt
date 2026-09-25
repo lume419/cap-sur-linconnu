@@ -1,0 +1,10 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+34.6728	3.2630	17000	Djelfa	0.005	2026-09-25	17060@12.3km
+33.6832	1.0193	32000	El Bayadh	0.038	2026-09-25	32033@20.6km
+35.8669	7.8867	12005	El Aouinet	0.019	2026-09-25	12005@8.1km
+35.8711	2.0281	38032	Theniet el Had	0.003	2026-09-25	38000@9.4km
+33.2288	6.7572	39000	Oued el Alennda	0.011	2026-09-25	39017@3.4km
+26.9360	1.4921	01000	Tit	0.037	2026-09-25	01044@27.8km
+28.0033	-0.4238	01000	Bouda	0	2026-09-25	01030@4.9km

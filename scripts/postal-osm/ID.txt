@@ -1,0 +1,6 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+0.0667	111.5000	78612	Sintang	0.205	2026-09-25	78656@11.7km
+-1.4416	132.0143	98454	Teminabuan	0.037	2026-09-25	98454@22.8km
+-8.5667	118.9833	84182	Sape	0.018	2026-09-25	84182@1.3km

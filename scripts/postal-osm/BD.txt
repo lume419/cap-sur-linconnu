@@ -1,0 +1,4 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+24.7564	90.4065	2200	Mymensingh	0.006	2026-09-25	2210@0.9km

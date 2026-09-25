@@ -1,0 +1,5 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+34.2063	129.2908	817-0021	Tsushima	0.01	2026-09-25	817-0000@8.1km
+34.2000	139.1333	100-0601	Kōzushima	0.037	2026-09-25	100-0511@16.1km

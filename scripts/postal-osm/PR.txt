@@ -1,0 +1,5 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+18.1491	-65.4427	00765	Isabel Segunda	0.002	2026-09-25	00742@21.9km
+18.0972	-65.4707	00765	Esperanza	0.08	2026-09-25	00742@22.7km

@@ -33,7 +33,7 @@
 0;28.5547,48.2562;24645;Kryzhopilskyi;Shumy
 0;29.3000,47.8167;55150;Kryvoozerskyi;Tsyhanivka
 1021;29.5694,47.2419;;Odesa;Pavlivka
-8;29.3288,47.4191;;Odesa;Novorozivka
+8;29.3288,47.4191;67950;Odesa;Novorozivka
 0;24.1291,50.6619;45315;Ivanychivskyi;Movnyky
 0;27.4232,50.4345;12712;Baranivskyi;Khyzhivka
 0;28.6417,48.1641;24015;Mohyliv-Podilskyi;Hrabarivka
@@ -162,7 +162,7 @@
 22608;24.9038,49.8074;80700;Zolochivskyi;Zolochiv
 0;27.5199,51.0829;11035;Olevskyi;Zolnia
 0;24.6500,48.9667;77421;Tysmenytskyi;Sofiyevka
-1707;22.5147,48.4843;;Zakarpattia;Znyats’ovo
+1707;22.5147,48.4843;89650;Zakarpattia;Znyats’ovo
 0;26.6975,51.2148;34545;Sarnenskyi;Znosychi
 0;33.5756,52.2929;41021;Seredyno-Budskyi;Znob Trubchevska
 1830;33.6016,52.2629;41022;Seredyno-Budskyi;Znob Novhorodske
@@ -296,7 +296,7 @@
 2170;26.6163,48.6701;32300;Kamianets-Podilskyi;Muksha Kytaihorodska
 0;32.5915,48.1083;55251;Pervomaiskyi;Lebedyne
 817;37.5552,47.2429;87032;Nikolskiy;Makedonivka
-252;29.1808,46.4859;;Odesa;Matyldivka
+252;29.1808,46.4859;68510;Odesa;Matyldivka
 2707;28.7051,45.6406;68710;Bolhradskyi;Karakurt
 233;32.5692,52.2963;15419;Semenivskyi;Yanzhulivka
 0;33.3884,51.0804;41655;Konotopskyi;Kurylivka
@@ -384,7 +384,7 @@
 0;26.4123,49.9786;30241;Bilohirskyi;Zhemelintsy
 971;34.6578,45.2747;;Crimea;Zhemchuzhina
 2669;34.7578,45.3988;;Crimea;Zhelyabovka
-772;29.9268,45.8662;;Odesa;Zhovtyi Yar
+772;29.9268,45.8662;68152;Odesa;Zhovtyi Yar
 61;30.4734,46.8508;67232;Ivanivskyi;Zhovte
 42052;33.4974,48.3452;52201;Zhovti Vody;Zhovti Vody
 0;28.1077,50.2864;13048;Romanivskyi;Zhovtyi Brid
@@ -401,7 +401,7 @@
 134;32.5839,47.5774;55642;Novobuzkyi;Stepove
 0;35.0167,50.8500;42352;Sumskyi;Zalizniak
 0;26.4667,50.6833;35375;Rivnenskyi;Zheleznitse
-123;30.3033,46.9569;;Odesa;Zhelepove
+123;30.3033,46.9569;67410;Odesa;Zhelepove
 0;24.4167,50.0000;80442;Kamianka-Buzkyi;Zhelekhuv Malyy
 0;24.1679,50.1043;80482;Kamianka-Buzkyi;Zheldets
 0;33.3396,51.3911;41634;Konotopskyi;Zholdaky
@@ -706,7 +706,7 @@
 0;27.6151,49.5873;31612;Chemerovetskyi;Zastavtsi
 0;24.2697,50.5963;45329;Ivanychivskyi;Zastavne
 0;24.4291,49.8205;80724;Zolochivskyi;Zastavne
-1799;22.4747,48.2803;;Zakarpattia;Zapson
+1799;22.4747,48.2803;90224;Zakarpattia;Zapson
 0;24.2667,50.5833;45329;Ivanychivskyi;Zastavne
 7896;25.8426,48.5214;59420;Zastavnivskyi;Zastavna
 0;26.9502,49.6978;31045;Krasylivskyi;Zastavky
@@ -1140,7 +1140,7 @@
 0;37.0817,49.8268;63532;Chuhuivskyi;Yurchenkove
 0;27.6157,49.5075;23131;Zhmerynskyi;Yurchenky
 0;33.9192,52.0399;63345;Krasnohradskyi;Yurasovka
-156;30.2517,47.1319;;Odesa;Yurasheve
+156;30.2517,47.1319;67133;Odesa;Yurasheve
 13495;38.2837,48.2214;64018;Kehychivskyi;Bunhe
 0;24.6621,49.3077;77110;Halytskyi;Yunashkiv
 0;29.4197,49.4965;22230;Pohrebyshchenskyi;Yunashki
@@ -1351,7 +1351,7 @@
 0;27.1787,49.1472;32148;Yarmolynetskyi;Yasnoziria
 0;26.6667,49.5333;31329;Khmelnytskyi;Yasnoye
 511;35.6529,47.0298;72342;Melitopolskyi;Yasne
-333;30.8162,47.3556;;Odesa;Yasnopillya
+333;30.8162,47.3556;67310;Odesa;Yasnopillya
 0;30.4049,50.8466;07324;Vyshhorodskyi;Yasnohorodka
 739;30.0224,50.3559;08126;Kyievo-Sviatoshynskyi;Yasnohorodka
 0;28.0065,50.1660;13020;Romanivskyi;Yasnohorod
@@ -1410,7 +1410,7 @@
 0;29.8568,48.7765;19245;Zhashkivskyi;Yary
 0;27.4629,50.5467;11762;Novohrad-Volynskyi;Yarun
 0;28.0456,48.3306;32394;Kamianets-Podilskyi;Yaruha
-1234;29.0959,46.0449;;Odesa;Yarove
+1234;29.0959,46.0449;68553;Odesa;Yarove
 0;25.3167,49.0000;80344;Zhovkivskyi;Yarovo
 0;36.8000,47.1500;71130;Berdianskyi;Yarovitskoye
 0;27.0464,48.9468;32465;Dunaievetskyi;Yarovaya Sloboda
@@ -1655,7 +1655,7 @@
 0;26.4774,49.0187;60131;Kelmenetskyi;Vyshnivchyk
 0;34.8000,46.5500;75514;Henicheskyi;Vyshnevskiy
 0;28.8263,48.8264;22847;Nemyrivskyi;Vyshkivtsi
-8243;23.4199,48.0489;;Zakarpattia;Vyshkovo
+8243;23.4199,48.0489;90454;Zakarpattia;Vyshkovo
 0;23.6547,48.7277;77563;Dolynskyi;Vyshkiv
 0;26.0167,51.1000;44697;Manevytskyi;Vyshka
 897;22.6945,48.9446;89023;Velykobereznianskyi;Vyshka
@@ -1684,7 +1684,7 @@
 0;25.1793,49.5280;60142;Kelmenetskyi;Vymyslivka
 92;25.6510,48.6503;59410;Zastavnivskyi;Vymushiv
 3136;22.8389,48.1103;78605;Kosivskyi;Vylok
-7712;29.5869,45.4028;;Odesa;Vylkove
+7712;29.5869,45.4028;68355;Odesa;Vylkove
 0;23.1357,49.5673;81454;Sambirskyi;Vykoty
 0;31.4003,51.7341;15151;Horodnianskyi;Vykhvostiv
 0;26.8358,48.6754;32354;Kamianets-Podilskyi;Vykhvatnivtsi
@@ -1735,7 +1735,7 @@
 0;28.2504,48.3945;24521;Yampilskyi;Vitrivka
 0;36.2801,46.8644;72132;Prymorskyi;Viacheslavka
 2628;36.5031,49.8237;63520;Chuhuivskyi;Vvedenka
-1015;29.5330,46.1700;;Odesa;Vvedenka
+1015;29.5330,46.1700;68230;Odesa;Vvedenka
 0;24.5783,51.5211;44192;Ratnivskyi;Vuzhysk
 0;23.4837,50.1814;81010;Yavorivskyi;Vuytovshizna
 0;25.9333,51.7667;34040;Zarichnenskyi;Novorichytsia
@@ -1774,7 +1774,7 @@
 610;35.0324,45.1732;23635;Tulchynskyi;Vozrozhdeniye
 0;28.2114,48.9010;23164;Zhmerynskyi;Voznivtsi
 0;28.3823,51.5126;11118;Ovrutskyi;Voznychi
-120;31.5333,47.6333;;Mykolaiv;Soldatske
+120;31.5333,47.6333;56543;Mykolaiv;Soldatske
 0;35.5833,46.8333;72481;Pryazovskyi;Voznesenskiy Vtoroy
 0;35.5667,46.8167;72476;Pryazovskyi;Voznesenskiy Pervyy
 33442;31.3360,47.5622;56500;Voznesenskyi;Voznesensk
@@ -1785,7 +1785,7 @@
 0;34.3000,46.7500;75404;Ivanivskyi;Voznesenka
 425;29.1800,46.4243;68520;Tarutynskyi;Voznesenka Druha
 0;34.2270,46.2622;75326;Novotroitskyi;Voznesenka
-1044;29.4788,46.1316;;Odesa;Voznesenka Persha
+1044;29.4788,46.1316;68411;Odesa;Voznesenka Persha
 0;25.3098,48.8569;78145;Horodenkivskyi;Vozyliv
 1324;36.0802,47.7520;70220;Huliaipilskyi;Vozdvyzhivka
 0;31.3333,52.0333;15113;Horodnianskyi;Vozdvizhenskiy
@@ -2055,7 +2055,7 @@
 0;37.1851,47.5299;85762;Volnovaskyi;Vilne
 0;36.5873,47.4783;71054;Kuibyshevskyi;Berezivka
 0;37.1902,47.4489;70338;Rozivskyi;Vilne
-1685;29.0491,45.9834;;Odesa;Vilne
+1685;29.0491,45.9834;68556;Odesa;Vilne
 0;37.3122,47.8256;85700;Volnovaskyi;Vodiane
 21166;37.4936,47.6008;85736;Volnovaskyi;Volnovakha
 0;29.0436,49.7500;13634;Ruzhynskyi;Vil’nopillia
@@ -2080,7 +2080,7 @@
 620;30.8802,46.8248;;Odesa;Vovkivske
 0;33.4500,47.0833;57380;Snihurivskyi;Volkovskiy
 0;35.5333,47.4500;71653;Vasylivskyi;Volkovo
-129;30.6644,47.0145;;Odesa;Vovkove
+129;30.6644,47.0145;67223;Odesa;Vovkove
 0;34.2586,51.5144;41476;Hlukhivskyi;Vovkivka
 137;35.0864,47.2886;72008;Mykhailivskyi;Vovkivka
 2458;27.6556,49.2066;32222;Derazhnianskyi;Vovkovyntsi
@@ -2153,7 +2153,7 @@
 1340;37.0333,50.2989;62508;Vovchanskyi;Vovchanski Khutori
 0;37.3493,48.0077;85490;Selydove;Vovchenka
 17459;36.9411,50.2908;62500;Vovchanskyi;Vovchansk
-150;31.3684,47.4287;;Mykolaiv;Vokzal
+150;31.3684,47.4287;56575;Mykolaiv;Vokzal
 4089;33.9914,45.8699;;Crimea;Voinka
 0;36.9777,49.0118;64726;Barvinkivskyi;Semylanne
 0;33.7071,47.9320;26546;Holovanivskyi;Vodiane
@@ -2242,12 +2242,12 @@
 6047;37.3882,47.7339;84560;Bahmutskiy;Volodymyrivka
 0;33.5551,47.6517;53810;Apostolivskyi;Volodymyrivka
 688;30.8741,47.5892;57104;Mykolaivskyi;Volodymyrivka
-251;29.6581,47.5359;;Odesa;Volodymyrivka
+251;29.6581,47.5359;67966;Odesa;Volodymyrivka
 2793;32.9258,47.5230;09550;Tarashchanskyi;Volodymyrivka
 18;35.4566,47.3880;72052;Mykhailivskyi;Volodymyrivka
 0;33.7667,47.3833;74217;Novovorontsovskyi;Vladimirovka
 58;29.9257,47.3044;;Odesa;Volodymyrivka
-279;30.0734,47.2154;;Odesa;Pryvilne
+279;30.0734,47.2154;67123;Odesa;Pryvilne
 10;29.9777,47.1909;;Odesa;Volodymyrivka
 0;33.6833,46.8667;74820;Kakhovskyi;Vladimirovka
 324;30.0764,46.8188;67400;Rozdilnianskyi;Volodymyrivka
@@ -2360,7 +2360,7 @@
 0;35.5500,46.8000;72476;Pryazovskyi;Vinogradovka
 0;33.7000,46.8000;74816;Kakhovskyi;Vinogradovka
 1629;29.1203,46.0803;68500;Tarutynskyi;Vynohradivka
-3306;29.3823,45.8282;;Odesa;Vynohradivka
+3306;29.3823,45.8282;68452;Odesa;Vynohradivka
 3923;28.5757,45.6790;;Yarmolynetskyi;Vynohradivka
 225;31.2229,47.9608;24067;Mohyliv-Podilskyi;Vinohradnyy Yar
 225;31.1747,47.7612;55001;Yuzhnoukrainsk;Vinohradnyy Sad
@@ -2482,7 +2482,7 @@
 0;30.5231,49.3666;09430;Stavyshchenskyi;Veselyi Kut
 0;32.5827,48.8237;27425;Znamianskyi;Veselyi Kut
 3;32.8804,47.5986;09550;Tarashchanskyi;Veselyi Kut
-711;31.1921,47.4597;;Mykolaiv;Novosilka
+711;31.1921,47.4597;56560;Mykolaiv;Novosilka
 1797;29.2892,46.0544;68401;Artsyzkyi;Veselyy Kut
 0;31.8169,51.2948;15644;Menskyi;Vesele
 0;30.7833,47.7500;19624;Cherkaskyi;Veseley Khutor
@@ -2547,7 +2547,7 @@
 0;34.1500,46.7000;75311;Novotroitskyi;Vesëlaya Dolina
 1207;29.3239,46.2322;68540;Tarutynskyi;Vesela Dolyna
 452;32.7390,47.8798;;Mykolaiv;Vesela Balka
-237;30.0416,45.8533;;Odesa;Vesela Balka
+237;30.0416,45.8533;68160;Odesa;Vesela Balka
 57;32.3363,47.6669;20832;Kamianskyi;Volodymyrivka
 0;36.3894,48.9683;64665;Lozivskyi;Vesele
 0;34.9941,48.7942;51150;Mahdalynivskyi;Maloandriivka
@@ -2792,7 +2792,7 @@
 0;24.9743,50.0700;80635;Brodivskyi;Velin
 0;24.7406,51.5799;44164;Ratnivskyi;Velymche
 0;26.5471,48.7836;32320;Kamianets-Podilskyi;Velykozalissia
-241;30.2681,47.0750;;Odesa;Velikozimenove
+241;30.2681,47.0750;67134;Odesa;Velikozimenove
 0;34.9358,50.2704;42700;Okhtyrskyi;Velyke Ozero
 766;38.1325,48.0863;26552;Holovanivskyi;Velyke Orikhove
 859;38.5600,47.8737;84589;Bahmutskiy;Velyke Mishkove
@@ -2812,7 +2812,7 @@
 0;29.9259,49.8688;09721;Bohuslavskyi;Velykopolovetske
 0;36.4709,47.9670;53621;Pokrovskyi;Velykomikhailivka
 0;35.2527,49.0801;64433;Zachepylivskyi;Velykokozyrshchyna
-1278;29.6476,47.0859;;Odesa;Velykokomarivka
+1278;29.6476,47.0859;67114;Odesa;Velykokomarivka
 13856;30.5790,46.3464;;Odesa;Velykodolynske
 395;30.1289,47.6720;;Odesa;Velikoboyarka
 0;37.4835,47.6989;85730;Volnovaskyi;Veliko Anadoiskaia
@@ -3074,17 +3074,17 @@
 551;30.6175,47.5653;;Odesa;Vasylivka
 485;29.6165,47.3620;;Odesa;Vasylivka
 0;34.1994,47.1861;74440;Verkhnorohachytskyi;Vasil’yevka
-177;29.6747,47.1754;;Odesa;Vasylivka
+177;29.6747,47.1754;67113;Odesa;Vasylivka
 0;34.4000,47.0833;74523;Velykolepetyskyi;Vasil’yevka
 829;32.8571,47.0747;57310;Snihurivskyi;Vasylivka
 0;33.6536,46.8500;74820;Kakhovskyi;Vasylivka
 714;31.4190,46.8015;;Mykolaiv;Vasylivka
 71;30.6712,46.7696;27009;Dobrovelychkivskyi;Vasylivka
 2068;30.3058,46.6084;22518;Lypovetskyi;Vasylivka
-382;31.7874,46.5288;;Mykolaiv;Vasylivka
+382;31.7874,46.5288;57555;Mykolaiv;Vasylivka
 0;34.0667,46.2050;75355;Novotroitskyi;Vasylivka
 533;29.3876,46.1720;68540;Tarutynskyi;Vasylivka
-3902;28.8330,45.6433;;Odesa;Vasylivka
+3902;28.8330,45.6433;68752;Odesa;Vasylivka
 1220;29.1632,45.5217;68301;Kiliiskyi;Vasylivka
 1331;34.7229,45.1394;;Crimea;Vasilyevka
 0;30.4655,49.9603;09260;Kaharlytskyi;Vasyliv
@@ -3391,7 +3391,7 @@
 0;36.2667,47.3333;70660;Polohivskyi;Ukraina
 384;22.9846,48.6674;60016;Khotynskyi;Uklyn
 0;24.9370,51.2341;45044;Kovelskyi;Ukhovetsk
-428;29.6717,48.0810;;Odesa;Novopol
+428;29.6717,48.0810;66131;Odesa;Novopol
 623;25.4008,51.6771;44256;Lyubeshivskyi;Uhrynychi
 0;23.6157,49.7298;81533;Horodotskyi;Uhry
 1837;35.2782,50.8629;42432;Krasnopilskyi;Uhroidy
@@ -3451,7 +3451,7 @@
 0;29.5865,48.7951;23735;Haisynskyi;Tyshkivka
 0;22.9231,49.7153;81350;Mostyskyi;Tyshkovichi
 0;26.7295,51.0869;34620;Bereznivskyi;Tyshytsia
-244;31.5654,47.6248;;Mykolaiv;Ratsynska Dacha
+244;31.5654,47.6248;56543;Mykolaiv;Ratsynska Dacha
 470;34.0648,49.7825;38065;Shyshatskyi;Tyshchenky
 0;29.8703,48.4552;24450;Bershadskyi;Tyrlivka
 0;23.6500,49.4667;82133;Drohobytskyi;Tynuv Malyy
@@ -3525,7 +3525,7 @@
 0;28.2648,50.0341;13223;Chudnivskyi;Turchynivka
 0;28.6648,50.7237;12172;Horoshivskiy;Turchynka
 0;25.8000,50.7333;45284;Kivertsivskyi;Turchin
-125;31.5952,46.8375;;Mykolaiv;Lymanne
+125;31.5952,46.8375;57520;Mykolaiv;Lymanne
 0;29.5895,50.1627;13510;Popilnianskyi;Turbivka
 6166;28.7183,49.3408;22513;Lypovetskyi;Turbiv
 161;33.6355,49.4852;39092;Hlobynskyi;Turbai
@@ -3572,7 +3572,7 @@
 0;26.6833,48.8833;32440;Dunaievetskyi;Tsyganovka Balinskaya
 0;38.3269,49.8847;92603;Troitskyi;Tsyganovka
 0;35.8164,48.4876;51456;Pavlohradskyi;Tsyganovka
-162;29.1911,47.4927;;Odesa;Horyachivka
+162;29.1911,47.4927;67924;Odesa;Horyachivka
 0;26.5948,48.6560;32300;Kamianets-Podilskyi;Tsybulevka
 1888;29.1176,48.3864;24360;Trostianetskyi;Tsybulivka
 3512;31.5623,49.9935;08454;Pereiaslav-Khmelnytskyi;Tsybli
@@ -3609,7 +3609,7 @@
 0;34.2167,51.1167;41816;Bilopilskyi;Tsimbalov
 0;36.1818,47.9947;53628;Pokrovskyi;Levadne
 0;34.4124,48.8551;51030;Tsarychanskyi;Tsybulkivka
-3;31.6153,48.1301;;Mykolaiv;Tsybulky
+3;31.6153,48.1301;27143;Mykolaiv;Tsybulky
 1797;32.4924,48.8138;27430;Znamianskyi;Tsybuleve
 3469;29.8446,49.0718;19114;Monastyryshchenskyi;Tsybuliv
 0;30.0492,48.9709;19341;Lysianskyi;Stepivka
@@ -3644,10 +3644,10 @@
 0;24.2667,50.5167;80015;Sokalskyi;Tselenzh
 0;28.3172,48.1533;24545;Yampilskyi;Tsekynivka
 0;24.7776,50.4611;45741;Horokhivskyi;Tsehiv
-323;29.1990,47.4563;;Odesa;Tsekhanivka
+323;29.1990,47.4563;67922;Odesa;Tsekhanivka
 0;32.4167,47.6333;55601;Novobuzkyi;Kamenka
 0;25.4145,49.6307;09128;Bilotserkivskyi;Tsebriv
-2806;30.1079,47.1467;;Odesa;Tsebrykove
+2806;30.1079,47.1467;67130;Odesa;Tsebrykove
 0;24.0578,50.4212;80029;Sokalskyi;Tsebliv
 0;27.8369,50.2130;13060;Romanivskyi;Tseberka
 0;33.7628,46.7324;74815;Kakhovskyi;Dibrova
@@ -3657,7 +3657,7 @@
 174;38.4431,49.8358;92159;Troitskyi;Tsarivka
 0;39.0596,48.8861;93541;Novoaidarskyi;Tsarivka
 663;34.3064,45.5363;;Crimea;Pushkino
-285;31.6180,46.9480;;Mykolaiv;Myrne
+285;31.6180,46.9480;57140;Mykolaiv;Myrne
 0;36.2276,48.9395;64661;Lozivskyi;Tsaredarivka
 636;30.8428,47.7190;19624;Cherkaskyi;Tsaredarivka
 0;35.8469,50.2230;62231;Zolochivskyi;Tsapivka
@@ -3686,12 +3686,12 @@
 150;36.4868,47.8023;70246;Huliaipilskyi;Novoivanivka
 0;37.3824,47.5844;87061;Nikolskiy;Trudove
 0;34.7167,46.8500;74718;Nyzhnosirohozkyi;Trudovoye
-1505;29.3980,45.6187;;Odesa;Trudove
+1505;29.3980,45.6187;68331;Odesa;Trudove
 0;39.0121,49.0691;93509;Novoaidarskyi;Trudove
 0;38.7353,48.5897;;Luhansk;Trudovoy
 0;37.2165,47.8982;85709;Volnovaskyi;Trudove
 0;36.7000,47.5833;71068;Kuibyshevskyi;Trudovoy
-178;31.5633,47.5252;;Mykolaiv;Trudove
+178;31.5633,47.5252;56552;Mykolaiv;Trudove
 0;36.5827,47.3175;71006;Kuibyshevskyi;Trudove
 71;33.3490,48.7127;28076;Oleksandriiskyi;Trudivka
 24;35.3428,47.3159;72074;Mykhailivskyi;Trudovyk
@@ -3767,13 +3767,13 @@
 0;36.8500,47.0833;71133;Berdianskyi;Troitskoye
 361;35.4564,47.0643;72379;Melitopolskyi;Troitske
 0;35.7167,46.7167;72469;Pryazovskyi;Troitskoye
-5178;30.0235,46.5417;;Odesa;Troyitske
+5178;30.0235,46.5417;67642;Odesa;Troyitske
 1335;32.8660,47.6761;56050;Kazankivskyi;Troyitsko-Safonove
 938;38.2706,47.9677;;Donetsk;Troitsko-Khartsyzk
 0;36.9438,48.1052;85373;Pokrovskiy;Troitske
 0;35.3195,48.9299;63826;Borivskyi;Troitske
 0;25.2171,48.4510;78315;Sniatynskyi;Troitsia
-42;29.6149,47.1879;;Odesa;Trokhymivka
+42;29.6149,47.1879;67111;Odesa;Trokhymivka
 0;34.3603,46.7285;75420;Ivanivskyi;Trokhymivka
 0;34.7326,48.1292;52446;Solonianskyi;Trytuzne
 0;36.7000,47.2333;71051;Kuibyshevskyi;Tristanovy
@@ -3896,7 +3896,7 @@
 0;24.1165,49.6942;81139;Pustomytivskyi;Tovshchiv
 0;25.2026,50.4377;35239;Demydivskyi;Tovpyzhyn
 0;27.9000,51.5833;11010;Olevskyi;Tolochino
-354;30.1764,47.0583;;Odesa;Polino-Osypenkove
+354;30.1764,47.0583;67132;Odesa;Polino-Osypenkove
 0;24.2964,50.0798;80427;Kamianka-Buzkyi;Tolmach
 0;31.3615,48.8828;20643;Shpolianskyi;Tovmach
 0;28.8338,51.3463;11187;Ovrutskyi;Tovkachi
@@ -4214,10 +4214,10 @@
 0;35.6500,47.7167;70568;Orikhivskyi;Tarasovka
 137;30.5821,47.7126;;Mykolaiv;Tarasivka
 165;32.5267,47.4639;56101;Bashtanskyi;Tarasivka
-786;31.3075,47.6999;;Mykolaiv;Trykratne
+786;31.3075,47.6999;56534;Mykolaiv;Trykratne
 0;36.1212,47.4140;08804;Myronivskyi;Tarasivka
 0;36.1797,47.0403;71262;Chernihivskyi;Tarasivka
-68;30.5657,47.0229;;Odesa;Tarasivka
+68;30.5657,47.0229;67220;Odesa;Tarasivka
 0;33.0720,46.4235;75140;Oleshkivskyi;Tarasivka
 1114;33.1174,46.1446;75751;Skadovskyi;Tarasivka
 0;30.5167,50.7833;07327;Vyshhorodskyi;Tarasovichi
@@ -4480,7 +4480,7 @@
 0;23.8333,50.2167;80315;Zhovkivskyi;Sukhoruki
 996;33.8304,49.4870;38432;Reshetylivskyi;Sukhorabivka
 378;32.9471,50.2098;37134;Chornukhynskyi;Sukhonosivka
-253;30.3628,46.9764;;Odesa;Sukhomlynové
+253;30.3628,46.9764;67230;Odesa;Sukhomlynové
 1127;30.2640,46.2167;67700;Bilhorod-Dnistrovskyi;Sukholuzhzhia
 0;30.4391,50.9445;07282;Ivankivskyi;Sukholuchchia
 0;30.3698,49.7362;09733;Bohuslavskyi;Sukholisy
@@ -4502,7 +4502,7 @@
 0;39.0406,48.5893;93710;Novoaidarskyi;Sukhodil
 64;31.5794,46.8517;;Mykolaiv;Sukhodil
 0;26.0463,49.6614;09634;Rokytnianskyi;Sukhivtsi
-118;30.0971,46.9666;;Odesa;Sukhe
+118;30.0971,46.9666;67421;Odesa;Sukhe
 0;37.1222,47.9449;85611;Marinskyi;Sukhi Yaly
 0;35.6074,50.0662;19447;Korsun-Shevchenkivskyi;Sukhyny
 0;31.1155,49.2915;19443;Korsun-Shevchenkivskyi;Sukhyny
@@ -4591,7 +4591,7 @@
 0;27.7676,48.6564;24032;Mohyliv-Podilskyi;Strusovo
 0;25.6167,49.3398;22353;Litynskyi;Strusiv
 0;24.8267,48.7078;78227;Kolomyiskyi;Strupkiv
-1883;29.4408,45.7238;;Odesa;Strumok
+1883;29.4408,45.7238;68120;Odesa;Strumok
 1898;22.2285,48.5018;89502;Chop;Siurte
 0;34.8881,47.6685;53548;Tomakivskyi;Striukivka
 0;27.3213,48.7939;32600;Novoushytskyi;Struha
@@ -4657,7 +4657,7 @@
 87;30.0576,46.0863;;Odesa;Polyanka
 0;30.3961,51.0745;07225;Ivankivskyi;Strakholissia
 0;23.7705,49.8972;81076;Yavorivskyi;Stradch
-3255;22.5494,48.3899;;Zakarpattia;Strabychovo
+3255;22.5494,48.3899;89655;Zakarpattia;Strabychovo
 368;25.8764,50.1829;80620;Brodivskyi;Stizhok
 4480;38.4669,48.1186;;Donetsk;Stizhkivske
 0;32.9000,51.2000;16532;Bakhmatskyi;Stozhkov
@@ -4766,7 +4766,7 @@
 0;38.8061,47.9262;;Donetsk;Stepanivka
 0;36.3822,47.6180;70261;Huliaipilskyi;Stepanivka
 19;29.6553,47.5962;08318;Boryspilskyi;Stepanivka
-319;29.2510,47.5099;;Odesa;Stepanivka
+319;29.2510,47.5099;67923;Odesa;Stepanivka
 103;31.2516,47.4274;;Mykolaiv;Stepanivka
 0;37.2833,47.2333;87000;Nikolskiy;Stepanovka
 4;32.1062,47.2000;57111;Mykolaivskyi;Stepanivka
@@ -4817,7 +4817,7 @@
 0;24.1739,51.0939;44356;Lyubomlskyi;Stavochki
 1623;22.6986,48.9927;89010;Velykobereznianskyi;Stavne
 0;27.4268,49.4466;23450;Murovanokurylovetskyi;Stavnytsia
-1026;30.6354,47.1796;;Odesa;Stavkove
+1026;30.6354,47.1796;67322;Odesa;Stavkove
 0;36.8929,49.0304;64709;Barvinkivskyi;Stavkova Balka
 0;26.2000,49.3167;77410;Tysmenytskyi;Stavki Kras’nen’ske
 0;24.1909,51.0630;44831;Turiiskyi;Stavky
@@ -4848,7 +4848,7 @@
 0;38.8155,49.5925;92260;Bilokurakynskyi;Statyvchyne
 0;33.6833,46.4500;75224;Chaplynskyi;Stasya
 2124;34.5697,49.7461;38541;Dykanskyi;Stasi
-184;31.1294,47.4898;;Mykolaiv;Nove
+184;31.1294,47.4898;56560;Mykolaiv;Nove
 0;29.5378,50.7724;07806;Borodianskyi;Staseva
 0;27.5857,49.2713;22350;Litynskyi;Staryy Zakrevskiy Maydan
 0;24.2737,49.9127;80463;Kamianka-Buzkyi;Staryi Yarychiv
@@ -5116,7 +5116,7 @@
 0;32.6198,51.5534;16142;Sosnytskyi;Spaske
 3017;35.0497,48.6577;51263;Novomoskovskyi;Spaske
 824;35.3863,47.0198;72334;Melitopolskyi;Spaske
-818;29.4399,45.7630;;Odesa;Spaske
+818;29.4399,45.7630;68121;Odesa;Spaske
 0;36.9440,48.5753;84052;Oleksandrivskyi;Spasko-Mykhailivka
 0;27.6188,50.8722;11217;Yemilchynskyi;Zapruda
 779;32.6738,47.0991;57320;Snihurivskyi;Shyroke
@@ -5284,7 +5284,7 @@
 7557;34.8758,48.2091;52400;Solonianskyi;Solone
 0;35.2068,50.4395;42826;Velykopysarivskyi;Soldatske
 0;33.6035,47.6849;75027;Bilozerskyi;Soldatske
-1110;31.5331,47.6206;;Mykolaiv;Voznesenske
+1110;31.5331,47.6206;56543;Mykolaiv;Voznesenske
 0;32.2494,46.7600;75010;Bilozerskyi;Soldatske
 0;33.5528,47.7499;75027;Bilozerskyi;Nove Zhyttia
 0;30.7258,46.5413;20830;Kamianskyi;Soldatskaya Sloboda
@@ -5505,7 +5505,7 @@
 0;27.8950,49.1080;24020;Mohyliv-Podilskyi;Sloboda-Mezhyrivska
 0;26.6123,48.5134;32370;Kamianets-Podilskyi;Slobodka Malinovetskaya
 0;26.9781,49.6195;31000;Krasylivskyi;Slobidka-Krasylivska
-387;29.2869,47.4400;;Odesa;Dubove
+387;29.2869,47.4400;67933;Odesa;Dubove
 0;26.8069,49.6385;48000;Pidhaietskyi;Slobodka Chernelevetskaya
 0;32.1833,51.9500;15230;Snovkyi;Slobodka
 0;32.9068,51.8643;16072;Novhorod-Siverskyi;Slobidka
@@ -5748,7 +5748,7 @@
 0;38.7927,49.7172;92315;Novopskovskyi;Synelnykove
 0;36.3894,47.9426;53609;Pokrovskyi;Vovche
 0;27.9354,50.7075;11257;Yemilchynskyi;Symony
-72;32.6598,47.5939;;Mykolaiv;Symonivka
+72;32.6598,47.5939;55650;Mykolaiv;Symonivka
 1776;26.6296,50.5740;35408;Hoshchanskyi;Symoniv
 126;33.8998,45.2983;;Crimea;Simonenko
 336460;34.1108,44.9572;;Crimea;Simferopol
@@ -5758,7 +5758,7 @@
 0;28.0556,50.8500;11215;Yemilchynskyi;Simakivka
 0;28.6435,50.0042;13321;Berdychivskyi;Somaky
 42;32.0207,47.1835;57111;Mykolaivskyi;Silvestrivske
-82;30.4703,47.0910;;Odesa;Sylivka
+82;30.4703,47.0910;67220;Odesa;Sylivka
 0;24.0144,51.3809;44399;Lyubomlskyi;Sylne
 0;25.7966,50.9054;45231;Kivertsivskyi;Sylne
 0;28.6475,48.7235;23621;Tulchynskyi;Silnytsia
@@ -5892,7 +5892,7 @@
 0;23.7000,50.2000;80318;Zhovkivskyi;Shlyakhta
 0;35.4145,49.8240;63120;Kolomatskyi;Shliakhove
 0;35.8342,49.3685;64037;Kehychivskyi;Shliakhove
-526;29.7523,48.0785;;Odesa;Shlyakhove
+526;29.7523,48.0785;66120;Odesa;Shlyakhove
 0;32.1754,48.0234;;Kirovohrad;Shliakhove
 0;29.8587,48.4943;24440;Bershadskyi;Shliakhova
 0;29.8000,48.5000;24450;Bershadskyi;Shlyakhivka
@@ -5980,7 +5980,7 @@
 99;33.1501,49.8861;37588;Lubenskyi;Shynkivshchyna
 0;26.3987,50.1050;30225;Bilohirskyi;Shimkovtsy
 0;25.7996,49.7596;30344;Iziaslavskyi;Shymkivtsi
-484;30.0761,47.5908;;Odesa;Shimkove
+484;30.0761,47.5908;66432;Odesa;Shimkove
 0;24.8667,50.1667;80590;Buskyi;Shimanuvka
 0;29.4368,48.6604;24730;Pishchanskyi;Shymanivka
 0;25.9852,49.6924;09634;Rokytnianskyi;Shyly
@@ -6081,9 +6081,9 @@
 0;28.4288,49.0228;23304;Tyvrivskyi;Shershni
 602;33.0167,49.9295;37573;Lubenskyi;Shershnivka
 1120;25.6276,48.2284;60216;Sokyrianskyi;Sloboda-Komarivtsi
-1555;29.0088,47.9882;;Odesa;Shershentsi
+1555;29.0088,47.9882;66034;Odesa;Shershentsi
 0;25.8203,48.8180;23460;Murovanokurylovetskyi;Shershenivka
-295;30.4811,47.0096;;Odesa;Sherove
+295;30.4811,47.0096;67220;Odesa;Sherove
 0;28.4000,49.2167;22060;Khmilnytskyi;Pirogovo
 0;33.1224,52.0720;16033;Novhorod-Siverskyi;Sheptaky
 0;24.8599,48.2646;78642;Kosivskyi;Shepit
@@ -6265,7 +6265,7 @@
 0;25.2156,50.1923;35570;Radyvylivskyi;Sestriatyn
 0;28.9427,49.7360;22140;Koziatynskyi;Sestrynivka
 0;34.9829,47.0573;72220;Veselivskyi;Seryy Khutor
-1774;29.0152,46.3045;;Odesa;Serpneve
+1774;29.0152,46.3045;68523;Odesa;Serpneve
 0;34.4521,50.7733;42221;Lebedynskyi;Sirobabyne
 0;28.8333,51.2500;11165;Ovrutskyi;Serninki
 0;26.2295,51.8149;34052;Zarichnenskyi;Sernyky
@@ -6369,7 +6369,7 @@
 0;27.2282,50.3616;30410;Shepetivskyi;Senihiv
 0;28.6559,50.1720;12444;Zhytomyrskyi;Sinhury
 0;25.8430,51.8855;34011;Zarichnenskyi;Senchytsi
-29;31.6652,46.9285;;Mykolaiv;Senchyne
+29;31.6652,46.9285;57150;Mykolaiv;Senchyne
 2953;33.3489,50.2547;37254;Lokhvytskyi;Sencha
 0;33.3387,50.2540;37254;Lokhvytskyi;Sencha
 0;23.4000,49.9167;81045;Yavorivskyi;Senatov
@@ -6587,7 +6587,7 @@
 0;24.7432,49.3109;77072;Rohatynskyi;Sarnyky
 0;33.2135,51.2844;41615;Konotopskyi;Sarnavshchyna
 44;34.8308,45.2126;;Crimea;Luchevoye
-200;29.1943,46.4742;;Odesa;Novosilka
+200;29.1943,46.4742;68510;Odesa;Novosilka
 146;30.9167,47.0667;26424;Blagovitshenskyy;Chervone
 0;29.3891,49.5060;22230;Pohrebyshchenskyi;Sarazhyntsi
 1119;29.4492,48.0883;23170;Zhmerynskyi;Sarazhinka
@@ -6638,7 +6638,7 @@
 1000;24.6168,51.8629;44113;Ratnivskyi;Samary
 0;37.1067,48.6344;84042;Oleksandrivskyi;Samarske
 0;36.1022,48.4463;51444;Pavlohradskyi;Samarske
-52;29.3112,47.4924;;Odesa;Samarka
+52;29.3112,47.4924;67927;Odesa;Samarka
 0;28.7540,50.6326;12310;Cherniakhivskyi;Saly
 0;33.4669,51.1544;41654;Konotopskyi;Saltykove
 0;31.7991,51.3983;16322;Kulykivskyi;Saltykova Divytsia
@@ -6693,7 +6693,7 @@
 0;25.2042,48.9752;60050;Khotynskyi;Sadovoye
 0;38.3966,48.0291;;Donetsk;Sadove
 685;31.2591,47.9586;24067;Mohyliv-Podilskyi;Sadove
-136;29.4651,47.3295;;Odesa;Sadove
+136;29.4651,47.3295;67954;Odesa;Sadove
 0;32.8203,46.7044;75118;Oleshkivskyi;Sadove
 683;32.1854,46.3566;75622;Holoprystanskyi;Sadove
 1020;29.2762,46.0200;68401;Artsyzkyi;Sadove
@@ -6743,7 +6743,7 @@
 0;28.2938,49.0301;20381;Umanskyi;Ryzhavka
 0;28.5006,50.6566;80588;Buskyi;Ryzhany
 0;30.7167,49.0973;20232;Zvenyhorodskyi;Ryzhanivka
-115;31.5086,47.4072;;Mykolaiv;Ryumivske
+115;31.5086,47.4072;56571;Mykolaiv;Ryumivske
 0;30.2047,51.0248;07310;Vyshhorodskyi;Rytni
 0;26.5833,50.7667;35410;Hoshchanskyi;Rysvyanka
 0;32.0133,47.8322;27250;Bobrynetskyi;Roztycheve
@@ -7047,13 +7047,13 @@
 0;23.7818,49.3809;82163;Drohobytskyi;Rivne
 0;35.4693,48.9501;51224;Novomoskovskyi;Rivne
 0;27.5747,48.6288;23424;Murovanokurylovetskyi;Rivne
-1979;22.4484,48.3649;;Zakarpattia;Serne
+1979;22.4484,48.3649;89653;Zakarpattia;Serne
 5296;31.7581,48.2427;26031;Novomyrhorodskyi;Rivne
 270;30.5941,47.2228;;Odesa;Rivne
 120;35.4789,47.2098;72022;Mykhailivskyi;Rivne
 229;32.5678,47.1685;57320;Snihurivskyi;Stepove
-900;31.5775,46.7668;;Mykolaiv;Rivne
-1505;29.1398,46.0175;;Odesa;Rivne
+900;31.5775,46.7668;57530;Mykolaiv;Rivne
+1505;29.1398,46.0175;68555;Odesa;Rivne
 99;33.7992,45.5001;;Crimea;Rovnoye
 0;26.8822,50.4735;30024;Slavutskyi;Rivky
 0;23.3833,49.1667;81010;Yavorivskyi;Rovin
@@ -7239,7 +7239,7 @@
 350;25.1012,47.9413;59140;Putylskyi;Rypen
 0;23.7099,49.4303;82164;Drohobytskyi;Ripchytsi
 0;34.9923,49.9101;62065;Krasnokutskyi;Randava
-351;29.4205,47.3411;;Odesa;Rymarivka
+351;29.4205,47.3411;67952;Odesa;Rymarivka
 0;30.1559,50.9753;07304;Vyshhorodskyi;Rykhta
 0;26.4235,48.6454;32346;Kamianets-Podilskyi;Rykhta
 428;33.2736,50.3207;37250;Lokhvytskyi;Ryhy
@@ -7358,7 +7358,7 @@
 806;36.8388,48.2636;52940;Mezhivskyi;Raypole
 563;32.7506,49.9049;37730;Orzhytskyi;Raiozero
 0;35.9680,46.6811;72144;Prymorskyi;Rainivka
-148;29.9205,45.8387;;Odesa;Roilianka
+148;29.9205,45.8387;68152;Odesa;Roilianka
 0;26.7588,49.3271;31350;Khmelnytskyi;Raikivtsi
 0;31.7888,50.3084;07713;Yahotynskyi;Raikivshchyna
 0;28.4986,49.9675;22467;Kalynivskyi;Raiky
@@ -7420,7 +7420,7 @@
 0;23.5596,49.3440;82170;Drohobytskyi;Ranevychi
 0;28.1000,49.1167;23130;Zhmerynskyi;Ramarnya
 3926;23.2302,49.5001;81473;Sambirskyi;Ralivka
-466;29.7880,48.0524;;Odesa;Rakulove
+466;29.7880,48.0524;66120;Odesa;Rakulove
 154;38.1721,47.7187;;Donetsk;Shmidta
 0;35.2776,48.3049;52579;Synelnykivskyi;Rakove
 708;31.3996,47.5377;56500;Voznesenskyi;Rakove
@@ -7724,7 +7724,7 @@
 0;34.5555,46.6212;75442;Ivanivskyi;Prokof’yevka
 0;24.4943,51.6904;44108;Ratnivskyi;Prokhid
 0;32.1863,51.1567;16445;Borznianskyi;Prokhory
-450;30.4660,47.0043;;Odesa;Prokhorove
+450;30.4660,47.0043;67204;Odesa;Prokhorove
 0;31.6061,49.7122;19754;Zolotoniskyi;Prokhorivka
 0;37.6705,47.5268;;Kanivskyi;Prokhorivka
 467;25.4674,51.7893;44296;Lyubeshivskyi;Prokhody
@@ -7798,7 +7798,7 @@
 0;32.2300,50.9519;16720;Ichnianskyi;Pryputni
 780;25.5640,48.2496;60216;Sokyrianskyi;Dibrivka
 0;24.4681,49.4141;77014;Rohatynskyi;Priozernoye
-1778;29.1638,45.6096;;Odesa;Pryozerne
+1778;29.1638,45.6096;68312;Odesa;Pryozerne
 3005;36.3340,45.2699;;Crimea;Priozyornoye
 0;37.8167,49.9667;62727;Dvorichanskyi;Prioskol’ye
 0;27.6500,51.3667;11066;Olevskyi;Primykan’ye
@@ -7994,7 +7994,7 @@
 0;25.5779,49.0060;60020;Khotynskyi;Popovtse
 0;25.5722,48.8832;60020;Khotynskyi;Popivtsi
 363;34.0352,49.3568;39332;Novosanzharskyi;Popove
-929;22.4247,48.2705;;Zakarpattia;Popovo
+929;22.4247,48.2705;90221;Zakarpattia;Popovo
 0;35.2835,48.2086;52550;Synelnykivskyi;Popove
 0;32.8580,52.0388;16042;Novhorod-Siverskyi;Popivka
 4345;33.1143,51.2343;41627;Konotopskyi;Popivka
@@ -8060,7 +8060,7 @@
 0;24.4386,49.3983;77014;Rohatynskyi;Pomoniata
 0;31.6789,50.1090;08442;Pereiaslav-Khmelnytskyi;Pomokli
 0;23.7204,50.1848;80318;Zhovkivskyi;Pomlynuv
-77;29.3075,45.6042;;Odesa;Pomazany
+77;29.3075,45.6042;68333;Odesa;Pomazany
 388;33.7832,49.9449;37663;Myrhorodskyi;Polyviane
 0;33.0762,52.1555;16049;Novhorod-Siverskyi;Poliushkyne
 0;24.6333,48.7333;77352;Kaluskyi;Polyk
@@ -8146,7 +8146,7 @@
 0;26.0596,51.2659;34374;Volodymyretskyi;Polytsi
 0;31.6023,51.8318;15174;Horodnianskyi;Politrudnia
 0;28.1289,48.6390;23542;Sharhorodskyi;Politanky
-399;30.1593,47.0852;;Odesa;Tsybulivka
+399;30.1593,47.0852;67132;Odesa;Tsybulivka
 0;29.6223,51.0146;07239;Ivankivskyi;Polidarivka
 0;28.5201,49.8012;22110;Koziatynskyi;Polychyntsi
 749;29.8389,47.1035;67100;Velykomykhailivskyi;Polezne
@@ -8188,8 +8188,8 @@
 1027;31.5236,47.3533;;Mykolaiv;Pokrovka
 10;29.7239,47.0896;67110;Velykomykhailivskyi;Pokrovka
 448;30.1389,46.7805;67400;Rozdilnianskyi;Pokrovka
-1341;31.6650,46.6541;;Mykolaiv;Ivanivka
-229;31.7078,46.4784;;Mykolaiv;Pokrovka
+1341;31.6650,46.6541;57552;Mykolaiv;Ivanivka
+229;31.7078,46.4784;57555;Mykolaiv;Pokrovka
 0;25.3668,49.5882;09128;Bilotserkivskyi;Pokropyvna
 9962;36.1751,49.9134;62458;Kharkivskyi;Pokotylivka
 0;28.2207,50.2332;12425;Zhytomyrskyi;Pokostivka
@@ -8200,7 +8200,7 @@
 0;24.0715,48.8771;77626;Rozhniativskyi;Pohorilets
 0;38.7963,48.6599;;Luhansk;Pakhalivka
 0;35.5667,47.3167;71727;Tokmatskyi;Pokaznoy
-224;32.7024,47.5658;;Mykolaiv;Pokazne
+224;32.7024,47.5658;55650;Mykolaiv;Pokazne
 0;30.6922,48.4731;26516;Holovanivskyi;Pokotylove
 0;25.7150,50.7429;45253;Kivertsivskyi;Pokashchiv
 0;26.6677,50.0460;30312;Iziaslavskyi;Pokoshchivka
@@ -8381,7 +8381,7 @@
 925;35.3539,47.4412;71652;Vasylivskyi;Pidhirne
 0;36.4081,46.9187;72160;Prymorskyi;Pidhirne
 644;30.0207,46.2608;22365;Litynskyi;Pidhirne
-1763;29.0421,46.2469;;Odesa;Pidhirne
+1763;29.0421,46.2469;68524;Odesa;Pidhirne
 276;35.2765,45.0134;;Crimea;Podgornoye
 47;33.8232,44.4521;;Sevastopol City;Pidhirne
 163;38.0246,48.6348;84513;Bahmutskiy;Pidhorodne
@@ -8669,7 +8669,7 @@
 0;36.9500,47.8500;85560;Velykonovosilkivskyi;Petrovskiy
 0;34.0500,47.8333;27167;Novoukrainskyi;Petrovskiy
 0;32.0667,47.8167;;Kirovohrad;Petrovskiy
-137;31.6135,47.7516;;Mykolaiv;Yasna Polyana
+137;31.6135,47.7516;55470;Mykolaiv;Yasna Polyana
 0;37.8355,47.6316;85029;Dobropilskyi;Zvytiazhne
 0;36.1716,47.5679;70217;Huliaipilskyi;Zahirne
 0;36.7167,47.4000;71012;Kuibyshevskyi;Petrovskiy
@@ -8740,11 +8740,11 @@
 530;31.1414,47.0010;26424;Blagovitshenskyy;Petrivka
 4595;30.7203,46.9106;67232;Ivanivskyi;Buialyk
 0;36.0698,46.9032;72123;Prymorskyi;Petrivka
-41;30.3197,46.9134;;Odesa;Vesele
+41;30.3197,46.9134;67413;Odesa;Vesele
 441;34.9111,46.8111;72510;Yakymivskyi;Petrivka
 0;34.0297,46.7218;74817;Kakhovskyi;Petrovka
 0;35.6000,46.5500;72453;Pryazovskyi;Petrovka
-984;29.1706,46.5048;;Odesa;Petrivka
+984;29.1706,46.5048;68510;Odesa;Petrivka
 0;34.6765,46.4902;75511;Henicheskyi;Petrivka
 1031;29.9526,46.3128;22365;Litynskyi;Petrivka
 381;32.8530,46.2357;75724;Skadovskyi;Petrivka
@@ -8775,7 +8775,7 @@
 0;37.1401,48.0480;85398;Pokrovskiy;Petropavlivka
 0;33.9869,47.8492;20947;Chyhyrynskyi;Petropavlivka
 19;32.5823,47.6097;55642;Novobuzkyi;Novovasylivka
-669;31.4988,47.7339;;Mykolaiv;Petropavlivka
+669;31.4988,47.7339;55462;Mykolaiv;Petropavlivka
 472;38.5645,47.6754;09533;Tarashchanskyi;Petropavlivka
 428;32.7922,47.4852;55611;Novobuzkyi;Petropavlivka
 0;33.5703,47.2935;74223;Novovorontsovskyi;Petropavlivka
@@ -9246,7 +9246,7 @@
 0;32.6371,51.4086;16448;Borznianskyi;Parystivka
 0;24.7004,48.6594;78414;Nadvirnianskyi;Paryshche
 0;29.5086,49.9244;13516;Popilnianskyi;Parypsy
-16;31.5535,46.8902;;Mykolaiv;Mefodiyivka
+16;31.5535,46.8902;57140;Mykolaiv;Mefodiyivka
 0;26.3167,51.3500;34377;Volodymyretskyi;Parespa
 0;35.8906,49.5112;63261;Novovodolazkyi;Paraskoviia
 0;35.9500,49.4333;08460;Pereiaslav-Khmelnytskyi;Paraskoveyevka
@@ -9426,7 +9426,7 @@
 0;26.2833,49.7500;30635;Teofipolskyi;Ostrovka
 155;30.4838,47.4750;26101;Novoarkhanhelskyi;Dobrydnivka
 97;32.0942,47.2886;;Mykolaiv;Ostrovske
-273;31.7111,46.7193;;Mykolaiv;Ostrivka
+273;31.7111,46.7193;57546;Mykolaiv;Ostrivka
 0;25.6283,49.2922;22353;Litynskyi;Ostrivets
 0;25.2955,48.6449;78153;Horodenkivskyi;Ostrovets
 0;30.5186,48.5968;20391;Umanskyi;Ostrivets
@@ -9564,7 +9564,7 @@
 0;37.6440,48.1616;86032;Yasynuvatskyi;Orlivka
 0;36.0350,46.7099;72143;Prymorskyi;Orlivka
 787;33.3740,45.6689;;Crimea;Orlovka
-3047;28.4405,45.3166;;Odesa;Orlivka
+3047;28.4405,45.3166;68831;Odesa;Orlivka
 847;33.5824,44.7291;;Sevastopol City;Orlivka
 0;31.5841,49.2320;19058;Kanivskyi;Orlovets
 0;32.9000,46.7500;75034;Bilozerskyi;Orlova
@@ -9640,7 +9640,7 @@
 0;30.6663,49.0189;20373;Umanskyi;Onopriivka
 3855;33.4495,48.8992;28100;Onufriivskyi;Onufriyivka
 210;32.2295,47.2494;;Mykolaiv;Lobriyivka
-193;30.6556,47.1297;;Odesa;Onorivka
+193;30.6556,47.1297;67324;Odesa;Onorivka
 2187;22.3418,48.6570;88000;Zakarpatska;Onokivtsi
 3094;23.0038,48.2245;90000;Mizhhirskyi;Onok
 0;28.5367,48.9419;23354;Tyvrivskyi;Onytkivtsi
@@ -9677,7 +9677,7 @@
 0;31.0725,48.6315;23852;Teplytskyi;Vilshanka
 0;28.6159,48.2474;23438;Murovanokurylovetskyi;Vilshanka
 4596;30.8728,48.2342;26600;Vilshanskyi;Vilshanka
-327;31.6984,46.9426;;Mykolaiv;Malovarvarivka
+327;31.6984,46.9426;57150;Mykolaiv;Malovarvarivka
 0;26.6667,51.2333;34545;Sarnenskyi;Ol’shanitsa
 0;26.2747,49.9838;30270;Bilohirskyi;Vilshanytsia
 0;23.4500,49.9500;81038;Yavorivskyi;Ol’shanitsa
@@ -9729,12 +9729,12 @@
 0;34.1500,47.7333;53224;Nikopolskyi;Ol’go-Ivanovka
 0;36.5241,47.7372;70251;Huliaipilskyi;Olhivske
 223;38.3960,47.7210;;Donetsk;Olhynske
-223;30.1254,47.1054;;Odesa;Olhynove
+223;30.1254,47.1054;67131;Odesa;Olhynove
 0;33.4895,47.4726;74049;Vysokopilskyi;Olzhyne
 0;33.9340,46.9477;74012;Vysokopilskyi;Olhyne
 0;36.8017,46.9256;71190;Berdianskyi;Ol’gino
 2929;37.5089,47.6953;85730;Volnovaskyi;Olhynka
-179;31.7709,46.8768;;Mykolaiv;Chumaky
+179;31.7709,46.8768;57171;Mykolaiv;Chumaky
 0;30.3215,49.8839;08667;Vasylkivskyi;Oliinykova Sloboda
 0;26.5676,49.8055;30643;Teofipolskyi;Oliinyky
 0;36.0715,49.2122;30642;Teofipolskyi;Motuzivka
@@ -9789,7 +9789,7 @@
 1100;36.9402,47.7101;85562;Velykonovosilkivskyi;Kermenchyk
 0;37.4779,47.5087;85786;Volnovaskyi;Stritenka
 86;35.2461,47.1723;72072;Mykhailivskyi;Tarsalak
-21;31.7226,46.8781;;Mykolaiv;Novomykhaylivka
+21;31.7226,46.8781;57171;Mykolaiv;Novomykhaylivka
 1192;33.9492,45.6553;;Crimea;Oktyabr’skoye
 32;33.6570,45.6540;;Crimea;Privol’noye
 557;34.9099,45.3994;23635;Tulchynskyi;Oktyabr’skoye
@@ -9799,7 +9799,7 @@
 0;36.1809,47.7284;70222;Huliaipilskyi;Olenokostiantynivka
 0;33.6167,47.6667;75027;Bilozerskyi;Oktyabr’skiy
 0;38.1862,47.5023;;Donetsk;Chyrylyans'ke
-71;38.0919,47.2890;;Donetsk;Oleksandrivske
+71;38.0919,47.2890;87100;Donetsk;Oleksandrivske
 477;32.6833,47.1667;57320;Snihurivskyi;Polyana
 923;34.5534,45.6293;;Crimea;Oktyabr’
 112;35.4819,47.2428;57355;Snihurivskyi;Solovivka
@@ -9877,7 +9877,7 @@
 4068;37.6157,48.2445;86020;Yasynuvatskyi;Ocheretyne
 166;30.1617,46.7275;67410;Rozdilnianskyi;Novosiltsi
 229;32.0079,46.3474;75616;Holoprystanskyi;Ochakivske
-102;31.2148,47.4404;;Mykolaiv;Ochakivske
+102;31.2148,47.4404;56560;Mykolaiv;Ochakivske
 13663;31.5450,46.6147;57503;Ochakivskyi;Ochakiv
 869;29.3743,47.9906;78155;Horodenkivskyi;Obzhyle
 0;28.9756,51.0190;11531;Korostenskyi;Obykhody
@@ -10207,7 +10207,7 @@
 469;32.5745,47.4863;55642;Novobuzkyi;Novoserhiyivka
 0;36.7514,49.0728;64721;Barvinkivskyi;Novosemenovka
 0;33.8032,47.5919;53800;Apostolivskyi;Novosemenivka
-319;29.5398,47.4141;;Odesa;Novosemenivka
+319;29.5398,47.4141;67946;Odesa;Novosemenivka
 0;36.2000,47.2667;71211;Chernihivskyi;Nova Semenivka
 0;35.1833,48.8833;51256;Novomoskovskyi;Novosel’ye
 0;32.6167,47.9167;28600;Ustynivskyi;Stavrakova
@@ -10245,14 +10245,14 @@
 0;36.4318,47.5849;70523;Orikhivskyi;Novoselivka
 12;32.6343,47.5372;55642;Novobuzkyi;Novoselivka
 0;37.7324,47.4046;87140;Volnovaskyi;Novoselivka
-29;30.0289,47.1952;;Odesa;Novoselivka
+29;30.0289,47.1952;67123;Odesa;Novoselivka
 1257;30.8263,47.1639;67300;Berezivskyi;Novoselivka
 215;31.6883,47.1319;57120;Mykolaivskyi;Novoselivka
 112;31.7858,46.9835;57120;Mykolaivskyi;Karlykivka
 497;29.9145,46.9914;67110;Velykomykhailivskyi;Novoselivka
 3000;29.6146,46.0024;68200;Saratskyi;Novoselivka
-508;29.2351,45.9519;;Odesa;Novoselivka
-1647;29.2651,45.6758;;Odesa;Novoselivka
+508;29.2351,45.9519;68432;Odesa;Novoselivka
+1647;29.2651,45.6758;68320;Odesa;Novoselivka
 29;36.0982,45.2483;;Crimea;Novosyolovka
 1425;33.8353,44.9938;;Crimea;Novosyolovka
 0;23.8474,49.5429;80734;Zolochivskyi;Novosilky-Oparski
@@ -10280,7 +10280,7 @@
 569;30.1932,47.8115;07431;Brovarskyi;Novoselivka
 68;31.0610,47.6852;;Mykolaiv;Novolikarske
 0;36.4731,47.0699;71183;Berdianskyi;Novosilske
-176;30.2862,46.9245;;Odesa;Novoselivka
+176;30.2862,46.9245;67413;Odesa;Novoselivka
 89;31.4512,46.7479;;Mykolaiv;Novoselivka
 0;24.6537,49.7781;81191;Pustomytivskyi;Novosilky
 0;25.1901,49.3052;78413;Nadvirnianskyi;Novosilka
@@ -10323,7 +10323,7 @@
 616;29.7645,46.9846;67140;Velykomykhailivskyi;Novosavytske
 1005;29.5268,47.5100;67900;Оknianskyi;Novosamarka
 0;31.9830,47.9525;27175;Novoukrainskyi;Novosamara
-499;31.8059,47.5463;;Mykolaiv;Novosafronivka
+499;31.8059,47.5463;56620;Mykolaiv;Novosafronivka
 0;35.2333,50.3333;42842;Velykopysarivskyi;Novoryabina
 0;28.3127,50.1894;12449;Zhytomyrskyi;Nova Rudnia
 0;35.7624,47.7716;70586;Orikhivskyi;Novorozivka
@@ -10500,7 +10500,7 @@
 228;32.0470,47.1566;57111;Mykolaivskyi;Novomatviyivske
 0;38.2584,49.1391;92923;Kreminskyi;Novokrasnianka
 1696;31.3615,48.0243;55230;Pervomaiskyi;Novokrasne
-344;29.1625,47.5305;;Odesa;Novokrasne
+344;29.1625,47.5305;67920;Odesa;Novokrasne
 0;39.2864,47.9352;92725;Starobilskyi;Novokrasnivka
 935;37.1575,47.3148;87022;Nikolskiy;Novokrasnivka
 0;34.8892,47.8455;53526;Tomakivskyi;Novokatoshchyne
@@ -10552,7 +10552,7 @@
 55925;27.6088,50.5914;11700;Novohrad-Volynskyi;Zvyahel
 5240;28.6921,50.2069;12441;Zhytomyrskyi;Novohuivynske
 0;35.4223,48.0227;70020;Vilnianskyi;Novohupalivka
-15;29.6434,47.1449;;Odesa;Hrushka
+15;29.6434,47.1449;67111;Odesa;Hrushka
 14037;37.3388,48.2005;85483;Novohrodivka;Novohrodivka
 0;37.0263,48.4167;85070;Dobropilskyi;Novohryshyne
 181;31.7154,47.4493;;Mykolaiv;Novoukrayinka
@@ -10701,15 +10701,15 @@
 58;32.6850,47.8986;28614;Ustynivskyi;Novooleksandrivka
 0;32.1833,47.9000;27246;Bobrynetskyi;Novoaleksandrovka
 0;39.4894,47.8686;70449;Zaporizkyi;Novo-Aleksandrovka
-617;31.6790,47.8535;;Mykolaiv;Novooleksandrivka
+617;31.6790,47.8535;55480;Mykolaiv;Novooleksandrivka
 0;35.3674,47.7519;70433;Zaporizkyi;Novooleksandrivka
 142;30.2114,47.5993;26412;Blagovitshenskyy;Novooleksandrivka
 245;31.9456,47.5654;;Mykolaiv;Novooleksandrivka
 552;30.0468,47.5335;;Odesa;Novooleksandrivka
-17;31.9036,47.4630;;Mykolaiv;Novooleksandrivské
+17;31.9036,47.4630;56622;Mykolaiv;Novooleksandrivské
 0;33.8762,47.2646;74231;Novovorontsovskyi;Novooleksandrivka
 961;32.4484,47.1683;56001;Kazankivskyi;Novooleksandrivka
-446;29.5631,47.1233;;Odesa;Novooleksandrivka
+446;29.5631,47.1233;67114;Odesa;Novooleksandrivka
 651;34.9100,47.1072;72205;Veselivskyi;Novooleksandrivka
 0;34.4183,46.9720;74720;Nyzhnosirohozkyi;Novooleksandrivka
 12;34.1333,46.9000;74609;Hornostaivskyi;Slavne
@@ -10805,7 +10805,7 @@
 0;36.4467,49.2201;64614;Lozivskyi;Novaya Ivanovka
 0;36.2089,48.8856;64670;Lozivskyi;Nova Ivanivka
 0;34.3500,47.0833;74523;Velykolepetyskyi;Novaya Ivanovka
-2018;29.0810,45.9155;;Odesa;Nova Ivanivka
+2018;29.0810,45.9155;68430;Odesa;Nova Ivanivka
 899;34.2525,44.9377;;Crimea;Ivanovka
 0;33.8497,52.2740;41030;Seredyno-Budskyi;Nova Huta
 0;29.4530,50.9152;31554;Letychivskyi;Nova Huta
@@ -11068,7 +11068,7 @@
 209;30.8844,47.8085;19624;Cherkaskyi;Volya
 1264;32.8470,47.7529;55647;Novobuzkyi;Mykolaivka
 116;29.4484,47.7275;23028;Barskyi;Mykolaivka
-714;31.3191,47.4183;;Mykolaiv;Timiryazyevka
+714;31.3191,47.4183;56575;Mykolaiv;Timiryazyevka
 0;37.6801,47.6542;85734;Volnovaskyi;Mykolaivka
 7;33.2047,47.6342;27260;Bobrynetskyi;Mykolayivka
 0;33.9333,47.5833;74200;Novovorontsovskyi;Nikolayevka
@@ -11085,10 +11085,10 @@
 612;36.0543,46.8707;72416;Pryazovskyi;Mykolaivka
 0;33.8556,46.8016;74623;Hornostaivskyi;Mykolaivka
 0;33.2553,46.7887;74342;Beryslavskyi;Mykolaivka
-325;31.6958,46.6444;;Mykolaiv;Yaselka
+325;31.6958,46.6444;57545;Mykolaiv;Yaselka
 28;30.2889,46.6401;22518;Lypovetskyi;Mykolaivka
 0;34.7167,46.5500;75513;Henicheskyi;Nikolayevka
-1678;29.4053,46.3730;;Odesa;Mykolayivka
+1678;29.4053,46.3730;68535;Odesa;Mykolayivka
 1448;30.3323,46.3055;67801;Ovidiopolskyi;Mykolaivka
 341;33.1973,46.2602;75729;Skadovskyi;Mykolaivka
 0;34.6076,46.1074;75572;Henicheskyi;Mykolaivka
@@ -11134,7 +11134,7 @@
 0;35.4503,47.5437;71690;Vasylivskyi;Neykron Nomer Vtoroy
 0;35.5000,47.5333;71695;Vasylivskyi;Neykron Nomer Tretiy
 0;35.5000,47.5500;71695;Vasylivskyi;Neykron Nomer Pervyy
-433;30.6897,47.1384;;Odesa;Neikove
+433;30.6897,47.1384;67323;Odesa;Neikove
 0;35.8654,47.0497;71764;Tokmatskyi;Udarnyk
 191;25.5453,48.0635;59020;Storozhynetskyi;Nova Krasnoshora
 0;35.6000,47.3667;71731;Tokmatskyi;Neygof
@@ -11170,7 +11170,7 @@
 0;25.3740,49.6994;32530;Vinkovetskyi;Nesterivtsi
 0;26.7777,48.9608;60340;Novoselytskyi;Nesterivtsi
 0;30.1800,48.9840;20142;Mankivskyi;Nesterivka
-202;29.4030,47.3611;;Odesa;Nesterove
+202;29.4030,47.3611;67953;Odesa;Nesterove
 0;37.3851,50.4186;62511;Vovchanskyi;Nesterne
 0;35.6850,47.4958;70561;Orikhivskyi;Nesterianka
 369;34.7426,49.7228;38731;Poltavskyi;Nesterenky
@@ -11265,7 +11265,7 @@
 0;32.1488,49.2752;19642;Cherkaskyi;Nechaivka
 0;31.4623,48.8196;20643;Shpolianskyi;Nechaieve
 0;32.0193,48.2513;28414;Kompaniivskyi;Nechaivka
-1874;31.5511,46.9442;;Mykolaiv;Nechayane
+1874;31.5511,46.9442;57140;Mykolaiv;Nechayane
 3282;24.2192,48.8151;77670;Rozhniativskyi;Nebyliv
 0;25.3620,50.8053;45270;Kivertsivskyi;Nebizhka
 0;29.9452,50.6951;07814;Borodianskyi;Nebrat
@@ -11326,7 +11326,7 @@
 0;29.1331,49.2755;22542;Lypovetskyi;Napadivka
 0;22.7333,49.4333;82072;Starosambirskyi;Nanova
 0;22.7996,49.3943;82099;Starosambirskyi;Sosnivka
-134;30.1008,47.0363;;Odesa;Nalyvayikove
+134;30.1008,47.0363;67153;Odesa;Nalyvayikove
 0;29.7207,50.4849;08022;Makarivskyi;Nalyvaikivka
 0;25.3220,49.9725;80654;Brodivskyi;Nakvasha
 0;23.3167,49.9333;81030;Yavorivskyi;Nakonechnoye
@@ -11794,7 +11794,7 @@
 0;33.4162,47.8079;52149;Piatykhatskyi;Myroliubivka
 188;32.3296,47.8043;27246;Bobrynetskyi;Myrolyubivka
 0;34.9104,47.7427;53525;Tomakivskyi;Myroliubivka
-106;30.0695,45.8453;;Odesa;Novomykhailivka
+106;30.0695,45.8453;68160;Odesa;Novomykhailivka
 771;34.2224,45.4705;;Crimea;Mirolyubovka
 0;25.8613,50.4320;35623;Dubenskyi;Myrohoshcha Persha
 0;39.1333,48.4000;92212;Bilokurakynskyi;Myrne
@@ -11964,7 +11964,7 @@
 486;31.6354,47.3584;57101;Mykolaivskyi;Mykhaylivka
 546;31.0323,47.3227;;Mykolaiv;Mikhaylivka
 0;33.9567,47.3103;74230;Novovorontsovskyi;Mykhailivka
-119;30.8305,47.3444;;Odesa;Novohryhorivka
+119;30.8305,47.3444;67310;Odesa;Novohryhorivka
 11949;35.2221,47.2686;;Hlybotskyi;Mykhaylivka
 567;34.8563,46.8989;72254;Veselivskyi;Mala Mykhailivka
 0;33.5833,46.8833;74372;Beryslavskyi;Mikhaylovka
@@ -11972,17 +11972,17 @@
 138;31.4292,46.7600;;Mykolaiv;Mykhailivka
 175;30.2682,46.6773;67410;Rozdilnianskyi;Mykhailivka
 2152;32.6534,46.2811;75710;Skadovskyi;Mykhailivka
-349;29.6325,46.2844;;Odesa;Pshenychne
+349;29.6325,46.2844;68214;Odesa;Pshenychne
 2577;29.6966,45.9496;27638;Kirovohradskyi;Mykhaylivka
 2241;34.6406,45.5284;;Crimea;Mikhaylovka
 3325;33.6107,45.1133;75620;Holoprystanskyi;Mykhaylivka
 0;23.6025,49.3753;81434;Sambirskyi;Mykhailevychi
-509;30.4315,47.0900;;Odesa;Mikhayilopil
+509;30.4315,47.0900;67210;Odesa;Mikhayilopil
 0;35.5909,47.9549;70042;Vilnianskyi;Mykhailo-Lukasheve
 1918;32.2043,47.1076;57111;Mykolaivskyi;Mykhaylo-Laryne
 2797;31.0782,51.4512;15552;Chernihivskyi;Mykhailo-Kotsiubynske
 0;33.3118,51.0220;41676;Konotopskyi;Mykhailo-Hannivka
-593;30.7146,47.2730;;Odesa;Mykhailo-Oleksandrivka
+593;30.7146,47.2730;67314;Odesa;Mykhailo-Oleksandrivka
 0;28.7950,49.5868;22065;Khmilnytskyi;Mykhailyn
 879;34.1456,49.9684;38013;Shyshatskyi;Mykhailyky
 445;33.8401,49.3036;39105;Kozelshchynskyi;Mykhaylyky
@@ -12127,7 +12127,7 @@
 0;26.9000,51.0000;34640;Bereznivskyi;Medvezha
 0;23.3942,49.4082;82129;Drohobytskyi;Medvezha
 0;28.2342,49.8899;13254;Chudnivskyi;Medvedykha
-519;22.6040,48.5528;;Zakarpattia;Medvedivtsi
+519;22.6040,48.5528;89694;Zakarpattia;Medvedivtsi
 0;32.4605,52.2929;15411;Semenivskyi;Medvedivka
 0;26.8856,50.8001;08806;Myronivskyi;Vedmedivka
 0;28.6657,49.7478;22138;Koziatynskyi;Medvedivka
@@ -12271,7 +12271,7 @@
 0;38.3652,49.1662;92936;Kreminskyi;Matsegorovka
 0;27.1120,49.6391;31056;Krasylivskyi;Motrunky
 2259;28.7811,45.3421;68600;Izmailskyi;Matroska
-253;31.7488,46.7328;;Mykolaiv;Matrosivka
+253;31.7488,46.7328;57546;Mykolaiv;Matrosivka
 167;33.9252,48.5612;51645;Verkhnodniprovskyi;Motronivka
 0;23.1161,48.9180;82563;Turkivskyi;Matkiv
 412;31.4498,46.7595;;Mykolaiv;Matiyasove
@@ -12380,7 +12380,7 @@
 116;31.1153,46.8316;;Odesa;Maryanivka
 0;34.4167,46.6000;75440;Ivanivskyi;Marianovka
 0;33.9139,46.5707;74861;Kakhovskyi;Marianivka
-969;30.4663,46.3863;;Odesa;Maryanivka
+969;30.4663,46.3863;67831;Odesa;Maryanivka
 265;28.7760,45.5857;68740;Bolhradskyi;Novokalanchak
 636;30.0718,47.3730;;Odesa;Chohodarivka
 0;36.7840,48.6162;84033;Oleksandrivskyi;Marivka
@@ -12459,7 +12459,7 @@
 0;38.8468,47.9032;;Donetsk;Marynivka
 2450;30.8875,47.7760;19624;Cherkaskyi;Marynivka
 0;37.0407,47.3197;70348;Rozivskyi;Marinovka
-991;30.7735,47.0962;;Odesa;Marynove
+991;30.7735,47.0962;67333;Odesa;Marynove
 0;36.2372,46.8306;72133;Prymorskyi;Marynivka
 610;30.5313,46.7578;74308;Beryslavskyi;Marynivka
 0;36.8445,47.4978;70344;Rozivskyi;Marynopil
@@ -12490,7 +12490,7 @@
 0;33.8167,49.9333;37647;Myrhorodskyi;Marchenkiv
 164;34.3812,49.8418;38534;Dykanskyi;Marchenky
 1397;30.0494,46.0960;;Odesa;Marazliyivka
-329;29.8985,45.8832;;Odesa;Marazliivka
+329;29.8985,45.8832;68152;Odesa;Marazliivka
 0;30.4667,47.8000;;Mykolaiv;Marary
 0;38.0667,49.6000;92614;Svativskyi;Marakhovka
 0;28.3167,51.2500;10425;Ovrutskyi;Marakha
@@ -12633,11 +12633,11 @@
 760;22.3010,48.4970;89502;Chop;Mali Heyivtsi
 59;30.4986,46.7425;74308;Beryslavskyi;Male
 707;29.0848,46.1570;68500;Tarutynskyi;Yaroslavove
-598;29.0039,46.0868;;Odesa;Maloyaroslavets Pershyy
+598;29.0039,46.0868;68554;Odesa;Maloyaroslavets Pershyy
 0;38.9251,49.0189;93507;Novoaidarskyi;Malovendelivka
 304;31.9491,47.6705;;Mykolaiv;Maloukrayinka
 3498;37.5102,48.6617;84396;Kramatorsk;Malotaranivka
-398;31.6090,47.6220;;Mykolaiv;Malosolone
+398;31.6090,47.6220;56544;Mykolaiv;Malosolone
 445;34.1401,48.1782;28440;Kompaniivskyi;Malosofiivka
 257;32.8194,49.8105;37750;Orzhytskyi;Maloseletske
 0;38.3819,48.8850;93313;Popasnianskyi;Maloriazantseve
@@ -12681,7 +12681,7 @@
 0;37.7691,48.7365;84187;Slovianskyi;Malynivka
 873;36.4811,47.6795;70242;Huliaipilskyi;Malynivka
 0;37.3829,47.5136;85716;Volnovaskyi;Malynivka
-971;31.7392,47.4693;;Mykolaiv;Pidlisne
+971;31.7392,47.4693;56633;Mykolaiv;Pidlisne
 0;36.1000,47.0667;71248;Chernihivskyi;Malinovka
 0;36.7358,47.0515;71181;Berdianskyi;Malynivka
 420;30.3835,46.9426;;Odesa;Malynivka
@@ -12939,7 +12939,7 @@
 0;29.4255,50.7949;81580;Horodotskyi;Liubovychi
 0;32.3993,47.8156;27246;Bobrynetskyi;Lyubovichevo
 20001;35.9291,49.9469;62433;Kharkivskyi;Liubotyn
-126;30.5659,47.0539;;Odesa;Liubotaivka
+126;30.5659,47.0539;67220;Odesa;Liubotaivka
 833;31.1014,46.7237;27268;Bobrynetskyi;Lyubopil
 10295;24.0323,51.2254;44301;Lyubomlskyi;Liuboml
 68;34.3210,48.4362;07651;Zghurivskyi;Liubomyrivka
@@ -13051,7 +13051,7 @@
 0;23.7000,48.9648;77569;Dolynskyi;Luzhky
 0;23.3754,49.4560;81477;Sambirskyi;Dolishnii Luzhok
 4837;25.7829,48.3592;59342;Kitsmanskyi;Luzhany
-423;29.1916,46.0437;;Odesa;Luzhanka
+423;29.1916,46.0437;68555;Odesa;Luzhanka
 0;24.1282,49.3125;81577;Horodotskyi;Livchytsi
 17061;39.2130,48.4043;20627;Shpolianskyi;Lutuhyne
 0;23.6843,50.1820;80456;Kamianka-Buzkyi;Lutsyki
@@ -13081,7 +13081,7 @@
 0;29.2586,50.8390;11665;Malynskyi;Lumlia
 0;30.5697,49.5087;09543;Tarashchanskyi;Lukianivka
 143;35.4470,47.6114;70583;Orikhivskyi;Lukianivske
-40;31.5278,46.9820;;Mykolaiv;Lukyanivka
+40;31.5278,46.9820;57140;Mykolaiv;Lukyanivka
 0;33.6456,46.7791;74816;Kakhovskyi;Lukianivka
 0;34.4377,46.6073;75440;Ivanivskyi;Luk’yanovka
 0;23.3810,49.6187;81436;Sambirskyi;Luky
@@ -13118,7 +13118,7 @@
 0;29.1986,48.6510;22511;Lypovetskyi;Lukashivka
 0;28.9502,49.2472;22563;Lypovetskyi;Lukashivka
 0;33.8260,52.1760;41052;Seredyno-Budskyi;Lukashenkivse
-1131;30.4656,47.9134;;Mykolaiv;Lukanivka
+1131;30.4656,47.9134;55113;Mykolaiv;Lukanivka
 0;28.7168,49.0194;22823;Nemyrivskyi;Luka
 0;27.9676,48.8608;23155;Zhmerynskyi;Luka-Movchanska
 3597;28.4947,49.1755;23323;Tyvrivskyi;Luka-Meleshkivska
@@ -13195,9 +13195,9 @@
 1592;23.4667,48.5484;59231;Vyzhnytskyi;Lozianskyi
 0;24.7333,49.1333;77101;Halytskyi;Lozy
 930;31.9967,50.3219;07720;Yahotynskyi;Lozovyi Yar
-12;30.2248,46.9413;;Odesa;Lozove
+12;30.2248,46.9413;67423;Odesa;Lozove
 0;36.5598,49.2179;64156;Pervomaiskyi;Lozivske
-4822;38.8820,48.5624;;Luhansk;Lozivskyi
+4822;38.8820,48.5624;93746;Luhansk;Lozivskyi
 0;37.1983,49.8681;62658;Velykoburlutskyi;Lozove
 1548;27.3021,49.2938;32215;Derazhnianskyi;Lozove
 48;38.2307,48.3842;84579;Bahmutskiy;Lozove
@@ -13252,7 +13252,7 @@
 104;32.7515,47.5268;55611;Novobuzkyi;Lotskyne
 1629;32.3914,47.2053;56001;Kazankivskyi;Lotskyne
 0;27.1768,50.0118;30453;Shepetivskyi;Lotivka
-3096;38.9183,48.5293;;Luhansk;Ivanivske
+3096;38.9183,48.5293;93747;Luhansk;Ivanivske
 0;30.9064,48.8145;20520;Katerynopilskyi;Lotasheve
 0;25.4974,49.9648;80350;Zhovkivskyi;Losiatyn
 0;30.2562,49.9100;08667;Vasylkivskyi;Losiatyn
@@ -13487,7 +13487,7 @@
 0;38.9440,49.3430;92720;Starobilskyi;Lyman
 123;39.2537,48.6641;92354;Novopskovskyi;Lyman
 0;36.8645,48.4115;84400;Lymanskyi;Lyman
-153;29.9677,45.9014;;Odesa;Lyman
+153;29.9677,45.9014;68151;Odesa;Lyman
 1641;29.7444,45.6733;68110;Tatarbunarskyi;Lyman
 0;28.1333,49.0667;23100;Zhmerynka;Lilyaki
 1960;33.9320,48.6774;52120;Piatykhatskyi;Lykhivka
@@ -13560,7 +13560,7 @@
 186;33.7507,52.2567;41032;Seredyno-Budskyi;Lisne
 0;39.1645,48.3831;92212;Bilokurakynskyi;Lesnoye
 166;38.1327,48.0973;26552;Holovanivskyi;Lisne
-1318;29.3499,46.4677;;Odesa;Lisne
+1318;29.3499,46.4677;68530;Odesa;Lisne
 0;36.0380,47.5251;70581;Orikhivskyi;Luhivske
 80;35.3443,47.4708;71689;Vasylivskyi;Lisne
 1513;30.5202,50.3045;08172;Kyievo-Sviatoshynskyi;Lisnyky
@@ -13582,7 +13582,7 @@
 0;32.1480,51.4636;15672;Menskyi;Lisky
 0;32.2197,49.3310;19640;Cherkaskyi;Lesky
 0;25.0379,48.6481;78242;Kolomyiskyi;Lisky
-1931;29.4860,45.4631;;Odesa;Lisky
+1931;29.4860,45.4631;68354;Odesa;Lisky
 0;23.0000,49.3333;81223;Peremyshlianskyi;Lesitse
 0;23.4585,49.3780;82127;Drohobytskyi;Lishnia
 0;25.0904,50.2400;80613;Brodivskyi;Leshniv
@@ -13638,7 +13638,7 @@
 0;29.4500,51.2167;07041;Poliskyi;Lenino
 640;30.4505,47.9794;55140;Kryvoozerskyi;Hoyday
 565;32.1368,47.4758;60520;Hertsaivskyi;Lukyanivka
-124;30.0559,47.2342;;Odesa;Sokorove
+124;30.0559,47.2342;67123;Odesa;Sokorove
 7426;35.7771,45.2986;;Crimea;Yedy-Kuyu
 0;37.3480,49.8090;63711;Kupianskyi;Vyshnivka
 0;35.4288,49.4472;30600;Teofipolskyi;Zoriane
@@ -13786,7 +13786,7 @@
 0;24.3333,48.0333;59111;Putylskyi;Kvas’ni
 8117;26.2594,50.5623;35350;Rivnenskyi;Kvasyliv
 0;31.5667,51.9728;15134;Horodnianskyi;Kuznychi
-969;38.2120,47.4578;;Donetsk;Kuznetsovo-Mykhailivka
+969;38.2120,47.4578;87132;Donetsk;Kuznetsovo-Mykhailivka
 706;30.9663,47.7526;19624;Cherkaskyi;Kuznetsove
 0;36.9895,47.3626;70322;Rozivskyi;Kuznetsivka
 391;32.8862,45.4674;;Crimea;Kuznetskoye
@@ -14209,7 +14209,7 @@
 24115;33.3804,51.5518;41300;Krolevetskyi;Krolevets
 0;26.0132,49.1006;78120;Horodenkivskyi;Krohulets
 0;39.6304,49.4537;92424;Markivskyi;Kryzke
-193;29.7046,48.0783;;Odesa;Kryzhovlyn
+193;29.7046,48.0783;66114;Odesa;Kryzhovlyn
 0;34.1218,51.1245;41835;Bilopilskyi;Kryzhyk
 1100;33.3482,49.0931;39702;Kremenchutskyi;Kryvushi
 0;34.2499,46.4281;75317;Novotroitskyi;Kryvyi Rih
@@ -14275,7 +14275,7 @@
 0;34.5550,47.9862;52459;Solonianskyi;Krynychky
 26;38.7039,47.8661;09533;Tarashchanskyi;Krynychky
 0;35.8874,47.6040;70595;Orikhivskyi;Chervona Krynytsia
-165;30.5717,47.1388;;Odesa;Krynychky
+165;30.5717,47.1388;67324;Odesa;Krynychky
 1045;31.7332,47.0724;57120;Mykolaivskyi;Krynychky
 0;35.3833,47.5000;71620;Vasylivskyi;Krinichevatyy
 0;34.3228,47.9089;53244;Nikopolskyi;Krynychuvate
@@ -14380,7 +14380,7 @@
 0;32.4798,52.2169;15422;Semenivskyi;Berezovyi Hai
 0;31.7841,50.9474;17132;Nosivskyi;Volodkova Divytsia
 198;31.6061,47.8767;55401;Bratskyi;Vysoka Hora
-464;31.7000,46.7667;;Mykolaiv;Blahodatne
+464;31.7000,46.7667;57530;Mykolaiv;Blahodatne
 0;35.2000,46.5500;72560;Yakymivskyi;Krasnyye Kolodtsy
 0;39.8251,48.8522;93629;Stanychno-Luhanskyi;Krasnyi Derkul
 0;23.6503,51.6185;44012;Shatskyi;Krasnyy Bor
@@ -14640,7 +14640,7 @@
 0;28.1307,48.7799;23514;Sharhorodskyi;Kozlivka
 0;29.0552,48.2237;24732;Pishchanskyi;Kozlivka
 0;38.0850,47.1726;;Donetsk;Kozlivka
-223;30.4543,47.0708;;Odesa;Kozlove
+223;30.4543,47.0708;67210;Odesa;Kozlove
 0;31.5717,50.2169;08421;Pereiaslav-Khmelnytskyi;Kozliv
 0;24.5295,49.9588;80514;Buskyi;Kizliv
 0;39.1658,49.8628;92311;Novopskovskyi;Kozlove
@@ -14690,7 +14690,7 @@
 569;26.3837,48.5124;60006;Khotynskyi;Orestivka
 0;26.0004,48.8575;78317;Sniatynskyi;Kozachchyna
 0;35.6344,48.4112;52511;Synelnykivskyi;Kozachyi Hai
-84;30.0156,47.5867;;Odesa;Kozache
+84;30.0156,47.5867;66434;Odesa;Kozache
 0;28.1667,49.1000;23130;Zhmerynskyi;Kozachëvka
 0;39.3283,48.0697;92725;Starobilskyi;Kozabelovka
 0;28.9661,50.3398;12575;Korostyshivskyi;Koza
@@ -14763,7 +14763,7 @@
 318;30.5914,47.1609;;Odesa;Chudske
 499;33.1666,45.6983;23086;Barskyi;Kotovskoye
 0;33.0100,47.6995;56620;Novoodeskyi;Myrne
-95;30.7804,47.3395;;Odesa;Kotovka
+95;30.7804,47.3395;67311;Odesa;Kotovka
 39220;29.5307,47.7499;08318;Boryspilskyi;Podilsk
 0;31.0120,51.0299;17043;Kozeletskyi;Kotiv
 0;29.1761,50.5863;12233;Radomyshlskyi;Kotivka
@@ -14875,7 +14875,7 @@
 0;33.2297,51.0171;41666;Konotopskyi;Koshary
 0;39.6183,47.8744;70449;Zaporizkyi;Koshary
 45;30.6230,47.5265;;Odesa;Charivne
-894;30.1675,46.9657;;Odesa;Koshary
+894;30.1675,46.9657;67423;Odesa;Koshary
 161;31.1449,46.6833;27268;Bobrynetskyi;Koshary
 136;29.6046,47.4709;67900;Оknianskyi;Kosharka
 0;28.8872,50.2706;12548;Korostyshivskyi;Mali Kosharyshcha
@@ -15129,7 +15129,7 @@
 0;27.3149,50.2371;30459;Shepetivskyi;Konotop
 0;32.4061,51.2849;16406;Borznianskyi;Kynashivka
 0;23.8500,49.8167;81513;Horodotskyi;Konopnytsya
-1707;30.4781,47.0462;;Odesa;Konoplyane
+1707;30.4781,47.0462;67220;Odesa;Konoplyane
 0;38.5302,49.5048;92247;Bilokurakynskyi;Konoplianivka
 841;32.0897,50.1922;19810;Drabivskyi;Kononivka
 153;32.9456,49.9915;37538;Lubenskyi;Kononivka
@@ -15193,7 +15193,7 @@
 0;38.6765,48.2617;;Luhansk;Komendantske
 503;33.8667,49.0652;39240;Kobeliatskyi;Komendantivka
 0;33.8500,47.1000;74530;Velykolepetyskyi;Komekherivka
-185;31.6025,46.8059;;Mykolaiv;Solyachne
+185;31.6025,46.8059;57520;Mykolaiv;Solyachne
 0;32.0328,51.1718;16691;Nizhynskyi;Lisove
 0;24.2588,51.1876;44884;Turiiskyi;Komariv
 0;24.3172,50.4011;60140;Kelmenetskyi;Komariv
@@ -15215,7 +15215,7 @@
 141;34.2645,49.1905;39232;Kobeliatskyi;Komarivka
 0;29.8345,48.7279;19245;Zhashkivskyi;Komarivka
 232;30.3254,47.5856;26412;Blagovitshenskyy;Komarivka
-221;29.5836,47.1604;;Odesa;Komarivka
+221;29.5836,47.1604;67111;Odesa;Komarivka
 660;34.1580,45.3581;;Crimea;Komarovka
 0;22.8517,49.6286;82035;Starosambirskyi;Komarovichi
 0;32.4500,52.2000;15422;Semenivskyi;Komarov
@@ -15435,7 +15435,7 @@
 0;33.9155,46.9546;74012;Vysokopilskyi;Kochubeivka
 0;26.3906,48.8249;31655;Chemerovetskyi;Kochubeiv
 0;23.1849,49.8670;81037;Yavorivskyi;Kochmary
-517;29.8765,45.8028;;Odesa;Kochkuvate
+517;29.8765,45.8028;68133;Odesa;Kochkuvate
 266;38.3757,49.7937;92155;Troitskyi;Kochenove
 0;27.5361,51.0072;11220;Yemilchynskyi;Kochychyne
 3481;36.7372,49.8800;63513;Chuhuivskyi;Kochetok
@@ -15566,7 +15566,7 @@
 0;24.4889,51.1580;44885;Turiiskyi;Klychkovychi
 0;28.7637,50.2437;12437;Zhytomyrskyi;Klichin
 0;33.9667,46.9667;74603;Hornostaivskyi;Kleyn-Libental’
-4;31.6163,46.9166;;Mykolaiv;Pyatykhatky
+4;31.6163,46.9166;57140;Mykolaiv;Pyatykhatky
 0;35.6167,48.8500;63811;Borivskyi;Klevtsova
 0;33.0400,52.1055;16036;Novhorod-Siverskyi;Klevyn
 1458;26.0133,50.7486;35314;Rivnenskyi;Klevan
@@ -15641,7 +15641,7 @@
 0;30.6070,49.5198;09543;Tarashchanskyi;Kyslivka
 0;28.6799,48.5461;24226;Tomashpilskyi;Kyslytske
 0;31.3667,48.2167;27030;Dobrovelychkivskyi;Kislitsa
-2973;29.0362,45.4080;;Odesa;Kyslytsya
+2973;29.0362,45.4080;68655;Odesa;Kyslytsya
 0;30.4122,49.1547;20110;Mankivskyi;Kyslyn
 0;34.2600,47.6828;53270;Nikopolskyi;Kislechevatoye
 0;34.4289,51.2070;41830;Bilopilskyi;Kysla Dubyna
@@ -15691,7 +15691,7 @@
 0;38.1667,47.8667;52401;Solonianskyi;Kirovo
 0;34.2803,47.8028;53224;Nikopolskyi;Chystopil
 205;37.6111,47.3516;87146;Volnovaskyi;Kelerivka
-645;30.0881,47.1922;;Odesa;Vyshneve
+645;30.0881,47.1922;67123;Odesa;Vyshneve
 0;32.8473,46.8900;57116;Mykolaivskyi;Lymanets
 0;32.1007,46.7272;75039;Bilozerskyi;Tavriiske
 807;35.8423,45.2211;;Crimea;Kirovo
@@ -15845,7 +15845,7 @@
 790;35.0831,48.7154;51264;Novomoskovskyi;Khutoro-Hubynykha
 0;30.1333,51.0167;07250;Ivankivskyi;Khutor Novyy Osov
 176;32.2583,47.6788;20832;Kamianskyi;Veselyi Podil
-153;29.5313,47.0914;;Odesa;Novi Butory
+153;29.5313,47.0914;67112;Odesa;Novi Butory
 0;34.3723,47.8086;53244;Nikopolskyi;Novoselivka
 42;31.8006,46.9731;57120;Mykolaivskyi;Polovynky
 130;30.4466,47.3561;26101;Novoarkhanhelskyi;Novo Hryhorivka
@@ -15874,7 +15874,7 @@
 0;29.4500,50.6333;12289;Radomyshlskyi;Khutor Krinitskiy
 0;29.1000,51.5667;11110;Ovrutskyi;Khutor Krasnyy
 781;30.9079,47.6797;;Mykolaiv;Petropavlivka
-97;29.9650,47.4908;;Odesa;Krasne
+97;29.9650,47.4908;66442;Odesa;Krasne
 0;31.9333,47.8333;27250;Bobrynetskyi;Khutor Kozachiy
 0;28.8667,51.3833;07459;Brovarskyi;Khutor Kostyukov Les
 0;28.4000,49.9167;13360;Berdychivskyi;Khutor Kostopal’nya
@@ -15910,7 +15910,7 @@
 0;28.9167,51.5667;10423;Ovrutskyi;Khutor Dnichev
 65;29.6978,47.0879;67140;Velykomykhailivskyi;Divotske
 0;35.4809,50.2626;62176;Bohodukhivskyi;Dehtiari
-73;30.0399,47.5644;;Odesa;Shevchenkove
+73;30.0399,47.5644;66434;Odesa;Shevchenkove
 0;32.0931,47.8827;27175;Novoukrainskyi;Kokhane
 0;31.8521,51.4751;15679;Menskyi;Chornohortsi
 0;28.2500,50.1000;13217;Chudnivskyi;Khutor Chernetskiy
@@ -15940,7 +15940,7 @@
 0;27.9000,51.1667;11026;Olevskyi;Khutora Radovel’skiye
 241;30.4996,47.7916;;Mykolaiv;Novomykolayivske
 252;32.2874,46.8940;55644;Novobuzkyi;Zorya
-157;31.4766,47.5913;;Mykolaiv;Stepove
+157;31.4766,47.5913;56543;Mykolaiv;Stepove
 0;28.1500,49.3167;23111;Zhmerynskyi;Khutora Litinskiye
 0;26.2333,51.0167;35021;Kostopilskyi;Khutora Lipniki
 0;31.7139,51.9157;15218;Snovkyi;Krestopivshchyna
@@ -16052,7 +16052,7 @@
 825;33.2850,50.1523;37512;Lubenskyi;Khoroshky
 825;32.7812,49.9778;37745;Orzhytskyi;Khoroshky
 1061;32.2420,51.0976;16460;Borznianskyi;Khoroshe Ozero
-1607;38.8484,48.6237;;Luhansk;Khoroshe
+1607;38.8484,48.6237;93721;Luhansk;Khoroshe
 1145;36.4736,48.5525;52710;Petropavlivskyi;Khoroshe
 4432;36.2276,49.8517;62466;Kharkivskyi;Khorosheve
 0;26.3027,50.0852;30225;Bilohirskyi;Khoroshiv
@@ -16468,7 +16468,7 @@
 1015;31.3091,46.7709;;Mykolaiv;Novofedorivka
 0;27.1688,49.8318;31122;Starokostiantynivskyi;Kapustyn
 0;34.2276,47.5489;63335;Krasnohradskyi;Kapulivka
-38;29.2164,46.4507;;Odesa;Blahodatne
+38;29.2164,46.4507;68514;Odesa;Blahodatne
 26;30.2076,46.8076;67410;Rozdilnianskyi;Kapakliieve
 0;34.3667,48.8167;51030;Tsarychanskyi;Katerynivka
 0;35.1070,50.1675;62010;Krasnokutskyi;Kaplunivka
@@ -16521,7 +16521,7 @@
 5211;35.5241,47.7149;70530;Orikhivskyi;Komyshuvakha
 6896;32.5034,46.6399;73490;Kherson;Komyshany
 0;33.6943,46.7716;74816;Kakhovskyi;Komyshanka
-2739;29.2589,45.8191;;Odesa;Kamyanske
+2739;29.2589,45.8191;68441;Odesa;Kamyanske
 0;29.8511,48.6769;23851;Teplytskyi;Kamyanki
 97908;26.5852,48.6788;32300;Kamianets-Podilskyi;Kamyanets-Podilskyi
 0;36.4089,49.6658;63438;Zmiivskyi;Kamplytsia
@@ -16573,7 +16573,7 @@
 0;29.7189,49.7348;09004;Skvyrskyi;Kamiana Hreblia
 0;28.2838,49.4535;31220;Volochyskyi;Kamianohirka
 0;26.3821,50.7953;35321;Rivnenskyi;Kamiana Hora
-110;31.3131,47.4132;;Mykolaiv;Kamyana Balka
+110;31.3131,47.4132;56575;Mykolaiv;Kamyana Balka
 0;24.7095,48.7577;78411;Nadvirnianskyi;Kaminne
 2956;25.8503,48.2329;59040;Storozhynetskyi;Kamyana
 0;32.3000,48.6833;27442;Znamianskyi;Kamenna
@@ -16611,10 +16611,10 @@
 0;33.8846,47.7378;20947;Chyhyrynskyi;Kamianka
 238;31.8353,47.6453;;Mykolaiv;Kamyanka
 0;33.1559,47.5361;74010;Vysokopilskyi;Kamianka
-85;31.7893,47.5268;;Mykolaiv;Kamyanka
+85;31.7893,47.5268;56620;Mykolaiv;Kamyanka
 0;37.6970,47.4203;87180;Volnovaskyi;Kamianka
 29;31.4348,46.8011;;Mykolaiv;Lymanske
-1436;31.6729,46.8165;;Mykolaiv;Kamyanka
+1436;31.6729,46.8165;57520;Mykolaiv;Kamyanka
 0;33.4586,46.7081;74832;Kakhovskyi;Kamianka
 1390;30.2412,46.6353;;Odesa;Kamyanka
 3478;28.8819,45.5639;;Odesa;Kam'yanka
@@ -16693,7 +16693,7 @@
 0;32.3663,48.3900;27615;Kirovohradskyi;Kalynivka
 0;38.2940,48.3534;84550;Bahmutskiy;Kalynivka
 0;37.3833,48.3000;85344;Pokrovskiy;Kalinovka
-424;31.5732,47.9959;;Mykolaiv;Kamyano-Kostuvate
+424;31.5732,47.9959;55442;Mykolaiv;Kamyano-Kostuvate
 0;36.4569,47.8599;53643;Pokrovskyi;Kalynivske
 96;30.7857,47.7797;19624;Cherkaskyi;Dovzhenky
 101;32.7428,47.9407;28614;Ustynivskyi;Novovasylivka
@@ -16720,7 +16720,7 @@
 577;37.4650,47.4577;85786;Volnovaskyi;Kalynove
 1640;33.7768,45.7426;28201;Novhorodkivskyi;Kalinino
 1120;34.2203,45.5952;;Crimea;Kalinino
-99;38.1058,47.3205;;Donetsk;Bilokrynychne
+99;38.1058,47.3205;87100;Donetsk;Bilokrynychne
 0;29.1105,48.6409;31220;Volochyskyi;Bohdanivka
 662;25.5823,48.3411;59213;Vyzhnytskyi;Kalnivtsi
 0;33.5444,52.0630;41112;Shostkynskyi;Kaliivka
@@ -16801,7 +16801,7 @@
 69932;28.8375,45.3506;68600;Izmailskyi;Izmayil
 0;33.7707,47.9293;;Dnipropetrovsk;Izluchyste
 1250;23.3648,48.6499;77208;Bolekhiv;Izky
-6;31.5539,46.7511;;Mykolaiv;Yizhytske
+6;31.5539,46.7511;57530;Mykolaiv;Yizhytske
 5987;25.6463,48.0253;59033;Storozhynetskyi;Yizhivtsi
 0;36.7417,50.2033;62526;Vovchanskyi;Izbytske
 0;28.5599,48.6381;;Monastyryshchenskyi;Zabiliany
@@ -16914,7 +16914,7 @@
 0;33.3500,47.8333;52149;Piatykhatskyi;Ivanovka
 68;32.0178,47.8065;;Mykolaiv;Ivanivka
 0;34.0099,47.8183;20947;Chyhyrynskyi;Novoivanivka
-520;31.6659,47.7959;;Mykolaiv;Ivanivka
+520;31.6659,47.7959;55472;Mykolaiv;Ivanivka
 400;30.6932,47.7421;;Mykolaiv;Ivanivka
 426;30.7357,47.7215;;Mykolaiv;Zakharivka
 0;37.3218,47.5785;85763;Volnovaskyi;Ivanivka
@@ -16930,7 +16930,7 @@
 795;32.8531,47.0418;57313;Snihurivskyi;Ivano-Kepyne
 0;36.6248,47.0051;71177;Berdianskyi;Ivanivka
 0;31.1594,47.0275;;Odesa;Ivanivka
-2424;30.4694,46.9746;;Odesa;Ivanivka
+2424;30.4694,46.9746;67204;Odesa;Ivanivka
 96;35.9206,46.8409;72470;Pryazovskyi;Ivanivka
 4410;34.5498,46.7127;75401;Ivanivskyi;Ivanivka
 27;31.5436,46.7415;57503;Ochakivskyi;Berezan
@@ -16947,7 +16947,7 @@
 2937;28.2156,49.8606;22321;Litynskyi;Ivanopil
 753;28.2028,49.4785;22320;Litynskyi;Ivanopil
 0;35.3987,48.7806;51291;Novomoskovskyi;Ivano-Mykhailivka
-567;31.6263,46.9012;;Mykolaiv;Ivanivka
+567;31.6263,46.9012;57145;Mykolaiv;Ivanivka
 0;35.3664,47.8495;70418;Zaporizkyi;Ivano-Hannivka
 238196;24.7125,48.9231;76000;Ivano-Frankivska;Ivano-Frankivsk
 111;30.8942,47.4898;57104;Mykolaivskyi;Ivano-Fedorivka
@@ -17097,7 +17097,7 @@
 734;39.3080,48.7887;93632;Stanychno-Luhanskyi;Lyubomyrivka
 0;38.7826,48.2801;;Luhansk;Artema
 0;33.7833,46.6000;74837;Kakhovskyi;Artemovka
-34;29.2718,47.5320;;Odesa;Omelianivka
+34;29.2718,47.5320;67937;Odesa;Omelianivka
 0;28.9328,48.3371;24642;Kryzhopilskyi;Illivka
 0;39.7292,48.5461;93657;Stanychno-Luhanskyi;Illivka
 0;27.6842,49.5573;31445;Starosyniavskyi;Iliatka
@@ -17294,7 +17294,7 @@
 13446;36.2558,47.6668;;Hlobynskyi;Hulyaypole
 418;30.9796,47.0693;66800;Shyriaivskyi;Hulyayivka
 0;28.1797,50.8808;11563;Korostenskyi;Hulianka
-733;29.3908,47.3999;;Odesa;Hulianka
+733;29.3908,47.3999;67950;Odesa;Hulianka
 524;30.5698,47.7422;;Mykolaiv;Prokovske
 0;27.7142,50.5170;11782;Novohrad-Volynskyi;Hulsk
 0;30.9755,49.6203;26613;Vilshanskyi;Huli
@@ -17311,7 +17311,7 @@
 0;34.5352,50.5095;42253;Lebedynskyi;Hudymivka
 0;33.6026,52.0580;41112;Shostkynskyi;Hudivshchyna
 0;34.1744,51.5363;41476;Hlukhivskyi;Hudove
-517;30.6715,46.9901;;Odesa;Hudevycheve
+517;30.6715,46.9901;67223;Odesa;Hudevycheve
 0;22.7833,49.5667;82042;Starosambirskyi;Guchok
 0;31.0538,51.6876;15064;Ripkynskyi;Huchyn
 550;32.8279,50.0950;37540;Lubenskyi;Hubske
@@ -17457,7 +17457,7 @@
 0;26.6155,48.4609;32370;Kamianets-Podilskyi;Hrynchuk
 0;23.7702,49.5991;81565;Horodotskyi;Hrimne
 1778;26.0139,49.3296;;Ternopil;Hrymailiv
-478;31.5392,47.5795;;Mykolaiv;Hryhorivske
+478;31.5392,47.5795;56550;Mykolaiv;Hryhorivske
 0;35.4543,47.7523;70508;Orikhivskyi;Hryhorivske
 0;31.7436,51.0360;16632;Nizhynskyi;Mylnyky
 0;37.6178,50.0531;62640;Velykoburlutskyi;Hryhorivka
@@ -17474,7 +17474,7 @@
 0;34.7574,48.0152;52117;Piatykhatskyi;Hryhorivka
 271;38.7797,47.8585;09533;Tarashchanskyi;Hryhorivka
 156;38.2664,47.8676;;Donetsk;Hryhorivka
-232;31.7586,47.5076;;Mykolaiv;Zarichne
+232;31.7586,47.5076;56620;Mykolaiv;Zarichne
 397;30.0938,47.4701;;Odesa;Hryhorivka
 0;37.8988,47.4072;87123;Volnovaskyi;Hryhorivka
 164;31.1891,47.3070;;Mykolaiv;Hryhorivka
@@ -17542,7 +17542,7 @@
 0;30.1788,49.9530;08665;Vasylkivskyi;Hrebinky
 10541;32.4297,50.1202;37400;Hrebinkivskyi;Hrebinka
 0;27.1391,49.7999;31121;Starokostiantynivskyi;Hrybenynka
-148;31.9453,47.4612;;Mykolaiv;Hrebenyky
+148;31.9453,47.4612;56625;Mykolaiv;Hrebenyky
 1004;29.8086,46.8896;25491;Kirovohradskyi;Hrebenyky
 0;30.9734,50.0201;09211;Kaharlytskyi;Hrebeni
 195;30.7194,47.7039;;Mykolaiv;Hrazhdanivka
@@ -18045,7 +18045,7 @@
 0;33.4846,52.1270;41110;Shostkynskyi;Hlazove
 1018;36.5797,45.3879;;Crimea;Glazovka
 0;26.3284,50.8216;35045;Kostopilskyi;Hlazhova
-2510;29.1950,45.8447;;Odesa;Hlavani
+2510;29.1950,45.8447;68434;Odesa;Hlavani
 190;39.3010,48.3917;20627;Shpolianskyi;Hlafirivka
 37;28.9790,51.3787;10423;Ovrutskyi;Hladkovytska Kamyanka
 1065;31.7415,49.7683;19750;Zolotoniskyi;Hladkivshchyna
@@ -18081,7 +18081,7 @@
 0;23.7500,50.1500;80548;Buskyi;Gerusy
 191;22.6410,48.5823;;Zakarpattia;Rostoviatytsia
 2118;26.2619,48.1475;60501;Hertsaivskyi;Hertsa
-620;31.8927,46.5149;;Kherson;Heroyske
+620;31.8927,46.5149;75620;Kherson;Heroyske
 882;33.4814,45.8040;;Crimea;Kropotkino
 0;24.3333,49.8000;81281;Peremyshlianskyi;Germanuv
 0;28.8333,49.5000;22165;Koziatynskyi;Germanovka
@@ -18106,7 +18106,7 @@
 0;37.4394,47.9643;85622;Marinskyi;Heorhiivka
 0;34.2425,47.2957;74415;Verkhnorohachytskyi;Heorhiivka
 446;35.6056,46.6347;72444;Pryazovskyi;Heorhiivka
-81;29.2136,46.4423;;Odesa;Skryvanivka
+81;29.2136,46.4423;68514;Odesa;Skryvanivka
 0;23.5547,49.7516;81505;Horodotskyi;Genrykuvka
 0;28.0284,50.4921;12022;Pulynskyi;Andriivka
 0;37.5077,49.4127;63828;Borivskyi;Havrylivka
@@ -18120,7 +18120,7 @@
 0;26.3896,50.6041;35342;Rivnenskyi;Bila Krynytsia
 0;35.7322,47.9998;70041;Vilnianskyi;Helendzhyk
 0;26.6500,48.6833;60130;Kelmenetskyi;Gelenovka
-256;30.3623,47.8228;;Mykolaiv;Semenivka
+256;30.3623,47.8228;55108;Mykolaiv;Semenivka
 490;29.8391,47.3669;;Odesa;Hederymove Pershe
 1030;22.6569,48.1403;90201;Berehivskyi;Hecha
 0;22.9333,49.6500;82020;Starosambirskyi;Gdeshichi
@@ -18268,7 +18268,7 @@
 0;24.5437,50.4284;80037;Sokalskyi;Fusiv
 4230;30.0007,49.8004;23092;Barskyi;Fursy
 0;31.3655,48.3635;27100;Novoukrainskyi;Furmanivka
-1468;29.2349,45.6356;;Odesa;Furmanivka
+1468;29.2349,45.6356;68321;Odesa;Furmanivka
 958;33.7446,44.7589;;Crimea;Furmanovka
 0;26.7611,48.6539;32354;Kamianets-Podilskyi;Furmanivka
 356;25.6152,48.3237;59213;Vyzhnytskyi;Dibrova
@@ -18393,7 +18393,7 @@
 0;35.4954,47.5887;71694;Vasylivskyi;Fëdorovka
 57;29.6304,47.6011;08318;Boryspilskyi;Fedorivka
 266;32.9669,47.4326;74110;Velykooleksandrivskyi;Fedorivka
-44;29.3503,47.3937;;Odesa;Fedorivka
+44;29.3503,47.3937;67950;Odesa;Fedorivka
 40;37.7213,47.3590;87147;Volnovaskyi;Fedorivka
 0;34.1961,47.3237;74431;Verkhnorohachytskyi;Fëdorovka
 342;31.2937,47.2949;;Mykolaiv;Fedorivka
@@ -18429,7 +18429,7 @@
 0;38.6725,48.2171;;Luhansk;Fashchëvka
 700;25.2703,51.6692;44532;Kamin-Kashyrskyi;Farynky
 0;31.8457,50.1346;08730;Obukhivskyi;Farbovane
-1890;29.6204,46.3222;;Odesa;Faraonivka
+1890;29.6204,46.3222;68213;Odesa;Faraonivka
 545;32.3758,47.0633;56660;Novoodeskyi;Chervone
 2350;22.9445,48.1137;78605;Kosivskyi;Fanchykovo
 1507;39.3232,48.4794;26550;Holovanivskyi;Fabrychne
@@ -18488,7 +18488,7 @@
 0;26.8554,50.6783;34726;Koretskyi;Dyven
 0;26.0937,50.8318;35055;Kostopilskyi;Diuksyn
 0;23.3418,49.7267;81377;Mostyskyi;Dytiatychi
-695;31.8935,47.4878;;Mykolaiv;Dymivske
+695;31.8935,47.4878;56622;Mykolaiv;Dymivske
 1602;23.9461,49.5674;81613;Mykolaivskyi;Demnya
 0;34.4500,45.6760;;Crimea;Tarasovka
 1855;25.9678,48.0936;77720;Bohorodchanskyi;Dymka
@@ -18649,7 +18649,7 @@
 0;25.3167,50.9333;45109;Rozhyshchenskyi;Dubyshche
 0;28.1419,50.0761;13211;Chudnivskyi;Dubyshche
 0;26.8673,49.6755;31054;Krasylivskyi;Dubyshche
-1033;31.5305,46.9221;;Mykolaiv;Kalynivka
+1033;31.5305,46.9221;57140;Mykolaiv;Kalynivka
 8;31.2798,46.6883;;Mykolaiv;Hlyboke
 0;33.4672,51.2047;41652;Konotopskyi;Dubynka
 0;26.4965,48.8026;32320;Kamianets-Podilskyi;Dubynka
@@ -18754,7 +18754,7 @@
 0;33.8620,52.0323;41213;Yampilskyi;Doroshivka
 0;33.8167,51.4333;41513;Putyvlskyi;Doroshëvka
 0;28.1142,48.3337;24524;Yampilskyi;Doroshivka
-2083;31.4632,47.4776;;Mykolaiv;Doroshivka
+2083;31.4632,47.4776;56570;Mykolaiv;Doroshivka
 0;33.4833,51.7500;41114;Shostkynskyi;Doroshenkovo
 0;37.1761,50.1107;62632;Velykoburlutskyi;Doroshenkove
 0;33.8397,52.0663;41213;Yampilskyi;Doroshenkove
@@ -18830,7 +18830,7 @@
 0;27.5863,48.8230;23412;Murovanokurylovetskyi;Dolyniany
 0;34.7453,48.3817;52055;Dniprovskyi;Dolynske
 0;34.9426,47.7872;70462;Zaporizkyi;Dolynske
-4036;29.9289,47.5291;;Odesa;Dolynske
+4036;29.9289,47.5291;66442;Odesa;Dolynske
 0;36.4539,46.9691;71186;Berdianskyi;Dolynske
 2705;28.3255,45.4688;68802;Reniiskyi;Dolyns’ke
 25362;32.7769,48.1172;28526;Dolynskyi;Dolynska
@@ -18961,7 +18961,7 @@
 0;22.8471,49.2880;82019;Starosambirskyi;Dnistryk
 0;22.8263,49.2198;82509;Turkivskyi;Dnistryk-Dubovyi
 1208;26.9268,48.5367;60141;Kelmenetskyi;Dnistrivka
-109;29.4653,47.3799;;Odesa;Dnistrovets
+109;29.4653,47.3799;67956;Odesa;Dnistrovets
 4172;33.2663,46.7485;74987;Nova Kakhovka;Dnipryany
 427;30.6849,51.3523;15545;Chernihivskyi;Dniprovske
 5554;34.4139,48.5904;51650;Verkhnodniprovskyi;Dniprovske
@@ -19005,9 +19005,9 @@
 0;34.1689,47.2624;74506;Velykolepetyskyi;Dmytrivka
 512;31.0300,46.7945;;Odesa;Dmytrivka
 0;33.8219,46.7126;74852;Kakhovskyi;Dmytrivka
-1193;31.7388,46.6319;;Mykolaiv;Dmytrivka
+1193;31.7388,46.6319;57545;Mykolaiv;Dmytrivka
 4071;29.4872,45.8397;68100;Tatarbunarskyi;Delzhyler
-3144;29.3722,45.6419;;Odesa;Dmytrivka
+3144;29.3722,45.6419;68330;Odesa;Dmytrivka
 947;35.0588,45.4841;;Crimea;Dmitrovka
 0;24.1833,49.7667;81150;Pustomytivskyi;Dmytrovychi
 0;23.3579,49.7623;81149;Pustomytivskyi;Dmitrovichi
@@ -19021,7 +19021,7 @@
 0;36.6812,48.5880;52735;Petropavlivskyi;Novodmytrivka
 3170;38.9366,47.9361;;Donetsk;Dmytrivka
 0;37.5183,47.5476;85771;Volnovaskyi;Dmytrivka
-607;31.4825,47.4285;;Mykolaiv;Dmytrivka
+607;31.4825,47.4285;56571;Mykolaiv;Dmytrivka
 521;31.3301,46.9546;;Mykolaiv;Dmytrivka
 0;36.5760,46.8424;71153;Berdianskyi;Dmytrivka
 468;35.8331,46.7632;72425;Pryazovskyi;Dmytrivka
@@ -19112,7 +19112,7 @@
 473;31.5025,52.1023;15110;Horodnianskyi;Derevyny
 0;23.9963,49.6682;81194;Pustomytivskyi;Derevach
 0;27.5169,48.7738;23412;Murovanokurylovetskyi;Dereshëva
-1091;22.4372,48.2885;;Zakarpattia;Shom
+1091;22.4372,48.2885;90220;Zakarpattia;Shom
 1864;26.0178,48.1846;60415;Hlybotskyi;Valya Kuzmyna
 0;24.6333,50.6000;45552;Lokachynskyi;Derechin
 0;28.2993,48.7289;23537;Sharhorodskyi;Mala Derebchynka
@@ -19177,7 +19177,7 @@
 3400;24.1713,47.9356;44738;Volodymyr-Volynskyi;Dilove
 0;24.8642,49.1027;77182;Halytskyi;Deliieve
 0;25.2224,48.9120;78023;Tlumatskyi;Deleva
-2056;29.1966,45.9153;;Odesa;Delen
+2056;29.1966,45.9153;68431;Odesa;Delen
 0;23.6292,49.3576;81434;Sambirskyi;Daliava
 0;38.1292,48.6778;84545;Bahmutskiy;Dekonskaya
 0;35.1152,49.0135;51140;Mahdalynivskyi;Dekonka
@@ -19251,7 +19251,7 @@
 0;39.6236,49.1174;92833;Bilovodskyi;Danylivka
 0;36.8837,48.9420;64737;Barvinkivskyi;Danylivka
 0;36.2440,47.8774;53633;Pokrovskyi;Danylivka
-260;30.6189,47.1682;;Odesa;Danylivka
+260;30.6189,47.1682;67322;Odesa;Danylivka
 410;31.5209,46.9955;;Mykolaiv;Danylivka
 48;30.1288,46.9931;;Odesa;Danylivka
 454;34.2604,44.5219;;Crimea;Danilovka
@@ -19331,7 +19331,7 @@
 1770;28.9548,50.8297;11620;Malynskyi;Chopovychi
 8626;22.2045,48.4316;89502;Chop;Chop
 341;34.5003,46.0175;75573;Henicheskyi;Ataman
-2265;22.4608,48.4019;;Zakarpattia;Chomonyn
+2265;22.4608,48.4019;89652;Zakarpattia;Chomonyn
 0;26.3761,49.9137;30241;Bilohirskyi;Chovhuziv
 0;23.4564,49.9016;81061;Yavorivskyi;Cholgini
 1034;34.0945,45.1400;;Crimea;Krasne
@@ -19371,7 +19371,7 @@
 6762;22.8337,48.4867;89600;Mukachivskyi;Chynadiyovo
 0;38.5328,48.7906;93280;Popasnianskyi;Chikhirovo
 217;33.5971,48.9841;39765;Kremenchutskyi;Chykalivka
-224;30.7379,47.1296;;Odesa;Chyhyryn
+224;30.7379,47.1296;67322;Odesa;Chyhyryn
 8664;32.6608,49.0804;20901;Chyhyrynskyi;Chyhyryn
 215;37.6221,47.5616;85776;Volnovaskyi;Novoapostolivka
 0;29.9003,48.6222;23851;Teplytskyi;Chevonyi Kut
@@ -19437,14 +19437,14 @@
 0;38.1524,49.1294;92924;Kreminskyi;Chervonopopivka
 15218;39.7871,48.0780;;Luhansk;Voznesenivka
 858;34.2872,48.3824;52330;Krynychanskyi;Chervonoivanivka
-1328;38.7525,48.5910;;Luhansk;Krynychanske
+1328;38.7525,48.5910;93892;Luhansk;Krynychanske
 6270;34.5378,47.6191;53400;Marhanets;Chervonohryhorivka
 0;28.5792,50.5687;12135;Horoshivskiy;Chervonohranitne
 64297;24.2394,50.3940;80100;Chervonohrad;Sheptytskyi
 5141;28.2700,50.4674;12070;Pulynskyi;Pulyny
 0;37.1383,50.0765;62621;Velykoburlutskyi;Kyrylivka
 387;35.5293,47.4738;71688;Vasylivskyi;Dolynka
-6544;28.7446,45.7913;;Odesa;Kubey
+6544;28.7446,45.7913;68720;Odesa;Kubey
 10427;25.2518,50.1304;35500;Radyvylivskyi;Radyvyliv
 288;32.9836,47.3118;55631;Novobuzkyi;Tervonyi Yar
 0;27.6509,50.4117;12769;Baranivskyi;Smolka
@@ -19484,7 +19484,7 @@
 0;29.3014,48.1337;24821;Chechelnytskyi;Popova Hreblia
 0;27.8907,48.8609;32121;Yarmolynetskyi;Hrabivtsi
 0;33.8333,51.3833;41508;Putyvlskyi;Chervetsov
-1951;22.5300,48.4695;;Zakarpattia;Chervenovo
+1951;22.5300,48.4695;89651;Zakarpattia;Chervenovo
 0;34.1496,51.0436;41860;Bilopilskyi;Chervanivka
 0;25.2736,48.7106;78123;Horodenkivskyi;Chortovets
 0;29.5789,48.9548;22753;Illinetskyi;Chortoryia
@@ -19603,7 +19603,7 @@
 0;26.8241,49.6772;31052;Krasylivskyi;Chernelivka
 0;28.8000,49.1333;32206;Derazhnianskyi;Chernegi
 421;34.5917,49.8354;38523;Dykanskyi;Chernechyi Yar
-1002;29.5929,48.0654;;Odesa;Cherneche
+1002;29.5929,48.0654;66125;Odesa;Cherneche
 0;33.6101,51.0767;41740;Burynskyi;Chernecha Sloboda
 2746;24.3338,48.3067;78606;Kosivskyi;Chorna Tysa
 0;24.8656,48.0990;78745;Verkhovynskyi;Chorna Richka
@@ -19624,7 +19624,7 @@
 2236;26.4026,48.2928;60051;Khotynskyi;Cherlenivka
 0;23.2254,49.4146;81416;Sambirskyi;Cherkhava
 0;25.1455,48.2967;78607;Kosivskyi;Cherhanivka
-302;30.2120,46.0774;;Odesa;Cherkesy
+302;30.2120,46.0774;67790;Odesa;Cherkesy
 0;23.9029,49.5823;81176;Pustomytivskyi;Cherkasy
 269836;32.0574,49.4445;18000;Cherkaska;Cherkasy
 3851;37.3891,48.8340;84162;Slovianskyi;Cherkaske
@@ -19690,7 +19690,7 @@
 0;32.5832,51.8481;15373;Koriukivskyi;Chenchyky
 0;36.3248,49.7063;63430;Zmiivskyi;Chemuzhivka
 0;30.1381,48.1529;27001;Dobrovelychkivskyi;Chemerpil
-5200;26.3400,49.0091;;Khmelnytskyi;Chemerivtsi
+5200;26.3400,49.0091;31600;Khmelnytskyi;Chemerivtsi
 0;24.7756,49.6607;80777;Zolochivskyi;Chemeryntsi
 0;31.2151,51.1028;17036;Kozeletskyi;Chemer
 1103;39.1979,48.4319;20627;Shpolianskyi;Tytarenkove
@@ -19748,7 +19748,7 @@
 0;35.4057,49.4337;30600;Teofipolskyi;Vyshneve
 2800;35.8694,49.3669;64023;Kehychivskyi;Slobozhanske
 253;29.7705,47.6796;66401;Ananivskyi;Stavky
-331;30.2580,47.1130;;Odesa;Vorobiivka
+331;30.2580,47.1130;67133;Odesa;Vorobiivka
 45;33.6252,45.5123;;Crimea;Chapayevo
 3331;32.0977,49.5560;19771;Zolotoniskyi;Blahodatne
 3042;30.4414,49.3804;09430;Stavyshchenskyi;Kalynove
@@ -19840,7 +19840,7 @@
 1642;26.9322,48.4986;60141;Kelmenetskyi;Buzovytsya
 0;30.0440,50.4170;08127;Kyievo-Sviatoshynskyi;Buzova
 146;34.7830,49.5022;;Krasnokutskyi;Buzova Paskivka
-1077;30.4857,46.9876;;Odesa;Buzinove
+1077;30.4857,46.9876;67204;Odesa;Buzinove
 0;35.5500,48.0667;70028;Vilnianskyi;Buzinovataya
 0;24.4460,50.7227;45335;Ivanychivskyi;Buzhkovychi
 105;33.1057,51.6641;16237;Koropskyi;Buzhanka
@@ -20051,7 +20051,7 @@
 999;30.2903,46.8151;67410;Rozdilnianskyi;Novoukrainka
 102;34.8866,45.6028;;Crimea;Lugovoye
 1325;25.6491,48.0832;59031;Storozhynetskyi;Budenets
-1200;29.2772,48.0549;;Odesa;Budey
+1200;29.2772,48.0549;66023;Odesa;Budey
 70;29.4117,47.4250;67900;Оknianskyi;Budaivtsi
 0;33.0526,52.2483;16006;Novhorod-Siverskyi;Budo Vorobivska
 0;29.4673,50.8548;11631;Malynskyi;Budo-Vorobi
@@ -20493,7 +20493,7 @@
 0;36.0242,48.4662;51486;Pavlohradskyi;Bohuslav
 0;25.0318,51.0140;45092;Kovelskyi;Bohushivska Marianivka
 0;26.7435,51.1088;34621;Bereznivskyi;Bohushi
-788;30.4607,47.0275;;Odesa;Bohunove
+788;30.4607,47.0275;67220;Odesa;Bohunove
 0;24.2645,48.7192;77741;Bohorodchanskyi;Bohrivka
 0;33.3000,48.7167;28076;Oleksandriiskyi;Bogoyavlenskoye
 0;26.2667,49.2500;32033;Horodotskyi;Bogoslovka
@@ -20524,7 +20524,7 @@
 0;25.2977,49.6785;09128;Bilotserkivskyi;Bohdanivka
 0;27.2477,49.3312;32600;Novoushytskyi;Bohdanivtsi
 0;34.1167,47.6833;20831;Kamianskyi;Bogdanovskiy
-245;31.5003,47.4151;;Mykolaiv;Bakay
+245;31.5003,47.4151;56571;Mykolaiv;Bakay
 33;29.8339,47.2645;;Odesa;Bohdanove Pershe
 0;36.8215,48.8062;64761;Barvinkivskyi;Bohdanove
 0;34.5576,47.0088;74707;Nyzhnosirohozkyi;Bohdanivka
@@ -20676,7 +20676,7 @@
 26;31.3163,46.9653;;Mykolaiv;Chervonyy Podil
 222;30.8330,46.7512;;Odesa;Blahodatne
 0;34.4179,46.6245;75440;Ivanivskyi;Blahodatne
-346;29.6453,46.2572;;Odesa;Blahodatne
+346;29.6453,46.2572;68221;Odesa;Blahodatne
 148;30.1767,45.9882;;Odesa;Blahodatne
 0;36.6416,49.6304;62409;Kharkivskyi;Blahodatne
 0;34.2078,48.1284;52494;Solonianskyi;Blahodatne
@@ -20734,11 +20734,11 @@
 0;24.9000,49.6333;80760;Zolochivskyi;Bibshchany
 212;37.0309,48.6870;84040;Oleksandrivskyi;Bezzabotivka
 0;28.5515,49.6988;22114;Koziatynskyi;Bezimenne
-359;30.0170,45.8997;;Odesa;Bezimianka
+359;30.0170,45.8997;68161;Odesa;Bezimianka
 0;28.1609,49.9654;13244;Chudnivskyi;Beizymivka
 2638;37.9397,47.1072;;Donetsk;Bezimenne
 0;33.2837,47.1731;74145;Velykooleksandrivskyi;Bezvodne
-248;31.7429,46.8849;;Mykolaiv;Bezvodne
+248;31.7429,46.8849;57171;Mykolaiv;Bezvodne
 38;31.4320,47.3653;;Mykolaiv;Buzovarové
 0;29.9595,49.8220;09721;Bohuslavskyi;Bezuglyaki
 0;31.9099,51.9939;15215;Snovkyi;Bezuhlivka
@@ -21014,7 +21014,7 @@
 1650;32.3766,49.9413;19845;Drabivskyi;Bilousivka
 3057;27.3393,48.5356;60307;Novoselytskyi;Bilousivka
 89;30.0242,47.9813;;Odesa;Bilousivka
-1274;31.5329,47.4216;;Mykolaiv;Bilousivka
+1274;31.5329,47.4216;56576;Mykolaiv;Bilousivka
 0;35.2427,49.8575;63131;Kolomatskyi;Belousov
 413;32.7348,50.3343;37020;Pyriatynskyi;Bilotserkivtsi
 699;33.7870,49.6745;38340;Velykobahachanskyi;Bilotserkivka
@@ -21178,7 +21178,7 @@
 0;33.3015,50.7568;42056;Romenskyi;Batsmany
 0;28.8401,48.2596;24720;Pishchanskyi;Myroliubivka
 0;34.8167,48.6667;52010;Dniprovskyi;Batrak
-1846;22.4144,48.3236;;Zakarpattia;Batrad
+1846;22.4144,48.3236;90213;Zakarpattia;Batrad
 0;25.2317,49.8382;80666;Brodivskyi;Batkiv
 742;34.5690,50.0270;38160;Zinkivskyi;Batky
 924;22.9746,48.0260;;Zakarpattia;Botar
@@ -21238,7 +21238,7 @@
 0;25.2737,50.1817;35508;Radyvylivskyi;Baran’ye
 0;23.1333,49.6167;81422;Sambirskyi;Baranovtsy
 0;35.6230,49.8960;63016;Valkivskyi;Baranovo
-563;30.4079,46.9381;;Odesa;Baranove
+563;30.4079,46.9381;67230;Odesa;Baranove
 0;32.3002,52.0647;15457;Semenivskyi;Baranivka
 0;34.1846,51.9219;41410;Hlukhivskyi;Baranivka
 0;34.8502,50.9428;40010;Sumy;Baranivka
@@ -21293,7 +21293,7 @@
 0;24.0941,49.1688;81795;Zhydachivskyi;Zarichne
 0;24.0500,49.1667;82452;Stryiskyi;Baliche Podruzhne
 0;34.4167,49.3833;39301;Novosanzharskyi;Bali
-436;30.7086,47.0920;;Odesa;Balaichuk
+436;30.7086,47.0920;67334;Odesa;Balaichuk
 119;29.7502,47.3770;;Odesa;Balashove
 0;34.4051,46.6727;75424;Ivanivskyi;Balashove
 0;26.9541,50.9971;34640;Bereznivskyi;Balashivka
@@ -21302,7 +21302,7 @@
 83;31.6094,46.8662;;Mykolaiv;Balanove
 0;32.9869,46.6541;75115;Oleshkivskyi;Balanovo
 0;29.3915,48.4023;24400;Bershadskyi;Balanivka
-219;30.6046,46.9733;;Odesa;Balanyny
+219;30.6046,46.9733;67204;Odesa;Balanyny
 0;31.9592,48.9436;20833;Kamianskyi;Balandyne
 0;29.2320,49.7152;22231;Pohrebyshchenskyi;Zarichchia
 0;27.0480,49.3134;31363;Khmelnytskyi;Balamutovka
@@ -21316,7 +21316,7 @@
 5850;35.2136,47.7369;70435;Zaporizkyi;Balabyne
 0;29.6132,49.1161;22653;Orativskyi;Balabanivka
 0;27.3866,48.7733;23412;Murovanokurylovetskyi;Balabanovka
-159;29.8543,45.7674;;Odesa;Balabanka
+159;29.8543,45.7674;68132;Odesa;Balabanka
 474;33.7391,50.1039;07558;Baryshivskyi;Bakumivka
 224;33.3317,49.6188;38203;Semenivskyi;Bakumivka
 0;37.2168,50.2039;62593;Vovchanskyi;Baksheivka
@@ -21474,7 +21474,7 @@
 0;37.9071,49.4428;92607;Svativskyi;Miasozharivka
 912;37.3792,48.4920;84056;Oleksandrivskyi;Sofiyivka
 632;38.6378,47.8720;84589;Bahmutskiy;Artemivka
-642;31.9372,47.5098;;Mykolaiv;Ozerne
+642;31.9372,47.5098;56624;Mykolaiv;Ozerne
 216;32.8239,45.4686;;Crimea;Artemovka
 0;34.7115,50.4949;42250;Lebedynskyi;Artemo-Rastivka
 0;37.6073,48.4926;84554;Bahmutskiy;Dovha Balka
@@ -21605,7 +21605,7 @@
 1655;33.4637,48.2424;27165;Novoukrainskyi;Hannivka
 0;31.8956,48.1972;26031;Novomyrhorodskyi;Hannivka
 0;33.1018,48.1546;28540;Dolynskyi;Hannivka
-479;31.6336,48.0723;;Mykolaiv;Hannivka
+479;31.6336,48.0723;55430;Mykolaiv;Hannivka
 0;32.4043,48.0059;28600;Ustynivskyi;Hanno-Leontovycheve
 0;36.0500,47.9167;70140;Novomykolaivskyi;Annovka
 0;37.2608,47.9079;85614;Marinskyi;Hannivka
@@ -21617,7 +21617,7 @@
 700;36.0383,46.8434;72415;Pryazovskyi;Hannivka
 190;34.9290,46.7199;72521;Yakymivskyi;Hannivka
 254;29.0554,46.4346;68510;Tarutynskyi;Hannivka
-653;29.3418,46.4109;;Odesa;Hannivka
+653;29.3418,46.4109;68511;Odesa;Hannivka
 598;34.2217,45.5488;;Crimea;Irade
 294;34.3028,45.2587;;Crimea;Annivka
 0;32.4203,47.8723;27246;Bobrynetskyi;Hanno-Trebynivka
@@ -21894,7 +21894,7 @@
 3660;30.8644,46.6115;20830;Kamianskyi;Oleksandrivka
 0;34.4833,46.5833;75443;Ivanivskyi;Aleksandrovka
 1049;35.4868,46.5367;72445;Pryazovskyi;Oleksandrivka
-1834;29.4546,46.4425;;Odesa;Oleksandrivka
+1834;29.4546,46.4425;68532;Odesa;Oleksandrivka
 0;34.4107,46.3619;75050;Bilozerskyi;Oleksandrivka
 7600;30.6356,46.3287;;Odesa;Oleksandrivka
 1075;33.4798,46.1171;75840;Kalanchatskyi;Oleksandrivka
@@ -23855,7 +23855,7 @@
 0;33.8133,52.3447;32230;Derazhnianskyi;Gutka
 0;38.2386,48.7897;84541;Bahmutskiy;Pesotskoye
 0;38.2875,48.2695;64018;Kehychivskyi;Krasnyy Oktyabr’
-157;31.7082,46.8088;;Mykolaiv;Shevtchenko
+157;31.7082,46.8088;57520;Mykolaiv;Shevtchenko
 41;31.4574,46.7455;;Mykolaiv;Elevatorne
 10;31.5270,46.7683;;Mykolaiv;Elevatorne
 1268;31.9750,46.6917;75640;Holoprystanskyi;Lupareve
@@ -23877,8 +23877,8 @@
 0;34.6732,48.3996;52051;Dniprovskyi;Novotaromske
 336;35.5401,47.3492;71730;Tokmatskyi;Tavriia
 834;22.1752,48.5265;89502;Chop;Palad-Komarivtsi
-1905;22.5000,48.4750;;Zakarpattia;Klyachanovo
-2001;22.4934,48.3648;;Zakarpattia;Barkasovo
+1905;22.5000,48.4750;89651;Zakarpattia;Klyachanovo
+2001;22.4934,48.3648;89654;Zakarpattia;Barkasovo
 2007;23.5036,48.1016;;Zakarpattia;Novobarovo
 2235;23.8254,48.0407;;Zakarpattia;Topchyno
 2994;23.5467,48.1906;77449;Tysmenytskyi;Chumalovo
@@ -23918,8 +23918,8 @@
 675;39.7477,47.8578;;Luhansk;Dovzhanskyi
 1012;29.4978,47.6790;08318;Boryspilskyi;Kosy
 232;29.7347,47.6844;08318;Boryspilskyi;Vyshneve
-480;29.3034,47.4729;;Odesa;Orlivske
-6;29.3271,47.4582;;Odesa;Orlivka
+480;29.3034,47.4729;67934;Odesa;Orlivske
+6;29.3271,47.4582;67938;Odesa;Orlivka
 53;29.4362,47.4665;67900;Оknianskyi;Untylivka
 0;29.6283,47.4419;;Odesa;Yekaterinovka
 1035;29.7983,47.4353;;Odesa;Perekhrestove
@@ -23936,7 +23936,7 @@
 5290;29.4559,47.5429;67900;Оknianskyi;Okny
 29;29.3164,47.7462;55150;Kryvoozerskyi;Yasynove
 38;29.2766,47.6275;;Odesa;Sahaydak
-420;29.1830,47.5408;;Odesa;Fedosiivka
+420;29.1830,47.5408;67920;Odesa;Fedosiivka
 90;29.3499,47.9054;78155;Horodenkivskyi;Pravda
 1724;29.4866,47.8682;23028;Barskyi;Borshchi
 916;29.5205,47.7986;23028;Barskyi;Malyi Fontan
@@ -23964,7 +23964,7 @@
 984;26.1320,48.0073;60435;Hlybotskyi;Nyzhni Synivtsi
 479;26.1138,48.0156;60435;Hlybotskyi;Verkhni Synivtsi
 832;26.0981,47.9935;60435;Hlybotskyi;Horbivtsi
-155;29.4071,46.4066;;Odesa;Novoselivka
+155;29.4071,46.4066;68531;Odesa;Novoselivka
 15;29.4163,46.3176;68540;Tarutynskyi;Semysotka
 464;29.6187,46.2013;68220;Saratskyi;Pasichne
 585;29.3402,46.1902;68540;Tarutynskyi;Peremoha
@@ -25113,7 +25113,7 @@
 280;22.5507,48.5238;;Zakarpattia;Andriivka
 509;22.4701,48.5219;80388;Zhovkivskyi;Vovkove
 442;22.5460,48.4894;;Zakarpattia;Chabanivka
-493;22.5419,48.4580;;Zakarpattia;Domboky
+493;22.5419,48.4580;89612;Zakarpattia;Domboky
 1224;22.5708,48.4663;89600;Mukachivskyi;Kaidanovo
 552;22.4374,48.4625;;Zakarpattia;Drahynia
 415;22.3141,48.3975;89502;Chop;Petrivka
@@ -25200,9 +25200,9 @@
 546;22.3569,48.3532;;Zakarpattia;Badiv
 493;22.3593,48.3391;;Zakarpattia;Danylivka
 797;22.3623,48.3112;;Zakarpattia;Horonhlab
-974;22.4876,48.3250;;Zakarpattia;Rafainovo
-262;22.4540,48.3008;;Zakarpattia;Kashtanovo
-761;22.3819,48.2750;;Zakarpattia;Heten
+974;22.4876,48.3250;90225;Zakarpattia;Rafainovo
+262;22.4540,48.3008;90219;Zakarpattia;Kashtanovo
+761;22.3819,48.2750;90222;Zakarpattia;Heten
 677;22.5942,48.1676;90201;Berehivskyi;Astei
 560;22.8325,48.3474;77006;Rohatynskyi;Romochevytsia
 386;22.8251,48.3911;77006;Rohatynskyi;Sofiia
@@ -25325,8 +25325,8 @@
 1493;23.2105,48.3204;;Zakarpattia;Lukovo
 534;23.3405,48.0579;90400;Khustskyi;Shaian
 374;23.3431,48.0754;90400;Khustskyi;Modorosh
-1147;23.3771,48.0427;;Zakarpattia;Rakosh
-1451;23.5105,48.0118;;Zakarpattia;Yablunivka
+1147;23.3771,48.0427;90454;Zakarpattia;Rakosh
+1451;23.5105,48.0118;90458;Zakarpattia;Yablunivka
 1555;23.5868,48.0393;;Zakarpattia;Tiachivka
 3524;23.7122,48.0266;;Zakarpattia;Kryva
 301;23.6742,48.0153;;Zakarpattia;Hlynianyi
@@ -27260,7 +27260,7 @@
 0;31.9728,50.2766;07720;Yahotynskyi;Sulymivka
 0;35.8853,49.9708;62438;Kharkivskyi;Nesterenky
 749;31.6424,51.9053;15108;Horodnianskyi;Vokzal-Horodnia
-210;22.3893,48.2616;;Zakarpattia;Male Popovo
+210;22.3893,48.2616;90226;Zakarpattia;Male Popovo
 0;24.8387,48.2034;77353;Kaluskyi;Berezhnytsia
 0;26.7828,50.9277;34635;Bereznivskyi;Novyi Movkyn
 0;28.3841,51.0357;11344;Luhynskyi;Stantsiine
@@ -28811,7 +28811,7 @@
 0;36.5877,47.4923;70673;Polohivskyi;Ternove
 0;38.9472,48.8777;93544;Novoaidarskyi;Dubove
 0;38.9727,48.6261;93710;Novoaidarskyi;Stepove
-198;38.8404,48.5509;;Luhansk;Kryvorizhzhya
+198;38.8404,48.5509;93746;Luhansk;Kryvorizhzhya
 739;38.8581,48.5073;;Luhansk;Karpaty
 0;38.9069,48.4426;;Luhansk;Malokostiantynivka
 142;38.9918,48.4070;92212;Bilokurakynskyi;Velyka Martynivka
@@ -29285,7 +29285,7 @@
 144;37.4597,47.9161;85100;Kostiantynivskyi;Peremoha
 0;37.0332,47.8780;85560;Velykonovosilkivskyi;Yasna Poliana
 0;36.2948,46.6875;72105;Prymorskyi;Podsporie
-7;29.3331,47.4539;;Odesa;Rozivka
+7;29.3331,47.4539;67939;Odesa;Rozivka
 557;37.4030,47.9917;85622;Marinskyi;Hostre
 0;36.7980,47.8001;85286;Toretsk;Storozheve
 0;35.2784,48.8785;63826;Borivskyi;Kilchen
@@ -29368,7 +29368,7 @@
 13085;30.6774,46.3856;65000;Odeska;Lymanka
 2897;30.6155,46.3121;;Odesa;Molodizhne
 587;29.5036,45.6106;;Odesa;Novomykolaivka
-1548;29.4607,45.5800;;Odesa;Myrne
+1548;29.4607,45.5800;68340;Odesa;Myrne
 0;33.5382,46.7783;74800;Kakhovskyi;Zavetnaya
 123;29.1889,45.7885;;Odesa;Novokholmske
 0;33.8954,46.7652;74619;Hornostaivskyi;Zirka
@@ -29404,7 +29404,7 @@
 77;29.6529,46.1166;68220;Saratskyi;Nova Plakhtiivka
 80;29.6168,45.8920;68100;Tatarbunarskyi;Nova Oleksiivka
 873;29.6466,45.9339;27638;Kirovohradskyi;Dolynka
-278;29.8758,45.9012;;Odesa;Nove
+278;29.8758,45.9012;68152;Odesa;Nove
 0;34.1427,46.7883;74713;Nyzhnosirohozkyi;Bratske
 0;34.1735,46.7609;74708;Nyzhnosirohozkyi;Zapovitne
 0;34.0278,46.6972;74817;Kakhovskyi;Ostapenka
@@ -29533,18 +29533,18 @@
 0;33.3149,48.0085;50482;Kryvyi Rih;Avanhard
 7;30.5004,47.3574;26101;Novoarkhanhelskyi;Uspenka
 39;30.6969,47.3523;;Odesa;Shevchenka
-213;30.7346,47.3447;;Odesa;Veselynivka
+213;30.7346,47.3447;67314;Odesa;Veselynivka
 48;30.6082,47.3321;26101;Novoarkhanhelskyi;Martynivka
 253;30.6596,47.2981;;Odesa;Syrotynka
-165;30.7198,47.2003;;Odesa;Vyshneve
+165;30.7198,47.2003;67324;Odesa;Vyshneve
 66;30.5375,47.2009;;Odesa;Shutove
 677;30.5284,47.1573;;Odesa;Markevycheve
-483;30.6438,47.0528;;Odesa;Kalynivka
-1050;30.6162,47.1226;;Odesa;Rozkvit
+483;30.6438,47.0528;67221;Odesa;Kalynivka
+1050;30.6162,47.1226;67324;Odesa;Rozkvit
 129;30.6054,47.0902;;Odesa;Sokolove
 115;30.5308,46.8886;67232;Ivanivskyi;Nyzhniy Kuyalnyk
 756;30.6011,46.8376;67232;Ivanivskyi;Ruska Slobidka
-145;30.7616,46.9210;;Odesa;Ulianivka
+145;30.7616,46.9210;67241;Odesa;Ulianivka
 2;30.8621,46.8666;26424;Blagovitshenskyy;Kasiany
 175;30.8135,46.8776;;Odesa;Stavky
 0;33.3873,48.0090;50480;Kryvyi Rih;Veselyi Kut
@@ -31469,7 +31469,7 @@
 0;30.1274,49.1069;19235;Zhashkivskyi;Zelenyi Rih
 307;28.7174,49.5648;22442;Kalynivskyi;Holendry
 0;29.2202,50.3996;12255;Radomyshlskyi;Stavky
-275;30.2467,47.1231;;Odesa;Vorobiove
+275;30.2467,47.1231;67133;Odesa;Vorobiove
 0;30.5106,48.9352;20416;Talnivskyi;Romanivka
 413;30.0720,48.5501;20374;Umanskyi;Posukhivka
 1947;28.6995,49.3749;22512;Lypovetskyi;Nova Pryluka
@@ -31610,10 +31610,10 @@
 0;31.8794,50.0719;19822;Drabivskyi;Kapustyntsi
 78;30.6916,46.8451;67232;Ivanivskyi;Bukachi
 355;30.0498,46.9856;;Odesa;Zamozhne
-375;30.0586,47.0403;;Odesa;Polishpakove
+375;30.0586,47.0403;67153;Odesa;Polishpakove
 83;30.0320,47.0724;67100;Velykomykhailivskyi;Zaliznychne
-395;30.0653,47.0001;;Odesa;Hurivske
-232;30.0724,47.0534;;Odesa;Kozakove
+395;30.0653,47.0001;67154;Odesa;Hurivske
+232;30.0724,47.0534;67153;Odesa;Kozakove
 600;30.0895,46.8911;67400;Rozdilnianskyi;Starosillia
 1052;30.0658,46.8670;67400;Rozdilnianskyi;Novi Chobruchi
 0;29.0227,48.1462;24522;Yampilskyi;Kozatske
@@ -31900,7 +31900,7 @@
 209;32.5864,46.8743;75032;Bilozerskyi;Huliaihorodok
 18530;28.2773,45.4542;68802;Reniiskyi;Reni
 30;30.2062,45.2564;;Odesa;Bile
-60;29.9187,45.8668;;Odesa;Charychanka
+60;29.9187,45.8668;68152;Odesa;Charychanka
 0;37.2899,49.8097;63634;Shevchenkivskyi;Rozdolne
 434;29.6091,48.0980;;Odesa;Volova
 407;29.9921,48.0729;09046;Skvyrskyi;Hetmanivka
@@ -31916,7 +31916,7 @@
 206;30.3342,47.7723;;Odesa;Serhiyivka
 155;30.0791,47.8077;07431;Brovarskyi;Shlykareve
 49;30.0539,47.8053;;Odesa;Chabanivka
-107;30.0072,47.5603;;Odesa;Novoivanivka
+107;30.0072,47.5603;66434;Odesa;Novoivanivka
 149;30.1731,47.5844;26412;Blagovitshenskyy;Amury
 14;30.4521,47.2019;;Odesa;Novoukrayinka
 35;30.2802,47.2851;;Odesa;Kostyantyniv
@@ -31935,14 +31935,14 @@
 124;30.9170,47.1188;66800;Shyriaivskyi;Donske
 93;30.9452,47.1278;66800;Shyriaivskyi;Kosivka
 254;30.8535,47.1358;66800;Shyriaivskyi;Novopodilske
-248;30.2052,47.0452;;Odesa;Malozymenove
-147;30.2751,47.0791;;Odesa;Martsiyanove
-156;30.1411,47.1098;;Odesa;Malotsebrykove
+248;30.2052,47.0452;67132;Odesa;Malozymenove
+147;30.2751,47.0791;67134;Odesa;Martsiyanove
+156;30.1411,47.1098;67131;Odesa;Malotsebrykove
 29;30.0004,47.1373;67100;Velykomykhailivskyi;Olenivka
 91;29.9356,47.1809;67100;Velykomykhailivskyi;Ivanivka
 170;30.3470,46.9712;;Odesa;Prychepivka
 48;30.4465,46.8822;;Odesa;Maslove
-42;30.3722,47.0500;;Odesa;Martsiyanove
+42;30.3722,47.0500;67210;Odesa;Martsiyanove
 20;30.0389,46.8582;67400;Rozdilnianskyi;Dryzhba
 14;30.6549,46.3824;65000;Odeska;Balka
 20;25.0305,47.9021;59143;Putylskyi;Vypchyna
@@ -32001,7 +32001,7 @@
 328;30.6720,48.0976;55243;Pervomaiskyi;Pidhirya
 325;30.7085,48.0982;55243;Pervomaiskyi;Michurine
 610;30.7050,48.0584;55243;Pervomaiskyi;Chausove Druhe
-738;30.7136,48.0282;;Mykolaiv;Kamyana Balka
+738;30.7136,48.0282;55233;Mykolaiv;Kamyana Balka
 51;30.7730,47.8839;55264;Pervomaiskyi;Petrivka
 25;30.7023,47.9440;55264;Pervomaiskyi;Kolomiyivka
 1150;30.9349,48.0245;55223;Pervomaiskyi;Hrushivka
@@ -32028,7 +32028,7 @@
 109;31.5671,48.0477;;Mykolaiv;Voronyne
 193;31.5713,48.0579;;Mykolaiv;Mostove
 17;31.5758,48.0938;;Mykolaiv;Novofedorivka
-32;31.6273,48.0622;;Mykolaiv;Darnytsya
+32;31.6273,48.0622;55430;Mykolaiv;Darnytsya
 28;31.7440,48.0520;;Mykolaiv;Petrivka Persha
 8;31.7046,48.0471;;Mykolaiv;Petrivka Druha
 21;32.7877,47.9718;28535;Dolynskyi;Hranitne
@@ -32296,7 +32296,7 @@
 363;30.3440,48.1702;26421;Blagovitshenskyy;Kosharo-Oleksandrivka
 40;30.3915,48.1846;;Kirovohrad;Zmiyove
 235;30.3006,48.2218;26420;Blagovitshenskyy;Shevchenka
-400;30.3743,48.2090;;Kirovohrad;Delfinove
+400;30.3743,48.2090;26442;Kirovohrad;Delfinove
 6;30.4119,48.2144;;Kirovohrad;Matviyivka
 1150;30.2903,48.3056;26420;Blagovitshenskyy;Novoselytsya
 800;30.3950,48.3614;26500;Holovanivskyi;Holovanivsk
@@ -32308,7 +32308,7 @@
 538;30.4328,48.2628;26500;Holovanivskyi;Rozdol
 997;30.6837,48.2304;55271;Pervomaiskyi;Sukhyi Tashlyk
 140;30.4674,48.2056;;Kirovohrad;Nadiyivka
-682;30.4483,48.2267;;Kirovohrad;Moldovka
+682;30.4483,48.2267;26543;Kirovohrad;Moldovka
 48;30.4743,48.2529;26500;Holovanivskyi;Oleksiyivka
 51;30.5455,48.2327;;Kirovohrad;Lypnyahy
 87;30.5482,48.2174;;Kirovohrad;Hruzyanka

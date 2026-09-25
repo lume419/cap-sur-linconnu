@@ -5,7 +5,7 @@
 0;20.7678,42.8961;;Mitrovica;Zupç
 0;20.4067,42.2981;;Gjakova;Zulfaj
 0;21.6372,42.6861;;Gjilan;Žuja
-14900;20.6897,42.9144;;Mitrovica;Zubin Potok
+14900;20.6897,42.9144;40650;Mitrovica;Zubin Potok
 0;20.5706,42.3497;21060;Gjakova;Xërxë
 0;20.6853,42.0789;;Prizren;Zrza
 0;20.6986,42.2981;;Prizren;Zojz
@@ -92,7 +92,7 @@
 0;20.7475,42.5333;;Prizren;Llashkadrenoc
 0;20.8739,42.9686;;Mitrovica;Vlahinje
 0;21.4733,42.3881;;Gjilan;Vladovo
-4;20.3386,42.6950;;Pec;Vitomirica
+4;20.3386,42.6950;30090;Pec;Vitomirica
 46959;21.3583,42.3214;61000;Gjilan;Viti
 0;20.7153,42.7678;;Mitrovica;Vitak
 0;20.9494,42.9586;;Mitrovica;Vidishiq
@@ -187,7 +187,7 @@
 0;20.6583,42.8169;;Mitrovica;Suvo Grlo
 0;20.5094,42.7347;;Pec;Llukavci i Thatë
 0;21.1058,42.5467;;Pristina;Suvi Do
-224;20.8483,42.8867;;Mitrovica;Suvi Do
+224;20.8483,42.8867;40000;Mitrovica;Suvi Do
 72229;20.8250,42.3586;23000;Prizren;Suharekë
 0;21.0181,42.2908;;Ferizaj;Sušiće
 0;20.5764,42.7933;;Pec;Sushic (Gashi)
@@ -242,7 +242,7 @@
 0;21.3183,42.2992;;Gjilan;Smira
 0;20.5047,42.3358;;Gjakova;Smaq
 0;20.7225,42.3011;;Prizren;Smać
-700;20.2819,42.5089;;Gjakova;Slup
+700;20.2819,42.5089;51000;Gjakova;Slup
 0;21.6014,42.3856;;Gjilan;Slubica
 0;21.2200,42.5225;;Pristina;Slovinje
 0;20.9949,42.8896;;Mitrovica;Šljivovica
@@ -262,7 +262,7 @@
 0;20.7769,42.5247;;Prizren;Skorashnik
 0;20.8106,42.2322;;Prizren;Skorobište
 0;21.0321,42.8664;;Mitrovica;Skočna
-4;20.3831,42.4308;;Gjakova;Skivjan
+4;20.3831,42.4308;50010;Gjakova;Skivjan
 0;20.3211,42.3783;;Gjakova;Shishman
 4195;20.8489,42.8636;40600;Mitrovica;Shipol
 0;21.0031,42.6683;;Pristina;Šipitula
@@ -287,7 +287,7 @@
 0;20.8744,42.3253;;Prizren;Savrovo
 0;21.4483,42.2847;;Gjilan;Shashare
 0;21.2362,42.7534;;Pristina;Sharban
-650;20.3789,42.4986;;Gjakova;Shaptej
+650;20.3789,42.4986;51000;Gjakova;Shaptej
 0;21.5483,42.4536;;Gjilan;Capar
 0;20.5983,42.4475;;Gjakova;Senoc
 0;21.0466,42.8229;;Mitrovica;Samodreža
@@ -299,7 +299,7 @@
 0;21.6236,42.6942;;Gjilan;Shahiq
 0;20.6603,42.0708;;Prizren;Shajn II
 0;20.4478,42.3650;;Gjakova;Zid Sadih Aga
-2200;20.3472,42.5200;;Gjakova;Irzniq
+2200;20.3472,42.5200;51000;Gjakova;Irzniq
 0;21.0072,43.0558;;Mitrovica;Ržana
 0;20.6872,43.1792;;Mitrovica;Rvatska
 0;20.9358,42.5214;;Pristina;Rusinovce
@@ -372,7 +372,7 @@
 550000;21.1669,42.6727;10000;Pristina;Prishtinë
 0;21.0256,42.7328;;Mitrovica;Prilužje
 0;21.5192,42.5128;;Gjilan;Prilepnica
-2500;20.3178,42.5075;;Gjakova;Prilep
+2500;20.3178,42.5075;51000;Gjakova;Prilep
 0;20.4294,42.7525;;Pec;Prigoda
 0;20.7994,43.0619;;Mitrovica;Pridvorica
 0;20.6907,42.9220;;Mitrovica;Pridvorica
@@ -381,10 +381,10 @@
 0;20.8903,42.7392;;Mitrovica;Prelovac
 0;20.7492,42.9058;;Mitrovica;Prelez
 0;21.4000,42.5667;;Pristina;Prekovce
-350;20.3392,42.5078;;Gjakova;Prekolluk
+350;20.3392,42.5078;51000;Gjakova;Prekolluk
 0;20.4642,42.7047;;Pec;Prekale
 0;20.6331,42.5678;;Pec;Përçevë
-700;20.3511,42.5372;;Gjakova;Pozhar
+700;20.3511,42.5372;51000;Gjakova;Pozhar
 0;21.3403,42.3658;;Gjilan;Pozharan
 0;20.7015,43.1919;;Mitrovica;Postenje
 0;20.6714,42.1789;;Prizren;Poslishtë
@@ -401,7 +401,7 @@
 0;21.6831,42.6503;;Gjilan;Polička
 0;20.9131,42.6225;;Pristina;Poklek
 0;21.2172,42.3967;;Ferizaj;Pojatište
-35000;21.1931,42.9106;;Pristina;Podujeva
+35000;21.1931,42.9106;11000;Pristina;Podujeva
 0;21.5828,42.4292;;Gjilan;Podgrađe
 0;21.4083,42.3178;;Gjilan;Podgorc
 0;20.3914,42.6333;;Pec;Poçestë
@@ -431,7 +431,7 @@
 0;21.1652,42.9287;;Pristina;Perane
 0;20.1275,42.7242;;Pec;Pepiq
 0;21.1517,42.8428;;Pristina;Penduha
-1883;20.8219,42.3836;;Prizren;Peqan
+1883;20.8219,42.3836;23000;Prizren;Peqan
 48962;20.2883,42.6591;30000;Pec;Pejë
 0;20.9564,42.8833;;Mitrovica;Pasoma
 1000;21.4956,42.4069;;Gjilan;Pasjane
@@ -485,7 +485,7 @@
 0;20.7956,42.7353;;Mitrovica;Novo Selo
 0;21.1904,42.6701;;Pristina;Novo Selo
 0;21.3231,42.3864;;Gjilan;Novo Selo
-4;20.3317,42.7247;;Pec;Novosellë (Drinasi)
+4;20.3317,42.7247;30090;Pec;Novosellë (Drinasi)
 0;20.8347,42.7122;;Mitrovica;Novo Poljance
 6720;21.4340,42.6159;;Pristina;Novo Brdo
 0;20.7947,42.2842;;Prizren;Malësi e Re
@@ -619,10 +619,10 @@
 0;20.3250,42.6297;;Pec;Loxhë
 0;20.7864,42.2758;;Prizren;Ljutoglav
 577;20.8292,42.8525;;Mitrovica;Ljušta
-1500;20.3467,42.5467;;Gjakova;Lumbardhi
+1500;20.3467,42.5467;51000;Gjakova;Lumbardhi
 0;20.6153,42.2942;;Prizren;Lukanja
 0;20.4347,42.4247;;Gjakova;Ljugbunar
-1250;20.2908,42.5631;;Gjakova;Lëbushë
+1250;20.2908,42.5631;51000;Gjakova;Lëbushë
 0;20.4419,42.7769;;Pec;Ljubožda
 0;20.4100,42.7397;;Pec;Thanëza
 0;20.6631,42.0567;;Prizren;Ljubovište
@@ -632,7 +632,7 @@
 0;20.7706,42.2381;;Prizren;Ljubižda
 0;21.4117,42.2947;;Gjilan;Ljubište
 0;20.7339,42.1556;;Prizren;Ljubičevo
-970;20.2914,42.5978;;Pec;Lybeniq
+970;20.2914,42.5978;51010;Pec;Lybeniq
 0;21.4867,42.6458;;Gjilan;Leštar
 0;20.4464,42.6300;;Pec;Leshan
 1575;20.7811,42.3278;;Prizren;Leshan
@@ -828,7 +828,7 @@
 0;21.1036,42.2856;;Ferizaj;Ižance
 0;21.2328,42.1944;;Ferizaj;Ivaja
 40000;20.4875,42.7808;;Pec;Istok
-5500;20.3028,42.5575;;Gjakova;Isniq
+5500;20.3028,42.5575;51000;Gjakova;Isniq
 0;20.7539,43.2247;;Mitrovica;Donje Isevo
 0;21.5761,42.3869;;Gjilan;Inatovce
 0;20.6753,42.5917;;Pec;Iglarevo
@@ -874,7 +874,7 @@
 0;20.9211,42.5808;;Pristina;Gornji Zabelj
 0;21.0183,42.8203;;Mitrovica;Gornji Svračak
 0;20.7236,42.8742;;Mitrovica;Gornji Strmac
-6100;20.2940,42.5784;;Gjakova;Strellc i Epërm
+6100;20.2940,42.5784;51000;Gjakova;Strellc i Epërm
 0;20.6964,42.7211;;Mitrovica;Gornji Obilić
 0;21.4452,42.5672;;Gjilan;Gornji Makreš
 0;21.4311,42.4569;;Gjilan;Livoç i Epërm
@@ -905,7 +905,7 @@
 0;21.2964,42.3606;;Gjilan;Gornja Slatina
 0;21.6644,42.5972;;Gjilan;Shipashnica i Ultë
 0;21.1180,42.9981;;Pristina;Gornja Pakaštica
-1500;20.3078,42.5450;;Gjakova;Lluka e Eperme
+1500;20.3078,42.5450;51000;Gjakova;Lluka e Eperme
 0;20.9339,42.6044;;Pristina;Gornja Koretica
 0;20.7833,42.7922;;Mitrovica;Gornja Klina
 0;21.2086,42.5511;;Pristina;Gornja Gušterica
@@ -931,7 +931,7 @@
 0;21.1458,42.5053;;Pristina;Glogovce
 0;21.5933,42.4853;;Gjilan;Glogovce
 58579;20.8939,42.6283;13000;Pristina;Drenas
-2000;20.3628,42.5072;;Gjakova;Gllogjan
+2000;20.3628,42.5072;51000;Gjakova;Gllogjan
 0;20.4925,42.5656;;Pec;Gllogjan
 0;21.1822,42.1711;;Ferizaj;Globočica
 0;20.6269,42.0047;;Prizren;Glloboqicë
@@ -991,7 +991,7 @@
 0;21.1092,42.7438;;Pristina;Drenovac
 0;20.6092,42.4378;;Gjakova;Drenovac
 0;20.5217,42.6028;;Pec;Drenoc
-2000;20.2922,42.5156;;Gjakova;Dranoc
+2000;20.2922,42.5156;51000;Gjakova;Dranoc
 0;20.7677,43.1324;;Mitrovica;Dren
 0;20.6450,42.8556;;Mitrovica;Dren
 0;20.1228,42.7072;;Pec;Drelaj
@@ -1006,7 +1006,7 @@
 0;20.8936,42.5886;;Pristina;Donji Zabelj
 0;21.0051,42.8044;;Mitrovica;Donji Svračak
 0;20.8500,42.8833;;Mitrovica;Donji Suvi Do
-2850;20.3162,42.5806;;Gjakova;Strellc i Ulët
+2850;20.3162,42.5806;51000;Gjakova;Strellc i Ulët
 0;20.3908,42.5194;;Gjakova;Ratish i Ultë
 0;20.7139,42.6950;;Mitrovica;Donji Obilić
 0;21.4806,42.5619;;Gjilan;Donji Makreš
@@ -1079,7 +1079,7 @@
 0;20.8266,43.0773;;Mitrovica;Dobrava
 0;20.9464,42.8447;;Mitrovica;Dobra Luka
 0;20.5019,42.4236;;Gjakova;Doblibare
-1571;20.8186,42.3183;;Prizren;Gjinoc
+1571;20.8186,42.3183;23050;Prizren;Gjinoc
 0;21.3081,42.1553;;Ferizaj;Dimce
 0;20.6628,42.0169;;Prizren;Dikance
 0;21.1419,42.7216;;Pristina;Devet Jugovića
@@ -1288,7 +1288,7 @@
 0;20.2269,42.7244;;Pec;Bellopaq
 0;20.1381,42.7108;;Pec;Malaj
 0;20.2728,42.5078;;Gjakova;Voksh
-1288;20.3311,42.5528;;Gjakova;Papraqan
+1288;20.3311,42.5528;51000;Gjakova;Papraqan
 4;20.3117,42.6150;;Pec;Raushiq
 0;20.7467,42.0486;;Prizren;Shajnovë II (Dytë)
 0;20.7231,42.1058;;Prizren;Kuklibeg
@@ -1686,8 +1686,8 @@
 0;20.3628,42.5911;;Pec;Krysheci i Ri
 0;20.3486,42.5631;;Gjakova;Prapaqani i Ri
 0;20.3442,42.5556;;Gjakova;Papiq
-700;20.3356,42.5458;;Gjakova;Lluka e Poshtme
-1050;20.2808,42.5244;;Gjakova;Lloqan
+700;20.3356,42.5458;51000;Gjakova;Lluka e Poshtme
+1050;20.2808,42.5244;51000;Gjakova;Lloqan
 0;20.2675,42.5447;;Gjakova;Letovačište
 0;20.8958,42.4119;;Prizren;Sopska Mahala
 0;20.9522,42.4928;;Pristina;Metovići
@@ -2558,4 +2558,4 @@
 0;20.6491,42.9448;;Mitrovica;Shtuoc
 0;20.6414,42.9867;;Mitrovica;Bojnoviq
 0;20.6359,42.9777;;Mitrovica;Moisilovë
-3952;20.1686,42.5215;;;Gropa e Erenikut
+3952;20.1686,42.5215;51050;;Gropa e Erenikut

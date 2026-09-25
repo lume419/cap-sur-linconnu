@@ -1,0 +1,5 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+43.5494	19.5580	31330	Banja	0.023	2026-09-25	31325@0.9km
+43.5831	19.5252	31330	Priboj	0.021	2026-09-25	31317@2.8km

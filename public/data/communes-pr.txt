@@ -546,7 +546,7 @@
 0;-65.6885,18.2197;00718;Naguabo;Esperanza
 0;-66.5741,17.9950;00715;Ponce;Esperanza
 0;-66.2568,17.9627;00704;Salinas;Esperanza
-1092;-65.4707,18.0972;;Vieques;Esperanza
+1092;-65.4707,18.0972;00765;Vieques;Esperanza
 1422;-67.1193,18.2763;00610;Añasco;Espino
 0;-66.3188,18.4152;00692;Vega Alta;Espinosa
 0;-65.7074,18.2069;00718;Naguabo;Estación Botija
@@ -907,7 +907,7 @@
 0;-66.1546,18.3572;00965;Bayamón;Irlanda
 0;-66.1460,18.3530;00965;Bayamón;Irlanda Heights
 0;-67.1266,18.1044;00623;Cabo Rojo;Isabel Josefa
-9301;-65.4427,18.1491;;Vieques;Isabel Segunda
+9301;-65.4427,18.1491;00765;Vieques;Isabel Segunda
 12505;-67.0243,18.5008;00662;Isabela;Isabela
 0;-65.6418,18.3391;00738;Fajardo;Isidra
 0;-67.1085,18.3736;00676;Moca;Isleta

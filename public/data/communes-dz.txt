@@ -186,7 +186,7 @@
 0;-0.1050,27.0572;01007;Adrar;Tittaouine el Akhas
 0;-0.1047,27.0669;01007;Adrar;Tittaouine ech Cheurfa
 0;-0.1880,27.4087;01020;Adrar;Titaf
-4417;1.4921,26.9360;;Adrar;Tit
+4417;1.4921,26.9360;01000;Adrar;Tit
 0;5.1970,22.9653;11000;Tamanrasset;Tit
 0;4.0997,36.3114;10013;Bouira;Tissra Ou Djemal
 66084;1.8108,35.6072;38010;Tissemsilt;Tissemsilt
@@ -287,7 +287,7 @@
 0;4.9146,36.7629;06030;Bejaia;Tiahmaïne
 0;3.8840,36.8810;35004;Boumerdes;Thouabet
 0;4.0906,36.4085;10003;Bouira;Thiaramtz
-27628;2.0281,35.8711;;Tissemsilt;Theniet el Had
+27628;2.0281,35.8711;38032;Tissemsilt;Theniet el Had
 16180;3.5566,36.7254;35005;Boumerdes;Thenia
 0;6.2242,35.2838;05035;Batna;Tezribine
 0;0.9405,35.4738;14005;Tiaret;Douar Tizarkounet
@@ -1489,7 +1489,7 @@
 0;0.6813,35.7978;48021;Relizane;Oued el Djemaa
 0;7.4897,36.8807;23021;Annaba;Oued el Aneb
 21146;2.7903,36.5553;09024;Blida;Oued el Alleug
-6830;6.7572,33.2288;;El-Oued;Oued el Alennda
+6830;6.7572,33.2288;39000;El-Oued;Oued el Alennda
 22819;0.6878,35.4560;29016;Mascara;Oued el Abtal
 0;5.6198,36.2516;19023;Setif;Oued Deheb
 0;2.5097,36.1967;44005;Ain-Defla;Amoura
@@ -3550,7 +3550,7 @@
 0;7.7417,36.0742;41001;Souk-Ahras;El Beïda
 0;-1.7465,29.7949;08020;Bechar;El Beïda
 0;0.7182,36.3261;;Mostaganem;El Behara
-85577;1.0193,33.6832;;El-Bayadh;El Bayadh
+85577;1.0193,33.6832;32000;El-Bayadh;El Bayadh
 0;3.4461,35.8776;26057;Medea;El Barri
 0;0.0436,28.8074;01036;Adrar;El Barka
 0;2.4319,27.1736;11001;Tamanrasset;El Barka
@@ -3586,7 +3586,7 @@
 0;5.7307,35.3378;05027;Batna;El Araguib
 0;1.4268,35.7103;38013;Tissemsilt;El Aouisset
 0;0.5338,35.5682;48036;Relizane;El Aouisset
-32971;7.8867,35.8669;;Tebessa;El Aouinet
+32971;7.8867,35.8669;12005;Tebessa;El Aouinet
 0;4.1836,35.2924;28032;M'Sila;El Aouinat
 0;-1.2671,34.4812;;Tlemcen;El Aouedj
 0;2.9749,36.3438;26008;Medea;El Aouaouka
@@ -3991,7 +3991,7 @@
 0;2.1707,36.0934;44030;Ain-Defla;Djema Sidi Dahmane
 0;2.2010,36.1310;44021;Ain-Defla;Djeloul Ben Mohammed
 0;6.8929,34.9192;40015;Khenchela;Djellal
-265833;3.2630,34.6728;;Djelfa;Djelfa
+265833;3.2630,34.6728;17000;Djelfa;Djelfa
 0;4.9214,36.5993;06019;Bejaia;Djelada
 0;-1.5833,32.1000;;Bechar;Djehifet
 0;7.2354,34.8916;;Tebessa;Djedida
@@ -4667,7 +4667,7 @@
 0;5.2755,35.7695;19061;Setif;Ben Guemmez
 0;6.9353,36.3813;25030;Constantine;Ben Griba
 0;-0.4185,35.6934;31063;Oran;Benfreha
-2349;-0.4238,28.0033;;Adrar;Bouda
+2349;-0.4238,28.0033;01000;Adrar;Bouda
 0;-0.6555,35.0571;22008;Sidi-Bel-Abbes;Bendida
 0;2.8487,36.1996;26012;Medea;Ben Chicao
 0;2.8764,36.6202;09001;Blida;Ben Chabane

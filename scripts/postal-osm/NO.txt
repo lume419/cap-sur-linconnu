@@ -1,0 +1,15 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+60.5337	8.2054	3580	Geilo	0.009	2026-09-25	3580@4.4km
+68.8610	18.3486	9360	Setermoen	0.005	2026-09-25	9360@3.7km
+60.6302	8.5607	3570	Ål	0.053	2026-09-25	3580@23.7km
+69.0125	23.0412	9520	Kautokeino	0.07	2026-09-25	9520@4.6km
+62.8250	10.0118	7391	Berkåk	0.009	2026-09-25	7391@4.5km
+66.0641	12.9433	8890	Leland	0	2026-09-25	8890@2.4km
+61.7000	11.2167	2485	Svarstad	0.386	2026-09-25	2478@12.1km
+61.8833	8.2667	2690	Bismoen	0.018	2026-09-25	2686@9.8km
+64.5006	10.8940	7770	Lauvsnes	0.003	2026-09-25	7746@9.8km
+65.6768	11.9622	8982	Gladstad	0.006	2026-09-25	8981@19.1km
+70.6323	21.9856	9595	Sørvær	0.024	2026-09-25	9590@6km
+59.3167	7.1167	4754	Dysje	0.203	2026-09-25	4754@9.6km

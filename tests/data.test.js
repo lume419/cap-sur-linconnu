@@ -1064,7 +1064,13 @@ test('lieux : les quasi-doublons connus ne se multiplient pas (populations contr
   // très au-dessus du réel sans qu'aucun test ne bronche. Ce sont désormais les valeurs EXACTES relevées sur l'état
   // publié : une aggravation comme une amélioration font échouer le test, et c'est le chiffre qu'on met à jour.
   const CONTRADICTIONS = 6;  // paires à moins de 300 m publiant deux populations non nulles différentes (12 avant la 19e passe)
-  const SUGGESTIONS = 31;    // paires à moins de 300 m avec deux codes postaux, donc deux suggestions (34 avant la 19e passe ; 28 avant que les lieux sans code postal ne soient publiés, 21/09/2026 ; 29 ensuite, et de nouveau 28 le 25/09/2026 quand dix-sept pays ont gagné de vrais codes postaux — une paire qui portait deux identifiants ISO distincts n en porte plus qu un seul vrai ; 31 le même jour quand le Pakistan et le Brésil ont gagné les leurs, voir ci-dessous)
+  const SUGGESTIONS = 32;    // paires à moins de 300 m avec deux codes postaux, donc deux suggestions (34 avant la 19e passe ; 28 avant que les lieux sans code postal ne soient publiés, 21/09/2026 ; 29 ensuite, et de nouveau 28 le 25/09/2026 quand dix-sept pays ont gagné de vrais codes postaux ; 31 le même jour avec le Pakistan et le Brésil ; 32 avec la moisson OpenStreetMap, voir ci-dessous)
+  // LA PAIRE AJOUTÉE PAR LA MOISSON OPENSTREETMAP est unique AU MONDE, et elle dit où passe le seuil de cette
+  // moisson. « Donji Orahovac », au Monténégro, est publié DEUX FOIS à 246 m : une fiche à 28 habitants et une à
+  // population nulle. Seule la première a été interrogée — la moisson s arrête aux lieux peuplés, les autres ayant
+  // un rendement de 35 % pour un coût de 27 heures — et elle seule a reçu 85335. Mesuré sur les 1 224 codes posés :
+  // c est le SEUL cas où un jumeau à moins de 300 m reste vide. Un cas unique n appelle pas une règle ; il appelle
+  // cette ligne.
   // LES TROIS PAIRES AJOUTÉES LE 25/09/2026 sont mesurées, et elles disent quelque chose du RAYON de 15 km.
   // Chacune est UN MÊME VILLAGE que le dump publie DEUX FOIS à ~250 m d écart, ce que le dédoublonnage ne voit
   // pas : sa clé arrondit au centième de degré, et les deux copies tombent de part et d autre de la coupure

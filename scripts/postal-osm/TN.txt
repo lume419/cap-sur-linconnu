@@ -1,0 +1,7 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+35.7682	8.3423	7130	Kalaat es Senam	0.012	2026-09-25	7130@8.5km
+34.5776	9.8419	9150	Mezzouna	0.011	2026-09-25	9140@21.6km
+34.5732	9.4257	9114	Menzel Bouzaiane	0.003	2026-09-25	9140@13.4km
+35.1005	10.0343	3116	Ailet Jridani	0.019	2026-09-25	3126@7.8km

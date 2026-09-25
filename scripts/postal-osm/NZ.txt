@@ -1,0 +1,6 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+-41.8000	172.3333	7007	Murchison	0.007	2026-09-25	7077@10.1km
+-43.7371	170.0993	7946	Mount Cook Village	0.01	2026-09-25	7946@19km
+-41.4000	172.0667	7891	Little Wanganui	0.642	2026-09-25	7893@7km

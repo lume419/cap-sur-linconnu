@@ -1188,7 +1188,7 @@
 1130;174.4330,-36.8366;0842;Auckland;Muriwai Beach
 0;177.9167,-38.7667;4010;Gisborne;Muriwai
 0;175.6833,-39.5500;4791;Manawatu-Wanganui;Murimotu
-606;172.3333,-41.8000;;Tasman District;Murchison
+606;172.3333,-41.8000;7007;Tasman District;Murchison
 0;174.7500,-36.4333;0982;Auckland;Mullet Point
 0;170.0833,-45.6500;9597;Otago;Mowhiti
 0;174.9000,-39.8667;4574;Manawatu-Wanganui;Mowhanau
@@ -1457,7 +1457,7 @@
 0;168.3333,-46.2000;9781;Southland;Lochiel
 2460;172.5333,-43.2500;7472;Canterbury;Loburn
 0;170.5833,-44.9667;9441;Otago;Livingstone
-207;172.0667,-41.4000;;West Coast;Little Wanganui
+207;172.0667,-41.4000;7891;West Coast;Little Wanganui
 279;172.7833,-43.7667;7546;Canterbury;Little River
 0;172.9833,-43.6833;8972;Canterbury;Little Akaloa
 0;171.4833,-43.9000;7775;Canterbury;Lismore
@@ -2445,7 +2445,7 @@
 40;169.2956,-45.4987;9571;Otago;Coal Creek Flat
 50;169.3128,-45.4803;9571;Otago;Roxburgh Hydro
 0;175.7445,-36.8383;3510;Waikato Region;Cooks Beach
-213;170.0993,-43.7371;;Canterbury;Mount Cook Village
+213;170.0993,-43.7371;7946;Canterbury;Mount Cook Village
 0;176.1243,-37.7494;3142;Bay of Plenty;Veda Glen
 0;176.1107,-37.7419;3142;Bay of Plenty;The lakes
 0;170.5518,-43.1486;7884;West Coast;Hari Hari

@@ -737,7 +737,7 @@
 0;20.5333,65.1500;;Västerbotten;Melsträsk
 0;20.0167,64.6833;;Västerbotten;Melsliden
 0;23.7333,67.3667;;Norrbotten;Mella
-543;20.7321,64.7382;;Västerbotten;Medle
+543;20.7321,64.7382;931 98;Västerbotten;Medle
 0;22.2021,68.4750;;Norrbotten;Maunu
 589;21.9000,65.5500;954 01;Luleå;Måttsund
 0;19.9751,66.5696;962 03;Jokkmokk;Mattisudden
@@ -921,7 +921,7 @@
 0;23.7167,67.3833;;Norrbotten;Kolari
 0;23.6833,66.2167;;Norrbotten;Koivukylä
 0;20.5833,66.3333;960 30;Jokkmokk;Koikul
-207;20.7333,64.7333;;Västerbotten;Klutmark
+207;20.7333,64.7333;931 98;Västerbotten;Klutmark
 0;20.8833,66.1167;960 24;Boden;Klusån
 0;20.8000,65.2167;930 52;Skellefteå;Klubbfors
 241;21.4051,65.6352;945 93;Piteå;Klöverträsk
@@ -1424,7 +1424,7 @@
 0;20.9667,67.3333;;Norrbotten;Avvakko
 0;20.6667,66.4333;960 30;Jokkmokk;Avaudden
 0;20.2000,64.1500;922 76;Umeå;Avanäs
-213;21.8000,65.6833;;Norrbotten;Avan
+213;21.8000,65.6833;961 93;Norrbotten;Avan
 0;21.3000,64.3333;;Västerbotten;Avan
 0;22.5167,65.8333;955 96;Luleå;Jämtö-Avan
 0;21.6000,65.8000;961 00;Boden;Avaheden
@@ -3800,7 +3800,7 @@
 0;19.0100,66.3177;;Norrbotten;Udtja
 0;15.6500,60.4167;781 60;Säter;Uddsarvet
 0;15.7500,60.5833;790 15;Falun;Uddnäs
-266;12.9108,59.9455;;Värmland;Uddheden
+266;12.9108,59.9455;686 98;Värmland;Uddheden
 0;18.0833,62.6500;;Västernorrland;Uddhamn
 0;16.0333,56.9667;380 44;Nybro;Uddevallshyltan
 34781;11.9424,58.3478;451 01;Uddevalla;Uddevalla
@@ -4882,7 +4882,7 @@
 0;15.7500,57.0667;579 91;Nybro;Tämshult
 0;14.9167,60.9833;792 98;Mora;Tammeråsen
 0;15.3667,60.5667;781 00;Borlänge;Tälnbäcken
-16;18.1896,64.6130;;Västerbotten;Tallträsk
+16;18.1896,64.6130;921 99;Västerbotten;Tallträsk
 0;19.6207,65.7689;;Norrbotten;Tallsund
 0;18.0333,64.1500;;Västerbotten;Tallsjö
 0;16.0167,57.8833;;Östergötland;Tallsebo
@@ -7572,7 +7572,7 @@
 0;15.8831,58.9500;643 01;Vingåker;Skedevi
 0;14.7167,58.3667;592 93;Vadstena;Skedet
 0;12.5667,57.2667;519 93;Varberg;Skedeskamma
-345;19.0000,63.2500;;Västernorrland;Skede
+345;19.0000,63.2500;891 96;Västernorrland;Skede
 289;15.1667,57.4667;570 15;Vetlanda;Skede
 0;15.5500,58.2833;583 94;Linköping;Skeda udde
 359;12.9757,56.6946;313 03;Halmstad;Skedala
@@ -7599,7 +7599,7 @@
 0;13.2667,56.7667;340 10;Hylte;Skavbo
 0;16.7000,64.2500;917 94;Dorotea;Skavåsen
 0;14.7500,61.0497;;Dalarna;Skavåsen
-310;14.8511,61.1848;;Dalarna;Skattungbyn
+310;14.8511,61.1848;794 95;Dalarna;Skattungbyn
 0;14.9333,59.1500;716 01;Lekeberg;Skättorp
 0;14.7333,60.1833;;Dalarna;Skattlösberget
 1979;13.6708,59.4121;656 71;Karlstad;Skattkärr
@@ -8740,7 +8740,7 @@
 0;13.2500,57.9333;523 95;Ulricehamn;Ryda
 0;12.9167,57.7500;501 00;Borås;Ryda
 0;12.4167,57.5667;510 21;Mark;Ryda
-1446;15.0833,58.6667;;Östergötland;Ryd
+1446;15.0833,58.6667;591 97;Östergötland;Ryd
 0;13.2167,58.1667;520 40;Falköping;Ryd
 0;14.5500,57.8333;571 74;Nässjö;Ryd
 200;13.8692,57.7260;560 25;Tranemo;Ryd
@@ -9025,7 +9025,7 @@
 0;18.2000,60.0667;747 93;Uppsala;Rörby
 0;17.5333,59.9333;740 22;Uppsala;Rörby
 0;16.9667,60.5833;818 03;Gävle;Rörberg
-200;12.8094,61.1343;;Dalarna;Rörbäcksnäs
+200;12.8094,61.1343;780 66;Dalarna;Rörbäcksnäs
 0;11.6167,58.2000;473 00;Orust;Röra
 0;11.6500,58.0500;471 75;Stenungsund;Röra
 0;13.8000,59.4167;660 57;Kristinehamn;Rör
@@ -10985,7 +10985,7 @@
 0;14.8833,60.1500;772 70;Ludvika;Olsjön
 0;16.1167,60.3333;776 98;Hedemora;Olshyttan
 0;13.3667,57.0000;314 92;Hylte;Olshult
-237;14.8000,58.7500;;Örebro;Olshammar
+237;14.8000,58.7500;696 73;Örebro;Olshammar
 617;12.6979,57.6911;517 71;Bollebygd;Olsfors
 0;16.3500,57.9500;590 96;Västervik;Olserum
 0;13.0000,59.5667;;Värmland;Ölserud
@@ -17099,7 +17099,7 @@
 0;12.7500,59.9333;;Värmland;Humsjön
 0;12.8667,59.8000;;Värmland;Humsjön
 0;18.5500,63.1667;893 02;Örnsköldsvik;Hummelvik
-994;16.9438,59.6267;;Uppsala;Hummelsta
+994;16.9438,59.6267;745 71;Uppsala;Hummelsta
 0;17.3333,59.5667;749 50;Uppsala;Hummelsta
 0;15.5167,59.1667;715 01;Örebro;Hummelsta
 0;18.5942,59.4589;130 34;Värmdö;Hummelmora
@@ -17121,7 +17121,7 @@
 0;15.1833,57.3000;570 10;Uppvidinge;Huluboda
 0;14.8333,57.2667;570 12;Växjö;Huluboda
 0;15.3833,57.1167;360 77;Nybro;Hulubergshult
-273;14.6333,57.8833;;Jönköping;Hulu
+273;14.6333,57.8833;578 92;Jönköping;Hulu
 0;15.0000,57.8333;573 73;Aneby;Hulu
 0;14.6167,57.7333;571 74;Nässjö;Hulu
 252;13.3000,57.7000;520 11;Ulricehamn;Hulu
@@ -18096,7 +18096,7 @@
 0;13.2331,61.0667;780 68;Malung;Hemfjällstangen
 0;16.8833,65.8000;;Västerbotten;Hemfjäll
 0;15.3667,60.4333;781 00;Borlänge;Hemberg
-216;15.0866,65.8199;;Västerbotten;Hemavan
+216;15.0866,65.8199;920 66;Västerbotten;Hemavan
 0;12.4000,57.6000;430 64;Mark;Helsjön
 104250;12.6944,56.0467;250 02;Helsingborg;Helsingborg
 0;18.8998,57.7731;620 34;Gotland;Hellvi
@@ -23618,7 +23618,7 @@
 0;17.0000,61.5833;825 95;Hudiksvall;Boda
 0;16.9000,61.5333;825 95;Hudiksvall;Boda
 0;16.9215,61.3638;826 04;Söderhamn;Boda
-528;15.2167,61.0167;;Dalarna;Boda
+528;15.2167,61.0167;795 96;Dalarna;Boda
 0;15.8667,60.7167;790 23;Falun;Boda
 0;15.7333,60.6500;790 15;Falun;Boda
 0;15.9500,60.3000;776 01;Hedemora;Boda
@@ -26254,7 +26254,7 @@
 0;15.9667,57.0667;579 00;Högsby;Aboda
 0;16.4167,61.8500;;Gävleborg;Åbo
 0;15.8167,61.7667;820 41;Ljusdal;Åbo
-85;18.8287,68.3491;;Norrbotten;Abisko
+85;18.8287,68.3491;981 07;Norrbotten;Abisko
 0;12.7167,56.9333;310 58;Varberg;Abild
 0;19.4833,65.9667;930 86;Arvidsjaur;Åberget
 0;16.9833,63.1500;882 93;Sollefteå;Åberget

@@ -1689,7 +1689,7 @@
 135;17.5231,45.2444;35420;Brodsko-Posavska;Oštri Vrh
 420;16.3575,46.1900;42220;Varaždinska;Oštrice
 1300;15.2733,45.2247;47300;Karlovačka;Oštarije
-32;16.1706,44.3506;;Zadar;Osredci
+32;16.1706,44.3506;23445;Zadar;Osredci
 26;14.3933,44.6956;51550;Primorsko-Goranska;Osor
 86;15.2065,45.3926;51326;Primorsko-Goranska;Osojnik
 335;18.0672,42.7108;20236;Dubrovačko-Neretvanska;Osojnik

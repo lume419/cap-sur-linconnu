@@ -1,0 +1,5 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+65.7308	-19.1116	551	Hólar	0.043	2026-09-25	550@18.7km
+63.7426	-20.6091	851	Þykkvibær	0.092	2026-09-25	850@14.5km

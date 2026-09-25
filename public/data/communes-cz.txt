@@ -16192,7 +16192,7 @@
 0;14.9145,50.6604;463 52;Liberec;Dolánky
 0;14.7335,49.8793;257 22;Benešov;Zlenice
 337;14.4097,48.7719;382 32;Český Krumlov;Věžovatá Pláně
-1701;17.1965,50.1640;;Olomouc Region;Bělá pod Pradědem
+1701;17.1965,50.1640;790 85;Olomouc Region;Bělá pod Pradědem
 0;16.1206,50.3778;549 08;Náchod;Šonov u Broumova
 0;13.9297,49.4899;388 01;Strakonice;Hostišovice
 0;14.1646,49.5094;398 07;Písek;Orlik nad Vltavou

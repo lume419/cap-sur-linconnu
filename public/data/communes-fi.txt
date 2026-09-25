@@ -3625,7 +3625,7 @@
 0;26.8486,60.9199;45371;Kouvola;Puhjo
 0;24.7309,61.6442;35270;Tampere;Puharila
 0;29.0262,61.5832;58680;Savonlinna;Puhakka
-7226;26.9167,65.3833;;North Ostrobothnia;Pudasjärvi
+7226;26.9167,65.3833;93100;North Ostrobothnia;Pudasjärvi
 0;25.2000,63.9333;85640;Nivala-Haapajärvi;Pudasjärvi
 0;24.7667,67.3833;97470;Tunturi-Lappi;Pudas
 0;26.5048,60.8007;45610;Kouvola;Palokorpi
@@ -8692,7 +8692,7 @@
 36631;22.3690,60.4072;20781;Turku;Kaarina
 0;27.5829,61.6141;52100;Mikkeli;Kääriälä
 0;21.8012,60.8817;23800;Vakka-Suomi;Kaariainen
-140;22.4859,68.4510;;Lapland;Kaaresuvanto
+140;22.4859,68.4510;99470;Lapland;Kaaresuvanto
 0;27.1167,64.4000;88340;Kajaani;Kaares
 0;22.3667,61.3833;32860;Pori;Kaarenoja
 0;27.9500,63.1500;73350;Kuopio;Kaaraslahti

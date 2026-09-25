@@ -73,7 +73,7 @@
 0;23.9706,70.5190;;Finnmark;Stállogárggu
 0;21.4833,70.1000;9184;Kvænangen;Spitnes
 0;20.4667,69.7667;9159;Nordreisa;Spåkenes
-201;21.9856,70.6323;;Finnmark;Sørvær
+201;21.9856,70.6323;9595;Finnmark;Sørvær
 0;21.7141,70.2196;9584;Loppa;Sør Tverrfjord
 0;21.8594,69.8418;9162;Kvænangen;Sørstraumen
 0;20.0267,69.8196;9068;Lyngen;Sørlenangen
@@ -246,7 +246,7 @@
 0;27.3936,70.9142;9790;Lebesby;Kifjord
 0;29.8567,70.0625;9800;Vadsø;Kiby
 0;25.2089,69.4448;9731;Karasjohka Karasjok;Kentán
-2000;23.0412,69.0125;;Finnmark;Kautokeino
+2000;23.0412,69.0125;9520;Finnmark;Kautokeino
 0;30.3806,69.6653;9911;Sør-Varanger;Karpbukt
 0;28.5751,70.1226;9820;Unjargga Nesseby;Karlebotn
 0;23.1483,70.5445;9657;Hammerfest;Kårhamn
@@ -1383,7 +1383,7 @@
 0;5.6500,61.5667;6806;Sunnfjord;Svarthomle
 0;8.5667,59.5833;3841;Seljord;Svartdal
 0;9.6833,63.1000;7331;Orkland;Svartbæk
-585;11.2167,61.7000;;Innlandet;Svarstad
+585;11.2167,61.7000;2485;Innlandet;Svarstad
 0;13.8500,68.1333;8340;Vestvågøy;Svarholt
 0;5.4500,61.5333;6940;Kinn;Svardal
 0;7.4500,62.9000;6490;Hustadvika;Svanvika
@@ -2311,7 +2311,7 @@
 0;15.4889,67.1651;8250;Saltdal;Setså
 0;4.9667,61.3167;6980;Askvoll;Setre
 0;11.5692,60.1730;1927;Nes;Seterstøa
-2464;18.3486,68.8610;;Troms;Setermoen
+2464;18.3486,68.8610;9360;Troms;Setermoen
 0;5.4333,61.3667;6961;Fjaler;Setenes
 0;8.4667,58.9333;3855;Nissedal;Setane
 653;11.1667,60.2500;2072;Eidsvoll;Sesvoll
@@ -4230,7 +4230,7 @@
 0;19.9812,69.8133;9064;Lyngen;Lenangsøyra
 1245;10.8132,60.6739;2850;Østre Toten;Lena
 0;6.5167,60.6833;5734;Voss;Lemme
-718;12.9433,66.0641;;Nordland;Leland
+718;12.9433,66.0641;8890;Nordland;Leland
 0;7.4667,58.4333;4529;Lyngdal;Leland
 0;5.2333,61.1667;6951;Hyllestad;Lekva
 0;11.2500,59.5333;1880;Indre Østfold;Lekum
@@ -4297,7 +4297,7 @@
 0;16.6227,68.5333;9439;Tjeldsund;Lavangen
 0;10.0333,64.0167;7175;Åfjord;Lauvstrand
 0;5.9421,62.1641;6133;Volda;Lauvstad
-467;10.8940,64.5006;;Trøndelag;Lauvsnes
+467;10.8940,64.5006;7770;Trøndelag;Lauvsnes
 0;10.3500,63.3000;7083;Trondheim;Lauvset
 0;8.2476,58.6637;4834;Froland;Lauvrak
 0;8.3333,58.5833;4832;Froland;Lauvrak
@@ -6103,7 +6103,7 @@
 0;12.6104,66.1573;;Nordland;Glein
 0;11.4289,62.6714;7372;Røros;Glåmos
 0;10.9000,60.9333;2380;Ringsaker;Glæstad
-300;11.9622,65.6768;;Nordland;Gladstad
+300;11.9622,65.6768;8982;Nordland;Gladstad
 0;6.0000,60.1000;5475;Kvinnherad;Gjuvsland
 0;8.9505,60.1509;3629;Nore Og Uvdal;Gjuvsgrendi
 0;6.0000,62.4833;6054;Giske;Gjuv
@@ -6188,7 +6188,7 @@
 0;11.9500,60.3500;2210;Kongsvinger;Geiterud
 0;9.9273,63.3643;7354;Skaun;Geitastrand
 0;6.0667,59.1167;4130;Hjelmeland;Geitaskjer
-2500;8.2054,60.5337;;Buskerud;Geilo
+2500;8.2054,60.5337;3580;Buskerud;Geilo
 0;17.9443,69.5152;9373;Senja;Gavlen
 0;5.1478,60.3342;5350;Øygarden;Gavlen
 0;11.3000,59.3833;1730;Sarpsborg;Gautestad
@@ -6976,7 +6976,7 @@
 0;10.9500,63.4167;7517;Stjørdal;Dyva
 0;11.5333,60.2333;2114;Sør-Odal;Dystland
 0;10.7167,60.5833;2844;Østre Toten;Dyste
-21;7.1167,59.3167;;Agder;Dysje
+21;7.1167,59.3167;4754;Agder;Dysje
 0;8.8219,63.7570;7260;Frøya;Dyrvika
 0;17.0881,68.8154;9450;Ibestad;Dyrstad
 0;5.1833,61.7667;6726;Bremanger;Dyrstad
@@ -7587,7 +7587,7 @@
 0;8.4000,59.4833;3848;Kviteseid;Bjåland
 0;13.7667,66.7500;8149;Meløy;Bjærangen
 0;14.9828,68.5860;8450;Hadsel;Bitterstad
-573;8.2667,61.8833;;Innlandet;Bismoen
+573;8.2667,61.8833;2690;Innlandet;Bismoen
 0;6.8667,58.0833;4550;Farsund;Birkjenes
 0;7.2167,58.3667;4595;Hægebostad;Birkjeland
 0;7.2000,58.2833;4590;Hægebostad;Birkjeland
@@ -7613,7 +7613,7 @@
 0;5.0549,60.5249;5311;Askøy;Berland
 0;5.9167,60.2500;5632;Kvam;Berland
 0;5.9389,62.2199;6068;Ulstein;Birkenes
-914;10.0118,62.8250;;Trøndelag;Berkåk
+914;10.0118,62.8250;7391;Trøndelag;Berkåk
 0;10.8333,61.0833;2610;Ringsaker;Bergunnhaugen
 0;4.9014,60.7631;5941;Austrheim;Bergsviki
 0;10.1500,60.3167;;Buskerud;Bergsund
@@ -8101,7 +8101,7 @@
 0;5.4167,61.4667;6983;Askvoll;Ålen
 0;13.1000,66.4000;8732;Lurøy;Aldra
 0;4.7667,61.3167;;Vestland;Alden
-2278;8.5607,60.6302;;Buskerud;Ål
+2278;8.5607,60.6302;3570;Buskerud;Ål
 0;10.5833,60.3500;2711;Gran;Ål
 0;13.1833,66.6667;8187;Rødøy;Åkvik
 0;12.8524,65.9889;;Nordland;Åkvik

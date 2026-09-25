@@ -1722,7 +1722,7 @@
 855;-99.8756,20.7119;76685;Querétaro;Tunas Blancas
 0;-97.3204,20.9096;92860;Veracruz;Tumilco
 3227;-92.3170,17.2775;29921;Chiapas;Tumbala
-18233;-87.4633,20.2117;;Quintana Roo;Tulum
+18233;-87.4633,20.2117;77760;Quintana Roo;Tulum
 0;-97.7333,20.4500;73030;Puebla;Tultitlán
 28017;-99.1679,19.6466;54918;México;Tultitlán de Mariano Escobedo
 65338;-99.1281,19.6850;54963;México;Tultepec
@@ -42643,7 +42643,7 @@
 0;-104.7500,27.2167;33970;Chihuahua;Puerto Presillas
 62689;-113.5380,31.3172;83554;Sonora;Puerto Peñasco
 0;-111.1833,29.9833;83927;Sonora;Puerto Peñasco
-5659;-107.6351,31.7778;;Chihuahua;Puerto Palomas de Villa
+5659;-107.6351,31.7778;31830;Chihuahua;Puerto Palomas de Villa
 0;-111.5333,30.6000;83931;Sonora;Puerto Ocuca
 211;-100.6398,25.1464;67860;Nuevo León;Puerto Grande
 0;-101.2599,22.1203;78495;San Luis Potosí;Puerto Espino
@@ -56258,7 +56258,7 @@
 0;-113.3975,31.4837;83565;Sonora;Colonia Ortiz Garza
 0;-106.7838,28.9540;31612;Chihuahua;Maurilio Ortiz
 0;-103.4558,23.9598;99110;Zacatecas;González Ortega
-514;-106.5489,30.4924;;Chihuahua;Ojo Caliente
+514;-106.5489,30.4924;32800;Chihuahua;Ojo Caliente
 0;-112.8414,30.8224;83714;Sonora;Colonia Oeste Nuúmero Dos
 0;-112.9000,30.8167;83714;Sonora;Colonia Oeste Número Uno
 0;-109.8301,30.2695;84503;Sonora;Álvaro Obregón Norte
@@ -60584,7 +60584,7 @@
 7;-114.5997,27.4773;;Baja California Sur;Puerto Nuevo
 0;-114.5573,27.4467;;Baja California Sur;San Cristóbal
 0;-114.3976,27.1825;;Baja California Sur;San Roque
-13054;-114.0559,27.9600;;Baja California Sur;Guerrero Negro
+13054;-114.0559,27.9600;23940;Baja California Sur;Guerrero Negro
 0;-113.5319,27.5786;23935;Baja California Sur;Valle de Vizcaíno
 0;-113.4663,26.8112;;Baja California Sur;Campo René
 15;-113.4914,27.7422;23949;Baja California Sur;Gustavo Díaz Ordaz Segunda Etapa
@@ -68331,8 +68331,8 @@
 0;-116.3973,31.4336;22903;Baja California;Agua Grande
 0;-116.4199,31.4044;22903;Baja California;La Bronca
 0;-116.4177,31.4212;22903;Baja California;Santa Rosa
-5;-116.4267,31.4198;;Baja California;Rancho Constancia de García
-4;-116.4297,31.4211;;Baja California;Las Codornices
+5;-116.4267,31.4198;22905;Baja California;Rancho Constancia de García
+4;-116.4297,31.4211;22905;Baja California;Las Codornices
 0;-116.4870,31.3829;;Baja California;La Concha
 0;-116.4754,31.3994;;Baja California;Las Chivas
 0;-116.4967,31.4092;;Baja California;San Juan de las Pulgas
@@ -69236,7 +69236,7 @@
 0;-106.5185,30.5531;;Chihuahua;San Gabriel
 0;-106.5829,30.5492;;Chihuahua;Las Águilas
 0;-106.5967,30.5416;;Chihuahua;Guadalupe Dos
-5;-106.5476,30.5284;;Chihuahua;San Juanito
+5;-106.5476,30.5284;32800;Chihuahua;San Juanito
 0;-106.5278,30.5281;;Chihuahua;Rancho Bb
 1;-106.4830,30.5263;32800;Chihuahua;El Chichonal
 0;-106.5967,30.5220;;Chihuahua;El Bimbalete
@@ -118972,7 +118972,7 @@
 41;-86.9735,21.1071;77534;Quintana Roo;Bosques del Caribe
 41;-87.0535,21.0700;77506;Quintana Roo;Emiliano Zapata
 41;-87.3114,20.4256;77776;Quintana Roo;San Martín
-41;-87.4481,20.2428;;Quintana Roo;Tankah Pueblo
+41;-87.4481,20.2428;77780;Quintana Roo;Tankah Pueblo
 41;-101.2817,22.4292;78454;San Luis Potosí;Las Enramadas
 41;-101.0506,22.4361;78455;San Luis Potosí;El Salto
 41;-101.1997,23.0572;78577;San Luis Potosí;Rancho Alegre
@@ -146596,7 +146596,7 @@
 9;-112.3648,27.0706;23913;Baja California Sur;Las Mariolas
 9;-112.7058,26.8843;23916;Baja California Sur;Los Patos
 9;-112.7032,27.0350;23917;Baja California Sur;San Vicente
-9;-114.0137,27.9964;;Baja California Sur;La Pinta [Hotel]
+9;-114.0137,27.9964;23940;Baja California Sur;La Pinta [Hotel]
 9;-112.7759,27.3329;23930;Baja California Sur;Kilómetro 60-A
 9;-111.8730,26.8297;23900;Baja California Sur;Villas Mulegé
 9;-112.0194,26.8825;23900;Baja California Sur;Los Naranjos
@@ -152991,7 +152991,7 @@
 7;-114.8394,32.6369;21911;Baja California;Maldonado (Ejido Morelos) [Empaque]
 7;-115.2489,32.5503;21628;Baja California;Familia Torres Davis (Ejido Sinaloa)
 7;-114.9919,32.4256;21903;Baja California;Carmelita (Colonia Silva) [Empaque]
-7;-114.8917,31.1650;;Baja California;Burócratas [Centro Vacacional]
+7;-114.8917,31.1650;21850;Baja California;Burócratas [Centro Vacacional]
 7;-115.3042,32.6550;21395;Baja California;Familia Arámbula (Colonia la Herradura)
 7;-115.2647,32.4669;21700;Baja California;Familia Hernández (Ejido Hidalgo)
 7;-115.1111,32.2531;21738;Baja California;Familia Hurtado (Ejido Aguascalientes)
@@ -157286,7 +157286,7 @@
 6;-116.3286,31.9500;22770;Baja California;El Centenario
 6;-116.5169,31.6544;22850;Baja California;Rancho Figueroa
 6;-116.3233,31.3042;22910;Baja California;Puente los Novatos (La Presa)
-6;-115.5844,31.3419;;Baja California;Rancho Alborada
+6;-115.5844,31.3419;22917;Baja California;Rancho Alborada
 6;-116.4983,32.1136;22750;Baja California;Viña Alegre
 6;-116.6439,31.9708;22766;Baja California;Campamento Abarim
 6;-116.6264,31.9711;22766;Baja California;Tres Encinos
@@ -164982,7 +164982,7 @@
 5;-92.6319,15.6444;30382;Chiapas;Sinaloa
 5;-92.5958,15.6656;30382;Chiapas;El Tesoro
 5;-106.7772,30.3151;;Chihuahua;Los Ortíz
-5;-106.5320,30.4968;;Chihuahua;La Moneda
+5;-106.5320,30.4968;32800;Chihuahua;La Moneda
 5;-106.5505,30.4207;;Chihuahua;Santa Elisa
 5;-106.7152,30.4043;;Chihuahua;Los Venados
 5;-106.4706,30.5997;;Chihuahua;La Mentira
@@ -168047,7 +168047,7 @@
 5;-86.9896,20.7423;77712;Quintana Roo;Rancho Guadalupe
 5;-87.3937,20.2825;77774;Quintana Roo;Balam Canché
 5;-87.3920,20.3238;77774;Quintana Roo;Dos Ojos
-5;-87.4573,20.1523;;Quintana Roo;Esmeralda K
+5;-87.4573,20.1523;77766;Quintana Roo;Esmeralda K
 5;-87.6511,20.4272;77795;Quintana Roo;Lol Beh
 5;-87.6064,20.3795;77796;Quintana Roo;Santa Martha Fracción Cinco
 5;-87.8967,20.4282;77786;Quintana Roo;Xbecal
@@ -170575,7 +170575,7 @@
 4;-116.4764,31.5700;22795;Baja California;Casa Vieja
 4;-115.0136,30.0250;22830;Baja California;La Victoria
 4;-115.8667,30.4264;22950;Baja California;Rancho Rodríguez
-4;-114.8881,31.1861;;Baja California;Don Abel
+4;-114.8881,31.1861;21850;Baja California;Don Abel
 4;-115.0533,32.4847;21830;Baja California;Familia Reyes Moreno (Ejido Jiquilpan)
 4;-114.8753,31.0997;21850;Baja California;Campo Pai-Pai
 4;-115.1428,32.4775;21620;Baja California;Burcia (Ejido Jalapa)
@@ -170613,7 +170613,7 @@
 4;-115.1086,32.4417;21720;Baja California;Familia Corona
 4;-115.3058,32.5564;21624;Baja California;Familia Gaona Torres
 4;-114.9739,32.6564;21921;Baja California;Familia Hernández
-4;-114.8869,31.1947;;Baja California;Villas de Cortez
+4;-114.8869,31.1947;21850;Baja California;Villas de Cortez
 4;-114.7164,30.9100;21850;Baja California;Misión los Sahuaros
 4;-115.3839,32.6414;21259;Baja California;Familia Valenzuela
 4;-114.8733,32.6367;21960;Baja California;Familia Sánchez
@@ -170769,7 +170769,7 @@
 4;-113.3566,27.5909;23938;Baja California Sur;La Herradura
 4;-112.2903,27.3655;23911;Baja California Sur;Ibarra [Yonque]
 4;-113.3839,27.6530;23938;Baja California Sur;Arvizu [Llantera]
-4;-114.0136,27.9647;;Baja California Sur;Las Perchas
+4;-114.0136,27.9647;23940;Baja California Sur;Las Perchas
 4;-113.3858,27.6406;23938;Baja California Sur;San Carlos
 4;-113.3886,27.6543;23938;Baja California Sur;Los Poblanos [Taquería]
 4;-112.2467,27.3049;23911;Baja California Sur;Boca de San Luciano

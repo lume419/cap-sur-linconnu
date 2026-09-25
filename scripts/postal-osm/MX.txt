@@ -1,0 +1,19 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+20.2117	-87.4633	77760	Tulum	0.014	2026-09-25	77796@5.7km
+27.9600	-114.0559	23940	Guerrero Negro	0.003	2026-09-25	23940@27km
+31.7778	-107.6351	31830	Puerto Palomas de Villa	0.004	2026-09-25	31830@20.9km
+30.4924	-106.5489	32800	Ojo Caliente	0.042	2026-09-25	32800@3.2km
+20.2428	-87.4481	77780	Tankah Pueblo	0.023	2026-09-25	77774@3km
+27.9964	-114.0137	23940	La Pinta [Hotel]	0.035	2026-09-25	23940@26km
+31.1650	-114.8917	21850	Burócratas [Centro Vacacional]	0.06	2026-09-25	21850@1.9km
+31.3419	-115.5844	22917	Rancho Alborada	0.11	2026-09-25	22917@4.2km
+31.4198	-116.4267	22905	Rancho Constancia de García	0.157	2026-09-25	22903@0.9km
+30.5284	-106.5476	32800	San Juanito	0.152	2026-09-25	32800@5.8km
+30.4968	-106.5320	32800	La Moneda	0.012	2026-09-25	32800@2.1km
+20.1523	-87.4573	77766	Esmeralda K	0.04	2026-09-25	77766@1.4km
+31.4211	-116.4297	22905	Las Codornices	0.056	2026-09-25	22903@1.1km
+31.1861	-114.8881	21850	Don Abel	0.315	2026-09-25	21850@4.3km
+31.1947	-114.8869	21850	Villas de Cortez	0.702	2026-09-25	21850@5.2km
+27.9647	-114.0136	23940	Las Perchas	0.047	2026-09-25	23940@24.1km

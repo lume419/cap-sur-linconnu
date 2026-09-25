@@ -181,7 +181,7 @@
 26;115.8737,-32.9289;6215;Western Australia;Wagerup
 26;116.2500,-30.8500;6509;Western Australia;Waddington
 23;136.2551,-33.3130;5640;South Australia;Waddikee
-28;116.1667,-29.8667;;Western Australia;Waddi Forest
+28;116.1667,-29.8667;6515;Western Australia;Waddi Forest
 81;118.4505,-31.9940;6369;Western Australia;Wadderin
 91;138.9997,-34.5260;5352;South Australia;Vine Vale
 0;138.7667,-35.0167;5155;South Australia;Vimy Ridge
@@ -748,7 +748,7 @@
 73;138.6185,-33.0443;5422;South Australia;Mannanarie
 30;117.0977,-30.8486;6465;Western Australia;Manmanning
 4291;116.1456,-34.2412;6258;Western Australia;Manjimup
-2325;134.2294,-12.0483;;Northern Territory;Maningrida
+2325;134.2294,-12.0483;0822;Northern Territory;Maningrida
 54;136.6208,-33.5341;5602;South Australia;Mangalo
 107643;115.7217,-32.5269;6210;Western Australia;Mandurah
 0;117.7630,-30.7994;6476;Western Australia;Mandiga
@@ -4070,7 +4070,7 @@
 31;141.5443,-37.5734;3312;Victoria;Muntham
 146;147.1833,-37.9167;3862;Victoria;Munro
 0;149.9667,-32.1667;;New South Wales;Munmurra
-589;148.9881,-28.9767;;New South Wales;Mungindi
+589;148.9881,-28.9767;2406;New South Wales;Mungindi
 0;149.8274,-32.3747;2850;New South Wales;Munghorn
 0;148.0000,-32.5500;2869;New South Wales;Mungery
 0;148.1167,-32.1333;;New South Wales;Mungeribar
@@ -4772,7 +4772,7 @@
 197;145.7667,-38.0833;3816;Victoria;Longwarry North
 0;149.3667,-33.7667;2795;New South Wales;Long Swamp
 0;149.5833,-31.3500;2357;New South Wales;Long Ridge
-3690;144.2492,-23.4421;;Queensland;Longreach
+3690;144.2492,-23.4421;4730;Queensland;Longreach
 220;145.9802,-18.5181;4850;Queensland;Long Pocket
 0;146.6527,-35.1466;2652;New South Wales;Long Park
 0;147.1444,-42.9791;7109;Tasmania;Longley Lower
@@ -7911,7 +7911,7 @@
 780;146.9262,-36.1479;3691;Victoria;Bandiana
 93;151.2333,-24.7833;4630;Queensland;Bancroft
 0;148.6500,-20.5333;4800;Queensland;Banana Pocket
-394;150.1349,-24.4688;;Queensland;Banana
+394;150.1349,-24.4688;4702;Queensland;Banana
 37;143.9833,-37.9333;3333;Victoria;Bamganie
 0;144.9167,-17.3167;4871;Queensland;Bamford
 98;143.9333,-38.3667;3241;Victoria;Bambra
@@ -8478,7 +8478,7 @@
 284;150.5525,-35.2050;2540;New South Wales;Berrara
 896;150.7167,-33.6094;2753;New South Wales;Agnes Banks
 426;137.8491,-20.9855;;Northern Territory;Alpurrurulam
-236;133.9296,-23.7636;;Northern Territory;Amoonguna
+236;133.9296,-23.7636;0873;Northern Territory;Amoonguna
 410;135.2259,-21.6570;0872;Northern Territory;Ampilatwatja
 222;153.3588,-29.4763;2464;New South Wales;Angourie
 0;136.4614,-13.9803;0822;Northern Territory;Angurugu Community, Anindilyakwa
@@ -8535,7 +8535,7 @@
 189;130.0815,-14.1555;0822;Northern Territory;Peppimenarti
 0;153.3138,-27.6400;4165;Queensland;Point Talburpin
 783;141.6212,-14.8988;4892;Queensland;Pormpuraaw
-880;134.9319,-12.3318;;Northern Territory;Ramingining
+880;134.9319,-12.3318;0822;Northern Territory;Ramingining
 3108;142.7723,-34.5836;3549;Victoria;Robinvale
 565;115.5404,-31.9952;6161;Western Australia;Rottnest Island
 0;142.3360,-10.1834;;Queensland;Saint Pauls
@@ -9103,7 +9103,7 @@
 0;148.4776,-20.2992;4800;Queensland;Bubialo
 236;148.4850,-20.3484;4800;Queensland;Crystal Brook
 0;148.2210,-21.0710;;Queensland;Blenheim
-12;148.2368,-21.1678;;Queensland;Turrawalla
+12;148.2368,-21.1678;4742;Queensland;Turrawalla
 0;148.4525,-21.5641;4742;Queensland;Fort Cooper
 0;148.3872,-21.6810;4742;Queensland;Saint Albands
 0;148.0609,-21.6941;;Queensland;Red Hill
@@ -10819,7 +10819,7 @@
 115;115.9575,-26.8949;6630;Western Australia;Murchison
 0;117.1227,-27.1163;;Western Australia;Meka
 0;117.1995,-26.4144;;Western Australia;Ejah Research Station
-210;113.4167,-26.1333;;Western Australia;Useless Loop
+210;113.4167,-26.1333;6537;Western Australia;Useless Loop
 4650;116.7954,-20.7456;6714;Western Australia;Nickol
 0;144.0154,-39.9767;7256;Tasmania;Ballirida Park
 0;143.9785,-39.9338;7256;Tasmania;Spring Valley
@@ -11261,7 +11261,7 @@
 0;151.2340,-33.6372;2084;New South Wales;Ku Ring Gai Chase
 96;148.6766,-35.1116;2582;New South Wales;Wee Jasper
 460;133.8817,-23.6762;0874;Northern Territory;Stuart
-298;133.7719,-23.7547;;Northern Territory;White Gums
+298;133.7719,-23.7547;0873;Northern Territory;White Gums
 0;153.2344,-27.3869;4178;Queensland;St Helena Island
 0;153.3553,-27.4985;4184;Queensland;Peel Island
 0;153.0992,-26.7627;4551;Queensland;Meridian Plains
@@ -11499,7 +11499,7 @@
 333;153.6087,-28.7291;2481;New South Wales;Broken Head
 337;140.7371,-34.2213;5341;South Australia;Renmark South
 363;151.4902,-32.9271;2323;New South Wales;Mount Vincent
-599;133.8178,-23.7523;;Northern Territory;Ilparpa
+599;133.8178,-23.7523;0873;Northern Territory;Ilparpa
 379;146.0442,-17.5301;4860;Queensland;Webb
 508;146.2524,-38.2127;3825;Victoria;Moe South
 530;153.4356,-28.5470;2482;New South Wales;Mullumbimby Creek
@@ -11511,7 +11511,7 @@
 241;153.2536,-28.8413;2480;New South Wales;Loftville
 424;114.6427,-28.6426;6532;Western Australia;White Peak
 290;152.0369,-26.7224;4615;Queensland;South East Nanango
-400;133.9129,-23.7740;;Northern Territory;Connellan
+400;133.9129,-23.7740;0873;Northern Territory;Connellan
 547;147.1334,-42.9489;7109;Tasmania;Mountain River
 35;139.6001,-34.6022;5354;South Australia;Punyelroo
 212;137.7636,-32.5906;5700;South Australia;Commissariat Point
@@ -12040,7 +12040,7 @@
 276;122.2161,-17.8184;6725;Western Australia;Waterbank
 83;116.9507,-34.9890;6333;Western Australia;Bow Bridge
 131;149.2999,-35.5640;2620;New South Wales;Urila
-433;133.8147,-23.7848;;Northern Territory;Arumbera
+433;133.8147,-23.7848;0873;Northern Territory;Arumbera
 127;152.7652,-25.3888;4655;Queensland;Susan River
 121;147.5882,-37.9778;3875;Victoria;Goon Nure
 114;147.1372,-35.9348;2644;New South Wales;Bowna
@@ -13164,7 +13164,7 @@
 26;142.5197,-37.5643;3379;Victoria;Bornes Hill
 19;117.3117,-30.7751;6475;Western Australia;Badgerin Rock
 4;150.0977,-32.3565;2849;New South Wales;Coggan
-5;145.0646,-23.0833;;Queensland;Ibis
+5;145.0646,-23.0833;4726;Queensland;Ibis
 30;145.2070,-23.9254;;Queensland;Home Creek
 21;146.4110,-38.0013;3825;Victoria;Jacob Creek
 22;119.0076,-32.0251;6369;Western Australia;West Holleton

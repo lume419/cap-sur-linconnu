@@ -1,0 +1,9 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+46.5556	16.4975	9220	Čentiba	0.016	2026-09-25	9227@2.4km
+46.5272	16.4614	9220	Petišovci	0.043	2026-09-25	9225@3.1km
+46.5392	16.5067	9220	Dolina pri Lendavi	0.021	2026-09-25	9227@3.9km
+46.5444	16.4586	9220	Trimlini	0.031	2026-09-25	9225@1.9km
+46.5278	16.5236	9220	Pince	0.027	2026-09-25	9227@5.8km
+46.5080	16.4936	9220	Benica	0.944	2026-09-25	9227@6.3km

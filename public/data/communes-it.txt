@@ -33,12 +33,12 @@
 2269;8.9258,39.3114;09010;Cagliari;Villaspeciosa
 6598;8.9427,39.3813;09038;Sud Sardegna;Villasor
 3008;15.0909,37.2513;96010;Siracusa;Villasmundo
-2999;9.5182,39.1448;;Sardinia;Villasimius
+2999;9.5182,39.1448;09049;Sardinia;Villasimius
 13747;15.6369,38.2199;89018;Reggio Di Calabria;Villa San Giovanni
 1108;9.3902,39.4921;;Sardinia;Villasalto
 4164;14.1709,37.5875;94010;Enna;Villarosa
 457;8.5943,39.0516;09010;Sud Sardegna;Villarios
-3737;9.5756,39.4406;;Sardinia;Villaputzu
+3737;9.5756,39.4406;09040;Sardinia;Villaputzu
 580;14.1934,37.6295;94010;Enna;Villapriolo
 1480;16.4553,39.8457;87076;Cosenza;Villapiana
 0;8.6736,39.1111;09010;Sud Sardegna;Villapetuccio
@@ -62,7 +62,7 @@
 0;13.1690,38.1617;90044;Palermo;Villagrazia
 0;13.3333,38.0833;90148;Palermo;Villagrazia
 2579;9.5094,39.9593;08049;Nuoro;Villagrande Strisaili
-110;9.5615,39.3588;;Sardinia;San Priamo
+110;9.5615,39.3588;09040;Sardinia;San Priamo
 444;16.4830,39.6436;87064;Cosenza;Villaggio Frasso
 3076;13.4849,37.9065;90030;Palermo;Villafrati
 8124;15.4389,38.2395;98049;Messina;Villafranca Tirrena
@@ -276,7 +276,7 @@
 1068;8.5534,39.9303;09072;Oristano;Solanas
 317;15.3092,38.1606;98040;Messina;Soccorso
 0;15.8667,39.9833;85043;Potenza;Sisinni
-178;9.1667,39.5647;;Sardinia;Sisini
+178;9.1667,39.5647;09040;Sardinia;Sisini
 0;8.5500,39.2000;09013;Sud Sardegna;Sirri
 224;8.7751,39.7123;09090;Oristano;Siris
 0;12.9500,37.8833;91013;Trapani;Sirignano
@@ -386,7 +386,7 @@
 1619;16.4086,38.7075;88067;Catanzaro;San Vito Sullo Ionio
 2730;12.7360,38.1739;91010;Trapani;San Vito Lo Capo
 0;16.4667,39.8500;87076;Cosenza;San Vito
-3396;9.5406,39.4414;;Sardinia;San Vito
+3396;9.5406,39.4414;09040;Sardinia;San Vito
 684;16.1511,39.3654;87030;Cosenza;San Vincenzo la Costa
 103;8.7183,39.9386;09088;Oristano;San Vero Congius
 0;15.8833,38.1833;89030;Reggio Di Calabria;Santuario di Polsi
@@ -609,7 +609,7 @@
 0;16.3469,39.0499;88041;Catanzaro;San Bernardo
 684;16.1238,39.4271;87040;Cosenza;San Benedetto Ullano
 0;8.5267,39.3633;09016;Sud Sardegna;San Benedetto
-1281;9.1975,39.5378;;Sardinia;San Basilio
+1281;9.1975,39.5378;09040;Sardinia;San Basilio
 230;15.1039,38.0097;98058;Messina;San Basilio
 0;15.9833,39.9500;87014;Cosenza;San Basile
 999;16.1633,39.8096;87010;Cosenza;San Basile
@@ -959,7 +959,7 @@
 9818;13.7521,37.5807;93014;Caltanissetta;Mussomeli
 1285;8.6661,39.3023;09010;Sud Sardegna;Musei
 0;15.6667,38.2167;89052;Reggio Di Calabria;Musala
-4424;9.5747,39.4197;;Sardinia;Muravera
+4424;9.5747,39.4197;09043;Sardinia;Muravera
 0;14.7500,37.5667;94010;Enna;Muglia
 155;16.0543,38.0263;89030;Reggio Di Calabria;Motticella
 9025;14.9663,37.5121;95040;Catania;Motta Sant'Anastasia
@@ -1143,7 +1143,7 @@
 0;13.4000,38.6167;;Sicily;Marina
 0;14.9500,38.4667;98055;Messina;Marina
 1894;13.9152,37.5984;93010;Caltanissetta;Marianopoli
-664;12.0726,37.9678;;Sicily;Marettimo
+664;12.0726,37.9678;91023;Sicily;Marettimo
 0;16.5000,39.1500;87054;Cosenza;Marchicelli
 1967;16.4876,38.9257;88044;Catanzaro;Marcellinara
 425;16.8361,39.0267;88050;Catanzaro;Marcedusa
@@ -1652,7 +1652,7 @@
 0;14.5500,38.5667;98050;Messina;Chiesa
 3795;16.4086,38.6794;88064;Catanzaro;Chiaravalle Centrale
 4676;14.7030,37.0305;97012;Ragusa;Chiaramonte Gulfi
-274;8.8812,38.9049;;Sardinia;Chia
+274;8.8812,38.9049;09010;Sardinia;Chia
 1555;15.9416,39.5166;87022;Cosenza;Cetraro
 687;16.0296,38.6639;89816;Vibo Valentia;Cessaniti
 2345;14.7131,37.8448;98033;Messina;Cesarò
@@ -1698,7 +1698,7 @@
 1817;15.1216,37.8815;95012;Catania;Castiglione di Sicilia
 1014;16.2882,39.3527;87040;Cosenza;Castiglione Cosentino
 398;16.1596,38.9818;88042;Catanzaro;Castiglione Marittimo
-55;9.4998,39.2370;;Sardinia;Castiadas
+55;9.4998,39.2370;09040;Sardinia;Castiadas
 31680;12.7919,37.6808;91022;Trapani;Castelvetrano
 7350;13.6460,37.5387;92025;Agrigento;Casteltermini
 475;15.2771,37.8583;98030;Messina;Castelmola
@@ -2184,7 +2184,7 @@
 488;9.3807,39.5215;;Sardinia;Armungia
 200;15.7140,38.0706;89131;Reggio Di Calabria;Armo
 0;15.9000,39.9667;85043;Potenza;Armentano
-405;9.1554,39.5343;;Sardinia;Arixi
+405;9.1554,39.5343;09040;Sardinia;Arixi
 1321;9.1927,39.9590;08031;Nuoro;Aritzo
 26;16.2556,38.5681;89831;Vibo Valentia;Ariola
 0;12.4833,37.8167;91025;Trapani;Arini
@@ -2269,19 +2269,19 @@
 7919;14.4930,37.0232;97011;Ragusa;Acate
 0;8.4000,39.1000;09011;Sud Sardegna;Cussorgia
 0;9.3433,39.1925;09045;Cagliari;Terra Mala
-340;9.5250,39.2781;;Sardinia;Olia Speciosa
+340;9.5250,39.2781;09040;Sardinia;Olia Speciosa
 0;9.0094,39.1122;09018;Cagliari;Villa d'Orri
 0;9.0633,39.1958;;Cagliari;Villa Aresu
 0;9.5358,39.1306;;Sardinia;Is Traias
-48;9.5313,39.1312;;Sardinia;Simius
+48;9.5313,39.1312;09049;Sardinia;Simius
 0;9.5250,39.1247;;Sardinia;Tanka Village
 0;9.5203,39.1192;;Sardinia;Serr'e Morus
-19;9.5174,39.1231;;Sardinia;Notteri
+19;9.5174,39.1231;09049;Sardinia;Notteri
 0;9.5061,39.1075;;Sardinia;San Stèfano
 0;9.5075,39.1294;;Sardinia;Oasi dei Due Mari
-11;9.5067,39.1283;;Sardinia;Campulongu
+11;9.5067,39.1283;09049;Sardinia;Campulongu
 0;9.4614,39.1278;;Sardinia;Porto Sa Ruxi
-303;9.4286,39.1369;;Sardinia;Solanas
+303;9.4286,39.1369;09048;Sardinia;Solanas
 107;9.3947,39.1492;09045;Cagliari;Torre delle Stelle
 0;9.3825,39.1667;09045;Cagliari;Marongiu
 0;9.3075,39.2061;09045;Cagliari;Costa degli Angeli
@@ -2300,10 +2300,10 @@
 0;8.9128,38.9181;09010;Cagliari;Pinus Village
 1569;9.6840,39.9903;08040;Nuoro;Santa Maria Navarrese
 1319;9.6265,39.7971;08040;Nuoro;Cardedu
-2027;9.1875,39.5996;;Sardinia;Siurgus Donigala
+2027;9.1875,39.5996;09040;Sardinia;Siurgus Donigala
 0;9.6064,39.5153;;Sardinia;Quirra
-119;9.5053,39.3022;;Sardinia;L'Annunziata
-93;9.5238,39.2965;;Sardinia;Camisa
+119;9.5053,39.3022;09040;Sardinia;L'Annunziata
+93;9.5238,39.2965;09040;Sardinia;Camisa
 40;9.3652,39.3016;09040;Cagliari;San Gregorio
 3888;12.1186,45.7777;31040;Treviso;Volpago del Montello
 0;6.8333,45.0333;10056;Torino;Abbazia
@@ -9176,7 +9176,7 @@
 0;10.1333,46.1500;23031;Sondrio;Mavigna
 0;12.5167,46.4500;32040;Belluno;Mauria
 0;11.0667,43.4833;53037;Siena;Mattone
-5727;16.0509,41.7111;;Apulia;Mattinata
+5727;16.0509,41.7111;71030;Apulia;Mattinata
 0;14.2167,41.6167;86170;Isernia;Matticoli
 39;13.5076,42.7249;64010;Teramo;Mattere
 5214;11.1298,46.0087;38100;Trento;Mattarello
@@ -18851,7 +18851,7 @@
 1483;8.8901,40.9126;07030;Sassari;Viddalba
 1975;9.6145,41.0065;07020;Sassari;Golfo Aranci
 1277;9.7038,40.7047;08020;Sassari;Budoni
-1126;9.2142,39.7799;;Sardinia;Villanova Tulo
+1126;9.2142,39.7799;08030;Sardinia;Villanova Tulo
 1233;8.7342,39.9509;09088;Oristano;Ollastra
 415;8.1959,45.6157;13866;Biella;Casapinta
 216;8.2254,45.5214;13851;Biella;Castelletto Cervo
@@ -19634,7 +19634,7 @@
 487;12.5061,45.5926;30024;Venezia;Millepertiche
 0;14.4142,40.6148;80065;Napoli;Colli di Fontanelle
 1;13.9179,41.3343;81037;Caserta;Le Querce
-393;9.5799,39.2652;;Sardinia;Monte Nai
+393;9.5799,39.2652;09043;Sardinia;Monte Nai
 297;14.1817,42.1841;66016;Chieti;Bocca di Valle
 0;10.8613,45.5305;37015;Verona;Gargagnago
 501;14.5234,36.7891;97010;Ragusa;Caucana-Finaiti-Casuzze-Finaiti N.
@@ -21712,7 +21712,7 @@
 642;11.4413,46.8952;39049;Bolzano-Bozen;Stazione
 642;14.7782,40.9597;83010;Avellino;Capriglia
 642;16.4963,40.3591;75010;Matera;Craco Peschiera
-642;9.5948,39.4381;;Sardinia;Santa Maria
+642;9.5948,39.4381;09040;Sardinia;Santa Maria
 641;11.0963,43.7006;50018;Firenze;San Vincenzo a Torri
 641;8.6071,39.7404;09098;Oristano;Tanca Marchese
 640;11.4587,43.6662;50064;Firenze;Ciliegi
@@ -27705,7 +27705,7 @@
 105;17.1791,40.8921;70013;Bari;Chiacafredda
 105;16.2653,39.3216;87040;Cosenza;Vence Grande
 105;15.8076,38.0911;89060;Reggio Di Calabria;Contrada Ambele
-105;14.3585,38.5356;;Sicily;Alicudi Porto
+105;14.3585,38.5356;98050;Sicily;Alicudi Porto
 105;9.0757,39.2830;09028;Cagliari;Moriscau
 105;8.2510,45.5025;13874;Biella;Garella di Fondo-Isola
 105;7.9351,45.5344;13896;Biella;Castellazzo
@@ -31761,7 +31761,7 @@
 64;15.1064,38.0062;98058;Messina;Vallancazza
 64;14.8618,38.0183;98078;Messina;Colla
 64;13.1010,37.5305;92019;Agrigento;Località Montagna
-64;9.4987,39.2653;;Sardinia;Sabadi
+64;9.4987,39.2653;09040;Sardinia;Sabadi
 64;8.1718,45.6152;13823;Biella;Cesa Bianco
 64;8.1732,45.6700;13833;Biella;Zoccolo
 64;12.6005,44.0045;47900;Rimini;Pozzi
@@ -34738,7 +34738,7 @@
 49;14.1855,37.0879;93012;Caltanissetta;Femmina Morta
 49;15.2011,37.8042;95013;Catania;Ponte Boria
 49;8.5506,40.7784;07100;Sassari;Taniga-Malafede
-49;9.5141,39.2555;;Sardinia;Masone Pardu
+49;9.5141,39.2555;09040;Sardinia;Masone Pardu
 49;14.1045,41.6437;86072;Isernia;Petrara
 49;14.3834,41.5519;86096;Isernia;Pizzillitti
 49;8.1996,45.5047;13874;Biella;Canton Drumma
@@ -36084,7 +36084,7 @@
 44;14.8594,36.8952;97015;Ragusa;San Vito
 44;14.6613,36.8665;97017;Ragusa;Poggio del Sole
 44;8.9369,39.2983;09010;Cagliari;Santa Porada
-44;9.6382,39.4540;;Sardinia;Porto Tramatzu
+44;9.6382,39.4540;09040;Sardinia;Porto Tramatzu
 44;12.7035,45.9719;33084;Pordenone;Lotti
 44;12.6557,45.9847;33084;Pordenone;Fregona
 44;12.8146,45.8669;33079;Pordenone;Melmosa Alta
@@ -38850,7 +38850,7 @@
 36;14.0230,37.4315;93017;Caltanissetta;Prestianni
 36;14.5077,37.6590;94011;Enna;Sant'Anna
 36;14.5356,36.9790;97019;Ragusa;Borgo Fondo Monaci
-36;9.5238,39.3333;;Sardinia;Tuerra I
+36;9.5238,39.3333;09040;Sardinia;Tuerra I
 36;9.0139,39.0846;09018;Cagliari;Zona Industriale
 36;9.1930,39.2627;09044;Cagliari;Zona Industriale
 36;12.5340,45.8649;31040;Treviso;Talmasson
@@ -42764,7 +42764,7 @@
 28;14.8806,38.1348;98060;Messina;Russo
 28;15.1985,37.2473;96011;Siracusa;San Giorgio II
 28;8.9713,38.9941;09010;Cagliari;S'Abuleu
-28;9.4858,39.1389;;Sardinia;Villaggio Mandorli
+28;9.4858,39.1389;09049;Sardinia;Villaggio Mandorli
 28;12.5569,46.0521;33070;Pordenone;Fornaci
 28;12.7164,45.9711;33084;Pordenone;Battistin
 28;12.8892,45.9162;33078;Pordenone;Località Cragnutto
@@ -44618,7 +44618,7 @@
 25;14.6441,37.4988;95040;Catania;Lago
 25;8.5259,40.7799;07100;Sassari;Terrada Sud
 25;8.8665,40.8855;07030;Sassari;Buroni
-25;9.5110,39.2422;;Sardinia;Cappucciu
+25;9.5110,39.2422;09040;Sardinia;Cappucciu
 25;9.0347,39.2726;09030;Cagliari;Is Punteddus
 25;12.9606,46.2287;33090;Pordenone;Sequalins
 25;14.1168,41.5615;86070;Isernia;Colle Masserie
@@ -47343,7 +47343,7 @@
 21;8.3237,40.6574;07040;Sassari;San Marco
 21;8.3659,40.6737;07040;Sassari;Bonassai
 21;9.6029,40.3794;08020;Nuoro;Tennele
-21;9.6068,39.2964;;Sardinia;Capoferrato
+21;9.6068,39.2964;09043;Sardinia;Capoferrato
 21;8.6616,39.0270;09010;Sud Sardegna;Su Fonnesu
 21;12.5516,45.8626;31040;Treviso;Frascada
 21;12.5349,45.8856;33070;Pordenone;Basse
@@ -48086,11 +48086,11 @@
 20;14.6581,37.0260;97010;Ragusa;Coffa
 20;14.8407,37.0375;97010;Ragusa;Cottonera
 20;8.2360,40.6684;07041;Sassari;Baratz
-20;8.8680,38.8984;;Sardinia;Setti Ballas
+20;8.8680,38.8984;09010;Sardinia;Setti Ballas
 20;9.0483,39.3728;09028;Cagliari;Is Argiddas
 20;8.9959,39.0591;09018;Cagliari;Genniauri
-20;9.5080,39.1084;;Sardinia;Cala Caterina
-20;9.5067,39.2831;;Sardinia;Monte Gruttas
+20;9.5080,39.1084;09049;Sardinia;Cala Caterina
+20;9.5067,39.2831;09040;Sardinia;Monte Gruttas
 20;12.8926,46.1842;33090;Pordenone;Cruz
 20;12.9009,46.2029;33090;Pordenone;Martiners
 20;12.5894,45.8867;33080;Pordenone;Battistine
@@ -52447,7 +52447,7 @@
 14;8.7528,40.4096;07012;Sassari;Santa Barbara
 14;8.6344,40.8785;07031;Sassari;Punta Tramontana
 14;9.0122,39.0333;09010;Cagliari;Monte Mereu
-14;9.5210,39.2310;;Sardinia;Sitò
+14;9.5210,39.2310;09040;Sardinia;Sitò
 14;12.8103,46.1880;33090;Pordenone;Mesinis
 14;12.9326,46.1906;33094;Pordenone;Borgo Villa
 14;12.6485,46.0071;33084;Pordenone;Case Tellan
@@ -54092,7 +54092,7 @@
 11;14.5719,36.9706;97013;Ragusa;Borgo del Vivaio
 11;8.6560,40.7913;07033;Sassari;Lungo Valle
 11;8.9395,40.7829;07030;Sassari;Su Muntiju e S'Omine
-11;9.5011,39.1448;;Sardinia;Tanca Su Cordolino
+11;9.5011,39.1448;09049;Sardinia;Tanca Su Cordolino
 11;12.9066,46.2451;33090;Pordenone;Omenars
 11;12.7248,46.1951;33080;Pordenone;Vals
 11;12.8881,45.9929;33098;Pordenone;Grava
@@ -55206,7 +55206,7 @@
 8;15.1863,37.2194;96011;Siracusa;Esso Italiana Srl
 8;8.7798,40.2364;08016;Nuoro;Zona Industriale Tossilo
 8;9.1477,39.1844;09126;Cagliari;Faro
-8;9.5701,39.1726;;Sardinia;Cala Pira
+8;9.5701,39.1726;09040;Sardinia;Cala Pira
 8;12.8939,46.1882;33090;Pordenone;Ceschies
 8;12.5954,45.9670;33080;Pordenone;Bagnador
 8;8.4037,40.0486;09070;Oristano;Su Pallosu
@@ -55684,7 +55684,7 @@
 6;15.1060,37.7301;95010;Catania;Contrada Zappino
 6;14.3593,36.9844;97019;Ragusa;Marina di Acate
 6;8.7938,40.9226;07039;Sassari;Maragnanu
-6;9.5651,39.2148;;Sardinia;Sant'Elmo
+6;9.5651,39.2148;09040;Sardinia;Sant'Elmo
 6;12.9097,46.1950;33090;Pordenone;Romagnoi
 6;12.6171,45.9852;33074;Pordenone;Zone Industriali-Artigianali I-Ii-Iii
 6;12.9363,46.2780;33090;Pordenone;Cerdevol
@@ -56117,7 +56117,7 @@
 4;8.3325,40.6422;07040;Sassari;Tenuta Sella e Mosca
 4;8.2026,40.9141;07040;Sassari;Punta de Su Turrione
 4;9.0669,39.2971;09028;Cagliari;Sa Cantonera
-4;9.5594,39.1932;;Sardinia;Cala Sinzias
+4;9.5594,39.1932;09040;Sardinia;Cala Sinzias
 4;8.5376,39.9151;09072;Oristano;Zona Artigianale Is Cottillaris
 4;7.9866,45.6691;13812;Biella;Gliondini
 4;8.1397,45.4966;13873;Biella;Regione Fraschei
@@ -56319,7 +56319,7 @@
 3;15.2282,37.1157;96010;Siracusa;Isab - Erg
 3;8.6016,40.7001;07030;Sassari;Zona Industriale
 3;8.2294,40.9290;07040;Sassari;Pischina Salidda
-3;9.5960,39.3522;;Sardinia;Villaggio Colostrai
+3;9.5960,39.3522;09043;Sardinia;Villaggio Colostrai
 3;9.4030,45.9128;23811;Lecco;Pian Fontana
 3;9.4931,45.8047;24030;Bergamo;Forcella Alta
 3;8.2797,46.3268;28866;Verbano-Cusio-Ossola;Crampiolo
@@ -56599,7 +56599,7 @@
 1;14.1008,37.7532;90020;Palermo;Salerna
 1;13.0625,38.0310;90040;Palermo;Depuratore
 1;8.1680,40.5859;07041;Sassari;Pischina Salida
-1;8.3354,41.0825;;Sardinia;Cala d'Oliva
+1;8.3354,41.0825;07046;Sardinia;Cala d'Oliva
 1;12.5624,46.0622;33081;Pordenone;C.R.O.-Ospedale
 1;8.7600,39.7655;09090;Oristano;Comunità alle Sorgenti
 1;9.3563,46.0407;23837;Lecco;Monte Basso
@@ -60536,7 +60536,7 @@
 15;14.5236,41.7942;66040;Chieti;San Martino I
 15;16.4814,39.8327;87076;Cosenza;Anzafava II
 15;14.7010,38.1140;98070;Messina;Zona Industriale Zappulla
-15;9.5294,39.3370;;Sardinia;Tuerra II
+15;9.5294,39.3370;09040;Sardinia;Tuerra II
 14;7.8206,44.5263;12041;Cuneo;Ponte della Gorra
 14;10.5227,45.2080;46040;Mantova;Strada San Cassiano Interno
 14;11.0804,45.4977;37030;Verona;Torre di Trezzolano

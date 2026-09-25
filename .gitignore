@@ -5,6 +5,11 @@ node_modules/
 # fichiers sources (jusqu'à ~70 Mo), jamais commités, seuls les fichiers publics/data/*.txt générés
 # le sont. Voir le commentaire en tête de ces deux scripts.
 scripts/dump/
+# Moisson brute de Nominatim (scripts/fetch-osm-postcodes.js) : une ligne par lieu interrogé, réponse comprise.
+# Intermédiaire régénérable, comme les autres collectes ci-dessus — mais le refaire coûte 1 h 50 d interrogation à
+# une requête par seconde, alors GARDEZ-LE si vous l avez. Les TABLES qui en sortent (scripts/postal-osm/XX.txt),
+# elles, sont commitées : le générateur et tests/corrections.test.js les lisent.
+scripts/postal-osm/cache.jsonl
 scripts/postal/
 scripts/altnames/
 # Idem pour les extractions ponctuelles de sources tierces (codes postaux Bosnie/Monténégro/Kosovo,

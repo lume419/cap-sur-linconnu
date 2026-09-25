@@ -7052,7 +7052,7 @@
 0;10.1478,56.7420;9560;Mariagerfjord Kommune;Den hvide hest
 0;10.1468,56.7416;9560;Mariagerfjord Kommune;Visborg Forsamlingshus
 0;10.2604,56.7697;9560;Mariagerfjord Kommune;Hedens Forsamlingshus
-90;15.1866,55.3201;;Capital Region;Christiansø
+90;15.1866,55.3201;3760;Capital Region;Christiansø
 0;9.5015,55.0493;6200;Aabenraa Kommune;Skarrev
 0;8.3579,55.8873;6893;Ringkøbing-Skjern Kommune;Skaven Strand
 0;8.4900,56.5142;7600;Struer Kommune;Paris

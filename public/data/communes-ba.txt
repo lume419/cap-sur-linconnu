@@ -49,8 +49,8 @@
 0;18.3662,44.1123;;Federation of B&H;Žižići
 0;17.7378,44.4212;;Srpska;Žižići
 3718;17.3736,44.5476;;Srpska;Živinice
-13641;18.6498,44.4493;;Federation of B&H;Živinice
-1274;17.9411,44.9632;;Srpska;Živinice
+13641;18.6498,44.4493;75270;Federation of B&H;Živinice
+1274;17.9411,44.9632;74400;Srpska;Živinice
 0;17.9004,44.0280;;Federation of B&H;Živčići
 0;18.6558,44.3997;;;Živčići
 0;18.1722,44.1369;;Federation of B&H;Živalji
@@ -217,7 +217,7 @@
 0;18.3767,44.3875;;;Vukovine
 0;18.9435,43.5650;;Srpska;Vukovine
 0;18.7722,44.4770;;Federation of B&H;Vukovije Gornje
-3535;18.7494,44.4621;;Federation of B&H;Vukovije Donje
+3535;18.7494,44.4621;75273;Federation of B&H;Vukovije Donje
 0;17.4714,44.3685;;Federation of B&H;Vukovići
 0;19.0380,44.1820;;Srpska;Vukovići
 0;18.0506,43.7568;;Federation of B&H;Vukovići
@@ -312,7 +312,7 @@
 0;18.5543,43.9697;;Srpska;Vrhovine
 0;17.8512,44.1671;;Federation of B&H;Vrhovine
 0;18.3556,43.5433;;Srpska;Vrhovina
-359;17.9180,44.9288;;Srpska;Vrhovi
+359;17.9180,44.9288;74418;Srpska;Vrhovi
 0;18.2706,43.8266;;Federation of B&H;Vrelo Bosne
 0;15.8725,44.9259;;Federation of B&H;Vrelo
 0;18.8886,44.2677;;Srpska;Vrelo
@@ -574,7 +574,7 @@
 0;16.1876,44.9187;;Federation of B&H;Veliki Badić
 0;17.9977,44.0052;;Federation of B&H;Velike Sotnice
 0;16.4636,45.0883;;Srpska;Velika Žuljevica
-1489;17.9234,44.8847;;Srpska;Velika Sočanica
+1489;17.9234,44.8847;74418;Srpska;Velika Sočanica
 0;16.3172,44.9348;;Srpska;Velika Rujiška
 3549;19.1618,44.8046;76329;Srpska;Velika Obarska
 0;18.6641,43.4227;;Srpska;Velika Ljubina
@@ -593,7 +593,7 @@
 0;18.3969,43.8683;;Federation of B&H;Velešići
 0;16.8294,44.5060;;Federation of B&H;Velečevo
 0;18.8020,43.4948;;Srpska;Velečevo
-4972;16.7335,44.5562;;Federation of B&H;Velagići
+4972;16.7335,44.5562;79280;Federation of B&H;Velagići
 0;18.1841,43.9098;;Federation of B&H;Vela
 0;17.6077,44.1604;;Federation of B&H;Vejzovići
 0;17.8118,43.4225;;Federation of B&H;Vejzovići
@@ -884,7 +884,7 @@
 0;17.3867,43.3149;88348;Federation of B&H;Tihaljina
 0;17.8878,44.2291;;Federation of B&H;Tetovo Brdo
 0;18.7495,44.5836;;Federation of B&H;Tetima
-1164;17.9160,44.9478;;Srpska;Tetima
+1164;17.9160,44.9478;74400;Srpska;Tetima
 6405;17.8597,44.6064;74270;Srpska;Teslić
 0;18.1881,44.1245;;Federation of B&H;Teševo
 7550;17.9855,44.6119;74260;Federation of B&H;Tešanj
@@ -894,7 +894,7 @@
 0;18.9797,44.6032;;Federation of B&H;Teočak
 0;18.1746,44.6949;;Srpska;Tekućica
 0;19.4677,44.1364;;Srpska;Tegare
-2007;17.7200,43.1133;;Federation of B&H;Tasovčići
+2007;17.7200,43.1133;88300;Federation of B&H;Tasovčići
 0;18.6656,44.3201;;;Tarevo
 0;18.2729,44.9518;;Srpska;Tarevci
 0;18.0955,43.7949;71244;Federation of B&H;Tarčin
@@ -1181,7 +1181,7 @@
 0;18.2495,43.2411;;Srpska;Sopot
 0;18.0811,43.8656;;Federation of B&H;Sopot
 0;18.5417,44.1647;;Federation of B&H;Solun
-4780;18.6932,44.5623;;Federation of B&H;Solina
+4780;18.6932,44.5623;75000;Federation of B&H;Solina
 0;17.9245,44.0999;;Federation of B&H;Solakovići
 0;18.1737,43.1761;;Srpska;Solakovići
 0;19.0959,43.7399;;Srpska;Solakovići
@@ -1213,7 +1213,7 @@
 0;18.8805,43.9082;;Srpska;Smrtići
 0;18.1817,44.0328;;Federation of B&H;Donja Smršnica
 0;17.0081,43.7706;;Federation of B&H;Smričani
-579;17.0008,43.7730;;Federation of B&H;Smričani
+579;17.0008,43.7730;80208;Federation of B&H;Smričani
 0;18.2564,44.0321;;Federation of B&H;Smrekovica
 0;17.7773,43.8785;;Federation of B&H;Smrčevice
 0;18.5063,44.6268;;Federation of B&H;Smoluća Gornja
@@ -1288,7 +1288,7 @@
 0;17.4123,44.6904;;Srpska;Skatavica
 0;17.3931,44.6819;;Srpska;Skatavica
 0;18.6041,44.7929;;Brčko;Skakava Gornja
-4;18.6291,44.8423;;Brčko;Skakava Donja
+4;18.6291,44.8423;76205;Brčko;Skakava Donja
 0;16.3209,44.6386;;Federation of B&H;Skakavac
 0;16.0667,45.0914;;Federation of B&H;Skakavac
 0;18.3121,44.7401;;Federation of B&H;Škahovica
@@ -1491,7 +1491,7 @@
 0;16.7619,44.9188;;Srpska;Saničani
 0;16.5942,45.0209;;Srpska;Saničani
 0;16.7010,44.6357;;Federation of B&H;Sanica Donja
-5666;16.6406,44.6135;;Federation of B&H;Sanica
+5666;16.6406,44.6135;79285;Federation of B&H;Sanica
 0;17.3616,44.1976;;Federation of B&H;Sandžak
 0;18.8910,44.8340;;Brčko;Sandići
 0;19.0600,44.5901;;Srpska;Sandići
@@ -1533,7 +1533,7 @@
 0;18.2252,42.6393;;Federation of B&H;Rupni Do
 0;17.9409,42.8785;;Federation of B&H;Rupni Do
 0;18.2776,43.2090;;Srpska;Rupni Do
-3854;17.5027,43.8315;;Federation of B&H;Rumboci
+3854;17.5027,43.8315;88445;Federation of B&H;Rumboci
 0;18.1959,44.4840;;Federation of B&H;Rujnica
 0;15.7994,44.9525;;Federation of B&H;Rujnica
 0;19.2094,43.9148;;Srpska;Rujišta
@@ -1771,7 +1771,7 @@
 0;17.8882,43.7244;;Federation of B&H;Rajići
 0;18.2187,43.4779;;Federation of B&H;Rajac
 0;17.8664,43.9710;;Federation of B&H;Ragale
-4;17.9731,44.5987;;Federation of B&H;Raduša
+4;17.9731,44.5987;74260;Federation of B&H;Raduša
 0;19.2248,43.6305;;Srpska;Radoželje
 0;18.4587,44.2035;;Federation of B&H;Radoševići
 0;19.3393,44.0204;;Srpska;Radoševići
@@ -2193,11 +2193,11 @@
 0;18.3231,43.1957;;Srpska;Poljice
 0;18.1137,44.0793;;Federation of B&H;Poljice
 0;17.6967,44.2067;;Federation of B&H;Polje Slavka Gavrančića
-1078;17.9722,43.6330;;Federation of B&H;Polje-Bijela
-1125;17.9582,44.9872;;Srpska;Polje
+1078;17.9722,43.6330;88400;Federation of B&H;Polje-Bijela
+1125;17.9582,44.9872;74400;Srpska;Polje
 0;18.3189,43.5172;;Federation of B&H;Polje
 0;18.1149,44.1702;;Federation of B&H;Polje
-3799;18.0745,43.8801;;Federation of B&H;Polje
+3799;18.0745,43.8801;71260;Federation of B&H;Polje
 0;17.2947,44.2506;;Federation of B&H;Polje
 0;16.7243,44.7264;;Federation of B&H;Polje
 0;16.2890,44.8543;;Federation of B&H;Polje
@@ -2365,7 +2365,7 @@
 0;17.1284,43.5257;;Federation of B&H;Podbila
 0;18.0797,43.9590;;Federation of B&H;Podastinje
 0;17.8443,44.1722;72252;Federation of B&H;Počulica
-799;17.7334,43.1343;;Federation of B&H;Počitelj
+799;17.7334,43.1343;88300;Federation of B&H;Počitelj
 0;19.1309,44.2231;;Srpska;Pobuđe
 0;16.6428,44.7733;;Federation of B&H;Pobriježje
 0;17.9968,44.0020;;Federation of B&H;Pobrde
@@ -2783,7 +2783,7 @@
 0;18.5452,44.4271;;Federation of B&H;Omazići
 6466;16.8981,44.8917;79203;Srpska;Omarska
 0;19.4533,43.6604;;Srpska;Omarine
-4;17.9576,44.6983;;Federation of B&H;Omanjska
+4;17.9576,44.6983;74230;Federation of B&H;Omanjska
 0;18.0069,44.7241;;Srpska;Omanjska
 0;19.2549,43.6809;;Srpska;Omačina
 0;18.6176,44.1290;;Federation of B&H;Olovske Luke
@@ -3059,7 +3059,7 @@
 0;19.0377,43.7680;;Srpska;Mokri Lug
 0;18.0176,44.1260;;Federation of B&H;Modrinje
 0;18.7261,43.7980;;Srpska;Modrik
-243;17.9615,44.9202;;Srpska;Modran
+243;17.9615,44.9202;74418;Srpska;Modran
 0;19.1767,44.6722;;Srpska;Modran
 0;18.5139,44.5207;;Federation of B&H;Modrac
 0;16.4704,44.8260;;Federation of B&H;Modra
@@ -3125,7 +3125,7 @@
 0;18.7712,43.8296;;Srpska;Miošići
 0;18.2341,42.7333;;Srpska;Donji Mionići
 0;18.4544,44.8441;;Federation of B&H;Gornja Mionica
-8701;18.4660,44.8665;;Federation of B&H;Mionica
+8701;18.4660,44.8665;76250;Federation of B&H;Mionica
 0;18.0226,44.1493;;Federation of B&H;Mioči
 0;19.4346,43.5969;;Srpska;Miocko polje
 0;18.3834,44.9925;74485;Srpska;Miloševac
@@ -3155,7 +3155,7 @@
 0;16.8138,44.4034;;Srpska;Miljevac
 0;19.0375,43.6003;73283;Srpska;Miljeno
 0;18.4187,43.6598;;Srpska;Milje
-4;17.9372,44.6996;;Federation of B&H;Miljanovci
+4;17.9372,44.6996;74264;Federation of B&H;Miljanovci
 0;18.8473,44.4605;;Federation of B&H;Miljanovići
 0;18.8992,43.6889;;Federation of B&H;Miljanovići
 0;17.6827,44.5946;;Srpska;Miljanovići
@@ -3323,7 +3323,7 @@
 0;16.6236,45.0821;;Srpska;Marini
 0;16.5958,45.0657;;Srpska;Marini
 0;16.5881,45.0785;;Srpska;Marini
-3707;16.8551,44.8680;;Srpska;Marićka
+3707;16.8551,44.8680;79203;Srpska;Marićka
 0;17.6261,44.1622;;Federation of B&H;Margetići
 0;18.8570,43.9638;;Srpska;Margetići
 0;18.9208,43.8218;;Srpska;Maravići
@@ -3404,7 +3404,7 @@
 0;16.0492,44.9933;;Federation of B&H;Mahmić Selo
 0;16.0539,45.0052;;Federation of B&H;Mahmić Selo
 0;18.0703,43.9708;;Federation of B&H;Mahala
-5062;18.2553,44.0119;;Federation of B&H;Mahala
+5062;18.2553,44.0119;71370;Federation of B&H;Mahala
 0;17.9161,42.9533;;Federation of B&H;Mahala
 0;18.9510,44.4130;;Srpska;Mahala
 0;17.1328,44.3269;;Srpska;Mahala
@@ -3536,7 +3536,7 @@
 0;15.8870,44.8300;;Federation of B&H;Lugovi
 0;16.7164,44.8211;;Federation of B&H;Lugovi
 0;18.7253,43.7736;;Srpska;Lugovi
-1139;17.8709,44.9871;;Srpska;Lug
+1139;17.8709,44.9871;74400;Srpska;Lug
 0;17.6260,43.7891;;Federation of B&H;Lug
 0;17.2416,43.7593;;Federation of B&H;Lug
 0;18.2180,42.7764;;Srpska;Lug
@@ -3667,7 +3667,7 @@
 0;17.5589,43.2619;;Federation of B&H;Lipno
 0;18.6266,43.1382;;Srpska;Lipnik
 0;18.6275,44.5605;;Federation of B&H;Lipnica Srednja
-1264;18.6231,44.5951;;Federation of B&H;Lipnica Gornja
+1264;18.6231,44.5951;75213;Federation of B&H;Lipnica Gornja
 0;18.6092,44.5519;;Federation of B&H;Lipnica Donja
 0;17.5430,44.6355;;Srpska;Liplje
 0;18.4886,44.6573;;Federation of B&H;Liplje
@@ -3972,7 +3972,7 @@
 0;17.7566,43.3272;;Federation of B&H;Kozice
 0;17.8756,44.0183;;Federation of B&H;Kozica
 0;18.2969,43.5553;;Federation of B&H;Kozica
-4;16.8114,44.9773;;Srpska;Kozaruša
+4;16.8114,44.9773;79202;Srpska;Kozaruša
 0;18.8925,43.5270;;Srpska;Kozarevina
 0;18.4141,43.8172;;Srpska;Kozarevići
 0;17.7899,44.8224;;Srpska;Kozarevići
@@ -4134,7 +4134,7 @@
 0;17.4877,44.8061;;Srpska;Kokori
 0;17.5070,44.8101;;Srpska;Kokori
 0;18.0142,43.8648;;Federation of B&H;Kojsina
-863;19.2393,44.6897;;Srpska;Kojčinovac
+863;19.2393,44.6897;76316;Srpska;Kojčinovac
 0;17.0753,44.1814;;Srpska;Kojčinovac
 0;16.9320,44.6059;;Srpska;Kočići
 0;17.1372,44.8409;;Srpska;Kočići
@@ -4237,8 +4237,8 @@
 6783;18.6927,44.2267;75280;Federation of B&H;Kladanj
 0;19.0453,44.4508;;Srpska;Kitovnice
 0;19.0546,44.5341;;Srpska;Kiseljak
-3447;18.5698,44.4890;;Federation of B&H;Kiseljak
-8475;18.0813,43.9430;;Federation of B&H;Kiseljak
+3447;18.5698,44.4890;75275;Federation of B&H;Kiseljak
+8475;18.0813,43.9430;71250;Federation of B&H;Kiseljak
 0;18.8694,44.4881;;Federation of B&H;Kiseljak
 0;18.0682,44.4217;;Federation of B&H;Kiseljak
 0;18.0032,44.5707;;Federation of B&H;Kiseljak
@@ -4284,7 +4284,7 @@
 0;17.1944,44.6989;;Srpska;Karanovac
 0;17.3641,45.0379;;Srpska;Donji Karajzovci
 0;16.9549,43.9460;;Federation of B&H;Karajzovci
-3700;18.0177,44.5707;;Federation of B&H;Karadaglije
+3700;18.0177,44.5707;74260;Federation of B&H;Karadaglije
 0;19.3540,44.0254;;Srpska;Karačići
 0;18.9416,43.7840;;Srpska;Karačići
 0;18.2377,44.5183;;Federation of B&H;Karačići
@@ -4297,7 +4297,7 @@
 0;19.1923,43.7066;;Srpska;Kaoštice
 0;17.6081,45.1037;;Srpska;Kaoci
 0;17.4776,44.0332;;Federation of B&H;Kandija
-4;16.8625,44.9538;;Srpska;Kamičani
+4;16.8625,44.9538;79204;Srpska;Kamičani
 0;16.7739,44.6645;;Federation of B&H;Donji Kamičak
 0;18.4570,44.2566;;;Kamensko
 0;18.4530,44.2344;;Federation of B&H;Kamensko
@@ -4390,7 +4390,7 @@
 0;16.3746,44.8941;;Srpska;Johovica
 0;16.1868,44.8951;;Federation of B&H;Johovica
 0;18.0409,44.8261;;Srpska;Johovac
-324;19.2099,44.6284;;Srpska;Johovac
+324;19.2099,44.6284;76316;Srpska;Johovac
 0;15.8141,44.8785;;Federation of B&H;Johovac
 0;19.0730,44.1867;;Srpska;Johovac
 0;16.6830,45.1823;79244;Srpska;Johova
@@ -4775,7 +4775,7 @@
 0;18.1077,43.5663;;Federation of B&H;Grušča
 4627;17.4145,43.3721;88340;Federation of B&H;Grude
 0;17.4460,43.8150;;Federation of B&H;Grude
-6457;18.0550,43.9667;;Federation of B&H;Gromiljak
+6457;18.0550,43.9667;71250;Federation of B&H;Gromiljak
 0;16.0214,44.8872;;Federation of B&H;Grmuša
 0;18.0294,42.8368;;Srpska;Grmljani
 0;17.8712,44.2014;;Federation of B&H;Grm
@@ -4984,7 +4984,7 @@
 0;18.7123,43.7628;;Srpska;Grab
 0;18.4934,43.6921;;Federation of B&H;Govedovići
 0;18.1584,44.1305;;Federation of B&H;Govedovići
-5802;18.1703,44.4112;;Federation of B&H;Gostovići
+5802;18.1703,44.4112;72220;Federation of B&H;Gostovići
 0;17.8192,43.7341;;Federation of B&H;Gostovići
 0;17.5064,44.0278;;Federation of B&H;Goruša
 0;18.2107,44.0368;;Federation of B&H;Goruša
@@ -5062,7 +5062,7 @@
 0;17.1355,44.5159;;Srpska;Bogovići
 0;17.3208,44.4193;;Federation of B&H;Gornji Bešpelj
 0;16.4443,44.9280;;Srpska;Gornji Agići
-4661;18.6167,44.4292;;Federation of B&H;Gornje Živinice
+4661;18.6167,44.4292;75270;Federation of B&H;Gornje Živinice
 0;18.1233,43.8658;;Federation of B&H;Gornje Žeželovo
 0;18.7309,43.6228;;Federation of B&H;Gornje Žešce
 0;17.3839,43.9017;;Federation of B&H;Gornje Vukovsko
@@ -5077,7 +5077,7 @@
 0;17.5636,44.1620;;Federation of B&H;Gornje Pećine
 0;18.9431,43.4850;;Srpska;Gornje Papratno
 0;19.0709,43.8573;;Srpska;Gornje Osovo
-4009;18.1548,44.0191;;Federation of B&H;Gornje Moštre
+4009;18.1548,44.0191;71305;Federation of B&H;Gornje Moštre
 0;18.4618,43.8116;;Srpska;Gornje Međuše
 0;18.4540,44.9168;;Federation of B&H;Gornje Ledenice
 0;18.9952,43.7678;;Srpska;Gornje Kukavice
@@ -5119,7 +5119,7 @@
 0;18.3983,43.0222;;Srpska;Gornja Meka Gruda
 0;18.3498,44.7958;;Federation of B&H;Gornja Međiđa
 0;16.9498,45.2114;;Srpska;Gornja Međeđa
-366;17.9081,44.9139;;Srpska;Gornja Lupljanica
+366;17.9081,44.9139;74418;Srpska;Gornja Lupljanica
 0;18.7258,44.3978;;;Gornja Lukavica
 0;18.1281,44.3897;;Federation of B&H;Gornja Lovnica
 0;18.3547,44.7043;;Federation of B&H;Gornja Lohinja
@@ -5143,7 +5143,7 @@
 0;16.3968,44.9488;;Srpska;Gornja Bukovica
 0;17.4872,43.4613;;Federation of B&H;Gornja Britvica
 0;18.5079,43.2571;;Srpska;Gornja Bodežišta
-352;17.8892,44.9427;;Srpska;Gornja Bišnja
+352;17.8892,44.9427;74418;Srpska;Gornja Bišnja
 0;18.2572,43.9169;;Federation of B&H;Gornja Bioča
 0;18.1141,43.7699;;Federation of B&H;Gornja Bioča
 0;16.0072,44.7280;;Federation of B&H;Gorjevac
@@ -5199,7 +5199,7 @@
 0;19.5058,44.0293;;Srpska;Gođevići
 0;17.9199,43.7724;;Federation of B&H;Gobelovina
 0;17.8567,43.2949;;Federation of B&H;Gnojnice
-3985;18.4468,44.6206;;Federation of B&H;Gnojnica
+3985;18.4468,44.6206;75308;Federation of B&H;Gnojnica
 0;15.9548,44.9604;;Federation of B&H;Gnjilovac
 0;18.2657,45.0044;;Srpska;Gnionica
 0;17.5982,43.8344;;Federation of B&H;Gmići
@@ -5211,7 +5211,7 @@
 0;18.7074,43.8092;;Srpska;Gluhovići
 0;17.7252,44.3308;;Federation of B&H;Gluha Bukovica
 0;18.0915,44.9441;;Srpska;Glogovica
-499;19.2092,44.6934;;Srpska;Glogovac
+499;19.2092,44.6934;76316;Srpska;Glogovac
 0;17.7429,44.8633;;Srpska;Glogovac
 0;15.9900,44.9440;;Federation of B&H;Glogovac
 0;19.2615,44.2116;;Srpska;Glogova
@@ -5505,7 +5505,7 @@
 0;18.7987,44.7645;;Brčko;Dubravice Gornje
 0;18.7998,44.7761;;Brčko;Dubravice Donje
 0;19.2878,44.2644;;Srpska;Dubravice
-3868;18.1188,44.4413;;Federation of B&H;Dubravica
+3868;18.1188,44.4413;72220;Federation of B&H;Dubravica
 0;17.8104,44.1536;;Federation of B&H;Dubravica
 0;15.9039,44.7645;;Federation of B&H;Dubravica
 0;17.7378,43.0269;;Federation of B&H;Dubravica
@@ -5767,7 +5767,7 @@
 0;19.0805,44.2315;;Srpska;Donja Mahala
 0;17.6682,43.1830;;Federation of B&H;Donja Mahala
 0;17.6076,43.7073;;Federation of B&H;Donja Mahala
-719;17.8612,44.9120;;Srpska;Donja Lupljanica
+719;17.8612,44.9120;74418;Srpska;Donja Lupljanica
 0;18.7097,44.4077;;;Donja Lukavica
 0;18.1387,44.4060;;Federation of B&H;Donja Lovnica
 0;18.3482,44.6770;;Federation of B&H;Donja Lohinja
@@ -5780,7 +5780,7 @@
 0;17.1962,45.0025;;Srpska;Donja Jurkovica
 0;17.9126,44.2324;;Federation of B&H;Donja Gračanica
 0;15.8380,44.9336;;Federation of B&H;Donja Gata
-3489;18.4102,45.0756;;Federation of B&H;Donja Dubica
+3489;18.4102,45.0756;76296;Federation of B&H;Donja Dubica
 0;16.5855,45.0185;;Srpska;Donja Dragotinja
 0;17.4176,45.1268;;Srpska;Donja Dolina
 0;18.8098,43.7002;;Federation of B&H;Donja Bukvica
@@ -5789,7 +5789,7 @@
 0;16.4178,44.9457;;Srpska;Donja Bukovica
 0;17.5223,43.4316;;Federation of B&H;Donja Britvica
 0;18.4757,43.2524;;Srpska;Donja Bodežišta
-320;17.8726,44.9542;;Srpska;Donja Bišnja
+320;17.8726,44.9542;74418;Srpska;Donja Bišnja
 0;18.2534,43.9362;;Federation of B&H;Donja Bioča
 0;18.1047,43.7833;;Federation of B&H;Donja Bioča
 0;18.1587,43.3381;;Srpska;Donja Bijenja
@@ -5899,11 +5899,11 @@
 0;18.1665,42.7952;;Srpska;Dobromani
 0;17.0520,43.7880;;Federation of B&H;Dobro
 0;17.0386,44.6553;;Srpska;Dobrnja
-1966;18.5791,44.5799;;Federation of B&H;Dobrnja
+1966;18.5791,44.5799;75212;Federation of B&H;Dobrnja
 3582;16.4787,45.1511;79223;Srpska;Dobrljin
 0;16.5033,45.1469;;Srpska;Dobrljin
 0;17.5511,43.4008;;Federation of B&H;Dobrkovići
-3987;18.1196,44.0501;;Federation of B&H;Dobrinje
+3987;18.1196,44.0501;71305;Federation of B&H;Dobrinje
 0;18.3081,44.9427;;Srpska;Donja Dobrinja
 0;17.8818,44.1765;;Federation of B&H;Dobriljeno
 0;17.1069,43.6500;;Federation of B&H;Dobrići
@@ -5946,7 +5946,7 @@
 0;17.9590,43.8573;;Federation of B&H;Deževice
 0;17.4685,44.8229;;Srpska;Devetina
 0;17.4033,44.8556;;Srpska;Devetina
-2169;18.4568,44.5506;;Federation of B&H;Devetak
+2169;18.4568,44.5506;75300;Federation of B&H;Devetak
 0;16.5163,45.0727;;Srpska;Devetaci
 0;18.0346,44.0335;;Federation of B&H;Devetaci
 0;18.9452,43.7134;;Federation of B&H;Deševa
@@ -6034,7 +6034,7 @@
 0;17.4775,43.1728;;Federation of B&H;Crveni Grm
 0;17.3213,43.5943;;Federation of B&H;Crvenice
 0;17.6111,43.1872;;Federation of B&H;Crnopod
-4;19.0968,44.8425;;Srpska;Crnjelovo Gornje
+4;19.0968,44.8425;76328;Srpska;Crnjelovo Gornje
 4;19.1454,44.8535;76328;Srpska;Crnjelovo Donje
 0;17.8096,43.8374;;Federation of B&H;Crni Vrh
 0;19.2329,43.8128;;Srpska;Crni Vrh
@@ -6120,7 +6120,7 @@
 0;17.2420,44.2895;;Federation of B&H;Cipić
 0;17.1751,45.0653;;Srpska;Cimiroti
 0;16.2158,44.5840;;Federation of B&H;Cimeše
-3966;17.7804,43.3540;;Federation of B&H;Cim
+3966;17.7804,43.3540;88000;Federation of B&H;Cim
 0;16.6249,45.0119;;Srpska;Cikote
 0;17.5976,44.8215;;Srpska;Cikote
 0;17.1034,44.2759;;Srpska;Čifluk
@@ -6175,7 +6175,7 @@
 0;18.1557,45.0651;;Srpska;Cerik
 0;17.4492,44.1086;;Federation of B&H;Ceribašići
 0;18.7255,44.0799;;Srpska;Ceribašići
-1043;17.8593,44.8784;;Srpska;Cerani
+1043;17.8593,44.8784;74418;Srpska;Cerani
 0;18.4058,42.8403;;Srpska;Čepelica
 0;18.3924,42.8636;;Srpska;Čepelica
 0;19.1512,44.6401;;Srpska;Čengić
@@ -6200,7 +6200,7 @@
 4;18.8147,44.7252;75246;Federation of B&H;Čelić
 0;18.9751,43.3839;;Srpska;Čelebići
 0;17.8906,43.6834;;Federation of B&H;Čelebići
-4;16.7390,44.9337;;Srpska;Ćela
+4;16.7390,44.9337;79101;Srpska;Ćela
 0;15.9102,44.8222;;Federation of B&H;Čekrlije
 0;18.2106,43.9911;;Federation of B&H;Čekrčići
 0;17.9578,44.2684;;Federation of B&H;Čekote
@@ -6238,17 +6238,17 @@
 0;18.2624,42.9694;;Srpska;Čardaci
 0;17.3292,44.8832;;Srpska;Čardačani
 0;17.2020,45.0218;;Srpska;Čardačani
-4;16.6729,44.9375;;Srpska;Čarakovo
+4;16.6729,44.9375;79101;Srpska;Čarakovo
 0;16.6956,43.9033;;Federation of B&H;Čaprazlije
 7923;17.6844,43.1214;88300;Federation of B&H;Čapljina
 0;17.7036,43.1139;;Federation of B&H;Čapljina
 0;16.6917,44.7287;;Federation of B&H;Čaplje
 0;18.9646,44.3971;;Srpska;Caparde
 0;18.4542,44.5262;;Federation of B&H;Caparde
-357;18.5999,44.5964;;Federation of B&H;Čanići
+357;18.5999,44.5964;75213;Federation of B&H;Čanići
 0;18.8386,44.3166;;Srpska;Čanići
 0;17.9597,44.7577;;Srpska;Čanići
-1480;18.7580,44.5185;;Federation of B&H;Ćaklovici Gornji
+1480;18.7580,44.5185;75207;Federation of B&H;Ćaklovici Gornji
 0;18.7384,44.5162;;Federation of B&H;Čaklovići Donji
 0;17.6817,44.1504;;Federation of B&H;Čakići
 3909;19.0719,43.5571;73280;Srpska;Čajniče
@@ -6494,7 +6494,7 @@
 0;18.2314,43.8394;;Federation of B&H;Breza
 0;17.7803,44.8187;74210;Srpska;Brestovo
 0;18.4559,43.0666;;Srpska;Donje Brestice
-600;18.6546,44.6103;;Federation of B&H;Breške
+600;18.6546,44.6103;75213;Federation of B&H;Breške
 0;15.8847,44.8836;77205;Federation of B&H;Brekovica
 0;18.8981,43.6619;;Federation of B&H;Brekovi
 0;16.7158,45.1383;;Srpska;Brekinja
@@ -6568,7 +6568,7 @@
 0;16.6595,44.9217;;Srpska;Brdari
 0;16.1889,44.5686;;Federation of B&H;Brdari
 0;16.6051,45.0725;;Srpska;Brdari
-328;18.6870,44.5757;;Federation of B&H;Brđani
+328;18.6870,44.5757;75000;Federation of B&H;Brđani
 0;17.0489,44.2549;;Srpska;Brđani
 0;18.0125,43.7056;;Federation of B&H;Brđani
 0;17.2315,44.4123;;Federation of B&H;Brđani
@@ -6608,7 +6608,7 @@
 0;18.5519,44.7859;;Brčko;Brđani
 0;18.1078,44.7587;;Srpska;Brđani
 0;18.1026,44.7120;;Srpska;Brđani
-5;18.1748,44.7276;;Federation of B&H;Brđani
+5;18.1748,44.7276;74207;Federation of B&H;Brđani
 0;18.0113,44.7826;;Srpska;Brđani
 1;18.1786,44.6867;;Srpska;Brđani
 3;18.2219,44.6795;;Srpska;Brđani
@@ -6999,7 +6999,7 @@
 0;18.8618,43.4753;;Srpska;Bijela Voda
 0;18.4181,42.9290;;Srpska;Bijela Rudina
 0;18.5000,42.8911;;Srpska;Bijela Rudina
-4;18.5668,44.7904;;Brčko;Bosanska Bijela
+4;18.5668,44.7904;76215;Brčko;Bosanska Bijela
 0;19.3925,43.7798;;Srpska;Bijela
 0;17.8088,43.4855;;Federation of B&H;Bijela
 0;17.7967,43.6328;;Federation of B&H;Bijela
@@ -7171,7 +7171,7 @@
 0;18.1473,44.1427;;Federation of B&H;Balići
 0;18.7495,43.3873;;Srpska;Balići
 0;18.5833,43.6667;;Federation of B&H;Balibašići
-1400;19.3393,44.8633;;Srpska;Balatun
+1400;19.3393,44.8633;76310;Srpska;Balatun
 0;17.9351,43.9303;;Federation of B&H;Bakovići
 0;17.1635,44.4149;;Srpska;Bakovići
 0;17.3130,43.9508;;Federation of B&H;Bakovići
@@ -7583,7 +7583,7 @@
 0;18.5853,43.8031;;;Kremenito Brdo
 0;18.5625,43.8075;;;Podkoran
 0;18.7613,43.7773;;Srpska;Podkoran
-3395;18.5700,43.8104;;Srpska;Koran
+3395;18.5700,43.8104;71420;Srpska;Koran
 0;18.5717,43.8044;;;Heljdovište
 0;18.5913,43.8191;;Srpska;Repca
 0;18.9554,43.6808;;Federation of B&H;Repca
@@ -7888,7 +7888,7 @@
 0;18.0762,45.0107;;Srpska;Đurđevići
 0;17.5659,44.7376;78243;Srpska;Dubrava Stara
 0;17.4915,44.7559;;Srpska;Dubrava Stara
-23;17.9861,44.9353;;Srpska;Plehan
+23;17.9861,44.9353;74418;Srpska;Plehan
 0;17.8899,44.9821;;Srpska;Omeragići
 0;15.8098,45.1150;;Federation of B&H;Omeragići
 0;18.6150,43.4740;;Srpska;Omeragići
@@ -7994,7 +7994,7 @@
 0;17.2876,44.8827;;Srpska;Klašnice
 0;17.2690,44.8496;;Srpska;Šušnjari
 0;19.2199,44.1618;;Srpska;Šušnjari
-617;17.9835,44.9670;;Srpska;Šušnjari
+617;17.9835,44.9670;74400;Srpska;Šušnjari
 0;16.9577,44.3105;;Srpska;Šušnjari
 0;17.2967,43.4786;;Federation of B&H;Šušnjari
 0;17.2569,44.9941;;Srpska;Vilusi
@@ -8032,7 +8032,7 @@
 0;16.9392,44.8829;;Srpska;Niševići
 0;16.9044,44.9117;;Srpska;Niševići
 0;16.8097,44.9285;;Srpska;Niševići
-4;16.8075,44.9362;;Srpska;Trnopolje
+4;16.8075,44.9362;79202;Srpska;Trnopolje
 0;16.7886,44.9467;;Srpska;Trnopolje
 0;17.0071,44.7006;;Srpska;Zelenci
 0;16.9902,44.7070;;Srpska;Zelenci
@@ -8432,7 +8432,7 @@
 0;16.5294,44.7771;;Federation of B&H;Milinovići
 0;16.5439,44.7736;;Federation of B&H;Milinovići
 0;18.1212,44.6514;;Srpska;Ilići
-3688;17.7685,43.3477;;Federation of B&H;Ilići
+3688;17.7685,43.3477;88000;Federation of B&H;Ilići
 0;17.3469,44.1080;;Federation of B&H;Ilići
 0;17.3712,44.1230;;Federation of B&H;Ilići
 0;17.1232,44.1069;;Srpska;Ilići
@@ -8490,7 +8490,7 @@
 0;18.1236,43.9956;;Federation of B&H;Alibegovići
 0;18.3264,44.6838;;Federation of B&H;Pribava
 0;18.2528,44.6872;;Srpska;Tešanovići
-1;17.1061,44.6147;;Srpska;Tešanovići
+1;17.1061,44.6147;78206;Srpska;Tešanovići
 0;17.0983,44.6058;;Srpska;Tešanovići
 0;18.2982,44.6584;;Srpska;Kečkovac
 0;18.3851,44.6800;;Federation of B&H;Dobrnići
@@ -9161,8 +9161,8 @@
 0;18.8341,44.3234;;Srpska;Ristići
 0;17.2017,44.9659;;Srpska;Ristići
 0;16.7139,44.7483;;Federation of B&H;Ristići
-2;17.1247,44.6455;;Srpska;Ristići
-1;17.1376,44.6390;;Srpska;Ristići
+2;17.1247,44.6455;78206;Srpska;Ristići
+1;17.1376,44.6390;78206;Srpska;Ristići
 0;17.8617,44.7389;;Srpska;Ristići
 0;18.1144,44.4138;;Federation of B&H;Ristići
 0;18.8729,44.8418;;Brčko;Ristići
@@ -9415,7 +9415,7 @@
 0;19.2017,44.8306;;Srpska;Lipovica
 0;19.1395,44.8308;;Srpska;Lopandići
 0;19.1776,44.7938;;Srpska;Budžak Mahala
-325;19.2036,44.7999;;Srpska;Mala Obarska
+325;19.2036,44.7999;76300;Srpska;Mala Obarska
 0;19.1977,44.8564;;Srpska;Klis
 0;19.2369,44.8708;;Srpska;Dangube
 0;19.2217,44.8558;;;Svinjarovac
@@ -9586,7 +9586,7 @@
 0;15.9811,45.0681;;Federation of B&H;Cer
 0;16.5765,45.0854;;Srpska;Cer
 0;16.5552,45.0804;;Srpska;Cer
-2735;19.1243,44.4140;;Srpska;Karakaj
+2735;19.1243,44.4140;75400;Srpska;Karakaj
 0;19.0280,44.4033;;Srpska;Planinći
 0;19.0578,44.4114;;Srpska;Lažete
 0;17.1396,43.5208;;Federation of B&H;Lažete
@@ -9796,7 +9796,7 @@
 0;15.7986,44.9956;;Federation of B&H;Urga
 0;15.9067,45.0669;;Federation of B&H;Urga
 0;15.9428,45.0116;;Federation of B&H;Urga
-3537;15.8230,44.9857;;Federation of B&H;Pjanići
+3537;15.8230,44.9857;77225;Federation of B&H;Pjanići
 0;18.8249,44.4717;;Federation of B&H;Pjanići
 0;15.8514,44.9369;;Federation of B&H;Graovčevo Brdo
 0;15.8466,44.9324;;Federation of B&H;Lončarevo Brdo
@@ -9966,7 +9966,7 @@
 0;18.1939,44.9817;;Srpska;Smiljanići
 0;16.9493,44.3231;;Srpska;Smiljanići
 0;16.4852,45.1881;;Srpska;Smiljanići
-332;15.8750,44.9359;;Federation of B&H;Medakova Glavica
+332;15.8750,44.9359;77220;Federation of B&H;Medakova Glavica
 0;15.8092,44.9300;;Federation of B&H;Gata Ilidža
 0;15.8682,44.9655;;Federation of B&H;Samardžići
 0;15.8258,44.9772;;Federation of B&H;Samardžići
@@ -10075,7 +10075,7 @@
 0;17.4517,44.5166;;Srpska;Gornja Duboka
 0;17.9492,43.0601;;Federation of B&H;Mihića Mahala
 0;17.7172,43.2103;;Federation of B&H;Krehin Gradac
-350;17.6731,43.1808;;Federation of B&H;Vasilj
+350;17.6731,43.1808;88266;Federation of B&H;Vasilj
 0;17.5697,43.1556;;Federation of B&H;Žabar
 0;17.6619,43.1419;;Federation of B&H;Krča
 0;17.2461,43.9961;;Federation of B&H;Osmanlije
@@ -11111,7 +11111,7 @@
 0;17.3770,44.1903;;Federation of B&H;Barice
 0;17.9498,45.0399;;Srpska;Barice
 0;18.4731,44.2092;;Federation of B&H;Barice
-3697;18.4807,44.5406;;Federation of B&H;Barice
+3697;18.4807,44.5406;75300;Federation of B&H;Barice
 0;18.4443,43.8878;;Federation of B&H;Barice
 0;18.7394,43.4363;;Srpska;Barice
 0;18.2276,44.0665;;Federation of B&H;Barice
@@ -12897,7 +12897,7 @@
 0;16.7810,44.9649;;Srpska;Pecalji
 0;16.8798,44.7845;;Srpska;Gornji Dojčinovići
 0;16.8966,44.7832;;Srpska;Donji Dojčinovići
-4;16.7136,44.9519;;Srpska;Gomjenica
+4;16.7136,44.9519;79101;Srpska;Gomjenica
 0;16.9105,44.7302;;Srpska;Gomjenica
 0;17.8585,44.5779;;Srpska;Gomjenica
 0;16.6993,44.9554;;Srpska;Ganići
@@ -13257,7 +13257,7 @@
 0;18.6888,44.5066;;Federation of B&H;Vidakovići
 0;19.0827,44.4262;;Srpska;Vidakovići
 0;17.2332,44.8927;;Srpska;Zelenike
-436;17.9545,44.9646;;Srpska;Zelenike
+436;17.9545,44.9646;74400;Srpska;Zelenike
 0;17.7005,43.8075;;Federation of B&H;Zelenike
 0;17.8503,43.9811;;Federation of B&H;Zelenike
 0;17.6348,43.3852;;Federation of B&H;Zelenike
@@ -16793,7 +16793,7 @@
 0;18.5215,44.5783;;Federation of B&H;Gornje Šikulje
 0;18.5186,44.5745;;Federation of B&H;Oštro Brdo
 0;18.5280,44.5636;;Federation of B&H;Deđići
-1344;18.5624,44.5757;;Federation of B&H;Mramor Novi
+1344;18.5624,44.5757;75212;Federation of B&H;Mramor Novi
 0;16.9807,44.2634;;Srpska;Draginić Podovi
 0;16.2277,44.7882;;Federation of B&H;Mala Gorinja
 0;16.2365,44.8164;;Federation of B&H;Komasovac
@@ -16825,7 +16825,7 @@
 0;18.5418,44.5292;;Federation of B&H;Tunići
 0;18.5448,44.5261;;Federation of B&H;Veresika
 0;18.5667,44.5218;;Federation of B&H;Iljkići
-1315;18.5947,44.5230;;Federation of B&H;Šički Brod
+1315;18.5947,44.5230;75212;Federation of B&H;Šički Brod
 0;17.9921,42.8449;;Federation of B&H;Budim Do
 0;18.5839,44.5097;;Federation of B&H;Krušići
 0;18.5268,44.5120;;Federation of B&H;Arapčići
@@ -17601,7 +17601,7 @@
 0;18.9606,43.9581;;Srpska;Premac
 0;18.9496,43.9587;;Srpska;Crvenka
 0;18.9247,43.9663;;Srpska;Krševi
-34;18.0897,44.4219;;Federation of B&H;Krševi
+34;18.0897,44.4219;72220;Federation of B&H;Krševi
 0;18.3348,43.7347;;Federation of B&H;Straišta
 0;18.9312,43.9456;;Srpska;Lokvenice
 0;18.9402,43.9374;;Srpska;Babić Kula
@@ -17819,7 +17819,7 @@
 0;18.9454,43.6441;;Federation of B&H;Drekali
 0;18.9937,43.8697;;Srpska;Kusturice
 0;18.9606,43.6453;;Federation of B&H;Dučići
-277;17.0580,43.6920;;Federation of B&H;Dučići
+277;17.0580,43.6920;80209;Federation of B&H;Dučići
 0;19.0217,43.8672;;Srpska;Begzadići
 0;18.7293,43.6910;;Federation of B&H;Raušnice
 0;19.0277,43.8725;;Srpska;Plehići
@@ -18881,7 +18881,7 @@
 0;15.9192,45.0439;;Federation of B&H;Hajdarovac
 0;15.9333,45.0425;;Federation of B&H;Salkić Selo
 0;15.9753,45.0268;;Federation of B&H;Ibarčići
-3553;15.9144,45.0314;;Federation of B&H;Skokovi
+3553;15.9144,45.0314;77226;Federation of B&H;Skokovi
 0;15.9181,45.0320;;Federation of B&H;Družanovići
 0;15.8498,45.0245;;Federation of B&H;Murići
 0;15.8375,45.0269;;Federation of B&H;Porčići
@@ -19022,7 +19022,7 @@
 0;17.4772,43.2814;;Federation of B&H;Barbarići
 0;17.6286,43.2144;;Federation of B&H;Barbarići
 0;17.5193,44.0624;;Federation of B&H;Barbarići
-196;16.7863,45.1305;;Srpska;Vlaškovci
+196;16.7863,45.1305;79240;Srpska;Vlaškovci
 0;16.7909,45.1329;;Srpska;Srednja Kosa
 0;16.6994,45.1572;;Srpska;Srednja Kosa
 0;17.0439,45.1037;;Srpska;Srednja Kosa
@@ -19084,10 +19084,10 @@
 0;16.5985,45.1707;;Srpska;Gornja Slabinja
 0;16.5951,45.1776;;Srpska;Vukote
 0;16.4033,45.0697;;Srpska;Vukote
-51;16.6028,45.1678;;Srpska;Golobrađe
+51;16.6028,45.1678;79224;Srpska;Golobrađe
 0;16.6162,45.1713;;Srpska;Strajići
 0;16.6472,45.1891;;Srpska;Strajići
-95;16.6087,45.1599;;Srpska;Podoška
+95;16.6087,45.1599;79224;Srpska;Podoška
 0;16.6179,45.1420;;Srpska;Zaimovo Selo
 0;16.5496,45.1775;;Srpska;Gumnjani
 0;16.5452,45.1677;;Srpska;Jelisavići
@@ -19469,7 +19469,7 @@
 0;17.2325,43.5510;;Federation of B&H;Tolušići
 0;17.2207,43.5495;;Federation of B&H;Gornje Jaže
 0;17.3669,43.4985;;Federation of B&H;Sobač
-178;17.3695,43.4948;;Federation of B&H;Tribistovo
+178;17.3695,43.4948;88240;Federation of B&H;Tribistovo
 0;17.3793,43.4816;;Federation of B&H;Boričevac
 0;17.1975,43.8331;;Federation of B&H;Brdina
 0;17.3230,43.4789;;Federation of B&H;Gornji Jukići
@@ -20638,7 +20638,7 @@
 0;18.2695,44.0321;;Federation of B&H;Sutješčica
 0;18.2762,44.0285;;Federation of B&H;Vrankamen
 0;18.2825,44.0288;;Federation of B&H;Opreč
-3732;18.2456,44.0376;;Federation of B&H;Gornja Breza
+3732;18.2456,44.0376;71370;Federation of B&H;Gornja Breza
 0;18.2462,44.0317;;Federation of B&H;Frijci
 0;18.2463,44.0218;;Federation of B&H;Zalozje
 0;18.9074,43.3863;;Srpska;Jabuke
@@ -20966,7 +20966,7 @@
 0;18.7702,43.4594;;Srpska;Zadublje
 0;19.2270,43.8911;;Srpska;Joslovići
 0;19.4918,43.5837;;Srpska;Bagrevine
-469;19.4250,43.5997;;Srpska;Mioče (Rudo)
+469;19.4250,43.5997;73260;Srpska;Mioče (Rudo)
 0;19.4325,43.5946;;Srpska;Donje Mioče
 0;19.4228,43.6096;;Srpska;Boranovići
 0;18.7647,43.4662;;Srpska;Perizovići
@@ -21165,7 +21165,7 @@
 0;19.4012,43.7458;73247;Srpska;Dobrun
 0;19.3381,43.7925;;Srpska;Dubovik
 0;19.5014,43.9828;;Srpska;Pravoslavna Žabokvica
-967;19.2636,44.8637;;Srpska;Brodac-Gornji
+967;19.2636,44.8637;76310;Srpska;Brodac-Gornji
 15950;17.9608,43.6513;88400;Federation of B&H;Konjic
 0;18.4600,42.8008;;Srpska;Parežani
 0;18.4425,42.8094;;Srpska;Panik
@@ -21321,15 +21321,15 @@
 0;16.6305,44.6098;;;RESTORAN Kod Paje
 0;16.6162,44.6051;;;Vrelo Sanice
 8996;18.3020,44.9578;74480;Srpska;Modriča
-19;18.0821,44.4188;;;Buljete
+19;18.0821,44.4188;72230;;Buljete
 0;18.0783,44.4169;;;Pejnovići
-16;18.0806,44.4204;;Federation of B&H;Buljetova Luka
-34;18.0781,44.4217;;Federation of B&H;Lanena Bara
+16;18.0806,44.4204;72230;Federation of B&H;Buljetova Luka
+34;18.0781,44.4217;72230;Federation of B&H;Lanena Bara
 1287;17.7007,44.9675;;Srpska;Pečeneg Ilova
 0;17.8780,44.9886;;Srpska;Svilengrad
 0;18.1506,43.7850;;Federation of B&H;Karaosmanovici
 0;18.1927,43.8327;;Federation of B&H;Kucice
-103;18.1415,43.7808;;Federation of B&H;Lihovici
+103;18.1415,43.7808;71243;Federation of B&H;Lihovici
 4;18.5298,43.9861;;Federation of B&H;Han Sici
 0;18.4791,43.9537;;Federation of B&H;Luka kod Stublina
 0;17.5808,43.3860;;Federation of B&H;Puringaj

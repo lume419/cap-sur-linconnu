@@ -1133,7 +1133,7 @@
 0;-86.1202,34.1290;35956;Alabama;Carlisle
 0;-88.0756,33.2946;35471;Alabama;Carloss
 0;-87.0341,32.0871;36741;Alabama;Carlowville
-65;-87.8456,31.3432;;Alabama;Carlton
+65;-87.8456,31.3432;36545;Alabama;Carlton
 0;-86.1891,31.6324;36034;Alabama;Carmen
 0;-87.7192,30.9274;36507;Alabama;Carney
 0;-85.9741,34.8092;35746;Alabama;Carns
@@ -7620,7 +7620,7 @@
 0;-93.2446,33.2424;71754;Arkansas;Partee
 0;-93.2421,35.9531;72666;Arkansas;Parthenon
 0;-92.0401,34.3582;72152;Arkansas;Pastoria
-62;-93.5663,33.5118;;Arkansas;Patmos
+62;-93.5663,33.5118;71801;Arkansas;Patmos
 0;-90.3112,35.0734;72332;Arkansas;Patoka
 0;-90.1218,36.2723;63880;Arkansas;Patterson
 414;-91.2351,35.2567;72123;Arkansas;Patterson
@@ -8007,7 +8007,7 @@
 0;-92.1363,36.3701;72531;Arkansas;Ruth
 0;-91.5387,35.7229;72503;Arkansas;Rutherford
 0;-91.8276,34.5437;72037;Arkansas;Ryan
-146;-91.9979,33.7462;;Arkansas;Rye
+146;-91.9979,33.7462;71665;Arkansas;Rye
 0;-93.4735,35.8881;72776;Arkansas;Ryker
 0;-91.6388,36.3551;72525;Arkansas;Saddle
 0;-91.2901,35.9198;72572;Arkansas;Saffell
@@ -10549,7 +10549,7 @@
 0;-80.8876,28.7280;32754;Florida;Aurantia
 0;-80.6848,28.1359;32934;Florida;Aurora
 0;-87.1016,30.5302;32583;Florida;Avalon Beach
-6242;-81.4381,26.3367;;Florida;Ave Maria
+6242;-81.4381,26.3367;34142;Florida;Ave Maria
 37649;-80.1392,25.9565;33180;Florida;Aventura
 0;-83.0268,30.5780;32053;Florida;Avoca
 0;-80.1770,26.0656;33312;Florida;Avon Park
@@ -11696,7 +11696,7 @@
 0;-80.3573,27.4792;34946;Florida;Harmony Heights
 0;-82.3745,28.0150;33637;Florida;Harney
 0;-81.1451,28.1895;34771;Florida;Harmony
-823;-86.8802,30.6591;;Florida;Harold
+823;-86.8802,30.6591;32583;Florida;Harold
 0;-87.1080,30.5605;32583;Florida;Harp
 0;-86.8791,30.4455;32566;Florida;Harper
 0;-86.7363,30.4141;32569;Florida;Harris
@@ -12395,7 +12395,7 @@
 3976;-81.9734,27.8953;33860;Florida;Mulberry
 0;-81.1384,28.7892;32732;Florida;Mullet Lake Park
 0;-82.5090,28.0400;33614;Florida;Mullis City
-372;-86.8730,30.8577;;Florida;Munson
+372;-86.8730,30.8577;32570;Florida;Munson
 0;-82.1462,27.0128;33948;Florida;Murdock
 0;-81.7162,30.3194;32205;Florida;Murray Hill
 0;-87.3966,30.6058;32533;Florida;Muscogee
@@ -13264,7 +13264,7 @@
 0;-82.5282,29.8327;32616;Florida;Spring Hill
 98621;-82.5255,28.4769;34609;Florida;Spring Hill
 0;-84.3880,30.3394;32310;Florida;Spring Hill
-160;-86.9416,30.7674;;Florida;Spring Hill
+160;-86.9416,30.7674;32570;Florida;Spring Hill
 458;-82.3029,28.4936;34602;Florida;Spring Lake
 9442;-85.6113,30.1533;32404;Florida;Springfield
 0;-81.6534,30.3458;32206;Florida;Springfield
@@ -15509,7 +15509,7 @@
 0;-82.1496,33.5251;30809;Georgia;Evanston
 0;-85.2241,33.0662;36855;Georgia;Evansville
 0;-81.4715,31.3149;31525;Georgia;Evelyn
-158;-81.6387,31.3905;;Georgia;Everett
+158;-81.6387,31.3905;31525;Georgia;Everett
 0;-83.8043,30.7041;31626;Georgia;Everett
 0;-85.1138,34.4948;30105;Georgia;Everett Springs
 0;-84.7391,33.7279;30154;Georgia;Evergreen
@@ -16310,7 +16310,7 @@
 262;-84.4360,33.1040;30206;Georgia;Hilltop
 0;-85.0652,31.2882;36319;Georgia;Hilton
 0;-84.9494,32.4890;31995;Georgia;Hilton Heights
-326;-81.6582,32.8835;;Georgia;Hiltonia
+326;-81.6582,32.8835;30467;Georgia;Hiltonia
 0;-84.9930,32.9815;30241;Georgia;Hilyer
 33398;-81.5960,31.8469;31313;Georgia;Hinesville
 0;-85.3944,34.9084;30750;Georgia;Hinkles
@@ -18965,7 +18965,7 @@
 0;-84.5480,33.3712;30269;Georgia;Summer Brooke
 0;-84.0119,33.8001;30039;Georgia;Summer Place
 0;-83.9157,34.3054;30504;Georgia;Summer Point
-163;-82.2762,32.7460;;Georgia;Summertown
+163;-82.2762,32.7460;30441;Georgia;Summertown
 4452;-85.3477,34.4806;30747;Georgia;Summerville
 0;-84.0313,33.9479;30003;Georgia;Summerville
 0;-82.0185,33.4743;30904;Georgia;Summerville
@@ -19070,7 +19070,7 @@
 0;-82.9243,30.7016;31648;Georgia;Tarver
 0;-83.4399,32.5401;;Georgia;Tarversville
 0;-84.3827,34.4184;30177;Georgia;Tate
-16;-83.5543,34.9818;;Georgia;Tate City
+16;-83.5543,34.9818;30525;Georgia;Tate City
 0;-81.1148,32.0374;31405;Georgia;Tatumsville
 0;-84.5983,32.8118;31836;Georgia;Tax Crossroads
 0;-84.4027,33.5410;30274;Georgia;Taylor Crossing
@@ -23530,7 +23530,7 @@
 88;-98.2042,37.9708;67510;Kansas;Abbyville
 6558;-97.2139,38.9172;67410;Kansas;Abilene
 0;-97.2609,38.8425;67410;Kansas;Acme
-100;-97.8892,39.1514;;Kansas;Ada
+100;-97.8892,39.1514;67467;Kansas;Ada
 0;-97.9776,37.4586;67118;Kansas;Adams
 0;-98.0873,38.0575;67561;Kansas;Adams Corner
 0;-97.1764,37.1734;67119;Kansas;Adamsville
@@ -23914,7 +23914,7 @@
 0;-98.0470,38.9717;67423;Kansas;Edalgo
 1736;-95.0080,38.7647;66021;Kansas;Edgerton
 0;-94.7466,37.5139;66735;Kansas;Edison
-48;-99.8226,39.6272;;Kansas;Edmond
+48;-99.8226,39.6272;67645;Kansas;Edmond
 428;-95.3594,37.0598;67342;Kansas;Edna
 0;-94.6975,37.7834;66701;Kansas;Edward
 4390;-94.8197,39.0611;66111;Kansas;Edwardsville
@@ -24095,7 +24095,7 @@
 0;-99.4451,38.5564;67548;Kansas;Hargrave
 0;-98.7670,39.6056;67638;Kansas;Harlan
 1397;-98.0259,37.2867;67058;Kansas;Harper
-51;-95.4364,38.3195;;Kansas;Harris
+51;-95.4364,38.3195;66032;Kansas;Harris
 369;-95.9558,38.3083;66854;Kansas;Hartford
 243;-95.9617,38.7900;66431;Kansas;Harveyville
 0;-95.6905,37.9389;66783;Kansas;Hasty
@@ -24708,7 +24708,7 @@
 2034;-96.0642,39.8342;66538;Kansas;Seneca
 0;-95.1233,38.1347;66039;Kansas;Selma
 237;-96.2280,37.6223;67137;Kansas;Severy
-61;-98.7948,38.1778;;Kansas;Seward
+61;-98.7948,38.1778;67576;Kansas;Seward
 0;-98.0217,39.0183;67423;Kansas;Shady Bend
 0;-96.9831,38.7394;67492;Kansas;Shady Brook
 0;-95.2433,39.5653;66041;Kansas;Shannon
@@ -24786,7 +24786,7 @@
 0;-96.5961,39.1758;66502;Kansas;Sunset Park
 0;-97.3392,37.5772;67060;Kansas;Sunset Park
 0;-97.7703,37.5008;67106;Kansas;Suppesville
-33;-98.7740,38.6408;;Kansas;Susank
+33;-98.7740,38.6408;67544;Kansas;Susank
 0;-97.0553,39.0483;67431;Kansas;Sutphen
 0;-96.4822,39.1944;66535;Kansas;Swamp Angel
 0;-95.5803,38.8336;66524;Kansas;Swissvale
@@ -32058,7 +32058,7 @@
 0;-92.4235,31.4613;71467;Louisiana;Simms
 618;-93.0154,31.2457;71474;Louisiana;Simpson
 859;-92.7885,32.5346;71275;Louisiana;Simsboro
-287;-93.4124,30.6549;;Louisiana;Singer
+287;-93.4124,30.6549;70660;Louisiana;Singer
 422;-91.1482,29.6871;70340;Louisiana;Siracusaville
 0;-91.0932,30.5896;70714;Louisiana;Ski Stone
 0;-93.0571,32.1007;71002;Louisiana;Skidder
@@ -44949,7 +44949,7 @@
 0;-89.2278,32.3618;39345;Mississippi;Ebenezer
 966;-89.0231,34.3532;38841;Mississippi;Ecru
 0;-90.7915,31.5021;39647;Mississippi;Eddiceton
-100;-90.3234,32.9849;;Mississippi;Eden
+100;-90.3234,32.9849;39194;Mississippi;Eden
 0;-88.9870,30.3935;39531;Mississippi;Edgewater Park
 0;-89.3362,32.7993;39109;Mississippi;Edinburg
 0;-89.7862,31.1771;39429;Mississippi;Edna
@@ -55328,7 +55328,7 @@
 532;-99.7748,36.1350;73832;Oklahoma;Arnett
 0;-99.9651,34.7473;79230;Oklahoma;Arnett
 0;-96.5122,35.6826;74028;Oklahoma;Aron
-272;-95.9655,34.9420;;Oklahoma;Arpelar
+272;-95.9655,34.9420;74501;Oklahoma;Arpelar
 0;-98.4139,34.6390;73503;Oklahoma;Artillery Village
 415;-96.9236,34.9895;74826;Oklahoma;Asher
 63;-96.0697,34.7679;74576;Oklahoma;Ashland
@@ -55399,7 +55399,7 @@
 65;-97.8901,36.1964;73720;Oklahoma;Bison
 0;-97.2198,36.3406;73077;Oklahoma;Black Bear
 24657;-95.8833,35.9420;74008;Oklahoma;Bixby
-108;-96.5961,36.3731;;Oklahoma;Blackburn
+108;-96.5961,36.3731;74038;Oklahoma;Blackburn
 51;-94.9897,35.6098;74962;Oklahoma;Blackgum
 0;-94.6377,35.4306;74948;Oklahoma;Blackjack
 0;-96.4922,36.8292;;Oklahoma;Blackland
@@ -55940,7 +55940,7 @@
 314;-98.2606,35.1884;73042;Oklahoma;Gracemont
 0;-97.6656,34.0204;73561;Oklahoma;Grady
 0;-97.4345,34.3406;73437;Oklahoma;Graham
-31;-96.6506,36.9373;;Oklahoma;Grainola
+31;-96.6506,36.9373;74652;Oklahoma;Grainola
 0;-97.2284,36.8400;74631;Oklahoma;Grainville
 73;-95.0225,36.5042;74349;Oklahoma;Grand Lake Towne
 972;-98.6845,34.2284;73546;Oklahoma;Grandfield
@@ -68593,7 +68593,7 @@
 0;-98.8434,26.3803;78582;Texas;Bella Vista Colonia
 0;-98.3222,26.2753;78573;Texas;Bella Vista Estates Colonia
 0;-98.0092,26.1284;78599;Texas;Bellaire Colonia
-348;-98.0139,33.6365;;Texas;Bellevue
+348;-98.0139,33.6365;76228;Texas;Bellevue
 10164;-97.1089,31.5940;76704;Texas;Bellmead
 1426;-96.4108,33.6104;75414;Texas;Bells
 0;-95.6977,32.7826;75410;Texas;Bellview
@@ -68800,7 +68800,7 @@
 0;-97.5081,32.5557;76126;Texas;Boss
 0;-94.4197,33.4415;75570;Texas;Boston
 0;-95.2722,32.3874;75712;Texas;Bostick
-117;-99.4560,27.7740;;Texas;Botines
+117;-99.4560,27.7740;78041;Texas;Botines
 0;-98.2942,26.3184;78573;Texas;Bougainvillea Colonia
 0;-97.1861,30.9119;76569;Texas;Bowers
 5126;-97.8487,33.5590;76230;Texas;Bowie
@@ -69958,7 +69958,7 @@
 2711;-98.9190,34.0293;76360;Texas;Electra
 0;-96.8189,30.6535;77838;Texas;Elevation
 9039;-97.3703,30.3497;78621;Texas;Elgin
-30;-98.9940,33.2662;;Texas;Elbert
+30;-98.9940,33.2662;76372;Texas;Elbert
 0;-98.7653,32.9598;76481;Texas;Eliasville
 0;-98.3172,26.2534;78572;Texas;Elida Colonia
 0;-94.1888,30.0766;77707;Texas;Elizabeth
@@ -73889,7 +73889,7 @@
 0;-98.3772,26.2315;78572;Texas;South Minnesota Road Colonia Number 3
 371;-97.6775,31.4277;76599;Texas;South Mountain
 0;-98.3792,26.2323;78572;Texas;South Minnesota Road Colonia
-2884;-97.1647,26.1037;;Texas;South Padre Island
+2884;-97.1647,26.1037;78597;Texas;South Padre Island
 0;-97.9553,26.1484;78570;Texas;South Palm Gardens Estates Number 1 Colonia
 0;-97.9553,26.1492;78570;Texas;South Palm Gardens Estates Number 2 Colonia
 1376;-97.3836,25.8687;78521;Texas;South Point
@@ -74065,7 +74065,7 @@
 0;-97.9622,26.2192;78596;Texas;Sunrise Hill Colonia
 0;-99.7131,33.4476;76371;Texas;Sunset
 497;-97.7667,33.4520;76270;Texas;Sunset
-23;-99.4573,27.7942;;Texas;Sunset Acres Colonia
+23;-99.4573,27.7942;78045;Texas;Sunset Acres Colonia
 47;-99.0623,26.4242;78584;Texas;Sunset Colonia
 0;-99.2984,26.8734;78076;Texas;Sunset Villa Colonia
 0;-98.1448,31.8635;76436;Texas;Sunshine
@@ -86738,7 +86738,7 @@
 0;-80.8192,35.8068;28687;North Carolina;Camelot Acres
 0;-86.1694,34.8590;35745;Alabama;Baileytown
 0;-86.6597,34.1637;35083;Alabama;Baileytown
-279;-85.3022,31.7813;;Alabama;Baker Hill
+279;-85.3022,31.7813;36027;Alabama;Baker Hill
 1580;-85.8080,34.0587;35901;Alabama;Ballplay
 0;-85.6355,31.1638;36349;Alabama;Bald Hill
 0;-86.9169,34.1893;35056;Alabama;Baldwin
@@ -96668,7 +96668,7 @@
 0;-69.5723,44.2692;04341;Maine;Halls Corner
 0;-69.0775,44.3776;04952;Maine;Halls Corner
 0;-67.2647,44.7704;04691;Maine;Halls Mills
-267;-67.7939,47.0659;;Maine;Hamlin
+267;-67.7939,47.0659;04785;Maine;Hamlin
 4343;-68.8377,44.7448;04444;Maine;Hampden
 0;-68.8867,44.7490;04444;Maine;Hampden Center
 0;-68.8411,44.7323;04444;Maine;Hampden Highlands
@@ -96703,7 +96703,7 @@
 0;-68.5736,45.7656;04777;Maine;Hay Brook
 0;-69.6189,44.5248;04901;Maine;Hayden Corner
 0;-70.1784,45.3075;;Maine;Hayden Landing
-127;-67.9911,45.8262;;Maine;Haynesville
+127;-67.9911,45.8262;04497;Maine;Haynesville
 0;-69.0717,44.4112;04915;Maine;Hayford Corner
 0;-69.6214,44.1145;04535;Maine;Head Tide
 0;-69.0539,44.4487;04915;Maine;Head of the Tide
@@ -97473,7 +97473,7 @@
 0;-68.2314,47.3395;04773;Maine;Saint David
 600;-68.8898,47.1711;04774;Maine;Saint Francis
 2682;-69.1989,44.0165;04859;Maine;Saint George
-293;-68.8073,47.2084;;Maine;Saint John
+293;-68.8073,47.2084;04743;Maine;Saint John
 0;-70.2781,44.9006;04966;Maine;Salem
 0;-70.5537,43.5962;04004;Maine;Salmon Falls
 0;-68.2836,44.4306;04672;Maine;Salsbury Cove
@@ -97517,7 +97517,7 @@
 636;-69.1167,45.2714;04481;Maine;Sebec
 0;-69.1017,45.2298;04481;Maine;Sebec Corners
 0;-69.3384,45.2998;04443;Maine;Sebec Lake
-43;-68.7111,45.3631;;Maine;Seboeis
+43;-68.7111,45.3631;04448;Maine;Seboeis
 0;-69.7251,45.8806;;Maine;Seboomook
 1146;-68.6161,44.3037;04676;Maine;Sedgwick
 0;-67.9070,45.7726;04424;Maine;Selden
@@ -98428,7 +98428,7 @@
 0;-85.8492,43.2353;49318;Michigan;Canada Corners
 0;-84.9625,41.8078;46737;Michigan;Canada Shores
 2756;-85.3017,43.5792;49346;Michigan;Canadian Lakes
-304;-84.2081,45.1720;;Michigan;Canada Creek Ranch
+304;-84.2081,45.1720;49709;Michigan;Canada Creek Ranch
 0;-84.9153,45.6361;49755;Michigan;Canby Corners
 0;-84.2344,41.7987;49256;Michigan;Canandaigua
 0;-84.2217,45.4606;49759;Michigan;Canfield Beach
@@ -98742,7 +98742,7 @@
 3338;-83.9847,42.9120;48429;Michigan;Durand
 0;-85.5850,42.8411;49528;Michigan;Dutton
 123;-84.7886,42.8078;48822;Michigan;Eagle
-76;-88.1623,47.4582;;Michigan;Eagle Harbor
+76;-88.1623,47.4582;49950;Michigan;Eagle Harbor
 0;-88.2776,47.4074;49950;Michigan;Eagle Nest
 0;-85.9831,41.8953;49031;Michigan;Eagle Point
 71;-88.2957,47.4138;49950;Michigan;Eagle River
@@ -101086,7 +101086,7 @@
 811;-93.4188,47.2955;55722;Minnesota;Bovey
 283;-94.4095,45.8194;56314;Minnesota;Bowlus
 0;-93.7966,47.5430;56631;Minnesota;Bowstring
-46;-94.1222,47.1680;;Minnesota;Boy River
+46;-94.1222,47.1680;56672;Minnesota;Boy River
 0;-94.9389,45.7494;56378;Minnesota;Boyack Mobile Home Park
 166;-95.9031,44.8486;56218;Minnesota;Boyd
 0;-93.3688,45.5225;55008;Minnesota;Bradford
@@ -101453,7 +101453,7 @@
 0;-93.2838,44.5619;55020;Minnesota;Eidswold
 242;-91.4615,43.5080;55931;Minnesota;Eitzen
 155;-92.0188,44.0886;55910;Minnesota;Elba
-95;-95.5461,47.1483;;Minnesota;Elbow Lake
+95;-95.5461,47.1483;56589;Minnesota;Elbow Lake
 1144;-95.9767,45.9941;56531;Minnesota;Elbow Lake
 0;-95.5520,47.1466;;Minnesota;Elbow Lake Village
 0;-92.2799,46.7099;55808;Minnesota;Eldes Corner
@@ -102306,7 +102306,7 @@
 0;-93.2205,44.8222;55425;Minnesota;Nicols
 0;-92.8782,43.6747;55918;Minnesota;Nicolville
 89;-96.8151,47.5275;56568;Minnesota;Nielsville
-68;-94.8808,46.6388;;Minnesota;Nimrod
+68;-94.8808,46.6388;56477;Minnesota;Nimrod
 0;-92.9022,44.7691;55033;Minnesota;Nininger
 0;-91.4363,43.9050;55925;Minnesota;Nodine
 2011;-94.2886,46.5205;56468;Minnesota;Nisswa
@@ -102621,7 +102621,7 @@
 0;-95.1667,46.0775;56446;Minnesota;Rose City
 399;-92.8319,43.6036;55970;Minnesota;Rose Creek
 0;-94.8222,45.6722;56352;Minnesota;Rose Terrace Mobile Home Park
-2715;-95.7628,48.8461;;Minnesota;Roseau
+2715;-95.7628,48.8461;56751;Minnesota;Roseau
 0;-95.1053,44.9352;56216;Minnesota;Roseland
 23413;-93.1258,44.7394;55068;Minnesota;Rosemount
 0;-96.4014,45.1536;56212;Minnesota;Rosen
@@ -103570,7 +103570,7 @@
 19;-98.9354,48.8525;58323;North Dakota;Calvin
 0;-98.9210,48.0569;58301;North Dakota;Camp Grafton
 1122;-99.2099,48.4867;58324;North Dakota;Cando
-2072;-99.1262,47.4497;;North Dakota;Carrington
+2072;-99.1262,47.4497;58421;North Dakota;Carrington
 0;-97.2987,48.4847;58237;North Dakota;Cashel
 2521;-97.2112,46.9005;58012;North Dakota;Casselton
 42;-99.4090,47.5533;58422;North Dakota;Cathay
@@ -103608,7 +103608,7 @@
 253;-97.0701,46.7141;58021;North Dakota;Davenport
 61;-99.7515,46.8686;58428;North Dakota;Dawson
 102;-98.2018,47.1905;58429;North Dakota;Dazey
-30;-97.3351,46.2672;;North Dakota;De Lamere
+30;-97.3351,46.2672;58060;North Dakota;De Lamere
 0;-98.7898,46.4425;58433;North Dakota;Deisem
 0;-98.5576,48.4770;58338;North Dakota;Derrick
 7351;-98.8651,48.1128;58301;North Dakota;Devils Lake
@@ -103707,7 +103707,7 @@
 0;-97.6670,47.9253;58251;North Dakota;Hannah Junction
 12;-99.3829,48.9500;58339;North Dakota;Hansboro
 0;-99.5190,48.1636;58386;North Dakota;Harlow
-1779;-99.9354,47.7697;;North Dakota;Harvey
+1779;-99.9354,47.7697;58341;North Dakota;Harvey
 788;-96.8806,46.9794;58042;North Dakota;Harwood
 0;-98.0945,46.6839;58461;North Dakota;Hastings
 765;-97.4534,47.6397;58240;North Dakota;Hatton
@@ -103834,7 +103834,7 @@
 359;-97.5548,48.9861;58265;North Dakota;Neche
 47;-98.3704,48.5772;58355;North Dakota;Nekoma
 224;-99.2524,48.0714;58351;North Dakota;Minnewaukan
-1390;-99.1379,47.6800;;North Dakota;New Rockford
+1390;-99.1379,47.6800;58356;North Dakota;New Rockford
 0;-97.0995,46.9911;58004;North Dakota;Newman
 0;-98.9874,48.5586;58331;North Dakota;Newville
 51;-97.8704,47.9964;58266;North Dakota;Niagara
@@ -103954,7 +103954,7 @@
 0;-98.1248,48.9058;;North Dakota;Vang
 0;-99.0807,47.1889;58476;North Dakota;Vashti
 0;-97.4462,46.4864;58068;North Dakota;Venlo
-10;-99.5462,45.9986;;North Dakota;Venturia
+10;-99.5462,45.9986;58413;North Dakota;Venturia
 86;-98.0723,46.3639;58490;North Dakota;Verona
 0;-97.5573,48.3253;58273;North Dakota;Veseleyville
 0;-97.4554,48.2964;58233;North Dakota;Voss
@@ -104103,7 +104103,7 @@
 58;-96.3000,40.5356;68324;Nebraska;Burr
 0;-99.5596,41.1256;;Nebraska;Burr Oak
 0;-97.5017,40.5814;68351;Nebraska;Burress
-10;-99.5918,42.9117;;Nebraska;Burton
+10;-99.5918,42.9117;68778;Nebraska;Burton
 1211;-99.1332,41.7817;68823;Nebraska;Burwell
 310;-98.8493,42.9114;68722;Nebraska;Butte
 0;-96.3503,41.3058;68064;Nebraska;C and K Mobile Home Park
@@ -104772,7 +104772,7 @@
 552;-96.8317,41.0814;68065;Nebraska;Valparaiso
 75;-96.3536,41.2339;68073;Nebraska;Venice
 0;-98.2678,42.4572;68766;Nebraska;Venus
-30;-98.1926,42.8111;;Nebraska;Verdel
+30;-98.1926,42.8111;68760;Nebraska;Verdel
 552;-98.0337,42.5969;68783;Nebraska;Verdigre
 167;-95.7128,40.1483;68457;Nebraska;Verdon
 0;-97.9662,40.5536;68975;Nebraska;Verona
@@ -124889,7 +124889,7 @@
 0;-97.7715,44.2622;57353;South Dakota;Esmond
 756;-96.9023,44.5747;57234;South Dakota;Estelline
 331;-97.9881,43.5478;57334;South Dakota;Ethan
-844;-99.6196,45.7694;;South Dakota;Eureka
+844;-99.6196,45.7694;57437;South Dakota;Eureka
 113;-98.8884,43.0275;57335;South Dakota;Fairfax
 65;-96.4900,43.2216;57027;South Dakota;Fairview
 0;-97.5253,42.8672;57078;South Dakota;Fairview Heights
@@ -125100,7 +125100,7 @@
 473;-99.3957,43.7961;57365;South Dakota;Oacoma
 0;-97.5328,42.8667;57078;South Dakota;Oak Hills Addition
 0;-96.4920,43.7305;57030;South Dakota;Oak Park Estates
-13;-99.2107,43.6008;;South Dakota;Ola
+13;-99.2107,43.6008;57325;South Dakota;Ola
 128;-97.3079,44.2275;57051;South Dakota;Oldham
 73;-97.6753,43.2408;57052;South Dakota;Olivet
 14;-99.4662,45.1928;57466;South Dakota;Onaka
@@ -125209,7 +125209,7 @@
 285;-98.4373,43.5892;57375;South Dakota;Stickney
 103;-96.8020,45.0997;57264;South Dakota;Stockholm
 0;-97.0598,44.6022;57248;South Dakota;Stone Bridge
-6;-98.3515,43.8636;;South Dakota;Storla
+6;-98.3515,43.8636;57359;South Dakota;Storla
 69;-96.7606,45.0441;57265;South Dakota;Strandburg
 73;-98.3048,45.3164;57474;South Dakota;Stratford
 291;-97.0365,45.3044;57266;South Dakota;Summit
@@ -125266,7 +125266,7 @@
 0;-97.8379,45.7922;57430;South Dakota;West Britton
 134;-98.4970,45.6489;57481;South Dakota;Westport
 0;-97.0234,42.9242;57073;South Dakota;Westreville
-8;-98.7679,45.6253;;South Dakota;Wetonka
+8;-98.7679,45.6253;57481;South Dakota;Wetonka
 0;-99.7810,43.0106;;South Dakota;Wewela
 491;-96.6498,44.4347;57276;South Dakota;White
 370;-98.7137,43.7303;57383;South Dakota;White Lake
@@ -127014,7 +127014,7 @@
 0;-87.7459,43.8492;53083;Wisconsin;Hayen
 0;-88.4229,44.9997;54174;Wisconsin;Hayes
 0;-88.1162,44.0225;53014;Wisconsin;Hayton
-2296;-91.4846,46.0130;;Wisconsin;Hayward
+2296;-91.4846,46.0130;54843;Wisconsin;Hayward
 1247;-90.4346,42.5328;53811;Wisconsin;Hazel Green
 0;-89.7251,45.8077;54531;Wisconsin;Hazelhurst
 0;-89.7154,45.5472;54532;Wisconsin;Heafford Junction
@@ -127048,7 +127048,7 @@
 1106;-88.1640,44.1403;54129;Wisconsin;Hilbert
 0;-88.1595,44.1461;54129;Wisconsin;Hilbert Junction
 0;-88.3551,42.7884;53120;Wisconsin;Hilburn
-167;-88.9773,45.7039;;Wisconsin;Hiles
+167;-88.9773,45.7039;54541;Wisconsin;Hiles
 0;-90.1126,43.4244;53937;Wisconsin;Hill Point
 0;-91.8983,46.5030;54842;Wisconsin;Hillcrest
 1420;-90.3440,43.6522;53962;Wisconsin;Hillsboro
@@ -129003,7 +129003,7 @@
 0;-112.2063,33.5764;85345;Arizona;Braemar VII
 0;-110.9118,33.0515;85137;Arizona;Branaman
 0;-112.3546,34.4389;86303;Arizona;Breezy Pines
-676;-113.9447,33.6797;;Arizona;Brenda
+676;-113.9447,33.6797;85348;Arizona;Brenda
 0;-111.7518,33.4192;85213;Arizona;Brentwood Mobile Manor
 0;-111.7604,33.4100;85204;Arizona;Brentwood West
 0;-111.7965,33.3628;85299;Arizona;Breckenridge Manor
@@ -129086,7 +129086,7 @@
 5341;-111.9508,33.8333;85327;Arizona;Cave Creek
 0;-109.4223,31.4915;;Arizona;Cazador
 0;-113.7944,34.7786;;Arizona;Cedar
-318;-110.1737,33.8956;;Arizona;Cedar Creek
+318;-110.1737,33.8956;85941;Arizona;Cedar Creek
 0;-111.9965,34.4720;;Arizona;Cedar Mill
 0;-111.8457,33.3334;85224;Arizona;Cedar Ridge
 0;-110.3643,35.4517;;Arizona;Cedar Springs
@@ -129127,7 +129127,7 @@
 271;-114.1994,35.4144;86431;Arizona;Chloride
 0;-111.7768,31.6673;;Arizona;Choulic
 0;-110.7426,33.0623;85192;Arizona;Christmas
-156;-111.0171,34.3153;;Arizona;Christopher Creek
+156;-111.0171,34.3153;85541;Arizona;Christopher Creek
 0;-110.5668,33.7403;;Arizona;Chrysotile
 269;-111.7832,32.7520;85130;Arizona;Chuichu
 0;-112.1051,31.7656;;Arizona;Chukut Kuk
@@ -129283,7 +129283,7 @@
 0;-109.8342,32.8962;85543;Arizona;Dublin
 959;-110.7290,32.9190;85192;Arizona;Dudleyville
 0;-111.9785,34.3620;86333;Arizona;Dugas
-799;-109.1053,32.7215;;Arizona;Duncan
+799;-109.1053,32.7215;85534;Arizona;Duncan
 0;-110.6854,31.3709;;Arizona;Duquesne
 0;-110.8049,34.5739;85931;Arizona;Durfee Crossing
 0;-111.9188,33.3484;85284;Arizona;Dusk File
@@ -129373,7 +129373,7 @@
 0;-109.1384,32.7431;;Arizona;Fox
 0;-112.2163,33.5923;85381;Arizona;Fox Glen
 0;-114.2683,34.7394;;Arizona;Franconia
-92;-109.0792,32.6776;;Arizona;Franklin
+92;-109.0792,32.6776;85534;Arizona;Franklin
 0;-113.0721,35.7825;;Arizona;Frazier Wells
 1322;-112.5266,36.9455;86022;Arizona;Fredonia
 84;-111.3004,34.3173;85547;Arizona;Freedom Acres
@@ -129546,7 +129546,7 @@
 0;-112.2568,33.4517;85353;Arizona;J and M Trailer Park
 0;-111.8960,32.6053;;Arizona;Jackrabbit House
 0;-112.2163,36.7133;;Arizona;Jacob Lake
-76;-111.3193,34.0106;;Arizona;Jakes Corner
+76;-111.3193,34.0106;85541;Arizona;Jakes Corner
 293;-110.1368,35.7745;;Arizona;Jeddito
 0;-111.0290,32.2959;85705;Arizona;Jaynes
 456;-112.1138,34.7489;86331;Arizona;Jerome
@@ -129588,14 +129588,14 @@
 0;-111.0620,32.3348;85741;Arizona;Kino
 0;-112.7121,34.4175;86338;Arizona;Kirkland
 0;-112.6652,34.3692;;Arizona;Kirkland Junction
-242;-109.5282,35.5020;;Arizona;Klagetoh
+242;-109.5282,35.5020;86505;Arizona;Klagetoh
 0;-110.3323,32.8353;;Arizona;Klondyke
 0;-111.8871,33.3773;85202;Arizona;Knoell East
 0;-111.7837,33.3909;85204;Arizona;Knoell Mesa
 46;-111.8954,32.0770;85634;Arizona;Ko Vaya
 0;-113.6466,32.8820;;Arizona;Kofa
 27;-112.0057,32.5784;;Arizona;Kohatk
-46;-111.0943,34.3253;;Arizona;Kohls Ranch
+46;-111.0943,34.3253;85541;Arizona;Kohls Ranch
 0;-110.1254,35.7803;;Arizona;Kokopnyama
 0;-111.6709,31.6106;;Arizona;Kom Kug
 0;-112.3490,31.9598;;Arizona;Kom Vo
@@ -129821,7 +129821,7 @@
 0;-111.7632,34.7792;86341;Arizona;Oak Creek
 0;-113.5838,36.1528;;Arizona;Oak Grove
 0;-112.4446,34.5153;86303;Arizona;Oak Knoll Village
-63;-109.1276,35.4756;;Arizona;Oak Springs
+63;-109.1276,35.4756;86515;Arizona;Oak Springs
 0;-110.9376,32.7890;;Arizona;Oak Wells
 135;-114.3836,35.0264;86433;Arizona;Oatman
 0;-111.8585,33.2437;85248;Arizona;Ocotillo
@@ -129911,7 +129911,7 @@
 0;-111.4818,34.9620;86038;Arizona;Pilgrim Playground
 2524;-109.8284,32.8966;85543;Arizona;Pima
 439;-110.7537,33.3762;85502;Arizona;Pinal
-682;-110.4526,31.9506;;Arizona;Pimaco Two
+682;-110.4526,31.9506;85602;Arizona;Pimaco Two
 0;-112.5730,35.2272;86320;Arizona;Pinaveta
 1963;-111.4551,34.3845;85544;Arizona;Pine
 0;-109.2801,35.4053;;Arizona;Pine Springs
@@ -130040,7 +130040,7 @@
 0;-112.1676,33.5448;85301;Arizona;Roles Inn of America
 0;-113.9891,32.7517;85347;Arizona;Roll
 0;-110.8120,32.2012;85710;Arizona;Rolling Hills Country Club Estates
-28;-111.1343,33.6675;;Arizona;Roosevelt
+28;-111.1343,33.6675;85545;Arizona;Roosevelt
 0;-111.0035,33.6223;85545;Arizona;Roosevelt Lake Estates
 0;-111.2704,33.8189;85553;Arizona;Roosevelt Lake Gardens East
 0;-111.3062,33.8506;85553;Arizona;Roosevelt Lake Gardens West
@@ -130095,7 +130095,7 @@
 3551;-110.6309,32.5998;85631;Arizona;San Manuel
 0;-111.4882,32.0834;;Arizona;San Pedro
 0;-112.0243,31.7373;;Arizona;San Rafael
-165;-109.2276,32.2679;;Arizona;San Simon
+165;-109.2276,32.2679;85632;Arizona;San Simon
 0;-111.7910,33.3034;85225;Arizona;San Tan Mobile Village
 0;-111.6371,32.0117;;Arizona;San Vicente
 0;-109.5429,32.8695;85546;Arizona;Sanchez
@@ -130330,7 +130330,7 @@
 1424;-111.2946,33.8317;85553;Arizona;Tonto Basin
 0;-111.0946,34.3589;;Arizona;Tonto Estate
 0;-111.8288,33.8687;85377;Arizona;Tonto Hills Subdivision
-256;-111.1321,34.3162;;Arizona;Tonto Village
+256;-111.1321,34.3162;85541;Arizona;Tonto Village
 231;-110.9926,33.3495;85173;Arizona;Top-of-the-World
 299;-111.8257,31.8140;85639;Arizona;Topawa
 10;-114.4872,34.7183;86436;Arizona;Topock
@@ -130384,7 +130384,7 @@
 0;-112.0310,31.7056;;Arizona;Vakamok
 0;-112.5841,33.3795;85326;Arizona;Valencia
 38;-113.6577,35.3875;86437;Arizona;Valentine
-832;-112.1385,35.6536;;Arizona;Valle
+832;-112.1385,35.6536;86046;Arizona;Valle
 0;-111.4473,32.9884;85191;Arizona;Valley Farms
 0;-111.8382,33.3175;85246;Arizona;Valley Mobile Homes Estate
 0;-111.6215,33.4145;85207;Arizona;Valley Palms Mobile Home Park
@@ -130403,7 +130403,7 @@
 122;-109.6929,34.2575;85940;Arizona;Vernon
 0;-111.8710,34.5828;86322;Arizona;Verde River Meadows One
 0;-112.2904,32.0153;;Arizona;Viason Chin
-597;-113.7522,33.7445;;Arizona;Vicksburg
+597;-113.7522,33.7445;85348;Arizona;Vicksburg
 0;-113.7674,33.7189;;Arizona;Vicksburg Junction
 0;-111.0682,34.5711;;Arizona;Victorine Crossing
 0;-112.2563,33.5898;85372;Arizona;Villa Vista
@@ -130424,7 +130424,7 @@
 0;-111.8563,33.3334;85224;Arizona;Warner Park
 0;-109.8784,31.4109;85603;Arizona;Warren
 0;-110.6912,31.3820;;Arizona;Washington Camp
-70;-111.2676,34.4245;;Arizona;Washington Park
+70;-111.2676,34.4245;85541;Arizona;Washington Park
 0;-112.4096,33.5662;85355;Arizona;Wayne
 0;-112.3671,33.5525;85307;Arizona;Webb
 0;-112.2154,33.6139;85381;Arizona;Weedville
@@ -130467,7 +130467,7 @@
 868;-112.5868,34.4259;86338;Arizona;Wilhoit
 0;-112.2641,35.7619;;Arizona;Willaha
 3552;-109.8320,32.2529;85644;Arizona;Willcox
-3122;-112.1910,35.2495;;Arizona;Williams
+3122;-112.1910,35.2495;86046;Arizona;Williams
 0;-112.1355,35.2431;;Arizona;Williams Junction
 5438;-112.5410,34.6900;86304;Arizona;Williamson
 0;-110.9784,33.7148;85545;Arizona;Willow
@@ -130681,7 +130681,7 @@
 21925;-122.1138,37.6947;94578;California;Ashland
 0;-116.6734,35.9097;;California;Ashford Junction
 0;-121.4697,37.3072;;California;Ashrama
-65;-118.7132,37.5547;;California;Aspen Springs
+65;-118.7132,37.5547;93546;California;Aspen Springs
 0;-119.7713,37.8274;;California;Aspen Valley
 0;-118.5984,37.2380;;California;Aspendell
 0;-122.9731,38.7630;95425;California;Asti
@@ -131388,7 +131388,7 @@
 0;-117.0903,33.6028;92596;California;Country Road Estates
 0;-121.9461,36.9855;95010;California;Country Villa Estates Mobile Home Park
 355;-121.5686,38.3310;95615;California;Courtland
-1255;-123.2492,39.7933;;California;Covelo
+1255;-123.2492,39.7933;95428;California;Covelo
 48984;-117.8903,34.0900;91723;California;Covina
 0;-119.9921,38.2405;95375;California;Cow Creek
 0;-117.7739,33.7778;92869;California;Cowan Heights
@@ -133330,7 +133330,7 @@
 0;-119.0568,35.2669;93313;California;Panama
 0;-117.0953,36.1183;;California;Panamint
 0;-117.4678,36.3397;93522;California;Panamint Springs
-8;-120.8335,36.5969;;California;Panoche
+8;-120.8335,36.5969;95043;California;Panoche
 0;-120.4879,36.5461;;California;Panoche Junction
 0;-117.7981,33.7778;92869;California;Panorama Heights
 0;-116.2208,34.1242;92252;California;Panorama Heights
@@ -133346,7 +133346,7 @@
 0;-116.8556,36.5111;92328;California;Park Village
 0;-114.1430,34.2872;92267;California;Parker Dam
 0;-114.5961,34.7703;92363;California;Parker Junction
-18;-120.4326,35.8997;;California;Parkfield
+18;-120.4326,35.8997;93451;California;Parkfield
 0;-120.4804,36.0819;;California;Parkfield Junction
 0;-121.4966,39.7224;95969;California;Parkhill
 2621;-120.0229,36.9472;93639;California;Parksdale
@@ -133739,7 +133739,7 @@
 2969;-122.3300,37.9652;94806;California;Rollingwood
 0;-121.2383,38.1430;95240;California;Roma
 0;-118.0056,34.7194;93535;California;Roosevelt
-18150;-118.1634,34.8641;;California;Rosamond
+18150;-118.1634,34.8641;93560;California;Rosamond
 0;-122.8178,39.1657;95464;California;Rose Place
 14058;-119.1454,35.3836;93314;California;Rosedale
 0;-120.3946,34.9455;93454;California;Rosemary
@@ -133753,7 +133753,7 @@
 10244;-118.0851,33.7856;90720;California;Rossmoor
 0;-122.0003,39.6843;95951;California;Rotavele
 963;-121.1361,39.2302;95975;California;Rough and Ready
-435;-118.5876,37.4194;;California;Round Valley
+435;-118.5876,37.4194;93514;California;Round Valley
 0;-118.6154,37.4127;;California;Rovana
 0;-118.5768,35.2408;93531;California;Rowen
 0;-117.9298,34.0017;91747;California;Rowland
@@ -134107,7 +134107,7 @@
 0;-120.9774,38.6327;95682;California;Sprekelsville
 0;-120.0649,38.9291;96152;California;Spring Creek
 0;-120.1021,38.1685;95335;California;Spring Gap
-16;-120.7861,39.8949;;California;Spring Garden
+16;-120.7861,39.8949;95971;California;Spring Garden
 0;-120.5277,38.7794;95726;California;Spring Valley
 28205;-116.9989,32.7448;91976;California;Spring Valley
 0;-120.4124,38.0208;95310;California;Springfield
@@ -134897,7 +134897,7 @@
 3614;-104.8961,39.4580;80108;Colorado;Castle Pines
 55591;-104.8561,39.3722;80104;Colorado;Castle Rock
 14;-107.0339,38.0958;;Colorado;Cathedral
-228;-107.1528,39.4072;;Colorado;Catherine
+228;-107.1528,39.4072;81623;Colorado;Catherine
 641;-107.2626,39.4583;81601;Colorado;Cattle Creek
 0;-107.7145,38.4789;;Colorado;Cedar Creek
 0;-104.2986,37.8070;;Colorado;Cedar Crest
@@ -135012,7 +135012,7 @@
 18006;-107.8801,37.2753;81302;Colorado;Durango
 0;-108.5990,39.0878;81505;Colorado;Durham
 0;-107.1953,37.2264;;Colorado;Dyke
-608;-102.7819,38.4806;;Colorado;Eads
+608;-102.7819,38.4806;81036;Colorado;Eads
 6678;-106.8286,39.6553;81631;Colorado;Eagle
 0;-106.3861,39.6183;81645;Colorado;Eagles Nest
 0;-104.2783,37.3334;81046;Colorado;Earl
@@ -135210,7 +135210,7 @@
 0;-108.2562,38.7569;;Colorado;Huff
 736;-103.4699,39.1361;80821;Colorado;Hugo
 1728;-105.5136,39.7425;80427;Colorado;Idaho Springs
-88;-102.2938,39.7039;;Colorado;Idalia
+88;-102.2938,39.7039;80735;Colorado;Idalia
 252;-105.2442,39.6661;80453;Colorado;Idledale
 720;-107.6331,37.1150;81137;Colorado;Ignacio
 0;-107.8978,37.9297;81435;Colorado;Ilium
@@ -135279,7 +135279,7 @@
 7555;-102.6208,38.0872;81052;Colorado;Lamar
 0;-105.6167,39.7294;80452;Colorado;Lamartine
 194;-104.8872,39.2286;80118;Colorado;Larkspur
-2227;-103.2227,38.0667;;Colorado;Las Animas
+2227;-103.2227,38.0667;81054;Colorado;Las Animas
 0;-103.1741,38.0625;81038;Colorado;Las Animas Junction
 0;-106.1106,37.0645;81120;Colorado;Las Mesitas
 0;-104.7486,37.8250;;Colorado;Lascar
@@ -135398,7 +135398,7 @@
 0;-108.4840,38.3053;81424;Colorado;Mountain View
 1395;-107.8564,37.9314;81435;Colorado;Mountain Village
 0;-105.1825,37.5897;81055;Colorado;Muleshoe
-174;-107.1520,39.4000;;Colorado;Mulford
+174;-107.1520,39.4000;81623;Colorado;Mulford
 0;-102.9972,37.5161;;Colorado;Murray Place
 0;-106.6014,39.2916;81642;Colorado;Nast
 288;-106.0756,38.7472;81236;Colorado;Nathrop
@@ -135641,7 +135641,7 @@
 0;-105.3522,39.5889;80439;Colorado;Sprucedale
 0;-105.2928,39.6183;80457;Colorado;Stanley Park
 0;-108.4048,37.4989;81323;Colorado;Stapleton
-53;-104.5242,37.1153;;Colorado;Starkville
+53;-104.5242,37.1153;81082;Colorado;Starkville
 0;-106.6498,39.8578;80423;Colorado;State Bridge
 0;-104.6436,38.1639;81005;Colorado;Stem Beach
 0;-107.3548,37.1417;81121;Colorado;Stollsteimer
@@ -135691,7 +135691,7 @@
 0;-106.2045,37.6067;81144;Colorado;Torres
 0;-106.0504,39.3845;80424;Colorado;Tordal Estates
 1087;-108.7295,37.2044;81334;Colorado;Towaoc
-22;-102.0796,38.4708;;Colorado;Towner
+22;-102.0796,38.4708;81071;Colorado;Towner
 0;-106.9656,37.3125;81157;Colorado;Treasure
 0;-107.8465,37.3903;81301;Colorado;Trimble
 0;-104.0475,37.0422;81081;Colorado;Trinchera
@@ -136230,7 +136230,7 @@
 362;-105.9167,35.8225;87574;New Mexico;Chupadero
 1128;-108.5998,35.5339;87311;New Mexico;Church Rock
 0;-106.1236,35.5956;87507;New Mexico;Cieneguilla
-912;-104.9158,36.5109;;New Mexico;Cimarron
+912;-104.9158,36.5109;87714;New Mexico;Cimarron
 0;-108.4215,35.4909;87316;New Mexico;Ciniza
 0;-104.8186,35.9545;87752;New Mexico;Ciruela
 0;-106.2403,36.0356;87537;New Mexico;Clara Peak
@@ -136284,10 +136284,10 @@
 0;-105.6394,32.7381;88347;New Mexico;Crisp
 0;-107.0306,33.3423;;New Mexico;Crocker
 0;-103.3397,33.5123;88114;New Mexico;Crossroads
-2278;-108.1512,35.6781;;New Mexico;Crownpoint
+2278;-108.1512,35.6781;87313;New Mexico;Crownpoint
 0;-106.3423,36.7228;;New Mexico;Crowther Cow Camp
 72;-108.6653,33.8073;87830;New Mexico;Cruzville
-311;-108.9662,36.0458;;New Mexico;Crystal
+311;-108.9662,36.0458;87328;New Mexico;Crystal
 289;-107.5181,35.0859;87014;New Mexico;Cubero
 0;-107.3606,33.2359;87901;New Mexico;Cuchillo
 0;-108.7765,36.8583;;New Mexico;Cudei
@@ -136498,7 +136498,7 @@
 0;-108.3570,34.6867;;New Mexico;Grassie Place
 0;-104.3491,33.1654;88230;New Mexico;Greenfield
 0;-108.1428,34.0948;87821;New Mexico;Greens Gap
-35;-103.6163,36.5928;;New Mexico;Grenville
+35;-103.6163,36.5928;88424;New Mexico;Grenville
 0;-108.8759,33.9631;;New Mexico;Gribble Place
 0;-103.3986,34.4106;88103;New Mexico;Grier
 0;-108.4276,35.3209;87312;New Mexico;Grubisich Place
@@ -136561,7 +136561,7 @@
 0;-105.2917,35.6539;87731;New Mexico;Hot Springs
 110;-107.2106,33.2073;87935;New Mexico;Hot Springs Landing
 0;-103.5330,35.2642;88426;New Mexico;Hudson
-109;-108.0315,36.5269;;New Mexico;Huerfano
+109;-108.0315,36.5269;87413;New Mexico;Huerfano
 0;-107.7809,34.6781;;New Mexico;Hughes Place
 0;-103.2191,32.7951;88241;New Mexico;Humble City
 0;-104.7389,32.8626;88250;New Mexico;Hunter Place
@@ -136818,7 +136818,7 @@
 0;-106.3820,34.6384;87061;New Mexico;McKinley Place
 0;-103.0627,36.6917;;New Mexico;McNees Crossing
 0;-106.9061,34.1937;87828;New Mexico;McNierney
-4708;-106.5436,34.8014;;New Mexico;Meadow Lake
+4708;-106.5436,34.8014;87031;New Mexico;Meadow Lake
 0;-106.1834,36.1756;87548;New Mexico;Medanales
 0;-103.3727,32.1229;;New Mexico;Medlin Place
 0;-104.3980,33.5429;88201;New Mexico;Melena
@@ -136996,7 +136996,7 @@
 0;-106.8497,32.3248;88033;New Mexico;Picacho
 0;-105.1450,33.3518;88343;New Mexico;Picacho
 68;-105.7100,36.2009;87553;New Mexico;Picuris Pueblo
-186;-108.1348,34.2984;;New Mexico;Pie Town
+186;-108.1348,34.2984;87827;New Mexico;Pie Town
 0;-107.2409,35.1559;;New Mexico;Piedra Lumbre
 0;-107.7439,35.5845;;New Mexico;Piedra de la Aguila
 0;-108.3403,31.4562;;New Mexico;Pierce
@@ -137182,9 +137182,9 @@
 0;-106.0706,36.0528;87566;New Mexico;San Juan Pueblo
 97;-107.9200,32.8101;88041;New Mexico;San Lorenzo
 0;-106.2853,36.0486;;New Mexico;San Lorenzo
-59;-107.0506,35.6825;;New Mexico;San Luis
+59;-107.0506,35.6825;87053;New Mexico;San Luis
 0;-106.9873,33.7001;;New Mexico;San Marcial
-161;-107.6431,35.3314;;New Mexico;San Mateo
+161;-107.6431,35.3314;87020;New Mexico;San Mateo
 1153;-106.7350,32.1554;88058;New Mexico;San Miguel
 0;-106.1606,36.9614;;New Mexico;San Miguel
 0;-105.4509,35.3645;87560;New Mexico;San Miguel
@@ -137253,7 +137253,7 @@
 0;-105.2442,35.4959;87701;New Mexico;Sheridan
 0;-107.8864,32.7467;88041;New Mexico;Sherman
 0;-104.6300,33.2873;88203;New Mexico;Sherman Place
-8295;-108.6870,36.7856;;New Mexico;Shiprock
+8295;-108.6870,36.7856;87420;New Mexico;Shiprock
 0;-104.8764,35.8164;87750;New Mexico;Shoemaker
 0;-105.1922,36.7714;;New Mexico;Shuree
 0;-108.9698,32.9370;;New Mexico;Sid Place
@@ -137468,7 +137468,7 @@
 5725;-106.2039,35.8275;87547;New Mexico;White Rock
 0;-108.2706,36.0886;;New Mexico;White Rock
 1651;-106.4794,32.3809;88002;New Mexico;White Sands
-181;-108.3662,32.5559;;New Mexico;White Signal
+181;-108.3662,32.5559;88061;New Mexico;White Signal
 0;-107.7478,35.8111;;New Mexico;Whitehorse
 7;-104.3766,32.1757;88268;New Mexico;Whites City
 0;-105.5558,33.2290;;New Mexico;Whitetail
@@ -137828,7 +137828,7 @@
 0;-115.5045,39.2027;;Nevada;Shermantown
 0;-114.4078,38.8486;;Nevada;Shoshone
 0;-119.6405,39.2635;89428;Nevada;Silver City
-107;-117.6348,37.7549;;Nevada;Silver Peak
+107;-117.6348,37.7549;89047;Nevada;Silver Peak
 5296;-119.2246,39.4155;89429;Nevada;Silver Springs
 0;-116.4920,37.8880;;Nevada;Silverbow
 0;-119.3993,38.8694;89444;Nevada;Simpson
@@ -137999,7 +137999,7 @@
 0;-100.6579,29.3719;;Texas;Amanda
 198645;-101.8313,35.2220;79159;Texas;Amarillo
 683;-102.4155,34.0104;79312;Texas;Amherst
-53;-101.1673,29.5152;;Texas;Amistad Acres
+53;-101.1673,29.5152;78840;Texas;Amistad Acres
 0;-101.0290,29.4613;78842;Texas;Amistad Village
 0;-100.3006,29.1911;;Texas;Anacacho
 13816;-102.5457,32.3187;79714;Texas;Andrews
@@ -138055,7 +138055,7 @@
 0;-100.5623,32.5609;;Texas;Bernecker
 0;-101.3571,36.3942;79040;Texas;Bernstein
 0;-101.6212,31.2246;;Texas;Best
-3315;-101.4604,31.1915;;Texas;Big Lake
+3315;-101.4604,31.1915;76932;Texas;Big Lake
 0;-100.4765,28.6822;78853;Texas;Big River Park Colonia
 28862;-101.4787,32.2504;79720;Texas;Big Spring
 0;-102.4697,34.3848;79053;Texas;Big Square
@@ -138493,7 +138493,7 @@
 0;-100.5918,32.7815;79546;Texas;Hobbs
 0;-102.3796,35.5328;79010;Texas;Hollicott Crossing
 0;-101.2302,36.0223;;Texas;Holt
-5124;-106.1728,31.8496;;Texas;Homestead Meadows North
+5124;-106.1728,31.8496;79938;Texas;Homestead Meadows North
 7247;-106.1643,31.8110;79936;Texas;Homestead Meadows South
 0;-106.1725,31.8012;79936;Texas;Homestead Meadows South Number 1 Colonia
 0;-106.1725,31.8082;79936;Texas;Homestead Meadows South Number 2 Colonia
@@ -138947,7 +138947,7 @@
 0;-103.9174,31.8949;79770;Texas;Red Bluff
 0;-100.3598,32.9898;;Texas;Red Bluff Crossing
 0;-100.9993,33.4268;79370;Texas;Red Mud
-90;-104.1894,29.4499;;Texas;Redford
+90;-104.1894,29.4499;79846;Texas;Redford
 0;-102.0221,33.5948;79416;Texas;Reese Village
 0;-100.2351,32.8429;79534;Texas;Reynolds
 0;-102.9491,34.6712;;Texas;Rhea
@@ -139429,7 +139429,7 @@
 0;-113.8486,37.8530;84753;Utah;Heist
 2112;-110.8546,39.6841;84526;Utah;Helper
 220;-111.9943,37.5628;84736;Utah;Henrieville
-45;-111.0116,39.4844;;Utah;Hiawatha
+45;-111.0116,39.4844;84501;Utah;Hiawatha
 2927;-112.9669,37.0036;84784;Utah;Hildale
 0;-111.4702,39.7147;84629;Utah;Hill Top
 0;-112.3821,37.7191;84735;Utah;Hillsdale
@@ -139733,7 +139733,7 @@
 0;-104.9270,36.3687;87729;New Mexico;Rayado
 0;-103.3188,34.4926;88103;New Mexico;Ranchvale
 179;-107.3892,35.2011;87040;New Mexico;Seboyeta
-1010;-116.7592,36.9086;;Nevada;Beatty
+1010;-116.7592,36.9086;89003;Nevada;Beatty
 5627;-119.7841,39.0860;89705;Nevada;Indian Hills
 90;-100.0554,36.8534;73844;Oklahoma;Gate
 0;-100.5226,36.6164;;Oklahoma;Elmwood
@@ -139770,7 +139770,7 @@
 0;-112.3146,33.6056;85335;Arizona;Agua Fria
 0;-111.0618,31.6790;85645;Arizona;Agua Linda
 798;-113.1741,33.9428;85320;Arizona;Aguila
-3304;-112.8607,32.3717;;Arizona;Ajo
+3304;-112.8607,32.3717;85321;Arizona;Ajo
 0;-112.2012,31.7179;;Arizona;Ak Komelik
 0;-112.0732,33.0328;85139;Arizona;Ak Chin
 0;-111.8096,31.6306;;Arizona;Ak Chut Vaya
@@ -139821,7 +139821,7 @@
 0;-110.3943,33.5364;;Arizona;Bear Canyon Junction
 0;-114.0735,32.6756;85356;Arizona;Asher
 0;-109.9323,32.9842;85535;Arizona;Ashurst
-18;-111.0676,34.2931;;Arizona;Bear Flat
+18;-111.0676,34.2931;85541;Arizona;Bear Flat
 0;-120.0366,38.8246;95721;California;Little Norway
 0;-106.8498,38.4372;81231;Colorado;Chance
 0;-103.9755,39.1716;80830;Colorado;Matheson
@@ -139903,7 +139903,7 @@
 0;-122.0247,40.6852;96069;California;Oak Run
 0;-104.4255,40.3511;80644;Colorado;Hardin
 0;-104.7511,40.3039;80645;Colorado;Peckham
-2378;-102.2232,40.0758;;Colorado;Wray
+2378;-102.2232,40.0758;80758;Colorado;Wray
 0;-115.8202,47.5202;83846;Idaho;Burke
 0;-112.5300,42.9094;83202;Idaho;Don
 0;-116.0499,44.7307;83615;Idaho;Roseberry
@@ -140065,7 +140065,7 @@
 0;-133.2429,55.2964;;Alaska;Waterfall
 0;-135.9331,59.4167;;Alaska;Wells
 0;-134.4328,58.2950;99802;Alaska;West Juneau
-31;-133.1208,56.1153;;Alaska;Whale Pass
+31;-133.1208,56.1153;99950;Alaska;Whale Pass
 17;-135.4297,58.0711;99829;Alaska;Whitestone Logging Camp
 2382;-132.3767,56.4708;99929;Alaska;Wrangell
 662;-139.7272,59.5469;;Alaska;Yakutat
@@ -140143,7 +140143,7 @@
 0;-123.9092,40.3085;95571;California;Burlington
 3154;-121.6608,40.8824;96013;California;Burney
 281;-123.4742,40.8090;95527;California;Burnt Ranch
-40;-121.5511,40.0813;;California;Butte Meadows
+40;-121.5511,40.0813;95942;California;Butte Meadows
 0;-123.5928,40.1368;95511;California;Cain Rock
 520;-120.6791,41.4099;;California;California Pines
 0;-122.8014,41.3096;96014;California;Callahan
@@ -140283,7 +140283,7 @@
 0;-123.3636,40.4857;;California;Friend Place
 0;-123.8253,40.2957;95554;California;Fruitland
 913;-123.7950,40.1001;95542;California;Garberville
-661;-123.9695,41.8454;;California;Gasquet
+661;-123.9695,41.8454;95543;California;Gasquet
 0;-122.5345,40.4154;;California;Gas Point
 70;-122.5203,41.5207;96034;California;Gazelle
 0;-120.7538,40.0429;95983;California;Genesee
@@ -140428,7 +140428,7 @@
 0;-121.7678,40.3093;96075;California;Lyman Springs
 0;-121.7380,40.3093;96075;California;Lyonsville
 133;-122.0053,41.8268;96058;California;Macdoel
-420;-123.5098,40.4524;;California;Mad River
+420;-123.5098,40.4524;95552;California;Mad River
 0;-120.4755,41.0510;96119;California;Madeline
 0;-121.3550,41.7304;;California;Mammoth
 784;-124.1623,40.8518;95564;California;Manila
@@ -140878,7 +140878,7 @@
 1195;-104.5200,40.1083;80643;Colorado;Keenesburg
 0;-104.9508,40.4066;80534;Colorado;Kelim
 0;-105.0728,40.6394;80522;Colorado;Kenyon Corner
-5;-104.0752,40.7028;;Colorado;Keota
+5;-104.0752,40.7028;80729;Colorado;Keota
 0;-104.9444,40.5075;80547;Colorado;Kerns
 1577;-104.5616,40.3875;80644;Colorado;Kersey
 0;-106.9631,40.3011;80467;Colorado;Keystone
@@ -141106,7 +141106,7 @@
 0;-112.0050,43.2113;;Idaho;Alridge
 0;-111.1516,42.2274;83233;Idaho;Alton
 0;-113.7247,42.5769;83336;Idaho;Amalga
-4321;-112.8544,42.7860;;Idaho;American Falls
+4321;-112.8544,42.7860;83211;Idaho;American Falls
 14960;-111.9666,43.4696;83406;Idaho;Ammon
 0;-114.5848,42.2957;83302;Idaho;Amsterdam
 0;-116.6493,43.7646;83644;Idaho;Amsco
@@ -141370,7 +141370,7 @@
 0;-113.2606,42.7066;;Idaho;DeWoff
 0;-116.5415,43.5065;83686;Idaho;Deal
 508;-116.5560,46.7993;83823;Idaho;Deary
-353;-113.6281,42.5182;;Idaho;Declo
+353;-113.6281,42.5182;83323;Idaho;Declo
 0;-116.3932,48.6233;83847;Idaho;Deep Creek
 0;-116.5432,43.8688;83617;Idaho;Del Monte
 0;-111.7097,43.3844;;Idaho;Dehlin
@@ -141625,7 +141625,7 @@
 0;-114.9531,42.2005;;Idaho;Hoelzle Place
 0;-112.6539,42.1619;83243;Idaho;Holbrook
 0;-112.4536,42.1652;;Idaho;Holbrook Summit
-276;-114.5750,42.3532;;Idaho;Hollister
+276;-114.5750,42.3532;83301;Idaho;Hollister
 0;-115.8365,46.5552;83546;Idaho;Hollywood
 2565;-116.9338,43.6177;83628;Idaho;Homedale
 88;-116.3071,48.2477;83836;Idaho;Hope
@@ -142100,7 +142100,7 @@
 603;-116.1816,47.5427;83868;Idaho;Smelterville
 0;-113.2461,43.3266;;Idaho;Smith Corrals
 0;-113.3114,42.6374;;Idaho;Smith Springs
-75;-116.0896,44.3013;;Idaho;Smiths Ferry
+75;-116.0896,44.3013;83622;Idaho;Smiths Ferry
 2944;-111.6047,42.6544;83276;Idaho;Soda Springs
 0;-114.7917,43.3702;83327;Idaho;Soldier
 0;-116.4568,43.6096;83642;Idaho;Sonna
@@ -142360,7 +142360,7 @@
 0;-106.4795,48.6634;;Montana;Baylor
 0;-111.8172,45.7441;59735;Montana;Beals
 0;-113.9787,48.0777;59911;Montana;Bear Creek Village
-275;-114.0287,47.9166;;Montana;Bear Dance
+275;-114.0287,47.9166;59911;Montana;Bear Dance
 83;-109.1571,45.1608;59007;Montana;Bearcreek
 0;-113.3315,46.7102;59832;Montana;Bearmouth
 0;-113.3401,46.7933;;Montana;Beartown
@@ -142469,7 +142469,7 @@
 729;-108.9137,45.2958;59014;Montana;Bridger
 0;-111.0216,45.7027;59715;Montana;Bridger View Trailer Court
 0;-110.6085,45.5230;;Montana;Brisbin
-488;-105.4113,45.4439;;Montana;Broadus
+488;-105.4113,45.4439;59317;Montana;Broadus
 0;-112.0867,46.6035;59636;Montana;Broadwater
 196;-108.8771,46.0977;59015;Montana;Broadview
 0;-112.8556,46.6035;59731;Montana;Brock Creek
@@ -143497,7 +143497,7 @@
 0;-115.0566,48.9991;59930;Montana;Roosville
 15;-109.4966,45.3497;59028;Montana;Roscoe
 0;-114.2765,48.2550;59904;Montana;Rose Crossing
-111;-106.4447,46.2744;;Montana;Rosebud
+111;-106.4447,46.2744;59347;Montana;Rosebud
 0;-109.6930,47.0772;59464;Montana;Ross Fork
 0;-107.9376,47.2094;;Montana;Ross Hall
 0;-109.2624,46.5466;;Montana;Rothiemay
@@ -143511,7 +143511,7 @@
 258;-110.5541,48.5600;59540;Montana;Rudyard
 0;-113.2520,46.2919;59858;Montana;Rumsey
 236;-109.2588,46.2972;59074;Montana;Ryegate
-201;-107.3426,48.4572;;Montana;Saco
+201;-107.3426,48.4572;59261;Montana;Saco
 128;-109.6455,48.5228;59501;Montana;Saddle Butte
 0;-110.9744,48.9295;59545;Montana;Sage Creek Colony
 842;-114.0940,47.3199;59865;Montana;Saint Ignatius
@@ -143521,7 +143521,7 @@
 0;-111.9180,47.3025;;Montana;Saint Peter
 0;-104.1455,46.8317;;Montana;Saint Phillip
 319;-115.1026,47.2994;59866;Montana;Saint Regis
-83;-107.7218,45.4611;;Montana;Saint Xavier
+83;-107.7218,45.4611;59025;Montana;Saint Xavier
 0;-111.0403,47.5372;;Montana;Salem
 0;-113.7854,47.6299;59826;Montana;Salmon Prairie
 0;-115.5096,47.4102;59867;Montana;Saltese
@@ -143544,7 +143544,7 @@
 0;-111.5452,44.8741;;Montana;Schusters Place
 0;-112.7734,45.9430;59750;Montana;Sciuchetti Place
 1033;-105.4208,48.7925;59263;Montana;Scobey
-99;-110.8511,45.9588;;Montana;Sedan
+99;-110.8511,45.9588;59086;Montana;Sedan
 1659;-113.4845,47.1794;59868;Montana;Seeley Lake
 0;-109.1321,45.3919;59070;Montana;Selmes
 0;-112.5940,48.7050;;Montana;Seville Colony
@@ -143672,7 +143672,7 @@
 0;-112.1244,46.2347;59632;Montana;Sunset Trailer Court
 839;-114.8918,47.1916;59872;Montana;Superior
 0;-110.3402,47.1702;59479;Montana;Surprise Creek Colony
-113;-113.8448,47.9291;;Montana;Swan Lake
+113;-113.8448,47.9291;59911;Montana;Swan Lake
 58;-111.9606,48.9961;59484;Montana;Sweet Grass
 103;-115.8744,48.7163;;Montana;Sylvanite
 0;-115.4354,47.7202;59873;Montana;Talc
@@ -143700,7 +143700,7 @@
 0;-115.0229,47.3260;;Montana;Toole
 0;-113.2592,46.8244;;Montana;Top O'Deep
 0;-111.9461,48.1703;59425;Montana;Torens Trailer Park
-108;-111.4411,46.1727;;Montana;Toston
+108;-111.4411,46.1727;59643;Montana;Toston
 0;-105.4117,45.4380;;Montana;Town and Country Trailer Park
 1959;-111.5208,46.3191;59644;Montana;Townsend
 0;-111.1541,47.4130;59472;Montana;Tracy
@@ -143812,7 +143812,7 @@
 0;-110.6863,45.3038;59065;Montana;White City
 577;-115.5174,48.3449;59923;Montana;White Haven
 0;-115.4824,47.7435;59874;Montana;White Pine
-910;-110.9022,46.5483;;Montana;White Sulphur Springs
+910;-110.9022,46.5483;59645;Montana;White Sulphur Springs
 7073;-114.3376,48.4111;59937;Montana;Whitefish
 1094;-112.0975,45.8708;59759;Montana;Whitehall
 0;-111.4430,46.6341;;Montana;Whites City
@@ -143867,14 +143867,14 @@
 0;-113.3309,46.8613;;Montana;Yreka
 0;-113.8140,46.7097;59825;Montana;Yukon Saddle
 0;-105.4886,46.6692;;Montana;Zero
-69;-108.5263,47.9178;;Montana;Zortman
+69;-108.5263,47.9178;59546;Montana;Zortman
 0;-109.0304,48.5844;59547;Montana;Zurich
 50;-103.4699,48.5817;58830;North Dakota;Alamo
 252;-103.6427,47.8431;58831;North Dakota;Alexander
 0;-103.8902,48.8628;;North Dakota;Alkabo
 112;-101.5026,46.7253;58520;North Dakota;Almont
 0;-103.8199,46.6583;;North Dakota;Alpha
-27;-103.4827,48.9539;;North Dakota;Ambrose
+27;-103.4827,48.9539;58833;North Dakota;Ambrose
 21;-103.3218,46.4822;58620;North Dakota;Amidon
 249;-100.2412,47.8825;58710;North Dakota;Anamoose
 0;-102.2027,46.8558;58652;North Dakota;Antelope
@@ -143980,7 +143980,7 @@
 0;-101.0946,47.3619;58577;North Dakota;Falkirk
 0;-101.0910,46.5122;;North Dakota;Fallon
 0;-102.9438,47.2617;;North Dakota;Fayette
-216;-101.2326,46.4561;;North Dakota;Flasher
+216;-101.2326,46.4561;58535;North Dakota;Flasher
 0;-100.0187,48.6697;58366;North Dakota;Fonda
 72;-102.3924,48.8986;58737;North Dakota;Flaxton
 0;-101.2985,48.5706;58750;North Dakota;Forfar
@@ -143993,8 +143993,8 @@
 0;-101.1737,46.3472;58564;North Dakota;Freda
 0;-103.3030,46.8706;;North Dakota;Fryburg
 0;-100.2632,47.9958;58736;North Dakota;Funston
-30;-100.4976,48.7008;;North Dakota;Gardena
-1538;-101.4157,47.6522;;North Dakota;Garrison
+30;-100.4976,48.7008;58748;North Dakota;Gardena
+1538;-101.4157,47.6522;58540;North Dakota;Garrison
 16;-103.0799,46.1183;58653;North Dakota;Gascoyne
 0;-103.1893,46.7486;58622;North Dakota;Gaylord
 0;-100.9943,48.1936;58768;North Dakota;Genoa
@@ -144030,7 +144030,7 @@
 15;-101.6999,46.3875;58533;North Dakota;Heil
 0;-101.0849,47.2603;58577;North Dakota;Hensler
 0;-101.5577,48.0503;58779;North Dakota;Hesnault
-1257;-102.6368,46.0014;;North Dakota;Hettinger
+1257;-102.6368,46.0014;58639;North Dakota;Hettinger
 0;-102.5638,47.0681;58642;North Dakota;Hirschville
 0;-100.6518,46.6239;58504;North Dakota;Huff
 0;-100.1248,46.0286;58573;North Dakota;Hull
@@ -144117,7 +144117,7 @@
 0;-100.9890,48.2464;58768;North Dakota;Norwich
 0;-102.8649,47.4731;58640;North Dakota;Oakdale
 0;-100.3551,48.7064;58384;North Dakota;Omemee
-22;-100.1632,48.0914;;North Dakota;Orrin
+22;-100.1632,48.0914;58368;North Dakota;Orrin
 0;-101.5551,47.0492;;North Dakota;Otter Creek
 18;-100.1501,48.6819;58384;North Dakota;Overly
 84;-102.2291,48.3397;58769;North Dakota;Palermo
@@ -144130,7 +144130,7 @@
 0;-100.6924,46.7900;58501;North Dakota;Pierce
 0;-103.0713,46.3522;;North Dakota;Pierce
 193;-101.9610,48.0258;58771;North Dakota;Plaza
-146;-101.0987,46.2189;;North Dakota;Porcupine
+146;-101.0987,46.2189;58568;North Dakota;Porcupine
 157;-102.5496,48.9959;58772;North Dakota;Portal
 307;-102.6480,48.5628;58773;North Dakota;Powers Lake
 0;-101.9027,47.9914;58771;North Dakota;Prairie Junction
@@ -144281,7 +144281,7 @@
 1521;-103.0991,41.6653;69336;Nebraska;Bridgeport
 124;-102.8527,41.5961;69125;Nebraska;Broadwater
 0;-101.5166,41.2072;69144;Nebraska;Broganville
-15;-100.6257,42.2880;;Nebraska;Brownlee
+15;-100.6257,42.2880;69166;Nebraska;Brownlee
 0;-103.1130,41.1875;69160;Nebraska;Brownson
 309;-101.8880,41.0942;69127;Nebraska;Brule
 0;-101.4304,41.5650;;Nebraska;Bucktail
@@ -144392,7 +144392,7 @@
 0;-101.7196,41.1281;69153;Nebraska;L and L Mobile Home Park
 0;-102.4249,42.0558;69351;Nebraska;Lakeside
 0;-103.0991,41.6653;69336;Nebraska;Lakeview Mobile Park
-23;-101.9785,40.5719;;Nebraska;Lamar
+23;-101.9785,40.5719;69023;Nebraska;Lamar
 0;-101.8732,40.3208;;Nebraska;Lamont
 0;-100.6326,40.2144;69001;Nebraska;Lazy L Mobile Ranch
 78;-100.2763,40.0506;69036;Nebraska;Lebanon
@@ -144625,7 +144625,7 @@
 0;-118.2118,40.5844;;Nevada;Humboldt City
 0;-118.2552,40.5999;;Nevada;Humboldt House
 0;-115.9034,40.7527;89802;Nevada;Hunter
-171;-118.1504,40.6607;;Nevada;Imlay
+171;-118.1504,40.6607;89418;Nevada;Imlay
 0;-116.0998,41.4946;;Nevada;Jack Creek
 0;-115.4023,41.8993;89826;Nevada;Jack Creek Camp
 1195;-114.6748,41.9832;89825;Nevada;Jackpot
@@ -145226,7 +145226,7 @@
 1661;-123.6093,45.0601;97347;Oregon;Grand Ronde
 0;-123.6118,45.0798;97347;Oregon;Grand Ronde Agency
 0;-121.3417,44.5384;97734;Oregon;Grandview
-37;-118.4177,44.8093;;Oregon;Granite
+37;-118.4177,44.8093;97877;Oregon;Granite
 37088;-123.3307,42.4393;97528;Oregon;Grants Pass
 157;-120.7856,45.3601;97029;Oregon;Grass Valley
 0;-124.0782,43.1051;97458;Oregon;Gravelford
@@ -145821,7 +145821,7 @@
 0;-123.9221,44.5934;97391;Oregon;Sunnyridge
 0;-123.0268,44.8448;97306;Oregon;Sunnyside
 0;-118.4022,45.9624;97862;Oregon;Sunnyside
-1393;-121.4386,43.8840;;Oregon;Sunriver
+1393;-121.4386,43.8840;97707;Oregon;Sunriver
 0;-117.0438,44.8952;97834;Oregon;Sunset
 0;-122.6301,45.3598;97068;Oregon;Sunset
 0;-123.9304,46.1012;97146;Oregon;Sunset Beach
@@ -146079,7 +146079,7 @@
 0;-102.2079,44.2550;;South Dakota;Creighton
 0;-102.6988,43.9105;57725;South Dakota;Creston
 0;-103.6335,44.4414;57793;South Dakota;Crook City
-1952;-103.5988,43.7666;;South Dakota;Custer
+1952;-103.5988,43.7666;57730;South Dakota;Custer
 0;-102.3966,44.3436;57791;South Dakota;Dalzell
 1258;-103.7296,44.3766;57732;South Dakota;Deadwood
 0;-103.8341,44.0172;;South Dakota;Deerfield
@@ -146194,7 +146194,7 @@
 0;-102.8004,44.0872;57761;South Dakota;Mawl Springs
 0;-102.5935,45.0230;;South Dakota;Maurine
 0;-103.3841,44.0380;57702;South Dakota;McGee
-175;-101.3496,45.9214;;South Dakota;McIntosh
+175;-101.3496,45.9214;57641;South Dakota;McIntosh
 679;-100.8104,45.8144;57642;South Dakota;McLaughlin
 0;-102.2163,45.5292;;South Dakota;Meadow
 0;-103.4399,44.0830;57709;South Dakota;Melcore Acres Subdivision
@@ -146351,7 +146351,7 @@
 877;-102.2416,43.9925;57790;South Dakota;Wall
 725;-101.6604,43.5694;57577;South Dakota;Wanblee
 0;-103.1332,43.9992;57703;South Dakota;Warbonnet
-82;-102.4457,44.0686;;South Dakota;Wasta
+82;-102.4457,44.0686;57791;South Dakota;Wasta
 0;-101.5429,45.9228;57660;South Dakota;Watauga
 0;-100.6651,44.2444;;South Dakota;Wendte
 0;-101.5485,44.4458;;South Dakota;West Fork
@@ -147684,7 +147684,7 @@
 0;-111.8699,40.6616;84107;Utah;Three Fountains Young American Family Condominium
 0;-111.8674,40.6622;84107;Utah;Three Fountains Townhomes and Manor Houses
 0;-111.8535,40.6655;84117;Utah;Tidewater Village Condominium
-607;-111.2477,40.4733;;Utah;Timber Lakes
+607;-111.2477,40.4733;84032;Utah;Timber Lakes
 0;-111.9488,40.5180;84065;Utah;Timp View Plat A,B,C,D
 0;-112.6566,40.7474;;Utah;Timpie
 33157;-112.2983,40.5308;84074;Utah;Tooele
@@ -148096,7 +148096,7 @@
 0;-122.5126,48.0609;98249;Washington;Beverly Beach
 0;-119.9498,46.8312;99321;Washington;Beverly Junction
 0;-122.3315,47.4962;98146;Washington;Beverly Park
-88;-120.3006,45.9979;;Washington;Bickleton
+88;-120.3006,45.9979;99322;Washington;Bickleton
 1835;-122.2413,48.4029;98273;Washington;Big Lake
 0;-122.4740,47.5054;98386;Washington;Biloxi
 721;-121.4645,45.7148;98672;Washington;Bingen
@@ -148296,7 +148296,7 @@
 3324;-122.1260,47.8337;98296;Washington;Clearview
 0;-124.2946,47.5776;;Washington;Clearwater
 0;-120.3531,45.9707;99356;Washington;Cleveland
-104;-121.0690,46.9462;;Washington;Cliffdell
+104;-121.0690,46.9462;98937;Washington;Cliffdell
 0;-118.4672,46.2468;;Washington;Climax
 0;-117.7516,48.0621;99181;Washington;Cline
 928;-122.3557,47.9784;98236;Washington;Clinton
@@ -148436,7 +148436,7 @@
 0;-122.2251,47.2407;98047;Washington;Dieringer
 0;-122.4351,47.4654;98070;Washington;Dilworth
 0;-122.8918,47.9901;98325;Washington;Discovery Bay
-78;-119.2373,48.3604;;Washington;Disautel
+78;-119.2373,48.3604;98841;Washington;Disautel
 0;-122.8746,47.9937;98325;Washington;Discovery Junction
 0;-123.7705,48.1390;98343;Washington;Disque
 197;-118.1552,46.1401;99329;Washington;Dixie
@@ -148757,7 +148757,7 @@
 761;-117.2716,47.8274;99021;Washington;Green Bluff
 0;-122.0893,47.2887;98092;Washington;Green River
 0;-122.5729,48.0981;98253;Washington;Greenbank
-67;-121.6504,47.1559;;Washington;Greenwater
+67;-121.6504,47.1559;98022;Washington;Greenwater
 0;-120.1920,47.9307;98831;Washington;Greens Landing
 0;-123.3665,46.9840;98541;Washington;Greenwood
 0;-118.0497,48.5824;99141;Washington;Greenwood
@@ -149156,7 +149156,7 @@
 0;-122.5993,45.7512;98686;Washington;Manor
 0;-121.5229,48.3073;98241;Washington;Mansford
 1468;-120.1584,47.8849;98831;Washington;Manson
-329;-119.6367,47.8115;;Washington;Mansfield
+329;-119.6367,47.8115;98830;Washington;Mansfield
 0;-122.4735,47.3507;98013;Washington;Manzanita
 0;-122.5596,47.6762;98061;Washington;Manzanita
 0;-123.0374,49.0007;98281;Washington;Maple Beach
@@ -149478,7 +149478,7 @@
 0;-119.2348,48.0488;;Washington;Osborne Corner
 0;-122.0373,47.1951;98321;Washington;Osceola
 0;-122.1937,47.7320;98034;Washington;Oskams Corner
-180;-121.9296,48.2707;;Washington;Oso
+180;-121.9296,48.2707;98223;Washington;Oso
 0;-122.8921,46.1926;98626;Washington;Ostrander
 7809;-119.1753,46.8260;;Washington;Othello
 0;-117.1063,47.7004;99027;Washington;Otis Orchards
@@ -149991,7 +149991,7 @@
 840;-124.2932,47.3473;98587;Washington;Taholah
 0;-123.0557,47.3712;98592;Washington;Tahuya
 0;-122.2510,47.5120;98178;Washington;Tamill
-312;-120.8673,46.5351;;Washington;Tampico
+312;-120.8673,46.5351;98903;Washington;Tampico
 1018;-121.7462,47.4754;98045;Washington;Tanner
 0;-122.2434,47.0034;98344;Washington;Tanwax
 0;-120.7440,46.6957;98947;Washington;Tasker
@@ -150300,7 +150300,7 @@
 0;-106.4411,42.8822;82602;Wyoming;Air Base Acres
 304;-107.9493,43.9933;82401;Wyoming;Airport Road
 0;-104.1835,44.6400;82710;Wyoming;Aladdin
-55;-106.1320,41.1841;;Wyoming;Albany
+55;-106.1320,41.1841;82070;Wyoming;Albany
 190;-104.0983,41.4178;82050;Wyoming;Albin
 76;-106.7164,42.5522;82620;Wyoming;Alcova
 0;-106.7234,42.5600;82620;Wyoming;Alcova Po
@@ -150314,7 +150314,7 @@
 0;-104.4413,44.6947;82711;Wyoming;Alva
 0;-105.1303,42.6264;;Wyoming;Ammon
 0;-110.5302,41.4211;;Wyoming;Antelope
-97;-106.3242,43.0816;;Wyoming;Antelope Hills
+97;-106.3242,43.0816;82601;Wyoming;Antelope Hills
 1656;-108.4898,42.9622;82510;Wyoming;Arapahoe
 0;-104.4572,41.1008;82060;Wyoming;Arcola
 25;-106.2083,41.5947;;Wyoming;Arlington
@@ -150447,7 +150447,7 @@
 0;-107.9134,44.1305;82401;Wyoming;Durkee
 0;-104.9561,42.2422;;Wyoming;Dwyer
 0;-104.9950,42.2347;;Wyoming;Dwyer Junction
-248;-108.1981,43.6463;;Wyoming;East Thermopolis
+248;-108.1981,43.6463;82443;Wyoming;East Thermopolis
 0;-107.9084,44.1383;82401;Wyoming;Eccles
 0;-105.8764,44.4580;;Wyoming;Echeta
 281;-109.4371,42.0508;82932;Wyoming;Eden
@@ -150529,7 +150529,7 @@
 0;-110.8118,41.1377;;Wyoming;Hilliard
 47;-104.4775,41.2128;82060;Wyoming;Hillsdale
 0;-105.3016,41.1914;82052;Wyoming;Hirsig
-1176;-110.7838,43.2819;;Wyoming;Hoback
+1176;-110.7838,43.2819;83001;Wyoming;Hoback
 0;-110.7305,43.3224;;Wyoming;Hoback Junction
 278;-106.3609,42.9800;82602;Wyoming;Homa Hills
 0;-105.1822,41.4150;82061;Wyoming;Horse Creek
@@ -150551,7 +150551,7 @@
 58;-107.8273,42.4947;82310;Wyoming;Jeffrey City
 0;-106.0133,41.0577;82063;Wyoming;Jelm
 0;-104.5300,44.0483;82730;Wyoming;Jerome
-242;-108.7015,43.1183;;Wyoming;Johnstown
+242;-108.7015,43.1183;82516;Wyoming;Johnstown
 0;-108.9326,44.7255;82440;Wyoming;Kamms Corner
 0;-109.3415,41.5427;82901;Wyoming;Kanda
 0;-108.2029,44.8436;;Wyoming;Kane
@@ -150628,7 +150628,7 @@
 0;-107.0351,44.9030;82801;Wyoming;Monarch
 0;-108.4840,41.5905;;Wyoming;Monell
 0;-107.7248,43.1616;;Wyoming;Moneta
-1062;-104.9502,44.2633;;Wyoming;Moorcroft
+1062;-104.9502,44.2633;82721;Wyoming;Moorcroft
 0;-110.7183,43.6558;83012;Wyoming;Moose
 1821;-110.8447,43.5252;83014;Wyoming;Moose Wilson Road
 0;-110.5077,43.8416;;Wyoming;Moran
@@ -150654,7 +150654,7 @@
 0;-106.9595,41.5886;82615;Wyoming;Old McKeal Place
 100;-110.3260,41.7691;83124;Wyoming;Opal
 0;-104.8194,41.0966;82007;Wyoming;Orchard Valley
-46;-105.1925,42.6533;;Wyoming;Orin
+46;-105.1925,42.6533;82633;Wyoming;Orin
 0;-105.1839,42.6558;;Wyoming;Orin Junction
 0;-105.5036,42.8547;82633;Wyoming;Orpha
 208;-104.4219,43.9808;82723;Wyoming;Osage
@@ -150669,7 +150669,7 @@
 0;-106.3984,42.8175;82604;Wyoming;Paradise Valley
 0;-105.9731,42.8511;82637;Wyoming;Parkerton
 151;-107.3326,44.9569;82838;Wyoming;Parkman
-238;-108.6901,43.2447;;Wyoming;Pavillion
+238;-108.6901,43.2447;82523;Wyoming;Pavillion
 0;-109.0248,41.0027;;Wyoming;Petes Place
 0;-106.7403,43.0316;82646;Wyoming;Petrie
 0;-110.6274,41.2161;;Wyoming;Piedmont
@@ -150737,7 +150737,7 @@
 0;-104.2666,41.9147;82244;Wyoming;Silver Tip
 413;-107.1131,41.7750;82334;Wyoming;Sinclair
 0;-104.3672,44.1091;82723;Wyoming;Skull Creek
-80;-104.8200,41.8730;;Wyoming;Slater
+80;-104.8200,41.8730;82210;Wyoming;Slater
 1308;-105.4270,44.2330;82716;Wyoming;Sleepy Hollow
 195;-110.9144,42.6205;83126;Wyoming;Smoot
 0;-107.5579,43.4191;82642;Wyoming;Snyder Place
@@ -150774,7 +150774,7 @@
 330;-110.8280,43.5880;83025;Wyoming;Teton Village
 0;-108.9112,41.6869;82945;Wyoming;Thayer Junction
 363;-111.0022,42.9208;83127;Wyoming;Thayne
-2974;-108.2120,43.6461;;Wyoming;Thermopolis
+2974;-108.2120,43.6461;82443;Wyoming;Thermopolis
 0;-106.3131,42.8197;82601;Wyoming;Thorndale Acres
 0;-104.7433,44.1628;82730;Wyoming;Thornton
 0;-107.4448,42.3625;;Wyoming;Three Forks
@@ -150805,7 +150805,7 @@
 0;-108.9435,44.6633;82440;Wyoming;Vocation
 0;-106.8450,41.7611;82335;Wyoming;Walcott
 0;-107.1959,43.0633;82638;Wyoming;Waltman
-493;-107.9792,41.6730;;Wyoming;Wamsutter
+493;-107.9792,41.6730;82336;Wyoming;Wamsutter
 0;-109.4377,44.4686;82450;Wyoming;Wapiti
 619;-107.9087,44.0955;82401;Wyoming;Washakie Ten
 51;-109.6901,41.0043;84046;Wyoming;Washam
@@ -150860,7 +150860,7 @@
 0;-108.6465,48.0511;59527;Montana;Dry Lake
 0;-112.6972,44.7230;59724;Montana;Dell
 0;-111.2408,44.8047;;Montana;Lakeview
-362;-106.0422,48.0592;;Montana;Frazer
+362;-106.0422,48.0592;59225;Montana;Frazer
 0;-108.7096,45.7419;59106;Montana;Hesper
 0;-107.3793,45.1997;59089;Montana;Spear
 0;-104.5802,48.8764;59256;Montana;Raymond
@@ -151207,7 +151207,7 @@
 0;-158.0457,21.6701;96712;Hawaii;Sunset Beach
 0;-158.0423,21.3390;96706;Hawaii;Tenney Village
 0;-158.1125,21.5620;96791;Hawaii;Thompson Corner
-425;-156.8313,21.0617;;Hawaii;‘Ualapu‘e
+425;-156.8313,21.0617;96748;Hawaii;‘Ualapu‘e
 0;-159.3717,21.9661;96766;Hawaii;Ulu Ko
 0;-159.3736,21.9697;96766;Hawaii;Ulu Mahi
 0;-156.2846,20.9065;96708;Hawaii;Ulumalu
@@ -151522,7 +151522,7 @@
 570;-145.2739,66.5647;99740;Alaska;Fort Yukon
 417;-147.6183,64.9581;99712;Alaska;Fox
 685;-150.9583,59.8583;;Alaska;Fox River
-1932;-151.2953,59.7361;;Alaska;Fritz Creek
+1932;-151.2953,59.7361;99603;Alaska;Fritz Creek
 1103;-150.7622,60.5019;99672;Alaska;Funny River
 0;-145.3514,62.2886;99586;Alaska;Gakona Junction
 218;-145.3027,62.3014;99586;Alaska;Gakona
@@ -151530,7 +151530,7 @@
 701;-171.7346,63.7792;99742;Alaska;Gambell
 0;-156.4306,63.0897;;Alaska;Ganes Creek
 0;-148.9733,63.8292;99743;Alaska;Garner
-5552;-149.2408,61.5728;;Alaska;Gateway
+5552;-149.2408,61.5728;99645;Alaska;Gateway
 0;-157.7178,61.8939;;Alaska;Georgetown
 0;-149.5375,60.6014;99631;Alaska;Gilpatricks
 2250;-149.1664,60.9425;99587;Alaska;Girdwood
@@ -151538,7 +151538,7 @@
 483;-145.5464,62.1092;;Alaska;Glennallen
 0;-149.6939,62.7567;;Alaska;Gold Creek
 0;-147.9861,60.9700;;Alaska;Golden
-161;-163.0356,64.5424;;Alaska;Golovin
+161;-163.0356,64.5424;99762;Alaska;Golovin
 256;-161.5875,59.1189;99589;Alaska;Goodnews Bay
 0;-161.7300,58.9261;99651;Alaska;Goodnews Mining Camp
 0;-159.7858,62.2106;99602;Alaska;Gost Creek
@@ -151587,8 +151587,8 @@
 0;-163.5536,62.0892;99632;Alaska;Johnnys Village
 0;-148.9347,61.7306;99674;Alaska;Jonesville
 0;-149.7931,61.2203;99508;Alaska;Justamere Ranch
-472;-151.4507,59.6674;;Alaska;Kachemak City
-487;-151.4339,59.6722;;Alaska;Kachemak
+472;-151.4507,59.6674;99603;Alaska;Kachemak City
+487;-151.4339,59.6722;99603;Alaska;Kachemak
 0;-151.0583,59.8000;;Alaska;Kachemak Silo
 0;-153.7757,56.8693;;Alaska;Kaguyak
 0;-161.6753,61.6247;;Alaska;Kakamut
@@ -151635,7 +151635,7 @@
 170;-154.7761,59.4394;;Alaska;Kokhanok
 0;-154.6919,64.9378;;Alaska;Kokrines
 0;-153.0725,70.9150;;Alaska;Kokruagarok
-209;-157.2845,59.7276;;Alaska;Koliganek
+209;-157.2845,59.7276;99636;Alaska;Koliganek
 439;-162.8951,59.9533;99545;Alaska;Kongiganak
 626;-163.5563,63.0330;99620;Alaska;Kotlik
 3277;-162.5981,66.8985;99752;Alaska;Kotzebue
@@ -151665,7 +151665,7 @@
 1479;-148.9456,61.6261;99645;Alaska;Lazy Mountain
 0;-164.3914,64.6203;;Alaska;Lees Camp
 0;-147.7322,64.8597;99701;Alaska;Lemeta
-69;-156.8589,59.1142;;Alaska;Levelock
+69;-156.8589,59.1142;99625;Alaska;Levelock
 0;-157.0550,58.7781;99670;Alaska;Libbyville
 0;-149.0183,63.9094;99743;Alaska;Lignite
 29;-155.4356,61.3564;;Alaska;Lime Village
@@ -151681,13 +151681,13 @@
 89;-150.6339,65.0011;99756;Alaska;Manley Hot Springs
 456;-159.0583,58.9814;99628;Alaska;Manokotak
 0;-143.4275,63.4644;99776;Alaska;Mansfield Village
-449;-162.0811,61.8778;;Alaska;Marshall
+449;-162.0811,61.8778;99585;Alaska;Marshall
 0;-165.0678,65.1489;;Alaska;Marys Igloo
 0;-149.2297,61.5419;;Alaska;Matanuska
 0;-142.6933,61.3486;;Alaska;May Creek
 28;-142.9217,61.4333;;Alaska;McCarthy
 344;-155.5958,62.9564;99627;Alaska;McGrath
-185;-148.9142,63.7328;;Alaska;Denali Park
+185;-148.9142,63.7328;99755;Alaska;Denali Park
 7570;-149.6011,61.6247;99623;Alaska;Meadow Lakes
 0;-145.0083,60.5417;;Alaska;Meakerville
 0;-154.7142,63.1067;;Alaska;Medfra
@@ -151965,7 +151965,7 @@
 0;-149.8192,61.2364;99508;Alaska;Wilson Village
 14;-150.1075,67.4100;;Alaska;Wiseman
 0;-158.2994,64.6403;;Alaska;Wolasatux
-719;-152.6686,57.6822;;Alaska;Womens Bay
+719;-152.6686,57.6822;99615;Alaska;Womens Bay
 0;-149.7833,61.2233;99508;Alaska;Wonder Park
 0;-158.4407,59.0677;99576;Alaska;Wood River
 0;-143.4119,65.2939;;Alaska;Woodchopper Creek
@@ -152036,7 +152036,7 @@
 0;-165.1500,64.5500;;Alaska;Bessie No. 5 Dredge Camp
 6450;-161.7558,60.7922;99559;Alaska;Bethel
 12;-151.5170,66.9166;;Alaska;Bettles
-591;-145.8422,64.1525;;Alaska;Big Delta
+591;-145.8422,64.1525;99737;Alaska;Big Delta
 3350;-149.9544,61.5214;99652;Alaska;Big Lake
 0;-149.4464,67.5031;;Alaska;Big Lake
 0;-163.7789,62.9497;;Alaska;Bill Moores
@@ -163160,7 +163160,7 @@
 49;-110.5280,41.7520;83116;Wyoming;Oakley
 13415;-122.6001,45.4142;97267;Oregon;Oatfield
 1143;-106.0690,36.0508;87566;New Mexico;Ohkay Owingeh
-154;-110.1911,36.9867;;Arizona;Oljato-Monument Valley
+154;-110.1911,36.9867;84536;Arizona;Oljato-Monument Valley
 674;-110.2514,37.0306;;Utah;Oljato-Monument Valley
 0;-121.9700,36.9587;95062;California;Opal Cliffs
 8280;-121.4752,39.5113;95966;California;Oroville East
@@ -163825,7 +163825,7 @@
 624;-107.1665,34.9413;87026;New Mexico;Highland Meadows
 1305;-107.7602,32.3161;88031;New Mexico;Keeler Farm
 725;-107.7251,32.2060;88030;New Mexico;La Hacienda
-32;-108.1381,33.0271;;New Mexico;Lake Roberts Heights
+32;-108.1381,33.0271;88049;New Mexico;Lake Roberts Heights
 609;-104.2032,32.3907;88220;New Mexico;Livingston Wheeler
 31;-108.7876,33.6530;87830;New Mexico;Lower Frisco
 77;-108.7625,33.6982;87830;New Mexico;Middle Frisco
@@ -163837,7 +163837,7 @@
 120;-107.7728,32.2179;88030;New Mexico;Pulpotio Bareas
 28;-108.7794,33.6746;87830;New Mexico;Rivers
 394;-108.2423,32.7696;88061;New Mexico;Rosedale
-16;-108.1893,33.0362;;New Mexico;Trout Valley
+16;-108.1893,33.0362;88049;New Mexico;Trout Valley
 196;-105.6461,32.9386;88317;New Mexico;Twin Forks
 468;-107.6832,32.2438;88031;New Mexico;Ventura
 2790;-108.0492,36.6807;87413;New Mexico;West Hammond
@@ -166157,7 +166157,7 @@
 0;-80.8379,35.0502;28277;North Carolina;Ballantyne East
 5973;-86.2379,41.7002;46556;Indiana;Notre Dame
 25734;-74.5815,40.8483;07869;New Jersey;Randolph
-168;-106.6481,35.8735;;New Mexico;La Cueva
+168;-106.6481,35.8735;87025;New Mexico;La Cueva
 122;-107.7515,32.2298;88030;New Mexico;Mountain View
 0;-149.7000,61.1542;99504;Alaska;Basher
 8283;-88.1499,44.4993;54155;Wisconsin;Hobart
@@ -168462,7 +168462,7 @@
 0;-88.1083,38.4654;62815;Illinois;Shelby No. 2 precinct
 0;-88.1111,38.5306;62452;Illinois;Shelby No. 1 precinct
 0;-87.9048,38.4693;62815;Illinois;Lick Prairie
-3343;-81.1004,26.6364;;Florida;Montura
+3343;-81.1004,26.6364;33440;Florida;Montura
 0;-80.4263,26.0234;33029;Florida;Hidden Lake
 0;-75.9840,41.2759;18708;Pennsylvania;Jackson
 0;-113.8848,36.5479;;Arizona;North Mohave

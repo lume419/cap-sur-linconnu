@@ -3205,7 +3205,7 @@
 336;24.2659,46.4535;545108;Mureş;Sfântu Gheorghe
 50080;25.7833,45.8667;520003;Covasna;Sfântu Gheorghe
 0;26.5333,45.1667;127610;Buzău;Sfântu Gheorghe
-979;29.5929,44.8960;;Tulcea;Sfântu Gheorghe
+979;29.5929,44.8960;827195;Tulcea;Sfântu Gheorghe
 2154;26.8333,44.6500;927215;Ialomiţa;Sfântu Gheorghe
 475;25.5968,44.4350;087066;Giurgiu;Sfântu Gheorghe
 0;25.3667,44.2333;147151;Teleorman;Sfântu Gheorghe

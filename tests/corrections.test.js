@@ -252,6 +252,37 @@ test('zones de tension : chaque région citée par une règle existe dans les do
   }
   assert.deepEqual(bad, []);
 });
+// CODES POSTAUX RÉCOLTÉS SUR OPENSTREETMAP (25/09/2026). 1 277 fiches qui n'avaient AUCUN code en portent un,
+// pris dans OSM via Nominatim là où le fichier postal GeoNames n'a aucun point à moins de 15 km. Ces codes ont
+// survécu à trois cribles, dont le dernier est le plus dur : le préfixe doit s'accorder avec le code GeoNames du
+// lieu publié le plus proche — une source indépendante de celle qui l'a fourni. Le témoin justifiait cette dureté :
+// entre eux, les codes GeoNames voisins s'accordent 94 % du temps ; la moisson brute, 58 %.
+// Ce test garde les deux bouts : les codes retenus doivent être PUBLIÉS, et ils ne doivent jamais avoir recouvert
+// un code existant.
+test('OpenStreetMap : les codes postaux récoltés sont publiés, et n\'ont recouvert aucun code existant', () => {
+  const DOSSIER = path.join(ROOT, 'scripts', 'postal-osm');
+  if(!fs.existsSync(DOSSIER)) return;   // moisson absente : rien à garder
+  const bad = [];
+  let total = 0;
+  for(const f of fs.readdirSync(DOSSIER).filter(x => /^[A-Z]{2}\.txt$/.test(x))){
+    const cc = f.slice(0, 2);
+    const fiches = fichesDe(cc);
+    if(!fiches.length) continue;
+    const index = new Map();
+    fiches.forEach(x => index.set(x.lat.toFixed(4) + ',' + x.lon.toFixed(4) + '|' + x.name, x));
+    for(const l of fs.readFileSync(path.join(DOSSIER, f), 'utf8').split('\n')){
+      if(!l || l.charAt(0) === '#') continue;
+      const c = l.split('\t');
+      if(c.length < 4 || !c[2]) continue;
+      total++;
+      const fiche = index.get(c[0] + ',' + c[1] + '|' + c[3]);
+      if(!fiche){ bad.push(cc + ' : « ' + c[3] + ' » (' + c[0] + ',' + c[1] + ') ne correspond à aucune fiche publiée'); continue; }
+      if(fiche.cp !== c[2]) bad.push(cc + ' : « ' + c[3] + ' » devrait porter « ' + c[2] + ' », publié « ' + (fiche.cp || 'vide') + ' »');
+    }
+  }
+  assert.ok(total > 1000, 'la moisson OpenStreetMap ne compte plus que ' + total + ' codes, contre 1 277 le 25/09/2026');
+  assert.deepEqual(bad.slice(0, 10), []);
+});
 test('corrections : « Ponta Verde » (Cap-Vert) n\'est publiée qu\'une fois, et sur Fogo', () => {
   // Voir ADMIN_COORD_CONFLICT. Deux fiches portaient le concelho CV-18 (São Filipe, sur Fogo) : l'une sur Fogo,
   // cohérente ; l'autre SUR SANTIAGO, à 80 km de son propre concelho. La seconde faisait se chevaucher les boîtes

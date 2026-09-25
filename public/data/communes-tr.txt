@@ -38788,7 +38788,7 @@
 0;34.7753,41.8318;57800;Erfelek;Akveren
 0;27.5622,41.7011;39300;Pinarhisar;Akören
 0;32.9697,41.4355;78300;Eflani;Akören
-1373;28.3337,41.1968;;Istanbul;Akören
+1373;28.3337,41.1968;34592;Istanbul;Akören
 0;32.6107,41.1297;74600;Ulus;Akören
 70;34.9938,41.0138;19500;Osmancik;Akören
 98;32.0493,40.9719;14840;Mengen;Akören
@@ -39237,7 +39237,7 @@
 7788;28.4196,41.0515;34590;Silivri;Celâliye
 1345;28.4923,41.0963;34545;Çatalca;Muratbey
 0;28.4148,41.1392;34540;Çatalca;Elbasan
-700;28.2131,41.2256;;Istanbul;Büyük Sinekli
+700;28.2131,41.2256;34594;Istanbul;Büyük Sinekli
 1982;28.4448,41.2013;34540;Çatalca;Gökçeali
 0;28.4736,41.3702;34562;Çatalca;Hısarbeyli
 0;28.3225,41.2702;34562;Çatalca;Pınarca

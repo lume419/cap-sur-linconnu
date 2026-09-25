@@ -1,0 +1,5 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+41.1968	28.3337	34592	Akören	0.018	2026-09-25	34540@5km
+41.2256	28.2131	34594	Büyük Sinekli	0.019	2026-09-25	34570@4.5km

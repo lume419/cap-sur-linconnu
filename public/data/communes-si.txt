@@ -432,7 +432,7 @@
 152;16.0422,46.5022;9243;;Trnovci
 564;16.3083,46.5875;9232;;Trnje
 281;14.2889,45.7190;6258;;Trnje
-305;16.4586,46.5444;;Municipality of Lendava;Trimlini
+305;16.4586,46.5444;9220;Municipality of Lendava;Trimlini
 328;15.2500,45.5500;8340;;Tribuče
 225;16.0961,46.4161;2274;;Trgovišče
 123;13.7500,46.3833;5232;;Trenta
@@ -1285,7 +1285,7 @@
 2088;14.1959,45.6829;6257;;Pivka
 345;15.6459,46.0031;8255;;Pišece
 4192;13.5706,45.5278;6320;;Piran
-209;16.5236,46.5278;;Municipality of Lendava;Pince
+209;16.5236,46.5278;9220;Municipality of Lendava;Pince
 124;15.5258,46.1006;3261;;Pilštanj
 11;14.4186,45.8642;1382;;Pikovnik
 766;14.5719,45.9511;1319;;Pijava Gorica
@@ -1295,7 +1295,7 @@
 102;15.1492,45.6131;8333;;Petrova Vas
 39;13.9019,45.5711;6275;;Petrinje
 458;14.1986,45.9692;1373;;Petkovec
-812;16.4614,46.5272;;Municipality of Lendava;Petišovci
+812;16.4614,46.5272;9220;Municipality of Lendava;Petišovci
 292;14.1960,45.6898;6257;;Petelinje
 667;16.0661,46.6533;9252;;Petanjci
 86;16.2542,46.8069;9206;;Peskovci
@@ -2408,7 +2408,7 @@
 335;14.1242,45.6628;6257;;Dolnja Košana
 13;14.8208,45.5214;8331;;Dolnja Briga
 81;14.1844,45.6103;6255;;Dolnja Bitnja
-342;16.5067,46.5392;;Municipality of Lendava;Dolina pri Lendavi
+342;16.5067,46.5392;9220;Municipality of Lendava;Dolina pri Lendavi
 195;16.1803,46.7433;9202;;Dolina
 66;14.3333,46.4000;4290;;Dolina
 392;16.1072,46.8366;9263;;Dolič
@@ -2582,7 +2582,7 @@
 348;13.7969,46.0494;5253;;Čepovan
 23;15.0508,45.5360;8342;;Čeplje
 283;16.1906,46.8608;9203;;Čepinci
-839;16.4975,46.5556;;Municipality of Lendava;Čentiba
+839;16.4975,46.5556;9220;Municipality of Lendava;Čentiba
 230;14.9444,46.1792;1413;;Čemšenik
 38059;15.2604,46.2309;3502;;Celje
 50;14.1546,45.5916;3000;;Čelje
@@ -6106,7 +6106,7 @@
 0;14.9088,45.5132;8331;;Dolenja Žaga
 0;14.8457,45.4719;1336;;Kuželič
 121;15.7789,46.2145;3252;;Trlično
-84;16.4936,46.5080;;Municipality of Lendava;Benica
+84;16.4936,46.5080;9220;Municipality of Lendava;Benica
 78;14.6914,45.5329;1337;;Sela
 62;15.3116,45.5035;8341;;Vrhovci
 55;15.3251,45.4596;8344;;Balkovci

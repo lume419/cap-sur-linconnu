@@ -1,0 +1,5 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+65.3833	26.9167	93100	Pudasjärvi	0.587	2026-09-25	93100@2.4km
+68.4510	22.4859	99470	Kaaresuvanto	0.027	2026-09-25	99470@8.9km

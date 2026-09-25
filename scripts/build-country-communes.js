@@ -580,6 +580,24 @@ for(const country of COUNTRIES){
       ? ' : fichier postal absent — ' + déjàPubliés.size + ' codes repris du fichier déjà publié'
       : ' : ' + déjàPubliés.size + ' codes déjà publiés chargés en dernier recours (fichier postal présent)'));
   }
+  // Codes récoltés sur OpenStreetMap pour ce pays, s'il y en a : la clé est la coordonnée publiée ET le nom, comme
+  // pour le repli sur le fichier déjà publié — deux lieux suédois sur douze partagent leur position arrondie au
+  // dix-millième, et le nom est ce qui les sépare.
+  const postalOsm = new Map();
+  {
+    const f = path.join(__dirname, 'postal-osm', country + '.txt');
+    if(fs.existsSync(f)){
+      let n = 0;
+      for(const l of fs.readFileSync(f, 'utf8').split('\n')){
+        if(!l || l.charAt(0) === '#') continue;
+        const c = l.split('\t');
+        if(c.length < 4 || !c[2]) continue;
+        postalOsm.set(c[0] + ',' + c[1] + '|' + c[3], c[2]);
+        n++;
+      }
+      if(n) console.log(country + ' : ' + n + ' code(s) postal(aux) d\'OpenStreetMap disponibles en dernier recours');
+    }
+  }
   const codePublié = p => {
     const exact = déjàPubliés.get(p.lat.toFixed(4) + ',' + p.lon.toFixed(4) + '|' + p.name);
     if(exact) return exact;
@@ -673,7 +691,16 @@ for(const country of COUNTRIES){
     // Ne touche que les fiches nommément vérifiées sur la carte ; la région, elle, est conservée.
     // Dernier recours : aucun point postal à moins de 15 km, mais un code DÉJÀ PUBLIÉ pour cette fiche.
     const replí = near ? null : codePublié(p);
-    const cp = cpContredit(country, p.name, p.lat, p.lon) ? '' : (near ? near.postcode : (replí ? replí.postcode : ''));
+    // TROISIÈME RECOURS, OPENSTREETMAP (25/09/2026). Quand ni le fichier postal ni le fichier déjà publié ne donnent
+    // rien, on regarde ce que la carte sait : Nominatim CALCULE un code postal à partir des adresses voisines et des
+    // frontières postales, là où GeoNames n'a qu'une liste de points. Voir scripts/fetch-osm-postcodes.js pour la
+    // récolte et apply-osm-postcodes.js pour les cribles. Ce recours ne REMPLACE jamais un code : il comble un vide.
+    // `replí` est un OBJET, vrai même quand son code postal est VIDE — et c'est justement le cas de tous les lieux
+    // qu'on cherche à combler ici. Un premier jet testait l'objet au lieu du code : le recours OpenStreetMap n'était
+    // jamais atteint, et la régénération ne changeait pas une seule fiche.
+    const cpTrouvé = near ? near.postcode : (replí ? replí.postcode : '');
+    const osm = cpTrouvé ? null : postalOsm.get(p.lat.toFixed(4) + ',' + p.lon.toFixed(4) + '|' + p.name);
+    const cp = cpContredit(country, p.name, p.lat, p.lon) ? '' : (cpTrouvé || osm || '');
     // Pays dont la région se prend au DUMP même quand un fichier postal existe (voir REGION_DU_DUMP dans
     // communes-corrections.js) : le point postal le plus proche peut être de l'autre côté d'une limite de
     // district, et la carte a mesuré la perte — canton faux 4 fois sur 12 au Costa Rica. Le CODE postal, lui,

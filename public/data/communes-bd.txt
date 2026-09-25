@@ -71,7 +71,7 @@
 238422;89.8770,24.0578;1930;Dhaka Division;Nāgarpur
 49425;89.6915,25.9682;5680;Rangpur Division;Nageswari
 0;91.5167,24.5667;3370;Sylhet Division;Nabiganj
-225126;90.4065,24.7564;;Mymensingh Division;Mymensingh
+225126;90.4065,24.7564;2200;Mymensingh Division;Mymensingh
 0;89.1874,22.2444;9451;Khulna Division;Purba Munshiganj
 24684;90.2570,24.7648;2210;Mymensingh Division;Muktāgācha
 41137;90.0984,24.1029;1940;Dhaka Division;Mirzāpur

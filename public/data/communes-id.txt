@@ -3254,7 +3254,7 @@
 0;116.7697,-1.1302;76146;East Kalimantan;Tempadu
 0;110.0775,-7.8869;55654;Yogyakarta;Temon
 0;110.6833,-7.4500;57377;Central Java;Temon
-19491;132.0143,-1.4416;;Southwest Papua;Teminabuan
+19491;132.0143,-1.4416;98454;Southwest Papua;Teminabuan
 0;131.0333,-7.6667;97464;Maluku;Temin
 0;101.6289,-2.1730;37175;Jambi;Temiai
 0;108.0153,-6.4889;45265;West Java;Temiyang Tua
@@ -4920,7 +4920,7 @@
 0;102.7500,1.1500;28755;Riau;Sinunjung
 0;107.3342,-7.1483;43275;West Java;Sinumbra Satu
 0;100.9799,1.5173;28983;Riau;Sintong
-85000;111.5000,0.0667;;West Kalimantan;Sintang
+85000;111.5000,0.0667;78612;West Kalimantan;Sintang
 0;127.7097,0.2136;97852;North Maluku;Sinopa
 0;121.3000,-2.5833;92983;South Sulawesi;Sinongko
 0;119.9243,-5.4978;92412;South Sulawesi;Sinoa
@@ -5780,7 +5780,7 @@
 0;116.5563,-8.4908;83654;West Nusa Tenggara;Sapit
 0;112.9971,-7.8675;67255;East Java;Sapih
 0;115.7062,-7.0047;69493;East Java;Sapeken
-5000;118.9833,-8.5667;;West Nusa Tenggara;Sape
+5000;118.9833,-8.5667;84182;West Nusa Tenggara;Sape
 0;119.7335,-5.3631;92176;South Sulawesi;Sapaya
 0;103.3101,-0.3235;29281;Riau;Sapat
 0;128.6524,-3.5730;97592;Maluku;Saparua

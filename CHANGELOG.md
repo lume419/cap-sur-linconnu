@@ -143,6 +143,64 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **1 224 CODES POSTAUX TIRÉS D'OPENSTREETMAP, et 2 321 REFUSÉS** (demande de l'utilisateur). 99 109 fiches
+  publiées n'ont aucun code postal, faute d'un point du fichier GeoNames à moins de 15 km. OpenStreetMap en connaît
+  une partie : Nominatim CALCULE un code en interrogeant les adresses voisines et les frontières postales, là où
+  GeoNames n'a qu'une liste de points. Ce lot en récolte, en juge, et en jette les deux tiers.
+  - **TROIS MESURES ONT DÉCIDÉ DE LA MÉTHODE, avant d'écrire une ligne d'outil.** D'abord, le code n'est presque
+    jamais posé sur le NŒUD du village : **171 sur 9 214** au Monténégro, soit 1,9 % — moissonner par Overpass ne
+    donnerait rien. Ensuite, le plafond : sur 40 fiches tirées dans dix pays, Nominatim rend un code **6 fois sur
+    10**, mais **85 %** pour les lieux peuplés et **35 %** pour ceux à population nulle. Enfin le coût : les 99 109
+    demanderaient **27,5 heures** d'interrogation continue à une requête par seconde, ou 19 046 tuiles Overpass —
+    ce qu'aucun de ces services gratuits ne doit absorber. D'où le périmètre : les **6 243 fiches sans code qui ont
+    une POPULATION**, soit 1 h 50, et qui sont aussi les seules qu'un voyageur puisse choisir au départ.
+  - **LE TÉMOIN, et c'est lui qui a tout changé.** Une fois 3 468 codes récoltés, restait à savoir ce qu'ils valaient.
+    On les a confrontés au voisinage : un code doit partager son préfixe avec le code GeoNames du lieu publié le plus
+    proche — une source indépendante de celle qui l'a fourni. Résultat : **58 %** d'accord. Chiffre inutilisable seul,
+    d'où la mesure du TÉMOIN : à quel taux les codes GeoNames s'accordent-ils ENTRE EUX, avec la même règle ?
+    **94 %** à moins de 5 km. L'écart n'est pas un détail de méthode — il dit qu'une part importante de la moisson
+    est le code d'un objet lointain ou d'une zone trop large. « Tavush », village du nord-est de l'Arménie, recevait
+    **0045, un code d'Erevan**.
+  - **Quatre cribles, et ce qu'ils ont arrêté** : 1 568 codes **démentis par leur voisinage**, 338 d'une **forme
+    inconnue du pays**, 283 **sans aucun code publié à moins de 30 km** pour les corroborer, 68 dont l'objet trouvé
+    était à plus de 2 km — jusqu'à 470 km au Svalbard. Le crible coûte des codes justes : 6 % des voisinages
+    GeoNames se contredisent légitimement. On préfère perdre ceux-là qu'en publier un faux.
+  - **312 codes de CRIMÉE écartés par la forme.** OpenStreetMap y porte des codes à six chiffres, du système russe
+    (préfixe 29 pour 308 d'entre eux) ; l'Ukraine en compte cinq. Le crible garde le format du pays du fichier, sans
+    avoir à trancher autre chose.
+  - **L'IRLANDE est écartée par nature**, seul pays dans ce cas : un **Eircode désigne un BÂTIMENT**, pas une
+    commune. « V95 X754 », rendu pour Ennis, est le code d'un commerce de photographie. Seules ses trois premières
+    lettres désignent une zone : publier l'Eircode entier serait faux, le tronquer serait décider à la place de
+    l'utilisateur. Ses 335 fiches attendent cette décision.
+  - **POSÉS SANS RÉGÉNÉRER, et c'est un choix mesuré.** Le générateur sait désormais lire ces codes en DERNIER
+    recours — jamais pour en remplacer un, seulement pour combler un vide. Mais régénérer les pays concernés
+    charrierait tout autre chose : **28 des 40 changeraient des milliers d'étiquettes de région** au passage —
+    178 091 au Mexique, 146 203 aux États-Unis, 61 754 en Italie — parce que leur fichier publié date d'un dump plus
+    ancien. C'est la dérive déjà refusée deux fois. Les codes sont donc posés chirurgicalement
+    (`scripts/patch-osm-postcodes.js`), et le diff le prouve : **1 277 lignes changées, toutes dans le seul champ
+    du code postal, toutes vides auparavant**.
+  - **DEUX DÉFAUTS DE MA PART, tous deux dits par un contrôle et non par une relecture.** Le premier : dans le
+    générateur, le repli sur le fichier déjà publié est un OBJET, vrai même quand son code est vide — c'est-à-dire
+    précisément pour toutes les fiches qu'on cherchait à combler. Le recours OpenStreetMap n'était jamais atteint,
+    et la régénération ne changeait pas une fiche ; seul le compte des « sans code postal », resté identique, l'a
+    révélé. Le second : le poseur confondait **code VIDE** et **code MANQUANT**, et recomblait 64 fiches dont
+    `CP_CONTREDIT` avait effacé le code EXPRÈS, sur foi de la carte. Le test des codes démentis l'a dit aussitôt —
+    Sarrebruck, Aldeire, Lebedyn. Une garde est posée aux deux endroits.
+  - **DIX-HUIT LIEUX PHILIPPINS CHANGENT D’ÎLE, et c’est une correction.** Aux Philippines, les règles d’ÎLE
+    s’appuient sur le PRÉFIXE DU CODE POSTAL : un lieu sans code retombait sur Luçon par défaut. Avec leur code,
+    dix-huit d’entre eux rejoignent l’île où ils sont réellement — Surup et Pondaguitan (8210) à Mindanao, Rio Tuba
+    (5306) à Palawan, Recodo (7000) à Mindanao, Isabela City (7300) à Basilan, Buan (7501) à Tawi-Tawi. Les dix-huit
+    ont été confrontés à leur COORDONNÉE, qui ne doit rien au code : les dix-huit sont justes. Ces lieux cessent donc
+    d’être joignables par la route depuis Luçon, ce qu’ils n’étaient jamais.
+  - **Deux tirages sur 380 changent**, et ce sont ceux-là : `compare-engine` les a signalés, et remettre le SEUL
+    fichier philippin en l’état les fait disparaître — la cause est donc établie, pas supposée. Les deux itinéraires
+    restent valides et raccourcissent (1 590 km → 787 km, 160 km → 78 km).
+  - **Ce qui reste** : 97 885 fiches sans code postal, dont 92 866 à population nulle — là où le rendement tombe à
+    un tiers et où le coût d'interrogation n'est pas justifiable. Le cache de la moisson est conservé
+    (`scripts/postal-osm/cache.jsonl`) : relancer l'outil ne redemande jamais un lieu déjà interrogé.
+  - **Attribution** : ces codes viennent d'OpenStreetMap, sous licence ODbL, déjà citée au pied du site parmi les
+    sources. Ce lot en étend la portée aux codes postaux.
+
 - **LA RÉGION PREND LA PLACE DU CODE POSTAL QUAND IL N'Y EN A PAS : 95 473 fiches cessent de se ressembler**
   (demande de l'utilisateur). Une ligne de suggestion montre le code postal à droite du nom. Or **99 109 fiches
   publiées n'ont aucun code postal** — la Bosnie à 98 %, le Monténégro et le Kosovo presque entiers, 60 pays en
