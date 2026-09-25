@@ -231,6 +231,27 @@ test('corrections : l\'étiquette reste la PROVINCE au Pakistan et l\'ÉTAT au B
   }
   assert.deepEqual(bad, []);
 });
+// UNE ZONE DE TENSION S'APPARIE PAR LE NOM DE RÉGION, à l'exécution, et c'est un couplage silencieux entre une
+// donnée de SÉCURITÉ et une étiquette de région. Mesuré le 25/09/2026 : renommer les comtés kényans a fait cesser de
+// s'appliquer trois mises en garde du Quai d'Orsay — Mandera, Wajir, Garissa et l'est d'Isiolo — sans que rien ne
+// casse. trip-data.js ne bougeait même pas, puisqu'il recopie les noms tels quels ; seul le générateur de zones
+// protestait, dans une ligne de journal qu'il était facile de ne pas lire. Ce test refuse qu'une règle cite une
+// région qu'aucune fiche ne porte.
+test('zones de tension : chaque région citée par une règle existe dans les données publiées', () => {
+  const bad = [];
+  for(const z of (TripData.TENSION_ZONES || [])){
+    const fiches = fichesDe(z.country);
+    if(!fiches.length) continue;   // pays sans fichier publié : rien à vérifier ici
+    const divs = new Set(fiches.map(f => f.div).filter(Boolean));
+    for(const clé of ['match', 'except']){
+      for(const r of ((z[clé] && z[clé].regions) || [])){
+        if(!divs.has(r)) bad.push(z.country + ' : la règle « ' + z.label + ' » cite « ' + r
+          + ' » en ' + clé + ', qu\'aucune fiche ne porte — la mise en garde ne s\'applique plus à personne');
+      }
+    }
+  }
+  assert.deepEqual(bad, []);
+});
 test('corrections : « Ponta Verde » (Cap-Vert) n\'est publiée qu\'une fois, et sur Fogo', () => {
   // Voir ADMIN_COORD_CONFLICT. Deux fiches portaient le concelho CV-18 (São Filipe, sur Fogo) : l'une sur Fogo,
   // cohérente ; l'autre SUR SANTIAGO, à 80 km de son propre concelho. La seconde faisait se chevaucher les boîtes

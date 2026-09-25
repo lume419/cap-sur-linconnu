@@ -1099,7 +1099,7 @@
 38;23.5221,47.2252;457363;Sălaj;Valea Ciurenilor
 91;23.9944,46.4080;517521;Alba;Valea Ciuciului
 2108;25.5644,44.1670;147029;Teleorman;Valea Cireșului
-19;24.0262,47.1507;407401;Bistrița-Năsăud County;Valea Cireșoii
+19;24.0262,47.1507;407401;Bistriţa-Năsăud;Valea Cireșoii
 1996;27.5667,44.7167;927240;Ialomiţa;Valea Ciorii
 0;28.1239,46.8097;737220;Vaslui;Valea Cânepei
 1340;27.8023,45.0750;817197;Brăila;Valea Cânepii
@@ -1853,7 +1853,7 @@
 2551;26.0167,44.8167;107610;Prahova;Tinosu
 0;26.1833,46.0000;525401;Covasna;Tinoasa
 257;26.8780,45.6140;627126;Vrancea;Tinoasa
-0;26.3167,44.3833;077038;Călărași County;Tânganu Moară
+0;26.3167,44.3833;077038;Călăraşi;Tânganu Moară
 2547;26.3126,44.4063;077039;Ilfov;Tânganu
 483;22.1501,45.5715;327327;Caraş-Severin;Tincova
 0;25.6833,46.6333;537356;Harghita;Tincani
@@ -2787,7 +2787,7 @@
 0;21.8500,44.7000;327354;Caraş-Severin;Smizi
 1228;27.3548,44.7240;927146;Ialomiţa;Smirna
 2658;25.4333,43.8500;147360;Teleorman;Smârdioasa
-0;28.0333,45.2833;810001;Tulcea County;Smârdanu Nou
+0;28.0333,45.2833;810001;Tulcea;Smârdanu Nou
 689;26.4693,48.0793;717366;Botoşani;Smârdan
 3961;27.9333,45.4833;807275;Galaţi;Smârdan
 956;26.8333,44.8833;127092;Buzău;Smârdan
@@ -2905,7 +2905,7 @@
 356;23.1286,48.0588;447032;Satu Mare;Șirlău
 297;28.1879,44.6291;907099;Constanţa;Șiriu
 333;24.2950,47.1020;427312;Bistriţa-Năsăud;Șirioara
-0;22.0167,44.6167;327027;Mehedinți County;Sirinia
+0;22.0167,44.6167;327027;Mehedinţi;Sirinia
 2571;24.2000,44.9333;247680;Vâlcea;Şirineasa
 8004;21.6333,46.2667;317340;Arad;Şiria
 0;26.0843,47.7275;727533;Suceava;Sârghieşti
@@ -3205,7 +3205,7 @@
 336;24.2659,46.4535;545108;Mureş;Sfântu Gheorghe
 50080;25.7833,45.8667;520003;Covasna;Sfântu Gheorghe
 0;26.5333,45.1667;127610;Buzău;Sfântu Gheorghe
-979;29.5929,44.8960;;Tulcea County;Sfântu Gheorghe
+979;29.5929,44.8960;;Tulcea;Sfântu Gheorghe
 2154;26.8333,44.6500;927215;Ialomiţa;Sfântu Gheorghe
 475;25.5968,44.4350;087066;Giurgiu;Sfântu Gheorghe
 0;25.3667,44.2333;147151;Teleorman;Sfântu Gheorghe
@@ -4461,7 +4461,7 @@
 5009;27.3667,46.4333;607490;Bacău;Răchitoasa
 0;26.7667,46.5500;607601;Bacău;Răchitişu de Jos
 481;26.7553,46.5397;607601;Bacău;Răchitișu
-290;26.0270,46.6610;537146;Bacău County;Răchitiș
+290;26.0270,46.6610;537146;Bacău;Răchitiș
 4333;26.6833,47.7667;717310;Botoşani;Răchiţi
 1692;26.9173,47.0535;707298;Iaşi;Răchiteni
 909;22.8951,46.7065;407384;Cluj;Răchițele
@@ -5629,7 +5629,7 @@
 3040;28.5000,43.9000;907235;Constanţa;Pecineaga
 11287;27.8000,45.6333;807240;Galaţi;Pechea
 642;22.4054,44.8597;325201;Caraş-Severin;Pecinișca
-2042;28.1333,45.0167;817051;Tulcea County;Peceneaga
+2042;28.1333,45.0167;817051;Tulcea;Peceneaga
 1208;22.8624,47.1242;457032;Sălaj;Peceiu
 141;22.9855,44.5701;227479;Mehedinţi;Pavăț
 118;26.6829,45.7383;627244;Vrancea;Păvălari
@@ -6575,12 +6575,12 @@
 22;27.0814,45.0992;127532;Buzău;Movilița
 4766;26.4833,44.6500;927180;Ialomiţa;Moviliţa
 766;28.5111,44.0451;907287;Constanţa;Movilița
-0;27.3667,45.7500;627331;Galați County;Movilenii de Jos
+0;27.3667,45.7500;627331;Galaţi;Movilenii de Jos
 252;26.4143,47.3951;727569;Suceava;Movileni
 3129;27.3500,47.3167;707350;Iaşi;Movileni
 239;26.9002,47.2009;707247;Iaşi;Movileni
 210;27.5141,46.2702;737141;Vaslui;Movileni
-3200;27.3718,45.7615;627331;Galați County;Movileni
+3200;27.3718,45.7615;627331;Galaţi;Movileni
 509;27.9618,45.4063;807195;Galaţi;Movileni
 3839;24.6500,44.3667;237275;Olt;Movileni
 0;27.2500,44.8167;817030;Brăila;Movilele
@@ -7836,7 +7836,7 @@
 860;23.6591,44.9858;217073;Gorj;Lihulești
 0;21.9333,45.7667;307129;Timiş;Lighitiş
 0;21.5667,45.8667;307347;Timiş;Lighet
-252;27.4330,46.1054;627338;Galați County;Liești
+252;27.4330,46.1054;627338;Galaţi;Liești
 10956;27.5167,45.6167;807180;Galaţi;Lieşti
 223;27.0510,45.4992;627308;Vrancea;Liești
 3705;21.3217,45.5775;307245;Timiş;Liebling
@@ -8109,7 +8109,7 @@
 0;25.5667,47.9167;727456;Suceava;Jităria
 1378;23.0869,44.6710;227133;Mehedinţi;Jirov
 3397;27.1667,45.1667;817075;Brăila;Jirlău
-4013;23.6833,45.7833;517778;Sibiu County;Jina
+4013;23.6833,45.7833;517778;Sibiu;Jina
 0;24.1500,46.9000;407115;Cluj;Jimbor Fânaţe
 615;24.2087,46.9263;427051;Bistriţa-Năsăud;Jimbor
 549;25.3882,46.1095;507106;Braşov;Jimbor
@@ -8627,7 +8627,7 @@
 2031;26.0163,45.2694;107323;Prahova;Homorâciu
 185;22.3588,45.8552;307137;Timiş;Homojdia
 9869;27.2333,46.1333;627175;Vrancea;Homocea
-424;26.5943,47.2960;727221;Iași County;Homița
+424;26.5943,47.2960;727221;Iaşi;Homița
 117;26.6581,47.0196;617052;Neamţ;Homiceni
 915;26.9588,45.3980;127271;Buzău;Homești
 1245;26.9750,46.5786;607271;Bacău;Holt
@@ -9044,7 +9044,7 @@
 0;24.8333,46.6000;547626;Mureş;Grâuşorul
 0;25.8833,47.0500;617230;Neamţ;Grinţieşu Mic
 2573;25.8667,47.0500;617230;Neamţ;Grinţieş
-0;29.6000,44.8833;;Tulcea County;Grindu Vădanei
+0;29.6000,44.8833;;Tulcea;Grindu Vădanei
 1561;28.2167,45.4000;827085;Tulcea;Grindu
 2412;26.9167,44.7667;927140;Ialomiţa;Grindu
 570;23.9979,46.5007;547154;Mureş;Grindeni
@@ -9289,7 +9289,7 @@
 760;27.1087,46.8163;617498;Neamţ;Giurgeni
 271;27.1983,46.2380;607626;Bacău;Giurgeni
 57;22.5767,44.9697;227289;Mehedinţi;Giurgiani
-1629;27.8550,44.7440;905401;Ialomița County;Giurgeni
+1629;27.8550,44.7440;905401;Ialomiţa;Giurgeni
 0;22.8467,44.8722;227021;Mehedinţi;Giureşti
 215;22.9187,46.6463;407079;Cluj;Giurcuța de Sus
 0;22.9885,46.6559;407078;Cluj;Giurcuța de Jos
@@ -9868,7 +9868,7 @@
 363;28.4496,45.0737;827097;Tulcea;Florești
 7507;25.7833,45.0500;107255;Prahova;Floreşti
 2832;22.9478,44.7631;227200;Mehedinţi;Floreşti
-2917;23.5284,44.6192;205303;Gorj County;Florești
+2917;23.5284,44.6192;205303;Gorj;Florești
 4332;25.6966,44.5131;087076;Giurgiu;Florești
 410;23.7956,44.3961;207557;Dolj;Florești
 434;23.4229,44.9463;215506;Gorj;Floreșteni
@@ -10384,7 +10384,7 @@
 509;25.3091,46.1402;507042;Braşov;Drăușeni
 573;23.7432,45.9383;517769;Alba;Drașov
 1156;24.2789,44.4362;237186;Olt;Dranovățu
-0;29.6000,44.8833;;Tulcea County;Dranov
+0;29.6000,44.8833;;Tulcea;Dranov
 1296;23.8468,44.0552;207250;Dolj;Drănic
 0;26.5500,47.0833;617375;Neamţ;Drăneşti
 0;22.3167,45.0333;327105;Caraş-Severin;Drajova
@@ -10431,7 +10431,7 @@
 0;25.3000,44.9500;137291;Dâmboviţa;Drăgoeşti-Ungureni
 1141;26.5333,44.5667;927100;Ialomiţa;Drăgoeşti-Snagov
 109;22.9815,46.3661;517837;Alba;Drăgoiești-Luncă
-0;26.5333,44.5500;917014;Ialomița County;Drăgoeştii de Sus
+0;26.5333,44.5500;917014;Ialomiţa;Drăgoeştii de Sus
 0;26.5333,44.5667;927100;Ialomiţa;Dragoeştii de Jos
 1603;26.0833,47.5500;727215;Suceava;Drăgoiești
 0;22.9667,46.3667;517872;Alba;Drăgoeşti
@@ -11212,7 +11212,7 @@
 3849;25.4667,45.6167;507055;Braşov;Cristian
 1130;24.0961,47.1933;427366;Bistriţa-Năsăud;Cristeștii Ciceului
 4745;26.7333,47.6333;717100;Botoşani;Cristeşti
-4273;26.5667,47.2667;617470;Iași County;Cristeşti
+4273;26.5667,47.2667;617470;Iaşi;Cristeşti
 555;27.7240,47.1706;707145;Iaşi;Cristești
 1284;27.0816,47.1622;707063;Iaşi;Cristești
 5507;24.4833,46.5000;547185;Mureş;Cristeşti
@@ -11671,7 +11671,7 @@
 5;22.9033,45.5913;337492;Hunedoara;Copaci
 831;27.1203,46.0909;627297;Vrancea;Copăcești
 0;26.1000,44.2667;077006;Ilfov;Copăceni Sfântu Ion
-0;26.0833,44.2667;077006;Giurgiu County;Copăceni-Mânăstirea
+0;26.0833,44.2667;077006;Giurgiu;Copăceni-Mânăstirea
 3043;26.0937,44.2630;077006;Ilfov;Copăceni
 173;22.1899,46.7728;417456;Bihor;Copăceni
 1120;23.7389,46.5968;407501;Cluj;Copăceni
@@ -12289,7 +12289,7 @@
 1804;23.4038,47.6915;437095;Maramureş;Cicârlău
 0;23.9067,46.2755;517399;Alba;Cicârd
 0;21.4796,46.1456;317406;Arad;Cicir
-0;27.1500,47.0167;617431;Iași County;Cichirdic
+0;27.1500,47.0167;617431;Iaşi;Cichirdic
 965;24.0889,47.3002;427027;Bistriţa-Năsăud;Ciceu-Poieni
 872;23.9748,47.1857;427218;Bistriţa-Năsăud;Ciceu-Mihăiești
 4285;24.0167,47.2500;427065;Bistriţa-Năsăud;Ciceu-Giurgeşti
@@ -12452,7 +12452,7 @@
 1032;21.7071,46.4686;317326;Arad;Chereluș
 2437;22.1333,47.3833;417175;Bihor;Cherechiu
 357;23.9500,44.8570;247557;Vâlcea;Cherăști
-0;25.5667,46.0333;525103;Brașov County;Chepeţ
+0;25.5667,46.0333;525103;Braşov;Chepeţ
 0;24.7167,46.4000;547102;Mureş;Chendu Mic
 1628;24.7291,46.3923;547102;Mureş;Chendu
 193;23.2630,47.0114;457371;Sălaj;Chendremal
@@ -12637,7 +12637,7 @@
 812;24.2878,45.0588;240002;Vâlcea;Căzănești
 140;24.4724,45.0501;247396;Vâlcea;Căzănești
 2726;22.8906,44.7233;227100;Mehedinţi;Căzăneşti
-285;23.8928,44.6354;207146;Vâlcea County;Căzănești
+285;23.8928,44.6354;207146;Vâlcea;Căzănești
 3604;27.0167,44.6167;927065;Ialomiţa;Căzăneşti
 397;24.3614,44.6190;237531;Olt;Căzănești
 0;25.1333,44.2667;147226;Teleorman;Căzăneasca
@@ -13558,7 +13558,7 @@
 1372;23.4339,44.0159;207006;Dolj;Boureni
 625;26.4801,47.4061;727237;Suceava;Boura
 0;23.6167,44.6167;217178;Gorj;Bou de Sus
-0;28.1167,44.9500;827175;Brăila County;Bou
+0;28.1167,44.9500;827175;Brăila;Bou
 167;25.2982,47.5782;727267;Suceava;Botușel
 734;25.3417,47.5599;727266;Suceava;Botuș
 0;25.2833,47.4833;727120;Suceava;Botuş
@@ -13613,7 +13613,7 @@
 1818;27.7671,47.2170;707566;Iaşi;Bosia
 78;27.2798,46.3866;607666;Bacău;Bosia
 697;26.8696,47.5076;717161;Botoşani;Boscoteni
-0;26.8500,47.5000;707169;Botoșani County;Boscoteni
+0;26.8500,47.5000;707169;Botoşani;Boscoteni
 6270;26.3167,47.5833;727045;Suceava;Bosanci
 831;25.4521,46.6954;537131;Harghita;Borzont
 0;24.8500,46.4667;547435;Mureş;Borzond
@@ -13681,7 +13681,7 @@
 228;26.4918,47.0336;617436;Neamţ;Bordea
 218;24.2269,46.3937;547191;Mureş;Bord
 1017;23.8407,47.4820;435602;Maramureş;Borcut
-9546;27.7500,44.3333;925101;Călărași County;Borcea
+9546;27.7500,44.3333;925101;Călăraşi;Borcea
 6556;25.7667,47.1833;617075;Neamţ;Borca
 3641;23.2833,44.7000;217090;Gorj;Borăscu
 2010;26.6050,44.6607;927096;Ialomiţa;Borănești
@@ -13909,7 +13909,7 @@
 0;24.0000,44.6833;247731;Vâlcea;Blejani
 0;27.6000,45.5500;807212;Galaţi;Blehani
 1103;24.0614,46.1912;517386;Alba;Bălcaciu
-0;28.1121,45.1247;827230;Brăila County;Blasova
+0;28.1121,45.1247;827230;Brăila;Blasova
 82;24.3308,45.4200;247532;Vâlcea;Blănoiu
 99;24.6007,45.1578;117747;Argeş;Blaju
 327;24.1962,44.2732;237561;Olt;Blaj
@@ -15179,7 +15179,7 @@
 0;28.0317,46.7053;737231;Vaslui;Duda Epureni
 2222;25.3372,45.5031;507135;Braşov;Moieciu de Jos
 0;25.5525,45.5970;500001;Braşov;Poiana Brasov
-0;27.7861,46.0768;807014;Vaslui County;Satul Radesti
+0;27.7861,46.0768;807014;Vaslui;Satul Radesti
 3220;24.3705,45.7000;555250;Sibiu;Mârșa
 45000;26.7229,47.2469;705200;Iaşi;Paşcani
 0;28.5899,43.8288;905560;Constanţa;Saturn
@@ -15188,7 +15188,7 @@
 0;28.6082,43.8855;905503;Constanţa;Olimp
 1194;25.4074,47.3383;727200;Suceava;Dorna-Arini
 0;23.6955,45.2913;215300;Gorj;Rânca
-0;22.6754,46.5141;517042;Bihor County;Vârtop
+0;22.6754,46.5141;517042;Bihor;Vârtop
 29062;24.9420,44.9590;115400;Argeş;Mioveni
 789;22.2215,46.6853;417610;Bihor;Uileacu de Beiuș
 0;24.6667,45.2167;117005;Argeş;Albeştii de Argeş
@@ -15197,15 +15197,15 @@
 379;25.4564,46.4620;537362;Harghita;Izvoare
 280;24.2220,45.5748;555704;Sibiu;Lotrioara
 469;29.3860,45.1746;827060;Tulcea;Crișan
-0;22.7323,46.5962;517316;Bihor County;Padiş
+0;22.7323,46.5962;517316;Bihor;Padiş
 0;25.9185,46.9981;617130;Neamţ;Durău
 0;22.8435,45.4180;337380;Hunedoara;Râuşor
 0;25.9436,46.1168;527116;Covasna;Baile Balvanyos
 0;25.1495,45.4660;117631;Argeş;Săticu de Sus
 119;25.9403,47.6098;727428;Suceava;Vârfu Dealului
-0;23.6297,45.5644;517782;Hunedoara County;Transalpina
+0;23.6297,45.5644;517782;Hunedoara;Transalpina
 0;25.5202,45.5658;500001;Braşov;Cheile Rasnoavei
-101;25.7953,46.7929;617061;Harghita County;Lacu Roșu
+101;25.7953,46.7929;617061;Harghita;Lacu Roșu
 293;22.9503,46.5025;517340;Alba;Horea
 1570;21.4617,46.1025;317122;Arad;Frumușeni
 156;24.0896,44.2009;207582;Dolj;Fântânele
@@ -15218,7 +15218,7 @@
 41550;27.3633,44.5647;920003;Ialomiţa;Slobozia
 0;22.0578,45.1778;327051;Caraş-Severin;Semenic
 0;26.0510,44.5013;010011;Bucureşti;Vatra Noua
-0;26.0210,44.5106;077135;Bucharest;Străulești
+0;26.0210,44.5106;077135;Bucureşti;Străulești
 0;21.2745,46.2099;310001;Arad;Gai
 0;25.2274,47.5132;727121;Suceava;Botoş
 46;22.9875,46.3421;517703;Alba;Bobărești
@@ -15249,7 +15249,7 @@
 212;24.1516,44.6375;247327;Vâlcea;Dumbrava
 54;26.0215,45.2743;107322;Prahova;Chirițești
 2329;26.0012,45.2838;107320;Prahova;Izvoarele
-556;27.2992,46.6889;737453;Bacău County;Satu Nou
+556;27.2992,46.6889;737453;Bacău;Satu Nou
 1391;22.1278,47.2646;417192;Bihor;Sâniob
 275;24.1380,47.3446;427276;Bistriţa-Năsăud;Hălmăsău
 599;26.6566,48.1398;715103;Botoşani;Lișmănița
@@ -15267,7 +15267,7 @@
 3296;27.8797,45.0755;817070;Brăila;Gropeni
 0;27.2291,45.1430;817076;Brăila;Brădeanca
 8;26.7369,45.3990;127026;Buzău;Arbănași
-1077;28.0037,45.2867;810001;Tulcea County;Smârdan
+1077;28.0037,45.2867;810001;Tulcea;Smârdan
 219;26.8294,45.0132;127597;Buzău;Bălaia
 96;26.8245,45.4716;127667;Buzău;Valea Salciei-Cătun
 202;21.6956,45.1091;325601;Caraş-Severin;Agadici
@@ -15353,7 +15353,7 @@
 474;21.8010,45.7139;307081;Timiş;Jabăr
 323;21.5608,45.6996;307336;Timiş;Sârbova
 101;28.4733,45.0107;827096;Tulcea;Cloșca
-1187;28.0538,45.4058;800001;Tulcea County;I. C. Brătianu
+1187;28.0538,45.4058;800001;Tulcea;I. C. Brătianu
 238;29.1133,45.1768;827135;Tulcea;Maliuc
 668;27.9738,46.2365;737372;Vaslui;Floreni
 368;27.4288,46.8289;735202;Vaslui;Cioatele
@@ -15372,7 +15372,7 @@
 209;26.9306,45.6410;627169;Vrancea;Rașca
 1;24.4154,45.5984;557196;Sibiu;Cabana Suru
 0;24.6156,45.6058;557075;Sibiu;sub Balea Lac
-0;23.6323,45.4381;335804;Vâlcea County;Obârşia Lotrului
+0;23.6323,45.4381;335804;Vâlcea;Obârşia Lotrului
 100;23.2367,45.3202;335600;Hunedoara;Straja
 0;22.7090,47.6953;447320;Satu Mare;Teste
 0;23.5791,45.8696;517663;Alba;Sebesláz
@@ -15391,14 +15391,14 @@
 0;23.4731,45.3844;335802;Hunedoara;Parâng
 0;26.9368,47.4648;707167;Iaşi;La Cosare
 0;26.9515,47.5298;717159;Botoşani;Ciurari
-0;26.9426,47.4974;707167;Botoșani County;Coasta Cişmelelor
+0;26.9426,47.4974;707167;Botoşani;Coasta Cişmelelor
 0;26.9864,47.2477;705302;Iaşi;În Lac
 0;26.9441,47.4139;707446;Iaşi;Sărăturile
 0;26.9932,47.5660;717159;Botoşani;La Balta Roşie
 0;26.9789,47.1604;707465;Iaşi;Nucărie
 0;26.9239,47.5564;717156;Botoşani;La Redi
 0;26.6851,44.1199;917260;Călăraşi;Bataluri Ulmeni
-0;28.0513,45.4044;800001;Tulcea County;Ion Costache Brătianu
+0;28.0513,45.4044;800001;Tulcea;Ion Costache Brătianu
 0;29.1302,45.0756;827130;Tulcea;Grădina Olandeză
 0;28.9498,45.1071;827173;Tulcea;Mereaua lui Duca
 0;27.7846,47.1533;707560;Iaşi;Cucova

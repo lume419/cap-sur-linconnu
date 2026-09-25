@@ -125,7 +125,7 @@ module.exports = [
 
   // ───────────── HONDURAS (18/03/2026 ; carte 12/02/2016) ─────────────
   { country: 'HN', level: 'orange', label: "Ensemble du pays, hors îles de la Baie, département de Valle et département de Copán",
-    match: { all: true }, except: { regions: ['Bay Islands', 'Valle Department', 'Copán Department'] },
+    match: { all: true }, except: { regions: ['Islas de la Bahía', 'Valle', 'Copán'] },
     source: U('honduras'), date: '2026-03-18' },
 
   // ───────────── NICARAGUA (11/03/2026) ─────────────

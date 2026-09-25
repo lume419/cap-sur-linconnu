@@ -143,6 +143,59 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **LES RÉGIONS PUBLIÉES SOUS DEUX NOMS SONT TRAITÉES : 11 902 fiches, et trois pays qui tombent enfin sur leur
+  compte exact de divisions.** Le Kenya publiait 85 étiquettes pour 47 comtés, le Honduras 37 pour 18 départements,
+  la Roumanie 62 pour 42 judeţe — parce que le générateur puise le nom de région à deux sources qui ne l'écrivent
+  pas pareil, et que celle qui l'emporte dépend de la présence d'un point postal à moins de 15 km. Après ce lot :
+  **47, 18 et 42**, exactement.
+  - **Un troisième crible, `scripts/audit-etiquettes-suffixe.js`.** Les deux précédents ne pouvaient pas voir cette
+    famille : celui des graphies compare des noms IDENTIQUES à la casse et aux accents près, et « Bomet » n'est pas
+    « Bomet County » ; celui des doublons spatiaux les écarte, leurs territoires se recouvrant trop bien. Le nouveau
+    compare le TRONC du nom, une fois retirés les mots qui n'en font pas partie.
+  - **Un premier jet appariait les noms par le CODE de division**, en comparant les deux sources. Il fabriquait
+    **95 couples faux sur 211** : les deux codes ne désignent pas la même chose partout, et en Thaïlande le fichier
+    postal numérote les provinces comme les codes postaux (51 = Lamphun) quand le dump les numérote autrement
+    (TH.51 = Suphan Buri). L'outil ne lit donc plus que la donnée publiée.
+  - **« CITY » N'EST PAS UN HABILLAGE, et les Bermudes l'ont prouvé** : elles publient « Hamilton city » (la
+    capitale, code HM 08, 902 habitants) ET « Hamilton » (la paroisse, code FL 01, 5 862 habitants) à 5 km l'une de
+    l'autre — et la ville n'est même pas dans cette paroisse, mais dans celle de Pembroke. Le mot ne décore pas le
+    nom, il DISTINGUE. Retiré de la liste, avec « town ». Même chose pour « Saint George » et « Saint Georgeʼs ».
+  - **La parenté de TERMINAISON est signalée, jamais corrigée.** Elle rapproche « Odeska » d'« Odesa », mais aussi
+    « Ağdaş » d'« Ağdam », qui sont **deux raions d'Azerbaïdjan à 52 km**, et le *pagasts* letton de son *novads*,
+    qui sont deux ÉCHELONS. Onze couples attendent un examen un par un.
+  - **Le sens de la correction n'est PAS celui de la majorité**, contrairement au crible des graphies : « Tana River
+    County » compte 163 fiches contre 62 à « Tana River ». Ce qui tranche n'est pas le nombre, c'est que l'une des
+    deux formes contient un mot qui n'est pas un nom de lieu. La graphie retenue est celle qui porte le plus de
+    signes diacritiques — c'est le précédent du Guatemala, où « DEPTO DE PETEN » est devenu « Petén » — d'où
+    « Francisco Morazán » contre « Francisco Morazan » (298 fiches) et « Füzuli » contre « Fuzuli ». **La cédille
+    roumaine n'est pas touchée** : « Iaşi » et « Iași » en portent autant, la majorité tranche, et la question de la
+    virgule souscrite reste entière, séparément — elle touche 7 000 fiches.
+  - **Deux autres façons de publier une région sous deux noms**, qu'aucun crible de graphie ne peut voir, les noms
+    ne se ressemblant pas du tout : la **TRADUCTION** (« Bay Islands » pour « Islas de la Bahía », « Bucharest »
+    pour « Bucureşti ») et la **VILLE PRISE POUR UN DÉPARTEMENT** (46 fiches honduriennes étiquetées « San Pedro
+    Sula », qui est la deuxième ville du pays, dans le département de Cortés). La carte a tranché les trois :
+    « Islas de la Bahía » (HN-IB), « Cortés » (HN-CR), et Bucarest est une municipalité à part entière — le crible
+    spatial voulait la fondre dans « Ilfov », le judeţ qui l'ENTOURE.
+  - **UNE RÉGRESSION SILENCIEUSE DE SÉCURITÉ, évitée de justesse.** Les zones de tension s'apparient **par le nom de
+    région, à l'exécution** : renommer les comtés kényans a fait cesser de s'appliquer trois mises en garde du Quai
+    d'Orsay — Mandera, Wajir, Garissa, et l'est d'Isiolo — plus une exception hondurienne portant sur les îles de la
+    Baie et deux départements. Rien ne cassait : `trip-data.js` recopie les noms tels quels et ne bougeait même
+    pas. Seul le générateur de zones protestait, dans une ligne de journal facile à ne pas lire. Les sept règles
+    sont reprises, et **un test de non-régression refuse désormais qu'une règle cite une région qu'aucune fiche ne
+    porte** — éprouvé en cassant une règle, sur les 359 du monde entier.
+  - **DEUX PAYS REFUSÉS, chacun pour un motif mesuré.** La Lettonie et l'Azerbaïdjan portent cinq de ces doublons
+    (29 fiches), mais leur régénération en change bien d'autres : la Lettonie fait passer **1 531 fiches du
+    *pagasts* à la commune** et les réécrit en anglais (« Popes pag. » → « Ventspils Municipality »), l'Azerbaïdjan
+    en change **813**, dont des changements de raion pur et simple — « Astara » → « Lənkəran », « Şuşa » →
+    « Khojavend ». Les deux sont restaurés, leurs entrées retirées plutôt que laissées mortes.
+  - **Restent, mesurées et non corrigées** : ces 5 doublons lettons et azerbaïdjanais, les 11 couples de terminaison,
+    et deux étiquettes azerbaïdjanaises ORPHELINES (« Tartar District », « Zangilan District », 27 fiches) qui
+    portent un mot de catégorie sans avoir de jumelle — les renommer demanderait d'écrire « Tərtər » et « Zəngilan »,
+    graphies qu'aucune source du dépôt ne contient.
+  - **Mon propre contrôle s'est trompé une fois** : il déclarait 1 143 étiquettes azerbaïdjanaises « hors alphabet
+    latin » parce qu'il arrêtait le latin à U+024F, quand le schwa ə de « Lənkəran » est une lettre latine rangée
+    à U+0259, dans le bloc des extensions phonétiques.
+
 - **LE PAKISTAN ET LE BRÉSIL SONT RÉCUPÉRÉS : 148 839 vrais codes postaux gagnés, et PAS UNE étiquette changée.**
   Ces deux pays avaient été restaurés la veille — 102 784 et 46 055 codes postaux refusés — parce que leur
   régénération abîmait les étiquettes de région. Le défaut n'était pas le même dans les deux cas, et il a fallu le

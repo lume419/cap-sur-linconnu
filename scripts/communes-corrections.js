@@ -1254,6 +1254,33 @@ const ETIQUETTE_UNIFIEE = {
     "Criuleni- Dub.": "Criuleni-Dub."   // 2 fiches, casse ou ponctuation seule
   },
   RO: {
+    // TRADUCTION, comme aux Bermudes et au Honduras : « Bucharest » est l'anglais de « Bucureşti », et la capitale
+    // est publiée sous les deux. Le crible spatial voulait la fondre dans « Ilfov », le judeţ qui l'ENTOURE — c'est
+    // précisément l'erreur que le recouvrement fait commettre : Bucarest est une municipalité à part entière.
+    "Bucharest": "Bucureşti",   //   1 fiche
+    // HABILLAGE ADMINISTRATIF (25/09/2026) : dix-neuf judeţe publiés aussi sous « X County », un à huit fiches
+    // chacun. La cible garde la CÉDILLE de la forme majoritaire déjà publiée (« Iaşi », 454 fiches) : le roumain
+    // correct emploie la virgule souscrite (« Iași »), mais c'est une autre question — elle touche 7 000 fiches et
+    // ne se règle pas en passant.
+    "Tulcea County": "Tulcea",   // 8 fiches
+    "Iași County": "Iaşi",   // 3 fiches
+    "Galați County": "Galaţi",   // 3 fiches
+    "Botoșani County": "Botoşani",   // 2 fiches
+    "Vâlcea County": "Vâlcea",   // 2 fiches
+    "Bacău County": "Bacău",   // 2 fiches
+    "Călărași County": "Călăraşi",   // 2 fiches
+    "Bihor County": "Bihor",   // 2 fiches
+    "Brăila County": "Brăila",   // 2 fiches
+    "Ialomița County": "Ialomiţa",   // 2 fiches
+    "Gorj County": "Gorj",   // 1 fiches
+    "Vaslui County": "Vaslui",   // 1 fiches
+    "Giurgiu County": "Giurgiu",   // 1 fiches
+    "Bistrița-Năsăud County": "Bistriţa-Năsăud",   // 1 fiches
+    "Sibiu County": "Sibiu",   // 1 fiches
+    "Brașov County": "Braşov",   // 1 fiches
+    "Harghita County": "Harghita",   // 1 fiches
+    "Hunedoara County": "Hunedoara",   // 1 fiches
+    "Mehedinți County": "Mehedinţi",   // 1 fiches
     "Arges": "Argeş"   // 1 fiches, diacritique, plus proche à 13 km
   },
   DE: {
@@ -1262,7 +1289,91 @@ const ETIQUETTE_UNIFIEE = {
     'Thuringia': 'Thüringen',                                        //  57 fiches, carte 3/3
     'Mecklenburg-Western Pomerania': 'Mecklenburg-Vorpommern',       //  36 fiches, carte 3/3
     'Saxony-Anhalt': 'Sachsen-Anhalt'                                //  28 fiches, carte 3/3
-  }
+  },
+  KE: {
+    // HABILLAGE ADMINISTRATIF (25/09/2026) : trente-huit des quarante-sept comtés kényans étaient publiés sous
+    // DEUX noms, « Bomet » et « Bomet County », selon la source consultée par le générateur. Le sens de la
+    // correction n'est PAS celui de la majorité — « Tana River County » compte 163 fiches contre 62 à « Tana
+    // River » — parce que « County » n'appartient pas au nom du comté. Un des trente-huit portait la minuscule,
+    // « Nyamira county », et un premier jet l'avait laissé passer.
+    "Kitui County": "Kitui",   // 166 fiches
+    "Tana River County": "Tana River",   // 163 fiches
+    "Meru County": "Meru",   // 125 fiches
+    "Kwale County": "Kwale",   // 95 fiches
+    "Makueni County": "Makueni",   // 87 fiches
+    "West Pokot County": "West Pokot",   // 69 fiches
+    "Kajiado County": "Kajiado",   // 68 fiches
+    "Narok County": "Narok",   // 61 fiches
+    "Machakos County": "Machakos",   // 60 fiches
+    "Kilifi County": "Kilifi",   // 60 fiches
+    "Turkana County": "Turkana",   // 51 fiches
+    "Migori County": "Migori",   // 48 fiches
+    "Nyandarua County": "Nyandarua",   // 43 fiches
+    "Samburu County": "Samburu",   // 43 fiches
+    "Kiambu County": "Kiambu",   // 41 fiches
+    "Garissa County": "Garissa",   // 35 fiches
+    "Nyeri County": "Nyeri",   // 31 fiches
+    "Homa Bay County": "Homa Bay",   // 30 fiches
+    "Kakamega County": "Kakamega",   // 26 fiches
+    "Nyamira county": "Nyamira",   // 26 fiches
+    "Isiolo County": "Isiolo",   // 23 fiches
+    "Vihiga County": "Vihiga",   // 22 fiches
+    "Busia County": "Busia",   // 22 fiches
+    "Wajir County": "Wajir",   // 21 fiches
+    "Siaya County": "Siaya",   // 20 fiches
+    "Marsabit County": "Marsabit",   // 20 fiches
+    "Kisumu County": "Kisumu",   // 19 fiches
+    "Kisii County": "Kisii",   // 18 fiches
+    "Bomet County": "Bomet",   // 17 fiches
+    "Bungoma County": "Bungoma",   // 17 fiches
+    "Nakuru County": "Nakuru",   // 17 fiches
+    "Uasin Gishu County": "Uasin Gishu",   // 16 fiches
+    "Mandera County": "Mandera",   // 16 fiches
+    "Kericho County": "Kericho",   // 13 fiches
+    "Mombasa County": "Mombasa",   // 12 fiches
+    "Kirinyaga County": "Kirinyaga",   // 12 fiches
+    "Nairobi County": "Nairobi",   // 5 fiches
+    "Embu County": "Embu"   // 5 fiches
+  },
+  HN: {
+    // DEUX AUTRES FAÇONS DE PUBLIER UNE RÉGION SOUS DEUX NOMS, qu'aucun des deux cribles de graphie ne peut voir
+    // — les noms ne se ressemblent pas du tout :
+    //   TRADUCTION. « Bay Islands » est l'anglais d'« Islas de la Bahía ». La forme espagnole l'emporte bien qu'elle
+    //     soit MINORITAIRE (27 fiches contre 35) : tout le reste du fichier hondurien est en espagnol, et la carte
+    //     rend « Islas de la Bahía » (HN-IB) sur les deux, à West End comme à Watering Place.
+    //   VILLE PRISE POUR UN DÉPARTEMENT. San Pedro Sula n'est pas un département : c'est la deuxième ville du pays,
+    //     dans celui de Cortés. Ses 46 fiches tiennent dans une boîte de 15 km autour d'elle, le crible spatial leur
+    //     donne 100 % de recouvrement avec Cortés, et la carte rend « Cortés » (HN-CR) sur Tomala de Cortez.
+    "Bay Islands": "Islas de la Bahía",   //  35 fiches, carte : « Islas de la Bahía » (HN-IB)
+    "San Pedro Sula": "Cortés",           //  46 fiches, carte : « Cortés » (HN-CR)
+    // HABILLAGE ADMINISTRATIF (25/09/2026) : les dix-sept départements honduriens, chacun publié sous deux ou trois
+    // noms — « Choluteca », « Choluteca Department », et parfois une troisième forme SANS ACCENT venue du fichier
+    // postal (« Francisco Morazan », « El Paraiso », « Santa Barbara », « Intibuca », « Colon »). Cible = le nom nu
+    // ACCENTUÉ, exactement comme au Guatemala où « DEPTO DE PETEN » est devenu « Petén ». C'est le plus gros lot de
+    // la famille : 10 160 fiches, dont 1 655 pour le seul Francisco Morazán.
+    "Francisco Morazán Department": "Francisco Morazán",   // 1655 fiches
+    "Choluteca Department": "Choluteca",   // 1047 fiches
+    "El Paraíso Department": "El Paraíso",   // 897 fiches
+    "Lempira Department": "Lempira",   // 727 fiches
+    "Olancho Department": "Olancho",   // 643 fiches
+    "Yoro Department": "Yoro",   // 530 fiches
+    "Santa Bárbara Department": "Santa Bárbara",   // 467 fiches
+    "Copán Department": "Copán",   // 466 fiches
+    "Valle Department": "Valle",   // 464 fiches
+    "Comayagua Department": "Comayagua",   // 447 fiches
+    "La Paz Department": "La Paz",   // 429 fiches
+    "Cortés Department": "Cortés",   // 409 fiches
+    "Intibucá Department": "Intibucá",   // 327 fiches
+    "Francisco Morazan": "Francisco Morazán",   // 298 fiches, graphie sans accent de la même forme nue
+    "Santa Barbara": "Santa Bárbara",   // 249 fiches, graphie sans accent de la même forme nue
+    "Gracias a Dios Department": "Gracias a Dios",   // 226 fiches
+    "Atlántida Department": "Atlántida",   // 214 fiches
+    "Colón Department": "Colón",   // 200 fiches
+    "El Paraiso": "El Paraíso",   // 151 fiches, graphie sans accent de la même forme nue
+    "Intibuca": "Intibucá",   // 131 fiches, graphie sans accent de la même forme nue
+    "Ocotepeque Department": "Ocotepeque",   // 124 fiches
+    "Colon": "Colón"   // 59 fiches, graphie sans accent de la même forme nue
+  },
 };
 // Rend la graphie majoritaire du pays, ou null si l'étiquette n'est pas une graphie minoritaire connue.
 function uniformiseEtiquette(country, region){

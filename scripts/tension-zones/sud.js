@@ -69,7 +69,7 @@ module.exports = [
   {
     country: 'KE', level: 'orange',
     label: "Comtés de Mandera, Wajir et Garissa (hors zone rouge)",
-    match: { regions: ['Mandera County', 'Wajir County', 'Garissa County'] },
+    match: { regions: ['Mandera', 'Wajir', 'Garissa'] },
     source: U('kenya'), date: D
   },
   {
@@ -84,7 +84,7 @@ module.exports = [
   {
     country: 'KE', level: 'orange',
     label: "Est du comté d'Isiolo (Merti, Mado Gashi, Garbatulla)",
-    match: { regions: ['Isiolo County'] },
+    match: { regions: ['Isiolo'] },
     except: { near: [{ name: 'Isiolo / Archer\'s Post', lat: 0.354, lon: 37.582, km: 50 }] },
     source: U('kenya'), date: D
   },
