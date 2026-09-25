@@ -51,7 +51,7 @@
 0;-8.6500,51.9333;P31;Munster;Vicarstown Cross Roads
 0;-7.0886,53.0492;R14;Leinster;Vicarstown
 423;-10.3669,52.1325;;Munster;Ventry
-1038;-7.5825,52.7206;;Leinster;Urlingford
+1038;-7.5825,52.7206;E41;Leinster;Urlingford
 0;-7.2853,55.3364;;Ulster;Urbalreagh
 0;-8.6733,51.7922;P72;Munster;Upton
 0;-8.0175,52.7033;;Munster;Upperchurch
@@ -241,13 +241,13 @@
 0;-7.1792,52.1967;X91;Munster;Sporthouse Cross Roads
 0;-8.3375,52.3800;P67;Munster;Spittle
 0;-7.2261,52.8994;;Leinster;Spink
-237;-9.3028,53.2467;;Connacht;Spiddal
+237;-9.3028,53.2467;H91;Connacht;Spiddal
 0;-7.0000,53.9167;;Ulster;Spear Vale
 0;-8.9000,52.8667;;Munster;Spancelhill
 460;-9.7851,52.2773;V92;Munster;Spa
 0;-7.0695,53.6107;;Leinster;Southhill
 0;-7.3211,55.0647;;Ulster;Soppog
-258;-9.9010,51.8378;;Munster;Sneem
+258;-9.9010,51.8378;V93;Munster;Sneem
 495;-7.0908,54.2233;H18;Ulster;Smithborough
 0;-10.4233,52.1944;;Munster;Smerwick
 20608;-8.4694,54.2697;F91;Connacht;Sligo
@@ -614,7 +614,7 @@
 0;-8.9794,51.5872;P85;Munster;Newmills
 1773;-8.8956,52.7600;V14;Munster;Newmarket on Fergus
 0;-7.2592,52.4733;;Leinster;Newmarket
-988;-9.0000,52.2167;;Munster;Newmarket
+988;-9.0000,52.2167;P51;Munster;Newmarket
 0;-7.1769,53.9019;;Ulster;New Inn
 0;-8.4839,53.3003;H62;Connacht;New Inn
 0;-7.8825,52.4400;E21;Munster;Newinn
@@ -684,7 +684,7 @@
 0;-9.3778,54.0939;;Connacht;Moylaw
 0;-7.2344,52.8486;;Leinster;Moyhora
 0;-7.7667,53.6667;N39;Leinster;Moydow
-1704;-9.1800,53.3378;;Connacht;Moycullen
+1704;-9.1800,53.3378;H91;Connacht;Moycullen
 0;-6.9756,54.4006;;Ulster;Moy Bridge
 0;-9.5383,52.6714;V15;Munster;Moyasta
 0;-9.2000,53.3833;;Connacht;Moyascragh
@@ -1138,7 +1138,7 @@
 0;-7.4833,53.7333;;Leinster;Killasona
 215;-7.8792,53.6804;N39;Leinster;Killashee
 388;-7.5333,54.0167;H14;Ulster;Killeshandra
-14504;-9.5086,52.0598;;Munster;Killarney
+14504;-9.5086,52.0598;V93;Munster;Killarney
 0;-8.2075,54.2300;;Connacht;Killarga
 0;-6.7408,52.5225;Y21;Leinster;Killann
 0;-7.0719,53.3356;R45;Leinster;Killane
@@ -1722,7 +1722,7 @@
 0;-8.1467,52.5408;E34;Munster;Donohill
 10645;-6.2227,53.3137;D04;Leinster;Donnybrook
 780;-8.5833,52.2167;P51;Munster;Doneraile
-2618;-8.1113,54.6538;;Ulster;Donegal
+2618;-8.1113,54.6538;F94;Ulster;Donegal
 147;-8.0814,52.5219;E34;Munster;Donaskeagh
 196;-6.6147,53.0192;;Leinster;Donard
 0;-6.7000,54.0000;A81;Ulster;Donaghmoyne
@@ -2086,7 +2086,7 @@
 6380;-6.9667,53.1569;R51;Leinster;Cherryville
 334;-6.9983,52.2708;X91;Munster;Cheekpoint
 3919;-8.6833,52.3500;P56;Munster;Charleville
-1033;-8.7942,53.9642;;Connacht;Charlestown
+1033;-8.7942,53.9642;F12;Connacht;Charlestown
 0;-7.6031,53.3397;R35;Leinster;Charlestown
 0;-9.8333,52.2833;V92;Munster;Chapeltown
 0;-6.3103,53.4575;K67;Leinster;Chapelmidway
@@ -2132,7 +2132,7 @@
 0;-8.8000,52.2000;;Munster;Castlecor
 0;-8.2833,53.6167;F42;Connacht;Castlecoote
 0;-9.1294,54.1628;F26;Connacht;Castleconor
-1502;-7.2106,52.8061;;Leinster;Castlecomer
+1502;-7.2106,52.8061;R95;Leinster;Castlecomer
 0;-7.1000,55.1667;;Ulster;Castle Cary
 1840;-6.4494,52.3864;Y35;Leinster;Castlebridge
 3607;-6.7333,54.1167;A75;Ulster;Castleblayney
@@ -2173,7 +2173,7 @@
 0;-8.2153,52.2847;P67;Munster;Carrigane
 0;-7.4000,53.8833;H12;Ulster;Carrigan
 0;-8.3333,51.8667;P24;Munster;Carrigaloe
-387;-7.6458,53.9772;;Connacht;Carrigallen
+387;-7.6458,53.9772;H12;Connacht;Carrigallen
 18239;-8.3986,51.8117;P43;Munster;Carrigaline
 0;-8.1439,53.0625;;Munster;Carrigahorig
 0;-9.7049,52.6059;;Munster;Carrigaholt
@@ -2208,7 +2208,7 @@
 0;-7.8406,54.5742;;Ulster;Carn
 0;-9.2922,54.2322;;Connacht;Carn
 27351;-6.9261,52.8408;R93;Leinster;Carlow
-1445;-6.1883,54.0400;;Leinster;Carlingford
+1445;-6.1883,54.0400;A91;Leinster;Carlingford
 631;-6.8410,53.7594;A82;Leinster;Carlanstown
 0;-9.0333,54.1500;;Connacht;Carha
 0;-7.0864,53.8989;;Ulster;Cargagh
@@ -2363,7 +2363,7 @@
 0;-7.0699,53.7175;;Leinster;Bobsville
 0;-8.2578,52.0536;T56;Munster;Bluebell
 0;-7.6139,53.2244;R35;Leinster;Blue Ball
-5520;-6.5325,53.1700;;Leinster;Blessington
+5520;-6.5325,53.1700;W91;Leinster;Blessington
 719;-9.7333,52.2500;V92;Munster;Blennerville
 0;-7.9667,53.2500;;Leinster;Bleach Hill
 2539;-8.5667,51.9333;P31;Munster;Blarney
@@ -2492,7 +2492,7 @@
 0;-9.7814,51.5619;;Munster;Ballyroon
 455;-7.3042,52.9456;R32;Leinster;Ballyroan
 0;-8.0364,51.9953;P36;Munster;Ballyre
-1082;-7.3303,52.7889;;Leinster;Ballyragget
+1082;-7.3303,52.7889;R95;Leinster;Ballyragget
 0;-7.1283,52.3694;X91;Munster;Ballyquin
 0;-10.1622,52.2600;;Munster;Ballyquin
 313;-8.1003,52.2692;;Munster;Ballyporeen
@@ -2583,7 +2583,7 @@
 475;-8.4006,52.1494;P61;Munster;Ballyhooly
 0;-9.0500,52.1500;;Munster;Ballyhoolahan
 0;-9.1167,53.5500;F31;Connacht;Ballyhenry
-724;-9.8336,52.3833;;Munster;Ballyheige
+724;-9.8336,52.3833;V92;Munster;Ballyheige
 0;-7.3500,53.8333;;Ulster;Ballyheelan
 0;-9.3138,53.7933;F23;Connacht;Ballyhean
 2366;-8.7667,53.7667;F35;Connacht;Ballyhaunis
@@ -2601,7 +2601,7 @@
 556;-8.4623,51.8220;P43;Munster;Ballygarvan
 0;-9.1833,53.6833;F31;Connacht;Ballygarries
 0;-6.2261,52.5725;Y25;Leinster;Ballygarrett
-1345;-8.3274,53.5216;;Connacht;Ballygar
+1345;-8.3274,53.5216;F42;Connacht;Ballygar
 0;-7.2303,52.7236;R95;Leinster;Ballyfoyle
 200;-10.4167,52.1667;;Munster;Ballyferriter
 0;-8.4375,51.7553;P43;Munster;Ballyfeard
@@ -2625,7 +2625,7 @@
 285;-6.8303,52.2744;;Leinster;Ballycullane
 0;-9.9500,51.7167;;Munster;Ballycrovane
 0;-8.1936,53.1467;;Connacht;Ballycrossaun
-497;-8.0161,51.8333;;Munster;Ballycotton
+497;-8.0161,51.8333;P25;Munster;Ballycotton
 0;-7.3536,52.8039;;Leinster;Ballyconra
 0;-8.6517,54.3631;;Connacht;Ballyconnell
 1105;-7.5833,54.1167;;Ulster;Ballyconnell
@@ -2640,7 +2640,7 @@
 0;-6.1317,52.9080;A67;Leinster;Ballycapple
 502;-6.3031,52.6089;Y25;Leinster;Ballycanew
 0;-7.9047,52.6894;E41;Munster;Ballycahill
-1354;-9.6710,52.5111;;Munster;Ballybunnion
+1354;-9.6710,52.5111;V31;Munster;Ballybunnion
 0;-7.6025,52.8994;;Leinster;Ballybrophy
 0;-8.4464,52.5597;;Munster;Ballybrood
 388;-7.1375,53.1094;W34;Leinster;Ballybrittas
@@ -2770,7 +2770,7 @@
 0;-6.8731,53.8592;;Leinster;Ash Field
 12679;-6.3982,53.5116;A84;Leinster;Ashbourne
 0;-7.7500,53.9333;;Connacht;Ashakiltubbrid
-411;-7.5836,53.9235;;Ulster;Arvagh
+411;-7.5836,53.9235;H12;Ulster;Arvagh
 127;-6.9534,52.2436;X91;Munster;Arthurstown
 0;-9.3833,52.2167;;Munster;Arnagragh
 0;-7.0333,52.9000;R93;Leinster;Arless
@@ -8386,7 +8386,7 @@
 0;-7.1487,54.2944;H18;Ulster;Knockatallon
 439;-7.0868,53.2611;R45;Leinster;Clonbullogue
 0;-8.4095,53.7177;F45;Connacht;Ballintubber
-200;-8.2657,53.4700;;Connacht;Ballyforan
+200;-8.2657,53.4700;H53;Connacht;Ballyforan
 0;-7.9980,53.4577;N37;Leinster;Hodson Bay
 0;-8.1374,54.0504;;Connacht;Keadue
 0;-8.2875,53.8365;;Connacht;Mantua

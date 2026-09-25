@@ -51,20 +51,40 @@ function codesPublies(cc){
   return out;
 }
 // Les lieux publiés du pays qui portent un VRAI code postal, avec leur position : c'est le voisinage qui corrobore.
+//
+// UNE SOURCE NE S'ATTESTE PAS ELLE-MÊME, et c'est tout l'intérêt de ce crible : le code récolté doit s'accorder
+// avec un code GEONAMES, venu d'ailleurs. Or dès le second passage, le fichier publié CONTIENT les codes déjà posés
+// par cet outil — et ils se corroboraient entre eux. Mesuré : 112 codes refusés la veille étaient « corroborés »
+// au passage suivant, 60 pour la seule Ukraine, sans qu'aucune donnée nouvelle ne soit venue les appuyer. Les codes
+// listés dans scripts/postal-osm/ sont donc RETIRÉS du voisinage.
 function voisinage(cc){
   const f = ROOT + 'public/data/communes-' + cc.toLowerCase() + '.txt';
   const out = [];
   if(!fs.existsSync(f)) return out;
+  const nôtres = new Set();
+  const t = path.join(DOSSIER, cc + '.txt');
+  if(fs.existsSync(t)){
+    for(const l of fs.readFileSync(t, 'utf8').split('\n')){
+      if(!l || l.charAt(0) === '#') continue;
+      const c = l.split('\t');
+      if(c.length >= 4) nôtres.add(c[0] + ',' + c[1] + '|' + c[3]);
+    }
+  }
   for(const l of fs.readFileSync(f, 'utf8').split('\n')){
     if(!l) continue;
     const c = l.split(';');
     if(!c[2] || /^[A-Za-z]{2}-/.test(c[2])) continue;
     const ll = (c[1] || '').split(',');
+    if(nôtres.has((+ll[1]).toFixed(4) + ',' + (+ll[0]).toFixed(4) + '|' + c[4])) continue;
     out.push({ lat: +ll[1], lon: +ll[0], cp: c[2].split(',')[0] });
   }
   return out;
 }
-const chiffres = cp => String(cp).replace(/\D/g, '');
+// Comparaison des préfixes : on garde les LETTRES autant que les chiffres. Un premier jet ne gardait que les
+// chiffres, ce qui suffisait tant qu'aucun pays retenu n'avait de code alphanumérique — vérifié, les 31 tables
+// écrites le 25/09/2026 n'en contenaient aucun. L'Irlande en a fait un cas : ses codes sont des CLÉS DE ROUTAGE
+// (« V95 », « A41 »), et ne comparer que les chiffres aurait déclaré « V95 » et « A95 » d'accord entre eux.
+const chiffres = cp => String(cp).toUpperCase().replace(/[^0-9A-Z]/g, '');
 // Longueur de préfixe comparée : la moitié des chiffres du pays, entre 2 et 3. Mesurée sur le témoin, cette règle
 // donne 94 % d'accord entre codes GeoNames voisins — elle est donc assez fine pour discriminer sans être tatillonne.
 const longueurPrefixe = ref => Math.min(3, Math.max(2, Math.round(chiffres(ref).length / 2)));

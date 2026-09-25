@@ -143,6 +143,25 @@ marqués `[à vérifier]` et listés en fin de fichier.
     Pelješac est une presqu'île. Régénération de la Croatie : **une ligne changée, le seul champ de région**.
   - Le test de non-régression posé le jour même la couvre sans qu'on ait eu à y toucher.
 
+- **DIX-NEUF CLÉS DE ROUTAGE IRLANDAISES, et une source qui s’attestait elle-même** (demande de l’utilisateur).
+  L’Irlande avait été écartée la veille : un Eircode désigne un BÂTIMENT, pas une commune. La donnée a tranché la
+  question du tronquage — les **7 186 codes irlandais déjà publiés font tous trois caractères** (« E45 », « P36 »,
+  « X91 »), le fichier postal GeoNames ne livrant que des clés de routage. Garder l’Eircode entier serait
+  l’anomalie ; le couper le remet dans la forme du pays. La coupe se fait À LA RÉCOLTE, pour que le cache ne
+  conserve jamais la partie qui désigne un bâtiment précis.
+  - **Le rendement irlandais est le plus faible de tous : 28 codes sur 335 interrogés, soit 8 %**, contre 60 % en
+    moyenne. L’explication est structurelle et vaut d’être écrite : la base Eircode est PROPRIÉTAIRE, et
+    OpenStreetMap ne peut pas l’importer en masse. Après cribles, **19 clés** — Killarney V93, Donegal F94,
+    Sneem V93, Ballybunnion V31 — dont dix-sept ont un voisin de clé IDENTIQUE.
+  - **UNE SOURCE NE S’ATTESTE PAS ELLE-MÊME.** Le crible de corroboration lit le fichier publié pour y chercher un
+    code GeoNames voisin. Dès ce second passage, ce fichier contenait les codes posés la veille par le même outil —
+    et ils se corroboraient entre eux : **112 codes refusés la veille passaient soudain**, 60 pour la seule Ukraine,
+    sans qu’aucune donnée nouvelle ne les appuie. Les codes de scripts/postal-osm/ sont désormais RETIRÉS du
+    voisinage. Après correction, plus un seul pays ne bouge en dehors de l’Irlande.
+  - **Le crible ne comparait que les CHIFFRES des codes**, ce qui suffisait tant qu’aucun pays retenu n’avait de
+    code alphanumérique — vérifié, les 31 tables de la veille n’en contenaient aucun. Sur des clés de routage, il
+    aurait déclaré « V95 » et « A95 » d’accord entre eux. Il garde maintenant les lettres.
+
 - **1 224 CODES POSTAUX TIRÉS D'OPENSTREETMAP, et 2 321 REFUSÉS** (demande de l'utilisateur). 99 109 fiches
   publiées n'ont aucun code postal, faute d'un point du fichier GeoNames à moins de 15 km. OpenStreetMap en connaît
   une partie : Nominatim CALCULE un code en interrogeant les adresses voisines et les frontières postales, là où

@@ -1,0 +1,22 @@
+# Codes postaux tirés d'OpenStreetMap via Nominatim (ODbL), pour des lieux qu'aucun point du fichier postal
+# GeoNames n'approche à moins de 15 km. Produit par scripts/fetch-osm-postcodes.js puis apply-osm-postcodes.js.
+# lat	lon	code	nom	distance_km	date
+52.0598	-9.5086	V93	Killarney	0.006	2026-09-25	V92@12km
+53.1700	-6.5325	W91	Blessington	0.032	2026-09-25	W91@1.8km
+54.6538	-8.1113	F94	Donegal	0.03	2026-09-25	F94@7.9km
+53.3378	-9.1800	H91	Moycullen	0.076	2026-09-25	H91@3km
+52.8061	-7.2106	R95	Castlecomer	0.016	2026-09-25	R95@3.1km
+54.0400	-6.1883	A91	Carlingford	0.004	2026-09-25	A91@4.3km
+52.5111	-9.6710	V31	Ballybunnion	0.022	2026-09-25	V31@2km
+53.5216	-8.3274	F42	Ballygar	0.048	2026-09-25	F42@3km
+52.7889	-7.3303	R95	Ballyragget	0.062	2026-09-25	R95@4.5km
+52.7206	-7.5825	E41	Urlingford	0.007	2026-09-25	E41@5.7km
+53.9642	-8.7942	F12	Charlestown	0.033	2026-09-25	F12@5.9km
+52.2167	-9.0000	P51	Newmarket	0.029	2026-09-25	P56@12km
+52.3833	-9.8336	V92	Ballyheige	0.297	2026-09-25	V92@1.9km
+51.8333	-8.0161	P25	Ballycotton	0.224	2026-09-25	P25@2.8km
+53.9235	-7.5836	H12	Arvagh	0.019	2026-09-25	H12@5km
+53.9772	-7.6458	H12	Carrigallen	0.02	2026-09-25	H12@6.7km
+51.8378	-9.9010	V93	Sneem	0.031	2026-09-25	V93@10.5km
+53.2467	-9.3028	H91	Spiddal	0.179	2026-09-25	H91@10.2km
+53.4700	-8.2657	H53	Ballyforan	0.051	2026-09-25	H53@4.6km

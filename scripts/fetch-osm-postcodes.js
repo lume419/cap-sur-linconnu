@@ -29,11 +29,16 @@ const UA = 'CapSurLInconnu/1.0 (fetch-osm-postcodes; https://github.com/lume419/
 const PAUSE_MS = 1100;          // une requête par seconde, avec une marge
 const POP_MIN = +(process.env.POP_MIN || 1);
 
-// L'IRLANDE EST ÉCARTÉE, et c'est le seul pays exclu par nature. Un Eircode ne désigne pas une commune mais UN
-// BÂTIMENT : « V95 X754 » rendu pour Ennis est le code d'un commerce, pas celui de la ville. Seules ses trois
-// premières lettres, la clé de routage, désignent une zone — écrire un Eircode complet comme code de la ville
-// serait faux, et le tronquer serait décider à la place de l'utilisateur. Ses 335 fiches attendent cette décision.
-const PAYS_ECARTES = { IE: 'Eircode : un code par BÂTIMENT, pas par commune (voir le journal du 25/09/2026)' };
+// L'IRLANDE DEMANDE UNE COUPE, et c'est le seul pays dans ce cas. Un Eircode ne désigne pas une commune mais UN
+// BÂTIMENT : « V95 X754 », rendu pour Ennis, est le code d'un commerce de photographie. Seuls ses TROIS PREMIERS
+// caractères — la clé de routage — désignent une zone postale.
+// Ce pays avait d'abord été écarté, faute de savoir si tronquer était légitime. La donnée a répondu : les 7 186
+// codes irlandais DÉJÀ PUBLIÉS sont tous longs de trois caractères (« E45 », « P36 », « X91 »), le fichier postal
+// GeoNames ne livrant que des clés de routage. Garder l'Eircode entier serait donc l'anomalie ; le tronquer le
+// remet dans la forme du pays. La coupe est faite ICI, à la récolte, pour que le cache ne conserve jamais la partie
+// qui désigne un bâtiment précis — elle ne nous regarde pas.
+const COUPE = { IE: cp => String(cp).toUpperCase().replace(/[^0-9A-Z]/g, '').slice(0, 3) };
+const PAYS_ECARTES = {};
 
 function fiches(cc){
   const f = ROOT + 'public/data/communes-' + cc.toLowerCase() + '.txt';
@@ -95,7 +100,11 @@ function km(aLat, aLon, bLat, bLon){
       else {
         const j = await r.json();
         const a = j.address || {};
-        e.cp = a.postcode || null;
+        // La coupe s'applique AVANT l'écriture au cache (voir COUPE) : l'Eircode complet désigne un bâtiment, et
+        // rien dans ce projet n'a besoin de cette précision-là. On garde ce que le pays publie, la clé de routage.
+        const brut = a.postcode || null;
+        e.cp = brut && COUPE[p.cc] ? (COUPE[p.cc](brut) || null) : brut;
+        if(brut && e.cp !== brut) e.cpBrutTronqué = true;
         e.osm = j.name || null;
         // Distance entre NOTRE lieu et l'objet qu'OSM a rendu : c'est elle qui dira si le code est celui du lieu
         // ou celui d'un voisin. Enregistrée ici, jugée ailleurs (voir apply-osm-postcodes.js).
